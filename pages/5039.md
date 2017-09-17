@@ -119,6 +119,11 @@ Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively
 
 Satisfaction on a class of models  is related to [[validity]] of modal formulae. In this way a class of frames can determine a logic and then the logic determines a class of frames.  The axiomatisation of that class/logic is then an interesting challenge.
 
+## Related concepts
+
+* [[modal type theory]]
+
+* [[algebraic model for modal logic]]
 
 ## References
 
@@ -128,6 +133,9 @@ Generally this entry is based on
 
 (any mistakes or errors of interpretation are due to ....!)
 
-
+[[!redirects geometric model for modal logic]]
 [[!redirects geometric model for modal logics]]
+[[!redirects geometric models for modal logic]]
 [[!redirects geometric models for modal logics]]
+
+[[!redirects Kripke semantics]]
