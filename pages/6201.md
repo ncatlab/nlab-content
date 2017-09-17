@@ -4029,7 +4029,7 @@ Since under [[homotopy pullback]]s a weak equivalence of diagrams is sent to a w
 
 #### The canonical form on a simplicial Lie group
 
-Above we discussed the canonical form on smooth $\infty$-groups $G$ for the special cases where $G$ is a Lie group and where $G$ is a [[circle Lie n-group]]. These are both in turn special cases of the situation where $G$
+Above we discussed the canonical form on smooth $\infty$-groups $G$ for the special cases where $G$ is a [[Lie group]] and where $G$ is a [[circle Lie n-group]]. These are both in turn special cases of the situation where $G$
 [[Lie group|Lie]] [[simplicial group]]. This we discuss now.
 
 +-- {: .num_prop }
@@ -4049,24 +4049,128 @@ $\Omega^1_{flat}(-, \mathfrak{g}_k)$, where $\mathfrak{g}_k = Lie(G_k)$ is the [
 Let 
 
 $$
-  (C^\infty(-,G_\bullet) \stackrel{}{\to} \Omega^1_{flat}(-,\mathfrak{g}_\bullet))
+  \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
+  //G_\bullet
+  =
+  \Omega^1_{flat}(-,\mathfrak{g}_\bullet) 
+    \times
+  C^\infty(-,G_\bullet) 
+   \stackrel{\to}{\to} 
+  \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
 $$
 
 be the [[presheaf]] of [[simplicial groupoids]] which in degree $k$ is the [[groupoid of Lie-algebra valued forms]] with values in $G_k$ from [above](#CanonicalFormOnLieGroup). Along the lines of the discussion there we have that under the degreewise [[nerve]] this is a degreewise fibrant [[resolution]] of presheaves of [[bisimplicial set]]s
 
 $$
-  N(C^\infty(-,G_\bullet) \stackrel{}{\to} \Omega^1_{flat}(-,\mathfrak{g}_\bullet))
-  \to
+  N  \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
+    //
+    G_\bullet
+   \to
   N B (G_{disc})_\bullet
 $$
 
-of the standard presentation of the delooping of the [[discrete group]] underlying $G$.
+of the standard presentation of the delooping of the [[discrete group]] underlying $G$. By the discussion at [[bisimplicial set]] we know that under taking the [[diagonal]] 
 
-Now... (spring)
+$$
+  diag : sSet^\Delta \to sSet
+$$
 
+the object on the right is a presentation for $\mathbf{\flat}_{dR} \mathbf{B}G$, because
+
+$$
+  diag N B (G_{disc})_\bullet
+   \stackrel{\simeq}{\to}
+  \bar W (G_{disc})
+  \simeq
+  \mathbf{\flat}_{dR}\mathbf{B}G
+  \,.
+$$
+
+Now observe that the morphism
+
+$$
+  diag (N  \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
+    //
+    G_\bullet
+  )
+   \to
+  diag N B (G_{disc})_\bullet
+$$
+
+is global fibration. This is in fact true for every
+morphism of the form
+
+$$
+  diag N S//G \to diag N B G
+$$
+
+for $S//G \to B G$ a simlicial [[action groupoid]] projection with $G$ a simplicial group acting on a 
+[[Kan complex]] $S$: we have that 
+
+$$
+  (diag N S//G)_k 
+   = 
+  S_k \times (G_k)^{\times_k}
+  \,.
+$$
+
+On the second factor the horn filling codition is simply that of the identity map $diag N B G \to diag N B G$ which is evidently possible, whereas on the first factor it amounts to $S \to *$ being a Kan fibration, hence $S$ being Kan fibrant.
+
+But the simplicial presheaf 
+$\Omega^1_{flat}(-,\mathfrak{g}_\bullet)$ is Kan fibrant: for a given $U \in CartSp$ we may use [[parallel transport]] to (non-canonically) identify
+
+$$
+  \Omega^1_{flat}(U, \mathfrak{g}_k)
+   \simeq
+  SmoothMfd_*(U, G_k)
+  \,,  
+$$
+
+where on the right we have [[smooth function]]s that send the origin of $U$ to the neutral element. But since $G_\bullet$ is Kan fibrant and has smooth global fillers (by the discussion at [[simplicial group]] one can give algebraic formulas for the fillers, which translate into smooth manps) als $SmoothMfd_*(U,G_\bullet)$ is Kan fibrant.
+
+In summary this means that the definition [[homotopy pullback]] 
+
+$$\mathbf{\flat}_{dR} \mathbf{B}G
+  :=
+  \mathbf{\flat} \mathbf{B}G \times_{\mathbf{B}G} *
+$$
+
+is presented by the ordinary [[pullback]] of [[simplicial presheaves]]
+
+$$
+  diag N \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
+   \times
+  diag N B G_\bullet *
+  =
+  \Omega^1(-, \mathfrak{g}_\bullet)
+  \,.
+$$
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+For $G$ a simplicial Lie group the canonical Maurer-Cartan form
+
+$$
+  \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}G
+$$
+
+is presented in terms of the above presentation for
+$\mathbf{\flat}_{dR} \mathbf{B}G$ by the morphisms of simplicial presheaves
+
+$$
+  \theta_k 
+   : 
+  C^\infty(-,(G_k)^{\times k})
+   \to 
+  (...)
+$$
+
+=--
+
+(...)
 
 ### Differential cohomology 
   {#StrucDifferentialCohomology}
