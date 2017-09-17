@@ -50,7 +50,7 @@ is a weak equivalence.
 
   * the [[model structure for quasi-categories]]
 
-  * the [[model structure on sSet-enriched categories]]
+  * the [[model structure on simplicially enriched categories]]
 
   and many model structures derived from these, such as 
 
