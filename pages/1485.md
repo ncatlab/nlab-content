@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -176,6 +176,9 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 
   * [[Euclidean supermanifold]] (notice that the definition of that is very much along the lines of the Klein-program-style definition above).
 
+## Related concepts
+
+* [[low-dimensional topology]]
 
 ## References
 
