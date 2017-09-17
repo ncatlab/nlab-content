@@ -126,6 +126,10 @@ Also relevant to $n$-ad connectivity is
 
 * Ellis, G.J. and Steiner, R. Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$-ads. _J. Pure Appl. Algebra_ 46 (1987) 117--136. 
 
+Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[algebras over operads]] is in 
+
+* Michael Ching, [[John Harper]], _Higher homotopy excision and Blakers-Massey theorems for structured ring spectra_ ([arXiv:1402.4775](http://arxiv.org/abs/1402.4775))
+
 
 ###  In homotopy type theory and $\infty$-topos theory
  {#ReferencesInHoTT}
