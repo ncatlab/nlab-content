@@ -32,6 +32,7 @@ In fact, the reg/lex and ex/lex completion can be applied to a category that mer
 ## Constructions
 
 ### The ex/lex completion
+ {#TheExLexCompletion}
 
 There are several constructions of the ex/lex completion.  Perhaps the quickest one to state (Hu-Tholen 1996) is that if $C$ is [[small category|small]], then $C_{ex/lex}$ is the full subcategory of its [[presheaf category]] $Set^{C^{op}}$ spanned by those presheaves $F$ such that
 
