@@ -115,7 +115,7 @@ For instance ([Weibel, theorem 2.7.2](#Weibel)).
 
 ### Respect for direct sums and filtered colimits
 
-+-- {: .num_prop}
++-- {: .num_prop #Tor1RespectsDirectSum}
 ###### Proposition
 
 Each $Tor_n^R(-,N)$ resepects [[direct sums]].
@@ -190,8 +190,9 @@ $$
   Tor_1^\mathbb{Z}(\mathbb{Z}_p, A)
   \simeq
   {}_p A
-  \,.
 $$
+
+of the $Tor_1$-group with the $p$-[[torsion subgroup]] of $A$.
 
 =--
 
@@ -238,6 +239,30 @@ $$
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+Let $A$ be a [[finite abelian group]] and $B$ any abelian group. Then
+$Tor_1(A,B)$ is a [[torsion group]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By a fundamental fact about [[finite abelian groups]] (see _[this theorem](finite+abelian+group#FiniteAbelianGroupIsDirectSumOfCyclics)_), $A$ is a [[direct sum of abelian groups|direct sum]] of [[cyclic group]] $A \simeq \oplusk \mathbb{Z}_{p_k}$. By prop. \ref{Tor1RespectsDirectSum} $Tor_1$ respects this direct sum, so that
+
+$$
+  Tor_1(A,B) \simeq \oplus_k Tor_1(\mathbb{Z}_{p_k}, B)
+  \,.
+$$
+
+By prop. \ref{TorOutOfCyclicGroup} every direct summand on the right is a torsion group and hence so is the whole direct sum.
+
+=--
+
+
+More generally we have:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -257,7 +282,15 @@ For instance ([Weibel, prop. 3.1.2, prop. 3.1.3, cor. 3.1.5](#Weibel)).
 +-- {: .proof}
 ###### Proof
 
-Use that $Tor_1^\mathbb{Z}(-,A)$ preserves [[filtered colimits]], by prop. \ref{TorPreservesFilteredColimits}, express the arguments above as filtered colimits over their [[finite group|finite]] [[subgroups]], then apply prop. \ref{TorOutOfCyclicGroup}.
+The group $A$ may be expressed as a [[filtered colimit]] 
+
+$$
+  A \simeq \underset{\to_i}{\lim} A_i
+$$
+
+of finitely generated [[subgroups]] (this is discussed at _[Mod - Limits and colimits](http://ncatlab.org/nlab/show/Mod#LimitsAndColimits)_). Each of these is a [[direct sum]] of [[cyclic groups]]. 
+
+By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves these colimits.  Therefore by prop. \ref{TorOutOfCyclicGroup} $Tor_1(A,B)$ is a filtered colimit of directs sums of torsion groups. This is itself a torsion group.
 
 =--
 
