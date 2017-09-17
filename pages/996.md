@@ -60,7 +60,7 @@ Of particular importance is the notion of **strong generator** which is obtained
 
 If we take $\mathcal{E}$ to be the class of [[extremal epimorphism]]s, we might call the resulting notion "extremal generator," but **dense generator** is more standard. The reason is that the family $\{S_a\}$ is an extremal generating family if and only if the inclusion of the full subcategory on the objects $\{S_a\}$ is [[dense functor|dense]] (and this definition makes sense without assuming coproducts or local smallness).  This is the strongest sort of generator.
 
-If $C$ has pushouts, then extremal epis reduce to strong ones, and so extremal generators are necessarily strong. For this reason, some authors simply define "strong generator" to mean "dense generator."
+If $C$ has pullbacks, then extremal epis reduce to strong ones, and so extremal generators are necessarily strong. For this reason, some authors simply define "strong generator" to mean "dense generator."
 
 
 ## Related concepts
