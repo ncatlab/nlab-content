@@ -826,6 +826,10 @@ $$
 
 The [[group extension]] classified by this cocycle is the [[Heisenberg group]].
 
+#### Galileo 2-cocycle
+
+* [[Galileo 2-cocycle]]
+
 ### Classes of examples
 
 #### Galois cohomology
