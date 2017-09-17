@@ -19,4 +19,4 @@ Discussion of K-theory of [[orbifolds]] is for instance in section 3 of
 
 * Alejandro Adem, Johanna Leida, Yongbin Ruan, _Orbifolds and string topology_, Cambridge Tracts in Mathematics 171, 2007 ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
-
+* [pdf](http://www.math.ubc.ca/~adem/AG.050211.pdf)
