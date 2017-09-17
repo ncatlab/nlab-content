@@ -81,6 +81,24 @@ More generally, for $C$ some [[symmetric monoidal (∞,n)-category]], there is a
 
 Even more generally one can allow the [[∞-groupoid]]s $X, Y, \cdots$ to be [[(∞,n)-categories]] themselves.
 
+## Definition
+ {#Definition}
+
+See ([Lurie, page 57](#Lurie)).
+
+## Properties
+ {#Properties}
+
+**Claim**
+
+$Span_n(\infty Grpd)$ is a [[symmetric monoidal (∞,n)-category]] [[cobordism hypothesis|with duals]].
+
+More generally If $C$ is any symmetric monoidal $(\infty,n)$-category with 
+duals, then so is $Span_n(\infty Grpd,C)$.
+
+This appears as ([Lurie, remark 3.2.3](#Lurie)).
+
+
 ## References
 
 For references on 1- and 2-categories of spans see [[span]].
@@ -88,6 +106,7 @@ For references on 1- and 2-categories of spans see [[span]].
 An inductive definition of the [[symmetric monoidal (∞,n)-category]] $Span_n(\infty Grpd)/C$ of spans of [[∞-groupoid]] over a symmetric monoidal $(\infty,n)$-category $C$ is in section 3.2 of 
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+ {#Lurie}
 
 there denoted $Fam_n(C)$. The generalization to an $(\infty,n)$-category $Span_n((\infty,1)Cat^Adj)$ of spans between [[cobordism hypothesis|(∞,n)-categories with duals]] is discussed on p. 107 and 108.
 
