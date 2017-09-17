@@ -116,41 +116,58 @@ For discussing smooth families of $d$-paths we need the following technical noti
 +-- {: .un_defn}
 ###### Definition
 
-We say a [[differential form]] $\omega$ on the $n$-simplex $\Delta^n$ has **sitting instants** if it satisfies the following recursive condition:
+A smooth differential form $\omega$ on $\Delta^k$ is said to have **sitting instants** along the boundary if, for every $r$-face $F$ of $\Delta^k$ there is a [[neighbourhood]] $U_F$ of $F$ in $\Delta^k$ such that $\omega$ restricted to $U$ is constant in the directions perpendicular to the boundary on its value restricted to that boundary.
 
-For $n = 0$, every differential form has sitting instants. For $n \geq 1$, $\omega$ has sitting instants if 
+For any $U \in $ [[CartSp]] a smooth differential form $\omega$ on $U \times\Delta^k$ is said to have sitting instants if for all points $u : * \to U$ the pullback along  $(u, \mathrm{Id}) : \Delta^k \to U \times \Delta^k$ has sitting instants.
 
-1. for every $(n-1)$-face $\partial_i \Delta^{n-1} \hookrightarrow \Delta^n$ of $\Delta^n$ there is a neighbourhood of that face in $\Delta^n$ such that $\omega$ restricted to that neighbourhood is constant in the direction perpendicular to the boundary on its value at that boundary;
-
-   (so near a $(k \lt p)$-dimensional face a $p$-form with sitting instants needs to vanish, but near a $(k \geq p)$-dimensional face it just needs to become perpendicularly constant).
-
-1. the restriction $\partial_i^* \omega$ has sitting instants on $\Delta^{n-1}$.
-
-Define $\Omega^\bullet_{si}(\Delta^n) \subset \Omega^\bullet(\Delta^n)$ to be the sub-[[dg-algebra]] of the [[de Rham complex]] on those forms that have sitting instants. Similarly, for $U \in Diff$, let $\Omega^\bullet_{si}(U \times \Delta^n)$ be the subcomplex of forms on $U \times \Delta^n$ that have sitting instant with respect to $\Delta^n$.
-
-Finally, we write $\Omega^\bullet(U \times \Delta^n)_{vert}$ for the dg-algebra of forms with sitting instants that are also [[vertical differential form]]s with respect to the projection $U \times \Delta^n \to U$.
-
-=--
-
-+-- {: .un_example}
-###### Example
-
-Let $X$ be a [[smooth manifold]], $\omega \in \Omega^\bullet(X)$ be a smooth differential form. Let 
-
-$$
-  \phi : \Delta^n \to X
-$$
-
-be a [[smooth function]] that has [[sitting instant]]s as a function: towards any $k$-face of $\Delta^n$ it eventually becomes perpendicularly constant.
-
-Then the pullback form $\phi^* \omega \in \Omega^\bullet(\Delta^n)$ is a form with sitting instants.
+Smooth forms with sitting instants clearly form a sub-dg-algebra of all smooth forms. We shall write $\Omega^\bullet(U \times \Delta^k)$ by default for this sub-dg-algebra.
 
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
-The condition of sitting instants serves to make smooth differential forms not be affected by the boundaties and corners of $\Delta^n$. Notably for $\omega_j \in \Omega^\bullet_{si}(\Delta^{n-1})$ a collection of forms with sitting instants on the $(n-1)$-cells of a horn $\Lambda^n_i$ that coincide on adjacent boundaries, and for
+Note that the dimension of the normal direction to the boundary depends on the dimension of the boundary stratum:  there is one perpendicular direction to a codimension-1 face, and $k$ perpendicular directions to a
+vertex. 
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+For $U \in CartSp$, we denote by the symbol 
+$\Omega^\bullet(U\times \Delta^k)_{\mathrm{vert}} \subset \Omega^\bullet(U \times \Delta^k)$   the sub-dg-algebra on forms that are [[vertical differential form]]s with respect to the projection
+$U \times \Delta^k \to U$.
+
+=--
+
+
++-- {: .un_example}
+###### Examples
+
+* A smooth 0-form (a smooth function) has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it is constant.
+
+  A smooth function $f : U \times \Delta^1 \to \mathbb{R}$ is in $\Omega^0_{\mathrm{vert}}(U \times \Delta^1)$ if for each $u \in U$ it is constant in a neighbourhood of the endpoints of $\Delta^1$.
+
+* A smooth 1-form has sitting instants on $\Delta^1$ if in a neighbourhood of the endpoints it vanishes.
+
+
+* Let $X$ be a [[smooth manifold]], $\omega \in \Omega^\bullet(X)$ be a smooth differential form. Let 
+
+  $$
+    \phi : \Delta^n \to X
+  $$
+
+  be a [[smooth function]] that has [[sitting instant]]s as a function: towards any $k$-face of $\Delta^n$ it eventually becomes perpendicularly constant.
+
+  Then the pullback form $\phi^* \omega \in \Omega^\bullet(\Delta^n)$ is a form with sitting instants.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The condition of sitting instants serves to make smooth differential forms not be affected by the boundaties and corners of $\Delta^n$. Notably for $\omega_j \in \Omega^\bullet(\Delta^{n-1})$ a collection of forms with sitting instants on the $(n-1)$-cells of a horn $\Lambda^n_i$ that coincide on adjacent boundaries, and for
 
 $$
   p : \Delta^n \to \Lambda^{n-1}_i
@@ -172,9 +189,6 @@ glue to a single smooth form (with sitting instants) on $\Delta^n$.
 Notice that $\omega \in \Omega^\bullet(\Delta^n)$ having sitting instants does not imply that there is a neighbourhood of the boundary of $\Delta^n$ on which $\omega$ is entirely constant. It is important for the following constructions that in the vicinity of the boundary $\omgea$ is allowed to vary parallel to the boundary, just not perpendicular to it.
 
 =--
-
-We may at times, here or in other entries, abuse notation and omit the subscript ${}_{si}$ when the context of Lie integration is understood.
-
 
 
 For the following definition, we use from the discussion at [[∞-Lie groupoid]] that $\infty$-Lie groupoids may be modeled by [[simplicial presheaves]] on the [[site]] [[CartSp]] $\subset$ [[Diff]].
@@ -248,7 +262,7 @@ where on the right we have the [[delooping]] [[Lie groupoid]] of $G$.
 =--
 
 
-This follows from the following observation.
+This follows from the [[Steenrod-Wockel approximation theorem]] and the following observation.
 
 +-- {: .un_lemma}
 ###### Lemma
