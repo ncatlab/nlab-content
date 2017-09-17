@@ -149,6 +149,14 @@ Here are some examples of internal $\infty$-groupoids according to the first def
 
 * [[internal (infinity,1)-category]]
 
+## References
+
+Models for [[∞-stacks]]/[[(∞,1)-presheaves]] in [[higher geometry]] by local Kan complexes of objects in a given site (for instance locally Kan [[simplicial manifolds]] for [[higher differential geometry]]) are discussed in 
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _Principal $\infty$-bundles - Presentations_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+  {#NSSb}
+
+
 [[!redirects Internal infinity-groupoid]]
 [[!redirects Internal ∞-groupoid]]
 [[!redirects internal ∞-groupoid]]
