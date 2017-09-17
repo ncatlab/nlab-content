@@ -57,7 +57,7 @@ in [[Top]] has a [[section]], where
 We say a [[simplicial topological space]] $X_\bullet \in Top^{\Delta^{op}}$ is **(global) Kan simplicial space** if the unique morphism $X_\bullet \to *$ is a global Kan fibration, hence if for all $n \in \mathbb{N}$ and all $0 \leq i \leq n$ the canonical [[continuous function]]
 
 $$
-  X_n \to [\Lambda^n_k, X]
+  X_n \to sTop(\Lambda^n_k, X)
 $$
 
 into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]].
@@ -94,7 +94,7 @@ If $G$ is a well-pointed simplicial topological group, then
 
 1. $G$ is a [[nice simplicial topological space|good simplicial topological space]];
 
-1. the [[geometric realization of simplicial topological spaces|geometric realizaiton]] $|G|$ is well-pointed;
+1. the [[geometric realization of simplicial topological spaces|geometric realization]] $|G|$ is well-pointed;
 
 1. $\bar W G$ is a [[nice simplicial topological space|proper simplicial topological space]].
 
@@ -121,7 +121,7 @@ The statement about $\bar W G$ is proven in ([Stevenson](#Stevenson)). The other
 type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 {#BrownSzczarba}
 
-* [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972.
+* [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 {#May}
 
 * [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_
