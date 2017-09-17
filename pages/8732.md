@@ -1,0 +1,18 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _symmetric monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebra]] structure is refined to an [[E3-algebra]] structure.
+
+## Related concepts
+
+* [[k-tuply monoidal (n,r)-category]]
+
+[[!redirects symmetric monoidal 2-categories]]
+
+[[!redirects symmetric monoidal bicategory]]
+[[!redirects symmetric monoidal bicategories]]
