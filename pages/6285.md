@@ -30,15 +30,23 @@ In [[quantum mechanics]] every symmetric operation needs to be a norm-preserving
 
 ## Related theorems
 
-Other theorems on the foundations of [[quantum mechanics]] include:
+Other theorems on the foundations and [[interpretation of quantum mechanics]] include:
 
-* [[Gleason's theorem]]
+* [[order-theoretic structure in quantum mechanics]]
 
-* [[Kochen-Specker theorem]]
+  * [[Gleason's theorem]]
 
-* [[Alfsen-Shultz theorem]]
+  * [[Kochen-Specker theorem]]
+  
+  * [[Alfsen-Shultz theorem]]
 
-* [[Harding-Döring-Hamhalter theorem]]
+  * [[Harding-Döring-Hamhalter theorem]]
+
+* [[Wigner's theorem]]
+
+* [[Bell's theorem]]
+
+* [[Bub-Clifton theorem]]
 
 ## References
  
