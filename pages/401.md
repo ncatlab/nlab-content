@@ -21,13 +21,13 @@ A _deformation retract_ is a [[retract]] which is also a [[section]] up to [[hom
 
 ## Definition
 
-Let $\mathcal{C}$ be a [[category]] equipped with a notion of [[homotopy]] between its [[morphisms]]. Then a _deformation retract_ of a morphism
+Let $\mathcal{C}$ be a [[category]] equipped with a notion of [[homotopy]] between its [[morphisms]]. Then a _deformation retraction_ of a morphism
 
 $$
   i : A \to X
 $$
 
-is another morphism
+(the _deformation retract_ itself) is another morphism
 
 $$
   r : X \to A
