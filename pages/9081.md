@@ -49,6 +49,7 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
 1. [∞-Chern-Simons theory as the general example](#InfinityChern-SimonsTheoryAsTheGeneralExample)
 
 ### Ingredients of fundamental physics
+ {#IngredientsOfFundamentalPhysics}
 
 Ever since [[Issac Newton]], [[theories of physics]] are formulated in the language of [[mathematics]]. Modern physics is formulated in terms of modern mathematics in the most intimate way.
 We aim to give here an account at least of central parts of modern physics in terms of  the mathematics of [[higher geometry]] that we discussed above. 
@@ -188,7 +189,7 @@ otherwise been understood (properties called [[knot invariants]]).
  {#TopologicalLocalFieldTheoryInHigherGeometry}
 
 Another pleasant effect of the introduction of the Chern-Simons ""toy model"  for topological field theory was that, 
-due to its conceptual simplicity, its basic structure could be appreciated also by mathematicians not trained in theoretical physics, who would otherwise fail to see through all the  physics jargon involved in the available discussion of realistic models. Accordingly, shortly afterwar Witten introduced Chern-Simons field theory,  the first mathematically precise axiomatizations of an $n$-dimensional _[[topological field theory]]_ was proposed, by [[Michael Atiyah]]. 
+due to its conceptual simplicity, its basic structure could be appreciated also by mathematicians not trained in theoretical physics, who would otherwise fail to see through all the  physics jargon involved in the available discussion of realistic models. Accordingly, shortly after th introduction of Chern-Simons field theory,  the first mathematically precise axiomatizations of an $n$-dimensional _[[topological field theory]]_ was proposed, by [[Michael Atiyah]]: "[[functorial quantum field theory]]".
 
 This axiomatization demands, in particular, for each [[closed manifold]] of [[dimension]] $(n-1)$ the assignment of a vector space
 
@@ -199,39 +200,31 @@ $$
 thought of as the _[[space of physical states]]_ of the theory on the
 spatial slice $\Sigma_{n-1}$ of spacetime. 
 
-This axiomatization did not capture the full notion of _local_ theories: the space of states are assigned globally to a space $\Sigma_{n-1}$ and cannot  be obtained by ``integrating up local data''. This was later refined.
+This axiomatization did not capture the full notion of _[[local quantum field theory|local]]_ theories: the space of states are assigned globally to a space $\Sigma_{n-1}$ and is not required to be obtained by "integrating up local data" over $\Sigma_{n-1}$. 
 
-For closed $\Sigma_k$
+In order to refine this, one cleraly wants an axiomatization of field theory that assigns data also to manifolds $\Sigma_{k}$ of [[dimension]] $0 \leq k \leq n$. This should be such that the data to a torus $\Sigma_{k} \times S^1$ is the [[trace]] in a suitable sense, of the data assigned to $\Sigma_{k}$ itself. It turns out that the way to capture this is to think of $Z(\Sigma_k)$ as being a vector space in [[higher category theory]]/[[directed homotopy type theory]]: an [[n-vector space|(n-k)-vector space]].
+
 $$
   \Sigma_k \mapsto Z(\Sigma_k) \in (n-k)\mathrm{Vect}
 $$
 
+That something like this should work was hypothetized as the [[cobordism hypothesis]], the formulation was later given by [[Jacob Lurie]]. In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension ) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tieres" of the theory). But in the [[physics]]-community there is also the well-established of _[[local quantum field theory]]_ which is meant to refer to what the axioms of "extended TQFT" capture. Hence we should think of this as formalizing _topological local field theory_.
 
-While at this level of precision this may sound trivial -- 
-or more  positively put: this should appear to be entirely \emph{natural} --  the correct formalization of the coherece between these local assignments in  arbitrary dimension was only achieved after a major breakthrough in mathematics
-took place: the development of _[[higher category theory]]_ to a working theory.
 
 ### Topological local *Lagrangian* field theory in higher geometry
  {#TopologcalLocalLagrangianFieldTheoryInHigherGeometry}
 
-The formalization of [[extended topological field theory]] captures the [[local quantum field theory|local]] aspect of [[field (physics)|field]] [[theory (physics)|physics]], but not the Lagrangian aspct. Here we indicate how to formulate Lagrangian theories that are also local in the sense of [[extended field theory]].
+The formalization of [[extended topological field theory]] thus captures the [[local quantum field theory|local]] aspect of [[field (physics)|field]] [[theory (physics)|physics]]. But we saw [above](#TopologicalLocalLagrangianGaugeFieldTheory) that the theories of fundamental physics have one more crucial property: they are _[[Lagrangian]]_. Here we indicate how to formulate Lagrangian theories that are also local in the sense of [[extended field theory]].
 
-
-
-Notice that for a 1-tiered theory the answer is given by 
-ordinary [[geometric quantization]]: the [[phase space]] is equipped with a [[prequantum line bundle]]
-
-$$
-  PhaseSpace(\Sigma_{n-1}) \to \mathbf{B} U(1)_{conn}
-$$
-
-and the [[space of states]] is the space of [[polarization|polarizes]] [[sections]] of the [[associated bundle|associated]] [[line bundle]]
+For a 1-tiered thery the traditional answer is given by the formalization of the notion of _[[quantization]]_ known as _[[geometric quantization]]_. This considers a [[complex line bundle]] on the space of fields over $\Sigma_{n-1}$ (or rather on the space of fields on $\Sigma_{n-1} \times [0,1]$ which satisfy the [[equations of motion]]: the _[[phase space]]_) called the [[prequantum line bundle]] and then identifies the physical states with _half_ of the [[sections]] of this line bundle: the _[[wave functions]]_.
 
 $$
   Z(\Sigma_{n-1}) 
-  :=
+  \coloneqq
+  \{wave\; functions\}
+  \coloneqq
   \left\{
-    \mbox{polarized\;sections\;of\;prequantum\;line\;bundle}
+    polarized\;sections\;of\;prequantum\;line\;bundle
   \right\}
   \,.
 $$
@@ -239,7 +232,13 @@ $$
 In order to refine this to local (extended, multitiered) 
 [[prequantum field theory]] we need [[circle n-bundle with connection|higher line bundles]].
 
-(...)
+| | | [[extended prequantum field theory|local/extended Lagrangian field theory]] |  | [[extended quantum field theory|local/extended quantum field theory]]  |
+|--|--|--|--|--|
+| closed piece of [[spacetime]] of [[dimension]] $0 \leq k \leq n$ |  [[prequantum field theory]] | [[prequantum n-bundle|prequantum (n-k)-bundle]] | [[geometric quantization]] | [[space of states|space of]] $(n-k)$-[[wave functions]] |
+| [[closed manifold]] of [[dimension]] $0 \leq k \leq n$ | $\stackrel{local\;prequantum\;field\;theory}{\mapsto}$ | [[circle n-bundle with connection|circle (n-k)-bundle with connection]] on [[moduli stack]] of [[field (physics)|field configurations]] | $\stackrel{polarized\; sections}{\mapsto}$ | [[n-vector space|(n-k)-vector space of states]] | 
+| $\Sigma_k$ | $\mapsto$ | $\exp(2 \pi i \int_{\Sigma_k}[\Sigma_k,\mathbf{L}]) : [\Sigma_k, \mathbf{Fields}] \to \mathbf{B}^{n-k} U(1)_{conn}$ | $\mapsto$ | $Z(\Sigma_{n-k})$ |
+
+
 
 For [[Chern-Simons theory]] notice
 
@@ -271,10 +270,10 @@ $$
 
 also standard model of this form?
 
-unclear, [[closed string field theory]] is of this form, though, gives Eintein-Maxwell-Yang-Mills
-under [[KK-reduction]].
+unclear in detail, but for instance [[closed string field theory]] is of this form and gives 
+[[Einstein-Yang-Mills theory]] under [[KK-reduction]].
 
-also proposals for Einstein-Maxwell as certain limits of Chern-Simons gravity.
+also proposals for Einstein-Maxwell as certain limits of [[Chern-Simons gravity]].
 
 This pattern is expected to continue. Witten shows that for the abelian case
 
