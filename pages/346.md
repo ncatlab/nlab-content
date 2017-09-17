@@ -100,6 +100,8 @@ Since the notion of closed category involves a contravariant functor and extrana
 
 * [[dual object in a closed category]]
 
+* [[dualizing object in a closed category]]
+
 * [[Kelly-Mac Lane graph]]
 
 ## References 
