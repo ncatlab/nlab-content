@@ -24,6 +24,7 @@
 For $A$ and $B$ two [[abelian groups]], their _tensor product_ $A \otimes B$ is a new abelian group which is such that a [[group homomorphism]] $A \otimes B \to C$ is equivalently a [[bilinear map]] out of $A$ and $B$.
 
 ## Definition
+ {#Definition}
 
 +-- {: .num_defn}
 ###### Definition
@@ -39,21 +40,56 @@ Equivalently this means explicitly:
 +-- {: .num_defn #ExplicitTensorProduct}
 ###### Definition
 
-For $A, B$ two [[abelian groups]], their **tensor product of abelian groups** is an abelian group $A \otimes B$ obtained by
+For $A, B$ two [[abelian groups]], their **tensor product of abelian groups** is the abelian group $A \otimes B$ which is the [[quotient]] of the [[free group]] on the [[product]] ([[direct sum]]) $A \times B$
+by the [[generators and relations|relations]] 
 
-1. starting with the cartesian product $A\times B$ in sets,
-1. generating a _[[free abelian group]] from it, and then
-1. quotienting by [[generators and relations|relations]] $(a_1,b)+(a_2,b)\sim (a_1+a_2,b)$ and $(a,b_1)+(a,b_2)\sim (a,b_1+b_2)$.  
+* $(a_1,b)+(a_2,b)\sim (a_1+a_2,b)$ 
 
+* $(a,b_1)+(a,b_2)\sim (a,b_1+b_2)$
+
+for all $a, a_1, a_2 \in A$ and $b, b_1, b_2 \in B$.
 
 =--
 
-(The 0-ary relations $(0,b)\sim 0$ and $(a,0)\sim 0$ follow automatically; one needs them explicitly only if one generalises to [[abelian monoids]].)
+In words: it is the group whose elements are presented by pairs of elements in $A$ and $B$ and such that the group operation for one argument fixed is that of the other group in the other argument.
 
 +-- {: .num_remark}
 ###### Remark
 
-A [[group homomorphism]] $A \otimes B \to C$ is a [[bilinear map]] $A \times B \to C$.
+The 0-ary relations $(0,b)\sim 0$ and $(a,0)\sim 0$ follow automatically; one needs them explicitly only if one generalises to [[abelian monoids]].
+
+=--
+
++-- {: .num_remark #TheCanonicalMap}
+###### Remark
+
+By definition of the [[free construction]] and the [[quotient]] there is a canonical [[function]] of the underlying sets
+
+$$
+  A \times B \stackrel{\otimes}{\to} A \otimes B
+  \,.
+$$
+
+On elements this sends $(a,b)$ to the equivalence class that it represents under the above equivalence relations.
+
+=--
+
+The following relates the tensor product to [[bilinear functions]]. It is a definition or a proposition dependening on whether one takes the notion of bilinear function to be defined before or after that of tensor product of abelian groups.
+
++-- {: .num_defn}
+###### Definition/Proposition
+
+A [[function]] of underlying sets $f : A \times B \to C$
+is a [[bilinear function]] precisely if it factors by the morphism of \ref{TheCanonicalMap} through a [[group homomorphism]] $\phi : A \otimes B \to C$ out of the tensor product:
+
+$$
+  f : A \times B \stackrel{\otimes}{\to}    
+      A \otimes B
+      \stackrel{\phi}{\to}
+      C
+  \,.
+$$
+
 
 =--
 
