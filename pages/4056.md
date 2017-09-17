@@ -51,6 +51,15 @@ The same holds for sigma-finite measures and [[normal state|normal states]]: Eve
 ...
 
 
+### Gleason\'s Theorem for POVMs
+
+In [[quantum information theory]], one often considers positive operator-valued measures ([[POVM]]s) instead of [[Hermitian operator]]s as [[observables]].  While a Hermitian operator is given by a family of [[projection operator]]s $P_i$ such that $\sum_i P_i = 1$, a POVM is given more generally by any family of positive-semidefinite operators $E_i$ such that $\sum_i E_i = 1$.
+
+In the analog of Gleason's Theorem for POVMs, therefore, we start with $\rho\colon \mathcal{E} \to [0,1]$, where $\mathcal{E}$ is the space of all positive-semidefinite operators.  Then if $\sum_i \rho(E_i) = 1$ whenever $\rho(\sum_i E_i) = 1$, the theorem states that $\rho$ has a unique extension to a mixed [[quantum state]].
+
+As a theorem, Gleason\'s Theorem for POVMs is much weaker than the classical Gleason\'s Theorem, since we must begin with $\rho$ defined on a much larger space of operators.  However, some content does remain, since we have not assumed any continuity properties of $\rho$.  Also, Gleason\'s Theorem for POVMs has a much simpler proof, which works regardless of the dimension.
+
+
 ## Examples
 
 ### Counterexample For Dimension Two
@@ -105,6 +114,10 @@ A monograph stating and proving both the classical theorem and extensions to von
 The classical theorem is proved also in this monograph:
 
 * K.R. Parthasarathy: _An Introduction to Quantum Stochastic Calculus_ ([ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0751.60046&format=complete))
+
+Gleason\'s Theorem for POVMs is proved here:
+
+* Paul Busch; 1999; _Quantum states and generalized observables: a simple proof of Gleason's theorem_; [arXiv](http://arxiv.org/abs/quant-ph/9909073)
 
 
 [[!redirects Gleason's theorem]]
