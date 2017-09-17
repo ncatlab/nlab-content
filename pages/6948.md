@@ -27,7 +27,7 @@ which is intended to be [[true]] if and only if $\phi a$ is true for every possi
 
 ## Definition
 
-Note that it is quite possible that $\phi a$ may be provable (in a given [[context]]) for every *[[term]]* $a$ of type $T$ that can actually be constructed that context, yet $\forall x\colon T, \phi x$ cannot be proved.
+Note that it is quite possible that $\phi a$ may be provable (in a given [[context]]) for every *[[term]]* $a$ of type $T$ that can actually be constructed in that context, yet $\forall x\colon T, \phi x$ cannot be proved.
 
 Therefore, we must define the quantifier more carefully; one way to do this is as follows:
 
