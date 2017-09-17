@@ -62,7 +62,7 @@ A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Y
 
 * [[complex analytic space]]
 
-* [[domain of holomorphy]], [[Stein manifold]]
+* [[domain of holomorphy]], [[Stein manifold]], [[Oka manifold]]
 
 * [[Dolbeault complex]]
 
@@ -79,3 +79,6 @@ Complex Manifolds_ ([pdf](http://www.phys.uu.nl/~vandoren/MRIlectures.pdf))
  {#Maddock}
 
 [[!redirects complex manifolds]]
+
+[[!redirects complex analytic manifold]]
+[[!redirects complex analytic manifolds]]
