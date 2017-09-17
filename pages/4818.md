@@ -37,7 +37,7 @@
 
   * [[NSR string]]
 
-  * [[heterotic string]]
+  * [[heterotic string]], [[2d (2,0)-superconformal QFT]]
 
 ### $d = 4$
 
