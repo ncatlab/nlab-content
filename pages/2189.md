@@ -29,9 +29,11 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 ## References
 
+See also disambiguation entry [[calculus]]. 
+
 ### General
 
-There are many web resources (including wikipedia) for mathematical anlysis (this seems to hold also for [[combinatorics]] and [[number theory]], cf. e.g. [Tao's blog](http://terrytao.wordpress.com)).
+There are many web resources (including wikipedia) for mathematical analysis (this seems to hold also for [[combinatorics]] and [[number theory]], cf. e.g. [Tao's blog](http://terrytao.wordpress.com)).
 
 ### Constructive analysis
  {#ReferencesConstructiveAnalysis}
@@ -45,9 +47,9 @@ together with the basic notion of [[Bishop set]]/[[setoid]]. Implementations of 
 
 * R. O'Connor, _A Monadic, Functional Implementation of Real Numbers_. MSCS, 17(1):129{159, 2007.
 
-* R. O'Connor, _Certied Exact Transcendental Real Number Computation in Coq_, In TPHOLs 2008, volume 5170 of LNCS, pages 246{261, 2008.
+* R. O'Connor, _Certied exact transcendental real number computation in Coq_, In TPHOLs 2008, LNCS 5170, pages 246--261, 2008.
 
-* R. O'Connor, _Incompleteness and Completeness: Formalizing Logic and Analysis in Type Theory_ PhD thesis, Radboud University Nijmegen, 2009.
+* R. O'Connor, _Incompleteness and Completeness: Formalizing Logic and Analysis in Type Theory_, PhD thesis, Radboud University Nijmegen, 2009.
 
 * Robbert Krebbers, [[Bas Spitters]], _Type classes for efficient exact real arithmetic in Coq_ ([arXiv:1106.3448](http://arxiv.org/abs/1106.3448/))
 
