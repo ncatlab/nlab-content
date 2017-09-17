@@ -22,6 +22,8 @@ The special case of [[fiber integration in differential cohomology]] for the cas
 
 * [[index theory]]
 
+* [[geometric quantization by push-forward]]
+
 ## References
 
 * [[Dan Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
