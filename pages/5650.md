@@ -177,11 +177,13 @@ The following is (or will eventually be) a linked list of keywords.
 
 #### 4.3.5 Tensor Products and the Bar Construction
 
+* [[tensor product of ∞-modules]]
+
 * [[bar construction]]
 
 #### 4.3.6 Associtivity of the Tensor Product
 
-(...)
+* [[associativity]]
 
 #### 4.3.7 Duality of Bimodules
 
