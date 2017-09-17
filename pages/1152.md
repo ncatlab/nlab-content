@@ -12,13 +12,13 @@ For enrichement in [[Set]], a discrete hom-space is an ordinary [[hom-set]].
 
 ## Related concepts
 
-* [[hom-set]]
-
 * [[hom-object]]
 
-* **hom-space**
+* [[hom-set]]
 
-* [[derived hom-space]]
+* [[hom-category]]
+
+* **hom-space**, [[derived hom-space]]
 
 
 [[!redirects hom space]]
