@@ -1,10 +1,22 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide .toc}
+##Context##
++-- {: .dropDown}
+###Cohomology###
++-- {: .hide}
 [[!include cohomology - contents]]
-
+=--
+=--
 ***
-
++-- {: .dropDown}
+###$(\infty,1)$-Topos theory###
++-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
