@@ -227,11 +227,20 @@ As opposed to [[cohomology]] where people are used to talking about [[generalize
 
 ### Formalization in HoTT
 
-Homotopy groups and their properties can naturally be formalized in [[homotopy type theory]].
+Homotopy groups and their properties can naturally be formalized in [[homotopy type theory]]. In this context a proof that $\pi_1(S^1)\simeq \mathbb{Z}$ is in
 
 * [[Mike Shulman]], _[P1S1.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Pi1S1.v)_
 {#ShulmanPi1S1}
 
+* [[Dan Licata]], [[Mike Shulman]], _Calculating the fundamental group of the circle in homotopy type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/ls13pi1s1/ls13pi1s1.pdf))
+
+and a proof that 
+
+$\pi_k(S^1) \simeq \left\{ \array{ 0 & for \;k \lt n \\ \mathbb{Z} & for\; k = n} \right.$ 
+
+is in 
+
+* [[Dan Licata]], [[Guillaume Brunerie]], _[PiNSN.agda](hott-agda / homotopy / PiNSN.agda)_
 
 [[!redirects homotopy group]]
 [[!redirects homotopy groups]]
