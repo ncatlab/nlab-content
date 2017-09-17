@@ -88,3 +88,7 @@ See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/
 [[!redirects intervals]]
 [[!redirects unit interval]]
 [[!redirects under-over category]]
+
+[[!redirects linear interval]]
+[[!redirects linear intervals]]
+
