@@ -78,7 +78,7 @@ From the page [[total category]], totality follows from the fact that a Grothend
 Dually, a Grothendieck topos is 
 
 * [[complete category|Complete]], 
-* [[well-powered category|Well-powered]] (because [[subobjects]] of an [[object]] $X$ are in [[bijection]] with elements of a [[small set|small]] [[hom-set]] $\hom(X, \Omega)$, and 
+* [[well-powered category|Well-powered]] (because [[subobjects]] of an [[object]] $X$ are in [[bijection]] with elements of a [[small set|small]] [[hom-set]] $\hom(X, \Omega)$), and 
 * Has a [[cogenerator]] (e.g., the [[product]] of [[power objects]] $\Omega^c$ where $c$ ranges over representables for a small site presentation). 
 
 Therefore a Grothendieck topos is also cototal. 
