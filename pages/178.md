@@ -2502,7 +2502,7 @@ $$
   L_\infty \stackrel{CE}{\hookrightarrow} dgAlg^{op}
 $$
 
-for the [[full subcategory]] of the [[opposite category]] on the [[semi-free dga]]s of [[finite type]] on generators in positive degree. This is the category of [[L-∞ algebra]]s identified by their dual [[Chevalley-Eilenberg algebra]]s.
+for the [[full subcategory]] of the [[opposite category]] on the graded-commutative [[semi-free dga]]s of [[finite type]] on generators in positive degree. This is the category of [[L-∞ algebra]]s identified by their dual [[Chevalley-Eilenberg algebra]]s.
 
 =--
 
@@ -2568,7 +2568,7 @@ The objects $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ are
 
 That $\exp(\mathfrak{g})_0 = *$ follows from degree-counting: $\Omega^\bullet_{si,vert}(U \times \Delta^0) = C^\infty(U)$ is entirely in degree 0 and  $CE(\mathfrak{g})$ is in degree 0 the ground field $\mathbb{R}$.
 
-To see that $\exp(\mathfrak{g})$ has all [[horn]]-fillers over each $U \in CartSp$ Oobserve that the standard [[continuous function|continuous]] [[horn]] [[retract]]s $f : \Delta^k \to \Lambda^k_i$ are smooth away from the preimages of the $(r \lt k)$-faces of $\Lambda[k]^i$.
+To see that $\exp(\mathfrak{g})$ has all [[horn]]-fillers over each $U \in CartSp$ observe that the standard [[continuous function|continuous]] [[horn]] [[retract]]s $f : \Delta^k \to \Lambda^k_i$ are smooth away from the preimages of the $(r \lt k)$-faces of $\Lambda[k]^i$.
 
 For $\omega \in \Omega^\bullet_{si,vert}(U \times \Lambda[k]^i)$ a differential form with sitting instants on $\epsilon$-neighbourhoods, let therefore $K \subset \partial \Delta^k$ be the set of points of distance $\leq \epsilon$ from any subface. Then we have a smooth function 
 
@@ -2817,7 +2817,7 @@ for the [[L-∞-algebra]] whose [[Chevalley-Eilenberg algebra]] is given by a si
 The [[discrete ∞-groupoid]] underlying $\exp(b^{n-1} \mathbb{R})$ is given by the [[Kan complex]] that in degree $k$ has the set of closed differential $n$-forms (with sitting instants) on the $k$-[[simplex]]
 
 $$
-  \exp(b^{n-1} \mathbb{R})_{disc}
+  \Gamma(\exp(b^{n-1} \mathbb{R}))
   : 
   [k] \mapsto \Omega^n_{si,cl}(\Delta^k)
 $$
