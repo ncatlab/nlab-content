@@ -1,0 +1,2 @@
+Those faces include his early image as a modern-day Robin Hood and harmless tough guy who gave turkey dinners to his working-class neighbors for the Thanksgiving holiday and kept drug dealers out of the neighborhood. That image was crushed when authorities began digging up bodies.
+ <a href="http://www.apartments-mravak.com/nike_shoes.asp?Running_Shoes=nike-king-nike-king-for-men-c-50_132.html" title="Nike King For Men">Nike King For Men</a>
