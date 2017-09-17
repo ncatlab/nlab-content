@@ -14,6 +14,15 @@
 =--
 
 
+* [[algebraic theory]] / [[Lawvere theory]] / **$(\infty,1)$-algebraic theory**
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
+
+***
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
