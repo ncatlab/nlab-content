@@ -163,6 +163,9 @@ A [[small category]] is a category internal to [[Set]].  In this case, $C_0$ is 
 Historically, the motivating example was (apparently) the notion of [[Lie groupoids]]: a small Lie groupoid is a [[groupoid]] internal to the category [[Diff]] of [[smooth manifolds]]. This generalises immediately to a [[smooth category]]. Similarly, a [[topological groupoid]] is a groupoid internal to [[Top]]. (Warning: the term 'topological category' usually means a [[topological concrete category]], an unrelated notion. Sometimes (e.g. in Jacob Luries ''[[Higher Topos Theory (book)|Higher Topos Theory]]'') a 'topological category' is defined to be a $Top$-[[enriched category]], which is a special case of the internal definition if it is interpreted [[strict category|strictly]] and the collection of objects is small.)  In these examples, $C_0$ is a "space of objects" and $C_1$ a "space of morphisms".
 
 Further examples:
+
+* A category internal to [[Set]] is a [[small category]]
+* A groupoid internal to [[definable sets]] is a [[definable groupoid]].
 * A [[cocategory]] in $C$ is a category internal to $C^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
