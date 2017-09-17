@@ -36,6 +36,7 @@ Elliptic curves over the complex numbers are also interpreted as those [[worldsh
 ## Definition 
 
 ### Over a general ring
+ {#DefinitionOverGeneralRing}
 
 Elliptic curves over a general [[commutative ring]] $R$ are the well-behaved 1-dimensional [[group objects]] parameterized over the [[space]] $Spec(R)$ (the [[prime spectrum of a commutative ring|prime spectrum]] of $R$). (Notice the count of dimension: over the complex numbers a torus is complex 1-dimensional and in this sense one is looking at 1-dimensional group schemes here.) This we discuss below in 
 
@@ -70,10 +71,18 @@ An elliptic curve over a [[field]] of [[positive number|positive]] [[characteris
 
 =--
 
-#### Coordinatized as solutions to cubic equations
+#### Coordinatized as solutions to cubic Weierstrass equations
  {#OverGeneralRingAsSolutionsToEquations}
 
-Elliptic curves are examples of solutions to [[Diophantine equations]] of degree 3. We start by giving the equation valied over general rings, which is fairly complicated compared to the special case that it reduces to in the classical case over the [[complex numbers]]. The more elements in the ground ring are invertible, the more the equation may be simplified.
+Elliptic curves are examples of solutions to [[Diophantine equations]] of degree 3. We start by giving the equation valued over general rings, which is fairly complicated compared to the special case that it reduces to in the classical case over the [[complex numbers]]. The more elements in the ground ring are invertible, the more the equation may be simplified.
+
+(See also for instance ([QuickIntro](#QuickIntro)), which we follow notationally to some degree.)
+
+##### Weierstrass cubic, discriminant and $j$-invariant
+ {#WeierstrassCubicDiscriminantAndJInvariant}
+
++-- {: .num_defn #GeneralWeierstrassCubic}
+###### Definition
 
 Let $R$ be a [[commutative ring]], then [[Zariski topology|Zariski locally]] over $Spec(R)$ a [[cubic curve]] is a solution to an [[equation]] of the form
 
@@ -81,34 +90,137 @@ $$
   y^2 + a_1 x y + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6
 $$
 
-for [[coefficients]] $a_1, a_2, a_3, a_4, a_6$. This is the _[[Weierstrass equation]]_.
+for [[coefficients]] $a_1, a_2, a_3, a_4, a_6$.  This is called the _[[Weierstrass equation]]_. 
 
-The [[non-singular algebraic variety|non-singular]] such solutions are the elliptic curves over $R$. 
+=--
 
-If $2$ is invertible in $R$, and hence generally over the [[localization fo a ring|localization]] $R[\frac{1}{2}]$ of $R$ at 2, this equation is equivalent to 
++-- {: .num_remark}
+###### Remark
+
+Much of the literature on elliptic curves considers def. \ref{GeneralWeierstrassCubic} for the case that $R$ is an [[algebraically closed field]], in which case there is no need to pass to a cover. But for the true global discussion necessary for the [[moduli stack of elliptic curves]] one needs the full generality.
+
+=--
+
+
+The [[non-singular algebraic variety|non-singular]] such solutions are the elliptic curves over $R$. Non-singularity is embodied in coordinates  as follows.
+
++-- {: .num_defn #DiscriminantAndJInvariant}
+###### Definition
+
+Let
 
 $$
-  y^2  = 4 x^3  + b_2 x^2 + 2 b_4 x + b_6
+  \begin{aligned}
+    b_2 & \coloneqq a_1^2 + 4 a_2
+    \\
+    b_4 &\coloneqq a_1 a_3 + 2a_4
+    \\
+    b_6 & \coloneqq a_3^2 + 4 a_6
+    \\
+    b_8 & \coloneqq a_1^2 a_6 - a_1 a_3 a_4 + a_2 a_3^2 + 4 a_2 a_6 - a_4^2
+  \end{aligned}
+$$
+
+and in terms of these
+
+$$
+  \begin{aligned}
+     c_4 & \coloneqq b_2^2 - 24 b_4
+     \\
+     c_6 & \coloneqq - b_2^3 + 36 b_2 b_4 - 216 b_6
+     \\
+     \Delta &\coloneqq - b_2^2 b_8 - 8 b_4^3 - 27 g_6^2 + 9 b_2 b_4 b_6
+  \end{aligned}
   \,.
 $$
 
-If moreover $3$ is also invertibel in $R$, hence generally over $R[\frac{1}{2}, \frac{1}{3}]$ then this equation is equivalent to just
+Here $\Delta$ is called the **discriminant**.  
+
+Finally let
 
 $$
-  y^2 = x^3 - p x p q
- \,.
-$$
-
-Finally if $R= \mathbb{C}$ is the [[complex numbers]], then complex tori are indeed the solutions to this last equation in the form
-
-$$
-  p'(z)^2 + 4 p(z)^3 - g_2 p(z) - g_3
+  j \coloneqq c_4^3/\Delta
   \,,
 $$
 
-where $p$ is the [[Weierstrass elliptic function]].
+called the **[[j-invariant]]**.
+
+=--
+
++-- {: .num_remark #RelationBetweenDiscriminantAndTheModularInvariants}
+###### Remark
+
+In def. \ref{DiscriminantAndJInvariant} the discriminant satisfies the relation
+
+$$
+  1728 \Delta = c_4^3 - c_6^2
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Over $R = \mathbb{C}$ the [[complex numbers]] the quantities $c_4$ and $c_6$ in def. \ref{DiscriminantAndJInvariant} are proportional to the [[modular forms]] called the [[Eisenstein series]] (see there)  $G_4$ and $G_6$.
+
+=--
+
+##### Elliptic curves, Nodal curves, Cuspidal curves
+
+The following is a definition if one takes the coordinate-description as fundamental. If one takes the more abstract characterization of def. \ref{EllipticCurve} as fundamental then the following is a proposition.
+
++-- {: .num_defn}
+###### Definition/Proposition
+
+A solution to the Weierstrass cubic, def. \ref{GeneralWeierstrassCubic}, with modular invariants $c_4$, $c_6$ and discriminant $\Delta$ according to def. \ref{DiscriminantAndJInvariant} is
+
+1. an _elliptic curve_ iff $\Delta \neq 0$;
+
+1. a _nodal curve_ or _[[cubic curve]] with nodal [[singular point of an algebraic variety|singularity]]_  iff $\Delta = 0$ and $c_4 \neq 0$;
+
+1. a _cuspidal curve_ or _[[cubic curve]] with cusp [[singular point of an algebraic variety|singularity]]_  iff $\Delta = 0$ and $c_4 = 0$ (which by remark \ref{RelationBetweenDiscriminantAndTheModularInvariants} is equivalent to $c_4 = 0$ and $c_6 = 0$)
+
+=--
+
+
+##### Localization at 2 and 3
+
++-- {: .num_prop}
+###### Proposition
+
+If $2$ is invertible in $R$ (is a [[unit]] ), and hence generally over the [[localization of a ring|localization]] $R[\frac{1}{2}]$ of $R$ at 2, the general [[Weierstrass equation]], def. \ref{GeneralWeierstrassCubic}, is equivalent, to the equation
+
+$$
+  y^2  = 4 x^3  + b_2 x^2 + 2 b_4 x + b_6
+$$
+
+with the [[coefficients]] identified as in def. \ref{DiscriminantAndJInvariant}.
+
+If moreover $3$ is also invertible in $R$, hence generally over $R[\frac{1}{2}, \frac{1}{3}]$ then this equation is equivalent to just
+
+$$
+  y^2 = x^3 - 27 c_4 x - 54 c_6
+ \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Finally if $R= \mathbb{C}$ is the [[complex numbers]], then complex tori are indeed the solutions to this last equation parameterized by a [[torus]] $z \in \mathbb{C}/\Lambda$ (as discussed in the section [over the complex numbers](#OverTheComplexNumbers)) via the [[Weierstrass elliptic function]] $p$ as
+$(x = p(z), y = p'(z), )$ in the form
+
+$$
+  p'(z)^2 + 4 p(z)^3 - g_2 p(z) - g_3
+  \,.
+$$
+
+=--
 
 ### Over the complex numbers
+ {#OverTheComplexNumbers}
 
 +-- {: .num_prop #CharacterizationOverC}
 ###### Proposition
@@ -243,15 +355,19 @@ See also
 
 ## References
 
-Introductory lecture notes for elliptic curves over the complex numbers include
-
-* Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
-
 Classical accounts of the general case include
 
 * [[Pierre Deligne]], _Courbes Elliptiques: Formulaire (d'apres J. Tate)_ ([web](http://modular.math.washington.edu/Tables/antwerp/deligne/))
 
 * Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024)
+
+Introductory lecture notes for elliptic curves over the complex numbers include
+
+* Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+and for the general case
+
+* {#QuickIntro} _A quick introduction to elliptic curves_ ([pdf](http://people.reed.edu/~jerry/311/ecintro.pdf))
 
 Discussion over the [[rational numbers]] includes
 
