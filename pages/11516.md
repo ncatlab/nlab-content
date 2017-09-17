@@ -23,7 +23,7 @@
 
 ## Idea
 
-In the context of [[topology]] A _topological $G$-space_ (traditionally just _$G$-space_, for short, if the context is clear) is a [[topological space]] equipped with an [[action]] of a [[topological group]] $G$ (often,but crucially not always, taken to be a [[finite group]]).
+In the context of [[topology]], a _topological $G$-space_ (traditionally just _$G$-space_, for short, if the context is clear) is a [[topological space]] equipped with an [[action]] of a [[topological group]] $G$ (often, but crucially not always, taken to be a [[finite group]]).
 
 In the context of [[homotopy theory]], the [[category]] of topological $G$-spaces is regarded as a [[homotopical category]] with [[weak equivalences]] being the $G$-equivariant continuous functions which restrict to [[weak homotopy equivalences]] on all [[fixed point]] sets. This defines the [[equivariant homotopy theory]], see there for more details. This is equivalently presented by just [[G-CW complexes]]; and by [[Elmendorf's theorem]] it is equivalent to the [[(∞,1)-presheaves]] over the [[orbit category]] of $G$.  The union of this as $G$ is allowed to vary is the _[[global equivariant homotopy theory]]_.
 
