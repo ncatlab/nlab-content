@@ -34,6 +34,7 @@ where $A^{*}$ is the Hermitian adjoint of $A$.
 
 The notation used here for the adjoint, $A^{*}$, is commonly used in linear algebraic circles (as is $A^{H}$).  In [[quantum mechanics]], $A^{\dagger}$ is exclusively used for the adjoint while $A^{*}$ is interpreted as the same thing as $\bar{A}$.
 
+[[!redirects adjoint]]
 [[!redirects Hermitian adjoint]]
 [[!redirects Hermitian conjugate]]
 [[!redirects Hermitean conjugate]]
