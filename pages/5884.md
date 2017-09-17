@@ -1,0 +1,4 @@
+
+* [publications](http://en.scientificcommons.org/ernesto_lupercio)
+
+category: people
