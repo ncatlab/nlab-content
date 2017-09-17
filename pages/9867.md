@@ -185,3 +185,5 @@ References related to the discusison in _[Axiomatization in homotopy theory](#Ax
 
 [[!redirects bivariant cohomology]]
 
+[[!redirects twisted bivariant cohomology]]
+[[!redirects bivariant twisted cohomology]]
