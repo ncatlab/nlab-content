@@ -14,7 +14,7 @@ Let $\mathcal{C}$ be a [[category]] with [[pullbacks]].
 A [[simplicial object]] 
 
 $$
-  X : \Delta^{op} \to \mathcal{C}$ 
+  X : \Delta^{op} \to \mathcal{C}
 $$
 
 is said to satisfy the **Segal conditions** if it sends the [[colimits]] in the [[simplex category]] to [[limits]], hence if 
@@ -156,7 +156,7 @@ where
 
 * the left vertical morphism sends a category to its underlying graph, [[forgetful functor|forgetting]] [[composition]] and [[identity]]-assignments;
 
-* the right veritcal morphism analogously forgets [[inner Kan complex|inner horn]] fillers etc. and degeneracies
+* the right vertical morphism analogously forgets [[inner Kan complex|inner horn]] fillers etc. and degeneracies
 
 is a [[pullback]].
 
