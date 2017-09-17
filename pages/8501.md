@@ -18,7 +18,7 @@
 
 A [[judgement]] on the left of the "$\vdash$"-symbol of a [[sequent]]/[[hypothetical judgement]].
 
-A _hypothesis_ or [[context]].
+A _[[hypothesis]]_ or _[[context]]_.
 
 ## Related concepts
 
