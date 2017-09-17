@@ -117,7 +117,7 @@ In the double category $Adj(K)$, every vertical arrow has both a [[companion]] (
 +-- {: .num_example}
 ###### Example
 
-Let $F \dashv U \colon D \to C$ be an [[adjunction]] in the [[2-category]] [[Cat]], i.e. a pair of [[adjoint functors]], and $A \colon * \to C$ and $X \colon * \to D$ be objects of $C$ and $D$ considered as [[functors]] out of the [[terminal category]] $*$.  Then taking mates with respect to $1 \dashv 1 \colon * \to *$ and $F \dashv U$ yields the familiar [[bijection]
+Let $F \dashv U \colon D \to C$ be an [[adjunction]] in the [[2-category]] [[Cat]], i.e. a pair of [[adjoint functors]], and $A \colon * \to C$ and $X \colon * \to D$ be objects of $C$ and $D$ considered as [[functors]] out of the [[terminal category]] $*$.  Then taking mates with respect to $1 \dashv 1 \colon * \to *$ and $F \dashv U$ yields the familiar [[bijection]]
 $$ D(F A,X) \cong C(A,U X) $$
 and the pasting operations as above yield the usual definition of the isomorphism of adjunction by means of [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]].  Moreover, the naturality of the mate correspondence yields [[natural isomorphism|naturality]] of the bijection.
 
