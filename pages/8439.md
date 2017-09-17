@@ -31,24 +31,26 @@ Much of the description below is taken from [(Harper)](#Harper).
 
 The sentences of a logical framework are called [[judgments]].  It turns out that in deductive systems, there are two kinds of non-basic forms that arise very commonly, which we may call
 
-* *hypothetical judgments*: one judgment is a logical consequence of some others.
-* *generic judgments*: a judgment that is made generally for all values of some parameters, each ranging over a "domain" or "syntactic category".
+* *[[hypothetical judgments]]*: one judgment is a logical consequence of some others.
+* *generic judgments*: a judgment that is made generally for all values of some parameters, each ranging over a "domain" or "[[syntactic category]]".
 
-These two forms turn out to have many parallel features, e.g. reflexivity and transitivity of hypothetical judgments correspond to variable-use and substitution in generic judgments.  Appealing to the [[propositions as types]] principle, therefore, it is convenient to describe a system in which they are actually both instances of the same thing.  That is, we identify the notion of *evidence for a judgment* with the notion of *object of a syntactic category*.
+These two forms turn out to have many parallel features, e.g. [[reflexivity]] and [[transitivity]] of hypothetical judgments correspond to [[variable]]-use and [[substitution]] in generic judgments.  Appealing to the [[propositions as types]] principle, therefore, it is convenient to describe a system in which they are actually both instances of the same thing.  That is, we identify the notion of *evidence for a judgment* with the notion of *[[object]] of a [[syntactic category]]*.
 
-This leads to a notion that we will call a [[type]].  Thus we will have types such as
+This leads to a notion that we will call an _LF-type_.  Thus we will have types such as
 
-1. the type of evidence for some judgment
-1. the type of objects of a syntactic category
-1. [[dependent product types]] --- this turns out to be enough for everything we need
+1. the _LF-type of evidence for some judgment_;
+1. the _LF-type of objects of a syntactic category_;
+1. _[[dependent product types]]_ 
 
-There is a potential confusion of terminology, because these *types* in a logical framework (being itself a [[type theory]]) are distinct from the objects that may be called "types" in any particular logic we might be talking about *inside* the logical framework.  Thus, for instance, when formalizing [[Martin-Lof type theory]] in a logical framework, there is an "LF-type" which is the type of objects of the syntactic category of MLTT-types.  This is furthermore distinct from a [[type of types]], which is itself an object of the syntactic category of MLTT-types, i.e. a term belonging to the LF-type of such.
+--- this turns out to be enough for everything we need.
 
-Once we have set up the logical framework as a language, there are then two ways to describe a given logic inside of it.  See there, and the other references, for more details.
+There is a potential confusion of terminology, because these *LF-types* in a logical framework (being itself a [[type theory]]) are distinct from the objects that may be called "types" in any particular logic we might be talking about *inside* the logical framework.  Thus, for instance, when formalizing [[Martin-Lof type theory]] in a logical framework, there is an "LF-type" which is the type of objects of the syntactic category of MLTT-types.  This is furthermore distinct from a [[type of types]], which is itself an object of the syntactic category of MLTT-types, i.e. a term belonging to the LF-type of such.
+
+Once we have set up the logical framework as a language, there are then two ways to describe a given logic inside of it.  See ([Harper](#Harper)), and the other [references](#References), for more details.
 
 ### Synthetic presentations
 
-In a synthetic presentation, there is an LF-type for every judgment of the object theory.  Thus, if the object theory is a type theory, then in LF we have things like:
+In a synthetic presentation, there is an LF-type for every judgment of the [[object theory]].  Thus, if the object theory is a type theory, then in LF we have things like:
 
 * an LF-type $tp$ of object-theory types
 * an LF-type $tm$ of object-theory terms
@@ -66,7 +68,7 @@ An analytic presentation is only possible for certain kinds of object-theories, 
 
 which assigns to each object-theory type, the LF-type of its elements.
 
-In an analytic presentation of a logic, in addition to merely giving "axioms" such as $tp$ and $el$, we must give *equations* representing the rules of the object-theory as equalities in the logical framework.  For instance, we must have a [[beta-reduction]] rule such as
+In an analytic presentation of a logic, in addition to merely giving "axioms" such as $tp$ and $el$, we must give *equations* representing the rules of the object-theory as [[equalities]] in the logical framework.  For instance, we must have a [[beta-reduction]] rule such as
 
     app A B (lam A B F) M = F M
 
@@ -108,6 +110,7 @@ Then inspired by the development of [[Martin-Löf dependent type theory]] was th
 
 
 ## References
+ {#References}
 
 * [[Frank Pfenning]], _Logical frameworks -- a brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
 
@@ -117,7 +120,7 @@ Then inspired by the development of [[Martin-Löf dependent type theory]] was th
 
 * [[UF-IAS-2012]], _[Logical frameworks](http://uf-ias-2012.wikispaces.com/Logical+Frameworks)_.
 
-* [[Bob Harper]], [Notes on logical frameworks](http://uf-ias-2012.wikispaces.com/file/view/lf.pdf)
+* [[Bob Harper]], _[Notes on logical frameworks](http://uf-ias-2012.wikispaces.com/file/view/lf.pdf)_
  {#Harper}
 
 [[!redirects logical frameworks]]
