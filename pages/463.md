@@ -6,6 +6,8 @@
 
 #Further resources#
 
+* Talk at NorthWestern University, May 2009, [Gauge Theory and Representation Theory](http://math.utexas.edu/users/benzvi/GRASP/lectures/NWTFT/nwtft.pdf)
+
 * Talk at Hamburg Center of mathematical physics, Febuary 2009, [[BenZviHamburg2009.pdf:file]]
 
 * D. Ben-Zvi, J. Francis, D. Nadler, _Integral transforms and Drinfeld centers in derived algebraic geometry_, [arXiv:0805.0157](http://arxiv.org/abs/0805.0157), Jour. Amer. Math. Soc. 2010, [doi](http://dx.doi.org/10.1090/S0894-0347-10-00669-7)
