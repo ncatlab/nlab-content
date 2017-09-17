@@ -1,2 +1,2 @@
-Titan
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c34.html" title="Charles Vogele">Charles Vogele</a>
+poids
+ <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c218.html" title="storm">storm</a>
