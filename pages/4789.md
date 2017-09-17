@@ -54,63 +54,122 @@ where the restriction is along the canonical morphism $W(\mathfrak{g}) \to CE(\m
 
 =--
 
-We may equivalently express these two conditions as asserting the existence of a [[commuting diagram]] of the form
+We may equivalently express these two conditions as asserting the existence of a [[commuting diagram]] in [[dgAlg]] of the form
 
-$$
+\[
   \array{
     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{n-1} \mathbb{R})
+    &&&
+    cocycle
     \\
     \uparrow && \uparrow
     \\
     W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}& W(b^{n-1} \mathbb{R})
+    &&&
+    Chern-Simons\;element
     \\
     \uparrow && \uparrow
     \\
     inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
     inv(b^{n-1} \mathbb{R})
+    &&&
+    invariant polynomial
   }
   \,.
-$$
+  \label{TheDiagram}
+\]
 
 ## Chern-Simons forms
 
 
-The term _Chern-Simons element_ indicates that when composed with [[∞-Lie algebra valued forms]] on some $U \in $ [[Diff]] 
+As the term _Chern-Simons element_ indicates, when composed with [[∞-Lie algebra valued forms]] one obtain [[Chern-Simons forms]]:
 
-$$
+As discussed at [[∞-Chern-Weil theory]] (see [[∞-Chern-Weil theory introduction]] for an introduction), a [[connection on an ∞-bundle]] with values in an $\infty$-Lie algebroid $\mathfrak{g}$, together with its [[gauge transformation]]s, is locally -- on a patch $U \in $ [[CartSp]] -- given by a [[truncated|truncation]] of the [[∞-groupoid]] whose [[k-morphism]]s are [[commuting diagram]]s in [[dgAlg]] of the form
+
+
+\[
   \array{
     \Omega^\bullet(U \times \Delta^k)_{vert}
     &\stackrel{A_{vert}}{\leftarrow}&
     CE(\mathfrak{g})
+    &&& transition\;function
     \\
     \uparrow && \uparrow
     \\
     \Omega^\bullet(U \times \Delta^k)
     &\stackrel{A}{\leftarrow}&
     W(\mathfrak{g})
+    &&&
+    connection
     \\
     \uparrow && \uparrow
     \\
     \Omega^\bullet(U)
     &\stackrel{\langle -\rangle}{\leftarrow}&
     inv(\mathfrak{g})
+    &&&
+    curvature\;characteristic\;form
   }
-$$
+  \label{ConnectionDiagram}
+  \,.
+\]
 
-these element produces the corresponding (generalized) [[Chern-Simons form]]
+Given such a connection with values in $\mathfrak{g}$, and given a refinement of an [[∞-Lie algebroid cocycle]] $\mu : \mathfrak{g} \to b^{n-1}\mathbb{R}$ as above, by forming the [[pasting]] composite diagrams \eqref{ConnectionDiagram} and \eqref{TheDiagram}, we obtain the corresponding local data for a $b^{n-1}\mathbb{R}$-valued connection:
+
+
+\[
+  \array{
+    \Omega^\bullet(U \times \Delta^k)_{vert}
+    &\stackrel{A_{vert}}{\leftarrow}&
+    CE(\mathfrak{g})
+    &\stackrel{\mu}{\leftarrow}&
+    CE(b^{n-1}\mathbb{R})
+    &&& characteristic\;class
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(U \times \Delta^k)
+    &\stackrel{A}{\leftarrow}&
+    W(\mathfrak{g})
+    &\stackrel{cs}{\leftarrow}&
+    W(b^{n-1}\mathbb{R})
+    &&&
+    Chern-Simons\;form
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(U)
+    &\stackrel{\langle -\rangle}{\leftarrow}&
+    inv(\mathfrak{g})
+    &\stackrel{\langle -\rangle}{\leftarrow}&
+    inv(b^{n-1}\mathbb{R})
+    &&&
+    curvature\;characteristic\;form
+  }
+  \label{ChernWeilDiagram}
+  \,.
+\]
+
+This is the local data of a [[circle n-bundle with connection]]. The connection form itself, appearing in the middle horizontal row
 
 $$
-  \Omega^\bullet(U \times \Delta^k)
-  \stackrel{A}{\leftarrow}
+  \Omega^\bullet(U) \stackrel{A}{\leftarrow}
   W(\mathfrak{g})
   \stackrel{cs}{\leftarrow}
   W(b^{n-1}\mathbb{R})
   :
   CS(A)
-  \,.
 $$
 
-This is part of the [[∞-Chern-Weil homomorphism]].
+is the [[Chern-Simons form]] of the $\mathfrak{g}$-connection evaluated in the given Chern-Simons element. Its [[curvature]] is the [[curvature characteristic form]] $\langle F_A \rangle$ appearing in the bottom line of the diagram, which is obtained by evaluating the $\mathfrak{g}$-valued [[curvature]] in the given [[invariant polynomial]]. The top row, obtained by evaluating the [[∞-Lie algebroid cocycle]] on the transition functions yields -- after truncation followed by a quotient, see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">integration of ∞-Lie algebra cocycles</a> -- the [[characteristic class]] that classifies the circle $n$-bundle.
+
+The operation in the bottom row here is at the heart of the [[∞-Chern-Weil homomorphism]]. The joint operation on all rows refines this to [[secondary characteristic classes]]. 
+
+For instance for $\mathfrak{g}$ a [[semisimple Lie algebra]] and $\mu$ the ordinary cocycle in [[Lie algebra cohomology]] in degree 3 or seven, this sends $G$-[[principal bundle]]s with [[connection on a bundle]] to the corresponding [[Chern-Simons circle 3-bundle]] and [[Chern-Simons circle 7-bundle with connection]], respectively.
+
+This is part of the general [[∞-Chern-Weil homomorphism]].
+
+We will see below in diagram \eqref{PhysicsDiagram} yet one incarnation of the transgression diagram, identifying it for the case that $\mathfrak{g}$ is a symplectic $\infty$-Lie algebroid with the triple $\mu =$[[Hamiltonian]], $cs = $[[Lagrangian]], $\langle - \rangle =$ [[symplectic structure]].
 
 ## Chern-Simons action functionals
 
@@ -297,7 +356,7 @@ where $\epsilon$ is the Euler vector field ([Roytenberg](#Roytenberg)).
 
 =--
 
-Here $\mathbf{d}$ is the shift derivation in the Weil algebra, in that $d_{W(\mathfrak{a})} = d_{CE(\mathfrak{a})} + \mathbf{d}$.
+Here $\mathbf{d}$ is the shift derivation in the [[Weil algebra]], in that $d_{W(\mathfrak{a})} = d_{CE(\mathfrak{a})} + \mathbf{d}$.
 
 +-- {: .proof}
 ###### Proof
@@ -354,7 +413,7 @@ So in total we have
 $$
   d_{W(\mathfrak{a})} (\frac{1}{2(n+2)} \iota_\epsilon \omega - \mu)
   =
-  \omega
+  \frac{1}{2}\omega
   \,.
 $$
 
@@ -363,13 +422,51 @@ $$
 +-- {: .remark}
 ###### Remark
 
-
 The Chern-Simons action functional corresponding to this Chern-Simons element
 on $\mathfrak{a}$ is that considered in [[AKSZ theory]]. 
 
+Below we spell out some low-dimensional cases explicitly
+
 =--
 
-We spell out some low-dimensional cases explicitly
+#### Higher phase space ---Hamiltonian and Lagrangian mechanics
+
+
+The symplectic Lie $n$-algebroid $(\mathfrak{P}, \omega)$ may be thought of as an [[n-symplectic manifold]] that models the [[phase space]] of a physical system. 
+
+This means for $(\mathfrak{g},\langle-\rangle) = (\mathfrak{P}, \omega)$ a symplectic Lie $n$-algebroid, the general diagram \eqref{TheDiagram} exhibiting the transgression between cocycles and invariant polynomials via Chern-Simons elements may be labeled in terms of [[Hamiltonian mechanics]], [[Lagrangian mechanics]] and [[symplectic geometry]] applied to [[physics]] as follows
+
+\[
+  \array{
+    CE(\mathfrak{P})
+    &\stackrel{H}{\leftarrow}&
+    CE(b^{n}\mathbb{R})
+    &&& Hamiltonian
+    \\
+    \uparrow && \uparrow
+    \\
+    W(\mathfrak{P})
+    &\stackrel{L}{\leftarrow}&
+    W(b^n \mathbb{R})
+    &&&
+    Lagrangian
+    \\
+    \uparrow && \uparrow
+    \\
+    inv(\mathfrak{P})
+    &\stackrel{\omega}{\leftarrow}&
+    inv(b^n \mathbb{R})
+    &&&
+    symplectic\;structure
+  }
+  \label{PhysicsDiagram}
+\]
+
+
+=--
+
+
+See [[Hamiltonian]], [[Lagrangian]], [[symplectic structure]].
 
 #### On a symplectic manifold -- The topological particle
 
@@ -383,7 +480,7 @@ The Chern-Simons element is the canonical 1-form $\alpha$ which in local coordin
 The corresponding action functional on the line 
 
 $$
-  \int_{\mathbb{R}} \gamma^* (p d_{dR} q^i)
+  \int_{\mathbb{R}} \gamma^* (p_i\, d q^i)
 $$
 
 is the familiar term for the action functional of the particle (missing the kinetic term, which makes it "topological").
