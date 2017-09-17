@@ -492,7 +492,7 @@ etc. In the [[categorical semantics]] in a [[type-theoretic model category]] thi
 
 * [[2-congruence]], [[(n,r)-congruence]]
 
-
+* [[Segal space]], [[semi-Segal space]]
 
 ## References
 
