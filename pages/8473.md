@@ -1,0 +1,1 @@
+An abelian [[differential graded Lie algebra]] is a [[cochain complex]] seen as a differential graded Lie algebra with trivial [[Lie algebra|Lie bracket]]. In the particular case when the cochain complex is concentrated in degree zero, one recovers the notion of [[abelian Lie algebra]].
