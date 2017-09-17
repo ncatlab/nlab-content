@@ -26,3 +26,6 @@ One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|compl
 [[!redirects archimedean-valued fields]]
 [[!redirects Archimedean-valued field]]
 [[!redirects Archimedean-valued fields]]
+
+[[!redirects archimedean valuation]]
+[[!redirects archimedean valuations]]
