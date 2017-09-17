@@ -1,0 +1,29 @@
+
+> under construction
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+## Idea
+
+Adding to [[cohesive homotopy type theory]] further two [[modal type theory|modalities]] that encode the infinitesimal (co)discreteness of [[infinitesimal cohesion]] yields _differential homotopy type theory_. 
+
+By the discussion at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]_ this language can express at least the following notions
+
+* [[reduced type]], [[infinitesimal path ∞-groupoid]], [[de Rham space]], [[jet bundle]], [[D-geometry]], [[∞-Lie algebra]] (synthetically), [[Lie differentiation]], hence "Formal [[Moduli Problems and DG-Lie Algebras]]" , [[formally etale morphism]], [[formally smooth morphism]], [[formally unramified morphism]], [[smooth etale ∞-groupoid]], hence [[∞-orbifold]] etc. 
+
+
+
+
+
