@@ -65,6 +65,10 @@ Let $P$ be a property stable under composition and pullback. A representable map
 A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Grothendieck topology|Grothendieck topologies]], hence applicable in noncommutative geometry of Deligne--Mumford and Artin stacks can be found in ([KontsevichRosenberg](#KontsevichRosenberg)).
 
 
+## Examples
+
+* [[projective stack]]
+
 ## Related concepts
 
 * [[geometric stack]]
