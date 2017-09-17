@@ -1,34 +1,55 @@
+
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+***
+[[!include higher algebra - contents]]
+</div>
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which objects can be multiplied in $k$ ways, all of which interchange with each other up to isomorphism.  By the [[Eckmann-Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative."
+A $k$-tuply monoidal $n$-category is an [[n-category]] in which [[object]]s can be multiplied in $k$ different ways, all of which [[interchange law|interchange]] with each other up to equivalence.  By the [[Eckmann-Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative." 
 
-There is as yet no general definition of $k$-tuply monoidal $n$-category, but the [[delooping hypothesis]] says that a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category, and if we wish we can take this hypothesis as a definition.  The hypothesis has been verified in many low-dimensional cases; see below.
+
+While there is maybe no generally accepted definition of $k$-tuply monoidal $n$-category yes, it seems that defining it to be an $n$-category with an action of the [[little k-cubes operad]] makes good sense, as discussed furhter below. With this definition the stabilization hypothesis is a theorem at least for [[(n,1)-categories]] (see below).
+
+By the [[delooping hypothesis]] a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category. One may take this hypothesis as a definition, but it has been verified in many low-dimensional cases; see below.
 
 ## Definition
 
-For purposes of this page, a __$k$-tuply monoidal $n$-category__ is a [[pointed object|pointed]] $(n+k)$-category such that any two parallel $j$-morphisms are [[equivalence|equivalent]], for $j \lt k$.  One usually relabels the $j$-morphisms as $(j-k)$-morphisms.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
+For purposes of this page, a __$k$-tuply monoidal $n$-category__ is a [[pointed object|pointed]] [[n-category|(n+k)-category]] such that any two parallel [[k-morphism|j-morphism]]s are [[equivalence|equivalent]], for $j \lt k$.  One usually relabels the $j$-morphisms as $(j-k)$-morphisms.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
 
 The given point serves as an equivalence between $(-1)$-morphisms (for now, see $(n,r)$-[[(n,r)-category|category]] for these), so there is nothing to say if $k \leq 0$ except that the category is pointed.  Thus we may as well assume that $k \geq 0$.  Also, according to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.  Unlike the restriction $k\ge 0$,  this one is not trivial.
 
 ### Special cases
 
-A $0$-tuply monoidal $n$-category is simply a pointed $n$-category, that is an $n$-category equipped with a chosen object.  A $1$-tuply monoidal $n$-category may be called simply a __[[monoidal n-category]]__.
+* A $0$-tuply monoidal $n$-category is simply a [[pointed object|pointed]] $n$-category, that is an $n$-category equipped with a chosen object.  
 
-A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category.  Although the general definition above won\'t give it, there is a notion of stably monoidal $\infty$-category, basically an $\infty$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way.  (See also [[spectrum]].)  Stably monoidal $n$-categories are also called __symmetric monoidal__, since the monoidal operation is maximally commutative.
+* A $1$-tuply monoidal $n$-category may be called simply a __[[monoidal n-category]]__. See 
 
-+--{: .query}
+  * [[monoidal category]]
 
-[[Mike Shulman]]: I would like to suggest that we switch to using _symmetric monoidal_ rather than _stably monoidal_, and especially avoid calling these just _stable_.  One advantage of "symmetric monoidal" is that it has a well-established meaning in low-dimensions; if I say "symmetric monoidal $n$-category" then people who are familiar with symmetric monoidal 1-categories are more likely to have an intuitive understanding of what I mean than if I say "stably monoidal $n$-category."
+* A **double monoidal** $n$-category is a _braided_ monoidal $n$-category. See
 
-Use of the word "stable" here also creates confusion with its other meanings (see [here](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html#c021217) and [here](http://golem.ph.utexas.edu/category/2009/01/categories_logic_and_physics_i_2.html#c021205)).  Algebraic topologists often use "stable" to mean "related to [[spectrum|spectra]]," and spectra are related to, but distinct from, symmetric monoidal $\infty$-groupoids.  (<i>Connective</i> spectra can be identified with symmetric _groupal_ $\infty$-groupoids.)  Lurie is also using "stable $(\infty,1)$-category" to mean "an $(\infty,1)$-category which behaves like the $(\infty,1)$-category of spectra."  One might not like this, but it is not original with him; several other algebraic topologists use "stable model category" in the same sense.  And since we have the perfectly good alternative term "symmetric monoidal" to use here, which has other things to recommend it as well, why create needless confusion?
+  * [[braided monoidal category]].
 
-_Toby_:  Hopefully John will admit that saying 'stable' instead of 'stably monoidal' (or 'stably groupal') was a slip of the tonuge ... pen ... fingers.  I\'m used to 'stably monoidal', and I don\'t think that it should cause confusion ---if used in full.  Also, I think there\'s some historical confusion about 'symmetric monoidal $2$-category' or maybe 'symmetric monoidal $3$-category' that 'stably monoidal' isn\'t subject to, although that\'s a bit parochial.
+* A __symmetric monoidal $n$-category__ is an $k$-tuply monoidal $n$-category for $k \geq n+2$. 
 
-=--
+  That this is indeed independent of $k$, as soon as $k$ is large enough, is te statement of the [[stabilization hypothesis]], more on which below. 
+
+  See
+
+  * [[symmetric monoidal category]]
+
+  * [[symmetric monoidal (∞,1)-category]].
+
+
+
 
 ## The periodic table
 
@@ -53,7 +74,7 @@ As remarked above, a $0$-tuply monoidal $n$-category is just a pointed one, and 
 
 ### $k=1$, $n=0$ 
 
-A 1-tuply monoidal 0-category is a pointed 0-connected 1-category, or a 1-category with a chosen object in which all objects are isomorphic.  Thus we might as well as assume there is exactly one object, in which case we just have a [[monoid]].  A functor between one-object categories, which preserves the basepoint automatically, is exactly a [[monoid homomorphism]].
+A 1-tuply monoidal 0-category is a pointed 0-connected 1-category, or a 1-category with a chosen object in which all objects are isomorphic.  Thus we might as well as assume there is exactly one object, in which case we just have a [[monoid]].  A functor between one-object categories, which preserves the basepoint automatically, is exactly a [[monoid]] [[homomorphism]].
 
 More interestingly, a natural transformation between functors $f,g:X\to Y$ between one-object categories is just an object $y\in Y$ (its component at the single object) such that $f(x) y = y g(x)$ for all $x\in X$.  So the 2-category of 0-connected 1-categories is not equivalent to the 1-category of monoids.  However, a _pointed_ natural transformation must have its component at the basepoint being the identity; thus $y=1$ and so the only such natural transformations are identities $f=g$.  Therefore, the 2-category of pointed 0-connected 1-categories (that is, 1-tuply monoidal 0-categories) is equivalent to the 1-category of monoids.
 
@@ -91,6 +112,76 @@ If we identify $\infty$-[[infinity-groupoid|groupoids]] with spaces, then a 1-tu
 
 It is a well-known fact in homotopy theory that the homotopy theories (that is, $(\infty,1)$-[[(infinity,1)-category|categories]]) of based connected spaces and of grouplike $A_\infty$-spaces are equivalent, via the [[loop space]] and [[classifying space]] constructions.  This can be regarded as another version of the delooping hypothesis.  The "grouplike" restriction (meaning that $\pi_0$ is a group, or that the multiplication has inverses up to homotopy) is because we consider only based connected $(\infty,0)$-categories, whereas we would need based connected $(\infty,1)$-categories to recover all $A_\infty$-spaces.  It would be interesting to verify the hypothesis in this case using one of the known models for $(\infty,1)$-categories.
 
+### $n = (\infty,0)$ and $\infty$-stacks {#InfStackCase}
+
+A $k$-tuply monoidal [[∞-groupoid]] may be identified, under $k$-fold [[delooping]], with a $(k-1)$-[[connected]] $\infty$-groupoid. This statement holds in fact even for _parameterized $\infty$-groupoids_, i.e. for [[∞-stack]]s.
+
++-- {: .un_theorem}
+###### Theorem (k-tuply monoidal $\infty$-stacks)
+
+Let $k \gt 0$, let $\mathcal{X}$ be an [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathcal{X}_*^{\geq k}$ denote the full [[sub-(∞,1)-category]] of the category $\mathcal{X}_{*}$ of pointed objects, spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|∞-stack homotopy groups]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
+
+$$
+  \mathcal{X}_*^{\geq k} \simeq Mon^{gp}_{\mathbb{E}[k]}(\mathcal{X}) \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Ek-Algebras|EKAlg, theorem 1.3.6.]].
+
+=--
+
+Specifically for $\mathcal{X} = Top$, this reefines to the classical theorem by [[Peter May]]
+
++-- {: .un_theorem}
+###### Theorem 
+**(May recognition theorem)**
+
+Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $X$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
+
+=--
+
+
+### $n = (n,1)$ and the stabilization hypothesis {#Inf1Case}
+
+An [[(n,1)-category]] is a $n$-[[truncated]] [[(∞,1)-category]]
+
+In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792) (reference _EnAction_ below ) the theory of [[(∞,1)-categories]] equipped with an action of the [[little k-cubes operad]] is established, so that
+
+* $(\infty,1)$-categories with an $E_1$-action are precisely [[monoidal (∞,1)-categories]]  -- 1-fold monoidal $(\infty,1)$-categories;
+
+* $(\infty,1)$-categories with an $E_\infty$-action are precisely [[symmetric monoidal (∞,1)-categories]] -- $\infty$-tuply monoidal $(\infty,1)$-categories;
+
+* $(\infty,1)$-categories with an $E_n$-action for $1 \lt n \lt \infty$ are the corresponding $k$-tuply monoidal $(\infty,1)$-categories in between.
+
+In 
+
+* [[Jacob Lurie]], _[[Ek-Algebras]]_
+
+this is further developed, and a proof of the [[stabilization hypothesis]] in this context is given.
+
++-- {: .un_prop}
+###### Proposition
+**(stabilization for $(n,1)$-categories)
+
+
+Equipping an [[(n,1)-category]] of $k$ compatible monoidal structures for $k \geq n + 2$ (which is the same as equipping it with a [[little k-cubes operad]] action) is the same as equipping it with the structure of a [[symmetric monoidal (∞,1)-category|symmetric monoidal (n,1)-category]].
+
+=--
+
+This appears as [[Ek-Algebras|EkAlg, example 1.2.3]].
+
+
 ### Other low-dimensional cases
 
 One expects that 
@@ -100,18 +191,37 @@ One expects that
 * pointed 0-connected tricategories can be identified with monoidal bicategories,
 * and so on.
 
-## General statements
-
-### Parameterized $\infty$-groupoids
-
-For _parameterized [[∞-groupoid]]s_, i.e. for [[∞-stack]]s, there is available a theorem that identified $k$-tuply monoidal pointed objects -- realized as algebras over a [[little cubes operad]] -- with $k$-connected objects in
-
-* [[Jacob Lurie]], $\mathbb{E}[k]$-[[Ek-Algebras|Algebras]] [main result](http://ncatlab.org/nlab/show/Ek-Algebras#MainResult)
-
-
 
 ## References 
+
+Some discussion of the peridodic table is in 
 
 * [[Eugenia Cheng]], [[Nick Gurski]],  The periodic table of n-categories for low dimensions I: degenerate categories and degenerate bicategories.  [arXiv:0708.1178](http://arxiv.org/abs/0708.1178).
 
 * [[John Baez]] and [[Mike Shulman]],  Lectures on $n$-categories and cohomology.  [arXiv:math.CT/0608420](http://arxiv.org/abs/math.CT/0608420).
+
+
+The theory of $k$-tuply monoidal [[(∞,1)-categories]] was maybe first studied in
+
+* **EnAction** [[John Francis]] PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
+
+and later further developed in
+
+* [[Jacob Lurie]], _[[Ek-Algebras]]_
+ 
+where also the proof of the [[stabilization hypothesis]] in this context is noticed.
+
+
+## Discussion
+
+A previous version of this entry led to the following discussion
+
++--{: .query}
+
+[[Mike Shulman]]: I would like to suggest that we switch to using _symmetric monoidal_ rather than _stably monoidal_, and especially avoid calling these just _stable_.  One advantage of "symmetric monoidal" is that it has a well-established meaning in low-dimensions; if I say "symmetric monoidal $n$-category" then people who are familiar with symmetric monoidal 1-categories are more likely to have an intuitive understanding of what I mean than if I say "stably monoidal $n$-category."
+
+Use of the word "stable" here also creates confusion with its other meanings (see [here](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html#c021217) and [here](http://golem.ph.utexas.edu/category/2009/01/categories_logic_and_physics_i_2.html#c021205)).  Algebraic topologists often use "stable" to mean "related to [[spectrum|spectra]]," and spectra are related to, but distinct from, symmetric monoidal $\infty$-groupoids.  (<i>Connective</i> spectra can be identified with symmetric _groupal_ $\infty$-groupoids.)  Lurie is also using "stable $(\infty,1)$-category" to mean "an $(\infty,1)$-category which behaves like the $(\infty,1)$-category of spectra."  One might not like this, but it is not original with him; several other algebraic topologists use "stable model category" in the same sense.  And since we have the perfectly good alternative term "symmetric monoidal" to use here, which has other things to recommend it as well, why create needless confusion?
+
+_Toby_:  Hopefully John will admit that saying 'stable' instead of 'stably monoidal' (or 'stably groupal') was a slip of the tonuge ... pen ... fingers.  I\'m used to 'stably monoidal', and I don\'t think that it should cause confusion ---if used in full.  Also, I think there\'s some historical confusion about 'symmetric monoidal $2$-category' or maybe 'symmetric monoidal $3$-category' that 'stably monoidal' isn\'t subject to, although that\'s a bit parochial.
+
+=--
