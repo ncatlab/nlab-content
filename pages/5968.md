@@ -142,4 +142,20 @@ $$
 
 =--
 
+## Related concepts
+
+* [[conservation law]]
+
+## References
+
+Noether's theorem is named after [[Emmy Noether]].
+
+For 1-parameter groups of symmetries in classical mechanics, the formulation and the proof of [[Noether's theorem]] can be found in the monograph 
+
+* [[Vladimir Arnold]], _Mathematical methods of classical mechanics_
+
+For more general case see for instance the books by [[Peter Olver]].
+
+
+
 [[!redirects Noether theorem]]
