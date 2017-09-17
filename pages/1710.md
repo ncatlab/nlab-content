@@ -17,6 +17,8 @@ In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 * $C(x,y)$ - See [[hom-set]] or [[hom-object]]
 * $hom(x,y)$ - See [[internal hom]] or [[hom-set]]
 * $Hom(x,y)$ - See [[internal hom]] or [[hom-set]]
+* $Hom_C(x,y)$ - See [[hom-set]]
+* $h_x$ - See [[hom-functor]]
 
 #Discussion#
 
