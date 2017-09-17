@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An [[operad]] whose [[algebras over an operad]] are triples consistsing of two [[associative algebras]] $A$, $B$ and an $A$-$B$-[[bimodule]] .
+
+## Related concepts
+
+* [[operad for modules over an algebra]]
+
+## References
+
+Section 4.3.1 in 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
+
+[[!redirects operad for bimodules over algebras]]
