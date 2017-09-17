@@ -159,17 +159,19 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 ## Related concepts
 
-* [[quantum anomaly]]
-
-  * [[Green-Schwarz mechanism]]
-
-* [[self-dual higher gauge theory]]
-
 * [[higher U(1)-gauge theory]]
 
   * [[higher electric background charge coupling]]
 
+* [[self-dual higher gauge theory]]
+ 
+
 * [[higher spin gauge theory]]
+
+
+* [[quantum anomaly]]
+
+  * [[Green-Schwarz mechanism]]
 
 * [[schreiber:infinity-Chern-Simons theory]]
 
