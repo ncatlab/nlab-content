@@ -419,7 +419,7 @@ This reformulation of linear $G$-[[actions]] in terms of [[modules]] allows to t
 ### Presheaves in enriched category theory
  {#InEnrichedCategory}
 
-Equivalently, regarding the [[monoid]] $A$ as a one-object $\mathcal{V}$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-[[enriched functor]]
+Equivalently (in the case where $V$ is a [[closed monoidal category]], where $V$ is regarded as enriched in itself), if we regard the [[monoid]] $A$ as a one-object $\mathcal{V}$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-[[enriched functor]]
 
 $$
   \rho : \mathbf{B}A \to V
