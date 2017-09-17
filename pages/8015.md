@@ -47,6 +47,8 @@ This may be [[presentable (infinity,1)-category|presented]] by a [[model structu
 
 ## Related concepts
 
+* [[sheaf of L-∞ algebras]]
+
 * [[parameterized spectrum]]
 
 
