@@ -35,7 +35,7 @@ solvable in quadratures. Thus the integration is used in examples of solving dif
 
 See also [[measure theory]] (and [[measurable space]], [[measure space]]) which is a basis for many kinds of integrals, especially the [[Lebesgue integral]]. 
 
-Basic kinds of integrals in (super)analysis: the [[Danielli integral]], the [[Riemann integral]], the [[Lebesgue integral]], the [[Henstock integral]], the [[Stieltjes integral]]s, the [[Berezin integral]], [[line integrals]].
+Basic kinds of integrals in (super)analysis: the [[Daniell integral]], the [[Riemann integral]] (possibly [[one-sided Riemann integral|upper or lower]], [[improper Riemann integral|improper]], or [[Henstock integral|generalised]]), the [[Lebesgue integral]], the [[Henstock integral]] (same as the generalised Riemann integral or the improper Lebesgue integral), the [[Stieltjes integral|Stieltjes]] variations of the above, the [[Berezin integral]], [[line integrals]].
 
 Special examples of the above include the [[Batalin-Vilkovisky integral]], the [[Kontsevich integral]], the [[Selberg integral]],the [[elliptic Selberg integral]].
 
