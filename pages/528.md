@@ -145,6 +145,8 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[triangular Hopf algebra]]
 
+* [[quasitriangular Hopf algebra]]/[[quantum group]]
+
 * [[hopfish algebra]]
 
 ## References
