@@ -1,0 +1,136 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _chain homotopy_ is a [[homotopy]] in a [[category of chain complexes]].
+
+
+## Definition
+
+Let $\mathcal{A} = $ [[Ab]] be the [[abelian category]] of [[abelian groups]]. Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] in $\mathcal{A}$.
+
++-- {: .un_defn}
+###### Definition
+
+A _chain homotopy_ $\psi : f \Rightarrow g$ between two [[morphism]]s $f,g : C_\bullet \to D_\bullet$ in $Ch_\bullet(\mathcal{A})$ is a sequence of morphisms
+
+$$
+  \{ (\psi_n : C_n \to D_{n+1}) \in \mathcal{A} | n \in \mathbb{N} \}
+$$
+
+such that 
+
+$$
+  f_n - g_n = d_D \psi_n + \psi_{n-1} d_C
+  \,.
+$$
+
+=--
+
+## Properties
+
++-- {: .un_def}
+###### Definition
+
+
+Let $\mathbb{Z}(\Delta[1])$ 
+be the [[free group|free]] [[abelian group|abelian]] [[simplicial group]] on the [[simplicial set|simplicial]] 1-[[simplex]] and write
+
+$$
+  I_\bullet := N_\bullet(\mathbb{Z}(\Delta[1]))
+$$ 
+
+for its [[normalized chain complex]]. 
+
+=--
+
+This is an [[interval object]] in the [[category of fibrant objects]] $Ch_\bullet(\mathcal{A})$.
+
++-- {: .un_prop}
+###### Proposition
+
+A chain homotopy $\psi : f \Rightarrow g$ is equivalently a diagram
+
+$$
+  \array{
+    C_\bullet
+    \\
+    \downarrow & \searrow^{\mathrlap{f}}
+    \\
+    C_\bullet \otimes I_\bullet
+    &\stackrel{(f,g,\psi)}{\to}&
+    D_\bullet
+    \\
+    \uparrow & \nearrow_{\mathrlap{g}}
+    \\
+    C_\bullet
+  }
+$$
+
+in $Ch_\bullet(Ab)$, hence a genuine [[left homotopy]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that $N_\bullet(\mathbb{Z}(\Delta[1]))$ is the chain complex
+
+$$
+  (  \cdots  \to 0   \to 0 \to \mathbb{Z} \stackrel{Id \ominus Id}{\to}  \mathbb{Z} \oplus \mathbb{Z} \to 0 \to 0 \to \cdots)
+$$
+
+where the term $\mathbb{Z} \oplus \mathbb{Z}$ is in degree 0: this is the free abelian group on the set $\{0,1\}$ of 0-simplices in $\Delta[1]$. The other copy of $\mathbb{Z}$ is the free abelian group on the single non-degenerate edge in $\Delta[1]$. All other cells of $\Delta[1]$ are degenerate and hence do not contribute to the [[normalized chain complex]]. The single nontrivial differential sends $1 \in \mathbb{Z}$ to $(1,-1) in \mathbb{Z} \oplus \mathbb{Z}$, reflecting the fact that one of the vertices is the 0-boundary the other the 1-boundary of the single nontrivial edge.
+
+It follows that the [[tensor product]] $C_\bullet \otimes I_\bullet$ is
+
+$$
+  \cdots
+  \to 
+  C_1 \oplus C_{2} \oplus C_2
+  \to C_0 \oplus C_{1} \oplus C_{1} \to  C_{-1} \oplus C_0 \oplus C_0 \to \cdots
+ \,.
+$$
+
+Therefore a chain map $(f,g,\psi) :  C_\bullet \otimes I_\}bullet \to D_\bullet$ that restricted to the two copies of $C_\bullet$ is $f$ and $g$, respectively,  is characterized by a collection of commuting diagrams
+
+$$
+  \array{
+    C_{n+1}\oplus C_{n+1} \oplus C_{n} 
+      &\stackrel{(f_{n+1},g_{n+1}, \psi_n)}{\to}& D_n
+    \\
+    {}^{\mathllap{}}\downarrow && \downarrow^{\mathrlap{d_D}}
+    \\
+     C_{n} \oplus C_{n} \oplus C_{n-1} &\stackrel{(f_n,g_n,\psi_{n-1})}{\to}
+    & 
+    D_n
+  }
+  \,.
+$$
+
+On the elements $(1,0,0)$ and $(0,1,0)$ in the top left this reduces to the chain map condition for $f$ and $g$, respectively. On the element $(0,0,1)$ this is the equation for the chain homotopy
+
+$$
+  f_n - g_n - \psi_{n-1} d_C = d_D \psi_{n}
+  \,.
+$$
+
+=--
+
+[[!redirects cochain homotopy]]
