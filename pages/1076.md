@@ -212,12 +212,17 @@ $$
 
   * In particular, therefore, the [[derived category]] of any [[abelian category]] is a triangulated category, since it is the localization of the homotopy category at the null system of acyclic complexes.  This example is also the homotopy category of a stable $(\infty,1)$-category, and usually of a stable model category.
 
-## Related concepts and discussion 
+## Related concepts 
 
 * [[enhanced triangulated category]], [[pretriangulated dg-category]], [[stable (infinity,1)-category]]
+
+* [[Bridgeland stability condition]]
+
+
 * [[derived category]], [[suspended category]], [[n-angulated category]]
 * [[Bousfield lattice]], [[thick subcategory]], [[additive category]], [[well-generated triangulated category]]
-* Discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category)
+
+
 
 ## References
 
@@ -234,6 +239,9 @@ $$
 * [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143)) 
 
 is a survey of formalisms used in [[stable homotopy theory]] to present the triangulated [[homotopy category]] of a [[stable (infinity,1)-category]].
+
+* Discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category)
+
 
 [[!redirects triangulated categories]]
 [[!redirects distinguished triangle]]
