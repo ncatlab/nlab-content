@@ -90,3 +90,8 @@ Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://www.mat
 [[!redirects Spin structure]]
 [[!redirects Spin-structure]]
 [[!redirects spin-structure]]
+
+[[!redirects Spin structures]]
+[[!redirects Spin-structures]]
+[[!redirects spin structures]]
+[[!redirects spin-structures]]
