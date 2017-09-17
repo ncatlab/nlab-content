@@ -1,10 +1,16 @@
-# Idea
+# Lawvere--Tierney topologies
+* table of contents
+{: toc}
+
+
+## Idea
 
 A Lawvere--Tierney topology (or operator, or modality, also called _geometric modality_) is a way of saying that something is 'locally' true.  Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _geometric logic_.  In fact, it is a generalisation of Grothendieck topology in this sense: If $C$ is a small category, then choosing a Grothendieck topology on $C$ is equivalent to choosing a Lawvere--Tierney topology in the topos $\Set^{C^\op}$ of [[presheaf|presheaves]] on $C$.
 
 The use of "topology" for this and the related Grothendieck concept is regarded by some people as unfortunate; see [[Grothendieck topology]] for some reasons why.  A proposed replacement for "Grothendieck topology" is [[coverage|(Grothendieck) coverage]]; see [[Grothendieck topology]] for some possible replacements for "Lawvere--Tierney topology."
 
-# Definition
+
+## Definition
 
 Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$. A __Lawvere--Tierney topology__ in $E$ is a map $j: \Omega \to \Omega$ that satisfies certain axioms.
 
@@ -20,7 +26,7 @@ Equivalently, the third axiom above can be replaced with the (internal) statemen
 Specifically, given any [[subobject]] inclusion $X \hookrightarrow Y$ in $E$, consider its [[characteristic morphism]] $\chi_X: Y \to \Omega$. Then $j \circ \chi_X$ is another morphism $Y \to \Omega$, which defines another subobject $j_*(X)$ of $Y$, taken as the closure of our original subobject. The elements of $j_*(X)$ are those elements of $Y$ that are 'locally' in $X$.
 
 
-# Equivalence with Grothendieck topologies
+## Equivalence with Grothendieck topologies
 
 As mentioned above, a Lawvere--Tierney topology on $\Set^{C^\op}$ is equivalent to a [[Grothendieck topology]] on $C$.  Suppose that $C$ is a small site.  Then given a [[subpresheaf]] inclusion $F \hookrightarrow G$ in $\Set^{C^\op}$, an object $X$ of $C$, and an element $f$ of $G(X)$, we say $f$ is locally in $F$ (that is, $f \in j_*(F)(X)$) if and only if, for some [[cover|covering family]] $c = (c_i: U_i \to X)_i$ on $X$, the restriction $c^*(f)$ of $f$ to $c$ is in $F$ (that is, each $c_i^*(f) \in F(U_i)$).  This intuitively defines the "local" modality that is the Lawvere--Tierney topology corresponding to the given Grothendieck topology on $C$.
 
@@ -44,9 +50,7 @@ which is just the Lawvere--Tierney operator $j: \Omega \to \Omega$.
 Conversely, any morphism $j:\Omega\to\Omega$ determines a subobject $J$ of $\Omega$, which therefore associates to every object $c$ a set of sieves on $c$.  It is easy to check that the axioms for covering sieves in a Grothendieck topology correspond exactly to the required properties of the operator $j$.
 
 
-
-
-#Sheaves#
+## Sheaves
 
 Using Lawvere--Tierney topologies, 
 the notion of [[sheaf]] and [[sheafification]] generalizes from [[Grothendieck topos|Grothendieck topoi]] to arbitrary topoi. 
@@ -64,7 +68,7 @@ sends all [[dense monomorphism]]s to [[isomorphism]]s.
 This condition clearly makes sense for every topos with Lawvere--Tierney topology.
 
 
-## Sheafification ##
+## Sheafification
 
 By using [[dense monomorphism]]s in place of [[local isomorphism]]s, this induces a notion of [[sheafification]] on an arbitrary [[topos]] $E$ with a Lawvere--Tierney topology.
 
@@ -83,7 +87,7 @@ to the [[subcategory]] $i : Sh(E) \hookrightarrow E$ of objects local with respe
 In the case that $E = PSh(S)$ and the Lawvere--Tierney topology is that corresponding to a Grothendieck topology on $S$, the two notions of [[sheafification]] coincide.
 
 
-#References#
+## References
 
 Lawvere--Tierney topologies are discussed in section V.1 of
 
@@ -93,8 +97,11 @@ the notion of sheaves in section V.3, the sheafification functor in section V.3 
 
 
 [[!redirects sheafification in a Lawvere-Tierney topos]]
-[[!redirects sheafification in a Lawvere--Tierney topos]]
 [[!redirects sheafification in a Lawvere–Tierney topos]]
+[[!redirects sheafification in a Lawvere--Tierney topos]]
+[[!redirects Lawvere-Tierney topology]]
 [[!redirects Lawvere–Tierney topology]]
 [[!redirects Lawvere--Tierney topology]]
 [[!redirects Lawvere-Tierney topologies]]
+[[!redirects Lawvere–Tierney topologies]]
+[[!redirects Lawvere--Tierney topologies]]
