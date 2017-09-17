@@ -39,6 +39,9 @@ Jacobian varieties are the most important class of [[abelian varieties]].
 
 The __[[Abel-Jacobi map]]__ $C\to J(C)$ is defined with help of [[periods]] ...)
 
+### Line bundles and theta functions
+
+over the [[complex numbers]], [[line bundles]] on a Jacobian variety over a given [[Riemann surface]] are naturally encoded by [[Riemann theta functions]].
 
 ## Related concepts
 
