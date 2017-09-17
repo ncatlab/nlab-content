@@ -429,6 +429,7 @@ On [[quadratic operads]] in chain complexes there is a duality operation called 
 
 * **operad** / [[(∞,1)-operad]]
 
+* [[cohomology of operads]]
 
 ## References
 
