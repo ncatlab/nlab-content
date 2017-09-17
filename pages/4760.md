@@ -43,19 +43,22 @@ $$
 
 * The [[simplicial set]]s in the image of the Duskin nerve are 3-[[coskeletal]].
 
-* The Duskin nerve identifies precisely [[bigroupoid]]s with 3-coskeletal [[Kan complex]]es. 
+* The Duskin nerve identifies precisely [[bigroupoid]]s with 2-[[hypergroupoid]]s: those [[Kan complexes]] for which the horn fillers in dimension $\geq 3$ are _unique_ . 
+
+  (Theorem 8.6 in ([Duskin](#Duskin)))  
 
   (This shows in particular that bigroupoids model all [[homotopy 2-type]]s.)
 
 
 ## Example
 
-Any strict 2-category determines both a 'bicategory' in the above sense (since a 'strict' thing is also a 'weak' one)  and a simplicially enriched category.  The latter is found by taking the nerve of each 'hom-category'.  The Duskin nerve of a 2-category is the same as the [[homotopy coherent nerve]] of the corresponding $sSet$-category.  This can also be applied to [[2-groupoid]]s and results in a classifying space construction for [[crossed module]]s. 
+Any [[strict 2-category]] determines both a 'bicategory' in the above sense (since a 'strict' thing is also a 'weak' one)  and a simplicially enriched category.  The latter is found by taking the nerve of each 'hom-category'.  The Duskin nerve of a 2-category is the same as the [[homotopy coherent nerve]] of the corresponding $sSet$-category.  This can also be applied to [[2-groupoid]]s and results in a classifying space construction for [[crossed module]]s. 
 
 
 ## References
 
 * [[John Duskin]], _Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories_ ([tac](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html))
+{#Duskin}
 
 * V. Blanco, M. Bullejos, E. Faro, A Full and faithful Nerve for 2-categories, Applied 
 Categorical Structures, Vol 13-3, 223-233, 2005.
