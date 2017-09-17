@@ -6,4 +6,5 @@ His father was Emil Artin.
 
 
 [[!redirects M.Artin]]
+[[!redirects M. Artin]]
 category: people
