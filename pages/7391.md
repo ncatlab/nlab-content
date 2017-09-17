@@ -902,36 +902,17 @@ _[Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)
 ###### Proposition
 
 The fibrant objects in $[\Delta^{op}, dSet_{CM}]_{LocConst}$ are precisely
-the Reedy fibrant simplicial dendroidal sets $X$, such that 
 
-* for every $n \in \mathbb{N}$ the morphism $X_n \to X_0$ is a weak equivalence in the [[model structure on dendroidal sets]];
+* the Reedy fibrant simplicial dendroidal sets $X$,  
 
-which is equivalent to:
-
-* the morphism $X \to *$ has the [[right lifting property]] against the set of [[pushout product]] morphisms
-
-  $$
-    \{
-      (\Lambda^k[n] \to \Delta[T]) \bar \cdot (\partial \Omega[T] \to \Omega[T])
-    \}_{T \in \Omega, n \geq 1 , 0 \leq k \leq n}
-    = 
-    \{
-      \Lambda^k[n] \cdot \Omega[T] \cup \Delta[n] \cdot \partial \Omega[T] \to 
-      \Delta[n]\cdot\Omega[T]
-    \}_{T \in \Omega, n \geq 1 , 0 \leq k \leq n}
-    \,.
-  $$
-
-
-
+* such that for every $n \in \mathbb{N}$ the morphism $X_n \to X_0$ is a weak equivalence in the [[model structure on dendroidal sets]];
 =--
 
-([Cis-Moer, 4.7](#CisinskiMoerdijk)).
+([Cis-Moer, 4.7 ii)+iii)](#CisinskiMoerdijk)).
 
 +-- {: .proof}
 ###### Proof
 
-We first consider the first item. 
 
 By standard facts of [[Bousfield localization of model categories|left Bousfield localization]] a simplicial dendroidal set is fibrant in the locally constant model structure, def. \ref{LocallyConstantModelStructure}, precisely if it is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$ and moreover the [[derived hom-space]] functor $\mathbb{R}Hom_{[\Delta^{op},dSet_{CM}]_{Reedy}}((\Delta[n]\cdot \Omega[T] \to \Omega[T]), X)$ is a weak equivalence for all $n \in \mathbb{N}$. 
 
@@ -1041,11 +1022,51 @@ $$
   \,.
 $$
 
-This in turn means that $X_n \to X_0$ has the right lifting property against the tree boundary inclusions. Since these are the generating cofibrations in the [[model structure on dendroidal sets]], this implies that $X_n \to X_0$ is an equivalence. So this shows that the second item implies the first.
+This in turn means that $X_n \to X_0$ has the right lifting property against the tree boundary inclusions. Since these are the generating cofibrations in the [[model structure on dendroidal sets]], this implies that $X_n \to X_0$ is an equivalence. 
 
 For the converse, it is sufficient to see that all the morphisms in the localizing set are acyclic cofibrations in the locally constant model structure. This follows with the discussion [here](model+structure+on+dendroidal+sets#RelationToModelStructureForDendroidalCompleteSegal) at _[[model structure on dendroidal sets]]_.
 
 =--
+
++-- {: .num_prop #FibrantObjectsInTheLocallyConstantModelStructure2}
+###### Proposition
+
+The fibrant objects in $[\Delta^{op}, dSet_{CM}]_{LocConst}$ are also precisely
+
+* the Reedy fibrant simplicial dendroidal sets $X$,  
+
+* such that the morphism $X \to *$ has the [[right lifting property]] against the set of [[pushout product]] morphisms
+
+  $$
+    \{
+      (\Lambda^k[n] \to \Delta[T]) \bar \cdot (\partial \Omega[T] \to \Omega[T])
+    \}_{T \in \Omega, n \geq 1 , 0 \leq k \leq n}
+    = 
+    \{
+      \Lambda^k[n] \cdot \Omega[T] \cup \Delta[n] \cdot \partial \Omega[T] \to 
+      \Delta[n]\cdot\Omega[T]
+    \}_{T \in \Omega, n \geq 1 , 0 \leq k \leq n}
+    \,.
+  $$
+
+
+
+=--
+
+([Cis-Moer, 4.7 i)+iii)](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+Since the simplicial horn inclusions generate all acyclic cofibrations in $sSet_{Qillen}$, it follows that a (Reedy fibrant) object $X$ which has right lifting against $\{(\Lambda^k[n] \to \Delta[n]) \bar \cdot (\partial \Omega[T] \to \Omega[T])\}$ also has right lifting against $\{(\Delta[0] \to \Delta[n]) \bar \cdot (\partial \Omega[T] \to \Omega[T]) \}$. This means that $X_0 \to X_n$ is an acyclic fibration for all $n$, in particular a weak equivalence, hence $X$ is fibrant in the locally constant structure by \ref{FibrantObjectsInTheLocallyConstantModelStructure}.
+
+Conversely, one finds with ... and ... that the morphisms in the above set are acyclic cofibrations in the locally constant model structure, hence if an object is locally constant fibrant, it lifts against these.
+
+=--
+
+
+
+
 
 +-- {: .num_prop }
 ###### Proposition
@@ -1096,7 +1117,7 @@ Therefore the cofibrations in the two model structures do coincide.
 
 Next, to see that the fibrant objects also coincide, write again $S = \{A \to B\}$ for a choice of set of generating acyclic cofibrations for $dSet_{CM}$ between normal dendroidal sets.
 
-By prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure} the fibrant objects of 
+By prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure2} the fibrant objects of 
 $[\Delta^{op}, dSet_{CM}]_{LocConst}$ are those that 
 
 1. are Reedy fibrant over $\Delta^{op}$, meaning that they have the right 
@@ -1107,7 +1128,7 @@ $[\Delta^{op}, dSet_{CM}]_{LocConst}$ are those that
     \,;
    $$
 
-1. are local, meaning, by prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure}, that they have the right lifting property against
+1. are local, meaning, by prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure2}, that they have the right lifting property against
 
    $$
      \{ (\Lambda^k[n] \to \Delta[n]) \bar \cdot (\partial \Omega[T] \to \Omega[T]) \}
