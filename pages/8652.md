@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -14,6 +28,8 @@ These higher order gauge transformations are maybe best known in the [[physics]]
 ## Examples
 
 A basic example of a gauge field that has higher order gauge transformations is the [[B-field]]. But also [[magnetic current]], if described properly, exhibits higher gauge transformations, see at _[[Dirac charge quantization]]_.
+
+For more see at _[[geometry of physics]]_.
 
 
 [[!redirects higher gauge transformations]]
