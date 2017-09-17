@@ -13,7 +13,7 @@
 1. [[computation rule]]
 
 **[[type theory]]** 
-([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[homotopy type theory]])
+([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[observational type theory]], [[homotopy type theory]])
 
 * [[calculus of constructions]]
 
