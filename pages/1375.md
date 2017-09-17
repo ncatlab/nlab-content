@@ -103,31 +103,19 @@ One can define $\Phi$-symmetric $F$-spectra in a category $C$, where $\Phi$ is a
 
 (One recovers the classical case described at [[spectrum]] by taking $C$ to be the [[category]] of [[pointed spaces]], $\Phi$ to be the trivial [[graded monoid]], and $F$ to be the [[suspension functor]].)
 
-1.  Let $\Phi$ be a [[graded monoid]] in the category of [[groups]].  Explicitly this is the data of [[groups]] $\Phi_n$ for all $n \in \mathbf{N}$ with morphisms $\Phi_m \times \Phi_n \to \Phi_{m+n}$ for all $m,n \ge 0$ (subject to various axioms...).  $\Phi$ will usually be either $\Sigma = (\Sigma_n)_n$, the [[graded monoid]] of [[symmetric groups]], or $1 = (1_n)_n$, the [[graded monoid]] of [[trivial group]]s.
+Let $\Phi$ be a [[graded monoid]] in the category of [[groups]].  Write $Seq(\Phi, C)$ for the category of $\Phi$-[[symmetric sequences]].  Let $F : C \to C$ be a $\Phi$-[[symmetric endofunctor]] of $C$.  (Usually $F$ will be the functor $T \otimes_C -$ induced by [[tensor product]] with some object $T$.)
 
-2.  A **$\Phi$-[[symmetric sequence]]** in $C$ is a [[sequence]] of objects $(X_n)_{n \ge 0}$ together with [[actions]] $a_n : \Phi_n \to \Aut_C(X_n)$.  We write $Seq(\Phi, C)$ for the category of $\Phi$-[[symmetric sequences]].  See [[symmetric sequence]] for details.
-
-3.  A **$\Phi$-symmetric endofunctor** of $C$ is an [[endofunctor]] $F : C \to C$ together with [[actions]] $\Phi_n \to Aut(F^n)$.  Usually $F$ will be the functor $T \otimes_C -$ induced by [[tensor product]] with some object $T$.
-
-4.  Let $F : C \to C$ be a $\Phi$-symmetric [[endofunctor]].  A **$\Phi$-symmetric $F$-spectrum** in $C$ is a $\Phi$-[[symmetric sequence]] $(X_n)_{n \in \mathbf{N}}$ together with **assembly morphisms**
+A **$\Phi$-symmetric $F$-spectrum** in $C$ is a $\Phi$-[[symmetric sequence]] $(X_n)_{n \in \mathbf{N}}$ together with **assembly morphisms**
   $$ \gamma_n : F(X_n) \to X_{n+1} $$
 such that the composite morphism
   $$ F^m(X_n) \to F^{m-1}(X_{n+1}) \to \cdots \to X_{m+n} $$
 is $(\Phi_m \times \Phi_n)$-[[equivariant]].  (Note that $\Phi_m$ acts on $F^m$ by the definition of [[symmetric endofunctor]], and $\Phi_n$ acts on $X_n$ by the definition of [[symmetric sequence]].)  A morphism of $\Phi$-symmetric $T$-spectra $X = (X_n)_n \to Y = (Y_n)_n$ is a morphism of $\Phi$-[[symmetric sequences]] making the obvious [[diagrams]] [[commutative diagram|commute]].  We write $Spect^{\Phi}_F(C)$ for the category of $\Phi$-symmetric $F$-spectra in $C$.
 
-5.  When $\Phi = \Sigma$, the [[graded monoid]] of [[symmetric groups]], $\Sigma$-symmetric $F$-spectra are called simply **symmetric $F$-spectra**.  When $\Phi = 1$, $1$-symmetric $F$-spectra are called simply **nonsymmetric $F$-spectra**.  When the endofunctor $F$ is given by $T \otimes -$ for some object $T \in C$, $F$-spectra are called $T$-spectra.
+When $\Phi = \Sigma$, the [[graded monoid]] of [[symmetric groups]], $\Sigma$-symmetric $F$-spectra are called simply **symmetric $F$-spectra**.  When $\Phi = 1$, $1$-symmetric $F$-spectra are called simply **nonsymmetric $F$-spectra**.  When the endofunctor $F$ is given by $T \otimes -$ for some object $T \in C$, $F$-spectra are called $T$-spectra.
 
-6.  Let $T \in C$ be an object and consider the $\Sigma$-[[symmetric sequence]] $Sym(T)$ whose $n$th component is $Sym(T)_n = T^{\otimes n}$ (with the [[actions]] of $\Sigma_n$ by permuting the $n$ factors).
+When $C$ is a [[symmetric monoidal category]], there is an induced [[symmetric monoidal structure on spectrum objects]].
 
-7.  **Proposition.**  $Sym(T)$ is a commutative [[algebra object]] in the [[symmetric monoidal category]] $Seq(\Sigma, C)$.
-
-8.  By the previous proposition there is a [[symmetric monoidal structure]] on $Mod_\ell(Sym(T))$ where $X \otimes_{Sym(T)} Y$ is defined as the [[coequalizer]] of the diagram
-  $$ X \otimes Sym(T) \otimes Y \rightrightarrows X \otimes Y. $$
-
-9.  Note that one has a tautological [[equivalence of categories]]
-  $$ \Spect^\Sigma_T(C) \stackrel{\sim}{\longrightarrow} \Mod_\ell(Sym(T)). $$
-In particular one gets a [[symmetric monoidal structure]] on $Spect^\Sigma_T(C)$.
-
+When $C$ is a sufficiently nice [[model category]], there are induced [[model structures on spectrum objects]].
 
 ## Properties
 
