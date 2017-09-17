@@ -1,3 +1,9 @@
+# Subspaces
+* table of contents
+{: toc}
+
+## Idea
+
 Various more or less geometrical concepts are called [[spaces]], to name a few [[vector spaces]], [[topological spaces]], [[algebraic spaces]], ....  If such objects form a [[category]], it is natural to look for the [[subobject]]s and to call them _subspaces_.  However, often the natural subspaces in the field are the [[regular subobjects]]; convsersely, it is also often the case that variants which are not subobjects in categorical sense are allowed, such as an [[immersed submanifold]] (whose image topological subspace is not a manifold in general).
 
 
@@ -28,7 +34,7 @@ However, the subspaces that we really want in categories such as [[Ban]] are the
 
 ### Sublocales
 
-... [[sublocale]] ...
+... [[sublocale]] ... [[nucleus]] ...
 
 
 ### Submanifolds
@@ -42,4 +48,6 @@ For Grothendieck topologies, one instead of a subspace has a concept of a [[subs
 
 
 [[!redirects subspace]]
+[[!redirects subspaces]]
 [[!redirects topological subspace]]
+[[!redirects topological subspaces]]
