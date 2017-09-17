@@ -18,7 +18,7 @@
 
 ## Idea
 
-A __Cartan connection__ is a special case of a [[connection on a bundle]] which is more general than [[affine connection]], but more special than the [[principal connection]], in general: 
+The notion of __Cartan connection__ is a special case of that of _[[connection on a bundle]]_ which is more general than the notion of _[[affine connection]]_ , but more special than the notion of _[[principal connection]]_ , in general: 
 
 it is an $G$-[[principal connection]] subject to the constraint that the connection 1-form linearly identifies each [[tangent space]] of the base space with a quotient $\mathfrak{g}/\mathfrak{h}$ of the [[Lie algebra]] $\mathfrak{g}$ of $G$ by a sub-Lie algebra $\mathfrak{h}$.
 
