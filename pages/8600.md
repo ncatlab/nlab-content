@@ -1,4 +1,5 @@
-| | [[type theory]] | [[category theory]] |
+
+|  | [[type theory]] | [[category theory]] |
 |--|--|--|
 |  | [[syntax]] | [[semantics]] |
 |  |  [[natural deduction]] |  [[universal construction]] | 
