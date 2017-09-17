@@ -1,3 +1,4 @@
+[[!redirects Cech methods]]
 [[!redirects Čech methods]]
 [[!redirects Cech methods]]
 
