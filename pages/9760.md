@@ -1,7 +1,7 @@
 
 The **[[brane]] scan**.
 
-The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [[sigma-models]] (see at _[[table of branes]]_ for further links):
+The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [[sigma-models]] (see at _[[table of branes]]_ for further links and see at _[[schreiber:The brane bouquet]]_ for the full classification):
 
 | $\stackrel{D}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 | 
 |--|--------|---|---|---|---|---|---|---|----|----|
@@ -9,8 +9,8 @@ The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [
 | 10 | [[D0-brane|D0]]  | [[F1-brane|F1]], [[D1-brane|D1]]  | [[D2-brane|D2]]  | [[D3-brane|D3]] | [[D4-brane|D4]]  | [[NS5-brane|NS5]], [[D5-brane|D5]] |  [[D6-brane|D6]]  | [[D7-brane|D7]]  | [[D8-brane|D8]]  | [[D9-brane|D9]]  | 
 | 9 | |   |   |  | $\ast$  |  |   |   |   |   | 
 | 8 | |   |   | $\ast$ |   |  |   |   |   |   | 
-| 7 | |   | $\ast$  |  |   |  |   |   |   |   |    
-| 6 | |  $\ast$  |  | $\ast$ |   |  |   |   |   |   | 
+| 7 | |   | [[topological M2-brane|M2]]${}_{top}$  |  |   |  |   |   |   |   |    
+| 6 | |  [[little string|F1]]${}_{little}$  |  | $\ast$ |   |  |   |   |   |   | 
 | 5 | |  | $\ast$   | |   |  |   |   |   |   | 
 | 4 | | $\ast$  | $\ast$   | |   |  |   |   |   |   |   
 | 3 | | $\ast$  |  | |   |  |   |   |   |   |
