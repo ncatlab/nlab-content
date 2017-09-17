@@ -65,7 +65,9 @@ This is [[poset|partially ordered]] under inclusion.
 
 ## Related pages
 
-The notion of monomorphism in an $(\infty,1)$-category can also be characterized in its underlying homotopy [[derivator]]; see [[monomorphism in a derivator]].
+* The equivalence class of a monomorphism is a [[subobject in an (infinity,1)-category]].
+
+* The notion of monomorphism in an $(\infty,1)$-category can also be characterized in its underlying homotopy [[derivator]]; see [[monomorphism in a derivator]].
 
 ## References
 
