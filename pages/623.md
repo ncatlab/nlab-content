@@ -407,7 +407,7 @@ $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 A standard textbook reference for the abelian version is
 
-* [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ ([chapter 3](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi))
+* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([chapter 3](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi))
 {#GoerssJardine}
 
 Notice that these authors write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss--Jardine call "Moore complex" is sometime maybe just called "alternating sum complex".
