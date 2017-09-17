@@ -61,7 +61,7 @@ If for all [[object]]s $d \in D$ the geometric realization $\vert F/d\vert$ of t
 ###### Theorem
 **(Quillen's theorem B)**
 
-If for all $d \in D$ we have that $\vert F/d\vert$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to a given [[topological space]] $X$ and all morphisms $f : d_1 \to d_2$ induce [[weak homotopy equivalences]] between these, then $X$ is the [[homotopy fiber]] of $\vert f \vert$, hence we have a [[fiber sequence]]
+If for all $d \in D$ we have that $\vert F/d\vert$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to a given [[topological space]] $X$ and all morphisms $f : d_1 \to d_2$ induce [[weak homotopy equivalences]] between these, then $X$ is the [[homotopy fiber]] of $\vert F \vert$, hence we have a [[fiber sequence]]
 
 $$
   X \to \vert C \vert \stackrel{\vert F \vert }{\to} \vert D \vert
