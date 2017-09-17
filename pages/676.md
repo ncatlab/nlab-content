@@ -152,6 +152,10 @@
 
       * [[GUT|Grand Unified Theories]], [[MSSM]]
 
+    * [[scattering amplitude]]
+
+      * [[on-shell recursion]], [[KLT relations]]
+
   * Phenomena
 
     * [[universality class]]
@@ -236,15 +240,8 @@
 
 * [[string theory|String Theory]]
 
-  * [[string]], [[spinning string]], [[superstring]], [[heterotic string]], [[type II superstring]], [[Berkovits superstring]]
+  * [[string theory methods applied elsewhere]]
 
-  * [[brane]], [[D-brane]]
-
-  * [[orbifold]], [[orientifold]],
-    
-  * [[T-duality]], [[topological T-duality]], [[differential T-duality]]
-
-* [[gnarly problems in physics|Gnarly problems in physics]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
 
