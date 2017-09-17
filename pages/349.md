@@ -43,9 +43,9 @@ Grothendieck topologies may be and in practice quite often are obtained as closu
 
 Two notions of such unsaturated collections of morphisms inducing Grothendieck topologies are
 
-* [[basis for a topology]]
+*  [[Grothendieck pretopology]],
 
-* [[coverage]].
+*  [[coverage]].
 
 ## Examples {#Examples}
 
@@ -71,7 +71,7 @@ Any [[coherent category]] $C$ admits a [[subcanonical site|subcanonical]] Grothe
 
 ### Canonical topology
 
-On any category there is a largest subcanonical topology.  This is called the *canonical* topology, with "subcanonical" a back-formation from this (since a topology is subcanonical iff it is contained in the canonical topology).  On a [[Grothendieck topos]], the covering families in the canonical topology are those which are jointly epimorphic.
+On any category there is a largest subcanonical topology.  This is called the *[[canonical topology]]*, with "subcanonical" a back-formation from this (since a topology is subcanonical iff it is contained in the canonical topology).  On a [[Grothendieck topos]], the covering families in the canonical topology are those which are jointly epimorphic.
 
 
 ## Related notions 
