@@ -36,7 +36,7 @@ We say that a monad $T$ is **algebraically-free** on an endofunctor $F$ if the c
 
 *A priori*, being algebraically free is different from being free.  However, one can show the following.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 Any algebraically-free monad is free.
 =--
@@ -45,7 +45,7 @@ Any algebraically-free monad is free.
 First observe that for a (perhaps pointed) endofunctor $F$ and a monad $T$, to give a functor $T Alg_{mnd} \to F Alg_{endo}$ over $C$ is equivalent to giving a (pointed) transformation $F\to T$, and if $F$ is a monad then such a functor takes values in $F Alg_{mnd}$ iff the transformation $F\to T$ is a monad morphism.  Thus, if $F Alg_{endo} \cong T Alg_{mnd}$, then for any other monad $S$, (pointed) transformations $F\to S$ correspond to maps $S Alg_{mnd} \to F Alg_{endo} \cong T Alg_{mnd}$ and hence to monad morphisms $T\to S$, i.e. $T$ is free on $F$.
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 If $C$ is [[locally small category|locally small]] and [[complete category|complete]], then any free monad is algebraically-free.
 =--
