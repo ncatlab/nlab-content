@@ -158,11 +158,11 @@ $$
 
 between [[internal sheaves]] in $\mathcal{E}$ on $\mathbb{D}$ and [[sheaf|external sheaves]] on the semidirect product site $J \rtimes K$.
 
-Moreover, the [[projection]] [[functor]] $P : \mathcal{C} \rtimes \mathbb{D}$ is [[cover]]-reflecting and induces a [[geometric morphism]]
+Moreover, the [[projection]] [[functor]] $P : \mathcal{C} \rtimes \mathbb{D}$ is [[cover-reflecting]] and induces a [[geometric morphism]]
 
 $$
   \Gamma 
-   :
+   \colon
   Sh_K(\mathbb{D})
   \stackrel{}{\to}
   \mathcal{E}
