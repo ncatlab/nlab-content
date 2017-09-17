@@ -58,6 +58,11 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 
     * [[4d Chern-Simons theory]]
 
+## References
+ {#References}
+
+* [[Kevin Walker]], _On Witten's 3-manifold invariants_ (1991) [pdf](http://tqft.net/other-papers/KevinWalkerTQFTNotes.pdf)
+  {#Walker1991}
 
 
 [[!redirects 3d TQFTs]]
