@@ -41,3 +41,6 @@ A [[sigma-model]] [[quantum field theory]] describes the propagation of a [[bran
   * **background field**
 
 [[!redirects background field]]
+[[!redirects background fields]]
+
+[[!redirects background gauge fields]]
