@@ -2,16 +2,21 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
-=--
 #### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -70,6 +75,12 @@ This is originally due to [[Grothendieck]], whence the name. Refined accounts ar
 
 Generalization of this to [[E-∞ geometry]] is in ([Lurie, prop. 2.5.12](#Lurie)).
 
+## Related concepts
+
+* [[Wirthmüller context]]
+
+* [[Verdier-Grothendieck context]]
+
 ## References
 
 The original construction for [quasicoherent sheaves on schemes](#QuasicoeherntSheavesOnSchemes) is due to [[Alexander Grothendieck]], whence the name "Grothendieck context". 
@@ -94,7 +105,7 @@ Generalization to [[E-∞ geometry]] is in
 
 A clear discussion of axioms of [[six operations]], their specialization to Grothendieck context and [[Wirthmüller context]] and their consequences is in 
 
-* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
  {#May05}
 
 [[!redirects Grothendieck contexts]]
