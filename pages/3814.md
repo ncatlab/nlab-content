@@ -15,7 +15,7 @@
 
 ## Idea
 
-The **standard model of particle physics** is a [[quantum field theory]] that describes the _fundamental particles_ currently experimentally known, containing 
+The **standard model of particle physics** is a [[quantum field theory]] that describes the _[[fundamental particles]]_ currently experimentally known, containing 
 
 * electrons, neutrinos, quarks and other [[fermion]]s, 
 
