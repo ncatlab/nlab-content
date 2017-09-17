@@ -170,7 +170,7 @@ A discussion of jet bundles with an eye towards discussion of the [[variational 
 * Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
 {#Anderson}
 
-See also
+Discussion of jet-restriction of the [[Haefliger groupoid]] is in 
 
 * Arne Lorenz, _Jet Groupoids, Natural Bundles
 and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf))
