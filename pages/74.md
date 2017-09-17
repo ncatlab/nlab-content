@@ -102,6 +102,8 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 
   * [[enriched functor category]]
 
+* [[category of V-enriched categories]]
+
 * [[profunctor]]
 
 ### Universal constructions
