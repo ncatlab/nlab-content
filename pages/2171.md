@@ -1,17 +1,297 @@
 ##Idea
 
-A _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ point at the top of the diagram with $n$-points at the bottom.
+A _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ points at the top of the diagram with $n$-points at the bottom.
 
-(Diagram to go here)
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="169.27875"
+   height="252.11273"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="3-braid.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="375"
+     inkscape:cy="708.93575"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="640"
+     inkscape:window-height="701"
+     inkscape:window-x="0"
+     inkscape:window-y="22">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2385"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-116.64286,-131.85007)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80512744px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 188.32014,243.16382 L 285.40892,298.64313 L 285.51904,383.56023 M 117.04542,132.25263 L 118.97101,201.55434 L 160.58048,229.294"
+       id="path2383"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 202.18997,132.20522 L 202.18997,215.42417 L 118.97101,298.64313 L 118.97101,381.86208"
+       id="path2387" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 285.40892,215.42417 L 235.87382,262.97786 M 226.95752,274.86628 L 202.18997,298.64313 L 202.18997,381.86208 M 285.40892,132.20522 L 285.40892,215.42417"
+       id="path2389"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>
 
-(This is a picture of  3 strand braid.) We can manipulate these braid diagrams as we can transform [[knot diagrams]] using [[Reidemeister moves]]. The 'isotopy' classes of braid diagrams form a group in which the composition is obtained by putting one diagram above another. 
 
-(Composition diagram to go here)
 
-The inverse is obtained by turning a diagram upside down:
 
-(Inverse of first diagram to go here.)
+(This is a picture of  3 strand braid.) 
 
+We can transform / 'isotope' these braid diagrams just as we can transform [[knot diagrams]], again using [[Reidemeister moves]]. The 'isotopy' classes of braid diagrams form a group in which the composition is obtained by putting one diagram above another. 
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="162.66582"
+   height="336.51199"
+   id="svg2481"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="composition.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs2483">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2489" />
+    <inkscape:perspective
+       id="perspective10"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="250.30935"
+     inkscape:cy="631.41075"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="640"
+     inkscape:window-height="701"
+     inkscape:window-x="93"
+     inkscape:window-y="22">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2557"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2486">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-117.83419,-176.3502)">
+    <g
+       transform="matrix(0.9585536,0,0,0.6593193,5.9599101,89.473516)"
+       id="g2552"
+       inkscape:label="Layer 1">
+      <path
+         sodipodi:nodetypes="cccccc"
+         id="path2383"
+         d="M 188.32014,243.16382 L 285.40892,298.64313 L 285.51904,383.56023 M 117.04542,132.25263 L 118.97101,201.55434 L 160.58048,229.294"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80512744px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path2387"
+         d="M 202.18997,132.20522 L 202.18997,215.42417 L 118.97101,298.64313 L 118.97101,381.86208"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         id="path2389"
+         d="M 285.40892,215.42417 L 235.87382,262.97786 M 226.95752,274.86628 L 202.18997,298.64313 L 202.18997,381.86208 M 285.40892,132.20522 L 285.40892,215.42417"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 120,342.36218 L 120,382.36218 L 200,472.36218 L 200,512.36218"
+       id="path2559" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 200,382.36218 L 168.98985,425.39264 M 156.96954,437.41295 L 120,472.36218 L 120,512.36218 M 200,342.36218 L 200,382.36218"
+       id="path2561"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 280,342.36218 L 280,512.36218"
+       id="path2563" />
+  </g>
+</svg>
+
+The identity consists of $n$ vertical strings, so the inverse is obtained by turning a diagram upside down:
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="169.27875"
+   height="252.11273"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="3-braid-inverse.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="141.43554"
+     inkscape:cy="44.033213"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="640"
+     inkscape:window-height="701"
+     inkscape:window-x="0"
+     inkscape:window-y="22">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2385"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-116.64286,-131.85007)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.80512744px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 188.32014,272.64904 L 285.40892,217.16973 L 285.51904,132.25263 M 117.04542,383.56023 L 118.97101,314.25852 L 160.58048,286.51886"
+       id="path2383"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 202.18997,383.60764 L 202.18997,300.38869 L 118.97101,217.16973 L 118.97101,133.95078"
+       id="path2387" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69349128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 285.40892,300.38869 L 235.87382,252.835 M 226.95752,240.94658 L 202.18997,217.16973 L 202.18997,133.95078 M 285.40892,383.60764 L 285.40892,300.38869"
+       id="path2389"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>
+
+This is the inverse of the first 3-braid we saw. 
 
 ##A presentation of $Br_{n+1}$
 
