@@ -165,6 +165,8 @@ This was shown in ([Kontsevich 97](#Kontsevich97)). There the deformed product i
 
 #### Deformation of Algebraic Varieties #### 
 
+(Not from the notes of J.D.S. Jones)
+
 Let $X$ be a smooth algebraic variety over a field $\mathbb{k}$ of characteristic $0$. The analogue of the HKR Theorem here is this:
 
 +-- {: .num_theorem #SwYe}
@@ -209,7 +211,7 @@ Here is the result. (See also [Van den Bergh](http://dx.doi.org/10.1016/j.jalgeb
 Any quasi-coherent sheaf $\mathcal{M}$ on $X$ admits a canonical flasque resolution called the mixed resolution:
 \[ \mathcal{M} \to \operatorname{Mix}(\mathcal{M}) . \]
 This "mixes" the jet resolution with the Cech resolution (corresponding to an affine open covering of $X$ that we suppress). 
-In particular there are quasi-isomorphisms of sheaves of DG algebras 
+In particular there are quasi-isomorphisms of sheaves of DG Lie algebras 
 \[ \mathcal{T}_{poly, X} \to \operatorname{Mix}(\mathcal{T}_{poly, X}) \]
 and 
 \[ \mathcal{D}_{poly, X} \to \operatorname{Mix}(\mathcal{D}_{poly, X}) . \]
@@ -243,9 +245,9 @@ $\operatorname{H}^{2}(X, \mathcal{O}_X)$ vanish. Then there is a canonical bijec
 called quantization. It preserves first order brackets. 
 =--
 
-A proof of this theorem when $X$ is affine is 
-[here](http://www.math.bgu.ac.il/~amyekut/publications/def-quant/def-quant.html). 
-For the full statement see 
+When $X$ is affine this is Theorem 0.1 of
+[this paper](http://www.math.bgu.ac.il/~amyekut/publications/def-quant/def-quant.html). 
+For the full statement see Corollary 11.2 of
 [this paper](http://www.math.bgu.ac.il/~amyekut/publications/twisted-defs/twisted-defs.html). 
 
 For twisted (or stacky) deformations there is a corresponding (but much more difficult to state and prove). See the 
@@ -419,6 +421,12 @@ The classification of the space of such formal deformation quantization is discu
 
 * [[Vasily Dolgushev]], [[Christopher Rogers]], [[Thomas Willwacher]], _Kontsevich's graph complex, GRT, and the deformation complex of the sheaf of polyvector fields_ ([arXiv:1211.4230](http://arxiv.org/abs/1211.4230))
  {#DolgushevRogersWillwacher12}
+
+Deformation quantization of algebraic varieties is in 
+
+*  [[Amnon Yekutieli]], Deformation Quantization in Algebraic Geometry,
+Advances in Mathematics 198 (2005), 383-432.
+Erratum: Advances in Mathematics  217 (2008), 2897-2906.
 
 See also 
 
