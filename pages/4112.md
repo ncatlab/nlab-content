@@ -1,0 +1,62 @@
+Cantor space, named after [[Georg Cantor]], is a famous [[space]].  Cantor studied it primarily as a [[subspace]] of the [[real line]], but it is also important as a space in its own right.
+
+
+## Definition
+
+Recall that a __[[binary digit]]__ is either $0$ or $1$; the [[set]] (or [[discrete space]]) of binary digits is the [[Boolean domain]] $\mathbb{B}$.
+
+A __point__ in Cantor space is an [[infinite sequence]] of binary digits.  Accordingly, Cantor space may be denoted $\mathbb{B}^{\mathbb{N}}$, since its set of points is a [[function set]].
+
+An __open__ in Cantor space is a collection $G$ of [[list|finite sequences]] of binary digits (that is a [[subset]] of the [[free monoid]] $\mathbb{B}^*$) such that:
+*  If $u \in G$ and $v$ is an extension of $u$ (that is $u$ with possibly additional digits added to the end), then $v \in G$;
+*  If $u:0 \in G$ and $u:1 \in G$ (where $u:i$ is the immediate extension of $u$ by the digit $i$), then $u \in G$.
+
+A point $\alpha$ __belongs__ to an open $G$ if, for some $u$ in $G$, $\alpha$ is an extension of $u$.
+
+
+### What kind of space?
+
+Traditionally, Cantor space is understood as a [[topological space]].  We start with the points, as defined above, then specify which sets of points are [[open subset|open]].  Although there are other ways to state which sets are open, we may define a set to be open if it is the set of points that belong to some open $G$ as defined above.
+
+A newer approach is to understand Cantor space as a [[locale]].  Then we start with the opens and define an [[order]] relation on them to define a [[frame]].  In this case, the order relation is the obvious one, that $G \leq H$ if $G \subseteq H$ as subsets of $\mathbb{B}^*$.  Then the [[point of a locale|points]] come for free, and correspond precisely to the points as defined above.
+
+In [[classical mathematics]], these two approaches are equivalent; a point is determined by its opens, and an open is determined by its points.  The theorem that a point is determined by its opens (so that Cantor space, as a topological space, is [[sober space|sober]]) is valid [[internalisation|internal]] to any [[pretopos]] with an [[exponential object|exponentiable]] [[natural numbers object]]; as such, it applies even in [[predicative mathematics|predicative]] and [[constructive mathematics|constructive]] mathematics.  However, the theorem that an open is determined by its points (so that Cantor space, as a locale, is [[spatial locale|topological]]) is equivalent to the [[fan theorem]]; it is true in some pretoposes and accepted by some schools of constructivism but false in other pretoposes and rejected, or even refuted, in other schools.
+
+When the fan theorem is not accepted, the localic approach is probably better; it allows more of the useful properties of Cantor space to hold.
+
+
+### As a subspace
+
+Cantor space is usually conceived of as a subspace of the [[real line]].  Pointwise, it is easy to define the [[embedding]] from $\mathbb{B}^{\mathbb{N}}$ into $\mathbb{R}$; we map the infinite sequence $\alpha$ to the [[real number]]
+$$ \sum_{i=1}^{\infty} \frac { 2 \alpha_i } { 3^i } .$$
+One then checks that this [[function]] is in fact an embedding.
+
+From the localic perspective, a [[continuous map]] is given by a [[homomorphism]] of frames in the opposite direction.  Given an open $\sim$ in $\mathbb{R}$ (as a [[binary relation]] on [[rational numbers]], as described at [[locale of real numbers]]), this is mapped to the open $G$ in Cantor space such that $u \in G$ if and only if
+$$ \sum_{i=1}^{len(u)} \frac { 2 u_i } { 3^i } \sim \sum_{i=1}^{len(u)} \frac { 2 u_i } { 3^i } + \frac 1 { 3^{-len(u)} } .$$
+One then checks that this is an embedding.
++-- {: .query}
+I should check this some day; for the moment, I am taking it on faith.  ---Toby
+=--
+
+In either case, the idea is:
+*  A point of Cantor space corresponds to a number written in base $3$ with infinitely many digits, using only the digits $0$ and $2$; while
+*  An open corresponds to a collection of intervals, each of which is given by approximating a number in base $3$ to a finite number of digits, using only the digits $0$ and $2$.
+
+One sometimes speaks of the __Cantor set__ to stress that one is considering Cantor space as a subspace of the real line.
+
+
+## Properties
+
+Cantor space, especially in its guise as a subspace of the real line, is quite famous; see [Wikipedia](http://en.wikipedia.org/wiki/Cantor_set).  Here are some headline properties:
+
+*  Cantor space is a [[compact Hausdorff space]].  (For the topological space, this statement is again equivalent to the [[fan theorem]]; for the locale, it holds regardless.)
+
+*  Every compact [[metric space]] is (as a topological space) a [[quotient space]] of Cantor space.
+
+*  As a subspace of $\mathbb{R}$, the Cantor set is [[uncountable set|uncountable]] but of [[null set|measure zero]].
+
+*  The Cantor set is a precisely self-similar [[fractal]] with [[Hausdorff dimension]] $\log_3 2 \approx 0.631$.
+
+
+[[!redirects Cantor space]]
+[[!redirects Cantor set]]
