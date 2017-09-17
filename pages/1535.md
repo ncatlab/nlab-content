@@ -1,8 +1,13 @@
-<div class="rightHandSide toc">
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functorial quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-
-</div>
+=--
+=--
+=--
 
 
 This entry is about the article
