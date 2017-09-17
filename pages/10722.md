@@ -1,3 +1,4 @@
+[[!redirects Michael Hazewinkel]]
 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michiel_Hazewinkel)
