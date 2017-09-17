@@ -23,7 +23,7 @@
 
 There are several ways in which the _[[Riemann hypothesis]]_ has or might have an incarnation in or leave an imprint on [[physics]], specifically in [[quantum physics]].
 
-By the general discussion at _[[zeta function]]_ and at _[[functional determinant]]_ zeta functions are closely related to 1-loop [[vacuum amplitudes]] and to [[vacuum energy]] in [[quantum field theory]] in general and in [[string theory]] in particular. Concretely, the [[Rankin-Selberg-Zagier method]] implies that the [[partition function]] of the [[superstring]] asymptotes for small [[proper time]] to a constant times a converging oscillatory term whose [[frequencies]] are proportional to the imaginary values of the zeros of the [[Riemann zeta function]] ([ACER 11](#ACER11)).
+By the general discussion at _[[zeta function]]_ and at _[[functional determinant]]_ zeta functions are closely related to 1-loop [[vacuum amplitudes]] and to [[vacuum energy]] in [[quantum field theory]] in general and in [[string theory]] in particular. Concretely, the [[Rankin-Selberg-Zagier method]] implies that the [[partition function]] of the [[superstring]] asymptotes for small [[proper time]] to a constant times a converging oscillatory term (reminiscent of the [[explicit formulae for L-functions]]) whose [[frequencies]] are proportional to the imaginary values of the zeros of the [[Riemann zeta function]] ([ACER 11](#ACER11)).
 
 In other parts of the literature there is the desire to interpret the Riemann zeta function instead as a [[partition function]] of a [[quantum mechanical system]]. (Notice that the 1-loop [[vacuum amplitude]] mentioned before is instead a [[Mellin transform]] of the partition function.) The main example here is maybe the [[Bost-Connes system]].
 
