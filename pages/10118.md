@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[space]] $X$ and a [[group]] $G$, a $G$-[[flat connection]] or $G$-[[local system]] is a map $X \to \flat \mathbf{B}G$, or equivalently a map $\Pi(X) \to \mathbf{B}G$. A _moduli space of flat connections_ is a [[moduli space]] of such structure.
+
+## Examples
+
+The moduli space of flat connections for suitable [[Lie groups]] over [[Riemann surfaces]] appears as the [[phase space]] of $G$-[[Chern-Simons theory]] over these surfaces. It carries itself a [[projectively flat connection]], the _[[Knizhnik-Zamolodchikov connection]]_ or _[[Hitchin connection]]_.
+
+## Properties
+
+The [[Narasimhan–Seshadri theorem]] asserts that the moduli space of [[flat connections]] on a [[Riemann surface]] is naturally a [[complex manifold]].
+
+## Related concepts
+
+* [[moduli space of connections]]
+
+[[!redirects moduli spaces of flat connections]]
