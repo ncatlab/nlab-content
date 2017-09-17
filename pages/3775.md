@@ -59,6 +59,8 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Joseph Harris]]
 
+* [[Robin Hartshorne]]
+
 * [[David Hilbert]]
 
 * [[Heisuke Hironaka]]
@@ -111,6 +113,8 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Marc Levine]]
 
+* [[Joseph Lipman]]
+
 * [[Valery Lunts]]
 
 * [[Jacob Lurie]]
@@ -122,6 +126,10 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 * [[Barry Mazur]]
 
 * [[James Milne]]
+
+* [[Takuro Mochizuki]]
+
+* [[Shinichi Mochizuki]]
 
 * [[Boris Moishezon]]
 
@@ -136,6 +144,8 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 * [[Shigeru Mukai]]
 
 * [[David Mumford]]
+
+* [[Hiraku Nakajima]]
 
 * [[Mudumbai Seshachalu Narasimhan]]
 
