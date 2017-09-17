@@ -13,7 +13,7 @@
 =--
 
 
-An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category]] for the [[stable (∞,1)-category of spectra]]. Sometimes this is called a [[commutative ring spectrum]]. An [[E-∞ algebra]] in [[spectra]].
+An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category|commutative monoid]] in the [[stable (∞,1)-category of spectra]]. Sometimes this is called a [[commutative ring spectrum]]. An [[E-∞ algebra]] in [[spectra]].
 
 This means that an $E_\infty$-ring is an [[A-∞ ring]] that is commutative up to coherent higher homotopies.
 
