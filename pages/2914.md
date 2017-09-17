@@ -46,6 +46,25 @@ then so are $C/X$ and $X/C$.
 
 The proofs are in ([OvMod](#OvMod)).
 
+## Related concepts
+
+
+* [[over-category]] 
+
+  * [[slice category]] 
+
+  * [[under category]] 
+
+  * [[over topos]]
+
+
+* [[over (∞,1)-category]],
+
+  * **model structure on an over-category**
+
+  * [[over-(∞,1)-topos]]
+
+
 ## References ##
 
 * Hirschhorn, _Overcategories and undercategories of model categories_ ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
