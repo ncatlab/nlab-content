@@ -88,4 +88,15 @@ A pedagogical exposition of the graphical calculus is in
 
 * [[Bob Coecke]], _Kindergarten quantum mechanics_ ([arXiv:quant-ph/0510032](http://arxiv.org/abs/quant-ph/0510032))
 
+* [[Bob Coecke]], _Quantum Picturalism_ ([arXiv:0908.1787](http://arxiv.org/abs/0908.1787))
+
+More basic introductions are in
+
+
+* [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
+
+* [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
+
+
+
 [[!redirects quantum mechanics in terms of †-compact categories]]
