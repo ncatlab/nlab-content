@@ -1,0 +1,12 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Arend_Heyting)
+
+## Related $n$Lab entries
+
+* [[Heyting algebra]]
+
+* [[intuitionistic logic]]
+
+category: people
+
+[[!redirects Heyting]]
