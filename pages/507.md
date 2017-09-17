@@ -232,6 +232,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
   * [[Giraud's theorem]]
 
+* [[dense sub-site]]
+
 #### C2.3 Morphisms of sites
 
 * [morphism of sites](http://ncatlab.org/nlab/show/site#Morphisms)
