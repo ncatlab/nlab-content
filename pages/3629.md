@@ -50,4 +50,7 @@ Categorically, one possible way to approach this problem is to determine the rel
 
 [[Ian Durham]]: Hmmm.  What I think I'm going to do is to try to tally up all the category theoretic properties of each.  That should make it easier to see if there's a functor between them, I would think.
 
+
+
+
 [[!redirects Birkhoff-von Neumann theorem]]
