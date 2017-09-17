@@ -37,7 +37,7 @@ $$
   pro\!-\!inc : pro\!-\! FinGrps\to pro\!-\Grps
 $$
 
-and that functor _does_ have a left adjoint. If we restrict that 'pro-adjoint' to the subcategory of $pro\!-\! FinGrps$ given by the 'constant' pro-objects, then the result is the pro-finite completion construction that is given above. Because of this, if we think of the natural functor $C\to pro\!-\! C$ to be an inclusion, i.e. think of an object as a pro-object indexed by the one arrow category, we can give a [[universal property]] for the pro-finite completion of a group $G$. This universal property gives a universal cone from $G$  to finite groups, and just encodes the obvious fact that any homomorphism from $G$ to a finite group factors through one of its finite quotient groups. If we write $\hat{G}$ for the pro-finite completion, the universal cone is a map $G\to \hat{G}$ in $pro\!-\! FinGrps$.
+and that functor _does_ have a left adjoint. If we restrict that 'pro-adjoint' to the subcategory of $pro\!-\! FinGrps$ given by the 'constant' pro-objects, then the result is the pro-finite completion construction that is given above. Because of this, if we think of the natural functor $C\to pro\!-\! C$ to be an inclusion, i.e. think of an object as a pro-object indexed by the one arrow category, we can give a [[universal property]] for the pro-finite completion of a group $G$. This universal property gives a universal cone from $G$  to finite groups, and just encodes the obvious fact that any homomorphism from $G$ to a finite group factors through one of its finite quotient groups. If we write $\hat{G}$ for the pro-finite completion, the universal cone is a map $G\to \hat{G}$ in $pro\!-\! Grps$.
 
 
 =--
