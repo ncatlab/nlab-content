@@ -25,7 +25,7 @@ $$
   \phi \;\colon\; H \times \mathbb{C} \longrightarrow \mathbb{C}
 $$
 
-hence from the [[product]] of the [[upper half plane]] with the full [[complex plane]] which tranforms under
+hence from the [[product]] of the [[upper half plane]] with the full [[complex plane]] which transforms under
 
 $$
   \left(
