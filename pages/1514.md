@@ -140,7 +140,7 @@ hence the [[integration]] of the [[parallel transport]]/[[holonomy]] against the
 +-- {: .num_remark #WorldlineFormalism}
 ###### Remark
 
-This "holonomy integrated against the Wiener measure" is the path integral in the form in which it notably appears in the _[[worldline formalism]]_ for computing [[scattering amplitudes]] in [[quantum field theory]]. See ([Strassler 92, (2.9), (2.10)](#Strassler92)).
+This "holonomy integrated against the Wiener measure" is the path integral in the form in which it notably appears in the _[[worldline formalism]]_ for computing [[scattering amplitudes]] in [[quantum field theory]]. See ([Strassler 92, (2.9), (2.10)](#Strassler92)). Notice in particular that by the discussion there this is the correct [[Wick rotation|Wick rotated]] form: the [[kinetic action]] is not a [[complex phase]] but a real exponential $\exp(- S_{kin})$ while the [[gauge field|gauge]] [[interaction]] term (the [[holonomy]]) is a complex phase (locally $\exp(i \int_\gamma A)$).
 
 =--
 
@@ -163,7 +163,7 @@ $$
   }
 $$
 
-to another [[correspondence]], now in the slice over the [[stack]] (now an actual [[2-sheaf]]) $\mathbb{C}\mathbf{Mod}$ of [[modules]] over the [[complex numbers]], hence of [[complex vector bundles]]:
+(essentially a [[prequantized Lagrangian correspondence]]) to another [[correspondence]], now in the slice over the [[stack]] (now an actual [[2-sheaf]]) $\mathbb{C}\mathbf{Mod}$ of [[modules]] over the [[complex numbers]], hence of [[complex vector bundles]]:
 
 $$
   \array{
