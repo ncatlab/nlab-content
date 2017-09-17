@@ -246,8 +246,8 @@ A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]
 
 A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&eacute;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
- {#Precis}
+* {#Precis} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&eacute;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+ 
 
 A summary talk on this is
 
@@ -262,8 +262,8 @@ Related lecture notes / slides include
 
 * [[Jacques Distler]], _Orientifolds and Twisted KR-Theory_ (2008) ([pdf](http://www.perimeterinstitute.ca/pdf/files/731c5f3a-928f-453a-b569-db5c574d2a6c.pdf))
 
-* [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_ ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
- {#Freed}
+* {#Freed} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_ ([[FreedESI2012.pdf:file]])
+ 
 
 A formulation of some of the relevant aspects of orientifolds in terms of the  [[schreiber:differential cohomology in an (∞,1)-topos -- survey|differential nonabelian cohomology]] with coefficients in the [[2-group]] $AUT(U(1))$ coming from the [[crossed module]] $[U(1) \to \mathbb{Z}_2]$ is indicated in 
 
