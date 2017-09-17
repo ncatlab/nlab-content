@@ -15,17 +15,24 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The notion of _frame_ is a generalization of the notion of [[category of open subsets]] of a [[topological space]]. A _frame_ is like a category of open subsets in a space possibly more general than a topological space: a [[locale]]. This in turn is effectively defined to be anything that has a collection of open subsets that behaves essentially like the open subsets of a topological space do.
+
 ## Definition
 
-A **frame** $A$ is 
++-- {: .num_defn}
+###### Definition
+
+A **frame** $\mathcal{O}$ is 
 
 * a [[partial order|poset]] 
 
 * that has 
 
-  * all [[join|joins]] $\wedge$
+  * all small [[coproduct]]s, called [[join|joins]] $\wedge$
 
-  * all [[finite limit|finite]] [[meet|meets]] $\vee$
+  * all [[finite limit]]s, called [[meet|meets]] $\vee$
 
 * and which satisfies the _infinite distributive law_:
 
@@ -39,12 +46,89 @@ A **frame** $A$ is
 
 A _frame homomorphism_ is a homomorphism of posets that preserves finite meets and arbitrary joins. Frames and frame homomorphisms form the category [[Frm]].
 
+The formal duals of frames, hence the objects in the [[opposite category]] [[Locale]] $:=$ [[Frm]]${}^{op}$ are called [[locale]]s.
+
+=--
+
+The notation $\mathcal{O}$ to supposed to remind us that every frame is like a [[frame of opens]] of the corresponding [[locale]].
+
 ## Properties
 
-A frame is automatically a [[Heyting algebra]] by the [[adjoint functor theorem]], so you can think of a frame as a [[cartesian closed category|cartesian closed]] [[suplattice]], or a cartesian [[quantale]].  
+A useful way to understand frames and [[locales]] is as the simplest nontrivial special cases of [[(n,1)-topos]]es. So we start in
+
+* [As (0,1)-toposes](#As0Topos)
+
+with some remarks on this, and only then turn to 
+
+* [General properties](#GeneralProperties)
+
+of frames, which should make more sense this way.
+
+### As a $(0,1)$-topos
+ {#As0Topos}
+
+The notion of _frame_ -- or rather its formal dual, the notion of _[[locale]]_ -- is the special case of the notion of [[(n,1)-topos]]es for $n = 0$: [[(0,1)-topos]]es.
+
+The axioms on a frame are nothing but [[Giraud's axioms]] on [[sheaf topos]]es, restricted to [[(0,1)-categories]]:
+
+given the existence of finite limits and arbitrary colimits, the _infinite distributive law_ expresses that a frame has [[universal colimits]]: they are stable under [[pullback]]. (For notice that in a poset [[pullback]]s and [[product]]s coincide.)
+
+Then a morphism of frames is precisely (the [[inverse image]] of) a [[geometric morphism]]: a morphism preserving finite limits and arbitrary colimits. 
+
+
+### General
+ {#GeneralProperties}
+
++-- {: .num_prop}
+###### Proposition
+
+A frame is automatically a [[Heyting algebra]].  
+
+=--
+
+In [[category theory|category theoretic]] terms this means that it ia a [[cartesian closed category]], hence that
+
+for every object $x \in \mathcal{O}$ the functor
+
+$$
+  x \wedge (-) : \mathcal{O} \to \mathcal{O}
+$$
+
+that forms the [[product]] with $x$ has a [[right adjoint]]
+
+$$
+  (-) \Rightarrow x : \mathcal{O} \to \mathcal{O}
+$$
+
++-- {: .proof}
+###### Proof
+
+
+This exists by the [[adjoint functor theorem]], using that there is only a finite number of morphims between any two objects (one or none) and that finite limits exist in $\mathcal{O}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Therefore one may think of a of a frame as a [[cartesian closed category|cartesian closed]] [[suplattice]], or a cartesian [[quantale]].  
 
 But notice that the frame [[homomorphism]]s are not required to preserve the Heyting implication.
 
+=--
+
+### As sites
+
+A frame is naturally equipped with the structure of a [[site]]: 
+
+a family of morphism $\{U_i \to U\}$ is [[covering]] precisely if $U$ is the [[union]] of the $U_i$
+
+$$
+  \bigvee_i U_i = U
+  \,.
+$$
+
+For more on this see [[locale]].
 
 ## Formal duals: locales
 
@@ -55,6 +139,10 @@ $$
 $$
 
 Conversely, any [[topological space]] has a [[frame of opens|frame of open subsets]].  (In fact, one definition of a topological space is a set equipped with a subframe of its [[power set]].)
+
+## Examples
+
+* For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]].
 
 
 [[!redirects frames]]
