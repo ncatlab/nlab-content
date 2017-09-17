@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -28,7 +28,7 @@ Note that in this generality, a given morphism may or may not have an image, alt
 
 ## Definition
 
-Let $C$ be a [[category]], let $M\subset Mono(C)$ be a subclass of the monomorphisms in $C$, and let $f: c \to d$ be a [[morphism]] in $C$.  The **image** of $f$ is the smallest $M$-[[subobject]] $im(f) \hookrightarrow d$ through which $f$ factors (if it exists).
+Let $C$ be a [[category]], let $M\subset Mono(C)$ be a subclass of the monomorphisms in $C$, and let $f: c \to d$ be a [[morphism]] in $C$.  The **image** of $f$ is the smallest $M$-[[subobject]] $im(f) \hookrightarrow d$ through which $f$ factors (if it exists). The factorizing morphism $c \to im(f)$ is sometimes called the **corestriction** of $f$:
 
 In other words, it is a factorization $c \overset{e}{\to} im(f) \overset{m}{\to} d$ of $f$ (i.e. $f = m e$) such that $m\in M$, and given any other factorization $f = m' e'$ with $m'\in M$, we have $m \subseteq m'$ as subobjects of $C$ (i.e. $m$ factors through $m'$, $m = m' k$ for some $k$).  Such a factorization is unique up to unique isomorphism, if it exists.
 
@@ -206,3 +206,4 @@ Notice that
 Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of [[(∞,1)-functor]]s between [[∞-groupoid]]s and hence a notion of image of [[functor]]s between [[groupoid]]s, [[2-functor]]s between [[2-groupoid]]s, etc.
 
 [[!redirects images]]
+[[!redirects corestriction]]
