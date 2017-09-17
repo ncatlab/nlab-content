@@ -6,6 +6,14 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Compact objects
++-- {: .hide}
+[[!include compact object - contents]]
+=--
 =--
 =--
 
@@ -18,7 +26,7 @@
 
 ### Profinite completion of a group
 
-The **profinite completion** $\hat{G}$ of a ([[discrete group|discrete]]) [[group]] $G$ is the [[limit]] (in the [[category]] of [[topological groups]]) over the [[diagram]] with [[objects]] the [[quotient groups]] $G/N_{fin}$ where $N_{fin}$ is a [[normal subgroup]] of $G$ with [[finite number|finite]] [[index of a subgroup|index]], and [[morphisms]] induced from the [[lattice]] of [[subgroups]] of $G$. 
+The **profinite completion** $\hat{G}$ of a ([[discrete group|discrete]]) [[group]] $G$ is the [[limit]] (in the [[category]] of [[topological groups]]) over the [[diagram]] with [[objects]] all the [[finite group|finite]] [[quotient groups]] $G/N_{fin}$ where $N_{fin}$ is a [[normal subgroup]] of $G$ with [[finite number|finite]] [[index of a subgroup|index]], and [[morphisms]] induced from the [[lattice]] of [[subgroups]] of $G$. 
 
 Note that the profinite completion actually is a [[profinite group]], and there is a canonical homomorphism $G \to \hat{G}$.
 
@@ -77,7 +85,7 @@ Consider the profinite completion of the
 +-- {: .num_example}
 ###### Example
 
-The profinite completion of the [[integers]] is
+The [[profinite completion of the integers]] is
 
 $$
   \widehat {\mathbb{Z}} \coloneqq \underset{\leftarrow}{\lim}_n \mathbb{Z}/n\mathbb{Z}
