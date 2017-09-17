@@ -14,7 +14,7 @@ A **sieve in** a category $C$ is a [[full subcategory]] closed under precomposit
 
 A **sieve on** an object $X \in C$ is a sieve in the [[overcategory]] $C/X$: a collection of morphisms with codomain $X$ that are closed under precomposition with morphisms in $C$.
 
-Often in the literature the term is used in just the more specific second sense. And sieveves _on_ objects are mostly used in the context of [[Grothendieck topologies]] to encode [[presheaves]] that behaves like [[covering]]s. It is used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
+Often in the literature the term is used just in the more specific second sense. And sieves _on_ objects are mostly used in the context of [[Grothendieck topologies]] to encode [[presheaves]] that behave like [[covering]]s. It is used to say which [[presheaves]] are actually [[sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
 _Sieves_ are an equivalent way to encode [[subobjects]] of [[representable functors]] in a [[presheaf]] category in terms of the total sets of _elements_ of such a [[subfunctor]].
 
@@ -34,10 +34,12 @@ Let $C$ be a [[small category]].
 +-- {: .un_defn}
 ###### Definition
 
-A _sieve_ $S$ (Fr. _crible_) on an object $c \in C$ is a subset $S \subset Ob(C/c)$ of the set of objects of the [[over category]] over $c$ which is _closed under precomposition_:  it has the property that with $(d \to c) \in S$ for every morphism $(e \to d) \in Mor(C)$ also the composite $(e \to d \to c)$ is in $S$.
+A _sieve_ $S$ on an object $c \in C$ is a subset $S \subset Ob(C/c)$ of the set of objects of the [[over category]] over $c$ which is _closed under precomposition_:  it has the property that whenever $(d \to c) \in S$ and $(e \to d) \in Mor(C)$ then the composition $(e \to d \to c)$ is in $S$.
 =--
 
-Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up or saturate it, to obtain a sieve on $c$. 
+The French term for a sieve is _crible_.
+
+Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up, or _saturate_ it, to obtain a sieve on $c$. 
 
 This is probably called a _sieve_ because it "sifts out" the 'special' maps into $c$ from the set of _all_ maps into $c$.  (Note that 'sieve' is the noun, while 'sift' is the verb.)
 
