@@ -45,18 +45,37 @@ Finally, mixing this point of view with the second one, we can regard toposes ov
 
 ## Definitions
 
-A quick formal definition is that an **(elementary) topos** is a [[category]] which
+The general notion of _topos_ is that of
+
+* [Elementary toposes](#ElementaryTopos).
+
+A specialization of this which is important enough that much of the literature implicitly takes it to be the general definition is the notion of 
+
+* [Grothendieck/sheaf toposes](#SheafToposes)
+
+This is the notion relevant for applications in [[geometry]] and [[geometric logic]], whereas the notion of elementary toposes is relevant for more general applications in [[logic]].
+
+For standard notions of mathematics to be available [[internal logic|inside]] a given topos one typically at least needs a [[natural numbers object]]. Its existence is guaranteed by the axioms of a sheaf topos, but not by the more general axioms of an elementary topos. Adding the existence of a natural numbers object to the axioms of an elementary topos yields the notion of a 
+
+* [W-topos](#WToposes).
+
+### Elementary toposes
+ {#ElementaryTopos}
+
+A quick formal definition is that an **elementary topos** is a [[category]] which
 
 1. has [[finitely complete category|finite limits]],
+
 1. is [[cartesian closed category|cartesian closed]], and
+
 1. has a [[subobject classifier]].
 
 There are alternative ways to state the definition; for instance,
 
-1. [[finite limit]]s and
-2. [[power objects]].
+1. has [[finite limit]]s and
+2. has [[power objects]].
 
-In a way, however, these concise definitions can be misleading, because a topos has a great deal of other structure, which plays a very important role but just happens to follow automatically from these basic axioms.  Most importantly, a topos is:
+In a way, however, these concise definitions can be misleading, because a topos has a great deal of other structure, which plays a very important role but just happens to follow automatically from these basic axioms.  Most importantly, an elementary topos is all of the following:
 
 *  [[locally cartesian closed category|locally cartesian closed]],
 *  [[finitely cocomplete category|finitely cocomplete]],
@@ -65,26 +84,20 @@ In a way, however, these concise definitions can be misleading, because a topos 
 
 The last two imply that it has an [[internal logic]] that resembles ordinary mathematical reasoning, and the presence of exponentials and power objects means that this logic is [[higher order logic|higher order]].
 
-There are two kinds of morphisms between toposes that one considers:
-
-* [[geometric morphism]] -- this is the kind of morphism that regards a topos as a generalized [[topological space]].
-
-* [[logical morphism]] -- this is the kind of morphism that regards a topos in terms of its [[internal logic]].
-
-Accordingly there is a [[2-category]] [[Toposes]] of toposes.
-
-
-### Grothendieck toposes
+### Grothendieck/sheaf toposes
+ {#SheafToposes}
 
 The above is the definition of an *elementary* topos.  We also have the (historically earlier) notion of [[Grothendieck topos]]: a __Grothendieck topos__ is a topos that is neither too small nor too large, in that it is:
 
 *  [[cocomplete category|cocomplete]] (not too small), and
 *  has a [[small set|small]] [[generating set]] (not too large).
 
-Equivalently, a Grothendieck topos is any category [[equivalence of categories|equivalent]] to the category of [[sheaves]] of some small [[site]].
+Equivalently, a Grothendieck topos is any category [[equivalence of categories|equivalent]] to the [[category of sheaves]] on some 
+[[small category|small]] [[site]].
 
 
 ### $W$-toposes
+ {#WToposes}
 
 There is a further elementary property of [[Set]] that might have gone into the definition of elementary topos but historically did not: the existence of a [[natural numbers object]].  Any topos with this property is called a __topos with NNO__ or a __$W$-topos__.  The latter term comes from the result that any such topos must have (not only an NNO but also) all [[W-types]].
 
@@ -92,10 +105,33 @@ There is a further elementary property of [[Set]] that might have gone into the 
 
 * [[base topos]]
 
+### Morphisms of toposes
+
+There are two kinds of [[homomorphisms]] between toposes that one considers:
+
+* [[geometric morphism]] -- this is the kind of morphism that regards a topos as a generalized [[topological space]].
+
+* [[logical morphism]] -- this is the kind of morphism that regards a topos in terms of its [[internal logic]].
+
+Accordingly there is a [[2-category]] [[Topos]] of toposes, whose 
+
+* [[object]]s are toposes;
+
+* [[morphism]]s are [[geometric morphism]]s;
+
+* [[2-morphism]]s are [[natural transformation]]s between the [[functor]]s underlying the geomtric morphisms.
+
+
+
 ## Properties
 
-While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that see [[AT category]].
+### General 
 
+(...)
+
+### Relation to abelian categories
+
+While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that see [[AT category]].
 
 ### Reasoning in a topos 
 
@@ -108,9 +144,11 @@ For more on this idea, see [[internal logic]].
 
 ## Examples {#Examples}
 
-* The archetypical topos is [[Set]]. Notice that this happens to be a [[Grothendieck topos]]: this is the [[category of sheaves]] on the [[point]].
+### Specific examples
 
-  The [[full subcategory]] [[FinSet]] is also a topos, and the inclusion functor $FinSet \hookrightarrow Set$ is a [[logical morphism]].
+* The archetypical topos is [[Set]]. Notice that this happens to be a [[Grothendieck topos]]: it is the [[category of sheaves]] on the [[point]].
+
+  The [[full subcategory]] [[FinSet]] is also an elementary topos, and the inclusion functor $FinSet \hookrightarrow Set$ is a [[logical morphism]]. This is not a Grothendieck topos.
 
   More generally, for $\kappa$ a [[cardinal|strong limit cardinal]] the full subcategory $Set_\kappa$ of sets or [[cardinality]] less than $\kappa$ is a topos.
 
@@ -149,13 +187,14 @@ For more on this idea, see [[internal logic]].
 
 * For $\mathcal{T}$ any topos and $X \in \mathcal{T}$ any category, the [[over category]] $\mathcal{T}/X$ is itself a topos: the [[over-topos]].
 
-## Special classes of toposes
+### Classes of examples
 
 For various applications one uses toposes that have [[stuff, structure, property|extra structure or properties]].
 
+* In the [[foundations]] of mathematics, one often studies [[well-pointed toposes]], especially models of [[ETCS]] as potential replacements for the category [[Set]].
+
 * In [[synthetic differential geometry]] one studies [[smooth topos]]es as a context for axiomatic [[differential geometry]].
 
-* In the [[foundations]] of mathematics, one often studies [[well-pointed toposes]], especially models of [[ETCS]] as potential replacements for the category [[Set]].
 
 
 ## Related entries
