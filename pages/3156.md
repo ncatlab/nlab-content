@@ -8,9 +8,9 @@
 
 ##Preliminaries##
 
-Recall a **functorial factorization** on a category $K$ is a functor $E : K$<sup>[2]</sup> &rarr; $K$<sup>[3]</sup> that is a section to the composition functor $d_1$, induced by the inclusion functor $d^1 : [2] \rightarrow [3]$ between the ordinal categories.
+Recall a **functorial factorization** on a category $K$ is a functor $E : K$<sup>2</sup> &rarr; $K$<sup>3</sup> that is a section to the composition functor $d_1$, induced by the inclusion functor $d^1 : 2 \rightarrow 3$ between the ordinal categories.
 
-Explicitly, $E$ factors a morphism $(u,v) : f \Rightarrow g$ in $K^{[2]}$ as
+Explicitly, $E$ factors a morphism $(u,v) : f \Rightarrow g$ in $K^{2}$ as
 
 $$
   \array{
@@ -35,7 +35,7 @@ $$
   }
 $$
 
-There are two other injective functors $d^0, d^2 : [2] \rightarrow [3]$ whose image misses the object that appears as their superscript. When we compose $E$ with $d_2$ and $d_0$, we obtain endofunctors of $K^{[2]}$, which we call $L$ and $R$. 
+There are two other injective functors $d^0, d^2 : 2 \rightarrow 3$ whose image misses the object that appears as their superscript. When we compose $E$ with $d_2$ and $d_0$, we obtain endofunctors of $K^{2}$, which we call $L$ and $R$. 
 
 There are obvious natural transformations $1 \Rightarrow R$ and $L \Rightarrow 1$ whose components are given by the data of the functorial factorization $E$. We say $L$ and $R$ are **pointed** endofunctors, with these natural transformations in mind.
 
@@ -60,7 +60,7 @@ where $f$ is a $L$-coalgebra and $g$ is an $R$-algebra, the functorial factoriza
 
 ##Interesting features##
 
-* The right class of a NWFS is closed under any limits that exist in $K^{[2]}$, because the forgetful functor to the underlying category of arrows creates all limits which exist. Note that it does not follow that the right class of the underlying WFS is closed under limits in the arrow category, because first, it is possible that some elements of the right class will not have an $R$-algebra structure, and second, not every map in the arrow category between $R$-algebras is necessarily an $R$-algebra map.
+* The right class of a NWFS is closed under any limits that exist in $K^{2}$, because the forgetful functor to the underlying category of arrows creates all limits which exist. Note that it does not follow that the right class of the underlying WFS is closed under limits in the arrow category, because first, it is possible that some elements of the right class will not have an $R$-algebra structure, and second, not every map in the arrow category between $R$-algebras is necessarily an $R$-algebra map.
 
 * Algebras for the monad of a NWFS can be composed canonically, as can the coalgebras for the comonad. The composition law for the algebras uses the comultiplication natural transformation, and dually for the coalgebras.
 
@@ -76,7 +76,7 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 
 * Richard Garner, "Understanding the small object argument", [arXiv](http://arxiv.org/abs/0712.0724).
 
-* Emily Riehl, "Natural weak factorization systems in model structures", [arXiv](http://arxiv.org/abs/0910.2733).
+* Emily Riehl, "Algebraic model structures", [arXiv](http://arxiv.org/abs/0910.2733).
 
 [[!redirects natural weak factorization systems]]
 [[!redirects NWFS]]
