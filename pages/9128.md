@@ -83,6 +83,8 @@ Crucially, [[Einstein gravity]] is not known to have a formulation as a _fundame
 
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
+[[!include standard model of fundamental physics - table]]
+
 ### Theories and their models
  {#TheoriesAndTheirModels}
 
