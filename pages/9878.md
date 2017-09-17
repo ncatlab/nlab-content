@@ -1,4 +1,3 @@
-[[!redirects coupling constants]]
 
 #Contents#
 * table of contents
@@ -10,6 +9,11 @@ In the [[Lagrangian]] of a [[prequantum field theory]] the those terms that invo
 
 ## Example
 
+* [[Yukawa interaction|Yukawa coupling constant]]
+
+## Related concepts
+
 * [[renormalization]]
 
-* [[Yukawa interaction|Yukawa coupling constant]]
+
+[[!redirects coupling constants]]
