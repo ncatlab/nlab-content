@@ -61,7 +61,7 @@ In this sense, the object $false$ in [[Set]] or [[∞Grpd]] may canonically be t
 
 * **false**, [[empty type]]
 
-* [[contradiction]], [[inconsistency]]
+* [[contradiction]], [[inconsistency]], [[consistency]]
 
 
 [[!redirects false]]
