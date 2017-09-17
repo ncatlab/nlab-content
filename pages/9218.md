@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -11,10 +11,15 @@ The assignment of local sections of some $E \to X$ to all admissible $U \to X$ i
 
 In a [[finitely complete category|finitely complete]] [[site]] $(S,J)$ the assignment $X \mapsto \{p\colon Y \to X | p $ admits local sections over a $J$-cover $\}$ is a [[singleton pretopology]] on $S$.
 
+
 ## Related concepts
 
 * [[global section]]
 
 * [[flat section]]
 
+
+[[!redirects local section]]
 [[!redirects local sections]]
+[[!redirects partial section]]
+[[!redirects partial sections]]
