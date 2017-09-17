@@ -71,7 +71,7 @@ Write
 +-- {: .un_prop}
 ###### Proposition
 
-In all three cases there is the [[good open cover]] [[coverage]] that makes $[[CartSp]] a [[site]].
+In all three cases there is the [[good open cover]] [[coverage]] that makes [[CartSp]] a [[site]].
 
 =--
 
@@ -135,7 +135,7 @@ and [[equivalences of (∞,1)-categories]]
 
 The first two statements follow by the [above proposition](#AsDenseSubsite) with the _comparison lemma_ discussed at [[dense sub-site]].
 
-For the second condition notice that since an [[∞-cohesive site]] is in particular an [[∞-local site]] we hat that $Sh_{(\infty,1)}(CartSp)$ is a [[local (∞,1)-topos]]. As discussed there, this implies that it is a [[hypercomplete (∞,1)-topos]]. By the discussion at [[model structure on simplicial presheaves]] this means that it is [[presentable (∞,1)-category|presented]] by the Joyal-Jardine-[[model structure on simplicial sheaves]] $Sh(CartSp)^{\Delta^{op}}_{loc}$. The claim then follows with the first two statements.
+For the second condition notice that since an [[∞-cohesive site]] is in particular an [[∞-local site]] we have that $Sh_{(\infty,1)}(CartSp)$ is a [[local (∞,1)-topos]]. As discussed there, this implies that it is a [[hypercomplete (∞,1)-topos]]. By the discussion at [[model structure on simplicial presheaves]] this means that it is [[presentable (∞,1)-category|presented]] by the Joyal-Jardine-[[model structure on simplicial sheaves]] $Sh(CartSp)^{\Delta^{op}}_{loc}$. The claim then follows with the first two statements.
 
 =--
 
