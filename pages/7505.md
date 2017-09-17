@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+## Idea
+
+In [[type theory]], a **positive type** is one whose *constructors* are regarded as primary.  Its eliminators are derived from these by the rule that "to use an element of a positive type, it is necessary and sufficient to specify what should be done for all possible ways that element could have been constructed".
+
+In [[categorical semantics]] of type theory, positive types correspond to "from the left" universal properties (i.e. for mapping out).
+
+## Examples
+
+* [[inductive type]]
+
+* cartesian [[product types]] can be presented both positively and negatively, as can binary [[sum types]].  The two definitions are equivalent in ordinary type theory, but distinct in [[linear logic]].
+
+[[!redirects positive types]]
