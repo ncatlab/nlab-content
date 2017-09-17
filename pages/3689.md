@@ -1,11 +1,12 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
 That [[category]] $Mod$ is the category of all [[module]]s over all commutative [[ring]]s.
+
 
 ## Definition
 
@@ -18,6 +19,7 @@ That [[category]] $Mod$ is the category of all [[module]]s over all commutative 
   $$
 
   is a pair consisting of a ring homomorphism $\phi : R \to R'$ and a morphism $\kappa : N \to \phi^* N'$ of $R$-modules, where $\phi^* N'$ is the [[tensor product]] $\phi^* N' := R \otimes_{\phi} N$.
+
 
 ## As a bifibration
 
@@ -43,6 +45,7 @@ $$
 $$
 
 the category [[Ab]] of abelian groups.
+
 
 ## Tangents and deformation theory
 
@@ -81,10 +84,27 @@ $$
   \,.
 $$
 
+
 ## References
 
 A summary of these classical facts together with their embedding into the bigger picture of [[tangent (∞,1)-category|tangent (∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
+
 category: category
+
+[[!redirects Mod]]
+
+[[!redirects RMod]]
+[[!redirects R Mod]]
+[[!redirects R-Mod]]
+[[!redirects KMod]]
+[[!redirects K Mod]]
+[[!redirects K-Mod]]
+[[!redirects kMod]]
+[[!redirects k Mod]]
+[[!redirects k-Mod]]
+
+[[!redirects category of modules]]
+[[!redirects categories of modules]]
