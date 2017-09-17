@@ -263,7 +263,7 @@ Suppose that $C$ is
 
 * with [[reflexive coequalizer]]s
 
-* that are preserved by then tensoring functors $A \otimes (-): C \to C$ for all objcts $A$ in $C$.
+* that are preserved by the tensoring functors $A \otimes (-): C \to C$ for all objcts $A$ in $C$.
 
 Then for $f : A\to B$ and $g : A \to C$ two morphisms in the category $CMon(C)$ of _commutative_ monoids in $C$, the underlying object in $C$ of the [[pushout]] in $CMon(C)$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[module]]s
 
