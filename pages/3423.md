@@ -43,12 +43,12 @@ The [[2-category]] [[Locale]] has
 
 ## Properties
 
-For any [[base topos]] $E$ the [[2-category]] $Loc(S)$ of [[internal locales]] in $S$ is [[equivalence of categories|equivalent]] to the [[subcategory]] of the [[over topos|slice]] of [[Topos]] over $S$ on the [[localic geometric morphism]]s. See there for more details.
+For any [[base topos]] $S$ the [[2-category]] $Loc(S)$ of [[internal locales]] in $S$ is [[equivalence of categories|equivalent]] to the [[subcategory]] of the [[over topos|slice]] of [[Topos]] over $S$ on the [[localic geometric morphism]]s. See there for more details.
 
 See [[locale]] for more properties.
 
 
-The [[2-functor]] that formes [[category of sheaves|categories of sheaves]]
+The [[2-functor]] that forms [[category of sheaves|categories of sheaves]]
 
 $$
   Sh : Locale \to Topos
