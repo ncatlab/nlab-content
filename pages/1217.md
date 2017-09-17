@@ -31,7 +31,7 @@ __Definition.__  A predifferentiable space $X$ is a topological space equipped w
 
 3. Each map $\{0\} \to X$ is a plot.
 
-__Remark.__ in [1973], a predifferentiable space is called a ``differentiable space''.
+__Remark.__ in [1973], a predifferentiable space is called a "differentiable space".
 We propose to amend the definition of a differentiable space by adding the following condition:
 
 4. Let $\phi: U\to X$ be a continuous map and let $\{\theta_i: U_i \to U\}$ be a family of $C^\infty$-maps, $U$, $U_i$ being convex regions, such that a function $f$ on $U$ is $C^\infty$ if and only if each $f\circ \theta_i$ is $C^\infty$ on $U_i$.
