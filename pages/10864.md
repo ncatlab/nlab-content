@@ -30,9 +30,13 @@ Original books include
 * [[Clifford Truesdell]], _Rational thermodynamics_, Springer-Verlag, Berlin and New York, 1972
  {#Truesdell72}
 
-* [[Clifford Truesdell]], _A first course in rational continuum mechanics_. Pure and Applied Mathematics, Academic Press, New York, San Francisco, London, 1977, xxiii + 280 pp., $23.00 ([review](http://projecteuclid.org/euclid.bams/1183548435))
+* [[Clifford Truesdell]], _A first course in rational continuum mechanics_. Pure and Applied Mathematics, Academic Press, New York, San Francisco, London, 1977, xxiii + 280 pp.,  ([review](http://projecteuclid.org/euclid.bams/1183548435))
 
-A survey of [[irreversible thermodynamics]] is in 
+The appendix of ([Truesdell 72](#Truesdell72)) also appears as
+
+* Bernard Coleman, David Owen, _Recent research on the foundations of thermodynamics_, in [[William Lawvere]], [[Stephen Shanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174 1986
+
+A survey of approaches to [[irreversible thermodynamics]] is in 
 
 * Ivan Vavruch, _Conceptual problems of modern irreversible thermodynamics_, Chem. Listy 96 (2002) ([pdf](http://www.chemicke-listy.cz/docs/full/2002_05_01.pdf))
 
