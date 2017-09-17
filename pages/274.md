@@ -124,6 +124,7 @@ are in fact [[isomorphisms]] / [[bijections]] of sets. This property of the [[ne
 
 ## Related concepts
 
+* [[Gamma space]]
 
 [[!include table - models for (infinity,1)-operads]]
 
