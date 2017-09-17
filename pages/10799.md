@@ -16,9 +16,11 @@
 
 ## Idea
 
-In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completion of a ring|completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. For example, the algebraic integers in the number field embed discretely and co-compactly into this cartesian product, i.e., as a [[lattice in a vector space|lattice]], and this opens the way for example to the concrete realization of the group of units (modulo torsion) as a lattice, and also to the technique of Fourier analysis where Poisson summation applied to the lattice has classical implications for [[theta functions]] and [[zeta functions]]. 
+The _ring of adeles_ $\mathbb{A}_k$ of any [[global field]] $k$ -- in particular of the [[rational numbers]] $\mathbb{Q}$ -- is the [[restricted product]] of all [[formal completions]] $k_v$ of $k$ at all its [[places]] $v$, where the restriction is such that only a [[finite number]] of components have [[norm]] greater than 1.
 
-It was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation is made even better if the number field itself is embedded in the cartesian product of its completions at all of its absolute values. With a few additional restrictions, these objects are known as the _adeles_, and the [[group of units|units]] of this ring are called the _[[ideles]]_. Under these restrictions, the given number field embeds discretely and cocompactly into the adeles, i.e., behaves as a lattice where it is again possible to apply Poisson summation. 
+In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completion of a ring|completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. For example, the [[algebraic integers]] in the number field embed discretely and co-compactly into this [[cartesian product]], i.e., as a [[lattice in a vector space|lattice]], and this opens the way for example to the concrete realization of the [[group of units]] (modulo [[torsion subgroup|torsion]]) as a [[lattice]], and also to the technique of [[Fourier analysis]] where Poisson summation applied to the lattice has classical implications for [[theta functions]] and [[zeta functions]]. 
+
+It was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation is made even better if the [[number field]] itself is embedded in the cartesian product of its [[formal completions]] at all of its [[absolute values]]. With a few additional restrictions, these objects are known as the _adeles_, and the [[group of units|units]] of this ring are called the _[[ideles]]_. Under these restrictions, the given number field embeds discretely and cocompactly into the adeles, i.e., behaves as a lattice where it is again possible to apply Poisson summation. 
 
 When considering the adeles and ideles, it is their [[topology]] as much as their algebraic structure that is of interest. Many important results in [[number theory]] translate into simple statements about the topologies of the adeles and ideles. For example, the finiteness of the [[ideal class group]] and the [[Dirichlet unit theorem]] are equivalent to a certain quotient of the ideles being compact and discrete.
 
@@ -27,7 +29,21 @@ When considering the adeles and ideles, it is their [[topology]] as much as thei
 
 ## Definition
 
+The concept of a _ring of adeles_ makes sense for any [[global field]], hence for any finite-dimensional [[field extension]] of either the [[rational numbers]] or of a [[function field]] over a [[finite field]]. The ring of adeles of the [[rational numbers]] themselves is the classical case which we discuss first in 
+
+* [For the rational numbers](#ForTheRationalNumbers)
+
+Then we consider the definition more generally
+
+* [For a number field](#ForAnyNumberField)
+
+and finally in full generality 
+
+* [For a global field]().
+
 ### For the rational numbers
+ {#ForTheRationalNumbers}
+
 
 We start off very simply with the algebraic description of the adele ring over the [[rational numbers]]. 
 
@@ -65,7 +81,7 @@ $$
 
 This definition generalizes to any [[number field]] $k$. 
 
-### For any number field
+### For a number field
  {#ForAnyNumberField}
 
 Let 
@@ -136,7 +152,7 @@ k \otimes_\mathcal{O} \mathbb{A}_\mathcal{O} & \cong & k \otimes_\mathcal{O} \le
  & \cong & colim_x \; \prod_{v \in S} k_v \times (\prod_{p: x \in p} k_p) \times (\prod_{p: x \notin p} \mathcal{O}_p)
 \end{array}$$ 
 
-where each component of the filtered diagram is locally compact (a product of finitely many locally compact and infinitely many compact spaces) in the product topology. Taking the filtered colimit in $Top$ over the resulting diagram of open inclusions, the result is again a locally compact ring. In this way the ring of adeles $\mathbb{A}_k$ is topologized. 
+where each component of the filtered diagram is locally compact (a product of finitely many locally compact and infinitely many compact spaces) in the [[product topology]]. Taking the filtered colimit in $Top$ over the resulting diagram of open inclusions, the result is again a locally compact ring. In this way the ring of adeles $\mathbb{A}_k$ is topologized. 
 
 +-- {: .num_remark} 
 ###### Remark 
@@ -161,6 +177,29 @@ $$\mathbb{I}_{k, T} = (\prod_{v \in T} k_v^\times) \times (\prod_{v \notin T} \m
 $$\mathbb{I}_k = colim_T \; \mathbb{I}_{k, T}$$ 
 
 and indeed the idele topology coincides with the filtered colimit topology. 
+
+### For a global field
+ {#ForAGlobalField}
+
+Fully generally, let $k$ be a [[global field]]. Write $P$ for its [[set]] of [[places]] and $k_v$ for its [[formal completion]] at $v \in P$.
+
++-- {: .num_defn #AsRestrictedProduct} 
+###### definition
+
+The _ring of adeles_ of a [[global field]] $k$ is the [[restricted product]]
+
+$$
+  \mathbb{A}_k \coloneqq \underset{v \in P}{\prod} k_v
+$$
+
+where the striction is to elements $(x_v)_{v\in P}$ of the actual [[product]] whose components have [[norm]] at most unity -- ${\vert x_v\vert} \leq 1$, except for a most a [[finite number]] of $v$ 
+
+This is topologized in the same way as discussed [above](#ForAnyNumberField).
+
+=--
+
+Review includes ([Mathew 10](#Mathew10))
+
 
 ## Properties
 
@@ -211,7 +250,7 @@ The map $\pi \circ i: k \to k^\wedge$ vanishes. The map $\mathbb{A}_k/k \to k^\w
 ### Function field analogy
  {#FunctionFieldAnalogy}
 
-Via the [[function field analogy]] one may understand any [[number field]] or [[function field]] $F$ as being the [[rational functions]] on an [[arithmetic curve]] $\Sigma$. Under this identification the  ring of adeles $\mathbb{A}_F$ of $F$ has the interpretation of being the ring of functions on all punctured [[formal disks]] around all points of $\Sigma$, such that only finitely many of them do not extend to the given point. ([Frenkel 05, section 3.2](#Frenkel05)). 
+Via the [[function field analogy]] one may understand any [[number field]] or [[function field]] $F$ as being the [[rational functions]] on an [[arithmetic curve]] $\Sigma$. Under this identification the  ring of adeles $\mathbb{A}_F$ of $F$ has the interpretation of being the ring of functions on all punctured [[formal disks]] around all points of $\Sigma$, such that only finitely many of them do not extend to the given point. ([Frenkel 05, section 3.2](#Frenkel05)). This is most manifest in terms of def. \ref{AsRestrictedProduct} above.
 
 This means for instance that the [[general linear group]] $GL_n(\mathbb{A}_F)$ with [[coefficients]] in the ring of adeles has the interpretation as being the [[Cech cohomology|Cech cocycles]] for [[algebraic vector bundles]] of [[rank]] $n$ on an [[algebraic curve]] with respect to any [[cover]] of that curve by the complement of a finite number of points together with the [[formal disks]] around these points. (Notice that for $n = 1$ then $GL_1(\mathbb{A}_F)$ is the [[group of ideles]]). This is part of a standard construction of the [[moduli stack of bundles]] on algebraic curves, see at _[Moduli space of bundles and the Langlands correspondence](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_.
 
@@ -225,6 +264,8 @@ This means for instance that the [[general linear group]] $GL_n(\mathbb{A}_F)$ w
 * [[adelic string theory]]
 
 ## References
+
+* {#Mathew10} [[Akhil Mathew]], _[The adele ring](http://amathew.wordpress.com/2010/05/21/the-adele-ring/)_, 2010 
 
 * _Adeles_ [pdf](http://wiki.epfl.ch/gant/documents/lecture2-cib2011.pdf)
 
