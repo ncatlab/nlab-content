@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -17,11 +23,25 @@
 
 The basic definition of a [[smooth manifold]] is as a space locally modeled on a finite-dimensional [[Cartesian space]]. This can be generalized to a notion of smooth manifolds locally modeled on infinite-dimensional [[topological vector spaces]]. Typical examples of these are [[mapping spaces]] between finite-dimensional manifolds, such as [[loop space]]s.
 
-## Related concepts
+## Definitions
+
+* [[Banach manifold]],
+
+* [[Hilbert manifold]]
+
+* [[ILH manifold]]
 
 * [[Frechet manifold]]
 
+* [[convenient manifold]]
+
+## Classes of examples
+
 * [[manifold structure of mapping spaces]]
+
+## Related concepts
+
+
 
 * [[orthogonal structure]]
 
