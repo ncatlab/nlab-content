@@ -110,13 +110,13 @@ $$
 H_\alpha(t, v) = \left\{ 
 
 \array{
-(1 - 2t)v + 2t \frac{v}{|v|} & 0 \leq t \lt 1/2, v \in int(D^{n+1}) \cap V_\alpha \\
+(1 - 2t)v + 2t \frac{v}{|v|} & 0 \leq t \lt \frac1{2}, v \in int(D^{n+1}) \cap V_\alpha \\
 
-v & 0 \leq t \leq 1/2, v \in U_\alpha \\
+v & 0 \leq t \leq \frac1{2}, v \in U_\alpha \\
 
-h_\alpha(2t - 1, \phi(\frac{v}{|v|})) & 1/2 \leq t \leq 1, v \in int(D^{n+1}) \cap V_\alpha \\
+h_\alpha(2t - 1, \phi(\frac{v}{|v|})) & \frac1{2} \leq t \leq 1, v \in int(D^{n+1}) \cap V_\alpha \\
 
-h_\alpha(2t - 1, v) & 1/2 \leq t \leq 1, v \in U_\alpha
+h_\alpha(2t - 1, v) & \frac1{2} \leq t \leq 1, v \in U_\alpha
 } \right.
 $$
 
