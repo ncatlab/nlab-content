@@ -1,7 +1,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -17,7 +17,7 @@ $$
   q(t v) = t^2 q(v)
 $$
 
-and the _polarization_ of $q$
+and the _[[polarization identity|polarization]]_ of $q$
 
 $$
   (v,w) \mapsto q(v+w) - q(v) - q(w) 
