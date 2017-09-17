@@ -103,7 +103,7 @@ A [[simplicial topological space]] $X_\bullet$ is **good** in the sense of [[Gra
 +-- {: .un_defn #ProperSimplicialSpace}
 ###### Definition
 
-A simplicial topological space $X_\bullet$ is **proper** in the sense of [May](#May) if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n := \bigcup_i s_i(X_{n-1})$.
+A simplicial topological space $X_\bullet$ is **proper** in the sense of [May](#May) if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[Hurewicz cofibration|closed cofibration]], where $s X_n := \bigcup_i s_i(X_{n-1})$.
 
 =--
 
