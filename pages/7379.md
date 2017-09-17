@@ -19,7 +19,7 @@ Let $\mathcal{C H}$ be the [[category]] of [[compact Hausdorff space|compact Hau
 A **quasi-topological space** is a (small-set valued) [[concrete sheaf]] on $\mathcal{C H}$. 
 =-- 
 
-The (super-large) category of quasi-topological spaces is a [[quasitopos]] (although this is not immediately obvious for size reasons --- in particular, it is probably not a [[Grothendieck quasitopos]]).  In particular, it is a [[locally cartesian closed category]].
+The (super-large) category of quasi-topological spaces is a [[quasitopos]] (although this is not immediately obvious for [[size issues|size reasons]] --- in particular, it is probably not a [[Grothendieck quasitopos]]).  In particular, it is a [[locally cartesian closed category]].
 
 
 ## References 
