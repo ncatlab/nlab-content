@@ -1,24 +1,37 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Quantum logic refers either to
 
-* any formal framework which is supposed to be able to _express_ the statements whose semantics is the totality of all what is verifiable by measurement in a quantum system
+* any formal framework which is supposed to be able to _express_ the statements whose semantics is the totality of all what is verifiable by measurement in a [[quantum system]];
 
-* the quantum logic of von Neumann in which the propositions are given by projections to closed subspaces of a [[Hilbert space]]
+* the quantum logic of von Neumann in which the propositions are given by projections to closed subspaces of a [[Hilbert space]];
 
-* the engineering units of quantum computing (analogue of logical gates in the usual computing)
+* the engineering units of [[quantum computing]] (analogue of logical gates in the usual computing).
 
-## Birkhoff-von Neumann quantum logic
+## Approaches
+
+### Birkhoff-von Neumann quantum logic
 
 It is based on the setting the [[Hilbert lattice]] (of closed suspaces of a Hilbert space) to represent the set of propositions of quantum system. 
 
 ...
 
-## Topos theoretic approaches to quantum mechanics
+### Topos theoretic approaches to quantum mechanics
 
-...
+See at _[[Bohr topos]]_ for more.
 
-## Other approaches
+### Other approaches
 
-...
+(...)
+
+## Related concepts
+
+* [[qbit]]
 
 ## Literature
 
