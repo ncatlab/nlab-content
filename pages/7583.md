@@ -44,6 +44,8 @@ A category $C$ is **exhaustive** if the following two conditions hold.
 
 Note that half of the second condition is simply that the colimits in the first condition are stable under pullback.  One may obtain various weaker notions by restricting the allowable values of $\kappa$.
 
+See Prop. \ref{AlternativeCharacterization} below for an alternative characterization of exhaustive categories.
+
 We may refer to the transfinite composites of monomorphisms above as **transfinite unions**.
 
 
@@ -57,7 +59,7 @@ We may refer to the transfinite composites of monomorphisms above as **transfini
 
 ## Properties
 
-+-- {: .num_prop}
++-- {: .num_prop #CoprojectionsMonic}
 ###### Proposition
 Given a transfinite union
 $$ A_0 \to A_1 \to \cdots \to A_\kappa$$
@@ -78,7 +80,42 @@ $$\array{ A_\alpha & \to & A_\alpha \\
 is a pullback, i.e. $A_\alpha\to A_\kappa$ is monic.
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #AlternativeCharacterization}
+###### Proposition
+Suppose $C$ has colimits of transfinite sequences of monomorphisms for which the coprojections are also monic, as in Prop. \ref{CoprojectionsMonic}, and which are stable under pullback.  Then $C$ is exhaustive.
+=--
++-- {: .proof}
+###### Proof
+It remains to show that given a diagram
+$$\array{
+  B_0 & \to & B_1 & \to & \cdots & \to & B_\kappa\\
+  \downarrow^{f_0} && \downarrow^{f_1} &&&& \downarrow^{f_\kappa}\\
+  A_0 & \to & A_1 & \to & \cdots & \to & A_\kappa\\
+}$$
+in which both rows are transfinite compositions of monomorphisms and the squares
+$$ \array{ B_\alpha & \to & B_\beta \\
+  \downarrow^{f_\alpha} && \downarrow^{f_\beta} \\
+  A_\alpha & \to & A_\beta } $$
+are pullbacks, also the squares
+$$ \array{ B_\alpha & \to & B_\kappa \\
+  \downarrow^{f_\alpha} && \downarrow^{f_\kappa} \\
+  A_\alpha & \to & A_\kappa } $$
+are pullbacks.
+
+Fix an $\alpha\lt\kappa$, and suppose given $g\colon X\to B_\kappa$ such that $f_\kappa g$ factors through $A_\alpha$; we want to show that $g$ factors through $B_\alpha$.  Pulling back the $B$-colimit along $g$ and the $A$-colimit along $f_\kappa g$, we obtain another morphism of transfinite unions:
+$$\array{
+  g^*B_0 & \to & g^*B_1 & \to & \cdots & \to & X\\
+  \downarrow && \downarrow &&&& \downarrow^{1_X}\\
+  (f_\kappa g)^* A_0 & \to & (f_\kappa g)^* A_1 & \to & \cdots & \to & X\\
+}$$
+and it is easy to verify, by the pasting law for pullbacks, that each square
+$$ \array{ g^* B_\beta & \to & g^* B_\gamma \\
+  \downarrow^{f_\beta} && \downarrow^{f_\gamma} \\
+  (f_\kappa g)^* A_\beta & \to & (f_\kappa g)^* A_\gamma } $$
+is a pullback for $\beta\lt\gamma\lt\kappa$.  However, since $f_\kappa g$ factors through $A_\alpha$, the morphism $(f_\kappa g)^* A_\beta \to (f_\kappa g)^* A_\gamma$ is split epic whenever $\alpha\lt\beta\lt\gamma$, hence (since it is also monic) an isomorphism.  Thus, in this case so is its pullback $g^* B_\beta \to g^* B_\gamma$.  Since the coprojections into a transfinite composite of a sequence that eventually consists of isomorphisms are also eventually isomorphisms, $g^* B_\alpha \to X$ is an isomorphism; hence $g$ factors through $B_\alpha$ as desired.
+=--
+
++-- {: .num_prop #FinInfExtensive}
 ###### Proposition
 If an exhaustive category is also finitary [[extensive category|extensive]], then it is infinitary extensive.
 =--
