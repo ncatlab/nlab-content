@@ -32,7 +32,7 @@ $$
   p \otimes d 
   \in 
   \mathcal{P} \otimes_{BV} \mathcal{Q}(
-    (c_1 \otimes d), \cdots, (c_n,d); (c,d)
+    (c_1,d), \cdots, (c_n,d); (c,d)
   )
 $$
 
