@@ -826,9 +826,42 @@ The operations that commute with a given set of operations in an algebraic theor
 
 ### Closed monoidal structure on algebras
 
-If $f_1,\ldots , f_n$ are homomorphisms $A \to B$ of models (algebras) of a commutative algebraic theory, and $\omega$ is an $n$-ary operation of it, then the function $A \to B$ given by sending $a \in A$ to $\omega(f_1(a),\ldots ,f_n(a)) \in B$ is again a homomorphism, which is naturally called $\omega(f_1,\ldots ,f_n)$. In this way $Hom(A,B)$ is enriched as a model of the algebraic theory, and we have a [[closed category]] of models and homorphisms. Furthermore, this internal $Hom$ has a left adjoint $\otimes$ for which the free model on one generator is a unit, so we have a [[closed monoidal category]].
+If $f_1,\ldots , f_n$ are homomorphisms $A \to B$ of models (algebras) of a commutative algebraic theory, and $\omega$ is an $n$-ary operation of it, then the function $A \to B$ given by sending $a \in A$ to $\omega(f_1(a),\ldots ,f_n(a)) \in B$ is again a homomorphism, which is naturally called $\omega(f_1,\ldots ,f_n)$. In this way $Hom(A,B)$ is enriched as a model of the algebraic theory, and we have a [[closed category]] of models and homorphisms. Furthermore, this internal $Hom$ has a left adjoint $\otimes$ for which the free model on one generator is a unit, so we have a [[closed monoidal category]], in fact a closed [[symmetric monoidal category]].
 
+The monoidal structure $\otimes$ can be extracted by a straightforward generalization of the usual tensor product of abelian groups (or of commutative monoids), where "bilinearity conditions" = "linearity in separate variables" is replaced by "$T$-homomorphicity in separate variables", where $T$ is the monad of the algebraic theory. In detail, if $A$ and $B$ are $T$-algebras, the tensor product $A \otimes B$ ought to be such that $T$-homomorphisms 
 
+$$A \otimes B \to C$$ 
+
+are equivalent to maps $f \colon A \times B \to C$ for which each $f(a, -) \colon B \to C$ and each $f(-, b) \colon A \to C$ is a $T$-homomorphism. This can be internalized as follows. 
+
++-- {: .num_def} 
+###### Definition 
+$A \otimes B$ is the coequalizer of two $T$-algebra maps 
+
+$$\alpha, \beta \colon T(T A \times T B) \stackrel{\to}{\to} T(A \times B)$$ 
+
+Here $\alpha$ is the unique $T$-algebra map whose restriction along $u \colon T A \times T B \to T(T A \times T B)$ is the composite 
+
+$$T A \times T B \stackrel{\sigma_{A, T B}}{\to} T(A \times T B) \stackrel{T(\tau_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
+
+Here $\sigma$ denotes a _strength_ of the monad $T$, and $\tau$ its symmetric counterpart. Similarly, $\beta$ is the unique $T$-algebra map whose restriction along the unit $u$ is the composite map 
+
+$$T A \times T B \stackrel{\tau_{T A, B}}{\to} T(T A \times B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \times B) \stackrel{m(A \times B)}{\to} T(A \times B).$$ 
+=-- 
+
+It is worth seeing what this description gives more explicitly. Starting with a pair of elements in $T A \times T B$, 
+
+$$\langle (\omega; a_1, \ldots, a_m), (\chi; b_1, \ldots, b_n)\rangle$$ 
+
+(and here we should be considering equivalence classes of such formal operations), the map $\alpha \circ u$ sends this to 
+
+$$(\omega(\chi, \ldots, \chi); (a_1, b_1), \ldots (a_1, b_n)), \ldots, (a_m, b_1), \ldots, (a_m, b_n))$$ 
+
+where $\omega(\chi, \ldots, \chi)$ is the evident operation of arity $m n = n + \ldots n$. On the other hand, the map $\beta \circ u$ sends this pair to 
+
+$$(\chi(\omega, \ldots, \omega); (a_1, b_1), \ldots, (a_m, b_1), \ldots, (a_1, b_n), \ldots, (a_m, b_n))$$ 
+
+where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m + \ldots + m$. 
 
 ## References
 
