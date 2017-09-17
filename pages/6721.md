@@ -27,7 +27,7 @@
 
 Seiberg duality (named after ([Seiberg](#Seiberg))) is a version of [[electric-magnetic duality]] in [[supersymmetry|supersymmetric]] [[gauge theory]]. 
 
-For supersymmetric [[QCD]] it identifies in the infrared (long distance limit, and only there) the [[quarks]] and [[gluons]] in a theory with $N_f$ quark falvors and $SU(N_c)$ [[gauge group]] for 
+For supersymmetric [[QCD]] it identifies in the infrared (long distance limit, and only there) the [[quarks]] and [[gluons]] in a theory with $N_f$ quark flavors and $SU(N_c)$ [[gauge group]] for 
 
 $$
   N_f \gt N_c +1
