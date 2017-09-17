@@ -1,11 +1,190 @@
+# Contents #
+* table of contents 
+{: toc}
+
+## Introduction 
+
 A **Polish space** is a [[topological space]] that's [[homeomorphism|homeomorphic]] to a [[separable space|separable]] [[complete space|complete]] [[metric space]]. Every [[second countable space|second countable]] [[locally compact space|locally compact]] [[Hausdorff space]] is a Polish space, among others.
 
 Polish spaces provide a useful framework for doing [[measure theory]].  As with any topological space, we can take a Polish space and regard it as a [[measurable space]] with its [[sigma-algebra]] of [[Borel set]]s.  Then, there is a very nice classification of Polish spaces up to measurable bijection: there is one for each [[countable set|countable]] [[cardinality]], one whose cardinality is that of the [[continuum]], and no others.
 
-Why are Polish spaces 'not very big'?  In other words, why are there none with cardinality exceeding the continuum?  As with any separable metric space, it's because any Polish space has a countable dense subset and you can write any point as a limit of a sequence of points in this subset.  So, you only need a [[sequence]] of integers to specify any point in a Polish space.
+Why are Polish spaces 'not very big'?  In other words, why are there none with cardinality exceeding the continuum?  As with any separable metric space, it's because any Polish space has a countable dense subset and you can write any point as a limit of a sequence of points in this subset.  So, you only need a [[sequence]] of integers to specify any point in a Polish space. More sharply, see Lemma \ref{baire} below. 
 
++-- {: .num_example} 
+###### Example 
+The primordial example (and in practice, one of the most convenient) is [[Baire space]] $B$, viz. the space of irrational real numbers between $0$ and $1$, with the [[subspace topology]] inherited from the [[real number|real line]]. This is obviously not complete with respect to the metric induced from the real line, but it is homeomorphic to the product space $\mathbb{N}^\mathbb{N}$ via regular continued fraction expansions, and the latter is metrizable by a complete metric where the distance between two sequences $a = (a_1, a_2, \ldots)$ and $b = (b_1, b_2, \ldots)$ of positive integers is given by the formula $d(a, b) = 1/2^n$ where $n$ is the least integer such that $a_n \neq b_n$. A countable dense subset is given by continued fractions that eventually repeat (quadratic surds). 
+=-- 
+
+The convenience of Baire space is attested to by the fact that in [[descriptive set theory]], a "real number" is often taken to mean just a point of Baire space. See also Theorem \ref{Borel} below. 
+
+## Properties 
+
+* A countable product $X = \prod_n X_n$ of Polish spaces is Polish. Indeed, each $X_n$ is metrizable by a complete metric $d_n$ that takes values in $[0, 1]$, and then we may define another such complete metric on $X$ by 
+$$d(f, g) = \sum_n \frac1{2^{n+1}} d_n(f(n), g(n)).$$ 
+The metric topology on $X$ coincides with the product topology. 
+
+In particular, the [[Hilbert cube]] $[0, 1]^\mathbb{N}$ is Polish. 
+
+* A $G_\delta$ subset of a Polish space (under the subspace topology) is a Polish space. 
+
+### "Universal" Polish spaces 
+
++-- {: .num_prop #hilbert} 
+###### Proposition 
+Any Polish space is homeomorphic to a subspace of the Hilbert cube. 
+=-- 
+
+In fact, this is true of any [[separable space]]. What distinguishes Polish spaces is that all such are homeomorphic to $G_\delta$ subsets of the Hilbert cube (and conversely, every such $G_\delta$ is Polish). 
+
++-- {: .num_lemma #baire} 
+###### Lemma 
+Every Polish space $X$ admits a continuous surjection from Baire space. 
+=-- 
+
++-- {: .proof} 
+###### Proof (sketch) 
+Construct by induction a collection of closed sets (balls) $C_s$ indexed over _finite_ sequences $s$ of positive integers, with the following properties: 
+
+* For the empty sequence $e$, $C_e = X$; 
+
+* For nonempty sequences $s$, $diam(C_s) \leq 1/n$ where $n = length(s)$; 
+
+* Letting $(s, k)$ denote the extension of $s$ obtained by appending to $s$ the final element $k$, 
+$$C_s = \bigcup_{k=0}^\infty C_{(s, k)};$$ 
+
+* If $t$ extends $s$, then $center(C_t) \in C_s$. 
+
+Then define $f: B \to X$ where for each infinite sequence $a \in \mathbb{N}^\mathbb{N}$, 
+
+$$f(a) = \bigcap \{C_s: a\; extends\; s\}.$$ 
+
+One may check that $f$ is continuous and surjective. 
+=-- 
+
+### Cantor-Bendixson rank 
+
+Let $C \subseteq X$ be a closed subset of a Polish space $X$. The following operation traces back to Cantor's work in Fourier analysis, which in turn led to his study of [[countable ordinal|countable ordinals]] and [[ordinal]] analysis. 
+
+For a subset $A \subseteq X$, recall that $x \in A$ is a [[limit point]] if $x \in Cl(A \backslash \{x\})$. A point $x \in A$ that is not a limit point of $A$ is called an _isolated point_ of $A$. Clearly each isolated point is open relative to $A$, as is therefore the set of isolated points. 
+
++-- {: .num_defn} 
+###### Definition 
+The **Cantor-Bendixson derivative** of $C$ is the set $C' \subseteq C$ of limit points relative to $C$. For each ordinal $\alpha$ the iterated derivative $C^\alpha$ is defined by recursion: $C^0 = C$, $C^{\alpha + 1} = (C^\alpha)'$, and $C^\alpha = \bigcap_{\beta \lt \alpha} C^\beta$ if $\alpha$ is a limit ordinal. 
+=-- 
+
+Since $\beta \lt \alpha$ implies $C^\beta \supseteq C^\alpha$, it is clear that there is a least ordinal $\alpha$ for which $C^\alpha = C^{\alpha + 1}$. This ordinal is called the _Cantor-Bendixson rank_ of $C$. A _perfect set_ is a closed set $C$ such that $C = C'$. (Some people insist that a perfect set also be nonempty; we do not.) 
+
++-- {: .num_prop #cantor} 
+###### Proposition 
+For each nonempty perfect set $P$ in a Polish space $X$, there is a continuous injection $i: \mathbf{2}^\mathbb{N} \to P$ from [[Cantor space]]. In particular, the cardinality of a perfect set is the [[continuum]] $c$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $T$ be the complete infinite binary tree, whose infinite paths from the root correspond to points in Cantor space $\mathbf{2}^\mathbb{N}$. To each node $s$ in $T$ (a finite sequence of $0$'s and $1$'s) we construct by induction an open set $U_s$ with the following properties: 
+
+* $U_e = X$ for the empty sequence $e$, 
+
+* $\widebar{U_t} \subseteq U_s$ if $s$ is an initial segment of $t$, 
+
+* For the two children $(s, 0)$ and $(s, 1)$ of $s$, the sets $U_{(s, 0)}$ and $U_{(s, 1)}$ are disjoint, 
+
+* $diam(U_s) \leq 1/n$ where $n$ is the length of (nonempty) $s$, 
+
+* $U_s \cap P \neq \emptyset$ for each $s$. 
+
+Indeed, if $U_s$ has been constructed, and given $x \in U_s \cap P$, there are (at least!) two points $x_0, x_1 \in U_s \cap P$ since $P$ is perfect. We can easily find disjoint neighborhoods $U_{(s, 0)}, U_{(s, 1)}$ of these points respectively with the required properties. 
+
+Then for each path $p = (a_0, a_1, \ldots) \in \mathbf{2}^\mathbb{N}$, define 
+
+$$i(p) = \bigcap_{s \preceq p} U_s$$ 
+
+where $s \preceq p$ means $s$ is an initial segment of $p$. The intersection consists of a single point because it equals the intersection of a decreasing chain of closed sets with shrinking diameter (thus closing in on a limit of a [[Cauchy sequence]]). The map $i$ is clearly injective by the disjointness of open sets of children, and it is easy to see $i$ is continuous. 
+=-- 
+
+
++-- {: .num_theorem} 
+###### Theorem 
+For $C$ a closed subset of a Polish space $X$, the Cantor-Bendixson rank is a countable ordinal $\alpha$. The complement $C \backslash C^\alpha$ is at most countable.  
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $U_i$ be a countable basis of $X$. For each $\beta \lt \alpha$, each point $x \in C^\beta \backslash C^{\beta + 1}$ is an isolated point, so we can find an $U_{i(x)}$ in the basis such that $U_{i(x)} \cap (C^\beta \backslash C^{\beta + 1}) = \{x\}$. It is then clear that $x \mapsto i(x)$ is injective, so each $C^\beta \backslash C^{\beta + 1}$ is countable. Similarly, whenever $C^\beta \backslash C^{\beta + 1}$ is nonempty, we can find a basis element $U_{i(\beta)}$ that isolates one of its points (say $x$), and this same $U_i$ cannot isolate any point of an earlier $C^\gamma \backslash C^{\gamma + 1}$ since $x$ is a limit point of $U^\gamma$. It follows that $\beta \mapsto i(\beta)$ is an injective map, so that $\alpha$ must be a countable ordinal, and the collection $F \coloneqq C \backslash C^\alpha = \bigcup_{\beta \lt \alpha} C^\beta \backslash C^{\beta + 1}$ is (at most) countable. 
+=-- 
+
++-- {: .num_corollary #CH} 
+###### Corollary 
+A closed set in a Polish space is the disjoint union $P \cup F$ of a perfect set $P$ and a finite or countable set $F$. Hence an infinite closed subset in a Polish space has cardinality either $\aleph_0$ or the continuum $c = 2^{\aleph_0}$ ([[continuum hypothesis]] for closed sets). 
+=-- 
+
+### Borel isomorphism between Polish spaces 
+
+Recall that a function $f: X \to Y$ between topological spaces is _Borel_ if $f^{-1}(V)$ is a Borel set in $X$ for every open $V$ in $Y$. Topological spaces and Borel functions form a category. 
+
++-- {: .num_lemma} 
+###### Lemma 
+If $A, B$ are countably infinite $T_1$-[[separation axiom|spaces]], then any bijection $f: A \to B$ is a Borel isomorphism. 
+=-- 
+
+For, the inverse image $f^{-1}(U)$ of an open set, being countable, is an $F_\sigma$ set. In particular, any two denumerable Polish spaces are Borel isomorphic. 
+
++-- {: .num_lemma} 
+###### Lemma 
+The unit interval $[0, 1]$ and Cantor space $2^\mathbb{N}$ are Borel isomorphic. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $E \subseteq \mathbf{2}^\mathbb{N}$ be the set of $(0, 1)$-sequences that are eventually constant. Then 
+
+$$f(a_1, a_2, \ldots) = \sum_n \frac{a_n}{2^n}$$ 
+
+maps $2^\mathbb{N} \backslash E$ homeomorphically onto the space of non-(dyadic rational) numbers in $[0, 1]$. Pick any bijection $g: E \to \{dyadic\; rationals\}$. Then the union of $f$ and $g$ defines a Borel isomorphism $h: \mathbf{2}^\mathbb{N} \to [0, 1]$. 
+=-- 
+
++-- {: .num_prop #subset} 
+###### Proposition 
+Any Polish space $X$ is Borel isomorphic to a Borel subset of Cantor space. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+There is a sequence of maps 
+
+$$X \hookrightarrow [0, 1]^\mathbb{N} \stackrel{h^\mathbb{N}}{\to} (\mathbf{2}^{\mathbb{N}})^\mathbb{N} \stackrel{j}{\to} \mathbf{2}^\mathbb{N}$$ 
+
+where the first map is an inclusion of a $G_\delta$ set, the second is induced from a Borel isomorphism $h$, and the third is a homeomorphism. 
+=-- 
+
++-- {: .num_theorem #Borel} 
+###### Theorem 
+Any two Polish spaces of the same cardinality are Borel isomorphic. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+It suffices to prove this for uncountable Polish spaces (which have continuum cardinality, as we saw in Corollary \ref{CH}). We show that any such $X$ is Borel isomorphic to Cantor space. By Lemma \ref{subset}, we have an inclusion $i: X \to \mathbf{2}^{\mathbb{N}}$ which maps $X$ Borel isomorphically onto its image, and by Proposition \ref{cantor}, we have an inclusion $j: \mathbf{2}^{\mathbb{N}} \to X$ that maps Cantor space Borel isomorphically (even homeomorphically) onto its image. The rest is just a matter of checking that the 
+proof of the [[Cantor-Schroeder-Bernstein theorem]] applies in this Borel context. 
+
+Indeed, consider the usual back-and-forth argument which introduces descending sequences $X = X_0 \supseteq X_1 \subseteq \ldots$ and $\mathbf{2}^{\mathbb{N}} = Y_0 \supseteq Y_1 \supseteq \ldots$ where $X_{n+1} \coloneqq j(i(X_n))$ and $Y_{n+1} = i(j(Y_n))$. As $i^{-1}$ and $j^{-1}$ are Borel on their domains, it follows that these iterated images are Borel sets, as are the intersections $X_\infty = \bigcap_n X_n$ and $Y_\infty = \bigcap_n Y_n$. Then the map $h: X_0 \to Y_0$ defined by 
+
+$$\array{
+h(x) & = & i(x) & if \; x \in X_{2 n} \backslash X_{2 n + 1}\; for\; some\; n,\; or \; x \in X_\infty \\
+ & = & j^{-1}(x) & if \; x \in X_{2 n + 1} \backslash X_{2 n + 2}\; for\; some\; n
+}$$ 
+
+is a Borel isomorphism. 
+=-- 
+
+For another proof, see theorem 3.1.1 of [Berberian](#Ber). 
 
 ##References##
 
 * [Blog discussion](http://golem.ph.utexas.edu/category/2008/08/polish_spaces.html) 
+
+* David Marker, _Descriptive Set Theory_, UIC Course Notes (Fall 2002) ([pdf](http://homepages.math.uic.edu/~marker/math512/dst.pdf)) 
+
+* S.K. Berberian, _Borel spaces_, ([pdf](https://www.ma.utexas.edu/mp_arc/c/02/02-156.pdf)) 
+{#Ber} 
   
