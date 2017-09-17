@@ -66,6 +66,7 @@ is called the **cyclic homology** of $A$.
 
 ## References
 
+* [[Boris Tsygan]], [[Boris Feigin]],  _Additive K-theory_, in LNM 1289 (1987), edited by Yu. I. Manin, pp. 67--209, seminar 1984-1986 in Moscow), [MR89a:18017](http://www.ams.org/mathscinet-getitem?mr=923136)
 
 * [[J-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. 301, Springer 2nd ed.
 
