@@ -72,11 +72,11 @@ $$ \mathrm{d}x^I = \mathrm{d}x^{I_1} \wedge \cdots \wedge \mathrm{d}x^{I_p} $$
 (for $p$ the length of the list $I$) is simply an abbreviation.  For a $p$-form, there are $\left(n \atop p\right)$ terms that appear.
 
 
-### Twisted and vector-valued forms
+### Twisted and vector-valued forms {#twisted}
 
 Recall that a differential form on $X$ is a section of the exterior algebra of the cotangent bundle over $X$; call this bundle $\Lambda$.  Then given any [[vector bundle]] $V$ over $X$, a __$V$-valued form__ on $X$ is a section of the vector bundle $V \otimes \Lambda$.  The wedge product of a $V$-valued form and a $V'$-valued form is a $(V \otimes V')$-valued form, but if there is a commonly used multiplication map $V \otimes V' \to W$, then we may think of their wedge product as a $W$-valued form.
 
-Of particular importance are $L$-valued forms when $L$ is a [[line bundle]]; these are also called __$L$-twisted forms__.  In local coordinates, a twisted form looks just like an ordinary form, once you choose a nonzero vector in $L$ as a basis.  Therefore, they can seem sneaky and confusing sometimes when you realise that they do not behave in the same way!
+Of particular importance are $L$-valued forms when $L$ is a [[line bundle]]; these are also called __$L$-twisted forms__.  (Compare the notion of [[twisted form]] in a more general context.)  In local coordinates, a twisted form looks just like an ordinary form, once you choose a nonzero vector in $L$ as a basis.  Therefore, they can seem sneaky and confusing sometimes when you realise that they do not behave in the same way!
 
 Let $\Psi$ be the [[pseudoscalar]] bundle; that is, a section of $\Psi$ (a pseudoscalar field) is given locally by a simple [[scalar]] field (a real-valued function) for each [[orientation]] of a local patch, with opposite orientations giving oppositely-signed scalars.  A __pseudoform__ is a $\Psi$-twisted form.
 
@@ -84,7 +84,8 @@ On an $n$-dimensional manifold $X$, the space $\Omega^n(X)$ of $n$-forms is itse
 
 Given any real number $w$, there is a line bundle called the line bundle of $w$-[[weighted representation|weighted]] scalars; a form twisted by this line bundle is a __$w$-weighted form__.  Note that a $0$-weighted form is just an ordinary form; also, an $n$-pseudoform turns out to be equivalent to a $1$-weighted $0$-form.  (And thus a densitised form is equivalent to a $1$-weighted pseudoform.)
 
-The line bundle of $n$-pseudoforms (that is of $1$-weighted $0$-forms) is the [[absolute value]] of the line bundle of $n$-forms (that is of densitised $0$-forms), so we may take the absolute value of one of either and get one of the latter.
+The line bundle of $n$-pseudoforms (that is of $1$-weighted $0$-forms) is the [[absolute value]] of the line bundle of $n$-forms (that is of densitised $0$-forms), so we may take the absolute value of one of either and get one of the latter.  (Similarly, the line bundle of $0$-forms is the absolute value of the line bundle of pseudo-$0$-forms; that is, the trivial bundle is the absolute value of the pseudoscalar bundle.)
+
 
 ### As smooth functors on $n$-paths
 
