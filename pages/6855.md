@@ -1,1 +1,15 @@
-Acetintomphen
++-- {: .num_defn }
+###### Definition
+**(diagonal)**
+
+For $X_{\bullet,\bullet}$ a [[bisimplicial set]], its **diagonal** is the simplicial set that this the precomposition with $(Id, Id) : \Delta^{op} \to \Delta^{op} \times \Delta^{op}$, i.e. the simplicial set with components.
+
+$$
+  d(X)_n = X_{n,n}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn }
