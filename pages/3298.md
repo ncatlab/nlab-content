@@ -496,9 +496,7 @@ We consider in detail the classical case of Hochschild (co)homology of an [[asso
 
 This section focuses on exposition. The formal context in which the constructions considered here follow from first principles is discussed below in [Higher order Hochschild homology modeled on cdg-algebras](#OvercdgAlgs)
 
-#### The simplicial circle algebra {#SimplicialCircleAlgebra}
-
-In this section we construct the simplicial algebra of $k$-valued functions on the circle $S^1 \cdot k$, disccuss how this is the same as functions on the [[odd line]] $k^{0|1}$ and how therefore for every algebra $A$ we have that the [[copowering]] $S^1 \cdot A$ is canonically equipped with a [[differential]] on its [[homology]]. How this $S^1 \cdot A$ is explicitly the Hochschild complex of $A$ is then discussed in the [next section](#TensoringWithSimplicialCircleAlgebra).
+#### The simplicial circle {#SimplicialCircleAlgebra}
 
 We shall use two different equivalent models of the circle in $\infty Grpd$ in terms of models in $sSet$:
 
@@ -550,91 +548,9 @@ We shall use two different equivalent models of the circle in $\infty Grpd$ in t
       \,.
    $$
 
-Let $k$ be a [[field]].
 
-+-- {: .un_prop}
-###### Proposition
-
-Under the [[monoidal Dold-Kan correspondence]] the free simplicial algebras $(\Delta[1]/\partial \Delta[1]) \cdot k $ identifies with the [[ring of dual numbers]] over $k$ equipped with the trivial differential
-
-$$
-  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
-  \simeq
-  (k \oplus k \langle\epsilon\rangle, d = 0)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the above description of $\Delta[1]/\partial \Delta[1]$ the only two nondegenerate elements are the unique 0-vertex and the generating 1-cell. Accordingly the [[normalized chain complex]] is
-
-$$
-  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
-  =
-  (\cdots \to 0 \to 0 \to k \stackrel{0}{\to} k)
-  \,. 
-$$
-
-This already gives the claim by degree counting. One can also check explicitly that the product given by the [[Eilenberg-Zilber map]]
-
-$$
-  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
-  \otimes_k
-  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
-  \stackrel{\nabla}{\to}
-  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k \otimes 
-  (\Delta[1]/\partial \Delta[1]) \cdot k)
-  \to 
-  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
-$$
-
-is that of the ring of dual numbers.
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-This is the [[singular homology]] of the circle
-
-$$
-  N_\bullet((\Delta[1]/\partial \Delta[1]) \cdot k)
-  \simeq
-  H_\bullet(S^1, k)
-  \,.
-$$
-
-=--
-
-+-- {: .un_corollary}
-###### Corollary
-
-We have also
-
-$$
-  (\mathbf{B}\mathbb{Z}) \cdot k
-  \simeq
-  (k \oplus k \epsilon, d = 0)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The simplicial/dg $k$-algebra $k$ is clearly cofibrant. 
-Therefore by the [[pushout-product axiom]] of the [[copowering]] operation in a [[simplicial model category]] the functor $(-) \cdot k$ preserves acyclic cofibrations and hence by the [[factorization lemma]] all weak equivalences between cofibrant objects, hence between all simplicial sets.
-
-=--
-
-
-
-
-#### Tensoring with the simplicial circle algebra {#TensoringWithSimplicialCircleAlgebra}
+#### Tensoring with the simplicial circle
+{#TensoringWithSimplicialCircleAlgebra}
 
 Let $A \in CAlg_k$ be a commutative [[associative algebra]] over a commutative [[ring]] $k$.
 
@@ -753,21 +669,8 @@ is the morphism between [[tensor power]]s of $A$ of the cardinalities of $S$ and
 
 =--
 
-Also notice that
 
-+-- {: .un_cor}
-###### Proposition
-
-$$
-  K \cdot A
-  \simeq
-  (K \cdot k) \otimes_k A
-  \,.
-$$
-
-=--
-
-So we see that in low degree the simplicial algebra $(\Delta[1]/\partial \Delta[1]) \cdot A$ has the components 
+We see that in low degree the simplicial algebra $(\Delta[1]/\partial \Delta[1]) \cdot A$ has the components 
 
 $$
   \array{
@@ -1824,17 +1727,17 @@ $$
 
 #### The cotangent complex as functions on the derived loop space
 
-Along the lines discussed above we have
 
 +-- {: .un_prop}
-###### Claim
+###### Proposition
 
 There is an isomorphism
 
 $$
   \mathcal{O}(S^1) \simeq k \oplus k[-1]
-  \,.
 $$
+
+in $cdgAlg_k$.
 
 =--
 
