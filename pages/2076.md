@@ -4,7 +4,7 @@ This is about a famous theorem from
 
   >_Zoran_: a file with my few years old English translation will be posted and linked in few days or weeks
 
-relating [[descent]] via [[Grothendieck fibration|fibered categories]] to [[monadic descent]]. There has been some historical discussion on this in the category list; Zoran's response is [here](http://mathlight.wordpress.com/2010/01/07/becks-theorem-vs-benabou-roubaud).
+relating [[descent]] via [[Grothendieck fibration|fibered categories]] (as in [[SGA I]] or [[FGA explained]]) to [[monadic descent]]. There has been some historical discussion on this in the category list; Zoran's response is [here](http://mathlight.wordpress.com/2010/01/07/becks-theorem-vs-benabou-roubaud).
 
 #Contents#
 * automatic table of contennts goes here
