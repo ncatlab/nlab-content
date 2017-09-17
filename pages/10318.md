@@ -66,8 +66,20 @@ So far this says that a physical phase space is mathematically formalized
 by a sufficiently [[smooth manifold]] $X$ which is equipped with a closed
 and non-degenerate [[differential 2-form]] $\omega  \in \Omega^2_{\mathrm{cl}}(X)$, hence by a [[symplectic manifold]] $(X,\omega)$.
 
-But if the [[mechanical system]], and hence the [[differential equations]]
-that describe it, is subject to [[constraints]], then the full [[phase space]] is [[foliation|foliated]] by unconstrained phase spaces in the above sense and so the  above surface element may be any closed 2-form, not necessarily non-degenerate. This is a _[[pre-symplectic manifold]]_ $(X,\omega)$ and this is the generality considered in the following discussion: a _[[phase space]]_ is a _[[pre-symplectic manifold|pre-symplectic]] [[smooth manifold]]_.
+
+The non-degeneracy of a symplectic form encodes the special property
+(as we will make explicit below)
+that (time) evolution of coordinates and momenta is uniquely
+induced by an [[action functional]]/[[Hamiltonian]] generating the evolution. This is however famously not the case for systems with _[[gauge equivalences]]_, hence such systems which have configurations that are nominally different but nevertheless physically equivalent. Presence of such  gauge equivalences is not the exception,
+but the rule for physical systems, and therefore we want to include this case.
+
+In the presence of gauge equivalences, the phase space form
+$\omega$ is still a closed differential 2-form, it just need not be 
+non-degenerate anymore. While in such a case the pair $(X,\omega)$
+could just be called a _smooth manifold equipped with a closed differential 2-form}_, it is traditional to call this a 
+_[[pre-symplectic manifold]]_ in order to amplify the indented use as a model for phase spaces. (Some authors demand that a pre-symplectic form be a closed form with constant
+rank, but here this technical condition will not be relevant and will not be considered.)
+
 
 
 
