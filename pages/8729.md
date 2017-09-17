@@ -39,7 +39,7 @@ A _sylleptic 3-group_ is a [[3-group]] eqipped with the following equivalent [[s
 ## Related concepts
 
 
-* [[∞-groupd]], [[k-tuply groupal n-groupoid]]
+* [[∞-group]], [[k-tuply groupal n-groupoid]]
 
 * [[braided ∞-group]],
 
