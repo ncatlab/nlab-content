@@ -1703,7 +1703,7 @@ If $k$ is a [[field]] and $R$ a commutative $k$-[[algebra]] which is
 
 * essentially of finite type 
 
-* smooth over $R$
+* smooth over $k$
 
 then there is an [[isomorphism]] of graded $R$-algebras
 
