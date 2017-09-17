@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Symplectic geometry
+#### Higher symplectic geometry
 +--{: .hide}
 [[!include symplectic geometry - contents]]
 =--
@@ -34,6 +34,8 @@ As symplectic geometry naturally describes [[classical mechanics]] and, via [[ge
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
+
+* [[Nambu mechanics]]
 
 ## References
 
