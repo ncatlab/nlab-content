@@ -48,7 +48,7 @@ But everything must stop somewhere; it does not cover [[complex analysis]].
 30. Initial Value Problems
 
 
-category: reference
+category: reference, analysis
 
 [[!redirects HAF]]
 [[!redirects Handbook of analysis and its foundations]]
