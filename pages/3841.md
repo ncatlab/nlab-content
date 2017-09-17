@@ -67,11 +67,7 @@ In the absence of the axiom of choice, it is not clear that there exist arbitrar
 
 * $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and ${|\mathbb{N}|} = \aleph_0 \lt\aleph_\omega$.
 
-* More generally, any limit cardinal that can be "written down by hand" must be singular, since if it were regular then it would be [[weakly inaccessible cardinal|weakly inaccessible]], and the existence of weakly inaccessible cardinals cannot be proven in [[ZFC]] (if $ZFC$ is consistent).
-
-  +-- {: .query}
-  Is this really true?  Is it possible that one can 'write down by hand' a cardinal such that it is undecidable in $ZFC$ whether it is regular?  ---Toby
-  =--
+* More generally, any limit cardinal that can be "written down by hand" should be singular, since if it were regular then it would be [[weakly inaccessible cardinal|weakly inaccessible]], and the existence of weakly inaccessible cardinals cannot be proven in [[ZFC]] (if $ZFC$ is consistent).  We say 'should' rather than 'must', since there are exceptions, but they are sort of cheating: one (definable with Choice) is 'the smallest limit cardinal that is regular if and only if some weakly innaccessible cardinal exists'.
 
 
 [[!redirects regular cardinal]]
