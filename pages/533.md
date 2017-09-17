@@ -34,6 +34,247 @@ The [[category]] $n Cat$ of strict $n$-categories and [[n-functors]] between the
 
 The category $Str\omega Cat$ of strict $\omega$-categories can then in turn be defined as a suitable [[colimit]] of the categories $n Cat$.
 
+## Properties
+
++-- {: .num_defn #GauntStrictNCategories}
+###### Definition
+
+Write $Str n Cat$ for the 1-[[category]] of [[strict n-categories]]. 
+
+Write
+
+$$
+  Str n Cat_{gaunt} \hookrightarrow  Str n Cat
+$$ 
+
+for the [[full subcategory]] on the _gaunt $n$-categories_, those $n$-categories whose only invertible [[k-morphisms]] are the identities.
+
+=--
+
+This subcategory was considered in ([Rezk](#Rezk)). The term "gaunt" is due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)). See prop. \ref{GauntIs0Truncated} below for a characterization intrinsic to $(\infty,n)$-categories.
+
++-- {: .num_example #Globes}
+###### Example
+
+For $k \leq n $ the $k$-[[globe]] is gaunt, $G_k \in Str n Cat_{gaunt} \hookrightarrow \in Str n Cat$.
+
+Write
+
+$$
+  \mathbb{G}_{\leq n} \hookrightarrow Str n Cat_{gaunt}
+$$
+
+for the [[full subcategory]] of the [[globe category]] on the $k$-globes for $k \leq n$.
+
+Being a [[subobject]] of a gaunt $n$-category, also the [[boundary]] of a globe $\partial G_k \hookrightarrow G_k$ is gaunt, i.e. the $(k-1)$-[[skeleton]] of $G_k$.
+
+=--
+
++-- {: .num_defn #Suspension}
+###### Definition
+
+Write 
+
+$$
+  \sigma_k : Str (k) Cat \to Str (k+1) Cat
+$$
+
+for the "categorical suspension" functor which sends a strict $k$-category to the object $\sigma(X) \in Str (k+1) Cat \simeq (Str k Cat)Cat$ which has precisely two objects $a$ and $b$, has $\sigma(C)(a,a) = \{id_a\}$, $\sigma(C)(b,b) = \{id_b\}$, $\sigma(C)(b,a) = \emptyset$ and 
+
+$$
+  \sigma(C)(a,b) = C
+  \,.
+$$
+
+=--
+
+We usually suppress the subscript $k$ and write $\sigma^i = \sigma_{k+i} \circ \cdots \circ \sigma_{k+1} \circ \sigma_k$, etc.
+
++-- {: .num_example }
+###### Example
+
+The $k$-[[globe]] $G_k$ is the $k$-fold suspension of the 0-globe (the point)
+
+$$
+  G_k = \sigma^k(G_0)
+  \,.
+$$
+
+The [[boundary]] $\partial G_k$ of the $k$-globe is the $k$-fold suspension of the
+empty category
+
+$$
+  \partial G_k = \sigma^k(\emptyset)
+  \,.
+$$
+
+Accordingly, the boundary inclusion $\partial G_k \hookrightarrow G_k$ is the $k$-fold suspension of the initial morphism $\emptyset \to G_0$
+
+$$
+  (\partial G_k \hookrightarrow G_k) = \sigma^k(\emptyset \to G_0)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The category $Str n Cat_{gaunt}$ is a [[locally presentable category]] and in fact a [[locally finitely presentable category]].
+
+=--
+
+([B-PS, lemma 3.5](#BarwickSchommerPries))
+
+
++-- {: .num_remark }
+###### Observation
+
+For $A,B$ two categories, a [[profunctor]] $A^{op} \times B \to Set$
+is equivalently a functor $K \to G_1$ equipped with an identification
+$A \simeq K_0$ and $B \simeq K_1$.
+
+=--
+
+This motivates the following definition.
+
++-- {: .num_defn }
+###### Definition
+
+A _$k$-profunctor_ / $k$-correspondence of strict $n$-categories is a morphism
+$K \to G_k$ in $Str n Cat$. The category of $k$-correspondences is the [[slice category]] $Str n Cat/ G_k$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+The categories  $Str n Cat_{gaunt}/G_k$ of $k$-correspondences between gaunt $n$-categories are [[cartesian closed category]].
+
+=--
+
+([B-SP, cor. 5.4](#BarwickSchommerPries))
+
+
+
++-- {: .num_remark}
+###### Remark
+
+By standard facts, in a [[locally presentable category]] $\mathcal{C}$ with [[finite limits]], a [[slice category|slice]] $\mathcal{C}/X$ is cartesian closed precisely if [[pullback]] along all morphisms $f : Y \to X$ with codomain $X$ preserves [[colimits]] (see at _[[locally cartesian closed category]]_ the section _[Cartesian closure in terms of base change and dependent product](locally%20cartesian%20closed%20category#EquivalentCharacterizations)_).
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Without the restriction that the codomain of $f$ in the above is a [[globe]], the pullback $f^*$ in $Str n Cat$ will in general fail to preserves colimits. For a simple example of this, consider the [[pushout]] diagram in [[Cat]] $\hookrightarrow Cat_{(\infty,1)}$ given by
+
+$$
+  \array{
+     \Delta[0] &\stackrel{\delta_1}{\to}& \Delta[1]
+     \\
+     {}^{\mathllap{\delta_0}}\downarrow && \downarrow^{\mathrlap{\delta_0}}
+     \\
+     \Delta[1] &\stackrel{\delta_2}{\to}& \Delta[2]
+  }
+  \,.
+$$
+
+Notice that this is indeed also a [[homotopy pushout]]/[[(∞,1)-pushout]] since, by remark \ref{GauntIs0Truncted}, all objects involved are 0-truncated.
+
+Regard this canonically as a pushout diagram in the [[slice category]] $Cat_{/\Delta[2]}$ and consider then the pullback $\delta_1^* : Cat_{/\Delta[1]} \to Cat_{/\Delta[1]}$ along the remaining face $\delta_1 : \Delta[1] \to \Delta[2]$. This yields the diagram
+
+$$
+  \array{
+     \emptyset &\stackrel{}{\to}& \emptyset
+     \\
+     {}^{}\downarrow && \downarrow^{}
+     \\
+     \emptyset &\stackrel{}{\to}& \Delta[1]
+  }
+  \,,
+$$
+
+which evidently no longer is a pushout.
+
+=--
+
+(See also the discussion [here](http://golem.ph.utexas.edu/category/2011/11/the_1category_of_ncategories.html#c040335)).
+
+
++-- {: .num_defn #nCatGen}
+###### Definition
+
+Write
+
+$$
+  Str n Cat_{gen} \hookrightarrow Str n Cat_{gaunt}
+$$
+
+for the smallest [[full subcategory]] that 
+
+1. contains the [[globe category]] $\mathbb{G}_{\leq n}$, example \ref{Globes};
+1. is closed under [[retracts]] in $Str n Cat_{gaunt}$; 
+1. has all [[fiber products]] over [[globes]] (equivalently: such that all [[slice categories]] over globes have [[products]]).
+
+=--
+
+([B-SP, def. 5.6](#BarwickSchommerPries))
+
++-- {: .num_example }
+###### Example
+
+The following categories are naturally [[full subcategories]] of $Str n Cat_{gen}$
+
+* the $n$-fold [[simplex category]] $\Delta^{\times n}$;
+
+* the $n$th [[Theta-category]].
+
+=--
+
+This is discussed in more detail in [[(infinity,n)-category]]  in _[Presentation by Theta-spaces and by n-fold Segal spaces]((infinity,n)-category#PresentationByThetaSpaces)_.
+
++-- {: .num_defn #FundamentalPushouts}
+###### Definition
+
+The following [[pushouts]] in $Str n Cat$ we call the **fundamental pushouts** 
+
+1. Gluing two $k$-[[globes]] along their [[boundary]] gives the boundary of the $(k+1)$-globle
+
+   $$G_k \coprod_{\partial C_{k-1}} G_k \simeq \partial G_{k+1}$$
+
+1. Gluing two $k$-globes along an $i$-face gives a [[pasting]] composition of the two globles
+
+   $$G_k \coprod_{G_i} G_k $$
+
+1. The [[fiber product]] of globes along non-degenerate morphisms $G_{i+j} \to G_i$ and $G_{i+k} \to G_i$ is built from gluing of globes by
+
+   $$
+     G_{i+j} \times_{G_i} G_{i+k}
+     \simeq
+     (G_{i+j} \coprod_{G_i} G_{i+k}) \coprod_{\sigma^{i+1}(G_{j-1} \times G_{k-1})} (G_{i+k} \coprod_{G_i} G_{i+j})
+   $$
+
+1. The [[interval groupoid]] $(a \stackrel{\simeq}{\to} b)$ is obtained by forcing in $\Delta[3]$ the morphisms $(0\to 2)$ and $(1 \to 3)$ to be identities and it is equivalent, as an $n$-category, to the 0-globe
+
+   $ \Delta[3] \coprod_{\{0,2\} \coprod \{1,3\}} (\Delta[0] \coprod \Delta[0])
+   \stackrel{\sim}{\to} G_0$
+
+   and the analog is true for all suspensions of this relation
+
+   $$ 
+     \sigma^k(\Delta[3]) \coprod_{\sigma^k\{0,2\} \coprod \sigma^k\{1,3\}} (G_k\coprod G_k)
+     \stackrel{\sim}{\to} G_k
+     \,.
+   $$
+
+We say a functor $i$ on $Str n Cat$ _preserves_ the fundamental pushouts if it preserves the first three classes of pushouts, and if for the last one the morphism
+$i(\sigma^k(\Delta[3])) \coprod_{i(\sigma^k\{0,2\}) \coprod i(\sigma^k\{1,3\})} (i(G_k \coprod G_k)) \to i(G_k)$ is an equivalence.
+
+=--
+
+
 ## Examples
 
 A strict 1-category is just a [[category]].  
@@ -46,7 +287,13 @@ A strict 1-category is just a [[category]].
 
 ## References
 
-With an eye towards the generalization to [[(∞,n)-categories]], strict $n$-categories are discussed in section 2 of 
+With an eye towards the generalization to [[(∞,n)-categories]], strict $n$-categories are discussed in 
+
+* [[Charles Rezk]], _A cartesian presentation of weak n-categories_ ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
+ {#Rezk}
+
+
+and in section 2 of 
 
 * [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([pdf](http://arxiv.org/abs/1112.0040), [unusual slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
  {#BarwickSchommerPries}
