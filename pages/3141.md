@@ -106,11 +106,12 @@ Because by the [[(∞,1)-Grothendieck construction]]
 
 ## References
 
-The $(\infty,1)$-category theortic notion ("correspondence") is the topic of section 2.3.1 of
+The $(\infty,1)$-category theoretic notion ("correspondence") is the topic of section 2.3.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 {#Lurie}
 
+See Ross Street's post in category-list 2009, [Re: pasting along an adjunction](http://article.gmane.org/gmane.science.mathematics.categories/255/match=).
 
 [[!redirects collage]]
 [[!redirects collages]]
