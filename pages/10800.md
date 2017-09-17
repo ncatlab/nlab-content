@@ -56,9 +56,45 @@ e.g. section 3 [here](http://wiki.epfl.ch/gant/).
 +-- {: .num_defn }
 ###### Definition
 
-The [[group of units]] of the ring of adeles is called the _group of ideles_.
+The [[group of units]] of the ring of adeles is called the _group of ideles_
+
+$$
+  \mathbb{I} \coloneqq GL_1(\mathbb{A}) = \mathbb{A}^\times
+  \,.
+$$
 
 =--
+
+The same definition holds for the [[[ring of adeles]] of any other [[global field]] $K$, here one writes
+
+$$
+  \mathbb{I}_K \coloneqq GL_1(\mathbb{A}_K)
+$$
+
+or similar.
+
++-- {: .num_defn }
+###### Definition
+
+The [[quotient]]
+
+$$
+  K^\times \backslash \mathbb{I}_K
+  =
+  GL_1(K)\backslash GL_1(\mathbb{A}_K)
+$$
+
+is called the _idele class group_ of $K$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The idele class group appears prominently in the description of the [moduli space of line bundles](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) over the [[arithmetic curve]] on which $K$ is the [[rational functions]]. From there it appears in the abelian [[Langlands correspondence]] and in the abelian case of [[Tamagawa measures]].
+
+=--
+
 
 ## Properties
 
@@ -95,3 +131,6 @@ Discussion in the context of the [[geometric Langlands correspondence]] is in
 
 [[!redirects idele]]
 [[!redirects ideles]]
+
+[[!redirects idele class group]]
+[[!redirects idele class groups]]
