@@ -1,20 +1,21 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-A [[group]] $G$ is called **divisible** if for every [[integer]] $n$ we have that for every element $g \in G$ there is an element $h \in G$ such that
+A [[group]] $G$ (written additively, often assumed [[abelian group|abelian]]) is called **divisible** if for every [[integer]] $n$ we have that for every element $g \in G$ there is an element $h \in G$ such that
 
 $$
-  g = n \times h := (h \cdot h \cdot \cdots \cdot h)
+  g = n \times h \coloneqq (h + h + \cdots + h)
   \,,
 $$
 
-where on the right we have $n$ factors.
+where on the right we have $n$ summands.
 
-For $p$ a [[prime number]] an [[abelian group]] is **$p$-divisible** if the above formula holds for all $n = p^k$ for all $k \in \mathbb{N}$.
+For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula holds for all $n$ of the form $p^k$ for $k \in \mathbb{N}$.
+
 
 ## Examples
 
