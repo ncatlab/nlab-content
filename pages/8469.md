@@ -103,6 +103,7 @@ The [[predicative topos]] formed by Bishop sets in type theory is discussed in
 
 * [[UF-IAS-2012]], _On the setoid model of type theory_ ([video](http://video.ias.edu/univalent/palmgren))
 
+* [[UF-IAS-2012]], _[Setoid model of type theory formalized](http://uf-ias-2012.wikispaces.com/Setoid+model+of+type+theory+formalized)_
 
 [[!redirects Bishop set]]
 [[!redirects Bishop sets]]
