@@ -823,11 +823,13 @@ $$
 
 (definition 7.2.2.14).
 
-
-
 Another reference with a  discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial object]]s, is
 
 * [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
+
+For more on the pre-history of the notion of cohomology see 
+
+* MO entry, <a href="http://mathoverflow.net/questions/39597/timeline-of-cohomology-1935-to-1938">Timeline of cohomology (1935 to 1938)</a>
 
 
 
