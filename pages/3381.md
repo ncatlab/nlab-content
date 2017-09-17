@@ -13,6 +13,12 @@ The [[group]] of permutations of $X$ (that is the [[automorphism group]] of $X$ 
 
 In [[combinatorics]], one often wants a slight generalisation.  Given a [[natural number]] $r$, an __$r$-permutation__ from $X$ is an [[injective function]] from $[r]$ to $X$, that is a [[list]] of $r$ distinct elements of $X$.  Then an $n$-permutation from $[n]$ is the same as a permutation of $[n]$.  (That an injective function from $X$ to itself must be invertible characterises $X$ as a [[Dedekind-finite set]].)
 
+## Properties
+
+### Relation to the field with one element
+
+One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
+
 ## Related entries
 
 * [[signature of a permutation]]
