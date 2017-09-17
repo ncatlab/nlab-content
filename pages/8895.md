@@ -110,6 +110,12 @@ $$
 
 =--
 
+## Related concepts
+
+* [[semi-category]]
+
+* [[semi-simplicial object]]
+
 ## References
 
 The notion is mentioned in 
