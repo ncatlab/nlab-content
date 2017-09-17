@@ -376,7 +376,7 @@ X&\cong&S^{\Delta^1}_f &\to &Y^{\Delta^1}&\to& S^{\Delta^1}&
 
 
 {#anchor1} Here is anchor point number 1!
-
+$\mathcal{M}$
 a
 
 a
