@@ -17,7 +17,7 @@
 
 The _category of elements_ of a [[functor]] $F : C \to $ [[Set]] is a [[category]] $el(F) \to C$ sitting over the [[domain]] [[category]] $C$, such that the [[fiber]] over an [[object]] $c \in C$ is the set $F(c)$. 
 
-This is a special case of the [[Grothendieck construction]].
+This is a special case of the [[Grothendieck construction]], by considering sets as discrete categories.
 
 We may think of [[Set]] as the [[classifying space]] of "[[Set]]-bundles;" see [[generalized universal bundle]].  The category of elements of $F$ is, in this sense, the [[Set]]-bundle classified by $F$.  It comes equipped with a projection to $C$ which is a [[Grothendieck fibration|discrete fibration]], and provides an equivalence between presheaves and discrete fibrations.
 
@@ -101,10 +101,9 @@ In the case that $C = \mathbf{B}G$ is the [[delooping]] [[groupoid]] of a [[grou
 
 ## Related concepts
 
-* **category of elements**
-
 * [[Grothendieck construction]]
 
 * [[(∞,1)-Grothendieck construction]]
+
 
 [[!redirects Exploding a Category]]
