@@ -1,3 +1,4 @@
+[[!redirects (infinity,n)-vector space]]
 [[!redirects n-vector space]]
 
 
@@ -160,13 +161,17 @@ A _3-vector space_ according to def. \ref{nVectViaALgObjects} is
 
 * equipped with an $A$-$A\otimes A$-[[bimodule]] defining the 2-multiplication, and a left $A$-[[module]] defining the unit.
 
+Equivalently this is a [[sesquiunital sesquialgebra]].
+
 Classes of examples come from the following construction:
 
 * Every _commutative_ [[associative algebra]] $A$ becomes a 3-vector space.
 
 * Every [[Hopf algebra]] canonically becomes a 3-vector space.
 
-See ([FHLT, p. 27](#FHLT)).
+  See ([FHLT, p. 27](#FHLT)).
+
+  More generally: every [[hopfish algebra]].
 
 ## $n$-Representations
 
@@ -203,3 +208,10 @@ section 7 of
 [[!redirects (infinity,n)-vector space]]
 [[!redirects (∞,n)-vector spaces]]
 [[!redirects (infinity,n)-vector spaces]]
+
+[[!redirects 3-vector space]]
+[[!redirects 3-vector spaces]]
+
+[[!redirects 3-module]]
+[[!redirects 3-modules]]
+
