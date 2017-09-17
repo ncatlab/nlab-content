@@ -311,3 +311,8 @@ Geom. Topol. 7 (2003), 645--711 [journal](http://www.msp.warwick.ac.uk/gt/2003/0
 A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_, [section 5](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf#page=159)
+
+See also
+
+* Luis Pereira, _A general context for Goodwillie Calculus_ ([arXiv:1301.2832](http://arxiv.org/abs/1301.2832))
+
