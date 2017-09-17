@@ -218,6 +218,32 @@ If we are given a [[model category]] [[presentable (∞,1)-category|presentation
 
 ## Properties
 
+### Equivalent characterizations
+ {#EquivalentCharacterizations}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be an $(\infty,1)$-category incarnated explicitly as a [[quasi-category]]. Then a [[simplicial object in an (∞,1)-category|simplicial object in]] $\mathcal{C}$ is a groupoid object if the following equivalent conditions hold.
+
+1. If $K \to K'$ is a morphism in [[sSet]] which is a [[weak homotopy equivalence]] and a [[bijection]] on [[vertices]], then the induced morphism on [[slice-(∞,1)-categories]]
+
+   $$
+     \mathcal{C}_{/X[K]}
+     \to 
+     \mathcal{C}_{/X[K']}
+   $$
+
+   is an [[equivalence of (∞,1)-categories]] (a [[weak equivalence]] in the [[model structure for quasi-categories]]).
+
+1. For every $n \geq 2$ and every $0 \leq i \leq n$, the morphism $\mathcal{C}_{/X(\Delta^n)} \to \mathcal{C}_{/X(\Lambda^n_i)}$ is an weak equivalence in the [[model structure for quasi-categories]]
+
+1. (...)
+
+=--
+
+This is ([Lurie, prop. 6.1.2.6](#Lurie)).
+
 ### The $(\infty,1)$-category of groupoid objects
 
 +-- {: .num_prop}
