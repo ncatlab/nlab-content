@@ -48,13 +48,13 @@ where the top and bottom rows are [[exact sequences]]. For simplicity we denote 
 By the [[Freyd-Mitchell embedding theorem]]
 we can always assume that the abelian category is $R$[[Mod]] (though this requires the category to be [[small category|small]], one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the diagram chasing using elements in that setup. We prove only 1) as 2) is dual. 
 
-The proof of 1) is by contradiction. Suppose $f_3$ is not epi, hence there is $b\in B_3$ which is not in the image of $f_3$. Since $f_4$ is epi, one can choose an element $a_4\in A_4$ such that $f_4(a_4) = d(b)$. Now $$0 = d^2 b = d f_4 (a_4) = f_5 d (a_4)$. Since $f_5$ is monic that means that $d a_4 = 0$ as well. By the exactness of the upper row, that means there is $a_3\in A_3$ such that 
+Suppose $b\in B_3$. Since $f_4$ is epi, one can choose an element $a_4\in A_4$ such that $f_4(a_4) = d(b)$. Now $0 = d^2 b = d f_4 (a_4) = f_5 d (a_4)$. Since $f_5$ is monic that means that $d a_4 = 0$ as well. By the exactness of the upper row, that means there is $a_3\in A_3$ such that 
 $d a_3 = a_4$, hence also $d f_3 (a_3) = f_4 d (a_3) = f_4(a_4) = d
 b$. We would like that $f_3(a_3)$ be equal to $b$ but this is not so, we just see that $d (b-f_3(a_3)) = 0$ and hence by exactness  of the lower row there is $b'\in B_2$ such that $d b' = b-f_3(a_3)$. Since $f_2$ is also epi, there is $a_2\in A_2$ such that $f_2(a_2) = b'$. Now $d a_2+a_3\in A_3$ is such that 
 
 $$f_3 (d a_2 + a_3) = d f_2(a_2) + f_3(a_3) = d b' + f_3(a_3) = b - f_3(a_3) + f_3(a_3) = b$$ 
 
-with contradiction. 
+demonstrating that $b$ is in the image of $f_3$.
 
 =--
 
@@ -62,6 +62,11 @@ with contradiction.
 ###### Remark 
 The five lemma also holds in the category [[Grp]] of [[groups]], by essentially the same diagram-chasing proof. 
 =-- 
+
++-- {: .num_remark}
+###### Remark
+One can avoid appealing to the [[Freyd-Mitchell embedding theorem]] if one works with [[element in an abelian category|generalized elements]] or uses the device of [[internal logic|interpreting]] [[regular logic]] in the given abelian category. The former requires a bit of manual reformulation, while the latter is almost automatic, as the element-based proof given above only uses (constructive) regular reasoning.
+=--
 
 ## Short split five lemma
 
