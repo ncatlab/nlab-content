@@ -189,6 +189,10 @@ In the category of [[Banach spaces]] (with [[short linear maps]]), the direct su
 
 =--
 
+## Related concepts
+
+* [[direct sum of vector bundles]]/[[Whitney sum]]
+
 
 [[!redirects direct sum]]
 [[!redirects direct sums]]
