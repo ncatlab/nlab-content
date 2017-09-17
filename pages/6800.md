@@ -3,6 +3,7 @@
 
 |   [[brane]]    |    in [[supergravity]]          |[[charge]]d under [[gauge field]]|   has [[worldvolume]] theory
 |----------------|---------------------------------|---|-----------------------------------------
+|**[[black brane]]**|  [[supergravity]] | [[higher gauge field]] | [[SCFT]]
 |**[[D-brane]]** |[[type II supergravity|type II]]  |[[RR-field]]| [[super Yang-Mills theory]]
 |**$(D = 2n)$**  |[[type IIA supergravity|type IIA]]| $\,$ |         $\,$
 | [[D0-brane]]   |        $\,$                     | $\,$ |   [[BFSS matrix model]]
@@ -12,9 +13,10 @@
 | [[D1-brane]]   |        $\,$                     | $\,$ | 2d [[CFT]] with [[BH entropy]]
 | [[D3-brane]]   |        $\,$                     | $\,$ | [[N=4 D=4 super Yang-Mills theory]]
 | [[D5-brane]]   |        $\,$                     | $\,$ |          $\,$
+| [[D7-brane]]   |        $\,$                     | $\,$ |          $\,$
 |**[[NS-brane]]**|[[supergravity|type I, II, heterotic]]|[[circle n-bundle with connection|circle n-connection]] |          $\,$
 |  [[string]]    |           $\,$                  |[[B2-field]]|  [[2d SCFT]]
 | [[NS5-brane]]  |           $\,$                  |[[B6-field]] | [[little string theory]]
 |**[[M-brane]]** |[[11-dimensional supergravity|11D]]|[[circle n-bundle with connection|circle n-connection]]|           $\,$     
-| [[M2-brane]]   |           $\,$                  |[[C3-field]]|         [[ABJM theory]]
+| [[M2-brane]]   |           $\,$                  |[[C3-field]]|         [[ABJM theory]], [[BLG model]]
 | [[M5-brane]]   |           $\,$                  |[[C6-field]]| [[6d (2,0)-superconformal QFT]]
