@@ -35,7 +35,7 @@ Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] 
 
 * [[ind-object]] / [[ind-object in an (∞,1)-category]]
 
-* **pro-object**
+* **pro-object** / [[pro-object in an (∞,1)-category]]
 
 ## References
 
