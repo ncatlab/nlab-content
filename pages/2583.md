@@ -26,9 +26,9 @@ The _string 2-group_ is a [[smooth ∞-groupoid|smooth 2-group]]-refinement of t
 
 ## Definition
 
-The [[string group]] in [[Top]] is one step in the [[Whitehead tower]] of the [[orthogonal group]].
+Recall first that the [[string group]] in [[Top]] is one step in the [[Whitehead tower]] of the [[orthogonal group]].
 
-+-- {: .un_defn}
++-- {: .num_defn #AbstractDefinitionDiscrete}
 ###### Definition
 
 For $n \in \mathbb{N}$ let $Spin(n)$ denote the [[spin group]], regarded as a [[topological group]]. Write $B Spin(n) \in $ [[Top]] for its [[classifying space]] and 
@@ -74,7 +74,7 @@ $$
 
 for the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s, regarded as a [[cohesive (∞,1)-topos]] over [[∞Grpd]]. 
 
-+-- {: .un_prop}
++-- {: .num_prop #SmoothFractionalPontryaginClass}
 ###### Proposition
 
 There is a lift through $\Pi$ of $\frac{1}{2} p_1$ to the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth first fractional Pontryagin class</a>
@@ -103,7 +103,7 @@ in [[Smooth∞Grpd]], where
 This is shown in ([FSS](#FSS)).
 
 
-+-- {: .un_defn}
++-- {: .num_defn #AbstractDefinitionSmooth}
 ###### Definition
 
 Write $\mathbf{B}String(n)$ for the [[homotopy fiber]] of the smooth
@@ -132,14 +132,105 @@ is the [[∞-Lie group|smooth ∞-group]] called [[generalized the|the]] **smoot
 =--
 
 ## Properties
+ {#Properties}
 
-(...)
+Write
+
+$$
+  \vert - \vert := \vert\Pi(-)\vert :
+  Smooth \infty Grpd
+    \stackrel{\Pi}{\to}
+  \infty Grpd
+    \stackrel{\vert - \vert}{\to}
+  Top
+$$
+
+for the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Homotopy">intrinsic geometric realization</a> in [[Smooth∞Grpd]].
+
++-- {: .un_prop}
+###### Proposition
+
+The smooth string 2-group, def. \ref{AbstractDefinitionSmooth},
+indeed maps under $\vert-\vert$ to the topological string group:
+
+$$
+  \vert \mathbf{B}String(n) \vert
+  \simeq
+  B String(n)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucGeometricHomotopy">Smooth ∞-groupoi -- geometric homotopy</a> the action of $\Pi$ factors as $Smooth \infty Grpd \stackrel{i_!}{\to} ETop\infty Grpd \stackrel{\Pi_{ETop}}{\to} \infty Grpd$ and hence we may equivalently compute the geometric realization of the underlying  [[Euclidean-topological ∞-groupoid]]s 
+
+The statement we need to prove amounts to saying that $\Pi_{ETop}$ sends the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$ to the homtopy fiber of $\frac{1}{2}p_1$. 
+By <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#Cohomology">Euclidean-topological ∞-groupoid -- Cohomology</a> it does so on all morphisms that are presented by morphisms of [[good simplicial topological space]]s (that have degreewise [[good open cover]]s) of the form $X_\bullet \to \bar W G$, since on these [[geometric realization of simplicial topological spaces]] preserves homotopy fibers.
+
+Therefore the claim follows as soon as we exhibit an equivalence of the morphism $\frac{1}{2}\mathbf{p}_1$ from prop \ref{SmoothFractionalPontryaginClass} by a morphism of this form. 
+
+The standard presentation of $\mathbf{B}^3 U(1)$ already is of the form $\bar W (\Xi U(1)[2])$, where $\Xi : Ch_\bullet^+ \to sAb$ is the [[Dold-Kan correspondence]]. 
+
+The domain of the presentation of $\frac{1}{2}\mathbf{p}_1$ as given in 
+([FSS](#FSS)) is the [[Lie integration]] (see there) $\mathbf{cosk}_3 \exp(\mathfrak{so}(n))$ which sits by a global acyclic fibraton
+
+$$
+  \mathbf{cosk}_3 \exp(\mathfrak{so}(n)) \stackrel{\simeq}{\to}
+  \bar W Spin(n)
+$$
+
+over the degreewise finite dimensional simplicial smooth manifold $\bar W Spin$, but is not itself a degreewise finite dimensional simplicial manifold. 
+To obtain that, notice that we may always find (discussed at [[Lie group cohomology]]), a bisimplicial presheaf
+
+$$
+  [k] \mapsto C(U^{(k)}) \in [CartSp_{smooth}^{op}, sSet]
+$$
+
+that is in each degree $k$ the [[Cech nerve]] of a differentiably [[good open cover]] of $Spin(n)^{\times_{k}}$. Writing $\mathbf{\Delta} : \Delta \to sSet$ for the [[fat simplex]], it follows that
+
+$$
+  (\int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot C(U^{(k)}))
+   \stackrel{\simeq}{\to}
+  \bar W Spin(n)
+$$
+
+is a cofibrant [[resolution]] in $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ (details of this argument appear for instance in the proof of <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity-groupoid#StrucCohomology">this proposition</a>). By construction this is a degreewise finite [[dimension|dimensional]] [[smooth manifold]] (with countably many connected components, each isomorphic to a [[Cartesian space]]). 
+
+(Alternatively we could have simply applied the general formula for cofibrant replacement in the projective [[model structure on simplicial presheaves]], as discussed there, which yields a presentation that is degreewise an uncountable disjoint union of [[Cartesian space]]s. Or we could have used a well-adapted construction as in ([Schommer-Pries](#Schommer-Pries)) to obtain a finite dimensional model with finitely many components in each degree.  For the present purpose either choice is equally good.)
+
+Since this is cofibrant, there is a lift $\sigma$ in
+
+$$
+  \array{
+    & & \mathbf{cosk}_3 \exp(\mathfrak{so}(n)) 
+     &\stackrel{\exp(\mu)}{\to}&
+    \bar W \Xi U(1)[2]
+    \\
+    & {}^{\mathllap{\sigma}}\nearrow_{\mathrlap{\simeq}}
+   & \downarrow^{\mathrlap{\simeq}}
+    \\
+    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot C(U^{(k)})
+    &\stackrel{\simeq}{\to}&
+    \bar W Spin(n)
+  }
+  \,.
+$$
+
+Therefore the composite $\frac{1}{2} \mathbf{p}_1 \circ \sigma $ here is an equivalent presentation of $\frac{1}{2}\mathbf{p}_1$ and it is supported on good simplicial topological spaces.
+
+=--
+
 
 ## Presentations
 
-Several presentations of the string Lie 2-group are known.
+Several explicit presentations of the string Lie 2-group are known.
 
-### As an integration of the String Lie 2-algebra 
+> (to be expanded)
+
+### By Lie integration of the string Lie 2-algebra 
 
 The string Lie 2-group is the result of applying [[Lie integration]] to the [[String Lie 2-algebra]] for the case that the Lie algebra 3-cocycle this is  normalized so that its image as a left-invariant 3-form on the [[spin group]] is the image in [[deRham cohomology]] of the generator of the degree [[integral cohomology]] group $H^3(Spin(n), \mathbb{Z}) \simeq \mathbb{Z}$.
 
@@ -228,7 +319,7 @@ where
 
 ## Related concepts
 
-[[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]]
+[[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]]
 
 
 ## References
@@ -255,7 +346,7 @@ A realization of the string 2-group as a [[2-group]] in finite-dimensional [[smo
 
 A discussion as an [[∞-group]] object in [[Smooth∞Grpd]] and the realization of the smooth first fractional Pontryagin class is in
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes_ ([web](http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS))
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
 {#FSS}
 
 and in section 4.1 of 
