@@ -31,4 +31,5 @@ category: people
 
 [[!redirects Michael Barr]]
 [[!redirects Mike Barr]]
+[[!redirects M. Barr]]
 [[!redirects Barr]]
