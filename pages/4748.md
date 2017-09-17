@@ -670,7 +670,6 @@ based on
 * Jonathan Block, Aaron Smith, _A Riemann Hilbert correspondence for infinity local systems_ ([arXiv](http://arxiv.org/abs/0908.2843))
 {#BlockSmith}
 
-
 in turn based on constructions in
 
 * [[Kiyoshi Igusa]], _Iterated integrals of superconnections_ ([arXiv](http://arxiv.org/abs/0912.0249))
@@ -678,6 +677,6 @@ in turn based on constructions in
 
 Remarks on $\infty$-parallel transport in [[Top]] are in
 
-* [[Jim Stasheff]], _[[StasheffParallelTransportv01.pdf:file]]_
+* [[Jim Stasheff]], _[[StasheffParallelTransportv02.pdf:file]]_
 {#Stasheff}
 
