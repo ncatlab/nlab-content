@@ -19,7 +19,7 @@
 
 ### For topological spaces
 
-A __Postnikov system__ or __Postnikov tower__ of [[topological spaces]] ([[M M Postnikov]], 1951) is a sequence of [[path connected topological space|path connected]], [[pointed object|pointed]] [[topological spaces]] $X^{(n)}$, $n \geq 1$,
+A __Postnikov system__ or __Postnikov [[tower]]__ of [[topological spaces]] ([[M M Postnikov]], 1951) is a sequence of [[path connected topological space|path connected]], [[pointed object|pointed]] [[topological spaces]] $X^{(n)}$, $n \geq 1$,
 such that $\pi_r(X^{(n)})=0$ for $r \gt n$,
 together with a sequence $\pi_n$ of [[module]]s of the [[fundamental group]] $\pi_1(X^{(1)})$ of $X^{(1)}$ and
 [[fibration]]s $p_n : X^{(n+1)} \to X^{(n)}$ classified up to [[homotopy type]] by a specified cohomology class $k^{n+1} \in H^{n+1}(X^{(n)}, \pi_n)$. 
