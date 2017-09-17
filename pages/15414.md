@@ -18,10 +18,10 @@
 [[!redirects locally decidable object]]
 
 ##Idea
-Loosely speaking a _locally decidable topos_ is a topos that is locally akin to a [[Boolean topos]]. Whereas in the latter every object is decidable in a locally decidable topos every object is a quotient of a [[decidable object]]. This results in a reasonable approximation to the concept of 'being almost Boolean'.
+Loosely speaking a _locally decidable topos_ is a topos that is locally Boolean. Whereas in a [[Boolean topos]] every object is decidable, in a locally decidable topos every object is a quotient of a [[decidable object]]. This results in a reasonable approximation to the concept of 'being almost Boolean'.
 
 In Lawvere's approach to cohesion locally decidable toposes are one of the principal classes of **petit toposes** (Lawvere 1991).
-In the 1991 paper Lawvere also requires the discrete base topos $\mathcal{S}$ that he contrasts with the cohesive topos of spaces, to be locally decidable.[^fine]
+In the 1991 paper Lawvere also hypothesizes the discrete base topos $\mathcal{S}$ that he contrasts with the cohesive topos of spaces, to be locally decidable.[^fine]
 
 [^fine]: Lawvere uses the term 'QD'-topos ( _quotient of decidable_) for 'locally
 decidable topos' in this paper. He also uses 'SUD'-object (from _seperable-unramified-decidable_ to indicate equivalent concepts in algebra-topology-logic) for what we call a locally decidable object.
@@ -52,6 +52,8 @@ An object $X$ in a topos $\mathcal{E}$ is called _locally decidable_ (or, a _quo
 ##References
 
 * [[Peter Freyd]], _All topoi are localic - or, why permutation models prevail_ , JPAA **46** (1987) pp.49-58.
+
+* [[Peter Johnstone]], _Quotients of decidable objects in a topos_ , Math. Proc. Camb. Phil. Soc. **93** (1983) pp.409-419.
 
 * [[Peter Johnstone]], _How general is a generalized space?_ , London Math. Soc. LNS **93** (1985) pp.77-111.
 
