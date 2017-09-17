@@ -31,7 +31,7 @@ A _Weyl group_ is a [[group]] associated with a [[compact Lie group]] that can e
 Given a [[compact Lie group]] $G$ with chosen 
 [[maximal torus]] $T$, its __Weyl group__ $W(G)=W(G,T)$ is the [[group of automorphisms]] of $T$ which are restrictions of [[inner automorphisms]] of $G$. 
 
-This is the [[quotient group]] of the [[normalizer subgroup]] of $T \subste G$ by $T$
+This is the [[quotient group]] of the [[normalizer subgroup]] of $T \subset G$ by $T$
 
 $$
   W \simeq N_G(T)/T
