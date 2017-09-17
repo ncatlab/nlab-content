@@ -1,0 +1,12 @@
+Let $A:H\to H$  be an [[unbounded operator]] on a Hilbert space $H$. An unbounded operator $A^*$ is its __adjoint__ if
+
+* $(Ax|y) = (x|A^*y)$ for all $x\in dom(A)$, $y\in dom(A^*)$
+* every $B$ satisfying the above property for $A^*$ is a restriction of $A$
+
+An [[unbounded operator]] $A : H\to H$ on a Hilbert space $H$ is __self-adjoint__ if
+
+* it has a densely defined domain $dom(A)\subset H$
+* its adjoint $A^*$ equals $A$
+
+[[!redirects adjoint operator]]
+[[!redirects self-adjoint operators]]
