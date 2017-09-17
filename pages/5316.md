@@ -421,7 +421,7 @@ This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) disc
 
 Introductory lecture notes on the moduli space of elliptic curves over the [[complex numbers]] include
 
-* Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+* {#Hain08} Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
 * {#IntroOrbifolds} section 4 of _Introduction to Orbifolds_ ([[IntroductionToOrbifolds.pdf:file]])
 
