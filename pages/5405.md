@@ -293,5 +293,11 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 ## References
 
+The above material is taken from
+
 * [[Jacob Lurie]], _Tannaka duality for geometric stacks_, ([arXiv:math.AG/0412266](http://arxiv.org/abs/math/0412266))
 {#Lurie}
+
+The generalization to geometric stacks in the context of [[Spectral Schemes]] is in 
+
+* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
