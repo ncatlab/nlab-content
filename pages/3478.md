@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -46,6 +46,17 @@ Is this right?  Do these two definitions correspond in that a [[sober space]] or
 * Any [[paracompact space|paracompact]] [[manifold]] is locally contractible.
 * Any [[contractible space]] is semi-locally contractible
 * The [[cone]] on the [[Hawaiian earring space]] is contractible, hence semi-locally contractible, but is not locally contractible, as any neighbourhood of the 'bad point' is not simply connected.
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+For $X$ a locally contractible topological space, the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X)$ is a [[locally ∞-connected (∞,1)-topos]].
+
+=--
+
+This is discussed at [[locally ∞-connected (∞,1)-site]].
 
 
 ## Other viewpoints
