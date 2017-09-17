@@ -217,7 +217,7 @@ See Dunford, Schwartz II, chapter X, corollary 8.
 
 ### Relation to bornological spaces
 
-Every [[inductive limit]] of [[Banach spaces]] is a [[bornological vecotr space]]. ([Alpay-Salomon 13, prop. 2.3](#AlpaySalomon13))
+Every [[inductive limit]] of [[Banach spaces]] is a [[bornological vector space]]. ([Alpay-Salomon 13, prop. 2.3](#AlpaySalomon13))
 
 Conversely, every [[bornological vector space]] is an inductive limit of [[normed spaces]], and of [[Banach spaces]] if it is quasi-complete ([Schaefer-Wolff 99](#SchaeferWolff99))
 
