@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 =--
 =--
 
@@ -21,8 +25,22 @@ A [[morphism]] of locally ringed space is a morphism of ringed spaces $(f,f^\sha
 
 ## Related concepts
 
-* [[ringed space]], **locally ringed space**, [[ringed site]], [[ringed topos]]
+* [[ringed space]], **locally ringed space**
+
+* [[ringed site]], [[locally ringed site]]
+
+* [[ringed topos]], [[locally ringed topos]]
+
+* [[locally algebra-ed topos]]
 
 * [[structured (∞,1)-topos]]
+
+## References
+
+Section 19.2 in 
+
+* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+{#deJong}
+
 
 [[!redirects locally ringed spaces]]
