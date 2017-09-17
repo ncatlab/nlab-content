@@ -37,7 +37,15 @@ This appears as ([Caramello, remark 4.3](#Caramello)).
 
 ### Constructive complete distributivity
 
-A complete lattice is called **constructive completely distributive** if the join-assigning morphism $D A \to A$, with $D A$ the poset of [[downsets]].  This is equivalent to complete distributivity if and only if the [[axiom of choice]] holds; see ([WoodFawcett](#WoodFawcett)).  Constructive completely distributive lattices are an example of [[continuous algebras]] for a [[lax-idempotent 2-monad]].
+A complete lattice is called **constructively completely distributive** (CCD) if the join-assigning morphism $D A \to A$ has a left adjoint, with $D A$ the poset of [[downsets]]. This generalizes to the concept of [[total category|totality]] for small categories.
+
+_Constructive complete distributivity is equivalent to complete distributivity if and only if the [[axiom of choice]] holds_ (cf. [Wood&Fawcett 1990](#WoodFawcett)).
+
+Constructively completely distributive lattices are an example of [[continuous algebras]] for a [[lax-idempotent 2-monad]].
+
+### Remark
+
+Completely distributive lattices correspond to tight [[Galois connections]] (Raney 1953). This generalizes to a correspondence between totally distributive toposes and [[essential geometric morphism|essential localizations]] (Lucyshyn-Wright 2011).
 
 ## References
 
@@ -46,12 +54,16 @@ A complete lattice is called **constructive completely distributive** if the joi
 * [[Olivia Caramello]], _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
  {#Caramello}
 
-* {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
+* G. N. Raney, _Tight Galois Connections and Complete Distributivity_ , Trans.Amer.Math.Soc **97** (1960) pp.418-426. ([pdf](http://www.ams.org/journals/tran/1960-097-03/S0002-9947-1960-0120171-3/S0002-9947-1960-0120171-3.pdf))
 
+* {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
 * [[Richard Wood]] and Barry Fawcett, "Constructive complete distributivity. I". Math. Proc. Camb. Phil. Soc. (1990), 107, 81
  {#WoodFawcett}
 
 [[!redirects completely distributive lattices]]
 [[!redirects constructive completely distributive lattice]]
+[[!redirects constructively completely distributive lattice]]
+[[!redirects constructively completely distributive lattices]]
 [[!redirects constructive completely distributive lattices]]
+[[!redirects CCD lattice]]
