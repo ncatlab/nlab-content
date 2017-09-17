@@ -474,7 +474,7 @@ The total outer diagram now commutes, being built from commuting sub-diagrams, a
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #HomotopyUniquenessOfResolutionOfMorphism}
 ###### Proposition
 
 The morphism $f_\bullet$ in prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} is the unique one up to [[chain homotopy]] making the given diagram commute.
@@ -484,7 +484,90 @@ The morphism $f_\bullet$ in prop. \ref{InjectiveResolutionOfCodomainRespectsMorp
 +-- {: .proof}
 ###### Proof
 
-(...)
+Given two chain maps $g_1^\bullet, g^2_\bullet$ making the diagram commute, a [[chain homotopy]] $g_1^\bullet \Rightarrow g_2^\bullet$ is equivalently a [[null homotopy]] $0 \Rightarrow g_2^\bullet - g_1^\bullet$ of the difference, which sits in a square of the form
+
+$$
+  \array{
+    X &\underoverset{h^\bullet}{\sim}{\to}& X^\bullet
+    \\
+    \downarrow^{\mathrlap{0}} && \downarrow^{\mathrlap{f^\bullet \coloneqq g_2^\bullet - g_1^\bullet}}
+    \\
+    Y &\stackrel{\sim}{\to}& Y^\bullet
+  }
+$$
+
+with the left vertical morphism being the [[zero morphism]]
+(and the bottom an injective resolution). Hence we have to show that in such a diagram $f^\bullet$ is null-homotopic.
+
+This we may reduce to the statement of lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic}
+by considering instead of $f^\bullet$ the induced chain map of augmented complexes
+
+
+$$
+  \array{
+     0 
+       &\stackrel{}{\to}& 
+     X 
+       &\stackrel{h^0}{\to}& 
+     X^0 
+       &\stackrel{d^0_X}{\to}& 
+     X^1 
+       &\to&
+    \cdots
+     \\
+     \downarrow^{\mathrlap{f^{-2} = 0}}
+     &&
+     \downarrow^{\mathrlap{f^{-1} = 0}}
+     &&
+     \downarrow^{f^0}
+     &&
+     \downarrow^{f^1}
+     \\
+     0 
+       &\to& 
+     Y 
+       &\to& 
+     Y^0 
+       &\stackrel{d^0_J}{\to}& 
+     Y^1 
+       &\to& 
+     \cdots  
+  }
+  \,,
+$$
+
+where the second square from the left commutes due to the commutativity of the original square of chain complexes in degree 0.
+
+Since $h^\bullet$ is a [[quasi-isomorphism]], the top chain complex is [[exact sequence|exact]], by remark \ref{InjectiveResolutionInComponents}. Hence 
+lemma \ref{MapsOutOfExactIntoInjectiveAreNullHomotopic} implies the existence of a [[null homotopy]]
+
+
+$$
+  \array{
+     0 
+       &\stackrel{}{\to}& 
+     X 
+       &\stackrel{}{\to}&
+     X^0 
+       &\stackrel{d^0_X}{\to}&
+     X^1 
+       &\to& 
+     \cdots
+     \\
+     \downarrow^{\mathrlap{f^{-2} = 0}}
+       &\swarrow_{\mathrlap{\eta^{-1} = 0}}&
+     \downarrow^{\mathrlap{f^{-1} = 0}}
+       &\swarrow_{\mathrlap{\eta^0 = 0} }&
+     \downarrow^{f^0}
+       &\swarrow_{\mathrlap{\eta^1}}&
+     \downarrow^{f^1}
+     \\
+     0 &\to& Y &\to& Y^0 &\stackrel{d^0_Y}{\to}& Y^1 &\to& \cdots  
+  }
+$$
+
+with $\eta^{-1} = 0$ and $\eta^{0 } = 0$, which works because $f^{-1} = 0$. The de-augmentation $\{f^{\bullet \geq 0}\}$ of this is the desired [[null homotopy]] of $f^\bullet$.
+
 
 =--
 
@@ -538,7 +621,6 @@ For instance section 4.5 of
 
 * [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
 
-[[!redirects projective resolution]]
 [[!redirects projective resolutions]]
 
 [[!redirects injective resolution]]
