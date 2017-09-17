@@ -1102,13 +1102,45 @@ Here $\mathbf{H}^{\Delta^{op}}$ is also the [[classifying topos]] for [[linear i
 For more see at _[[simplicial object in an (∞,1)-category]]_.
 
 
-### Stable cohesion: cohesive tangent $\infty$-categories
+### Stable cohesion: cohesive tangent $\infty$-toposes
 
-The [[tangent (∞,1)-category]] $T(\infty Grpd)$
-is a cohesive $\infty$-topos, see the discussion at
-_[tangent ∞-category -- Examples -- Of an ∞-topos](tangent+%28infinity%2C1%29-category#ExamplesTangentOfAnInfinityTopos)_.
+The [[tangent (∞,1)-category]] $T\mathbf{H}$
+to a cohesive $\infty$-topos is itself cohesive, 
+(by the discussion at
+_[tangent ∞-category -- Examples -- Of an ∞-topos](tangent+%28infinity%2C1%29-category#TangentTopos)_), the 
+_[[tangent cohesive (∞,1)-topos]]_.
 
-This is the $\infty$-topos of [[parameterized spectra]], hence a context for [[stable homotopy theory]].
+This $T \mathbf{H}$ the $\infty$-topos of [[parameterized spectra]] in $\mathbf{H}$, hence is context for cohesive [[stable homotopy theory]].
+
+$$
+  \array{
+    Stab(\mathbf{H})
+    &
+    \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+    &
+    Stab(\infty Grpd)
+    \\
+    \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+    \\
+    T \mathbf{H}
+    &
+    \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+  &
+  T \infty Grpd
+  \\
+  {}^{\mathllap{base}}\downarrow {}^{\mathllap{0}}\uparrow \downarrow^{\mathrlap{base}} \uparrow^{\mathrlap{0}}
+  && 
+  {}^{\mathllap{base}}\downarrow {}^{\mathllap{0}}\uparrow \downarrow^{\mathrlap{base}} \uparrow^{\mathrlap{0}}
+  \\
+    \mathbf{H}
+    &
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
+  &
+  \infty Grpd
+  }
+  \,.
+$$
+
 
 ### From $\infty$-Cohesive sites of definition
 
