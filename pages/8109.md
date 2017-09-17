@@ -24,7 +24,7 @@
 ## Idea
 
 
-By the construction of [[complex oriented cohomology theories]] from [[formal groups]], the [[height of a formal group|height filtration]] of formal groups induces a "chromatic" filtration on [[complex oriented cohomology theories]]. 
+By the construction of [[complex oriented cohomology theories]] from [[formal groups]] (via the [[Landweber exact functor theorem]]), the [[height of a formal group|height filtration]] of formal groups induces a "chromatic" [[filtration]] on [[complex oriented cohomology theories]]. 
 _Chromatic homotopy theory_ is the study of [[stable homotopy theory]] and specifically of [[complex oriented cohomology theories]] by means of and along this [[chromatic filtration]].
 
 More in detail, for each [[prime]] $p \in \mathbb{N}$ and for each  $n \in \mathbb{N}$ there is a [[Bousfield localization of spectra]]
@@ -60,15 +60,7 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 ## Examples
 
-| chromatic level | [[complex oriented cohomology theory]] | [[E-∞ ring]]/[[A-∞ ring]] |
-|--|--|--|
-| 0 | [[ordinary cohomology]] | [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}$ |
-|  | [[Morava K-theory]] | $K(0)$ |
-| 1 | [[complex K-theory]] | [[complex K-theory spectrum]] $KU$ |
-|   | [[Morava K-theory]]  | $K(1)$ |
-| 2 | [[tmf]] | [[tmf spectrum]] |
-|   | [[Morava K-theory]] | $K(2)$ |
-
+[[!include chromatic tower examples - table]]
 
 ## Related concepts
 
@@ -98,17 +90,19 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 ## References 
  {#References}
 
-* [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
+Comprehensive lecture notes are in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
  {#LurieLectures}
 
-* [[Doug Ravenel]], _Toward higher chromatic analogs
-of elliptic cohomology and topological modular forms_, talk notes (2007) ([pdf](http://www.math.rochester.edu/u/faculty/doug/mypapers/wayne4.pdf))
+Brief surveys include
+
+* [[Haynes Miller]], _"Chromatic" homotopy theory_ May 2011 ([pdf](http://www-math.mit.edu/~hrm/papers/chromatic.pdf))
 
 A lightning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov is in 
 
 * Hans-Werner Henn, _Recent developments in stable homotopy theory_ ([pdf](http://math.berkeley.edu/~aaron/saft/henn.pdf))
+
 
 Random useful discussion is in 
 
