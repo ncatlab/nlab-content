@@ -1,3 +1,4 @@
+[[!redirects propagating flows]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -8,29 +9,45 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea ##
 
-[[Smooth mapping spaces]] are very nice examples of [[infinite dimensional smooth manifolds]].
-One reason for their nice behaviour is that it is often possible to use the structure of the target space (a finite dimensional manifold) to study the mapping space.
-This provides a route from finite dimensional differential topology to that of infinite dimensions.
+[[smooth mapping space|Smooth mapping spaces]] are very nice examples of [[infinite dimensional smooth manifolds]].
+One reason for their nice behaviour is that it is often possible to use the structure of the [[target space]] (a finite [[dimension]]al [[manifold]]) to study the mapping space.
+This provides a route from finite dimensional [[differential topology]] to that of infinite dimensions.
 It is usually the case that one needs stronger structure on the target space to do this than would be needed just for the finite dimensional result, but as the target space is a finite dimensional manifold that stronger structure is usually there anyway.
 
-An example of this is the concept of a [[tubular neighbourhood]] of an embedding.  As shown at [[A Not-So-Nice Submanifold]], not all embeddings of infinite dimensional manifolds - even of mapping spaces - admit tubular neighbourhoods.  However, if the embedding is of a coincidental nature then it is possible to use structure on the target manifold to find tubular neighbourhoods in infinite dimensions.
+An example of this is the concept of a [[tubular neighbourhood]] of an [[embedding]].  As shown at [[A Not-So-Nice Submanifold]], not all embeddings of infinite dimensional manifolds - even of mapping spaces - admit tubular neighbourhoods.  However, if the embedding is of a coincidental nature then it is possible to use structure on the target manifold to find tubular neighbourhoods in infinite dimensions.
 
 By "coincidental nature", we mean that the submanifold is defined by taking those smooth maps with some condition imposed that says that certain "coincidences" happen.  That is, that the values of the map at certain points coincide, or are constrained to lie in some submanifold of the target space.
 
-Let us consider, for an example, the simplest case: the inclusion of based loops in smooth loops.  So let $M$ be a smooth finite dimensional manifold, $L M$ its smooth [[free loop space]] and $\Omega M$ its smooth [[based loop space]].  Let $x_0$ be the basepoint of $M$, and $1$ the basepoint of the [[circle]], $S^1$.  To get a tubular neighbourhood of this, we need to start by finding a suitable neighbourhood.  To do this, we choose a [[chart]] $\phi \colon \mathbb{R}^n \to U \subseteq M$ at $x_0$ (so that $\phi(0) = x_0$).  We define the neighbourhood of $\Omega M$ to be those loops $\alpha \in L M$ such that $\alpha(1) \in U$.  To make this a _tubular_ neighbourhood, we need to find a way to project these loops on to $\Omega M$.  That is, given a loop $\alpha \colon S^1 \to M$ with $\alpha(1) \in U$ we need to produce a loop $\pi(\alpha) \colon S^1 \to M$ with $\pi(\alpha)(1) = x_0$.  It is obvious how to move the basepoint: simply scale it to $x_0$ using the scalar multiplication coming from the chart.  However, that just moves $\alpha(1)$.  We need to move the whole of $\alpha$ with it - or at least, drag that part of it near $1$.  We cannot assume that all of $\alpha$ lies in $U$.  The solution is to define a diffeomorphism $\Psi$ of $M$ with the property that $\Psi(\alpha(1)) = x_0$.  Then we can define $\pi(\alpha) = \Psi \circ \alpha$.  As we vary $\alpha$, so we also vary $\alpha(1)$, and thus must vary the diffeomorphism $\Psi$.  The trick is to choose $\Psi$ so that it varies smoothly with $\alpha(1)$.
+Let us consider, for an example, the simplest case: the inclusion of based loops in [[smooth loop space|smooth loops]].  So let $M$ be a smooth finite dimensional manifold, $L M$ its smooth [[free loop space]] and $\Omega M$ its smooth [[based loop space]].  Let $x_0$ be the basepoint of $M$, and $1$ the basepoint of the [[circle]], $S^1$.  To get a tubular neighbourhood of this, we need to start by finding a suitable neighbourhood.  To do this, we choose a [[chart]] $\phi \colon \mathbb{R}^n \to U \subseteq M$ at $x_0$ (so that $\phi(0) = x_0$).  We define the neighbourhood of $\Omega M$ to be those loops $\alpha \in L M$ such that $\alpha(1) \in U$.  To make this a _tubular_ neighbourhood, we need to find a way to project these loops on to $\Omega M$.  That is, given a loop $\alpha \colon S^1 \to M$ with $\alpha(1) \in U$ we need to produce a loop $\pi(\alpha) \colon S^1 \to M$ with $\pi(\alpha)(1) = x_0$.  It is obvious how to move the basepoint: simply scale it to $x_0$ using the scalar multiplication coming from the chart.  However, that just moves $\alpha(1)$.  We need to move the whole of $\alpha$ with it - or at least, drag that part of it near $1$.  We cannot assume that all of $\alpha$ lies in $U$.  The solution is to define a diffeomorphism $\Psi$ of $M$ with the property that $\Psi(\alpha(1)) = x_0$.  Then we can define $\pi(\alpha) = \Psi \circ \alpha$.  As we vary $\alpha$, so we also vary $\alpha(1)$, and thus must vary the diffeomorphism $\Psi$.  The trick is to choose $\Psi$ so that it varies smoothly with $\alpha(1)$.
 
 In the above example, this is straightforward because everything happens in the chart, and thus effectively on $\mathbb{R}^n$.  There are more complicated examples.  One such is the basic construction in [[string topology]].  Within $L M \times L M$ we consider those pairs of loops $(\alpha,\beta)$ such that $\alpha(1) = \beta(1)$.  Then for $(\alpha,\beta)$ with $\alpha(1)$ _near_ to $\beta(1)$ we want to project the pair $(\alpha,\beta)$ to a pair where these values coincide.  Now although the points $\alpha(1)$ and $\beta(1)$ are near (in some vague not-yet-defined sense), they may, as a pair, roam all over the manifold.  Thus local solutions are not applicable here.  Nonetheless, the question still comes down to the ability to choose diffeomorphisms consistently according to some conditions.
 
 ## Definition ##
 
-One way to choose these diffeomorphisms is to use the notion of a **propagating flow**.  The term was coined by [[Veronique Godin]] in (?) and is based on an idea due to [[Andrew Stacey]] in (?), though there are probably antecedents.
+One way to choose these diffeomorphisms is to use the notion of a **propagating flow**.  The term was coined by [[Veronique Godin]] in ([Godin, 07](#Godin)) and is based on an idea due to [[Andrew Stacey]] in ([Stacey, 05](#Stacey)), though there are probably antecedents.
 The basic idea is contained in the following definition.
 
 +-- {: .num_definition #propflow}
 ###### Definition
-Let $\pi \colon E \to M$ be a vector bundle over a smooth manifold.  Everything here is assumed to be finite dimensional.  We consider the space $Diff_{fc}(E)$ of diffeomorphisms of $E$ which preserve the fibres of $E$ and have compact support.  A **propagating flow** is a smooth map $\phi \colon E \to Diff_{fc}(E)$ with the property that $\phi(v) = \pi(v)$.
+Let $\pi \colon E \to M$ be a [[vector bundle]] over a [[smooth manifold]].  Everything here is assumed to be finite dimensional.  We consider the space $Diff_{fc}(E)$ of [[diffeomorphisms]] of $E$ which preserve the [[fibres]] of $E$ and have [[compact support]].  A **propagating flow** is a [[smooth map]] 
+
+$$
+  \phi \colon E \to Diff_{fc}(E)
+$$ 
+
+with the property that 
+
+$$
+  \phi(v) : v \mapsto \pi(v)
+  \,.
+$$
+
 =--
 
 ## Construction ##
@@ -65,3 +82,19 @@ $$
 X_v(t v) = \sum_\lambda \rho_\lambda(\pi(v)) \rho_\lambda(\pi(v)) (- v) = -v
 $$
 as required.
+
+## Rereferences
+
+The idea goes back to 
+
+* [[Andrew Stacey]], _The differential topology of smooth loops_ ([arXiv:math/0510097](http://arxiv.org/abs/math/0510097))
+ {#Stacey}
+
+
+The term _propagating flow_ was coined in 
+
+* [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+ {#Godin}
+
+and used for the construction of [[umkehr maps]] to construct [[string topology]] operations.
+
