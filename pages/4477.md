@@ -1,1 +1,138 @@
-A **projective module** is a [[projective object]] in the category of $R$-modules for some ring $R$.  A module is projective if and only if it is a [[direct summand]] of a [[free module]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+For $R$ a [[ring]], a _projective $R$-module_ is a [[projective object]] in the [[category]] $R$[[Mod]].
+
+=--
+
+
+## Properties
+
+
+
+
+
+### Equivalent characterizations
+
++-- {: .num_prop}
+###### Proposition
+
+A module $N$ is projective precisely if the [[hom functor]] 
+
+$$
+  Hom_{R Mod}(N, - ) : R Mod \to Ab
+$$
+
+out of it is an [[exact functor]]. 
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+An $R$-module $N$ is projective precisely if it is the [[direct summand]] of a [[free module]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Clearly if $N$ is a direct summand then it is projective. We show the converse.
+
+Let $F(U(N))$ be the [[free module]] on the [[set]] $U(N)$ underlying $N$. The [[counit of an adjunction|counit]] 
+
+$$
+  \epsilon : F(U(N)) \to N
+$$
+
+of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F \dashv U)$ is an [[epimorphism]]. Thefore if $N$ is projective, there is a [[section]] $s$ of $\epsilon$. This exhibits $N$ as a direct summand of $F(U(N))$.
+
+=--
+
+### Relation to projective resolutions of chain complexes
+ {#RelationToProjectiveResolution}
+
+
++-- {: .num_defn}
+###### Definition
+
+For $N \in R Mod$ a **[[projective resolution]]** of $N$ is a [[chain complex]] $(Q N)_\bullet \in Ch_\bullet(R Mod)$ equipped with a [[chain map]]
+
+$$
+  Q N \to N
+$$
+
+(with $N$ regarded as a complex concentrated in degree 0) such that
+
+1. this morphism is a [[quasi-isomorphism]] (this is what makes it a [[resolution]]), which is equivalent to 
+
+   $$ \cdots \to (Q N)_1 \to (Q N)_0 \to N $$
+
+   being an [[exact sequence]];
+
+1.  all whose entries $(Q N)_n$ are projective modules.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means precisely that $Q N \to N$ is an [[injective resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that in this model structure every object is fibrant, so that cofibrant resolutions are the only resolutions that need to be considered.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every $R$-module has a projective resolution. 
+
+=--
+
+This means that $R$[[Mod]] is said to have **[[projective object|enough projectives]]** if for every module $N$ there is a projective module $P$ and an [[epimorphism]] $P \to N$.
+
+
+
+## Examples
+
++-- {: .num_prop}
+###### Proposition
+
+
+If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division ring]], then every projective $R$-module is already a free $R$-module.
+
+=--
+
+## Related concepts
+
+* [[projective object]]
+
+* [[injective object]], [[injective module]]
+
+## References
+
+For instance section 2.2 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+
+[[!redirects projective modules]]
