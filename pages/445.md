@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -5,13 +6,18 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
-#### Higher category theory
+#### Limits and colimits
 +--{: .hide}
-[[!include higher category theory - contents]]
+[[!include infinity-limits - contents]]
 =--
 =--
 =--
 
+* [[coimage]]
+
+* **image**
+
+***
 
 #Contents#
 * automatic table of contents goes here
