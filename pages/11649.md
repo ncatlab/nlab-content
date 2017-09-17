@@ -21,7 +21,7 @@
 
 ### General
 
-The [[KK-compactification|KK]] [[flux compactification]] of [[M-theory]]/[[F-theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety]] of ([[complex manifold|complec]]) [[dimension]] 4 (hence real dimension 8) yields [[type IIB superstring theory]] (with some [[S-duality]]-related [[non-perturbative effects]] included) [[KK-compactification|KK-compactified]] on Calabi-Yau 3-folds.
+The [[KK-compactification|KK]] [[flux compactification]] of [[M-theory]]/[[F-theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety]] of ([[complex manifold|complex]]) [[dimension]] 4 (hence real dimension 8) yields [[type IIB superstring theory]] (with some [[S-duality]]-related [[non-perturbative effects]] included) [[KK-compactification|KK-compactified]] on Calabi-Yau 3-folds.
 
 
 ### Motivation from string model building/phenomenology
@@ -39,7 +39,7 @@ From the abstract of ([Donagi 98](#Donagi98)).
 
 > The [[heterotic string theory|heterotic string]] [[KK-compactification|compactified]] on an $(n-1)$-[[dimension|dimensional]] [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety|Calabi-Yau]] $Z \to B$ is conjectured to be [[duality in string theory|dual]] to [[F-theory]] [[KK-compactification|compactified]] on an $n$-dimensional [[Calabi-Yau variety|Calabi-Yau]] $X \to B$, fibered over the same base with [[elliptic fibration|elliptic]] [[K3]] fibers. In particular, the [[moduli]] of the two theories should be [[isomorphism|isomorphic]]. The cases most relevant to the physics are $n=2$, $3$, $4$, i.e. the [[KK-compactification|compactification]] is to [[dimensions]] $d=8$, $6$ or $4$ respectively. Mathematically, the richest picture seems to emerge for $n=3$, where the [[moduli space]] involves an analytically [[integrable system]] whose fibers admit rather different descriptions in the two theories.
 
-Moreover, the description of the [[supergravity C-field]] (in the physics literature: the "4-form flux", see at _[[flux compactification]]_), being (up to various twists and subtleties, see there) a [[cocycle]] in degree-4 [[ordinary differential cohomology]] on the [[Calabi-Yau variety]]  involves the [[moduli spaces of (higher) line bundles]] on the $CY_4$ which under decomposition of the C-field into various [[cup product in ordinary differential cohomology|cup-product]] factors associated with the various [[divisor (algebraic geometry)|divisor]] of the $CY_4 involves [[intermediate Jacobians]] and [[Artin-Mazur formal groups]] in degrees 0,1,2 with rich theory.
+Moreover, the description of the [[supergravity C-field]] (in the physics literature: the "4-form flux", see at _[[flux compactification]]_), being (up to various twists and subtleties, see there) a [[cocycle]] in degree-4 [[ordinary differential cohomology]] on the [[Calabi-Yau variety]]  involves the [[moduli spaces of (higher) line bundles]] on the $CY_4$ which under decomposition of the C-field into various [[cup product in ordinary differential cohomology|cup-product]] factors associated with the various [[divisor (algebraic geometry)|divisor]] of the $CY_4$ involves [[intermediate Jacobians]] and [[Artin-Mazur formal groups]] in degrees 0,1,2 with rich theory.
 
 ## References
 
