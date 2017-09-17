@@ -19,7 +19,9 @@
 
 ## Idea
 
-The _relativistic particle_ in [[physics]] is a model for the dynamics of a single [[particle]] that is propagating in a [[spacetime]] subject to [[force]]s such as [[gravity]] and (if it is charged) the [[electromagnetic field]].
+The _relativistic particle_ in [[physics]] is a model for the dynamics of a single [[brane|particle]] that is propagating in a [[spacetime]] subject to [[force]]s such as [[gravity]] and (if it is charged) the [[electromagnetic field]].
+
+The generalization to [[supergeometry]] is the [[superparticle]].
 
 ## Definition
 
