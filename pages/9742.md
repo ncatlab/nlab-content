@@ -1,0 +1,10 @@
+
+A [[crossed product algebra|crossed product]] [[C*-algebra]].
+
+
+(...)
+
+[[!redirects crossed product C-star algebra]]
+[[!redirects crossed product C*-algebras]]
+[[!redirects crossed product C-star algebras]]
+
