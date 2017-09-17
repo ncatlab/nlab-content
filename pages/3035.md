@@ -94,7 +94,11 @@
 
 * [[schreiber:∞-Lie algebroid valued differential forms]]
 
-* [[curvature characteristic form]]
+* [[curvature]]
+
+  * [[Bianchi identity]]
+
+  * [[curvature characteristic form]]
 
 * [[Chern-Weil homomorphism]]
 
