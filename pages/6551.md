@@ -47,7 +47,14 @@ Reviews are in
 
 * D Milinkovic, _Floer Homology in Classical Mechanics and Quantum Field Theory_ ([ps](http://www.mphys5.phy.bg.ac.rs/proceedings3/Milinkovic.ps))
 
-* [[Simon Donaldson]], _Floer homology groups in Yang-Mills theory_ Cambridge University Press (2002) ([pdf](http://catdir.loc.gov/catdir/samples/cam031/2001035888.pdf))
+* [[Simon Donaldson]], _Floer homology groups in Yang-Mills theory_ volume 147 of Cambridge Tracts in Mathematics, Cambridge University Press, Cambridge, (2002) ([pdf](http://catdir.loc.gov/catdir/samples/cam031/2001035888.pdf))
+
+
+* Tomasz S. Mrowka, _Introduction to Instanton Floer Homology_ at _Introductory Workshop: Homology Theories of Knots and Links_ , MSRI ([web](http://www.msri.org/web/msri/online-videos/-/video/showVideo/4015))
+
+Generalizations to 3-manifolds with [[boundary]] are discussed in 
+
+* Dietmar Salamon, Katrin Wehrheim, _Instanton Floer homology with Lagrangian boundary conditions_ ([arXiv:0607318](http://arxiv.org/abs/math/0607318))
 
 [[!redirects instanton Floer homology]]
 
