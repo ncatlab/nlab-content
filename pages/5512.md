@@ -26,7 +26,7 @@ The term _Frobenius reciprocity_ has a meaning
 
 * [In representation theory](#InRepresentationTheory)
 
-* [In category theory](#in cats).
+* [In category theory](#InCategoryTheory).
 
 ### In representation theory
  {#InRepresentationTheory}
@@ -34,7 +34,7 @@ The term _Frobenius reciprocity_ has a meaning
 In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well.
 
 ### In category theory
-{# in cats}
+ {#InCartegoryTheory}
 
 In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
 
@@ -154,7 +154,7 @@ A textbook source is around lemma 1.5.8 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-Manifestations of the Frobenius reciprocity formula, in the sense of [this section](#in cats), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
+Manifestations of the Frobenius reciprocity formula, in the sense of [this section](#InCartegoryTheory), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
 
 * Andrea Ferretti, Ubiquity of the push-pull formula, MO Question 18799, March 20, 2010. [(link)](http://mathoverflow.net/questions/18799/ubiquity-of-the-push-pull-formula)
 
