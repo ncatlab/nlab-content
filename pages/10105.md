@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[2-category]]-analog of the notion of _[[compact closed category]]_.
+
+## Examples
+
+For $C$ a [[2-category]] with weak [[finite limits]], the [[(infinity,n)-category of spans|2-category of spans]] in $C$ is compact closed. ([Stay 13](#Stay13))
+
+## Related concepts
+
+* [[monoidal 2-category]]
+
+## References
+
+* [[Mike Stay]], _Compact Closed Bicategories_ ([arXiv:1301.1053](http://arxiv.org/abs/1301.1053))
+ {#Stay13}
+
+[[!redirects compact closed 2-categories]]
+
+[[!redirects compact closed bicategory]]
+[[!redirects compact closed bicategories]]
