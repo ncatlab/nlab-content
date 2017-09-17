@@ -8,11 +8,4 @@ I work on mathematical physics. I am interested in TQFTs. More specifically, I a
 * [Math Stackexchange page](http://math.stackexchange.com/users/122283/sanath-devalapurkar/).
 
 
-##Ideas##
-A homotopy quantum field theory is a symmetric monoidal functor $\tau:\mathrm{HCobord}(n,X)\to\mathrm{Vect}_{\mathbb{K}}$, with $X$ a path connected space with basepoint $\ast$. There is the following diagram:
-$$
-\array{ \mathrm{Cobord}(n) &\rightleftarrows& \mathrm{HCobord}(n,X) &\longleftarrow& \pi_1\mathrm{Map}(S^n,X)\\ & \searrow & \downarrow & \swarrow & \\ && \mathrm{Vect}_{\mathbb{K}} }
-$$
-We see that the homotopy QFT restricted to domain $\pi_1\mathrm{Map}(S^n,X)\hookrightarrow \mathrm{HCobord}(n)$ is a locally constant sheaf on $\pi_1\mathrm{Map}(S^n,X)$, i.e., a sheaf of sections of a covering space of $\pi_1\mathrm{Map}(S^n,X)$. Let us denote by $\mathrm{LSheaf}\pi_1\mathrm{Map}(S^n,X)$ the category of locally constant sheaves on $\pi_1\mathrm{Map}(S^n,X)$. Then, $\mathrm{LSheaf}\pi_1\mathrm{Map}(S^n,X)\hookrightarrow \mathrm{Sh}\pi_1\mathrm{Map}(S^n,X)\hookrightarrow \mathrm{PSh}\pi_1\mathrm{Map}(S^n,X)$. Thus, a homotopy QFT restricted to domain $\pi_1\mathrm{Map}(S^n,X)$ is a contravariant functor $\pi_1\mathrm{Map}(S^n,X)\to\mathrm{Vect}_{\mathbb{K}}\hookrightarrow\mathrm{Set}$.
-
 Category: people
