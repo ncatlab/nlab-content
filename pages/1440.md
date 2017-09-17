@@ -16,6 +16,17 @@ A _derived smooth manifold_ is a [[structured generalized space]] given by a man
 
 ... just a second ...
 
+> hm, took me more than a second...
+
+
+### $(\infty,1)$-smooth algebras -- simplicial $C^\infty$-rings
+
+An **$(\infty,1)$-smooth algebra** is an [[(∞,1)-algebraic theory|(∞,1)-algebra over the algebraic theory]] [[CartSp]]. This is the [[(∞,1)-category]] analog of the notion of [[smooth algebra]]: a product-preserving [[(∞,1)-functor]] $A : CartSp \to $ [[∞Grpd]].
+
+In [Spiv](http://arxiv.org/abs/0810.5174) this is [[model category|modeled]] in terms of a [[Bousfield localization of model categories|left Bousfield localization]] of the injective [[model structure on simplicial presheaves]] on $CartSp^{op}$.
+
+...
+
 
 ## References
 
