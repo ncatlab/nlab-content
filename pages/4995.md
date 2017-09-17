@@ -908,7 +908,7 @@ $$
 
 Here by assumption the middle morphism is an equivalence.
 Therefore there is an essentially unique lift in the square on the right and hence a lift in the total square. 
-Again by the universality of the adjunction, any such lift factors through $\athbf{\Pi} B$ and hence also this lift is essentially unique.
+Again by the universality of the adjunction, any such lift factors through $\mathbf{\Pi} B$ and hence also this lift is essentially unique.
 
 Finally by universality of the pullback, this induces an essentially unique lift $\sigma$ in
 
