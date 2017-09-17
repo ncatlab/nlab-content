@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows us to consider it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] [[Grothendieck group]] $\mathbf{K}(C)$ of $C$.
+A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows us to consider it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows us to conveniently compute the [[K-theory]] [[Grothendieck group]] $\mathbf{K}(C)$ of $C$.
 
 Notably a Waldhausen category provides the notion of co[[fibration sequence]]s, which are crucial structures controlling $\mathbf{K}(C)$. Dual to the discussion at [[homotopy limit]] and [[homotopy pullback]], ordinary [[pushout]]s in Waldhausen categories of the form
 
