@@ -41,6 +41,8 @@ Similarly a _topological field_ is a topological ring whose underlying ring is i
 
 ## Related concepts
 
+* [[normed ring]]
+
 * [[local field]]
 
 * [[completion of a ring]]
