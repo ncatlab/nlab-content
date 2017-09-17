@@ -55,7 +55,7 @@ We list archives of **online** books and videos, not the catalogues of physical 
 * [tac](http://www.tac.mta.ca/tac) -- Theory and Application of Categories, free journal and a category [reprint](http://www.tac.mta.ca/tac/reprints/index.html) collection
 * [MSRI books](http://library.msri.org/books)
 * [eprint network](http://www.osti.gov/eprints/pathways/mathematics.shtml)
-* [Aarhus](http://www.imf.au.dk/forskning/publikationer/instituttets-serier/year/2010/series/pp) math institute, preprints and dissertations
+* [Aarhus](http://math.au.dk/forskning/publikationer/instituttets-serier/year/2010/series/pp/) math institute, preprints and dissertations
 * encyclopaedias in Russian online: [dic.academic.ru](http://dic.academic.ru)
 
 #### General archives: not math/physics centered
