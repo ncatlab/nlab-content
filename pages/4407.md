@@ -29,7 +29,7 @@ If $F$ is real closed, then $K = F[\sqrt{-1}]$ is algebraically closed.
 ###### Proof 
 We must show that any [[irreducible polynomial]] $p$ of degree greater than $0$ with coefficients in $K$ has a root in $K$. 
 
-The [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [[Sylow group|Sylow 2-group]] of $G$, then the [[fixed field]] of $G(2)$ is an odd degree extension of $F$, given by the splitting field of an odd degree irreducible polynomial $q$ over $F$. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, the degree must be $1$, so that in fact $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
+The [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [[Sylow group|Sylow 2-group]] of $G$, then the [[fixed field]] of $G(2)$ is an odd degree extension of $F$, given by adjoining a root of an odd degree irreducible polynomial $q$ over $F$. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, the degree must be $1$, so that in fact $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
 
 So $G$ is a $2$-[[primary group]]. But for any [[prime number]] $p$, a nontrivial finite $p$-group has nontrivial [[center]], and is therefore [[solvable group|solvable]] by an inductive argument. Therefore the extension $L/F$ arises from a tower of non-trivial [[quadratic extension]]s 
 
@@ -53,11 +53,11 @@ The proof is most easily apprehended by analogy with polar coordinate representa
 
 $$x^2 - y^2 = a, \qquad 2x y = b$$ 
 
-Since $a^2 + b^2$ has a square root in $F$, we may assume without loss of generality that $a^2 + b^2 = 1$. By interchanging $x$ and $y$ if necessary, we may assume $a \geq 0$; by replacing $y$ by $-y$ if necessary, we may also assume $b \geq 0$. Since $0 \leq a \leq 1$, we may choose nonnegative $x$ and $y$ such that 
+Since $a^2 + b^2$ has a square root in $F$, we may assume without loss of generality that $a^2 + b^2 = 1$. By interchanging $x$ and $y$ if need be, we may assume $0 \leq a \leq 1$; replacing $y$ by $-y$ if need be, we may assume $b \geq 0$. Taking $x, y \geq 0$ such that 
 
-$$x^2 = \frac{1+a}{2}, \qquad y^2 = \frac{1-a}{2}$$ 
+$$x^2 = \frac{1+a}{2}, \qquad y^2 = \frac{1-a}{2},$$ 
 
-and this provides the solution. 
+we obtain a solution. 
 =--
 
 
