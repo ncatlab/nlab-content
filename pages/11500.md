@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
+## Related concepts
+
+* [[Cauchy's integral theorem]]
+
+* [[Goursat theorem]]
+
+
+## References
+
+* Wikipedia, _[Cauchy's integral formula](https://en.wikipedia.org/wiki/Cauchy's_integral_formula)_
+
+[[!redirects Cauchy integral formula]]
