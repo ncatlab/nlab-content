@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -50,7 +50,7 @@ the [[(n,1)-topos]] of $(n-1)$-[[truncated]] objects of $\mathcal{X}$.
 We write $(n,1)Topos$ for the [[(n,1)-category|(n+1,1)-category]] of [[(n,1)-topos]]es and $(n,1)$-geometric morphisms between them.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **($n$-localic $(\infty,1)$-topos)**
 
@@ -82,7 +82,7 @@ is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoid]]s).
 
 This is ([[Higher Topos Theory|HTT, def. 6.4.5.8]]).
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This implies that an $n$-localic $(\infty,1)$-topos is also $(n+1)$-localic and generally $k$-localic for all $k \geq n$.
@@ -95,7 +95,7 @@ This implies that an $n$-localic $(\infty,1)$-topos is also $(n+1)$-localic and 
 ## Examples
   {#Examples}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] $C$ with finite limits which is an [[(n,1)-category]] is $n$-localic.
@@ -104,7 +104,7 @@ The [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] $C$ with fi
 
 This is ([[Higher Topos Theory|HTT, lemma 6.4.5.6]]).
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 For $n = 0$ this implies the familiar statement from ordinary [[topos theory]]: a [[category of sheaves]] over a [[posite]]=[[(0,1)-site]] is a [[localic topos]] (= 0-localic $(1,1)$-topos).
@@ -114,7 +114,7 @@ For $n = 0$ this implies the familiar statement from ordinary [[topos theory]]: 
 This is ([LurieStructured, lemma 2.3.16](#JurieStructured)).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $n \in \mathbb{N}$ and $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos, the [[over-(∞,1)-topos]] $\mathcal{X}/U$ is $n$-localic precisely if the object $U$ is $n$-[[truncated]].
@@ -124,7 +124,7 @@ For $n \in \mathbb{N}$ and $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos, the 
 This is ([StrSp, lemma 2.3.14](#JurieStructured)).
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos let $U \in \mathcal{X}$ be an [[object]]. Then the following are equivalent
@@ -140,7 +140,7 @@ This is ([StrSp, lemma 2.3.14](#JurieStructured)).
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every [[(n,1)-topos]] $\mathcal{Y}$ is the [[(n,1)-category]] of $(n-1)$-[[truncated]] objects in an $n$-localic $(\infty,1)$-topos $\mathcal{X}_n$
@@ -158,7 +158,7 @@ This is ([[Higher Topos Theory|HTT, prop. 6.4.5.7]]).
 
 Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $\mathcal{G}$ is an [[(∞,n)-category]] then a $n$-localic $\mathcal{G}$-[[structured (∞,1)-topos]] is an $n$-[[truncated]] object in the [[(∞,1)-category]] $Topos(\mathcal{G})$.
