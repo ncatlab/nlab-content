@@ -31,6 +31,8 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ## Chapter 1. An introduction to the Homotopy Groups of Spheres
 
+### 1. Classical theorems Old and New
+
 * [[homotopy group]]
 
 * [[Hurewicz theorem]]
@@ -44,6 +46,28 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 * [[Hopf fibration]]
 
 * [[Serre finiteness theorem]]
+
+* [[Bott periodicity theorem]]
+
+* [[J-homomorphism]]
+
+* [[Adams conjecture]]
+
+### 2. Methods of computing $\pi_\ast(S^n)$
+
+* [[Postnikov tower]]
+
+* [[Serre spectral sequence]]
+
+* [[Adams spectral sequence]]
+
+* [[Steenrod algebra]]
+
+* [[parallelizable sphere]]
+
+* [[complex cobordism cohomology]]
+
+* [[Adams-Novikov spectral sequence]]
 
 ## Chapter 2. Setting up the Adams Spectral sequence
 
