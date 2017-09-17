@@ -37,6 +37,7 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 * [MSRI books](http://library.msri.org/books)
 * [eprint network](http://www.osti.gov/eprints/pathways/mathematics.shtml)
 * [Aarhus](http://www.imf.au.dk/forskning/publikationer/instituttets-serier/year/2010/series/pp) math institute, preprints and dissertations
+* encyclopaedias in Russian online: [dic.academic.ru](http://dic.academic.ru)
 
 #### Not only math and physics
 
