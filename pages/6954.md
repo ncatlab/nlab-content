@@ -118,7 +118,7 @@ If a norm satisfies this identity, then the definition of angle (using the cosin
 ## Inner Products
 
 A [[norm]] which satisfies the parallelogram identity is the norm associated with an  [[inner product]].
-Using the parallelogram identity, there are three commonly stated equivalent forumlae for the inner product.  The notation can vary a little, but it is usually some form of round or angled brackets.  These formulae hold for vector spaces over $\mathbb{R}$.  There are similar formulae for $\mathbb{C}$ but they have more terms.
+Using the parallelogram identity, there are three commonly stated equivalent forumlae for the inner product; these are called the [[polarization identities]].  (The notation can vary a little, but it is usually some form of round or angled brackets.)  These formulae hold for vector spaces over $\mathbb{R}$; there are similar formulae for $\mathbb{C}$, but they have more terms.
 
 $$
 \begin{aligned}
@@ -286,3 +286,7 @@ where $M$ is a linear injection and $b$ is a vector.
 =-- 
 
 For information on related results, see [[isometry]] and [[Mazur-Ulam theorem]]. 
+
+
+[[!redirects parallelogram identity]]
+[[!redirects parallelogram law]]
