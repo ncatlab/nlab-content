@@ -45,11 +45,40 @@ Notice the for $X \in \mathbf{H}$ any [[object]], the [[over-(∞,1)-topos]] $\m
 +-- {: .un_defn}
 ###### Definition
 
-For $X \in \mathbf{H}$ an [[object]] a **locally constant $\infty$-stack** on $X$ is an object $P \to X$ in the [[over-(∞,1)-topos]] $\mathbf{H}/X$ that arises as the [[homotopy fiber]] of a morphism $\tilde \nabla : X \to LConst \mathcal{S}$ in $\mathbf{H}$
+For $X \in \mathbf{H}$ an [[object]] a **locally constant $\infty$-stack** on $X$ is an morphism $X \to LConst \mathcal{S}$.
+
+The **[[∞-groupoid]] of locally constant $\infty$-stacks** on $X$ is 
+
+$$
+  LConst(X) := \mathbf{H}(X, LConst \mathcal{S})
+  \,.
+$$
+
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+An an object of the [[little topos|little]] [[(∞,1)-topos]] of $X$, the
+[[over-(∞,1)-topos]] $\mathbf{H}/X$ the locally constant $\infty$-stack given by $\tilde \nabla$ is its [[(∞,1)-Grothendieck construction]] in $\mathbf{H}$
+
 
 $$
   \array{
     P &\to& * 
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    X &\stackrel{\tilde \nabla}{\to}& LConst \mathcal{S}
+  }
+$$ 
+
+the pullback of the [[universal fibration of (∞,1)-categories|universal fibration of finite ∞-groupoids]]
+
+$$
+  \array{
+    P &\to& LConst \mathcal{Z}
     \\
     \downarrow && \downarrow
     \\
@@ -58,19 +87,6 @@ $$
   \,.
 $$ 
 
-The [[∞-groupoid]] of locally constant $\infty$-stacks on $X$ is 
-
-$$
-  LConst(X) := \mathbf{H}(X, LConst \mathcal{S})
-  \,.
-$$
-
-=--
-
-+-- {: .un_remark}
-###### Remark
-
-In other words, a locally constant $\infty$-stack is in $\mathbf{H}$ a $LConst \mathcal{S}$-[[principal ∞-bundle]] over $X$. See there for a discussion of how these are indeed classified by morphisms $X \to LConst \mathcal{S}$.
 
 
 =--
