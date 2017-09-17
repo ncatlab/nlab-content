@@ -20,6 +20,8 @@ The [[physics]] of condensed [[matter]].
 
 ## Related concepts
 
+* [[rigid body dynamics]]
+
 * [[Levin-Wen model]]
 
 * [AdS-CFT -- Relation to solid state physics](AdS-CFT#ToCondensedMatterPhysics)
@@ -37,3 +39,7 @@ The [[physics]] of condensed [[matter]].
 [[!redirects condensed matter physics]]
 
 [[!redirects condensed matter]]
+
+[[!redirects solid body]]
+[[!redirects solid bodies]]
+
