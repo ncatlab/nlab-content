@@ -103,14 +103,53 @@ It is easy to see that if $C$ has pointwise left and right Kan extensions along 
 
 We now describe an "omnibus" theorem which is the main thing enabling us to compute with homotopy Kan extensions in a derivator.
 
-For any functor $u\colon I\to J$ in $Dia$, we say it is a $D$-**equivalence** if the induced transformation $(\pi_I)_! (\pi_I)^* \to (\pi_J)_!(\pi_J)^*$ is an isomorphism, where $\pi_I\colon I\to *$ is the projection to the [[terminal category]], and similarly for $\pi_J$.  This means that homotopy colimits of *constant* diagrams of shapes $I$ and $J$ are equivalent.
+### $D$-equivalences
 
-In a representable derivator (i.e. in ordinary category theory), the colimit of a constant diagram of shape $I$ is a [[copower]] with the set of connected components of $I$.  Thus, in a representable derivator, any functor that induces an isomorphism on sets of connected components will be a $D$-equivalence.  But in the derivator coming from a model category or $(\infty,1)$-category, the colimit of a constant diagram of shape $I$ is a copower with the [[nerve]] of $I$ regarded as an $\infty$-groupoid, so in this case any functor that induces a homotopy equivalence of nerves (a stronger condition) will be a $D$-equivalence.  In fact, one can show:
+For any functor $u\colon I\to J$ in $Dia$, we say it is a $D$-**equivalence** if the induced transformation $(\pi_I)_! (\pi_I)^* \to (\pi_J)_!(\pi_J)^*$ is an isomorphism, where $\pi_I\colon I\to *$ is the projection to the [[terminal category]], and similarly for $\pi_J$.  This means that homotopy colimits of *constant* diagrams of shapes $I$ and $J$ are equivalent.  By the [[Yoneda lemma]], this is equivalent to saying that
+$$ D(*)((\pi_J)_!(\pi_J)^* X , Y) \to D(*)((\pi_I)_!(\pi_I)^* X , Y)$$
+is an isomorphism for all $X,Y\in D(*)$, and by adjunction this is equivalent to saying that
+$$ D(*)((\pi_J)^* X , (\pi_J)^*Y) \to D(*)((\pi_I)^* X , (\pi_I)^*Y)$$
+is an isomorphism---i.e. that $u^*$ is fully faithful when restricted to the image of $\pi_J^*$.  In particular, if $u^*$ is fully faithful, then $u$ is a $D$-equivalence.
 
-+-- {: .num_lemma #NerveEquiv}
-###### Lemma
+In a representable derivator (i.e. in ordinary category theory), the colimit of a constant diagram of shape $I$ is a [[copower]] with the set of connected components of $I$.  Thus, in a representable derivator, any functor that induces an isomorphism on sets of connected components will be a $D$-equivalence, and the converse is true as long as the category in question is not a [[preorder]].
+
+By contrast, in the derivator coming from a model category or $(\infty,1)$-category, the colimit of a constant diagram of shape $I$ is a copower with the [[nerve]] of $I$ regarded as an $\infty$-groupoid, so in this case any functor that induces a homotopy equivalence of nerves (a stronger condition) will be a $D$-equivalence.  In fact, one can show:
+
++-- {: .num_theorem #NerveEquiv}
+###### Theorem (Cisinski)
 In any derivator $D$, any functor which induces a homotopy equivalence of nerves is a $D$-equivalence.
 =--
+
+As a first step towards this theorem, we can show that if $u\colon I\to J$ is a "homotopy equivalence" in $Dia$, i.e. there exists a functor $v\colon J\to I$ and zigzags of natural transformations relating $u v$ and $v u$ to identities, then $u$ is a $D$-equivalence.  We first observe:
+
++-- {: .un_lemma}
+###### Lemma
+Any functor in $Dia$ with a fully faithful left or right adjoint is a $D$-equivalence.
+=--
++-- {: .proof}
+###### Proof
+If $f\dashv g$ in $Dia$, then $g^* \dashv f^*$, and if $f$ is fully faithful, then the unit $1 \to g f$ is an isomorphism, and thus so is the unit $1\to f^* g^*$.  Hence $g^*$ is also fully faithful and so $g$ is a $D$-equivalence.  The other case is dual.
+=--
+
+It follows that if $I$ has an initial or terminal object, then the projection $I\times J\to J$ is a $D$-equivalence.  In particular, this is the case when $I$ is the [[interval category]].  We now need to know:
+
++-- {: .un_lemma}
+###### Lemma
+Let $W_D$ denote the class of $D$-equivalences in $Dia$.  Then $W_D$ is saturated, in the sense that if $u\colon I\to J$ is a morphism in $Dia$ which becomes an isomorphism in $Dia[W_D^{-1}]$, then $u$ is a $D$-equivalence.
+=--
++-- {: .proof}
+###### Proof
+Fix some $X,Y\in D(*)$ and consider the functor $\Phi\colon Dia \to Set^{op}$ which sends $I$ to $D(I)(\pi_I^*X, \pi_I^*Y)$.  Since $\Phi$ inverts $D$-equivalences, it factors through $Dia[W_D^{-1}]$.  But if $u$ becomes an isomorphism in $Dia[W_D^{-1}]$, then it must be inverted by $\Phi$, but that is the definition of being a $D$-equivalence (as $X$ and $Y$ vary).
+=--
+
+In particular, $D$-equivalences satisfy the 2-out-of-3 property.  Therefore, if $I$ is again the interval category, then the two inclusions $J\rightrightarrows I\times J$ are both $D$-equivalences.  Since the interval category is an [[interval object]] that describes natural transformations, it follows that if there is a natural transformation $f\to g$ in $Dia$, then $f$ is a $D$-equivalence if and only if $g$ is.
+
+Of course this then extends to arbitrary zigzags of natural transformations by induction.  Finally, if $f:I \rightleftarrows J:g$ is a homotopy equivalence, so that $f g$ and $g f$ are connected to identities by natural zigzags, then we can conclude that $f g$ and $g f$ are $D$-equivalences, and thus since $D$-equivalences also satisfy the 2-out-of-6 property, both $f$ and $g$ must be $D$-equivalences.
+
+Note, though, that there exist functors inducing an equivalence of nerves which are not homotopy equivalences in this sense.  For instance, the category $\mathbb{N}$ has a contractible nerve, but is not homotopy equivalent to $*$.  So we haven't fully proven Cisinski's theorem.
+
+
+### Exact squares
 
 Now suppose given any square
 $$\array{L & \overset{p}{\to} & I\\
@@ -155,7 +194,7 @@ For each $i\in I$, $j\in J$, and $\varphi\colon u(i) \to v(j)$ in $K$, let $(i/L
 =--
 +-- {: .proof}
 ###### Proof
-This follows from Lemma \ref{NerveEquiv}, together with the observation that assuming axiom (Der1), a coproduct of $D$-equivalences must be a $D$-equivalence.
+This follows from Theorem \ref{NerveEquiv}, together with the observation that assuming axiom (Der1), a coproduct of $D$-equivalences must be a $D$-equivalence.
 =--
 
 The corollary gives a convenient way to compute many homotopy limits and colimits, which works in any derivator, and *a fortiori* in any $(\infty,1)$-category or model category.
