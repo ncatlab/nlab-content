@@ -163,8 +163,8 @@ In the context of [[BV theory|BRST-BV quantization]] these statements are subsum
 ## Related concepts
 
 * [[perturbation theory]]
-
-* **renormalization**
+* [[BV quantization]]
+* [[gauge fixing]], [[Gribov ambiguity]]
 
 ## References {#References}
 
