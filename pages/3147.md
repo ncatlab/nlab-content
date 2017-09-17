@@ -15,19 +15,18 @@ This entry is about the article
 
 * [[Michael Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216))
 
-which discusses [[differential cohomology]] refinements of [[generalized (Eilenberg-Steenrod) cohomology]] and uses it to study [[quadratic refinements]] of [[intersection pairing]] $(x,y) \mapsto \int_\Sigma x \cup y$ in [[cohomology]]. This is motivated from and related to the [[physics]] of [[self-dual higher gauge theory]] appearing in [[string theory]] and the corresponding [[quantum anomaly|quantum anomalies]].
+which discusses ([[ordinary differential cohomology|ordinary]]) [[differential cohomology]] refinements of [[generalized (Eilenberg-Steenrod) cohomology]] and uses it to study [[quadratic refinements]] (via [[characteristic element of a bilinear form|characteristic cohomology classes]]) of [[intersection pairing]] $(x,y) \mapsto \int_\Sigma x \cup y$ in [[ordinary cohomology]]. [[mathematics|Mathematically]] this refines the construction of [[Theta characteristics]] to [[ordinary differential cohomology]] and to higher [[intermediate Jacobians]]. [[physics|Physically]] it is motivated from and related to [[self-dual higher gauge theory]] (see there for more) appearing in [[string theory]] and the corresponding [[quantum anomaly|quantum anomalies]]. In particular it makes rigorous the construction ([Witten 96](#M5-brane#Witten96)) of the [[partition function]] of the [[self-dual higher gauge field|self-dual]] [[B-field]] in the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
 
-The article introduces a systematic general definition for the refinement of any [[generalized (Eilenberg-Steenrod) cohomology]] theory to [[differential cohomology]] (the context for higher [[gauge field]]s in physics) in terms of [[differential function complex]]es. 
-
+The article introduces a systematic general definition for the refinement of any [[generalized (Eilenberg-Steenrod) cohomology]] theory to [[differential cohomology]] (the context for higher [[gauge field]]s in physics) in terms of [[differential function complexes]]. 
 In this construction continuous classifying maps from a [[smooth manifold]] into a [[spectrum]] [[Brown representability theorem|representing]] the given [[cohomology]] are equipped with smooth [[differential form]]s that have under the [[de Rham theorem]] the same class in real cohomology as the pullback along the classifying map of a collection of given real cocycles on the spectrum.
 
-For a modern perspective on this see at _[differential cohomology diagram-- Hopkins-Singer coefficients](differential%20cohomology%20diagram#HopkinsSingerCoefficients)_.
+For a maybe streamlined discussion of this construction of [[differential cohomology]] see at _[[differential cohomology hexagon]]_ the section _[Hopkins-Singer coefficients](differential%20cohomology%20diagram#HopkinsSingerCoefficients)_.
 
-The connecton of this work to the physics of the [[electromagnetic field]] and of higher [[gauge field]]s in  [[string theory]] was later developed further notably in
+The connecton of this work to the [[physics]] of the [[electromagnetic field]] and of  [[higher gauge field]] in  [[string theory]] was later furher advertized in
 
 * [[Daniel Freed]], _Dirac charge quantization and generalized differential cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220)).
 
-To this date generalized [[differential cohomology]] theories keep being studied mostly with motivation from [[string theory]], but the work of Hopkins and Singer has put this subject on solid mathematical ground, and an independent mathematical field of differential cohomology is developing since then. See the list of references at [[differential cohomology]].
+To this date generalized [[differential cohomology]] theories keep being studied mostly with motivation from [[string theory]], but the work of Hopkins and Singer has put this subject on solid mathematical ground, and an independent mathematical field of differential cohomology is developing since then. See the list of references at _[differential cohomology -- References](differential+cohomology#References)_ and at _[differential cohomology hexagon -- References](differential+cohomology+diagram#References)_ .
 
 #Some linked keywords#
 * table of contents
