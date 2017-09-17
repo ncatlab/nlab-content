@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Near-rings
 
 * table of contents
@@ -25,23 +24,31 @@ Canceling $x$ on the left and $y$ on the right, we have $x+y=y+x$.
 
 Thus, in order for the notion of near-ring to be different from that of a ring, we need to relax the [[distributivity law]] as well; we impose it only on one side.
 
+
 ## Definition
 
 A **near-ring** is a set $R$ equipped with
 
 1. A [[group]] structure $(R,+,0)$,
 
-1. A [[monoid]] structure $(R,\cdot,1)$,
+2. A [[monoid]] structure $(R,\cdot,1)$,
 
-1. such that for any $x,y,z\in R$ we have $(x+y)\cdot z = (x\cdot z) + (y\cdot z)$, and for any $x\in R$ we have $0\cdot x = 0$.
+3. such that for any $x,y,z\in R$ we have $(x+y)\cdot z = (x\cdot z) + (y\cdot z)$, and for any $x\in R$ we have $0\cdot x = 0$.
 
-If $(R,+,0)$ is only a monoid, we say instead that $R$ is a **near-rig** or a **near-semiring**.
+If $(R,+,0)$ is only a monoid, we say instead that $R$ is a **near-rig** or a **near-semiring**.  (Of course, now it is possible to have distributivity on both sides without making addition commutative, since addition need not always cancel.)
+
 
 ## Internalization
 
 Of course, near-rings can be defined [[internalization|internally]] to any [[cartesian monoidal category]].  More generally, they can be defined internally to a [[duoidal category]].
 
+
 [[!redirects near-ring]]
 [[!redirects near-rings]]
+[[!redirects nearring]]
+[[!redirects nearrings]]
+
 [[!redirects near-rig]]
 [[!redirects near-rigs]]
+[[!redirects nearrig]]
+[[!redirects nearrigs]]
