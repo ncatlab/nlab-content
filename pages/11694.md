@@ -29,7 +29,7 @@ Fully generally one might call any [[Picard ∞-groupoid]] equipped with the str
 
 For some algebraic [[site]]/[[(∞,1)-site]] such as the [[étale site]] or the [[étale (∞,1)-site]], write $\mathcal{B}$ for the [[(∞,1)-topos of (∞,1)-sheaves]] over that site. For $S\in \mathcal{B}$ any object, write $\mathcal{B}_{/S}$ for its [[slice (∞,1)-topos]].
  
-Here $\mathcal{B}$ contains a canonical [[group object in an (∞,1)-category|group object]] $\mathbb{G}_m \in Grp(\mathbf{B})$, the absolute [[multiplicative group]] given as an [[(∞,1)-presheaf]] by the assignment which sends any [[commutative ring]]/[[E-∞ ring]] to its [[group of units]]/[[∞-group of units]]
+Here $\mathcal{B}$ contains a canonical [[group object in an (∞,1)-category|group object]] $\mathbb{G}_m \in Grp(\mathcal{B})$, the absolute [[multiplicative group]] given as an [[(∞,1)-presheaf]] by the assignment which sends any [[commutative ring]]/[[E-∞ ring]] to its [[group of units]]/[[∞-group of units]]
 
 $$
   \mathbb{G}_m \;\colon\; R \mapsto R^\times
