@@ -41,7 +41,7 @@ A simplicial topological group $G$ is called **well-pointed** if for $*$ the tri
 
 =--
 
-For $B \in Top$ a fixed base object, it is often desireable to work in "$B$-parameterized families", hence in the [[over-category]] $Top/B$ (see [MaySigurdson](#MaySigurdson)). There is the 
+For $B \in Top$ a fixed base object, it is often desirable to work in "$B$-parameterized families", hence in the [[over-category]] $Top/B$ (see [MaySigurdson](#MaySigurdson)). There is the 
 [[Strøm model structure|relative Strøm model structure]] on $Top/B$.
 
 +-- {: .un_def}
