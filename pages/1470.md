@@ -90,7 +90,7 @@ A standard textbook reference is
 
 An account is given in [chapter 47](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf#page=2103) of 
 
-* [[Aise Johan de Jong]],  _The Stacks Project_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 
 
 The noncommutative version is discussed in
