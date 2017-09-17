@@ -93,6 +93,10 @@ By the discussion at [[indexed category]].
 ## Related concepts
 
 * [[base (∞,1)-topos]]
+* [[internal site]]
+* [[internal sheaves]]
+* [[bounded geometric morphism]]
+* [[unbounded topos]]
 
 
 ## References
