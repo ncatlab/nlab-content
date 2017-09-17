@@ -894,6 +894,8 @@ the space of [[holomorphic sections]] of such a [[holomorphic line bundle]]. The
 
 A way to reduce the number of choices in this example of geometric quantization is to proceed by [[quantization via the A-model]], see ([Gukov-Witten 08, p. 6 onwards](#GulovWitten08)).
 
+For more see _[[geometric quantization of the 2-sphere]]_.
+
 ### Theta functions
 
 See at _[[theta function]]_.
