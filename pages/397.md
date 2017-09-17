@@ -102,6 +102,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[John Cook]]
 * [[John Huerta]]
 * [[Jon Awbrey]]
+* [[Jon Beardsley]]
 * [[Jon Phillips]]
 * [[Jonas Frey]]
 * [[Jonas Meyer]]
