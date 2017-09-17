@@ -1,6 +1,6 @@
 Definability is most often considered only for a first-order language $L$ (not a theory); a definable set is an equivalence class of formulas which evaluate in the same way in every $L$-structure. It makes sense to do the same for a theory: in that case in the definition of the equivalence relation one restricts to models of $T$. 
 
-Let $L$ be a first-order language and $T$ a theory in $L$. Any formula $\phi(x_1,\ldots,x_n)$, whose only free variables could be among $x_1,\ldots,x_n$, together with a [[model]] $M$ for $T$ evaluates to a truth value on each $a = (a_1,\ldots,a_n)\in  M^n$, hence it determines the subset $\phi(M)\subset M^n$ of all $a$ such that $\phi(a)$. Two formulas $\phi,\psi$ with the same number of free variables are equivalent if $\phi(M) = \psi(M)$ for every model $M$ of $T$. A __definable set__ $X$ in $T$ is an equivalence class of formulas in $L$ under this relation. Consider the category $\mathcal{M}_{el}(L)$ of $L$-[[structure in model theory|structures]] and [[elementary monomorphism]]s and its full subcategory $\mathcal{M}_{el}(T)$ whose objects are the models of $T$. We can also view a __definable set__ for a theory $T$ as a [[functor]] $\mathcal{M}_{el}(T)\to Set$. 
+Let $L$ be a first-order language and $T$ a theory in $L$. Any formula $\phi(x_1,\ldots,x_n)$, whose only free variables could be among $x_1,\ldots,x_n$, together with a [[model]] $M$ for $T$ evaluates to a truth value on each $a = (a_1,\ldots,a_n)\in  M^n$, hence it determines the subset $\phi(M)\subset M^n$ of all $a$ such that $\phi(a)$. Two formulas $\phi,\psi$ with the same number of free variables are equivalent if $\phi(M) = \psi(M)$ for every model $M$ of $T$. A __definable set__ $X$ in $T$ is an equivalence class of formulas in $L$ under this relation. Consider the category $\mathcal{M}_{el}(L)$ of $L$-[[structure in model theory|structures]] and [[elementary monomorphism]]s and its full subcategory $\mathcal{M}_{el}(T)$ whose objects are the models of $T$. We can also view a __definable set__ for a theory $T$ as a [[functor]] $\mathcal{M}_{el}(T)\to Set$ which is of the form $M\mapsto\phi(M)$ for some $L$-formula $\phi$. 
 
 By $X(M)$ denote the set of all $a\in M$ such that $X(a)$ holds, i.e. $\phi(a)$ is true for any choice of representative $\phi\in X$. 
 
@@ -24,7 +24,8 @@ In other words, functoriality of $\tilde\alpha$ is the same as $\alpha$ being na
 
 __Corollary.__ Definable functions for $L$ (for $T$) are in 1-1 correspondence with natural transformations of __definable sets__ as functors $\mathcal{M}_{el}(L)\to Set$ (resp. $\mathcal{M}_{el}(T)\to Set$). 
 
-For a fixed (multi-sorted) theory $T$, definable sets and definable functions form a category. 
+For a fixed (multi-sorted, first-order) theory $T$, definable sets and definable functions form a category $Def(T)$. This category (or any equivalent category) is the [[syntactic category]] of the theory. Models of $T$ can be recovered as left exact 
+functors $Def(T)\to Set$. Notice that definable sets are functors from models to sets, and models are functors definable sets to sets; just the latter are the "evaluation functionals" among all functors. 
 
 See also [[definable groupoid]].
 
@@ -33,6 +34,8 @@ An $\infty$-definable set is an intersection of definable sets.
 We can also consider a _relative_ version of a definable set (definability with parameters). 
 
 Given definable sets $X,Y$, a _fixed_ model $M$ and a _fixed_ set $A\subset X(M)$, we say that an element $b\in Y(M)$ is definable over $A$ if there is $(a_1,\ldots,a_n)\in A^n$ and a $T$-definable function $f:X^n\to Y$ such that $f(a_1,\ldots,a_n)=b$. All elements $b$ definable over $A$ form the subset $Y(A)\subset Y(M)$. A subset $B\subset M$ is __definably closed__ if it is closed under definable functions. Given $A\subset M$, there is the minimal definably closed subset $B$ such that $A\subset B\subset M$, the __definable closure__ $B = dcl(A)$ of $A$.  
+
+If we extend the language by the constants from $A$ we get a new language $L_A$. The definable sets in language $L$ over $A$ are the definable sets in language $L_A$ over $\emptyset$.
 
 One can also study [[ind-object]]s and [[pro-object]]s in the category of definable sets and definable functions. 
 
