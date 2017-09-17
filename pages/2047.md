@@ -6,5 +6,5 @@ The notion of socle is important in [[representation theory]].
 
 Notice that the notion is dual to the notion of the radical $Rad(M)$ which is the intersection of all maximal submodules of $M$. 
 
-* Joachim Lambek, _Lectures on rings and modules_, Waltham Mass. 1966
+* [[Joachim Lambek]], _Lectures on rings and modules_, Waltham Mass. 1966
 * wikipedia [socle (mathematics)](http://en.wikipedia.org/wiki/Socle_%28mathematics%29)
