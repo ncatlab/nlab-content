@@ -243,7 +243,7 @@ $\mathbf{H}$ an [[(∞,1)-topos]] then also the tangent $(\infty,1)$-category $T
 
 The argument proceeds along the following lines.
 
-Let $seq$ be the [[diagram]] category (following [Joyal 08, section 35.35](#Joyal08))
+Let $seq$ be the [[diagram]] category (following [Joyal 08, section 35.5](#Joyal08)) as follows:
 
 $$
   seq 
@@ -268,11 +268,11 @@ $$
      \\
      && && && \vdots
     }
-  \right\}
+  \right\}_{n \in \mathbb{Z}}
   \,.
 $$
 
-Given an [[(∞,1)-topos]] $\mathbf{H}$, an [[(∞,1)-functor]]
+Then given an [[(∞,1)-topos]] $\mathbf{H}$, an [[(∞,1)-functor]]
 
 $$
   X_\bullet \;\colon\; seq \longrightarrow \mathbf{H}
@@ -286,7 +286,26 @@ is equivalently
 
 1. a sequence of [[morphisms]] $X_n \longrightarrow \Omega_B X_{n+1}$ from $X_n$ into the [[loop space object]] of $X_{n+1}$ in the slice.
 
-This is a [[prespectrum object]] in $\mathbf{H}_{/B}$. The [[(∞,1)-presheaf (∞,1)-topos]] 
+This is a [[prespectrum object]] in $\mathbf{H}_{/B}$. 
+
+A [[natural transformation]] 
+$f \;\colon \;X_\bullet \to Y_\bullet$ between two such functors with components
+
+$$
+  \left\{
+  \array{
+    X_n &\stackrel{f_n}{\longrightarrow}& Y_n
+    \\
+    \downarrow^{\mathrlap{p_n^X}} && \downarrow^{\mathrlap{p_n^Y}}
+    \\
+    B_1 &\stackrel{f_b}{\longrightarrow}& B_2
+  }
+  \right\}
+$$
+
+is equivalently a morphism of base objects $f_b \;\colon\; B_1 \longrightarrow B_2$ in $\mathbf{H}$ together with morphisms $X_n \longrightarrow b^\ast Y_n$ into the [[(∞,1)-pullback]] of the components of $Y_\bullet$  along $b$
+
+Therefore the [[(∞,1)-presheaf (∞,1)-topos]] 
 
 $$
   \mathbf{H}^{seq}
@@ -294,7 +313,7 @@ $$
   Func(seq, \mathbf{H})
 $$ 
 
-is hence the self-indexing of $\mathbf{H}$ with "fiberwise pre-stabilization".
+is the self-indexing of $\mathbf{H}$ with "fiberwise pre-stabilization".
 
 A genuine [[spectrum object]] is a [[prespectrum object]] for which all the structure maps $X_n \stackrel{\simeq}{\longrightarrow} \Omega_B X_{n+1}$ are [[equivalence in an (∞,1)-category|equivalences]]. The [[full sub-(∞,1)-category]] 
 
@@ -302,16 +321,41 @@ $$
   T \mathbf{H} \hookrightarrow \mathbf{H}^{seq}
 $$
 
-on the genuine [[spectrum objects]] is the tangent $(\infty,1)$-category.
+on the genuine [[spectrum objects]] is therefore the "fiberwise [[stabilization]]" of the self-indexing, hence the tangent $(\infty,1)$-category.
 
-One observes ([Joyal 08, section 35.1](#Joyal08)) that the inclusion of spectrum objects into prespectrum objects has a [[left adjoint]] given by a [[filtered (∞,1)-colimit]] construction. Since these filtered colimits commute with [[finite (∞,1)-limits]], it follows that spectrum objects are a left [[exact (∞,1)-functor|exact]] [[reflective sub-(∞,1)-category]] 
+One observes ([Joyal 08, section 35.1](#Joyal08)) that the inclusion of spectrum objects into prespectrum objects has a [[left adjoint]] given by a [[filtered (∞,1)-colimit]] construction:
+
+Forming degreewise [[loop space objects]] constitutes a functor $\Omega \colon \mathbf{H}^{seq} \longrightarrow \mathbf{H}^{seq}$ and by definition of $seq$ this comes with a [[natural transformation]] out of the identity
 
 $$
-  T \mathbf{H} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} \mathbf{H}^{seq}
+  \theta \;\colon\; id \longrightarrow \Omega
   \,.
 $$
 
-But this means, by the discussion at _[[(∞,1)-topos]]_,  that $T \mathbf{H}$ is an [[(∞,1)-topos]].
+This in turn is compatible with $\Omega$ in that
+
+$$
+  \theta \circ \Omega \simeq \Omega \circ \theta
+  \;\colon\;
+  \rho \longrightarrow \rho \circ \rho = \rho^2
+  \,.
+$$
+
+Consider then a sufficient [[transfinite composition]] $\rho^{tf}$ which stabilizes, then this provides a [[reflective sub-(infinity,1)-category|reflection]] $L \;\colon\; \mathbf{H}^{seq} \longrightarrow T \mathbf{H}$.
+
+Since [[transfinite composition]] is a [[filtered (∞,1)-colimit]] and since in an [[(∞,1)-topos]] these commute with [[finite (∞,1)-limits]], it follows that spectrum objects are an [[exact (∞,1)-functor|left exact]] [[reflective sub-(∞,1)-category]] 
+
+$$
+  T \mathbf{H} \stackrel{\overset{L_{lex}}{\leftarrow}}{\hookrightarrow} \mathbf{H}^{seq}
+  \,.
+$$
+
+([Joyal 08, section 35.1](#Joyal08))
+
+But this means, by the discussion at _[[(∞,1)-topos]]_,  that $T \mathbf{H}$ has a [[geometric embedding]] into an [[(∞,1)-topos]] and is hence itself an [[(∞,1)-topos]].
+
+([Joyal 08, section 35.5](#Joyal08))
+
 
 Now assume that $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]:
 
@@ -355,10 +399,18 @@ $$
 
 Again since $L$ is a [[left exact (∞,1)-functor]] this composite $L \Pi$ preserves finite [[(∞,1)-products]].
 
-So it should follow in conclusion that if $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then its tangent $(\infty,1)$-category $T \mathbf{H}$ is itself a [[cohesive (∞,1)-topos]] over the tangent $(\infty,1)$-category  $T \infty Grpd$ of the [[base (∞,1)-topos]]:
+So it should follow in conclusion that if $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then its tangent $(\infty,1)$-category $T \mathbf{H}$ is itself a [[cohesive (∞,1)-topos]] over the tangent $(\infty,1)$-category  $T \infty Grpd$ of the [[base (∞,1)-topos]], which is an [[extension]] of the cohesion of the $\infty$-topos $\mathbf{H}$ over $\infty Grpd$ by the cohesion of the stable $\infty$-category $Stab(\mathbf{H})$ over $Stab(\infty Grpd) \simeq Spec$:
 
 $$
   \array{
+    Stab(\mathbf{H})
+    &
+    \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
+    &
+    Stab(\infty Grpd)
+    \\
+    \downarrow^{\mathrlap{incl}} && \downarrow^{\mathrlap{incl}}
+    \\
     T \mathbf{H}
     &
     \stackrel{\overset{L\Pi^{seq}}{\longrightarrow}}{\stackrel{\overset{Disc^{seq}}{\leftarrow}}{\stackrel{\overset{\Gamma^{seq}}{\longrightarrow}}{\underset{coDisc^{seq}}{\leftarrow}}}}
