@@ -4375,13 +4375,198 @@ $$
 
 ([SchreiberWaldorf](#SchreiberWaldorf)).
 
-#### Simplicial sets
+#### $\infty$-Groupoids and Simplicial sets
+
+An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
+
+$$
+  K : \Delta^{op} \to Set
+$$
+
+as specifying
+
+* a set $[0] \mapsto K_0$ of [[object]]s;
+
+* a set $[1] \mapsto K_1$ of [[morphism]];
+
+* a set $[2] \mapsto K_2$ of [[2-morphism]];
+
+* a set $[3] \mapsto K_3$ of [[3-morphism]];
+
+and generally
+
+* a set $[k] \mapsto K_k$ of [[k-morphism]]s
+
+as well as specifying
+
+* functions $([n] \hookrightarrow [n+1]) \mapsto (K_{n+1} \to K_n)$
+  that send $n+1$-morphisms to their boundary $n$-morphisms;
+
+* functionss $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
+  that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
+  on them.
+
+The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
+These are called the [[simplicial identities]].
+
+But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
+
+For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
+
+$$
+  \Lambda^1[2] = \left\{
+    \array{
+       && 1
+       \\
+       & \nearrow && \searrow
+       \\
+       0 &&&& 2
+    }
+  \right\}
+$$
+
+and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and not to be [[evil]]), we want to identify this composite only up to a [[2-morphism]] equivalence
+
+$$
+    \array{
+       && x_1
+       \\
+       & {}^{\mathllap{f}}\nearrow &\Downarrow^{\mathrlap{\simeq}}& 
+       \searrow^{\mathrlap{g}}
+       \\
+       x_0 &&\stackrel{h}{\to}&& x_2
+    }
+  \,.
+$$
+
+From the picture it is clear that this is equivalent to demanding that for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex we have a diagram of morphisms of simplicial sets
+
+$$
+  \array{
+    \Lambda^1[2] &\stackrel{(f,g)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists h}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
+
+For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
+
+$$
+  \Lambda^2[2] = \left\{
+    \array{
+       && 1
+       \\
+       & && \searrow
+       \\
+       0 &&\to&& 2
+    }
+  \right\}
+$$
+
+the simplicial set consisting of two 1-morphisms that touch at their end, hence for 
+
+$$
+  (g,h) : \Lambda^2[2] \to K
+$$
+
+two such 1-morphisms in $K$, then if $g$ had an inverse $g^{-1}$ we could use the above composition operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets of the form
+
+$$
+  \array{
+    \Lambda^2[2] &\stackrel{(g,h)}{\to}& K
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists f}}
+    \\
+    \Delta[2]
+  }
+  \,.
+$$
+
+Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
+
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphism]]s, which means that we can find the relevant [[tetrahedra]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
+
+let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
+
+Then a simplicial set is called a [[Kan complex]], if for all images $f : \Lambda^i[n] \to K$ of such horns in $K$, the missing two cells can be found in $K$- in that we can always find a _horn filler_ $\sigma$ in the diagram
+
+$$
+  \array{
+     \Lambda^i[n] &\stackrel{f}{\to}& K
+     \\
+     \downarrow & \nearrow_{\mathrlap{\sigma}}
+     \\
+     \Delta[n]
+  }
+  \,.
+$$
+
+The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
+
+
+
 
 * [[simplicial set]]
 
 * [[model structure on simplical sets]]
 
-#### Simplicial presheaves
+#### Cohesive $\infty$-Groupoids and Simplicial presheaves
+
+But we need a bit more than just bare [[∞-groupoid]]s. In generalization to [[Lie groupoid]]s, we need [[∞-Lie groupoid]]s. A useful way to encode that an $\infty$-groupoid has extra structure modeled on geometric test objects that themselves form a category $C$ is to remember the rule which for each test space $U$ in $C$ produces the $\infty$-groupoid of $U$-parameterized families of $k$-morphisms in $K$.  For instance for an [[∞-Lie groupoid]] we could test with each [[Cartesian space]] $U = \mathbb{R}^n$ and find the $\infty$-groupoids $K(U)$ of smooth $n$-parameter families of $k$-morphisms in $K$.
+
+This data of $U$-families arranges itself into a [[presheaf]] with values in Kan complexes
+
+$$
+  K : C^{op} \to KanCplx \hookrightarrow sSet
+$$
+
+hence with values in simplicial sets. This is equivalently a [[simplicial presheaf]] of sets. The [[functor category]] $[C^{op}, sSet]$ on the [[opposite category]] of the category of test objects $C$ serves as a model for the [[(∞,1)-category]] of $\infty$-groupoids with $C$-structure.
+
+While there are no [[higher morphism]]s in this functor 1-category that could for instance witness that two $\infty$-groupoids are not [[isomorphic]], but still [[equivalence of categories|equivalent]], it turns out that all one needs in order to reconstruct _all_ these higher morphisms (up to equivalence!) is just the information of which morphisms of simplicial presheaves would become invertible if we were keeping track of higher morphism. These would-be invertible morphisms are called _weak equivalences_ and denoted $K_1 \stackrel{\simeq}{\to} K_2$. 
+
+For common choices of $C$ there is a well-understood way to define the weak equivalences $W \subset mor [C^{op}, sSet]$, and equipped with this information the category of simplicial presheaves becomes a _[[category with weak equivalences]]_ . There is a well-developed but somewhat intricate theory of how exactly this 1-cagtegorical data models the full higher category of structured groupoids that we are after, but for our purposes we essentially only need to work inside the [[category of fibrant objects]] of a [[model category]] structure [[model structure on simplicial presheaves|on simplicial presheaves]], which in practice amounts to the fact that we use the following three basic constructions:
+
+1. **[[∞-anafunctor]]s** -- A morphisms $X \to Y$ between $\infty$-groupoids with $C$-structure is not just a morphism $X\to Y$ in $[C^{op}, sSet]$, but is a [[span]] of such ordinary morphisms
+
+   $$
+     \array{  
+        \hat X &\to& Y
+        \\
+        \downarrow^{\mathrlap{\simeq}}
+        \\
+        X
+     }
+   $$
+
+   where the left leg is a weak equivalence. This is sometimes called an _$\infty$-anafunctor_ from $X$ to $Y$.
+ 
+1. **[[homotopy pullback]]** -- For $A \to B \stackrel{p}{\leftarrow} C$ a [[diagram]], the [[(∞,1)-pullback]] of it is the ordinary [[pullback]] in $[C^{op}, sSet]$ of a replacement diagram $A \to B \stackrel{\hat p}{\leftarrow} \hat C$, where $\hat p$ is a _good replacement_  of $p$ in the sense of the following factorization lemma.
+
+1. **[[factorization lemma]]** -- For $p : C \to B$ a morphism in $[C^{op}, sSet]$, a _good replacement_ $\hat p : \hat C \to B$ is given by the composite vertical morphism in the ordinary [[pullback]] diagram
+
+   $$
+     \array{
+       \hat C &\to& C
+       \\
+       \downarrow && \downarrow^{\mathrlap{p}}
+       \\
+       B^{\Delta[1]} &\to& B
+       \\
+       \downarrow
+       \\
+       B
+     }
+     \,,
+   $$
+
+  where $B^{\Delta[1]}$ is the [[path object]] of $B$: 
+  the simplicial presheaf that is over each $U \in C$ the
+  simplicial path space $B(U)^{\Delta[1]}$.
 
 * [[simplicial presheaf]]
 
@@ -4495,6 +4680,7 @@ $$
 
 #### Simplicial groups
 
+
 ##### Discrete
 
 * [[simplicial group]]
@@ -4508,6 +4694,22 @@ $$
 * [[simplicial topological space]]
 
 * [[geometric realization of simplicial topological spaces]]
+
+#### Connected groupoids
+
+any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
+  
+$$
+  \mathbf{B}G
+  =
+  * \sslash G
+  = 
+  \left(
+     G \stackrel{\to}{\to} * 
+  \right)
+  \,.
+$$
+
 
 #### 2-Groups
 
@@ -4587,20 +4789,368 @@ $$
 
 ### Model Layer
 
-#### Connected groupoids
+#### Principal 1-Bundles
 
-any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
-  
+Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[paracompact space|paracompact]]). 
+
+We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalization to a description of [[principal ∞-bundle]]s.
+
+From the group $G$ we canonically obtain a [[groupoid]] that we write $\mathbf{B}G$ and call the [[delooping]] groupoid of $G$. Formally this groupoid is
+
 $$
-  \mathbf{B}G
+  \mathbf{B}G = (G \stackrel{\to}{\to} *)
+$$
+
+with composition induced from the product in $G$. A useful cartoon of this groupoid is
+
+$$
+  \mathbf{B}G = 
+  \left\{
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{g_1}}\nearrow 
+      &=& 
+      \searrow^{\mathrlap{g_2}}
+      \\
+      \bullet &&\stackrel{g_2 \cdot g_1 }{\to}&& \bullet
+    }
+  \right\}
+$$
+
+where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention whose choice, once and for all, does not matter up to equivalence.)
+
+But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathbf{B}G$  that makes it a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
+
+$$
+  \mathbf{B}G \in LieGrpd
+$$
+
+for $\mathbf{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[Smooth∞Grpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
+
+[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $B G_{disc}$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
+
+Also the smooth manifold $X$ may be regarded as a [[Lie groupoid]] -- a groupoid with only identity morphisms. Its cartoon description is simply
+
+$$
+  X = \{x \stackrel{id}{\to} x \}
+  \,.
+$$
+
+But there are other groupoids associated with $X$:
+
+Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. To this is canonically associated the [[Cech groupoid]] $C(\{U_i\})$. Formally we may write this groupoid as
+
+$$
+  C(\{U_i\})
   =
-  * \sslash G
-  = 
   \left(
-     G \stackrel{\to}{\to} * 
+    \coprod_{i,j} U_i \cap U_j
+    \stackrel{\overset{p_1}{\to}}{\underset{p_2}{\to}}
+    \coprod_i U_i
   \right)
   \,.
 $$
+
+A useful cartoon description of this groupoid is
+
+$$
+  C(\{U_i\})
+  = 
+  \left\{
+    \array{
+       && (x,j)
+       \\
+       & \nearrow &=& \searrow
+       \\
+      (x,i) &&\to&& (x,k)
+    }
+  \right\}
+  \,.
+$$
+
+This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s. 
+hence also $C(U)$ becomes a [[Lie groupoid]].
+
+There is a canonical [[functor]]
+
+$$
+  C(\{U_i\}) \to X \;\; :\;\; (x,i) \mapsto x
+  \,.
+$$
+
+This functor is an [[internal functor]] in [[Diff]] and moreover it is evidently [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]]. 
+
+However, while 
+essential surjectivity and full-and-faithfulness implies that the underlying bare functor has a homotopy-inverse, that homotopy-inverse never 
+has itself smooth component maps, unless $X$ itself is a Cartesian space and the chosen cover is trivial.
+
+We do however want to think of $C(\{U_i\})$ as being equivalent to $X$ even as a Lie groupoid. 
+One says that a smooth functor whose underlying bare functor is an equivalence of groupoids is
+a _weak equivalence_ of Lie groupoids, which we write as 
+$C(\{U_i\}) \stackrel{\simeq}{\to} X$.
+Moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its non-empty finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{dim X}$. 
+
+We shall discuss later in which precise sense this condition makes $C(U)$ _good_ in the sense that smooth functors out of $C(U)$ model the correct notion of morphism out of $X$ in the context of smooth groupoids (namely it will mean that $C(U)$ is cofibrant in a suitable [[model category]] structure on the category of Lie groupoids). The formalization of this statement is what [[(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
+
+Observe that a [[functor]]
+
+$$
+  g : C(U) \to \mathbf{B}G
+$$
+
+is given in components precisely by a collection of functions
+
+$$
+  \{g_{i j} : U_{i j} \to G \}_{i,j \in I}
+$$
+
+such that on each $U_i \cap U_k \cap U_j$ the equality $g_{j k} g_{i j}  = g_{i k}$ of [[smooth function]]s holds:
+
+$$
+  \left(
+    \array{
+       && (x,j)
+       \\
+       & \nearrow && \searrow
+       \\
+      (x,i) &&\to&& (x,k)
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_{i j}(x)}}\nearrow
+       && \searrow^{\mathrlap{g_{j k}(x)}}
+       \\
+      \bullet &&\stackrel{g_{i k}(x)}{\to}&& \bullet
+    }
+  \right)
+  \,.
+$$
+
+It is well known that such collections of functions characterize $G$-[[principal bundle]]s on $X$. While this is a classical fact, we shall now describe a way to derive it that is true to the Lie-groupoid-context and that will make clear how smooth principal $\infty$-bundles work.
+
+First observe that in total we have discussed so far [[span]]s of smooth functors of the form
+
+$$
+  \array{
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+  \,.
+$$
+
+Such spans of functors, whose left leg is a weak equivalence, are sometimes known, essentially equivalently, as [[Morita morphism]]s or _generalized morphisms_ of Lie groupoids, as [[Hilsum-Skandalis morphism]]s or groupoid [[bibundle]]s, or as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined direct morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of $\infty$-Lie groupoids. 
+
+Now consider yet another Lie groupoid canonically associated with $G$: we shall write $\mathbf{E}G$ for the groupoid whose formal description is
+
+$$
+  \mathbf{E}G  = 
+  \left(
+    G \times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G 
+  \right)
+$$
+
+with the evident composition operation. The cartoon description of this groupoid is
+
+$$
+  \mathbf{E}G
+  = 
+  \left\{
+     \array{
+        && g_2
+        \\
+        & {}^{\mathllap{g_2 g_1^{-1}}}\nearrow &=& \searrow^{\mathrlap{g_3 g_2^{-1}}}
+        \\
+        g_1 &&\stackrel{ g_3 g_1^{-1}}{\to}&& g_3
+     }
+  \right\}
+  \,,
+$$
+
+This again inherits an evident smooth structure from the smooth structure of $G$ and hence becomes a Lie groupoid.
+
+There is an evident [[forgetful functor]]
+
+$$
+  \mathbf{E}G \to \mathbf{B}G
+$$
+
+which sends
+
+$$
+  (g_1 \to g_2) \mapsto (\bullet \stackrel{g_2^{-1} g_1}{\to} \bullet)
+  \,.
+$$
+
+Consider then the [[pullback]] diagram
+
+$$
+  \array{
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+$$
+
+in the category $Grpd(Diff)$.
+The object $\tilde P$ is the Lie groupoid whose cartoon description is
+
+
+$$
+  \array{
+    \tilde P = 
+    \left\{
+       \array{
+          (x,i,g_1) &&\stackrel{}{\to}&& (x,j,g_2 = g_{i j}(x) g_1 )
+       }
+   \right\}
+  }
+  \,,
+$$
+
+where there is a unique morphism as indicated, whenever the group labels match as indicated. Due to this uniqueness, this Lie groupoid is weakly equivalent to one that comes just from a manifold $P$ (it is 0-[[truncated]])
+
+$$
+  \tilde P \stackrel{\simeq}{\to} P
+  \,.
+$$
+
+This $P$ is traditionally written as
+
+$$
+  P = \left( \coprod_{i} U_i \times G \right)/{\sim}
+  \,,
+$$
+
+where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functions $\{g_{i j}\}$. We may think of $\tilde P$ as _being_ $P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
+
+While it is easy to see in components that the $P$ obtained this way does indeed have a principal $G$-[[action]] on it, for later generalizations it is crucial that we can also recover this in a general abstract way. For notice that there is a canonical [[action]]
+
+$$
+  (\mathbf{E}G) \times G \to \mathbf{E}G
+$$
+given by the action of $G$ on the space of objects, which are themselves identified with $G$.
+
+Then consider the [[pasting]] diagram of pullbacks
+
+$$
+  \array{
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+  \,.
+$$
+
+The morphism $\tilde P \times G \to \tilde P$ exhibits the principal $G$-[[action]] of $G$ on $\tilde P$.
+
+
+In summary we find
+
++-- {: .un_prop}
+###### Observation
+
+For $\{U_i \to X\}$ a [[good open cover]], there is an [[equivalence of categories]]
+
+$$
+  SmoothFunc(C(\{U_i\}), \mathbf{B}G)
+  \simeq
+  G Bund(X)
+$$
+
+between the [[functor category]] of smooth functors and smooth natural transformations, and the groupoid of smooth $G$-[[principal bundle]]s on $X$. 
+
+=--
+
+It is no coincidence that this statement looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[homotopy]]-classes of morphisms of [[topological space]]s 
+
+$$
+  \pi_0 Top(X, \mathbf{B}G)
+  \simeq
+  \pi_0 G Bund(X)
+  \,,
+$$
+
+where $\mathbf{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. The category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
+
+In fact, all of the statements that we have considered so far become conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we considered is just a model for the [[homotopy pullback]] of just the _point_ 
+
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+     \\
+     {}
+     \\
+     {}
+     \\
+     & in\;the\;model\;category &
+  }
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \array{
+     \vdots && \vdots
+     \\
+     P \times G &\to& G
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow
+     \\
+     P &\to& * 
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow 
+     \\
+     X &\stackrel{}{\to}& \mathbf{B}G
+     \\
+     .
+     \\
+     .
+     \\
+     \\
+     \\
+     & in\;the\;(\infty,1)-topos
+  }
+  \,.
+$$
+
+
 
 #### Universal principal bundle
 
@@ -4652,6 +5202,103 @@ and the right square is a [[pullback]]
 
 
 #### Weakly principal simplicial bundles
+
+The [[principal ∞-bundle]]s that we wish to model are already the main and simplest example of the application of these three items: 
+
+Consider an object $\mathbf{B}G \in [C^{op}, sSet]$ which is an $\infty$-groupoid with a single object, so that we may think of it as the [[delooping]] of an [[∞-group]] $G$, let $*$ be the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]] $\mathbf{E}G \to \mathbf{B}G$ given by the pullback diagram
+  
+$$
+  \array{ 
+    \mathbf{E}G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G^{\Delta[1]} &\to& \mathbf{B}G
+    \\
+    \downarrow
+    \\
+     \mathbf{B}G
+   }
+$$
+
+An [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \to \mathbf{B}G$ we call a [[cocycle]] on $X$ with coefficients in $G$, and the [[(∞,1)-pullback]] $P$ of the point along this cocycle, which by the above discussion is the ordinary [[limit]]
+
+
+$$
+  \array{ 
+    P &\to& \mathbf{E}G &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    && \mathbf{B}G^I &\to& \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \hat X &\stackrel{g}{\to}& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+we call the [[principal ∞-bundle]] $P \to X$ classified by the cocycle.
+
+It is now evident that our discussion of ordinary smooth principal bundles [above](#PrincipalBundles) is the special case of this for $\mathbf{B}G$ the [[nerve]] of the one-object groupoid associated with the ordinary [[Lie group]] $G$.
+
+So we find the complete generalization of the situation that we already indicated there, which is summarized in the following diagram:
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+     \\
+     {}
+     \\
+     {}
+     \\
+     & in\;the\;model\;category &
+  }
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \array{
+     \vdots && \vdots
+     \\
+     P \times G &\to& G
+     \\
+     \downarrow && \downarrow
+     \\
+     P &\to& * 
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow 
+     \\
+     X &\stackrel{}{\to}& \mathbf{B}G
+     \\
+     .
+     \\
+     .
+     \\
+     \\
+     \\
+     & in\;the\;(\infty,1)-topos
+  }
+  \,.
+$$
+
 
 * [[simplicial principal bundle]]
 
@@ -5543,7 +6190,265 @@ $$
 
 #### Principal 1-connection
 
-* [[principal connection]]
+There are different equivalent definitions of the classical notion of a connection. One that is useful for our purposes is that a connection $\nabla$ on a $G$-principal bundle $P \to X$ is a rule $tra_\nabla$ for [[parallel transport]] along paths: a rule that assigns to each path $\gamma : [0,1] \to X$ a morphism $tra_\nabla(\gamma) : P_x \to P_y$ between the fibers of the bundle above the endpoints of these paths, in a compatible way:
+
+
+$$
+  \array{
+    P_x &\stackrel{tra_\nabla(\gamma)}{\to}& P_y
+    &\stackrel{tra_\nabla(\gamma')}{\to}& P_z &&& P
+    \\
+    && && &&& \downarrow
+    \\
+    x &\stackrel{\gamma}{\to}& y &\stackrel{\gamma'}{\to}& z
+    &&&
+    X
+  }    
+  \,.
+$$
+
+In order to formalize this, we introduce a ([[diffeological space|diffeological]]) [[Lie groupoid]] to be called the [[path groupoid]] of $X$. (Constructions and results in this section are from (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">[SWI]</a>).
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ a [[smooth manifold]] let $[I,X]$ be the set of [[smooth function]]s $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say that _a $U$-parameterized smooth family of points in $[I,X]$_ is a smooth map $U \times I \to X$. (This makes $[I,X]$ a [[diffeological space]]).
+
+Say a path $\gamma \in [I,X]$ has _[[sitting instant]]s_ if it is constant in a neighbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
+
+Let $[I,X]_{si} \to [I,X]_{si}^{th}$ be the projection to the set of [[equivalence class]]es where two paths are regarded as equivalent if they are cobounded by a smooth [[thin homotopy]].
+
+Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that comes from a $U$-family of representatives in $[I,X]_{si}$ under this projection. (This makes also $[I,X]_{si}^{th}$ a [[diffeological space]].)
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+The passage to the subset and quotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition is essentially the minimal adjustment to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
+
+=--
+
+
++-- {: .un_prop}
+###### Definition
+
+The **path groupoid** $\mathbf{P}_1(X)$ is the groupoid
+
+$$
+  \mathbf{P}_1(X) = ([I,X]_{si}^{th} \stackrel{\to}{\to} X)
+$$
+
+with source and target maps given by endpoint evaluation and composition given by concatenation of classes $[\gamma]$ of paths along any orientation preserving [[diffeomorphism]] $[0,1] \to [0,2] \simeq [0,1] \coprod_{1,0} [0,1]$ of any of their representatives
+
+$$
+  [\gamma_2] \circ [\gamma_1] : [0,1]
+  \stackrel{\simeq}{\to} [0,1] \coprod_{1,0} [0,1]
+  \stackrel{(\gamma_2 , \gamma_1)}{\to}
+  X
+  \,.
+$$
+
+This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth paths. We regard it as a [[groupoid-valued presheaf]], an object in $[CartSp^{op}, Grpd]$:
+
+$$
+  \mathbf{P}_1(X) : U \mapsto (Diff(U \times I, X)_{si}^{th} \stackrel{\to}{\to} Diff(U,X) )
+  \,.
+$$
+
+=--
+
+Observe now that for $G$ a [[Lie group]] and $\mathbf{B}G$ its [[delooping]] [[Lie groupoid]] discussed [above](#PrincipalBundles), a smooth functor $tra : \mathbf{P}_1(X) \to \mathbf{B}G$ sends each (thin-homotopy class of a) path to an element of the group $G$ 
+
+$$
+  tra : (x \stackrel{[\gamma]}{\to} y)
+  \mapsto
+  (
+  \bullet
+  \stackrel{tra(\gamma) \in G}{\to}
+  \bullet
+  )
+$$
+
+such that composite paths map to products of group elements 
+
+$$
+  tra : 
+  \left(
+    \array{
+      && y
+      \\
+      & {}^{\mathllap{[\gamma]}}\nearrow &=& \searrow^{\mathrlap{[\gamma']}}
+      \\
+      x &&\stackrel{[\gamma']\circ [\gamma]}{\to}&& z
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{tra(\gamma)}}\nearrow 
+      &=& 
+      \searrow^{\mathrlap{tra(\gamma')}}
+      \\
+      \bullet &&\stackrel{tra(\gamma)tra(\gamma')}{\to}&& \bullet
+    }
+  \right)
+$$
+
+and such that $U$-families of smooth paths induce smooth maps $U \to G$ of elements. 
+
+There is a classical construction that yields such an assignment: the [[parallel transport]] of a [[Lie-algebra valued 1-form]].
+
++-- {: .un_prop}
+###### Definition
+
+Suppose $A \in \Omega^1(X, \mathfrak{g})$ is a degree-1 [[differential form]] on $X$ with values in the [[Lie algebra]] $\mathfrak{g}$ of $G$. Then its parallel transport is the smooth functor
+
+$$
+   tra_A : \mathbf{P}_1(X) \to \mathbf{B}G
+$$
+
+given by
+
+$$
+  [\gamma] \mapsto P \exp(\int_{[0,1]} \gamma^* A) \; \in G
+  \,,
+$$
+
+where the group element on the right is defined to be the value at 1 of the unique solution $f :  [0,1] \to G$ of the [[differential equation]]
+
+$$
+  d_{dR} f + \gamma^*A \wedge f = 0
+$$
+
+for the boundary condition $f(0) = e$.
+
+=--
+
++-- {: .un_prop}
+###### Theorem 
+
+This construction $A \mapsto tra_A$ induces an [[equivalence of categories]]
+
+$$
+  [CartSp^{op},Grpd](\mathbf{P}_1(X), \mathbf{B}G)
+  \simeq
+  \mathbf{B}G_{conn}(X)
+  \,,
+$$
+
+where on the left we have the [[hom-groupoid]] of [[groupoid-valued presheaves]] and  where on the right we have the [[groupoid of Lie-algebra valued 1-forms]] whose 
+
+* objects are 1-forms $A \in \Omega^1(X,\mathfrak{g})$, 
+
+* morphisms $g : A_1 \to A_2$ are labeled by [[smooth function]]s $g \in C^\infty(X,G)$ such that $A_2 = g^{-1} A g + g^{-1}d g$.
+
+=--
+
+This equivalence is [[natural transformation|natural]] in $X$, so that we obtain another smooth groupoid.
+
++-- {: .un_def}
+###### Definition
+
+Define $\mathbf{B}G_{conn} : CartSp^{op} \to Grpd$ to be the (generalized) Lie groupoid
+
+$$
+  \mathbf{B}G_{conn} : U \mapsto [CartSp^{op}, Grpd](\mathbf{P}_1(-), \mathbf{B}G)
+$$
+
+whose $U$-parameterized smooth families of groupoids form the [[groupoid of Lie-algebra valued 1-forms]] on $U$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This equivalence in particular subsumes the classical facts that parallel transport $\gamma \mapsto P \exp(\int_{[0,1]} \gamma^* A)$ 
+
+* is invariant under orientation preserving reparameterizations of paths;
+
+* sends reversed paths to inverses of group elements.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+There is an evident natural smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
+
+=--
+
+
++-- {: .un_def}
+###### Defintion
+
+Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift $\nabla$ of the cocycle through $\mathbf{B}G_{conn} \to \mathbf{B}G$.
+
+$$
+  \array{
+     && \mathbf{B}G_{conn}
+     \\
+     & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+This is equivalent to the [[connection on a bundle|traditional definitions]].
+
+=--
+
+A morphism $\nabla : C(U) \to \mathbf{B}G_{conn}$ is
+
+* on each $U_i$ a 1-form $A_i \in \Omega^1(U_i, \mathfrak{g})$;
+
+* on each $U_i \cap U_j$ a function $g_{i j} \in C^\infty(U_i \cap U_j , G)$;
+
+such that
+
+* on each $U_i \cap U_j$ we have $A_j = g_{i j}^{-1}( A + d_{dR} )g_{i j}$;
+
+* on each $U_i \cap U_j \cap U_k$ we have $g_{i j} \cdot g_{j k} = g_{i k}$.
+
+
++-- {: .un_prop}
+###### Definition
+
+Let $[I,X]_{si}^{th} \to [I,X]^h$ the projection onto the full quotient by smooth [[homotopy]] classes of paths.
+
+Write $\mathbf{\Pi}_1(X) = ([I,X]^h \stackrel{\to}{\to} X)$ for the smooth groupoid defined as $\mathbf{P}_1(X)$, but where instead of thin homotopies, all homotopies are divided out.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The above restricts to a natural equivalence
+
+$$
+  [CartSp^{op}, Grpd](\mathbf{\Pi}_1(X), \mathbf{B}G)
+  \simeq
+  \mathbf{\flat}\mathbf{B}G
+  \,,
+$$
+
+where on the left we have the [[hom-groupoid]] of groupoid-valued presheaves, and on the right we have the [[full subcategory|full sub-groupoid]] $\mathbf{\flat}\mathbf{B}G \subset \mathbf{B}G_{conn}$ on those $\mathfrak{g}$-valued differential forms whose [[curvature]] 2-form $F_A = d_{dR} A + [A \wedge A]$ vanishes.
+
+A connection $\nabla$ is _flat_ precisely if it factors through the inclusion $\flat \mathbf{B}G \to \mathbf{B}G_{conn}$.
+
+=--
+
+For the purposes of [[Chern-Weil theory]] we want a good way to extract the [[curvature]] 2-form in a general abstract way from a cocycle $\nabla : X \stackrel{\simeq}{\leftarrow }C(U) \to \mathbf{B}G_{conn}$. In order to do that, we first need to discuss [[connections on 2-bundles]].
 
 #### Covariant derivatives
 
