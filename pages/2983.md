@@ -120,8 +120,14 @@ A short introduction to spherical buildings (this notion will be explained below
 * Richard M. Weiss: The Structure of Spherical Buildings. (Princeton University Press 2004, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1061.51011&format=complete) )
 
 
+[[!redirects buildings]]
 
 [[!redirects Tits building]]
 [[!redirects Bruhat-Tits building]]
 [[!redirects Bruhat–Tits building]]
 [[!redirects Bruhat--Tits building]]
+
+[[!redirects Tits buildings]]
+[[!redirects Bruhat-Tits buildings]]
+[[!redirects Bruhat–Tits buildings]]
+[[!redirects Bruhat--Tits buildings]]
