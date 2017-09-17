@@ -96,7 +96,7 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 ## References
 
-* [[Andre Joyal]], [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic __70__, Issue 1, 18 November 1994, p. 51-86, [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
+* [[André Joyal]], [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic __70__, Issue 1, 18 November 1994, p. 51-86, [MR95j:03104](http://www.ams.org/mathscinet-getitem?mr=1303663), <a href="http://dx.doi.org/10.1016/0168-0072(94)90069-8">doi</a> 
 {#JoyalMoerdijk}
 
 [[!redirects open maps]]
