@@ -49,6 +49,11 @@ For more discussion of how this classical definition interplays with other defin
  
 ## References
 
+The notion of hypercompleteness appears as **$t$-completeness** in 
+
+* [[Bertrand Toen]] and [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ , Proceedings of the
+Program Stacks, Intersection theory and Non-abelian Hodge Theory, MSRI, Berkeley, January-May 2002 ([arxiv:math/0212330](http://arxiv.org/abs/math/0212330)).
+
 The notion of hypercomplete $(\infty,1)$-toposes is the topic of  section 6.5 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
