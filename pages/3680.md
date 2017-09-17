@@ -1,11 +1,17 @@
-<div class="rightHandSide toc">
-[[!include infinity-limits - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -172,6 +178,13 @@ This is due to [[Andre Joyal]]. A proof appears as [[Higher Topos Theory|HTT, pr
 
 =--
 
+## Related concepts
+
+* [[final functor]]
+
+* [[homotopy final functor]]
+
+* final $(\infty,1)$-functor
 
 ## References
 
