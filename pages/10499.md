@@ -113,7 +113,7 @@ So here we have a diagram
 
 $$
   \array{
-    && X_{\mathbb{Q}} && && G_{\mathbb{Z}/p\mathbb{Z}}(X)
+    && X_{\mathbb{Q}} && && G_{\mathbb{F}_p}(X)
     \\
     & \swarrow && \nwarrow && \swarrow
     \\
