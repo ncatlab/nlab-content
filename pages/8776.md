@@ -7,6 +7,13 @@
 
 [[supergravity]] in [[dimension]] 5
 
+## Properties
+
+### U-duality
+
+[[!include U-duality -- table]]
+
+
 ## Related concepts
 
 * [[5-dimensional Chern-Simons theory]]
@@ -27,3 +34,4 @@
 
 * Eric Bergshoeff, Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, Antoine Van Proeyen, _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
 
+[[!redirects 5d supergravity]]
