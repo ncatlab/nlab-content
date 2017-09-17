@@ -19,9 +19,15 @@ A statement about [[entanglement]] in [[quantum mechanics]] that rules out certa
 
 ## References
 
+The original article is
+
 * [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics 1, 195, 1964 ([pdf](http://www.drchinese.com/David/Bell_Compact.pdf))
   {#Bell64}
 
+A quick review is for instance in 
+
+* [[Greg Kuperberg]], section 1.6.2 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
+ {#Kuperberg05}
 
 * Wikipedia, _[Bell's theorem](http://en.wikipedia.org/wiki/Bell_inequality)_
 
