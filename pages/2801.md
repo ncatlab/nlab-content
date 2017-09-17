@@ -70,4 +70,8 @@ simple proof using [[Lagrange multiplier]] techniques.
 
 See [Lagrange multiplier -- Applications -- To Spectral theory](http://ncatlab.org/nlab/show/Lagrange+multiplier#ApplicationToSpectralTheory).
 
+## Related entries
+
+* For [[unitary matrices]] the spectal theorem is equivalently [Cartan's theorem](maximal+torus#Properties) that every element in $U(n)$ is conjugate to an element in its [[maximal torus]]. 
+
 [[!redirects spectral theorems]]
