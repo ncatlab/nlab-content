@@ -1,0 +1,20 @@
+**Abduction** is a process whereby one reasons to the truth of an explanation from its ability to account for what is observed. It is therefore sometimes also known as **inference to the best explanation**.
+
+[[Charles Peirce]], the originator of the term, illustrated the differences between [[deduction]], [[inductive reasoning|induction]], and abduction by the following example.
+
+* **Deduction**
+: All beans in that bag are white.
+: These beans are from that bag.
+: Therefore, these beans are white.
+
+
+* **Induction**
+: These beans are from that bag.
+: These beans are white.
+: Therefore, all beans in that bag are white.
+
+
+* **Abduction**
+: These beans are white.
+: All beans in that bag are white.
+: Therefore, these beans are from that bag.
