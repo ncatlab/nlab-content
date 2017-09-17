@@ -15,8 +15,13 @@
 =--
 =--
 
-> This entry is based on material that was being developed on the personal web of [[Urs Schreiber]]: [[schreiber:differential cohomology in an (∞,1)-topos -- examples|here]]. It has been moved here when [[Domenico Fiorenza]] indicated inclination to work on this, too. 
+* [[schreiber:differential cohomology in an (∞,1)-topos]]
 
+* [[∞-Chern-Weil theory introduction]]
+
+* **$\infty$-Chern-Weil theory**
+
+***
 
 #Contents#
 * table of contents
