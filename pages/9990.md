@@ -109,10 +109,11 @@ A quick review is in
 
 * {#Ochanine09} [[Serge Ochanine]], _What is... an elliptic genus_?, Notices of the AMS, volume 56, number 6  (2009) ([pdf](http://www.ams.org/notices/200906/rtx090600720p.pdf))
 
-More review (and in the context of the lift to the [[spin orientation of Tate K-theory]]) is in section 2 of 
+More review (and in the context of the lift to the [[spin orientation of Tate K-theory]]) is in  
 
-* {#KreckStolz93} [[Matthias Kreck]], [[Stefan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]])
+* {#KreckStolz93} [[Matthias Kreck]], [[Stefan Stolz]], section 2 of _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]])
 
+* {#Thomas02} [[Charles Thomas]], section 1 of _Elliptic cohomology_, Kluwer Academic, 2002 
 
 The relation of this to [[elliptic cohomology]] was understood in
 
