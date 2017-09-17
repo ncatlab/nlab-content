@@ -228,7 +228,7 @@ One special cases of T-duality is [[mirror symmetry]].
 
 Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
 
-* [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and differential K-theory_ ([arXiv](http://arxiv.org/abs/0912.2516))
+* [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
   {#KahleValentino}
 
 More physically oriented discussion of this is in 
