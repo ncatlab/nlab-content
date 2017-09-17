@@ -11,13 +11,13 @@ $$F: FinVect \to FinVect$$
 
 where $FinVect$ is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(V)$ is obtained by taking a [[tensor power]] of $V$, say $V^{\otimes n}$, and then picking out the subspace that transforms according to a particular [[irreducible representation]] of the [[symmetric group]] $S_n$, which acts on $V^{\otimes n}$ by permuting the tensor factors.  
 
-The simplest examples are these: 
+For example:
 
 * For each $n \geq 0$, the $n^{th}$ [[symmetric algebra|symmetric power]] $V \mapsto S^n(V)$ is a Schur functor. 
 
 * For each $n \geq 0$, the $n^{th}$ [[exterior algebra|alternating power]] $V \mapsto \Lambda^n(V)$ is a Schur functor. 
 
-More generally, irreducible complex representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors of this sort are usually described with the help of Young diagrams.   An $n$-box Young diagram is simply a handy notation for a way of writing $n$ as a sum of natural numbers written in decreasing order.  For example, this 17-box Young diagram:
+More generally, irreducible complex representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors are usually described with the help of these.   An $n$-box Young diagram is simply a handy notation for a way of writing $n$ as a sum of natural numbers written in decreasing order.  For example, this 17-box Young diagram:
 
 +-- {: #Young style="text-align:center"}
 <svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -46,58 +46,99 @@ More generally, irreducible complex representations of $S_n$ correspond to $n$-b
 </svg>
 =--
 
-describes the partition of $17$ as $5 + 4 + 4 + 2 + 1 + 1$.  However, it also can be used to construct an irreducible complex representation of the permutation group $S_{17}$, and thus a Schur functor.  The tall skinny Young diagrams with just one column give the Schur functors $\Lambda^n$, while the short fat Young diagrams with just one row give the Schur functors $S^n$.
+describes the partition of $17$ as $5 + 4 + 4 + 2 + 1 + 1$.  However, it also can be used to construct an irreducible complex representation of the permutation group $S_{17}$, and thus a Schur functor.  
 
-This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[characteristic classes]] for complex [[vector bundles]].  However, it is not really necessary to understand Young diagrams, or any of this other material, to begin understanding Schur functors.  As we shall see, one can go quite far simply noting that each irreducible representation of $S_n$ gives a functor from $FinVect$ to itself, as we have described.
+In general, the recipe is this:
 
-More generally, any finite direct sum of such functors is also called a **Schur functor**.   For example:
+* Given an $n$-box Young diagram and a vector space $V$, we form first the tensor power $V^{\otimes n}$.  We think of each factor in this tensor power as corresponding to a specific box of the Young diagram.  
+
+* Then we pick out the subspace of $V^{\otimes n}$ consisting of tensors that are _unchanged_ by any permutation that interchanges two boxes in the same _row_.  
+
+* Then we project this subspace onto the space of tensors that _change sign_ under any permutation that interchanges two boxes in the same _column_.  
+
+The resulting subspace of $V^{\otimes n}$ is invariant under the action of $S_n$ --- and in fact, it is a direct sum of copies of a specific irreducible representation of $S_n$.  
+
+It is easy to see from this description that:
+
+* The tall skinny Young diagrams with one column and $n$ rows give the Schur functors $\Lambda^n$.
+
+* The short fat Young diagrams with one row and $n$ columns give the Schur functors $S^n$.
+
+We can also think of this relation between Young diagrams and Schur functors in a slightly more abstract way, using the [[group algebra]] of the symmetric group, $\mathbb{C}[S_n]$.  Given an $n$-box Young diagram $\lambda$, we can think of the operation 'symmetrize with respect to permutations of the boxes in each row' as an element $p^S_\lambda \in \mathbb{C}[S_n]$.  Similarly, we can think of the operation 'antisymmetrize with respect to permutations of the boxes in each column' as an element $p^A_\lambda \in \mathbb{C}[S_n]$.  By construction, each of these elements is [[idempotent]]:
+
+$$ (p^A_\lambda)^2 = p^A_\lambda \, , \; \; (p^S_\lambda)^2 = p^S_\lambda  $$
+
+Now, it is easy to see that the product of commuting idempotents is idempotent.   The elements $p_S$ and $p_A$ do not commute, but amazingly, their product 
+
+$$ p_\lambda = p^A_\lambda p^S_\lambda $$
+
+is still idempotent!  The reason is that $p_\lambda$ commutes with all permutations, so it lies in the [[center]] of the group algebra.  This ensures that
+
+$$ p_\lambda^2 = p^A_\lambda p^S_\lambda p^A_\lambda p^S_\lambda =
+p^A_\lambda p^A_\lambda p^S_\lambda p^S_\lambda = p_\lambda $$
+
+Checking that $p_\lambda$ commutes with all permutations is a calculation that you must do for yourself someday.
+
+This element $p_\lambda \in \mathbb{C}[S_n]$ is called the **Young symmetrizer** corresponding to the $n$-box Young diagram $\lambda$.  Since the group algebra $k[S_n]$ acts on $V^{\otimes n}$ by permuting the factors, the Young symmetrizer gives a projection
+
+$$ p_\lambda : V^{\otimes n} \to V^{\otimes n} $$
+
+whose range is a subspace called $S_\lambda(V)$.  Since $p_\lambda$ commutes with everything in $k[S_n]$, this subspace is invariant under the action of $S_n$, and --- as already mentioned --- it is a direct sum of copies of a specific irreducible representation of $S_n$.   But the point is this: there is a functor, called a **Schur functor**: 
+
+$$  S_\lambda : FinVect \to FinVect $$
+
+which has precisely this effect on objects:
+
+$$    V \mapsto S_\lambda(V) $$
+
+This is the beginning of a long and fascinating story connecting Schur functors with other objects that are named by Young diagrams: for example, elementary [[symmetric function|symmetric functions]] and [[characteristic classes]] for complex [[vector bundles]].  However, it is not really necessary to understand the details of Young diagrams, Young symmetrizers, or any of this other material, to begin understanding Schur functors.  As we shall see, one can go quite far simply noting that each irreducible representation of $S_n$ gives a functor from $FinVect$ to itself!
+
+## The category of Schur functors
+
+More generally, any finite direct sum of the Schur functors just described may also be called a **Schur functor**.   For example:
 
 * For each $n \geq 0$, the $n^{th}$ [[tensor power]] $V \mapsto V^{\otimes n}$ is a Schur functor. 
 
-There is a category $Schur$ with these Schur functors as objects and natural transformations between them as morphisms.  In this article we would like to give a conceputal explanation of this category and some of its generalizations.
+* If $F$ and $G$ are Schur functors, the functor $V \mapsto F(V) \otimes G(V)$ is a Schur functor
 
-For starters, $\Schur$ has has a nice description in terms of groupoid of finite sets and bijections.  We will find it convenient to work with a skeleton of this groupoid, namely the **permutation groupoid**
+*  If $F$ and $G$ are Schur functors, the composite functor $V \mapsto F(G(V))$ is a Schur functor.  This way of constructing Schur functors is known as [[plethysm]].
+
+There is a category $Schur$ with these more general Schur functors as objects and natural transformations between them as morphisms.  In this article we would like to give a conceputal explanation of this category and some of its generalizations.
+
+For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works.   Even better, the resulting category $\Schur$ has has a nice description in terms of groupoid of finite sets and bijections.  We will find it convenient to work with a skeleton of this groupoid, namely the **permutation groupoid**
 
 $$ \mathbb{P} = \bigsqcup_{n \ge 0} S_n \, , $$
 
-where objects are natural numbers, all morphisms are automorphisms, and the automorphisms of the object $n$ form the group $S_n$.   In these terms, $Schur$ is equivalent to the category where
+where objects are natural numbers, all morphisms are automorphisms, and the automorphisms of the object $n$ form the group $S_n$.   In these terms, $Schur$ is equivalent to the category where:
 
-* objects are **polynomial functors** $F: \mathbb{P} \to FinVect$, that is, functors such that $F(n) = \{0\}$ for all sufficiently large $n$.
+* objects are **polynomial functors**: that is, functors
+$F: \mathbb{P} \to FinVect$ such that $F(n) = \{0\}$ for all sufficiently large $n$;
 
 * morphisms are natural transformations between polynomial functors.
 
-This allows us to think of $Schur$ as a subcategory of the category of _all_ representations of the groupoid $\mathbb{P}$ --- that is, functors $F : \mathbb{P} \to \Vect$.  Every irreducible representation of $\mathbb{P}$ is finite-dimensional: it is really just an irreducible representation of some group $S_n$, coming from a Young diagram.  Every representation of $\mathbb{P}$ is a direct sum of these irreducibles.  $Schur$ is the full subcategory consisting of _finite_ direct sums of irreducibles.
+This allows us to think of $Schur$ as a subcategory of the category of **representations** of $\mathbb{P}$, by which we simply mean functors $F : \mathbb{P} \to \Vect$.  Every irreducible representation of $\mathbb{P}$ is finite-dimensional: it is really just an irreducible representation of some group $S_n$.  Every representation of $\mathbb{P}$ is a direct sum of these irreducibles.  $Schur$ may be identified with the full subcategory consisting of _finite_ direct sums of irreducibles.
 
 The category of representations of any groupoid has many nice features: for example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   It is easy to check that $Schur$ inherits these features.  But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product and disjoint union of finite sets.  Since product distributes over disjoint union, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these make the category of representations of $\mathbb{P}$ into a rig category as well.  The same is true for the subcategory $Schur$.
 
-On top of all this, it turns out that the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, which unlike the three previous ones is not symmetric.  In the classical literature this is called '[[plethysm]]'.  
+On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, the **plethystic tensor product**.  Unlike the three previous monoidal structures, this one is not symmetric.   
 
-In more modern treatments, a Schur functor is a functor defined on [[module|modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
-
-$$F_R: Mod_R \to Mod_R  \, .$$ 
-
-And indeed, much of the theory of Schur functors can be generalized even further, to categories of [[group representations]], [[vector bundles]], [[coherent sheaves]] and the like.  In this article, Todd Trimble and John Baez plan to explore the scope of such generality and --- we hope --- write a paper about what we find.
-
-## Examples ##
-
-The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on [[hom-set|hom-sets]] 
-
-$$hom(V, W) \to hom(F(V), F(W))$$ 
-
-is not assumed to respect the linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums (that is, [[biproduct|biproducts]], it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinVect$. 
-
-Even though Schur functors do not respect the linear structure on homsets, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[simple objects]], decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$ functors $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are often what people think of when they say "Schur functors". 
+Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures.  Among other things, it is the free [[lambda-ring]] on one generator.   As we shall see, corresponds to the fact that $Schur$ is the free 
+[[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
 
 ## Schur functors on more general categories ##
 
-Functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect$.   In fact they can be applied to any [[symmetric monoidal category|symmetric monoidal]]
+We have described Schur functors as special functors
+
+$$  F: FinVect \to FinVect  $$
+
+But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts.   In fact they can be applied to any [[symmetric monoidal category|symmetric monoidal]]
 [[Cauchy complete category|Cauchy complete]] [[linear category]].  Here by **linear category** we mean a category enriched over $Vect$, the category of vector spaces over a fixed field $k$ of characteristic zero.  Such a category is **Cauchy complete** when:
 
 * it has [[biproducts]], also known as [[direct sums]], and 
 
 * [[idempotent|idempotents]] [[split idempotent|split]].
 
-Henceforth we shall use $C$ to stand for any symmetric monoidal Cauchy-complete linear category.  To illustrate the full breadth of this generalization, here are a few examples:
+To illustrate the full breadth of this generalization, here are a few examples:
 
 * the category [[Vect]], consisting of finite-dimensional vector spaces over any field $k$ of characteristic zero
 
@@ -113,19 +154,11 @@ Henceforth we shall use $C$ to stand for any symmetric monoidal Cauchy-complete 
 
 * the category of [[coherent sheaves]] of vector spaces over any algebraic variety (or scheme or algebraic stack) over $k$
 
-These examples can be hybridized, and thus they multiply indefinitely: for example, we could take coherent sheaves of representations of some algebraic supergroup on finite-dimensional chain complexes of super-vector spaces, etc..  
+These examples can be hybridized, and thus they multiply indefinitely: for example, we could take coherent sheaves of chain complexes, or vector bundles on which a group acts, etc..  
 
-Recall that by Maschke's theorem, for any finite group $G$, the [[group algebra]] $k[G]$ decomposes as a direct sum of matrix algebras 
+In the following subsections, we explain how to define Schur functors on any category of this sort.  A somewhat novel feature of our treatment is that we _do not require the theory of Young diagrams_ to define and study Schur functors.  
 
-$$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
-
-where $\lambda$ ranges over isomorphism classes of irreducible representations of $G$.   The identity elements of these matrix algebras $hom(V_\lambda, V_\lambda)$ thus correspond to certain special elements $p_\lambda \in k[G]$.   Clearly these elements are [[idempotent]]:
-
-$$ p_\lambda^2 = p_\lambda \, . $$
-
-We are particularly interested in the case $G = S_n$.  In this case, there is one idempotent $p_\lambda \in k[S_n]$ for each $n$-box Young diagram.  These idempotents are called **Young symmetrizers**.  An explicit formula for them is well-known.   However, one of the novelties of our treatment is that we _do not require Young diagrams_ to define and study Schur functors.  Nor do we need any formula for the Young symmetrizers.
-
-The group algebra $k[S_n]$ lives as a [[monoid]] in the symmetric monoidal category $FinVect$.  In the next section we describe how to interpret it as living in $C$, by "change of base" from $FinVect$ to $C$.   This will let us use the idempotents $p_\lambda$ to construct idempotents on $V^{\otimes k}$ for any object $V \in C$.  Splitting these idempotents, we shall obtain the Schur functors $S_\lambda : C \to C$.
+Our strategy is as follows.  We fix a symmetric monoidal Cauchy complete linear category, $C$. The group algebra $k[S_n]$ begins life as a [[monoid]] in the symmetric monoidal category $FinVect$.   However, we shall explain how interpret it as living in $C$ by a "change of base" functor going from $FinVect$ to $C$.   This will let us use the Young symmetrizers $p_\lambda$ to construct idempotents on $V^{\otimes k}$ for any object $V \in C$.  Splitting these idempotents, we obtain the Schur functors $S_\lambda : C \to C$.
 
 ### Change of base ###
 
@@ -157,13 +190,23 @@ $i: FinVect \to C$, up to symmetric monoidal linear isomorphism.
 
 ### The action of Young symmetrizers ###
 
-Next we explain how given an object $X \in C$, any Young symmetrizers in $k[S_n]$ acts as an idempotent on $X^{\otimes n}$.  Splitting this idempotents will let us define the Schur functor $S_\lambda : C \to C$.
+Next we explain how given an object $X \in C$, any Young symmetrizer in $k[S_n]$ acts as an idempotent on $X^{\otimes n}$.   
 
-For this, we exploit the fact that the group algebra 
+For this we only need to know a little bit about the group algebra $k[S_n]$, which we recall here.  By Maschke's theorem, for any finite group $G$, the [[group algebra]] $k[G]$ decomposes as a direct sum of matrix algebras 
+
+$$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
+
+where $\lambda$ ranges over isomorphism classes of irreducible representations of $G$.   The identity elements of these matrix algebras $hom(V_\lambda, V_\lambda)$ thus correspond to certain special elements $p_\lambda \in k[G]$.   Clearly these elements are [[idempotent]]:
+
+$$ p_\lambda^2 = p_\lambda \, . $$
+
+We are particularly interested in the case $G = S_n$.  In this case, we call the idempotents $p_\lambda$ are 'Young symmetrizers'.  However, we will not need the formula for these idempotents.
+
+The key step is to apply base change to $k[S_n]$.   Here we exploit the fact that
 
 $$   k[S_n] = \bigoplus_{\sigma \in S_n}  k $$
 
-is a [[monoid]] in the monoidal category $FinVect$.  Since $i : FinVect \to C$ is a monoidal functor, this means that $i$ carries $k[S_n]$ to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  As an object of $C$, we have
+is a [[monoid]] in the monoidal category $FinVect$.  Since $i : FinVect \to C$ is a monoidal functor, it follows that $i$ carries $k[S_n]$ to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  As an object of $C$, we have
 
 \[  k[S_n] \cong \bigoplus_{\sigma \in S_n}  I  \label{sum} \]
 
@@ -177,7 +220,7 @@ $$k[S_n] \otimes X^{\otimes n} \to X^{\otimes n}$$
 
 which is the desired action.
 
-Next, we would like to describe how each Young symmetrizer $p_\lambda \in k[S_n]$ acts on $X^{\otimes n}$.    Quite generally, any  element $x \in k[S_n]$ gives a linear map from $k$ to $k[S_n]$, namely the unique map sending $1$ to $x$.   Applying the functor $i$ to this, we obtain a morphism which by abuse of language we call
+Finally, we would like to describe how each Young symmetrizer $p_\lambda \in k[S_n]$ acts on $X^{\otimes n}$.    Quite generally, any  element $x \in k[S_n]$ gives a linear map from $k$ to $k[S_n]$, namely the unique map sending $1$ to $x$.   Applying the functor $i$ to this, we obtain a morphism which by abuse of language we call
 
 $$ x : I \to k[S_n]$$ 
  
@@ -187,7 +230,7 @@ $$ \widetilde{x}: X^{\otimes n} \to X^{\otimes n }$$
 
 given as the composite
 
-$$ X^{\otimes n} \cong I \otimes X^{\otimes n} \stackrel{x \otimes 1}{\to} k[S_n] \otimes X^{\otimes n} \to X^{\otimes n} $$
+$$ X^{\otimes n} \stackrel{\cong}{\longrightarrow} I \otimes X^{\otimes n} \stackrel{x \otimes 1}{\longrightarrow} k[S_n] \otimes X^{\otimes n} \longrightarrow X^{\otimes n} $$
 
 It is easy to check that for any $x,y \in k[S_n]$, 
 
@@ -263,7 +306,7 @@ In summary, Schur functors $S_R$ transfer "naturally" across change of base func
 
 ## Conceptual description of Schur functors ##
 
-As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses: working over a field of characteristic zero, they can be defined on any symmetric monoidal linear category $C$ which is Cauchy completene.  So, for such $C$ we can define a Schur functor 
+As we have seen, Schur functors $S_R$ are definable under fairly mild hypotheses: working over a field of characteristic zero, they can be defined on any symmetric monoidal linear category $C$ which is Cauchy complete.  So, for such $C$ we can define a Schur functor 
 
 $$S_R: C \to C$$ 
 
@@ -279,9 +322,9 @@ commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S
 
 In this abstract framework, it may be wondered what significant role is played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ are pleasant to observe, but surely this is just some piddling general nonsense in the larger story of Schur functors $S_R$, which are after all deeply studied and incredibly rich classical constructions? 
 
-Let us put the question another way.  We have seen the Schur functors $S_R$ are constructed in a uniform (or "polymorphic") way across all symmetric monoidal linear Cauchy complete categories $C$, and this construction is natural with respect to symmetric monoidal change of base functors $G: C \to D$. Or rather: not natural in a strict sense, but _pseudonatural_ in the sense that naturality squares commute up to isomorphism $\phi_G$. Now pseudonaturality is a very general phenomenon in 2-category theory.  So the question is: among all such pseudonatural transformations $S$, what is special about the Schur functors $S_R$? What extra properties pick out exactly the Schur functors $S_R$ from the class of all pseudonatural transformations $S$? 
+Let us put the question another way.  We have seen the Schur functors $S_R$ are constructed in a uniform (or "polymorphic") way across all symmetric monoidal Cauchy complete linear categories $C$, and this construction is natural with respect to symmetric monoidal change of base functors $G: C \to D$. Or rather: not natural in a strict sense, but _pseudonatural_ in the sense that naturality squares commute up to isomorphism $\phi_G$. Now pseudonaturality is a very general phenomenon in 2-category theory.  So the question is: among all such pseudonatural transformations $S$, what is special about the Schur functors $S_R$? What extra properties pick out exactly the Schur functors $S_R$ from the class of all pseudonatural transformations $S$? 
 
-The perhaps surprising answer is: no extra properties! That is, the Schur functors $S_R$ are _precisely_ those functors that are defined on all symmetric monoidal linearly Cauchy complete $C$ and that are pseudonatural with respect to change of base $G: C \to D$! 
+The perhaps surprising answer is: no extra properties! That is, the Schur functors $S_R$ are _precisely_ those functors that are defined on all symmetric monoidal Cauchy complete linear $C$ and that are pseudonatural with respect to change of base $G: C \to D$! 
 
 Let us now make this precise. Schur functors $S_R$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined.   This focuses our attention on the 'forgetful' 2-functor
 
@@ -293,7 +336,7 @@ where:
 ######Definition 
 **SymMonLinCauch** is the 2-category with
 
-* small symmetric monoidal Cauchy-complete linear categories as objects,
+* small symmetric monoidal Cauchy complete linear categories as objects,
 
 * symmetric monoidal linear functors as morphisms,
 
@@ -375,7 +418,7 @@ applied to a small $Set$-enriched category $(C_0, hom: C_0 \times C_0 \to Set)$ 
 
 $$(k(-): SymMonCat \to SymMonLin) \dashv (U_1: SymMonLin \to SymMonCat)$$ 
 
-Finally, let $LinCauch$ denote the 2-category of small Cauchy-complete linear categories. The linear Cauchy completion gives a 2-reflector $\widebar{(-)}: Lin \to LinCat$ which is left 2-adjoint to the 2-embedding $i: LinCauch \to Lin$, and again the 2-adjunction $\widebar{(-)} \dashv i$ lifts to the level of symmetric monoidal structure to give a 2-adjunction 
+Finally, let $LinCauch$ denote the 2-category of small Cauchy complete linear categories. The linear Cauchy completion gives a 2-reflector $\widebar{(-)}: Lin \to LinCat$ which is left 2-adjoint to the 2-embedding $i: LinCauch \to Lin$, and again the 2-adjunction $\widebar{(-)} \dashv i$ lifts to the level of symmetric monoidal structure to give a 2-adjunction 
 
 $$(\widebar{(-)}: SymMonLin \to SymMonLinCauch) \dashv (U_2: SymMonLinCauch \to SymMonLin)$$ 
 
@@ -548,6 +591,18 @@ $$(- \boxtimes G) \circ (- \boxtimes F) \to - \boxtimes (F \boxtimes G)$$
 
 of strong monoidal equivalence from $(Schur, \boxtimes)$ to the monoidal category $SymMonLinCauch(\overline{k\mathbb{P}}, \overline{k\mathbb{P}})$ under endofunctor composition. (The hexagonal coherence condition for a monoidal functor follows from the pentagon; one side of the hexagon is an identity since endofunctor composition is a strict monoidal product.) 
 
-The monoidal product $\boxtimes$ on $Schur$ goes by another name: it is the **plethystic monoidal product**. 
+The tensor product $\boxtimes$ on $Schur$ goes by another name: it is the **plethystic tensor product**. 
+
++-- {: .query}
+
+[[John Baez]]: this stuff should go somewhere, perhaps:
+
+The first thing that should be understood from the beginning is that a general Schur functor $F$ is _nonlinear_: the action on [[hom-set|hom-sets]] 
+
+$$hom(V, W) \to hom(F(V), F(W))$$ 
+
+is not assumed to respect the linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums (that is, [[biproduct|biproducts]], it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinVect$. 
+
+=--
 
 [[!redirects Schur functors]]
