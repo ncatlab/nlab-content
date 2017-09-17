@@ -353,7 +353,7 @@ On $\mathcal{E}$ a [[elementary topos]] with [[Lawvere-Tierney topology]] $j$ co
 
 * **Axiom 2 b**. With $G$ as above, there is a discrete object $G'$ and an [[epimorphism]] $G' \to \flat G$.
 
-* **Axiom 3**. For all [discrete object](#DiscreteObjects) $D$, if the [[internal hom]] $[X,D]$ is  [o-discrete](#ODiscreteObjects), then $X$ is also discrete.
+* **Axiom 3**. For all [discrete objects](#DiscreteObjects) $D$, if the [[internal hom]] $[X,D]$ is  [o-discrete](#ODiscreteObjects), then $X$ is also discrete.
 
 * **Axiom 4**. [Discrete objects](#DiscreteObjects) are closed under binary [[products]].
 
