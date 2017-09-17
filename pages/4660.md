@@ -293,6 +293,8 @@ This is discussed in detail at [[Smooth∞Grpd]] and proven at [[SynthDiff∞Grp
 
   * [[nonabelian group cohomology]], [[groupoid cohomology]]
 
+  * [[∞-group cohomology]]
+
 * [[group extension]]
 
 * **Lie group cohomology** 
