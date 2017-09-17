@@ -226,9 +226,15 @@ This uses
 
 The relevance of String structures (like that of Spin structures half a century before) was recognized in the physics of spinning strings, therefore the name.
 
-String stuctures had originally been mostly discussed in terms of their transgressions to loop spaces
+The article
 
-* Killingback, Witten 
+* Killingback, _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588
+
+was (it seems) the first to derive the Green-Schwarz anomaly cancellation condition of the effective background theory as the [[quantum anomaly]] cancellation condition for the worldsheet theory of the heterotic string's [[sigma-model]] by direct generalization of the way the condition of a [[spin structure]] may be deduced from anomaly cancellation for the superparticle.
+
+String stuctures had at that time been discussed in terms of their transgressions to loop spaces
+
+* Witten 
 
   * blog entry on [String(n)](http://golem.ph.utexas.edu/string/archives/000572.html)
 
