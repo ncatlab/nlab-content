@@ -1097,6 +1097,18 @@ Comparison of models is in
 * [[Julie Bergner]], [[Charles Rezk]], _Comparison of models for $(\infty,n)$-categories_ ([arXiv:1204.2013](http://arxiv.org/abs/1204.2013))
  {#BergnerRezk}
 
+A model for $(\infty,n)$-categories in terms of [[(∞,1)-sheaves]] on variant of a [[site]] of $n$-[[dimension|dimensional]] [[manifolds]] with [[embeddings]] between them is discussed in 
+
+* [[David Ayala]], [[Nick Rozenblyum]], _Weak $n$-categories are sheaves on iterated submersions of $\leq n$-manifolds_ (in preparation)
+ 
+previewed in
+
+* [[David Ayala]], _Higher categories are sheaves on manifolds_, talk at _[FRG Conference on Topology and Field Theories](http://www.nd.edu/~cmnd/conferences/topology/)_, U. Notre Dame (2012) ([video](http://www.youtube.com/watch?v=8nm2ByS5NnY))
+
+  **Abstract** [[topological chiral homology|Chiral]]/[[factorization homology]] gives a procedure for constructing a [[topological field theory]] from the data of an [[En-algebra]]. I'll explain a mulit-object version of this construction which produces a topological field theory from the data of an $n$-category with adjoints. This construction is a consequence of a more primitive result which asserts an equivalence between [[(infinity,n)-category|n-categories]] with adjoints and "transversality sheaves" on [[framed manifold|framed]] $n$-[[manifolds]] - of which there is an abundance of examples. 
+
+This lends itself to a model of  _[[(∞,n)-category with adjoints]]_. See there for more.
+
 [[!redirects (infinity,r)-category]]
 [[!redirects (infinity,k)-category]]
 [[!redirects (infinity,r)-categories]]
