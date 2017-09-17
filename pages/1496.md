@@ -30,7 +30,7 @@ In the literature, one most often sees Banach spaces over the field $\mathbb{R}$
 
 ## Definitions
 
-Let $V$ be a [[vector space]] over the field of [[real number]]s.  (One can generalise the choice of [[field]] somewhat.)  A **pseudonorm** (or **seminorm**) on $V$ is a function
+Let $V$ be a [[vector space]] over the field of [[real number]]s.  (One can generalise the choice of [[field]] somewhat.)  A **pseudonorm** (or **[[seminorm]]**) on $V$ is a function
 $$ {\| - \|}\colon V \to \mathbb{R} $$
 such that:
 
@@ -38,9 +38,9 @@ such that:
 2.  $ {\|r v\|} = {|r|} {\|v\|} $ (for $r$ a [[scalar]] and $v$ a vector);
 3.  $ {\|v + w\|} \leq {\|v\|} + {\|w\|} $.
 
-It follows from the above that ${\|v\|} \geq 0$; in particular, ${\|0\|} = 0$.  A **norm** is a pseudonorm that satisfies a converse to this: $v = 0$ if ${\|v\|} = 0$.
+It follows from the above that ${\|v\|} \geq 0$; in particular, ${\|0\|} = 0$.  A **[[norm]]** is a pseudonorm that satisfies a converse to this: $v = 0$ if ${\|v\|} = 0$.
 
-A norm on $V$ is **complete** if, given any infinite [[sequence]] $(v_1, v_2, \ldots)$ such that
+A [[norm]] on $V$ is **complete** if, given any infinite [[sequence]] $(v_1, v_2, \ldots)$ such that
 \[ \label{Cauchy} \lim_{m,n\to\infty} {\left\| \sum_{i=m}^{m+n} v_i \right\|} = 0 ,\]
 there exists a (necessarily unique) **sum** $S$ such that
 \[ \label{converge} \lim_{n\to\infty} {\left\| S - \sum_{i=1}^n v_i \right\|} = 0 ;\]
@@ -52,7 +52,7 @@ Then a **Banach space** is simply a vector space equipped with a complete norm. 
 $$ {\left\| \sum_{i=1}^\infty v_i \right\|} \leq \sum_{i=1}^\infty {\|v_i\|} ,$$
 with the left-hand side guaranteed to exist if the right-hand side exists as a finite real number (but the left-hand side may exist even if the right-hand side diverges, the usual distinction between absolute and conditional convergence).
 
-If we do not insist on the space being complete, we call it a **normed (vector) space**.  If we have a [[topological vector space]] such that the topology comes from a norm, but we do not make an actual choice of such a norm, then we talk of a **normable space**.
+If we do not insist on the space being complete, we call it a **[[normed vector space|normed (vector) space]]**.  If we have a [[topological vector space]] such that the topology comes from a norm, but we do not make an actual choice of such a norm, then we talk of a **normable space**.
 
 
 ### Banach spaces as metric spaces
