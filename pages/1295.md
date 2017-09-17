@@ -33,14 +33,35 @@ In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$
 
 ## Definition
 
+### In category theory
+
 For $C$ a [[category]], the **dependent product** of the morphism $g: B \to A$ indexed by the morphism $f: A \to I$ is an object $\prod_f g$ in the [[over category]] $C/I$, where the operation $\prod_f: C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*: C/I \to C/A$.
 
 For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
 
+### In type theory
 
-## Remarks
+In [[type theory]] the operation $\Pi_{x \in X} P_x$ is written
 
-Note that the *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
+$$
+  \forall x : X , P x
+  \,.
+$$
+
+But beware that in this context the phrase "dependent product" actually refers to what we call the dependent *sum*!  This is because when $g\colon B\to A$ is a constant family, i.e. a [[projection]] $C\times A \to A$ from a binary cartesian [[product]], then its dependent sum is just the ordinary cartesian product $C\times A$.  In the same context, what we call the dependent product can be identified with the [[exponential object]] $C^A$.  In other words, *dependent sums generalize ordinary products*, while *dependent products generalize ordinary exponentials*.
+
+This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
+
+
+
+
+
+## Properties
+ {#Properties}
+
+### Relation to dependent sum
+
+The *left* adjoint to the base-change functor, the __dependent coproduct__ or __[[dependent sum]]__ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
 
 Dependent products (and sums) exist in any [[topos]]:
 
@@ -52,17 +73,69 @@ For $C$ a topos and $f : A \to I$ any morphism in $C$, both the left adjoint $\s
 Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
 =--
 
-This is theorem 2 in section IV, 7 of
-
-* MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
+This is ([MacLaneMoerdijk, theorem 2 in section IV, 7](#MacLaneMoerdijk)).
 
 
-### A Warning
 
-One should be aware that in some work on [[type theory]], the phrase "dependent product" actually refers to what we call the dependent *sum*!  This is because when $g\colon B\to A$ is a constant family, i.e. a [[projection]] $C\times A \to A$ from a binary cartesian [[product]], then its dependent sum is just the ordinary cartesian product $C\times A$.  In the same context, what we call the dependent product can be identified with the [[exponential object]] $C^A$.  In other words, *dependent sums generalize ordinary products*, while *dependent products generalize ordinary exponentials*.
+### Relation to spaces of sections
+ {#RelationToSpacesOfSections}
 
-This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
++-- {: .num_prop}
+###### Proposition
 
+Let $\mathcal{C}$ be a [[cartesian closed category]] with all [[limit]]s. Let $X \in C$ be any object.
+
+Then the dependent product functor
+
+$$
+  \mathcal{C}/X
+   \stackrel{\overset{- \times X}{\leftarrow}}{\underset{\prod_{x \in X}}{\to}}
+  \mathcal{C}
+$$
+
+sends [[bundle]]s $P \to X$ to their object of [[section]]s 
+
+$$
+  \prod_{x \in X} P_x
+  \simeq
+  \Gamma_X(P)
+  :=  
+  [X,P] \times_{[X,X]} \{id\}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One computes for every $A \in \mathcal{C}$
+
+$$
+  \begin{aligned}
+    \mathcal{C}(A \times X, P \to X)
+      &= 
+    \mathcal{C}(A \times X, P ) \times_{\mathcal{C}(A \times X, X)} \{p_2\}
+    \\
+      & =
+      \mathcal{C}(A, [X,P]) \times_{\mathcal{C}(A,[X,X])} \{\tilde p_2\}
+     \\  
+      &=
+      \mathcal{C}(A, [X,P] \times_{[X,X]} \{Id\})
+     \\
+      &=  \mathcal{C}(A, \Gamma_X(P))
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This statement and its proof remain valid in [[homotopy theory]]. More in detail, if $\mathcal{C}$ is a [[simplicial model category]], $X$, $A$ and $X \times A$ are cofibrant, $P$ and $X$ are fibrant and $P \to X$ is a [[fibration]], then $\Gamma_X(A)$ as above is the homotopy-correct [[derived hom-space|derived section space]]. 
+
+=--
 
 ## Examples
 
@@ -73,6 +146,14 @@ This is essentially a [[categorification|categorified]] version of the familiar 
 * [[base change]]
 
   * [[dependent sum]], **dependent product**
+
+## References
+
+Some aspects are discussed in section IV of 
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+  {#MacLaneMoerdijk}
+
 
 [[!include notions of type]]
 
