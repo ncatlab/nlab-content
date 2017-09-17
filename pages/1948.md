@@ -252,6 +252,10 @@ The plain situation is the topic of section A.2.8 of
 
 The enriched situation is section A.3.3 there.
 
+See also 
+
+* [[David White]], _Modified projective model structure_ ([MO comment](http://mathoverflow.net/questions/76160/acyclic-models-via-model-categories/104423#104423))
+
 [[!redirects model structures on functors]]
 [[!redirects injective model structure]]
 [[!redirects projective model structure]]
