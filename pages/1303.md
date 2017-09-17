@@ -34,8 +34,22 @@ is called a __sheaf of left $O_X$-modules__.
 
 ## Related concepts
 
-* **ringed space**, [[locally ringed space]], [[ringed site]], [[ringed topos]]
+* **ringed space**, [[locally ringed space]], 
+
+* [[ringed site]], [[locally ringed site]] 
+
+* [[ringed topos]], [[locally ringed topos]]
+
+* [[locally algebra-ed topos]]
 
 * [[structured (∞,1)-topos]]
+
+## References
+
+Section 6.25 of
+
+* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+{#deJong}
+
 
 [[!redirects ringed spaces]]
