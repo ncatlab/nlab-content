@@ -36,6 +36,10 @@ A wiki platform based on Haskell, running texmath
 
 * [gitit](http://gitit.net) 
 
+## Related concepts
+
+* [[domain specific embedded programming language]]
+
 ## References
 
 ### General
