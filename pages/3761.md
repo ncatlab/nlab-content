@@ -22,7 +22,7 @@
 
 A **monoidal bicategory** is a [[bicategory]] with a [[monoidal category|monoidal structure]], which is up-to-equivalence in a suitable bicategorical sense.  A concise definition is that a monoidal bicategory is a [[tricategory]] with one object.  Just as every tricategory is equivalent to a [[Gray-category]], every monoidal bicategory is equivalent to a **Gray-monoid**, i.e. a monoid in the monoidal category [[Gray]].
 
-Just as monoidal categories also come in [[braided monoidal category|braided]] and [[symmetric monoidal category|symmetric]] versions, monoidal bicategories have *three* extra levels of commutativity (see the [[periodic table]] and the [[stabilization hypothesis]]): braided, sylleptic, and symmetric.  
+Just as monoidal categories also come in [[braided monoidal category|braided]] and [[symmetric monoidal category|symmetric]] versions, monoidal bicategories have *three* extra levels of commutativity (see the [[periodic table]] and the [[stabilization hypothesis]]): [[braided monoidal 2-category|braided]], [[sylleptic monoidal 2-category|sylleptic]], and [[symmetric monoidal 2-category|symmetric]].  
 
 ## Examples {#Examples}
 
@@ -50,11 +50,15 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 * [[monoidal category]]
 
-* **monoidal 2-category**
+* [[braided monoidal 2-category]]
 
-  * [[sylleptic monoidal 2-category]], [[symmetric monoidal 2-category]]
+* [[sylleptic monoidal 2-category]]
 
-  * [[3-group]]
+* [[symmetric monoidal 2-category]]
+
+* [[monoidal (infinity,1)-category]]
+
+* [[monoidal (infinity,n)-category]]
 
 * [[monoidal (∞,1)-category]]
 
@@ -70,6 +74,8 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 * [[Picard 3-group]]
 
 * [[braided monoidal 2-category]]
+
+* [[sylleptic monoidal 2-category]]
 
 * [[symmetric monoidal 2-category]]
 
