@@ -1,7 +1,7 @@
 
 
 #Contents#
-* automatic tanle of contents goes here
+* automatic table of contents goes here
 {:toc}
 
 ## 2-Vector bundles following Baas-Dundas-Rognes
@@ -37,7 +37,7 @@ of rank $n$ is
   (as described at [[gerbe]] and [[principal 2-bundle]]).
   
 Next we need to define morphisms of such charted 2-vector bundles. These involve the 
-evident refinemnets of covers and fiberwise transformations.
+evident refinements of covers and fiberwise transformations.
 
 Write $2Vect(X)$ for the equivalence classes of charted 2-vector bundles under these
 morphisms. 
@@ -70,7 +70,7 @@ the [[Grothendieck group]] completion of the tensor product of 2-vector bundles.
 BDR called $\mathcal{K}(V)$ the **2-K-theory** of the [[bimonoidal category]]
 of [[Kapranov-Voevodsky 2-vector space]]s.
 
-## The homptopy type of the classifying space
+## The homotopy type of the classifying space
 
 **Theorem** (Baas-Dundas-Rognes-Richter)
 
@@ -82,7 +82,7 @@ Here:
 
 * $K(-)$ denotes forming the [[algebraic K-theory]] spectrum of [[ring spectrum|ring spectra]].
 
-So by the general formula for algeraic K-theory for ring spectra, this is 
+So by the general formula for algebraic K-theory for ring spectra, this is 
 
 $$
  K(ku) \simeq \mathbb{Z} \times B Gl(ku)^+
@@ -128,12 +128,12 @@ $$
   \,.
 $$
 
-## $K(ku)$ as a form of elliptic cohomlogy
+## $K(ku)$ as a form of elliptic cohomology
 
-Ausoni and Rognes compotes the [[homology]] groups 
+Ausoni and Rognes compute the [[homology]] groups 
 (for a certain sense of homology) of $K(ku)$.
 
-take rational homotoly
+take rational homotopy
 
 * $H^*(-, \mathbb{Q})$
 
