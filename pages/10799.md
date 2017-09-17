@@ -107,7 +107,7 @@ It may be shown that
 
 $$\widehat{\mathcal{O}} \cong \prod_{v \notin S} \mathcal{O}_v$$ 
 
-where each non-archimedean place may be identified with a prime ideal $p$. Now, if we view $k$ as the localization of $\mathcal{O}$ obtained by inverting all nonzero elements $x \in \mathcal{O}$, then $k$ may be written as a filtered colimit of a system of inclusions of localizations:  
+where each non-archimedean place $v$ may be identified with a prime ideal $p$. Now, if we view $k$ as the localization of $\mathcal{O}$ obtained by inverting all nonzero elements $x \in \mathcal{O}$, then $k$ may be written as a filtered colimit of a system of inclusions of localizations:  
 
 $$k \cong colim_x \; \mathcal{O}[x^{-1}].$$ 
 
@@ -129,7 +129,14 @@ Putting these facts together,
 
 $$k \otimes_\mathcal{O} \widehat{\mathcal{O}} \cong colim_x\; (\prod_{x \in p} k_p) \times (\prod_{x \notin p} \mathcal{O}_p)$$ 
 
-where each component of the filtered diagram is locally compact in the product topology. Taking the filtered colimit in $Top$ over the resulting diagram of open inclusions, the result is again a locally compact ring. In this way the ring of adeles $\mathbb{A}_k$ is topologized. 
+whence 
+
+$$\begin{array}{lll} 
+k \otimes_\mathcal{O} \mathbb{A}_\mathcal{O} & \cong & k \otimes_\mathcal{O} \left(\prod_{v \in S} k_v \times \widehat{\mathcal{O}}\right) \\ 
+ & \cong & colim_x \; \prod_{v \in S} k_v \times (\prod_{p: x \in p} k_p) \times (\prod_{p: x \notin p} \mathcal{O}_p)
+\end{array}$$ 
+
+where each component of the filtered diagram is locally compact (a product of finitely many locally compact and infinitely many compact spaces) in the product topology. Taking the filtered colimit in $Top$ over the resulting diagram of open inclusions, the result is again a locally compact ring. In this way the ring of adeles $\mathbb{A}_k$ is topologized. 
 
 +-- {: .num_remark} 
 ###### Remark 
