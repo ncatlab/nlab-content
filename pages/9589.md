@@ -52,14 +52,29 @@ $$
   \,.
 $$
 
+Homotopy of asymptotic $C^\ast$-homomorphisms is clearly an [[equivalence relation]]. Write $[A,B]$ for the [[set]] of homotopy-[[equivalence classes]] of asymptotic homomorphisms $A \to B$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $A,B \in $ [[C*Alg]], the set $[A, C_0((0,1), B)]$ is naturally an [[abelian group]] under the composition operation which sends the homotopy classes presented by $f,g \colon A \times (0,1) \to B$ to the homotopy class of
+
+$$
+  f + g \;\colon\; A \times (0,1) \stackrel{\cdot 2}{\to} A \times (0,2) \stackrel{x \mapsto \left\{  \array{f(x) & x \lt 1 \\ g(x-1) & x \gt 1 } \right.  }{\to} B
+  \,.
+$$
+
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The $t$-wise composition of two asymptotic $C^\ast$-homomorphisms is not in general itself an asymptotic $C^\ast$-homomorphims. However, every asympotic homomorphism is homotopic to one which is an [[equicontinuous map]], and $t$-wise composition of equicontinuous asymptotic $C^\ast$-homomorphisms is again an asymptotic homomorphism.
+The $t$-wise composition of two asymptotic $C^\ast$-homomorphisms is not in general itself an asymptotic $C^\ast$-homomorphims. However, every asympotic homomorphism is homotopic to one which is an [[equicontinuous function]], and $t$-wise composition of equicontinuous asymptotic $C^\ast$-homomorphisms is again an asymptotic homomorphism.
 
 =--
+
 
 
 ## Examples
