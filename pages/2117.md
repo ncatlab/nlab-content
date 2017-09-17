@@ -1,17 +1,24 @@
 
-> This entry is about the notion in [[mathematics]]/[[logic]]. For the notion of the same name in [[physics]] see at _[[observable universe]]_.
+> This entry is about the notion in [[mathematics]]/[[logic]]/[[type theory]]. For the notion of the same name in [[physics]] see at _[[observable universe]]_.
 
 ***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
 #### Foundations
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
+
+
+
 
 # Contents
 * table of contents
