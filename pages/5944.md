@@ -1,0 +1,5 @@
+Let $f : X \to Y$ be a morphism of [[scheme]]s. Let $\Delta : X \to X \times_Y X$ be the diagonal map. We say that $f$ is __quasi-separated__ if $\Delta(X)$ is [[quasicompact scheme]].
+
+* MathOverflow [why-does-finitely-presented-imply-quasi-separated](http://mathoverflow.net/questions/36737/why-does-finitely-presented-imply-quasi-separated)
+
+[[!redirects quasiseparated morphism]]
