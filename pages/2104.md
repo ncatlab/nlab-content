@@ -13,22 +13,10 @@ Historically, it was an approximation to the true time evolution that was origin
 In view of this, quantization is often understood as a [[retraction|right inverse]] to the procedure that sends the full quantum dynamics to its [[classical limit]].
 
 
-## Related entries
+## Related entries and references
 
-* [[geometric quantization]]
-
-* [[deformation quantization]]
-
-* [[semiclassical approximation]]
-
-* [[BV theory]]
-
-* [[path integral]]
-
-* [[exercise in groupoidification - the path integral]]
-
-
-## References
+* [[geometric quantization]], [[deformation quantization]], [[semiclassical approximation]], [[BV theory]]
+* [[path integral]], [[exercise in groupoidification - the path integral]]
 
 A general geometrically inclined introduction can be found in 
 
