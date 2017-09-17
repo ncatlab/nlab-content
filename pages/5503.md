@@ -140,7 +140,8 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 ## Literature 
 
 * Chen Chung Chang, H. Jerome Keisler, _Model Theory. Studies in Logic and the Foundations of Mathematics_. 1973, 1990, Elsevier. 
-* Wilfrid Hodges, _Model Theory_, Cambridge University Press 1993; _A shorter model theory_, Cambridge UP 1997
+
+* [[Wilfrid Hodges]], _Model Theory_, Cambridge University Press 1993; _A shorter model theory_, Cambridge UP 1997
 * [[David Kazhdan]], _Lecture notes in motivic integration_, with intro to logic and model theory, [pdf](http://www.ma.huji.ac.il/~kazhdan/Notes/motivic/b.pdf)
 * R. Cluckers, J. Nicaise, J. Sebag (Editors), _Motivic Integration and its Interactions with Model Theory and Non-Archimedean Geometry_, 2 vols.
 London Mathematical Society Lecture Note Series __383__, __384__ 
