@@ -14,7 +14,7 @@ $$
   \,.
 $$
 
-The analog of this for more general [[algebraic varieties]] over $K$ is the _[[Birch and Swinnerton-Dyer conjecture]]_.
+The analog of this for more general [[algebraic varieties]] over $K$ is expressed by the _[[Birch and Swinnerton-Dyer conjecture]]_ and the _[[Beilinson conjecture]]_.
 
 ## References
 
