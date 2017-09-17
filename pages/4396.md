@@ -1,7 +1,24 @@
-BooSpa is the [[1-category]] whose [[object|objects]] are boolean spaces and whose [[morphism|morphisms]] are boolean [[homomorphism|homomorphisms]].
+# Boolean spaces
+* table of contents
+{: toc}
 
-#References#
+## Definitions
+
+A __boolean space__ is ...
+
+Boolean spaces and their [[homomorphisms]] form a [[category]] $Boo Sp$.
+
+
+## References
 
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
-category: category
+
+[[!redirects Boo Spa]]
+[[!redirects BooSpa]]
+[[!redirects Boo Sp]]
+[[!redirects BooSp]]
+[[!redirects boolean space]]
+[[!redirects boolean spaces]]
+[[!redirects Boolean space]]
+[[!redirects Boolean spaces]]
