@@ -73,22 +73,28 @@ In other words, $A$ is equipped with an equivalence with a [[coreflective subcat
 
 =--
 
-A __morphism of Q-categories__ from 
-$\mathbb{A} : (u^* \dashv u_*) :  \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ to $\mathbb{B} : (v^* \dashv v_*) :  \bar B \stackrel{\overset{v^*}{\leftarrow}}{\underset{v_*}{\to}} B$ is a triple $(\Phi,\bar{\Phi},\phi)$ where $\Phi : A\to B$, $\bar{\Phi}:\bar{A}\to\bar{B}$ are functors and $\phi:\Phi u_*\Rightarrow v_*\bar{\Phi}$ is a natural isomorphism of functors. The composition is given by
++-- {: .num_defn #QCategoryMorphism}
+###### Definition
+
+
+A __[[morphism]] of Q-categories__ from 
+$\mathbb{A} : (u^* \dashv u_*) :  \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ to $\mathbb{B} : (v^* \dashv v_*) :  \bar B \stackrel{\overset{v^*}{\leftarrow}}{\underset{v_*}{\to}} B$ is a triple $(\Phi,\bar{\Phi},\phi)$ where $\Phi : A\to B$, $\bar{\Phi}:\bar{A}\to\bar{B}$ are functors and $\phi:\Phi u_*\Rightarrow v_*\bar{\Phi}$ is a [[natural isomorphism]] of functors. The composition is given by
 $$
 (\Phi,\bar{\Phi},\phi)\circ(\Phi',\bar{\Phi}',\phi') = (\Phi'\Phi,\bar{\Phi}\bar{\Phi}, \bar{\Phi}'\phi\circ\phi'\Phi)
 $$
 
-A __transformation of morphisms of Q-categories__ is a pair $(\alpha,\bar{\alpha}):(\Phi,\bar{\Phi},\phi)\to (\Psi,\bar{Psi},\psi)$ of natural transformations $\alpha:\Phi\to\Psi$ and $\bar{\alpha}:\bar{\Phi}\to\bar{\Psi}$ such that the diagram
+A __transformation of morphisms of Q-categories__ is a pair $(\alpha,\bar{\alpha}):(\Phi,\bar{\Phi},\phi)\to (\Psi,\bar{Psi},\psi)$ of [[natural transformation]]s $\alpha:\Phi\to\Psi$ and $\bar{\alpha}:\bar{\Phi}\to\bar{\Psi}$ such that the diagram
 $$\array{
 \Phi u_* & \stackrel{\phi}\longrightarrow & v_* \bar{\Psi}\\
 \alpha u_*\downarrow && \downarrow v_*\bar{\alpha}\\
 \Psi u_* &\stackrel{\psi}\longrightarrow& v_* \bar{\Psi}
 
 }$$
-commutes.
+[[commuting diagram|commutes]].
 
-Small Q-categories, morphisms of Q-categories and natural transformations of morphisms form a 2-category of small Q-categories.
+=--
+
+Small Q-categories, morphisms of Q-categories and natural transformations of morphisms form a [[2-category]] of small Q-categories.
 
 +-- {: .num_defn #QopCategory}
 ###### Definition
@@ -98,7 +104,6 @@ where $Q$ is fully faithful and right adjoint to $I$. In other words, $A$ is equ
 
 =--
 
-Morphisms...
 
 ## Examples
 
