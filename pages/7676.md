@@ -38,7 +38,7 @@ Let $X$ be a $k$-formal scheme (resp. a [[locally algebraic scheme]]) then $X$ i
 
 +-- {: .num_theorem}
 ###### Theorem
-([[the fundamental theorem of Galois theory|fundamental theorem of Galios theory]])
+([[the fundamental theorem of Galois theory|fundamental theorem of Galois theory]])
 
 The functor
 
