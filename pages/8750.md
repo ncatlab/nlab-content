@@ -25,10 +25,17 @@ For $\mathcal{V}$ a suitable context of [[enriched category theory|enrichment]] 
 
 Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by dropping the $2$-morphisms (and using enriched [[strict categories]]).
 
+
 ## Possible Contexts
-* $\mathcal{V}$ can be a [[monoidal category|monoidal structure]] on a category $\mathcal{V}_0$
-* $\mathcal{V}$ can be a [[closed category|closed structure]] on a category $\mathcal{V}_0$
-* $\mathcal{V}$ can be the structure of a [[cosmos]] on a category $\mathcal{V}_0$
+
+* $\mathcal{V}$ can be a [[monoidal category]] with underlying category $\mathcal{V}_0$
+
+* $\mathcal{V}$ can be a [[closed category]] with underlying category $\mathcal{V}_0$
+
+* $\mathcal{V}$ can be a [[multicategory]] with underlying category $\mathcal{V}_0$
+
+* $\mathcal{V}$ can a [[cosmos]] with underlying category $\mathcal{V}_0$
+
 
 ## Examples
 
@@ -36,30 +43,39 @@ Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by droppin
 
 * For $\mathcal{V} = ($[[Cat]]$, \times)$, $\mathcal{V}Cat \simeq$ [[2Cat|Str2Cat]], the $2$-category of [[strict 2-categories]].
 
+
 ## Structure of the category of $\mathcal{V}$-enriched categories for various contexts
-* If $\mathcal{V}$ is a category $V_0$ equipped with a monoidal structure, then $\mathcal{V}$Cat has a [[unit enriched category|unit object]] $\mathcal{I}$, and an association sending every $1$-morphism $\mathcal{A}\stackrel{F}{\to}\mathcal{B}$ to the a $1$-morphism in the lax [[slice 2-category|slice $2$-category]] **Cat**//$V_0$:
+
+* If $\mathcal{V}$ is a category $V_0$ equipped with a monoidal structure, then $\mathcal{V}$Cat has a [[unit enriched category|unit object]] $\mathcal{I}$, and an association sending every $1$-morphism $\mathcal{A}\stackrel{F}{\to}\mathcal{B}$ to the a $1$-morphism in the lax [[slice 2-category]] $\mathbf{Cat}//V_0$:
 $$ \array{   [\mathcal{I},\mathcal{A}]^{op}\times[\mathcal{I},\mathcal{A}]&\stackrel{[\mathcal{I},F]^{op}\times[\mathcal{I},F]}{\to}&[\mathcal{I},\mathcal{B}]^{op}\times[\mathcal{I},\mathcal{B}]\\
 \mathcal{A}(-,-)\searrow&\bar{F}\neArrow&\swarrow\mathcal{B}(-,-)\\
 &V_0
 }$$
 where
+
 1. $[\mathcal{I},\mathcal{A}]$ is really just the underlying category with hom-collections given by $A_0(A,B)=V_0(I,\mathcal{A}(A,B))$.
+
 2. $\mathcal{A}(-,-)$ is the fully faithful two-variable hom-functor from $A_0^{op}\times A_0\to V_0$, with $\mathcal{A}(f,g)$ defined as the composite $\mathcal{A}(B,C)\stackrel{l^{-1}r^{-1}}{\to}I\otimes\mathcal{A}(B,C)\otimes I\stackrel{f\otimes id\otimes g}{\to}\mathcal{A}(C,D)\otimes\mathcal{A}(B,C)\otimes\mathcal{A}(A,B)\stackrel{(\circ^{\mathcal{A}})^2}{\to}\mathcal{A}(A,D)$ in $V_0$
+
 3. $[\mathcal{I},F]$ is the functor $F_0$ from $A_0$ to $B_0$ underlying the enriched functor $F$. This is defined by letting $F_0f$ be the composite $I\stackrel{f}{\to}\mathcal{A}(A,B)\stackrel{F_{A,B}}{\to}\mathcal{B}(FA,FB)$ where $F_{A,B}$ is the family of morphisms in $V_0$ defining the enriched functor $F$.
+
 4. The natural transformation $\bar F\colon\cat A(-,-)\to\cat B(F_0-,F_0-)$ has for its components exactly the maps $F_{A,B}$ above: i.e. $\bar F_{A,B}=F_{A,B}$.
+
 5. In particular, we recover $j_A\colon I\to\mathcal{A}(A,A)$ as $\bar{A}$ when we consider $A$ an enriched functor of $[\mathcal{I},\mathcal{A}]$. The unit identities $F_{A,A}\circ j_A=j_{FA}$ then hold automatically.
 
-This is in fact a $1$-functor from $\mathcal{V}$Cat to **Cat**//$V_0$. It is not a $2$-functor since if $\alpha$ is an enriched natural transformations from an enriched functor $F$ to an enriched functor $G$, then $\alpha_0$, the underlying natural transformation from $F_0$ to $G_0$ satisfies $\mathcal{B}(id,\alpha_0)\bar F=\mathcal{B}(\alpha_0,id)\bar G$ instead of $\mathcal{B}(\alpha_0^{op},\alpha_0)\circ\bar F=\bar G$ that the definition of **Cat**//$V_0$ requires. Nevertheless, if we do define the codomain of the association to have only the objects and $1$-morphisms as in the above triangles, and define $2$-morphisms to satisfy the correct naturality condition (rather than the lax slice 2-category condition), then we still have a $2$-category and the association is a $2$-functor that is fully faithful on $2$-morphisms, and faithful on $1$-morphisms.
+This is in fact a $1$-functor from $\mathcal{V}$Cat to $\mathbf{Cat}//V_0$. It is not a $2$-functor since if $\alpha$ is an enriched natural transformations from an enriched functor $F$ to an enriched functor $G$, then $\alpha_0$, the underlying natural transformation from $F_0$ to $G_0$ satisfies $\mathcal{B}(id,\alpha_0)\bar F=\mathcal{B}(\alpha_0,id)\bar G$ instead of $\mathcal{B}(\alpha_0^{op},\alpha_0)\circ\bar F=\bar G$ that the definition of $\mathbf{Cat}//V_0$ requires. Nevertheless, if we do define the codomain of the association to have only the objects and $1$-morphisms as in the above triangles, and define $2$-morphisms to satisfy the correct naturality condition (rather than the lax slice 2-category condition), then we still have a $2$-category and the association is a $2$-functor that is fully faithful on $2$-morphisms, and faithful on $1$-morphisms.
 
 Two remarks are in order. First, something is deeply wrong here since this $2$-category we have had to define arises out of the desire to make things easy and understandable, as opposed to natural. Second, the failure of the association to be faithful on $1$-morphisms means that  an enrichment of a functor $F_0\colon A_0\to B_0$ consists of more than just giving a natural transformation from $\mathcal{A}(-,-)$ to $\mathcal{B}(F_0-,F_0-)$. But more significantly, this seems to suggest that the monoidal structure on $V_0$ is not captured by any structure on the $2$-category $\mathcal{V}$Cat. This state of affairs is remedied in any closed category context.
 
-* 
-*
+...
+
 
 ## Related concepts
 
 [[!include categories of categories - contents]]
 
+
+category: category
 
 [[!redirects VCat]]
 [[!redirects V Cat]]
@@ -69,6 +85,3 @@ Two remarks are in order. First, something is deeply wrong here since this $2$-c
 
 [[!redirects category of enriched categories]]
 [[!redirects categories of enriched categories]]
-
-
-category: category
