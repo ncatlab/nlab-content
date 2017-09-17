@@ -22,7 +22,7 @@ This page collects some links related to
 
 on [[biproduct|bilimits]] in [[K(n)-local stable homotopy theory]] and generally on [[ambidextrous adjunctions]] and their un-twisted [[Wirthmüller isomorphisms]] for [[(∞,1)-module bundles|∞-module bundles]] in [[semiadditive (∞,1)-categories]].
 
-The untwisted [[Wirthmüller isomorphism]] is the map $\mu$ in Construction 4.0.7 and then the "norm" map in Remark 4.1.12. The induced [[integration]] map considered in Construction 4.0.7, Notation 4.1.6 there is also discussed (for the general twisted case) in the note _[[schreiber:Type-semantics for quantization]]_ (see section 4.3 there for details).
+(The untwisted [[Wirthmüller isomorphism]] is the map $\mu$ in Construction 4.0.7 and then the "norm" map in Remark 4.1.12. The induced [[integration]] map considered in Construction 4.0.7, Notation 4.1.6 there is also discussed (for the general twisted case) in the note _[[schreiber:Type-semantics for quantization]]_, see section 4.3 there for details).
 
 The discussion in the article is apparently motivated as part of what it takes to make precise the discussion of [[quantization]] in sections 3 and 8 of 
 
@@ -42,11 +42,27 @@ The discussion in the article is apparently motivated as part of what it takes t
 
 ## 4. Ambidexterity
 
+### 4.1 Beck-Chevalley fibrations and Norm maps
+
+* [[Beck-Chevalley condition]]
+
+### 4.2 Properties of the norm
+
+### 4.3 Local systems
+
+* [[local system]]
+
+### 4.4 Examples
+
+* [[semiadditive (∞,1)-category]]
+
 ## 5. Ambidexterity of $K(n)$-Local stable homotopy theory
 
 ### 5.1 Ambidexterity and duality
 
 ### 5.2 The main theorem
+
+* [[K(n)-local stable homotopy theory]]
 
 ### 5.3 Cartier duality 
 
