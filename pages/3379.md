@@ -57,3 +57,5 @@ Note that if an idempotent adjunction is [[monadic adjunction|monadic]], then (u
 ## References
 
 ??
+
+[[!redirects idempotent adjunctions]]
