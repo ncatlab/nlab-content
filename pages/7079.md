@@ -1,6 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 In a [[model category]], an [[object]] $X$ is said to be **fibrant** if the unique map $X\to 1$ to the [[terminal object]] is a [[fibration]].
 
 Dually, $X$ is said to be **cofibrant** if the unique map $0\to X$ from the [[initial object]] is a [[cofibration]].
+
+## Related concepts
+
+* [[fibrant replacement]]
+
+
 
 [[!redirects fibrant object]]
 [[!redirects fibrant objects]]
