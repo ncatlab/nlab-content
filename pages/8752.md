@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A notion of [[localization]] for [[model categories]].
+
+## Examples
+
+* [[localization of a simplicial model category]]
+
+* [[Bousfield localization of model categories]]
+
+## References
+
+A classical reference is
+
+* Hirschhorn, _Localization of Model Categories_ ([[LocalizationOfModelCategories.pdf:file]])
+
+For more references see at _[[Bousfield localization of model categories]]_.
+
+[[!redirects localizations of model categories]]
+
+[[!redirects localization of a model category]]
+[[!redirects localizations of a model category]]
+
