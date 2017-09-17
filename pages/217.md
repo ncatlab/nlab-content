@@ -54,7 +54,7 @@ For more details see
 * Todd Trimble, _ETCS: Internalizing the logic_ ([[Trimble on ETCS II|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic/))
 
 * Todd Trimble, _ETCS: Building joins and coproducts_
-([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
+([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/)), [keen shoes](http://www.zbsports.com/)
 
 ## References
 
