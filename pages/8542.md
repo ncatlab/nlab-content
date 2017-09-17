@@ -27,7 +27,7 @@ $$
   \vdash \phi \, true
 $$
 
-and then called a _[[judgement]]_ instead. Or, more generally, if the truth of $\phi$ depends on the truth of some other proposition $\psi$ then 
+and then called a _[[judgement]]_ instead (in [[type theory]] one might also omit the "$true$", see at _[[propositions-as-types]]_ for details on this). Or, more generally, if the truth of $\phi$ depends on the truth of some other proposition $\psi$ then 
 
 $$
   \psi \, true \vdash \phi \, true
@@ -39,12 +39,13 @@ In contrast, the [[implication]] expression $(\psi \to \phi)$ may denote another
 
 $$
   \psi \, true \vdash \phi \, true  
+
 $$
 
 holds in the metalanguage, then the judgement
 
 $$
-  \vdash (\psi \to \phi)
+  \vdash (\psi \to \phi) \, true
 $$
 
 may be [[deduction|deduced]]; the converse is the rule of [[modus ponens]].  (Actually, both the deduction theorem and modus ponens are slightly more general, being relativized to an arbitrary [[context]], but we needn\'t get into that here.)
