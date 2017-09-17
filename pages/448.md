@@ -7,9 +7,9 @@ We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ element
 
 Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a simplicial set, you must pick a total order on the set of vertices. Without an order on the vertices you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. 
 
-Indeed, simplicial sets are essentially (that is, up to equivalence) presheaves on the category of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. This works as follows: given a simplicial set $K = (V(K), S(K))$, define a presheaf whose values are sets of injections $\phi$: 
+Indeed, simplicial sets are essentially (that is, up to equivalence) presheaves on the category of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. This works as follows: given a simplicial set $K = (V(K), S(K))$, define a presheaf $K^\sim: Fin_{inj}^{op} \to Set$ whose values are sets of injections $\phi$: 
 
-$$K^\sim(B) \stackrel{def}{=} \{\phi: B \hookrightarrow V(K): \phi(B) \in S(K)\}, \qquad K^\sim(i: A \to B)(\phi) \stackrel{def}{=} \phi \circ i$$ 
+$$K^\sim(B) \stackrel{def}{=} \{\phi: B \hookrightarrow V(K)| \phi(B) \in S(K)\}, \qquad K^\sim(i: A \to B)(\phi) \stackrel{def}{=} \phi \circ i$$ 
 
 This defines an evident functor 
 
@@ -51,7 +51,7 @@ is a simplex of $K$;
  * for each $v\in V(K)$,  
 $$\sum_{\alpha \in V(K)} \alpha (v) = 1.$$
 
-There are two commonly used topologies. The first is the _metric topology_: we put a metric $d$ on $|K|$ by 
+There are two commonly used topologies on the set $|K|$. The first is the _metric topology_: we put a metric $d$ on $|K|$ by 
 
 $$d(\alpha,\beta) = \Big(\sum_{v\in V(K)} (\alpha(v) - \beta(v))^2\Big)^\frac{1}{2}.$$
 
