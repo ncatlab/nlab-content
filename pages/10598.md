@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+For $G$ a [[compact topological group]], the notion of _$G$-CW-complex_ is much like that of [[CW-complex]], only that where in the latter case one builds a [[topological space]] from gluing of [[disks]] $D^n$ ("[[cell complex|cells]]") for a $G$-CW-complex one glues [[products]] of [[disks]] with $G$-[[orbits]] $G/H$ for suitable [[subgroups]] $H$.
+
+These are spaces used in $G$-[[equivariant homotopy theory]].
+
+## Properties
+
+It seems that the collection fo $G$-CW-complexes has a [[full sub-(infinity,1)-category|full embedding]] into the [[(infinity,1)-presheaves]] on the [[orbit category]] $Orb(G)$.
+
+## References
+
+* [[Peter May]], section I.3 of _Equivariant homotopy and cohomology theorty_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf
+))
+
+* Jay Shah, _Equivariant algebraic topology_
+
+[[!redirects G-CW complexes]]
+
+[[!redirects G-cell complex]]
