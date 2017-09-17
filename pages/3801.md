@@ -273,3 +273,7 @@ Further generalization to target spaces that are more generally [[differentiable
 The relation between string topology and [[Hochschild cohomology]] in dimenion $\gt 1$ is discussed in
 
 * [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfces_ ([arXiv:0702859](http://arxiv.org/abs/math/0702859))
+
+More developments are in
+
+* Eric Malm, _String topology and the based loop space_, 2009 ([arXiv:1103.6198](http://arxiv.org/abs/1103.6198), [slides](http://math.ucr.edu/~jbergner/ucr-st-present.pdf))
