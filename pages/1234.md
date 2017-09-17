@@ -108,6 +108,8 @@ _[[numerical motives]]_.
 
 * [[Yuri Manin]], _Correspondences, motifs and monoidal transformations_ , Math. USSR Sb. 6 439, 1968([pdf](http://resources.agssp2012.torsor.org/documents/manin.pdf), [web](http://iopscience.iop.org/0025-5734/6/4/A01))
 
+* [[Tony Scholl]], _Classical motives_, in Motives, Seattle 1991. Proc Symp. Pure Math 55 (1994), part 1, 163-187 ([pdf](https://www.dpmms.cam.ac.uk/~ajs1005/preprints/classical_motives.pdf))
+
 *  [[James Milne]], _Motives -- Grothendieck's Dream_ ([pdf](http://www.jmilne.org/math/xnotes/MOT.pdf))
 
 *  [[Minhyong Kim]], _Classical Motives: Motivic $L$-functions_ ([pdf](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf))
