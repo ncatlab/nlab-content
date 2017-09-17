@@ -42,7 +42,7 @@ Initial objects are the [[duality|dual]] concept to [[terminal object]]s: an ini
 ## Strict initial objects
    {#Strict}
 
-An initial object $\emptyset$ is called **strict** if any morphism $x\to \emptyset$ must be an [[isomorphism]].  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]]) are strict.  At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
+An initial object $\emptyset$ is called a **[[strict initial object]]** if any morphism $x\to \emptyset$ must be an [[isomorphism]].  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]]) are strict.  At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
 
 
 ## Related concepts
@@ -60,5 +60,3 @@ An initial object $\emptyset$ is called **strict** if any morphism $x\to \emptys
 [[!redirects coterminal object]]
 [[!redirects coterminal objects]]
 
-[[!redirects strict initial object]]
-[[!redirects strict initial objects]]
