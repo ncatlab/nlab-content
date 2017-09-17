@@ -152,22 +152,27 @@ Interestingly, one form of logic which made an early appearance but is not ordin
 
 
 ### Specific examples
+ {#SpecificExamples}
 
 The simplest nontrivial theory is the
 
 * [[theory of objects]]
 
-* the theories 
+A still pretty simple but very nontrivial theory is
 
-  * $Th(Cat)$ of [[categories]]
+* [[elementary function arithmetic]]
 
-  * $Th(Lex)$ of [[finitely complete categories]]
+The theories 
 
-  * $Th(Topos)$ of [[elementary toposes]]
+* $Th(Cat)$ of [[categories]]
 
-  * $Th(ETCS)$ of [[set]]s ([[ETCS]])
+* $Th(Lex)$ of [[finitely complete categories]]
 
-  are discussed at [[fully formal ETCS]].
+* $Th(Topos)$ of [[elementary toposes]]
+
+* $Th(ETCS)$ of [[sets]] ([[ETCS]])
+
+are discussed at _[[fully formal ETCS]]_.
 
 
 ## Models for a theory
