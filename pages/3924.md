@@ -47,5 +47,9 @@ $$ a_{x,y,z} : (x \otimes y) \otimes z \to x (\otimes y \otimes z) $$
 
 relating the triple [[tensor product]]s of these objects.
 
+## Examples
+
+* In a [[tensor category]] of [[representations]]: [[Wigner 6-j symbol]].
+
 
 [[!redirects associators]]
