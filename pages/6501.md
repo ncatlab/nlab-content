@@ -11,16 +11,36 @@ The __frame bundle of a [[manifold]]__ $M$ is the [[principal bundle]] $F T M \t
 
 In the finite-dimensional case, the dual $GL_n$-principal bundle $(F T)^* M$ is the __coframe bundle__ of the manifold. This means that $F^* M = (F T)^* M$ is the associated bundle to $F T M \times_{GL_n(k)}GL_n(k)$ where the left action of $GL_n(k)$ on $GL_n(k)$ is given by right multiplication by inverses $g. h = h\cdot g^{-1}$. Also $F T M\cong (F T)^* M\times_{GL_n(k)} GL_n(k)$ using the same formula. Furthermore, the right action of $GL_n(k)$ on this associated bundle is given by left multiplication by inverses on $GL_n(k)$ factor. 
 
-Coframe bundle $F^* M$ has the following independent description. One looks at the tuples of the form $(p,(U,h))$ where $p\in U$ and $(U,h)$ is chart of the smooth structure on $M$, $U\subset M$, $h : U\to \mathbf{R}^n$ (an atlas where $U$-s make a basis of topology suffices). The total space $F^* M$ of the coframe bundle by the definition, as a set, consists of classes of equivalence of such tuples where $(p,(U,h)) \sim (p',(U',h'))$ iff $p = p'$ and the Jacobian matrix of the transition between charts at $h'(p)$ is the unit matrix: $J_{h'(p)}(h\circ (h')^{-1}) = I$. There is an obvious projection $\pi: [(p,(U,h)]\mapsto p$. To define the differential and principal bundle structure one charts $F^* M\to M$ with local trivializations from the neighborhoods of the form $U\times GL_n(k)$, transfers the structure and checks that the transition functions are of the\ appropriate smoothness class and right $GL_n(k)$-equivariant. The basic prescription is that to every chart $(U,h)$ one defines a map
+Coframe bundle $F^* M$ has the following independent description. One looks at the set $\mathcal{U}(M)$ of tuples of the form $(p,(U,h))$ where $p\in U$ and $(U,h)$ is chart of the smooth structure on $M$, $U\subset M$, $h : U\to \mathbf{R}^n$ (an atlas where $U$-s make a basis of topology suffices). $GL_n(k)$ acts on the right on $\mathcal{U}(M)$ by 
 
 $$
-\pi^{-1}(U)\to U \times GL_n(k),\,\,\,\,\,\,z\mapsto (\pi(z), J_{h'(z)}(h\circ h'^{-1})).
+(p, (U, h)) A := (p, (U, A^{-1} h)).
+$$
+Then $((p,(U,h))A)A' = (p,(U,h)) (AA')$ holds. 
+The total space $F^* M$ of the coframe bundle by the definition, as a set, consists of classes of equivalence of tuples in $\mathcal{U}(M)$ where $(p,(U,h)) \sim (p',(U',h'))$ iff $p = p'$ and the Jacobian matrix of the transition between charts at $h'(p)$ is the unit matrix: $J_{h'(p)}(h\circ (h')^{-1}) = I$. The left action of $GL_n(k)$ is induced on the quotient. There is an obvious projection $\pi: [(p,(U,h)]\mapsto p$. To define the differential and principal bundle structure one charts $F^* M\to M$ with local trivializations from the neighborhoods of the form $U\times GL_n(k)$, transfers the structure and checks that the transition functions are of the appropriate smoothness class and right $GL_n(k)$-equivariant. The basic prescription is that to every chart $(U,h)$ one defines a map
+
+$$
+\phi_{h} = \pi^{-1}(U)\to U \times GL_n(k),\,\,\,\,\,\,z\mapsto (\pi(z), J_{h(\pi(z))}(h'\circ h^{-1})),
+$$
+where $z = [(\pi(z), (U',h'))]$ with $\pi(z)\in U'\cap U$. This does not depend on the choice of the chart $(U',h')$ around $\pi(z)$. There is an equivariance 
+$$
+J_{h(\pi(z A))}(h'\circ h^{-1})) = A^{-1} J_{h(\pi(z))}(h'\circ h^{-1}))
+$$
+and on intersection of $(U,h)$ and $(V,g)$
+$$
+J_{h(\pi(z))}(h'\circ h^{-1})) = J_{g(\pi(z))}(h'\circ g^{-1})J_{h(\pi(z))}(g\circ h^{-1})
+$$
+Then $\phi_h$ is onto and 
+
+$$
+(\phi_h \circ (\phi_g)^{-1})(p,A) = (p, A J_{h(p)}(g\circ h^{-1})
 $$
 
+what shows that the transition functions are smooth (where $GL_n(k)$ has the standard differential structure). 
 ## References
 
 * Wikipedia (English) [frame bundle](http://en.wikipedia.org/wiki/Frame_bundle)
-* [[Shlomo Sternberg]], _Lectures on differential geometry_
+* [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice Hall 1964; Russian transl. Mir 1970
 
 
 [[!redirects coframe bundle]]
