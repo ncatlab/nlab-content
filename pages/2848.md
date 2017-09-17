@@ -33,7 +33,7 @@ There is a more traditional approach of viewing a predicate as a [[function]] fr
 
 ## In category-theoretic logic
 
-In [[category-theoretic logic|categorial logic]], we have a [[category]] $\mathcal{C}$ and a [[class of monomorphisms]] (often all [[monomorphisms]]) $\mathcal{M}$ in $\mathcal{C}$.  Then a __context__ is an [[object]] of $\mathcal{C}$ and a __proposition__ in the context $\Gamma$ is an $\mathcal{M}$-[[subobject]] of $\Gamma$.  We also have a class of [[display maps]] (often all [[morphisms]] in $\mathcal{C}$) such that $\mathcal{M}$ is closed under [[pullbacks]] both along display maps and along [[sections]] of display maps.  These two ways of pulling back propositions in one context to propositions in another context correspond (respectively) to forming $Q[\hat{x}]$ and $P[t/x]$.
+In [[category-theoretic logic|categorial logic]]/[[categorical semantics]], we have a [[category]] $\mathcal{C}$ and a [[class of monomorphisms]] (often all [[monomorphisms]]) $\mathcal{M}$ in $\mathcal{C}$.  Then a __context__ is an [[object]] of $\mathcal{C}$ and a __proposition__ in the context $\Gamma$ is an $\mathcal{M}$-[[subobject]] of $\Gamma$.  We also have a class of [[display maps]] (often all [[morphisms]] in $\mathcal{C}$) such that $\mathcal{M}$ is closed under [[pullbacks]] both along display maps and along [[sections]] of display maps.  These two ways of pulling back propositions in one context to propositions in another context correspond (respectively) to forming $Q[\hat{x}]$ and $P[t/x]$.
 
 More specifically, if $\mathcal{C}$ is a [[finitely complete category]], then the objects of $\mathcal{C}$ may equivalently be viewed as contexts and as types in the [[internal language]] of $\mathcal{C}$; a morphism from $\Gamma$ to $A$ is a term of type $A$ in context $\Gamma$.  The extension of $\Gamma$ by a variable $x$ of type $A$ is the [[product]] $\Gamma \times A$, and the display map to $\Gamma$ is simply the projection.  Every term $t\colon \Gamma \to A$ defines a section of this display map, and we may literally construct $Q[\hat{x}]$ and $P[t/x]$ as pullbacks.
 
@@ -44,8 +44,11 @@ In general, we may intuitively think of an object $A$ in the [[slice category]] 
 
 ## Propositional and predicate logic
 
-In [[propositional logic]], we fix a single context (considered the [[empty context]]) and consider the logic of propositions in that context.  In [[predicate logic]], we fix the empty context but work also in extensions of that context by free variables.  Predicate logic uses [[quantifiers]] as a way to move between contexts, more specifically to move from a predicate $P$ in a given context $\Gamma$ (which is a proposition in some extension of $\Gamma$) to a proposition in $\Gamma$.  The free variables in the predicate still appear in the written form of the proposition, but they are now *bound* variables and are not free in the proposition\'s context; some logicians prefer to systematically replace bound variables with numbered placeholders (especially when defining [[Goedel number]]s and the like).
+In [[propositional logic]], we fix a single context (considered the [[empty context]]) and consider the logic of propositions in that context.  In [[predicate logic]], we fix the empty context but work also in extensions of that context by free variables.  Predicate logic uses [[quantifiers]] as a way to move between contexts, more specifically to move from a predicate $P$ in a given context $\Gamma$ (which is a proposition in some extension of $\Gamma$) to a proposition in $\Gamma$.  The free variables in the predicate still appear in the written form of the proposition, but they are now *bound* variables and are not free in the proposition\'s context; some logicians prefer to systematically replace bound variables with numbered placeholders (especially when defining [[Gödel number]]s and the like).
 
+## Related concepts
+
+* [[bracket type]]
 
 [[!redirects proposition]]
 [[!redirects propositions]]
