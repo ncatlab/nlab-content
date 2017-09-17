@@ -1,3 +1,3 @@
-this argument goesM
- <a href="http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=jimmy-choo-boots-c-5_6.html" >Boots</a>
-[url=http://www.enterpriseict.co.uk/christianlouboutinonlinesalle.asp?onlinesale=jimmy-choo-boots-c-5_6.html]Boots[/url]
+"When you look beyond airlines, spend-based programmes are the industry standard,Michael Kors," said Tim Winship, editor and publisher of FrequentFlier.com.
+ <a href="http://www.doordefender.co.uk/RayBannfashion-2014.asp?fashion=fake-ray-bans-aviator-c-1/" >Fake Ray Bans Aviator</a>
+[url=http://www.doordefender.co.uk/RayBannfashion-2014.asp?fashion=fake-ray-bans-aviator-c-1/]Fake Ray Bans Aviator[/url]
