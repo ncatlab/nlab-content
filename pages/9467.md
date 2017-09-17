@@ -1,0 +1,60 @@
+
+# Cauchy\'s mistake
+* table of contents
+{: toc}
+
+## Overview
+
+In his influential 1821 textbook _[[Cours d'Analyse]]_, [[Augustin Cauchy]] states a theorem that is now widely regarded as false, attributed to a confusion between [[pointwise convergence]] and [[uniform convergence]].  This mistake ---if indeed it is a mistake--- is of both pedagogical and philosophical-historical interest.
+
+
+## Statements
+
++-- {: .num_theorem #mistake}
+###### Non-theorem (Cauchy, 1821?)
+
+Let $f = (f_1, f_2, \ldots)$ be an [[infinite sequence]] of [[continuous functions]] from the [[real line]] to itself.  Suppose that, for every [[real number]] $x$, the sequence $(f_1(x), f_2(x), \ldots)$ converges to some (necessarily unique) real number $f_\infty(x)$, defining a [[function]] $f_\infty$; in other words, the sequence $f$ [[pointwise convergence|converges pointwise]] to $f_\infty$.  Then $f_\infty$ is also continuous.
+=--
+
++-- {: .num_theorem #uniform}
+###### Theorem (Seidel, 1847)
+
+Let $f = (f_1, f_2, \ldots)$ be an [[infinite sequence]] of [[continuous functions]] from the [[real line]] to itself.  Suppose that the sequence $f$ [[uniform convergence|converges uniformly]] to a function $f_\infty$.  Then $f_\infty$ is also continuous.
+=--
+
++-- {: .num_theorem #equicontinuous}
+###### Theorem (???)
+
+Let $f = (f_1, f_2, \ldots)$ be an [[equicontinuous family|equicontinuous]] [[infinite sequence|sequence]] of (necessarily [[continuous functions|continuous]]) functions from the [[real line]] to itself.  Suppose that, for every [[real number]] $x$, the sequence $(f_1(x), f_2(x), \ldots)$ converges to some (necessarily unique) real number $f_\infty(x)$, defining a [[function]] $f_\infty$; in other words, the sequence $f$ [[pointwise convergence|converges pointwise]] to $f_\infty$.  Then $f_\infty$ is also continuous.
+=--
+
+
+## Proofs
+
+Here is Cauchy\'s argument for Theorem \ref{mistake}:
+
++-- {: .proof}
+###### Proof?
+
+...
+=--
+
+
+## In nonstandard analysis
+
+...
+
+
+## References
+
+The original mistake is in
+
+*  [[Augustin Cauchy]] (1821); _[[Cours d'Analyse]].
+
+The reconstruction in terms of nonstandard analysis is in the historical appendix to
+
+*  [[Abraham Robinson]] (1960); _Nonstandard Analysis_.
+
+An interesting discussion forms Chapter 3 of
+
+*  [[Imre Lakatos]] (1978); _Mathematics, Science, and Epistemology_.
