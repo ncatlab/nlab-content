@@ -43,8 +43,20 @@ For $A = \mathbf{B}G$ the [[delooping]] of an [[∞-group]], fat $\infty$-connec
 
 For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections](cohesive+%28infinity,1%29-topos+--+structures#FlatDifferentialCohomology)_.
 
+## Related concepts
+
+* [[flat connection]]
+
+* [[Galois theory]]
+
+* [[constant infinity-stack]]
+
+* [[Riemann-Hilbert correspondence]]
+
 [[!redirects flat infinity-connections]]
 
 [[!redirects flat ∞-connection]]
 [[!redirects flat ∞-connections]]
 
+[[!redirects infinity-local system]]
+[[!redirects infinity-local systems]]
