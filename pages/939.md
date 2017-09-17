@@ -102,3 +102,5 @@ M. Markl, _Distributive laws and Koszulness_,  Ann. Inst. Fourier (Grenoble)  46
 R. Wisbauer, _Algebras versus coalgebras_,  Appl. Categ. Structures __16__  (2008),  no. 1-2, 255--295.
 
 [[!redirects distributive laws]]
+
+[[!redirects distributivity law]]
