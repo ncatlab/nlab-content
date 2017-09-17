@@ -34,12 +34,14 @@ $$
   \,.
 $$
 
-Formally this suggests an immediate generalization where a **magnetic current** $j_{mag} \in \Omega^{3}(X)$ is introduced and the first of the equations above is replaced by
+Formally this suggests an immediate generalization where a [[conserved current]] called the **magnetic current** $j_{mag} \in \Omega^{3}(X)$ is introduced and the first of the equations above is replaced by
 
 $$
   d F = j_{mag}
   \,.
 $$
+
+The corresponding [[charge]] is the [[magnetic charge]]. 
 
 One thing to notice about this is that
 
@@ -111,6 +113,12 @@ $$
 Comparing with the discussion at [[quantum anomaly]], it follows that the non-triviality of this $2$-cocycle is the _higher gauge theory anomaly_ of the ordinary action functional describing the coupling of electric charges to the [[electromagnetic field]] in the presense of magnetic charges.
 
 This phenomenon has traditionally been known somewhat implicitly in the context of the [[Green–Schwarz mechanism]].
+
+## Related entries
+
+* [[conserved current]], [[charge]]
+
+* [[electric charge]], **magnetic charge**
 
 ## References
 
