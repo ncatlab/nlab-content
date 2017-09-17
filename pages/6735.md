@@ -39,6 +39,7 @@ Therefore, superficially, it looks like this might be the trinary bracket on an 
 
 On the one hand, indeed, by the discussion at _[[supergravity C-field]]_ , the M2-brane is charged under a [[circle n-bundle with connection|circle 3-bundle with connection]] whose [[higher gauge theory]] is controled by [[Lie n-algebra|Lie 3-algebra]]s in direct analogy to how the [[higher gauge theory]] of the [[string]] is controled by [[gerbes]]/[[principal 2-bundles]] and their [[Lie 2-algebra]]s and that of charged [[particles]] by ordinary [[Lie algebra]]s.
 
+
 Apparantly motivated by an intuition along these lines, ([BaggerLambert](#BaggerLambert)) named $(V,[-,-,-])$ a **3-algebra**. This terminology was picked up by many authors In the process, it transmuted sometimes to "3-Lie algebra" and sometimes even to "Lie 3-algebra".
 
 Unfortunately, the Bagger-Lambert "3-algebra" is **not** a _[[Lie n-algebra|Lie 3-algebra]]_ in the established sense of an [[L-∞ algebra]] structure on a [[graded vector space]] $V$ concentrated in the lowest three degrees. At least not without some modifications in the interpretation of the map $[-,-,-]$. 
@@ -72,6 +73,8 @@ It has also been suggested that "3-algebras" are to be interpreted in **[[n-plec
 ## Related concepts
 
 * [[ABJM theory]]
+
+* [[membrane matrix model]]
 
 [[!include table of branes]]
 
