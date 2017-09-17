@@ -184,6 +184,8 @@ Correspondences may be seen as generalizations of [[relations]]. A relation is a
 
 * The [[Fourier-Mukai transform]] is a pull-push operation through correspondences equipped with objects in a cocycle given by an object in a [[derived category of quasi-coherent sheaves]].
 
+* [[Hecke correspondence]]
+
 ## Related concepts
 
 * [[(∞,n)-category of spans]].
