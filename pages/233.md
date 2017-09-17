@@ -93,6 +93,14 @@ in $C$ which satisfies the usual axioms of an [[action]].
 
 #### Example: Modules over rings {#Rings}
 
+The category of all modules over commutative rings is [[Mod]]. It is a [[bifibration]]
+
+$$
+  Mod \to CRing
+$$
+
+over [[CRing]].
+
 A [[ring]] is a [[monoid]] in [[Ab]]. Hence a module over a ring is first of all an [[object]] $N$ in [[Ab]], hence an abelian group. Moreover, it is equipped with a [[morphism]]
 
 $$
