@@ -15,6 +15,14 @@ The [[quanta]] of light are [[photons]].
 
 
 [[!redirects light]]
+
+[[!redirects electromagnetic wave]]
+[[!redirects electromagnetic waves]]
+[[!redirects EM wave]]
+[[!redirects EM waves]]
+[[!redirects em wave]]
+[[!redirects em waves]]
+
 [[!redirects electromagnetic radiation]]
 [[!redirects EM radiation]]
 [[!redirects em radiation]]
