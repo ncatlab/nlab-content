@@ -25,7 +25,7 @@
 
 In [[higher algebra]] and [[stable homotopy theory]] one is interested in [[monoid in a monoidal (∞,1)-category|monoid objects]] in the [[stable (∞,1)-category of spectra]] -- called $A_\infty$-[[A-∞-ring|rings]] -- and [[commutative monoid in an (infinity,1)-category|commutative monoid objects]] -- called $E_\infty$-[[E-∞-ring|rings]]. These monoid objects satisfy associativity, uniticity and, in the $E_\infty$-case, commutativity up to coherent higher homotopies. 
 
-For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity ring]]s as ordinary [[monoid]]s and [[E-infinity ring]s as ordinray [[commutative monoid]]s in a suitable [[category]].
+For concretely working with these objects, it is often useful to have concrete  [[category theory|1-categorical]] algebraic models for these intricate [[higher category theory|higher categorical]]/homotopical entities. The _symmetric monoidal smash product of spectra_ is a structure that allows to model [[A-infinity ring]]s as ordinary [[monoid]]s and [[E-infinity ring]]s as ordinray [[commutative monoid]]s in a suitable [[category]].
 
 ## Prehistory
 
