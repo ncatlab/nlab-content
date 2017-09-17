@@ -24,7 +24,7 @@ More generally, the Mellin transform appears as a stage in the expression of [[z
 
 ### 1-loop vacuum amplitudes
 
-[[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _Schwinger parameter_.
+[[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _Schwinger parameter_ and the Mellin transform turns the [[worldline formalism]]-picture into the [[Feynman propagator]]-picture.
 
 
 ## Examples
@@ -50,6 +50,12 @@ For the [[adelic integral]]-version see at _[[Iwasawa-Tate theory]]_.
 For [[function fields]]:
 
 * [[David Goss]], _A formal Mellin transform in the arithmetic of function fields_, Transactions of the AMS, volume 327, Number 2, October 1991 ([pdf](http://www.ams.org/journals/tran/1991-327-02/S0002-9947-1991-1041048-5/S0002-9947-1991-1041048-5.pdf))
+
+For the appearance in  [[physics]] as integrals over Schwinger parameters producing [[Feynman propagators]] see
+
+* [[Joel Shapiro]], _Schwinger trick and Feynman parameters_ ([pdf](https://www.physics.rutgers.edu/grad/613/615lects/schwingertrick.pdf))
+
+* Stefan Weinzierl, section 4.2.1 of _Mathematical aspects of particle physics_, 2010 ([pdf](http://wwwthep.physik.uni-mainz.de/~stefanw/download/script_thep2.pdf))
 
 [[!redirects Mellin transforms]]
 
