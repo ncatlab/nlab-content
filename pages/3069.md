@@ -22,13 +22,25 @@ $$ h_! k^* \overset{\eta}{\to} h_! k^* f^* f_! \overset{\cong}{\to} h_! h^* g^* 
 
 We say the original square satisfies the **Beck--Chevalley condition** if this mate is an [[isomorphism]].
 
+More generally, it is clear that for this to make sense, we only need a transformation $k^* f^* \to h^* g^*$; it doesn't need to be an isomorphism.  We also use the term *Beck--Chevalley condition* in this case,
+
+
 ### Left and right Beck--Chevalley condition
 
 Of course, if $g^*$ and $k^*$ also have [[left adjoint]]s, there is also a Beck--Chevalley condition stating that the corresponding mate $k_! h^* \to f^* g_!$ is an isomorphism, and this is not equivalent in general.  Context is usually sufficient to disambiguate, although some people speak of the "left" and "right" Beck--Chevalley conditions.
 
+Note that if $k^* f^* \to h^* g^*$ is not an isomorphism, then there is only one possible Beck-Chevalley condition.
+
+
 ### Dual Beck--Chevalley condition
 
 If $f^*$ and $h^*$ have *right* adjoints $f_*$ and $h_*$, there is also a dual Beck--Chevalley condition saying that the mate $g^* f_* \to h_* k^*$ is an isomorphism.  By general nonsense, if $f^*$ and $h^*$ have right adjoints and $g^*$ and $k^*$ have left adjoints, then $g^* f_* \to h_* k^*$ is an isomorphism if and only if $k_! h^* \to f^* g_!$ is.
+
+### "Local" Beck--Chevalley condition {#Local}
+
+Suppose that $f^*$ and $h^*$ do not have entire left adjoints, but that for a particular object $x$ the left adjoint $f_!(x)$ exists.  This means that we have an object "$f_! x$" and a morphism $\eta_x\colon x \to f^* f_! x$ which is initial in the [[comma category]] $(x / f^*)$.  Then we have $k^*(\eta) \colon k^* x \to k^* f^* f_! x \to h^* g^* f_! x$, and we say that the square satisfies the *local Beck-Chevalley condition at $x$* if $k^*(\eta)$ is initial in the comma category $(k^* x / h^*)$, and hence exhibits $g^* f_! x$ as "$h_! k^* x$" (although we have not asumed that the entire functor $h_!$ exists).
+
+If the functors $f_!$ and $h_!$ do exist, then the square satisfies the (global) Beck-Chevalley condition as defined above if and only if it satisfies the local one defined here at every object.
 
 ## Bifibrations
 
