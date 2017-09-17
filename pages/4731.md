@@ -142,7 +142,7 @@ We spell out the data of a connection on a 2-bundle over a [[smooth manifold]] $
 
 * A [[differential string structure]] (untwisted) is a 2-connection with coefficients in the [[string 2-group]] / [[string Lie 2-algebra]].
 
-* The [[worldvolume]] theory of the [[fivebrane]] is expected to support a [[self-dual higher gauge theory]] whose fields are 2-connections (see _[Self-dual 2-connections](http://ncatlab.org/nlab/show/NS5-brane#SelfDual2Connections)_ there).
+* The [[worldvolume]] theory of the [[fivebrane]] is expected to be a [[6d (2,0)-supersymmetric QFT]] containing a [[self-dual higher gauge theory]] whose fields are 2-connections (see _[Self-dual 2-connections](http://ncatlab.org/nlab/show/NS5-brane#SelfDual2Connections)_ there).
 
 * A connection on a [[twisted vector bundle]] is naturally a 2-connection.
 
