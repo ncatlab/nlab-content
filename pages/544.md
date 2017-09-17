@@ -34,7 +34,7 @@ An **$A_\infty$-algebra** is an [[algebra over an operad]] over an [[A-∞ opera
 ### In chain complexes
 
 Let here $\mathcal{E}$ be the [[category of chain complexes]] 
-$\mathca{Ch}_\bullet$. Notice that often in the literature this choice of $\mathcal{E}$ is regarded as default and silently assumed.
+$\mathcal{Ch}_\bullet$. Notice that often in the literature this choice of $\mathcal{E}$ is regarded as default and silently assumed.
 
 An $A_\infty$-algebra in chain complexes is concretely the following data. 
 
