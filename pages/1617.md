@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -68,9 +80,9 @@ for $F = C(-)$ a sheaf of functions on $X$, such an equivalence class, hence suc
 
 #### Testing sheaf morphisms on stalks
 
-For $E = Sh(X)$ a topos of sheaves on a topological space (or generally if the topos $E$ has "[[point of a topos|enough points]]"), the behaviour of morphisms $f : A \to B$ in $E$ can be tested on stalks
+For $E$ a topos with [[point of a topos|enough points]], the behaviour of morphisms $f : A \to B$ in $E$ can be tested on stalks:
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 A morphism $f : A \to B$ of sheaves on $X$ is a
