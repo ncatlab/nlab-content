@@ -15,7 +15,7 @@
 
 ## Idea
 
-A variant of the idea of [[generalized complex geometry]] given by passing from generalization of [[complex geometry]] to generalization of [[exceptional geometry]]. Instead of by [[reduction of structure groups]] along inclusions like $O(d)\times O(d) \to O(d,d)$ it is controled by incusions of into [[split real forms]] of [[exceptional Lie groups]].
+A variant of the idea of [[generalized complex geometry]] given by passing from generalization of [[complex geometry]] to generalization of [[exceptional geometry]]. Instead of by [[reduction of structure groups]] along inclusions like $O(d)\times O(d) \to O(d,d)$ it is controled by inclusions of into [[split real forms]] of [[exceptional Lie groups]].
 
 This serves to neatly encode [[U-duality]] groups in [[supergravity]] as well as higher [[supersymmetry]] of supergravity [[Kaluza-Klein mechanism|compactifications]].
 
