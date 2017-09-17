@@ -106,7 +106,7 @@ $$
   }
 $$
 
-See also at _[[differential cohesion and adelic structure]]_.
+See also at _[[differential cohesion and idelic structure]]_.
 
 ### Goodwillie-tangent cohesion
 
