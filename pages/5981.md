@@ -93,6 +93,18 @@ $$
 
 * [[proposition]]
 
+## References
+ {#References}
+
+A textbook account with an eye towards applications in [[computer science]] is in section 1.2 of
+
+*  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+{#Harper}
+
+An exposition on the relation between free variables and [[universal quantification]] is in
+
+* [[Andrej Bauer]], _Free variables are not "implicitly universally quantified"!_ ([web](http://math.andrej.com/2012/12/25/free-variables-are-not-implicitly-universally-quantified/))
+
 [[!redirects variable]]
 [[!redirects variables]]
 
