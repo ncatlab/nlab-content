@@ -12,7 +12,7 @@
 * the following line creates the automatic table of contents
 {: toc}
 
-## Idea ##
+## Idea
 
 The **circle** is a fantastic thing with lots and lots of [[stuff, structure, property|properties and extra structures]].  It is a:
 
@@ -27,7 +27,8 @@ and it is one of the basic building blocks for lots of areas of mathematics, inc
 * [[loop spaces]]
 * [[knots]] and [[links]]
 
-## Definition ##
+
+## Definition
 
 +-- {: .num_defn #circle}
 ###### Definition
@@ -50,10 +51,13 @@ The two most common definitions of the circle are:
 
 The standard equivalence of the two definitions is given by the map $\mathbb{R} \to \mathbb{C}$, $t \mapsto e^{2 \pi i t}$.
 
-## Properties ##
 
-The circle is a [[compact]], [[connected]] [[topological space]].  It is a 1-dimensional [[smooth manifold]] (indeed, it is the only 1-dimensional compact, connected smooth manifold).  It is **not** [[simply connected]].
+## Properties
 
-[[!redirects Circle]]
+The circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]].
+
+
+[[!redirects circle]]
 [[!redirects circles]]
+[[!redirects Circle]]
 [[!redirects Circles]]
