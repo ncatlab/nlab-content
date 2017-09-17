@@ -29,6 +29,12 @@ Analogous to how a [[spectral triple]] may be thought of as characterizing the w
 
 There are several candidate formalizations of 2-spectral triple. One that has achieved a certain formal maturity is indicated at [[(2,1)-dimensional Euclidean field theories and tmf]].
 
+## Examples
+
+### Flop transition
+
+There is at least evidence that there is a continuous path in the space of 2-spectral triples that starts and ends at a point describing the ordinary geometry of a complex 3-dimensional [[Calabi-Yau space]] but passes in between through a 2-spectral triple/2d SCFT (a [[Gepner model]]) which is not the $\sigma$-model of an ordinary geometry, hence which describes "noncommutative 2-geometry" (to borrow that terminology from the situation of ordinary spectral triples). This is called the [[flop transition]] (alluding to the fact that the geometries at the start and end of this path have different [[topology]]).
+
 ## References
 
 Early attempts to understand the [[string theory|string]]'s worldvolume CFT as a higher spectral triple appear in secton 7.2 of 
