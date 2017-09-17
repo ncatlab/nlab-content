@@ -320,7 +320,7 @@ $$
   \,,
 $$ 
 
-where now $Core_W(-)$ denotes the subcategory on those [[natural transformations]] whose components are [[weak equivalences]] in $C$.
+where now $Core_W(-)$ denotes the [[subcategory]] on those [[natural transformations]] whose components are [[weak equivalences]] in $C$.
 
 =--
 
@@ -328,6 +328,13 @@ where now $Core_W(-)$ denotes the subcategory on those [[natural transformations
 ###### Remark
 
 The typical model category is not a [[small category]] with respect to the base choice of [[universe]]. In this case $N(C,W)$ will be a "large" bisimplicial set. In other words, one needs to emply some [[universe enlargement]] to interpret this definition.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The category $Core_W(C^{\Delta[n]})$ is the subcategory of weak equivalences in any of the standard [[model structures on functors]] on $C^{\Delta[n]}$. By a [classical fact](http://ncatlab.org/nlab/show/%28infinity%2C1%29-categorical+hom-space#SpacesOfEquivalences) discssed at _[[(∞,1)-categorical hom-space]]_, its [[nerve]] is a model for the [[core]] of the corresponding [[(∞,1)-category of (∞,1)-functors]].
 
 =--
 
@@ -347,6 +354,47 @@ Any [[Reedy model structure|Reedy fibrant replacement]] of $N(C,W)$ is a complet
 
 This is ([Rezk, theorem 8.3](#Rezk)).
 
+### Quasi-categories as complete Segal spaces
+
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  \Delta_J : \Delta \to sSet
+$$
+
+for the [[cosimplicial object|cosimplicial]] [[simplicial set]] that sends $[n]$ to the [[nerve]] of the [[codiscrete groupoid]] on $n+1$ objects
+
+$$
+  \Delta_J[n] = N(0 \stackrel{\simeq}{\to} \cdots \stackrel{\simeq}{\to} n)
+  \,.
+$$
+
+Write
+
+$$
+ Sing_J : sSet \to [\Delta^{op}, sSet]
+$$
+
+for the functor given by
+
+$$
+  Sing_J(X)_n = Hom_{sSet}(\Delta[n] \times \Delta_J[\bullet], X)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X \in sSet$ a [[quasi-category]]/[[inner Kan complex]], $Sing_J(X)$ is a complete Segal space. 
+
+=--
+
+See at _[[model structure for dendroidal complete Segal spaces]]_ the section _[Quasi-operads to dendroidal complete Segal spaces](model+structure+for+dendroidal+complete+Segal+spaces#QuasiOperadsToDendroidalCompleteSegal)_
 
 ## Related concepts
 
