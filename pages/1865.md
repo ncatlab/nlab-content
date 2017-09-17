@@ -182,7 +182,7 @@ A construction of [[differential cobordism cohomology]] theory in terms of expli
 
 By tensoring this with the suitable ring, this also gives a model for differential K-theory, as well as for [[differential elliptic cohomology]].
 
-A variant of this definition with the advantage that there is a natural morphism to [[Cheeger-Simons differential character]]s refining the total [[Chern class]] is (as opposed to the [[Chern character]]) is presented in
+A variant of this definition with the advantage that there is a natural morphism to [[Cheeger-Simons differential characters]] refining the total [[Chern class]] is (as opposed to the [[Chern character]]) is presented in
 
 * Alain Berthomieu, _A version of smooth K-theory adapted to the
 total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
