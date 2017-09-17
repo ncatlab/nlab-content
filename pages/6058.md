@@ -118,7 +118,28 @@ clearly chosen so to have an isomorphism of complexes $(\mathbf{Z}[2]^\infty_D)^
 $$
 ((\mathbf{B}\mathbb{R}/\mathbb{Z})_{conn})^n\cong (\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}.
 $$
-
+The morphism $(\mathbf{B}\mathbb{R}^n/\Lambda)_{conn}\times (\mathbf{B}(\mathbb{R}^n)^*/\hat\Lambda)_{conn}\to \mathbf{B}^3\mathbf{U}(1)_{conn}$ then corresponds to the following morphism of differential complexes:
+$$
+\array{
+\Lambda\otimes\hat{\Lambda} & \to & \mathbb{Z}
+\\
+\downarrow& &\downarrow \\
+C^\infty(-,\Lambda\otimes(\mathbb{R}^n)^*)\oplus C^\infty(-,\mathbb{R}^n\otimes\hat{\Lambda}) & \to & C^\infty(-,\mathbb{R})
+\\
+\downarrow& &\downarrow \\
+\Omega^1(-,\Lambda\otimes(\mathbb{R}^n)^*)\oplus C^\infty(-,\mathbb{R}^n\otimes(\mathbb{R}^n)^*)\oplus \Omega^1(-,\mathbb{R}^n\otimes\hat{\Lambda})
+& \to & \Omega^1(-,\mathbb{R})
+\\
+\downarrow& &\downarrow \\
+\Omega^1(-,\mathbb{R}^n\otimes(\mathbb{R}^n)^*)\oplus \Omega^1(-,\mathbb{R}^n\otimes(\mathbb{R}^n)^*)
+& \to & \Omega^2(-,\mathbb{R})
+\\
+\downarrow& &\downarrow \\
+\Omega^1(-,\mathbb{R}^n)\otimes\Omega^1(-,(\mathbb{R}^n)^*)
+&\to & \Omega^3(-,\mathbb{R})
+}
+$$
+where the complexes have been written in vertical and the horizontal arrows are defined as follows: _to be continued..._
 +-- {: .num_defn #DifferentialTDualityPair}
 ###### Definition
 
