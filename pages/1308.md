@@ -13,9 +13,6 @@
 * table of contents
 {: toc}
 
-##History
-
-The beautiful and powerful Eckmann-Hilton argument is due to [[Beno Eckmann]] and [[Peter Hilton]]
 
 
 ## Statements
@@ -93,9 +90,14 @@ A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed simply
 
 Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
+##History
+
+The beautiful and powerful Eckmann-Hilton argument is due to [[Beno Eckmann]] and [[Peter Hilton]].
 
 
 ## References
+
+An expositions of the argument is given here:
 
 * [[The Catsters]]
 
@@ -104,8 +106,12 @@ Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
   _Eckmann-Hilton 2_ ([video](http://www.youtube.com/watch?v=wnRqo7UHa-k))
 {#Catsters}
 
+The diagram proof is displayed here
+
 * [[Eugenia Cheng]], [picture](http://cheng.staff.shef.ac.uk/degeneracy/eggclock.pdf) (pdf)
 {#Cheng}
+
+and an animation of it is here
 
 * [[Andrew Stacey]], [animation](http://www.math.ntnu.no/~stacey/documents/eckmannhilton.mpg) (mpeg)
 {#Stacey}
