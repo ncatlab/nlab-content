@@ -80,7 +80,7 @@ $$\array{
 
 A 2-sheaf, especially on a 1-site, is frequently called a **[[stack]]**. However, this has the unfortunate consequence that a 3-sheaf is then called a 2-stack, and so on with the numbering all offset by one. Also, it can be helpful to use a new term because of the notable differences between 2-sheaves on 2-sites and 2-sheaves on 1-sites. The main novelty is that $\mu_{i j}$ and $\zeta_{i j}$ _need not be invertible_.
 
-Note, though, they must be invertible as soon as $C$ is (2,1)-site: $\mu_{i j}$ by definition and $\zeta_{i j}$ since an inverse is provided by $\iota_{i j}^*(\zeta_{i j})$, where $\iota_{i j}\maps (f_i/f_j) \to (f_j/f_i)$ is the symmetry equivalence.
+Note, though, they must be invertible as soon as $C$ is (2,1)-site: $\mu_{i j}$ by definition and $\zeta_{i j}$ since an inverse is provided by $\iota_{i j}^*(\zeta_{i j})$, where $\iota_{i j}\mapsto (f_i/f_j) \to (f_j/f_i)$ is the symmetry equivalence.
 
 If $C$ lacks finite limits, then in the definitions of "2-separated" and "2-sheaf" instead of the comma objects $(f_i/f_j)$, we need to use arbitrary objects $V$ equipped with maps $p:V\to U_i$, $q:V\to U_j$, and a 2-cell $f_i p \to f_j q$.  We leave the precise definition to the reader.
 
@@ -103,5 +103,5 @@ Bicategorical 2-sites in
 
 * [[Ross Street]], _Characterizations of bicategories of stacks_ , Lecture Notes in Math., 962, 
 
-#
+
 [[!redirects 2-sheaves]]
