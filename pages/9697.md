@@ -1,0 +1,6 @@
+
+* [webpage](http://www.phy.tufts.edu/vilenkin.html)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Alexander_Vilenkin)
+
+category: people
