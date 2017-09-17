@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __asymmetric__ if no two elements are related in both orders:
 $$\forall (x, y: A),\; x \sim y \;\Rightarrow\; y \nsim x$$
 
