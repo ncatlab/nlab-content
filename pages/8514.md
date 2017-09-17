@@ -42,11 +42,11 @@ According to ([Mazur](#Matzur)):
 
 ## Mason's Theorem 
 
-According to [Lang](#Lang), one important antecedent of the abc conjecture is a simple but at the time unexpected relation for the function field case, publicized in 1984. We consider elements $f \in k[t]$ where $k$ is an algebraically closed field of characteristic $0$, and define $n_0(f)$ to be the number of _distinct_ roots of $f$, counted _without_ regard to multiplicity.  
+According to [Lang](#Lang), one important antecedent of the abc conjecture is a simple but at the time unexpected relation for the function field case, published in 1984. Consider polynomials $f \in k[t]$ over an algebraically closed field $k$ of characteristic $0$, and define $n_0(f)$ to be the number of _distinct_ roots of $f$, counted _without_ regard to multiplicity.  
 
 +-- {: .un_theorem}
 ###### Theorem ([Mason](#Mason)) 
-Let $a, b, c \in k[t]$ be relatively prime polynomials such that $a + b = c$. Then $\max \{deg(a), deg(b), deg(c)\} \leq n_0(a b c) - 1$. 
+Let $a, b, c \in k[t]$ be relatively prime polynomials, not all constant, such that $a + b = c$. Then $\max \{deg(a), deg(b), deg(c)\} \leq n_0(a b c) - 1$. 
 =-- 
 
 +-- {: .proof} 
