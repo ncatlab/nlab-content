@@ -149,7 +149,7 @@ $$
   Alex : Poset \to Locale
 $$
 
-which assigns to each [[poset]] a [[locale]] called its [[Alexandrov locale]]. By a theorem discussed there, a morphisms of locales $f : X \to Y$ is in the image of this functor precisely if its inverse image morphism $f^* Op(Y) \to Op(X)$ of [[frame]]s has a [[left adjoint]] in the [[2-category]] [[Locale]]. 
+which assigns to each [[poset]] a [[locale]] called its [[Alexandroff locale]]. By a theorem discussed there, a morphisms of locales $f : X \to Y$ is in the image of this functor precisely if its inverse image morphism $f^* Op(Y) \to Op(X)$ of [[frame]]s has a [[left adjoint]] in the [[2-category]] [[Locale]]. 
 
 Moreover, for any poset $P$ the [[sheaf topos]] over $Alex P$ is naturally equivalent to $[P,Set]$
 
