@@ -54,3 +54,14 @@ with the [[circle group]] and [[spin group]] in dimension 2.
 $\cdots \to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ **special orthogonal group** $\to$ [[orthogonal group]].
 
 [[!include table of orthogonal groups and related]]
+
+## References
+ {#References}
+
+For general references see also at _[[orthogonal group]]_.
+
+* [[Jim Stasheff]], _The topology and algebra of $SO(n-1) \to SO(n) \to S^{n-1}$_, Herman's seminar July 2013 ([[StasheffSOn.pdf:file]])
+ {#Stasheff13}
+
+[[!redirects special orthogonal groups]]
+
