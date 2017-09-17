@@ -35,8 +35,8 @@ In a category with [[finite limit]]s and [[finite colimit]]s, every regular mono
 
 +-- {: .proof} 
 ######Proof 
-With notation as above, let $j: E \to B$ be the equalizer of the pair of coprojections $i_1, i_2$. Since $f \circ i = g \circ i$, there exists a unique map $\phi: B +_A B \to C$ such that $\phi \circ i_1 = f$ and $\phi \circ i_2 = g$. Then, since 
-$$f \circ j = \phi i_1 j = \phi i_2 j = g j$$ 
+Suppose $i: A \to B$ is the equalizer of a pair of morphisms $f, g: B \to C$, and with notation as above, let $j: E \to B$ be the equalizer of the pair of coprojections $i_1, i_2$. Since $f \circ i = g \circ i$, there exists a unique map $\phi: B +_A B \to C$ such that $\phi \circ i_1 = f$ and $\phi \circ i_2 = g$. Then, since 
+$$f j = \phi i_1 j = \phi i_2 j = g j$$ 
 and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique map $k: E \to A$ such that $j = i k$. Since $i_1 i = i_2 i$, there is a unique map $l: A \to E$ such that $i = j l$. The maps $k$, $l$ are mutually inverse. 
 =-- 
 
