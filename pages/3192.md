@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 =--
 =--
 
