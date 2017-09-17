@@ -209,7 +209,7 @@ $$
 
 for the [[full subcategory]] of the [[functor category]] on functors that have a [[left adjoint]] and a [[right adjoint]].
 
-+-- {: .num_prop}
++-- {: .num_prop #CauchyCompletionByEssentialPoints}
 ###### Proposition
 
 For $C$ a [[small category]] there is an [[equivalence of categories]]
@@ -269,7 +269,14 @@ of [[Cat]] on the Cauchy-complete categories.
 +-- {: .num_prop}
 ###### Proposition
 
-There is an [[equivalence of 2-categories]]
+The 2-category of Cauchy complete categories is a 
+[[coreflective subcategory|coreflective]] [[full sub-2-category]] of [[Topos]] with essential geometric morphisms
+
+$$
+  Cat_{Cauchy} \hookrightarrow Topos_{ess}
+$$
+
+exhibited by the [[2-adjunction]]
 
 $$
   ([-,Set]
@@ -278,14 +285,70 @@ $$
   )
   :
   Topos_{ess}
-   \stackrel{\overset{Cat_{Cauchy}(-,Set)}{\leftarrow}}{\underset{Topos_{ess}(Set,-)}{\to}}
-  Cat_{Cauchy}^{co}
+   \stackrel{\overset{Cat_{Cauchy}(-,Set)}{\hookleftarrow}}{\underset{Topos_{ess}(Set,-)}{\to}}
+  Cat_{Cauchy}
   \,.
 $$
 
 =--
 
-For the moment, see the discussion [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2881&Focus=24378#Comment_24378).
++-- {: .proof}
+###### Proof
+
+We first claim that when working with all categories
+instead of just the Cauchy-complete categories 
+there is a [[2-adjunction]]
+
+$$
+  ([-,Set]
+  \dashv
+  Topos_{ess}(Set,-)
+  )
+  :
+  Topos_{ess}
+   \stackrel{\overset{[-,Set]}{\leftarrow}}{\underset{Topos_{ess}(Set,-)}{\to}}
+  Cat
+  \,.
+$$
+
+This is exhibited by the following [[equivalence of categories|equivalence]]
+of [[hom-categories]]
+
+$$
+  \begin{aligned}
+    Func(C, Topos_{ess}(Set, E))
+     & \simeq
+    Func(C, LRFunc(E, Set))
+    \\
+     & \simeq
+    LRFunc(E, Func(C,Set)) =: LRFunc(E, [C,Set])
+    \\
+     & \simeq
+    Topos_{ess}([C,Set], E)
+  \end{aligned}
+$$
+
+[[natural equivalence|natural]] in $C \in Cat$ and $E \in Topos$. Here
+
+* the first equivalence is by definition of [[essential geometric morphism]];
+
+* the second equivalence follows by observing that limits and colimits in presheaf categories are computed objectwise;
+
+* the third equivalence is again the definition of essential geometric morphisms.
+
+Now by prop. \ref{CauchyCompletionByEssentialPoints} we have that the components of the
+[[unit of an adjunction|unit]] of this adjunction
+
+$$
+  C \to Topos_{ess}(Set,[C,Set])
+$$
+
+are [[equivalence of categories|equivalences]] precisely if $C$ is 
+Cauchy-complete. This means that restricted along 
+$Cat_{Cauchy} \hookrightarrow Cat$ the adjunction exhibits a coreflective embedding.
+
+=--
+
 
 ## In enriched category theory
 
