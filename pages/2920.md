@@ -129,7 +129,7 @@ We want to characterize objects in $C$ that "see elements of $S$ as weak equival
 +-- {: .num_lemma }
 ###### Observation 
 
-In an ordinary catgegory $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
+In an ordinary category $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
 
 $$
   Hom_C(f,X) : Hom_C(B,X) \to Hom_C(A,X)
@@ -596,7 +596,7 @@ $$
   Id_C : L_S C \stackrel{\leftarrow }{\to} C : Id_C
 $$
 
-(and its itself a localization functor).
+(and is itself a localization functor).
 
 =--
 
@@ -661,9 +661,9 @@ The proof we give is self-contained, except that it builds on the following noti
 
 #### Small objects
 
-A [[cardinal number] $\kappa$ is _regular_ if it is not the cardinality of a union of $\lt \kappa$ sets of size $\lt \kappa$. 
+A [[cardinal number]] $\kappa$ is _regular_ if it is not the cardinality of a union of $\lt \kappa$ sets of size $\lt \kappa$. 
 
-A [[poset]] $J$ is a $\kappa$-[[directed set]] if all subsets of cardinality $\lt \kappa$ have a commun upper bound. A $\kappa$-[[directed colimit]] is a [[colimit]] $\lim_\to F$ over a functor $F : J \to C$.
+A [[poset]] $J$ is a $\kappa$-[[directed set]] if all subsets of cardinality $\lt \kappa$ have a common upper bound. A $\kappa$-[[directed colimit]] is a [[colimit]] $\lim_\to F$ over a functor $F : J \to C$.
 
 An object $X$ in a category $C$ is a $\kappa$-[[compact object]] if $C(X,-) : C \to C$ commutes with all $\kappa$-[[directed colimit]]s. For $\lambda \gt \kappa$ every $\kappa$-compact object is also $\lambda$-compact.
 
