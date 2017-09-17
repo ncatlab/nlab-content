@@ -147,7 +147,7 @@ $$
 
 for the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Homotopy">intrinsic geometric realization</a> in [[Smooth∞Grpd]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The smooth string 2-group, def. \ref{AbstractDefinitionSmooth},
@@ -228,13 +228,99 @@ Therefore the composite $\frac{1}{2} \mathbf{p}_1 \circ \sigma $ here is an equi
 
 Several explicit presentations of the string Lie 2-group are known.
 
-> (to be expanded)
 
 ### By Lie integration of the string Lie 2-algebra 
 
-The string Lie 2-group is the result of applying [[Lie integration]] to the [[String Lie 2-algebra]] for the case that the Lie algebra 3-cocycle this is  normalized so that its image as a left-invariant 3-form on the [[spin group]] is the image in [[deRham cohomology]] of the generator of the degree [[integral cohomology]] group $H^3(Spin(n), \mathbb{Z}) \simeq \mathbb{Z}$.
+We discuss a presentation of the smooth string 2-group by [[Lie integration]] of the skeletal version of the [[string Lie 2-algebra]].
 
-([Henriques](#Henriques)).
+Recall the identification of [[L-∞ algebra]]s $\mathfrak{g}$ with their dual [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{g})$.
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  \mu := \langle - ,[-,-]\rangle
+  : 
+  \mathfrak{so}(n) \to b^2 \mathbb{R}
+$$
+
+for the canonical degree-3 [[cocycle]] in the [[Lie algebra cohomology]] of the [[special orthogonal group]], normalized such that the 3-form
+
+$$
+  \Omega^\bullet(Spin(n)) \hookleftarrow
+  CE(\mathfrak{so}(n))
+  \stackrel{\mu}{\leftarrow}
+  CE(b^2 \mathbb{R})
+$$
+
+represents the image in [[de Rham cohomology]] of a generators of the [[integral cohomology]] group $H^3(G,\mathbb{Z}) \simeq \mathbb{Z}$.
+
+Define the **[[string Lie 2-algebra]]**
+
+$$
+  \mathfrak{string}(n) := \mathfrak{so}(n)_\mu
+$$
+
+to be given by the [[Chevalley-Eilenberg algebra]]
+
+$$
+  CE(\mathfrak{string}(n)) := \wedge^\bullet ( \mathfrak{so}(n)^* \oplus \langle b\rangle , d_{\mathfrak{string}})
+$$
+
+which is that of $\mathfrak{so}(n)$ with a single generator $b$ in degree 3 adjoined and the differential given by
+
+$$
+  d_{\mathfrak{string}}|_{\mathfrak{so}(n)^*} = d_{\mathfrak{so}(n)};
+$$
+
+$$
+  d_{\mathfrak{string}} : b \mapsto \mu
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Observation
+
+We have a [[pullback]] square in $L_\infty Alg$
+
+$$
+  \array{
+    \mathfrak{string}(n) &\to& e b \mathbb{R}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathfrak{so}(n) &\stackrel{\mu}{\to}& b^2 \mathbb{R}
+  }
+  \,.
+$$
+
+=--
+
+See [[string Lie 2-algebra]] for more discussion.
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Lie integration]] of $\mathfrak{string}(n)$ yields a presentation of the 
+smooth String 2-group, def. \ref{AbstractDefinitionSmooth}
+
+$$
+  \mathbf{cosk}_3 \exp(\mathfrak{string}(n))
+  \simeq
+  \mathbf{B} String(n)
+  \,.
+$$
+
+=--
+
+This is essentially the model considered in ([Henriques](#Henriques)), discussed here in the context of [[Smooth∞Grpd]] as described in ([FSS](#FSS)).
+
+
+
 
 ### As a strict Lie 2-group
 
