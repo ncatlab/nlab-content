@@ -4,7 +4,9 @@
 {:toc}
 
 
-## Definition ##
+## Smash product algebra
+
+### Definition
 
 Given a $k$-[[bialgebra]] $H$, and a left [[Hopf action]] $\triangleright$ of $H$ on a $k$-algebra $A$, one defines the **crossed product algebra** $A\sharp H$ (in [[Hopf algebra]] literature also called the **smash product algebra** or Hopf smash product; distinguish from the rather different [[smash product]] in topology) as the $k$-algebra whose underlying vector space is $A\otimes H$ and the product is given by
 
@@ -24,7 +26,7 @@ and hence the formula for the product above is a tautology: $a h a' h' = a(h_{(1
 
 Similarly, given a right Hopf action of $H$ on $A$, one defines the crossed product algebra $H\sharp A$ whose underlying space is $H\otimes A$. The left and right versions are isomorphic if $H$ has an invertible antipode; this extends the correspondence between the left and right actions obtained by composing with the antipode map. 
 
-## Properties ##
+### Properties
 
 Every smash product algebra of the form $A\sharp H$ is naturally equipped with a [[monomorphism]] $A\mapsto A\sharp 1\hookrightarrow A\sharp H$ of algebras and with a right $H$-coaction $a\otimes h\mapsto a\otimes \Delta(h)\in (A\sharp H)\otimes H$ making $A\sharp H$ into a right $H$-comodule algebra. Map $\gamma: h\mapsto 1\otimes h$, $H\hookrightarrow A\sharp H$ is then a map of right $H$-comodule algebra (where the coaction on $H$ is $\Delta$), and $A\otimes 1\subset A\sharp H$ is the subalgebra of $H$-coinvariants. 
 
@@ -77,11 +79,9 @@ $$\tau(h,k) = \sum f^{-1}(h_{(1)})[h_{(2)}\triangleright f^{-1}(k_{(1)})]\sigma(
 The isomorphism $i$ is then given by
 $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
 
-## Related concepts
-
-* [[crossed product C*-algebra]]
-
 ## Literature
+
+Related $n$Lab entres include [[crossed product C*-algebra]], [[noncommutative torsor]], [[Hopf-Galois extension]]
 
 * Y. Doi, M. Takeuchi, _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818
 * Y. Doi, _Equivalent crossed products for a Hopf
@@ -92,8 +92,9 @@ rings_, CBMS Regional Conference Series in Mathematics __82__,
 AMS 1993.
 * S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995.
 
-[[!redirects crossed product algebras]]
+category: algebra, noncommutative geometry
 
+[[!redirects crossed product algebras]]
 [[!redirects Hopf smash product]]
 [[!redirects smash product algebra]]
 [[!redirects cleft extension]]
