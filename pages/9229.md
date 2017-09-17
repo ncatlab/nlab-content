@@ -1,0 +1,9 @@
+
+
+## References
+
+Discussion in terms of [[factorization algebras of observables]] is in section 6.1.3 of 
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ {#Gwilliam}
+
