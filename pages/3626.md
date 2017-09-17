@@ -202,11 +202,14 @@ Their role in 2-dimensional [[TQFT]] is discussed for instance in
 * Aaron Lauda and Hendryk Pfeiffer (2008), Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155**, 623-666. ([web](http://arxiv.org/abs/math/0602047))
 {#Lauda2008}
 
-For applications in proof theory of classical and [[linear logic]]:
+For applications in proof theory of classical and [[linear logic]] or linguistics:
 
 * [[Martin Hyland]],  _Abstract Interpretation of Proofs: Classical Propositional Calculus_ , pp.6-21 in Marcinkowski, Tarlecki (eds.),  _Computer Science Logic (CSL 2004)_ , LNCS **3210** Springer Heidelberg 2004. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2004/aap04.pdf))
 
 * [[Richard Garner]], _Three investigations into linear logic_ , PhD report  Cambridge 2006. ([pdf](http://comp.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
+
+* D. Kartsaklis, M. Sadrzadeh, S. Pulman,  B. Coecke, _Reasoning about Meaning in Natural Language with Compact Closed Categories
+and Frobenius Algebras_ , arXiv:1401.5980 (2014). ([pdf](http://arxiv.org/pdf/1401.5980v1))
 
 See also
 
