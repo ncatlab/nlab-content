@@ -458,7 +458,9 @@ which completes the proof.
 +-- {: .un_cor}
 ######Corollary
 For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v u) = (u v)u$.
-=--
+=-- 
+
+See also [[Moufang loop]]. 
 
 ## References
 
