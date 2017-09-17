@@ -68,7 +68,7 @@ $$
 \mathcal{C}                    & \underset{\Delta}{\to} & \mathcal{C}^\mathcal{J}
 \end{array}
 $$
-where $\Delta$ is the [[diagonal functor]] and $U^{\mathcal{J}}=U\circ
+where $U$ is monadic, $\Delta$ is the [[diagonal functor]] and $U^{\mathcal{J}}=U\circ
 -$. If $F$ is left adjoint   
 to $U$, then $F^\mathcal{J}$ is left adjoint to $U^{\mathcal{J}}$ (using
 the unit and counit of the original adjunction, one can construct
