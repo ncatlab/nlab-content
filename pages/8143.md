@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+In a [[model category]] every [[morphism]] may be factored as a [[weak equivalence]] followed by a [[fibration]]. Specifically if the morphism is that to the [[terminal object]], this process finds a weakly equivalent [[fibrant object]].
+This is a _fibrant replacement_ or [[resolution]] of the original object.
+
+The dual concept is the of _cofibrant replacement_.
+
+[[!redirects cofibrant replacement]]
+
