@@ -1,19 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homological algebra
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-
+# Projective and injective resolutions
+* table of contents
+{: toc}
 
 ## Idea
 
@@ -23,10 +25,18 @@ Under suitable conditions these are precisely the [[cofibrant resolution]] or [[
 
 For instance for non-negatively graded chain complexes of abelian groups there is a model structure with [[weak equivalences]] are the quasi-isomorphisms and the [[fibrations]] are the positive-degreewise surjections. Here every object is a [[fibrant object]] and hence no [[fibrant resolution]] is necessary; while the [[cofibrant resolutions]] are precisely the projective resolutions.
 
-Dually. for non-negatively graded chain complexes of abelian groups there is a model structure with [[weak equivalences]] are the quasi-isomorphisms and the [[cofibrations]] the positive-degreewise injections. Here every object is a [[cofibrant object]] and hence no [[cofibrant resolution]] is necessary; while the [[fibrant resolutions]] are precisely the projective resolutions.
+Dually, for non-negatively graded chain complexes of abelian groups there is a model structure with [[weak equivalences]] are the quasi-isomorphisms and the [[cofibrations]] the positive-degreewise injections. Here every object is a [[cofibrant object]] and hence no [[cofibrant resolution]] is necessary; while the [[fibrant resolutions]] are precisely the projective resolutions.
 
-For more details see also at _[[projective object]]_, _[[projective module]]_ , _[[injective object]]_.
+
+## Related concepts
+
+* [[projective object]], [[projective module]]
+
+* [[injective object]], [[injective module]]
+
+
+[[!redirects projective resolution]]
+[[!redirects projective resolutions]]
 
 [[!redirects injective resolution]]
-[[!redirects projective resolutions]]
 [[!redirects injective resolutions]]
