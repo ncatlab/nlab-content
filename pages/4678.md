@@ -2,7 +2,7 @@ A **[[localization functor]]** $Q^* : A\to B$ is **affine** if it has a right ad
 
 For example, every left [[Ore localization]] of [[ring]]s $i: R\to S^{-1}R$, induces a [[flat functor|flat]] affine localization functor $M\mapsto S^{-1}M = S^{-1}R\otimes_R M$.
 
-A functor is an affine localization if it is an inverse image part of an  [[affine morphism]] with *full* direct image functor. Here affine morphism (of categories) means an adjoint triple like above with *faithful* direct image functor. While the notion of affine localization is fixed, the notion of an affine morphism given here has variants depending on the categorical context. 
+A functor is an affine localization if it is an inverse image part of an  [[affine morphism]] with *full* direct image functor. Here affine morphism means an adjoint triple like above with *conservative* direct image functor; the conservativeness of an exact additive functor among abelian categories is equivalent to its faithfulness. While the notion of affine localization is fixed, the notion of an affine morphism given here has variants depending on the categorical context. 
 
 [[!redirects affine localization functor]]
 [[!redirects affine localizations]]
