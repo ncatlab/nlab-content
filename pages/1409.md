@@ -5,4 +5,8 @@ The identity functions are the [[identity morphisms]] in the category [[Set]] of
 
 More generally, in any [[concrete category]], the identity morphism of each object is given by the identity function on its underlying set.
 
+
+[[!redirects identity function]]
 [[!redirects identity functions]]
+[[!redirects identity map]]
+[[!redirects identity maps]]
