@@ -82,7 +82,7 @@ it may happen that
 $$
   \bar L(d) := Hom_D(L(-),d) \in [D^{op}, Set]
 $$
-is [[representable functor|representable]] for _some_ $d$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$.
+is [[representable functor|representable]] for _some_ $d$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$, and in fact it can be viewed as a right adjoint to $L$ _relative to_ the inclusion of the full subcategory determined by those $d$s for which $\bar L(d)$ is representable; see [[relative adjoint functor]] for more.
 
 This _global_ versus _local_ evaluation of adjoint functors induces the global/local pictures of the defintions
 
