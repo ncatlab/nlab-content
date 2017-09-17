@@ -30,6 +30,12 @@ From another perspective: an $L_\infty$-algebra is a [[Lie ∞-algebroid]] with 
 
 ## Definition ##
 
+### Abstract definition in terms of algebras over an operad
+
+An **$L_\infty$-algebra** is an [[algebra over an operad]] in the [[category of chain complexes]] over the [[L-∞ operad]].
+
+In the following we spell out in detail what this means in components.
+
 ### Original definition in terms of lots of brackets ###
 
 Originally $L_\infty$-algebras were defined as follows:
@@ -255,6 +261,14 @@ See
 and
 
 <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieIntegrated">Lie integrated ∞-Lie groupoids</a>.
+
+## Related concepts
+
+* [[A-∞ algebra]]
+
+* [[E-∞ algebra]]
+
+* **$L_\infty$-algebra**
 
 ## References ##
 
