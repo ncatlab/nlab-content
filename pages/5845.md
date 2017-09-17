@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about the notion of _adjoint triple_ involving 3 functors. Please do not mix with the notion of [[adjoint monad]]s, which were also sometimes called adjoint triples, with "triple" then being a synonym for monad..
+> This entry is about the notion of _adjoint triple_ involving 3 functors. Please do not mix with the notion of [[adjoint monads]], which were also sometimes called adjoint triples, with "triple" then being a synonym for monad. However, an adjoint triple in the sense here does induce an [[adjoint monad]]!
 
 #Contents#
 * table of contents
@@ -153,6 +153,8 @@ In particular, the proposition and its corollary apply to a [[cohesive topos]], 
 ## Related concepts
 
 * [[adjoint quadruple]], [[cohesive topos]]
+
+* [[ambidextrous adjunction]]
 
 * [[affine morphism]], [[affine localization]] 
 
