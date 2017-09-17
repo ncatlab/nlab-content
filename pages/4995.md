@@ -1681,23 +1681,15 @@ Its [[loop space object]] $\mathfrak{g} := \Omega_* \mathbf{B}G$ we call an **[[
 =--
 
 
-
-### Lie theory {#LieTheory}
-
 +-- {: .un_def}
 ###### Definition
 
 Set
 
 $$
-  (Lie \dashv \exp )
-  : 
-  ( 
-    \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} 
-     \dashv 
-    \mathbf{\flat}_{dR}
-    \mathbf{\Gamma}_{dR}
-  )
+  Lie 
+  := 
+  \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} 
   \,.
 $$
 
