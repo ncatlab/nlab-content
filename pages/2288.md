@@ -51,6 +51,10 @@ When the spaces and spectra in question carry an [[infinity-action]] of a [[grou
 
 ## References
 
+A quick idea is given in 
+
+* [[Dylan Wilson]], _Introduction to stable homotopy theory_ ([pdf](http://math.berkeley.edu/~aaron/wcatss/sht1.pdf))
+
 A fun scan of the (pre-)history of the stable homotopy category is in 
 
 * [[Peter May]], _The hare and the hedgehog_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
