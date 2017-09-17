@@ -1,3 +1,4 @@
+## 1-Categorical Description
 A **contravariant functor** $F$ from a [[category]] $C$ to a category $D$ is simply a [[functor]] from the [[opposite category]] $C^op$ to $D$.
 
 
@@ -14,6 +15,39 @@ $$
 
 This matters when discussing a [[natural transformation]] from one contravariant functor to another.
 
+##Graded 2-Categorical Description
++-- {: .query}
+Does anyone know of any references for the material below? 
+=--
+The above definition of contravariant functors as covariant functors out of (or into) the opposite category is unsatisfactory if one wishes to consider natural transformations between functors of different variance. In particular, it seems to break the $2$-categorical structure since with the above definition covariant and contravariant functors now live as objects in different categories $[C,D]$ and $[C^{op},D]$ inside the $2$-category **Cat** of categories and covariant functors, hence whatever natural transformations between functors of different variance are, it is not $2$-morphisms in **Cat**. 
 
+The correct thing to do is to define the $\mathbb{Z}/2$-[[graded category|graded $2$-category]] of categories, functors, and natural transformations. 
+
+1. The objects of our $2$-category will be categories. 
+
+2. The $1$-morphisms of our $2$-category will be all functors, covariant and contravariant alike. The grading (on the $1$-categorical part at least) is then a functor to $\mathbb Z/2$ considered as one-object category, given by considering contravariant functors to be _odd_ ($1\bmod 2$) and covariant functors to be _even_ $0\bmod 2$. Composition of functors is then additive on the grading (as it should be).
+
+3. The $2$-morphisms $F\stackrel{\alpha}{Rightarrow}G\colon C\to D$ will be once again $\ob(C)$-indexed families of morphisms $FX\stackrel{\alpha_X}{\to} GX$, but the commutative diagram they will have to satisfy for each $X\stackrel{f} Y$ in $C$ depends on the combination of variances of $F$ and $G$:
+$$
+\array{
+FX&\stackrel{Ff}{\rightarrow}&FY&FX&\stackrel{Ff}{\rightarrow}&FY&FX&\stackrel{Ff}{\leftarrow}&FY&FX&\stackrel{Ff}{\leftarrow}&FY
+\\&\stackrel{\alpha_X}{\downarrow}&&\stackrel{\alpha_Y}{\downarrow}&&\stackrel{\alpha_X}{\downarrow}&&\stackrel{\alpha_Y}{\downarrow}&&\stackrel{\alpha_X}{\downarrow}&&\stackrel{\alpha_Y}{\downarrow}&&\stackrel{\alpha_X}{\downarrow}&&\stackrel{\alpha_Y}{\downarrow}
+\\GX&\stackrel{Gf}{\rightarrow}&GY&GX&\stackrel{Gf}{\lefttarrow}&GY&GX&\stackrel{Gf}{\rightarrow}&GY&GX&\stackrel{Gf}{\leftarrow}&GY
+}
+It is clear that (vertical) composition of $2$-morphisms makes sense, and that furthermore natural transformations between functors of different variance should be graded _odd_, while natural transformation between functors of the same variance should be graded _even_.
+
+4. It is less clear that (but true!) that [[horizontal composition]] and [[whiskering]] also make sense. We thus have a (strict) $2$-category, although the actions of whiskering by an odd functor (or more generally of horizontally composing with an odd natural transformation) act _contravariantly_ on vertical composition, so perhaps this is a slightly more general notion of a $2$-category.
+
+In this context, the structure of the $\cdot^{op}$ operation becomes interesting: it is an involutive $2$-functor that preserves grading, but reverses $2$-morphisms, and furthermore comes equipped with natural isomorphisms $[-^{op},-]\cong[-,-]^{op}\cong[-,-^{op}]$ (this doesn't make complete sense as we have not discussed yet how our new $2$-category is enriched in itself, so the meaning of $[-,-]^{op}$ is not completely clear...).
+
+##$2$-Categorical contravariance
+As mentioned in [[opposite $2$-category]], a $2$-category can have three different duals, depending on whether we formally flip only the $1$-morphisms, only the $2$-morphisms, or both. From the perspective in this article, however, it is better to say that $2$-functors have three different kinds of contravariance. 
+Consequently, there should be two  $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-categories: 
+
+1. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations]]
+
+2. A $\mathbb{Z}/2\times\mathbb Z/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations|oplax natural transformations]]
+
+Somewhat mysteriously, the [[category of V-enriched categories]] is a $2$-category which comes with a [[unit enriched category]] $\mathcal{I}$ and either a lax natural transformation $[\mathcal{I},-]^{op}\Rightarrow[[\mathcal{I},-],V_0]$ (in the case of $\mathcal{V}$ a [[monoidal category|monoidal structure]] on $V$), or a lax natural transformation $[\mathcal{I},-]^{op}\Rightarrow[-,V^e]$ (in the case of $\mathcal V$ a [[closed category|closed structure]] on $[\mathcal{I},V^e]\cong V_0$).
 [[!redirects contravariant functor]]
 [[!redirects contravariant functors]]
