@@ -339,8 +339,8 @@ A construction in terms of a [[model structure on spectra]] is in
 
 A refinement of the construction of $\infty$-groups of units to [[augmented ∞-groups]] over the [[sphere spectrum]], such as to distinguish $gl_1$ of a [[periodic E-∞ ring]] from its connective cover, is in
 
-* [[Steffen Sagave]], _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
- {#Sagave11}
+* {#Sagave11} [[Steffen Sagave]], _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+ 
 
 based on ([Schlichtkrull 04](#Schlichtkrull04)).
 
