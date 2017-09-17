@@ -35,3 +35,4 @@ which is a statement of the physical phenomenon of _charge conservation_ .
   $$
 
 [[!redirects electric current]]
+[[!redirects electric charges]]
