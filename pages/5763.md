@@ -382,6 +382,8 @@ $$
 
 natural in $C \in \mathcal{C}(A)$.
 
+> wait, I need to add an argument that $f_C(C) = f(C)$...
+
 =--
 
 
