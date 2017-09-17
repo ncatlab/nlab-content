@@ -55,7 +55,7 @@ We discuss local ("[[extended TQFT|extended]]") [[topological field theory|topol
 
 The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([hCSlpQFT](#hCSlpQFT)).
 
-After a technical prelimiray to set the stage in 
+After a technical preliminary to set the stage in 
 
 * _[The ambient topos](#TheTopos)_,
 
@@ -338,7 +338,7 @@ where the right vertical functor [[forgetful functor|forgets]] the phase assigns
 
 So far this is a non-local (or: not-neccessarily local) preqauntum field theory, since it assigns data only to entire $n$-dimensional cobordisms and $(n-1)$-dimensional [[closed manifolds]], but is not guaranteed to be obtained by integrating up local data over little pieces of these manifolds. The latter possibility is however the characteristic property of [[local quantum field theory]], which in turn is the flavor of quantum field theory that seems to matter in nature, and fundamentally.
 
-In order to formaliz this localization, we allow the cobordisms to contain higher-[[codimension]] pieces that are [[manifolds with corners]]. These then form not just a [[category of cobordisms]], but an [[(∞,n)-category]] of cobordisms, which we will still denote $Bord_n^\otimes$. If we now have a cobordism with [[codimension]]-2 [[corners]], then the field configurations over it now form a span-of-spans
+In order to formalize this localization, we allow the cobordisms to contain higher-[[codimension]] pieces that are [[manifolds with corners]]. These then form not just a [[category of cobordisms]], but an [[(∞,n)-category]] of cobordisms, which we will still denote $Bord_n^\otimes$. If we now have a cobordism with [[codimension]]-2 [[corners]], then the field configurations over it now form a span-of-spans
 
 $$
   \array{
@@ -635,20 +635,16 @@ whose moduli stack $\mathbf{Fields}$ is a [[discrete ∞-groupoid]]
 (and usually also required to be finite, especially if its [[quantization]] is considered).
 This is a special case of the higher Chern-Simons theories discussed below in _[Higher Chern-Simons local prequantum field theory](#HigherChern-SimonsLocalPrequantumFieldTheory)_, and hence strictly speaking need not be discussed separately. We use it here as a means to review some of the relevant [[homotopy theory]] by way of pertinent examples.
 
-The original [[Dijkgraaf-Witten theory]] is that in dimension 3
-(reviewed in 
-_[3d Local prequantum field theory](#3dDWLocalPrequantumFieldTheory)_ below), which 
-was introduced in 
-([Dijkgraaf-Witten 90](Dijkgraaf-Witten+theory#DijkgraafWitten90)) as a toy version of standard 3d [[Chern-Simons theory]] for [[simply connected topological space|simply connected]] [[gauge group]]. 
-A comprehensive account with first indications of its role as a local (extended, multi-tiered) field theory
+The original [[Dijkgraaf-Witten theory]] is that in dimension 3 (reviewed in _[3d Local prequantum field theory](#3dDWLocalPrequantumFieldTheory)_ below), which was introduced in 
+([Dijkgraaf-Witten 90](Dijkgraaf-Witten+theory#DijkgraafWitten90)) as a toy version of standard 3d [[Chern-Simons theory]] for [[simply connected topological space|simply connected]] [[gauge group]]. A comprehensive account with first indications of its role as a local (extended, multi-tiered) field theory
 then appeared in 
 ([Freed-Quinn 93](Dijkgraaf-Witten+theory#FreedQuinn93)), and ever since this has served as a testing ground for understanding the general principles of local field theory, e.g. 
 ([Freed 94](Dijkgraaf-Witten+theory#Freed94)), 
 independently of the subtleties of giving meaning to concepts such as the path integral when the space of fields is not finite.
-In section 3 of ([FHLT 10](#FHLT)) the general prequantum formalization as in  def. \ref{LocalPrequantumFieldWithAction} 
-is sketched for Dijkgraaf-Witten type theories, 
+In section 3 of ([FHLT 10](#FHLT)), the general prequantum formalization as in  def. \ref{LocalPrequantumFieldWithAction} is sketched for Dijkgraaf-Witten type theories, 
 and in section 8 there the quantization of these
 theories to genuine local quantum field theories is sketched.
+
 
 
 #### 1d Dijkgraaf-Witten theory
@@ -656,7 +652,7 @@ theories to genuine local quantum field theories is sketched.
 
 [[Dijkgraaf-Witten theory]] in [[dimension]] 1 is what results when one regards a [[group character]] of a [[finite group]] $G$ as an 
 [[action functional]] in 
-the sense of def. \ref{LocalPrequantumFieldTheory}.
+the sense of def. \ref{LocalPrequantumFieldWithAction}.
 We give an expository discussion of this example and in the course of it
 introduce some basics of the [[homotopy theory]] of [[groupoids]] ([[homotopy 1-types]]).
 
@@ -712,7 +708,8 @@ Regarded this way, we say the [gauge group acting on the single field $\phi_0$ f
 ##### Groupoids and basic homotopy 1-type theory
  {#GroupoidsAndBasicHomotopy1TypeTheory}
 
-The following is a quick review of basics of 
+
+The following is a quick review of basics of [[groupoids]] and their [[homotopy theory]] ([[homotopy 1-type]]-theory), geared towards the constructions and fact needed for 1-dimensional Dijkgraaf-Witten theory. 
 
 +-- {: .num_defn }
 ###### Definition
@@ -1467,7 +1464,7 @@ The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its cod
 * [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
  {#hCSlpQFT}
 
-Much of the content of this entry here are or arose as lecture notes for
+Much of the content of this entry here are, or arose as, lecture notes for
 
 * [[Urs Schreiber]], _Lectures on higher Chern-Simons field theory_, at the workshop _[Chern-Simons Theory: Geometry, Topology and Physics](http://www.pitt.edu/~jdeblois/CS.html)_ University of Pittsburgh (May 2013)
  {#SchreiberPittLectures}
@@ -1488,4 +1485,7 @@ This forms one section of the more comprehensive lecture notes at
 
 [[!redirects higher prequantum field theory]]
 [[!redirects higher prequantum field theories]]
+
+
+
 
