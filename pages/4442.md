@@ -83,7 +83,9 @@ Its gauge field is hence locally a pair consisting of the abelian 3-form field $
 
 Indeed, in ([SezginSundell 2002](#SezginSundell)) more detailed arguments are given that the 7-dimensional dual to the 6d theory is a [[higher spin gauge theory]] for a higher spin [[gauge group]] extending $SO(6,2)$.
 
+### Further gauge theories induced by compactification and twisting
 
+[[!include gauge theory from AdS-CFT -- table]]
 
 ## Formalizations
 
@@ -231,3 +233,6 @@ Applications of AdS-CFT duality to [[condensed matter physics]] are reviewed in
 [[!redirects AdS/CFT correspondence]]
 
 [[!redirects AdS-CFT duality]]
+
+[[!redirects AdS7-CFT6]]
+[[!redirects AdS5-CFT4]]
