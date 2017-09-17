@@ -6,7 +6,13 @@
 
 ## Idea
 
-A standard [[compactification]] of a [[moduli stack of curves]]. See there for more.
+A standard [[compactification]] due to ([Deligne-Mumford 69](#DeligneMumford69)) of a [[moduli stack of curves]] by including curves with [[singularities]],in particular by including [[nodal curves]]. 
+
+## Related concepts
+
+* [[augmented Teichmüller space]]
+
+* [[Deligne-Mumford stack]]
 
 ## References
 
@@ -25,4 +31,3 @@ Discussion over the [[complex numbers]] showing that the DM-compactification her
 
 
 [[!redirects Deligne-Mumford compactifications]]
-
