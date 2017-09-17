@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
 </div>
@@ -76,3 +75,5 @@ After the conception of [[gauge theory]], the term _curvature_ was firmly establ
 ### Curvature characteristic forms
 
 * [[curvature characteristic form]]
+
+(TO ADD: Something about curved $A_\infty$ algebras and curved dg algebras.)
