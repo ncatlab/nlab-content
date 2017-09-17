@@ -47,4 +47,8 @@ Here is a very incomplete list of software available for mathematics, especially
 
 * [CHDA Homepage](http://www.maths.bangor.ac.uk/chda/intro.html)
 
+## Related pages
+
+* [[programming language]]
+
 category: software
