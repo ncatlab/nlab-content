@@ -1,10 +1,17 @@
-The story starts with an embedding $i:X\to Y$ of compact manifolds. In this situation one can construct an homomorphism 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The story starts with an embedding $i:X\to Y$ of [[compact space|compact]] [[manifolds]]. In this situation one can construct a [[homomorphism]] 
 
 $$
 i_{!}:K(T X)\longrightarrow K(T Y)
 $$ 
 
-between the compactly supported $K$-theories of their tangent bundles. Note the reverse functoriality: for the base space $K$ is contravariant while for the total spaces of the tangent bundles it is covariant. This uses the Thom mapping: if $X$ is a compact manifold and $V$ a real vector bundle over $X$ there is a natural map
+between the compactly supported [[K-theory|K-theories]] of their [[tangent bundles]]. Note the reverse [[functor|functoriality]]: for the base space $K$ is contravariant while for the total spaces of the tangent bundles it is covariant. This uses the [[Pontrjagin-Thom collaps map|Thom mapping]]: if $X$ is a compact manifold and $V$ a real vector bundle over $X$ there is a natural map
 
 $$
 \varphi:K(X)\longrightarrow K(V).
@@ -42,3 +49,15 @@ $$
 $$ 
 
 on one (hence all) Sobolev space $D$ is defined on. The Atiyah-Singer index theorem then states that the analytical index of is equal to the topological one.
+
+## Related concepts
+
+* [[index theory]]
+
+  * [[topological index]]
+
+  * [[analytical index]]
+
+  * [[Atiyah-Singer index theorem]]
+
+[[!redirects topological indices]]
