@@ -6,7 +6,7 @@
 
 Let $A$, $B$, $C$, and $D$ be (usually small) [[categories]], and consider a square of [[functors]]
 $$\array{A & \overset{f}{\to} & B\\
-  ^u\downarrow & \Downarrow & \downarrow^v\\
+  ^u\downarrow & \swArrow & \downarrow^v\\
   C& \underset{g}{\to} & D}$$
 which is inhabited by a [[natural transformation]] (which might be an [[identity]]).  This is said to be an **exact square** if the canonical [[Beck-Chevalley transformation]]
 $$ u_! f^* \to g^* v_!, $$
