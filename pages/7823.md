@@ -97,8 +97,12 @@ Note that since we have a equivalence $T_l A\simeq H_{et}^1(A_{k_s}, \mathbb{Z}_
 
 * [[class field theory]]
 
+* Every Galois representation induces an [[Artin L-function]].
+
 ## References
 
 * Wikipedia, _[Galois module](http://en.wikipedia.org/wiki/Galois_module)_
+
+* [[Richard Taylor]], _Galois representations_ ([pdf](http://math.stanford.edu/~lekheng/flt/taylor-long.pdf))
 
 [[!redirects Galois modules]]
