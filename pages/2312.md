@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents# 
 * table of contents
 {:toc}
@@ -21,23 +20,30 @@ A [[cohomology theory]] $E$ is called _multiplicative_ if $E^\bullet(X)$ is not 
 
 This is in particular the case when the [[spectrum]] $E$ [[Brown representability theorem|representing]] the [[cohomology theory]] is an [[E-∞ ring]] spectrum.
 
-## Related concepts
+
+## Examples
+
+* [[integral cohomology]]
+
+* [[topological K-theory]], [[K-theory]]
+
+* [[tmf]]
+
+* etc.
+
+## Related entries
+
+For multiplicative cohomology theories one can consider
+
+* [[universal coefficient theorem]], [[module spectrum|module cohomology theories]], ...
+
+See also
 
 * [[Thom isomorphism]]
 
 * [[orientation in generalized cohomology]]
 
 * [[fiber integration]]
-
-## Examples
-
-* [[integral cohomology]]
-
-* [[topological K-theory]]
-
-* etc.
-
-## Related entries
 
 * [[K-theory of a bipermutative category]]
 
