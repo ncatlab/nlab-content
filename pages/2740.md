@@ -82,7 +82,7 @@ differential.
 
 ## Properties
 
-### Cohomology {#Cohomology}
+### Cohomology and Chern-Simons elements {#Cohomology}
 
 We discuss aspects of the [[∞-Lie algebra cohomology|∞-Lie algebroid cohomology]] of $\mathfrak{P}(X,\pi)$.
 
@@ -110,7 +110,7 @@ $$
   \,.
 $$
 
-**Proof** One checks that the following is a Chern-Simons element exhibiting the transgression
+**Proof** One checks that the following is a **Chern-Simons element** exhibiting the transgression
 
 $$
   cs_\pi = \pi^{i j} \partial_i  \wedge \partial_j + x^i \wedge \mathbf{d}\partial_i
@@ -121,6 +121,36 @@ $$
 in that $d_{W(\mathfrak{P}(X,\pi))} cs_\pi = \omega$, and the restriction of $cs_\pi$ to $CE(\mathfrak{P}(X,\pi))$ is evidently the Poisson tensor $\pi$.
 
 **Remark** The invariant polynomial $\omega$ makes $\mathfrak{P}(X,\pi)$ a [[schreiber:symplectic ∞-Lie algebroid]].
+
+**Remark** The [[action functional]] induced from the above Chern-Simons element is that of the [[Poisson sigma-model]]:
+
+it sends [[∞-Lie algebroid valued forms]]
+
+$$
+  \Omega^\bullet(\Sigma) \leftarrow W(\mathfrak{P}(X,\pi))
+  (X,\eta)
+$$
+
+on a 2-dimensional manifold $\Sigma$ with values in a Poisson Lie algebroid on $X$ to the integral of the [[Chern-Simons form|Chern-Simons 2-form]]
+
+$$
+  \Omega^\bullet(\Sigma) \leftarrow 
+  W(\mathfrak{P}(X,\pi))
+  \stackrel{(\omega, cs_\omega)}{\leftarrow}
+  W(b^2 \mathbb{R})
+  : 
+  CS_\omega(X,\eta)
+$$
+
+which, by the above, is in components
+
+$$
+  CS_\omega(X,\eta) = \eta_i \wedge d_{dR} X^i + \pi^{i j} \eta_i \wedge \eta_j
+  \,.
+$$
+
+
+
 
 ## Related concepts ##
 
