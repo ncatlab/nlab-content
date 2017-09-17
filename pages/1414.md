@@ -386,7 +386,7 @@ $$
   \,.
 $$
 
-As such, it is a special case of the [[Michael Boardman|Boardman]]-[[Rainer Vogt|Vogt]] [[W-construction]] for [[model structure on operads|cofibrant replacement of]] topological [[operad]]s.
+As such, it is a special case of the [[Michael Boardman|Boardman]]-[[Rainer Vogt|Vogt]] [[W-construction]] for [[model structure on operads|cofibrant replacement of]] topological [[operads]]. See also _[[dendroidal homotopy coherent nerve]]_.
 
 In this construction, rouhgly, for $T$ a [[tree]] in an operad $O$, the tree is replaced with the topological space $e(T) \to [0,1]$ of maps from the set of edges of $T$ to the topological unit interval.
 
