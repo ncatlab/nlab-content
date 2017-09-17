@@ -336,6 +336,8 @@ A detailed discussion is in ([Witten 89](#Witten)).
 
 * [[reductions deformations resolutions in physics]]
 
+* [[Weinstein symplectic category]]
+
 * [[quantization]]
 
   * [[deformation quantization]]
