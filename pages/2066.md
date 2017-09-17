@@ -134,11 +134,12 @@ The functor that forms idempotent completion is the [[monad]] induced from the [
 
 ## Related concepts
 
+* [[Karoubian category]], [[pseudo-abelian category]]
+
 * [[Cauchy completion]]
 
 * [[idempotent complete (infinity,1)-category]]
 
-* [[Karoubian category]] 
 
 
 ## References 
@@ -185,4 +186,14 @@ Discussion for [[triangulated categories]] is in
 
 [[!redirects idempotent completion]]
 [[!redirects idempotent completions]]
+
+[[!redirects idempotent-splitting completion]]
+[[!redirects idempotent-splitting completions]]
+
+
+[[!redirects pseudo-abelian completion]]
+[[!redirects Karoubian envelope]]
+[[!redirects Karoubianization]]
+[[!redirects Karoubianization functor]]
+[[!redirects Karoubinization functor]]
 
