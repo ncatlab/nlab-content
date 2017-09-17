@@ -20,7 +20,7 @@
 In a [[monoidal category]] $(C,\otimes)$ with [[tensor product]] $\otimes$ we say that for $n \in \mathbb{N}$ a [[natural number]] and $V \in C$ any [[object]], that
 
 $$
-  V^{\otimes n} := V \otimes V \otimes \cdots \otimes V \;\; (n factors)
+  V^{\otimes n} := V \otimes V \otimes \cdots \otimes V \;\; (n \;factors)
 $$
 
 is the $n$the **tensor power** of $V$.
@@ -55,6 +55,8 @@ Given a [[vector space]] $V$, the $n$-fold [[tensor product]] of this space with
 * [[free monoid]]
 
 * [[cofree coalgebra]]
+
+* [[Fock space]]
 
 * [[extended power]]
 
