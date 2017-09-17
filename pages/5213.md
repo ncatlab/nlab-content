@@ -108,11 +108,28 @@ This means that in as far as $C, D \in $ [[Pr(∞,1)Cat]] are analogous to vecto
 
 =--
 
-## Function spaces
+## Function spaces {#FunctionSpaces}
 
 We consider from now on some fixed ambient [[(∞,1)-topos]] $\mathbf{H}$. 
 
 Notice that for each [[object]] $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos]] of $(\infty,1)$-sheaves on $X$. So to the extent that we think of these as **function objects** , and of locally presentable $(\infty,1)$-categories as linear spaces, we may think of $\mathbf{H}/X$ as the $\infty$-vector space of $\infty$-functions on $X$
+
++-- {: .un_remark #EtaleIdentificationRemark}
+###### Remark
+
+The [[over-(∞,1)-topos]]es $\mathbf{H}/X$ sit by an [[etale geometric morphism]] over $\mathbf{H}$ and are characterized up to equivalence by this property. 
+
+Moreover, we have an equivalence of the ambient $(\infty,1)$-topos $\mathbf{H}$ with the $(\infty,1)$-category of [[etale geometric morphism]]s into it.
+
+$$
+  ((\infty,1)Topos/\mathbf{H})_{et} \simeq
+  \mathbf{H}
+  \,.
+$$
+
+=--
+
+
 
 +-- {: .un_example}
 ###### Example
@@ -142,22 +159,20 @@ where $\Psi_x \in FinSet$ is the [[fiber]] of $\psi$ over $X$.
 =--
 
 
-+-- {: .un_remark #EtaleIdentificationRemark}
-###### Remark
++-- {: .un_example #PresheavesOnGroupoids}
+###### Example
 
-The [[over-(∞,1)-topos]]es $\mathbf{H}/X$ sit by an [[etale geometric morphism]] of $\mathbf{H}$ and are characterized up to equivalence by this property. 
-
-Moreover, we have an equivalence of the ambient $(\infty,1)$-topos $\mathbf{H}$ with the $(\infty,1)$-category of [[etale geometric morphism]]s into it.
+Let $\mathbf{H} = $ [[∞Grpd]]. By the [[(∞,1)-Grothendieck construction]] we have for $X \in \infty Grpd$ an [[∞-groupoid]] an [[equivalence of (∞,1)-categories]]
 
 $$
-  ((\infty,1)Topos/\mathbf{H})_{et} \simeq
-  \mathbf{H}
-  \,.
+  \infty Grpd/X \simeq PSh_{(\infty,1)}(X) \simeq  Func_{(\infty,1)}(X,\infty Grpd) 
 $$
+
+of the [[over-(∞,1)-category]] of all $\infty$-groupoids over $X$  with the [[(∞,1)-category of (∞,1)-presheaves]] on $X$. And since the $\infty$-groupoid $C$ is equivalent to its [[opposite (∞,1)-category]] this is also equivalent to the [[(∞,1)-category of (∞,1)-functors]] from $C$ to [[∞Grpd]].
+
+
 
 =--
-
-
 
 ## Products of function objects
 
@@ -265,7 +280,7 @@ $$
   \right)
 $$
 
-in $\mathbf{H}$ it induces by composition of pullback and fiber integration operations a morphism
+in $\mathbf{H}$ it induces by composition of pullback and fiber integration operations a colimit-preserving $(\infty,1)$-functor
 
 $$
   \underline{A}
@@ -273,12 +288,12 @@ $$
   \mathbf{H}/X
    \stackrel{i^*}{\to}
   \mathbf{H}/A
-   \stackrel{\int_{A/X}}{\to}
+   \stackrel{\int_{A/Y}}{\to}
   \mathbf{H}/Y
   \,.
 $$
 
-Notice that we may always factor $(i,o)$ through the [[(∞,1)-limit|(∞,1)-product]]
+We may always factor $(i,o)$ through the [[(∞,1)-limit|(∞,1)-product]]
 
 $$
   \left(
@@ -311,7 +326,7 @@ on $X \times Y$ the **integral kernel** of $\underline{A}$.
 We have the **pull-tensor-push formula** for $\underline{A}$:
 
 $$
-  \int_{A/X} i^* F =  (p_2)_*((p_1^* F) \cdot A)
+  \underline{A} F = \int_{A/Y} i^* F =  (p_2)_!(A \cdot (p_1^* F) )
   \,.
 $$
 
@@ -341,7 +356,7 @@ $$
 ###### Example
 
 In $\mathbf{H} = $ [[FinSet]] we have that 
-$(|A_{x,y}|)$ is a $|X|$-by-$ |Y|$-matrix with entries in [[natural number]]s and the function
+$(|A_{x,y}|)$ is a $|X|$-by-$ |Y|$-[[matrix]] with entries in [[natural number]]s and the function
 
 $$
   |A \psi | : y \mapsto | (i^* \Psi)_y | = \sum_{x \in X} |A_{x,y}| \cdot |\psi|(x)
