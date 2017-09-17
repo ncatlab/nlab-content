@@ -33,3 +33,6 @@ Parts of the above text are taken from [this MO comment](http://mathoverflow.net
 
 [[!redirects proof management system]]
 [[!redirects proof management systems]]
+
+[[!redirects computer proof assistant]]
+[[!redirects computer proof assistants]]
