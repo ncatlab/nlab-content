@@ -1197,6 +1197,10 @@ From this one obtains the following list of examples of cohesive $(\infty,1)$-to
 
 * [[smooth ∞-groupoid]]
 
+#### Complex analytic $\infty$-groupoids
+
+* [[complex analytic ∞-groupoid]]
+
 #### Synthetic differential $\infty$-groupoids
 
 * [[synthetic differential ∞-groupoid]]
