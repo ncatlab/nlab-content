@@ -50,22 +50,21 @@ equipped with
 such that
 
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\eta \bullet \Id_f$ and $\Id_g \bullet \eta$ both equal $\eta$,
-*  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h \overset{\iota}\Rightarrow i\colon a \to b$, the vertical composites $\iota \bullet (\theta \bullet \eta)$ and $(\iota \bullet \theta) \circ \eta$ are equal,
-*  for each $a \overset{f}\to b \overset{g}\to c$, the whiskerings $\id_g \triangleleft f$ and $g \triangleright \id_f$ both equal $\id_{g \circ f }$,
+*  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h \overset{\iota}\Rightarrow i\colon a \to b$, the vertical composites $\iota \bullet (\theta \bullet \eta)$ and $(\iota \bullet \theta) \bullet \eta$ are equal,
+*  for each $a \overset{f}\to b \overset{g}\to c$, the whiskerings $\Id_g \triangleleft f$ and $g \triangleright \Id_f$ both equal $\Id_{g \circ f }$,
 *  for each $f\colon a \to b$ and $g \overset{\eta}\Rightarrow h \overset{\theta}\Rightarrow i\colon b \to c$, the vertical composite $(\theta \triangleleft f) \bullet (\eta \triangleleft f)$ equals the whiskering $(\theta \bullet \eta) \triangleleft f$,
 *  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h\colon a \to b$ and $i\colon b \to c$, the vertical composite $(i \triangleright \theta) \bullet (i \triangleright \eta)$ equals the whiskering $i \triangleright (\theta \bullet \eta)$,
-*  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the left whiskerings $\eta \triangleleft (g \circ f)$ and $(\eta \triangleleft g) \triangleleft f$ are equal,
-*  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the whiskerings $i \triangleright (\eta \triangleleft f)$ and $(i \triangleright \eta) \triangleleft f$ are equal,
-*  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the right whiskerings $i \triangleright (h \triangleright \eta)$ and $(i \circ h) \triangleright \eta$ are equal,
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\lambda_g \bullet (\eta \triangleleft \id_a)$ and $\eta \bullet \lambda_f$ are equal,
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\rho_g \bullet (\id_b \triangleright \eta)$ and $\eta \bullet \rho_f$ are equal,
+*  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the vertical composites $\alpha_{f,g,i} \bullet (\eta \triangleleft (g \circ f)$ and $((\eta \triangleleft g) \triangleleft f) \bullet \alpha_{f,g,h}$ are equal,
+*  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the vertical composites $\alpha_{f,h,i} \bullet (i \triangleright (\eta \triangleleft f))$ and $((i \triangleright \eta) \triangleleft f) \bullet \alpha_{f,g,i}$ are equal,
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the vertical composites $\alpha_{g,h,i} \bullet (i \triangleright (h \triangleright \eta))$ and $((i \circ h) \triangleright \eta) \bullet \alpha_{f,h,i}$ are equal,
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $\theta\colon h \Rightarrow i\colon b \to c$, the vertical composites $(i \triangleright \eta) \bullet (\theta \triangleleft f)$ and $(\theta \triangleleft g) \bullet (h \triangleright \eta)$ are equal,
 *  for each $f\colon a \to b$, the vertical composites $\lambda_f \bullet \bar{\lambda}_f\colon f \Rightarrow f$ and $\bar{\lambda}_f \bullet \lambda_f\colon f \circ \id_a \Rightarrow f \circ \id_a$ equal the appropriate identity $2$-morphisms,
 *  for each $f\colon a \to b$, the vertical composites $\rho_f \bullet \bar{\rho}_f\colon f \Rightarrow f$ and $\bar{\rho}_f \bullet \rho_f\colon \id_b \circ f \Rightarrow \id_b \circ f$ equal the appropriate identity $2$-morphisms,
 *  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, the vertical composites $\alpha_{f,g,h} \bullet \bar{\alpha}_{f,g,h}\colon (h \circ g) \circ f \Rightarrow (h \circ g) \circ f$ and $\bar{\alpha}_{f,g,h} \bullet \alpha_{f,g,h}\colon h \circ (g \circ f) \Rightarrow h \circ (g \circ f)$ equal the appropriate identity $2$-morphisms,
-*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\lambda_g \bullet (\eta \triangleright \id_a)$ and $\eta \bullet \lambda_f$ are equal,
-*  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\rho_g \bullet (\id_b \triangleleft \eta)$ and $\eta \bullet \rho_f$ are equal,
-*  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the vertical composites $\alpha_{g,h,i} \bullet (i \triangleleft (h \triangleleft \eta))$ and $((i \circ h) \triangleleft \eta) \bullet \alpha_{f,h,i}$ are equal,
-*  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the vertical composites $\alpha_{f,h,i} \bullet (i \triangleleft (\eta \triangleright f))$ and $((i \triangleleft \eta) \triangleright f) \bullet \alpha_{f,g,i}$ are equal, and
-*  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the vertical composites $\alpha_{f,g,i} \bullet (\eta \triangleright (g \circ f)$ and $((\eta \triangleright g) \triangleright f) \bullet \alpha_{f,g,h}$ are equal.
+*  for each $a \overset{f}\to b \overset{g}\to c$, the vertical composite $(\lambda_g \triangleleft f) \bullet \alpha_{f,\id_b,g}$ equals the whiskering $g \triangleright \rho_f$, and
+*  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d \overset{i}\to e$, the vertical composites $((\alpha_{g,h,i} \triangleleft f) \bullet \alpha_{f,h \circ g,i}) \bullet (i \triangleright \alpha_{f,g,h})$ and $\alpha_{g \circ f,h,i} \bullet \alpha_{f,g,i \circ h}$ are equal.
 
 It is quite possible that there are errors or omissions in this list, although they should be easy to correct.  The point is not that one would *want* to write out the definition in such elementary terms (although apparently I just did anyway) but rather that one *can*.
 
