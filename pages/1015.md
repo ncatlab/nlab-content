@@ -1,14 +1,13 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 #### Mathematics
-+--{: .hide}
++-- {: .hide}
 [[!include mathematicscontents]]
 =--
 =--
@@ -145,7 +144,7 @@ The main distinguishing feature of a material set theory is a global
 membership predicate, whereby it is meaningful to ask, given any
 object and a set, whether the object is an element of the set.
 
-+--{: .query}
++-- {: .query}
 [[Arnold Neumaier]]: Here is a second attempt to define the
 distinguishing feature. is that supposed to be an equivalent form of
 the previous one, or a different one? 
@@ -231,7 +230,7 @@ should be a [[pretopos]].
 
 * There is also [[algebraic set theory]], in which a material set
 theory is interpreted in the [[internal logic]] of some
-[[ambient category]], often called a "category of classes".
+[[ambient category]], often called a "category of classes".  See also [[stack semantics]].
 
 
 [[!redirects set theory]]
