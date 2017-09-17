@@ -31,7 +31,7 @@ In these terms, the cartesian product of the family of sets is the set $S$ of (g
 $$ S \times A \stackrel{ev}\to B \stackrel{g}\to A $$
 equals the usual product projection; in other words, $ev$ is a morphism in the [[over category]] $Set/A$.  The [[universal property]] of $S$ is that, given any set $T$ and morphism $T \times A \to B$ in $Set/A$, there\'s a unique map $T \to S$ that makes everything commute.
 
-In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: we move everything from $Set$ to an arbitrary over category $Set/I$.
+In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$ to $Set/A$ in which taking the product with $A$ is the left adjoint and applying this universal property is the right adjoint.  This is the basis for the definition below, but we add one further level of generality: we move everything from $Set$ to an arbitrary over category $\mathcal{C}/I$.
 
 
 
