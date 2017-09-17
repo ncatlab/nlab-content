@@ -1,4 +1,3 @@
-[[!redirects ∞-Lie group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -41,3 +40,7 @@ A Lie 6-group is a 5-[[truncated]] $\infty$-Lie group.
 
 * [[fivebrane 6-group]].
 
+[[!redirects ∞-Lie group]]
+
+[[!redirects ∞-Lie groups]]
+[[!redirects infinity-Lie groups]]
