@@ -92,4 +92,4 @@ Then
 
 For instance section 3 of 
 
-* Jardine, _Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* [[Rick Jardine]], _Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
