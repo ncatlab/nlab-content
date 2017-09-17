@@ -24,11 +24,23 @@ There are several things that one might mean by a "(possibly [[weak homotopy equ
 
 1. A [[geometric morphism]] that induces an [[equivalence]] of the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]], or more generally of [[shape of an (∞,1)-topos|shapes]].
 
-1. A geometric morphism which induces an [[isomorphism]] on all [[cohomology]] with [[constant coefficients]].
+1. A geometric morphism which induces an isomorphism on all [[nonabelian cohomology]] with coefficients in [[constant ∞-stacks]].
+
+1. A geometric morphism which induces an [[isomorphism]] on all abelian [[cohomology]] with cohomology in [[locally constant sheaves|locally constant]] sheaves of [[abelian groups]] (the most classical notion).
 
 1. A geometric morphism which has an inverse up to "homotopy" in the classical sense of a map $E\times [0,1]\to F$, where since $E$ and $F$ are toposes, we have to incarnate $[0,1]$ as the topos $Sh([0,1])$.
 
-Of these, the first two are arguably a notion of *weak* homotopy equivalence.  Moreover, they are equivalent, since $\Pi_\infty$ of a topos [[representable functor|represents]] locally constant sheaves/stacks.
+Of these, the first three are arguably a notion of *weak* homotopy equivalence.
+
+## Relationship between definitions.
+
+The first two definitions are equivalent, since (viewing a topos $E$ equivalently as the $(\infty,1)$-topos of sheaves on the same [[site]], if necessary), a constant ∞-stack on $E$ is one of the form $LConst A$ for an ∞-groupoid $A$, and the cohomology of $E$ with coefficients in $LConst A$ is just $\pi_0(Hom_E(*,LConst A))$.  But when $E$ is locally $\infty$-connected, $\Pi_E$ is left adjoint to $LConst$, so this is the same as $\pi_0 Hom_{\infty Gpd}(\Pi_E(*),A) = Hom_{Ho(\infty Gpd)}(\Pi_\infty(E),A)$ by definition of $\Pi_\infty(E)$.  Thus, by the Yoneda lemma, a map of toposes induces an equivalence of fundamental ∞-groupoids, i.e. an isomorphism in $Ho(\infty Gpd)$, iff it induces an isomorphism on all such cohomology.
+
+These first two definitions also imply the third, since locally constant stacks on $E$ are represented by maps out of $\Pi_\infty(E)$, and the abelian cohomology $H^n(E,A)$ with coefficients in an abelian sheaf $A$ can be identified with nonabelian cohomology in the locally constant stack $B^n A$ which is the $n$-fold [[delooping]] of $A$.
+
++--{: .query}
+[[Mike Shulman]]: I believe I recall the converse of that is true as well.  Maybe it is in Artin-Mazur?  I also seem to recall that the last notion of a "paths homotopy equivalence" implies the first few.
+=--
 
 ## Adjunctions induce homotopy equivalences
 
