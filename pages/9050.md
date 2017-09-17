@@ -151,9 +151,11 @@ The theorem is due to
 
 * [[William Hodge]], (1947)
 
-A textbook account is for instance in seciton 1.1 of
+Textbook accounts include
 
-* [[Chris Peters]], [[Jozef Steenbrink]], _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
+* {#Voisin02} [[Claire Voisin]], section 5 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
+* [[Chris Peters]], [[Jozef Steenbrink]], section 1.1. of _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
 
 
 Lecture notes include
