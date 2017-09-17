@@ -1,0 +1,146 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="342.43457"
+   height="152.90118"
+   id="svg26427"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="cq-arr.svg">
+  <defs
+     id="defs26429">
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9741"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker26447"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path26449"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="186.12155"
+     inkscape:cy="81.818254"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     inkscape:window-width="1082"
+     inkscape:window-height="725"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata26432">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-140.21128,-475.91159)">
+    <g
+       transform="translate(-61.361432,-493.45432)"
+       id="g26291-5-9">
+      <path
+         sodipodi:nodetypes="czc"
+         inkscape:connector-curvature="0"
+         id="path9542-1-26-5-8-8"
+         d="m 273.99626,1026.0982 c 0,0 41.45331,-25.2538 95.71196,-25.2538 54.25865,0 95.71196,25.2538 95.71196,25.2538"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text25968-6-0"
+         y="987.69208"
+         x="369.24484"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+         xml:space="preserve"><tspan
+           y="987.69208"
+           x="369.24484"
+           id="tspan25970-7-3"
+           sodipodi:role="line">classical limit</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text25972-1-1"
+         y="1109.9409"
+         x="369.01047"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+         xml:space="preserve"><tspan
+           id="tspan25986-9-4"
+           y="1109.9409"
+           x="369.01047"
+           sodipodi:role="line">deformation quantization</tspan></text>
+      <path
+         sodipodi:nodetypes="czc"
+         inkscape:connector-curvature="0"
+         id="path9542-1-26-5-5-0-8"
+         d="m 464.21217,1066.1274 c 0,0 -41.45331,25.2538 -95.71196,25.2538 -54.25865,0 -95.71196,-25.2538 -95.71196,-25.2538"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:6, 6;stroke-dashoffset:0;marker-start:url(#Arrow1Mstart)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text26258-2-9"
+         y="1050.4711"
+         x="466.10522"
+         style="font-size:17.43305016px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+         xml:space="preserve"><tspan
+           y="1050.4711"
+           x="466.10522"
+           id="tspan26260-3-0"
+           sodipodi:role="line">quantum</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text26262-9-5"
+         y="1050.3732"
+         x="272.14575"
+         style="font-size:17.43305016px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:cmr10;-inkscape-font-specification:cmr10"
+         xml:space="preserve"><tspan
+           y="1050.3732"
+           x="272.14575"
+           id="tspan26264-8-1"
+           sodipodi:role="line">classical</tspan></text>
+    </g>
+  </g>
+</svg>
