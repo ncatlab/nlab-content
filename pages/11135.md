@@ -24,6 +24,8 @@ In [[computer science]] this [[monad (in computer science)]] is used to model [[
 
 * [[double negation monad]]
 
+* [[dualizing object in a closed category]]
+
 * [[extensive quantity]]
 
 ## Related concepts
