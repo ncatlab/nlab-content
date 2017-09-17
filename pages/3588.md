@@ -1,10 +1,20 @@
 **[[type theory]]**
 
-# Basic concepts
+**[[homotopy type theory]]**
 
-* [[type theory]]
+# Types, logic and theories
 
-* [[context]]
+* [[theory]]
+
+  * [[signature (in logic)]]
+
+  * [[type]]
+
+  * [[context]]
+
+  * [[predicate]]
+
+  * [[axiom]]
 
 * [[display map]]
 
@@ -12,7 +22,7 @@
 
 * [[propositions as types]]
 
-* [[internal logic]]
+* [[internal logic]], [[categorical semantics]]
 
   * [[Mitchell-Benabou language]]
 
