@@ -433,3 +433,4 @@ category: motivation
 [[!redirects heuristic introduction to sheaves, cohomology and higher stacks]]
 [[!redirects heuristic introduction to sheaves, cohomology and higher sta]]
 [[!redirects introduction to sheaves, cohomology and higher stacks]]
+[[!redirects motivation for sheaves]]
