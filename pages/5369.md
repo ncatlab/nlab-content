@@ -24,15 +24,15 @@ A [[model category]] structure on the category of [[dg-categories]] that exhibit
 
 Let $k$ be a [[commutative ring]]. Write $dgCat_k$ for the [[category]] of [[small category|small]] [[dg-categories]] over $k$.
 
-There is the structure of a [[cofibrantly generated model category]] on $dgAlg_k$ where a dg-functor $F : A \to B$ is
+There is the structure of a [[cofibrantly generated model category]] on $dgCat_k$ where a dg-functor $F : A \to B$ is
 
-* an equivalences if
+* a weak equivalence if
 
   1. for all objects $x,y \in A$ the component $F_{x,y} : A(x,y) \to B(F(x), F(y))$ is a [[quasi-isomorphism]] of [[chain complexes]];
 
   1. the induced functor on [[homotopy categories]] $H^0(F)$ (obtained by taking degree 0 [[chain homology]] in each hom-object)  is an [[equivalence of categories]].
 
-* a fibraiton if
+* a fibration if
 
   1. for all objects  $x,y \in A$ the component $F_{x,y}$ is a degreewise surjection of chain complexes;
 
