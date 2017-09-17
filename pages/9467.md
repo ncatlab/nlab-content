@@ -186,11 +186,13 @@ On the other hand, in the light of nonstandard analysis, we can also reevaluate 
 
 In his experimental textbook _[[Proofs and Refutations]]_, [[Imre Lakatos]] used Cauchy\'s mistake to motivate the concept of uniform convergence.  Two years later, he partially reevaluated his discussion in light of the question of what Cauchy\'s conception of the continuum was.
 
-According to Lakatos, it is equally a mistake to interpret Cauchy\'s 1821 result using either Weierstrass\'s epsilontics or Robinson\'s nonstandard analysis.  Cauchy did not mean that $f_n(x)$ converges (in $n$) for each fixed standard real number $x$, nor that it converges for each fixed hyperreal number; rather, he said that it converges for each *variable* real number.  In particular, when discussing the Fourier series
+According to Lakatos, it is ahistorical to interpret Cauchy\'s 1821 result using either Weierstrass\'s epsilontics or Robinson\'s nonstandard analysis.  Cauchy did not mean that $f_n(x)$ converges (in $n$) for each fixed standard real number $x$, nor that it converges for each fixed hyperreal number $x$; rather, he said that it converges for each *variable* real number.  In particular, when discussing the Fourier series
 $$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} ,$$
-Cauchy states that the sequence
+Cauchy states (in 1853) that the sequence
 $$ \sum_{k = 1}^n \frac{\sin(k x)}{k} $$
 of partial sums fails to converge when $x = 1/n$; that is, $x$ is a variable whose value depends on the position in the sequence!
+
+If we (still arguably ahistorically) interpret convergence to mean to that $f_n(x_n)$ converges for every convergent sequence $(x_n)_n$ of real numbers, then this is equivalent (given that each $f_n$ is continuous) to uniform convergence, and Cauchy\'s result would again be true and his argument would be (when formalised with either epsilontics or nonstandard analysis) valid.
 
 
 ## References
