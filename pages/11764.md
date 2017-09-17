@@ -28,10 +28,20 @@ Discussion in terms of [[bundle gerbes]] includes ([Chatterjee 98](#Chatterjee98
 
 ## Properties
 
+### Dixmier-Douady class
+
+The [[Dixmier-Douady class]] of holomoprhic line 2-bundles, hence the higher analog of the [[first Chern class]], is given by the [[connecting homomorphism]] on degee 2 of the [[long exact sequence in cohomology]] which is induced by the [[exponential exact sequence]] in [[complex analytic geometry]]:
+
+$$
+  DD\;\colon\;  H^2(-,\mathbb{G}_m) \longrightarrow H^3(-,\mathbb{Z})
+  \,.
+$$
+
 ### Relation to higher twistor transforms
  {#RelationToHigherTwistorTransforms}
 
 Holomorphic line 2-bundles appear in the higher degree analogs of [[twistor transforms]]. See ([Chatterjee 98](#Chatterjee98)) and see [twistor -- References -- Application to self-dual 2-forms](twistor%20space#ReferencesApplicationToSelfDual2FormField)
+
 ## Related concepts
 
 * [[higher complex analytic geometry]]
@@ -63,3 +73,6 @@ Discussion connecting explicitly to the holomorphic [[Brauer group]] includes
 
 [[!redirects holomorphic bundle gerbe]]
 [[!redirects holomorphic bundle gerbes]]
+
+[[!redirects holomorphic 2-line bundle]]
+[[!redirects holomorphic 2-line bundles]]
