@@ -15,17 +15,54 @@ i \downarrow & & \downarrow t\\
 X & \overset{\chi_i}{\to} & \Omega
 }$$
 
+Equivalently, in addition to finite limits and colimits and local cartesian closure, one may ask only that there exists a classifier $t\colon 1\to\Omega$ as above for *some* class $\mathcal{M}$ of [[monomorphisms]] which contains the [[regular monomorphisms]] and is closed under composition and pullback.  It then follows that $\mathcal{M}$ is precisely the class of strong monics, and also equal to the class of regular monics.
+
+The object $\Omega$ above is sometimes called a **strong-subobject classifier**, since it classifies strong subobjects, but also sometimes called a **weak subobject classifier**, since it satisfies a weaker property than an ordinary [[subobject classifier]].
+
 ## Examples ##
 
-* Any [[topos]] is a quasitopos. 
-* The category of [[separated presheaf|separated presheaves]] with respect to a [[site]] is a quasitopos. 
-* The category of [[simplicial complex]]es is a quasitopos. 
-* The category of [[diffeological space]]s is a quasitopos. 
-* Any [[Heyting algebra]] is a quasitopos.
-* The category of [[pseudotopological spaces]] is a quasitopos, as is the category of [[subsequential spaces]].  The category of [[topological spaces]] fails only to be locally cartesian closed.
+* Any (elementary) [[topos]] is a quasitopos.  The first two properties are known, and in a topos every monomorphism is strong, so the ordinary subobject classifier works.
+
+* The category of [[separated presheaf|separated presheaves]] with respect to a [[site]] is a quasitopos.  Such a quasitopos is called a *Grothendieck quasitopos*, by analogy with the notion of [[Grothendieck topos]].  There is a [[Giraud theorem]] characterizing Grothendieck quasitoposes as those quasitoposes which are [[locally small category|locally small]], [[cocomplete category|cocomplete]], and have a [[generating set]], or equivalently as the [[locally presentable categories]] which are locally cartesian closed and in which every *strong* [[congruence]] has a [[effective quotient]]; see C2.2.13 of the [[Elephant]].
+
+* Any [[Heyting algebra]] is a quasitopos.  This is in notable contrast to the case of topoi, since no nontrivial poset is a topos.  The crucial distinction is that every morphism in a poset is both monic and epic, but only the identities are strong monic or strong epic.
+
+* The category of [[pseudotopological spaces]] is a quasitopos, as is the category of [[subsequential spaces]].  (The latter is Grothendieck, but not the former.)  The category of [[topological spaces]] fails only to be locally cartesian closed.  In such "topological" quasitopoi, the strong monics are the "subspace inclusions" (i.e. those monics whose source has the topology induced from the target), and the strong-subobject classifier is the two-point space with the indiscrete topology.  (In particular, we cannot demand any sort of [[separation axiom]] and still have a quasitopos.)
+
+* The category of [[simplicial complex]]es is a quasitopos.
+
+* The category of [[diffeological space]]s is a quasitopos.
+
+## Extensivity and exactness
+
+A topos is always [[extensive category|extensive]] and [[exact category|exact]], but this is not the case for quasitopoi.
+
+A quasitopos is a [[coherent category]], since it has finite colimits which are stable under pullback (since it is locally cartesian closed), and so in particular its initial object is [[strict initial object|strict]], and it has finite coproducts which are pullback-stable, but they need not be disjoint: for objects $A$ and $B$, in the pullback
+$$\array{P & \overset{}{\to} & B\\
+  \downarrow && \downarrow\\
+  A & \underset{}{\to} & A+B}$$
+the object $P$ need not be initial.  This is easy to see from the fact that any Heyting category is a quasitopos, since then $A+B$ is the join $A\vee B$, and so the pullback is the meet $A\wedge B$, which is not in general the bottom element.
+
+It is true, however, that such a $P$ is always a *quotient* of the initial object, i.e. the unique map $0\to P$ is epic.  If the map $0\to 1$ is strong monic, as it is in the "topological" examples, then $0$ can have no proper epimorphic images, and so coproducts are disjoint.  The converse also holds, since if coproducts are disjoint then $0\to 1$ is an equalizer of the two injections $1\rightrightarrows 1+1$.  A quasitopos with this property is sometimes called **solid**.
+
+More generally, in any quasitopos $E$, we can factor $0\to 1$ into an epic followed by a strong monic, $0\to \bar{0} \to 1$.  One can prove that then the [[slice category]] $E/\bar{0}$ is a Heyting algebra (i.e. a posetal quasitopos), while the [[co-slice category]] $\bar{0}/E$ is a solid quasitopos, and moreover $E$ itself is recoverable via [[Artin gluing]] from a particular functor $E/\bar{0} \to \bar{0}/E$.  Thus, to a certain extent, the only interest in the theory of quasitoposes, above and beyond the theory of Heyting algebras, is in the solid ones.
+
+By contrast, if a solid quasitopos is additionally [[exact category|exact]], and hence a [[pretopos]], then in particular it is [[balanced category|balanced]], which implies that it is in fact a topos.  One can prove, however, that a quasitopos is always *quasi-exact*, meaning that every *strong* [[congruence]] has an [[effective quotient]].
+
 
 ## References ## 
 
 *  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_, World Scientific, 1991. 
 
+* [[Peter Johnstone]], [[Sketches of an Elephant]], A2.6 and C2.2.
+
 Need to reference work by various combinations of authors including Baez, Dolan, Hoffnung, and others on diffeological spaces and simplicial complexes... 
+
+[[!redirects quasitopoi]]
+[[!redirects quasitoposes]]
+[[!redirects quasi-topos]]
+[[!redirects quasi-topoi]]
+[[!redirects quasi-toposes]]
+[[!redirects quasi-exact category]]
+[[!redirects strong-subobject classifier]]
+[[!redirects weak subobject classifier]]
