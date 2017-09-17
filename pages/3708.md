@@ -122,7 +122,7 @@ that sends an $R$-module to its square-0-extension $R \oplus N \stackrel{p_1}{\t
 
 So we need to check that this fiberwise equivalence extends to respect the morphisms in $T_C$ that have nontrivial projection to $C$.
 
-If $(R_1,N_1)$ and $(R_2,N_2)$ are two objects in [[Mod]], then a morphism between them is a pair $(f : R_1 \to R_2, N_1 \to f^* N_2)$ consisting of a ring homorphism and a morphism of $R_1$ modules from $R_1$ to $R_1 \otimes_f N_2$.
+If $(R_1,N_1)$ and $(R_2,N_2)$ are two objects in [[Mod]], then a morphism between them is a pair $(f : R_1 \to R_2, f_*:N_1 \to f^* N_2)$ consisting of a ring homorphism and a morphism of $R_1$ modules from $N_1$ to $R_1 \otimes_f N_2$.
 
 For this to coincide with the definition of morphisms in $T_{CRing}$ above, we need to check that the diagram
 
@@ -154,3 +154,21 @@ $$
 (where we used that $f$ is a ring homomorphism) and under the above identifications this indeed coincides with the ring structure on the square-0-extension $R_1 \oplus (R_1 \otimes_{f} N)$.
 
 =--
+
+_Second version_
+
+Consider the functor
+$$
+ F: Mod \to T_{CRing}
+$$
+
+that sends an $R$-module $N$ to the square-0-extension ring $R \oplus N \stackrel{p_1}{\to} R$, regarded as an abelian group object in $CRing/R$.
+The action on morphisms is given as follows: if $(R_1,N_1)$ and $(R_2,N_2)$ are two objects in [[Mod]], then a morphism between them is a pair $(f : R_1 \to R_2, f_*:N_1 \to f^* N_2)$ consisting of a ring homorphism and a morphism of $R_1$ modules from $N_1$ to $R_1 \otimes_f N_2$; the corresponding morphism of rings $R_1\oplus N_1\to R_2\oplus N_2$ is $(r_1,n_1)\mapsto (f(r_1),f_*(n_2))$. The induced morphism of rings $R_1\oplus N_1\to R_1\times_{R_2}(R_2\oplus N_2)$ is explicitly given by $(r_1,n_1)\mapsto (r_1,f(r_1),f_*(n_1))$ and is easily checked to be a morphism of abelian group objects over $R_1$.
+To show that $Mod\to T_{CRing}$ is an equivalence, we prove that it is essentially surjective and fully faithful. It is proven at [[module]]  that for a fixed ring $R$ the restriction of the functor $F$ to $R$-modules,
+$$
+  Mod_R \to Ab(CRing/R)
+$$
+is an [[equivalence of categories]]. So, $F: Mod\to T_{CRing}$ is essentially surjective. The functor $F$ is clearly faithful, so we are only left to prove that it is full.
+
+_(to be continued...)_
+ 
