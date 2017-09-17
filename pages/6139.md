@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $X$ any kind of [[space]] (possibly a [[directed space]], hence a [[category]]) its [[loop space object]]s $\Omega_x X$ canonically inherit a [[monoidal category|monoidal structure]], coming from concatenation of [[loops]].
+For $X$ any kind of [[space]] (or possibly a [[directed space]], viewed as some sort of [[category]] or higher dimensional analogue of one), its [[loop space object]]s $\Omega_x X$ canonically inherit a [[monoidal category|monoidal structure]], coming from concatenation of [[loops]].
 
 If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ call $B A$ the _[[delooping]]_ of the monoidal object $A$.
 
@@ -56,7 +56,7 @@ between the [[model structure on reduced simplicial sets]] and the [[transferred
 
 ### For parameterized $\infty$-groupoids ($\infty$-stacks / $(\infty,1)$-sheaves)
 
-The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence betwen [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
+The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence between [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -65,7 +65,7 @@ An [[Ek-algebra]] object $A$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **gr
 
 Write $Mon^{gp}_{\mathbb{E}[k]}(\mathbf{H})$ for the [[(∞,1)-category]] of groupal $E_k$-algebra objects in $\mathbf{H}$.
 
-A groupal $E_1$-algera -- hence an groupal [[A-∞ algebra]] object in $\mathbf{H}$ -- we call an _[[∞-group]]_ in $\mathbf{H}$. Write $\infty Grp(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]]s in $\mathbf{H}$.
+A groupal $E_1$-algebra -- hence an groupal [[A-∞ algebra]] object in $\mathbf{H}$ -- we call an _[[∞-group]]_ in $\mathbf{H}$. Write $\infty Grp(\mathbf{H})$ for the [[(∞,1)-category]] of [[∞-group]]s in $\mathbf{H}$.
 
 =--
 
