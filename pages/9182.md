@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
+
+
+## Idea
+
+One of the quanta of the [[electroweak field]].
+
+[[!redirects W-bosons]]
+
+[[!redirects Z-boson]]
+[[!redirects Z-bosons]]
+
+[[!redirects B-boson]]
+[[!redirects B-bosons]]
