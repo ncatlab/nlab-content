@@ -1,6 +1,7 @@
 
 | $d$ | [[partition function]] in $d$-dimensional QFT | [[index]]/[[genus]] in [[cohomology theory]] |
 |--||---|---|
+| 0 |    |  push-forward in [[ordinary cohomology]]: [[integration of differential forms]]  |
 | 1 | [[spinning particle]] | [[K-theory]] [[index]] |
 |   | endpoint of [[2d Poisson-Chern-Simons theory]] string | [[space of quantum states]] of boundary [[phase space]]/[[Poisson manifold]] | 
 |   | endpoint of [[type II superstring]] | [[D-brane charge]] |
