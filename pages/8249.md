@@ -1,7 +1,8 @@
 
+> under construction
 
 This entry discusses the general notion of _[[derived functor]]_ in the context of [[homological algebra]], hence for functors between [[categories of chain complexes]].
-In the literature this is often understood to be the default case of derived functors. For a discussion of how the following relates to the more general concepts of derived functors see at _[derived functor -- In homological algebra](derived+functor#InHomologicalAlgebra)_.
+In the literature this is often understood to be the default case of derived functors. For more discussion of how the following relates to the more general concepts of derived functors see at _[derived functor -- In homological algebra](derived+functor#InHomologicalAlgebra)_.
 
 ***
 
@@ -21,15 +22,16 @@ In the literature this is often understood to be the default case of derived fun
 
 ## Definition
 
-The general concept of [[derived functor]] is in homological algebra usualy called the _[[total derived functor|total]] [[hyper-derived functor]]_, with just "derived functor" being reserved for a more restrictive case. In this tradition, we consider the special case first.
+The general concept of [[derived functor]] is in homological algebra usually called the _[[total derived functor|total]] [[hyper-derived functor]]_, with just "derived functor" being reserved for a more restrictive case. In this tradition, we consider the special case first and then generalize it in stages. The relation between all these notions is discussed [below](#Properties).
 
 Throughout, let $\mathcal{A}$ and $\mathcal{B}$ be [[abelian categories]].
-such that $\mathcal{A}$ has [[projective objects|enough projectives]].
 
 ### Left derived functor 
 
-#### Evaluated on an object
+Assume that the [[abelian category]] $\mathcal{A}$ has [[projective objects|enough projectives]].
 
+
+#### Evaluated on an object
 
 +-- {: .num_defn}
 ###### Definition
@@ -40,19 +42,70 @@ $$
   L_n F : \mathcal{A} \to \mathcal{B}
 $$
 
-which sends an [[object]] $X \in \mathcal{A}$ with (any) [[projective resolution]] $P_\bullet \in Ch_{\bullet \geq 0}(\mathcal{A})$ to the $n$th [[chain homology]] of the [[chain complex]] $F(P_\bullet) \in Ch_{\bullet}(\mathcal{B})$
+which sends an [[object]] $X \in \mathcal{A}$ with (any) [[projective resolution]] $((Q X)_\bullet \to X) \in Ch_{\bullet \geq 0}(\mathcal{A})$ to the $n$th [[chain homology]] of the [[chain complex]] $F((Q X)_\bullet) \in Ch_{\bullet}(\mathcal{B})$:
 
 $$
-  (L_n F)(X) \coloneqq H_n(F(P_\bullet))
+  (L_n F)(X) \coloneqq H_n(F((Q X)_\bullet))
   \,.
 $$
 
 =--
 
-This definition is independent, up to [[natural isomorphism]], of the choice of $P_\bullet$.
+This definition is indeed independent, up to [[natural isomorphism]], of the choice of resolution, see the discussion below.
+
+
++-- {: .num_remark}
+###### Remark
+
+That $q : (Q X) \to X$ is a projective resolution means that there is a [[chain map]]
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    \downarrow && \downarrow
+    \\
+    (Q X)_2 &\stackrel{q_2}{\to}& 0    
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_1}} && \downarrow
+    \\
+    (Q X)_1 &\stackrel{q_1}{\to}& 0    
+    \\
+    \downarrow^{\mathrlap{\partial^{Q X}_0}} && \downarrow
+    \\
+    (Q X)_0 &\stackrel{q_0}{\to}& X
+  }
+$$
+
+which is a [[quasi-isomorphism]] and such that $(Q X)_n \in \mathcal{A}$ is a [[projective object]] for all $n \in \mathbb{N}$.
+
+This being a quasi-isomorphism, in turn, is equivalent to 
+
+1. $q_0$ inducing an [[isomorphism]] $(Q X)_0/im(\partial_0^{Q X}) = H_0(Q X) \to X$;
+
+1. and isomorphisms $H_n(Q X) \to 0$ for all $n \geq 1$. 
+
+This happens to be equivalent to the statement that the _augmented complex_
+
+$$
+  \cdots
+    \stackrel{\partial_1^{Q X}}{\to}
+  (Q X)_2 
+    \stackrel{\partial_1^{Q X}}{\to}
+  (Q X)_1
+    \stackrel{\partial_0^{Q X}}{\to}
+  (Q X)_0
+     \stackrel{q_0}{\to}
+  X
+$$
+
+is an [[exact sequence]], and traditionally the condition is often stated this way. But it somewhat hides the true meaning of the resolution and notably the fact that $(Q X)_0$ and $X$ are to be regared as being in the same degree. It also does not naturally generalize to the case where $X$ itself is already a chain complex not concentrated in lowest degree (discussed [below](#LeftHyper)).
+
+=--
 
 
 #### Evaluated on a chain complex: left hyper-derived functor
+ {#LeftHyper}
 
 (...)
 
@@ -95,6 +148,7 @@ This definition is independent, up to [[natural isomorphism]], of the choice of 
 (...)
 
 ## Properties
+ {#Properties}
 
 ### Derived adjoint functors
 
