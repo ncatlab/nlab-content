@@ -50,7 +50,7 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 
 =--
 
-### Filtered objects and their cofiber systems
+### Filtered objects and chain complexes
 
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
@@ -102,19 +102,12 @@ such that
      }
    $$
 
-   is a [[homotopy pushout]] square.
+   is a [[homotopy pullback]] square.
 
 =--
 
-([[Higher Algebra|Higher Algebra, def. 1.2.2.2]])
+This is dual to [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
 
-
-+-- {: .num_remark}
-###### Remark
-
-There is a dual notion with [[homotopy pushouts]] replaced by [[homotopy pullbacks]]]. In the following we are freely switching between the two dual pictures...
-
-=--
 
 +-- {: .num_remark }
 ###### Remark
@@ -123,10 +116,10 @@ Given a chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableI
 setting
 
 $$
-  C_n \coloneqq \Sigma^{-n} F(n-1,n)
+  C_n \coloneqq \Sigma^{-n} F(n,n+1)
 $$
 
-and defining a [[differential]] induced from the [[connecting homomorphisms]] of the defining [[homotopy cofiber sequences]]
+and defining a [[differential]] induced from the [[connecting homomorphisms]] of the defining [[homotopy fiber sequences]]
 
 $$
   F(n-1,n) \to F(n-1, n+1) \to F(n,n+1)
@@ -146,69 +139,32 @@ Consider the inclusion of [[posets]]
 $$
   (\mathbb{Z}, \leq)
   \to 
-  (\{-\infty\}\cup\mathbb{Z}, \leq) \times (\{-\infty\}\cup\mathbb{Z}, \leq)
+  (\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq)
 $$
 
 given by
 
 $$
-  n \mapsto (- \infty, n)
+  n \mapsto (n,\infty)
   \,.
 $$
 
 The induced [[(∞,1)-functor]]
 
 $$
-  Func(\{-\infty\}\cup\mathbb{Z}, \leq) \times (\{-\infty\}\cup\mathbb{Z}, \leq)
+  Func((\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq),\mathcal{C})
   \longrightarrow
   Func((\mathbb{Z}, \leq), \mathcal{C})
 $$
 
-restricts to an [[equivalence of (∞,1)-categories]] on the chain complexes in $\mathcal{C}$, def. \ref{ChainComplexInStableInfinityCategory}.
+restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category of chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of generalized filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}).
 
 
 =--
 
-([[Higher Algebra|Higher Algebra, lemma 1.2.2.4]]).
+This is [[Higher Algebra|Higher Algebra, lemma 1.2.2.4]]. The inverse functor can be described informally as follows: given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by
 
-+-- {: .num_remark }
-###### Remark
-
-So under the equivalence of prop. \ref{ChainComplexesFromFilteredObjects} a filtered object
-
-$$
-   \cdots \to X_{n+1} \to X_n \to X_{n-1} \to \cdots \to X
-$$
-
-is identified with the chain complex in the sense of def. \ref{ChainComplexInStableInfinityCategory} which assigns [[homotopy cofibers]]
-
-$$
-   \array{
-     X(-\infty,n) &\stackrel{f_n}{\longrightarrow}& X(-\infty,n+1)
-     \\
-     \downarrow && \downarrow
-    \\
-     0 &\longrightarrow& X(n,n+1)
-  }
-  \;\;
-   = 
-  \;\;
-  \array{
-     X_{n} &\stackrel{f_n}{\longrightarrow}& X_{n+1}
-     \\
-     \downarrow && \downarrow
-    \\
-     0 &\longrightarrow& cofib(f_n)
-  }
-  \,.
-$$
-
-(...)
-
-=--
-
-
-
+$$ X(n, n+r) = \operatorname{fib}(X_n\to X_{n+r}). $$
 
 
 ### The spectral sequence
@@ -220,14 +176,14 @@ $$
 For a generalized filtered object $X_\bullet$, def. \ref{GeneralizedFilteredObject}, write 
 
 $$
-  F_n \coloneqq fib(X_n \to X_{n+1})
+  K_n \coloneqq fib(X_n \to X_{n+1})
 $$
 
 for the [[homotopy fiber]] of the $n$th structure map, for all $n \in \mathbb{Z}$, and define an [[exact couple]]
 
 $$
   \array{
-    && \pi_\bullet(F_\bullet)
+    && \pi_\bullet(K_\bullet)
     \\
     & \swarrow && \nwarrow
     \\
@@ -246,16 +202,18 @@ $$
   \to
   \pi_\bullet(X_{n+1})
   \to 
-  \pi_\bullet(F_n) \to  \pi_\bullet(X_n) \to \pi_\bullet(X_{n+1}) \to \pi_{\bullet+1}(F_n) \to \cdots
+  \pi_\bullet(K_n) \to  \pi_\bullet(X_n) \to \pi_\bullet(X_{n+1}) \to \pi_{\bullet+1}(K_n) \to \cdots
 $$
 
 =--
+
+This exact couple gives rise in the usual way to a spectral sequence. Explicitly:
 
 
 +-- {: .num_defn }
 ###### Definition
 
-Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding complex, according to prop. \ref{ChainComplexesFromFilteredObjects}. 
+Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding complex, according to prop. \ref{ChainComplexesFromFilteredObjects}.
 
 Then for all $i \leq j \leq k$ there is a [[long exact sequence of homotopy groups]] in $\mathcal{A}$ of the form
 
@@ -272,29 +230,29 @@ $$
   \,.
 $$
 
-Define then for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object
+Define then for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E^r_{p,q}$ by the canonical [epic-monic factorization](http://ncatlab.org/nlab/show/abelian+category#FactorizationOfMorphisms)
 
 $$
-  E^{p,q}_r 
-  \coloneqq
-  im
-  \left(
-    \pi_{p+q} X(p-r,p)
-    \to
-    \pi_{p+q} X(p-1, p+r-1)
-  \right)
-  \;\;
-  \in \mathcal{A}
+    \pi_{p} X(q-r+1,q+1)
+    \twoheadrightarrow
+    E^r_{p,q}
+    \hookrightarrow
+    \pi_{p} X(q, q+r)
 $$
 
-and define a [[differential]]
+in the abelian category $\mathcal{A}$, and define the [[differential]]
 
 $$
-  d_r \;\colon\; E^{p,q}_r \to E^{p-r, q+r-1}
+  d^r \;\colon\; E_{p,q}^r \to E_{p-1, q-r}^r
 $$
 
-to be the unique lift if the above [[connecting homomorphisms]] to these [[images]]. 
+to be the restriction of the [[connecting homomorphism]]
 
+$$
+ \pi_{p} X(q,q+r) \to \pi_{p-1} X(q-r, q)
+$$
+
+from the above long exact sequence (with $i=q-r$, $j=q$, and $k=q+r$).
 
 
 =--
@@ -306,32 +264,38 @@ to be the unique lift if the above [[connecting homomorphisms]] to these [[image
 +-- {: .num_prop}
 ###### Proposition
 
-This is a bigraded [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
+$d^r\circ d^r = 0$ and there are natural (in $X_\bullet$) isomorphisms
 
-$$ E_1^{p,q} = \pi_p(F_q), \qquad d_r: E_r^{p,q}\to E_r^{p-1,q-r}. $$
+$$
+E^{r+1}\cong \operatorname{ker}(d^r)/\operatorname{im}(d^r).
+$$
+
+Thus, $\{E^r_{*,*}\}_{r\geq 1}$ is a bigraded [[spectral sequence]]  in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
+
+$$ E^1_{p,q} = \pi_p \operatorname{fib}(X_q\to X_{q+1}), \qquad d^r: E^r_{p,q}\to E^r_{p-1,q-r}. $$
 
 =--
 
 ([[Higher Algebra|Higher Algebra, prop. 1.2.2.7]])
 
-If [[sequential limits]] and [[sequential colimits]] exist in $\mathcal{A}$, we can form the limiting term $E_\infty^{*,*}$ of this spectral sequence.
+If [[sequential limits]] and [[sequential colimits]] exist in $\mathcal{A}$, we can form the limiting term $E^\infty_{*,*}$ of this spectral sequence.
 
 On the other hand, the [[graded object]] $\pi_\bullet (X)$ admits a [[filtered object|filtration]] by
 
-$$ F^q \pi_p (X) = \operatorname{ker}(\pi_p (X)\to \pi_p(X_q)) $$
+$$ F_q \pi_p (X) = \operatorname{ker}(\pi_p (X)\to \pi_p(X_q)) $$
 
-and we would like to compare $E_\infty^{*,*}$ with the [[associated graded]] of this filtration. We say that 
+and we would like to compare $E^\infty_{*,*}$ with the [[associated graded]] of this filtration. We say that 
 
 +-- {: .num_defn #WeakAndStrongConvergence}
 ###### Definition
 
 The spectral sequence **converges weakly** if there is a canonical isomorphism
 
-$$ E_\infty^{p,q} \cong F^q\pi_p(X)/ F^{q-1}\pi_p(X) $$
+$$ E^\infty_{p,q} \cong F_q\pi_p(X)/ F_{q-1}\pi_p(X) $$
 
 for every $p,q\in\mathbb{Z}$. 
 
-We say that the spectral sequence **converges strongly** if it converges weakly and if, in addition, the filtration $F^\bullet\pi_p(X)$ is complete on both sides.
+We say that the spectral sequence **converges strongly** if it converges weakly and if, in addition, the filtration $F_\bullet\pi_p(X)$ is complete on both sides.
 
 
 =--
@@ -347,17 +311,17 @@ The meaning of the word *canonical* in def. \ref{WeakAndStrongConvergence} is so
 +-- {: .num_prop #FiltrationSpectralSequence}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]] which admits [[sequential limits]]. Let $X_\bullet$ be a filtered object in $\mathcal{C}$ such that $X=\underset{\leftarrow}{\lim}_n X_n$ exists. Suppose further that:
+Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]] which admits [[sequential limits]]. Let $X_\bullet$ be a filtered object in $\mathcal{C}$ such that $\underset{\leftarrow}{\lim} X_\bullet$ exists. Suppose further that:
 
 1. For every $n$, the diagram $r\mapsto \operatorname{fib}(X_{n-r}\to X_n)$ has a limit in $\mathcal{C}$ and that limit is preserved by $\pi$.
 2. For every $n$, $\pi_n(X_r)=0$ for $r\gg 0$.
 
-Then the [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in $\mathcal{A}$ converges strongly to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filtered object:
+Then the [[spectral sequence]] $\{E^r_{*,*}\}_{r\geq 1}$ in $\mathcal{A}$ converges strongly (def. \ref{WeakAndStrongConvergence}). We write:
 
 $$
-  E^{p,q}_1
+  E_{p,q}^1
   =
-  \pi_{p} F_{q}
+  \pi_{p} \operatorname{fib}(X_q\to X_{q+1})
   \Rightarrow
   \pi_{p} (\underset{\leftarrow}{\lim} X_\bullet) 
 $$
