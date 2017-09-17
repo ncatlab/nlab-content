@@ -25,7 +25,7 @@ A path space object is an [[internalisation]] of a [[path space]].
 
 ## Definition
 
-In $C$ a [[category with weak equivalences]] and with [[products]] a **path space object** (often just called a **path object**) for an [[object]] $X$ is a factorization of the diagonal morphism $X \stackrel{(Id, Id)}{\to} X \times X$ into the [[product]] as
+In $C$ a [[category with weak equivalences]] and with [[products]] a **path space object of an object $X$** is a factorization of the diagonal morphism $X \stackrel{(Id, Id)}{\to} X \times X$ into the [[product]] as
 
 $$
   X \stackrel{s}{\to} X^I \stackrel{(d_0, d_1)}{\to} X \times X
