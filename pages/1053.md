@@ -107,7 +107,7 @@ Here we define the set of propositions:
    *  $\mathbf{1}$ (read 'one'), the __multiplicative truth__;
    *  $\bot$ (read 'bottom'), the __multiplicative falsity__.
 *  For each proposition $A$, there are two additional propositions:
-   *  $!{A}$ (read 'of course'), the __exponential conjunction__ of $A$;
+   *  $!{A}$ (read '[[of course]]'), the __exponential conjunction__ of $A$;
    *  $?{A}$ (read 'why not'), the __exponential disjunction__ of $A$.
 
 The terms "exponential", "multiplicative", and "additive" come from the fact that "exponentiation converts addition to multiplication": we have $!{(A \& B)}\equiv !{A} \otimes !{B}$ and so on (see below).
@@ -203,7 +203,7 @@ correspond in another way to traditional [[conjunction]] and
 [[coproducts]].  [Seely (1989)](#Seely) notes that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
 
 LL recaptures the notion of a resource that can be discarded
-or copied arbitrarily by the use of the [[modal logic|modal]] operator $!$:
+or copied arbitrarily by the use of the [[modal logic|modal]] operator $!$ the [[!-modality]]:
 $!A$ denotes an '$A$-factory', a resource that can produce
 zero or more $A$s on demand.  It is modelled using a [[comonad]]
 $!$ on the underlying $*$-autonomous category that is
