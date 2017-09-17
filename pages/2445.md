@@ -51,6 +51,7 @@ When $M$ is projective of rank $d$, each homogeneous piece is projective of rank
 One can view the Clifford algebra multiplication as a quantization of the commutative [[super algebra]] $\bigwedge_R M$.
 
 ### Relation to exterior algebra (quantization)
+ {#AsQuantizedExteriorAlgebra}
 
 For $V$ an [[inner product space]], the [[symbol map]] (see there) constitutes an [[isomorphism]] of the underlying [[super vector space]]s of the Clifford algebra with the [[exterior algebra]] on $V$.
 
