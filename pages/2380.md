@@ -48,6 +48,7 @@ Deep relations between [[type theory]], [[category theory]] and [[computer scien
 
 [[!include notions of type]]
 
+
 [[!redirects types]]
 [[!redirects domain of discourse]]
 [[!redirects domains of discourse]]
