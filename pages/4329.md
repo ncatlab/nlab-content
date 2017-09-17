@@ -187,7 +187,7 @@ $$
   \,.
 $$
 
-Notice that by definition of [[limit in a quasi-category]] the quasi-categoricall pullback $\sigma(c) \times_{\sigma(f)} \sigma(d)$ is [[generalized the|the]] [[terminal object in a quasi-category|terminal object]] in $\mathcal{C}_{/\sigma(c,d,f)}$, while $\sigma(d) \times_{\sigma(d)} \sigma(e)$ is the terminal object in $\mathcal{C}_{/\sigma(b,d,e)}$. 
+Notice that by definition of [[limit in a quasi-category]] the quasi-categorical pullback $\sigma(c) \times_{\sigma(f)} \sigma(d)$ is [[generalized the|the]] [[terminal object in a quasi-category|terminal object]] in $\mathcal{C}_{/\sigma(c,d,f)}$, while $\sigma(d) \times_{\sigma(d)} \sigma(e)$ is the terminal object in $\mathcal{C}_{/\sigma(b,d,e)}$. 
 
 The strategy now is to show that both these morphisms $\phi$ and $\psi$ are acyclic fibrations in the [[model structure for quasi-categories]]. That will imply that these terminal objects coincide as objects of $\mathcal{C}$.
 
