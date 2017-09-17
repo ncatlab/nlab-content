@@ -96,6 +96,14 @@ based on the thesis
 and was proven in 
 
 * [[Varghese Mathai]], [[Weiping Zhang]], _Geometric quantization for proper actions_, Advances in Mathematics 225:1224-1247 (2010) ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
+
+Similar discussion is in 
+
+* [[Paul-Emile Paradan]], _Spin-quantization commutes with reduction_ ([arXiv:0911.1067](http://arxiv.org/abs/0911.1067))
+
+based on
+
+* [[Paul-Emile Paradan], _Localization of the Riemann-Roch character_ ([arXiv:math/9911024](http://arxiv.org/abs/math/9911024))
  
 Discussion of push-forward not over manifold but over [[moduli stacks]] as relevant in [[Chern-Simons theory]] is in section 3 of 
 
