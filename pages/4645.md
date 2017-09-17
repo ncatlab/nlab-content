@@ -1144,7 +1144,7 @@ Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that
 
 =--
 
-The passage to the subset and qotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition are essentially the minimal operations to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
+The passage to the subset and qotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition is essentially the minimal adjustment to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
 
 +-- {: .un_prop}
 ###### Definition
@@ -1200,6 +1200,7 @@ $$
     }
   \right)
   \mapsto
+  \left(
     \array{
       && \bullet
       \\
@@ -1232,7 +1233,7 @@ $$
   \,,
 $$
 
-where the group element on the right is defined to be the unique solution $f :  [0,1] \to G$ of the [[differential equation]]
+where the group element on the right is defined to be the value at 1 of the unique solution $f :  [0,1] \to G$ of the [[differential equation]]
 
 $$
   d_{dR} f + \gamma^*A \wedge f = 0
@@ -1262,19 +1263,32 @@ where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]:
 
 =--
 
-This equivalence is natural in $X$, so that we obtain another smooth groupoid
-
-$$
-  \mathbf{B}G_{diff} : U \mapsto [CartSp^{op}, Grpd](\mathbf{P}_1(-), \mathbf{B}G)
-  \,.
-$$
-
-There is an evident smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
+This equivalence is [[natural transformation|natural]] in $X$, so that we obtain another smooth groupoid
 
 +-- {: .un_def}
 ###### Defintion
 
-Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ as [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift
+Define $\mathbf{B}G_{conn} : CartSp^{op} \to Grpd$ to be the (generalized) Lie groupoid
+
+$$
+  \mathbf{B}G_{conn} : U \mapsto [CartSp^{op}, Grpd](\mathbf{P}_1(-), \mathbf{B}G)
+  \,.
+$$
+
+=--
+
+This equivalence in particular subsumes the classical facts that parallel transport $\gamma \mapsto P \exp(\int_{[0,1]} \gamma^* A)$ 
+
+* is invariant under orientation preserving reparameterizations of paths;
+
+* sends reversed paths to inverses of group elements.
+
+Notice that there is an evident smooth functor $X \to \mathbf{P}_1(X)$ that includes points in $X$ as constant paths. This induces a natural morphism $\mathbf{B}G_{conn} \to \mathbf{B}G$ that forgets the 1-forms.
+
++-- {: .un_def}
+###### Defintion
+
+Let $P \to X$ be a $G$-[[principal bundle]] that corresponds to a cocycle $g : C(U) \to \mathbf{B}G$ under the construction discussed [above](#PrincipalBundles).  Then a **[[connection on a bundle|connection]]** $\nabla$ on $P$ is  a lift of the cocycle through $\mathbf{B}G_{diff} \to \mathbf{B}G$.
 
 $$
   \array{
@@ -1289,13 +1303,14 @@ $$
 
 =--
 
-This is equivalent to any of the standard definitions.
-
+This is equivalent to any of the [[connection on a bundle|standard definitions]].
 
 +-- {: .un_prop}
 ###### Definition
 
-Write $\mathbf{\Pi}_1(X)$ for the smooth groupoid defined as $\mathbf{P}_1(X)$, but where inthead of thin homotopies, all homotopies are divided out.
+Let $[I,X]_{si}^{th} \to [I,X]^h$ the projection onto the full quotient by smooth [[homotopy]] classes of paths.
+
+Write $\mathbf{\Pi}_1(X) = ([I,X]^h \stackrel{\to}{\to} X)$ for the smooth groupoid defined as $\mathbf{P}_1(X)$, but where inthead of thin homotopies, all homotopies are divided out.
 
 =--
 
@@ -1312,11 +1327,12 @@ $$
   \,,
 $$
 
-where on the right we have the full sub-groupoid $\mathbf{\flat}\mathbf{B}G \subset \mathbf{B}G_{conn}$ on forms whose [[curvature]] 2-form vanishes.
+where on the left we have the [[hom-groupoid]] of groupoid-valued presheaves, and on the right we have the [[full subcategory|full sub-groupoid]] $\mathbf{\flat}\mathbf{B}G \subset \mathbf{B}G_{conn}$ on those $\mathfrak{g}$-valued differential forms whose [[curvature]] 2-form $F_A = d_{dR} A + [A \wedge A]$ vanishes.
+
+A connection $\nabla$ is _flat_ precisely if it factors through the inclusion $\flat \mathbf{B}G \to \mathbf{B}G_{conn}$.
 
 =--
 
-A connection $\nabla$ is _flat_ precisely if it factors through the inclusion $\flat \mathbf{B}G \to \mathbf{B}G_{conn}$.
 
 
 #### Connections on principal 2-bundles {#ConnectionOn2Bundle}
