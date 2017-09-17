@@ -88,10 +88,12 @@ Every [[shrinkable]] map is a Dold fibration.
 
 =--
 
+This result follows from a theorem of Dold about [[locally homotopy trivial map]]s being the same as Dold fibrations. It should be obvious that a shrinkable map is globally homotopy trivial, with trivial fibre.
+
 +-- {: .un_cor}
 ###### Corollary
 
-Let $\{U_i \to X\}$ be a [[good open cover]] that is [[numerable open cover|numerable]]. Let $C(\{U_i\})$ the [[Cech nerve]] (a [[simplicial object]] in [[topological space]]s) and $|C(\{U_i\})| \in Top$ its [[geometric realization]]. Then the canonical map
+Let $\{U_i \to X\}$ be a [[numerable open cover]]. Let $C(\{U_i\})$ the [[Cech nerve]] (a [[simplicial object]] in [[topological space]]s) and $|C(\{U_i\})| \in Top$ its [[geometric realization]]. Then the canonical map
 
 $$
   |C(\{U_i\})| \to X
