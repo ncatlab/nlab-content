@@ -21,7 +21,11 @@
 
 This entry is about the article
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ ([arXiv](http://arxiv.org/abs/0905.0731))
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], 
+ 
+  _Topological Quantum Field Theories from Compact Lie Groups_ 
+
+  ([arXiv](http://arxiv.org/abs/0905.0731))
 
 on a central topic in [[higher category theory and physics]]: the [[higher category theory|abstract higher categoretic]] conception of [[path integral]] [[quantization]] of classical [[action functional]]s to [[FQFT|extended quantum field theories]].
 
