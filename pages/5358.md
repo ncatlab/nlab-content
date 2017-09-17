@@ -26,7 +26,7 @@ $$
   (\Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}} \mathcal{S}
 $$
 
-be a [[topos]] sitting by its [[global section]] [[geometric morphism]] over aa base $\mathcal{S}$.
+be a [[topos]] sitting by its [[global section]] [[geometric morphism]] over a base $\mathcal{S}$.
 
 +-- {: .un_defn}
 ###### Definition
@@ -46,7 +46,7 @@ is an [[isomorphism]].
 +-- {: .un_remark}
 ###### Remark
 
-Any Galois object is [[locally constant object]]: since $X \to *$ is epi we may take it as a cover $U = X \to *$ and then then above principality conditon says that pulled back to this cover $X$ becomes constant.
+Any Galois object is [[locally constant object]]: since $X \to *$ is epi we may take it as a cover $U = X \to *$ and then then above principality condition says that pulled back to this cover $X$ becomes constant.
 
 =--
 
