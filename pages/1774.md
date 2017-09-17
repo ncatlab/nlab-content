@@ -10,7 +10,7 @@
 
 ## Idea
 
-In [[higher category theory]], the _exchange law_, or _interchange law_, states that the multiple ways of forming the composite of a pasting diagram of [[k-morphism]]s are equivalent.
+In [[higher category theory]], the _exchange law_, or _interchange law_, states that the multiple ways of forming the composite of a [[pasting diagram]] of [[k-morphism]]s are equivalent.
 
 ## Examples
 
