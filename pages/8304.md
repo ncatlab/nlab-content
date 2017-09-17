@@ -81,7 +81,7 @@ $$
   }
 $$ 
 
-commutes up to isomorphism. This is because we have a corresponding commutative diagram of forgetful functors 
+commutes up to a canonical isomorphism. This is because we have a corresponding commutative diagram of forgetful functors 
 
 $$
   \array{
