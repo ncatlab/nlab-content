@@ -1,0 +1,39 @@
+[[!redirects locally cartesian closed (∞,1)-category]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An [[(∞,1)-category]] $C$ has [[finite limit]] [[(∞,1)-limits]] if it has a [[terminal object in a quasi-category|terminal object]] and the [[over-(∞,1)-category]] $C_{/x}$ has finite products for every [[object]] $x \in X$. 
+
+An $(\infty,1)$-category $C$ with finite limits is **locally cartesian closed** if moreover $C_{/x}$ a [[cartesian closed (∞,1)-category]]for every object $x$.
+
+## Examples
+
+* Every [[(∞,1)-topos]] is locally cartesian closed.
+
+## Properties
+
+### Internal logic
+
+The [[internal logic]] of locally cartesian closed $(\infty,1)$-categories is conjectured ([Joyal2011](#Joyal)) to be precisely [[homotopy type theory]].
+
+See also [[internal logic of an (∞,1)-topos]].
+
+## References
+
+* [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
+ {#Joyal}
+
