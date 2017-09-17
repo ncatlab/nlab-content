@@ -699,4 +699,6 @@ and section A4.2 of
 [[!redirects subtoposes]]
 [[!redirects subtopoi]]
 
+[[!redirects geometric inclusion]]
+[[!redirects geometric inclusions]]
 
