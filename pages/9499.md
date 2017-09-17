@@ -47,7 +47,7 @@ $$
 
 In this spirit there is an evident generalization of the notion to a notion of foliations of Lie algebroids.
 
-+-- {: .num_defn}
++-- {: .num_defn #Foliation}
 ###### Definition
 
 A (regular) **foliation of a Lie algebroid** $A$ is a sub-[[double Lie algebroid]] of the tangent double Lie algebroid which is wide over $A$
@@ -64,6 +64,44 @@ $$
     \\
     && && X
   }
+  \,.
 $$
 
 =--
+
++-- {: .num_prop}
+###### Proposition
+
+Foliations of a Lie algbroid $A \to X$ according to def. \ref{Foliation} are in natural [[bijection]] to the following data:
+
+1. an ordinary [[foliation]] $\mathcal{P}_0 \hookrightarrow T X$
+
+1. $\mathcal{P}_1 \hookrightarrow A$ a sub-[[vector bundle]]
+
+1. $\nabla$ a [[flat connection]] on the [[quotient]] bundle $A/\mathcal{P}_1$ partially defined over [[vector fields]] in $\mathcal{P}_0$
+
+such that over every [[open subset]] $U \hookrightarrow X$
+
+1. The [[sections]] of $A$ that become $\nabla$-constant in $A/\mathcal{P}_1$ for a sub-[[Lie algebra]] of $\Gamma_U(A|_U)$;
+
+1. the sections of $\mathcal{P}_1$ are a Lie ideal inside this sub-Lie algebra;
+
+1. the [[image]] of $\mathcal{P}_1$ under the [[anchor map]] is in $\mathcal{P}_0$;
+
+1. the quotiented [[anchor map]] $A/\mathcal{P}_1 \to T X / \mathcal{P}_0$ intertwines $\nabla$ with the $\mathcal{P}_0$-[[Bott connection]].
+
+=--
+
+This is [EH, theorem 7.2](#EH)
+
+## Properties
+
+
+
+## Referemces
+
+* Eli Hawkins, _A Groupoid Approach to Quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363)) 
+ {#EH}
+
+[[!redirects foliations of a Lie algebroid]]
+[[!redirects foliations of Lie algebroids]]
