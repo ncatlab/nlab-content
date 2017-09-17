@@ -110,6 +110,9 @@ $$
   }
 $$
 
+This tower can be viewed as a sort of "[[Postnikov tower]]" of $\mathbb{Z}$ (although it is of course not a Postnikov tower in the usual sense).  Note that it is not "convergent": the limit of the tower is the ring of $10$-[[p-adic numbers|adic integers]].  This makes perfect sense in terms of carrying: the $10$-adic integers can be identified with "decimal numbers" that can be "infinite to the left", with addition and multiplication defined using the usual carrying rules "on off to infinity".
+
+
 ## References
 
 * [[Dan Isaksen]], _A cohomological viewpoint on elementary school arithmetic_, The American Mathematical Monthly, Vol. 109, No. 9. (Nov., 2002), pp. 796-805. ([jstor](http://links.jstor.org/sici?sici=0002-9890%28200211%29109%3A9%3C796%3AACVOES%3E2.0.CO%3B2-2))
