@@ -56,3 +56,4 @@ Topology and its Appl. 94 (1999), 253--274.
 category: people
 
 [[!redirects Sibe Mardešić]]
+[[!redirects Сибе Мардешић]]
