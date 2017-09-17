@@ -10,7 +10,7 @@ If $\alpha, \beta$ are integral over $\mathbb{Z}$ (say), then $\alpha + \beta$ a
 
 $$(\mathbb{Z}[\alpha])[\beta] = \mathbb{Z}[\alpha, \beta]$$ 
 
-is finitely generated over $\mathbb{Z}[\alpha]$ and therefore, since $\alpha$ is integral, also finitely generated over $\mathbb{Z}$. It follows that the submodules $\mathbb{Z}[\alpha + \beta]$ and $\mathbb{Z}[\alpha \cdot \beta]$ are therefore also finitely generated over $\mathbb{Z}$ (since $\mathbb{Z}$ is a [[Noetherian ring]]). Thus the integral elements form a ring. In particular, the integral elements in a number field $k$ form a ring often denoted by $\mathcal{O}_k$, usually called the **ring of integers** in $k$. This ring is a [[Dedekind domain]]. 
+is finitely generated over $\mathbb{Z}[\alpha]$ and therefore, since $\alpha$ is integral, also finitely generated over $\mathbb{Z}$. It follows that the submodules $\mathbb{Z}[\alpha + \beta]$ and $\mathbb{Z}[\alpha \cdot \beta]$ are therefore also finitely generated over $\mathbb{Z}$ (since $\mathbb{Z}$ is a [[Noetherian ring]]). Thus the integral elements form a ring. In particular, the integral elements in a [[number field]] $k$ form a ring often denoted by $\mathcal{O}_k$, usually called the **[[ring of integers]]** in $k$. This ring is a [[Dedekind domain]]. 
 
 
 [[!redirects algebraic integer]]
