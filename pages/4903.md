@@ -17,6 +17,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -44,7 +45,17 @@ Examples of derived spaces have appeared long ago as the configuration spaces in
 More recently, much of the motivation for derived geometry came from the observation that the [Goerss-Hopkins-Miller theorem](http://arxiv.org/abs/0910.5130) suggests that there is a [[nLab:A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli space of derived elliptic currves]], that it carries a [[nLab:structured (∞,1)-topos|structure ∞-sheaf]] of [[nLab:E-∞-rings]], and the the [[nLab:global section]]s of that yield the [[nLab:ring spectrum]] of the [[nLab:generalized cohomology theory]] called [[nLab:tmf]].
 
 
-## An introduction
+## Plan
+
+The rough plan is that we
+
+1. talk about some relevant leftover topics from the later chapters of [[nLab:Higher Topos Theory]], continuing where we left of [[Seminar on (∞,1)-Categories and ∞-Stacks|last time]];
+
+1. then discuss some of the specifics of $\infty$-sites for derived geometry;
+
+1. and finally look at the specific case of derived _smooth differential_ geometry.
+
+The following is the beginning of a detailed schedule of talks. The first few talks have been fixed by now, the later talks will be fixed as me move along.
 
 ### $\infty$-Sites from $\infty$-algebraic theories {#Sites}
 
@@ -52,8 +63,9 @@ More recently, much of the motivation for derived geometry came from the observa
 
   **[[nLab:algebraic theories]]** / **[[nLab:Lawvere theories]]**
 
-  The theories of [[nLab:group]]s, [[nLab:ring]]s, $k$-[[nLab:algebra]]s,
-  [[nLab:C-infinity-ring]]s and so forth are examples of 
+  The [[nLab:theories]] of [[nLab:group]]s, 
+  [[nLab:ring]]s, $k$-[[nLab:algebra]]s,
+  [[nLab:C-∞-ring]]s and so forth are examples of 
   [[nLab:algebraic theories]]. [[nLab:Bill Lawvere]] famously 
   noticed that these theories are encoded by 
   categories $T$ with products, all whose objects are cartesian powers
@@ -83,6 +95,17 @@ More recently, much of the motivation for derived geometry came from the observa
   * an **$(\infty,1)$-algebra** over $T$ is an [[nLab:(∞,1)-functor]] $A : T \to $ [[nLab:∞Grpd]] that preserves these products;
 
   * the $(\infty,1)$-category of all $T$-algebras is the full [[nLab:sub-(∞,1)-category]]  $\infty T Alg \hookrightarrow \infty Func(T, \infty Grpd)$ of the [[nLab:(∞,1)-category of (∞,1)-presheaves|(∞,1)-category of (∞,1)-copresheaves]] on those functors that preserve products.
+
+* _Dec 17, 2010_
+
+  **[[nLab:(2,1)-algebraic theory of E-∞ algebras]]
+
+  An important example of a [[nLab:(∞,1)-algebraic theory]] beyond ordinary 1-[[nlab:algebraic theories]] is the [[nLab:(n,r)-category|(2,1)-category]] of [[nLab:span]]s of [[nLab:finite set]]s. Its [[nLab:∞-algebra over an (∞,1)-algebraic theory|algebras]] turn out to be [[nLab:E-∞ algebra]]s.
+
+  This is the result of 
+
+  * [[nLab:James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
+
 
 Next, in order to handle $\infty T Alg$ and to compare it to other known structures it is useful to [[nLab:presentable (∞,1)-category|present]] it in terms of a [[nLab:model category]]. This is the topic of the next part.
   
@@ -116,7 +139,7 @@ Next, in order to handle $\infty T Alg$ and to compare it to other known structu
   * [[nLab:Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
 
 
-* _Nov 5, 2010_
+* _Nov 5, Nov 19, 2010_
 
   **[[nLab:monoidal Dold-Kan correspondence]]** and **[[nLab:model structure on dg-algebras]]**
 
@@ -140,17 +163,33 @@ Next, in order to handle $\infty T Alg$ and to compare it to other known structu
   chain dg-algebras in non-negative degree. This is a monoidal 
   refinement of the standard [[nLab:Dold-Kan correspondence]] that 
   identifies [[nLab:simplicial abelian group]]s with [[nLab:chain complex]]es.
+  The proof is based on general statements about [[nLab:monoidal Quillen adjunction]]s.
   
   This means that dg-algebras are yet another equivalent model for (certain) $\infty$-algebras. In applications it is convenient to pass back and forth along this equivalence: the simplicial algebras connect more directly to the abstract theory, but the available toolset of theorems and techniqies for dg-algebras is much larger, and they are generally easier to handle.
+
+* _Nov 12, 2010_
+
+  **[[nLab:model structure on algebras over an operad]]**
+
+  Algebraic theories may also be encoded by [[nLab:operad]]s. 
+  Accordingly $\infty$-algebras may be regarded as 
+  [[nLab:∞-algebras over an (∞,1)-operad]]. There is again 
+  a [[nLab:model category]]-structure available to present these: 
+  the [[nLab:model structure on algebras over an operad]].
+
+  Many classical examples of $\infty$-algebras are captured by this,
+  such as [[nLab:A-∞ algebra]]s / [[nLab:A-∞ space]]s, 
+  [[nLab:E-∞ algebra]]s, [[nLab:L-∞ algebra]]s. 
+  
 
 
 ### Derived geometry over $\infty-C^\infty$-rings {#Smooth}
 
-* _Nov 12, 2010_
+* _Nov 27, Dec 3, 2010_
 
   **[[nLab:derived loop space]]s**
 
-  Analogous to how a good deal of the phenomenology of [[nLab:stack]]s is exhibited already by the [[nLab:action groupoid|weak quotient]] $*//G$ we have that much of the phenomenology of derived geometriy is exhibited already by [[nLab:free loop space object]]s $\mathcal{L}X$ of a derived space $X$: the [[nLab:(∞,1)-pullback]] of the diagonal on $X$ along itself
+  Analogous to how a good deal of the phenomenology of [[nLab:stack]]s is exhibited already by the [[nLab:action groupoid|weak quotient]] $*//G$ we have that much of the phenomenology of derived geometry is exhibited already by [[nLab:free loop space object]]s $\mathcal{L}X$ of a derived space $X$: the [[nLab:(∞,1)-pullback]] of the diagonal on $X$ along itself
 
   $$
     \mathcal{L}X := X \times_{X \times X} X
@@ -179,7 +218,7 @@ Next, in order to handle $\infty T Alg$ and to compare it to other known structu
 
   This relation between derived loop spaces and Hochschild homology is very fruitful. It gives a transparent conceptual interpretation to many constructions in Hochschild cohomology and makes all this standard theory applicable to the study of derived geometry. 
   
-* _Nov 19, 2010_
+* _Dec 10 19, 2010_
 
   **[[nLab:derived smooth manifold]]s**
 
