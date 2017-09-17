@@ -93,3 +93,4 @@ Comparing with the discussion at [[quantum anomaly]], it follows that the non-tr
 This phenomenon has traditionally been known somewhat implicitly in the context of the [[Green–Schwarz mechanism]].
 
 [[!redirects magnetic current]]
+[[!redirects magnetic charges]]
