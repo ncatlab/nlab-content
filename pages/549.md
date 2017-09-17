@@ -219,11 +219,11 @@ Standard textbook references are for instance
 
 theorem 2.1.14 in 
 
-* [[Hovey]], _Model categories_,
+* [[Mark Hovey]], _Model categories_,  volume 63 of Mathematical Surveys and Monographs, American Mathematical Society, (2007),
 
 or section 10.5 in
 
-* **ModLoc** Hirschhorn, _Model categories and their localization_,
+* [[Philip Hirschhorn]], _Model categories and their localization_, vol- ume 99 of Mathematical Surveys and Monographs, American Math- ematical Society, cited here as **ModLoc** 
 
 A reference with an eye towards [[combinatorial model category|combinatorial model categories]] and [[Smith's theorem]] is
 
