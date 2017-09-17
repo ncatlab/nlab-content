@@ -72,7 +72,7 @@ In an [[abelian category]] $C$, every [[morphism]] between simple objects is eit
 
 *  In the category [[Vect]] of [[vector spaces]] over some field $k$, the simple objects are precisely the [[line]]s: the $1$-dimensional vector spaces, i.e. $k$ itself, up to [[isomorphism]].
 
-*  A [[simple group]] is a simple of object in [[Grp]].  (Here it is important to use quotient objects instead of subobjects.)
+*  A [[simple group]] is a simple object in [[Grp]].  (Here it is important to use quotient objects instead of subobjects.)
 
 *  For $G$ a [[group]] and $Rep(G)$ its category of [[representations]], the simple objects are the [[irreducible representations]].
 
