@@ -200,7 +200,7 @@ This is topologized in the same way as discussed [above](#ForAnyNumberField).
 
 Reviews includes ([Mathew 10](#Mathew10)). 
 
-In the function field case, where $k$ is a finite extension of $\mathbb{F}_p(T)$, the analogous ring of integers $\mathcal{O}(k)$ is the [[integral closure]] of the subring $\mathbb{F}_p[T] \hookrightarrow \mathbb{F}_p(T)$ in $k$. And analogously, the ring of integer adeles $\mathbb{A}_{\mathcal{O}(k)}$ may be defined to be the product of all the completions of $\mathcal{O}(k)$ over all the places of $k$. This is a compact ring. The restricted direct product above map may, in parallel with the number field case described above, be described as a tensor product 
+In the function field case, where $k$ is a finite extension of $\mathbb{F}_p(T)$, the analogous ring of integers $\mathcal{O}(k)$ is the [[integral closure]] in $k$ of the subring $\mathbb{F}_p[T] \hookrightarrow \mathbb{F}_p(T)$. And analogously, the ring of integer adeles $\mathbb{A}_{\mathcal{O}(k)}$ may be defined to be the product of all the completions of $\mathcal{O}(k)$ over all the places of $k$. This is a compact ring. The restricted direct product above map may then, in parallel with the number field case described above, be described as a tensor product 
 
 $$\mathbb{A}_k = k \otimes_{\mathcal{O}(k)} \mathbb{A}_{\mathcal{O}(k)}$$ 
 
