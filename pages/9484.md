@@ -35,7 +35,7 @@ Then we discuss the formalization of this in the broader context of [[symplectic
 
 ## Related concepts
 
-[[!include lassical-to-quantum notions - table]]
+[[!include classical-to-quantum notions - table]]
 
 
 ## References
