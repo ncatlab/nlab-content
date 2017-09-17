@@ -1,9 +1,7 @@
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
-
 
 ## Idea
 
@@ -63,7 +61,6 @@ See [[(n,r)-category]] for more on that.
 =--
 
 
-
 ## Definition
 
 A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of a [[topological space]] $X$ and a subset $d X \subset C([0,1],X)$ of continuous maps from the interval into $X$ -- called _directed paths_ or d-paths -- satisfying the following conditions:
@@ -80,11 +77,13 @@ $$(a+b)(t) = b(2t),\,\text{if}\, \frac{1}{2}\le t\le 1.$$
 
 A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \to Y$ which preserves directed paths in that for every $\gamma: I \to X$ in $d X$ the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$ is in $d Y$.
 
-#Examples#
+
+## Examples
 
 * The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I$ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$.
 
 * Any [[pospace]] $X$ gives rise to a directed space by taking the directed paths to be, well, directed paths, i.e. continuous order-preserving maps from $I_d$ to $X$.
+
 
 ## Remarks
 
@@ -98,6 +97,7 @@ _Toby_: I don\'t think that you need internal homs and all that.  But see my edi
 [[Urs Schreiber|Urs]]: I think we need directed homotopies to check if a "constructed" directed space is actually a directed object in the original definition: that original definition asks us to check if the internal hom $[I,X]$ is weakly equivalent to $X$. Well, I made up this definition because I think it is the right abstraction, but there is room of course to debate this. But if we accept it then we should try to define the internal hom of Grandis' directed spaces. There is an obvious solution which one should check the details of: namely a directed topological space should be one which singles out not only subsets of $hom(I,X)$ but subsets of $hom(I^{\times n}, X)$ for all $n$, closed under the obvious reparameterization and gluing. This would induce an obvious notion of directed homotopies and should induce in an obvious way an internal hom for directed topological spaces. I'd think. But I don't feel like investing much time into finalizing this idea right now...
 
 =--
+
 
 ## References
 
@@ -115,7 +115,6 @@ A discussion of reparameterization of directed paths in directed topological spa
 * Ulrich Fahrenberg and Martin Raussen, _Reparametrizations of Continuous Paths_ ([arXiv](http://arxiv.org/abs/0706.3560), ([blog](http://golem.ph.utexas.edu/category/2006/09/fahrenberg_and_raussen_on_cont.html)))
 
 Further references atre given in [[directed homotopy theory]].
-
 
 
 ## Discussion
@@ -193,6 +192,8 @@ I consider you as an authority on such issues of logical rigour. You should say 
 _Toby_: I\'ll discuss this at [[directed object]].
 
 
+[[!redirects directed space]]
+[[!redirects directed spaces]]
+
 [[!redirects d-space]]
 [[!redirects d-spaces]]
-[[!redirects directed spaces]]
