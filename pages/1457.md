@@ -127,6 +127,8 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 [[!redirects metrizable spaces]]
 [[!redirects metrisable space]]
 [[!redirects metrisable spaces]]
+[[!redirects metrizable]]
+[[!redirects metrisable]]
 
 [[!redirects distance]]
 [[!redirects distances]]
