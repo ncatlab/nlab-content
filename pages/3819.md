@@ -50,3 +50,6 @@ In the [[AQFT]] approach to [[quantum field theory]] the observables are the ver
 [[!redirects observables]]
 [[!redirects algebra of observables]]
 [[!redirects algebras of observables]]
+
+[[!redirects algebra of quantum observables]]
+[[!redirects algebras of quantum observables]]
