@@ -82,10 +82,10 @@ The __integral__ of the simple function $f$, represented by the linear combinati
 +-- {: .num_prop #intpositive}
 ###### Proposition
 
-The integral of a positive simple function always exists.  It is finite if $\mu$ is a [[finite measure]], and it is positive (possibly $0$ or $\infty$) if $\mu$ is a [[positive measure]].  Also, if $\mu$ is positive, then the integral of an extended positive simple function always exists.
+The integral of a positive simple function always exists (but may be infinite).  It is finite if $\mu$ is a [[finite measure]], and it is positive (possibly $0$ or $\infty$) if $\mu$ is a [[positive measure]].  Also, if $\mu$ is positive, then the integral of an extended positive simple function always exists.
 =--
 
-However, the integral of an extended positive simple function with respect to a finite positive measure need not be finite.)
+(However, the integral of an extended positive simple function with respect to a finite positive measure need not be finite.)
 
 +-- {: .num_prop #intbounded}
 ###### Proposition
