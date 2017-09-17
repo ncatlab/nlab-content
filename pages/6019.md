@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a [[sigma-model]] [[quantum field theory]] a field configuration is a [[morphism]] $\phi : \Sigma \to X$ for $\Sigma$ an $n$-[[dimension]]al [[manifold]] or similar. One is to think of this as being the trajectory of an $(n-1)$-[[brane]] propagating in the [[target space]] $X$. 
+
+For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]]) the term **worldline** for $\Sigma$ has a long tradition. Accordingly one calls $\Sigma$ the **worldvolume** of the given $(n-1)$-[[brane]] when $n \gt 1$. For the case $n=2$ (the case of relevance in [[string theory]]) one also says **worldsheet**.
+
+## Related concepts
+
+* [[sigma-model]]
+
+  * **worldvolume**
+
+  * [[target space]]
+
+  * [[background gauge field]]
+  
+[[!redirects worldline]]
+[[!redirects worldsheet]]
+
+[[!redirects world line]]
+[[!redirects world volume]]
+[[!redirects world sheet]]
