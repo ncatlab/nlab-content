@@ -77,6 +77,8 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 * [[cohesive homotopy type]]
 
+* [[stable homotopy type]]
+
 [[!include homotopy n-types - table]]
 
 [[!include notions of type]]
