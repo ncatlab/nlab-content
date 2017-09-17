@@ -36,11 +36,11 @@ There are two other forms of this condition which are useful under different cir
 
 2. The free topological monoid $F X$ on a space $X$ filtered by the length of words. Given a based space $(X,x)$, there is also a reduced version by taking $F X$ and identifying $x$ with the identity of $F X$. This latter filtered space is known as the James construction $J(X,x)$, after Ioan James. 
 
-   The James construction $J(X,x)$ can be constructed homotopy-theoretically, following ideas of Brunerie. Recall that, for $K$ a finite [[simplicial complex]], for $(X,A)$ a pair of spaces, its _polyhedral product_ $(X,A)^K$ is defined as the union $\bigcup_{\sigma\in S(K)}(X,A)^\sigma$ as a subspace of the Cartesian product $X^{V(K)}$. Here, for $\sigma\in S(K)$ a simplex of $K$, the subspace $(X,A)^\sigma$ is $\{x\in X^{V(K)}| \, \forall v\in V(K) (v\notin\sigma \implies proj_v x\in A)\}$. 
+   The James construction $J(X,x)$ can be constructed homotopy-theoretically, following ideas of Brunerie. Recall that, for $K$ a finite [[simplicial complex]], for $(X,A)$ a pair of spaces, its _polyhedral product_ $(X,A)^K$ is defined as the union $\bigcup_{\sigma\in S(K)}(X,A)^\sigma$ as a subspace of the Cartesian product $X^{V(K)}$. Here, for $\sigma\in S(K)$ a simplex of $K$, the subspace $(X,A)^\sigma$ consist of those $x\in X^{V(K)}$ such that, for each vertex $v$ in the complement of $\sigma$, the coordinate projection $\proj_v x$ lies in $A$. Equivalently, the polyhedral product $(X,A)^K$ can be considered as a homotopy colimit of these $(X,A)^\sigma$ over the poset $S(K)$ of simplexes $\sigma$ of $K$, where the maps are the respective inclusions.
 
    +-- {: .un_defn}
    ###### Definition
-   For $X$ a space equipped with basepoint $x$, define a filtered space $fil_\bullet$ as follows. 
+   For $X$ a space equipped with a basepoint $x$, define a filtered space $fil_\bullet$ as follows. 
    Set $\fil_0$ as $\{x\}$.
    For $k\ge 1$, require that the following square is homotopy pushout:
    $$
@@ -64,12 +64,13 @@ There are two other forms of this condition which are useful under different cir
          && 
         \\
    &&&&
-        fil_s
+        fil_k
         &&&&
      }
    $$
-   where the unlabeled arrow is induced by 
-   $$(X,x)^\sigma \xrightarrow{\sim} X^{\dim(\sigma)+1} \xrightarrow{p_{\dim(\sigma)+1}} fil_{\dim(\sigma)+1}\xrightarrow{j_{s-1}\circ\cdots\circ j_{\dim(\sigma)+2}}\fil_{s-1}$$
+   where the unlabeled arrow is the homotopy colimit of a morphism of diagrams over $S(\partial \Delta[k-1])$ given by the maps 
+   $$(X,x)^\sigma \xrightarrow{\sim} X^{\dim(\sigma)+1} \xrightarrow{p_{\dim(\sigma)+1}} fil_{\dim(\sigma)+1}$$
+   for each simplex $\sigma$ of the boundary simplicial complex $\partial \Delta[k-1]$ of the standard $(k-1)$-simplex.  
    =-- 
 
    +-- {: .num_prop #TypeOfJames}
