@@ -1,3 +1,1 @@
-I'm a researcher at the [IAS](http://www.math.ias.edu/) participating in the special year on type theory.  I'm interested in constructive mathematics and programming in general, and believe in the importance of ideas coming from the study of linear logic and continuations.
-
-I have a webpage [here](http://www.math.ias.edu/~nzeilberger/).
+[website](http://noamz.org/)
