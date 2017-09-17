@@ -204,5 +204,9 @@ A [[monoid]] in $(Ab, \oplus, 0)$ is equivalently just an abelian group again (s
 
 Categories [[enriched category|enriched]] over $Ab$ are called [[additive category|pre-additive categories]] or sometimes just additive categories.  If they satisfy an extra exactness condition they are called [[abelian category|abelian categories]]. See at _[[additive and abelian categories]]_.
 
+## Related concepts
+
+* [[Mod]]
+
 
 category: category
