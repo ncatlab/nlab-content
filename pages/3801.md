@@ -156,7 +156,7 @@ This is due to ([ChasSullivan](#ChasSullivan)).
 
 ## In terms of TQFTs
 
-The structures studied in the _string topology_ of a [[smooth manifold]] $X$ may be understood as being essentially the data of a 2-dimensional [[topological field theory]] [[sigma model]] with [[target space]] $X$, or rather its linearization to a [[TCFT]] (with due care on some technical subtleties). 
+The structures studied in the _string topology_ of a [[smooth manifold]] $X$ may be understood as being essentially the data of a 2-dimensional [[topological field theory]] [[sigma model]] with [[target space]] $X$, or rather its linearization to an [[HQFT]] (with due care on some technical subtleties). 
 
 The idea is that the [[configuration space]] of a closed or open [[string]]-[[sigma-model]] propagating on $X$ is the [[loop space]] or path space of $X$, respectively. The space of [[state]]s of the string is some space of sections over this configuration space, to which the (co)homology $H_\bullet(L X)$ is an approximation. The string topology operations are then the [[cobordism]]-representation
 
@@ -166,9 +166,10 @@ $$
 
 given by the [[FQFT]] corresponding to the $\sigma$-modelon these state spaces, acting on these state spaces.
 
-The identification of string topology with a topological field theory was proved in ([Tamanoi07](#Tamanoi07)). The [[extended quantum field theory|extended]] [[TCFT]] version of this which is suggested by ([Costello](#Costello)) and ([Lurie](#Lurie)) (see towards the end) was essentially worked out in detail in ([Godin](#Godin)). More details on all this are in ([Kupers](#Kupers)).
 
 ### Closed string TQFT
+
+(...)
 
 ### Open closed string TQFT
 
@@ -211,32 +212,41 @@ The original references include the following:
 
 * [[Ralph Cohen]], _Homotopy and geometric perspectives on string topology_, [pdf](http://math.stanford.edu/~ralph/skyesummary.pdf)
 
-The interpretation of string topology as a [[TQFT]] is proven in
+The interpretation of closed string topology as an [[HQFT]] is discussed in
+
+* [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View Of String Topology]]_
 
 * Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
  {#Tamanoi07}
 
-By the [[TCFT]] discussion in
-
-* [[Kevin Costello]],  _Topological conformal field theories and Calabi-Yau $A_\infty$-categories_ (2004) , ([arXiv:0412149](http://arxiv.org/abs/0412149))
- {#Costello}
-
-and the [[cobordism hypothesis]] in 
-
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
- {#Lurie}
-
-it is suggested (see example 4.2.16, remark 4.2.17) that there should be an [[extended quantum field theory]] version of this. This has essentially been described in
+A detailed discussion and generalization to the open-closed [[HQFT]] in the presence of a single space-filling [[brane]] is in
 
 * [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
  {#Godin}
 
-More details on all this, as well as the generalization to multiple [[D-brane]]s is discussed in
+The generalization to multiple [[D-brane]]s is discussed in
 
 * [[Sander Kupers]], _String topology operations_ MS thesis (2011)
  {#Kupers}
 
-Also
+
+Arguments that this string-topology [[HQFT]] should refine to a chain-level theory -- a [[TCFT]] -- were given in
+
+* [[Kevin Costello]],  _Topological conformal field theories and Calabi-Yau $A_\infty$-categories_ (2004) , ([arXiv:0412149](http://arxiv.org/abs/0412149))
+ {#Costello}
+
+and 
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+ {#Lurie}
+(see example 4.2.16, remark 4.2.17).
+
+For the string product and the BV-operator this extension is considered around page 101 of
+
+* [[Scott Wilson]], _On the Algebra and Geometry of a Manifold's
+Chains and Cochains_ (2005) ([pdf](http://qcpages.qc.cuny.edu/~swilson/main.pdf))
+
+
+Evidence for the existence of the [[TCFT]] version by exhibiting a [[dg-category]] that looks like it ought to be the dg-category of string-topology [[brane]]s (hence ought to correspond to the TCFT under the suitable version of the [[cobordism hypothesis]]) is discussed in
 
 * [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
 
