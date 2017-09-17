@@ -2,7 +2,7 @@ Topology is nowdays intertwined with many other mathematical fields, like differ
 
 Some of the notions in general topology covered in the nLab include [[topological space]], [[Top]], [[Hausdorff space]], [[specialization topology]], [[separation axioms]], [[sequential space]], [[Frechet-Uryson space]], [[compact space]], [[Sierpinski space]], ...
 
-For purposes in modern mathematics sometimes roles of topological spaces are however replaced by a [[convenient category of topological spaces]], [[nice topological space]]s, [[simplicial set]]s, [[locales]], [[sites]], [[topoi]], [[orbispace]]s, [[topological stack]]s and so on. 
+For purposes in modern mathematics sometimes roles of topological spaces are however replaced by a [[convenient category of topological spaces]], [[nice topological space]]s, [[simplicial set]]s, [[locales]], [[sites]], [[topoi]], [[orbispace]]s, [[topological stack]]s, [[funcoid]]s, and so on. 
 
 
 [[!redirects set-theoretical topology]]
