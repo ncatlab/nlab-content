@@ -49,7 +49,9 @@ Diagonal density matrices with at least two non-zero terms on the diagonal repre
 
 ## Limitations
 
-Note that a density operator, as the representation of the state of a quantum system, is less restrictive than a state vector which specifies the wavefunction.  However, this does mean that the density operators are not unique, i.e. two entirely different state vectors can give rise to the same density operator.
+Note that a density operator, as the representation of the state of a quantum system, is less restrictive than a state vector which specifies the wavefunction.  On the other hand, two different state vectors can give rise to the same density operator. However, in that case, the two vectors are the same up to a phase, so arguably the density operator still describes the [[physical state]] unambiguously.
+
+More controversially, two entirely different probabilisitic combinations of state vectors can give rise to the same density operator. [[Roger Penrose]], for one, has argued that this means that that the density operator does not describe mixed states unambiguously. But one can also argue the reverse: that mixed states with the same operator really are the same physical state, since they are observationally indistinguishable.
 
 ## References
 
@@ -57,9 +59,6 @@ Note that a density operator, as the representation of the state of a quantum sy
 
 * Schumacher, B. and Westmoreland, M. *Q-PSI: Quantum Processes, Systems, and Information*, Cambridge University Press, Cambridge, 2010.
 
-## Discussion
-
-[[Ian Durham]]:  Feel free to clean this up.
 
 [[!redirects density matrices]]
 [[!redirects density operators]]
