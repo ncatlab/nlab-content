@@ -227,7 +227,7 @@ But there is not a homomorphism of [[spectra]] of this form. This only exists af
 
 ## Examples
 
-### Snaith's theorem
+### Snaith's theorem and the units of K-theory and complex cobordism
  {#SnatihTheorem}
 
 [[Snaith's theorem]] asserts that 
@@ -245,6 +245,10 @@ But there is not a homomorphism of [[spectra]] of this form. This only exists af
      MU \simeq (\mathbb{S}[B U])[\beta^{-1}]
      \,.
    $$
+
+### Units of topological modular forms
+
+Analysis of the $\infty$-group of units of [[tmf]] is in ([Ando-Hopkins-Rezk 10, from section 12 on](#AndoHopkinsRezk10)).
 
 ### Inclusion of circle $n$-bundles into higher chromatic cohomology
 
@@ -349,6 +353,9 @@ The [[cohomology]] with coefficients in $gl_1(E)$ and the corresponding [[logari
 
 * {#Rezk06} [[Charles Rezk]], _The units of a ring spectrum and a logarithmic cohomology operation_, J. Amer. Math. Soc. 19 (2006), 969-1014 ([arXiv:math/0407022](http://arxiv.org/abs/math/0407022))
 
+The group of units of [[tmf]] is analyzed from section 12 on in 
+
+* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 [[!redirects ∞-group of units]]
 
