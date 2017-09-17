@@ -50,6 +50,7 @@ $$
 
 * Every [[universal characteristic class]] is a cohomology operation.
 
+* [[logarithmic cohomology operation]]
 
 ## References
 
