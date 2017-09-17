@@ -57,6 +57,8 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 
   * **geometric Langlands correspondence**
 
+    * [[S-duality]], [[Kapustin-Witten TQFT]]
+
   * [[quantum geometric Langlands correspondence]]
 
 ## References
