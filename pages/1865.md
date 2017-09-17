@@ -149,13 +149,29 @@ see
 
 * **differential K-theory**
 
+  * [[fiber integration in differential K-theory]]
+
 * [[twisted differential K-theory]]
 
 
 
 ## References
 
+### History
+ {#History}
+
+An early sketch of a definition is in 
+
+* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+
+* [[Dan Freed]], [[Mike Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP (2000) 44, 14 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
+
+For more historical remarks see section 1.6 of 
+
+* [[Dan Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
+
 ### General
+
 
 A review is in
 
@@ -180,7 +196,21 @@ The [[equivariant cohomology]] version of this is in
 
 * [[Ulrich Bunke]], [[Thomas Schick]], _Differential orbifold $K$-Theory_ ([arXiv:0905.4181](http://arxiv.org/abs/0905.4181))
 
-A construction of [[differential cobordism cohomology]] theory in terms of explicit geoimetric cocycles is in
+The equivalence of these models with the respective special case of the general construction in 
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+in terms of [[differential function complexes]] is in 
+
+* Kevin Klonoff, _An Index Theorem in Differential K-Theory_ PdD thesis (2008) ([pdf](http://www.lib.utexas.edu/etd/d/2008/klonoffk16802/klonoffk16802.pdf))
+
+(assuming the existence of a universal connection, which is not strictly proven) and
+
+* Michael L. Ortiz, _Differential Equivariant K-Theory_ ([arXiv:0905.0476](http://arxiv.org/abs/0905.0476))
+
+(not needing that assumption).
+
+A construction of [[differential cobordism cohomology]] theory in terms of explicit geometric cocycles is in
 
 * [[Ulrich Bunke]], [[Thomas Schick]], Ingo Schroeder, Moritz Wiethaup _Landweber exact formal group laws and smooth cohomology theories_ ([arXiv:0711.1134](http://arxiv.org/abs/0711.1134))
 
@@ -191,15 +221,15 @@ A variant of this definition with the advantage that there is a natural morphism
 * Alain Berthomieu, _A version of smooth K-theory adapted to the
 total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
 
-See also
-
-* Thomas Tradler, Scott O. Wilson, [[Mahmoud Zeinalian]], _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
-
 ### Relation to index theory
 
 Relation to [[index theory]]: 
 
 * Kevin Klonoff, _An Index Theorem in Differential K-Theory_ PdD thesis (2008) ([pdf](http://www.lib.utexas.edu/etd/d/2008/klonoffk16802/klonoffk16802.pdf))
+
+* [[Dan Freed]], [[John Lott]], _An index theorem in differential K-theory_, Geometry and Topology 14 (2010) ([pdf](http://math.berkeley.edu/~lott/gt-2010-14-021p.pdf))
+
+See also the references at _[[fiber integration in differential K-theory]]_.
 
 ### In the context of QFT / string theory
 
@@ -210,4 +240,11 @@ A survey of the role of differential $K$-theory in [[quantum field theory]] and 
 The operation of [[T-duality]] on [[twisted differential K-theory]] is discussed in
 
 * [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
+
+
+### Further
+
+See also
+
+* Thomas Tradler, Scott O. Wilson, [[Mahmoud Zeinalian]], _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
 
