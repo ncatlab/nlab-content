@@ -15,12 +15,18 @@
 
 ## Idea
 
-The moment map came up historically as a generalization of [[angular momentum]] in the [[rigid body dynamics|dynamics of rigid bodies]].
+An [[action]] of a [[Lie group]] $G$ on a [[symplectic manifold]] by ([[Hamiltonian symplectomorphisms|Hamiltonian]]) [[symplectomorphisms]] corresponds [[infinitesimal space|infinitesimally]] to a Lie algebra [[homomorphism]] from the [[Lie algebra]] $\mathfrak{g}$ to the [[Hamiltonian vector fields]] on $X$. By dualization, this is equivalently a homomorphism $X \to \mathfrak{g}^*$. This is called the _moment map_ or _momentum map_ of the Hamiltonian action.
+
+The name derives from the special and historically first case of [[angular momentum]] in the [[rigid body dynamics|dynamics of rigid bodies]].
 
 
 ## Definition
 
-The basic setup is the following: Let $(M,\omega)$ be a [[symplectic manifold]] with a [[Hamiltonian action]] of a [[Lie group]] $G$. In particular that means that there is an [[action]] $\nu\colon G \times M \to M$ via [[symplectomorphism]]s (diffeomorphisms $\nu_g$ such that $\nu_g^*(\omega) = \omega$). A vector field $X$ is [[symplectic]] if the corresponding flow preserves (again by pullbacks) $\omega$. The symplectic vector fields form a Lie subalgebra $\chi(M,\omega)$ of the Lie algebra of all smooth vector fields $\chi(M)$ on $M$ with respect to the Lie bracket. 
+### Preliminaries
+
+This section briefly reviews the notion of [[Hamiltonian vector fields]] on a [[symplectic manifold]]
+
+The basic setup is the following: Let $(M,\omega)$ be a [[symplectic manifold]] with a [[Hamiltonian action]] of a [[Lie group]] $G$. In particular that means that there is an [[action]] $\nu\colon G \times M \to M$ via [[symplectomorphism]]s (diffeomorphisms $\nu_g$ such that $\nu_g^*(\omega) = \omega$). A vector field $X$ is [[symplectic vector field|symplectic]] if the corresponding flow preserves (again by pullbacks) $\omega$. The symplectic vector fields form a Lie subalgebra $\chi(M,\omega)$ of the Lie algebra of all smooth vector fields $\chi(M)$ on $M$ with respect to the Lie bracket. 
 
 By the [[Cartan homotopy formula]] and closedness $d \omega = 0$
 
@@ -42,7 +48,11 @@ $$
 0 \to \mathbf{R}\to C^\infty(M)\to \chi(M,\omega)
 $$
 
-and $H^1(M, \mathbf{R})$ measures hgow far is the right-most map from the identity. Thus there is a possible difference between the set of symplectic vector fields and of Hamiltonian vector fields only if the manifold is not simply connected. __Hamiltonian action__ above means that the action induced at the level of Lie algebra is by Hamiltonian vector fields. That means that the infinitesimal action from $\mathfrak{g}\to \chi(M,\omega)$ lifts to a linear map
+and $H^1(M, \mathbf{R})$ measures how far is the right-most map from the identity. Thus there is a possible difference between the set of symplectic vector fields and of Hamiltonian vector fields only if the manifold is not simply connected. 
+
+### Hamiltonian action and moment map
+
+__Hamiltonian action__ above means that the action induced at the level of Lie algebra is by Hamiltonian vector fields. That means that the infinitesimal action from $\mathfrak{g}\to \chi(M,\omega)$ lifts to a linear map
 
 $$
 \mathfrak{g}\to C^\infty(M); \,\,\,\,\,A\mapsto \mu_A
@@ -58,7 +68,9 @@ $$
 \langle \mu(z),A\rangle = \mu_A(z),\,\,\,\,\,\,\forall z\in M.
 $$
 
-The moment map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotient]]s.
+## Related concepts
+
+The moment map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotients]].
 
 
 ## References
