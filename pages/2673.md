@@ -38,3 +38,5 @@ A decent introduction is in sections 4 and 5 of
 [[!redirects Palatini action]]
 [[!redirects Palatini formulation]]
 [[!redirects Palatini formalism]]
+
+[[!redirects first order formulation of gravity]]
