@@ -2,3 +2,4 @@
 * [website](http://www-bcf.usc.edu/~lauda/)
 
 category: people
+[[!redirects A. Lauda]]
