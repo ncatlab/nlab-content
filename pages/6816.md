@@ -25,6 +25,10 @@ maximum number $N = 4$ of [[supersymmetries]].
 
 ## Properties of 4d SYM
 
+### Conformal invariance
+
+$N=4$ $D=4$ SYM is an [[SCFT]].
+
 ### Holography
 
 $N=4$ $d=4$ SYM is supposed to be related under the [[AdS/CFT correspondence]] to [[type II superstring theory]] [[Kaluza-Klein mechanism|compactified]] on a 5-[[sphere]] to an asymptotically [[anti de Sitter spacetime]].
