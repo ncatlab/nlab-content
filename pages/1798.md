@@ -59,3 +59,5 @@ $\eta$ is a [[monomorphism]] (resp. [[isomorphism]]) of presheaves iff the presh
 A standard reference is 
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, Springer 1992. (chapter III)
+
+[[!redirects matching families]]
