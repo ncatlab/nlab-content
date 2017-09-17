@@ -161,4 +161,8 @@ For partial trace, particularly its application to quantum mechanics, see:
 
 * Nielsen and Chuang, _Quantum Computation and Quantum Information_
 
+
+[[!redirects traces]]
+
 [[!redirects partial trace]]
+[[!redirects partial traces]]
