@@ -135,6 +135,8 @@ See [[simplicial Quillen adjunction]] for more details.
 
 * **Quillen adjunction**
 
+* [[simplicial Quillen adjunction]]
+
 * [[Quillen equivalence]]
 
 * [[monoidal Quillen adjunction]]
