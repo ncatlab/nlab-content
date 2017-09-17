@@ -44,6 +44,9 @@ The [[Kapustin-Witten TQFT]] ([KapustinWitten 2007](#KapustinWitten)) is suppose
 
 See also at _[KK-compactification -- Formalization](http://ncatlab.org/nlab/show/Kaluza-Klein+mechanism#Formalization)_
 
+[[!include geometric Langlands QFT -- table -- table]]
+
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 
