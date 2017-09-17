@@ -55,6 +55,7 @@ When drawing ribbon graphs on paper this cyclic ordering is identified with the 
 =--
 
 
+
 ### Boundary of a fat graph
 
 +-- {: .num_defn}
@@ -119,7 +120,7 @@ $$
   c : \partial \to S
 $$
 
-from the boundary graph functor to the forgetful functor -- called the **collaps map**, whose components morphism on a fat graph $\Gamma$ sends on vertices
+from the boundary graph functor to the forgetful functor -- called the **collapse map**, whose components morphism on a fat graph $\Gamma$ sends on vertices
 
 $$
   v_h \mapsto s(h)
