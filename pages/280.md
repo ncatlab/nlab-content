@@ -100,6 +100,12 @@ Mac Lane, VII.4, only requires a monoidal category to define actions.  -- Uday
 
 ## Related concepts
 
+* **action**, [[∞-action]],
+
+* [[representation]], [[∞-representation]]
+
+* [[associated bundle]], [[associated ∞-bundle]]
+
 * [[quotient]]
 
 * [[representation theory]], [[invariant theory]]
