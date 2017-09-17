@@ -3,7 +3,6 @@
 * table of contents
 {: toc}
 
-
 ## Idea
 
 An __affine space__ or __affine linear space__ is a [[vector space]] that has forgotten its origin.  An __affine linear map__ (a morphism of affine spaces) is a linear map (a morphism of vector spaces) that need not preserve the origin.
@@ -18,14 +17,26 @@ Note that the 'linear functions' of elementary algebra ---the total functions wh
 The definition of affine space can be made precise in various (equivalent) ways.  We give a name to some of the definitions for later reference.
 
 *  An affine space is simply a vector space, but with different morphisms; an affine linear map is a function that is the difference between a linear map and a [[constant function]].
+
 *  An affine space is a [[set]] equipped with an equivalence class of vector space structures, where two vector space structures are considered equivalent if the [[identity function]] is affine linear as a map from one structure to the other; whether a map between affine spaces is affine linear is independent of the representative vector space structures.
+
 *  An affine space is a set $A$ together with a vector space $V$ and an [[action]] of (the additive group of) $V$ on $A$ that makes $A$ into a $V$-[[torsor]] (over the point); an affine linear map is a $V$-equivariant map. For this point of view, see also [[zoranskoda:affine space]].
+
 *  An affine space is a [[heap]] whose automorphism group is equipped with structure making it the additive group of a vector space; an affine linear map is a heap morphism.
-*  An affine space is an [[inhabited set]] $A$ together with a vector space $V$ and a function $A \times A \to V$ (thought of as subtraction) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction (the "vector-valued difference" definition).
-*  An affine space over the [[ground field]] $k$ is an [[inhabited set]] $A$ together with functions $A \times A \times A \to A$ (thought of as $x,y,z \mapsto x - y + z$) and $k \times A \times A \to A$ (thought of as $r,x,y \mapsto x - r x + r y$) that satisfy some equations; an affine linear map is a function that preserves these operations (the "two ternary operations" definition).
-*  An affine space over $k$ is an inhabited set $A$ together with a function $k\times A\times A\times A\to A$ (thought of as $r,x,y,z \mapsto r x - r y + z$) that satisfies some equations; an affine linear map is a function that preserves this operation (the "one quaternary operation") definition.
-*  Assuming that $2$ is invertible in the field $k$ (i.e. the [[characteristic]] of $k$ is not $2$), an affine space over $k$ is an inhabited set $A$ together with a function $k \times A \times A \to A$ that satisfies some equations; an affine linear map is a function that preserves this operation (the "one ternary operation" definition).
-*  An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n \geq 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0 + \dots + r_n = 1$, a function $A^{n+1}\to A$, satisfying some equations; an affine linear map is a function that preserves these operations (the "unbiased" definition).  We think of (and write) the function corresponding to $(r_0,\dots,r_n)$ as $(x_0,\dots,x_n)\mapsto r_0 x_0 + \dots + r_n x_n$.
+
+*  An affine space is an [[inhabited set]] $A$ together with a vector space $V$ and a function $\Lambda\colon A \times A \to V$ (thought of $\Lambda(x,y) \coloneqq x - y$) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction (the "vector-valued difference" definition).
+
+*  An affine space over the [[ground field]] $k$ is an [[inhabited set]] $A$ together with functions $\mu\colon A \times A \times A \to A$ (thought of as $\mu(x,y,z) \coloneqq x - y + z$) and $\Lambda_*\colon k \times A \times A \to A$ (thought of as $\Lambda_r(x,y) \coloneqq x - r x + r y$) that satisfy some equations; an affine linear map is a function that preserves these operations (the "two ternary operations" definition).
+
+*  An affine space over $k$ is an inhabited set $A$ together with a function $\mu_*\colon k\times A\times A\times A\to A$ (thought of as $\mu_r(x,y,z) \coloneqq r x - r y + z$) that satisfies some equations; an affine linear map is a function that preserves this operation (the "one quaternary operation") definition.
+
+*  Assuming that $2$ is invertible in the field $k$ (i.e. the [[characteristic]] of $k$ is not $2$), an affine space over $k$ is an inhabited set $A$ together with a function $\Lambda_*\colon k \times A \times A \to A$ that satisfies some equations; an affine linear map is a function that preserves this operation (the "one ternary operation" definition).
+
+*  An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n \geq 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0 + \dots + r_n = 1$, a function $\gamma_{r_0,\ldots,r_n}\colon A^{n+1}\to A$ (thought of as $\gamma_{r_0,\ldots,r_n}(x_0,\ldots,x_n) \coloneqq r_0 x_0 + \cdots + r_n x_n$), satisfying some equations; an affine linear map is a function that preserves these operations (the "[[unbiased]]" definition).
+
++-- {: .query}
+[[Mike Shulman]]: I think there should also be a definition of the form "an affine space is a [[projective space]]" with a distinguished line called "infinity," and an affine linear map is a projective morphism which preserves infinity.  But I'm not going to put that in the list until I'm sure.
+=--
 
 +-- {: .query}
 There should be another characterisation, which I don\'t quite see how to phrase, at least when $k = \mathbb{R}$, which is that an affine space is a manifold (perhaps Riemannian) that is sufficiently flat and unbounded in some sense.  ---Toby
@@ -39,15 +50,11 @@ _Toby_:  I intended 'that is [...] in some sense' to include the possibility of 
 _Toby_:  I guess that this depends on what you think 'Euclidean space' means; I\'ve known people to define it to *be* $\mathbb{R}^n$, but that seems quite ahistorical to me; I like that Urs calls such a thing [[Cartesian space]] instead.  Euclid did not have coordinates; he did not even have an origin, so a Euclidean space should be a heap rather than a group.  For my comment above, I would define a [[Euclidean space]] to be an affine inner product space; FWIW [Wikipedia agrees](https://secure.wikimedia.org/wikipedia/en/affine_space).  (However, Wikipedia doesn\'t go as far as I do when I claim that the inner product should be valued in an $\mathbb{R}$-line rather than in $\mathbb{R}$ itself; then again, I ignored that subtlety myself in my previous comment.)
 =--
 
-+--{: .query}
-[[Mike Shulman]]: I think there should also be a definition of the form "an affine space is a [[projective space]]" with a distinguished line called "infinity," and an affine linear map is a projective morphism which preserves infinity.  But I'm not going to put that in the list until I'm sure.
-=--
-
 Clearly every vector space has an underlying affine space (and every linear map is affine linear), giving a [[forgetful functor]] $U:Vect \to Aff$.  Conversely, any affine space gives rise to a canonical vector space, sometimes called its space of _displacements_.  This is obvious from the definitions that involve a vector space as part of the structure, but a vector space can also be reconstructed from the other definitions as well, analogously to how a group can be reconstructed from a [[heap]].  This gives a functor $D:Aff\to Vect$ in the other direction.  One can verify that $D(U(V))\cong V$ and $U(D(A))\cong A$; the first isomorphism is [[natural isomorphism|natural]], but the second is not (otherwise $Vect$ and $Aff$ would be [[equivalent categories]], which they are not).
 
-The category of affine spaces is almost a [[variety of algebras]], as can be seen from the last few definitions, except for the requirement that an affine space be inhabited.  To rectify this, sometimes one allows the [[empty set]] to be an affine space, although it does not have any particular vector space of displacements.
+The category of affine spaces is almost a [[variety of algebras]], as can be seen from the last few definitions, except for the requirement that an affine space be inhabited.  To rectify this, sometimes one allows the [[empty set]] to be an affine space, although it does not have any particular vector space of displacements.  (See [[heap#empty]] for discussion.)
 
-Note that there are a few different ways to think about the operations involved in the final three definitions (those not explicitly involving a vector space).  The operation $(x,y,z)\mapsto x - y + z$ is the same as the [[Mal'cev operation]] (i.e. [[heap]] structure) of the additive group of a vector space.  It can be viewed as the point completing a parallelogram with given vertices $x,y,z$, or equivalently as the result of adding $x$ and $z$, relative to a choice of $y$ as the origin.  The operation $(r,x,y)\mapsto x - r x + r y$ can be viewed as either a weighted average of $x$ and $y$ (i.e. as $(1-r)x + r y$) or as the result of multiplying the "displacement vector" $y-x$ by $r$, relative to the origin $x$ (i.e. as $x + r(y-x)$).
+Note that there are a few different ways to think about the operations involved in the final three definitions (those not explicitly involving a vector space).  The operation $\mu\colon x,y,z \mapsto x - y + z$ is the same as the [[Mal'cev operation]] (i.e. [[heap]] structure) of the additive group of a vector space.  It can be viewed as the point completing a parallelogram with given vertices $x,y,z$, or equivalently as the result of adding $x$ and $z$, relative to a choice of $y$ as the origin.  The operation $\Lambda_*\colon r,x,y \mapsto x - r x + r y$ can be viewed as either a weighted average of $x$ and $y$ (i.e. as $(1-r)x + r y$) or as the result of multiplying the "displacement vector" $y-x$ by $r$, relative to the origin $x$ (i.e. as $x + r(y-x)$).
 
 
 ### Details and comparisons
@@ -57,13 +64,13 @@ The first few definitions, which explicitly involve a vector space, make no espe
 
 #### Vector-valued differences
 
-In this definition, an affine space over a vector space $V$ is a set $A$ together with a "subtraction" function $A\times A\to V$, written $(x,y)\mapsto x-y$, such that:
+In this definition, an affine space over a vector space $V$ is a set $A$ together with a "subtraction" function $\Lambda\colon A\times A\to V$, written $\Lambda\colon x,y \mapsto x-y$, such that:
 
-* $x-x = 0$.
-* $(y-x) + (z-y) = (z-x)$ for any $x,y,z\in A$.
-* For any $x\in A$ and $v\in V$ there exists a unique $y\in A$ such that $y-x=v$.
+* $\Lambda(x,x) = 0$, or $x-x = 0$, for any $x$ in $A$.
+* $\Lambda(x,y) + \Lambda(y,z) = \Lambda(x,z)$, or $(x-y) + (y-z) = (x-z)$, for any $x,y,z$ in $A$.
+* For any $x$ in $A$ and $v$ in $V$ there exists a unique $y$ in $A$ such that $\Lambda(y,x) = v$, or $y - x = v$.
 
-If $y-x=v$, then we write $y=x+v$, which we can regard as an operation on $x$ and $v$ by the third axiom.  Hence we have $(x+v)-x = v$ and (by uniqueness) $x + (y-x) = y$, and also $x+0 =x$ and $(x+v)+w = x+ (v+w)$ by the first two axioms.  Thus, these axioms suffice to make $A$ into a [[torsor]] over the additive group of $V$ with the action $+$, which is one of the previous definitions given.
+If $y - x = v$, then we write $y = x + v$, which we can regard as an operation on $x$ and $v$ by the third axiom.  Hence we have $(x + v) - x = v$ and (by uniqueness) $x + (y - x) = y$, and also $x + 0 = x$ and $(x + v) + w = x + (v + w)$ by the first two axioms.  Thus, these axioms suffice to make $A$ into a [[torsor]] over the additive group of $V$ with the action $+$, which is one of the previous definitions given.
 
 Note again that this would makes sense if $V$ is any group, not just the additive group of a vector space.
 
@@ -146,7 +153,7 @@ $$
 
 Every finitely-generated affine space is isomorphic to the $n$-fold [[direct sum]] $k^n$, where $k$ is the [[base field]] and $n$ is a [[natural number]] (possibly $0$).  In [[algebraic geometry]], an $n$-dimensional affine space is often denoted $\mathbb{A}^n$ and identified with $k^n$.  If one accepts the empty set as an affine space, then this is considered to have dimension $-1$ by convention (so $k^{-1} = \empty$).
 
-The notion of affine space may be generalised to __affine module__ by replacing the vector space above by a [[module]] and the base field $k$ by a [[commutative ring]].  Then an affine module over the ring $\mathbb{Z}$ of [[integer]]s is precisely a commutative [[heap]], just like a module over $\mathbb{Z}$ is an [[abelian group]].  Note that the definition involving only one, "scalar multiplication", operation works if and only if $2$ is invertible in $k$; it\'s not enough that $2 \ne 0$ in $k$.
+The notion of affine space may be generalised to __affine module__ by replacing the vector space above by a [[module]] and the base field $k$ by a [[commutative ring]].  Then an affine module over the ring $\mathbb{Z}$ of [[integer]]s is precisely a commutative [[heap]], just like a module over $\mathbb{Z}$ is an [[abelian group]].  Note that the definition involving only one "scalar multiplication" operation works if and only if $2$ is invertible in $k$; it\'s not enough that $2 \ne 0$ in $k$.
 
 +-- {: .query}
 [[Mike Shulman]]: I haven't thought much about affine modules, but it seems likely to me that the "biased" module-free definitions won't be right any more, since the Lawvere theory needn't be generated by 2-ary or 3-ary operations (as far as I can see).  More explicitly, I don't immediately see how to write an operation like
@@ -169,7 +176,7 @@ _Toby_:  Yes, that would be an affine $\mathbb{N}$-module.
 
 Affine spaces typically serve as local models for more general kinds of spaces. 
 
-For instance a [[manifold]] is a [[topological space]] that is locally isomorphic to an affine space.  
+For instance a [[manifold]] is a [[topological space]] that is locally isomorphic to an affine space over the [[real numbers]].  
 
 Similarly, in [[algebraic geometry]] a [[scheme]] is locally isomorphic to an [[affine scheme]].
 
@@ -181,6 +188,7 @@ Therefore there are attempts to axiomatize properties of categories of affine sp
 * [[Cartesian space]]
 
 * [[polydisk]]
+
 
 [[!redirects affine space]]
 [[!redirects affine spaces]]
