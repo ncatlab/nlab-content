@@ -156,6 +156,11 @@ The definition of weak $(n,r)$-categories modeled by $\Theta$-spaces does satisf
 
 ([Rez09, 11.25](#Rezk)).
 
+### Relation to cellular sets
+
+There is a [[model structure on cellular sets]] (see there), hence on set-valued presheaves on $\Theta_n$ (instead of simplicial presheaves) which  is [[Quillen equivalence|Quillen equivalent]] to the Rezk model structure on $\Theta_n$-spaces.
+
+
 ## Examples
 
 For low values of $n,k$ this reproduces the following cases:
