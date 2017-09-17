@@ -1,15 +1,20 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (at least those within a certain [[frequency]] range): light is electromagentic [[radiation]]. 
+The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (at least those within a certain [[frequency]] range): light is _electromagentic [[radiation]]_. 
 
 The [[quanta]] of light are [[photons]].
 
+
+[[!redirects light]]
+[[!redirects electromagnetic radiation]]
+[[!redirects EM radiation]]
+[[!redirects em radiation]]
