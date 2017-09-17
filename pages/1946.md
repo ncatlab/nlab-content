@@ -423,7 +423,9 @@ $$
 
 ## References 
 
-A retyped version of Reedy's preprint, [[Chris Reedy]]: _Homotopy Theory of Model Categories_ can be found [here](http://www-math.mit.edu/~psh/reedy.pdf).
+The original text is
+
+* [[Chris Reedy]], _Homotopy Theory of Model Categories_  ([retyped pdf](http://www-math.mit.edu/~psh/reedy.pdf))
 
 A review of Reedy model structures is in section A.2.9 of
 
