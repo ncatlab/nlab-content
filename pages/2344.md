@@ -314,6 +314,11 @@ The first fifteen chapters of a 2000 page manuscript of Grothendieck (in French)
 Independently, there is a version due to Heller (who called them "homotopy theories"):
 
 *  A. Heller, _Homotopy theories_ , Memoirs of the American Mathematical Society, Vol. 71, No 383 (1988).
+* Alex Heller, _Stable homotopy theories and stabilization_ , [MR](http://www.ams.org/mathscinet-getitem?mr=1431157) -- see [[pointed derivator]] and [[stable derivator]]
+
+Apparently also independent is the development by Franke, who takes an enriched approach to the pointed case and also assumes stability:
+
+* Jens Franke, _Uniqueness theorems for certain triangulated categories with an Adams spectral sequence_, [K-theory archive](http://www.math.uiuc.edu/K-theory/0139/)
 
 Georges Maltsiniotis has written an introduction to the topic (in French):
 
