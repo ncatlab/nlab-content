@@ -40,7 +40,7 @@ Acyclicity of (some version of) the Ran space of a connected, [[quasi-projective
 
 Discussion in the context of [[conformal field theory]] includes
 
-* [[Pierre Deligne]], John Morgan, et. al., volumme II, part III of _[[Quantum Fields and Strings]]_
+* [[Pierre Deligne]], John Morgan, et. al., volume II, part III of _[[Quantum Fields and Strings]]_
 
 
 [[!redirects Ran spaces]]
