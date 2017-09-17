@@ -19,6 +19,8 @@ $$
 
 For $V$ of finite ($F$-[[F-finite|finite]]) [[dimension]], $V^*$ is its [[dual object]] with respect to the standard [[monoidal category]] structure on [[Vect]].
 
+$V \mapsto V^*$ extends to a contravariant functor: given a linear map $A: V\to W$, the dual or __transpose map__ $A^* = A^T : W^*\to V^*$ is given by $\langle A^*(w_1), v\rangle = \langle w_1, A(v)\rangle$ $\forall w_1\in W^*$, $\forall v\in V$.  
+
 In this case, we also have $V \cong V^*$, but this [[isomorphism]] is *not* [[natural isomorphism|natural]].  (Indeed, $V \mapsto V^*$ is only a [[contravariant functor]].)  However, we do have a natural isomorphism $V \cong V^{**}$.  More generally, we have a [[natural transformation]] $V \to V^{**}$, which is an isomorphism when $V$ has finite dimension.
 
 
