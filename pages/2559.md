@@ -42,7 +42,7 @@ The $Y_\Delta$ defined this way is indeed a sheaf, due to the assumption that $(
 
 ## Related concepts
 
-A [[topos]] $\mathcal{X}$ is a [[local topos]] (over [[Set]]) if its [[global section]] functro $\Gamma = Hom(\ast_{\mathcal{X}}, -)$ admits a [[right adjoint]]. This is hence an "external" version of the amazing right adjoint, exhibitn $\ast_{\mathcal{X}}$ as "atomic". 
+A [[topos]] $\mathcal{X}$ is a [[local topos]] (over [[Set]]) if its [[global section]] functor $\Gamma = Hom(\ast_{\mathcal{X}}, -)$ admits a [[right adjoint]]. This is hence an "external" version of the amazing right adjoint, exhibiting $\ast_{\mathcal{X}}$ as "atomic". 
 
 ## References#
 
