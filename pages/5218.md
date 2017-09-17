@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 =--
 =--
 
