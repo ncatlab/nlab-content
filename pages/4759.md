@@ -88,7 +88,12 @@ In [[Yang-Mills theory]] field configurations with non-vanishing second Chern-cl
 
 ## References
 
-A classical textbook reference is chapter IX of volume II of
+Standard textbook references include
+
+* [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
+
+
+or chapter IX of volume II of
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
