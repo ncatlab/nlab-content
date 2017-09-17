@@ -45,6 +45,21 @@ There are many equivalent ways to define a topological space.  A non-exhaustive 
 
 The definition of topological space was a matter of some debate, especially about 100 years ago. Our definition is due to Bourbaki, so may be called **Bourbaki spaces**.  For some purposes, including [[homotopy theory]], it is important to use [[nice topological spaces]] and/or a [[nice category of spaces]], or indeed to directly use a model of $\infty$-[[infinity-groupoid|groupoids]] such as [[simplicial sets]].  On the other hand, when doing [[topos theory]] or working in [[constructive mathematics]], it is often more appropriate to use [[locales]] than topological spaces.  Some applications to [[analysis]] require more general [[convergence spaces]] or other generalisations.
 
+## Examples
+
+### special cases
+
+* [[manifold]]
+
+...
+
+### Specific examples
+
+* [[Cantor space]]
+
+* [[long line]]
+
+...
 
 [[!redirects topological space]]
 [[!redirects topological spaces]]
