@@ -215,9 +215,10 @@ This condition reduces to the above one for the $B$-field under [[double dimensi
 
 ## Related concepts
 
-* [[string]]
 
-* [[D-brane]]
+* [[string theory]]
+
+* [[11-dimensional supergravity]], [[M-theory]]
 
 [[!include table of branes]]
 
