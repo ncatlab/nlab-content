@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Category Theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Descent morphisms
 * table of contents
 {: toc}
@@ -48,7 +63,8 @@ See ([ST](#ST)) and ([RST](#RST)) for proofs.
 
 ## Examples
 
-If $C$ is [[exact category|exact]], or has stable [[reflexive coequalizers]], then every regular epimorphism is an effective descent morphism.  (See, for instance, section B1.5 of the [[Elephant]].)  In particular, this is the case for any [[topos]].
+If $C$ is [[exact category|exact]], or has stable [[reflexive coequalizers]], then every 
+[[regular epimorphism]] is an effective descent morphism.  (See, for instance, section B1.5 of the [[Elephant]].)  In particular, this is the case for any [[topos]].
 
 However, there are also important effective descent morphisms in non-exact categories.
 
@@ -63,6 +79,27 @@ Of course, there are also many effective descent morphisms relative to fibration
 * Every [[fpqc site|fpqc cover]] of [[schemes]] is an effective descent morphism relative to the indexed category $QCoh(-)$ of [[quasicoherent sheaves]].
 
 ...
+
+## Related concepts
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * **descent morphism**
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
+
 
 ## References
 
