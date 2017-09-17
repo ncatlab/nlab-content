@@ -24,7 +24,17 @@
 
 ## Related entries
 
-* [[cosmology]], [[standard model of cosmology]], [[quantum cosmology]]
+* [[cosmology]], 
+
+  * [[standard model of cosmology]], 
+
+    * [[FRW model]]
+
+    * [[big bang]]
+
+    * [[dark matter]]
+
+* [[quantum cosmology]]
 
 * [[particle physics]], [[standard model of particle physics]]
 
