@@ -91,6 +91,14 @@ exhibits the [[chromatic filtration]] in [[chromatic homotopy theory]].
 
 [[!include chromatic tower examples - table]]
 
+
+### $E_\infty$-algebra structure over $B P$
+
+As an [[A-infinity algebra]] over the [[Brown-Peterson spectrum]] $B P$,
+$E(n)$ is an [[E-infinity algebra]]. (see [Baker, 2.2](#Baker)).
+
+
+
 ### Smash product theorem
 
 A version of the [[smash product theorem]]
@@ -149,6 +157,17 @@ and more specifically see the lectures
  {#LurieLect23}
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture notes, ([pdf]  Lecture 24 _Uniqueness of Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture24.pdf))
+
+Discussion of the $E_\infty$-algebra structure over $B P$ is in
+
+* [[Andrew Baker]], _Brave new Hopf algebroids_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
+ {#Baker}
+
+based on 
+
+* [[Neil Strickland]], _Products on $MU$-modules_, Trans. Amer. Math. Soc. 351 (1999), 2569-2606.
+ {#Strickland99}
+
 
 Discussion of [[twisted cohomology|twists]] of Morava E-theory is in 
 
