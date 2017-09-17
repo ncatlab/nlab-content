@@ -375,7 +375,7 @@ With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transform
 
 +-- {: style="text-align:center"}
 [[tincan.png:pic]]
-+-- {: style="text-align:center"}
+=--
 
 We now propose our conceptual definition of Schur functor:
 
@@ -499,7 +499,7 @@ $$F: \mathbb{P}^{op} \to FinVect$$
 
 where $F(n) = 0$ for large enough $n$.  For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \cdots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
 
-So, inspired by Joyal's work on [[combinatorial species]] [ref], we make the following definition:
+So, inspired by Joyal's work on [[combinatorial species]], we make the following definition:
 
 +-- {: .un_def}
 ######Definition 
