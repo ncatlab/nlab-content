@@ -39,7 +39,7 @@ See for instance ([Benton-Bierman-de Paiva, section 3.2](#BentonBiermanPaiva)), 
  {#GeometricModality}
 
 As a special case of the [modalities-are-monads](#RelationToMonads) relation,
-a [[Grothendieck topology]] on the [[site]] underlying a [[presheaf topos]] is equivalently encoded in the [[sheafification]] [[monad]] $Sh(C) \to PSh(C) \hookrightarrow Sh(C)$ induced by the [[sheaf topos]] [[geometric embedding]].  More generally, any geometric subtopos is equivalently represented by a left-exact idempotent monad.
+a [[Grothendieck topology]] on the [[site]] underlying a [[presheaf topos]] is equivalently encoded in the [[sheafification]] [[monad]] $PSh(C) \to Sh(C) \hookrightarrow PSh(C)$ induced by the [[sheaf topos]] [[geometric embedding]].  More generally, any geometric subtopos is equivalently represented by a left-exact idempotent monad.
 
 When restricted to act on [[truncated object|(-1)-truncated objects]] (i.e. [[subterminal objects]] or more generally [[monomorphisms]]), this becomes a [[universal closure operator]].  When internalized as an operation on the [[subobject classifier]], this becomes the corresponding [[Lawvere-Tierney operator]]. This modal perspective on sheafification was maybe first made explicit by [[Bill Lawvere]]:
 
