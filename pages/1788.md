@@ -6,19 +6,34 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
+#Contents#
+* table of contents
+{:toc}
 
-$\mathbf{H}$ an [[(∞,1)-topos|∞-topos]] 
+
+### Homotopy type theory
+
+
+Consider $\mathbf{H}$ an [[(∞,1)-topos|∞-topos]], 
+that is and [[(∞,1)-category of (∞,1)-sheaves]]/[[∞-stacks]]
 
 $$
   \mathbf{H} \simeq Sh_\infty(C)
 $$
 
-[[(∞,1)-category of (∞,1)-sheaves]]/[[∞-stacks]]
-
 For instance $C = $ [[CartSp]]$_{synth}$ then $\mathbf{H} = $ [[SynthDiff∞Grpd]]. 
 
-Write $Type \in \mathbf{H}$ for the internal [[universe]] of small objects, the [[object classifier]]: defined as the representing object
-for the core of the small [[codomain fibration]]:
+Write $Type \in \mathbf{H}$ for the internal [[universe]] of small objects, the [[object classifier]]
+
++-- {: .num_defn }
+###### Definition
+
+$Type$ is the [[representable functor|representing object]]
+for the [[core]] of the [[small object|small]] [[codomain fibration]].
+
+=--
+
+The corresponding equivalence
 
 $$
   name
@@ -47,43 +62,57 @@ $$
   }
 $$
 
-an equivalent notion for this is 
+
 
 $$
   x : X \vdash E(x) : Type
 $$
 
-Notation "[[morphism|arrows]] to [[sequents]]":
+**morphisms to sequents.**
 
-| [[(∞,1)-topos theory|∞-topos theory]] | [[homotopy type theory]] |
-|--|--|
-| $X \stackrel{\vdash E}{\to} Type$  |  $x : X \vdash E(x) : Type$ |
 
+| $\,$ | [[types]] | [[terms]] |
+|--|--|--|
+| [[(∞,1)-topos theory|∞-topos theory]] | $\;\;\;\;X \stackrel{\vdash \;\;\;\;E}{\to} \;\;\Type$ | $\;\;\;\;X \stackrel{\vdash \;\;\;t}{\to} {}_X \;\;E$ |
+|[[homotopy type theory]] | $x : X \vdash E(x) : Type$ | $x : X \vdash t(x) : E(x) $ |
+
+### The Theorem
+
+Let 
+
+$$
+  \nabla : \mathbf{B}\mathbb{G}_{conn}
+  \vdash
+  X(\nabla) : Type
+$$
+
+be a [[circle n-bundle with connection]], here to be thought of 
+as a _[[prequantum n-bundle]]_.
+
+Then 
+
+$$
+  \nabla : \mathbf{B}^n \mathb{G}_{conn}
+  \vdash
+  X(\nabla) \stackrel{\simeq}{\to} X(\nabla)
+  : Type
+$$
+
+is the cohesive [[quantomorphism n-group]].
+
+
+
+### Groups
 
 $$
   Gpr(\mathbf{H}) \simeq $\mathbf{H}^{*/}_{\geq 1}$
 $$
 
-**Definition: $GrpType : Type$
-
-$$  
-  X : Type \vdash isConnected(X) : Type
 $$
-
-$$
-  X : Type \vdash isInhabited(X) : Type
-$$
-
-$$
-  \vdash 
-  GrpdType =  \sum_{A : Type} (isConnected(X) \times isInhabited(X)) 
-  : Type
-$$
-
-For instance for $\vdash \Sigma : Type$
-
-$$
-  \mathbf{B}\mathbf{Aut}(\Sigma) = Image(* \stackrel{\Sigma}{\to} Type)
+  \mathbf{B}\mathbf{Aut}(\Sigma)
+   \coloneqq 
+   \;
+  \vdash image(\vdash \Sigma) : Type
 $$
 
 $$
@@ -92,6 +121,28 @@ $$
 
 $$
   * : \mathbf{B}G \vdash V : Type
+$$
+
+
+
+the canonical action of $\mathbf{Aut}(\Sigma)$ is
+
+$$
+  \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)
+  \vdash 
+  \Sigma : Type
+$$
+
+which interprets to
+
+$$
+  \array{
+    \Sigma &\to& \Sigma\sslash \mathbf{Aut}(\Sigma) &\to& \widehat{Type}
+    \\
+    && \downarrow && \downarrow
+    \\
+    && \mathbf{B}\mathbf{Aut}(\Sigma) &\hookrightarrow& Type
+  }
 $$
 
 
@@ -132,6 +183,30 @@ $$
   x : \Gamma \vdash E(x) \to F(x) : Type
 $$
 
+**Example**
+
+An [[atlas]] is
+
+$$
+  x : X \vdash U(x) : Type
+$$
+
+such that
+
+$$ 
+  \vdash isAtlas : \prod_{x : X} isInhabited(U(x)) 
+$$
+
+**Example**
+
+Space of _bisections_ of a Lie groupoid $X$ with objects $U$
+
+$$
+  \vdash \prod_{x : X} U(x) \stackrel{\simeq}{\to} U(x) : Type
+$$
+
+**Example**
+
 Conjugation action on $[V_1,V_2]$ is
 
 $$
@@ -171,7 +246,7 @@ defining representation
 for
 
 $$
-  * : \mathbf{B} U(1) \vdash (X, \mathbf{c}_1) : Type
+  \mathbf{c}_1 : \mathbf{B} U(1) \vdash X(\mathbf{c}_1) : Type
 $$
 
 circle bundle
@@ -179,12 +254,12 @@ circle bundle
 then 
 
 $$
-  \vdash \prod_{* : \mathbf{B} U(1)} (X, \mathbf{c}_1) \to \mathbb{C} : Type
+  \vdash \prod_{\mathbf{c}_1 : \mathbf{B} U(1)} X(\mathbf{c}_1) \to \mathbb{C} : Type
 $$
 
 is space of smooth sections of the associated complex line bundle
 
-Example
+**Example**
 
 $$
   * : \mathbf{B}^2 U(1) \vdash \mathbf{B}U(n) : Type
@@ -242,9 +317,9 @@ $$
   \;\;\;
   \vdash 
   \prod_{\nabla : \mathbf{B}^n \mathbb{G}_n}
-  (X, \nabla) 
+  X(\nabla) 
      \stackrel{\simeq}{\to}
-  (X,\nabla)
+  X(\nabla)
   : Type
 $$
 
