@@ -33,6 +33,8 @@ That for the [[superstring]] the B-field is more generally a cocycle with coeffi
 
 * [[O-plane]]
 
+* [[worldsheet parity operator]]
+
 * [[type I string theory]]
 
 * [[real-oriented cohomology theory]]
