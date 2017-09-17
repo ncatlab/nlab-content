@@ -21,9 +21,12 @@
 Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of [[terms]] and [[formulas]], and has close links to the [[internal logic]] of [[categories]].
 
 
-## An introduction for category-theorists {#CategoricalSemantics}
+## An introduction for category-theorists 
+  {#CategoricalSemantics}
 
-One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the construction of [[objects]] and [[morphisms]] in a category_.  This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories:
+One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the construction of [[objects]] and [[morphisms]] in a category_.  (An introduction and historical background is for instance in [Taylor](#Taylor) [section 2](http://www.paultaylor.eu/ASD/foufct/cattype.html).) 
+
+This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories:
 
 $$ 
   Con 
@@ -95,10 +98,15 @@ In symbols:
 $$ \frac {}{ x\colon A \vdash x\colon A } $$
 
 #### Type constructors
+ {#TypeConstructors}
 
 What sorts of additional syntactical constructions you allow on types and terms corresponds to the structure of the category $\mathcal{C}$ in which the [[semantics]] is intended to occur.
 
-For example, if our semantic categories have binary [[product]]s, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$, and to build terms $\pi_1(z)$ and $\pi_2(z)$ from any term $z$ of type $A\times B$, with rules that say that $\pi_1\langle a,b\rangle = a$, $\pi_2 \langle a,b\rangle = b$, and $\langle \pi_1(z),\pi_2(z)\rangle = z$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (i.e. generalized elements), this really describes the full universal property of a categorical cartesian product.
+For example, if our semantic categories have binary [[products]], then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new [[product type]] $A\times B$ from two given types $A$ and $B$.  
+
+It will also have _term constructors_ allowing us to build, for example, a [[term]] $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$, and to build terms $\pi_1(z)$ and $\pi_2(z)$ from any term $z$ of type $A\times B$, with rules that say that $\pi_1\langle a,b\rangle = a$, $\pi_2 \langle a,b\rangle = b$, and $\langle \pi_1(z),\pi_2(z)\rangle = z$.  
+
+Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (i.e. generalized elements), this really describes the full universal property of a categorical cartesian product.
 
 #### Dependent types
 
@@ -506,6 +514,10 @@ Discussion of type theory in the context of programming languages includes
 
 * [[Benjamin Pierce]], _Types and Programming Languages_, [book page](http://www.cis.upenn.edu/~bcpierce/tapl/index.html)
 
+Discussion aimed at [[foundations]] include
+
+* [[Paul Taylor]], _Foundations for computable topology_ ([web](http://www.paultaylor.eu/ASD/foufct/abstract.html))
+ {#Taylor}
 
 Discussion aimed towards [[homotopy type theory]] includes
 
