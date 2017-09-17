@@ -1445,6 +1445,7 @@ In this fashion one can now in principle climb higher up the dimensional ladder 
 
 (Next interesting along these lines might be the holographic motivic quantization analogously of the [[Yang monopole]] at the boundary of the [[M5-brane]] ending on the [[M9-brane]]. )
 
+
 The earliest and by far best understood example of the [[holographic principle]] is the [[AdS3-CFT2 and CS-WZW correspondence]] between the [[WZW model]] on a [[Lie group]] $G$ and 3d $G$-[[Chern-Simons theory]].
 
 In ([Witten 98](7d+Chern-Simons+theory#Witten98)) it is argued that all examples of the [[AdS-CFT duality]] are governed by the [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] terms on the gravity side, hence that the corresponding conformal theories are higher analogs of the WZW model: [[schreiber:∞-Wess-Zumino-Witten theory]]-type models.
@@ -1532,6 +1533,49 @@ $$
   }
   \,.
 $$
+
+This uses the following general fact about how [[local action functionals]] $\mathbf{Fields} \longrightarrow \mathbf{B}^n U(1)_{conn}$ are themselves boundary conditions for what one might call _universal higher [[topological Yang-Mills theory]]_ ([Nuiten-Schreiber 13](#lpqft)), the theory given by the local action functional
+
+$$
+  \exp(i S_{tYM})
+  \;\colon\;
+  \mathbf{Fields}_{tYM} = \Omega^{n+1}_{cl}
+  \longrightarrow 
+  \flat \mathbf{B}^{n+1}U(1)
+  \,,
+$$
+
+which is just the canonical inclusion of closed differential $(n+1)$-forms into the universal moduli stack of flat [[circle n-bundle with connection|circle (n+1)-bundles with connection]]. By the [[universal property]] of [[ordinary differential cohomology]] one finds that boundary conditions for this somewhat degenerate theory are precisely differential cocycles:
+
+$$
+  \array{   
+    && \mathbf{Fields}_{boundary}
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \Omega_{cl}^{n+1}
+    \\
+    & \searrow && \swarrow
+    \\
+   && \flat \mathbf{B}^{n+1}U(1)
+  }
+  \;\;\;
+  \simeq
+  \;\;\;
+  \array{   
+    && \mathbf{Fields}_{boundary}
+    \\
+    & \swarrow &\downarrow^{\exp(i S_{bdr})}& \searrow
+    \\
+    \ast &\leftarrow& \mathbf{B}^n U(1)_{conn} &\stackrel{F_{(-)}}{\to}& \Omega_{cl}^{n+1}
+    \\
+    & \searrow && \swarrow
+    \\
+   && \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,.
+$$
+
 
 One then shows ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)) that for $\mu$ the exceptional  cocycles on the [[super Poincare Lie algebra]] and their higher extensions such as notably the [[supergravity Lie 3-algebra]] and [[supergravity Lie 6-algebra]],
 that the [[schreiber:∞-Wess-Zumino-Witten theory]] models obtained this way reproduce the [[Green-Schwarz action functional]] "old [[brane scan]]" including for instance the [[heterotic string]] [[sigma-model]] and the [[M2-brane]] [[sigma-model]], and also encodes the branes with tensor multiplet fields such as the [[D-branes]] and the single (abelian) [[M5-brane]].
