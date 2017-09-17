@@ -4,4 +4,12 @@ Such examples can be founded axiomatically as kind of extensions of the simplex 
 * Z. Fiedorowicz, Jean-Louis Loday, _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855)
 * R. Krasauskas, _Skew-simplicial groups_ (Russian) Litovsk. Mat. Sb.  __27__ (1987),  no. 1, 89--99, [MR88m:18022](http://www.ams.org/mathscinet-getitem?mr=88m:18022) (English transl. [[krasauskas.pdf:file]])
 
-[[!redirects skew-simplicial group]] [[!redirects skew-simplicial sets]][[!redirects skew-simplicial groups]] [[!redirects crossed simplicial group]] [[!redirects crossed simplicial groups]]
+
+[[!redirects skew-simplicial set]]
+[[!redirects skew-simplicial sets]]
+[[!redirects crossed simplicial set]]
+[[!redirects crossed simplicial sets]]
+[[!redirects skew-simplicial group]]
+[[!redirects skew-simplicial groups]]
+[[!redirects crossed simplicial group]]
+[[!redirects crossed simplicial groups]]
