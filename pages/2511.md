@@ -1,5 +1,11 @@
-[[!redirects Pietro Fre]]
 
 * [website](http://personalpages.to.infn.it/~fre/)
 
+## Related entries
+
+* [[D'Auria-Fre formulation of supergravity]]
+
+
 category: people
+
+[[!redirects Pietro Fre]]
