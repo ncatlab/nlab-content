@@ -23,9 +23,9 @@ $$ EAC \Leftrightarrow (IAC \;\text{ and }\; SS).$$
 
 ### In set theory
 
-If we assume [[excluded middle]], then supports split in the category [[Set]].  This has nothing to do with the foundational [[axiom of choice]]; it is more like [[well-pointed category|well-pointedness]].  Note, however, that to say there is a *function* assigning to every $X$ a section of $X\to {\Vert X \Vert}$ is much stronger: such a function is a global [[choice operator]].
+If we assume [[excluded middle]], then supports split in the category [[Set]].  This has little to do with the foundational [[axiom of choice]]; it is more like [[well-pointed category|well-pointedness]].  Note, however, that to say there is a *function* assigning to every $X$ a section of $X\to {\Vert X \Vert}$ is much stronger: such a function is a global [[choice operator]].
 
-In [[constructive mathematics]], however, it may not be true that all supports split in Set; this can fail in the [[internal logic]] of some [[toposes]].  (Note that the "internal" version of "supports split in Set" in a topos may not be the same as the statement that supports split as an external statement about the topos itself.)  See [(Fourman-Scedrov)](#FourmanScedrov) and [(KECA)](#KECA).
+In [[constructive mathematics]], however, it may not be true that all supports split in Set; this can fail in the [[internal logic]] of some [[toposes]].  (Note that the "internal" version of "supports split in Set" in a topos may not be the same as the statement that supports split as an external statement about the topos itself.)  See [(Fourman-Scedrov)](#FourmanScedrov) and [(KECA)](#KECA).  Thus, splitting of supports can be regarded as a weaker form of [[excluded middle]].
 
 
 ### In (homotopy) type theory
