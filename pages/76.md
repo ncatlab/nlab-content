@@ -88,6 +88,8 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 * [[equivariant homotopy theory]]
 
+* [[chromatic homotopy theory]]
+
 * [[algebraic homotopy]]: In his talk at the 1950 ICM in Harvard, [[Henry Whitehead]] introduced the idea of [[algebraic homotopy]] theory and said
 
 _"The ultimate aim of algebraic homotopy is to construct a purely
