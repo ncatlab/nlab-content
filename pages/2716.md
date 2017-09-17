@@ -169,8 +169,19 @@ A $2$-symplectic manifold encodes and is encoded by the structure of a [[Courant
 
 A Courant 2algebroid over the point if given by a [[semisimple Lie algebra]] with the symplectic form being the [[Killing form]]. The coresponding Poisson tensor is the canonical 3-cocycle $\langle -, [-,-] \rangle$ on a semisimple Lie algebra. The extension classified by this is the [[string Lie 2-algebra]].
 
+## Relation to other concepts
 
-## Relation to multisymplectic geometry
+### To $\infty$-Chern-Simons theory
+
+Since the symplectic form on a symplectic Lie $n$-Algebroid may be understood [[Lie theory|Lie theoretically]] as an [[invariant polynomial]] on an [[L-∞ algebroid]], every symplectic Lie $n$-algebroid serves as a [[target space]] for an [[schreiber:∞-Chern-Simons theory]]: this is [[AKSZ theory]]. 
+
+We have
+
+* for $n = 1$ the [[Poisson sigma-model]];
+* for $n = 2$ the [[Courant sigma model]]
+* and so on.
+
+### To multisymplectic geometry
 
 There is also the closely related notion  of [[multisymplectic geometry]]. See 
 
@@ -184,6 +195,8 @@ An article with more details on this:
 
 
 ## Related concepts
+
+* [[L-∞ algebroid]]
 
 * [[symplectic groupoid]]
 
