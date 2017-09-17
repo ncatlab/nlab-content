@@ -51,5 +51,8 @@ Discussion of the [[duality between F-theory and heterotic string theory]] for c
 
 * {#Donagi98} [[Ron Donagi]], _ICMP lecture on heterotic/F-theory duality_ ([arXiv:hep-th/9802093](http://arxiv.org/abs/hep-th/9802093))
 
+* {#DonagiMarkman95} [[Ron Donagi]], [[Eyal Markman]], _Spectral curves, algebraically completely integrable Hamiltonian systems, and moduli of bundles_ ([arXiv:alg-geom/9507017](http://arxiv.org/abs/alg-geom/9507017))
+
+
 [[!redirects F/M-theory on CY4]]
 [[!redirects F-theory on CY4]]
