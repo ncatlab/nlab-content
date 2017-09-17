@@ -207,7 +207,7 @@ It is noteworthy that the notions of generalized gauge groups and the generalize
 
 There is a natural mathematical concept that serves to describe contexts of such [[nLab:space|generalized space]]s: a [[nLab:gros topos|gros]] [[(∞,1)-topos]]. The notion of [[schreiber:differential cohomology in an (∞,1)-topos]] provides a unifying perspective on the mathematical structure encoding the generalized [[gauge field]]s and generalized [[spacetime]] models encountered in modern theoretical physics in such a general context.
 
-#### Classes of examples
+#### Classes of examples {#ClassesOfExamples}
 
 We discuss classes of examples of gauge theories that have been considered. 
 For all of these the configuration space is a space of 
@@ -230,7 +230,7 @@ where
 * $F_\nabla$ is the [[curvature]] [[differential form]], 
 
 * "$\star$" the [[Hodge star]] operator with respect to a fixed
-([[pseudo Riemannian manifold|pseudo]]-)[[Riemannian metric]]-structure
+([[pseudo-Riemannian manifold|pseudo]]-)[[Riemannian metric]]-structure
 on $X$ 
 
 * and $\langle -\rangle$ some [[invariant polynomial]].
@@ -285,7 +285,7 @@ $ CS(\nabla) : \mathbf{B}G_{diff} \to \mathbf{B}^n U(1)_{diff}$ induced by the g
 
 * For $\mathfrak{a}$ a [[semisimple Lie algebra]] equipped with its degree 8 [[invariant polynomial]] this yields 7-dimensional, whose action functional may be understood as  the [[higher parallel transport]] of a [[Chern-Simons circle 7-bundle]] with connection.
 
-* For $\mathfrak{a}$ a [[symplectic Lie n-algebroids]] equipped with its canonical [[invariant polynomial]] $\omega$ of degree $n+2$ $\int_X CS_\omega(-)$ is the actional functional of [[AKSZ theory]]:
+* For $\mathfrak{a}$ a [[symplectic Lie n-algebroid]] equipped with its canonical [[invariant polynomial]] $\omega$ of degree $n+2$ $\int_X CS_\omega(-)$ is the actional functional of [[AKSZ theory]]:
 
   * for $n = 1$ this is the [[Poisson sigma-model]];
 
@@ -295,32 +295,47 @@ $ CS(\nabla) : \mathbf{B}G_{diff} \to \mathbf{B}^n U(1)_{diff}$ induced by the g
 
 ##### Gravity
 
-The configuration spaces of [[gravity]] and [[supergravity]] may be identified with spaces of [[connections on ∞-bundles]] with gauge group a variant of the [[Poincare group]]. This parameterization of the configuration space of gravity is known as the [[first order formulation of gravity]]. 
+The configuration spaces of [[gravity]] and [[supergravity]] may be identified with spaces of [[connections on ∞-bundles]] with gauge group a variant of the [[Poincare group]]. This parameterization of the configuration space of gravity is known as the [[first order formulation of gravity]], to be contrasted with a formulation explicitly over a space of [[pseudo-Riemannian manifold]]s. 
 
-* The [[special orthogonal group]]-component of the connection in this case is called the [[spin connection]];
+* The [[special orthogonal group]] $S O$-component of the connection in this case is called the [[spin connection]];
 
 * the translation group-component of $\nable$ is called the [[vielbein]].
 
 For the ordinary Poincare group this yields the [[Palatini action]] expression for the standard [[Einstein-Hilbert action]] of [[general relativity]].
 
-We may lift here successively the [[special orthogonal group]] $S O$ through its <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#SmoothWhitehead">smooth Whitehead tower</a>
+In contrast to the $\infty$-Chern-Simons theory discussed above, the general abstract nature, if any, of the action functional for gravity remains somewhat inconclusive and subject of a plethora of speculations. If one passes from connections to their associated [[Dirac operator]]s and interprets these as parts of a [[spectral triple]] there is the [[spectral action]] functional on the space of spectral triples. This we discuss in more detail [below](SpecStandModAndGravity).
 
-* The familiar theory of smooth [[spin group|Spin(n)]]-[[principal bundle]]s [[connection on a bundle|with connnection]] has a motivation from the [[physics]] of quantum point particles such as electrons: for the [[quantum mechanics]] of a spinning point particle to be free of an obstruction called an [[quantum anomaly|anomalous]] [[action functional]], the target space it propagates in has to admit a [[spin structure]]. Then the dynamics of the particle is encoded in a smooth differential refinement of the corresponding
-topological $Spin(n)$-[[principal bundle]] to a smooth [[connection on a bundle|bundle with connection]].
+There are various higher [[group extension]]s of the Poincare group and the orthonromal group that lead accordingly to higher order variations of gravity.
 
-  It has been known since work by Killingback and [[Edward Witten|Witten]] that when this is generalized to the quantum mechanics of a spinning 1-dimensional object -- a [[string theory|quantum string]]  -- , the spin-structure of the space has to lift further to a [[string structure]], where the [[string group]] $String(n)$ is the universal 3-connected cover of $Spin(n)$. Contrary to the spin-group, the string-group cannot be refined to a (finite dimensional) [[Lie group]]. Therefore the question arises:  what is a smooth differential refinement of a string-principal bundle, that encodes the dynamics of these 1-dimensional objects?
+* lifting $S O$-connections through the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#SmoothWhitehead">smooth Whitehead tower</a>
 
-  It turns out that this has a nice answer not in ordinary
-[[differential geometry]], but in _[[nLab:higher geometry|higher]]_ or _[[derived geometry|derived]]_ differential
-geometry: $String(n)$ naturally has the structure of a [[Lie 2-group]]. This allows to refine a topological String-principal bundle to a generalization of a differentiable nonabelian [[gerbe]]: a smooth [[principal 2-bundle]]. 
+  $$
+    \cdots \to Fivebrane \to String \to Spin \to S O \to O
+  $$
 
-The more or less explicit formulation of [[supergravity]] is a higher gauge theory with gauge group a super Lie $n$-group is known as the
+  yields, in order of appearance,
 
-* [[D'Auria-Fre formulation of supergravity]].
+  * [[spin structure]]s and [[spin group]]-[[principal bundle]]s with [[connection on a bundle|connection]]. 
 
-For instance 11-dimensional supergravity is a gauge theory for the
+    This lift is necessary to cancel the [[quantum anomaly]] of 
+    spinning particles coupled to gravity;
 
-* [[supergravity Lie 6-algebra]]
+  * [[string structure]]s and [[string 2-group]]-[[principal 2-bundle]]s
+    with [[connection on a 2-bundle|2-connection]]
+
+    This lift is necessary to cancel the quantum anomaly of heterotic super[[string theory|string]]s;
+
+  * [[fivebrane structure]]s and [[fivebrane 6-group]]-[[principal ∞-bundle|principal 6-bundle]] with [[connection on an ∞-bundle|6-connection]]
+
+  This lift is necessary to cancel the quantum anomaly of [[brane|super 5-brane]]s.
+
+* lifting to [[super Lie group]] extensions of $SO$ yields 
+  action functionals for [[supergravity]]
+
+  The [[D'Auria-Fre formulation of supergravity]] explicitly describes higher dimensional supergravity theories as gauge theories with higher super Lie structure groups
+
+  * 11-dimensional supergravity is a gauge theory for the [[supergravity Lie 6-algebra]].
+
 
 ### Phenomenological models: the standard model and gravity
 
