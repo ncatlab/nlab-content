@@ -50,17 +50,30 @@ Hence abelianization is the _[[free construction]]_ of an abelian group from a g
 
 A [[free abelian group]] on a set $S$ is the abelianization of the [[free group]] on $S$.
 
-Hence if $F \colon Set \to Grp$ is the [[free group]]-functor and $F_{Ab} \colon Set \to Ab$ is the [[free abelian group]] functor, then 
+In other words, if $F \colon Set \to Grp$ is the [[free group]]-functor and $F_{Ab} \colon Set \to Ab$ is the [[free abelian group]] functor, then 
 
 $$
   \array{
     Set &&\stackrel{F_{ab}}{\to}&& Ab
     \\
-    & {}_{\mathllap{F}}\searrow && \nearrow_{\mathrlap{(-)^{ab}}}
+    & {}_{\mathllap{F_{grp}}}\searrow && \nearrow_{\mathrlap{(-)^{ab}}}
     \\
     && Grp
   }
-  \,.
+$$ 
+
+commutes up to isomorphism. This is because we have a corresponding commutative diagram of forgetful functors 
+
 $$
+  \array{
+    Set &&\stackrel{U_{ab}}{\leftarrow}&& Ab
+    \\
+    & {}_{\mathllap{U_{grp}}}\nwarrow && \swarrow_{\mathrlap{U}}
+    \\
+    && Grp
+  }
+$$ 
+
+and $(-)^{ab} \circ F_{grp}$ is left adjoint to $U_{grp} \circ U$. 
 
 [[!redirects abelianizations]]
