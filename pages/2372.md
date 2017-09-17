@@ -1,9 +1,15 @@
 
 +-- {: .standout}
-rough notes from a talk for the moment -- **raw material** to be polished
+rough notes from a talk by [[Bruno Valette]] -- **raw material** to be polished
 =--
 
-[[homotopy theory]] for $A_\infty$-[[A-infinity algebra|algebras]]
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Homotopy theory for $A_\infty$-algebras
+
+**[[homotopy theory]] for $A_\infty$-[[A-infinity algebra|algebras]]**
 
 
 for $V$ a complex with the structure of an $A_\infty$-[[A-infinity algebra|algebra]] and for $V \to W$ a morphism of chain cmoplexes, we get an induced $A_\infty$-structure on $W$.
@@ -57,7 +63,7 @@ It is generated of course from the product operation and the bracket operation m
 These relations are always encoded in _quadratic_ expressions. 
 
 
-## Koszul duality theory for operads ##
+### Koszul duality theory for operads 
 
 the dual notion of [[operad]] is that of [[cooperad]] (reverse all arrows)
 
@@ -154,7 +160,7 @@ Add a suitable differential $d_1 : qBV' \to qBV'$.
 =--
 
 
-## Koszul duality theory ##
+### Koszul duality theory 
 
 Let $P = F(V)/(R)$ be a quadratic and linear presentation of a dg-operad
 
@@ -215,7 +221,7 @@ A **$BV_\infty$-algebra** is an algebra over this cofibrant replacement for the 
 =--
 
 
-## Comparison to other definitions ##
+### Comparison to other definitions 
 
 Another definition of homotopy BV-algebra by Kravchenko -- this turns out to be a special case of the definition here by setting some operations to $0$ (her algebra is not an algebra over a cofibrant operad).
 
@@ -224,7 +230,7 @@ Another definition by Tamarkin--Tsygan: this is more general than the one here. 
 The notion here also difers from that in Beilinson--Drinfeld.
 
 
-## PBW isomorphism ##
+### PBW isomorphism 
 
 The free operad $F(V)$ is filtered $\Rightarrow P = F(V)/(R)$ is filtered. There is then a morphism of operads $q P \to gr P$.
 
@@ -244,7 +250,7 @@ $$
 =--
 
 
-## Relation with framed little disks ##
+### Relation with framed little disks 
 
 Let $dD$ be the [[framed little disk operad]]; then:
 
@@ -257,7 +263,7 @@ $fD$ is formal, i.e. quasi-isomorphic by zig-zags to its homology
 =--
 
 
-## Relation with TCFT ##
+### Relation with TCFT 
 
 A [[topological conformal field theory]] is an algebra over the [[PROP]] $C_\bullet(\mathcal{R})$ of [[Riemann surface]]s.
 
@@ -267,10 +273,10 @@ Any [[TCFT]] carries a homotopy BV-algebra structure which lifts the [[BV-algebr
 =--
 
 
-## Homotopy theory for $P_\infty$ algebras ##
+### Homotopy theory for $P_\infty$ algebras 
 
 
-## Deformation theory ##
+### Deformation theory 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -283,6 +289,17 @@ In some sense homotopy BV is a formal extension of homotopy Gerstenhaber.
 
 For any [[topological vertex algebra]] $A$ with $\mathbb{N}$-graded conformal weight there exists an expliciit $BV_\infty$-algebra structure on $A$ which extends Lian--Zuckermann operations on $A$ and which lifts the [[BV-algebra]] structure on $H(A)$.
 =--
+
+## References
+
+The above material probably roughly follows the talk slides
+
+* [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebra_ ([pdf](http://math.unice.fr/~brunov/download/Homotopy%20BV.pdf))
+
+The corresponding article is
+
+* [[Imma Galvez-Carrillo]], [[Andy Tonks]], [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_ ([arXiv:0907.2246](http://arxiv.org/abs/0907.2246))
+
 
 
 [[!redirects homotopy BV algebra]]
