@@ -61,7 +61,7 @@ In fact, the classical "nerve theorem" about the [[Segal conditions]] says that 
 
 Notice that $Equiv(N(\mathcal{C})_1) \hookrightarrow N(\mathcal{C})_1$ is precisely the [[subset]] of [[isomorphisms]] in all [[morphisms]] of $\mathcal{C}$.
 
-Therefore under this identification, $N(\mathcal{C})$ is a [[complete Segal space]] precisely if the only isomorphisms in $\mathcal{C}$ are the [[identities]]. 
+Therefore under this identification, $N(\mathcal{C})$ is a [[complete Segal space]] precisely if $\mathcal{C}$ is a [[gaunt category]], hence precisely if the only isomorphisms in $\mathcal{C}$ are the [[identities]]. 
 
 In particular if $\mathcal{C}$ is a [[(0,1)-category]], hence a [[preordered set]], then $N(\mathcal{C})$ is complete Segal precisely if $\mathcal{C}$ is in fact an [[partially ordered set]].
 
