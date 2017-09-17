@@ -1,0 +1,8 @@
+
+* [webpage](http://www.normalesup.org/~ara/)
+
+## related entries
+
+* [[Grothendieck-Maltsiniotis infinity-category]]
+
+category: people
