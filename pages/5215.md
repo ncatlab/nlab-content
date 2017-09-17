@@ -51,5 +51,25 @@ $S5_{(m)}\vdash \phi \Rightarrow \mathcal{S}5(m)\models \phi.$
 (We show this for $m = 1$.)
 We have already shown (here in [[the logic S4(m)]]) that the older axioms $T$ and $(4)$ hold so it remains to show if we have a frame, $\mathfrak{M}= ((W,R),V)$, where $R$ is an equivalence relation on $W$ then $\mathfrak{M}\models B$.
 
+We suppose the we have a state $w$ so that $\mathfrak{W},w \models p$.  Now we need to find out if $\mathfrak{W},w \models K M p$, so we note that 
 
+(i) $\mathfrak{W},w \models K M p$ if and only if $\forall u$ with $R w u$, $$\mathfrak{W},u \models M p$, but
+
+(ii) that holds if $\forall u$ with $R w u$, there is some $v$  with $R u v$ and $\mathfrak{W},v \models   p$.
+
+However whatever $u$ we have with $R w u$, we have $R u w$ as $R$ is symmetric, and we know, by assumption, that  $\mathfrak{W},w \models p$, so we have what we need.
 =--
+
+
+## References## 
+
+
+More on $S5$, $S5_{(m)}$ and their applications in Artificial Intelligence can be found in
+
+* J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995.
+
+General books on modal logics which treat  these logics thoroughly in the general context include e
+
+* [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
+
+* [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
