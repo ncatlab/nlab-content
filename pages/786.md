@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
