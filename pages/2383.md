@@ -7,7 +7,7 @@
 
 A _formally smooth scheme_ is a [[scheme]] $X$ with the property that every map into it admits an _[[infinitesimal space|infinitesimal]] lift_ :
 
-for any "test space", i.e. an [[affine scheme]] $U=Spec(A)$ with underlying reduced scheme $Red(U)$ (obtained from $U$ by removing all [[infinitesimal space|infinitesimal]] directions, compare [[formal scheme]]) every map $Red(U) \to X$ lifts to a map $U \to X$. 
+for any "test space", i.e. an [[affine scheme]] $U=Spec(A)$ with underlying [[reduced scheme]] $Red(U)$ (obtained from $U$ by removing all [[infinitesimal space|infinitesimal]] directions, compare [[formal scheme]]) every map $Red(U) \to X$ lifts to a map $U \to X$. 
 
 Similarly, one can talk about formally smooth [[algebraic spaces]], [[algebraic stacks]] and so on.
 
