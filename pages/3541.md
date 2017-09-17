@@ -116,7 +116,13 @@ Notice that the identity map is clearly completely positive and trace preserving
 See also [[extremal quantum channels]] and [[graphical quantum channels]].
 
 
-## Example
+## Examples
+
+### Quantum measurement and POVMs
+
+A [[quantum measurement]] is formally represented by a quantum operation that is induced by a [[positive-operator valued probability measure]] (POVM).
+
+### Systems in a bath
 
 A very common example of this formalism comes from its use in [[open quantum systems]], that is systems that are coupled to an environment.  Let $\rho$ be the state of some quantum system and $\rho_{env}$ be the state of the environment.  The action of a unitary transformation, $U$, on the system is
 
