@@ -1,17 +1,19 @@
+
 # The Anonymous Coward
 * table of contents
 {: toc}
 
-
 The **Anonymous Coward** is the default username for editing [[nLab:HomePage|this wiki]], assigned by the software. So if somebody edits the wiki without signing in, then their edits will be attributed to the _Anonymous Coward_ .  A few jokers have changed 'AnonymousCoward' to something different but equally anonymous ... which is OK too.
 
-However, people who *really* want to be anonymous should know that every editor\'s IP address is listed in the entry's history (found by clicking _history_ at the bottom of any page).
+However, people who *really* want to be anonymous should know that every editor\'s IP address is listed (usually) in the entry's history (found by clicking _history_ at the bottom of any page).
+
 
 category: meta
 
 [[!redirects AnonymousCoward]]
 [[!redirects Anonymous]]
 [[!redirects Anonymous Coward]]
+[[!redirects Anonymous coward]]
 [[!redirects AnotherAnonymousCoward]]
 [[!redirects InterestedAnonymousCoward]]
 [[!redirects Anonymous Hero]]
