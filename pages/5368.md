@@ -61,6 +61,8 @@ This appears as ([Hinich, theorem 4.1.1](#Hnich)).
 
 We discuss how the [above model structure](#ModelStructure) on $Alg_{Ch_\bullet(k)}(P)$ is enhanced to a [[simplicial model category]] structure.
 
+we have the standard definition of polynomial [[differential forms on simplices]].
+
 +-- {: .un_defn}
 ###### Definition
 
@@ -79,22 +81,38 @@ with the differential the usual de Rham differential under the embedding $\Omega
 For $f : [k] \to [l]$ a [[morphism]] in the [[simplex category]] let
 
 $$
-  \Omega^\bullet_{poly}(f) : \Omega^\bullet_{poly}(\Delta^k) \to \Omega^\bullet_{poly}(\Delta^l)
+  \Omega^\bullet_{poly}(f) : \Omega^\bullet_{poly}(\Delta^l) \to \Omega^\bullet_{poly}(\Delta^k)
 $$
 
 be the morphism of dg-algebras given on generators by 
 
 $$
   \Omega^\bullet_{poly}(f) : t_i \mapsto \sum_{f(j) = i} t_j
-  \,..
+  \,.
 $$
 
 This yields a [[simplicial object|simplicial]] commutative dg-algebra
 
 $$
-  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta \to cdgAlg_k
-  \,.
+  \Omega^\bullet_{poly}(\Delta^{(-)}) : \Delta^{op} \to cdgAlg_k
 $$
+
+or equivalently a [[cosimplicial object]] in the [[opposite category]] $cdgAlg_k^{op}$.
+
+By the general definition of [[simplicial forms on presheaves]] this extends by left [[Kan extension]] to a functor
+
+$$
+  \Omega^\bullet_{poly} : sSet \to cdgAlg_k^{op}
+$$
+
+given by
+
+$$
+  \Omega^\bullet_{poly}(S) = \int^{[k]\in \Delta} S_k \cdot \Omega^\bullet_{poly}(\Delta^k)
+  \,, 
+$$
+
+where on the right be have the [[coend]] over the [[copowering]] of $cdgAlg_k^{op}$ over [[Set]].
 
 =--
 
@@ -111,14 +129,17 @@ $$
  
 =--
 
+
+
 +-- {: .un_prop}
 ###### Proposition
 
-With the [above model structure](#ModelStructure) and the [above simplicial enrichment](#SimplicialEnrichment), $Alg_{Ch_\bullet(K)}(P)$ becomes a [[simplicial model category]].
+These simplicial hom-objects satisfy the axioms of a [[simplicial model category]].
 
 =--
 
 This is ([Hinich, lemma 4.8.4](#Hinich)).
+
 
 ## Related concepts
 
