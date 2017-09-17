@@ -31,7 +31,11 @@ $$
   \exists x \in X
 $$
 
-This is equivalent to saying that the unique map $X \to 1$ is an [[epimorphism]] (or a [[regular epimorphism]], in a [[regular category]]).  The term **well-supported** is also used for this notion (in general, the [[support]] of $X$ is the [[image]] of $X\to 1$).
+This is equivalent to saying that the unique map $X \to 1$ is an [[epimorphism]]. In a topos this is equivalent to it being a [[regular epimorphism]] and this is the condition for inhabited in any [[regular category]]).  
+
+The term **well-supported** is also used for this notion (in general, the [[support]] of $X$ is the [[image]] of $X\to 1$).
+
+In terms of [[(∞,1)-category theory]], inhabited means _[[(-1)-connected]]_.
 
 On the other hand, $X$ is said to be **externally** or **globally inhabited** if there exists a morphism $1\to X$, i.e. a [[global element]].  Every globally inhabited object is internally inhabited, since every [[split epimorphism]] is a regular epimorphism.  The converse is true if $1$ is [[projective object|projective]], as is the case in a [[well-pointed topos]] (such as [[Set]]).
 
