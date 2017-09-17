@@ -1,9 +1,15 @@
-The general idea of completion is that given an object of some sort $C$, we construct from it a larger object, containing $C$ as a subobject, which moreover has certain properties that $C$ might have lacked.  This larger object is then called the _completion_ of $C$ with respect to these properties.
 
+# Completions
 * table of contents
 {:toc}
 
-# Completion and idempotence
+
+## Idea
+
+The general idea of completion is that given an object of some sort $C$, we construct from it a larger object, containing $C$ as a subobject, which moreover has certain properties that $C$ might have lacked.  This larger object is then called the _completion_ of $C$ with respect to these properties.
+
+
+## Completion and idempotence
 
 Outside of category theory (see below), "completion" is usually used mostly for *idempotent* operations.  That is, the completion of a thing with respect to some property is itself *complete* with respect to that property, and the completion process doesn't change an object that is already complete.  From the perspective of [[stuff, structure, property]] this makes sense because we complete with respect to a *property*.  Namely, according to the yoga of SSP, given some ambient category $K$, the subcategory of objects having a property $P$ should be a *full* subcategory, whose inclusion [[functor]] forgets that property.  A "completion" operation is then usually a left (or, occasionally, right) [[adjoint functor|adjoint]] to that inclusion functor, making the category of objects with property $P$ [[reflective subcategory|reflective]] (or coreflective).  Note that a [[full and faithful functor]] with a left adjoint is always [[monadic functor|monadic]] and the monad is [[idempotent monad|idempotent]].
 
@@ -11,11 +17,12 @@ By contrast, when we add *structure* to objects, i.e. we consider an adjoint to 
 
 Additionally, we tend to use the term 'completion' only for a [[faithful functor|faithful]] [[reflector]].  Note that the reflector is faithful if and only if the unit of the reflection is [[monomorphism|monic]]; we might even want to require it to be a [[regular monomorphism]].  For example, the left adjoint of the forgetful functor from [[abelian groups]] to groups is called 'abelianisation' and may even be called 'free abelian group on a group' but is not normally called 'abelian completion' or anything like that. (The tendency in such cases is rather to resort to suffixes like "-ification" and "-ization": sheafification, abelianization, localization.) This fits with the intuition that a completion "adds more stuff" to the object we started with in order to "make it complete".
 
-# List of completions
+
+## List of completions
 
 * [[complete space|Cauchy completion]] of a [[metric space]], or more generally a [[uniform space]]
 
-* [[Dedekind completion]] of a [[linear order]] (or sometimes a more general [[preorder]])
+* [[Dedekind completion]] of a [[linear order]] (or sometimes a more general [[preorder]] or [[quasiorder]])
 
 * [[MacNeille completion]] of a partially ordered set
 
@@ -48,7 +55,8 @@ Cauchy completion of a metric space is, of course, an instance of Cauchy complet
 [[Mike Shulman]]: I think the reason that completion of metric spaces and uniform spaces feels more like the completion of sets (than categories) is that they are basically (enriched) (0,1)-categories.  If the question is where to separate this list from the one below, I would put completions of anything enriched in a preorder up here, and completions of things enriched non-posetally below.
 =--
 
-# Free completion and lax-idempotence
+
+## Free completion and lax-idempotence
 
 The general contrast between "completion" for adding a property and "free" for adding structure applies to operations on [[category|categories]] as well.  For instance, since [[split idempotents]] are preserved by any functor, the 2-category of categories with split idempotents is a full sub-2-category of [[Cat]].  Therefore, it makes perfect sense to call the left adjoint of its inclusion a "completion," in this case the (Set-enriched) [[Cauchy completion]] or [[Karoubi envelope]].  By contrast, the forgetful functor from the 2-category of [[monoidal categories]] to $Cat$ forgets structure, rather than properties, so its left adjoint should be called a "free" construction rather than a "completion."
 
@@ -56,9 +64,10 @@ However, in this case there is an intermediate notion between properties and str
 
 Property-like structure is most common in category theory, but it does occur elsewhere as well.  For instance, a [[monoid]] is a [[semigroup]] with property-like structure: a semigroup has at most one identity element, but that identity element is not necessarily preserved by semigroup homomorphisms.  Thus the adjoining of a new formal identity element to a semigroup (which is not an idempotent operation) might be called its "free completion into a monoid".  Notice that if the original semigroup is already a monoid, then its free completion into a monoid will be a *different* monoid (with a new identity); this shows the distinction between free completion and mere completion.
 
-# List of completions in category theory
 
-## Idempotent completions
+## List of completions in category theory
+
+### Idempotent completions
 
 The following completions add a *property* in the strictest sense, and as such are idempotent.
 
@@ -67,7 +76,8 @@ The following completions add a *property* in the strictest sense, and as such a
 * [[extensive category|extensive]] completion
 * [[pretopos]] completion of a [[coherent category]]
 
-## Non-idempotent completions
+
+### Non-idempotent completions
 
 These completions add a property-like structure, are often lax-idempotent or colax-idempotent.
 
