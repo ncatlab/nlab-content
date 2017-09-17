@@ -17,7 +17,7 @@
 
 ## Idea
 
-__Berkovich analytic spaces__ are a version of [[analytic space]]s over [[nonarchimedean fields]]. Unlike the _rigid analytic spaces_ (see [[rigid analytic geometry]]) of Tate, which are locally defined via [[maximal spectra]] of Tate algebras glued via rigidified Grothendieck topology, the Berkovich analytic spaces are defined with respect to the [[analytic spectrum]], due to [[Vladimir Berkovich]]; this spectrum can be viewed as consisting of the data of prime ideal plus the extension of the norm to the residue field; thus the Berkovich spectrum has far more points (though fewer than, say, [[Huber's adic spaces]] which may also contain valuations of higher order). 
+__Berkovich analytic spaces__ are a version of [[analytic space]]s over [[nonarchimedean fields]]. Unlike the _rigid analytic spaces_ (see [[rigid analytic geometry]]) of Tate, which are locally defined via [[maximal spectra]] of Tate algebras glued via the [[Grothendieck topology|Grothendieck]] [[G-topology]], the Berkovich analytic spaces are actual [[topological space]] equipped with a cover by [[affinoid domains]] via the [[analytic spectrum]] construction, due to [[Vladimir Berkovich]]. This spectrum can be viewed as consisting of the data of prime ideal plus the extension of the norm to the residue field; thus the Berkovich spectrum has far more points (though fewer than, say, [[Huber's adic spaces]] which may also contain valuations of higher order). 
 
 For more background see _[[analytic geometry]]_.
 
