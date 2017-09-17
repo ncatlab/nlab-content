@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+=--
+=--
 
 # Spherical categories
 * automatic table of contents goes here
@@ -16,6 +22,14 @@ A _spherical category_ is a  [[monoidal category]] with [[dualizable object|dual
 
 A **spherical category** is a [[pivotal category]] where the left and right [[trace]] operations coincide on all objects.
 
+
+## Related concepts
+
+* [[fusion category]]
+
+* [[pivotal category]]
+
+* **spherical category**
 
 ## References
 
