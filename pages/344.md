@@ -115,6 +115,7 @@ Being pre-lextensive is also sufficient to define the extensive topology and sho
 
 * [[extensive 2-category]]
 
+* [[disjunctive (∞,1)-category]]
 
 ## References
 
@@ -162,4 +163,3 @@ _Toby_: Sure. Of course, the general concept is $\kappa$-extensive, where $\kapp
 [[!redirects positive categories]]
 [[!redirects positive coherent category]]
 [[!redirects positive coherent categories]]
-
