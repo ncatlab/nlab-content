@@ -22,7 +22,7 @@ The model structure on dg-algebras is such a model.
 
 ## Definition 
 
-Write $dgAlg$ for the [[category]] of [[dg-algebra]]s over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
+Write $dgAlg$ for the [[category]] of cochain [[dg-algebra]]s in non-negative degree over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
 
 +-- {: .un_defn}
 ###### Definition
@@ -61,8 +61,9 @@ Evidently every object in $dgAlg$ and in $C dgAlg$ is fibrant. Therefore these m
 
 The nature of the cofibrations is discussed below.
 
+## Properties
 
-## Cofibrations: Sullivan algebras {#SullivanAlgebras}
+### Cofibrations: Sullivan algebras {#SullivanAlgebras}
 
 In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras. Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
 
@@ -206,7 +207,7 @@ are sets of generating cofibrations and acyclic cofibrations, respectively, exhi
 =--
 
 
-## Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
+### Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
 
 +-- {: .un_prop }
 ###### Observation
@@ -243,7 +244,7 @@ The forgetful functor clearly preserves fibrations and cofibrations. It has a [[
 +-- {: .un_theorem }
 ###### Theorem
 
-Let the ground [[ring]] $k$ be a [[field]] of characteritsic 0. Then every [[dg-algebra]] $A$ which has the structure of an [[algebra over an operad|algebra over]] the [[E-k-operad|E-∞ operad]] has a [[dg-algebra]] morphism $A \to A_c$ to a commutative dg-algebra $A_c$  which is
+Let the ground [[ring]] $k$ be a [[field]] of characteristic 0. Then every [[dg-algebra]] $A$ which has the structure of an [[algebra over an operad|algebra over]] the [[E-k-operad|E-∞ operad]] has a [[dg-algebra]] morphism $A \to A_c$ to a commutative dg-algebra $A_c$  which is
 
 * a morphism of [[E-k-operad|E-∞ algebras]] (where $A_c$ has the obvious [[E-k-operad|E-∞ algebras]] structure)
 
