@@ -132,4 +132,9 @@ The original definition appeared in section 3 of
 * FirstName LastName, _Title_ Journal ([arXiv](http://put.url/here), [pdf](http://another.url/)) .
 
 
+[[!redirects template pages]]
+[[!redirects page template]]
+[[!redirects page templates]]
+[[!redirects uvw]]
+
 category: meta
