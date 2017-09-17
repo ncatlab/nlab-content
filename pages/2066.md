@@ -273,6 +273,10 @@ The accompanying remark of Lawvere appears on page 267 of
 * [[F. William Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemporary Mathematics 92 (1989), 261-299. ([pdf](http://conceptualmathematics.files.wordpress.com/2013/01/toposesofgeneralizedgraphs.pdf)) 
  {#Law} 
 
+A comparison of the Karoubi envelope to other completions can be found here:
+
+* [[Marta Bunge]], _Tightly Bounded Completions_ , TAC **28** no. 8 (2013) pp.213-240. ([pdf](http://www.tac.mta.ca/tac/volumes/28/8/28-08.pdf))
+
 [[!redirects Karoubi completion]]
 [[!redirects Karoubi complete category]]
 [[!redirects idempotent-complete category]]
