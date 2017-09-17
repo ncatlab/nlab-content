@@ -100,5 +100,8 @@ $$
 Thus, by one of the axioms of a derivator, $u^* v_! H \cong \colim (r^* H)$.
 
 [[!redirects end in a derivator]]
+[[!redirects ends in a derivator]]
 [[!redirects ends in derivators]]
+[[!redirects coend in a derivator]]
+[[!redirects coends in a derivator]]
 [[!redirects coends in derivators]]
