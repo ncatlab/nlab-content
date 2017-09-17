@@ -5,7 +5,7 @@
 
 ## Definition
 
-Any [[group]] $G$ has a [[category]] of finite-dimensional [[complex number|complex]]-linear [[representations]], often denoted $Rep(G)$.  This is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] and thus has a [[Grothendieck ring]], which is called the **representation ring** of $G$ and denoted $R(G)$.
+Any [[group]] $G$ has a [[category]] of finite-dimensional [[complex number|complex]]-linear [[representations]], often denoted $Rep(G)$.  This is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] and thus has a [[Grothendieck ring]], which is called the **representation ring** of $G$ and denoted $R(G)$. Elements of the representation ring are hence formal differences (with respect to [[direct sum]]) of ordinary representations: [[virtual representations]].
 
 ### In components
 
