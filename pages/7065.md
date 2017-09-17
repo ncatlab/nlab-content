@@ -124,27 +124,29 @@ The interpretation $[\hat a : isContr(A)]$ of a [[term]] of $isContr(A)$ is prec
 +-- {: .num_prop}
 ###### Proposition
 
-An interpreted term of $isContr(A)$ induces a [[contraction]] [[right homotopy]] of the object $A$, hence a [[diagram]] in $\mathcal{C}$ of the form
+Let $\mathcal{C}$ be a [[type-theoretic model category]]. Write $[isContr(A)]$ for the [[categorical semantics|interpretation]] of $isContr(A)$ in $\mathcal{C}$. Then:
+
+Global points $* \to [isContr(A)]$ in $\mathcal{C}$ are in bijection with [[contraction]] [[right homotopies]] of the object $A$, hence to [[diagrams]] in $\mathcal{C}$ of the form
 
 $$
   \array{
     A &\stackrel{\eta}{\to}& A^I
     \\
-    & {}_{\mathllap{(id, pt_a)}}\searrow & \downarrow
+    & {}_{\mathllap{(id, const_a)}}\searrow & \downarrow
     \\
     && A \times A
   }
   \,,
 $$
 
-where $pt_a$ is a morphism of the form $A \to * \stackrel{a}{\to} A$; and every contraction right homotopy arises from a term.
+where $const_a$ is a morphism of the form $A \to * \stackrel{a}{\to} A$ and where $A^I$ is the [[path space object]] of $A$ in $\mathcal{C}$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Given a term $\hat a : * \to \prod_{p_2} A^I$, write $a : * \to A$ for the corresponding projection in
+Given a global point $\hat a : * \to \prod_{p_2} A^I$, write $a : * \to A$ for the corresponding composite
 
 $$
   \array{
@@ -153,56 +155,51 @@ $$
      &{}_{\mathllap{a}}\searrow & \downarrow
      \\
      && A
-     \\
-     && \downarrow
-     \\
-     && *
   }
   \,.
 $$
 
-By precomposing with the [[terminal object|terminal]] morphism $A \to *$ this yields a diagram 
+in $\mathcal{C}$. This is an element in the [[hom set]] $\mathcal{C}_{/A}(a, \prod_{p_2} A^I)$ of the [[slice category]] over $A$. By the ([[base change]] $\dashv$ [[dependent product]])-[[adjunction]] this is equivalently an element in $\mathcal{C}_{/A \times A}( p_2^* a, A^I )$.
+
+Notice that the pullback $p_2^* a$ is the left morphism in
 
 $$
   \array{
-    A &\to& * &\stackrel{\hat a}{\to}& \prod_{p_2} A^I  
+    A &\to& *
     \\
-    &\searrow& \downarrow & & \downarrow
+    {}^{\mathllap{(id,const_a)}}\downarrow && \downarrow^{\mathrlap{a}}
     \\
-    && * 
-    \\
-    && & {}_{\mathllap{a}}\searrow & \downarrow
-    \\
-    &&&& A
-  }
-$$
-
-in $\mathcal{C}$, which represents an element in the [[hom set]] $\mathcal{C}_{/A}(pt_a, \prod_{p_2} A^I)$ of the [[slice category]] over $A$. By the ([[base change]] $\dashv$ [[dependent product]])-[[adjunction]] this is equivalently an element in $\mathcal{C}_{/A \times A}( p_2^* pt_a, A^I )$, given in $\mathcal{C}$ by a diagram of the form
-
-$$
-  \array{
-    A \times A && \stackrel{\tilde \eta}{\to} &  & A^I  
-    \\
-    &\searrow& & & \downarrow
-    \\
-    && A \times * 
-    \\
-    && & {}_{\mathllap{(id,a)}}\searrow & \downarrow
-    \\
-    &&&& A \times A
+    A \times A &\stackrel{p_2}{\to}& A 
   }
   \,.
 $$
 
-Then $A \stackrel{\Delta}{\to} A \times A \stackrel{\tilde \eta}{\to}A^I$ is the [[contraction]] right [[homotopy]] in question.
+Therefore a morphism $p_2^* a \to  A^I$ in $\mathcal{C}_{/A \times A}$ is
+equivalently in $\mathcal{C}$ a diagram of the form
 
-Conversely, starting with a contraction $\eta$ as above, its [[adjunct]] is a morphism $\mathcal{C}_{/A}(pt_a, \prod_{p_2} A^I)$ and precomposing with $a : * \to A$ this gives a term of $[isContr(A)]$.
+$$
+  \array{
+    A &&\stackrel{\eta}{\to}&& A^I
+    \\
+    & {}_{\mathllap{(id,const_a)}}\searrow && \swarrow
+    \\
+    && A \times A
+  }
+  \,.
+$$
+
+This is by definition a [[contraction]] right [[homotopy]] of $A$.
+
 
 =--
 
-Thus, $A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
++-- {: .num_remark}
+###### Remark
 
-Conversely, if $\mathcal{C}$ is a model category, $A$ and $1$ are cofibrant, and $A\to 1$ is an acyclic fibration, then $A\to 1$ is a right homotopy equivalence, and hence $isContr(A)$ has a global element.  Thus, in most cases, the existence of a global element of $isContr(A)$ (which is unique up to homotopy, since $isContr(A)$ is an [[h-proposition]]) is equivalent to $A\to 1$ being an acyclic fibration.
+Thus if $isContr(A)$, then 
+$A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
+
+Conversely, if $\mathcal{C}$ is a [[model category]], $A$ and $1$ are cofibrant, and $A\to 1$ is an acyclic fibration, then $A\to 1$ is a right homotopy equivalence, and hence $isContr(A)$ has a global element.  Thus, in most cases, the existence of a global element of $isContr(A)$ (which is unique up to homotopy, since $isContr(A)$ is an [[h-proposition]]) is equivalent to $A\to 1$ being an acyclic fibration.
 
 More generally, we may apply this locally.  Suppose that $A\to B$ is a fibration, which we can regard as a dependent type
 $$x\colon B \vdash A(x)\colon Type.$$
@@ -213,6 +210,8 @@ represented by a fibration $isContr(A)\to B$.  By applying the above argument in
 We can also construct the type
 $$\prod_{x\colon B} isContr(A(x))$$
 in global context, which has a global element precisely when $isContr(A)\to B$ has a section.  Thus, a global element of this type is also equivalent to $A\to B$ being an acyclic fibration.
+
+=--
 
 ## Related concepts
 
