@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[3-group]] whise [[E1-algebra]] structure lifts to an [[E4-algebra]] structure.
+
+## Related concepts
+
+* [[k-tuply groupal n-groupoid]]
+
+[[!redirects symmetric 3-groups]]
