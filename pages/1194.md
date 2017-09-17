@@ -18,22 +18,30 @@
 
 ## Idea
 
-Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of [[term]]s and [[formula]]s, and has close links to the [[internal logic]] of [[categories]].
+Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of [[terms]] and [[formulas]], and has close links to the [[internal logic]] of [[categories]].
 
 
 ## An introduction for category-theorists {#CategoricalSemantics}
 
-One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories:
+One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the construction of [[objects]] and [[morphisms]] in a category_.  This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories:
 
-$$ Con : TypeTheories \rightleftarrows Categories : Lan $$
+$$ 
+  Con 
+  : 
+  TypeTheories 
+    \rightleftarrows 
+  Categories 
+  : 
+  Lan 
+$$
 
-There are many different versions of this adjunction, depending on what kind of type theory we consider and what structure we impose on the categories in question.  In each case, the left adjoint $Con$ assigns to a type theory $T$ the *category of contexts* of $T$, which has structure (such as limits, colimits, etc.) derived from the operations in the type theory, while the right adjoint $Lan$ assigns to a category $C$ a canonically defined type theory, called its *internal language*.
+There are many different versions of this adjunction, depending on what kind of type theory we consider and what structure we impose on the categories in question.  In each case, the [[left adjoint]] $Con$ assigns to a type theory $T$ the *[[category of contexts]]* of $T$, which has structure (such as [[limits]], [[colimits]], etc.) derived from the operations in the type theory, while the [[right adjoint]] $Lan$ assigns to a category $C$ a canonically defined type theory, called its *[[internal language]]*.
 
-A *[[model]]* of a [[theory]] $T$ in a category $C$ is equivalently a functor $Con(T)\to C$ or a morphism of type theories $T \to Lan(C)$.  This means that every $T$ has a tautological model in $Con(T)$, and for every category $C$ there is a tautological model of $Lan(C)$ in $C$.  For the category theorist who is most accustomed to think about categories, it is natural to approach type theory by studying the structure of $Lan(C)$ and how it is interpreted in $C$ via this tautological model.  We will do this in this section somewhat informally; in the next section we give a more formal definition of type theories.
+A *[[model]]* of a [[theory]] $T$ in a category $C$ is equivalently a [[functor]] $Con(T)\to C$ or a morphism of type theories $T \to Lan(C)$.  This means that every $T$ has a tautological model in $Con(T)$, and for every category $C$ there is a tautological model of $Lan(C)$ in $C$.  For the category theorist who is most accustomed to think about categories, it is natural to approach type theory by studying the structure of $Lan(C)$ and how it is interpreted in $C$ via this tautological model.  We will do this in this section somewhat informally; in the next section we give a more formal definition of type theories.
 
 A couple of side notes for experts:
 
-* 1-categorical semantics is only relevant to *extensional* type theory; see the section on [[intensional type theory]] vs. [[extensional type theory]] below.
+* 1-categorical semantics is only relevant to *[[extensional type theory|extensional]]* type theory; see the section on [[intensional type theory]] vs. [[extensional type theory]] [below](#ExtensionalIntensional).
 
 * The description given below is a somewhat simplified one, in that we identify objects of the category with single objects, rather than contexts.  This is strictly speaking only okay in type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.
 
@@ -340,9 +348,9 @@ If we include enough type constructors, then we can use type theory as a foundat
 
 ### Type theory versus set theory
 
-Alternately, we could change our terminology so that what we have been calling "types" are instead called "sets."  However, in order for this to accord with the common usages of "set", we need to include enough type constructors that our types can mimic the behavior of sets, and in particular be "extensional" and have "quotient types."  See the section on "Extensional vs Intensional" type theory, below.
+Alternately, we could change our terminology so that what we have been calling "types" are instead called "sets".  However, in order for this to accord with the common usages of "[[set]]", we need to include enough type constructors that our types can mimic the behavior of sets, and in particular be "extensional" and have "[[quotient types]]".  See the section on _[Extensional vs Intensional type theory](#ExtensionalIntensional)_, below.
 
-On the other hand, type theory is, among other things, a convenient language for formulating first-order logical theories, and among these theories are foundational set theories such as [[ZFC]] and [[ETCS]].  For instance, ZFC has two types $Set$ and $Prop$, proposition-forming rules saying that if $x:Set$ and $y:Set$ then $(x=y):Prop$ and $(x\in y):Prop$, the usual rules of logical inference and a [[ZFC|collection of axioms]].  The same with [[ETCS]], which it is convenient to write with three types $Set$, $Function$, and $Prop$.
+On the other hand, type theory is, among other things, a convenient language for formulating [[first order logic|first-order logical theories]], and among these theories are [[foundations|foundational]] set theories such as [[ZFC]] and [[ETCS]].  For instance, ZFC has two types $Set$ and $Prop$, proposition-forming rules saying that if $x:Set$ and $y:Set$ then $(x=y):Prop$ and $(x\in y):Prop$, the usual rules of logical inference and a [[ZFC|collection of axioms]].  The same with [[ETCS]], which it is convenient to write with three types $Set$, $Function$, and $Prop$.
 
 Especially when we intend a theory like ZFC or ETCS as a foundation for all of mathematics, it is convenient to call the type-theoretic language in which these theories are written the "meta-language" or "meta-theory," while ZFC/ETCS is the "object language" or "object theory."  On the other hand, for a more complex and powerful type theory with many type-constructors, which is suitable to serve as a foundation for mathematics itself, it is natural to say that this type theory is *itself* the *object-theory* in a meta-theory having meta-types such as $Type$, $Term$, and $Judgment$.
 
@@ -393,6 +401,7 @@ The slicker categorial approach described above using categories of [[contexts]]
 
 
 ## Extensional vs Intensional
+ {#ExtensionalIntensional}
 
 There is an important distinction between *[[extensional type theory|extensional]]* type theories and *[[intensional type theory|intensional]]* ones.  The meanings of these words is probably clearest when dealing with function types, such as an exponential $Y^X$, but also arises in respect to quotient types and identity types.
 
@@ -493,7 +502,7 @@ Discussion of type theory in the context of programming languages includes
 
 * [[Robert Harper]] _Practical foundations for programming languages_ ([pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 
-* [[Jean-Yves Giraud]], _Proofs and Types_, [book page](http://www.paultaylor.eu/stable/Proofs+Types.html) with download links.
+* [[Jean-Yves Girard]], _Proofs and Types_, ([book page](http://www.paultaylor.eu/stable/Proofs+Types.html) with download links).
 
 * [[Benjamin Pierce]], _Types and Programming Languages_, [book page](http://www.cis.upenn.edu/~bcpierce/tapl/index.html)
 
