@@ -4,6 +4,8 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 ***
 
+$\binom{n}{k}$
+
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="69999">
  <g>
   <title>Layer 1</title>
