@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -27,8 +27,7 @@ In the special case that $C = $ [[SSet]] is the standard [[model structure on si
 
 ## Definition
 
-
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $C$ a [[combinatorial model category]] (or, in the projective case, merely cofibrantly generated) and $D$ a [[small category]] there exists the following two (combinatorial) model category structures on the [[functor category]] $[D,C]$:
@@ -46,7 +45,7 @@ More generally, if $C$ is in addition a [[simplicial model category]] and $D$ a 
 ## Properties
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ a [[combinatorial model category]] and $D$ a [[small category]] the projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$ 
@@ -66,7 +65,7 @@ The existence of the unenriched model structure apears as [[Higher Topos Theory|
 The enriched case is [[Higher Topos Theory|HTT, prop. A.3.3.2]] and the remarks following that.
 The statement about properness appears as [[Higher Topos Theory|HTT, remark A.2.8.4]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -85,7 +84,7 @@ In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibratio
 
 This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].
 
-+-- {: .un_prop}
++-- {: .num_cor}
 ###### Corollary
 
 The [[identity]] [[functor]]s
@@ -108,8 +107,13 @@ $$
   [D,C]_{proj}
 $$
 
+=--
 
-The functor model structures depend Quillen-functorially on their codomain, in that for
++-- {: .num_prop #QuillenFunctorialityInCodomain}
+###### Proposition
+
+
+The functor model structures depend [[Quillen adjunction|Quillen-functorially]] on their [[codomain]], in that for
 
 $$
   C_1 \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} C_2
@@ -127,6 +131,17 @@ $$
   [D,C_1]_{inj} \stackrel{\overset{[D,L]}{\leftarrow}}{\underset{[D,R]}{\to}} [D,C_2]_{inj}  
   \,.
 $$
+
+Moreover, if $(L \dashv R)$ is a [[Quillen equivalence]], then so is $([D,L] \dashv [D,R])$.
+
+=--
+
+This is ([Lurie, remark A.2.8.6](#Lurie)).
+
+
++-- {: .num_prop}
+###### Proposition
+
 
 If $(L \dashv R)$ is [[sSet]]-enriched, then so is $([D,L] \dashv [D,R])$.
 
@@ -154,7 +169,7 @@ In the $sSet$-enriched case, if $p : D_1 \to D_2$ is an equivalence in the [[mod
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop #PresentationOfInfinityFunctors} 
 ###### Proposition
 
 For $C$ a [[combinatorial simplicial model category]], the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $[D,C]_{proj}$ and $[D,C]_{inj}$ under the above assumptions is the [[(∞,1)-category of (∞,1)-functors]] $Func(D,C^\circ)$ from the ordinary category $D$ to the $(\infty,1)$-category presented by $C$.
@@ -193,6 +208,7 @@ For more on this see [[homotopy Kan extension]]. For the case that $D' = *$ this
 The plain situation is the topic of section A.2.8 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 The enriched situation is section A.3.3 there.
 
