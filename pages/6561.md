@@ -33,6 +33,10 @@ Under [[AdS-CFT|AdS7/CFT6]] the 6d $(2,0)$-superconformal QFT is supposed to be 
 
 See [[AdS/CFT correspondence]] for more on this.
 
+### Solitonic 1-branes
+
+The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the point of view of the ambient [[11-dimensional supergravity]] these are the boundaries of [[M2-branes]] ending on the [[M5-branes]]. ([GGT](#GGT))
+
 ## Related entries
 
 [[!include table of branes]]
@@ -83,6 +87,13 @@ Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
 
   _Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$ ([arXiv:0810.4647](http://arxiv.org/abs/0810.4647))
   {#HEGK}
+
+### Solitonic 1-brane excitations
+
+* [[Jerome Gauntlett]], [[Joaquim Gomis]], [[Paul Townsend]], _BPS Bounds for Worldvolume Branes_ ([arXiv:hep-th/9711205](http://arxiv.org/abs/hep-th/9711205))
+ {#GGT}
+
+* P.S. Howe, N.D. Lambert, [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
 
 [[!redirects 6d (2,0)-susy QFT]]
 [[!redirects 6d (2,0)-superconformal QFT]]
