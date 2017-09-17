@@ -180,7 +180,7 @@ The textbooks
 
 *  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-develop in great detail the theory of [[differential geometry]] using using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comoprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
+develop in great detail the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comoprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
 
 Somewhat complementary to that, the book
 
@@ -188,7 +188,7 @@ Somewhat complementary to that, the book
 
 focuses on concrete constructions of well-adapted models using the technology of [[generalized smooth algebra]]s ($C^\infty$-rings). 
 
-Another testbook is
+Another textbook is
 
 * R. Lavendhomme, _Basic concepts of synthetic differential geometry_, Kluwer, Dordrecht (1996)
 
