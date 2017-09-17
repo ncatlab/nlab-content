@@ -196,3 +196,7 @@ Abstractly this says that
 * a (small) [[category]] is a [[monad]] in [[span|spans]] in [[Set]];
 
 * the [[action]] of a [[category]] on a [[set]] is an [[algebra]] for this [[monad]].
+
++--{.query}
+Generalizing this slightly, it should be possible to associate an action of a category $C$ on a category $\coprod_{c\in C_0}\rho(c)$ to a functor $\rho:C\rightarrow \Cat$ with the expectation, that this then is just a module for $C$ as a monad.
+=--
