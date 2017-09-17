@@ -131,7 +131,7 @@ $$
   Smooth\infty Grpd  
 $$
 
-where the first equivalence is the [[Dold-Kan corespondence]] and the last map is the map to the [[simplicial localization]].
+where the first equivalence is the [[Dold-Kan correspondence]] and the last map is the map to the [[simplicial localization]].
 
 =--
 
@@ -147,7 +147,7 @@ $$
     \underline{U}(1)
     \stackrel{\mathbf{d}}{\to}
     \Omega^1 
-    \stackrel{\mathf{d}}{\to}
+    \stackrel{\mathbf{d}}{\to}
     \cdots
     \stackrel{\mathbf{d}}{\to}
     \Omega^k
@@ -178,12 +178,50 @@ For $n,k \in \mathbb{N}$, $k \lt n$ we have
 
 1. $\Omega (\mathbf{B} U(1)_{conn}) \simeq \flat \mathbf{B}^{n-1}$
 
-1. \Omega (\mathbf{B}^n U(1)_{conn}^k) \simeq \mathbf{B}^{n-1} U(1)_{conn}^k.
+1. $\Omega (\mathbf{B}^n U(1)_{conn}^k) \simeq \mathbf{B}^{n-1} U(1)_{conn}^k$.
 
 =--
 
 (...)
 
+$$  
+  \array{
+    field space
+    &&
+    \tau_n \exp(\mathfrak{a})_{conn}
+    &\to&
+    \mathbf{B}^n U(1)_{conn}
+    \\
+    && \downarrow && \downarrow
+    \\
+    delooped phase space && \tau_n \exp(\mathfrak{a})
+    &\to&
+    \mathbf{B}^n U(1)_{conn^{n-1}}
+  }
+$$
+
+$$
+  \array{
+    C_0 &\to& *
+    \\
+    \downarrow && \downarrow 
+    \\
+    \tau_n \exp(\mathfrak{a}) &\to& \mathbf{B}^n U(1)_{conn^{n-1}} 
+    \\
+    \uparrow && \uparrow 
+    \\
+    C_1 &\to& *
+  }
+$$
+
+under [[homotopy fiber product]] this yields the phase space prequantum bundle
+
+$$
+  Phase(C_0, C_1) \to \mathbf{B}^{n-1}U(1)_{conn}
+  \,.
+$$
+
+(...)
 
 ## The setup
 
