@@ -83,10 +83,14 @@ $$
 
 ## References
 
-A textbook account is in 
+Textbooks accounts include
+* [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_
+
+with an emphasis on the use of $MU$ in the [[Adams-Novikov spectral sequence]], and
 
 * [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
  {#Rudyak98}
+
 
 Lecture notes include lecture 5 in 
 
