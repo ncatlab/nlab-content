@@ -49,3 +49,5 @@ see also
 
 
 [[!redirects contractible]]
+
+[[!redirects contractible topological space]]
