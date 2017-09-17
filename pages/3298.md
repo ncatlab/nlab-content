@@ -20,7 +20,7 @@
  
 ## Idea
 
-From the [[nPOV]] on [[cohomology]], the notion of Hochschild cohomology is the following.
+From the general abstract point of view on [[cohomology]], the notion of Hochschild cohomology is the following.
 
 +-- {: .standout}
 
@@ -55,7 +55,7 @@ _[[cohomology]]_ of [[space]]s.
 
 Below in section 
 
-* [The nPOV on Hochschild cohomology](#nPOV)
+* [General abstract Hochschild cohomology](#nPOV)
 
 we discuss a conceptual interpretation of Hochschild homology,
 that will explain _why_ this is true, and what Hochschild
@@ -67,7 +67,7 @@ Complementary to that, in the section
 * [Traditional description of Hochschild cohomology](#TraditionalIdeas)
 
 we describe the original definition of Hochschild cohomology and 
-the evolution of its understanding approaching the [[nPOV]].
+the evolution of its understanding approaching the general abstract point of view.
 
 Then in [Definition](#Details) we give the precise details and then discuss and prove various properties and examples.
  
@@ -110,14 +110,14 @@ conceptual meaning has been better understood: from staring at the explicit desc
 bimodules sitting on this circle, and taking the alternating sum of this
 as a collection of such circles with $(n-1)$ marked points.
  
-A fully geometric understanding of these was given by Ben-Zvi/Nadler/Francis in their work on [[derived stack|derived]] [[loop space object]]s and their [[geometric ∞-function theory]]. This we unify now with our [[nPOV]]-perspective on [[cohomology]] in order to give the following [[nPOV]]-perspective on Hochschild cohomology, proper. 
+A fully geometric understanding of these was given by Ben-Zvi/Nadler/Francis in their work on [[derived stack|derived]] [[loop space object]]s and their [[geometric ∞-function theory]]. This we unify now with our general abstract perspective on [[cohomology]] in order to give the following general abstract perspective on Hochschild cohomology, proper. 
 
  
 Very concretely, Hochschild homology can be computed by the Hochschild chain complex, defined by (FILL IN). Hochschild cohomology can be computed by the Hochschild cochain complex, defined by (FILL IN). One has a cup product on the Hochschild cochain complex, defined by (FILL IN). This gives a dg algebra structure on the Hochschild cochain complex. One also has a bracket, called the Gerstenhaber bracket, defined by (FILL IN). This gives a dg Lie algebra structure on the Hochschild cochain complex. This dg Lie algebra is the one which controls the [[deformation theory|deformations]] of the algebra $A$.
 
 
 
-### The $n$POV on Hochschild cohomology {#nPOV}
+### General abstract Hochschild cohomology {#nPOV}
 
 Let $\mathbf{H}$ [[(∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]] and let $\mathbf{K}$ the $(\infty,2)$-topos of $(\infty,2)$-sheaves on a [[site]] $C$, such that the [[quasicoherent ∞-stack]]
 
@@ -411,61 +411,323 @@ We can always use the [[model structure on homotopy T-algebras]] to satisfy the 
 
 Notice that in this model category if $\mathcal{O}(X)$ is fibrant, then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathfrak{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
-On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschid homology, as described in the next example.
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschid homology, as described below in [Examples -- Simplicial algebra on the circle](#SimplicialCircleAlgebra).
 
 =--
 
-+-- {: .un_example}
-###### Example
-
-For $T$ the theory of ordinary  commutative [[associative algebra]]s over a ring $k$, we have a standard [[simplicial model category]] structure on $CAlg_k^{\Delta^{op}}$ that presents $T Alg_\infty$ (as discussed at [[model structure on simplicial algebras]]).
-
-Observe that the [[coproduct]] of $k$-algebras is the [[tensor product]] over $k$
-
-$$
-  A \coprod B \simeq A \otimes B
-  \,.
-$$
-
-Therefore the [[tensoring]] of a $k$-algebra over a morphism $S \to T$ of [[set]]s is
-
-$$
-  ({S \to T}) \cdot A = A^{\otimes_k |S|} \to A^{\otimes_k |T|}
-$$
-
-where the product in $A$ is used to map several copies of $A$ to a single one, and the unit in $A$ is used to insert copies of $A$.
-
-Let for instance $\Delta[1]/\partial \Delta[1]$ be a simplicial model for the circle. Then for $A$ any algebra we get the simplicial algebra
-
-$$
-  (\Delta[1]/\partial \Delta[1])A =
-  \left(
-     \cdots A\otimes_k A \otimes_k A\stackrel{\overset{\mu \otimes Id\circ \sigma \otimes Id}{\to}}{\stackrel{\overset{\mu \otimes Id}{\to}}{\underset{Id \otimes \mu}{\to}}} A \otimes_k A
-    \stackrel{\overset{\mu}{\to}}{\stackrel{\mu}{\to}}A 
-  \right)
-  \,,
-$$
-
-where
-
-* the single copy of $A$ in degree 0 corresponds to the single 0-cell of $\Delta[1]/\partial \Delta[1]$;
-
-* the two copies of $A$ in degree 2 correspond to the two 1-cells of $\Delta[1]/\partial \Delta[1]$: the unique degenerate 1-cell coming from $\Delta[1]$ and the degenerate 1-cell on the single 0-cell.
-
-The [[Moore complex]] of the simplicial algebra is the ordinary [[chain complex]] $C_\bullet(A,A)$ that computes Hochschild homology of $A$ with coefficients in itself. This is described in detail in the section [The Hochschild chain complex of an associative algebra](#HochschildChainComplex).
-
-Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra whose Moore complex is the complex that ([Pirashvili](#Pirashvili)) uses to define higher order Hochschild homology.
-
-=--
 
 ## Examples
 
 ### The Hochschild chain complex of an associative algebra {#HochschildChainComplex}
 
-We consider in detail the classical case of Hichschild (co)homology of an [[]associative algebra].
+We consider in detail the classical case of Hichschild (co)homology of an [[associative algebra]].
+
+#### The simplicial circle algebra {#SimplicialCircleAlgebra}
+
+Let $A \in CAlg_k$ be a commutative [[associative algebra]] over a commutative [[ring]] $k$.
+
+Above in the section on [Higher order Hochschild homology](#PirashviliHigherOrder) we had discussed how the Hochschild homology of $A$ is given by the [[simplicial algebra]] $(\Delta[1]/\partial \Delta[1]) \cdot A \in CAlg_k^{\Delta^{op}}$ that is the [[tensoring]] of $A$ regarded as a constant simplicial algebra with the [[simplicial set]] $\Delta[1]/\partial \Delta[1]$ (the 1-[[simplex]] with its two 0-cells identified).
+
+We describe now in detail what this simplicial circle algebra looks like.
+
+First of all notice what our simplicial model of the circle looks like in low degrees
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    (\Delta[1]/\partial\Delta[1])_3
+     & = &
+    (* * * *) \coprod (* \to * * *) \coprod (* * \to * *) \coprod (* * * \to * ) 
+    &
+    \\
+    \\
+    (\Delta[1]/\partial\Delta[1])_2 
+      & = & (* * *) \coprod (*\to* *) \coprod (* * \to *)
+    \\
+    \\
+    (\Delta[1]/\partial\Delta[1])_1 & = & (* *) \coprod  (* \to *)
+    \\
+    \\
+    (\Delta[1]/\partial\Delta[1])_0 & = &  (*) 
+  }
+  \,.
+$$
+
+Here for instance the expression $(* * \to * )$ denotes the morphism of simplicial sets $\Delta[2] \to \Delta[1]/\partial \Delta[1]$ that sends the first edge (the 2-face) of the 2-simplex to the unique degenerate 1-cell and the second edge (the 0-face) to the unique non-degenerate 1-cell of $\Delta[1]/ \partial \Delta[1]$.
 
 
-#### Elementary description 
+
+When forming the tensoring with $A$, we get this same structure, but with one copy of $A$ for each item in parenthesis. 
+
+To be very explicit, we recall and demonstrate the following elementary fact.
+
++-- {: .un_prop}
+###### Proposition
+
+In $CAlg_k$ the [[coproduct]] is given by the [[tensor product]] over $k$:
+
+$$
+  \left(
+  \array{
+    A 
+      &\stackrel{i_A}{\to}& 
+    A \coprod B 
+      &\stackrel{i_B}{\leftarrow}& 
+    B
+   }
+  \right)
+  \simeq
+  \left(
+    \array{
+      A 
+        &\stackrel{Id_A \otimes_k e_B}{\to}& 
+      A \otimes_k B 
+        & \stackrel{e_A \otimes Id_B}{\leftarrow}&
+      B
+   }
+  \right)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the [[universal property]] of the coproduct: for $C \in CAlg_k$ and $f,g : A,B \to C$ two morphisms, we need to show that there is a unique morphism $(f,g) : A \otimes_k B \to C$  such that the diagram
+
+$$
+  \array{
+    A 
+     &\stackrel{Id_A \otimes e_B}{\to}&
+    A \otimes_k B
+     &\stackrel{e_A \otimes Id_B}{\leftarrow}&
+    B
+    \\
+    & {}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{(f,g)}} & \swarrow_{\mathrlap{g}} 
+    \\
+    && C
+  }
+$$
+
+commutes.
+For the left triangle to commute we need that $(f,g)$ sends elements of the form $(a,e_B)$ to $f(a)$. For the right triangle to commute we need that $(f,g)$ sends elements of the form $(e_A, b)$ to $g(b)$. Since every element of $A \otimes_k B$ is a product of two elements of this form
+
+$$
+  (a,b) = (a,e_B) \cdot (e_A, b)
+$$
+
+this already uniquely determines $(f,g)$ to be given on elements by the map
+
+$$
+  (a,b) \mapsto f(a) \cdot g(b)
+  \,.
+$$
+
+That this is indeed an $k$-algebra homomorphism follows from the fact that $f$ and $g$ are
+
+=--
+
+Notice that for all this it is crucial that we are working with commutative algebras.
+
++-- {: .un_cor}
+###### Corollary
+
+We have that the tensoring of $A$ with the map of sets from two points to the single point
+
+$$
+  (* \coprod * \to *) \cdot A
+  \simeq
+  (
+    A \otimes_k A
+     \stackrel{\mu}{\to}
+    A
+  )
+$$
+
+is the product morphism on $A$. And that the tensoring with the map from the empty set to the point 
+
+$$
+  (\emptyset \to *)\cdot A
+  \simeq
+  (k \stackrel{e_A}{\to} A)
+$$
+
+is the unit morphism on $A$. Generally, for $f : S \to T$ any map of sets we have that the tensoring
+
+$$
+  (S \stackrel{f}{\to} T) \cdot A
+  =
+  A^{\otimes_k |S|}
+  \to
+  A^{\otimes_k |T|}
+$$
+
+is the morphism between [[tensor power]]s of $A$ of the cardinalities of $S$ and $T$, respectively, whose component over a copy of $A$ on the right corresponding to $t \in T$ is the iterated product $A^{\otimes_k |f^{-1}\{t\}|} \to A$ on as many tensor powers of $A$ as there are elements in the preimage of $t$ under $f$.
+
+=--
+
+
+
+So we see that in low degree the simplicial algebra $(\Delta[1]/\partial \Delta[1])$ has the components 
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    ((\Delta[1]/\partial\Delta[1]) \cdot A)_3
+     & = &
+    A \otimes A \otimes A \otimes A
+    &
+    \\
+    \\
+    ((\Delta[1]/\partial\Delta[1]) \cdot A)_2 
+      & = & A \otimes A \otimes A
+    \\
+    \\
+    ((\Delta[1]/\partial\Delta[1]) \cdot A)_1 & = & A \otimes A
+    \\
+    \\
+    ((\Delta[1]/\partial\Delta[1]) \cdot A)_0 & = &  A 
+  }
+  \,.
+$$
+
+The two face maps from degree 1 to degree 0 both come from mapping two points to a single point, so they are both the product on $A$.
+
+$$
+  A \otimes_k A \stackrel{\overset{\mu}{\to}}{\underset{\mu}{\to}} A
+  \,.
+$$
+
+The three face maps from degree 3 to degree 2 are more interesting. We have
+
+$$
+  \partial^2_0
+  \;\;\;
+  :
+  \;\;\;
+  \array{
+    (* * *)   &\mapsto & (* *)
+    \\
+    \coprod  & \nearrow &\coprod&  
+    \\
+    (* \to * *) & & (* \to *)
+    \\
+    \coprod &\nearrow&& 
+    \\
+    (* * \to *)
+  }
+$$
+
+and
+
+$$
+  \partial^2_1
+  \;\;\;
+  :
+  \;\;\;
+  \array{
+    (* * *)   &\mapsto & (* *)
+    \\
+    \coprod  &  &\coprod&  
+    \\
+    (* \to * *) & \mapsto & (* \to *)
+    \\
+    \coprod &\nearrow&& 
+    \\
+    (* * \to *)
+  }
+$$
+
+and
+
+$$
+  \partial^2_2
+  \;\;\;
+  :
+  \;\;\;
+  \array{
+    (* * \to *)   &\mapsto & (* *)
+    \\
+    \coprod  & \nearrow &\coprod&  
+    \\
+    (* * *) &  & (* \to *)
+    \\
+    \coprod &\nearrow&& 
+    \\
+    (* \to * *)
+  }
+  \,.
+$$
+
+Notice that for the last one we had to cyclically permute the source in order to disply the maps in this planar fashion.
+
+So therefore we get the tensorings
+
+$$
+  (\partial^2_0) \cdot A =
+  (
+   A \otimes_k A \otimes_k A
+     \stackrel{\mu \otimes_k Id}{\to}
+   A
+  )
+$$
+
+and
+
+$$
+  (\partial^2_1) \cdot A =
+  (
+   A \otimes_k A \otimes_k A
+     \stackrel{Id \otimes_k \mu}{\to}
+   A
+  )
+$$
+
+and
+
+$$
+  (\partial^2_2) \cdot A =
+  (
+   A \otimes_k A \otimes_k A
+     \stackrel{\mu \otimes_k Id \circ \sigma_{2,3,1}}{\to}
+   A
+  )
+  \,.
+$$
+
+
+In summary we have so far 
+
+$$
+  (\Delta[1]/\partial \Delta[1])\cdot A =
+  \left(
+     \cdots 
+    A\otimes_k A \otimes_k A
+      \stackrel{\overset{\mu \otimes_k Id \sigma_{2,3,1}}{\to}}{\stackrel{\overset{Id \otimes_k \mu}{\to}}{\underset{\mu \otimes_k Id}{\to}}} A \otimes_k A
+    \stackrel{\overset{\mu}{\to}}{\underset{\mu}{\to}}A 
+  \right)
+  \,.
+$$
+
+
+The [[Moore complex]] of this simplicial algebra is the traditional **Hochschild chain complex** of $A$
+
+$$
+  C_\bullet(A,A) = C_\bullet((\Delta[1]/\partial \Delta[1]) \cdot A)
+  \,.
+$$
+
+This we describe in more detail in the section [Explicit description of the Hochschild complex](#ExplicitHochschildChains).
+
+
+Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra whose Moore complex is the complex that ([Pirashvili](#Pirashvili)) uses to define higher order Hochschild homology.
+
+
+
+
+#### Explicit description of the Hochschild complex {#ExplicitHochschildChains}
 
 We spell out explicitly the Hochschild chain complex for an 
 [[associative algebra]] (over some ring $k$) with coefficients in a [[bimodule]].
