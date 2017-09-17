@@ -178,7 +178,7 @@ Correspondences may be seen as generlaizations of [[relations]]. A relation is a
 
 * Cospans of homomorphisms of [[C*-algebras]] represent morphisms in [[KK-theory]] (by Cuntz' result).
 
-* Correspondences of [[flag manifolds]] play a role as [[twistor correspondences]], see at _[Schubert calculus -- Correspondences](Schubert+calculus#Correspondences)_
+* Correspondences of [[flag manifolds]] play a role as [[twistor correspondences]], see at _[Schubert calculus -- Correspondences](Schubert+calculus#Correspondences)_ and at _[[horocycle correspondence]]_
 
 * The [[Fourier-Mukai transform]] is a pull-push operation through correspondences equipped with objects in a cocycle given by an object in a [[derived category of quasi-coherent sheaves]].
 
