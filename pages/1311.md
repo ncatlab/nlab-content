@@ -11,6 +11,11 @@ The [[delooping hypothesis]] says that a $k$-[[k-tuply monoidal n-category|tuply
 
 One might want a stricter definition for $n$-categories, but this is certainly correct for $n$-[[n-groupoid|groupoid]]s.  Indeed, we can say that an $\infty$-[[infinity-groupoid|groupoid]] $X$ is $k$-simply connected if and only if its [[fundamental n-groupoid]] $\Pi_n(X)$ is trivial for $n \leq k$.  In particular, an $\infty$-simply connected $\infty$-groupoid is [[contractible space|contractible]].
 
+
+## Discussion
+
+This discussion on terminology occurred when the page was at [[k-tuply connected n-category]].
+
 +--{: .query}
 [[Mike Shulman|Mike]]: I'm pretty sure that in algebraic topology, 1-connected means simply connected, and 0-connected means connected.  So your definitions make a space 0-connected when its fundamental $\infty$-groupoid is 1-tuply connected.  I would prefer that we retain the topologists' numbering and call this a 0-connected $\infty$-groupoid (the 'tuply' sounds weird to me for connectedness), with the off-by-one shift happening in the delooping: the $k$-fold delooping of a $k$-tuply monoidal $n$-category would be a $(k-1)$-connected $(n+k)$-category.
 
