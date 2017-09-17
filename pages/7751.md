@@ -1,5 +1,2 @@
-[[!redirects confinality]]
-[[!redirects confinality]]
-This is empty:
-
+[[!redirects empty 30]]
 category:empty
