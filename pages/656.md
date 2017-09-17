@@ -158,6 +158,33 @@ This is ([Lurie, lemma 4.3.6.9 (3)](#Lurie)).
 
 Here are some steps in the construction:
 
++-- {: .num_defn #NotationForTensS}
+###### Definition (Notation)
+
+For $S \to \Delta^{op}$ an [[(∞,1)-functor]] (given as a map of simplicial sets from a [[quasi-category]] $S$ to the [[nerve]] of the [[simplex category]]), write
+
+$$
+  Tens^\otimes_{S} 
+   \coloneqq
+  Tens^\otimes \underset{\Delta^{op}}{\times} S
+$$ 
+
+for the [[fiber product]] in [[sSet]], where $Tens^\otimes$
+is as defined at _[[bilinear map in an (∞,1)-category]]_.
+
+Moreover, for $\mathcal{C}^\otimes \to Tens^\otimes_S$ a [[fibration]] in the [[model structure for quasi-categories]] which exhibits $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], write
+
+$$
+  Alg_S(\mathcal{C}) \hookrightarrow Fun_{Tens^\otimes_S}(Step_S, \mathcal{C}^\otimes)
+$$
+
+for the full [[sub-(∞,1)-category]] on those [[(∞,1)-functors]] which send inert morphisms to inert morphisms.
+
+=--
+
+([Lurie, notation 4.3.4.15](#Lurie))
+
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -166,9 +193,11 @@ Define $Mod(\mathcal{C}) \to \Delta^{op}$ as the map of [[simplicial sets]] with
 $$
   Hom_{sSet/S}(K, Mod(\mathcal{C}))
   \simeq
-  Alg_{Tens_K / Ass}( \mathcal{C} )
-  \,.
+  Alg_{Tens_K / \mathcal{Ass}}( \mathcal{C} )
+  \,,
 $$
+
+where on the right we use notation as in def. \ref{NotationForTensS}.
 
 =--
 
