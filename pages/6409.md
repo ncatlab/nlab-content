@@ -1,0 +1,17 @@
+Given a totally ordered abelian group $G$ a $G$-valued __valuation__ $v$ on a (commutative) [[field]] $K$ is a surjective function $v:K\to G\cup \infty$ such that $v(K^\times)\subset G$ and 
+
+* $v$ defines the homomorphism of groups $v|_K : K^\times\to G$ where $K^\times$ is the multiplicative group of $K$
+
+* $v(0) = \infty$
+
+* $v(x+y) \geq min\{ v(x),v(y)\}$
+
+with usual conventions for $\infty$. 
+
+* wikipedia [valuation (algebra)](http://en.wikipedia.org/wiki/Valuation_%28algebra%29)
+
+If the abelian group is the group of integers $\mathbf{Z}$ then we talk about [[discrete valuation]]s.
+
+Sometimes one also discusses multiplicative valuations (also called valuation functions) which look more like norms, and their equivalence classes, places. See [[discrete valuation]] and [[valuation ring]]. 
+
+[[!redirects valuations]]
