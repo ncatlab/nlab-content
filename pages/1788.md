@@ -4,7 +4,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-[pdf](http://sitemaker.umich.edu/belot/files/dissertation.pdf)
+No sand in this box.
 
 ***
 
