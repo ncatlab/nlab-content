@@ -20,13 +20,13 @@ The notion of _$k$-surjective functor_ is the continuation of the sequence of no
 
 * [[essentially surjective functor]]
 
-* essentially surhective and [[full functor]]
+* essentially surjective and [[full functor]]
 
 * essentially surjective and [[full and faithful functor]]
 
 from [[category theory]] to an infinite sequence of notions in [[higher category theory]].
 
-Roughly, a functor $F : C \to D$ between [[∞-categories]] $C$ and $D$ is _$k$-surjective_ if for each bounary of a [[k-morphism]]s in $C$, each $k$-morphism between the image of that boundary in $D$ is in the image of $F$.
+Roughly, a functor $F : C \to D$ between [[∞-categories]] $C$ and $D$ is _$k$-surjective_ if for each boundary of a [[k-morphism]]s in $C$, each $k$-morphism between the image of that boundary in $D$ is in the image of $F$.
 
 
 ## Generalization to $\infty$-categories
@@ -73,7 +73,7 @@ $$
 $$
 (which commutes due to the functoriality axioms of $f$) is an [[epimorphism]].
 
-If you interpret $C_k$ and $P_k$ as sets and take 'epimorphim' in a strict sense (the sense in [[Set]], a [[surjection]]), then you have a __strictly $k$-surjective functor__.  But if you interpret $C_k$ and $P_k$ as $\infty$-categories or $\infty$-groupoids and take 'epimorphism' in a weak sense (the [[homotopy limit|homotopy]] sense from $\infty$-[[infinity-Grpd|Grpd]]), then you have an __essentially $k$-surjective functor__; equivalently, project $C_k$ and $P_k$ to $\omega$-[[equivalence]]-classes before testing surjectivity.  A functor is essentially $k$-surjective if and only if it is equivalent to some strictly $k$-surjective functor, so essential $k$-surjectivity is the non-[[evil]] notion.
+If you interpret $C_k$ and $P_k$ as sets and take 'epimorphism' in a strict sense (the sense in [[Set]], a [[surjection]]), then you have a __strictly $k$-surjective functor__.  But if you interpret $C_k$ and $P_k$ as $\infty$-categories or $\infty$-groupoids and take 'epimorphism' in a weak sense (the [[homotopy limit|homotopy]] sense from $\infty$-[[infinity-Grpd|Grpd]]), then you have an __essentially $k$-surjective functor__; equivalently, project $C_k$ and $P_k$ to $\omega$-[[equivalence]]-classes before testing surjectivity.  A functor is essentially $k$-surjective if and only if it is equivalent to some strictly $k$-surjective functor, so essential $k$-surjectivity is the non-[[evil]] notion.
 
 
 +-- {: .un_prop}
