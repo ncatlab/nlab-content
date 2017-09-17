@@ -29,7 +29,7 @@ Since uniform covers are not a common approach to uniform spaces, we unwrap the 
 +-- {: .num_defn #uniform}
 ###### Definition
 
-A uniform space $X$ is __totally bounded__ if, for every entourage $U$ of $X$, there is a finite [[open cover]] $\mathcal{C}$ of $X$ such that every set $G$ in $\mathcal{C}$ satisfies $G \times G \subseteq U$.
+A uniform space $X$ is __totally bounded__ if, for every [[entourage]] $U$ of $X$, there is a finite [[open cover]] $\mathcal{C}$ of $X$ such that every set $G$ in $\mathcal{C}$ satisfies $G \times G \subseteq U$.
 =--
 
 In fact, it is enough to consider only basic entourages for some [[base]] of the uniformity.  Thus, we may specialise to [[gauge spaces]]:
