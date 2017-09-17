@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include infinity-limits - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
