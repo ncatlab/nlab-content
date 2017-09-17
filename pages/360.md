@@ -54,7 +54,15 @@ The proof is spelled out at [[affine line]] in the section <a href="http://nlab.
 
 ##Example with $G$ not necessarily abelian.
 
-Let $G$ be any (discrete) group and $k[G]$ its [[group algebra]]. This has a direct sum decomposition as an abelian group,
+Let $G$ be any (discrete) group and $k[G]$, its [[group algebra]]. This has a direct sum decomposition as a $k$-module,
+
+$$k[G] = \bigoplus_{g\in G}L_g$$
+
+where each $L_g$ is a one dimensional free $k$-module, for which it is convenient, here, to give a basis $\{\ell_g\}$.  The graded algebra structure is obtained by extending the multiplication rule,
+
+$$\ell_{g_1}\cdot \ell_{g_2} = \ell_{g_1g_2},$$
+
+given on basis elements, by $k$-linearity.
 
 [[!redirects graded algebras]]
 
