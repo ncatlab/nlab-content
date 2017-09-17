@@ -1,0 +1,27 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _F5-brane_ is a 6-dimensional [[sigma-model]] with 10-[[dimension]]al [[target space]] that is the [[electric-magnetic duality|magnetic dual]] to the [[string]] 2-dimensional [[sigma-model]].
+
+## Related concepts
+
+* [[brane]], [[string]]
+
+* [[fivebrane structure]], [[differential fivebrane structure]]
+
+[[!redirects NS-5-brane]]
+[[!redirects F5-brane]]
+[[!redirects F-5-brane]]
+[[!redirects 5-brane]]
+[[!redirects fivebrane]]
+
+[[!redirects NS5-branes]]
+[[!redirects NS-5-branes]]
+[[!redirects F5-branes]]
+[[!redirects F-5-branes]]
+[[!redirects 5-branes]]
+[[!redirects fivebranes]]
