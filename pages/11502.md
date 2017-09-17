@@ -1,11 +1,12 @@
 
+**Substructure of the [[moduli stack of curves]] and the ([[equivariant cohomology|equivariant]]) [[cohomology theory]] associated with it via the [[Goerss-Hopkins-Miller-Lurie theorem]]:**
 
 | |  |  |  |  |  |  |  |  |  |
 |--|--|--|--|--|--|--|--|--|--|
 | covering [[moduli space]] |  |  |  |  | [[level structure on an elliptic curve|of level-n structures]] ([[modular curve]]) |  |  |  |  |
-| | $\ast$  | $\to$ |  | $\to$ | $\mathcal{M}_{\overline{ell}}[n]$  |  |  |  |  |
-| | $\downarrow$ |  |  |  | $\downarrow$ |  |  |  |  |
+| | $\ast = Spec(\mathbb{Z})$  | $\to$ | $Spec(\mathbb{Z}[ [q] ])$  | $\to$ | $\mathcal{M}_{\overline{ell}}[n]$  |  |  |  |  |
+| [[structure group]] | $\downarrow^{\mathbb{Z}/2\mathbb{Z}}$ |  | $\downarrow^{\mathbb{Z}/2\mathbb{Z}}$ |  | $\downarrow^{SL_2(\mathbb{Z}/n\mathbb{Z})}$ ([[modular group]]) |  |  |  |  |
 |  | $\mathcal{M}_{1dTori}$ | $\hookrightarrow$ |  $\mathcal{M}_{Tate}$ | $\hookrightarrow$ | $\mathcal{M}_{\overline{ell}}$ | $\hookrightarrow$ | $\mathcal{M}_{cub}$  | $\to$  | $\mathcal{M}_{FG}$
 | [[moduli stack]] | of [1d tori](torus#InAlgebraicGeometry)  |  | of [[Tate curves]] | | [[moduli stack of elliptic curves|of elliptic curves]] |  | of [[cubic curves]] | |  [[moduli stack of formal groups|of formal groups]] |
 | $\mathcal{O}^{top}_{\Sigma}$ | [[KU]] |  | $KU[ [q] ]$ |  | [[elliptic spectrum]] |  |  |  | [[complex oriented cohomology theory]] |
-| $\Gamma(-, \mathcal{O}^{top}) = $ | ([[KO]] $\hookrightarrow$ [[KU]]) = [[KR-theory]] |  | [[Tate K-theory]] ($KO[ [q] ] \hookrightarrow KU[ [q] ]$) |  |  [[tmf|Tmf]] $\to Tmf(n)$  |  |  [[tmf]]  |  |  $\mathbb{S}$ |  
+| $\Gamma(-, \mathcal{O}^{top}) = $ | ([[KO]] $\hookrightarrow$ [[KU]]) = [[KR-theory]] |  | [[Tate K-theory]] ($KO[ [q] ] \hookrightarrow KU[ [q] ]$) |  |  ([[tmf|Tmf]] $\to Tmf(n)$) ([[modular equivariant elliptic cohomology]])  |  |  [[tmf]]  |  |  $\mathbb{S}$ |  
