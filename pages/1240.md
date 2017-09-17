@@ -362,6 +362,7 @@ _[[Zuckerman induction]]_. See there for more details.
 
 * The [[derived functor]] of the representation induction functor is often referred to as _[[cohomological induction]]_.
 
+* [[Dirac induction]]
 
 ## References
 
