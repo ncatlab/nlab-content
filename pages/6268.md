@@ -24,7 +24,7 @@ Where can I find a construction of the classifying morphism to a classifying spa
 
 ## Examples
 
-* For [[subobjects]] one typically speaks of **characteristic maps** or **characteristic functions**. The corresponding classifiyng space is a _[[subobject classifier]]_ . See there for more.
+* For [[subobjects]] one typically speaks of **[[characteristic maps]]** or **characteristic functions**. The corresponding classifiyng space is a _[[subobject classifier]]_ . 
 
 * More generally, in an [[(infinity,1)-topos]] every "small" (see there) object in a [[slice (infinity,1)-topos]] is given by a classifying morphism into the [[object classifier]];
 
@@ -41,15 +41,9 @@ Where can I find a construction of the classifying morphism to a classifying spa
 [[!redirects classifying map]]
 [[!redirects classifying function]]
 
-[[!redirects characteristic map]]
-[[!redirects characteristic morphism]]
-[[!redirects characteristic function]]
-
 [[!redirects classifying morphisms]]
 [[!redirects classifying maps]]
 [[!redirects classifying functions]]
 
-[[!redirects characteristic maps]]
-[[!redirects characteristic morphisms]]
-[[!redirects characteristic functions]]
+
 
