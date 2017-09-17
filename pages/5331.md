@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $k \in \mathbb{N}$,  a **Poisson $n$-algebra** is a [[Poisson algebra]] in a [[category of chain complexes]] with Poisson bracket of degree $(1-k)$. For $k \geq 2$ These arise as the [[homology]] of an [[Ek-algebra]].
+For $n \in \mathbb{N}$,  a **Poisson $n$-algebra** is a [[Poisson algebra]] in a [[category of chain complexes]] with Poisson bracket of degree $(1-n)$. For $n \geq 2$ These arise as the [[homology]] of an [[En-algebra]].
 
 ## Examples
 
@@ -26,7 +26,7 @@ For $k \in \mathbb{N}$,  a **Poisson $n$-algebra** is a [[Poisson algebra]] in a
 
 ## Properties
 
-The [[homology]] of an algebra over the [[little k-cubes operad]] for $k \geq 2$ is a Poisson $k$-algebra. 
+The [[homology]] of an algebra over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
 
 ## References
 
