@@ -129,7 +129,7 @@ $$
   Bord_n \simeq Bord_n^{O(n)}
 $$
 
-([Lurie, example 2.4.22]) this says something like that in $Span_n(\infty Grpd)$ every object of [[∞Grpd]] becomes fully dualizable.
+([Lurie, example 2.4.22](#Lurie)) this says something like that in $Span_n(\infty Grpd)$ every object of [[∞Grpd]] becomes fully dualizable.
 
 =--
 
