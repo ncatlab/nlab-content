@@ -110,7 +110,7 @@ This probability measure will in general not extend to a state.
 
 ## Related theorems
 
-Other theorems about the foundations of [[quantum mechanics]] include:
+Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
 
 * [[order-theoretic structure in quantum mechanics]]
 
@@ -122,6 +122,9 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[Wigner theorem]]
 
+* [[Bell's theorem]]
+
+* [[Bub-Clifton theorem]]
 
 ## References
 
