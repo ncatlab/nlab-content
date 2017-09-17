@@ -3,6 +3,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], [Selberg 56](#Selberg56) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _Selberg zeta function of a Riemann surface_. (e.g. [Bump,below theorem 19](#Bump)).
+
+> (Is it however on the nose the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]]?)
+
 ## Properties
 
 ### Function field analogy
@@ -11,11 +17,28 @@
 
 ## Related concepts
 
-[[!include zeta-functions and eta-functions and L-functions -- table]]
+
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
+* {#Selberg56} [[Atle Selberg]], _Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series_, Journal of the Indian Mathematical Society 20 (1956) 47-87.
+
+
 * Wikipedia, _[Selberg zeta function](http://en.wikipedia.org/wiki/Selberg_zeta_function)_
+
+* {#Watkins} [[Matthew Watkins]], citation collection on _[Selberg trace formula and zeta functions](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics4.htm)_
+
+* {#Bump} Bump, below theorem 19 in _Spectral theory of $\Gamma \backslash SL(2,\mathbb{R})$_ ([[BumpSpectralTheory.pdf:file]])
+
+* {#BunkeOlbrich95} [[Ulrich Bunke]], Martin Olbrich, _Selberg zeta and theta functions: a differential operator approach_, Akademie Verlag 1995
+
+* [[Ulrich Bunke]], Martin Olbrich _$\Gamma$-Cohomology and the Selbeg zeta function_ ([arXiv:dg-ga/9411004](http://arxiv.org/abs/dg-ga/9411004))
+
+* [[Ulrich Bunke]], Martin Olbrich, _Group cohomology and the singularities of the Selberg zeta function associated to a Kleinian group_ ([arXiv:dg-ga/9603003](http://arxiv.org/abs/dg-ga/9603003))
 
 [[!redirects Selberg zeta function]]
 
+
+[[!redirects Selberg zeta function of a Riemann surface]]
