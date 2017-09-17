@@ -234,6 +234,8 @@ See _[[table - models for (∞,1)-categories]]_.
 
 ## Related concepts
 
+* [[table - models for (∞,1)-categories]]
+
 * [[0-category]], [[(0,1)-category]]
 
 * [[category]]
