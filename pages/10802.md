@@ -47,6 +47,8 @@ Notice that on the other hand for instance if instead $X = Spec(k)$ is the [[spe
 
 ## Related concepts
 
+* [[analytification]]
+
 * [[comparison theorem]]
 
 * [[comparison theorem (crystalline cohomology)]]
