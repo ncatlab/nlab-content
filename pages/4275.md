@@ -1,11 +1,19 @@
 
-<div class="rightHandSide toc">
+> this entry is about the notion of _genus_ in [[cohomology]]. For classication of [[surface]]s see [[genus of a surface]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
 [[!include manifolds and cobordisms - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
