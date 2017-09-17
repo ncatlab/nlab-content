@@ -145,6 +145,10 @@ known as the **Atiyah sequence**.
 
 The extent to which Lie algebroids are to [[Lie groupoid|Lie groupoids]] as Lie algebras are to Lie groups is the content of general [[Lie theory]], in which [[Lie's three theorems|Lie's theorems]] have been generalized to Lie algebroids.
 
+### Poisson geometry
+
+The fiberwiese linear dual of a Lie algebroid (regarded as a vector bundle) is naturally a [[Poisson manifold]]: the _[[Lie-Poisson structure]]_.
+
 ## Related concepts
 
 * [[Lie algebra]], **Lie algebroid**
