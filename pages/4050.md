@@ -1,3 +1,4 @@
+
 <div class="rightHandSide toc">
 [[!include monoidal categories - contents]]
 </div>
@@ -44,5 +45,10 @@ One might write something about these too, or put them on a separate page.  In t
 
 [[!redirects category with duals]]
 [[!redirects categories with duals]]
+[[!redirects monoidal category with duals]]
+[[!redirects monoidal categories with duals]]
+
 [[!redirects category with duals for objects]]
 [[!redirects categories with duals for objects]]
+[[!redirects monoidal category with duals for objects]]
+[[!redirects monoidal categories with duals for objects]]
