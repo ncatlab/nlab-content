@@ -1,4 +1,8 @@
 
+> This entry is about the notion in [[physics]]. For the notion of the same name in [[algebra]] see at _[[field]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -40,7 +44,7 @@ Below we discuss a natural unified formulation of the notion of physical field i
 
 ## Definition 
 
-A notion of _field_ in physics is part of a specification of _[[theory (physics)|physical theory]]_ or _[[model (physics)|physical model]]_. We consider specifically the framework of [[prequantum field theory]]. Here a [[theory (physics)|theory]]/[[model (physics)|model]] is specified by or at least comes with a an _[[action functional]]_. The _field_ content of the theory is part of the specification of the [[domain]] of the action functional. Therefore in def. \ref{FieldsInAnActionFunctional} below we define _action functionals_ and the fields relative to this notion.
+A notion of _field_ in physics is part of a specification of _[[theory (physics)|physical theory]]_ or _[[model (physics)|physical model]]_. We consider specifically the framework of [[prequantum field theory]]. Here a [[theory (physics)|theory]]/[[model (physics)|model]] is specified by (or at least comes with) an _[[action functional]]_. The _field_ content of the theory is part of the specification of the [[domain]] of the action functional. Therefore in def. \ref{FieldsInAnActionFunctional} below we define _action functionals_ and the fields relative to this notion.
 
 We work in the following context.
 
@@ -76,47 +80,65 @@ The following defines the notion of _[[action functional]]_ and as part of the d
 +-- {: .num_defn #FieldsInAnActionFunctional}
 ###### Definition
 
-Given
-
-1. an [[object]] $B \in \mathbf{H}$;
-
-1. objects $X, \mathbf{Fields} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos|slice]] over $B$;
-
+Given an [[object]] $\mathbf{BgFields} \in \mathbf{H}$ and 
+given two objects, to be denoted $\Phi_X, \mathbf{Fields}  \in \mathbf{H}_{/B}$, in the [[slice (∞,1)-topos|slice]] over $\mathbf{BgFields}$,
 then an **[[action functional]]** in ($\mathbf{H}, \mathbb{G})$ "on fields on $X$" is a [[morphism]]
 
 $$
-  S \;\colon\; [X, \mathbf{Fields}] \to \mathbb{G}
+  S \;\colon\; [\Phi_X, \mathbf{Fields}]_{\mathbf{H}} \to \mathbb{G}
   \,.
 $$
 
 In this context we say that
 
-* $X$ is the **[[worldvolume]]** or **[[spacetime]]**;
+* the [[dependent sum]] $X \coloneqq \underset{\mathbf{BgField}}{\sum} \Phi_X$ is the **[[worldvolume]]** or **[[spacetime]]**;
 
-* $\mathbf{Fields}$ is the **[[moduli space]] of fields**;
+* the morphsim $\Phi_X \;\colon\; X \to \mathbf{BgFields}$ is the **[[background field]]**;
 
-* $S$ is the **[[action functional]]** itself.
+* the object $\mathbf{Fields}$ is the **[[moduli ∞-stack]] of fields**;
 
-* a **field** is an [[element]] of $[X,\mathbf{Fields}]_{\mathbf{H}}$, hence a morphims
+* the [[elements]] of $[\Phi_X,\mathbf{Fields}]_{\mathbf{H}}$, hence the morphims
 
   $$
-    \phi \;\colon\; X \to \mathbf{Fields}
+    \phi \;\colon\; \Phi_X \to \mathbf{Fields}
   $$
 
-* a **[[gauge transformation]]** is a [[homotopy]] in $[X, \mathbf{Fields}]_{\mathbf{H}}$, hence a
+  in $\mathbf{H}_{/\mathbf{BgFields}}$, hence the [[diagrams]]
+
+  $$
+    \array{
+       X &&\stackrel{\phi}{\to}&& \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields}
+       \\
+       & {}_{\mathllap{\Phi_X}}\searrow && \swarrow_{\mathrlap{\mathbf{Fields}}}
+       \\
+       && \mathbf{BgFields}
+    }
+  $$
+
+  in $\mathbf{H}$, are the **fields** on $X$;
+
+* a **[[gauge transformation]]** is a [[homotopy]] in $[\Phi_X, \mathbf{Fields}]_{\mathbf{H}}$, hence a
 
   $$
     \phi \Rightarrow \phi'
   $$
 
-* a **[[higher gauge transformation]]** is a [[higher homotopy]] in $[X, \mathbf{Fields}]_{\mathbf{H}}$.
+* a **[[higher gauge transformation]]** is a [[higher homotopy]] in $[\Phi_X, \mathbf{Fields}]_{\mathbf{H}}$.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The above says in particular that in [[higher geometry]] all fields are [[sigma-model]] fields: if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the [[target space]].
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-The literature speaks of _classical fields_ and _quantum fields_, but formal definitions are rare and the distinction is usually blurred and refers more to the focus of the author than the entity under consideration.
+The literature speaks of _classical fields_ and _quantum fields_, but formal definitions substantiating this are rare and the distinction is usually blurred and refers more to the focus of the author than the entity under consideration.
 
 If one focuses on the [[critical locus]] of an [[action functional]] as above then one considers its [[classical field theory]] and hence tends to speak of "classical fields". Notably the points in the critical locus, are _fields that satisfy the classical [[equations of motion]]_.
 
@@ -129,26 +151,35 @@ But even this distinction is not uniform in the literature. For instance if $\ma
 
 ## Examples
 
-We distinguish two broad classes of examples
+We distinguish three broad classes of examples of fields as in def. \ref{FieldsInAnActionFunctional}:
 
-* [Force fields](#ForceFields)
+1. [Force fields](#ForceFields)
 
-* [Matter fields](#MatterFields)
+   1. [Fields of gravity and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry)
 
-### Force fields
+      In this case the [[background gauge field]] is a [[G-structure]], the [[moduli stack]] of fields is a [[delooping|delooped]] [[∞-group extension]] $\mathbf{B}\hat G \stackrel{\mathbf{Fields}}{\to} \mathbf{B}G$ and a field is a generalized [[vielbein]] exhibiting a [[reduction and lift of structure groups|reduction/lift of structure group]].
+
+   1. [Gauge fields](#GaugeFields)
+
+      In this case $\mathbf{Fields}$ is a [[moduli space]] $\mathbf{B}G_{conn}$ of [[connections on an ∞-bundle|∞-connections]] on $G$-[[principal ∞-bundles]] for some [[gauge group]] $G \in Grpd(\mathbf{H})$.
+
+1. [Matter fields](#MatterFields)
+
+   In this case the [[background gauge field]] is a $G$-[[principal ∞-bundle]] $P$ for some [[gauge group]] $G \in Grp(\mathbf{H})$ and $\mathbf{Fields}$ is the univeral $\rho$-[[associated ∞-bundle]] $V//G \stackrel{\mathbf{Fields}}{\to} \mathbf{B}G$ for $\rho$ an [[∞-action]] of $G$ on some $V \in \mathbf{H}$. A field is [[section]] of the [[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]].
+
+Not all examples fall squarely into one of these types, some are mixtures of these. In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to $\mathbf{B}G_{conn}$ so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
+
+### **I)** Force fields
  {#ForceFields}
 
-Two important classes of [[force]] fields are
+The two classes of [[force]] fields are:
 
-* [Fields of gravity and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry)
+* [Fields of gravity and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry);
 
-* [Gauge fields](#GaugeFields)
+* [Gauge fields](#GaugeFields).
 
-But in general a combination of both appears:
 
-* [Combination of gauge fields and geometry](#CombinationsOfGaugeFieldsAndGeometry)
-
-#### Fields of gravity and generalized geometry
+#### **I a)** Fields of gravity and generalized geometry
  {#FieldsOfGravityAndGeneralizedGeometry}
 
 Let 
@@ -160,24 +191,218 @@ $$
 be an [[∞-group extension]] in $\mathbf{H}$. Then a [[lift of the structure group]] from $G$ to $\hat G$ is typically interpreted as a field of [[gravity]] and its variants.
 
 ##### Ordinary gravity
+ {#OrdinaryGravity}
+
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$, let 
+
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \mathbf{B}O(n)
+   \stackrel{\mathbf{OrthStruc}_n}{\to}
+  \mathbf{B}GL(n)
+$$
+
+the [[delooping]] of the [[Lie group|Lie]]-[[subgroup]] inclusion of the [[orthogonal group]] into the [[general linear group]] in [[dimension]] $n$ (the inclusion of the [[maximal compact subgroup]]).
+
+For $X \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \coloneqq$ [[Smooth∞Grpd]] a [[smooth manifold]] of [[dimension]] $n$, write
+
+$$
+  \Phi_X \coloneqq \tau_X \;\colon\; X \to \mathbf{B}GL(n)
+$$
+
+for the canonical map modulating the $GL(n)$-[[principal bundle]] to which the [[tangent bundle]] is canonically [[associated bundle|associated]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Morphisms
+
+$$
+  \phi \;\colon\; \tau_X \to \mathbf{OrthStruc}_n
+$$
+
+in $\mathbf{H}_{/\mathbf{B}GL(n)}$ hence [[diagrams]]
+
+$$
+  \array{
+    X &&\stackrel{}{\to}&& \mathbf{B}O(n)
+    \\
+    & \searrow &\swArrow_{e}& \swarrow
+    \\
+    && \mathbf{B}GL(n)
+  }
+$$
+
+in $\mathbf{H}$ are equivalently [[vielbein]] fields $e$ exhibiting the [[reduction of the structure group]] from $GL(n)$ to $O(n)$. A [[gauge transformation]] is a local frame transformation. Hence 
+
+$$
+  [\tau_X, \mathbf{OrthStruc}_n]_{\mathbf{H}}
+  \in 
+  \mathbf{H}
+$$
+
+is the [[moduli stack]] of [[Riemannian metrics]] on $X$ and hence of  field configurations of ordinary [[gravity]] on $X$. Notice that the [[smooth structure]] on $X$ as embodied by $\tau_X$ is the [[background gauge field]] structure in this case.
+
+Also notice that the [[homotopy fiber]] of $\mathbf{OrthStruc}_n$ is the [[coset space]] $GL(n)//O(n)$, hence we have a [[homotopy fiber sequence]]
+
+$$
+  GL(n)//O(n)
+  \to
+  \mathbf{B}O(n)
+  \stackrel{\mathbf{OrthStruc}_n}{\to}
+  \mathbf{B}GL(n)
+$$
+
+in $\mathbf{H}$. This means that locally, over a [[1-epimorphism]] $p \colon U \to X$ over which the [[tangent bundle]] has a trivialization $\tau_X|_U \simeq *$, the space of fields is simply $[U, GL(n)//O(n)]$.
+
+=--
+
+Next, let 
+
+$$
+  \widehat \mathbf{OrthStruc}_n
+  \;\colon\;
+  \mathbf{B}O(n)_{conn}
+  \to 
+  \mathbf{B}GL(n)_{conn}
+$$
+
+be the canonical differential refinement of $\mathbf{OrthStruc}_n$, where now the [[moduli stacks]] of [[principal connections]] appear. For $X$ a manifold as above, let then
+
+$$
+  \hat \tau_X 
+  \;\colon\;
+  X 
+  \to
+  \mathbf{B}GL(n)_{conn}
+$$
+
+modulate an [[affine connection]] on the [[tangent bundle]]. A field 
+
+$$
+  \phi \;\colon\; \hat \tau_X \to \widehat \mathbf{OrthStruc}_n
+$$
+
+is now still equivalently just a [[vielbein]], but its component
+
+$$
+  \underset{\mathbf{B}GL(n)_{conn}}{\sum} \hat \tau_X
+  \;\colon\;
+  X \to \mathbf{B}O(n)_{conn}
+$$
+
+now captures the orthognal connection which in the physics literature is often called the [[spin connection]], denoted $\omega$. The [[vielbein]] then exhibits the original [[affine connection]] as that whose components are the [[Christoffel symbols]] $\Gamma$ of the [[Riemannian metric]] defined as above, the relation which in the physics literature appears as the [[equation]]
+
+$$
+  \omega = e^{-1}\Gamma e + e^{-1} d e
+  \,.
+$$
+
+##### Type II gravity and B-field
+
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \mathbf{B}O(n) \times O(n)
+  \to 
+  \mathbf{B}O(n,n)
+$$
 
 
 
-
-#### Gauge fields
+#### **I b)** Gauge fields
  {#GaugeFields}
 
-#### Combinations of gauge fields and geometry
- {#CombinationsOfGaugeFieldsAndGeometry}
+##### Electromagnetic field
 
-### Matter fields
+[[electromagnetic field]]:
+
+$$
+  \mathbf{Fields} = \mathbf{B}U(1)_{conn}
+$$
+
+##### Yang-Mills field
+
+[[Yang-Mills field]]
+
+$$
+  \mathbf{Fields} = \mathbf{B}G_{conn}
+$$
+
+
+### **II)** Matter fields
  {#MatterFields}
+
+[[matter]]
 
 #### Fermions
  {#Fermions}
 
-(...)
+[[fermion]]:
 
+$S$ a [[spin representation]]
+
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  S//Spin
+  \to 
+  \mathbf{B}Spin
+$$
+
+### **III)** Sigma-model fields
+
+[[sigma-model]]
+
+#### Particle
+
+[[particle]]
+
+$\mathbf{Fields} = $ [[spacetime]]
+
+#### Charged particle
+
+[[1d Chern-Simons theory]]
+
+Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
+[[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
+
+Then the topological part of the [[sigma model]] for the [[particle]] charged under $(G,\rho)$ in some $G$-[[background gauge field]] has
+
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \Omega^1(-,\mathfrak{g})//T
+  \to 
+  \Omega^1(-,\mathfrak{g})//G
+  \simeq
+   \mathbf{B}G_{conn}
+$$
+
+## Related concepts
+
+[[prequantum field theory]]
+
+* **field**
+
+* [[extended Lagrangian]], [[prequantum n-bundle]], [[action functional]]
+
+* [[classical field theory]]
+
+* [[quantum field theory]]
+
+
+## References
+
+Section _[Fields](geometry%20of%20physics#Fields)_ in 
+
+* _[[geometry of physics]]_
 
 [[!redirects quantum field]]
 [[!redirects quantum fields]]
