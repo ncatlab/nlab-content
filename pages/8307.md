@@ -199,11 +199,11 @@ For $n \in \mathbb{N}$ positive we write $\mathbb{Z}_n$ for the [[cyclic group]]
 For $a,b \in \mathbb{N}$ and positive, we have
 
 $$
-  \mathbb{Z}_a \otimes \mathbb{Z}_b \simeq \mathbb{Z}_{LCM(a,b)}
+  \mathbb{Z}_a \otimes \mathbb{Z}_b \simeq \mathbb{Z}_{(a,b)}
   \,,
 $$
 
-where $LCM(-,-)$ denotes the [[least common multiple]].
+where $(-,-)$ denotes the [[greatest common divisor]].
 
 =--
 
