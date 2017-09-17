@@ -17,7 +17,7 @@
 
 ## Definition
 
-The [[category]] of _effective [[pure motives|pure]] Chow [[motives]]_ , $Mot_{rat}^{eff}(k)$, is the [[idempotent completion]] of the [[category]] $Corr_{rat}(k)$ whose [[objects]] are [[smooth variety|smooth]] [[projective varieties]] over some [[field]] $k$, and whose [[hom-sets]] are [[Chow groups]] in the [[product]] of two varietes (see for instance [Vishik09, def. 2.1](#Vishik09)).
+The [[category]] of _effective [[pure motives|pure]] Chow [[motive]]s_ , $Mot_{rat}^{eff}(k)$, is the [[idempotent completion]] of the [[category]] $Corr_{rat}(k)$ whose [[objects]] are [[smooth variety|smooth]] [[projective varieties]] over some [[field]] $k$, and whose [[hom-sets]] are [[Chow groups]] in the [[product]] of two varietes (see for instance [Vishik09, def. 2.1](#Vishik09)).
 
 $$
   Hom_{Corr_{rat}(k)}(Y,X) \coloneqq CH^{dim X}(X \times Y)
