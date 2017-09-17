@@ -66,6 +66,11 @@ Another important thing is that the endomorphisms are by definitions often equip
 
 There are also enriched, $k$-linear and other versions, hence one can talk about representations of [[Lie algebras]], [[vertex operator algebras]], etc. See also [[representation theory]]. 
 
+## Related concepts
+
+* **representation**
+
+* [[infinity-representation]]
 
 [[!redirects representation]]
 [[!redirects representations]]
