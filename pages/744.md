@@ -128,6 +128,19 @@ If about the _n_-Lab then try the [n-Forum](http://www.math.ntnu.no/~stacey/Math
 
 If about something mathematical then try to convince [[John Baez|John]], [[Urs Schreiber|Urs]], or [[David Corfield|David]] to start a blog entry on the _n_-Category Caf&eacute; about it.
 
+### How do I cite a page on the nLab? {#Citing}
+
+You should, of course, include a link or URL to the page or pages that you wish to cite.  You should also give the information about which *version* of the page you are citing, since pages change over time.  The version number can be found as follows: look at the bottom of the page where it says "Back in time ($N$ revisions)"; the current version number is $N+1$.
+
+You can link directly to the version you want to cite by using a url such as
+
+    http://ncatlab.org/nlab/revision/PageName/VERSIONNUMBER
+
+We recommend that if you only include one URL, it be of the form `show/PageName` which will point to whatever version of the page is current when it is accessed.  This is because pages generally improve over time, and whoever is following your reference ought to be taken to the best, up-to-date version of the page.  Anyone who cares about finding the exact version of the page that you cited can figure out how to find it in the history.
+
+On the other hand, if you can give two URLs (this would be cumbersome in a printed paper, but is possible with links on a web page), then it may be helpful to give the appropriate `revision` link as well as the `show` one.
+
+
 ### I want to help, but writing math on a wiki is scary; what can I do?
 
 There are numerous ways you can help out and get acquainted with the community even if you don't (yet) feel comfortable writing math publically on a wiki.
