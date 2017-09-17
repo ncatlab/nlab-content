@@ -61,7 +61,8 @@ One case where this is arises is the _differential concretification_ of [[moduli
 
 ## Examples
 
-### Concretification of moduli of principal $\infty$-connections
+### Concretification of differential moduli
+ {#ConcretificationOfDifferentialModuli}
 
 Let $\mathbf{H}$ be a [[local (∞,1)-topos]] which in addition is a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $n \in \mathbb{N}$ and let $\mathbb{G} \in Grp(\mathbf{H})$ be an [[∞-group]] which  is admits and is equipped with $(n+1)$-[[deloopings]] $\{\mathbf{B}^k \mathbb{G}\}_{k = 0}^{n+1}$. (For instance for $n = 2$ this is a [[sylleptic ∞-group]].  Generally we can have an [[abelian ∞-group]].)
 
@@ -147,3 +148,6 @@ The differential concretification of differential moduli is discussed in
 The full proof of example \ref{DifferentialConcretificationOfCirclenconnections} is due to Joost Nuiten....
 
 [[!redirects concretifications]]
+
+[[!redirects differential concretification]]
+[[!redirects differential concretifications]]
