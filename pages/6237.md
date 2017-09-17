@@ -91,10 +91,16 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 
 * [[Cheeger-Simons differential character]]
 
+## References
+
+Character rings of [[compact Lie groups]] are discussed in 
+
+* Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
+
+
 [[!redirects character]]
 [[!redirects characters]]
 
 
 [[!redirects character ring]]
 [[!redirects character rings]]
-
