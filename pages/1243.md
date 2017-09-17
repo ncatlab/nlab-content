@@ -15,3 +15,18 @@ Thesis, New Mexico State University (1963).
 #Remarks#
 
 * Notice that there is no relation to the [[torsion]] of a connection.
+
+[[!redirects torsion subgroup]]
+[[!redirects torsion subgroups]]
+
+[[!redirects torsion group]]
+[[!redirects torsion groups]]
+[[!redirects torsion element]]
+[[!redirects torsion elements]]
+[[!redirects torsion module]]
+[[!redirects torsion modules]]
+
+[[!redirects torsion-free group]]
+[[!redirects torsion-free abelian group]]
+[[!redirects torsion-free groups]]
+[[!redirects torsion-free abelian groups]]
