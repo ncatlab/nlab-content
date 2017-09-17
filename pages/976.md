@@ -52,7 +52,7 @@ The shape category $Shape(C,D)$ has
 * its morphisms are equivalence classes of maps between 
   the $D$-expansions.
 
-A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$, which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[polytope|polyhedra]] into that of all compact [[metric space]]s. 
+A more [[categorical shape theory|categorical form of shape theory]] was studied by Deleanu and Hilton in a series of papers in the 1970s. They consider a more general setting of a functor $K : D \to C$, which in the classical Borsuk case would be the inclusion of the homotopy category of compact [[simplicial complex|polyhedra]] into that of all compact [[metric space]]s. 
 
 This was developed further by Bourn and Cordier, and a strong shape version was then found by Batanin.
 
