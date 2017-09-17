@@ -43,8 +43,134 @@ such that
 
 1. the notion of equivalence in $X_\bullet$ is compatible with that in the ambient [[∞Grpd]] ("completeness"): the sub-simplicial object $Core(X_\bullet)$ on the invertible morphisms in each degree has all face and degeneracy maps being homotopy equivalences.
 
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+A **[[Segal space]]** is a [[simplicial object]] in [[simplicial sets]]
+
+$$
+  X \in [\Delta^{op}, sSet]
+$$
+
+such that
+
+* it is fibrant in the [[Reedy model structure]] $[\Delta^{op}, sSet_{Quillen}]_{Reedy}$;
+
+* it is a [[local object]] with respect to the [[spine]] inclusions $\{Sp[n] \hookrightarrow \Delta[n]\}_{n \in \mathbb{N}}$;
+
+  equivalently: for all $n \in \mathbb{N}$ the canonical morphism
+
+  $$
+    X_n \to X_1 \times_{X_0} \cdots \times_{X_0} X_1 
+  $$
+
+  is a [[weak homotopy equivalence]] (of [[Kan complexes]], in fact).
+
+=--
+
+([Rezk, 4.1](#Rezk)).
+
++-- {: .num_defn #HomotopyCategory}
+###### Definition
+
+For $X$ a Segal space, its **[[homotopy category]]** $Ho(X)$ is the
+category whose [[objects]] are the vertices of $X_0$ 
+
+$$
+  Obj(X) = (X_0)_0
+$$
+
+and for $x,y \in Obj(X)$ the [[hom set]] is 
+
+$$
+  Ho(X)(x,y) := \pi_0 \{x\} \times_{X_0} X_1 \times_{X_0} \{y\}
+  \,.
+$$
+
+Composition 
+
+$$
+  Ho_X(x,y) \times Ho_X(y,z) \to Ho_X(x,z)
+$$
+
+is the (uniquely defined) action of the [[infinity-anafunctor]]
+
+$$
+  X_1 \times_{X_0} X_1
+  \underoverset{\simeq}{(d_2, d_0)}{\leftarrow}
+  X_2
+  \stackrel{d_1}{\to}
+  X_1
+$$
+
+on these connected components.
+
+=--
+
+([Rezk, 5.3](#Rezk))
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ a Segal space, write
+
+$$
+  X_{hoequ} \hookrightarrow X_1
+$$
+
+for the inclusion of the connected components of those vertices that become [[isomorphisms]] in the homotopy category, def. \ref{HomotopyCategory}.
+
+=--
+
+([Rezk, 5.7](#Rezk))
+
++-- {: .num_defn}
+###### Definition
+
+A Segal space $X$ is called a **complete Segal space** if 
+
+$$
+  s_0 : X_0 \to X_{hoequ}
+$$
+
+is a weak equivalence. 
+
+=--
+
+([Rezk, 6.](#Rezk))
+
++-- {: .num_remark}
+###### Remark
+
+This condition is equivalent to $X$ being a [[local object]] with respect to the morphism $N(\{0 \stackrel{\simeq}{\to} 1\}) \to *$. This is discussed [below](#CharacterizationOfCompleteness).
+
+=--
 
 ## Properties
+
+### Characterization of Completeness
+ {#CharacterizationOfCompleteness}
+
++-- {: .num_theorem}
+###### Theorem
+
+A Segal space $X$ is a complete Segal space precisely if it is a [[local object]] with respect to the morphism $N(0 \stackrel{\simeq}{\to} 1) \to *$, hence precisely if with respect to the canonical [[sSet]]-[[enriched category|enriched]] [[hom objects]] we have that
+
+$$
+  X_0 
+   \simeq 
+  [\Delta^{op}, sSet](*, X) 
+    \to 
+  [\Delta^{op}, sSet](N(0 \stackrel{\simeq}{\to} 1), X)
+$$
+
+is a weak equivalence.
+
+=--
+
+([Rezk, theorem 6.2](#Rezk))
 
 ### Model category structure
 
