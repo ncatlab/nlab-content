@@ -1,0 +1,4 @@
+
+* [Wikiepdia entry](http://en.wikipedia.org/wiki/Wolfgang_Pauli)
+
+category: people
