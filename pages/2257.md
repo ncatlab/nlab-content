@@ -22,5 +22,6 @@ __Other books__ by Moerdijk include
 
 * (with [[Andre Joyal]]) _Algebraic set theory_, London Mathematical Society Lecture Note Series __220__, Cambridge University Press 1995. viii+123 pp. ISBN: 0-521-55830-1
 
+[[!redirects I. Moerdijk]]
 
 category: people
