@@ -77,7 +77,7 @@ This is a timeline of [[category theory]] and related mathematics.  For discussi
 |1961| |[[Alexander Grothendieck]]| |[[local cohomology]]. Introduced at a seminar in 1961 but the notes are published in 1967|
 |1961| |[[Jim Stasheff]]| |[[associahedron|associahedra]] later used in the definition of [[weak n-category|weak n-categories]]|
 |1961| |[[Richard Swan]]| |Shows there is a one-to-one correspondence between topological vector bundles over a compact Hausdorff space $X$ and finitely generated projective modules over the ring $C(X)$ of continuous functions on $X$ ([[Serre-Swan theorem]])|
-|1963| |Frank Adams--[[Saunders Mac Lane]]| |[[PROP]] categories and [[PACT]] categories for higher homotopies. PROPs are categories for describing families of operations with any number of inputs and outputs. [[operad|Operads]] are special PROPs with operations with only one output|
+|1963| |[[Frank Adams]]--[[Saunders Mac Lane]]| |[[PROP]] categories and [[PACT]] categories for higher homotopies. PROPs are categories for describing families of operations with any number of inputs and outputs. [[operad|Operads]] are special PROPs with operations with only one output|
 |1963| |[[Alexander Grothendieck]]| |[[etale topology]], a special Grothendieck topology on schemes|
 |1963| |[[Alexander Grothendieck]]| |[[etale cohomology]]|
 |1963| |[[Alexander Grothendieck]]| |[[Grothendieck toposes]], which are categories which are like universes (generalized spaces) of sets in which one can do mathematics|
