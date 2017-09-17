@@ -20,7 +20,7 @@
 
 A _Cisinski model structure_ is the structure of a [[model category]] on a [[topos]] such that the cofibrations are precisely the [[monomorphism]]s.
 
-The archetyical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]].
+The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]].
 
 ## Definition
 
