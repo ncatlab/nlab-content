@@ -290,6 +290,33 @@ This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the termin
 
 This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
 
+It remains to see that $i_!$ is full and faithful and preserves the terminal object. 
+
+For the first statement notice the general fact that left 
+[[Kan extension]] (see the propeties discussed there) along a [[full and faithful functor]] $i$ satisfies $Lan_i \circ i \simeq id$. It remains to observe that since $(-)\circ i$ is not only right but also left Quillen by the above, we have that $i^* Lan_i$ applied to a cofibrant object is already the [[derived functor]] of the composite.
+
+For the second statement, notice that the point, being representable is cofibrant in $[CartSp_{smooth}, sSet]_{proj,loc}$. Therefore we may compute 
+the [[derived functor]] $i_!(*)$ as the ordinary left [[Kan extension]] $Lan_i(*)$. The [[coend formula]] gives on any $K \times D \in CartSp_{synthdiff}$
+
+$$
+  \begin{aligned}
+    (Lan_i *) : K \times D & \mapsto 
+     \int^{U \in CartSp_{smooth}}
+      CartSp_{synthdiff}(K \times D, U) \cdot
+       CartSp_{smooth}(U,*)
+      \\
+      & \simeq 
+      {\lim_\to}_{U \in CartSp_{smooth}} 
+       CartSp_{synthdiff}(K \times D , U)
+      \\
+      & \simeq *
+  \end{aligned}
+  \,,
+$$
+
+where the last step follows since we have a [[colimit]] over a category with a [[terminal object]].
+
+
 
 =--
 
