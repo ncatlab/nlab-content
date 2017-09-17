@@ -161,6 +161,10 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[RR-field]], [[differential K-theory]]
 
+* [[black brane]]
+
+  * [[black holes in string theory]]
+
 * **[[NS-brane]]**
 
   * [[string]], [[sigma-model]]
