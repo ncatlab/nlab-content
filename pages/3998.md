@@ -25,35 +25,40 @@ f_7(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 7} (-1)^{(n-7)/
 \end{aligned}
 $$
 
-etc.  In each case we could have said $\text{even}\;n \ge 0$ or $\text{odd}\;n \ge 0$, since the coefficients kill off the terms in which $n$ is smaller than the index.
+etc.  In each case we could have said $\text{even}\;n \ge 0$ or $\text{odd}\;n \ge 0$, since the coefficients kill off the terms in which $n$ is smaller than the index (indeed, the coefficients are the unique simplest expressions that do that).
 
 * Each of these defines an operation on $(\theta_i\;:\;i=1,2,3,\dots)$ that is commutative and associative.
 
 * 0 is an identity element for each of these, i.e. we have $f_k(0,\theta_2,\theta_3,\theta_4,\dots) = f_k(\theta_2,\theta_3,\theta_4,\dots)$.
 
-* Lemma: If $k \ge 2$ then
+* Lemma:
 $$
-f_k(\theta_1,\theta_2,\theta_3,\theta_4,\theta_5,\dots) - f_k(\theta_1+\theta_2,\theta_3,\theta_4,\theta_5,\dots) = k\sin\theta_1\sin\theta_2 f_{k-2}(\theta_3,\theta_4,\theta_5,\dots)
+f_k(\theta_1,\theta_2,\theta_3,\theta_4,\theta_5,\dots) - f_k(\theta_1+\theta_2,\theta_3,\theta_4,\theta_5,\dots) = \left.\begin{cases} k & \text{if}\;k \ge 2\;\text{is even} \\
+k - 1 & \text{if}\;k \ge 2\;\text{is odd}
+\end{cases} \right\} \cdot
+ \sin\theta_1\sin\theta_2 f_{k-2}(\theta_3,\theta_4,\theta_5,\dots)
 $$
-and if $k = 0$ or $1$ then the difference is 0.  (Maybe the lemma only works for $k$ even and the coefficient on the right side should be $k-1$ if $k$ is odd?)
+and if $k = 0$ or $1$ then the difference is 0.
 
 * Identities:
 $$
 \begin{aligned}
 f_0(\theta_1,\theta_2,\theta_3,\dots) &= \cos(\theta_1 + \theta_2 + \theta_3 + \cdots). \\
 f_1(\theta_1,\theta_2,\theta_3,\dots) &= \sin(\theta_1 + \theta_2 + \theta_3 + \cdots). \\
-\text{If}\;\sum_{i \ge 1} \theta_i &= \pi,\;\text{then}\;f_2(\theta_1,\theta_2,\theta_3,\dots) = \sum_{i \ge 1} \sin^2 \theta_i. \\
-\text{If}\;\sum_{i \ge 1} \theta_i &= \pi,\;\text{then}\;f_3(\theta_1,\theta_2,\theta_3,\dots) = \sum_{i \ge 1} \frac{\sin(2\theta_i)}{2}.
+\text{If}\;\sum_{i \ge 1} \theta_i = \pi,\;\text{then}\;f_2(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{i \ge 1} \sin^2 \theta_i. \\
+\text{If}\;\sum_{i \ge 1} \theta_i = \pi,\;\text{then}\;f_3(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{i \ge 1} \frac{\sin(2\theta_i)}{2}.
 \end{aligned}
 $$
 
 There is a simple geometric interpretation of the identity involving  $f_3$.  Suppose $\theta_i, i \ge 1$ are the angles between adjacent diagonals of a polygon inscribed in a circle of unit diameter.  For present purposes we consider the sides of the polygon to be "diagonals".  (All but two of the $\theta_i$ appear at each vertex.  For example, in an octagon, at one vertex the angles are $\theta_1,\dots,\theta_6$ at the next vertex they are $\theta_2,\dots,\theta_7$; at the next they are $\theta_3,\dots,\theta_8$; and then at the next they are $\theta_4,\dots,\theta_8,\theta_1$, and so on.  All eight appear at each vertex if one draws a tangent line to the circle and includes the angles between sides of the polygon and the tangent line.)  Then the value of each side of the identity involving $f_3$ is half the area of the polygon.  Each term on the right side of the identity is half the signed area of a triangle having one vertex at the center of the circle.  As one goes counterclockwise around the polygon, the signed area is positive or negative as the ray from the center is then turning counterclockwise or clockwise.  The terms on the left side may perhaps not admit so simple an interpretation when the number of nonzero $\theta_i$ is more than 4.  The special case involving only three nonzero $\theta_i$ is the well-known (?) identity that says that if $\alpha+\beta+\gamma=\pi$ then $4\sin\alpha\sin\beta\sin\gamma = sin(2\alpha) + \sin(2\beta) + \sin(2\gamma)$.
 
+(Is there any simple geometric interpreation of the identity involving $f_2$?
+
 +-- {: .query}
 [[Michael Hardy]]: A student in India whom I encountered via the internet told me that the problem of proving the "conditional identity" that $4\sin\alpha\sin\beta\sin\gamma = sin(2\alpha) + \sin(2\beta) + \sin(2\gamma)$ if $\alpha+\beta+\gamma=\pi$ recurs perennially on the joint entrance exam of the Indian Institutes of Technology.  Hence "well known".  I don't know if I ever knew his name.
 =--
 
-## A question
+## A preliminary question
 
 Are these four identities the first four terms in a sequence that continues?
 
@@ -65,6 +70,4 @@ If one does with $f_k$, for $k \ge 0$, what Euler did with $f_0$ and $f_1$, one 
 
 ## The main question
 
-Each of the trigonometric identities above can be viewed as a sequence of finitary identities by letting only finitely many $\theta$ be nonzero---each $f_k$ is the a sum of finitely many products of finitely many factors.
-
-Could a proof of the irrationality of $\pi$ using only finitary trigonometric identities be lurking somewhere in all this?
+Could a proof of the irrationality of $\pi$ using only finitary trigonometric identities be lurking somewhere in all this?  ($\left\{f_k(\theta_1,\dots,\theta_\ell)\right\}_{k,\ell}$ is a doubly indexed sequence each term of which is the a sum of finitely many products of finitely many factors.)
