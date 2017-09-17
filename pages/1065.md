@@ -19,12 +19,12 @@ One of the most refined 1-categorical approximations to the context in which suc
 
 ## Entries on concepts in homological algebra ##
 
-* [[additive and abelian categories]], [[chain complex]], [[derived category]], [[triangulated category]], [[A-infinity category]], [[differential graded category]], [[stable infinity-category]], [[projective object]], [[derived functor]], [[injective object]], [[five lemma]], [[snake lemma]], [[nonabelian homological algebra]], [[satellite]]
+* [[additive and abelian categories]], [[chain complex]], [[derived category]], [[triangulated category]], [[A-infinity category]], [[differential graded category]], [[stable infinity-category]], [[projective object]], [[derived functor]], [[injective object]], [[five lemma]], [[snake lemma]], [[nonabelian homological algebra]], [[satellite]], [[Tor]], [[Ext]]
 
 
 ## References ##
 
-* [[Charles Weibel]], _Homological algebra_
+* [[Charles Weibel]], _[[An introduction to homological algebra]]_,  Cambridge Studies in Adv. Math. 38, CUP 1994
 
 * I. Bucur, A. Deleanu, _Introduction to the theory of categories and functors_, 1968
 
