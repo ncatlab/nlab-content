@@ -99,6 +99,9 @@ This gives the [[Hochschild homology]] of $A$. See there for more details.
 
 See [[bar and cobar construction]].
 
+### For $E_\infty$-algebras
+
+See ([Fresse](#Fresse)).
 
 ## References
 
@@ -113,6 +116,12 @@ The bar complex of a bimodule is reviewed for instance in
 {#Ginzburg}
 
 around page 16.
+
+The bar complex for [[E-infinity algebra]]s is discussed in
+
+* [[Benoit Fresse]], _The bar complex of an E-infinity algebra_ Advances in Mathematics Volume 223, Issue 6, 1 April 2010, Pages 2049-2096 
+{#Fresse}
+
 
 [[!redirects bar constructions]]
 
