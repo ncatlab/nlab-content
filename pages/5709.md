@@ -23,6 +23,10 @@ The modern picture of effective low-energy QFT goes back to
 
 * J. Polchinski, _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231 (1984).
 
+The theory of [[gravity]] based on the standard [[Einstein-Hilbert action]] may be regarded as just an effective QFT, which makes some of its notorious problems be non-problems:
+
+* John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
+
 [[!redirects effective field theory]]
 [[!redirects effective low-energy quantum field theory]]
 [[!redirects effective low-energy field theory]]
