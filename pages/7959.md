@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+Broadly speaking, _string phenomenology_ refers to investigations of the connection of [[string theory]] to experimentally observed [[physics]]. More restrictively it refers to constructions of string theory [[vacua]] whose [[effective field theory]] reproduces the [[standard model of particle physics]] and/or the [[standard model of cosmology]].
+
+## References
+
+Technical surveys on particle physics string phenomenology include
+
+* Hans Peter Nilles, _String phenomenology_ (2004) ([pdf](http://www.th.physik.uni-bonn.de/nilles/db/HPtalks/1204desy.pdf))
+
+* Tatsuo Kobayashi, _String phenomenology_ ([pdf](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf))
+
+Technical surveys on cosmological string phenomenology include
+
+* S. F. King, J. P. Roberts, _Natural Dark Matter from Type I String Theory_ ([arXiv:hep-ph/0608135](http://arxiv.org/abs/hep-ph/0608135))
