@@ -35,7 +35,7 @@ If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full su
 
 * [[full subcategory]]
 
-* **full sub-2-category**
+* **full sub-2-category**, [[locally full sub-2-category]]
 
 * [[full sub-(∞,1)-category]]
 
