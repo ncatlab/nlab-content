@@ -13,3 +13,6 @@ Note that the axiom of replacement is still needed for a function (such as a [[f
 
 [[!redirects range]]
 [[!redirects ranges]]
+
+[[!redirects range of a function]]
+[[!redirects ranges of functions]]
