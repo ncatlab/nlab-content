@@ -53,14 +53,10 @@ Let $\mathbb{P}$ be the groupoid of finite cardinals with bijections as morphism
 
 +-- {: .un_remark}
 ###### Remark
-Under this symmetric monoidal structure, $\mathbb{P}$ may be characterized as the free symmetric strict monoidal 
-
-category on one generator.
+Under this symmetric monoidal structure, $\mathbb{P}$ may be characterized as the free symmetric strict monoidal category on one generator.
 =--
 
-The cardinal sum on $\mathbb{P}$ extends along the Yoneda embedding to a symmetric monoidal product $F \otimes G$ on 
-
-the presheaf category $Psh(\mathbb{P}):=[\mathbb{P}^{op},Set]$. This is an instance of the [[Day convolution]]. 
+The cardinal sum on $\mathbb{P}$ extends along the Yoneda embedding to a symmetric monoidal product $F \otimes G$ on the presheaf category $Psh(\mathbb{P}):=[\mathbb{P}^{op},Set]$. This is an instance of the [[Day convolution]]. 
 
 +-- {: .un_note}
 ###### Warning
@@ -86,11 +82,11 @@ extends uniquely up to isomorphism to a symmetric monoidal _cocontinuous_ functo
 
 $$\hat{X}: Psh(\mathbb{P}) \to D,$$ 
 
-taking a presheaf $W: Psh(\mathbb{P})^{op} \to Set$ to the [[limit|weighted colimit]] $W \cdot X$.  
+taking a presheaf $W: \mathbb{P}^{op} \to Set$ to the [[limit|weighted colimit]] $W \cdot X$.  
 
 +-- {: .un_remark}
 ###### Remark
-It follows from the earlier remark and the above that we may describe $Psh(\mathbb{P})}$ universally up to equivalence as the free symmetric monoidally cocomplete category on a single generator.
+It follows from the earlier remark and the above that we may describe $Psh(\mathbb{P})$ universally up to equivalence as the free symmetric monoidally cocomplete category on a single generator.
 =--
 
 +-- {: .un_note}
@@ -99,7 +95,15 @@ Recall that we can describe $W \cdot_{\mathbb{P}} X$ as follows: First note that
 
 $$\Lambda:=Hom_D(X(\cdot),\cdot):\mathbb{P}^{op}\times D\to Set,$$ 
 
-so $\Lambda$ also gives a functor $\mathbb{P}^{op}\to [D,Set]$ by restriction to the first coordinate. Then we define $W \cdot_{\mathbb{P} X$ to be the object representing the functor 
+so $\Lambda$ also gives a functor $\bar{X}: D\to [\mathbb{P}^{op},Set]$ by restriction to the second coordinate. 
+
++--{.query}
+I know what is trying to be said by those last five words, but it's not a clean use of language. Actually, there's a technical word for it: "currying" (after Haskell Curry). That could link to another page. 
+
+Also, the functor gotten from $\Lambda$ got turned around a little -- I fixed it.
+=--
+
+Then we define $W \cdot_{\mathbb{P}} X$ to be the object representing the functor 
 
 $$\Lambda_W:=Hom_Psh(\mathbb{P})(W,\bar{X}(\cdot)):D\to Set$$ 
 
@@ -118,7 +122,7 @@ where one of the parallel arrows involves right actions of symmetric groups $S_k
 $$W \cdot_{\mathbb{P}} X = \sum_k W(k) \otimes_{S_k} X(k).$$
 =--
 
-The aforementioned universal property of $Psh(\mathbb{P})$ with its convolution product may be more explicitly described as follows: given a symmetric monoidally cocomplete category $D$ and an object $d$ therein, there exists up to isomorphism a _unique_ symmetric monoidal cocontinuous functor $Psh(\mathbb{P}) \to D$ which sends the presheaf representable by the cardinal $1$, $h_1$, to $d$. 
+The aforementioned universal property of $Psh(\mathbb{P})$ with its convolution product may be more explicitly described as follows: given a symmetric monoidally cocomplete category $D$ and an object $d$ therein, there exists up to isomorphism a _unique_ symmetric monoidal cocontinuous functor $Psh(\mathbb{P}) \to D$ which sends the presheaf represented by the cardinal $1$, $h_1$, to $d$. 
 
 This functor takes a presheaf $F: \mathbb{P}^{op} \to Set$ to the following object of $D$: 
 
@@ -132,7 +136,7 @@ $$\hat{F}(x) = \sum_n F(k) \otimes_{S_k} x^k$$
 
 is the value at $x$ of what Joyal calls the _analytic functor_ $\hat{F}: Set \to Set$ associated to a species $F$, which has been proposed as the categorification of the theory of exponential generating functions. The fact that $F \mapsto \hat{F}(x)$ is symmetric monoidal (cocontinuous) means that there is a canonical isomorphism
 
-$$\hat{(F \otimes_{Day} G)}(x) \cong \hat{F}(x) \times \hat{G}(x)$$ 
+$$\widehat{(F \otimes_{Day} G)}(x) \cong \hat{F}(x) \times \hat{G}(x)$$ 
 
 In other words, $F \mapsto \hat{F}$ behaves like a categorified version of Fourier transform, taking convolution products to ordinary (pointwise) products. 
 =--
