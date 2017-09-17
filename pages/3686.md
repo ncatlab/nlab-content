@@ -13,11 +13,15 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Symplectomorphisms are the [[homomorphisms]] of [[symplectic manifolds]].
+
 ## Definition
 
 ### Symplectomorphisms
 
-A **symplectomorphism** from a [[symplectic manifold]] $(X_1,\omega_1)$ to a symplectic manifold $(X_2,\omega_2)$ is a [[diffeomorphism]] $\phi : X \to Y$ preserving the [[symplectic form]], i.e. such that 
+A **symplectomorphism** or **symplectic diffeomorphism** from a [[symplectic manifold]] $(X_1,\omega_1)$ to a symplectic manifold $(X_2,\omega_2)$ is a [[diffeomorphism]] $\phi : X \to Y$ preserving the [[symplectic form]], i.e. such that 
 
 $$
   \phi^* \omega_2 = \omega_1
@@ -56,7 +60,7 @@ $$
   \mathfrak{HamVect}(X, \omega) \hookrightarrow \mathfrak{SymplVect}(X, \omega) \hookrightarrow \mathfrak{Vect}(X)
 $$
 
-is the group of **Hamiltonian symplectomorphisms** 
+is the group of **Hamiltonian symplectomorphisms** or **Hamiltonian diffeomorphisms**.
 
 $$
   HamSympl(X,\omega) \hookrightarrow Sympl(X, \omega) \hookrightarrow Diff(X)
@@ -137,3 +141,8 @@ The relation to volumes of balls is discussed in
 [[!redirects n-plectomorphisms]]
 [[!redirects Hamiltonian n-plectomorphism]]
 [[!redirects Hamiltonian n-plectomorphisms]]
+
+[[!redirects symplectic diffeomorphism]]
+[[!redirects symplectic diffeomorphisms]]
+[[!redirects Hamiltonian diffeomorphism]]
+[[!redirects Hamiltonian diffeomorphisms]]
