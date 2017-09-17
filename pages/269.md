@@ -146,7 +146,7 @@ And please correct me if I'm wrong, but I believe the interval as final coalgebr
 
 1. [[cubical group]]s are not automatically fibrant
 
-1. the [[geometric realization]] of [[cartesian product]]s of cubical sets (see [geometric realization](#geometric realization) below) tends to have the wrong [[homotopy n-type|homotopy type]]:
+1. the [[geometric realization]] of [[cartesian product]]s of cubical sets (see [geometric realization](#GeometricRealization) below) tends to have the wrong [[homotopy n-type|homotopy type]]:
 
    for instance the geometric realization of the cubical set $I \times I$ has non-trivial [[homotopy group]]s and hence does not model the [[topological space]] given by the standard square, which is [[contractible]].
 
@@ -182,7 +182,8 @@ Also, it turns out that the second and third of the above disadvantages of [[cub
 1. the third problem is due to the fact that the [[cube category]] is a [[test category]] but not a [[strict test category]]. However, the category of cubes _[[connection on a cubical set|with connection]]_ is a strict test category, as shown by [[Georges Maltsiniotis]], based on work by [[Denis-Charles Cisinski]]. See _[[connection on a cubical set]]_ for details.
 
 
-### Geometric realization 
+### Geometric realization
+ {#GeometricRealization}
 
 If $X$ is a cubical set, the [[geometric realization]] $|X|$ may be defined as the [[weighted colimit]] (a [[coend]]) in [[Top]] 
 
