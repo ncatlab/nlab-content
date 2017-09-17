@@ -55,7 +55,7 @@ But the full [[quantum field theory]] determined by a [[Lagrangian]]/[[action fu
 
 
 
-### Broad physical theories
+### General principles
 
 One broad way of classifying physical theories is by the extent to which they take [[quantum physics]] into account. We have
 
@@ -72,6 +72,16 @@ The notion of quantum field theory, fundamental as it is, is quite flexible and 
 * [[effective quantum field theory]].
 
 Crucially, [[Einstein gravity]] is not known to have a formulation as a _fundamental_ quantum field theory with finitely many unspecified parameters ([[renormalization|renormalizable]]).  But it may well be a [[effective quantum field theory]], the approximation to a moe refined physical theory valid at higher energies. (This is the issue of [[quantum gravity]].) A proposal for a physical theory that achieves this is called _[[string theory]]_.
+
+### The fundamental phenomenological theories
+
+* [[gravity]], [[Yang-Mills theory]]
+
+* [[Einstein-Maxwell theory]]
+
+* [[Einstein-Yang-Mills theory]]
+
+* [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 ### Theories and their models
  {#TheoriesAndTheirModels}
