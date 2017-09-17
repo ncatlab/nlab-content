@@ -1,0 +1,25 @@
+
+# Rngs
+* table of contents
+{: toc}
+
+## Idea
+
+A rng is a [[ring]] 'without identity' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but we usually require our rings to have identities.
+
+
+## Explicit definition
+
+Specifically, a __rng__ is a [[set]] $R$ with operations of addition and multiplication, such that
+*  $R$ is a [[semigroup]] under multiplication;
+*  $R$ is an [[abelian group]] under addition;
+*  multiplication distributes over addition.
+
+
+## Fancy definition
+
+More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[Ab]], so a rng is a [[semigroup]] object in $Ab$.
+
+
+[[!redirects rng]]
+[[!redirects rngs]]
