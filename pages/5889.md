@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Geometry
-+--{: .hide}
++-- {: .hide}
 [[!include higher geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -28,7 +28,7 @@ A special case of homogeneous spaces are [[coset space]]s arising from the [[quo
 
 ## Properties
 
-Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed space|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
+Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed subspace|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
 
 
 ## Related concepts
