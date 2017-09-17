@@ -19,7 +19,7 @@
 
 ## Definition#
 
-[[Bill Lawvere]]'s definition of an _atomic_ [[infinitesimal space]] is as an [[object]] $\Delta$ in a [[topos]] $\mathcal{T}$ such that the [[inner hom]] [[functor]] $(-)^\Delta : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] (is an [[atomic object]]).
+[[William Lawvere]]'s definition of an _atomic_ [[infinitesimal space]] is as an [[object]] $\Delta$ in a [[topos]] $\mathcal{T}$ such that the [[inner hom]] [[functor]] $(-)^\Delta : \mathcal{T} \to \mathcal{T}$ has a [[right adjoint]] (is an [[atomic object]]).
 
 Notice that by definition of [[inner hom]], $(-)^\Delta$ always has a [[left adjoint]]. A [[right adjoint]] can only exist for very particular objects. Therefore the term **amazing right adjoint**
 
@@ -40,7 +40,9 @@ $$
 
 The $Y_\Delta$ defined this way is indeed a sheaf, due to the assumption that $(-)^\Delta$ preserves colimits. So this is indeed a [[right adjoint]].
 
+## Related concepts
 
+A [[topos]] $\mathcal{X}$ is a [[local topos]] (over [[Set]]) if its [[global section]] functro $\Gamma = Hom(\ast_{\mathcal{X}}, -)$ admits a [[right adjoint]]. This is hence an "external" version of the amazing right adjoint, exhibitn $\ast_{\mathcal{X}}$ as "atomic". 
 
 ## References#
 
