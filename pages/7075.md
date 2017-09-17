@@ -122,6 +122,6 @@ $$K(S^2 \times X) \cong K(S^2) \otimes K(X)$$
 
 It would be interesting to see whether this can be proved by internalizing the (classically easy) calculation for $K(S^2)$ to the topos of sheaves over $X$. 
 
-The Hopf fibrations over other normed division algebras also figure in the more complicated case of real K-theory $K_O$: they can be used to provide generators for the non-zero homotopy groups $\pi_n(B O)$, which are periodic of period 8 (not coincidentally, 8 is the dimension of the largest normed division algebra $\mthbb{O}$). [To be folowed up on.] 
+The Hopf fibrations over other normed division algebras also figure in the more complicated case of real K-theory $K_O$: they can be used to provide generators for the non-zero homotopy groups $\pi_n(B O)$, which are periodic of period 8 (not coincidentally, 8 is the dimension of the largest normed division algebra $\mathbb{O}$). [To be followed up on.] 
 
 [[!redirects Hopf fibrations]]
