@@ -424,3 +424,6 @@ The discusson of the hypercrossed complex structure on the Moore complex of a ge
 {#Carrasco-Cegarra}
 
 [[!redirects Moore-complex]]
+
+[[!redirects normalized chains complex]]
+[[!redirects normalized chain complex]]
