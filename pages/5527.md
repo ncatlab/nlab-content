@@ -274,7 +274,7 @@ $$
 By prop. \ref{DifferentialsOnAlmostChains} the differentials of $C_\bullet$ restrict on the $r$-almost homology groups to maps
 
 $$
-  \partial_r : E^r_{p,q} \to E^r_{p-q, q+r - 1}
+  \partial^r : E^r_{p,q} \to E^r_{p-r, q + r - 1}
   \,.
 $$
 
@@ -333,6 +333,7 @@ At every stage we have a new family of long exact sequences
 ## Properties
 
 ### In low-degree pages
+ {#InLowDegreePages}
 
 We characterize the value of the spectral sequence $E^r_{p,q}$, def. \ref{ExplicitForm} for low values of $r$ and, below in prop. \ref{ConvergingToGenuineHomology}, for $r \to \infty$.
 
@@ -381,8 +382,10 @@ There is, in general, a decisive difference between the homology of the associat
 
 
 ### Convergence
+ {#Convergence}
 
 #### General
+ {#ConvergenceGeneral}
 
 +-- {: .num_prop #ConvergingToGenuineHomology}
 ###### Proposition
