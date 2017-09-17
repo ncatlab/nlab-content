@@ -73,6 +73,8 @@ a proof in terms of [[moduli stacks]] is given in [Mathew 13, section 3](#Mathew
 
 * [[KO-theory]]
 
+* [[Tate K-theory]]
+
 [[!include string theory and cohomology theory -- table]]
 
 
