@@ -36,11 +36,9 @@ Various versions of Beck's [[monadicity theorem]] (old-fashioned name of some sc
 A monadic functor is strictly monadic if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]]: clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the comparison functor $K$ is also amnestic, and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories.
 
 
-## Related concepts
+## Related concepts and literature
 
-* **monadic functor** , [[comonadic functor]]
-
-* [[monadicity theorem]]
+* [[comonadic functor]], [[monadicity theorem]]
 
 [[!redirects monadic]]
 [[!redirects monadic category]]
