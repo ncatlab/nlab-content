@@ -183,6 +183,7 @@ However, def. \ref{DefinitionOfKClasses} is more directly related to the definit
 ### Classifying space
  {#ClassifyingSpace}
 
+We discuss how the [[classifying space]] for $K^0$ is the [[delooping]] of the [[stable unitary group]].
 
 +-- {: .num_defn #BUn}
 ###### Definition
@@ -436,6 +437,7 @@ Introductions are in
  {#Friedlander}
 
 * [[Max Karoubi]], _K-theory: an introduction_ 
+ {#Karoubi}
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
