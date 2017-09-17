@@ -1,4 +1,18 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Ren%C3%A9_Thom)
 
+
+## Related entries
+
+* [[Thom space]]
+
+* [[Thom spectrum]]
+
+* [[Thom's transversality theorem]]
+
+* [[Pontrjagin-Thom collaps map]]
+
+
+[[!redirects Rene Thom]]
+
 category: people
