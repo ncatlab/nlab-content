@@ -115,18 +115,11 @@ This is a semi-norm on $V$.
 ## Related concepts
 
 
-* [[Banach space]]
-
 * [[metric]]
 
 * [[quotient norm]]
 
-* [[normed group]], [[complete normed group]]
-
-* [[normed ring]], [[Banach ring]] 
-
-* [[normed algebra]], [[Banach algebra]]
-
+[[!include analytic geometry ingredients -- table]]
 
 ## References
 
