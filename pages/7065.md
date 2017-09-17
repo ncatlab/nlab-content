@@ -17,20 +17,43 @@
 
 In [[homotopy type theory]], the notion of **contractible [[type]]** is an internalization of the notion of [[contractible space]] / [[(-2)-truncated]] object.
 
+Contractible types are also called of **[[h-level]] $0$**.
+
 
 ## Definition
 
-Given a type $A$ in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]], we define a new type
+We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]], 
+
++-- {: .num_defn}
+###### Definition
+
+For $A$ a type, define a new type
 
 $$isContr(A) \coloneqq \sum_{x\colon A} \prod_{y\colon A} (y=x)$$
 
 where $(y=x)$ denotes the identity type.
 
-In [[propositions as types]] language, this can be pronounced as "there exists a point $x\colon A$ such that every other point $y\colon A$ is equal to $x$."  Under the homotopy-theoretic interpretation, it should be thought of as the type of *contractions* of $A$ --- since the dependent product describes *continuous* functions, the paths from $y$ to $x$ depend continuously on $y$ and thus exhibit a contraction of $A$ to $x$.
+We say that $A$ is a **contracrible type** if $isContr(A)$ is an [[inhabited type]].
+
+=--
+
+In [[propositions as types]] language, this can be pronounced as "there exists a point $x\colon A$ such that every other point $y\colon A$ is equal to $x$."  Under the [[homotopy theory|homotopy-theoretic]] interpretation, it should be thought of as the type of *contractions* of $A$ --- since the dependent product describes *continuous* functions, the paths from $y$ to $x$ depend continuously on $y$ and thus exhibit a contraction of $A$ to $x$.
+
+
++-- {: .num_prop}
+###### Proposition
 
 A provably [[equivalence in homotopy type theory|equivalent]] definition is
-$$isContr(A) \coloneqq A \;\times\; isProp(A) $$
-(where of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).  In other words, $A$ is contractible iff $A$ is an [[inhabited type|inhabited]] [[h-prop|proposition]].
+$$
+  isContr(A) \coloneqq A \;\times\; isProp(A) 
+  \,.
+$$
+
+=--
+
+(Here of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).  
+
+In other words, $A$ is contractible iff $A$ is [[inhabited type|inhabited]] and an [[h-proposition]].
 
 
 ## Properties
@@ -40,12 +63,10 @@ $$isContr(A) \coloneqq A \;\times\; isProp(A) $$
 * A type is contractible if and only if it is [[equivalence in homotopy type theory|equivalent]] to the [[unit type]].
 
 
-## Coq code
-
-* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Contractible.v)
-
 
 ## Semantics
+
+We discuss the [[categorical semantics]] of contractible types.
 
 Let $\mathcal{C}$ be a [[locally cartesian closed category]] with sufficient structure to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[trivial cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.)
 
@@ -65,10 +86,22 @@ We can also construct the type
 $$\prod_{x\colon B} isContr(A(x))$$
 in global context, which has a global element precisely when $isContr(A)\to B$ has a section.  Thus, a global element of this type is also equivalent to $A\to B$ being an acyclic fibration.
 
+## Related concepts
 
-## Remarks
+* [[isEquiv]]
 
-* Contractible types are also called of **[[h-level]] $0$**.
+* **isContr**
+
+* [[isProp]]
+
+## References
+
+[[Coq]]-code for contractive types is at
+
+* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Contractible.v)
+
+
+
 
 
 [[!redirects contractible type]]
