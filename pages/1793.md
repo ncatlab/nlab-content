@@ -48,6 +48,8 @@ See the [references](#References) by Spaltenstein and Hinich below.
 
 (...)
 
+
+
 ### Model structures on cochain complexes in non-negative degree {#CochainNonNeg}
 
 Let $C$ be an [[abelian category]]. 
@@ -90,12 +92,14 @@ The category $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[
 
 * weak equivalences the [[quasi-isomorphism]]s.
 
+
 This is a [[simplicial model category]]-structure
 with respect to the canonical structure of an [[sSet]]-[[enriched category]]
 induced from the dual [[Dold-Kan correspondence|Dold-Kan equivalence]]
 $Ch^\bullet_+(Ab) \simeq Ab^\Delta$ by the fact that $Ab^\Delta$  is a [[category of cosimplicial objects]] (see there) in a category with all limits and colimits.
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
@@ -467,6 +471,18 @@ and as such inherits its left lefting properties.
 This series of lemmas establishes the claimed model structure
 on $Ch^\bullet_+(Ab)$.
 
+#### The injective structure
+
+For $R$ any [[ring]] and $Ch^\bullet_+(R Mod)$ the category of non-negatively graded chain complexes of $R$-modules, this carries a model category structure with
+
+* weak equivalences the [[quasi-isomorphism]]s;
+
+* cofibrations the [[monomorphism]]s in each _positive_ degree;
+
+* fibrations the the degreewise epimorphism with [[injective object|injective]] [[kernel]]s.
+
+A detailed proof of this structure is spelled out in [section 2.5](http://www.math.fsu.edu/~gdungan/MC10.04.07.pdf) of [Dungan](#Dungan).
+
 ### Model structure on unbounded chain complexes {#OnUnbounded}
 
 #### General results
@@ -515,7 +531,7 @@ Let $R$ be a [[ring]] and $\mathcal{A} = $ $R$-[[Mod]] be the category of $R$-[[
 Given a pair of [[adjoint functor]]s 
 
 $$
-  (F \dahsv U) : \mathcal{A} \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} \mathcal{B}
+  (F \dashv U) : \mathcal{A} \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} \mathcal{B}
 $$ 
 
 between [[abelian categories]] and given $(\mathcal{P}, \mathcal{E})$ a projective class in $\mathcal{B}$ then its **pullback projective class** $(U * \mathcal{P}, U^* \mathcal{E})$ along $U$ on $\mathcal{A}$ is defined by
@@ -573,6 +589,10 @@ it seems that the injective model structure on chain complexes has been made ful
 The projective model structure is discussed after that in 
 
 * [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
+
+An explicit proof of the injective model structure with monos in positive degree is spelled out in 
+
+* Gregory Dungan, _Model categories_ ([pdf](http://www.math.fsu.edu/~gdungan/MC10.04.07.pdf))
 
 An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
 
