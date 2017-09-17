@@ -20,20 +20,41 @@
 
 ## Idea
 
-In a [[category of chain cmplexes]] $Ch_\bullet(\mathcal{A})$, the [[suspension object]] of a [[chain complex]] $C_\bullet$ is the complex 
+In a [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$, the [[suspension object]] of a [[chain complex]] $C_\bullet$ is the complex 
 
 $$
   \Sigma C_\bullet = C[1]_\bullet
 $$
 
-(or sometimes denoted $C[-1]_\bullet$, depending on an unessential choice of convention) obtained by shifting the [[graded object|degrees]] up by one:
+(or sometimes denoted $C[-1]_\bullet$, depending on an unessential choice of sign convention) obtained by shifting the [[graded object|degrees]] up by one:
 
 $$
   C[1]_n \coloneqq C_{n-1}
+$$
+
+with the [[differential]] the original one but equipped with a sign:
+
+$$
+  d^{X[1]}_n \coloneqq - d^X_{n-1}
   \,.
 $$
 
+Generally for $p \in \mathbb{Z}$ $C[p]$ is the chain complex with
+
+$$
+  C[p]_n \coloneqq C_{n-p}
+$$
+
+$$
+  d^{X[p]}_n \coloneqq (-1)^p d^X_{n-p}
+  \,.
+$$
+
+
+
 ## Related concepts
+
+* [[mapping cone]]
 
 * [[loop space object]], [[free loop space object]],
 
