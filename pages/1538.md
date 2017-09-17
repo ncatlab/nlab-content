@@ -210,7 +210,7 @@ The idea originates, of course, in
 
 * [[Robbert Dijkgraaf]] and [[Edward Witten]], [[DW.pdf:file]], Commun. Math. Phys.  129 (1990), 393.
 
-A first comprehensive structural account od DW theory as a [[FQFT|functorial QFT]] was given in 
+A first comprehensive structural account of DW theory as a [[FQFT|functorial QFT]] was given in 
 
 * [[Dan Freed]], [[Frank Quinn]], _Chern-Simons theory with finite gauge group_ ([arXiv](http://de.arxiv.org/abs/hep-th/9111004))
 
