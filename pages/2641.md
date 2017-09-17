@@ -62,9 +62,25 @@ In the first place, physicists tend to be a little carefree with the mathematics
 
 For example, physicists tend to talk about "eigenstates" as if they were elements of the Hilbert space, and other states as linear combinations of eigenstates, whereas really we are dealing with some more complicated technology like rigged Hilbert spaces or direct integrals instead of direct sums. Failure to mention such details places hurdles of communication between physicists and mathematicians. In addition, there are stylistic differences in presentation, where a physicist will happily deal with formulas replete with lots of subscripts and superscripts, whereas many mathematicians prefer dealing with more conceptual, less notation-heavy explanations. 
 
+There seem to be at least three ways of dealing with spectral theory of (unbounded) self-adjoint operators on a Hilbert space: 
+
+* The usual Stone theory
+
+* Direct integrals of Hilbert spaces
+
+* Rigged Hilbert spaces
+
+
 ### Rigged Hilbert spaces 
 
+A rigged Hilbert space 
 
+
+## Induced representations 
+
+Simultaneous diagonalization. 
+
+Fact that Poincare group is a semidirect product. 
 
 [[!redirects unitary irreps of the Poincare group]]
 [[!redirects unitary irrep of the Poincaré group]]
