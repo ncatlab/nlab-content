@@ -2,7 +2,7 @@ The ordinary [[homotopy groups]] of a space $X$ are
 $$
 \pi_n(X) = \pi^{S^0}_n(X) = [\Sigma^n S^0, X] = [S^n, X],
 $$
-where $S^0$ is the 0-[[sphere]]. We can choose another [[pointed space|based spaces]], say $A$. Thus,
+where $S^0$ is the 0-[[sphere]]. We can choose another [[pointed space|based space]], say $A$. Thus,
 $$
 \pi^{A}_n(X) = [\Sigma^n A, X],
 $$
