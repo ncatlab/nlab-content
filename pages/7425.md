@@ -133,7 +133,7 @@ $K(n)$ admits the structure of an [[A-∞ algebra]], in fact of an $MU_{(p)}$-al
 +-- {: .num_remark}
 ###### Remark
 
-For $p = 2$ it is however _not_ an [[E-∞ ring]]. Nevertheless, for many spaces $X$, the $K(n)$-[[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] of $X$ forms a commutative ring.
+With the exception of the extreme case of $n=0$, the fields $K(n)$ do not admit [[E-∞-ring]] multiplicative structures. However, when $p\neq 2$, the multiplication is homotopy commutative. For $p = 2$ it is _not_ even homotopy commutative. Nevertheless, for many spaces $X$, the $K(n)$-[[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] at the prime $2$ of $X$ forms a commutative ring.
 
 =--
 
