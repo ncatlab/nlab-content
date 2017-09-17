@@ -64,6 +64,9 @@ See [[Gleason's theorem]].
 ### Murray-von Neumann classification of factors 
 To be done...
 
+### Modular Theory
+[[modular theory]]
+
 #Remarks#
 
 * Von Neumann algebras may also be defined abstractly as (abstract) $C^*$-algebras with a predual.
@@ -95,3 +98,4 @@ Any objections to change the remarks accordingly?
 [[!redirects W*-algebras]]
 [[!redirects W-star-algebras]]
 [[!redirects von Neumann algebras]]
+[[!redirects von Neumann-algebra]]
