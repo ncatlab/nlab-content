@@ -1,0 +1,19 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[vector space]]/[[module]] over the [[field]] of [[real numbers]].
+
+## Related concepts
+
+* [[real structure]], [[complex structure]]
+
+* [[complex vector space]]
+
+* [[complexification]]
+
+
+[[!redirects real vector spaces]]
