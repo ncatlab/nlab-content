@@ -29,37 +29,42 @@ Smooth super $\infty$-groupoids include
 
 ## Definition
 
-We take a _smooth super $\infty$-groupoid_ to be a [[smooth ∞-groupoid]] but not over the [[base topos]] [[∞Grpd]] of bare [[∞-groupoid]]s, but over the [[base topos]] [[Super∞Grpd]] of [[super ∞-groupoid]]s.
+We take a _smooth super $\infty$-groupoid_ to be a [[smooth ∞-groupoid]] but not over the [[base topos]] [[∞Grpd]] of bare [[∞-groupoid]]s, but over the [[base topos]] [[Super∞Grpd]] of [[super ∞-groupoids]].
 
-Recall from the discussion at _[[super ∞-groupoid]]_ that there is a canonical [[line object]] 
 
-$$
-  \mathcal{R} \in SuperSet \hookrightarrow Super\infty Grpd
-$$
-
-which as a presheaf on the [[site]] of [[superpoint]]s is given by
-
-$$
-  \mathcal{R} : \mathbb{R}^{0|q} \mapsto (\Lambda_q)_{even}
-  \,,
-$$
-
-where $\Lambda_q$ is (the underlying set of) the [[Grassmann algebra]] on $q$ generators, and $(\Lambda_q)_{even}$ is (the underlying set of) its even part.
-
-+-- {: .num_defn}
++-- {: .num_defn #SuperCartesianSpaces}
 ###### Definition
 
+Write $sCartSp$ for the [[full subcategory]] of that of [[supermanifolds]] on the [[super Cartesian spaces]] $\{\mathbb{R}^{p|q}\}_{p,q \in \mathbb{N}}$. Regard this as a [[site]] by taking the [[coverage]] the product coverage of the [[good open cover]] coverage of [[CartSp]] and the trivial coverage on [[superpoints]].
 
-Write $sCartSp$ for the [[internal site]] in $SuperSet \hookrightarrow$ [[Super∞Grpd]] whose
+=--
 
-* [[objects]] are the [[super Cartesian spaces]] $\mathbb{R}^{p|q}$;
++-- {: .num_remark}
+###### Remark
 
-* [[morphisms]] are those morphisms of supersets that are smooth with respect to the canonical [[supermanifold]] structure 
+So a [[covering]] family of $\mathbb{R}^{p|q}$ is of the form 
+
+$$
+  \{
+    U_i \times \mathbb{R}^{0|q} \longrightarrow \mathbb{R}^{p|q}
+  \}_{i}
+$$
+
+for 
+
+$$
+  \{
+    U_i  \longrightarrow \mathbb{R}^{p}
+  \}_{i}
+$$
+
+a differentiably [[good open cover]] of $\mathbb{R}^{p}$.
+
 
 =--
 
 
-+-- {: .num_defn}
++-- {: .num_defn #SmoothSuperInfinityGroupoids}
 ###### Definition
 
 Let
@@ -68,44 +73,26 @@ $$
   SmoothSuper\infty Grpd := Sh_{(\infty,1)}(sCartSp, Super \infty Grpd)
 $$
 
-be the [[(∞,1)-topos]] of internal [[(∞,1)-sheaves]] in [[Super∞Grpd]] over the [[internal site]] $sCartSp$.
+be the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] over the site $sCartSp$, def. \ref{SuperCartesianSpaces}.
 
 =--
 
-+-- {: .num_note}
-###### Note
++-- {: .num_prop}
+###### Proposition
 
-In particular $Smooth \infty Grpd$ is an $(\infty,1)$-topos over the [[base topos]] [[Super∞Grpd]]
-
-$$
-  Smooth Super \infty Grpd
-   \stackrel{\overset{Disc_{Super}}{\leftarrow}}{\underset{\Gamma_{Super}}{\to}}
-  Super \infty Grpd
-  \,.
-$$
+The [[(∞,1)-topos]] $Smooth \infty Grpd$ of def. \ref{SmoothSuperInfinityGroupoids} is  a [[cohesive (∞,1)-topos]] over [[∞Grpd]].
 
 =--
+
+This and the stronger statement that it is in fact it is actually cohesive over [[Super∞Grpd]] is discussed [below](CohesionOverBaseToposes), see cor. \ref{SystemOfCohesion}.
+
+
 
 ## Properties
 
 ### Cohesion over smooth $\infty$-groupoids and over super $\infty$-groupoids
+ {#CohesionOverBaseToposes}
 
-
-+-- {: .num_lemma}
-###### Lemma
-
-We have that 
-
-$$
-  Smooth Super\infty Grpd
-  \simeq
-  Sh_{(\infty,1)}(CartSp_{smooth} \ltimes SuperPoint, \infty Grpd)
-  \,.
-$$
-
-=--
-
-By the discussion of externalization at [[internal site]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -117,14 +104,33 @@ $$
   Smooth Super \infty Grpd
    \stackrel{\overset{\Pi_{Super}}{\longrightarrow}}{\stackrel{\overset{Disc_{Super}}{\leftarrow}}{\stackrel{\overset{\Gamma_{Super}}{\longrightarrow}}{\underset{coDisc_{super}}{\leftarrow}}}}
   Super \infty Grpd
-   \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
-  \infty Grpd
  \,.
 $$
 
 =--
 
-In fact we have a [[commutative diagram]] of [[cohesive (∞,1)-topos]]es 
++-- {: .proof}
+###### Proof
+
+By definition of the [[coverage]] on $sCartSp$ in def. \ref{SuperCartesianSpaces}, the proof of the cohesion of [[Smooth∞Grpd]] = $Sh_\infty(CartSp)$ goes through verbatim _for each fixed [[superpoint]]_ and that gives precisely the claim.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+[[Super∞Grpd]] is [[infinitesimal cohesion|infinitesimally cohesive]] over [[∞Grpd]].
+
+=--
+
+By the discussion at [[Super∞Grpd]].
+
++-- {: .num_cor #SystemOfCohesion}
+###### Corollary
+
+$SmoothSuper\infty Grpd$ is cohesive and in 
+
+In fact we have a [[commutative diagram]] of [[cohesive (∞,1)-topos]]
 
 $$
   \array{
@@ -142,7 +148,9 @@ $$
   }
 $$
 
-The right vertical adjoints exhibit [[infinitesimal cohesion]].
+where the right vertical adjoints exhibit [[infinitesimal cohesion]].
+
+=--
 
 ## Structures 
 
@@ -159,6 +167,8 @@ The [[Lie integration]] of $\mathfrak{g}$ is ...
 ## Applications
 
 * [[D'Auria-Fre formulation of supergravity]]
+
+* [[schreiber:The brane bouquet]] of [[Green-Schwarz action functionals]] for super $p$-[[brane]] [[sigma-models]].
 
 ## Related concepts
 
