@@ -19,3 +19,5 @@ category: people
 [[!redirects Sauders MacLane]]
 [[!redirects Saunders MacLane]]
 [[!redirects S. MacLane]]
+[[!redirects MacLane]]
+[[!redirects Mac Lane]]
