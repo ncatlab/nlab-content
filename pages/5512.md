@@ -145,6 +145,7 @@ where $\delta_x: x \to x \otimes x$ is the diagonal map and $\varepsilon_x: x \t
 
 
 ## References 
+ {#References}
 
 The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduced by Lawvere in 
 
@@ -158,7 +159,10 @@ Manifestations of the Frobenius reciprocity formula, in the sense of [this secti
 
 * Andrea Ferretti, Ubiquity of the push-pull formula, MO Question 18799, March 20, 2010. [(link)](http://mathoverflow.net/questions/18799/ubiquity-of-the-push-pull-formula)
 
- 
+MO discussion includes
+
+* [Wrong-way Frobenius reciprocity for finite groups representations](http://mathoverflow.net/questions/132272/wrong-way-frobenius-reciprocity-for-finite-groups-representations)
+
 
 [[!redirects Frobenius reciprocity]]
 [[!redirects Frobenious reciprocity]]
