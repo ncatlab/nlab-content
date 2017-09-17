@@ -1,4 +1,9 @@
-#Definition#
+# Subcategories
+* table of contents
+{: toc}
+
+
+## Definition
 
 Given a [[category]] $C$, a __subcategory__ $D$ consists of a subcollection of the collection of [[object|objects]] of $C$ and a subcollection of the collection of [[morphism|morphisms]] of $D$ such that:
 
@@ -17,7 +22,7 @@ These conditions ensure that $D$ is a category in its own right and the inclusio
 * A __[[wide subcategory]]__ if every object of $C$ is also an object of $D$.
 
 
-#Non-evil variants#
+## Non-evil variants
 
 Just as subsets of a [[set]] $X$ can be identified with isomorphism classes of [[monomorphism|monic]] functions into $X$, subcategories of a category $C$ can be identified with isomorphism classes of monic _functors_ into $C$.  A functor is easily verified to be monic iff it is [[faithful functor|faithful]] and injective on objects.  This can be generalized to monomorphisms in a [[strict 2-category]].
 
@@ -35,7 +40,7 @@ In fact, any faithful functor is likewise equivalent to the inclusion of a (non-
 Other types of morphism in a 2-category which have some claim to be considered "subobjects" include [[pseudomonic functor|pseudomonic]] morphisms and [[conservative functor|conservative]] morphisms.  Pseudomonic morphisms might merit a name such as **(2,1)-subcategory**, since a functor is pseudomonic iff it is faithful (a 2-subcategory) and its induced functor between [[underlying groupoid]]s is fully faithful (a 1-subcategory).  See also [[stuff, structure, property]].
 
 
-# Discussion
+## Discussion
 
 The above discussion of non-evil variants is the result of the following discussion.
 
@@ -78,4 +83,5 @@ _Toby_: For what it\'s worth, I would be happy with that.
 =--
 
 
+[[!redirects subcategory]]
 [[!redirects subcategories]]
