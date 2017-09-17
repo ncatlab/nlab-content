@@ -1,0 +1,6 @@
+
+* [website](http://www.mathunion.org/Publications/Bulletins/38/IMU.EC/DoldA.html)
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Albrecht_Dold)
+
+category: people
