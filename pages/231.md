@@ -80,6 +80,8 @@ Mac Lane's original 1963 article contained rather longer lists of axioms for mon
 [[Adam]]: The proof (Theorem 6) in the Kelly paper relies on an extra triangle axiom not present here; it's (5) (or its dual, (7)) in Kelly's paper.  I don't think his paper manages to eliminate Mac Lane's extra requirement unless you have that second triangle as an axiom.  See also [this discussion](http://mathoverflow.net/questions/35063/must-the-left-and-right-unitors-of-a-monoidal-category-coincide-at-the-neutral-ob)
 
 [[Todd Trimble]]: A conceptually pleasant proof of the coherence theorem, proceeding from the standard definition, is given in an article of Joyal and Street (either Braided Tensor Categories or Geometry of Tensor Calculus, I; I forget which); it is based on the 2-categorical Yoneda lemma. 
+
+Yaron:  Adam, in case you're still following this, please note that in Theorem 7 of Kelly it is proven that the pentagon identity + the "usual" triangle identity (6) imply the extra identity (5), and the proof is independent of that of Theorem 6 (this is also Ex. VII.1.1, p. 165 in [[Categories Work]]).  So, everything does follow from the pentagon identity and the "usual" triangle identity.
 =--
 
 The equation satisfied when pentagon commutes is often called the **pentagon identity** or **pentagon equation**.  It is very famous.
