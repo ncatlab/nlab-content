@@ -107,6 +107,8 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 
 * [[Hamiltonian flow]]
 
+* [[exponential modality]]
+
 [[!redirects exponential map]]
 [[!redirects exponential maps]]
 [[!redirects exponential function]]
