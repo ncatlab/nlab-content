@@ -1,7 +1,10 @@
 
+**[[Tannaka duality]] for associative algebras**
 
 | [[associative algebra]]  | [[category of modules]]  |
 |--|--|
-| $A$ | $A Mod$ |
-| [[sesquialgebra]] | [[2-ring]] |
-| [[Hopf algebra]] | ... |
+| $A$ | $Mod_A$ |
+| [[sesquialgebra]] | [[2-ring]] = [[monoidal category|monoidal]]  [[presentable category]] with [[colimit]]-preserving [[tensor product]] |
+| [[bialgebra]] | strict [[2-ring]]: including [[fiber functor]] |
+| [[Hopf algebra]] | [[rigid monoidal category]] with [[fiber functor]] |
+| [[triangular Hopf algebra]] | commutative [[2-ring]]:  [[symmetric monoidal category]] |
