@@ -21,17 +21,74 @@
 
 ## Idea
 
-For $\Delta$ the [[simplex category]] the [[functor category]] $sSet^{\Delta}$ is that of [[cosimplicial object]]s in [[simplicial set]].
+For $\Delta$ the [[simplex category]] the [[functor category]] $sSet^{\Delta}$ is that of [[cosimplicial object]]s in [[simplicial set]]s: [[cosimplicial simplicial set]]s.
 
-There are various [[model structure on functors]] on this category. The injective structure is discussed in ([Jardine](#Jardine)).
+There are various standard [[model category]] structures on this category. The [[Reedy model structure]] is discussed in ([BousfieldKan](#BousfieldKan)), the injective structure is discussed in ([Jardine](#Jardine)).
 
+## Properties
+
++-- {: .num_remark}
+###### Remark
+
+The [[totalization]] of a cosimplicial simplicial set $X^\bullet$ coincides with the [[sSet]]-enriched [[hom-object]]
+
+$$
+  Tot(X_\bullet) = sSet^{\Delta}(\Delta, X_\bullet)
+  \,,
+$$
+
+where $\Delta : [k] \mapsto \Delta[k]$ is the canonical cosimplicial simplicial set given by the [[simplex]]-assignment.
+
+Since $\Delta$ is cofibrant in the [[Reedy model structure]] it follows that totalization of Reedy-fibrant cosimplicial simplicial sets preserves weak equivalences. The following lists situations in which totalization respects weak equivalences even without this assumption.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $G^\bullet \to H^\bullet$ a morphism of [[cosimplicial object|cosimplicial]] [[groupoid]]s which is degreewise an [[equivalence of categories|equivalence]], also the induced morphism of [[totalization]]s
+
+$$
+  Tot(G^\bullet) \to Tot(H^\bullet)
+$$
+
+is a weak equivalence (of [[simplicial set]]s).
+
+=--
+
+This is ([Jardine, corollary 12](#Jardine)).
+
++-- {: .num_prop}
+###### Proposition
+
+For $G^\bullet \to H^\bullet$ a degreewise weak equivalence of [[strict 2-category|strict]] [[2-groupoid]]s, the resulting morphism
+
+$$
+  \pi_0 Tot(G^\bullet) \to \pi_0 Tot(H^\bullet)
+$$
+
+is an [[isomorphism]].
+
+=--
+
+This is ([Yekutieli, theorem 2.4](#Yekutieli)).
 
 
 ## References
 
-* A. K. Bousfield and D. M. Kan. _Homotopy limits, completions and localizations_ Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
+The [[Reedy model structure]] on $sSet^{\Delta}$ is discussed in  Chapter X of
+
+* [[Aldridge Bousfield]] and [[Dan Kan]], _Homotopy limits, completions and localizations_ Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
  {#BousfieldKan}
+
+The [[model structure on functors|injective model structure]] is discussed in
 
 * [[Rick Jardine]], _Cosimplicial spaces and cocycles_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/cosimp3.pdf))
  {#Jardine}
+
+Totalization of cosimplicisl strict [[2-groupoid]]s is considered in 
+
+* [[Amnon Yekutieli]], _Combinatorial Descent Data for Gerbes_ ([arXiv:1109.1919](http://arxiv.org/abs/1109.1919))
+ {#Yekutieli}
  
+[[!redirects model structure on cosimplicial spaces]]
