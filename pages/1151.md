@@ -68,7 +68,7 @@ Finally we discuss _why_ the notion of cohomology is related to that of [[(∞,1
 
 Essentially nothing about this perspective on cohomology is really new, many aspects of it have been made explicit in the literature here and there. In fact, to some extent everything here is just an afterthought of the old seminal article
 
-* [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomologhy]]_ (1973),
+* [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ (1973),
 
 in the light of fully fledged [[(∞,1)-topos|(∞,1)-topos theory]], of which it is the effectively the seed, by noticing that this article secretly discusses precisely the [[homotopy category of an (infinity,1)-category|homotopy categories]] of [[hypercomplete (∞,1)-topos]]es. At the same time, to some extent everything here is also an afterthought of the theory of cohomology in [[category theory|1-categorical]] [[topos theory]] as reviewed for instance in
 
