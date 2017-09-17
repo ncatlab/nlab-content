@@ -13,6 +13,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The [[moduli stack of formal groups]] $\mathcal{M}_{FG}$ admits a natural [[stratification]] whose open [[strata]] are labeled by a [[natural number]] called the _height_ of formal groups.
+
+The [[complex oriented cohomology theories]] associated to these [[formal groups]] by the [[Landweber exact functor theorem]] accordingly also inherit such an integer label, called _[[chromatic filtration]]_. Studying this is the topic of [[chromatic homotopy theory]].
+
 ## Definition
 
 Let $R$ be a [[commutative ring]] and fix 
