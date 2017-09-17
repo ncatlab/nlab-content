@@ -20,7 +20,7 @@
 
 In 1970, [[Michael Barr]] gave an abstract definition of [[topological space]] based on a notion of [[convergence]] between [[ultrafilters]] (building on work by [[Ernest Manes]] on [[compact Hausdorff spaces]]).  Succinctly, Barr defined topological spaces as 'relational $\beta$-modules'.  It was subsequently realized that this was a special case of the notion of [[generalized multicategory]].  Here we unpack this definition and examine its properties.
 
-The correctness of this definition (in the sense of matching [[Bourbaki]]\'s definition) is equivalent to the [[ultrafilter principle]] ($UP$).  However, the definition can be treated on its own, even in a context without $UP$.  So we also consider the properties of relational $\beta$-modules when these might not match Bourbaki spaces.
+The correctness of this definition (in the sense of matching [[Bourbaki]]\'s definition) is equivalent to the [[ultrafilter principle]] ($UP$).  However, the definition can be treated on its own, even in a context without $UP$.  So we also consider the properties of relational $\beta$-modules when these might not match [[topological space|Bourbaki spaces]]. 
 
 
 ## Definitions
@@ -43,7 +43,7 @@ $$R \stackrel{\langle \pi_1, \pi_2 \rangle}{\to} X \times Y,$$
 
 we define $\beta(r): \beta(X) \to \beta(Y)$ to be the relation obtained by taking the image of $\langle \beta(\pi_1), \beta(\pi_2) \rangle: \beta(R) \to \beta(X) \times \beta(Y)$. It turns out, although it is by no means obvious, that $\beta$ is according to this definition a _strict_ functor on $Rel$. 
 
-The monad structure on $\beta: Set \to Set$, given by a unit $u: 1 \to \beta$ and multiplication $m: \beta \beta \to \beta$, extends not to a strict monad on $Rel$, but rather one where the transformations $u, m$ are op-lax in the sense of there being inequalities 
+The monad structure on $\beta: Set \to Set$, given by a unit $u: 1 \to \beta$ and multiplication $m: \beta \beta \to \beta$, extends not to a strict monad on $Rel$, but rather one where the transformations $u, m$ are [[lax natural transformation|op-lax]] in the sense of there being inequalities 
 
 $$\array{
 X & \stackrel{u_X}{\to} & \beta X & & & & & & \beta \beta X & \stackrel{m_X}{\to} & \beta X \\  
@@ -257,30 +257,23 @@ If $\xi = conv(\mathcal{O})$ for a topology $\mathcal{O}$, then the two inequali
 
 +-- {: .proof} 
 ###### Proof 
-The first inequality (lax unit condition) was already verified in proposition \ref{pseudo}. For the second (lax associativity), this translates into the condition 
+The first inequality (lax unit condition) was already verified in proposition \ref{pseudo}. For the second (lax associativity), let us represent the relation $\xi$ by a span $\beta S \stackrel{\pi_1}{\leftarrow} R \stackrel{\pi_2}{\to} S$, so that $\beta(\xi) = \beta(\pi_2) \beta(\pi_1)^o$. The lax associativity condition becomes 
 
-$$\label{conv1} \array{
- & & (\mathcal{U}: \beta\beta S, x: S)\;\; \exists_{F: \beta S} \mathcal{U} \rightsquigarrow_{\beta(\xi)} F \; \wedge \; F \rightsquigarrow_\xi x \\ 
- &\vdash & m_S(\mathcal{U}) \rightsquigarrow_\xi x.
-}$$ 
+$$\pi_2 \pi_1^o \beta(\pi_2) \beta(\pi_1)^o \leq \pi_2 \pi_1^o m_S$$ 
 
-Let us represent the relation $\xi$ by a span 
+which is equivalent to 
 
-$$\beta S \stackrel{\pi_1}{\leftarrow} \xi \stackrel{\pi_2}{\to} S$$ 
+$$\pi_2 \pi_1^o \beta(\pi_2) \leq \pi_2 \pi_1^o m_S \beta(\pi_1)$$ 
 
-so that $\beta(\xi)$ is represented by the span 
+or in other words that for all $\mathcal{G} \in \beta(R)$, 
 
-$$\beta\beta S \stackrel{\beta(\pi_1)}{\leftarrow} \beta(\xi) \stackrel{\beta(\pi_2)}{\to} \beta S.$$ 
+$$\label{conv1} \beta(\pi_2)(\mathcal{G}) \rightsquigarrow_\xi x \;\; \vdash \;\; m_S \beta(\pi_1)(\mathcal{G}) \rightsquigarrow_\xi x.$$ 
 
-Meanwhile, recall that $\beta(\pi_1)(\mathcal{G})$ for $\mathcal{G} \in \beta(\xi)$ is defined to be 
+Here $\beta(\pi_2)(\mathcal{G})$ for $\mathcal{G} \in \beta(R)$ is, by definition, 
 
-$$\{W \subseteq \beta S: \pi_1^{-1}(W) \in \mathcal{G}\}$$ 
+$$\{U \subseteq S: \pi_2^{-1}(U) \in \mathcal{G}\},$$ 
 
-and $\beta(\pi_2)(\mathcal{G})$ is defined similarly. So $\mathcal{U} \rightsquigarrow_{\beta(\xi)} F$ as in (eq:conv1) translates to the condition 
-
-$$\exists_{\mathcal{G} \in \beta(\xi)} \mathcal{U} = \{W \subseteq \beta S: \pi_1^{-1}(W) \in \mathcal{G}\} \; \wedge \; F = \{A \subseteq S: \pi_2^{-1}(A) \in \mathcal{G}\}$$ 
-
-Next, the monad multiplication $m_S: \beta \beta S \to \beta S$ is defined by 
+with $\beta(\pi_2)(\mathcal{G})$ defined similarly. The monad multiplication $m_S: \beta \beta S \to \beta S$ is defined by 
 
 $$(\mathcal{U}: \beta\beta S) \;\; m_S(\mathcal{U}) \coloneqq \{A \subseteq S: \delta(A) \in \mathcal{U}\}$$ 
 
@@ -289,23 +282,15 @@ where $\delta(A) = \{F \in \beta S: A \in F\}$.
 Thus, (eq:conv1) translates into the following entailment:  
 
 $$\array{
- & & \exists_{\mathcal{G}: \beta \xi, F: \beta S} \;\; \mathcal{U} = \{W \subseteq \beta S: \pi_1^{-1}(W) \in \mathcal{G}\} \; \wedge \; F = \{A \subseteq S: \pi_2^{-1}(A) \in \mathcal{G}\} \; \wedge \; N_x \subseteq F \\ 
- & \vdash & 
-\forall_{U: P S} U \in N_x \Rightarrow \delta(U) \in \mathcal{U}.
-}$$ 
-
-This can be condensed into the statement (treating $\mathcal{G}$ as a free variable): 
-
-$$\array{
  & & N_x \subseteq \{A \subseteq S: \pi_2^{-1}(A) \in \mathcal{G}\} \\ 
- & \vdash & \forall_{U: P S} U \in N_x \Rightarrow \delta(U) \in \{W \subseteq \beta S: \pi^{-1}(W) \in \mathcal{G}\}.
+ & \vdash & \forall_{U: P S} U \in N_x \Rightarrow \pi_1^{-1}(\delta(U)) \in \mathcal{G}.
 }$$ 
 
-The hypothesis says that for $U \in N_x$, we have $\pi_2^{-1}(U) \in \mathcal{G}$, and from this we wish to conclude $\pi_1^{-1}(\delta(U)) \in \mathcal{G}$. This would naturally follow if 
+This would naturally follow if 
 
 $$\forall_{U \in N_x} \pi_2^{-1}(U) \subseteq \pi_1^{-1}(\delta(U)).$$ 
 
-But a pair $(F, y)$ belongs to $\pi_2^{-1}(U)$ if $F \rightsquigarrow_\xi y$ and $y \in U$; we want to show this implies $F = \pi_1(F, y)$ belongs to $\delta(U)$, or in other words that $U \in F$. But this is tautological, from how convergence is defined in terms of a topology. 
+But a pair $(F, y)$ belongs to $\pi_2^{-1}(U)$ if $F \rightsquigarrow_\xi y$ and $y \in U$; we want to show this implies $F = \pi_1(F, y)$ belongs to $\delta(U)$, or in other words that $U \in F$. But this is tautological, given how $conv(\mathcal{O})$ is defined in terms of a topology $\mathcal{O}$. 
 =--
 
 
