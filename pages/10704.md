@@ -17,13 +17,15 @@
 ## Idea
 
 
-For $p$ a [[prime number]], a **$p$-local** [[topological space]] or rather  [[homotopy type]] or [[spectrum]] $X$ is one whose [[homotopy groups]] 
+For $p$ a [[prime number]], a **$p$-acyclic** [[topological space]] or rather  [[homotopy type]] or [[spectrum]] $X$ is one whose [[homotopy groups]] 
 
 * admit the [[structure]] of [[modules]] over the $p$-[[localization of a ring|localized ring]] of [[integers]]  $\mathbb{Z}[p^{-1}]$;
 
 equivalently:
 
 * are such that the [[tensor product]] with the $p$-[[cyclic group]] vanishes: $\pi_\bullet(X) \otimes \mathbb{Z}/p\mathbb{Z} \simeq 0$.
+
+$X$ is **$p$-local** if every map $Y \to X$ out of a $p$-acyclic $Y$ is [[homotopy|homotopic]] to the [[zero morphism]].
 
 The _$p$-localization_ is the [[localization]] that makes the $p$-local homotopy types/spectra be the [[local objects]]. 
 
