@@ -2,13 +2,18 @@
 
 Pro-homotopy theory involves the study of [[model category]] and other abstract homotopy theoretic structure on pro-categories of spaces or simplicial sets. (The term can also be used for any extension of homotopical structures for a category $C$ to the corresponding $Pro(C)$.)
 
-##Uses
+## Uses
 
 * In [[strong shape theory]], 
 
 * In [[etale homotopy theory|étale homotopy theory]] and motivic homotopy.
 
 *  In [[proper homotopy theory]].
+
+## Related concepts
+
+* [[profinite space]]
+
 
 ##References
 
