@@ -74,7 +74,7 @@ $$
     \right)
     \cdot (\delta \phi)
     + 
-    \nabla \cdot \left( \left(\frac{\delta }{\nabla \phi} L\right)
+    \nabla \cdot \left( \left(\frac{\delta }{\delta \nabla \phi} L\right)
     \delta \phi
    \right)        
   \end{aligned}
