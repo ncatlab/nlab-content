@@ -50,12 +50,61 @@ One aspect of this is that [[type IIA string theory]] with a [[condensate]] of [
 
 Another hint comes from the fact that the [[U-duality]]-structure of [[supergravity]] theories forms a clear pattern in those dimensions where one understands it well, giving rise to a description of higher dimensional supergravity theories by [[exceptional generalized geometry]]. Now, this pattern, as a mathematical pattern, can be continued to the case that would correspond to the top left corner above, by passing to [[exceptional generalized geometry]] over _hyperbolic_ [[Kac-Moody Lie algebras]] such as first [[E10]] and then, ultimately [[E11]]. The references there show that these are huge algebraic structures inside which people incrementally find all kinds of relations that are naturally identified with various aspects of M-theory. This leads to the conjecture that M-theory somehow _is_ $E_{11}$ in some way. But it all remains rather mysterious at the moment.
 
+### Relation to F-theory
+
+By the [[dualities in string theory]], 10-dimensional [[type II string theory]] is supposed to be obtained from the [[UV-completion]] of [[11-dimensional supergravity]] by first [[Kaluza-Klein mechanism|dimensionally reducing]] over a circle $S^1_A$ -- to obtain [[type IIA supergravity]] -- and then applying [[T-duality]] along another circle $S^1_B$ to obtain [[type IIB supergravity]].
+
+To obtain type IIB sugra in noncompact 10 dimensions this way, also $S^1_B$ is to be compactified (since [[T-duality]] sends the radius $r_A$ of $S^1_A$ to the inverse radius $r_B = \ell_s^2 / R_A$ of $S^1_B$).
+Therefore type IIB sugra in $d = 10$ is obtained from 11d sugra compactified on the [[torus]] $S^1_A \times S^1_B$. More generally, this torus may be taken to be an [[elliptic curve]] and this may vary over the 9d base space as an [[elliptic fibration]]. 
+
+Applying T-duality to one of the compact direction yields a 10-dimensional theory which may now be thought of as encoded by a 12-dimensional elliptic fibration. This 12d elliptic fibration encoding a 10d type II supergravity [[vacuum]] is the input data that [[F-theory]] is concerned with.
+
+A schematic depiction of this story is the following:
+
+|  |  |  |
+|--|--|--|
+| [[11d supergravity|M-theory]] in $d = 11$ | | F-theory in $d = 12$ |
+| $\downarrow$ [[Kaluza-Klein mechanism|KK-reduction]] along [[elliptic fibration]] | | $\downarrow$ [[axio-dilaton]] is modulus of [[elliptic fibration]] |
+| [[type IIA string theory|IIA string theory]] in $d = 9$ | $\leftarrow$[[T-duality]]$\rightarrow$ | [[type IIB string theory|IIB string theory]] in $d = 10$ |
+
+In the simple case where the elliptic fiber is indeed just $S^1_A \times S^1_B$, the [[imaginary part]] of its complex modulus is
+
+$$
+  Im(\tau) = \frac{R_A}{R_B}
+  \,.
+$$
+
+By following through the above diagram, one finds how this determines the [[coupling constant]] in the [[type II string theory]]:
+
+First, the KK-reduction of M-theory on $S^1_A$ yields a type IIA string coupling
+
+$$
+  g_{IIA} = \frac{R_A}{\ell_s}
+  \,.
+$$
+
+Then the T-duality operation along $S^1_B$ divides this by $R_B$:
+
+$$
+  \begin{aligned}
+    g_{IIB} & = g_{IIA} \frac{\ell_s}{R_B} 
+    \\
+    & = \frac{R_A}{R_B}
+    \\
+    & = Im(\tau)
+   \end{aligned}
+   \,.
+$$
+
+
 
 ### Many more
 
 (...)
 
 ## Related entries
+
+* [[F-theory]]
 
 * [[topological M-theory]]
 
