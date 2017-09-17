@@ -297,12 +297,12 @@ $$
  \,.
 $$
 
-Here we discuss explicit translations between the structure given by the [[localization|reflector]] $L$ and the corresponding Lawver-Tierney topology $j : \Omega \to \Omega$.
+Here we discuss explicit translations between the structure given by the [[localization|reflector]] $L$ and the corresponding Lawvere-Tierney topology $j : \Omega \to \Omega$.
 
 +-- {: .num_defn #ClosureOperatorOfReflection}
 ###### Definition
 
-Given a reflector $\sharp : \mathcal{E} \stackrel{L}{\to} Sh_j(\mathcal{E}) \hookrightarrow \mathcal{E}$, define for each object $X \in \mathcal{E}$ a **closure operator**
+Given a reflector $\sharp : \mathcal{E} \stackrel{L}{\to} Sh_j(\mathcal{E}) \hookrightarrow \mathcal{E}$, define for each object $X \in \mathcal{E}$ a **closure operator**,
 being a [[functor]] on the [[poset of subobjects]] of $X$
 
 $$
@@ -358,7 +358,7 @@ where
 
 * $\Omega \to \sharp \Omega$ is the [[unit of an adjunction|adjunction unit]];
 
-* $\chi_{\sharp true} : \sharp \Omega \to \Omega$ is the [[characteristic function]] of the [[subobject classifier|universal subobject]]
+* $\chi_{\sharp true} : \sharp \Omega \to \Omega$ is the [[characteristic function]] of the result of applying $\sharp$ to the [[subobject classifier|universal subobject]]
 
   $$
     (* \stackrel{\sharp true}{\hookrightarrow} \sharp \Omega)
