@@ -122,7 +122,7 @@ For every simplicial group $G$ the complex $(N G)_\bullet$ is a [[normal complex
 
 ### On abelian simplicial groups
 
-Let here $A$ be a simplicial [[abelian group]]. Then $(N A)_\bullet \in Ch_\bullet^+$ is an ordinary [[connective]] [[chain complex]] in the [[abelian category]] [[Ab]].
+Let here $A$ be a simplicial [[abelian group]]. Then $(N A)_\bullet \in Ch_\bullet^+$ is an ordinary [[connective chain complex|connective]] [[chain complex]] in the [[abelian category]] [[Ab]].
 
 There are two other chain complexes naturally associated with $A$:
 
