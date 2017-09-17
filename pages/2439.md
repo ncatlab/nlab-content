@@ -344,6 +344,7 @@ In ([Sachse](#Sachse)) this appears around (21).
 
 
 ### $\mathbb{K}$-Modules
+ {#SuperModulesAsbbKModules}
 
 +-- {: .num_defn}
 ###### Definition
