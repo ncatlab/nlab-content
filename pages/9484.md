@@ -276,3 +276,5 @@ An introduction to the formulation of semiclassical states in [[symplectic geome
 
 * Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_ ([pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf))
 
+
+[[!redirects semiclassical states]]
