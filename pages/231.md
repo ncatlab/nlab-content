@@ -148,6 +148,9 @@ naturally in $e$.
 
 =--
 
+### Relation to multicategories
+
+There is a [[faithful functor]] from monoidal categories to [[multicategories]], given by forming [[representable multicategory|representable multicategories]].
 
 ## References
 
