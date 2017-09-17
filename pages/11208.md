@@ -30,7 +30,7 @@ The idea of _realizability_ is essentially that of [[constructivism]], [[intuiti
 
 * [[realizability interpretation]]
 
-* [[effective topos]]
+* [[effective topos]], [[Kleene-Vesley topos]]
 
 [[!include computable mathematics -- table]]
 
@@ -78,3 +78,4 @@ See also
 
 * Wouter Pieter Stekelenburg, _Realizability Categories_, PhD thesis, Utrecht 2013 ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
 
+* [[Martin Hyland]], _Variations on Realizability_ (2000) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.22.9507))
