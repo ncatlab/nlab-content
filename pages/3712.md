@@ -60,6 +60,8 @@ Maurer-Cartan equation is called also structure equation when used to treat the 
 
 * [[flat ∞-connection]]
 
+* [[flat section]]
+
 [[!redirects integrable connection]]
 
 [[!redirects flat connections]]
