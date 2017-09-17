@@ -1,0 +1,60 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $X$ a [[smooth manifold]], $E \to X$ a [[vector bundle]] and $D : \Gamma(E) \to \Gamma(E)$ a [[differential operator]] on [[sections]] of $E$, its **symbol** is the bundle morphism
+
+$$
+   \sigma(D) : T^* X \times_X E \to E
+$$
+
+given at any point $x \in X$ on an cotangent vector being the restriction of a [[section]] $\mathbf{d}f \in \Gamma(T^* X)$ of the [[cotangent bundle]] being the [[de Rham differential]] of a [[smooth function]] by
+
+$$
+  \sigma(D)_x \colon \mathbf{d}f_x \mapsto [D,f]_x
+  \,,
+$$
+
+where in the [[commutator]] on the right we regard multiplication by $f$ as an [[endomorphism]] of $\Gamma(E)$.
+
+The symbol may naturally be thought of as an element in the [[K-theory]] of $X$ ([Freed](#Freed)).
+
+## Examples
+
+* For $X = \mathbb{R}^n$ a [[Cartesian space]] and $D$ the [[Dirac operator]] of the [[flat connection]], the symbol of $D$ reproduces the [[symbol map]] between [[differential forms]] and [[Clifford algebra]] elements.
+
+## Related concepts
+
+* [[elliptic differential operator]]
+
+* [[elliptic chain complex]]
+
+
+
+## References
+
+For instance chapter 2.5 of 
+
+* [[Nigel Higson]], John Roe, _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
+
+* [[Dan Freed]], _Geometry of Dirac operators_ ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf))
+ {#Freed}
+
+* Wikipedia, _[Symbol of a differential operator](http://en.wikipedia.org/wiki/Symbol_of_a_differential_operator)_
+
+[[!redirects principal symbol]]
+[[!redirects principal symbols]]
+
