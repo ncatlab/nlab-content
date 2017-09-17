@@ -1,2 +1,2 @@
 
-A [[function]] $f : X \to V$ on a [[topological space]] with values in a [[vector space]] $V$ has _compact support_ if the set $f^{-1}(\{0\}) \subset X$ is a [[compact space|compact subset]].
+A [[function]] $f : X \to V$ on a [[topological space]] with values in a [[vector space]] $V$ has _compact support_ if the closure of the set where it is non-zero is a [[compact space|compact subset]].  That is, the subset $\overline{f^{-1}(V \setminus \{0\})}$ is a [[compact space|compact subset]] of $X$.
