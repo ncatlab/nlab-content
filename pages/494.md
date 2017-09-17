@@ -254,6 +254,9 @@ For more on this see
 ## Properties
  {#Properties}
 
+
+### General
+
 +-- {: .num_prop #UniquenessOfAdjoints}
 ###### Proposition
 
@@ -313,7 +316,7 @@ The argument that shows the preservation of colimits by $L$ is analogous.
 +-- {: .num_note #AdjointFunctorTheorem}
 ###### Note
 
-A partial converse to this fact is provided by the [[adjoint functor theorem]].
+A partial converse to this fact is provided by the [[adjoint functor theorem]]. See also _[PointwiseExpression](#PointwiseExpression)_ below.
 
 =--
 
@@ -436,8 +439,69 @@ Using the given [[isomorphism]], we may transfer the [[comonad]] structure on $L
 
 =--
 
-## Examples {#Examples}
+### Pointwise expression
+ {#PointwiseExpression}
 
+Let $R : D \to C$ be a [[right adjoint]] [[functor]] such that
+
+* $C$ is a [[locally small category]], 
+
+* $D$ has all small [[limit]]s.
+
+Then the value of the left adjoint $L : C \to D$ on any object $c$ may be computed by a [[limit]]:
+
+$$
+  L c \simeq \lim_{c\to R d} d
+$$
+
+over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious tringle commute in $C$) of the projection functor
+
+$$
+  L c = \lim_{\leftarrow} (c/R \to D )
+  \,.
+$$
+
+Because with this there is for every $d$ an obvious morphism
+
+$$
+  L R d \stackrel{=}{\to} \lim_{R d \to R d'} d' \to d
+$$
+
+(the component map over $d$ of the limiting [[cone]]) while moreover because $R$ preserves limits, we have an [[isomorphism]]
+
+$$
+  R L c \simeq \lim_{c\to R d} R d
+$$ 
+
+and hence an obvious morphism of [[cone]] tips
+
+$$
+ c \to R L c
+ \,.
+$$  
+
+It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$.
+
+See [[adjoint functor theorem]] for more.
+
+
+## Examples 
+ {#Examples}
+
+
+The central point about examples of adjoint functors is:
+
+_Adjoint functors are ubiquitous_ . 
+
+To a fair extent, [[category theory]] is all about adjoint functors and the other [[universal construction]]s: [[Kan extension]]s, [[limit]]s, [[representable functor]]s, which are all special cases of adjoint functors -- and adjoint functors are special cases of these.
+
+Listing examples of adjoint functors is much like listing examples of [[integral]]s in [[analysis]]: one can and does fill books with these. (In fact, that analogy has more to it than meets the casual eye: see [[coend]] for more).
+
+
+Keeping that in mind, we do list some special cases and special classes of examples that are useful to know. But any list is necessarily wildly incomplete.
+
+
+### General
 
 * A pair of adjoint functors $(L \dashv R)$ where $R$ is a [[full and faithful functor]] exhibits a [[reflective subcategory]]. 
 
@@ -512,7 +576,7 @@ Using the given [[isomorphism]], we may transfer the [[comonad]] structure on $L
 
 For standard references see any of the standard references on [[category theory]], listed there, for instance 
 
-* [[Francis Borceux]], _Handbook of categorical algebra_, vol 1. 
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1. 
 
 A video of a pedagogical introduction to adjoint functors is provided by
 
