@@ -27,7 +27,7 @@ Due to the [[self-dual higher gauge theory|self-duality]] a characterization of 
 
 ## References
 
-* [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+* [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
  {#Witten07}
 
 * [[Edward Witten]], _Geometric Langlands From Six Dimensions_ ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
