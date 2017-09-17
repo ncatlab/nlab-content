@@ -70,6 +70,8 @@ A morphism of group schemes $G\to H$ is a morphism of schemes that is a group ho
 
 ## Cartier dual
 
+See also [[Cartier duality]].
+
 Suppose now that $G$ is a finite flat commutative group scheme (over $X$). The __Cartier dual__ of $G$ is given by the functor $G^D(S)=Hom (G\otimes S, \mathbb{G}_m \otimes S)$. The Hom is taken in the category of group schemes over $S$.
 
 For example, $\alpha_p^D\simeq \alpha_p$.  
