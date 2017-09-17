@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A kind of [[spectral sequence]] for the computation of the [[singular homology]] of the [[pullback]] of a [[fibration]].
+
+## References
+
+* [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _III: The Eilenberg-Moore spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch3.pdf))
