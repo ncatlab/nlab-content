@@ -1,13 +1,16 @@
-<div class="rightHandSide toc">
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-
-***
-
+=--
+#### Supergeometry
++--{: .hide}
 [[!include supergeometry - contents]]
-
-
-</div>
+=--
+=--
+=--
 
 
 +-- {: .standout}
