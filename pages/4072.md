@@ -21,17 +21,10 @@ A **finite limit** is a [[limit]] over a [[diagram]] that is a [[finite category
 More generally, in [[higher category theory]], a finite limit is a [[limit]] of a diagram that is a finite [[(n,r)-category]].
 
 
-## Related concepts
-
-A [[category]] that has all finite limits is called a [[finitely complete category]] or a (finitary) [[essentially algebraic theory]].
-
-A [[functor]] that preserves finite limits is called [[left exact functor]], a _lex_ functor, a _cartesian_ functor, or a _finitely continuous_ functor.   The 2-category of finitely complete categories, left exact functors and natural transformations is called [[Lex]].
-
-For the analog notion in [[(∞,1)-category theory]] see [[finite (∞,1)-limit]].
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[category]] that has all finite [[product]]s and [[equalizer]]s also has all finite limits.
@@ -40,7 +33,7 @@ A [[category]] that has all finite [[product]]s and [[equalizer]]s also has all 
 
 This is analogous to how a category with _all_ small products and equalizers has all small [[limits]].  We also have:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[category]] that has all [[pullbacks]] and a [[terminal object]] also has all finite limits.
@@ -48,6 +41,15 @@ A [[category]] that has all [[pullbacks]] and a [[terminal object]] also has all
 =--
 
 More precisely, finite limits are contained in the [[saturation of a class of limits|saturation]] of the class containing only finite products and equalizers, and also that of the class containing only pullbacks and terminal objects.  (The actual saturation is somewhat larger than this --- it is the class of [[L-finite limits]].)
+
+
+## Related concepts
+
+A [[category]] that has all finite limits is called a [[finitely complete category]] or a (finitary) [[essentially algebraic theory]].
+
+A [[functor]] that preserves finite limits is called [[left exact functor]], a _lex_ functor, a _cartesian_ functor, or a _finitely continuous_ functor.   The 2-category of finitely complete categories, left exact functors and natural transformations is called [[Lex]].
+
+For the analog notion in [[(∞,1)-category theory]] see [[finite (∞,1)-limit]].
 
 
 [[!redirects finite limits]]
