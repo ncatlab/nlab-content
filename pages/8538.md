@@ -35,7 +35,11 @@ In most usual logical systems, it follows that an inconsistent system admits a p
 
 ## Related concepts
 
+* [[consistency]]
+
 * [[paraconsistent logic]]
+
+
 
 [[!redirects inconsistencies]]
 [[!redirects inconsistent system]]
