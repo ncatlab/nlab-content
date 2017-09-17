@@ -408,7 +408,7 @@ This appears as Lemma 18.2 in [MaySimpOb](#MaySimplicialObjects).
 For $G$ a simplicial group, define the [[simplicial set]] $W G$ to be the [[decalage]] of $\overline{W}G$
 
 $$
-  W := Dec \overline{W}G
+  W G := Dec \overline{W}G
   \,.
 $$
 
