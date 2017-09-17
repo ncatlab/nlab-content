@@ -20,7 +20,7 @@ Point of a spectrum of an operator algebra should be thought as a common general
 
 ## Overview
 
-__Spectral theory__ concerns generalizations of the theory of spectrum of linear operator on finite-dimensional complex vector space. Most of such generalizations occur in functional analysis (spectral theory of bounded Hermitean operator on a Hilbert space, spectral theory of unbounded operators, spectral theory of families of operators, spectral theory of complex Banach algebras). Spectral theory is in the basis of Gel'fand-Neimark theorem. The points of the Gel'fand spectrum of a commutative $C^*$-algebra have spectral origin in the sense of [[functional analysis]]; the structure of an operator algebra reflects this -- the characters encode related information, and in more general cases, the ideal and even module structure. 
+__Spectral theory__ concerns generalizations of the theory of the set of eigenvalues of a linear operator on a finite-dimensional vector space, and [[spectrum of a linear operator]], not necessarily bounded, on an infinite-dimensional {\it complex} vector space. Most of such generalizations occur in functional analysis (spectral theory of bounded Hermitean operator on a Hilbert space, spectral theory of unbounded operators, spectral theory of families of operators, spectral theory of complex Banach algebras). Spectral theory is in the basis of Gel'fand-Neimark theorem. The points of the Gel'fand spectrum of a commutative $C^*$-algebra have spectral origin in the sense of [[functional analysis]]; the structure of an operator algebra reflects this -- the characters encode related information, and in more general cases, the ideal and even module structure. 
 
 While spectra generalize eigenvalues, the generalized eigenmodes are studied in harmonic analysis, included noncommutative where irreducible representations generalize characters. It is traditional that by spectral theory in functional setup one subsumes only those "harmonic" issues which are closely  related to operator theoretic holomorphic calculus.
 
@@ -43,7 +43,7 @@ Grothendieck has defined a prime spectrum of commutative unital ring having in m
 ## Other related notions
 
 * spectral flow in geometry; related to study of index theorems
-* Very recently, V. Retakh at all proved some analogues of spectral theorems for tensor of higher rank, rather than matrices. 
+* Very recently, Gnang, Elgammal and Retakh proved some analogues of spectral theorems for tensors of higher rank, rather than for matrices. 
 
 
 ## Literature
