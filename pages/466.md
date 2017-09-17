@@ -13,7 +13,7 @@ The Yoneda lemma is an elementary but deep and central result in [[category theo
 
 ## Preliminaries
 
-Recall that for $C$ a [[locally small category]] and $[C^{op}, Set] (= Set^{C^{op}} = Hom(C^{op},Set))$ the category of [[presheaf|presheaves]] on $C$, there naturally is a functor 
+Recall that for $C$ a [[locally small category]] and $[C^{op}, Set] (= Set^{C^{op}} = Hom(C^{op},Set))$ the [[category of presheaves]] on $C$, there naturally is a functor 
 
 $$
   Y : C \to [C^op,Set]
