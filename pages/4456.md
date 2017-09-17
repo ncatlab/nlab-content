@@ -1,6 +1,11 @@
+# Preframes
+* table of contents
+{: toc}
+
 ## Definition
 
 A **preframe** is a [[poset]] with finite [[meets]] and [[directed set|directed]] [[joins]], and in which the finite meets distribute over the directed joins.
+
 
 ## Remarks
 
@@ -12,4 +17,6 @@ Since preframes involve operations of arbitrarily large arity, it is not automat
 
 * [[Peter Johnstone]] and [[Steven Vickers]], "Preframe presentations present", [MR](http://www.ams.org/mathscinet-getitem?mr=1173013).
 
+
+[[!redirects preframe]]
 [[!redirects preframes]]
