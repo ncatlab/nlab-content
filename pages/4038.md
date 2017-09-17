@@ -6,6 +6,6 @@
 
 * [[Goodwillie calculus]]
 
-
+[[!redirects T. Goodwillie]]
 [[!redirects Tom Goodwillie]]
 category: people
