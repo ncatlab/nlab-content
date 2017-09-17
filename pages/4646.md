@@ -245,6 +245,8 @@ See [[higher parallel transport]] for details.
 
 * **parallel transport**, [[higher parallel transport]], [[super parallel transport]]
 
+  * [[nonabelian Stokes theorem]]
+
 * [[holonomy]]
 
   * [[holonomy group]]
