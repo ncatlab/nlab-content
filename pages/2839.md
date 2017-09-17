@@ -16,14 +16,20 @@
 * table of contents
 {: toc}
 
-## Idea
+## Ideas
 
-In [[algebraic topology]] and [[homotopy theory]], a **cocylinder** is a dual construction to a [[cylinder]].  In contexts where spatial intuition is involved, it is perhaps more often called a [[path space]]  $X^I$ or a [[path space object]].
+In [[algebraic topology]] and [[homotopy theory]], a **cocylinder** is a dual construction to a [[cylinder]].  In contexts where spatial intuition is involved, it is perhaps more often called a [[path space]]  $X^I$ or a [[path space object]]. In general, however, a cocylinder, $X^I$, may not involve any object $I$ nor use a mapping space in its construction, see [[cylinder functor]] for the discussion of the dual point.
 
+## Definition (cocylinders and cocylinder functors)
+
+These are the duals of [[cylinders]] and [[cylinder functors]] so can safely be left as an exercise.
+
+## Ideas continued
+ 
 Similarly, the **mapping cocylinder**, which is dual to the [[mapping cylinder]], is equally called the **mapping path space** or **mapping path fibration**.  It provides a canonical way to factor any map as a [[homotopy equivalence]] followed by a [[fibration]].
 
 
-## Definition
+## Definition (mapping cocylinders)
 
 ### In category theory
 
