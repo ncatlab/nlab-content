@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-A special class of cases which is much simpler than the general case but still of paramount interest is the moduli stack of elliptic curves over the [[complex numbers]], hence of maps $Spec(\mathcal{C}) \to \mathcal{M}_{ell}$. These are just [[complex manifold|complex]] [[tori]]/[[Riemannian manifolds]] of [[genus of a surface|genus]] 1 which may be identified with quotients of the [[complex plane]] by a framed [[lattice]] well-defined up to [[Möbius transformations]], and so in this case the moduli stack of elliptic curves is just the [[homotopy quotient]] (the [[orbifold]] quotient) of the [[upper half plane]] by the [[action]] of the [[modular group]]. This is equivalently the [[Teichmüller orbifold]] $\mathcal{T}_{(1,1)}$. This case is considered below in 
+A special class of cases which is much simpler than the general case but still of paramount interest is the moduli stack of elliptic curves over the [[complex numbers]], hence of maps $Spec(\mathcal{C}) \to \mathcal{M}_{ell}$. These are just [[complex manifold|complex]] [[tori]]/[[Riemannian manifolds]] of [[genus of a surface|genus]] 1 which may be identified with quotients of the [[complex plane]] by a framed [[lattice]] well-defined up to [[Möbius transformations]], and so in this case the moduli stack of elliptic curves is just the [[homotopy quotient]] (the [[orbifold]] quotient) of the [[upper half plane]] by the [[action]] of the [[modular group]]. (This is equivalently the [[moduli space of curves]] $\mathcal{M}_{(1,1)}$ which in turn is a quotient of the [[Teichmüller space]] $\mathcal{T}_{(1,1)}$.) This case is considered below in 
 
 * _[Description over the complex numbers](#DescriptionOverTheComplexNumbers)_.
 
