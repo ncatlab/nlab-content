@@ -31,6 +31,12 @@ A **split idempotent** in a [[category]] $C$ is a [[morphism]] $e: A \to A$ whic
 
 * A category in which all idempotents split is called [[idempotent complete (infinity,1)-category|idempotent complete]]. The free completion of a category under split idempotents is also called its [[Karoubi envelope]].
 
+## Related concepts
+
+* [[idempotent completion]]
+
+* [[pseudo-abelian category]]
+
 [[!redirects split idempotents]]
 [[!redirects splitting]]
 [[!redirects splittings]]
