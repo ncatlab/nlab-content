@@ -112,11 +112,13 @@ This probability measure will in general not extend to a state.
 
 Other theorems about the foundations of [[quantum mechanics]] include:
 
-* [[Kochen-Specker theorem]]
+* [[order-theoretic structure in quantum mechanics]]
 
-* [[Alfsen-Shultz theorem]]
+  * [[Kochen-Specker theorem]]
 
-* [[Harding-Döring-Hamhalter theorem]]
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
 
 * [[Wigner theorem]]
 
