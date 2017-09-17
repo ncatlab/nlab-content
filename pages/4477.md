@@ -24,15 +24,6 @@ For $R$ a [[ring]], a _projective $R$-module_ is a [[projective object]] in the 
 
 =--
 
-
-## Properties
-
-
-
-
-
-### Equivalent characterizations
-
 +-- {: .num_prop}
 ###### Proposition
 
@@ -46,6 +37,141 @@ out of it is an [[exact functor]].
 
 =--
 
+
+
+## Properties
+
+### Existence of enough projective modules
+
++-- {: .num_lemma #FreeModulesAreProjective}
+###### Lemma
+
+Assuming the [[axiom of choice]],
+a [[free module]] $N \simeq R^{(S)}$ is projective.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Explicitly: if $S \in Set$ and $F(S) = R^{(S)}$ is the [[free module]] on $S$, then a module homomorphism $F(S) \to N$ is specified equivalently by a [[function]] $f : S \to U(N)$ from $S$ to the underlying set of $N$, which can be thought of as specifying the images of the unit elements in $R^{(S)} \simeq \oplus_{s \in S} R$ of the ${\vert S\vert}$ copies of $R$.
+
+Accordingly then for $\tilde N \to N$ an epimorphism, the underlying function $U(\tilde N) \to U(N)$ is an epimorphism, and the [[axiom of choice]] in [[Set]] says that we have all lifts $\tilde f$ in
+
+$$
+  \array{
+     && U(\tilde N)
+     \\
+     & {}^{\tilde f} \nearrow & \downarrow
+     \\
+     S &\stackrel{f}{\to}& U(N)
+  }
+  \,.
+$$
+
+By [[adjunction]] these are equivalently lifts of module homomorphisms
+
+$$
+  \array{
+     && \tilde N
+     \\
+     & \nearrow & \downarrow
+     \\
+     R^{(S)} &\stackrel{}{\to}& N
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #FreeForgetfulCounitEpimorphism}
+###### Proposition
+
+Assuming the [[axiom of choice]], the category $R$[[Mod]] has _[enough projectives](projective%20object#EnoughProjectives)_: for every $R$-[[module]] $N$ there exists an [[epimorphism]] $\tilde N \to N$ where $\tilde N$ is a projective module.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $F(U(N))$ be the [[free module]] on the [[set]] $U(N)$ underlying $N$. By lemma \ref{FreeModulesAreProjective} this is a projective module.
+
+The [[counit of an adjunction|counit]] 
+
+$$
+  \epsilon : F(U(N)) \to N
+$$
+
+of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F \dashv U)$ is an [[epimorphism]]. 
+
+=--
+
+
+
+
+
+### Explicit characterizations
+
+We discuss the more explicit characterization of projective modules
+as [[direct sum|direct summands]] of [[free modules]].
+
+
++-- {: .num_lemma #DirectSummandOfFreeIsProjective}
+###### Lemma
+
+If $N \in R Mod$ is a [[direct sum|direct summand]] of a [[free module]], hence if there is $N' \in R Mod$ and $S \in Set$ such that 
+
+$$
+  R^{(S)} \simeq N \oplus N'
+  \,,
+$$
+
+then $N$ is a projective module.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+Let $\tilde K \to K$ be a surjective homomorphism of modules and 
+$f : N \to K$ a homomorphism. We need to show that there is a lift $\tilde f$ in
+
+$$
+  \array{
+    && \tilde K
+    \\
+    & {}^{\mathllap{\tilde f}}\nearrow & \downarrow
+    \\
+    N &\stackrel{f}{\to}& K 
+  }
+  \,.
+$$
+
+By definition of [[direct sum]] we can factor the [[identity]] on $N$ as
+
+$$
+  id_N : N \to N \oplus N' \to N
+  \,.
+$$
+
+Since $N \oplus N'$ is free by assumption, and hence projective by lemma \ref{FreeModulesAreProjective}, there is a lift $\hat f$ in 
+
+$$
+  \array{
+    && && \tilde K
+    \\
+    && & {}^{\mathllap{\hat f}}\nearrow & \downarrow
+    \\
+    N &\to& N \oplus N'  &\to& K
+  }
+  \,.
+$$
+
+Hence $\tilde f : N \to N \oplus N' \stackrel{\hat f}{\to} \tilde K$ is a lift of $f$.
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -56,9 +182,9 @@ An $R$-module $N$ is projective precisely if it is the [[direct summand]] of a [
 +-- {: .proof}
 ###### Proof
 
-Clearly if $N$ is a direct summand then it is projective. We show the converse.
+By lemma \ref{DirectSummandOfFreeIsProjective} if $N$ is a direct summand then it is projective. So we need to show the converse.
 
-Let $F(U(N))$ be the [[free module]] on the [[set]] $U(N)$ underlying $N$. The [[counit of an adjunction|counit]] 
+Let $F(U(N))$ be the [[free module]] on the [[set]] $U(N)$ underlying $N$ as in the proof of prop. \ref{FreeForgetfulCounitEpimorphism}. The [[counit of an adjunction|counit]] 
 
 $$
   \epsilon : F(U(N)) \to N
@@ -67,6 +193,7 @@ $$
 of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F \dashv U)$ is an [[epimorphism]]. Thefore if $N$ is projective, there is a [[section]] $s$ of $\epsilon$. This exhibits $N$ as a direct summand of $F(U(N))$.
 
 =--
+
 
 ### Relation to projective resolutions of chain complexes
  {#RelationToProjectiveResolution}
@@ -97,7 +224,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This means precisely that $Q N \to N$ is an [[injective resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that in this model structure every object is fibrant, so that cofibrant resolutions are the only resolutions that need to be considered.
+This means precisely that $Q N \to N$ is an [[cofibrant resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that in this model structure every object is fibrant, so that cofibrant resolutions are the only resolutions that need to be considered.
 
 =--
 
@@ -108,8 +235,7 @@ Every $R$-module has a projective resolution.
 
 =--
 
-This means that $R$[[Mod]] is said to have **[[projective object|enough projectives]]** if for every module $N$ there is a projective module $P$ and an [[epimorphism]] $P \to N$.
-
+See at _[[projective resolution]]_.
 
 
 ## Examples
