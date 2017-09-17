@@ -6,9 +6,11 @@ The [[formal group]]  of the [[multiplicative group]] .
 Its formal group law $f(x,y) \in R[ [x,y] ]$ is
 
 $$
-  f(x,y) = x + y + x y
-  \,.
+  f(x,y) = x + y + \beta x y
+  \,,
 $$
+
+where $\beta$ is the [[Bott element]].
 
 ## Related concepts
 
