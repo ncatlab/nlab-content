@@ -21,7 +21,13 @@ This is to distinguish from more general notions of [[cohomology]], such as [[ge
 
 ## Properties
 
+### Presentation by singular cohomology
+
 Ordinary cohomology is modeled by [[singular cohomology]].
+
+### Chromatic filtration
+
+[[!include chromatic tower examples - table]]
 
 ## Related concepts
 
