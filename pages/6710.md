@@ -384,6 +384,8 @@ Other accounts include
 
 * _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
 
+* [[Peter Teichner]], Elmar Vogt, _All 4-manifolds have $Spin^c$-structures_ ([pdf](http://people.mpim-bonn.mpg.de/teichner/Papers/spin.pdf))
+
 ### As $KU$-orientation/anomaly cancellation in type II string theory
 
 That the $U(1)$-[[gauge field]] on a [[D-brane]] in [[type II string theory]] in the absense of a [[B-field]] is rather to be regarded as part of a $spin^c$-structure was maybe first observed in 
@@ -393,6 +395,8 @@ That the $U(1)$-[[gauge field]] on a [[D-brane]] in [[type II string theory]] in
 The [[twisted spin^c structure]] (see there for more details) on the [[worldvolume]] of [[D-branes]] in the presence of a nontrivial [[B-field]] was discussed in
 
 * [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
+
+See at _[[Freed-Witten-Kapustin anomaly cancellation]]_.
 
 A more recent review is provided in
 
