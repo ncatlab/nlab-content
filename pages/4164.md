@@ -20,7 +20,8 @@
 
 
 ## Idea ##
-The Reeh-Schlieder theorem is a theorem about [[local nets]] in the [[Haag-Kastler approach]] to [[quantum field theory]]. It states that for certain nets the set of vectors $\mathcal{M}(\mathcal{O}) \Omega$ (local algebra of a bounded open set applied to the vacuum vector, see [[Haag-Kastler vacuum representation]] for definitions and details) is dense in the given state space, a [[Hilbert space]] $\mathcal{H}$.
+
+The Reeh-Schlieder theorem is a theorem about [[local nets]] in the [[Haag-Kastler approach]] to [[quantum field theory]]. It states that for certain nets the set of vectors $\mathcal{M}(\mathcal{O}) \Omega$ (local algebra of a bounded open set applied to the vacuum vector, see [[Haag-Kastler vacuum representation]] for definitions and details) is dense in the given [[state]] space, a [[Hilbert space]] $\mathcal{H}$.
 
 The Reeh-Schlieder theorem can be proven to be valid in the [[Haag-Kastler vacuum representation]], but the statement itself is sometimes used as an axiom and called the **Reeh-Schlieder property** in this case.
 
@@ -28,7 +29,10 @@ The Reeh-Schlieder theorem is of central importance for the mathematical structu
 
 Complementary statements about the asymptotic "vacuum-like appearance" of localized observables exist, too, and are commonly called [[cluster theorem]]s.
 
+In other parts of the physics literature, notably in the context of [[CFT]], the Reeh-Schlieder property is also called the **state-operator correspondence**. See also the remark in ([Schroer, footnote 14, page 34](#Schroer)).
+
 ## Abstract ##
+
 We state the theorem for a vacuum representation on [[Minkowski spacetime]]. Since the theorem has some controverse consequences for the physical interpretation of the theory, some of which will be mentioned in the corresponding paragraph, we take a quick look at which axioms really enter into the proof of the theorem. The references include work on the generalization of the theorem to more general [[spacetimes]] as well as work concerned with dodging the theorem and its consequences by choosing an alternative set of axioms.
 
 ## Definition ##
@@ -147,7 +151,15 @@ About work to avoid the Reeh-Schlieder theorem and its counter intuitive implica
 
 * [[Hans Halvorson]], _Reeh-Schlieder Defeats Newton-Wigner: On alternative localization schemes in relativistic quantum field theory_ ([arXiv](http://xxx.uni-augsburg.de/abs/quant-ph/0007060))
 
+The observation that the Reeh-Schlieder property describes what elsewhere is called the _operator-state correspondence_ is made explicit for instance in footnote 14 on page 34 of
+
+* [[Bert Schroer]], _Particle Physics and QFT at the Turn of the Century:
+Old principles with new concepts_ ([pdf](http://biblioteca.cat.cbpf.br/pub/apub/nf/2000/nf01900.pdf))
+{#Schroer}
+
 [[!redirects Reeh-Schlieder Theorem]]
 [[!redirects Reeh-Schlieder property]]
 [[!redirects Reeh-Schlieder Property]]
 
+[[!redirects operator-state correspondence]]
+[[!redirects state-operator correspondence]]
