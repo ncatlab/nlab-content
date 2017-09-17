@@ -106,7 +106,7 @@ Due to the third point one may regard $K(n)$ as a [[E-∞ field]] among the [[E-
 +-- {: .num_prop}
 ###### Proposition
 
-For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory [[E-∞ ring]] $K(n)$ is, up to [[equivalence in an (∞,1)-category]], the unique [[E-∞ ring]] which is
+For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory [[E-∞ ring]] $K(n)$ is, up to [[equivalence in an (∞,1)-category]], the unique [[A-∞ ring]] which is
 
 1. [[complex oriented cohomology theory|complex oriented]];
 
@@ -194,7 +194,13 @@ $$
   \mathbb{Z}_2
 $$
 
-between the [[mapping space]] from the [[classifying space]] for [[circle n-bundle|circle (n+1)-bundles]] to the [[delooping]] of the [[∞-group of units]] of $K(n)$.
+between 
+
+* the [[mapping space]] from the [[classifying space]] for [[circle n-bundle|circle (n+1)-bundles]] to the [[delooping]] of the [[∞-group of units]] of $K(n)$
+
+and 
+
+* the [[p-adic integers|2-adic integers]].
 
 =--
 
