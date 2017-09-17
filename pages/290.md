@@ -35,6 +35,12 @@ A short introduction to different aspects of QFT usually covered in a first cour
 
 * Folland, Gerald B.: "Quantum field theory: A tourist guide for mathematicians." ([ZMAZH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81003&format=complete))
 
+An extensive compilation of material from the viewpoint of a mathematician are these two books (Eberhard Zeidler worked on nonlinear functional analysis and was the director of the Max-Planck-Institute for Mathematics in the Natural Sciences in Leipzig, Germany, the books have a webpage [here] (http://www.mis.mpg.de/zeidler/qft.html)):
+
+* Zeidler, Eberhard: "Quantum field theory. I: Basics in mathematics and physics. A bridge between mathematicians and physicists." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete))
+
+* Zeidler, Eberhard: "Quantum field theory. II: Quantum electrodynamics. A bridge between mathematicians and physicists." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete))
+
 For further references see [[FQFT]] and [[AQFT]].
 
 [[!redirects QFT]]
