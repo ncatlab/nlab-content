@@ -8,6 +8,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents 
 {:toc}
@@ -30,11 +31,15 @@ The name "fusion category" comes from the central examples of structures whose c
 
 ## Properties
 
+### Relation to weak Hopf algebras
+
+Under [[Tannaka duality]], every fusion catgeory $C$ arises as the [[representation category]] of a [[weak Hopf algebra]]. ([Ostrik](#Ostrik))
+
 ### Relation to pivotal and spherical categories
 
 Fusion categories were first systematically studied by [[Etingof]], Nikshych and [[Ostrik]] in [On fusion categories](http://arxiv.org/abs/math/0203060). This paper listed many examples and proved many properties of fusion categories. One of the important conjectures made in that paper was the following:
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Conjecture (Etingof, Nikshcych and Ostrik)
 
 Every fusion category admits a [[pivotal structure]].
@@ -79,11 +84,7 @@ A monoidal category which is fusion is [[fully dualizable object|fully dualizabl
 
 This is due to ([DouglasSchommer-PriesSnyder](#DSPS))
 
-### Relation to weak Hopf algebras
 
-Every fusion catgeory $C$ arises as the [[representation category]] of a [[weak Hopf algebra]].
-
-This is explained by [[Liang Kong]] and Kitaev. Also probably in work by [[Victor Ostrik]].
 
 
 ## Suggestions ##
@@ -124,11 +125,19 @@ A review is also in chapter 6 of
 
 * [[Bruce Bartlett]], [On unitary 2-representations of finite groups and topological quantum field theory](http://arxiv.org/abs/0901.3975).
 
+The [[Tannaka duality]] to [[weak Hopf algebras]] is discussed in
+
+* Takahiro Hayashi, _A canonical Tannaka duality for finite seimisimple tensor categories_ ([arXiv:math/9904073](http://arxiv.org/abs/math/9904073))
+
+* [[Victor Ostrik]], _Module categories, weak Hopf algebras and modular invariants_ ([arXiv:math/0111139](http://arxiv.org/abs/math/0111139)) 
+ {#Ostrik}
+
 
 The relation to 3d TQFT is fully clarified in
 
 * [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_
  {#DSPS}
+
 
 For some discussion see
 
