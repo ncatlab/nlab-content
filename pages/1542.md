@@ -6,8 +6,14 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
 =--
 =--
+=--
+
+
 
 # Contents
 * table of contents
@@ -31,11 +37,16 @@ For $X$ set, the **codiscrete groupoid** of $X$ is the groupoid $Codisc(X)$ with
 This definition makes sense also [[internal category|internally]], for $X$ an object in any category with finite [[limit]]s. (In fact, this is one of those cases where the category can easily be defined with some limits lacking; we need only finite [[product]]s of $X$.)
 
 
-## Remarks
+
+**Remark** The codiscrete groupoid on $X$ is also sometimes called 
+the _chaotic groupoid_ on $X$. The intuition is probably that "everything being connected with everything else sounds pretty chaotic", but one can argue that the term "chaotic groupoid" exactly misses the true intrinsic nature of codiscrete groupoids: since these are all just "puffed up versions of the point" they are "maximally homogenous" things. Which space would be less chaotic than the point?
+
+
+
+
+## Properties
 
 * Every codiscrete groupoid on an [[inhabited set]] is [[contractible space|contractible]]: [[equivalence of categories|equivalent]] to the [[point]]. More generally, any codiscrete groupoid is equivalent to a [[truth value]].
-
-* The codiscrete groupoid on $X$ is also sometimes called the _chaotic groupoid_ on $X$. The intuition is probably that "everything being connected with everything else sounds pretty chaotic", but one can argue that the term "chaotic groupoid" exactly misses the true intrinsic nature of codiscrete groupoids: since these are all just "puffed up versions of the point" they are "maximally homogenous" things. Which space would be less chaotic than the point?
 
 * For $X$ a [[finite set]] of cardinality $n \gt 0$, the [[category algebra]] of $Codisc(X)$ is the algebra of $n\times n$ matrices. The contractibility of $Codisc(X)$ is reflected in the fact that this algebra is [[Morita equivalence|Morita equivalent]] to the [[ground ring]], which is the category algebra of the [[point]].
 
@@ -43,6 +54,11 @@ This definition makes sense also [[internal category|internally]], for $X$ an ob
 
 *  The underlying [[quiver]] of a codiscrete groupoid is a [[complete graph]] (in that there is one *and only one* edge between any ordered pair of vertices).
 
+* The [[nerves]] of codiscrete groupoids are precisely the [[codiscrete objects]] in [[sSet]], regarded as a [[cohesive topos]].
+
+## Related concepts
+
+* [[discrete groupoid]]
 
 [[!redirects codiscrete groupoid]]
 [[!redirects codiscrete groupoids]]
