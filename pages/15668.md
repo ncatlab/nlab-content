@@ -17,7 +17,7 @@ Reviews of the basic definition include
 
 * Wikipedia, _[Drinfeld module -- Shtuka](http://en.wikipedia.org/wiki/Drinfeld_module#Shtukas)_
 
-More conceptial discussion, in the context of the [[function field analogy]], is in 
+More conceptual discussion, in the context of the [[function field analogy]], is in 
 
 * {#Hartl06} [[Urs Hartl]], _A Dictionary between Fontaine-Theory and its Analogue in Equal Characteristic_ ([arXiv:math/0607182](http://arxiv.org/abs/math/0607182))
 
