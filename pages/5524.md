@@ -32,7 +32,7 @@ In the [[cohesive (∞,1)-topos]] of synthetic differential $\infty$-groupoids t
 
 ## Definition
 
-We consider [[(∞,1)-sheaves]] over a "semidirect product" [[site]] or [[(∞,1)-site]] of 
+We consider [[(∞,1)-sheaves]] over a "twisted semidirect product" [[site]] or [[(∞,1)-site]] of 
 
 * [[Cartesian spaces]] with [[smooth functions]] between them as for [[smooth ∞-groupoids]],
 
@@ -103,10 +103,10 @@ Equip this category with the [[coverage]] where a family of morphisms  is [[cove
 This appears as ([Kock 86, (5.1)]{#Kock86}). 
 
 
-+-- {: .num_note}
++-- {: .num_remark}
 ###### Note
 
-The [[sheaf topos]] over [[CartSp]]${}_{synthdiff}$ is ([[equivalence of categories|equivalent]] to) the [[topos]] known as the [[Cahiers topos]], a [[smooth topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well adapted model]] for [[synthetic differential geometry]].
+The [[sheaf topos]] over [[CartSp]]${}_{synthdiff}$ is ([[equivalence of categories|equivalent]] to) the [[topos]] known as the [[Cahiers topos]], a [[smooth topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well adapted model]] for [[synthetic differential geometry]]. See at _[[Cahiers topos]]_ for further references.
 
 =--
 
