@@ -2,6 +2,8 @@
 
 ## Related concepts
 
+* [[pole]]
+
 * [[singular point of a curve]]
 
 * [[differential form with logarithmic singularities]]
