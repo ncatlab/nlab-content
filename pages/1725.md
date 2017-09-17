@@ -51,6 +51,30 @@ between Joyal-$SSet$-enriched categories, Joyal-$SSet$-enriched [[complete Segal
 This is [remark 0.0.4, page 5](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0462v2.pdf#page=5) of the article.
 There are many more models. See there for more.
 
+## Related concepts
+
+* [[0-category]], [[(0,1)-category]]
+
+* [[category]]
+
+* [[2-category]]
+
+* [[3-category]]
+
+* [[n-category]]
+
+* [[(∞,0)-category]]
+
+* [[(∞,1)-category]]
+
+* **(∞,2)-category**
+
+* [[(∞,n)-category]]
+
+* [[(n,r)-category]]
+
+
+
 
 ##References
 
