@@ -5,7 +5,7 @@
 
 ## Idea
 
-_Coherent states_ are members of special overcomplete families of elements (usually in the projectivization) of [[Hilbert space]] of states of certain systems in [[quantum mechanics]]. 
+_Coherent states_ are members of special overcomplete families of elements (usually in the projectivization) of [[Hilbert space]] of states of certain systems in [[quantum mechanics]]. This entry is mainly about Perelomov style CS, see a separate page for [[Hall coherent state]]s.
 
 ## Examples
 
@@ -24,11 +24,9 @@ In general, projection operators $|z\rangle \langle z|$ and the scalar measure $
 
 The basic example of the space $X$ is the homogeneous space $G^{\mathbb {C}}/B = G/K$ where $G$ is a compact Lie group, $G^{\mathbb{C}}$ its complexification, $K\subset G$ maximal compact subgroup and $B\subset G^{\mathbb{C}}$ the Borel subgroup. Generalized [[flag manifold]] $G/K$ is naturally a compact complex manifold, in fact Kaehler. Fix a unitary character $\chi:G\to S^1$ which uniquely extends to a character $\chi:G^{\mathbb{C}}\to \mathbb{C}^*$ of the complexification; let $\mathbf{C}_\chi$ be the corresponding 1-dimensional representation. Then let $L_\chi = G^{\mathbb{C}}\times_{G^{\mathbb{C}}} \mathbb{C}_\chi$ be the associated line bundle. It is equipped with a natural holomorphic structure and hermitean scalar product; the space of holomorphic (or antiholomorphic depending on conventions in the construction) sections of that bundle is finite-dimensional and irreducible by [[Borel-Weil theorem]]. __Perelomov coherent states__ on that bundle are the elements of the orbit of $G$ of the heighest (equivalently lowest) weight vector (or equivalently of $G^{\mathbb{C}}$: the real and complex orbits are equal). The covariant generalized uncertainty relations (ref. by Onofri, below) correspond to the expression for a quantity proportional to negative of the square of the moment map (see ref. by Spera, below), which is naturally extremal on symplectic orbits. These coherent states can also be realized as the duals (according to Riesz theorem, that is dual vectors in a Hilbert space) to the evaluation functionals on the space of sections: take a point $q$ in the space of a line bundle and then divide it by the value of the section on the projection of $q$ to the homogeneous space. Up to a scalar, coherent states do not depend on the choice of the point on the line, hence this yields a holomorphic embedding of $G^{\mathbb{C}}/B$ to the projectivization of the representation space, so called __coherent states embedding__. The rays are the coherent states and the choices with scalar multiple accounted for are the coherent vectors. These coherent vectors are normalized by the measure which is the push down of the measure form $G$ to $G/K$. The classical coherent states appear in noncompact case where the group in question is the Heisenberg group, and the covariant uncertainty relations are the usual ones. 
 
-## Related concepts
-
-* [[coherent state (in geometric quantization)]]
-
 ## References
+
+Related entries: [[coherent state (in geometric quantization)]], [[Hall coherent state]], [[Berezin quantization]]
 
 * A. M. Perelomov, [Coherent states for arbitrary Lie groups](http://projecteuclid.org/euclid.cmp/1103858078),
 Comm. Math. Phys., 26 (1972), pp. 222--236; archived as [arXiv:math-ph/0203002](http://arxiv.org/abs/math-ph/0203002).
@@ -38,7 +36,7 @@ Comm. Math. Phys., 26 (1972), pp. 222--236; archived as [arXiv:math-ph/0203002](
 * J. H. Rawnsley, _Coherent states and Kaehler manifolds_,
 Quart. J. Math. Oxford (2), 28 (1977), pp. 403--415
 
-* V. Bargmann, _On a Hilbert space of analytic functions and an associated integral transform_, Communications on Pure and Applied Mathematics, 14 (1961), 187-214. MR 0157250 (28:486) 
+* V. Bargmann, _On a Hilbert space of analytic functions and an associated integral transform_, Communications on Pure and Applied Mathematics __14__ (1961) 187-214 [MR0157250](http://www.ams.org/mathscinet-getitem?mr=157250) [doi](ttp://dx.doi.org/10.1002/cpa.3160140303)
 
 * F. A. Berezin, _Quantization_, Math. USSR Izv., 8 (1974), 1109-1163. MR 0395610 (52:16404) 
 
