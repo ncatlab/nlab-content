@@ -18,7 +18,7 @@ The presheaf definition can understood from the point of view of [[space and qua
 =--
 
 The **[[globe category]]** $G$ is the category whose objects are the
-integers and whose morphisms are generated from
+non-negative integers and whose morphisms are generated from
 
 $$
   \sigma_n : [n] \to [n+1]
