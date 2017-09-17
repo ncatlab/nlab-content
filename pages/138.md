@@ -285,6 +285,9 @@ Over a Verdier site, every hypercover may be refined by a split and basal hyperc
 
 This is ([DuggerHollanderIsaksen, theorem 8.6](#DuggerHollanderIsaksen)).
 
+### Verdier hypercovering theorem
+
+
 
 ## Reference
 
@@ -294,7 +297,7 @@ An early standard reference is
 
 The modern reformulation of their notion of hypercover in terms of simplicial presheaves is mentioned for instance at the end of section 2, on [p. 6](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#page=6) of
 
-* Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* [[Rick Jardine]], _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
 A discussion in a topos with enough points in in 
 
@@ -306,5 +309,13 @@ A thorough discussion of hypercovers over representables and their role in [[des
 * [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/))
 {#DuggerHollanderIsaksen}
 
+On the Verdier hypercovering theorem see
+
+* [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_
+
+* [[Rick Jardine]], _The Verdier hypercovering theorem_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/Verdier4.pdf))
 
 [[!redirects hypercovers]]
+
+[[!redirects Verdier hypercover theorem]]
+[[!redirects Verdier hypercovering theorem]]
