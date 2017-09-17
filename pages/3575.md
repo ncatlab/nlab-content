@@ -10,7 +10,7 @@ A **[[Grothendieck]] fibration fibered in groupoids** -- usually called a **cate
 
 ## Definition
 
-A **fibration fibered in groupoids** is a [[functor]] $p : E \to B$ such that the corresponding (strict) functor $B^{op} \to $ [[Cat]] that classifies $p$ under the [[Grothendieck construction]] factors through the inclusion [[Grpd]] $\hookrightarrow$ [[Cat]].
+A **fibration fibered in groupoids** is a [[functor]] $p : E \to B$ such that the corresponding (strict) functor $B^{op} \to $ [[Cat]] that classifying $p$ under the [[Grothendieck construction]] factors through the inclusion [[Grpd]] $\hookrightarrow$ [[Cat]].
 
 Under forming [[opposite categories]] we obtain the notion of an **op-fibration fibered in groupoids**. In old literature this is sometimes called a "cofibration in groupoids" but that terminology collides badly with the notion of cofibration in [[homotopy theory]] and [[model category]] theory.
 
