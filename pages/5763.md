@@ -87,17 +87,56 @@ $$
   Bohr(A) := ([\mathcal{C}(A), Set], \underline{A})
 $$  
 
-constitutes what is called a _[[ringed topos]]_ . We shall call this the **Bohr topos** of $A$. 
+constitutes what is called a _[[ringed topos]]_ -- a special case of the notion of a [[locally ringed topos]]. This notion is a fundamental notion for generalized [[space]]s in [[higher geometry]]. The most advanced general theory of [[higher geometry]] ([[Structured Spaces|Lurie09]]) is based on modelling spaces as ringed toposes.
+
+We shall call this ringed topos the **Bohr topos** of $A$. 
+
+This terminology is meant to indicate that one may think of this construction as formalizing faithfully and usefully a heuristic that has goes back to [[Nils Bohr]] and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. 
+
+Namely in terms of the Bohr topos we have the following equivalent reformulations of the foundational facts about quantum physics discussed above, now internally in $Bohr(A)$.
+
++-- {: .standout}
+
+**Consistent quantum mechanical states.** A [[quasi-state]] on $A$ is precisely an ordinary [[classical state]] on $\underline{A}$, [[internalization|internal]] to $Bohr(A)$.
+
+In particular ([[Gleason's theorem]]): if $A = B(H)$ for $dim H \gt 2$ then a quantum [[state]] on $A$ is precisely a [[classical state]] on $\underline{A}$.
+
+=--
+
+and 
+
++-- {: .standout}
+
+**Non-existence of hidden quantum variables.** The [[Gelfand spectrum]] $sp(\underline{A})$ of $\underline{A}$ internal to the Bohr topos has no [[global element|global poit]]. ([[Kochen-Specker theorem|Kochen-specker]]).
+
+=--
+
+These two statements might be taken as suggesting that a quantum mechanical system $A$ is naturally regarded in terms of its Bohr topos $Bohr(A)$ -- somewhat more naturally than as a $C^\ast$-algebra $A$! (The second, in a slightly different setup, was emphasized in [IshamButterfield](), the first in [Spitters]()). In fact, thinking of [[ringed topos]]es as generalized [[space]]s in [[higher geometry]], it suggestes that the Bohr topos $Bohr(A)$ is the _quantum [[phase space]]_ of the quantum mechnanical system in question.
+
+The usefulness of this perspective is currently under investigations. For pointers to the literature see the [references](#References) below. Discussion along the above lines may suggest that this perspective is useful, but what is probably still missing is a statement about [[quantum physics]] that can be formulated and proven in terms of Bohr toposes, while being hardly conceivable without. It is probably currently not clear if such statements have been found.
+
+One potential such statement has been suggested in ([Nuiten](#Nuiten)): 
+
+in the formalization of [[quantum field theory]] by the [[Haag-Kastler axioms]]s -- called [[AQFT]] -- every quantum field theory is entirely encoded in terms of its [[local net of observables]] over [[spacetime]] $X$. This is a [[copresheaf]] of [[C-star algebra]]s
+
+$$
+  A : Op(X) \to C^\ast Alg
+$$
+
+which assigns to every [[open subset]] $U \subset X$ of [[spacetime]] the quantum [[subsystem]] $A_U$ of quantum fields supported in that region. By the above, we may consider for each of these quantum systems their associated quantum [[phase space]]s given by the correspondong Bohr toposes $Bohr(A_U)$. This yields a presheaf
+
+$$
+  Bohr(A) : Op(X)^{op} \to C^\ast_{com} TopSpace \hookrightarrow C^\ast_{com}Topos
+$$
+
+of ringed toposes whose internal ring object has the structure of a commutative $C^\ast$-algebra. With the [[copresheaf]] thus turned into a [[presheaf]] it is natural to ask under which conditions this is a [[sheaf]]: under which conditions this presheaf satisfies [[descent]].
+
+In ([Nuiten](#Nuiten)) the following is observed: if $A$ satisfies what is called the _split property_ (a strong form of the [[time slice axiom]]) then  the Bohr-presheaf of quantum phase spaces satisfies spatial descent by [[local geometric morphism]]s precisely of the original copresheaf $A : Op(X) \to C^\ast Alg$ is indeed _[[local net of observables|local]]_ -- spatially and causally. So this means that a natural property of quantum physics -- spatial and causal locality -- corresponds from the perspective of Bohr toposes to a natural property of presheaves of quantum phase spaces: [[descent]].
+
+One can probably view this as further suggestive evidence that indeed quantum physics is naturally regarded from the point of view of the Bohr topos. But for seeing where this perspective is headed, it seems that more insights along these lines would be useful.
 
 
-(...)
 
-
-When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this construction has been suggested to formalize faithfully and usefully a heuristic that has goes back to [[Nils Bohr]] and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. In _Bohrification_ this heuristics is formalized by the [[semilattice of commutative subalgebras]] and various entities induced by this [[posite]]. The internal [[locale]] $\underline{\Sigma}_A$ may be thought of as an incarnation of the quantum [[phase space]] encoded by $A$.
-
-One thing that is nice about [[Bohrification]] is that it makes the following statement true: "[[quantum mechanics|quantum]] [[states]] on a quantum algebra $A$ are precisely [[classical mechanics|classical]] states [[internalization|internal]] to the Bohrified ringed topos corresponding to $A$".
-
-This is essentially a direct re-interpretation of [[Gleason's theorem]]: this theorem says that quantum states on $A$ are already fixed by demanding them to be maps on $A$ that are (positive, normed) linear functions on all commutative subalgebras of $A$. Now, the immediate formalization of a map $A \to \mathbb{C}$ that is required to preserve certain structure on all commutative subalgebras is a fully structure-preserving function, but _internal_ to the [[presheaf topos]] over the comutative subalgebras. That presheaf topos is the "Bohrification" of $A$.
 
 ## Outline
 
@@ -781,6 +820,7 @@ This appears as ([Nuiten, def. 17](#Nuiten)).
 
 
 ## References
+ {#References}
 
 [[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed i
 
