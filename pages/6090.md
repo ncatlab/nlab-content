@@ -19,4 +19,8 @@ In [[quantum field theory]] a _scattering matrix_  or _S-matrix_ encodes the [[p
 
 For the moment see at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of signa-models</a>_ 
 
+## Related concepts
+
+* [[scattering amplitude]], [[string scattering amplitude]]
+
 [[!redirects scattering matrix]]
