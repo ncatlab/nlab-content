@@ -173,7 +173,7 @@ called the **simplicial singular complex** of $X$. This simplicial set is always
 
 A pedagogical introduction to simplicial sets is
 
-* Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv](http://arxiv.org/abs/0809.4221))
+* Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221))
 
 A useful (if old) survey article is: 
 
