@@ -67,6 +67,8 @@ Related $n$lab entries include [[Weyl algebra]], [[regular differential operator
 
 * [[crystalline cohomology]]
 
+* [[arithmetic D-module]]
+
 ## References 
 
 A comprehensive account is in chapter 2 of
