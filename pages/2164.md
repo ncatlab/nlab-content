@@ -529,7 +529,7 @@ is well defined and constitutes an [[isomorphism]] of vector spaces.
 
 =--
 
-So inside the space of functions on infinitesimal simplices, we find the differential forms. The next crucial observation now is that there is a _natural reason_ , from the [[nPOV]],  to restrict to $C^\infty(\tilde D(k,n)) \subset C^\infty(\tilde D(k,n))$.
+So inside the space of functions on infinitesimal simplices, we find the differential forms. The next crucial observation now is that there is a _natural reason_ , from the [[nPOV]],  to restrict to $C^\infty(\tilde D(k,n))_{top} \subset C^\infty(\tilde D(k,n))$.
 
 +-- {: .un_def}
 ###### Definition
@@ -572,7 +572,7 @@ where
     $$
       d_0 : (x, (v_1, v_2, \cdots, v_k))
       \mapsto
-      (x + v_1, v_2 + v_1, \cdots , v_{k+1} + v_1)
+      (x + v_1, v_2, \cdots , v_{k+1})
       \,.
     $$
 
@@ -615,9 +615,17 @@ where
 
   * for $r \gt i+1$ sending $x_r$ to $x_{r-1}$.
 
-* the co-face maps are given on generators by
+* the co-face maps $d_i^*$ are given on generators by
 
-  etc.
+  * for $i = 0$ sending 
+  
+    $$
+      h \otimes (\sum_{\xi} det(\xi) f_\xi)
+      \mapsto
+      h \otimes (\sum_{\xi} det(\xi) f_\xi)      
+      +
+      \frac{\partial}{\partial x_i} ... (am being interrupted...)
+    $$  
 
 =--
 
@@ -648,7 +656,11 @@ Equipped with the [[cup product]] induced from $C^{\infty}((\mathbb{R}^n)^{(\Del
 +-- {: .proof}
 ###### Proof
 
-We have already seen that degreewise the vector spaces in question are isomorphic. It remains to check blah-blah-blah.
+We have already seen that degreewise the vector spaces in question are isomorphic. 
+
+It remains to check that the differentials agree.
+
+...
 
 =--
 
