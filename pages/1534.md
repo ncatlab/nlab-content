@@ -65,6 +65,10 @@ This can also be found mentioned in the talk notes of the [[Northwestern TFT Con
 
 * notes by Evan Jenkins on the same talk: [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
 
+More is at
+
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html))
+
 There seems to be a close relation between the description of [[quantum field theory]] by factorization algebras and the proposal presented in 
 
 * Stefan Hollands ([arXiv](http://arxiv.org/abs/0802.2198))
