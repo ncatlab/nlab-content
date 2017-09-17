@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
