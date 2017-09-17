@@ -12,7 +12,7 @@
 > under construction
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -95,6 +95,9 @@ For $c \in \bar \Gamma^\bullet(X)$ a differential cocycle representing a [[gauge
 
 * its image $cl(c)$ in non-differential cohomology is the "topological twist" of the [[gauge theory|gauge field]]. In special cases this can be identified with [[magnetic charge]].
 
+Other examples:
+
+* [[differential algebraic K-theory]]
 
 
 ### Detailed construction following Hopkins-Singer 
