@@ -93,7 +93,7 @@ In general, if $X$ is locally $n$-[[n-connected space|connected]], $\Omega X$ is
 The fundamental $n$-groupoid of a space $X$ ([[Trimble n-category|Trimblean]] for choice) can be topologised to be an internal $n$-groupoid in $\Top$ when $X$ is semi-locally $n$-connected. Furthermore, the homotopy groups of the $n$-groupoid, _a priori_ topological groups, are discrete.
 =--
 
-For $n=2$, this is in [[David Roberts]]\'s thesis.  For $n=1$, it has been known for ages and is in [[Ronnie Brown]]\'s topology textbook.
+For $n=2$, this is in [[David Roberts]]\'s [[Fundamental Bigroupoids and 2-Covering Spaces|thesis]].  For $n=1$, it has been known for ages and is in [[Ronnie Brown]]\'s topology textbook.
 
 
 ## Models
