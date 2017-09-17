@@ -343,6 +343,10 @@ The formalization and proof is described in
 
 This is almost complete, except for one step that is not discussed in detail. But a new (unpublished) result by [[Søren Galatius]] bridges that step in particular and drastically simplifies the whole proof in general. 
 
+The comparatively simple case of $n = 1$ is spelled out in detail in 
+
+* [[Yonatan Harpaz]], _The Cobordism Hypothesis in Dimension 1_ ([arXiv:1210.0229](http://arxiv.org/abs/1210.0229))
+
 Lecture notes on the topic of the cobordisms hypothesis include
 
 * [[Jacob Lurie]], _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
