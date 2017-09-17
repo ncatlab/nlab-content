@@ -3,12 +3,266 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
 
 The [[moduli stack]] of [[elliptic curves]].
 
 For the moment see _[[A Survey of Elliptic Cohomology - elliptic curves]]_ for more.
 
+An [[elliptic curve]] $E \to Spec \mathbb{C}$ is determined, up to non-canonical [[isomorphism]], by its [[j-invariant]]
+
+$$
+  j(E) \in \mathbb{C}
+  \,.
+$$
+
+Here every [[complex number]] appears as a value, and therefore the moduli space of elliptic cuves a priori is not [[compact topological space|compact]].
+
+A [[compactification]] of the moduli space is obtained by including also elliptic curves with [[nodal singularity]].
+
+## Description over the complex numbers
+
+### Upper half plane
+
+The [[upper half plane]] $\mathfrak{h}$ is in [[bijection]] with framed [[lattices]] in the [[complex plane]] $\mathbb{C}$, which in turn is in bijection with [[isomorphism]] classes of framed elliptic curves over $\mathbb{C}$
+
+$$
+  \mathfrak{h}
+  \simeq
+  \{framed\;lattices\;in\;\mathbb{C}\}
+  \simeq
+  \{framed\;elliptic\;curves\;over\;\mathbb{C}\}/_\sim
+$$
+
+and we have
+
+$$
+  \{elliptic\;curves\;over\;\mathbb{C}\}_\sim
+  \simeq
+  \mathfrak{h}/{SL_2(\mathbb{Z})}
+$$
+
+where the [[special linear group]] over the [[integers]] 
+
+$$
+  SL_2(\mathbb{Z}) = \left\{ \left(\array{a & b \\ c & d }\right)| a d - c d = 1\right\}$$ 
+
+[[action|acts]]  by
+
+$$
+  \tau \mapsto \frac{a \tau + b}{c \tau + d}
+  \,.
+$$
+
+### The naive moduli space and its problems
+
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  M_{1,1} := \mathfrak{h}/SL_2(\mathbb{Z})
+$$
+
+for the plain [[quotient]] of the [[upper half plane]] by the above group action.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A **homolorphic family of [[elliptic curves]]** over a [[complex manifold]] $T$ is 
+
+* a [[holomorphic function]] $\pi : X \to T$ 
+
+* together with a [[section]] $s : T \to X$ of $\pi$ such that for any $t \in T$ the pair $(X_t, s(t))$ is an [[elliptic curve]] (using the first definition above).
+
+=--
+
+For every family 
+
+$$
+  \array{
+    X \\ \downarrow^{\mathrlap{\pi}} \\ T 
+  }
+$$
+
+we would like to have $F \to M_{1,1}$ such that there is a [[pullback]]
+
+$$
+  \array{
+    X \simeq \phi^* F &\longrightarrow& F
+    \\
+    \downarrow & & \downarrow
+    \\
+    T &\stackrel{\phi}{\longrightarrow}& M_{1,1}
+  }
+$$
+
+where
+
+$$
+  \phi:   t \mapsto [X_t, s(t)]
+$$
+
+such that
+
+* $\phi : T \to M_{1,1}$ is a [[holomorphic map]]
+
+* every [[holomorphic map]] $T \to M_{1,1}$ corresponds to a family over $t$;
+
+* there is a universal family over $M_{1,1}$
+
+This is _impossible_ . One can construct explicit counterexamples. These counterexamples involve [[elliptic curves]] with nontrivial [[automorphism]]s. 
+
+For instance
+
+$$
+  \{
+    (x,y,z) \in \mathbb{P}^2 \times X : 
+    y^2 = x(x-1)(x-\lambda)
+  \}
+  \to
+  X := \mathbb{P}^1 - \{0,1,\infty\}
+$$
+
+
+> but see the discussion at [[moduli space]] for a discussion of the statement "it's te automorphisms that prevent the [[moduli space]] from existing"
+
+### Moduli space of framed elliptic curves
+
+consider
+
+$$
+  \mathbb{Z}^2 \hookrightarrow \mathbb{C} \times \mathfrak{h}
+$$
+
+given by
+
+$$
+  (m,n) : 
+  (z,\tau)
+  \mapsto
+  (z + m \tau + n, \tau)
+$$
+
+Then consider the family
+
+$$
+  \array{
+     E := \mathbb{C}/_{\mathbb{Z}^2} \times \mathfrak{h}
+    \\ \downarrow \\ \mathfrak{h}
+  }
+$$
+
+is a family of [[elliptic curve]]s over $\mathfrak{h}$
+
+and $E_\tau = \mathbb{C}/{\Lambda_\tau}$ with
+
+$$
+  \Lambda_{\tau} := \mathbb{Z}\cdot 1 \oplus \mathbb{Z}\cdot \tau
+$$
+
+is a family of framed elliptic curves.
+
++-- {: .num_prop}
+###### Proposition
+
+The space $\mathfrak{h}$ with the family $E \to \mathfrak{h}$ is a [[fine moduli space]] for [[framed elliptic curves]].
+
+=--
+
+Consider any map $\phi : T \to \mathfrak{h}$
+
+with pullback of the universal family
+
+$$
+  \array{
+     X \stackrel{?}{\to} \phi^* E &\to & E
+    \\
+    \downarrow && \downarrow
+    \\
+    T &\stackrel{\phi}{\to}&
+    \mathfrak{h} 
+  }
+$$
+
+**claim** for every point $t \in T$ there is an open neighbourhood $t_0 \in U \hookrightarrow T$ such that one can choose [[differential form|1-forms]] $\omega_t$ on $X_\tau$ which vary holomorphically with respect to $t$.
+
+Notice that _locally_ every family of elliptic curves is framed (since we can locally extend a choice of basis for $H_1$).  So 
+
+$$
+  \array{
+    && \mathfrak{h}
+    \\
+    && \downarrow^{SL_2(\mathbb{Z})}
+    \\
+    M_{1,1} &\stackrel{Id}{\to}&
+    M_{1,1}
+  }
+$$
+
+at $i$ and $\rho = e^{2\pi i/6}$ , $C = \{\pm I\}$
+
+isn't locally liftable at $i$ and $\rho$ so it is not a univresal family of unframed curves.
+
+### Moduli stack/orbifold of elliptic curves
+
++-- {: .num_defn}
+###### Definition
+
+Consider the global [[quotent stack]] [[orbifold]]
+
+$$
+  \mathcal{M}_{1,1} := \mathfrak{h}//SL_2(\mathbb{Z})
+$$
+
+of the upper half plane by the [[action]] of the [[special linear group]]
+over the [[integers]].
+
+=--
+
+This is the [[moduli stack]] of elliptic curves.
+
+## Properties
+
+### Cohomology
+
++-- {: .num_prop}
+###### Proposition
+
+$$
+  H_1(\mathcal{M}_{1,1}, \mathbb{Z})
+  = \mathbb{Z}/12\mathbb{Z}
+$$
+
+$$
+  H^1(\mathcal{M}_{1,1}, \mathbb{Z}) = 0
+$$
+
+$$
+  H^2(\mathcal{M}_{1,1}, \mathbb{Z})
+  = \mathbb{Z}/12 \mathbb{Z}
+$$
+
+$$
+  H_\bullet(\mathcal{M}_{1,1}, \mathbb{Q})
+  \simeq
+  H_\bullet(M_{1,1}, \mathbb{Q})
+$$
+
+and similarly for [[integral cohomology]]
+
+$$
+  \chi(\mathcal{M}_{1,1}) = -\frac{1}{12}
+$$
+
+$$
+  Pic(\mathcal{M}_{1,1}) \simeq \mathbb{Z}/12\mathbb{Z}
+$$
+
+=--
 
 ## Related concepts
 
@@ -22,3 +276,6 @@ An introduction is for instance in
 
 * [[Andre Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf)) in _Topological modular forms_ Talbot workshop 2007 ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/)) 
 
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+
+[[!redirects moduli space of elliptic curves]]
