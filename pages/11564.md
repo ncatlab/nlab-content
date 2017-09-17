@@ -375,6 +375,7 @@ where the bottom map is the [[codomain fibration]] of the [[(∞,1)-category of 
 
 Dually:
 
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -816,6 +817,7 @@ $$
   }
 $$
 
+where on the the right runs the [[Hodge filtration]],
 with the notation $\mathbf{B}^n U(1) = \mathbb{Z}[n+1]_{conn,n}$ as at [[circle n-group]] and  $\mathbf{B}^n U(1)_{conn} = \mathbb{Z}[n+1]_{conn,0}$ as at _[[circle n-bundle with connection]]_.
 
 Hence for all $n \in \mathbb{N}$
