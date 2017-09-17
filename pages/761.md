@@ -107,11 +107,14 @@ If the pairs of spaces $U^f_*$ are connected for all 1-, 2-, or 3-fold  intersec
 
 The limit "3" on the connectivity hypothesis may be analyzed as "$1+2$", where $1$ is the categorical dimension of the fundamental groupoids we are considering and $2$ is a universal constant.  This becomes evident when generalizing to [[higher homotopy van Kampen theorems]].
 
-In one proof of the theorem (due to Brown and coauthors), the number 3 arises from the Lebesgue covering dimension of $\mathbb{R}^2$.  This proof verifies the universal property for a coequaliser, using basic techniques: subdivide a path;  deform a subdivision so that it is product of paths joining points of $X_0$; subdivide a homotopy rel end points, and deform this subdivision so that _all_ subpaths join points of $X_0$; any composition of [[commutative square]]s in a groupoid is commutative.
+In one proof of the theorem (due to Brown and Razak, see below), the number 3 arises from the Lebesgue covering dimension of $\mathbb{R}^2$.  This proof verifies the universal property for a coequaliser, using basic techniques: subdivide a path;  deform a subdivision so that it is product of paths joining points of $X_0$; subdivide a homotopy rel end points, and deform this subdivision so that _all_ subpaths join points of $X_0$; any composition of [[commutative square]]s in a groupoid is commutative.
 
 In another, more categorical proof explained in the next section, the number $3$ arises from the fact that 2-colimits can be computed using coproducts and [[descent objects]] of 2-truncated [[simplicial objects]].
 
-Note that the theorem about groupoids does _not_ reduce to a theorem about groups. For example, $X$ may be a connected space which is the union of two connected open sets whose intersection has 15 path components. Or the connected $X$ may be the union of 23 open sets whose three fold intersections have 123 path components. In each case the fundamental group one might want to calculate  is in the middle of this complicated combinatorial situation, but at least the theorem has turned a topological problem into a group theory and combinatorial problem, and the remarkable fact is that the fundamental groups are _completely_ determined by the theorem. This is an "anomaly" for traditional algebraic topology, where invariants relating adjacent dimensions may be determined by exact sequences which do not give complete information. This suggests that [[higher homotopy van Kampen theorem]]s give new kinds of homotopical information, i.e. colimit theorems for higher homotopy invariants, which has proved to be so.
+Note that the theorem about groupoids does _not_ reduce to a theorem about groups. For example, $X$ may be a connected space which is the union of two open sets each with many components and whose  intersection has many path components. Such examples arise commonly from applications to combinatorial group theory; consider for example a covering space of a wedge of spaces.    Or the connected $X$ may be the union of 23 open sets whose three fold intersections have 123 path components. In each case the fundamental group one might want to calculate  is in the middle of this complicated combinatorial situation, but at least the theorem has turned a topological problem into a group theory and combinatorial problem, and the remarkable fact is that the fundamental groups are _completely_ determined by the theorem. This is an "anomaly" for traditional algebraic topology, where invariants relating adjacent dimensions may be determined by exact sequences which do not give complete information. The reason for the success seems to be that groupoids have structure in dimensions 0 and 1, and so can model the gluing of spaces. 
+
+
+This suggests that [[higher homotopy van Kampen theorem]]s could give new kinds of homotopical information, i.e. colimit theorems for higher homotopy invariants, which has proved to be so.
 
 
 ### Homotopy van Kampen theorem for groupoids
@@ -204,9 +207,16 @@ Note that the version of the theorem for fundamental groups does not apply, sinc
 
 ## References
 
-The strict version for the fundamental groupoid is discussed in some detail in
+The following paper gives the general theorem for the fundamental groupoid on a set of base points: 
+
+* [[Ronnie Brown]] and A. Razak,  _A van Kampen theorem for unions of
+non-connected  spaces_, _Archiv. Math. 42 (1984) 85-88.
+
+This version for  pushouts  is discussed in some detail in
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
+
+as a background to the following chapters  on versions for crossed modules and crossed complexes,  i.e. for higher dimensional versions. 
 
 The proof via homotopy colimits is roughly taken from
 
