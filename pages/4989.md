@@ -165,8 +165,9 @@ See [[cohesive topos]] for more on this.
 
 ## Related concepts
 
-
 * [[locally connected site]] / [[locally ∞-connected site]]
+
+* [[local site]]
 
 * **cohesive site** / [[(∞,1)-cohesive site]]
 
