@@ -9,7 +9,7 @@
 
 If an [[(∞,1)-topos]] $\mathbf{H}$ is [[locally contractible (∞,1)-topos|locally contractible]] it has a good notion of  [[homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of its objects. In terms of these, there is an analog in $\mathbf{H}$ of the notion of the classical notion of [[Whitehead tower]] in the archetypical $(\infty,1)$-topos [[Top]]:
 
-the Whitehead tower of an object $X \in \mathbf{H}$ is the tower of [[homotopy fiber]]s of the canonical morphism into the [[Postnikov tower in an (∞,1)-category|(∞,1)-topos-theoretic Postnikov tower]] $\cdots \to \mathbf{\Pi}_{n+1}(X) \to \mathbf{\Pi}_n(X) \to \cdots$ of the [[schreiber:path ∞-groupoid|structured path ∞-groupoid]] $\mathbf{\Pi}(X)$ of $X$.
+the Whitehead tower of an object $X \in \mathbf{H}$ is the tower of $n$-[[connected]] [[homotopy fiber]]s of the canonical morphism into the [[Postnikov tower in an (∞,1)-category|(∞,1)-topos-theoretic Postnikov tower]] $\cdots \to \mathbf{\Pi}_{n+1}(X) \to \mathbf{\Pi}_n(X) \to \cdots$ of the [[schreiber:path ∞-groupoid|structured path ∞-groupoid]] $\mathbf{\Pi}(X)$ of $X$.
 
 ## Definition
 
