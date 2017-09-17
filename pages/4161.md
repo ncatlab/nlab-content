@@ -9,7 +9,7 @@
 {:toc}
 
 ## Idea ##
-In [[quantum field theory]] all fields must transform according to a definite (finite dimensional) representation of the [[Poincare group]], which determines the [[spin]] of each field. From the representation theory of the [[Poincare group]] it is known that the spin $s$ is a number $s = \frac{n}{2}$ with $n \in \mathbb{N}$.
+In [[quantum field theory]] on [[Minkowski space]] all fields must transform according to a definite (finite dimensional) representation of the [[Poincare group]], which determines the [[spin]] of each field. From the representation theory of the [[Poincare group]] it is known that the spin $s$ is a number $s = \frac{n}{2}$ with $n \in \mathbb{N}$.
 
 On the other hand, if we take fields to be pointwise localized in the sense of the [[Wightman axioms]], then the locality axiom (also known as Einstein microcausality) says that spacelike separated field operators either commute or anticommute: Two Fermionic fields anticommute, two Bosonic fields commute, a Fermionic and a Bosonic field commute.
 
@@ -42,4 +42,4 @@ An exposition is at
  
 A statement and proof of both a spin-statistics and a PCT theorem in the [[Haag-Kastler approach]] can be found in this paper:
 
-* Daniele Guido, Roberto Longo: _An Algebraic Spin and Statistics Theorem_ ([arXiv] (http://arxiv.org/abs/funct-an/9406005))
+* [[Daniele Guido]], [[Roberto Longo]]: _An Algebraic Spin and Statistics Theorem_ ([arXiv] (http://arxiv.org/abs/funct-an/9406005))
