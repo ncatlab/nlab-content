@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[category]] is called **atomic** if it has a [[small set|small]] [[generating set]] of [[atomic objects]].
+
+## Properties
+
+### Relation to presheaf toposes
+
++-- {: .num_thm}
+###### Theorem 
+
+A category $E$ is equivalent to a [[presheaf topos]] (functors with values in the 1-category [[Set]] of [[0-groupoids]]) if and only if it is cocomplete, atomic, and [[regular category|regular]]. 
+
+=-- 
+
+This is due to [[Marta Bunge]].
+
+## Related concepts
+
+* [[atom]]
+
+[[!redirects atomic categories]]
