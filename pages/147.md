@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
 +-- {: .hide}
 [[!include topos theory - contents]]
@@ -185,6 +185,8 @@ Other classes of sites are listed in the following.
 
 
 ## Related concepts
+
+* [[posite]]
 
 * **site**
 
