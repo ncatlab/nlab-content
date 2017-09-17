@@ -157,6 +157,6 @@ For discussion of stable phenomena in algebraic K-theory, see section 4 of
 * [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0908/0908.1938v2.pdf))
  {#Cohen}
 
-Discussion of the [[comparion map between algebraic and topological K-theory]] includes
+Discussion of the [[comparison map between algebraic and topological K-theory]] includes
 
 * [[Jonathan Rosenberg]], _Comparison between algebraic and topological K-theory for Banach algebras and $C^\ast$-algebras_   ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
