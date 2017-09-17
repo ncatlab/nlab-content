@@ -152,7 +152,7 @@ given a [[presymplectic form]] on the locus of solutions of a system of [[partia
 
 We use same notation as the preceding section. Namely dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
 
-Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_X \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that presymplectic current density $\omega(\phi)$ is de Rham conserved on solutions:
+Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_{X|_{in}} \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that presymplectic current density $\omega(\phi)$ is de Rham conserved on solutions:
 
 $$
   d_{dR}  \iota^* \omega(\phi) = \iota^* d_{dR} \omega(\phi) = 0
@@ -162,7 +162,7 @@ $$
   \, ,
 $$
 where $\lambda$ and $\mu$ are systems (suitably contracted with the $P(\phi)$ system) of degree-$(2,dim X)$ and degree-$(1,dim X)$ elements of the [[variational bicomplex]]. Using the variational closure of $\omega(\phi)$, we can conclude that
-$\delta(P(\phi)(\lambda(\phi)-\delta\mu(\phi))) = 0$ and thus $P(\phi)(\lambda(\phi)-\delta(\phi)) = \delta(P(\phi)\lambda'(\phi))$. [Justify why the representative on the last RHS can be chosen proportional to $P(\phi)$.]
+$\delta(P(\phi)(\lambda(\phi)-\delta\mu(\phi))) = 0$ and thus, locally, $P(\phi)(\lambda(\phi)-\delta(\phi)) = \delta(P(\phi)\lambda'(\phi))$. (...Justify why the representative on the last RHS can be chosen proportional to $P(\phi)$...)
 
 On the other hand, the variational closure of $\omega(\phi)$ also implies the existence of a degree-$(1,dim X-1)$ form $\theta(\phi)$, such that $\delta(\theta(\phi)) = \omega(\phi)$. The following identity then allows us to (locally) reconstruct a Lagrangian whose [[Euler-Lagrange equation]]s are satisfied by solutions to $P(\phi)=0$.
 
