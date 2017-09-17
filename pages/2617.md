@@ -57,18 +57,17 @@ $$[X, Y] = \nabla_X Y - \nabla_Y X$$
 
 In that case, one may define a notion of [[geodesic]] in pseudo-Riemannian manifolds $M$, and we have a notion of "distance squared" between the endpoints along any geodesic path $\alpha: [0, 1] \to M$ (which might be a negative number of course). The term "pseudo-Riemannian metric" may refer to such distances in general pseudo-Riemannian manifolds. _(I guess.)_
 
-+--{.query}
-
-Is there an accepted notion of "distance squared" between two points in a pseudo-Riemannian manifold, in cases where there are multiple geodesics between them? How does one choose? (Edit: might one choose the value which is least in absolute value?) 
-
-=--
 
 A typical example of pseudo-Riemannian manifold is a [[Lorentzian manifold]], where the metric is of type $(1, n-1)$. This is particularly so in the case $n = 4$, where such manifolds are the mathematical backdrop for studying [[general relativity]] and cosmological models. 
 
 * The terminology "metric" is not optimal of course: the values of the quadratic form would need to be nonnegative to avoid terminological conflict with [[metric space|metric]] as it is more commonly understood (and even in that case, the values of "metric" refer to the square of the metric rather than the metric itself). _Caveat lector._ 
 
+## Related concepts
+
+[[!include local and global geometry - table]]
 
 [[!redirects pseudo-Riemannian metrics]]
 [[!redirects pseudoRiemannian metric]]
 [[!redirects pseudoRiemannian metrics]]
 
+[[!redirects pseudo-Riemannian geometry]]
