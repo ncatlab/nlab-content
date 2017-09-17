@@ -1,0 +1,69 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[cosmology]], _cosmic inflation_ is a [[model (in theoretical physics)]] that can explain certain large-scale features of the [[observable universe]] (flatness, horizon problem, CMB anisotropy) by assuming a finite period of drastic expansion of the universe shortly after the [[big bang]]. Cosmic inflation is part of the [[standard model of cosmology]].
+
+## Details
+
+### Old inflation
+
+([Guth 91](#Guth), [Sato 81](#Sato))
+
+### New inflation
+
+([Linde 82](#Linde), [Albrecht-Steinhardt 82](#AlbrechtSteinhardt))
+
+### Chaotic inflation
+
+([Linde 83](#Linde83))
+
+## References
+
+### Reviews
+
+* [[Andrei Linde]], _Particle Physics and Inflationary Cosmology_, Harwood, Chur (1990).
+
+* A. R. Liddle, D. H. Lyth, _Cosmological inflation and large-scale structure_, Cambridge University Press (2000).
+
+* Shinji Tsujikawa, _Introductory review of cosmic inflation_,  lecture notes given at The Second Tah Poe School on Cosmology _Modern Cosmology_, Naresuan (2003) ([arXiv:hep-ph/0304257](http://arxiv.org/abs/hep-ph/0304257)).
+
+* Wikipedia, _[Inflation (cosmology)](http://en.wikipedia.org/wiki/Inflation_%28cosmology%29)_
+
+### Original articles
+
+* [[Alan Guth]], Phys. Rev. D 23, 347 (1981).
+ {#Guth}
+
+* K. Sato, Mon. Not. R. Astron. Soc. 195, 467 (1981); Phys. Lett. 99B, 66 (1981)
+ {#Sato}
+
+* Andrei Linde, Phys. Lett. 108B, 389 (1982)
+ {#Linde}
+
+* A. Albrecht and P. Steinhardt, Phys. Rev. Lett. 48, 1220 (1982)
+ {#AlbrechtSteinhardt}
+
+* A. Linde, Phys. Lett. 129B, 177 (1983).
+ {#Linde83}
+
+### Experimantal evidence 
+
+* C. L. Bennett et al. _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Preliminary Maps and Basic Results_, Astrophys.J.Suppl.148:1 (2003) ([arXiv:astro-ph/0302207](http://arxiv.org/abs/astro-ph/0302207))
+
+* H.V.Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
+
+[[!redirects inflation]]
