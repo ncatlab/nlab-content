@@ -2,7 +2,6 @@ My interests are in [[categorical logic]], [[type theory|type theories]] and [[f
 
 I am a PhD-candidate of Ieke Moerdijk in Nijmegen
 
-email: stephanspahn1atmedotcom
 category: people
 
 [[!redirects Stephan]]
