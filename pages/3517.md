@@ -25,7 +25,8 @@ The **five lemma** is one of the basic lemmas of [[homological algebra]], useful
 
 ### Ordinary five lemma
 
-Consider a [[commutative diagram]] in a fixed [[abelian category]] of the form 
+Let $\mathcal{A}$ be an [[abelian category]].
+Consider a [[commutative diagram]] in $\mathcal{A}$  of the form 
 
 $$\array{
 A_1 & \to & A_2 & \to & A_3 & \to & A_4 &\to & A_5\\
@@ -36,14 +37,21 @@ B_1 & \to & B_2 & \to & B_3 & \to & B_4 &\to & B_5
 where the top and bottom rows are [[exact sequences]]. For simplicity we denote all the differentials in both exact sequences by $d$.
 
 +-- {: .num_lemma}
-###### Lemma (five lemma)
+###### Lemma
 
-* 1) If $f_2$ and $f_4$ are [[epimorphism|epi]] and $f_5$ is [[monomorphism|mono]], then $f_3$ is epi. 
+1. **[[four lemma]]**
 
-* 2) If $f_2$ and $f_4$ are [[monomorphism|mono]] and $f_1$ is [[epimorphism|epi]], then $f_3$ is mono. 
+   1. If $f_2$ and $f_4$ are [[epimorphism|epi]] and $f_5$ is [[monomorphism|mono]], then $f_3$ is epi. 
 
-* 1+2) If $f_2$ and $f_4$ are [[isomorphism|isos]], $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
+   1. If $f_2$ and $f_4$ are [[monomorphism|mono]] and $f_1$ is [[epimorphism|epi]], then $f_3$ is mono. 
+
+1. **five lemma** (combination of the two [[four lemma|four lemmas]])
+
+   If $f_2$ and $f_4$ are [[isomorphism|isos]], $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
+
 =--
+
+The [[four lemma]] follows directly also with the [[salamander lemma]], as discussed at _[salamander lemma - impliciations - four lemma](salamander%20lemma#FourLemma)_. The following is a direct proof.
 
 +-- {: .proof}
 ###### Proof
@@ -62,7 +70,9 @@ Hence $f_3$ is an epimorphism.
 
 +-- {: .num_remark}
 ###### Remark 
+
 The five lemma also holds in the category [[Grp]] of [[groups]], by essentially the same diagram-chasing proof. 
+
 =-- 
 
 +-- {: .num_remark}
@@ -114,7 +124,7 @@ In
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ 
 
-is is exercise 1.3.3.
+the fiver lemma is exercise 1.3.3.
 
 
 The short 5-lemma also appears in various topological algebra contexts; see for example 
