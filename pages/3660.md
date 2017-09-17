@@ -1,6 +1,16 @@
-# Contents
 
-* tic
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
 {: toc}
 
 ## Idea
@@ -63,11 +73,12 @@ Of course, $\Omega$ and $\Lambda$ are not generalized direct categories themselv
 
 * If $R$ is any generalized Reedy category, then $R_+$ is a generalized direct category.
 
-## The direct category of corollas
+## Examples
 
-We now define a "universal" generalized direct category which contains "all" [[geometric shapes for higher structures]].  This is based on the work of
+### The direct category of corollas
 
-* Dennis Borisov, [Comparing definitions of weak higher categories, I](http://arxiv.org/abs/0909.2534)
+We now define a "[[universal property|universal]]" generalized direct category which contains "all" [[geometric shapes for higher structures]].  This is based on ([Borisov](#Borisov)).
+
 
 A functor $f\colon D\to E$ between generalized direct categories is called a **dependency** if it is equivalent to the inclusion of a [[sieve]], or equivalently if it is a [[fully faithful functor]] and a [[discrete fibration]] in the generalized sense of Street.  If $D$ and $E$ are [[skeleton|skeletal]] (as they must be if they are *non-generalized* direct categories), then any dependency must be isomorphic to the inclusion of a sieve.  One also usually works only with skeletal generalized direct categories, although the definition does not require it.
 
@@ -93,6 +104,15 @@ We next observe that $Corolla$ is the "universal" generalized direct category in
 Now if $f,g\colon d\to d'$ are parallel morphisms and $\Sigma_f=\Sigma_g$, then in particular $f = \Sigma_f(id_d) = \Sigma_g(id_d) = g$; thus $ext_D$ is [[faithful functor|faithful]].  Therefore, if $D$ is a direct category in which all morphisms are monic, and in which $D/d \cong D/d'$ implies $d=d'$ (which includes many examples), then $D$ is equivalent to a [[subcategory]] of $Corolla$.
 
 This subcategory of $Corolla$ is usually *not* full, however.  In particular, for $d\in D$ the corolla $D/d$ will generally admit more automorphisms than $d$ has in $D$.  For instance, if $D$ is a non-generalized direct category, then $d$ has no nontrivial automorphisms, whereas $D/d$ generally will.  In particular, if the objects of $D$ have any sort of "orientation" or "labeling," then this information is forgotten by the functor $ext_D$.
+
+## Related concepts
+
+* [[test category]]
+
+## References
+
+* [[Dennis Borisov]], _Comparing definitions of weak higher categories, I_ ([arXiv:0909.2534](http://arxiv.org/abs/0909.2534))
+ {#Borisov}
 
 
 [[!redirects direct category]]
