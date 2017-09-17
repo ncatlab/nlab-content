@@ -342,3 +342,5 @@ A video of a pedagogical introduction to adjoint functors is provided by
 
 [[!redirects adjoint functors]]
 [[!redirects adjoint pair of functors]]
+[[!redirects universal arrow]]
+[[!redirects universal arrows]]
