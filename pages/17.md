@@ -273,27 +273,19 @@ and a remark in
 
 Apart from ensuring that it is clear to the reader at each stage what your text is meaning to accomplish, this will make the software format your text appropriately (for instance propositions and theorems will be set in italics) and automatically add a numbering.
 
-Beware that you do need to use the labels exactly as given above. It needs to be 
-
-     .defn
-
-and neither ".def" not ".definition" will be recognized by the software. Also it needs to be 
-
-     .cor
-
-and ".corollary" won't be recognized.
+Beware that you do need to use the labels exactly as given above. It needs to be `defn`, `thm`, and `cor`; neither `definition` nor `theorem` nor `corollary` (nor other abbreviations such as `def`) will be recognized by the software.
 
 ## Cross-links
  {#CrossLinks}
 
 
-A central point of the $n$Lab is that information is _linked_. Little value is added to the world when information is added to an $n$Lab page if it is not interlinked there with other $n$Lab entries such as to make sure that useres who might look for it will actually eventually find it by following some links.
+A central point of the $n$Lab is that information is _linked_. Little value is added to the world when information is added to an $n$Lab page if it is not interlinked there with other $n$Lab entries such as to make sure that users who might look for it will actually eventually find it by following some links.
 
 Therefore you should hyperlink the central keywords in what you write, by enclosing them in square brackets. Ideally, each and every keyword would be hyperlinked, certainly when it occurs first. Don't assume that the reader has the same background as you have. If you explain something by invoking other technical terms, at least provide links to $n$Lab entries where these other terms are defined.
 
 Analogously, when you create a new page, make sure that it is _linked to_ from at least one relevant other page. An entry on a new kind of _manifold_ deserves to be linked to from a list of "related entries" at _[[manifold]]_, for instance.
 
-Apart from guiding useres to your entry this way, notably this will also help search engines to index the $n$Lab and make your new entry appear listed when people google for something related.
+Apart from guiding users to your entry this way, notably this will also help search engines to index the $n$Lab and make your new entry appear listed when people search for something related.
 
 ## Mathematical conventions
  {#MathematicalConventions}
@@ -308,11 +300,30 @@ One example of this that we have is the _[[implicit infinity-category theory con
 
 
 
-# Special Typesetting Features #
+# Special Typesetting Features
+
+## How to leave comments and questions {#query}
+
+First of all, you should probably put comments and questions on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  (Some discussions from the very early days may also be found on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).)  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]]; as this is a Wiki, if you find an answer to your question and feel it should be added to one of those, then do so.
+
+If you still want to make a comment or question on the page itself and have it appear as an aside, then you may edit the page and put your comment or question in a __query block__ as shown in this example:
+
+    +-- {: .query}
+    How do I ask a question?
+    =--
+
+which produces
+
++-- {: .query}
+How do I ask a question?
+=--
+
+Note that a query block should be less permanent than the rest of the page; once your comment is addressed or your question is answered, you can probably remove your query block.
+
+But if you just put up a query block and don\'t post anything to the Forum, you\'re not very likely to get a quick answer.  Query blocks are really only useful when Forum discussion has been unsatisfactory and some kind of reminder needs to remain on the page.  (There are also a lot of query boxes left from before the Forum, but these are being slowly removed or migrated.)
 
 
-
-##How to make a standout box##
+## How to make a standout box
 
 If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__:
 
