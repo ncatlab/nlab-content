@@ -77,7 +77,7 @@ Also, just as for the free exact completion, the construction works essentially 
 
 If $C$ is regular, a quick definition of $C_{ex/reg}$ is as the full subcategory of the category $Sh(C)$ of [[sheaves]] for the [[regular coverage]] on $C$ spanned by those sheaves which are quotients of [[congruences]] in $C$.  (Lack 1999)
 
-A more explicit description can be obtained by first passing from $C$ to its [[allegory]] of internal relations, then [[split idempotent|splitting]] the idempotents which are equivalence relations in $C$, and finally reconstructing a regular category from the resulting allegory.  Yet more explicitly, this means that the objects of $C$ are congruences in $C$, and the morphisms are relations which are [[entire relation|entire]] and [[functional relation|functional]] relative to the given congruences.
+A more explicit description can be obtained by first passing from $C$ to its [[allegory]] of internal relations, then [[split idempotent|splitting]] the idempotents which are equivalence relations in $C$, and finally reconstructing a regular category from the resulting allegory.  Yet more explicitly, this means that the objects of $C_{ex/reg}$ are congruences in $C$, and the morphisms are relations which are [[entire relation|entire]] and [[functional relation|functional]] relative to the given congruences.
 
 
 ### The higher categorical approach
