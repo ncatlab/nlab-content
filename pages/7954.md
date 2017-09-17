@@ -21,6 +21,8 @@
 
 * [[Hamiltonian action]]
 
+The analog for [[presymplectic manifolds]] is [[presymplectic reduction]].
+
 
 ## References
 
