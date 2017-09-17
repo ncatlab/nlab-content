@@ -77,6 +77,4 @@
  </g> 
  
                                                       </g> 
-</svg> 
-
-[[!redirects Hopf link]]
+</svg>
