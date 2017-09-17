@@ -364,6 +364,9 @@ _[[Zuckerman induction]]_. See there for more details.
 
 * [[Dirac induction]]
 
+[[!include homotopy type representation theory -- table]]
+
+
 ## References
 
 ### Traditional formulation
