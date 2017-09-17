@@ -178,7 +178,7 @@ On the category of [[dendroidal sets]] let
 ## Properties 
   {#Properties}
 
-### Of the model structure itself
+### General
 
 +-- {: .num_theorem }
 ###### Theorem
@@ -197,6 +197,26 @@ The above choices of cofibrations, fibrations and weak equivalences equips the c
 
 
 This is ([Cisisnki Moerdijk, theorem 2.4 and prop. 2.6](#CisinskiMoerdijk09)). 
+
++-- {: .num_remark }
+###### Remark
+
+The [[cofibrantly generated model category|generating cofibrations]] $I$ are the boundary inclusion of [[trees]]
+
+$$
+  I = \{\partial \Omega[T] \hookrightarrow \Omega[T]\}
+  \,.
+$$
+
+A set of generating acyclic cofibrations is guaranteed to exist, but no good explicit characterization is known to date.
+
+=--
+
+
+This is ([CisMoe, cor. 6.17](#CisinskiMoerdijk09)).
+
+
+### Enrichment
 
 +-- {: .num_prop }
 ###### Proposition 
@@ -218,7 +238,7 @@ This is for instance ([Moerdijk, proposition 8.4.3](#Moerdijk)).
 ###### Proposition
 
 This model category is naturally an $sSet_{Joyal}$-[[enriched model category]], where
-$sSet_{Joyal}$ is the [[model structure for quasi-categories]]].
+$sSet_{Joyal}$ is the [[model structure for quasi-categories]].
 
 =--
 
@@ -230,22 +250,6 @@ The functor $i^*: dSet \to sSet_{Joyal}$ is a [[right Quillen functor]].
 =--
 
 
-+-- {: .num_remark }
-###### Remark
-
-The [[cofibrantly generated model category|generating cofibrations]] $I$ are the boundary inclusion of [[trees]]
-
-$$
-  I = \{\partial \Omega[T] \hookrightarrow \Omega[T]\}
-  \,.
-$$
-
-A set of generating cofibrations is guaranteed to exist, but no good explicit characterization is known to date.
-
-=--
-
-
-This is cor. 6.17 in [CisMoe](http://arxiv.org/abs/0902.1954).
 
 
 +-- {: .num_prop }
@@ -265,7 +269,9 @@ is an [[equivalence of categories]], where $\tau : SSet \to Cat$ is the [[left a
 
 This is in ([Moerdijk, section 8.4](#Moerdijk)).
 
+### Properties of fibrations
 
+(...)
 
 
 ### Relation to other model structures
