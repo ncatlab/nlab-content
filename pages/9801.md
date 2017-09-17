@@ -30,7 +30,77 @@ Where the [[Lagrangian]]/[[action functional]] of the ordinary [[WZW model]] is 
 
 ## Definition
 
-(...)
+The [[Chevalley-Eilenberg algebra]] of the [[Lie algebra]] $\mathfrak{g}$ is naturally identified with the sub-algebra of [[left invariant differential forms]] on $G$:
+
+$$
+  CE(\mathfrak{g}) \simeq \Omega^\bullet(G)^G
+  \,.
+$$
+
+The ordinary [[WZW model]] is given by the basic [[circle 2-bundle with connection]] on $G$ whose [[curvature]] 3-form is 
+
+$$
+  H = \langle \theta \wedge [\theta \wedge \theta]\rangle 
+  \in \Omega^3(G)^G
+  \,.
+$$
+
+Now for $H \hookrightarrow G$ a [[subgroup]], write 
+
+$$
+  CE(\mathfrak{g}//\mathfrak{h})
+ \\coloneqq 
+  Omega^\bullet(G, \mathfrak{h}^\ast[1])^G
+$$
+
+for the corresponding dg-algebra of (say) the [[Cartan model]] for [[equivariant de Rham cohomology]] on $G$. There is a canonical projection
+
+$$
+  CE(\mathfrak{g}//\mathfrak{h})
+  \to 
+  CE(\mathfrak{g})
+  \,.
+$$
+
+A curvature 3-form for the **gauged WZW model** is a 3-cocycle 
+
+$$
+  \tilde H \in CE(\mathfrak{g}//\mathrak{h})
+$$
+
+in this [[equivariant de Rham cohomology]] which lifts $H \coloneqq \langle \theta \wedge [\theta \wedge \theta]\rangle$ through this projection.
+
+One finds ([Witten 92, appendix](#Witten92)) that in terms of the degree-2 generators $\{F^a\}$ of the [[Cartan model]] (see there) with respect to some [[basis]] $\{t_a\}$ of $\mathfrak{g}$, these lifts are of the form ([Witten 92, (A.14)](#Witten92))
+
+$$
+  \tilde H = H + \lambda_a \wedge F^a
+$$
+
+where $\lambda_a \in \Omega^1(G)$ is given by (in [[matrix Lie algebra]] notation)
+
+$$
+  \lambda_a
+  = 
+  \left\langle 
+    t_a^l \cdot (d g)g^{-1} 
+    +
+    t_a^r \cdot g^{-1} d g
+  \right\rangle
+$$
+
+and exist precisely if ([Witten 92, (A.16)](#Witten92)) for all pairs of basis elements
+
+$$
+  \langle 
+    t_a^l \cdot t_b^l
+    -
+    t_a^r \cdot t_b^r
+  \rangle
+  = 0
+  \,.
+$$
+
+(This condition had originally been seen as a [[anomaly cancellation]]-condition of the gauged WZW model).
 
 
 ## Related concepts
@@ -55,6 +125,7 @@ The original articles are
 The (curvature of the)gauged WZW term was recognized/described as a  [[cocycle]] in [[equivariant de Rham cohomology]] is in the appendix of 
 
 * [[Edward Witten]], _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104249222))
+ {#Witten92}
 
 This is expanded on in 
 
