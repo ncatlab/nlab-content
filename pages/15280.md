@@ -5,7 +5,7 @@ He was interested in the structure of advanced mathematics and its creativity an
 
 As a member of the Resistance, a former prisoner of war and also of Jewish origin, he was killed by a German squad on August 1, 1944.
 
-He influenced the French philosopher [[François Laruelle]] and also the mathematician and historian of culture and mathematical philosophy [[Fernando Zalamea]].
+He influenced the French philosophers [[François Laruelle]], Alain Badiou, and Gilles Deleuze, the mathematician and historian of culture and mathematical philosophy [[Fernando Zalamea]], and the philosopher David Corfield.
 
 * wikipedia: [en](http://en.wikipedia.org/wiki/Albert_Lautman)
 
