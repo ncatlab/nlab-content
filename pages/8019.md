@@ -16,6 +16,10 @@ Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|c
 
 More slickly, an ordered group is (up to [[equivalence of categories|equivalence]]) a [[thin category|thin]] [[groupal category]] (a groupal $(0,1)$-[[(0,1)-category|category]]).
 
+If $G$ is an [[abelian group]], then we have an __ordered abelian group__; in this case, only one direction of translation invariance needs to be checked.
+
+It works just as well to talk of partially ordered [[monoids]], using the same condition of translation invariance.  Equivalently, an __ordered monoid__ is a thin [[monoidal category]], or a monoidal $(0,1)$-category.
+
 
 ## Properties
 
@@ -23,12 +27,7 @@ The order $\leq$ is determined entirely by the group $G$ and the [[positive cone
 $$ G^+ \coloneqq \{x\colon G \;|\; 0 \leq x\} .$$
 It\'s possible to *define* an ordered group in terms of the positive cone (by specifying precisely the conditions that the positive cone must satisfy); see [[positive cone]] for this.
 
-
-## Ordered monoids
-
-It works just as well to talk of partially ordered [[monoids]], using the same condition of translation invariance.  Equivalently, this is a thin [[monoidal category]], or a monoidal $(0,1)$-category.
-
-However, the characterisation in terms of the positive cone probably can\'t be made to work (although I haven\'t checked for certain).
+However, this characterisation probably can\'t be made to work for ordered monoids (although I haven\'t checked for certain).
 
 
 ## Examples
