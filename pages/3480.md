@@ -65,8 +65,9 @@ The "$G$" here is used in multiple senses, but each sense is deducible from cont
 +-- {: .proof}
 ###### Long-winded Proof
 
+We repeat the same proof, but with more notational details on what the entities involved in each step are precisely.
  
-Let $\mathbf{B}G$ be the [[delooping]] [[groupoid]]. Then 
+Let $\mathbf{B}G$ be the [[delooping]] [[groupoid]] of the [[group]] $G$. Then 
 
 $$
   Rep_{Set}(G) := Func(\mathbf{B}G^{op}, Set)
@@ -116,6 +117,42 @@ $$
 
 =--
 
+## For $V$-representations
+
+Let $V$ be a [[symmetric monoidal category]]. Observe that the setup, statement and proof of Tannaka duality for permutation representations given above is the special case for $V = $ [[Set]] of a statement verbatim the same in $V$-[[enriched category theory]], with the ordinary [[functor category]] replaced everywhere by the $V$-[[enriched functor category]].
+
+Then the statement says:
+
+for $A$ a [[monoid]] in $V$ with [[delooping]] $V$-[[enriched category]] $\mathbf{B}A$, and with 
+
+$$
+  A Mod := Rep(A) := [\mathbf{B}A,V]
+$$
+
+the [[enriched functor category]] that encodes the $V$-representation of $A$, we habe that the $V$-enriched endormoprhism algebra $End(F) := [F,F]$ of the $V$-[[enriched functor]] $F : Rep(A) \to V$ is isomorphic to $V$
+
+$$
+  End(Rep(A) \to V) \simeq A
+  \,.
+$$
+
+> check!
+
+In particular, if we tale $V = $ [[Vect]], then we have Tannaka reconstruction for module categories
+
+$$
+  End( A Mod \to Vect ) \simeq A
+  \,.
+$$
+
+Now for $G$ any [[group]], let $A = k[G]$ be its [[group algebra]]. Then $Rep(G) \simeq A Mod$ and we obtain the statement of Tannaka reconstruction for linear representations:
+
+$$
+  End(Rep(G) \to Vect) \simeq k[G]
+  \,.
+$$
+
+All from the [[enriched Yoneda lemma]]. And nothing else.
 
 
 
