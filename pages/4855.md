@@ -27,6 +27,8 @@ In analogy to how a [[topological space]] has a [[fundamental ∞-groupoid]], a 
 ## Definition
 
 
+### Directed topological spaces
+
 +-- {: .un_defn}
 ###### Definition
 
@@ -59,6 +61,7 @@ This defines the [[category]] $DTop$ of directed topological spaces.
 
 +-- {: .un_example}
 ###### Example
+**(topological poset)**
 
 For $X$ a topological space equipped with the structure of a [[poset]] on its underlying set, say that $\gamma : [0,1] \to X$ is directed if for all $x \leq y$ in $[0,1]$ we have $\gamma(x) \leq \gamma(y)$ in $X$. 
 
@@ -66,12 +69,38 @@ For $X$ a topological space equipped with the structure of a [[poset]] on its un
 
 +-- {: .un_example}
 ###### Example
+**(directed geometric simplex)**
+
 
 For $\Delta^k_{Top}$ the standard topological $k$-[[simplex]] its _standard directed paths_ are order-preserving maps into its 1-[[simplicial skeleton|skeleton]] (the union of the 1-faces equipped with the evident [[poset]]-structure induced from that on the vertices).
 
 =--
 
 {#DirectedSimplex}
+
+
++-- {: .un_example}
+###### Example
+**(directed geometric realization)**
+
+For $C$ a [[quasi-category]] its [[geometric realization]] $|C|$ becomes a directed topological space by taking the directed paths to be all maps that factor through its 1-[[simplicial skeleton|skeleton]]: 
+
+$$
+  \int^{[k] \in \Delta_{\leq 1}} \Delta^k_{Top} \times C_k 
+  \hookrightarrow
+  \int^{[k] \in \Delta} 
+  \Delta^k_{Top} \times C_k
+  =
+  |C|
+$$
+
+while preserving the canonical order.
+
+=--
+
+The previous example of the directed topological simplex is the special case of this for $C = \Delta[k]$.
+
+### Fundamental $(\infty,1)$-category
 
 +-- {: .un_def}
 ###### Definition
