@@ -147,7 +147,7 @@ In this case,
 ## The equivalence between fibrations and pseudofunctors
 
 One can characterize the _image_ of the Grothendieck construction
-as consisting precisey of those objects in $Cat/C$ that are
+as consisting precisely of those objects in $Cat/C$ that are
 [[Grothendieck fibration]]s.
 
 We recall the definition of the [[bicategory]] of Grothendieck fibrations 
