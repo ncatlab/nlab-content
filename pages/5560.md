@@ -1,9 +1,25 @@
 A __pseudocompact ring__ is a complete Hausdorff
 topological ring $R$ which admits a base at $0$ of two-sided open ideals $I$ for each of which $R/I$ is an Artinian ring. Equivalently, it is a regular [[pro-object]] in Artinian rings. 
 
-Grothendieck developed the theory of [[formal group]]s over pseudocompact rings. 
+More generally let $R$ be a commutative pseudocompact ring. A complete Hausdorff topological ring $\Lambda$ will be called a pseudocompact algebra over $R$ if
+
+(i)  $\Lambda$ is an $R$ algebra in the usual sense, and 
+
+(ii) $\Lambda$ admits a system of open neighbourhoods of 0 consisting of two-sided ideals $I$ such that $\Lambda/I$ has finite length as an $R$ module.
+
+##Motivations and applications
+
+
+1. Grothendieck developed the theory of [[formal group]]s over pseudocompact rings. 
+
+1. The completed [[group algebra]]s of [[profinite group]]s are naturally pseudocompact algebras, usually considered over finite fields or the [[profinite completion]] of the ring of integers. 
+
+##References
+
+The homological algebra of such rings and the corresponding modules are discussed in
 
 * A. Brumer, _Pseudocompact algebras, profinite groups and class formations_,  J. Algebra __4__ (1966) 442-470, [MR202790](http://www.ams.org/mathscinet-getitem?mr=202790), <a href="http://dx.doi.org/10.1016/0021-8693(66)90034-2">doi</a>
 
 [[!redirects pseudocompact rings]]
 
+[[!redirects pseudocompact algebras]]
