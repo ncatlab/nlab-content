@@ -9,6 +9,7 @@ Specific:
 * [[dual vector space]],
 * [[Pontrjagin dual]],
 * [[dual object]]
+* [[dual object in a closed monoidal category]] 
 * etc.
 
 
