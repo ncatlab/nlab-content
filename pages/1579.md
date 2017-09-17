@@ -35,7 +35,7 @@ If the prometrics of $X$ and $Y$ are presented by bases, then this is equivalent
 
 Since $Gau$ includes the categories of metric spaces and uniform spaces (disjointly), so does $ProMet$.  Likewise, since $QGau$ includes the category of topological spaces (disjointly from metric and uniform spaces), so does $QProMet$.
 
-There is also another embedding of $Unif$ into $ProMet$, however, which is notably simpler than its embedding into $Gau$.  Given a [[uniform space]] $X$, we define for each entourage $U\subseteq X\times X$ a distance function
+There is also another embedding of $Unif$ into $ProMet$, however, which is notably simpler than its embedding into $Gau$.  Given a [[uniform space]] $X$, we define for each [[entourage]] $U\subseteq X\times X$ a distance function
 $$
 d_U(x,y) =
 \begin{cases}
