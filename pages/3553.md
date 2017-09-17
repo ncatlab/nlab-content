@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -38,8 +53,14 @@ where the last holds by the usual properties of representable profunctors (see e
 
 * A [[natural numbers object]] (in the weak, unparametrized sense) in a category $C$ with terminal object $1$ is an initial object in the category of algebras for the bimodule $Hom_C(1, ?) \times Hom_C(-, ?)$.  If $C$ has binary coproducts, then this is of course the same as an initial algebra for the endofunctor $1+(-)$.
 
+## Related concepts
+
+* [[algebra over a monad]], [[algebra over an endofunctor]], [[coalgebra over an endofunctor]]
+
 
 [[!redirects algebra for an endo-profunctor]]
 [[!redirects algebra for an endoprofunctor]]
 [[!redirects algebra for a bimodule]]
 [[!redirects algebra for a C-C bimodule]]
+
+[[!redirects algebra over a profunctor]]
