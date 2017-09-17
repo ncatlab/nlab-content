@@ -212,6 +212,8 @@ One can consider the generalization of the notion of foliation of manifolds to f
 
 * [[foliation of a Lie algebroid]]
 
+* [[foliation of a Lie groupoid]]
+
 ### In terms of differential cohesive higher geometry
  {#InCohesiveHigherGeometry}
 
