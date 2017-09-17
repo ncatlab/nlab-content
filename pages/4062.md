@@ -52,7 +52,7 @@ $$
   }
 $$
 
-That this is a bijection follows easily from the triangle identities.  The 2-cells $\lambda$ and $\mu$ are called **mates** with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
+That this is a bijection follows easily from the [[triangle identities]].  The 2-cells $\lambda$ and $\mu$ are called **mates** (or sometimes **conjugates**) with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
 
 ## Example
 
@@ -65,3 +65,6 @@ and the pasting operations as above yield the usual definition of the isomorphis
 * [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in Kelly (ed.), Category Seminar, LNM 420.
 
 * Tom Leinster, _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
+
+[[!redirects mates]]
+[[!redirects mate correspondence]]
