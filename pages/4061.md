@@ -14,8 +14,14 @@
 The intention of this page is to list a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and too obsolete books for any major purpose should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry; similarly we avoided the relevant books on Kac-Moody algebras and groups but included the books on related VOAs and the Pressley-Segal book. 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
+
+
+## Classical mechanics
+
+* [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://www.math.uga.edu/~shifrin/Spivak_physics.pdf))
+
 
 ## Classical mathematical physics
 
