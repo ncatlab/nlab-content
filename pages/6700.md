@@ -15,17 +15,31 @@
 
 ## Idea
 
-The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension]]al [[cobordism]] $\Sigma$ a [[vector space]] of "possible correlator"s: those functions on the space of [[conformal structure]]s on $\Sigma$ that have the correct behaviour to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of [[conformal block]]s $Bl(\Sigma)$. This assignment is [[functor]]ial under [[diffeomorphism]]. The corresponding functor is called a **modular functor**.
+The local data for a [[CFT]] in [[dimension]] $d$ allows to assign to each $d$-[[dimension]]al [[cobordism]] $\Sigma$ a [[vector space]] of "possible correlator"s: those functions on the space of [[conformal structure]]s on $\Sigma$ that have the correct behaviour to qualify as the (chiral) [[correlator]] of a CFT. This is called a space of [[conformal blocks]] $Bl(\Sigma)$. This assignment is [[functor|functorial]] under [[diffeomorphism]]. The corresponding functor is called a **modular functor**.
 
-To get an actual collection of correlators one has to choose from each space of conformal blocks $Bl(\Sigma)$ an element such that these choices glue under composition of [[cobordism]]: such that they solve the [[sewing constraint]]s.
+To get an actual collection of correlators one has to choose from each space of conformal blocks $Bl(\Sigma)$ an element such that these choices glue under composition of [[cobordism]]: such that they solve the [[sewing constraints]], see for instance at _[[FRS-theorem on rational 2d CFT]]_.
+
+Dually, under a [[holographic principle]] such as [[AdS3-CFT2 and CS-WZW correspondence|CS3/WZW2]] the space of [[conformal blocks]] on $\Sigma$ is equivalently the [[space of quantum states]] of the [[TQFT]] on $\Sigma$. See at _[[quantization of 3d Chern-Simons theory]]_ for more on this.
+
+## Properties
+
+### Relation to equivariant ellitpic cohomology / equivariant $tmf$
+
+The modular functor for $G$-[[Chern-Simons theory]] restricted to [[genus of a surface|genus-1 surfaces]] ([[elliptic curves]]) is essentially what is encoded in the universal $G$-[[equivariant elliptic cohomology]] (equivariant [[tmf]]). In fact equivariant elliptic cohomology remembers also the [[local prequantum field theory|pre-quantum]] incarnation of the modular functor as a systems of [[prequantum line bundles]] over Chern-Simons [[phase spaces]] (which are [[moduli stacks of flat connections]]) and remembers the [[quantization]]-process from there to the actual [[space of quantum states]] by forming holomorphic [[sections]]. See at _[equivariant elliptic cohomology -- Idea -- Interpretation in Quantum field theory](equivariant+elliptic+cohomology#InterpretationInQuantumFieldTheory)_ for more on this.
 
 ## References
 
+* [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors]], in: IXth International Congress on Mathematical Physics (Swansee 1988), Hilger, Bristol
+1989, pp. 22-37
+
 * [[Bojko Bakalov]], [[Alexander Kirillov]], _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
+
+* {#Gawedzki99} [[Krzysztof Gawędzki]], section 5.6 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+
 
 A generalization of the modular functors is in
 
-* Igor Kriz, Luhang Lai, _On the definition and K-theory realization of a modular functor_, [arxiv/1310.5174](http://arxiv.org/abs/1310.5174)
+* [[Igor Kriz]], Luhang Lai, _On the definition and K-theory realization of a modular functor_, ([arxiv/1310.5174](http://arxiv.org/abs/1310.5174)).
  
 
 [[!redirects modular functors]]
