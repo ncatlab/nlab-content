@@ -19,9 +19,15 @@ Ordinary differential cohomology is the [[differential cohomology]]-refinement o
 
 Every [[generalized (Eilenberg-Steenrod) cohomology]]-theory has a refinement to [[differential cohomology]]. By _ordinary differential cohomology_ one refers, for emphasis, to the differential refinement of _ordinary [[integral cohomology]]_ , hence of the [[cohomology theory]] represented by the [[Eilenberg-MacLane spectrum]] $K(-,\mathbb{Z})$. To the extent that [[integral cohomology]] is often just called _cohomology_ if the context is clear, _ordinary differential cohomology_ is often called just _differential cohomology_ .
 
-Here we write $H_{diff}^\bullet(X)$ for the ordinary differential cohomology groups of a [[smooth manifold]] $X$. 
+Ordinary differential cohomology classifies [[circle n-bundles with connection]]. In low degree this are ordinary [[circle bundle]]s with [[connection on a bundle|connection]]. In the next degree this are [[circle 2-group]] [[principal 2-bundles]] / [[bundle gerbes]] with [[connection on a 2-bundle|2-connection]].
+
+
+
 
 ## Properties
+
+Here we write $H_{diff}^\bullet(X)$ for the ordinary differential cohomology groups of a [[smooth manifold]] $X$. 
+
 
 ### Curvature and characteristic class
  {#CurvatureAndCharClass}
@@ -34,7 +40,7 @@ There are two [[natural transformation|natural]] morphism
      c : H_{diff}^\bullet(X) \to H^\bullet(X,\mathbb{Z})
    $$ 
 
-   produces the class [[integral cohomology]] that underlies a differential cocycle;
+   produces the class in [[integral cohomology]] that underlies a differential cocycle;
 
    * for $H^2_{diff}(X)$ this is called the first [[Chern class]] of a [[line bundle]];
 
@@ -158,6 +164,18 @@ In [[physics]]
 
 * the [[supergravity C-field]] is a cocyce in degree 4.
 
+In abelian [[higher dimensional Chern-Simons theory]] in dimension $(4k+3)$ a field configuration is a cocycle in ordinary differential geometry of degree $(2k+2)$, for $k \in \mathbb{N}$.
+
+## In a general abstract context
+
+Ordinary differential cohomology (and indeed a [[cocycle]] model thereof) is defined generally [[internalization|internal]] to any [[cohesive (∞,1)-topos]] $\mathbf{H}$. This is discussed at 
+
+* [cohesive (∞,1)-topos -- structures -- differential cohomology](http://ncatlab.org/nlab/show/cohesive%20%28infinity,1%29-topos%20--%20structures#DifferentialCohomology).
+
+For the case $\mathbf{H} = $ [[Smooth∞Grpd]] this intrinsic definition reproduces the [[Deligne complex]] model. This is discussed at
+
+* [Smooth∞Grpd -- structures -- differential cohomology](http://ncatlab.org/nlab/show/smooth%20infinity-groupoid%20--%20structures#StrucDifferentialCohomology)
+
 
 ## References
 
@@ -170,3 +188,7 @@ A good discussion is in
   * The systematic construction and definition via a [[homotopy pullback]] is in section 3.2.
 
   * The relation to Chern-Weil theory is in section 3.3.
+
+In the general abstract context of [[cohesive (∞,1)-toposes]] differential cohomology is discussed in 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
