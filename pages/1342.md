@@ -525,6 +525,25 @@ This way the descent for $[B(-),A]$ on the object $U = colim^\Delta U_\bullet$ i
 
 In some context the descent condion may algebraically be encoded in an [[adjunction]]. This leads to the notion of [[monadic descent]]. See there for more details.
 
+## Related concepts
+
+* **descent**
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
+
+
 
 [[!redirects descent and codescent]]
 [[!redirects codescent]]
