@@ -60,6 +60,7 @@ For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections
 [[!redirects flat ∞-connection]]
 [[!redirects flat ∞-connections]]
 
+
 [[!redirects infinity-local system]]
 [[!redirects infinity-local systems]]
 
@@ -69,4 +70,7 @@ For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections
 [[!redirects flat (infinity,1)-bundle]]
 [[!redirects flat (infinity,1)-bundles]]
 
-
+[[!redirects flat principal ∞-connection]]
+[[!redirects flat principal ∞-connections]]
+[[!redirects flat principal infinity-connection]]
+[[!redirects flat principal infinity-connections]]
