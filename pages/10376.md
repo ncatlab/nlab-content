@@ -54,6 +54,13 @@ $$
 $$
 
 
+## Examples
+
+### Mass-anomaly of Galilean action on non-relativistic mechanics
+ {#GalileoAnomaly}
+
+The canonical [[Galileo group]]-[[action]] on the [[phase space]] of non-relativistic [[classical mechanics]] has a classical anomaly, given by a [[group cohomology|group 2-cocycle]] proportional to the [[mass]] of the system, the _[[Galileo 2-cocycle]]_ (e.g. [Chen-Shaw-Yen 85](#ChenShawYen85), [Marle 14](#Marle14)).
+
 ## Related concepts
 
 * [[quantum anomaly]]
@@ -90,4 +97,14 @@ Discussion in the context of formalization of [[classical field theory]] in [[co
 
 * [[Urs Schreiber]], section 2.14 of _[[schreiber:Classical field theory via Cohesive homotopy types]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/classicalinhigher.pdf))
 
+The example of the [[Galileo 2-cocycle]] is discussed for instance in 
+
+psroc.phys.ntu.edu.tw/cjp/v23/4.pdf
+
+* {#ChenShawYen85} Chen, Shaw, Yen, _An example of a 2-cocycle_,85 [pdf](http://psroc.phys.ntu.edu.tw/cjp/v23/4.pdf)
+
+* {#Marle14} Charles-Michel Marle, _The manifold of Motions and the total mass of a mechanical system_, 2014 ([pdf](http://phil.physico-math.gie.im/static/slides/ManifoldMotionsMass.pdf))
+
 [[!redirects classical anomalies]]
+
+[[!redirects Galileo 2-cocycle]]
