@@ -10,7 +10,7 @@ A _lax 2-adjunction_ is an [[adjunction]] 'up to adjointness'.  A
 
 $$\phi_{A,B} : D(F A,B) \cong C(A,G B)$$
 
-and a strict 2-adjunction is analogous, where $C,D$ are instead [[strict 2-category|strict 2-categories]], $F,G$ are [[strict 2-functor|strict 2-functors]], and $\phi$ is a strictly 2-natural isomorphism of hom-categories.  A __lax 2-adjunction__ is given by a (suitably natural) pair of functors
+and a [[strict 2-adjunction]] is analogous, where $C,D$ are instead [[strict 2-category|strict 2-categories]], $F,G$ are [[strict 2-functor|strict 2-functors]], and $\phi$ is a strictly 2-natural isomorphism of hom-categories.  A __lax 2-adjunction__ is given by a (suitably natural) pair of functors
 
 $$\hat\phi_{A,B} : D(F A,B) \overset{\to}{\leftarrow} C(A,G B) :
 \check\phi_{A,B} $$
@@ -100,8 +100,4 @@ which when combined with the definition of composition as substitution give you 
 The second paragraph was just pointing out an example of how a lax adjunction arises in typed $\lambda$-calculus.  You want types to map to 0-cells and terms to 1-cells as usual, and rewrite relations $t red u$ to map to 2-cells $t\Rightarrow u$.  So the term model will be a strict 2-category with (strict or lax) products, together with $(-\times A)$ lax left adjoint to $[A\to -]$ for all $A$.  Then the first definition of lax adjunction should give you the $\beta$ and $\eta$ rewrites as the counit and unit of each adjunction $\check\phi\dashv\hat\phi$.  As I've said above, I'm still working out the details wrt pseudo versus lax naturality, but this is roughly what you should get.
 =--
 
-+--{.query}
-[[Eric]]: Would it make sense to add redirects so that [[pseudoadjunction]] and [[pseudo-adjunction]] point to this page?
-
-_Toby_:  Perhaps for now, but what we really need is [[2-adjunction]], with those and [[strict 2-adjunction]] redirecting to it until and unless they get their own pages, and with [[2-adjunction]] linking here and to whichever other versions get their own pages.
-=--
+[[!redirects lax 2-adjunctions]]
