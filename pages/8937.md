@@ -45,4 +45,6 @@ In [[higher geometric prequantization]] (see there for more details for the mome
 [[!redirects prequantum line n-bundle]]
 [[!redirects prequantum line n-bundles]]
 
+[[!redirects prequantum circle 2-bundle]]
+[[!redirects prequantum circle 2-bundles]]
 
