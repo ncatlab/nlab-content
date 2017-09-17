@@ -82,38 +82,124 @@ This is ([Lurie, remark 4.4](#Lurie)).
 
 
 
-### Abelian symmetric monoidal categories
+### Abelian tensor categories
 
-+-- {: .un_def}
+
++-- {: .un_def #AbelianTensorCategory}
 ###### Definition
 
-For $C,D$ two [[symmetric monoidal category|symmetric monoidal]] [[abelian categories]], write
+An **abelian tensor category** (for the purposes of the present discusission) is a [[symmetric monoidal category]] $(C, \otimes)$ such that
+
+* $C$ is an [[abelian category]];
+
+* for every $x \in C$ the functor $(-) \otimes x : C\to C$ is additive and right-[[exact functor|exact]]: it commutes with finite [[colimit]]s.
+
+A **complete abelian tensor category** is an abelian tensor category such that 
+
+* it satisfies the axiom AB5 at [[additive and abelian categories]];
+
+* $(-) \otimes x$ commutes with _all small_ colimits.
+
+  (equivalently, we have a  [[closed monoidal category]]).
+
+An abelian tensor category is called **tame** if for any [[short exact sequence]]
+
+$$
+  0 \to M'\to M \to M''\to 0
+$$
+
+with $M''$ a _flat object_ (such that $x \mapsto x \otimes M''$ is an [[exact functor]]) and any $N \in C$ also the induced sequence
+
+$$
+  0 \to M'\otimes N \to M\otimes N \to M''\otimes N \to 0
+$$
+
+is exact.
+
+=--
+
+This appears as ([Lurie, def. 5.2](#Lurie)) together with the paragraph below remark 5.3.
+
+
++-- {: .un_def #TCAbTens}
+###### Definition
+
+For $C,D$ two [complete abelian tensor categories](#AbelianTensorCategory) write
 
 $$
   Func_\otimes(C,D) \subset Func(C,D)
 $$
 
-for the [[core]] of the [[subcategory]] of the [[functor category]] on those [[functor]]s that are 
+for the [[core]] of the [[subcategory]] of the [[functor category]] on those [[functor]]s that 
 
-* [[symmetric monoidal functor]]s;
+* are [[symmetric monoidal functor]]s;
 
-* [[additive functor]]s;
+* commute with all small [[colimit]]s (which implies they are [[additive functor|additive]] and [[exact functor|right exact]]) 
 
-* [[exact functor]];
+* preserve flat objects and short exact sequences whose last object is flat.
 
-* preserve flat objects.
+Write
+
+$$
+  TCAbTens
+$$
+
+for the ([[strict 2-category|strict]]) [[(2,1)-category]] of [tame complete abelian tensor categories](#AbelianTensorCategory) with hom-[[groupoid]]s given by this $Func_\otimes$.
+
+=--
+
+This appears as ([Lurie, def 5.9](#Lurie)) together with the following remarks.
+
+
+
++-- {: .un_lemma}
+###### Example
+
+For $k$ a [[ring]], write $k Mod$ for its [[abelian category|abelian]] [[symmetric monoidal category]] of [[module]]s
+
+Let $(S,\mathcal{O}_S)$ be a [[ringed topos]]. Then 
+
+$$
+  \mathcal{O}_S Mod
+$$ 
+
+(the category of sheaves of $\mathcal{O}_S$-[[module]]s) is a tame [complete abelian tensor category](#AbelianTensorCategory).  
 
 =--
 
-+-- {: .un_def}
-###### Definition
+This is ([Lurie, example 5.7](#Lurie)).
 
 
-* For $k$ a [[ring]], write $k Mod$ for its [[abelian category|abelian]] [[symmetric monoidal category]] of [[module]]s
++-- {: .un_lemma}
+###### Example
 
-* For $X$ an [[algebraic stack]], write $QC(X)$ for its [[abelian category|abelian]] [[symmetric monoidal category]] of [[quasicoherent sheaves]].
+
+For $X$ an [[algebraic stack]], write 
+
+$$
+  QC(X)
+$$ 
+
+for its category [[quasicoherent sheaves]].
+
+This is a [complete abelian tensor category](#AbelianTensorCategory)
 
 =--
+
++-- {: .un_lemma}
+###### Lemma
+
+If $X$ is a Noetherian geometric stack, then $QC(X)$ is the category of [[ind-object]]s of its full [[subcategory]] $Coh(X) \subset QC(X)$ of [[coherent sheaves]]
+
+$$
+  QC(X) \simeq Ind(Coh(X))
+  \,.
+$$
+
+=--
+
+This appears as ([Lurie, lemma 3.9](#Lurie)).
+
 
 ### Geometric stacks {#GeometricStack}
 
@@ -121,13 +207,13 @@ for the [[core]] of the [[subcategory]] of the [[functor category]] on those [[f
 ###### Definition
 
 
-A **geometric stack** is
+A **[[geometric stack]]** is
 
-*an [[algebraic stack]] $X$ over $Spec \mathbb{Z}$
+* an [[algebraic stack]] $X$ over $Spec \mathbb{Z}$
 
 * that is quasi-compact, in particular there is an [[epimorphism]] $Spec A \to X$;
 
-* with affine and representable diagonal $X \to X \times X$.
+* with affine and [[representable morphism of stacks|representable]] diagonal $X \to X \times X$.
 
 =--
 
@@ -183,11 +269,19 @@ $$
 
 =--
 
-This ([Lurie, theorem 5.11](#Lurie)) in view of ([Lurie, remark 4.5](#Lurie)).
+This is ([Lurie, theorem 5.11](#Lurie)) in view of ([Lurie, remark 4.5](#Lurie)).
 
 
 +-- {: .un_remark}
 ###### Remark
+
+It follows that forming [[quasicoherent sheaves]]  constitutes a [[full and faithful (infinity,1)-functor|full and faithful (2,1)-functor]] 
+
+$$
+  QC : GeomStacks \to TCAbTens^{op}
+$$
+
+from geometric stacks to [tame complete abelian tensor categories](#TCAbTens).
 
 This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functions on $X$. This perspective is the basis for [[derived noncommutative geometry]].
 
