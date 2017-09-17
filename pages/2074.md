@@ -163,7 +163,98 @@ For $(X \to S) \in SSet^+/S$ and $p : Y \to S$ a [[Cartesian fibration]] we have
 ## Model structure on marked simplicial sets
 
 
-### Definition
+### Cartesian weak equivalences
+
+Observe that weak equivalences in the [[model structure for quasi-categories]] may be characterized as follows.
+
++-- {: .un_lemma }
+###### Lemma
+
+A morphism $f : C \to D$ between simplicial sets that are [[quasi-categories]] is a weak equivalence in the [[model structure for quasi-categories]] precisely if the following equivalent coditions hold:
+
+* For every simplicial set $K$, the morphism $sSet(K,f) : sSet(K,D) \to sSet(K,C)$ is a weak equivalence in the model structure for quasi-categories.
+
+*  For every simplicial set $K$, the morphusm $Core(sSet(K,f)) : Core(sSet(K,D)) \to Core(sSet(K,C))$ on the [[core]]s, the maximal [[Kan complex]]es inside, is a weak equivalence in the standard [[model structure on simplicial sets]], hence a [[homotopy equivalence]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
+
+=--
+
+This may be taken as motivation for the following definition.
+
++-- {: .un_def }
+###### Definition/Proposition
+
+For every [[Cartesian fibration]] $Z \to S$, we have that
+
+$$
+  Map^\flat(X, Z^{\sharp})
+$$
+
+is a [[quasi-category]] and
+
+$$
+  Map^#(X,Z^\sharp) = Core(Map^\flat(X,Z^\sharp))
+$$
+
+is the maximal Kan complex inside it.
+
+A morphism $p : X \to Y$ in $sSet^+/S$ is a **Cartesian equivalence** if for every Cartesian fibration $Z$ we have
+
+* The induced morphism $Map_S^\flat(Y,Z^{\sharp}) \to Map_S^\flat(X,Z^{\sharp})$ is  an [[equivalence of quasi-categories]];
+
+Or equivalently:
+
+* The induced morphism $Map_S^#(Y,Z^{\sharp}) \to Map_S^#(X,Z^{\sharp})$ is a [[model structure on simplicial sets|weak equivalence of Kan complexes]].
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 3.1.3.3]] with [[Higher Topos Theory|HTT, remark 3.1.3.1]].
+
+
++-- {: .un_prop }
+###### Proposition
+
+Let
+
+$$
+  \array{
+    X &&\stackrel{p}{\to}&& Y
+    \\
+    & \searrow && \swarrow
+    \\
+    && S
+  }
+$$
+
+be a morphism in $sSet/S$ such that both vertical maps to $S$ are
+Cartesian fibrations. Then
+
+* $p$ is a [[homotopy equivalence]].
+
+* The induced morphism $X^\sharp \to Y^\sharp$ in $sSet^+/S$ is a Cartesian equivalence.
+
+* The induced morphism on each fiber $X_s \to Y_{p(s)}$ is a 
+  weak equivalence in the [[model structure for quasi-categories]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, lemma 3.1.3.5]].
+
+=--
+
+
+### The model structure
 
 The **model structure on marked simplicial over-sets** $Set^+/S$ over $S \in SSet$ -- also called the **Cartesian model structure** since it models [[Cartesian fibration]]s -- is defined as follows.
 
@@ -177,26 +268,18 @@ The category $SSet^+/S$ of [[marked simplicial set]]s over a marked simplicial s
 The [[SSet]]-[[enriched category|enrichment]] is given by 
 
 $$
-  hom(X,Y) := Map_S^#(X,Y)
+  sSet^+/S(X,Y) := Map_S^#(X,Y)
   \,.
 $$
 
 A morphism $f : X \to X'$ in $SSet^+/S$ of [[marked simplicial set]]s is 
 
-* a _cofibration_ if the underlying morphism of [[simplicial set]]s is a cofibration in the standard [[model structure on simplicial sets]] (i.e. a [[monomorphism]]).
+* a _cofibration_ precisely if underlying morphism of [[simplicial set]]s is a cofibration in the standard [[model structure on simplicial sets]] (i.e. a [[monomorphism]]).
 
   (def. 3.1.2.2 of [[Higher Topos Theory|HTT]])
 
-* a weak equivalence if it is a **Cartesian equivalence**, namely such that for every [[cartesian fibration]] $Z \to S$ we have that
+* a weak equivalences precisely if it is a Cartesian equivalence, as defined above.
 
-  * the induced morphism $Map_S^\flat(Y,Z^{cart}) \to Map_S^\flat(X,Z^{cart})$ is  an [[equivalence of quasi-categories]]
-
-  * or equivalently: the induced morphism $Map_S^#(Y,Z^{cart}) \to Map_S^#(X,Z^{cart})$ is a [[model structure on simplicial sets|equivalence of Kan complexes]].
-
-
-* a fibration if it has the right [[lifting property]] with respect to all acyclic cofibrations.
-
-(Recall that $Map_S^#(X,Z^{cart})$ is the maximal [[Kan complex]] in $Map_S^\flat(X,Z^{cart})$.)
 
 =--
 
@@ -218,15 +301,75 @@ There is another such model structure, with [[Cartesian fibration]]s replaced ev
 
 
 
-### As a model for the $(\infty,1)$-category of $(\infty,1)$-categories
-
-The Joyal [[model structure for quasi-categories]] $sSet_{Joyal}$ is an [[enriched category]] enriched over itself. So it is _not_ a [[simplicial model category]] in the standard sense, which means $sSet_{Quillen}$-enriched.
-
-Indeed, the full sSet-enriched subcategory $(sSet_{Joyal})^\circ$ on fibrant-cofibrant objects is a model for the [[(∞,2)-category]] [[(∞,1)Cat]] of [[(∞,1)-categories]]. For many applications it is more convenient to work just with the [[(∞,1)-category of (∞,1)-categories]] inside that, obtained by taking in each [[hom-object]] [[quasi-category]] the maximal [[Kan complex]].
-
-The resulting [[(∞,1)-category]] should have a presentation by a [[simplicial model category]]. And the model structure on marked simplicial sets does accomplish this.
-
 ### Properties
+
+
++-- {: .un_prop}
+###### Proposition
+
+The above model category structure is
+
+* [[proper model category|left proper]];
+
+* [[combinatorial model category|combinatorial]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 3.1.5.2]].
+
+=--
+
+We write $sSet_{Quillen}$ for the standard [[model structure on simplicial sets]] and $sSet_{Joyal}$ for the [[model structure for quasi-categories]].
+
++-- {: .un_prop}
+###### Proposition
+
+The category $sSet^+/S$ becomes an [[sSet]]-[[enriched category]] in the following two ways:
+
+* $sSet^+/S(X,Y) := Map^\flat(X,Y)$
+
+  In this case $sSet^+/S$ with the above model structure is a $sSet_{Quillen}$-[[enriched model category]], hence a [[simplicial model category]].
+  
+or
+
+* $sSet^+/S(X,Y) := Map^#(X,Y)$.
+
+  In this case $sSet^+/S$ with the above model structure is a $sSet_{Joyal}$-[[enriched model category]]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, cor. 3.1.4.4]]
+and [[Higher Topos Theory|HTT, remark 3.1.4.5]].
+
+=--
+
+
+Notice that triviall every object in the model structure is cofibrant.
+The following proposition shows that the above model structure indeed
+presents the $(\infty,1)$-category $CartFib(S)$ of [[Cartesian fibration]]s.
+
++-- {: .un_prop}
+###### Proposition
+
+An object $p : X \to S$ in $sSet^+/S$ si _fibrant_ with respect to the above model structure precisely if it is isomorphic to an object of the
+form $Y^#$, for $Y \to S$ a [[Cartesian fibration]] in [[sSet]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
+
+=--
+
+
 
 
 +-- {: .un_defn}
@@ -287,6 +430,17 @@ A morphism $p : X \to S$ in $SSet^+$ has the [[right lifting property]] with res
 Every morphism $f : X \to Y$ in $SSet^+/S$ whose underlying morphism in $SSet^+$ is marked anodyne is a Cartesian equivalence.
 
 =--
+
+### As a model for the $(\infty,1)$-category of $(\infty,1)$-categories
+
+The Joyal [[model structure for quasi-categories]] $sSet_{Joyal}$ is an [[enriched category]] enriched over itself. So it is _not_ a [[simplicial model category]] in the standard sense, which means $sSet_{Quillen}$-enriched.
+
+Indeed, the full sSet-enriched subcategory $(sSet_{Joyal})^\circ$ on fibrant-cofibrant objects is a model for the [[(∞,2)-category]] [[(∞,1)Cat]] of [[(∞,1)-categories]]. For many applications it is more convenient to work just with the [[(∞,1)-category of (∞,1)-categories]] inside that, obtained by taking in each [[hom-object]] [[quasi-category]] the maximal [[Kan complex]].
+
+The resulting [[(∞,1)-category]] should have a presentation by a [[simplicial model category]]. And the model structure on marked simplicial sets does accomplish this.
+
+
+
   
 ## References 
 
