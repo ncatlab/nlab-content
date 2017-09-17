@@ -535,7 +535,7 @@ So already over ten years ago people had a pretty good idea that and how the sta
 
 The only problem was: this description was wrong. But only in the sense in which  ideas in physics tend to be wrong - not entirely wrong but not quite right.
 
-Namely, instead of containing the fermionic particle content of the standard model, these spectral models produced four copies of every fermion in the standard model. A slight overkill. 
+[Namely,](http://yawan.blogdetik.com/) [instead](http://lucubanget.inilahkita.com/) [of containing](http://deyong.dagdigdug.com/) [the fermionic](http://id4download.blog.com/) [particle](http://kanduyung.wordpress.com/) [content](http://katamutiarabijak.netai.net/) [of the standard](http://bentor.pressku.com/) [model,](http://infonews.site90.net/) [these spectral](http://mutiarabijak.wordpress.com/) [models produced](http://lucubro.blogspot.com/) [four](http://deyong.abatasa.com/) [copies](http://kandu.webnode.com/) [of every](http://wockee.weebly.com/index.html) [fermion](http://deyong.posterous.com/) [in the](http://kandu.webs.com/) [standard](http://deyong.livejournal.com/) [model.](http://bentor.16mb.com/) [A slight](http://katacara.blog.com/) [overkill.](http://dories.justpost.com/)
 
 By a remarkable synchronicity, it seems that there was no progress on this aspect for about ten years, and now two preprints appear almost simultaneously, presenting the solution:
 
