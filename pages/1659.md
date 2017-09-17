@@ -1,11 +1,15 @@
+# Countable sets
+* table of contents
+{: toc}
+
 ## Idea
 
 Let $S$ be any [[set]], and let $\mathbf{N}$ be the [[set]] of [[natural number]]s.  Let $|S$ be the [[cardinality]] of $S$, and let $\aleph_0$ be the cardinality of $\mathbf{N}$.
 
 Then $S$ is:
-*  __denumerable__ if $|S| = \aleph_0$,
-*  __countable__ if $|S| \leq \aleph_0$, and
-*  __uncountable__ if $|S| \gt \aleph_0$.
+*  __denumerable__ if ${|S|} = \aleph_0$,
+*  __countable__ if ${|S|} \leq \aleph_0$, and
+*  __uncountable__ if ${|S|} \gt \aleph_0$.
 
 Note that the first two terms are not entirely standardised; some authors use them interchangeably for one or the other concept.
 
@@ -23,7 +27,7 @@ Of course, the terms are even less standardised here.
 
 ## Properties
 
-The [[empty set]] is countable; any uncountable set must be [[inhabited set|inhabited]].  Any (Kuratowski)-[[finite set]] is countable; any uncountable set must be [[infinite set]].  A denumerable set is precisely an infinite countable set; sometimes this is written as a _countably infinite set_.
+The [[empty set]] is countable; any uncountable set must be [[inhabited set|inhabited]].  Any (Kuratowski)-[[finite set]] is countable; any uncountable set must be [[infinite set|infinite]].  A denumerable set is precisely an infinite countable set; sometimes this is written as a _countably infinite set_.
 
 Classically, a countable set is either [[finite set|finite]] or denumerable, although this need not hold constructively.  We do have, however, that a countable set is either empty or inhabited, which is classically trivial but need not hold constructively for every set.
 
@@ -32,6 +36,13 @@ Arguably, [[set theory]] as such begins with Georg Cantor\'s proof that the set 
 In some forms of constructive mathematics, especially in the Russian school, it is assumed (or provable from other assumptions) that *every* set is a [[subset]] of a countable set.  The fact the the set of real numbers is uncountable still applies, however, as the inclusion map of the subset need not [[split monomorphism|split]].  In particular, the set of [[computable number]]s is a subset of a countable set, but to prove that it is itself countable requires [[excluded middle]].
 
 
+[[!redirects countable set]]
+[[!redirects countable sets]]
 [[!redirects countably infinite set]]
+[[!redirects countably infinite sets]]
 [[!redirects denumerable set]]
+[[!redirects denumerable sets]]
 [[!redirects uncountable set]]
+[[!redirects uncountable sets]]
+[[!redirects countable family]]
+[[!redirects countable families]]
