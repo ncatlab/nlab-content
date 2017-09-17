@@ -177,6 +177,12 @@ on [[étale cohomology]] and the [[proof]] of the [[Weil conjectures]].
 
 ### 17. The proper base change theorem
 
+* [[proper morphism of schemes]]
+
+* [[constructible sheaf]]
+
+* [[Beck-Chevalley condition]]
+
 * [[proper base change theorem]]
 
 ### 18. Cohomology groups with compact support
