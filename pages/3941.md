@@ -45,7 +45,7 @@ maps to $F$.
 
 We say that a [[cospan]] $F$ in a category $\mathcal{C}$, that is, an object of the [[functor category]] $[Sp^{op},\mathcal{C}]$ is **quadrable** if there exists a [[cone]] $N$ for $F$, that is, an object $N$ in the [[comma category]] $(\Delta \downarrow *_F)$.
 
-Dually, we say that a span $G$ in a category $C$, that is, an object of the functor category $[Sp,\mathcal{C}]$ is **coquadrable** if there exists a [[cocone]] $N$ for $G$, that is, an object $N$ in the comma category $(*_G \downarrow \Delta)$.
+Dually, we say that a [[span]] $G$ in a category $C$, that is, an object of the functor category $[Sp,\mathcal{C}]$ is **coquadrable** if there exists a [[cocone]] $N$ for $G$, that is, an object $N$ in the comma category $(*_G \downarrow \Delta)$.
 
 We say that a category $\mathcal{C}$ is quadrable (resp. coquadrable) if all cospans (resp. spans) in $C$ are quadrable (resp. coquadrable).  
 
