@@ -1,6 +1,6 @@
 _Francis Borceux_ is a category theorist at Louvain (Belgium). He wrote a 3-volume 
 
-* __[[Handbook of categorical algebra]]__
+* __[[Handbook of Categorical Algebra]]__
 
 He coauthored books
 
