@@ -184,6 +184,8 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 
     * [[extranatural transformation]], [[dinatural transformation]]
 
+    * [[cartesian natural transformation]]
+
   * [[pseudonatural transformation]]
 
   * [[lax natural transformation]]
