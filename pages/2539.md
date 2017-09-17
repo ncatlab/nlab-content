@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -31,7 +30,7 @@ For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subset]], th
 
 =--
 
-### For smooth manfiolds {#Manifolds}
+### For smooth manifolds {#Manifolds}
 
 See _[[Whitney extension theorem]]_, also _[[Steenrod-Wockel approximation theorem]]_.
 
