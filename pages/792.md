@@ -70,6 +70,13 @@ $$
 
 of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9) of ([BunkeRumpfSchick08](#BunkeRumpfSchick08))
 
+## Related concepts
+
+* [[T-duality]]
+
+  * **topological T-duality**
+
+  * [[differential T-duality]]
 
 ## References
 
