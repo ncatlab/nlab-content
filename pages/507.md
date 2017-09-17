@@ -417,6 +417,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[theory of objects]]
 
+* [[classifying topos for the theory of objects]]
+
 ### D3.3 Coherent toposes
 
 * [[coherent topos]]
