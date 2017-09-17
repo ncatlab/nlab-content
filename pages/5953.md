@@ -42,6 +42,10 @@ Locally monoidal $(\infty,1)$-operads include
 
   ([Lurie, example 3.3.1.12](#Lurie))
 
+* [[Assoc]]
+
+  ([Lurie, prop. 4.1.1.16](#Lurie))
+
 * [[little k-cubes operad|little 0-cubes operad]]
 
   ([Lurie, example 3.3.1.13](#Lurie))
@@ -49,6 +53,7 @@ Locally monoidal $(\infty,1)$-operads include
 * [[little k-cubes operad]] for all $k \in \mathbb{N}$
 
   ([Lurie, theorem 5.1.1.1](#Lurie))
+
 
 
 ## References
