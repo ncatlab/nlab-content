@@ -26,7 +26,7 @@ JLB-algebras are the outcome of [[quantization]] of [[Poisson algebra]]s. Often 
 
 ## Definition
 
-A __JLB-algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$ equipped with two [[short linear operator|short]] [[bilinear operator]]s $(-)\circ(-)$ and $(-)\bullet(-)$, called the _Jordan product_ and the _Lie product_, satisfying the following identities:
+A __JLB-algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$ equipped with two [[short linear operator|short]] [[bilinear operator]]s $(-)\circ(-)$ and $(-)\bullet(-)$, respectively called the _Jordan product_ and the _Lie product_, satisfying the following identities:
 
 * Jordan commutativity: $x \circ y = y \circ x$;
 * Lie anticommutativity: $x \bullet x = 0$, or equivalently (given bilinearity) $x \bullet y = -y \bullet x$;
@@ -39,6 +39,35 @@ A __JLB-algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$
 This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  Halvorson does not include the statement that the Lie multiplication is short, and it includes a nonnegative real constant factor $r$ on the right-hand side of the associator identity.  However, Halvorson claims to construct an equivalence between real JLB-algebras and complex $C^*$-[[C*-algebra|algebras]], and this construction produces a short Lie product that satisfies $r = 1$.
 
 Another consequence of this definition is that the Jordan product makes $A$ into a [[Jordan algebra]] (and hence into a [[JB-algebra]]).
+
+
+## Equivalence to $C^*$-algebras
+
+The Jordan product and Lie product are respectively the real-symmetrized and imaginary-antisymmetrized parts of an associative operation on the [[complexification]] of $A$, defining a complex $C^*$-[[C-star-algebra|algebra]]; and every $C^*$-algebra likewise defines a JLB-algebra consisting of its [[Hermitian operator|Hermitian]] elements.
+
+Specifically, starting with a JLB-algebra $A$, we write $A \oplus A$ formally as $A + \mathrm{i} A$, on which we define the following operations:
+
+* norm: ${\|a + \mathrm{i} b\|} \coloneqq \sqrt{{\|a\|^2} + {\|b\|^2}}$,
+* addition: $(a + \mathrm{i} b) + (c + \mathrm{i} d) \coloneqq (a + c) + \mathrm{i} (b + d)$,
+* opposite: $-(a + \mathrm{i} b) \coloneqq (-a) + \mathrm{i} (-b)$,
+* zero: $0 \coloneqq 0 + \mathrm{i} 0$,
+* scalar multiplication: $(x + \mathrm{i} y) (a + \mathrm{i} b) = (x a - y b) + \mathrm{i} (x b + y a)$,
+* involution: $(a + \mathrm{i} b)^* \coloneqq a + \mathrm{i} (-b)$,
+* multiplication: $(a + \mathrm{i} b) (c + \mathrm{i} d) \coloneqq (a \circ c + a \bullet d + b \bullet c - b \circ d) + \mathrm{i} (-a \bullet c + a \circ d + b \circ c + b \bullet d)$.
+
+If the Jordan product of the JLB-algebra has an identity $1$, then so does the $C^*$-algebra:
+
+* $1 \coloneqq 1 + \mathrm{i} 0$.
+
+Conversely, starting with a $C^*$-algebra $A$, we form the subspace $sa(A) = \{x\colon A \;|\; x^* = x\}$, on which we define the following operations (under each of which $sa(A)$ is closed):
+
+* norm, addition, opposite, zero, scalar multiplication (by [[real numbers]] only): by [[restriction]],
+* Jordan product: $a \circ b \coloneqq \frac{1}{2} a b + \frac{1}{2} b a$,
+* Lie product: $a \bullet b \coloneqq \frac{1}{2} \mathrm{i} a b - \frac{1}{2} \mathrm{i} b a$.
+
+If the $C^*$-algebra has an identity, then this is also an identity for the Jordan product.
+
+This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras, which in fact form an [[equivalence of categories|equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras and a [[category]] $JLB Alg$.
 
 
 ## References
