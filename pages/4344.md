@@ -24,7 +24,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A $C^*$-category is a $*$-[[star-category|category]] that has a norm on each [[hom-set|set of arrows]] $Hom(x, y)$ that turns it into a [[Banach space]] with ${\|s^* s\|} = {\|s\|}^2$ for $s \in Hom(x, y)$ and ${\|{s t}\|} \leq {\|s\|} {\|t\|}$ for all arrows $s, t$ that are composable, that is $s \in Hom(x, y)$ and $t \in Hom(y, x)$.
+A $C^*$-category is a $*$-[[star-category|category]] that has a norm on each [[hom-set|set of arrows]] $Hom(x, y)$ that turns it into a [[Banach space]] with ${\|a^* a\|} = {\|a\|}^2$ for $a \in Hom(x, y)$ and ${\|{b a}\|} \leq {\|b\|} {\|a\|}$ for all arrows $a, b$ that are composable, and for every arrow $a \in Hom(x,y)$ there exists an arrow $b \in Hom(x,x)$ such that $a^\ast a = b^ \ast b$.
 
 =--
 
