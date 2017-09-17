@@ -36,9 +36,7 @@
 
   * [[differential Thom class]]
 
-  * [[fiber integration in ordinary differential cohomology]]
-
-  * [[differential character]]s, 
+  * [[differential characters]], 
 
   * [[Deligne cohomology]]
 
@@ -53,7 +51,6 @@
 
 * [[differential cobordism cohomology]]
 
-
 ## Higher nonabelian differential cohomology
 
 * [[principal 2-bundle]], [[principal ∞-bundle]]
@@ -66,6 +63,16 @@
 
 * [[∞-Chern-Simons theory]]
 
+## Fiber integration
+
+* [[higher holonomy]]
+
+* [[fiber integration in differential cohomology]]
+
+  * [[fiber integration in ordinary differential cohomology]]
+
+  * [[fiber integration in differential K-theory]]
+
 
 ## Application to gauge theory
 
@@ -77,7 +84,7 @@
 
   * [[Yang-Mills field]]
 
-  * [[Kalb-Ramond field]]
+  * [[Kalb-Ramond field]]/[[B-field]]
 
   * [[RR-field]]
 
