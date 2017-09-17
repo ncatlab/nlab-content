@@ -1,8 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
-
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -49,6 +54,16 @@ Accordingly, omega-nerves may be used to _define_ and identify $\omega$-categori
 * the $\omega$-nerve $N(C)$ is a simplicial set in wich all _inner_ [[horn]]s have any fillers precisely if $C$ is an [[(∞,1)-category]].
 
 * in full generality, a simplicial set is the $\omega$-nerve of an $\omega$-category if it is a [[weak complicial set]].
+
+## Related concepts
+
+* [[nerve]]
+
+* [[Duskin nerve]]
+
+* **$\omega$-nerve**
+
+* [[homotopy coherent nerve]]
 
 
 [[!redirects omega-nerves]]
