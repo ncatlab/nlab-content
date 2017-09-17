@@ -21,6 +21,9 @@ In a [[model category]] fibrations enjoy [[pullback stability]] and cofibrations
 
 ## Definition ##
 
++-- {: .num_defn}
+###### Definition
+
 A [[model category]] is called 
 
 * **right proper** if weak equivalences are preserved by [[pullback]] along fibrations
@@ -29,8 +32,14 @@ A [[model category]] is called
 
 * **proper** if it is both left and right proper.
 
+=--
 
-So a model category is right proper if for every weak equivalence $f : A \to B$ in $W\subset Mor(C)$ and every fibration $h : C \to B$ the pullback $h^* f : A \times_B C \to C$ in
+
++-- {: .num_remark}
+###### Remark
+
+More in detail this means the following. 
+A model category is right proper if for every weak equivalence $f : A \to B$ in $W\subset Mor(C)$ and every fibration $h : C \to B$ the pullback $h^* f : A \times_B C \to C$ in
 
 $$
   \array{
@@ -44,12 +53,47 @@ $$
 
 is a weak equivalence.
 
-## Examples ##
+=--
+
+## Properties
+ {#Properties}
+
+The following says that left/right properness holds _locally_ in every model category, namely between cofibrant/fibrant objects.
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[model category]],
+
+1. every [[pushout]] of a weak equivalence between cofibrant objects along a cofibration is again a weak equivalence;
+
+1. every [[pullback]] of a weak equivalence between fibrant objects along a fibration is again a weak equivalence.
+
+=--
+
+A proof is spelled out in ([Hirschhorn, prop. 13.1.2](#Hirschhorn)), there attributed to ([Reedy](#Reedy)).
+
+This gives a large class of examples of left/right proper model categories:
+
++-- {: .num_cor #AllObjectsFibrantImpliesRightProper}
+###### Corollary
+
+A model category in which all objects are cofibrant is left proper.
+
+A model category in which all objects are fibrant is right proper.
+
+=--
+
+See in the list of [Examples](#Examples) below for concrete examples.
+
+
+## Examples 
+ {#Examples}
 
 
 ### Left proper model categories
 
-* every model category in which all objects are cofibrant is left proper;
+* by cor. \ref{AllObjectsFibrantImpliesRightProper}, every model category in which all objects are cofibrant is left proper;
 
   this includes notably
 
@@ -81,7 +125,7 @@ But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _
 
 ### Right proper model categories ###
 
-* every model category in which each object is fibrant is right proper.
+* by cor. \ref{AllObjectsFibrantImpliesRightProper} every model category in which each object is fibrant is right proper.
 
   This includes for instance the standard [[model structure on topological spaces]]. 
 
@@ -401,9 +445,14 @@ The usefulness of right properness for constructions of [[homotopy category|homo
 
 The general theory can be found in Chapter 13 of 
 
-* [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 
-of Mathematical Surveys and Monographs , American Mathematical Society, 
-2009.
+* Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+ {#Hirschhorn}
+
+also in 
+
+* [[Chris Reedy]], _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
+ {#Reedy}
+
 
 
 [[!redirects proper model categories]]
