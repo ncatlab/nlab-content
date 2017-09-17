@@ -48,4 +48,5 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 * wikipedia [Picard group](http://en.wikipedia.org/wiki/Picard_group)
 * [[Steven Kleiman|Steven L. Kleiman]], _The Picard scheme_, pp. 235--321 in [[FGA explained]], MR2223410 (draft [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s6t3&ifd=15022&down=1&type=lecture_notes)), [arxiv](http://arxiv.org/abs/math/0504020)
 
+category: algebraic geometry
 [[!redirects Picard variety]]
