@@ -1,4 +1,4 @@
-Eckmann and Hilton noticed that a number of notions and theorems in the [[homotopy theory]] of [[pointed spaces]] can be dualized in the sense of certain expanding dictionary:
+[[Beno Eckmann|Eckmann]] and [[Peter Hilton|Hilton]] noticed that a number of notions and theorems in the [[homotopy theory]] of [[pointed spaces]] can be dualized in the sense of certain expanding dictionary:
 
 * [[homotopy]] -- [[cohomology]]
 
