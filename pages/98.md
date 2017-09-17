@@ -103,6 +103,8 @@ $$
 
 ### Lie algebra cohomology
 
+[[Lie algebra cohomology]] of a $k$-[[Lie algebra]] $\mathfrak{g}$ with coefficients in the left $\mathfrak{g}$-module $M$ is defined as $H^*_{Lie}(\mathfrak{g},M) = Ext_{U\mathfrak{g}}^*(k,M)$. It can be computed as $Hom_{\mathfrak{g}}(CE(\mathfrak{g}),M)$ (a similar story is for [[Lie algebra homology]]).
+
 A [[cocycle]] in degree n of the [[Lie algebra cohomology]] of a [[Lie algebra]] $\mathfrak{g}$ with values in the trivial module $\mathbb{R}$ is a morphism of [[L-∞ algebra]]s
 
 $$
