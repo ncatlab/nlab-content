@@ -67,6 +67,12 @@ For $p \in \mathbb{N}$ a [[prime number]], we write
 
 =--
 
+### Construction from complex cobordism
+
+(e.g. [Lurie 10, lecture 22, def. 5](#LurieLecture))
+
+### Axiomatic characterization
+
 +-- {: .num_prop}
 ###### Proposition/Definition
 
@@ -166,6 +172,18 @@ See ([Lurie, lecture 24, remark 13](#LurieLecture))
 
 The layers in the [[chromatic homotopy theory|chromatic tower]] capture periodic phenomena in [[stable homotopy theory]], corresponding to the Morava K-theory $E_\infty$-fields.
 
+Specifically the [[Bousfield localization of spectra]] $L_{K(n)}$ acts on [[complex oriented cohomology theories]] like completion along the locally closed substack
+
+$$
+  \mathcal{M}^n_{FG}
+  \hookrightarrow
+  \mathcal{M}_{FG}
+$$
+
+of the [[moduli stack of formal groups]] at those of [[height of a formal group|height]] $n$.
+
+([Lurie 10, lecture 29](#LurieLecture))
+
 [[!include chromatic tower examples - table]]
 
 
@@ -251,8 +269,7 @@ A survey of the theory is in
 
 In 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
- {#LurieLecture}
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf)){#LurieLecture}
 
   Lecture 22 _Morava E-theory and Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
 
