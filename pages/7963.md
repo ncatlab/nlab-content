@@ -1,0 +1,3 @@
+The _Higgs particle_ is a [[boson]] hypothesized to be the quantum of the [[Higgs field]].
+
+[[!redirects Higgs bosons]]
