@@ -268,7 +268,7 @@ We say a model category structure on $Mon(C)$ is _created_ by $U_C$ if
 
 * it is the [[transferred model structure]];
 
-* every cofibrant object in $Mon(C)$ is a [[retract]] of a [[cell object]].
+* every cofibrant object in $Mon(C)$ is a [[retract]] of a $(F \dashv U)$-[[cell object]].
 
 =--
 
@@ -369,7 +369,7 @@ commutes. This follows from the unitality of the [[lax monoidal functor]] $R$.
 +-- {: .num_lemma #OneTechnicalLemma}
 ###### Lemma
 
-For every monoid $B \in Mon(D)$ which is an $(L^\mon \dashv R)$-[[cell object]], the $(L \dashv R)$-[[adjunct]]
+For every monoid $B \in Mon(D)$ which is an $(F \dashv U)$-[[cell object]], the $(L \dashv R)$-[[adjunct]]
 
 $$
  \chi_B :  L B \to L^{mon} B
