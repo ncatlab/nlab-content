@@ -24,9 +24,17 @@ The two adjunctions imply of course that $G$ preserves all small [[limit]]s and 
 For an adjoint triple $F\dashv G\dashv H$ it is known that $F$ is fully faithful iff
 $H$ is fully faithful. 
 
+## Special cases
+
+* An adjoint triple $F\dashv G\dashv H$ is Frobenius if $F$ is naturally isomorphic to $H$. See [[Frobenius functor]].
+
+* An *affine morphism* is an adjoint triple of functors in which the middle term is conservative. For example, any [[affine morphism of schemes]] induce an affine triples of functors among the categories of [[quasicoherent module]]s.
+
+* An adjoint triple of functors among $A_\infty$ or triangulated functors with certain additional structure is called spherical. See e.g. Rina Anno, _Spherical functors_, [arxiv/0711.4409](http://arxiv.org/abs/0711.4409). The main examples come from Serre functors in Calabi-Yau context. 
+
 ## Example
 
-Example. Given any ring homomorphism $f^\circ: R\to S$ (in commutative case dual to s an affine morphism $f: Spec S\to Spec R$ of affine schemes), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an extension of scalars, $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its right adjoint. 
+Example. Given any ring homomorphism $f^\circ: R\to S$ (in commutative case dual to s an affine morphism $f: Spec S\to Spec R$ of affine schemes), there is an adjoint triple $f^*\dashv f_*\dashv f^*$ where $f^*: {}_R Mod\to {}_S Mod$ is an extension of scalars, $f_*: {}_S Mod\to {}_R Mod$ the restriction of scalars and $f^! : M\mapsto Hom_R ({}_R S, {}_R M)$ its right adjoint. This triple is affine in the above sense. 
 
 ## Related concepts
 
