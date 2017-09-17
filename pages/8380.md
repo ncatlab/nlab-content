@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -15,9 +25,11 @@ In [[computer science]] a _monad_ $T$ is an operation on the [[types]] that
 
 such that this satisfies the evident coherence axioms.
 
-Under the identification of programming theory with [[category theory]] (see _[[computational trinitarianism]]_) the [[universe]] of types of the programming language is a [[category]] $\mathcal{C}$ and a monad as above is a [[strong monad|(strong)]] [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms.
+Under the identification of computer science with [[category theory]] (see _[[computational trinitarianism]]_) the [[universe]] of types of the programming language is a [[category]] $\mathcal{C}$ and a monad as above is a [[strong monad|(strong)]] [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms.
 
-Monads provide one way to "embed imperative programming in functional programming", and are used that way notably in the programming language [[Haskell]].
+Monads provide one way to "embed [[imperative programming]] in 
+[[functional programming]]", and are used that way notably in the 
+[[programming language]] [[Haskell]]. But monads (as well as [[comonads]] and related structures) exist much more generally in programming languages. ([Harper](#Harper))
 
 
 ## Examples
@@ -30,7 +42,14 @@ Monads provide one way to "embed imperative programming in functional programmin
 
 ## References
 
-There are many, many references of and expositions of monads in programming theory. Somebody who knows a _good_ reference, please add it here.
+The technical definition can be found in...
+
+> ...where? There are many, many references of and expositions of monads in computer science. Somebody who knows a _good_ reference, please add it here. We may assume that the readers knows monads, and knows type systems. We need a reference that gives a crisp precise definition: "A monad in a typed functional programming language is ..."
+
+Expositions are in
+
+* [[Robert Harper]], _Of course ML Has Monads!_ (2011) ([web](http://existentialtype.wordpress.com/2011/05/01/of-course-ml-has-monads/))
+ {#Harper}
 
 [[!redirects monads (in computer science)]]
 
