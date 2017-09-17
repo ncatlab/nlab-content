@@ -220,3 +220,4 @@ See also
 
 [[!redirects Lie 2-algebra valued forms]]
 [[!redirects Lie 2-algebra valued differential forms]]
+[[!redirects Lie 2-algebra valued form]]
