@@ -27,7 +27,7 @@ In every [[cohesive (∞,1)-topos]] $\mathbf{H}$ there is an <a href="http://nca
 Here we discuss the specific realization for $\mathbf{H} =$ [[Smooth∞Grpd]] the [[(∞,1)-topos]] of [[smooth ∞-groupoids]] and $A = U(1)$ the [[circle group]]. 
 
 In this case the intrinsic differential cohomology reproduces [[ordinary differential cohomology]] and generalizes it to base spaces that may be [[smooth manifold]]s, [[diffeological space]]s, [[orbifold]]s and generally [[smooth ∞-groupoid]]s such as [[delooping]]s $\mathbf{B}G$ of 
-[[smooth ∞-group]]s $G$. Differential cocycles on the latter support the [[∞-Chern-Weil homomorphism]] that sends [[nonabelian cohomology|nonabelian]] [[connection on an ∞-bundle|∞-connections]] to circle $n$-bundles whose [[curvature]] form realizes a [[characteristic class]] in [[de Rham cohomology]].
+[[smooth ∞-groupoid|smooth ∞-group]]s $G$. Differential cocycles on the latter support the [[∞-Chern-Weil homomorphism]] that sends [[nonabelian cohomology|nonabelian]] [[connection on an ∞-bundle|∞-connections]] to circle $n$-bundles whose [[curvature]] form realizes a [[characteristic class]] in [[de Rham cohomology]].
 
 
 ## The ambient context
@@ -1278,7 +1278,7 @@ $$
      \\
      \uparrow && \uparrow
      \\
-     W(b^{n-1}\matbb{R}) &\leftarrow& CE(b^n \mathbb{R})
+     W(b^{n-1}\mathbb{R}) &\leftarrow& CE(b^n \mathbb{R})
   }
 $$
 
