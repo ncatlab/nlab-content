@@ -39,11 +39,11 @@ where $a$ is the ultraviolet cutoff of the theory.  The basic assumption of RG i
 
 $$ R_t: Q \rightarrow Q,$$
 
-which has the property that a field theory with the action $S(R_t g, e^t a)$ is equivalent to the original theory with action $S(g, a)$.  Here, _equivalence_ means that the [[correlation function]]s of the two theories agree, as long as we consider scales larger than the renormalized UV cutoff, $x \gg e^t a$.  The RG flow is described by the **beta functions**:
+which has the property that a field theory with the action $S(R_t g, e^t a)$ is equivalent to the original theory with action $S(g, a)$.  Here, _equivalence_ means that the [[correlation function]]s of the two theories agree, as long as we consider scales larger than the renormalized UV cutoff, $x \gg e^t a$.  The RG flow is described by the [[beta function]]s:
 
 $$  d g^i = \beta^i(g) \,d t. $$
 
-At the fixed points, $\beta^i(g) = 0$.  (The beta functions in RG theory should not be confused with the Euler beta function, which is related to the gamma function that generalises the factorial operation.  Here, we are using the term in the same sense as when people say, "The beta function in [[QCD]] is negative.")
+At the fixed points, $\beta^i(g) = 0$.  (The beta functions in RG theory should not be confused with the [[Euler beta function]]).  Here, we are using the term in the same sense as when people say, "The beta function in [[QCD]] is negative.")
 
 The local energy-momentum tensor $T_{\mu\nu}(x) = T_{\nu\mu}(x)$ satisfies the conservation equation $\partial_\mu T_{\mu\nu} = 0$.  Define the complex coordinates
 
