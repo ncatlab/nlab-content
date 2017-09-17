@@ -5,4 +5,6 @@ A research program at [IAS](http://www.ias.edu/) in 2012 on [[homotopy type theo
 
 ## Related pages
 
-* _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+* Textbook: _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+[[!redirects Univalent Foundations Project]]
