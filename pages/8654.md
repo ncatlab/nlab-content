@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In [[gauge theory]] the configuration space/[[phase space]] is not in general a [[smooth space]], but a [[smooth groupoid]]: the [[gauge transformations]] between [[gauge fields]] are the [[morphisms]] of this groupoid.
@@ -18,6 +22,15 @@ The [[infinity-Lie theory|infinitesimal approximation]] to this smooth groupoid 
 If there are [[higher gauge transformations]] "[[gauge-of-gauge transformations]]" then the [[BRST complex]] has generators in higher degree, too, the cotangents to these higher gauge transformations. These are then called **ghost-of-ghost fields**.
 
 For more details and further pointers see at _[[BRST complex]]_ and in particular at _[[BV-BRST formalism]]_.
+
+## Related concepts
+
+* [[field (physics)]]
+
+  * **ghost**, 
+
+  * [[antifield]], [[antighost]]
+
 
 [[!redirects ghost fields]]
 [[!redirects ghost]]
