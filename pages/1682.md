@@ -449,6 +449,20 @@ The non-connective version of this is discussed in
 
 * [[Johan Konter]], _The homotopy groups of the spectrum Tmf_ ([arXiv:1212.3656](http://arxiv.org/abs/1212.3656))
 
+
+Supplementary material graphically displaying parts of these intricate computations is in 
+
+* [[André Henriques]],
+
+  the graded ring $tmf^\ast(pt)$ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TmfRing.pdf));
+
+  the [[spectral sequence]] used to compute it ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/henriques-tmfSS.pdf));
+
+  whose $E_2$-page is $Ext_{A(2)}(\mathbb{F}_2, \mathbb{F}_2)$ where $A(2)$ is displayed here: [pdf](http://www.staff.science.uu.nl/~henri105/PDF/A2.pdf);
+
+  the spectral sequence that computes $Tmf^\ast(pt)$ ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/EllipticSpectralSequence.pdf))
+
+
 The $\mathbb{Z}_2$-[[homology]] of $tmf$ is discussed in 
 
 * {#Mathew13} [[Akhil Mathew]], _The homology of $tmf$_ ([arXiv:1305.6100](http://arxiv.org/abs/1305.6100))
