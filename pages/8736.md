@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+* In an [[abelian group]] $A$, the group operation is called a _sum_ and written $a,b \in A \;\vdash\; (a + b) \in A$. A suitable limiting notion is that of [[integral]].
+
+* In a [[category]] the term _sum_ may refer to the [[coproduct]] of two [[objects]].
+
+* In a [[poset]] this becomes the notion of [[join]] and [[union]].
+
+* A more general notion of sum in [[category theory]] is that of _[[dependent sum]]_ of a family of objects.
+
+## Related concepts
+
+* [[product]]
+
+[[!redirects sums]]
+
