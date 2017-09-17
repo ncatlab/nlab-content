@@ -167,6 +167,8 @@ The [[exceptional Lie groups]] incude
 
 * [[maximal torus]]
 
+* [[conjugacy class]], [[Cartan-Dirac structure on a Lie group]]
+
 * [[infinite-dimensional Lie group]]
 
 * [[orbit method]]
