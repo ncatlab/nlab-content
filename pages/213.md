@@ -19,7 +19,7 @@
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write $CartSp$ for the [[category]] whose 
@@ -45,17 +45,17 @@ $CartSp_{lin}$ for the category whose objects are [[Cartesian space]]s regarded 
 
 A [[Cartesian space]] carries a lot of structure, for instance [[CartSp]] may be naturally regarded as a [[full subcategory]] of the category $C$
 
-*  [[vector space]]s,
-*  [[affine space]]s,
-*  [[normed vector space]]s,
-*  [[inner product space]]s,
-*  [[Euclidean space]]s.
+*  [[vector spaces]],
+*  [[affine spaces]],
+*  [[normed vector spaces]],
+*  [[inner product spaces]],
+*  [[Euclidean spaces]].
 
 In all these cases, the inclusion $CartSp \hookrightarrow C$ is an [[equivalence of categories]]: choosing an [[isomorphism]] from any of these objects to a [[Cartesian space]] amounts to choosing a [[basis]] of a [[vector space]], a [[coordinate system]].
 
 ### As a site
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Write
@@ -68,7 +68,7 @@ Write
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 In all three cases there is the [[good open cover]] [[coverage]] that makes [[CartSp]] a [[site]].
@@ -82,7 +82,7 @@ For [[CartSp]]${}_{top}$ this is obvious. For [[CartSp]]${}_{smooth}$ this is so
 
 =--
 
-+-- {: .un_prop #AsDenseSubsite}
++-- {: .num_prop #AsDenseSubsite}
 ###### Proposition
 
 * The site $CartSp_{top}$ is a [[dense subsite]] of the site of [[paracompact topological space|paracompact]] [[topological manifold]]s with the [[open cover]] [[coverage]].
@@ -91,7 +91,7 @@ For [[CartSp]]${}_{top}$ this is obvious. For [[CartSp]]${}_{smooth}$ this is so
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Equipped with this structure of a site, [[CartSp]] is an 
@@ -113,7 +113,7 @@ The corresponding [[cohesive (∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheav
 
 * $Sh_{(\infty,1)}(CartSp_{synthdiff}) =$ [[SynthDiff∞Grpd]];
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 We have [[equivalences of categories]]
@@ -158,12 +158,27 @@ Equipped with the above [[coverage]]-structure,  [[open map]]-structure and [[La
 (...)
 
 
+## Related concepts
 
-## References {#References}
+A development of [[differential geometry]] as as geometry modeled on $CartSp$ is discussed, with an eye towards applications in [[physics]], in _[[geometry of physics]]_.
 
-There are various slight variations of the category $CartSp$ that one can consider without changing its basic properties as a category of test spaces for [[generalized smooth space]]s. A different choice that enjoys some popularity in the literature is the category of open (contractible) subsets of Euclidean spaces. For more references on this see [[diffeological space]].
+The [[sheaf topos]] over $CartSp_{smooth}$ is that of _[[smooth space]]_. 
 
-The [[site]] $ThCartSp$ of infinitesimally thickened Cartesian spaces is known as the site for the [[Cahiers topos]]. It is considered 
+The [[(∞,1)-sheaf (∞,1)-topos]] over $CartSp_{top}$ is discussed at _[[ETop∞Grpd]]_, that over $CartSp_{smooth}$ at _[[Smooth∞Grpd]]_, and that over $CartSp_{synthdiff}$ at _[[SynthDiff∞Grpd]]_.
+
+
+## References 
+ {#References}
+
+In secton 2 of 
+
+* R. Blute, J. Cocket, [[Robert Seely]], _Cartesian dofferential categories_, Theory and Applications of Categories, Vol. 22, 2009, No. 23, pp 622-672. ([journal](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/22/23/22-23.pdf))
+
+$CartSp$ is discussed as an example of a "cartesian differential category".
+
+There are various slight variations of the category $CartSp$ (many of them [[equivalence of categories|equivalent]]) that one can consider without changing its basic properties as a category of test spaces for [[generalized smooth spaces]]. A different choice that enjoys some popularity in the literature is the category of open (contractible) subsets of Euclidean spaces. For more references on this see [[diffeological space]].
+
+The [[site]] $CartSp_{synthdiff}$ of [[formal smooth manifold|infinitesimally thickened]] Cartesian spaces is known as the site for the [[Cahiers topos]]. It is considered 
 
 in detal in section 5 of
 
