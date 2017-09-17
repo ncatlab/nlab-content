@@ -454,3 +454,14 @@ Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of dua
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 {#Ben-ZviNadler}
+
+following
+
+* [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+{#Toen}
+
+A generalization of the latter to $\infty$-stacks over duals of algebras of arbitrary (abelian) Lawvere theories is the content of 
+
+* [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
+{#Stel}
+
