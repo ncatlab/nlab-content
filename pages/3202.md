@@ -125,7 +125,7 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 
 * Wikipedia (English): [Lp space](http://en.wikipedia.org/wiki/Lp_space)
 
-
+category: analysis
 [[!redirects Lebesgue space]]
 [[!redirects Lebesgue spaces]]
 [[!redirects L-p space]]
