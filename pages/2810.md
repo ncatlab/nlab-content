@@ -29,6 +29,10 @@ The limiting $E_\infty$ operad is the resolution of the ordinary commutative mon
 
 ## Definition
 
+(...)
+
+An [[algebra over an operad]] over $E_k$ is an [[Ek-algebra]].
+
 ### Presentation by enriched operads
 
 (...)
