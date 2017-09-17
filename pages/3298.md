@@ -1380,7 +1380,7 @@ $$
   \,.
 $$
 
-It is sufficient to find a [[resolution]] $B \mathcal{O}X$ in the global model structure $[T, sSet]_{inj}$ because left Bousfield localization strictly increases the class of weak equivalences, so that every gloabl weak equivalence is also a local weak equivalence.
+It is sufficient to find a [[resolution]] $\mathrm{B} \mathcal{O}(X)$ in the global model structure $[T, sSet]_{inj}$ because left Bousfield localization strictly increases the class of weak equivalences, so that every gloabl weak equivalence is also a local weak equivalence.
 
 Since we are in the _injective_ model structure this just means that this morphism $\mathcal{O}(X) \otimes_k \mathcal{O}(X) \to \mathrm{B} \mathcal{O}X$ needs to be over each $x^n$  in $T$ a [[monomorphism]] of simplicial sets. 
 If we find $\mathrm{B} \mathcal{O}X$ also as a strictly product-preserving functor (notice that the general functor in our model category need not even preserve products weakly, it will do so after fibrant replacement) then it being monomorphism over $x^1$ implies that it is monic over every $x^n$.
