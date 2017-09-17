@@ -94,7 +94,7 @@ $$
 $$
 
 Moreover, since morphisms in $Grp$ are group homomorphisms, it follows
-that for every morphism $f : S \to T$ of [[supermanifold]]s we get a 
+that for every morphism $f : S \to T$ we get a 
 commuting diagram
 
 $$
