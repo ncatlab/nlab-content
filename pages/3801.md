@@ -1,6 +1,8 @@
-Term **string topology** refers to an additional structure on the homology of the free loop space of an oriented manifold, including string bracket and BV structure, as introduced in the fundamental works of Moira Chas and [[Dennis Sullivan]]. 
+The term **string topology** refers to an additional structure on the [[homology]] of the [[free loop space object|free loop space]] of an oriented [[manifold]], including string bracket and BV structure, as introduced in the fundamental works of Moira Chas and [[Dennis Sullivan]]. 
 
-$n$lab point of view could be emphasing on the role of Frobenius algebras and TQFT picture.
+$n$lab [[nPOV|point of view]] could be emphasing on the role of [[Frobenius algebra]]s and [[TQFT]] picture -- and the role of [[Hochschild cohomology]]
+
+## References
 
 * M. Chas, D. Sullivan, _String topology_, Ann. Math. [math.GT/9911159](http://arxiv.org/abs/math/9911159)
 
