@@ -93,7 +93,7 @@ Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical
 The functor $i^*$ given by restriction along $i$ exhibits 
 $SynthDiff\infty Grpd$ as an 
 <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieTheory">infinitesimal cohesive neighbourhood</a>
-of the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s as a [[cohesive (∞,1)-topos]] over $SynthDiff\infty Grpd$, in that we have a quadruple of [[adjoint (∞,1)-functor]]s
+of the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s in that we have a quadruple of [[adjoint (∞,1)-functor]]s
 
 $$
  ( i_! \dashv i^* \dashv i_* \dashv i^! )
@@ -275,6 +275,7 @@ We discuss the realization of the general abstract <a href="http://ncatlab.org/n
 
 Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Grpd$ is strongly $\infty$-connected _relative_ to [[Smooth∞Grpd]] all of these structures that depend only on $\infty$-connectedness (and not on [[local (∞,1)-topos|locality]]) acquire a relative version.
 
+
 ### Concrete objects {#StrucConcreteObjects}
 
 (...)
@@ -428,17 +429,13 @@ $$
 (...)
 
 
-### $\infty$-Lie algebras {#StrucLieAlg}
+### Exponentiated $\infty$-Lie algebras {#StrucLieAlg}
+
+### Infinitesimal cohesion, $\infty$-Lie algebras and deformation theory {#StrucLieTheory}
+
+An [[∞-Lie algebra]] is indeed an infinitesimal object in $SynthDiff\infty Grpd$. See [[∞-Lie algebroid]] for details for the moment.
 
 
-+-- {: .un_def}
-###### Definition
-
-We say an object $\mathbf{B}\mathfrak{g} \in SynthDiff \infty Grpd$ is 
-(the [[delooping of]] an [[∞-Lie algebebra]]) if it is
-an <a href="">exponentiated ∞-Lie algebra</a> _relative_ to 
-
-=--
 
 
 ### Maurer-Cartan forms and curvature characteristic forms {#StrucCurvatureForms}
@@ -469,6 +466,7 @@ an <a href="">exponentiated ∞-Lie algebra</a> _relative_ to
   * [[smooth ∞-groupoid]]
 
   * **synthetic differential ∞-groupoid**
+
 ## References
 
 The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 3.4 of 
@@ -485,5 +483,7 @@ The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \da
 
 
 [[!redirects synthetic differential ∞-groupoid]]
+[[!redirects synthetic differential ∞-groupoids]]
+
 
 [[!redirects SynthDiff∞Grpd]]
