@@ -1,33 +1,205 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $\mathcal{C}$ be a ([[cofibrantly generated model category|cofibrantly generated]]) [[model category]] and let $\mathcal{D}$ be any [[category]], regarded as a [[diagram]]-shape in the following.
+
+Write $[\mathcal{D}, \mathcal{C}]_{proj}$ for the [[projective model structure]] on the [[functor category]] of [[functors]] from $\mathcal{D}$ to $\mathcal{C}$, hence of $\mathcal{D}$-[[diagrams]] in $\mathcal{C}$.
+
 +-- {: .num_defn}
 ###### Definition
-A [[diagram]] $F:P\to M$ is called _projectively [[cofibrant object|cofibrant]]_ if $0\to F$ has the left lifing property with respect to (component-wise) acyclic fibrations.
 
-In other words $F$ is projectively cofibrant if for any acyclic cofibration $A\to B$ in $Fun(P,M)$ and any morphism $F\to B$ there is a lift
+A functor/diagram $X : \mathcal{D} \to \mathcal{C}$ is a **projectively cofibrant diagram** in $\mathcal{C}$ if it is a [[cofibrant object]] in the [[projective model structure]] $[\mathcal{D}, \mathcal{C}]_{proj}$.
 
-$$\array{
-&&A
-\\
-&
-\nearrow&\downarrow
-\\
-F
-&\to&
-B
-}$$
+=--
 
-making the triangle commute. In this case $F$ is [[cofibrant object|cofibrant]] since cofibrations and acyclic fibrations form a [[weak factorization system]] $(C,F\cap W)$.
+This means that a [[diagram]] $X :\mathcal{D}\to \mathcal{C}$ is projectively cofibrant precisely if the inclusion $\emptyset \to F$ of the [[initial object|initial]] diagram has the [[left lifting property]] with respect to [[natural transformations]] of diagrams
+
+$$
+  (A \stackrel{p}{\to} B) : \mathcal{C} \to \mathcal{D}
+$$
+
+which are projective acyclic fibrations, hence which are such that for each $c \in \mathcal{C}$ the component $\eta_c : A(c) \to B(c)$ is an acyclic fibration in $\mathcal{C}$.
+
+This means that $F$ is projectively cofibrant precisely if for every diagram of natural transformations
+
+$$
+ \array{
+  &&A
+  \\
+  &
+  &\downarrow^{\mathrlap{p}}
+  \\
+  X
+  &\to&
+  B
+}
+$$
+
+with $p$ as above, there exists a lift $\sigma$ in 
+
+$$
+ \array{
+  &&A
+  \\
+  &
+  {}^{\mathllap{\sigma}}\nearrow &\downarrow^{\mathrlap{p}}
+  \\
+  X
+  &\to&
+  B
+}
+ \;\;\;\;\;\;
+ \in [\mathcal{D}, \mathcal{C}]
+  \,.
+$$
+
+making the triangle commute. 
+
+=--
+
+## Properties
+
+The main point of projectively cofibrant diagrams is that the ordinary [[colimit]] over them is a presentation of the [[homotopy colimit]]:
+
+because the ([[colimit]] $\dashv$ constant diagram)-[[adjunction]]
+
+$$
+ (\underset{\longrightarrow}{\lim} \dashv const)
+  :
+  \mathcal{C} \stackrel{\overset{\underset{\longrightarrow}{\lim}}{\leftarrow}}{\underset{const}{\to}}
+  [\mathcal{C}, \mathcal{D}]
+$$
+
+is a [[Quillen adjunction]] (because $const$ is by the very definition of the [[projective model structure]] a [[right Quillen functor]]), the [[homotopy colimit]], being the left [[derived functor]] $\mathbb{L}\underset{\longrightarrow}{\lim}$ of the [[colimit]], is computed as the ordinary colimit evaluated on a cofibrant resolution $Q X$ of a diagram $X : \mathcal{D} \to \mathcal{C}$:
+
+$$
+  (\mathbb{L} \underset{\longrightarrow}{\lim})(X)
+  \simeq
+  \underset{\longrightarrow}{\lim})(Q X)
+  \,.
+$$
+
+## Examples
+
+### For specific diagram shapes
+
++-- {: .num_example}
+###### Example
+
+A _[[span]]_ diagram $X_1 \leftarrow X_0 \to X_1$ is projectively cofibrant precisely if the two morphisms are cofibrations in $\mathcal{D}$ and $X_0$, hence all three objects, are cofibrant.
+
+The colimit over such a diagram is the [[homotopy pushout]] of the span.
+
+
+=--
+
+
+
++-- {: .num_example}
+###### Example
+
+A _cotower_ diagram
+
+$$
+  X_0 \to X_1 \to X_2 \to \cdots
+$$
+
+is projectively cofibrant precisely if every morphism is a cofibration and if the first object $X_0$, and hence all objects, are cofibrant in $\mathcal{D}$.
+
+The colimit over such a diagram is a homotopy [[sequential colimit]].
+
 =--
 
 +-- {: .num_example}
 ###### Example
-1. A span is projectively cofibrant if it is a diagram of cofibrations in that the objects of the span are cofibrant and the morphisms are cofibrations.
 
-1. A _cotower_ - i.e. a diagram with domain $(\mathbb{N},\le)$ is projectively cofibrant if it is a diagram of cofibrations and its value in $0$ is cofibrant.
+A _[[parallel morphisms]]_ diagram
+
+$$
+  X_0 \stackrel{\overset{f}{\to}}{\underset{g}{\to}} X_1
+$$
+
+is projectively cofibrant if $X_0$ is cofibrant, and if the morphism
+$(f,g) : X_0 \coprod X_0 \to X_1$ is a cofibration.
+
+=--
+
+The colimit over such a diagram is a homotopy [[coequalizer]].
+
+### For specific ambient model categories
+
+Let $\mathcal{C} = $ [[sSet]]${}_{Quillen}$ be the standard [[model structure on simplicial sets]]. Then $[\mathcal{D}, \mathcal{C}]_{proj}$ is the projective [[model structure on simplicial presheaves]]. 
+
+For the following see at _[[model structure on simplicial presheaves]]_ the section _[Cofibrant objects](/model+structure%20on%20simplicial%20presheaves#CofibrantObjects)_ for more details (due to [[Dan Dugger]]).
+
+
++-- {: .num_prop}
+###### Proposition
+
+A sufficient condition for a diagram $X : \mathcal{D} \to sSet$ to be projectively cofibrant is:
+
+1. $X$ is degreewise a coproducts of [[representable functor|representables]]
+
+   $$
+    X_n = \coprod_{i} U^n_i \;\;\;\;  \{U^n_i \in \mathcal{C} \hookrightarrow [\mathcal{C}, Set]\}
+   $$
+
+1. the degenerate cells in each degree form a separate [[coproduct]] summand;
+
+   $$
+      X_n = NonDegenerate \coprod Degenerate
+      \,.
+   $$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+A _[[split hypercover]]_ is of this form.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X : \mathcal{D} \to sSet$ any simplicial presheaf, a cofibrant [[resolution]] is given by
+
+$$
+  (Q X)_n : \coprod_{U_0 \to \cdots \to U_n \to X_n} U_0
+  \,, 
+$$
+
+where the coproduct runs over all sequences of morphisms between representables $U_i$, as indicated.
+
 =--
 
 ## References
 
-[math overflow](http://mathoverflow.net/questions/70612/when-are-diagrams-of-cofibrations-projectively-cofibrant)
+See the references at _[[homotopy colimit]]_ and generally at _[[model category]]_.
 
+Related discussion is at
 
-Example 2.3.15, Urs schreiber, Differential cohomology in a cohesive ($\infty$,1)-topos, [pdf](http://ncatlab.org/schreiber/files/cohesivedocumentv032.pdf#page=130)
+* MathOverflow _[When are "diagrams of cofibrations" projectively cofibrant](http://mathoverflow.net/questions/70612/when-are-diagrams-of-cofibrations-projectively-cofibrant)_
+
+Related discussion is for instance also in
+
+*  Urs Schreiber, _[[schreiber:differential cohomology in a cohesive topos]]_
+
+where cofibrant cotowers are mentioned as example 2.3.15.
+
+[[!redirects projectively cofibrant diagrams]]
