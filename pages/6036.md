@@ -53,9 +53,11 @@ The ordinary [[symplectic geometry]] and ordinary [[geometric quantization]] of 
 
 The [[2-plectic geometry]] is discussed in 
 
-* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
-
 * [[John Baez]], [[Alexander Hoffnung]], [[Chris Rogers]], _Categorified Symplectic Geometry and the Classical String_ ([arXiv:0808.0246](http://arxiv.org/abs/0808.0246/))
+
+and the appearance of the [[string Lie 2-algebra]] as the [[Heisenberg Lie 2-algebra]] of the string [[WZW-model]] in this context is discussed in 
+
+* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
 
 [[!redirects strings]]
