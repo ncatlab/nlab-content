@@ -31,13 +31,17 @@ A _Fell Bundle_ is a family of [[Banach space|Banach spaces]] that varies contin
 +-- {: .num_defn}
 ###### Definition
 
-A _Fell Bundle_ is a continuous [[star-category|*-]][[functor]] $p \colon \mathcal{C} \to G$ from a $C^*$-[[C-star-category|category]] $\mathcal{C}$ to a [[topological groupoid]] $G$.
+A _Fell Bundle_ over a [[groupoid]] $\mathcal{G}$ is a "continuous" [[functor]] $E \colon \mathcal{G} \to\mathfrak{Corr}$, where $\mathfrak{Corr}$ is the $2$-[[2-category|category]] of $C^*$-[[C-star-algebra|algebras]] and $C^*$- [[C-star-correspondence|correspondences]].
 
+
+ 
 =--
 
 ## References
 
 * Alex Kumjian, _Fell bundles over groupoids_, Proceedings of the AMS, volume 126 (1998) ([JSTOR](http://www.jstor.org/stable/118621))
+
+* Alcides Buss, Chenchang Zhu, Ralf Meyer, _A higher category approach to twisted actions on $C^*$-algebras_, ([Arxiv](http://arxiv.org/abs/0908.0455))
 
 [[!redirects Fell bundles]]
 
