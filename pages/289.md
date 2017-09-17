@@ -32,6 +32,7 @@ From another perspective, these over-groupoids are an [[example for geometric fu
 
 * Groupoidification is closely related to -- or maybe even synonymous to -- [[geometric function theory]].
 
+De-groupoidification is similar to passing to [[motivic functions]].
 
 
 #References#
