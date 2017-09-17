@@ -1,14 +1,21 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-_Bell's theorem_ is the collective name for a family of results, all showing the impossibility of a Local Realistic interpretation of [[quantum mechanics]].  As such, it is a form of a [[no-go theorem]] and is related to
+_Bell's theorem_ is the collective name for a family of results, all showing the impossibility of a Local Realistic ([[hidden variable]]) [[interpretation of quantum mechanics]].  As such, it is a form of a [[no-go theorem]] and is related to
 
 * the [[Kochen-Specker theorem]] and
 
