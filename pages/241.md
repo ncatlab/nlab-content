@@ -132,10 +132,11 @@ The theorem that every Grothendieck topos is [[cocomplete category|cocomplete]] 
 
   * **Grothendieck topos**,  [[category of sheaves]]
 
-  * [[2-sheaf 2-topos]]
+  * [[2-topos]]
 
   * [[(∞,1)-sheaf (∞,1)-topos]]
 
+[[!include locally presentable categories - table]]
 
 ## References
 
