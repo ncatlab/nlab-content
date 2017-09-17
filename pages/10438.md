@@ -10,6 +10,19 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Galois representation_ is a [[Galois module]] on a [[vector space]].
+
+See at _[[Galois modules]]_ for more.
+
+## Related concepts
+
+* [[class field theory]]
 
 ## References
 
