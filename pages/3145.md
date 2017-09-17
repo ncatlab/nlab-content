@@ -9,7 +9,9 @@
 
 * _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
-  
+* [[A Survey of Elliptic Cohomology]]
+
+* [[Hopkins-Miller theorem]]  
 
 
 category: people
