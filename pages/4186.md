@@ -35,6 +35,10 @@ A _conformal net_ is a [[local net]] of observables that describes (2-dimensiona
 
 * [[3-category of fermionic conformal nets]]
 
+### Relation to spectral triples
+
+Superconformal nets encoding [[2d SCFTs]] may be related to [[local nets]] of [[spectral triples]] ([#CHKL 09](#CHKL09)) (an incarnation of "[[2-spectral triples]]", see there for more).
+
 ## Examples
 
 ### Free fermion
@@ -78,10 +82,13 @@ More on this in
 * [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
  {#DouglasHenriquesGeometric}
 
-Relation to [[2-spectral triples]] is discussed in 
+Relation to [[2-spectral triples]] is discussed in terms of [[vertex operator algebras]]
 
 * [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
+and in terms of actual [[local nets]] in
+
+* {#CHKL09} Sebastiano Carpi, Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral triples and the super-Virasoro algebra_, Commun.Math.Phys.295:71-97 (2010) ([arXiv:0811.4128](http://arxiv.org/abs/0811.4128))
 
 ### Classification
 
@@ -97,6 +104,8 @@ Relation to [[2-spectral triples]] is discussed in
 Articles that discuss the [[representation theory]] of conformal nets include
 
 * Sebastiano Carpi, [[Roberto Conti]], Robin Hillier, Mihaly Weiner, _Representations of Conformal Nets, Universal $C^\ast$-Algebras and K-Theory_ ([arXiv:1202.2543](http://arxiv.org/abs/1202.2543))
+
+
 
 
 [[!redirects conformal nets]]
