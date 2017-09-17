@@ -200,15 +200,18 @@ The content of this section is at
 A standard reference on 2-dimensional [[string]] $\sigma$-models is 
 
 
-* [[Pierre Deligne]], [[Dan Freed]], _Classical field theory_ , chapter 5, page 211 in...
+* [[Pierre Deligne]], [[Dan Freed]], _Classical field theory_ , chapter 5, page 211 
 
   and
 
-  [[Krzysztof Gawedzki]], _Lectures on conformal field theory_ , part 3, lecture 3 in
+  [[Krzysztof Gawedzki]], _Lectures on conformal field theory_ , part 3, lecture 3 
+  
+  in
 
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+* C. Callan, L. Thorlacius, _Sigma models and string theory_, Particles, Strings and Supernovae, Volumes I and II. Proceedings of the Theoretical Advanced Study Institute in Elementary Particle Physics, held June 6 - July 2, 1988, at Brown University, Providence, Rhode Island. Edited by A. Jevicki and C.-I. Tan. Published by World Scientific, New York, 1989, p.795 ([pdf](http://www.damtp.cam.ac.uk/user/tong/string/sigma.pdf))
 
 First indications on how to formalize $\sigma$-models in a [[higher category theory|higher categorical]] context were given in
 
