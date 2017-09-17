@@ -11,7 +11,7 @@ _Daniel Huybrechts_ is an algebraic geometer at the University of Bonn.
 
 * (with [[Dominic Joyce]], M. Gross) Calabi-Yau manifolds and related geometries. Springer (2002), 244 pages.
 
-* (with M. Lehn) The geometry of moduli spaces of sheaves. Aspects of Mathematics E 31, Vieweg (1997), 260 pages.
+* (with M. Lehn) _The Geometry of Moduli Spaces of Sheaves_ Aspects of Mathematics E 31, Vieweg (1997), 260 pages ([[HuybrechtsLehn.pdf:file]])
 
 A new edition will appear in the Cambridge Mathematical Library of Cambridge Unversity Press. 
 
