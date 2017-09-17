@@ -28,7 +28,7 @@ The [[tangent bundle]] of an ordinary [[manifold]] has the sheaf of sections giv
 
 the **super tangent bundle** $T X$ of a [[supermanifold]] $X$ is given by the sheaf $U \mapsto Der O_X(U)$.
 
-so a super tangent vector is a global section of this sheaf of derivations. 
+so a super tangent vector field is a global section of this sheaf of derivations. 
 
 +-- {: .un_example}
 ###### Example
