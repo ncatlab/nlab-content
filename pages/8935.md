@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
+
+In [[type theory]] what is called the _axiom K_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]].
+
+Heuristically the axiom asserts that every [[term]] of any [[identity type]] $Id_A(x,x)$ (of [[equivalences]] of a [[term]] $x \colon A$) is [[propositional equality|propositionally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_x \colon Id_A(x,x)$. 
+
+## Statement
+
+$$
+  K 
+  \colon 
+  \underset{A \colon Type}{\prod} 
+  \underset{x \colon A}{\prod}
+  \underset{P \colon Id_A(x,x) \to Type}{\prod} 
+  \left(
+     P(refl_A x)
+     \to  
+    \underset{h \colon Id_A(x,x)}{\prod} P(h)
+  \right)
+$$
+
+## Related concepts
+
+* [[axiom UIP]]
+
+## References
+
+* Pierre Corbineau, _The K axiom  in Coq (almost) for free_ ([pdf](http://coq.inria.fr/files/adt-2fev10-corbineau.pdf)) 
+
+[[!redirects Streicher axiom K]]
+[[!redirects Streicher's axiom K]]
+[[!redirects K axiom]]
