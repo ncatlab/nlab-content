@@ -502,32 +502,28 @@ for the [[Top]]-[[hom-object]], where in the integrand of the [[end]] $[-,-] : T
 +-- {: .num_defn #GloballyKanSimplicialTopologicalSpace}
 ###### Definition
 
-We say a morphism $f \colon  X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the canonical morphism
+We say a morphism $f \colon  X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq i \leq n$ the canonical morphism
 
 $$
-  X_n \to Y_n \;\times_{sTop(\Lambda^n_k, Y)}\; sTop(\Lambda^n_k, X)
+  X_n \to Y_n \;\times_{sTop(\Lambda[n]_i, Y)}\; sTop(\Lambda[n]_i, X)
 $$
 
-in [[Top]] has a [[section]], where 
-
-* $\Lambda^n_k \in $ [[sSet]] $\hookrightarrow Top^{\Delta^{op}}$ is the $k$th $n$-[[horn]] regarded as a [[discrete space|discrete]] [[simplicial topological space]]:
-
-* $sTop(-,-) \colon  sTop^{op} \times sTop \to Top$ is the [[Top]]-valued [[hom object]], which may be regarded as a hom-object in the Top-[[enriched category|enriched]] [[functor category]] $sTop = [\Delta^{op},Top]$.
+in [[Top]] has a [[section]], where  $\Lambda[n]_i \in $ [[sSet]] $\hookrightarrow Top^{\Delta^{op}}$ is the $i$th $n$-[[horn]] regarded as a [[discrete space|discrete]] [[simplicial topological space]].
 
 We say a [[simplicial topological space]] $X_\bullet \in Top^{\Delta^{op}}$ is **(global) Kan simplicial space** if the unique morphism $X_\bullet \to *$ is a global Kan fibration, hence if for all $n \in \mathbb{N}$ and all $0 \leq i \leq n$ the canonical [[continuous function]]
 
 $$
-  X_n \to sTop(\Lambda^n_k, X)
+  X_n \to sTop(\Lambda[n]_i, X)
 $$
 
-into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]] (in [[Top]], hence a global, continuous section).
+into the [[topological space]] of $i$th $n$-[[horn]]s admits a [[section]] (in [[Top]], hence a global, continuous section).
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This global notion of topological Kan fibration is considered in ([BrownSzczarba, def. 2.1, def. 6.1](#BrownSzczarba)). In fact there a stronger condition is imposed: a [[Kan complex]] in [[Set]] automatically has the lifting property not only against all full [[horn]] inclusions but also aghainst sub-horns; and in ([BrownSzczarba](#BrownSzczarba)) all these fillers are required to be given by global sections. This ensures that with $X$ globally Kan also the [[internal hom]] $[Y,X] \in sTop$ is globally Kan, for any simplicial topological space $Y$. This is more than we need and want to impose here. For our purposes it is sufficient to observe that if $f$ is globally Kan in the sense of ([BrownSzczarba, def. 6.1](#BrownSzczarba)), then it is so also in the [above sense](#GloballyKanSimplicialTopologicalSpace).
+This global notion of topological Kan fibration is considered in ([BrownSzczarba, def. 2.1, def. 6.1](#BrownSzczarba)). In fact there a stronger condition is imposed: a [[Kan complex]] in [[Set]] automatically has the lifting property not only against all full [[horn]] inclusions but also against sub-horns; and in ([BrownSzczarba](#BrownSzczarba)) all these fillers are required to be given by global sections. This ensures that with $X$ globally Kan also the [[internal hom]] $[Y,X] \in sTop$ is globally Kan, for any simplicial topological space $Y$. This is more than we need and want to impose here. For our purposes it is sufficient to observe that if $f$ is globally Kan in the sense of ([BrownSzczarba, def. 6.1](#BrownSzczarba)), then it is so also in the [above sense](#GloballyKanSimplicialTopologicalSpace).
 
 =--
 
