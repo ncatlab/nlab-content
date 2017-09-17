@@ -1,4 +1,16 @@
 
+Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Other manings include
+
+* [[spectrum of an operator]]
+
+There are also terms like
+
+* [[spectral sequence]]
+
+which have no particular relation to other notions of _spectrum_ .
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
