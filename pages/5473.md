@@ -40,7 +40,7 @@ $$colim_J T \circ F \to T(colim_J F)$$
 is an [[isomorphism]]. 
 
 +-- {: .un_prop} 
-######Proposition 
+###### Proposition 
 Under these hypotheses, $U: C^T \to C$ reflects colimits over $J$. 
 =-- 
 
@@ -94,10 +94,11 @@ E & \stackrel{\overset{\pi_1}{\to}}{\underset{\pi_2}{\to}} & B & \to & Q}$$
 =-- 
 
 +-- {: .un_cor} 
-######Corollary 
-If $T$ is a finitary monad on a complete, cocomplete, cartesian closed category $C$, then $C^T$ is complete and cocomplete. 
-=--
+###### Corollary 
+If $T$ is a monad on a complete and cocomplete category $C$ that preserves reflexive coequalizers, then $C^T$ is complete and cocomplete. 
+=-- 
 
+The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
 
 ## Relatively free functors 
 
@@ -111,7 +112,7 @@ has a left adjoint.
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 Since the following diagram is commutative: 
 $$
 \begin{array}{cccc}C^T & \overset{C^{\theta}}{\to}  & C^S    \\
