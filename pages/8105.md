@@ -10,7 +10,9 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 
 | [[chromatic level]] $n = $ | 1 | 2 | $\geq 3$ |
 |--|--|--|--|
-| $E$ | [[topological K-theory|KO]] | [[TMF]] | TAF |
+| [[cohomology theory]]/[[spectrum]] $E = $ | [[topological K-theory|KO]] | [[TMF]] | [[TAF]] |
+| [[algebraic group]] | $GL_1$ | $GL_2$ | $U(1,n-1)$ |
+| geometric object | [[multiplicative group]] | [[elliptic curve]] | [[Shimura variety]] |
 
 ## Related concepts
 
@@ -35,3 +37,6 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 [[!redirects automorphic forms]]
 [[!redirects automorphic form]]
 [[!redirects topological automorphic forms]]
+
+[[!redirects taf]]
+[[!redirects TAF]]
