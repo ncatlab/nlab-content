@@ -185,7 +185,7 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 ## Related concepts
 
-* [[Pstnikov tower]], [[Whitehead tower]]
+* [[Postnikov tower]], [[Whitehead tower]]
 
 * [[Eilenberg subcomplex]]
 
