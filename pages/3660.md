@@ -53,7 +53,7 @@ A functor $f\colon D\to E$ between generalized direct categories is called a **d
 
 If we regard direct categories as a categorification of well-founded relations, then dependencies are a categorification of injective [[simulation]]s, i.e. the inclusions of initial segments.
 
-Define a **corolla** to be a generalized direct category with a [[terminal object]]; we call this object the **vertex** of the corolla.  Corollas are the direct categories which it is most natural to regard as *single* geometric shapes; other direct categories are more like "pasting diagrams" of geometric shapes.
+Define a **corolla** to be a generalized direct category with a [[weak limit|weakly]] [[terminal object]]; we call this object the **vertex** of the corolla.  If a generalized direct category is finite and skeletal, then it is a corolla if and only if it has a unique object which is not the source of any noninvertible morphism.  Corollas are the direct categories which it is most natural to regard as *single* geometric shapes; other direct categories are more like "pasting diagrams" of geometric shapes.
 
 Let $Corolla$ be the category of [[small category|small]] skeletal corollas and dependencies.
 
@@ -63,14 +63,14 @@ $Corolla$ is a (large) generalized direct category.
 =--
 +-- {: .proof}
 ###### Proof
-Suppose that $\cdots \overset{d_2}{\to} C_2 \overset{d_1}{\to} C_1 \overset{d_0}{\to} C_0$ is a descending chain of noninvertible dependencies.  Any dependency whose target is a corolla and whose image contains the vertex must be an equivalence, and hence an isomorphism if the corollas are skeletal; thus none of the dependencies $C_{n+1} \to C_{n}$ can have the vertex in their image.  Let $c_n\in C_0$ be the image of the vertex $\star_n \in C_n$ under the composite $d_0\circ \dots \circ d_{n-1}$.  Then we have a noninvertible morphism $c_{n+1} \to c_n$ for each $n$, arising from the map $d_n(\star_{n+1}) \to \star_n$ which exists since $\star_n$ is terminal.  This is a contradiction, since $C_0$ is a generalized direct category.
+Suppose that $\cdots \overset{d_2}{\to} C_2 \overset{d_1}{\to} C_1 \overset{d_0}{\to} C_0$ is a descending chain of noninvertible dependencies.  Any dependency whose target is a corolla and whose image contains the vertex must be an equivalence, and hence an isomorphism if the corollas are skeletal; thus none of the dependencies $C_{n+1} \to C_{n}$ can have the vertex in their image.  Let $c_n\in C_0$ be the image of the vertex $\star_n \in C_n$ under the composite $d_0\circ \dots \circ d_{n-1}$.  Then we have a noninvertible morphism $c_{n+1} \to c_n$ for each $n$, arising from some map $d_n(\star_{n+1}) \to \star_n$ which exists since $\star_n$ is weakly terminal.  This is a contradiction, since $C_0$ is a generalized direct category.
 =--
 
 Of course, the same is true for any subcategory of $Corolla$.  In particular, it is very natural to consider only the category $FinCorolla$ of *finite* corollas, which is moreover essentially small (though not finite).
 
 We next observe that $Corolla$ is the "universal" generalized direct category in a certain sense.  Let $D$ be any generalized direct category; then the slice category $D/d$ is a corolla for any $d\in D$.  Moreover, if $f\colon d\to d'$ is a morphism in $D$ which is [[monomorphism|monic]], then the "composition" functor $\Sigma_f\colon D/d \to D/d'$ is a dependency.  Thus, if every morphism in $D$ is monic, we have a functor $ext_D\colon D \to Corolla$ with $ext_D(d)= D/d$ and $ext_D(f)=\Sigma_f$.
 
-Now if $f,g\colon d\to d'$ are parallel morphisms and $\Sigma_f=\Sigma_g$, then in particular $f = \Sigma_f(id_d) = \Sigma_g(id_d) = g$; thus $ext_D$ is [[faithful functor|faithful]].  Therefore, any direct category in which all morphisms are monic (which includes many examples) is equivalent to a [[subcategory]] of $Corolla$.
+Now if $f,g\colon d\to d'$ are parallel morphisms and $\Sigma_f=\Sigma_g$, then in particular $f = \Sigma_f(id_d) = \Sigma_g(id_d) = g$; thus $ext_D$ is [[faithful functor|faithful]].  Therefore, if $D$ is a direct category in which all morphisms are monic, and in which $D/d \cong D/d'$ implies $d=d'$ (which includes many examples), then $D$ is equivalent to a [[subcategory]] of $Corolla$.
 
 This subcategory of $Corolla$ is usually *not* full, however.  In particular, for $d\in D$ the corolla $D/d$ will generally admit more automorphisms than $d$ has in $D$.  For instance, if $D$ is a non-generalized direct category, then $d$ has no nontrivial automorphisms, whereas $D/d$ generally will.  In particular, if the objects of $D$ have any sort of "orientation" or "labeling," then this information is forgotten by the functor $ext_D$.
 
