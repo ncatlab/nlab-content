@@ -28,6 +28,8 @@ An object in this category is a [[presheaf]]. See there for more details.
 
 +--{: .query}
 [[David Roberts]]: so the only sub-topoi of $PSh(C)$ are categories of sheaves? Do these need to be sheaves on $C$ with some Grothendieck topology, or can they be sheaves on other sites? Isn't there some way of cooking up a sub-topos using a subcategory of $C$?
+
+[[Harry Gindi]]: Grothendieck topologies are in canonical bijection with full reflective subcategories of the presheaf category, if I remember correctly.
 =--
 
 ## In higher category theory
