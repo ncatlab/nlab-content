@@ -49,6 +49,8 @@ Normed division algebras are used to construct Lie 2- and 3-superalgebras extend
 
 * [[John Huerta]], _Division Algebras, Supersymmetry and Higher Gauge Theory_, ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
 
+* [[John Huerta]], _Division Algebras and supersymmetry III_, ([arXiv:1109.3574](http://arxiv.org/abs/1109.3574))
+
 The relationship in [[string theory]] via [[octonion]] algebra between the NRS [[spinning string]] and the [[Green-Schwarz superstring]] [[sigma-models]] is discussed in
 
 * Rafael I. Nepomechie, _Nonabelian bosonization, triality, and superstring theory_ Physics Letters B
