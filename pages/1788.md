@@ -5,10 +5,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
-[pdf](http://users.uoa.gr/~iandroul/GAP%202012%20WEBPAGE/GAP2012_Cattaneo.pdf)
-
-[pdf](https://www.math.ethz.ch/t3/fileadmin/math/ndb/00039/01757/Cattaneo_prodoc.pdf)
-
+$\hooklongrightarrow$
 
 
 
