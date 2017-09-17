@@ -324,7 +324,7 @@ There is a general formula for the homotopy colimit over $F$ in terms of a [[coe
 
 #### Ingredients 
 
-for $C$ a [[combinatorial simplicial model category]] as above and for $D$ any [[simplicially enriched category]] there is the projective and the injective [[global model structure on functors]] on the [[enriched functor category]] $[D,C]$.
+For $C$ a [[combinatorial simplicial model category]] as above and for $D$ any [[simplicially enriched category]] there is the projective and the injective [[global model structure on functors]] on the [[enriched functor category]] $[D,C]$.
 
 * In the projective model structure $[D,C]_{proj}$ the fibrations and the local equivalences are objectwise those of $C$
 
@@ -1035,7 +1035,7 @@ An introduction is
 
 A general overview via universal properties is in the 
 
-* [[Georges Maltsiniotis]] lecures Sevilla (2008) 
+* [[Georges Maltsiniotis]] lectures, Sevilla (2008) 
 
   I, localizers, ([pdf](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf)); 
 
