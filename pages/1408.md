@@ -745,7 +745,7 @@ This appears as ([Lurie, corl 1.5.4](#Lurie)).
 
 * [[ringed space]], [[locally ringed space]]
 
-* [[ringed site]]
+* [[ringed site]], [[locally ringed site]]
 
 * [[ringed topos]], [[locally ringed topos]]
 
