@@ -179,7 +179,7 @@ We discuss properties of group extensions in stages,
   {#Torsors}
 
 +-- {: .num_prop}
-###### Prosition
+###### Proposition
 
 For $A \stackrel{i}{\to} \hat G \stackrel{p}{\to} G$ a group extension, we have that $p : \hat G \to G$ is an $A$-[[torsor]] over $G$ where  the [[action]] of $A$ on $\hat G$ is defined by
 
