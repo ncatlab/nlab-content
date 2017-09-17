@@ -125,7 +125,7 @@ See the remark at the very end of section 6.1.2 in [[Higher Topos Theory|HTT]].
 ### Topological loop spaces 
 
 For $C = $ [[Top]] the [[(infinity,1)-category]]
-of [[topological spaces]], a space is deloopable if it is an [[H-space]] and hence homotopy equivalent to a [[loop space]].
+of [[topological spaces]], a space is deloopable if it is an [[A-infinity-space]] and hence homotopy equivalent to a [[loop space]].
 
 
 ### Delooping of a group to a groupoid 
