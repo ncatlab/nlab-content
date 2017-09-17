@@ -330,6 +330,7 @@ In contrast to the $\infty$-Chern-Simons theory discussed above, the general abs
 
 There are various higher [[group extension]]s of the Poincare group and the orthonormal group that lead accordingly to higher order variations of gravity.
 
+
 * lifting $S O$-connections through the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#SmoothWhitehead">smooth Whitehead tower</a>
 
   $$
@@ -441,6 +442,8 @@ This means that Connes' [[spectral triple]] whose particle spectrum reproduces t
 * [[motivation for cohesion]]
 
 * [[Hilbert's sixth problem]]
+
+* [[motives in physics]]
 
 ## References
 
