@@ -84,9 +84,7 @@ Moreover we find for $K \in Set$:
 
 This matches the interpretation we just found: $Disc K$ is the collection of elements of $K$ with no two of them lumped together by cohesion, while $Codisc K$ is all elements of $K$ lumped together.
 
-What is not true in this example is that $Disc K \to Codisc K$ is a monomorphism.
-
-In particular, notice that the fibers $S_i$ may be empty. This is notably the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ represented by $\emptyset$.
+What is not true in this example is that $Disc K \to Codisc K$ is a monomorphism. In particular, notice that the fibers $S_i$ may be empty. This is notably the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ represented by $\emptyset$. So there may be cohesive pieces that contain no point.
 
 
 ### Sites of balls;
