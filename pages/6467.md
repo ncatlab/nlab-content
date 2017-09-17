@@ -14,19 +14,13 @@
 * table of contents
 {:toc}
 
-## Idea
-
-Given a [[monoidal category]] $(C, \otimes)$, the _Picard group_ of $C$ is the group of [[isomorphism class]]es of [[object]]s that have an [[inverse]] under the [[tensor product]] -- the [[line object]]s. Or rather, more naturally (before [[decategorification]]), it is the maximal [[2-group]] inside a monoidal category.
-
-In geometry, by _Picard group_ one usually means the Picard group of the monoidal category of [[vector bundle]]s or of the monoidal category of [[quasicoherent sheaves]] of $\mathcal{O}_X$-modules (or a variant). In this case the Picard group consists of the [[line bundle]]s.
-
-For instance, the locally free [[sheaves]] of [[module]]s of [[rank]] $1$ over the [[structure sheaf]] of a [[ringed space]] $X$ form a group often called _the Picard group of $X$._
-
-
 ## Definition
 
-Let $X$ be a [[ringed space]]. The **Picard group** denoted $Pic(X)$ is defined to be the set of 
-[[isomorphism class]]es of locally free $\mathcal{O}_X$-[[modules]] of [[rank]] $1$ with group operation given by the [[tensor product]]. Note that locally free $\mathcal{O}_X$-modules of rank one are also called *invertible sheaves*.
+Given a [[monoidal category]] $(C, \otimes)$, the _Picard group of $(C,\otimes)$ is the group of [[isomorphism class]]es of [[object]]s that have an [[inverse]] under the [[tensor product]] -- the [[line object]]s. 
+
+Remarks: Or rather, more naturally (before [[decategorification]]), it is the maximal [[2-group]] inside a monoidal category. In geometry, the monoidal category is usually some category of [[vector bundle]]s or quasicoherent sheaves.
+
+The __Picard group__ $Pic(X)$ of a [[ringed space]] $X$ is the Picard group of the monoidal category of [[invertible sheaves]], i.e. the locally free sheaves of $\mathcal{O}_X$-modules of [[rank]] $1$ (i.e. the [[line bundle]]s).
 
 ## Pic(X) is a Group
 
@@ -45,4 +39,7 @@ Another form the Picard group takes is from the isomorphism $Pic(X)\simeq H^1(X,
 
 ## References
 
+* see also [[Picard scheme]]
 * Robin Hartshorne, Algebraic Geometry
+
+[[!redirects Picard groups]]
