@@ -95,6 +95,9 @@ sends a commutative subalgebra $C \subset A$ to $f(C) \subset B$.
 
 =--
 
+### Construction as groupoid convolution algebras
+
+Many $C^\ast$-algebras arise as [[groupoid algebras]] of [[Lie groupoids]]. See at _[groupoid algebra - References - For smooth geometry](category+algebra#ReferencesForSmoothGeometry)_
 
 ### Homotopy theory
 
