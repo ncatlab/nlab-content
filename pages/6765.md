@@ -7,7 +7,7 @@
 
 A Cheng space is a version of a [[measurable space]] developed by [[Henry Cheng]] for [[constructive mathematics]].  Even in [[classical mathematics]], however, Cheng spaces are more general than standard measure spaces.  On the other hand, if we equip a measurable space with a $\sigma$-[[sigma-ideal|ideal]] of [[null subsets]] (or a $\delta$-filter of [[full subsets]]), there is no essential difference classically.
 
-Some of the [[abstract nonsense]] below is original research (by [[Toby Bartels]] and [[Todd Trimble]], but based heavily on Cheng\'s work as described in [[Handbook of Constructive Analysis|Bishop & Bridges]].
+Some of the [[abstract nonsense]] below is original research (by [[Toby Bartels]] and [[Todd Trimble]]), but based heavily on Cheng\'s work as described in [[Handbook of Constructive Analysis|Bishop & Bridges]].
 
 
 ## Motivation
@@ -50,7 +50,7 @@ Then an actual [[de Morgan duality]] holds for these operations:
 
 We can go on to define the relative complement $(A,B) \setminus (C,D)$ and symmetric difference $(A,B) \uplus (C,D)$ in terms of complements, intersections, and unions as usual, and they obey many of the usual classical laws.  (For instance, $\uplus$ is ---through a fairly lengthy calculation--- associative, which is not constructively true of [[symmetric difference]] on a power set.)
 
-At this point, the reader could be forgiven for thinking that we have cleverly pulled a [[Boolean algebra]] out of a mere [[Heyting algebra]], but this is not true; aside from the give-away that this lattice is not constructively completely distributive, it is not even classically a Boolean algebra.  This is because $(A,B) \cup \neg(A,B) = (A \cup B, \empty)$ (and similarly for intersection) and there is no requirement that $A \cup B = X$.  What we have instead is a complete Boolean [[rig]], aka semi-ring with unit; to keep consistent with the usual terminology of measure theory, I\'ll call such a thing a __[[Boolean semi-algebra]]__.
+At this point, the reader could be forgiven for thinking that we have cleverly pulled a [[Boolean algebra]] out of a mere [[Heyting algebra]], but this is not true; aside from the give-away that this lattice is not constructively completely distributive, it is not even classically a Boolean algebra.  This is because $(A,B) \cup \neg(A,B) = (A \cup B, \empty)$ (and similarly for intersection) and there is no requirement that $A \cup B = X$.  What we have instead is a complete Boolean [[rig]], aka semi-ring with unit; to keep consistent with the usual terminology of measure theory, I\'ll call such a thing a __Boolean semi-algebra__.
 
 This is all a special case of the [[Chu construction]]; the poset of disjoint pairs in $X$ is $Chu_{TV}(P X, \empty)$, where $TV$ is the [[enriched category|enriching]] category of [[truth values]].
 
@@ -64,25 +64,25 @@ Given a set $X$, a __$\sigma$-semi-algebra__ on $X$ is a collection $\mathcal{M}
 
 The arguments above that $\mathcal{M}$ is closed under countable intersections, relative complements, and symmetric differences goes through.  (We can also define analogous notions of semi-algebra, $\delta$-semi-ring, and other variations of $\sigma$-[[sigma-algebra|algebra]].)
 
-Of course, a __Cheng measurable space__ or simply a __Cheng space__ is a set equipped with a $\sigma$-semi-algebra.
+Finally, a __Cheng measurable space__ or simply a __Cheng space__ is a set equipped with a $\sigma$-semi-algebra.
 
 (Incidentally, the reason why we do not use the term 'measurable pair' is that $A$ and $B$ may easily both be measurable in some sense yet without having $(A,B)$ as a complemented pair.  In particular, $(\empty,\empty)$ is rarely a complemented pair ---although that is not forbidden either---, yet it is hard to call it non-measurable.)
 
 
 ### Measurable sets and functions
 
-A [[subset]] $A$ of a Cheng space $X$ is __measurable__ if there is some complemented pair $(A,B)$.  A subset $S$ is __[[full subset|full]]__ if, for some complemented pair $(A,B)$, $S$ contains the [[union]] $A \cup B$.  Conversely, $S$ is __[[null subset|null]]__ if, for some such $(A,B)$, $S$ is disjoint from $A \cup B$.
+A [[subset]] $A$ of a Cheng space $X$ is __[[measurable subset|measurable]]__ if there is some complemented pair $(A,B)$.  A subset $S$ is __[[full subset|full]]__ if, for some complemented pair $(A,B)$, $S$ contains the [[union]] $A \cup B$.  Conversely, $S$ is __[[null subset|null]]__ if, for some such $(A,B)$, $S$ is disjoint from $A \cup B$.
 
-Given two Cheng measurable spaces $X$ and $Y$, an __[[almost function]]__ from $X$ to $Y$ is a [[partial function]] from $X$ to $Y$ such that the [[domain]] of $f$ is full.  An almost function is __measurable__ if, given any complemented pair $(C,D)$ in $Y$, there is a complemented pair $(A,B)$ such that $\{p\colon X \;|\; p \in A \iff f(p) \in C\}$ and $\{p\colon X \;|\; p \in B \iff f(p) \in D)$ are both full.
+Given two Cheng measurable spaces $X$ and $Y$, an __[[almost function]]__ from $X$ to $Y$ is a [[partial function]] from $X$ to $Y$ such that the [[domain]] of $f$ is full.  An almost function is __[[measurable function|measurable]]__ if, given any complemented pair $(C,D)$ in $Y$, there is a complemented pair $(A,B)$ such that $\{p\colon X \;|\; p \in A \iff f(p) \in C\}$ and $\{p\colon X \;|\; p \in B \iff f(p) \in D)$ are both full.
 
 Two (measurable) functions are __almost equal__ if their [[equaliser]] is full.
 
-Cheng spaces, measurable functions between them, and almost equality between them form a [[category]] $Cheng Sp$.
+Cheng spaces, measurable almost functions between them, and almost equality between them form a [[category]] $Cheng Sp$.
 
 
 ## Completion
 
-A Cheng space is __complete__ if, whenever $(A,B)$ is a complemented pair and $A \Leftrightarrow C$ and $B \Leftrightarrow D$ are full, then $(C,D)$ is a complemented pair.  In particular, every full set and every null set is measurable.
+A Cheng space is __[[complete measure space|complete]]__ if, whenever $(A,B)$ is a complemented pair and $A \Leftrightarrow C$ and $B \Leftrightarrow D$ are full, then $(C,D)$ is a complemented pair.  In particular, every full set and every null set is measurable.
 
 Given any Cheng space $(X,\mathcal{M})$, its __completion__ $(X,\bar{\mathcal{M}})$ has the same [[underlying set]] $X$ but a disjoint pair $(C,D)$ is $\bar{\mathcal{M}}$-complemented iff, for some $\mathcal{M}$-complemented pair $(A,B)$, both $A \Leftrightarrow C$ and $B \Leftrightarrow D$ are $\mathcal{M}$-full.
 
@@ -102,3 +102,18 @@ Given a Cheng space $(X,\mathcal{M}$, a __positive measure__ on $(X,\mathcal{M}$
 *  [[subadditive function|subadditivity]]: $\mu(\bigcup_i A_i, \bigcap_i B_i) \leq \sum_i \mu(A_i,B_i)$ for an [[infinite sequence]] of complemented pairs.
 
 We think of $\mu(A,B)$ as the measure of $A$; thanks to absolute continuity, either $A$ or $B$ alone is enough to determine $\mu(A,B)$.
+
+
+[[!redirects Cheng space]]
+[[!redirects Cheng spaces]]
+[[!redirects Cheng measurable space]]
+[[!redirects Cheng measurable spaces]]
+
+[[!redirects boolean semialgebra]]
+[[!redirects boolean semialgebras]]
+[[!redirects boolean semi-algebra]]
+[[!redirects boolean semi-algebras]]
+[[!redirects Boolean semialgebra]]
+[[!redirects Boolean semialgebras]]
+[[!redirects Boolean semi-algebra]]
+[[!redirects Boolean semi-algebras]]
