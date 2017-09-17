@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
 > under construction
 
 #Contents#
@@ -9,6 +23,7 @@
 
 The generalization of the concept of [[Jacobian variety]] to higher dimensional [[algebraic varieties]].
 
+In [[differential geometry]] these appear as [[moduli spaces]] of [[flat infinity-connection|flat]] [[circle n-bundles with connection]] that are equipped with [[symplectic structure]] and [[Kähler polarization]] induced from any choice of [[complex structure]] on the base space. Via the [[Koszul-Malgrange theorem]], this translated to [[abelian sheaf cohomology]] of a suitable ([[complex variety|complex]]) [[variety]] with coefficients in the [[structure sheaf]].
 
 ## Examples
 
