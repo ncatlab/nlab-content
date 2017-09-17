@@ -38,6 +38,8 @@ $\Gamma$ is a [[faithful functor]] on [[morphisms]] whose [[codomain]] is concre
 
 ## Related concepts
 
+* [[concretification]]
+
 [[!include cohesion - table]]
 
 
