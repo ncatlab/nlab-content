@@ -65,7 +65,7 @@ Note that the proof is not [[constructive mathematics|constructive]], as we have
 
 From the proof above, we extract a result useful in its own right, giving an alternative definition of connected object. 
 
-+-- {: .un_thm}
++-- {: .num_theorem #Scholium}
 ###### Scholium 
 An object $X$ in an extensive category is connected if and only if in any coproduct decomposition $X = U + V$, exactly one of $U$, $V$ is noninitial. 
 =-- 
@@ -90,10 +90,9 @@ Turning now to the if direction, suppose $f \colon X \to Y + Z$ is a map, and pu
 
 * A colimit of a connected diagram of connected objects is connected. This is due to the fact that coproducts in $Set$ commute with _limits_ of connected diagrams. 
 
-* If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. Proof: certainly $Y$ is not initial, because initial objects in extensive categories are strict. Suppose $Y = U + V$ (see the Scholium above), so that we have an epi $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
+* If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. Proof: certainly $Y$ is not initial, because initial objects in extensive categories are strict. Suppose $Y = U + V$ (see the Scholium \ref{Scholium} above), so that we have an epi $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
 
-It need not be the case that products of connected objects are connected. For example, in the topos $\mathbb{Z}$-Set, the product $\mathbb{Z} \times \mathbb{Z}$ decomposes as a countable coproduct of copies of $\mathbb{Z}$. 
-We do have the following partial result, generalizing the case of $Top$. 
+It need not be the case that products of connected objects are connected. For example, in the topos $\mathbb{Z}$-Set, the product $\mathbb{Z} \times \mathbb{Z}$ decomposes as a countable coproduct of copies of $\mathbb{Z}$. (For more on this topic, see also [[cohesive topos]].) We do have the following partial result, generalizing the case of $Top$. 
 
 +-- {: .un_thm} 
 ######Theorem 
