@@ -10,10 +10,8 @@
 =--
 
 
-> under construction
-
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -26,9 +24,103 @@ While quantum mechanics may be formulated for a wide range of physical systems, 
 
 Mathematically, despite the basic formalism of quantum mechanics which is sound and clear, there are two big areas which are yet not clear. One is to understand quantization, in all cases -- of particles, fields, strings and so on. The second and possibly more central to nLab is a problem how to define rigorously a wide range of quantum field theories and some related quantum mechanical systems like the hypothetical [[superstring theory]]. Regarding that this is a central goal, we also put emphasis on the interpretation of quantum mechanics via the picture which is a special case of a FQFT, and where the time evolution functorially leads to evolution operators. 
 
-## Classical approach: Hilbert space quantum mechanics
+## Definition
 
-In pure state quantum mechanics, physical states are encoded as vectors in a [[Hilbert space]]. Often Dirac "bra-ket" notation is used to represent such vectors, where $|\psi\rangle$ represents a state and $\langle\psi|$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and [[momentum]] and are called observables. Measurements are expressed as sets of projectors onto the eigenvectors of an observable.
+We discuss some basic notions of quantum mechanics
+
+### Quantum mechanical systems
+
+Recall the notion of a _[[classical mechanical system]]_ : the formal dual of a real _commutative_ [[Poisson algebra]]. 
+
++-- {: .num_defn}
+###### Definition
+
+A **quantum mechanical system** is a [[star algebra]] $(A, (-)^\ast)$ over the [[complex number]]s. The [[category]] of of quantum mechanical systems is the [[opposite category]] of $\ast$-algebras:
+
+$$
+  QuantMechSys := {\ast}Alg_{\mathbb{C}}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It makes sense to think of this as a deformed version of a real [[Poisson algebra]] as follows:
+
+* the Poisson-[[Lie algebra|Lie bracket]] of a [[Poisson algebra]] corresponds to the [[commutator]] of the $\ast$-algebra:
+
+  $$
+    [a,b] := a b - b a
+    \,,
+  $$
+
+* the commutative algebra structure of the Poisson algebra coresponds to the [[Jordan algebra]] structure of the $\ast$-algebra, with commutative (but non-associative!) product
+
+  $$
+    (a,b) := a b + b a
+    \,.
+  $$
+
+With this interpretation the [[derivation]]-property of the Poisson bracket over the other product is preserved: for all $a,b,c \in A$ we have
+
+$$
+  [a,(b,c)] = ([a,b],c) + (b,[a,c])
+  \,.
+$$
+
+=--
+
+(For the interpretation of the Jordan-multiplication see for instance [BatesWeinstein, p. 80](#BatesWeinsten))
+
+### Observables and states
+
++-- {: .num_defn}
+###### Definition
+
+Given a quantum mechanical system in terms of a [[star algebra]] $A$, we say
+
+* an **[[observable]]** is an element $a \in A$ such that $a^\ast = a$;
+
+* a **[[state]]** is a [[linear function]] $\rho : A \to \mathbb{C}$ which is _positive_ in the sense that for all $a \in A$ we have $\rho(a a^\ast) \geq 0 \in \mathbb{R} \hookrightarrow \mathbb{C}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+One can formalize the idea that a quantum mechanical system is like a deformed [[classical mechanical system]] as follows:
+
+To every ${}^\ast$-algebra $A$ is associated its [[poset of commutative subalgebras]] $Com(A)$. Then the corresponding quantum mechanical system is a [[classical mechanical system]] [[internalization|internal]] to the [[sheaf topos]] $Sh(Com(A))$:
+
+* The $\ast$-algebra canonically induces a commuative algebra $\underline A \in Sh(Com(A))$;
+
+* the (classical) [[state]]s of $\underline{A}$ in $Sh(Com(A))$ are in natural bijection with the quantum states externally on $A$;
+
+* the (classical) [[observable]]s of $\underline{A}$ in $Sh(Com(A))$ correspond to the external quantum observables on $A$.
+
+(...details...)
+
+=--
+
+One also says that the internal classical mechanical system $(Sh(Com(A)), \underline{A})$ is the "[[Bohrification]]" of the external quantum system $A$. See there for more details.
+
+
+### Spaces of states
+
+Given a $\ast$-algebra $A$ together with a [[state]] $\rho$ on it, the [[GNS construction]] provides an [[inner product space]] $H_\rho$ together an [[action]] of $A$ on $H_\rho$ and together with a [[vector]] $\Omega = \sqrt(\rho)$ -- the [[vacuum vector]]  -- such that for all $a \in A$ the value of the state $\rho : A \to \mathbb{C}$ is obtained by applying $a$ to $\sqrt{\rho}$ and then taking the inner product with $\sqrt \rho$:
+
+$$
+  \rho(A) = \langle \sqrt\rho, a \sqrt a\rangle
+  \,.
+$$
+
+If the [[star algebra]] $A$ happens to be a [[C-star algebra]], then this inner product space is naturally a [[Hilbert space]].
+
+Historically and still often in the literature, such a Hilbert space is taken as a fundamental input of the definition of quantum systems.
+
+Traditionally, [[Dirac]]'s "bra-ket" notation is used to represent vectors in such Hilbert spaces of states, where $|\psi\rangle$ represents a state and $\langle\psi|$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and [[momentum]] and are called observables. Measurements are expressed as sets of projectors onto the eigenvectors of an observable.
 
 In [[mixed state]] quantum mechanics, physical states are represented as [[density operators]] $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and measurements are positive operator-valued measures (POVM's). There is a natural embedding of pure states into the space of density matrices: $|\psi\rangle \mapsto |\psi\rangle\langle\psi|$. So, one way to think of mixed states is a probabilistic mixture of pure states.
 
@@ -36,9 +128,19 @@ In [[mixed state]] quantum mechanics, physical states are represented as [[densi
 
 Composite systems are formed by taking the tensor product of Hilbert spaces. If a [[pure state]] $|\Psi\rangle \in H_1 \otimes H_2$ can be written as $|\psi_1\rangle \otimes |\psi_2\rangle$ for $|\psi_i\rangle \in H_i$ it is said to be _[[separable]]_. If no such $|\psi_i\rangle$ exist, $|\Psi\rangle$ is said to be _[[entangled]]_. If a mixed state is separable if it is the sum of separable pure states. Otherwise, it is entangled.
 
-States, state evolutions, and observables are all special cases of [[quantum channels]] which can be used to describe the exchange of classical and quantum [[information]].
 
-## nPOV for quantum mechanics of point particles
+### Flows and time evolution
+
+As for classical mechanics, 1-parameter families of flows in a quantum mechanical system are induced from observables $a \in A$ by
+
+$$
+  \frac{d}{d \lambda} b_\lambda = \frac{1}{i \hbar}[b_\lambda, a]
+  \,.
+$$
+
+In a non-relativistic system one specifies an observable $H$ -- called the [[Hamiltonian]] -- whose flow represents the time evolution of the system.
+
+We comment on how to interpret this from the point of view of [[FQFT]]:
 
 Quantum mechanics of point particles may be understood as a special case of the formalism of [[quantum field theory]]. It is interpreted as the quantum analog of the [[classical mechanics]] of point particles. Of course, we can take a configuration space of a system of particles looking like the configuration space of a single particle in a higher dimensional manifold. 
 
@@ -95,13 +197,23 @@ For more on this see
 
 * [[classical mechanics]]
 
-* [[semiclassical approximation]], [[quantization]]
+  * [[semiclassical approximation]]
 
-* [[supersymmetric quantum mechanics]]
+* [[quantization]]
+
+  * [[deformation quantization]], [[geometric quantization]]
+
+* **quantum mechanics**
+
+  * [[supersymmetric quantum mechanics]]
+
+* [[quantum field theory]]
+
+  * [[FQFT]], [[AQFT]]
 
 ## References
 
-* Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics%3A a functional integral point of view]] (how to quote the link with : ??)
+* Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics - 3A a functional integral point of view]] 
 
 * Movshev's course has mathematically nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html); and [here](http://www.math.columbia.edu/~woit/qftnotes1.pdf) is a link to Woit's list of more physical tradition references. 
 
@@ -110,7 +222,10 @@ For more on this see
 
 * P. Cartier, C. DeWitt-Morette, _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.
 
-* Leon Takhtajan, [[Quantum mechanics for mathematicians]], Amer. Math. Soc. 2008. 
+* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_ , Amer. Math. Soc. 2008. 
+
+* Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+ {#BatesWeinstein}
 
 [[!redirects quantum physics]]
 [[!redirects quantum theory]]
