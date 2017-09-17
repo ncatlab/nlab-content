@@ -124,7 +124,7 @@ An discussion with lots off pictures is in [chapter 7](http://cheng.staff.shef.a
 
 A useful discussion is in
 
-* [[Clemens Berger]], _Iterated wreath product of the simplex category and iterated loop spaces_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0512575))
+* [[Clemens Berger]], _Iterated wreath product of the simplex category and iterated loop spaces_ ([arXiv](http://arxiv.org/abs/math/0512575))
 
 and in section 3 of
 
