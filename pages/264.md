@@ -80,8 +80,6 @@ The second condition implies that the functor $F_Q$ in the first condition is un
 * If it exists, the homotopy category $Ho(C)$ is unique up to [[equivalence of categories]].
 
 
-## Remarks 
-
 
 * As described at [[localization]], in general, the morphisms of $Ho(C)$ must be constructed using zigzags of morphisms in $C$ in which the backwards-pointing arrows are weak equivalences.  This means that in general, $Ho(C)$ need not be [[locally small category|locally small]] even if $C$ is.  However, in many cases (such as any [[model category]]) there is a more direct description of the morphisms in $Ho(C)$ as [[homotopy]] classes of maps in $C$ between suitably "good" (fibrant and cofibrant) objects.
 
@@ -104,6 +102,12 @@ What is called a [[derived category]] is the special case of the homotopy catego
 * In [[stable homotopy theory]] one considers the homotopy category of [[spectra]].
 
 * For the homotopy category of [[Cat]], see [[Ho(Cat)]].
+
+## Related concepts
+
+* [[homotopy category of an (infinity,1)-category]]
+
+* [[homotopy 2-category]]
 
 
 ## References
