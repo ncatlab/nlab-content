@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -36,7 +35,7 @@ A _(linear) complex structure_ on a [[vector space]] $V$ is an [[automorphism]] 
 
 =--
 
-More generally, an almost complex structure on a [[smooth manifold]] is essentially a [[fiber]]-wise complex structure on its [[tangent spaces]]:
+More generally, an almost complex structure on a [[smooth manifold]] is a smoothly varying [[fiber]]wise complex structure on its [[tangent spaces]]:
 
 +-- {: .num_defn}
 ###### Definition
