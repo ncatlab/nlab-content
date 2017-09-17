@@ -54,6 +54,8 @@ definition discussed at
 
 * [[locally representable structured (infinity,1)-topos]].
 
+* [[E-∞ scheme]]
+
 ## Generalized schemes of Durov 
 
 N. Durov replaces the commutative rings by commutative [[algebraic monad]]s (aka generalized rings) in sets and defines spectra in that context, and glues them together. This way he defines what he calls __generalized schemes__: in a nutshell generalized schemes are schemes glued from affine spectra of generalized rings. The corresponding category of quasicoherent $\mathcal{O}$-modules is not abelian in general. See also the separate entry [[generalized scheme after Durov]].
