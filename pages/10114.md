@@ -1,0 +1,19 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[QCD]] a [[bound state]] of three [[quarks]] via the [[strong nuclear force]]. 
+
+## Related concepts
+
+[[!include fields and quanta - table]]
+
+## References
+
+* Wikipedia, _[Baryon](http://en.wikipedia.org/wiki/Baryon)_
+
+[[!redirects baryons]]
