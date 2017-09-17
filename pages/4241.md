@@ -74,13 +74,13 @@ which are consequences of the definition(s) given earlier.
 
 * Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
-* Sam Nelson, [Quandle theory](http://www.esotericka.org/pomona/quandles.html).
+* Sam Nelson, [Quandle theory](http://www.esotericka.org/pomona/quandles.html). link not working!
 
-* J. Scott Carter, [A survey of quandle ideas](http://arxiv.org/abs/1002.4429).
+* J. Scott Carter, _A survey of quandle ideas_, [arxiv](http://arxiv.org/abs/1002.4429).
 
-* Seiichi Kamada, [Knot invariants derived from quandles and racks](http://arxiv.org/abs/math/0211096).
+* Seiichi Kamada, _Knot invariants derived from quandles and racks_, [arxiv](http://arxiv.org/abs/math/0211096).
 
-* Alissa Crans, [Shelves, racks, spindles and quandles](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_.
+* Alissa Crans, _Shelves, racks, spindles and quandles_ [arxiv](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_.
 
 The last reference makes it clear that racks are algebras of a [[Lawvere theory]], so that racks may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).
 
