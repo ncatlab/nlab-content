@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[D-brane]] of [[dimension]] $0+1$ in [[type IIA string theory]].
+
+## Properties
+
+The [[worldline]] theory of a collection of D0-branes is supposed to be described by the [[BFSS matrix model]].
+
+## Related concepts
+
+[[!include table of branes]]
+
+
+## References
+
+The worldline theory of interacting D0-branes is discussed in 
+
+* [[Tom Banks]], W. Fischler, S.H. Shenker and [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_  Phys. Rev. D55 (1997). ([arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043)).
+
+
+[[!redirects D0-branes]]
+
