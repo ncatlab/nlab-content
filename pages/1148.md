@@ -235,6 +235,10 @@ $$
 
 ## Examples
 
+* [[de Rham cohomology]]
+
+* [[Dolbeault cohomology]]
+
 * [[Deligne cohomology]]
 
 * [[etale cohomology]]
