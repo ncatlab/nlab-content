@@ -179,6 +179,9 @@ In the context of [[higher algebra]]/[[(∞,1)-category theory]] [[bilinear maps
 [[!redirects bilinear function]]
 [[!redirects bilinear functions]]
 
+[[!redirects bilinear operator]]
+[[!redirects bilinear operators]]
+
 [[!redirects multilinear map]]
 [[!redirects multilinear maps]]
 [[!redirects multilinear mapping]]
