@@ -77,6 +77,8 @@ This has  a refinement to [[homotopy type theory]], where the [[categorical sema
 
 * [[monad (in computer science)]]
 
+* [[modal type]], [[anti-modal type]]
+
 * [[adjoint modality]]
 
 * [[Galois connection]]
