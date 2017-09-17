@@ -161,6 +161,8 @@ Note also that for any virtual double category $X$, there is another virtual dou
 
 * A blog post (of probably many; someone should find some others): [Generalized Operads in Classical Algebraic Topology](http://golem.ph.utexas.edu/category/2009/10/generalized_operads_in_classic.html)
 
+* [[Martin Hyland]], _Elements of a theory of algebraic theories_, [arXiv:1311.7642](http://arxiv.org/abs/1311.7642).
+
 [[!redirects generalized multicategories]]
 [[!redirects generalised multicategory]]
 [[!redirects generalised multicategories]]
