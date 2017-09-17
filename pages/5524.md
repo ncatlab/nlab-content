@@ -32,6 +32,27 @@ In the [[cohesive (∞,1)-topos]] of synthetic differential $\infty$-groupoids t
 
 ## Definition
 
+We consider [[(∞,1)-sheaves]] over a "semidirect product" [[site]] or [[(∞,1)-site]] of 
+
+* [[Cartesian spaces]] with [[smooth functions]] between them as for [[smooth ∞-groupoids]],
+
+* and a [[category]] or [[(∞,1)-category]] of [[infinitesimally thickened points]].
+
+First in 
+
+* [1-localic definition](#Localic)
+
+we consider the 1-site, then in 
+
+* [∞-localic definition](#DerivedDefinition)
+
+we consider the $(\infty,1)$-site.
+
+
+
+### 1-localic definition
+ {#Localic}
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -103,6 +124,12 @@ on $CartSp_{synthdiff}$.
 =--
 
 
+### $\infty$-localic
+ {#DerivedDefinition}
+
+We now generalize the 1-category $InfPoint$ of [[infinitesimally thickened points]] to the [[(∞,1)-category]] $InfPoint_\infty$ of "derived infinitesimally thickened points", the formal dual of "small commutative $\infty$-algebras" from ([Hinich](#Hinich), [Lurie](#Lurie)).
+
+(...)
 
 ## Properties
 
@@ -949,6 +976,16 @@ which parallels
 
 * [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
 {#Segal}
+
+The $(\infty,1)$-site of derived infinitesimal points is discussed in 
+
+* [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
+ {#Lurie}
+
+following
+
+* [[Vladimir Hinich]], _DG coalgebras as formal stacks_, J. Pure Appl. Algebra, 162 (2001), 209-250  ([arXiv:math/9812034](http://arxiv.org/abs/math/9812034))
+ {#Hinich}
 
 [[!redirects synthetic differential ∞-groupoid]]
 [[!redirects synthetic differential ∞-groupoids]]
