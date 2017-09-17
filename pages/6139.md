@@ -146,6 +146,7 @@ For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal
 
   * [[suspension]], [[reduced suspension]]
 
+[[!include k-monoidal table]]
 
 ## References
 
