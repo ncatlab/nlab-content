@@ -43,6 +43,13 @@ Let $A$ be an [[algebra]] with multiplication $\mu$.  Let us write ${|A|}$ for t
 The **right regular representation** is defined analogously.
 =--
 
+These can be seen as examples of a more general concept.
+
++-- {: .num_defn #monrep}
+###### Definition
+Let $(C,\otimes,I)$ be a [[monoidal category]].  Let $M = ({|M|},\mu,\eta)$ be a [[monoid]] in $C$, where ${|M|}$ is the underlying object of $M$ in $C$.
+The **regular representation** of $M$ is the action of $M$ on ${|M|}$ induced by the product $\mu$.
+=--
 
 [[!redirects regular representation]]
 [[!redirects regular representations]]
