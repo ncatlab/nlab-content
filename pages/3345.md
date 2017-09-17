@@ -1,8 +1,23 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 There is a [[model category]] structure on the [[category]] $[\Box^{op},Set]$ of [[cubical set]]s whose [[homotopy theory]] is that of the standard [[model structure on simplicial sets]].
 
