@@ -37,6 +37,10 @@ A monoid-up-to-homotopy in the category of spectra for which the homotopies are 
 
 Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
+## Related concepts
+
+* [[algebra spectrum]]
+
 ## Reference
 
 See the references at [[stable homotopy theory]], for instance
