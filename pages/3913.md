@@ -15,7 +15,7 @@
 
 ## Idea
 
-The **Thom space** $Th(V)$ of a [[vector bundle]] $V \to X$ over a [[topological space]] $X$ is the space obtained by first forming the disk bundle $D(V)$ of (unit) disks in the [[fiber]]s of $V$ and then identifying the boundary of each disk, i.e. forming the quotient by the sphere bundle $S(V)$:
+The **Thom space** $Th(V)$ of a [[vector bundle]] $V \to X$ over a [[topological space]] $X$ is the space obtained by first forming the disk bundle $D(V)$ of (unit) disks in the [[fiber]]s of $V$ and then identifying the boundary of each disk, i.e. forming the quotient by the [[sphere bundle]] $S(V)$:
 
 $$
   Th(V) := D(V)/S(V)
