@@ -5,7 +5,7 @@
 
 ## Idea
 
-Bayesian reasoning is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]]; the latter simply restricts to the probabilities $0$ and $1$.
+Bayesian [[reasoning]] is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]]; the latter simply restricts to the probabilities $0$ and $1$.
 
 
 ## Stuff
