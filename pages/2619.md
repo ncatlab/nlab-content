@@ -32,7 +32,7 @@ More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in
 * If $E$ is [[cartesian closed category|cartesian closed]] and the inner hom $(-)^e$ has a [[right adjoint]] (and hence preserves all colimits), $e$ is called [[infinitesimal object|atomic]] or [[infinitesimal object|infinitesimal]]. The right adjoint is sometimes called an [[amazing right adjoint]], particularly in the context of [[synthetic differential geometry]]. If $E$ is a sheaf topos, then tiny objects and infinitesimal objects coincide, by the [[adjoint functor theorem]].
 
 
-## Properies
+## Properties
 
 ### General
 
