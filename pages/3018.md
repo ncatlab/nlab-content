@@ -165,3 +165,4 @@ Extranatural transformations can be understood in the abstract setting of an [[a
 [[!redirects extraordinary natural transformations]]
 [[!redirects extranaturality]]
 [[!redirects extraordinary naturality]]
+[[!redirects extranatural]]
