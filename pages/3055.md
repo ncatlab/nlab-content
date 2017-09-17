@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
 =--
 =--
 
@@ -377,7 +381,7 @@ A categorification in dimension 2  (see [[2-category theory]]) is a codomain 2-f
 ### In $(\infty,1)$-category theory
  {#InInfinityCategoryTheory}
 
-Let $\mathcal{X}$ be an [[(infinity,1)-category]].
+Let $\mathcal{X}$ be an [[(∞,1)-category]].
 
 +-- {: .num_prop }
 ###### Proposition
@@ -390,21 +394,37 @@ $$
 
 is an [[coCartesian fibration]]. 
 
-It is classified under the [[(infinity,1)-Grothendieck construction]] by 
+It is classified under the [[(∞,1)-Grothendieck construction]] by 
 
 $$
   A \mapsto \mathcal{X}_{/A}
   \,,
 $$
 
-where on the right we have the [[over-(infinity,1)-category]].
+where on the right we have the [[over-(∞,1)-category]].
 
 =--
 
 This is a special case of ([Lurie, corollary 2.4.7.12](#Lurie)).
 
-For $\mathcal{X}$ an [[(infinity,1)-topos]], this is the canonical [[(infinity,2)-sheaf]].
+For $\mathcal{X}$ an [[(∞,1)-topos]], this is the canonical [[(infinity,2)-sheaf]].
 
+## As a universe
+
+(...)
+
+$\mathbf{H}$ an [[(∞,1)-topos]] the codomain fibration is the [[dependent sum]]
+
+$$
+  \sum_{Type} : \mathbf{H}_{/Type} \to \mathbf{H}_{/*} \simeq \mathbf{H}
+$$
+
+where $Type \in \mathbf{H}$ is the [[object classifier]], of some size. This is the internal [[universe]]. Since the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$ is the [[context]] given by $X$, in a precise sense
+$\mathbf{H}_{/Type}$ is the "context of the universe". And so this says that the codomain fibration is the "context of the universe" regarded over the base $\infty$-topos which is the "outermost universe".
+
+
+
+(...)
 
 ## Related concepts
 
