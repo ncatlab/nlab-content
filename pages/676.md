@@ -61,6 +61,8 @@
 
   * [[Kochen-Specker theorem]]
 
+  * [[Bell's theorem]]
+
   * [[Gleason's theorem]]
 
 * **[[quantization|Quantization]]**
