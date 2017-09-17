@@ -1,5 +1,5 @@
 
-**[[Higher Topos Theory|(∞,1)-topos theory]]**
+**[[(∞,1)-topos theory]]**
 
 ## Background ##
 
@@ -14,6 +14,8 @@
 * [[(∞,1)-category of (∞,1)-presheaves]]
 
 ## Definitions ##
+
+* [[elementary (∞,1)-topos]]
 
 * [[(∞,1)-site]]
 
