@@ -27,6 +27,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
   * [[gauge theory]]
 
+    * [[Yang-Mills theory]]
+
     * [[QED]]
 
     * **QCD**
@@ -36,6 +38,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
       * [[instanton in QCD]]
 
       * [[quark-gluon plasma]]
+
+    * [[electroweak field]]
 
 * [[string theory results applied elsewhere]]
 
