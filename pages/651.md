@@ -94,7 +94,7 @@ See also the unpublished thesis of Andreas Cap:
 
 Discussion in the context of applications to [[continuum mechanics]] is in 
 
-* [[William Lawvere]], [[Stephen Shanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
+* [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
 
 
 [[!redirects Frölicher spaces]]
