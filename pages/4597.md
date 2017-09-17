@@ -831,6 +831,11 @@ We will now use this existence of $\infty$-connections to make a statement on pr
 
 
 
+### Higher order Chern-Simons forms
+
+See at [[Chern-Simons form]] the section <a href="http://ncatlab.org/nlab/show/Chern-Simons+form#HigherOrderChernSimonsForms">In ∞-Chern-Weil theory</a>.
+
+
 
 ### Chern character {#ChernCharacter}
 
