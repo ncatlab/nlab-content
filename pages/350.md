@@ -242,12 +242,16 @@ For $C$ a [[small category]] and $E := [C^{op}, Set]$ its [[presheaf topos]], La
 +-- {: .proof}
 ###### Proof
 
-Notice that the [[subobject classifier]] in a [[presheaf topos]] is the  presheaf that assigns to $U \in C$ the set of all [[sieve]]s in $C$ on $U$
+The [[subobject classifier]] in a [[presheaf topos]] is the  presheaf that assigns to $U \in C$ the set of all [[sieve]]s in $C$ on $U$
 
 $$
   \Omega : U \mapsto Sieves_C(U)
   \,.
 $$
+
+since we have
+
+$$Sieves_C (U)=Sub_C(y(U))=hom(y(U),\Omega)=\Omega(U)$$
 
 A [[subobject]] $J \hookrightarrow \Omega$ is therefore precisely a choice of a collection of sieves on each object, which is closed under pullback. The proof therefore amounts to checking that the condition that such a collection of sieves is a [[Grothendieck topology]] on $C$ is equivalent to the statement that the characteristic map $j : \Omega \to \Omega$ of $J \hookrightarrow \Omega$ (see remark \ref{LTTopologyAsSubobject}) is a Lawvere-Tierney topology. 
 
