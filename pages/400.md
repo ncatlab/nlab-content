@@ -58,6 +58,8 @@ The above notion of "binary" factorization system can be generalized to factor a
 
 * [[anodyne morphism]], [[small object argument]]
 
+* [[Joyal-Tierney calculus]]
+
 ## References
 
 * [[joyalscatlab:HomePage|Joyal's CatLab]], _[[joyalscatlab:Factorization systems]]_
