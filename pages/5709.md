@@ -140,6 +140,11 @@ Comments on this point are also in
 
   * _[Effective field theory and gravity](http://golem.ph.utexas.edu/~distler/blog/archives/001255.html)_
 
+[[!redirects effective quantum field theories]]
+
 [[!redirects effective field theory]]
+[[!redirects effective field theories]]
+
+
 [[!redirects effective low-energy quantum field theory]]
 [[!redirects effective low-energy field theory]]
