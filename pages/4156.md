@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
@@ -25,7 +31,7 @@ For some time physicists believed that subsets of the PCT symmetry are respected
 ...
 
 ### Definition in the Haag-Kastler approach ###
-Let $\mathcal{M}(\mathcal{J})$ be a Haag-Kastler net on [[Minkowski spacetime]].
+Let $\mathcal{M}(\mathcal{J})$ be a [[AQFT|Haag-Kastler net]] on [[Minkowski spacetime]].
 
 The PCT operator $\Theta$ is an anti-linear automorphism, that is for every local algebra $\mathcal{M}(\mathcal{O})$, elements $A, B \in \mathcal{M}(\mathcal{O})$ and $\lambda \in \mathbb{C}$ we have the relations
 $$
