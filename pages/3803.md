@@ -52,7 +52,7 @@ Here the duality is typically exhibited in two steps:
 
 1. a [[Thom isomorphism]] identified the $R$-cohomology of the Thom space back with that of $X$.
 
-More generally, spaces $X$ are not self-dual in this way, but may at least be dual to themselves but equipped with a [[twisted cohomology|twist]]. This yields the _[[twisted Umkehr maps]]_ in [[twisted cohomology]] (see for instance at [[Freed-Witten-Kapustin anomaly cancellation]]).
+More generally, spaces $X$ are not [[self-dual]] in this way, but may at least be dual to themselves but equipped with a [[twisted cohomology|twist]]. This yields the _[[twisted Umkehr maps]]_ in [[twisted cohomology]] (see for instance at [[Freed-Witten-Kapustin anomaly cancellation]]).
 
 For more on this see at _[[twisted Umkehr map]]_.
 
