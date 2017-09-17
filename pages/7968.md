@@ -28,13 +28,13 @@ $$
 This is because after [[geometric quantization]] of this form the [[observables]] will obey
 
 $$
-  [\hat q, \hat p] = i \omega(\partial_p,\partial_q)
+  [\hat q, \hat p] = i (\omega_{p,q})^{-1}
 $$
 
 and this is supposed to be
 
 $$
-  \cdots = \frac{i}{\hbar}
+  \cdots = i \hbar
   \,.
 $$
 
