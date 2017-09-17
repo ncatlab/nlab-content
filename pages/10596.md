@@ -1,4 +1,16 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Selberg trace formua_ ([Selberg 56](#Selberg56)) is an expression for certain sums of [[eigenvalues]] of the [[Laplace operator]] on a compact hyperbolic [[Riemann surface]] (recalled e.g. as [Bump, theorem 19](#Bump)).
+
+It was introduced as a nonabelian generalization of the [[Poisson summation formula]] (e.g.[Voros-Balasz 86, p. 169](#VorosBalasz86)), thought of as a relation between the eigenvalues of the Laplacian and the lengths of closed [[geodesics]].
+
+It motivates (e.g. [Bump, p.18](#Bump)) the definition of the Selberg [[zeta function of a Riemann surface]].
+
 ## Related concepts
 
 * [[Riemann hypothesis]]
@@ -7,6 +19,19 @@
 
 * [[Arthur-Selberg trace formula]]
 
+* [[Duistermaat-Guillemin trace formula]]
+
+* [[zeta function of a Riemann surface]]
+
 ## References
 
+* {#Selberg56} [[Atle Selberg]], _Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series_, Journal of the Indian Mathematical Society 20 (1956) 47-87.
+
+
+
 * Wikipedia, _[Selberg trace formula](http://en.wikipedia.org/wiki/Selberg_trace_formula)_
+
+
+* {#Bump} Bump, theorem 19 in _Spectral theory of $\Gamma \backslash SL(2,\mathbb{R})$_ ([[BumpSpectralTheory.pdf:file]])
+
+* {#VorosBalasz86} A. Voros and N.L. Balasz, _Chaos on the pseudosphere_, Physics Reports 143 no. 3 (1986)
