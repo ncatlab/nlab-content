@@ -29,7 +29,7 @@ and in 1983 studied further by V. Jones in context of subfactors.
 
 A useful review of Connes fusion observing some simplifications is
 
-* Andreas Thom, _A remark about the Connes fusion tensor product_ ([arXiv](http://arxiv.org/abs/math.OA/0601045))
+* Andreas Thom, _A remark about the Connes fusion tensor product_ ([arXiv:math.OA/0601045](http://arxiv.org/abs/math.OA/0601045))
 
 An attempt to summarize that in a blog entry is [here](http://golem.ph.utexas.edu/string/archives/000718.html)
 
