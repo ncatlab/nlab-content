@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -40,13 +42,60 @@ The abelian phenomenon is reviewed and expanded on in its relation to higher dim
 * table of contents
 {:toc}
 
-## II. Surface operators in abelian gaueg theories
+## II. Surface operators in abelian gauge theories
 
 (...)
 
 ## III. TQFTs for abelian gapped phases
+ {#TQFTsForAbelianGappedPhases}
 
-(...)
+> Here is an observation about how the idea in that section might be formalized. (Due to discussion among Domenico Fiorenza, Hisham Sati, and Urs Schreiber). 
+
+The [[moduli stack]] $\mathbf{B}\mathbb{Z}_n$ of "discrete [[gauge fields]]" for [[gauge group]] $\mathbb{Z}_n$ with $n \in \mathbb{N} $ may be realized as the following [[homotopy fiber]] of smooth moduli stacks of [[circle n-bundle with connection|circle connections]]
+
+$$
+  \array{
+    \mathbf{B}\mathbb{Z}_n &\to& \mathbf{B}U(1)_{conn}
+    \\
+    \downarrow &\swArrow& \downarrow^{\mathrlap{(-)^n}}
+    \\
+    \ast &\stackrel{0}{\to}& \mathbf{B}U(1)_{conn}
+  }
+$$
+
+(in [[Smooth∞Grpd]]). By construction, an element $X \to \mathbf{B}\mathbb{Z}_n$ of this [[homotopy fiber]]  is equivalently
+
+* a 1-form gauge field $\tilde F_A \colon X \to \mathbf{B}U(1)_{conn}$ with local connection 1-form $A$;
+
+* a 0-form gauge field $\phi \colon \tilde F_A \to 0$ trivializing $\tilde F_A$, with local component $\phi$ locally satisfying $d \phi = n A$. 
+
+This data is what motivates the discussion in the article. 
+
+The [[electric-magnetic duality]] may be formulate as a "differential higher [[Pontryagin duality]]"
+
+$$
+  \mathbf{B}^2 \hat \mathbb{Z}_n \simeq [\mathbf{B}\mathbb{Z}_p, \mathbf{B}^3 U(1)_{conn}]
+  \,,
+$$
+
+where $\hat \mathbb{Z}_n \coloneqq [\mathbb{Z}_n, U(1)] \simeq \mathbb{Z}_n$ is the [[Pontryagin dual]] group. 
+
+For this [[moduli infinity-stack|higher moduli stack]] of discrete [[higher gauge theory|higher gauge fields]] we have a local description by smooth data as before: it fits into the [[homotopy fiber sequence]]
+
+$$
+  \array{
+    \mathbf{B}^2\mathbb{Z}_n &\to& \mathbf{B}^2 U(1)_{conn}
+    \\
+    \downarrow &\swArrow& \downarrow^{\mathrlap{(-)^n}}
+    \\
+    \ast &\stackrel{0}{\to}& \mathbf{B}^2 U(1)_{conn}
+  }
+  \,.
+$$
+
+In analogy to the above, this now describes the space of field configurations consisting of a [[circle 2-group]]-[[connection on a 2-bundle|principal 2-connection]] $B$ and a trivialization of its $n$th power by a 1-form connection $A$, i.e. $d A - n B = 0$. 
+
+This one may also understand as the vanishing condition on the 2-form curvature of a [[connection on a 2-bundle|2-connection]]. This is the observation that drives the second part of the article.
 
 ### A. Abelian Higgs phases
 
