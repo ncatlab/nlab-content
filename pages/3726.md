@@ -59,6 +59,8 @@ One adopts the following convenient terminology.
 
 * Every object is $(-2)$-connected.
 
+* A $(-1)$-connected object is also called an [[inhabited object]].
+
 * A 0-connected object is simply called a **connected object**.
 
 Notice that [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] are precisely the $(-1)$-connected morphisms. For more on this see _[[n-connected/n-truncated factorization system]]_.
