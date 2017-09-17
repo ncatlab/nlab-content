@@ -196,6 +196,30 @@ are at least in parts like [[E-∞ algebra]]s.
 This is ([Cranch](#Cranch)), prop. 6.12, theorem 6.13 and section 8.
 
 
+## Examples {#Examples}
+
+### Free algebras
+
+The free algebra over $2Comm$ in [[∞Grpd]] on a single generator is $2Comm(*, -) : 2Comm \to \infty Grpd$. Its underlying [[∞-groupoid]] is therefore
+
+$$
+  2Comm(*,*) = Core(FinSet)
+  \,,
+$$
+
+the [[core]] groupoid of the category [[FinSet]]. This is equivalent to
+
+$$
+  \cdots \simeq \coprod_{n \in \mathbb{N}} \mathbf{B} \Sigma_n
+  \,,
+$$
+
+where $\Sigma_n$ is the [[symmetric group]] on $n$ elements and $\mathbf{B}\Sigma_n$ its one-object [[delooping]] groupoid.
+
+Notice that this is indeed the free [[E-∞-algebra]], on the nose so if we use the [[Barratt-Eccles operad]] $P$ as our model for the [[E-∞-operad]]: that has $P_n = \mathbf{E} \Sigma_n$. The free [[algebra over an operad]] is given by $\coprod_{n \in \mathbb{N}} P_n/\Sigma_n$, which here is $\cdots = \coprod_{n \in \mathbb{N}} \mathbf{E}\Sigma_n/\Sigma_n = \coprod_n \mathbf{B} \Sigma_n$. 
+
+
+
 ## References
 
 * [[James Cranch]], _Algebraic Theories and $(\infty,1)$-Categories_ ([arXiv](http://arxiv.org/abs/1011.3243))
