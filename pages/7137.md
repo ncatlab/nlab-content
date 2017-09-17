@@ -23,6 +23,9 @@ They describe a correspondence between [[representations]] of the [[Weil group]]
 [[local field]] and representations of [[algebraic groups]] over the local field, generalizing 
 local [[class field theory]] from [[abelian group|abelian]] [[Galois groups]] to non-abelian Galois groups.
 
+## Related concepts
+
+* [[global analytic geometry]]
 
 ## References
 
@@ -37,3 +40,6 @@ See also
 (...)
 
 [[!redirects local Langlands conjectures]]
+
+[[!redirects local Langlands program]]
+[[!redirects local langlands program]]
