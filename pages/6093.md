@@ -17,6 +17,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+See at _[cobordism hypothesis -- For non-compact cobordisms](cobordism+hypothesis#ForNoncompactCobordisms)_.
+
 ## Definition
 
 +-- {: .num_defn }
@@ -24,7 +28,7 @@
 
 For $C$ a [[symmetric monoidal (infinity,n)-category|symmetric monoidal (infinity,2)-category]], a **Calabi-Yau object** in $C$ is
 
-* a dualizable object;
+* a [[dualizable object]];
 
 * a morphism $\eta : dim(X) : ev_X \circ coev_X \to Id_x$ in $\Omega_x C$ which is equivariant with respect to the canonical action of the [[circle group]] on $dim(X)$ and which is the [[unit of an adjunction|counit]] for an [[adjunction]] between the [[evaluation map]] $ev_X$ and [[coevaluation map]] $coev_X$.
 
