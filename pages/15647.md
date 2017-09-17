@@ -82,9 +82,9 @@ $$
   \,.
 $$
 
-Via the [[analytic continuation]] involved in defining $\eta_H(0)$ in the first place, this may be thought of as a _regularization_ of the ill-defined  naive definition "prod_n \lambda^n" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _zeta function regularization_.
+Via the [[analytic continuation]] involved in defining $\eta_H(0)$ in the first place, this may be thought of as a _regularization_ of the ill-defined  naive definition "$\prod_n \lambda^n$" of the [[determinant]] of $H$. As such functional determinants often appear in [[quantum field theory]] as what is called _zeta function regularization_.
 
-If $H = D^2$ has a square root $D$ (a [[Dirac operator]]-type square root as in [[supersymmetric quantum mechanics]]) then under some conditions on the growth of the eigenvalies, then the functional determinant may also be expressed in terms of the [[eta function]] of $D$ as
+If $H = D^2$ has a square root $D$ (a [[Dirac operator]]-type square root as in [[supersymmetric quantum mechanics]]) then under some conditions on the growth of the eigenvalues, then the functional determinant may also be expressed in terms of the [[eta function]] of $D$ as
 
 $$
   det H 
@@ -97,7 +97,7 @@ $$
 
 See at _[eta invariant -- Relation to zeta function](eta+invariant#RelationToTheZetaFunction)_ for more on this.
 
-### Relation to parition functions and number-theoretic zeta/theta functions 
+### Relation to partition functions and number-theoretic zeta/theta functions 
  {#AnalogyWithNumberTheoreticZetaFunctions}
 
 By basic [[integration]] identities we have that
@@ -137,7 +137,7 @@ $$
    + 1
 $$
 
-is the _[[partition function]]_ of this system. Accordingly, prop. \ref{IntegralKernelExpression} says that the zeta function of $H$ is obatined from its partition function by
+is the _[[partition function]]_ of this system. Accordingly, prop. \ref{IntegralKernelExpression} says that the zeta function of $H$ is obtained from its partition function by
 
 $$
   \zeta_H(s)
