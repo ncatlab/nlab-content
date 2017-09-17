@@ -9,20 +9,74 @@
 =--
 =--
 
-In the [[internal language]] of a [[category]] a [[morphism]]
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+### In categorical semantics
+
+In the [[internal language]] of a [[category]] $\mathcal{C}$ a [[morphism]]
 
 $$
-  f: B \to A
+  f : B \to A
 $$
+
 
 is a _[[term]]_ $f(x)$ of _[[type]]_ $A$ where $x$ is 
 a **free variable** of _type_ $B$, which in symbols is given by
 
-$$ x\colon B \vdash f(x)\colon A\,. $$
+$$ 
+  x\colon B \vdash f(x)\colon A
+  \,. 
+$$
 
-We may think of the _free variables_ here as being placeholders for all the [[generalized element]]s $U \stackrel{x}{\to} B$ of $B$. Then the assertion $x\colon B \vdash f(x)\colon A$ indicates that with $B \stackrel{f}{\to} A$ given we may send $U \stackrel{x}{\to} B$ to the [[composition]] $(U \stackrel{x}{\to} B \stackrel{f}{\to}A ) = (U \stackrel{f(x)}{\to} A)$.
+We may think of the _free variables_ here as being placeholders for all the [[generalized elements]] 
+$U \stackrel{x}{\to} B$ of $B$. 
+
+
+
+Then the assertion 
+
+$$
+  x\colon B \vdash f(x)\colon A
+$$ 
+
+indicates that with $B \stackrel{f}{\to} A$ given we may send $U \stackrel{x}{\to} B$ to the [[composition]] 
+
+$$
+  (U \stackrel{x}{\to} B \stackrel{f}{\to}A ) = (U \stackrel{f(x)}{\to} A)
+  \,.
+$$
+
+A free variable becomes a [[bound variable]] after application of a [[quantifier]]: for instance the image of $f : P \to X$ under [[base change]]
+
+$$
+  \mathcal{C}_{/A} \stackrel{\to}{\stackrel{\leftarrow}{\to}}
+  \mathcal{C}
+$$
+
+represents, for the [[left adjoint]] the [[type]] 
+
+$$
+  \exists x : X , P(x)
+$$
+
+([[existential quantifier]]), and the the [[right adjoint]] the type
+
+$$
+  \forall x : X , P(x)
+$$
+
+([[universal quantifier]]) in which now $x$ is a **bound variable**.
+
 
 [[!redirects variables]]
 
 [[!redirects free variable]]
 [[!redirects free variables]]
+
+[[!redirects bound variable]]
+[[!redirects bound variables]]
+
