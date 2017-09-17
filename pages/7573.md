@@ -1,3 +1,4 @@
+This is a subentry of _[[sheaf]]_.
 
 ## Idea
 
@@ -9,7 +10,38 @@ $$
   \,.
 $$
 
-For the moment see at _[[sheaf]]_ for more...
+## Definition
+
++-- {: .num_defn #PlusConstruction}
+###### Definition
+
+Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^{op}\to Set$ be a functor. Then the _plus construction (functor)_ $+$ reps. the _plus construction_ $A^+$ _of_ $A$ is defined by one of following equivalent descriptions:
+
+1. $A^+:U\mapsto colim_{(R\to U)\in J(U)}A(R)$ where $J(U)$ denotes the poset of $J$-covering [[sieve|sieves]] on $U$.
+
+
+1. Let $A:C^{op}\to Set$ be a functor. Then for $U\in C^{op}$we define $A^+(U)$ to be an [[equivalence class]] of pairs $(R,s)$ where $R\in J(U)$ and $s=(s_f\in A(dom f)|f\in R)$ is a [[matching family|compatible family]] of elements of $A$ relative to $R$, and $(R,s)\sim (R^\prime,s^\prime)$ iff there is a $J$-covering sieve $\R^{\prime \prime}\subseteq R\cap R^\prime$ on which the restrictions of $s$ and $s^\prime$ agree.
+
+1. $A^+:U\mapsto colim_{(V\hookrightarrow U)\in V}A(V)$ where $W$ denotes the class $W:=(f^*)^{-1}Core(Sh(C)_1)$ of those morphisms in $PSh(C)$ which are sent to isomorphisms by the sheafification functor $f^*$ and the colimit is taken over all [[dense monomorphism|dense monomorphisms]] only. 
+
+
+
+=--
+
+## Properties
+
++-- {: .num_remark}
+###### Remark
+
+1. $+:A\mapsto A^+$ is a functor.
+
+1. $A^+$ is a functor.
+
+1. $A^+$ is a separated presheaf.
+
+1. If $A$ is separated then $A^+$ is a sheaf.
+
+=--
 
 ## References
 
