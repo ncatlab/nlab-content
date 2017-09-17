@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A _natural isomorphism_ $\eta : F \Rightarrow G$ between two [[functor]]s $F$ and $G$
 
 $$
@@ -20,5 +37,11 @@ is equivalently
 
 
 If you want to speak of [[the]] functor satisfying certain conditions, then it should be unique up to unique natural isomorphism.
+
+## Related concepts
+
+* **natural isomorphism**
+
+* [[natural equivalence]]
 
 [[!redirects natural isomorphisms]]
