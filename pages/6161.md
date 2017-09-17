@@ -33,7 +33,7 @@ Let $R$ be a [[ring]] which is a [[principal ideal domain]] and write $\mathcal{
 
 For $N_1, N_2 \in R Mod$ two [[modules]], write $N_1 \otimes N_2 \in R Mod$ for their [[tensor product of modules]]. Similarly for $C_\bullet, C'_\bullet \in Ch_\bullet(R Mod)$ two [[chain complexes]] of $R$-modules, write $(C \otimes_R C')_\bullet$ for their [[tensor product of chain complexes]]. Finally write $Tor^R_1(N_1,N_2)$ for the first [[Tor]]-module of $N_1$ with $N_2$.
 
-+-- {: .num_theorem }
++-- {: .num_theorem #InordinaryHomology}
 ###### Theorem
 
 For $R$ a [[principal ideal domain]], given a [[chain complex]] $C_\bullet \in Ch_\bullet(R Mod)$ of [[free modules]] over $R$ and given any other chain complex $C'_\bullet \in Ch_\bullet(R Mod)$, then for each $n \in \mathbb{N}$ there is a [[short exact sequence]] of the form
@@ -67,8 +67,29 @@ In the special case that $C'$ is concentrated in degree 0, this is the [[univers
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+In particular if all the [[Tor]]-groups on the right vanish, then the theorem asserts an [[isomorphism]]
+
+$$
+   \oplus_k \left(
+     H_k\left(C_\bullet\right) \otimes_R H_{n-k}\left(C'_\bullet\right)
+   \right)
+     \stackrel{\simeq}{\to}
+   H_n\left(
+     C_\bullet \otimes_R C'_\bullet
+   \right)
+  \,.
+$$  
+
+This is the case (assuming the [[axiom of choice]]) notably if $R$ is a [[field]] (since every module over a field is a [[free module]] -- every  [[vector space]] has a [[basis of a free module|basis]] -- and every free module is a [[flat module]]).
+
+=--
+
 +-- {: .proof}
 ###### Proof 
+**of theorem \ref{InordinaryHomology}**
 
 Notice that since $C_k$ is assumed to be free, hence a [[direct sum]] of $R$ with itself, since the [[tensor product of modules]] distributes over direct sums, and since [[chain homology]] respects direct sums, we have
 
