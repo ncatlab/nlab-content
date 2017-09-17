@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Alexander_Markovich_Polyakov)
+
+category: people
