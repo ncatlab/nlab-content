@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -13,82 +17,173 @@
 * table of contents
 {: toc}
 
+## Idea
+
+For $X$ a [[simplicial set]] its _category of simplices_ is the [[category]] whose [[objects]] are the [[simplices]] _in_ $X$ and whose [[morphisms]] are maps between these, as simplices in $X$.
+
+In particular the [[subcategory]] on the non-degenerate simplices has a useful interpretation: it is the [[poset]] of subsimplex inclusions whose [[nerve]] is the [[barycentric subdivision]] of $X$.
+
 ## Definition
 
-### Category of simplices
+Let $X \in $ [[sSet]] be a [[simplicial set]].
 
-The **category of simplices** of a [[simplicial set]] $X_\bullet : \Delta^{op} \to Set$ is the [[category of elements]] of the [[presheaf]] $X_\bullet$. 
++-- {: .num_defn}
+###### Definition
 
-In more detail, the category of simplices is the [[comma category]] $(\Delta\downarrow X)$, where $\Delta$ denotes the [[Yoneda embedding]] $[n] \mapsto \Delta^n$.
+The **category of simplices** of is equivalently (in increasing order of explicitness)
 
-The [[object]]s of the category of simplices are therefore morphisms $c : \Delta^n \to X$ from a standard simplicial [[simplex]] $\Delta^n$ to $X$, hence are $n$-cells of $X$, while morphisms $c \to c'$ are morphisms $f : \Delta^n \to \Delta^{n'}$ in the [[simplex category]] $\Delta$ such that
+* the [[category of elements]] of the [[presheaf]] $X_\bullet : \Delta^{op} \to Set$;
+
+* the [[comma category]] $(\Delta\downarrow X)$, where $\Delta$ denotes the [[Yoneda embedding]] $[n] \mapsto \Delta^n$.
+
+* the [[category]] whose [[objects]] are [[homomorphisms]] of simplicial sets $c : \Delta^n \to X$ from a standard simplicial [[simplex]] $\Delta^n$ to $X$, and whose morphisms $c \to c'$ are morphisms $f : \Delta^n \to \Delta^{n'}$ in the [[simplex category]] $\Delta$ such that the [[diagram]]
+
+  $$
+    \array{ 
+      \Delta^n &&\stackrel{f}{\to}&& \Delta^{n'}
+      \\
+      & {}_{c}\searrow && \swarrow_{c'}  
+      \\
+      && X
+    }
+  $$
+ 
+  [[commuting diagram|commutes]].
+
+=--
+
++-- {: .num_defn #BarycentricSubdivision}
+###### Definition
+  
+
+An $n$-[[simplex]] $x\in X_n$ is said to be *nondegenerate* if it is not in the image of any degeneracy map.  
+
+Write 
 
 $$
-  \array{ 
-    \Delta^n &&\stackrel{f}{\to}&& \Delta^{n'}
-    \\
-    & {}_{c}\searrow && \swarrow_{c'}  
-    \\
-    && X
-  }
-  \,.
-$$
+  (\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)
+$$ 
 
-### Category of nondegenerate simplices
+for the [[subcategory]] on the nondegenerate simplices with [[monomorphisms]] between them.
 
-An $n$-[[simplex]] $x\in X_n$ is said to be *nondegenerate* if it is not in the image of any degeneracy map.  When $x$ is regarded, via the 
-[[Yoneda lemma]], as a morphism $\Delta^n \to X$, this means that this morphism is a [[monomorphism]] of simplicial sets.
+This is called the **category of non-degenerate simplices**.
 
-Therefore, the [[full subcategory]] $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ on the nondegenerate simplices consists of the monomorphisms $\Delta^n \hookrightarrow X$.  Note that the morphisms in this subcategory are only the coface maps.
+The [[nerve]] $N((\Delta \downarrow X)_{nondeg})$ is also called the **[[barycentric subdivision]]** of $X$.
 
-Now the [[presheaf topos]] [[sSet]] has [[image]] factorization, and the image of a map $x\colon \Delta^n \to X$ is the map $\Delta^k \to X$ that represents the unique nondegenerate simplex of which $x$ is a degeneracy.  It follows that this factorization is a [[left adjoint]] to the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$, so that $(\Delta\downarrow X)_{nondeg}$ is a [[reflective subcategory]].
+=--
 
-In particular, the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ is a [[final functor]], in fact even a [[homotopy final functor]].  Thus, the above colimits that compute cocontinuous functors on $SSet$ work equally well using only the category of nondegenerate simplices.
+
 
 ## Properties
 
 ### General
 
-* The category of simplices is a [[Reedy category]].
++-- {: .num_prop}
+###### Proposition
 
-* The [[full subcategory]] inclusion of the non-degenerate simplices is a [[homotopy cofinal functor]] (see there).
+The category of simplices is a [[Reedy category]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The inclusion of the non-generate simplices $(\Delta \downarrow X)_{nondeg} \hookrightarrow (\Delta \downarrow X)$ has a [[left adjoint]] and is hence a [[reflective subcategory]].
+
+=--
+
+
+### Colimits
+
+Write $(\Delta \downarrow X) \to sSet$ for the canonical functor
+that sends $(\Delta^n \to X)$ to $\Delta^n$.
+
++-- {: .num_prop #ColimitOverSimplicesOfXIsX}
+###### Proposition
+
+The [[colimit]] over the [[functor]] $(\Delta \downarrow X) \to sSet$ is $X$ itself
+
+$$
+  X \simeq \underset{\to}{\lim}((\Delta \downarrow X) \to sSet)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[co-Yoneda lemma]].
+
+=--
+
+In the textbook literature this appears for instance as ([Hovey, lemma 3.1.3](#Hovey)).
+
++-- {: .num_cor}
+###### Corollary
+
+A colimit-preserving [[functor]] $F\colon sSet \to C$ is uniquely determined by its action on the standard simplices:
+$$ F(X) \cong colim_{(\Delta\downarrow X)} F(\Delta^\bullet). $$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Important colimit-preserving functors out of [[sSet]] include
+
+* [[geometric realization]] of simplicial sets
+* [[subdivision]] of simplicial sets
+* the [[left adjoint]] to the [[nerve]] functor $N:Cat \to SSet$
+* the category of simplices itself, as a functor $SSet \to Cat$; see [category of elements -- colimit preserving](category+of+elements#ColimitPreserving).
+
+=--
 
 ### The nerve and subdivision
 
-Let $N\colon Cat \to SSet$ denote the simplicial [[nerve]] functor on [[Cat]].
+Let $N\colon$ [[Cat]] $\to$ [[sSet]] denote the simplicial [[nerve]] functor on [[categories]].
 
 +-- {: .num_theorem}
 ###### Theorem
-The functor $X\mapsto N(\Delta\downarrow X)$ from $SSet\to\SSet$ preserves [[colimits]].
+
+The functor $sSet \to sSet$ that assigns [[barycentric subdivision]], def. \ref{BarycentricSubdivision},
+
+$$
+  X\mapsto N(\Delta\downarrow X)
+$$ 
+
+preserves [[colimits]].
+
 =--
 +-- {: .proof}
 ###### Proof
-An $n$-simplex of $N(\Delta\downarrow X)$ is determined by a string of $n+1$ composable morphisms
+
+An $n$-[[simplex]] of $N(\Delta\downarrow X)$ is determined by a string of $n+1$ composable morphisms
 $$ \Delta^{k_n} \to \dots\to \Delta^{k_0} $$
 along with a map $\Delta^{k_0} \to X$, i.e. an element of $X_{k_0}$
 Thus, each the functor $X\mapsto N(\Delta\downarrow X)_n$ from $SSet \to Set$ is a coproduct of a family of "evaluation" functors.
 Since evaluation preserve colimits, coproducts commute with colimits, and colimits in $SSet$ are levelwise, the statement follows.
+
 =--
 
 Therefore, the simplicial set $N(\Delta\downarrow X)$ itself can be computed as a colimit over the category $(\Delta\downarrow X)$ of the simplicial sets $N(\Delta\downarrow \Delta^n)$.
 
-## Applications
-
-By the [[co-Yoneda lemma]], every simplicial set is isomorphic to the colimit of the standard simplices over its category of simplices:
-$$ X \cong colim_{(\Delta\downarrow X)} \Delta^\bullet $$
-Therefore, a colimit-preserving [[functor]] $F\colon SSet \to C$ is uniquely determined by its action on the standard simplices:
-$$ F(X) \cong colim_{(\Delta\downarrow X)} F(\Delta^\bullet). $$
-Examples abound:
-
-* [[geometric realization]] of simplicial sets
-* [[subdivision]] of simplicial sets
-* the left adjoint to the [[nerve]] functor $N:Cat \to SSet$
-* the category of simplices itself, as a functor $SSet \to Cat$; see [here](/nlab/show/category+of+elements#ColimitPreserving).
 
 
 
+## References
 
+A basic disussion is for instance in section 3.1 of 
 
+* [[Mark Hovey]], _Model categories_, Mathematical surveys and monographs volume 63, American Mathematical Society
+
+Homotopy finality of the non-degenerate simplices is discussed in section 4.1 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
+
+For more on [[barycentric subdivision]] see also section 2 of
+
+* [[Rick Jardine]], _Simplicial approximation_, Theory and Applications of Categories, Vol. 12, 2004, No. 2, pp 34-72. ([web](ftp://ftp.math.ethz.ch/EMIS/journals/TAC/volumes/12/2/12-02aabs.html))
 
 [[!redirects categories of simplices]]
 [[!redirects category of nondegenerate simplices]]
