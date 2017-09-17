@@ -75,6 +75,14 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 
 * [[Day convolution]]
 
+### Enriched functors
+
+* [[enriched functor]]
+
+* [[strong functor]]
+
+* [[closed functor]], [[cartesian closed functor]]
+
 ### Generalizations of monoidal categories
 
 * [[multicategory]]
