@@ -1,8 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The **formality theorem** by [[Maxim Kontsevich]] (arXiv 1997) states that there is an [[L-∞-algebra]] [[quasi-isomorphism]] from the [[dg-Lie algebra]] of [[polyvector field]]s (with zero differential and [[Schouten-Nijenhuis bracket]]) to the [[dg-Lie algebra]] of the shifted [[Hochschild cohomology|Hochschild cochain complex]] (with Hochschild differential and Gerstenhaber bracket), whose first Taylor coefficient is the [[Hochschild-Kostant-Rosenberg theorem|HKR]] quasi-isomorphism.
 
 Tamarkin alternatively proves the formality of the [[little disks operad]] (see also Kontsevich 1999) and proves that it implies the Kontsevich formality. 
 
 The Kontsevich formality theorem implies that every [[Poisson manifold]] has a canonical [[deformation quantization]].
+
+## Related entries
+
+* [[deformation quantization]], [[Grothendieck-Teichmüller group]]
+
+* [Hochschild cohomology -- Differential calculus](Hochschild+cohomology#DifferentialCalculus).
 
 ## References
 
