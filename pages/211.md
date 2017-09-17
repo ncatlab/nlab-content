@@ -1,4 +1,3 @@
-
 # The Anonymous Coward
 * table of contents
 {: toc}
