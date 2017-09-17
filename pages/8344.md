@@ -1,0 +1,10 @@
+* [webpage](http://www.renyi.hu/~szamuely/)
+
+
+##Publications
+
+include
+
+* _Galois Groups and Fundamental Groups_, Cambridge Studies in Advanced Mathematics, vol. 117, Cambridge University Press, 2009. 
+
+category:people
