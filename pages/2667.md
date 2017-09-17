@@ -240,7 +240,7 @@ $i: FinVect \to C$, up to symmetric monoidal linear isomorphism.
 
 Next we explain how given an object $X \in C$, any Young symmetrizer in $k[S_n]$ acts as an idempotent on $X^{\otimes n}$.   
 
-For this we only need to know a little bit about the group algebra $k[S_n]$, which we recall here.  By Maschke's theorem, for any finite group $G$, the [[group algebra]] $k[G]$ decomposes as a direct sum of matrix algebras 
+For this we only need to know a little bit about the group algebra $k[S_n]$, which we recall here.  By [[Maschke's theorem]], for any finite group $G$, the [[group algebra]] $k[G]$ decomposes as a direct sum of matrix algebras 
 
 $$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
 
