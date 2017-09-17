@@ -1,0 +1,69 @@
+
+# $\mathcal{M}$-categories
+* table of contents
+{: toc}
+
+## Idea
+
+An $\mathcal{M}$-category is a [[category]] with two classes of [[morphisms]]: *tight* and *loose*.
+
+The [[categorification]] of the concept of $\mathcal{M}$-category to $2$-[[2-category|categories]] is the concept of $\mathcal{F}$-[[F-category|category]].
+
+
+## Definitions
+
+Let $\mathcal{M}$ be the [[cartesian monoidal category]] whose [[objects]] are [[injections]] ([[monomorphisms]] in the [[category of sets]]) and whose [[morphisms]] are [[commutative squares]].  Then a ([[locally small category|locally small]]) __$\mathcal{M}$-category__ is simply a [[category enriched]] over $\mathcal{M}$.
+
+In more detail, an __$\mathcal{M}$-category__ consists of the following data:
+* a [[class]] of __[[objects]]__;
+* for each pair $x, y$ of objects, a [[set]] $L(x,y)$ of __loose [[morphisms]]__;
+* for each pair $x, y$ of objects, a [[subset]] $T(x,y)$ of $L(x,y)$ of __tight morphisms__;
+* for each object $x$, a tight __[[identity morphism]]__ $id_x$; and
+* for each triple $x, y, z$ of objects, a [[binary operation]] __[[composition]]__ $\circ_{x,y,z}$ from $L(y,z)$ and $L(x,y)$ to $L(x,z)$ such that:
+  * $f \circ g$ is tight whenever $f, g$ are;
+  * $\id_y \circ f = f = f \circ \id_x$ whenever this makes sense; and
+  * $(f \circ g) \circ h = f \circ (g \circ h)$ whenever this makes sense.
+
+Equivalently, an __$\mathcal{M}$-category__ is a [[category]] of objects and __loose__ morphisms together with a [[wide subcategory]] of __tight__ morphisms.
+
+
+## Examples
+
+*  Every $\dagger$-[[dagger-category|category]] is an $\mathcal{M}$-category in which the tight morphisms are the [[unitary isomorphisms]].  In particular, [[Hilbert spaces]] form an $\mathcal{M}$-category with [[unitary operators]] as tight morphisms.
+
+*  A more interesting way to make Hilbert spaces into an $\mathcal{M}$-category [[Hilb]] uses (as in the $\dagger$-category $Hilb$) all bounded [[linear operators]] as loose morphisms but only [[short map|short]] linear operators (those with norm at most $1$) as tight morphisms.  This gives the same tight isomorphisms as the $\dagger$-category $Hilb$ (but also has non-invertible tight morphisms).
+
+*  Similarly, [[Ban]] (the category of [[Banach spaces]]) is an $\mathcal{M}$-category with all bounded linear operators as loose morphisms but only short linear operators as tight morphisms.  In [[functional analysis]], a loose isomorphism in $Ban$ is traditionally called an '[[norm isomorphism|isomorphism]]' while a tight isomorphism is called a '[[global isometry]]'.
+
+*  We can make [[Met]] (the category of [[metric spaces]]) into an $\mathcal{M}$-category is several ways, with [[short maps]] contained in [[Lipschitz map]]s contained in [[uniformly continuous map]]s contained in [[continuous map]]s; we can also take Lipschitz maps contained in [[bounded maps]].  (For linear operators between Banach spaces, the continuous and bounded operators are the same and are already Lipschitz.)
+
+*  Any [[strict category]] is an $\mathcal{M}$-category with [[equality|equalities]] as the tight morphisms.  (Thus the wide subcategory of tight morphisms is [[skeletal category|skeletal]].)  In particular, the [[category of sets]] (or any category) in [[material set theory]] is an $\mathcal{M}$-category.
+
+*  A more interesting way to make [[material set theory]]\'s [[category of sets]] into an $\mathcal{M}$-category has all [[subset]] inclusions as tight morphisms.  Again the tight isomorphisms are simply the equalities.
+
+*  Given any category $C$ and object $a$ of $C$, the [[subobjects]] of $a$ form an $\mathcal{M}$-category whose category of loose morphisms is the [[full subcategory]] of $C$ on the subobjects of $a$ and whose category of tight morphisms is the [[subobject poset]] of $a$.
+
+*  Similarly, [[quotient objects]] form an $\mathcal{M}$-category.
+
+*  The __[[core]]__ of every category $C$ is an $\mathcal{M}$-category whose loose morphisms are the morphisms of $C$ and whose tight morphisms are the [[isomorphisms]] of $C$.
+
+*  $\mathcal{M}$ itself is an $\mathcal{M}$-category whose objects are sets, whose tight morphisms are injections, and whose loose morphisms are functions.
+
+*  Given any [[faithful functor]] $F\colon C \to D$, we may make $C$ into an $\mathcal{M}$-category whose tight morphisms are the original morphisms of $C$ and whose loose morphisms from $x$ to $y$ are the $D$-morphisms from $F(x)$ to $F(y)$.  This includes all of the examples above; up to [[equivalence of categories|equivalence]], this includes all examples.
+
+
+## References
+
+$\mathcal{M}$-categories are discussed as $Subset$-categories (thinking of $\mathcal{M}$ as the category of [[subset]] inclusions) in
+
+*  [[John Power]] (2002), Premonoidal categories as categories with algebraic structure, Theoretical Computer Science 278, [pdf](http://www.inf.ed.ac.uk/publications/online/0413.pdf).
+
+We discussed them in the [[nlabmeta:n-Forum]] as part of a discussion of the category of [[Banach spaces]]:
+
+*  [[Mark Meckes]] et al (2011), Banach space, n-Forum, [web](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3289).
+
+
+[[!redirects M-category]]
+[[!redirects M-categories]]
+[[!redirects Subset-category]]
+[[!redirects Subset-categories]]
