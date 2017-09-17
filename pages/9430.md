@@ -1,0 +1,5 @@
+Persistent homology is a homology adapted to computational context. It keeps track of homology classes which stay persistent when the approximate image of a space gets refined to higher resolutions.  
+
+* Robert MacPherson, Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012); [doi](http://dx.doi.org/10.1063/1.4737391)
+
+category: topology
