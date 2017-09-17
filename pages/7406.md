@@ -24,7 +24,7 @@ $$
   \,.
 $$
 
-**Note:** The word "types" here has nothing to do with [[type theory]].  Instead, it is apparently a reference to the notion of [type in model theory](http://en.wikipedia.org/wiki/Type_%28model_theory%29)
+**Note:** The word "types" here has nothing to do with [[type theory]].  Instead, it is apparently a reference to the notion of [[type (in model theory)|type in model theory]].
 
 ## Properties
 
