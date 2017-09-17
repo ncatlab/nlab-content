@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Every [[spectrum]] $K$ is the coefficient object of a [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[cohomology theory]] and dually of a _generalized homology_ theory.
+
+For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordinary homology]]
+
+
+## References
+
+Original articles include
+
+* [[George Whitehead]], _Generalized homology theories_  (1961)
+
+See also
+
+* [[Friedrich Bauer]], _Classifying spectra for generalized homology theories_ Annali di Maternatica pura ed applicata
+(IV), Vol. CLXIV (1993), pp. 365-399 
+
+* [[Friedrich Bauer]], _Remarks on universal coefficient theorems for generalized homology theories_ Quaestiones Mathematicae
+Volume 9, Issue 1 & 4, 1986, Pages 29 - 54 
