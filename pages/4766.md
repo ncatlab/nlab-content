@@ -36,13 +36,13 @@ $$
 
 Let $\mathbf{T}$ be the [[category]] defined as follows:
 
-* [[Objects]] are defined by triples of data $t \coloneqq (n,t_+,t_-)$, which are [[partition]]s of the sets $\{i\}_{1\leq i\leq n}$ for $n\geq 0$ into two disjoint subsets $t_+$ and $t_-$.
+* [[Objects]] are defined by triples of data $t \coloneqq (n,t_+,t_-)$, which are [[partition]]s of the sets $\{i\}_{1\leq i\leq n}$ for $n\geq 0$ into two disjoint subsets $t_+$ and $t_-$. (The corresponding zigzag diagram has nodes $t_0, \ldots, t_n$, and the arrow between $t_{i-1}$ and $t_i$ points forward to $t_i$ if $i \in t_+$, and backward if $i \in t_-$.) 
 
 * [[Morphisms]] are [[monotone maps]] preserving the partitions.  
 
 We will call $\mathbf{T}$ the __zigzag category__, or the __category of zigzag types__.
 
-Also, notice that we have cleverly hidden the [[empty set]] among the objects.  We pat ourselves on the backs for doing this.
+Also, notice that we have cleverly hidden the [[empty set]] among the objects.  We pat ourselves on the backs for doing this. (Here the zigzag type consists of a single node.) 
 
 
 ## Applications
