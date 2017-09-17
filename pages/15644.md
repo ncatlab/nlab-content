@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _Dirichlet L-functions_ are a kind of [[L-function]] with induced by [[Dirichlet characters]]  (e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11)).
+The _Dirichlet L-functions_ are a kind of [[L-function]] wich is induced by [[Dirichlet characters]]  (e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11)).
 
 In terms of the [[adelic integral]] representation of L-functions via [[Iwasawa-Tate theory]], given a [[Dirichlet character]] $\chi$ then the corresponding Dirichlet L-functions are simply the [[adelic integrals]] (e.g. [Garrett 11, section 2.2](#Garrett11))
 
@@ -14,7 +25,11 @@ $$
 $$
 
 for suitable Schwartz functions $f$ on the [[idele group]].
+
 Where [[Dirichlet characters]] (see there) are essentially [[automorphic forms]] for the [[idele group]] (hence for $n = 1$) the generalization to automorphic forms for $n \geq 1$ is the concept of _[[automorphic L-function]]_.
+
+The differential geometric analog of a Dirichlet-L function is the _[[eta function]]_ (see there for more) of a differential operator.
+
 
 ## Related concepts
 
