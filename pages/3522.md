@@ -255,6 +255,10 @@ This is from the [report](http://www.mfo.de/programme/schedule/2004/14/OWR_2004_
 
 ## References
 
+An overview for a workshop
+
+* [Functor Calculus and Operads](http://www.birs.ca/events/2011/5-day-workshops/11w5058)
+
 An introductory article is
 
 * [[Brian Munson]], _Introduction to the manifold calculus of Goodwillie-Weiss_ ([arXiv:1005.1698](http://uk.arxiv.org/abs/1005.1698))
