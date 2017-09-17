@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+## Related concepts
+
+* [[universe polymorphism]]
+
+## References
+
+* Solomon Feferman, _Typical ambiguity: Trying to have your cake and eat it too_
+
+
