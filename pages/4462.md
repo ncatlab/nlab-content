@@ -14,3 +14,5 @@ category: people
 [[!redirects Anatoliy Širšov]]
 [[!redirects Anatolii Shirshov]]
 [[!redirects Anatoliy Shirshov]]
+[[!redirects Anatolij Širšov]]
+[[!redirects Anatolij Illarionovič Širšov]]
