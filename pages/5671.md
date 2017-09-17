@@ -17,9 +17,15 @@
 * table of contents
 {:toc}
 
+## Idea
+
+An [[(∞,n)-category with adjoints]] and a [[dual object]] for every [[object]].
+
 ## Definition
 
-+-- {: .un_def }
+
+
++-- {: .num_def }
 ###### Definition
 
 Let $C$ be an [[(∞,n)-category]]. We say that
