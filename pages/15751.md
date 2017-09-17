@@ -78,3 +78,5 @@ is commutative, where $n(f)$, the name of $f$, obtains via adjointness from $k\o
 * K. A. Rowe, _Nuclearity_ , Canad.Math.Bull. **31**  no.2 (1988) pp.227-235. ([pdf](http://cms.math.ca/cmb/v31/cmb1988v31.0227-0235.pdf))
 
 * G. N. Raney, _Tight Galois Connections and Complete Distributivity_ , Trans.Amer.Math.Soc **97** (1960) pp.418-426. ([pdf](http://www.ams.org/journals/tran/1960-097-03/S0002-9947-1960-0120171-3/S0002-9947-1960-0120171-3.pdf))
+
+[[!redirects nuclear objects]]
