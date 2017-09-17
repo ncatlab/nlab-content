@@ -3,19 +3,22 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Higher algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
 # Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
+
+## Disambiguation
+
+For derivations in [[logic]], see [[deduction]].
+
 
 ## Definitions
-
 
 ### Derivations on an algebra
 
