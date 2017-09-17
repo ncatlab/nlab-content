@@ -126,6 +126,14 @@ The characterization of final functors is also a special case of the characteriz
   In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.
 
 
+## Related concepts
+
+* **final functor**
+
+* [[homotopy final functor]]
+
+* [[final (∞,1)-functor]]
+
 
 ## References
 
