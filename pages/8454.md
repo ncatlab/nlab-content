@@ -20,3 +20,5 @@ category: software
 [[!redirects Edinburgh Logical Framework]]
 [[!redirects Edinburgh logical framework]]
 [[!redirects ELF]]
+
+[[!redirects LF]]
