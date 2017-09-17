@@ -95,7 +95,7 @@ This is [[Higher Topos Theory|HTT, example. 7.2.1.2]].
 +-- {: .proof}
 ###### Proof
 
-An object $X \in \mathcal{X}$ is $(-1)$-[[connected]]/0-[[connected]] if the morphism $X \to *$to the [[terminal object in an (∞,1)-category]] is. This is the case if it is an [[effective epimorphism]]. 
+An object $X \in \mathcal{X}$ is $(-1)$-[[connected]] if the morphism $X \to *$to the [[terminal object in an (∞,1)-category]] is. This is the case if it is an [[effective epimorphism]]. 
 
 Since the [[global section]] [[(∞,1)-functor]] is corepresented by the terminal object, $X$ is 0-connective precisely if $\Gamma(X) \to \Gamma(*) = *$ is an epimorphism on connected components. By the discussion at [[effective epimorphism]], this is the case precisely if $\Gamma(X) \to *$ is an effective epimorphism in [[∞Grpd]].
 
