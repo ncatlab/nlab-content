@@ -1,0 +1,27 @@
+
+
+**[[linear algebra]]**, **[[higher linear algebra]]**
+
+## Ingredients
+
+* [[algebra]], [[higher algebra]], 
+
+* [[homological algebra]], [[stable homotopy theory]]
+
+## Basic concepts
+
+* [[ring]], [[A-∞ ring]]
+
+* [[commutative ring]], [[E-∞ ring]]
+
+* [[module]], [[∞-module]], [[(∞,n)-module]]
+
+* [[field]], [[∞-field]]
+
+* [[vector space]]
+
+* [[linear map]], [[antilinear map]], [[eigenspace]], [[eigenvalue]]
+
+## Theorems
+
+(...)
