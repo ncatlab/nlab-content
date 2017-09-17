@@ -25,7 +25,7 @@ A __tripos__ is a [[first-order hyperdoctrine|first-order hyperdoctrine with equ
 
 The notion of tripos, due to [[Andrew Pitts]], is useful for giving a unified account of two very different classes of toposes: [[localic topos|localic toposes]] and [[realizability topos|realizability toposes]]. 
 
-The name 'tripos' is to be credited to [[Peter Johnstone]], who was the thesis advisor of Pitts. It can be read as an acronym for "Topos Representing Indexed Partially Ordered Set", but it is memorable also as a pun, referring to a famous examination at Cambridge University where Johnstone and [[Martin Hyland|Hyland]] work. 
+The name 'tripos' is to be credited to [[Peter Johnstone]], who was the thesis advisor of Pitts. It can be read as an acronym for "Topos Representing Indexed Partially Ordered Set", but it is memorable also as a pun, referring to a famous examination at Cambridge University where Pitts, Johnstone, and [[Martin Hyland|Hyland]] work. 
 
 ## Definition 
 
@@ -114,6 +114,7 @@ In the case of a [realizability tripos](#PCA) associated with a PCA $A$, this co
 
 Before we undertake a conceptual analysis of this theorem, we give in the next section some details for the tripos attached to a complete Heyting algebra, described [here](#Heyt). The description of the resulting topos coincides with that of [[Denis Higgs|Higgs]], in his treatment of localic toposes in terms of Boolean-valued or Heyting-valued set theory (a la Scott and Solovay). 
 
+
 ### Relation to $H$-valued sets
 
 Consider the tripos $T = T_H$ obtained from a complete Heyting algebra $H$ ([example 2](#Heyt)), or more exactly the bicategory of relations obtained from this. Let us describe explicitly the bicategory obtained by splitting the PERs: 
@@ -128,7 +129,7 @@ $$e_X(x', x) \wedge r(x, y) \leq r(x', y), \qquad r(x, y) \wedge e_Y(y, y') \leq
 The condition $r \leq r \circ e_X$ means 
 $$r(x, y) \leq \bigvee_{x' \in X} e_X(x, x') \wedge r(x', y)$$ 
 but since $e_X$ is symmetric and transitive, we have 
-$$\bigvee_{x' in X} e_X(x, x') \wedge r(x', y) = \bigvee_{x'} e_X(x, x') \wedge e_X(x, x') \wedge e_X(x', x) \wedge r(x', y) \leq \bigvee_{x'} e_X(x, x') \wedge e(x', x) \leq e(x, x)$$ 
+$$r(x, y) \leq \bigvee_{x' \in X} e_X(x, x') \wedge r(x', y) = \bigvee_{x'} e_X(x, x') \wedge e_X(x', x) \wedge r(x', y) \leq \bigvee_{x'} e_X(x, x') \wedge e(x', x) \leq e(x, x)$$ 
 so that in fact we have $r(x, y) \leq e_X(x, x)$. Similarly we have $r(x, y) \leq e(y, y)$, and these two conditions conversely imply $r \leq r \circ e_X$, $r \leq e_Y \circ r$, as may be easily checked. 
 
 Such morphisms $r$ are called _relations between $H$-valued sets_. Such relations in $Split_{per}(Rel_T)$ may be composed just as they are in $Rel_T$, and if $r$ is an $H$-valued relation, so is $r^\dagger$. On the other hand, as described at [[Karoubi envelope]], the identity from $(X, e)$ to itself is given by the relation $e$ (clearly the identity $1_X$ doesn't work!). The result $Split_{per}(Rel_T)$ is also a bicategory of relations (although, as we will eventually see, much more is true). 
@@ -198,4 +199,4 @@ The two steps are as follows, starting with a bicategory of relations (or perhap
 
 [[!redirects triposes]] 
 
-[^fine]: In fact one may "quantify" along any term = morphism in the base category $C_T$, i.e., each $Pred_T(f)$ has a left adjoint and a right adjoint, merely if we assume this of the projection maps and if we assume an appropriate [Frobenius law](http://ncatlab.org/nlab/show/Frobenius+reciprocity#frobenius_laws_and_frobenius_reciprocity_11), as one generally does for first-order hyperdoctrines. However, the status of corresponding [[Beck-Chevalley conditions]] for [[pullback]] diagrams in $C_T$ is another matter; the original treatment by Pitts assumed more than is actually necessary. Namely, it was assumed that $C_T$ is finitely complete and the Beck-Chevalley condition holds for _all_ pullbacks in $C_T$. In actuality, for tripos theory, it is enough to assume Beck-Chevalley only for certain pullbacks which exist by virtue of the finite product structure of $C_T$.
+[^fine]: In fact one may "quantify" along any term = morphism in the base category $C_T$, i.e., each $Pred_T(f)$ has a left adjoint and a right adjoint, merely if we assume this of projection and diagonal maps and if we assume an appropriate [Frobenius law](http://ncatlab.org/nlab/show/Frobenius+reciprocity#frobenius_laws_and_frobenius_reciprocity_11), as one generally does for first-order hyperdoctrines. However, the status of corresponding [[Beck-Chevalley conditions]] for [[pullback]] diagrams in $C_T$ is another matter; the original treatment by Pitts assumed more than is actually necessary. Namely, it was assumed that $C_T$ is finitely complete and the Beck-Chevalley condition holds for _all_ pullbacks in $C_T$. In actuality, for tripos theory, it is enough to assume Beck-Chevalley only for certain pullbacks which exist by virtue of the finite product structure of $C_T$.
