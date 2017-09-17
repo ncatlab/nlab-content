@@ -24,7 +24,7 @@ There are several definitions that are [[quasi-isomorphism|quasi-isomorphic]]. T
 
 Let $X_\bullet : \Delta^{op} \to Diff$ be a [[simplicial object|simplicial]] [[manifold]]. 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(simplicial de Rahm complex, first version)**
 
@@ -58,7 +58,7 @@ $$
 So an element $\omega \in \mathcal{A}(X_\bullet)$ in degree $n$ is a collection $(\omega^p_q \in \Omega^p(X_q))_{p+q = n}$ of ordinary differential forms.
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(simplicial de Rahm complex, second version)**
 
@@ -87,7 +87,7 @@ This defines a bidegree and $A(X_\bullet)$ is the obvious total complex of the o
 
 The following proposition says that and how these two complexes are related.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(Dupont)**
 
@@ -131,7 +131,7 @@ In the language uses there, the statement we establish is the following:
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C = $ [[CartSp]]${}_{th}$ and $\mathbf{H} = (sPSh(C)_{proj}^{loc})^\circ$ the [[(∞,1)-category of (∞,1)-sheaves]] on [[CartSp]], the [[(∞,1)-topos]] of [[Lie ∞-groupoid]]s. This is a [[locally contractible (∞,1)-topos]] (as discussed there). Accordinly we have its [[schreiber:path ∞-groupoid]] and [[schreiber:infinitesimal path ∞-groupoid]] $\mathbf{\Pi}_{inf}(-)$.
@@ -182,7 +182,7 @@ By the lemma _expression in terms of simplicial realization_ at [[schreiber:infi
 
 The above proposition now reads in pedestrian terms:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(\mathbf{\Pi}_{inf}(X_\bullet)) := Hom_{\mathcal{T}}(\mathbf{\Pi}_{inf}(X_\bullet),R)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial de Rham complex of $X_\bullet$.
