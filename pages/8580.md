@@ -47,15 +47,15 @@
 
 1. [Principal connections](#PrincipalConnections)
 
-1. [Integration](#Integration)
-
 1. [Characteristic classes](#CharacteristicClasses)
+
+1. [Integration](#Integration)
 
 1. [Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
 
 1. [Geometric quantization](#GeometricQuantization)
 
-1. [Super-geometry and Fermions](#SupergeometricCoordinateSystems)
+1. [Super-geometry](#SupergeometricCoordinateSystems)
 
 
 #Contents#
@@ -5629,6 +5629,74 @@ $$
 $$
 
 
+
+
+
+## **Characteristic classes**
+ {#CharacteristicClasses}
+
+
+### Model Layer
+
+#### Magnetic charge and first Chern class
+
+* [[magnetic charge]], [[first Chern class]]
+
+$$
+  \array{
+    && && \mathbf{B}(\mathbb{R}\sslash \mathbb{Z})
+    &\to& \mathbf{B}^2 \mathbb{Z}
+    \\
+    && && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}\mathbb{Z} 
+      &\to&  
+    \mathbf{B}\mathbb{R} 
+      &\to&  
+    \mathbf{B}U(1)
+  }
+$$
+
+$$
+  \mathbf{c}_1
+   :
+  \pi_0\mathbf{H}(X,\mathbf{B}U(1))
+  \to 
+  \pi_0 \mathbf{H}(X, \mathbf{B}^2 \mathbb{Z})
+  \simeq
+  H^2(X, \mathbb{Z})
+$$
+
+#### Yang-Mills instanton number and second Chern class
+
+* [[QCD instanton]]
+
+
+### Semantic Layer
+
+#### Gauge theory Lagrangeans
+
+a differential characteristic class
+
+$$
+  \mathbf{L}
+  \colon
+  \mathbf{B}G_{conn}
+  \to
+  \mathbf{B}^n U(1)_{conn}
+$$
+
+is an (extended) [[Lagrangean]] for [[schreiber:infinity-Chern-Simons theory]]. 
+
+The corresponding [[action functional]] is discussed in [Semantic Layer - Action functionals from Lagrangeans](#SemLayerActionFunctionalsFromLagrangeans).
+
+
+### Syntactic Layer
+
+(...)
+
+
+
 ## **Integration**
  {#Integration}
 
@@ -5652,6 +5720,110 @@ $$
   \int_{\Sigma, U} : \Omega^n(\Sigma\times U) \to \Omega^{n-k}(U)
   \,.
 $$
+
+#### Holonomy
+
+##### Parallel transport
+
+given $A \in \Omega^1(\Delta^1, \mathfrak{g})$
+
+we say $f \in C^\infty(\Delta^1, G)$ is the [[parallel transport]] of $A$ if 
+
+1. $f(0) = 1$
+
+1. $f$ satisfies the [[differential equation]]
+
+   $$
+     \mathbf{d}f = A f
+   $$
+
+where on the right we have the differential of the left action of the group on itself.
+
+In this case one writes
+
+$$
+  \mathcal{P} \exp\left(\int_{\Delta^1} A \right)
+  \coloneqq
+  f(1) 
+$$
+
+and calls it the _[[path ordered integral]]_ of $A$. Here the enire left hand side is primitive notation.
+
+In the case that $G = U(1)$ this reproduces the ordinary [[integral]]
+
+$$
+  \left(G = \mathbb{R}\right)
+  \Righarrow
+  \mathcal{P} \exp(\int_{\Delta^1} A)
+  = 
+  \exp(i \int_{\Delta^1} A)
+  \in 
+  U(1)
+$$
+
+There is another way to express this [[parallel transport]],
+related to [[Lie integration]]:
+
+Define an [[equivalence relation]] on $\Omega^1(\Delta^1, \mathfrak{g})$ as follows: two 1-forms $A,A'$ are taken to be equivalent if there is a flat 1-form $\hat A \in \Omega^1_{flat}(D^2, \mathfrak{g})$ on the 2-[[disk]] such that its restriction to the upper semicircle is $A$ and the restriction to the lower semicircle is $\tilde A$.
+
+If $G$ is [[simply connected topological space|simply connected]], then the [[equivalence classes]] of this relation form
+
+$$
+  \Omega^1(\Delta^1,\mathfrak{g})_{/\sim} \simeq
+  G
+$$
+
+and the [[quotient]] map coincides with the [[parallel transport]]
+
+$$
+  \mathcal{P} \exp\left(\int_{\Delta^1} \left(-\right)\right)
+  \colon
+  \Omega^1(\Delta^1, \mathfrak{g})
+  \to 
+  \Omega^1(\Delta^1, \mathfrak{g})_{/\sim}
+  \simeq
+  G  
+$$
+
+Finally yet another perspective is this: consider the [[equivalence relation]] on $\Omega^1(\Delta^1, \mathfrak{g})$ where two 1-forms are regarded as equivalent if there is a [[gauge transformation]] $\lambda \in C^\infty(\Delta^1, G)$ with $\lambda(0) = e$ and $\lambda(1) = e$, then again 
+
+$$
+  \mathcal{P} \exp\left(\int_{\Delta^1} \left(-\right)\right)
+  \colon
+  \Omega^1(\Delta^1, \mathfrak{g})
+  \to 
+  \Omega^1(\Delta^1, \mathfrak{g})_{/\sim}
+  \simeq
+  G  
+$$
+
+is the parallel transport
+
+
+##### Holonomy of a flat principal connection
+
+if $X$ is connected then forming the [[holonomy]] of flat $G$-connections
+
+$$ 
+  hol
+  \colon
+  G Bund_{\nabla, flat}(X)
+  \stackrel{\simeq}{\to}
+  Hom_{Grp}(\pi_1(X), G)
+$$
+
+is an [[equivalence]], $\pi_1(X)$ the [[fundamental group]]. If $X$ is not connected then 
+
+$$ 
+  hol
+  \colon
+  G Bund_{\nabla, flat}(X)
+  \stackrel{\simeq}{\to}
+  Hom_{Grpd}(\Pi_1(X), \mathbf{B}G)
+$$
+
+is an equivalence.
+
 
 ##### Integration in ordinary differential cohomology
 
@@ -5706,7 +5878,6 @@ variation gives [[Lorentz force]]
 
 ##### Transgression of circle $n$-bundles with connection
 
-(...)
 
 * [[fiber integration in ordinary differential cohomology]]
 
@@ -5716,69 +5887,61 @@ variation gives [[Lorentz force]]
 
 ### Semantic Layer
 
-(...)
+#### Integration and higher holonomy
 
-### Syntactic Layer
-
-(...)
-
-
-
-
-
-## **Characteristic classes**
- {#CharacteristicClasses}
-
-
-### Model Layer
-* [[magnetic charge]], [[first Chern class]]
+[[integration]]/[[higher holonomy]] is
 
 $$
-  \array{
-    && && \mathbf{B}(\mathbb{R}\sslash \mathbb{Z})
-    &\to& \mathbf{B}^2 \mathbb{Z}
-    \\
-    && && \downarrow^{\mathrlap{\simeq}}
-    \\
-    \mathbf{B}\mathbb{Z} 
-      &\to&  
-    \mathbf{B}\mathbb{R} 
-      &\to&  
-    \mathbf{B}U(1)
-  }
-$$
-
-$$
-  \mathbf{c}_1
-   :
-  \pi_0\mathbf{H}(X,\mathbf{B}U(1))
-  \to 
-  \pi_0 \mathbf{H}(X, \mathbf{B}^2 \mathbb{Z})
+  \exp(2 \pi i \int_{\Sigma}(-))
+  \colon
+  [\Sigma_n, \mathbf{B}^n U(1)_{conn}]
+  \to
+  Conc \tau_0 [\Sigma, \mathbf{B}^n U(1)]
   \simeq
-  H^2(X, \mathbb{Z})
+  U(1)
 $$
 
-### Semantic Layer
+#### Transgression
 
-(...)
+[[transgression]] is 
+
+$$
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+  \stackrel{\exp(2 \pi i \int_{\Sigma_k}) (-) }{\to}
+  \mathbf{B}^{n-k} U(1)_{conn}
+$$
+
+#### Action functionals from Lagrangeans
+ {#SemLayerActionFunctionalsFromLagrangeans}
+
+and [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons]] [[action functionals]] induced from
+
+$$
+  \mathbf{L} \colon \mathbf{B}G_{conn} \to \mathbf{B}^n U(1)_{conn}
+$$
+
+are
+
+$$
+  \exp\left(i S\left(-\right)\right)
+  \coloneqq
+  \exp(2 \pi \in \int_{\Sigma_k} [\Sigma_k, \mathbf{L}] )
+  \colon
+  [\Sigma_k, \mathbf{B}G]
+  \stackrle{[\Sigma_k, \mathbf{L}]}{\to}
+  [\Sigma_k, \mathbf{B}^n U(1)]
+  \stackrel{\exp(2 \pi i\left(-\right))}{\to}
+  \mathbf{B}^{n-k} U(1)_{conn}
+$$
+
+
+here $\mathbf{L}$ is the [[Lagrangean]].
 
 ### Syntactic Layer
 
 (...)
 
 
-#### Principal $\infty$-connections
-
-* [[connection on a principal infinity-bundle]]
-
-
-### Semantic Layer
-
-(...)
-
-### Syntactic Layer
-
-(...)
 
 
 
@@ -5917,7 +6080,7 @@ $$
 (...)
 
 
-## **Super-geometry and Fermions**
+## **Super-geometry**
  {#SupergeometricCoordinateSystems}
 
 ### Model Layer
