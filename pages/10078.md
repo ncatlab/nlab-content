@@ -68,3 +68,5 @@ Discussion specifically for [[fermions]] is in
 * C. Alexandrou, R. Rosenfelder, A. W. Schreiber, _Worldline path integral for the massive Dirac propagator : A four-dimensional approach_, Phys. Rev. A59 (1999) 1762-1776 ([arXiv:hep-th/9809101](http://arxiv.org/abs/hep-th/9809101))
 
 
+[[!redirects worldline theory]]
+
