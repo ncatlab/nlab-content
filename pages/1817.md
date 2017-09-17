@@ -18,5 +18,7 @@ category: people
 [[!redirects Михаил Постников]]
 [[!redirects Postnikov]]
 [[!redirects Mikhail Postnikov]]
+[[!redirects Mikhail Mikhailovich Postnikov]]
 [[!redirects Mihail Postnikov]]
 [[!redirects Michael Postnikov]]
+[[!redirects M. M. Postnikov]]
