@@ -40,7 +40,15 @@ for
 
 * $\frac{1}{g^2}$ the _Yang-Mills [[coupling constant]]_ and $\theta$ the _[[theta angle]]_, some [[real numbers]] (see at _[[S-duality]]_).
 
-## Quantization
+## Properties
+
+### Classification of solutions
+
+* [[Narasimhan-Seshadri theorem]]
+
+* [[Donaldson-Uhlenbeck-Yau theorem]]
+
+### Quantization
 
 Despite its fundamental role in the [[standard model of particle physics]], various details of the [[quantization]] of Yang-Mills theory are still open. See at _[[quantization of Yang-Mills theory]]_.
 
