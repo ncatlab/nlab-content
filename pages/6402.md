@@ -35,6 +35,49 @@ While advertized as "A course for mathematicians", it is not. But it is much bet
 
 * [[supersymmetry]]
 
+
+#### Classical field theory
+
+##### Chapter 1. Classical mechanics
+
+* [[classical mechanics]]
+
+##### Chapter 2. Lagrangian theory of classical fields
+
+* [[Lagrangian]]
+
+* [[variational calculus]]
+
+* [[Euler-Lagrange equations]]
+
+##### Chapter 3. Free field theories
+
+##### Chapter 4. Gauge theory
+
+* [[gauge theory]]
+
+* [[electromagnetism]]
+
+* [[Yang-Mills theory]]
+
+##### Chapter 5. $\sigma$-Models and coupled gauge theories
+
+
+##### Chapter 6. Topoligical terms
+
+* [[Chern-Simons form]]
+
+* [[Chern-Simons theory]]
+
+* [[WZW model]]
+
+* [[Deligne cohomology]]
+
+
+##### Chapter 7. Wick rotation
+
+* [[Wick rotation]]
+
 ### Part 2: Formal Aspects of QFT
 
 ## Volume II
