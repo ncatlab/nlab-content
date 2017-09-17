@@ -38,6 +38,15 @@ Similar statements hold for all [[forces]] of nature, such as the force of [[gra
 
 The [[electromagnetic field]] and the field of [[gravity]] are the physical fields that historically gave rise to what is now called _[[classical field theory]]_. But it turns out that fundamentally, in [[quantum physics]], also all [[matter]] in physics is constituted by fields in a similar sense. Specifically, where [[force]] fields in physics are usually [[connection on a bundle|connections on a bundle]], matter fields are [[sections]] of [[associated bundles]]. 
 
+Field theory was originally discovered as a [[theory (physics)|theory]] of fields on _[[spacetime]]_. But also the [[physical system]] consisting of a single [[particle]] propagating in a _fixed_ [[spacetime]] $X$ is described by a field theory. In this case the field is not defined on spacetime, but on the abstract _[[worldline]]_ of the particle, say the _[[real line]]_ $\mathbb{R}$. A consifiguration of the system, namely a [[trajectory]] of the particle, is then a [[smooth function]] $\phi \;\colon\; \mathbb{R}\to X$. This function may be regarded as a _field_ on the [[worldline]] and in then called a _[[sigma-model]]_ field. The [[quantum mechanics]] of a single particle may be equivalently thought of as a [[quantum field theory]] on the 1-dimensional [[worldline]] of the particle.
+
+This perspective generalizes. Next one can consider fields on 2-dimensional [[surfaces]] $\Sigma_2$ which again are given by maps into some [[spacetime]] $X$. The corresponding 2-dimensional [[sigma-model]] [[quantum field theory]] is then said to describe not a particle but a _[[string]]_ propagating in spacetime, defined on the _[[worldsheet]]_ $\Sigma_2$, replacing the [[worldline]] of the particle. For $\Sigma$ of dimension 3 one accordingly speaks of the _[[worldvolume]]_ of a [[membrane]] and then for $\Sigma$ of general dimension here one speaks of the _[[worldvolume]]_ of a _[[brane]]_. 
+
+But there is no fundamental distinction between physical fields on spaces that are interpreted as [[spacetimes]] and those that are interpreted as [[worldvolumes]] of objects propagating _in_ a fixed spacetime. In general these notions mix. For instance the full description of [[relativistic particles]] and [[relativistic strings]] involves a field that is really a field of [[gravity]] on the [[worldvolume]]. Conversely, [[theory (physics)|theories]] on [[spacetimes]] that arise by [[Kaluza-Klein compactification]] of higher dimensional theories typically have "[[scalar field|scalar moduli fields]]" that used to be components of the field of [[gravity]] in higher dimensions but now after compactifications become maps into some auxiliary [[target space]], hence again _[[sigma-model]]_ fields.
+
+
+
+
 
 ### The traditional idea of field bundles and its problems
  {#IdeaOfFieldBundlesAndItsProblems}
@@ -118,15 +127,19 @@ out of the [[product]] of [[spacetime]] with the [[moduli stack]] of fields.
 #### Spin-structures and other $G$-structures
  {#IdeaSpinStructures}
 
-Some fields in physics are (or involve) choices of [[G-structure]] in the sense of [[reduction and lift of structure groups]]. The most famous example is the choice of _[[Spin structure]]_ in field theories with [[fermion]] fields (discussed in detail in _[Fermions](#Fermions)_ below). Often in the literature the choice of [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that the in the full theory this is really a field configuraton. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
+Some fields in physics are (or involve) choices of _[[G-structure]]_ in the sense of [[reduction and lift of structure groups]]. Well-known examples include the choice of _[[orientation]]_ and of _[[Spin structure]]_ in field theories with [[fermion]] fields (discussed in detail in _[Fermions](#Fermions)_ below). Often in the literature the choice of [[orientation]] and [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that the in the full theory this is really a field configuration. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
 
-Now, a spin structure _is_ equivalently a section of something, but again not of a [[principal bundle]], but of an analog in [[higher geometry]], a [[principal 2-bundle]]. Concretely, for a [[spacetime]] represented by a [[smooth manifold]] $X$ of [[dimension]] $n$, let 
+Now, a spin structure _is_ equivalently a section of something, but again not of a [[principal bundle]], but of an analog in [[higher geometry]], a [[principal 2-bundle]]. 
+
+To see how this works, first recall the case of orientations, whose description as sections of the [[orientation bundle]] is familiar.
+
+For a [[spacetime]] represented by a [[smooth manifold]] $X$ of [[dimension]] $n$, let 
 
 $$
   \tau_X \;\colon\; X \to \mathbf{B}GL(n)
 $$ 
 
-be the map that modulates its [[tangent bundle]] (discussed at _[geometry of physics - ](geometry of physics#TangentBundle)_). Then a choice of [[Spin structure]] on $X$ is a lift of this map three steps through through the [[Whitehead tower]] of $\mathbf{B}GL(n)$:
+be the map that modulates its [[tangent bundle]] (discussed at _[geometry of physics - tangent bundle](geometry of physics#TangentBundle)_). Consider then the following diagram, which shows lifts of this map to the  [[classifying spaces]]/[[moduli stacks]] for various other groups (this is the _[[Whitehead tower]]_ of $\mathbf{B}O(n)$):
 
 $$
   \array{
@@ -150,7 +163,10 @@ $$
   }
 $$
 
-A lift of the tangent bundle $\tau_X$ to $e_X$ is a choice of [[orthogonal structure]] (a [[vielbein field]], discussed in detail below in _[Ordinary gravity](#OrdinaryGravity)_), further to $o_X$ is a choice of [[orientation]], further to $s_X$ is a choice of [[spin structure]].
+A lift of the tangent bundle map $\tau_X$ to a map $e_X \colon X \to \mathbf{B}O(n)$ as indicated is a choice of [[orthogonal structure]] (a [[vielbein field]], discussed in detail below in _[Ordinary gravity](#OrdinaryGravity)_). For the present discussion asssume that this is given.
+
+
+The a further lift to $o_X : X \to \mathbf{B}SO(n)$ is a choice of [[orientation]], and finally a lift to $s_X : X \to \mathbf{B}Spin(n)$ is a choice of [[spin structure]].
 
 Now, every hook-shaped sub-[[diagram]] in the above of the form
 
@@ -164,15 +180,43 @@ $$
   }
 $$
 
-is a [[homotopy fiber sequence]]. By the [[universal property]] of the [[homotopy pullback]] this means that the "space" -- really: _[[homotopy type]]_ or just _[[type]]_, for short -- of lifts of a given map $X \to \mathbf{B}G$ to a map $X \to \mathbf{B}\hat G$ is equivalently the type of trivializations of the [[composition|composite]] $X \to \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^n A$. But this map modulates an $(\mathbf{B}^{n-1}A)$-[[principal ∞-bundle]] $P \to X$ and a trivialization of this map is equivalently a [[section]] of $P \to X$. Only if here $n = 1$ (and $A$ an ordinary 1-group) is this an ordinary bundle.
+is a [[homotopy fiber sequence]]. By the [[universal property]] of the [[homotopy pullback]] this means that the "space" -- really: _[[homotopy type]]_ or just _[[type]]_, for short -- of lifts of a given map $X \to \mathbf{B}G$ to a map $X \to \mathbf{B}\hat G$ is equivalently the type of trivializations of the [[composition|composite]] $X \to \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^n A$. 
 
-In particular for $o_X \colon X \to \mathbf{B}SO(n)$ a given choice of [[orientation]] of an $n$-dimensional [[manifold]] $X$, a choice of [[Spin structure]] is a choice of section of the $(\mathbf{B}\mathbb{Z}_2)$- [[principal 2-bundle]]
+Now if we have an [[orthogonal structure]] $e_X : X \to \mathbf{B}O(n)$ given, then this composite map according to the above diagram is 
 
 $$
-  \mathbf{w}_2(o_X)^* {*} \to X
+  \mathbf{w}_1(e_X)
+  \;\colon\;
+  X \to \mathbf{B}\mathbb{Z}_2
+  \,.
 $$
 
-which is sometimes called the "spin-lifting bundle gerbe". Hence spin structures are parts of fields in physics which are not sections of a field 1-bundle. Again, this is faithfully captured only in [[higher geometry]].
+This represents the [[first Stiefel-Whitney class]] $[w_1(\tau_X)] \in H^1(X, \mathbb{Z}_2)$ of $\tau_X$, and it classifies a $\mathbb{Z}_2$-[[principal bundle]], hence a [[double cover]] $\hat X \to X$ and this is precisely the [[orientation bundle]] of $X$. Sections of this bundle are choices of [[orientation]] on $X$, hence are "orientation-structure fields".
+
+Assume then such orientation field $o_X$ is given.
+Then in the next step the relevant composite map is
+
+$$
+  \mathbf{w}_2(o_X) \;\colon\; X \to \mathbf{B}^2 \mathbb{Z}_2
+  \,.
+$$
+
+This now represents the [[second Stiefel-Whitney class]] $[w_2(\tau_X)] \in H^2(X, \mathbb{Z}_2)$ of $X$ and classifies a $(\mathbf{B}\mathbb{Z}_2)$-[[principal 2-bundle]] 
+
+$$
+  \array{
+    \mathbf{B}\mathb{Z}_2 &\to& P
+    \\
+    && \downarrow 
+    \\
+    && X
+  }
+  \,.
+$$
+
+This is sometimes called the _$Spin$-[[lifting bundle gerbe]]_ of $o_X$.
+A choice of [[Spin structure]] is a choice of section of this 2-bundle.
+Hence spin structures are parts of fields in physics which are not sections of a field 1-bundle. Again, this is faithfully captured only in [[higher geometry]].
 
 This is only the most famous phenomenon in a large class of similar structures of fields in field theory. Notably in higher dimensional [[supergravity]] and in [[string theory]] there are fields which are ever higher lifts through this [[Whitehead tower]] -- [[higher spin structures]], such as [[String structures]] and [[Fivebrane structures]] in the next two steps. Accordingly, these are fields which are equivalently sections of [[principal 3-bundles]] (the "[[Chern-Simons circle 3-bundle]]") and [[principal infinity-bundle|principal 7-bundles]] (the "[[Chern-Simons circle 7-bundle]]").
 
@@ -562,7 +606,11 @@ of \ref{FieldsInAnActionFunctional} we may equivalently say that
 ## Examples
  {#Examples}
 
-We distinguish three broad classes of examples of fields as in def. \ref{FieldsInAnActionFunctional}:
+We distinguish four broad classes of examples of physical fields, according to def. \ref{FieldsInAnActionFunctional}:
+
+1. [Scalar and moduli fields](#SclarModuliFields)
+
+   The simplest type of field is a ([[smooth function|smooth]]) [[function]] on [[spacetime]] $X$ with values in the [[real numbers]] or [[complex numbers]], called a _[[scalar field]]_. Slightly more generally there are fields which are [[functions]] into some other [[vector space]] or more general [[manifold]], often called _linear/non-linear [[sigma-model]]_ fields. Often that manifold is a space of parameters of some [[geometry]], for instance of a compact space in [[Kaluza-Klein compactification]], in which case these fields are often called _moduli fields_. Scalar fields may be _charged_ under force fields, which we turn to next.
 
 1. [Force fields](#ForceFields)
 
@@ -578,7 +626,42 @@ We distinguish three broad classes of examples of fields as in def. \ref{FieldsI
 
    In this case the [[background gauge field]] is a $G$-[[principal ∞-bundle]] $P$ for some [[gauge group]] $G \in Grp(\mathbf{H})$ and $\mathbf{Fields}$ is the univeral $\rho$-[[associated ∞-bundle]] $V//G \stackrel{\mathbf{Fields}}{\to} \mathbf{B}G$ for $\rho$ an [[∞-action]] of $G$ on some $V \in \mathbf{H}$. A field is [[section]] of the [[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]].
 
-Not all examples fall squarely into one of these types, some are mixtures of these. In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to $\mathbf{B}G_{conn}$ so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
+   
+Not all examples fall squarely into one of these types, some are mixtures of these. Relevant examples we discuss in
+
+* [Fields combining various of these properties](#FieldCombiningVariousProperties)
+
+In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to $\mathbf{B}G_{conn}$ so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
+
+### **0)** Sigma-model fields
+
+[[sigma-model]]
+
+#### Particle
+
+[[particle]]
+
+$\mathbf{Fields} = $ [[spacetime]]
+
+#### Charged particle
+
+[[1d Chern-Simons theory]]
+
+Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
+[[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
+
+Then the topological part of the [[sigma model]] for the [[particle]] charged under $(G,\rho)$ in some $G$-[[background gauge field]] has
+
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \Omega^1(-,\mathfrak{g})//T
+  \to 
+  \Omega^1(-,\mathfrak{g})//G
+  \simeq
+   \mathbf{B}G_{conn}
+$$
+
 
 ### **I)** Force fields
  {#ForceFields}
@@ -1027,40 +1110,17 @@ By passing to [[irreducible representations]] in the above, we obtain specifical
 
 
 
-### **III)** Sigma-model fields
-
-[[sigma-model]]
-
-#### Particle
-
-[[particle]]
-
-$\mathbf{Fields} = $ [[spacetime]]
-
-#### Charged particle
-
-[[1d Chern-Simons theory]]
-
-Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
-[[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
-
-Then the topological part of the [[sigma model]] for the [[particle]] charged under $(G,\rho)$ in some $G$-[[background gauge field]] has
-
-$$
-  \mathbf{Fields} 
-  \;\colon\;
-  \Omega^1(-,\mathfrak{g})//T
-  \to 
-  \Omega^1(-,\mathfrak{g})//G
-  \simeq
-   \mathbf{B}G_{conn}
-$$
 
 ### Fields combining all these properties
+ {#FieldCombiningVariousProperties}
 
 #### Twisted differential $\mathbf{c}$-structures
 
 * [[twisted differential C-structure]]
+
+#### Anomaly-free background heterotic string background: differential $String^c$-structure
+
+* [[twisted differential string structure]]
 
 
 ## Related concepts
