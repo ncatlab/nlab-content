@@ -348,6 +348,7 @@ Special limits and structures in derivators:
 
 * [[pullback in a derivator]]
 * [[monomorphism in a derivator]]
+* [[coend in a derivator]]
 
 ## References
 
