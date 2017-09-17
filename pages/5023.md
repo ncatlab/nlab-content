@@ -203,3 +203,9 @@ A textbook account is in section II.3 of
 Discussion in the context of [[geometric quantization]] is in 
 
 * _Geometric quantization II, Prequantization and the Heisenberg group_ ([pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf))
+
+[[!redirects Heisenberg groups]]
+
+[[!redirects Heisenberg Lie group]]
+[[!redirects Heisenberg Lie groups]]
+
