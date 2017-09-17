@@ -102,3 +102,10 @@ The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the m
 [[!redirects co-character lattice]]
 [[!redirects co-character lattices]]
 
+[[!redirects character group]]
+[[!redirects character groups]]
+
+
+[[!redirects character ring]]
+[[!redirects character rings]]
+
