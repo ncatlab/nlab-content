@@ -76,6 +76,8 @@ which says the functional relation is _well-defined_.
 
 * [[Set]]
 
+A [[category of correspondences]] is a generalization of a category of relations. The composition of relations is that of correspondences followed by [[(-1)-truncated|(-1)-truncation]].
+
 For generalizations of $Rel$ see
 
 * [[allegory]], [[cartesian bicategory]]
