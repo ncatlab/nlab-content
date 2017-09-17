@@ -17,7 +17,6 @@
 =--
 =--
 
-
 # Sets
 
 The concept of _set_ appears in several different guises in [[mathematics]], and particularly in [[category theory]].
@@ -39,31 +38,42 @@ Here we adopt a structural approach, in which a __set__ is an abstract set, a (m
 
 ## What is a set?
 
-We still need to clarify exactly what sort of collection a set is.  Although most foundations leave this unspecified, we may (probably circularly, and perhaps controversially) define it as follows:
+We still need to clarify exactly what sort of collection a set is.  Although most foundations leave this unspecified, we may (perhaps circularly, and perhaps controversially) define it in various ways, as follows:
+
+### In category theory
+
 +-- {: .un_defn}
 ###### Definition
 
-A __set__ is a [[category]] (or equivalently an $\infty$-[[infinity-category|category]] or $\infty$-[[infinity-groupoid|groupoid]]) that is [[small category|small]], [[discrete category|discrete]], and [[skeletal category|skeletal]].
+A __set__ is a [[category]] (or instead an $\infty$-[[infinity-groupoid|groupoid]] or even an $\infty$-[[infinity-category|category]]) that is [[small category|small]], [[discrete category|discrete]], and [[skeletal category|skeletal]].
 =--
-Each of these three adjectives describes a different aspect of what makes something a 'set', and they serve different purposes, which should not be confused.
+Each of these three adjectives describes a different aspect of what makes something a 'set', and they serve different purposes, which should not be conflated.
 
-That a set is (in the category-theoretic sense) [[discrete category|discrete]] is the most important point; nobody would call a category a 'set' merely because it is small and skeletal.  (Starting from $\infty$-categories or $\infty$-groupoids makes no difference because of this discreteness clause, which immediately limits us to $0$-[[0-groupoid|groupoids]].)  The discreteness of a set reflects its lack of internal structure; while a category may have much structure relating its objects, the only structure remaining in a discrete category is whether any two given objects are [[isomorphism|isomorphic]] (and the fact that isomorphism is an [[equivalence relation]]); if (and only if) they are, then they are considered __[[equality|equal]]__ as elements of the set.
+That a set is (in the category-theoretic sense) [[discrete category|discrete]] is the most important point; nobody would call a category a 'set' merely because it is small and skeletal.  (This clause is also the reason why it makes no difference whether we start from categories, $\infty$-groupois, or $\infty$-categories; discreteness immediately limits us to $0$-[[0-groupoid|groupoids]].)  The discreteness of a set reflects its lack of internal structure; while a category may have much structure relating its objects, the only structure remaining in a discrete category is whether any two given objects are [[isomorphism|isomorphic]] (and the fact that isomorphism is an [[equivalence relation]]); if (and only if) they are, then they are considered __[[equality|equal]]__ as elements of the set.
 
 That a set is [[small category|small]] allows there to be a collection of 'all' sets; this collection is not itself small, but we still have a [[large category]] of all sets, [[Set]].  A category that is merely discrete and skeletal may be called a __[[class]]__ instead.  But notice that the difference between a set and a class is a rather technical one; a class is just like a set, only (possibly) larger.  Indeed, not everyone would agree with the requirement that a set must be small; although that is probably the most common way of talking to deal with size issues, it is not the only way.  Another way, used by no less an authority than _[[Categories Work]]_, it to posit the existence of a strongly [[inaccessible cardinal]] $\kappa$ and define a __[[small set]]__ to be a set whose [[cardinality]] is less than $\kappa$.
 
-That a set is [[skeletal category|skeletal]] is arguably the least important requirement; in fact, it is [[evil]] in a technical sense.  A category that is merely small and discrete might be called a __[[setoid]]__ instead.  However, if you forbid yourself from referring to [[equality]] of elements of the setoid (which are the objects of the small discrete category) --- or, equivalently, interpret "equality" to mean "isomorphism" therein --- then you cannot distinguish the setoid from a set; each is merely a (small) collection of elements with an equivalence relation (called 'equivalence' in the setoid and 'equality' in the set, in both cases corresponding to isomorphism in a small discrete category).  While size issues are real and cannot be ignored completely, it is possible to adopt foundations in which the skeletal issue does not appear.
+That a set is [[skeletal category|skeletal]] is arguably the least important requirement; in fact, it is 'evil' in the technical sense of violating the [[principle of equivalence]].  A category that is merely small and discrete may be called a __[[setoid]]__ instead.  However, if you forbid yourself from referring to [[equality]] of elements of the setoid (which are the objects of the small discrete category) --- or, equivalently, interpret "equality" to mean "isomorphism" therein --- then you cannot distinguish the setoid from a set; each is merely a (small) collection of elements with an equivalence relation (called 'equivalence' in the setoid and 'equality' in the set, in both cases corresponding to isomorphism in a small discrete category).  While [[size issues]] are real and cannot be ignored completely, it is possible to adopt foundations in which the issue of skeletality simply does not appear.
+
 
 ### In homotopy type theory {#InHoTT}
 
-In particular, in [[homotopy type theory]], a **set** is formally defined as a [[type]] in which there is an operation connecting any two parallel [[identity type|paths]] by a 2-path:
+As [[homotopy type theory]] may be viewed as a theory of $\infty$-[[infinity-groupoid|groupoids]], it falls under the preceding section; but since the language of HoTT is important to learn, let us look at it explicitly:
++-- {: .num_defn}
+###### Definition
+
+A **set** is a [[type]] in which there is an operation connecting any two parallel [[identity type|paths]] by a 2-path:
 
     Definition is_set A := forall (x y : A) (p q : x == y), p == q
 
-(There are numerous other equivalent definitions.  See [[h-set]].)  Because this operation is defined internally, it acts on paths as well as points and implies that for any two points of $A$, the [[identity type|type of paths]] between them is [[contractible space|contractible]] as soon as it is [[inhabited]].  Thus regarding types as [[∞-groupoids]], this definition takes care only of the discreteness requirement.
+(There are numerous other equivalent definitions; see [[h-set]].)
+=--
+Because this operation is defined internally, it acts on paths as well as points and implies that, for any two points of $A$, the [[identity type|type of paths]] between them is [[contractible space|contractible]] as soon as it is [[inhabited]].
 
-Regarding smallness, HoTT is usually formulated in [[Martin-Löf type theory]] with [[universes]] ([[type of types]]).  If we have chosen one particular universe as the universe of "small" things, then "setness" could be restricted to types belonging to that universe.
+Regarding types as [[∞-groupoids]], this definition takes care only of the discreteness requirement.  Regarding smallness, HoTT is usually formulated in [[Martin-Löf type theory]] with [[universes]] ([[type of types]]).  If we have chosen one particular universe as the universe of "small" things, then "setness" could be restricted to types belonging to that universe.
 
 Finally, skeletality is mostly meaningless in HoTT because paths are the only notion of (propositional) [[equality]] which we have to reason with.  (There is also the notion of "definitional" equality, but as we cannot assert or prove statements of the form "$x$ and $y$ are definitionally equal" inside the theory, this is mostly not relevant for the purposes of setness.)
+
 
 ## Related concepts
 
@@ -84,8 +94,7 @@ An early definition of "set" appears in
 
 where in section 4 it says in translation 
 
-> There are wholes which, although they contain the same parts A, B, C, D,..., nevertheless present themselves as different when seen from our point of view or conception (this kind of difference we call 'essential'), e.g. a complete and a broken glass viewed as a drinking vessel. [...] A whole whose basic conception renders the arrangement of its parts a matter of indifference (and whose rearrangement therefore changes nothing essential from our point of view, if only that changes), I call a set.
-
+> There are wholes which, although they contain the same parts A, B, C, D, ..., nevertheless present themselves as different when seen from our point of view or conception (this kind of difference we call 'essential'), e.g. a complete and a broken glass viewed as a drinking vessel.  [...]  A whole whose basic conception renders the arrangement of its parts a matter of indifference (and whose rearrangement therefore changes nothing essential from our point of view, if only that changes), I call a set.
 
 
 [[!redirects set]]
