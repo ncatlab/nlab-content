@@ -53,7 +53,7 @@ or other texts on the subject.
 
 For the coalgebraic treatment, this is discussed in: 
 
-*  A.Kurz:  _Coalgebras and Modal Logic._ Course Notes for ESSLLI 2001, Version of October 2001. Appeared on the CD-Rom ESSLLI'01, Department of Philosophy, University of Helsinki, Finland, available from [site](http://www.cs.le.ac.uk/people/akurz/works.html).
+*  [[Alexander Kurz|A.Kurz]]:  _Coalgebras and Modal Logic._ Course Notes for ESSLLI 2001, Version of October 2001. Appeared on the CD-Rom ESSLLI'01, Department of Philosophy, University of Helsinki, Finland, available from [site](http://www.cs.le.ac.uk/people/akurz/works.html).
 
 
 [[!redirects nondeterministic automaton]]
