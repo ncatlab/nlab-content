@@ -37,7 +37,7 @@ So to the extent that $N=1$ target space supersymmetry is regarded as important 
 
 ### Relation to topological strings and sheaves of quantum observables
 
-The enhanced [[supersymmetry]] of the $2d (2,0)$-models allows to consider the corresponding [[topological twist]] ([Kapustin 05](#Kapustin05), [Witten 05](#Kapustin05)). The resulting topologically twisted 2d (2,0)-model is on the one hand amenable to detailed mathematical analysis, since its [[quantum observables]] for the [[chiral de Rham complex]] [[sheaf of vertex operator algebras]] (see also [Malikov 06](#Malikov06)) and at the same time is argued to still detect important properties of the original geometric model, such as notably the [[Witten genus]].
+The enhanced [[supersymmetry]] of the $2d$ $(2,0)$-models allows to consider the corresponding [[topological twist]] ([Kapustin 05](#Kapustin05), [Witten 05](#Kapustin05)). The resulting topologically twisted 2d (2,0)-model is on the one hand amenable to detailed mathematical analysis, since its [[quantum observables]] for the [[chiral de Rham complex]] [[sheaf of vertex operator algebras]] (see ([Malikov 06](#Malikov06)) for a mathematical treatment) and at the same time is argued to still detect important properties of the original geometric model, such as notably the [[Witten genus]].
 
 
 
