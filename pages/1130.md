@@ -258,12 +258,7 @@ This is in
 
 
 
-
-
-
-
-
-
-
 [[!redirects differential graded coalgebras]]
+
 [[!redirects dg-coalgebra]]
+[[!redirects dg-coalgebras]]
