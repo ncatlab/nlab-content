@@ -252,6 +252,8 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
 
 ## Related concepts
 
+* [[arrow category]]
+
 * [[over-category]] 
 
   * [[slice category]] 
@@ -267,6 +269,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
 
   * [[over-(∞,1)-topos]], [[etale geometric morphism]]
 
+* [[arrow (∞,1)-category]], [[arrow (∞,1)-topos]]
 
 ## References
 
@@ -299,3 +302,9 @@ Section 1.2.9 of
 
 [[!redirects slice-(∞,1)-category]]
 [[!redirects slice-(∞,1)-categories]]
+
+[[!redirects slice (∞,1)-category]]
+[[!redirects slice (∞,1)-categories]]
+[[!redirects slice (infinity,1)-category]]
+[[!redirects slice (infinity,1)-categories]]
+
