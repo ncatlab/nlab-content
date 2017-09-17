@@ -10,7 +10,7 @@ In [[material set theory]] as a [[foundation of mathematics]], the axiom of pair
 
 ## Statement
 
-The __axiom of pairing__ states the following:
+The __axiom of pairing__ (or __axiom of pairs__) states the following:
 
 +-- {: .un_axiom}
 ###### Axiom (pairing)
@@ -56,7 +56,11 @@ In the $n$Lab, the term '[[pairing]]' usually refers to *[[ordered pair|ordered]
 
 
 [[!redirects axiom of pairing]]
+[[!redirects axiom of pairs]]
+[[!redirects axiom of unordered pairs]]
 
 [[!redirects axiom of finite sets]]
 [[!redirects axiom scheme of finite sets]]
 [[!redirects axiom schema of finite sets]]
+
+category: foundational axiom
