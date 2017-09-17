@@ -8,7 +8,7 @@
 
 #General case
 
-On this page, we explain a connection between [[decategorification]] and [[degroupoidification]], which appears when one considers [[groupoids internal]] to [[scheme]]s.  One can construct a category of sheaves attached to such a groupoid, and a sequence of finite groups, given by points over a [[finite field]].  This connection has been exploited quite widely within arithmetic geometry, but has not really been stated in the conntext of categorification.
+On this page, we explain a connection between [[decategorification]] and [[degroupoidification]], which appears when one considers [[groupoids internal]] to [[scheme]]s.  One can construct a category of sheaves attached to such a groupoid, and a sequence of finite groups, given by points over a [[finite field]].  This connection has been exploited quite widely within arithmetic geometry, but has not really been stated in the context of categorification.
 
 
 ##Basic data
