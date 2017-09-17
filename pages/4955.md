@@ -48,7 +48,7 @@ $$
 and
 
 $$
-  d f : (x,v) \mapsto (g(x), v g'(x))
+  d g : (x,v) \mapsto (g(x), v g'(x))
   \,.
 $$
 
