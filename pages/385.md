@@ -1,11 +1,30 @@
-# Idea #
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
 
 The _Crans-Gray tensor product_ is a [[tensor product]] on the category of [[strict omega-category|strict omega-categories]] which is analogous to (the lax version of) the [[Gray tensor product]] for 2-categories.
 
 This tensor product makes the category $Str\omega Cat$ of [[strict omega-category|strict omega-categories]] into a (non-symmetric) [[closed monoidal category|biclosed monoidal structure]]; thus in particular it has two internal-homs $Hom_r$ and $Hom_l$.  Both contain strict $\omega$-functors as their objects, and their $k$-cells for $k\gt 0$ are [[k-transfors]] which are lax or oplax in all dimensions (one internal-hom contains lax transfors and the other the oplax ones).
 
 
-# Construction from cubical sets #
+## Construction from cubical sets 
 
 One abstract way to construct the Crans-Gray tensor product is as follows.
 
@@ -16,7 +35,7 @@ Now strict $\omega$-categories, although usually defined as [[globular set|globu
 It is also possible to give a direct construction of this tensor product; see Crans' thesis below.
 
 
-# Relation to the Gray tensor product #
+## Relation to the Gray tensor product 
 
 Strict $n$-categories for $n\lt\omega$ can of course be regarded as strict $\omega$-categories with all $k$-cells identities for $k\gt n$.   In general, the Crans-Gray tensor product of an $n$-category with an $m$-category will be an $(n+m)$-category, since the tensor product of the $n$-cube and the $m$-cube is the $(n+m)$-cube.  (Compare, for example, the fact that the [[Gray tensor product]] of two 1-categories is no longer, in general, a 1-category.)
 
@@ -25,23 +44,35 @@ However, we can obtain a tensor product on strict $n$-categories for any $n$ by 
 Sjoerd Crans has also defined a tensor product *of* [[Gray-categories]], but the relationship between it and the tensor product of strict $\omega$-categories is not entirely clear, since neither $Str\omega Cat$ nor $GrayCat$ contains the other (their "intersection" is $Str3Cat$).
 
 
-# Further Remarks #
+## Properties 
+
+The Crans-Gray tensor product makes $Str\omega Cat$ into a bi[[closed monoidal category]]. So in particular for $X, Y \in \omega Cat$ two strict $\omega$-categories, the $\omega$-[[functor category]] between them is
+
+$$
+   [X,Y] = \omega Cat( X \otimes G^\bullet, Y)
+  \,,
+$$
+
+where $\otimes$ is the CG-tensor product and $G^\bullet : G \to \omega Cat$ is the  [[globular set|globular]] object of standard [[globe]]s. The objects in $[X,Y]$ are the $\omega$-functors. The [[k-morphism]]s are the $k$-[[transfor]]s between these.
+
+## Further Remarks 
 
 * The Crans-Gray tensor product extends the tensor product  on strict $\omega$-groupoids given by R. Brown and P.J. Higgins (see below); they construct a symmetric monoidal closed structure on these $\omega$-groupoids. 
 
-* The article _BrHi_ below sets up an equivalence between globular $\omega$-categories and certain cubical $\omega$-categories with connections, to which the monoidal closed structure in the previous paper is easily extended. 
+* The article ([BrownHiggins](#BrownHiggins)) sets up an equivalence between globular $\omega$-categories and certain cubical $\omega$-categories with [[connection]]s, to which the monoidal closed structure in the previous paper is easily extended. 
 
 * There is the [[Verity-Gray tensor product]] on [[stratified simplicial set]]s (as described there). Via the [[oriental|omega-nerve]] [[strict omega-category|strict omega-categories]] form the [[complicial set]]s within all [[stratified simplicial set]]s. According to observation 60 of [Verity06](http://arxiv.org/abs/math/0604414) section 11.4 of [Verity04](http://arxiv.org/abs/math/0410412) proves that the Crans-Gray tensor product is the reflection of the Verity-Gray tensor product under this inclusion.
  
 
 
-#References#
+## References
 
 A detailed discussion is in
 
 * [[Sjoerd Crans]], _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
 
-* **BrHi** R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1--33.
+* [[Ronnie Brown]] and Phil Higgins, _Tensor products and homotopies for $\omega$-groupoids and crossed complexes_ ,  J. Pure Appl. Alg. 47 (1987) 1--33.
+{#BrownHiggins}
 
 * F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71--118.
 
