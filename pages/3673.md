@@ -29,9 +29,12 @@ $$
   (F \dashv U )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
 $$
 
-an [[adjunction]] with [[right adjoint]] $U$. Say a morphism in $D$ is a fibraton or weak equivalence precisely if its image under $U$ is, respectively, in $C$.
+an [[adjunction]] with [[right adjoint]] $U$. Say a morphism in $D$ is a fibration or weak equivalence precisely if its image under $U$ is, respectively, in $C$.
 
-**Proposition** Sufficient conditions for this to define a cofibrantly generated model category structure on $D$ are
++-- {: .un_prop}
+###### Proposition
+
+Sufficient conditions for this to define a cofibrantly generated model category structure on $D$ are
 
 1. the functor $F$ preserves [[small object]]s
 
@@ -44,6 +47,49 @@ an [[adjunction]] with [[right adjoint]] $U$. Say a morphism in $D$ is a fibrato
    * $D$ has a fibrant replacement functor;
 
    * and $D$ has functorial [[path object]]s for fibrant objects.
+
+=--
+
+### Enrichment {#Enrichment}
+
+Often the underlying model category $C$ is an [[enriched model category]] over some [[monoidal model category]] $S$ and one wishes to transfer also the model enrichment.
+
++-- {: .un_prop}
+###### Observation
+
+Assume the adjunction
+
+$$
+  (F \dashv U )\; : \; D \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C
+$$
+
+satisfies the conditions of the above proposition so that the model structure on $C$ is transferred to $D$. Consider the case that $C$ is moreover an $S$-[[enriched model category]] and that $D$ can be equipped with the structure of a $S$-[[enriched category]] that is also  $S$-[[power]]ed and [[copower]]ed. 
+
+Assume now that the $S$-powering of $D$ is taken by $U$ to the $S$-powering of $C$, in that $U(d^{(s_1 \to s_2)}) = U(d)^{(s_1 \to s_2)}$.
+
+Then the transferred model structure and the $S$-enrichment on $D$ are compatible and make $D$ an $S$-enriched model category.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the axioms of [[enriched model category]] one sufficient condition to be checked is that for $s \to t$ any cofibration in $S$ and for $X \to Y$ any fibration in $D$, we have that the induced morphism
+
+$$
+  X^t \to X^s \times_{Y^s} Y^{t}
+$$
+
+is a fibration, which is a weak equivalence if at least one of the two input morphisms is. By the induced model structure, this is checked by applying $U$. But by assumption $U$ commutes with the powering, and since $U$ is a [[right adjoint]] it commutes with taking the pullback, to that under $U$ the morphism is
+
+$$
+  U(X)^t \to U(X)^s \times_{U(Y)^s} U(Y)^{t}
+$$
+
+which is the morphism induced from $U(X) \to U(Y)$. That this is indeed an (acyclic) fibration follows now from the fact that $C$ is an $S$-enriched model category.
+
+
+=--
 
 
 ## Examples
