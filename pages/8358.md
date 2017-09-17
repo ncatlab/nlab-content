@@ -78,13 +78,17 @@ A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equiv
 
 1. $\mathcal{E}$ has [[enough projectives]] and the [[full subcategory]] $Proj(\mathcal{E}) \hookrightarrow \mathcal{E}$ has all [[finite limits]];
 
-1. the [[global section]] [[functor]] $\Gamma \colon \mathcal{E}\longrightarrow $ [[Set]] has a [[right adjoint]] $\nabla$ factoring through $Proj(\mathcal{E})$;
+1. the [[global section]] [[functor]] $\Gamma \coloneqq \mathcal{E}(\ast,-) \colon \mathcal{E}\longrightarrow $ [[Set]] 
+
+   1. has a [[right adjoint]]  $\nabla \colon Set \hookrightarrow \mathcal{E}$ (which is necessarily a [[reflective subcategory|reflective inclusion]] making $\nabla \Gamma$ an [[idempotent monad]]/[[closure operator]]);
+
+   1. $\nabla$ factors through $Proj(\mathcal{E})$;
 
 1. there exists an object $D \in \mathcal{E}$ such that
 
-   1. its $(\Gamma \dashv \nabla)$-[[unit of a monad|unit]] is a [[monomorphism]];
+   1. $D$ is $\nabla\Gamma$-[[separated presheaf|separated]] (in that its $(\Gamma \dashv \nabla)$-[[unit of a monad|unit]] is a [[monomorphism]]);
 
-   1. all $\nabla \Gamma$-[closed regular epis](closure+operator#InducedClosureOnSlices) have the [[left lifting property]] against $D\to \ast$;
+   1. all $\nabla \Gamma$-[closed](closure+operator#InducedClosureOnSlices) [[regular epimorphisms]] have the [[left lifting property]] against $D\to \ast$;
 
    1. for every [[projective object]] $P$ there is a $\nabla \Gamma$-[closed morphism](closure+operator#InducedClosureOnSlices) $P \to D$.
 
