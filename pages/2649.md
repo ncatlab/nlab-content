@@ -63,6 +63,19 @@ because $\hom(X, -)$ preserves binary coproducts. In others words, either $X = U
 
 Note that the proof is not [[constructive mathematics|constructive]], as we have no way to construct a particular $\alpha$ such that $X = U_\alpha$.  (It is constructive if [[Markov's principle]] applies to $A$.)
 
+From the proof above, we extract a result useful in its own right, giving an alternative definition of connected object. 
+
++-- {: .un_thm}
+###### Scholium 
+An object $X$ in an extensive category is connected if and only if in any coproduct decomposition $X = U + V$, exactly one of $U$, $V$ is noninitial. 
+=-- 
+
++-- {: .proof}
+######Proof 
+If $X$ is connected and $X = U + V$ is a coproduct decomposition, then the arrow $id \colon X \to U + V$, factors through one of the coproduct inclusions of $i_U, i_V \colon U, V \hookrightarrow U + V$. If it factors through say $U$, then the subobject $i_U$ is all of $X$, and $V$ is forced to be initial by disjointness of coproducts. 
+
+Turning now to the if direction, suppose $f \colon X \to Y + Z$ is a map, and put $U = f^\ast(i_Y)$, $V = f^\ast(i_Z)$. By extensivity, we have a coproduct decomposition $X = U + V$. One of $U$, $V$ is initial, say $V$, and then we have $X = U$, meaning that $f$ factors through $Y$, and uniquely so since $i_Y$ is monic. Hence $f$ belongs to (exactly) one of the two subsets $\hom(X, Y) \hookrightarrow \hom(X, Y + Z)$, $\hom(X, Z) \hookrightarrow \hom(X, Y + Z)$. 
+=--  
 
 ## Examples
 
@@ -77,7 +90,7 @@ Note that the proof is not [[constructive mathematics|constructive]], as we have
 
 * A colimit of a connected diagram of connected objects is connected. This is due to the fact that coproducts in $Set$ commute with _limits_ of connected diagrams. 
 
-* If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. Proof: certainly $Y$ is not initial, because initial objects in extensive categories are strict. Suppose $Y = U + V$, so that we have an epi $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
+* If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. Proof: certainly $Y$ is not initial, because initial objects in extensive categories are strict. Suppose $Y = U + V$ (see the Scholium above), so that we have an epi $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
 
 It need not be the case that products of connected objects are connected. For example, in the topos $\mathbb{Z}$-Set, the product $\mathbb{Z} \times \mathbb{Z}$ decomposes as a countable coproduct of copies of $\mathbb{Z}$. 
 We do have the following partial result, generalizing the case of $Top$. 
