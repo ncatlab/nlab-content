@@ -43,13 +43,13 @@ Therefore neither of the traditional terms for QFT as axiomatized by Haag-Kastle
 ### Motivation
  {#Motivation}
 
-A central difference between the Haag-Kastler axioms and traditionally more widespread formulations of QFT (usually far from being formalized in any way) is the emphasis of the [[algebra of observables]]  of a QFT (Heisenberg picture) and the de-emphasis of the ([[Hilbert space|Hilbert]]) [[spaces of states]] ([[Schrödinger picture]]). This emphasis receives motivation from the the fact thatz many technical problems of QFT simply disappear when one is not trying to form its spaces of states, while at the same time no real information abut the theory is lost.
+A central difference between the Haag-Kastler axioms and traditionally more widespread formulations of QFT (usually far from being formalized in any way) is the emphasis of the [[algebra of observables]]  of a QFT (Heisenberg picture) and the de-emphasis of the ([[Hilbert space|Hilbert]]) [[spaces of states]] ([[Schrödinger picture]]). This emphasis receives motivation from the the fact that many technical problems of QFT simply disappear when one is not trying to form its spaces of states, while at the same time no real information about the theory is lost.
 
 Examples of technical problems that formulation in terms of spaces of states bring with them are the following:
 
 * In [[quantum field theory]] as opposed to [[quantum mechanics]], the [[Stone-von Neumann theorem]] fails, making the [[unitary representation]] of the [[Heisenberg group]] on the spaces of states non-unique, hence requiring an explicit choice of representation. There is no generally good theory available for how to make this choice.
 
-* More seriously, [[Haag's theorem]] says that at a crucial step in [[perturbation theory]] where one wants to pass from the representation "free fields" to that of "interacing fields", the two representations are necessarily inequivalent, contrary to what is (silently or explicitly) assumed in much traditional QFT literature (see [EarmanFraser](#EarmanFraser)).
+* More seriously, [[Haag's theorem]] says that at a crucial step in [[perturbation theory]] where one wants to pass from the representation "free fields" to that of "interacting fields", the two representations are necessarily inequivalent, contrary to what is (silently or explicitly) assumed in much traditional QFT literature (see [EarmanFraser](#EarmanFraser)).
 
 * In the [[renormalization]] or [[perturbation theory]] the formulation in terms of states brings with it _infrared problems_ that are simply absent when formulating renormalization just in terms of observables ([DuetschFredenhagen](#DuetschFredenhagen)).
 
