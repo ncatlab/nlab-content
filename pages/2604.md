@@ -23,6 +23,7 @@ Examples include
 * [[Khovanov homology]]
 * [[colorability]]
 * [[knot group]]= the fundamental group of the complement of the knot.
+* [[Kauffman bracket]] technically, an invariant of [[framed links]] but closely related to the [[Jones polynomial]]
 
 
 Many of these extend to [[link invariant|link invariants]] or have variants that depend on the knot being oriented.
