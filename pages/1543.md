@@ -772,6 +772,8 @@ In fact, the history of the development of the theory of principal bundles and [
   
   * [[universal principal bundle]]
 
+  * [[caloron correspondence]]
+
   * [[bibundle]]
 
   * [[groupoid principal bundle]]
