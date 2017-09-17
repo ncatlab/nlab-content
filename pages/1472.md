@@ -67,7 +67,7 @@ In its full [[derived geometry]]-version it contains also
 
 Every $(\infty,1)$-topos comes with its intrinsic notion of [[cohomology]]. This encodes **kinematics** in physics. Such as [[orientation]]; [[spin structure]]s; [[string structure]]s, [[fivebrane structure]]s.
 
-Every cohesive $(\infty,1)$-topos is in particular a [[∞-connected (∞,1)-topos]]. For these their intrinsic cohomology refines to [[schreiber:differential cohomology in an (∞,1)-topos]] classifying [[connections on ∞-bundles]]. This encodes **dynamics** in physics: a connection on a principal $\infty$-bundle is a **[[gauge field]]** which exerts **[[force]]**s. Such as:
+Every cohesive $(\infty,1)$-topos is in particular a [[locally ∞-connected (∞,1)-topos]]. For these their intrinsic cohomology refines to [[schreiber:differential cohomology in an (∞,1)-topos]] classifying [[connections on ∞-bundles]]. This encodes **dynamics** in physics: a connection on a principal $\infty$-bundle is a **[[gauge field]]** which exerts **[[force]]**s. Such as:
 
 * the [[electromagnetic field]], [[Yang-Mills field]], the field of [[gravity]], of [[supergravity]], the [[Kalb-Ramond field]], the [[supergravity C-field]], the [[RR-field]].
 
