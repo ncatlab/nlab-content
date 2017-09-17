@@ -51,6 +51,49 @@ Quasi-isomorphisms are also called, more descriptively, **homology isomorphisms*
 
 =--
 
+## Properties
+
+### Relation to chain homology type
+ {#RelationToChainHomologyType}
+
++-- {: .num_defn #ReflexiveAndTransitiveButNotSymmetric}
+###### Definition
+
+The [[relation]] "There exists a quasi-isomorphism from $C_\bullet$ to $D_\bullet$." is a [[reflexive relation|reflexive]] and [[transitive relation]], but it is not a [[symmetric relation]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Reflexivity and transitivity are evident. An explicit counter-example 
+showing the non-symmetry is the [[chain map]]
+
+$$
+  \array{
+     \cdots &\to& 0 &\to& \mathbb{Z} &\stackrel{\cdot 2}{\to}& \mathbb{Z} &\to& 0 &\to& \cdots
+     \\
+     \cdots && \downarrow && \downarrow && \downarrow && \downarrow && \cdots
+     \\
+     \cdots &\to& 0 &\to& 0 &\to& \mathbb{Z}/2\mathbb{Z} &\to& 0 &\to& \cdots
+  }
+  \,.
+$$
+
+This clearly induces an isomorphism on all homology groups. But there is not even a non-zero chain map in the other direction, since there is no non-zero group homomorphism $\mathbb{Z}/2\mathbb{Z} \to \mathbb{Z}$.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This is as for [[weak homotopy equivalences]], see the discussion at _[Relation to homotopy types](weak+homotopy+equivalence#RelationToHomotopyTypes)_ there.
+
+=--
+
+
+
 ## In homotopy theory
 
 Quasi-isomorphisms are the [[weak equivalences]] in the most common [[model category|model category structures]] on the [[category of chain complexes]]. See at _[[model structure on chain complexes]]_ and _[[derived category]]_.
