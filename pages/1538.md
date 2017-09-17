@@ -15,7 +15,7 @@ _Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[
 
 * background field is an $n$-functor $\alpha : \mathbf{B} G \to \mathbf{B}^n U(1)$ 
 
-  * this is the same thing as a $U(1)$-valued [[group cohomology|group n-cocycle]9 $c$ on $G$;
+  * this is the same thing as a $U(1)$-valued [[group cohomology|group n-cocycle]] $c$ on $G$;
 
 * or rather the background field is the associated functor $\mathbf{B} G \to \mathbf{B}^n U(1) \to n Vect$ for the canonical representation of $\mathbf{B}^n U(1)$ on [[n-vector space]]s 
 
