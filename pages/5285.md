@@ -638,7 +638,9 @@ Singular homology computes the [[generalized homology]] with coefficients in the
 
 ## Related concepts
 
-The [[duality|dual]] notion is that of _[[singular cohomology]]_.
+* The [[duality|dual]] notion is that of _[[singular cohomology]]_.
+
+* The analogous notion in [[algebraic geometry]] is given by [[Chow groups]].
 
 ## References
 
