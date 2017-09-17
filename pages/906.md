@@ -38,8 +38,9 @@ A __sequential topological space__ is a [[topological space]] $X$ such that a su
 
 * The category of sequential spaces is a [[coreflective subcategory]] of the category of all topological spaces.
 
-* The category of sequential spaces is a [[reflective subcategory]] of the category of [[subsequential spaces]], much as $Top$ itself is a reflective subcategory of the category of all [[pseudotopological spaces]].
+* The category of sequential spaces is a [[reflective subcategory]] of the category of [[subsequential spaces]], much as $Top$ itself is a reflective subcategory of the category of all [[pseudotopological spaces]]. 
 
+* The category of sequential spaces is [[cartesian closed category|cartesian closed]]. See also [[convenient category of topological spaces]]. 
 
 ## References 
 
