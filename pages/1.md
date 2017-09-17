@@ -33,7 +33,7 @@ $\,$
 ## Purpose
 {#purpose}
 
-We think of this wiki as our **lab book** that we happen to keep open for all to see. <a style="text-align: right;color: white" href="http://www.5hiva.com/cocktail-dresses/" rel="dofollow" title="cocktail dresses">cocktail dresses</a>
+We think of this wiki as our **lab book** that we happen to keep open for all to see. 
 
 +-- {: .standout}
 
