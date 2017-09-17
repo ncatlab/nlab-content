@@ -11,7 +11,9 @@
 
 ## Idea
 
-Rings of _Witt vectors_ are the [[co-free functor|co-free]] [[Lambda-rings]].
+Rings of _Witt vectors_ are the [[co-free functor|co-free]] [[Lambda-rings]]. Depending on whether one defines the latter via Frobenius lifts at a single [[prime number]] $p$ one speaks of _$p$-typical Witt vectors_, or of _big Witt vectors_ if all primes are considered at once.
+
+In [[arithmetic geometry]] the impact of rings of Witt vectors $W(R)$ of a given ring $R$ is that they are like rings [[formal power series]] on $Spec(R)$, such as rings of [[p-adic numbers]]. For more on this see at _[[arithmetic jet space]]_ and at _[[Borger's absolute geometry]]_.
 
 In components, a _Witt vector is an infinite sequence of elements of a given [[commutative ring]] $k$. There is a [[ring]] structure on the set $W(k)$ of Witt vectors of $k$ and $W(k)$ is therefore called *the Witt ring of $k$*. The multiplication is defined by means of [[Witt polynomials]] $w_i$ for every [[natural number]] $i$. If the [[characteristic]] of $k$ is $0$ the Witt ring of $k$ is sometimes called *universal Witt ring* to distinguish it from the case where $k$ is of prime characteristic and a similar but different construction is of interest.
 
