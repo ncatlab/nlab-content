@@ -121,9 +121,7 @@ Details are in
 
 The definition in terms of differential forms is def 4.6 there. The equivalence to $[P_1(-), \mathbf{B}G]$ is proposition 4.7.
 
-See also 
-
-<a href="http://ncatlab.org/schreiber/edit/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#ConnectionOnPrincipalBundle">differential cohomology in an (∞,1)-topos -- survey - connections on bundles</a>.
+See also [[∞-Chern-Weil theory introduction]]
 
 
 [[!redirects Lie-algebra valued 1-form]]
@@ -137,3 +135,5 @@ See also
 [[!redirects Lie algebra valued 1-form]]
 
 [[!redirects Lie-algebra valued differential forms]]
+
+[[!redirects Lie algebra-valued form]]
