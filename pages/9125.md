@@ -47,15 +47,48 @@ A widespread proposal for how to formalize the notion of _physical field_ is to 
 While this goes in the right direction, it cannot be quite the final answer for several reasons:
 
 
-1. Fields defined as sections of field bundles this way cannot capture "large" gauge phenomena, hence phenomena that genuinelay defined on the [[topological space|topology]] of the [[gauge group]] and not just on its [[Lie algebra]]. Spcifically, in [[Yang-Mills theory]] one can have a gauge bundle whose sections are all [[principal connections]] on on fixed underlying [[principal bundle]], but really that principal bundle is itself part of the [[Yang-Mills field]] -- it is its [[instanton]] sector -- and can vary. But there is no bundle such that sections of it would themselves be equivalent to [[principal bundles]]. 
-   
-   This is not a negligible problem. For instance the [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors, see at _[[instanton in QCD]] for more.
+1. **locality and global topology** Fields defined as sections of field bundles cannot capture "large" gauge phenomena in a local way, hence phenomena that genuinelay depend on the [[topological space|topology]] of the [[gauge group]] and not just on its [[Lie algebra]]. 
 
-   Similarly for instance [[magnetic charge]], field in [[higher dimensional Chern-Simons theoy]] and in many other examples are not describeable, in total, as sections of some field bundle.
+   Spcefically, in [[Yang-Mills theory]] for [[gauge group]] $G$, a field configuration is a combination of an [[instanton sector]] -- modeled by the [[equivalence class]] of a $G$-[[principal bundle]] $P$ -- and the "[[gauge potential]]", modeled by a [[connection on a bundle|connection on this bundle]].  There is a bundle $E(P) \to X$ such that its sections are precisely the [[connection on a bundle|connections]] on $X$, and so $\coprod_{c} E(P_c) \to X$, where $c$ ranges over the instanton sectors, is a field bundle for Yang-Mills fields on $X$. 
 
-1. In [[general covariance|generally covariant]] [[theory (physics)|theories]] fields that differ by a pullback along a [[diffeomorphism]] are required to be [[gauge equivalence]]. Hence two sections of a field bundle are to be identified by they become the same when one is pulled back along a diffeomorphism of the base. Again, at least for large diffeomorphisms (thos not connected to the identity) standard field bundle formalism cannot see this.
+   But this construction is not local: if we consider this assignment of field bundles to all suitable manifolds $X$, and if $U \to X$ is a cover of $X$, then we cannot in general obtain the field bundle on $X$ by gluing the field bundle on the cover. This is because locally every $G$-principal bundle is trivial, so that locally there is always only a single (the trivial) instanton sector. 
 
-1. Some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a secton of any ordinary [[fiber bundle]]. For instance an accurate description of _[[magnetic charge]]_ (as discussed there) shows that it is represented by such a 2-connection.
+   (Even though often ignored in the literature, nontrivial instanton sectors are not a negligible phenomenon. For instance the very [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors, see at _[[instanton in QCD]] for more.)
+
+   This example already points to the general nature of the problem with field bundles, and also to its solution: while the [[instanton]]-component of [[Yang-Mills fields]] are not section of a bundle, they famously are sections of a _[[stack]]_ (the "[[moduli stack]] $\mathbf{B}G$ of $G$-principal bundles"), an object in [[higher geometry]].
+
+   To some extent we can say that the problem with the locality of the [[field bundle]] for [[Yang-Mills theory]] is solved by passing from [[fiver bundles]] to [[fiber ∞-bundles]]: in the [[smooth ∞-groupoid|higher differential geometry]] there is an object $\mathbf{B}G_{conn}$ (the [[moduli stack]] of $G$-[[principal connectiojns]]) such that maps $X \to \mathb{B}G_{con}$ are equivalent to Yang-Mills fields on $X$ (even including their [[gauge transformations]]). This means that if we allow field bundles in higher geometry, then that for Yang-Mills theory ober $X$ is even a trivial field bundle, namely the projection
+
+   $$
+     X \times \mathbf{B}G_{conn} \to X
+     \,.
+   $$
+
+   This is a differential refinement of what is called the trivial _$G$-[[gerbe]]_ on $X$, which is 
+
+   $$
+     X \times \mathbf{B}G \to X
+   $$
+
+   and hence the "field bundle for instanton sectors" of Yang-Mills fields.
+
+   Judging from this example one might be tempted to guess that the notion of field [[fiber bundle]] should simply be replaced by that of field [[fiber ∞-bundle]]. But in fact what the example rather suggests is that what matters directly is the [[moduli stack]] $\mathbf{Fields}$ of fields, which for $G$-[[Yang-Mills theory]] is 
+
+   $$
+     \mathbf{Fields} = \mathbf{B}G_{conn}
+     \,.
+   $$
+
+1. **general covariance** In [[general covariance|generally covariant]] [[theory (physics)|theories]] fields that differ by a pullback along a [[diffeomorphism]] are required to be [[gauge equivalence]]. Hence two sections of a field bundle are to be identified by they become the same when one is pulled back along a diffeomorphism of the base. Again, at least for large diffeomorphisms (thos not connected to the identity) standard field bundle formalism cannot see this.
+
+1. **twisted and shifted fields**
+
+   (...)
+
+1. **higher gauge fields** Some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a section of any ordinary [[fiber bundle]]. It follows that for instance also the [magnetic charge anomaly](magnetic+charge#MagneticChargeAnomaly) (as discussed there) has no accurate description in terms of field bundles.
+
+   Similarly, field in [[higher dimensional Chern-Simons theoy]] are not, in general, sections of a field bundle.
+
 
 ### Field $\infty$-bundles and moduli $\infty$-stacks of fields
 
