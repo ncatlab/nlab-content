@@ -25,7 +25,7 @@ The number theoretic statement is the following:
 +-- {: .num_prop #ArithmeticFractureSquare}
 ###### Proposition
 
-The [[integers]] $\mathbb{Z}$ are the [[fiber product]] of all the [[p-adic integers]] $\underset{p\;prime}{\prod} \mathbb{Z}_p$ with the [[rational numbers]] $\mathbb{Q}$ over all the [[p-adic rational numbers]] $\underset{p\;prime}{\prod}\mathbb{Q}_p$, hence there is a [[pullback]] [[diagram]] in [[CRing]] of the form
+The [[integers]] $\mathbb{Z}$ are the [[fiber product]] of all the [[p-adic integers]] $\underset{p\;prime}{\prod} \mathbb{Z}_p$ with the [[rational numbers]] $\mathbb{Q}$ over the rationalization of the former, hence there is a [[pullback]] [[diagram]] in [[CRing]] of the form
 
 $$
   \array{
@@ -33,7 +33,7 @@ $$
      \\
      & \swarrow && \nwarrow
      \\
-     \underset{p\;prime}{\prod} \mathbb{Q}_p && && \mathbb{Z}
+     \mathbb{Q}\otimes_{\mathbb{Z}}\underset{p\;prime}{\prod} \mathbb{Z}_p && && \mathbb{Z}
      \\
      & \nwarrow && \swarrow
      \\
@@ -41,6 +41,24 @@ $$
   }
   \,.
 $$
+
+Equivalently this is the [[fiber product]] of the rationals with the [[integral adeles]] $\mathbb{A}_{\mathbb{Z}}$ over the [[ring of adeles]] $\mathbb{A}_{\mathbb{Q}}$
+
+$$
+  \array{
+     && \mathbb{Q}
+     \\
+     & \swarrow && \nwarrow
+     \\
+     \mathbb{A}_{\mathbb{Q}} && && \mathbb{Z}
+     \\
+     & \nwarrow && \swarrow
+     \\
+     && \mathbb{A}_{\mathbb{Z}}
+  }
+  \,.
+$$
+
 
 =--
 
@@ -53,9 +71,11 @@ Under the [[function field analogy]] we may think of
 
 * $Spec(\mathbb{Z})$ as an [[arithmetic curve]] over [[F1]];
 
-* $\underset{p\;prime}{\prod} \mathbb{Z}_p$ as the [[ring of functions]] on the [[formal disks]] around all the points in this curve;
+* $\mathbb{A}_{\mathbb{Z}}$ as the [[ring of functions]] on the [[formal disks]] around all the points in this curve;
 
-* $\mathbb{Q}$ as the ring of functions on the complement of a finite number of points in the curve.
+* $\mathbb{Q}$ as the ring of functions on the complement of a finite number of points in the curve;
+
+* $\mathbb{A}_{\mathbb{Q}}$ is the ring of functions on punctured formal disks around all points, at most finitely many of which do not extend to the unpunctured disk.
 
 Under this [[analogy]] the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare} says that the curve $Spec(\mathbb{Z})$ has a [[cover]] whose patches are the complement of the curve by some points, and the formal disks around these points. 
 
