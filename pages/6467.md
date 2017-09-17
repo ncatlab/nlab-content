@@ -36,10 +36,16 @@ Suppose that $X$ is an integral [[scheme]] over a [[field]]. The correspondence 
 
 Another form the Picard group takes is from the isomorphism $Pic(X)\simeq H^1(X, \mathcal{O}_X^*)$. The isomorphism is most easily seen by looking at the transition functions for a trivializing cover of $\mathcal{L}$. Suppose $(\phi_i)$ trivialize $\mathcal{L}$ over the cover $(U_i)$. Then $\phi_i^{-1}\circ \phi_j$ is an automorphism of $\mathcal{O}_{U_i\cap U_j}$, i.e. a section of $\mathcal{O}_X^*(U_i\cap U_j)$. One can check this defines a [[Čech cohomology|Čech cocycle]] $\check{H}^1(\mathcal{U}, \mathcal{O}_X^*)$ which is isomorphic to the abelian [[sheaf cohomology]] $H^1(X, \mathcal{O}_X^*)$.
 
+## Related concepts
+
+* [[Brauer group]], [[Azumaya algebra]]
+
+* [[Picard scheme]]
+
+
 
 ## References
 
-* see also [[Picard scheme]]
 * Robin Hartshorne, Algebraic Geometry
 
 [[!redirects Picard groups]]
