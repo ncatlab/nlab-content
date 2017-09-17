@@ -9,24 +9,26 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothendieck fibration]] which is [[non-evil]], i.e. covariant under equivalence of categories.  In [[Cat]], every Street fibration is equivalent to a Grothendieck one, so the extra generality is not very useful; since it is also fairly cumbersome, it is rarely used.  However, when working internally to a [[bicategory]], Street fibrations are really the only sensible notion.
+A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothendieck fibration]] which is [[non-evil]], i.e. covariant under [[equivalence of categories]].  In [[Cat]], every Street fibration is equivalent to a Grothendieck one, so the extra generality is not very useful; since it is also fairly cumbersome, it is rarely used.  However, when working with [[anafunctors]] or internally to a [[bicategory]], Street fibrations are really the only sensible notion.
+
 
 ## Definition
 
 Let $p\colon E\to B$ be a [[functor]].  The notion of when a morphism of $E$ is [[cartesian morphism|cartesian]] is unchanged from the version for [[Grothendieck fibrations]].  However, now we say that $p$ is a **Street fibration** if for any $f:a\to b$ and $e\in E_b$ there exists a cartesian $\phi:e'\to e$ and an _isomorphism_ $h:p(e') \cong a$ such that $f\circ h = p(\phi)$.
 
+
 ### In terms of adjoint inverses
 
-Back in the 60s J. Gray characterized fibrations as the functors $p\colon E\to B$ 
-where for every $a \in E$ the slice functor $p/a \colon E/a \to B/p(a)$ has a right
-adjoint right inverse $c_a$. One avoids evilness if one just requires that $c_a$ is
-full and faithful, i.e. the counit of the adjunction $p/a \dasv c_a$ is an isomorphism. Explicitating this condition in elementary terms one arrives at the above definition.
+Back in the 1960s, J. Gray characterized fibrations as the functors $p\colon E\to B$ 
+where for every $a \in E$ the [[slice functor]] $p/a \colon E/a \to B/p(a)$ has a [[right
+adjoint]] [[right inverse]] $c_a$. One avoids evilness if one just requires that $c_a$ is
+[[fully faithful functor|full and faithful]], i.e. the [[counit of the adjunction]] $p/a \dashv c_a$ is an isomorphism. Explicating this condition in elementary terms, one arrives at the above definition.
 
 
 ## Properties
@@ -46,6 +48,8 @@ although there it was given in a very abstract form.  A more explicit form like 
 
 * Ross Street, *Conspectus of variable categories*
 
+
+[[!redirects Street fibration]]
 [[!redirects Street fibrations]]
 [[!redirects weak fibration]]
 [[!redirects weak fibrations]]
