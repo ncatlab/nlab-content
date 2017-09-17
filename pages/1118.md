@@ -24,7 +24,7 @@ A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal
 
 ## Definition 
 
-A **group object** in a category $C$ with binary [[product]]s and a [[terminal object]] $*$ is an object $G$ in $C$ and arrows
+A **group object** or **internal group** in a category $C$ with binary [[product]]s and a [[terminal object]] $*$ is an object $G$ in $C$ and arrows
 $$
 1:* \to G
 $$
@@ -67,13 +67,12 @@ Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (a
 
 ### In terms of generalized group elements 
 
-One useful way to characterize [[group object]]s $G$ in a [[cartesian monoidal category]] $C$ is by first sending 
-$G$ with the [[Yoneda embedding]] to a [[presheaf]] on $C$
-and then imposing a lift of $Y(G) : C^{op} \to Set$
-through the [[forgetful functor]] [[Grp]] $\to$ [[Set]]
-that sends a (ordinary) [[group]] to its underlying [[set]].
+__Proposition.__ Given a [[cartesian monoidal category]] $C$, the category of internal groups in $C$ is equivalent to the full subcategory of the category of presheaves of groups $Grp^{C^{op}}$ on $C$, spanned by those presheaves whose underlying set part in $Set^{C^{op}}$ is representable. 
 
-So a group object structure on $G$ is a diagram
+In other words, the [[forgetful functor]] from $Grp^{C^{op}}$ to $Set^{C^{op}}$ (obtained by composing with the forgetful functor [[Grp]] $\to$ [[Set]]) creates representable group objects from 
+representable objects. 
+
+An object $G$ in $C$ with an internal group structure is a diagram
 
 $$
   \array{
@@ -86,8 +85,8 @@ $$
   \,.
 $$
 
-This gives for each object $S \in C$ an ordinary group 
-$(G(S), \cdot)$, so in particular a product operation
+This equips each object $S \in C$ with an ordinary group 
+$(G(S), \cdot)$ structure, so in particular a product operation
 
 $$
   \cdot_S : G(S) \times G(S) \to G(S)
@@ -148,4 +147,7 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 * [[ring]], [[ring object]]
 
+
+[[!redirects internal group]]
+[[!redirects inner group]]
 [[!redirects group objects]]
