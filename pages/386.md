@@ -241,6 +241,23 @@ In particular, for $K$ a 2-category, [[monads]] in $K$ correspond to 2-functors 
 
 When $\Delta_a$ is considered as a 2-category, a similar argument to the above shows that the one-object [[3-category]] $\mathbf{B}\Delta_a$ classifies [[lax-idempotent monads]]: given a 3-category $M$ and a lax-idempotent monad $t$ therein, there is a unique 3-functor $\mathbf{B}\Delta_a \to M$ sending $[1]$ to $t$, essentially because $\sigma^1_0 \dashv \delta^1_0 = \delta^0_0 \oplus \mathbf{1}$ with identity counit.
 
+
+### Duality with intervals 
+
+Recall that an [[interval]] is a [[linearly ordered set]] with a top and bottom element; interval maps are [[monotone functions]] which preserve top and bottom. 
+
+Parallel to the categories $\Delta$ and $\Delta_a$, let $\nabla$ denote the category of finite intervals where the top and bottom elements are _distinct_, and let $\nabla_a$ denote the category of all finite intervals, including the terminal one where top and bottom coincide. Then we have [[duality|concrete dualities]], or equivalences of the form  
+
+$$\Delta_a^{op} \simeq \nabla_a; \qquad \Delta^{op} \simeq \nabla,$$ 
+
+both induced by the [[duality|ambimorphic object]] $\mathbf{2}$, seen as both an ordinal and an interval. In other words, we have in each case an adjoint equivalence 
+
+$$Int(-, \mathbf{2})^{op} \dashv Ord(-, \mathbf{2})$$ 
+
+inducing the first equivalence $Ord(-, \mathbf{2}): \Delta_a^{op} \to \nabla_a$, and the second equivalence by restriction. 
+
+
+
 ## Related constructions ##
 
 ### Simplicial sets 
