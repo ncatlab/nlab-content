@@ -80,6 +80,7 @@ The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analys
 
 [[!include infinitesimal and local - table]]
 
+* analogue in ([[stable homotopy theory|stable]]) [[homotopy theory]]/[[Goodwillie calculus]]: _[[Taylor tower]]_
 
 [[!redirects Taylor series]]
 [[!redirects Taylor series expansion]]
