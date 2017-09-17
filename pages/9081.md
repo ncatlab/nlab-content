@@ -33,7 +33,7 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
 
 ## Definition
 
-Let $\mathbf{H}$ be an ambient [[(∞,1)-topos]], typically a [[cohesive (∞,1)-topos]] such as [[Smooth∞Grpd]] or one of its [[slice (∞,1)-topos|slices]]. For $n \in \mathbb{N}$ let $\mathbf{B}^n U(1)_{conn} \in \mathbf{H}$ be the [[moduli ∞-stack]] of [[circle n-bundles with connection]]. Let moreover $\mathbf{Fields} \in \mathbf{H}$ be the given [[moduli ∞-stack]] of field configurations, so tha for $\Sigma$ some [[worldvolume]] [[manifold]] a field configuration on $\Sigma$ is a map in $\mathbf{H}$ of the form
+Let $\mathbf{H}$ be an ambient [[(∞,1)-topos]], typically a [[cohesive (∞,1)-topos]] such as [[Smooth∞Grpd]] or one of its [[slice (∞,1)-topos|slices]]. For $n \in \mathbb{N}$ let $\mathbf{B}^n U(1)_{conn} \in \mathbf{H}$ be the [[moduli ∞-stack]] of [[circle n-bundles with connection]]. Let moreover $\mathbf{Fields} \in \mathbf{H}$ be the given [[moduli ∞-stack]] of [[field (physics)|field configurations]], so that for $\Sigma$ some [[worldvolume]] [[manifold]] a [[field (physics)|field]] configuration on $\Sigma$ is a map in $\mathbf{H}$ of the form
 
 $$
   \phi \colon \Sigma \to \mathbf{Fields}
