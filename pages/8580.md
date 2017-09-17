@@ -35,11 +35,9 @@
 
 1. [Principal bundles](#PrincipalBundles)
 
+1. [Reduction of structure groups](#ReductionOfStructureGroups)
+
 1. [Representations and Associated bundles](#AssociatedNBundle)
-
-1. [Manifolds](#Manifolds)
-
-1. [Integration](#Integration)
 
 1. [Flat connections](#FlatConnections)
 
@@ -4533,7 +4531,30 @@ and the right square is a [[pullback]]
 
 * [[simplicial principal bundle]]
 
-#### Reduction of structure group
+
+
+### Semantic Layer
+
+#### Principal $\infty$-bundles
+
+* [[homotopy fiber]]
+
+* [[homotopy colimit]]
+
+* [[principal infinity-bundle]]
+
+### Syntactic Layer
+
+* [[connected type]]
+
+
+
+## **Reduction of structure groups**
+ {#ReductionOfStructureGroups}
+
+### Model Layer
+
+#### $G$-Structure
 
 $$
   \mathbf{B}G \to \mathbf{B}K
@@ -4562,6 +4583,8 @@ $$
     && \mathbf{B}K
   }
 $$
+
+#### Examples
 
 ##### Vielbein, orthogonal structure, Riemannian geometry
  {#RiemannianGeometry}
@@ -4611,15 +4634,15 @@ example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
 
 * [[metalinear structure]]
 
-#### Generalized complex geometry
+##### Generalized complex geometry
 
 * [[generalized complex geometry]]
 
-#### Type II geometry
+##### Type II geometry
 
 * [[type II geometry]]
 
-#### Generalized Calabi-Yau structure
+##### Generalized Calabi-Yau structure
 
 * [[generalized Calabi-Yau manifold]]
 
@@ -4636,19 +4659,140 @@ example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
 * [[fivebrane structure]]
 
 
-### Semantic Layer
 
-#### Principal $\infty$-bundles
+#### Smooth manifolds
+  {#Manifolds}
+  {#SmoothManifold}
 
-* [[homotopy fiber]]
+A [[smooth manifold]] of [[dimension]] $n$ 
 
-* [[homotopy colimit]]
+a [[smooth space]] with an [[atlas]] 
 
-* [[principal infinity-bundle]]
+$$
+  \{ \mathbb{R}^n \underoverset{\simeq}{\phi_i^{-1}}{\to} U_i \hookrightarrow X\}
+$$ 
 
-### Syntactic Layer
+of [[coordinate charts]]. On each overlap $U_i \cap U_j$ of two charts, the [[partial derivatives]] of the corresponding [[coordinate transformations]]
 
-* [[connected type]]
+$$
+  \phi_j\circ \phi_i^{-1}
+  : 
+  U_i \cap U_j \subset \mathbb{R}^n \to \mathbb{R}^n
+$$
+
+form the [[Jacobian matrix]] of [[smooth functions]]
+
+$$
+  ((\lambda_{i j})^{\mu}{}_{\mu})
+  \coloneqq
+  \left[\frac{d}{d x^\nu} \phi_j \circ \phi_i^{-1} (x^\mu)
+  \right]
+  :
+  U_i \cap U_j 
+  \to 
+  GL_n
+$$
+
+with values in invertible [[matrices]], hence in the
+[[general linear group]] $GL(n)$. By construction (by the [[chain rule]]), these functions satisfy on triple overlaps of coordinate charts the [[matrix product]] equations
+
+$$
+  (\lambda_{i j})^\mu{}_\lambda (\lambda_{j k})^\lambda{}_{\nu} 
+  = 
+  (\lambda_{i k})^\mu{}_{\nu}
+  \,,
+$$
+
+(here and in the following sums over an index appearing upstairs and downstairs are explicit)
+
+hence the equation
+
+$$
+  \lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}
+$$
+
+in the [[group]] $C^\infty(U_i \cap U_j \cap U_k, GL(n))$ of smooth $GL(n)$-valued functions on the chart overlaps.
+
+This is the _[[cocycle]] condition_ for a smooth [[Cech cohomology|Cech cocycle]] in degree 1 with coefficients in $GL(n)$ (precisely: with coefficients in the [[sheaf]] of [[smooth functions]] with values in $GL(n)$ ). We write
+
+$$
+  [(\lambda_{i j})] \in H^1_{smooth}(X, GL_n)
+  \,.
+$$
+
+Formulated as [[smooth groupoids]]
+
+* $X$ itself is a [[Lie groupoid]] $(X \stackrel{\to}{\to} X)$ with trivial morphism structure;
+
+* from the atlas $\{U_i \to X\}$ we get the corresponding [[Cech groupoid]] 
+  $$
+    C(\{U_i\}) = 
+    (\coprod_{i, j} U_i \cap U_j \stackrel{\to}{\to} \coprod_i U_i)
+    = 
+    \left\{
+      \array{
+         && (x,j)
+         \\
+         & \nearrow &=& \searrow
+         \\
+        (x,i) &&\to&& (x,k)
+      }
+      \;\;\;
+      for\, x \in U_i \cap U_j \cap U_k
+    \right\}
+    \,,
+  $$
+
+  whose objects are the points in the atlas, with morphisms identifying lifts of a point in $X$ to different charts of the atlas;
+
+#### Tangent bundle
+
+
+The above situation is neatly encoded in the existence of a [[diagram]] of Lie groupoids of the form
+
+$$
+  \array{
+     C(\{U_i\}) &\stackrel{\lambda}{\to}& \mathbf{B} GL(n).
+     \\
+     {}^{\mathllap{\simeq}}\downarrow
+     \\
+     X
+  }
+  \,,
+$$
+
+where
+
+* the left morphism is [[stalk]]-wise (around small enough [[neighbourhoods]] of each point) an [[equivalence of groupoids]] (we make this more precise in a moment);
+
+* the horizontal functor has as components the functions $\lambda_{i j}$ and its functoriality is the cocycle condition $\lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}$.
+
+
+A [[natural transformation|transformation]] of smooth functors $\lambda_1 \Rightarrow \lambda_2 : C(\{U_i\}) \to \mathbf{B} GL(n)$ is precisely a [[coboundary]] between two such cocycles.
+
+### Semantics Layer
+
+#### Manifolds modeled on an object $V$
+
++-- {: .num_defn }
+###### Definition
+
+Let $V \in \mathbf{H}$. We say that a **$V$-[[atlas]]** for an object $X \in \mathbf{H}$ is an [[effective epimorphism]]
+
+$$
+  a \colon \coprod_{i \in I} V \to X
+$$
+
+out of a [[coproduct]] of copies of $V$, such the [[fiber product]] of $a$ with itself is again a coproduct of $V$s and such that all the components of the two [[projections]] out of it are [[monomorphism in an (∞,1)-category|monomorphisms]].
+
+An object $X$ that admits a $V$-atlas we call a **$V$-[[manifold]]**.
+
+=--
+
+
+### Syntax Layer
+
+(...)
 
 
 
@@ -4766,150 +4910,6 @@ $$
 #### Dependent sum over a pointed connected type: quotients 
 
 (...)
-
-
-
-
-
-
-## **Manifolds**
- {#Manifolds}
-
-### Model Layer
-
-#### Smooth manifolds
- {#SmoothManifold}
-
-A [[smooth manifold]] of [[dimension]] $n$ 
-
-a [[smooth space]] with an [[atlas]] 
-
-$$
-  \{ \mathbb{R}^n \underoverset{\simeq}{\phi_i^{-1}}{\to} U_i \hookrightarrow X\}
-$$ 
-
-of [[coordinate charts]]. On each overlap $U_i \cap U_j$ of two charts, the [[partial derivatives]] of the corresponding [[coordinate transformations]]
-
-$$
-  \phi_j\circ \phi_i^{-1}
-  : 
-  U_i \cap U_j \subset \mathbb{R}^n \to \mathbb{R}^n
-$$
-
-form the [[Jacobian matrix]] of [[smooth functions]]
-
-$$
-  ((\lambda_{i j})^{\mu}{}_{\mu})
-  \coloneqq
-  \left[\frac{d}{d x^\nu} \phi_j \circ \phi_i^{-1} (x^\mu)
-  \right]
-  :
-  U_i \cap U_j 
-  \to 
-  GL_n
-$$
-
-with values in invertible [[matrices]], hence in the
-[[general linear group]] $GL(n)$. By construction (by the [[chain rule]]), these functions satisfy on triple overlaps of coordinate charts the [[matrix product]] equations
-
-$$
-  (\lambda_{i j})^\mu{}_\lambda (\lambda_{j k})^\lambda{}_{\nu} 
-  = 
-  (\lambda_{i k})^\mu{}_{\nu}
-  \,,
-$$
-
-(here and in the following sums over an index appearing upstairs and downstairs are explicit)
-
-hence the equation
-
-$$
-  \lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}
-$$
-
-in the [[group]] $C^\infty(U_i \cap U_j \cap U_k, GL(n))$ of smooth $GL(n)$-valued functions on the chart overlaps.
-
-This is the _[[cocycle]] condition_ for a smooth [[Cech cohomology|Cech cocycle]] in degree 1 with coefficients in $GL(n)$ (precisely: with coefficients in the [[sheaf]] of [[smooth functions]] with values in $GL(n)$ ). We write
-
-$$
-  [(\lambda_{i j})] \in H^1_{smooth}(X, GL_n)
-  \,.
-$$
-
-Formulated as [[smooth groupoids]]
-
-* $X$ itself is a [[Lie groupoid]] $(X \stackrel{\to}{\to} X)$ with trivial morphism structure;
-
-* from the atlas $\{U_i \to X\}$ we get the corresponding [[Cech groupoid]] 
-  $$
-    C(\{U_i\}) = 
-    (\coprod_{i, j} U_i \cap U_j \stackrel{\to}{\to} \coprod_i U_i)
-    = 
-    \left\{
-      \array{
-         && (x,j)
-         \\
-         & \nearrow &=& \searrow
-         \\
-        (x,i) &&\to&& (x,k)
-      }
-      \;\;\;
-      for\, x \in U_i \cap U_j \cap U_k
-    \right\}
-    \,,
-  $$
-
-  whose objects are the points in the atlas, with morphisms identifying lifts of a point in $X$ to different charts of the atlas;
-
-#### Tangent bundle
-
-
-The above situation is neatly encoded in the existence of a [[diagram]] of Lie groupoids of the form
-
-$$
-  \array{
-     C(\{U_i\}) &\stackrel{\lambda}{\to}& \mathbf{B} GL(n).
-     \\
-     {}^{\mathllap{\simeq}}\downarrow
-     \\
-     X
-  }
-  \,,
-$$
-
-where
-
-* the left morphism is [[stalk]]-wise (around small enough [[neighbourhoods]] of each point) an [[equivalence of groupoids]] (we make this more precise in a moment);
-
-* the horizontal functor has as components the functions $\lambda_{i j}$ and its functoriality is the cocycle condition $\lambda_{i j} \cdot \lambda_{j k} = \lambda_{i k}$.
-
-
-A [[natural transformation|transformation]] of smooth functors $\lambda_1 \Rightarrow \lambda_2 : C(\{U_i\}) \to \mathbf{B} GL(n)$ is precisely a [[coboundary]] between two such cocycles.
-
-### Semantic Layer
-
-#### Manifolds modeled on an object $V$
-
-+-- {: .num_defn }
-###### Definition
-
-Let $V \in \mathbf{H}$. We say that a **$V$-[[atlas]]** for an object $X \in \mathbf{H}$ is an [[effective epimorphism]]
-
-$$
-  a \colon \coprod_{i \in I} V \to X
-$$
-
-out of a [[coproduct]] of copies of $V$, such the [[fiber product]] of $a$ with itself is again a coproduct of $V$s and such that all the components of the two [[projections]] out of it are [[monomorphism in an (∞,1)-category|monomorphisms]].
-
-An object $X$ that admits a $V$-atlas we call a **$V$-[[manifold]]**.
-
-=--
-
-### Syntactic Layer
-
-
-
-
 
 
 
@@ -5804,7 +5804,7 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 ### General
 
-A textbooks with basic introductions to [[differential geometry]] and [[physics]] is
+A textbook with basic introductions to [[differential geometry]] and [[physics]] is
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
  {#Frankel}
