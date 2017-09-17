@@ -154,7 +154,7 @@ $$
 
 ### Closed monoidal structure {#ClosedMonoidalStructure}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every $(\infty,1)$-topos is a [[cartesian closed (∞,1)-category]].
@@ -179,7 +179,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ an [[(∞,1)-site]] for $\mathbf{H}$ we have that the [[internal hom]] ([[mapping stack]]) $[X,-]$ is given on $A \in \mathbf{H}$ by the [[(∞,1)-sheaf]]
@@ -222,7 +222,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Finite colimits may be taken out of the internal hom: For $I$ a finite $(\infty,1)$-category and $X : I \to \mathbf{H}$ a [[diagram]], we have for all $A \in \mathbf{H}$
@@ -281,7 +281,7 @@ Finally, because $L$ is a  [[left exact (∞,1)-functor]] this is also the [[(�
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $S \in$ [[∞Grpd]] write $LConst S$ for its [[inverse image]] under the [[global section]] [[(∞,1)-geometric morphism]] $(LConst \dashv \Gamma) : \mathbf{H} \to \infty Grpd$: the [[constant ∞-stack]] on $S$.
@@ -343,7 +343,7 @@ $$
 
 ### Over-$(\infty,1)$-toposes
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathbf{H}$ an $(\infty,1)$-topos and $X \in \mathbf{H}$ an object, the [[over-(∞,1)-category]] $\mathbf{H}_{/X}$ is itself an $(\infty,1)$-topos -- an **[[over-(∞,1)-topos]]**. The projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ part of an  [[essential geometric morphism]]
@@ -361,6 +361,16 @@ This is [[Higher Topos Theory|HTT, prop. 6.3.5.1]].
 
 The $(\infty,1)$-topos $\mathbf{H}_{/X}$ could be called the [[gros topos]] of $X$. A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors as $\mathbf{K} \to \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ is called an [[etale geometric morphism]].
 
+
+### Syntax in univalent homotopy type theory
+
+$(\infty,1)$-Toposes provide [[categorical semantics]] for [[homotopy type theory]] with a [[univalence|univalent]] Tarskian [[type of types]] (which inteprets as the [[object classifier]]).
+
+For more on this see at 
+
+* _[[homotopytypetheory:model of type theory in an (infinity,1)-topos]]_
+
+* _[relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_
 
 
 
