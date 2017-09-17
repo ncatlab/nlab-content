@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _finite spectrum_ is a [[spectrum]] presented by [[finite CW-complexes]].
+A _finite spectrum_ is a [[spectrum]] presented by sequences of [[finite homotopy types]] ([[finite CW-complexes]]).
 
 ## Properties
 
