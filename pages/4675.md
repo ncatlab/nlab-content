@@ -489,79 +489,6 @@ The extension problem in degree 4 amounts to a similar construction: by coskelet
 We now proceed to extend this factorization to the exponentiated differential coefficients (see [[connection on an ∞-bundle]]).
 
 
-+-- {: .num_prop #ShiftedWeilAlgebra}
-###### Observation
-
-The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfrak{g})$ is given on the extra shifted generators 
-$\{r^a := \sigma t^a, h := \sigma b, g := \sigma c\}$  (where $\sigma$ is the shift operator extended as a graded derivation, see [[Weil algebra]]) by
-
-* $d t^a = -\frac{1}{2} C^a{}_{b c} t^b \wedge t^c + r^a$;
-
-* $d b = - \mu + c + h$;
-
-* $d c = g$, 
-
-with [[Bianchi identities]]
-
-* $d r^a = - C^a{}_{b c} t^b \wedge r^c$
-
-* $d h = \sigma \mu - g$;
-
-* $d g = 0$.
-
-
-
-Let $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ be the dg-algebra
-with the same underlying graded algebra as $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
-but with the differential modified as follows
-
-* $d t^a = -\frac{1}{2} C^a{}_{b c} t^b \wedge t^c + r^a$;
-
-* $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
-
-* $d b = - cs + c + h$;
-
-* $d h = \langle -,-\rangle - g$;
-
-* $d c = g$ .
-
-* $d g = 0$
-
-There is an [[isomorphism]] 
-
-$$
-  W(b\mathbb{R} \to \mathfrak{g}_\mu)
-  \to 
-  \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)
-$$
-
-in [[dgAlg]] that is the identity on all generators except on $h$, where it is given by
-
-$$
-  h \mapsto h + (\mu - cs)
-  \,.
-$$
-
-=--
-
-+-- {: .num_note #RemarkOnShiftedWeilAlgebra}
-###### Note
-
-Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus exhibiting the modified $h$ as an [[invariant polynomial]].
-
-More details on this are at _[[differential string structure -- proofs]]_ .
-
-=--
-
-We shall in the following write $h$ for the generator of that name in $ \tilde W(b\mathbb{R})$.
-
-+-- {: .num_cor #TheInvariantPolynomials}
-###### Corollary
-
-The [[invariant polynomial]]s on $(b \mathbb{R} \to \mathfrak{g}_\mu)$ are generated from those of $\mathfrak{g}_\mu$ together with $h$ and $g$.
-
-=--
-
 +-- {: .num_prop #PresentationByFibration}
 ###### Proposition
 **(presentation of the differential class by a fibration)**
@@ -587,6 +514,8 @@ of $\exp(\mu,cs)$ in $[CartSp^{op}, sSet]_{proj}$, where the first morphism is a
 
 +-- {: .proof}
 ###### Proof
+
+The following proof makes use of details discussed at _[[differential string structure -- proofs]]_ .
 
 We discuss that the first morphism is an equivalence. Clearly it is injective on homotopy groups: if a sphere of $A$-data cannot be filled, then also adding the $(B,C)$-data does not yield a filler. So we need to check that it is also surjective on homotopy groups: if the $A$-data can be filled, then also the corresponding $(B,C)$-data has a filler. Since the curvature $H$ is horizontal it is already extended. We may extend $B$ in any smooth way to $U \times \Delta^k$ (for instance by rescaling it smoothly to zero at the center of the $k$-simplex) and then take the equation $d B = - CS(A) + C + H$ to define the extension of $C$. 
 
