@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -8,7 +16,7 @@
 
 ## Idea
 
-For $X$ a smooth space, there are useful refinements of the [[fundamental groupoid]] $\Pi_1(X)$ which remember more than just the homotopy class of paths, i.e. whose morphisms are (piecewise, say) smooth paths in $X$ modulo an equivalence relation still strong enough to induce a groupoid structure, but weaker than dividing out homotopies relative to endpoints.
+For $X$ a smooth space, there are useful refinements of the [[fundamental groupoid]] $\Pi_1(X)$ which remember more than just the [[homotopy]] class of paths, i.e. whose morphisms are (piecewise, say) smooth paths in $X$ modulo an equivalence relation still strong enough to induce a groupoid structure, but weaker than dividing out homotopies relative to endpoints.
 
 ## Definition
 
@@ -39,7 +47,7 @@ A path $\gamma : [0,1] \to X$ has **sitting instants** if there is a neighbourho
 
 +--{: .un_defn}
 ######Definition
-The **path groupoid** $P_1(X)$ has
+The **path groupoid** $P_1(X)$ is the [[diffeological groupoid]] that has
 
 * $Obj(P_1(X)) = X$
 * $P_1(X)(x,y) = \{$thin-homotopy classes of paths $\gamma : x \to y $ with sitting instants $\}$.
