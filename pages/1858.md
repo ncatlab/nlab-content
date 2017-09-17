@@ -32,7 +32,13 @@ Definitions of path 2-groupoids as strict [[2-groupoids]] internal to [[diffeolo
 
 A realization of the path [[3-groupoid]] as a [[Gray-groupoid]] internal to [[diffeological spaces]] appears in 
 
-* Joao Faria Martins, Roger Picken, _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
+* Joao Faria Martins, [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
 
 
 [[!redirects path n-groupoids]]
+
+[[!redirects path 2-groupoid]]
+[[!redirects path 2-groupoids]]
+
+[[!redirects path 3-groupoid]]
+[[!redirects path 3-groupoids]]
