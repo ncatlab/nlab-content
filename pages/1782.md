@@ -22,9 +22,9 @@ Some idea of its history is given in [[Algebraic K-theory, a historical perspect
 
 * [[Algebraic K-theory, a historical perspective]] (Whitehead and Grothendieck);
 
-* [[Milnor's $K_2$]]([[Steinberg group]],[[universal central extension]])
+* [[Milnor's K2]]([[Steinberg group]],[[universal central extension]])
 
-* [[Higher algebraic $K$-theory]] [[Quillen exact category]], [[Quillen's plus construction]], [[Volodin spaces]];
+* [[higher algebraic K-theory]] [[Quillen exact category]], [[Quillen's plus construction]], [[Volodin spaces]];
 
 * Links with other areas: [[The algebraic K-theory of spaces]]([[Waldhausen S-construction]]), [[topological cyclic homology]], [[algebraic K-theory of operator algebras]], ...
 
@@ -104,6 +104,8 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 * [[differential algebraic K-theory]]
 
 * [[non-connective algebraic K-theory]]
+
+* [[real algebraic K-theory]]
 
 * [[K-theory of a permutative category]]
 
