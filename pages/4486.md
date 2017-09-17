@@ -86,7 +86,7 @@ If $f:U\to \mathbb{R}^m$ is twice differentiable with $U\subseteq \mathbb{R}^n$,
 $$d(d f) : U \to L(\mathbb{R}^n,L(\mathbb{R}^n,\mathbb{R}^m)) \cong Bilin(\mathbb{R}^n,\mathbb{R}^n;\mathbb{R}^m)$$
 is a function from $U$ into the space of [[bilinear maps]] from $\mathbb{R}^n\times \mathbb{R}^n$ to $\mathbb{R}^m$.
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 If $f:U\to \mathbb{R}^m$ is twice differentiable, then its second derivative $d(d f)$ lands in the space of *symmetric* bilinear maps, i.e. for any $x\in U$ and $v,w\in \mathbb{R}^n$ we have
 $$ d(d f)_x(v,w) = d(d f)_x(w,v). $$
@@ -125,7 +125,7 @@ The second-order partial derivatives may *exist* without the mixed partials bein
 
 In particular, we have the following corollary, which is more commonly found in textbooks.
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 If $f$ has first and second-order partial derivatives, and the latter are continuous in a neighborhood of $x$, then the mixed partial derivatives are equal,
 $$\frac{\partial^2 f}{\partial x_i \partial x_j} = \frac{\partial^2 f}{\partial x_j \partial x_i}.$$
