@@ -19,7 +19,12 @@
 
 ## Idea
 
-The _model structure for dendroidal Cartesian fibrations_ is an [[operad|operadic]] analog of the _[[model structure for Cartesian fibrations]]_. Its fibrant objects are [[Cartesian fibrations of dendroidal sets]].
+The _model structure for dendroidal Cartesian fibrations_ is an [[operad|operadic]] analog of the _[[model structure for Cartesian fibrations]]_. Its fibrant objects are [[Cartesian fibrations of dendroidal sets]]. These in turn model (Grothendieck-)fibrations of [[(∞,1)-operads]].
+
+## Related concepts
+
+For an overview of models for [[(∞,1)-operads]] see
+_[[table - models for (infinity,1)-operads]]_.
 
 ## References
 
