@@ -2220,16 +2220,16 @@ On cohomology classes this means that
 
 $$
   [\tfrac{1}{2}p_1(\phi_{gr})] = [a(\phi_{ga})] \;\; \in H^4(X, \mathbb{Z})
-  \,,
+  \,.
 $$
 
-which is the integral part of the [[Green-Schwarz mechanism]] for the heterotic string
+This is the integral part of the [[Green-Schwarz mechanism]] for the [[heterotic string theory|heterotic string]]. 
 
 Since this is now refined not just to cocycles, but to differential cocycles -- to $\mathrm{String}^{\mathbf{a}}$-[[connection on a 2-bundle|2-connections]], 
 there is, locally over a cover $\{U_i \to X\}$, also an equation of differential 
 forms that exhibits this in de Rham cohomology. 
 
-A morphism $X \to String^{2\mathbf{a}}_{conn}$ classifies field content that is expressed with respect to a [[good open cover]] $\{U_i \to X\}$ in particular over single patches $U_i$ by
+A morphism $X \to String^{2\mathbf{a}}_{conn}$ classifies field content that is expressed with respect to a [[good open cover]] $\{U_i \to X\}$ in particular over single patches $U_i$ by  ([SSSa](#SSSa), [FSSa](#FSSa))
 
 * the [[connection on a bundle|gauge connection]] $A_i \in \Omega^1(U_i, \mathfrak{e}_8 \oplus \mathfrak{e}_8)$;
 
@@ -2237,7 +2237,7 @@ A morphism $X \to String^{2\mathbf{a}}_{conn}$ classifies field content that is 
 
 * the [[B-field]] $\phi_B \in \Omega^2(U_i)$;
 
-which come with [[curvature]]/[[field strenght]] forms
+which come with [[curvature]]/[[field strengh]] forms
 
 * $F_{A_i} = d_{dR} A_i + \tfrac{1}{2}[A_i \wedge A_i]$
 
@@ -2253,20 +2253,12 @@ satisfying the (twisted) [[Bianchi identities]] ([SSS](spring)))
 
 * $d_{dR} H = \langle F_\omega \wedge F_\omega \rangle  - \langle F_A \wedge F_A \rangle$
 
-Let $F_\omega$ be the [[curvature]]
-of the spin connection, and $F_A$ that of the $E_8$-connection. The homotopy
-inside the homotopy pullback is exhibited by a twisted 2-form [[B-field]] whose
-[[Bianchi identity]] is twisted to become ([SSSa](#SSSa), [FSSa](#FSSa))
-
-$$
-  d_{dR} H = \langle F_\omega \wedge F_\omega \rangle  - \langle F_A \wedge F_A \rangle
-  \,,
-$$
-
-(together with more local cocycle components on higher overlaps) exhibiting the above identity in de Rham cocycles. 
+(together with more local cocycle components on higher overlaps). Notably the twisted Bianchi identity of $H$ exhibits the above cohomological identity in de Rham cocycles. 
 
 These formulas characterize the
-[[Green-Schwarz mechanism|Green-Schwarz anomaly cancellation mechanism]] that makes the heterotic string be well defined.
+[[Green-Schwarz mechanism|Green-Schwarz anomaly cancellation conditions]] on the [[background gauge field]] content, that makes the heterotic string be well defined. Accordingly, $String^{\mathbf{a}}_{conn}$ is the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|modul 2-stack]] of anomaly free heterotic background fields (in the massless bosonic sector).
+
+
 
 
 #### **d)** Twisted differential Fivebrane structure -- dual Green-Schwarz mechanism
@@ -2632,7 +2624,7 @@ The string-theoretic aspects of the above discussion owe a lot to [[Hisham Sati]
 
 The smooth and differential refinements of these structures have been jointly developed in articles including the following
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections and applications to String- and Chern-Simons n-transport]]_ 
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ 
  {#SSSa}
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]],_[[schreiber:Fivebrane structures]]_
