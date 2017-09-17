@@ -28,7 +28,7 @@ $$
 +-- {: .num_prop #HomologyOfQuotientSpace}
 ###### Proposition
 
-If $A \hookrightarrow X$ is an inclusion of [[topological spaces]] such that $A$ has a [[neighbourhood]] which is a [[deformation retract]] in $X$, then the $A$-relative singular homology of $X$ coincides with the homology of the [[quotient space]] $X/A$: 
+If $A \hookrightarrow X$ is [[close subset|closed]] [[topological subspace]] such that $A$ has a [[neighbourhood]] which is a [[deformation retract]] in $X$, then the $A$-relative singular homology of $X$ coincides with the homology of the [[quotient space]] $X/A$: 
 
 $$
   H_n(X/A)
