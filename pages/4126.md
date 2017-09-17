@@ -132,7 +132,7 @@ The Kochen-Specker theorem is equivalent to the statement that in the presheaf [
 
 The original article is
 
-* [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ , Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/dfulltext.php?year=1968&volume=17&artid=17004).
+* [[Simon Kochen]], [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ , Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FTDLOAD/1968/17/17004/pdf).
 
 The sheaf-theoretic interpretation of the theorem was proposed in
 
