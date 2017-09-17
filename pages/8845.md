@@ -26,6 +26,8 @@ The notion of _super determinant_ of _Berezinian_ is the generalization of the n
 
 ## References
 
+Originally due to [[Felix Berezin]].
+
 * Wikipedia, _[Berezinian](http://en.wikipedia.org/wiki/Berezinian)_
 * Deligne's lectures in [[P. Deligne]], [[P. Etingof]], [[Daniel Freed|D.S. Freed]], L. Jeffrey, [[D. Kazhdan]], J. Morgan, D.R. Morrison and [[E. Witten]], eds. [[Quantum Fields and Strings]], A course for mathematicians, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
