@@ -36,6 +36,14 @@ A category with a zero object is sometimes called a _[[pointed category]]_.
 +-- {: .num_remark}
 ###### Remark
 
+This means that $0 \in \mathcal{C}$ is a zero object precisely if for every other object $A$ there is a unique [[morphism]] $A \to 0$ to the zero object as well as a unique morphism $0 \to A$ from the zero object.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
 There is also a notion of **zero object** in [[algebra]] which does not always coincide with the category-theoretic terminology. For example the zero [[ring]] $\{0\}$ is not an [[initial object]] in the category of unital rings (this is instead the [[integers]] $\mathbb{Z}$); but it is the 
 [[terminal object]].
 
