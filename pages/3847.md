@@ -43,7 +43,7 @@ $$
   X \leftarrow X^{(2)} \rightarrow X\times X
 $$ 
 
-denoting the moduli stack of 2-flags of coherent sheaves on $X$, then the coresponding pull-push multiplication on the motivic Grothendieck ring $K(X)$ is called the _motivic Hall algebra_ of $X$ (due to [[Dominic Joyce]] reviewed e.g. in [Bridgeland 10, 4.2](#Bridgeland10)). Discussion of motivic Hall algebras of [[Calabi-Yau 3-folds]] is in ([Kontsevich-Soibelman 08](#KontsevichSoibelman08)).
+denoting the moduli stack of 2-flags of coherent sheaves on $X$, then the corresponding pull-push multiplication on the motivic Grothendieck ring $K(X)$ is called the _motivic Hall algebra_ of $X$ (due to [[Dominic Joyce]] reviewed e.g. in [Bridgeland 10, 4.2](#Bridgeland10)). Discussion of motivic Hall algebras of [[Calabi-Yau 3-folds]] is in ([Kontsevich-Soibelman 08](#KontsevichSoibelman08)).
 
 ### In terms of constructible sheaves
 
