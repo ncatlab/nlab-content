@@ -174,6 +174,8 @@ Probably the trickiest bit is the definition of [[composition]] of binary relati
 
 * [[graph]]
 
+* [[logical relation]]
+
 [[!redirects relation]]
 [[!redirects relations]]
 [[!redirects relation theory]]
