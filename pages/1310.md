@@ -17,7 +17,10 @@
 
 ## Idea
 
+This entry discusses [[∞-actions]]/[[∞-representations]] of [[Lie-infinity algebroids]], hence the [[infinitesimal object|infinitesimal]] version of [[∞-actions]] of [[smooth ∞-groupoids]].
+
 Recall that an $L_\infty$-[[Lie infinity-algebroid|algebroid]] is both a
+
 [[horizontal categorification]] as well as a 
 [[vertical categorification]] of a Lie algebra: it is
 to Lie algebras as [[Lie ∞-groupoids]] are to Lie groups.
@@ -187,7 +190,8 @@ which may be thought of as the dual of the representation morphism (see the exam
 In ([Block 05](#Block05)) the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-$\infty$-algebroid
 $(g,A)$ in the above sense -- called _dg-algebra modules_ there -- is defined.
 
-**Definition**
++-- {: .num_defn}
+###### Definition
 
 Given two objects $CE_\rho(g,V)$ and $CE_{\rho'}(g,V')$
 in $Rep(g,A)$, the cochain complex 
@@ -212,12 +216,35 @@ $$
 
 with Lie representations of $(g,A)$ as objects and chain comoplexes as above as hom-objects is a [[dg-category]].
 
+=--
 
-## Properties
+## Examples
 
-### Relation to coherent complexes of sheaves 
+### Basic
 
-The following is a [[homotopy theory|homotopy-theoretic]]-refinement of the classical [[Koszul-Malgrange theorem]].
++-- {: .num_example}
+###### Example
+
+For an n ordinary [[Lie algebra representation]] $\rho$ on a vector space $V$ consider the [[Chevalley-Eilenberg algebra]] $CE_\rho(g,V)$ that computes the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in $V$. This exhibits the action in the above sense.
+
+=--
+
++-- {: .num_example #ActionOfTangentLieAlgebroid}
+###### Example
+
+A [[flat connections]] on a [[vector bundle]] exhibits a representation of the [[tangent Lie algebroid]] of the base manifold.
+
+=--
+
+A holomorphic variant of this is [below](#ActionOfHolomorphicTangentAlgebroid).
+
+* (...) [[adjoint representation]] of $L_\infty$-[[L-∞-algebras|algebras]]
+
+
+### Action of holomorphic tangent Lie algebroid on chain complexes of complex vector bundles
+  {#ActionOfHolomorphicTangentAlgebroid}
+
+The following variant of example \ref{ActionOfTangentLieAlgebroid} is a [[homotopy theory|homotopy-theoretic]]-refinement of the classical [[Koszul-Malgrange theorem]].
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -237,39 +264,61 @@ This is ([Block 05, theorem 2.22](#Block05) (in the counting of version 1 on the
 The objects of $Rep(T_{hol} X)$ are literally complexes of smooth vector bundles that are equipped with "half a flat connection", namely with a flat covariant derivative only along holomorphic tangent vectors. It is an old result that [[holomorphic vector bundles]] (see there) are equivalent to such smooth vector bundles with "half a flat connection". This is what the theorem is based on.
 
 
+### Extensions of $L_\infty$-algebras
+ {#Extensions}
 
++-- {: .num_example}
+###### Example
 
+For $\mathfrak{g}$ any [[L-∞ algebra]], and $\mathfrak{a}$ any other,then an [L-∞ extension](infinity-Lie+algebra+cohomology#Extensions) (see there) $\hat {\mathfrak{g}}$ of $\mathfrak{g}$ by $\mathfrak{a}$ is a [[homotopy fiber sequence]]
 
-### Relation to D-modules 
+$$
+  \mathfrak{a} \to \hat {\mathfrak{g}} \to \mathfrak{g}
+$$
 
-For $(g,A) = T X$ the tangent Lie algebroid of a smooth manifold $X$, it should be true,
-up to technicalities to be spelled out here eventually, that $Ho Rep(T X)$ is equivelent
-to the derived category of [[D-modules]] on $X$, or the like.
+of [[L-∞ algebras]] (see at _[[model structure for L-∞ algebras]]_). Regarding this as sequence of [[L-∞ algebroids]] over the point
 
+$$
+  \mathbf{B}\mathfrak{a} \to \mathbf{B}\hat {\mathfrak{g}} \to \mathbf{B}\mathfrak{g}
+$$
 
-## Examples
+and then passing to [[Chevalley-Eilenberg algebras]], this exhibits an action/representation of the $L_\infty$-algebra $\mathfrak{g}$ on the $L_\infty$-algebroid $\mathbf{B}\mathfrak{a}$.
 
-* ordinary [[Lie algebra representation]] on a vector space: $CE_\rho(g,V)$ is essentially the Chevalley-Eilenberg complex that computes the cohomology of $g$ with coefficients in $V$.
+=--
 
-* flat connections on bundles
+For instance the [[string Lie 2-algebra]] is the $\mathbf{B} \mathbb{R}$-extension of a semisimple [[Lie algebra]] $\mathfrak{g}$ with bilinear [[invariant polynomial]] $\langle -,-\rangle$ corresponding to the 3-cocycle $\langle -,[-,-]\rangle \in CE(\mathfrak{g})$, hence exhibits an action/representation of $\mathfrak{g}$ on $\mathbf{B}\mathbb{R}$. This is the infinitesimal version of the [[∞-action]] of a simply connected compact simple [[Lie group]] $G$ on the [[circle 2-group]] $\mathbf{B}U(1)$ which exhibits the [[String 2-group]] extension.
 
-* [[adjoint representation]] of $L_\infty$-[[L-∞-algebras|algebras]]
+Analogous statements in various degrees hold for the $L_\infty$-algebra [[Fivebrane 6-group]]
+
+$$
+  \mathbf{B}^6 \mathbb{R} \to \mathfrak{fivebrane}\to \mathfrak{string}
+$$
+
+exhibiting an $\infty$-action of the [[string Lie 2-algebra]] on $\mathbf{B}^7 \mathbb{R}$, and analogously for the [[supergravity Lie 3-algebra]], the [[supergravity Lie 6-algebra]] and for all the other extensions in [[schreiber:The brane bouquet]].
+
 
 
 ## References
+ {#References}
 
 The definition of representation of $L_\infty$-algebras is discussed in section 5 of
 
 * [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ ([arXiv:9406095](http://arxiv.org/abs/hep-th/9406095))
 
-The general definition of representation of $\infty$-Lie algebroids as above appears in
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Differential twisted string- and fivebrane structures_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>)
+The general definition of representation of $\infty$-Lie algebroids (of [[finite type]]) as above appears as def. 4.9 in 
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Differential twisted string- and fivebrane structures_ ([arXiv:0910.4001 version 1](http://arxiv.org/abs/0910.4001v1))
+
+(this discussion is not in the published version [arXiv:0910.4001v2](http://arxiv.org/abs/0910.4001v2), for size reasons)
+
+modeled after the geneal abstract definition of [[∞-actions]] in 
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures, 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
 The definition of the dg-category of representation of a tangent Lie algebroid and its equivalence in special cases to derived categories of complexes of coherent sheaves is in
 
 * {#Block05} [[Jonathan Block]], _Duality and equivalence of module categories in noncommutative geometry I_ ([arXiv:0509284](http://arxiv.org/abs/math/0509284))
-
 
 For the case of Lie 1-algebroids essentially the same definition appears also in
 
@@ -298,3 +347,4 @@ The [[Lie integration]] of representations of Lie 1-algebroids $\mathfrak{a} \to
 
 [[!redirects representation up to homotopy]]
 [[!redirects representations up to homotopy]]
+
