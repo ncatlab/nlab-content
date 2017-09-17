@@ -228,6 +228,10 @@ A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regar
 * [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
  {#Hoffnung}
 
+A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is a [[compact closed 2-category]]:
+
+* [[Mike Stay]], _Compact Closed Bicategories_ ([arXiv:1301.1053](http://arxiv.org/abs/1301.1053))
+ {#Stay13}
 
 [[!redirects (∞,n)-category of spans]]
 [[!redirects (∞,n)-categories of spans]]
