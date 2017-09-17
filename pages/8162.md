@@ -1,0 +1,12 @@
+
+## Idea
+
+For $X$ a [[filtered object]] in an [[abelian category]] $\mathcal{C}$, the _associated graded object_ is the [[graded object]] which in degree $n$ is the [[quotient]] of the $n$th layer of $X$ by the next lower one:
+
+$$
+  Gr(X)_n := X_{(n)}/X_{(n+1)}
+  \,.
+$$
+
+[[!redirects associated graded]]
+[[!redirects associated graded objects]]
