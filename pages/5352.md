@@ -1,4 +1,6 @@
 
+> This entry is about the concept in [[differential geometry]]. For the concept of [[Jacobian variety]] see there.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
