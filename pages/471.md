@@ -209,6 +209,11 @@ In [[homotopy type theory]] the cellular interval can be axiomatized as a [[high
 
 ## Examples
 
+* In [[sSet]] the standard interval object is the 1-[[simplex]] $\Delta[1]$.
+
+* In a [[category of chain complexes]] the standard interval is 
+  the [[chain on a simplicial set|simplicial chain complex]] $C_\bullet(\Delta[1])$ on the 1-simplex, see at [[interval object in chain complexes]].
+
 * The [[cube category]] is generated from a single interval object.
 
 * The **standard interval object** in [[Cat]] is the 1st [[oriental]] $\{0\to 1\}$ (see [[co-span co-trace]])
