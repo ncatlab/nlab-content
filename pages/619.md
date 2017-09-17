@@ -100,13 +100,9 @@ the following are equivalent:
 
 2. The [[counit of an adjunction|counit]] $\varepsilon : Q^* Q_*\to 1_A$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
 
-3. The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated to the adjunction is [[idempotent monad|idempotent]].
+3. The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated with the adjunction is [[idempotent monad|idempotent]], the right adjoint $Q_*$ is [[conservative functor|conservative]], and the left adjoint $Q^*$ is [[essentially surjective functor|essentially surjective on objects]].
 
 4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$, then $Q^*: A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
-
-+-- {: .query}
-3 => 2 is doubtful, but I do not know what the author meant instead. (AnonymousCoward)
-=--
 
 =--
 
