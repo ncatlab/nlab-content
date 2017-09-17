@@ -52,3 +52,10 @@ Jardine's lectures
 * **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
 discuss the Quillen equivalence between the model structure on simplicial sheaves and the [[model structure on simplicial presheaves]].
+
+Wendt discusses "the construction of classifying spaces of fibre sequences in model categories of simplicial sheaves" in 
+
+* Matthias Wendt, _Classifying spaces and fibrations of simplicial sheaves_, [arxiv/1009.2930](http://arxiv.org/abs/1009.2930) 
+
+[[!redirects model structures on simplicial sheaves]]
+[[!redirects model structure on the category of simplicial sheaves]]
