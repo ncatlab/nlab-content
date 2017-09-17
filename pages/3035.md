@@ -167,6 +167,12 @@
 
 ### $\infty$-Lie algebras
 
+* [[general linear Lie algebra]]
+
+* [[orthogonal Lie algebra]], [[special orthogonal Lie algebra]]
+
+* [[endomorphism L-∞ algebra]]
+
 * [[automorphism ∞-Lie algebra]]
 
 * [[string Lie 2-algebra]]
@@ -177,6 +183,7 @@
 
 * [[supergravity Lie 6-algebra]]
 
+* [[line Lie n-algebra]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Lie+theory+-+contents)</div>
 
