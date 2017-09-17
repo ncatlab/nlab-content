@@ -12,7 +12,8 @@ An **orthogonal factorization system** can be defined as a [[weak factorization 
 * $M$ is precisely the class of morphisms that are right [[orthogonality|orthogonal]] to every morphism in $E$.
 
 OFS's are traditionally called just **factorization systems**.
-See the _[[joyalscatlab:Factorization systems|Catlab]]_ for the theory. 
+See the _[[joyalscatlab:Factorization systems|Catlab]]_ for more of the theory.
+
 An orthogonal factorization system is called **proper** if every morphism in $E$ is an [[epimorphism]] and every morphism in $M$ is a [[monomorphism]].
 
 
