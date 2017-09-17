@@ -2,6 +2,10 @@
 [[!include higher category theory - contents]]
 </div>
 
+# Higher morphisms ($k$-morphisms)
+* table of contents
+{: toc}
+
 ## Idea
 
 In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-category|category]], there are many levels of [[morphism]], parametrised by [[natural numbers]].  Those at level $k$ are called __$k$-morphisms__ or __$k$-cells__.
@@ -42,14 +46,17 @@ Also note that every $k$-morphism has $k + 1$ identity $(k+1)$-morphisms, which 
 =--
 
 
-[[!redirects j-morphism]]
-[[!redirects n-morphism]]
-[[!redirects m-morphism]]
-[[!redirects r-morphism]]
-[[!redirects s-morphism]]
-[[!redirects j-morphisms]]
+[[!redirects higher morphism]]
+[[!redirects higher morphisms]]
+[[!redirects k-morphism]]
 [[!redirects k-morphisms]]
+[[!redirects j-morphism]]
+[[!redirects j-morphisms]]
+[[!redirects n-morphism]]
 [[!redirects n-morphisms]]
+[[!redirects m-morphism]]
 [[!redirects m-morphisms]]
+[[!redirects r-morphism]]
 [[!redirects r-morphisms]]
+[[!redirects s-morphism]]
 [[!redirects s-morphisms]]
