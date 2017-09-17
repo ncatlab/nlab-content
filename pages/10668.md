@@ -32,6 +32,8 @@ The basic definitions are in
 
 Further properties are discussed in 
 
+* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
 * [[Jacob Lurie]], _[[Proper Morphisms, Completions,
 and the Grothendieck Existence Theorem]]_
 
