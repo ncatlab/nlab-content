@@ -250,6 +250,8 @@ A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is
 [[!redirects (infinity,1)-category of correspondences]]
 [[!redirects (infinity,1)-categories of correspondences]]
 
+[[!redirects higher correspondence]]
+[[!redirects higher correspondences]]
 
 
 [[!redirects Span]]
