@@ -27,7 +27,7 @@ An introductory textbook on [[homotopy type theory]] and its use as a [[foundati
 
   _Homotopy Type Theory -- Univalent Foundations of Mathematics_
 
-  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**, **[hyperlinked wiki version](http://planetmath.org/node/87534)**)
+  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**, **[[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534)**)
 
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://hottheory.files.wordpress.com/2013/03/cover-web.png?w=208&h=300" alt="HoTT book cover" /></div>
 
@@ -51,6 +51,7 @@ category: reference
 [[!redirects The HoTT Book]]
 [[!redirects HoTT book]]
 [[!redirects The HoTT book]]
+
 [[!redirects the HoTT book]]
 
 [[!redirects Homotopy Type Theory – Univalent Foundations of Mathematics]]
