@@ -15,9 +15,9 @@
 
 ## Idea 
 
-A preorder (also sometimes called a _[[quasi-order]]_, especially if one works with $\lt$ instead of $\leq$) is like a [[partial order]], but without the requirement that $x \leq y$ and $y \leq x$ implies $x = y$.  
+A preorder (also sometimes called a _[[quasi-order]]_, especially if one works with $\lt$ instead of $\leq$) is like a [[partial order]], but without the "antisymmetry" requirement that $x \leq y$ and $y \leq x$ implies $x = y$.
 
-If we think of a partially ordered set as a special sort of [[category]], then it is (in general) [[evil]] to talk about [[equality]] of objects; but if $x \le y$ and $y \le x$, then we think of $x$ and $y$ as [[isomorphism|isomorphic]], and we may as well say that they are equal (since they are isomorphic in only one way).  However, if we really want a [[strict category]] instead, then it is meaningful to talk of equality in sense such that isomorphic objects are not necessarily equal.  In this case, we should use a preordered set instead of a partially ordered set.
+By interpreting the relation $\leq$ as the existence of a unique arrow, preorders may be regarded as certain [[categories]] (namely, [[thin categories]]); see below for details.
 
 
 ## Definition
@@ -32,6 +32,14 @@ Equivalently, a proset is a (strict) [[thin category]]: a [[strict category]] su
 ### Relation to partial orders
 
 Any preordered set is [[equivalence of categories|equivalent]] to a [[partial order|poset]].  This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' weakly enough) this case does _not_ require the [[axiom of choice]].
+
+### Relation to thin categories
+
+In [[set theory|set-theoretic]] [[foundations]], a preordered set is the same as a [[thin category]] (a category in which any two parallel [[morphisms]] are equal), and it is partially ordered just when it is [[skeletal category|skeletal]].  Thus, asking for a preordered set to be partially ordered may seem [[evil]].  However, as remarked above, a thin category always has a [[skeleton]] which is a poset; so working with posets up to isomorphism is the same as working with preordered sets up to equivalence.  In other words, if $x \le y$ and $y \le x$, so that $x$ and $y$ are [[isomorphism|isomorphic]], we may as well say that they are equal (since they are isomorphic in only one way).
+
+If we distinguish between isomorphism and [[equality]] of elements in a preordered set (hence considering preordered sets up to isomorphism, rather than up to equivalence), then this is equivalent to considering the corresponding thin category to also be a [[strict category]].  When treated in this sense, preordered sets are not equivalent to posets.
+
+On the other hand, in non-set-theoretic [[foundations]] where not every category need have an underlying set (i.e. need not be a [[strict category]] in any canonical way) --- such as [[homotopy type theory]] or [[preset]] theories --- a preordered set defined as "a set with a relation $\leq$ ..." is automatically a strict category, with a notion of equality of objects coming from the given set.  By contrast, in this case a thin category (as opposed to a more general category) does have a canonical structure of strict category in which equality of objects *means* isomorphism, but not every strict thin category is canonical in this sense.  In this case, partially ordered sets correspond to thin categories (with canonical strict-category structures), while preordered sets correspond to thin categories with arbitrary strict-category structures.
 
 
 ### Cauchy completion
