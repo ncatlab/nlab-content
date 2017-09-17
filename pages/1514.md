@@ -165,6 +165,10 @@ Textbook accounts include
 
 ### For charged particle/path integral of holonomy functional
 
+The following articles discuss (aspects of) the path integral for the [[charged particle]] coupled to a [[background gauge field]], in which case the path integral is essentially the integration of the [[holonomy]]/[[parallel transport]] functional against the [[Wiener measure]].
+
+* [pdf](http://www.math.ucsd.edu/~bdriver/DRIVER/Papers/Drivers_Papers/A26-Heat-Derivative-Formula.pdf)
+
 * Marc Arnaudon and Anton Thalmaier, _Yang--Mills fields and random holonomy along Brownian bridges_, Ann. Probab. Volume 31, Number 2 (2003), 769-790.
 
 Around p. 73 of 
