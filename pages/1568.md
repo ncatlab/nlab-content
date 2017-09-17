@@ -1,9 +1,7 @@
 
-> This entry discusseds the notion of _ideal_ in fair generality. For an entry closer to the standard notion see at _[[ideal in a monoid]]_.
-
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definitions
 
@@ -65,9 +63,11 @@ A [[Boolean algebra]] is a rig in two different ways: as a distributive lattice 
 
 There is a notion of ideal in a [[monoid]], or more generally in a [[monoid object]] in any [[monoidal category]] $C$, which generalises the notion of ideal in a ri(n)g or in a (semi)lattice.  That is, if $C$ is [[Ab]], then a monoid in $C$ is a [[ring]]; if $C$ is [[Ab Mon]], then a monoid in $C$ is a [[rig]]; and a [[semilattice]] is a commutative idempotent monoid in [[Set]].  See [[ideal in a monoid]].
 
+
 ### In categories
 
 More generally still, passing from monoids to their many-object version there is a notion of ideal in a [[category]]. This is usually called a _[[sieve]]_. See there.
+
 
 ## Kinds of ideals
 
