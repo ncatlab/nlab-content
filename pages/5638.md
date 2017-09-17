@@ -70,3 +70,5 @@ $$
 
 
 [[!redirects line Lie n-algebras]]
+
+[[!redirects line Lie algebra]]
