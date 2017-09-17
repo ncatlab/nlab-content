@@ -1,0 +1,11 @@
+* __Seminar on Triples and Categorical Homology Theory__, Lec. Notes in Math. __80__, B. Eckmann and M. Tierney, editors, Springer 1969.
+
+Reprinted as 
+
+* Reprints in Theory and Applications of Categories __18__ (2008) pp. 1-303 [abs](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html)
+
+MSC 2000: 18C05, 18C15, 18E25, 18G10 
+
+category: reference
+[[!redirects Seminar on Triples]]
+[[!redirects Seminar on Triples and Categorical Homology Theory]]
