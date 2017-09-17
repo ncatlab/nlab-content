@@ -112,6 +112,8 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 
 * [[super Riemann surface]]
 
+* [[stable vector bundle]]
+
 ## References
 
 * [[Hermann Weyl]], _The concept of a Riemann surface_
