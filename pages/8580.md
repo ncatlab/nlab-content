@@ -25,11 +25,11 @@ This page is going to contain an introduction to aspects of [[differential geome
 
 ### Scope and perspective
 
-The intended topic scope and readership of this page is much like that of the book ([Frankel](#Frankel)), only that here we make use of a more modern and more transparent conceptual toolbox. 
+The intended topic scope and readership of the first layer of this page -- the _[Mod Layer](#LayerMod)_ --  is much like that of the book ([Frankel](#Frankel)), only that here we make use of a more modern and more transparent conceptual toolbox and discuss in two other layers, the _[Sem Layer](#LayerSem)_ and the _[Syn Layer](#LayerSyn)_ the deeper mechanisms at work in the background.
 
-For instance where traditionally expositions of [[differential geometry]] proceed by generalizing the [[geometry]] of [[coordinate|coordinate systems]] $\mathbb{R}^n$ to _[[smooth manifolds]]_, here we instead begin by generalizing coordinate systems right away to _[[smooth spaces]]_, which happens to be both more expressive as well as actually much easier. Smooth manifolds are then introduced later as an intermediate notion, together with that of _[[diffeological spaces]]_. (Many of the constructions in [[differential geometry]] applied in [[physics]] do not actually need the notion of a smooth manifold, and, more importantly, for many notions in modern theoretical physics smooth manifolds are not actually sufficiently general.) But we will of course discuss plain manifolds, too.
+For instance where traditionally expositions of [[differential geometry]] proceed by generalizing the [[geometry]] of abstract [[coordinate|coordinate systems]] $\mathbb{R}^n$ to _[[smooth manifolds]]_, here we instead begin by generalizing, in the _[Mod layer](#LayerMod)_, coordinate systems right away to _[[smooth spaces]]_, which happens to be both more expressive as well as actually much easier. In parallel (and to be read independently or not at all) we discuss in the  [Sem layer](#LayerSem) how this means that we are working in the _[[sheaf topos]]_ over abstract coordinate systems.  Smooth manifolds are then introduced later as an intermediate notion, together with that of _[[diffeological spaces]]_. (Many of the constructions in [[differential geometry]] applied in [[physics]] do not actually need the notion of a smooth manifold, and, more importantly, for many notions in modern theoretical physics smooth manifolds are not actually sufficiently general.) 
 
-In fact we introduce smooth manifolds only after we introduce _[[smooth groupoids]]_, which are differential geometric structures that are _still_ simpler than smooth manifolds, and of course even more expressive than smooth spaces. In fact, smooth groupoids are the very heart of the geometry of physics. Modern fundamental physics is all based on the "[[gauge symmetry|gauge principle]]" and mathematically this is essentially nothing but the theory of smooth groupoids. 
+In fact we introduce smooth manifolds only after we introduce _[[smooth groupoids]]_, which are differential geometric structures that are _still_ simpler than smooth manifolds, and of course even more expressive than smooth spaces. In fact, smooth groupoids are the very heart of the geometry of physics. Modern fundamental physics is all based on the "[[gauge symmetry|gauge principle]]" and in the [Mod Layer](#LayerMod) we explain how, mathematically, this is essentially nothing but the theory of smooth groupoids. As further background information we discuss in the [Sem Layer](#LayerSem) how this means that we are working in a [[(infinity,1)-topos|higher topos]] over abstract coordinate systems, and in the [Syn Layer](#LayerSyn) how this means that we are reasoning about physics using the _[[natural deduction]]_ rules of _[[homotopy type theory]]_.
 
 ### Layers of exposition
  {#Layers}
@@ -58,9 +58,9 @@ This is meant for readers who enjoy seeing fundamental physics _naturally_ roote
 ## Coordinate systems
  {#CoordinateSystems}
 
-Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archtypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$, in every [[dimension]] $n \in \mathbb{N}$, and the geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n-1}$, hence smooth (and possiby degenerate) [[coordinate transformations]].
+Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archtypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$, in every [[dimension]] $n \in \mathbb{N}$, and the geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_1}$, hence smooth (and possiby degenerate) [[coordinate transformations]].
 
-Here we discuss the central aspects of the nature of such abstract coordinate systems in themselves. At this point there are not yet coordinate systems _on_ some other space. That is instead the topic of the next section _[Smooth spaces](#SmoothSpaces)_.
+Here we discuss the central aspects of the nature of such abstract coordinate systems in themselves. At this point these are not yet coordinate systems _on_ some other space. That is instead the topic of the next section _[Smooth spaces](#SmoothSpaces)_.
 
 ### Layer Mod
  {#CoordinateSystemsLayerMod}
@@ -99,38 +99,20 @@ we discuss below in _[Geometric quantization](GeometricQuantization)_ how not ju
 This is the motivation for studying models of physics in geometry modeled on the [[continuum]] [[real line]]. On the other hand, in all of what follows our discussion is set up such as to be _maximally independent_ of this specific choice (this is what _[[topos theory]]_ accomplishes for us, discussed below _[Smooth spaces -- Layer Sem](#SmoothSpacesLayerSem)_). If we do desire to consider another choice of archetypical spaces for the geometry of physics we can simply "change the [[site]]", as discussed [below](#SmoothSpacesLayerSem) and many of the constructions, propositions and theorems in the following will continue to hold. This is notably what we do below in _[Supergeometric coordinate systems](#SupergeometricCoordinateSystems)_ when we generalize the present discussion to a flavor of differential geometry that also formalizes the notion of [[fermion]] [[particles]]: "differential [[supergeometry]]."
 
 
-#### Cartesian spaces
+#### Cartesian spaces and smooth functions
  {#CartesianSpaces}
 
-***
-
-Only keyword lists beyond this line, for the moment. Come back a little later for further material.
-
-***
-
-+-- {: .num_defn}
-###### Definition
-
-An **[[open interval]]** in the [[set]] $\mathbb{R}$ of [[real numbers]]
-is a [[subset]] of the form
-
-$$
-  (a,b) \coloneqq \{x \in \mathbb{R} | a \lt x \lt b\} \subset \mathbb{R}
-$$
-
-for $a \lt b \in \mathbb{R}$.
-
-=--
 
 
 +-- {: .num_defn}
 ###### Definition
 
 A [[function]] of [[sets]] $f : \mathbb{R} \to \mathbb{R}$ is called 
+a **[[smooth function]]** if, [[coinduction|coinductively]]:
 
-* a **[[continuous function]]** if for all $a \lt b \in \mathbb{R}$ the [[preimage]] $f^{-1}(a,b) \coloneqq \{x \in \mathbb{R} | a \lt f(x) \lt b\}$ is a [[union]] of [[open intervals]];
+1. the [[derivative]] $\frac{d f}{d x} : \mathbb{R} \to \mathbb{R}$ exists;
 
-* a **[[smooth function]]** if, [[corecursion|corecursively]], it is a [[continuous function]] and such that the [[derivative]] $\frac{d f}{d x} : \mathbb{R} \to \mathbb{R}$ exists and is again a smooth function.
+1. and is itself a smooth function.
 
 =--
 
@@ -206,11 +188,11 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-If there is a [[diffeomorphism]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ then $n_1 = n_2$.
+There exists a [[diffeomorphism]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ precisely if $n_1 = n_2$.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #CartesianSpacesAndSmoothFunctions}
 ###### Definition
 
 We will also say equivalently that
@@ -219,62 +201,83 @@ We will also say equivalently that
 
 1. a [[smooth function]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is an **[[coordinate transformation|abstract coordinate transformation]]**;
 
-1. the [[function]] $p^k : \mathbb{R}^{n} \to \mathbb{R}$ is the $k$th **[[coordinate]]** of the coordinate system $\mathbb{R}^n$. We will also write this function as $\mathbb{R}^{n} \to \mathbb{R}$.
+1. the [[function]] $p^k : \mathbb{R}^{n} \to \mathbb{R}$ is the $k$th **[[coordinate]]** of the coordinate system $\mathbb{R}^n$. We will also write this function as $x^k : \mathbb{R}^{n} \to \mathbb{R}$.
 
 1. for $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[smooth function]], and $1 \leq k \leq n_2$ we write
 
-   $f^k \coloneqq p^k\circ f$
+   1. $f^k \coloneqq p^k\circ f$
 
-   and
-
-   $(f^1, \cdots, f^n) \coloneqq f$.
+   1. $(f^1, \cdots, f^n) \coloneqq f$.
 
 =--
 
-It follows that
++-- {: .num_remark }
+###### Remark
+
+It follows with this notation that
 
 $$
-  id_{\mathbb{R}^n} = (x^1, \cdots, x^n)
+  id_{\mathbb{R}^n} = (x^1, \cdots, x^n) : \mathbb{R}^n \to \mathbb{R}^n
   \,.
 $$
 
-In this notation an abstract coordinate transformation 
+Hence an abstract coordinate transformation 
 
 $$ 
   f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}
 $$
 
+may equivalently be written as the tuple
+
 $$
-  f^k(x^1, \cdots, x^n)
+  \left(
+    f^1 \left( x^1, \cdots, x^{n_1} \right)
+    ,
+    \cdots,
+    f^{n_2}\left( x^1, \cdots, x^{n_1} \right)
+  \right)
+  \,.
 $$
 
-(...)
+=--
 
++-- {: .num_prop}
+###### Propositions
 
-#### The fundamental theorems about smooth functions
- {#PropertiesOfSmoothFunctions}
+Abstract coordinate systems according to prop. \ref{CartesianSpacesAndSmoothFunctions} form a _[[category]]_ 
+-- to be denoted _[[CartSp]]_ -- whose
 
-basic facts about [[smooth functions]]
+* [[objects]] are the abstract coordinate systems $\mathbb{R}^{n}$ (the [[class]] of objects is the [[set]] $\mathbb{N}$ of [[natural numbers]] $n$);
 
-* [[Hadamard lemma]]
+* [[morphisms]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ are the abstract [[coordinate transformations]] = [[smooth functions]].
 
-* [[Borel's theorem]]
+Composition of morphisms is given by [[composition]] of [[functions]].
 
-* existence of [[bump functions]] and [[partitions of unity]]
+We have that
 
-### Layer Sem
+1. The [[identity]] morphisms are precisely the identity functions.
 
-coordinate systems form a [[category]] called [[CartSp]]
+1. The [[isomorphisms]] are precisely the [[diffeomorphisms]].
 
-* [[objects]] are coordinate systems
+=--
 
-* [[morphisms]] are [[coordinate transformations]] = smooth functions
++-- {: .num_defn}
+###### Definition
 
-the [[opposite category]] is [[CartSp]]${}^{op}$
+Write [[CartSp]]${}^{op}$ for the [[opposite category]] of [[CartSp]].
 
-a [[functor]]  $X : CartSp^{op} \to Set$ (a "[[presheaf]]") is
+This is the category with the same objects as $CartSp$, but where a morphism $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ in $CartSp^{op}$ is given by a morphism $\mathbb{R}^{n_1} \leftarrow \mathbb{R}^{n_2}$ in $CartSp$.
 
-1. for each coordinate system $U$ a [[set]] $X(U)$
+=--
+
+We will be discussing below the idea of exploring smooth spaces by laying out abstract coordinate systems in them in all possible ways. The reader should begin to think of the sets that appear in the following definition as the _set of ways_ of laying out a given abstract coordinate systems in a given space. This is discussed in more detail below in _[Smooth spaces](#SmoothSpaces)_.
+
++-- {: .num_defn}
+###### Definition
+
+A [[functor]]  $X : CartSp^{op} \to Set$ (a "[[presheaf]]") is
+
+1. for each abstract coordinate system $U$ a [[set]] $X(U)$
 
 1. for each [[coordinate transformation]] $f : \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ a [[function]] $X(f) : X(\mathbb{R}^{n_2}) \to X(\mathbb{R}^{n_2})$
 
@@ -284,9 +287,150 @@ such that
 
 1. [[composition]] is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
 
-### Layer Syn
+=--
 
-We discuss a bit the [[internal language]] of a [[category]] such as [[CartSp]] above, which is a flavor of [[type theory]].
+
+#### The fundamental theorems about smooth functions
+ {#PropertiesOfSmoothFunctions}
+
+The special properties [[smooth functions]] that make them play an important role different from other classes of functions are the following.
+
+1. existence of [[bump functions]] and [[partitions of unity]]
+
+1. the [[Hadamard lemma]] and [[Borel's theorem]]
+
+Or maybe better put: what makes smooth functions special is that the first of these properties holds, while the second is still retained.
+
+(...)
+
+
+### Layer Sem
+ {#CoordinateSystemsLayerSem}
+
+In this [Sem Layer](#LayerSem) we discuss the [[concrete general]] aspects of _abstract [[coordinate systems]]_, def. \ref{CartesianSpacesAndSmoothFunctions}: the fact that they naturally form: 
+
+1. an _[[algebraic theory]]_, 
+
+1. a _[[site]]_.
+
+#### The algebraic theory of smooth algebras
+
++-- {: .num_prop}
+###### Propositions
+
+* The [[category]] [[CartSp]] has all [[finite limit|finite]]
+[[products]]. 
+
+* Every object is a finite [[product]] of the object $\mathbb{R}$ (the [[real line]] itself).
+
+* The [[terminal object]] is $\mathbb{R}^0$, the [[point]].
+
+=--
+
+Hence [[CartSp]] is (the [[syntactic category]]) of an [[algebraic theory]] ([[Lawvere theory]]). 
+
++-- {: .num_defn}
+###### Definition
+
+This is called the [[theory]] of _[[smooth algebras]]_.
+
+A [[product]]-preserving [[functor]] 
+
+$$
+  A : CartSp \to Set
+$$
+
+is a _[[smooth algebra]]_.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+* The [[smooth algebra]] $C^\infty(\mathbb{R}^n)$ of [[smooth functions]] on the [[Cartesian space]] $\mathbb{R}^n$ is the [[representable functor|functor corepresented]] by $\mathbb{R}^n$.
+
+* The [[ring of dual numbers|algebra of dual numbers]] $C^\infty(\mathbf{D})$ is the smooth algebra which assigns...
+
+* (...)
+
+=--
+
+(...)
+
+#### The coverage of differentially good open covers
+
++-- {: .num_defn}
+###### Definition
+
+The [[open ball]] is
+
+$$
+  D^n \hookrightarrow \mathbb{R}^n
+$$
+
+(...)
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[diffeomorphism]]
+
+$$
+  \mathbb{R}^n \stackrel{\simeq}{\to} D^n
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #DifferentiallyGoodOpenCover}
+###### Definition
+
+A **differentially [[good open cover]]** of a [[Cartesian space]] $\mathbb{R}^n$ is a set $\{U_i \hookrightarrow \mathbb{R}^n\}$ of [[open subset]] inclusions of Cartesian spaces such that these [[open cover|cover]] $\mathbb{R}^n$
+and such for each non-empty finite [[intersection]] there exists a [[diffeomorphism]] 
+
+$$
+  \mathbb{R}^n \stackrel{\simeq}{\to} U_{i_1} \cap \cdots \cap U_{i_k}
+$$
+
+that identifies the $k$-fold intersection with a Cartesian space itself.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+Every [[open cover]] refines to a differentially good open cover, def. \ref{DifferentiallyGoodOpenCover}. 
+
+=--
+
+A proof is at _[[good open cover]]_. 
+
++-- {: .num_remark}
+###### Remark
+
+Despite its appearance, this is not quite a classical statement. The classical statement is only that every open cover is refined by a _topologically_ [[good open cover]]. See the comments _[here in the references-section](http://ncatlab.org/nlab/show/ball#References)_ at _[[open ball]]_ for the situation concerning this statement in the literature.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The differentially good open covers, def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] on [[CartSp]]. 
+
+Hence [[CartSp]] equipped with that coverage is a [[site]].
+
+=--
+
+
+### Layer Syn
+ {#CoordinateSystemsLayerSyn}
+
+In this [Syn Layer](#LayerSyn) we discuss the [[abstract generals]] of _abstract [[coordinate systems]]_, def. \ref{CartesianSpacesAndSmoothFunctions}: the [[internal language]] of a category with [[products]], which is _[[type theory]]_ with _[[product types]]_.
+
+#### Judgments about types and terms
 
 An [[object]] $X \in \mathcal{C}$ in a [[category]] $\mathcal{C}$ we will also denote by the [[sequent]]
 
@@ -295,6 +439,12 @@ $$
 $$
 
 and say that it is a _[[type]]_. 
+
+The [[terminal object]] we call the _[[unit type]]_ and write
+
+$$
+  \vdash \; Unit \colon Type
+$$
 
 For $* \in \mathcal{C}$ the [[terminal object]], an [[element]] of $X$, hence a [[morphism]] $x : * \to X$ we denote by the [[sequent]]
 
@@ -331,7 +481,69 @@ $$
   x\colon X \;\vdash\; a : A
 $$
 
-and this is called a [[dependent term|term depending on]] the [[free variable]] $x$ of [[type]] $X$.
+and this is called a [[term in context|term depending on]] the [[free variable]] $x$ of [[type]] $X$.
+
+#### Natural deduction rules for product types
+
+For $A$ and $B$ two objects, their [[product]] $A \times B$ we call a [[product type]]. 
+
+The [[type formation rule]] which says that we have the product type as soon as we have $A$ and $B$ we write
+
+$$
+  \frac{A \colon Type \;\;\; B \colon Type}{ A \times B \colon Type}
+  \,.
+$$
+
+The [[universal property]] of the [[product]] $A \times B$ we express as follows. 
+
+**[[term elimination rule]]**. The fact that $A \times B$ is equipped with two [[projection]] [[morphisms]] 
+
+$$
+  \array{
+    A \stackrel{p_1}{\leftarrow} A \times B \stackrel{p_2}{\to} B
+  }
+$$ 
+
+means that from every [[term]] $t$ of $A \times B$ we may deduce the existence of terms $p_1(t)$ and $p_2(t)$ of $A$ and $B$, respectively, which is written
+
+$$
+  \frac{\vdash \; t \colon A \times B}{\vdash \; p_1(t) \colon A}
+  \;\;\;\;\;
+  \frac{\vdash \; t \colon A \times B}{\vdash \; p_2(t) \colon B}
+$$
+
+**[[term introduction rule]]**. The fact that for every other object $Q$ with morphisms $A \stackrel{a}{\leftarrow} Q \stackrel{b}{\to} B$ we obtain a morphism $Q \to A \times B$ is expressed by
+
+$$
+  \frac{
+    \vdash\; a \colon A \;\;\;\; \vdash\; b \colon B
+  }{
+   \vdash (a,b) \colon A \times B
+  }
+  \,.
+$$
+
+**[[computation rule]]**. The fact that the resulting [[diagram]] [[commuting diagram|commutes]]
+
+$$
+  \array{
+    && Q
+    \\ 
+    & {}^{\mathllap{a}}\swarrow &\downarrow& \searrow^{\mathrlap{b}}
+    \\
+    A \stackrel{p_1}{\leftarrow} A \times B  \stackrel{p_2}{\to} B
+  }
+$$
+
+is expressed by writing
+
+$$
+  \frac{  
+    
+  }{
+  }
+$$
+
 
 ## Smooth spaces
  {#SmoothSpaces}
