@@ -103,6 +103,8 @@ Also related are various notions of categories of shapes, including
 
 * [[direct category]] 
 
+* [[compositions in cubical sets]]
+
 ## References
 
 The notion of pasting in a [[2-category]] was introduced in
