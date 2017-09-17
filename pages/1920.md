@@ -90,13 +90,41 @@ We can remedy this problem if instead of the bicategory $Span(V,T)$, we consider
 Thus, a better definition of $T$-multicategory is "a monoid in the double category $Span(V,T)$," since this definition recovers the correct morphisms immediately.  And a better generalized definition, which works for symmetric multicategories as well (using the double category of categories, functors, and profunctors), is "a monoid in a Kleisli double category."
 
 
-### Virtual double categories
+### Equipments
 
 When we try to make the notion of "Kleisli double category" precise, however, we run into some issues.  We want the "Kleisli-ness" to happen *horizontally*, i.e. in the span/profunctor direction.  However, in the examples, the monads in question live most naturally in in the 2-category of double categories, functors, and *vertical* natural transformations.  For example, when $T$ is a monad on $V$, its multiplication and unit transformations naturally induce vertical transformations $Id_{Span(V)} \to Span(T)$ and $Span(T)^2 \to Span(T)$, where $Span(T)$ denotes the induced functor on $Span(V)$.  Similarly, for the "free symmetric strict monoidal category" monad on the double category $Prof$, the unit and multiplication are naturally *functors*, i.e. vertical arrows, not profunctors.
 
-However, in general, if all we know is that $T$ is a monad on a double category $X$ in the "vertical" sense, then there is no way to define a "horizontally Kleisli" double category of $T$.  The composite of horizontal arrows $A\to T B$ and $B \to T C$ in such a double category would have to be the composite $A\to T B \to T T C \overset{\mu}{\to} T C$, but in a double category there is no way to compose the horizontal arrow $A\to T T C$ with the vertical arrow $\mu\colon T T C \to T C$.
+However, in general, if all we know is that $T$ is a monad on a double category $X$ in the "vertical" sense, then there is no way to define a "horizontally Kleisli" double category of $T$.  The composite of horizontal arrows $A\to T B$ and $B \to T C$ in such a double category would have to be the composite $A\to T B \to T T C \overset{\mu}{\to} T C$, but in a double category there is no way to compose the horizontal arrow $A\to T T C$ with the vertical arrow $\mu\colon T T C \to T C$.  Specifically, the problem is that while any (pseudo) double functor between pseudo double categories induces a (pseudo) 2-functor between horizontal bicategories, a vertical transformation does not necessarily induce a pseudonatural one.
 
-There are two solutions to this problem, and it turns out that the best approach is to use them both.  The first is to generalize from double categories to [[virtual double categories]].
+There are two solutions to this problem, and it turns out that the best approach is to use them both.  The first, and most obvious, is to generalize the way in which the monads in these two examples do, in fact, induce pseudomonads on the horizontal bicategory.  Namely, in both of the double categories $Span$ and $Prof$, every vertical arrow $f\colon A\to B$ gives rise to a horizontal arrow $B(1,f)\colon A\to B$ in a universal way.  This construction, along with its dual, makes $Span$ and $Prof$ into [[framed bicategories]], or equivalently [[proarrow equipments]].
+
+Now in general, a vertical transformation between double categories that are proarrow equipments does not quite induce a *pseudo* natural transformation on horizonal bicategories, but only an *oplax* natural transformation.  However, in the examples we have considered so far, the oplax transformations are in fact pseudo, and so there is a horizontally-Kleisli double category (which is easily seen to be, itself, a proarrow equipment).
+
+
+### Virtual double categories
+
+From the double-category point of view, it seems unnatural to require that the unit and multiplication of the monad induce "horizontally pseudo" transformations; the vertical transformation of double categories is surely the more basic notion.  Moreover, it is also unnatural to require the functor $T$ to be pseudo; there are interesting examples where $T$ is only a (horizontally) *lax* functor.  Note that unlike the case for bicategories, there is a 2-category of double categories, lax functors, and vertical transformations, so we can talk about monads in such a 2-category.
+
+However, at this level of generality, the horizontal Kleisli construction does not yield a double category.  It does, however, yield a [[virtual double category]].  Moreover, it also suffices to take as *input* a monad $T$ on a virtual double category $X$; we write the result of this construction as $HKl(X,T)$.  (Recall that for pseudo double categories regarded as virtual ones, functors of virtual double categories can be identified with *lax* functors of pseudo double categories.)  Thus a natural and even more general notion of generalized multicategory is "a monoid in the horizontal-Kleisli virtual double category for some monad $T$ on a virtual double category;" we call such a thing a **$T$-monoid**.
+
+Note also that for any virtual double category $X$, there is another virtual double category $Mod(X)$ whose objects are monoids in $X$, whose vertical arrows are monoid homomorphisms, and whose horizontal arrows are "bimodules."  Therefore, for any monad $T$ on a virtual double category $X$, there is another virtual double category $KMod(X,T) = Mod(HKl(X,T))$ whose objects are $T$-monoids, and whose vertical arrows are $T$-monoid homomorphisms.
+
+#### Examples
+
+* If $V$ has pullbacks and $T$ is a monad preserving pullbacks (no condition on $\eta$ and $\mu$), then $T$ induces a monad on the virtual double category (which is actually, of course, a pseudo double category) $Span(V)$.  The $T$-monoids in $Span(V)$ are then precisely the $T$-multicategories, as defined above.
+
+* The "free symmetric strict monoidal category" monad on $Prof$ can also be regarded as a monad on the virtual double category $Prof$, and its $T$-monoids on a discrete category are symmetric multicategories.
+
+* If we use instead the "free category with finite products" monad on the virtual double category $Prof$, then $T$-monoids on discrete categories can be identified with [[Lawvere theories]].
+
+* More basically, we also have a "free strict monoidal category" monad on $Prof$, whose $T$-monoids on discrete categories are ordinary non-symmetric multicategories.  Noting that $Prof = Mod(Span)$, this $T$ is also $Mod(S)$, where $S$ is the "free monoid" monad on $Span = Span(Set)$.  In fact, quite generally for any monad $S$ on a virtual double category $X$, we can identify $S$-monoids in $X$ with $Mod(S)$-monoids in $Mod(X)$ on "discrete objects."
+
+* The [[ultrafilter monad]] $U$ on $Set$ has a "canonical" extension to the virtual double category $Rel$ of sets, functions, and binary relations.  Although $Rel$ is a pseudo double category, this monad is only a lax functor, and its $\mu$ and $\eta$ are only oplax.  The $U$-monoids in $Rel$ can be identified with [[topological spaces]], by an observation originally due to Barr.
+
+* Similarly, the powerset monad $P$ on $Set$ extends to $Rel$ in a canonical way, and the $P$-monoids in $Rel$ are [[closure space]]s.
+
+
+### Units and transformations
 
 ...
 
