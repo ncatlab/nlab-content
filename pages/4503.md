@@ -143,6 +143,14 @@ These constructions are functorial and hence extend to models for [[(∞,1)-topo
 The model $W G$ for the universal $G$-principal bundle has the special property that it is a [[groupal model for universal principal ∞-bundles]].
 
 
+## Related concepts
+
+* [[principal ∞-bundle]]
+
+* **universal principal $\infty$-bundle** , [[groupal model for universal principal ∞-bundles]]
+
+* [[universal connection]]
+
 
 [[!redirects universal principal ∞-bundle]]
 
