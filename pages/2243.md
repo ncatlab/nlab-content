@@ -131,6 +131,10 @@
 
 ### Theorems
 
+* [[universal coefficient theorem]]
+
+* [[Künneth theorem]]
+
 * [[de Rham theorem]], [[Poincare lemma]], [[Stokes theorem]]
 
 * [[Hodge theory]]
