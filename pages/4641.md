@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 A [[Lawvere theory]] is encoded in its [[syntactic category]] $T$, a category with finite product such that all objects are finite products of a given object.
@@ -13,13 +28,83 @@ $$
 The [[category]] of $T$-algebras is the [[full subcategory]] of the [[functor category]] on the product-preserving functors
 
 $$
-  T Alg = [T,Set]_\times \subset [T,Set]
+  T Alg := [T,Set]_\times \subset [T,Set]
   \,.
 $$
 
 For more discussion, properties and examples see for the moment [[Lawvere theory]].
 
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+The category $T Alg$ has all [[limit]]s and these are computed objectwise, hence the embedding $T Alg \to [T,Set]$ preserves these limits.
+
+=--
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+$T Alg$ is a [[reflective subcategory]] of $[T, Set]$:
+
+$$
+  T Alg \stackrel{\leftarrow}{\hookrightarrow} [T,Set]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+With the above this follows using the [[adjoint functor theorem]].
+
+=--
+
++-- {: .un_corollary}
+###### Corollary
+
+The category $T Alg$ has all [[colimit]]s.
+
+=--
+
+
+for more see [[Lawvere theory]] for the moment
+
+## Examples
+
+* [[group]]s
+
+* [[ring]]s
+
+* $k$-[[associative algebra]]s
+
+* [[smooth algebra]]s
+
+
+## Related concepts
+
+* [[algebra over an operad]]
+
+* [[algebra over a monad]]
+
+
+### In higher category theory
+
+See 
+
+* [[homotopy T-algebra]]
+
+* [[function algebras on ∞-stacks]].
+
+
+
 [[!redirects algebras over a Lawvere theory]]
 
 [[!redirects algebra over an algebraic theory]]
 [[!redirects algebras over an algebraic theory]]
+
+[[!redirects T-algebra]]
