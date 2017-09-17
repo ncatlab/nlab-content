@@ -54,7 +54,7 @@ $$
   cod : [I,C] \to C
 $$
 
-from the [[arrow category]] of $C$.
+from the [[arrow category]] of $C$.  (Note that unless $C$ has [[pullbacks]], this functor is not actually a [[Grothendieck fibration|fibration]], though it is always an opfibration.)
 
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithPresheaves}
