@@ -188,8 +188,17 @@ Discussion from the point of view of [[M-theory]] is in
 
 A relation to [[T-duality]] (of the group manifolds!) is discussed in
 
-* Calder Daenzer, Erik Van Erp, _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
- {#DaenzerErp}
+* {#DaenzerErp} Calder Daenzer, Erik Van Erp, _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
+ 
+Discussion of  [[local Langlands correspondence|local]] [[archimedean field|Archimedean]] Langlands duality for [[Whittaker functions]] as [[mirror symmetry]] of a suitable [[A-model]] and [[B-model]] is discussed in 
+
+* {#GerasimovLebedevOblezin09} [[Anton Gerasimov]], Dimitri Lebedev, [[Sergey Oblezin]], 
+
+  _Archimedean L-factors and Topological Field Theories I_ ([arXiv:0906.1065](http://arxiv.org/abs/0906.1065))
+
+  _Archimedean L-factors and Topological Field Theories II_ ([arXiv:0909.2016](http://arxiv.org/abs/0909.2016))
+
+  _Parabolic Whittaker Functions and Topological Field Theories I_ ([arXiv:1002.2622](http://arxiv.org/abs/1002.2622))
 
 
 [[!redirects geometric Langlands duality]]
