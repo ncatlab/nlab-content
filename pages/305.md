@@ -1,5 +1,7 @@
-Just finished my PhD in category theory at Dalhousie University.
+Geoff Cruttwell is an assistant professor in the Department of Mathematics and Computer Science at Mount Allison University (and an adjunt Professor at the Dalhousie university mathematics department).
 
-* [webpage](http://geoff.reluctantm.com/)
+
+* [homepage]( http://www.mta.ca/~gcruttwell/)
+
 
 category: people
