@@ -160,7 +160,7 @@ Note that [[countable choice]] is essential here and elsewhere in measure theory
 While Lebesgue measure on $\mathbb{R}^n$ can be done in very weak [[foundations]], a general theory of measure and measurable spaces seems to require powerful [[set theory|set-theoretic]] machinery.  Indeed, not much seems to be possible in [[predicative mathematics|predicative]] contexts, and the (nonpredicative) [[constructive mathematics|constructive]] theory is noticeably more complicated than the classical theory.  On the other hand, the classical theory has its own complications, with nonmeasurable sets and functions that can be proved to exist but which seem to never arise in practice.  Instead, there are classically false but apparently consistent foundations in which measure theory is extremely simple.
 
 
-### Predicative theory
+### Predicative theory {#Predicative}
 
 The main problem for measure theory in [[predicative mathematics]] is getting your hands on a $\sigma$-algebra.  Once you\'ve got that, you\'ve got a measurable space (obviously) and go on to [[measure space]], where there are no new difficulties.  However, what is (say) a Borel set in the real line?  This is difficult, if not impossible, to explain predicatively.  (In the case of [[Lebesgue measure]], there *are* ways to describe the Lebesgue-measurable sets predicatively, but these do not seem to generalise to a broader theory.)
 
