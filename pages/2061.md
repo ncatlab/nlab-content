@@ -1,3 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
 There are several contexts in which it is of relevance that a certain property of a [[morphism]] $f : A \to B$ is preserved (or __stable__) under [[pullback]], i.e. also shared by the the morphism $\tilde{f}: X \times_B A \to X$ for any pullback diagram
 
 $$
@@ -10,6 +28,7 @@ $$
   }
   \,.
 $$
+
 Geometers prefer to say "stable under [[base change]]".
 
 ## Examples
