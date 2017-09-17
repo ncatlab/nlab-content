@@ -1,0 +1,44 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+**Spectral algebraic geometry** is a variant of [[derived algebraic geometry]] developed by [[Jacob Lurie]], where instead of [[simplicial commutative rings]], the spaces are locally modelled on [[E-infinity rings]].  Hence it is more general, and more suited to applications in [[algebraic topology]].
+
+## See also
+
+* [[derived algebraic geometry]]
+* [[brave new algebraic geometry]]
+* [[E-infinity ring]]
+
+## References
+
+The foundations of the theory are developed in
+
+* [[Jacob Lurie]], _DAG VII: Spectral schemes_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VII.pdf).
+
+* [[Jacob Lurie]], _DAG VIII: Quasi-coherent sheaves and Tannaka duality theorems_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VIII.pdf).
+
+* [[Jacob Lurie]], _DAG IX: Closed immersions_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-IX.pdf).
+
+* [[Jacob Lurie]], _DAG XI: Descent theorems_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf).
+
+* [[Jacob Lurie]], _DAG XII: Proper morphisms, completions, and the Grothendieck existence theorem_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf).
+
+* [[Jacob Lurie]], _DAG XIV: Representability theorems_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf).
