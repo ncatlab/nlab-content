@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 =--
 =--
 
@@ -4490,7 +4494,7 @@ The relation to the general descent condition is discussed in
 
 
 
-
+[[!redirects Smooth∞Grpd]]
 
 
 [[!redirects Lie infinity-groupoids]]
@@ -4520,3 +4524,6 @@ The relation to the general descent condition is discussed in
 
 [[!redirects smooth infinity-groupoid]]
 [[!redirects smooth infinity-groupoids]]
+
+[[!redirects Lie infinity-groupoid]]
+[[!redirects Lie infinity-groupoid]]
