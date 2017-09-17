@@ -1,8 +1,17 @@
-A Wilson loop is an operator in (both classical and quantum) gauge theory obtained from the [[holonomy]] of the gauge connection. More precisely, __Wilson loop__ along a closed loop $C$ is the trace of the time ordered exponential
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A Wilson loop is an operator in (both classical and quantum) [[gauge theory]] obtained from the [[holonomy]] of the [[gauge field|gauge]] [[connection on a bundle|connection]]. More precisely, __Wilson loop__ along a closed loop $C$ is the trace of the time ordered exponential
 $$
 W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
 $$
 where $\mathcal{P}$ is the "time-ordering operator" and $A_\mu$ are the components of the connection. 
+
+## References
 
 * Kenneth Wilson, _Confinement of quarks_, Physical Review __D 10__ (8): 2445. [doi](http://dx.doi.org/10.1103/PhysRevD.10.2445) (1974)
 * Yuri Makeenko, _Methods of contemporary gauge theory_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)
