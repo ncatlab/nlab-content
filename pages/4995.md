@@ -556,7 +556,9 @@ For $\mathbf{H}$ a cohesive $(\infty,1)$-topos, the [[(n,1)-topos|(1,1)-topos]] 
 ### Over arbitrary bases 
  {#OverArbitraryBases}
 
-In the [internal definition](#InternalDefinition) the base of discrete objects is currently not axiomatized to be an [[(∞,1)-topos]] itself. Nevertheless, some properties are immediately implied by the axioms.
+In the [internal definition](#InternalDefinition) the base of discrete objects is currently not axiomatized to be an [[(∞,1)-topos]] itself (the [[base (∞,1)-topos]]). Nevertheless, some properties are immediately implied by the axioms.
+
+In the following, let $\mathbf{H}$ be an [[(∞,1)-topos]] equipped with an [[adjoint quadruple]] of functors to an [[(∞,1)-category]] $\mathbf{B}$ --  the _base of cohesion_ -- as above, where we do not assume a priori any further properties of $\mathbf{B}$.
 
 +-- {: .num_prop #LimitsInBase}
 ###### Proposition
@@ -606,6 +608,35 @@ Since $Disc$, being both a [[left adjoint]] as well as a [[right adjoint]] prese
 ###### Example
 
 Since [[loop space objects]] are [[(∞,1)-limits]] it follows that the loop space object of any discrete object is itself again a discrete object. 
+
+=--
+
+We have also the following stronger statement.
+
++-- {: .num_prop}
+###### Proposition
+
+The base of cohesion $\mathbf{B}$ is a [[presentable (∞,1)-category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By one of the equivalent characterizations of [[presentable (∞,1)-categories]] these are [[reflective sub-(∞,1)-categories]] of [[(∞,1)-categories of (∞,1)-presheaves]] where the embedding is by an [[accessible (∞,1)-functor]].
+
+Since $\mathbf{H}$ is itself accessibly and reflectively embedded into the presheaves $PSh(C)$ on a [[(∞,1)-site]] of definition, we have a composite reflective inclusions
+
+$$
+  \mathbf{B}
+  \stackrel{Disc}{\hookrightarrow}
+  \mathbf{H}
+  \hookrightarrow
+  PSh(C)
+  \,.
+$$
+
+Since $Disc$ even preserves all [[(∞,1)-colimits]], it is in particular an [[accessible (∞,1)-functor]], hence so is the above composite.
 
 =--
 
