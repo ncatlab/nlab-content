@@ -192,5 +192,7 @@ p. 26 of
  {#FOF}
 
 
-[[!redirects moment map]]
 [[!redirects moment maps]]
+
+[[!redirects momentum map]]
+[[!redirects momentum maps]]
