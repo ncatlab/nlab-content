@@ -11,6 +11,20 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 # Another section
 
+***
+
+<table markdown="1">
+<tr markdown="1"><td markdown="1">*hello* $x_2^3$</td><td>*hello* $x_2^3$</td></tr>
+<tr><td markdown="1">*hello* $x_2^3$</td><td>*hello* $x_2^3$</td></tr>
+</table>
+
+<table>
+<tr markdown="1"><td markdown="1">*hello* $x_2^3$</td><td>*hello* $x_2^3$</td></tr>
+<tr><td markdown="1">*hello* $x_2^3$</td><td>*hello* $x_2^3$</td></tr>
+</table>
+
+
+
 *** 
 
 $$\underset{\circlearrowleft}{\bullet} \underset{}{\leftrightarrow} \underset{\circlearrowleft}{\bullet}$$ 
