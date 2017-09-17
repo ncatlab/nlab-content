@@ -9,17 +9,9 @@
 
 * [[(n,r)-category]]
 
-## Definition
+## Basic concepts
 
 * [[(∞,1)-category]]
-
-* [[quasi-category]]
-
-  * [[model structure for quasi-categories]]
-
-  * [[model structure for Cartesian fibrations]]
-
-## Basic concepts
 
 * [[hom-object in a quasi-category|hom-objects]]
 
@@ -63,7 +55,7 @@
 
 * [[adjoint (∞,1)-functor|adjoint functors]]
 
-* [[(∞,1)-Grothendieck construction|Grothendieck construction]]
+
 
 ## Local presentation
 
@@ -77,8 +69,16 @@
 
   * [[idempotent-complete (∞,1)-category|idempotent-complete]]
 
+
+## Theorems
+
+* [[(∞,1)-Yoneda lemma]]
+
+* [[(∞,1)-Grothendieck construction]]
+
 * [[adjoint (∞,1)-functor theorem]]
 
+* [[monadicity theorem|(∞,1)-monadicity theorem]]
 
 ## Models
 
@@ -87,6 +87,12 @@
 * [[model category]]
 
 * [[derivator]]
+
+* [[quasi-category]]
+
+  * [[model structure for quasi-categories]]
+
+  * [[model structure for Cartesian fibrations]]
 
 * [[relation between quasi-categories and simplicial categories|relation to simplicial categories]]
 
