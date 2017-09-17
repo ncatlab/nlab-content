@@ -39,6 +39,8 @@ Traditionally the [[types]] in geometric homotopy type theory, hence the _geomet
 
 ## Related concepts
 
+* [[linear type theory]]
+
 * [[modal homotopy type theory]]
 
 * [[cohesive homotopy type theory]]
