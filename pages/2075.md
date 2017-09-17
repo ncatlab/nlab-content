@@ -76,6 +76,10 @@ This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 
 
 [[!redirects equivalence of (∞,1)-categories]]
+[[!redirects equivalences of (∞,1)-categories]]
+
 
 [[!redirects equivalence of (infinity,1)-categories]]
-[[!redirects equivalence of (infinit,1)-categories]]
+[[!redirects equivalences of (infinity,1)-categories]]
+
+
