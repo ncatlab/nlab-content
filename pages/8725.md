@@ -40,9 +40,23 @@ An [[∞-group]] $G$ is _braided_ if it is equipped with the following equivalen
 
 ## Related concepts
 
-* [[braided 2-group]]
+* [[∞-group]], [[k-tuply groupal n-groupoid]]
+
+* **braided ∞-group**,
+
+  * [[braided 2-group]]
+
+  * [[braided 3-group]]
+
+* [[sylleptic ∞-group]]
+
+  * [[sylleptic 3-group]]
 
 * [[abelian ∞-group]]
+
+  * [[symmetric 2-group]]
+
+
 
 [[!redirects braided ∞-group]]
 [[!redirects braided ∞-groups]]
