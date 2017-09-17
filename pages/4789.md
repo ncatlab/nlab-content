@@ -24,7 +24,7 @@
 
 ## Idea
 
-A _Chern-Simons element_ on an [[∞-Lie algebroid]] (named after [[Shiing-shen Chern]] and [[James Simons]] who considered this for [[semisimple Lie algebras]]) is an element of its [[Weil algebra]] that exhibits a [[transgression]] between an [[∞-Lie algebroid cocycle]] and an [[invariant polynomial]].
+A _Chern-Simons element_ on an [[L-∞ algebroid]] (named after [[Shiing-shen Chern]] and [[James Simons]] who considered this for [[semisimple Lie algebras]]) is an element of its [[Weil algebra]] that exhibits a [[transgression]] between an [[∞-Lie algebroid cocycle]] and an [[invariant polynomial]].
 
 It is construct that arises in the presentation of the [[∞-Chern-Weil homomorphism]] by an [[∞-anafunctor]] of [[simplicial presheaves]].
 
@@ -34,7 +34,7 @@ It is construct that arises in the presentation of the [[∞-Chern-Weil homomorp
 We discuss [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s $\mathfrak{a}$ of [[finite type]] in terms of their [[Chevalley-Eilenberg algebra]]s $CE(\mathfrak{a})$. For $\infty$-Lie algebras these are objects in the [[category]] [[dgAlg]] of [[dg-algebra]]s (over a given ground [[field]]). For $\infty$-Lie algebroids these are dg-algebras equipped with a lift of the degree-0 algebra to an algebra over a given [[Fermat theory]] $T$ and such that the [[differential]] is a $T$-[[derivation]] in this degree. (See [[∞-Lie algebroid]] for details). We shall write in the following $dgAlg$ also for the category of dg-algebras with this extra structure and leave the [[Fermat theory]] $T$ implicit.
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally [[∞-Lie algebroid]], $\mu \in CE(\mathfrak{g})$ a [[∞-Lie algebra cocycle]] (a closed element of the [[Chevalley-Eilenberg algebra]]) and $\langle - \rangle \in W(\mathfrak{g})$ an [[invariant polynomial]], a **Chern-Simons element** exhibiting the _[[transgression]]_ between the two is an element
@@ -53,7 +53,7 @@ where the restriction is along the canonical morphism $W(\mathfrak{g}) \to CE(\m
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark 
 
 
@@ -74,7 +74,7 @@ in [[dgAlg]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 A **Chern-Simons element** $cs$ an $\mathfrak{a}$ witnessing the [[transgression]] of $\langle - \rangle$ to $\mu$ is equvivalently a morphism
@@ -114,7 +114,7 @@ where the vertical morphisms are the canonical ones.
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If we think of 
@@ -131,7 +131,9 @@ then the abov expresses the classical notion of transgression of forms from the 
 
 ## Properties
 
-+-- {: .un_pop}
+### Uniqueness
+
++-- {: .num_pop}
 ###### Observation
 
 For a given transgressive cocycle $\mu$ and transgressing invariant polynomial $\langle - \rangle$ the set of Chern-Simons elements witnessing the [[transgression]] is a [[torsor]] (based over the point and) over the additive [[group]] 
@@ -144,7 +146,188 @@ of Chern-Simons elements for vanishing cocycle and vanishing invariant polynomia
 
 =--
 
+### Canonical $\infty$-Chern-Simons elements
+  {#CanonicalChernSimonsElement}
 
+Since the [[Weil algebra]] of an [[L-∞ algebra]] has trivial cohomolgy in positive degree, every [[invariant polynomial]] $\langle -,\cdots, -\rangle$ has a Chern-Simons element and there is a standard formula for it.
+
+Let $\mathfrak{g}$ be an [[L-∞ algebra]] and let $\{t_a\}$ be a [[basis]] and $\{t^a\}$ the dual basis. Then the differential of the [[Chevalley-Eilenberg algebra]] can be written
+
+$$
+  d_{CE(\mathfrak{g})} t^a 
+  =
+  -
+  \sum_{k = 1}^\infty
+   \frac{1}{k!}
+   [t_{a_1}, t_{a_2}, \cdots, t_{a_k}]^a
+   \,\,
+   t^{a_1} \wedge t^{a_2}\wedge \cdots t^{a_k}
+  \,,
+$$
+
+where
+
+$$
+  [-,-, \cdots, -] : \mathfrak{g}^{\otimes_k} \to \mathfrak{g}
+$$
+
+is the corresponding $k$-ary bracket.
+
++-- {: .num_pop}
+###### Proposition
+
+If $\langle-,-\rangle \in W(\mathfrak{g})$ is a quadratic invariant polynomial on $\mathfrak{g}$ with components
+
+$$
+  P_{a b} := \langle t_a , t_b\rangle
+  \,,
+$$
+
+then a Chern-Simons element for it is given by
+
+$$
+  cs 
+  = 
+  2 P_{a b} t^a \wedge d_{W(\mathfrak{g})} t^b
+  + 
+  \sum_{k = 1}^\infty
+  C_{a b_1, \cdots, b_k}
+   \,\,
+  t^a \wedge t^{b_1} \wedge \cdots \wedge t^{b_k}
+  \,,
+$$
+
+where the coefficients are
+
+$$
+  C_{a b_1, \cdots, b_k}
+  :=
+  \frac{1}{(k+1)!}
+  (P_{a b} [t_{b_1}, \cdots, t_{b_k}]^b)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is just the image $cs = \tau \langle \rangle$ of the invartiant polynomial under the canonical homotopy operator 
+
+$$
+  \tau : W(\mathfrak{g}) \to W(\mathfrak{g})
+$$
+
+on the [[Weil algebra]], which satisfies
+
+$$
+  [d_{W}, \tau] = Id
+  \,.
+$$
+
+We recall how to construct this:
+
+Write $F(\mathfrak{g}^*)$ for the [[free construction|free]] [[dg-algebra]] on the [[graded vector space]] $\mathfrak{g}^*$. This is generated from $\{t^a, \mathbf{d}t^a\}$. As discussed at [[Weil algebra]], there is a dg-algebra [[isomorphism]]
+
+$$
+  F(\mathfrak{g}^*) \stackrel{\simeq}{\to} W(\mathfrak{g})  
+$$
+
+given by sending $t^a \mapsto t^a$ and $\mathbf{d}t^a \mapsto d_W t^a + d_{CE} t^a$.
+
+
+Let $h : F(\mathfrak{g}^*) \to F(\mathfrak{g}^*)$ be the [[derivation]] which on generators is defined by 
+
+$$
+  h : t^a \mapsto 0
+$$
+$$
+  h : \mathbf{d}t^a \mapsto t^a
+  \,.
+$$
+
+Notice that this is _not_ the homotopy that exhibits the triviality of $Id_{F(\mathfrak{g}^*)}$, rather that homotopy  is $\frac{1}{L} h$, where $L$ is the word length operator for element in $F(\mathfrak{g}^*)$ in terms of the generators $\{t^a , \mathbf{d}t^a\}$.
+
+Therefore the homotopy $\tau$ is the composite top morphism in the diagram
+
+$$
+  \array{
+    W(\mathfrak{g}) &\stackrel{\tau}{\to}& W(\mathfrak{g})
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    &&
+    \uparrow^{\mathrlap{\simeq}}
+    \\
+    F(\mathfrak{g}^*) &\stackrel{\frac{1}{L} h}{\to}& F(\mathfrak{g}^*)
+  }
+  \,.
+$$
+
+Unwinding this, we find
+
+$$
+  \begin{aligned}
+    cs & := \tau \left( P_{a b} r^{a} \wedge r^b \right)
+    \\
+    & =
+    \tau
+    \left(
+      d_{W(\mathfrak{g})} t^a 
+      + 
+      \sum_{k = 1}^\infty
+      [t_{a_1}, \cdots, t_{a_k}]^a
+      t^{a_1} \wedge \dots t^{a_k}
+    \right)
+    \wedge
+    \left(
+      d_{W(\mathfrak{g})} t^b 
+      + 
+      \sum_{k = 1}^\infty
+      [t_{b_1}, \cdots, t_{b_k}]^b
+      t^{b_1} \wedge \dots t^{b_k}
+    \right)
+    \\
+    & =
+    P_{a b} t^a \wedge d_{W(\mathfrak{g})} t^b
+    +
+    \sum_{k = 1}^\infty
+    \frac{2}{k! (k+1) }
+    P_{a b} [t_{b_1}, \cdots t_{b_k}]^b t^{b_1} \wedge 
+    \cdots \wedge t^{b_k} 
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+We consider the ordinary Chern-Simons element as an example of this formula: let $\mathfrak{g}$ be a [[semisimple Lie algebra]] and $\langle -,-\rangle$ the [[Killing form]] [[invariant polynomial]]. Then the above computation gives
+
+$$
+  \begin{aligned} 
+    cs & = \tau \left( P_{a b} r^a \wedge r^b \right)
+    \\
+    & = 
+    P_{a b}
+    \left(d_W t^a + \frac{1}{2}C^a{}_{a_1 a_2}t^{a_1} \wedge t^{a_2} \right)
+    \wedge
+    \left(d_W t^b + \frac{1}{2}C^b{}_{b_1 b_2}t^{b_1} \wedge t^{b_2} \right)
+    \\
+    & =
+    P_{a b} t^a \wedge d_W t^b
+    +
+    \frac{2}{2! 3} P_{a b} t^a \wedge C^b_{b_1 b_2} t^{b_1} \wedge t^{b_2}
+    \\
+    & =
+    P_{a b} t^a \wedge d_W t^b
+    +
+    \frac{1}{3} C_{a b c} t^a \wedge t^{b} \wedge t^{c}
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 ## Origin and relation to other concepts
   {#OriginAndRelatedConcepts}
