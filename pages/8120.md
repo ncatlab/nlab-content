@@ -39,7 +39,7 @@ $$ \oplus^1_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sum_i {\|w_i\|} \lt \infty
 
 ## Properties
 
-If [[short map|short]] [[linear maps]] are taken as the [[morphisms]] in the category of Banach spaces, then the $l^1$-direct sum is the [[coproduct]], and the $l^\infty$-direct sum is the [[product]]. 
+If [[short linear maps]] are taken as the [[morphisms]] in the category of Banach spaces, then the $l^1$-direct sum is the [[coproduct]], and the $l^\infty$-direct sum is the [[product]]. 
 
 We can also consider the abstract concepts of [[direct sum]] and [[weak direct product]]; here again the $l^1$-direct sum is the direct sum, and the $l^\infty$-direct sum is the weak direct product.  (It is quite common for coproduct and direct sum to be the same, but weak direct product usually diverges from the product for infinitely many objects.  That they match up here crucially depends on [[complete space|completeness]].)
 
