@@ -15,7 +15,11 @@
 
 ## Idea
 
-_Computability theory_ studies [[mathematics|mathematical]] entities that may be obtained by actual [[computation]] (instead of by less concrete proofs of existence). As such computability theory is similar to _[[constructive mathematics]]_ and to _[[realizability]]_ (emphasized e.g. in ([Bauer 05](#Bauer05))). Computability theory deals only with computability in principle and disregards the complexity of computation, that is instead the topic of _[[complexity theory]]_.
+_Computability theory_ studies [[mathematics|mathematical]] entities that may be obtained by actual [[computation]] (instead of by less concrete proofs of existence). As such computability theory is similar to _[[constructive mathematics]]_ and to _[[realizability]]_; indeed (emphasized e.g. in ([Bauer 05](#Bauer05))):
+
+Computable mathematics is the [[realizability]] [[interpretation]] of [[constructive mathematics]].
+
+Computability theory deals only with computability in principle and disregards the complexity of computation, that is instead the topic of _[[complexity theory]]_.
 
 The key concept in computability theory is that of a _[[computable function]]_, hence of a [[function]] whose output may be determined from its input by an actual [[computation]]. There are two main types of computability, depending on whether one takes the domain and codomain of computable functions to be _finite string_ from a finite alphabet, hence equivalently [[natural numbers]], or _infinite strings_ from a finite interval, hence sequence of natural numbers. 
 
@@ -28,6 +32,11 @@ In the first case -- "type I computability" -- computable functions are [[partia
 ### Relation to intuitionistic mathematics
 
 Computable mathematics is an instance of [[intuitionistic mathematics]] (see e.g. ([Bauer 05, section 4.3.1](#Bauer05))).
+
+
+## Related concepts
+
+* [[computable real number]]
 
 
 ## References
