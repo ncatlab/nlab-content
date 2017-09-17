@@ -174,7 +174,7 @@ $$
 
 ### Co-algebraic structures
 
-Every algebraic structure in a categoy, for instance the notion of [[monoid]] in a [[monoidal category]] $C$, has a co-version, where in the original definition the direction of all morphisms is reversed -- for instance the co-version of a monoid is a [[comonoid]]. Of an [[algebra]] its a [[coalgebra]], etc.
+Every algebraic structure in a category, for instance the notion of [[monoid]] in a [[monoidal category]] $C$, has a co-version, where in the original definition the direction of all morphisms is reversed -- for instance the co-version of a monoid is a [[comonoid]]. Of an [[algebra]] its a [[coalgebra]], etc.
 
 One may express this succinctly by saying that a co-structure in $C$ is an original structure in $C^{op}$. For instance a [[comonoid]] in $C$ is a [[monoid]] in $C^{op}$.
 
@@ -197,7 +197,7 @@ Another example is the definition of the category of $L_\infty$-[[Lie infinity-a
 
 ### Opposite of $FinSet$
 
-The opposit of the category [[FinSet]] of finite sets is equivalent to the category of finite [[boolean algebra]]s
+The opposite of the category [[FinSet]] of finite sets is equivalent to the category of finite [[boolean algebra]]s
 
 $$
   FinSet^{op} \simeq BoolAlg.
