@@ -116,6 +116,10 @@ With that suitably defined, forming endomorphism operads is  [[2-adjunction|righ
 
 ## References
 
+The basic definition of symmetric endomorphism operads is for instance in section 1 of
+
+* [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ Contemp. Math. 431 (2007) 31-58 ([arXiv:0512576](http://arxiv.org/abs/math/0512576))
+
 A general account of the definition of representable multicategories is in section 3.3 of 
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv:math/0305049](http://arxiv.org/abs/math/0305049)
