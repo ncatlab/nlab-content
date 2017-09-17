@@ -111,7 +111,7 @@ As an example, within the category of [[profinite group]]s, not all objects have
 
 * [[associated bundle]], [[associated ∞-bundle]]
 
-* [[quotient]]
+* [[quotient]], [[quotient stack]], [[quotient type]]
 
 * [[representation theory]], [[invariant theory]]
 
