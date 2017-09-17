@@ -60,4 +60,9 @@ See also
 
 * Giulio Bonelli, Kazunobu Maruyoshi, Alessandro Tanzini, _Quantum Hitchin systems via beta-deformed matrix models_, [arxiv/1104.4016](http://arxiv.org/abs/1104.4016)
 
+The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]] in 
+
+* G. Vartanov, J. Teschner, _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_, [arxiv/1302.3778](http://arxiv.org/abs/1302.3778)
+ 
+
 [[!redirects AGT conjecture]]
