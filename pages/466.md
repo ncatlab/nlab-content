@@ -219,5 +219,6 @@ A discussion of the Yoneda lemma from the point of view of [[universal algebra]]
 * [[Vaughan Pratt]], _The Yoneda lemma without category theory: algebra and applications_ ([pdf](http://boole.stanford.edu/pub/yon.pdf))
 
 [[!redirects yoneda lemma]]
+[[!redirects Yoneda Lemma]]
 [[!redirects Yoneda embedding lemma]]
 [[!redirects Yoneda imbedding lemma]]
