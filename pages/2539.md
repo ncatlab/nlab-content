@@ -33,7 +33,7 @@ For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subset]], th
 
 ### For smooth manfiolds {#Manifolds}
 
-See [[Steenrod-Wockel approximation theorem]].
+See _[[Whitney extension theorem]]_, also _[[Steenrod-Wockel approximation theorem]]_.
 
 ### For smooth loci 
 
@@ -93,6 +93,8 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 * [[Borel's theorem]]
 
 * the [[Steenrod-Wockel approximation theorem]]
+
+* the [[Whitney extension theorem]]
 
 
 
