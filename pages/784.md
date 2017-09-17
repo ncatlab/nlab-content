@@ -1,5 +1,12 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A **Segal space** $X_\bullet$
-  is a simplicial space
+  is a [[simplicial topological space]] or [[bisimplicial set]]
   $X_\bullet : \Delta^{op} \to Top$ for which for all $m,n \in \mathbb{N}$ the square
 
 $$
@@ -16,6 +23,8 @@ $$
 $$
 
 is a [[homotopy pullback]] square.
+
+## As a model for higher categories
 
 One definition of $(\infty,n)$-[[(infinity,n)-category|category]] is in terms of [[complete Segal spaces]].
 
