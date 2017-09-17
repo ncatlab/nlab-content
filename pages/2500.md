@@ -92,7 +92,11 @@ For more see
 
 ## Examples
 
-For supergravity Lagrangians "of ordinary type" it turns out that  $N = 1$ [[11-dimensional supergravity]] is the highest dimensional possible. All lower dimensional theories in this class appear as compactifications of this theory.
+For supergravity Lagrangians "of ordinary type" it turns out that  $N = 1$ [[11-dimensional supergravity]] is the highest dimensional possible. All lower dimensional theories in this class appear as compactifications of this theory or otherwise derived from it, such as
+
+* [[type II supergravity]]
+
+* [[heterotic supergravity]]
 
 In dimension $(1+0)$ supergravity coupled to [[sigma-model]] fields is the [[spinning particle]].
 
@@ -103,7 +107,7 @@ In dimension $(1+1)$ supergravity coupled to [[sigma-model]] fields is the [[spi
 ## References
 
 
-A fair bit of detail on [[supersymmetry]] and of supergravity is in 
+A fair bit of detail on [[supersymmetry]] and on supergravity is in 
 
 * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
