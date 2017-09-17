@@ -1,0 +1,10 @@
+
+* [webpage](http://www.phys.huji.ac.il/~bekenste/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Jacob_Bekenstein)
+
+## related entries
+
+* [[Bekenstein-Hawking entropy]]
+
+category: people
