@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -7,6 +21,12 @@
 ## Definition
 
 A _symmetric monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebra]] structure is refined to an [[E3-algebra]] structure.
+
+A [[symmetric monoidal (infinity,n)-category]] for $n = 2$.
+
+## Examples
+
+* A symmetric monoidal 2-category all whose objects are invertible under the tensor product is a [[symmetric 3-group]].
 
 ## Related concepts
 
