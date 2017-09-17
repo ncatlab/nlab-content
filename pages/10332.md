@@ -11,4 +11,4 @@
 category: people
 
 [[!redirects Galilei]]
-
+[[!redirects Galileo]]
