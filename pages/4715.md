@@ -5,8 +5,10 @@
 
 ## Idea
 
-A ribbon graph (also called fat graph) is a finite connected graph equipped with a cyclic ordering on the half edges incident to each vertex; it is
-also required that the valence of each vertex is at least 3. To each ribbon graph, one can associate an oriented surface with boundary by replacing edges
+A _ribbon graph_ (also called _fat graph_ ) is a finite connected [[graph]] equipped with a cyclic ordering on the half edges incident to each vertex; it is
+also required that the valence of each vertex is at least 3. 
+
+To each ribbon graph, one can associate an [[orientation|oriented]] [[surface]] with [[boundary]] by replacing edges
 by thin oriented rectangles (ribbons) and glueing them together at all vertices according to the chosen cyclic order.
 
 ## Definition
@@ -42,13 +44,126 @@ $$
 
 $M^s_g$ is a mapping class group of a surface of genus $g$ with $s$ punctures. Alternatively, one can instead of the geometric realization take a moduli space of ribbon graphs with metric. A **metric** on a ribbon graph is a positive real valued function on the set of edges. 
 
-## Applications
 
-...
+## Properties
+
+For the following we represent a fat graph by
+
+* a set $V$ of vertices;
+
+* a set $H$ of half-edges;
+
+* a source map $s : H \to V$;
+
+* an involution $i :  H \to H$ which sends each half-edge to its partner half-edge;
+
+* an permutation $\sigma : H \to H$ which gives the cyclic order on the edges.
+
+
+### Geometric realization
+
+For $\Gamma$ a fat graph, write $\Sigma_\Gamma$ for the [[surface]] that it defines.
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[boundary]] components of $\Sigma_\Gamma$ are naturally identified with the [[cycle]]s of $\sigma \circ i : H \to H$, as well as with the cycles of $i \circ \sigma$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[genus]] of $\Sigma_\Gamma$ is
+
+$$
+  g = \frac{1}{2}
+   \left(
+     - \vert V\vert - \vert E\vert - \vert bounary components\vert + 2
+   \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For every surface $S$ with boundary, there is a fat graph $\Gamma$ and a [[homeomorphism]]
+
+$$
+  S \stackrel{\simeq}{\to}  \Sigma_\Gamma
+  \,.
+$$
+
+=--
+
+### Moduli space of surfaces
+
+Write $FatGraph^c_3$ for the [[full subcategory]] of fat graphs on the connected fat graphs for which every vertex has valence at leat 3. Write $\vert FatGraph^c_3 \vert \in $ [[Top]] for the [[geometric realization]] of this [[category]]. For $\Sigma$ a [[surface]], write $\Gamma_Sigma$ for its [[mapping class group]] and $B \Gamma_\Sigma$ for the corresponding [[classifying space]].
+
++-- {: .num_theorem}
+###### Theorem
+
+There is a [[weak homotopy equivalence]]
+
+$$
+  \vert FatGraph^c_3 \vert \simeq
+  \coprod_{[\Sigma]} B \Gamma_\Sigma
+  \,,
+$$
+
+where on the right thr coproduct ranges over isomorphism classes of orientable, closed 2-dimensional manifolds with $n \geq 1$ marked points, except those for which $(g,n) = (0,1)$ or  $(g, n) = (0,2)$.
+
+=--
+
+In various guises this theorem has been proven by [Costello](#Costello), [Kontsevich92](#Kontsevich92), [Igusa02](#Igusa02), [Penner](#Penner), [Strebel](#Strebel).
+
+The restriction to valence $\geq 3$ can be dropped:
+
++-- {: .num_theorem}
+###### Theorem
+
+There is a [[weak homotopy equivalence]]
+
+$$
+  \vert FatGraph^c \vert \simeq
+  B U(1) \coprod B U(1) \coprod_{[\Sigma]} B \Gamma_\Sigma
+  \,,
+$$
+
+where again on the right thr coproduct ranges over isomorphism classes of orientable, closed 2-dimensional manifolds with $n \geq 1$ marked points, except those for which $(g,n) = (0,1)$ or  $(g, n) = (0,2)$. The two extra copies of $B U(1)$ corespond to these two exceptional cases.
+
+=--
+
+This has been shown in ([Godin](#Godin)). One of the $B U(1)$-summands is also produced in ([Igusa02](#Igusa02)). A detailed complete proof appears as ([Kuipers, theorem 3.59](#Kuipers)).
+
+
+## Related concepts
+
+* [[graph]]
+
+* [[directed graph]]
+
+  * [[directed n-graph]]
+
+* **ribbon graph**
 
 ## References
 
-* K. Igusa, _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
+Original references include
+
+* [[Maxim Kontsevich]], _Intersection theory on the moduli space of curves and the matrix Airy function_ , Commun.
+Math. Phys. (1992), no. 147, 1-23.
+ {#Kontsevich92}
+ 
+* [[Kiyoshi Igusa]], _Higher franz-reidemeister torsion_ , IP Studies in Advanced Mathematics, American Mathematical
+Society, 2002.
+ {#Igusa02}
+
+* [[Kiyoshi Igusa]], _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
+ {#Igusa04}
 
 * K. Strebel, _Quadratic Differentials_, Springer, Berlin, 1984, [MR86a:30072](http://www.ams.org/mathscinet-getitem?mr=86a:30072)
 
@@ -66,6 +181,18 @@ $M^s_g$ is a mapping class group of a surface of genus $g$ with $s$ punctures. A
 
 * Gabriele Mondello, _Riemann surfaces, ribbon graphs and combinatorial classes_, [pdf](http://www.mat.uniroma1.it/~mondello/me/papers/ober-definitive.pdf)
 
+* [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+ {#Godin}
+
+A survey is in chapter 3 of 
+
+* [[Sander Kuipers]], _String topology operations_ MSc thesis (2011)
+
+Some discussion is at
+
 * MathOverflow: [why does ribbon graph cohomology compute cohomology of mapping class group](http://mathoverflow.net/questions/51978/why-does-ribbon-graph-cohomology-compute-cohomology-of-mcg)
 
 [[!redirects ribbon graphs]]
+
+[[!redirects fat graph]]
+[[!redirects fat graphs]]
