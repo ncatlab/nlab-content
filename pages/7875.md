@@ -3,6 +3,11 @@
 * tabe of contents
 {:toc}
 
+## Idea
+
+In the context of [[arithmetic]], _carrying_ is part of the operation of representing [[addition]] of [[natural numbers]] by digits with respect to a base.
+
+
 ## In terms of cohomology
 
 Write $\mathbb{Z}_{10} = \mathbb{Z}/10\mathbb{Z}$ for the [[abelian group]] of [[addition]] of [[integers]] modulo 10. In the following we identify the elements as
