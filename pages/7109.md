@@ -1,0 +1,8 @@
+See:
+
+* [[cofinal diagrams]],
+* [[cofinal functor]],
+* [[cofinality]].
+
+
+category: adjective
