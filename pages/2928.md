@@ -1,6 +1,13 @@
 
-An **involution** is an [[endomorphism]] (or [[antihomomorphism|antiendomorphism]]) whose square is the [[identity morphism]].  Such an endomorphism must be an [[automorphism]] (or antiautomorphism); indeed, it is its own [[inverse morphism|inverse]].
+An **involution** is an [[endomorphism]] whose square is the [[identity morphism]].  Such an endomorphism must be an [[automorphism]]; indeed, it is its own [[inverse morphism|inverse]].
+
+Where this makes sense, an __anti-involution__ is an [[antihomomorphism]] instead of a [[homomorphism]] (so an antiendomorphism and necessarily an antiautomorphism).
 
 
 [[!redirects involution]]
 [[!redirects involutions]]
+
+[[!redirects antiinvolution]]
+[[!redirects antiinvolutions]]
+[[!redirects anti-involution]]
+[[!redirects anti-involutions]]
