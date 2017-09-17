@@ -99,30 +99,49 @@ are both
 The lax structure is given by the [[Alexander-Whitney map]]
 
 $$
-  \phi_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)
+  \nabla_{A,B} : N(A) \otimes N(B) \to N(A \otimes B)
   \,.
 $$
 
 The oplax structure is given by the [[Eilenberg-Zilber map]]
 
 $$
-  \psi_{A,B} : N(A \otimes B ) \to N(A) \otimes N(B)
+  \Delta_{A,B} : N(A \otimes B ) \to N(A) \otimes N(B)
   \,.
 $$
+
+The composite 
+
+$$
+  N(A) \otimes N(B) \stackrel{\nabla_{A,B}}{\to}
+  N(A \otimes B)
+  \stackrel{\Delta_{A,B}}{\to}
+  N(A) \otimes N(B)
+$$
+
+is the [[identity]], while the composite
+
+$$
+  N(A \otimes B)
+  \stackrel{\Delta_{A,B}}{\to}
+  N(A) \otimes N(B)
+   \stackrel{\nabla_{A,B}}{\to}
+  N(A \otimes B)
+$$
+
+is a chain [[homotopy equivalence]].
 
 
 =--
 
-An extensive discussion of this is in chapter 5 of ([AguiarMahajan](#AguiarMahajan)).
+Apparently the basic result (without the bilax and Frobenius structure)  appears in ([MacLaneHomology](#MacLaneHomology)).   The AW/EZ equivalences for the normalized chains functor are a special case of the strong deformation retract of chain complexes that was constructed in ([EilenbergMacLane](#EilenbergMacLane)).  A review of the proof of symmetric lax monoidalness can be found also in section 8.5.4 of ([Weibel](#Weibel)).
+The bilax monoidal and Frobenius structure is described in chapter 5 of ([AguiarMahajan](#AguiarMahajan)). The Frobenius structure has also been observed independently by [[Kathryn Hess]] and [[Steve Lack]].
+See also section 2.3 of ([SchwedeShipley](#SchwedeShipley)).
 
-The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in section 5.4.2.
 
 
 +-- {: .proof}
 ###### Proof
-
-The proof of symmetric lax monoidalness can be found for instance in section 8.5.4 of ([Weibel](#Weibel)) 
-
 
 The lax monoidal transformation that exhibits the lax-monoidalness of the Moore chain complex functor is the [[shuffle map]]. Its component 
 
@@ -154,11 +173,8 @@ and similarly for $s_\nu$
 
 >(Hm, is that consistent?)
 
-
-
 =--
 
-For more on this see also section 2.3 of ([SchwedeShipley](#SchwedeShipley))
 
 +-- {: .un_corollary }
 ###### Corollary
@@ -487,9 +503,8 @@ $$
   \,.
 $$ 
 
-See for instance theorem 2.1.a in 
+See for instance theorem 2.1.a in ([EilenbergMacLane](#EilenbergMacLane)).
 
-* [[Samuel Eilenberg]], [[Saunders MacLane]], _On the groups $H(\Pi, n)$ II. Methods of computation_ , Ann. Math. (2) 60 (1954), 49 - 139
 
 A quick summary of all this is in section 7 of
 
@@ -874,6 +889,14 @@ At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains
 
 
 ## References ##
+
+Original results are in
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], _On the groups $H(\Pi, n)$ II. Methods of computation_ , Ann. Math. (2) 60 (1954), 49 - 139
+{#EilenbergMacLane}
+
+* [[Saunders MacLane]], _Homology_  
+{#MacLaneHomology}
 
 A classical reference is
 
