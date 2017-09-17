@@ -26,6 +26,8 @@ Important examples of classical field theories are
 
 +--{: .query}
 [[Ian Durham]]: I've never heard of supergravity as being considered a _classical_ theory before.  Isn't the spin structure it is imbued with inherently quantum mechanical in nature?  I've never even seen it in anything other than a quantum field theory book (i.e. I've never seen it in a GR or GR-related book)?
+
+Zoran: criterium on which book is irrelevant. It is easy to see in any treatment, that one has a classical version first and then quantization. 
 =--
 
 ## quantizaton of classical field theory ##
