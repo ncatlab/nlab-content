@@ -1,5 +1,10 @@
-[[!redirects Plack Collaboration]]
 
 * [webpage](http://www.rssd.esa.int/index.php?project=planck)
 
 category: people
+
+
+[[!redirects Planck Collaboration]]
+[[!redirects Planck collaboration]]
+[[!redirects Plack Collaboration]]
+[[!redirects Plack collaboration]]
