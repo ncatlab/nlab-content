@@ -1,0 +1,37 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For a suitable [[linear operator]] (say on [[section]] of a [[line bundle]] over a [[Riemann surface]]), its _zeta function_ is the [[sum]] of the $-s$-powers of all its [[eigenvalues]], as a function of $s$. This is analogous to the _[[Riemann zeta function]]_ and the [[Dedekind zeta function]] (or would be if there were something like a [[Laplace operator]] on [[Spec(Z)]]).
+
+## Definition
+
+Given an [[elliptic differential operator]] with positive lower bound $c$,  write $D$ for its [[self-adjoint extension]] and write 
+
+$$
+  0 \lt \lambda_1 \leq \lambda_2 \leq \cdots
+$$
+
+for its [[eigenvalues]].
+
+Then the _zeta function_ of $D$ is
+
+$$
+  \zeta_D(s) \coloneqq \underoverset{n = 1}{\infty}{\sum} \frac{1}{(\lambda_n)^s}
+  \,.
+$$
+
+## Related concepts
+
+[[!include zeta-functions and eta-functions and L-functions -- table]]
+
+## References
+
+* Wikipedia, _[Functional determinant -- Zeta function version](http://en.wikipedia.org/wiki/Functional_determinant#Zeta_function_version)_
+
+* {#Richardson} [[Ken Richardson]], section 3 of _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
+
+
