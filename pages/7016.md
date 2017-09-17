@@ -64,7 +64,7 @@ $$\array{
 X & \underset{\langle f, g \rangle}{\to} & Y \times Y
 }$$ 
 
-where $P(Y)$ is the identity type or space of paths in $Y$. Such a section is tantamount to a lift $X \to P(Y)$ of $\langle f, g \rangle \colon X \to Y \times Y$. From this we would like to deduce an actual path $p \colon 1 \to P(Y^X)$. So, very simply, function extensionality means we are able to lift elements $h \colon 1 \to P(Y)^X$ through a canonical map $\phi \colon P(Y^X) \to P(Y)^X$. 
+where $P(Y)$ is the identity type or space of paths in $Y$. Such a section is tantamount to a lift $X \to P(Y)$ of $\langle f, g \rangle \colon X \to Y \times Y$. From this we would like to deduce an actual path $p \colon 1 \to P(Y^X)$. So, very simply, function extensionality means we are able to lift elements $h \colon 1 \to P(Y)^X$ through a canonical map $\phi \colon P(Y^X) \to P(Y)^X$ that is obtained from a [[dependent eliminator]]. 
 
 Of course we are not just interested in [[global element|global elements]] here. What we really want is an actual section $P(Y)^X \to P(Y^X)$ of $\phi$ in the [[slice category|slice]] over $(Y \times Y)^X$ (although this can be derived from the global element formulation by using the [[Yoneda lemma]] together with [[currying]] and uncurrying tricks). This condition may be called "naive" or "weak" function extensionality, in view of an apparently stronger condition that this section (and therefore also $\phi$) be _equivalences_. This latter condition might be called "strong function extensionality". 
 
