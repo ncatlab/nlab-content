@@ -1,0 +1,23 @@
+*Computational topology * is a relatively new area of study. It emerged in response to topological problems that arise in computer graphics, robotics and planning. There are interactions with dynamical systems, and computational geometry.
+
+###Subareas:
+
+
+
+* computational homology
+
+*  [[topological data analysis]]
+
+* topological  dynamics;
+
+* topological analysis of networks of sensors.
+
+* discrete Morse theory
+
+Related areas include
+
+* computational homological algebra.
+
+###References.
+
+See the separate entry [[sources in computational topology]].
