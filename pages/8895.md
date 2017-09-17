@@ -1,13 +1,31 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A notion of [[Segal space]] without specified identities/degeneracies.
+A _semi-Segal space_ is like a [[Segal space]] but without specified identities/degeneracies. It is to [[semicategories]] as Segal spaces are to [[categories]].
+
+
 
 ## References
+
+The notion is mentiond in 
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+
+More details are spelled out in
 
 * [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
 
