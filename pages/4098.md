@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 An **absolute colimit** is a [[colimit]] which is [[preserved limit|preserved]] by any [[functor]] whatsoever.  In general this happens because the colimit is a colimit for purely "diagrammatic" reasons.
