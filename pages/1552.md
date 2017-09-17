@@ -1,4 +1,10 @@
 
+# Gauge spaces
+* table of contents
+{: toc}
+
+## Idea
+
 A gauge space is a [[topological space]] (necessary completely regular) whose topology is given by a family of [[metric space|pseudometrics]].  More generally, a quasigauge space is a space (not necessarily completely regular) whose topology is given by a family of quasipseudometrics.
 
 Actually, a gauge space has additional structure, so that it can be seen as giving a (completely regular) [[Cauchy space]], a [[uniform space]], or even a generalisation of a [[metric space]] in which the category $Met$ of metric spaces and short maps is a [[full subcategory]].
@@ -11,10 +17,10 @@ Please note that, while this is based on the presentation in _[[HAF]]_, the prec
 Given a [[set]] $X$, a __pregauge__ on $X$ is simply a family of [[metric space|pseudometrics]] on $X$.  A __gauge__ is a $\geq$-[[filter]] of pseudometrics on $X$, that is a collection $G$ of __gauging distances__ such that
 
 1.  There is an element of $G$; in the light of (3), the zero pseudometric $( x, y \mapsto 0 )$ is a gauging distance.
-1.  Given $d, e \in G$, some $f \in G$ satisfies
+2.  Given $d, e \in G$, some $f \in G$ satisfies
     $$ d(x,y), e(x,y) \leq f(x,y) $$
     for all $x, y$ in $X$; in the light of (3), the pseudometric $( x, y \mapsto max(d(x,y), e(x,y)) )$ is a gauging distance.
-1.  Given $d \in G$ and any pseudometric $e$ on $X$, if
+3.  Given $d \in G$ and any pseudometric $e$ on $X$, if
     $$ e(x,y) \leq d(x,y) $$
     for all $x, y$ in $X$, then $e \in G$.
 
@@ -24,7 +30,7 @@ A pregauge satisfying axioms (1&2) is a __[[base]]__ for a gauge; a base is prec
 A __gauge space__ is a set equipped with a gauge.  A __quasigauge__ is a collection of quasipseudometrics satisfying (1--3); a __quasigauge space__ is a set equipped with a quasigauge.
 
 
-Given (quasi)gauge spaces $X$ and $X'$, a __short map__ from $X$ to $X'$ is a [[function]] $F$ (on their underlying sets) such that the [[composite]] with $F$ (or with $F \times F$, to be precise) of any gauging distance on $X'$ is a gauging distance on $X$.  That is,
+Given (quasi)gauge spaces $X$ and $X'$, a __[[short map]]__ from $X$ to $X'$ is a [[function]] $F$ (on their underlying sets) such that the [[composite]] with $F$ (or with $F \times F$, to be precise) of any gauging distance on $X'$ is a gauging distance on $X$.  That is,
 
 *  for every $e \in G'$, there is a $d \in G$ such that
    $$ e(F(x),F(y)) \leq d(x,y) $$
@@ -53,7 +59,7 @@ The categories $Gau$ and $QGau$ are not well known, but some of their subcategor
 *  Another way to get a quasigauge space from a topological space is to take as a base the set of all quasi-pseudometrics $d$ on $X$ such that for each $x\in X$, the function $d(x,-):X\to \mathbb{R}$ is [[semicontinuous function|upper semicontinuous]].  This is also a full embedding of $Top$ in $QGau$, which is perhaps more "canonical."
 
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman|Mike]]: Back atcha... do you have any good examples of gauge spaces that are not of one of these types?  And is there any value in embedding metric spaces, uniform spaces, and topological spaces into this mysterious larger category $QGau$, in ways so that their images are essentially disjoint?  Do we ever, for instance, want to talk about a short map from a metric space to a topological space, or vice versa?  I would like the answer to be "yes," but I haven't managed to make it come out that way myself yet.
 
 _Toby_:  I don\'t know any examples of gauge spaces that arise naturally (you can make them artificially, of course, say as disjoint unions) and don\'t correspond to some other more familiar type of space.  However, I can give examples that don\'t belong to $Met$, $Unif$, or $Top$ ... because they\'re Cauchy spaces, which aren\'t listed above yet!
@@ -86,5 +92,7 @@ Many of these full subcategories of $Gau$ and $QGau$ are [[reflective subcategor
 *  Eric Schechter; 1997; [[HAF|Handbook of Analysis and its Foundations]]; Academic Press, 1st ed (1996).
 
 
-[[!redirects quasigauge space]]
+[[!redirects gauge space]]
 [[!redirects gauge spaces]]
+[[!redirects quasigauge space]]
+[[!redirects quasigauge spaces]]
