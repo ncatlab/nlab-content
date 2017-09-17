@@ -78,6 +78,8 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 
 * [[geometric class field theory]]
 
+* [[geometric Satake equivalence]]
+
 * [[Hitchin fibration]]
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
@@ -209,6 +211,7 @@ Further discussion is also in
 Discussion from the point of view of [[M-theory]] is in 
 
 * [[Meng-Chwan Tan]], _M-Theoretic Derivations of 4d-2d Dualities: From a Geometric Langlands Duality for Surfaces, to the AGT Correspondence, to Integrable Systems_ ([arXiv:1301.1977](http://arxiv.org/abs/1301.1977))
+
 
 
 A relation to [[T-duality]] (of the group manifolds!) is discussed in
