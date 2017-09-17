@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -19,6 +20,8 @@
 {:toc}
 
 ## Definition 
+
+### General
 
 +-- {: .num_defn}
 ###### Definition
@@ -82,19 +85,12 @@ A category $C$ has **enough projectives** if for every object $X$ there is an ep
 This terminology refers to the existence of [[projective resolutions]], prop. \ref{EnoughIsEnough} below.
 
 
-
-## Properties
-
-* If $C$ has [[pullback|pullbacks]] and epimorphisms are preserved by pullback, as is the case in a [[pretopos]], then $P$ is projective iff any epimorphism $Q\to P$ is [[split epimorphism|split]].
-
-* The [[axiom of choice]] can be phrased as "all objects of [[Set]] are projective."  See also [[internally projective object]] and [[COSHEP]].
-
-## In abelian categories
+### In abelian categories
  {#InAbelianCats}
 
-Projective objects and [[injective objects]] in [[abelian categories]] $\mathcal{A}$ are of central interest in [[homological algebra]]. Here they appear as parts of [[cofibrant resolutions]] and [[fibrant resolutions]], respectively, in the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$, with respecto to one of the two standard [[model structures on chain complexes]].
+Projective objects and [[injective objects]] in [[abelian categories]] $\mathcal{A}$ are of central interest in [[homological algebra]]. Here they appear as parts of [[cofibrant resolutions]] and [[fibrant resolutions]], respectively, in the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$, with respect to one of the two standard [[model structures on chain complexes]].
 
-### Equivalent characterizations
+#### Equivalent characterizations
  {#EquivalentCharacterizationInAbelianCats}
 
 +-- {: .num_prop #EquivalenceOfDefinitionsInAbelian}
@@ -144,7 +140,7 @@ Therefore we are reduced to showing that $Hom(X,p)$ is an [[epimorphism]] precis
 =--
 
 
-### Projective resolutions
+#### Projective resolutions
 
 Let $\mathcal{A}$ be an [[abelian category]]. 
 
@@ -188,12 +184,105 @@ If $\mathcal{A}$ has _enough projectives_ in the sense of defn \ref{EnoughProjec
 
 
 
+
 ## Examples
+
++-- {: .num_remark #ProjectiveInSetsIsAxiomOfChoice}
+###### Remark
+
+The [[axiom of choice]] can be phrased as "all objects of [[Set]] are projective."  
+
+See also _[[internally projective object]]_ and _[[COSHEP]]_.
+
+=--
+
+* If $C$ has [[pullback|pullbacks]] and epimorphisms are preserved by pullback, as is the case in a [[pretopos]], then $P$ is projective iff any epimorphism $Q\to P$ is [[split epimorphism|split]].
 
 * An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[free group]].
 
 * For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See at _[[projective module]]_ for more on this.
 
+## Properties
+
+### Existence of enough projectives
+ {#ExistenceOfEnoughProjectives}
+
+We list examples of classes of categories that have enough projective, according to prop. \ref{EnoughProjectives}.
+
++-- {: .num_prop #ModHasEnoughProjectives}
+###### Proposition
+
+Assuming the [[axiom of choice]], for $R$ a [[ring]] the category $R$[[Mod]] of [[modules]] over $R$ is has enough projectives.
+
+=--
+
+See at _[[projective module]]_ for more.
+
++-- {: .num_lemma #FreeModulesAreProjective}
+###### Lemma
+
+Assuming the [[axiom of choice]],
+a [[free module]] $N \simeq R^{(S)}$ is projective.
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+By remark \ref{ProjectiveInSetsIsAxiomOfChoice} and the [[free-forgetful adjunction]].
+
+More explicitly: if $S \in Set$ and $F(S) = R^{(S)}$ is the [[free module]] on $S$, then a module homomorphism $F(S) \to N$ is specified equivalently by a [[function]] $f : S \to U(N)$ from $S$ to the underlying set of $N$, which can be thought of as specifying the images of the unit elements in $R^{(S)} \simeq \oplus_{s \in S} R$ of the ${\vert S\vert}$ copies of $R$.
+
+Accordingly then for $\tilde N \to N$ an epimorphism, the underlying function $U(\tilde N) \to U(N)$ is an epimorphism, and by remark \ref{ProjectiveInSetsIsAxiomOfChoice} the [[axiom of choice]] in [[Set]] says that we have all lifts $\tilde f$ in
+
+$$
+  \array{
+     && U(\tilde N)
+     \\
+     & {}^{\tilde f} \nearrow & \downarrow
+     \\
+     S &\stackrel{f}{\to}& U(N)
+  }
+  \,.
+$$
+
+By [[adjunction]] these are equivalently lifts of module homomorphisms
+
+$$
+  \array{
+     && \tilde N
+     \\
+     & \nearrow & \downarrow
+     \\
+     R^{(S)} &\stackrel{}{\to}& N
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof 
+**of prop. \ref{ModHasEnoughProjectives}**
+
+For $N \in R Mod$ and $U(N) \in Set$ its underlying set, 
+consider the $R$-linear map
+
+$$
+  \left(
+    \oplus_{n \in U(n)} R 
+  \right)
+  \to 
+  N
+$$
+
+out of the [[direct sum]] of ${\vert U(N)\vert}$ copies of $N$,
+which sends the unit element $1 \in R_{n}$ of the $n$-labeled copy of $R$ to the corresponding element of $n$ (and is thus fixed on all other elements by $R$-linearity).
+
+This is clearly a [[surjection]] and by lemma \ref{FreeModulesAreProjective} it is a surjection out of a projective object. 
+
+=--
 
 ## Related concepts
 
@@ -214,6 +303,14 @@ If $\mathcal{A}$ has _enough projectives_ in the sense of defn \ref{EnoughProjec
 * flat object, [[flat resolution]]
 
   * [[flat module]]
+
+## References
+
+For instance section 4.3 of
+
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+
+
 
 [[!redirects enough projectives]]
 [[!redirects projective objects]]
