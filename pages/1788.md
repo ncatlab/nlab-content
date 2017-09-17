@@ -4,8 +4,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-### Header ### {: key1=val key2="long val" #myid .class1 .class2 ref1 ref2} blabla
-
+## Header ##
 +-- {: .query}
 
 No sand in this box.
