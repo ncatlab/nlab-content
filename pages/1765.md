@@ -355,7 +355,7 @@ and appears in the [[Adams spectral sequence]].
 
 ## Related concepts
 
-* [[Amitsur complex]]
+* [[Amitsur complex]], [[Hopf algebroid]]
 
 * [[descent]]
 
@@ -367,7 +367,7 @@ and appears in the [[Adams spectral sequence]].
 
     * **Sweedler coring**
 
-    * [[higher monadic descent]]
+    * [[monadic descent]], [[higher monadic descent]]
 
     * [[descent in noncommutative algebraic geometry]]
 
