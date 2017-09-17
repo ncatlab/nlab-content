@@ -118,6 +118,7 @@ Like any Jordan algebra, a $JB$-algebra $A$ is [[power-associative algebra|power
 
 Since every $JB$-algebra $A$ is [[formally real algebra|formally real]], it comes equipped with a [[partial order]]: $x \leq y$ iff $y - x$ is a sum of squares.
 
+The [[order-theoretic structure in quantum mechanics]] fixes the JB-algebra structure of a $C^*$-algebra, but not the JLB-algebra structure.
 
 ## References
 
