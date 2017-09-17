@@ -7,3 +7,5 @@ Every finite separable field extension is an [[étale morphism]] of rings.
 If $K\subset L\subset M$ are fields and $K\subset M$ is separable, then $L\subset M$ is also separable. 
 
 [[!redirects separable extension]]
+[[!redirects separable extensions]]
+[[!redirects separable field extensions]]
