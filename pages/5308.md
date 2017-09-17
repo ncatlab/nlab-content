@@ -89,6 +89,9 @@ have $(\Delta_P\nu)_{j,p}=\nu_j=j\text{th component of the limiting cone of
 on pointwise limits.
 =--
 
+## Related concepts
+
+* [[diagonal morphism]]
 
 [[!redirects diagonal functor]]
 [[!redirects diagonal functors]]
