@@ -8,11 +8,11 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Searching the nLab ##
+## Searching the nLab
 
 There are two methods of searching the nLab:
 
@@ -24,14 +24,16 @@ There are two methods of searching the nLab:
    1. Most just search for alphanumeric characters.
    1. It searches the _rendered version_ of each page.
 
-## Google Search ##
 
-+-- {: .query style="text-align: center"}
+## Google Search
+
++-- {: .standout style="text-align: center"}
  *Search the nLab using Google:*
  <form  name="gsearch" method="get" action="http://www.google.com/search"><input type="text" size="30" name="as_q" style="display: inline"/><input type="hidden" name="as_sitesearch" value="http://ncatlab.org/nlab/"/></form>
 =--
 
-## Regular Expressions ##
+
+## Regular Expressions
 
 Regular expressions are a powerful way of extending search capabilities to take into account that one often wants to search for more than just a set phrase.  In a regular expression, certain characters are declared to be "special" and have a particular interpretation (somewhat like TeX with its special catcodes).  A special character can always be "escaped" to interpret it as an ordinary character.  Thus `.` means "match any single character" but `\.` means "match a period".
 
@@ -75,7 +77,11 @@ Special characters
 : Matches either `re1` or `re2`.
 
 
-[[!redirects searching in the nLab]]
+[[!redirects Searching nLab]]
 [[!redirects searching nLab]]
+[[!redirects Searching the nLab]]
 [[!redirects searching the nLab]]
+[[!redirects Searching in the nLab]]
+[[!redirects searching in the nLab]]
+
 category: meta
