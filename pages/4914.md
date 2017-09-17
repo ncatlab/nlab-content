@@ -50,18 +50,19 @@ An internal diagram on $C^{op}$ is sometimes called an **[[internal presheaf]]**
 
 ### In dependent type theory
 
-Using the [[dependent type theory|language of]] [[dependent type|dependent types]], the map $d: F_0 \to C_0$ can be seen as the [[categorical semantics|interpretation]] of a dependent type $X:C_0 \vdash F(X):Type$. The action of $C_1$ on $F_0$ can equivalently be given by the interpretation of a closed term $p$ of type
+Using the [[dependent type theory|language of]] [[dependent type|dependent types]], the map $d: F_0 \to C_0$ can be seen as the [[categorical semantics|interpretation]] of a dependent type $(X:C_0) \,\vdash\, (F(X):Type)$. The action of $C_1$ on $F_0$ can equivalently be given by the interpretation of a term in [[context]]:
 
-$$ 
-  \Pi_{X,Y:C_0} \Pi_{f:C_1(X,Y)} (F(X) \to F(Y))
-  \,,
-$$
+$$ (X:C_0), (Y:C_0), (f:C_1(X,Y)), (a:F(X)) \;\vdash\; (p(X,Y,f,a) : F(Y)). $$
 
-where we let $C_1$ depend on $C_0 \times C_0$ by the canonical morphism $C_1 \to C_0 \times C_0$ induced by $s$ and $t$.
+Here we consider $C_1$ to depend on $C_0 \times C_0$ by the canonical morphism $C_1 \to C_0 \times C_0$ induced by $s$ and $t$, as in the [[type-theoretic definition of category]].
 
-The axioms then take a particularly familiar form, to be interpreted in the [[internal language]] of $E$:
-* $X:C_0 \;\vdash\; p(X,X,id_X) = id_{F(X)}$
-* $X,Y,Z:C_0, f:C_1(X,Y), g:C_1(Y,Z) \;\vdash\; p(X,Z,g \circ f) = p(Y,Z,g) \circ p(X,Z,f)$
+If the ambient category $E$ is a [[locally cartesian closed category]], so that its internal type theory has [[dependent product types]], then this can be interpreted instead as a closed term
+
+$$ p : \Pi_{X,Y:C_0} \Pi_{f:C_1(X,Y)} (F(X) \to F(Y)). $$
+
+The axioms then take a particularly familiar form, also to be interpreted in the [[internal language]] of $E$:
+* $(X:C_0), (a:F(X) \;\vdash\; p(X,X,id_X,a) = a $
+* $(X,Y,Z:C_0), (f:C_1(X,Y)), (g:C_1(Y,Z)), (a:F(X)) \;\vdash\; p(X,Z,g \circ f,a) = p(Y,Z,g,p(X,Y,f,a))$
 
 ## Properties
 
