@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -15,6 +30,14 @@ In an [[associated bundle]] with [[connection]] the _covariant derivative_ of a 
 We give here a definition of covariant derivatives that is natural in the general context of [[∞-Chern-Weil theory]] in that it applies to [[connections on ∞-bundles]]. 
 
 We start by describing this just for ordinary [[connections on a bundle]] and demonsztrate how this general abstract definition reproduces the traditional definitions found in the literature.
+
+The central statement is: a covariant derivate $\nabla \sigma$ of a section may be identified with the 1-form [[curvature]]-component of a [[Lie algebroid]]-valued connection, and the curvature equation
+
+$$
+  \nabla \nabla \sigma = F_\nabla \sigma
+$$ 
+
+is the [[Bianchi identity]] on tis curvature 1-form.
 
 #### Preliminaries on action Lie algebroid cohomology {#ActionLieAlgebroidCohomology}
 
@@ -40,10 +63,10 @@ $$
 Explicitly, for $t \in \mathfrak{g}$ this sends $f$ to the function
 $(d_\rho f)(t)$ which is the derivative along $t \in T_e G$ of the function $G \times V \stackrel{\rho}{\to}V \stackrel{f}{\to} \mathbb{R}$.
 
-Even more explicitly, if we choose local coordinates $\{x^\mu\} : \mathbb{R}^{dim V} \to V$ on a patch, and choose a basis $\{t^a\}$ of $\mathfrak{g}^*$ then we have that restricted to this patch the differential is on generators by
+Even more explicitly, if we choose local coordinates $\{v^k\} : \mathbb{R}^{dim V} \to V$ on a patch, and choose a basis $\{t^a\}$ of $\mathfrak{g}^*$ then we have that restricted to this patch the differential is on generators by
 
 $$
-  d_\rho : f \mapsto \rho^\mu{}_a t^a \wedge \partial_\mu f
+  d_\rho : f \mapsto \rho^\mu{}_a t^a \wedge \partial_k f
 $$
 
 $$
@@ -51,14 +74,25 @@ $$
   \,.
 $$
 
-Notably for $V$ a finite dimensional [[vector space]], $\{v^k\}$ a choice of basis of that vector space and $f$ a _[[linear function]]_ , we have that $(\phi_k := \partial_k f) \in \mathbb{R}^{dim V}$ are the components vector of the dual vector given by $V$ in this basis, and the above gives the [[matrix multiplication]] form of the action
+Specifically for $V$ a finite dimensional [[vector space]], $\rho : G$ a _linear_ action, $\{v^k\}$ a choice of basis of that vector space and $f$ a _[[linear function]]_ $f= f_k v^k$ , we have that $(f_k := \partial_k f) \in \mathbb{R}^{dim V}$ are the components vector of the dual vector given by $V$ in this basis, and the above gives the [[matrix multiplication]] form of the action
 
 $$
-  d_\rho : f \mapsto t^a \rho^k{}_a  \phi_k
+  d_\rho : v^k \mapsto t^a \rho_a{}^k{}_l  v^l
   \,.
 $$
 
-These local formulas shall be useful below for recognizing from our general abstract definition of covariant derivative the formulas traditionally given in the literature. For that notice that in the above local coordinates, the [[Weil algebra]] of the action Lie algebroid is given by
+Notice for completeness that the equation $(d_\rho)^2 = 0$ is equivalent to the [[Jacobi identity]] of the Lie bracket and the action property of $\rho$:
+
+$$
+  d_\rho d_\rho v^k = 
+   (t^a \wedge t^b \rho_a{}^k{}_r \rho_b{}^r{}_l
+    -
+    \frac{1}{2}C^a{}_{b c}t^b \wedge t^c \rho_a{}^k{}_l )
+     v^l
+  \,.
+$$
+
+These local formulas shall be useful below for recognizing from our general abstract definition of covariant derivative the formulas traditionally given in the literature. For that notice that in the above local coordinates further restricting attention to linear actions, the [[Weil algebra]] of the action Lie algebroid is given by
 
 $$
   W(Lie(V//G)) = (\wedge^\bullet_{C^\infty(\mathbb{R}^{dim V})} ( \Gamma(T^* \mathbb{R}^{dim V}) \oplus \mathfrak{g}^* \oplus \mathfrak{g}^*[1]), d_{W_\rho})
@@ -67,7 +101,7 @@ $$
 where the differential is given on generators by
 
 $$
-  d_{W_\rho} : f \mapsto \rho^\mu_a t^a \wedge \partial_\mu f + d_{dR} f
+  d_{W_\rho} : v^k \mapsto \rho_a{}^k{}_l t^a \wedge v^l + d_{dR} v^k
 $$
 
 $$
@@ -77,7 +111,10 @@ $$
 and where the uniquely induced differential on the shifted generators -- the one encoding [[Bianchi identities]] -- is
 
 $$
-  d_{W_\rho}  : d_{dR} f \mapsto \rho^\mu_a r^a \wedge \partial_\mu f - \rho^\mu_a t^a  \partial_\mu d_{dR} f
+  d_{W_\rho}  : d_{dR} v^k 
+      \mapsto 
+        \rho_a{}^k{}_k r^a \wedge v^l 
+      - \rho_a{}^k{}_l t^a \wedge  d_{dR} v^l
 $$
 
 and 
@@ -97,7 +134,6 @@ $$
 
 that is the identity on $\mathfrak{g}^*$.
 
-=--
 
 
 #### Sections of bundles as groupoid principal bundles
@@ -242,10 +278,10 @@ $$
 This is the familiar local formula for a covariant derivative as one finds it in the literature. We therefore write for short
 
 $$
-  \nabla_{(-)} \sigma^i := F^1_{\nabla sigma_i}
+  \nabla_{(-)} \sigma_i := F^1_{\nabla sigma_i}
 $$
 
-If we keep $\nabla$ fixed and let $\sigma_i$ vary, this is naturally regarded as a 1-form with values in [[endomorphism]]s of the space of sections
+If we keep $\nabla$ fixed and let $\sigma_i$ vary, then this may be thought of as a 1-form with values in [[endomorphism]]s of the space of sections
 
 $$
   \nabla_{(-)} : \Gamma(P \times_\rho V) \to \Gamma(P \times_\rho V)
@@ -254,30 +290,20 @@ $$
 
 There is a [[Bianchi identity]] on every [[curvature]] component, induced from the respect for differentials of the dg-algebra morphism $\Omega^\bullet(U_i) \leftarrow W(Lie(V//G)) : F_\nabla$ on shifted generators. 
 
-From the discussion at [Action Lie algebroid cohomology](#ActionLieAlgebroidCohomology) above we read off the Bianchi identity for the 1-form curvature that we identified with the covariant derivative to be given in local coordinates (as above) by
+From the discussion at [Action Lie algebroid cohomology](#ActionLieAlgebroidCohomology) above we read off the Bianchi identity for the 1-form curvature that we identified with the covariant derivative im the case of linear actions to be given in local coordinates (as above) by (suppresing the patch index ${}_i$)
 
 
 $$
-  d_{dR} \nabla_{(-)} \sigma_i = \rho^k_a F_A^a \wedge \partial_k \sigma_i 
+  d_{dR} \nabla_{(-)} \sigma^k = \rho_a{}^k{}_k F_A^a \wedge \sigma^k 
   - 
-  \rho^k_a A^a d_{dR} \partial_k \sigma_i
+  \rho_a{}^k{}_l A^a d_{dR} \sigma^k
   ,.
 $$
-
-If $V$ is a vector space as above, then this is
-
-$$
-  d_{dR} \nabla_{(-)} \sigma_i = \rho^k_a F_A^a \wedge \sigma_i ^k 
-  - 
-  \rho^\mu_a A^a d_{dR} \sigma_i^k
-  ,.
-$$
-
 
 More invariantly we may write this as 
 
 $$
-  \nabla_{(-)} \nabla_{(-)} \sigma_i = \rho(F_A)(\sigma_i)
+  \nabla_{(-)} \nabla_{(-)} \sigma = \rho(F_A)(\sigma)
 $$
 
 and this find the usual expression of the [[curvature]] of a connection as the square of the covariant derivative.
