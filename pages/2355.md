@@ -245,7 +245,8 @@ $$
 
 which implies that $L(\lim_\to d_i) \simeq \lim_\to L(d_i)$.
 
-Now to see this in $(\infty,1)$-category theory...
+Now to see this in $(\infty,1)$-category theory
+(...) HTT Proposition 5.2.3.5
 
 
 ### Adjunctions on homotopy categories {#OnHomotopyCat}
