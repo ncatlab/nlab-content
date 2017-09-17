@@ -836,3 +836,9 @@ section 7 of
 
 * J. Maes, _An introduction to the orbit method_, Master thesis (2011) ([pdf](http://testweb.science.uu.nl/ITF/teaching/2011/Jeroen%20Maes.pdf), [pdf slides](http://www.imus.us.es/FSMYT12/Talk_Jeroen_Maes.pdf), [web](http://igitur-archive.library.uu.nl/student-theses/2011-0622-200341/UUindex.html))
 
+Discussion in terms of [[Dirac induction]] is in 
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part II, example 1.37 of _[[Loop Groups and Twisted K-Theory]]_
+ {#FHT}
+
+
