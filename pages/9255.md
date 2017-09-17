@@ -29,6 +29,7 @@ Algorithms and Computations in mathematics, Volume 9, Springer Verlag, NY 2007, 
 ## Software
 
 * [javaplex](http://code.google.com/p/javaplex) - Java library for computing persistent topological invariants
+* [Perseus](http://www.sas.upenn.edu/~vnanda/perseus) -- C++ persistent homology software based on Discrete Morse theory.
 * [jPlex](http://comptop.stanford.edu/u/programs/jplex/index.html)
 * [Dionysus](http://www.mrzv.org/software/dionysus) -- C++ library for computing persistent homology
 * Plex for Matlab: older, [C++ based version of Plex](http://comptop.stanford.edu/u/programs/plex.html)
