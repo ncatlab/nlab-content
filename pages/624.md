@@ -129,7 +129,7 @@ $$
 
 In a [[closed monoidal category]] $\mathbb{D}X$ is also called the _weak dual_ of $X$ (e.g. [Becker-Gottlieb, p. 5](#BeckerGottlieb)), to contrast with the monoidal dual as above, which would then be called the _strong dual_ . If the induced morphism $X \to \mathbb{D}\mathbb{D}X$ is an [[equivalence]] this weak dual is called a _reflexive weak dual_.
 
-If $\mathcal{C}$ is a [[compact closed category]], def. \ref{RigidAndCompactClosed}, then the weak dual $\mathbb{D}X$ is also [[generalized the|the]] strong dual object $X^\ast$ to $X$ in the above monoidal sense.
+If $\mathcal{C}$ is a [[compact closed category]], def. \ref{RigidAndCompactClosed}, then the weak dual $\mathbb{D}X$ is also [[generalized the|the]] strong dual object $X^\ast$ to $X$ in the above monoidal sense. Here dualization exhibits $\mathcal{C}$ as a [[star-autonomous category]] ($\mathbb{D}(-) = (-)^\ast$ is the star-operation)
 
 
 ## In a symmetric monoidal $(\infty,n)$-category
