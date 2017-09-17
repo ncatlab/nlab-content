@@ -21,12 +21,19 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
 ### Brief
+ {#IdeaInBrief}
 
 To every [[quantum mechanical system]] is associated its _Bohr topos_ : a [[ringed topos]] which plays the role of the quantum [[phase space]]. The idea of this construction -- _Bohrification_ -- is that it naturally captures the [[geometry|geometric]] and [[logic|logical]] aspects of [[quantum physics]] in terms of [[higher geometry]]/[[topos theory]].
 
-One way to understand Bohrification is as a generalization of the construction of the [[Gelfand spectrum]] of a commutative [[C-star algebra]]s to a context of _noncommutative_ $C^*$-algebras. It assigns to a noncommutative $C^*$-algebra $A$ a generalized [[Gelfand spectrum]] in the form of a [[locale]] $\underline{\Sigma}_A$ [[internalization|internal]] to the [[sheaf topos]] $\mathcal{T}_A$ over the [[poset of commutative subalgebras]] of $A$, or  equivalently its externalization $\Sigma_A \to \mathcal{C}(A)$ regarded as a [[locale]] [[over category|over]] the locale of open subalgebras.
+One way to understand Bohrification is as a generalization of the construction of the [[Gelfand spectrum]] of a commutative [[C-star algebra]]s to a context of _noncommutative_ $C^*$-algebras. It assigns to a noncommutative $C^*$-algebra $A$ essentially a system of Gelfand dual spaces to each of its [[commutative C*-algebra|commutative]] subalgebras.
+Together, this system yields a generalized [[Gelfand spectrum]] in the form of a [[locale]] $\underline{\Sigma}_A$ [[internalization|internal]] to the [[sheaf topos]] $\mathcal{T}_A$ over the [[poset of commutative subalgebras]] of $A$, or  equivalently its externalization $\Sigma_A \to \mathcal{C}(A)$ regarded as a [[locale]] [[over category|over]] the locale of open subalgebras.
+
+As a [[topos]], the Bohr topos is just a [[presheaf topos]], the topos of presheaves on this [[poset of commutative subalgebras]] of $A$, but the point is that it is naturally a [[ringed topos]] with the original non-commutative algebra $A$ appearing as a commutative $C^\ast$-algebra [[internalization|internal]] to the Bohr topos. This allows to talk about [[quantum states]] on $A$ much like classical states, but internal to the Bohr topos. 
+
+In fact, under mild assumptions on $A$, its [[poset of commutative subalgebras]], and hence the Bohr topos over it, encodes precisely the [[Jordan algebra]] underlying $A$. As discussed at _[[Jordan algebra]]_, this is precisely that part of $A$ which knows about the [[quantum observables]] themselves. In order to have the Bohr topos remember the full non-commutative algebra structure of $A$, it needs to be equipped with the information about [[Hamiltonian vector field|Hamiltonian]] [[flows]] induced on $A$ by automorphisms of the form $\exp(i [H,-])$, where $[-,-]$ is the [[commutator]] (that gets discarded as one passes to the [[Jordan algebra]]). According to [[Andreas Döring]] (private communication at MPI Bonn, April 2013), this can be formulated nicely in topos theory.
 
 
 ### More detailed
