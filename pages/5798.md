@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $R$ a [[commutative ring]], its **nilradical** $I \subset R$ is the [[ideal]] of nilpotent elements: the collection of those elements $a \in R$ such that there is $n \in \mathbb{N}$ with $a^n = 0$.
+
+The [[quotient]] $R/I$ is also called the _reduced_ part of $R$.
+
+## Related concepts
+
+With rings regarded as [[Isbell duality|formal dual]]s of [[affine scheme]]s, the canonical inclusion
+
+$$
+  Spec R/I \to Spec R
+$$
+
+is to be thought of as exhibiting the inclusion of $Spec R/I$ into an [[infinitesimal object|infinitesimal thickening]] of itself.
+
+For $X : CRing \to Set$ a [[presheaf]] on the [[category]] of [[commutative rings]], the presheaf
+
+$$
+  X_{dR} : Spec R \mapsto X(Spec R/I)
+$$
+
+is called the [[de Rham space]] of $X$.
+
