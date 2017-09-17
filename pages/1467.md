@@ -1,3 +1,4 @@
+[[!redirects compact space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -109,6 +110,8 @@ But it is far from clear to me ([[Todd Trimble]]) that "quasicompact" is very we
 Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
 
 ## Related concepts
+
+* [[paracompact topological space]], [[strongly compact topological space]]
 
 * [[compact topos]]
 
