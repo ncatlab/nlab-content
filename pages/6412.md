@@ -83,8 +83,13 @@ A standard reference is
 * [[Jean-Pierre Serre]], _A course in arithmetic_, Grad. Texts in Math. __7__, Springer (1973)
 
 ### Applications
+ {#Applications}
 
 A review of (somewhat speculative) applications of $p$-adic analysis in [[mathematical physics]] is in 
+
+* Branko Dragovich, _Non-Archimedean Geometry and Physics on Adelic Spaces_ ([arXiv:math-ph/0306023](http://arxiv.org/abs/math-ph/0306023))
+
+* Branko Dragovich, _$p$-Adic and Adelic Quantum Mechanics_ ([arXiv:hep-th/0312046](http://arxiv.org/abs/hep-th/0312046))
 
 * B. Dragovich, A. Yu. Khrennikov, S. V. Kozyrev, I. V. Volovich, _$p$-Adic Mathematical Physics_ ([arXiv:0904.4205](http://arxiv.org/abs/0904.4205))
 
