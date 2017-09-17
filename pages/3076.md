@@ -7,6 +7,12 @@
 
   * [[limits and colimits by example]]
 
+  * [[filtered colimit]]
+
+    * [[directed colimit]]
+
+      * [[sequential colimit]]
+
 * [[Kan extension]]
 
 * [[end|end and coend]]
@@ -27,9 +33,13 @@
 
 ### Model-categorical
 
+* [[homotopy Kan extension]]
+
 * [[homotopy limit]]
 
-* [[homotopy pullback]]
+  * [[homotopy pullback]]
+
+* [[homotopy colimit]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-limits+-+contents)</div>
