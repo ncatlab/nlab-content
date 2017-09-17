@@ -8,7 +8,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 [[vanilla.print.css:file]]
 [[MAXIMISED.vanilla.print.css:file]]
 
-$X^\sharp$ $X^\flat$ $X^\natural$
+$X^\sharp$ $X^\flat$ $X^\natural$ $\prod$ $\Prod$ $\sum$ $\Sum$
 
 ***
 
