@@ -24,7 +24,7 @@ Details depend on the particular flavor of operad being used (the choice of enri
 
 ## Related concepts
 
-There are natural functors from and to $Opead$ to [[Cat]], [[dSet]], etc.
+There are natural functors from and to $Operad$ to [[Cat]], [[dSet]], etc.
 
 * [[Cat]], **Operad**
 
