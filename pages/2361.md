@@ -15,7 +15,9 @@
 
 An __inverse limit__ is the same thing as a [[limit]].  (Similarly, a [[direct limit]] is the same thing as a [[colimit]].)  In this context, an __inverse system__ is the same thing as a [[diagram]], and an __inverse cone__ is the same thing as a [[cone]]. If the __indexing category__ is that associated to the natural numbers with its usual order, then an inverse system is often called an __inverse sequence__.
 
-Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]. 
+Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]); see [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want. Especially common is the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]], in which case the inverse system may be called an __inverse sequence__. 
+
+## Move to [[codirected limit]]:
 
 $$
   \array{
@@ -30,17 +32,14 @@ $$
 Classical examples occur in the theory of [[Postnikov towers]] and also in the definition of the [[solenoid]]s.  As an example of the latter the dyadic solenoid is the 'inverse limit' of the **inverse sequence**, $(X(n),p_n)$, in which each $X(n)$ is a copy of $S^1$ and each 'structure map' $p_n:X(n)\to X(n-1)$ is given by the squaring map on the circle, that is $e^{i\theta}\mapsto e^{2i\theta}$.
 
 
-
-
-
-See [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
-
-
 [[!redirects inverse limit]]
 [[!redirects inverse limits]]
 
 [[!redirects inverse system]]
 [[!redirects inverse systems]]
+
+[[!redirects inverse sequence]]
+[[!redirects inverse sequences]]
 
 [[!redirects inverse cone]]
 [[!redirects inverse cones]]
