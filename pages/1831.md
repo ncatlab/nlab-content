@@ -54,8 +54,6 @@ We have:
 
 * Every [[isomorphism]] of [[simplicial sets]] is a Cartesian fibration.
 
-* Cartesian fibrations are [[pullback stability|stable under pullback]] in [[SSet]].
-
 * The composite of two Cartesian fibrations is again a Cartesian fibration.
 
 =--
@@ -67,8 +65,22 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.2.3 ]].
 
 =--
 
++-- {: .un_prop}
+###### Proposition
 
-### Pullback of Cartesian fibrations
+Every Cartesian fibration is a fibration in the [[Andre Joyal|Joyal]]-[[model structure for quasi-categories]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 3.3.1.7]].
+
+=--
+
+
+### Behaviour under pullback
 
 Since a Cartesian fibration is in particular an [[inner fibration]] and since inner fibrations are stable under [[pullback]] in [[sSet]], it follows that for $p : E \to C$ a Cartesian fibration, the fiber $E_x$ over every point $x \in C_0$ is a [[quasi-category]]
 
@@ -145,6 +157,22 @@ is a Cartesian fibration.
 This is  [[Higher Topos Theory|HTT, cor. 2.4.2.10]].
 
 =--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The [[pullback]] in [[sSet]] of a weak equivalence in the [[Andre Joyal|Joyal]]-[[model structure for quasi-categories]] along a Cartesian fibration is again a Joyal-weak equivalence
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop 3.3.1.3]]
+
+=--
+
 
 
 ### Relation to other kinds of fibrations
