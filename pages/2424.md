@@ -46,7 +46,7 @@ And various articles on the foundations of [[topological field theory]] such as
 
 * _On the structure of the topological phase of two dimensional gravity_ Nuclear Phys, B 340 (1990) 281 ([scans](http://ccdb5fs.kek.jp/cgi-bin/img_index?200033155))
 
-  on the [[topological string]] limit of the [[worldsheet]] 2d [[quantum gravity]] theory of the string, including the [[A-model]] and [[B-model]] [[topological twists]] of the [[type II superstring]];
+  on the [[topological string]] limit of the [[worldsheet]] [[2d quantum gravity]] theory of the string, including the [[A-model]] and [[B-model]] [[topological twists]] of the [[type II superstring]];
 
 and
 
