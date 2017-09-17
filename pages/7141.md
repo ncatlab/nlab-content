@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -7,6 +22,8 @@
 
 A (complete) _archimedean valued field_ is a [[field]] equipped with an [[archimedean absolute value]] (and [[complete field|complete]] with respect to it).
 
+
+A non-archimedean field is one that is not, hence one whose [[norm]] satisfies the [[ultrametric]] [[triangle inequality]].
 
 ## Properties
 
@@ -29,3 +46,12 @@ One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|compl
 
 [[!redirects archimedean valuation]]
 [[!redirects archimedean valuations]]
+
+[[!redirects non-archimedean valued field]]
+[[!redirects non-archimedean valued fields]]
+[[!redirects non-Archimedean valued field]]
+[[!redirects non-Archimedean valued fields]]
+[[!redirects non-archimedean-valued field]]
+[[!redirects non-archimedean-valued fields]]
+[[!redirects non-Archimedean-valued field]]
+[[!redirects non-Archimedean-valued fields]]
