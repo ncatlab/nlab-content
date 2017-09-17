@@ -3,7 +3,7 @@
 {:toc}
 
 # Idea
-From the physical point of view there are two different reasons to consider the Haag-Kastler approach on more general manifolds than the Minkowski spacetime:
+From the physical point of view there are two different reasons to consider the [[Haag-Kastler axioms|Haag-Kastler]] approach on more general manifolds than the Minkowski [[spacetime]]:
 
 * It is expected that such a theory, while not solving the problem to construct a theory of quantum gravity, would still have a wide range of validity.
 
