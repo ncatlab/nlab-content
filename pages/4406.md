@@ -11,8 +11,7 @@ An [[ordered field]] $F$ is **real closed** if it satisfied the following two pr
 
 * Any odd-degree [[polynomial]] with coefficients in $F$ has a root in $F$. 
 
-Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. Thus the category of real closed fields is a full subcategory of the category of [[field]]s. 
-
+Notice that the order on a real closed field is definable from the algebraic structure: $x \leq y$ if and only if $\exists_z x + z^2 = y$. (In particular, there is a _unique_ ordering on a real closed field, defined by taking the positive elements to be precisely the nonzero squares.) Thus the category of real closed fields and order-preserving field homomorphisms is a full subcategory of the category of [[field|fields]] and field homomorphisms. 
 
 ## Properties 
 
@@ -26,8 +25,22 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 1. $F$ is an ordered field that has no ordered algebraic extension. 
 
-+-- {: .query}
-Colin: Is it true that real closure is an adjoint construction to the forgetful functor from real closed fields to orderable fields?
+In fact, there is a [[completion]] of any [[ordered field]] to a real closed field, in the following sense: 
+
++-- {: .un_thm} 
+######Theorem 
+The full inclusion of the category of real closed fields and field homomorphisms to the category of ordered fields and ordered field homomorphisms has a left adjoint. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+We give a brief sketch of proof, referring to Lang's _Algebra_ ($3^{rd}$ edition), section IX.2, for more details. 
+
+First, for each ordered field $F$, there is a real closed algebraic extension $F \to R$ that is order-preserving (theorem 2.11). This is called a **real closure** of the ordered field $F$. 
+
+Second, any two real closures of $F$ are uniquely isomorphic (theorem 2.9); in fact, the proof shows there is at most one order-preserving homomorphism over $F$ between any two real closures. Therefore we may speak of _the_ real closure of $F$, which we denote as $\widebar{F}$. 
+
+Finally, let $F \to R$ be any order-preserving field homomorphism to a real closed field $R$. We must show that $F \to R$ extends uniquely to a homomorphism $i: \widebar{F} \to R$. Any such homomorphism $i$ must factor through the subfield $R' \hookrightarrow R$ consisting of elements $\alpha \in R$ that are algebraic over $F$, since $\widebar{F}$ is algebraic over $F$. But this subfield is also real closed. Therefore, by the preceding paragraph, there is at most one homomorphism $\widebar{F} \to R'$ extending $F \to R'$, and the proof is complete. 
 =--
 
 
