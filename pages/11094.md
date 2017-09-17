@@ -49,7 +49,7 @@ See at _[[homotopy type with finite homotopy groups]]_.
 
 ### Relation to compact homotopy type
 
-The [[compact object in an (infinity,1)-category|compact objects]]in [[∞Grpd]] are the [[retracts]] of finite homotopy types. Not every such retract is itself a finite homotopy type; the vanishing of [[Wall's finiteness obstruction]] is a necessary and sufficient condition for this to happen.
+The [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]] are the [[retracts]] of finite homotopy types. Not every such retract is itself a finite homotopy type; the vanishing of [[Wall's finiteness obstruction]] is a necessary and sufficient condition for this to happen.
 
 
 ## Related concepts
