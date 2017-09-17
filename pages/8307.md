@@ -19,6 +19,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+For $A$ and $B$ two [[abelian groups]], their _tensor product_ $A \otimes B$ is a new abelian group which is such that a [[group homomorphism]] $A \otimes B \to C$ is equivalently a [[bilinear map]] out of $A$ and $B$.
+
 ## Definition
 
 +-- {: .num_defn}
@@ -55,7 +59,49 @@ A [[group homomorphism]] $A \otimes B \to C$ is a [[bilinear map]] $A \times B \
 
 ## Properties
 
+### Monoidal category structure
+
+
++-- {: .num_prop}
+###### Proposition
+
 Equipped with the tensor product $\otimes$ of def. \ref{ExplicitTensorProduct} [[Ab]] becomes a [[monoidal category]]. 
+
+The [[unit object]] in $(Ab, \otimes)$ is the additive group of [[integers]] $\mathbb{Z}$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that $\mathbb{Z}$ is the unit object, consider for any abelian group $A$ the map
+
+$$
+  A \otimes \mathbb{Z} \to A
+$$
+
+which sends for $n \in \mathbb{N} \subset \mathbb{Z}$
+
+$$
+  (a, n) \mapsto n \cdot a \coloneqq \underbrace{a + a + \cdots + a}_{n\;summands}
+  \,.
+$$
+
+Due to the quotient relation defining the tensor product, the element on the left is also equal to 
+
+$$
+  (a, n) = (a, \underbrace{1 + 1 \cdots + 1}_{n\; summands})
+  =
+  \underbrace{ (a,1) + (a,1) + \cdots + (a,1) }_{n\; summands}
+  \,.
+$$
+
+This shows that $A \otimes \mathbb{Z} \to A$ is in fact an [[isomorphism]].
+
+=--
+
+
+### Monoids
 
 +-- {: .num_prop}
 ###### Proposition
@@ -87,7 +133,28 @@ $$
 $$
 
 This is precisely the [[distributivity law]] of the ring.
+
 =--
+
+## Examples
+
+For $n \in \mathbb{N}$ positive we write $\mathbb{Z}_n$ for the [[cyclic group]] of [[order]] $n$, as usual.
+
++-- {: .num_example}
+###### Example
+
+For $a,b \in \mathbb{N}$ and positive, we have
+
+$$
+  \mathbb{Z}_a \otimes \mathbb{Z}_b \simeq \mathbb{Z}_{LCM(a,b)}
+  \,,
+$$
+
+where $LCM(-,-)$ denotes the [[least common multiple]].
+
+=--
+
+A proof is spelled out for instance as ([Conrad, theorem 4.1](#Conrad)).
 
 ## Related concepts
 
@@ -100,5 +167,10 @@ This is precisely the [[distributivity law]] of the ring.
 An exposition is in 
 
 * Collin Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
+
+and, in the further generality of the [[tensor product of modules]], in 
+
+* Keith Conrad, _Tensor products_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf))
+ {#Conrad}
 
 [[!redirects tensor product of abelian groups]]
