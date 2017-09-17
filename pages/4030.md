@@ -321,4 +321,6 @@ Discussion of characterizations of [[sites]] of definition of locally connected 
 
 * [[Olivia Caramello]], _Site characterizations for geometric invariants of toposes_, Theory and Applications of Categories, Vol. 26, 2012, No. 25, pp 710-728. ([TAC](http://www.tac.mta.ca/tac/volumes/26/25/26-25abs.html))
 
-[[!redirects locally connected topoes]]
+[[!redirects locally connected toposes]]
+[[!redirects locally connected topoi]]
+
