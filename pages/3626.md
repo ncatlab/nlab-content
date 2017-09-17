@@ -202,6 +202,12 @@ Their role in 2-dimensional [[TQFT]] is discussed for instance in
 * Aaron Lauda and Hendryk Pfeiffer (2008), Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155**, 623-666. ([web](http://arxiv.org/abs/math/0602047))
 {#Lauda2008}
 
+For applications in proof theory of classical and [[linear logic]]:
+
+* [[Martin Hyland]],  _Abstract Interpretation of Proofs: Classical Propositional Calculus_ , pp.6-21 in Marcinkowski, Tarlecki (eds.),  _Computer Science Logic (CSL 2004)_ , LNCS **3210** Springer Heidelberg 2004. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2004/aap04.pdf))
+
+* [[Richard Garner]], _Three investigations into linear logic_ , PhD report  Cambridge 2006. ([pdf](http://comp.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
+
 See also
 
 * [[Stephen Lack]] (2004), Composing PROPs, _Theory and Applications of Categories_ **13**, 147--163.  ([web](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html))
@@ -212,6 +218,10 @@ See also
 
 * R. Street (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
 {#Street2004}
+
+* R. F. C. Walters, R. J. Wood, _Frobenius Objects in Cartesian Bicategories_ , TAC **20** no. 3 (2008) pp.25-47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
+
+* [[F. W. Lawvere]], _Ordinal Sums and Equational Doctrines_ , pp.141-155 in Eckmann (ed.), _Seminar on Triples and Categorical Homology Theory_ , LNM **80** Springer Heidelberg 1969. ([TAC Reprint of vol. 80](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)) 
 
 (TO ADD: stuff from this [MO post](http://mathoverflow.net/questions/32193/why-did-people-originally-like-frobenius-algebras))
 (TO DO: $\epsilon$ is used for the comultiplication in the beginning, then for the linear form, and in the definition of symmetry for the bilinear pairing on a Frobenius algebra.  Use three different letters for these) 
