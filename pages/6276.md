@@ -58,6 +58,8 @@ where the sum over $s$ is the sum over all
 $2r$-tuples $s = (s_1,\ldots,s_{2r})$
 of strictly positive integers whose sum $s_1 +\ldots+s_{2r} = N$. 
 
+Hausdorff series satisfies the symmetry $H(-Y,-X) = -H(X,Y)$.
+
 ## Literature
 
 * [[N. Bourbaki]], _Lie groups and algebras_, chapter II
@@ -69,4 +71,6 @@ cf. [[Malcev completion]]
 * Anton Alekseev, Charles Torossian, _The Kashiwara-Vergne conjecture and Drinfeld's associators_, [pdf](http://www.math.jussieu.fr/~torossian/AT1.pdf)
 
 [[!redirects Baker-Campbell-Hausdorff series]]
-
+[[!redirects BCH formula]]
+[[!redirects Baker-Campbell-Hausdorff formula]]
+[[!redirects BCH theorem]]
