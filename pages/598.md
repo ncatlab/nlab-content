@@ -642,9 +642,20 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 * [[simplicial topological group]]
 
-* [[∞-group]]
-
 * [[group object in an (∞,1)-category]]
+
+* [[group]]
+
+* [[2-group]], [[crossed module]], [[differential crossed module]]
+
+* [[3-group]], [[2-crossed module]] / [[crossed square]], [[differential 2-crossed module]]
+
+* [[n-group]]
+
+* [[∞-group]], **simplicial group**, [[crossed complex]], [[hypercrossed complex]]
+
+
+
 
 ## References 
 
