@@ -58,9 +58,14 @@ The action of a [[motivic Galois group]] ("[[cosmic Galois group]]") on the spac
 * [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
  {#Kontsevich99}
 
-A survey of this and similar motivic phenomena in physics is in the appendix of
+A quick and rough survey of this and vaguely related motivic structures in physics is in the appendix of
 
 * A. Rej, [[Matilde Marcolli]], _Motives, an introductory survey for physicists_ ([pdf](http://www.its.caltech.edu/~matilde/ObiMotivesSurveyFinal.pdf))
+
+A detailed review of motivic structures in [[periods]] in [[scattering amplitudes]] is in 
+
+* Dan Li, _Periods And Motives: Applications In
+Mathematical Physics_, Thesis 2012 ([pdf](http://diginole.lib.fsu.edu/cgi/viewcontent.cgi?article=6885&context=etd)).
 
 A detailed review of the motivic [[cosmic Galois group]] [[action]] on the space of [[renormalization]] procedures is in section 7 of
 
@@ -202,6 +207,7 @@ The general analogy between such [[KK-theory]] cocycles and [[pure motives]] is 
  {#ConnesConsaniMarcolli05}
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
 
 This analogy is given a precise form in
 
