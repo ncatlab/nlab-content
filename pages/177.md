@@ -1,83 +1,8 @@
-# Directed graphs
-* table of contents
-{: toc}
 
+In [[graph theory]], 'directed graph' or 'digraph' usually means a *simple* directed graph; see [[graph]] for definitions.  In [[category theory]], the same term is often used for a [[quiver]], which may have multiple edges and loops.
 
-## Idea
+See also [[directed n-graph|directed n-graph]].
 
-A (directed) graph is a collection of edges which may stretch between (ordered) pairs of "points", called _vertices_.
-
-A directed graph is like a [[category]] with units and composition forgotten. Indeed, a [[category]] is a directed graph with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
-
-$$U : Cat \to DiGraph$$
-
-where [[DiGraph]] is the category of directed graphs and [[Cat]] is the category of small categories.  Moreover, this forgetful functor has a [[adjoint functor|left adjoint]] 
-
-$$F : DiGraph \to Cat $$
-
-sending each directed graph to the [[free functor|free]] category on that graph.  A free category on a graph is called a [[quiver]].
-
-**A note on terminology:** in the context of graph theory, the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another. In other words, a directed graph (or _digraph_) in that context can be identified with a set $V$ of vertices equipped with a binary relation (the edges are ordered pairs of vertices belonging to that relation). See also the article [[graph]].
-
-
-## Definitions
-
-### Slick definition
-
-The **[[walking structure|walking]] directed graph** $X$ is the [[category]] with
-
-* one object $X_0$, called the object of _vertices_;
-
-* one object $X_1$, called the object of _edges_;
-
-* two morphisms $s,t : X_1 \to X_0$, called
-the _source_ and _target_;
-
-* together with identity morphisms.
-
-A **directed graph** is a [[functor]] $G: X\to$ [[Set]].
-
-More generally, a **directed graph [[internalization|in]] a category $C$** is a [[functor]] $G : X \to C$.
-
-The category of directed graphs in $C$, [[DiGraph]], is the [[functor category]] $C^{X}$, where:
-
-* objects are functors $G: X \to C$,
-
-* morphisms are [[natural transformation|natural transformations]] between such functors.
-
-In the basic case $C = Set$, we call this category the category of [[presheaf|presheaves]] on $X^{op}$.  So: the category of directed graphs, [[DiGraph]], is the category of presheaves on the category $X^{op}$. 
-
-
-### Nuts-and-bolts definitions 
-
-A _directed graph_ $G$ consists of two sets $E$ (the set of _edges_ of $G$), $V$ (the set of _vertices_ of $G$) and two functions 
-
-$$s, t: E \stackrel{\to}{\to} V$$ 
-
-(the source and target functions). More generally, a _directed graph internal to a category_ (more simply, in a category) $C$ consists of two objects $E$, $V$ and two morphisms $s, t: E \to V$. 
-
-If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two directed graphs in a category $C$, a _morphism_ $g: G \to G'$ is a pair of morphisms $g_0: V \to V'$, $g_1: E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$. 
-
-
-## Remarks
-
-Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
-
-* A directed graph in $C$ is a [[presheaf]] on $X^{op}$ with values in $C$.
-
-* A directed graph is a [[globular set]] which is concentrated in the first two degrees.
-
-* Directed graphs in the sense here include graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
-
-* A directed graph is **complete** if for any pair of vertices $v,v'\in G_0$, there exists a unique directed edge $e\in G_1$ with $s(e) = v, t(e) = v'$.
-
-
-## See also
-
-* [[directed n-graph|Directed n-graph]]
-
-
-## Discussion
 
 _[[Eric Forgy|Eric]] asks_: Given a small [[category]] $C$ whose set of objects is countable, I'm interested in finding the smallest [[directed graph]] $G$ such that its free category/quiver $F(G)$ is equivalent to $C$. Is that a standard construction? If so, what would it be called? Does that even make any sense?
 
@@ -129,4 +54,6 @@ _Toby_:  You don\'t need 'smallest' here; adding to $G$ will either add objects 
 [[!redirects digraph]]
 [[!redirects digraphs]]
 [[!redirects directed pseudograph]]
+[[!redirects directed pseudographs]]
 [[!redirects Directed graph]]
+[[!redirects Directed graphs]]
