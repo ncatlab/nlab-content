@@ -74,7 +74,8 @@ Reviews include
 
 * Joao Gomes, _Joao Gomes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
 
-Recent developments include
+More recent developments include
+
 
 * Oleg Lunin, [[Samir Mathur]], _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
 
