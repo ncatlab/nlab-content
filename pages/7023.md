@@ -1,0 +1,30 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion [[duality|dual]] to [[operad]]. 
+
+Cooperads are to operads as [[algebras]] are to [[coalgebras]].
+
+## References
+
+This appears for instance in 
+
+
+* Ching, _Bar construction for topological operads_ ([pdf](http://dspace.mit.edu/bitstream/handle/1721.1/27881/61212201.pdf?sequence=1))
+
+[[!redirects cooperads]]
+[[!redirects co-operad]]
+[[!redirects co-operads]]
