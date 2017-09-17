@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
@@ -87,7 +91,7 @@ The element $\Delta$ in def. \ref{PDAlgebra} is called a **[[fundamental class]]
 +-- {: .num_prop}
 ###### Proposition
 
-Every homomorphism $f \colon A \to B$ between PD $C^\ast$-algebras is [[K-orientation|K-orientable in KK-theory]]. The K-orientation is given by the element $f! \colon B \to A$ given as the composite
+Every homomorphism $f \colon A \to B$ between PD $C^\ast$-algebras is [[K-orientation|K-orientable in KK-theory]]. The [[K-orientation]] is given by the corresponding [[dual morphism]], hence the element $f! \colon B \to A$ given as the composite
 
 $$
   f!
@@ -122,7 +126,11 @@ For $A = C_0(X)$ the [[algebra of functions]] [[vanishing at infinity]] of a [[m
 
 ([BMRS 07, proof of theorem 2.9](#BMRS07))
 
+## Related concepts
 
+* [[fundamental class]]
+
+* [[virtual fundamental class]]
 
 ## References
 
