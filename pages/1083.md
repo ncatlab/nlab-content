@@ -34,3 +34,5 @@ If $A$ is moreover [[abelian category|abelian]], then we also have
 * [[derived category]]
 
 category: category
+
+[[!redirects categories of chain complexes]]
