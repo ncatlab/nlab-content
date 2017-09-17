@@ -156,10 +156,88 @@ According to ([CastellaniDAuriaFre, comment below (III.8.18)](#CastellaniDAuriaF
 
 =--
 
-## Applications
+## Relation to $D = 11$ supergravity
+  {#RelationToSupergravity}
 
-The maximal 11-dimensional [[supergravity]] is [[schreiber:∞-Chern-Simons theory]] for a degree 11 [[Chern-Simons element]] in $\mathfrak{sugra}_6$.
-See [[D'Auria-Fre formulation of supergravity]] for details.
+The supergravity Lie 6-algebra is something like the gauge $L_\infty$-algebra of [[11-dimensional supergravity]], in the sense discussed at _[[D'Auria-Fre formulation of supergravity]]_ .
+
++-- {: .num_defn #ModifiedWeilAlgebra}
+###### Definition
+
+Write $W(\mathfrak{sugra}_6(10,1))$ for the [[Weil algebra]] of the supergravity Lie 6-algebra.
+
+Write $g_4$ and $g_7$ for the shifted generators of the Weil algebra corresponding to $c_3$ and $c_6$, respectively.
+
+Define a modified Weil algebra $\tilde W(\mathfrak{sugra}_6(10,1))$ by declaring it to have the same generators and differential as before, except that the differential for $c_6$ is modified to
+
+$$
+  d_{\tilde W} c_6 := d_{W} c_6  + 15 g_4 \wedge c_3  
+$$
+
+and hence the differential of $g_7$ is accordingly modified in the unique way that ensures $d_{\tilde W}^2 = 0$ (yielding the modified [[Bianchi identity]] for $g_7$).
+
+=--
+
+This ansatz appears as ([CastellaniDAuriaFre, (III.8.24)](#CastellaniDAuriaFre)).
+
+Note that this amounts simply to a redefinition of [[curvature]]s
+
+$$
+  \tilde g_7 := g_7 + 15 g_4 \wedge c_3
+  \,.
+$$
+
++-- {: .num_note #SugraEOM}
+###### Claim
+
+A field configuration of [[11-dimensional supergravity]] is given by [[∞-groupoid of ∞-Lie algebra valued forms|L-∞ algebra valued differential forms]] with values in $\mathfrak{sugra}_6$. Among all of these the solutions to the equations of motion (the points in the [[covariant phase space]]) can be characterized as follows:
+
+A field configuration
+
+$$
+  \Omega^\bullet(X) \leftarrow \tilde W(\mathfrak{sugra}_6) : \Phi
+$$
+
+solves the equations of motion precisely if
+
+1. all [[curvature]]s sit in the ideal of differential forms spanned by the 1-form fields $E^a$ ([[vielbein]]) and $\Psi$ ([[gravitino]]); 
+
+   more precisely if we have
+
+   * $\tau = 0$ 
+ 
+     (super-[[torsion]]);
+
+   * $G_4 = (G_4)_{a_1, \cdots a_4} E^{a_1} \wedge \cdots E^{a_4}$ 
+
+     ([[field strength]] of [[supergravity C-field]])
+
+   * $G_7 = (G_7)_{a_1, \cdots a_7} E^{a_1} \wedge \cdots E^{a_7}$
+
+     ([[electric-magnetic duality|dual]] field strength)
+  
+   * $\rho = \rho_{a b} E^a \wedge E^b  + H_a \Psi \wedge E^a$
+
+     ([[Dirac operator]] applied to [[gravitino]])
+
+   * $R^{a b} = R^{a b}_{c d} E^c \wedge E^d + \bar \Theta^{a b}{}_c \Psi \wedge E^c + \bar \Psi \wedge K^{a b} \Psi$
+
+     ([[Riemann tensor]]: [[field strength]] of [[gravity]])
+
+1. such that the coefficients of terms containing $\Psi$s are polynomials in the coefficients of the terms containing no $\Psi$s. ("rheonomy").
+
+=--
+
+This is the content of ([CastellaniDAuriaFre, section III.8.5](#CastellaniDAuriaFre)).
+
+In particular this implies that on-shell the 4- and 7-field strength are indeed dual of each other
+
+$$
+  G_7 \propto \star G_4
+  \,.
+$$
+
+This is the content of ([CastellaniDAuriaFre, equation (III.8.52)](#CastellaniDAuriaFre)).
 
 ## Related concepts
 
