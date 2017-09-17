@@ -15,9 +15,9 @@ $$
 
 from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects.
 
-There is a general-abstract and concrete aspect to this, and a concrete one. The general abstract one says that an algebra $A$ is reconstructible in from the fiber functor on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructible from the category of _dualizble_ (finite dimensional) modules, even if it is itself not finite dimensional.
+There is a general-abstract and concrete aspect to this, and a concrete one. The general abstract one says that an algebra $A$ is reconstructible from the fiber functor on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructible from the category of _dualizble_ (finite dimensional) modules, even if it is itself not finite dimensional.
 
-More precisely, let $V$ be any enriching category (a [[locally small category|locally small]] [[closed monoidal category|closed]] [[symmetric monoidal category]] with all [[limit]]s). Then 
+More precisely, let $V$ be any [[enriched category theory|enriching category]] (a [[locally small category|locally small]] [[closed monoidal category|closed]] [[symmetric monoidal category]] with all [[limit]]s). Then 
 
 
 1. we have in full generality that:
@@ -32,7 +32,7 @@ More precisely, let $V$ be any enriching category (a [[locally small category|lo
 
    we have that $A$ is reobtained as 
    the [[enriched functor category|enriched endomorphisms]] of $F$, 
-   giveny by the [[end]]
+   given by the [[end]]
 
    $$
      A 
@@ -303,18 +303,18 @@ and
 it is shown that $A$ is recovered as the [[coend]]
 
 $$
-  \int^{N \in A Mod} F(N) \otimes F(N)^*
+  \int^{N \in A Mod_{fin}} F(N) \otimes F(N)^*
 $$
 
 in [[Vect]], where the coend ranges over finite dimensional modules. 
 
-If $A$ itself is finite dimensional then this is yet again just a special case of Tannaka duality for $V$-modules, for the case $V = FinVect^{op}$: the general statement says that $A$ is recovered as the [[end]]
+If $A$ itself is finite dimensional then this is yet again just a special case of the enriched Yoneda lemma for $V$-modules, for the case $V = FinVect^{op}$: this general statement says that $A$ is recovered as the [[end]]
 
 $$
-  A = \int_{N \in A Mod} V(F(N), F(N))
+  A = \int_{N \in A Mod_{fin}} V(F(N), F(N))
 $$
 
-in $Vect^{op}$. This isequivalently the [[coend]]
+in $Vect^{op}$. This is equivalently the [[coend]]
 
 $$
   \cdots \simeq \int^{N \in A Mod}( Vect(F(N), F(N)))
@@ -322,15 +322,16 @@ $$
 
 in $Vect$. Finally using that $FinVect(V,W) \simeq V\otimes W^*$ the above coend expression follows.
 
+As before, more work is required to show that ven for $A$ itself not finite dimensional, it is still recovered in terms of the above (co)end over just its finite dimensional modules.
 
 
 ### In higher category theory
 
-In as far as the proof of Tannak duality only depends on the [[Yoneda lemma]], the statement immediately generalizes to [[higher category theory]] whenever a higher generalization of the Yoneda lemma is available.
+In as far as the proof of Tannaka duality only depends on the [[Yoneda lemma]], the statement immediately generalizes to [[higher category theory]] whenever a higher generalization of the Yoneda lemma is available.
 
 This is notably the case for [[(∞,1)-category]] theory, where we have the [[(∞,1)-Yoneda lemma]].
 
-By applying this verbatim four times in a row as above, we obtain the following statement for "$\infty$-permutation represenzations".
+By applying this verbatim four times in a row as above, we obtain the following statement for "$\infty$-permutation representations".
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -366,7 +367,7 @@ in [[∞Grpd]].
 
 #### $\infty$-Galois theory
 
-As a special case of this, we obtain a statement about $\infty$-Galois theory. For details and background see [[homotopy groups in an (∞,1)-topos]]. In that context one finds for a [[locally contractible space]] $X$ that the [[∞-groupoid]] of [[locally constant ∞-stack]]s on $X$ $LConst(X)$ is equivalent to $Rep_{\infty Grpd}(\Pi(X))$, where $\Pi(X)$ is the [[fundamental ∞-groupoid]] of $X$. 
+As a special case of this, we obtain a statement about $\infty$-Galois theory. For details and background see [[homotopy groups in an (∞,1)-topos]]. In that context one finds for a [[locally contractible space]] $X$ that the [[∞-groupoid]] $LConst(X)$ of [[locally constant ∞-stack]]s on $X$  is equivalent to $Rep_{\infty Grpd}(\Pi(X))$, where $\Pi(X)$ is the [[fundamental ∞-groupoid]] of $X$. 
 For $x \in X$ a point, write $F_x : LConst(X) \to \infty Grpd$ for the corresponding fiber functor.
 
 Then we have
