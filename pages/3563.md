@@ -197,7 +197,9 @@ For any function $f \colon X \to Y$, it is immediate that
 
 $$P(A)^f \colon P(A)^Y \to P(A)^X$$ 
 
-is a functor preorder map that preserves Heyting prealgebra structure. 
+is a functor preorder map that preserves Heyting prealgebra structure.
+
+Furthermore, in the case of a projection map $f \colon Z \times Y \to Y$, there will be left and right adjoints to $P(A)^f \colon P(A)^Y \to P(A)^{Z \times Y} (\cong (P(A)^Z)^Y)$, as induced by the union and intersection maps from $P(A)^Z$ to $P(A)$.
 
 ## References 
 
