@@ -9,19 +9,20 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The notion of a _constant morphism_ in a [[category]] generalises the notion of [[constant function]].
 
+
 ## Definition
 
 +-- {: .num_defn #ConstMorph}
 ###### Definition
-A _constant morphism_ in a [[category]] $\mathcal{C}$ is a [[morphism]] $c : B \to C$ with the property that if $f,g : A \to B$ are morphisms in $\mathcal{C}$ then $c \circ f = c \circ g$.
+A __constant morphism__ in a [[category]] $\mathcal{C}$ is a [[morphism]] $c : B \to C$ with the property that if $f,g : A \to B$ are morphisms in $\mathcal{C}$ then $c \circ f = c \circ g$.
 =--
 In other words, $c$ is a constant morphism if the function $c_* \colon \mathcal{C}(A,B) \to \mathcal{C}(A,C)$ given by composition with $c$ is a [[constant function]] for every object $A$.
 
@@ -29,15 +30,18 @@ Another definition that is sometimes used is the following.
 
 +-- {: .num_defn #ConstTerm}
 ###### Definition
-A morphism $c \colon B \to C$ in a category $\mathcal{C}$ is constant if it factors through the [[terminal object]] of $\mathcal{C}$.
+A morphism $c \colon B \to C$ in a category $\mathcal{C}$ is __constant__ if it factors through the [[terminal object]] of $\mathcal{C}$.
 =--
 
-This second definition implies the first, but they are not equivalent in general.  In the [[category of sets]] the first implies the second if the set $B$ is nonempty.  More generally, if $c \colon B \to C$ is a morphism in a category $\mathcal{C}$, then the two definitions are equivalent if $\mathcal{C}(X,B)$ is nonempty for every $X$.  If $\mathcal{C}$ has a terminal object $1$, then this is equivalent to there being a [[global section]] $b \colon 1 \to B$.
+This second definition implies the first, but they are not equivalent in general.  In the [[category of sets]], the first implies the second if the set $B$ is [[inhabited set|inhabited]].  More generally, if $c \colon B \to C$ is a morphism in a category $\mathcal{C}$, then the two definitions are equivalent if $\mathcal{C}(X,B)$ is inhabited for every $X$.  If $\mathcal{C}$ has a terminal object $1$, then this is equivalent to there being a [[global section]] $b \colon 1 \to B$.
 
 See the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2689) for further discussion of this.
+
 
 ## Examples
 
 Using the two-point set, it is simple to show that the constant morphisms in [[Set]] are precisely the constant functions.
 
+
+[[!redirects constant morphism]]
 [[!redirects constant morphisms]]
