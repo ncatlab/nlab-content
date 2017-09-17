@@ -1,3 +1,5 @@
+This entry is about the generating functions in the sense of algebraic combinatorics. For another notion see [[generating function in classical mechanics]]. 
+
 A _generating function_ is an element of $R[\![z]\!]$, the [[rig]] of formal [[power series]] over the rig $R$ (which is often taken to be the [[natural numbers]] or the [[rational number]]s), used for purposes of [[combinatorics]].  A general element takes the form
 \[f(z) = \sum_{n=0}^{\infty}f_n z^n.\]
 If $R$ is taken to be the [[real numbers]] or the [[complex numbers]] (or any subrig), then we can ask whether the power series has a radius of convergence $r \ge 0$ and if there's an [[analytic continuation]]; if so, then we also say that the continuation is the generating function.
