@@ -466,6 +466,6 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 
 
 * [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], 
-  _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157])
+  _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
  
 [[!redirects Hochschild homology]]
