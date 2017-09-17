@@ -199,3 +199,14 @@ The local aspects of 2-dimensional conformal field theory are governed by [[vert
 ### In your favorite topic here
 
 ...
+
+## Related pages
+
+* [[motivation for sheaves, cohomology and higher stacks]]
+
+* [[motivation for higher differential geometry]]
+
+* [[motivation for cohesion]]
+
+* [[higher category theory and physics]]
+
