@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -60,16 +59,16 @@ The category of quivers in $C$, [[Quiv]]$(C)$, is the [[functor category]] $C^{X
 
 * morphisms are [[natural transformation|natural transformations]] between such functors.
 
-In the basic case $C = Set$, we call this category the category of [[presheaves]] on $X^{op}$.  So: the category of quivers, [[Quiv]], is the category of presheaves on the category $X^{op}$.
+In the basic case where $C$ is [[Set]], the category Quiv(Set) is equivalent to the category of [[presheaves]] on $X^{op}$.  So: the category of quivers, [[Quiv]], is the category of presheaves on the category $X^{op}$.
 
 
 ### Nuts-and-bolts definitions 
 
 A __quiver__ $G$ consists of two sets $E$ (the set of _edges_ of $G$), $V$ (the set of _vertices_ of $G$) and two functions 
 
-$$s, t\colon E \stackrel{\to}{\to} V$$ 
+$$s, t\colon E \rightrightarrows V$$ 
 
-(the source and target functions). More generally, a __quiver internal to a category__ (more simply, *in* a category) $C$ consists of two objects $E$, $V$ and two morphisms $s, t\colon E \to V$. 
+(the source and target functions). More generally, a __quiver internal to a category__ (more simply, *in* a category) $C$ consists of two objects $E$, $V$ and two morphisms $s, t\colon E \rightrightarrows V$. 
 
 If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two quivers in a category $C$, a __morphism__ $g\colon G \to G'$ is a pair of morphisms $g_0\colon V \to V'$, $g_1\colon E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$.
 
@@ -84,7 +83,7 @@ Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
 * A quiver is a [[globular set]] which is concentrated in the first two degrees.
 
-* Quivers in the sense here include graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
+* A quiver can have distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$. A quiver can also have loops, namely, edges with $s(e) = t(e)$.
 
 * A quiver is **[[complete graph|complete]]** if for any pair of vertices $v,v'\in G_0$, there exists a unique directed edge $e\in G_1$ with $s(e) = v, t(e) = v'$.
 
