@@ -34,11 +34,12 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 * A. Joyal, _A letter to Grothendieck_, April 1983 (contains a Quillen model structure on simplicial presheaves). 
 
-* A. Joyal, _Disks, duality and $\Theta$-categories_, preprint (1997) (contains an original definition of a weak $n$-category: for a short account see Leinster's [book](http://arxiv.org/abs/math.CT/0305049), 10.2). 
+* A. Joyal, _Disks, duality and $\Theta$-categories_, preprint (1997)  (contains an original definition of a weak $n$-category: for a short account see Leinster's [book](http://arxiv.org/abs/math.CT/0305049), 10.2). 
 
 category: people
 
 [[!redirects André Joyal]]
-[[!redirects joyal]]
+[[!redirects A. Joyal]]
+[[!redirects Joyal]]
 [[!redirects André]]
 [[!redirects Andre]]
