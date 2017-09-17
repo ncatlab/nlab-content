@@ -71,9 +71,9 @@ and
 
 * [[locally connected site]] / [[locally ∞-connected site]]
 
-  * [[connected site]] / [[∞-connected site]]
+  * **connected site** / [[∞-connected site]]
 
-  * **strongly connected site** / [[strongly ∞-connected site]]
+  * [[strongly connected site]] / [[strongly ∞-connected site]]
 
   * [[totally connected site]] / [[totally ∞-connected site]]
 
@@ -85,4 +85,4 @@ and
 
 
 
-[[!redirects locally connected sites]]
+[[!redirects connected sites]]
