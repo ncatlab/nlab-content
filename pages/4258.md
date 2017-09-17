@@ -19,7 +19,7 @@ At the time when MatLab was expensive for students, Robbin programmed an interpr
 
 * Joel W. Robbin, [[Dietmar A. Salamon]],  _Lyapunov maps, simplicial complexes and the Stone functor_, Ergodic Theory Dynam. Systems __12__ (1992), no. 1, 153--183, [doi](http://dx.doi.org/10.1017/S0143385700006647), [MR93h:58091](http://www.ams.org/mathscinet-getitem?mr=93h:58091)
 
-* Joel W. Robbin, Yongbin Ruan, [[Dietmar A. Salamon]],  _The moduli space of regular stable maps_,  Math. Z.  __259__  (2008),  no. 3, 525--574, [doi](http://dx.doi.org/10.1007/s00209-007-0237-x), [MR2010a:58014](http://www.ams.org/mathscinet-getitem?mr=2010a:58014) 
+* Joel W. Robbin, [[Yongbin Ruan]], [[Dietmar A. Salamon]],  _The moduli space of regular stable maps_,  Math. Z.  __259__  (2008),  no. 3, 525--574, [doi](http://dx.doi.org/10.1007/s00209-007-0237-x), [MR2010a:58014](http://www.ams.org/mathscinet-getitem?mr=2010a:58014) 
 
 * Vin de Silva, Joel Robbin, Dietmar Salamon, _Combinatorial Floer homology_, [arXiv/1205.0533](http://arxiv.org/abs/1205.0533)
 
