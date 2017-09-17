@@ -30,7 +30,24 @@ These conceptual distinctions are discussed more fully elsewhere in the nLab; se
 
 #### Choosing sequent calculus 
 
-Even if we restrict focus to formal aspects, there are notable differences between axioms of ETCS and axioms of ZFC in terms of the strength of the underlying logic needed to express them, or in terms of what [internal logical](http://ncatlab.org/nlab/show/internal+logic#kinds_of_internal_logics_in_different_categories_20) assumptions are needed on a background environment in which to interpret them. The relevant distinctions between different types of internal theories (e.g., finite limit theories, coherent theories, etc.) is very conveniently expressed via a [[sequent calculus]]-style presentation of first-order logic that is common currency among categorical logicians, and that is the mode we will adopt here. 
+Even if we restrict focus to formal aspects, there are notable differences between axioms of ETCS and axioms of ZFC in terms of the strength of the underlying logic needed to express them, or in terms of what [internal logical](http://ncatlab.org/nlab/show/internal+logic#kinds_of_internal_logics_in_different_categories_20) assumptions are needed on a background environment in which to interpret them. The relevant distinctions between different types of internal theories (e.g., finite limit theories, coherent theories, etc.) is often conveniently expressed via a [[sequent calculus]]-style presentation of first-order logic that is common currency among categorical logicians, and that is the mode we will adopt here. 
+
+When we write a sequent $\varphi \vdash \varpsi$, it is understood that predicates $\varphi$, $\varpsi$ have the same type (we could write $\varphi \vdash_X \varpsi$ to indicate that $\varphi$ and $\varpsi$ are both of type $X$). Roughly speaking, this means they have the same free variables, although if we see a sequent of the form 
+
+$$\varphi(x, y) \vdash \varpsi(x)$$ 
+
+where a free variable $y$ does not appear explicitly, then we can match up the types by adding it in freely, replacing $\varpsi(x)$ by $\varpsi(x) \wedge [y = y]$. This replacement process corresponds to a "substitution" operation in a [[hyperdoctrine]], a way of doing categorical logic. In fact, a sequent calculus gives rise to a functor 
+
+$$Pred: Types^{op} \to Preord$$ 
+
+taking each type $X$ to the set of predicates of that type, preordered by the entailment relation $\vdash_X$, and where $Pred(f)$ is a substitution map of preorders for each map $f: X \to Y$ between types. Composing with the posetal reflection $Preord \to Pos$ gives a hyperdoctrine 
+
+$$Types^{op} \to \Pos$$ 
+
+which plays the role of a Lindenbaum algebra. Thus the close connection between sequent calculus presentations and the sorts of hyperdoctrine presentations that have proved effective in categorical logic. 
+
+In a categorical semantics of a sequent calculus, we have a category of types 
+$C$ and a hyperdoctrine $Sub: C^{op} \to Pos$ that assigns to each object $c$ its subobject lattice, and a map between hyperdoctrines $Pred \to Sub$. Thus each formula represents a subobject (of an object represented by the formula's type), and a sequent represents an inclusion between subobjects. Logical operations represent categorical operations on subobject lattices in a natural way in the semantics of sequent calculus, e.g., $\exists$ represents taking the image of a subobject along a map, and $\wedge$ represents intersections of subobjects. 
 
 #### Choosing the multiplicity of predicates 
 
