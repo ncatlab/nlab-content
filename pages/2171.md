@@ -371,6 +371,8 @@ Simplifying notation as before, we have generators $u,v,w$ and relations
 
 * [[braid group statistics]]
 
+* [[braid category]]
+
 ## References
 
 Classical references are
