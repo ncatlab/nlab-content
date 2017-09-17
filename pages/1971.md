@@ -5,7 +5,7 @@
 
 ## Idea
 
-A symmetric function is roughly a [[polynomial]] that is invariant under permutation of the variables.  However, this is only strictly correct if the number of variables is finite, and symmetric functions depend on a countably infinite number of variables.   The only symmetric *polynomials* in infinitely many variables are the constants.  To fix this, we allow infinitely many terms, as long as the *degree* is finite. 
+A _symmetric function_ is roughly a [[polynomial]] that is invariant under [[permutation]] of its [[variables]].  However, this is only strictly correct if the number of variables is [[finite number|finite]], while symmetric functions depend on a countably infinite number of variables.   The only symmetric *polynomials* in infinitely many variables are the constants.  To fix this, one allows infinitely many terms, as long as the *degree* is finite. 
 
 For example, there is a $1$-dimensional space of homogeneous symmetric functions of degree $1$, with basis
 
@@ -26,7 +26,7 @@ There is also a noncommutative analogue: [[noncommutative symmetric function]]s.
 
 ## Definitions
 
-Let $\Lambda_n$ be the [[ring]] consisting of polynomials in $n$ variables $x_1, \dots, x_n$ that are invariant under all permutations of the variables; these are the **symmetric functions in $n$ variables** or **symmetric polynomials** in $n$ variables.   The rings $\Lambda_n$ are [[graded ring|graded]] by degree in the usual way, and there are homomorphisms of graded rings
+Let $\Lambda_n$ be the [[ring]] consisting of [[polynomials]] in $n$ [[variables]] $x_1, \dots, x_n$ that are invariant under all [[permutations]] of the variables; these are the **symmetric functions in $n$ variables** or **symmetric polynomials** in $n$ variables.   The rings $\Lambda_n$ are [[graded ring|graded]] by degree in the usual way, and there are homomorphisms of graded rings
 
 $$ \Lambda_{n+1} \hookrightarrow \Lambda_{n} ,$$
 
@@ -60,6 +60,9 @@ $$ F: \mathbb{P} \to Vect_{k} $$
 
 with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ for $n$ sufficiently large.   The category of Schur functors is again a [[semisimple category|semisimple abelian category]] with a basis of objects given by irreducible [[representation|representations]] of [[symmetric groups]], so its Grothendieck ring is again $\Lambda$.   For more on this, see [[Schur functor]].
 
+## Related concepts
+
+* [[Witt vector]]
 
 ## References
 
