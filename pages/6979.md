@@ -27,9 +27,34 @@ is interpreted as a [[morphism]]  $E \to X$, hence an [[object]] in the [[slice 
 
 Then change of [[context]] corresponds to [[base change]] in $C$. See also _[[dependent sum]]_ and _[[dependent product]]_.
 
-Dependent type systems are heavily used for _software verification_. 
+Dependent type systems are heavily used for _[[certified programming|software certification]]_. 
 
 They also seem to support a [[foundations]] of mathematics in terms of [[homotopy type theory]].
+
+## Properties
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[functors]] 
+
+* $Cont$, that form a [[category of contexts]] of a [[locally cartesian closed category]];
+
+* $Lang$ that forms the [[internal language]] of a locally cartesian closed category
+
+constitute an [[equivalence of categories]]
+
+$$
+  DependentTypeTheories
+    \stackrel{\overset{Lang}{\leftarrow}}{\underset{Cont}{\to}}
+  LocallyCartesianClosedCategories
+  \,.
+$$
+
+=--
+
+This ([Seely, theorem 6.3](#Seely)). For a more detailed discussion see at
+_[[relation between type theory and category theory]]_.
 
 ## Examples
 
@@ -44,7 +69,8 @@ They also seem to support a [[foundations]] of mathematics in terms of [[homotop
 
 A discussion of dependent type theory as the [[internal language]] of [[locally cartesian closed categories]] is in 
 
-* R. A. G. Seely, _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+* [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+  {#Seely}
 
 
 [[!redirects dependent type theories]]
