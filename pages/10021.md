@@ -1,6 +1,8 @@
 
 A class of relatively simple [[2d CFTs]], such as the [[WZW model]], characterized by the fact that their spaces of [[conformal blocks]] are finite dimensional
 
+Locallygiven by a [[rational vertex operator algebra]].
+
 The [[FRS-theorem on rational 2d CFT]] provides a complete classification.
 
 [[!redirects rational 2d conformal field theories]]
