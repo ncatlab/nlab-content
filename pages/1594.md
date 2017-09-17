@@ -57,9 +57,11 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Related concepts
 
-Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]].
+Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]]. In [[topology]] one also speaks of _[[orbispaces]]_.
 
 Orbifolds may be regarded as a kind of _[[stratified spaces]]_.
+
+
 
 ## References
 
