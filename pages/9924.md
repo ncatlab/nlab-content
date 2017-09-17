@@ -1,25 +1,46 @@
+[[!redirects Kan-Thurston Theorem]]
 
-### Idea
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
-The Kan-Thurston theorem says that every path-connected space is homology equivalent to the classifying space of a discrete group.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Kan-Thurston theorem_ says that every [[path-connected topological space]] is [[ordinary homology|homology]]-[[equivalence|equivalent]] to the [[classifying space]] $K(G,1)$ of a [[discrete group]] $G$.
 
 ## Statement
 
-For every path connected  space $X$ with base point there exists a (Serre) fibration 
-$$tX:TX\rightarrow X$$ 
-which is natural with respect to X and has the following properties. 
+For every path connected  space $X$ with base point there exists a ([[Serre fibration|Serre-]])-[[fibration]]
 
-(i) The map $tX$ induces an isomorphism on (singular) homology and cohomology  with local coefficients 
+$$
+  tX \colon TX\rightarrow X
+$$ 
+
+which is natural with respect to $X$ and has the following properties. 
+
+(i) The map $tX$ induces an [[isomorphism]] on ([[singular homology|singular]]-)[[homology]] and [[singular cohomology|cohomology]] with [[local coefficient bundle|local coefficients]]
 
 $$H_*(TX;A)\cong H_*(X;A),\;\;  H^*(TX;A)\cong H^*(X;A)$$ 
 for every local coeficient system $A$ on $X$, and 
 
-(ii) $\pi_i\;TX$ is trivial for $i\neq 1$ and $tX$ is onto.
+(ii) $\pi_i\;(TX)$ is trivial for $i\neq 1$ and $tX$ is onto.
 
-Furthermore the homotopy type of $X$ is completely determined by the pair of groups $(G_X, P_X)$ where 
-$G_X  = \pi_1TX,\;\; P_X = ker\;\pi_1tX$ and $P_X$ is a perfect subgroup of $G_X$.
+Furthermore the [[homotopy type]] of $X$ is completely determined by the pair of groups $(G_X, P_X)$ where 
+$G_X  = \pi_1TX,\;\; P_X = ker\;\pi_1tX$ and $P_X$ is a 
+[[perfect group|perfect]] [[subgroup]] of $G_X$.
 
 
 ## References
 
-* D. Kan and W. Thurston, "Every conncted space has the homology of a $K(\pi,1)$", Topology  Vol.  15.  pp.  253--258, 1976.  
+* [[Daniel Kan]] and [[William Thurston]], _Every conncted space has the homology of a $K(\pi,1)$_, Topology  Vol.  15.  pp.  253--258, 1976.  
+
