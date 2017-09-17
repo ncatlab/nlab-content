@@ -17,3 +17,5 @@ A matrix $A$ over the field of [[real numbers]] is __totally positive__ (resp. _
 * Lots of links at [Cluster algebras portal](http://www.math.lsa.umich.edu/~fomin/cluster.html) including to the Fomin's [course slides](http://www.math.lsa.umich.edu/~fomin/nordfjordeid.html).
 
 * Maxim Kontsevich, Yan Soibelman, _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
+
+* Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras), Proc. Natl. Acad. Sci. [arxiv/1105.4170](http://arxiv.org/abs/1105.4170), [doi](doi:10.1073/pnas.1102627108)
