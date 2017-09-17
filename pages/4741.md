@@ -111,6 +111,9 @@ More generally, for a [[homotopy n-type]] modeled as a [[Kan complex]], the cohe
 
 One can consider coherence laws for algebraic structures other than $(n,r)$-categories. See [[coherence theorem]] for more.
 
+## Related concepts
+
+* [[rectification]]
 
 [[!redirects coherence laws]]
 [[!redirects coherent]]
