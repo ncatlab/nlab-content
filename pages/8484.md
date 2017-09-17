@@ -1,4 +1,21 @@
-Let $\mathbf{k}$ be a field of characteristic 0 and $\lambda \in \mathbf{k}^*$. A $\lambda$-Drinfeld associator, or just $\lambda$-associator, is a [[grouplike element]] $\Phi(a,b)$ of the $\mathbf{k}$-algebra of formal power series in two non-commuting variables $a,b$ satisfying:
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $\mathbf{k}$ be a [[field]] of [[characteristic]] 0 and $\lambda \in \mathbf{k}^*$. A **$\lambda$-Drinfeld associator**, or just **$\lambda$-associator**, is a [[grouplike element]] $\Phi(a,b)$ of the $\mathbf{k}$-[[associative algebra|algebra]] of [[formal power series]] in two non-commuting [[variables]] $a,b$ satisfying:
 
 1. The pentagon equation 
 $$
@@ -13,16 +30,23 @@ $$
 where $L_4$ is the fourth [[Drinfeld-Kohno Lie algebra]] and $c=-a-b$.
 
 
-These equations are modelled on the defining axioms of [[braided monoidal categories]]. Indeed, associators provides a universal way of constructing braided monoidal categories out of some Lie algebraic data.
+These [[equations]] are modelled on the defining [[axioms]] of [[braided monoidal categories]]. Indeed, associators provides a universal way of constructing braided monoidal categories out of some [[Lie algebra|Lie algebraic]] data.
 
-**Remark**: The set of "0-associators" is the so-called [[Grothendieck-Teichmueller]] group.
++-- {: .num_remark}
+###### Remark
 
+The set of "0-associators" is the so-called [[Grothendieck-Teichmueller group]].
+
+=--
 
 ##Existence##
-An explicit associator over $\mathbf{C}$ was constructed by Drinfeld from the monodromy of a universal version of the [[Knizhnik-Zamolodchikov equation]]. Using the non-emptiness of the set of associators, and the fact that is is a [[torsor]] under the action of the Grothendieck-Teichmueller group, he show that associators over $\mathbf{Q}$ also exists.
+An explicit associator over $\mathbf{C}$ was constructed by [[Drinfeld]] from the [[monodromy]] of a universal version of the [[Knizhnik-Zamolodchikov equation]]. Using the non-emptiness of the set of associators, and the fact that is is a [[torsor]] under the [[action]] of the 
+[[Grothendieck-Teichmueller group]], he show that associators over $\mathbf{Q}$ also exists.
 
 ##Applications##
 * [[Drinfeld-Kohno theorem]]
 * [[Etingof-Kazhdan quantization functor]]
 * [[Formality]] of the [[little 2-disk operad]]
 * Construction of a functorial [[universal finite type invariant]]. 
+
+[[!redirects Drinfeld associators]]
