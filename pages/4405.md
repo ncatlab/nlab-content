@@ -14,7 +14,7 @@ $$p_1(x_1, \ldots, x_n) \geq 0, \ldots, p_k(x_1, \ldots, x_n) \geq 0, q_1(x_1, \
 
 ## The Tarski-Seidenberg theorem
 
-The fundamental theorem for semialgebraic sets is as follows. 
+The fundamental theorem for semialgebraic sets over [[real closed field]]s $R$ is as follows. 
 
 +-- {: .un_thm}
 ######Theorem (Tarski-Seidenberg) 
@@ -25,7 +25,7 @@ is also a semi-algebraic set.
 
 This remarkable theorem has far-reaching consequences for the theory of ordered fields. For one, it is called a "quantifier elimination" result because it says that any first-order predicate in the theory of ordered fields (with [[signature]] $(0, 1, +, -, \cdot, \lt)$) is equivalent to a predicate which is quantifier-free. This follows from a straightforward induction coupled with the observation that the Tarski-Seidenberg theorem directly says that if a predicate $R(x_1, \ldots, x_n, y)$ is a Boolean combination of atomic formulas (thus defining a semi-algebraic set), then  
 
-$$(x_1, \ldots, x_n): \exists_y R(x_1, \ldots, x_n, y)$$ 
+$$\{(x_1, \ldots, x_n): \exists_y R(x_1, \ldots, x_n, y)\}$$ 
 
 is also definable by a Boolean combination of atomic formulas; hence the existential quantifier can be eliminated. 
 
