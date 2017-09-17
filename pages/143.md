@@ -141,7 +141,7 @@ $$
 
 =--
 
-Equivalently, using the [[Yoneda lemma]] and the fact that the [[hom-functor]] $PSh_C(-,A)$ sends [[colimits]] to [[limits]], this say that the diagram
+Equivalently, using the [[Yoneda lemma]] and the fact that the [[hom-functor]] $PSh_C(-,A)$ sends [[colimits]] to [[limits]], this says that the diagram
 
 $$
   A(U) 
