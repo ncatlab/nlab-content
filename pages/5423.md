@@ -4,4 +4,6 @@ His father was Emil Artin.
 
 * [wikipedia](http://en.wikipedia.org/wiki/Michael_Artin), [MIT page](http://math.mit.edu/people/profile.php?pid=9)
 
+
+[[!redirects M.Artin]]
 category: people
