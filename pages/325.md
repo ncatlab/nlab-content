@@ -5,11 +5,16 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
