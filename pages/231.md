@@ -3,9 +3,9 @@
 * automatic table of contents goes here
 {:toc}
 
-#The Idea#
+## Idea
 
-A 'monoidal category' is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f' : V' \to W'$, we get a linear map
+A **monoidal category** is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f' : V' \to W'$, we get a linear map
 
 $$ f \otimes f': V \otimes V' \to W \otimes W' $$
 
@@ -17,7 +17,7 @@ $$\otimes : M \times M \to M$$
 
 This functor, which we can think of as a kind of 'multiplication', makes $M$ into a [[vertical categorification|vertically categorified]] version of a [[monoid]].  This explains the term 'monoidal category'.
 
-#Definition#
+## Definition
 
 A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
@@ -77,7 +77,59 @@ There is a [[strict 2-category]] MonCat with:
 
 One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
 
-#Related notions#
+## Properties {#Properties}
+
+
++-- {: .un_prop}
+###### Proposition
+
+Every small monoidal category $C$ embeds as a [[full subcategory]]
+$C \hookrightarrow D$ into a [[closed monoidal category]], where
+the embedding functor is a strong [[monoidal functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One can take $D = PSh(C)$ be the [[category of presheaves]] on $C$ and 
+$j : C \hookrightarrow D$ the [[Yoneda embedding]]. The category of presheaves on $C$ becomes a [[closed monoidal category]] with the [[Day convolution]] tensor product, which for $F,G \in PSh(C)$ is
+
+$$
+  F \star G : e \mapsto 
+  \int^{c,d \in C}
+  F(c) \times G(d) \times Hom_C(e, c \otimes d)
+  \,.
+$$
+
+If $F$ and $G$ are both in the image of the Yoneda embedding, $F = Hom_C(-,a)$, $G = Hom_C(-,b)$ for $a,b \in C$, then applying the [[co-Yoneda lemma]] to the two [[coend]]s over $c$ and $d$ we get
+
+$$
+  \begin{aligned}
+     (j(a) \star j(b))(e)
+     &
+     =
+     \int^{c,d \in C}
+     Hom_C(c,a) \times Hom_C(d,b)\times Hom_C(e, c \otimes d)
+     \\
+     & \simeq
+     Hom_C(e, a \otimes b)
+     \\
+     & \simeq
+     j(a \otimes b)(e)
+     \,,
+  \end{aligned}
+$$
+
+naturally in $e$.
+
+=--
+
+
+
+
+
+## Related notions
 
 * [[braided monoidal category]]
 
@@ -97,7 +149,7 @@ One version of Mac Lane's Coherence Theorem states that in MonCat, every monoida
 
 * [[monoidal (infinity,1)-category]] -- see also the discussion below
 
-#References#
+## References
 
 The definition of monoidal category can be found on [John Armstrong's blog](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [Wikipedia](http://en.wikipedia.org/wiki/Monoidal_category).
 
@@ -117,7 +169,7 @@ For a more detailed tour of monoidal categories, also using string diagrams, try
 
 Selinger discusses autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories.
 
-#Where the Definition Comes From#
+## Where the Definition Comes From
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
 
@@ -160,7 +212,7 @@ Of course, both are also sort of a cheat, since in order to prove that the biase
 
 However, if we temporarily ignore the unitors and focus on the associator, we may ask _where does the pentagon identity come from?_  And one answer to this is provided by the Stasheff polytopes, which can be nicely obtained using Ross Street's theory of orientals.   For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third.  The following section explains this in a bit more detail.
 
-##Relation to lax functors, orientals and descent##
+## Relation to lax functors, orientals and descent
 
 One can understand the structure of a monoidal category as a special simple case of the general notion of "lax $\infty$-functor", also known -- up to the issue of invertible versus non-invertible structure morphisms -- as the notion of $\infty$-categorical [[descent]] and as the notion of [[anafunctor|infinity-anafunctor]].
 
