@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
@@ -11,7 +11,7 @@
 
 # Contents
 * table of contents
-{:toc} 
+{: toc} 
 
 ## Idea
 
@@ -20,7 +20,7 @@ A universe is a realm within which [[mathematics]] may be thought of as taking p
 
 ## Categories as universes
 
-Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] "the archetypical [[category]] [[Set|SET]] of sets".  Typically, the properties of $SET$ are formulated in [[first-order logic]] using a [[set theory]] such as [[ZFC]] or (more directly) [[ETCS]].
+Much of [[ordinary mathematics]] can be thought of as taking place [[internalization|inside]] "the archetypical [[category]] [[Set|SET]] of sets".  Typically, the properties of $SET$ are formulated in [[first-order logic]] using a [[set theory]] such as [[ZFC]] or (more directly) [[ETCS]].
 
 We can generalise this from $SET$ to any other [[category]] $C$.  Without further assumptions on the category, there is in general very little mathematics that can be formulated inside it, but a few extra properties and structures are usually sufficient to provide something interesting.  This is the general topic of _[[internalisation]]_.  The attitude to take is that any *specific* category is merely one [[model]], while a general *class* of categories is a [[theory]] (really a [[doctrine]], or [[2-theory]]).
 
@@ -31,7 +31,7 @@ We can also use [[higher category theory|higher categories]] instead of mere cat
 
 The idea of the [[large category]] $SET$ as the universe of mathematics has an analogue in pre-category-theoretic [[material set theory]].  The __von Neumann universe__ $V$ is the [[proper class]] of all [[axiom of foundation|well-founded]] [[pure sets]].
 
-More explicitly: for every [[ordinal number]] $\alpha$, we have a [[set]] $V_\alpha$, defined [[recursion|recursively]] using the operations of [[power set]] and (material) [[union]] as
+More explicitly: for every [[ordinal number]] $\alpha$, we have a [[set]] $V_\alpha$ (the von Neumman universe of __rank__ $\alpha$), defined [[recursion|recursively]] using the operations of [[power set]] and (material) [[union]] as
 $$ V_\alpha \coloneqq \bigcup_{\beta \lt \alpha} \mathcal{P}V_\beta .$$
 Then $V$ itself is the union of all of the $V_\alpha$.
 
@@ -78,3 +78,6 @@ Set theory is not the only [[foundation of mathematics]].  For example, there ar
 [[!redirects universe]]
 [[!redirects universes]]
 [[!redirects universe > history]]
+
+[[!redirects von Neumann universe]]
+[[!redirects von Neumann universes]]
