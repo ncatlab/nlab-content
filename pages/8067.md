@@ -1,3 +1,2 @@
-* [webpage](http://www.pps.univ-paris-diderot.fr/~mellies)
 
-[[!redirects Paul Andre Melies]]
+This page us about amalgamation property in [[model theory]], related to amalgams = pushouts in category theory.
