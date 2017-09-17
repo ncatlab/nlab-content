@@ -7,6 +7,10 @@ From his [website](http://www.mathematics.pitt.edu/person/hisham-sati):
 
 > My research is interdisciplinary and lies in the intersection of [[differential geometry]], [[algebraic topology]], and [[mathematical physics|mathematical/theoretical physics]]. I am mainly interested in geometric and topological structures arising from [[quantum field theory|quantum (topological) field theory]], [[string theory]], and [[M-theory]].  This includes [[orientation in generalized cohomology|orientations]] with respect to [[generalized cohomology theories]], and corresponding description via [[higher geometry|higher geometric]], [[topology|topological]], and [[category theory|categorical]] notions of [[bundles]].
 
+## Selected talks
+
+* _Geometric perspectives on topological action functionals_, talk at _[The CUNY Workshop on differential cohomology](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, August 2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1802/))
+
 ## Selected publications
 
 * Hisham Sati, _[[Geometric and topological structures related to M-branes]]_ , 
