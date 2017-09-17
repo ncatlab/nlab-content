@@ -105,6 +105,7 @@ A brief introduction is in chapter 23, section 7
 * [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 
+
 [[!redirects Chern classes]]
 
 [[!redirects second Chern class]] 
