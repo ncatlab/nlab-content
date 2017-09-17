@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 ## Definition
 
 A [[morphism]] $f:A\to B$ in a [[2-category]] $K$ is called **(representably) fully-faithful** (or sometimes just **ff**) if for all objects $X$, the functor
