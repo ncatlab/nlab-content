@@ -4,6 +4,10 @@ The page numbering refers to the text:
 
 * Michel Demazure, lectures on p-divisible groups [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
+## Summary (Constructing examples of group schemes from basic examples)
+
+(...)
+
 ## Decomposition of k-groups
  One way the characterize certain classes of $k$-groups is via exact sequences
 
