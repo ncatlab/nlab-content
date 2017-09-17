@@ -28,6 +28,10 @@ $$
   \,.
 $$
 
+### $n$-Plectomorphisms
+
+In the generalization to [[n-plectic geometry]] there are accordingly _$n$-plectomorphisms_. See at _[[higher symplectic geometry]]_.
+
 ## Properties
 
 ### Preservation of volume
@@ -41,6 +45,10 @@ The [[Lie algebra]] given by the [[Poisson bracket]] of a [[symplectic manifold]
 The central extension results form the fact that the Hamiltonian associated with every [[Hamiltonian vector field]] is well defined only up to the addition of a constant function.
 
 If $(X, \omega)$ is a [[symplectic vector space]] then there is corresponding to it a [[Heisenberg Lie algebra]]. This sits inside the Poisson bracket algebra, and accordingly the [[Heisenberg group]] is a subgroup of the group of (necessarily Hamiltonian) symplectomorphisms of the symplectic vector space, regarded as a symplectic manifold.
+
+### Extensions under geometric quantization
+
+[[!include geometric quantization extensions - table]]
 
 
 ## Examples
@@ -89,3 +97,8 @@ The relation to volumes of balls is discussed in
 [[!redirects Hamiltonian symplectomorphisms]]
 [[!redirects hamiltonian symplectomorphism]]
 [[!redirects hamiltonian symplectomorphisms]]
+
+[[!redirects n-plectomorphism]]
+[[!redirects n-plectomorphisms]]
+[[!redirects Hamiltonian n-plectomorphism]]
+[[!redirects Hamiltonian n-plectomorphisms]]
