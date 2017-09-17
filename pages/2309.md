@@ -24,4 +24,7 @@ By _cohomology theory_ is usually meant more precisely an example of [[generaliz
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
 [[!redirects generalized cohomology theory]]
+[[!redirects generalized cohomology theories]]
+
 [[!redirects generalised cohomology theory]]
+[[!redirects generalised cohomology theories]]
