@@ -152,6 +152,7 @@ see [[Pfaffian]] for the moment
 * [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]]
 * [[resultant]], [[discriminant]], [[hyperdeterminant]]
 * [[determinant line]], [[determinant line bundle]], [[Pfaffian line bundle]]
+* [[density bundle]]
 
 ## References 
 
