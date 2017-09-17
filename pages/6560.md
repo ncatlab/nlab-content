@@ -37,7 +37,7 @@ $$
   d_{dR} f = g(-,\nabla f)
 $$
 
-or equivalently this is the unique vector field such that
+or equivalently, if the manifold is [[oriented]],  this is the unique vector field such that
 
 $$
   d_{dR} f = \star_g \iota_{\nabla f} vol_g
@@ -69,7 +69,7 @@ In many classical applications of the gradient in [[vector analysis]], the Riema
 
   * [[gradient flow]]
 
-* [[symplectic gradient]]
+  * [[symplectic gradient]]
 
 * [[Hamiltonian flow]]
 
