@@ -53,15 +53,19 @@ So in particular a Cisinski model structure always exists.
 ## On presheaf toposes
  {#OnPresheafToposes}
 
-We discuss how on a [[presheaf topos]] equipped with a suitable notion of [[cylinder objects]] Cisinski model structures can be characterized fairly explicitly. After some [preliminaries](#PreliminaryNotions), the main statement is theorem \ref{ModelStructureFromHomotopicalStructure} below. 
+We discuss how on a [[presheaf topos]] equipped with a suitable notion of [[cylinder objects]] Cisinski model structures can be characterized fairly explicitly. After some [preliminaries](#PreliminaryNotions)_, the main statement is theorem \ref{ModelStructureFromHomotopicalStructure} below. 
 
-(This follows section 1.3 of [Cisinski 06](#Cisinski06)).
+(This follows sections 1.2 and 1.3 of [Cisinski 06](#Cisinski06)).
+
+
+
 
 
 ### Preliminary notions
  {#PreliminaryNotions}
 
 Let $A$ be a [[small category]]. Write $PSh(A)$ or $[A^{op}, Set]$ for the [[category of presheaves]] over $A$. We introduce here, culminating in def. \ref{HomotopicalStructure} below, the ingredients of a _homotopical structure_ on $PSh(A)$, which is a choice of functorial [[cylinder object]] together with a compatible notion of _[[anodyne extensions]]_. Further below in def. \ref{ModelStructureMorphismsFromHomotopicalStructure} this defines a [[model category]] structure on $PSh(A)$.
+
 
 +-- {: .num_defn #FunctorialCylinder}
 ###### Definition
@@ -1016,7 +1020,32 @@ $$
 
 =--
 
-([Cisinski 06, cor. 1.2.26](#Cisinski06)).
+([Cisinski 06, def. 1.2.26](#Cisinski06)).
+
+
+
++-- {: .num_remark }
+###### Remark
+
+By prop. \ref{PresheavesAreCompact} we may apply the [[small object argument]] in $PSh(A)$ and so it follows that $LLP(RLP(I))$ is the smallest class containing $I$ that is closed under [[pushout]], [[retract]] and [[transfinite composition]].
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For all small categories $A$, the category $PSh(A)$ does admit a cellular structure, def. \ref{CellularStructure} consisting of morphisms whose codomain is a [[quotient]] of a [[representable functor|representable]]. 
+
+=--
+
+([Cisinski 06, prop. 1.2.27](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{LemmaForGenerationOfMonos}.
+
+=--
 
 +-- {: .num_lemma #LemmaForGenerationOfMonos}
 ###### Lemma
@@ -1412,7 +1441,7 @@ We list lemmas to show prop. \ref{ConditionsForCompleteness}.
 
 ## Examples
 
-* The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]].
+* The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]] ([Cisinski 06, section 2](#Cisinski06)).
 
 * The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is [[transferred model structure|transferred]] from one that is.
 
