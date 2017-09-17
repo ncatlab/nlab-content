@@ -23,6 +23,8 @@ Dual to a cobordism is a [[bordism]].
 
 * [[cobordism category]]
 
+* [[B-bordism]]
+
 * [[extended cobordism]] 
 
 
