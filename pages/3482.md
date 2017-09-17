@@ -81,3 +81,4 @@ category: foundational axiom
 
 [[!redirects WISC]]
 [[!redirects weakly initial set of covers]]
+[[!redirects SOSHWIS]]
