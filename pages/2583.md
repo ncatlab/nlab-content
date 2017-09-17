@@ -473,7 +473,7 @@ where
 
 The string 2-group also appears as a certain [[automorphism 2-group]] inside the [[3-category of fermionic conformal nets]] ([Douglas-Henriques](#DouglasHenriques))
 
-### A the automorphisms of the Wess-Zumino-Witten gerbe 2-connection
+### As the automorphisms of the Wess-Zumino-Witten gerbe 2-connection
 
 For $G$ a compact simply connected simple [[Lie group]], there is the "[[WZW gerbe]]", hence the [[circle n-bundle with connection|circle 2-bundle with connection]] on $G$ whose [[curvature]] 3-form is the [[left invariant differential form|left invariant]] extension $\langle \theta \wedge [\theta \wedge \theta]\rangle$ of the canonical Lie algebra 3-cocycle to the group
 
@@ -485,7 +485,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The string 2-group is the [[smooth infinity-group|smooth 2-groupo]] of [[automorphism infinity-group|automorphism]] of $\mathcal{L}_{WZW}$ which cover the left [[action]] of $G$ on itself (hence the "[[Heisenberg 2-group]]" of $\mathcal{L}_{WZW}$ regarded as a [[prequantum 2-bundle]])
+The string 2-group is the [[smooth infinity-group|smooth 2-group]] of [[automorphism infinity-group|automorphism]] of $\mathcal{L}_{WZW}$ which cover the left [[action]] of $G$ on itself (hence the "[[Heisenberg 2-group]]" of $\mathcal{L}_{WZW}$ regarded as a [[prequantum 2-bundle]])
 
 $$
   \mathbf{Aut}(\mathcal{L}_{WZW}) \simeq String(G)
