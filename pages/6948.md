@@ -121,6 +121,18 @@ $$
 
 is the set of [[section]]s of the [[bundle]] $2 \mathbb{N} \hookrightarrow \mathbb{N}$. But since over odd numbers the [[fiber]] of this bundle is the [[empty set]], there is no possible value of such a section and hence the set of sections is itself the [[empty set]], so the statement "all natural numbers are even" is, indeed, [[false]].
 
+## References
+
+The observation that [[substitution]] forms an [[adjoint pair]]/[[adjoint triple]] with the existantial/universal quantifiers is due to
+
+* [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+
+and further developed in 
+
+* [[Bill Lawvere]], _Equality in hyperdoctrines and
+comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
+
+
 
 [[!redirects universal quantifier]]
 [[!redirects universal quantifiers]]
