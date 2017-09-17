@@ -4,4 +4,7 @@ More widely, combinatorics is also studying various *deterministic* algorithms o
 
 Some of the questions in set and model theory concerning the fine questions on cardinality of infinite sets (and their independence from various axioms in [[set theory]]) are often called the "infinitary combinatorics". 
 
+A person doing combinatorics is usually called a __combinatorialist__. See also [wikipedia](http://en.wikipedia.org/wiki/Combinatorics).
+
 [[!redirects combinatorial]]
+[[!redirects combinatorialist]]
