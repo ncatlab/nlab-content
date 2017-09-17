@@ -1,22 +1,33 @@
 
-# Contents
-* automatic table of contents goes here
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+# Contents#
+* table of contents
 {: toc}
 
 ## Idea
 
-In logic, a **signature** is a collection of data which prescribes the 'alphabet' of non-logical symbols of a logical theory, saying which operations and predicates are taken to be primitive. 
+In [[logic]], a **signature** is a collection of data which prescribes the 'alphabet' of non-logical symbols of a logical [[theory]], saying which operations and [[predicates]] are taken to be primitive. 
 
-For other notions of signature, see [[signature (disambiguation)]]. 
 
 
 ## Definition
 
+### Types
+
 Formally, a **signature** $\Sigma$ consists of 
 
-* A set $S$ whose elements are called **sorts** of $\Sigma$, 
+* A set $S$ whose elements are called **sorts** or **[[types]]** of $\Sigma$, 
 
-* A set $Rel(\Sigma)$ whose elements are called **relation symbols**, equipped with a function $ar: Rel(\Sigma) \to S^*$ to the free monoid on $S$ which prescribes an **arity** for each relation symbol, 
+* A set $Rel(\Sigma)$ whose elements are called **relation symbols**, equipped with a function $ar: Rel(\Sigma) \to S^*$ to the [[free monoid]] on $S$ which prescribes an **arity** for each relation symbol, 
 
 * A set $Func(\Sigma)$ whose elements are called **function symbols**, equipped with a function 
 $$\langle dom, cod \rangle: Func(\Sigma) \to S^* \times S$$ 
@@ -26,20 +37,31 @@ The majority of (but far from all) mathematical concepts are described by means 
 
 A **relational** signature is where $Func(\Sigma)$ is empty, and an **equational** or **algebraic** signature is where $Rel(\Sigma)$ is empty. (In the latter case, the only relation symbol is the equality symbol, but this is typically considered a logical symbol.) Occasionally one allows a relational signature to have constants. 
 
-A (set-theoretic) **model** or **interpretation** $M$ of a signature consists of functions which assign
+### Models
 
-* To each sort $s$ a set $M(s)$, 
+A ([[set theory|set-theoretic]]) **model** or **interpretation** $M$ of a signature consists of functions which assign
 
-* To each relation symbol $R$ of arity $\langle s_1, \ldots, s_n \rangle$ a subset $M(R) \hookrightarrow M(s_1) \times \ldots \times M(s_n)$, 
+* To each sort $s$ a [[set]] $M(s)$, 
 
-* To each function symbol $f$ of type $\langle s_1, \ldots, s_n \rangle \to s$ a function $M(f): M(s_1) \times \ldots \times M(s_n) \to M(s)$. In the case of constants of type $s$, the empty product on the left is taken to be a terminal or 1-element set $1$, whose element needs no name but is often given a generic name like '$*$'. 
+* To each relation symbol $R$ of arity $\langle s_1, \ldots, s_n \rangle$ a [[subset]] $M(R) \hookrightarrow M(s_1) \times \ldots \times M(s_n)$, 
+
+* To each function symbol $f$ of type $\langle s_1, \ldots, s_n \rangle \to s$ a [[function]] $M(f): M(s_1) \times \ldots \times M(s_n) \to M(s)$. In the case of constants of type $s$, the empty product on the left is taken to be a terminal or 1-element set $1$, whose element needs no name but is often given a generic name like '$*$'. 
+
+More generally a signature may be interpreted in any [[category]] $C$ other than [[Set]]. See 
+
+* [[categorical semantics]].
+
+
+### Theories
+
+In terms of a signature one may formulate [[proposition]]s, [[sequents]] and then [[theories]]. See there for more details.
 
 
 ## Examples 
 
 An important point to bear in mind is that _essentially_ the same theories (where 'same' means that the categories of models are equivalent or even isomorphic) may have very different signatures. For example, 
 
-* The theory of groups is usually described as a single-sorted theory whose signature has one binary operation (called 'multiplication') $m$, one constant $e$ (called 'identity'), and one unary operation (called 'inversion') $i$. But it can also be described using a signature with just one (binary) operation $m$; there one adds in extra axioms which posit the existence of an identity and of inverse elements. Or, it can be described using a signature with a single (binary) operation $d$ (for 'division'). All these are examples of equational signatures. 
+* The theory of [[group]]s is usually described as a single-sorted theory whose signature has one binary operation (called 'multiplication') $m$, one constant $e$ (called 'identity'), and one unary operation (called 'inversion') $i$. But it can also be described using a signature with just one (binary) operation $m$; there one adds in extra axioms which posit the existence of an identity and of inverse elements. Or, it can be described using a signature with a single (binary) operation $d$ (for 'division'). All these are examples of equational signatures. 
 
 * A [[Boolean ring]] is usually described as a commutative ring with identity in which multiplication is idempotent, hence the theory of Boolean rings is usually presented using the signature normally reserved for rings (with identity). A [[Boolean algebra]] may be described using a variety of signatures, for example non-equationally, involving a binary relation $\leq$ and function symbols $\wedge$, $\neg$, $\top$. 
 
@@ -86,3 +108,6 @@ The **language** of $\Sigma$ is the initial interpretation.
 
 [[!redirects signatures in logic]]
 [[!redirects signature in logic]]
+
+[[!redirects relation symbol]]
+[[!redirects function symbol]]
