@@ -390,7 +390,7 @@ The dual statement were true if $(-)\otimes A$ were also a [[left exact functor]
 Notice that by assumption and by the [[Dedekind-Nielsen-Schreier theorem]] the defining [[short exact sequence]]
 
 $$
-  0 \to B_n \stackrel{i_n}{\to} Z_n \to H_n(C_\bullet) \to 
+  0 \to B_n \stackrel{i_n}{\to} Z_n \to H_n(C_\bullet) \to  0 
 $$
 
 exhibits $[\cdots \to 0 \to B_n \to Z_n] \stackrel{\simeq_{qi}}{\to} H_n(C)$ as a [[projective resolution]] of $H_n(C_\bullet)$. Therefore by definition of [[Tor]] the group $Tor_1(H_n(C_\bullet), A)$ is the chain homology in degree 1 of
