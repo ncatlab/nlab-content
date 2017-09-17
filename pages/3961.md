@@ -6,9 +6,13 @@ various parts are done. A minimal template is given first which
 can be copy-and-pasted into newly created pages.  See [[HowTo]] for more details.
 
 category: meta
+[[!redirects Template page]]
+[[!redirects Template pages]]
+[[!redirects template page]]
 [[!redirects template pages]]
 [[!redirects page template]]
 [[!redirects page templates]]
+
 
 ## Minimal Template Code
 
@@ -18,7 +22,7 @@ Remove any sections that you don\'t use.
 
 # Contents (or put a title here)
 * the following line creates the automatic table of contents
-{:toc}
+{: toc}
 
 ## Idea ##
 
@@ -55,12 +59,14 @@ Remove any sections that you don\'t use.
 
 ~~~~
 
+A longer example follows.
+
 ****
 
 
 # Contents
 * the following line creates the automatic table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -208,3 +214,4 @@ The original definition appeared in section 3 of
 
 
 [[!redirects uvw]]
+[[!redirects uvws]]
