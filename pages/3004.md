@@ -1,7 +1,7 @@
-# Contents#
+
+# Contents
 * toc
 {: toc}
-
 
 ## Idea
 
@@ -9,7 +9,7 @@ The notion of *geometric theory* has many different incarnations.  A few are:
 
 * A geometric theory is a [[first-order logic|first order]] [[theory]] whose [[model]]s are preserved and reflected by [[geometric morphisms]].
 
-* A geometric theory is a [[first-order logic|first order]] [[theory]] whose axioms can be written solely in terms of the [[connective]]s $\top$ ([[truth]]), $\wedge$ (finite [[logical conjunction|conjunction]]), $\bot$ ([[falsity]]), $\bigvee$ (possibly infinitary [[disjunction]]), and $\exists$ ([[existential quantification]]).
+* A geometric theory is a [[first-order logic|first order]] [[theory]] whose axioms can be written solely in terms of the [[logical connective|connectives]] $\top$ ([[truth]]), $\wedge$ (finite [[logical conjunction|conjunction]]), $\bot$ ([[falsity]]), $\bigvee$ (possibly infinitary [[disjunction]]), and $\exists$ ([[existential quantification]]).
 
 * A geometric theory is a syntactic description of a [[Grothendieck topos]].
 
@@ -145,9 +145,13 @@ of geometric theories over $S$ induces a forgetful functor
 $T' Mod \to T Mod$ which leaves unchanged the $S$-topos of residence, which has a left adjoint $T Mod \to T' Mod$ which may change the topos.  For if $a: E \to S[T]$ is a $T$-model in $E$, [[base change|pulling]] $a$ back along $h$ yields a $T'$-model, not in $E$ but in the [[pullback]].  This is a consequence of general facts about finite [[2-limits]] of the [[2-category]] of 
 [[bounded topos|bounded]] $S$-toposes.
 
+
+[[!redirects geometric theory]]
 [[!redirects geometric theories]]
 [[!redirects geometric logic]]
+[[!redirects geometric logics]]
 [[!redirects geometric formula]]
 [[!redirects geometric formulas]]
+[[!redirects geometric formulae]]
 [[!redirects geometric sequent]]
 [[!redirects geometric sequents]]
