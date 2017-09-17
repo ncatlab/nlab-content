@@ -9,7 +9,6 @@
 =--
 =--
 
-
 In [[type theory]], a **display map** is a [[morphism]] $p\colon B\to A$ in a [[category]] which represents a [[dependent type]] under some [[categorical semantics]] of type theory valued in that category.  
 
 That is, $B$ represents a type dependent on a [[variable]] of type $A$, usually written syntactically as $x:A \vdash B(x):Type$.  The intended intuition is that $B(x)$ is the [[fiber]] of the map $p$ over $x\in A$.
@@ -20,6 +19,8 @@ Since the most common dependent type theories include [[dependent product]] type
 
 Sometimes all maps are display maps.  This happens particularly in extensional type theory, such as versions of the [[internal logic]] of categories that include dependent types.
 
+
+[[!redirects display map]]
 [[!redirects display maps]]
 [[!redirects display morphism]]
 [[!redirects display morphisms]]
