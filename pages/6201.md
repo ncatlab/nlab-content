@@ -3277,7 +3277,8 @@ We discuss the
 <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">intrinsic Maurer-Cartan and curvature characteristic forms</a> defined in any cohesive $(\infty,1)$-topos
 realized in $Smooth \infty Grpd$.
 
-#### The canonical form on a Lie group  {#CanonicalFormOnLieGroup}
+#### The canonical form on a Lie group   
+ {#CanonicalFormOnLieGroup}
 
 Let $G$ be a [[Lie group]]. Write $\mathfrak{g}$ for 
 its [[Lie algebra]].
@@ -4028,15 +4029,16 @@ Since under [[homotopy pullback]]s a weak equivalence of diagrams is sent to a w
 =--
 
 #### The canonical form on a simplicial Lie group
+ {#CanonicalFormOnSimplicialLieGroup}
 
-Above we discussed the canonical form on smooth $\infty$-groups $G$ for the special cases where $G$ is a [[Lie group]] and where $G$ is a [[circle Lie n-group]]. These are both in turn special cases of the situation where $G$
+Above we discussed the canonical differential form on smooth $\infty$-groups $G$ for the special cases where [a)](#CanonicalFormOnLieGroup) $G$ is a [[Lie group]] and [b)](#CurvatureCharacteristicOnCircleNGroup) where $G$ is a [[circle Lie n-group]]. These are both in turn special cases of the situation where $G$ is a 
 [[Lie group|Lie]] [[simplicial group]]. This we discuss now.
 
 +-- {: .num_prop }
 ###### Proposition
 
 For $G$ a [[Lie group|Lie]] [[simplicial group]], 
-the flat de Rham coefficient object 
+the [flat de Rham coefficient object](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#deRhamCohomology) 
 $\mathbf{\flat}_{dR}\mathbf{B}G$ is presented by 
 the simplicial presheaf which in degree $k$ is given by
 $\Omega^1_{flat}(-, \mathfrak{g}_k)$, where $\mathfrak{g}_k = Lie(G_k)$ is the [[Lie algebra]] of $G_k$.
@@ -4052,20 +4054,25 @@ $$
   \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
   //G_\bullet
   =
+  \left(
   \Omega^1_{flat}(-,\mathfrak{g}_\bullet) 
     \times
   C^\infty(-,G_\bullet) 
    \stackrel{\to}{\to} 
   \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
+  \right)
 $$
 
-be the [[presheaf]] of [[simplicial groupoids]] which in degree $k$ is the [[groupoid of Lie-algebra valued forms]] with values in $G_k$ from [above](#CanonicalFormOnLieGroup). Along the lines of the discussion there we have that under the degreewise [[nerve]] this is a degreewise fibrant [[resolution]] of presheaves of [[bisimplicial set]]s
+be the [[presheaf]] of [[simplicial groupoids]] which in degree $k$ is the [[groupoid of Lie-algebra valued forms]] with values in $G_k$ from [above](#CanonicalFormOnLieGroup). As in the [above](#CanonicalFormOnLieGroup) discussion there we have that under the degreewise [[nerve]] this is a degreewise fibrant [[resolution]] of presheaves of [[bisimplicial set]]s
 
 $$
-  N  \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
+  N \left(  \Omega^1_{flat}(-,\mathfrak{g}_\bullet)
     //
     G_\bullet
+  \right)
    \to
+  N *//G_\bullet
+  =
   N B (G_{disc})_\bullet
 $$
 
@@ -4082,7 +4089,7 @@ $$
    \stackrel{\simeq}{\to}
   \bar W (G_{disc})
   \simeq
-  \mathbf{\flat}_{dR}\mathbf{B}G
+  \mathbf{\flat}\mathbf{B}G
   \,.
 $$
 
@@ -4094,30 +4101,30 @@ $$
     G_\bullet
   )
    \to
-  diag N B (G_{disc})_\bullet
+  diag N *// G_{disc}
 $$
 
-is global fibration. This is in fact true for every
+is a global fibration. This is in fact true for every
 morphism of the form
 
 $$
-  diag N S//G \to diag N B G
+  diag N (S_\bullet//G_\bullet) \to diag *//G_\bullet
 $$
 
-for $S//G \to B G$ a simlicial [[action groupoid]] projection with $G$ a simplicial group acting on a 
+for $S_\bullet//G_\bullet \to *//G_\bullet$ a simlicial [[action groupoid]] projection with $G$ a simplicial group acting on a 
 [[Kan complex]] $S$: we have that 
 
 $$
-  (diag N S//G)_k 
+  (diag N (S//G))_k 
    = 
   S_k \times (G_k)^{\times_k}
   \,.
 $$
 
-On the second factor the horn filling codition is simply that of the identity map $diag N B G \to diag N B G$ which is evidently possible, whereas on the first factor it amounts to $S \to *$ being a Kan fibration, hence $S$ being Kan fibrant.
+On the second factor the horn filling condition is simply that of the identity map $diag N B G \to diag N B G$ which is evidently solvable, whereas on the first factor it amounts to $S \to *$ being a Kan fibration, hence to $S$ being Kan fibrant.
 
 But the simplicial presheaf 
-$\Omega^1_{flat}(-,\mathfrak{g}_\bullet)$ is Kan fibrant: for a given $U \in CartSp$ we may use [[parallel transport]] to (non-canonically) identify
+$\Omega^1_{flat}(-,\mathfrak{g}_\bullet)$ is indeed Kan fibrant: for a given $U \in CartSp$ we may use [[parallel transport]] to (non-canonically) identify
 
 $$
   \Omega^1_{flat}(U, \mathfrak{g}_k)
@@ -4128,7 +4135,7 @@ $$
 
 where on the right we have [[smooth function]]s that send the origin of $U$ to the neutral element. But since $G_\bullet$ is Kan fibrant and has smooth global fillers (by the discussion at [[simplicial group]] one can give algebraic formulas for the fillers, which translate into smooth manps) als $SmoothMfd_*(U,G_\bullet)$ is Kan fibrant.
 
-In summary this means that the definition [[homotopy pullback]] 
+In summary this means that the defining [[homotopy pullback]] 
 
 $$\mathbf{\flat}_{dR} \mathbf{B}G
   :=
@@ -4151,7 +4158,8 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-For $G$ a simplicial Lie group the canonical Maurer-Cartan form
+For $G$ a simplicial Lie group the 
+[canonical differential form](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#CurvatureCharacteristics)
 
 $$
   \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}G
@@ -4163,14 +4171,96 @@ $\mathbf{\flat}_{dR} \mathbf{B}G$ by the morphisms of simplicial presheaves
 $$
   \theta_k 
    : 
-  C^\infty(-,(G_k)^{\times k})
-   \to 
-  (...)
+  G_k
+  \to 
+  \Omega^1_{flat}(-, \mathfrak{g}_k)
 $$
+
+which is the presheaf-incarnation of the Maurer-Cartan form of the ordinary Lie group $G_k$.
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
+
+Continuing with the strategy of the previous proof
+we find a resolution of $* \to \mathbf{\flat} \mathbf{B}G$ by applying the construction of  _[The canonical form on a Lie group](#CanonicalFormOnLieGroup)_ degreewise and then applying $diag N$.
+
+The defining homotopy pullback
+
+$$
+  \array{
+     G &\stackrel{}{\to}& *
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{\flat}_{dR}
+    &\to&
+    \mathbf{\flat} \mathbf{B}G
+  }
+$$
+
+for $\theta$ is this way presented by the ordinary pullback
+
+$$
+  \array{
+     G_\bullet &\stackrel{}{\to}&
+     diag N \left( \Omega^1_{flat}(-, \mathfrak{g}_\bullet))_{triv} // G_\bullet \right)
+     \\
+     \downarrow && \downarrow
+     \\
+     \Omega^1_{flat}(-, \mathfrak{g}_\bullet)
+     &\to &
+     diag N (\Omega^1_{flat}(-,\mathfrak{g}_\bullet)//G_\bullet)
+  }
+$$
+
+of simplicial presheaves, where $\Omega^1_{flat}(-,\mathfrak{g}_\k)$ is the set of flat $\mathfrak{g}$-valued forms $A$ equipped with a gauge transformation $0 \stackrel{g}{\to} A$. As in the above proof one finds that the right vertical morphism is a fibration, hence indeed a [[resolution]] of the point inclusion. The pullback is degreewise that from the case of ordinary Lie groups and thus the result follows.
+
+=--
+
+
+We can now give a simplicial description of the canonical curvature form $\theta : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1)$ that [above](#CurvatureCharacteristicOnCircleNGroup) we obtained by a chain complex model:
+
+
+
++-- {: .num_example }
+###### Example
+
+The canonical form on the [[circle Lie n-group]]
+
+$$
+  \theta : \mathbf{B}^{n-1}U(1)
+  \to 
+  \mathbf{\flat}_{dR} \mathbf{B}^n U(1)
+$$
+
+is presented by the simplicial map 
+
+$$
+  \Xi( U(1)[n-1] )
+  \to 
+  \Xi( \Omega^1_{cl}(-)[n-1] )
+$$
+
+which is simply the Maurer-Cartan form on $U(1)$ in degree $n$.
+
+The equivalence to the model we obtained before is given by noticing the equivalence in [[hypercohomology]] of chain complexes of abelian sheaves
+
+$$
+  \Omega^1_{cl}(-)[n]
+   \simeq
+  (\Omega^1(-) \stackrel{d_{dR}}{\to}
+   \cdots
+   \stackrel{d_{dR}}{\to}
+   \Omega^n_{cl}(-)
+  ) 
+$$ 
+
+on [[CartSp]].
+
+=--
+
 
 ### Differential cohomology 
   {#StrucDifferentialCohomology}
