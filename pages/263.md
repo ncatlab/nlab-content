@@ -13,8 +13,6 @@
 =--
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -39,7 +37,7 @@ A **category with weak equivalences** is a [[category]] $C$ equipped with a [[su
 
 Often categories with weak equivalences are equipped with further extra [[structure]] that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
 
-* In a [[homotopical category]] the condition on the weak equivalences is slightly stronger.
+* In a [[homotopical category]] the condition on the weak equivalences is slightly stronger; see below.
 
 * In a [[category of fibrant objects]] there are additional auxiliary morphisms called fibrations.
 
@@ -48,14 +46,31 @@ Often categories with weak equivalences are equipped with further extra [[struct
 * In a [[model category]] there are both of these additional auxiliary classes of morphisms with special interrelation between them.
 
 
+## Additional conditions
+
+Three additional conditions which categories with weak equivalences often satisfy are:
+
+* the weak equivalences are closed under [[retracts]], as a subcategory of the [[arrow category]] of $C$.
+
+* the weak equivalences satisfy the [[two-out-of-six property]]; in this case the category is called a [[homotopical category]].
+
+* the weak equivalences are *saturated* in the sense that any morphism which becomes an isomorphism in the [[localization]] $C[W^{-1}]$ is already a weak equivalence.  (This is unrelated to the notion of [[saturated class of maps]] used in the theory of [[weak factorization systems]].)
+
+In fact, these three conditions are closely related.
+
+* Obviously, saturation implies closure under retracts and two-out-of-six, since the isomorphisms in any category satisfy both.
+
+* In any model category, all three conditions hold automatically.
+
+* If the weak equivalences admit a [[calculus of fractions]], or a well-behaved class of cofibrations or fibrations, then the three conditions are equivalent.  In the case of a calculus of fractions, a proof can be found in 7.1.20 of [[Categories and Sheaves]].  For the case of cofibrations, it can be found in [Blumberg-Mandell](#BlumbergMandell) (stated in the context of [[Waldhausen categories]]).
+
+
 ## Remarks 
 
 * If we denote by $Core(C)$ the [[core]] of $C$ -- the maximal sub[[groupoid]] of $C$ -- then we have a chain of inclusions
 $ 
  Core(C) \hookrightarrow W \hookrightarrow C
 $.
-
-* Sometimes it is useful to ask further closure properties of the weak equivalences.  One such is the "2-out-of-6" property (if $g f$ and $h g$ are weak equivalences, then so are $f$, $g$, $h$, and $h g f$) in which case one speaks of a [[homotopical category]].  Another such is closure under [[retract|retracts]] in the [[arrow category]] of $C$.  Both are satisfied automatically by any [[model category]].
 
 * Many categories with weak equivalences can be equipped with the further [[structure]] of a [[model category]]. On the other hand, some categories with weak equivalences can _not_ be equipped with a useful structure of a model category.  In particular, categories of [[diagrams]] in a model category do not always inherit a useful model structure (on the other hand often they do, see [[model structure on functors]]).  Several concepts exist that weaken the axioms of a model category in order to still obtain useful results in such a case -- for instance a [[category of fibrant objects]].
 
@@ -73,29 +88,8 @@ In fact, every [[(∞,1)-category]] may be presented this way (and indeed [[pose
 
 Alternatively, we may further project to the 1-category in which all weak equivalences become true [[isomorphism]]s: this is the [[homotopy category]] of $C$ with respect to $W$. Equivalently this is the [[homotopy category of an (∞,1)-category]] of $\mathbf{C}$.
 
-Note that the category with weak equivalences which presents a given $(\infty,1)$-category will not, in general, be the [[homotopy category of an (∞,1)-category|homotopy category]] of this $(\infty,1)$-category; more "flab" must be built into it.  
+Note that the category with weak equivalences which presents a given $(\infty,1)$-category can not, in general, be taken to be the [[homotopy category of an (∞,1)-category|homotopy category]] of that $(\infty,1)$-category; more "flab" must be built into it.
 
-
-
-## Discussion
-
-+-- {: .query}
-
-> An earlier version of this entry led to the following discussion
-
-Surely you don\'t mean to suggest (with '*The* $(\infty,1)$-category is recovered [...]') that the composite
-$$ (\infty,1) Cat \to Cat \to (\infty,1) Cat $$
-is equivalent to the identity, do you?
-
-[[Mike Shulman]]: I've tried to clarify the statements being made.
-
-[[Urs Schreiber]]: Thanks. You mention homotopy categories. But I understood the question differently: supppose we start with an $(\infty,1)$-category in its incarnations as a simplicially enriched category. Then form the ordinary category obtained by retaining of all simplicial hom-sets only the set of 0-cells, now the set of morphisms. Mark those morphisms as weak equivalences that were equivalences in the original $(\infty,1)$-category. Then pass to the simplicial localization of the resulting category with weak equivalences. How does that relate to the original $(\infty,1)$-category?
-
-[[Mike Shulman]]: Also an interesting question!  However, I believe the answer is "it's not the same."  Consider simplicially enriched groupoids, meaning simplicially enriched categories in which each category $C_n$ defined by $C_n(x,y) = C(x,y)_n$ is a groupoid.  The fundamental $\infty$-groupoid of *any* space can be realized as such a simplicially enriched groupoid.  However, when we discard the higher cells in a simplicially enriched groupoid, we obtain simply an ordinary groupoid, whose simplicial localization is just itself.  So in this case, the composite operation in question is the 1-truncation.
-=--
-
-
-
-
+It also cannot, in general, be the underlying 1-category of a simplicially enriched presentation of that $(\infty,1)$-category.  For instance, every $\infty$-groupoid can be realized as a simplicially enriched groupoid, but the underlying 1-category of a simplicially enriched groupoid is a 1-groupoid, which cannot be localized any further to produce a non-1-truncated $\infty$-groupoid.
 
 [[!redirects categories with weak equivalences]]
