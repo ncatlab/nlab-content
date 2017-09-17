@@ -16,24 +16,29 @@
 
 ##Idea##
 
-The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplex|simplices]]. It is also called the [[simplicial category]], but that term is ambiguous.
+The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplices]]. It is also called the _[[simplicial category]]_, but that term is ambiguous.
 
 ## Definition ##
+ {#Definition}
 
 +-- {: .num_defn }
 ###### Definition
 
-
-* The **augmented simplex category** $\Delta_a$ is the [[full subcategory]] of [[Cat]] on the [[finite set|finite]] linear [[quivers]]
+The **augmented simplex category** $\Delta_a$ is the [[full subcategory]] of [[Cat]] on the [[free categories]] of [[finite set|finite]] linear [[directed graphs]]
 
 $$
   \{c_0 \to c_1 \to \cdots \to c_n\}
   \,.
 $$
 
-  Equivalently this is the category whose [[object]]s are finite [[total order|totally ordered sets]], or finite ordinals, and whose [[morphism]]s are order-preserving functions between them.
+Equivalently this is the category whose [[objects]] are finite [[total order|totally ordered sets]], or finite ordinals, and whose [[morphisms]] are order-preserving functions between them.
 
-* The **simplex category** $\Delta$ is the [[full subcategory]] of $\Delta_a$ (and hence of $Cat$) consisting of the finite **[[inhabited set|inhabited]]** linear quivers, non-empty linear orders or non-zero ordinals.
+=--
+
++-- {: .num_defn }
+###### Definition
+
+The **simplex category** $\Delta$ is the [[full subcategory]] of $\Delta_a$ (and hence of $Cat$) consisting of the free categories on finite and **[[inhabited set|inhabited]]** directed graphs, hence of  _non-empty_ linear orders or _non-zero_ ordinals.
 
 =--
 
@@ -42,7 +47,7 @@ $$
 
 It is common, convenient and without risk to use a [[skeleton]] of $\Delta$ or $\Delta_a$, where we pick a fixed representative in each [[isomorphism class]]] of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
 
-With this the objects of $\Delta$ are in bijection with [[natural number]]s $n \in \mathbb{N}$ and one usually writes 
+With this the objects of $\Delta$ are in bijection with [[natural numbers]] $n \in \mathbb{N}$ and one usually writes 
 
 $$
   [n] = \{0 \to 1 \to \cdots \to n\}
