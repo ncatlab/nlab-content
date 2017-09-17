@@ -594,7 +594,7 @@ $$
 
 As a corollary of prop. \ref{FullSelfDualizabilityInSpan} we have:
 
-+-- {: .num_prop}
++-- {: .num_prop #ValueOfLocalPrequantumFieldTheoryOnCobordism}
 ###### Proposition
 
 Given $\mathbf{Fields} \colon Bord_n^\otimes \to Span_n(\mathbf{H})^\otimes$, it assigns to a [[k-morphism]] represented by a [[closed manifold]] $\Sigma_k$ the [[internal hom]] ([[mapping stack]]) from  $\Pi(\Sigma_k)$ (the [[shape modality]] of $\Sigma_k$, def. \ref{ShapeAndFlatModality}) into the moduli stack of fields
@@ -3070,7 +3070,7 @@ $$
   \array{
     \Omega^{n+1}_{cl} 
     \\
-    \downarrow^{\mathrlap{S_{tYM}}}
+    \downarrow^{\mathrlap{\exp(i S_{tYM})}}
     \\
     \mathbf{B}^{n+1} \flat U(1)
   }
@@ -3146,9 +3146,12 @@ $$
   \,.
 $$
 
+We now immediately turn to a simple example that illustrates some basic aspects of this construction. 
+
 
 ##### The canonical local action functional: Differential forms in de Rham hypercohomology
 
+As a first example for how to work in the homotopy theory of [[smooth ∞-groupoids]] we have the following.
 
 +-- {: .num_prop }
 ###### Proposition/Example
@@ -3157,7 +3160,7 @@ The canonical [[chain map]]
 
 $$
   \array{  
-    U(1)_{disc} &\to& 0 &\to& 0 &\to& \cdots &\to& 0
+    \flat U(1) &\to& 0 &\to& 0 &\to& \cdots &\to& 0
     \\
     \downarrow && \downarrow && \downarrow && \cdots && \downarrow
     \\
@@ -3179,7 +3182,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition and using prop. \ref{DoldKanRespectsWeakEquivalences} we need to check that over a small enough smooth open ball, the [[chain map]] becomes a [[quasi-isomorphism]]. But on an open ball this is the statement of the [[Poincaré Lemma]].
+By definition and using prop. \ref{DoldKanRespectsWeakEquivalences} we need to check that over a small enough smooth open ball, the [[chain map]] becomes a [[quasi-isomorphism]]. But on an open ball this is the statement of the [[Poincaré lemma]].
 
 =--
 
@@ -3204,7 +3207,7 @@ for the image in morphisms of [[Smooth∞Grpd]] under the [[Dold-Kan corresponde
 
 $$
   \array{  
-    0 &\to& 0 &\to& 0 &\to& \cdots &\to& \Omega^{n+1}_{cl}
+    0 &\to& 0 &\to& 0 &\to& \cdots &\to& \Omega^{n}_{cl}
     \\
     \downarrow && \downarrow && \downarrow && \cdots && \downarrow^{\mathrlap{id}}
     \\
@@ -3260,7 +3263,7 @@ We consider now the [[boundary field theories]] for the "universal topological Y
  {#UniversalStYMBoundaryAndDifferentialCohomology}
 
 
-Where the plain [[(∞,n)-category of cobordisms]] $Bord_n$ is freely generated from the point $\ast$ alone, so the $(\infty,n)$-category of cobordisms with possibly a marked boundary is free generated from the point and one new morphism
+Where the plain [[(∞,n)-category of cobordisms]] $Bord_n$ is freely generated from the point $\ast$ alone, so the $(\infty,n)$-category of cobordisms with possibly a marked boundary is freely generated from the point and one new morphism
 
 $$
   \emptyset \to \ast
@@ -3283,9 +3286,10 @@ $$
     \mathbf{B}^{n+1} \flat U(1)
   }
   \right]
+  \,,
 $$
 
-but also one morphism from the trivial field configuration with trivial action to this data, hence a span of the form
+but moreover one morphism in $Span_n(\mathbf{H}, \mathbf{B}^{n+1}\flat U(1))$ from the trivial field configuration with trivial action to this data, hence (as amplified in [FV](#FiorenzaValentino)) a diagram in $\mathbf{H}$ of the form
 
 $$
   \array{
@@ -3302,7 +3306,7 @@ $$
   \,.
 $$
 
-This defines a [[moduli stack]] $\mathbf{Fields}^{\partial}$ of boundary field configurations, together with a [[homotopy]] which encodes the relative action functional on this boundary data.
+Therefore defining such boundary data means defining a [[moduli stack]] $\mathbf{Fields}^{\partial}$ of boundary field configurations, together with a [[homotopy]] filling the above diagram which encodes the relative action functional on this boundary data.
 
 In order to find all possible such boundary data for $\exp(i S_{tYM})$, we can make use of the [[homotopy fiber product]] construction of def. \ref{HomotopyFiberProductOfKanComplexes} to find the _universal_ such boundary data, the one through which any other one factors.
 
@@ -3310,7 +3314,7 @@ In order to find all possible such boundary data for $\exp(i S_{tYM})$, we can m
 +-- {: .num_prop #DiffCohomologyIsTerminalBoundaryForStYM}
 ###### Proposition
 
-The universal boudnary condition for $\exp(i S_{tYM})$, hence the [[homotopy fiber product]] $\ast \underset{\mathbf{B}^{n+1}\flat U(1)}{\times} \Omega^{n+1}_{cl}$ is given by the image under the [[Dold-Kan correspondence|Dold-Kan map]], def. \ref{DoldKanMap}, of the [[Deligne complex]]
+The universal boudnary condition for $\exp(i S_{tYM})$, hence the [[homotopy fiber product]] $\ast \underset{\mathbf{B}^{n+1}\flat U(1)}{\times} \Omega^{n+1}_{cl}$, is given by the image under the [[Dold-Kan correspondence|Dold-Kan map]], def. \ref{DoldKanMap}, of the [[Deligne complex]]
 
 $$
   \mathbf{B}^n U(1)_{conn}
@@ -3341,19 +3345,79 @@ $$
 =--
 
 
-The [[boundary field theory]] defined this way we may call _[[Cheeger-Simons character|Cheeger-Simons field theory]]_.
+The [[boundary field theory]] defined this way we may call _[[Cheeger-Simons differential character|Cheeger-Simons field theory]]_.
 
 
 
 ##### General boundary condition for $S_{tYM}$: Higher Chern-Weil theory and $\infty$-Chern-Simons theory
  {#GenralBoundaryForStYMAndHigherChernSimons}
 
-(...)
+
+By the [[universal property]] of the [[homotopy fiber product]] we then have the following statement.
+
++-- {: .num_prop #HigherCSAsBoundaryTheory}
+###### Proposition
+
+Boundary field theories for $\exp(i S_{tYM})$ are equivalently 
+[[moduli stacks]] $\mathbf{Fields} \in \mathbf{H}$ equipped with maps
+
+$$
+  \exp(i S_{CS}) 
+    \colon
+  \mathbf{Fields} \to \mathbf{B}^n U(1)_{conn}
+$$
+
+hence equipped with a [[circle n-bundle with connection]] (the [[prequantum n-bundle]] of the boundary theory).
+
+=--
+
+Moreover, the universal property of the [[Cheeger-Simons differential character|Cheeger-Simons]] field theory identifies all these boundary theories as being of higher Chern-Simons type, in that they have a [[curvature]] associated to them
+
+$$
+  \array{
+    \mathbf{Fields}
+    \\
+    {}^{\mathllap{\exp(i S_{CS})}}\downarrow & \searrow^{\mathrlap{\langle F_{(-)} \wedge \cdots F_{(-)}\rangle}}
+    \\
+    \mathbf{B}^n U(1)_{conn} &\underset{F_{(-)}}{\to}& \Omega^{n+1}_{cl}
+  }
+$$
+
+which is an invariant differential form ([[invariant polynomial]]) on the moduli stack. 
+
+
++-- {: .num_example }
+###### Example
+
+For $G$ a simply connected simple Lie group and
+
+$$
+  \mathbf{B}G_{conn} \coloneqq \Omega^1(-,\athfrak{g})//G
+$$
+
+the [[moduli stack]] of $G$-[[principal connections]], the local action functional of ordinary 3d [[Chern-Simons theory]] is of the form
+
+$$
+  \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+This [[prequantum n-bundle|prequantum 3-bundle]] is the _[[Chern-Simons circle 3-bundle]]_.
+
+=--
+
 
 
 ##### Geometric defects for $S_{tYM}$ from Chern-Simons invariants: Higher holonomy, parallel transport, fiber integration in differential cohomology
 
-(...)
+
+While we may think of the [[(∞,n)-category of cobordisms]] $Bord_n$ as built from [[smooth manifolds]], the [[cobordisms theorem]] clearly states that these just serve as a presentation of a structure that is not intrinsically related to smooth or even topological structure. This is made manifest by prop. \ref{ValueOfLocalPrequantumFieldTheoryOnCobordism}: the value of a local prequantum field theory on a [[k-morphism]] in $Bord_n$ depends only on the [[homotopy type]] of the $k$-dimensional manifold that presents this $k$-morphism. Of course this is precisely the property that the term "topological" in _[[topological field theory]]_ is referring to.
+
+But boundaries and defects of a topological field theory may add extra structure to the theory which is not "purely topological" in this way. Here we consider a canonical class of defects for universal higher higher topological Yang-Mills theory, def. \ref{GeneralHighertYM}, and $\infty$-Chern-Simons theory, def. \ref{HigherCSAsBoundaryTheory}.
+
+...
+
+
 
 
 #### $d = n-1$, Topological Chern-Simons boundaries
