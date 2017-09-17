@@ -1,6 +1,10 @@
 <div class="rightHandSide toc">
 [[!include category theory - contents]]
+***
+[[!include Yoneda lemma - contents]]
 </div>
+
+
 
 The __universal constructions__ in [[category theory]] include
 
