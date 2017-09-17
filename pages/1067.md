@@ -20,7 +20,7 @@
 
 A _chain complex_ $V_\bullet$ is a sequence $\{V_n\}_{n \in \mathbb{N}}$ of [[abelian groups]] or [[modules]] (for instance [[vector spaces]]) or similar equipped with linear maps $\{d_n : V_{n+1} \to V_n\}$ such that $d^2 = 0$, i.e. the composite of two consecutive such maps is the [[zero morphism]] $d_n \circ d_{n+1} = 0$.
 
-A basic example is the [[singular chain complex]] of a [[topological space]], or the [[de Rahm complex]] of a [[smooth manifold]].
+A basic example is the [[singular chain complex]] of a [[topological space]], or the [[de Rham complex]] of a [[smooth manifold]].
 
 Chain complexes crucially come with their _[[chain homology]]_ [[groups]]. When regarding [[chain maps]] between them that induce [[isomorphisms]] on these groups ([[quasi-isomorphisms]]) as [[weak equivalences]], chain complexes form a useful presentation for aspects of [[stable homotopy theory]]. More on this aspect [below](#MeaningInHomotopyTheory).
 
@@ -96,5 +96,7 @@ See [[model structure on chain complexes]].
 
 * [[perfect chain complex]]
 
+[[!include chains and cochains - table]]
+  
 
 [[!redirects chain complexes]]
