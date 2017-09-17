@@ -5,6 +5,8 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
+$\mathcal{$\Gamma$}$
+
 |  [[L-∞ algebras]] | form [[Chevalley-Eilenberg algebra]] | [[pro-objects]] in commutative [[Artin algebra|Artin]] [[dg-algebras]] | dualize | commutative [[dg-coalgebra]] | form [[tangent space|tangents]] | [[dg-Lie algebras]] |
 |--|--|--|--|--|--|--|
 | $L_\infty Alg$ | $\stackrel{CE}{\hookrightarrow}$ | $Pro(dgArtinCAlg)^{op} $ | $\stackrel{(-)^*}{\to}$ | $dgCoCAlg$ | $\stackrel{\mathcal{L}}{\to}$ | $dgLieAlg$ | 
