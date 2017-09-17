@@ -28,16 +28,7 @@ Before it gets finished look in eom article.
 
 * Atiyah, Bott, ... (cf. [[Atiyah-Bott fixed point formula]])
 
- [[!redirects Lefschetz number]]
+[[!redirects Lefschetz number]]
 [[!redirects Lefschetz formula]]
----
-[arXiv:1008.3689] L-series of Artin stacks over finite fields
-from arXiv Front: math.NT by Shenghao Sun
-We reprove the Lefschetz trace formula for stacks (in the context of derived
-categories and the six operations for stacks developed by Laszlo and Olsson),
-and give the meromorphic continuation of L-series (in particular, zeta
-functions) of Artin stacks over a finite field. We also give an upper bound for
-the weights of the cohomology groups of stacks, and an "independence of l"
-result for a certain class of quotient stacks.
+[[!redirects Lefschetz numbers]]
 
-nLab page on [[nlab:Lefschetz trace formula]]
