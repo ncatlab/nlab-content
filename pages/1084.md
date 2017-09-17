@@ -91,7 +91,7 @@ $$
   \,.
 $$
 
-Here every square is a [[pushout]], (and so by the [[pasting law]] is every rectengular pasting composite).
+Here every square is a [[pushout]], (and so by the [[pasting law]] is every rectangular pasting composite).
 
 =--
 
@@ -233,7 +233,7 @@ $$
 
 This is an [[interval object]] in $\mathcal{A}$.
 
-It in in fact the [[normalized chain complex]] of [[chains on a simplicial set]] for the canonical simplicial interval, the 1-[[simplex]]:
+It is in fact the [[normalized chain complex]] of [[chains on a simplicial set]] for the canonical simplicial interval, the 1-[[simplex]]:
 
 $$
   I_\bullet = C_\bullet(\Delta[1])
