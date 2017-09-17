@@ -60,3 +60,4 @@ The interpretation of the !-modality as a [[Fock space]] construction is discuss
 [[!redirects of course]]
 [[!redirects !]]
 [[!redirects exponential conjunction]]
+[[!redirects exponential modality]]
