@@ -101,6 +101,7 @@ While there are many 7-dimensional manifolds $F$ that do yield the desired gauge
 Largely due to this result the pure Kaluza-Klein ansatz is regarded nowadays as a non-viable way to reproduce the standard model of particle physics from a theory pure gravity. But one can further play with the idea and consider more flexible models that still exhibit the essence of KK-reduction in parts. 
 
 ### Reductions of type II supergravity
+ {#ReductionsOfTypeIISupergravity}
 
 Motivation for further variants of the KK-ansatz has to a large extent come from models in [[string theory]]. During the end of the 20th and the beginning of the 21st century, the widely dominant ansatz followed in the higher energy phyisics community is to study 10-dimensional [[type II supergravity]] models KK-reduced on 6-dimensional [[Calabi-Yau space]]s $F$. The advantage of these type II models is that they naturally involve a further [[gauge field]], called the [[RR-field]]. This is modeled by cocycles in [[differential K-theory]] which means that its [[field strength]] $\mathcal{F}$ is an inhomogenous closed [[differential form]] of even or of odd degree. Moreover, restricted to configurations $\mathcal{F}$ of these forms with specified [[cycle]]s in $F$, the moduli part of the KK-reduced action functional
 
@@ -115,6 +116,10 @@ This means that physical model building using the specific ansatz of KK-reductio
 While interesting, there are few tools known for performing this classification. The only thing that seems to be clear is that the classification is not sparse: there are many points in this space of choices. Since all this is relevant in model building in [[string theory]], the space of these choices has been termed the [[landscape of string theory vacua]]. 
 
 See [[supergravity and Calabi-Yau manifolds]] for more.
+
+### Reduction of 11d supergravity
+
+The lift of [above](#ReductionsOfTypeIISupergravity) reduction of type II supergravity on [[Calabi-Yau manifolds]] to [[M-theory]] is the reduction of [[11-dimensional supergravity]] on [[G2-manifolds]]. See at _[[M-theory on G2-manifolds]]_ for more details.
 
 
 ## Related concepts
@@ -157,3 +162,6 @@ The discussion in the [[first order formulation of gravity]] is given in
 
 [[!redirects dimensional reduction]]
 [[!redirects moduli stabilization problem]]
+
+[[!redirects Kaluza-Klein reduction]]
+[[!redirects Kaluza-Klein reductions]]
