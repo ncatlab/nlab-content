@@ -194,6 +194,11 @@ A good review is in the introduction of
 * [[Chris Schommer-Pries]], _Central Extensions of Smooth 2-Groups and a Finite-Dimensional String 2-Group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
 {#Schommer-Pries}
 
+In 
+
+* [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_ ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288))
+
+is is shown that the topological string group does admit a [[Frechet manifold]] [[Lie group]] structure. 
 
 
 [[!redirects String group]]
