@@ -1,0 +1,5 @@
+* [Wikipedia entry (English)](http://en.wikipedia.org/wiki/Claude_Chevalley)
+
+* [St Andrews history entry](http://www-history.mcs.st-andrews.ac.uk/Biographies/Chevalley.html)
+
+category:people
