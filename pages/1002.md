@@ -1,7 +1,7 @@
+
 # Ultrafilters
 * table of contents
 {: toc}
-
 
 ## Definitions
 
@@ -66,11 +66,27 @@ $$Kl(\beta)^{op} \to C$$
 where $Kl(\beta)$ is the Kleisli category (or the full category of compact Hausdorff spaces whose objects are of the form $\beta S$). 
 
 
-[[!redirects principal ultrafilter]]
-[[!redirects fixed ultrafilter]]
-[[!redirects free ultrafilter]]
+[[!redirects ultrafilter]]
 [[!redirects ultrafilters]]
+
+[[!redirects principal ultrafilter]]
 [[!redirects principal ultrafilters]]
+
+[[!redirects fixed ultrafilter]]
 [[!redirects fixed ultrafilters]]
+
+[[!redirects free ultrafilter]]
 [[!redirects free ultrafilters]]
+
 [[!redirects ultrafilter monad]]
+
+[[!redirects compact Hausdorff object]]
+[[!redirects compact Hausdorff objects]]
+[[!redirects compact hausdorff object]]
+[[!redirects compact hausdorff objects]]
+[[!redirects compact Hausdorff space object]]
+[[!redirects compact Hausdorff space objects]]
+[[!redirects compact hausdorff space object]]
+[[!redirects compact hausdorff space objects]]
+[[!redirects compactum object]]
+[[!redirects compactum objects]]
