@@ -28,7 +28,7 @@ $$
   \,,
 $$
 
-where $E(n)$ is the $n$th [[Morava E-theory]] (for the given [[prime]] $p$). These arrange into the _chromatic tower_ which for each spectrum $X$ is of the form
+where $E(n)$ is the $n$th [[Morava E-theory]] (for the given [[prime]] $p$), the $n$th _[[chromatic localization]]_. These arrange into the _chromatic tower_ which for each spectrum $X$ is of the form
 
 $$  
   X \to \cdots \to L_n X \to L_{n-1} X \to \cdots \to L_0 X
