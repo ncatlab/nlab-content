@@ -44,6 +44,8 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 * Some [slides](http://ncatlab.org/davidroberts/files/DMRAustMS09.pdf) from a talk I gave about my thesis at the 2009 Annual Meeting of the Australian Mathematical Society, at the University of South Australia. 30 September 2009
 
 
+## Copyright statement ##
 
+My contributions to the [[HomePage|nLab]] are released under a [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) license. Indeed, when I can (for instance, all those of which I am solo author) I post my papers on the arXiv under this license.
 
 category: people
