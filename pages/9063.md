@@ -58,11 +58,28 @@ For a concrete counterexample, consider the short exact squence $0 \to \mathbb{Z
 
 [[!redirects cofiber sequences]]
 
+[[!redirects cofibre sequence]]
+[[!redirects cofibre sequences]]
+
 [[!redirects homotopy cofiber sequence]]
 [[!redirects homotopy cofiber sequences]]
+[[!redirects homotopy cofibre sequence]]
+[[!redirects homotopy cofibre sequences]]
 
 [[!redirects homotopy cofiber]]
 [[!redirects homotopy cofibers]]
+[[!redirects homotopy cofibre]]
+[[!redirects homotopy cofibres]]
 
 [[!redirects cofibration sequence]]
 [[!redirects cofibration sequences]]
+
+[[!redirects homotopy cokernel]]
+[[!redirects homotopy cokernels]]
+
+[[!redirects homotopy co-fiber]]
+[[!redirects homotopy co-fibre]]
+[[!redirects homotopy co-fibres]]
+[[!redirects homotopy co-fibers]]
+[[!redirects homotopy co-kernel]]
+[[!redirects homotopy co-kernels]]
