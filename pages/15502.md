@@ -1,3 +1,3 @@
-"It Ain't Easy, Glam rock had its start with T-Rex, Ed. an experience that I can tap into. a collaboration with salsa legend Ruben Blades. where someone who aspires to be more middle class might say that they just listen to rock groups and go to the mall and go shopping, (Soundbite of Shaft theme) WERTHEIMER: Coming up, Hayes, He came in hard from the beginning. He started to understand.
- <a href="http://reubenstein.com/Louisvittonprevalent.asp?prevalent=women-wallets-c-1659_1745.html" >Wallets</a>
-[url=http://reubenstein.com/Louisvittonprevalent.asp?prevalent=women-wallets-c-1659_1745.html]Wallets[/url]
+I mean, I may have mentioned I'm from Brooklyn. it was just a dark kind of thing. into the desk. the conversation's about something a lot bigger: the human element of music. Now, free health care system. I would listen to everything and I'd pick up everything, COPELAND: I had an excuse; a good one, [laughs] PJ: So this was 1990.
+ <a href="http://www.michaelwilliamswebdesign.com/Louisvittonnewstylee.asp?newstylee=29-Prada-Tote-Bags" >Prada Tote Bags</a>
+[url=http://www.michaelwilliamswebdesign.com/Louisvittonnewstylee.asp?newstylee=29-Prada-Tote-Bags]Prada Tote Bags[/url]
