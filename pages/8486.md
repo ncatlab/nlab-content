@@ -90,9 +90,17 @@ $\mathfrak{g} = Lie(\mathbf{BiSect}(X,U))$
 for the [[Lie algebra]] of the group of bisections.
 Then $(C^\infty(X), \mathfrak{g})$ is the [[Lie-Rinehart algebra]] corresponding to the [[Lie algebroid]] of the Lie groupoid.
 
+### Relation to Atiyah groupoids
+
+> for the moment see at _[[Atiyah groupoid]]_ and _[[higher Atiyah groupoid]]_.
+
+
 [[!redirects bisections of a Lie groupoid]]
 
 [[!redirects group of bisections]]
 
 [[!redirects bisection]]
 [[!redirects bisections]]
+
+[[!redirects ∞-group of bisections]]
+[[!redirects ∞-groups of bisections]]
