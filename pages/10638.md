@@ -7,7 +7,7 @@
 
 A degenerate [[elliptic curve]] with [[nodal singularity]]. Appears in the construction of the [[compactification]] of the [[moduli stack of elliptic curves]].
 
-Ove a given base ring $R$ it is an elliptic curve over the [[power series]] $R [ [ q ] ]$ which may be thought of as the quotient of the [[multiplicative group]] by $q^{\mathbb{Z}}$.
+Over a given base ring $R$ it is an elliptic curve over the [[power series]] $R [ [ q ] ]$ which may be thought of as the quotient of the [[multiplicative group]] by $q^{\mathbb{Z}}$.
 
 ## Properties
 
@@ -31,11 +31,9 @@ Physically, Witten obtained this as the [[partition function]] of the [[heteroti
 
 ## References
 
-For general discussion see for instance
+For general discussion see for instance pages 32, 33 in 
 
-P. 32, 33 in 
-
-* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_.
 
 The relation to the Witten genus originates around
 
