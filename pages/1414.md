@@ -464,7 +464,7 @@ An elementary discussion of the concept of homotopy coherence forms Chapter V of
 
 *  K. H. Kamps, [[Tim Porter]], _Abstract homotopy and simple homotopy theory_, World Scientific 1997. 
 
-* [[V. Hinich]], _Simplicial nerve in deformation theory_, [arxiv/0704.2503](http://arxiv.org/abs/0704.2503)
+
 
 For the role played by the simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
 
@@ -483,6 +483,8 @@ A review of this latter aspect is also in
 * [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets and simplicial operads_, [arxiv/1109.1004](http://arxiv.org/abs/1109.1004) (a Quillen equivalence for Segal vs. simplicial operads using coherent nerve)
+
+* [[Emily Riehl]], _On the structure of simplicial categories associated to quasi-categories, Math. Proc. Camb. Phil. Soc. 150 (2011), 489 - 504.
 
 For more references see [[relation between quasi-categories and simplicial categories]].
 
