@@ -97,14 +97,10 @@ This formula defines the Schur functor not only on objects but also on morphisms
 $$  S_R : FinVect \to FinVect $$
 for _any_ representation $R$ of $S_n$, as follows:
 $$   S_R(-) = R \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} \, . $$
-These more general functors are still called **Schur functors**.
+These more general functors are still called 'Schur functors'.
 
-## The category of Schur functors
-
-Even more generally, any finite direct sum of the Schur functors just described may also be called a Schur functor.   In other words, if $R = \{R_n\}_{n \ge 0}$ where $R_n$ a finite-dimensional representation of $S_n$, and only finitely many of these representations are nonzero, then we define the **Schur functor**
+Even more generally, any finite direct sum of the Schur functors just described may also be called a Schur functor.   In other words, if $R = \{R_n\}_{n \ge 0}$ where $R_n$ is a finite-dimensional representation of $S_n$, and only finitely many of these representations are nonzero, then we define the **Schur functor**
 $$   S_R(-) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} \, . $$
-
-This more general definition has the advantage of including many interesting examples:
 
 * For each $n \geq 0$, the $n^{th}$ [[tensor power]] $V \mapsto V^{\otimes n}$ is a Schur functor. 
 
@@ -114,9 +110,19 @@ This more general definition has the advantage of including many interesting exa
 
 *  If $F$ and $G$ are Schur functors, the composite $V \mapsto F(G(V))$ is a Schur functor.  This way of constructing Schur functors is known as [[plethysm]].
 
-There is a category $Schur$ with these more general Schur functors as objects and natural transformations between them as morphisms.  In the rest of this article, we would like to give a conceputal explanation of this category.  
+## The category of Schur functors
 
-As a warm-up, let us note that $\Schur$ has has a nice description in terms of groupoid of finite sets and bijections, which is also called the [[core]] of the category [[FinSet]], and denoted $core(FinSet)$.   How does this work?  Every Schur functor is a finite direct sum of Schur functors coming from irreducible representations of symmetric groups $S_n$ for various $n$.  But what sort of entity is a _direct sum of representations of symmetric groups $S_n$ for various $n$?_  It is nothing but a representation of the [[permutation groupoid]]:
+There is a category $Schur$ with
+
+* Schur functors $S_R : FinVect \to FinVect$ as objects.  Here
+$$   S_R(-) = \bigoplus_{n \ge 0} R_n \otimes_{\mathbb{C}[S_n]} (-)^{\otimes n} \, $$
+each $R_n$ is a finite-dimensional representation of $S_n$, and only finitely many of these representations are nonzero.
+
+* natural transformations between such functors as morphisms.
+
+In the rest of this article, we would like to give a conceputal explanation of this category.  
+
+As a warm-up, let us note that $\Schur$ has has a nice description in terms of groupoid of finite sets and bijections.  This groupoid is the [[core]] of the category [[FinSet]], so it is denoted $core(FinSet)$.   What is the relation between Schur functors and this groupoid.  Every Schur functor is a finite direct sum of Schur functors coming from irreducible representations of symmetric groups $S_n$ for various $n$.  But what sort of entity is a _direct sum of representations of symmetric groups $S_n$ for various $n$?_  It is nothing but a representation of the [[permutation groupoid]]:
 $$ \mathbb{P} = \bigsqcup_{n \ge 0} S_n \, , $$
 where objects are natural numbers, all morphisms are automorphisms, and the automorphisms of $n$ form the group $S_n$.   In other words, it is a functor 
 $$R : \mathbb{P} \to Vect $$  
@@ -125,9 +131,10 @@ $$ \mathbb{P} \simeq core(FinSet) \, .$$
 
 As a result, any Schur functor gives a functor
 $$    R : core(FinSet) \to Vect $$
-Following Joyal's work on combinatorics, such functors are known as $Vect$-valued [[species]], or $Vect$-valued [[structure type|structure types]].  The idea here is that a $Vect$-valued species assigns to any finite set a vector space of 'structures' of some type, just as an ordinary species
+Following Joyal's work on combinatorics, such functors are known as $Vect$-valued [[species]], or $Vect$-valued [[structure type|structure types]].  The idea here is that just as an ordinary Set-valued species 
 $$    T : core(FinSet) \to Set $$
-assigns to any finite set a _set_ of structures of some type.  Thanks to the 'free vector space on a set' functor 
+assigns to any finite set a _set_ of structures of some type,
+a $Vect$-valued species assigns to any finite set a _vector space_ of structures of some type,   Thanks to the 'free vector space on a set' functor 
 $$F: Set \to Vect \, ,$$
 we can linearize any ordinary species $T$ and obtain a linear species $F \circ T$.  This process is extremely important in the work of [[Marcelo Aguiar]] and [[Swapneel Mahajan]]:
 
@@ -155,11 +162,15 @@ and
 
 $$ (F \otimes G)(V) = F(V) \otimes G(V) $$
 
-Since $\otimes$ distributes over $\oplus$, these make $Schur$ into a [[rig category]].  In the literature on species, the operation $\oplus$ is often called **addition**, and Aguiar and Mahajan call $\otimes$ the [Hadamard product]](http://www.math.tamu.edu/~maguiar/a.pdf#page=236">Hadamard product).  
+Since $\otimes$ distributes over $\oplus$, these make $Schur$ into a [[rig category]].  
 
-But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product $\times$ and disjoint union $+$ of finite sets.  Since $\times$ distributes over $+$, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.   The same is true for the subcategory $Schur$.  In the literature on species, the monoidal structure coming from $+$ is often called **multiplication**, while Aguiar and Mahajan call it the [Cauchy product](http://www.math.tamu.edu/~maguiar/a.pdf#page=236).  The monoidal structure coming from $\times$ has no commonly used name.
+In the literature on species, the operation $\oplus$ is often called **addition**, since adding species this way corresponds to adding their generating functions.  Aguiar and Mahajan call $\otimes$ the [Hadamard product](http://www.math.tamu.edu/~maguiar/a.pdf#page=290).  
 
-On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.   
+But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product $\times$ and disjoint union $+$ of finite sets.  Since $\times$ distributes over $+$, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.   The same is true for the subcategory $Schur$.  
+
+In the literature on species, the monoidal structure coming from $+$ is often called **multiplication**, since multiplying species in this way corresponds to multiplying their generating functions.  Aguiar and Mahajan call this monoidal structure the [Cauchy product](http://www.math.tamu.edu/~maguiar/a.pdf#page=290).  The monoidal structure coming from $\times$ has no commonly used name, but it deserves to be called the **Dirichlet product**.
+
+On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ a fifth monoidal structure: the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.   
 
 Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures.  Among other things, it is the free [[lambda-ring]] on one generator.   As we shall see, corresponds to the fact that $Schur$ is the free [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
 
