@@ -89,6 +89,8 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 ## Related concepts
 
+* [[Beilinson regulator]]
+
 * [[differential algebraic K-theory]]
 
 * [[non-connective algebraic K-theory]]
