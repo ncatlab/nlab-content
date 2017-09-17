@@ -139,9 +139,16 @@ Around the same time Golfand and Likhtman in Russia wrote down the [[super Poinc
 
 ## References
 
+Related $n$Lab entries: [[supermanifold]], [[supergravity]], [[superstring theory]]. 
+
 A decent textbook reference for the general theory is for instance
 
 * V. S. Varadarajan, _Supersymmetry for mathematicians: An introduction _ AMS (2004)
+* P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+and more of a physical approach in
+
+* I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
 An account of the history of the development of supersymmetry is in
 
