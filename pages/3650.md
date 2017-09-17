@@ -63,7 +63,7 @@ $$
   [f_!(X), A] \simeq f_* [X, f^* A]
 $$
 
-for all $X, A$. This follows by duality from the [[Frobenius reciprocity]] that characterizes $f_*$ being a [[cartesian closed functor]]:
+for all $X, A$. This follows by duality from the [[Frobenius reciprocity]] that characterizes $f_*$ as being a [[cartesian closed functor]]:
 
 by the [[Yoneda lemma]], the morphism in question is an [[isomorphism]]
 if for all objects $A,B, X$ the morphism
