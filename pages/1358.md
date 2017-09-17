@@ -87,6 +87,18 @@ As an immediate corollary, note that for a pretriangulated dg-category $A$, its 
 Let $u : A \to B$ be a functor between two dg-categories.  If $A$ and $B$ are pretriangulated then the induced functor $ho(u): ho(A) \to ho(B)$ is [[triangulated functor|triangulated]].  Further, $u$ is a [[quasi-equivalence of dg-categories|quasi-equivalence]] if and only if $ho(u)$ is a triangulated equivalence.
 =--
 
+## Applications
+
+The use of pretriangulated dg-categories as [[enhanced triangulated categories]] has been especially successful in the study of the various [[triangulated categories of sheaves]] on [[algebraic varieties]].
+
+In the below paper it is shown that the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on quasiprojective varieties and some of their cousins (like categories of perfect complexes on quasiprojective varieties) have unique dg-enhancements. [[Fernando Muro]] has developed an obstruction theory for the existance and measuring non-uniqueness of dg-enhancements in more general settings (unpublished).
+
+* [[Valery Lunts|V. A. Lunts]], [[Dmitri Orlov|D. O. Orlov]], _Uniqueness of enhancement for triangulated categories_, J. Amer. Math. Soc. __23__ (2010), 853-908, [journal](http://www.ams.org/journals/jams/2010-23-03/S0894-0347-10-00664-8/home.html), [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
+
+* [[Valery Lunts]], Olaf M. Schnuerer, _New enhancements of derived categories of coherent sheaves and applications_, 2014, [arXiv](http://arxiv.org/abs/1406.7559).
+
+Similarly, pretriangulated dg-categories have proven to give a good model for [[derived noncommutative algebraic geometry]] in the sense of [[Maxim Kontsevich]].  See there for relevant references.  In this connection see also the work of [[Goncalo Tabuada]] who has developed a theory of [[noncommutative motives]] in this framework.
+
 ## Related concepts
 
 * [[triangulated category]]
@@ -105,7 +117,7 @@ The [[model structure]] presenting pretriangulated dg-categories is discussed in
 
 * {#Tabuada07} [[Goncalo Tabuada]], _Theorie homotopique des DG-categories_, Ph.D. thesis, Universite Denis Diderot - Paris 7, [arXiv:0710.4303](http://arxiv.org/abs/0710.4303).
 
-For a clear overview of the various [[model structures on dg-categories]], see Section 2 of the paper
+For a summary of the various [[model structures on dg-categories]], see Section 2 of the paper
 
 * {#CisinskiTabuada11} [[Denis-Charles Cisinski]], [[Goncalo Tabuada]], _Non-connective K-theory via universal invariants_, Compositio Math. 147 (2011), 1281-1320, [arXiv:0903.3717](http://arxiv.org/abs/0903.3717), [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/Non-connective-K-theory.pdf).
 
