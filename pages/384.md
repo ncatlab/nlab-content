@@ -59,7 +59,7 @@ $$
   X_0 \hookrightarrow X_1 \hookrightarrow X_2 \hookrightarrow \cdots \hookrightarrow X
 $$
 
-for its [[filtered topological space]]-structure with $X_{n+1}$ the topological space obtained from $X_n$ by gluing on $(n+1)$-cells. For $n \in \matrhbb{N}$ write $nCells \in Set$ for the set of $n$-cells of $X$.
+for its [[filtered topological space]]-structure with $X_{n+1}$ the topological space obtained from $X_n$ by gluing on $(n+1)$-cells. For $n \in \mathbb{N}$ write $nCells \in Set$ for the set of $n$-cells of $X$.
 
 
 +-- {: .num_prop }
@@ -94,7 +94,7 @@ The proof is spelled out at _[Relative singular homology - Of CW complexes](rela
 With $k,n \in \mathbb{N}$ we have
 
 $$
-  (k \t n) \Rightarrow (H_k(X_n) \simeq 0)
+  (k \gt n) \Rightarrow (H_k(X_n) \simeq 0)
   \,.
 $$
 
