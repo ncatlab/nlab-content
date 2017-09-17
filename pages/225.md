@@ -53,3 +53,7 @@ As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then
 
 [[!redirects functor category]]
 [[!redirects functor categories]]
+
+[[!redirects category of functors]]
+[[!redirects categories of functors]]
+
