@@ -21,35 +21,143 @@
 
 The notions of _[[presheaf]]_, _[[site]]_ and _[[sheaf]]_ can be formulated [[internalization|internal]] to any [[topos]]. The ordinary such notions are recovered by internalization into [[Set]].
 
-More precisely, the direct internalization of these notions is into the [[universe enlargement|very large]] [[2-topos]] of the given ambient topos $\mathcal{S}$, since an internal presheaf is to be an $\mathcal{S}$-valued internal functor, but $\mathcal{S}$ does not quite sit inside itself.
+More precisely, the direct internalization of these notions is into the [[universe enlargement|very large]] [[2-topos]] $\hat Sh_2(\mathcal{S},can)$ of the given ambient topos $\mathcal{S}$, since an internal presheaf is to be an $\mathcal{S}$-valued internal functor, but $\mathcal{S}$ does not quite sit inside itself. It does, however, sit inside $\hat Sh_2(\mathcal{S},can)$, incarnated as the [[2-sheaf]] $\bar \mathcal{S}$ corresponding to its [[codomain fibration]].
 
-
+Therefore, regarding $\hat Sh_2(\mathcal{S}, can)$ as the [[2-category]] of [[internal categories]] in $\mathcal{S}$, an [[internal site]] in $\mathcal{S}$ is an object $\bar \mathbb{C}$ of $\hat Sh_2(\mathcal{S}, can)$ and an internal presheaf is a morphism $F : \bar \mathbb{C}^{op} \to \bar \mathcal{S}$.
 
 ## Definition
 
-For $\mathcal{S}$ a [[topos]] and $\mathbb{C}$ an [[internal category]] in $\mathcal{S}$, write $\bar \mathbb{C}$ for the [[2-sheaf]] on $\mathcal{S}$
+Let  $\mathcal{S}$ be a [[topos]] and let $\mathbb{C}$ be an [[internal category]] in $\mathcal{S}$:
+
+$$
+  \mathbb{C} = 
+  \left(
+    C_1 \stackrel{\overset{s}{\to}}{\underset{t}{\to}}
+    C_0
+  \right)
+  \in \mathcal{S}
+  \,.
+$$
+
++-- {: .num_defn }
+###### Definition
+
+Write $\bar \mathbb{C}$ for the [[2-sheaf]] on $\mathcal{S}$
 
 $$
   \bar \mathbb{C} : \mathcal{S}^{op} \to Cat
 $$
 
-that it represents. Moreover write 
+that is [[representable functor|represented]] by $\mathbb{C}$ . More explicitly, this the the [[pseudofunctor]] which to an [[object]] $X \in \mathcal{T}$ assigns
+
+$$
+  \bar \mathbb{C} : X 
+    \mapsto 
+  \left(
+    \mathcal{S}(X,C_1)
+    \stackrel{\overset{\mathcal{S}(X,s)}{\to}}{\underset{\mathcal{S}(X,t)}{\to}}
+    \mathcal{S}(X,C_0)
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write 
 
 $$
   \bar \mathcal{S} : \mathcal{S}^{op} \to Cat
 $$
 
-for the [[2-sheaf]] that [[Grothendieck construction|classifies]] the [[codomain fibration]] of $\mathcal{S}$.
+for the [[2-sheaf]] that [[Grothendieck construction|classifies]] the [[codomain fibration]] of $\mathcal{S}$, the [[pseudofunctor]] which sends an object to the corresponding [[slice topos]] and morphisms to [[base change]]
 
-Then an **internal presheaf** on $\mathbb{C}$ is a morphism
+$$
+  \bar \mathcal{S} : X \mapsto \mathcal{S}_{/X}
+$$
+
+(also called the "[[indexed category|self-indexing]] of $\mathcal{S}$").
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This is the incarnation of $\mathcal{S}$ itself, regard internal to its [[2-sheaf]] [[2-topos]] $\hat Sh_{2}(\mathcal{T}, can)$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+An **internal presheaf** on $\mathbb{C}$ (internal to $\mathcal{T}$) is a morphism
 
 $$
   F : \bar \mathbb{C}^{op} \to \bar \mathcal{S}
 $$
 
-of [[2-sheaves]] on $\mathcal{S}$. (An "[[indexed functor]]" between "[[indexed categories]]".)
+of [[2-sheaves]] on $\mathcal{S}$. (Also called an "[[indexed functor]]" between [[indexed categories]]".)
 
 Suppose moreover that $\mathbb{C}$ is equipped with the structure of an [[internal site]]. Then $F$ above is an **internal sheaf** on $\mathbb{C}$ if it satisfies the evident [[descent]] condition.
+
+A [[morphism]] of internal presheaves is simply a [[2-morphism]] in $\hat Sh_2(\mathcal{S}, can)$ (also called an "[[indexed functor|indexed natural transformation]]"). This yields a [[category]]
+
+$$
+  PSh(\mathbb{C})
+$$
+
+of internal presheaves. Accordingly we have the 
+[[full subcategory]]
+
+$$
+  Sh(\mathbb{C}, \mathcal{S})
+  \hookrightarrow PSh(\mathbb{C}, \mathcal{S})
+$$
+
+of internal sheaves.
+
+=--
+
+## Properties
+
+Let $\mathcal{S}$ and $\mathbb{C}$ be as above.
+
++-- {: .num_prop }
+###### Proposition
+
+The category of internal presheaves $PSh(\mathbb{C}, \mathcal{S})$ is a [[topos]].
+
+=--
+
+This appears as ([Johnstone, cor. B.2.3.17](#Johnstone)).
+
++-- {: .num_prop }
+###### Proposition
+
+Let $f : \mathbb{C} \to \mathbb{D}$ be an [[internal functor]]. Write $\bar f : \bar \mathbb{C} \to \bar \mathbb{D}$ for the corresponding morphism in $\hat Sh_2(\mathcal{S}, can)$. Precomposition with this morphism induces a [[functor]] of internal presheaf catgeories
+
+$$
+  f^* : PSh(\mathbb{D}, \mathcal{S}) 
+    \to 
+   PSh(\mathbb{C}, \mathcal{S})
+  \,.
+$$
+
+This is the [[inverse image]] of a [[geometric morphism]] of [[toposes]]
+
+$$
+  f : PSh(\mathbb{C}, \mathcal{S})
+   \to 
+  PSh(\mathbb{D}, \mathcal{S})
+  \,.
+$$
+
+=--
+
+This appears as ([Johnstone, cor. B.2.3.22](#Johnstone)).
+
 
 ## References
 
