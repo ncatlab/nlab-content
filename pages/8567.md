@@ -5,9 +5,9 @@
 
 ##Idea
 
-The notion of _geometric point_ refers to a certain kind of [[morphism]] between [[schemes]] in [[algebraic geometry]].
+The notion of _geometric point_ refers to a certain kind of [[morphism]] between [[schemes]] in [[algebraic geometry]]; that is, to a specialized sort of [[generalized element]] of a scheme.
 
-While a [[point]] in a [[topological space]], $X$,  can be thought of as a [[continuous function]] from a singleton space to $X$, in [[algebraic geometry]] the 'spaces' come with more structure as they are [[schemes]] and singletons correspond to the [[prime spectrum|spectra]] of [[fields]].
+While a [[point]] in a [[topological space]], $X$,  can be thought of as a [[continuous function]] from a singleton space to $X$, in [[algebraic geometry]] the 'spaces' come with more structure as they are [[schemes]] and singletons correspond to the [[prime spectrum|spectra]] of [[fields]].  Category-theoretically, one may think of *any* morphism into $X$ as a [[generalized element|generalized point]] of $X$, but when doing geometry it is often appropriate to restrict to a subclass of these to consider as the (less generalized) "points".
 
 ## Definition
 
