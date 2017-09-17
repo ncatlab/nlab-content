@@ -1,4 +1,8 @@
 
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -34,3 +38,4 @@ For the notion of terminal object in [[(infinity,1)-category]] theory, see [[ter
 
 
 [[!redirects terminal]]
+[[!redirects terminal objects]]
