@@ -41,7 +41,7 @@ $$
 
 for the [[(∞,1)-functor]] that assigns the $n$-th [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]].
 
-* For $n = 0$ this establishes an equivalence between the full subcategory on degree 0 Eilenberg-MacLane objects and [[pointed object]]s of $Disc(\mathbf{H})$.
+* For $n = 0$ this establishes an equivalence between the full subcategory on degree 0 Eilenberg-MacLane objects and [[pointed object]]s of $Disc(\mathbf{H})$; moreover, the restriction $\pi_0:Disc(\mathbf{H}_*)\to Disc(\mathbf{H}_*)$ is equivalent to the identity.
 
 * For $n = 1$ this establishes an equivalence between the full subcategory on degree 1 Eilenberg-MacLane objects and the category of [[group object in an (∞,1)-category|group objects]] in $Disc(\mathbf{H})$.
 
