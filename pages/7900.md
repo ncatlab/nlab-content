@@ -1,0 +1,7 @@
+Nekrasov functions are the coefficients of the character expansion of the matrix $\tau$-function. They were introduced in 
+
+* N.Nekrasov, Adv.Theor.Math.Phys. 7 (2004) 831-864, hep-th/0206161
+
+and play the central role in the formulation of the [[AGT conjecture]].
+
+[[!redirects Nekrasov functions]]
