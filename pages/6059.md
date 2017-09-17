@@ -16,7 +16,7 @@
 
 _Twisted differential K-theory_ is the [[twisted differential cohomology]] version [[K-theory]]: the combination of [[differential K-theory]] and [[twisted K-theory]].
 
-Rouhgly this is an extension of [[twisted de Rham cohomology]] by [[twisted K-theory]] via the [[twisted Chern character]] map.
+Roughly this is an extension of [[twisted de Rham cohomology]] by [[twisted K-theory]] via the [[twisted Chern character]] map.
 
 
 ## Related concepts
