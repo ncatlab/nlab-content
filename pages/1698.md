@@ -144,7 +144,7 @@ $$
 Again, all squares and all pasting squares appearing here are homtopy pullback squares. If I had labeled to two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
 
 
-### Long sequences in cohomology
+### Long exact sequences in cohomology
 
 
 Usually, when looking at fibration sequences in 1-categorical contexts of the [[homotopy category of an (∞,1)-category]], one doesn't see these long fibration squences directly, but only "in cohomology".
@@ -166,23 +166,23 @@ But the [[hom-functor]] has the crucial property that it is an [[exact functor]]
 
 $$
   \array{
-    A \times_C B &\to& B
+    A \times_K B &\to& B
     \\
     \downarrow && \downarrow
     \\
-    A &\to& C
+    A &\to& K
   }
 $$
 
-a homotopy pullback in $C$, for every $X \in C$ the induced diagram
+a homotopy pullback in $C$, for every $X \in K$ the induced diagram
 
 $$
   \array{
-    Hom_C(X,A \times_C B) &\to& Hom_C(X,B)
+    Hom_C(X,A) \times_{Hom_{C}(X,K)} Hom_C(X,B) \simeq& Hom_C(X,A \times_K B) &\to& Hom_C(X,B)
     \\
-    \downarrow && \downarrow
+    &\downarrow && \downarrow
     \\
-    Hom_C(X,A) &\to& Hom_C(X,C)
+    &Hom_C(X,A) &\to& Hom_C(X,K)
   }
 $$
 
@@ -243,6 +243,8 @@ $$
   H(X,\Omega B) \to H(X,ker(f)) \to H(X,A) \stackrel{H(X,f)}{\to} H(X,B)
   \,.
 $$
+
+
 
 ## Examples
 
