@@ -393,6 +393,8 @@ $$
      & in\;the\;model\;category &
   }
   \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
   \array{
      \vdots && \vdots
      \\
@@ -417,7 +419,7 @@ $$
   \,.
 $$
 
-#### Cech 2-cocycles
+#### Cech 2-cocycles {#Cech2Cocycles}
 
 The discussion above of $G$-principal bundles was all based on the [[Lie groupoid]]s $\mathbf{B}G$ and $\mathbf{E}G$ that are canonically induced by a [[Lie group]] $G$. We now discuss the case where $G$ is generalized to a [[Lie 2-group]]. The above discussion will go through essentially verbatim, only that we pick up [[2-morphism]]s everywhere. This is the first step towards higher Chern-Weil theory. The resulting generalization of the notion of principal bundle is that of [[principal 2-bundle]]. For historical reasons these are known in the literature often as [[gerbe]]s or as [[bundle gerbe]]s. 
 
@@ -574,7 +576,8 @@ For that we need to get the 2-groupoid $\mathbf{B} \mathbf{B}U(1)$ and the 2-fun
 
 It is easy to guess what this should be, but there is also a systematic way to derive this, which works in full generality:
 
-#### Universal principal $n$-bundles
+
+#### Universal principal $n$-bundles {#UniversalnBundle}
 
 For $G$ any group object, what the [[universal principal ∞-bundle]] is a good replacement for the point inclusion $* \to \mathbf{B}G$.
 
@@ -610,11 +613,10 @@ For $G$ an ordinary Lie group, this reproduces the groupoid $\mathbf{E}G$ discus
 
 For detailed illustration of what $\mathbf{E}G$ looks like for $G$ a [[2-group]], see ([RobertsSchreiber](#RobertsSchreiber)).
 
-#### Circle 2-bundles and bundle gerbes
 
-(...)
+#### Circle $n$-bundles and bundle $(n-1)$-gerbes
 
-We find that $\tilde P$ in the [[pullback]] diagram
+Let $g : C(U) \to \mathbf{B}^2 U(1)$ be a Cech cocycle as [above](#Cech2Cocycles). By the discussion of [universal n-bundles](#UniversalnBundle) we find the corresponding total space object as the [[pullback]] 
 
 $$
   \array{
@@ -628,11 +630,54 @@ $$
     \\
     X
   }
+  \,.
 $$
 
-is equivalent what in the literature is called a central extension of the Cech groupoid, or a [[bundle gerbe]] relative to the [[surjective submersion]] $U \to X$.
+Unwinding what this means, one see that $\tilde P$ is a groupoid which is given by a (trivial) complex [[line bundle]] 
 
-(...)
+$$
+  \array{
+     L
+     \\
+     \downarrow
+     \\
+     C(U)_1 = U \times_X U &\stackrel{\to}{\to}& C(U)_1 = U
+     \\
+     && \downarrow
+     \\
+     && X
+  }
+$$
+
+over the space $C(U)_1$ of [[morphism]]s, and where composition is encoded by a line bundle morphism
+
+$$
+
+  \mu_g : \pi_1^* L \otimes \pi_2^* L \to \pi_1^* L
+$$
+
+canonically induced from $g$. The cocycle condition satisfied by $g$ implies that this composition operation is associative in the evident sense
+
+Such a structzre is called a [[bundle gerbe]] relative to the [[surjective submersion]] $U \to X$. We see that this is the total space of a $\mathbf{B}U(1)$-[[principal 2-bundle]] in a weakly equivalent incarnation akin to the presentation $(\coprod_i U_i \times G)/_{(g_{i j})}$ of an ordinary principal bundle in terms of a cocycle.
+
+This is the beginning of a pattern. Next we can form one more [[delooping]] and produce the Lie 3-groupoid $\mathbf{B}^3 U(1)$. A cocycle $C(U) \to \mathbf{B}^3 U(1)$ classifies a _circle 3-bundle_  . The total space object $\tilde P$ in the pullback
+
+$$
+  \array{
+    \tilde P &\to& \mathbf{E}\mathbf{B}^2 U(1)
+    \\
+    \downarrow && \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}^3 U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+is essentially what is known as a [[bundle 2-gerbe]].
+
 
 
 
@@ -640,8 +685,15 @@ is equivalent what in the literature is called a central extension of the Cech g
 
 (...)
 
-[[string Lie 2-group]]
+Above we saw $\mathbf{B}U(1)$-[[principal 2-bundle]]s. The groupoid $\mathbf{B}U(1)$ is a special case of what is called a [[Lie 2-group]], which is a [[group object]] $G$ in Lie groupoids. 
 
+An example of a nonabelian Lie 2-group is the [[string Lie 2-group]] $String$. A quick way to udnerstand the meaning of this 2-group is from the fact that:
+
+**Fact** Given a [[spin-group]]-[[principal bundle]] $P \to X$, its [[Pontryagin class]] classifies a _circle 3-bundle_  (a [[bundle 2-gerbe]]) called the [[Chern-Simons circle 3-bundle]]. The nontriviality of this is precisely the obstruction to liftin $P$ to a a $String$-principal 2-bundle.
+
+
+Again, we can construct Lie 2-groupoids equivalent to the total space of a $String$-principal 2-bundle classified by a cocycle $g : C(U) \to \mathbf{B}String$ by forming the pullback.
+ 
 $$
   \array{
     \tilde P &\to& \mathbf{E}String
@@ -656,13 +708,12 @@ $$
   }
 $$
 
-
-(...)
+These groupoids $\tilde P$ are in the literature known as [[nonabelian bundle gerbe]].
 
 
 #### A model for principal $\infty$-bundles
 
-We have seen that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoids]] and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
+We have seen that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoid]]s and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
 
 A comprehensive discussion of such [[∞-Lie groupoid]]s is given at [[∞-Lie groupoid|that link]]. In this introduction here we will just briefly describe the main _tool_ to model these and describe principal $\infty$-bundles in this model.
 
@@ -694,11 +745,11 @@ A comprehensive discussion of such [[∞-Lie groupoid]]s is given at [[∞-Lie g
     }
   $$
 
-* [[homtopy pullback]]
+* [[homotopy pullback]]
 
   $$
     \array{ 
-      \tilde P && \mathbf{E}G &\to& *
+      \tilde P &\to& \mathbf{E}G &\to& *
       \\
       \downarrow && \downarrow && \downarrow
       \\
@@ -713,6 +764,8 @@ A comprehensive discussion of such [[∞-Lie groupoid]]s is given at [[∞-Lie g
       X
     }
   $$
+
+
 
 $$
   \array{
@@ -738,6 +791,8 @@ $$
      \\
      & in\;the\;model\;category &
   }
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
   \;\;\;\;\;\;\;
   \array{
      \vdots && \vdots
