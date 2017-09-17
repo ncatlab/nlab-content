@@ -1,0 +1,64 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn #AlmostConnected}
+###### Definition
+
+A [[locally compact topological space|locally compact]] [[topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the [[quotient]] [[topological space]] $G/G_0$ (of $G$ by the [[connected component]] of the neutral element) is  [[compact topological space|compact]].
+
+=--
+
+See for instance ([Hofmann-Morris, def. 4.24](#HofmannMorris)).
+
++-- {: .num_defn }
+###### Example
+
+Every [[compact topological space|compact]] and every [[connected topological space|connected]] [[topological group]] is almost connected.
+
+Also every [[quotient]] of an almost connected group is almost connected.
+
+=--
+
+## Related concepts
+
+* [[connected topological space]]
+
+* [[maximal compact subgroup]]
+
+## References
+
+Textbooks with relevant material include
+
+* M. Stroppel, _Locally compact groups_, European Math. Soc., (2006)
+  {#Stroppel}
+
+* Karl Hofmann Sidney Morris, _The Lie theory of connected pro-Lie groups_, Tracts in Mathematics 2, European Mathematical Society,  (2000)
+ {#HofmannMorris}
+
+Original articles include
+
+* Chabert, Echterhoff, Nest, _The Connes-Kasparov conjecture for almost connected groups and for linear $p$-adic groups_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_2003__97_/PMIHES_2003__97__239_0/PMIHES_2003__97__239_0.pdf))
+
+[[!redirects almost connected group]]
+
+[[!redirects almost connected topological groups]]
+[[!redirects almost connected groups]]
