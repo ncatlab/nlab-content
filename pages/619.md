@@ -192,6 +192,7 @@ A reflective subcategory is always closed under [[limit|limits]] which exist in 
 A morphism in a reflective subcategory is monic iff it is monic in the ambient category. A reflective subcategory of a well-powered category is well-powered. 
 
 ### As Eilenberg-Moore category of the idempotent monad
+ {#AsEilenbergMooreCategory}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -200,8 +201,7 @@ Any reflective subcategory is recovered as the [[Eilenberg-Moore category]] of [
 
 =--
 
-For instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)).
-
+See for instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)) and see at _[idempotent monad -- Properties -- Algebras for an idempotent monad and localization](idempotent+monad#AlgebrasForAnIdempotentMonad)_.
 
 ### Reflective subcategories of locally presentable categories
 
