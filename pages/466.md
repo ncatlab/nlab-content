@@ -69,7 +69,7 @@ The Yoneda lemma asserts that the set of morphisms from the [[presheaf]] [[repre
 
 Formally:
 
-+-- {: .un_prop}
++-- {: .un_prop} 
 ###### Proposition
 
 There is a canonical [[isomorphism]]
@@ -98,8 +98,17 @@ to emphasize that the morphisms of presheaves are [[natural transformation]]s of
 
 
 
++-- {: .proof} 
+###### Proof 
+The proof is by chasing the element $Id_c \in C(c, c)$ around both legs of a naturality square for a transformation $\eta: C(-, c) \to X$: 
 
-### Proof {#Proof}
+$$\array{
+C(c, c) & \stackrel{\eta_c}{\to} & X(c) & & & & Id_c & \mapsto & \eta_c(Id_c) & \stackrel{def}{=} & \xi \\ 
+ _\mathllap{C(f, c)} \downarrow & & \downarrow _\mathrlap{X(f)} & & & & \downarrow & & \downarrow _\mathrlap{X(f)} & & \\ 
+C(b, c) & \underset{\eta_b}{\to} & X(b) & & & & f & \mapsto & \eta_b(f) & & 
+}$$ 
+
+What this diagram shows is that the entire transformation $\eta: C(-, c) \to X$ is completely determined from the single value $\xi \coloneqq \eta_c(Id_c) \in X(c)$, because for each object $b$ of $C$, the component $\eta_b: C(b, c) \to X(b)$ must take an element $f \in C(b, c)$ (i.e., a morphism $f: b \to c$) to $X(f)(\xi)$, according to the commutativity of this diagram. 
 
 The crucial point is that the naturality condition on any [[natural transformation]] $\eta : C(-,c) \Rightarrow X$ is sufficient to ensure that $\eta$ is already entirely fixed by the value $\eta_c(Id_c) \in X(c)$ of its component $\eta_c : C(c,c) \to X(c)$ on the [[identity morphism]] $Id_c$.
 And every such value extends to a natural transformation $\eta$.
@@ -123,7 +132,7 @@ $$
   \,.
 $$
 
-
+=-- 
 
 
 ### Remarks
