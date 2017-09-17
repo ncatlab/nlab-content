@@ -362,3 +362,6 @@ and for [[higher dimensional Chern-Simons theory]] in
 * G.Giachetta, L.Mangiarotti, G.Sardanashvily, _Noether conservation laws in higher-dimensional Chern-Simons theory_, Mod. Phys. Lett. A18 (2003) 2645-2651 ([arXiv:math-ph/0310067](http://arxiv.org/abs/math-ph/0310067))
 
 [[!redirects Noether theorem]]
+
+[[!redirects symplectic Noether theorem]]
+[[!redirects symplectic Noether theorems]]
