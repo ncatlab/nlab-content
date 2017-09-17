@@ -23,6 +23,10 @@ The _Penrose-Hawking singularity theorems_ characterize [[spacetimes]] in the th
 
 [Hellman](#Hellman) suggest this theorem as an example of non[[computable physics]]. See [Frank](#Frank) for a response.
 
+## Related concepts
+
+* [[cosmic censorship hypothesis]]
+
 ## References
 
 * [[Stephen Hawking]], [[Roger Penrose]], _The Nature of Space and Time_ Princeton: Princeton University Press. ISBN 0-691-03791-4. (1996)
