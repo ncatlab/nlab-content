@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[spectral sequence]] used to compute the first page of the [[Adams spectral sequemce]].
+A [[spectral sequence]] used to compute the first page of the [[Adams spectral sequence]].
 
 ## References
 
