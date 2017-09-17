@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -9,10 +19,17 @@ In middle and high schools, analytic geometry refers to elementary methods in th
 
 In research mathematics, when one says analytic geometry, analytic refers to [[analytic function]]s in the sense of Taylor expansion and by __analytic geometry__ one usually means the study of geometry of complex (holomorphic) [[manifold]]s, their analytic subsets, [[Stein domain]]s and related notions. Similarly to an [[algebraic variety]], an [[analytic variety]] is locally given as a locus of a set of zeros of a finite family of holomorphic functions. A short survey can be found in a chapter of Dieudonne's _Panorama of pure mathematics_. 
 
-In addition to analytic geometry over complex numbers, there is also another formalism which allows for nonarchimedean ground fields. This is the subject of [[rigid analytic geometry]]. Similarly to [[scheme]]s, rigid analytic varieties are glued from [[Bercovich spectrum|Bercovich spectra]] of certain commutative Banach algebras, so-called [[affinoid]]s, in a certain [[Grothendieck topology]]. There are several variants of the formalism (e.g. due Huber). The subject is closely related to [[formal geometry]] and has its main applications in [[arithmetic geometry]] and [[representation theory]]. It is an open problem to find an appropriate analogue of rigid analytic geometry in [[noncommutative geometry]], which is supposed to play an important role in mirror symmetry.
+In addition to analytic geometry over complex numbers, there is also another formalism which allows for [[archimedean field|nonarchimedean]] ground fields. This is the subject of [[rigid analytic geometry]]. Similarly to [[scheme]]s, rigid analytic varieties are glued from [[Bercovich spectrum|Bercovich spectra]] of certain commutative Banach algebras, so-called [[affinoid]]s, in a certain [[Grothendieck topology]]. (See _[[analytic space]]_.) There are several variants of the formalism (e.g. due Huber). The subject is closely related to [[formal geometry]] and has its main applications in [[arithmetic geometry]] and [[representation theory]]. 
 
-## holomorphic functions of several complex variables
-This paragraph is about certain aspects of holomorphic functions $\mathbb{C}^n \to \mathbb{C}$ that are of relevance to the nLab. Right now we will concentrate on aspects that are important in the understanding of [[AQFT]], like a version of the [edge-of-the-wedge] (http://en.wikipedia.org/wiki/Edge-of-the-wedge_theorem) theorem.
+It is an open problem to find an appropriate analogue of rigid analytic geometry in [[noncommutative geometry]], which is supposed to play an important role in 
+[[mirror symmetry]].
+
+## Holomorphic functions of several complex variables
+
+This section is about certain aspects of 
+[[holomorphic functions]] $\mathbb{C}^n \to \mathbb{C}$.
+
+Currently it concentrates on aspects of relevance in the application to [[AQFT]], such as a version of the [edge-of-the-wedge] (http://en.wikipedia.org/wiki/Edge-of-the-wedge_theorem) theorem.
 
 From the viewpoint of complex [[manifold]]s this is the _local_ theory that describes the situation in coordinate patches.
 
@@ -21,7 +38,10 @@ From the viewpoint of complex [[manifold]]s this is the _local_ theory that desc
 When we talk about holomorphic functions in the following and do not specify the domain, we will always assume that the domain is an open, simply connected subset of $\mathbb{C}^n$.
 
 ### relevance to quantum field theory (QFT)
-In the [[AQFT]] formalism (actually the following description is the Heisenberg picture of quantum mechanics in a nutshell) selfadjoint operators A on a Hilbert space $\mathcal{H}$ are the observables of a physical system, while normed vectors $x, y \in \mathcal{H}$ represent the states the system can be in. The real number $\langle y, Ax \rangle$ represents the probability that a system starting in state x will be in state y after a measurement of A. In [[AQFT]] we often encounter a set of operators indexed by several complex variables $z = (z_1, z_2, ...)$ and try to deduce properties of the theory from the function $f(z) := \langle y, A(z)x \rangle$. In this way, the theory of holomorphic functions of several variables is promoted to an irreplaceable tool in quantum field theory.   
+
+In the [[AQFT]] formulation (actually the following description is the [[Heisenberg picture]] of quantum mechanics in a nutshell) [[selfadjoint operator]]s $A$ on a [[Hilbert space]] $\mathcal{H}$ are the [[observables]] of a physical system, while normed vectors $x, y \in \mathcal{H}$ represent the [[states]] the system can be in. The [[real number]] $\langle y, A x \rangle$ represents the [[probability]] that a system starting in state $x$ will be in state $y$ after a [[measurement]] of $A$. 
+
+In [[AQFT]] we often encounter a set of operators indexed by several complex variables $z = (z_1, z_2, ...)$ and try to deduce properties of the theory from the function $f(z) := \langle y, A(z)x \rangle$. In this way, the theory of [[holomorphic functions]] of several variables is promoted to an irreplaceable tool in quantum field theory.   
 
 ### Hartogs' theorem
 
