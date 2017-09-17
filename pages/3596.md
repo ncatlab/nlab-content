@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -54,11 +66,15 @@ There is a way to understand identity types as [[path object]]s that serve to pr
 
 ...
 
-References:
+## Related concepts
+
+[[!include notions of type]]
+
+## References
 
 * [[Benno van den Berg]], [[Richard Garner]], *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
 
-* [[Peter Lumsdaine]], *Weak $\omega$-categories from intensional type theory*, [arXiv:0812.0409](http://arxiv.org/abs/0812.0409)
+* [[Peter LeFanu Lumsdaine]], _Weak $\omega$-categories from intensional type theory_ , ([arXiv:0812.0409](http://arxiv.org/abs/0812.0409))
 
 
 [[!redirects identity types]]
