@@ -132,7 +132,7 @@ which implies that the generated von Neumann algebras coincide, too, of course.
 
 * **Theorem (uniqueness of vacuum)**: Every factorial vacuum representation is irreducible. A vacuum representation is irreducible iff it has an unique vacuum vector.
 
-* **Reeh-Schlieder Theorem**: The vacuum vector is cyclic and separating for all local algebras.
+* **[[Reeh-Schlieder Theorem]]**: The vacuum vector is cyclic and separating for all local algebras.
 
 Let $x, y \in \R^4$ and define $[x, y] := \{\lambda x + \mu y | \lambda, \mu \geqq 0, \lambda + \mu = 1\} $.
 Define
