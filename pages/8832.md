@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _[[manifold]]_ is usually by default assumed to have an underlying [[topological space]] which is a [[Hausdorff topological space]]. If that condition is explicitly dropped, one accordingly speaks of a _non-Hausdorff manifold_.
+
+
+
+## References
+
+* Mathieu Baillif, Alexandre Gabard, _Manifolds: Hausdorffness versus homogeneity_ ([arXiv:0609098](http://arxiv.org/abs/math.GN/0609098))
+
+* Steven L. Kent, Roy A. Mimna, and Jamal K. Tartir, _A Note on Topological Properties of  Non-Hausdorff Manifolds_, ([web](http://www.hindawi.com/journals/ijmms/2009/891785/))
+
+[[!redirects non-Hausdorff manifolds]]
