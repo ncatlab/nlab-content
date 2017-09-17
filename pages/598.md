@@ -130,7 +130,7 @@ form a [[fiber sequence]] in [[sSet]].
 +-- {: .proof}
 ###### Proof
 
-One checks that for $X$ any simplicial set and $G$ a simplicial group acting on it, the [[quotient]] map
+One checks that for $X$ any simplicial set and $G$ a simplicial group acting freely on it, the [[quotient]] map
 
 $$
   X \to X/G
