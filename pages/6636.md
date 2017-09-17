@@ -2,13 +2,12 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Topos Theory
+#### Higher category theory
 +--{: .hide}
-[[!include (infinity,1)-topos - contents]]
+[[!include higher category theory - contents]]
 =--
 =--
 =--
-
 
 #Contents#
 * table of contents
