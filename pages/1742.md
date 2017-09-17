@@ -36,6 +36,7 @@ are identities.
 
 
 ### As diagrams
+ {#AsDiagrams}
 
 $$ 
   R\epsilon . \eta R = 1_R
