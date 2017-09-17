@@ -13,15 +13,7 @@
 =--
 =--
 
-* [[(0,1)-topos]]
 
-* [[topos]]
-
-* [[2-topos]]
-
-* **$(\infty,1)$-topos**
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -31,46 +23,16 @@
 
 Recall the following familiar 1-categorical statement:
 
-* Working in the 1-[[category]] 
-[[Set]]
-of [[0-category|0-categories]] is the same as 
-doing [[set theory]]. The point of 
-[[Categories and Sheaves|categories and sheaves]]
-is to pass to _parameterized_ 
-[[0-category|0-categories]], namely 
-[[presheaf]] categories: these [[topos|topoi]]
-behave much like the category [[Set]]
-but their objects are generalized 
-[[space and quantity|spaces]] that may carry 
-more structure, for instance they may
-be [[generalized smooth space]]s if one considers
-(pre)[[sheaf|sheaves]] on [[Diff]].
+* Working in the 1-[[category]] [[Set]] of [[0-category|0-categories]] is the same as  doing [[set theory]]. The point of [[sheaf topos|sheaf]] [[toposes]] is to pass to _parameterized_  [[0-category|0-categories]], namely  [[presheaf]] categories: these [[topos|topoi]] behave much like the category [[Set]] but their objects are generalized  [[spaces]] that may carry 
+more structure, for instance they may be [[generalized smooth space]]s if one considers (pre)[[sheaf|sheaves]] on [[Diff]].
 
-One can think of 
-$(\infty,1)$-topoi as
-the generalization of the above situation
-from $1$ to $(\infty,1)$ 
-(recall the notion of [[(n,r)-category]] and see the general discussion at [[∞-topos]]):
+One can think of $(\infty,1)$-toposes as the generalization of the above situation from $1$ to $(\infty,1)$  (recall the notion of [[(n,r)-category]] and see the general discussion at [[∞-topos]]):
 
-* Working in the [[(∞,1)-category]] 
-[[∞Grpd]]
-of [[infinity-groupoid|(∞,0)-categories]] 
-is the same as 
-doing [[topology]]. The point of 
-[[∞-stacks]]
-is to pass to _parameterized_ [[infinity-groupoid|(∞,0)-categories]], 
-namely 
-[[(∞,1)-presheaf]] categories: 
-these [[(∞,1)-topoi]]
-behave much like the $(\infty,1)$-category 
-[[∞Grpd]]
-but their objects are generalized 
-[[space and quantity|spaces]] 
-with higher [[homotopies]]
-that may carry 
-more structure, for instance they may
-be $\infty$-[[differentiable stacks]] if one considers
-[[∞-stacks]] on [[Diff]].
+* Working in the [[(∞,1)-category]] [[∞Grpd]] of [[infinity-groupoid|(∞,0)-categories]] is the same as  doing [[homotopy theory]]. The point of 
+[[(∞,1)-sheaves]] is to pass to _parameterized_ [[infinity-groupoid (∞,0)-categories]], namely  [[(∞,1)-presheaf]] categories: 
+these [[(∞,1)-topoi]] behave much like the $(\infty,1)$-category 
+[[∞Grpd]] but their objects are generalized  [[spaces]]  with higher [[homotopies]] that may carry  more structure, for instance they may
+be [[∞-Lie groupoid]]s if one considers [[(∞,1)-sheaves]] on [[CartSp]].
 
 ## Definition {#Definition}
 
@@ -109,6 +71,12 @@ an [[(∞,1)-topos]] is
 * with [[universal colimits]]
 
 * and with [[object classifier]]s.
+
+### Morphism
+
+A [[morphism]] between $(\infty,1)$-toposes is an [[(∞,1)-geometric morphism]].
+
+The [[(∞,1)-category]] of all $(\infty,1)$-topos is [[(∞,1)Toposes]].
 
 ## Types of $(\infty,1)$-toposes
 
@@ -149,101 +117,6 @@ This is [[Higher Topos Theory|HTT, prop. 6.3.5.1]].
 The $(\infty,1)$-topos $\mathbf{H}_{/X}$ could be called the [[gros topos]] of $X$. A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors as $\mathbf{K} \to \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ is called an [[etale geometric morphism]].
 
 
-## $(\infty,1)$-Category of $(\infty,1)$-toposes {#ToposesCat}
-
-The subcatergory of the [[(∞,1)-category of (∞,1)-categories]] on $(\infty,1)$-toposes and [[geometric morphism]]s between them is the _$(\infty,1)$-category of $(\infty,1)$-toposes_ .
-
-### Definition
-
-+-- {: .un_def}
-###### Defintion
-**(geometric morphism)**
-
-For $\mathbf{H}$, $\mathbf{K}$ two $(\infty,1)$-toposes, an [[(∞,1)-functor]]
-
-$$
-  f_* : \mathbf{H} \to \mathbf{K}
-$$
-
-is called a **[[geometric morphisms]]** if it is the [[right adjoint]] of a pair of [[adjoint (∞,1)-functor]]s $(f^* \dashv f*)$ such that the [[left adjoint]] $f^*$ preserves finite [[(∞,1)-limit]]s (is a left [[exact functor]]).
-
-Write
-
-$$
-  (\infty,1)Topos \subset \widehat{(\infty,1)Cat}
-$$
-
-for the [[sub-(∞,1)-category]] of tje [[(∞,1)-category of (∞,1)-categories]] on $(\infty,1)$-toposes and geometric morphisms.
-
-=--
-
-### Properties
-
-
-+-- {: .un_prop}
-###### Proposition
-
-The $(\infty,1)$-category $(\infty,1)Topos$ has all small $(\infty,1)$-colimits and the inclusion
-
-$$
-  (\infty,1)Topos \hookrightarrow (\infty,1)Cat
-$$
-
-preserves these.
-
-=--
-
-This is [[Higher Topos Theory|HTT, prop. 6.3.2.3]].
-
-
-+-- {: .un_prop}
-###### Propoisition
-
-The $(\infty,1)$-category $(\infty,1)Topos$ has all small $(\infty,1)$-colimits and the inclusion
-
-$$
-  (\infty,1)Topos^{op} \hookrightarrow (\infty,1)Cat
-$$
-
-sends limits to limits.
-
-=--
-
-
-+-- {: .un_prop}
-###### Propoisition
-
-The $(\infty,1)$-category $(\infty,1)Topos$ has [[filtered (infinity,1)-category|filtered]] $(\infty,1)$-limits and the inclusion
-
-$$
-  (\infty,1)Topos \hookrightarrow (\infty,1)Cat
-$$
-
-preserves these.
-
-=--
-
-This is [[Higher Topos Theory|HTT, prop. 6.3.3.1]].
-
-+-- {: .un_prop}
-###### Propoisition
-
-The $(\infty,1)$-category $(\infty,1)Topos$ has all small [[(∞,1)-limit]]s.
-
-
-=--
-
-This is [[Higher Topos Theory|HTT, prop. 6.3.4.7]].
-
-+-- {: .un_remark}
-###### Remark
-
-The $(\infty,1)$-limits in $(\infty,1)Topos$ coincide actually with the proper $(\infty,2)$-limits.
-
-=--
-
-This is [[Higher Topos Theory|HTT, remark 6.3.4.10]].
-
 
 
 ## $(\infty,1)$-Topos theory {#ToposTheory}
@@ -277,6 +150,17 @@ There are some indications as to what the
 * [[internal logic of an (∞,1)-topos]]
 
 should be.
+
+
+## Related concepts
+
+* [[(0,1)-topos]]
+
+* [[topos]]
+
+* [[2-topos]]
+
+* **$(\infty,1)$-topos**
 
 
 
