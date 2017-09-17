@@ -81,7 +81,7 @@ This is part of ([SchwedeShipley, theorem 4.1](#SchwedeShipley)).
 +-- {: .un_prop}
 ###### Proposition
 
-Monoidal model categories thatt satisfy the monoid axiom (as well as the other conditions sufficient for the [above theorem](ExistenceOfModelstructureOnMonoids) on the existence of transferred model structures on categories of monoids) include
+Monoidal model categories thatt satisfy the monoid axiom (as well as the other conditions sufficient for the [above theorem](#ExistenceOfModelstructureOnMonoids) on the existence of transferred model structures on categories of monoids) include
 
 * the standard [[model structure on simplicial sets]];
 
