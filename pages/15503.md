@@ -1,2 +1,2 @@
-Envoyer cette par Forums . DesseAccouchements.
- <a href="http://www.kwigwater.com/watchoutletjp.asp?cheap=products-c60.html" title="cabane de zucca">cabane de zucca</a>
+For more on the Gallet Clamshell series of watches, click here. Second, they may have been the first chronograph to include a rotating bezel. Third, they were the first to combine the capability to tell time in cities around the world with a chronograph complication..
+ <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/01129.html" title="Michael Kors">Michael Kors</a>
