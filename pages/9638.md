@@ -99,6 +99,8 @@ Discussion of aspects of quantum computing in terms of [[monad (in computer scie
 
 * [[Michael Freedman]], Michael Larsen, [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_ ([arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108))
 
+* [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_, Annals Phys. 303 (2003) 2-30 ([arXiv:quant-ph/9707021](http://arxiv.org/abs/quant-ph/9707021))
+
 category: computer science, physics
 
 [[!redirects quantum computing]]
