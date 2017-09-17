@@ -21,7 +21,7 @@
 
 A dual space is a [[dual in a closed category]] of [[vector spaces]] (or similar [[algebraic structures]]).
 
-Of course, this is a very restricted notion of [[space]]; but for spaces in a [[geometry|geometric]] sense, one usually uses the [[duality between space and quantity]] and speaks of the [[spectrum]] (not 'dual space') of an [[algebra]].  (That said, dual vector spaces have applications in geometry.)
+Of course, this is a very restricted notion of [[space]]; but for spaces in [[geometry]], one usually uses the [[duality between space and quantity]] and speaks of the [[spectrum]] (not 'dual space') of an [[algebra]].  In [[homotopy theory]], there are also [[Spanier-Whitehead dual]]s; and there are other notions of dual space in [[physics]].
 
 
 ## Definitions
