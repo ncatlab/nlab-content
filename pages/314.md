@@ -384,12 +384,13 @@ For more details see [[limit in quasi-categories]].
 
 ## Types of shapes of limit cones ##
 
-Here are some important examples of limits, classified by the shape of the diagram:
+Here are some important examples of limits, classified by the shape of the [[diagram]]:
 
 * A limit of the [[empty set|empty diagram]] is a [[terminal object]].
 * A limit of a diagram consisting of two (or more) objects and no nontrivial morphisms is their [[product]].
 * A limit of a [[cospan]] is a [[pullback]].
 * A limit of a pair (or more) of [[parallel morphisms]] is an [[equalizer]].
+* A limit over a [[finite category]] is a [[finite limit]].
 * Another important "shape" of limits are those that give rise to [[end]]s.
 
 ##Properties#
