@@ -47,5 +47,11 @@ Shuffles control the combinatorics of [[product]]s of [[simplices]]. See [[produ
 
 Related to the product of simplices: shuffles control the [[Eilenberg-Zilber map]]. See there for details.
 
+###Differential graded coalgebras
+
+Shuffles are used in defining the pre-cgc structure on $\bigwedge V$ in the theory of [[differential graded coalgebras]]
+
+###Differential graded Hopf algebras
+Shuffles are also used for defining the shuffle product on $T(V)$, see [[differential graded Hopf algebra]].
 
 [[!redirects shuffles]]
