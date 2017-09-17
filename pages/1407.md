@@ -35,11 +35,11 @@
 
 _Perturbative string theory_ is something at least close to a [[vertical categorification|categorification]] of the following description of _perturbative quantum field theory_ in terms of sums over Feynman diagrams.
 
-Recall that in [[quantum field theory]] one approach to make sense of the [[path integral]] is the _perturbation series expansion_,  which interprets the path integral as a certain sum over graphs of certain numbers assigned to each graph.
+Recall that in [[quantum field theory]] one approach to make sense of the [[path integral]] is the _[[perturbation series]] expansion_,  which interprets the path integral as a certain sum over [[graphs]] of certain numbers assigned to each graph.
 
-The graphs are called _Feynman graphs_, the numbers assigned to them are called _([[renormalization|renormalized]]) amplitudes_ and the sum over graphs of (renormalized) amplitudes is the _perturbation series_.
+The graphs are called _[[Feynman diagrams]]_, the numbers assigned to them are called _([[renormalization|renormalized]]) amplitudes_ and the sum over graphs of (renormalized) amplitudes is the _perturbation series_.
 
-The amplitude assigned to a single graph with $n$ external edges is interpreted as the amplitude for $n$ "quanta" or "particles" of the fields in question to interact in the way indicated by the graph. 
+The amplitude assigned to a single graph with $n$ external edges is interpreted as the amplitude for $n$ "quanta" or "[[particles]]" of the [[field (physics)|fields]] in question to interact in the way indicated by the graph. 
 
 Crucial for the motivation of the idea of string theory is the observation that this (renormalized) amplitude assigned to a graph is itself the _correlator_ of a 1-dimensional quantum field theory on that graph: the "worldline quantum field theory" describing the (relativistic) quantum mechanics of these particles. This is usually a [[sigma-model]] with parameter space the given graph and target space the spacetime on which the fields live for which the perturbation series computes the path integral.
 
