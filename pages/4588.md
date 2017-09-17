@@ -102,19 +102,28 @@ Try[[Rod McGuire|$Set_*$]] here.
 
 Try using A tag with markdown=1: <a markdown='1' href="/nlab/show/Rod+McGuire">$Set_*$</a>. OK?
 
+NEW FORMAT
 
 <div class='DBE' markdown='1'
  id='%7B%22id%22%3A%22NEWone%22%2C%22type%22%3A%22Category%22%2C%22page%22%3A%22%5B%5BRod%20McGuire%5D%5D%22%7D'
- json='{"id":"NEWone","type":"Category","page":"[[Rod McGuire]]"}'>
-<table markdown="1"><tr><td>id</td><td>NEWone</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
+ json='{"id":"NEWone","type":"Category","page":"[[Rod McGuire]]"}'><table markdown="1"><tr><td>id</td><td>NEWone</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
  <span class='DBE'/>
 </div>
 
+EXAMPLE test1
+
 <div class='DBE' markdown='1'
- id='%7B%22id%22%3A%22NEWtwo%22%2C%22type%22%3A%22Category%22%2C%22page%22%3A%22%5B%5BRod%20McGuire%5D%5D%22%7D'
- json='{"id":"NEWtwo","type":"Category","page":"[[Rod McGuire]]"}'>
-<table markdown="1"><tr><td>id</td><td>NEWtwo</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
+ id='%7B%22id%22%3A%22test1%22%2C%22a%22%3A%22w%22%2C%22b%22%3A%7B%22c%22%3A%7B%22d%22%3A%22x%22%2C%22e%22%3A%22y%22%7D%2C%22f%22%3A%22z%22%7D%7D'
+ json='{"id":"test1","a":"w","b":{"c":{"d":"x","e":"y"},"f":"z"}}'><table markdown="1"><tr><td>id</td><td>test1</td></tr><tr><td>a</td><td>w</td></tr><tr><td>b</td><td><table markdown="1"><tr><td>c</td><td><table markdown="1"><tr><td>d</td><td>x</td></tr><tr><td>e</td><td>y</td></tr></table>
+ </td></tr><tr><td>f</td><td>z</td></tr></table>
+ </td></tr></table>
  <span class='DBE'/>
 </div>
+
+The table inside EXAMPLE test1:
+
+<table markdown="1"><tr><td>id</td><td>test1</td></tr><tr><td>a</td><td>w</td></tr><tr><td>b</td><td><table markdown="1"><tr><td>c</td><td><table markdown="1"><tr><td>d</td><td>x</td></tr><tr><td>e</td><td>y</td></tr></table>
+ </td></tr><tr><td>f</td><td>z</td></tr></table>
+ </td></tr></table>
 
 category: people
