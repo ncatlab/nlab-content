@@ -5,7 +5,7 @@
 
 #Idea#
 
-An **algebraic stack** is essentially a [[geometric stack]] on [[Cring]]${}^op$: it denotes either a [[Deligne-Mumford stack]] or a more general [[Artin stack]] in the traditional setup of [[algebraic space]]s: they are (Grothendieck) $1$-[[stack|stacks]] of [[groupoids]] on the [[etale topology|étale site]] satisfying additional representability conditions.  
+An **algebraic stack** is essentially a [[geometric stack]] on [[commutative ring|CommRing]]${}^op$: it denotes either a [[Deligne-Mumford stack]] or a more general [[Artin stack]] in the traditional setup of [[algebraic space]]s: they are (Grothendieck) $1$-[[stack|stacks]] of [[groupoids]] on the [[etale topology|étale site]] satisfying additional representability conditions.  
 
 #Definition#
 
@@ -46,7 +46,11 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 
 #References#
 
-For the topological variant, see [[topological stack]]s and references therein; and for differentiable stacks 
+An introduction to algebraic stacks is being written online in a collaborative project here:
+
+* [The Stacks Project](http://www.math.columbia.edu/algebraic_geometry/stacks-git/)
+
+For the topological variant, see [[topological stack]] and references therein; and for differentiable stacks 
 
 * Kai Behrend, Ping Xu, [Differentiable Stacks and Gerbes](http://front.math.ucdavis.edu/0605.5694)
 
