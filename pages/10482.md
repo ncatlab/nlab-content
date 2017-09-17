@@ -17,14 +17,58 @@
 
 Discussion of [[superalgebra]] and [[supergeometry]] involves, by definition, crucial minus signs appearing in certain expressions. While there is a systematic rule for these, when superalgebra/supergeometry is combined with other topics that crucially involve their own signs, such as [[homological algebra]], or ordering of terms, such as in [[noncommutative algebra]], then the combined sign rule may appear intricate. This page here is meant to explicitly list some common expressions with their signs, for easy reference. We follow the article ([Deligne-Freed 99](#DeligneFreed99)) which has the same goal.
 
-## Topics
+The main point to notice is that for algebraic terms that have both a [[homological algebra|homological degree]] $n \in \mathbb{Z}$ and a super-degree $\sigma \in \mathbb{Z}_2$ the "internalization sign rule" for the sign when exchanging two such elements is
+
+$$
+  \left(
+    \left(
+      n_1, \sigma_1
+    \right)
+    ,
+    \left(
+      n_2, \sigma_2
+    \right)
+  \right)
+   \;\mapsto\;
+   (-1)^{n_1 n_2 + \sigma_2 \sigma_2}
+   \,.
+$$
+
+This we discuss below at _[The sign rule from internalization](#TheSignRuleFromInternalization)_.
+
+Parts of the literature however adops another sign rule, given by
+
+$$
+  \left(
+    \left(
+      n_1, \sigma_1
+    \right)
+    ,
+    \left(
+      n_2, \sigma_2
+    \right)
+  \right)
+   \;\mapsto\;
+   (-1)^{(n_1 + \sigma_1)(n_2 + \sigma_2)}
+   \,.
+$$
+
+This we discuss below in _[The super odd sign rule](#SuperOddConvention)_.
+
+
+## The sign rule from internalization
+ {#TheSignRuleFromInternalization}
+
+Here and in the following we adopt the perpective that [[homological algebra]] in [[superalgebra]] is concerned with the study of [[chain complexes]] [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]] or equivalently internal to the [[topos]] over [[superpoints]] (see at [[super infinity-groupoid]] for more on this) . This means that there are two contributions to the sign when exchanging two terms, one from the cohomological grading, one from the super-grading. This is "the sign rule" also used in  ([Deligne-Freed 99, section 6](#DeligneFreed99)). 
+
+There is however also a different sign rule use in the literature, the relation to which we discuss [below](#SuperOddConvention).
+
 
 ### Differential forms on supermanifolds
  {#DifferentialFormsOnSupermanifolds}
 
 We discuss the sign rules for the [[de Rham complex]] of [[differential forms]] on a [[supermanifold]]. 
 
-Here and in all of the following we adopt the perpective that [[homological algebra]] in [[superalgebra]] is concerned with the study of [[chain complexes]] [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]]. This means that there are two contributions to the sign when exchanging two terms, one from the cohomological grading, one from the super-grading. This is "the sign rule" also used in  ([Deligne-Freed 99, section 6](#DeligneFreed99)). There is however also a different sign rule use in the literature. spring
 
 For $p,q \in \mathbb{N}$, let $\mathbb{R}^{p|q}$ the [[super Cartesian space]] of [[dimension]] $(p|q)$. This is the [[supermanifold]] defined by the fact that its [[algebra of functions]] is freely generated, as a [[smooth superalgebra]] by even-graded [[coordinate]]-functions $\langle \{x^a\}_{1}^p$ and odd-graded coordinate function $\{ \theta^\alpha\}_{\alpha= 1}^q$
 
@@ -222,6 +266,10 @@ $$
   \,.
 $$
 
+### Super Lie algebra cohomology
+
+More generally, since the super-[[Chevalley-Eilenberg algebra]] of a [[super Lie algebra]] is identified with the [[left invariant differential forms]] on the corresponding [[super Lie group]], the signs from the super de Rham complex [above](#DifferentialFormsOnSupermanifolds) induce the cotresponding sign rule for the computation of super-[[Lie algebra cohomology]].
+
 ### Presheaves on superpoints
 
 Write $Superpoint$ for the [[category]] of [[superpoints]], the [[opposite category]] of that of real finitely-generated [[Grassmann algebras]]. 
@@ -363,14 +411,15 @@ $$
 
 (...)
 
-### The super odd sign convention
+## The super odd sign rule
+ {#SuperOddConvention}
 
 In all of the above we used the sign rule induced by setting up all mathematical concepts [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]] or [[internalization|internal]] the [[topos]] over [[superpoints]].
 
 There is another sign convention in the literature, for instance in ([](#Fuchs)). In this convention one considers the map
 
 $$
-  (()+())_{mod\, 2}
+  ((-)+(-))_{mod\, 2}
   \;\colon\;
   \mathbb{Z} \times \mathbb{Z}_2
   \longrightarrow
@@ -395,15 +444,15 @@ In this other convention the signs in the [[de Rham complex]] of the [[super Car
 
 
 $$
-  x^{a_1} x^{a_2} = + x^{a_2} x^{a_1}
+  (s.o.): \;\;\; x^{a_1} x^{a_2} = + x^{a_2} x^{a_1}
 $$
 
 $$
-  x^a \theta^\alpha = + \theta^\alpha x^a
+  (s.o.): \;\;\;x^a \theta^\alpha = + \theta^\alpha x^a
 $$
 
 $$
-  \theta^{\alpha_1} \theta^{\alpha_2}
+  (s.o.): \;\;\;\theta^{\alpha_1} \theta^{\alpha_2}
   =
   +
   \theta^{\alpha_2} \theta^{\alpha_1}
@@ -411,21 +460,23 @@ $$
 
 
 $$
-  x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
+  (s.o.): \;\;\;x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
 $$
 
 
 $$
-  \theta^\alpha (\mathbf{d}x^a) = + (\mathbf{d}x^a) \theta^\alpha
+  (s.o.): \;\;\;\theta^\alpha (\mathbf{d}x^a) = + (\mathbf{d}x^a) \theta^\alpha
 $$
 
 $$
+  (s.o.): \;\;\;
   \theta^{\alpha_1} (\mathbf{d}\theta^{\alpha_2}) 
    = 
    + (\mathbf{d}\theta^{\alpha_2}) \theta^{\alpha_1}
 $$
 
 $$
+  (s.o.): \;\;\;
   \mathbf{d}x^{a_1}
   \wedge
   \mathbf{d} x^{a_2}
@@ -438,6 +489,7 @@ $$
 
 
 $$
+  (s.o.): \;\;\;
   \mathbf{d}x^a
   \wedge
   \mathbf{d} \theta^{\alpha}
@@ -449,6 +501,7 @@ $$
 $$
 
 $$
+  (s.o.): \;\;\;
   \mathbf{d}\theta^{\alpha_1}
   \wedge
   \mathbf{d} \theta^{\alpha_2}
@@ -467,9 +520,57 @@ of any super-[[Chevalley-Eilenberg algebra]], by the identification of elements 
 
 We show that as [[chain complexes]] the two CE-algebras are [[quasi-isomorphism|quasi-isomorphic]] and hence do have the same [[cochain cohomology]], hence that the definition of super-[[Lie algebra cohomology]] is not affected by the different perspective on signs.
 
+A chain-isomorphism can be obtained as follows:
+
+Write 
+
+* $CE^\bullet$ for the [[cochain complex]] underlying the [[Chevalley-Eilenberg algebra]] with the signs given by 
+
+  $$
+    ((n_1, \sigma_1), (n_2, \sigma_2)) \mapsto (-1)^{n_1 n_2 + \sigma_1 \sigma_2}
+  $$
+
+* write $CE^\bullet_{\mathbb{Z}_2}$ for the cochain complex obtained with the sign rule 
+ 
+  $$
+    ((n_1, \sigma_1), (n_2, \sigma_2)) \mapsto (-1)^{(n_1 + \sigma_1)(n_2 + \sigma_2)}
+    \,.
+  $$
+
+Say that a product of generators representing an element in $CE^k$ is in _normal order_ of all the $(\bullet,even)$-graded elements are left of the $(\bullet,odd)$-graded elements, schematically
+
+$$
+  e \wedge \cdots e \wedge \psi \wedge \cdots \psi
+  \,.
+$$
+
+To define a [[linear map]] $CE^k  \longrightarrow CE^\bullet_{\mathbb{Z}_2}$ declare that elements in this normal form go to the elements given by the same expression. 
+
+This defines a linear map in each degree $k$. Notice that this is _not_ a morphism of algebras, in any sense, but it _is_ a [[chain map]]. To see this, notice that acting with the [[differential]] which is of degree $(1,even)$ on a term of the form $e \wedge \cdots e \wedge \psi \wedge \cdots \psi$ produces a sum of such terms where in each summand one generator is replaced by a term of the form $d e$ or by $d \psi$, respectively. These are in turn themselves sums of elements of the form $e \wedge \cdots e \wedge \psi \wedge \cdots \psi$. By commuting them to the middle we see that the differential of the whole term is a sum of terms of the form
+
+$$
+  e \wedge \cdots \wedge e \wedge (d e) \wedge \psi \wedge \cdots \wedge \psi
+$$
+
+and
+
+$$
+  e \wedge \cdots \wedge e \wedge (d \psi)  \wedge \psi \wedge \cdots \wedge \psi
+  \,.
+$$
+
+Now observe: 
+
+1. for terms of the first type, the signs picked up by commuting $d e$ to the middle are by definition the same in $CE^\bullet$ and in $CE^\bullet_{\mathbb{Z}_2}$;
+
+1. for terms of the second type there are a priori more signs picked up in $CE^\bullet$ than in $CE^\bullet_{\mathbb{Z}_2}$, namely one for every term $\psi$ that one commutes through. But as the differential first passes from the left into the string of $\psi$s and then $d \psi$ in turn is passed back to the left, these extra signs appear in even number and hence cancel out.
+
+In summary this establishes a [[chain map]] $CE^\bullet \longrightarrow CE^\bullet_{\mathbb{Z}_2}$ which is an cochain [[isomorphism]] and hence in particular a [[quasi-isomorphism]], hence an [[isomorphism]] on [[cochain cohomology]].
+
 
 ## References
 
+### Internalization sign rule
 
 * [[Pierre Deligne]], [[Dan Freed]], _Sign manifesto_ ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)) 
    {#DeligneFreed99}
@@ -481,3 +582,7 @@ which appears in
 which in turn appears in 
 
 * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+### Super odd sign rule
+
+* Fuks, Lie algebra cohomology
