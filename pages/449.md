@@ -27,6 +27,9 @@ This is to be contrasted with the [[geometric definition of higher category]] wh
 
 * The [[Todd Trimble|Trimble]]/[[Peter May|May]] approach to higher categories involves algebraic structure imposed in stages by a process of iterative enrichment. See also [[Trimble n-category]].  
 
+* Using the tool of [[model structure on algebraic fibrant objects]] many geometric models for higher categories may be realized equivalently as algebraic models. This is notably true for [[∞-groupoid]]s and [[(∞,1)-categories]]. See [Algebraic  fibrant models for higher categories](http://ncatlab.org/nlab/show/model+structure+on+algebraic+fibrant+objects#AlgebaicHigherCategories).
+
+
 ## References 
 
 (please...)
