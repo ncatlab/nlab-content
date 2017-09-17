@@ -44,38 +44,109 @@ is a weak equivalence.
 
 * every model category in which all objects are cofibrant is left proper;
 
+  this includes notably
+
+  * the standard [[model structure on simplicial sets]]
+
+  * the [[model structure for quasi-categories]]
+
+  * the [[model structure on sSet-enriched categories]]
+
+  and many model structures derived from these, such as 
+
+  * the injective global [[model structure on simplicial presheaves]]
+    over any small (simplicial) category;
+
 * the left [[Bousfield localization]] of every left proper [[combinatorial model category]] at a set of morphisms is again left proper.
 
-* every full subcategory on cofibrant objects
+  So in particular also the _local_ injective model structures on
+  simplicial presheaves over a [[site]] are left proper.  
+
+### Non-left proper model categories
+
+A class of model structures which tends to be _not_ left proper are model structures on categories of not-necessarily commutative algebras. 
+
+For instance 
+
+* the standard model structure on [[simplicial object|simplicial]] _[[associative unital algebra]]s (weak equivalences ad fibrations are those of the underlying simplicial sets) is _not_ left proper (see [Rezk2000, example 2.11](http://arxiv.org/PS_cache/math/pdf/0003/0003065v1.pdf#page=5))
+
+But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _is_ left proper. This is discussed [below](#ProperEquivModels).
+
 
 ### Right proper model categories ###
 
+* every model category in which eaxch object is fibrant is right proper.
 
-* every [[category of fibrant objects]] is right proper
+  This includes for instance the standard [[model structure on topological spaces]]. 
+
 
 ### Proper model categories ###
 
+Model categories which are both left and right proper include
+
 * [[Top]]: [[model structure on topological spaces]]
 
-* [[SSet]]: [[model structure on simplicial sets]]
+* [[sSet]]: [[model structure on simplicial sets]]
 
-All [[model category|model categories]] that model aspects of [[infinity-stack]]s and hence of [[cohomology]] are right proper: 
+All [[model category|model categories]] that model aspects of [[∞-stack]]s and hence of [[cohomology]] are right proper: 
 
 * [[model structure on simplicial presheaves]]
-
-  for presheaves over the point this restricts to:
-
-  * [[model structure on simplicial sets]]
-
-  * [[model structure on topological spaces]]
-
-
 
 * [[model structure on presheaves of spectra]] 
 
   for presheaves over the point this restricts to:
 
   * [[model structure on spectra]]
+
+
+### Proper Quillen equivalent model structures {#ProperEquivModels}
+
+While some model categories fail to be proper, often there is a [[Quillen equivalence|Quillen equivalent]] one that does enjoy properness.
+
++-- {: .un_theorem}
+###### Theorem
+
+Every model category whose acyclic cofibrations are [[monomorphism]]s is Quillen equivalent to its [[model structure on algebraic fibrant objects]].
+In this all objects are fibrant, so that it is right proper.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 2.18 in
+
+* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+
+=--
+
+
+
++-- {: .un_theorem}
+###### Theorem
+
+Let $T$ be a simplicial (possibly multi-colored) [[theory]], and let $T Alg$ be the corresponding category of simplicial T-algebras. This carries a model category structure where the fibrations and weak equivalences are those of the underlyin simoplicial sets in the standard [[model structure on simplicial sets]]. 
+
+Then there exists a morphism of siplicial theories $T \to S$ such that
+
+1. the induced [[adjunction]] $S Alg \stackrel{\to}{\leftarrow} T Alg$ is a [[Quillen equivalence]];
+
+1. $S Alg$ is a proper [[simplicial model category]]. 
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the content of 
+
+* [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_ ([math/0003065](http://arxiv.org/abs/math/0003065))
+
+=--
+
+
+
 
 ## Properties ##
 
