@@ -88,7 +88,6 @@ So it is good that there are many model structures on simplicial (pre)sheaves, a
 
 The following diagram is a map for part of the territory:
 
-<div style="overflow:auto" markdown="1">
 $$
   \array{
      &amp;&amp;
@@ -153,7 +152,6 @@ $$
 
   }
 $$
-</div>
 
 Here 
 
@@ -185,7 +183,6 @@ while
 
 The following diagram collection [[model category|model categories]] that are [[presentable (infinity,1)-category|presentations]] for the [[(∞,1)-category of (∞,1)-sheaves]]. All indicated morphism pairs are [[Quillen equivalences]].
 
-<div style="overflow:auto" markdown="1">
 $$
   \array{
      PSh(X, SGrpd)
@@ -218,7 +215,6 @@ $$
      Brown-Gersten     
   }
 $$
-</div>
 
 On the right this lists the model structures on simplicial (pre)sheaves, here displayed as (pre)sheaves with values in [[simplicial sets]], using $SPSh(C) \simeq PSh(C,SSet)$.
 
