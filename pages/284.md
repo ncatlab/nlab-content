@@ -274,6 +274,8 @@ See _[[table - models for (∞,1)-categories]]_.
 
   * [[locally presentable (∞,1)-category]], [[accessible (∞,1)-category]], [[compactly generated (∞,1)-category]]
 
+  * [[disjunctive (∞,1)-category]]
+
 * [[(∞,2)-category]]
 
 * [[(∞,n)-category]]
