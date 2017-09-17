@@ -703,3 +703,5 @@ Remarks on $\infty$-parallel transport in [[Top]] are in
 * [[Jim Stasheff]], _[[StasheffParallelTransportv02.pdf:file]]_
 {#Stasheff}
 
+
+[[!redirects surface holonomy]]
