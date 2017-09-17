@@ -26,25 +26,25 @@ It is a [[hypercover]] satisfying an extra condition that roughly says that it i
 
 ## Definition
 
-Regard $U \in C$ under the [[Yoneda embedding]] as an object $U \in [C^{op}, sSet]_{proj,loc}$. Then a morphism $(Y  \to X) \in [C^{op}, sSet]$ is a **split hypercover** of $X$ if
+Regard $X \in C$ under the [[Yoneda embedding]] as an object $X \in [C^{op}, sSet]_{proj,loc}$. Then a morphism $(Y  \to X) \in [C^{op}, sSet]$ is a **split hypercover** of $X$ if
 
-1. the morphism is an acylic fibration in $[C^{op}, sSet]_{proj,loc}$;
+1. $Y$ is a [[hypercover]] in that
 
-   (this makes $Y \to X$ a [[hypercover]]);
+   1. $Y$ is degreewise a [[coproduct]] of [[representable functor|representables]],
 
-1. $Y$ is degreewise a [[coproduct]] of [[representable functor|representables]],
+      $Y = \int^{[n] \in \Delta} \Delta[n] \cdot \coprod_{i_n} U_{i_n} \;\,,
+    \;\;\; with \{U_{i_n} \in C\}$ ;
 
-   $Y = \int^{[n] \in \Delta} \Delta[n] \cdot \coprod_{i_n} U_{i_n}$;
+   1. with $Y \to X$ regarded as a presheaf of [[augmented simplicial set]]s, for all $n \in \mathbb{N}$ the morphism $Y_{n+1} \to (\mathbf{cosk}_n Y)_{n+1}$ into the $n+1$-cells of the $n$-[[coskeleton]] is a [[local epimorphism]] with respect to the given [[Grothendieck topology]] on $C$
 
-1. the image of the degeneracy maps identifies with a direct summand in each degree
+1. $Y$ is _split_ in that the image of the degeneracy maps identifies with a direct summand in each degree.
 
-   (this makes the hypercover be _split_ ).
 
 ## Properties
 
 The splitness condition on the hypercover is precisely such that $Y$ becomes a cofibrant object in $[C^{op}, sSet]_{proj,loc}$, according to the characterization of such cofibrant objects described <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects">here</a>.
 
-## Exmaples
+## Examples
 
 Over the site [[CartSp]], the [[Cech nerve]] of an [[open cover]] becomes split as a height-0 hypercover precisely if the cover is a [[good open cover]].
 
