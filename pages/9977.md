@@ -1,0 +1,8 @@
+
+The __denial [[inequality]]__ is the [[negation]] of [[equality]].
+
+This is a term found in [[constructive mathematics]], to distinguish from other notions of 'inequality' there.  In work on [[homotopy type theory]], it is called __disequality__.
+
+
+[[!redirects denial inequality]]
+[[!redirects disequality]]
