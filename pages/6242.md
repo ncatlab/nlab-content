@@ -149,6 +149,8 @@ See at _[[Bohr topos]]_ for more.
 
   * [[beable]]
 
+* [[computable physics]]
+
 * [[quantale]], 
 
 * [[Bohr topos]]
