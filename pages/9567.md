@@ -17,6 +17,11 @@ An (ordinary) __series__ $\sum_{n=0}^\infty a_n$ whose members are the elements 
 
 The sum of a series is a limit of its sequence of partial sums if this sequence converges (in whatever suitable sense). However, the variants of this notion depends on convergence properties, kind of topology on the space where the members of the sequence belong to and is often corrected/made precise by resummation, renormalization and similar devices. 
 
+## Related concepts
+
+* [[Taylor series]]
+
+* [[asymptotic series]]
 
 category: analysis
 
