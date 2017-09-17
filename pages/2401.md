@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic tanle of contents goes here
 {:toc}
 
 ## Idea
 
-The **rough idea** is (but see the [caveat](#caveat) below) that the term **moduli space** is essentially a synonym for [[representable functor|representing object]] and for [[classifying space]]. People tend to say "classifying space" when in the context of [[topology]], and they tend to say _moduli space_ when in a context of [[complex geometry]] or [[algebraic geometry]]. 
+The _rough idea_ is (but see the [caveat](#caveat) below) that the term **moduli space** is essentially a synonym for [[representable functor|representing object]] and for [[classifying space]]. People tend to say "classifying space" when in the context of [[topology]], and they tend to say _moduli space_ when in a context of [[complex geometry]] or [[algebraic geometry]]. 
 
 More precisely, when a moduli space actually does exist as an ordinary space (or [[scheme]]), it is called for emphasis a **fine moduli space**. Fine here refers to the completeness of the description, not shared by coarse moduli below.
 
@@ -80,7 +90,7 @@ Notice well the two assumptions that were made to make this argument work:
    But of course it is a standard fact that there there are [[topological space]]s $\mathcal{B} U(n)$ such that [[homotopy]] classes of continuous maps $X \to \mathcal{B} U(n)$ classify isomorphism classes of rank-$n$ [[vector bundle]]s. But this means that the functor that assigns families of vector bundles to topological space is -- while not [[representable functor|representable]] in [[Top]] -- representable in the [[homotopy category]] $Ho(Top)$
 
    $$
-     Rank n VectBund(X)/iso  \sime Hom_{Ho(Top)}(X, \mathcal{B} U()n)
+     Rank n VectBund(X)/iso  \simeq Hom_{Ho(Top)}(X, \mathcal{B} U(n))
      \,.
    $$
 
