@@ -48,3 +48,5 @@ The central fact about a monoidal model category is that its homotopy category i
 # References #
 
 Mark Hovey, _Model Categories_
+
+[[!redirects monoidal model categories]]
