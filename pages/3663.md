@@ -1,11 +1,10 @@
-## Idea
-
-This page is to help you copy and past special characters if you want them.  For the moment, it is discouraged to put these in [page names](http://ncatlab.org/nlab/show/HowTo#naming), although you may want to use them in [[redirected pages]].  It is also usually better to use iTeX when appropriate (mathematical characters outside of wiki links).
-
-
 # Special characters
 * table of contents
 {: toc}
+
+## Introduction
+
+This page is to help you copy and past special characters if you want them.  For the moment, it is discouraged to put these in [page names](http://ncatlab.org/nlab/show/HowTo#naming), although you may want to use them in [[redirected pages]].  It is also usually better to use iTeX when appropriate (mathematical characters outside of wiki links).
 
 
 ## Text symbols
@@ -15,7 +14,7 @@ This page is to help you copy and past special characters if you want them.  For
 
 ## Mathematical symbols
 
-These are alphabetical by the LaTeX name.  If you don\'t know the LaTeX name, try [Detexify](http://detexify.kirelabs.org/) (requires Javascript).  Not included are commands like `\arccos` that produce ASCII or commands like `\textbullet` that work in text mode (use mathmode\'s `\bullet` instead).
+These are alphabetical by the LaTeX name.  If you don\'t know the LaTeX name, try [Detexify](http://detexify.kirelabs.org/) (requires Javascript).  Not included are commands like `\arccos` that produce ASCII, commands like `\textbullet` that are meant for text mode (use mathmode\'s `\bullet` instead), and commands like `\Bbbk` that produce font and size variants.
 
 Although this is not intended as a list of iTeX commands (since the [itex symbols list](http://xbeta.org/wiki/show/itex) is pretty comprehensive and well-organised), inevitably people will use it that way too.  So please place an asterisk by names that are *not* recognised by iTeX (which you will discover for yourself when you add it).
 
@@ -32,22 +31,17 @@ Remember to use iTeX itself when appropriate.  You mostly will only need to copy
 
 ### A
 
-* \* `\agemO`: $\mho$ (66, wasysym)
-* `\aleph`: $\aleph$ (51, 51, 65)
-* `\alpha`: $\alpha$ (50)
-* \* `\alphaup`: $\alphaup$ (50, txfonts/pxfonts)
-* `\amalg`: $\amalg$ (22, 23)
-* `\angle`: $\angle$ (65, 66, 66)
-* \* `\apprge`: $\apprge$ (38, wasysym)
-* \* `\apprle`: $\apprle$ (38, wasysym)
-* `\approx`: $\approx$ (30)
-* \* `\approxcolon`: $\approxcolon$ (36, colonequals) $\colonequals$
-* \* `\approxcoloncolon`: $\approxcoloncolon$ (36, colonequals)
-* `\approxeq`: $\approxeq$ (30, AMS)
-* \* `\ast`: $&#x2217;$ (22, 23, 23, MnSymbol five-pointed variant)
-* \* `\Asterisk`: $\Asterisk$ (23, 23, mathabx)
-* \* `\asterisk`: $\asterisk$ (23, mathabx)
-* `\asymp`: $\asymp$ (30, 48)
+* `\aleph`: $\aleph$
+* `\alpha`: $\alpha$
+* `\amalg`: $\amalg$
+* `\angle`: $\angle$
+* `\approx`: $\approx$
+* \* `\approxcolon`: <math class='maruku-mathml' display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mo lspace='mediummathspace' rspace='mediummathspace'>&#x2248;&#x2236;</mo></math> (no single Unicode character)
+* \* `\approxcoloncolon`: <math class='maruku-mathml' display='inline' xmlns='http://www.w3.org/1998/Math/MathML'><mo lspace='mediummathspace' rspace='mediummathspace'>&#x2248;&#x2237;</mo></math> (no single Unicode character)
+* `\approxeq`: $\approxeq$
+* \* `\ast`: $&#x2217;$
+* \* `\asterisk`: $&#x2217;$
+* `\asymp`: $\asymp$
 
 ### B
 
