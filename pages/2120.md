@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 A continuous map is a morphism in the category of [[topological spaces]] and in some similar contexts like [[locales]] and [[convergence spaces]]. 
 
 A [[function]] $f:X\to Y$ between topological spaces is a __continuous map__ if for every open subset $U\subset Y$, the [[preimage]] $f^{-1}(U)$ is open in $X$. Continuous maps of topological spaces preserve [[connected space|connectedness]] and send [[compact space|compact]] subsets to compact subsets. However it is not necessary that the preimage of a compact set be compact; the continuous maps such that the preimage of any compact set is compact are called __[[proper map]]s__. 
