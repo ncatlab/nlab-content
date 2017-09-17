@@ -466,8 +466,146 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 
 ...
 
-### Tensoring with an $\infty$-groupoid
+### Tensoring and cotensoring with an  $\infty$-groupoid {#Tensoring}
 
+#### Recap of the 1-categorical situation
+
+An ordinary [[category]] with [[limit]]s is canonically [[power|cotensored]] over [[Set]]:
+
+
+For $S, T \in $ [[Set]] and $const_T : S \to Set$ the [[diagram]] parameterized by $S$ that is constant on $T$, we have
+
+$$
+  \lim_{\leftarrow} const_T \simeq T^S
+  \,.
+$$
+
+Accordingly the cotensoring
+
+$$
+  (-)^{(-)} : Set^{op} \times C \to C
+$$
+
+is defined by
+
+$$
+  c^S := \lim_{\leftarrow} (S \stackrel{const_c}{\to} C)
+  = \prod_{S} c
+  \,.
+$$
+
+And by continuity of the [[hom-functor]] this implies the required natural isomorphisms
+
+$$
+  Hom_C(d,c^S) = Hom_C(d, {\lim_{\leftarrow}}_S c) \simeq {\lim_{\leftarrow}}_S 
+  Hom_C(d,c) \simeq Set(S,Hom_C(d,C))
+  \,.
+$$
+
+Correspondingly if $C$ has [[colimit]]s, then the [[copower|tensoring]]
+
+$$
+  (-) \otimes (-) : Set \times C \to C
+$$
+
+is given by forming [[colimit]]s over constant diagrams: $S \otimes c := {\lim_{\to}}_S c$, and again by continuity of the [[hom-functor]] we have the required natural isomorphism
+
+$$
+  Hom_C(S \otimes c, d) = 
+  Hom_C({\lim_{\to}}_S c,d)
+  \simeq
+  {\lim_{\leftarrow}}_S Hom_C(c,d)
+  \simeq
+  Set(S,Hom_C(c,d))
+  \,.
+$$
+
+Of course all the colimits appearing here are just [[coproduct]]s and all limits just [[product]]s, but for the generalization to $(\infty,1)$-categories this is a misleading simplification, it is really the notion of limit and colimit that matters here.
+
+#### Definition
+
+We expect for $S, T \in $ [[∞Grpd]] and for $const_T : S \to \infty Grpd$ the constant diagram, that 
+
+$$
+  \lim_{\leftarrow} const_T \simeq T^S
+  \,,
+$$ 
+
+where on the right we have the [[internal hom]] of $\infty$-groupoids, which is modeled in the [[model structure on simplicial sets]] $sSet_{Quillen}$ by the fact that this is a [[closed monoidal category|closed]] [[monoidal category]].
+
+Correspondingly, for $C$ an $(\infty,1)$-category with colimits, it is [[copower|tensored]] over [[∞Grpd]] by setting
+
+$$
+  (-)\otimes (-) : \infty Grpd \times C \to C
+$$
+
+$$
+  S \otimes c := {\lim_{\to}}_S c
+  \,,
+$$
+
+where now on the right we have the $(\infty,1)$-categorical colimit over the constant diagram $const : S \to C$ of shape $S$ on $c$.
+
+Then by the $(\infty,1)$-continuity of the hom, and using the above characterization of the [[internal hom]] in $\infty Grpd$ we have the required natural equivalence
+
+$$
+  Hom_C(S \otimes c, d)
+  =
+  Hom_C({\lim_{\to}}_S c, d)
+  \simeq
+  {\lim_{\leftarrow}}_S Hom_C(c,d)
+  \simeq
+  \infty Grpd(S,Hom_C(c,d))
+  \,.
+$$ 
+
+The following proposition should assert that this is all true
+
++-- {: .un_prop}
+###### Proposition
+
+The $(\infty,1)$-categorical colimit ${\lim_{\to}} c$ over the diagram of shape $S \in \infty Grpd$ constant on $c \in C$ is characterized by the fact that it induces natural equivalences
+
+$$
+  Hom_C({\lim_{\to}}_S c, d)
+  \simeq
+  \infty Grpd(S, Hom_C(c,d))
+$$
+
+for all $d \in C$.
+
+=--
+
+This is essentially [[Higher Topos Theory|HTT, corollary 4.4.4.9]].
+
+
+This justifies the following definition
+
++-- {: .un_def}
+###### Definition
+
+For $C$ an $(\infty,1)$-category with colimits, the **tensoring of $C$ over $\infty Grpd$** is the $(\infty,1)$-functor
+
+$$
+  (-) \otimes (-) : \infty Grpd \times C \to C
+$$
+
+given by
+
+$$
+  S \otimes c = \lim_{\to} (const_c : S \to C) 
+  \,.
+$$
+
+=--
+
+See [[Higher Topos Theory|HTT, section 4.4.4]].
+
+#### Models
+
+If $C$ is [[presentable (infinity,1)-category|presented]] by a [[simplicial model category]] $A$, then it has all limits and colimits and its tensoring and cotentsoring over $\infty Grpd$ should be modeled by the [[derived functor]]s of the ordinary tensoring and cotensoring of $A$ over $sSet$.
+
+...
 
 
 ## Examples
