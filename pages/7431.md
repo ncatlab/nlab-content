@@ -1,0 +1,22 @@
+[[!redirects relatively k-compact morphism in an (infinity,1)-topos]]
++-- {: .num_defn #RelativelyKappaCompact}
+###### Definition
+
+For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **relatively $\kappa$-compact** if for all [[(∞,1)-pullbacks]] along $h : y' \to y$ to $\kappa$-[[compact object in an (∞,1)-category|compact object]]s, $y'$, the pulled back object $h^* x'$ is itself a $\kappa$-compact object.
+
+=--
+
+
++-- {: .num_theorem}
+###### Theorem
+
+A [[presentable (∞,1)-category]] $C$  is an [[(∞,1)-topos]] precisely if
+
+1. it has [[universal colimits]];
+
+1. for sufficiently large regular [[cardinal]]s $\kappa$, $C$ has a classifying object for relatively $\kappa$-compact morphisms.
+
+=--
+
+
+This is due to [[Charles Rezk]]. The statement appears as [[Higher Topos Theory|HTT, theorem 6.1.6.8]].
