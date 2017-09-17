@@ -162,3 +162,6 @@ Manifestations of the Frobenius reciprocity formula, in the sense of [this secti
 
 [[!redirects Frobenius reciprocity]]
 [[!redirects Frobenious reciprocity]]
+[[!redirects Frobenius law]]
+[[!redirects Frobenius condition]]
+[[!redirects Frobenius axiom]]
