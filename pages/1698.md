@@ -174,11 +174,11 @@ $$
   }
 $$
 
-a homotopy pullback in $C$, for every $X \in C$ the induces diagram
+a homotopy pullback in $C$, for every $X \in C$ the induced diagram
 
 $$
   \array{
-    Hom_C(X,A) \times_{Hom_C(X,C)} Hom_C(X,B) &\to& Hom_C(X,B)
+    Hom_C(X,A \times_C B) &\to& Hom_C(X,B)
     \\
     \downarrow && \downarrow
     \\
