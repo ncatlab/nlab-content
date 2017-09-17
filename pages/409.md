@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _strict $\omega$-groupoid_ is an [[algebraic definition of higher categories|algebraic model]] for certain simple [[homotopy types]]/[[∞-groupoids]] based on [[globular sets]]. It is almost like a [[chain complex]] of [[abelian groups]] (under [[Dold-Kan correspondence]]) except that the [[fundamental group]] is allowed, more generally, to be non-abelian and to act on all the other [[homotopy groups]]. In fact, strict $\omega$-groupoids are [[equivalence of categories|equivalence]] to [[crossed complexes]].
+A _strict $\omega$-groupoid_ is an [[algebraic definition of higher categories|algebraic model]] for certain simple [[homotopy types]]/[[∞-groupoids]] based on [[globular sets]]. It is almost like a [[chain complex]] of [[abelian groups]] (under [[Dold-Kan correspondence]]) except that the [[fundamental group]] is allowed, more generally, to be non-abelian and to act on all the other [[homotopy groups]]. In fact, strict $\omega$-groupoids are [[equivalence of categories|equivalent]] to [[crossed complexes]].
 
 ## Definition
 
@@ -35,7 +35,7 @@ Strict $\infty$-groupoids form one of the vertices of the [[cosmic cube]] of [[h
 
 There is a [[model structure on strict ∞-groupoids]]. 
 
-This should [[presentable (∞,1)-category|present]] the full [[sub-(∞,1)-category]] of [[∞Grpd]] on strict $\infty$-groupoids.
+This should [[presentable (∞,1)-category|present]] the full [[sub-(∞,1)-category]] of [[∞Grpd]] of strict $\infty$-groupoids.
 
 ## Related concepts
 
