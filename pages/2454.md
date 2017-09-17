@@ -24,23 +24,30 @@ In most standard cases, one can also form the smallest 2-sided ideal (i.e. $A$-s
 
 ## Properties
 
-The _isomorphism problem_ for enveloping algebras is about the fact that the universal enveloping monoids of two Lie algebras of $C$ are isomorphic as associative monoids in $C$, but this does not imply that the Lie algebras are isomorphic. This is even not true in general for the Lie $k$-algebras (in classical sense), even if $k$ is a [[field]] of characteristics zero. It is known however in that case that the dimension of the finite-dimensional Lie $k$-algebra $L$ can be read off from its universal enveloping $k$-algebra as its Gel'fand-Kirillov dimension $GK(U(L))$. 
+### Isomorphism problem
+
+The _isomorphism problem_ for enveloping algebras is about the fact that the universal enveloping monoids of two Lie algebras of $C$ are isomorphic as associative [[monoids]] in $C$, but this does not imply that the Lie algebras are isomorphic. This is even not true in general for the Lie $k$-algebras (in classical sense), even if $k$ is a [[field]] of characteristics zero. It is known however in that case that the dimension of the finite-dimensional Lie $k$-algebra $L$ can be read off from its universal enveloping $k$-algebra as its Gel'fand-Kirillov dimension $GK(U(L))$. 
 
 Suppose the universal enveloping algebras of Lie algebras exist in a $k$-linear symmetric monoidal category $C$ and the functorial choice $L\mapsto U(L)$ realizing the above construction with tensor products is fixed. For example, this is true in the category of $k$-modules where $k$ is a commutative ring. Then the projection $L\to 0$ where $0$ is the trivial Lie algebra induces the counit $\epsilon:U(L)\to U(0)=\mathbf{1}$. The coproduct $\Delta:U(L)\to U(L\coprod L)\cong U(L)\otimes U(L)$ is induced by the diagonal map $L\to L\coprod L$ whereas the antipode $S=U(-id):U(L)\to U(L)$. One checks that these morphisms make $U(L)$ into a Hopf algebra in $C$.
 
 The universal enveloping algebra of the tangent Lie algebra of a finite-dimensional Lie group $G$ over real or complex numbers is canonically isomorphic to the algebra of the left invariant differential operators on $G$. 
 
+### PBW theorem
+
 The [[Poincaré–Birkhoff–Witt theorem]] states that the associated graded algebra of an enveloping algebra $U(g)$ in characteristics zero is canonically isomorphic to a symmetric algebra $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
 
 ## Related concepts
 
-An [[oidification]] is the [[universal enveloping algebroid]].
+
+* [[Hausdorff series]], [[Poincaré–Birkhoff–Witt theorem]]
+
+* An [[oidification]] is the [[universal enveloping algebroid]].
+
 
 ## Literature
 
-* Related entries: [[Hausdorff series]], [[Poincaré–Birkhoff–Witt theorem]]
 * [[N. Bourbaki]], _Lie groups and Lie algebras_
-* Jacques Dixmier, _Enveloping algebras_, Graduate Studies in Mathematics 11, Amer. Math. Soc. 
+* [[Jacques Dixmier]], _Enveloping algebras_, Graduate Studies in Mathematics 11, Amer. Math. Soc. 
 * wikipedia: [universal enveloping algebra](http://en.wikipedia.org/wiki/Universal_enveloping_algebra), [PBW theorem](http://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem)
 * MathOverflow question [What is the universal enveloping algebra](http://mathoverflow.net/questions/25020/what-is-the-universal-enveloping-algebra) which is looking for a rather general construction in a class of symmetric monoidal [[pseudoabelian category|pseudoabelian categories]].
 
