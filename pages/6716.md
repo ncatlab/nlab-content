@@ -52,7 +52,7 @@ where $U(1) \to Spin^c$ is the canonical inclusion into the defining product $U(
 
 ### General
 
-### As homotopy fiber of smooth $\mathbf{W}_3$
+### As the homotopy fiber of the smooth $\mathbf{w}_3$
  {#AsHomotopyFiberOfSmoothW3}
 
 We dicuss in the following that 
