@@ -245,7 +245,7 @@ $$
   \,.
 $$ 
 
-+-- {: .num_prop}
++-- {: .num_prop #CotangentComplexAdjunction}
 ###### Definition/Proposition
 **(cotangent complex)**
 
@@ -311,6 +311,8 @@ is equivalent to the category of $A$-[[module spectra]].
  {#ExamplesTangentOfAnInfinityTopos}
 
 We discuss here aspects of the tangent $\infty$-categories of [[(∞,1)-toposes]].
+
+> This is a bit experimental, therefore lots of remarks. To be fleshed out later.
 
 First consider the [[base (∞,1)-topos]] $\mathbf{H} = $ [[∞Grpd]]. 
 
@@ -379,6 +381,86 @@ $$
 
 =--
 
+From this it follows that
+
++-- {: .num_remark}
+###### Remark
+
+The [[global elements]]/[[global sections]] functor (which forms the [[derived hom space|(∞,1)-categorical mapping space]] out of the terminal object)
+
+$$
+  \Gamma \coloneqq Hom(\ast, -) \colon T(\infty Grpd) \to \infty Grpd
+$$
+
+sends an $X$-[[parameterized spectrum]] to its base homotopy type $X$.
+
+
+This functor has a [[left adjoint|left]] and [[right adjoint|right]] [[adjoint (∞,1)-functor]] both given by sending $X$ to the [[zero spectrum]] bundle over $X$.
+
+So we have an infinite chain of [[adjoint (∞,1)-functors]] $(\cdots \Gamma \dashv (-)\times 0 \dashv \Gamma \dashv (-)\times 0 \dashv \cdots)$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The functor $(-) \times 0$ is a [[full and faithful (∞,1)-functor]]
+
+$$
+  (-) \times 0 \colon \infty Grpd \hookrightarrow T \infty Grpd
+$$
+
+and so the tangent $(\infty,1)$-category is [[cohesive (∞,1)-topos|cohesive]] over [[∞Grpd]]:
+
+
+$$
+  (\Pi \dashv Disc \dashv \Gamma \dashv coDisc)
+  \;
+  \colon
+  \;
+  T(\infty Grpd)
+  \stackrel{\overset{\Gamma}{\to}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \infty Grpd
+  \,.
+$$
+
+Recalling that here $\Gamma = cod \circ \Omega^\infty$, we have one more adjunction, the [[cotangent complex]] adjunction due to prop. \ref{CotangentComplexAdjunction}
+
+$$
+  \infty Grpd
+  \stackrel{\overset{\Omega}{\to}}{\underset{dom\circ \Omega^{\infty}}{\leftarrow}}
+  T(\infty Grpd)
+  \stackrel{\overset{\Gamma}{\to}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \infty Grpd
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For $\mathbf{H}$ a general [[(∞,1)-topos]] the above discussion goes through essentially verbatim. If $\mathbf{H}$ is itself [[cohesive (∞,1)-topos|cohesive]], then we end up with
+
+$$
+  \mathbf{H}
+  \stackrel{\overset{\Omega}{\to}}{\underset{dom}{\leftarrow}}
+  T\mathbf{H}
+  \stackrel{\overset{\Gamma}{\to}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \mathbf{H}
+  \stackrel{}{\stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}}
+  \infty Grpd
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+When $T \mathbf{H}$ is an $\infty$-topos it should carry another structure $\otimes$ of a [[symmetric monoidal (∞,1)-category]], induced by fiberwise [[smash product]] of [[spectrum objects]].... 
+
+=--
 
 
 ## References
