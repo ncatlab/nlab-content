@@ -159,6 +159,10 @@ considered within the context of higher geometric quantization in
 
 If the  [[symplectic manifold]] $(X,\omega)$ lifts to the structure of a [[Kähler manifold]] $(X, J, g)$, hence with [[Riemannian metric]] $g(-,-) = \omega(-,I(-))$, then the holomorphic/antiholomorphic decomposition induced by the [[complex manifold]] structure is a polarization of $(X,\omega)$. Polarizations of this form are therefore called **[[Kähler polarizations]]**.
 
+### Convex polarizations
+
+* [[p-convex polarization]]
+
 ## Related concepts
 
 ### Quantum states and wave functions
