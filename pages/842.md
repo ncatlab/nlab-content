@@ -66,6 +66,7 @@ See [[Higher Topos Theory|HTT, prop 4.2.1.5]].
 
 ### In terms of $\infty$-Hom adjunction
 
+
 The definition of the limit in a quasi-category in terms of terminal objects in the corresponding [[over quasi-category]] is well adapted to the particular nature the incarnation of $(\infty,1)$-categories by quasi-categories. But more intrinsically in $(\infty,1)$-category theory, it should be true that there is an [[adjunction]] characterization of 
 $(\infty,1)$-limits : limit and colimit, should be (pointwise or global) [[right adjoint|right]] and [[left adjoint|left]]
 [[adjoint (infinity,1)-functor]] of the constant diagram $(\infinity,1)$-functor,
@@ -485,6 +486,7 @@ $$
   Hom_C({\lim_{\to}}_S c,d)
   \simeq
   {\lim_{\leftarrow}}_S Hom_C(c,d)
+
   \simeq
   Set(S,Hom_C(c,d))
   \,.
@@ -698,7 +700,7 @@ and therefore the initial objects of these quasi-categories coincide on both sid
 
 ### Limits and colimits with values in $\infty Grpd$ {#WithValInooGrpd}
 
-Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (∞,1)-categories]], hence in terms of the [[(∞,1)-Grothendieck construction]].
+Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulated in terms of the  [[universal fibration of (∞,1)-categories]], hence in terms of the [[(∞,1)-Grothendieck construction]].
 
 Let [[∞Grpd]] be the [[(∞,1)-category]] of [[∞-groupoid]]s. Let the [[(∞,1)-functor]] $Z|_{Grpd} \to \infty Grpd^{op}$ be the [[universal fibration of (infinity,1)-categories|universal ∞-groupoid fibration]] whose fiber over the object denoting some $\infty$-groupoid is that very $\infty$-groupoid.
 
