@@ -4,7 +4,7 @@
 
 ## Idea
 
-A topological group is a topological space with a continuous group structure. 
+A _topological group_ is a [[topological space]] with a continuous [[group]] structure. 
 
 ## Definition
 
