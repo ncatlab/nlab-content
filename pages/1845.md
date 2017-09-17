@@ -200,9 +200,13 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
 * [[operator K-theory]]
 
+  * [[equivariant operator K-theory]]
+
   * [[KK-theory]]
 
   * [[E-theory]]
+
+* [[equivariant K-theory]]
 
 * [[Karoubi K-theory]]
 
