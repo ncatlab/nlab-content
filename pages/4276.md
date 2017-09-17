@@ -1,8 +1,7 @@
 **[[AQFT]]** and **[[operator algebra]]**
 
-## AQFT
 
-### Definitions
+## Definitions
 
 * [[operator algebra]]
 
@@ -10,31 +9,31 @@
 
   * [[von Neumann algebra]]
 
-* [[states in AQFT and operator algebra|state]]
+* [[states in AQFT and operator algebra|state]], [[cyclic vector]], [[separating vector]]
 
 * [[local net]]
 
-  * [[causal net of algebras]]
+  * [[causal net]]
 
   * [[conformal net]]
 
 * [[Haag-Kastler axioms]]
 
+  * [[Wightman axioms]]
+
   * [[Haag-Kastler vacuum representation]]
 
-### Theorems
+## Theorems
 
-#### Mathematical Tools
+### Operator algebra
+
+* [[GNS construction]]
 
 * [[modular theory]]
 
 * [[Fell's theorem]]
 
-#### Euclidean QFT
-
-* [[Osterwalder-Schrader theorem]]
-
-#### Classical Theorems, Structure of Haag-Kastler Nets
+### Local QFT
 
 * [[Reeh-Schlieder theorem]]     
 
@@ -44,6 +43,9 @@
 
 * [[spin-statistics theorem]]
 
+### Euclidean QFT
+
+* [[Osterwalder-Schrader theorem]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/AQFT+and+operator+algebra+contents)</div>
