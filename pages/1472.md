@@ -1,15 +1,13 @@
 <div class="rightHandSide toc">
 [[!include physicscontents]]
-***
-[[!include category theory - contents]]
-***
-[[!include higher category theory - contents]]
 </div>
 
 
 This entry discusses [[physics]] from the [[nPOV]].
 
 > well, this entry is hugely imperfect at the moment, at best a sketch of a sketch. But some nice entry of this topic should eventually be available.
+
+> The reader who comes here looking for information and not planning to help work on this entry is maybe best served by ignoring most of it for the time being except for the list of references at the end.
 
 #Contents#
 * automatic table of contents goes here
@@ -130,19 +128,32 @@ In particular the Moore--Segal paper should be seen in the light of this develop
 * [[Hopf-algebraic renormalization]]
 
 
-
-## Further topics
-
-* Discrete Differential Geometry
-* Lattice Gauge Theory
-
->[[Urs Schreiber|Urs]]: not sure which $n$-categorical aspect of these two subjects we might want to discuss. As soon as I know, I would try to move it into the above pattern, but for the moment I am not sure.
-
-... 
-
 ## References
 
-A historical introduction to some aspects of $n$-categories in physics can be found here:
+### Introductions to category theory in physics {#CatsinPhysics}
+
+In 
+
+* [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
+
+* [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
+
+the authors try to motivate and introduce some basic concepts of [[category theory]] for an audience familiar with standard physics and in particular with [[quantum mechanics]]. The article focuses towards the end on [[monoidal categories]], their descrioption in terms of [[string diagram]]s and [[quantum mechanics in terms of dagger-compact categories]].
+
+More details on the use of string diagrams in dagger-categories for the description of quantum mechanics is is
+
+* [[Bob Coecke]], _Kindergarten quantum mechanics_ ([arXiv:quant-ph/0510032](http://arxiv.org/abs/quant-ph/0510032))
+
+* [[Bob Coecke]], _Quantum Picturalism_ ([arXiv:0908.1787](http://arxiv.org/abs/0908.1787))
+
+A similar introduction to the relation between quantum mechanics and [[monoidal categories]], but more from the perspective of [[FQFT]] is in
+
+* [[John Baez]], _Quantum quandaries_ ([arXiv:quant-ph/0404040](http://arxiv.org/abs/quant-ph/0404040))
+
+
+### Introductions to higher category theory and physics
+
+A historical introduction to some aspects of [[n-categories]] (for low $n$) in physics can be found here:
 
 * [[John Baez]] and [[Aaron Lauda]], _A prehistory of $n$-categorical physics_ ([pdf](http://math.ucr.edu/home/baez/history.pdf)), to appear in _Deep Beauty: Mathematical Innovation and the Search for an Underlying Intelligibility of the Quantum World_, ed. Hans Halvorson.
 
@@ -152,13 +163,14 @@ For blog discussion of this paper see:
 
 * _A prehistory of $n$-categorical physics II_, ([n-Category Cafe](http://golem.ph.utexas.edu/category/2009/07/a_prehistory_of_ncategorical_p_1.html))
 
-[[Jim Stasheff]] is also writing a historical introduction to cohomological physics:
+[[Jim Stasheff]] is also writing a historical introduction to applications of more [[homotopy theory|homotopy theoretic]] [[higher category theory]]:
 
 * [[Jim Stasheff]], [[A Survey of Cohomological Physics]] 
 
-The following book-to-be aims to give picture of the present state of the art of describing the [[category theory|general abstract nonsense]] structure of the universe, as far as fundamental physics is concerned
+The following book-to-be aims to give picture of the present state of the art of describing the category-theoretic structure of the universe, as far as fundamental physics is concerned
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Branislav Jurco]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+
 
 ### On the quantization procedure
 
@@ -166,9 +178,9 @@ First sketches of the idea that [[path integral]] [[quantization]] may have a fo
 
 * [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115))
 
-and its companing (coming? companion?) paper
+and its companion
 
-* [[Dan Freed]], ...
+* [[Dan Freed]], _Quantum groups and path integrals_ ([arXiv:q-alg/9501025](http://arxiv.org/abs/q-alg/9501025))
 
 More formal aspects along these lines appear in
 
