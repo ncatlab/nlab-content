@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+## Idea
+
+Whatever it is otherwise, [[string theory]] turns out to be an organizational principle that subsumes a wealth of [[effective quantum field theories]] together with hints for their [[UV-completion]]. As such, string theory reveals a multitude of equivalences between superficially very different-looking (classes of) quantum field theories, or between various limits (notably strong/weak coupling limits) of various different-looking quantum field theories. Large classes of these equivalences go by the name of "dualities":
+
+* **[[T-duality]]**, [[mirror symmetry]]
+
+* **[[S-duality]]**, [[electric-magnetic duality]]
+
+* **[[U-duality]]** .
+
+There is also 
+
+* [[AdS/CFT correspondence]].
+
+[[!redirects dualities in string theory]]
