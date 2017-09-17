@@ -337,7 +337,7 @@ $$
 which is
 
 $$
-  \cdots \simeq Frame(O(X), Sub_{mathcal{E}}(*))
+  \cdots \simeq Frame(O(X), Sub_{\mathcal{E}}(*))
   \simeq
   Locale(L \mathcal{E} , X)
   \,.
