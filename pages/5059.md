@@ -54,6 +54,14 @@ The corresponding table has been called the **brane scan**
 
 ## References 
 
+A canonical textbook reference is
+
+* [[Eric D'Hoker]], _String theory -- lecture 10: Supersymmetry and supergravity_ , in part 3 of
+
+  [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
 
 The "brane scan" table showing the consistent dimension pairs for the Green-Scharz action functional was depicted in
 
