@@ -24,7 +24,7 @@
 ## Idea
 
 In the general context of [[foundations of mathematics]] 
-in **[[practical foundations]]** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in ([Eilenberg-Steenrod](#EilenbergSteenrod), [Harper](#Harper)).
+in **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in ([Eilenberg-Steenrod](#EilenbergSteenrod), [Harper](#Harper)).
 
    Formal systems of interest here are [[natural deduction]] in [[type theories]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
 
