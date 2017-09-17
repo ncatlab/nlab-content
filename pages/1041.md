@@ -137,16 +137,38 @@ The last point is of relevance in particular for [[infinity-category|higher cate
 The [[exactness properties]] of abelian categories have many features in common with exactness properties of [[toposes]] or of [[pretoposes]]. In a fascinating post to the categories mailing list, [[Peter Freyd]] gave a sharp description of the properties shared by these categories, introducing a new concept called _[[AT categories]]_ (for "abelian-topos"), and showing convincingly that the difference between the A and the T can be concentrated precisely in the difference of the behavior of the initial object. 
 
 ### Embedding theorems
+ {#EmbeddingTheorems}
 
-There are some interesting results about the extent to which we can pretend any abelian category is a category of left $R$-[[module]]s for some [[ring]] $R$.  Let us write $R Mod$ for such a category of modules.  
+Not every [[abelian category]] is a [[concrete category]] such as [[Ab]] or $R$[[Mod]]. But for many proofs in [[homological algebra]] it is very convenient to have a concrete abelian category, for that allows one to check the behaviour of morphisms on actual _elements_ of the sets underlying the [[objects]].
 
-First of all, it's easy to see that not every abelian category is equivalent to $R Mod$ for some ring $R$.  The reason is that $R Mod$ has all [[small category]] [[limits]] and [[colimits]].  The category of [[finitely generated module|finitely generated]] $R$-modules is an abelian category that lacks these properties.
+The following _embedding theorems_, however, show that under good conditions an abelian category can be _embedded_ into [[Ab]] as a [[full subcategory]] by an [[exact functor]], and generally can be embedded this way into $R Mod$, for some ring $R$. This is the celebrated _[[Freyd-Mitchell embedding theorem]]_  discussed [below](#FreydMitchellEmbedding).
 
-However, we have
+This implies for instance that proofs about [[exact sequence|exactness of sequences]] in an abelian category can always be obtained by a naive argument on elements -- called a "diagram chase" -- because that does hold true after such an embedding, and the exactness of the embedding means that the notion of exact sequences is preserved by it.
+
+Alternatively, one can reason with [[generalized elements]] in an abelian category, without explicitly embedding it into a larger concrete category, see at _[[element in an abelian category]]_. But under suitable conditions this comes down to working subject to an embedding into $Ab$, see the discussion at _[Embedding into Ab](#EmbeddingIntoAb)_ below.
+
+#### Counterexamples
+
+First of all, it's easy to see that not every abelian category is equivalent to $R$[[Mod]] for some ring $R$.  The reason is that $R Mod$ has all [[small category]] [[limits]] and [[colimits]].  The category of [[finitely generated module|finitely generated]] $R$-modules is an abelian category that lacks these properties.
+
+
+#### Embedding into $Ab$
+ {#EmbeddingIntoAb}
+
+(...)
+
+([Bergman 1974](#Bergman))
+
+(...)
+
+#### Freyd-Mitchell embedding into $R Mod$
+ {#FreydMitchellEmbedding}
 
 +-- {: .num_thm}
 ###### Mitchell's Embedding Theorem
+
 Every small abelian category admits a [[full functor|full]], [[faithful functor|faithful]] and [[exact functor|exact]] functor to the category $R Mod$ for some ring $R$.
+
 =--
 
 +-- {: .proof}
@@ -219,6 +241,12 @@ Other classic references, now available online, include:
 
 * [[Peter Freyd]], _[Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html)_, originally published by Harper and Row, New York, 1964.
 
+Embedding of abelian categories into [[Ab]] is discussed in
+
+* [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) ([pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf))
+ {#Bergman}
+
+For more discussion of the _[[Freyd-Mitchell embedding theorem]]_ see there.
 
 See also the [catlist 1999 discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) on comparison between abelian categories and topoi ([[AT categories]]).
 
@@ -229,5 +257,6 @@ Textbook discussion is also in chapter VIII of
 * [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
 
 A discussion about to which extent abelian categories are a general context for [[homological algebra]] is archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2052&Focus=17680#Comment_17680).
+
 
 [[!redirects abelian categories]]
