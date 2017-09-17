@@ -123,7 +123,7 @@ of maps
 
 $$(f, g) \in \hom(x, c) \times \hom(x, d)$$ 
 
-there exists a unique element in $\hom(x, c \times d)$, denoted $langle f, g \rangle$, such that 
+there exists a unique element in $\hom(x, c \times d)$, denoted $\langle f, g \rangle$, such that 
 
 $$\pi_c \langle f, g \rangle = f \qquad \pi_d \langle f, g \rangle = g.$$
 
