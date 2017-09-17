@@ -49,7 +49,7 @@ The "higher algebra" embodied by [[commutative ring spectrum|commutative ring sp
 
 * [[algebraic theory]] / [[2-algebraic theory]] / [[(∞,1)-algebraic theory]]
 
-* [[monad]] / [[(∞,1)-monad]]
+* [[monad]] / [[2-monad]]/[[doctrine]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
 
