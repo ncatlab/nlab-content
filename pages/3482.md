@@ -1,18 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-
-
 # Contents
-
 * toc
 {: toc}
 
@@ -50,4 +47,8 @@ More generally, for a non-singleton pretopology on $C$, we can reformulate WISC 
 
 Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can define a (weak) 2-category $Ana(C,J)$ of internal categories, anafunctors and transformations. If WISC holds for $(C,J)$, then $Ana(C,J)$ is locally essentially small.
 
+
 category: foundational axiom
+
+[[!redirects WISC]]
+[[!redirects weakly initial set of covers]]
