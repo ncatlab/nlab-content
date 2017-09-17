@@ -184,6 +184,11 @@ An introductory textbook account is in
 
 * {#Weibel} [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
 
+
+Further review includes
+
+* {#Isely05} Olivier Isely, _Algebraic $K$-theory_, 2005-06 ([[IselyKTheory.pdf:file]])
+
 ### Classical
 
 Original articles include
