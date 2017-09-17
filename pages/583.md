@@ -68,7 +68,7 @@ We then define, inductively, an interpretation of every _logical formula_ that c
 
 |Logical operator| |Operation on $Sub(A)$|
 |----------------|-|---------------------|
-|[[conjunction]]: $\wedge$| |[[intersection]] (pullback)|
+|[[logical conjunction|conjunction]]: $\wedge$| |[[intersection]] (pullback)|
 |truth: $\top$| |top element ($A$ itself)|
 |[[disjunction]]: $\vee$| |[[union]]|
 |falsity: $\bot$| |bottom element ([[initial object|strict initial object]])|
