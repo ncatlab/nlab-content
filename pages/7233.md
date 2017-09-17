@@ -84,6 +84,8 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 [[!include special holonomy table]]
 
+* [[Hitchin functional]]
+
 * [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
 * [[generalized G2-manifold]]
