@@ -69,11 +69,38 @@ such that each $X \to X_n$ exhibits $X_n$ as [[generalized the|the]] $n$-truncat
 
 This is [[Higher Topos Theory|HTT, def. 5.5.6.23]].
 
+## Examples
+
+### In $\infty Grpd$
+
+When the archetypical [[(∞,1)-topos]] [[∞Grpd]] is [[locally presentable (∞,1)-category|presented]] by the [[model structure on simplicial sets]], truncation is given by the the [[coskeleton]] endofunctor 
+$\mathbf{cosk}_{n+1}$ on [[sSet]].
+
+The unit of the adjunction $(tr_n \dashv cosk_n)$
+
+$$
+  \mathbf{\tau}_n : \mathbf{}X \to \mathbf{cosk}_n(X)
+$$
+
+sends an $\infty$-groupoid modeled as a [[Kan complex]] [[simplicial set]] to its $n$-[[truncated|truncation]].
+
+Discussion of this can be found for instance in
+
+* [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
+
+*  [[John Duskin]] _Simplicial matrices and the nerves of weak $n$-categories I: Nerves of bicategories_ , TAC **9** no. 2, (2002). ([web](http://www.emis.de/journals/TAC/volumes/9/n10/9-10abs.html))
+
+
+### In $\infty$-Lie groupoids
+
+...
+
 ## Relation to other concepts
 
 At least if the ambient $(\infty,1)$-category is a [[locally contractible (∞,1)-topos]] $\mathbf{H}$, so that there is a notion of structured [[schreiber:path ∞-groupoid]]-functor $\mathbf{\Pi} : \mathbf{H} \to \mathbf{H}$, the [[homotopy fiber]]s of the morphisms $X \to \mathbf{\Pi}_n(X)$ into the Postnikov tower of $\mathbf{\Pi}(X)$ form the
 
 * [[Whitehead tower in an (∞,1)-topos|Whitehead tower in the (∞,1)-topos]] $\mathbf{H}$ of the object $X$.
+
 
 
 
