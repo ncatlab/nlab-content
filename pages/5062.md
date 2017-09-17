@@ -62,8 +62,9 @@ The usual rules for modal semantics apply.  An **arrow model**, $\mathfrak{M}$, 
 *  $\mathfrak{M},a \models\phi\circ \psi$ if and only if $\mathfrak{M},b \models\phi$ and $\mathfrak{M},c \models\psi$ for some $b,c$ with $C a b c$.
 
 
-
-
+[[!redirects arrow logic]]
+[[!redirects arrow structures]]
+[[!redirects arrow logics]]
 
 ##References##
 
