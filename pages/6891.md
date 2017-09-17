@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include cohomology - contents]]
 =--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
 =--
 =--
 
@@ -50,7 +54,7 @@ $$
   \,.
 $$
 
-This perspective on framing is made explicit for instance in ([Freed, slide 5](#Freed)).
+This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, slide 5](#Freed)).
 
 ## Related concepts
 
@@ -69,13 +73,21 @@ making explicit a structure which slightly implicit in the discussion of the [[p
 
 * [[Edward Witten]], _Quantum field theory and the Jones Polynomial_ , Comm. Math. Phys.  121 (1989)
 
-(see [Atiyah, page 6](#Atiyah)). For more on the role of 2-framings in Chern-Simons theory see also
+(see [Atiyah, page 6](#Atiyah)). For more on the role of 2-framings in [[Chern-Simons theory]] see also
 
 * [[Dan Freed]], Robert Gompf, _Computer calculation of Witten's 3-Manifold invariant_, Commun. Math. Phys. 141,79-117 (1991) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freedgompf.pdf))
 
 * [[Dan Freed]], _Remarks on Chern-Simons theory_ ([pdf slides])
  {#Freed}
 
+and for discussion in the context of the [[M2-brane]] from p. 7 on in 
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]] II: Twisted $String$ and $String^c$-structures_  ([arXiv:1007.5419](http://arxiv.org/abs/1007.5419)).
+
+The relation to [[string structures]] is made explicit in section 2.3 of 
+
+* [[Ulrich Bunke]], [[Niko Naumann]], _Secondary Invariants for String Bordism and tmf_ ([arXiv:0912.4875](http://arxiv.org/abs/0912.4875))
+ {#BunkeNaumann}
 
 Discussion in terms of bounding 4-manifolds is in 
 
