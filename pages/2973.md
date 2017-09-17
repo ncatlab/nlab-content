@@ -1,13 +1,21 @@
+
+# Weakly Hausdorff spaces
+* table of contents
+{: toc}
+
 ## Definition
 
-A [[topological space]] $X$ is **weakly Hausdorff** (or weak Hausdorff) if for any [[compact Hausdorff space]] $K$ and every [[continuous map]] $f:K\to X$, the image $f(K)$ is closed. Every weakly Hausdorff space is $T_1$ (that is every point is closed), and every [[Hausdorff space]] is weakly Hausdorff. For the most common purposes for which Hausdorff spaces are used, the assumption of being weakly Hausdorff suffices.   See also [[compactly generated space]].
+A [[topological space]] $X$ is **weakly Hausdorff** (or weak Hausdorff) if for any [[compact Hausdorff space]] $K$ and every [[continuous map]] $f\colon K\to X$, the [[image]] $f(K)$ is [[closed subspace|closed]]. Every weakly Hausdorff space is $T_1$ (that is every point is closed), and every [[Hausdorff space]] is weakly Hausdorff. For the most common purposes for which Hausdorff spaces are used, the assumption of being weakly Hausdorff suffices.  See also [[compactly generated space]].
+
+We have given the definition for topological spaces, but it also makes sense as stated for [[locales]].  Where these overlap ([[sober spaces]] and [[topological locales]]), they agree given the [[ultrafilter theorem]] (which implies that all compact Hausdorff spaces/locales are sober/topological).
+
 
 ## Weak Hausdorffification
 
-(this is a left adjoint...)
-
+(this is a [[left adjoint]] ...)
 
 
 [[!redirects weak Hausdorff space]]
 [[!redirects weak Hausdorff spaces]]
+[[!redirects weakly Hausdorff space]]
 [[!redirects weakly Hausdorff spaces]]
