@@ -30,8 +30,14 @@ $$\frac{\phi \quad \phi\to \psi}{\psi} \quad$$
 
 $$\frac{\phi}{K_i\phi}.$$
 
-The second deduction rule corresponds to the idea that if a statement has been proved, then it is known to all 'agents'.
+The second deduction rule corresponds to the idea that if _a statement has been proved, then it is known to all 'agents'_.
 
 
 ##K##
 This logic is the smallest [[normal modal logic]].
+
+##Semantics##
+The semantics of $K_{(m)}$ is just the Kripke semantics of this context, so a [[frame (modal logic)|frame]], \mathfrak{F}$ is just a set, $W$  of possible worlds with $m$ relations $R_i$. A [[geometric models for modal logics|model]], $\mathfrak{M} = (\mathfrak{F},V)$, is a frame in that sense together with a valuation, $V: Prop \to \mathcal{P}(W)$, and the satisfaction relation is as described in [[geometric models for modal logics]] with just the difference implied by the fact that that page correspond to the use of $\Diamond_i = M_i$ whilst this uses $K_i$.  This means that 
+
+* $\mathfrak{M},w \models K_i \phi$ if and only if, for all $v \in W$ such that $ R_i w v$, $\mathfrak{M},v \models \phi$.
+=--
