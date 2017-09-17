@@ -5,7 +5,7 @@
 
 ## Definitions
 
-An associative unital Banach algebra is [[monoid object]] in the category of [[Banach spaces]] (and [[short map|short]] [[linear operators]]).  However, Banach algebras are not usually assumed to be unital, making them [[semigroup]] objects (or even [[magma]] objects if not assumed to be associative).
+An associative unital Banach algebra is [[monoid object]] in the category of [[Banach spaces]] (and [[short linear operators]]).  However, Banach algebras are not usually assumed to be unital, making them [[semigroup]] objects (or even [[magma]] objects if not assumed to be associative).
 
 This means a Banach space $A$ equipped with a multiplication map
 $$ m\colon A \otimes A \to A ,$$
