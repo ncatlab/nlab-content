@@ -152,10 +152,20 @@ While on the right this expresses the collection of the pullback bundle, the lef
 
 ### Spin-, String- and Fivebrane-structures
 
-(...)
+Where a [[spin structure]] on [[spacetime]] is necessary to cancel a [[quantum anomaly]] of the [[spinning particle]]/[[superparticle]] [[sigma-model]], so the [[heterotic string|heterotic]] [[superstring]] requires a "higher spin structure" called a _[[string structure]]_. Or rather, in the presence of a nontrivial [[gauge field]] it involves a _[[twisted differential string structure|twisted string structure]]_ which in string theory is best known as showing up as part of the _[[Green-Schwarz mechanism]]_. Further up in dimension, _[[dual heterotic string theory]]_ involves a ([[twisted differential fivebrane structure|twisted, differential]]) _[[fivebrane structure]]_.
 
 #### Whitehead tower
+ {#WhiteheadTower}
 
+The nature of higher spin structures is governed by what is called the _[[Whitehead tower]]_ of the [[homotopy type]] of the [[classifying space]] $B O$ of the [[orthogonal group]], where in each stage a [[homotopy group]] is removed _from below_. This is [[duality|dual]] to the _[[Postnikov tower]]_, where in each stage a homotopy group is added from above.
+
+The [[homotopy groups]] of $B O$ start out as
+
+| $k =$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 
+|---|---|---|---|---|---|---|---|---|---|
+|$\pi_k(B O) = $  | * | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | 0 | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ |
+
+The Whitehead tower of $B O$ starts out as
 
 $$
   \array{
@@ -206,6 +216,38 @@ $$
   }
 $$
 
+where 
+
+* the stages are the [[deloopings]] of
+
+  ...
+  $\to$
+  [[fivebrane group]]
+  $\to$
+  [[string group]]
+  $\to$
+  [[spin group]]
+  $\to$
+  [[special orthogonal group]]
+  $\to$
+  [[orthogonal group]]
+
+* the obstruction classes are the [[universal characteristic classes]]
+
+  * [[first Stiefel-Whitney class]] $w_1$
+
+  * [[second Stiefel-Whitney class]] $w_2$
+
+  * [[Pontryagin class|first fractional Pontryagin class]] $\tfrac{1}{2}p_1$
+
+  * [[Pontryagin class|second fractional Pontryagin class]] $\tfrac{1}{6}p_2$
+
+* every possible square in the above is a [[homotopy pullback]] square (using the [[pasting law]]).
+
+For instance $w_2$ is identified as such by using that $[S^2,-]$ preserves [[homotopy pullbacks]] and sends $ B O \to \tau_{\leq 2} B O$ to a [[weak homotopy equivalence|equivalence]], so that $B SO \to B^2 \mathbb{Z}$ is an [[isomorphism]] on the second [[homotopy group]] and hence by the [[Hurewicz theorem]] is also an isomorphism on the [[cohomology group]] $H^2(-,\mathbb{Z}_2)$. Analogously for the other characteristic maps.
+
+In summary, more concisely, the tower is
+
 $$
   \array{
     \vdots
@@ -234,9 +276,48 @@ $$
     \\
     B GL
   }
+  \,,
 $$
 
+where each "hook" is a [[fiber sequence]].
+
+The [[universal property]] of [[homotopy pullbacks]] says that
+
+* the obstruction to lifting an [[orthogonal structure]] $T X : X \to B O$ to an [[orientation]] structure is the homotopy class $[w_1(T X)] \in H^1(B O, \mathbb{Z}_2)$ of $w_1(T X) : X \stackrel{T X}{\to} B O \stackrel{w_1}{\to} B \mathbb{Z}_2$, the [[first Stiefel-Whitney class]];
+
+* the obstruction to lifting an [[orientation]] structure $T X : X \to B SO$ to an [[spin structure]] is the [[second Stiefel-Whitney class]] $w_2(T X) : X \stackrel{}{\to} B S \stackrel{w_2}{\to} B^2 \mathbb{Z}_2$;
+
+* the obstruction to lifting a [[spin structure]] $X \to B Spin$ to an [[string structure]] is the [[first fractional Pontryagin class]];
+
+* the obstruction to lifting a [[string structure]] $X \to B String$ to a [[fivebrane structure]] is the [[second fractional Pontryagin class]].
+
+
+
 #### Smooth refinement
+
+The [[classifying space]] for, say, the [[spin group]] is _not_ a [[fine moduli space]]: while homotopy classes $Maps(X, B Spin)_\sim$ of maps $X \to B Spin$ are in bijection with equivalence classes of [[spin bundles]] on $X$, the homotopy classes $Maps(X, \Omega B Spin)_\sim = Maps(X, Spin)_\sim$ of [[homotopies]] from the trivial map $X \to * \to B Spin$ are _not_ in general in bijection with the [[gauge transformations]] of the trivial spin bundle: the latter form the set of [[smooth functions]] $C^\infty(X,Spin)$, not just the homotopy classes of these.
+
+Problems include for instance:
+
+* $Maps(X, B(-))_\sim$ does not give the right [[BRST-complex]];
+
+* $Maps(X, B(-))_\sim$ cannot distinguish a group from its [[maximal compact subgroup]], such as $O \hookrightarrow GL_n$, and hence cannot see [[vielbeins]], not [[generalized vielbeins]], not [[exceptional generalized geometry]];
+
+* $Maps(X, B(-))_\sim$ cannot distinguish (over 10-dimensional spacetime $X$) an [[E8]]-[[gauge field]] from a [[NS5-brane]] [[magnetic charge]];
+
+* etc.
+
+These problems are all fixed by refining the [[classifying space]] $B Spin \in \infty Grpd$ to the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B} Spin \in Smooth \infty Grpd$, and similarly for the other cases.
+
+
+**Theorem** There is a lift of the [above Whitehead tower](#WhiteheadTower) of [[homotopy type|bare homotopy types]] to a tower of [[smooth infinity-groupoid|smooth homotopy types]]/[[smooth infinity-stacks]] through the [[geometric realization]] map
+
+$$
+  {\vert -\vert} : Smooth \infty Grpd \stackrel{\Pi}{\to} \infty Grpd \simeq Top
+  \,.
+$$
+
+of the form
 
 $$
   \array{
@@ -266,7 +347,18 @@ $$
     \\
     \mathbf{B} GL
   }
+  \,.
 $$
+
+where 
+
+* $\mathbf{B}^{n+1} U(1)$ is the [[delooping]] of the smooth [[circle n-group]], the smooth moduli $(n+1)$-stack of smooth [[circle n-bundle with connection|circle n-bundles]];
+
+* $\mathbf{B} String$ is the [[delooping]] of the [[smooth string 2-group]], the moduli 2-stack of smooth $String$-[[principal 2-bundles]]
+
+* $\mathbf{B}Fivebrane$ is the delooping of the [[smooth fivebrane 6-group]], the smooth moduli 6-stack of smooth fivebrane-[[principal infinity-bundle|principal 6-bundles]].
+
+
 
 #### Differential refinement
 
