@@ -203,14 +203,14 @@ Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOf
 
 [[Snaith's theorem]] asserts that 
 
-1. the [[K-theory spectrum]] for [[complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized at the [[Bott element]] $\beta$:
+1. the [[K-theory spectrum]] for [[complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized away from the [[Bott element]] $\beta$:
 
    $$
      KU \simeq (\mathbb{S}[B U(1)])[\beta^{-1}]
      \,;
    $$
 
-1. the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
+1. the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized away from the [[Bott element]] $\beta$:
 
    $$
      MU \simeq (\mathbb{S}[B U])[\beta^{-1}]
