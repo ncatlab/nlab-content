@@ -34,6 +34,8 @@ Taking [[symmetric groups]] as [[general linear groups]] over the [[field with o
 
 ### For Lie groups
 
+For $G$ a connected [[compact Lie group]], then its conjugacy classes are in bijection with the [[quotient]] $T/W(G,T)$ of its [[maximal torus]] by the action of the [[Weyl group]]. See at _[maximal torus -- Properties](maximal+torus#Properties)_.
+
 The conjugacy classes of a [[Lie group]] with binary invariant pairing are the leaves of a [[Dirac structure]] on the Lie group, the _[[Cartan-Dirac structure]]_.
 
 Regarding the Lie group as the [[target space]] of the [[WZW model]], the conjugacy classes correspond to the [[D-branes]] of the model.
