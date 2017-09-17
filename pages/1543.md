@@ -686,7 +686,12 @@ $$
 
 with the evident composition operation.
 
-(...)
+The principal bundle $P \to X$ is recovered from its 
+Atiyah Lie groupoid, up to isomorphism, as the source fiber over
+any point.
+
+This is a classical statement due to Ehresmann ... .
+See for instance ([Androulidakis](#Androulidakis)).
 
 
 ## Examples
@@ -803,13 +808,24 @@ For principal bundles in the smooth context see most textbooks on _[[differentia
 also around section 3.1 of 
 
 * [[Ieke Moerdijk]], _On the classification of regular Lie groupoids_ ([pdf](http://igitur-archive.library.uu.nl/math/2007-0201-202453/moerdijk_02_on_the_classification.pdf))
+ {#Moerdijk}
 
 Lecture notes on the topic include
 
 * Stephan Mitchell, _Notes on principal bundles and classifying spaces_ (2001) ([pdf](http://math.mit.edu/~mbehrens/18.906/prin.pdf))
  {#Mitchell}
 
+### In relation to Lie groupoids
+ {#ReferencesInRelationToLieGroupoids}
 
+Discussion of [[Atiyah Lie groupoids]] associated to principal bundles and the reconstruction of principal bundles from their Atiyah Lie groupoids is due to 
+
+* Ehresmann, ...
+
+Further discussion along these lines is for instance in 
+
+* Iakovos Androulidakis, _Classification of extensions of principal bundles and transitive Lie groupoids with prescribed kernel and cokernel_ ([arXiv:math/0402007](http://arxiv.org/abs/math/0402007))
+ {#Androulidakis}
 
 ### Examples
 
