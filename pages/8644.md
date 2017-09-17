@@ -25,6 +25,16 @@ One considers QCD on a [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to
 
 In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see for instance ([Schaefer-Shuryak](#SchaeferShuryak)) for a good survey.
 
+## Experimental evidence
+
+An instanton vacuum is argued to account for
+
+* formation of the gluon condensate (M. Shifman, A. Vainshtein and V. Zakharov, Nucl. Phys. B 147 (1979) 385).
+
+* spontaneous chiral symmetry breaking ([Diakonov 96](#Diakonov96))
+
+* [[baryogenesis]] in the early universe by inducing baryon numbernon-conservation
+
 ## Critical discussion of the literature
  {#CriticalDiscussionOfTheLiterature}
 
@@ -94,7 +104,7 @@ and the fairly detailed account (with lot of pointers to the literature)
   section III D: relation to [[confinement]]
   {#SchaeferShuryak}
 
-* Dmitri Diakonov, _Chiral Symmetry Breaking by Instantons_ ([arXiv:hep-ph/9602375](http://arxiv.org/abs/hep-ph/9602375))
+* Dmitri Diakonov, _Instantons at work_ ([arXiv:hep-ph/0212026](http://arxiv.org/abs/hep-ph/0212026))
 
 See also the survey in 
 
@@ -109,6 +119,11 @@ This perspective is for instance also the one used in
 
 * [[Edward Witten]], _Global gravitational anomalies_,  Comm. Math. Phys. Volume 100, Number 2 (1985), 197-229. ([Euclid](http://projecteuclid.org/euclid.cmp/1103943444)) 
  {#Witten85}
+
+Discussion in the context of chiral symmetry breaking includes
+
+* {#Diakonov96} Dmitri Diakonov, _Chiral Symmetry Breaking by Instantons_ ([arXiv:hep-ph/9602375](http://arxiv.org/abs/hep-ph/9602375))
+
 
 Further developments on the role of instantons/[[monopoles]] in the QCD vacuum for [[confinement]] are discussed in
 
@@ -128,4 +143,3 @@ Further developments on the role of instantons/[[monopoles]] in the QCD vacuum f
 [[!redirects QCD instantons]]
 
 [[!redirects instanton sea]]
-
