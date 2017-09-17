@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+# The Hopf construction
+
+## Idea
+
+Let $X$ be a ([[connected space|connected]]?) [[H-space]].  The Hopf construction on $X$ yields a [[fibration]]
+$$ X \hookrightarrow X\ast X \to \Sigma X$$
+whose fiber is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join]] of $X$ with itself.
+
+## Examples
+
+When $X$ is a [[sphere]] that is an $H$-space, namely $S^0$, $S^1$, $S^3$ or $S^7$, then the Hopf construction produces the four [[Hopf fibrations]]:
+$$ S^0 \hookrightarrow S^1 \to S^1 $$
+$$ S^1 \hookrightarrow S^3 \to S^2 $$
+$$ S^3 \hookrightarrow S^7 \to S^4 $$
+$$ S^7 \hookrightarrow S^{15} \to S^8 $$
