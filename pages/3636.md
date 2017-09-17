@@ -123,6 +123,10 @@ There is an epimorphism from $\pi_0(\mathbb{P}([0,\infty),X))$ to $e(X)$.
 
 *  When $X$ has a single end and  $\pi_0(\varepsilon(X))$ is [[Mittag-Leffler condition|Mittag-Leffler]], then $\pi_0(\mathbb{P}([0,\infty),X))$, is a single point, i.e. all possible base rays are properly homotopic.
 
+
+###Second attempt###
+Even if we  did not have the above difficulty with the limit groups, we would still have the problem that, as the limit functor is not exact, the resulting limiting homotopy groups would not beeee that well behaved.  They would be  any general long exact sequence results (just as with [[Cech homology]]). There is at least one possible replacement for those limiting homotopy groups, but first we note that is is not appropriate to base any such things at a point, rather we should be using a base ray as was discussed above.
+
 ##References##
 
 Survey article:
