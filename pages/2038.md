@@ -19,7 +19,7 @@ The push-forward of superconnections corresponds to (...details...) the push-for
 
 ## Details ##
 
-Let $E \to Y$ be a hermitean $\mathbb{Z}_2$-graded [[vector bundle]] of finite rank with superconnection $\nabla = \nabla^E + \omega$ with ordinary connection part $\nabla^E$. 
+Let $E \to Y$ be a Hermitian $\mathbb{Z}_2$-graded [[vector bundle]] of finite rank with superconnection $\nabla = \nabla^E + \omega$ with ordinary connection part $\nabla^E$. 
 
 The push-forward of $E$ along $\pi$ is the $\mathbb{Z}_2$-graed  vector bundle $\pi_* E \to X$ of infinite rank whose fiber over $x \in X$ is the space of [[section]]s of the [[tensor product]] of the spin bundle over $Y_x$ and $E_y$
 
