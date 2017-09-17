@@ -24,13 +24,24 @@ $$
 
 are all $O(n)\times O(k)$-[[equivariance|equivariant]], hence are [[action]] [[homomorphisms]]. There is a natural [[homotopy theory]] of such orthogonal spectra and it is equivalent to the standard [[stable homotopy theory]] ([MMSS 98](#MMSS08)).
 
+## Definition
+
+see ([Schwede, chapter III.1](#Schwede))
+
 ## Properties
 
 ### Homotopy theory
 
 ([MMSS 98b](#MMSS98b))
 
+### Relation to the J-homomorphism
+
+see ([Schwede, example 4.22](#Schwede))
+
+
 ### Relation to the cobordism hypothesis
+
+> check
 
 A [[connective spectrum]] is equivalently a grouplike [[E-∞ space]], hence a [[Picard ∞-groupoid]]. As such it is an [[(∞,0)-category]] of [[fully dualizable objects]]. By the [[cobordism hypothesis]] this means that it is equipped with an $O(n)$-[[∞-action]] for all $n$, coming from the action $O(n)$ on the [[framed manifold|n-framings]] of the point in the [[(∞,n)-category of cobordisms]]. This $O(n)$-action is that which is encoded by the definition of orthogonal spectrum ([Lurie 09, example 2.4.15](#Lurie09)).
 
@@ -49,16 +60,23 @@ Since orthogonal spectra are by definition equipped with orthogonal group [[acti
 
 ## References
 
-Orthogonal spectra were introduced in 
+Orthogonal spectra were introduced around
 
 * {#MMSS98a} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Diagram spaces, diagram spectra, and FSP's_, 1998 ([KTheory:0319](http://www.math.uiuc.edu/K-theory/0319/))
 
+and their [[homotopy theory]] and [[Quillen equivalences]] were discussed in
 
 * {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _Model categories of diagram spectra_, 1998 ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
+
+* {#MandellMay00} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and $S$-modules_, 2000 [KTheory:0408](http://www.math.uiuc.edu/K-theory/0408/)
+
+* [[Tore Kro]], _Model structure on operads in orthogonal spectra_, Homology Homotopy Appl. Volume 9, Number 2 (2007), 397-412.([Euclid](http://projecteuclid.org/euclid.hha/1201127343))
 
 and in the context of [[equivariant stable homotopy theory]]
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_. Preprint, April 29, 2000, ([KTheory:0408](http://www.math.uiuc.edu/K-theory/0408/))
+
+* {#Schwede} [[Stefan Schwede]], _Global homotopy theory_ ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
 
 
 Reviews include
