@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -16,9 +21,36 @@
 
 ## Definition
 
-A [[locally small category]] $C$ is **total** if its [[Yoneda embedding]] $C\to [C^{op},Set]$ has a [[adjoint functor|left adjoint]].  If $C^{op}$ is total, $C$ is called **cototal**.
++-- {: .num_defn}
+###### Definition
 
-The definition above requires some set-theoretic assumption to ensure that the [[functor category]] $[C^{op},Set]$ exists, but it can be rephrased to say that the [[colimit]] of $Id_C:C\to C$ [[weighted limit|weighted]] by $W$ exists, for any $W:C^{op}\to Set$.  (This still involves [[quantification]] over large objects, however, so some foundational care is needed.)  This version has an evident generalization to [[enriched category|enriched]] categories.
+A [[locally small category]] $C$ is **total** if its [[Yoneda embedding]] $Y \;\colon \;C\longrightarrow [C^{op},Set]$ has a [[left adjoint]] $L$.  
+
+If the [[opposite category]] $C^{op}$ is total, $C$ is called **cototal**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The definition above requires some [[set theory|set-theoretic]] assumption to ensure that the [[functor category]] $[C^{op},Set]$ exists, but it can be rephrased to say that the [[colimit]] of $Id_C:C\to C$ [[weighted limit|weighted]] by $W$ exists, for any $W:C^{op}\to Set$.  (This still involves [[quantification]] over large objects, however, so some foundational care is needed.)  This version has an evident generalization to [[enriched category|enriched]] categories.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Since the [[Yoneda embedding]] is a [[full and faithful functor]], a total category $C$  induces an [[idempotent monad]] $Y \circ L$ on its [[category of presheaves]], hence a [[modality]].  One says that $C$ is a [[totally distributive category]] if this modality is itself the [[right adjoint]] of an [[adjoint modality]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The $(L \dashv Y)$-[[adjunction]] of a total category is closely related to the 
+$(\mathcal{O} \dashv Spec)$-[[adjunction]] discussed at _[[Isbell duality]]_ and at _[[function algebras on ∞-stacks]]_. In that context the $L Y$-[[modality]] deserves to be called the _[[affine modality]]_.
+
+=--
 
 ## Properties
 
