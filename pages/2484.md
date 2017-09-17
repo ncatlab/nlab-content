@@ -1,3 +1,15 @@
-The functor of points as introduced and defined by Grothendieck is either the image of some geometric space by [[Yoneda embedding]] into the category of presheaves on some ambient category of geometric spaces or, better, its restriction to some subcategory of local models or nice spaces. In another way, the functor of points corresponding to a space is its corresponding representable presheaf, but the point in the notion is that nonrepresentable functors of points are of the main interest, as well as their relation to representables (for example, being prorepresentable).  
+The concept of a **functor of points** as introduced and defined by Grothendieck is either the image of some geometric space by [[Yoneda embedding]] into the category of presheaves on some ambient category of geometric spaces or, better, its restriction to some subcategory of local models or nice spaces. In other words, the functor of points corresponding to a space is its corresponding representable presheaf, but the point of the concept is that nonrepresentable functors of points can be studied, as well as their relation to representables (for example, being prorepresentable).  
 
-In this approach the spaces are sheaves of sets in some *subcanonical* Grothendieck topology on the category of local models $Aff$. Not only spaces, but also additional structures on spaces (like group structure, equivariance, tangent bundle) are represented as presheaves of sets, of groups, of $O$-modules etc. on $Aff$. 
+In this approach the spaces are sheaves of sets in some *subcanonical* Grothendieck topology on the category of local models $Aff$. Not only spaces, but also additional structures on spaces (like group structure, equivariance, tangent bundle) are represented as presheaves of sets, of groups, of $O$-modules etc. on $Aff$.
+
+##Example
+
+The functor from commutative rings to sets which sends a ring, $R$, to the set of simultaneous solutions in $R^n$ of a set of polynomials, $f_1, \ldots, f_k$ in $\mathbb{Z}[t_1, \ldots,t_n]$ corresponds to the affine scheme $X = Spec(\mathbb{Z}[t_1, \ldots,t_n]/(f_1, \ldots,f_k))$. These $R$-points are then equivalently the hom-space
+
+$$
+Hom_{schemes}(Spec(R), X).
+$$
+
+Example of nonrepresentable functor of points...
+
+[[!redirects functors of points]]
