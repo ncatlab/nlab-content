@@ -25,7 +25,7 @@ A bisimplicial set is a bisimplicial object in [[Set]].
 
 ### Diagonal
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 **(diagonal)**
 
@@ -39,7 +39,7 @@ $$
 =--
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 **(realization)**
 
@@ -53,7 +53,7 @@ in [[sSet]].
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 **(diagonal is realization)**
 
@@ -77,7 +77,7 @@ This is exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/pa
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 **(diagonal is homotopy colimit)**
 
@@ -109,7 +109,7 @@ $$
 in [[Reedy model structure]]s (as discussed there) by using that $\Delta[-] : \Delta \to sSet_{Quillen}$ is a Reedy cofibrant resultion of the point in $[\Delta, sSet_{Quillen}]$ and that every object in $[\Delta^{op}, sSet_{Quillen}]_{Reedy}$ is cofibrant.
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 **(degreewise weak equivalences)**
 
@@ -332,12 +332,12 @@ This is ([CegarraRemedios, theorem 9](#CegarraRemedios)).
 
 #### Remark on notation
 
-There are two uses of $\bar W$ in this area, one is as used in ([CegarraRemedios](#CegarraRemedios)) where it is used for the codiagonal, that has been written $\nabla$ above, the other is for the classifying space functor for a [[simplicial group]] and this latter is not only the older of the two uses by also comes with a related $W$ construction.  The relationship between the two is that given a simplicial group or simplicially enriched groupoid, $G$, applying the [[nerve]] functor in each dimension gives a bisimplicial set and $\bar{W}G = \nabla Ner G$. Because of this, some care is needed when using these sources.
+There are two uses of $\bar W$ in this area, one is as used in ([CegarraRemedios](#CegarraRemedios)) where it is used for the codiagonal (denoted "$\nabla$" above), the other is for the [[classifying space]] functor for a [[simplicial group]]. This latter is not only the older of the two uses, but also comes with a related $W$ construction.  The relationship between the two is that given a simplicial group or simplicially enriched groupoid, $G$, applying the [[nerve]] functor in each dimension gives a bisimplicial set and $\bar{W}G = \nabla Ner G$. Because of this, some care is needed when using these sources.
 
 ## Bisimplicial abelian groups 
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Let $A,B : \Delta^{op} \times \Delta^{op} \to Ab$ be bisimplicial abelian groups.
