@@ -54,7 +54,7 @@ $$
   }
 $$
 
-All this may be summed up by saying that a natural numbers object is an [[initial algebra|initial]] [[algebra for an endofunctor|algebra for the endofunctor]] $X \mapsto 1 + X$.
+All this may be summed up by saying that a natural numbers object is an [[initial algebra|initial]] [[algebra for an endofunctor|algebra for the endofunctor]] $X \mapsto 1 + X$ (the functor underlying the "[[maybe monad]]").
 Equivalently, it is an initial [[algebra for an endo-profunctor|algebra for the endo-profunctor]]  $Hom_E(1,=) \times Hom_E(-,=)$.
 
 By the universal property, the natural numbers object is unique up to [[isomorphism]].
