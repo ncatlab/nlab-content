@@ -1,0 +1,26 @@
+
+> This entry is about the formal dual [[topological space]] of a [[commutative ring]]. For the very different notion of a similar name in [[higher algebra]] see at [[ring spectrum]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[commutative ring]] $R$, its _spectrum_ is the [[topological space]] whose points are the [[prime ideals]] of $R$ and whose [[topology]] is the [[Zariski topology]] on these prime ideals.
+
+## Related concepts
+
+* [[affine scheme]]
+
+* [[spectral topological space]]
+
+## References
+
+* Wikipedia, _[Spectrum of a ring](http://en.wikipedia.org/wiki/Spectrum_of_a_ring)_
+
+[[!redirects spectrum of a ring]]
+
+[[!redirects spectra of commutative rings]]
+
+[[!redirects spectra of rings]]
