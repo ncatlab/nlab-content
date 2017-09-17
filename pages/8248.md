@@ -71,7 +71,7 @@ $$
   }
 $$
 
-where each hook is a [[fiber sequence]]. Then the induced [[long exact sequence]] on [[homotopy groups]]
+where each hook is a [[fiber sequence]]. Then the induced [[long exact sequences of homotopy groups]]
 
 $$
   \cdots
@@ -84,7 +84,7 @@ $$
   \cdots
 $$
 
-gives an exact couple by taking $E$ and $D$ to be the bigraded abelian groups
+for all $s$ give an exact couple by taking $E$ and $D$ to be the bigraded abelian groups
 
 $$
   D \coloneqq \pi_\bullet(X_\bullet)
@@ -97,7 +97,7 @@ $$
 
 and taking $\phi$ and $k$ to be given by the [[functor|functoriality]] of the [[homotopy groups]] $\pi_{\bullet}$ and finally taking $j$ to be given by the [[connecting homomorphism]]. 
 
-For instance the [[Adams spectral sequence]] arises from an exact couple this way.
+For instance for the original [[diagram]] an [[Adams resolution]] then this [[spectral sequence]] is the [[Adams spectral sequence]].
 
 =--
 
