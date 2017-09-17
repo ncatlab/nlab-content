@@ -100,6 +100,10 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 * [[superselection sector]]
 
+* [[entanglement entropy]]
+
+* [[holographic entanglement entropy]]
+
 ## References
 
 An introduction is in 
