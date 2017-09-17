@@ -23,6 +23,11 @@ A [[formal group]]-analog of the [[Brauer group]]. The special case of the conce
 
 In higher dimensional analogy of how the [[formal Picard group]] of an [[elliptic curve]] gives the [[formal group]] of an [[elliptic spectrum]] representing an [[elliptic cohomology theory]], so the formal Brauer group of a [[K3 surface]] gives the formal group of an [[complex oriented cohomology theory]] given by a [[spectrum]] hence called a _[[K3-spectrum]]_ [[Brown representability theorem|representing]] _[[K3-cohomology]]_.
 
+## Related concepts
+
+[[!include moduli of higher lines -- table]]
+
+
 ## References
 
 The original account of the construction of formal Picard groups is
