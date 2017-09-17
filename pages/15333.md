@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a [[ringed space]]/[[ringed topos]] $(X, \mathcal{O}_X)$, with [[structure sheaf]] $\mathcal{O}_X$, then the _sheaf of rational functions_ $K_X$ associated with this data is the [[sheafification]] of the [[presheaf]] obtained from the [[structure sheaf]] by [[localization of a ring|localizing]] its values $\mathcal{O}_X(U)$ at the elements $f \in \mathcal{O}_X(U)$ which are [[stalk|stalkwise]] not [[zero-divisiors]].
+Given a [[ringed space]]/[[ringed topos]] $(X, \mathcal{O}_X)$, with (commutative) [[structure sheaf]] $\mathcal{O}_X$, then the _sheaf of rational functions_ $K_X$ associated with this data is the [[sheafification]] of the [[presheaf]] obtained from the [[structure sheaf]] by [[localization of a ring|localizing]] its values $\mathcal{O}_X(U)$ at the multiplicative set all $f \in \mathcal{O}_X(U)$ which are [[stalk|stalkwise]] not [[zero-divisors]].
 
 On an [[integral scheme]] this amounts to forming [[fields of fractions]] of the [[regular functions]].
 
