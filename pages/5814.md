@@ -29,3 +29,5 @@ L_d & L_+ & L_-
 $$
 
 category: knot theory
+
+[[!redirects Vassiliev skein relations]]
