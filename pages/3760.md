@@ -74,7 +74,7 @@ Given a group presentation, it is natural to perform transformations using subst
 
 ## Combinatorial group theory
 
-The study of group presentations, their transformations etc. forms part of _combinatorial group theory_
+The study of group presentations, their transformations etc. forms part of [[combinatorial group theory]].
 
 
 ## References
@@ -83,6 +83,18 @@ A basic introduction to the theory of group presentations can be found in some s
 
 
  * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+
+
+For more elementary or introductory texts, see, for instance,
+
+* D. L. Johnson, Presentations of Groups (London Mathematical Society Student Texts 15) 1990, Cambridge Univ. Press,
+
+or his earlier:
+
+* D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press,
+
+which have some very useful material in them.
+
 
 For a deeper treatment of the area, more specialised sources are needed:
 
