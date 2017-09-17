@@ -15,7 +15,7 @@
 
 ## Idea
 
-Where _[[cohomology]]_ classifies [[cocycles]] on a space $X$ with coefficients in some object $A$, _relative cohomology_ for a map of spaces $Y \to X$ classifies cocycles on $X$ that satisfy some condition when pulled back to $Y$, such as being trvializable there.
+Where _[[cohomology]]_ classifies [[cocycles]] on a space $X$ with coefficients in some object $A$, _relative cohomology_ for a map of spaces $Y \to X$ classifies cocycles on $X$ that satisfy some condition when pulled back to $Y$, such as being trivializable there.
 
 ## Definition
 
@@ -151,5 +151,5 @@ $$
 
 For $Y$ a [[smooth manifold]], the $f$-[[twisted cohomology]] of $X$ is classifies $U(n)$-principal [[twisted bundles]] on $Y$, as discussed there. These appear in [[string theory]]/[[twisted K-theory]], where the twist is a [[B-field]]/[[circle n-bundle with connection|circle 2-bundle]]/[[bundle gerbe]] classified by $Y \to \mathbf{B}^2 U(1)$.
 
-But in these applications, this 2-bundle is the restriction of an ambient 2-bundle classified by $\mathbf{c} : X \to \mathbf{B}^2 U(1)$ on a [[spacetime]] $X$ along an embedding $Y \hookrightarrow X$ of the [[D-brane]] [[worldvolume]]. Therefore the [[moduli stack]] of total field configurations consisting of the ambient [[B-field]] and the [[gauge field]] on the D-brane (see [[Freed-Witten anomaly]] for the details of this mechanism) is the $infty$-groupoid of $(Y \hookright X)$-relative cocycles with coefficients in $(\mathbf{B}PU \to \mathbf{B}^2 U(1))$.
+But in these applications, this 2-bundle is the restriction of an ambient 2-bundle classified by $\mathbf{c} : X \to \mathbf{B}^2 U(1)$ on a [[spacetime]] $X$ along an embedding $Y \hookrightarrow X$ of the [[D-brane]] [[worldvolume]]. Therefore the [[moduli stack]] of total field configurations consisting of the ambient [[B-field]] and the [[gauge field]] on the D-brane (see [[Freed-Witten anomaly]] for the details of this mechanism) is the $\infty$-groupoid of $(Y \hookrightarrow X)$-relative cocycles with coefficients in $(\mathbf{B}PU \to \mathbf{B}^2 U(1))$.
 
