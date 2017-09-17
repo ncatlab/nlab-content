@@ -25,7 +25,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -121,6 +121,7 @@ String theory leads a life somewhere in between the usual physics literature and
 
       * [[A-infinity category|A-infinity categories]]
 
+* [[string field theory]]
 
 * [[T-duality]]
 
@@ -154,3 +155,4 @@ A book trying to summarize the state of the art of capturing mathematical struct
 [[!redirects string]]
 
 [[!redirects string perturbation series]]
+[[!redirects perturbative string theory]]
