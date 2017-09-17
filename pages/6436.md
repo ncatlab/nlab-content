@@ -202,7 +202,7 @@ $$
   \subset Conf 
 $$
 
-happen to be the local critical points of the [[functional]]
+happen to be the local critical points of the [[nonlinear functional|functional]]
 
 $$
   S : Conf \to \mathbb{R}
@@ -321,7 +321,7 @@ $$
   \,.
 $$
 
-Given any [[circle n-bundle with connection]] $\nabla$ and closed $\Sigma$ of dimension $n$, there is a [[higher parallel transport|higher]] [[holonomy]] [[functional]]
+Given any [[circle n-bundle with connection]] $\nabla$ and closed $\Sigma$ of dimension $n$, there is a [[higher parallel transport|higher]] [[holonomy]] [[nonlinear functional|functional]]
 
 $$
   hol(\nabla, -) : (\Sigma \stackrel{\gamma}{\to} X) \mapsto 
