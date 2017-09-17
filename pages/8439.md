@@ -38,11 +38,14 @@ These two forms turn out to have many parallel features, e.g. [[reflexivity]] an
 
 This leads to a notion that we will call an _LF-type_.  Thus we will have types such as
 
-1. the _LF-type of evidence for some judgment_;
-1. the _LF-type of objects of a syntactic category_;
-1. _[[dependent product types]]_ 
+* The _LF-type of evidence for some judgment_.
+* The _LF-type of objects of a syntactic category_.
 
---- this turns out to be enough for everything we need.
+We will also have some general type-forming operations.  Perhaps surprisingly, it turns out that
+
+* _[[dependent product types]]_ 
+
+are all that we need.
 
 There is a potential confusion of terminology, because these *LF-types* in a logical framework (being itself a [[type theory]]) are distinct from the objects that may be called "types" in any particular logic we might be talking about *inside* the logical framework.  Thus, for instance, when formalizing [[Martin-Lof type theory]] in a logical framework, there is an "LF-type" which is the type of objects of the syntactic category of MLTT-types.  This is furthermore distinct from a [[type of types]], which is itself an object of the syntactic category of MLTT-types, i.e. a term belonging to the LF-type of such.
 
