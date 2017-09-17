@@ -144,6 +144,11 @@ A clean review is provided in
 
 * Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
 
-[[!redirects spin^c structures]]
+[[!redirects twisted spin^c structures]]
+
+[[!redirects twisted spin^c-structure]]
+[[!redirects twisted spin^c-structures]]
+
+
 [[!redirects Freed-Witten anomaly]]
 [[!redirects Freed-Witten anomaly cancellation]]
