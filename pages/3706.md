@@ -171,6 +171,8 @@ The dg-Lagrangian submanifolds of a Courant Lie 2-algebroid $(\mathfrak{C}, \ome
 
 ## Related concepts
 
+* [[Lagrangian subspace]], [[Lagrangian Grassmannian]]
+
 * [[Lagrangian correspondence]], [[prequantized Lagrangian correspondence]]
 
 * [[Lagrangian cobordism]]
@@ -190,7 +192,9 @@ The dg-Lagrangian submanifolds of a Courant Lie 2-algebroid $(\mathfrak{C}, \ome
 
 ## References
 
-The concept of lagrangian submanifold has been defined/named by Maslov. 
+The concept of lagrangian submanifold has been defined/named in
+
+* [[Victor Maslov]], _Perturbation Theory and Asymptotic Methods_ (MSU Publ., Moscow, 1965; English translation: Mir, Moscow, 1965).
 
 An introduction with an eye towards [[geometric quantization]] is for instance in
  
