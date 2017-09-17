@@ -1,0 +1,17 @@
+author: AnonymousCoward
+company: 
+title: URL
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+URL
+==============
+
+My First Slide
+-----------------
+
+www.emre2.com
