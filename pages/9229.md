@@ -43,6 +43,8 @@ Holomorphic CS may be understood in terms of a nonabelian version of the _[[beta
 
 * [[analytically continued Chern-Simons theory]]
 
+* [[Spin Chern-Simons theory]]
+
 ## References
 
 Reviews include
