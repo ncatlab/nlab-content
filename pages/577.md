@@ -110,3 +110,5 @@ Some past discussion about the term 'cartesian' has been moved to [[locally cart
 [[!redirects cartesian monads]]
 [[!redirects Cartesian monad]]
 [[!redirects Cartesian monads]]
+[[!redirects cartesian natural transformation]]
+[[!redirects cartesian natural transformations]]
