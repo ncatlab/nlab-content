@@ -1,12 +1,19 @@
 
 > under construction
 
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-***
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
-
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -49,6 +56,12 @@ see [[homotopy Kan extension]]
 ### In terms of simplicial model categories
 
 see [[homotopy Kan extension]]
+
+## Related concepts
+
+* [[Kan extension]]
+
+* **$(\infty,1)$-Kan extension**
 
 ## References
 
