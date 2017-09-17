@@ -20,7 +20,7 @@ More concretely this means that a stack on a [[site]] $S$ is
 
 In the latter case, the stack is sometimes referred to as a stack of groupoids. This is the more commonly occurring case so the term 'stack' has come to mean 'stack of groupoids' in much of the literature. 
 
-In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[generalized smooth spaces]] are only beginning to be investigated more in [[Lie theory]]. 
+In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[diffeological space]]s are only beginning to be investigated more in [[Lie theory]]. 
 
 
 ## Provisional discussion
@@ -85,6 +85,13 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
 (where the first equivalence comes from the bicategorical Yoneda lemma, and the second functor is induced from the subfunctor $i: F \to \hom(-, c)$) is an equivalence for all $J$-covering sieves $F$. This formulation connects up nicely, that is, is a straight categorification of what was put down in the entry [[sheaf]]. 
 
+## Related concepts
+
+Special kinds of stacks include
+
+* [[geometric stack]]s;
+
+* [[gerbe]]s.
 
 ## References
 
@@ -99,6 +106,10 @@ The article
  * [[Angelo Vistoli]], _Notes on Grothendieck topologies, fibered categories and descent theory_ ([arXiv](http://arxiv.org/abs/math/0412512))
 
 discusses stacks focussing on their dual incarnation as [[Grothendieck fibration]]s.
+
+A [[model category]] presentation of stacks that mimics the way the [[model structure on simplicial presheaves]] models [[∞-stack]]s is discussed in
+
+* [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
 
 [[!redirects stack*]]
 [[!redirects stacks]]
