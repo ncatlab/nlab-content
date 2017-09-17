@@ -31,7 +31,15 @@ _Deformation quantization_ is one formalization of the general idea of [[quantiz
 
 Deformation quantization focuses on the [[algebras of observables]] of a physical system (hence on the [[Heisenberg picture]]): it provides rules for how to [[deformation theory|deform]] the commutative algebra of classical observables to a non-commutative algebra of quantum observables. (This is in contrast to [[geometric quantization]], which focuses on the [[spaces of states]] and hence on the [[Schrödinger picture]].)
 
-Usually and traditionally, _deformation quantization_ refers to (just) _formal_ deformations, in the sense that it produces [[formal power series]] expansions in a formal parameter $\hbar$ (physically: [[Planck's constant]]) of the product in the deformed algebra of observables. But there are refinements of this to [[C-star algebraic deformation quantization]] which studies the proper deformation to a genuine [[C-star algebra]] of observables.
+Usually and traditionally, _deformation quantization_ refers to (just) _formal_ deformations, in the sense that it produces [[formal power series]] expansions in a formal parameter $\hbar$ (physically: [[Planck's constant]]) of the product in the deformed algebra of observables. 
+
+| [[classical mechanics]] | [[semiclassical approximation]] |  ... | [[formal deformation quantization]] | [[quantum mechanics]] |
+|--|--|--|--|--|
+| $\mathcal{O}(\hbar^0)$ | $\mathcal{O}(\hbar^1)$ | $\mathcal{O}(\hbar^n)$ | $\mathcal{O}(\hbar^\infty)$  |  |
+
+
+
+But there are refinements of this to [[C-star algebraic deformation quantization]] which studies the proper deformation to a genuine [[C-star algebra]] of observables.
 
 
 As any other quantization, the deformation quantization has as an input a description of a [[classical mechanical system]], which is in this case most often a smooth [[Poisson manifold]]. The deformation quantization replaces the algebra of [[smooth functions]] on the Poisson manifold with the same [[vector space]], but equipped with new noncommutative [[associative algebra|associative unital product]] whose [[commutator]] agrees, up to order $\hbar$, with the underlying [[Poisson bracket]]. Of course the proper study of quantization of Poisson manifolds studied the appropriate notion at the level of [[sheaves]] of algebras. Gluing local solutions to the quantization problem furthermore involves [[stacks]] and specifically [[gerbes]].  
