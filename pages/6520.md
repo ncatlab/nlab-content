@@ -31,6 +31,11 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 
 * [[instanton sector]]
 
+* [[non-perturbative effect]], [[non-perturbative quantum field theory]], [[non-perturbative string theory]]
+
+* [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
+
+
 [[!include gauge field - table]]
 
 
