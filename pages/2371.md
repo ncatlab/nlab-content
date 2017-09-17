@@ -73,4 +73,12 @@
 
 * [[derived geometry]]
 
+## Theorems
+
+* [[Deligne conjecture]]
+
+* [[delooping hypothesis]]
+
+
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+algebra+-+contents)</div>
