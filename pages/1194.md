@@ -586,7 +586,7 @@ Textbook accounts in from the point of view of [[programming languages]] include
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
-A textbook account in the context of [[homotopy type theory]] i in 
+A textbook account in the context of [[homotopy type theory]] is in 
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
