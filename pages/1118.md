@@ -54,12 +54,12 @@ $$
 (telling us that the unit map picks out an element that is a left and right identity), and
 $$
 \array{
-G & \stackrel{(id,(-)^{-1})}{\to} & G\times G\\
- ((-)^{-1},id)\downarrow & \underset{1}{\searrow}& \downarrow m \\
+G & \stackrel{(id,(-)^{-1})\circ\Delta}{\to} & G\times G\\
+ ((-)^{-1},id)\circ\Delta\downarrow & \underset{1}{\searrow}& \downarrow m \\
  G\times G & \stackrel{m}{\to} &G
 }
 $$
-(telling us that the inverse map really does take an inverse), where we have let $1: G \to G$ denote the composite $G \to * \stackrel{1}{\to} G$.
+(telling us that the inverse map really does take an inverse), where we have let $1: G \to G$ denote the composite $G \to * \stackrel{1}{\to} G$ and $\Delta$ is a [[diagonal morphism]].
 
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
