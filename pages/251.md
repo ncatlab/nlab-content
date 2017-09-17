@@ -124,15 +124,26 @@ that this is the "only obstacle," in the same sense that $K_5$ and $K_{3,3}$ are
 In some double categories, however, even pinwheels can be composed, due to certain factorization properties of squares.  These properties are investigated in the above papers as well.
 
 
+## Higher categories of double categories
+
+There are notions of [[double functor|functor]] and of [[vertical transformation|transformation]] between double categories, which make them into a [[2-category]].  In fact, due to the vertical-horizontal symmetry, there are two such 2-categories, depending on the direction we choose the transformations to go in.  Moreover, we can also take the functors to be strict, pseudo, lax, or colax, so there are many possible 2-categories of double categories.
+
+In some contexts, a natural observation is that the 1-category $DblCat$ is [[cartesian closed category|cartesian closed]], and thus enriched over itself--thus it forms a "locally-double" category, i.e. a category enriched over double categories.  This can be regaded as a structure like a [[3-category]], except that it has two different kinds of 2-cells (in this case, the vertical and horizontal transformations).
+
+If we choose a particular direction, say the vertical direction, as is natural when dealing with [[proarrow equipments]], then we can also define an ordinary (weak) [[3-category]] of double categories, double functors of any sort, vertical *pseudonatural* transformations, and modifications.  In some situations, such as the study of [[generalized multicategories]], this 3-category is a natural place in which to work (or an enlargement of it to include [[virtual equipments]] as well).
+
+In any of these higher categories, we can apply the notions and methods of higher category theory.  For instance, we automatically obtain a notion of [[monoidal double category]], namely a [[pseudomonoid]] in $DblCat$.  Likewise we have *cartesian double categories*, which are [[cartesian objects]] in $DblCat$.  If the double category in question is [[fibrant double category|fibrant]], then monoidal structures can be lifted to the horizontal bicategory; many naturally occurring [[cartesian bicategories]] can be obtained in this way.
+
+Finally, if we want to discuss [[weighted limits]] and colimits in double categories, or construct [[generalized multicategories]] based on double categories, we may want to [[2-category equipped with proarrows|equip DblCat with proarrows]].  There is a notion of [[double profunctor]], but they do not compose associatively, and hence do not form a proarrow equipment in the usual sense; but they do form a [[virtual equipment]], which is sufficient for many purposes.
+
+
 ## Related pages
 
-* [[2-category equipped with proarrows]]
+* [[2-category equipped with proarrows]], [[framed bicategory]]
 
 * [[double functor]], [[vertical transformation]], [[horizontal transformation]]
 
 * [[double profunctor]]
-
-* [[framed bicategory]]
 
 
 ## References ##
