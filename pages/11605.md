@@ -50,7 +50,7 @@ By way of these deep relations intermediate Jacobians play an important role in 
 
 ## Definition
 
-### In complex geometry
+### For differential ordinary cohomology
  {#InComplexGeometry}
 
 #### The underlying real manifold
@@ -453,8 +453,11 @@ if $H$ has weight $2k+1$.
 
 (e.g. [Peters-Steenbrink 08, example 3.30, section 7.1.2](#PetersSteenbrink08))
 
-### General
+
+### For differential generalized cohomology
  {#GeneralDescripion}
+
+#### General construction
 
 > under construction, see also ([Hopkins-Quick 12](#HopkinsQuick12))...
 
@@ -552,6 +555,14 @@ $$
 $$
 
 In this form this manifestly says that $\mathbf{J}(\Sigma,\hat E)$ is precisely the differential cohomology theory of $\Sigma$ obtained from $\hat E$ by restricting to trivial curvature and trivial underlying $\Pi(E)$-cohomology.
+
+#### For complex K-theory 
+ {#ForComplexKTheory}
+
+Intermediate Jacobians of [[K-theory]] classes were considered in the [[physics]]-style literature in ([Witten 99, section 4.3](#Witten99), [Moore-Witten 99, section 3](#MooreWitten99), [DMW 00, section 7.1](#MW00), [Belov-Moore 06b, section 5](#BelovMooreII)) as a means for [[quantization]] of the [[RR-field]] in [[type II superstring theory]] as a [[self-dual higher gauge theory]] (see there at _[Examples -- RR-fields in 10d](self-dual%20higher%20gauge%20theory#RRFieldsin10d)_). A mathematical discussion inspired by this is in ([MPS 11](#MPS11)).
+
+
+
 
 
 ## Properties
@@ -716,6 +727,7 @@ Reviews and surveys include
 
 * [[eom]], _[Intermediate Jacobian](http://www.encyclopediaofmath.org/index.php/Intermediate_Jacobian)_
 
+
 * Wikipedia, _[Intermediate Jacobian](http://en.wikipedia.org/wiki/Intermediate_Jacobian)_
 
 * {#Walls12} [[Patrick Walls]], _Intermediate Jacobians and Abel-Jacobi maps_, 2012 ([[WallsJacobian.pdf:file]])
@@ -734,7 +746,7 @@ Discussion of the generalization to [[Hodge structures]] includes
 
 * [pdf](http://www-fourier.ujf-grenoble.fr/~peters/world.f/Torino.pdf)
 
-### For Calabi-Yau 3-folds
+#### For Calabi-Yau 3-folds
 
 * C. Herbert Clemens, [[Phillip Griffith]], _The intermediate Jacobian of the cubic threefold_, Annals of Mathematics Second Series, Vol. 95, No. 2 (Mar., 1972), pp. 281-356 ([JSTOR](http://www.jstor.org/stable/1970801))
 
@@ -765,6 +777,23 @@ and the argument there was made rigorous in
 * {#HopkinsSinger02} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
 ### For generalized cohomology
+
+Intermediate Jacobians of [[K-theory]] classes were discussed in the [[physics]] literature context of [[self-dual higher gauge theory]] for [[RR-fields]] in
+
+* {#Witten99} [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+
+* {#MooreWitten99} [[Gregory Moore]], [[Edward Witten]], _Self-Duality, Ramond-Ramond Fields, and K-Theory_, JHEP 0005:032,2000 ([arXiv:hep-th/9912279](http://arxiv.org/abs/hep-th/9912279))
+
+* {#MW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
+
+* {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
+
+A mathematical discussion inspired by this is in 
+
+
+* {#MPS11} [[Stefan Müller-Stach]], Chris Peters, Vasudevan Srinivas, _Abelian varieties and theta functions associated to compact Riemannian manifolds; constructions inspired by superstring theory_ ([arXiv:1105.4108](http://arxiv.org/abs/1105.4108), [pdf slides](http://www-fourier.ujf-grenoble.fr/~peters/world.f/Torino.pdf))
+
+A discussion of intermediate Jacobians for any rationally periodic [[generalized (Eilenberg-Steenrod) cohomology]] theory is in 
 
 * {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
  
