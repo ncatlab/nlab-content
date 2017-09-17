@@ -1,8 +1,11 @@
-## Idea## 
 
+# Presentations of groups
+* table of contents
+{: toc}
 
+## Idea
 
-In try to study a group $G$, one way to proceed is to 
+In trying to study a [[group]] $G$, one way to proceed is to 
 
 * look for a set of generating elements;
 
@@ -19,14 +22,16 @@ What about the other words: $ba$ for instance.  If one calculates $b a$ in $S_3$
 For a presentation, you give a set of generators $X$, so there will be an epimorphism from $F(X)$ to $G$, and then you try to find a description for the kernel of that epimorphism, which we will denote by $N$.  The description of this normal subgroup $N$ is as the [[normal closure]] of a set $R$ of relations, i.e. words in the generators or, equally validly, elements in the free group on $X$.
 
 
-##Definition##
+## Definition
+
 A  **presentation** of a group $G$ is a pair of sets, written $\langle X: R\rangle$ such that for $F=F(X)= \langle X\rangle =\langle X:\emptyset\rangle$ is the [[free group]] on the set of letters $X$ and $N$ the [[normal subgroup|normal closure]] of the set of relators $R$, there is  a specified isomorphism from $F/N$ to $G$.
 
 The specified isomorphism is often omitted, as usually the set $X$ of generators is chosen as a subset of the set of elements of $G$.  In this case, but the universal properties of free groups and quotients, there is a unique map $F\to G$ which restricts to the inclusion of $X$, and thereby at most one map $F/N \to G$ which does so; this map is then the one asserted to be an isomorphism.
 
 Sometimes it is convenient to proceed otherwise, however, and to give a specific function from a set $X$ to the set of elements of $G$.  This function then induces a group homomorphism from $F=\langle X\rangle$ to $G$, and if this is a surjection, then we can find some $N$ (generators for its kernel) to produce a presentation of $G$.
 
-##Examples##
+
+## Examples
 
 *  $G$ a cyclic group of order $n$ has presentation $\langle a : a^n\rangle$.
 
@@ -34,12 +39,12 @@ Sometimes it is convenient to proceed otherwise, however, and to give a specific
 
 * The [[trefoil knot|trefoil]] [[knot group]] has two useful presentations:
 
-     * $\langle a,b : a^3= b^2\rangle$, which displays the fact hat the trefoil is a (2,3)-[[torus knot]]; and
+  * $\langle a,b : a^3= b^2\rangle$, which displays the fact hat the trefoil is a (2,3)-[[torus knot]]; and
 
-     * $\langle x,y : xyx=yxy\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
+  * $\langle x,y : xyx=yxy\rangle$, which shows the link between this group and the Artin [[braid group]], $Br3$.
 
 
-##Discussion##
+## Discussion
 
 *  '*Relations' and 'relators'*: In the discussion of $S_3$ above we had a **relation** $b a = a^2b$. so we are relating two words of $F(X)$. It is often the case that instead of relations we use **relators**, in other words a relation of form $r = 1$, where $r$ is a word in the generators. In the example $ b a = a^2b$ can be easily shown to imply and be implied by $ a b a b = 1$.
 
@@ -67,13 +72,21 @@ which equals 1.
 Given a group presentation, it is natural to perform transformations using substitutions, say adding in one new symbol for a string of generators, and adjusting the presentation accordingly.  The valid transformations that do not change the group being presented are formalised as the [[Tietze transformation]]s.
 
 
-##Combinatorial group theory##
+## Combinatorial group theory
+
 The study of group presentations, their transformations etc. forms part of _combinatorial group theory_
-
-
 
 
 ## References
 
-[[!redirects group presentations]]
+(needed)
+
+
 category: group theory
+
+[[!redirects group presentation]]
+[[!redirects group presentations]]
+[[!redirects group presntation]]
+[[!redirects presentation of a group]]
+[[!redirects presentations of a group]]
+[[!redirects presentations of groups]]
