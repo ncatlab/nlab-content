@@ -60,4 +60,16 @@ In [[super Yang-Mills theory]] (and there in particular in the [[planar limit]] 
 For more see at _[[string scattering amplitude]]_.
 
 
+## Related concepts
+
+* [[scattering]]
+
+* [[S-matrix]], [[n-point function]], [[correlator]]
+
+* [[Feynman diagram]]
+
+* [[perturbation theory]]
+
+* [[abstract scattering theory]]
+
 [[!redirects scattering amplitudes]]
