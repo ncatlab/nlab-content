@@ -38,6 +38,20 @@ As any other quantization, the deformation quantization has as an input a descri
 
 ## Definition
 
+If the result of deformation quantization is an algebra over the [[power series]] [[ring]] $\mathbb{R}[ [ \hbar ] ]$ of a formal parameter $\hbar$ (thought of as [[Planck's constant]]) such that the limit $\hbar \to 0$ reproduces the starting point of the deformation, then one speaks of 
+
+* [Formal deformation quantization](#FormalDeformationQuantization)
+
+In much of the literature this is regarded as the default meaning of "deformation quantization". But this is really the case corresponding to [[perturbation theory]] in [[quantum field theory]]. A "genuine" or "strict" deformation quantization 
+
+* [Strict deformation quantization](#StrictDeformationQuantization)
+
+is supposed to result in a non-formal deformation, which in terms of the above formal power series at least means that one can set $\hbar = 1$ such that all expressions in $\hbar$ converge, but which in general is taken to mean something stronger, such as that there is a continuous field of [[C-star algebraic deformation quantization]].
+
+
+### Formal deformation quantization
+ {#FormalDeformationQuantization}
+
 We first give the traditional
 
 * [Explicit definition of traditional deformation quantization](#ExplicitDefinitionOfTraditionalDeformationQuantization)
@@ -53,7 +67,7 @@ In this formulation one sees that for genral $n$ the construction applies  to $n
 * [Deformation quantization of field theory to factorization algebras of observables](#DeformationQuantizationToFactotrizationAlgebras)
 
 
-### Explicit definition of deformation of Poisson manifolds/Poisson algebras
+#### Explicit definition of deformation of Poisson manifolds/Poisson algebras
  {#ExplicitDefinitionOfTraditionalDeformationQuantization}
 
 Let $M$ be a [[Poisson manifold]] and let $A = C^\infty(M)$ be the [[Poisson algebra]] of smooth functions.
@@ -72,7 +86,7 @@ A (formal) **deformation quantization** of $M$ is a [[star product]] on $A = C^\
 =--
 
 
-### Formulation as lifts from $P_n$-algebras to $BD_n$-algebras and $E_n$-algebras
+#### Formulation as lifts from $P_n$-algebras to $BD_n$-algebras and $E_n$-algebras
  {#FormulationAsLiftsFromPnAlgebrasToBDAlgebras}
  
 (...)
@@ -83,7 +97,7 @@ A (formal) **deformation quantization** of $M$ is a [[star product]] on $A = C^\
 
 [[!include deformation quantization - table]]
 
-### Deformation quantization of field theory to factorization algebras of observables
+#### Deformation quantization of field theory to factorization algebras of observables
  {#DeformationQuantizationToFactotrizationAlgebras}
 
 (...)
@@ -93,6 +107,12 @@ A (formal) **deformation quantization** of $M$ is a [[star product]] on $A = C^\
 
 (...)
 
+### Strict deformation quantization
+ {#StrictDeformationQuantization}
+
+(...)
+[[C-star algebraic deformation quantization]]
+(...)
 
 ## Properties
 
