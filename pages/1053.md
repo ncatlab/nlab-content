@@ -30,6 +30,8 @@ In the original definition of ([Girard 87](#Girard)) linear logic is the [[inter
 
 Indeed, this more general notion still faithfully follows the original motivation for the term "linear" as introduced in ([Girard 87](#Girard87)), since the non-cartesianness of the [[tensor product]] means the absence of a [[diagonal]] map and hence the impossibility of [[functions]] to depend on more than a single (linear) copy of their [[variables]].
 
+In addition to these usual "denotational" categorical semantica, linear logic also has an "operational" categorical semantics, called the _[[Geometry of Interaction]]_, in [[traced monoidal categories]].
+
 Although linear logic is traditionally presented in terms of inference rules, it was apparently discovered by Girard while studying [[coherent
 spaces]].
 
