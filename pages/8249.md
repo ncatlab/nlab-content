@@ -23,14 +23,61 @@ In the literature this is often understood to be the default case of derived fun
 
 The general concept of [[derived functor]] is in homological algebra usualy called the _[[total derived functor|total]] [[hyper-derived functor]]_, with just "derived functor" being reserved for a more restrictive case. In this tradition, we consider the special case first.
 
+Throughout, let $\mathcal{A}$ and $\mathcal{B}$ be [[abelian categories]].
+such that $\mathcal{A}$ has [[projective objects|enough projectives]].
+
 ### Left derived functor 
 
-(...)
+#### Evaluated on an object
 
+
++-- {: .num_defn}
+###### Definition
+
+For $F : \mathcal{A} \to \mathcal{B}$ a [[right exact functor]] and $n \in \mathbb{N}$, its **left derived functor** is the functor
+
+$$
+  L_n F : \mathcal{A} \to \mathcal{B}
+$$
+
+which sends an [[object]] $X \in \mathcal{A}$ with (any) [[projective resolution]] $P_\bullet \in Ch_{\bullet \geq 0}(\mathcal{A})$ to the $n$th [[chain homology]] of the [[chain complex]] $F(P_\bullet) \in Ch_{\bullet}(\mathcal{B})$
+
+$$
+  (L_n F)(X) \coloneqq H_n(F(P_\bullet))
+  \,.
+$$
+
+=--
+
+This definition is independent, up to [[natural isomorphism]], of the choice of $P_\bullet$.
+
+
+#### Evaluated on a chain complex: left hyper-derived functor
+
+(...)
 
 ### Right derived functor
 
-(...)
++-- {: .num_defn}
+###### Definition
+
+For $F : \mathcal{A} \to \mathcal{B}$ a [[left exact functor]] and $n \in \mathbb{N}$, its **right derived functor** is the functor
+
+$$
+  R_n F : \mathcal{A} \to \mathcal{B}
+$$
+
+which sends an [[object]] $X \in \mathcal{A}$ with (any) [[injective resolution]] $Q_\bullet \in Ch_{\bullet \geq 0}(\mathcal{A})$ to the $n$th [[chain homology]] of the [[chain complex]] $F(Q_\bullet) \in Ch_{\bullet}(\mathcal{B})$
+
+$$
+  (R_n F)(X) \coloneqq H_n(F(Q_\bullet))
+  \,.
+$$
+
+=--
+
+This definition is independent, up to [[natural isomorphism]], of the choice of $P_\bullet$.
+
 
 
 ### Left hyper-derived functor
@@ -47,6 +94,39 @@ The general concept of [[derived functor]] is in homological algebra usualy call
 
 (...)
 
+## Properties
+
+### General
+
++-- {: .num_theorem}
+###### Theorem
+
+A left derived functor $L_\bullet F$ is a universal homological [[delta-functor]].
+
+=--
+
+### Relation to model category theory
+
++-- {: .num_note}
+###### Observation
+
+If 
+
+$$
+  (F \dashv G) : \mathcal{A}
+  \stackrel{\overset{G}{\leftarrow}}{\underset{F}{\to}}
+   \mathcal{B}
+$$
+
+is a pair of [[additive functor|additive]] [[adjoint functors]], then 
+
+* the [[left adjoint]] $F$ is [[right exact functor|right exact]];
+
+* the [[right adjoint]] $G$ is [[left exact functor|left exact]];
+
+=--
+
+
 ## Examples
 
 (...)
@@ -57,6 +137,7 @@ The general concept of [[derived functor]] is in homological algebra usualy call
 A standard textbook reference is chapter 2 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_.
+ {#Weibel}
 
 [[!redirects derived functors in homological algebra]]
 
