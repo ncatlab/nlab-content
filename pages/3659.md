@@ -1,7 +1,10 @@
 
 <div class="rightHandSide toc">
+[[!include AQFT and operator algebra contents]]
+***
 [[!include physicscontents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
