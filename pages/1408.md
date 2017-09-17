@@ -161,6 +161,7 @@ This is [[Structured Spaces|StrSh, def 1.2.1]] in view of remark 1.2.4 below tha
 An $(\infty,1)$-category $V$ equipped with an admissiblility structure is a **geometry** if it is essentially small, admits finite limits and is [[idempotent complete (infinity,1)-category|idempotent complete]].
 =--
 
+
 ### Structure sheaves
 
 +-- {: .un_defn}
@@ -195,14 +196,19 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
 
-+-- {: .un_example}
-###### Examples
 
-1. Consider $X$ an ordinary [[topological space]] and
+
+
+## Examples
+
+### Structure sheaves of continuous functions {#StrSheafOfcontFuncts}
+
+  Consider $X$ an ordinary [[topological space]] and
    $Sh(X)$ the ordinary [[category of sheaves]] on its 
    [[category of open subsets]]. Let $\mathcal{G} = Top$
    be some [[small category|small]] version of [[Top]]
-   with its usual [[Grothendieck topology]] with covering
+   with its usual [[Grothendieck topology]] with 
+   admissible covering
    families being open covers. Consider the functor
 
    $$
@@ -243,7 +249,9 @@ Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for
    $f$ as $U_x$).
 
 
-2. [StrSh, remark 2.5.11](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=71) 
+### Locally ringed spaces
+
+[StrSh, remark 2.5.11](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=71) 
 
    Let $X$ be a topological space as before, but consider now the
    geometry $\mathcal{G} = CRing^{op}$ to be the opposite category of
@@ -322,11 +330,10 @@ Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for
    if it is a [[locally ringed space]].
    
    
-=--
 
 
 
-## Examples
+
 
 ### Ordinary ringed spaces
 
@@ -337,7 +344,7 @@ An ordinary [[topological space]] $X$ with its [[category of open subsets]] $Op(
 If for the moment we ignore the technicality that $O_X$ is supposed to be a [[sheaf]] and just regard it as a [[presheaf]], and if we furthermore invoke the idea of [[space and quantity]] and think of a ring $R$ as a generalized quantity in form of a copresheaf, canonically the [[representable functor|co-representable]] co-presheaf
 
 $$
-  R : (Ring^fin)^{op} \Set
+  R : (Ring^fin)^{op} \to \Set
 $$
 
 on finitely generated rings, which sends
@@ -422,7 +429,7 @@ possible. They describe **[[derived smooth manifolds]]** as described in [DerSmo
 
 The general theory is developed in
 
-* **StrSh** [[Jacob Lurie]], [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
+* **StrSh** [[Jacob Lurie]], _[[Structured Spaces]]_ ([arXiv](http://arxiv.org/abs/0905.0459))
 
 The special case of "smoothly structured spaces" called [[derived smooth manifold]] is 
 discussed in 
