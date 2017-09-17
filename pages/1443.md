@@ -1,8 +1,13 @@
-#Idea#
+# Category of local models
+* table of contents
+{: toc}
 
-A _category of local models_ is a category whose objects play the role of particularly well-controled test spaces in the sense of [[space and quantity]]. The major notions of spaces, such as [[topological space]]s, [[algebraic space]]s, smooth [[manifold]]s, are spaces modeled on a _category of local models in the sense of [[structured generalized space]]s.
+## Idea
 
-#Definition#
+A _category of local models_ is a category whose objects play the role of particularly well-controled test spaces in the sense of [[space and quantity]]. The major notions of spaces, such as [[topological space]]s, [[algebraic space]]s, [[smooth manifold]]s, are spaces modeled on a _category of local models in the sense of [[structured generalized space]]s.
+
+
+## Definition
 
 A **category of local models** is
 
@@ -25,19 +30,20 @@ A **category of local models** is
 The objects of $R$ are usually called **affine** spaces.
 In particular the object $A$ is the **affine line**.
 
-#Applications#
+
+## Applications
 
 * For every category of local models there is the corresponding notion of [[locally modeled monoid]]s. See the examples below.
 
 
-#Examples#
+## Examples
 
 * $R = Rings^{op}$ is the category of local models for algebraic spaces; here $A = \mathbb{Z}[x]$;
 
 * $R =$ [[CartSp]] is the category of local models for smooth manifolds and [[generalized smooth algebra]]s; here $A = \mathbb{R}$.
 
 
-#References#
+## References
 
 section 1.1 of
 
