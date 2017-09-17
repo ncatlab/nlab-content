@@ -69,6 +69,9 @@ That some [[particle]]s have a property called [[spinor|spin]] was found in 1922
 
 Discussion of worldline dynamics of spinning particles in background fields is for instance in 
 
+* J.W. van Holten, _Relativistic Dynamics of Spin in Strong
+External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
+
 * A. Pomeranskii, R A Sen'kov, I.B. Khriplovich, _Spinning relativistic particles in external fields_ Acta Physica Polonica B Proceedings Supplement Vol. 1 (2008) ([pdf](http://iopscience.iop.org/1063-7869/43/10/R03))
 
 ### Worldline supersymmetry
