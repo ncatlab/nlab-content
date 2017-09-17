@@ -70,9 +70,9 @@ The axiom of choice can also be strengthened in a few ways.
 
 Finally, one can instead adopt the *negation* of the axiom of choice, or a strengthened version:
 
-* The [[axiom of determinacy]] is a natural statement in [[game theory]] that is consistent with dependent choice; in fact, it implies dependent choices in certain models, such as in the constructible (in the sense of Goedel) closure of the set of reals. However, determinacy contradicts the full AC (for example, it implies that all sets of reals are Lebesgue measurable and have the Baire property). 
-
 * The assumption that every subset of the [[real line]] has the [[Baire property]] (BP) is consistent with DC but not AC; the same holds for the assumption that every subset of the real line is [[Lebesgue measure|measurable]] (LM) if at least one [[Grothendieck universe]] exists.  These assumptions leads to a very nice setting for analysis called [[dream mathematics]].
+
+* The [[axiom of determinacy]] is a natural statement in [[game theory]] that is consistent with dependent choice; in fact, it implies dependent choices in certain models, such as in the constructible (in the sense of Goedel) closure of the set of reals. However, determinacy contradicts the full AC (for example, it implies that all sets of reals are Lebesgue measurable and have the Baire property, as in the previous entry). 
 
 * Any of the varieties of [[constructive mathematics]] that contradict excluded middle necessarily contradict choice, but they tend to be consistent with COSHEP.
 
