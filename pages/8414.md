@@ -37,3 +37,8 @@ $$i(s_1, \ldots, s_k) = (s_1, s_2, \ldots, s_k, e, e, e, \ldots).$$
 
 Then the lexicographic order on $S^\ast$ is the one inherited from its embedding into the lexicographically ordered set $(1 + S)^\mathbb{N}$. 
 
+### Corecursive definition 
+
+if $L$ is linearly ordered and the underlying set $C = L^\mathbb{N}$ is regarded as the [[terminal coalgebra]] for the functor $L \times - \colon Set \to Set$, with coalgebra structure $\langle h, t \rangle \colon C \to L \times C$, then the lexicographic order on $C$ may be defined [[corecursion|corecursively]]: 
+
+* $c \lt c'$ if $h(c) \lt h(c')$ or ($h(c) = h(c')$ and $t(c) \lt t(c')$). 
