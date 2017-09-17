@@ -15,25 +15,30 @@
 
 ## Idea
 
-In [[computer science]] a _monad_ $T$ is an operation on the [[types]] that
-
-1. sends each [[type]] $A$ to some new type $T(A)$;
-
-1. provides a [[term]] of [[function type]] $return_A : A \to T(A)$;
-
-1. provides a rule that creates from a [[term]] $t : T(A)$ and a function $f : A \to T(B)$ a term $bind_A : T(B)$
-
-such that this satisfies the evident coherence axioms.
-
-Under the identification of computer science with [[category theory]] (see _[[computational trinitarianism]]_) the [[universe]] of types of the programming language is a [[category]] $\mathcal{C}$ and a monad as above is a [[strong monad|(strong)]] [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms:
-
-* the $return$-term is the _unit_ of the monad;
-
-* the $bind$-operation is [[Kleisli composition]].
+In [[computer science]], a programming language may be formalised or studied by means of a 'syntactic' [[category]], whose objects are the [[types]] of the language, and in which a [[morphism]] $A \to B$ is a [[term]] or program (or an equivalence class of such) that takes a value of type $A$ as input and returns a value of type $B$.  This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely functional languages.
 
 Monads provide one way to "embed [[imperative programming]] in 
 [[functional programming]]", and are used that way notably in the 
 [[programming language]] [[Haskell]]. But monads (as well as [[comonads]] and related structures) exist much more generally in programming languages. ([Harper](#Harper))
+
+Specifically, a _monad_ $T$ is an operation that
+
+1. sends each [[type]] $A$, thought of as the collection of _values_ of type $A$, to some new type $T(A)$, that of _computations_ of type $A$;
+
+1. provides for each type $A$ a [[term]] of [[function type]] $return_A : A \to T(A)$, which takes a value to the trivial computation that simply returns that value;
+
+1. provides a _composition rule_ that creates from a [[term]] $t : T(A)$ and a function $f : A \to T(B)$ a term $bind t \,\, f : T(B)$, which runs or evaluates the computation $t$ and passes the result to $f$;
+
+all these being required to satisfy the [[monad|usual axioms]].
+
+A monad in this sense is usually required also to interact nicely with the structure of the language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category derived from it will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad's being [[strong monad|strong]].
+
+Under the identification of a programming language with a category $\mathcal{C}$, a monad as above is then a [[strong monad|(strong)]] [[monad|monad in the sense of category theory]], hence a [[functor]] $T : \mathcal{C} \to \mathcal{C}$ equipped with the structure of a [[monoid]] in endomorphisms:
+
+* the $return$-term is the _unit_ of the monad;
+
+* the $bind$-operation is [[Kleisli composition]], from which the usual _multiplication_ of the monad can be recovered.
+
 
 
 ## Examples
