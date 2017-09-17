@@ -18,7 +18,7 @@ The __axiom of pairing__ (or __axiom of pairs__) states the following:
 If $x$ and $y$ are (material) sets, then there exists a set $P$ such that $x, y \in P$.
 =--
 
-Using the [[axiom of separation]] (bounded separation is enough), we can prove the existence of a particular set $P$ such that $x$ and $y$ are the *only* members of $P$.  Using the [[axiom of extensionality]], we can then prove that this set $P$ is unique; it is usually denoted $\{x,y\}$ and called the __[[unordered pair]]__ of $x$ and $y$.  Note that $\{x,x\}$ may also be denoted simply $\{x\}$.
+Using the axiom of separation ([[bounded separation]] is enough), we can prove the existence of a particular set $P$ such that $x$ and $y$ are the *only* members of $P$.  Using the [[axiom of extensionality]], we can then prove that this set $P$ is unique; it is usually denoted $\{x,y\}$ and called the __[[unordered pair]]__ of $x$ and $y$.  Note that $\{x,x\}$ may also be denoted simply $\{x\}$.
 
 
 ## Generalisation
