@@ -2,6 +2,12 @@
 
 The ring of polynomials in $n$ variables has a linear basis $\{s_\lambda]}$ of __Schur functions__ (also called Schur polynomials) indexed by [[partition]]s $|\lambda| \vdash \lambda_1+\ldots +\lambda_n$, $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$. They are precisely the irreducible characters of f.d. representations of $GL_n$. 
 
++-- {: .query }
+
+JCMcKeown: isn't that supposed to read "*symmetric* polnomials"? That can probably be read as "polynomials in the **elementary** symmetric functions"; but with all the rest, this looks like obfuscation.
+
+=--
+
 ## Definition
 
 Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding __Schur function__ is the $n\times n$-determinant
