@@ -22,7 +22,7 @@
 
 A _moduli stack of elliptic curves_ is a [[moduli stack]] for [[elliptic curves]], hence a [[stack]] $\mathcal{M}_{ell}$ such that for $X$ any other suitable space, the [[groupoid]] of maps $X \to \mathcal{M}_{ell}$ and [[homotopies]] between them is [[equivalence of groupoids|equivalent]] to that of $X$-parameterized [[elliptic curves]] with equivalences between these. (There are some variants of $\mathcal{M}_{ell}$ corresponding to the choice of which singularities and degeneracies of elliptic curves are taken into account.)
 
-This is formalized in [[algebraic geometry]], hence $X$ here is a [[scheme]] over the [[integers]] in general. 
+This is formalized in [[algebraic geometry]], hence $X$ here is a [[scheme]] over the [[integers]] in general. The moduli stack always has a tautological construction as a "[[sheaf]] of [[groupoids]]" (a [[stack]], whence the name) over the [[site]] of [[affine schemes]], given by sending any $Spec(R)$ to the groupoid of suitable [[elliptic curves]] over $Spec(R)$. For concrete computations it typically helps to know that the moduli stack of elliptic curbes is [[representable functor|represented]] by a [[geometric stack]], [[Isbell duality|dually]] given by a [[Hopf algebroid]]. 
 
 A special class of cases which is much simpler than the general case but still of paramount interest is the moduli stack of elliptic curves over the [[complex numbers]]. These are just [[complex manifold|complex]] [[tori]]/[[Riemannian manifolds]] of [[genus of a surface|genus]] 1 which may be identified with quotients of the [[complex plane]] by a framed [[lattice]] well-defined up to [[Möbius transformations]], and so in this case the moduli stack of elliptic curves is just the [[homotopy quotient]] (the [[orbifold]] quotient) of the [[upper half plane]] by the [[action]] of the [[modular group]]. This case is considered below in 
 
@@ -34,7 +34,7 @@ Below that is the
  
 as an [[algebraic stack]] $\mathcal{M}_{ell}$. This is still not the most refined description: by the [[Goerss-Hopkins-Miller theorem]] the assignment to an [[elliptic curve]] of its [[elliptic spectrum]] lifts the ordinary [[structure sheaf]] $\mathcal{O}$ of $\mathcal{M}_{ell}$ to a higher structure sheaf $\mathcal{O}^{top}$ of [[E-∞ rings]] in a way that makes $(\mathcal{M}_{ell}, \mathcal{O}^{op})$ a [[spectral Deligne-Mumford stack]]. The [[global sections]] of this structure sheaf yield the [[spectrum]] [[tmf]] of [[topological modular forms]]:
 
-* _[As a derived scheme in E-infinity geoemtry](#InEInfinityGeometry)_
+* _[As a derived scheme in E-infinity geometry](#InEInfinityGeometry)_
 
 See also _[[A Survey of Elliptic Cohomology - elliptic curves]]_ for more.
 
@@ -356,6 +356,7 @@ $$
 $$
 
 =--
+
 
 ### Euler characteristic
  {#EulerCharacteristic}
