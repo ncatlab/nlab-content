@@ -463,6 +463,7 @@ a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These struct
  
 In the presence of [infinitesimal cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
 
+##### Infinitesimal path $\infty$-groupoid
 
 +-- {: .num_defn #InfinitesimalPathsAndReduction}
 ###### Definition
@@ -511,6 +512,76 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 In traditional contexts see ([SimpsonTeleman, p. 7](#SimpsonTeleman)) the object $\mathbf{\Pi}_{inf}(X)$ is called the **[[de Rham space]] of $X$** or the **de Rham stack of $X$** .
 Here we may tend to avoid this terminology, since by the discussion at <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#deRhamCohomology">cohesive (∞,1)-topos -- de Rham cohomology</a> we have a good notion of intrinsic [[de Rham cohomology]] in any [[cohesive (∞,1)-topos]] already without equipping it with infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represent de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly ([[synthetic differential geometry|synthetic]]) infinitesimal way.
+
+=--
+
++-- {: .num_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
+###### Observation
+
+There is a canonical [[natural transformation]]
+
+$$
+  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
+$$
+
+that factors the finite path inclusion through the infinitesimal one
+
+$$
+  \array{
+    && \mathbf{\Pi}_{inf}(X)
+    \\
+    & \nearrow && \searrow
+    \\
+    X &&\to&& \mathbf{\Pi}(X)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the formula for the [[unit of an adjunction|unit]] of the composite adjunction
+$\mathbf{H}_{th} \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{Disc_{inf}}{\leftarrow}} \mathbf{H} \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}} \infty Grpd$:
+
+$$
+  X \stackrel{i_{inf}X}{\to} Disc_{inf}\Pi_{inf} X
+  \stackrel{Disc_{inf}(i_{\mathbf{H}}\Pi_{inf}X)}{\to}
+  Disc_{\mathbf{H}} Disc_{inf} \Pi_{\mathbf{H}} \Pi_{inf} X
+  =
+  Disc_{\mathbf{H}_{th}} \Pi_{\mathbf{H}_{th}}
+  \,.
+$$
+
+
+=--
+
+
+
+##### Jet $\infty$-bundles
+ {#JetBundleObjects}
+
+Notice that for $f : X \to Y$ any [[morphism]] in any [[(∞,1)-topos]] $\mathbf{H}$, there is the corresponding [[base change geometric morphism]] between the [[over-(∞,1)-toposes]]
+
+$$
+  (f^* \dashv f_*) : \mathbf{H}/X \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} \mathbf{H}/Y
+  \,.
+$$
+
++-- {: .num_defn }
+###### Definition
+
+For any object $X \in \mathbf{H}$ write
+
+$$
+  Jet : \mathbf{H}/X \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}
+  \mathbf{H}/\mathbf{\Pi}_{inf}(X)
+$$
+
+for the [[base change geometric morphism]] induced by the constant infinitesimal path inclusion $i : X \to \mathbf{\Pi}_{inf}(X)$, def. \ref{InfinitesimalPathsAndReduction}.
+
+For $(E \to X) \in \mathbf{H}/X$ we call $Jet(E) \to \mathbf{\Pi}_{inf}(X)$ as well as its pullback $i^* Jet(E) \to X$ (depending on context) the **[[jet bundle]]** of $E \to X$.
 
 =--
 
@@ -752,9 +823,6 @@ The properties listed in prop. \ref{PropertiesOfFormallyEtaleMorphisms} correspo
 
 In order to interpret the notion of formal smoothness, we turn now to the discussion of infinitesimal reduction.
 
-
-##### Infinitesimal reduction
-
 +-- {: .num_prop #RedIsIdempotent}
 ###### Proposition
 
@@ -826,74 +894,6 @@ is an [[equivalence in an (∞,1)-category|equivalence]]. As such it is in parti
 =--
 
 
-+-- {: .num_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
-###### Observation
-
-There is a canonical [[natural transformation]]
-
-$$
-  \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
-$$
-
-that factors the finite path inclusion through the infinitesimal one
-
-$$
-  \array{
-    && \mathbf{\Pi}_{inf}(X)
-    \\
-    & \nearrow && \searrow
-    \\
-    X &&\to&& \mathbf{\Pi}(X)
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is the formula for the [[unit of an adjunction|unit]] of the composite adjunction
-$\mathbf{H}_{th} \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{Disc_{inf}}{\leftarrow}} \mathbf{H} \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}} \infty Grpd$:
-
-$$
-  X \stackrel{i_{inf}X}{\to} Disc_{inf}\Pi_{inf} X
-  \stackrel{Disc_{inf}(i_{\mathbf{H}}\Pi_{inf}X)}{\to}
-  Disc_{\mathbf{H}} Disc_{inf} \Pi_{\mathbf{H}} \Pi_{inf} X
-  =
-  Disc_{\mathbf{H}_{th}} \Pi_{\mathbf{H}_{th}}
-  \,.
-$$
-
-
-=--
-
-
-##### Jet bundle objects
- {#JetBundleObjects}
-
-Notice that for $f : X \to Y$ any [[morphism]] in any [[(∞,1)-topos]] $\mathbf{H}$, there is the corresponding [[base change geometric morphism]] between the [[over-(∞,1)-toposes]]
-
-$$
-  (f^* \dashv f_*) : \mathbf{H}/X \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} \mathbf{H}/Y
-  \,.
-$$
-
-+-- {: .num_defn }
-###### Definition
-
-For any object $X \in \mathbf{H}$ write
-
-$$
-  Jet : \mathbf{H}/X \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}
-  \mathbf{H}/\mathbf{\Pi}_{inf}(X)
-$$
-
-for the [[base change geometric morphism]] induced by the constant infinitesimal path inclusion $i : X \to \mathbf{\Pi}_{inf}(X)$, def. \ref{InfinitesimalPathsAndReduction}.
-
-For $(E \to X) \in \mathbf{H}/X$ we call $Jet(E) \to \mathbf{\Pi}_{inf}(X)$ as well as its pullback $i^* Jet(E) \to X$ (depending on context) the **[[jet bundle]]** of $E \to X$.
-
-=--
 
 #### Flat $\infty$-connections and infinitesimal local systems
   {#StrucInfinitesimalLocalSystem}
