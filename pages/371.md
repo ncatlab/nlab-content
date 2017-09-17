@@ -106,6 +106,7 @@ Categories enriched in $(Set_*, \wedge)$ include in particular [[Ab]]-enriched c
 
 =--
 
+* In the [[stable homotopy category]]: [[zero spectrum]].
 
 ## Properties
 
