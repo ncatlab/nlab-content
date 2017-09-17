@@ -51,6 +51,8 @@ Another hint comes from the fact that the [[U-duality]]-structure of [[supergrav
 
 * [[Hořava-Witten theory]]
 
+* [[G2-MSSM]]
+
 ## References
 
 The original insight that gave rise to the conjecture is due to
