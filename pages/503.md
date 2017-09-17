@@ -665,3 +665,6 @@ Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in
 
 [[!redirects idempotent complete category]]
 [[!redirects idempotent complete categories]]
+
+[[!redirects Cauchy completion]]
+
