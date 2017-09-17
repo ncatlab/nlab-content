@@ -29,11 +29,23 @@ _Weyl group_ are [[groups]] that can be either abstractly defined in terms of a 
 ## Definition
 
 Given a [[compact Lie group]] $G$ with chosen 
-[[maximal torus]] $T$, its __Weyl group__ $W(G)=W(G,T)$ is the group of automorphisms of $T$ which are restrictions of inner automorphisms of $G$. The maximal torus is of finite index in its normalizer; the quotient $N(T)/T$ is isomorphic to $W(G)$. The cardinality of $W(G)$ for a compact connected $G$, equals the [[Euler characteristic]] of the [[homogeneous space]] $G/T$ ("[[flag variety]]"). 
+[[maximal torus]] $T$, its __Weyl group__ $W(G)=W(G,T)$ is the [[group of automorphisms]] of $T$ which are restrictions of [[inner automorphisms]] of $G$. 
+
+
 
 ## Properties
 
-An important approach to the representations of the Weyl groups is the [[Springer theory]].
+* The [[maximal torus]] is of [[finite index subgroup|finite index]] in its [[normalizer]]; the [[quotient]] $N(T)/T$ is [[isomorphism|isomorphic]] to $W(G)$. 
+
+
+* The [[cardinality]] of $W(G)$ for a compact connected $G$, equals the [[Euler characteristic]] of the [[homogeneous space]] $G/T$ ("[[flag variety]]"). 
+
+
+* An important approach to the representations of the Weyl groups is the [[Springer theory]].
+
+## Related concepts
+
+* [[Schubert calculus]]
 
 ## References
 
