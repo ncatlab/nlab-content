@@ -44,9 +44,9 @@ However, despite the initial lengthy rejection of Hegelian ideas by analytic phi
 
 It took a mathematician [[William Lawvere]] to find something formalizable of value in Hegel's _Logic_, in particular the concept of a '[[unity of opposites|Unity of Opposites]]'. In this paper, taking our lead from Lawvere in seeing common elements between [[categorical logic]] and Hegel's logic, we will pursue this connection right up to [[modal type theory|modal]] forms of [[homotopy type theory]].
 
-(...)
-
-While the followers of Russell, the [[Vienna Circle]], had adopted the [[positivism|positivist]] principle of dispensing with [8metaphysics]], dismissing it as meaningless ([Carnap 32](#Carnap32)), it is noteworthy that, notwithstanding, the need for a metaphysics seems to be as strongly felt among modern physicists as it must have been to Hegel and his predecessors, as witnessed by ... debates such as critically reviewed in ([Albert 12](#Albert12)). (...) Attempts to re-install a metaphysics are these days undertaken by particle physicists and cosmologists themselves ([Tegmark 07](#Tegmark07)), who's success at formally describing remote aspects of the [[observable universe]] has emboldened many to feel as superior to modern philosophy as modern philosophy typically feels towards Hegel' idealism. 
+While the [[Vienna Circle]], admirers of Russell, had adopted the [[positivism|positivist]] attitude towards [[metaphysics]], dismissing it as meaningless ([Carnap 32](#Carnap32)), later in the twentieth century there was a resurgence of analytic metaphysics. One important source of this resurgence was the rise of [[modal logic]] as a tool for philosophy, especially due to [[Saul Kripke]] in _Naming and Necessity_. 
+ 
+It is noteworthy that, notwithstanding, the need for a metaphysics seems to be as strongly felt among modern physicists as it must have been to Hegel and his predecessors, as witnessed by ... debates such as critically reviewed in ([Albert 12](#Albert12)). (...) Attempts to re-install a metaphysics are these days undertaken by particle physicists and cosmologists themselves ([Tegmark 07](#Tegmark07)), whose success at formally describing remote aspects of the [[observable universe]] has emboldened many to feel as superior to modern philosophy as modern philosophy typically feels towards Hegel' idealism. 
 
 (...)
 
