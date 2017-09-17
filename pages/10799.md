@@ -137,9 +137,11 @@ element $\frac{c}{d} \otimes_{\mathbb{Z}} a_p \in \mathbb{Q}_p$ contains a non-v
 
 =--
 
+
+
 Finally notice:
 
-+-- {: .num_prop }
++-- {: .num_remark #AsProductOverPlaces}
 ###### Remark
 
 The [[prime numbers]] correspond to the non-archimedean [[places]] of $\mathbb{Z}$, and under this identification there is one more real [[place at infinity]], "$p = \infty$", the [[completion of a ring|completion]] of $\mathbb{Q}$ at which is the real numbers $\mathbb{R}$, which one may therefore write $\mathbb{R} = \mathbb{Q}_\infty$. Using this the characterization of the ring of adeles from prop. \ref{RationalRingOfAdelesAsRestrictedProduct} is equivalently the [[restricted product]] over all real places of the [[formal completion]] of $\mathbb{Q}$ at this place
@@ -152,6 +154,13 @@ $$
 $$
 
 Considering this [[restricted product]] not just in bare [[commutative rings]] but in [[topological rings]] yields the right structure of a topological ring on $\mathbb{A}_{\mathbb{Q}}$.
+
+If one omits the factor of $\mathbb{R} = \mathbb{Q}_\infty$, then one speaks of the _ring of finite adeles_.
+
+$$
+  \mathbb{A}_{\mathbb{Q}}^f \coloneqq \underset{p \; prime}{\prod^\prime} \mathbb{Q}_p
+  \,.
+$$
 
 =--
 
@@ -378,3 +387,6 @@ Discussion in the context of the [[function field analogy]] and the [[geometric 
 [[!redirects ring of integral adeles]]
 [[!redirects rings of integral adeles]]
 
+
+[[!redirects ring of finite adeles]]
+[[!redirects rings of finite adeles]]
