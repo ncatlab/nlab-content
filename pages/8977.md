@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_Langlands)
+
+## Related entries
+
+* [[Langlands program]]
+
+* [[geometric Langlands correspondence]]
+
+category: people
