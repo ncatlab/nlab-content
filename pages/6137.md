@@ -43,15 +43,38 @@ See specific versions:
 
 * [[infinite-dimensional Lie group]]
 
+## Properties
+
+### Embedding into convenient toposes
+
+Various types of smooth manifolds embed into the
+[[quasi-toposes]] of [[diffeological spaces]]
+and hence the [[topos]] of [[smooth spaces]].
+See there for more.
 
 ## Related concepts
 
 * [[orthogonal structure]]
 
+* [[integration over infinite-dimensional manifolds]]
+
 ## References
+
+### General
 
 * [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
  {#KM}
+
+### Integration
+
+On [[integration over infinite-dimensional manifolds]] (for instance [[path integrals]]):
+
+* [[Irving Segal]], _Algebraic integration theory_, Bull. Amer. Math. Soc. Volume 71, Number 3, Part 1 (1965), 419-489  ([Euclid](http://projecteuclid.org/euclid.bams/1183526903))
+
+* Hui-Hsiung Kuo, _Integration theory on infinite-dimensional manifolds_, Transactions of the American Mathematical Society Vol. 159, (Sep., 1971), pp. 57-78 ([JSTOR]( http://www.jstor.org/stable/1995998))
+
+* David Shale, _Invariant integration over the infinite dimensional orthogonal group and related spaces_,  Transactions of the American Mathematical Society
+Vol. 124, No. 1 (Jul., 1966), pp. 148-157 ([JSTOR]( http://www.jstor.org/stable/1994441))
 
 
 [[!redirects infinite dimensional manifold]]
