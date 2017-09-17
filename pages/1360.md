@@ -37,7 +37,7 @@ The term _simplicial model category_ for the notion described here is entirely s
 
 The other caveat is that there are different model category structures on [[sSet]] and hence even the term $sSet$-[[enriched model category]] is ambiguous.
 
-For instance the [[model structure for quasi-categories]] is an $sSet$-[[enriched model category]], but not for the standard Quillen model structure on the enriching category: since $sSet_{Joyal}$ is a [[closed monoidal category|closed]] [[monoidal model category]] it is enriched over itself, hence is a $sSet_{Joyal}$-enriched model category, not an $sSet_{Quillen}$-enriched one. So in the standrt terminology, $sSet_{Joyal}$ is _not_ a "simplicial model category".
+For instance the [[model structure for quasi-categories]] is an $sSet$-[[enriched model category]], but not for the standard Quillen model structure on the enriching category: since $sSet_{Joyal}$ is a [[closed monoidal category|closed]] [[monoidal model category]] it is enriched over itself, hence is a $sSet_{Joyal}$-enriched model category, not an $sSet_{Quillen}$-enriched one. So in the standard terminology, $sSet_{Joyal}$ is _not_ a "simplicial model category".
  
 =--
 
