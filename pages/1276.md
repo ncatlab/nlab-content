@@ -76,7 +76,7 @@ The condition in def. \ref{FlatModule} has the following immediate equivalent re
 
 1. $N$ is flat precisely if $N$ is an [[acyclic object]] with respect to the tensor product functor;
 
-   because the [[Tor]] functor is symmetric in both argumentsand an object is called tensor-[[acyclic object]] if all its positive-degree $Tor$-groups vanish.
+   because the [[Tor]] functor is symmetric in both arguments and an object is called tensor-[[acyclic object]] if all its positive-degree $Tor$-groups vanish.
 
 =--
 
@@ -301,7 +301,7 @@ $$
 
 A finite set $\{r_i \in R\}_i$ corresponds to the inclusion of a finitely generated ideal $I \hookrightarrow R$. 
 
-By theorem \ref{CharacterizationOnIdealInclusions} $N$ is flat precisely if $I \otimes_R N \to N$ is an injecton. This in turn is the case precisely if the only element of the tensor product $I \otimes_R R$ that is 0 in $R \otimes_R N = N$ is already 0 on $I \otimes_R N$.
+By theorem \ref{CharacterizationOnIdealInclusions} $N$ is flat precisely if $I \otimes_R N \to N$ is an injection. This in turn is the case precisely if the only element of the tensor product $I \otimes_R R$ that is 0 in $R \otimes_R N = N$ is already 0 on $I \otimes_R N$.
 
 Now by definition of [[tensor product of modules]] an element of $I \otimes_R N$ is of the form $\sum_i (r_i ,n_i)$ for some $\{n_i \in N\}$. Under the inclusion $I \otimes_R N \to N$ this maps to the actual linear combination $\sum_i r_i n_i$. This map is injective if whenever this linear combination is 0, already $\sum_i (r_i, n_i)$ is 0.
 
