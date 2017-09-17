@@ -102,6 +102,7 @@ A survey is in
 
 * [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf)
 
+* _[The peripatetic seminar on sheaves and logic 1976-1999](http://www.wra1th.plus.com/gcw/rants/math/PSSL/index.html)_
 
 [[!redirects Sheaf and Topos Theory]]
 [[!redirects sheaf theory]]
