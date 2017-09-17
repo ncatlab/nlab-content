@@ -52,7 +52,7 @@ hold.
 
   * **chain map**, [[quasi-isomorphism]]
 
-  * [[chain homotopy]]
+  * [[chain homotopy]], [[null homotopy]]
 
-[[!redirects chain map]]
 
+[[!redirects chain maps]]
