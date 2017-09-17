@@ -101,7 +101,7 @@ These two points of view are equivalent under replacing $\mathcal{C}$ by its [[o
 Let $I$ be a [[linearly ordered set]]. An _$I$-chain complex_ in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
 
 $$
-  F \;\colon\; I^{\Delta{1]} \longrightarrow \mathcal{C}
+  F \;\colon\; I^{\Delta[1]} \longrightarrow \mathcal{C}
 $$
 
 from the subposet of $I \times I$ on pairs of elements $i \leq j$, such that 
@@ -131,6 +131,7 @@ $$
 for the [[full sub-(∞,1)-category]] of diagrams satisfying these conditions.
 
 =--
+
 
 This is [[Higher Algebra|Higher Algebra, def. 1.2.2.2]].
 
@@ -400,9 +401,6 @@ $$
 This exact couple gives rise in the usual way to a spectral sequence. Explicitly:
 
 
-+-- {: .num_defn }
-###### Definition
-
 Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding chain complex, according to prop. \ref{ChainComplexesFromFilteredObjects}.
 
 Then for all $i \leq j \leq k$ there is a [[long exact sequence of homotopy groups]] in $\mathcal{A}$ of the form
@@ -420,7 +418,67 @@ $$
   \,.
 $$
 
-Define then for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E^r_{p,q}$ by the canonical [epi-mono factorization](http://ncatlab.org/nlab/show/abelian+category#FactorizationOfMorphisms)
++-- {: .num_defn #TheSpectralSequence}
+###### Definition
+
+Define for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E_r^{p,q} \in \mathcal{A}$ by the canonical [epi-mono factorization](abelian+category#FactorizationOfMorphisms)
+
+$$
+    \pi_{p+q} X(p-r,p)
+    \twoheadrightarrow
+    E_r^{p,q}
+    \hookrightarrow
+    \pi_{p+q} X(p-1, p+r-1)
+$$
+
+in the abelian category $\mathcal{A}$, of the morphism $X((p-r,p) \leq (p-1,p+r-1))$. Moreover, define [[morphisms]]
+
+$$
+  d_r \;\colon\; E_r^{p,q} \to E_r^{p-r, q+r-1}
+$$
+
+to be the restriction of the [[connecting homomorphism]] in the [[long exact sequence of homotopy groups]]
+
+$$
+  \array{
+     \pi_{p+q} X(p-r, p)
+     &\longrightarrow&
+     E_r^{p,q}
+     &\longrightarrow&
+     \pi_{p+q} X(p-1, p+r-1)
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     \pi_{p+q-1} X(p-2r, p-r)
+     &\longrightarrow&
+     E_r^{p-r,q+r-1}
+     &\longrightarrow&
+     \pi_{p+q-1} X(p-r-1, p-1)
+  }
+$$
+
+from the above long exact sequence (with $i=p-2r$, $j=p-r$, and $k=p$).
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For $r = 1$ in def. \ref{TheSpectralSequence} we have
+
+$$
+  E_1^{p,q} = \pi_{p+q} X(p-1,p) = \pi_{q} C_{p} 
+$$
+
+with $C_p$ on the right according to def. \ref{ChanComplexInducedFromZComplex}.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Define for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E^r_{p,q}$ by the canonical [epi-mono factorization](abelian+category#FactorizationOfMorphisms)
 
 $$
     \pi_{p} X(q-r+1,q+1)
@@ -466,7 +524,101 @@ $$ E^1_{p,q} = \pi_p \operatorname{fib}(X_q\to X_{q+1}), \qquad d^r: E^r_{p,q}\t
 
 =--
 
+Dually:
+
++-- {: .num_prop}
+###### Proposition
+
+In def. \ref{TheSpectralSequence}
+we have $d^r\circ d^r = 0$ for all $r \geq 1$ and all $p,q \in \mathbb{Z}$.
+
+Moreover, there are [[natural isomorphisms]]
+(natural in $X_\bullet$)
+
+$$
+  E_{r+1}^{p,q}
+  \simeq
+  \frac{
+   ker(d_r \colon E_r^{p,1} \to E_r^{p-r, q+r-1})
+  }{
+   im(d_r \colon E_r^{p+r, q-r+1} \to E_r^{p,q})
+  }
+  \,.
+$$
+
+Thus, $\{E_r^{*,*}\}_{r\geq 1}$ is a bigraded [[spectral sequence]]  in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
+
+$$ 
+  E_1^{p,q} = \pi_{p+q} \operatorname{cofib}(X_p\to X_{p+1}), 
+$$
+
+=--
+
+
 ([[Higher Algebra|Higher Algebra, prop. 1.2.2.7]])
+
++-- {: .proof}
+###### Proof
+
+
+Since $d_r$ is by definition the [[image]] morphism of a [[connecting homomorphism]], for showing $d_r \circ d_r = 0$ it suffices to show that the connecting homomorphisms compose to the [[zero morphism]], 
+$\delta_r \circ \delta_r \simeq 0$. This is the same kind of argument
+as in the proof of prop. \ref{ZComplexInCInducedChainComplexInHoC}.
+
+Explicitly, we have the pasting diagram 
+
+$$
+  \array{
+    F(p-2r,p) &\longrightarrow& F(p-2r,p+1) &\longrightarrow& 0
+    \\
+    \downarrow &(c)& \downarrow && \downarrow
+    \\
+    F(p-r,n) &\longrightarrow& F(p-r,p+1) &\longrightarrow& 0
+    \\
+    \downarrow &(c)& \downarrow &(c)& \downarrow
+    \\
+    0 &\longrightarrow& F(p,p+r) &\underset{\delta_r}{\longrightarrow}& \Sigma F(p-r,p)
+  }
+$$
+
+where the squares labeled "c" are (co-)cartesian ([[homotopy pushouts]]). 
+By the [[universal property]] of the pushout applied twice, this induces a factorization
+
+$$
+  \array{
+    F(p,p+1) &\longrightarrow& \Sigma F(p-2r,p)
+    \\
+    & {}_{\mathllap{\delta_r}}\searrow & \downarrow
+    \\
+    && \Sigma F(p-r,p)
+  }
+  \,.
+$$
+
+Pasting this in turn to the homotopy pushout that defines $\Sigma \delta_{p-r}$
+
+$$
+  \array{
+    F(p,p+1) &\longrightarrow& \Sigma F(p-2r,p)  &\longrightarrow& 0 
+    \\
+    & {}_{\mathllap{\delta_r}}\searrow & \downarrow &(c)& \downarrow
+    \\
+    && \Sigma F(p-r,p) &\underset{\Sigma \delta_{r}}{\longrightarrow}&
+    \Sigma^2 F(p-2r,p-1)
+  }
+$$
+
+and then suspending the result $n$ times yields a diagram that exhibits a null-homotopy
+
+$$
+  \delta_{r}  \circ \delta_r \simeq 0
+$$
+
+in $\mathcal{C}$.
+
+Next, to show the homology isomorphisms (...)
+
+=--
 
 If [[sequential limits]] and [[sequential colimits]] exist in $\mathcal{A}$, we can form the limiting term $E^\infty_{*,*}$ of this spectral sequence.
 
