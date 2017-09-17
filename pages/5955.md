@@ -46,7 +46,7 @@ is equivalentl to the category of $R$-module spectra.
 This is ([Lurie, cor. 1.5.15](#Lurie)).
 
 
-### Over Eilenberg-MacLane spectra
+### Stable Dold-Kan correspondence
 
 For $R$ an ordinary [[ring]], write $H R$ for the corresponding [[Eilenberg-MacLane spectrum]]. 
 
@@ -61,9 +61,13 @@ $$
 
 between model structure on  $H R$-module spectra and the [[model structure on chain complexes]] (unbounded) of ordinary $R$-[[module]]s.
 
+This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a commutative ring, then this is an equivalence of [[symmetric monoidal (∞,1)-categories]].
+
 =--
 
-This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a Quillen equivalence is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)).
+This equivalence on the level of [[homotopy categories]] is due to ([Robinson](#Robinson)). The refinement to a Quillen equivalence is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). A direct description as an equivalence of $(\infty,1)$-categories appears as ([Lurie, theorem 7.1.2.13](#Lurie)).
+
+
 
 +-- {: .num_remark}
 ###### Remark
