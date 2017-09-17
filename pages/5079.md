@@ -23,8 +23,8 @@ Of course, the category [[Grp]] is [[complete category|complete]], but in genera
 
 We can generalize this further to arbitrary pro-groups with surjective transition maps, if instead of [[Top]] we take the limit in the category [[Loc]] of [[locales]].
 
-{#EquivalentCharacterizations}
-+--{: .un_prop}
+
++--{: .un_prop #EquivalentCharacterizations}
 ###### Proposition
 
 The following are equivalent for a [[localic group]] $G$:
