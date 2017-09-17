@@ -158,20 +158,23 @@ For a generalization of cardinality from sets to [[groupoids]] see [[groupoid ca
 
 ## References
 
+The book
 
-* _Sets, Logic and Categories_ by Peter J Cameron (ISBN: 1-85233-056-2 )
+* Peter J Cameron, _Sets, Logic and Categories_  (ISBN: 1-85233-056-2 )
 
 contains a very readable account of ZFC and the definitions of both Ordinal and Cardinal numbers.  
-
 
 Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is 
 
 * Thomas Jech _[Set Theory](http://books.google.com/books?id=pLxq0myANiEC)_; 
 
-there are also some references listed at [MathWorld](http://mathworld.wolfram.com/CardinalNumber.html) and [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
+there are also some references listed at 
 
-Any *standard* approach will start from a [[material set theory]], such as ZFC; we tend to prefer [[structural set theory]] here.  Since cardinality is isomorphism invariant (which is kind of the whole point), it\'s easy to interpret the standard material structurally, but the basic definitions will be different.  If you\'re looking for a standard reference on cardinality from a structural foundation, I can\'t help you; there may not be any.
+* [MathWorld](http://mathworld.wolfram.com/CardinalNumber.html) and 
 
+* [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
+
+Any *standard* approach will start from a [[material set theory]], such as ZFC; not so much the [[structural set theory]] emphasized above.  But since cardinality is isomorphism invariant it is easy to interpret the standard material structurally, but the basic definitions will be different.  There does not seem to be a standard account of cardinality from withing structural set theory.
 
 A critical discussion of the history of the meaning of Cantors "Kardinalen" see 
 
