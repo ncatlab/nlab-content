@@ -207,7 +207,7 @@ For more see _[[n-image]]_.
 
 Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of [[(∞,1)-functor]]s between [[∞-groupoid]]s and hence a notion of image of [[functor]]s between [[groupoid]]s, [[2-functor]]s between [[2-groupoid]]s, etc.
 
-## Relatet concepts
+## Related concepts
 
 * [[preimage]]
 
