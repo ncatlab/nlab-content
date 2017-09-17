@@ -196,6 +196,16 @@ The conditions of the above theorems are satisfied for
 
 * $V = sSh(C)$ the [[model structure on simplicial sheaves]] on some [[site]] $C$.
 
+In these contexts, 
+
+* the [[associative operad]] is admissible $\Sigma$-cofibrant
+
+  ([BergerMoerdijk, page 15](#BergerMoerdijkHomotopy))
+
+* the [[commutative operad]] is far from being $\Sigma$-cofibrant.
+
+This means we have rectification theorems for [[A-∞ algebras]] but not for [[E-∞ algebras]]. See [[model structure on algebras over an operad]] for more.
+
 ## Properties
 
 ### Cofibrancy
