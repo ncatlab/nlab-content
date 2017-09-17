@@ -57,7 +57,7 @@ $$
 ## Properties
 
 
-### Formulation in terms of sections
+### Formulation in terms of sections {#InTermsOfSections}
 
 Twisted cohomology may be reformulated equivalently in terms of collections of [[section]]s as follows:
 
@@ -109,6 +109,19 @@ $$
 These in turn are manifestly the homotopy classes of maps $X \to \hat{B}$ such that $X \to \hat{B} \to B$ is homotopic to $c$. 
 
 =--
+
+More precisely, we use the characterization of the [homotopy fibers of (∞,1)-functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats) (as described there) in terms of [[hom-object in a quasi-category|hom-object]] in the [[over quasi-category|over (∞,1)-category]] $\mathbf{H}_{/B}$ as
+
+$$
+  \mathbf{H}_{[c]}(X,f)  
+  \simeq
+  \mathbf{H}_{/B}(c,f)
+  \,.
+$$
+
+On the right, the objects are morphism $X \to \hat B$ equipped with equivalences from $X \to \hat B \stackrel{f}{\to} B$ to $c : X \to B$.
+
+
 
 
 ### Twisted cohomology with trivial twisting cocycle
