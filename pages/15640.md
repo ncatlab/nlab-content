@@ -198,7 +198,12 @@ This [[adelic integral]]-method generalizes to [[Dedekind zeta functions]] for a
 
 ### Analogs over number fields, function fields and complex curves
 
+The [[function field analogy]] in view of the discussion at _[[zeta function of an elliptic differential operator]]_ says that the Riemann zeta function is [[analogy|analogous]] to the regulated [[functional determinant|functional trace]] of a would-be "[[Dirac operator]] on [[Spec(Z)]]".
+
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+Other identifications/analogies of the Riemann zeta function (and more generally the [[Dedekind zeta-function]]) with [[partition functions]] in [[physics]] have been proposed, in particular the _[[Bost-Connes system]]_.
+
 
 See also at _[[function field analogy]]_.
 
