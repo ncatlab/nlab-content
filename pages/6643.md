@@ -37,7 +37,11 @@ The [[counit of an adjunction|counit]] of this adjunction is a canonical strict 
 
 All [[PIE-limits]] are flexible.  This includes [[products]], [[inserters]], [[equifiers]] by definition, and also [[descent object|descent objects]], [[iso-inserters]], [[comma objects]], and so on.  In fact, PIE-limits have a characterization similar to the definition above of flexible limits: they are the coalgebras for $Q$ regarded as a 2-[[comonad]].
 
-The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Moreover, in a certain sense it is the "only" such, since flexible limits are generated, as a class of weights, by the PIE-limits together with splitting of idempotents (and also by PIE-limits together with splitting of idempotent equivalences).
+The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Moreover, in a certain sense it is the "only" such.  Precisely, flexible limits are the [[saturated class of limits|saturation]] of each of the following classes of limits:
+* PIE-limits together with splitting of idempotents
+* PIE-limits together with splitting of idempotent equivalences
+* strict pseudo-limits together with splitting of idempotents
+* strict pseudo-limits together with splitting of idempotent equivalences
 
 
 ## References
