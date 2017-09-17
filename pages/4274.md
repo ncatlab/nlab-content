@@ -108,6 +108,13 @@ On manifolds with rational [[string structure]] (meaning spin structure and the 
 
 On manifolds with actual [[string structure]], finally, the Witten genus factors through [[topological modular forms]] ([Hopkins 94](#Hopkins94), [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk)).
 
+### Heterotic (twisted) Witten genus, loop group representations and parameterized WZW models
+ {#TwistedWittenGenus}
+
+If the [[superstring]] in question is the [[heterotic string]] then generally there is a "twist" of its [[background fields]] by a [[gauge field]], hence by a $G$-[[principal bundle]] for $G$ some simply connected [[compact Lie group]] (notably [[E8]]). The partition function in this case is a twisted Witten genus ([Witten 87](#Witten87)). The modularity condition then is no longer just that the [[tangent bundle]] has [[string structure]], but that together with the gauge bundle it has [[twisted string structure]], hence [[string^c 2-group|String^c]]-structure for $c$ the $G$-[[second Chern class]] (explicitly identified as such in [Chen-Han-Zhang 10](#ChenHanZhang10)).
+
+An elegant formulation of twisted Witten genera (and proof of their rigidity) in terms of highest weight [[loop group representations]] is given in ([KL 95](#KL95)). In ([Distler-Sharpe 07](#DistlerSharpe07)), following suggestions around ([Ando 07](#Ando07)) this is interpreted geometrically in terms of fiberwise [[index|indices]] of [[parameterized WZW models]] [[associated bundle|associated]] to the given [[string 2-group|String]]-[[principal 2-bundle]].
+
 ### Stolz conjecture
 
 The _[[Stolz conjecture]]_ due to ([Stolz 96](#Stolz96)) asserts that if $X$ is a [[closed manifold]] with [[String structure]] which furthermore admits a [[Riemannian metric]] with [[positive number|positive]] [[Ricci curvature]], then its Witten genus vanishes.
@@ -149,9 +156,9 @@ Rigorous proofs of the rigidity claims then appeared in
 
 * [[Raoul Bott]], [[Clifford Taubes]], _On the rigidity theorems of Witten_, J. of the Amer. Math. Soc., 2, 1989.
 
-A simpler proof and many further cases were then discussed in
+An elegant proof in terms of [[loop group representations]] and applying also to twisted Witten genera and serveral further cases was then given in
 
-* [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
+* {#KL95} [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
 
 based on
 
@@ -256,11 +263,21 @@ Constructions of the [[sigma-model]] [[QFT]] that is supposed to give the Witten
 ### Twisted case
  {#ReferencesTwistedCase}
 
-The twisted Witten genus in the present of [[background gauge field]] hence for a [[twisted string structure]]/[[string^c structure]] was considered in 
+The twisted Witten genus in the present of [[background gauge field]] hence for a [[twisted string structure]]/[[string^c structure]] is discussed in terms of [[twisted string structzres]] in
 
-* Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+* {#ChenHanZhang10} Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
 For the moment see the references at _[[string^c structure]]_ for more on this.
+
+An geometric interpretation of this in terms of [[parameterized WZW models]] is suggested in
+
+* {#DistlerSharpe07} [[Jacques Distler]], [[Eric Sharpe]], section 8.5 _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
+  {#DistlerSharpe10}
+
+and with more emphasis on [[equivariant elliptic cohomology]] in 
+
+* {#Ando07} [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
+
 
 [[!redirects Witten genera]]
 
