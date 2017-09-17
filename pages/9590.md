@@ -16,18 +16,12 @@ Let $X$ and $Y$ be [[topological spaces]], and let $f$ be a [[continuous map]] (
 
 +-- {: .num_defn}
 ###### Definition
-The map $f\colon X \to Y$ __vanishes at infinity__ if:
-* for every [[neighbourhood]] $N$ of the [[basepoint]] in $Y$,
-* there is [[compact subspace]] $K$ of $X$ such that:
-  * for every $x$ in the [[exterior]] of $K$ in $X$,
-  * $f(x)$ belongs to $N$.
+The map $f\colon X \to Y$ __vanishes at infinity__ if for every [[neighbourhood]] $N$ of the [[basepoint]] in $Y$, there is [[compact subspace]] $K$ of $X$ such that $f(x)$ belongs to $N$ whenever $x$ lies in the [[exterior]] of $K$ in $X$.
 =--
 
-In case $Y$ is a pointed [[metric space]] (such as a [[Banach space]], with basepoint $0$; or in particular the [[real line]], with basepoint $0$), then we may equivalently say:
-* for every [[positive number]] $\epsilon$,
-* there is [[compact subspace]] $K$ of $X$ such that:
-  * for every $x$ in the [[exterior]] of $K$ in $X$,
-  * ${\|f(x)\|} \lt \epsilon$.
+In case $Y$ is a pointed [[metric space]] (such as a [[Banach space]], with basepoint $0$; or in particular the [[real line]], with basepoint $0$), then we may equivalently say: 
+
+* For every [[positive number]] $\epsilon$, there is [[compact subspace]] $K$ of $X$ such that ${\|f(x)\|} \lt \epsilon$ whenever $x$ lies in the [[exterior]] of $K$ in $X$.
 
 (Here, ${\|{-}\|}$ is the [[norm]] in a Banach space, or more generally the distance from the basepoint in any pointed metric space.)
 
