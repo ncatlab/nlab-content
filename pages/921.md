@@ -115,6 +115,8 @@ The [[extended real number]]s include $\pm\infty$ as well as the ordinary (or _b
 
 [[surreal number|Surreal numbers]] and the [[hyperreal number]]s of [[nonstandard analysis]] are two ways to include [[infinite number|infinite]] and [[infinitesimal number|infinitesimal]] versions of real numbers.
 
+In [[descriptive set theory]], one often says 'real number' for an element of [[Baire space]] $\mathbb{B}$.  By the [[Schroeder-Bernstein theorem]], the sets $\mathbb{R}$ and $\mathbb{B}$ are [[bijection|isomorphic]].  Constructively, $\mathbb{B}$ can still be thought of as the set of [[irrational number]]s.
+
 
 [[!redirects real number]]
 [[!redirects real numbers]]
