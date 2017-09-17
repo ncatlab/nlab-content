@@ -1008,7 +1008,7 @@ both specific ones as well as classes of examples constructed in a certan way.
 
 Let $\mathbf{H}$ be an cohesive $(\infty,1)$-topos.
 
-Let $D$ be a small [[diagram]] [[category]] with [[initial object]] $\bottom$ and [[terminal object]] $\top$. Write
+Let $D$ be a  [[small category]] ([[diagram]]) with [[initial object]] $\bottom$ and [[terminal object]] $\top$, or else a [[presentable (∞,1)-category]]. Write
 
 $$
   (\bottom \dashv p \dashv \top)
@@ -1017,9 +1017,9 @@ $$
   *
 $$
 
-for the [[adjoint triple]] given by including $\bottom$ and $\top$.
+for the [[adjoint triple|triple]] of [[adjoint (∞,1)-functors]] given by including $\bottom$ and $\top$.
 
-Then the [[(∞,1)-category of (∞,1)-functors|(∞,1)-functor category]] $\mathbf{H}^D$ is again a cohesive $(\infty,1)$-topos, the [[adjoint quadruple]] being the composite
+Then the [[(∞,1)-category of (∞,1)-functors|(∞,1)-functor category]] $\mathbf{H}^D$ is again a cohesive $(\infty,1)$-topos, exhibited by the [[adjoint quadruple]] which is the composite
 
 $$
   \mathbf{H}^D
@@ -1031,6 +1031,17 @@ $$
 $$
 
 where the [[adjoint quadruple]] on the left is that induced under [[(∞,1)-Kan extension]] from $(\bottom \dashv p \dashv \top)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[(∞,1)-Kan extension]] each of the original three functors induces [adjoint triples $(\bottom_! \dashv \bottom^* \dashv \bottom_*)$ etc, as indicated. In particular $\top^*$ is a [[right adjoint]] and therefore preserves finite products (and all small [[(∞,1)-limits]], even). 
+
+By the original adjunctions one finds that $\bottom_! \simeq p^*$ and  $p_! \simeq \top^*$, which implies the adjoint quadruple as indicated above by essential uniqueness of adjoints. 
+
+Finally it is clear that $\top^* p^* \simeq Id$, which implies that $p^*$ is a [[full and faithful (∞,1)-functor]] (and hence so is $\bottom_*$).
 
 =--
 
