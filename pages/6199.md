@@ -4,16 +4,17 @@ $$
 \mathbb{R}\times M\to M
 $$
 
-The parameter of evolution is called time.
+The parameter of evolution is called time. If the law of evolution is translation invariant we say that the dynamical system is __autonomous__. 
 
 The law of motion is often given by (what is in a particular case) an equivalent datum, e.g. by an initial value problem for a differential equation "of evolution type".
 
 Sometimes the evolution is only partially defined; this is most often in dynamical systems induced by evolution differential equations which do not necessarily have existence of solutions for arbitrary large time, or the dynamical system is defined only for nonnegative time. 
 
-Sometimes time is taken to be discrete, that is belonging to integers or say to positive integers. 
+Sometimes time is taken to be __discrete__, that is belonging to integers $\mathbb{Z}$ or say to positive integers $\mathbb{N}$. The autonomous discrete dynamical system is determined by the morphism $S: M\to M$, sometimes called __shift__ which determines the change from time $n$ to $n+1$. The autonomous dynamical systems can be viewed in quite general categories in which there are nontrivial endomorphisms; so one has complex dynamics, [[algebraic dynamics]], arithmetic dynamics and so on. 
 
 Most often one looks at dynamical systems in which $M$ is a smooth manifold. Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
 
 * Boris Hasselblatt, Anatole Katok, _Handbook of dynamical systems_, [contents](http://www.math.psu.edu/katok_a/handbook.html)
+* wikipedia [dynamical system](http://en.wikipedia.org/wiki/Dynamical_system), [autonomous system](http://en.wikipedia.org/wiki/Autonomous_system_%28mathematics%29)
 
 [[!redirects dynamical systems]]
