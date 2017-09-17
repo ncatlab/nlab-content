@@ -1,0 +1,8 @@
+
+* [webpage](http://www.gdi.uni-bamberg.de/personnel/mendler/index.htm)
+
+## Related entries
+
+* [[computational type theory]]
+
+category: people
