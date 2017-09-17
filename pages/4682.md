@@ -1,0 +1,22 @@
+
+# Simple Lie groups
+* table of contents
+{: toc}
+
+## Definition
+
+A __simple Lie group__ is a [[connected space|connected]] [[Lie group]] with exactly two connected [[normal subgroups]] that is not [[abelian group|abelian]].
+
+
+## Remarks
+
+This is *not* the same thing as a [[simple object]] in [[LieGrp]] (or even in $Conn Lie Grp$).  However, the [[Lie algebra]] associated to a simple Lie group is always a [[simple Lie algebra]] (although that definition also requires a non-abelian clause).
+
+
+## Classification
+
+See Wikipedia\'s [list of simple Lie groups](http://en.wikipedia.org/wiki/List_of_simple_Lie_groups).
+
+
+[[!redirects simple Lie group]]
+[[!redirects simple Lie groups]]
