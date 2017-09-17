@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -261,6 +260,10 @@ $$
 
 This bigrading is traditionally considered in [[motivic cohomology]] where the line object is that of [[A1-homotopy theory]], but the general construction depends only on the presence and choice of an [[interval object]].
 
++--{.query}
+Marc: I am confused about the origin of the bigrading in motivic cohomology: despite the warning, I don't see how the geometric 1-sphere $\mathbb{G}_m$ is given by $S^1_I = \Delta_I^1/ \partial \Delta_I^1$. I'd interpret the latter as being the sheaf $\mathbb{A}^1/\{0,1\}$ which is equivalent to the _categorical_ sphere $S^1$, not to the geometric one. In fact I believe that in any site with interval that the two families of spheres given above coincide after I-localization, and that this explains why any sheaf of simplicial sets becomes equivalent to a sheaf of sets. Am I wrong?
+=--
+
 ##### Exotic grading
 
 In some cases one considers geometric spheres $S^V$ that do not necessarily arise from a single [[interval object]]. One can still follow the general procedure and define a corresponding graded cohomology
@@ -459,6 +462,7 @@ Classes of special cases of cohomologies with their own entries include
 The probably most familiar kind of cohomology is that of a [[cochain complex]] dual to a [[chain complex]]. 
 
 Using the [[Dold-Kan correspondence]] [[chain complex]]es are understood as components of strict [[spectrum object]]s in the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[∞-groupoid]]s: namely those [[∞-groupoid]]s with the structure of a _[[group object|strict]]_ abelian [[groupoid object in an (∞,1)-category|group object]]: as [[Kan complex]]es these are abelian [[simplicial group]]s.
+
 
 This way ordinary chain cohomology is seen to be a special case of general cohomology in $\mathbf{H} = $ [[∞Grpd]]. A more detailed discussion of how from this perspective the usual formulas for cochains and cocycles appear is at 
 
