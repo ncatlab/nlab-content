@@ -22,7 +22,7 @@ There are several different viewpoint on theories:
 
   $$C_{\mathcal{T}} \to Set$$ 
 
-  that preserve some (typically property-like) structures on $C_{\mathcal{T}}$, such as certain classes of [[colimit]]s or of [[limits]], pertinent to the fragment of logic at hand. Then a completeness theorem would be the statement that the canonical map 
+  that preserve some (typically [[stuff, structure, property|property-like]]) [[stuff, structure, property|structures]] on $C_{\mathcal{T}}$, such as certain classes of [[colimit]]s or of [[limits]], pertinent to the fragment of logic at hand. Then a completeness theorem would be the statement that the canonical map 
 
   $$C_{\mathcal{T}} \to \prod_{models F in Set} Set$$ 
 
