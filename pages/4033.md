@@ -89,3 +89,32 @@ It is called _infrabarreled_ in
 [[!redirects Infrabarreled topological vector spaces]]
 [[!redirects Infrabarreled spaces]]
 [[!redirects infrabarreled spaces]]
+
+[[!redirects barrelled]]
+[[!redirects barrelled topological vector space]]
+[[!redirects Barrelled topological vector space]]
+[[!redirects Barrelled space]]
+
+[[!redirects barrelled space]]
+[[!redirects Barrelled topological vector spaces]]
+[[!redirects Barrelled spaces]]
+[[!redirects barrelled spaces]]
+
+
+[[!redirects quasibarrelled topological vector space]]
+[[!redirects Quasibarrelled topological vector space]]
+[[!redirects Quasibarrelled space]]
+[[!redirects quasibarrelled space]]
+[[!redirects Quasibarrelled topological vector spaces]]
+[[!redirects Quasibarrelled spaces]]
+[[!redirects quasibarrelled spaces]]
+
+[[!redirects barrelled topological vector space]]
+
+[[!redirects infrabarrelled topological vector space]]
+[[!redirects Infrabarrelled topological vector space]]
+[[!redirects Infrabarrelled space]]
+[[!redirects infrabarrelled space]]
+[[!redirects Infrabarrelled topological vector spaces]]
+[[!redirects Infrabarrelled spaces]]
+[[!redirects infrabarrelled spaces]]
