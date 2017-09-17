@@ -1,0 +1,4 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/John_Ellis_%28physicist%29)
+
+category: people
