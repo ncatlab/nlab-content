@@ -85,7 +85,7 @@ The following are closely interrelated, and depend on having a suitable universe
 
 ###### Goedel completeness theorem
 
-That for a first-order theory $T$ in some language $L$, then $T$ is consistent iff there is a model of $T$ in $V$ --- that is, iff $M\models T$ for some $M\in V$.
+Given a first-order theory $T$ in some language $L$, $T$ is consistent iff there is a model of $T$ in $V$ --- that is, iff $M\models T$ for some $M\in V$.
 
 ###### Goedel's compactness theorem
 
@@ -109,11 +109,11 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 
 ## Literature and related entries
 
-* related entries: [[type (in model theory)]], [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]]
+* related entries: [[type (in model theory)]], [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]], [[geometric stability theory]], [[o-minimal structure]]
 * wikipedia [model theory](http://en.wikipedia.org/wiki/Model_theory)
-* entries on researchers in model theory: [[Boris Zilber]], [[Kenneth Kunen]], [[Saharon Shelah]] 
+* entries on researchers in model theory: [[Alfred Tarski]], [[Boris Zilber]], [[Kenneth Kunen]], [[Saharon Shelah]] 
 * Chen Chung Chang, H. Jerome Keisler, _Model Theory. Studies in Logic and the Foundations of Mathematics_. 1973, 1990, Elsevier. 
-* Wilfrid Hodges, _A shorter model theory_, Cambridge University Press 1997
+* Wilfrid Hodges, _Model Theory_, Cambridge University Press 1993; _A shorter model theory_, Cambridge UP 1997
 * [[David Kazhdan]], _Lecture notes in motivic integration_, with intro to logic and model theory, [pdf](http://www.ma.huji.ac.il/~kazhdan/Notes/motivic/b.pdf)
 * R. Cluckers, J. Nicaise, J. Sebag (Editors), _Motivic Integration and its Interactions with Model Theory and Non-Archimedean Geometry_, 2 vols.
 London Mathematical Society Lecture Note Series __383__, __384__ 
@@ -121,5 +121,7 @@ London Mathematical Society Lecture Note Series __383__, __384__
 * C U Jensen, H Lenzing, Model theoretic algebra: with particular emphasis on fields, rings, modules (1989)
 * [[Boris Zilber]], _Elements of geometric stability theory_, lecture notes, [pdf](http://people.maths.ox.ac.uk/zilber/est.pdf); _On model theory, non-commutative geometry and physics_, (survey draft) [pdf](http://people.maths.ox.ac.uk/zilber/bul-survey.pdf); _Zariski geometries_, book, [draft pdf](http://people.maths.ox.ac.uk/zilber/s.pdf);  On model theory, noncommutative geometry and physics, conference talk, [video](http://zomobo.net/play.php?id=wnhbpIQBpiE)
 * [Shelah archive](http://shelah.logic.at), [Shelah's books](http://shelah.logic.at/books.html)
-
+* Valentin Goranko, Martin Otto, _Model theory of modal logic_, [pdf](http://www.mathematik.tu-darmstadt.de/~otto/papers/mlhb.pdf)
+* John T. Baldwin, _Fundamentals of stability theory_ 
+* H. Keisler. _Model theory for infinitary logic_, North-Holland, Amsterdam, 1971.
 [[!redirects model theory]]
