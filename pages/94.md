@@ -137,7 +137,7 @@ $$
   \Leftrightarrow
   \left(
     \forall n : 
-  \sum_{i+j = n} \sum_{unshuffles \sigma}
+  \sum_{i+j = n} \sum_{shuffles \sigma}
   \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)}
    , v_{\sigma(j+1) , \cdots , v_{\sigma(n)}}
   ) )
@@ -274,7 +274,7 @@ Alberto S. Cattaneo, Florian Sch&auml;tz, _Equivalences of higher derived bracke
 
 The standard reference for Lie 2-algebras is:
 
-* [[John Baez]] and Alissa Crans, _Higher-dimensional dlgebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
+* [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
 
 For more general 'weak Lie 2-algebras', see:
 
