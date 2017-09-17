@@ -99,7 +99,9 @@ The [[GNS construction]] shows that every abstract $C^*$-algebra over the [[comp
 
 ### Gelfand duality
 
-[[Gelfand duality]] says that every (unital) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* Alg_{com} \simeq $ [[Top]]${}_{cpt}$.
+[[Gelfand duality]] says that every (unital) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* CAlg_{com} \simeq $ [[Top]]${}_{cpt}$.
+
+Accordingly one may think of the study of non-commutative $C^\ast$-algebras as _[[non-commutative topology]]_.
 
 
 ### General
