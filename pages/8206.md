@@ -24,7 +24,7 @@
 
 ## Idea
 
-(...)
+A certain [[string theory]] whose [[target space]] is [[twistor space]]. Induces computation of [[MHV amplitudes]] in [[N=4 D=4 super Yang-Mills theory]]
 
 ## Related entries
 
