@@ -77,5 +77,8 @@ The [[universal construction]]s of [[category theory]] generalize, with unique e
 
 * [[higher category theory]]
 
+## References
+
+See the references at _[[(infinity,1)-category]]_.
 
 [[!redirects (∞,1)-category theory]]
