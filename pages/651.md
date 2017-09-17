@@ -105,39 +105,7 @@ The boundaries of each of these intervals forms part of the boundary of $A$ and 
 For further simplicity, let us assume that $(0,1)$ is one of the components of $A$ and we are considering the boundary point $0$.
 Thus we wish to consider $\lim_{t \to 0^+} \alpha_x(t)$.
 
-   We wish to show that this limit exists.
-There are basically two cases to rule out here:
-
-   1. $t \mapsto (\frac1t,t)$,
-   2. $t \mapsto (\sin \frac1t, t)$.
-
-   Both can be ruled out using the function $\phi : \mathbb{R}^2 \to \mathbb{R}$ defined by $\phi(x,y) = x y$.
-This is constant, indeed zero, on the $x$-axis and so descends to a smooth function on $X$.
-In the first case, $\phi \circ \alpha(t) = 1$ for $t \in (0,1)$ but $\phi \circ \alpha(0) = 0$.
-In the second case, $\phi \circ \alpha$ is continuous at $0$ but not differentiable there.
-Thus as $\phi \circ \alpha$ must be smooth, neither case is possible.
-
-   Thus $\alpha_x$ extends to a continuous function on $[0,1)$.
-It is straightforward to extend this to show that $\alpha_x$ extends to a smooth function on $[0,1)$, where by "smooth" we mean that the all one-sided derivatives exist at $0$.
-
-   Thus the original curve $\alpha$ consists of a sequence of paths in either the upper or lower half planes with endpoints anchored on the $x$-axis.
-These paths are parametrised by smooth paths $[a,b] \to \mathbb{R}^2$ with domains that are disjoint except, perhaps, for endpoints.
-If the endpoints of two of these paths coincide then one of two things must happen:
-
-   1. The paths are infinitely flat at the common endpoint, in which case nothing can be said about the corresponding points on the $x$-axis.
-   2. The paths are not infinitely flat at the common endpoint, in which case the image of this point in $\mathbb{R}^2$ is the same under each path and the joined path is again smooth.
-
-   The final thing to determine is what happens if we have a sequence of endpoints that converge in the domain.
-
-   +-- {: .query}
-
-   [[Andrew Stacey]]:
-Not finished with this example, of course.
-Some pictures would be nice, I guess.
-As it's an example I'm not sure how much detail to give.
-Comments would be helpful on that score!
-
-   =--
+   The general rule is simple to state: $\alpha_y$ must go to zero faster than $\alpha_x$ (and any of its derivatives) can go to infinity.
 
 3. Let us give an example that shows that the category of Fr&ouml;licher spaces is not [[locally cartesian closed category|locally cartesian closed]].
 Consider a [[coequaliser]] diagram $\mathbb{R} \setminus \{0\} \to \mathbb{R} \amalg \mathbb{R}$ where the two maps are the inclusions into the two cofactors.
@@ -461,6 +429,22 @@ It is clear that these assignments are functorial, and that the curvaceous topol
 
 In general, we shall often define two notions of each topological property: a curvaceous one and a functional one.
 Sometimes these will be the same.
+When looking for the right functional definition, we have an obvious place in topology to start looking: the ring of continuous real-valued functions on a topological space.
+For the curvaceous definition, an obvious place to look is at paths in a topological space.
+Although there are some topological ideas have good "path" variants, this is not true of many.
+What is more common is to have a "sequential" variant of a general concept.
+In sufficiently nice topological spaces, sequences can be turned into paths, and convergent sequences into extendible paths.
+One way to use this would be to take a sequential definition, convert it to one about paths, and then replace "path" by "smooth path".
+Unfortunately, the reformulation of topological properties from the sequential language to that of paths is rarely neat - consider how to express "$(x_{n_k})$ is a subsequence of $(x_n)$" in path-speak.
+So instead of using continuous paths as our bridge from sequential topology to curvaceous smootheology, we shall introduce the notion of "smoothly convergent sequences" and use them instead.
+
++-- {: mynumdef #SmoothSeq}
+###### Definition ######
+Let $(X,C_X,F_X)$ be a Fr&ouml;licher space.  Let $(x_n)$ be a sequence in $X$ and $x \in X$ a point.  The sequence $(x_n)$ is said to be **smoothly convergent** to $x$ if there is a smooth curve $c \colon \mathbb{R} \to X$, a sequence $(t_n) \to 0$ in $\mathbb{R}$, and $N \in \mathbb{N}$ such that $c(t_n) = x_n$ for $n \ge N$ and $c(0) = x$.
+=--
+
+In the continuous case, we could simply take the sequence $(t_n)$ to be some standard sequence, say $(\frac1n)$.  This is because homeomorphisms are easy to come by and so if $(t_n)$ and $(s_n)$ are strictly decreasing sequences converging to $0$ then there is a homeomorphism $(0,1) \to (0,1)$ mapping $t_n$ to $s_n$.  This does not hold in the smooth case.
+
 
 Let us start with some very simple definitions.
 
@@ -657,6 +641,32 @@ This is done recursively using postcomposition by suitably chosen functions.
 Once this is done, we can define a new smooth function by $\sum n \widehat{\phi_n}$.
 This is smooth, as the components have disjoint support, and is unbounded.
 Hence the Fr&ouml;licher space is not functionally compact.
+=--
+
+The corresponding curvaceous notion rests for its inspiration on the notion of [[sequential compactness]].  Here is one case where there is not a pathwise version of compactness and so we use the notion of "smoothly convergent sequences" instead.
+
+
++-- {: .num_defn #DefCurvComp}
+###### Definition
+Let $(X, C_X,F_X)$ be a Fr&ouml;licher space.  We say that $X$ is **curvaceously compact** if every sequence has a smoothly convergent subsequence.
+=--
+
+The following property is why curvaceously compact Fr&ouml;licher spaces are suitable sources for [[manifolds of mapping spaces]].
+
++-- {: .num_prop #CurvCompProd}
+###### Proposition ######
+A Fr&ouml;licher space $(X, C_X, F_X)$ is curvaceously compact if and only if the curvaceous topology on $\mathbb{R} \times X$ has the property that if $U$ is an open neighbourhood of $\{0\} \times X$ then there is some $\epsilon \gt 0$ such that $(-\epsilon,\epsilon) \times X \subseteq U$.
+=--
+
++-- {: .proof}
+###### Proof
+Let $(X, C_X, F_X)$ be a curvaceously compact Fr&ouml;licher space.  Let $U$ be a set containing $\{0\} \times X$ with the property that there is no $\epsilon \gt 0$ such that $(-\epsilon,\epsilon) \times X \subseteq U$.  We shall show that $U$ is not open in the curvaceous topology.
+
+By assumption, for each $n$ there is some $x_n \in X$ such that $(\frac1n,x_n) \notin U$.  As $X$ is curvaceouly compact, there is a subsequence $(x_{n_k})$ of $(x_n)$, a smooth curve $\check{c} \colon \mathbb{R} \to X$ such that $\check{c}(\frac1k) = x_{n_k}$.  Let $c \colon \mathbb{R} \to \mathbb{R} \times X$ be the curve $c(t) = (t, \check{c}(t))$.  By definition of products, this is a smooth curve in $\mathbb{R} \times X$.  Let us consider $c^{-1}(U)$.  As $\{0\} \times X \subseteq U$, $c(0) = (0,\check{c}(0)) \in U$ and so $0 \in c^{-1}(U)$.  But for $k \in \mathbb{N}$, $c(\frac1k) = (\frac1k,x_{n_k}) \notin U$ so $\frac1k \notin c^{-1}(U)$.  Hence $c^{-1}(U)$ is not open and so $U$ is not open in the curvaceous topology.
+
+Conversely, let $(X,C_X,F_X)$ be a a Fr&ouml;licher space with the property that an open neighbourhood of $\{0\} \times X$ in $\mathbb{R} \times X$ contains a subset of the form $(-\epsilon, \epsilon) \times X$.  Let $(x_n)$ be a sequence in $X$.  Let $U$ be the set formed by taking $(-2,2) \times X$ and removing the set $(\frac1n, x_n)$.  By assumption, this is not an open neighbourhood of $\{0\} \times X$ and so there must be a smooth curve $c \colon \mathbb{R} \to \mathbb{R} \times X$ with the property that $c^{-1}(U)$ is not open in $\mathbb{R}$.  We can write $c$ as $s \times \check{c}$ where $s \in C^\infty(\mathbb{R},\mathbb{R})$ and $\check{c} \colon \mathbb{R} \to X$.  As $c^{-1}(U)$ is not open, it must be non-empty and have a point that is a limit from outside.  By translation if necessary, we assume that this point is $0$.  So there is a sequence $(t_k) \to 0$ such that $t_k \to 0$ and $c(t_k) \notin U$.
+
+As $t_k \to 0$ and $s$ is continuous at $0$, we can assume (by passing to a subsequence if necessary) that $s(t_k) \in (-2,2)$ for all $k$.  Thus as $c(t_k) \notin U$, it must be the case that $c(t_k) = (\frac1{n_k}, x_{n_k})$ for some $n_k \in \mathbb{N}$.  Again by passing to a subsequence if necessary, we can assume that the sequence $(n_k)$ is stricly increasing and thus that $(x_{n_k})$ is a subsequence of $(x_n)$.
 =--
 
 Although it would be pleasant to have an intrinsic definition of curvaceously compact, the following lemma shows that we already have a way to determine whether or not the curvaceous topology is compact.
