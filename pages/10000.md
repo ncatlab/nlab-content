@@ -1,0 +1,5 @@
+
+
+* Wikipedia, _[Fields medal](http://en.wikipedia.org/wiki/Fields_Medal)_
+
+[[!redirects Fields medals]]
