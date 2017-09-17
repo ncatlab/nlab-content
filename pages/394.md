@@ -69,3 +69,4 @@ $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $
 [[!redirects essentially surjective on objects functors]]
 [[!redirects eso functor]]
 [[!redirects eso functors]]
+[[!redirects essentially surjective]]
