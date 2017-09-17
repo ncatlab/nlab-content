@@ -1,7 +1,7 @@
 
-* [website](http://people.maths.ox.ac.uk/~williamson/)
+* [website](http://rwilliamson-mathematics.info/)
 
-
+* [thesis](http://rwilliamson-mathematics.info/cylindrical_model_structures.pdf)
 ## related $n$Lab entries
 
 * [[homotopy group (of an ∞-stack)]]
