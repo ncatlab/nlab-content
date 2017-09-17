@@ -66,4 +66,12 @@ Then
 
 A proof of this from the [[salamander lemma]] is spelled out at _[salamander lemma -- implications -- four lemma](salamander+lemma#FourLemma)_.
 
+## References
+
+The strong/weak four lemma appears as lemma 3.2, 3.3 in chapter I and then with proof in lemma 3.1 of chapter XII of
+
+* [[Saunders MacLane]], _Homology_ (1967) reprinted as, Classics in Mathematics, Springer (1995)
+ {#MacLane}
+
+
 [[!redirects 4 lemma]]
