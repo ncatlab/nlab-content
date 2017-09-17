@@ -66,6 +66,16 @@
 
 * [[modular tensor category]]
 
+## Morphisms
+
+* [[monoidal functor]] 
+
+  ([[lax monoidal functor|lax]], [[oplax monoidal functor|oplax]], [[strong monoidal functor|strong]] [[bilax monoidal functor|bilax]], [[Frobenius monoidal functor|Frobenius]])
+
+* [[braided monoidal functor]]
+
+* [[symmetric monoidal functor]]
+
 ## Examples
 
 * [[tensor product]]
