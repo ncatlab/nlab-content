@@ -28,5 +28,7 @@ Some works of relevance for the $n$lab:
 
 * Valery A. Lunts, _Deformations of quasicoherent sheaves of algebras_, [math.AG/0105006](http://arxiv.org/abs/math/0105006)
 
-
 category: people
+
+[[!redirects V. A. Lunts]]
+[[!redirects V. Lunts]]
