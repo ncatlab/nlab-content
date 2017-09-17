@@ -38,7 +38,7 @@ Traditionally, a _smooth manifold_ is defined as follows.
 +-- {: .num_defn}
 ###### Definition
 
-A [[manifold]] is a **smooth manifold** if its transition functions are [[smooth function]]s $\mathbb{R}^n \to \mathbb{R}^n$. 
+A [[manifold]] is a **smooth manifold** if its transition functions are [[smooth function]]s $\mathbb{R}^n \to \mathbb{R}^n$, or in other words a $G$-manifold over the pseudogroup $G$ of $C^\infty$ [[diffeomorphisms]] between open sets of a [[Euclidean space]]. 
 
 So a smooth manifold is a $C^k$-[[differentiable manifold]] for all $k$.
 
