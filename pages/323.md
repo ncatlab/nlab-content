@@ -202,3 +202,5 @@ If either two of these three squares are pullback squares, then so is the third.
 
 [[!redirects pullbacks]]
 [[!redirects pullback square]]
+
+[[!redirects pullback diagram]]
