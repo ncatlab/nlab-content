@@ -94,7 +94,7 @@ between the [[smash product]] of their one-point compactifications and the one-p
 +-- {: .num_remark }
 ###### Remark
 
-In particular, it follows directly from this that the [[suspension]] $\Sigma(-) \simeq S^1 \wedge (-)$ of the $n$-spehere is the $(n+1)$-sphere, up to [[homeomorphism]]:
+In particular, it follows directly from this that the [[suspension]] $\Sigma(-) \simeq S^1 \wedge (-)$ of the $n$-sphere is the $(n+1)$-sphere, up to [[homeomorphism]]:
 
 $$
   \begin{aligned}
