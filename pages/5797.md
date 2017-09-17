@@ -65,6 +65,11 @@ play a central role. Their exceptional [[infinity-Lie algebra cohomology]] gover
 
 Moreover, the [[BRST complex]] of the [[superstring]] might form a super $L_\infty$-algebra whose brackets give the [[n-point function]] of the string, in analogy to what happens for the bosonic string in Zwiebach's [[string field theory]]. (...)
 
+## References
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
+
 [[!redirects super L-∞ algebra]]
 [[!redirects super L-∞ algebras]]
 
@@ -72,3 +77,5 @@ Moreover, the [[BRST complex]] of the [[superstring]] might form a super $L_\inf
 
 [[!redirects super Lie n-algebra]]
 [[!redirects super Lie n-algebras]]
+
+[[!redirects super Lie-infinity algebra]]
