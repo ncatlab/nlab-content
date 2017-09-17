@@ -1,0 +1,12 @@
+
+
+* [webpage](http://people.physics.tamu.edu/kbecker/)
+
+## Writings
+
+textbook on [[string theory]]:
+
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String theory and M-theory: a modern introduction_,  Cambridge University Press (2006)
+
+
+category: people
