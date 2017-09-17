@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A **completely distributive lattice** is a 
+
+* [[complete lattice]]
+
+* in which arbitrary [[joins]] and arbitrary meets [[distributive lattice|distribute]] over each other.
+
+## Properties
+
+### Algebraic lattices
+
++-- {: .num_prop}
+###### Proposition
+
+
+The category of [[Alexandroff locales]] is equivalent to that of completely distributive [[algebraic lattice]]s. 
+=--
+
+This appears as ([Caramello, remark 4.3](#Caramello)).
+
+
+
+
+## References
+
+* wikipedia, _[completely distributive lattice](http://en.wikipedia.org/wiki/Completely_distributive_lattice)_
+
+* Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
+ {#Caramello}
+
+
+[[!redirects completely distributive lattices]]
