@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include descent and locality - contents]]
 =--
-#### Topos Theory
+#### $(\infty,2)$-Topos theory
 +--{: .hide}
-[[!include topos theory - contents]]
+[[!include (infinity,2)-topos theory - contents]]
 =--
 #### 2-Category theory
 +--{: .hide}
@@ -201,13 +201,8 @@ The above text involves content transferred from
 
 * [[Michael Shulman]], _[[michaelshulamn:2-site]]_
 
-Strict 2-sites were considered in
+2-sites were earlier considered in
 
-* [[Ross Street]], _Two-dimensional sheaf theory_ J. Pure Appl. Algebra 23 (1982), no. 3, 251-270, [MR83d:18014](http://www.ams.org/mathscinet-getitem?mr=644277), <a href="http://dx.doi.org/10.1016/0022-4049(82)90101-3">doi</a>
-
-Bicategorical 2-sites in
-
-* [[Ross Street]], _[[zoranskoda:Characterization of Bicategories of Stacks]]_, MR0682967 (84d:18006), p. 282-291 in: Category theory (Gummersbach 1981) Springer LNM __962__, 1982 
-
+* [[Ross Street]], _[[StreetCBS]]_
 
 [[!redirects 2-sheaves]]
