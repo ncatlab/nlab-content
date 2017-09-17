@@ -1,4 +1,7 @@
 
+
+ * [homepage](http://homepages.ulb.ac.be/~rduncan/)
+
 * [publications](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/d/Duncan:Ross.html)
 
 category: people
