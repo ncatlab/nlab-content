@@ -20,7 +20,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[commutative ring]] (or $k$-[[associative algebra|algebra]]) $A$, a left $A$-[[module]], say $N$, is __flat__ if [[tensoring]] with $N$ over $A$ as a [[functor]] from left $A$-modules to left $k$-modules 
+Given a [[commutative ring]] (or $k$-[[associative algebra|algebra]]) $A$, a left $A$-[[module]], say $N$, is __flat__ if [[tensor product of modules|tensoring]] with $N$ over $A$ as a [[functor]] from left $A$-modules to left $k$-modules 
 
 $$
   (-)\otimes_A N : Mod_A \to Mod_k
@@ -33,7 +33,7 @@ is an [[exact functor]] (sends [[short exact sequences]] to short exact sequence
 +-- {: .num_remark}
 ###### Remarks
 
-* Tensoring with $N$ is automatically right exact, so it is equivalent to require that tensoring with $N$ be left exact.  Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $N$ be a [[flat functor]].
+* Tensoring with $N$ is automatically a [[right exact functor]], so the above is equivalent to require that tensoring with $N$ be a [[left exact functor]].  Since [[Mod]] is [[finitely complete category|finitely complete]], this is also equivalent to requiring that tensoring with $N$ be a [[flat functor]].
 
 * On an [[abelian category]], the notions of _[[exact functor]]_ and _[[flat functor]]_ coincide.
 
@@ -195,6 +195,8 @@ Hence a module is flat if and only if it is a [[filtered colimit]] of [[free mod
 This observation (Wraith, Blass) can be put into the more general context of modelling [[geometric theory|geometric theories]] by [[geometric morphism|geometric morphisms]] from their [[classifying topos|classifying toposes]], or equivalently, certain [[flat functor|flat functors]] from [[site|sites]] for such topoi.
 
 ## Properties
+
+### Equivalent characterizations
 
 A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
 
