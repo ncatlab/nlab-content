@@ -23,11 +23,11 @@
 
 ## Idea
 
-There is a noticable analogy beween phenomena ([[theorems]]) in the theory of [[number fields]] and that of [[function fields]] (including [Weil 39](#Weil39), [Iwasawa 69](#Iwasaw69), [Mazur-Wiles 83](#MazurWiles83)). When regarding [[number theory]] dually as [[arithmetic geometry]], then one may see that this analogy extends further to include in [[complex analytic geometry]] the theory of [[complex curves]] (e.g. [Frenkel 05](#Frenkel05)). It is for isntance under this analogy that the [[geometric Langlands correspondence]] is analogous to the number-theoretic [[Langlands correspondence]].
+There is a noticeable analogy between phenomena ([[theorems]]) in the theory of [[number fields]] and those in the theory of [[function fields]] (including [Weil 39](#Weil39), [Iwasawa 69](#Iwasaw69), [Mazur-Wiles 83](#MazurWiles83)). When regarding [[number theory]] dually as [[arithmetic geometry]], then one may see that this analogy extends further to include in [[complex analytic geometry]] the theory of [[complex curves]] (e.g. [Frenkel 05](#Frenkel05)). It is for instance under this analogy that the [[geometric Langlands correspondence]] is analogous to the number-theoretic [[Langlands correspondence]].
 
 In summary then the analogy says that the theory of [[function fields]] looks much like a [[global analytic geometry]]-version of the theory [[complex curve]], and moreover the theory of [[number fields]] looks much like further globalizing this to the "absolute base field" [[F1]].
 
-For instance in ([Weil 39](#Weil39)) defines an invariant of a [[number field]] which is analogous to the [[genus]] of the [[algebraic curve]] on which a given [[function field]] is the rational functions, the _[[genus of a number field]]_.
+For instance in ([Weil 39](#Weil39)) an invariant of a [[number field]] is defined which is analogous to the [[genus]] of the [[algebraic curve]] on which a given [[function field]] is the rational functions, the _[[genus of a number field]]_.
 
 
 
