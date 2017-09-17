@@ -23,6 +23,12 @@ According to _[[Science of Logic]]_ the [[unity of opposites|opposite]] of [[not
 |--|--|--|--|--|
 | [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
 
+## Related concepts
+
+* [[ontology]], [[metaphysics]]
+
+* [[category of being]]
+
 ## References
 
 * [[Hegel]], _[[Science of Logic]]_, Volume One: _The Objective Logic_, Book One, _The Doctrine of Being_, Chapter 1 _Being_
