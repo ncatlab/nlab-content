@@ -11,7 +11,7 @@ A **torsor** over a [[group]] is an [[object]]/[[space]] $P$ with an [[action]] 
 
 and
 
-* transitive: for every two points in (a fiber of) the space, there is a unique element of the group taking one to the other.
+* transitive: for every two points in (a fiber of) the space, there is an element of the group taking one to the other.
 
 Or in other words:
 
