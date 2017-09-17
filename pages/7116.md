@@ -1,0 +1,7 @@
+
+
+An **absolute value** is a non-trivial multiplicative [[seminorm]].
+
+(...)
+
+[[!redirects absolute values]]
