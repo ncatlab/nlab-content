@@ -1,6 +1,7 @@
-Mathematician at Aarhus Univeristy
+Mathematician at Aarhus University
 
 [Homepage](http://home.imf.au.dk/kock/)
 
+See [[Kock-Lawvere axiom]] and [[synthetic differential geometry]].
 
 category: people
