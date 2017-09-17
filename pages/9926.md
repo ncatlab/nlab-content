@@ -13,7 +13,7 @@ The [[deformation theory]] around these [[strata]] is _Lubin-Tate theory_.
 
 The universal Lubin-Tate deformation ring of a [[formal group]] of [[height of a formal group|height]] $n$ induces, via the [[Landweber exact functor theorem]] a [[complex oriented cohomology theory]], a localization of this is $n$th [[Morava E-theory]] $E(n)$.
 
-## Lubin-Tate theorem
+## Lubin-Tate formal group
 
 Let $k$ be a [[perfect field]] and fix a [[prime number]] $p$.
 
@@ -38,9 +38,12 @@ $$
   \,,
 $$
 
-This induces (...) for every [[formal group]] $f$ over $k$ a [[deformation]] $\overline{f}$ over $R$.
+This induces (...) for every [[formal group]] $f$ over $k$ a [[deformation]] $\overline{f}$ over $R$. This is the _[[Lubin-Tate formal group]]_.
 
-The _Lubin-Tate theorem_ says that this $\overline{f}$ is the [[universal property|universal]] deformation of $f$ in that for every [[infinitesimal object|infinitesimal thickening]] $A$ of $k$, $\overline{f}$ induces a [[bijection]]
+## Lubin-Tate theorem
+
+
+The _Lubin-Tate theorem_ says that the [[Lubin-Tate formal group]] $\overline{f}$ is the [[universal property|universal]] deformation of $f$ in that for every [[infinitesimal object|infinitesimal thickening]] $A$ of $k$, $\overline{f}$ induces a [[bijection]]
 
 $$
   Hom_{/k}(R,A) \stackrel{\simeq}{\longrightarrow} Def(A)
