@@ -127,6 +127,7 @@ Since $T\simeq \mathbb{P}^1$, we could equivalently use $\mathbb{P}^1$ instead o
 Since $T\simeq S^1\wedge \mathbb{G}_m$, $SH(S)$ is indeed a [[stable (∞,1)-category]].
 
 ### Symmetric monoidal structure and universal property
+ {#SymmetricMonoidalStructureAndUniversalProperty}
 
 The functor $\Omega^\infty_T\colon SH(S)\to \mathrm{H}_*(S)$ sending a motivic spectrum $E$ to its first component $E_0$ admits a [[left adjoint]] $\Sigma_T^\infty$. One can then equip the category $SH(S)$ with the structure of a [[symmetric monoidal (∞,1)-category]] in such a way that the (∞,1)-functor $\Sigma_T^\infty$ can be promoted to a symmetric monoidal (∞,1)-functor. As such, $SH(S)$ is characterized by a [[universal property]]:
 
