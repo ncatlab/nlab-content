@@ -16,8 +16,7 @@
 
 ## Disambiguation
 
-This article is about functors of two variables.  The term 'bifunctor' might be used for a [[functor]] between [[bicategories]], but the usual term for that is _'[[pseudo functor]]'_.
-
+This article is about functors of two variables.  Possibly the term 'bifunctor' has been used for a [[functor]] between [[bicategories]] (citation?), but such usage (if it exists) seems to be rare; the usual term for that is _'[[pseudo functor]]'_.[^fine] 
 
 ## Definition
 
@@ -62,8 +61,10 @@ Famous bifunctors are
 
 * [[binary morphism]]
 
-* **bifunctor**, [[two-variable adjunction]], [[Quillen bifunctor]]
+* **bifunctor**, [[two-variable adjunction]], [[Quillen bifunctor]] 
 
+
+[^fine]: Outside of certain computer science contexts, it is not clear that the term 'bifunctor' is used frequently nowadays, even for the sense of a functor of two variables. It is used more frequently in older texts. 
 
 [[!redirects bifunctor]]
 [[!redirects bifunctors]]
