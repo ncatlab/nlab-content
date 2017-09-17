@@ -1,9 +1,25 @@
-An __equilogical space__ is a [[separation axioms|Kolmogorov]] ($T_0$) [[topological space]] $T$ along with an arbitrary [[equivalence relation]] $\equiv$ on its points (of note, the equivalence relation need not match the topological structure in any way). A morphism between equilogical spaces $(T, {\equiv})$ and $(U, {\cong})$ is a [[continuous function]] $f : T \to U$ such that $x \equiv y$ implies $f(x) \cong f(y)$, for all points $x$ and $y$ in $T$. Two such morphisms $f$ and $g$ are considered equal if for all points $x$ in $T$, $f(x) \cong g(x)$.
+
+# Equilogical spaces
+* table of contents
+{: toc}
+
+## Definition
+
+An __equilogical space__ is a [[separation axioms|Kolmogorov]] ($T_0$) [[topological space]] $T$ along with an arbitrary [[equivalence relation]] $\equiv$ on its points (of note, the equivalence relation need not match the topological structure in any way). A morphism between equilogical spaces $(T, {\equiv})$ and $(U, {\cong})$ is a [[continuous function]] $f\colon T \to U$ such that $x \equiv y$ implies $f(x) \cong f(y)$, for all points $x$ and $y$ in $T$. Two such morphisms $f$ and $g$ are considered equal if for all points $x$ in $T$, $f(x) \cong g(x)$.
 
 The category __$Equ$__ of equilogical spaces obviously contains the category of $T_0$ topological spaces as a [[full subcategory]] (by using the trivial equivalence relation of [[equality]] on points). Moreover, as opposed to the latter, $Equ$ is in fact [[cartesian closed]]; this can be seen using the [[equivalence of categories|equivalence]] of $Equ$ and the category of [[partial equivalence relation]]s over [[algebraic lattice]]s.
 
-The concept was originally introduced for [[domain theory]] in a privately circulated manuscript by [[Dana Scott]].
+The concept was originally introduced for [[domain theory]] in [a privately circulated manuscript](#Scott) by [[Dana Scott]].
 
-##References##
+
+## References
+
 * "A New Category? Domains, Spaces, and Equivalence Relations", Dana S. Scott
+{#Scott}
+
 * "Equilogical Spaces", Andrej Bauer, Lars Birkedal, Dana S. Scott
+{#BBS}
+
+
+[[!redirects equilogical space]]
+[[!redirects equilogical spaces]]
