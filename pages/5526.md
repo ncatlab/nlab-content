@@ -74,19 +74,19 @@
 ## Models
 
 
-* [[discrete ∞-groupoid]]
+* **[[discrete ∞-groupoid]]**
 
   * [[discrete space]], [[discrete group]]
 
-* [[continuous ∞-groupoid]]
+* **[[Euclidean-topological ∞-groupoid]]**
 
   * [[topological space]], [[topological groupoid]], [[topological group]]
 
-* [[smooth ∞-groupoid]]
+* **[[smooth ∞-groupoid]]**
 
   * [[smooth manifold]], [[diffeological space]], [[Lie group]], [[Lie groupoid]], [[Lie 2-group]], [[Lie 2-groupoid]]
 
-* [[synthetic differential ∞-groupoid]]
+* **[[synthetic differential ∞-groupoid]]**
 
   * [[Lie algebra]], [[Lie algebroid]], [[∞-Lie algebra]], [[∞-Lie algebroid]]
 
