@@ -1,8 +1,14 @@
-##A bit of history
 
-In his monograph on (co-)extensions of monoids, Leech introduced a construction that had also been used for other purposes by MacLane, see [[twisted arrow category]].  A short time later Charles Wells distributed a preprint which made the short trip from monoids to small categories with a fixed set of objects.  This introduced the constructions below but then the subject lay fallow until work by [[Baues]] and Wirshing introduced what is now usually called [[Baues-Wirsching cohomology]].
-  
-##Factorisation category
+# Categories of factorizations
+* table of contents
+{: toc}
+
+## History
+
+In his monograph on (co-)extensions of monoids, Leech introduced a construction that had also been used for other purposes by MacLane, see [[twisted arrow category]].  A short time later Charles Wells distributed a preprint which made the short trip from monoids to small categories with a fixed set of objects.  This introduced the constructions below but then the subject lay fallow until work by [[Baues]] and Wirshing introduced what is now usually called [[Baues-Wirsching cohomology]].  Compare also [[factorization category]].
+
+
+## Definition
 
 The following constructions were used by Baues and Wirsching and we will more or less adapt their terminology and notation.
 
@@ -15,9 +21,8 @@ j &\stackrel{u}\longrightarrow & l
 In other words, it is a pair $(u,v)$ which factorizes $y = u\circ x \circ v$. The composition is defined in the obvious way: $(u',v')\circ (u,v) := (u'\circ u, v\circ v')$. For a morphism $f$ in $I$, one usually denotes $D(f)$ by $D_f$ and uses the abbreviation $D_i = D_{id_i}$ for every object $i$ in $I$. Other conventions include
 $u_* = D(u,Id) : D_x\to D_{ux}$ and $v^* = D(Id, v) : D_x\to D_{xv}$. 
 
-##Natural System
 
-
+## Natural systems
 
 A __natural system__ on $I$ is a functor $D : FI\to Ab$.
 
@@ -40,7 +45,7 @@ $$
 where the product is over all $i_n\stackrel{x_n}\longrightarrow \ldots \stackrel{x_1}\longrightarrow i_0$.
 
 
-##References 
+## References 
 
 (A more extensive list may be found at the entry on [[Baues-Wirsching cohomology]].)
   
@@ -54,5 +59,10 @@ where the product is over all $i_n\stackrel{x_n}\longrightarrow \ldots \stackrel
 * [[C. Wells]], _Extension theories for categories (preliminary report)_ (1979), [available here](
 http://www.cwru.edu/artsci/math/wells/pub/pdf/catext.pdf).
 
-[[!redirects natural system]]
+
+[[!redirects category of factorizations]]
 [[!redirects category of factorisations]]
+[[!redirects categories of factorizations]]
+[[!redirects categories of factorisations]]
+[[!redirects natural system]]
+[[!redirects natural systems]]
