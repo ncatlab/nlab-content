@@ -18,7 +18,9 @@
 
 Algebraic K-theory is about natural constructions of [[cohomology theories]]/[[spectra]] from [[algebra|algebraic]] data such as [[commutative rings]], [[symmetric monoidal categories]] and various [[homotopy theory|homotopy theoretic]] refinements of these. 
 
-The _algebraic K-theory_ of a [[commutative ring]] $R$ was originally defined to be the [[Grothendieck group]] of its [[category]] of [[projective modules]]. Under the [relation between modules and vector bundles](module#RelationToVectorBundlesInIntroduction), this is directly analogous to the basic definition of [[topological K-theory]] and hence the common term. (In fact when applied to the _[[stack]]_ of [[vector bundles]] then algebraic K-theory subsumes [[topological K-theory]] and also [[differential K-theory]], see [below](#OnMonoidalStacks)).
+From a modern perspective, the algebraic K-theory [[spectrum]] $\mathbf{K}(R)$ of a [[commutative ring]] is simply the [[K-theory of a symmetric monoidal category|∞-group completion]] of [[algebraic vector bundles]] on $Spec(R)$, this be discuss in more detail [below](#AsTheKTheoryOfAlgebraicVectorBundles). In particular there is a natural concept of algebraic K-theory of "[[brave new rings]]" ([[ring spectra]], [[E-∞ rings]])
+
+Historically, the _algebraic K-theory_ of a [[commutative ring]] $R$ (what today is the "0th" algebraic K-theory group) was originally defined to be the [[Grothendieck group]] of its [[symmetric monoidal category]] of [[projective modules]] (under [[tensor product]] of modules). Under the [relation between modules and vector bundles](module#RelationToVectorBundlesInIntroduction), this is directly analogous to the basic definition of [[topological K-theory]] and hence the common term. (In fact when applied to the _[[stack]]_ of [[vector bundles]] then algebraic K-theory subsumes [[topological K-theory]] and also [[differential K-theory]], see [below](#OnMonoidalStacks)).
 
 There are canonical maps $K_0(R)\to Pic(R)$ from the 0th algebraic K-theory of a ring to its [[Picard group]] and $K_1(R)\to GL_1(R)$ from the first algebraic K-theory group of $R$ to its [[group of units]] which are given in components by the [[determinant]] functor. This fact is sometimes used to motivate algebraic K-theory as a "generalization of [[linear algebra]]" (see e.g. [this MO discussion](http://mathoverflow.net/a/171369/381)). This is also how the traditional [[regulator of a number field]] relates to [[Beilinson regulators]] of algebraic K-theory.
 
@@ -249,6 +251,13 @@ Discussion of the [[comparison map between algebraic and topological K-theory]] 
 
 * [[Jonathan Rosenberg]], _Comparison between algebraic and topological K-theory for Banach algebras and $C^\ast$-algebras_   ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
 
+### Algebraic K-theory of ring spectra
+
+([Thomason-Trobaugh 90](#ThomasonTrobaugh90))
+
+[Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10)
+
+Waldhausen's _[[A-theory]]_ is the algebraic K-theory of [[suspension spectra]] of [[loop spaces]].
 
  
 ### Via stable $(\infty,1)$-categories
