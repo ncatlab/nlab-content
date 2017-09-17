@@ -229,7 +229,7 @@ Discussion with emphasis on [[topos theory]] is in section B.2.3 of
 
 and in section V.7 of 
 
-* [[Sauders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 An introduction is also in
 
