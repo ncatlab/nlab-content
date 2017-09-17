@@ -144,6 +144,12 @@ Notice that the form $\Omega$, on the field configuration space, does depend on 
 #### Application to the inverse problem of the calculus of variations
  {#InverseProblem}
 
+We discuss the _inverse problem_ of variational calculus: 
+
+given a [[presymplectic form]] on the locus of solutions of a system of [[partial differential equations]], when is it the covariant phase space of a [[local action functional]]?
+
+(This section follows [BridgesHydonLawson](#BridgesHydonLawson).)
+
 We use same notation as the preceding section. Namely dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
 
 Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_X \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that presymplectic current density $\omega(\phi)$ is de Rham conserved on solutions:
@@ -387,6 +393,10 @@ The relation between covariant phase space methods and [[multisymplectic geometr
 * [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_ ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
   {#Helein}
 
+* Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson,
+_Multisymplectic structures and the variational bicomplex_
+[doi](http://dx.doi.org/10.1017/S0305004109990259)
+ {#BridgesHydonLawson}
 
 ### Original articles on covariant phase space technology
 
