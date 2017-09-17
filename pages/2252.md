@@ -77,5 +77,6 @@ Some aspects of formal completions from the point of view of the derived categor
 
 * [[Dmitri Orlov|D. Orlov]], _Formal completions and idempotent completions of triangulated categories of singularities_, [arxiv/0901.1859](http://arxiv.org/abs/0901.1859)
 
+* Alexander I. Efimov, _Formal completion of a category along a subcategory_, [arxiv/1006.4721](http://arxiv.org/abs/1006.4721)
 
 [[!redirects formal schemes]]
