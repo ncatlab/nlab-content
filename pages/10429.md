@@ -1,4 +1,8 @@
-[[!redirects topological state of matter]]
+
+# Topological order
+* table of contents
+{: toc}
+
 ## Idea
 
 A order in quantum phase of matter which is beyond Landau [[symmetry breaking]] order. At long distance
@@ -68,6 +72,13 @@ Nucl. Phys. B419, 455 (1994).
 
 * CECAM 2013, Topological Phases in Condensed Matter and Cold Atom Systems: towards quantum computations [description](http://www.cecam.org/workshop-867.html)
 
+
+[[!redirects topological order]]
+[[!redirects topological orders]]
+
 [[!redirects topological matter]]
+
+[[!redirects topological state of matter]]
 [[!redirects topological states of matter]]
 [[!redirects topological phase of matter]]
+[[!redirects topological phases of matter]]
