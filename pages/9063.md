@@ -1,0 +1,58 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The dual notion of a [[fiber sequence]]:
+
+for $\mathcal{C}$ an [[(infinity,1)-category]] with [[(infinity,1)-pushouts]], a sequence of [[morphisms]] $A \stackrel{f}{\to} B \to C$ is a _cofiber sequence_ if there is an [[(infinity,1)-pushout]] square
+
+$$
+  \array{
+    A &\stackrel{f}{\to}& B
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& C
+  }
+$$
+
+in $\mathcal{C}$. We say that $C$ is the [[homotopy cofiber]] of $f$.
+
+## Properties
+
+### Presentation
+
+Under mild conditions on a [[category with weak equivalences]] presenting $\mathcal{C}$, homotopy cofibers are presented by [[mapping cones]]. See there for more details.
+
+## Related concepts
+
+* [[stable (infinity,1)-category]]
+
+[[!redirects cofiber sequences]]
+
+[[!redirects homotopy cofiber sequence]]
+[[!redirects homotopy cofiber sequences]]
+
+[[!redirects homotopy cofiber]]
+[[!redirects homotopy cofibers]]
+
+[[!redirects cofibration sequence]]
+[[!redirects cofibration sequences]]
