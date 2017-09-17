@@ -18,7 +18,7 @@
 
 A _reduced Segal space_ is a [[category object in an (∞,1)-category|category object]] in [[∞Grpd]] with "a single [[object]]". So it is the [[delooping]] of a [[monoid in an (∞,1)-category]].
 
-Accordinly, if the reduced Segal space happens to be actually a [[groupoid object in an (∞,1)-category|groupoid object]], then it is the [[delooping]] of a [[group object in an (∞,1)-category|group object]] in [[∞Grpd]]: an [[∞-group]].
+Accordingly, if the reduced Segal space happens to be actually a [[groupoid object in an (∞,1)-category|groupoid object]], then it is the [[delooping]] of a [[group object in an (∞,1)-category|group object]] in [[∞Grpd]]: an [[∞-group]].
 
 
 The notion was first introduced by [[G. Segal]] (who named it "special $\Delta$-space") as a means for the characterization of an [[infinite loop space]] via the notion of [[Gamma-space]]. 
@@ -54,7 +54,7 @@ Monoidal Categories" (below).
 
 ## Related concepts
 
-* [[Segal space]], [[complete Segal space]]
+* [[Segal space]], [[complete Segal space]], [[Gamma space]]
 
 ## References
 
