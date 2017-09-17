@@ -1,30 +1,46 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### $(0,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
 #### Compact objects
-+--{: .hide}
++-- {: .hide}
 [[!include compact object - contents]]
 =--
 =--
 =--
 
-A _compact element_ in a [[poset]] $P$ is a [[compact object]] in the poset regarded as a [[(0,1)-category]]: homs out of it commute with [[directed colimit|directed]] [[joins]]:
+# Compact/finite elements
+* table of contents
+{: toc}
 
-$c \in P$ is compact precisely if for every directed subset $\{d_i\}$ of $P$ we have
+## Definition
 
+Let $P$ be a [[poset]] such that every [[directed set|directed]] [[subset]] of $P$ has a [[join]]; that is, $P$ is a [[dcpo]]. A __compact element__, or __finite element__, of $P$ is a [[compact object]] in $P$ regarded as a [[thin category]]; that is, homs out of it commute with these [[directed joins]].
+
+In other words, $c \in P$ is compact precisely if for every directed subset $\{d_i\}$ of $P$ we have
 $$
-  (c \leq \vee_i d_i )
+  (c \leq \bigvee_i d_i )
   \Leftrightarrow
-  \vee_i (c \leq d_i)
+  \exists_i (c \leq d_i)
   \,.
 $$
+Of course, the $\Leftarrow$ part of this is automatic, so the real condition is the $\Rightarrow$ part.  In more elementary terms:
 
+*  If $c \leq \bigvee D$ for $D$ a directed subset, then $c \leq d$ for some $d \in D$.
+
+
+## Examples
+
+*  Given a [[set]] $X$, the finite elements of its [[power set]] are precisely the (Kuratowski)-[[finite set|finite]] [[subsets]] of $X$.  (This is the origin of the term 'finite element'.)
+
+*  Given a [[topological space]] (or [[locale]]) $X$, the compact elements of its [[frame of open subspaces]] are precisely the [[compact space|compact]] [[open subspaces]] of $X$.  (This is the origin of the term 'compact element'.)
+
+
+[[!redirects compact element]]
 [[!redirects compact elements]]
- 
-
+[[!redirects finite element]]
+[[!redirects finite elements]]
