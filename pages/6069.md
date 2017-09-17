@@ -1,0 +1,3 @@
+* [[Dominique Bourn], [[Francis Borceux]], [[Mal'cev, protomodular, homological and semi-abelian categories]], Kluwer 2004.
+
+[[!redirects homological categories]]
