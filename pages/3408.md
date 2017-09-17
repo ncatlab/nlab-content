@@ -71,8 +71,7 @@ $$BoolAlg(B, 2) \cong Set(X, 2) = 2^X$$
 
 where the Zariski topology coincides with the [[product topology]] on $2^X$. By the equivalence, we therefore retrieve $Bool(X)$ as $CH(2^X, \mathbf{2})$. This in turn is identified with the Boolean algebra of [[clopen subset]]s of the generalised [[Cantor space]] $2^X$.
 
-* A second description of the inverse equivalence $BoolAlg^{op} \to Stone$ comes about through the yoga of [[ambimorphic object|ambimorphic objects]]. 
-Namely, the Boolean compact Hausdorff space $\mathbf{2}$ can equally well be seen as a [[ultrafilter monad|compact Hausdorff object]] in the category of Boolean algebras. Thus, the representable functor $Bool(-, \mathbf{2}): Bool^{op} \to Set$ lifts canonically to a functor 
+A second description of the inverse equivalence $BoolAlg^{op} \to Stone$ comes about through the yoga of [[ambimorphic object|ambimorphic objects]]. Namely, the Boolean compact Hausdorff space $\mathbf{2}$ can equally well be seen as a [[compact Hausdorff object]] in the category of Boolean algebras. Thus, the representable functor $Bool(-, \mathbf{2}): Bool^{op} \to Set$ lifts canonically to a functor 
 $$Bool^{op} \to CH$$ 
 and in fact part of the Stone representation theorem is that this factors through the inclusion $Stone \hookrightarrow CH$ as the inverse equivalence $Bool^{op} \to Stone$. In particular this lift determines the topology, providing an description alternative to the description in terms of the Zariski topology (although they are of course the same). 
 
