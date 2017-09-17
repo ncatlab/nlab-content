@@ -16,6 +16,8 @@
 
 An [[operad]] is a structure whose elements are _formal operations_, closed under the operation of plugging some formal operations into others. An **algebra over an operad** is a structure in which the formal operations are interpreted as actual operations on an object, via a suitable [[action]].
 
+Accordingly, there is a notion of [[module over an algebra over an operad]].
+
 ## Definition 
 
 Let $M$ be a [[closed monoidal category|closed symmetric monoidal category]] with monoidal unit $I$, and let $X$ be any object. There is a canonical or tautological [[operad]] $Op(X)$ whose $n^{th}$ component is the internal hom $M(X^{\otimes n}, X)$; the operad identity is the map 
@@ -98,6 +100,8 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
 [[!redirects algebra of an operad]]
 
 [[!redirects algebras over an operad]]
+[[!redirects algebras over operads]]
+
 [[!redirects algebras over operad]]
 [[!redirects algebras for an operad]]
 [[!redirects algebras of an operad]]
