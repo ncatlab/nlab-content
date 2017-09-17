@@ -36,7 +36,7 @@ In each case, half of the definition is that $X$ is $T_0$, the other half states
 
 * Sobriety is a separation property that is stronger than $T_0$, but incomparable with $T_1$.  With [[classical logic]], every [[Hausdorff space]] is sober, but this can fail [[constructive mathematics|constructively]].
 
-* The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint] is called the **soberification**.  This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some locale, and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]].
+* The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **soberification**.  This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some locale, and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]].
 
 * A topological space has enough points if and only if its $T_0$ quotient is sober.  Spaces with enough points are also reflective, and a topological space is $T_0$ iff this reflection is sober.
 
