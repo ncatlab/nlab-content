@@ -19,7 +19,7 @@
 
 ## Idea
 
-A dual space is a [[dual in a closed category]] of [[vector spaces]] (or similar [[algebraic structures]]).
+A _dual vector space_ is a [[dual in a closed category]] of [[vector spaces]] (or similar [[algebraic structures]]).
 
 Of course, this is a very restricted notion of [[space]]; but for spaces in [[geometry]], one usually uses the [[duality between space and quantity]] and speaks of the [[spectrum]] (not 'dual space') of an [[algebra]].  In [[homotopy theory]], there are also [[Spanier-Whitehead dual]]s; and there are other notions of dual space in [[physics]].
 
@@ -112,8 +112,9 @@ A [[von Neumann algebra]] (abstractly) is precisely a $C^*$-[[C-star-algebra|alg
 See [[Riesz representation theorem]] for examples from [[functional analysis]].
 
 
-[[!redirects dual space]]
-[[!redirects dual spaces]]
+## Related concepts
+
+* [[dual space]]
 
 [[!redirects dual vector space]]
 [[!redirects dual vector spaces]]
