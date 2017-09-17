@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -147,7 +161,7 @@ to the idea of formal proof, and the foundation of essentially the
 entirety of known mathematics upon set theory.  One can easily imagine
 corrupting forces that could undermine these achievements.  For
 example, one might suspect that there is already a trend towards
-believing some recent `theorems' in physics because they offer some
+believing some recent "theorems" in physics because they offer some
 predictive power rather than that they have any meaning, much less
 rigorous proof, with a possible erosion in established standards of
 rigor.  The QED system could offer an antidote to any such tendency.
@@ -194,6 +208,8 @@ and so on.
 ## Related entries
 
 * [[ForMath]]
+
+* [[formal proof]]
 
 ## References
 
