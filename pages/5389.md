@@ -13,6 +13,8 @@
 =--
 =--
 
+An irreducible representation in the _[[DHR category]]_.
+
 ## References
 
 The formalization in the context of [[AQFT]] is for instance in section 1.4 of 
