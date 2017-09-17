@@ -53,7 +53,7 @@ of (formulas for) [[propositions]] in $\Gamma$ over $\Sigma$.
 +-- {: .num_defn}
 ###### Definition
 
-A __sequent__ over $\Sigma$ consists of a context $\Gamma$ over $\Sigma$ and two cedents in $\Gamma$, called the __antecedent__ and the __succedent__.  This is written
+A __sequent__ over $\Sigma$ consists of a context $\Gamma$ over $\Sigma$ and two cedents in $\Gamma$, called the __[[antecedent]]__ and the __[[succedent]]__.  This is written
 $$ \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi} ,$$
 where $\vec{x}\colon \vec{T}$ is the context $\Gamma$, with the antecedent on the left and the succedent on the right.
 =--
