@@ -29,7 +29,14 @@ Notice the difference to an ordinary [[ring spectrum]] which which is not necess
 
 $A_\infty$-rings play the role of [[ring]]s in [[higher algebra]].
 
-The higher analog of a commutative ring is an $E_\infty$-[[E-∞-ring|ring]].
+The higher analog of a commutative ring is an [[E-∞ ring]].
+
+## Related concepts
+
+* [[cohomology theory]]
+
+* [[periodic ring spectrum]]
+
 
 ## References
 
