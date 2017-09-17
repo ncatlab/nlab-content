@@ -223,7 +223,9 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 * [[unitary irrep of the Poincare group]]
 
 
-##Related entries#
+## Related entries
+
+* [[Lorentzian geometry]]
 
 * [[orthogonal group]]
 
