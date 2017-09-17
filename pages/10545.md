@@ -261,6 +261,8 @@ See the [references below](#ReferencesHopfAlgebroid).
 
 * [[cohomology operation]]
 
+* [[power operation]]
+
 * [[Pi-algebra]]
 
 * [[Adams resolution]], [[Adams spectral sequence]], [[Adams-Novikov spectral sequence]]
