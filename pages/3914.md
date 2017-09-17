@@ -15,6 +15,14 @@
 
 ## Definition
 
+### Abstractly
+
+An $E$-orientation of a vector bundle $V \to X$ is a trivialization of the $E$-module bundle $E \wedge S^V$, where iberwise form the [[smash product]] of $E$ with the [[Thom space]] of $V$.
+
+
+
+### In components
+
 For $H$ a [[multiplicative cohomology theory]], and $V \to X$ a [[vector bundle]] of rank $n$, an $H$-**orientation** of $V$ is an element $u \in H^n(Th(V))$ in the cohomology of the [[Thom space]] of $V$ -- a **Thom class** -- with the property that its restriction $i^* u$ along $i : S^n \to Th(V)$ to any fiber of $Th(V)$ is 
 
 $$
