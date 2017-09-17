@@ -222,15 +222,11 @@ Since $\pi_3(K(\mathbb{Z}), 3) \simeq \mathbb{Z}$ and $\pi_1(B \mathbb{Z}_2) \si
 
 ## Superstring: Twisted differential $R$-cohomology
 
-(...)
+The [[B-field]] [[background gauge field]] in [[superstring theory]] is not actually quite a [[circle n-bundle with connection|connection on]] a [[line 2-bundle]], but on a [[smooth super infinity-groupoid|supergeometry]] line 2-bundle ([DFM I](#Precis), [DFM II](#DistlerFreedMooreII), [Freed](#Freed)).
+See at _[Line 2-bundle -- Examples -- Super line 2-bundle](http://ncatlab.org/nlab/show/line%202-bundle#SuperLine2BundlesAndTwistedK)_ for details.
 
-For the [[superstring]] a variant is needed.
-
-([DFM I](#Precis), [DFM II](#DistlerFreedMooreII)).
-
-(...)
-
-See around ([DFM II, supposition 3.6](#DistlerFreedMooreII)) for relation to the above.
+Therefore for superstring orientifolds the above discussion is to be refined from line 2-bundles to such super line 2-bundles. 
+See around ([DFM II, supposition 3.6](#DistlerFreedMooreII)) for the discussion of the relation to the above.
 
 ## Related concepts
 
@@ -262,6 +258,9 @@ More details are in
 Related lecture notes / slides include
 
 * [[Jacques Distler]], _Orientifolds and Twisted KR-Theory_ (2008) ([pdf](http://www.perimeterinstitute.ca/pdf/files/731c5f3a-928f-453a-b569-db5c574d2a6c.pdf))
+
+* [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_ ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
+ {#Freed}
 
 A formulation of some of the relevant aspects of orientifolds in terms of the  [[schreiber:differential cohomology in an (∞,1)-topos -- survey|differential nonabelian cohomology]] with coefficients in the [[2-group]] $AUT(U(1))$ coming from the [[crossed module]] $[U(1) \to \mathbb{Z}_2]$ is indicated in 
 
