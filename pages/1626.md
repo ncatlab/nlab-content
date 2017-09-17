@@ -117,6 +117,12 @@ As a contrast to a path-connected space, a **totally path-disconnected** space i
 [[!redirects path-connected space]]
 [[!redirects path-connected space]]
 [[!redirects path-connected spaces]]
+
+[[!redirects path connected space]]
+[[!redirects path connected topological space]]
+[[!redirects path connected spaces]]
+
+
 [[!redirects pathwise connected space]]
 [[!redirects pathwise connected spaces]]
 [[!redirects pathwise connected topological space]]
