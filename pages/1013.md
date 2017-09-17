@@ -35,12 +35,6 @@ Another way to break down the possibilities (used in a $3$-way [[factorization s
 * $F$ **forgets purely structure** if $F$ is [[essentially surjective functor|essentially surjective]] (on objects) and faithful;
 * $F$ **forgets purely stuff** if $F$ is essentially surjective and full.
 
-+--{: .query}
-[[Mike Shulman|Mike]]: Maybe you all had this out somewhere that I haven't read, but in the English I am accustomed to speak, "property" is not a mass noun.  So you can "forget a property" or "forget properties" but you can't "forget property."
-
-_Toby_:  Well, 'property' *can* be a mass noun in English, but not in this sense.  Also, if we were to invent an entirely new word for the concept, it would surely be a mass noun.  Together, these may explain why it\'s easy to slip into talking this way, but I agree that it\'s probably better to use the plural count noun here.
-=--
-
 
 ### Interpretation in terms of k-surjectivity
 
