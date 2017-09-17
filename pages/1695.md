@@ -23,7 +23,7 @@ A _loop space_ is a [[loop space object]], typically regarded in [[Top]] (in the
 
 As a topological space it is equivalently a [[mapping space]] from the [[circle]] to some pointed topological space $X$: a space of [[loops]] in $X$. Here $X$ and the loops might be equipped with further geometric structure such as [[smooth structure]] and then one may consider a _[[smooth loop space]]_, etc.
 
-Strictly speaking, and as condiered here, a loop space consists only of loops that start and end at a fixed base point in $X$. Without this restriction one speaks of a _[[free loop space]]_.
+Strictly speaking, and as considered here, a loop space consists only of loops that start and end at a fixed base point in $X$. Without this restriction one speaks of a _[[free loop space]]_.
 
 
 
