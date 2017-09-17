@@ -1,0 +1,12 @@
+
+## Related entries
+
+* [[classical mechanics]]
+
+* [[quantum mechanics]]
+
+* [[Hamiltonian mechanics]]
+
+* [[Lagrangean mechanics]]
+
+* [[matrix mechanics]]
