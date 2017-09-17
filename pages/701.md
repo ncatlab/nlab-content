@@ -13,7 +13,6 @@
 =--
 =--
 
-
 # Idempotents
 * table of contents
 {: toc}
@@ -52,6 +51,7 @@ A **splitting** of an idempotent $e$ consists of morphisms $s\colon A \to B$ and
 
 Of course, we can simply consider the __idempotent elements__ of any [[monoid]].
 
+
 ## Properties
 
 ### The algebra of idempotents
@@ -66,19 +66,16 @@ Given a [[commutative ring]] $R$, the idempotent elements of $R$ form a [[Boolea
 *  $P \vee Q \coloneqq P - P Q + Q$,
 *  $\neg{P} \coloneqq 1 - P$.
 
+This is important in [[measure theory]]; if $R$ is the ring $L^\infty(X,\mathcal{M},\mathcal{N})$ of [[essentially bounded function|essentially bounded]] [[real number|real]]-valued [[measurable functions]] on some [[measurable space]] $(X,\mathcal{M})$ modulo an ideal $\mathcal{N}$ of [[null sets]], then $Idem(R)$ is the Boolean algebra of [[characteristic functions]] of [[measurable sets]] modulo null sets, which is [[isomorphic]] to the Boolean algebra $\mathcal{M}/\mathcal{N}$ of measurable sets modulo null sets itself.
+
+If $R$ is a commutative $*$-[[star-ring|ring]], then we may restrict to the [[self-adjoint element|self-adjoint]] idempotent elements to get the Boolean algebra $Proj(R)$.  In measure theory, if $R$ is the [[complex number|complex]]-valued version of $L^\infty(X,\mathcal{M},\mathcal{N})$, then $Proj(R)$ will still reconstruct $\mathcal{M}/\mathcal{N}$.  In [[operator algebra]] theory, the self-adjoint idempotent elements of an operator algebra are called [[projection operator]]s, which is the origin of the notation $Proj$.  (Sometimes one requires projection operators to be _proper_: to have norm $1$; the only projection operator that is not proper is $0$.)
+
+The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] give the link between operator algebra theory and measure theory; in fact, the [[categories]] of commutative $W^\star$-algebras and of [[localisable measurable spaces]] (or [[measurable locales]]) are [[dual equivalence|dual]], and $W^\star$-algebra theory in general may be thought of as noncommutative measure theory.  In noncommutative measure theory, the projection operators are still important, but they no longer form a Boolean algebra.
+
+
 ### The universal idempotent-split completion
 
 Given a [[category]] $\mathcal{C}$ one may ask for the [[universal construction|universal]] category obtained from $\mathcal{C}$ subject to the constraint that all idempotents are turned into [[split idempotents]]. This is called the _[[Karoubi envelope]]_  of $\mathcal{C}$. More generally, in [[enriched category theory]] it is called the _[[Cauchy completion]]_ of $\mathcal{C}$.
-
-## Examples
-
-### In measure theory
-
-This is important in [[measure theory]]; if $R$ is the ring $L^\infty(X,\mathcal{M},\mathcal{N})$ of [[essentially bounded function|essentially bounded]] [[real number|real]]-valued [[measurable functions]] on some [[measurable space]] $(X,\mathcal{M})$ modulo an ideal $\mathcal{N}$ of [[null sets]], then $Idem(R)$ is the Boolean algebra of [[characteristic functions]] of [[measurable sets]] modulo null sets, which is [[isomorphic]] to the Boolean algebra $\mathcal{M}/\mathcal{N}$ of measurable sets modulo null sets itself.
-
-If $R$ is a commutative $*$-[[star-ring|ring]], then we may restrict to the [[self-adjoint element|self-adjoint]] idempotent elements to get the Boolean algebra $Proj(R)$.  In measure theory, if $R$ is the [[complex number|complex]]-valued version of $L^\infty(X,\mathcal{M},\mathcal{N})$, then $Proj(R)$ will still reconstruct $\mathcal{M}/\mathcal{N}$.  In [[operator algebra]] theory, the self-adjoint idempotent elements of an operator algebra are called [[projection operator]]s, which the origin of the notation $Proj$.  (Sometimes one requires projection operators to be _proper_: to have norm $1$; the only projection operator that is not proper is $0$.)
-
-The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] give the link between operator algebra theory and measure theory; in fact, the [[categories]] of commutative $W^\star$-algebras and of [[localisable measurable spaces]] (or [[measurable locales]] in [[constructive mathematics]]) are [[dual equivalence|dual]], and $W^\star$-algebra theory in general may be thought of as noncommutative measure theory.  In noncommutative measure theory, the projection operators are still important, but they no longer form a Boolean algebra.
 
 
 ## Related concepts
@@ -89,6 +86,7 @@ The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] g
 
 * [[idempotent complete (infinity,1)-category]]
 
+
 [[!redirects idempotent]]
 [[!redirects idempotents]]
 [[!redirects idempotent element]]
@@ -97,6 +95,3 @@ The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] g
 [[!redirects idempotent operators]]
 [[!redirects idempotent morphism]]
 [[!redirects idempotent morphisms]]
-
-[[!redirects projector]]
-[[!redirects projectors]]
