@@ -24,6 +24,16 @@ For $C$ more generally an [[enriched category]] over a [[closed monoidal categor
 * The category [[Grpd]] of [[groupoid]]s is a enriched over itself. Hence for any two groupoids $A,B$, there is a [[hom-groupoid]] $Grpd(A,B)$. This is the [[functor category]] $Func(A,B)$.
 
 
+## Related concepts
+
+* [[hom-set]]
+
+* **hom-object**
+
+* [[hom-space]]
+
+* [[derived hom-space]]
+
 
 [[!redirects hom-objects]]
 [[!redirects hom object]]
