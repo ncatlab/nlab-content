@@ -1,10 +1,22 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### AQFT
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
-</div>
+=--
+=--
+=--
+
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 _under construction_
