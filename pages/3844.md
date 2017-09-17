@@ -14,13 +14,7 @@
 =--
 
 
-* [[algebraic theory]] / [[Lawvere theory]] / [[2-Lawvere theory]] /  **$(\infty,1)$-algebraic theory**
 
-* [[monad]] / [[(∞,1)-monad]]
-
-* [[operad]] / [[(∞,1)-operad]]
-
-***
 
 
 #Contents#
@@ -81,13 +75,13 @@ Recall that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C^{
 $$
   PSh_{(\infty,1)}(C^{op})
   \simeq
-  [C, sSet]^\circ
+  [T, sSet]^\circ
   \,,
 $$
 
-where we regard $C$ as a [[Kan complex]]-[[enriched category]] and have on the right the [[sSet]]-[[enriched functor category]] with the projective or injective model structure, and $(-)^\circ$ denoting the full enriched subcategory on fibrant-cofibrant objects.
+where we regard $T$ as a [[Kan complex]]-[[enriched category]] and have on the right the [[sSet]]-[[enriched functor category]] with the projective or injective model structure, and $(-)^\circ$ denoting the full enriched subcategory on fibrant-cofibrant objects.
 
-This says in particular that every weak $(\infty,1)$-functor $f : C \to \infty \mathrm{Grp}$ is equivalent to a _rectified_ on $F : C \to KanCplx$. And $f \in PSh_{(\infty,1)}(C^{op})$ belongs to $Alg_{(\infty,1)}(C)$ if $F$ preserves finite products _weakly_  in that for $\{c_i \in C\}$ a finite collection of objects, the canonical natural morphism
+This says in particular that every weak $(\infty,1)$-functor $f : T \to \infty \mathrm{Grp}$ is equivalent to a _rectified_ on $F : T \to KanCplx$. And $f \in PSh_{(\infty,1)}(C^{op})$ belongs to $Alg_{(\infty,1)}(C)$ if $F$ preserves finite products _weakly_  in that for $\{c_i \in C\}$ a finite collection of objects, the canonical natural morphism
 
 $$
   F(c_1 \times \cdots, \c_n)
@@ -97,20 +91,21 @@ $$
 
 is a [[homotopy equivalence]] of [[Kan complex]]es.
 
+If $T$ is an ordinary category with products, hence an ordinary [[Lawvere theory]], then such a functor is called a **[[homotopy T-algebra]]**. There is a model category structure on these (see there).
+
 We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on simplicial algebras]].
 
 +-- {: .un_prop}
 ###### Proposition
 
-Let $C$ be a [[category]] with finite [[product]]s, and let $sAlg(C) \subset Func(C,sSet)$ be the [[full subcategory]] of the [[functor category]] from $C$ to [[sSet]] on those functors that preserve these products.  
+Let $C$ be a [[category]] with finite [[product]]s, and let $sTAlg \subset Func(C,sSet)$ be the [[full subcategory]] of the [[functor category]] from $C$ to [[sSet]] on those functors that preserve these products.  
 
 Then $sAlg(C)$ carries the structure of a [[model category]] $sAlg(C)_{proj}$ where the weak equivalences and the fibrations are objectwise those in the standard [[model structure on simplicial sets]]. 
 
 =--
 
-This is due to 
+This is due to ([Quillen](#Quillen)).
 
-* [[Dan Quillen]], _Homotopical Algebra_ Lectures Notes in Mathematics 43, SpringerVerlag, Berlin, (1967)
 
 The inclusion $i : sAlg(C) \hookrightarrow sPSh(C^{op})_{proj}$ into the projective [[model structure on simplicial presheaves]] evidently preserves fibrations and acylclic fibrations and gives a [[Quillen adjunction]]
 
@@ -131,13 +126,11 @@ $$
   \mathbb{R}i : Ho(sAlg(C)_{proj}) \to Ho(sPSh(C^{op})_{proj})
 $$ 
 
-is a [[full and faithful functor]] and an object $F \in sPSh(C^{op})$ belongs to the [[essential image]] of $\mathbb{R}i$ precisely if it preserves product up to [[weak homotopy equivalence]].
+is a [[full and faithful functor]] and an object $F \in sPSh(C^{op})$ belongs to the [[essential image]] of $\mathbb{R}i$ precisely if it preserves products up to [[weak homotopy equivalence]].
 
 =--
 
-This is due to
-
-* [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
+This is due to ([Bergner](#Bergner)).
 
 It follows that the natural $(\infty,1)$-functor
 
@@ -184,11 +177,21 @@ These  were considered for the discussion of [[derived smooth manifold]]s in
 
 There is a notion of _simplicial algebraic theory_ that captures some class of $(\infty,1)$-algebraic theories. For the moment see section 4 of ([Rezk](#Rezk))
 
+## Related concepts
+
+* [[algebraic theory]] / [[Lawvere theory]] / [[2-Lawvere theory]] /  **$(\infty,1)$-algebraic theory**
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
+
+
 ## References
 
 The model structure presentation for the $(\infty,1)$-category of  $(\infty,1)$-algebras goes back all the way to
 
 * [[Dan Quillen]], _Homotopical Algebra_ Lectures Notes in Mathematics 43, SpringerVerlag, Berlin, (1967)
+{#Quillen}
 
 A characterization of $(\infty,1)$-categories of $(\infty,1)$-algebras in terms of [[sifted colimit]]s is given in
 
@@ -213,9 +216,15 @@ The [[model category]] [[presentable (infinity,1)-category|presentations]] of $(
 
 where it is shown that every such model is [[Quillen equivalence|Quillen equivalent]] to a left [[proper model category]]. The article uses a monadic definition of $(\infty,1)$-algebras.
 
-Strictification of algebras over $(\infty,1)$-algebraic theories is discussed in
+A discussion of [[homotopy T-algebra]]s and their strictification is in
 
-* Bernard Badzioch, _Algebraic theories in homotopy theory_ Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
+* [[Bernard Badzioch]], _Algebraic theories in homotopy theory_ Annals of Mathematics, 155 (2002), 895-913 ([JSTOR](http://www.jstor.org/stable/3062135))
+
+and for multi-sorted theories in
+
+* [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
+{#Bergner}
+
 
 [[!redirects (infinity,1)-algebraic theory]]
 [[!redirects (infinity,1)-algebraic theories]]
