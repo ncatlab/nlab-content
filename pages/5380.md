@@ -66,6 +66,8 @@ The proof is spelled out at [[affine line]].
 
 ## Related concepts
 
+* [[projective plane]]
+
 * [[projective variety]]
 
 * [[Grassmannian]]
