@@ -150,12 +150,14 @@ where $Kl(\beta)$ is the Kleisli category (or the full category of compact Hausd
 
 * G. Richter, Axiomatizing the Category of Compact Hausdorff Spaces, Categories at Work (ed. Herrlich and Porst), Heldermann-Verlag (1991), 199-215. [(link)](http://www.heldermann.de/R&E/RAE18/ctw12.pdf)
 
-* T. Leinster, Post to the categories list. [(link)](http://permalink.gmane.org/gmane.science.mathematics.categories/6703)
+* [[Tom Leinster]], Post to the categories list. [(link)](http://permalink.gmane.org/gmane.science.mathematics.categories/6703)
 
-* T. Trimble, Post to A Dialogue on Infinity. [(link)](http://dialinf.wordpress.com/2009/01/21/ultraproducts-the-category-theoretic-way/#comment-219)
+* [[Todd Trimble]], Post to A Dialogue on Infinity. [(link)](http://dialinf.wordpress.com/2009/01/21/ultraproducts-the-category-theoretic-way/#comment-219)
 
-* F.W. Lawvere, Post to the categories list [(link)](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00128.html)
+* [[Bill Lawvere]], Post to the categories list [(link)](http://facultypages.ecc.edu/alsani/ct99-00%288-12%29/msg00128.html)
 
+
+* [[Tom Leinster]], _Definition of ultrafilter_ ([blog post](http://golem.ph.utexas.edu/category/2011/07/definitions_of_ultrafilter.html))
 
 [[!redirects ultrafilter]]
 [[!redirects ultrafilters]]
