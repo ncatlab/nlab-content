@@ -23,7 +23,8 @@ As a discipline, __logic__ is the study of methods of reasoning.  While in the p
 
 As a (potentially) mathematical object, a __logic__ is a specific method of reasoning.  There are several ways to formalise this which for the moment we will not to get into, but maybe later.
 
-## Categorical logic
+
+## Category-theoretic logic
 
 It turns out that logic is naturally expressed in the language of [[category theory]]: given any [[category]] $C$, its [[object]]s $T$ may be understood as [[type]]s of terms, and morphisms $\psi \stackrel{\Psi}{\to} T$ as [[term]]s ([[generalized element]]s of $T$). A [[proposition]] is then a [[subobject]], $\phi \hookrightarrow T$ -- the subobject of all those variables for which the proposition is true.
 
@@ -38,6 +39,7 @@ For instance,
 * [[limit]]s and [[colimit]]s, [[exponential]]s, and [[object classifier]]s belong to the [[type theory]], 
 
 * while [[image]]s, dual images, [[intersection]]s, [[union]]s, and [[subobject classifiers]] belong to the logic.
+
 
 ## Entries on logic
 
@@ -86,6 +88,7 @@ For instance,
 * [[type]]
 * [[type theory]]
 
+
 ## Related concepts
 
 * [[type theory]], **logic**
@@ -93,7 +96,6 @@ For instance,
 * [[2-type theory]], [[2-logic]]
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
-
 
 
 [[!redirects logic]]
