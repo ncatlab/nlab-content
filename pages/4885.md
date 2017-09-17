@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -19,14 +18,14 @@
 
 ## Idea
 
-The _Reidemeister moves_ are local changes to [[knot]] or [[link]] [[knot diagram|diagrams]].  
+The _Reidemeister moves_ are elementary, local changes to [[knot]] or [[link]] [[knot diagram|diagrams]] preserving the topology.  
 
 These moves were given in the book by [Reidemeister](#Reidemeister).
 
 
 ## Definition
 
-We define the Reidemeister moves in terms of link diagrams
+We define the Reidemeister moves in terms of link diagrams.
 
 The conventions are that part of the diagram is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged and that no other part of the diagram appears at the crossings that are changed by that move. 
 
@@ -84,10 +83,6 @@ A deeper observation is that the [[linking number]] is a link invariant, for whi
 
 
    
-
-
-
-
 ## References
 One of the original sources is:
 
@@ -96,6 +91,4 @@ One of the original sources is:
 
 Many modern texts on Knot Theory contain discussions of the Reidemeister Moves.
 
-
-[[!redirects Reidemeister move]]
 [[!redirects Reidemeister moves]]
