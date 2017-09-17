@@ -52,6 +52,9 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
 * [[string theory]]
 
+[[!include worldvolume-target supersymmetry of brane sigma-models]]
+
+
 ## References
 
 ### General
