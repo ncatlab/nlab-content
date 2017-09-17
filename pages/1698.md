@@ -155,7 +155,7 @@ $$
   \,.
 $$
 
-Again, all squares and all pasting squares appearing here are homtopy pullback squares. If I had labeled to two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
+Again, all squares and all pasting squares appearing here are homotopy pullback squares. If I had labeled to two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
 
 
 ### Long exact sequences in cohomology {#LongSequCoh}
