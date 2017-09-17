@@ -30,5 +30,8 @@ The [[Church numeral]]s are operators in the (possibly typed) [[lambda-calculus]
 If we interpret $X$ as the [[real line]], then $X^X$ consists of real-valued maps of a real variable, which form a [[vector space]].  The [[partial function|partially defined]] [[linear maps]] from $X^X$ to itself are the original [[linear operators]].  In [[functional analysis]], we now replace $X^X$ with an arbitrary [[topological vector space]] $V$ (originally but no longer necessarily taken to be a [[vector subspace|subspace]] of $X^X$) and consider partial linear maps from $V$ to itself instead; so these linear operators are actually functions (meaning [[endofunctions]]) in a type-theoretic sense.  In [[operator theory]], we go further and replace $V^V$ with an arbitrary [[operator algebra]] (originally but no longer necessarily taken to be a [[subalgebra]] of $V^V$); so these operators are unstructured terms in a type-theoretic sense.
 
 
+A [[differential operator]] is a good example of something that is both an operator in the logical sense (since it turns functions into functions) and a linear operator in the sense of functional analysis (since [[differentiable functions]] form a vector space and [[differentiation]] acts linearly).
+
+
 [[!redirects operator]]
 [[!redirects operators]]
