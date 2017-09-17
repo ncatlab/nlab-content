@@ -57,3 +57,6 @@ A polished writeup of the definition appears in section 3.2 of
  {#Hoffnung}
 
 [[!redirects tetracategories]]
+
+[[!redirects 4-category]]
+[[!redirects 4-categories]]
