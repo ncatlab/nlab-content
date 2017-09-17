@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 =--
 =--
 
@@ -19,7 +23,7 @@
 
 ## Idea
 
-The _graviton_ is the quantum of the field of [[gravity]].
+The _graviton_ is the quantum of the [[field (physics)|field]] of [[gravity]].
 
 ## Details
 
@@ -35,7 +39,6 @@ This is a [[vielbein]] $E$ and a [[spin connection]] $\Omega$. This together is 
 
 In [[supergravity]] this is accompanied by the [[gravitino]].
 
-## Related concepts
 
 ## Related concepts
 
