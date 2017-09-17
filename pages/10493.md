@@ -52,7 +52,7 @@ This notion is comparable to how a [[polynomial]] of degree at most $n$ is deter
 ### $n$-Excisive approximation and reflection
  {#nExcisiveApproximation}
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and a [[terminal object in an (∞,1)-category|terminal object]], and let $\mathcal{D}$ be a [[differentiable (∞,1)-category]]. 
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and a [[terminal object in an (∞,1)-category|terminal object]], and let $\mathcal{D}$ be a [[Goodwillie-differentiable (∞,1)-category]]. 
 
 +-- {: .num_defn #InclusionOfNExcisive}
 ###### Definition
