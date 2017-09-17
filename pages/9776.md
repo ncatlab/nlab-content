@@ -1,0 +1,13 @@
+
+
+
+## Idea
+
+The [[D-brane]] of [[dimension]] 6+1 in [[type II string theory]].
+
+## Related concept
+
+[[!include table of branes]]
+
+[[!redirects D6-branes]]
+
