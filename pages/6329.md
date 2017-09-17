@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[dynamics|Dynamics]] affects both [[observables]] and, [[duality between space and quantity|dually]], [[states]]; this is most well known in [[quantum mechanics]] but applies equally well to [[classical mechanics]]. The different "pictures" of mechanics differ in in how the dynamics is explicitly formalized:
+[[dynamics|Dynamics]] affects both [[observables]] and, [[duality between space and quantity|dually]], [[states]]; this is most well known in [[quantum mechanics]] but applies equally well to [[classical mechanics]]. The different "pictures" of mechanics differ in how the dynamics is explicitly formalized:
 
 * In the __Heisenberg picture__, the dependence of observables on [[time]] (or more generally [[spacetime]]) is encoded, while the state is held fixed; the axiomatic formalization of this is given by the [[Haag–Kastler axioms]] of [[AQFT]].
 
