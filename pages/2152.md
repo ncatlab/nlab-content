@@ -24,6 +24,13 @@ In addition to analytic geometry over complex numbers, there is also another for
 It is an open problem to find an appropriate analogue of rigid analytic geometry in [[noncommutative geometry]], which is supposed to play an important role in 
 [[mirror symmetry]].
 
+## Theorems
+
+(...)
+
+* [[Ostrowski's theorem]]
+
+(...)
 ## Holomorphic functions of several complex variables
 
 This section is about certain aspects of 
@@ -103,6 +110,12 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 ...besides those already mentioned by the cited wikipedia articles:
 
-A gentle and modern introduction to complex manifolds that starts with an extensive exposition of the local theory is this:
 
-* Huybrechts, Daniel: "Complex geometry. An introduction." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1055.14001&format=complete))
+Course notes are in 
+
+* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+
+A gentle and modern introduction to [[complex manifolds]] that starts with an extensive exposition of the local theory is this:
+
+* Daniel Huybrechts, _Complex geometry. An introduction._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1055.14001&format=complete))
+
