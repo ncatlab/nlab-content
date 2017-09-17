@@ -20,8 +20,16 @@
 
 ## Idea
 
-In [[quantum field theory]] what has come to be known as the _holographic principle_ is the fact that the [[partition function]]s of some [[quantum field theories]] of [[dimension]] $n$ may be identified with [[state]] of QFTs in dimension $n + 1$:
+In [[quantum field theory]] what has come to be known as the _holographic principle_ is the fact that the [[partition function]]s of some [[quantum field theories]] of [[dimension]] $n$ may be identified with [[state]]s of [[TQFT]]s of dimension $n + 1$.
 
+Notice that for $\Sigma$ an $(n+1)$-dimensional manifold with $n$-dimensional [[boundary]] $\partial \Sigma$, regarded as a [[cobordism]] $\Sigma : \emptyset \to \partial \Sigma$, an $(n+1)$-dimensional TQFT assigns a morphism
+
+$$
+  Z(\Sigma) : 1 \to Z(\partial \Sigma)
+  \,,
+$$
+
+hence an element of the space $Z(\partial \Sigma)$. Under holography, this element is identified with the [[partition function]] of an $n$-dimensional QFT evaluated on the manifold (without boundary) $\partial \Sigma$.
 
 
 ## Examples
