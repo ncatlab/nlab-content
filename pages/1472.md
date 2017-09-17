@@ -368,11 +368,11 @@ The theory that describes the fundamental forces and particles except gravity is
 
 The total collection of these choices of fundamental particles that are observed in experiments is called the [[standard model of particle physics]]. It consists basically of 
 
-1. a choice of [[gauge group]] $G$, such that all observed [[gauge field]]s are componens of a [[connection on a bundle|connection]] on a $G$-[[principal bundle]];
+1. a choice of [[gauge group]] $G$, such that all observed [[gauge field]]s are components of a [[connection on a bundle|connection]] on a $G$-[[principal bundle]];
 
 1. a choice of linear [[representation]] $\rho$ of $G$, such that all observed [[fermion]] fields are components of [[section]]s of a $\rho$-[[associated bundle]].
 
-What precisely the "standard" model of particle physics is changes slightly over time, as new experimental insights are gained. Its particles were added item-by-item as they were discovered. More recently the mass of the particles called [[neutrino]]s, which was originally thought to be precisely 0, was measured to be very small, bu non-vanishing.
+What precisely the "standard" model of particle physics is changes slightly over time, as new experimental insights are gained. Its particles were added item-by-item as they were discovered. More recently the mass of the particles called [[neutrino]]s, which was originally thought to be precisely 0, was measured to be very small, but non-vanishing.
 
 The standard model as far as understood today exhibits a curious mixture of pattern and irregularity. This seems to suggest that it ought to have a more fundamental description in terms of a conceptually simpler structure out of which these patterns with their irregularities emerge. Since also the force of [[gravity]] is not presently included in the [[quantization]] of the standard model, it may seem plausible that this underlying structure is related to [[quantum gravity]].
 
@@ -392,7 +392,7 @@ This way a single $\sigma$-model may encode a rich multiple particle content and
 
 An early proposal for a single unified connection $\nabla$ that would subsume both gravity as well as Yang-Mills forces in a phenomenologically realistic way is the [[Kaluza-Klein mechanism]]. This assumes a single [[Levi-Civita connection]] but on a [[pseudo-Riemannian manifold]] $X$ which is locally of the [[product]] form $X_4 \times F_{d}$ with $F_d$ a 4-[[dimension]]al pseudo-Riemannian manifold and $X_d$ a $d$-dimensional [[Riemannian manifold]] of very small Riemannian volume. As described in more detail at [[Kaluza-Klein mechanism]], this makes the [[isometry]] groups of $F_d$ appear as extra [[gauge group]] factors as seen on $X_4$. As also described in more detail there, while this Ansatz does reproduce the correct general form of gravity coupled to Yang-Mills forces, in its original form it does also have some phenomenologically unviable aspects.
 
-It was observed by [[Alain Connes]] and colaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifold]]s but in context for more general [[higher geometry|geometry]]: [[noncommutative geometry]].
+It was observed by [[Alain Connes]] and collaborators that the Kaluza-Klein mechanism works better when used not [[internalization|internal]] to the [[category]] [[Diff]] of [[smooth manifold]]s but in context for more general [[higher geometry|geometry]]: [[noncommutative geometry]].
 
 This more general geometry turns out to model exactly the most general $\sigma$-model backgrounds for a 1-dimensional [[FQFT]]: because such is algebraically specified by
 
