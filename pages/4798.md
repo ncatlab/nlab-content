@@ -87,6 +87,8 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 ## Related concepts
 
+* [[gauge]]
+
 * [[gauge group]], [[gauge fixing]]
 
 * [[large gauge transformation]]
