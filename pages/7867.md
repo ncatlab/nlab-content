@@ -1,3 +1,5 @@
+**Remark** By _pre-category_ I mean a category without identities.
+
 **Definition** A **pre-category with star-morphisms** consists of
 1. a pre-category $C$ (**the base pre-category**);
 1. a set $M$ (**star-morphisms**);
