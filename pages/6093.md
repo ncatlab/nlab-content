@@ -48,6 +48,7 @@ Let $\mathbf{S}$ be a [good]() [[symmetric monoidal (∞,1)-category]]. Write $A
 
 Then a Calabi-Yau object in $Alg(\mathbf{S})$ is an algebra object $A$ equipped with an $SO(2)$-equivariant morphism
 
+
 $$
   tr : \int_{S^1} A \to 1
 $$ 
@@ -83,6 +84,8 @@ This is closely related to the description of [[TCFT]]s ([Lurie, theorem 4.2.13]
 ## Related concepts
 
 * [[Calabi-Yau category]]
+
+* [[3d Calabi-Yau object]]
 
 ## References
 
