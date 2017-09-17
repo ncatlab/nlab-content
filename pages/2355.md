@@ -278,6 +278,19 @@ One way to find  that an ordinary adjunction of homotopy categories lifts to an 
 =--
 
 
+### Full and faithful adjoints
+
+As for ordinary [[adjoint functor]]s we have that given an $(\infty,1)$-adjunction $(L \dashv R) : C \to  D$
+
+* $R$ is a [[full and faithful (∞,1)-functor]] precisely is the counit $L R \stackrel{}{\to} Id$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functor]]s;
+
+  In this case $C$ is a [[reflective (∞,1)-subcategory]] of $D$.
+
+* $L$ is a [[full and faithful (∞,1)-functor]] precisely is the unit $Id \to L R$ is an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-functor]]s;
+
+
+(see also [[Higher Topos Theory|HTT, p. 308]]).
+
 ## Examples
 
 ### Simplicial and derived adjunctions {#SimplicialAndDerived}
