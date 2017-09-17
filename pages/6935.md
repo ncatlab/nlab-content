@@ -673,6 +673,7 @@ Discussion of the inductive type of natural numbers is in
 * Frank Pfenning, _Lecture notes on natural numbers_ (2009) ([pdf](http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.pdf))
   {#Pfenning}
 
+
+[[!redirects inductive type]]
 [[!redirects inductive types]]
-
-
+[[!redirects inducive type]]
