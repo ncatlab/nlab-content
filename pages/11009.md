@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A point of view in [[philosophy]] and specifically in [[philosophy of mathematics]].
+
+
+## Reference
+
+* Mark Balaguer, _Platonism & Anti-Platonism in Mathematics_, Oxford University Press, 1998.
+
+* [[Barry Mazur]], _Mathematical Platonism and its Opposites_ ([pdf](http://www.math.harvard.edu/~mazur/papers/plato4.pdf))
+
+[[!redirects platonism]]
