@@ -1,4 +1,5 @@
 [[!redirects Grothendieck's section conjecture]]
+[[!redirects anabelian section conjecture]]
 ##Idea
 
 Let $k$ be a field of characteristic zero with algebraic closure  $\overline{k}$ and absolute Galois group 
