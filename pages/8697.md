@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -15,9 +15,7 @@ The second part of the argument sees the famous example of an [[entanglement|ent
 
 Thus they conclude that quantum mechanics is not complete.
 
-Need to talk about separability and locality. Then link to 
-[[Bell's inequalities]].
-
+...  Need to talk about separability and locality. Then link to [[Bell inequality|Bell's inequalities]].
 
 
 ## References
@@ -35,7 +33,13 @@ A survey is in
 
 * Wikipedia, _[EPR paradox](http://en.wikipedia.org/wiki/EPR_paradox)_
 
+
+[[!redirects EPR paradox]]
 [[!redirects Einstein-Podolsky-Rosen paradox]]
+[[!redirects Einstein–Podolsky–Rosen paradox]]
+[[!redirects Einstein--Podolsky--Rosen paradox]]
 
 [[!redirects EPR argument]]
 [[!redirects Einstein-Podolsky-Rosen argument]]
+[[!redirects Einstein–Podolsky–Rosen argument]]
+[[!redirects Einstein--Podolsky--Rosen argument]]
