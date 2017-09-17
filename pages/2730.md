@@ -1,3 +1,4 @@
+
 This is a page similar to other "Journal Club" pages where we attempt to understand some concept. In this case it is the category [[M-Set]]. Other Journal Club pages include:
 
 * [[An Exercise in Kantization]]
@@ -37,6 +38,8 @@ I guess it doesn't really matter what $F(+1)$ is. It can be any function $f:X\to
 
 _Todd_: Right! Very good. So an $\mathbb{N}$-set is tantamount to a set $X$ equipped with an endofunction $f: X \to X$. You could think of $f$ as giving a discrete-time dynamics on $X$. 
 
+>Toby: And also equipped with an element $z\colon 1 \to X$.
+
 And you've sort of answered as well the question about the two senses of $M$. One sense is that $M$ as monoid is a set equipped with a monoid multiplication; the other is to think of $M$ as a one-object category. Here in the nLab we often use $B M$ for the latter, to keep the two senses distinguished. So, to be pedantic, we really ought to say: 
 
 $$M&#x2011;Set \simeq Set^{B M}$$ 
@@ -48,5 +51,6 @@ If you'd like to stay focused on multisets and shelve the project of doing some 
 If you did want to continue, then I think we could use $\mathbb{N}$-sets as a running example, since a lot (not all, but a lot) of the general phenomena associated with $M$-sets are already illustrated in this case, and we have clear mental pictures for this case. We could go on for instance to understand finite products (pretty easy), and then more general limits and colimits, and move on from there. 
 
 * [[Understanding Categories]]
+
 
 category: reference
