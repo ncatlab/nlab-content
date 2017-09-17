@@ -15,7 +15,9 @@
 
 ## Idea
 
-In [[physics]] the symmetric [[tensor algebra]] on a [[space of quantum states]] of some [[quantum mechanical system]] is called its _Fock space_. This is regarded in turn as the space of [[quantum states]] of arbitrarily many copies of the original system. In particular if the original system describes some [[particle]] species, then its Fock space is the space of quantum states of arbitrarily many such particles.
+In [[physics]] the symmetric [[tensor algebra]] on a [[space of quantum states]] of some [[quantum mechanical system]] is called its _bosonic Fock space_. This is regarded in turn as the space of [[quantum states]] of arbitrarily many copies of the system. In particular if the original system describes some [[boson|bosonic]] [[particle]] species, then its Fock space is the space of quantum states of arbitrarily many such particles.
+
+Similarly the [[exterior algebra]]/[[Grassmann algebra]] is called the _[[fermion|fermionic]] [[Fock space]]_.
 
 The process of passing from a given [[space of quantum states]] to its Fock space is also known as (or rather: is part of) what is called _[[second quantization]]_.
 
