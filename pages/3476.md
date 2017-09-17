@@ -92,17 +92,17 @@ $$
 there is the _[[dependent polynomial functor]]_
 
 $$ 
-  \mathcal{C} \overset{h^\ast}{\longrightarrow} 
+  \mathcal{C}_{/C} \overset{h^\ast}{\longrightarrow} 
   \mathcal{C}_{/A} 
     \overset{\Pi_f}{\longrightarrow} 
   \mathcal{C}_{/B} 
     \overset{\Sigma_g}{\longrightarrow} 
-  \mathcal{C}
+  \mathcal{C}_{/C}
   \,,
 $$
 
 This reduces to the above for $C = \ast$ the [[terminal object]].
-Notice that we do not necessarily have $g f \simeq h$, so this is not just simply a polynomial endofunctor of $\mathcal{C}/D$ considered as a lccc in its own right.
+Notice that we do not necessarily have $g f \simeq h$, so this is not just simply a polynomial endofunctor of $\mathcal{C}/_{C}$ considered as a lccc in its own right.
 
 
 ### W-types in type theory
