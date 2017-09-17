@@ -1,7 +1,6 @@
 
 {:bluebox: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -128,13 +127,19 @@ The above is useful in that it says that _in the [[internal logic]]_ of the $(\i
 
 
 
-## Induction in homotopy theory
+## Homotopy algebras over homotopy monads
+ {#Induction}
 
-* [[algebra over an endofunctor]]
+We have seen that homtopy type theory naturally describes 
+[[homotopy pullbacks]] and some other finite [[(∞,1)-limits]] in terms of [[identity types]] and the [[base change]] [[adjoint triple]]. The [[duality|dual]] notion, _[[homotopy colimits]]_, is conceived of in homotopy type theory as a (vast) generalization of the basic notion of _[[induction]]_ and _[[recursion]]_, subsumed type-theoretically in the notion of _[[inductive type]]_, roughly a kind of [[type]] that is given by [[generators and relations]].
 
-* [[inductive type]], [[higher inductive type]]
+Traditionally inductive types are in category theory [[categorical semantics|interpreted]] as _[[algebras over an endofunctor]]_. While useful, this is a concept somewhat alien to usual constructions in category theory or homotopy theory. The natural notion is instead that of an [[algebra over a monad]]. While an [[algebra over an endofunctor]] may be thought of as a monad-algebra over a [[free monad]], from the point of view of homotopy theory it still seems unnatural to restrict attention to free monads.
+
+However, after generalization to _[[homotopy type theory]]_ this is rectified: here the homotopy-theoretic notion of [[induction]] turns out to be about [[∞-algebras over an (∞,1)-monad]], as one would hope, and a _[[higher inductive type]]_ is an [[initial algebras of a presentable (∞,1)-monad]].
 
 (...)
+  
+
 
 ## Detecting $n$-connectedness
 
