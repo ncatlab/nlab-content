@@ -18,7 +18,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -76,6 +76,7 @@ These are presented by [[simplicial group]]s. Notably abelian simplicial groups 
 
 * [[homotopy theory]], [[(∞,1)-category]]
 
+[[!include homotopy n-types - table]]
 
 [[!redirects ∞-groupoid]]
 [[!redirects ∞-groupoids]]
