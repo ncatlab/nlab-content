@@ -22,36 +22,45 @@ A (partial) **cogerm differential 1-form** on $X$ is a [[partial function]] $\om
 
 ## Examples
 
-If $f: X\to \mathbb{R}$ is a function, then it defines a cogerm differential 1-form, also denoted $f$, by evaluation at $0$:
+* If $f: X\to \mathbb{R}$ is a function, then it defines a cogerm differential 1-form, also denoted $f$, by evaluation at $0$:
+  $$ \langle f | c \rangle = (f\circ c)(0).$$
+  This is defined on *all* germs.
 
-$$ \langle f | c \rangle = (f\circ c)(0).$$
+* We also have the differential of $f$, denoted $\mathrm{d}f$, defined by
+  $$ \langle \mathrm{d}f | c \rangle = (f\circ c)'(0)$$
+  which is defined on all germs $c$ having the property that $f\circ c$ is differentiable at $0$.  In particular, if $f$ is smooth (for $X$ a [[smooth space]]), then $\mathrm{d}f$ is defined on all smooth germs.
 
-This is defined on *all* germs.  We also have the differential of $f$, denoted $\mathrm{d}f$, defined by
+  When $X$ is a [[differentiable manifold]], $ \langle \mathrm{d}f | c \rangle$ depends only on the [[tangent vector]] of $c$ at $0$.
 
-$$ \langle \mathrm{d}f | c \rangle = (f\circ c)'(0)$$
+* More generally, any real-valued function on the [[tangent bundle]] of $X$ can be regarded as a cogerm differential 1-form; this includes in particular all [[differential form|exterior differential 1-forms]].
 
-which is defined on all germs $c$ having the property that $f\circ c$ is differentiable at $0$.  In particular, if $f$ is smooth (for $X$ a [[smooth space]]), then $\mathrm{d}f$ is defined on all smooth germs.
+* We also have the second differential $\mathrm{d}^2f$, defined by
+  $$ \langle \mathrm{d}^2f | c \rangle = (f\circ c)''(0),$$
+  which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *[[cojet differential 1-form]]*.
 
-When $X$ is a [[differentiable manifold]], $ \langle \mathrm{d}f | c \rangle$ depends only on the [[tangent vector]] of $c$ at $0$.  More generally, any real-valued function on the [[tangent bundle]] of $X$ can be regarded as a cogerm differential 1-form; this includes in particular all [[differential form|exterior differential 1-forms]].
+* For an example of a cogerm differential form that is not a cojet differential form, let $\langle{\omega|c}\rangle$ be $0$ or $1$ according as $c$ is or is not [[analytic function|analytic]] (say for $X$ the real line).  We do not know any more interesting examples.
 
-We also have the second differential $\mathrm{d}^2f$, defined by
+* We can also apply arbitrary real functions: if $\phi:\mathbb{R}^n\to \mathbb{R}$ is a function (or even a partial function) and $\omega_1,\dots,\omega_n$ are cogerm differential 1-forms, then we have $\phi(\omega_1,\dots,\omega_n)$ defined by
+  $$ \langle \phi(\omega_1,\dots,\omega_n) | c \rangle = \phi(\langle\omega_1|c\rangle,\dots,\langle\omega_n|c\rangle) $$
+  
+* For instance, any $\omega$ has an absolute value ${|\omega|}$.
 
-$$ \langle \mathrm{d}^2f | c \rangle = (f\circ c)''(0),$$
+* And if $X=\mathbb{R}^2$, then we have the "length element" $&#273; s = \sqrt{\mathrm{d}x^2 + \mathrm{d}y^2}$.
 
-which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *[[cojet differential 1-form]]*.
+* Generalizing $&#273;s$, any [[absolute differential form|absolute differential 1-form]] can be regarded as a cogerm differential 1-form.
 
-For an example of a cogerm differential form that is not a cojet differential form, let $\langle{\omega|c}\rangle$ be $0$ or $1$ according as $c$ is or is not [[analytic function|analytic]] (say for $X$ the real line).  We do not know any more interesting examples.
+* Any [[symmetric bilinear form]] on tangent vectors can also be regarded as a [[quadratic form|quadratic]] covector form and therefore a quadratic cogerm form.  In particular, this applies to the [[Riemannian metric|metric]] $g$ on any (pseudo)-[[Riemannian manifold]].  We then have $g = &#273;s^2$ in the algebra of cogerm forms on a Riemannian manifold.
 
-We can also apply arbitrary real functions: if $\phi:\mathbb{R}^n\to \mathbb{R}$ is a function (or even a partial function) and $\omega_1,\dots,\omega_n$ are cogerm differential 1-forms, then we have $\phi(\omega_1,\dots,\omega_n)$ defined by
+* The *delta function* can also be regarded as a cogerm differential form on $\mathbb{R}$, defined by
+  $$ \delta =
+  \begin{cases}
+    1 &\qquad x \le 0 \lt x+\mathrm{d}x \\
+    0 &\qquad otherwise.
+  \end{cases}
+  $$
+  In the section on integration below we will see why this deserves the name "delta function".
 
-$$ \langle \phi(\omega_1,\dots,\omega_n) | c \rangle = \phi(\langle\omega_1|c\rangle,\dots,\langle\omega_n|c\rangle) $$
-
-For instance, any $\omega$ has an absolute value ${|\omega|}$.  And if $X=\mathbb{R}^2$, then we have the "length element" $&#273; s = \sqrt{\mathrm{d}x^2 + \mathrm{d}y^2}$.
-
-Generalizing $&#273;s$, any [[absolute differential form|absolute differential 1-form]] can be regarded as a cogerm differential 1-form.
-
-Any [[symmetric bilinear form]] on tangent vectors can also be regarded as a [[quadratic form|quadratic]] covector form and therefore a quadratic cogerm form.  In particular, this applies to the [[Riemannian metric|metric]] $g$ on any (pseudo)-[[Riemannian manifold]].  We then have $g = &#273;s^2$ in the algebra of cogerm forms on a Riemannian manifold.
-
+* More generally, for any function $f$ we have a cogerm differential form defined by $f(x+\mathrm{d}x)-f(x)$.  The delta function is the special case when $f$ is the [[Heaviside function]].
 
 ## The cogerm differential
 
@@ -155,6 +164,18 @@ This follows directly from the definition of the naive integral and the cogerm d
 The genuine integral does not satisfy as general a fundamental theorem of calculus as the naive integral.  It does, however, satisfy FTC for differentials of *functions*:
 $$ \int_c \mathrm{d}f = f(c(b)) - f(c(a))$$
 This can be proven in exactly the same way as the usual FTC for (line) integrals.
+
+Alternatively, we can observe that essentially by definition of $\mathrm{d}f$, the form
+$$ f(x+\mathrm{d}x) - f(x) - \mathrm{d}f $$
+is $o(dx)$.  Therefore, $\int_c \mathrm{d}f = \int_c (f(x+\mathrm{d}x)-f(x))$, and the latter is easily identified with $f(c(b))-f(c(a))$ by looking at partitions tagged by their left endpoint.  Moreover, the latter equation
+$$\int_c (f(x+\mathrm{d}x)-f(x)) = f(c(b))-f(c(a))$$
+holds even if $f$ is not differentiable.  In fact, integration of $f(x+\mathrm{d}x)-f(x)$ (perhaps multiplied by another function $g$) is a sort of [[Riemann-Stieltjes integration]].  In particular, the delta function has its expected properties:
+$$\int_{a}^b f(x) \delta =
+\begin{cases}
+  f(0) &\qquad a\le 0\lt b \\
+  0 & \qquad otherwise.
+\end{cases}
+$$
 
 The restriction of FTC to differentials of functions is fairly natural if we recognize that FTC is a special case of the generalized [[Stokes' theorem]], which is about *exterior* differentials of forms, not the commutative cogerm differential.  It just so happens that if $f$ is a function, then the exterior differential of $f$ regarded as a 0-form agrees with the cogerm differential of $f$ regarded as a cogerm 1-form.
 
