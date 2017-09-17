@@ -241,6 +241,8 @@ This is in ([Moerdijk, section 8.4](#Moerdijk)).
 
 We state a list of lemmas to establish theorem \ref{TheModelStructureExistenceAndBasicProperties}.
 
+The **strategy** is the following: we [[over topos|slice]] $dSet$ over a normal [[resolution]] $E_\infty$ (a model of the [[E-∞ operad]]) of the terminal object. Since over a normal object all morphisms are normal, we have a chance to establish a _[[Cisinski model structure]]_ on $dSet_{/E_\infty}$. This indeed exsis, prop. \ref{ModelStructureOnSlices} below, and the model structure on $dSet$ itself can then be [[transferred model structure|transferred]] along the [[inverse image]] of the [[etale geometric morphism]] $dSet_{/E_\infty} \to dSet$, prop. \ref{TransferOfTheModelStructure}.
+
 +-- {: .num_prop }
 ###### Proposition 
 
@@ -329,7 +331,7 @@ $$
 If in the above $B$ is normal and $a : X \to B$ is $J$-anodyne, then the [[left homotopies]] given by the above cylinder
 defines a notion of [[left homotopy]] in $dSet_{/B}$.
 
-Say a morphism $f : A \to A'$ in $dSet_{/B}$ is a **$B$-equivalence** if it is a homotopy equivalence with respect to this notion of homotopy, hence if for all $J$-anodyne $X \to B$ the induced morphism
+Say a morphism $f : A \to A'$ in $dSet_{/B}$ is a **$B$-equivalence** if it is a homotopy equivalence with respect to this notion of homotopy, hence if for all $J$-fibrations $X \to B$ the induced morphism
 
 $$
   [A',X]_{\sim_B} \to [A,X]_{\sim B}
@@ -355,7 +357,34 @@ Let $B \in dSet$ be normal. Then $dSet_{/B}$ carries a [[left proper model categ
 
 =--
 
-This is ([Cis-Moer, prop. 3.5](#CisinskiMoerdijk09)). It follows from ([Cisinski, theorem 1.3.22, prop. 1.3.14](#Cisinski)).
+This is ([Cis-Moer, prop. 3.5](#CisinskiMoerdijk09)). 
+
++-- {: .proof}
+###### Proof
+
+Notice that 
+
+1. every monomorphism over a normal object $B$ is normal, 
+
+1. the [[over topos]] (see there) $PSh(\Omega)_{/B}$ may be identified with presheaves on the slice site
+
+   $$
+     PSh(\Omega)_{/B} \simeq PSh(\Omega_{/B})
+     \,.
+   $$
+
+Therefore for normal $B$ the slice $dSet_{/B}$, as opposed to $dSet$ itself, has a chance to carry a [[Cisinski model structure]]. And this is indeed the case: one checks that
+
+* $J \otimes (-)$ is a _functorial cyclinder_ in the sense of _[this definition](http://ncatlab.org/nlab/show/Cisinski+model+structure#FunctorialCylinder)_;
+
+* the class of $J$-anodyne extensions is a class of corresponding anodyne extensions in the sense of _[this definition](http://ncatlab.org/nlab/show/Cisinski+model+structure#AnodyneExtensions)_
+
+* so that together these form a _homotopical structure_ on $dSet_{/B}$ in the sense of _[this definition](http://ncatlab.org/nlab/show/Cisinski+model+structure#HomotopicalStructure)_.
+
+The statement then is a special case of _[this theorem](http://ncatlab.org/nlab/show/Cisinski+model+structure#ModelStructureFromHomotopicalStructure)_ at _[[Cisinski model structure]]_.
+
+=--
+
 
 
 Let $E_\infty \in dSet$ be any normal dendroidal set such that the terminal morphism $E_\infty \to *$ is an acyclic fibration in that it has the [[right lifting property]] against the tree boundary inclusions.
@@ -373,7 +402,7 @@ $$
 
 where $p_!$ simply forgets the map to $E_\infty$ and where $p^*$ forms the [[product]] with $E_\infty$ 
 
-+-- {: .num_prop }
++-- {: .num_prop #TransferOfTheModelStructure}
 ###### Proposition
 
 The _[[transferred model structure]]_ on $dSet$ along the [[right adjoint]] $p^*$ of the model structure from prop. \ref{ModelStructureOnSlices} exists.
@@ -383,6 +412,7 @@ This is the model structure characterized in theorem \ref{TheModelStructureExist
 =--
 
 This appears as ([Cis-Moer, prop. 3.12](#CisinskiMoerdijk09)).
+
 
 So far this establishes the existence of the model structure and that every dendroidal inner Kan complex is fibrant. Below in _[characterization of the fibrant objects](#CharacterizationOfTheFibrantObjects)_ we consider the converse statement: that the fibrant objects are precisely the inner Kan complexes.
 
