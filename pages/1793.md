@@ -568,9 +568,43 @@ This is theorem 2.2 in [Christensen-Hovey](#ChristensenHovey).
 
 Let $R$ be an associative ring and $\mathcal{A} = R$[[Mod]].
 
-* The **categorical projective class** on $\mathcal{A}$ is the [projective class](#ProjectiveClass) with $\mathcal{P}$ the class of [[sirect sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has as fibrations the degreewise surjections.
+* The **categorical projective class** on $\mathcal{A}$ is the [projective class](#ProjectiveClass) with $\mathcal{P}$ the class of [[direct sum]]mands of free modules. The $\mathcal{P}$-model structure on $Ch(\mathcal{A})$ has as fibrations the degreewise surjections.
 
 * The **pure projective class** on $\mathcal{A}$ has as $\mathcal{P}$ summands of sums of finitely presented modules. Fibrations in the corresponding model structure are the maps that are degreewise those epimorphisms that appear in $\mathcal{P}$-exact sequences.
+
+## Properties
+
+### Inclusion into simplicial objects
+
+Let $\mathcal{A} = $ [[Ab]] be the category of [[abelian group]]s. The [[Dold-Kan correspondence]] provides a [[Quillen equivalence]]
+
+$$
+  (N \dashv \Gamma) : Ch_\bullet^+ \stackrel{\overset{N}{\leftarrow}}{\underset{\Gamma}{\to}}
+  sAb
+$$
+
+between the projective model structure on connective chain complexes and the [[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]. This in turns sits as a [[transferred model structure]] along the [[forgetful functor]] over the [[model structure on simplicial sets]]
+
+$$
+  (F \dashv U) : sAb \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  sSet
+  \,.
+$$
+
+The cobined Quillen adjunction
+
+$$
+  (N F  \dashv U \Gamma) : Ch_\bullet \stackrel{\leftarrow}{\to} sSet
+$$
+
+prolongs to a Quillen adjunction on the projective [[model structure on simplicial presheaves]] on any [[site]] $C$ , which we denote by the same symbols
+
+$$
+  (N F  \dashv U \Gamma) : [C,Ch_\bullet]_{proj} \stackrel{\leftarrow}{\to} [C, sSet]_{proj}
+  \,.
+$$
+
+With due care this descends to the [[local model structure on simplicial presheaves]] which [[presentable (infinity,1)-category|presents]] the [[(∞,1)-sheaf (∞,1)-topos]] on $C$. Then the above Quillen adjunction serves to embed [[abelian sheaf cohomology]] on $C$ into the larger context of [[nonabelian cohomology]] on $C$. See [[cohomology]] for more on this.
 
 ## History and references {#References}
 
