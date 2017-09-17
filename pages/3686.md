@@ -1,0 +1,1 @@
+A **symplectomorphism** from a symplectic manifold $(M,\omega)$ to a sympletic manifold $(N,\nu)$ is a [[diffeomorphism]] preserving the sympletic form: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
