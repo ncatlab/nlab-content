@@ -1571,7 +1571,7 @@ For $G = C_k$, we have
 * $H^{2 j}(G, A) = \ker(D)/im(N)$ for $j \geq 1$. 
 =-- 
 
-A well-known calculation in the cohomology of cyclic groups is **Hilbert's Theorem 90**. 
+A well-known calculation in the cohomology of cyclic groups is **[[Hilbert's Theorem 90]]**. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
