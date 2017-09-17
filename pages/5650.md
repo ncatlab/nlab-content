@@ -14,6 +14,10 @@ This entry is about the book
 
 on [[higher algebra]].
 
+
+This book lays the basis of [[categorical algebra]] -- the study of the trinity [[Lawvere theory|algebra]], [[monad]]s, [[operad]]s -- in the context of [[(∞,1)-category theory]]: [[(∞,1)-algebraic theory|(∞,1)-algebras]], [[(∞,1)-monad]]s, [[(∞,1)-operad]]s.
+
+
 #Contents#
 * table of contents
 {:toc}
