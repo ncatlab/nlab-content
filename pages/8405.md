@@ -1,4 +1,4 @@
-Higher dimensional transitions systems are thought of as modelling concurrent operation of interacting transitions systems. They are related to applications of [[directed homotopy theory]], and [[directed algebraic topology]].
+Higher dimensional transitions systems are thought of as modelling concurrent operation of interacting [[transition system]]s. They are related to applications of [[directed homotopy theory]], and [[directed algebraic topology]].
 
 ##References
 
