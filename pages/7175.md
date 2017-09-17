@@ -1,0 +1,28 @@
+
+## In analysis
+
+In [[analysis]].
+
+Let $f$ be a [[differentiable function]] and let $x$ in its [[domain]] be a point where its [[derivative]] / [[Jacobian]] vanishes. Let $H_x(F)$ be the [[Hessian matrix]] of the function. Then
+
+* if $H_x(f)$ is a [[positive definite form]], then $x$ is called a **strict local minimum**;
+
+* if $H_x(f)$ is a [[positive semidefinite form]], then $x$ is called a **local minimum**;
+
+
+* if $H_x(f)$ is a [[negative definite form]], then $x$ is called a **strict local maximum**;
+
+* if $H_x(f)$ is a [[negative semidefinite form]], then $x$ is called a **local maximum**;
+
+* if $H_x(f)$ is an [[indefinite form]], then $x$ is called a **nondegenerate saddle point**.
+
+
+
+[[!redirects extrema]]
+
+[[!redirects minimum]]
+[[!redirects minima]]
+
+
+[[!redirects maximum]]
+[[!redirects maxima]]
