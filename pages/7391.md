@@ -880,29 +880,52 @@ Therefore the cofibrations in the two model structures do coincide.
 
 (Notice that a similar statement holds for the acyclic cofibrations, only that the generating set of acyclic cofibrations in $dSet_{CM}$ is, while known to exist, not known explicitly.)
 
-Next, to see that the fibrant objects also coincide...
+Next, to see that the fibrant objects also coincide.
 
-(...)
-
-Claim: If $X  \in [\Delta^{op}, dSet_{CM}]_{Reedy}$ is fibrant, then $X^{(\Delta[\bullet])}$ is fibrant in $[\Delta^{op},[\Delta^{op}, dSet_{CM}]_{Reedy}]_{Reedy}$.
-
-We need to check for all $k \in \mathbb{N}$ that $X^{(\Delta[k])} \to X^{(\partial \Delta[k])}$ is 
-a fibration in $[\Delta^{op}, dSet_{CM}]_{Reedy}$. That is the case if for all $n \in \mathbb{N}$ the morphism
+Let $X$ be fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$. Then 
+it is also fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. 
+ 
+We compute $RHom(\Delta[n] \times \Omega[T], X)$ by forming a fibrant resolution 
+of 
+$X$ in $[\Delta^{op},[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}]_{Reedy}$.
+We claim that such is given by
 
 $$
-  X^{(\Delta[k])}_{\Delta[n]} 
-   \to 
-  X^{(\Delta[k])}_{\partial \Delta[n]}
-   \times_{  X^{(\partial \Delta[k])}_{\partial \Delta[n]} }
-  X^{(\partial \Delta[k])}_{\partial \Delta[n]}
+  [n] \mapsto X^{(\Delta[n])}
+  \,.
 $$
 
-is a fibration in $dSet_{CM}$.
+Because this is Reedy fibrant precisely if for all $n$ the morphism
 
-Notice that for all $n$ the morphism $X_{\Delta[n]} \to X_{\partial \Delta[n]}$ is a fibration in $dSet_{CM}$, by assumption that $X$ is Reedy fibrant. Now...
+$$
+ X^{(\Delta[n])} \to X^{(\partial \Delta[n])}
+$$
 
-(...)
+is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$, which is the case if for all $k \in \Delta$ the morphism 
 
+$$
+  X^{(\Delta[n])}_k \to X^{(\partial \Delta[n])}_k
+$$
+
+is a fibration in $dSet_{CM}$. But that is the case.
+Moreover, $\Delta[n]\cdot \Omega[T]$ is cofibrant in 
+$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. So we may compute the derived hom
+as
+
+$$
+  RHom(\Delta[n]\times \Omega[T], X)
+  :
+  [k]
+  \mapsto
+  Hom( \Delta[n] \times \Omega[T], X^{(\Delta[k])} )
+  = 
+  Hom(\Omega[T], X^{(\Delta[k])}_n)
+  \,.
+$$
+
+This last expression, now, also gives $RHom(\Omega[T], X_n)$.
+
+So it follows that (...)
 =--
 
 
