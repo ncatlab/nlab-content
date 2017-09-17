@@ -3,19 +3,20 @@
 |   | [[number fields]] ("[[function fields]] of [[curves]] over [[F1]]")  |  [[function fields]] of [[curves]] over [[finite fields]] $\mathbb{F}_q$ ([[arithmetic curves]])  | [[Riemann surfaces]]/[[complex curves]] |  
 |----|-------------------|----------------------|----|
 | **affine and projective line**  |  |  |  |
-|   | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_q[t]$ ([[polynomials]], [[function algebra]] on [[affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$) |  $\mathcal{O}_{\mathbb{C}}$ ([[holomorphic functions]] on [[complex plane]]) |
-|   | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(t)$ ([[rational functions]])  | [[meromorphic functions]] on [[complex plane]] |
+|   | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_q[z]$ ([[polynomials]], [[function algebra]] on [[affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$) |  $\mathcal{O}_{\mathbb{C}}$ ([[holomorphic functions]] on [[complex plane]]) |
+|   | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(z)$ ([[rational functions]])  | [[meromorphic functions]] on [[complex plane]] |
 |   | $p$ ([[prime number]]/non-archimedean [[place]])  |  $x \in \mathbb{F}_p$  | $x \in \mathbb{C}$  |
 |   | $\infty$ ([[place at infinity]])  |   |  $\infty$  |
 |   | $Spec(\mathbb{Z})$ ([[Spec(Z)]])  |  $\mathbb{A}^1_{\mathbb{F}_q}$ ([[affine line]]) |  [[complex plane]]  |
 |   | $Spec(\mathbb{Z}) \cup place_{\infty}$   | $\mathbb{P}_{\mathbb{F}_q}$ ([[projective line]])  |  [[Riemann sphere]]  |
+|  | $\partial_p \coloneqq \frac{(-)^p - (-)}{p}$ ([[Fermat quotient]]) | $\frac{\partial}{\partial z}$ ([[coordinate]] [[derivation]])  |  " |
 |   | [[genus of a number field|genus of the rational numbers]] = 0 |  |  [[genus of a surface|genus of the Riemann sphere]] = 0 |
 | **formal neighbourhoods**  |   |   |   |
-|   | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [t-x] ]$ ([[holomorphic functions]] on [[formal disk]] around $x$)  |
+|   | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [z-x] ]$ ([[holomorphic functions]] on [[formal disk]] around $x$)  |
 |   |  $Spf(\mathbb{Z}_p)\underset{Spec(\mathbb{Z})}{\times} X$ ("$p$-[[arithmetic jet space]]" of $X$ at $p$) |  |  [[formal disks]] in $X$  |
-|   | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((t-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((t-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
-|   | $\mathbb{A}_{\mathbb{Q}} = \underset{p\; place}{\prod^\prime}\mathbb{Q}_p$ ([[ring of adeles]])  | $\mathbb{A}_{\mathbb{F}_q((t))}$  ( [adeles of function field](ring%20of%20adeles#ForAGlobalField) ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} \mathbb{C}((t-x))$ ([[restricted product]] of holomorphic functions on all punctured formal disks, finitely of which do not extend to the unpunctured disks) |
-|   | $\mathbb{I}_{\mathbb{Q}} = GL_1(\mathbb{A}_{\mathbb{Q}})$ ([[group of ideles]])  | $\mathbb{I}_{\mathbb{F}_q((t))}$  ( [[group of ideles|ideles of function field]] ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} GL_1(\mathbb{C}((t-x)))$   |
+|   | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((z-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((z-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
+|   | $\mathbb{A}_{\mathbb{Q}} = \underset{p\; place}{\prod^\prime}\mathbb{Q}_p$ ([[ring of adeles]])  | $\mathbb{A}_{\mathbb{F}_q((t))}$  ( [adeles of function field](ring%20of%20adeles#ForAGlobalField) ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} \mathbb{C}((z-x))$ ([[restricted product]] of holomorphic functions on all punctured formal disks, finitely of which do not extend to the unpunctured disks) |
+|   | $\mathbb{I}_{\mathbb{Q}} = GL_1(\mathbb{A}_{\mathbb{Q}})$ ([[group of ideles]])  | $\mathbb{I}_{\mathbb{F}_q((t))}$  ( [[group of ideles|ideles of function field]] ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} GL_1(\mathbb{C}((z-x)))$   |
 | **zeta functions**  |  |  |  |
 |   |  [[Riemann zeta function]] | [[Goss zeta function]] | |
 |    |  |  |  |
@@ -23,14 +24,15 @@
 |   | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a possibly [[ramified]] [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 |   | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
 |   | $Spec_{an}(\mathcal{O}_K) \to Spec(\mathbb{Z})$ ([[spectrum of a commutative ring|spectrum]] with archimedean [[places]])   | $\Sigma$ ([[arithmetic curve]]) |   $\Sigma \to \mathbb{C}P^1$ ([[complex curve]] being [[branched cover of Riemann sphere]])  |
+|   | $\frac{(-)^p - \Phi(-)}{p}$ (lift of [[Frobenius morphism]]/[[Lambda-ring]] structure) | $\frac{\partial}{\partial z}$ | "  |
 |   | [[genus of a number field]] |  [[genus of an algebraic curve]] | [[genus of a surface]] | 
 | **formal neighbourhoods**  |   |    |    |
 |   | $v$ prime ideal in [[ring of integers]] $\mathcal{O}_K$ | $x \in \Sigma$ | $x \in \Sigma$ |
-|   | $K_v$ ([[formal completion]] at $v$)  |   | $\mathbb{C}((t_x))$ ([[function algebra]] on punctured [[formal disk]] around $x$) |
-|   | $\mathcal{O}_{K_v}$ ([[ring of integers]] of [[formal completion]]) |    |  $\mathbb{C}[ [ t_x ] ]$ ([[function algebra]] on [[formal disk]] around $x$) |
-|   | $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$ ([[restricted product]] of [[function rings]] on all punctured [[formal disks]] around all points in $\Sigma$)  | 
-|   | $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ (function ring on all [[formal disks]] around all points in $\Sigma$) |
-|   | $\mathbb{I}_K = GL_1(\mathbb{A}_K)$ ([[group of ideles]]) |  | $\prod^\prime_{x\in \Sigma} GL_1(\mathbb{C}((t_x)))$ |
+|   | $K_v$ ([[formal completion]] at $v$)  |   | $\mathbb{C}((z_x))$ ([[function algebra]] on punctured [[formal disk]] around $x$) |
+|   | $\mathcal{O}_{K_v}$ ([[ring of integers]] of [[formal completion]]) |    |  $\mathbb{C}[ [ z_x ] ]$ ([[function algebra]] on [[formal disk]] around $x$) |
+|   | $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((z_x))$ ([[restricted product]] of [[function rings]] on all punctured [[formal disks]] around all points in $\Sigma$)  | 
+|   | $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [z_x] ] $ (function ring on all [[formal disks]] around all points in $\Sigma$) |
+|   | $\mathbb{I}_K = GL_1(\mathbb{A}_K)$ ([[group of ideles]]) |  | $\prod^\prime_{x\in \Sigma} GL_1(\mathbb{C}((z_x)))$ |
 | **Galois theory** |   |   |   |
 |   |  [[Galois group]] |  " | $\pi_1(\Sigma)$ [[fundamental group]]  |
 |   |  [[Galois representation]] |  " | [[flat connection]] ("[[local system]]") on $\Sigma$ |
