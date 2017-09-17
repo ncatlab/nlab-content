@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -43,7 +43,8 @@ These approaches have different computational properties, but semantically they 
 
 ### Decidability
 
-Only the intensional, but not the [[extensional type theory|extensional]] [[Martin-Löf type theory]], is [[decidable]].  See _[[intensional type theory]]_ for more on this.
+Only the intensional, but not the extensional, [[Martin-Löf type theory]] is [[decidable]].  See _[[intensional type theory]]_ for more on this.
+
 
 ## References
 
@@ -53,6 +54,8 @@ Among the most thorough recent treatments of extensional type theory are
 
 * [[Ieke Moerdijk]], E. Palmgren, _Type theories, toposes and constructive set theory: predicative aspects of AST_,  Ann. Pure Appl. Logic, 114:155-201, (2002)
 
+
+[[!redirects extensional type theory]]
 [[!redirects extensional type theories]]
 [[!redirects uniqueness of identity proofs]]
 [[!redirects UIP]]
