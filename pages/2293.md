@@ -38,11 +38,6 @@ Sometimes, but not always getting rid of limitations coming from 1-categorical t
 
 The adjective "derived" means pretty much the same as the "$\infty$-" in [[∞-category]]. It stems from the use of "derived" as in [[derived category]] and [[derived functor]]. But incidentally, derived algebraic geometry is honestly [[higher category theory|higher categorical]], whereas derived categories and derived functors are really more like 1-categorical shadows of higher categorical structures, as described in detail at [[homotopy category]].
 
-There is no really systematic rule to the use of the word "derived" here. For instance [[derived stack]] has become the standard term for the general version of the notion of [[∞-stack]], but [[Higher Topos Theory]] is not called "derived topos theory".
-
-> [[Urs Schreiber]]: personally I'd think that "derived algebraic geometry" is therefore a misnomer. But who am I to stop that train? :-)
-_Zoran_: this paragraph is entirely wrong, hence your repenting it. There are two generalizations needed to come from schemes to algebraic geometry: deriving on the left and deriving on the right. The deriving on the left corresponds to take higher algebraic stacks,say in terms of fibrant objects in certain model category of simplicial presheaves. The deriving on the left means taking the fibre products of schemes in certain derived way as well (amounting to taking the left derived functors of the tensor product on the algebra level), but the model structures here take the flxibility of dg algebras in the source of the simplicial presheaf picture; this takes care of nontransersality. Thus derived stack is not only higher stack, it is also derived on the other side. 
-
  
 ## relation to higher algebra ##
 
