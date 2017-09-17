@@ -8,7 +8,7 @@ From the [[nPOV]], algebraic K-theory is an an [[(∞,1)-functor]] that sends [[
 
 Traditionally the stable $(\infty,1)$-categories that have been considered are those coming from categories of [[chain complex]]es, and in this sense algebraic K-theory is the study of [[K-theory]] of categories more general than that of (bounded [[chain complex]]es of) [[vector bundle]]s on a [[topological space]], which is the topic of [[topological K-theory]].
 
-In its simple form _algebraic K-theory_ provides tools for computing the [[Grothendieck group]] of suitable categories. In its more refined form it studies the [[K-theory spectrum]] assigned to these categories. Crucuial tools for this go by the name [[Q-construction]] and [[Waldhausen S-construction]].
+In its simple form _algebraic K-theory_ provides tools for computing the [[Grothendieck group]] of suitable categories. In its more refined form it studies the [[K-theory spectrum]] assigned to these categories. Crucial tools for this go by the name [[Q-construction]] and [[Waldhausen S-construction]].
 
 Types of categories for which a theory of algebraic K-theory exist include notably the notions
 
