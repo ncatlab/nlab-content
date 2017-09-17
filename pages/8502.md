@@ -1,0 +1,2 @@
+
+The [[judgement]] on the right of a [[sequent]].
