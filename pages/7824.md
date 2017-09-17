@@ -30,7 +30,10 @@ Every [[projective object|projective]] [[profinite group]] appears as an absolut
 
 +-- {: .num_remark}
 ###### Remark
-There is no direct description (for example in terms of [[generators and realtions]]) known for the absolute Galois group $G_\mathbb{Q}:=Gal(\mathbb{Q}\hookrightarrow \overline \mathbb{Q})$ of the rationals.
+There is no direct description (for example in terms of [[generators and relations]]) known for the absolute Galois group $G_\mathbb{Q}:=Gal(\mathbb{Q}\hookrightarrow \overline \mathbb{Q})$ of the rationals.
 
 However [[Belyi's theorem]] implies that there is a faithful action of $G_\mathbb{Q}$ on the [[children's drawing|children's drawings]].
 =--
+
+
+category: Galois theory
