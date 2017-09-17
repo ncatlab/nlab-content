@@ -398,6 +398,10 @@ The category of diffeological spaces is
 
 (...)
 
+## Related concepts
+
+* [[diffeological groupoid]], [[diffeological ∞-groupoid]]
+
 ## References 
 
 The basic idea of understanding a smooth space as a concrete sheaf on a site of smooth test spaces originates in work of Chen. In
