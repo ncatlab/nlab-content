@@ -25,9 +25,16 @@ An original article with an eye towards [[supergravity]] unification is
 
 * [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, P. van Nieuwenhuizen and D.Z. Freedman, eds, North Holland Publishing Co, 1979, reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669)
 
+A survey of arguments for the hypothesis of grand unification with an eye towards [heterotic string unification](string+phenomenology#HeteroticStandardModels) is given in 
+
+* [[Edward Witten]], _Quest For Unification_, Heinrich Hertz lecture at [SUSY 2002](http://www.desy.de/susy02/) at DESY, Hamburg ([arXiv:hep-ph/0207124](http://arxiv.org/abs/hep-ph/0207124))
+ {#Witten02}
+
 A good introduction to GUTs for mathematicians is
 
 * [[John Baez]], [[John Huerta]], _The Algebra of Grand Unified Theories_ ([arXiv](http://arxiv.org/abs/0904.1556))
+
+
 
 Blog discussion of this is at
 
