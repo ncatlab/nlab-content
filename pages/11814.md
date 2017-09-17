@@ -1,0 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+For $p \geq 2$ a [[prime number]] , then [[quotient]] $\mathbb{Z}/p\mathbb{Z}$ of the [[ring]] of [[integers]] by $p$ is a [[finite field]] denoted $\mathbb{F}_p$, a _prime field_.
+
+Prime fields have [[positive characteristic]].
+
+[[!redirects prime fields]]
