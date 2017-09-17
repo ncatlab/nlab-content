@@ -78,17 +78,22 @@ String theory leads a life somewhere in between the usual physics literature and
 
 * [[FQFT|topological field theory]]
 
-* [[conformal field theory|2-d conformal field theory]]
+  * [[CFT]]
 
-* [[FQFT|homological quantum field theory]]
+    * [[flop transition]]
 
-* [[homological mirror symmetry]]
+  * [[TCFT]]
 
-  * [[A-infinity category|A-infinity categories]]
+    * [[homological mirror symmetry]]
 
-* [[topological T-duality]]
+      * [[A-infinity category|A-infinity categories]]
 
-* [[generalized complex geometry]]
+
+* [[T-duality]]
+
+  * [[topological T-duality]]
+
+  * [[generalized complex geometry]]
 
 * [[quantum anomaly]] canellation [[Green-Schwarz mechanism]] 
 
