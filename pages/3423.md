@@ -68,5 +68,6 @@ For instance Section C1 of
 [[!redirects Loc]]
 [[!redirects Locale]]
 [[!redirects category of locales]]
+[[!redirects the category of locales]]
 
 category: category
