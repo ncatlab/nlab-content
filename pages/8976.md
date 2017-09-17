@@ -1,0 +1,14 @@
+
+## Related concepts
+
+* [[modal type theory]]
+
+* [[Pi-closed morphism]]
+
+
+## References
+
+* Wikipedia, _[Closure operator](http://en.wikipedia.org/wiki/Closure_operator)_
+
+[[!redirects universal closure operator]]
+[[!redirects closure operators]]
