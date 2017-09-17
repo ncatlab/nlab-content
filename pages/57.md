@@ -315,7 +315,7 @@ We don't need to fall back to classical Lie theory to obtain $G$ in the above ar
 
 
 
-### Integrating to line/circle Lie $n$-groups
+### Integrating to line/circle Lie $n$-groups {#IntegrationToLineNGroup}
 
 
 +-- {: .un_def}
@@ -341,47 +341,24 @@ is the simplicial set that in degree $n$ is the set of closed $k$-forms on the $
 =--
 
 
-+-- {: .un_lemma}
-###### Lemma
++-- {: .un_prop}
+###### Proposition
 
-For each $n \in \mathbb{N}$ the diagram
-
-$$
-  \array{
-    \exp(b^n \mathbb{R}) &\to& *
-    \\
-    \downarrow && \downarrow
-    \\
-    \exp(e b^n \mathbb{R}) &\to& \exp(b^{n+1}\mathbb{R})
-  }
-$$
-
-is a pullback diagram in $sPSh(CartSp)$. Moreover, there is a morphism of diagrams
+The operation of [[integration|integrating]] an $n$-form on the $n$-simplex over the $n$-simplex gives an equivalence
 
 $$
-  \array{
-    \exp(b^{n} \mathbb{R})
-    &\to&
-    \exp(e b^{n} \mathbb{R})
-    &\to& 
-    \exp(b^{n+1} \mathbb{R})
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    \mathbf{B}^n \mathbb{R} &\to& \mathbf{E}\mathbf{B}^n \mathbb{R}
-    &\to&
-    \mathbf{B}^{n+1} \mathbb{R}
-  }
+  \int_{\Delta^\bullet} : \exp(b^n \mathbb{R}) \stackrel{}{\to}
+  \mathbf{B}^{n+1}\mathbb{R}
+  \,.
 $$
-
-where the vertical morphisms are acyclic fibrations, induced by sending differential $n$-forms on the $n$-simplex to their [[integration]] over that $n$-simplex. 
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The key fact underlying this is that a closed smooth $n$-form on the $n$-sphere may be extended smoothly to a closed $n$-form on the $(n+1)$-ball precisely if its integral over the sphere vanishes. 
+
+
 
 From this it follows that also every closed $n$-form on the $k$-sphere for $k \gt n$ may be extended as a closed $n$-form to the $(n+1)$-ball. The same holds for smooth families of forms. This implies that $\exp(b^n \mathbb{R}) \to \mathbf{B}^n \mathbb{R}$ is an acyclic fibration for all $n$.
 
