@@ -18,7 +18,7 @@
 
 +-- {: .un_theorem}
 ###### Theorem
-**(The adjoint lifting theorm)**. Consider the following [[commutative diagram|commutative square]] of [[functor]]s:
+**(The adjoint lifting theorem)**. Consider the following [[commutative diagram|commutative square]] of [[functor]]s:
 $$
 \begin{array}{cccc}\mathcal{A} & \overset{Q}{\to}  & \mathcal{B}    \\
 ^{U}\downarrow     &                   & \downarrow^{V} \\
