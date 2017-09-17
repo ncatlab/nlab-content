@@ -107,6 +107,83 @@ These relations to traditional theory we use in the following to explore aspects
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
 
+## General theory
+
+We use the general tools for formulating notions in [[physics]] in terms of [[higher differential geometry]] as discussed at _[[geometry of physics]]_. Here we just collect some of the main ingredients needed below.
+
++-- {: .num_defn}
+###### Definition
+
+We write
+
+$$
+  DL
+  \;\colon\;
+  [CartSp^{op}, Ch_\bullet(Ab)]
+  \stackrel{\simeq}{\to}
+  [CartSp^{op}, Ab^{\Delta^{op}}]
+  \stackrel{forget}{\to}
+  [CartSp^{op}, KanCplx]
+  \stackrel{}{\to}
+  L_{lhe} 
+  [CartSp^{op}, KanCplx]
+  \simeq
+  Smooth\infty Grpd  
+$$
+
+where the first equivalence is the [[Dold-Kan corespondence]] and the last map is the map to the [[simplicial localization]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $k,n \in \mathbb{N}$, $k \leq n$ we write
+
+$$
+  \mathbf{B}^n U(1)_{conn^k}
+  \coloneqq
+  DK\left[
+    \underline{U}(1)
+    \stackrel{\mathbf{d}}{\to}
+    \Omega^1 
+    \stackrel{\mathf{d}}{\to}
+    \cdots
+    \stackrel{\mathbf{d}}{\to}
+    \Omega^k
+    \stackrel{}{\to}
+    0
+    \stackrel{}{\to}
+    \cdots
+    \stackrel{}{\to}
+    0
+  \right]
+$$
+
+with $\Omega^k$ in degree $(n-k)$ (hence with $(n-k)$ vanishing entries on the right). 
+
+In particular
+
+* $\mathbf{B}^n U(1) \simeq \mathbf{B}^n U(1)_{conn^0}$
+
+* $\mathbf{B}^n U(1)_{conn} \simeq \mathbf{B}^n U(1)_{conn^n}$.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+For $n,k \in \mathbb{N}$, $k \lt n$ we have
+
+1. $\Omega (\mathbf{B} U(1)_{conn}) \simeq \flat \mathbf{B}^{n-1}$
+
+1. \Omega (\mathbf{B}^n U(1)_{conn}^k) \simeq \mathbf{B}^{n-1} U(1)_{conn}^k.
+
+=--
+
+(...)
+
 
 ## The setup
 
