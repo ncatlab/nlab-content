@@ -37,6 +37,7 @@ be [[∞-Lie groupoid]]s if one considers [[(∞,1)-sheaves]] on [[CartSp]].
 ## Definition {#Definition}
 
 ### As a geometric embedding into a $(\infty,1)$-presheaf category
+ {#AsAGeometricEmbedding}
 
 +-- {: .num_defn #ToposByLocalization}
 ###### Definition
