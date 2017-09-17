@@ -53,3 +53,7 @@ For more references see at _[[equivariant stable homotopy theory]]_.
 
 [[!redirects genuine G-spectrum]]
 [[!redirects genuine G-spectra]]
+[[!redirects G-equivariant spectrum]]
+[[!redirects G-equivariant spectra]]
+[[!redirects equivariant spectrum]]
+[[!redirects equivariant spectra]]
