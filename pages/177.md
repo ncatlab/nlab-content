@@ -120,6 +120,9 @@ The Wikipedia article seems content to discuss Hasse diagrams for finite posets;
 _Toby_:  You don\'t need 'smallest' here; adding to $G$ will either add objects to $C$ or destroy that $C$ is a preorder.  (Along those lines, note that the only prosets that are ---up to isomorphism--- quivers are posets.  That explains why one mostly only talks about Hasse diagrams for posets.)  But note that 'Hasse diagram' is a fairly informal notion; I have had occasion to draw a Hasse diagram for the (non-antisymmetric, non-locally finite) proset of integers under divisibility, by cheating just slightly (doubling up the labels on the vertices to handle the lack of antisymmetry, some fudging with ellipses to handle the one breakdown of local finiteness, which is at $0$).
 
 
-[[!redirects digraph]]
+[[!redirects directed graph]]
 [[!redirects directed graphs]]
+[[!redirects digraph]]
+[[!redirects digraphs]]
 [[!redirects directed pseudograph]]
+[[!redirects Directed graph]]
