@@ -220,7 +220,7 @@ $$
 +-- {: .num_prop #FullSelfDualizabilityInSpan}
 ###### Proposition
 
-Every object in $Span_n(\mathbf{H})$ is a self-[[fully duallizabe object]]. The unit/counit $k$-spans in dimension $k$ involve in top degree the spans
+Every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]]. The unit/counit $k$-spans in dimension $k$ involve in top degree the spans
 
 $$
   \ast \leftarrow X \stackrel{}{\to} [\Pi(S^k), X]
@@ -283,7 +283,7 @@ In the case that $\mathbf{H} = $ [[∞Grpd]] this is a special case of ([LurieTF
 
 The central definition in the present context now is the following
 
-+-- {: .num_defn}
++-- {: .num_defn #LocalPrequantumFieldTheory}
 ###### Definition
 
 A **local prequantum bulk field** in [[dimension]] $n \in \mathbb{N}$ is a [[monoidal (∞,n)-functor]]
@@ -363,6 +363,323 @@ $$
 
 #### 1d Dijkgraaf-Witten theory
  {#1dDWTheory}
+
+[[Dijkgraaf-Witten theory]] in [[dimension]] 1 is what results when one regards a [[group character]] of a [[finite group]] $G$ as an 
+[[action functional]] in 
+the sense of def. \ref{LocalPrequantumFieldTheory}.
+We give an expository discussion of this example and in the course of it
+introduce some basics of the [[homotopy theory]] of [[groupoids]] ([[homotopy 1-types]]).
+
+$\;$
+
+A [[group character]] on a [[finite group]] $G$ is just a [[group]] [[homomorphism]] $G \to U(1)$ to the [[circle group]] (regarded here as a [[discrete group]]).
+In order to regard this as an [[action functional]], 
+we are to take $G$ as the 
+[[gauge group]] of a physical field theory. The simplest
+such case is a field theory such that on the point there is 
+just a single possible field configuration, to be denoted $\phi_0$.
+The reader familiar with basics of traditional [[gauge theory]] may think of the fields as being 
+[[gauge field]] [[connections]] ("[[vector potentials]]"), hence represented by  [[differential 1-forms]]. But on the point there is only the vanishing 1-form, hence just a single field configuration $\phi_0$.
+
+Even though there is just a single such field, that $G$ is the [[gauge group]] means that for each [[element]] $g \in G$ there is a 
+[[gauge transformation]] that takes
+$\phi_0$ to itself, a state of affairs which we suggestively denote by the symbols
+$$
+  \phi_0 \stackrel{g}{\to}  \phi_0
+  \,.
+$$
+
+Again, the reader familiar with 
+traditional [[gauge theory]] may think of [[gauge transformations]] as in [[Yang-Mills theory]]. Over the point these form, indeed, just the [[gauge group]] itself, taking the trivial field configuration to itself.
+
+That the [[gauge group]] is indeed a [[group]] means that gauge transformations can be  applied consecutively, which we express in symbols as
+
+$$
+  \array{
+    && \phi_0
+    \\
+    & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
+    \\
+    \phi_0 && \underset{g_2 \cdot g_1}{\to} && \phi_0
+  }
+  \,.
+$$
+Regarded this way, we say the [gauge group acting on the single field $\phi_0$ forms a _[[groupoid]]_, whose single _[[object]]_ is $\phi_0$ and whose set of _[[morphisms]]_ is $G$. 
+
++-- {: .num_defn }
+###### Definition
+
+A _[[groupoid]]_ $\mathcal{G}_\bullet$ is ...
+
+$$
+  \array{
+    \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
+    &\stackrel{\circ}{\to}&
+    \mathcal{G}_1
+    & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
+    \mathcal{G}_0
+  }\,.
+$$
+
+=--
+
++-- {: .num_example #DeloopingGroupoid}
+###### Example
+
+For $G$ a [[group]], its [[delooping]] [[groupoid]] $(\mathbf{B}G)_\bullet$ has
+
+* $(\mathbf{B}G)_0 = \ast$;
+
+* $(\mathbf{B}G)_1 = G$.
+
+For $G$ and $K$ two groups, group homomorphisms $G \to K$
+are in [[natural bijection]] with groupoid homomorphisms
+$(\mathbf{B}G)_\bullet \to (\mathbf{B}K)_\bullet$. In 
+particular a [[group character]] for $G$ is equivalently a groupoid homomorphism
+
+$$
+  c_\bullet 
+   \colon
+   (\mathbf{B}G)_\bullet 
+     \to
+   (\mathbf{B}U(1))_\bullet
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The [[interval]] $I$ is the groupoid with 
+
+* $I_0 = \{a,b\}$;
+* $I_1 = \{\mathrm{id}_a, \mathrm{id}_b, a \to  b \}$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $\Sigma$ a [[topological space]], its [[fundamental groupoid]]
+  $\Pi_1(\Sigma)$ is
+
+* $\Pi_1(\Sigma)_0 = $ points in $X$;
+* $\Pi_1(\Sigma)_1 = $ [[continuous function|continuous]] paths in $X$ modulo [[homotopy]] that leaves the endpoints fixed.
+
+=--
+
++-- {: .num_example #PathSpaceGroupoid}
+###### Example
+
+For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\mathcal{G}^I_\bullet$ with
+
+* $\mathcal{G}^I_0 = \mathcal{G}_1$;
+* $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$.   
+
+This comes with two canonical homomorphisms
+  $$
+    \mathcal{G}^I_\bullet
+     \stackrel{\overset{ev_1}{\to}}{\underset{ev_0}{\to}}
+
+	   \mathcal{G}_\bullet
+  $$
+  given by endpoint evaluation.
+
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $f_\bullet, g_\bullet : \mathcal{G}_\bullet \to \mathcal{K}_\bullet$
+two morphisms between groupoids,
+  a _[[homotopy]]_ $f \Rightarrow g$ 
+(a [[natural transformation]]) is
+  a homomorphism of the form $\eta_\bullet : \mathcal{G}_\bullet \to \mathcal{K}^I_\bullet$
+  (with [[codomain]] as in example \ref{PathSpaceGroupoid})
+  such that it fits into the diagram as depicted here on the right:
+  $$
+    \array{
+      & \nearrow  \searrow^{\mathrlap{f_\bullet}}
+      \\
+      \mathcal{G} &\Downarrow^{\mathrlap{\eta}}& \mathcal{K}
+     \\
+     & \searrow \nearrow_{\mathrlap{g_\bullet}}
+    }
+
+	\;\;\;\;
+	\coloneqq
+	\;\;\;\;
+    \array{
+      && \mathcal{K}_\bullet
+      \\
+      & {}^{\mathllap{f_\bullet}}\nearrow & \uparrow^{\mathrlap{(ev_1)_\bullet}}
+      \\
+      \mathcal{G}_\bullet
+      &\stackrel{\eta_\bullet}{\to}&
+      \mathcal{K}^I_\bullet
+      \\
+      & {}_{\mathllap{g_\bullet}}\searrow & \downarrow^{\mathrlap{(ev_0)_\bullet}}
+      \\
+      && \mathcal{K}
+    }
+    \,.
+  $$
+
+=--
+
+Here and in the following, the convention is that we write
+
+* $\mathcal{G}_\bullet$ when we regard groupoids with just 
+homomorphisms ([[functors]]) between them, 
+
+* $\mathcal{G}$ when we regard groupoids
+with homomorphisms ([[functors]]) between them and [[homotopies]] ([[natural transformations]]) between these.
+
++-- {: .num_example }
+###### Example
+
+For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ is
+
+* $[X,Y]_0 = $ homomorphisms $X \to Y$;
+* $[X,Y]_1 = $ homotopies between such. 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+  A ([[homotopy equivalence|homotopy-]])_[[equivalence of groupoids]]_ is a morphism
+$\mathcal{G} \to \mathcal{K}$ which has a left and right [[inverse]] up to [[homotopy]].  
+
+=--
+
++-- {: .num_prop #DiscreteGroupoidIsDijointUnioonOfDeloopings}
+###### Proposition
+
+  Assuming the [[axiom of choice]] in the ambient [[set theory]],
+  every groupoid is equivalent to a disjoint union of 
+  [[delooping]] groupoids,
+  example \ref{DeloopingGroupoid} -- a _[[skeleton]]_.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+ The statement of prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} 
+ becomes false as when we pass to groupoids that are equipped with
+ [[geometry|geometric]] structure. This is the reason why for discrete geometry all  [[Chern-Simons theory|Chern-Simons]]-type field theories fundamentally involve just groups (and higher groups),
+ while for nontrivial geometry there are genuine groupoid theories, 
+ for instance the [[AKSZ sigma-models]]. But even so, 
+ [[Dijkgraaf-Witten theory]] is usefully discussed in terms of groupoid technology, in particular since the choice of equivalence in 
+ prop. \ref{DiscreteGroupoidIsDijointUnioonOfDeloopings} is not canonical.
+
+=--
+
++-- {: .num_defn #HomotopyFiberProductOfGroupoids}
+###### Definition
+
+Given two morphisms of groupoids 
+$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+their _[[homotopy fiber product]]_
+
+$$
+  \array{
+   X \underset{B}{\times} Y
+   &\stackrel{}{\to}& X
+   \\
+   \downarrow &\swArrow& \downarrow^{\mathrlap{f}}
+   \\
+   Y &\underset{g}{\to}& B
+  }
+$$
+
+is the [[limit]] [[cone]]
+
+$$
+  \array{
+    X_\bullet \underset{B_\bullet}{\times} B^I_\bullet
+    \underset{B_\bullet}{\times} Y
+    &\to& &\to& X
+    \\
+    \downarrow && && \downarrow^{\mathrlap{f_\bullet}}
+    \\
+    && B^I_\bullet &\underset{ev_0}{\to}& B_\bullet
+    \\
+    \downarrow && \downarrow^{\mathrlap{ev_0}}
+    \\
+    Y_\bullet &\underset{g_\bullet}{\to}& B_\bullet
+  }
+  \,,
+$$
+
+hence the ordinary iterated [[fiber product]] over the [[path space]] groupoid, as indicated.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $G$ a group and $\mathbf{B}G$ its  [[delooping]] groupoid from
+  example \ref{DeloopingGroupoid}, we have
+  $$
+    G \simeq \ast \underset{\mathbf{B}G}{\times} \ast
+    \,.
+  $$
+
+ Hence $G$ is the [[loop space object]] of its own [[delooping]], as it should be.
+
+=--
+
++-- {: .num_example #FreeLoopSpaceOfGroupoid}
+###### Example
+
+
+The [[free loop space object]] is
+
+  $$
+    [\Pi(S^1), X]
+	\simeq
+	X \underset{[\Pi(S^0), X]}{\times}X
+  $$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The prequantum field theory defined by a [[group character]]
+  $$
+    \left[
+      \array{
+	    \mathbf{Field}
+		\\
+                \downarrow^{\mathrlap{S}}
+		\\
+		\flat \mathbf{B}U(1)
+	  }
+	\right]
+	\;\;
+	:=
+	\;\;
+    \left[
+      \array{
+	    \mathbf{B}G
+		\\
+                \downarrow^{\mathrlap{c}}
+		\\
+		\flat \mathbf{B}U(1)
+	  }
+	\right]	
+  $$
+  assigns to the [[circle]] the [[action functional]] which 
+  sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
+  to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$.
+
+=--
 
 (...)
 
