@@ -50,13 +50,13 @@ If $M$ is a trivial module $k$ then $CE(\mathfrak{g}) := Hom_k(\Lambda^* \mathfr
 
 ### Via $\infty$-Lie algebras
 
-As discussed at [[Chevalley-Eilenberg algebra]], we may identify Lie algebras $\mathfrak{g}$ as the duals $CE(\mathfrak{g})$ of [[dg-algebra]]s whose underlying graded algebra is the [[Grassmann algebra]] on the vector space $\mathfrak{g}^*$.
+As discussed at [[Chevalley-Eilenberg algebra]], we may identify [[Lie algebra]]s $\mathfrak{g}$ as the duals $CE(\mathfrak{g})$ of [[dg-algebra]]s whose underlying graded algebra is the [[Grassmann algebra]] on the vector space $\mathfrak{g}^*$.
 
 Similarly, a dg-algebra $CE(\mathfrak{h})$ whose underlying algebra is free on a [[graded vector space]] $\mathfrak{h}$ we may understand as exibiting an [[∞-Lie algebra]]-structure on $\mathfrak{h}$.
 
 Then a morphism $\mathfrak{g} \to \mathfrak{h}$ of these $\infty$-Lie algebras is by definition just a morphism $CE(\mathfrak{g}) \leftarrow CE(\mathfrak{h})$ of dg-algebras. Such a morphis may be thought of as a cocycle in [[nonabelian Lie algebra cohomology]] $H(\mathfrak{g}, \mathfrak{h})$.
 
-Specifically, write $b^{n-1} \mathbb{R}$ for the $\infty$-Lie algebra given by the fact that $CE(b^{n-1}\mathbb{R})$ has a single generator in degree $n$ and vanishing differential. Then a morphism 
+Specifically, write $b^{n-1} \mathbb{R}$ for the [[line Lie n-algebra]], the  $\infty$-Lie algebra given by the fact that $CE(b^{n-1}\mathbb{R})$ has a single generator in degree $n$ and vanishing differential. Then a morphism 
 
 
 $$
