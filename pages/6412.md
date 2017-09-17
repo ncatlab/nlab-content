@@ -241,3 +241,10 @@ The development of [[rigid analytic geometry]] starts with
 
 [[!redirects p-adic rational number]]
 [[!redirects p-adic rational numbers]]
+
+[[!redirects ring of p-adic numbers]]
+[[!redirects rings of p-adic numbers]]
+
+[[!redirects ring of p-adic rational numbers]]
+[[!redirects rings of p-adic rational numbers]]
+
