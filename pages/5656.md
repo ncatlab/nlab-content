@@ -25,4 +25,7 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 ## Related concepts
 
-The refinement to [[differential cohomology]] is [[ordinary differential cohomology]].
+* The refinement to [[differential cohomology]] is [[ordinary differential cohomology]].
+
+* [[ordinary homology]]
+
