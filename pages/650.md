@@ -18,13 +18,13 @@
 
 A _$cat^n$-group_ is a strict [[n-fold category]] [[internal category|internal]] to [[Grp]]. 
 
-Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are endomorphisms.
+Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are [[endomorphism]]s.
 
 As with the cases $n=1$ and 2, there is a neat purely group theoretic definition of these objects.
 
 ## Algebraic definition
 
-A _cat$^n$-group_  is a group $G$ together with $2n$ endomorphisms $s_i, t_i, (1 \le i \le n)$ such that 
+A _cat$^n$-group_  is a [[group]] $G$ together with $2n$ [[endomorphism]]s $s_i, t_i, (1 \le i \le n)$ such that 
 
 $$s_i t_i = t_i, and  t_i s_i = s_i  for all  i, $$
 
