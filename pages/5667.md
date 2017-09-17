@@ -629,6 +629,8 @@ $$
 
 =--
 
+For more discussion see at _[[Poincaré duality algebra]]_.
+
 ### Push-forward in KK-theory
  {#UmkehrMap}
 
@@ -643,6 +645,8 @@ $$
 $$
 
 ([Brodzki-Mathai-Rosenberg-Szabo 07, p. 14](#BrodzkiMathaiRosenbergSzabo07))
+
+For more and a discussion of [[twisted Umkehr maps]] see at _[[Poincaré duality algebra]]_ and at _[[Freed-Witten-Kapustin anomaly cancellation]]_.
 
 
 ## Further Theorems
