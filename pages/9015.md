@@ -1,0 +1,34 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal (∞,1)-category]], is **Picard $\infty$-group** is the [[∞-group]] induced on the full sub-[[∞-groupoid]] $PIC(\mathcal{C}, \otimes)$ on the objects that are invertible under the tensor product. 
+
+
+
+
+## Related concepts
+
+* [[Picard group]]
+
+* [[Picard ∞-group]]
+
+[[!redirects Picard 3-groups]]
