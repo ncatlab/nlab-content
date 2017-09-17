@@ -49,6 +49,9 @@ with respect to a suitable [[Haar measure]] $d \mu_{\mathbb{A}_{\mathbb{Q}}^\tim
 
 ([Fesenko 08 0.1](#Fesenko08))
 
+when we start to compute this integral $\int_{A^\times} f(\alpha) |\alpha|^s d\mu_{A^\times}(\alpha)$, see for more detail p. 47-50 (and also p. 51-52 of my remark there) in Goldfeld-Hundley, what we first do is use a filtration on $A^\times$ which we know from class field theory (but no class field theory is used anywhere in this computation): $A^\times> \bbb Q^\times$, so we write $\alpha=xn$ where $x$ runs through representatives of $A^\times/\bbb Q^\times$ and can be chosen as ideles  $x=(x_2,x_3,...x_\infty)$ with non-archimedean coordinates being units in $\bbb Z_p$ and $x_\infty$ a positive real number, and $n$ is a non-zero rational number,  and the computation is reduced to the internal integral  $\int_{Q^\times} f(x n)  dn$. Due to the definition of  $f$,
+we have $xn\in \bbb Z_p$ for all p, and since $x_p\in  \bbb Z_p^\times$ we deduce $n\in \bbb Z_p$ for all p. Since Q intersected with all $\bbb Z_p$ is $\bbb Z$, the last integral is just the series $\sum_{n\in\bbb Z\setminus 0} exp(-\pi n^2 x_\infty^2)$, i.e. $\theta(x_\infty^2)-1$, and the original zeta integral becomes $\int_{\bbb R_{>0}}( \theta(y^2)-1) y^s dy/y$, $y=x_\infty$.  
+
 ### Relation to the Jacobi theta function
  {#RelationToThetaFunctions}
 
