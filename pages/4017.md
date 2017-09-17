@@ -12,3 +12,5 @@
 
 
 category: people
+[[!redirects P. Freyd]]
+[[!redirects P. J. Freyd]]
