@@ -41,6 +41,12 @@ A decent introduction is in sections 4 and 5 of
 
 * Jorge Zanelli, _Lecture notes on Chern-Simons (super-)gravities. Second edition (February 2008)_ ([arXiv](http://arxiv.org/abs/hep-th/0502193))
 
+A detailed account is in section I.4.1 of
+
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+{#CastellaniDAuriaFre}
+
+
 [[!redirects Palatini action]]
 [[!redirects Palatini formulation]]
 [[!redirects Palatini formalism]]
