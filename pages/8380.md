@@ -92,9 +92,13 @@ When monads are defined in Haskell, the Kleisli composition (called 'bind') is d
 
 ## Related concepts
 
-Examples of (co)monads in [[type theory]] appear in 
+Examples of (co)monads in ([[homotopy type theory|homotopy]]) [[type theory]] involve in particular _[[modal operators]]_ as they  appear in 
 
-* [[modal type theory]].
+* [[modal logic]]/[[modal type theory]].
+
+See also
+
+* [[adjoint modality]]
 
 ## References
 
