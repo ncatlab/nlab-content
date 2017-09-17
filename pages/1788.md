@@ -5,85 +5,10 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 
 ***
-
-[[Lawvere-Tierney operator]]
-
-{:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-
-A set of lecture notes on [[differential geometry]] and theoretical [[physics]], combining an introduction to traditional notions with an exposition of their reformulation and refinement by [[higher geometry]] and [[extended prequantum field theory]].
-
-Divided into two parts:
-
-* **Part I) [Geometry](#GEOMETRY)**
-
-* **Part II) [Phsics](#PHYSICS)**
-
-***
-
-
-+-- {: bluebox}
-###### Table ######
-**of chapters**
-
-* [About this text](#AboutThisPage)
-
-* [References](#References)
-
-**Part I) [Geometry](#GEOMETRY)**
-
-1. [Coordinate systems](#CoordinateSystems)
-
-1. [Smooth spaces](#SmoothSpaces)
-
-1. [Differential forms](#DifferentialForms)
-
-1. [Differentiation](#Differentiation)
-
-1. [Smooth homotopy types](#SmoothnGroupoids)
-
-1. [Groups](#NGroups)
-
-1. [Principal bundles](#PrincipalBundles)
-
-1. [Orbifolds](#Orbifolds)
-
-1. [Reduction of structure groups](#ReductionOfStructureGroups)
-
-1. [Representations and Associated bundles](#AssociatedNBundle)
-
-1. [Flat connections](#FlatConnections)
-
-1. [de Rham coefficients](#deRhamCoefficients)
-
-1. [Maurer-Cartan forms](#MaurerCartanForms)
-
-1. [Principal connections](#PrincipalConnections)
-
-1. [Characteristic classes](#CharacteristicClasses)
-
-1. [Integration](#Integration)
-
-1. [Structure sheaves](#StructureSheaves)
-
-1. [Super-geometry](#SupergeometricCoordinateSystems)
-
-**Part II) [Phsics](#PHYSICS)**
-
-1. [Fields](#Fields)
-
-1. [Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)
-
-1. [Equations of motion](#EquationsOfMotion)
-
-1. [Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
-
-1. [Quantum mechanics](#QuantumMechanics)
-
-1. [Geometric quantization](#GeometricQuantization)
-
-=--
-
-
+| closed piece of [[spacetime]] of [[dimension]] $0 \leq k \leq n$ |  [[prequantum field theory]] | [[prequantum n-bundle|prequantum (n-k)-bundle]] | [[geometric quantization]] | [[space of states|space of (n-k)-states]] |
+|--|--|--|--|--|
+| [[closed manifold]] of [[dimension]] $0 \leq k \leq n$ | $\stackrel{local\;prequantum\;field\;theory}{\mapsto}$ | [[circle n-bundle with connection|circle (n-k)-bundle with connection]] on [[moduli stack]] of [[field (physics)|field configurations]] | $\stackrel{polarized\; sections}{\mapsto}$ | [[n-vector space|(n-k)-vector space of states]] | 
+| $\Sigma_k$ | $\mapsto$ | $\exp(2 \pi i \int_{\Sigma_k}[\Sigma_k,\mathbf{L}]) : [\Sigma_k, \mathbf{Fields}] \to \mathbf{B}^{n-k} U(1)_{conn}$ | $\mapsto$ | $Z(\Sigma_{n-k})$ |
 
 
 ***
