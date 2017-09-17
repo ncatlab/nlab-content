@@ -68,7 +68,7 @@ It is modeled by the [[model structure for left fibrations|model structure for r
 
 ## Motivation: ordinary fibrations in groupoids are right Kan fibrations {#GrothGrpdFibsAreRightKanFibs}
 
-Ordinary [[fibration fibered in groupoids|categories fibered in groupoids]] have a simple characterization in terms of their [[nerve]]s. Let $N : Cat \to sSet$ be the [[nerve]] functor and for $p : E \to B$ a morphism in [[Cat]] (a [[functor]]), let $N(p) : N(E) \to B(N)$ be the corresponding morphism in [[sSet]].
+Ordinary [[fibration fibered in groupoids|categories fibered in groupoids]] have a simple characterization in terms of their [[nerve]]s. Let $N : Cat \to sSet$ be the [[nerve]] functor and for $p : E \to B$ a morphism in [[Cat]] (a [[functor]]), let $N(p) : N(E) \to N(B)$ be the corresponding morphism in [[sSet]].
 
 Then
 
