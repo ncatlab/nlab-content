@@ -81,6 +81,8 @@ is the corresponding [[local action functional]].
 
 * traditional [[Lagrangian mechanics]] and [[Hamiltonian mechanics]] are naturally embedding into [[local prequantum field theory]] by the notion of [[prequantized Lagrangian correspondences]]
 
+* [[Lagrangian quantum field theory]]
+
 [[!include Hamiltonian and Lagrangian -- table]]
 
 
