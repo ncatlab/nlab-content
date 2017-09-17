@@ -22,11 +22,18 @@ A *strongly $\infty$-connected site* is a [[site]] satisfying sufficient conditi
 
 ## Definition
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .un_def}
+###### Definition
 
 
-Let $C$ be an [[∞-connected site]]; we say it is a **strongly $\infty$-connected site** if it is also a [[cosifted (∞,1)-category]].
+Let $C$ be a locally and globally [[∞-connected site]]; we say it is a **strongly $\infty$-connected site** if it is also a [[cosifted (∞,1)-category]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+If $C$ is in addition an [[∞-local site]] then it is an [[∞-cohesive site]].
 
 =--
 
@@ -78,9 +85,9 @@ and
 
   * [[totally connected site]] / [[totally ∞-connected site]]
 
-* [[local site]]
+* [[local site]], [[∞-local site]]
 
-* [[cohesive site]], [[(∞,1)-cohesive site]]
+* [[cohesive site]], [[∞-cohesive site]]
 
 
 
