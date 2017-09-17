@@ -1,0 +1,18 @@
+
+
+
+This page collects links related to the text
+
+* [[William Lawvere]], 
+
+  _Adjointness in Foundations_, 
+
+  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+
+
+on [[foundations of mathematics]] in [[categorical logic]] and the role of [[adjoints]] in the formalization of [[quantifiers]].
+
+category: references
+
+[[!redirects Adjointness in foundations]]
+
