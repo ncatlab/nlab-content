@@ -20,7 +20,7 @@ In [[homotopy type theory]], the notion of **h-proposition** (or just a **propos
 h-Propositions are how [[logic]] is embedded into homotopy type theory, via the [[propositions as some types]] / [[bracket types]] approach.
 
 
-h-Propositions are also said to be of **[[h-level]] $1$**.
+h-Propositions are also said to be of **[[h-level]] $1$** or to be **[[mere propositions]]**.
 
 ## Definition
 
