@@ -1,22 +1,19 @@
 ## Idea
 
-The ring of polynomials in $n$ variables has a linear basis $\{s_\lambda]}$ of __Schur functions__ (also called Schur polynomials) indexed by [[partition]]s $|\lambda| \vdash \lambda_1+\ldots +\lambda_n$, $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$. They are precisely the irreducible characters of f.d. representations of $GL_n$. 
-
-+-- {: .query }
-
-JCMcKeown: isn't that supposed to read "*symmetric* polnomials"? That can probably be read as "polynomials in the **elementary** symmetric functions"; but with all the rest, this looks like obfuscation.
-
-=--
+The ring of symmetric polynomials in $n$ variables has a linear basis $\{s_\lambda\}$ of __Schur polynomials__ indexed by [[partition]]s  $\lambda=\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$ in $n$ parts. The Schur polynomials  are precisely the irreducible characters of finite dimensional polynomial representations of $GL_n$. 
 
 ## Definition
 
-Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding __Schur function__ is the $n\times n$-determinant
+Given the partition $\lambda_1\geq \lambda_2\geq \ldots \geq \lambda_n$, the corresponding __Schur function__ is defined as follows. First define the $n\times n$-determinant (for any partition $\alpha$ in $n$ parts)
 $$
-s_\lambda = det (x_i^{\lambda_j})
+a_\alpha = det (x_i^{\alpha_j}).
 $$
-+-- {: .standout}
-This definition is wrong. This is some generalization of the van der Monde determinant, not the Schur function. I'll fix it when I have time. Maarten Bergvelt.
-=--
+Let $\delta=(n-1, n-2, \dots, 1, 0)$. Then the Schur polynomial
+ attached to $\lambda$ is quotient
+$$
+s_{\lambda}=a_{\lambda+\delta}/a_{\delta}.
+$$
+
 ## Generalizations via Schur functors
 
 [[Schur functors]] may be viewed as a categorification of Schur functions. In fact, the Schur functors make sense in more general symmetric monoidal categories than vector spaces. It is a theorem in the case of vector space that the trace of 
