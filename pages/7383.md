@@ -59,7 +59,7 @@ be the symmetrization functor, the [[left adjoint]] to the [[forgetful functor]]
 
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 The BV resolution commutes with symmetrization: if $T = Symm(\bar T)$, then 
 
@@ -74,7 +74,7 @@ Therefore we describe in the following explicitly the BV-resolution of planar tr
 
 
 +-- {: .num_prop #ComponentDescriptionofBVofTrees}
-###### Observation
+###### Proposition
 
 For $T \in \Omega_{planar}$, and $(e_1, \cdots, e_n; e)$ a tuple of colours (edges) of $T$, notice that the set of operations $T(e_1, \cdots, e_n, e)$ is the set of those subtrees $V \subset T$ such that $\{e_1, \cdots, e_n\}$ is the set of leaves and $e$ is the root of $V$.
 
@@ -119,7 +119,7 @@ where $H$ is the given [[interval object]].
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #CompositioninWT}
 ###### Observation
 
 The composition operations in $W(T)$
@@ -162,8 +162,21 @@ The BV-resolution of trees extends to a [[functor]] on the category of [[simplic
 
 $$
   W : \Omega \to sSet Operad
-  \,.
 $$
+
+as follows
+
+* on an inner face map $\delta : \partial^e\Omega[T] \to \Omega[T]$ the component of $W(\delta)$ on a subtree $V$ that contains the edge $e$ is the product of the inclusion
+ 
+  $$
+    i_0 : I \to H
+  $$
+
+  with the identity on $H^{i(V)-\{e\}}$
+
+  (meaning: if the label of an inner edge in a tree is 0, then the operations that it connects may be composed);
+
+* (...)
 
 =--
 
@@ -236,6 +249,7 @@ In particular for $\mathcal{E} = $ [[Top]] / [[sSet]] it reproduces the original
 
 
 ### Dendroidal inner Kan complexes
+ {#DendroidalInnerKanComplexes}
 
 
 +-- {: .num_theorem}
@@ -250,7 +264,8 @@ This is ([Moerdijk-Weiss, theorem 7.1](#MoerdijkWeiss)).
 +-- {: .proof}
 ###### Proof
 
-Consider a tree $T$ and an inner edge $e$ of it. For each morphism $\Lambda^e[T] \to X$ we need to find a filler $\psi$ in
+Consider a tree $T$ and an inner edge $e$ of it. For each morphism 
+$\phi : \Lambda^e[T] \to X$ we need to find a filler $\psi$ in
 
 $$
   \array{
@@ -263,11 +278,13 @@ $$
   \,.
 $$
 
+Write $\Lambda^e[T] = \cup_{i \neq e}\partial^{i \neq e} \Omega[T]$. 
+
 By the definition of dendroidal nerve, this is equivalently a diagram
 
 $$
   \array{
-    \cup_{\partial^{i \neq e} \Omega[T]} W(\partial^i \Omega[T]) &\to& X
+    \cup_{i \neq e } W(\partial^i \Omega[T]) &\to& X
     \\
     \downarrow & \nearrow_{\mathrlap{\hat \psi}}
     \\
@@ -276,7 +293,65 @@ $$
   \,.
 $$
 
-Now (...)
+The undetermined component to fill is that corresponding to the subtree $\tau$ of $T$ which is $T$ itself. According to prop. \ref{ComponentDescriptionofBVofTrees} on this 
+the operad $W(\Omega[T])$ has the component 
+
+$$
+  H^{\otimes i(\tau)} \simeq H^{\otimes i(\tau)- \{e\}}\otimes H
+  \,.
+$$
+
+The map $\hat \psi$ has to send this into $X$ while being compatible with the given faces. By prop. \ref{BVResolutionAsFunctorOnOmega} this means that its precomposition with all the inclusions
+
+$$
+  (id, \cdots, id, i_0, id, \cdots, id) \otimes id
+  : 
+  H \otimes \cdots \otimes H \otimes I \otimes H \otimes \cdots \otimes H \otimes H
+  \to 
+  H^{\otimes i(\tau)- \{e\}}\otimes H
+$$
+
+is fixed. Moreover, the assignment needs to be compatible with the composition operations, which by prop. \ref{CompositioninWT} means that also the precomposition with all the maps 
+
+$$
+  (id, \cdots, id, i_1, id, \cdots, id)
+  : 
+  H \otimes \cdots \otimes H \otimes I \otimes H \otimes \cdots \otimes H
+  \to 
+  H^{\otimes i(\tau)}
+$$
+
+is fixed. In total this means that the components of $\hat \psi$ need to form an extension of the form
+
+$$
+  \array{
+    (\partial H^{\otimes i(\tau)- \{e\}})
+    \otimes H
+    \cup
+    H^{\otimes i(\tau) - \{e\}}\otimes I
+    &\to& X(\tau)
+    \\
+    \downarrow & \nearrow
+    \\
+    H^{\otimes i(\tau)}
+  }
+$$
+
+in $\mathcal{E}$, where 
+
+$$
+  \partial H^n := 
+    (I \coprod I) \otimes H^{n-1}
+    \coprod
+    H (I \coprod I) \otimes H^{n-2}
+    \coprod
+    \cdots
+    \stackrel{(i_0,i_1)\otimes id \coprod \cdots}{\to}
+    H^n
+  \,.
+$$
+
+One sees that the left vertical morphism is an acyclic cofibration, by the [[pushout-product axiom]] in the [[monoidal model category]] $\mathcal{E}$. Therefore by the assumption that $X(\tau)$ is fibrant, such a lift does exist.
 
 =--
 
