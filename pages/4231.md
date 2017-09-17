@@ -1038,21 +1038,7 @@ By prop. \ref{PresheavesAreCompact} we may apply the [[small object argument]] i
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
-
-For all small categories $A$, the category $PSh(A)$ does admit a cellular structure, def. \ref{CellularModel} consisting of morphisms whose codomain is a [[quotient]] of a [[representable functor|representable]]. 
-
-=--
-
-([Cisinski 06, prop. 1.2.27](#Cisinski06)).
-
-+-- {: .proof}
-###### Proof
-
-By prop. \ref{LemmaForGenerationOfMonos}.
-
-=--
+The following lemma will be used to show that cellular structures always exist.
 
 +-- {: .num_lemma #LemmaForGenerationOfMonos}
 ###### Lemma
@@ -1421,6 +1407,12 @@ There exists a set of generating acyclic cofibrations.
 
 ([Cisinski 06, prop.  1.3.42](#Cisinski06)).
 
++-- {: .proof}
+###### Proof
+
+Use lemma \ref{LemmaForGenerationOfMonos} with $C$ the class of acyclic cofibrations and $D = Acc_\alpha(A)$ the set of $\alpha$-accessible presheaves for a sufficiently large cardinal $\alpha$. 
+
+=--
 
 +-- {: .num_cor #FactorizationAcyclicCofibFib}
 ###### Corollary
@@ -1527,7 +1519,7 @@ Further developments are in
 
 * [[Rick Jardine]], _Categorical homotopy theory_ (2003) ([K-theory](http://www.math.uiuc.edu/K-theory/0669/)) 
 
-* [[Marc Olschok]], _On constructions of left determined model structures_ PhD thesis (2009) ([pdf](http://is.muni.cz/th/183259/prif_d/diss.pdf)) 
+* [[Marc Olschok]], _On constructions of left determined model structures_, PhD thesis (2009) ([pdf](http://is.muni.cz/th/183259/prif_d/diss.pdf)) 
 
 See also
 
