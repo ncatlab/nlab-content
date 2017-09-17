@@ -29,6 +29,22 @@ $$
 
 This is often written as $ad(g)(x) = g^{-1} x g$ even though for a general Lie group the expression on the right is not the product of three factors in any way.  But for a [[matrix Lie group]] $G$ it is: in this case both $g$ as well as $x$ are canonically identified with [[matrices]] and the expression on the right is the product of these matrices.
 
+### Of a Lie algebra on itself
+
+Differentiating the above example also in the second argument, yields the adjoint action of a Lie algebra on itself
+
+$$
+  ad : \mathfrak{g} \times \mathfrak{g} \to \mathfrak{g}
+$$
+
+which is simply the Lie bracket
+
+$$
+  ad_x : y \mapsto [x,y]
+  \,.
+$$
+
+
 ### Of a Hopf algebra on itself
 
 Let $k$ be a commutative unital ring and $H = (H,m,\eta,\Delta,\epsilon, S)$ be a [[Hopf algebra|Hopf]] $k$-algebra with multiplication $m$, unit map $\eta$, comultiplication $\Delta$, counit $\epsilon$ and the antipode map $S: H\to H^{op}$. We can use [[Sweedler notation]] $\Delta(h) = \sum h_{(1)}\otimes_k h_{(2)}$. The adjoint action of $H$ on $H$ is given by
