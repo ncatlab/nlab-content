@@ -84,25 +84,27 @@ $$
 
 This appears as ([[Higher Algebra|Higher Algebra, def. 1.2.2.9]]).
 
-We will take the view that the object being filtered is the [[homotopy limit]]
+We may take the view that the object being filtered by this sequence is the [[homotopy limit]]
 
 $$
   X \coloneqq \underset{\leftarrow}{\lim}_n X_n.
 $$
 
-We could also consider the sequential diagram as a filtering of its [[homotopy colimit]], but this is really an equivalent point of view since we can replace $\mathcal{C}$ by $\mathcal{C}^{op}$.
+Alternatively, we could also consider the sequential diagram as a filtering of its [[homotopy colimit]].
+
+These two points of view are equivalent under replacing $\mathcal{C}$ by its [[opposite category]] $\mathcal{C}^{op}$.
 
 
 +-- {: .num_defn #ChainComplexInStableInfinityCategory}
 ###### Definition
 
-Let $I$ be a [[linearly ordered set]]. An $I$-chain complex in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
+Let $I$ be a [[linearly ordered set]]. An _$I$-chain complex_ in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
 
 $$
-  F \;\colon\; I \times I \longrightarrow \mathcal{C}
+  F \;\colon\; I^{\Delta{1]} \longrightarrow \mathcal{C}
 $$
 
-such that 
+from the subposet of $I \times I$ on pairs of elements $i \leq j$, such that 
 
 1. for each $n \in I$, $F(n,n) \simeq 0$ is the [[zero object]];
 
@@ -119,6 +121,14 @@ such that
    $$
 
    is a [[homotopy pushout]] square (hence equivalently, by [[stable (infinity,1)-category|stability]], a [[homotopy pullback]]).
+
+Write
+
+$$
+  Gap(I,\mathcal{C}) \hookrightarrow Func(I^{\Delta[1]}, \mathcal{C})
+$$
+
+for the [[full sub-(∞,1)-category]] of diagrams satisfying these conditions.
 
 =--
 
@@ -155,7 +165,7 @@ $$
   C_\bullet
 
   \;\colon\;
-  (\mathbb{Z}, \leq)
+  (\mathbb{Z}, \leq)^{op}
     \longrightarrow
   Ho(\mathcal{C})
 $$
@@ -275,6 +285,34 @@ Consider the inclusion of [[posets]]
 $$
   (\mathbb{Z}, \leq)
   \to 
+  (\mathbb{Z}\cup \{-\infty\}, \leq) \times (\mathbb{Z}\cup \{-\infty\}, \leq)
+$$
+
+given by
+
+$$
+  n \mapsto (-\infty, n)
+  \,.
+
+$$
+
+The induced [[(∞,1)-functor]]
+
+$$
+  Func((\mathbb{Z}\cup \{-\infty\}, \leq) \times (\mathbb{Z}\cup \{-\infty\}, \leq), \mathcal{C})
+  \longrightarrow
+  Func((\mathbb{Z}, \leq), \mathcal{C})
+$$
+
+restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (∞,1)-category $Gap(\mathbb{Z},\mathcal{C})$ of $\mathbb{Z}\cup \{\infty\}$-chain complexes in $\mathcal{C}$ (def. \ref{ChainComplexInStableInfinityCategory}) and that of generalized filtered objects in $\mathcal{C}$ (def. \ref{GeneralizedFilteredObject}).
+
+Dually:
+
+Consider the inclusion of [[posets]]
+
+$$
+  (\mathbb{Z}, \leq)
+  \to 
   (\mathbb{Z}\cup \{\infty\}, \leq) \times (\mathbb{Z}\cup \{\infty\}, \leq)
 $$
 
@@ -299,9 +337,24 @@ restricts to an [[equivalence of (∞,1)-categories|equivalence]] between the (�
 
 =--
 
-This is [[Higher Algebra|Higher Algebra, lemma 1.2.2.4]]. The inverse functor can be described informally as follows: given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by
+This is [[Higher Algebra|Higher Algebra, lemma 1.2.2.4]]. 
+
++-- {: .num_remark}
+###### Remark
+
+The inverse functor can be described informally as follows: 
+
+given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by
+
+$$ X(n, n+r) = \operatorname{cofib}(X_n\to X_{n+r}). $$
+
+Dually:
+
+given a filtered object $X_\bullet$, the associated chain complex $X(\bullet,\bullet)$ is given by
 
 $$ X(n, n+r) = \operatorname{fib}(X_n\to X_{n+r}). $$
+
+=--
 
 
 ### The spectral sequence
@@ -367,7 +420,7 @@ $$
   \,.
 $$
 
-Define then for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E^r_{p,q}$ by the canonical [epic-monic factorization](http://ncatlab.org/nlab/show/abelian+category#FactorizationOfMorphisms)
+Define then for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object $E^r_{p,q}$ by the canonical [epi-mono factorization](http://ncatlab.org/nlab/show/abelian+category#FactorizationOfMorphisms)
 
 $$
     \pi_{p} X(q-r+1,q+1)
