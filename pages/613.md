@@ -8,7 +8,7 @@ The [[higher category theory|higher categorical]] version of the [[fundamental g
 
 The fundamental $\infty$-groupoid of a topological space $X$ is supposed to be the [[infinity-groupoid]] whose $k$-morphisms are $k$-dimensional paths in $X$. Concrete realizations depend on the model of [[infinity-category]] or [[omega-category]] chosen:
 
-* In the context of $\infty$-groupoids modeled as [[Kan complex]]es, the fundamental $\infty$-groupoid is simply the [[simplicial set]] familiar as the _singlular simplicial complex_ $S(X)$ of a space, where $S(X)^n = Top(\Delta^n, X)$
+* In the context of $\infty$-groupoids modeled as [[Kan complex]]es, the fundamental $\infty$-groupoid is simply the [[simplicial set]] familiar as the _singular simplicial complex_ $S(X)$ of a space, where $S(X)^n = Top(\Delta^n, X)$
 with $\Delta^n$ denoting the standard topological $n$-[[simplex]] (familiar from [[geometric realization]]).
 
 
