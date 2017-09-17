@@ -224,7 +224,7 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 * [[super vector bundle]] 
 
-* [[super Riemann surface]]
+* [[complex supermanifold]], [[super Riemann surface]]
 
 * [[superconnection]]
 
