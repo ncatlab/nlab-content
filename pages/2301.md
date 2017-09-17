@@ -29,7 +29,7 @@ $$
 $$
 
 $$
-  A \mapsto Hom_{CRing}(Spec A, X)
+  A \mapsto Hom_{Scheme}(Spec A, X)
 $$
 
 and this is a [[sheaf]] with respect to Zariski [[Grothendieck topology]] on $Aff$. Sheaves in any other fixed *subcanonical* topology $\tau$ on $Aff$ are called $\tau$-locally affine spaces. The usual schemes are obtained for $\tau=Zariski$ and $Loc=Aff$. Algebraic spaces are another example. In other fields like analytic spaces, sheaves on other categories of local models $Loc$ instead of $Aff$ are considered in classical works.
