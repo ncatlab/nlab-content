@@ -15,6 +15,8 @@
 
 * [[0-topos]]: [[Heyting algebra]], [[locale]]
 
+* [[pretopos]]
+
 * [[topos]]
 
   * [[Grothendieck topos]]
@@ -42,6 +44,8 @@
   * [[internal logic]]
 
     * [[type theory]]
+
+* [[quasitopos]]
 
 ## Topos morphisms
 
