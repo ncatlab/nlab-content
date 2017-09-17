@@ -1,7 +1,7 @@
+
 # Totally bounded spaces
 * tic
 {: toc}
-
 
 ## Idea
 
@@ -72,9 +72,22 @@ A Cauchy space $X$ is __precompact__ if its [[complete space|completion]] $\over
 
 It is immediate that a Cauchy space is compact if and only if it is both complete and precompact.
 
-Every precompact uniform space is totally bounded; using Definition \ref{slick}, this may be proved by checking that any uniform cover of $X$ generates a uniform cover of $\overline{X}$.  The converse, that every totally bounded space is precompact, is equivalent to the [[ultrafilter principle]].  Of course, many totally bounded spaces may be proved precompact on weaker assumptions; in particular, that a bounded subset of a cartesian space is precompact is equivalent to the [[fan theorem]] (and so also follows from the principle of [[excluded middle]]).
+Every precompact uniform space is totally bounded; using Definition \ref{slick}, this may be proved by checking that any uniform cover of $X$ generates a uniform cover of $\overline{X}$.  The converse, that every totally bounded space is precompact, is equivalent to the [[ultrafilter principle]].  Of course, many totally bounded spaces may be proved precompact on weaker assumptions; in particular, that a bounded subset of a cartesian space is precompact is equivalent to the [[fan theorem]] (and so also follows from the principle of [[excluded middle]]), a fact related to the [[Heine–Borel theorem]].
 
 
 ## References
 
 *  _[[HAF]]_, Sections 19.14--20
+
+
+[[!redirects totally bounded space]]
+[[!redirects totally bounded spaces]]
+[[!redirects totally bounded metric space]]
+[[!redirects totally bounded metric spaces]]
+[[!redirects totally bounded uniform space]]
+[[!redirects totally bounded uniform spaces]]
+
+[[!redirects precompact space]]
+[[!redirects precompact spaces]]
+[[!redirects pre-compact space]]
+[[!redirects pre-compact spaces]]
