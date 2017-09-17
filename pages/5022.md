@@ -4,9 +4,9 @@
 {:toc}
 
 ## Frames in Modal Logics ## 
-(The term **frame** is used in a different sense in [[modal logic]] than in [[geometric logic]] where it stands for an abstraction of the algebraic structure corresponding to the [[lattice]] of [[open sets]] of a [[topological space]].)
+(The term **frame** is used in a different sense in [[modal logic]] than in [[geometric logic]] where it stands for an abstraction of the algebraic structure corresponding to the [[lattice]] of [[open sets]] of a [[topological space]]; see [[frame]].)
 
-We will start with the simplest case, namely a frame for the basic [[modal logic|modal language]]#modal language $\mathcal{L}_\omega(1)$, (so with _one_ _binary_ modal operator, denoted $\Diamond$).
+We will start with the simplest case, namely a frame for the basic [modal language](/nlab/show/modal+logic#modal+language), $\mathcal{L}_\omega(1)$, (so with _one_ _binary_ modal operator, denoted $\Diamond$).
 
 +--{: .un_defn}
 ######Definition ######
@@ -25,9 +25,9 @@ A _model_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{M} = (\mathfrak{F},V)
 =--
 
 ###Gloss###
-Informally we think of $V(p)$ as the set of 'worlds' in our model where $p$ is true.
+1. Informally we think of $V(p)$ as the set of 'worlds' in our model where $p$ is true.
 
-Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
+1. Frames are 'mathematical pictures' of ontologies that are found interesting (for the context), whilst a model 'puts some flesh on' the frame by adding contingent information.
 
 ##Satisfaction##
 +--{: .un_defn}
@@ -44,6 +44,14 @@ Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively
 
 * $\mathfrak{M},w \models \Diamond \phi$ if and only if, for some $v \in W$ such that $ R w v$, $\mathfrak{M},v \models \phi$.
 =--
+
+###Notes###
+1. $\mathfrak{M},w \models \square \phi$ if and only if $\forall v\in W$ $ R w n$ implies $\mathfrak{M},v \models  \phi$. (The proof is fairly routine manipulation of negations.)
+
+
+1. We say a set $\Sigma$ of formulae is true at state $w\in W$ of a model $\mathfrak{M}$, written $\mathfrak{M},w \models \Sigma$, if all members of $\Sigma$ are satisfied as $w$.
+
+1. It is convenient to extend the valuation $V$ to arbitrary formulae by setting $V(\phi) := \{w \mid \mathfrak{M},w \models \phi\}$.
 ## References## 
 
 Generally this entry is based on
