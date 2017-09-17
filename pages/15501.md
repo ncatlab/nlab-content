@@ -1,3 +1,3 @@
-Conditions Sunny D
- <a href="http://www.dltc.co.uk/christianlouboutinddiscount.asp?discount=christian-louboutin-mary-janes-c-4/" >Christian Louboutin Slingback</a>
-[url=http://www.dltc.co.uk/christianlouboutinddiscount.asp?discount=christian-louboutin-mary-janes-c-4/]Christian Louboutin Slingback[/url]
+Steven Pinker The New Republic 6 August 2013The triumph of scientific values, the disarray of the humanities. "The worldview that guides the moral and spiritual values of an educated person today is given by science. Though scientific facts do not by themselves dictate values, they hem in the possibilities. The facts of science,Michael Kors, by exposing the absence of purpose in the laws governing the universe, force us to take responsibility for the welfare of ourselves, our species,Michael Kors Outlet, and our planet."
+ <a href="http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=rb4105-27" >RB4105</a>
+[url=http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=rb4105-27]RB4105[/url]
