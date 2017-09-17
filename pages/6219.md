@@ -34,7 +34,7 @@ If the characteristic of the ground field is zero then the tangent [[Lie algebra
 
 ## Example
 
-The main example is $G = GL(n)$ or $G = SL(n)$ where a corresponding Borel subgroup can be taken to be the sbgroup $B^+$ of the upper [[triangular matrices]] in $G$ and $B^-$, the subgroup of the lower triangular matrices. 
+The main example is $G = GL(n)$ or $G = SL(n)$ where a corresponding Borel subgroup can be taken to be the subgroup $B^+$ of the upper [[triangular matrices]] in $G$ and $B^-$, the subgroup of the lower triangular matrices. 
 
 These two subgroups are said to be mutually opposite in the sense that their intersection $B^+\cap B^-$ is precisely the maximal torus, which is in this case the subgroup of the diagonal matrices. If $G = SL(n)$ the quotient homogeneous spaces $SL(n)/B$ is called the [[flag variety]] and for a general semisimple Lie group $G$, $G/B$ is called a generalized flag
 variety. 
