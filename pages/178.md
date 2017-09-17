@@ -168,44 +168,7 @@ is a [[locally contractible (∞,1)-topos]] and one can explicitly construct mod
 
 
 
-## Strict smooth $\infty$-groupoids
-
-
-Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in sub-$(\infty,1)$-categories of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoid.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
-
-One well-known such notion is given by the [[Dold-Kan correspondence]]. This identifies [[chain complex]]es of [[abelian group]]s with strict and strictly [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] $\infty$-groupoids.
-
-Dropping the condition on symmetric monoidalness we obtain a more general such inclusion, a kind of non-abelian Dold-Kan correspondence: 
-
-the identification of [[crossed complex]]es of groupoids as precisely the [[strict omega-groupoid|strict ∞-groupoid]]s. This has been studied in particular in [[nonabelian algebraic topology]].
-
-So we have a sequence of inclusions
-
-$$
-  sAb
-  \simeq
-  Ch_\bullet(Ab)^+
-  \hookrightarrow
-  CrsdCplx
-  \simeq Str \omega Grpd
-  \stackrel{N}{\hookrightarrow}
-  KanCplx
-  \simeq
-  \infty Grpd
-$$
-
-of strict $\infty$-groupoids into all $\infty$-groupoids.
-
-Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at some point through the above inclusion are the following.
-
-* **restriction to abelian sheaf cohomology** -- Using the fact that the objects of $Sh_{(\infty,1)}(CartSp)$ are modeled by [[simplicial presheaves]] symmetric monoidal $\infty$-Lie groupoids are identified under the [[nLab:Dold-Kan correspondence]] with $\mathbb{N}$-graded [[nLab:chain complex|chain complexes]] of sheaves. To these the rich set of tools for [[abelian sheaf cohomology]] apply. 
-
-* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]]. This is described at 
-
-  * [[Verity on descent for strict omega-groupoid valued presheaves]].   
-
-
-## The $(\infty,1)$-topos on $CartSp$ {#InfSheavesOnCartSp}
+## The $(\infty,1)$-topos on $CartSp$ of $\infty$-Lie groupoids {#InfSheavesOnCartSp}
 
 We discuss in more detail some properties of the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ of [[(∞,1)-sheaves]] on [[CartSp]].
 
@@ -266,7 +229,59 @@ More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally
 
 =--
 
+## Strict smooth $\infty$-groupoids
 
+
+Many $\infty$-Lie groupoids appearing in practice are (equivalent) to objects in sub-$(\infty,1)$-categories of $Sh_{(\infty,1)}(CartSp)$ of much stricter $\infty$-Lie groupoids. These subcategories typically offer convenient and desireable contexts for formulating and proving statements about special cases of general $\infty$-Lie groupoid.  Therefore it is of interest to have various notions of _strict_ $\infty$-Lie groupoids inside all of them.
+
+One well-known such notion is given by the [[Dold-Kan correspondence]]. This identifies [[chain complex]]es of [[abelian group]]s with strict and strictly [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] $\infty$-groupoids.
+
+Dropping the condition on symmetric monoidalness we obtain a more general such inclusion, a kind of non-abelian Dold-Kan correspondence: 
+
+the identification of [[crossed complex]]es of groupoids as precisely the [[strict omega-groupoid|strict ∞-groupoid]]s. This has been studied in particular in [[nonabelian algebraic topology]].
+
+So we have a sequence of inclusions
+
+$$
+  sAb
+  \simeq
+  Ch_\bullet(Ab)^+
+  \hookrightarrow
+  CrsdCplx
+  \simeq Str \omega Grpd
+  \stackrel{N}{\hookrightarrow}
+  KanCplx
+  \simeq
+  \infty Grpd
+$$
+
+of strict $\infty$-groupoids into all $\infty$-groupoids.
+
+Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at some point through the above inclusion are the following.
+
+* **restriction to abelian sheaf cohomology** -- Using the fact that the objects of $Sh_{(\infty,1)}(CartSp)$ are modeled by [[simplicial presheaves]] symmetric monoidal $\infty$-Lie groupoids are identified under the [[nLab:Dold-Kan correspondence]] with $\mathbb{N}$-graded [[nLab:chain complex|chain complexes]] of sheaves. To these the rich set of tools for [[abelian sheaf cohomology]] apply. 
+
+* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[nLab:Ross Street|Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]]. This is described at 
+
+  * [[Verity on descent for strict omega-groupoid valued presheaves]].   
+
+
+
+
+### $\infty$-Lie grouopoid cohomology
+
+As every [[(∞,1)-topos]], $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$ comes with its [[cohomology|intrinsic cohomology]].
+
+Let $G$ be an ordinary [[Lie group]], regarded as a group object in $\mathbf{H}$ and $\mathbf{B}G \in \mathbf{H}$ its smooth [[delooping]] groupoid. Then we can define cohomology on $G$ with coefficients in $U(1)$ or some other abelian Lie group $A$ by
+
+$$
+  H^n(G,A) := \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n A)
+  \,.
+$$
+
+The claim is that this reproduces the refined Lie group cohomology of Segal-Brylinski. 
+
+Details are currently still at [[group cohomology]]. 
 
 ## References
 
