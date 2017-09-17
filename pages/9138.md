@@ -67,13 +67,8 @@ Hence these functors are a [[Frobenius functor|frobenius pair]].
 
 ## Examples
 
+
 * [[effect algebra of predicates]]
-
-* [[nLab:coalgebra of the real interval]]
-
-See also the examples at
-
-* some of the examples at [[nLab:coalgebra for an endofunctor]]
 
 
 ## Reference
