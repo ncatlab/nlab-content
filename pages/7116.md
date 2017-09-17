@@ -1,7 +1,114 @@
 
+#Contents#
+* table of contents
+{:toc}
 
-An **absolute value** is a non-trivial multiplicative [[seminorm]].
+## Definition
 
-(...)
+For $k$ a [[field]] or [[integral domain]], an **absolute value** (or _[[valuation]]_ ) on $k$ is a non-trivial multiplicative [[seminorm]].
+
+This means it is a [[function]] 
+
+$$
+  {\vert - \vert} : k \to \mathbb{R}
+$$ 
+
+to the [[real numbers]] such that for all $x, y \in k$
+
+1. ${\vert x \vert} \geq 0$;
+
+1. ${\vert x \vert} = 0$ precisely if $x = 0$;
+
+1. ${\vert x \cdot y\vert} = {\vert x \vert} {\vert y \vert}$;
+
+1. ${\vert x + y\vert} \leq {\vert x \vert} + {\vert y \vert}$ ([[triangle identity]]).
+
+
+If the last condition is strengthened to
+
+* ${\vert x + y\vert} \leq max({\vert x \vert}, {\vert y \vert})$
+
+then ${\vert -\vert}$ is called an [[ultrametric]] or **non-archimedean** absolute value. Otherwise it is called **archimeadean**.
+
+Two absolute values ${\vert - \vert}_1$ and ${\vert - \vert}_1$ are called _equivalent_ if for all $x \in k$
+
+$$
+  ({\vert x \vert}_1 \lt 1)
+   \Leftrightarrow
+  ({\vert x \vert}_2 \lt 1)
+  \,.
+$$  
+
+An [[equivalence class]] of absolute values is also called a **[[place]]**. 
+
+A [[field]] equipped with an absolute value which is a [[complete metric space]] with respect to the corresponding [[metric]] is called a [[complete field]].
+
+## Examples
+
+### Trivial absolute value
+
+Every field admits the trivial absolute value ${\vert- \vert}_0$ defined by
+
+$$
+  {\vert x \vert}_0 = 
+  \left\{
+    \array{
+       0 & if x = 0
+       \\
+       1 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+This is non-archimedean.
+
+### On the real and complex numbers
+ {#OnTheRealAndComplexNumbers}
+
+The standard absolute value ${\vert -\vert}_\infty$ on the [[real numbers]] is
+
+$$
+  {\vert x \vert}_{\infty} = 
+  \left\{
+    \array{
+       x & if x \geq 0
+       \\  
+       - x & otherwise
+    }
+  \right.
+  \,.
+$$
+
+The standard absolute value on the [[complex numbers]] is the absolute value of the real part.
+
+With respect to these standard absolute values, both $\mathbb{R}$ and $\mathbb{C}$ are [[complete field|complete]] [[archimedean fields]].
+
+### On the rational numbers
+
+The standard absolute value [above](#OnTheRealAndComplexNumbers) restricts to the standard absolute value on the [[rational numbers]]
+
+$$
+  {\vert -\vert}_\infty : \mathbb{Q} \to \mathbb{R}
+  \,.
+$$
+
+Moreover, for any [[prime number]] $p$ there is a (class of an) absolute value ${\vert -\vert}_p$ on $\mathbb{Q}$ defined by
+
+$$
+  {\vert \frac{k}{l} p^n\vert}_p
+  = 
+  \epsilon^n
+$$
+
+for any $0 \lt \epsilon \lt 1$ and where $\frac{k}{l}p^n$ is the unique such decomposition of a given rational number with $k, l \in \matrhbb{Z}$ not divisible by $p$.
+
+This is called the **$p$-adic** absolute value. It is non-archimedean. The [[complete field|completion]] $\mathbb{Q}_p$ of $\mathbb{Q}$ by this is called the field of [[p-adic numbers]], which is therefore a [[non-archimedean field]].
+
+[[Ostrowski's theorem]] says that this exhaust the non-trivial absolute values on the [[rational numbers]]. Therefore the [[real numbers]] and the [[p-adic numbers]] are the only possible completions of $\mathbb{Q}$.
+
+### On Laurent power series
+
+The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete field]] with respect to the absolute value that sends a series to $\epsilon^n$ for a fixed $0 \lt \epsilon \lt 1$ and with $n$ the lowest integer such that the $n$th coefficient of the series is not 0.
 
 [[!redirects absolute values]]
