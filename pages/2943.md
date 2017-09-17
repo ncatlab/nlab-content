@@ -25,11 +25,24 @@ One special case of hierarchial reduction is the limit of large volumes $V$, in 
 
 One of the basic characteristics of a thermodynamical system is its [[temperature]], which has no analogue in fundamental non-statistical physics. Other common thermodynamical variables include pressure, volume, [[entropy]], enthalpy etc. 
 
-## Related concepts
+## Generalizations 
 
-* [[entropy]], [[relative entropy]]
+Some formal generalizations of thermodynamical formalism include mixing time and temperature in formalisms with complex time-temperature like Matsubara formalism in QFT. 
 
-* [[second law of thermodynamics]], [[generalized second law of thermodynamics|generalized second law]]
+Mathematical analogies and generalizations include also 
 
+* [[John Baez]], Mike Stay, _Algorithmic thermodynamics_, [pdf](http://math.ucr.edu/home/baez/thermo.pdf), [cafe](http://golem.ph.utexas.edu/category/2010/02/algorithmic_thermodynamics.html)
+* [[M. Marcolli]], R. Thomgren, _Thermodynamical semirings_, [arXiv:
+1108.2874](http://arxiv.org/1108.2874)
+* M. Zinsmeister, _Thermodynamic formalism and holomorphic dynam-
+ical systems_, Amer. Math. Soc. 2000.
+* I. Itenberg, G. Mikhalkin, Geometry in the tropical limit, [arXiv:
+1108.3111](http://arxiv.org/1108.3111)
+
+## Literature and links
+
+* $n$Lab: [[entropy]], [[relative entropy]], [[second law of thermodynamics]], [[generalized second law of thermodynamics|generalized second law]], [[KMS state]]
+* wikipedia: [thermodynamics](http://en.wikipedia.org/wiki/Thermodynamics), [fundamental thermodynamic relation](http://en.wikipedia.org/wiki/Fundamental_thermodynamic_relation)
+* Azimuth Project: [Thermodynamics](http://www.azimuthproject.org/azimuth/show/Thermodynamics)
 [[!redirects statistical mechanics]]
 [[!redirects statistical physics]]
