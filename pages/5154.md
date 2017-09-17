@@ -245,6 +245,38 @@ This is a classical statement. See [[A-∞ algebra]] for background and referenc
 
 =--
 
+### Homotopy coherent diagrams {#HomotopyCoherentDiagrams}
+
+Let $C$ be a small $\mathcal{E}$-[[enriched category]] with set of objects $Obj(C)$. There is an operad $Diag_{C}$
+
+
+$$
+  Diag_C(c_1, \cdots, c_n;c) = 
+  \left\{
+    \array{
+      C(c_1, c) & if n = 1
+      \\
+      \emptyset & otherwise
+    }
+  \right.
+$$
+
+whose algebras are [[enriched functor]]s
+
+$$
+  F : C \to \mathcal{E}
+  \,,
+$$
+
+hence [[diagram]]s in $\mathcal{E}$. Then the [[Boardman-Vogt resolution]]
+
+$$
+  HoCoDiag_C := W(H,Diag_C)
+$$
+
+is the operad for [[homotopy coherent diagram]]s over $C$ in $\mathcal{E}$.
+
+The rectification theorem above now says that every homotopy coherent diagram is equivalent to an ordinary $\mathcal{E}$-diagram. For $\mathcal{E} = $ [[Top]] this is known as [[Vogt's theorem]].
 
 
 ## Related concepts
