@@ -51,3 +51,6 @@ This makes me think that we should define $p$ to be externally decidable iff $p$
 
 [[!redirects decidable proposition]]
 [[!redirects decidable propositions]]
+
+[[!redirects undecidable proposition]]
+[[!redirects undecidable propositions]]
