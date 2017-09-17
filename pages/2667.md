@@ -373,7 +373,9 @@ V(r) & \underset{V(1_r)}{\to} & V(r) & &
 With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transformations. A **modification** $x: \phi \to \psi$ is a rule which associates to each 0-cell $s$ of $S$ a 2-cell $x(s): \phi(s) \to \psi(t)$ of $C$, such that the following compatibility condition holds:
 =-- 
 
++-- {: style="text-align:center"}
 [[tincan.png:pic]]
++-- {: style="text-align:center"}
 
 We now propose our conceptual definition of Schur functor:
 
