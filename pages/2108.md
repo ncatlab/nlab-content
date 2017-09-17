@@ -21,15 +21,24 @@
 
 ## Idea
 
-_Geometric quantization_ is the approach of Kirillov ("orbit method"), Kostant and Souriau for attaching a [[Hilbert space]] to a [[symplectic manifold]] with a [[line bundle]] with [[connection]], provided the symplectic manifold satisfies certain quantization conditions.
+With a [[symplectic manifold]] regarded as a [[classical mechanical system]], _geometric quantization_ is one formalization of the notion of [[quantization]] of this to a [[quantum mechanical system]].
 
-It can be interpreted as a procedure of [[quantization]] that sends a classical system defined by the [[symplectic geometry]] $(P,\omega)$ of its [[phase space]] $P$ equipped with a Hamiltonian vector field to a [[Hilbert space]] of states on which a [[Hamiltonian operator]] acts, whose flow describes the [[quantum field theory|quantum dynamics]] of the physical system in question. Geometric quantization is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
+The idea is to 
 
-The basic idea is to let the quantum Hilbert space of states be _half_ the space of [[section]]s of a [[vector bundle|line bundle]] [[connection on a bundle|with connection]] whose curvature $2$-form coincides with the symplectic form $\omega$.
+1. realize the [[symplectic form]] as the [[curvature]] of a $U(1)$-[[principal bundle]] with [[connection on a bundle|connection]] (which requires the form to have integral [[period]]s);
 
-In a long term project [[Alan Weinstein]] and many of his students have followed the idea that the true story behind this prescription crucially involves [[Lie groupoid]]s.
+1. choose a [[polarization]] -- a splitting of the abstract [[phase space]] into "coordinates" and "momenta";
 
-This idea has been developed quite far. A good reference is ([Hawkins06]{#Hawkins})
+and then form
+
+1. a [[Hilbert space]] of [[state]]s as the space of [[section]]s of the associated [[line bundle]] which depend only on the "coordinates" (not on the "momenta");
+
+1. associate with every function on the symplectic manifold -- every [[Hamiltonian]] -- an [[operator]] on this Hilbert space.
+
+
+The approach is due to Kirillov ("orbit method"), Kostant and Souriau. It is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
+
+In a long term project [[Alan Weinstein]] and many of his students have followed the idea that the true story behind this prescription crucially involves [[symplectic Lie groupoid]]s: [[higher symplectic geometry]]. See [[geometric quantization of symplectic groupoids]] for more on this.
 
 
 ## Overview 
@@ -117,9 +126,6 @@ Here are some definitions of important terms. Unfortunately they are defined usi
 
 >The only way to learn the rules of this Game of games is to take the usual prescribed course, which requires many years, and none of the initiates could ever possibly have any interest in making these rules easier to learn. --- Hermann Hesse, The Glass Bead Game
 
-## of Poisson manifolds 
-
-One can also consider the theory of geometric quantization of just [[Poisson manifold]]s. This is done in terms of [[symplectic groupoid]]s.
 
 ## Related concepts
 
@@ -129,7 +135,7 @@ One can also consider the theory of geometric quantization of just [[Poisson man
 
   * [[deformation quantization]]
 
-  * **geometric quantization**
+  * **geometric quantization**, [[geometric quantization of symplectic groupoids]]
 
   * [[path integral]]
 
@@ -143,17 +149,8 @@ The above "Overview" and "Basic Jargon" sections are taken from
 
 * [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
 
-References on the [[symplectic Lie groupoid]]-approach to geometric quantization are
+References on [[geometric quantization of symplectic groupoids]] are
 
 * Eli Hawkins, _A Groupoid Approach to Quantization_ ([arXiv](http://arxiv.org/abs/math.SG/0612363))
  {#Hawkins}
-
-Blog discussion of this is at
-
-* [Eli Hawkins on Geometric Quantization, I](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant.html)
-
-* [Eli Hawkins on Geometric Quantization, II](http://golem.ph.utexas.edu/category/2008/06/eli_hawkins_on_geometric_quant_1.html)
-
-* [Landsman on Quantization of Poisson Algebras Associated to Lie Algebroids](http://golem.ph.utexas.edu/category/2008/06/landsmanon_quantization_of_poi.html)
-
 
