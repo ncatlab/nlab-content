@@ -61,7 +61,7 @@ For more details see
 ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it: 
 
 
-* [[William Lawvere]], R. Rosebrugh, _Sets for mathematics_ , ([web][(http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
+* [[William Lawvere]], R. Rosebrugh, _Sets for mathematics_ , ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 {#LawvereRosebrugh}
 
 
