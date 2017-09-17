@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 # Big sites
 * table of contents
 {: toc}
@@ -9,7 +20,11 @@ Let $C$ be a category with a [[pretopology]] $J$ (i.e. a [[site]]) and let $a$ b
 
 In the special case that $C$ is some category of spaces with a terminal object $t$, then sheaves on the big site of $t$ form a [[gros topos]]. Hence the category of sheaves on the big site of $a$ generalize this idea.
 
-See also [[small site]].
+## Related concepts
+
+* [[small site]];
+
+* **big site**
 
 
 [[!redirects big site]]
