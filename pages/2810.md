@@ -178,7 +178,7 @@ This is discussed and realized in section 1.2. of ([Lurie](#Lurie)). The tensor 
 
 For an $E_k$-operad in a [[category of chain complexes]], its [[homology]] is the [[Poisson operad]] $P_{k}$.
 
-See for instance [Costello](#Costello)
+See for instance ([Costello](#Costello)) and see at _[[Poisson n-algebra]]_.
 
 ## Examples
 
@@ -260,6 +260,8 @@ For the relation to Poisson Operads see
 [[!redirects E-n operad]]
 [[!redirects E-k-operad]]
 [[!redirects E-n-operad]]
+
+[[!redirects En operad]]
 
 
 [[!redirects E-k operad]]
