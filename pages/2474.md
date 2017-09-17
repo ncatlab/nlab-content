@@ -24,7 +24,7 @@ $$ {\|{A^* A}\|} = {\|{A^*}\|} {\|{A}\|} $$
 or equivalently the $B^*$-identity
 $$ {\|{A^* A}\|} = {\|{A}\|^2} .$$
 
-There are different concepts for the [[tensor product]] of $C^*-algebras$, see for example [[spatial tensor product]].
+There are different concepts for the [[tensor product]] of $C^*$-algebras, see for example [[spatial tensor product]].
 
 
 ### Concrete $C^*$-algebras
