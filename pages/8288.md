@@ -1527,7 +1527,9 @@ $Ext^1(G,A) \simeq H^2_{Grp}(G,A)$. By the discussion at _[[group extension]]_ i
 ### Cohomology of cyclic groups 
  {#CohomologyOfCyclicGroups}
 
-Let $G = C_k$ be a [[cyclic group]] of finite [[order]] $k$, with generator $g$. Define special elements in the [[group algebra]] $\mathbb{Z}G$: 
+Let $G = C_k$ be a [[cyclic group]] of finite [[order]] $k$, with generator $g$. We discuss the [[group cohomology]] of $G$, as discussed at _[group cohomology - In terms of homological algebra](http://ncatlab.org/nlab/show/group+cohomology#InTermsOfHomologicalAlgebra)_.
+
+Define special elements in the [[group algebra]] $\mathbb{Z}G$: 
 
 $$N \coloneqq 1 + g + g^2 + \ldots + g^{k-1}$$ 
 
