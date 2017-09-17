@@ -1,0 +1,1 @@
+Getting a ph.D. in Nonassociative Algebra and Ring Theory.
