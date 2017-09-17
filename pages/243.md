@@ -85,7 +85,7 @@ $$
 in $V$. Similarly for the contravariant action.
 
 +-- {: .query}
-How do we know that such an adjunction exists? Are we assuming that $V$ is _closed_ monoidal?
+How do we know that such an adjunction exists? Are we assuming that $V$ is _closed_ monoidal? Yes, Kelly's book does make that assumption at the outset of section 1.6, and does seem to be using it in section 2.2, where he discusses natural transformations are elements of ends.
 =--
 
 
