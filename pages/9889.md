@@ -1,0 +1,24 @@
+### Reading ###
+
+AMPS paper
+
+ * Almheiri, A.; Marolf, D.; Polchinski, J. & Sully, J. [Black Holes: Complementarity or Firewalls?](http://arxiv.org/abs/1207.3123) arXiv:1207.3123v4, 2012, 
+
+AMPS(S) paper
+
+ * Almheiri, A.; Marolf, D.; Polchinski, J.; Stanford, D. & Sully, J. [An Apologia for Firewalls](http://arxiv.org/abs/1304.6483) arXiv:1304.6483v1, 2013
+
+ER=EPR paper
+
+ * Maldacena, J. & Susskind, L. [Cool horizons for entangled black holes](http://arxiv.org/abs/1306.0533) arXiv:1306.0533v1, 2013
+
+Others
+
+ * Verlinde, E. & Verlinde, H. [Black Hole Information as Topological Qubits](http://arxiv.org/abs/1306.0516) arXiv:1306.0516v1, 2013 
+ * Verlinde, E. & Verlinde, H. [Passing through the Firewall](http://arxiv.org/abs/1306.0515) arXiv:1306.0515v1, 2013
+ * Susskind, L. [Black Hole Complementarity and the Harlow-Hayden Conjecture](http://arxiv.org/abs/1301.4505) arXiv:1301.4505v1, 2013
+ * Harlow, D. & Hayden, P. [Quantum Computation vs. Firewalls](http://arxiv.org/abs/1301.4504) 2013
+ * Shenker, S. H. & Stanford, D. [Black holes and the butterfly effect](http://arxiv.org/abs/1306.0622) arXiv:1306.0622v1, 2013
+ * Page, D. N. [Excluding Black Hole Firewalls with Extreme Cosmic Censorship](http://arxiv.org/abs/1306.0562) arXiv:1306.0562v1, 2013
+ * Bousso, R. [Complementarity Is Not Enough](http://arxiv.org/abs/1306.0562) arXiv:1207.5192v2, 2012
+ * Banks, T. & Fischler, W. [No Firewalls in Holographic Space-Time or Matrix Theory](http://arxiv.org/abs/1305.3923) arXiv:1305.3923v1, 2013
