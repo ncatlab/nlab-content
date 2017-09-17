@@ -300,6 +300,10 @@ For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-cate
 =--
 
 
+## Related concepts
+
+[[!include locally presentable categories - table]]
+
 
 
 ## References 
