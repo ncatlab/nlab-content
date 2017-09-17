@@ -97,6 +97,8 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 * [[homotopy class]]
 
+* [[higher homotopy]]
+
 * [[transfor]]
 
   * [[natural transformation]]
