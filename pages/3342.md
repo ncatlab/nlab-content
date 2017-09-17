@@ -62,6 +62,21 @@ $$
 
 An automorphismus of an algebra $\alpha \mathcal{M} \rightarrow \mathcal{M}$ is called an **inner** automorphismus if there is an invertible element $u \in \mathcal{M}$ such that $\alpha$ is given by conjugation with $u: \alpha(m) = u \quad m \quad u^{-1} \qquad \forall m\in \mathcal{M}$ (note that our convention here differs from that used by [Wikipedia] (http://en.wikipedia.org/wiki/Inner_automorphism)).
 
+####Group Representations
+In this paragraph we will collect some links and remarks about unitary representations of topological groups on Hilbert spaces that are relevant to our topic and less commonly used in the literature.
+In the following $\mathcal{G}$ will be a topological group, $\mathcal{H}$ a (complex) Hilbert space and $\mathcal{U}$ an unitary representation of $\mathcal{G}$ in the algebra of bounded operators of $\mathcal{H}$.
+
+Definition (**analytical vector**): Let $\mathcal{G}$ be a n-dimensional real Lie group. Fix a $f \in \mathcal{H}$, a neighbourhood B of 0 in $\R^n$ and a parametrization $\phi: B \to \mathcal{G}$ of a neighbourhood of 1 in $\mathcal{G}$. Then we can define a function $\mathcal{U}_f$ by
+$$
+      \mathcal{U}_f: B \to \mathcal{H}
+$$
+$$
+                     x \mapsto \mathcal{U}(\phi(x)) f    
+$$
+If $\mathcal{U}_f$ has an extension to an analytic function on a neighbourhood of 0 in $\C^n$, the vector $f$ is called an analytic vector (for $\mathcal{U}$).
+
+See [planetmath] (http://planetmath.org/encyclopedia/BanachSpaceValuedAnalyticFunctions.html) for the definition of Banach space valued analytic functions.
+
 ###Definition of Vacuum Representations
 A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilbert space $(\mathcal{H})$, indexed by $\mathcal{O} \in \mathcal{J}$, is called a **vacuum respresentation** (on the 4-dimensional Minkowski spacetime) if it satisfies the following axioms:
 
@@ -160,6 +175,23 @@ and:
 An online reference page by is here:
 
 * Stephen J. Summers: [AQFT online] (http://www.math.ufl.edu/~sjs/aqft.html)
+
+An expository introduction into the properties of the vacuum state of a vacuum representation and it's physical consequences is this:
+
+* Stephen J. Summers:"Yet More Ado About Nothing: The Remarkable Relativistic Vacuum State" ([arXiv] (http://xxx.uni-augsburg.de/abs/0802.1854))
+
+An expository introduction to scattering theory is here:
+
+* Stephen J. Summers, Detlev Buchholz: "Scattering in Relativistic Quantum Field Theory: Fundamental Concepts and Tools" ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0509047))
+
+An introduction into Tomita-Takesaki modular theory is here:
+
+* Stephen J. Summers: "Tomita-Takesaki Modular Theory" ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0511034))
+
+...while a paper that put it to serious work is this:
+
+* H.J. Borchers: "On Revolutionizing of Quantum Field Theory
+with Tomita's Modular Theory", ([ESI preprint page] (http://www.esi.ac.at/preprints/ESI-Preprints.html))
 
 ### References for the generalization of the Haag-Kastler approach to curved spacetimes
 
