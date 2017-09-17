@@ -2,7 +2,6 @@
 * table of contents
 {: toc}
 
-
 ## Idea
 
 Dedekind cuts are a way to make precise the idea that a [[real number]] is that which can be approximated (in the [[absolute value]] metric) by [[rational numbers]].
@@ -119,6 +118,7 @@ By [[excluded middle]], every extended cut is either a Dedekind cut, $(\mathbb{Q
 
 
 ### Interval cuts
+{#intervals}
 
 If we drop (7) (but keep 3&4), then the result is an __interval cut__; these represent intervals of the form $[x,y]$ for $x \leq y$, where $x$ is a lower real and $y$ is an upper real.  If we use only (1--6), then we allow for __back-to-front intervals__ $[x,y]$ where $x \leq y$ is no longer required.  Even classically, we cannot represent back-to-front intervals as subsets of the real line, but it is still possible to compute with them.
 
