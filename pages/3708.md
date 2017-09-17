@@ -140,7 +140,7 @@ is an [[equivalence of categories]]. This is shown at [[module]].
 
 =--
 
-### Modules over smooth algebras
+### Modules over smooth algebras {#ModulesOverSmoothAlgebras}
 
 Let $SmoothAlg$ (or $C^\infty Ring$) be the category of [[smooth algebra]]s. Notice that there is a canonical [[forgetful functor]]
 
@@ -150,8 +150,9 @@ $$
 
 to the underlying ordinary [[ring]]s.
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .un_theorem}
+###### Theorem
+{#TangentOfSmoothAlgTheorem}
 
 There is an [[equivalence of categories]]
 
@@ -189,15 +190,32 @@ So in particular for $S = \Delta$ the [[simplex category]] we have that [[simpli
 
 =--
 
+For proving the [above theorem](#TangentOfSmoothAlgTheorem) the main step is the following lemma. 
+
++-- {: .un_lemma}
+###### Lemma
+
+For a fixed smooth algebra $R$, the [[forgetful functor]] 
+
+$$
+  U : Ab(SmoothAlg/R) \to Ab(Ring/U(R))
+$$ 
+
+is an [[equivalence of categories]].
+
+
+=--
 
 +-- {: .proof}
 ###### Proof
 
 The statement was suggested at some point by [[Thomas Nikolaus]] in discussion with [[Urs Schreiber]], who then asked [[Herman Stel]] to prove it. A writeup is in ([Stel](#Stel)).
 
-The crucial property underlying the statement is that the [[Lawvere theory]] $T =$  [[CartSp]] over wich smooth algebras are $T$-algebras is in fact a [[Fermat theory]] in that [[Hadamard's lemma]] holds for [[smooth function]]s in particular on [[Cartesian space]]s.
+We discuss in detail that the functor is injective on objects, in that for an any abelian group object in $SmoothAlg/R$ its smooth algebra structure on the underlying ring structure is the _unique_ such smooth algebra that makes it an abelian group object over $R$. Whith this it is then easy to see that $U$ is in fact an isomorphism of categories.
 
-This implies in particular that for every $k \in \mathbb{N}$ and every smooth function $f : \mathbb{R}^k \to \mathbb{R}$ there are [[smooth function]]s $\{h_{i,j} \in C^\infty(\mathbb{R}^k \times \mathbb{R}^k, \mathbb{R})\}_{i,j = 1}^n$ such that such that the function
+The crucial property underlying this statement is that the [[Lawvere theory]] $T =$  [[CartSp]] over wich smooth algebras are $T$-algebras is in fact a [[Fermat theory]] in that [[Hadamard's lemma]] holds for [[smooth function]]s in particular on [[Cartesian space]]s.
+
+This implies that for every $k \in \mathbb{N}$ and every smooth function $f : \mathbb{R}^k \to \mathbb{R}$ there are [[smooth function]]s $\{h_{i,j} \in C^\infty(\mathbb{R}^k \times \mathbb{R}^k, \mathbb{R})\}_{i,j = 1}^n$ such that the function
 
 $$
   f \circ + : \mathbb{R}^k \times \mathbb{R}^k \to \mathbb{R}
@@ -243,7 +261,7 @@ $$
   \,.
 $$
 
-So we only need to know how $A$ acts on mixed terms. The point this is that the above Hadamard-quotient formula reduces the action of any smooth function to just operations of this form $A(f)(r)$ and to ordinary multiplication and addition, so it actually fixes $A(f)$ from the restriction of $A(f)$ to elements of the form $(r,0)$ and the module structure on $N$:
+So we only need to know how $A$ acts on mixed terms. The point now is that the above Hadamard-quotient formula reduces the action of any smooth function to just operations of this form $A(f)(r)$ and to ordinary multiplication and addition, so it actually fixes $A(f)$ from the restriction of $A(f)$ to elements of the form $(r,0)$ and the module structure on $N$:
 
 $$
   A(f)(r +\epsilon)
@@ -251,13 +269,23 @@ $$
   A(f)(r) + 
   \sum_{l = 1}^k w_l \cdot A\left(\frac{\partial f}{\partial x_l}\right)(r)
   + 
-  \sum_{i,j}
-   e_i \cdot e_j A(h_{i,j})(r,e)
-  
+  0
 $$
 
+since $\epsilon_i \cdot \epsilon_j = 0$ in the underlying square-0-extension of $A$ and hence also in $A$.
 
-(...)
+In summary this shows that the forgetful functor $U$ is injective on objects. The above formula also directly implies, conversely, that the functor is surjective on objects, hence an isomorphism on objects, and moreover that it is a [[full and faithful functor]].
+
+=--
+
+Finally we come to the proof of the [full theorem above](#TangentOfSmoothAlgTheorem)
+
++-- {: .proof}
+###### Proof
+
+The above lemma shows that $T_{SmoothAlg} \simeq SmoothAlg \times_{Ring} T_{Ring}$ is a bijection on objects. 
+
+To check bijection on corresponding [[hom-set]]s we again use the above Hadamard-quotient formula. (...)
 
 =--
 
