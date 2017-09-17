@@ -221,10 +221,9 @@ This means that the theorem of Jordan, von Neumann and Wigner also classifies th
 
 * the future lightcone in $\mathbb{R}^n \oplus \mathbb{R}$.
 
-Some of this deserves a bit of explanation.  For $\mathbb{K} = \mathbb{R}, \mathbb{C}, \mathbb{H}$, an element $T \in \mathbf{h}_n(\mathbb{K})$ is **positive** if and only if the 
-corresponding operator $T : \mathbb{K}^n \to \mathbb{K}^n$ has 
+Some of this deserves a bit of explanation.  For $\mathbb{K} = \mathbb{R}, \mathbb{C}, \mathbb{H}$, an element $T \in \mathfrak{h}_n(\mathbb{K})$ is **positive** if and only if the corresponding operator $T : \mathbb{K}^n \to \mathbb{K}^n$ has 
 $$            \langle v, T v \rangle \gt 0  $$
-for all nonzero $v \in \mathbb{K}^n$.  A similar trick works for defining positive elements of $\mathbf{h}_3(\mathbb{O})$, but we do not need the details here. We say an element $(x,t) \in \mathbb{R}^n \oplus \mathbb{R}$ lies in the **future lightcone** if $t \gt 0$ and $t^2 - x \cdot x \gt 0$.  This of course fits in nicely with the idea that the spin factors are connected to Minkowski spacetimes.  Finally, there is an obvious notion of direct sum for Euclidean spaces with cones, where the direct sum of $(V,C)$ and $(V',C')$ is $V \oplus V'$ equipped with the cone
+for all nonzero $v \in \mathbb{K}^n$.  A similar trick works for defining positive elements of $\mathfrak{h}_3(\mathbb{O})$, but we do not need the details here. We say an element $(x,t) \in \mathbb{R}^n \oplus \mathbb{R}$ lies in the **future lightcone** if $t \gt 0$ and $t^2 - x \cdot x \gt 0$.  This of course fits in nicely with the idea that the spin factors are connected to Minkowski spacetimes.  Finally, there is an obvious notion of direct sum for Euclidean spaces with cones, where the direct sum of $(V,C)$ and $(V',C')$ is $V \oplus V'$ equipped with the cone
 $$             C \oplus C' = \{(v,v') \in V\oplus V' \colon \; 
 v \in C, v' \in C' \} . $$
 
