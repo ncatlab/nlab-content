@@ -64,6 +64,8 @@ Divided into two parts:
 
 1. [Representations and Associated bundles](#AssociatedNBundle)
 
+1. [Modules](#Modules)
+
 1. [Flat connections](#FlatConnections)
 
 1. [de Rham coefficients](#deRhamCoefficients)
@@ -6267,6 +6269,10 @@ $$
 (...)
 
 
+## **Modules**
+ {#Modules}
+
+ for the moment see the sub-entry _[[geometry of physics - modules]]_
 
 
 ## **Flat connections**
