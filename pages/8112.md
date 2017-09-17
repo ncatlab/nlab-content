@@ -1,11 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 (...)
 
-## Application in string theory
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
+### Application in string theory
 
 In [[string theory]] [[partition functions]] tend to be automorphic forms for [[U-duality]] groups. See the [references below](#ReferencesInStringTheory)
+
 ## Related entries
 
 * [[modular form]], [[topological automorphic form]]
@@ -13,6 +34,8 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 * [[automorphic L-function]]
 
 * [[Langlands duality]]
+
+
 
 ## References
 
@@ -33,3 +56,5 @@ The relatin between [[string theory]] on [[Riemann surfaces]] and automorphic fo
 
 [[!redirects automorphic forms]]
 
+[[!redirects automorphic representation]]
+[[!redirects automorphic representations]]
