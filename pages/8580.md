@@ -161,6 +161,19 @@ Dynamics in physics says how things _move_, hence how they trace out [[trajector
 
 (...)
 
+We add  _[[monad]]_ $\sharp$ (see also [[monad (in computer science)]]) and a _[[comonad]]_ $\flat$
+
+(...)
+
+
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
+| Given a cohesive homotopy type $X$, there is the the _decohesed_ homotopy type $\sharp X$ in which all separate points are collected to one cohesive blob. | $x\colon X \;\vdash\; \sharp X \colon Type$ | |  |  |
+| Given a cohesive homotopy type, there is the map that forgets the cohesion. | $x \colon X \;\vdash\;  DeCohese \colon X \to \sharp X$ | | | |
+| |  $A \colon \sharp Type \;\vdash\; \flat A \colon \sharp Type$ |  | [[moduli stack]] for [[connection on an infinity-bundle|flat ∞-connections]] | |
+| Given $A$, there is a map from flat $A$-connections to the underlying $A$-bundles  | $A \colon \sharp Type \;\vdash\; UnderlyingBundle_A \colon \flat A \to A $  | | | |
+
 adding the [[modal logic|modalities]] $(\flat \vdash \sharp)$ to [[homotopy type theory]] yields _[[cohesive homotopy type theory]]_.
 
 (...)
