@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,6 +17,9 @@
 ## Idea
 
 A [[space]] $X$ is called **formally smooth** if every [[morphism]]s $Y \to X$ into it has all possible [[infinitesimal object|infinitesimal]] extensions.
+
+(If there is at most one extension per infinitesimal extension of $Y$ with no guarantee of existence it is called a [[formally unramified morphism]]. If the thickenings exist uniquely, it is called a [[formally etale morphism]]).
+
 
 Traditionally this has considered in the context of [[geometry]] over formal duals of [[ring]]s and [[associative algebra]]s. This we discuss in the section ([Concrete notion](#ConcreteNotion)). But generally the notion makes sense in any context of <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InfinitesimalCohesion">infinitesimal cohesion</a>. This we discuss in the section 
 [General abstract notion](#GeneralAbstractNotion).
@@ -32,7 +46,7 @@ We think of the objects of $\mathbf{H}$ as [[cohesive topos|cohesive space]]s an
 As a class of examples that is useful to keep in mind consider a [[Q-category]] $(cod \dashv \epsilon \dashv dom) : \bar A \to A$  of <a href="http://nlab.mathforge.org/nlab/show/Q-category#InfinitesimalThickening">infinitesimal thickening of rings</a> and let
 
 $$
-  ((u^* \dashv u^_* \dashv u^!) : \mathbf{H}_{th} \to \mathbf{H}) := 
+  ((u^* \dashv u_* \dashv u^!) : \mathbf{H}_{th} \to \mathbf{H}) := 
   ([dom,Set] \dashv [\epsilon, Set] \dashv [codom,Set] : [\bar A, Set] \to [A,Set])
 $$ 
 
@@ -63,6 +77,8 @@ A morphism $f : X \to Y$ in $\mathbf{H}$ is called **formally smooth** if (eq:Mo
 =--
 
 This appears as ([KontsevichRosenberg, def. 5.1, prop. 5.3.1.1](#KontsevichRosenbergSpaces)).
+
+The dual notion, where the above morphism is a [[monomorphism]] is that of [[formally unramified morphism]]. If both conditions hold, hence if the above morphism is an [[isomorphism]], one speaks of a [[formally  étale morphism]].
 
 +-- {: .num_defn #AbstractFormallySmoothObject}
 ###### Definition
@@ -198,6 +214,11 @@ is a [[projective object]] in $S \otimes_k S^{op}$[[Mod]].
 
 
 In particular, setting $R = k$ we have that an object of the form $Spec S$ is formally smooth according to def. \ref{AbstractFormallySmoothObject} precisely if $\Omega^1(S|k)$ is projective. This is what in ([CuntzQuillen](#CuntzQuillen)) is called the condition for a [[quasi-free algebra]].
+
+## Related concepts
+
+**formally smooth morphism** and [[formally unramified morphism]] $\Rightarrow$ [[formally étale morphism]].
+
 
 ## References
 
