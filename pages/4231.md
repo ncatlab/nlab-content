@@ -642,9 +642,7 @@ Now we collect lemmas to prove theorem \ref{ModelStructureFromHomotopicalStructu
 
 Every $J$-homotopy equivalence, def. \ref{JHomotopyEquivalence}, is a weak equivalence.
 
-Every morphism that becomes invertible in the [[homotopy category]] is a weak equivalence.
-
-In particular, therefore, the weak equivalences satisfy the [[two-out-of-three]]-property and are stable under [[retracts]].
+The weak equivalences satisfy the [[two-out-of-three]]-property and are stable under [[retracts]].
 
 =--
 
@@ -655,7 +653,13 @@ In particular, therefore, the weak equivalences satisfy the [[two-out-of-three]]
 
 The first statement holds by definition of $Ho_J$. 
 
-(...)
+The second statement also follows directly from the definition. If for $A \stackrel{f}{\to} B \stackrel{g}{\to} C$ and fibrant $X$ in the composite
+
+$$
+  Ho_J(C,X) \stackrel{g^*}{\to} Ho_J(B,X) \stackrel{f^*}{\to} Ho_J(A,X)
+$$
+
+two of three are isomorphisms, then so is the third. 
 
 =--
 
@@ -765,6 +769,32 @@ $$
 So by lemma \ref{PropertiesOfAnodyneExtensions} with $q$ also $p$ is an acyclic fibration.
 
 =--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[homotopy category]] of $(PSh(A), W)$ is (up to [[equivalence of categories|equivalence]]) the [[full subcategory]] of $Ho_J$, def. \ref{JHomotopyCategory}, on the fibrant objects.
+
+=--
+
+([Cisinski 06, 1.3.23](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+By definition and by the [[Yoneda lemma]], every weak equivalence becomes an isomorphism in the full subcategory of $Ho_J$ on the fibrant objects. Moreover, by prop. \ref{PropertiesOfAnodyneExtensions} the [[small object argument]] provides a functorial fibrant replacement $P : PSh(A) \to PSh(A)$. 
+
+Therefore for $F : PSh(A) \to \mathcal{C}$ a functor that inverts weak equivalences, there is a unique functor $Ho_J^{fib} \to \mathcal{C}$ which sends $X$ to $P(F(X))$, such that ... with the [[natural isomorphism]] given by
+
+$$
+  F(X) \stackrel{F(X \to P(X))}{\to} F(P(X))
+$$
+
+
+=--
+
+
+
 
 ## Examples
 
