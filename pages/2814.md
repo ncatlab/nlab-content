@@ -173,6 +173,10 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * [[symmetric monoidal functor]]
 
+* [[monoidal (∞,1)-functor]]
+
+* [[monoidal (∞,n)-functor]]
+
 [[!redirects lax monoidal functor]]
 [[!redirects strict monoidal functor]]
 [[!redirects strong monoidal functor]]
