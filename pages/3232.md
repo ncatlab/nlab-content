@@ -109,6 +109,8 @@ More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullb
 
   [[∞-algebra over an (∞,1)-monad]] 
 
+  * [[model structure on algebras over a monad]]
+
 * [[algebra over an algebraic theory]] 
 
   [[∞-algebra over an (∞,1)-algebraic theory]]
