@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -18,6 +29,10 @@ is the standard [[affine line]] in $C$.
 ## Examples
 
 One example of $\mathbb{A}^1$-homotopy theory appears in [[motivic cohomology]]. See there for more details.
+
+## Related concepts
+
+* [[B1-homotopy theory]]
 
 ## References
 
