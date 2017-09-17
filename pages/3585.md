@@ -171,7 +171,16 @@ $P$ does not enlarge the support of hyperfunctions.
 ...
 
 ##Singularities and Microfunctions
-...
+Much information about a given hyperfunction is encoded in the kind of singularities that it has. A first step into the theory of singularities is the following definition:
+
++-- {: .un_def}
+###### Definition
+The **singular support sing supp($F$)** of a hyperfunction $F$ is the complement of the largest open set on which $F$ is real analytic.
+=--
+
+This definition does not seem particularly useful, since it only pinpoints the singular locus of a hyperfunction, without explaining the differences between various singularities. One question of crucial importance to physics is for example "when can two [[distributions]]" be multiplied?
+
+The singular support does not help much: The $\delta$ distribution cannot be squared, while the distribution defined by $\frac{1}{x + \epsilon i}$ can. (The latter is a distribution defined as a [[Cauchy principal value]]). The singular support of both consists of the origin. But in a certain sense the singularity of the $\delta$ distribution is worse than that of $\frac{1}{x + \epsilon i}$. Going a step further requires the notion of [[wavefront sets]].
 
 #References
 
