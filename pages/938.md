@@ -116,7 +116,9 @@ which is constant along $S^{n-1} \hookrightarrow D^n$.
 
 =--
 
-This was observed and proven in ([Jardine](#Jardine)) (where it is also generalized to weak equivalences in a [[model structure on simplicial presheaves]]). See also around ([Lurie, prop. 6.5.2.1](#Lurie)).
+In this form the statement and its proof appears in 
+([Jardine](#Jardine)) (where it is also generalized to weak equivalences in a [[model structure on simplicial presheaves]]). 
+See also around ([Lurie, prop. 6.5.2.1](#Lurie)). The relevant arguments are spelled out in ([May, section 9.6](#May)). A variant is called the _HELP lemma_ in ([Vogt](#Vogt)).
 
 
 ### Relation to homotopy equivalences
@@ -256,10 +258,18 @@ This is the simplest in a class of counter-examples discussed in ([McCord](#McCo
 
 ## References
 
-The characterization of weak homotopy equivalences by lifts up to homotopy seems to be due to 
+A general account is for instance in section 9.6 of 
+
+* [[Peter May]], _[[A Concise Course in Algebraic Topology]]_
+ {#May}
+
+The characterization of weak homotopy equivalences by lifts up to homotopy seems is in
 
 * [[Rick Jardine]], _Simplicial Presheaves_, Journal of Pure and Applied Algebra 47, 1987, no.1, 35-87.
  {#Jardine}
+
+* [[Rainer Vogt]], _The HELP-Lemma and its converse in Quillen model categories_ ([arXiv:1004.5249](http://arxiv.org/abs/1004.5249))
+ {#Vogt}
 
 For related and general discussion see also section 6.5 of 
 
