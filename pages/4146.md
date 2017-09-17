@@ -61,7 +61,71 @@ is exact.  Exactness of this square says that for $F\colon B\to M$, the canonica
 
 ## Characterization
 
-...
+Exact squares can be characterized in several ways, which generalize in different directions.
+
+### Using profunctors
+
+Recall that for any functor $u\colon A\to C$, the left Kan extension $u_!$ can be computed as the colimit weighted by the corepresentable profunctor $C(u,1)$, while restriction $u^*$ along $u$ is the colimit weighted by the representable profunctor $C(1,u)$.  Moreover, given composable profunctors $H$ and $K$, an $H K$-weighted colimit is the same as a $K$-weighted colimit of an $H$-weighted colimit.  Therefore, $u_! f^*$ can be computed as a $C(u,1) \circ B(1,f)$-weighted colimit, while $g^* v_!$ can be computed as a $D(1,g) \circ D(v,1)$-weighted colimit.  Note that $D(1,g) \circ D(v,1) \cong D(v,g)$ by [[Yoneda reduction]].  Thus sufficient condition for a square as above to be exact is that the canonical induced transformation of profunctors
+$$ C(u,1) \circ B(1,f) \to D(v,g) $$
+is an isomorphism.  Moreover, by considering colimits of the Yoneda embedding $B\to [B^{op},Set]$ it is easy to see that this condition is necessary as well.  Unraveling it, we see that it says that for all objects $b\in B$ and $c\in C$, the function
+$$ \int^{a\in A} C(u(a),c) \times B(b,f(a)) \to D(v(b), g(c)) $$
+is an isomorphism.
+
+So far, this argument works to describe the exact squares in arbitrary [[enriched categories]], or more generally in any [[2-category equipped with proarrows]] where we have a sensible notion of profunctor that describes to the notion of pointwise Kan extension under consideration.  However, in the Set-based case, we can go further.  Given the construction of coequalizers in [[Set]], the above condition means that
+
+1. For any morphism $\varphi\colon v(b) \to g(c)$ in $D$, there exists an $a\in A$ and morphisms $\alpha\colon u(a) \to c$ and $\beta\colon b\to f(a)$ such that $g(\alpha) \circ v(\beta) = \varphi$, and
+
+1. For any $(a,\alpha,\beta)$ and $(a',\alpha',\beta')$ as above with $g(\alpha) \circ v(\beta) = g(\alpha') \circ v(\beta')$, there is a [[zigzag]] of arrows connecting $a$ to $a'$ and rendering the evident zigzag of triangles commutative.
+
+We can state this equivalently as follows.  Given $b\in B$ and $c\in C$, define $(b/A/c)$ to be the category whose objects are triples $(a,\alpha,\beta)$ with $\alpha\colon u(a) \to c$ and $\beta\colon b\to f(a)$, and whose morphisms are morphisms $a\to a'$ making two triangles commute.  There is a functor
+$$(b/A/c) \to D(v(b),g(c))$$
+(considering the latter [[homset]] as a [[discrete category]]) which sends $(a,\alpha,\beta)$ to the composite $g(\alpha) \circ v(\beta)$, and the square is exact just when this functor is a bijection on [[connected component]]s.
+
+**Example:** Note that in the case of a square
+$$\array{A & \overset{u}{\to} & B\\
+  \downarrow && \downarrow\\
+  *& \underset{}{\to} & *}$$
+this characterization reduces to saying that for any $b\in B$, the category $b/u$ is connected.  This is the standard combinatorial characterization of a [[final functor]].
+
+### Using comma objects
+
+Another approach is to argue as follows.  First note that any comma square of the form
+$$\array{v/d & \overset{}{\to} & C\\
+  \downarrow &\Downarrow& \downarrow^v\\
+  * & \underset{d}{\to} & D}$$
+must be exact.  As observed above, this is one of the equivalent definitions of what it means to be a pointwise left Kan extension.  (Note that this ejects us from the world of enriched categories already.)  Dually,
+$$\array{d/g & \overset{}{\to} & *\\
+  \downarrow &\Downarrow& \downarrow^d\\
+  B & \underset{g}{\to} & D}$$
+must also be exact, by definition of pointwise right Kan extensions.  Now suppose that a square
+$$\array{A & \overset{f}{\to} & B\\
+  ^u\downarrow & \Downarrow & \downarrow^v\\
+  C& \underset{g}{\to} & D}$$
+is given.  The Beck-Chevalley transformation $u_! f^* \to g^* v_!$ between functors $C\to M$ will be an isomorphism as soon as it is an isomorphism componentwise, i.e. when evaluated at every object of $c$.  In other words, we want the transformation $c^* u_! f^* \to c^* g^* v_!$ to be an isomorphism.  Now consider the composite square
+$$\array{u/c & \overset{q}{\to} & A & \overset{f}{\to} & B\\
+  ^p\downarrow & \Downarrow & \downarrow^u & \Downarrow & \downarrow^v\\
+  * & \underset{c}{\to}& C & \underset{g}{\to} & D.}$$
+Since the left-hand square is of the form considered above, it is exact, so $p_! q^* \to c^* u_!$ is an isomorphism.  Thus $c^* u_! f^* \to c^* g^* v_!$ is an isomorphism if and only if the composite
+$$ p_! q^* f^* \to c^* u_! f^* \to c^* g^* v_! $$
+is an isomorphism, but this is just the Beck-Chevalley transformation for the composite square
+$$\array{u/c & \overset{}{\to} & B\\
+  \downarrow &\Downarrow & \downarrow^v\\
+  * & \underset{g(c)}{\to} & D.}$$
+So the given square is exact just when all of these squares are exact.  But we can also play the same game dually, so the given square is exact just when for any $c\in C$ and $b\in B$, the square
+$$\array{(b/A/c) & \overset{x}{\to} & *\\
+  ^y\downarrow &\Downarrow & \downarrow^{v(b)}\\
+  * & \underset{g(c)}{\to} & D.}$$
+is exact.  However, the comma square
+$$\array{D(v(b),g(c)) & \overset{z}{\to} & *\\
+  ^w\downarrow &\Downarrow & \downarrow^{v(b)}\\
+  * & \underset{g(c)}{\to} & D.}$$
+is always exact, as observed previously, and by the universal property of a comma square, the previous one factors through this one via a functor $r\colon (b/A/c) \to D(v(b),g(c))$.  Hence we have $y = w r$ and $x = z r$, and the Beck-Chevalley transformation for the $(b/A/c)$ square factors as
+$$y_! x^* \cong w_! r_! r^* z^* \to w_! z^* \overset{\cong}{\to} g(c)^* v(b)_!.$$
+Hence it is an isomorphism if and only if $y_! x^* \to w_! z^*$ is an isomorphism, which is to say that colimits of constant diagrams on $(b/A/c)$ and on $D(v(b),g(c))$ agree.  But the colimit of a constant diagram is just a [[copower]] with the set of connected components of the domain category, so we recover the same characterization as before.
+
+While this argument does not generalize to general enriched categories and proarrow equipments, it does generalize in a different direction.  The notion of [[derivator]] is essentially designed exactly so that this argument works, up until the last step: in a general derivator, colimits of constant diagrams may depend on more (or less) than the set of connected components of the domain.  For instance, in the derivator of [[∞-groupoids]], the colimit of a constant diagram is a copower with the [[nerve]] of the domain category, a finer invariant than its $\pi_0$.  It is a theorem of Cisinski that this is the finest possible: colimits of constant diagrams in a derivator never depend on anything more than the nerve of the domain.  Therefore, this yields a characterization of the [[homotopy exact squares]] for computing [[homotopy Kan extensions]] in derivators: the squares where the functor $(b/A/c) \to D(v(b),g(c))$ induces a weak equivalence of nerves.
+
+
 
 
 [[!redirects exact squares]]
