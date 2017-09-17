@@ -43,6 +43,10 @@ The _[[moduli space]] of complex structures_ on a manifold is discussed for inst
 
 * Yongbin Ruan, _Symplectic topology and complex surfaces_ in _Geometry and analysis on complex manifolds_ (1994)
 
+and in
+
+* Yurii M. Burman, _Relative moduli spaces of complex structures: an example_ ([arXiv:math/9903029](http://arxiv.org/abs/math/9903029))
+
 [[!redirects complex structures]]
 [[!redirects almost complex structure]]
 [[!redirects Newlander-Nierenberg theorem]]
