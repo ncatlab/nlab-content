@@ -44,6 +44,10 @@ A discussion of open problems is in
 
 * Benoit Famaey, Stacy McGaugh, _Challenges for Lambda-CDM and MOND_ ([arXiv:1301.0623](http://arxiv.org/abs/1301.0623))
 
+A mathematically precise account of the model in terms of [[AQFT on curved spacetimes]] is in 
+
+* [[Klaus Fredenhagen]], Thomas-Paul Hack, _Quantum field theory on curved spacetime and the standard cosmological model_ ([arXiv:1308.6773](http://arxiv.org/abs/1308.6773))
+
 See also
 
 * Wikipedia, _[Lambda-CDM model](http://en.wikipedia.org/wiki/Lambda-CDM_model)_
