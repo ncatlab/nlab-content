@@ -889,10 +889,11 @@ $$
 
 
 
-### On symplectic $\infty$-Lie algebroids -- The AKSZ Lagrangian {#Symplectic}
+### On symplectic $\infty$-Lie algebroids -- The AKSZ Lagrangian 
+  {#Symplectic}
 
 
-A [[schreiber:symplectic ∞-Lie algebroid]] / [[n-symplectic manifold]] $(\mathfrak{a}, \omega)$ is a [[∞-Lie algebroid|Lie n-algebroid]] $\mathfrak{a}$ equipped with a binary non-degenerate [[invariant polynomial]] $\omega \in W(\mathfrak{a})$ of degree $n+2$.
+A [[symplectic Lie n-algebroid]] $(\mathfrak{a}, \omega)$ is a [[∞-Lie algebroid|Lie n-algebroid]] $\mathfrak{a}$ equipped with a binary non-degenerate [[invariant polynomial]] $\omega \in W(\mathfrak{a})$ of degree $n+2$.
 
 The corresponding Chern-Simons elements of $\omega$ are the integrands for the [[action functional]]s of various [[TQFT]] [[sigma-model]]s.
 
@@ -1165,7 +1166,12 @@ A survey of higher Chern-Simons elements and their action functionals as applied
 * Jorge Zanelli, _Lecture notes on Chern-Simons (super-)gravities_ [arXiv:0502193](http://arxiv.org/abs/hep-th/0502193)
 {#Zanelli}
 
+Symplectic Lie $n$-algebroids are discussed in
 
+* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ PhD thesis ([arXiv](http://arxiv.org/abs/math/9910078))
+
+  _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
+{#Roytenberg}
 
 
 [[!redirects Chern-Simons elements]]
