@@ -99,7 +99,7 @@ Suppose $(S_i,\sigma_i)$ is a family of (accessible) well-pointed endofunctors a
 =--
 +-- {: .proof}
 ###### Proof
-
+The last statement is almost obvious using Lemma 1 above. Well-pointedness for $S$ follows adapting Lemma 2 to the case of a jointly epimorphic family of arrows $\{S_i\to S\}$, like the colimiting cocone for $S$.
 =--
 +-- {: .num_lemma #WellPointedTransfer}
 ###### Lemma
