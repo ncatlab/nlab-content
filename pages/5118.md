@@ -93,10 +93,26 @@ $$
   \,.
 $$
 
+For the purposes of the following statement, we define
+
++-- {: .un_def #CreatedModelStructure}
+###### Definition
+
+We say a model category structure on $Mon(C)$ is _created_ by $U_C$ is
+
+* it is the [[transferred model structure]];
+
+* every cofibrant object in $Mon(C)$ is a [[retract]] of a [[cell object]].
+
+=--
+
 +-- {: .un_theorem}
 ###### Theorem
 
-If $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ is a lax monoidal Quillen adjunction and the forgetful functors $U_C$ and $U_D$ induce transferred model structures on monoids, then there is an induced [[Quillen adjunction]]
+Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a lax monoidal Quillen adjunction between [[monoidal model categories]] with cofibrant unit obects.
+
+
+If the forgetful functors $U_C$ and $U_D$ [create](#CreatedModelStructure) a model structures on monoids, then there is an induced [[Quillen adjunction]]
 
 $$
   (L^{mon} \dashv R) 
@@ -108,7 +124,7 @@ $$
 where the functor underlying the [[right adjoint]] is the original $R$. 
 
 
-The left adjoint $L^{mon}$ is the functor given by the [[coequalizer]]
+The left adjoint $L^{mon}$ is the functor given by forming the [[coequalizer]]s
 
 $$
   L^{mon} : B 
@@ -121,7 +137,86 @@ of the following two morphisms (...)
 
 =--
 
-This is theorem 3.12 in ([SchwedeShipley](#SchwedeShipley)).
+This is theorem 3.12 in ([SchwedeShipley](#SchwedeShipley)). Its proof uses the following technical lemmas
+
++-- {: .un_lemma #OneTechnicalLemma}
+###### Lemma
+
+Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a monoidal Quillen adjunction between monoidal model categories with cofibrant unit objects.
+
+Suppose the adjunction
+
+$$
+  (L^{mon} \dashv R) 
+  : 
+  Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)
+$$
+
+described above exists (just as an adjunction, not yet assumed to be a Quillen adjunction). Then for every monoid $B \in Mon(D)$ which is an $(L^\mon \dashv R)$-[[cell object]], the [[adjunct]]
+
+$$
+ \chi_B :  L B \to L^{mon} B
+$$
+
+to the morphism underlying the unit $B \to R L^{mon} B$ is a weak equivalence.
+
+=--
+
+This is proposition 5.1 in ([SchwedeShipley](#SchwedeShipley)).
+
++-- {: .proof}
+###### Proof 
+
+(...)
+
+=--
+
+
++-- {: .un_lemma #AnotherTechnicalLemma}
+###### Lemma
+
+If $U_C$ [creates](#CreatedModelStructure) the model structure on $Mon(C)$ and the unit in $C$ is cofibrant,  then a cofibrant $C$-monoid is also cofibrant as an object in $C$.
+
+=--
+
+This is 6.2 in ([SchwedeShipleyAlgebras](#SchwedeShipleyAlgebras))
+
++-- {: .proof}
+###### Proof 
+
+(...)
+
+=--
+
+
++-- {: .proof}
+###### Proof of the theorem
+
+
+For any cofibrant $B \in Mon(D)$  and fibrant $Y \in Mon(C)$ we have to show that a morphism $B \to R Y$ is a weak equivalence precisely if its adjunct $L^{mon} B \to Y$ is in $Mon(C)$.
+
+The adjunct of the the underlying morphism of $B \to R Y$ $C$ is the composite
+
+$$
+  L B \stackrel{\chi_B}{\to} L^{mon} B \to Y
+$$ 
+ 
+in $D$. 
+
+Since by assumption the model structure on $Mon(D)$ is [created](#CreatedModelStructure) by $U_D$ it follows by definition that the cofibrant $B$ is a [[retract]] of a [[cell object]] in $Mon(D)$. Then the [above lemma](#OneTechnicalLemma) asserts that
+
+$$
+  \chi_B : L B \to L^{mon} B
+$$
+
+is a weak equivalence. 
+
+Since the unit $I_D$ is by assumption cofibrant, it follows by the [above lemma](#AnotherTechnicalLemma) that a cofibrant $D$-monoid is also cofibrant as an object in $D$.
+
+Therefore the fact that $(L \dashv R)$ is a [[Quillen equivalence]] implies that $L B \to L^{mon} B \to Y$ is a weak equivalence precisely if its $(L \dashv R)$-adjunct $B \to R Y$ is, which is the statement we have to show.
+
+=--
+
 
 ## Examples
 
@@ -149,6 +244,10 @@ The lax monoidal version is considered as definition 3.6 of
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 {#SchwedeShipley}
 
+Some of the fact mentioned above are from
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
+{#SchwedeShipleyAlgebras}
 
 [[!redirects monoidal Quillen adjunctions]]
 
