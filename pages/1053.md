@@ -92,25 +92,25 @@ In [[relevant logic]], the terms "conjunction" and "disjunction" are often reser
 
 Sometimes one does not define the operation of negation, defining only $p^\perp$ for a propositional variable $p$.  It is a theorem that every proposition above is equivalent (in the sense defined below) to a proposition in which negation is applied only to propositional variables.
 
-We now define the valid sequents, where we write $A : B : C \vdash D : E : F$ to state the validity of the sequent consisting of the list $(A,B,C)$ and the list $(D,E,F)$ and use Greek letters for sublists:
+We now define the valid sequents, where we write $A, B, C \vdash D, E, F$ to state the validity of the sequent consisting of the list $(A,B,C)$ and the list $(D,E,F)$ and use Greek letters for sublists:
 
 *  The [[structural rule]]s:
    *  The [[exchange rule]]:  If a sequent is valid, then any [[permutation]] of it (created by permuting its left and right sides independently) is valid.
-   *  The restricted [[weakening rule]]:  If $\Gamma : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$, for any $A$; conversely and dually, if $\Gamma \vdash \Delta : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$ for any $A$.
-   *  The restricted [[contraction rule]]:  If $\Gamma : !{A} : !{A} : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$; conversely and dually, if $\Gamma \vdash \Delta : ?{A} : ?{A} : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$.
+   *  The restricted [[weakening rule]]:  If $\Gamma, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$, for any $A$; conversely and dually, if $\Gamma \vdash \Delta, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$ for any $A$.
+   *  The restricted [[contraction rule]]:  If $\Gamma, !{A}, !{A}, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$; conversely and dually, if $\Gamma \vdash \Delta, ?{A}, ?{A}, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$.
    *  The [[identity rule]]:  Always, $A \vdash A$;
    *  The [[cut rule]]:  If $\Gamma \vdash A$ and $A \vdash \Delta$, then $\Gamma \vdash \Delta$.
 *  The logical rules for each operation:
-   *  If $\Gamma \vdash A : \Delta$, then $\Gamma : A^\perp \vdash \Delta$; conversely and dually, if $\Gamma : A \vdash \Delta$, then $\Gamma \vdash A^\perp : \Delta$.
-   *  If $\Gamma : A : \Delta \vdash \Theta$ or $\Gamma : B : \Delta \vdash \Theta$, then $\Gamma : A \& B : \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta : A : \Theta$ and $\Gamma \vdash \Delta : B : \Theta$, then $\Gamma \vdash \Delta : A \& B : \Theta$.
-   *  Dually, if $\Gamma \vdash \Delta : A : \Theta$ or $\Gamma \vdash \Delta : B : \Theta$, then $\Gamma \vdash \Delta : A \oplus B : \Theta$; conversely, if $\Gamma : A : \Delta \vdash \Theta$ and $\Gamma : B : \Delta \vdash \Theta$, then $\Gamma : A \oplus B : \Delta \vdash \Theta$.
-   *  If $\Gamma : A : B \Delta \vdash \Theta$, then $\Gamma : A \otimes B : \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta : A $ and $\vdash B : \Theta$, then $\Gamma \vdash \Delta : A \otimes B : \Theta$.
-   *  Dually, if $\Gamma \vdash \Delta : A : B : \Theta$, then $\Gamma \vdash \Delta : A \parr B : \Theta$; conversely, if $A : \Gamma \vdash \Delta$ and $\Theta : B \vdash$, then $\Theta : A \parr B : \Gamma \vdash \Delta$.
-   *  Always $\Gamma \vdash \Delta : \top : \Theta$; dually (there is no converse), $\Gamma : \mathbf{0} : \Delta \vdash \Theta$.
-   *  If $\Gamma : \Delta \vdash \Theta$, then $\Gamma : \mathbf{1} : \Delta \vdash \Theta$; conversely, $\vdash \mathbf{1}$.
-   *  Dually, if $\Gamma \vdash \Delta : \Theta$, then $\Gamma \vdash \Delta : \bot : \Theta$; conversely, $\bot \vdash$.
-   *  If $\Gamma : A : \Delta \vdash \Theta$, then $\Gamma : !{A} : \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta : A : \Theta$, then $\Gamma \vdash \Delta : !{A} : \Theta$, whenever $\Gamma$ consists entirely of propositions of the form $!{-}$ while $\Delta$ and $\Theta$ consist entirely of propositions of the form $?{-}$.
-   *  Dually, if $\Gamma \vdash \Delta : A : \Theta$, then $\Gamma \vdash \Delta : ?{A} : \Theta$; conversely, if $\Gamma : A : \Delta \vdash \Theta$, then $\Gamma : ?{A} : \Delta \vdash \Theta$, whenever $\Gamma$ and $\Delta$ consist entirely of propositions of the form $!{-}$ while $\Theta$ consists entirely of propositions of the form $?{-}$.
+   *  If $\Gamma \vdash A, \Delta$, then $\Gamma, A^\perp \vdash \Delta$; conversely and dually, if $\Gamma, A \vdash \Delta$, then $\Gamma \vdash A^\perp, \Delta$.
+   *  If $\Gamma, A, \Delta \vdash \Theta$ or $\Gamma, B, \Delta \vdash \Theta$, then $\Gamma, A \& B, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A, \Theta$ and $\Gamma \vdash \Delta, B, \Theta$, then $\Gamma \vdash \Delta, A \& B, \Theta$.
+   *  Dually, if $\Gamma \vdash \Delta, A, \Theta$ or $\Gamma \vdash \Delta, B, \Theta$, then $\Gamma \vdash \Delta, A \oplus B, \Theta$; conversely, if $\Gamma, A, \Delta \vdash \Theta$ and $\Gamma, B, \Delta \vdash \Theta$, then $\Gamma, A \oplus B, \Delta \vdash \Theta$.
+   *  If $\Gamma, A, B \Delta \vdash \Theta$, then $\Gamma, A \otimes B, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A $ and $\vdash B, \Theta$, then $\Gamma \vdash \Delta, A \otimes B, \Theta$.
+   *  Dually, if $\Gamma \vdash \Delta, A, B, \Theta$, then $\Gamma \vdash \Delta, A \parr B, \Theta$; conversely, if $A, \Gamma \vdash \Delta$ and $\Theta, B \vdash$, then $\Theta, A \parr B, \Gamma \vdash \Delta$.
+   *  Always $\Gamma \vdash \Delta, \top, \Theta$; dually (there is no converse), $\Gamma, \mathbf{0}, \Delta \vdash \Theta$.
+   *  If $\Gamma, \Delta \vdash \Theta$, then $\Gamma, \mathbf{1}, \Delta \vdash \Theta$; conversely, $\vdash \mathbf{1}$.
+   *  Dually, if $\Gamma \vdash \Delta, \Theta$, then $\Gamma \vdash \Delta, \bot, \Theta$; conversely, $\bot \vdash$.
+   *  If $\Gamma, A, \Delta \vdash \Theta$, then $\Gamma, !{A}, \Delta \vdash \Theta$; conversely, if $\Gamma \vdash \Delta, A, \Theta$, then $\Gamma \vdash \Delta, !{A}, \Theta$, whenever $\Gamma$ consists entirely of propositions of the form $!{-}$ while $\Delta$ and $\Theta$ consist entirely of propositions of the form $?{-}$.
+   *  Dually, if $\Gamma \vdash \Delta, A, \Theta$, then $\Gamma \vdash \Delta, ?{A}, \Theta$; conversely, if $\Gamma, A, \Delta \vdash \Theta$, then $\Gamma, ?{A}, \Delta \vdash \Theta$, whenever $\Gamma$ and $\Delta$ consist entirely of propositions of the form $!{-}$ while $\Theta$ consists entirely of propositions of the form $?{-}$.
 
 The main point of linear logic is the restricted use of the weakening and contraction rules; if these were universally valid (applying to any $A$ rather than only to $!{A}$ or $?{A}$), then the additive and multiplicative operations would be equivalent (in the sense defined below) and similarly $!{A}$ and $?{A}$ would be equivalent to $A$, which would give us [[classical logic]].  On the other hand, one can also remove the exchange rule to get a variety of [[noncommutative logic]]; one must then be careful about how to write the other rules (which we have been above).
 
@@ -142,7 +142,7 @@ It is also a theorem that negation (except for the negations of propositional va
 
 (In this way, linear logic has a perfect [[de Morgan duality]].)  The logical rules for negation can then be proved.
 
-We can also restrict attention to sequents with one term on either side as follows:  $\Gamma \vdash \Delta$ is valid if and only if $\bigotimes \Gamma \vdash \parr \Delta$ is valid, where $\bigotimes(A : B : C) \coloneqq A \otimes B \otimes C$, etc, and similarly for $\parr$ (using implicitly that these are associative, with identity elements to handle the [[empty sequence]]).
+We can also restrict attention to sequents with one term on either side as follows:  $\Gamma \vdash \Delta$ is valid if and only if $\bigotimes \Gamma \vdash \parr \Delta$ is valid, where $\bigotimes(A, B, C) \coloneqq A \otimes B \otimes C$, etc, and similarly for $\parr$ (using implicitly that these are associative, with identity elements to handle the [[empty sequence]]).
 
 We can even restrict attention to sequents with no term on the left side and one term on the right; $A \vdash B$ is valid if and only if $\vdash A \multimap B$ is valid, where $A \multimap B \coloneqq A^\perp \parr B$.  In this way, it\'s possible to ignore sequents entirely and speak only of propositions and valid propositions, eliminating half of the logical rules in the process.  However, this approach is not as beautifully symmetric as the full sequent calculus.
 
@@ -152,7 +152,7 @@ We can even restrict attention to sequents with no term on the left side and one
 The logic described above is full classical linear logic.  There are many important fragments of linear logic, such as multiplicative linear logic, intuitionistic linear logic (in which $\multimap$ is a primitive operation), etc.
 
 
-## Categorial formulation
+## Categorial formulations
 
 ### $*$-autonomous categories
 
@@ -200,6 +200,7 @@ category.  The [[exponential object|exponential]] (unsurprisingly for a Kleisli
 category) is $B^A \cong !A\multimap B$.
 
 Particular monoidal and $*$-autonomous [[posets]] for modeling linear logic can be obtained by [[Day convolution]] from [[ternary frames]].  This includes Girard's *phase spaces* as a particular example.
+
 
 ### Polycategories
 
