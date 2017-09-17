@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -25,6 +26,8 @@
 
 By the construction of [[complex oriented cohomology theories]] from [[formal groups]] (via the [[Landweber exact functor theorem]]), the [[height of a formal group|height filtration]] of formal groups induces a "[[chromatic filtration|chromatic]]" [[filtration]] on [[complex oriented cohomology theories]]. 
 _Chromatic homotopy theory_ is the study of [[stable homotopy theory]] and specifically of [[complex oriented cohomology theories]] by means of and along this [[chromatic filtration]].
+
+More abstractly, this filtering is induced by the [[prime spectrum of a symmetric monoidal stable (∞,1)-category]] of the [[(∞,1)-category of spectra]] for [[p-localization|p-local]] [[finite spectra]], which is labeled by the [[Morava K-theories]].
 
 More in detail, for each [[prime]] $p \in \mathbb{N}$ and for each  $n \in \mathbb{N}$ there is a [[Bousfield localization of spectra]]
 
