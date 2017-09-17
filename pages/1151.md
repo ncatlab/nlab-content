@@ -484,6 +484,66 @@ Zoran: I am not happy with this assertion. First of all the notion of the derive
 =--
 
 
+#### Nonabelian sheaf cohomology {#NonabelianSheafCohomology}
+
+For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]] equipped with the canonical structure of an [[(∞,1)-site]], let 
+
+$$
+  \mathbf{H}
+  :=
+  Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))
+$$
+
+be the [[(∞,1)-category of (∞,1)-sheaves]] on $X$. 
+
+Write
+
+$$
+  (LConst \dashv \Gamma) :  Sh_{(\infty,1)}(X)
+  \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+$$
+
+be the [[global section]]s terminal [[geometric morphism]]. 
+
+For $A \in \infty Grpd$, the ([[nonabelian cohomology|nonabelian]]) [[cohomology]] of $X$ with coefficients in $A$ is usually defined in [[∞Grpd]]  $simeq $ [[Top]] as
+
+$$
+  H(X,A) := \pi_0 Func(Sing X, A)
+  \,,
+$$
+
+where $Sing X$ is the [[fundamental ∞-groupoid]] of $X$. On the other hand, if we send $A$ into $Sh_{(\infty,1)}(X)$ via $LConst$, the there is the _intrinsic_ [[cohomology]] of the $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ with coefficients in the [[constant ∞-stack|constant (∞,1)-sheaf]] on $A$
+  
+$$
+  H'(X,A) := \pi_0 Sh_{(\infty,1)}(X)(X, LConst A)
+  \,.
+$$
+
+Noticing that $X$ is in fact the [[terminal object]] of $Sh_{(\infty,1)}(X)$ and that $Sh_{(\infty,1)}(X)(X,-)$ is in fact that [[global section]]s functor, this is equivalently
+
+$$
+  \cdots \simeq \pi_0 \Gamma LConst A
+  \,.
+$$
+
++-- {: .un_theorem }
+###### Theorem
+
+If $X$ is a [[paracompact space]], then these two definitins of [[nonabelian cohomology]] of $X$ with [[constant ∞-stack|constant coefficients]] $A \in \infty Grpd$ agree:
+
+$$
+  H(X,A) := \pi_0 \infty Grpd(Sing X,A)  \simeq Sh_{(\infty,1)}(X)(X,LConst A)
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, theorem 7.1.0.1]]. For more details see [[(∞,1)-category of (∞,1)-sheaves]].
+
+
+
+
+
 #### Hochschild and cyclic cohomology
 
 [[Hochschild cohomology]] 
