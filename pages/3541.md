@@ -146,9 +146,8 @@ This was further developed in
 
 * [[Bob Coecke]], Eric Paquette, [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
 
-See also
-
-* [pdf](http://www.cs.ox.ac.uk/people/bob.coecke/Leverhulme.pdf)
+* [[Bob Coecke]], [[Chris Heunen]], _Pictures of complete positivity in arbitrary dimension_, EPTCS 95, 2012, pp. 27-35 ([arXiv:1110.3055](http://arxiv.org/abs/1110.3055))
+ {#CoeckeHeunen11}
 
 
 [[!redirects quantum channel]]
@@ -156,3 +155,6 @@ See also
 [[!redirects quantum operation]]
 [[!redirects quantum operations]]
 [[!redirects quantum operations and channels]]
+
+[[!redirects completely positive map]]
+[[!redirects completely positive maps]]
