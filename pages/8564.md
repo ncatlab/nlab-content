@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -132,6 +132,12 @@ In the other direction, suppose $M$ is torsionfree. Any module is the filtered c
 
 ### Structure theory of finitely generated modules 
 
+...
 
+
+[[!redirects principal ideal domain]]
 [[!redirects principal ideal domains]]
-
+[[!redirects pid]]
+[[!redirects pids]]
+[[!redirects PID]]
+[[!redirects PIDs]]
