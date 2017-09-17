@@ -5,17 +5,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -33,13 +33,15 @@ For a point-based notion of space such as a [[topological space]], a closed subs
 
 A subset is closed precisely if
 
-* it contains all its [[limit point]]s.
+* it contains all its [[limit points]].
+
 
 ### Locales
 
 In [[locale]] theory, every open $U$ in the locale defines a closed subspace which is given by the __closed [[nucleus]]__
 $$ j_{U'}\colon V \mapsto U \cup V .$$
 The idea is that this subspace is the part of $X$ which does not involve $U$ (hence the notation $U'$, or any other notation for a [[complement]]), and we may identify $V$ with $U \cup V$ when we are looking only away from $U$.
+
 
 ## Related concepts
 
@@ -53,10 +55,10 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 
 
 [[!redirects closed subspace]]
-[[!redirects closed subset]]
-[[!redirects closed set]]
 [[!redirects closed subspaces]]
+[[!redirects closed subset]]
 [[!redirects closed subsets]]
+[[!redirects closed set]]
 [[!redirects closed sets]]
 
 [[!redirects topological closure]]
@@ -68,6 +70,6 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 [[!redirects closed nuclei]]
 
 [[!redirects closed space]]
-[[!redirects closed topological space]]
 [[!redirects closed spaces]]
+[[!redirects closed topological space]]
 [[!redirects closed topological spaces]]
