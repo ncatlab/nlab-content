@@ -230,3 +230,4 @@ The discussion of [[model category]] models is in A.3.4.
 [[!redirects functor (infinity,1)-category]]
 [[!redirects (∞,1)-functor categories]]
 [[!redirects functor (∞,1)-categories]]
+[[!redirects functor (∞,1)-category]]
