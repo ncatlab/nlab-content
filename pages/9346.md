@@ -22,23 +22,23 @@
 =--
 
 
-> under construction
-
 This page is to provide non-technical or maybe semi-technical discussion of the nature and role of the [[theory (physics)|theory]] of fundamental [[physics]] known as _[[string theory]]_. For more technical details and further pointers see at _[[string theory]]_.
 
 #Contents#
 * table of contents
 {:toc}
 
+## FAQ
 
-## What is string theory?
+
+### What is string theory?
  {#WhatIsStringTheory}
 
 What is called _[[perturbative string theory]]_ is a variant of _[[perturbation theory]]_ in _[[quantum field theory]]_ (QFT). 
 
-One way that the latter is defined is as a means to compute [[n-point functions]] in QFT as a [[formal power series]] [[sum|summing]] over labelled [[graphs]] (called _[[Feynman diagrams]]_) of the [[correlators]] of a 1-dimensional QFT defined on these graphs (the _[[worldline]] [[theory]]_ of the [[particles]]/[[virtual particles]] whose scattering amplitude is expressed by the $n$-point function). As a variant of this, the _[[string perturbation series]]_ is defined to be a similar series, but instead of over 1-dimensional graphs now over 2-dimensional [[surfaces]] ("[[worldsheet|worldsheets]]") and instead of summing correlators of a 1d QFT, summing correlators of a 2-dimensional QFT, specifically a 2d [[CFT]].
+One way that the latter is defined is as a means to compute [[n-point functions]] in QFT as a [[formal power series]] [[sum|summing]] over labelled [[graphs]] (called _[[Feynman diagrams]]_) of the [[correlators]] of a 1-dimensional [[QFT]] defined on these graphs (the _[[worldline]] [[theory]]_ of the [[particles]]/[[virtual particles]] whose [[scattering amplitude]] is expressed by the [[n-point function]]). As a variant of this, the _[[string perturbation series]]_ is defined to be a similar series, but instead of over 1-dimensional graphs now over 2-dimensional [[surfaces]] ("[[worldsheet|worldsheets]]") and instead of summing correlators of a 1d QFT, summing correlators of a 2-dimensional QFT, specifically a [[2d CFT]].
 
-The premise of _[[perturbative string theory]]_ as a [[theory (physics)|theory]] about the [[observable universe|observable world]] is that fundamental scattering processes such as observed in [[particle accelerator]] experiments and which are to good approximation described by the Feynman perturbation series of the [[standard model of particle physics]] are more accurately described by such a [[string perturbation series]].
+The premise of _[[perturbative string theory]]_ as a [[theory (physics)|theory]] about the [[observable universe|observable world]] is that fundamental scattering processes such as observed in [[particle accelerator]] experiments and which are to good approximation described by the [[Feynman diagram|Feynman]] [[perturbation series]] of the [[standard model of particle physics]] are more accurately described by such a [[string perturbation series]].
 
 More conceptually, the premise is that 
 
@@ -56,14 +56,16 @@ There are a host of educated guesses of what non-perturbative string theory migh
 Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and large remains mysterious, if it exists at all.
 
 
-## Does string theory make predictions? How?
+### Does string theory make predictions? How?
  {#HowDoesStringTheoryMakePredictions}
+
+String theory makes predictions much as [[quantum field theory]] does, too: the theory predicts observables once a [[model (physics)|model]] has been chosen.
 
 Most every [[theory (physics)|theory]] and [[model (in theoretical physics)|model]] in [[physics]] has parameters and makes predictions only after sufficiently many parameters have been fixed by measuring them in experiment. 
 
 For instance Newton's theory of [[gravity]] says that the gravitational [[force]] of a pointlike [[mass]] is proportional to the inverse square of the distance from that mass. This is the theory, the proportionality factor (now called [[gravitational constant|Newton's constant]]) is the free parameter that has to be fixed by experiment. 
 
-In string theory as in any other theory of physics, it is the same general principle, only that the theory is much richer. There are lots of [[model (in theoretical physics)|models]] in string theory that make very detailed statements about the resulting physics. Moreover, many of these have good general agreement with presently observed data (an class of examples is discussed at _[[G2-MSSM]]_), so this is as in traditional model building. 
+In string theory as in any other theory of physics, it is the same general principle, only that the theory is much richer. There are lots of [[model (in theoretical physics)|models]] in string theory that make very detailed statements about the resulting physics. Moreover, many of these have good general agreement with presently observed data (an class of examples is discussed at _[[G2-MSSM]]_), so this is as in traditional model building. See at _[[string phenomenology]]_ for further pointers.
 
 The remaining problem is the following, and this is not specific to string theory but faced by any theory that provides a [[UV-completion]] of the standard model plus gravity ([[quantum gravity]]): the problem is that after parameters have been fixed this way by finding a model that reproduces the  standard model reasonably accurately, all the remaining properties of the model,  hence the predictions of the model, tend to be at high energies ("[[Planck scale]]") and hence not within reach of of present experiment.
 
@@ -85,12 +87,12 @@ Notice that there is no a priori reason in [[quantum field theory]] that of all 
 Nevertheless, in spite of this higher predictivity of string theory in principle, in practice it has not yet lead to much insight that would actually affect particle physics models in practice.
 
 
-## Is string theory testable?
+### Is string theory testable?
  {#IsStringTheoryTestable}
 
 This question overlaps with the question _[How does string theory make predictions?](#HowDoesStringTheoryMakePredictions)_, but it maybe deserves its own answer.
 
-In both [[QFT]] as well as [[string theory]] one  "builds [[model (in theoretical physics)|models]]" within the general theory and tests these, as far as their predictions are about available experiments. Loads of string theoretic models and non string-theoretic models have been excluded by [[LHC]] data in 2021, when the experiment ruled out more and more of the possible parameter space for one global spacetime [[supersymmetry]] somewhere at the [[electroweak symmetry breaking]] scale. So all this was testable, has been tested and turned out to be wrong.
+In both [[QFT]] as well as [[string theory]] one  "builds [[model (in theoretical physics)|models]]" within the general theory and tests these, as far as their predictions are about available experiments. Loads of string theoretic models and non string-theoretic models have been excluded by [[LHC]] data in 2021, when the experiment ruled out more and more of the possible parameter space for one [[global supersymmetry|global]] [[spacetime]] [[supersymmetry]] somewhere at the [[electroweak symmetry breaking]] scale (see also _[Does string theory predict supersymmetry](#DoesSTPredictSupersymmetry)_ below). So all this was testable, has been tested and turned out to be wrong.
 
 So [[model (in theoretical physics)|model]] building in string theory is much as in QFT. When a model is ruled out, it does not necessarily mean that string theory is ruled out or that QFT is ruled out, but it means that the possibilities for adjusting the free parameters in the theory are being reduced. 
 
@@ -104,15 +106,22 @@ An example of how string theory is more constrained in its model building than e
 
 On the other hand, no other theoretical framework was equally tested by this astronomical observation. In all other existing theoretical frameworks you simply take a pen and change the sign of the cosmological constant by hand. The theory does not control it, it's a free parameter. So it seems justifiable to say that string theory is actually _more testable_ than other existing theoretical frameworks. Of course to appreciate what this means one has to pay attention to what it means to test a theory by testing all its parameter space of models, as illustarted by the Einstein "biggest blunder"-example.
 
-## Does string theory predict supersymmetry? 
+### Does string theory predict supersymmetry? 
  {#DoesSTPredictSupersymmetry}
 
 Superstring _theory_ asserts "[[local supersymmetry]]", namely [[worldsheet]] and [[spacetime]] [[supergravity]]. But any [[model (physics)]] in string theory may or may not retain [[global supersymmetry]] at some energy scale, after [[spontaneous symmetry breaking]].
 
-In fact the generic model has no reason to preserve any global supersymmetry at at, just as the generic solution of [[Einstein's equations]] does not preserve any [[Lorentz group]] symmetry. The condition that a [[Kaluza-Klein compactification]] of 10-dimensional [[supergravity]] to 4d exhibits precisely one global supersymmetry is equivalent to the compatification space being a [[Calabi-Yau manifold]]. While this is a famous condition that has been extensively studied, nothing in the theory requires compatification on CY manifolds. These are (or were) only considered because for _[[phenomenology|phenomenological]]_ reasons
+In fact the generic model has no reason to preserve any 
+[[global supersymmetry]] at at, just as the generic solution of [[Einstein's equations]] does not preserve any [[Lorentz group]] symmetry. The condition that a [[Kaluza-Klein compactification]] of 10-dimensional [[supergravity]] to 4d exhibits precisely one global supersymmetry is equivalent to the compatification space being a [[Calabi-Yau manifold]]. While this is a famous condition that has been extensively studied, nothing in the theory requires compatification on CY manifolds. These are (or were) only considered because for _[[phenomenology|phenomenological]]_ reasons
 it is (or was) expected that our observed world exhibits global low-energy supersymmetry. 
 
-## How/why does string theory depend on "backgrounds"?
+The role of [[local supersymmetry]] ([[supergravity]]) which superstring theory does predict is quite different from that of low energy global supersymmetry. Notice that as soon as there is a [[fermion]] in the world it follows that [[spacetime]] is described by _[[supergeometry]]_, since fermion field are necessarily formalized by anticommuting functions in the [[Lagrangian]] defining any [[prequantum field theory]] containing them. Now [[supergeometry]] alone does not mean that there is an [[action]] of the [[super Poincaré Lie algebra]] on anything, which is what is called [[supersymmetry]]. 
+
+On the other hand, in low [[worldvolume]] dimension this tends to be inevitable. For instance the [[worldline]] theory of any [[spinning particle]] (such as [[electrons]]) necessarily has worldline supersymmetry, see at _[spinning particle - Worldline supersymmetry](spinning+particle#WorldlineSupersymmetry)_ and at _[spinning particle - Worldline supersymmetry - References](http://ncatlab.org/nlab/show/spinning+particle#WorldlineSupersymmtryReferences)_.
+
+Similarly, the standard [[sigma-model]] [[worldsheet]] [[action functional]] of the [[spinning string]] was not originally intended to be supersymmetric, but just so happens to come out this way. The special phenomenon as opposed to the superparticle is that the worldsheet supersymmetry of the string _implies_ that its [[second quantization]] [[effective field theory]] is also locally supersymmetric, hence is a [[theory (physics)|theory]] of [[supergravity]].
+
+### How/why does string theory depend on "backgrounds"?
  {#BackgroundDependence}
 
 To answer this question one needs -- as discussed at _[What is string theory?](#WhatIsStringTheory)_ -- to distinguish between _[[perturbative string theory]]_ and _[[non-perturbative string theory]]_.
@@ -125,7 +134,8 @@ This example also serves to illustrate in which sense a perturbation series "dep
 
 For QFT [[perturbation series]] we have essentially the same situation: the [[correlators]] of the theory are expressed as [[formal power series]] in the [[coupling constants]] of the [[theory (physics)|theory]] and in [[Planck's constant]], which are the [[formal geometry|formal]] approximations to the true non-pertrubative correlators expanded about zero coupling and vanishing Planck's constant. At that 0-point the theory is non-interacting and "classical", meaning that this is the point of a solution to the classical [[equations of motion]] of the non-interacting theory. Such a solution is also called a _[[vacuum]]_ or a _background_ of the quantum theory. Notably in theories containing [[gravity]] (such as string theory), such a background involves a solutions to [[Einstein's equations]], hence involves fixing a [[spacetime]] [[manifold]] on which all further perturbative quantum fields propagate. 
 
-By the above logic, while the specific perturbation series depends on the choice of this classical solution, hence the choice of "background" or of [[vacuum]], this dependency is not a property of the underlying non-perturbative theory but is a defining property of what it means to consider a perturbative approximation. (The subtlety being that for all QFTs of interest the radius of convergence of that formal series is necessarily 0...)
+By the above logic, while the specific perturbation series depends on the choice of this classical solution, hence the choice of "background" or of [[vacuum]], this dependency is not a property of the underlying non-perturbative theory but is a defining property of what it means to consider a perturbative approximation. (The subtlety being that for all QFTs of interest the 
+[[radius of convergence]] of that formal series is necessarily 0, see the discussion at _[Isn't it fatal that the string perturbatin series does not converge?](#NonConvergenceOfPerturbationSeries)_ )
 
 By design, all this applies also to [[perturbative string theory]].
 
@@ -135,12 +145,19 @@ Consistency arguments for this speculation have been given in ([Witten xy](#Witt
 
 
 
-## Did string theory provide any insight relevant in experimental particle physics?
+### Did string theory provide any insight relevant in experimental particle physics?
+ {#InsightInParticlePhysics}
 
-Yes. One curious aspect of string theory is that independently of its role as a source for models in particle physics, it provides connections in the space of all possible quantum field theories: lots of different quantum field theories (many of them highly unrealistic as phenomenology goes, but interesting for theoretical investigations) appear as different limits and special cases inside string theory, and their embedding into a single framework this way explains many unexpected relations between them. One of this has led to recent progress simply in computional tools of perturbation series. LHC physicists claimed that without the insight from string theory, the evaluation software used at the LHC ould not have been precise enough to see the Higgs in the data. Details on this are linked to at [[string theory results applied elsewhere]]. This is maybe the example most directly related to experimental physics, but there are varius other relations ("dualities") between QFTs learned from or better understood with string theory. ([[Seiberg duality]] for instance, long list will go here...)
+Yes. One curious aspect of string theory is that independently of its role as a source for models in particle physics, it provides connections in the space of all possible quantum field theories: lots of different quantum field theories (many of them highly unrealistic as phenomenology goes, but interesting for theoretical investigations) appear as different limits and special cases inside string theory, and their embedding into a single framework this way explains many unexpected relations between them. One of this has led to recent progress simply in computional tools of perturbation series. LHC physicists claimed that without the insight from string theory, the evaluation software used at the LHC ould not have been precise enough to see the Higgs in the data. 
+
+Details on this are linked to at 
+
+* _[[string theory results applied elsewhere]]_. 
+
+This is maybe the example most directly related to experimental physics, but there are varius other relations ("dualities") between QFTs learned from or better understood with string theory. ([[Seiberg duality]] for instance, long list will go here...)
 
 
-## Does string theory tell us anything about cosmology, such as the Big bang or cosmic inflation?
+### Does string theory tell us anything about cosmology, such as the Big bang or cosmic inflation?
  {#InsightsIntoCosmology}
 
 No. Looking back at the answer to _[What is string theory?](#WhatIsStringTheory)_ we have that the only thing really defined is [[perturbative string theory]] -- and quantum [[perturbation theory]] is clearly insufficient for discussion of strongly coupled phenomena such as [[cosmology|cosmological]] phenomena (as opposed to those tiny excitations studied in particle accelerators).
@@ -155,18 +172,41 @@ On the other hand, in theories of [[supergravity]] such as string theory, there 
 
 Since the [[singularity]] involved in back holes is a similar kind of singularity as that involved in the [[big bang]] one might think that some analogous method is useful in the latter case. But if so, it has not surfaced so far.
 
-## Isn't it fatal that the string perturbation series does not converge?
+### Isn't it fatal that the string perturbation series does not converge?
  {#NonConvergenceOfPerturbationSeries}
 
-On the contrary, the [[perturbation series]] of any interesting QFT is supposed to have [[radius of convergence]] equal to 0. Because the expansion parameter is the [[coupling constant]] and if the series had a finite radius of convergence, there would be also _negative_ values of the coupling for which the correlators are convergent.
+On the contrary, the [[perturbation series]] of any interesting QFT is supposed to have [[radius of convergence]] equal to 0. Because the expansion parameter is the [[coupling constant]] and if the series had a finite radius of convergence, there would be also _negative_ values of the coupling for which the correlators are convergent. See at _[[non-perturbative effect]]_ for more.
 
 So the non-convergence of the string perturbation series is just as it should be in QFT. The important point is rather that the string perturbation series is _termwise_ finite (proven so for [[bosonic string theory]] and the first orders of [[superstring theory]]), which means that it is already [[renormalization|renormalized]]: the higher string modes provide the natural counterterms for the renormalization.
 
-## How is string theory related to the theory of gravity?
+### How is string theory related to the theory of gravity?
 
-(..)
+(...)
 
-## What does it mean to say that string theory depends on 'miracles', such as anomaly cancellation and avoidance of divergences?
+### What does it mean to say that string theory depends on 'miracles', such as anomaly cancellation and avoidance of divergences?
 
 
-(..)
+(...)
+
+
+## Further expositions, introductions and lectures
+
+Other entries on the $n$Lab with related lecture notes, expositions and introductions include
+
+* [[geometry of physics]]
+
+* [[twisted smooth cohomology in string theory]]
+
+## References
+
+* [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
+[[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
+
+  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+* [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ,Proceedings of Symposia in Pure Mathematics, [volume 83](http://www.ams.org/bookstore?fn=20&arg1=pspumseries&ikey=PSPUM-83) AMS (2011)
+
+For more see at 
+
+* _[[books about string theory]]_
+
