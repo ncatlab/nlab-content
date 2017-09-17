@@ -25,8 +25,6 @@ A _hypercover_ is the generalization of a [[Cech nerve]] of a [[cover]]: it is a
 ## Definition
 
 
-+-- {: .un_defn}
-###### Definition
 
 Let 
 
@@ -35,7 +33,12 @@ $$
   PSh(C)
 $$
 
-be the [[geometric embedding]] defining a [[sheaf topos]] $Sh(C)$ into a [[presheaf topos]] $PSh(C)$. A morphism
+be the [[geometric embedding]] defining a [[sheaf topos]] $Sh(C)$ into a [[presheaf topos]] $PSh(C)$. 
+
++-- {: .un_defn}
+###### Definition
+
+A morphism
 
 $$
   (Y \stackrel{f}{\to} X) \in PSh(C)^{\Delta^{op}}
@@ -47,15 +50,11 @@ $$
   Y_{n} \to (\mathbf{cosk}_{n-1} Y)_n \times_{(\mathbf{cosk}_{n-1} X)_n} X_n
 $$
 
-in $PSh(C)$ are [[local epimorphism]]s (in other words, $f$ is a "[[Reedy model structure|Reedy]] local-epimorphism").  Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
+in $PSh(C)$ are [[local epimorphism]]s (in other words, $f$ is a "[[Reedy model structure|Reedy]] local-epimorphism").  
 
-In low degree the local epimorphisms here are  
 
-* in degree 0: $Y_0 \to X_0$;
+Here $\mathbf{cosk}_n : PSh(C)^{\Delta^{op}} \to PSh(C)^{\Delta^{op}}$ is the [[coskeleton]] functor in degree $n$.
 
-* in degree 1: $Y_1 \to Y_0 \times_X Y_0$
-
-* and so on.
 
 A hypercover is called **bounded** by $n \in \mathbb{N}$ if for all $k \geq n$ the morphisms $Y_{k} \to (\mathbf{cosk}_{k-1} Y)_k \times_{(\mathbf{cosk}_{k-1} X)_k} X_k$ are [[isomorphism]]s.
 
@@ -121,6 +120,58 @@ If the [[topos]] $Sh(C)$ has [[point of a topos|enough points]] a morphism $f : 
 In this form the notion of hypercover appears for instance in ([Brown](#Brown)).
 
 In some situations, we may be interested primarily in hypercovers that are built out of data entirely in the site $C$.  We obtain such hypercovers by restricting $X$ to be a discrete simplicial object which is representable, and each $Y_n$ to be a coproduct of representables.  This notion can equivalently be formulated in terms of diagrams $(\Delta/A) \to C$, where $A$ is some simplicial set and $(\Delta/A)$ is its [[category of simplices]].
+
+## Examples
+
++-- {: .un_examples}
+###### Example
+
+Consider the case that $X = const X_0$ is simplicially constant. Then the conditions on a morphism $Y \to X$ to be a hypercover is as follows.  
+
+* in degree 0: $Y_0 \to X_0$ is a local epimorphism.
+
+* in degree 1: The commuting diagram in question is
+
+  $$
+    \array{
+      Y_1 &\to& X_0
+      \\
+      \downarrow && \downarrow^{\mathrlap{diag}}
+      \\
+      Y_0 \times Y_0 &\to& X_0 \times X_0
+    }
+    \,.
+  $$
+
+  Its [[pullback]] is $(Y_0 \times Y_0)_{X_0 \times X_0} X_0 \simeq Y_0 \times_{X_0} Y_0$, Hence the condition is that
+
+  $Y_1 \to Y_0 \times_{X_0} Y_0$ is a local epimorphism.
+
+* in degree 2: The commuting diagram in question is
+
+  $$
+    \array{
+      Y_2 &\to& X_0
+      \\
+      \downarrow && \downarrow^{Id}
+      \\
+      (Y_1 \times_{Y_0} Y_1 \times_{Y_0}Y_1)_{\times_{Y_0 \times Y_0}}  Y_0
+      &\to& X_0
+    }
+    \,.
+  $$
+ 
+  So the condition is that the vertical morphism is a local epi.
+
+* Similarly, in any degree $n \geq 2$ the condition is that
+  
+  $$
+    Y_n \to (\mathbf{cosk}_{n-1} Y)_n
+  $$
+
+  is a local epimorphism.
+
+=--
 
 
 ## Properties
