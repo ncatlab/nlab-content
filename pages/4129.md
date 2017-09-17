@@ -22,4 +22,4 @@ which sends a [[simplicial complex]] $(V, \Sigma)$ to $\Sigma$ (regarded as a po
 
 $$Flag \circ U: SimpComplex \to SimpComplex$$ 
 
-is called the [[subdivision]] functor. 
+is called the [[subdivision]] functor, or, more exactly, the [[barycenter|barycentric subdivision]] functor.
