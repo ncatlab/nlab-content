@@ -22,6 +22,9 @@ lays the foundations of the theory of [[programming languages]] in terms of [[ty
 
 ## Related entries
 
-* [[Practical Foundations]]
+* [[Practical Foundations of Mathematics]]
+
 
 category: reference
+
+[[!redirects Practical Foundations for Programming Languages]]
