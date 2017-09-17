@@ -39,6 +39,8 @@ $$
 ## Interpretation in higher geometry
  {#InterpretationInHigherGeometry}
 
+> under construction
+
 +-- {: .num_remark #nExtendedHamiltonEquationAsLInfinityRelation}
 ###### Remark
 
@@ -156,6 +158,93 @@ $$
 which is again the de Donder-Weyl-Hamilton equation of motion.
 
 =--
+
+
++-- {: .num_prop #HDWAsMaurerCartan}
+###### Proposition
+
+For $(X,\omega)$ a pre-[[n-plectic manifold]] and $\mathfrak{poiss}(X,\omega)$ the corresponding [[Poisson bracket Lie n-algebra]] then 
+[[L-∞ algebra]] [[homomorphisms]] of the form
+
+$$
+  \mathbb{R}^k \longrightarrow \mathfrak{pois}(X,\omega)
+$$
+
+are in bijection to tuples consisting of $k$ [[vector fields]] $(v_1, \cdots, v_k)$ on $X$ and differential forms $\{J_{i_1 \cdots i_l}\}$ and a smooth function $H$ on $X$ such that
+
+$$
+  \iota_{v_{1_1} \cdots v_{i_l}} \omega = \pm \mathbf{d} J_{i_1 \cdots i_l}
+$$
+
+$$
+  \iota_{v_{1_1} \cdots v_{i_n}} \omega = \pm \mathbf{d} H
+$$
+
+holds. 
+
+=--
+
+The following is the higher/local analog of the [[symplectic Noether theorem]].
+
+For $(X,\omega)$ a pre-[[n-plectic manifold]], (...)
+
+let 
+$H \in C^\infty(X)$ be a [[smooth function]] to be regarded
+as a [[de Donder-Weyl Hamiltonian]] and let $(v_1, \cdots, v_n)$
+be a Hamiltonian $n$-vector field, hence a solution to the 
+Hamilton-de Donder-Weyl equation of motion. By 
+prop. \ref{kTuplesOfCommutingDWFlows} this corresponds to an
+[[L-∞ algebra]] map of the form
+
+$$
+  ((v_1, \cdots, v_n), H) 
+     \;\colon\; 
+  \mathbb{R}[n-1] \longrightarrow \mathfrak{pois}(X,\omega)
+  \,.
+$$
+
+
++-- {: .num_prop }
+###### Proposition
+**(higher symplectic Noether theorem)**
+
+The extension of $((v_1, \cdots, v_n), H)$
+to a homomorphism of the form
+
+$$
+  ((v_1, \cdots, v_n, v_0), H, J, \{K_i\}) 
+    \;\colon\; 
+  \mathbb{R}[n-1]\oplus \mathbb{R} 
+    \longrightarrow 
+  \mathfrak{pois}(X,\omega)
+$$
+
+is equivalently the choice of a vector field $v_0$ on $X$ such that
+
+$$
+  \iota_{v_0} \mathbf{d}H
+  =
+  
+$$
+
+
+
+$$
+  \iota_{v_0} \omega = \pm \mathbf{d}J
+$$
+
+$$
+  \iota_{v_1 \cdots v_n} \omega = \pm \mathbf{d}H
+$$
+
+$$
+  \iota_{v_1 \cdots v_{i-1} v_{i+1} \cdots v_n v_0} \omega
+  =
+  \mathbf{d} K^i
+$$
+
+=--
+
 
 
 ## Related concepts
