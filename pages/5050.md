@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 
@@ -19,5 +23,9 @@ A **manifold with [[boundary]]** is a topological space that is locally isomorph
 A **manifold with corners** is a topological space that is locally isomorphic to an $H^n_i = \{ \vec x \in \mathbb{R}^n | x^i , x^{i+1}, \cdots, x^n \geq 0\}$ for $0 \leq i \leq n$.
 
 For details see [[manifold]].
+
+## Related concepts
+
+* [[closed manifold]]
 
 [[!redirects manifold with corners]]
