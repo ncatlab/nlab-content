@@ -256,6 +256,8 @@ By restriction along this inclusion, the
 
 * [[model structure for dendroidal complete Segal spaces]]
 
+* [[table - models for (infinity,1)-operads]]
+
 ## References
 
 Complete Segal spaces were originally defined in 
