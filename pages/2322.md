@@ -169,6 +169,8 @@ A [[presentable (∞,1)-category]] $C$  is an [[(∞,1)-topos]] precisely if
 
 This is due to [[Charles Rezk]]. The statement appears as [[Higher Topos Theory|HTT, theorem 6.1.6.8]].
 
+The proof essentially consists of showing that by the [[adjoint functor theorem]], the existence of object classifiers is equivalent to [[continuous functor|continuity]] of the [[core]] [[self-indexing]] $C^{op} \to \infty Gpd$ defined by $x\mapsto Core(C/x)$.  In the presence of universal colimits, this latter condition is equivalent to all colimits being [[van Kampen colimits]], which in turn yields the connection to the Giraud-type exactness properties.
+
 
 
 ## Examples
