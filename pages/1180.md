@@ -105,6 +105,8 @@ An $Ab$-enriched functor preserves all finite biproducts that exist, since finit
 
 Let $R, R'$ be [[rings]].
 
+The following is the _[[Eilenberg-Watts theorem]]_. See there for more.
+
 +-- {: .num_prop #RightExactAdditiveIsTensor}
 ###### Proposition
 
@@ -118,7 +120,7 @@ with the functor that forms the [[tensor product]] with $B$.
 
 =--
 
-This is ([Watt, theorem 1](#Watt)),
+This is ([Watts, theorem 1](#Watts)),
 
 
 ## Related concepts
@@ -129,7 +131,7 @@ In the context of [[derived functors in homological algebra]] one considers func
 
 ## References
 
-* Charles Watt, _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
- {#Watt}
+* Charles Watts, _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
+ {#Watts}
 
 [[!redirects additive functors]]
