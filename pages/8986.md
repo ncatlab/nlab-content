@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
+## Definition
+
+An [[endofunctor]] on a [[category]] $\mathcal{A}$ is _pointed_ if it is a [[pointed object]] in the [[functor category|endofunctor category]] in the sense that it is equipped with a morphism from the [[identity]] functor.
+
+
++-- {: .num_defn}
+###### Definition
+
+An [[endofunctor]] $S:\mathcal{A}\to \mathcal{A}$ is called **pointed** if it is equipped with a [[natural transformation]] $\sigma:Id_\mathcal{A} \to S$.  It is called **well-pointed** if $S\sigma = \sigma S$ (as natural transformations $S\to S^2$).
+
+=--
+
+## Properties
+
+### Relation to free algebras
+
+The pointed [[algebras over an endofunctor]] on a pointed endofunctor induce a theory of _[[transfinite construction of free algebras]]_ [[algebra over an endofunctor|over]] general endofunctors.
+
+## Examples
+
+A [[monad]] can be regarded as a pointed endofunctor where $\sigma$ is its unit.  Such an endofunctor is well-pointed precisely when the monad is [[idempotent monad|idempotent]].
+
+
+## Related concepts
+
+* [[pointed object]]
+
+[[!redirects pointed endofunctors]]
