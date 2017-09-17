@@ -84,7 +84,7 @@ $$\lambda^n (1+\sum_{m=1}^\infty r_m t^m)=1+\sum_{m=1}^\infty P_{m,n}(r_1,\dots,
 
 =--
 
-([Hopkins](#Hopkins))
+([Hopkinson](#Hopkinson))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -101,7 +101,7 @@ Equivalently this result asserts that $\Lambda$ is the [[free construction|free]
 
 =--
 
-This is due to ([Hopkins](#Hopkins))
+This is due to ([Hopkinson](#Hopkinson))
 
 
 +-- {: .proof}
@@ -258,8 +258,8 @@ This statement appears in ([Hazewinkel 08, p. 87, p. 97, 98](#Hazewinkel08)).
 * John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
 
 
-* John R. Hopkins, _Universal polynomials in lambda-rings and the K-theory of the infinite loop space $tmf$_, thesis, [pdf](http://dspace.mit.edu/bitstream/handle/1721.1/34544/71011847.pdf?sequence=1)
-  {#Hopkins}
+* John R. Hopkinson, _Universal polynomials in lambda-rings and the K-theory of the infinite loop space $tmf$_, thesis, [pdf](http://dspace.mit.edu/bitstream/handle/1721.1/34544/71011847.pdf?sequence=1)
+  {#Hopkinson}
 
 * Donald Knutson, $\lambda$-Rings and the Representation Theory of the Symmetric Group, Lecture Notes in Mathematics, Vol. 308, Springer, Berlin, 1973.
 
