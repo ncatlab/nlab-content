@@ -19,13 +19,15 @@
 
 ### In components
 
-A ($\mathbb{Z}$-graded) **chain complex** in a [[category]] $C$ with a notion of [[zero morphism]] (usually [[abelian category|abelian]]) is a sequence of [[object]]s $V_n$, $n\in\mathbb{Z}$, and [[morphism]]s $\partial_n:V_n \to V_{n-1}$ called [[differential|codifferentials]] or _boundary maps_:
+A ($\mathbb{Z}$-graded) **chain complex** in a [[category]] $C$ with a notion of [[zero morphism]] (usually [[abelian category|abelian]]) is a sequence of [[object]]s $V_n$, $n\in\mathbb{Z}$, and [[morphism]]s $\partial_n:V_n \to V_{n-1}$ called [[differential|(co)differentials]] or _boundary maps_:
 
 $$ 
 \cdots \overset{\partial_3}{\to} V_2 \overset{\partial_2}{\to} V_1 \overset{\partial_1}{\to} V_0 \overset{\partial_0}{\to} V_{-1} \overset{\partial_{-1}}{\to} \cdots
 $$
 
 such that $\partial_n  \circ \partial_{n+1} = 0$ (the [[zero morphism]]) for each $n$.  
+
+(Note: the use of terminology 'differential' as against 'codifferential' depends largely on the traditions of the subject area in which the double complex is arising.)
 
 More precisely, this is a _homologically graded_ chain complex, in which the differentials lower degree; if we rename $V_n$ to $V_{-n}$ so that the differentials raise degree, it becomes a _cohomologically graded_ chain complex or a **[[cochain complex]]**.  Common choices for $C$ include [[Ab]], [[Vect]], or $R Mod$, in which case we obtain the familiar definition of an (unbounded) chain complex of abelian groups, vector spaces, or modules.
 
