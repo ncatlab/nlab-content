@@ -24,6 +24,10 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 
 * [[Yang-Mills instanton]]
 
+## Literature
 
+See also literature at [[Yang-Mills instanton]].
+* [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
+* Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
 [[!redirects instanton]]
 [[!redirects instantons]]
