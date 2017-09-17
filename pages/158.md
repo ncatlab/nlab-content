@@ -10,27 +10,37 @@
 
 ## Idea
 
-An $\infty$-groupoid -- equivalently an [[(∞,0)-category]] -- is an [[∞-category]] in which all [[k-morphism]]s for all $k$ are [[equivalences]]. They generalize [[group]]s amd [[groupoid]]s to [[higher category theory]].
+The notion of $\infty$-groupoid is the generalization of that of [[group]] amd [[groupoid]]s to [[higher category theory]]:
+
+an $\infty$-groupoid -- equivalently an [[(∞,0)-category]] -- is an [[∞-category]] in which all [[k-morphism]]s for all $k$ are [[equivalences]]. 
 
 The collection of all $\infty$-groupoids forms the [[(∞,1)-category]] [[∞Grpd]].
 
-
-## Realizations
-
-$\infty$-groupoids have a simple and very useful incarnation in [[geometric definition of higher categories]] as [[simplicial set]]s that are [[Kan complex]]es. See there for a detailed discussion of how these are $\infty$-groupoids. The [[(∞,1)-category]] of all $\infty$groupoids is [[presentable (∞,1)-category|presented]] along these lines by the Quillen [[model structure on simplicial sets]], whose fibrant-cofibrant objects are precisely the Kan complexes.
-
- 
-One may turn this into an [[algebraic definition of higher category|algebraic definition of ∞-groupoids]] by _choosing [[horn]]-fillers_ . The resulting notion is that of an [[algebraic Kan complex]] that has been shown by [[Thomas Nikolaus]] to yield an equivalent [[(∞,1)-category]] of $\infty$-groupoids.
-
-Every other algebraic definition of [[omega-categories]] is supposed to yield an equivalent notion of $\infty$-groupoid when restricted to $\omega$-categories all whose [[k-morphism]]s are invertible. This is the statement of the [[homotopy hypothesis]], which is for Kan complexes and algebraic Kan complexes a theorem and for other definitions regarded as a consistency condition.
-
-Special cases include 
+Special cases of $\infty$-groupoids include 
 
 * [[groupoid]]s;
 
 * [[2-groupoid]]s
 
-* [[delooping]]s of [[group]]s, [[2-group]]s, etc.
+* [[delooping]]s of [[group]]s, [[2-group]]s, [[∞-group]]s.
+
+
+## Realizations
+
+A simple and very useful incarnation of $\infty$-groupoids is available using a [[geometric definition of higher categories]] in the form of [[simplicial set]]s that are [[Kan complex]]es: the $k$-cells of the underlying simplicial set are the [[k-morphism]]s of the $\infty$-groupoid, and the Kan [[horn]]-filler conditions encode the fact that adjacent $k$-morphisms have a (non-unique) composite $k$-morphism and that every $k$-morphism is invertible with respect to this composition.
+See [[Kan complex]] for a detailed discussion of how these incarnate $\infty$-groupoids. 
+
+The [[(∞,1)-category]] of all $\infty$-groupoids is [[presentable (∞,1)-category|presented]] along these lines by the Quillen [[model structure on simplicial sets]], whose fibrant-cofibrant objects are precisely the Kan complexes:
+
+$$
+  \infty Grpd \simeq (sSet_{Quillen})^\circ
+  \,.
+$$
+
+ One may turn this geometric definition into an [[algebraic definition of higher category|algebraic definition of ∞-groupoids]] by _choosing [[horn]]-fillers_ . The resulting notion is that of an [[algebraic Kan complex]] that has been shown by [[Thomas Nikolaus]] to yield an equivalent [[(∞,1)-category]] of $\infty$-groupoids.
+
+Every other algebraic definition of [[omega-categories]] is supposed to yield an equivalent notion of $\infty$-groupoid when restricted to $\omega$-categories all whose [[k-morphism]]s are invertible. This is the statement of the [[homotopy hypothesis]], which is for Kan complexes and algebraic Kan complexes a theorem and for other definitions regarded as a consistency condition.
+
  
 Notably in [[Pursuing Stacks]] [[Alexander Grothendieck]] initiated the study of $\infty$-groupoids and the homotopy hypothesis with his original definition of [[Grothendieck weak infinity-groupoid]]s, that has recently attracted renewed attention.
 
