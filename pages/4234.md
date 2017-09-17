@@ -9,7 +9,7 @@
 
 In [[differential geometry]] a __conormal bundle__ of an embedded submanifold is the (fiberwise linear) dual of the [[normal bundle]]. 
 
-### Of sub locally-ringed-spaces
+### Of locally ringed subspaces
 
 The phrase conormal bundle is also used for more general [[conormal sheaf]] in the study of locally ringed spaces, especially of analytic spaces and [[algebraic schemes]]. 
 
