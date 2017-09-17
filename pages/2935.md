@@ -72,11 +72,18 @@ where $\pi \in \wedge^2_{C^\infty(C)}\Gamma(T X)$ is the Poisson tensor of $(X, 
 
 ## Properties
 
+### Relation to deformation quantization of Poisson manifolds
+
 The 2-dimensional Poisson sigma-model is [[holographic principle|holographically]] related to the 1-dimensional QFT ([[quantum mechanics]]) defined by the [[quantization]] of the Poisson manifold $(X,\{-,-\})$.
 
-This is famously due to ([CattaneoFelder](#CattaneoFelder)), following a construction by ([Kontsevich](#Kontsevich)).
+This is famously due to ([Cattaneo-Felder](#CattaneoFelder)), following a construction by ([Kontsevich](#Kontsevich)).
 
-(...)
+### Branes
+ {#Branes}
+
+The [[branes]] of the Poisson sigma model are related to
+[[coisotropic submanifolds]] of the underlying [[Poisson manifold]]. Notice that these are the [[Lagrangian dg-submanifolds]] of the [[Poisson Lie algebroid]]. ([Cattaneo-Felder 03](#CattaneoFelder03)).
+
 
 ## Related concepts
 
@@ -159,7 +166,8 @@ The interpretation in terms of [[infinity-Chern-Weil theory]] is discussed in
 
 
 
-### With branes {#LitWithBranes}
+### With branes 
+ {#LitWithBranes}
 
 The study of [[branes]] in the Poisson sigma-model has been started in 
 
@@ -167,7 +175,8 @@ The study of [[branes]] in the Poisson sigma-model has been started in
 
 * Damien Calaque, [[Giovanni Felder]], Carlo A. Rossi, _Deformation quantization with generators and relations_ ([arXiv:0911.4377](http://arxiv.org/abs/0911.4377))
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson $\sigma$-model_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/02-04.pdf))
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson $\sigma$-model_, Lett.Math.Phys. 69 (2004) 157-175 ([arXiv:0309180](http://arxiv.org/abs/math/0309180))
+ {#CattaneoFelder03}
 
 * Andrea Ferrario, _Poisson Sigma Model with branes and hyperelliptic Riemann surfaces_ ([arXiv:0709.0635](http://arxiv.org/abs/0709.0635))
 
