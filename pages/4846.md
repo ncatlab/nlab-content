@@ -270,6 +270,11 @@ Then it is rediscovered around equation (8.8) in
 
 which gives a detailed and comprehensive discussion.
 
-A discussion in the context of [[smooth super ∞-groupoids]] is in the last section of 
+A discussion in the context of [[smooth super ∞-groupoids]] is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+
+
+in the last section of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
