@@ -1,0 +1,10 @@
+
+
+* <a href="http://pure.au.dk/portal/en/persons/marcel-boekstedt(59074e22-b00f-495f-9e1a-18260477022d)/persons/marcel-boekstedt(59074e22-b00f-495f-9e1a-18260477022d).html">webpage</a>
+
+
+## related $n$Lab entries
+
+* [[topological cyclic homology]]
+
+category: people
