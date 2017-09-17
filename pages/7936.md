@@ -17,13 +17,15 @@
 
 There are at least two formalizations of [[quantization]], one of them is _[[geometric quantization]]_. In this context a [[quantum state]] is identified with a certain [[section]] (a [[polarization|polarized]] section) of a certain [[complex line bundle]]: the [[prequantum line bundle]].
 
-Here a [[section]] of the [[prequantum line bundle]] is what is physics ia called a **wave function** on the space of [[field (physics)|field]] configurations. A choice of [[polarization]] on this space is a choice of "[[canonical coordinates]]" and "[[canonical momenta]]". Hence a polarized section, and hence a quantum state in the sense of geometric quantization, is, in [[physics]] language, a _wave function of the canonical coordinates_.
+Here a [[section]] of the [[prequantum line bundle]] is what is physics ia called a **wave function** or _[[probability amplitude]]_ on the space of [[field (physics)|field]] configurations. A choice of [[polarization]] on this space is a choice of "[[canonical coordinates]]" and "[[canonical momenta]]". Hence a polarized section, and hence a quantum state in the sense of geometric quantization, is, in [[physics]] language, a _wave function of the canonical coordinates_.
 
 ## Related concepts
 
 * [[space of states]]
 
   * [[wave function]]
+
+  * [[probability amplitude]]
 
 * [[superposition]], [[quantum interference]]
 
