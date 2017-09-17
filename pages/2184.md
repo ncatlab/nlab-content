@@ -7,7 +7,7 @@
 
 A __graph__ is a collection of _vertices_ and _edges_; each edge links a pair of vertices.  There are several variations on the idea, described below.
 
-This is the sense of graph in combinatorics; the sense in high-school algebra, which interprets a [[morphism]] $f: A \to B$ as a [[subobject]] of the [[product]] $A \times B$, is not particularly related; see [[graph of a function]] for more on this.
+This is the sense of graph in combinatorics; the sense in high-school algebra, which interprets a [[morphism]] $f: A \to B$ as a [[subobject]] of the [[product]] $A \times B$, is unrelated; see [[graph of a function]] for more on this.
 
 
 ##  Definitions
@@ -45,7 +45,7 @@ The same terminological ambiguities as above apply here as well, and they can be
 It is always possible to interpret any kind of graph as a directed pseudograph, in which there happens to be at most one edge between a given pair of vertices, or there happen to be no loops (or alternatively exactly one of every possible kind of loop), or in which there is an edge from $x$ to $y$ if and only if there is an edge from $y$ to $x$, or some mixture of these.
 
 
-## Auxiliarly definitions
+## Auxiliary definitions
 
 The term __arc__ is often used for an *ordered* edge, while __line__ is sometimes used for an *unordered* edge.  We say that an arc $e$ with $d(e) = (x,y)$ is an arc __from $x$ to $y$__, while a line $e$ such that $d(e) = \{x,y\}$ is a line __between $x$ and $y$__.  In either case, a __loop__ is an edge from a vertex to itself or between a vertex and itself; only (possibly directed) loop graphs and pseudographs can have loops.
 
@@ -99,6 +99,7 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 ## Discussion ## {#talk}
 
 Obsolete discussion may also be found in the History at [Version 24](http://ncatlab.org/nlab/revision/graph/24).
+
 
 _Toby_:  OK, I\'ve completely redone the page above; [this](http://ncatlab.org/nlab/revision/graph/24) is how it looked before.  In particular, I am defining things case by case, rather than choice by choice ($8$ cases, rather than $3$ choices with $2$ options each).  Feedback please!
 
