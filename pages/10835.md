@@ -68,7 +68,7 @@ $$
 $$
 
 $$
-  k \;\colon\; b_1 \otimes b_2 \mapsto b \cdot f(s(b)) - b
+  k \;\colon\; b_1 \otimes b_2 \mapsto b_1 \cdot f(s(b_2))
   \,.
 $$
 
