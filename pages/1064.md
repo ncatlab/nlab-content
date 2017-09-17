@@ -25,6 +25,8 @@ There is a sequence of extra [[stuff, structure, property|structure and property
 1. **[[pre-additive category]]**:
   an $Ab$-enriched category that has a [[terminal object]] or [[initial object]] and therefore a [[zero object]];
 
+   * [[pseudo-abelian category]]: a pre-additive category such that every [[idempotent]] has a [[kernel]] and [[cokernel]]
+
 1. **[[additive category]]**: a pre-additive category that admits binary [[product]]s or binary [[coproduct]]s and therefore binary [[biproduct]]s (equivalently, an $Ab$-enriched category with all finite products or coproducts);
 
 1. **[[pre-abelian category]]**:
