@@ -45,6 +45,9 @@ A [[Poisson manifold]] induces a [[Poisson Lie algebroid]], which is a [[symplec
 
 * [[coisotropic calculus]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+
 ## References
 
 Surveys include
