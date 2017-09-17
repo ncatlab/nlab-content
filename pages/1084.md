@@ -231,7 +231,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-This is an [[interval object]] in $\mathcal{A}$.
+This is the standard [[interval object in chain complexes]].
 
 It is in fact the [[normalized chain complex]] of [[chains on a simplicial set]] for the canonical simplicial interval, the 1-[[simplex]]:
 
