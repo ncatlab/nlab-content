@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 =--
 =--
 
@@ -21,7 +25,7 @@ $$ (x:A) \;\vdash\; (B(x) \;type) $$
 
 corresponds to a [[morphism]] $B\to A$ in that category.  We think of this morphism as a [[bundle]] or [[fibration]], whose [[fiber]] over $x:A$ is the type $B(x)$.  We can then say that [[type former|type forming operations]] such as [[dependent sum type]] and [[dependent product type]] correspond to category-theoretic operations of [[dependent sum]] and [[dependent product]].
 
-However, this correspondence is not quite precise; in the case of dependent types there are extra [[coherence]] issues.  [[substitution|Substitution]] in [[type theory]] should correspond to [[pullback]] in [[category theory]]; that is, given a term
+However, this correspondence is not quite precise; in the case of dependent types there are extra [[coherence]] issues.  [[substitution|Substitution]] in [[type theory]] should correspond to [[pullback]] in [[category theory]] (but see at _[subsitution -- Categorical semantics](substitution#CategoricalSemantics)_ for more); that is, given a term
 
 $$ (y:C) \;\vdash\; (f(y) : A) $$
 
@@ -404,6 +408,11 @@ Contextual categories are defined in
 Strictification is discussed in
 
 * [[Martin Hofmann]], *On the interpretation of type theory in locally cartesian closed categories*
+
+* {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
+
+* {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013 
+
 
 * [[Vladimir Voevodsky]], [Notes on type systems](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/expressions_current.pdf)
 
