@@ -144,7 +144,7 @@ $$
 
 represents the "reindexing" or "substitution" operation: a dependent type $y:D\vdash C(y):Type$ gives rise to a dependent type $x:A \vdash C(h(x)):Type$.
 
-Now the [[left adjoint]] of this pullback functor always exists, and is given by postcomposition with $h$. This sends a morphism $p : C \to A$ (representing a dependent type $x:A \vdash C(x):Type$ to the morphism $C  \stackrel{h(p)}{\to} D$. Now suppose in particular that $D = *$ is the [[terminal object]]. Then this operation takes $C$ with all its fibers $C(x)$ and regards it as an independent type, i.e. an object of the category $\mathcal{C}$, consisting of the "disjoint union" of all these fibers.  In the type theory, this operation is called the [[dependent sum]] and written
+Now the [[left adjoint]] of this pullback functor always exists, and is given by postcomposition with $h$. This sends a morphism $p : C \to A$ (representing a dependent type $x:A \vdash C(x):Type$) to the morphism $C  \stackrel{h(p)}{\to} D$. Now suppose in particular that $D = *$ is the [[terminal object]]. Then this operation takes $C$ with all its fibers $C(x)$ and regards it as an independent type, i.e. an object of the category $\mathcal{C}$, consisting of the "disjoint union" of all these fibers.  In the type theory, this operation is called the [[dependent sum]] and written
 
 $$
   \sum_{x : A} C(x) 
