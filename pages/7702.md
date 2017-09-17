@@ -1,6 +1,8 @@
 
 ## Idea
 
+The [[index]] of a [[Dirac operator]].
+
 ### As a supertrace
 
 (...)
