@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 # Idempotent monads
 * table of contents
 {: toc}
@@ -163,7 +178,7 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 ## References
 
-* F. Borceux, _Handbook of categorical algebra_, vol.2, p. 196.
+* [[Francis Borceux]], _Handbook of categorical algebra_, vol.2, p. 196.
 
 * P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_
 
