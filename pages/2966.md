@@ -6,3 +6,5 @@
 * [[generalized complex geometry]]
 
 category: people
+
+[[!redirects Hitchin]]
