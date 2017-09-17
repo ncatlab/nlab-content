@@ -29,7 +29,9 @@ and then the more general case of bases
 +-- {: .num_defn}
 ###### Definition
 
-For $X = (X,\tau)$ a [[topological space]], a __[[base]]__ or __basis__ for (or "of") the topology of $X$ is a collection $\mathcal{U}\subset \tau$ of [[open subsets]] -- called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones. A __subbase of topology__ of $X$ is a collection $S\subser $\tau$ of open subsets such that all finite intersections of sets belong to $S$ is a base of topology of $(X,\tau)$.
+For $X = (X,\tau)$ a [[topological space]], a __[[base]]__ or __basis__ for (or "of") the topology of $X$ is a collection $\mathcal{U}\subset \tau$ of [[open subsets]] -- called __basic open subsets__ or __generating open subsets__ -- such that every open subset is a [[union]] of basic ones.
+
+A __subbase__ of the topology of $X$ is a collection $S\subset \tau$ of open subsets such that all finite intersections of sets belong to $S$ is a base of topology of $(X,\tau)$.
 
 =--
 
@@ -115,9 +117,16 @@ For instance a base for the topology on the [[real line]] is given by the collec
 [[!redirects subbase for a topology]]
 [[!redirects basis for a topology]]
 [[!redirects bases for a topology]]
+[[!redirects subbasis for a topology]]
+[[!redirects subbases for a topology]]
 [[!redirects base for the topology]]
 [[!redirects basis for the topology]]
 [[!redirects bases for the topology]]
+[[!redirects subbase for the topology]]
+[[!redirects subbasis for the topology]]
+[[!redirects subbases for the topology]]
 
 [[!redirects topological base]]
 [[!redirects topological bases]]
+[[!redirects topological subbase]]
+[[!redirects topological subbases]]
