@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -25,12 +25,12 @@ From this sheaf, one can recover the Adams-type spectral sequence associated to 
 
 ## Properties
 
-### Witten genus
+### Witten genus and string orientation
 
-The $tmf$-[[spectrum]] is the codomain of the [[Witten genus]]
+The $tmf$-[[spectrum]] is the codomain of the [[Witten genus]], or rather of its refinements to the [[string orientation of tmf]]
 
 $$ 
-  Bord_{(\infty,\infty)}^{String} \to tmf
+   \sigma : M String \to tmf
   \,.
 $$
 
