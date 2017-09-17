@@ -59,7 +59,7 @@ A Stein manifold is necessarily a non-[[compact topological space]].
 ### Good covers by Stein manifolds
  {#GoodCoversBySteinManifolds}
 
-Every [[complex manifold]] admits a [[good cover]] by Stein manifolds, in the sense that all finite non-empty intersections of the cover are Stein manifolds (e.g. [Maddock, lemma 3.2.8](#Maddock)).
+Every [[complex manifold]] admits a [[good cover]] by Stein manifolds, in the sense that all finite non-empty intersections of the cover are Stein manifolds (e.g. [Maddock, lemma 3.2.8](#Maddock)), _not_ in the sense that these intersections are contractible! Rather, all Dolbeault cohomology in positive degree vanishes.
 
 ### Cohomology
  {#Cohomology}
