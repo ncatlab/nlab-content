@@ -60,11 +60,7 @@ Let $L$ be a frame, and let $j$ be a nucleus on $L$.
 
 Let $L/j$ be the [[subset]] of $L$ consisting of the $j$-closed elements of $L$ (those elements $a$ such that $j(a) = a$).  Note that, by property (3) above, we may interpret $j$ as a function $j^*\colon L \to L/j$, which is a [[surjection|surjective]] frame [[homomorphism]].  Since [[Frm]] is an [[algebraic category]], this means that $L/j$ is a [[regular quotient]] of $L$.
 
-Conversely, suppose that $M$ is any regular quotient of $L$; that is, we have a surjective frame homomorphism $k\colon L \to M$.  Since $k$ is a frame homomorphism, it has (by the [[adjoint functor theorem]]) a [[right adjoint]] $k_*\colon M \to L$.  Let $j\colon L \to L$ be the [[composite]] of $k$ followed by $k_*$.  Then we may check that $j$ is a nucleus, and $k_*$ is a frame [[embedding]] whose [[image]] is $L/j$.
-
-+-- {: .query}
-Make sure that the claims in the paragraph above are straightforward calculations.
-=--
+Conversely, suppose that $M$ is any regular quotient of $L$; that is, we have a surjective frame homomorphism $k\colon L \to M$.  Since $k$ is a frame homomorphism, it has (by the [[adjoint functor theorem]]) a [[right adjoint]] $k_*\colon M \to L$.  Let $j\colon L \to L$ be the [[composite]] of $k$ followed by $k_*$.  Then $j$ is a nucleus, and $k_*$ is an [[embedding]] (in [[Pos]], not $Frm$) whose [[image]] is $L/j$.
 
 In short, given a nucleus $j$, we have an [[adjunction]] $j^*\colon L \rightleftarrows L/j: j_*$, where $j^*$ is a surjective homomorphism and $j_*$ is the [[inclusion function]]; while, given a surjective homomorphism $k$, we have an adjunction $k\colon L \rightleftarrows M: k_*$, where $k_* \circ k$ is a nucleus and $k_*$ is an embedding.
 
