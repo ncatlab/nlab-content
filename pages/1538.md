@@ -3,6 +3,12 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 _Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[quantum field theory]] whose 
 
 * target space is the groupoid $\mathbf{B}G = \{ \bullet \righttoleftarrow g \;|\; g \in G \}$ obtained by [[delooping]]  from a _finite_ [[group]] $G$ ;
@@ -25,11 +31,11 @@ Therefore
 
 * the weight in the path integral over all $\phi$ for $n$-dimensional $X$ (i.e. in codimension 0) is the [[groupoid cardinality|groupoid measure]] of the [[functor category]] $[\Pi_1(X), \mathbf{B}G]$.
 
-#Remarks#
+## Remarks
 
 Dijkgraaf-Witten theiry is to be thought of as the finite group version of [[Chern-Simons theory]]. Chern-Simons theory looks formally just as the above, only that all finite $n$-groupoids appearing here are replaced by smooth $n$-groupoids ([[infinity-stack]]s on $Diff$).
 
-#References#
+## References
 
 The idea originates, of course, in 
 
