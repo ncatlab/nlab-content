@@ -1,0 +1,22 @@
+If $T$ is a [[2-monad]] on a [[2-category]] $K$, then a **pseudoalgebra** for $T$ is a 2-dimensional version of an [[algebra over a monad]] which satisfies the laws only up to coherent isomorphism.
+
+## Definition
+
+...
+
+## Examples
+
+...
+
+## Normalization
+
+A pseudoalgebra is said to be **normal** or **normalized** if its unit constraint isomorphism is an identity.
+
+While making a pseudoalgebra strict is quite difficult, usually making it normal is quite easy, and many pseudoalgebras arising naturally are normal.  For instance, for the strict 2-monad $T$ whose strict algebras are strict monoidal categories and whose pseudoalgebras are unbiased non-strict monoidal categories, the unit constraint says that the "1-ary tensor product" $\otimes(x)$ is isomorphic to $x$ itself.  Clearly in most cases it is most sensible to *define* the 1-ary tensor product to *be* $x$, so that the pseudoalgebra is normal.
+
+This situation is fairly general: if $T$ is a strict 2-monad for which the components of the unit $\eta_X \colon X\to T X$ are [[isocofibrations]], then any pseudoalgebra structure can be modified to a normalized one on the same underlying object.
+
+
+## Coherence theorems
+
+One way to state a coherence theorem is to say that every pseudoalgebra for a given 2-monad is equivalent to a strict one, perhaps in a structured way.  See [coherence theorems](/nlab/show/coherence+theorem#2monads).
