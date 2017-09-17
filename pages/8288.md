@@ -154,7 +154,7 @@ Assume that $F$ is [[right exact functor|right exact]]. An [[additive category|a
 
 1. for every [[short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $B, C \in \mathcal{P} \subset \mathcal{A}$ also $A \in \mathcal{P} \subset \mathcal{A}$;
 
-1. for every [[short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+1. for every [[short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{P} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
 
 =--
 
