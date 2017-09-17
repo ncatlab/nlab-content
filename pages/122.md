@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -13,7 +14,7 @@
 {:toc}
 
 
-## Idea ##
+## Idea 
 
 Just as [[functor|functors]] is a [[morphism]] between [[category|categories]], a natural transformations is a [[2-morphism]] between two functors.
 
@@ -21,7 +22,9 @@ Natural transformations are the [[2-morphism]]s in the [[2-category]] [[Cat]].
 
 ## Definition ##
 
-Given categories $C$ and $D$ and functors $F, G:C \to D,$ a __natural transformation__ $\alpha:F \Rightarrow G$, denoted
+### Explicit definition
+
+Given [[categories]] $C$ and $D$ and [[functor]]s $F, G:C \to D,$ a __natural transformation__ $\alpha:F \Rightarrow G$, denoted
 
 $$
   \array{
@@ -37,8 +40,8 @@ $$
   \,,
 $$
 
-assigns to every [[object]] $x$ in $C$ a [[morphism]] 
-$\alpha_x:F(x) \to G(x)$ in $D$ (called the __component__ of $\alpha$ at $x$) such that for any morphism $f:x \to y$ in $C$, the following diagram commutes in $D$:
+is an assignment to every [[object]] $x$ in $C$ of a [[morphism]] 
+$\alpha_x:F(x) \to G(x)$ in $D$ (called the __component__ of $\alpha$ at $x$) such that for any morphism $f:x \to y$ in $C$, the following [[diagram]] [[commuting diagram|commutes]] in $D$:
 
 \[ 
   \array{ 
@@ -58,20 +61,24 @@ $\alpha_x:F(x) \to G(x)$ in $D$ (called the __component__ of $\alpha$ at $x$) su
   \,. 
 \] 
 
-Natural transformations between functors $C \to D$ compose in the obvious way
+### Composition
+
+Natural transformations between functors $C \to D$ and $D \to E$ compose in the obvious way to natural transformations $C \to E$ (this is their [[vertical composition]] in the [[2-category]] [[Cat]])
 and functors $F : C \to D$ with natural transformations between them form the [[functor category]] 
 
 $$
   [C,D] \in Cat
 $$ 
 
-The notation alludes to the fact that this makes [[Cat]] a [[closed monoidal category]].  Since $Cat$ is in fact a [[cartesian closed category]], another common notation is $D^C$.  In fact, if we want $Cat$ to be cartesian closed, the definition of natural transformation is forced (since an [[adjoint functor]] is unique).
+The notation alludes to the fact that this makes [[Cat]] a [[closed monoidal category]].  Since $Cat$ is in fact a [[cartesian closed category]], another common notation is $D^C$.  In fact, if we want $Cat$ to be [[cartesian closed category|cartesian closed]], the definition of natural transformation is forced (since an [[adjoint functor]] is unique). This is discussed in [a section below](#InTermsOfCartMon).
 
-There is also a horizontal composition of natural transformations, which makes [[Cat]] a [[2-category]]. In fact, [[Cat]] is a 2-category (a $Cat$-enriched category) _because_ it is (cartesian) closed: closed monoidal categories are automatically enriched over themselves, via their [[internal hom]].
+There is also a [[horizontal composition]] of natural transformations, which makes [[Cat]] a [[2-category]]: the [[Godement product]]. See there for details. 
+
+In fact, [[Cat]] is a 2-category (a $Cat$-enriched category) _because_ it is (cartesian) closed: closed monoidal categories are automatically enriched over themselves, via their [[internal hom]].
 
 An alternative but ultimately equivalent way to define a natural transformation $\alpha : F \rightarrow G$ is as an assignment to every morphism $m : x \rightarrow y$ in $C$ of a morphism $\alpha(m) : F(x) \rightarrow G(y)$, in such a way as that $\alpha(m_0 m_1 m_2) = G(m_0) \alpha(m_1) F(m_2)$ for every ternary composition $m_0m_1m_2$ in $C$. The relation of this to the previous definition is that the commutative squares in the previous definition for any morphism $f$ give the value $\alpha(f)$, and each $\alpha(id_x)$ gives the component $\alpha_x$. Composition of natural transformations can be specified directly in terms of this account as well: specifically, an $n$-ary composition $\alpha_1 ... \alpha_n$ of natural transformations is uniquely determined by the property that $(\alpha_1 ... \alpha_n)(m_1 ... m_n) = \alpha_1(m_1) ... \alpha_n(m_n)$, for every $n$-ary composition $m_1 ... m_n$ in $C$.
 
-## in terms of the cartesian closed monoidal structure on $Cat$ ##
+### In terms of the cartesian closed monoidal structure on $Cat$ {#InTermsOfCartMon}
 
 The definition of the [[functor category]] $[C,D]$ with morphisms being natural transformations is precisely the one that makes $Cat$ a [[cartesian monoidal category|cartesian]] [[closed monoidal category]].
 
@@ -149,7 +156,7 @@ $$
 $$ 
 
 
-## In terms of double categories ##
+### In terms of double categories 
 
 There is a nice way of describing these structures due to [[Charles Ehresmann]]. For a category $D$ let $(\square D,\circ_1,\circ_2)$  be the double category of commutative squares in $D$. Then the class of natural transformations of functors $C \to D$ can be described as $Cat(C,(\square D,\circ_1))$. But then $\circ_2$ induces a category structure on this and so we get $CAT(C,D)$. 
 
