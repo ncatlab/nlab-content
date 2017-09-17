@@ -1,4 +1,12 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
 [[!include contents]]
+=--
+=--
+=--
 
 
 This page aims to collect citations of entries on the $n$Lab or on the [nCafe](http://golem.ph.utexas.edu/category/) from other media, such as from research articles.
