@@ -10,7 +10,7 @@
 
 This entry is about the article
 
-* [[Mike Hopkins]], I. Singer, _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv](http://arxiv.org/abs/math.AT/0211216))
+* [[Mike Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv](http://arxiv.org/abs/math.AT/0211216))
 
 on [[differential cohomology]], higher [[gauge field]]s appearing in [[string theory]] and their [[quantum anomaly|quantum anomalies]].
 
@@ -39,6 +39,8 @@ To this date generalized [[differential cohomology]] theories keep being studied
   * [[Chern character]]
 
     * [[curvature]]
+
+* [[fiber integration in ordinary differential cohomology]]
 
 * [[gauge field]]
 
