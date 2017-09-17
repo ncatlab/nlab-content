@@ -1,17 +1,38 @@
-## Idea
 
-A _closed morphism_ is a continuous map such that the image of any closed subset is closed.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
-## In topology
 
-## In locale theory
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
+### Between topological spaces
+
+A [[continuous function]]  $f \colon X \longrightarrow Y$ between [[topological spaces]]  is called __closed__ if the [[image]] of every [[closed subset]] in $X$ is also closed in $Y$.
+
+Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[closed subspace|closed set]] in $Y$ is closed in $X$.  For defining closed maps typically one restricts attention to closed [[continuous map]]s, although it also makes sense to speak of closed functions that are not continuous.
+
+
+
+### Between locales
 
 A map $f : X \to Y$ of [[locales]] is _closed_ iff for any $u \in O(X)$ and $v \in O(Y)$ the reciprocity relation
 $$ f_*(u \vee f^*v) = f_*(u) \vee v $$
 holds. ("$\geq$" is trivially always satisfied.) The map $f_* : O(X) \to O(Y)$ is the monotone right adjoint to $f^* : O(Y) \to O(X)$, explicitly given by
 $$ f_*(u) = \sup\{ v \in O(Y) \,|\, f^*(v) \leq u \}. $$
 
-## In topos theory
+### Between toposes
 
 +-- {: .num_defn}
 ###### Definition
@@ -41,3 +62,16 @@ Let $f : A \to B$ be a morphism in a topos $\mathcal{E}$. Then the induced geome
 A geometric morphism $f : \mathcal{F} \to \mathcal{E}$ is closed iff the locale $f_* \Omega_{\mathcal{F}}$ internal to $\mathcal{E}$ satisfies
 $$ \mathcal{E} \models \ulcorner \mathrm{the locale map $f_* \Omega_{\mathcal{F}} \to 1$ is closed} \urcorner. $$
 =--
+
+## Related concepts
+
+* [[open morphism]]
+
+* [[étale morphism]]
+
+* [[separated morphism]]
+
+[[!redirects closed morphisms]]
+
+[[!redirects closed map]]
+[[!redirects closed maps]]
