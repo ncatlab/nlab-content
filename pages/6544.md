@@ -15,11 +15,11 @@
 
 ## Idea
 
-The notion of _recursion_ is the concept of defining [[functions]] and other mathematical objects by giving an _initial value_ or _constructor_ together with further rules for how to obtain all other values by successively applying to that further operations.
+The traditional notion of _recursion_ over the [[natural numbers]] $\mathbb{N}$ is a way of defining a [[function]] out of $\mathbb{N}$ by specifying the image of $0$ (the "initial value") along with a way to obtain each successive value from the previous one(s).  There is a rich theory regarding the functions which can or cannot be defined using only recursion: this is [[computability theory]] and has deep connections with the logic of [[Peano arithmetic]].
 
-Traditionally this is typically considered for functions on the [[natural numbers]], but the general concept applies to considerably more general domains. In the case of natural numbers there is a rich theory regarding the functions which can or cannot be recursively defined: this is [[computability theory]] and has deep connections with the logic of [[Peano arithmetic]].
+More generally, recursion is a way of defining a function on any mathematical object which is "defined inductively" (in a way analogous to how the natural numbers are characterized by [[zero]] and [[successor]]).  In place of the "initial value" and "successor step", a general definition by recursion consists of giving one "clause" for each "constructor" of the inductively defined object.
 
-Recursion is formalized in [[type theory]] by the notion of _[[inductive type]]_ and, equivalently, in [[category theory]] by the notion of _[[initial algebra of an endofunctor]]_: for $F$ is an [[endofunctor]], a [[morphism]] of the form $F(X) \to X$ determines a collection of _constructors_ and the _induction principle_ is the statement that there is a (unique) morphism $f : A \to X$ from the [[initial object|initial]] such structure $F(A) \to A$. This $f$ is the corresponding _recursively defined function_.
+Recursion is formalized in [[type theory]] by the notion of _[[inductive type]]_ (and the corresponding [[elimination rule]])  and, equivalently, in [[category theory]] by the notion of _[[initial algebra of an endofunctor]]_.  For $F$ an [[endofunctor]], a [[morphism]] of the form $F(X) \to X$ determines a collection of _constructors_ and the _induction principle_ is the statement that there is a (unique) morphism $f : A \to X$ from the [[initial object|initial]] such structure $F(A) \to A$.  This $f$ is the corresponding _recursively defined function_.
 
 Viewed from just a slightly different angle, this state of affairs is the _[[induction principle]]_.
 
