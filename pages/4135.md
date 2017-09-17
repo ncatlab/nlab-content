@@ -10,13 +10,31 @@ Given a finite dimensional (pseudo)-[[Riemannian manifold]] $(X,g)$, the _Hodge 
 
 ## Definition
 
-Let $(X,g)$ be an [[orientation|oriented]] $n$-dimensional [[smooth manifold]] $X$ endowed with a nondegenerate symmetric [[bilinear form]] $g$.  The **Hodge star operator** is the linear operator ${*}\colon \Omega^k X \to \Omega^{n-k} X$ defined by the identity
+Let $(X,g)$ be an [[orientation|oriented]] $n$-[[dimension]]al [[smooth manifold]] $X$ endowed with a [[Riemannian metric]] $g$.  Write 
+$\Omega^\bullet(X)$ for the [[graded vector space]] of [[differential forms]] on $X$.
+
+The **Hodge star operator** is the linear operator 
+
+$$
+  {*}\colon \Omega^k X \to \Omega^{n-k} X
+$$ 
+
+defined by the identity
 
 $$
 \alpha \wedge *\beta = (\alpha \mid \beta) vol, \qquad \forall \alpha,\beta \in \bigwedge^k X,
 $$
 
-where $(\mid)$ is the nondegenerate symmetric bilinear form induced by $g$ on $\Omega^k X$ and $vol \in \Omega^n X$ is the [[volume form]] induced by $g$.
+where 
+
+* $(\mid)$ is the nondegenerate symmetric bilinear form induced by $g$ on $\Omega^k X$ 
+
+* and $vol \in \Omega^n X$ is the [[volume form]] induced by $g$.
+
+
+## Properties
+
+### Component formulas
 
 If $e_1,\dots,e_n$ is a [[local frame|local basis]] on $X$ and $e^1,\dots,e^n$ is the [[dual basis]], so that $\alpha = \frac{1}{k!} \alpha_{i_1,\dots,i_k} e^{i_1} \wedge \cdots \wedge e^{i_k}$, then
 
@@ -27,7 +45,8 @@ $$
 where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots,i_n)$ and $det(g)$ is the [[determinant]] of $g$ in the local basis.
 
 
-## Properties
+
+### Basic properties
 
 Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\lambda \in \Omega^k(X)$. Then
 
@@ -36,6 +55,8 @@ Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $n$ and let $\omega,\l
 * $(*\omega | *\lambda) = (\omega | \lambda)$;
 
 * $*1 = vol$.
+
+
 
 
 ## Generalisations
