@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+A kind of [[topological space]] about which one can reason "effectively", hence [[constructive mathematics|constructively]]. Used in [[computable analysis]], see at _[[computable function (analysis)]]_.
+
+## References
+
+* Dieter Spreen, _On effective topological spaces_, The Journal of Symbolic Logic, Vol. 63, No. 1, Mar., 1998  ([JSTOR](http://www.jstor.org/stable/2586596))
+
+See the references at _[[computable analysis]]_.
+
+With an eye twoards application in [[computable physics]] the definition also appears as def. 2.2 in
+
+* {#WeihrauchZhong02} [[Klaus Weihrauch]],  Ning Zhong, _Is wave propagation computable or can wave computers beat the Turing machine?_, Proc. of the London Math. Soc. (3) 85 (2002) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.95.5994))
+
+
+[[!redirects effective topological spaces]]
