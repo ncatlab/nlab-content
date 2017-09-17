@@ -32,7 +32,7 @@ This page lists counterexamples in [[algebra]].
    C_4 \times C_4, \qquad C_2 \times \langle a, b, | a^4 = 1, a^2 = b^2, a b = b a^3 \rangle
    $$
 
-1. A [[quasigroup]] that is not isomorphic to any [[loop].
+1. A [[quasigroup]] that is not isomorphic to any [[loop]].
 
    $\{a, b, c\}$ with multiplication table:
 
