@@ -170,7 +170,7 @@ $$
 
 there is an evident graded generalization of the Poisson bracket on $A$, which is on $V$ and $V^*$ just the canonical pairing.
 
-Write $\{c^\alpha\}$ for the [[basis]] for $V^*$, called the **ghosts**. Write $\{\pi_\alpha\}$ for the dual basis on $V$, called the **ghost momenta**.
+Write $\{c^\alpha\}$ for the [[basis]] for $V^*$, called the **[[ghost]]**. Write $\{\pi_\alpha\}$ for the dual basis on $V$, called the **ghost momenta**.
 
 **Theorem** (Henneaux, Stasheff et al.) 
 
