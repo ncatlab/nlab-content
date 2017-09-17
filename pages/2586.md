@@ -117,13 +117,15 @@ We have
 
   * $Spin(1,1) \simeq GL(1,\mathbb{R})$
 
-  * $Spin(2,1) \simeq SL(2, \mathbb{R})$
+  * $Spin(2,1) \simeq SL(2, \mathbb{R})$ -- 2d [[special linear group]] of [[real numbers]]
 
-  * $Spin(3,1) \simeq SL(2,\mathbb{C})$
+  * $Spin(3,1) \simeq SL(2,\mathbb{C})$ -- 2d [[special linear group]] of [[complex numbers]]
 
   * $Spin(4,1) \simeq Sp(1,1)$
 
-  * $Spin(5,1) \simeq SL(2,\mathbb{H})$
+  * $Spin(5,1) \simeq SL(2,\mathbb{H})$ -- 2d [[special linear group]] of [[quaternions]]
+
+  * $Spin(9,1) \simeq_{in\;some\;sense} SL(2, \mathbb{O})$ -- 2d [[special linear group]] of [[octonions]]
 
 * in [[anti de Sitter group|anti de Sitter]] signature
 
@@ -135,7 +137,7 @@ We have
 
 Beyond these dimensions there are still some interesting identifications, but the situation becomes much more involved.
 
-
+[[!include exceptional spinors and division algebras -- table]]
 
 
 
