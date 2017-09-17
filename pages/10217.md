@@ -134,13 +134,16 @@ Indeed, let $R$ be a formula that represents the unary predicate $\neg Prov$, an
 
 +-- {: .num_remark} 
 ###### Remark 
-The proof of theorem \ref{fix} was written to lay bare its provenance as a special case of Lawvere's fixed point theorem, and its essential kinship with the structure of the standard fixpoint combinator in [[combinatory algebra]]. See Yanofsky's article below. 
+The proof of theorem \ref{fix} was written to lay bare its provenance as a special case of [[Lawvere's fixed point theorem]], and its essential kinship with the structure of the standard fixpoint combinator in [[combinatory algebra]]. See [Yanofsky 03](#Yanofsky03). 
 =-- 
 
+## Related concepts
+
+* [[Lawvere's fixed point theorem]]
 
 ## References 
 
-* Noson S. Yanofsky, _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, arXiv:math/0305282 ([web](http://arxiv.org/abs/math/0305282)) 
+* {#Yanofsky03} Noson S. Yanofsky, _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, arXiv:math/0305282 ([web](http://arxiv.org/abs/math/0305282)) 
 
 A brief review discussion explicitly in the context of [[type theory]]/[[topos theory]] is in 
 
