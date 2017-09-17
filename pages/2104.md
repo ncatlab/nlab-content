@@ -25,6 +25,10 @@ By _quantization_ is meant some process that
 ### Motivation from classical mechanics and Lie theory
  {#MotivationFromClassicalMechanicsAndLieTheory}
 
+We indicate here a systematic motivation of quantization by looking at [[classical mechanics]] formalized as [[symplectic geometry]] from the point of view of [[Lie theory]] ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13), [Nuiten 13](#Nuiten13)).
+
+$\,$
+
 Quantization of course was and is motivated by experiment, hence by observation of the [[observable universe]]: it just so happens that [[quantum mechanics]] and [[quantum field theory]] correctly account for experimental observations where [[classical mechanics]] and [[classical field theory]] gives no answer or incorrect answers. A historically important example is the phenomenon called the "[[ultraviolet catastrophe]]", a [[paradox]] predicted by classical [[statistical mechanics]] which is _not_ observed in nature, and which is corrected by [[quantum mechanics]].
 
 But one may also ask, independently of experimental input, if there are good formal mathematical reasons and motivations to pass from [[classical mechanics]] to [[quantum mechanics]]. Could one have been led to [[quantum mechanics]] by just pondering the mathematical formalism of [[classical mechanics]]? (Hence more precisely: is there a natural _[[schreiber:Synthetic Quantum Field Theory]]_?)
@@ -139,7 +143,7 @@ In the context of [[field theory]] the conceptual issues become more severe even
 ## Quantization as an index map
  {#QuantizationAsAnIndexMap}
 
-Here we survey aspects of quantization at least in aspects is or at least is similar to an _[[index]]_ map, hence a [[push-forward in generalized cohomology]]. More on this is in ([Nuiten 13](#Nuiten13)).
+Here we survey aspects of quantization at least in aspects is or at least is similar to an _[[index]]_ map, hence a [[push-forward in generalized cohomology]]. More on this is in ([Nuiten 13](#Nuiten13)) and at _[[motivic quantization]]_.
 
 The general pattern here is this:
 
@@ -198,7 +202,7 @@ $$
   \,.
 $$
 
-The appearance of an _auxiliary_ and already quantized field theory here may seem circular, but is in fact part of a deeper pattern of quantization by the [[holographic principle]], where rich quantum theories arise as [[boundary field theories]] of higher dimensional [[topological field theories]]. In the above case the higher dimensional theory is secretly the non-perturbative version of the [[Poisson sigma-model]] associated with the original [[phase space]] [[Poisson manifold]]. More details on this are indicated at _[[extended geometric quantization of 2d Chern-Simons theory]]_. In one dimension higher the [[Witten genus]] arises this way as the quantization of the [[heterotic string]] 2d QFT regarded as the [[boundary field theory]] of the [[M2-brane]] in [[Horava-Witten theory]]. (Wait for [Nuiten13](#Nuiten13) for more.)
+The appearance of an _auxiliary_ and already quantized field theory here may seem circular, but is in fact part of a deeper pattern of quantization by the [[holographic principle]], where rich quantum theories arise as [[boundary field theories]] of higher dimensional [[topological field theories]]. In the above case the higher dimensional theory is secretly the non-perturbative version of the [[Poisson sigma-model]] associated with the original [[phase space]] [[Poisson manifold]]. More details on this are indicated at _[[extended geometric quantization of 2d Chern-Simons theory]]_. In one dimension higher the [[Witten genus]] arises this way as the quantization of the [[heterotic string]] 2d QFT regarded as the [[boundary field theory]] of the [[M2-brane]] in [[Horava-Witten theory]]. (See ([Nuiten13](#Nuiten13)) for more.)
 
 ### Cohomological formulation in BV-formalism
 
@@ -266,9 +270,14 @@ The [[quantization via the A-model]]-method is described in
 * [[Sergey Gukov]], [[Edward Witten]], _Branes and quantization_, [arxiv/0809.0305](hhttp://arxiv.org/abs/0809.0305) 
  {#GukovWitten08}
  
-A discussion of quantization by cohomological quantization of [[higher prequantum field theory]] is in 
+The perspective of [[geometric quantization|geometric]] pre-quantization as a canonical construction in higher [[Lie theory]] is discussed in 
 
-* [[Joost Nuiten]], Master thesis, 2013
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
+  {#FiorenzaRogersSchreiber13}
+
+A discussion of quantization as cohomological/[[motivic quantization]] of [[higher prequantum field theory]] is in 
+
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_ Master thesis, Utrecht 2013
  {#Nuiten13}
 
 Some discussion of quantization in terms of [[Bohr toposes]] is in 
