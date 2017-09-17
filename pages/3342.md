@@ -65,17 +65,21 @@ See [[AQFT on curved spacetimes]].
 
 ## References 
 
-See also [[AQFT]]. 
+The original article that introduced these axioms is
+
+* [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
+
+See also the references at [[AQFT]]. 
 
 ### References for the physical aspects of the Haag-Kastler approach on Minkowski spacetime
 
 Since on that page there are already some references to sources that stress the mathematical aspects, we will cite some that are more oriented to the physical interpretations:
 
-The classic references are of course:
+The classic references are
 
-* Rudolf Haag: _Local quantum physics. Fields, particles, algebras._ 2nd., rev. and enlarged ed. Springer 1996 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.46057&format=complete).
+* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
 
-and:
+and
 
 * Huzihiro Araki: _Mathematical theory of quantum fields._ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
 
