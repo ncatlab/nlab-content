@@ -1,10 +1,17 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
+
 # Reflection of limits
 * table of contents
 {: toc}
 
 ## Definition
 
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** limits of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $U(\eta)$ is a [[limit]] of $U\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
+Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** limits of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F(\eta)$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
 
 Of course, a functor $F$ preserves a colimit if $F^{op}$ preserves the corresponding limit.
 
@@ -12,7 +19,7 @@ If $F$ reflects all limits or colimits of a given type (i.e. over a given catego
 
 ## Remarks
 
-Reflection of limits is distinct from [[preservation of limits]], although there are relationships.  For instance, a [[conservative functor]] reflects any limits which exist in its domain and that it preserves.  For if $J$ above has some limit $\theta$ which is preserved by $U$, then there is a unique induced map $\eta\to\theta$ by the universal property of a limit, which becomes an isomorphism in $D$ since $U(\eta)$ and $U(\theta)$ are both limits of $U\circ J$; hence if $U$ is conservative then it must already have been an isomorphism in $C$, and so $\eta$ was already also a limit of $J$.
+Reflection of limits is distinct from [[preservation of limits]], although there are relationships.  For instance, a [[conservative functor]] reflects any limits which exist in its domain and that it preserves.  For if $J$ above has some limit $\theta$ which is preserved by $F$, then there is a unique induced map $\eta\to\theta$ by the universal property of a limit, which becomes an isomorphism in $D$ since $F(\eta)$ and $F(\theta)$ are both limits of $F\circ J$; hence if $F$ is conservative then it must already have been an isomorphism in $C$, and so $\eta$ was already also a limit of $J$.
 
 A functor which both reflects *and* preserves limits is said to [[created limit|create]] them.
 
