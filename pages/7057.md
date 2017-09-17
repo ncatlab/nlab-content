@@ -20,7 +20,12 @@
 
 ## Definition
 
-A _cartesian closed functor_ is a [[closed functor]] between [[cartesian closed categories]].
+A _cartesian closed functor_ is a functor between [[cartesian closed categories]] which preserves both [[products]] and [[exponential objects]] (all the structure of cartesian closed categories).
+
+More precisely, if $F\colon C\to D$ preserves products, then the canonical maps $F(A\times B) \to F A \times F B$ are isomorphisms, and we therefore have canonical induced maps $F[A,B] \to [F A, F B]$ --- the [[adjuncts]] of the composite $F[A,B] \times F A \xrightarrow{\cong} F([A,B] \times A) \to F B$.  $F$ is **cartesian closed** if these maps $F[A,B] \to [F A, F B]$ are also isomorphisms.
+
+When cartesian closed categories are identified with [[cartesian monoidal categories]] that are also [[closed monoidal category|closed monoidal]], a cartesian closed functor can be identified with a [[strong monoidal functor]] which is also [[strong closed functor|strong closed]].
+
 
 ## Properties
 
@@ -41,10 +46,27 @@ $$
 is an [[isomorphism]].
 
 =--
++-- {: .proof}
+###### Proof
+The above natural transformation is the [[mate]] of the exponential comparison natural transformation $R[A,B] \to [R A, R B]$ under the composite adjunctions
+$$
+\mathcal{C}
+\underoverset{[R A, -]}{- \times R A}{\rightleftarrows}
+\mathcal{C}
+\underoverset{R}{L}{\rightleftarrows}
+\mathcal{D}
+$$
+and
+$$
+\mathcal{C} 
+\underoverset{R}{L}{\rightleftarrows}
+\mathcal{D}
+\underoverset{[A,-]}{A\times -}{\rightleftarrows}
+\mathcal{D}
+$$
+=--
 
-This is called the **[[Frobenius reciprocity]]** law.
-
-This is discussed for instance as ([Johnstone, lemma 1.5.8](#Johnstone)).
+This is called the **[[Frobenius reciprocity]]** law.  It is discussed, for instance, as ([Johnstone, lemma 1.5.8](#Johnstone)).
 
 Let still $R$ and $L$ be as above.
 
