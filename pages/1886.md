@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -14,9 +13,9 @@ _Transfinite composition_ is a means to talk about morphisms in a category that 
 
 Let $\alpha$ denote in the following some [[ordinal number]] regarded as a [[poset]], hence as a [[category]] itself. Let $0 \in Obj(\alpha)$ be the smallest element (when $\alpha$ is [[inhabited set|inhabited]]).
 
-Let $C$ be a [[category]], $X$ an object of $C$, and $I \subset Mor(C)$ a [[class]] of morphisms in $C$. A **transfinite composition** of morphisms in $I$ is the universal morphism
+Let $C$ be a [[category]], $X$ an object of $C$, and $I \subset Mor(C)$ a [[class]] of morphisms in $C$. A **transfinite composition** of morphisms in $I$ is the morphism
 $$
-  X \to Y := \lim_{\to^\alpha} F(\alpha)
+  X \to Y := colim (F)
 $$
 from a [[diagram]]
 $$
