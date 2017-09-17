@@ -392,20 +392,21 @@ We discuss the convergence of the spectral sequence of a filtered complex, below
 +-- {: .num_defn }
 ###### Definition
 
-Let $\{E^r_{p,q}\}_{r,p,q}$ be a [[spectral sequence]] such that there is $\tilde r$ such that for all $r \geq \tilde r$ we have
+Let $\{E^r_{p,q}\}_{r,p,q}$ be a [[spectral sequence]] such that for each $p,q$ there is $r(p,q)$ such that for all $r \geq r(p,q)$ we have
 
 $$
-  E^{r \geq \tilde r}_{p,q} \simeq E^{\tilde r}_{p,q}
+  E^{r \geq r(p,q)}_{p,q} \simeq E^{r(p,q)}_{p,q}
+  \,.
 $$
 
-for all $p,q$. Then one says that
+Then one says that
 
 * the [[bigraded object]]
 
   $$
     E^\infty 
      \coloneqq 
-    \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{\tilde t}_{p,q} \}
+    \{E^\infty_{p,q}\}_{p,q} \coloneqq \{ E^{r(p,q)}_{p,q} \}
   $$
 
   is the **limit term** of the spectral sequence;
@@ -424,7 +425,7 @@ $$
   \,,
 $$
 
-if the [[associated graded]] complex $\{G_p H_{p+q}\}_{p,q} \coloneqq \{F_p H_{p+q} / F_{p-1} H_{p+q}\}$ is a limit term, def. \ref{LimitTerm}:
+if the [[associated graded]] complex $\{G_p H_{p+q}\}_{p,q} \coloneqq \{F_p H_{p+q} / F_{p-1} H_{p+q}\}$ of $H$ is the limit term of $E$, def. \ref{LimitTerm}:
 
 $$
   E^\infty_{p,q} \simeq G_p H_{p+q} \;\;\;\;\;\;\; \forall_{p,q}
@@ -436,7 +437,7 @@ $$
 +-- {: .num_defn #BoundedSpectralSequence}
 ###### Definition
 
-A spectral sequence $\{E^r_{p,q}\}$ is called a **bounded spectral sequence** if for all $n,r \in \mathbb{Z}$ the number non-vanishing terms of the form $E^r_{k,n-k}$ is finite.
+A spectral sequence $\{E^r_{p,q}\}$ is called a **bounded spectral sequence** if for all $n,r \in \mathbb{Z}$ the number of non-vanishing terms of the form $E^r_{k,n-k}$ is finite.
 
 =--
 
