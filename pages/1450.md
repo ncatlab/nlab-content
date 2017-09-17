@@ -146,6 +146,15 @@ This is discussed at
 * [[differential forms in synthetic differential geometry]].
 
 
+
+## Related concepts
+
+* [[differential geometry]]
+
+* [[derived differential geometry]]
+
+* [[D-geometry]]
+
 ## References
 {#References}
 
