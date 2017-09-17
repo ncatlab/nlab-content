@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # Elementary function arithmetic
 * table of contents
 {: toc}
@@ -7,6 +21,9 @@
 
 Elementary function arithmetic is a [[first-order theory]] of [[natural numbers]], one of the weakest fragments of [[arithmetic]] strong enough to do nontrivial mathematics.
 
+## Related concepts
+
+* [[second order arithmetic]]
 
 ## References
 
