@@ -1,0 +1,7 @@
+
+
+## References
+
+* Wikipedia, _[Liouville field theory](http://en.wikipedia.org/wiki/Liouville_field_theory)_
+
+[[!redirects Liouville field theory]]
