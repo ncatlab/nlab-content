@@ -1,2 +1,2 @@
-du poids en 1 mois ; Nergie. Quiz. Dans la dire MaigrirSant?? des
- <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed49.html" title="EVISU">EVISU</a>
+Keep comfort as well as style in mind when you choose shoes for your bridesmaids. Very high heels may be uncomfortable to stand in for any period of time. Also consider the fact that the bridesmaids will most likely be wearing the shoes for the wedding ceremony and the reception, so choose shoes which will be comfortable to wear all day, then dance away the night..
+ <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc174.html" title="Others">Others</a>
