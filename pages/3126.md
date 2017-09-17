@@ -444,6 +444,8 @@ $$
   \,.
 $$
 
+Crucial for the internal interpretation in [[homotopy type theory]] is that the [[homotopy types]] in $T_\ast \mathbf{H} \hookrightarrow T \mathbf{H}$ are [[stable homotopy types]].
+
 =--
 
 
