@@ -1,4 +1,6 @@
 
+[[!redirects A. Tarski]]
+[[!redirects Tarski]]
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Alfred_Tarski)
 
