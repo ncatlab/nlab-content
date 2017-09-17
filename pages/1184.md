@@ -1,13 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
 A _well-order_ on a set $S$ is a [[relation]] $\prec$ that allows one to interpret $S$ as an [[ordinal number]] $\alpha$ and $\prec$ as the relation $\lt$ on the ordinal numbers less than $\alpha$.  In particular, one can do [[induction]] on $S$ over $\prec$ (although the more general [[well-founded relations]] also allow this).
 
-The [[well-ordering theorem]] states precisely that every set may be equipped with a well-order.  This theorem follows from the [[axiom of choice]], and is equivalent to it in the presence of [[excluded middle]].
+The _[[well-ordering theorem]]_ states precisely that every set may be equipped with a well-order.  This theorem follows from the [[axiom of choice]], and is equivalent to it in the presence of [[excluded middle]].
 
 
 ## Definition
@@ -16,8 +26,8 @@ A [[binary relation]] $\prec$ on a [[set]] $S$ is a __well-order__ if it is [[tr
 
 Other definitions of a well-order may be found in the literature; they are equivalent given [[excluded middle]], but the definition above seems to be the most powerful in [[constructive mathematics]].  Specifically:
 
-*  a well-order is precisely a well-founded [[linear order]];
-*  a well-order is precisely a well-founded [[total order]];
+*  a well-order is precisely a [[well-founded relation|well-founded]] [[linear order]];
+*  a well-order is precisely a [[well-founded relation|well-founded]] [[total order]];
 *  (assuming also [[dependent choice]]) a well-order is precisely a linear order $\prec$ with no infinite descending sequence $\cdots \prec x_2 \prec x_1 \prec x_0$;
 *  (assuming also [[dependent choice]]) a well-order is precisely a total order $\preceq$ such that every infinite descending sequence $\cdots \preceq x_2 \preceq x_1 \preceq x_0$ has $x_i = x_{i^+}$ for some $i$ (and hence for infinitely many $i$);
 *  a well-order on $S$ is precisely a linear order $\prec$ with the property that every [[inhabited subset]] $U$ of $S$ has a least element (an element $\bot_U$ such that no $x \in U$ satisfies $x \prec \bot_U$;
