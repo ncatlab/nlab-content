@@ -15,6 +15,8 @@
 **[[type theory]]** 
 ([[dependent type theory|dependent]], [[intensional type theory|intensional]], [[homotopy type theory]])
 
+* [[calculus of constructions]]
+
 **[[syntax]]** [[object language]]
 
 * [[theory]], [[axiom]]
