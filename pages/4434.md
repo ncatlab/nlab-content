@@ -1,4 +1,8 @@
 
+# Effective monomorphisms
+* table of contents
+{: toc}
+
 ## Idea
 
 
@@ -18,3 +22,8 @@ A [[morphism]] $f : X \to Y$ in a [[category]] $C$ is an **effective monomorphis
 Such $f$ may probably also be called an [[embedding]].  
 
 The dual concept is that of [[effective epimorphism]]. See there for more discussion.
+
+
+[[!redirects effective mono]]
+[[!redirects effective monomorphism]]
+[[!redirects effective monomorphisms]]
