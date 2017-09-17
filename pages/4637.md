@@ -561,7 +561,9 @@ A generalization of this latter to $\infty$-stacks over duals of [[algebra over 
 * [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
 {#Stel}
 
+Some discussion at MathOverflow
 
+* [theme-of-isbell-duality](http://mathoverflow.net/questions/84641/theme-of-isbell-duality)
 
 
 [[!redirects Isbell conjugation]]
