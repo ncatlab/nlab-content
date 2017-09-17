@@ -9456,9 +9456,13 @@ Above in _[Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)
 
 The classical field theory is the study of the _[[critical locus]]_ of the [[action functional]], whose points are the solutions to the _([[Euler-Lagrange equations|Euler-Lagrange]]-)[[equations of motion]]_ of the system, the conditions which characterize those [[field (physics)|field configurations]] that are "physically realized" as asserted by the [[physical theory]] that is encoded by the [[action functional]]. If the [[action functional]] comes from a [[local Lagrangian]] then this space carries a canonical [[presymplectic form]] and equipped with this form it is called the _[[covariant phase space]]_ of the system.
 
-(The term "classical" originates from the time when [[quantum mechanics]] was discovered at the beginning of the 20th century. All of the physics that was known until the end of the 19th centure was then called "classical" to distinguish it from the new refiment to [[quantum theory]]. Nowadays the term has, strictly speaking, lost its original sense, since nowadays quantum theory is entirely "classical", but "classical physics" will forever refer to non-quantum physics. )
+(The term "classical" originates from the time when [[quantum mechanics]] was discovered at the beginning of the 20th century. All of the physics that was known until the end of the 19th centure was then called "classical" to distinguish it from the new refinement to [[quantum theory]]. Nowadays the term has, strictly speaking, lost its original sense, since nowadays quantum theory is entirely "classical", but "classical physics" will forever refer to non-quantum physics. )
 
-Here we discuss this theory of classical equations of motion. The maybe archetypical example of an [[equation of motion]] is the [[geodesic equation]] which describes the [[trajectories]] of [[particles]] and of [[light]]. Standard examples of [[equations of motion]] for [[spacetime]] [[force]] [[field (physics)|fields]] are _[[Maxwell equations]]_ and _[[Einstein equations]]_, describing the classical [[dynamics]] of the [[electromagnetic field]] and [[gravity]], respectively.
+Here we first discuss the traditional theory of classical equations of motion. Maybe the archetypical example is the [[geodesic equation]] which describes the [[trajectories]] of [[particles]] and of [[light]]. Standard examples of [[equations of motion]] for [[spacetime]] [[force]] [[field (physics)|fields]] are _[[Maxwell equations]]_ and _[[Einstein equations]]_, describing the classical [[dynamics]] of the [[electromagnetic field]] and [[gravity]], respectively.
+
+Then we reformulate this more abstractly in [[hgher geometry]]. This yields a notion of _[[derived critical loci]]_ of action functionals for which the _[[BV-BRST formalims]]_ is a model, a traditional machinery for handling [[covariant phase spaces]] while taking care of [[gauge symmetry]] and resolving singularities in the critical locus. 
+
+Moreover, we discuss how, when interpreted in _[[extended prequantum field theory]]_, the equations of motion are just the [[codimension]]-0 piece of a tower of notions which in codimension 1 is the notion of _[[Lagrangian submanifolds]]_ of [[phase space]].
 
 
 +-- {: bluebox}
@@ -9493,6 +9497,18 @@ We had already discussed traditional [Variational calculus above](#VariationalCa
 
 ### Semantics layer
  {#EquationsOfMotionSemanticsLayer}
+
++-- {: bluebox}
+###### Contents: ######
+
+1. [0-Plectic Lagrangian subspaces](#0PlecticLagrangianSubspaces)
+
+1. [1-Plectic Lagrangian subspaces](##1PlecticLagrangianSubspaces)
+
+=--
+
+#### 0-Plectic Lagrangian subspaces: critical loci
+ {#0PlecticLagrangianSubspaces}
 
 We now discuss the general abstract formulation of [[critical loci]] of [[action functionals]] in the context of a [[cohesive (∞,1)-topos]]. This generalizes the traditional formulation to critical loci inside higher [[moduli ∞-stacks]] of field configuration. In particular, if the ambient [[(∞,1)-topos]] is not [[n-localic (infinity,1)-topos|1-localic]], then this gives a general abstract formulation of _[[derived critical loci]]_.
 
@@ -9643,12 +9659,28 @@ In [[extended prequantum field theory]] we may, as discussed in _[Lagrangians an
 
 =--
 
+#### 1-Plectic Lagrangian subspaces
+ {#1PlecticLagrangianSubspaces}
+
+(...)
+
+
+
 
 ### Syntax layer
  {#EquationsOfMotionSyntaxLayer}
 
-(...)
 
+
+As the notation above suggests, the [[critical locus]] of 
+the [[function]] $S\;\colon\; [X, \mathbf{Fields}] \to \mathbb{G}$ is syntactically
+indeed the [[dependent sum]] over the type of fields
+of the [[identity type]] of the variational derivative 
+$S^{-1}\mathbf{d} S \in Sh_{\mathbf{H}}(X)$ and the 0-term in
+$Sh_{\mathbf{H}}(X)$. This is indeed the standard expression in 
+[[type theory]] which formalizes the variations equation of motion:
+
+"The collection of fields for which the variational derivative equals zero." translates exactly into $\underset{\phi \in [X, \mathbf{Fields}]}{\sum} (S^{-1}\mathbf{d}S \simeq 0)$.
 
 
 ## **Prequantum Gauge theory and Gravity**
