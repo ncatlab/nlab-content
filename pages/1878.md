@@ -52,7 +52,7 @@ Moreover, we also write, now for $I \subset Mor(C)$:
 
 A [[model category]] with all [[colimit]]s is **cofibrantly generated** if there is a small [[set]] $I$ and a small set $J$ such that
 
-* $cof(I)$ is precisely the collection cofibrations of $C$;
+* $cof(I)$ is precisely the collection of cofibrations of $C$;
 
 * $cof(J)$ is precisely the collection of acyclic cofibrations in $C$; and
 
@@ -126,7 +126,7 @@ Therefore $f \in cof(I)$.
 
 ### Recognition theorem
 
-The following theorem allows to recognize cofibrantly generated model categories by checking fewer conditions.
+The following theorem allows one to recognize cofibrantly generated model categories by checking fewer conditions.
 
 +-- {: .num_theorem}
 ###### Theorem 
