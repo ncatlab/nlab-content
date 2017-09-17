@@ -34,7 +34,15 @@ $$
 
 and $d_{dR}$ is the [[de Rham differential]].
 
-Although an [[orientation]] is required for the usual notion of Hodge star as given above, we may take it as valued in [[pseudoforms]] to show that the orientation (or even orientability) of $M$ is irrelevant (since the Hodge star is applied twice, returning us to untwisted forms).
+Alternatively, the divergence of a vector field $\mathcal{A}$ in some point $x\in M$ is calculated (or alternatively defined) by the integral formula 
+
+$$
+div \vec\mathcal{A} = lim_{vol D\to 0} \frac{1}{vol D} \oint_{\partial D} \vec{n}\cdot \vec\mathcal{A} d S
+$$
+
+where $D$ runs over the domains with smooth boundary $\partial D$ containing point $x$ and $\vec{n}$ is the unit vector of outer normal to the surface $S$. The formula does not depend on the shape of boundaries taken in limiting process, so one can typically take a coordinate chart and balls with decreasing radius in this particular coordinate chart. 
+
+Although an [[orientation]] is required for the usual notion of Hodge star as given above, we may take it as valued in [[pseudoforms]] to show that the orientation (or even orientability) of $M$ is irrelevant (since the Hodge star is applied twice, returning us to untwisted forms). The metric is hidden in the volume form and in the "dot product". 
 
 
 ## Example
@@ -56,9 +64,6 @@ The divergence was first developed in [[quaternion]] analysis, where its opposit
 * [[gradient]]
 
 * [[curl]]
-
-* **divergence**
-
 
 [[!redirects divergence]]
 [[!redirects divergences]]
