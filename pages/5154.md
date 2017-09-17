@@ -157,6 +157,7 @@ Since the coalgebra interval in the [[category of chain complexes]] is not cocom
 =--
 
 ### Rectification of algebras
+ {#RectificationOfAlgebras}
 
 Recall the notion of resolutions of operads and of the _[[Boardman-Vogt resolution]]_ $W(H,P)$ from [[model structure on operads]].
 
