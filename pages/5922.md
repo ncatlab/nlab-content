@@ -20,14 +20,14 @@ An _axiom_ is a [[proposition]] in [[logic]] that a given [[theory]] requires to
 
 ## Definition
 
-Given a language specified by a [[signature (in logic)]] (a collection of [[type]]s, [[function symbol]]s and [[relation symbol]]s), a [[theory]] is a collection of [[sequent]]s
+Given a language specified by a [[signature (in logic)]] (a collection of [[type]]s, [[function symbol]]s and [[relation symbol]]s), a [[theory]] is the collection of assertions, e.g., [[sequent]]s
 
 $$
   \phi_1 \vdash_{\vec x} \psi_1\;,\;
   \phi_2 \vdash_{\vec x} \psi_2\;,\; \dots
 $$
 
-(asserting that "If  [[proposition]] $\phi_i$ is true in [[context]] $\vec x_i$ then also $\psi_i$ is/has to be true"). These are the **axioms** of the theory.
+in a [[sequent calculus]] (asserting that "If  [[proposition]] $\phi_i$ is true in [[context]] $\vec x_i$ then also $\psi_i$ is/has to be true"), that are derivable by applying rules of the ambient logic to some given set of sequents, called **axioms** of the theory. Put differently, a theory is generated from a set of axioms, by starting with those axioms and applying rules of deduction. 
 
 ## Related concepts
 
