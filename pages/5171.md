@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -20,12 +20,17 @@ For appropriate choices of dagger categories this restricts to various notions o
 
 (...)
 
+
 ## Related concepts
 
-* **seld-adjoint morphisms**
+* **self-adjoint morphisms**
 
 * [[unitary morphism]]
 
+* [[compact self-adjoint operator]]
+
+
+[[!redirects self-adjoint morphism]]
 [[!redirects self-adjoint morphisms]]
 
 [[!redirects self-adjoint matrix]]
@@ -33,3 +38,4 @@ For appropriate choices of dagger categories this restricts to various notions o
 [[!redirects self-adjoint operator]]
 [[!redirects self-adjoint operators]]
 [[!redirects self-adjoint]]
+[[!redirects self-adjointness]]
