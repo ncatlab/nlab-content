@@ -69,10 +69,22 @@ If $\mathbf{S} = $ [[∞Grpd]] then the extra condition that $f$ is [[∞-connec
 ## Properties {#Properties}
 
 
+
+
 ### Over $\infty Grpd$ {#OverInfGrpd}
 
-+-- {: .un_def }
-###### Definition
++-- {: .un_prop }
+###### Proposition
+
+Every local $(\infty,1)$-topos over [[∞Grpd]] has [[homotopy dimension]] $\leq 0$.
+
+=--
+
+See [[homotopy dimension]] for details.
+
+
++-- {: .un_prop }
+###### Proposition
 
 If an [[(∞,1)-geometric morphism]] $f : \mathbf{H} \to $ [[∞Grpd]] has an extra [[right adjoint]] $f^!$ to its [[direct image]], then $\mathbf{H}$ is an [[∞-connected (∞,1)-topos]].
 
@@ -81,7 +93,7 @@ If an [[(∞,1)-geometric morphism]] $f : \mathbf{H} \to $ [[∞Grpd]] has an ex
 +-- {: .proof}
 ###### Proof
 
-By the general properties of [[adjoint (∞,1)-functor]]s it is sufficient to show that $f_! f^* \\simeq Id$. To see this, we use that every [[∞-groupoid]] $S \in $ [[∞Grpd]] is the [[(∞,1)-colimit]] (as discussed there) over itself of the [[(∞,1)-functor]] constant on the point: $S \simeq {\lim_\to}_{S} *$.
+By the general properties of [[adjoint (∞,1)-functor]]s it is sufficient to show that $f_! f^* \simeq Id$. To see this, we use that every [[∞-groupoid]] $S \in $ [[∞Grpd]] is the [[(∞,1)-colimit]] (as discussed there) over itself of the [[(∞,1)-functor]] constant on the point: $S \simeq {\lim_\to}_{S} *$.
 
 The [[left adjoint]] $f^*$ preserves all [[(∞,1)-colimit]]s, but if $f_*$ has a right adjoint, then it does, too, so that for all $S$ we have
 
@@ -208,7 +220,7 @@ So $\Gamma$ does commute with colimits if $X$ is [[small-projective]]. Since all
 
 * [[local topos]] / **local (∞,1)-topos**.
 
-* [[cohesive topos]] / **cohesive (∞,1)-topos**
+* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
 and
 
