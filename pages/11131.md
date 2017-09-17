@@ -60,4 +60,6 @@ Implementations of constructive [[real number]] analysis in [[type theory]] impl
 
 * Robbert Krebbers, [[Bas Spitters]], _Type classes for efficient exact real arithmetic in Coq_ ([arXiv:1106.3448](http://arxiv.org/abs/1106.3448/))
 
+* [[Bas Spitters]], _Verified Implementation of Exact Real Arithmetic in Type Theory_, talk at _Computable Analysis and Rigorous Numeric_ ([pdf](http://www.cs.ru.nl/~spitters/CARN.pdf))
+
 [[!redirects exact analysis]]
