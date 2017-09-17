@@ -20,7 +20,7 @@ A **cohesive site** is a small [[site]] whose [[topos of sheaves]] is a [[cohesi
 ## Definition
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $C$ be a small [[site]], i.e. a [[small category]] equipped with a [[coverage]]/[[Grothendieck topology]].  We say that $C$ is a **cohesive site** if
@@ -39,7 +39,7 @@ Notice that if $C$ has finite [[product]]s then it is also cosifted.
 
 ## Properties: sheaves on a cohesive site
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ a cohesive site, the [[category of sheaves]] $Sh(C)$ on $C$ 
@@ -95,7 +95,7 @@ $$
   Sh(C) \simeq PSh(C)
 $$
 
-and trivially every constant presheaf is a sheaf. So we always has a triple of adjoint functors
+and trivially every constant presheaf is a sheaf. So we always have an [[adjoint triple]] of  functors
 
 $$
   (\Pi_0 \dashv Disc \dashv \Gamma) : Sh(C) \to Set
@@ -121,18 +121,18 @@ The condition that $\Pi_0$ preserves finite products is precisely the condition 
 
 In conclusion we have
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A small category equipped with the trivial coverage/topology is a cohesive site if
 
-* it is cosifted;
+* it is [[cosifted category|cosifted]];
 
-* has a terminal object $*$.
+* has a [[terminal object]] $*$.
 
-* every object $U$ has a global points $* \to U$.
+* every object $U$ has a [[global element]] $* \to U$.
 
-The first two conditions ensure that $Sh(C) = PSh(C)$ is a cohesive topos. The last condition implies that _cohesive pieces have points_ in $PSh(C)$.
+The first two conditions ensure that $Sh(C) = PSh(C)$ is a [[cohesive topos]]. The last condition implies that _cohesive pieces have points_ in $PSh(C)$.
 
 =--
 
@@ -142,7 +142,7 @@ Any full small subcategory of [[Top]] on [[connected]] topological spaces with t
 
 Specifically we have:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The categories [[CartSp]] and [[ThCartSp]] equipped with the standard [[open cover]] [[coverage]] are cohesive sites.
@@ -153,7 +153,7 @@ The axioms are readily checked.
 
 Notice that the cohesive topos over $ThCartSp$ is the [[Cahiers topos]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The cohesive concrete objects of the cohesive topos $Sh(CartSp)$ are precisely the [[diffeological space]]s.
