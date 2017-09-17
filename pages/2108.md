@@ -244,6 +244,12 @@ For the moment see at **[[space of states (in geometric quantization)]]_.
 
 ## Properties
 
+### Compatibility of quantization with symplectic reduction
+
+On the relation between geometric quantization and [[symplectic reduction]]:
+
+* [[Guillemin-Sternberg geometric quantization conjecture]]
+
 ### Characteristic central extensions
 
 To a large extent geometric quantization is realized by [[central extension]] of various Lie groups arising in [[classical mechanics]]/[[symplectic geometry]].
