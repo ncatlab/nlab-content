@@ -482,6 +482,8 @@ A review of this latter aspect is also in
 
 * [[Vladimir Hinich]], _Simplicial nerve in Deformation theory_ ([arXiv:0704.2503](http://arxiv.org/abs/0704.2503))
 
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets and simplicial operads_, [arxiv/1109.1004](http://arxiv.org/abs/1109.1004) (a Quillen equivalence for Segal vs. simplicial operads using coherent nerve)
+
 For more references see [[relation between quasi-categories and simplicial categories]].
 
 Two query-discussions on terminology and concrete description of the coherent/"simplicial" nerve are archived at nForum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=754&Focus=20607#Comment_20607).
