@@ -72,6 +72,8 @@ The proof is spelled out at [[affine line]].
 
 * [[Grassmannian]]
 
+* [[projective geometry]], [[synthetic projective geometry]]
+
 ## References
 
 An introduction to projective spaces over the theory of ordinary commutative rings is in
