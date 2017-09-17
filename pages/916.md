@@ -12,6 +12,9 @@ In some fields (including secondary-school mathematics even today), functions ar
 
 ## Definitions
 
+### In sets
+ {#DefinitionInSets}
+
 Given [[set]]s $A$ and $B$, a __partial function__ $f$ from a $A$ to $B$ consists a [[subset]] $D$ of $A$ and a (total) function from $D$ to $B$.  In more detail, this is a [[span]]
 $$ \array {
   &                & D \\
@@ -26,6 +29,19 @@ Notice that the induced function $D \to A \times B$ is an [[injection]], so a pa
 
 We consider two partial functions (with the same given source and target) to be __equal__ if there is a [[bijection]] between their domains that makes the obvious diagrams commute.  You can get this automatically in a traditional set theory by requiring $D$ to be literally a [[subset]] of $A$ (with $\iota$ the inclusion map).
 
+### General abstract
+ {#DefinitionGeneralAbstract}
+
+Notice that a partial function from $A$ to $B$ as [above](#DefinitionInSets) is equivalently a genuine function from $A$ to the [[disjoint union]] ([[coproduct]]) of $B$ with the point (the singleton)
+
+$$
+  \phi \;\colon\; A \longrightarrow B \coprod \ast
+  \,.
+$$
+
+(The [[subset]] $D \hookrightarrow A$ in the [above](#DefinitionInSets) is identified with the set of all elements that are sent to the point by $\phi$.)  
+
+This in turn is equivalently a morphism in the [[Kleisli category]] of the [[maybe monad]]. Phrased this way, the concept of partial function makes sense in any [[category]] with [[coproducts]] and with a [[terminal object]].
 
 ## Examples
 
