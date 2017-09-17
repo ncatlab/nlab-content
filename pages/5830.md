@@ -236,6 +236,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 ## Related entries
 
+* [[intensional type theory]], [[observational type theory]], [[extensional type theory]]
+
 * [[HoTT methods for homotopy theorists]]
 
 * [[cohesive homotopy type theory]]
