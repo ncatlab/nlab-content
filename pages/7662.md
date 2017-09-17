@@ -1,6 +1,41 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $X$ a [[smooth manifold]] of even [[dimension]] and with [[spin structure]], write $\mathcal{S}(X)$ for the [[spin bundle]] and 
+
+$$
+  \mathcal{S}(X) \simeq \mathcal{S}^+(X) \oplus \mathcal{S}^-(X)
+$$
+
+for its decomposition into [[chiral spinor]] bundles. For $(X,g)$ the [[Riemannian manifold]] structure and $\nabla$ the corresponding [[Levi-Civita connection|Levi-Civita]] [[spin connection]] consider the map
+
+$$
+  c \circ \nabla 
+  \;\colon\;
+  \Gamma(\mathcal{S}^+(X))
+  \to 
+  \Gamma(\mathcal{S}^-(X))
+$$
+
+given by composing the action of the [[covariant derivative]] on [[sections]] with the [[symbol map]]. This is an [[elliptic operator]]. The [[index of an elliptic operator|index]] of this operator is called the **$\hat A$-genus**.
+
+## Related entries
+
+* [[index of an elliptic complex]]
+
+* [[Witten genus]]
 
 ## References
+
+The $\hat A$-genus as the index of the spin complex is discussed for instance in section 3 of
+
+* [[Peter Gilkey]], _The Atiyah-Singer Index Theorem -- Chapter 5_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/gilkey3.pdf))
+ {#Gilkey}
+
 
 A construction via a [[1-dimensional Chern-Simons theory]] is in
 
