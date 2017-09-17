@@ -55,7 +55,7 @@ Second: bimodules are not that much good unless you can compose them; for that o
 
 ## Properties
 
-### As morphisms in a 2-category
+### The 2-category of algebras and bimodules
  {#AsMorphismsInA2Category}
 
 Let $R$ be a [[commutative ring]] and consider bimodules over $R$-algebras.
@@ -110,7 +110,37 @@ In the context of [[higher category theory]]/[[higher algebra]] one may interpre
 
 =--
 
+### The $(\infty,2)$-category of $\infty$-algebras and $\infty$-bimodules
+ {#Infinity2CategoryOfInfinityAlgebrasAndBimodules}
 
+
+Let $\mathcal{C}$ be [[monoidal (∞,1)-category]] such that 
+
+1. it admits [[geometric realization]] of [[simplicial objects in an (∞,1)-category]];
+
+1. the [[tensor product]] $\otimes \colon \mathcal{C}\times \mathcal{C} \to \mathcal{C}$ preserves this geometric realization separately in each argument.
+
+
+Then there is an 
+[[(∞,2)-category]] $Mod(\mathcal{C})$ which given as an [[(∞,1)-category object]] internal to [[(∞,1)Cat]] has
+
+* $(\infty,1)$-category of objects
+
+  $$
+    Mod(\mathcal{C})_{[0]} \simeq Alg(\mathcal{C})
+  $$
+
+  the [[A-∞ algebras]] in $\mathcal{C}$;
+
+* $(\infty,1)$-category of morphisms
+
+  $$
+    Mod(\mathcal{C})_{[1]} \simeq BMod(\mathcal{C})
+  $$
+
+  the $\infty$-bimodules in $\mathcal{C}$.
+
+This is ([Lurie, def. 4.3.6.10, remark 4.3.6.11](#Lurie)).
 
 ## Related concepts
 
@@ -121,6 +151,7 @@ In the context of [[higher category theory]]/[[higher algebra]] one may interpre
 Bimodules in [[homotopy theory]]/[[higher algebra]] are discussed in section 4.3 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
 
 Specifically the homotopy theory of [[A-infinity bimodules]] is discussed in
 
