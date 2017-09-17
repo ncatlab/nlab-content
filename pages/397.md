@@ -67,7 +67,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Ivo]]
 * [[jdthomas|J. D. Thomas]]
 * [[Jacques Distler]]
-* [[Jamie Vicary|Jamie]] [[JamieVicary|Vicary]]
+* [[Jamie Vicary]]
 * [[James Dolan]]
 * [[Jason Dusek]]
 * [[JCMcKeown]]
