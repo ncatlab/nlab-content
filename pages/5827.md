@@ -7,9 +7,9 @@
 
 A __bilinear form__ is simply a [[linear map]] $\langle -,-\rangle\colon V \otimes V \to k$ out of a [[tensor product]] of $k$-[[module]]s into the [[ring]] $k$ (typically taken to be a [[field]]).
 
-The space $V$ equipped with a bilinear form $\langle-,-\rangle$ is also called an [[inner product space]].
+It is called __symmetric__ if $\langle x,y\rangle = \langle y,x\rangle$ for all $x,y \in V$. For variants on this, such as the property of being _conjugate-symmetric_, see [[inner product space]]. 
 
-It is called __symmetric__ if $\langle x,y\rangle = \langle y,x\rangle$ for all $x,y \in V$.
+It is called _nondegenerate_ if the [[mate]] $V \to V^\ast = \hom(V, k)$ is injective (a [[monomorphism]]). 
 
 Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is called
 
@@ -20,7 +20,9 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 ## Examples
 
-A symmetric bilinear form is an [[inner product]].
+* A [[inner product]] on a real vector space is an example of a symmetric bilinear form. (For some authors, an inner product on a real vector space is precisely a positive definite symmetric bilinear form. Other authors relax the positive definiteness to nondegeneracy. Perhaps some authors even drop the nondegeneracy condition (citation?).) 
+
+* If $f \colon \mathbb{R}^n \to \mathbb{R}$ is of class $C^2$, then the [[Hessian]] of $f$ at a point defines a symmetric bilinear form. It may be degenerate, but in [[Morse theory]], a [[Morse function]] is a $C^2$ function such that the Hessian at each critical point is nondegenerate. 
 
 ## Related concepts
 
