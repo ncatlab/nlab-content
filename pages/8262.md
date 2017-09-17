@@ -1,0 +1,32 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _free abelian group_ $\mathbb{Z}[S]$ on a [[set]] $S$ is the [[abelian group]] whose elements are _formal linear combinations_ of elements of $S$.
+
+## Definition
+
+Let 
+
+$$
+  U : Ab \to Set
+$$
+
+be the [[forgetful functor]] from the category [[Ab]] of abelian groups, to the category [[Set]] of sets. This has a [[left adjoint]] [[free construction]]:
+
+$$
+  \mathbb{Z}[-] : Set \to Ab
+  \,.
+$$
+
+This is the _free abelian group functor_.
+
+## Related concepts
+
+* [[free group]]
+
+[[!redirects formal linear combination]]
+[[!redirects formal linear combinations]]
