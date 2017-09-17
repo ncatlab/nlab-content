@@ -42,7 +42,7 @@
 
   * [[smooth manifold]], [[formal smooth manifold]], [[derived smooth manifold]]
 
-  * [[diffeological space]], [[Frölicher space]]
+  * [[smooth space]], [[diffeological space]], [[Frölicher space]]
 
   * [[smooth natural numbers]]
 
