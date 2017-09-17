@@ -1,0 +1,7 @@
+
+
+
+
+##References
+
+* [[Phil Ehlers|P. J. Ehlers]] and [[Tim Porter]], _Ordinal subdivision and special pasting in quasicategories_, Advances in Math. 217 (2007), No 2. pp 489-518.
