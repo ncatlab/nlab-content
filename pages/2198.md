@@ -151,7 +151,9 @@ Symmetry probably doesn\'t fit into this picture very well, but who knows?
 
 ## Related concepts
 
-* [[uniform space]], [[syntopogenous space]], [[apartness relation]], [[pretopological space]]
+* [[apartness relation]]
+
+[[!include generalized uniform structures - table]]
 
 
 ## References
@@ -217,6 +219,8 @@ Symmetry probably doesn\'t fit into this picture very well, but who knows?
 
 [[!redirects topogeny]]
 [[!redirects topogenies]]
+[[!redirects symmetric topogeny]]
+[[!redirects symmetric topogenies]]
 
 [[!redirects proximally continuous function]]
 [[!redirects proximally continuous functions]]
