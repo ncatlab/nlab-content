@@ -26,6 +26,8 @@ with values in the [[group of order 2]] is the [[Arf invariant]] of the skew-[[q
 
 ## Properties
 
+### Nontrivial Kervaire invariants
+
 Manifolds with non-trivial Kervaire invariant, hence with _Kervaire invariant 1_, exist in [[dimension]]
 
 * $d = 2 = 4\cdot 0 + 2$ 
@@ -39,6 +41,16 @@ Manifolds with non-trivial Kervaire invariant, hence with _Kervaire invariant 1_
 * $d = 62 = 4 \cdot 15 + 2$
 
 and in no other dimension, except possibly in $d = 126$ (a case that is still open).
+
+### For surfaces and Relation to theta characteristic
+
+On a [[surface]] $\Sigma$ a [[framing]] is equivalently a [[spin structure]]. If the surface carries a [[complex manifold]] structure then a spin structure is equivalently a [[theta characteristic]], hence a square root $L$ of the [[canonical bundle]]. Given this, the Kervaire invariant in $\Sigma$ is equal to the [[dimension]] mod 2 
+
+$$
+  dim(H^0(\Sigma,L)) \; mod \; 2
+$$
+
+of the space of [[holomorphic sections]] of $L$:
 
 ## Related concepts
 
@@ -56,6 +68,7 @@ and in no other dimension, except possibly in $d = 126$ (a case that is still op
 
 * Wikipedia, _[Kervaire invariant](http://en.wikipedia.org/wiki/Kervaire_invariant)_
 
+* [[Akhil Mathew]], _[The Kervaire invariant I](https://amathew.wordpress.com/2012/10/01/the-kervaire-invariant-i/)_
 
 On the solution of the [[Arf-Kervaire invariant problem]]:
 
