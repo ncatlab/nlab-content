@@ -21,7 +21,7 @@ The typical [[model (physics)|model]] of cosmic inflation adds to a standard [[F
 
 Simple as it is, this model has proven to successfully match the observations that it was designed to match (the large-scale homogeneity of the [[observable universe]], notably). But of course people are trying all kinds of variants, too. A central conceptual problem of most of these models is that it is unclear what the field $\phi$ should be in terms of [[particle physics]] or other known phyisics. In some variants it is identified with the [[Higgs field]], in other it is a scalar moduli field of some [[Kaluza-Klein compactification]], but all of this is speculative. 
 
-## Details
+## Variants
 
 ### Old inflation
 
@@ -34,6 +34,13 @@ Simple as it is, this model has proven to successfully match the observations th
 ### Chaotic inflation
 
 ([Linde 83](#Linde83))
+
+## Candidates for the inflaton field
+
+### Higgs inflation
+ {#HiggsInflation}
+
+The idea that the inflaton field in cosmology might be the [[Higgs field]] from the [[standard model of particle physics]] is as old as the idea of inflation itself, but at least in the naive versions it seems to be ruled out by data. However, with the experimental detection of the previously hypothesized Higgs field itself, the topic is gaining interest again and various variatins are being proposed to solve the problems with the naive idea, for instance a small non-[[minimal coupling]] of the Higgs field to [[gravity]]. See below at _[References -- Higgs inflation](#ReferencesHiggsInflation)_.
 
 ## Related concepts
 
@@ -78,8 +85,24 @@ Simple as it is, this model has proven to successfully match the observations th
 
 * H.V.Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
 
+### Higgs inflation
+ {#ReferencesHiggsInflation}
+
+Literature discussing whether or how the [[Higgs field]] might be identified as the inflaton field includes
+
+* Michael Atkins, _Could the Higgs boson be the inflaton?_, talk (Match 2012) ([pdf](http://indico.cern.ch/getFile.py/access?resId=0&materialId=slides&confId=180122))
+
+* Kohei Kamada, _Generalized Higgs inflation models_, talk at PLANCK 2012 (May 2012)([pdf](http://planck12.fuw.edu.pl/talks/kamada.pdf))
+
+* Alex Kehagias, _New Higgs inflation_, talk (September 2012) ([pdf](http://www.physics.ntua.gr/corfu2010/Talks/kehagias@central_ntua_gr_01.pdf))
+
+* Takehiro Nabeshima, _A model for Higgs inflation and its testability at the ILC_, talk (October 2012) ([pdf](http://ilcagenda.linearcollider.org/getFile.py/access?contribId=64&sessionId=8&resId=0&materialId=slides&confId=5468))
+
 [[!redirects inflation]]
 
+[[!redirects inflaton]]
+[[!redirects inflatons]]
 [[!redirects inflaton field]]
 [[!redirects inflaton fields]]
+
 
