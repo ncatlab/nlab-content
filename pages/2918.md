@@ -51,6 +51,10 @@ See at _[multisymplectic geometry -- de Donder-Weyl-hamilton equations of motion
 
 ## References 
 
+The concept is named after [[Adrien-Marie Legendre]].
+
+Reviews include
+
 * Torontowiki: [Legendre Transformation](http://wiki.math.toronto.edu/TorontoMathWiki/index.php/Legendre_Transformation)
 
 Discussion of Legendre transformation in the context of [[Lie algebroids]] is in:
