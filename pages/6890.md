@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Coq is a formal proof management system. It provides a formal language to write mathematical [[definition]]s, executable [[algorithm]]s and [[theorem]]s together with an environment for semi-interactive development of machine-checked [[proof]]s. 
+
+## Applications
+
+### Homotopy type theory
+
+* [[homotopy type theory]]
+
+## References
+
+### General
+
+* [Coq home page](http://coq.inria.fr/)
+
+### Tutorials
+
+* [[Andrej Bauer]], _Video tutorials for the Coq proof assistant_ ([web](http://math.andrej.com/2011/02/22/video-tutorials-for-the-coq-proof-assistant/)).
