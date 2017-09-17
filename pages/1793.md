@@ -80,20 +80,33 @@ This is the model structure which induces the [[transferred model structure|tran
 
 #### The projective model structure {#CochainNonNegProj}
 
-We record a detailed proof, following ([Stel](#Stel)), of 
 
 +-- {: .un_theorem}
 ###### Theorem
 
-The catgeory $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
+The category $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[abelian group]]s becomes a model category with
 
 * fibrations the degreewise surjections;
 
 * weak equivalences the [[quasi-isomorphism]]s.
 
+This is a [[simplicial model category]]-structure
+with respect to the canonical structure of an [[sSet]]-[[enriched category]]
+induced from the dual [[Dold-Kan correspondence|Dold-Kan equivalence]]
+$Ch^\bullet_+(Ab) \simeq Ab^\Delta$ by the fact that $Ab^\Delta$  is a [[category of cosimplicial objects]] (see there) in a category with all limits and colimits.
+
 =--
 
-We prove this in a sequence of lemmas.
++-- {: .proof}
+###### Proof
+
+We spell out a proof of the model structure below in a sequence of 
+lemmas. The proof that this is a simplicial model category is
+at [[model structure on cosimplicial abelian groups]].
+
+=--
+
+We record a detailed proof of the model structure on $Ch^\bullet_+(Ab)$ with fibrations the degreewise surjections, following the appendix of ([Stel](#Stel)).
 
 +-- {: .un_def}
 ###### Definition
@@ -110,6 +123,7 @@ For $n = 0$ let $\mathbb{Z}[-1,0] = 0$, for convenience.
 
 +-- {: .un_lemma}
 ###### Lemma
+{#ProjStructGenCofibs}
 
 For all $n \in \mathbb{N}$ the canonical maps $0 \to \mathbb{Z}[n]$ and $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ are cofibrations, in that they  have the [[left lifting property]] against acyclic fibrations.
 
@@ -119,9 +133,9 @@ For all $n \in \mathbb{N}$ the canonical maps $0 \to \mathbb{Z}[n]$ and $\mathbb
 ###### Proof
 
 
-Let $p : A \stackrel{\simeq}{\to} B$ be an acylic fibration, that is degreewise surjective and an isomorphism on cohomology. 
+Let $p : A \stackrel{\simeq}{\to} B$ be degreewise surjective and an isomorphism on cohomology. 
 
-For consider $\mathbb{Z}[0]\to 0$. We need to construct lifts
+First consider $\mathbb{Z}[0]\to \mathbb{Z}[-1,0] = 0$. We need to construct lifts
 
 $$
   \array{
@@ -228,9 +242,230 @@ are acyclic cofibrations, in that they have the [[left lifting property]] again 
 
 =--
 
-(...)
++-- {: .proof}
+###### Proof
 
-(... out of times.. to be continued ...)
+For $n = 0$ this is trivial. For $n \geq 1$ a diagram
+
+$$
+  \array{
+    0 &\to& A
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \mathbb{Z}[n-1,n] &\stackrel{g}{\to}& B
+  }
+$$
+
+is equivalently just any element $g_{n-1}(1) \in B$ and 
+a lift $\sigma$ accordingly just any element $\sigma \in A$ 
+with $p(\sigma) = g_{n-1}(1)$. Such exists because $p$ is degreewise
+surjctive by assumption.
+
+=--
+
+
++-- {: .un_lemma}
+###### Lemma
+{#ProjStructCharAcyclicFibrations}
+
+A morphism $f : A \to B$ is an acyclic fibration precisely if it has 
+the [[right lifting property]] against $0 \to \mathbb{Z}[n]$ and
+$\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ for all $n$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above lemmas, it remains to show only one direction:
+if $f$ has the RLP, then it is an acyclic fibration.
+
+So assume $f$ has the RLP. Then from the existence of the lifts
+
+$$
+  \array{  
+     0 &\to& A
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbb{Z}[n] &\stackrel{g}{\to}& B
+  }
+$$
+
+one deduces that $f$ is degreewise surjective on closed elements.
+In particular this means it is surjective in cohomology.
+
+With that, it follows from the existence of all the lifts
+
+$$
+  \array{  
+     \mathbb{Z}[n] &\stackrel{f}{\to}& A
+     \\
+     \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow
+     \\
+     \mathbb{Z}[n-1,n] &\stackrel{g}{\to}& B
+  }
+$$
+
+for $f$ a lift of the closed element $g_n(1)$ that $f$ is 
+degreewise surjective on all elements. 
+
+Moreover, these lifts say that if $f_n(1)$ is any closed element such that
+under $p$ it becomes exact ($d_B g_{n-1}(1) = p(f_n(1))$), then it
+must already be exact itself ($d_A \sigma_{n-1}(1) = f_n(1)$). Hence
+$f$ is also injective on cohomology and hence by the above is 
+an isomorphism on cohomology.
+
+=--
+
++-- {: .un_lemma}
+###### Lemma
+{#ProjStrucFactAxiomI}
+
+Every morphism $f : A \to B$ can be factored as 
+a morphism with left leifting property against all
+fibrations followed by a fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply the [[small object argument]]-reasoning to the
+maps in $ J = \{0 \to \mathbb{Z}[n-1,n]\}$.
+
+Since for $n \in \mathbb{N}$ a morphism $\mathbb{Z}[n,n+1]\to B$
+corresponds to an element $b \in B_n$. From the commuting 
+diagram
+
+$$
+  \array{
+    0 &\to& A
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    \coprod_{{n \in \mathbb{n}} \atop {b \in B_n}}
+    \mathbb{Z}[n,n+1] &\stackrel{}{\to}&
+    B
+  }
+$$
+
+one obtains a factorization through its [[pushout]]
+
+$$
+  \array{
+     && A 
+     \\
+       &{}^{\mathllap{j}}\swarrow& \downarrow
+     \\
+     A \coprod \coprod_{{n \in \mathbb{n}} \atop {b \in B_n}}
+     \mathbb{Z}[n,n+1]
+     && \downarrow^{\mathrlap{f}}
+     \\
+     &\searrow_{p}& \downarrow
+     \\
+     && B 
+  }
+  \,.
+$$
+
+Since $j$ is the pushout of an acyclic cofibration, it is
+itself an acyclic cofibration. Moreover, since the cohomology
+of $\coprod_{{n \in \mathbb{n}} \atop {b \in B_n}} \mathbb{Z}[n,n+1]$
+clearly vanishes, it is a quasi-isomorphism.
+
+The map $p$ is manifestly degreewise
+onto and hence a fibration. 
+
+=--
+
++-- {: .un_lemma}
+###### Lemma
+
+Every morphism $f : A \to B$ may be factored as a
+cofibration followed by an acyclic fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By a  [lemma above](#ProjStructCharAcyclicFibrations) acyclic fibrations
+are precisely the maps with the right lifting property against
+morphisms in $I = \{0 \to \mathbb{Z}[n], \mathbb{Z}[n]\to \mathbb{Z}[n-1,n]\}$, which by the [first lemma above](#ProjStructGenCofibs)
+are cofibrations.
+
+The claim then follows again from the [[small object argument]]
+apllied to $I$.
+
+=--
+
++-- {: .un_lemma}
+###### Lemma
+
+A morphism $f : A \to B$ that is both a cofibration
+(:= LLP against acyclic fibrations ) and a weak equivalence
+has the left lifting property against all fibrations.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By a standard argument, this follows from the 
+factorization lemma proven [above](#ProjStrucFactAxiomI),
+which says that we may find a factorization
+
+$$
+  \array{ 
+    A &\stackrel{j}{\to}& \hat B
+    \\
+    & {}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{p}}
+    \\
+    && B
+  }
+$$
+
+with $j$ having LLP against all fibrations and being
+a weak equivalence, and $p$ a fibration. Since $f$ is
+assumed to be a weak equivalence, it follows that
+$p$ is an acyclic fibration. By definition of cofibrations
+as $LLP(Fib \cap W)$ this implies that we have the lift in
+
+$$
+  \array{
+    A &\stackrel{j}{\to}& \hat B
+    \\
+    {}^{\mathllap{f}}\downarrow 
+    &{}^{\mathllap{\sigma}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    B &\stackrel{Id}{\to}& B
+  }
+  \,.
+$$
+
+Equivalently redrawing this as
+
+$$
+  \array{
+    A &\stackrel{Id}{\to}& A &\stackrel{Id}{\to}& A
+    \\
+    {}^{\mathllap{f}}\downarrow && {}^{\mathllap{p}}
+    \downarrow && {}^{\mathllap{i}}\downarrow 
+    \\
+    B &\stackrel{\sigma}{\to}&
+    \hat B \stackrel{p}{\to}
+  }
+$$
+
+makes manifest that this exhibts $f$ as a retract of $j$
+and as such inherits its left lefting properties.
+
+=--
+
+This series of lemmas establishes the claimed model structure
+on $Ch^\bullet_+(Ab)$.
 
 ## History and references {#References}
 
