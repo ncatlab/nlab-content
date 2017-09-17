@@ -525,7 +525,7 @@ $$
        \\
        \uparrow && \uparrow
        \\
-       \Omega^\bullet(U \times \Delta^k)
+       \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^k)
        &\leftarrow&
        W(\mathfrak{g})
     }
@@ -539,34 +539,7 @@ $$
 +-- {: .un_remark }
 ###### Remark
 
-For given $U,[k]$ the commuting diagram of [[nLab:dg-algebra]] morphism encodes a collection of [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] on $U \times\Delta^k$ such that their [[curvature]] forms have no components with all legs on $\Delta^k$.
-
-=--
-
-+-- {: .un_def }
-###### Definition
-**(coefficient for $\infty$-Lie algebra valued connections)**
-
-Write $\mathbf{B}G_{conn} \hookrightarrow \mathbf{B}G_{diff}$
-for the sub-presheaf assigning to $(U,[k])$ only those 
-[[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] whose [[curvature]] forms have _no_ leg along $\Delta^n$.
-
-This are those morphisms of [[nLab:dg-algebra]]s $\Omega^\bullet(U \times \Delta^k) \leftarrow W(\mathfrak{g})$ such that the underlying morphism of graded algebras fits into a diagram
-
-$$
-  \array{
-    \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^n) &\leftarrow& W(\mathfrak{g})
-    \\
-    \uparrow && \uparrow
-    \\
-    C^\infty(U) \otimes' \Omega^\bullet(\Delta^n)
-    &\leftarrow&
-    \wedge^\bullet \mathfrak{g}^*[1]
-  }
-  \,.
-$$
-
-of graded algebras.
+For given $U,[k]$ the commuting diagram of [[dg-algebra]] morphism encodes a collection of [[∞-Lie algebra valued differential forms]] on $U \times\Delta^k$ such that their [[curvature]] forms have no components with _all_ legs on $\Delta^k$.
 
 =--
 
@@ -586,7 +559,7 @@ is an acyclic fibration in $[CartSp^{op}, sSet]_{proj}$.
 +-- {: .proof}
 ###### Proof
 
-By the [[nLab:free functor|free property]] of $W(\mathfrak{g})$ we have lifts in all diagrams
+By the [[free property]] of $W(\mathfrak{g})$ we have lifts in all diagrams
 
 $$
   \array{
@@ -606,11 +579,53 @@ So the morphism is an acyclic [[nLab:Kan fibration]] over each $U$, and hence an
 =--
 
 
+
++-- {: .un_def }
+###### Definition
+**(coefficient for $\infty$-Lie algebra valued connections)**
+
+Write $\mathbf{B}G_{conn} \hookrightarrow \mathbf{B}G_{diff}$
+for the sub-presheaf assigning to $(U,[k])$ only those 
+[[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebra valued differential forms]] whose [[curvature characteristic form]]s have no dependency on the simplicial directions:
+
+$$
+  \mathbf{B}G_{conn}
+  =
+  \mathbf{cosk}_{n+1}
+  (
+  (U,[k])
+  \mapsto
+  \left\{
+    \array{
+       C^\infty(U) \otimes' \Omega^\bullet(\Delta^k)
+       &\leftarrow& CE(\mathfrak{g})
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^k)
+       &\leftarrow&
+       W(\mathfrak{g})
+       \\
+       \uparrow && \uparrow
+       \\
+       (\Omega^\bullet(U) \otimes C^\infty(\Delta^n))_{closed}
+       &\stackrel{\langle F_A \rangle}{\leftarrow}&
+    }
+  \right\}
+  )
+  \,.
+$$
+
+
+=--
+
+
+
 +-- {: .un_def }
 ###### Definition
 **($\infty$-Lie algebra valued (pseudo-)connections)**
 
-Let $\hat X \in [CartSp^{op}, sSet]_{proj}$ be a (cofibrant) object, such that a morphism $\hat X\to \mathbf{B}G$ is a cocycle for a $G$-[[nLab:principal ∞-bundle]] on $\hat X$.
+Let $\hat X \in [CartSp^{op}, sSet]_{proj}$ be a (cofibrant) object, such that a morphism $\hat X\to \mathbf{B}G$ is a cocycle for a $G$-[[principal ∞-bundle]] on $\hat X$.
 
 We say a morphism 
 
@@ -640,7 +655,7 @@ $$
   \,.
 $$
 
-Such $\infty$-Lie algebra valued connection data was introduced and studied in (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">SSSI</a>).
+Such $\infty$-Lie algebra valued connection data was introduced in ([SSSI](#SSSI))
 
 +-- {: .un_def }
 ###### Definition
@@ -1371,6 +1386,19 @@ In terms of the underlying $\infty$-Lie algebra valued local connection data, i.
 
 ***
 
+## References
+
+The $\infty$-Lie algebraic data involved in the $\infty$-Chern-Weil homomorphism was considered in
+
+* SSSI (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+{#SSSI}
+
+An more comprehensive context is described at
+
+* [[schreiber:differential cohomology in an (∞,1)-topos]]
+
 [[!redirects ∞-Chern-Weil theory]]
 
 [[!redirects ∞-Chern-Weil homomorphism]]
+
+
