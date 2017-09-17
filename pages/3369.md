@@ -29,11 +29,14 @@ This entry is about the article
 
   ([arXiv](http://arxiv.org/abs/0905.0731))
 
-on a central topic in [[higher category theory and physics]]: the [[higher category theory|abstract higher categoretic]] conception of [[path integral]] [[quantization]] of classical [[action functional]]s to [[FQFT|extended quantum field theories]].
+on a 
 
+1. central topic in [[higher category theory and physics]]: the [[higher category theory|abstract higher categoretic]] conception of [[path integral]] [[quantization]] of classical [[action functional]]s to [[FQFT|extended quantum field theories]].
+
+1. the [[extended TQFT]]-[[quantization]] of $G$-[[Chern-Simons theory]] for abelian [[Lie group]]s $G$.
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
