@@ -157,7 +157,7 @@ $$
     \\
     \uparrow && \uparrow
     \\
-    CE(\marthfrak{so}(n)) &\leftarrow& CE(\mathbf{b}^2 \mathfrak{u}(1))
+    CE(\mathfrak{so}(n)) &\leftarrow& CE(\mathbf{b}^2 \mathfrak{u}(1))
   }
 $$
 
@@ -176,7 +176,7 @@ $$
 
 And this may be taken to be the abstract definition of the string Lie 2-algebra.
 
-By the general logic of [[fiber sequence]]s this implies that also
+By the general logic of [[fiber sequence|fiber sequences]] this implies that also
 
 $$  
   \mathbf{b} \mathfrak{u}(1) \to \mathfrak{string} \to \mathfrak{so}(n)
@@ -195,7 +195,7 @@ $$
   \,.
 $$
 
-This is indeed a homotopy pushout even without resolving the point, because $CE(\mathfrak{string}) \leftarrow CE(\mathfrak{g})$ is already a cofibration, being the pushout of a pufibration by the above.
+This is indeed a homotopy pushout even without resolving the point, because $CE(\mathfrak{string}) \leftarrow CE(\mathfrak{g})$ is already a cofibration, being the pushout of a cofibration by the above.
 
 ## Generalizations
 
@@ -214,23 +214,24 @@ For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[su
 
 In one incarnation or other the String Lie 2-algebra has been considered in literature of [[dg-algebra]]s, but its [[Lie theory|Lie theoretic]] interpretation as a Lie 2-algebra has been made fully explicit only in
 
-* [[John Baez]], [[Alissa Crans]], _Lie 2-algebras_ .
+* [[John Baez]], [[Alissa Crans]], Higher-dimensional Algebra V: Lie 2-algebras, _Theory and Applications of Categories_ **12** (2004), 492-528.  ([web](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html))
+([arXiv:math.QA/0307263](http://arxiv.org/abs/math.QA/0307263))
 
-After its relation to the [[String Lie 2-group]] under [[Lie integration]] was established by  in
+After its relation to the [[String Lie 2-group]] under [[Lie integration]] was established by Henriques in
 
 * [[Andre Henriques]], _Integrating $L_\infty$-algebras_ ([arXiv:0603563](http://arxiv.org/abs/math/0603563))
 
 and 
 
-* Crans, Baez, Schreiber, Stevenson, _From loop groups to 2-groups_, 
+* [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]] and [[Danny Stevenson]], From loop groups to 2-groups, _Homotopy, Homology and Applications_ **9** (2007), 101-135.  ([arXiv:math.QA/0504123](http://arxiv.org/abs/math.QA/0504123))
 
-It was reconsidered also in 
+it was reconsidered also in 
 
 * Sati, Schreiber, Stasheff, _$L_\infty$-algebra connections_
 
 where also the relation to the [[supergravity Lie 3-algebra]] and other structures is discussed.
 
-The super-$L_\infty$-version of the string $L_\infty$-algebras were considered in
+The super-$L_\infty$-version of the string $L_\infty$-algebra was considered in
 
 * [[John Baez]], [[John Huerta]], _Division Algebras and Supersymmetry II_ ([arXiv:1003.3436](http://arxiv.org/abs/1003.3436)).
 
