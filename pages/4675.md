@@ -288,7 +288,7 @@ The 3-cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ 
 $$
   CE(\mathfrak{g})
    \stackrel{(h \mapsto \mu, b \mapsto 0)}{\leftarrow}
-  CE(b\mathbb{R} \to \mathfrak{g})
+  CE(b\mathbb{R} \to \mathfrak{g}_\mu)
    \stackrel{(h \mapsto h)}{\leftarrow}
   CE(b^2 \mathbb{R})
   :
@@ -323,7 +323,7 @@ where the first morphism is a weak equivalence followed by a fibration in the [[
 ###### Proof
 
 To see that the left morphism is objectwise a [[weak homotopy equivalence]], notice that 
-a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
+a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ consists of a triple $(A,B,H)$, where $A$ is a vertical flat $\mathfrak{g}$-valued 1-form on $U\times\Delta^k$, $B$ is a vertical 2-form and $H$ a 3-form on $U\times\Delta^k$, such that $d B=H-\mu(A,A,A)$ and $dH=0$. Since $A$ is flat, the condition $H=d B+\mu(A,A,A)$ implies $d H=0$ and so $H$ is completely determined by $B$, and there are no conditions on $B$. This means that  a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
 
 We turn now to discussing that the second morphism is a fibration. The nontrivial degrees of the lifting problem
 
