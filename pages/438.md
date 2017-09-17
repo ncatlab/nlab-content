@@ -25,7 +25,7 @@ I am also very interested in directed homotopy theory and the application of ide
 
 See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), where I have put a link to a recent version of the first 10 chapters of the Menagerie.
 
-Other goodies there include parts of a draft monograph on [[profinite homotopical algebra]], and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems. There are also some lecture notes form lecture in Hagen and La Laguna, and a survey article that grew out of talks in 1991 in Italy. 
+Other goodies there include parts of a draft monograph on [[profinite homotopical algebra]], and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems. There are links to notes for the Lisbon school and workshop on Higher Gauge Theory etc.,  (Feb. 2011). There are also some lecture notes from lectures in Hagen and La Laguna, and a survey article that grew out of talks in 1991 in Italy. 
 
 I have also put the start of a brief discussion of the relationships between the Cech and Vietoris methods and the newly developed methods of Topological Data Analysis.
 
