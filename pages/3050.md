@@ -378,6 +378,8 @@ All the ingredients of monadic descent generalize from [[category theory]] to [[
 
   * [[cohomological descent]]
 
+  * [[descent morphism]]
+
   * **monadic descent** 
 
     * [[Sweedler coring]]
