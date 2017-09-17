@@ -4327,7 +4327,7 @@ If $X, Y \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \stackrel{i_!}{\to} \
  {#SmoothnGroupoids}
  {#SmoothGroupoids}
 
-Fundamental physics is all based on the _[[gauge principle]]_. This says in particular that it is wrong to think of two different _field configurations_ ([[gauge field]] configurations, as it were) of being [[equality|equal]] or not. Instead it makes sense to ask if there is (or not) a _[[gauge transformation]]_ from one to the other that exibits an gauge [[equivalence]] between the two fields. The simplest example of this is described in detail below in  _[Gauge transformations in electromagnetism](#GaugeTransformationsInElectromagnetism)_.
+Fundamental physics is all based on the _[[gauge principle]]_. This says in particular that it is wrong to think of two different _[[gauge field]] configurations_ (discussed in detail below in _[Fields](#Fields)_) as being [[equality|equal]] or not. Instead it makes sense to ask if there is (or not) a _[[gauge transformation]]_ from one to the other that exibits an gauge [[equivalence]] between the two fields. The simplest example of this is described in detail below in  _[Gauge transformations in electromagnetism](#GaugeTransformationsInElectromagnetism)_.
 
 But this means that the collection of [[gauge fields]] on a [[spacetime]] $X$, which we will write as a [[mapping space]] $[X, \mathbf{B}G_{conn}]$, cannot be a [[smooth space]] as considered above, for if it were such a smooth space, then we could ask if two gauge fields $\nabla_1, \nabla_2 \colon * \to [X,\mathbf{B}G_{conn}]$ were equal or not. 
 
@@ -4346,8 +4346,29 @@ Remarkably, the same concept appears in [[constructive mathematics]]: there it i
 
 This remarkable matching of [[higher gauge theory]] and [[homotopy type theory]] is what drives the discussion here.  
 
++-- {: bluebox }
+###### Contents:
+
+1. [Model layer](#SmoothHomotopyTypesModelLayer)
+
+   This introduces _[[groupoids]]_, then _[[smooth groupoids]]_ and eventually _[[∞-groupoids]]_ modeled as _[[Kan complexes]]_ and then _[[smooth ∞-groupoids]]_.
+
+1. [Semantics layer](#SmoothHomotopyTypesSemanticLayer)
+
+   This introduces the general abstract framework for [[smooth ∞-groupoids]] which is _[[cohesion]]_ of [[(∞,1)-toposes]].
+
+1. [Syntactic layer](#SmoothHomotopyTypesSyntacticLayer)
+
+   This introduces the [[internal language]] of [[cohesive (∞,1)-toposes]], called _[[cohesive homotopy type theory]]_.
+
+**Remark** _The reader who is after elementary exposition may want to skip over this discussion of [[homotopy theory]] on first reading to the next chapter _[Groups](#Groups)_ and only come back here for reference as need arises.
+
+=--
+
+
 
 ### Model Layer
+ {#SmoothHomotopyTypesModelLayer}
 
 #### Groupoids
  {#Groupoids}
@@ -4880,7 +4901,7 @@ The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $
 
 #### Model categories
 
-* [[model structure on simplical sets]]
+* [[model structure on simplicial sets]]
 
 * [[model structure on simplicial presheaves]]
 
@@ -4973,11 +4994,25 @@ For $X$ a [[smooth manifold]] let $\{U_i \hookrightarrow X\}_i$ be an [[open cov
 
 ##### Local, $\infty$-connected and cohesive $\infty$-toposes
 
-* [[local (∞,1)-topos]]
+* [[local (∞,1)-topos]] $(\flat \dashv \sharp)$
 
-* [[locally ∞-connected (∞,1)-topos]]
+* [[locally ∞-connected (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat)$
 
-* [[cohesive (∞,1)-topos]]
+* [[cohesive (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat \dashv \sharp)$
+
+[[!include cohesion - table]]
+
+Some terminology:
+
++-- {: .num_defn #ShapeTerminology}
+###### Definition
+
+For $X \in \mathbf{H}$ locally $\infty$-connected, we say $\mathbf{\Pi}(X)$ is the **[[shape]] of $X$**. If $\mathbf{H}$ is in addition cohesive we also say that $\mathbf{\Pi}(X)$ is the **[[geometric realization]]** of $X$ or the **[[fundamental ∞-groupoid]]** of $X$.
+
+If $\mathbf{\Pi}(X) \simeq *$ we say that $X$ is **geometrically contractible**.
+
+=--
+
 
 #### The $\infty$-topos of smooth $\infty$-groupoids
 
@@ -5027,6 +5062,8 @@ $$
   \;\vdash\;
   UnderlyingBundle_{\mathbf{B}G} \colon \flat \mathbf{B}G \to \mathbf{B}G
 $$
+
+
 
 ## **Groups**
  {#NGroups}
@@ -5875,19 +5912,34 @@ $$
 ### Semantics Layer
 
 
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat \dashv \sharp)$ equipped with [[differential cohesion]] $(Red \dashv \mathbf{\Pi}_{inf} \dashv \flat_{inf})$. Let 
 
-+-- {: .num_defn}
+$$
+  \mathbb{A}^1 \in \mathbf{H}
+$$ 
+
+be an [[line object]] that exhibits the cohesive structure. 
+
+
++-- {: .num_defn #ManifoldInSemLayer}
 ###### Definition
 
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $\mathbb{A}^1 \in \mathbf{H}$ be an [[line object]] that exhibits the cohesive structure. 
 
-Then a **[[étale ∞-groupoid]]** of [[dimension]] $n$ is an object $X \in \mathbf{H}$ such that there exists a map $p \;\colon\;\left(\coprod_{i} \mathbb{A}^n\right) \to X$ such that
+An **[[étale ∞-groupoid]]** of [[dimension]] $n$ is an object $X \in \mathbf{H}$ such that there exists a map $p \;\colon\;\left(\coprod_{i} \mathbb{A}^n\right) \to X$ such that
 
 1. $p$ is a [[1-epimorphism]];
 
 1. $p$ is a [[formally étale morphism]].
 
 If $X$ here is [[0-truncated]] then we call it it **[[manifold]]**. It $X$ is [[1-truncated]] we call it an **[[orbifold]]**.
+
+
+=--
+
++-- {: .num_defn #ManifoldWithBoundaryInSemLayer}
+###### Definition
+
+(...)
 
 
 =--
@@ -6450,8 +6502,10 @@ $$
 ### Model Layer
  {#MaurerCartanLayerMod}
 
+
 #### Maurer-Cartan form on a Lie group
  {#MaurerCartanFormOnLieGroup}
+
 
 * [[Maurer-Cartan form]]
 
@@ -6481,7 +6535,10 @@ $$
 
 #### Maurer-Cartan form on a cohesive $\infty$-group
 
-Let $G \in Grp(\mathbf{H})$. 
+Let $\mathbf{H}$ be a [[cohesive (infinity,1)-topos]] $(\mathbf{\Pi} \dashv \flat \dashv \sharp)$. We discuss a general formulation of [[Maurer-Cartan forms]] on cohesive [[infinity-groups]]
+
+
+Let $G \in Grp(\mathbf{H})$ be a [[group object in an (infinity,1)-category|group object]]. 
 
 Use the [[pasting law]] together with the fact that $\flat$ is
 [[right adjoint]] and hence preserves [[limits]] to get $\theta$ in
@@ -6506,9 +6563,28 @@ $$
 This is the **[[Maurer-Cartan form]]** on $G$
 
 $$
-  \theta \colon G \to \flat_{dR} \mathbf{B}G
+  \theta \;\colon\; G \to \flat_{dR} \mathbf{B}G
   \,.
 $$
+
+=--
+
++-- {: .num_defn #DifferentiationOfInfinityGroupValuedFunction}
+###### Definition
+
+For $S \;\colon\; X \to G$ a morphism, write
+
+$$
+  S^{-1} \mathbf{d} S 
+  \coloneqq S^* \theta_G
+  \;\colon\;
+  X \stackrel{S}{\to}
+  G
+  \stackrel{\theta_G}{\to}
+  \flat_{dR}\mathbf{B}G
+$$
+
+for its composite with the map of def. \ref{GeneralAbstractMaurerCartanForm}, hence the **pullback of the Maurer-Cartan form along $S$**. We also call this the **[[de Rham differential]]** of $S$.
 
 =--
 
@@ -9313,7 +9389,138 @@ The actual [[extended quantum field theory]] would be obtained from such a data 
 
 ### Semantics layer
 
-(...)
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat \sharp) : \mathbf{H} \to \mathbf{H}$ equipped with [[differential cohesion]] $(Red \dashv \mathbf{\Pi}_{inf} \dashv \flat_{inf}) \;\colon\; \mathbf{H} \to \mathbf{H}$. 
+
+We discuss the formalization of [[critical loci]] of [[action functionals]] and of [[equations of motion]] in this context.
+
+Fix 
+
+$$
+  \mathbf{Fields} \in \mathbf{H}
+$$ 
+
+an object that serves as the [[moduli ∞-stack]] of [[physical fields]] for the [[theory (physics)|theory]] to be considered, as discussed in _[Fields](#Fields)_ above
+
++-- {: .num_defn #VariationFixedOnBoundary}
+###### Definition
+
+For $\Sigma \in Mfd_{bdr} \hookrightarrow \mathbf{H}$ a [[manifold with boundary]] in $\mathbf{H}$, def. \ref{ManifoldWithBoundaryInSemLayer}, write $[\Sigma,\mathbf{Fields}]_{\partial \Sigma} \in \mathbf{H}$ for the the [[∞-pullback]]
+
+$$
+  \array{
+    [X, \mathbf{Fields}]_{\partial \Sigma}
+    &\to&
+    \flat [\partial \Sigma, \mathbf{Fields}]
+    \\
+    [\Sigma, \mathbf{Fields}]
+    &\to&
+    [\partial \Sigma, \mathbf{Fields}]
+  }
+  \,,
+$$
+
+where the right vertical morphism is the [[unit of a monad|counit]] of $\flat$ and where the bottom morphism is the image of the [[boundary]] inclusion $\partial \Sigma \to \Sigma$ under the [[internal hom]] $[-, \mathbf{Fields}]$.
+
+=--
+
++-- {: .num_remark }
+###### Rermark
+
+This implies that for any geometrically contractible $U \in \mathbf{H}$, def. \ref{ShapeTerminology}, then we have
+
+$$
+  \mathbf{H}(U, [\Sigma, \mathbf{Fields}_{\partial \Sigma}])
+  \simeq
+  \mathbf{Fields}(\Sigma \times U)
+  \underset{\mathbf{Fields}((\partial \Sigma) \times U)}{\times}
+  \mathbf{Field}(\partial \Sigma)
+  \,.
+$$
+
+This means that a variation in $[\Sigma, \mathbf{Fields}]_{\partial \Sigma}$ is a variation in $[\Sigma, \mathbf{Fields}]$ which remains constant over the boundary of $\Sigma$.
+
+=--
+
+Fix now 
+
+$$
+  \mathbb{G} \in Grp(\mathbf{H})
+$$ 
+
+a [[group object in an (∞,1)-category|group object]], hence a cohesive [[∞-group]], to be the object that the [[action functional]] is to take values in. In $\mathbf{H} = $ [[Smooth∞Grpd]] the standard choice is $\mathbb{G} = U(1)$, the [[circle group]], for "exponentiated action functionals" or $\mathbb{R} = \mathb{R}$, the additive Lie group of [[real numbers]].
+
+
+
++-- {: .num_defn }
+###### Definition
+
+For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map, the **variatonal derivative** of $S$ is the restriction of the [[de Rham differential]] $S^{-1}\mathbf{d}S$, def. \ref{DifferentiationOfInfinityGroupValuedFunction} to variations that keep the boundary data fixed as in def. \ref{VariationFixedOnBoundary}, hence the composite
+
+$$
+  S^{-1}\mathbf{d}_{var} S
+  \;\colon\;
+  [\Sigma, \mathbf{Fields}]_{\partial \Sigma}
+  \to
+  [\Sigma, \mathbf{Fields}]
+  \stackrel{S}{\to}
+  \mathbb{G}
+  \stackrel{\theta_{\mathbb{G}}}{\to}
+  \flat_{dR}\mathbf{B}\mathbb{G}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Under passage to [[structure sheaves]], def. \ref{spring}, this induces a map
+
+$$
+  S^{-1}\mathbf{d}_{var} S
+  \;\colon\;
+  [\Sigma, \mathbf{Fields}]_{\partial \Sigma}
+  \to 
+  \mathcal{O}_{X}(\flat_{dR} \mathbf{B}G)
+$$
+
+in $Sh_{\mathbf{H}}(X)$,
+which we will denote by the same symbol, as here, when the context is clear.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map in $\mathbf{H}$, its **[[critical locus]]** 
+
+$$
+  \underset{\phi \in [\Sigma, \mathbf{Fields}]_{\partial \Sigma}}{\sum
+  \left(S^{-1}\mathbf{d}_{var}S_{\phi} \simeq 0\right)
+  \;\;
+  \in 
+  \mathbf{H}
+$$
+
+is the [[homotopy pullback]] 
+
+$$
+  \array{
+    \underset{\phi \in [\Sigma, \mathbf{Fields}]_{\partial \Sigma}}{\sum
+    \left(S^{-1}\mathbf{d}_{var}S_{\phi} \simeq 0\right)
+    &\to&
+    0
+    \\
+    [\Sigma, \mathbf{Fields}]_{\partial \Sigma}
+    &\stackrel{S^{-1}\mathbf{d}_{var} S}{\to}&
+    \mathcal{O}_X(\flat_{dR}\mathbf{B}\mathbb{G}) 
+  }
+$$
+
+in $Sh_{\mathbf{H}}(X)$.
+
+=--
+
 
 ### Syntax layer
 
