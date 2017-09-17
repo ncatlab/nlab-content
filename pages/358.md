@@ -164,11 +164,6 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792) (refere
 
 * $(\infty,1)$-categories with an $E_n$-action for $1 \lt n \lt \infty$ are the corresponding $k$-tuply monoidal $(\infty,1)$-categories in between.
 
-In 
-
-* [[Jacob Lurie]], _[[Ek-Algebras]]_
-
-this is further developed, and a proof of the [[stabilization hypothesis]] in this context is given.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -179,14 +174,19 @@ Equipping an [[(n,1)-category]] of $k$ compatible monoidal structures for $k \ge
 
 =--
 
-A proof of this is sketched in
 
-section 43.5 of some version of
+An aspect of this was demonstrated in terms of [[Tamsamani n-categories]] in
 
-* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
+* [[Carlos Simpson]], _On the Breen-Baez-Dolan stabilization hypothesis for Tamsamani's weak $n$-categories_ ([arXiv:math/9810058](http://arxiv.org/abs/math/9810058))
 
-An argument is also given in [[Ek-Algebras|EkAlg, example 1.2.3]].
+A proof of the full statement in terms of [[quasi-categories]] is sketched in
+[section 43.5](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf#page=187) of 
 
+* [[André Joyal]], _Notes on quasi-categories_ ([pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf)).
+
+An argument is also given in example 1.2.3 of
+
+* [[Jacob Lurie]], _[[Ek-Algebras]]_ .
 
 ### Other low-dimensional cases
 
