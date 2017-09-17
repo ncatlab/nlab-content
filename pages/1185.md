@@ -164,7 +164,7 @@ Any serious reference on set theory should cover cardinal numbers.  The long-est
 
 Any *standard* approach will start from a material set theory, such as ZFC; we tend to prefer structural set theory here.  (See [[set theory]].)  Since cardinality is isomorphism invariant (which is kind of the whole point), it\'s easy to interpret the standard material structurally, but the basic definitions will be different.  If you\'re looking for a standard reference on cardinality from a structural foundation, I can\'t help you; there may not be any.
 
-By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
+By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
 =--
 
 
