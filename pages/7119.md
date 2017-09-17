@@ -1,0 +1,28 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_$\mathbb{B}^1$-homotopy theory_ is the study of the [[localization]] of an [[(∞,1)-sheaf (∞,1)-category]] over a [[site]] of [[analytic spaces]] at morphisms $\mathbb{B}^1 \to *$, where $\mathbb{B}^1 \simeq Spm(k\{t\})$ is the _Tate ball_.
+
+## Related concepts
+
+* [[A1-homotopy theory]]
+
+## References
+
+* [[Joseph Ayoub]], _Motives of rigid varieties and
+the motivic nearby functor_ ([pdf](http://user.math.uzh.ch/ayoub/Other-PDF/Venise_Hodge.pdf))
