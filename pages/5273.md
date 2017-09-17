@@ -17,3 +17,6 @@ In [[physics]] sections of spinor bundles model matter [[relativistic particle|p
 
 [[!redirects spinor]]
 [[!redirects spinors]]
+
+[[!redirects spin bundle]]
+[[!redirects spin bundles]]
