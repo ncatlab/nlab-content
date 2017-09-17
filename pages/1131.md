@@ -14,10 +14,6 @@
 =--
 =--
 
-* [[crossed complex]] $\Leftarrow$ [[crossed module]] $\Rightarrow$ [[2-crossed module]]
-
-* **dg-Lie algebra** $\Leftarrow$ [[differential crossed module]] $\Rightarrow$ [[differential 2-crossed module]]
-
 
 
 
@@ -210,14 +206,25 @@ $$L\star L' = \mathbb{L}(V\oplus V')/{I,I'}.$$
 
 The differential on $L\star L'$ is the unique Lie algebra derivation extending $\partial$ and $\partial'$.
 
+## Model category structure
+
+* [[model structure on dg-Lie algebras]]
+
+
+## Related concepts
+
+* [[crossed complex]] $\Leftarrow$ [[crossed module]] $\Rightarrow$ [[2-crossed module]]
+
+* **dg-Lie algebra** $\Leftarrow$ [[differential crossed module]] $\Rightarrow$ [[differential 2-crossed module]]
+
 
 ## References
 
-(...)
+See the regerences at [[model structure on dg-Lie algebras]].
 
 A discussion of how formal neighbourhoods of points in [[infinity-stack]]s are governed by dg-Lie algebras:
 
-* [[Jacob Lurie]], ([pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf))
+* [[Jacob Lurie]], _[[Moduli Problems and DG-Lie Algebras]]_
 
 [[!redirects differential graded Lie algebras]]
 [[!redirects dg-Lie algebra]]
