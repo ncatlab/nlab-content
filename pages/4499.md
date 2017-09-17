@@ -21,9 +21,11 @@ For example, often one can computes [[sheaf cohomology]] either in the algebraic
 
 ## Theorems
 
-* [analytification -- Existence](analytification#Existence)
+* [analytification -- Existence and fully faithfulness](analytification#Existence) (this is often referred to as "the GAGA theorem")
 
 * [[Chow's theorem]]
+
+* [relation between algebraic and analytic vector bundles](algebraic+vector+bundle#RelationToAnalyticVectorBundles)
 
 * [[comparison theorem (étale cohomology)]]
 
@@ -56,5 +58,10 @@ Generalization to  [[higher geometry]] ([[stacks]]) includes
 * {#Hall11} [[Jack Hall]], _Generalizing the GAGA Principle_ ([arXiv:1101.5123](http://arxiv.org/abs/1101.5123))
 
 * {#GeraschenkoZureickBrown12} [[Anton Geraschenko]], David Zureick-Brown, _Formal GAGA for good moduli spaces_ ([arXiv:1208.2882](http://arxiv.org/abs/1208.2882))
+
+Discussion in the context of [[moduli spaces]] includes
+
+* Kai-Wen Lan, _Comparison between analytic and algebraic constructions of toroidal compactifications of PEL-type Shimura varieties_ [pdf](http://math.umn.edu/~kwlan/articles/cpt-ana-alg.pdf)
+
 
 catgeory: reference
