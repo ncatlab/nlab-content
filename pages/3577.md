@@ -186,6 +186,8 @@ If $(\infty,1)$-categories are [[presentable (∞,1)-category|presented]] by [[m
 
   * [[model site]], [[simplicial site]]
 
+* [[internal site]] / [[internal (ininity,1)-site]]
+
 ## References
 
 Section 6.2.2 of
