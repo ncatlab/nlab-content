@@ -78,6 +78,8 @@ The [[second quantization]] [[effective field theory|effective]] background fiel
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
+[[!include gauge theory from AdS-CFT -- table]]
+
 
 ## References
 
