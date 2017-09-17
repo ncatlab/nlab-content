@@ -22,7 +22,7 @@ This is a redirection page using the semi-standard term **D-geometry** for the g
 
 * [[regular differential operator in noncommutative geometry]]
 
-* [[holonomic quantum field]], [[Hodge theory]]
+* [[holonomic quantum field]], [[Hodge theory]], [[algebraic analysis]]
 
 
 
