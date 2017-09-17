@@ -1,5 +1,5 @@
 
-* [website](http://www.math.ohio-state.edu/people/henri)
+* [website](https://math.osu.edu/people/moscovici.1)
 
 ## related $n$Lab entries
 
