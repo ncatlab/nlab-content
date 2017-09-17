@@ -1,0 +1,38 @@
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
+
+## Idea ##
+There are several different concepts of [[tensor products]] for [[C-star algebras]], because there are different norms one can put on the algebraic tensor product that turns it into a [[C-star algebra]]. The spatial tensor product uses the smallest norm of all possible norms. There is also a maximal norm and it is a nontrivial theorem that all norms fall in between these two.
+
+## Definition ##
+Let $\mathcal{A}_1, ..., \mathcal{A}_k$ be unital $C^*$-algebras faithfully represented on the [[Hilbert spaces]] $H_1, ..., H_k$. Let $H$ be the tensor product of these Hilbert spaces,
+$$
+H := \otimes_{i=1}^k H_k 
+$$
+The set of operators of finite sums of $A_1 \otimes ... \otimes_k A_k$ form a $*$-subalgebra of $\mathcal{B}(H)$. The norm closure of this set is the **spatial tensor product** of the given $C^*$-algbras.
+
+Remark: The spatial tensor product does not depend on the chosen faithful representations, see references.
+
+## Properties ##
++-- {: .un_theorem}
+###### Theorem
+
+**states extend to the spatial tensor product**
+
+Let $\rho_1, ..., \rho_k$ be states on the unitary $C^*$-algebras. Then there is a unique state $\rho$ on the spatial tensor product such that
+$$
+\rho(A_1 \otimes ... \otimes_k A_k) = \rho_1(A_1) \cdots \rho_k(A_k)
+$$
+=--
+
+
+## References ##
+
+Appendix T in the book
+
+* Niels Erik Wegge-Olsen: _K-theory and $C^*$-algebras: a friendly approach._ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0780.46038&format=complete))
+
+
+[[!redirects Creating spatial tensors]]
