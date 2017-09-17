@@ -397,7 +397,7 @@ Textbooks on combinatorial aspects of Euler characteristic include
 
 The Euler characteristic of a smooth manifold as its [[dimension]] in the [[stable homotopy category]] is discussed in example 3.7 of
 
-* [[Kate Ponto]], [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf), [slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf)).
+* [[Kate Ponto]], [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.sandiego.edu/~shulman/papers/traces_sym.pdf), [slides](http://www.sandiego.edu/~shulman/papers/ccrtraces.pdf)).
  {#PontoShulman}
 
 See [[Thom spectrum]] for more on this
