@@ -1,0 +1,9 @@
+
+## Idea
+
+_Quipper_ is a [[functional programming language]] for [[quantum computing]].
+
+## References
+
+* [[Peter Selinger]], _The Quipper Language_ ([web](http://www.mathstat.dal.ca/~selinger/quipper/))
+
