@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 =--
 =--
 
@@ -16,7 +20,7 @@
 ## Definition
 
 Write
--
+
 $$
   N : Cat \to sSet
 $$
@@ -89,8 +93,22 @@ SInce [[geometric realization]] of simplicial sets preserves products (see there
 
 =--
 
-+-- {: .num_prop #RealizationWithTerminalObjectIsContractible}
-###### Proposition
++-- {: .num_cor }
+###### Corollary
+
+An [[equivalence of categories]] $C \simeq D$ induces a [[homotopy equivalence]] between their geometric realizations.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Notice that the converse is far from true: very different categories can have geometric realizations that are (weakly) homotopy equivalent. This is because geometric realization implicitly involves [[Kan fibrant replacement]]: it freely turns morphisms into [[equivalence in an (infinity,1)-category|equivalences]].
+
+=--
+
++-- {: .num_cor #RealizationWithTerminalObjectIsContractible}
+###### Corollary
 
 If a [[category]] $C$ has an [[initial object]] or a [[terminal object]], then its geometric realization is [[contractible]].
 
@@ -175,6 +193,10 @@ This is due to ([Thomason](#Thomason)).
 
 ## References
 
+For general references see also [[nerve]] and [[geometric realization]]. 
+
+Quillen's theorems A and B and their generalizations are discussed for instance in
+
 * Jonathan Ariel Barmak, _On Quillen's Theorem A for posets_ ([arXiv:1005.0538](http://arxiv.org/abs/1005.0538))
 
 * [[Clark Barwick]], [[Dan Kan]], _A Quillen theorem $B_n$ for homotopy pullbacks_ ([arXiv:1101.4879](http://arxiv.org/abs/1101.4879))
@@ -183,7 +205,7 @@ This is due to ([Thomason](#Thomason)).
 
 The geometric realization of Grothendieck constructions has been analyzed in
 
-* R.W. Thomason, _Homotopy colimits in the category of small categories_ , Math. Proc. Cambridge Philos. Soc. 85 (1979), no. 1, 91109.
+* R. W. Thomason, _Homotopy colimits in the category of small categories_ , Math. Proc. Cambridge Philos. Soc. 85 (1979), no. 1, 91109.
  {#Thomason}
 
 
