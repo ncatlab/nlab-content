@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Equivalence relations
 * table of contents
 {: toc}
@@ -26,7 +25,7 @@ An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S
 
 ## Setoids
 
-A __setoid__ is a set equipped with an equivalence relation.
+A __[[setoid]]__ is a set equipped with an equivalence relation.
 
 Equivalently, a setoid is a [[groupoid]] [[enriched category|enriched]] over the [[cartesian monoidal category]] of [[truth values]].  Equivalently, a setoid is a [[groupoid]] that is [[0-truncated]].  Then the equivalence relation on $S$ is a way of making $S$ into the set of objects of such a groupoid.
 
@@ -37,20 +36,19 @@ Setoids are still important in [[foundations]] of mathematics where quotient set
 
 ## Variants and generalizations
 
-* A _partial equivalence relation_ is a symmetric and transitive relation. 
+* A _[[partial equivalence relation]]_ is a symmetric and transitive relation. 
 
-* The notion of _equivalence relation_ [[internalization|internal]] to a suitable [[category]] is the notion of __[[congruence]]__.
+* A _[[congruence]]_ is a notion of equivalence relation [[internalization|internal]] to a suitable [[category]].
 
 * The generalization of this to [[(∞,1)-category theory]] is that of _[[groupoid object in an (∞,1)-category]]_.
 
 
 ## Related concepts
 
-* [[Bishop set]]
+* [[setoid]]
+
+* [[congruence]]
 
 
 [[!redirects equivalence relation]]
 [[!redirects equivalence relations]]
-
-[[!redirects setoid]]
-[[!redirects setoids]]
