@@ -28,6 +28,8 @@ $$
 
 This kind of line bundle is often referred to as the _Deligne line bundle_, following ([Deligne 91](#Deligne91)).
 
+The universal version of this is the Deligne bundle on $\mathbb{G}_m \times \mathbb{G}_m$ with $f$ and $g$ the [[projection]] onto the first and onto the second factor, respectively (e.g. [Brylinski 00, p. 15](#Brylinski00)).
+
 
 ## References
 
