@@ -135,15 +135,28 @@ see
 * In [[gauge theory]] gauge fields are modeled by cocycles in [[differential cohomology]]. The field modeled by differential K-theory is the [[RR-field]]. A kind of [[integral transform]] acting on differential K-theory classes is [[T-duality]].
 
 
+## Related concepts
+
+* [[K-theory]]
+
+* [[topological K-theory]]
+
+* [[twisted K-theory]]
+
+* **differential K-theory**
+
+* [[twisted differential K-theory]]
+
+
+
 ## References
 
 * [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
  {#SimonsSullivan}
 
-### Bunke-Schick model
  {#BunkeSchickReferences}
 
-The basic article is
+The basic article for the Bunke-Schick model is
 
 * [[Ulrich Bunke]], [[Thomas Schick]], _Smooth K-Theory_ ([arXiv:0707.0046](http://arxiv.org/abs/0707.0046))
 
@@ -168,6 +181,5 @@ A variant of this definition with the advantage that there is a natural morphism
 * Alain Berthomieu, _A version of smooth K-theory adapted to the
 total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
 
-The differential version of [[twisted K-theory]] is discussed in
+* [[[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
 
-* [[Alan Carey]], _Differential twisted K-theory and applications_ ESI preprint ([pdf](http://www.esi.ac.at/preprints/esi1945.pdf))
