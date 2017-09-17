@@ -642,6 +642,8 @@ Singular homology computes the [[generalized homology]] with coefficients in the
 
 * The analogous notion in [[algebraic geometry]] is given by [[Chow groups]].
 
+* [[Kan-Thurston theorem]]
+
 ## References
 
 ### General
