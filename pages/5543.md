@@ -84,6 +84,25 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
   * Similarly for $C = $ [[Diff]] the category of [[paracompact topological space|paracompact]] [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site: every such smooth manifold has a _differentially_ [[good open cover]] (see there): a good cover by open balls each of which are [[diffeomorphic]] to a [[Cartesian space]].
 =--
 
+## Related concepts
+
+* [[subcategory]]
+
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
+
+  * **dense sub-site**
+
+* [[sub-2-category]]
+
+  * [[full sub-2-category]]
+
+  * [[locally full sub-2-category]]
+
+* [[sub-(∞,1)-category]]
+
+  * [[reflective sub-(∞,1)-category]]
+
+
 
 ## References
 
