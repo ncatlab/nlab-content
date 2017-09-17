@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A natural [[tensor product]] of [[chain complexes]] that makes the [[category of chain complexes]] into a [[closed monoidal category]].
+
+## References
+
+For instance section 2.7 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
