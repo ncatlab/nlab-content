@@ -77,6 +77,8 @@ Here $n$ can range between $0$ and $d$. This generalizes to an arbitrary symmetr
 
 ## Examples
 
+### Classes of examples by dimension
+
 $n=1$ gives ordinary [[TQFT]].
 
 The most common case is when $R = \mathbb{C}$ (the [[complex numbers]]), giving unitary ETQFT.
@@ -85,6 +87,21 @@ The most common cases for $C$ are
 *  $C = n Hilb(R)$, the category of $n$-[[n-Hilbert space|Hilbert spaces]] over a topological field $R$. As far as we know this is only defined up to $n=2$.
 *  $C = n Vect(R)$, the category of $n$-[[n-vector space|vector spaces]] over a field $R$.
 *  $C = n Mod(R)$, the (conjectured?) category of $n$-[[n-module|modules]] over a commutative ring $R$.
+
+### Generic examples
+
+By the [[cobordism hypothesis]]-theorem every [[fully dualizable object]] in a symmetric monoidal $(\infty,n)$-category with duals provides an example.
+
+### Specific examples
+
+* [[Levin-Wen model]]
+
+* [Chern-Simons theory as a fully extended TQFT](Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended)
+
+* ...many more...
+
+See also at _[[TCFT]]_.
+
 
 ## Properties
 
