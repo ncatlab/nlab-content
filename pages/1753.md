@@ -36,7 +36,7 @@ These localizations present the [[topological localization]] and [[hypercompleti
 
 In every global model structure on simplicial presheaves on $C$ the weak equivalences are _objectwise_ those with respect to the standard [[model structure on simplicial sets]].
 
-So a morphism $f : A \to B $ in $[C^{op}, SSet]$ is a weak equivalence with respect to a global model structure precisely if for all $U \in Obj(C)$ the morphism
+A morphism $f : A \to B $ in $[C^{op}, SSet]$ is, thus, a weak equivalence with respect to a global model structure precisely if for all $U \in Obj(C)$ the morphism
 
 $$
   f(U) : A(U) \to B(U)
