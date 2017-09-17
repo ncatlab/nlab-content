@@ -1,13 +1,13 @@
 
-**[[propositions as types]]** ([[bracket type]])
+**[[propositions as types]]** 
 
  [[logic]]                      |   [[type theory]]
 --------------------------------|------------------------------
  [[true]]                       |   [[unit type]]
  [[false]]                      |   [[empty type]]
  [[conjunction]]                |   [[product type]]
- [[disjunction]]                |   [[sum type]]
+ [[disjunction]]                |   [[sum type]] ([[bracket type]] of)
  [[implication]]                |   [[function type]]
  [[universal quantification]]   |   [[dependent product type]]      
- [[existential quantification]] |   [[dependent sum type]]
+ [[existential quantification]] |   [[dependent sum type]] ([[bracket type]] of)
  [[equivalence]]                |   [[identity type]]
