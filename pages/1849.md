@@ -760,5 +760,10 @@ A summary and rview of this is in
 
 The discussion from the point of view of the $\infty$-Chern-Weil homomorphism is part of
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differemtial $Spin^c$-structures_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differential $Spin^c$-structures_
  {#FiSaSc}
+
+A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- and its cancellation -- is in
+
+* [[Dan Freed]], [[Greg Moore]], _Setting the quantum integrand of M-theory_ ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
+
