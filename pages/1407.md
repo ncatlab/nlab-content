@@ -138,7 +138,11 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 ## References
 
-For a list of literature see
+A large body of references is organized at the
+
+* [String Theory Wiki](http://www.stringwiki.org/w/index.php?title=String_Theory_Wiki)
+
+For another list of literature see the entry
 
 * [[books about string theory]].
 
