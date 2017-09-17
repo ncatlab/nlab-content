@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context###
 #### Compact objects
-+--{: .hide}
++-- {: .hide}
 [[!include compact object - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
-
 
 ## Idea
 
@@ -29,7 +28,7 @@ preserves all [[coproducts]].  It\'s actually enough to require that it preserve
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
 is always a [[bijection]].
 
-+--{: .query}
++-- {: .query}
 [[Mike Shulman]]: It's not obvious to me that preserving binary coproducts is enough to ensure preservation of infinitary coproducts.  Unless you meant "preserves all finite coproducts"?
 
 _Toby_:  I just copied what was at [[connected space]].  It\'s true that homming out of a connected space preserves all coproducts, but it\'s not clear to me whether that is a theorem at this level either.  Maybe we need to distinguish finitarily connected objects of finitarily extensive categories from infinitarily connected objects of infinitarily extensive categories?
@@ -47,4 +46,7 @@ By this definition, the [[initial object]] of $C$ is *not* connected (except for
 * Objects in a [[locally connected topos]] such as $G$-$Set$ are [[coproduct]]s of connected objects. 
 
 
+[[!redirects connected object]]
 [[!redirects connected objects]]
+
+[[!redirects connected]]
