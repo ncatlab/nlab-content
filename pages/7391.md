@@ -511,7 +511,8 @@ By prop. \ref{FibrationsInGenReedy}, using $Y = *$.
 +-- {: .num_prop #CompleteSegalBySpineLiftingAndHornLifting}
 ###### Proposition
 
-The following conditions are equivalent
+Let $X \in [\Omega^{op}, sSet]_{gReedy}$ be fibrant.
+Then the following conditions are equivalent
 
 * $X \in dsSet$ is a complete dendroidal Segal space;
 
@@ -859,6 +860,8 @@ constitute a [[Quillen equivalence]].
 
 =--
 
+([Cis-Moer, prop. 4.8](#CisinskiMoerdijk))
+
 +-- {: .proof}
 ###### Proof
 
@@ -866,11 +869,10 @@ The set $\{\Omega[T]\}_{T \in \Omega}$ is a set of generators,
 in that a morphism $f : X \to Y$ in $dSet_{CM}$ is a weak equivalence precisely
 if under the [[derived hom space]] functor 
 $\mathbb{R}Hom(\Omega[T], f)$ is a weak equivalence, for all $T$.
-
 Therefore the localization in def. \ref{LocallyConstantModelStructure}
 is of the general kind  discussed at _[[simplicial model category]]_
 in the section 
-_[Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)_.
+_[Simplicial Quillen equivalent models](simplicial+model+category#SimpEquivMods)_. The above statement is thus a special case of the general theorem discussed there.
 
 =--
 
@@ -888,7 +890,7 @@ which is equivalent to:
 
   $$
     \{
-      (\Lambda^k[n] \to \Omega[T]) \bar \cdot (\partial \Omega[T] \to \Omega[T])
+      (\Lambda^k[n] \to \Delta[T]) \bar \cdot (\partial \Omega[T] \to \Omega[T])
     \}_{T \in \Omega, n \geq 1 , 0 \leq k \leq n}
     = 
     \{
