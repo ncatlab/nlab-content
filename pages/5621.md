@@ -20,7 +20,7 @@
 
 ## Definition
 
-A [[2-functor]] $F : C \to D$ exhibits the [[2-category]] $C$ as a **full sub-2-catgeory** of $D$ if for all [[object]]s $c_1,c_2 \in C$ the component [[functor]] $F_{c_1, c_2}$ is an [[equivalence of categories]]
+A [[2-functor]] $F : C \to D$ exhibits the [[2-category]] $C$ as a **full sub-2-category** of $D$ if for all [[object]]s $c_1,c_2 \in C$ the component [[functor]] $F_{c_1, c_2}$ is an [[equivalence of categories]]
 
 $$
   F_{c_1, c_2} : C(c_1,c_2) \stackrel{\simeq}{\to} D(F(c_1), F(c_2))
