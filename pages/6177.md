@@ -50,7 +50,7 @@ Atiyah duality is due to
 
 Further discussion of Atiyah duals is in 
 
-* [[Ralph Cohen]], _Multiplicative properties of Atiyah duality_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0403/0403486v2.pdf))
+* [[Ralph Cohen]], _Multiplicative properties of Atiyah duality_ ([arXiv:0403486](http://arxiv.org/abs/math/0403486))
 
 For [[equivariant stable homotopy theory]] Spanier-Whitehead duality is discussed on pages 23 onwards of
 
@@ -65,3 +65,5 @@ Vol. 296, No. 1 (Jul., 1986), pp. 151-166
 
 [[!redirects Spanier-Whitehead dual]]
 [[!redirects Atiyah duality]]
+[[!redirects S-dual]]
+[[!redirects S-duality]]
