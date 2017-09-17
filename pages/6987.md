@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,8 +21,15 @@
 
 ## Idea
 
-The following gives a characterization of [[reflective subcategories]] entirely in terms of the [[internal logic]]/[[type theory]] of the ambient [[category]].
+The following gives a characterization of [[reflective sub-(∞,1)-categories]] of an [[(∞,1)-topos]] entirely in terms of its [[internal logic of an (∞,1)-topos|internal logic]]/[[homotopy type theory]].
 
-## Statement
+## Background and subtleties
 
 (...)
+
+## Statement
+ {#Statement}
+
+(...)
+
+[[!redirects reflective sub-(∞,1)-catgeory - internal formulation]]
