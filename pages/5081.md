@@ -19,7 +19,7 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ any [[object]], the
 
 If we think of $\mathbf{H}$ as a [[big topos]], then for $X \in \mathbf{H}$ we may think of $\mathbf{H}/X \in $ [[(∞,1)-topos]] as the [[little topos]]-incarnation of $X$. The [[object]]s of $\mathbf{H}/X$ we may think of as [[(∞,1)-sheaves]] on $X$.
 
-This corespondence between objects of $X$ and their little-topos incarnation is entirly natural: $\mathbf{H}$ is equivalently recovered as the [[(∞,1)-category]] whose objects are over-$(\infty,1)$-toposes $\mathbf{H}/X$ and whose morphisms are [[(∞,1)-geometric morphism]]s _over_ $\mathbf{H}$.
+This correspondence between objects of $X$ and their little-topos incarnation is entirly natural: $\mathbf{H}$ is equivalently recovered as the [[(∞,1)-category]] whose objects are over-$(\infty,1)$-toposes $\mathbf{H}/X$ and whose morphisms are [[(∞,1)-geometric morphism]]s _over_ $\mathbf{H}$.
 
 ## Definition
 
@@ -41,7 +41,7 @@ This is [[Higher Topos Theory|HTT, prop 6.3.5.1 1)]].
 +-- {: .un_prop}
 ###### Proposition
 
-There is canonical am [[(∞,1)-geometric morphism]]
+There is a canonical [[(∞,1)-geometric morphism]]
 
 $$
   \mathbf{H}/X 
