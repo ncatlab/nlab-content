@@ -5,7 +5,7 @@
 
 ## Idea
 
-The notion of _Calabi-Yau category_ is a [[horizontal categorification]] of that of [[Frobenius algebra]] -- a _Frobenius [[algebroid]]_ .
+The notion of _Calabi-Yau category_ is a [[horizontal categorification]] of that of [[Frobenius algebra]] -- a _Frobenius [[algebroid]]_ . Their name derives from the fact that the definition of Calabi-Yau categories have been originally studied as an abstract version of the derived category of coherent sheaves on a [[Calabi Yau manifold]].
 
 ## Definition
 
@@ -106,7 +106,7 @@ such that
 
 ## Properties
 
-Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This is where they get there name from, because first examples of TCFTs were in turn constructed from [[sigma-model]]s whose targets are [[Calabi-Yau space]]s.
+Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is what actually one should expect. Indeed, TCFTs originally arose as an abstract version of the [[CFT]]s constructed from [[sigma-model]]s whose targets are [[Calabi-Yau space]]s.
 
 ## References
 
