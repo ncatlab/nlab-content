@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
-
 
 # Differential forms
 * table of contents
@@ -209,7 +208,7 @@ When $\omega$ is an $n$-pseudoform, the definition of $\int_E \omega$ is indepen
 Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value ${|\omega_U|}$ in place of $\omega_U$ in (eq:absvalposs) and the following equations, but then the map from forms to measures would not be linear.
 
 
-It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] (see [Wikipedia](https://en.wikipedia.org/wiki/absolute_continuity) until we get our own article) [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
+It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
 
 *  Given a point $a$, choose one of the two local orientations at $a$.
 *  Given $n$ linearly independent vectors $(v_1,\ldots,v_n)$ at $a$, develop them into a coordinate system on a neighbourhood $U$ of $a$.
@@ -300,6 +299,8 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 
 [[!redirects differential n-form]]
 [[!redirects differential n-forms]]
+[[!redirects smooth differential n-form]]
+[[!redirects smooth differential n-forms]]
 
 [[!redirects exterior derivative]]
 [[!redirects exterior derivatives]]
@@ -359,8 +360,6 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects weighted pseudoform]]
 [[!redirects weighted pseudoforms]]
 
-[[!redirects smooth differential 1-form]]
-[[!redirects smooth differential 1-forms]]
 [[!redirects differential 2-form]]
 [[!redirects differential 2-forms]]
 [[!redirects smooth differential 2-form]]
@@ -370,7 +369,3 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects differential 3-forms]]
 [[!redirects smooth differential 3-form]]
 [[!redirects smooth differential 3-forms]]
-
-
-[[!redirects smooth differential n-form]]
-[[!redirects smooth differential n-forms]]
