@@ -135,7 +135,7 @@ The [[Tannaka duality]] to [[weak Hopf algebras]] is discussed in
 
 The relation to 3d TQFT is fully clarified in
 
-* [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_
+* [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
  {#DSPS}
 
 
