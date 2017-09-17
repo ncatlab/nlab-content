@@ -62,7 +62,7 @@ A morphism of ringed toposes $(f, \eta) : (\mathcal{X}, \mathcal{O}_{\mathcal{X}
 +-- {: .num_remark}
 ###### Remark
 
-Let $PSh((CRing^{fg})^{op})$ be the [[classifying topos]] for the [[Lawvere theory]] of [[ring]]s Then 
+Let $PSh((CRing^{fg})^{op})$ be the [[classifying topos]] for the [[Lawvere theory]] of [[ring]]s.  Then 
 
 * a ringed topos $(\mathcal{X}, \mathcal{O}_{\mathcal{X}})$ is a [[geometric morphism]]
 
@@ -87,7 +87,7 @@ Let $PSh((CRing^{fg})^{op})$ be the [[classifying topos]] for the [[Lawvere theo
 
   in the [[2-category]] [[Topos]].
 
-So the [[2-category]] of ringed toposes is the [[overcategory]] $Topos/PSh(Ring^{fp})$.
+So the [[2-category]] of ringed toposes is the [[lax slice 2-category]] $Topos/PSh((CRing^{fp})^{op})$.
 
 
 =--
