@@ -140,6 +140,7 @@ are equivalently [[models]] of finitary [[essentially algebraic theories]].
 =--
 
 #### As localizations of presheaf categories
+ {#AsLocalizationsOfPresheafCategories}
 
 +-- {: .num_prop #AsLocalizationOfPresheafCategories}
 ###### Proposition 
@@ -368,8 +369,8 @@ Given a class of morphisms $\Sigma$ in a locally presentable category, the answe
 
 * Locally presentable categories are a special case of _[[locally bounded category|locally bounded categories]]_.
 
-* The generalization of the concept to the context of [[(∞,1)-categories]] is _[[presentable (∞,1)-category]]_.
 
+[[!include locally presentable categories - table]]
 
 
 ## References 
