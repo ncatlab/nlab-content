@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 #CW complexes
 * table of contents
 {: toc}
