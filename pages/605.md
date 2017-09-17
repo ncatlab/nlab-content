@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
@@ -16,9 +20,35 @@
 
 ## Idea
 
-A [[manifold]] with boundary is a _cobordism_ between its boundary components.  But each component must be designated as a source or target component, so the entire cobordism may be seen as a [[morphism]] from a [[source]] manifold to a [[target]] manifold.
+An (oriented) _cobordism_ $\Sigma$ from an (oriented) [[smooth manifold]] $X_{in}$ to an (oriented) smooth manifold $X_{out}$ is a smooth [[manifold with boundary]] $\Sigma$ such that its [[boundary]] is the [[disjoint union]] 
 
-Dual to a cobordism is a [[bordism]].
+$$
+  \partial \Sigma \simeq X_{in} \coprod X_{out}
+$$
+
+with induced [[orientation]] agreeing with the given one on $X_{in}$ and being the opposite of that of $X_{out}$. Hence by labelling disjoint components of the boundary of any [[manifold with boundary]] $\Sigma$ as either "incoming" or "outgoing", then $\Sigma$ becomes a cobordism from its incoming to its outgoing boundary components.
+
+(While $X_{in} \coprod X_{out}$ is the [[boundary]] of $\Sigma$, conversely $\Sigma$ is the "co-boundary" of $X_{in}\coprod X_{out}$. This is part of the reason for the "co-" in "cobordism", but sometimes one just says _bordism_.)
+
+With a little bit of technical conditions on the boundary inclusions added, then $(n-1)$-dimensional manifolds with [[diffeomorphism]] classes of $n$-dimensional cobordisms between them form a [[category]] (a [[category of cobordisms]]) whose [[objects]] are the manifolds, whose [[morphisms]] are the cobordisms, and whose [[composition]] operation is the operation of gluing two cobordisms along a common boundary component.
+Such a [[category of cobordisms]] $Bord_n$ of some [[dimension]] $n$  is naturally a  [[symmetric monoidal category]] $Bord_n^{\sqcup}$ with the [[tensor product]] being the [[disjoint union]] $\sqcup$ of manifolds.
+
+The [[connected components]] in this category are called _cobordism classes_ of manifolds. Under [[cartesian product]] and [[disjoint union]], these form what is called the [[cobordism ring]] in the given dimension. The study of these classes, hence of manifolds "up to cobordisms", is a central topic in [[algebraic topology]].
+
+A central insight connecting [[algebraic topology]] with [[mathematical physics]] is that a [[strong monoidal functor]] on a [[category of cobordisms]] with values in something like the category [[Vect]] (with its standard [[tensor product of modules]]) may be thought of as a formalized incarnation of what in [[physics]] is called a [[topological quantum field theory]]
+
+$$
+  Z \colon Bord_n^\sqcup \longrightarrow Vect^\otimes
+  \,.
+$$
+
+Here one thinks of a cobordism $\Sigma$ as a piece of [[spacetime]] (or [[worldvolume]]) of dimension $n$, and of the $(n-1)$-dimensional manifolds that this goes between as a piece of [[space]] (or [[brane]]). A functor $Z$ as above is then thought of as sending each $(n-1)$-dimensional space $X$ to its [[space of quantum states]] $Z(X)$ and each spacetime $\Sigma$ between $X_{in}$ and $X_{out}$ to a [[linear map]] $Z(\Sigma)\colon Z(X_{in}) \longrightarrow Z(X_{out})$. 
+
+From the perspective of [[mathematics]], such a functor is a way to break up [[diffeomorphism]] [[invariants]] of [[closed manifolds]] of [[dimension]] $n$ into pieces and being able to reconstruct them from gluing of data associated to manifolds with $(n-1)$-dimensional boundary.
+
+If one considers [[manifolds with corners]] then there is a fairly evident refinement of the concept of cobordism that allows to further refine this process to gluing of [[extended cobordisms]] of any dimension $k$ going between [[extended cobordisms]] of dimension $k-1$. Such extended cobordisms of maximal dimension $n$ form a [[symmetric monoidal (infinity,n)-category]] called, naturally, the [[(infinity,n)-category of cobordisms]]. The [[cobordism hypothesis]] asserts that this is a most fundamental object in [[higher category theory]] and [[higher algebra]], namely that it is the _[[free construction|free]]_ [[symmetric monoidal (infinity,n)-category]] [[(infinity,n)-category with duals|with duals]]. The corresponding extended concept of [[topological quantum field theory]] is accordingly called [[extended TQFT]] or similar.
+
+
 
 ## Related concepts
 
@@ -38,6 +68,11 @@ Dual to a cobordism is a [[bordism]].
 
 * [[Lagrangian cobordism]]
 
+## References
+
+* [[Manifold Atlas]], _[Bordism](http://www.map.mpim-bonn.mpg.de/Bordism)_
+
+* Wikipedia, _[Cobordism](http://en.wikipedia.org/wiki/Cobordism)_
 
 [[!redirects cobordisms]]
 
