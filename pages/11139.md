@@ -1,0 +1,16 @@
+Ilan Barnea is a postdoc at the university of Muenster, Germany, in the research team of Prof. [[Michael Weiss]]. He is interested in abstract homotopy theory, category theory and their applications. 
+
+##Papers and preprints
+
+
+
+* I. Barnea and [[T. M. Schlank]], 2011, _A Projective Model Structure on 
+Pro Simplicial Sheaves, and the Relative Etale Homotopy Type_, [arXiv:1109.5477](http://arxiv.org/abs/1109.5477)
+
+
+*  I. Barnea and [[T. M. Schlank]], 2013, _Functorial Factorizations in Pro 
+Categories_, [arXiv:1305.4607](http://arxiv.org/abs/1305.4607). 
+
+
+
+category:people
