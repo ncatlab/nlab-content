@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -11,11 +11,16 @@ A __$K$-linear map__ (also __$K$-linear function__ or __$K$-linear operator__) i
 
 In elementary terms, a __$K$-linear map__ between $K$-[[linear spaces]] $V$ and $W$ is a [[function]] $T\colon V \to W$ such that
 $$ T(r x + y) = r T(x) + T(y) ,$$
-for $x$ and $y$ elements of $V$ and $r$ an element of $K$.  (It is an easy exercise that this one identity is enough to ensure that $T$ is a homomorphism.)
+for $x$ and $y$ elements of $V$ and $r$ an element of $K$.  (It is an easy exercise that this one identity is enough to ensure that $T$ preserves all [[linear combination]]s.)
 
-### On Hilbert spaces
 
-In the study of [[Hilbert spaces]], a __linear operator__ is often only a [[partial function]], but we still require the [[domain]] of the operator to be a linear [[subspace]] (after which the definition above applies).  The [[densely-defined operator]]s (where the domain is a [[dense subspace]]) are particularly important.
+### On topological vector spaces
+
+The [[morphisms]] between [[topological vector spaces]] are of course the [[continuous map|continuous]] linear maps.  Between [[Banach spaces]] (including of course [[Hilbert spaces]]), these are the same as the [[bounded map|bounded]] linear maps, so they\'re often called __[[bounded operators]]__ (with linearity tacitly assumed).
+
+In this context, __linear operators__ are more general; they are (in general) only [[partial functions]].  However, we still require the [[domain]] of the partial function to be a linear [[subspace]], after which the definition above applies.  Because one typically restricts attention to [[complete spaces]], the [[densely-defined operator]]s (where the domain is a [[dense subspace]]) are the most general needed.
+
+Notice that we do *not* require partially-defined linear operators to be continuous; see [[unbounded operator]].  However, we have the theorem that any densely-defined, continuous, linear map $T\colon V \to W$, with $W$ [[complete space|complete]] and [[Hausdorff space|Hausdorff]], extends uniquely to all of $V$.  Thus one typically assumes that a continuous (or bounded) linear operator $T$ is defined on all of $V$ while an arbitrary linear operator $T$ is defined only on a dense subspace of $V$.
 
 
 ## Related concepts
@@ -31,5 +36,6 @@ In the study of [[Hilbert spaces]], a __linear operator__ is often only a [[part
 [[!redirects linear maps]]
 [[!redirects linear function]]
 [[!redirects linear functions]]
+
 [[!redirects linear operator]]
 [[!redirects linear operators]]
