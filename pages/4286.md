@@ -61,6 +61,9 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 * [[Kerr spacetime]]
 
+* [[firewall problem]]
+
+
 ## References
 
 ### General
