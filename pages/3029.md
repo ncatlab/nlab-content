@@ -752,12 +752,15 @@ One may regard the above from the [[nPOV]] as a special case of the way cocycles
 
   * [[nonabelian group cohomology]], [[groupoid cohomology]]
 
-* **group extension**, [[ring extension]]
+* **group extension**, [[Ext-group]]
+
+  * [[ring extension]]
 
 * [[Lie group cohomology]] 
 
   * [[∞-Lie groupoid cohomology]]
 
+* [[∞-group extension]]
 
 
 ## References
