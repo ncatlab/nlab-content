@@ -1,10 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The condition that an $(\infty,1)$-category is an [[n-category]] is (in general) not invariant under [[Joyal model structure|categorical equivalence]]. Hence there is no intrinsic characterization of the class of $(n,1)$-categories.
+The condition that aa [[quasicategory]] has "no non-trivial cells" above degree $n$ (which makes it a particularly strict model of an [[(n,1)-category]]) is not invariant under [[Joyal model structure|categorical equivalence]]. Hence there is no intrinsic characterization of the class of the simplicial sets which are "(n+1)-[[simplicial skeleton|coskeletal]]" in this sense. 
 
-However there is such a description of the class of $(\infty,1)$-categories which are *equivalent* to $(n,1)$-categories. To make this more concrete the notion of a *minimal fibration* which is a [[inner fibration]] of simplicial sets satisfying a relative homotopy condition and that of a *minimal $(\infty,1)$-category* are introduced.
+(Warning: in [Lurie, Def. 2.3.4.1](#Lurie) such an "(n+1)-coskeletal" quasi-category is called an "$n$-category", but this is not the intrinsic notion of [[(n,1)-category]].)
 
-Every $(\infty,1)$-category is equivalent to a minimal $(\infty,1)$-category.
+However there is such a description of the class of quasi-categories which are _equivalent_ to such $(n+1)$-coskeletal quasicategories. To make this more concrete the notion of a *minimal inner fibration* can be used (a quasi-categorical analog of [[minimal Kan fibrations]]). THis is an [[inner fibration]] of simplicial sets satisfying a relative homotopy condition and that of a *minimal quasi-category* .
+
+Every quasi-category is equivalent to a minimal quasi-category.
 
 ## Definition
 
@@ -53,23 +72,35 @@ An $(\infty,1)$-category $C$ is called *minimal $(\infty,1)$-category* if $C\to 
 ###### Proposition 2.3.4.18
 Let $C$ be an $(\infty,1)$-category and let $n\ge -1$. The the following statements are equivalent:
 
-1. There exists a minimal model $C^\prime\subseteq C$ such that $C^\prime$ is an $(n,1)$-category.
+1. There exists a minimal model $C^\prime\subseteq C$ such that $C^\prime$ is an $(n+1)$-coskeletal quasi-category.
 
-1. There exists a categorical equivalence $D\to C$, where $D$ is an $(n,1)$-category.
+1. There exists a categorical equivalence $D\to C$, where $D$ is an $(n+1)$-coskeletal quasi-category.
 
 1. For every pair of objects $X,Y\in C$, the mapping space $Map_C(X,Y)\in H$ is $(n-1)$-truncated.
 =--
 
 +-- {: .un_cor #cor2.3.4.19}
 ###### Corollary 2.3.4.19
-Let $X$ be a [[nLab:Kan complex]]. Then is is equivalent to an $(n,1)$-category iff it is $n$[[truncation|-truncated]].
+
+Let $X$ be a [[Kan complex]]. Then is is equivalent to an $(n+1)$-coskeletal quasi-category  iff it is $n$[[truncation|-truncated]].
+
 =--
 
 
 ## Related concepts
 
-[[minimal Kan fibration]]
+* [[minimal Kan fibration]]
+
+* [[inner fibration]], [[left fibration]], [[right fibration]]
+
 
 ## References
 
-Jacob Lurie, [[higher topos theory]], section 2.3.3 and section 2.3.4
+Section 2.3.3 and section 2.3.4 of
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_, 
+
+[[!redirects minimal Joyal fibration]]
+[[!redirects minimal Joyal fibrations]]
+
+[[!redirects minimal inner fibrations]]
