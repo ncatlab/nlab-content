@@ -135,6 +135,8 @@ Similarly, 2-bundles may be equipped with connections by refining their cocycles
 
 * **principal 2-bundle** / [[gerbe]] / [[bundle gerbe]]
 
+  * [[principal 2-connection]]
+
   * [[central extension of groupoids]]
 
   * [[line 2-bundle]]
@@ -235,7 +237,12 @@ An extensive discussion of various models of principal 2-bundles is in
 * [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
  {#NikolausWaldorf}
 
+For a comprehensive account in the general context of [[principal infinity-bundles]] see
 
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+
+
+For more references see at _[[principal 2-connection]]_.
 
 
 
