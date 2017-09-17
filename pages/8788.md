@@ -69,7 +69,7 @@ A detailed analysis of psuh-forward quantization of general [[presymplectic mani
 
 A first proof of the [[Guillemin-Sternberg geometric quantization conjecture]] in terms of $Spin^c$-quantization is in 
 
-* [[Eckard Meinrenken]], _Symplectic surgery and the $Spin^c$-Dirac operator_, Adv. Math. 134 (1998), 240-277.
+* [[Eckhard Meinrenken]], _Symplectic surgery and the $Spin^c$-Dirac operator_, Adv. Math. 134 (1998), 240-277.
 
 
 A suggestion that geometric push-forward quantization is best understood to proceed to take values in [[KK-theory]] is in 
