@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -31,5 +42,36 @@ A [[presheaf]] of sets on $\Fin\Set$ is a [[symmetric set]]; one generally uses 
 
 The [[copresheaf]] category $[FinSet,Set]$ is the [[classifying topos]] for the [[theory of objects]]_ (the empty theory over the signature with one sort and no primitive symbols except equality). ([[Elephant|Elephant, D3.2]]).
 
+
+## Properties
+
+### Opposite category
+ {#OppositeCategory}
+
++-- {: .num_prop}
+###### Proposition
+
+The [[opposite category]] of $FinSet$ is [[equivalence of categories|equivalent]] to that of finite [[Boolean algebras]]
+
+$$
+  FinSet^{op} \simeq FinBool
+  \,.
+$$
+
+This equivalence is induced by the [[power set]]-[[functor]]
+
+$$
+  \mathcal{P} \;\colon\; FinSet^{op} \stackrel{\simeq}{\to} FinBool
+  \,.
+$$
+
+=--
+
+This is discussed for instance as ([Awodey, prop. 7.31](#Awodey)). For the generalization to all sets see at _[Set -- Properties -- Opposite category and Boolean algebras](Set#OppositeCategory)_. See at _[[Stone duality]]_ for more on this.
+
+## References
+
+* [[Steve Awodey]], _[Category Theory](http://www.andrew.cmu.edu/course/80-413-713/) -- lecture 7_ ([pdf](http://www.andrew.cmu.edu/course/80-413-713/notes/chap07.pdf))
+ {#Awodey}
 
 category: category
