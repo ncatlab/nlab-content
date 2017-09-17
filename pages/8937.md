@@ -19,8 +19,11 @@
 
 ## Idea
 
-In [[higher geometric prequantization]] the notion of [[prequantum circle bundle]] is refined to that of a prequantum [[circle n-bundle with connection]] for all $n \in \mathbb{N}$. 
+In [[higher geometric prequantization]] (see there for more details for the moment) the notion of [[prequantum circle bundle]] is refined to that of a prequantum [[circle n-bundle with connection]] for all $n \in \mathbb{N}$. 
 
+## Related concepts
+
+* [[line 2-bundle]]
 
 
 [[!redirects prequantum circle n-bundle]]
