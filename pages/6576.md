@@ -10,37 +10,39 @@
 =--
 =--
 
-#Contents#
+#Invariant differential forms and vector fields
 * table of contents
 {:toc}
 
 ## Definition
 
 
-A [[differential form]] on a [[Lie group]] $\omega \in \Omega^1(G)$ is called **left invariant** if for every $g \in G$ it is invariant under the left [[action]] of $G$ on itself
+Let $M$ be a differential manifold with differentiable left action of Lie group $G$, $G\times M\to M$ (respectively right action $M\times G\to G$). For example, the multiplication map of $G$ on itself. Then we define the left translations $L_g : (g,m)\mapsto g m$ (resp. right translations $R_g: m\mapsto m g$) for every $g\in G$, which are both diffeomorphisms of 
+$M$.
 
-$g^* \omega = \omega$.
+A [[differential form]] on a [[Lie group]] $\omega \in \Omega^1(G)$ is called **left invariant** if for every $g \in G$ it is invariant under the pullback by the translation $L_g$
 
-Analogously a form is **right invariant** if it is invariant under right multiplication.
+$(L_g)^* \omega = \omega$.
+
+Analogously a form is **right invariant** if it is invariant under the pullback by right translations $R_g$. 
+For a vector field $X$ one instead typically defines the invariance via the pushforward $(T L_g) X = (L_g)_* X$.
+Regarding that $L_g$ and $T_g$ are diffeomorphisms, both pullbacks and pushfowards (hence invariance as well) are defined for every tensor field;
+and the two requirements are equivalent. 
 
 ## Related concepts
 
 * [[Maurer-Cartan form]]
-
+* [[tangent Lie algebra]]
 
 ## References
 
 page 89 (20 of 49) at
 
 * MIT course on Lie groups ([pdf 2](http://ocw.mit.edu/courses/mathematics/18-755-introduction-to-lie-groups-fall-2004/lecture-notes/chap2_topic8to14.pdf))
-
-[[!redirects left invariant]]
-
-[[!redirects right invariant]]
-[[!redirects right invariant differential form]]
+* [[Sigurdur Helgason]], _Differential geometry, Lie groups and symmetric spaces_
+* F. Bruhat, _Lectures on Lie groups and representations of locally compact groups_, notes by S. Ramanan, TATA Bombay 1958, 1968, [pdf](http://www.math.tifr.res.in/~publ/ln/tifr14.pdf)
 
 [[!redirects left invariant form]]
 [[!redirects right invariant form]]
-
 [[!redirects invariant vector field]]
 [[!redirects invariant vector fields]]
