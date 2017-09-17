@@ -4001,7 +4001,7 @@ $(\infty,1)$-pullback for curv.
 
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Corollary
 
 The degreewise map
@@ -4024,6 +4024,46 @@ $[CartSp_{smooth}^{op}, sSet]_{proj}$.
 
 Since under [[homotopy pullback]]s a weak equivalence of diagrams is sent to a weak equivalence. See the analagous argument 
 [above](#FiberIntegrationAsWeakEquivalenceForDeRhamCoefficientPresentations).
+
+=--
+
+#### The canonical form on a simplicial Lie group
+
+Above we discussed the canonical form on smooth $\infty$-groups $G$ for the special cases where $G$ is a Lie group and where $G$ is a [[circle Lie n-group]]. These are both in turn special cases of the situation where $G$
+[[Lie group|Lie]] [[simplicial group]]. This we discuss now.
+
++-- {: .num_prop }
+###### Proposition
+
+For $G$ a [[Lie group|Lie]] [[simplicial group]], 
+the flat de Rham coefficient object 
+$\mathbf{\flat}_{dR}\mathbf{B}G$ is presented by 
+the simplicial presheaf which in degree $k$ is given by
+$\Omega^1_{flat}(-, \mathfrak{g}_k)$, where $\mathfrak{g}_k = Lie(G_k)$ is the [[Lie algebra]] of $G_k$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  (C^\infty(-,G_\bullet) \stackrel{}{\to} \Omega^1_{flat}(-,\mathfrak{g}_\bullet))
+$$
+
+be the [[presheaf]] of [[simplicial groupoids]] which in degree $k$ is the [[groupoid of Lie-algebra valued forms]] with values in $G_k$ from [above](#CanonicalFormOnLieGroup). By the result discussed there we have that under the degreewise [[nerve]] this is a degreewise fibrant [[resolution]] of presheaves of [[bisimplicial set]]s
+
+$$
+  N(C^\infty(-,G_\bullet) \stackrel{}{\to} \Omega^1_{flat}(-,\mathfrak{g}_\bullet))
+  \to
+  N B (G_{disc})_\bullet
+$$
+
+of the standard presentation of the delooping of the [[discrete group]] underlying $G$.
+
+Now... (spring)
+
 
 =--
 
