@@ -1,7 +1,6 @@
 
 
-* [webpage]
-(http://www2.warwick.ac.uk/fac/sci/maths/people/staff/marco_schlichting/)
+* [webpage](http://www2.warwick.ac.uk/fac/sci/maths/people/staff/marco_schlichting/)
 
 ## related $n$Lab entries
 
