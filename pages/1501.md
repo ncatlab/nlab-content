@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -45,6 +45,8 @@ The statement of [[Tannaka duality]] for associative algebras says that rigid mo
 
 
 ## Related concepts
+
+* [[star-autonomous category]]
 
 * [[(∞,n)-category with duals]]
 
