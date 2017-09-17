@@ -1,5 +1,5 @@
 
-> This entry is about the notion fo limit in [[analysis]] and [[topology]]. For the notion of the same name in [[category theory]] see at _[[limit]]_.
+> This entry is about the notion of limit in [[analysis]] and [[topology]]. For the notion of the same name in [[category theory]] see at _[[limit]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
