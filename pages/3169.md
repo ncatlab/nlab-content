@@ -7,6 +7,8 @@
 
 Higher monadic descent is the generalization of the notion of [[monadic descent]] from [[category theory]] to [[higher category theory]]. It relates to the [[descent]] of [[∞-stack]]s as ordinary monad descent relates to [[stack]]s.
 
+See also [[cohomological descent]].
+
 ## References
 
 ### 2-categorical monadic descent
