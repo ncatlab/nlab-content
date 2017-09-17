@@ -40,7 +40,7 @@ In one respect, a locally convex TVS is a [[nice space]] in that there are enoug
 
 * J. L. Taylor, _Notes on locally convex topological vector spaces_ (1995) ([pdf](http://www.math.utah.edu/~taylor/LCS.pdf))
 
-
+category: analysis
 [[!redirects locally convex]]
 [[!redirects locally convex spaces]]
 [[!redirects locally convex vector space]]
