@@ -87,7 +87,7 @@ The _trace_ of an element $\alpha \in K$ is defined by
 
 $$Tr(\alpha) \coloneqq N \cdot \alpha = \alpha + g(\alpha) + \ldots + g^{n-1}(\alpha).$$ 
 
-We want to show that if $Tr(\beta) = 0$, then there exists $\alpha \in K$ such that $\beta = \alpha - g(\alpha)$. By \ref{xyz}, there exists $\theta$ such that $Tr(\theta) \neq 0$; notice $Tr(\theta)$ belongs to the ground field $k$ since $g \cdot N = N$. Put 
+We want to show that if $Tr(\beta) = 0$, then there exists $\alpha \in K$ such that $\beta = \alpha - g(\alpha)$. By the theorem on linear independence of characters (following section), there exists $\theta$ such that $Tr(\theta) \neq 0$; notice $Tr(\theta)$ belongs to the ground field $k$ since $g \cdot N = N$. Put 
 
 $$\alpha \coloneqq \frac1{Tr(\theta)}(\beta g(\theta) + (\beta + g(\beta))g^2(\theta) + \ldots + (\beta + g(\beta) + \ldots + g^{n-2}(\beta))g^{n-1}(\theta).$$ 
 
