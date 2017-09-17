@@ -49,7 +49,7 @@ For any set $X$, let $U X$ be the set of ultrafilters on $X$.  Principal ultrafi
 
 A theorem due to Ernest Manes is that the [[Eilenberg-Moore category]] of this monad is the category of [[compact Hausdorff spaces]] with its obvious forgetful functor to $Set$. In one direction, if $X$ is a compact Hausdorff space, then the corresponding algebra structure 
 
-$$\xi: \beta X \to X$ 
+$$\xi: \beta X \to X$$ 
 
 sends an ultrafilter $F$ on $X$ to the unique point in $X$ to which $F$ converges. 
 
