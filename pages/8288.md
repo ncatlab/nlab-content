@@ -1313,15 +1313,6 @@ for the [[right derived functor]], def. \ref{RightDerivedFunctorOfLeftExactFunct
 
 We discuss the use of projective resolutions in the computation of [[Ext]]-functors and [[group extensions]].
 
-By corollary \ref{EquivalenceOfExt1WithExt} below we have a [[natural equivalence]]
-
-$$
- Ext^1(G,A) \simeq Ext(G,A)
-$$
-
-of the first [[Ext]]-group of $G,A \in $ [[Ab]] with the group [[group extensions]] of $G$ by $A$. The proof there proceeds via  [[group cohomology]] in theorem \ref{EquivalenceOfExt1WithH2Grp}. 
-
-The following shows how to directly map an extension to an $Ext$-group, using the above theory of projective resolutions.
 
 +-- {: .num_defn #Extensions}
 ###### Definition
@@ -1363,7 +1354,7 @@ By the [[short five lemma]] a morphism $f$ as above is necessarily an [[isomorph
 =--
 
 
-+-- {: .num_defn }
++-- {: .num_defn #MapFromExtensionsToExtGroup}
 ###### Definition
 
 If $\mathcal{A}$ has [[projective object|enough projectives]], define a function
@@ -1372,7 +1363,7 @@ $$
   Ext(G,A) \to Ext^1(G,A)
 $$
 
-from the group of extensions, def. \ref{Extensions}, to the first [[Ext functor]] group as follows. Choose a projective resolution $Y_\bullet \stackrel{\simeq_{qi}}{\to} G$, which exists by prop. \ref{ExistenceOfInjectiveResolutions}. Regard then $A \to \hat G \to G\to 0$ as a resolution
+from the group of extensions, def. \ref{Extensions}, to the first [[Ext functor]] group as follows. Choose any projective resolution $Y_\bullet \stackrel{\simeq_{qi}}{\to} G$, which exists by prop. \ref{ExistenceOfInjectiveResolutions}. Regard then $A \to \hat G \to G\to 0$ as a resolution
 
 $$
   \array{
@@ -1400,12 +1391,28 @@ $$
      \\
      \downarrow && \downarrow
      \\
-     G &\to& G
+     G &\stackrel{id}{\to}& G
   }
-  \,.
 $$
 
-By the commutativity of the top square, the morphism $c$ is 1-[[cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. By prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} any other choice $\tilde c$ fitting into such a commuting diagram is related by a [[chain homotopy]] to $c$.
+lifting the identity map on $G$ two a [[chain map]] between the two resolutions.
+
+By the commutativity of the top square, the morphism $c$ is 1-[[cocycle]] in $Hom(Y_\bullet,N)$, hence defines an element in $Ext^1(G,A) \coloneqq H^1(Hom(Y_\bullet,N))$. 
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The construction of def. \ref{MapFromExtensionsToExtGroup} is indeed well defined in that it is independent of the choice of projective resolution as well as of the choice of chain map between the projective resolutions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider the same projective resolution but another lift $\tilde c$ of the identity.
+By prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} any other choice $\tilde c$ fitting into a commuting diagram as above is related by a [[chain homotopy]] to $c$.
 
 $$
   \array{
@@ -1439,7 +1446,7 @@ $$
   \,.
 $$
 
-If now $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective resolution, with respect to which we define such a map as above, then lifting the identity map on $G$ to a chain map between these resolutions in both directions, by prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms}, establishes an isomorphism between the resulting maps, and hence the construction is independent also of the choice of resolution.
+If moreover $Y'_\bullet \stackrel{\simeq_{qi}}{\to} G$ is another projective resolution, with respect to which we define such a map as above, then lifting the identity map on $G$ to a chain map between these resolutions in both directions, by prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms}, establishes an isomorphism between the resulting maps, and hence the construction is independent also of the choice of resolution.
 
 =--
 
