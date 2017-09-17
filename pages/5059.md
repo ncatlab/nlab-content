@@ -40,6 +40,18 @@ The corresponding table has been called the **brane scan**
 
 [[branescan.gif:pic]]
 
+## Related concepts
+
+* [[supersymmetry]]
+
+* [[sigma-model]], [[brane]]
+
+  * [[relativistic particle]], [[spinning particle]], [[superparticle]]
+
+  * [[string]], [[spinning string]], [[superstring]]
+
+  * [[membrane]]
+
 ## References 
 
 
@@ -63,3 +75,7 @@ See also [[division algebras and supersymmetry]].
 
 
 [[!redirects Green-Schwarz string]]
+[[!redirects Green-Schwarz superstring]]
+
+[[!redirects Green-Schwarz strings]]
+[[!redirects Green-Schwarz superstrings]]
