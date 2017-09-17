@@ -18,7 +18,7 @@
 
   * [[differential]]
 
-  * [[chain homology and cohomology]]
+  * [[chain homology and cohomology]], [[homology]]
 
   * [[category of chain complexes]]
 
