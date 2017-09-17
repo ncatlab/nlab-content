@@ -129,3 +129,20 @@ $$\array{
 
 as desired. This completes the proof. 
 =-- 
+
++-- {: .query}
+Yaron - I think that the last theorem has a simple proof using the [[adjoint lifting theorem]]: By the definition of $C^{\theta}$ (I hope I'm using the
+right definition - I assume that of Ex. 3(b) on p. 142 of
+[[Categories Work]]) the
+following diagram is commutative:
+$$
+\begin{array}{cccc}C^T & \overset{C^{\theta}}{\to}  & C^S    \\
+^{U^T}\downarrow     &                   & \downarrow^{U^S} \\
+C                    & =                 & C
+\end{array}
+$$
+Hence, it seems that if $C^T$ has coequalizers of
+reflexive pairs, then it immediately follows from the corollary to the
+[[adjoint lifting theorem]] that $C^{\theta}$ has a left adjoint
+and is, in fact, also monadic.
+=--
