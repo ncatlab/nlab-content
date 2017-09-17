@@ -167,6 +167,8 @@ The [[Lie integration]] of $\mathfrak{g}$ is ...
 
   * **smooth super ∞-groupoid**
 
+    * [[Super Gerbes]]
+
   * [[synthetic differential super ∞-groupoid]]
 
 
@@ -197,3 +199,6 @@ A discussion of smooth super $\infty$-groupoids is in section 4.5 of
 
 [[!redirects smooth super homotopy type]]
 [[!redirects smooth super homotopy types]]
+
+[[!redirects smooth super ∞-group]]
+[[!redirects smooth super ∞-groups]]
