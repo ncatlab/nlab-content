@@ -34,7 +34,7 @@ It consists of
 
    This item encodes the [[Riemannian metric]] and possibly a [[connection on a bundle|connection]].
 
-Below we discuss how one may think  of a spectral triple as being precisely the algebraic data defining the worldvolume [[QFT]] of the quantum [[relativistic particle|super particle]] propagating on a Riemannian target space (a [[sigma-model]].) Accordingly this is just the beginning of a pattern. One degree up a [[2-spectral triple]] is algebraic data encoding a Riemannian manifold with [[string structure]].
+Below we discuss how one may think  of a spectral triple as being precisely the algebraic data of [[supersymmetric quantum mechanics]] defining the worldvolume [[QFT]] of the quantum [[relativistic particle|super particle]] propagating on a Riemannian target space (a [[sigma-model]].) Accordingly this is just the beginning of a pattern. One degree up a [[2-spectral triple]] is algebraic data encoding a Riemannian manifold with [[string structure]].
 
 ### As 1-dimensional FQFTs
  {#As1DimensionalFQFTs}
