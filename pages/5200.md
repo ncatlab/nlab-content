@@ -39,3 +39,16 @@ Suppose that $\mathfrak{M}= ((W,R),V)$ where $R$ is a reflexive transitive relat
 
 Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have $\mathfrak{M},t\models p$.  Now suppose we seek to check that $\mathfrak{M},w\models K K p$ so we have $t$ with $R w t$ and want $\mathfrak{M},t\models K p$, so we look at all $u$ with $R t u$ and have to see if $\mathfrak{M},u\models p$, but as $R w t$ and $R t u$ hold then $R w u$ holds, since $R$ is transitive, and we then _know_ that $\mathfrak{M},u\models p$.
 =--
+
+## References## 
+
+
+More on $S4$, $S5_{(m)}$ and their applications in Artificial Intelligence can be found in
+
+* J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995.
+
+General books on modal logics which treat  these logics thoroughly in the general context include e
+
+* [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
+
+* [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
