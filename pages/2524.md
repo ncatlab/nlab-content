@@ -64,6 +64,10 @@ is the corresponding [[local action functional]].
 
 * [[extended Lagrangian]]
 
+## References
+
+* [[Daniel Freed]], _Lecture 2 of [[Five lectures on supersymmetry]]_
+
 
 [[!redirects Lagrangean]]
 [[!redirects Lagrangian function]]
