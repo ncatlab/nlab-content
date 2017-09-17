@@ -203,6 +203,27 @@ A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]
 
 * [[flat resolution lemma]]
 
+* [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
+
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
+
+  * [[injective module]]
+
+* [[free object]], [[free resolution]]
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * **flat module**
+
+
+
+
+
+
 ## References
 
 For instance section 3.2 of 
