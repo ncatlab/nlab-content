@@ -78,7 +78,7 @@ $$
 
 satisfying on $U_i \cap U_j \cap U_k$ the cocycle condition $g_{i j} \cdot g_{j k} = g_{i k}$.
 
-Since $G$ is assumed connected and [[simply connected]] and since for every Lie group the second [[homotopy group]] is trivial we have that the first nonvanshing homotopy group of $G$ is the third one. 
+Since $G$ is assumed connected and [[simply connected]] and since for every Lie group the second [[homotopy group]] is trivial we have that the first nonvanishing homotopy group of $G$ is the third one. 
 
 Therefore we can always find (possibly after refining the cover) a lift of this cocycle as follows:
 
