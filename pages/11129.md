@@ -1,0 +1,18 @@
+
+## Properties
+
+### For stable $(\infty,1)$-categories
+
+* detected on the [[triangulated category|triangulated]] [[homotopy category of an (infinity,1)-category|homotopy category]] ([[Higher Algebra|HA, remark 1.4.4.3]]))
+
+## Related concepts
+
+* [[ind-object in an (∞,1)-category]]
+
+* [[compactly generated model category]]
+
+* [[compactly generated triangulated category]]
+
+[[!redirects compactly generated (∞,1)-categories]]
+[[!redirects compactly generated (infinity,1)-category]]
+[[!redirects compactly generated (infinity,1)-categories]]
