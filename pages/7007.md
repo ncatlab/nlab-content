@@ -7,7 +7,11 @@
 
 An introduction to [[program|programming]] languages in terms of [[type theory]]:
 
-* _Practical foundations for programming languages_ ([pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+* _Practical foundations for programming languages_, Cambridge University Press 2012 ([draft pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+
+An introduction to programming in Standard ML
+
+*  _Programming in Standard ML_, [draft pdf](http://www.cs.cmu.edu/~rwh/smlbook/book.pdf)
 
 ## Related entries
 
