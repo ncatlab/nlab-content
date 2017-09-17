@@ -1,8 +1,18 @@
 
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -93,3 +103,7 @@ A reference that very clearly identifies the mathematical nature of quantum anom
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
 
 [[!redirects anomaly]]
+
+
+[[!redirects anomalies]]
+[[!redirects quantum anomalies]]
