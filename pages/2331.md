@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -161,9 +160,25 @@ is the identity [[(∞,1)-functor]].
 
 ...
 
+
+## Deformation theory via differential graded Lie algebras
+
+Over a field of characteristic zero, there is an approach to deformation theory via [[differential graded Lie algebras]] (or more generally [[L-infinity algebras]]). One can find some exposition about this approach in the Kontsevich and Lurie references below. See also discussion at MathOverflow: [def theory and dgla-s](http://mathoverflow.net/questions/385/deformation-theory-and-differential-graded-lie-algebras).
+
+In this approach, one begins with an object $X$ (for example a scheme, or a complex manifold, or an associative algebra, or a dg category, or ...) that one would like to deform. Then the general principle is that there exists a dgLa $L_X$ with the property that the functor $Def_{L_X} : Art \to Set$, which sends a local Artin algebra $(A,m)$ to the set of Maurer-Cartan solutions in $(L_X \otimes m)^1$ modulo the gauge action of $(L_X \otimes m)^0$, is isomorphic to the functor which sends a local Artin algebra $(A,m)$ to the set of isomorphism classes of deformations of $X$ over $\operatorname{Spec} A$.
+
+In the case of a compact complex manifold, the dgLa in question is given by the so-called Kodaira-Spencer dgLa: holomorphic vector fields tensor $(0,q)$-forms. In the case of an associative algebra (or a dg algebra, or an A-infinity algebra, or a dg category, or an A-infinity category), the appropriate dgLa is the Hochschild complex with the Hochschild differential and the Gerstenhaber bracket.
+
+The following paper is a good introduction to these ideas:
+
+* Marco Manetti, Deformation theory via differential graded Lie algebras, http://arxiv.org/abs/math/0507284
+
+
+
 ## Related entries 
 
-Related $n$lab entries include [[cotangent complex]], [[Maurer-Cartan equation]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. Deformation problems are often phrased in terms of [[differential graded Lie algebras]], and, more generally, [[L-infinity algebras]]. See also discussion at MathOverflow: [def theory and dgla-s](http://mathoverflow.net/questions/385/deformation-theory-and-differential-graded-lie-algebras).
+Related $n$lab entries include [[cotangent complex]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. 
+
 
 ## References
 
