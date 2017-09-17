@@ -73,6 +73,8 @@ If this power series [[convergence|converges]] to $f$, then we say that $f$ is _
 
 * [[convergence radius]]
 
+* [[asymptotic series]]
+
 ## References
 
 A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in section 4 of
