@@ -1,6 +1,6 @@
 ## Idea 
 
-If $G$ is a [[topological group]], a _Haar measure_ is a translation-invariant measure on the [[Borel set]]s of $G$. The archetypal example of Haar measure is the [[Lebesgue measure]] on the [[cartesian space]] $\mathbb{R}^n$. 
+If $G$ is a [[topological group]], a _Haar measure_ is a translation-invariant measure on the [[Borel set]]s of $G$. The archetypal example of Haar measure is the [[Lebesgue measure]] on the (additive group underlying) [[cartesian space]] $\mathbb{R}^n$. 
 
 ## Definition 
 
@@ -34,10 +34,10 @@ Any locally compact Hausdorff topological group $G$ admits a Haar mesaure that i
 The left and the right Haar measure may or may not coincide, groups for which they coincide are called **unimodular**.
 Consider the matrix subgroup
 $$
-G := \left\{ \begin{pmatrix} y & x \\ 0 & 1 \end{pmatrix} | x, y \in \mathbb{R}, y \gt 0  \right\}
+G := \left\{ \left.\, \begin{pmatrix} y & x \\ 0 & 1 \end{pmatrix}\,\right|\, x, y \in \mathbb{R}, y \gt 0  \right\}
 $$
 The left and right invariant measures are, respectively,
 $$
-  d\mu_L = y^{-2} dx dy,   d\mu_R = y^{-1} dx dy
+  d\mu_L = y^{-2} dx dy,\quad   d\mu_R = y^{-1} dx dy
 $$
 and so G is not unimodular.
