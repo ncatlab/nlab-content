@@ -32,6 +32,10 @@ In [[gauge field theories]] such as notably [[Chern-Simons theory]], moduli spac
 
 * [[Hitchin connection]]
 
+* [[quantization of Chern-Simons theory]]
+
+* [[equivariant elliptic cohomology]]
+
 ## References
 
 The original article is
