@@ -3,3 +3,6 @@
 
 * Wikipedia, _[Measurement](http://en.wikipedia.org/wiki/Measurement)_
 
+
+[[!redirects measurement]]
+[[!redirects measurements]]
