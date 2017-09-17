@@ -7,14 +7,29 @@
 
 The concept of _zeta function_ originates in [[number theory]], but to get an idea of what they "really are" it is helpful to proceed anachronistically:
 
-$\zeta$-functions are [[meromorphic functions]] $s \mapsto \zeta(s)$ on the [[complex plane]], which behave like [[regularization (physics)|regularized]] [[Feynman propagators]], namely which behave like [[analytic continuations]] of [[traces]] of powers $s \mapsto Tr \left(\frac{1}{H}\right)^s$ of suitable [[elliptic differential operators]] $H$. Indeed, such _[[zeta functions of elliptic differential operators]]_ constitutes one class of examples of zeta functions.  Of particular interest is the case where $H$ is a [[Laplace operator]] of a [[hyperbolic manifold]] and in particular on a hyperbolic [[Riemann surface]], for that case one obtains the _[[zeta function of a Riemann surface]]_, in particular the _[[Selberg zeta function]]_.
+$\zeta$-functions are [[meromorphic functions]] $s \mapsto \zeta(s)$ on the [[complex plane]], which behave like [[regularization (physics)|regularized]] [[Feynman propagators]], namely which behave like [[analytic continuations]] of [[traces]] of powers 
+
+$$
+  s \mapsto Tr \left(\frac{1}{H}\right)^s
+$$ 
+
+of suitable [[elliptic differential operators]] $H$, which means that for sufficiently nice such $H$ these are analytic continuations in $s$ of sums of the form
+
+$$
+  s \mapsto \underset{\lambda}{\sum}  \lambda^{-s}
+  \,,
+$$
+
+where the summation is over the [[eigenvalues]] $\lambda$ of $H$.
+
+Indeed, such _[[zeta functions of elliptic differential operators]]_ constitutes one class of examples of zeta functions.  Of particular interest is the case where $H$ is a [[Laplace operator]] of a [[hyperbolic manifold]] and in particular on a hyperbolic [[Riemann surface]], for that case one obtains the _[[zeta function of a Riemann surface]]_, in particular the _[[Selberg zeta function]]_.
 
 In modern language one also speaks of _[[L-functions]]_. Where a zeta function of some space is like the [[Feynman propagator]] of _the_ canonical [[Laplace operator]] of that space, an L-function is defined from an extra "twisting" information such as that of a [[flat bundle]]/[[local system of coefficients]] on the space and is like the Feynman propagator of the corresponding twisted/coupled Laplace operator.
  
 Proceeding from this setup in [[complex analytic geometry]] one may wonder if there are [[analogy|analogs]] also in [[arithmetic geometry]]. Indeed, by the [[function field analogy]] there are. All the way down "on [[Spec(Z)]]" the analog of the [[Selberg zeta function]] is the [[Riemann zeta function]], which _historically_ is the first of all zeta functions, defined by [[analytic continuation]] of the [[series]]
 
 $$
-   \zeta \colon s \mapsto \underset{n = 1}{\sum}^\infty \frac{1}{n^s}
+   s \mapsto \underoverset{n = 1}{\infty}{\sum} n^{-s}
   \,.
 $$
 
