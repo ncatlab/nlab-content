@@ -4,6 +4,8 @@ An object $X$ of a category $C$ is said to be [[finitely presentable object|fini
 [[Mike Shulman|Mike]]: Do people really call finitely presentable _objects_ "finitary"?  I've only seen that word applied to functors (those that preserve filtered colimits).
 
 Toby: I have heard 'finite'; see [[compact object]].
+
+_Mike_: Yes, I've heard 'finite' too.
 =--
 
 A category $C$ satisfying (any of) the following equivalent conditions is said to be __locally finitely presentable__ (or **lfp**):
