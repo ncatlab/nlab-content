@@ -1,4 +1,19 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A Hopf algebra is a generalization of:
 
@@ -10,7 +25,7 @@ A Hopf algebra is a generalization of:
 
 All these algebras are actually [[bialgebra|bialgebras]], but furthermore they have a 'antipode' operation which reflects or mimics the inverse operation of a group. One important source is also [[combinatorics]], see [[combinatorial Hopf algebra]]s.
 
-#Definition#
+## Definition
 
 A $k$-[[bialgebra]] $(A,m,\eta,\Delta,\epsilon)$ with multiplication $m$, comultiplication $\Delta$, unit $\eta: k\to A$ and counit $\epsilon:A\to k$ is a **Hopf algebra**
 if there exists a $k$-linear map
@@ -60,7 +75,12 @@ The axiom that must be satisfied by the antipode looks like a $k$-linear version
 Just as an [[algebra]] is a [[monoid]] in [[Vect]] and a [[bialgebra]] is a [[bimonoid]] in $Vect$, a Hopf algebra is a [[Hopf monoid]] in $Vect$.
 
 
-#Hopf algebras versus groups#
+## Caution: convention in topology
+
+In [[algebraic topology]], it is common to define Hopf algebras without mentioning the antipode, since in many topological cases of interest it exists automatically.  For example, this is the case if it is [[graded object|graded]] and "connected" in the sense that its degree-0 part is just the [[ground field]] (a property possessed by the homology or cohomology of any connected space).  In algebraic topology also the strict coassociativity is not always taken for granted.
+
+
+## Hopf algebras versus groups
 
 Note that the definition of Hopf algebra (or, really, of [[Hopf monoid]]) is [[duality|self-dual]]: a Hopf monoid in a symmetric monoidal category $V$ is the same as a Hopf monoid in $V^{op}$ (i.e. a "Hopf comonoid").  Thus we can view a Hopf algebra as "like a group" in two different ways, depending on whether the group multiplication corresponds to the multiplication or the comultiplication of the Hopf algebra.  The formal connections between Hopf monoids and group objects are:
 
@@ -92,12 +112,21 @@ Mike, can you do something with these notes that I took at some point as a grad 
 >Given a (compact) Lie group $G$ and the complex (real?) field $K$, then the algebraic function ring $Anal(G)$ is a cocommutative Hopf algebra, with $M(f_0,f_1)(g) = f_0(g) f_1(g)$, $I(g) = 1$, $D(f)(g,h) = f(g h)$, $E(f) = f(1)$, and the nifty Hopf antipodal operator $S(f)(g) = f(g^{-1})$.  Notice that the algebra operations $M,I$ depend only on $Anal Man|G|$.
 =--
 
-# The theorem of Hopf modules #
+## Properties
+
+###  The theorem of Hopf modules 
 
 Hopf algebras can be characterized among bialgebras by the fundamental theorem on [[Hopf module|Hopf modules]]: the category of Hopf modules over a bialgebra is canonically equivalent to the category of vector spaces over the ground ring iff the bialgebra is a Hopf algebra.  This categorical fact enables a definition of Hopf monoids in some setups that do not allow a sensible definition of antipode.
 
+### As 3-vector spaces
 
-#References#
+A Hopf algebra structure on an [[associative algebra]] $A$ canonically defines on $A$ the structure of an algebra object [[internalization|internal]] to the [[2-category]] of algebras, [[bimodule]]s and bimodule homomorphisms.
+
+By the discussion at [[n-vector space]] this allows to identify Hopf algebras with _3-vector spaces_ . 
+
+(For instance ([FHLT, p. 27](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups))).
+
+## References
 
 For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
 
@@ -121,9 +150,6 @@ For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http:
 
 * William C. Waterhouse, _Introduction to affine group schemes_, Graduate Texts in Mathematics __66_, Springer 1979. xi+164 pp.
 
-# Caution: convention in topology#
-
-In algebraic topology, it is common to define Hopf algebras without mentioning the antipode, since in many topological cases of interest it exists automatically.  For example, this is the case if it is [[graded object|graded]] and "connected" in the sense that its degree-0 part is just the [[ground field]] (a property possessed by the homology or cohomology of any connected space).  In algebraic topology also the strict coassociativity is not always taken for granted.
 
 [[!redirects antipode]]
 [[!redirects Hopf monoid]]
