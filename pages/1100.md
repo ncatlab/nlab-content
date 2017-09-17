@@ -79,6 +79,15 @@ an [[(∞,1)-topos]] is
 
 * and with [[object classifier]]s.
 
+A further equivalent one (essentially by an invocation of the adjoint functor theorem) is:
+
+an [[(∞,1)-topos]] is
+
+* a [[presentable (∞,1)-category]]
+
+* in which all colimits are [[van Kampen colimits]].
+ 
+
 ### Morphism
 
 A [[morphism]] between $(\infty,1)$-toposes is an [[(∞,1)-geometric morphism]].
