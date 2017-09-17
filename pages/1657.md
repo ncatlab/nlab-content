@@ -1,3 +1,4 @@
+
 # Measure spaces
 * table of contents
 {: toc}
@@ -183,6 +184,10 @@ Other topics: absolute continuity, etc.
 
 Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]] $L^\infty(X,\mu)$ where $(X,\mu)$ is some measure space. Conversely, if $(X,\mu)$ is a $\sigma$-finite measure space, then $L^\infty(X,\mu)$ is a commutative von Neumann algebra. This is similar to the correspondence between commutative $C^*$-[[C-star algebra|algebras]] and [[locally compact Hausdorff space]]s, which is the central approach to [[noncommutative geometry]]. It is useful to exploit the intuition that the theory of (noncommutative) von Neumann algebras is a noncommutative analogue of classical measure theory.
 
+
+## Examples
+
+* [[Haar measure]], [[Borel measure]], [[Radon measure]], [[spectral measure]]
 
 ## Discussion
 
