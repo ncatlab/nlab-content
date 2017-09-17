@@ -65,6 +65,9 @@ and this way where in complex K-theory one has [[KU]]-[[modules]] ([[∞-modules
 
 * [[KO-theory]]
 
+[[!include string theory and cohomology theory -- table]]
+
+
 [[!redirects KU]]
 [[!redirects KO]]
 
