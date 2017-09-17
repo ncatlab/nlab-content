@@ -19,7 +19,7 @@
 
 ## Idea
 
-The 0-mode of the supercharge in a [[2d SCFT]] (an operator in a [[super vertex operator algebra]]) behaves like a higher dimensional analog of the operator $D$ in a [[spectral triple]], hence the supercharge in [[supersymmetric quantum mechanics]]. Specifically for a [[sigma-model]] 2d SCFT induced from some [[target space]] geometry it is a higher version of a [[Dirac operator]] on that space (roughtly like what one would expect of a [[Dirac operator on a smooth loop space]]). This is called the _Dirac-Ramond operator_ (after [[Pierre Ramond]]).
+The 0-mode of the supercharge in a [[2d SCFT]] (an operator in a ([[sheaf of vertex operator algebras|sheaf of]]) [[super vertex operator algebra]]) behaves like a higher dimensional analog of the operator $D$ in a [[spectral triple]], hence the supercharge in [[supersymmetric quantum mechanics]]. Specifically for a [[sigma-model]] 2d SCFT induced from some [[target space]] geometry it is a higher version of a [[Dirac operator]] on that space (roughtly like what one would expect of a [[Dirac operator on a smooth loop space]]). This is called the _Dirac-Ramond operator_ (after [[Pierre Ramond]]).
 
 The [[index]] of the [[large volume limit]] of the Dirac-Ramond operator is what is now known as the [[Witten genus]] (but in fact the original article ([Alvarez-Killingback-Mangano-Windey 87](#AlvarezKillingbackManganoWindey87)
 ) appeared independently almost in parallel of Witten's discussion).
