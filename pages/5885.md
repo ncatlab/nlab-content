@@ -15,7 +15,7 @@
 
 ## Idea
 
-For $\mathbf{H}$ a [[cohesive (∞,1)-topos]] such as [[ETop∞Grpd]] or [[Smooth∞Grpd]], both the [[natural number]]s $\mathbb{Z}$ and the [[real number]]s aretop naturally [[abelian group|abelian]] [[group object]]s in $\mathbf{H}$. Accordingly their [[quotient]] 
+For $\mathbf{H}$ a [[cohesive (∞,1)-topos]] such as [[ETop∞Grpd]] or [[Smooth∞Grpd]], both the [[natural number]]s $\mathbb{Z}$ and the [[real number]]s are naturally [[abelian group|abelian]] [[group object]]s in $\mathbf{H}$. Accordingly their [[quotient]] 
 
 $$
  U(1) := \mathbb{R}/\mathbb{Z}
@@ -27,7 +27,7 @@ $$
   \mathbf{B}^n U(1) \in \mathbf{H}
 $$
 
-exists and has the structure of an abelian [[n-group|(n+1)-group]] object. This is the topological or smooth, respectively, **circle $(n+1)$-gorup** .
+exists and has the structure of an abelian [[n-group|(n+1)-group]] object. This is the topological or smooth, respectively, **circle $(n+1)$-group** .
 
 ## Definition
 
