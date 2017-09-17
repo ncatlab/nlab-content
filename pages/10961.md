@@ -50,8 +50,21 @@ The need for and proper nature of such an interpretation may be subtle and is th
 
 ## References
 
-* Stanford Encyclopedia of Philosophy, _[Quantum mechanics](http://plato.stanford.edu/entries/qm/)_
- {#SEP}
+Fairly comprehensive discussion of the issue is in 
+
+* [[Robert Spekkens]], Lectures on _Foundations of quantum mechanics_ ([web](http://www.perimeterscholars.org/332.html))
+
+* [[Jeffrey Bub]], _Interpreting the quantum world_, Cambridge University Press, Aug 26, 1999
 
 * [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]_
+
+Discussion specifically with an eye towards the [[quantum measurement]] problem is also in 
+
+* [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
+ {#Wallace07}
+
+One quote above is taken from the first paragraphs of
+ 
+* Stanford Encyclopedia of Philosophy, _[Quantum mechanics](http://plato.stanford.edu/entries/qm/)_
+ {#SEP}
 
