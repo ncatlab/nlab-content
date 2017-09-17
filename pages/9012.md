@@ -21,6 +21,8 @@
 
 For $(\mathcal{C}, \otimes)$ a [[monoidal category]], the [[full subcategory]] on the objects that are [[invertible objects]] under the tensor operation is the [[Picard groupoid]] $PIC(\mathcal{C}, \otimes)$. This inherits the monoidal structure from $(\mathcal{C}, \otimes)$ and hence becomes a [[2-group]]. This is the **Picard 2-group** of $(\mathcal{C}, \otimes)$.
 
+In geometric contexts this is also called the _[[Picard stack]]_.
+
 ## Properties
 
 ### Relation to Picard group
