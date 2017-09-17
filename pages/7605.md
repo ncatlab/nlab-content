@@ -1,7 +1,3 @@
-[[!redirects categorical semantics of homotopy type theory]]
-
-
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -13,6 +9,12 @@
 =--
 =--
 
+# Type-theoretic model categories
+
+> under construction
+
+* table of contents
+{: toc}
 
 ## Idea
 
@@ -22,16 +24,20 @@ Decomposing the structure in homotopy type theory in layers as
 
 1. [[dependent type theory]]
 
-1. with [[identity types]]
+2. with [[identity types]]
 
-1. and [[univalence|univalent]] [[universe]] types.
+3. and [[univalence|univalent]] [[universe]] types.
 
-a 1-[[category]] whose [[internal logic]] can interpret this needs to 
+A 1-[[category]] whose [[internal logic]] can interpret this needs to 
 
 1. be a [[locally cartesian closed category]]
 
-1. equipped with a [[weak factorization system]] with [[stable path objects]], such that [[acyclic cofibrations]] are preserved by [[pullback]] along [[fibrations]] between [[fibrant objects]]. 
+2. equipped with a [[weak factorization system]] with [[stable path objects]], such that [[acyclic cofibrations]] are preserved by [[pullback]] along [[fibrations]] between [[fibrant objects]]. 
 
-1. xyz
+3. (needs to be finished)
+
 
 [[!redirects presentation of homotopy type theory]]
+[[!redirects categorical semantics of homotopy type theory]]
+[[!redirects type-theoretic model category]]
+[[!redirects type-theoretic model categories]]
