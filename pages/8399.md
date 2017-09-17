@@ -96,6 +96,8 @@ It is via this relation that the physical "principle of equivalence" relates to 
 
 We discuss here that general covariance in field theory has a natural formalization in [[homotopy type theory]], hence internal to any [[(∞,1)-topos]]. For exposition, background and further details on the discussion of [[classical field theory|classical]]/[[quantum field theory]] in this fashion see ([Schreiber, ESI lectures](#SchreiberLectures)) and ([Schreiber-Shulman](#SchreiberShulman)).
 
+The same kind of construction yields important [[moduli stacks]], for instance the [[moduli stack of Riemann surfaces]], see [this remark](moduli+space+of+curves#InTermsOfTheHigherToposOfSmoothStacks) there.
+
 ### Informal introduction
  {#InformalIntroduction}
  
