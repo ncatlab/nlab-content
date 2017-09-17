@@ -1,0 +1,11 @@
+
+
+## References
+
+* Wikipedia, _[Intermediate Jacobian](http://en.wikipedia.org/wiki/Intermediate_Jacobian)_
+
+* C. Herbert Clemens, [[Phillip Griffith]], _The intermediate Jacobian of the cubic threefold_, Annals of Mathematics Second Series, Vol. 95, No. 2 (Mar., 1972), pp. 281-356 ([JSTOR](http://www.jstor.org/stable/1970801))
+
+* [[Claire Voisin]] ([pdf](http://www.math.polytechnique.fr/~voisin/Articlesweb/griffithsgroup.pdf))
+
+[[!redirects intermediate Jacobians]]
