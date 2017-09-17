@@ -22,7 +22,7 @@ $$
   Ker(X) \in \mathbb{Z}_2
 $$
 
-with values in the [[group of order 2]] is the [[Arf invariant]] of the skew-[[quadratic form]] on the middle dimensional homology group.
+with values in the [[group of order 2]] is the [[Arf invariant]] of the skew-[[quadratic form]] on the middle dimensional homology group (the [[intersection pairing]]).
 
 ## Properties
 
