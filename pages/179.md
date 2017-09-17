@@ -1,8 +1,14 @@
 
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -11,7 +17,9 @@
 
 ## Idea
 
-**$\infty$-Lie algebroids** are to [[∞-Lie groupoids]] as [[Lie algebras]] are to [[Lie groups]]. 
+An _$\infty$-Lie algebroid_ is the [[infinitesimal space|infinitesimal]] approximation to an [[∞-Lie groupoid]].
+ 
+$\infty$-Lie algebroids are to [[∞-Lie groupoids]] as [[Lie algebras]] are to [[Lie groups]]. 
 
 * [[Lie group]] - [[Lie algebra]]
 
@@ -20,6 +28,8 @@
 * [[∞-group|∞-Lie group]] - [[L-infinity-algebra|∞-Lie algebra]]
 
 * [[∞-Lie groupoid]] - **$\infty$-Lie algebroid** .
+
+One obtains $\infty$-Lie groupoids from $\infty$-Lie algebroids by [[Lie integration]].
 
 In terms of [[synthetic differential geometry]] an $\infty$-Lie algebroid may be thought of as an [[∞-Lie groupoid]] all whose [[k-morphism]]-spaces over a given object are [[infinitesimal space]]s.
 
