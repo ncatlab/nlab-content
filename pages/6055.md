@@ -1,0 +1,86 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+If a [[monad]] or [[comonad]] $T$ on a [[topos]] $\mathcal{E}$ is sufficiently well behaved, then the [[Eilenberg-Moore category|category of (co)algebras]] $T Alg(C)$ over the (co)monad is itself an ([[elementary topos|elementary]]) topos.
+
+## Properties
+
+### General
+
++-- {: .num_prop #ToposProperty}
+###### Proposition
+
+Let $\mathcal{E}$ be a [[topos]]. Then
+
+* if a [[monad]] $T : \mathcal{E} \to \mathcal{E}$ has a [[right adjoint]], then the [[Eilenberg-Moore category|category of algebras]] $T Alg(\mathcal{E})$ is itself an ([[elementary topos|elementary]]) topos.
+
+* if a [[comonad]] $T : \mathcal{E} \to \mathcal{E}$ is [[exact functor|left exact]], then the [[Eilenberg-Moore category|category of coalgebras]] $T CoAlg(\mathcal{E})$ is itself an ([[elementary topos|elementary]]) topos.
+
+  Moreover, the [[free functor|cofree/forgetful adjunction]]
+
+  $$
+    (U \dashv F)
+    : 
+    \mathcal{E} \stackrel{\overset{U}{\leftarrow}}{\underset{F}{\to}} T CoAlg
+  $$
+
+  is a [[geometric morphism]].
+
+=--
+
+This appears for instance as ([MacLaneMoerdijk, V 8. thm 4, cor 7](#MacLaneMoerdijk))
+
++-- {: .num_prop}
+###### Proposition
+
+The [[geometric morphism]]s of the form $ p = (U \dashv F) : \mathcal{E} \to T CoAlg(\mathcal{E})$ from prop. \ref{ToposProperty} are precisely, up to [[equivalence of categories|equivalence]], the [[geometric surjection]]s.
+ 
+=--
+
+This appears as ([MacLaneMoerdijk, VII 4. prop. 4](#MacLaneMoerdijk)).
+
+### Image factorization of toposes
+
+Toposes of coalgebras are closely related to the [[geometric surjection/embedding factorization]]. See there for more.
+
+## Examples
+
++-- {: .num_prop}
+###### Observation
+
+For $(f^* \dashv f_*) : \mathcal{E} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} \mathcal{F}$ any [[geometric morphism]], the induced [[comonad]]
+
+$$
+  f^* f_* : \mathcal{E} \to \mathcal{E}
+$$
+
+is evidently left exact, hence $(f^* f_*) CoAlg(\mathcal{E})$ is a topos of coalgebra.
+
+=--
+
+## References
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
+
+[[!redirects topos of coalgebras over a comonad]]
+
+[[!redirects toposes of algebras over a monad]]
+[[!redirects toposes of coalgebras over a comonad]]
+
+[[!redirects topoi of algebras over a monad]]
+[[!redirects topoi of coalgebras over a comonad]]
