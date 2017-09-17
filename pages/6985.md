@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[type theory]] a _sum type_ of two [[types]] $A$ and $B$ is the type whose [[terms]] are either terms $a : A$ or terms $b : B$.
+
+In a [[model]] of the type theory in [[categorical semantics]] a product type maps to a categorical [[coproduct]].
+
+## Related concepts
+
+* [[product type]]
+
+* [[dependent sum type]]
+
+[[!redirects product types]]
