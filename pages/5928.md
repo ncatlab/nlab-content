@@ -44,7 +44,7 @@ Geometrically, one may think of
 
 * $R[r_i^{-1}]$ as the [[open subset]] of points in this space on which the function is not 0;
 
-* the covering condition as saying that he functions form a [[partition of unity]] on $Spec R$.
+* the covering condition as saying that the functions form a [[partition of unity]] on $Spec R$.
 
 =--
 
