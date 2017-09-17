@@ -3,3 +3,4 @@ Ernie Manes wrote one of the wellknown books on [[algebraic theory|algebraic the
 * [Genealogy project entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=38925)
 
 category :people
+[[!redirects E. Manes]]
