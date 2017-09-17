@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-## Defintion
+## Definition
 
 For the moment see [[(∞,1)-algebraic theory]].
 
