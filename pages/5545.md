@@ -1,6 +1,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 #### Manifolds and cobordisms
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
@@ -9,6 +13,35 @@
 =--
 
 
-A compatible collection of [[coordinate chart]]s
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _atlas_ is a compatible collection of [[coordinate chart]]s.
+
+
+## Definition
+
+In full generality, for $\mathcal{G}$ a [[pregeometry for structured (∞,1)-toposes|pregeometry]] and $X \in Sh_{(\infty,1)}(\mathcal{G})$ an object in the [[(∞,1)-sheaf (∞,1)-topos]], an **atlas** for $X$ is a collection of suitable morphisms ([[open maps]]) $\{U_i \to X\}$ with $U_i \in \mathcal{G} \hookrightarrow Sh_{(\infty,1)}(\mathcal{G})$, such that the morphism out of the [[coproduct]]
+
+$$
+  \coprod_i U_i \to X
+$$
+
+is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
+
+
+## Examples
+
+### For manifolds
+
+* [[manifold]]
+
+### For geometric stacks
+
+* [[geometric stack]]
 
 (...)
+
