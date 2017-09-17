@@ -84,6 +84,8 @@
 
 * [[Boman's theorem]]
 
+* [[Whitney extension theorem]]
+
 * [[Steenrod-Wockel approximation theorem]]
 
 * [[Poincare lemma]]
