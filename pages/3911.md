@@ -39,7 +39,7 @@ $$
 
 Let $N_{(p,e)} (E)$ be the [[normal bundle]] of $E$ relative to this embedding. It is a rank $n- dim F$ bundle over the image of $E$ in $B \times \mathbb{R}^n$.
 
-Fix a tubular neighborhood of $E$ in $B \times \mathbb{R}^n$ and identify it with the total space of $N_{(p,e)}$. Then collapsing the whole $B \times \mathbb{R}^n - N_{(p,e)}(E)$ to a point gives the [[Thom space]] of $N_{(p,e)}(E)$, and the quotient map
+Fix a [[tubular neighbourhood]] of $E$ in $B \times \mathbb{R}^n$ and identify it with the total space of $N_{(p,e)}$. Then collapsing the whole $B \times \mathbb{R}^n - N_{(p,e)}(E)$ to a point gives the [[Thom space]] of $N_{(p,e)}(E)$, and the quotient map
 
 $$
   B \times \mathbb{R}^n 
@@ -115,12 +115,20 @@ This operation is independend of the choices involved. It is the **fiber integra
 
 ## Examples
 
-When $B$ is a point, one obtains integration aginst the fundamental class of $E$, 
+### To the point
+
+When $B$ is a point, one obtains integration aginst the [[fundamental class]] of $E$, 
 $$
 \int_E:H^\bullet(E)\to H^{\bullet-dim E}(*)
 $$
 taking values in the coefficients of the given chomology theory. Note that in this case $\Sigma^n B_+=S^n$, and this hints to a relationship between the Thom-Pontryagin construction and [[Spanier-Whitehead duality]]. And indeed [[Atiyah duality]] gives a homotopy equivalence between the [[Thom spectrum]] of the stable normal bundle of $E$ and the Spanier-Whitehead dual of $E$.
 ...
+
+### In ordinary differential cohomology
+
+See
+
+* [[fiber integration in ordinary differential cohomology]]
 
 ## References
 
