@@ -29,6 +29,8 @@ A thorough treatment is in
 
 * Arthur Fine, _The Einstein-Podolsky-Rosen Argument in Quantum Theory_, Stanford Encyclopedia of Philosophy ([web](http://plato.stanford.edu/entries/qt-epr/))
 
+* Anthony Sudbery, Quantum mechanics and the particles of nature: An outline for mathematicians (in chapter 5)
+
 A survey is in 
 
 * Wikipedia, _[EPR paradox](http://en.wikipedia.org/wiki/EPR_paradox)_
