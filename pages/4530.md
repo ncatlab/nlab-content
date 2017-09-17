@@ -57,3 +57,7 @@ In _complex [[analytic geometry]]_ one studies, more generally, [[complex analyt
 * {#Huybrechts04} [[Daniel Huybrechts]] _Complex geometry - an introduction_. Springer (2004). Universitext. 309 pages. ([pdf](http://www.math.uh.edu/~shanyuji/2012/Geometry/Huybrechts.pdf))
 
 [[!redirects complex geometries]]
+
+[[!redirects complex analytic geometry]]
+[[!redirects complex-analytic geometry]]
+
