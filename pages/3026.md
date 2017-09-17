@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -62,6 +61,8 @@ $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X
 
 * [[compactification]] 
 
+  * [[end compactification]]
+
 
 ## References
 
@@ -90,3 +91,5 @@ $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X
 [[!redirects Aleksandrov extensions]]
 [[!redirects Александров extension]]
 [[!redirects Александров extensions]]
+
+[[!redirects point at infinity]]
