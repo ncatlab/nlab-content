@@ -52,13 +52,21 @@ The definition of topological space was a matter of some debate, especially abou
 
 ## Examples
 
-### special cases
+### Special cases
+
+* [[finite topological space]]
+
+* [[CW-complex]]
 
 * [[manifold]]
 
 ...
 
 ### Specific examples
+
+* [[point]]
+
+* [[circle]]
 
 * [[Cantor space]]
 
