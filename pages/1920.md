@@ -138,10 +138,11 @@ Note also that for any virtual double category $X$, there is another virtual dou
 
 ## References
 
-* [[Tom Leinster]], _Higher Operads, Higher Categories_, [link](http://www.maths.gla.ac.uk/~tl/book.html), [arXiv:0305049](http://arxiv.org/abs/math/0305049)
+* [[Tom Leinster]], _Higher Operads, Higher Categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [another link](http://www.maths.gla.ac.uk/~tl/book.html)
 
-* [[Geoff Cruttwell]] and [[Mike Shulman]]; [A unified framework for generalized multicategories](http://arxiv.org/abs/0907.2460)
+* [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, [arxiv/0907.2460](http://arxiv.org/abs/0907.2460)
 
+* [[Tom Leinster]], _Generalized enrichement for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
 
 [[!redirects generalized multicategories]]
 [[!redirects generalised multicategory]]
