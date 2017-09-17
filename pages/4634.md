@@ -231,9 +231,9 @@ Another survey article is
 
 * S. Mahanta, Noncommutative geometry in the framework of differential graded categories, [arXiv:0805.1628](http://arxiv.org/abs/0805.1628).
 
-Discussion of how the [[triangulated categories of sheaves|derived category]] of a [[scheme]] determines its commutative and [[noncommutative motive|noncommutative]] Chow motive is in 
+Discussion of how the [[triangulated categories of sheaves|derived category]] of a [[scheme]] determines its commutative and [[noncommutative motive|noncommutative]] [[Chow motive]] is in 
 
-* [[Adeel Khan]], _Perfect correspondences and Chow motives_, Thesis 2013 ([pdf](http://www.preschema.com/documents/masters.pdf))
+* [[Adeel Khan]], _On derived categories and noncommutative motives of varieties_, [arXiv](http://arxiv.org/abs/1401.7222).
 
 In
 
