@@ -1,2 +1,2 @@
-Now you can  to get to the  and start posting!
- <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed192.html" title="mastermind JAPAN">mastermind JAPAN</a>
+If you are only concerned with the happenings of Asia, then also lots of mediums are present to      deliver all kinds of Asia news. There was a time when people were unable to be updated about all the news. With the advancement of science and technology, lots of new machines and devices have invented with which people can get all kinds of news. Now it does not matter if it is Africa news or Europe news, you can be able to be updated with news.
+ <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc152.html" title="GEORGECOX">GEORGECOX</a>
