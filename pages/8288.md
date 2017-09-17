@@ -1479,7 +1479,7 @@ By the discussion at [free modules - submodules of free modules](free+module#Sub
 
 The same argument holds true for $R$ any [[principal ideal domain]].
 
-### Projective resolutions adapted to group cocycles
+### Projective resolutions adapted to abelian group cocycles
  {#ProjectiveResolutionsForGroupCocycles}
 
 Let $G \in \mathbb{Z} Mod \simeq$ [[Ab]] be an [[abelian group]].
@@ -1639,7 +1639,7 @@ This is precisely the condition on a [[group cohomology|group 2-cocycle]] on $G$
 
 Moreover, a [[coboundary]] of $Hom(F_\bullet, A)$ in degree 2 is precisely a cocycle of the form
 $$
- c(a_0, a_1) = h(a_0) - h(a_1)
+ c(a_0, a_1) = h(a_0) + h(a_1) - h(a_0 + a_1)
 $$
 
 and this is precisely a group coboundary.
