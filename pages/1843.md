@@ -139,4 +139,8 @@ The role of the KR field in [[twisted K-theory]] is discussed a bit also in
 [[!redirects Kalb--Ramond field]]
 [[!redirects Kalb–Ramond field]]
 [[!redirects B-field]]
+[[!redirects B-fields]]
+
+
 [[!redirects B2-field]]
+
