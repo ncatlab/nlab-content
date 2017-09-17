@@ -1193,6 +1193,8 @@ In particular the moduli stacks $\mathbf{B}G$ here are typically all differentia
 
    1. [Brane trajectory](#BraneTrajectory)
 
+   1. [Open string sigma-model](#OpenStringSigmaModelFields)
+
 1. [Force fields](#ForceFields)
 
    1. [Fields of gravity, G-structure and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry)
@@ -1289,6 +1291,62 @@ Therefore such wordline [[sigma-model]] fields are given by the special case of 
 
 More generally, the [[worldvolume]] fields of any [[brane]] [[sigma-model]] with [[target space]] $X$ are given as [above](#ParticleTrajectory).
 
+#### Open string sigma-model
+ {#OpenStringSigmaModelFields}
+
++-- {: .num_remark}
+###### Remark
+
+A [[D-brane]] inclusion $Q \stackrel{\iota_X}{\to} X$ is the [[target space]] for an [[open string]] with [[worldsheet]] $\partial \Sigma \stackrel{\iota_\Sigma}{\hookrightarrow} \Sigma$: a [[field (physics)|field]] configuration of the open string [[sigma-model]] is a map
+
+$$
+  \phi \;\colon\; \iota_\Sigma \to \iota_X
+$$
+
+in $\mathbf{H}^{\Delta^1}$, hence a [[diagram]] of the form
+
+$$
+  \array{
+    \partial \Sigma &\stackrel{\phi_{bdr}}{\to}& Q
+    \\
+    \downarrow^{\mathrlap{\iota_\Sigma}} 
+     &\swArrow& 
+    \downarrow^{\mathrlap{\iota_X}}
+    \\
+    \Sigma &\stackrel{\phi_{bulk}}{\to}& X
+  }
+  \,.
+$$
+
+For $X$ and $Q$ ordinary [[manifolds]] just says that a field configuration is a map $\phi_{bulk} \;\colon\; \Sigma \to X$ subject to the constraint that it takes the [[boundary]] of $\Sigma$ to $Q$. This means that this is a [[trajectory]] of an [[open string]] in $X$ whose endpoints are constrained to sit on the [[D-brane]] $Q \hookrightarrow X$.
+
+If however $X$ is more generally an [[orbifold]], then the [[homotopy]] filling the above diagram imposes this constraint only up to orbifold transformations, hence exhibits what in the physics literature are called "orbifold twisted sectors" of open string configurations.
+
+=--
+
++-- {: .num_prop #TheTypeIIOpenStringSigmaModelModuliStackOfFields}
+###### Proposition
+
+The [[moduli stack]] $[\iota_\Sigma, \iota_X]$ of such field configurations is the [[homotopy pullback]] 
+
+$$
+  \array{
+    [\iota_{\Sigma}, \iota_X]
+    &\to&
+    [\Sigma, X]
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    [S^1, Q]
+    &\to&
+    [S^1, X]
+  }
+  \,.
+$$
+
+=--
+
+The [[background gauge field]] for such a [[sigma-model]] is a [[B-field]] on $X$ and a [[Chan-Paton gauge field]] on $Q \hookrightarrow X$.
 
 ### **I)** Force fields
  {#ForceFields}
