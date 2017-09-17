@@ -116,7 +116,7 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 
 ### Homotopy type
 
-A [[compact topological space|compact]] Riemann surface of [[genus]] $g \gq 2$ is a [[homotopy 1-type]]. The [[fundamental groupoid]] is a [[Fuchsian group]].
+A [[compact topological space|compact]] Riemann surface of [[genus]] $g \geq 2$ is a [[homotopy 1-type]]. The [[fundamental groupoid]] is a [[Fuchsian group]].
 
 
 ([MO discussion](http://mathoverflow.net/a/93340/381))
