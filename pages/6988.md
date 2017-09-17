@@ -11,7 +11,7 @@
 
 [[factorization system over a subcategory]]
 
-[[ternary factorization system]]
+[[k-ary factorization system]], [[ternary factorization system]]
 
 **[[factorization system in a 2-category]]**
 
