@@ -139,6 +139,8 @@ which is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect c
 
 * [[Tabuada]] has used noncommutative motives to compute the [[cyclic homology]] of [[twisted projective homogeneous varieties]].  Also, he showed that the noncommutative motive of such a variety is trivial if and only if the [[Brauer class|Brauer classes]] of the associated [[central simple algebras]] are trivial.  See ([Tabuada 13](#Tabuada13Twisted)).
 
+* Bernardara and Tabuada have used noncommutative motives to compute the rational [[Chow groups]] of certain complete [[intersections]] of [[curves]].  See ([Bernardara-Tabuada 13](#BerTab13)).
+
 ## Related concepts
 
 * [[bivariant cohomology]], [[bivariant algebraic K-theory]]
@@ -242,6 +244,9 @@ it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from
 
 * [[Goncalo Tabuada]], _Additive invariants of toric and twisted projective homogeneous varieties via noncommutative motives_, ([arXiv](http://arxiv.org/abs/1310.4063)).
  {#Tabuada13Twisted}
+
+* [[Marcello Bernardara]], [[Goncalo Tabuada]].  _Chow groups of intersections of quadrics via homological projective duality and (Jacobians of) noncommutative motives._  ([arXiv](http://arxiv.org/abs/1310.6020))
+ {#BerTab13}
 
 category: algebraic geometry, noncommutative geometry
 
