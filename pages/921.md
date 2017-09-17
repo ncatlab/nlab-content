@@ -5,7 +5,7 @@
 
 ## Idea 
 
-A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the [[complete space|completion]] of the set $\mathbb{Q}$ of rational numbers. Here we are using the usual [[order|ordering]] of rational numbers; other ordings will give the $p$-[[adic number|adic numbers]] instead.
+A **real number** is something that may be approximated by [[rational numbers]].  The real numbers form the **real line** $\mathbb{R}$, also known as the **continuum**, which is the completion of the [[field]] $\mathbb{Q}$ of rational numbers. To be precise, we may use the [[absolute value]] [[metric space|metric]] on rational numbers and forming a [[complete space|metric completion]], or alternatively (and equivalently) use their unique [[order|ordering]] as an [[ordered field]] and forming the [[Dedekind completion]].
 
 Together with its cartesian powers -- the [[cartesian spaces]] $\mathbb{R}^n$ -- the continuum encodes one basic idea of of _continuous space_; see [[cartesian space]].  The notion of (especially smooth) [[manifold]] is modeled on this notion.  These provides some of the basic models of [[space]], notably the standard model for _physical space_ and _time_ (see [[spacetime]]), at least in [[classical physics]].
 
