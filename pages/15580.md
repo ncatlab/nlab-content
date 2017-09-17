@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+## Definition
+
+For $G$ an [[abelian group]], then the _Moore spectrum_ $S G$ (often $M G$) of $G$ is the [[spectrum]] characterized by having the following [[homotopy groups]]:
+
+1. $\pi_{\lt 0} S G = 0$;
+
+1. $\pi_0(S G) = G$;
+
+1. $H_{\gt 0}(S G,\mathbb{Z}) = \pi_{\gt 0}(S G \wedge H \mathbb{Z}) = 0$.
+
+Here $H \mathbb{Z}$ is the [[Eilenberg-MacLane spectrum]] of the [[integers]].
+
+[[!redirects Moore spectra]]
