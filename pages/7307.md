@@ -111,6 +111,26 @@ $$
 
 For more on this see at _[[dendroidal set]]_ the section _[The full diagram of relations](http://ncatlab.org/nlab/show/dendroidal%20set#FullDiagram)_.
 
+### Relation to planar operads
+
+There is an evident [[forgetful functor]]
+
+$$
+  U : SymmetricOperad \to PlanarOperad
+$$
+
+to the [[category]] of [[planar operads]],
+which forgets the [[action]] of the [[symmetric groups]]. This functor has a [[left adjoint]]
+
+$$
+  Symm : PlanarOperad \to SymmetricOperad
+  \,.
+$$
+
+The [[free construction|freely]] adds symmetric group actions.
+
+For instance as a [[planar operad]], [[Assoc]] is the [[terminal object]] (has the point in each degree). Its symmetrization $Symm(Assoc)$ is still the operad for associative [[monoids]], now regarded as a symmetric operad, where it has the underlying set of the [[symmetric group]] $\Sigma_n$ in degree $n$. This is no longer the terminal object in $SymmetricOperad$, which instead is [[Comm]].
+
 ## Examples
 
 ### In $Set$
