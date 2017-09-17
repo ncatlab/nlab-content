@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
 This page collects links related to 
 
 * [[Gregory Moore]]
@@ -9,7 +27,10 @@ This page collects links related to
 
   ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf))
 
-
 on the [[mathematical physics]] of [[string theory]].
+
+Related:
+
+* G. Moore _[[The Impact of D-Branes on Mathematics]]_, 2014
 
 category: reference
