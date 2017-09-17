@@ -48,6 +48,10 @@ Expositional slides:
 
 [[!redirects unitary representation of the super Poincare group]]
 
+[[!redirects unitary representations of the super Poincaré group]]
+[[!redirects unitary representations of the super Poincare group]]
+
+
 [[!redirects supermultiplet]]
 [[!redirects supermultiplets]]
 
