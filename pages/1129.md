@@ -1,11 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
 * toc
 {: toc}
 
-#Definition#
+## Definition
 
-There is a very general notion of _injective objects_ in a category $C$, and a sequence of refinements as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]].
+There is a very general notion of _injective objects_ in a [[category]] $C$, and a sequence of refinements as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]] thereof.
 
-## General definition ##
+### General definition 
 
 Let $C$ be a [[category]] and $J$ a collection of morphisms in $C$.  Frequently $J$ is the class of all [[monomorphism]]s or a related class.  An object $I$ in $C$ is **$J$-injective** if all diagrams
 
@@ -63,7 +79,7 @@ If $J$ is the class of all monomorphisms, we speak merely of an **injective obje
 The dual notion is a [[projective object]].
 
 
-## In abelian categories ##
+### In abelian categories 
 
 The term _injective object_ is used most frequently in the context that $C$ is an [[abelian category]].  In this case the class $J$ of monomorphisms is the same as the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is [[exact sequence|exact]].  An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
 
@@ -88,7 +104,9 @@ $$
 See [[homotopically injective object]] for a relevant generalization to categories of chain complexes, and its relationship to ordinary injectivity.
 
 
-# Examples
+## Examples
+
+### Existence of enough injectives
 
 * Every [[topos]] has enough injectives.  In fact, every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
 
@@ -97,7 +115,28 @@ See [[homotopically injective object]] for a relevant generalization to categori
 * The category of abelian [[sheaves]] on any small [[site]] also has enough injectives.  This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.
 
 
-#References#
+### Injective Modules
+
+Let $R$ be a [[commutative ring]] and  $C = R Mod$ the category of $R$-[[module]]s.
+
+**Proposition** (Baer's criterion)
+{#Baer}
+
+An object $N \in R Mod$ is injective precisely if for $I$ any left $R$-ideal regarded as an $R$-module, and morphism $g : I \to N$ in $C$ can be extended to all of $R$ along the inclusion $I \hookrightarrow R$.
+
+### Injective abelian groups
+
+Let $C = \mathbb{Z} Mod \simeq $ [[Ab]]  be the abelian category of abelian groups. 
+
+Using [Baer's criterion](#Baer) one finds that
+
+**Proposition** An abelian group $A$ is injective precisely if it is a [[divisible group]], in that for all [[integer]]s $n \in \mathbb{N}$ we have $n G = G$.
+
+So in particular the group of [[rational number]]s $\mathbb{Q}$ is injective in [[Ab]], the additive group underlying any [[vector space]], the quotient of any injective group by any other group.
+
+_Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ for $n \gt 1$.
+
+## References
 
 Much of this discussion can be found in 
 
