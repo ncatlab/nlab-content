@@ -437,6 +437,12 @@ This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
 
 ## Related concepts
 
+* [[monoid]]. [[monoid object]], [[monoid object in an (∞,1)-category]]
+
+* [[group]], [[group object]]
+
+* [[ring]], [[ring object]]
+
 * [[looping and delooping]]
 
 ## References
@@ -448,7 +454,7 @@ Groupoid objects in $(\infty,1)$-categories are the topic of section 6.1.2 in
 
 A standard textbook reference on the model categories presentation of $\infty$-groups in $sSet$ is chapter V of
 
-* [[Paul Goerss]], Jardine, _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
 {#GoerssJardine}
 
 
