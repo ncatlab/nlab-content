@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -60,4 +61,7 @@ A MathOverflow discussion on Friedman's grand conjecture about EFA may be found 
 
 * [Charles](mathoverflow.net/users/6043), _Status of Harvey Friedman's grand conjecture?_, [http://mathoverflow.net/questions/39452](http://mathoverflow.net/questions/39452) (version: 2011-03-24), ([link](http://mathoverflow.net/questions/39452/status-of-harvey-friedmans-grand-conjecture)) 
 
+
+[[!redirects elementary function arithmetic]] 
+[[!redirects Elementary Function Arithmetic]] 
 [[!redirects EFA]] 
