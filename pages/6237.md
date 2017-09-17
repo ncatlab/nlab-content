@@ -1,11 +1,12 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Character on a group
 
 There are many notions of a character for an algebraic structure, often topologized. A character on the [[group]] $G$ is homomorphism into the group of units (invertible elements) of the ground field. Regarding that the codomain is abelian, set of characters is an abelian group under the pointwise multiplication. for toplogical groups one considers continuous characters. 
+
 
 ## Character of a representation
 
@@ -15,8 +16,11 @@ There is a different notion of an _infinitesimal character_ in Harish-Chandra th
 
 There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on. 
 
+
 ## Character of a topological space
 
-The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the minimal cardinality of a local basis of neighborhoods of point $x$ (local [[basis of topology]]) if it is infinite and aleph zero otherwise. The character of a topological space is the supremum of $\chi(X,x)$ when $x$ runs through $X$. 
+The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the minimal cardinality of a local basis of neighborhoods of point $x$ (local [[topological basis|basis of topology]] on $X$) if it is infinite and aleph zero otherwise. The character of a topological space is the supremum of $\chi(X,x)$ when $x$ runs through $X$. 
 
-[[!redirects characters]]  
+
+[[!redirects character]]
+[[!redirects characters]]
