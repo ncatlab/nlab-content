@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -46,11 +46,17 @@ $$
   \,.
 $$
 
-## Higher category interpretation
+## Properties
+
+### Relation to cobordism cohomology theory
+
+See _[[cobordism cohomology theory]]_.
+
+### Relation to higher category theory
 
 The cobordism ring finds its natural interpretation in [[higher category theory]].
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Thom)**
 
