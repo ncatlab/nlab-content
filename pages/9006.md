@@ -26,6 +26,13 @@ A _Dirac manifold_ is a [[smooth manifold]] with a [[Dirac structure]] in the se
 
 An _almost Dirac structure_ on a manifold $X$ is a subbundle $L\subset T X \oplus T^*X$ of the tangent [[Courant algebroid]],  which is [[isotropic submanifold|isotropic]] under a certain symmetric pairing. An almost Dirac structure is a Dirac structure if it satisfies an integrability condition. 
 
+## Properties
+
+### Relation to Lagrangian dg-submanifolds
+
+A [[Courant Lie 2-algebroid]] is a [[symplectic Lie n-algebroid]] for $n = 2$. Dirac structures are related to the [[Lagrangian dg-submanifolds]] (see there) of the dg-manifold formally dual to its [[Chevalley-Eilenberg algebra]].
+
+
 ## Related concepts
 
 * [[polarization]]
