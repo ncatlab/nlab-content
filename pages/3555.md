@@ -209,7 +209,7 @@ Shape(\mathbf{H})(A) &= \Gamma(LConst(A))\\
 \end{aligned}
 $$
 
-Thus, if we regard $\Pi(*)$ as "the homotopy $\infty$-groupoid of $\mathbf{H}$" --- which is reasonable since when $\mathbf{H}=Sh(X)$ consists of sheaves on a locally contractible [[topological space]] $X$, $\Pi_{\mathbf{H}}(*)$ is equivalent to the usual [[fundamental ∞-groupoid]] of $X$ --- then we can regard the shape of an $(\infty,1)$-topos as a generalized version of the "homotopy $\infty$-groupoid" which nevertheless makes sense even for non-locally-contractible toposes, by taking values in the larger category of "pro-$\infty$-groupoids."
+Thus, if we regard $\Pi(*)$ as "the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of $\mathbf{H}$" --- which is reasonable since when $\mathbf{H}=Sh(X)$ consists of sheaves on a locally contractible [[topological space]] $X$, $\Pi_{\mathbf{H}}(*)$ is equivalent to the usual [[fundamental ∞-groupoid]] of $X$ --- then we can regard the shape of an $(\infty,1)$-topos as a generalized version of the "homotopy $\infty$-groupoid" which nevertheless makes sense even for non-locally-contractible toposes, by taking values in the larger category of "pro-$\infty$-groupoids."
 
 
 ### Shape of a topological space
