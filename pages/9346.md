@@ -9,6 +9,7 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 
 
 ## What is string theory?
+ {WhatIsStringTheory}
 
 What is called _[[perturbative string theory]]_ is a variant of _[[perturbation theory]]_ in _[[quantum field theory]]_ (QFT). 
 
@@ -30,6 +31,36 @@ This situation is analogous to the following simple setup: the theory of [[smoot
 There are a host of educated guesses of what non-perturbative string theory might be, if anything, but it remains unknown. At some point the term _[[M-theory]]_ had been established for whatever that non-perturbative theory is, but even though it already has a name, it still remains unknown.
 
 Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and largy remains mysterious, if it exists at all.
+
+## How/why does string theory depend on "backgrounds"
+ {BackgroundDependence}
+
+As discussed at _[What is string theory?](#WhatIsStringTheory)_ one needs to distinguish between perturbative string theory and non-perturbative string theory.
+
+Perturbative string theory, being a variant of traditional [[perturbation theory]] in [[quantum field theory]] is by construction a perturbation _about a background_, just as any perturbation series is.
+
+To stick with the (close) analogy to [[Taylor series]] mentioned before in [What is string theory?](#WhatIsStringTheory): if the full object of study is a [[smooth function]] on the real line, then a "perturbative" approximation to this by a  [[Taylor series]] involves a choice of point on the real line around which the Taylor series is developed. The series itself represents the original funtion restricted to the [[formal geometry]] formal neighbourhood of that point. 
+
+This example also serves to illustrate in which sense a perturbation series "depends" on choice of background: for a given smooth function and for two points on the real line that lie within the [[convergence radius]] of the Taylor series of that function around the respective other point, the expansion does _not_ depend on the "choice of background" in the sense that the value of one series evaluated at a given point equals the value of the other series evaluated at the same point.  The only restriction to this statemet is that some points may ly outside of the convergence radius.
+
+For QFT [[perturbation series]] we have essentially the same situation: the [[correlators]] of the theory are expressed as [[formal power series]] in the [[coupling constants]] and in [[Planck's constant]] of the true non-pertrubative correlators expanded about zero coupling and vanishing Planck's constant. At that 0-point the theory is non-interacting and "classical", meaning that this is the point of a solution to the classical [[equations of motion]] of the non-interacting theory. 
+
+By the above logic, while the specific perturbation series depends on the choice of this classical solution, hence the choice of "background" or of [[vacuum]], this dependency is not a property of the underlying non-perturbative theory but is a defining property of what it means to consider a perturbative approximation. (The subtlety being that for all QFTs of interest the radius of convergence of that formal series is necessarily 0...)
+
+By design, all this applies also to [[perturbative string theory]].
+
+As mentioned before, there is the idea that perturbative string theory is indeed the pertrubative approximation to an as-yet unknown [[non-perturbative string theory]]. To the extent that this is true, the dependence of the string pertrurbation series on the choice of "background" should be of the same superficial nature as it is for traditional perturbative QFT. But this remains a conjeture. 
+
+Consistency arguments for this speculation have been given in ([Witten xy](#Witten)). A theoretical framework for formalizing these questions is _[[string field theory]]_, in the context of which much of this has been formalized (...). 
+
+
+
+
+
+
+
+
+
 
 ## Does string theory make predictions? Is string theory testable?
 
@@ -68,4 +99,6 @@ Yes. One curious aspect of string theory is that independently of its role as a 
 ## How is string theory related to the theory of gravity
 
 (..)
+
+
 
