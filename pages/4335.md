@@ -125,6 +125,8 @@ such that the following [[coherence law]]s are satisfied in  $C$ (throughout we 
 
 =-- 
 
+A pseudonatural transformation is called a **pseudonatural equivalence** if each component $\phi(s)$ is an [[equivalence]] in the 2-category $C$.  This is equivalent to $\phi$ itself being an equivalence in the 2-category $[S,C]$ of 2-functors, pseudonatural transformations, and [[modifications]].
+
 ## Related concepts
 
 * [[homotopy]]
@@ -145,3 +147,9 @@ such that the following [[coherence law]]s are satisfied in  $C$ (throughout we 
 [[!redirects pseudo-natural transformations]]
 [[!redirects pseudo natural transformation]]
 [[!redirects pseudo natural transformations]]
+[[!redirects pseudonatural equivalence]]
+[[!redirects pseudonatural equivalences]]
+[[!redirects pseudo-natural equivalence]]
+[[!redirects pseudo-natural equivalences]]
+[[!redirects pseudo natural equivalence]]
+[[!redirects pseudo natural equivalences]]
