@@ -43,6 +43,10 @@ $$\array{Z & \overset{v}{\to} &A \\
   B& \underset{g}{\to} &C }$$
 in which the triangles commute up to isomorphism, there exists a morphism $u:Z\to P$ and isomorphisms $p u \cong v$ and $q u \cong w$ which are coherent with the given ones above, and (2) given any two morphisms $u,t:Z\to P$ and 2-cells $\alpha:p u \to p t$ and $\beta:q u \to q t$ such that $f \alpha = g \beta$ (modulo the given isomorphism $f p \cong g q$), there exists a unique 2-cell $\gamma:u\to t$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
 
++--{.query}
+Stephan: I would not write $f\alpha =g \beta$ since 1-cells are not composable with 2-cells.
+=--
+
 To see that these definitions are equivalent, we observe that both assert the [[representable functor|representability]] of some [[2-functor]] (where "representability" is understood in the 2-categorical "up-to-equivalence" sense), and that the corresponding 2-functors are equivalent.
 
 * In the simplified case, the functor $F_1\colon K^{op}\to Cat$ sends an object $Z$ to the category whose
