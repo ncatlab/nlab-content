@@ -469,7 +469,7 @@ Monographs include:
 
 * V.A. Smirnov, _Simplicial and operad methods in algebraic topology_
 
-* [[Jean-Louis Loday]], [[Bruno Valette]], _Algebraic operads_, Grundlehren der mathematischen Wissenschaften, Volume 346, Springer-Verlag (2012). (xviii+512 pp. ([pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/LodayVallette.pdf))
+* [[Jean-Louis Loday]], [[Bruno Valette]], _Algebraic operads_, Grundlehren der mathematischen Wissenschaften, Volume 346, Springer-Verlag (2012), xviii+512 pp. ([pdf](http://math.unice.fr/~brunov/Operads.pdf))
 
 * [[Benoit Fresse]], _Modules over operads and functors_, Springer LNM __1967__, 2009, x+308 pp. [MR2010e:18009](http://www.ams.org/mathscinet-getitem?mr=2494775)
 
