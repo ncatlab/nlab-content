@@ -58,9 +58,7 @@ $$
   b_1 b_2 : B \vdash ( E(b_1) \to E(b_2)) : Type
 $$
 
-is interpreted as the [[internal hom]] $[-,-]_{\mathcal{C}/_{B \times B}}$ in the [[slice category]] $\mathcal{C}/_{B \times B}$
-after extending $E$ to the [[context]] $B \times B$ along the two projections
-$p_1, p_2 : B \times B \to B$, respectively. Hence this is interpreted as
+is interpreted as the [[internal hom]] $[-,-]_{\mathcal{C}/_{B \times B}}$ in the [[slice category]] $\mathcal{C}/_{B \times B}$ after extending $E$ to the [[context]] $B \times B$ by pulling back along the two projections $p_1, p_2 : B \times B \to B$, respectively. Hence this is interpreted as
 
 $$
   [E \times B \, , \, B \times E]_{\mathcal{C}/_{B \times B}}
@@ -69,42 +67,18 @@ $$
   \,.
 $$
 
-Consider then the [[diagonal]] morphism $\Delta_B : B \to B \times B$  in $\mathcal{C}$ as an object of $\mathcal{C}/_{B \times B}$.
+Consider then the [[diagonal]] morphism $\Delta_B : B \to B \times B$  in $\mathcal{C}$ as an object of $\mathcal{C}/_{B \times B}$.  We would like to define a morphism 
+$$ q \colon \Delta_B \to [E \times B , B \times E]_{\mathcal{C}/_{B \times B}} \,.$$
+in $\mathcal{C}/_{B \times B}$.  By the defining product-hom [[adjunction]], it suffices to define a morphism
+$$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to B \times E $$
+in $\mathcal{C}/_{B \times B}$.  But now by the universal property of pullback, it suffices to define a morphism
+$$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to \Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E $$
+in $\mathcal{C}/_B$.  And since the composite pullback along either composite
+$$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_1} B$$
+$$ B \xrightarrow{\Delta_B} B\times B \xrightarrow{\pi_2} B$$
+is the identity, both $\Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B$ and $\Delta_B \times_{\mathcal{C}/_{B \times B}} B \times E$ are isomorphic to $E$; thus here we can take the identity morphism.
 
-The [[diagram]] in $\mathcal{C}$
-
-$$
-  \array{  
-    \Delta_B^* E \times B &\to& E \times B
-    \\
-    \downarrow && \downarrow
-    \\
-    B &\stackrel{\Delta_B}{\to}& B \times B
-    \\  
-    & {}_{\mathllap{\Delta_B}}\searrow & \downarrow^{\sigma}
-    \\
-    && B \times B
-  }
-  \,,
-$$
-
-where the top square is a [[pullback]] and where $\sigma : B \times B \to B \times B$ denotes the [[braided monoidal category|braiding]], exhibits a canonical morphism 
-
-$$
-  \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to 
-  B \times E
-$$
-
-in $\mathcal{C}/_{B \times B}$, since the [[product]] in $\mathcal{C}/_{B \times B}$ is the [[fiber product]] in $\mathcal{C}$ over $B \times B$. By the defining product-hom [[adjunction]] this is identified with a morphism
-
-$$
-  q
-  :
-  \Delta_B \to [E \times B , B \times E]_{\mathcal{C}/_{B \times B}}
-  \,.
-$$
-
-Using the [[path object]] factorization in $\mathcal{C}$
+Now, using the [[path object]] factorization in $\mathcal{C}$
 
 $$
   \array{
@@ -143,7 +117,7 @@ $$
   \,.
 $$
 
-The fibration $E \to B$ is **univalent** in $\mathcal{C}$ if this morphism is a weak equivalence.
+The fibration $E \to B$ is **univalent** in $\mathcal{C}$ if this morphism is a weak equivalence.  By the 2-out-of-3 property, of course, it is equivalent to ask that $q\colon B\to Eq(E)$ be a weak equivalence.
 
 (...)
 
