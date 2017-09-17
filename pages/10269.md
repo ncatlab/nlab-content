@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/H._Blaine_Lawson)
+
+## Publications
+
+* [[Spin geometry]]
+
+category: people
