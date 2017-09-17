@@ -7,3 +7,9 @@
 
 * [[moment map]], [[symplectic reduction]]
 
+## References
+
+* Wikipedia, _[First class constraints](http://en.wikipedia.org/wiki/First_class_constraint)_
+
+[[!redirects constraint]]
+[[!redirects constraints]]
