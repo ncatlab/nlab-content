@@ -5,3 +5,6 @@ Given a [[linear map|linear]] [[endomorphism]], an _eigenvector_ of it is a [[ve
 
 
 [[!redirects eigenvectors]]
+
+[[!redirects eigenstate]]
+[[!redirects eigenstates]]
