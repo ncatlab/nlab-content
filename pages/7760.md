@@ -15,7 +15,7 @@
 
 ## Idea 
 
-Stability theory, also referred to a classification theory, is a means to determine whether the isomorphism types of a given sort of structure can be classified by means of intelligible invariants of the structure. It was largely created by Saharon Shelah. 
+Stability theory, also referred to a classification theory, is a means to determine whether the isomorphism types of a given sort of [[structure in model theory|structure]] can be classified by means of intelligible invariants of the structure. It was largely created by Saharon Shelah. 
 
 The basic idea is that for quite general classes of algebraic objects, one can prove what Shelah calls a "structure/nonstructure theorem": either the isomorphism types are classifiable by a smallish number of invariants, or they are hopelessly wild in some sense, e.g., an arbitrary structure can be encoded set-theoretically in some isomorphism type of the class. An example of the "structure" case is the theory of [[algebraically closed fields]], whose isomorphism types can be classified according to characteristic and transcendence degree. An example of the "nonstructure" case is the family of linear orderings, where a proliferation of complicated linear orders can be constructed by various set-theoretic means. 
 
