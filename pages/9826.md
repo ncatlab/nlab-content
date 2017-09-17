@@ -1,0 +1,4 @@
+
+The [[projective space]] of [[dimension]] 1.
+
+[[!redirects projective lines]]
