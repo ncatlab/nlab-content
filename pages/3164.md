@@ -60,7 +60,9 @@ $$
 
 * [[Borger's absolute geometry]]
 
-* [[arithmetic jet space]]
+* [[Iwasawa-Tate theory]]
+
+  * [[arithmetic jet space]]
 
 * [[adelic integration]]
 
