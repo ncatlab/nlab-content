@@ -132,3 +132,8 @@ A discussion of object classifiers, univalent families, and model category prese
 [[!redirects locally cartesian closed (∞,1)-category]]
 [[!redirects locally cartesian closed (infinity,1)-categories]]
 [[!redirects locally cartesian closed (∞,1)-categories]]
+
+[[!redirects locally Cartesian closed (∞,1)-category]]
+[[!redirects locally Cartesian closed (∞,1)-categories]]
+[[!redirects locally Cartesian closed (infinity,1)-category]]
+[[!redirects locally Cartesian closed (infinity,1)-categories]]
