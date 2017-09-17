@@ -131,9 +131,7 @@ at [[model structure on cosimplicial abelian groups]].
 
 We record a detailed proof of the model structure on $Ch^\bullet_+(Ab)$ with fibrations the degreewise surjections, following the appendix of ([Stel](#Stel)).
 
-+-- {: .un_def}
-###### Definition
-
+c
 As usual, for $n \in \mathbb{N}$ write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and for $n \geq 1$  write $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
 
 For $n = 0$ let $\mathbb{Z}[-1,0] = 0$, for convenience.
@@ -502,7 +500,8 @@ For $R$ any [[ring]] and $Ch^\bullet_+(R Mod)$ the category of non-negatively gr
 
 A detailed proof of this structure is spelled out in [section 2.5](http://www.math.fsu.edu/~gdungan/MC10.04.07.pdf) of [Dungan](#Dungan).
 
-### Model structure on unbounded chain complexes {#OnUnbounded}
+### Model structure on unbounded chain complexes 
+  {#OnUnbounded}
 
 #### General results
 
@@ -513,9 +512,8 @@ Write $Ch(\mathcal{A})$ for [[category of chain complexes|category of unbounded 
 
 Following [Christensen-Hovey](#ChristensenHovey) there is a family of model category structures on $Ch(\mathcal{A})$, all refining the [[category with weak equivalences]] given by [[quasi-isomorphism]]s, but where the fibrations are degreewise surjections in a generalized sense, a sense that is parameterized by a choice of _projective class_ . 
 
-{#ProjectiveClass}
 
-+-- {: .un_defn}
++-- {: .num_defn #ProjectiveClass}
 ###### Definition
 
 A **projective class** on $\mathcal{A}$ is a collection $\mathcal{P} \subset ob \mathcal{A}$ of [[object]]s and a collection $\mathcal{E} \subset mor \mathcal{A}$ of [[morphism]]s, such that
@@ -526,18 +524,16 @@ A **projective class** on $\mathcal{A}$ is a collection $\mathcal{P} \subset ob 
 
 =--
 
-{#TrivialProjectiveClass}
 
-+-- {: .un_example}
++-- {: .num_example #TrivialProjectiveClass}
 ###### Example
 
 Taking $\mathcal{P} := ob \mathcal{A}$ to be the class of _all_ objects yields a projective class -- called the _trivial projective class_ . The corresponding morphisms are the class $\mathcal{E}$ of all [[split epimorphism]]s in $\mathcal{A}$.
 
 =--
 
-{#PullbackProjectiveClass}
 
-+-- {: .un_example}
++-- {: .num_example #PullbackProjectiveClass}
 ###### Example
 
 Let $R$ be a [[ring]] and $\mathcal{A} = $ $R$-[[Mod]] be the category of $R$-[[module]]s. Choosing $\mathcal{P}$ to be the class of all summands of [[direct sums]] of [[finitely presented]] modules yields a projective class.
@@ -560,10 +556,10 @@ between [[abelian categories]] and given $(\mathcal{P}, \mathcal{E})$ a projecti
  
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem #ModelStructureOnUnboundedFromProjectiveClass}
 ###### Definition/Theorem
 
-Given a projective class $\mathcal{P}$ in $\mathcal{A}$, call a morphism $f \in Ch(\mathcal{A})$ 
+Given a [projective class](#ProjectiveClass) $\mathcal{P}$ in $\mathcal{A}$, call a morphism $f \in Ch(\mathcal{A})$ 
 
 * a fibration if $\mathcal{A}(P,f)$ is a surjection in [[Ab]] for all $P \in \mathcal{P}$;
 
@@ -582,6 +578,8 @@ When the structure exists, it is a [[proper model category]].
 =--
 
 This is theorem 2.2 in [Christensen-Hovey](#ChristensenHovey).
+
+We shall write $Ch(\mathcal{A})_{\mathcal{P}}$ for this model category structure.
 
 #### Examples 
 
@@ -661,6 +659,45 @@ $$
 $$
 
 With due care this descends to the [[local model structure on simplicial presheaves]] which [[presentable (infinity,1)-category|presents]] the [[(∞,1)-sheaf (∞,1)-topos]] on $C$. Then the above Quillen adjunction serves to embed [[abelian sheaf cohomology]] on $C$ into the larger context of [[nonabelian cohomology]] on $C$. See [[cohomology]] for more on this.
+
+### Cofibrations
+
+We discuss cofibrations in the [model structures on unbounded complexes](#OnUnbounded). 
+
+Let $\mathcal{P}$ be a given projective class on an abelian category $\mathcal{A}$, def. \ref{ProjectiveClass} and write $Ch(\mathcal{A})_{\mathcal{P}}$ for the corresponding model structure on unbounded chain complexes, theorem \ref{ModelStructureOnUnboundedFromProjectiveClass}.
+
+
++-- {: .num_prop}
+###### Proposition
+
+An object $C \in Ch(\mathcal{A})_{\mathcal{P}}$ is cofibrant precisely if 
+
+1. in each degree $n \in \mathbb{Z}$ the object $C_n$ is relatively projective in $\mathcal{A}$;
+
+1. every morphism from $C$ into a weakly  contractible complex in $Ch(\mathcal{A})_{\mathcal{P}}$ is [[chain homotopy|chain homotopic]] to the [[zero morphism]].
+
+=--
+
+This appears as ([ChristensenHovey, lemma 2.4](#ChristensenHovey)).
+
++-- {: .num_prop}
+###### Proposition
+
+A morphism $f : A \to B$ in $Ch(\mathcal{A})_{\mathcal{P}}$ is a cofibration precisely if it is degreewise 
+
+1. a [[split monomorphism]];
+
+1. with cofibrant [[cokernel]].
+
+=--
+
+This appears as ([ChristensenHovey, prop. 2.5](#ChristensenHovey)).
+
+## Examples
+
+### On dg-modules
+
+* [[model structure on dg-modules]].
 
 
 ## History and references {#References}
