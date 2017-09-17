@@ -1,0 +1,33 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+## Definition
+
+e.g. ([Huybrechts-Lehn 96, def. 1.2.2](#HuybrechtsLehn96))
+
+## Related concepts
+
+* [[degree of a coherent sheaf]]
+
+* [[slope of a coherent sheaf]]
+
+* [[stable coherent sheaf]]
+
+## References
+
+
+* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Mafred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
