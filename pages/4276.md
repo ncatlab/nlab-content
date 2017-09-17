@@ -43,6 +43,8 @@
 
 * [[spin-statistics theorem]]
 
+* [[DHR superselection theory]]
+
 ### Euclidean QFT
 
 * [[Osterwalder-Schrader theorem]]
