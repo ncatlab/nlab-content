@@ -137,17 +137,21 @@ Base change geometric morphisms may be interpreted in terms of [[fiber integrati
 
 ## References
 
-Around Example A.4.1.2 of
+A general discussion that applies (also) to [[enriched categories]] and [[internal categories]] is in 
+
+* [[Dominic Verity]], _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
+
+Discussion in the context of [[topos theory]] is around example A.4.1.2 of
 
 * [[Peter Johnstone]],  _[[Sketches of an Elephant]]_ 
  {#Johnstone}
 
-Around theorem IV.7.2 in 
+and around theorem IV.7.2 in 
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
   {#MacLaneMoerdijk}
 
-Section 6.3.5 of 
+Discussion in the context of [[(infinity,1)-topos theory]] is in section 6.3.5 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
