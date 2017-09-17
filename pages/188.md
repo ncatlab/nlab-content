@@ -168,7 +168,7 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[category of monoids]]
 
-* **monoid**, [[monoid object]],
+* **monoid**, internal monoid/monoid object,
 
   * [[algebra in an (∞,1)-category|monoid object in a (∞,1)-category]]
 
