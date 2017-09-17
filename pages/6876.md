@@ -1,4 +1,10 @@
 
+# The geometric origin of inhomogeneous media
+* table of contents
+{: toc}
+
+## Summary
+
 Just as geometry is encoded in the metric tensor and manifests itself via the [[Hodge star operator]], so too do the [[electromagnetic constitutive equations]]. For example, in linear media we have the simple constitutive relations
 
 $$
@@ -39,6 +45,7 @@ where $v = \frac{1}{\sqrt{\mu\epsilon}}$ (Note: $v = c$ in vacuum).
 What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the 
 [[Hodge star operator]]. Conversely, it means that geometrical properties of matter can be interpreted electromagnetically.
 
+
 ## References
 
-For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
+For more details see page 111 of [[Eric Forgy]]\'s [dissertation](http://ncatlab.org/ericforgy/show/Dissertation).
