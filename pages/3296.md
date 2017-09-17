@@ -90,6 +90,6 @@ The [[Chern character]] is a natural characteristic class with values in real co
 
 * R. Bott, L. W. Tu, _Differential forms in algebraic topology_, GTM __82__, Springer 1982.
 
-
+* Shigeyuki Morita, _Geometry of characteristic classes_, Transl. Math. Mon. __199__, AMS 2001
 [[!redirects characteristic class]]
 [[!redirects characteristic classes]]
