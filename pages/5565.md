@@ -18,14 +18,98 @@
 
 The _natural_ [[model category]] structure on the 1-[[category]] of [[groupoid]]s and [[functor]]s is a presentation of the [[(2,1)-category]] of [[groupoid]]s, [[functor]]s and [[natural isomorphism]]s.
 
-For more see [[natural model structure]].
+This is one flavor of the various [[natural model structure]]s on categories and higher categories.
 
 ## Definition
 
 
-For the moment see
++-- {: .un_defn}
+###### Definition
 
-* [[joyalscatlab:Model structures on Cat]]
+Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and [[functor]]s between them. Say a morphism in $Grpd$ -- a [[functor]] $f : C \to D$ -- is 
 
-* [[natural model structure]]
+* a _weak equivalence_ if it is an [[equivalence of categories]];
 
+* a _fibrations_ if it is an [[isofibration]];
+
+* a _cofibration_ if it is an injection on [[object]]s.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Equipped with this structure $Grpd_{nat}$ is a [[model category]] which is
+
+* [[cofibrantly generated model category|cofibrantly generated]];
+
+* [[left proper model category|left proper]]
+
+* a [[simplicial model category]] with respect to the natural [[sSet]]-[[enriched category]] structure induced by the canonical enrichment over itself, under the [[nerve]].
+
+=--
+
+This is originally due to ([Anderson](#Andeson)) and ([Bousfield](#Bousfield)). A detailed discussion is in section 6 of ([Strickland](#Strickland)). In the context of the [[model structure for (2,1)-sheaves]] it appears as ([Hollander, theorem 2.1](#Hollander)).
+
+## Properties
+
++-- {: .un_prop}
+###### Observation
+
+The model structure $Grpd_{nat}$ is the restriction of the
+[[joyalscatlab:Model structures on Cat|natural model structure on Cat]] from [[categories]] to groupoids.
+
+=--
+
+See [[natural model structure]] for more.
+
++-- {: .un_def}
+###### Definition
+
+Let
+
+$$
+  (\tau \dashv N) : Grpd \stackrel{\overset{\tau}{\leftarrow}}{\underset{N}{\to}}
+   sSet
+$$
+
+be the pair of [[adjoint functor]]s, where $N$ is the [[nerve]] of [[groupoid]]s with values in [[sSet]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+With the natural model structure on $Grpd$ and the standard [[model structure on simplicial sets]] this is a [[Quillen adjunction]]
+
+$$
+  (\tau \dashv N) : Grpd_{nat} \stackrel{\overset{\tau}{\leftarrow}}{\underset{N}{\to}}
+   sSet_{Quillen}
+  \,.
+$$
+
+and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Quillen}$ under this adjunction.
+
+=--
+
+## References
+
+This model category structure appears originally in
+
+* D.W. Anderson, _Fibrations and Geometric Realizations_ , Bull. Am. Math Soc. 84, 765-786, (1978), 765-786.
+{#Anderson}
+
+and
+
+* A. K. _Bousfield, Homotopy Spectral Sequences and Obstructions_ , Israel Journal of Math., Vol.66, Nos.1-3, (1989), 54-105.
+{#Bousfield}
+
+A detailed description is in section 6 of
+
+* [[Neil Strickland]] _$K(n)$-local duality for finite groups and groupoids_ , Topology 39, (2000).
+{#Strickland}
+
+The model structure on functors with values in $Grpd_{nat}$ (a [[model structure for (2,1)-sheaves]]) is discussed in
+
+* [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
+{#Hollander}
