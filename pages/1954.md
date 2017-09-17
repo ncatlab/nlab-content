@@ -1,5 +1,19 @@
 
-# Idea #
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 The notion of _Ehresmann connection_ describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $p : P \to X$ (for $G$ some [[Lie group]]) in terms of a distribution of horizontal subspaces $H \subset T P$ which is a subbundle of the [[tangent bundle]] of $P$ complementary at each point to the vertical tangent bundle to the fiber. This subbundle can be expressed as field of subspaces $H_x = Ker A_x = Ann A_x\subset T P$ ($x\in P$) which are pointwise annihilators of a smooth [[Lie algebra]]-valued $1$-[[differential form|form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two conditions spelled out below. 
 
@@ -51,13 +65,13 @@ The condition 3. states that horinzontal subspaces $H_u P$ and $H_{ug}P$ on the 
 
 * Nakahara, Mikio: _Geometry, topology and physics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1090.53001&format=complete))
  
-# Note on terminology #
+## Note on terminology 
 
 The terminology for the various incarnations of the single notion of [[connection on a bundle]] varies throughout the literature. What we here call an Ehresmann connection is sometimes, but not always, called **principal connection** (as it is defined for [[principal bundle]]s).
 
 
 
-# References #
+## References 
 
 
 The original definition is due to
@@ -71,5 +85,5 @@ A useful statement of the definition in terms of a 1-form on the total space is 
 
 A formulation and discussion of Ehresmann connections using language and tools from [[synthetic differential geometry]] is in section 6 of
 
-* I. Moerdijk, Reyes, [[Models for Smooth Infinitesimal Analysis]]
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
 [[!redirects Ehresmann-connection]]
