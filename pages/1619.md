@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -8,6 +7,7 @@
 =--
 =--
 =--
+
 # Contents #
 * table of contents
 {:toc}
@@ -240,6 +240,16 @@ The [[Pontryagin class]] $\frac{1}{2}p_1$ refines to the [[smooth first fraction
 
 (...)
 
+
+## Related entries
+
+* [[orientation]]
+
+* [[spin structure]]
+
+* **string structure**, [[differential string structure]]
+
+* [[fivebrane structure]], [[differential fivebrane structure]]
 
 ## References ##
 
