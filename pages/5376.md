@@ -1,4 +1,5 @@
-# Contents #
+
+# Contents
 * table of contents 
 {: toc}
 
@@ -169,7 +170,7 @@ Y & \underset{g}{\to} & C_0 & &
 Since $P$ is the pullback, the map $h$ is given by maps $\phi: X \to Y$, $\Phi: X \to C_1$ with $\Phi(x): f(x) \to g(\phi(x))$ for each $x \in X$. But this is how a morphism from $f$ to $g$ was described in the explicit construction of $Coprod(C)$. 
 =-- 
 
-#### Example: $Subset$ 
+#### Example: $Subset$ {#Subset}
 
 We calculate the free coproduct completion of the [[interval category]] $\mathbf{2} = (0 \to 1)$, and record some properties of this category. 
 
@@ -323,8 +324,13 @@ This gives a morphism between underlying spans, $Term(S, F) \to C$. This is func
 =-- 
 
 
-[[!redirects free coproduct completion]] 
-[[!redirects free coproduct cocompletion]] 
-[[!redirects free product completion]] 
+[[!redirects free cartesian category]]
+[[!redirects free cartesian categories]]
 
+[[!redirects free coproduct completion]]
+[[!redirects free coproduct completions]]
+[[!redirects free coproduct cocompletion]]
+[[!redirects free coproduct cocompletions]]
 
+[[!redirects free product completion]]
+[[!redirects free product completions]]
