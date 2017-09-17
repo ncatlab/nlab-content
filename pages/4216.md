@@ -19,3 +19,4 @@ Like any meet, conjunction is an associative operation, so we can take the conju
 
 
 [[!redirects logical conjunction]]
+[[!redirects and]]
