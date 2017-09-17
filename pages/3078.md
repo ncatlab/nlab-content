@@ -5,6 +5,8 @@
 
 * lecture at msri 2000 _Noncommutative neighborhoods and noncommutative Fourier transform_: [link](http://msri.org/publications/ln/msri/2000/interact/kapranov/1/index.html)
 
+* [[Kapranov's noncommutative geometry]]
+
 [[!redirects Kapranov]]
 
 category: people
