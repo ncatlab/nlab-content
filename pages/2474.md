@@ -160,7 +160,7 @@ There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative gener
 
 * [[C-star coalgebra]]
 
-* [[dense subalgebra]]
+* [[dense subalgebra]], [[F-star-algebra]]
 
 * [[state on an operator algebra]]
 
