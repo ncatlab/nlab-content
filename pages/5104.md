@@ -26,15 +26,15 @@ Let $V$ be a [[topological vector space]] and $B \subseteq V$ a subset.
 
    Alternatively, $B$ is [[linearly independent subset|linearly independent]] and $\Span(B) = V$; in other words, the [[span]] of $B$ is $V$ but no [[proper subset]] of $B$ has this property.
 
-1. We say that $B$ is a **topological basis** if:
-   1. Every element of $v$ is a limit of a sequence of finite linear combinations of elements of $B$,
-   2. No element of $B$ is a limit of a sequence of finite linear combinations of the _other_ elements of $B$,
+2. We say that $B$ is a **topological basis** if:
+   1. Every element of $v$ is a limit of a [[sequence]] or (more generally) a [[net]] of finite linear combinations of elements of $B$,
+   2. No element of $B$ is a limit of a sequence or net of finite linear combinations of the _other_ elements of $B$.
 
    Alternatively, $B$ is [[total subset|total]] (meaning that its span is [[dense subspace|dense]]) but no proper subset of $B$ is total.
 
-1. We say that $B$ is a **Schauder basis** if:
+3. We say that $B$ is a **Schauder basis** if:
    1. Every element of $v$ is a (possibly infinite) sum of scales of elements of $B$,
-   1. If $v = \sum_{b \in B} \alpha_b b$ then the $\alpha_b$ are unique.
+   2. If $v = \sum_{b \in B} \alpha_b b$ then the $\alpha_b$ are unique.
 =--
 
 
@@ -53,9 +53,9 @@ Let $V$ be a [[topological vector space]] and $B \subseteq V$ a subset.
 
    1. The monomials are linearly independent and have dense span, but do not form a topological basis as there is a sequence of polynomials with no linear term converging to $t$.
 
-   1. The trigonometric polynomials do form a topological basis.  The dual basis is given by taking the Fourier coefficients of a function.  However, it is not a Schauder basis as there are continuous functions which are not the uniform limit of their Fourier series.
+   2. The trigonometric polynomials do form a topological basis.  The dual basis is given by taking the Fourier coefficients of a function.  However, it is not a Schauder basis as there are continuous functions which are not the uniform limit of their Fourier series.
 
-   1. The following is a Schauder basis.  Let $(d_n)$ be the sequence $\{0, 1, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \dots\}$.  Define $f_n$ to be the piecewise-linear function with the property that: $f_n(d_n) = 1$ and $f_n(d_k) = 0$ for $k \lt n$, and $f_n$ has the least "breaks".  Then $f_n$ forms a Schauder basis for $C([0,1],\mathbb{C})$.  This is the classical _Faber-Schader_ basis.
+   3. The following is a Schauder basis.  Let $(d_n)$ be the sequence $\{0, 1, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}, \dots\}$.  Define $f_n$ to be the piecewise-linear function with the property that: $f_n(d_n) = 1$ and $f_n(d_k) = 0$ for $k \lt n$, and $f_n$ has the least "breaks".  Then $f_n$ forms a Schauder basis for $C([0,1],\mathbb{C})$.  This is the classical _Faber-Schader_ basis.
 
 
 ## References
