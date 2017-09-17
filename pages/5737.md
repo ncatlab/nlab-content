@@ -25,6 +25,8 @@ For $f : X \to Y$ a [[smooth function]], a **critical point** is a point $x \in 
 
 The collection of all critical points is also called the **critical locus** of $f$.
 
+A formalization of this in [[cohesive (infinity,1)-topos|cohesive geometry]] is at _[cohesive (infinity,1)-topos -- infinitesimal cohesion -- critical locus](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CriticalLocus)_.
+
 ## Applications
 
 * Critical loci are used to study [[topology]] in terms of [[Morse theory]].
@@ -34,6 +36,8 @@ The collection of all critical points is also called the **critical locus** of $
 ## Related concepts
 
 * [[extremum]]
+
+* [[derived critical locus]]
 
 [[!redirects critical locus]]
 
