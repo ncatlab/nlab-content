@@ -182,7 +182,7 @@ Other articles with content relating to constructive mathematics:
 *  [[pure set]]
 *  [[real number]]
 *  [[sequence]]
-*  [[Set]]
+*  [[Set]], [[Bishop set]]
 *  [[Sierpinski space]]
 *  [[simple object]]
 *  [[sober space]]
