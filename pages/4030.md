@@ -128,10 +128,13 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
 
 ## Related entries
 
+* [[essential geometric morphism]]
 
 * **locally connected topos** / [[locally ∞-connected (∞,1)-topos]]
 
 * [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+* [[totally connected topos]] / [[totally connected (∞,1)-topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
 
