@@ -43,6 +43,7 @@ Just as a $\mathbb{Z}$-algebra is the same thing as a [[ring]], so a $\mathbb{Z}
 
 * Replacing plain vector spaces with [[Banach space]]s leads to a $C^*$-version of algebroids: a category enriched in Banach spaces with some extra structure (mimicing the extra structure of a $C^*$-[[C-star-algebra|algebra]]), which following the above reasoning could justly be call a _$C^*$-algebroid_ is usually called a $C^*$-category. See [[spaceoid]]s.
 
+* [[vertex operator algebroid]]
 
 [[!redirects algebroid]]
 [[!redirects algebroids]]
