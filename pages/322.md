@@ -279,6 +279,8 @@ See also related discussion at [[club]].
 
 * [[Eilenberg-Zilber operad]]
 
+* [[linear operad]]
+
 generalizations:
 
 * [[(∞,1)-operad]]
