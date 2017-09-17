@@ -41,10 +41,9 @@ For $R$ a commutative ring, there is a [[natural isomorphism]] between
 
 =--
 
-The proof is spelled out at [[graded algebra]].
+The proof is spelled out at [[affine line]].
 
 ## References
-
 
 An introduction to projective spaces over the theory of ordinary commutative rings is in
 
