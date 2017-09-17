@@ -201,6 +201,7 @@ For a more detailed account of the relationship of Frobenius-, [[Verschiebung mo
 
 * [[Weil conjecture]]
 
+* [[shtuka]]
 
 ## References
 
