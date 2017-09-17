@@ -4,7 +4,7 @@
 
 #Idea#
 
-A simplicial object $X$ in a [[category]] $C$ is a collection $\{X_n\}_{n \in \mathbb{N}}$ of [[object]]s in $C$ that behave as if $X_n$ were an $n$-dimensional [[simplex]] [[internalization|internal to]] $C$. 
+A simplicial object $X$ in a [[category]] $C$ is a collection $\{X_n\}_{n \in \mathbb{N}}$ of [[objects]] in $C$ that behave as if $X_n$ were an $n$-dimensional [[simplex]] [[internalization|internal to]] $C$. 
 
 
 #Definition#
@@ -28,9 +28,9 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in [[Diff]] is a [[simplicial manifold]].
 
-* A cosimplicial object in the category of [[ring]]s ([[algebra]]s) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
+* A cosimplicial object in the category of [[rings]] ([[algebras]]) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
 
-* A simplicial object in the category [[Grp]] of [[group]]s is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
+* A simplicial object in the category [[Grp]] of [[groups]] is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
 
 * A simplicial object in a category of simplicial objects is a [[bisimplicial object]].
 
