@@ -17,7 +17,7 @@
 
 Since generally an _[[equation]]_ is the statement of [[equality]] $\phi(x) = \psi(y)$ of two [[functions]] $\phi$ and $\psi$ of [[variables]] $x$ and $y$, so a _linear equation_ is an equation between [[linear functions]]. 
 
-### In 1-catgegory theory
+### In 1-category theory
 
 Typically here a _[[linear function]]_ is taken to mean an _$R$-[[linear map]]_ over some given [[ring]] $R$, hence a [[homomorphism]] $\phi : X \to Z$ or $\psi : Y \to Z$ of $R$-[[modules]] $X, Y, Z \in R$[[Mod]]. If here $Z$ is an $R$-module of [[rank]] greater than 1, one also speaks of a _system of linear equations_.
 
