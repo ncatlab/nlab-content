@@ -136,6 +136,7 @@ The notion of group algebra is a special case of that of a [[groupoid algebra]],
 
 ## Properties
 
+### General
 
 +-- {: .num_prop }
 ###### Proposition
@@ -178,7 +179,12 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 =--
 
+### Localizations
+
+
 ## Related concepts
+
+* [[Cohn localization]]
 
 * [[groupoid algebra]], [[category algebra]]
 
@@ -192,13 +198,20 @@ Lecture notes include
 
 * Kiyoshi Igusa, _algebra II, part D: representations of groups_, ([pdf](http://people.brandeis.edu/~igusa/Math101bS07/Math101b_notesD1a.pdf))   
 
+The [[universal localization]] of group rings (see also at _[[Snaith's theorem]]_) is discussed in
+
+* M. Farber, P. Vogel, _The Cohn locaization if the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
+
+* Davidson, Nicholas, _Modules Over Localized Group Rings for Groups Mapping Onto Free Groups_ (2011). Boise State University Theses and Dissertations. Paper 170. ([web](http://scholarworks.boisestate.edu/td/170/))
+
+[[!redirects group algebras]]
 
 [[!redirects group ring]]
-[[!redirects group algebras]]
+[[!redirects group rings]]
+
 
 [[!redirects convolution product]]
 [[!redirects convolution]]
 
 [[!redirects group convolution algebra]]
 [[!redirects group convolution algebras]]
-
