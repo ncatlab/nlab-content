@@ -4,3 +4,4 @@ In the space $k^n$ where $k$ is the ground field, in the basis basis $e_i = (0,0
 
 * wikipedia [Levi-Civita symbol](http://en.wikipedia.org/wiki/Levi-Civita_symbol)
 * Weinstein's wolfram world: [Permutation Tensor](http://mathworld.wolfram.com/PermutationTensor.html)
+* Mathematics Wiki [Levi-Civita symbol](http://www.mathematics.thetangentbundle.net/wiki/Levi-Civita_symbol)
