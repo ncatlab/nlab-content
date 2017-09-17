@@ -92,6 +92,63 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 
 See [[over-topos]] for more.
 
+## over-categories of (covariant) presheaf categories and (covariant) presheaves on categories of elements
+
+Generalizing the above,
+
++-- {: .un_prop}
+###### Proposition
+
+For every $P \colon \mathbf{Set}^D$, there is an [[equivalence]] of categories
+
+$$
+  \varphi : \mathbf{Set}^{el(P)} \stackrel{\simeq}{\to} \mathbf{Set}^D / P
+  \,.
+$$
+
+where $el(P) = \ast / P$ is the [[category of elements]] of $P$.
+=--
+
++-- {: .proof}
+###### Proof
+
+The construction is completely analogous to the above; Given $F \colon \mathbf{Set}^{el(P)}$, $\varphi(F)$ is defined pointwise as a coproduct:
+$$
+  \varphi(F)(c) = \coprod_{(x,Pc)} F(x,Pc)
+$$
+where $(x,Pc) = (\ast \stackrel{x}{\to} Pc)$ is an object of $el(P)$. The action on morphisms is defined analogously. This comes equipped with a natural transformation $\alpha \colon \varphi(F) \to P$, with component
+$$
+  \array{
+    \alpha_c \colon \varphi(F)(c) \to Pc          \\
+    \alpha_c(F(x,Pc)) = x \in Pc                  \\
+  }
+$$
+Given an object $(Q \stackrel{\alpha}{\to} P)$ of $\mathbf{Set}^D / P$ the action of a weak inverse $\bar \varphi$ can be specified as $ \bar{\varphi}(\alpha)(x,Pc) = \alpha_c^{-1}(x)$, that is, the wedge of the pullback:
+$$ 
+  \array{
+     \bar{\varphi}(\alpha)(x,Pc) &\to& Qc
+     \\
+     \downarrow && \downarrow^{\alpha_c}
+     \\
+     pt &\stackrel{x}{\to}& Pc
+  }
+  \,.
+$$
+The action of $\bar{\varphi}(\alpha)$ on arrows of $el(P)$, functoriality, etc is derived from its definition as a pullback and the def of morphisms in $el(P)$. 
+
+=--
+
+### relationship with the over-categories statement
+
+Putting $D = C^{op}, P = Y(c)$ in the above yields:
+$$
+  \mathbf{Set}^{el(Y(c))} \simeq \mathbf{Set}^D / Y(c)
+$$
+Now it is easy to see that $el(Y(c)) \simeq (C / c)^{op}$; we get then:
+$$
+  \mathbf{Set}^{(C / c)^{op}} \simeq \mathbf{Set}^{C^{op}} / Y(c)
+$$
+
 ## In higher category theory
 
 For the analogous result in the context of [[(∞,1)-category]] theory see
