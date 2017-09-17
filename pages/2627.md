@@ -1,8 +1,12 @@
+# $2$-rigs
+* table of contents
+{: toc}
+
 ## Idea
 
 A $2$-rig is a [[categorification]] of a [[rig]].  There is more than one inequivalent notion; just as a rig is a multiplicative [[monoid]] whose underlying set also has a notion of addition, so a $2$-rig is a [[monoidal category]] whose underlying category also has a notion of addition, and we can describe this notion of addition in a few different ways.
 
-Note that we don\'t expect to have additive inverses; by the same argument as in the [[Eilenberg swindle]], they are unreasonable to expect.  However, in an [[abelian category]], we have as close to additive inverses as is reasonable and so a categorification of a [[ring]].
+Note that we don\'t expect a $2$-rig to have additive inverses; by the same argument as in the [[Eilenberg swindle]], they are unreasonable to expect.  However, in a monoidal [[abelian category]], we have as close to additive inverses as is reasonable and so a categorification of a [[ring]].
 
 
 ## Definitions
