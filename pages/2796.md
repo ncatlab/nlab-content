@@ -29,7 +29,7 @@ A (smooth) [[homotopy (as a transformation)|homotopy]] $F: I \times I \to X$ bet
 
 The following is taken from
 
-* K.A. Hardie, K.H. Kamps, R.W. Kieboom _A homotopy 2-groupoid of a Hausdorff space_, Appl. Cat. Str.**8** (2000).
+* [[K. A. Hardie]], [[K. H. Kamps]], [[R.W. Kieboom]], _A homotopy 2-groupoid of a Hausdorff space_, Appl. Cat. Str.**8** (2000).
 
 We define a _finite tree_ to be a one-dimensional finite polyhedron.
 
