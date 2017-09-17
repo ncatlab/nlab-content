@@ -75,6 +75,8 @@ See _[[equivalence in homotopy type theory]]_.
 
 * [[homotopy equivalence]], [[weak homotopy equivalence]], [[Quillen equivalence]]
 
+* [[Bousfield equivalence]]
+
 * [[equivalence in an (∞,1)-category]]
 
 * [[equivalence in homotopy type theory]]
