@@ -106,7 +106,7 @@ An introduction with an eye towards applications in [[physics]], specifically to
 
 A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]] is in 
 
-* [[Andreas Kriegl]], [[Peter Michor]], _A convenient setting of global analysis_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages, [pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf)
+* [[Andreas Kriegl]], [[Peter Michor]], _[[The convenient setting of global analysis]]_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages
 
 See also
 
