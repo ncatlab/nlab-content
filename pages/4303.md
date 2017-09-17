@@ -1,7 +1,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -14,6 +14,11 @@ In the [[path integral]] [[quantization]] of [[quantum field theory]], the parti
 
 Therefore the nontriviality of the Pfaffian line bundle is in these dimensions the fermionic [[quantum anomaly]].
 
+## Related entries
+
+* [[Pfaffian]]
+
+* **Pfaffian line bundle**
 
 ## References
 
@@ -27,9 +32,6 @@ The [[nLab:string theory|string]] worldsheet [[Green-Schwarz mechanism]] which t
 * [[Ulrich Bunke]], _String structures and trivialisations of a Pfaffian line bundle_ ([arXiv](http://arxiv.org/abs/0909.0846))
 
 [[!redirects Pfaffian line bundles]]
-
-[[!redirects Pfaffian]]
-[[!redirects Pfaffians]]
 
 [[!redirects Pfaffian bundle]]
 [[!redirects Pfaffian bundles]]
