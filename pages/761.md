@@ -46,9 +46,14 @@ is a [[pushout]] square in [[Grp]].
 For the _van Kampen theorem_ for the [[fundamental groupoid]] of [[topological space]] it is convenient to define $\pi_1(X,X_0)$ of a space $X$ and a set $X_0$ to be the full subgroupoid of $\pi_1 X$ on the set $X \cap X_0$. Suppose $X_* =(X,X_0)$ is a pair consisting of a space $X$ and a set $X_0$ of base points. We say $X_*$ is _connected_ if $X_0$ meets each path component of $X$. 
 
 
-Let  $X$ be the union of the interiors of sets $U^i$, $i \in I$.  If $d=(i,j) \in I^2$ we write $U^d$ for $U^i \cap U^j$, and  let $U^e_*$ be the pair $(U^e,X_0 \cap U^e)$, $e \in I \cup I^2$.  We then have a [[coequalizer|coequaliser]] diagram of pairs of  spaces where $a,b,c$ are determined by inclusions: 
+Let $\{U_i \to X\}$ for $i \in I$ be an [[open cover]] of $X$.  If $d=(i,j) \in I^2$ we write $U^d$ for $U^i \cap U^j$, and  let $U^e_*$ be the pair $(U^e,X_0 \cap U^e)$, $e \in I \cup I^2$.  We then have a [[coequalizer|coequaliser]] diagram of pairs of  spaces where $a,b,c$ are determined by inclusions: 
 
-$$\bigsqcup_{d \in I^2} U^d_* \rightrightarrows ^a_b \bigsqcup _{i \in I} U^i_* \to ^c X_*.$$
+$$
+  \bigsqcup_{d \in I^2} U^d_* 
+    \stackrel{\overset{a}{\to}}{\underset{b}{\to}}
+  \bigsqcup _{i \in I} U^i_* \stackrel{c}{\to} X_*
+  \,.
+$$
 
 +--{.un_theorem}
 ###### van Kampen theorem
