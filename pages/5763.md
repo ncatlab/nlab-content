@@ -967,10 +967,15 @@ This appears as ([Nuiten, theorem 4.2](#Nuiten)).
 ## References
  {#References}
 
+
 [[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed in
 
 * Erhard Scheibe, _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
 {#Scheibe}
+
+Maybe the first article to propose to use [[intuitionistic logic]]/[[topos theory]] for the description of quantum physics is
+
+* Murray Adelman, John Corbett, _A Sheaf Model for Intuitionistic Quantum Mechanics_ Appl. Cat. Struct. 3: 79-104. 1995
 
 The term _Bohrification_ and the investigations associated with it are initiated in
 
