@@ -35,6 +35,8 @@ A [[model category]] with a [[site]] structure on its [[homotopy category]] is c
 
   * **model site**, [[simplicial site]]
 
+  * [[model topos]]
+
 ## References
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]],  _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math/0207028))
