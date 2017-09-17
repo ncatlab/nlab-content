@@ -86,6 +86,12 @@ This is ([BungeFunk, prop. 1.4.3](BungeFunk)).
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
 
 
+## Examples
+
+### In AQFT and higher AQFT
+
+Cosheaves of algebras, or notions similar to this, appear in [[AQFT]] as [[local nets of observables]]. Similar structures in [[higher category theory]] are [[factorization algebras]], [[factorization homology]], [[topological chiral homology]].
+
 ## References
 
 section 1.4 of
@@ -94,3 +100,5 @@ section 1.4 of
 
   chapter 1 _Lawvere Distributions on Toposes_
 {#BungeFunk}
+
+[[!redirects cosheaves]]
