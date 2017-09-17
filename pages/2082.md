@@ -19,6 +19,10 @@ Mathematically better defined are notions (sometimes equated by various authors 
 
 There is an extensive geometric theory of homogeneous spaces for quantum groups and [[fiber bundles]] whose structure groups are quantum groups. 
 
+## Examples
+
+* [[Yangian]]
+
 ## Literature
 
 Related entries in $n$Lab include [[Hopf algebra]], [[bialgebra]], [[gebra]], [[braided monoidal category]], [[noncommutative algebraic geometry]], [[noncommutative geometry]], [[Hopf-Galois extension]], [[matrix bialgebra]], [[Knizhnik-Zamolodchikov equation]], [[Tannaka duality]]
