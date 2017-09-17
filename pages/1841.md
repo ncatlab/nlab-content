@@ -95,7 +95,7 @@ The following describes more physical and historical details behind this argumen
 
 ## The local picture #
 
-In modern notation what Maxwell discovered in the 1860s is that locally, when physical spacetime is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional Minowski space $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field and magnetic flux combine to a differential 2-form
+In modern notation what Maxwell discovered in the 1860s is that locally, when physical spacetime is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional Minowski space $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$, the electric field $\vec E = \left[ \array{E_1 \\ E_2 \\ E_3} \right]$ and magnetic field $\vec B = \left[ \array{B_1 \\ B_2 \\ B_3} \right]$ combine into a differential [[differential form|2-form]]
 
 $$
   \begin{aligned}
@@ -134,10 +134,10 @@ $$
     \\
     d \star F  = j_{el}
   \end{aligned}
-  \,.
+  \,,
 $$
 
-Here,
+where $d$ is the de Rham differential operator and $\star$ the [[Hodge star]] operator. If we decompose $\star F$ into its components as before as 
 
 $$
 \begin{aligned}
@@ -156,7 +156,7 @@ $$
   \end{aligned}
 $$
 
-These fields must satisfy a bunch of equations -- called **Maxwell's equations** in total. Their components are:
+then in terms of these components the filed equations -- called **Maxwell's equations** -- read as follows.
 
 $d F = 0$
 
@@ -176,10 +176,12 @@ $d \star F = 0$
 Maxwell's original equations determine what the 
 electromagnetic field is _locally_. After a while it was dicovered that globally the situation is more complicated.
 
-* First Einstein figured out that in the presence of a gravitational field spacetime is not in general globally given by Minkowski space, but may be given by a more general pseudo-Riemannian manifold.
+* First Einstein figured out that in the presence of a gravitational field spacetime is not in general globally given by [[Minkowski space]], but may be given by a more general [[Lorentzian manifold]].
 
-With the differential geometry sorted out, there is an obvious generalizaton of Maxwell's equations from Minkowski space to an arbitrary pseudo-Riemanian manifold. 
+With the differential geometry sorted out, there is an obvious generalizaton of Maxwell's equations from Minkowski space to an arbitrary [[Lorentzian manifold]]. 
+
 In the modern notation
+
 $$
   \begin{aligned}
     d F = 0
@@ -187,6 +189,7 @@ $$
     d \star F  = j_{el}
   \end{aligned}
 $$
+
 already holds unmodified in this case, too.
 
 But this still turns out to be too naive. While 
