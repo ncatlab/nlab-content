@@ -17,51 +17,84 @@
 
 ## Idea
 
-Just as a [[functor]] is a [[morphism]] between [[categories]], so a _monoidal functor_ is a morphism between [[monoidal categories]].  Monoidal functors come in varying levels of strictness and strength.
-
+A _monoidal functor_ is a [[functor]] between [[monoidal categories]] that preserves the monoidal structure.
 
 ## Definition ##
 
-A __monoidal functor__ is a [[functor]] $F : C \to D$ between [[monoidal category|monoidal categories]] $(C,\otimes_C, I_C)$ and $(D,\otimes_D, I_D)$ that respects the [[tensor product]] and the unit up to [[coherence law|coherent]] but not necessarily invertible [[morphism]]s
+A [[functor]] $F : C \to D$ between [[monoidal categories]] $(C,\otimes)$ and $(D,\otimes)$ is called **lax monoidal** if it is equipped with a morphism
 
 $$
-  \epsilon : I_D \stackrel{}{\to} F(I_c)  
+  \epsilon : I_D \stackrel{}{\to} F(I_C)  
 $$
 
-and
+and a [[natural transformation]]
 
 $$
   \mu_{x,y} : F(x) \otimes_D F(y) \to F(x \otimes_C y)
-  \,.
 $$
 
-If these structure morphisms are [[isomorphism]]s then $F$ is called a **strong monoidal functor**. If they are even identities it is called a **strict monoidal functor**. In contrast to this, a strong monoidal functor may also be called a **weak monoidal functor**.  Sometimes the plain term "monoidal functor" is used to mean a *strong* monoidal functor, in which case the general situation is called a **lax monoidal functor**.
+satisfying the following conditions
+
+* **[[associativity]]** For all $x,y,z \in C$ we have a [[commuting diagram]]
+
+  $$
+    \array{
+      F(x) \otimes F(y) \otimes F(z) &\stackrel{Id \otimes \mu_{y,z}}{\to}&
+      F(x) \otimes F(y \otimes z)
+      \\
+      {}^{\mathllap{\mu_{x,y} \otimes Id}}\downarrow
+      && \downarrow^{\mathrlap{\mu_{x,y \otimes z}}}
+      \\
+      F(x \otimes y) \otimes F(z)
+      &\stackrel{\mu_{x \otimes y, z}}{\to}&
+      F(x \otimes y \otimes z)
+    }
+  $$
+
+* **[[unitality]]** For all $x \in C$ we have
+
+  $$
+    \array{
+      I_D  \otimes F(x) &\stackrel{l_{F(x)}}{\leftarrow}& F(x)
+      \\
+      {}^{\mathllap{\epsilon \otimes Id}}\downarrow && \downarrow^{\mathrlap{F(l_x)}}
+      \\
+      F(I_C) \otimes F(x)
+      &\stackrel{\mu_{I,x}}{\to}& F(I_C \otimes x)
+    }
+  $$
+
+  and
+
+  $$
+    \array{
+      F(x) \otimes I_D &\stackrel{r_{F(x)}}{\leftarrow}& F(x)
+      \\
+      {}^{\mathllap{Id \otimes \epsilon }}\downarrow && \downarrow^{\mathrlap{F(r_x)}}
+      \\
+      F(x) \otimes F(I_C)
+      &\stackrel{\mu_{x,I}}{\to}& F(x \otimes I_C)
+    }
+  $$
+
+
+If $\epsilon$ and $\mu_{x,y}$ are [[isomorphism]]s then $F$ is called a **strong monoidal functor**. If they are even identities it is called a **strict monoidal functor**. 
+
+In contrast to this, a strong monoidal functor may also be called a **weak monoidal functor**.  Sometimes the plain term "monoidal functor" is used to mean a *strong* monoidal functor, in which case the general situation is called a **lax monoidal functor**.
+
+An __[[oplax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
+
+A [[homomorphism]] between monoidal functors is a [[natural transformation]] that respects the extra structure in an obvious way (...).
+
+
+## Properties
 
 Lax monoidal functors send [[monoid]]s to monoids.
 
-
-## Colax monoidal functors
-
-A __[[colax monoidal functor]]__ (with various alternative names including **comonoidal**), is a monoidal functor from the [[opposite categories]] $C^{op}$ to $D^{op}$.
-
-Colax monoidal functors send [[comonoids]] to comonoids. 
-
-+-- {: .query}
-Am I the only one who objects to the term 'comonoidal functor'?  Surely there are people who study (at least enriched over a symmetric ---but non-cartesian--- monoidal category) categories equipped with [[comonoid]]al structures; I would want 'comonoidal functor' to describe structure-preserving functors between *them*.  For functors between bimonoidal categories, we would have a conflict.  ---Toby
-
-You're not the only one!  The Australians call these 'comonoidal functors' [[oplax monoidal functor|oplax monoidal functors]].  ---[[John Baez]]
-
-I know that term, which is why I included it in the list of terms (^_^).  It\'s nice that you made that page, but you should also link to it in the text here and move the redirects from the bottom of this page to that one.  (I did that now.)   ---Toby
-
-[[Mike Shulman]]: I think some Australians, at least, call them "opmonoidal functors."  I agree that "comonoidal functor" has nothing to recommend it.  I myself prefer always to add the adjective "lax" when it applies, and to put the "co" or the "op" on the "lax."
-
-Zoran: I say colax monoidal in my articles, though in informal conversations I am used to geometers who mostly like "comonoidal" as they have dual roles when applied to categories of sheaves and transporting various properties on the tensor categories of sheaves for example; but the main reson is probably because most examples are not "strong" monoidal so usage of words lax and weak would be superfluous for most applications they have in mind.
-=--
+Oplax monoidal functors send [[comonoids]] to comonoids. 
 
 
-## 2-Category perspective
-
-If we pass to the [[delooping]] [[2-category|2-categories]] $\mathbf{B}C$ and $\mathbf{B}D$ then a lax monoidal functor corresponds to a [[lax 2-functor]] 
+If we pass to the [[delooping]] [[2-category|2-categories]] $\mathbf{B}C$ and $\mathbf{B}D$ of the monoidal categories $C$ and $D$ then a lax monoidal functor corresponds to a [[lax 2-functor]] 
 
 $$
   \mathbf{B}F : \mathbf{B}C \to \mathbf{B}D
@@ -84,8 +117,13 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * [[oplax monoidal functor]]
 
+* [[bilax monoidal functor]]
+
 * [[Frobenius monoidal functor]]
 
+* [[braided monoidal functor]]
+
+* [[symmetric monoidal functor]]
 
 [[!redirects lax monoidal functor]]
 [[!redirects strict monoidal functor]]
