@@ -19,11 +19,15 @@
 
 ## Idea
 
-The _$j$-invariant_ is a [[modular function]] on the [[upper half plane]]. Among other things it characterizes [[isomorphism classes]] of [[elliptic curves]] defined over the [[complex numbers]].
+What is called the _$j$-invariant_is an invariant characzerizing [[cubic curves]] and hence of [[elliptic curves]]. 
+
+Over the [[complex numbers]] the _$j$-invariant_ is a [[modular function]] on the [[upper half plane]]. 
 
 ## Definition
 
-With $G_{2k}$ the [[Eisenstein series]] and with
+### Over the complex numbers
+
+Over the [[complex numbers]],  with $G_{2k}$ the [[Eisenstein series]] and with
 
 $$
   g_2 \coloneqq 60 G_4
@@ -43,6 +47,10 @@ $$
   j = 1728 \frac{g_2^3}{\Delta}
   \,.
 $$
+
+### General
+
+See at _[elliptic curve -- Definition for general rings -- j-invariant](elliptic+curve#WeierstrassCubicDiscriminantAndJInvariant)_.
 
 
 ## Related concepts
