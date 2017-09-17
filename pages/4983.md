@@ -21,7 +21,7 @@ A **topological operad** is an [[operad]] over [[Top]]. It has for each $k \in \
 
 ## Model structure
 
-There is a [[model category]] structure on the [[category]] of topological operads that makes them [[presentable (∞,1)-category|present]] [[(∞,1)-operad]]s.
+There is a [[model category]] structure on the [[category]] of topological operads that makes them [[presentable (∞,1)-category|present]] [[(∞,1)-operad]]s. See [[model structure on operads]].
 
 
 ## Examples
