@@ -37,7 +37,16 @@ While usual [[quantization]] has to give a [[Hilbert space]] and self-adjoint op
 
 ## References
 
+The result that every Poisson manifold admits a deformation quantization is due to 
+
+* [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, ([q-alg/9709040](http://arxiv.org/abs/q-alg/9709040)).
+
+Deformation quantization in [[quantum field theory]] in the context of [[AQFT]] is disucssed in
+
+* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_
+Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079)) 
+
+
+See also
+
 * [wikipedia](http://en.wikipedia.org/wiki/Weyl_quantization#Deformation_quantization)
-
-* [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, [q-alg/9709040](http://arxiv.org/abs/q-alg/9709040).
-
