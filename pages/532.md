@@ -31,6 +31,8 @@ thin structure satisfies the following axioms:
 
 1. The nerve of a [[crossed complex]] has a natural T-complex structure.
 
+1. If $G$ is a [[group T-complex]], then its classifying space $\overline{W}G$ has a natural simplicial T-complex structure.
+
 
 ##References
 
