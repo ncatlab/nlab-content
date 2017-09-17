@@ -1,24 +1,35 @@
 
 # Contents
-* automatic table of contents goes here
+* table of content
 {: toc}
 
 ## Idea
 
-Functional is used in two meanings: either a $k$-valued, usually linear, [[function]] on a $k$-[[vector space]] (or [[module]]), where $k$ is a [[field]] (or any [[rig]]); or a function on some [[mapping space|space of functions]], [[path space|paths]] or the like. The two meanings overlap as sometimes one considers [[function space|linear spaces of functions]]; then the two concepts of a functional agree.
+The term _functional_ is used in two meanings: 
 
-Physicists and engineers usually talk about 'functions' in terms of (real or complex) variables; and when the variables are themselves functions (i.e., the [[domain]] is a space of functions itself), they are usually warned; hence the word 'functional' emphasises a function on a domain which is "of the size of [[mapping space]]", so that the functional is a "a function of functions".
+* either a $k$-valued, usually linear, [[function]] on a $k$-[[vector space]] (or [[module]]), where $k$ is a [[field]] (or any [[rig]]); 
+
+  discussed below in _[In linear algebra and functional analysis](#Linear)_
+
+* or a suitably well behave [[function]] on some [[mapping space]], for instance a [[path space]] or the like
+
+  discussed below in _[Nonlinear functionals](#Nonlinear)_.
+
+Of course the two meanings may overlap.
+
+Physicists and engineers usually speak of _functions_ if the argument is a [[variable]] of [[type]] the [[real numbers]] or [[complex numbers]]; but speak of a _functional_ if the type is a [[mapping space]].
 
 Some special cases include
 
 * in linear [[functional analysis]] one most often studies continuous _linear_ functionals: linear [[function]]s on [[topological vector space]]s. This includes for instance [[distribution]]s.
 
-* in [[variational calculus]] one studies functions on spaces of [[section]]s of [[jet bundle]]s. For example, they appear in [[physics]] as [[action functional]]s.
+* in [[variational calculus]] one studies functions on spaces of [[sections]] of [[jet bundles]]. For example, they appear in [[physics]] as [[action functionals]].
  
 * various discretised versions are interesting in finite geometries as well as numerical analysis
 
 
 ## In linear algebra and functional analysis
+ {#Linear}
 
 ### Definition
 
@@ -32,11 +43,16 @@ In a sense, linear functionals are co-probes for vector spaces. If the vector sp
 In infinite-dimensional [[topological vector spaces]], the notion of dual basis breaks down once spaces more general than [[Hilbert spaces]] are considered. But for [[locally convex spaces]], the [[Hahn–Banach theorem]] ensures the existence of 'enough' continuous linear functionals.  Among non-LCSes, however, there are examples such that the only continuous linear functional is the constant map onto $0 \in k$.
 
 
-## In variational calculus
+## Nonlinear functionals
+ {#Nonlinear}
 
 See 
 
-* [[variational calculus]].
+* [[variational calculus]]
+
+* [[action functional]]
+
+* [[covariant phase space]], [[path integral]]
 
 
 [[!redirects functional]]
