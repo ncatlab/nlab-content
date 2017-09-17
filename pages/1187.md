@@ -84,7 +84,7 @@ General statements seem not to be in the literature yet, but see [this MO discus
    the compact objects in ∞Grpd are the retracts of the $\omega$-small ∞Grpds, i.e.,
     the retracts of the finite CW-complexes. Not every such retract is equivalent
    to a $\omega$-small ∞-groupoid; the vanishing of Wall's finiteness obstruction is
-   a necessary and sufcient condition for such an equivalence to exist.
+   a necessary and sufficient condition for such an equivalence to exist.
 
 
 ## Related concepts
