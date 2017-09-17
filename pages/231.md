@@ -577,6 +577,7 @@ higher versions
 
 ## Related concepts
 
+* [[Drinfeld center]]
 
 * [[Picard group]], [[Picard 2-group]]
 
