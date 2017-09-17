@@ -25,7 +25,25 @@ The notion of _virtual fundamental class_ is a generalization of that of _[[fund
 This plays a central role when these stacks serve as [[moduli stacks]] for certain structures on some space (certain maps into that space regarded as a [[target space]], notably) and one is interested in the relevant "[[path integral]]" over all these structures (to produce [[invariants]] of target space). This is manifestly so for instance in the application to [[Gromov-Witten invariants]]. In these cases the pairing of [[cocycles]] against the virtual fundamental class plays the role of [[integration]] over the given moduli stack.
 
 
+##Virtual Fundamental Classes of Derived Schemes
+Given a [[derived scheme]], $(X, \mathcal{O}_X)$ with underlying scheme $t_0X$, the virtual fundamental class is defined by first constructing a class in $G_0(t_0X)$ (the $K$-theory of coherent sheaves) and then using this to produce an element of the Chow homology of $t_0X$. In our hearts we all know that the fundamental class should be something tautological, just like how the fundamental class of a triangulated manifold in simplicial homology is _the manifold itself_. We can use this idea once we have the following theorem:
 
+ +-- {: .num_theorem #Devissage}
+ ###### Theorem
+ **(Devissage)**. The natural map of derived schemes $j: t_0X \rightarrow X$ induces an isomorphism $j_*: G_0(t_0X) \rightarrow G_0(X)$.
+=--
+(One can find a proof of this theorem and a definition of $G$-theory for derived schemes in Barwick's paper below).
+
+ +-- {: .un_defn}
+###### Definition
+The $K$-theory _virtual fundamental class_ of a derived scheme $(X, \mathcal{O}_X)$ is the unique element $[X]$ in $G_0(t_0X)$ such that $j_*[X] = [\mathcal{O}_X]$ where $j: t_0X \rightarrow X$ is the natural map.
+=--
+To get from here to a virtual fundamental class in cohomology we need some more assumptions on $X$. For example, let's assume $X$ is finitely-presented over a field $k$ and that $\mathbb{L}_{X/k}$ is concentrated in degrees $0$ and $-1$, locally up to quasi-isomorphism, and a perfect complex. Then $j^*\mathbb{L}_{X/k}$ is a perfect complex over $t_0X$ and the dual is called the virtual tangent sheaf $\mathbb{T}^{vir}$. 
+
++-- {: .un_defn}
+###### Definition
+With the above assumptions and notation, the _virtual fundamental class_ of $X$ is the evaluation of the inverse of the Todd class $Td(\mathbb{T}^{vir})$ on $\tau([X])$, where $[X]$ is as in the previous definition and $\tau$ is the Grothendieck-Riemann-Roch transformation.
+=--
 ## Examples
 
 ### Moduli space of stable maps
@@ -73,7 +91,6 @@ degree there ought to be a finite number of rational curves on Q).
 But now, $M_{0,0}(Q,2)$ is a space of maps, not a space of curves, and for every one of the famous 2875 lines on $Q$ there is a 2-dimensional family of double covers of the line, which clearly count as stable
 degree-2 maps, so $M_{0,0}(Q,2)$ contains 2875 components of dimension 2, in contrast to the virtual dimension 0.
 
-
 ## Related entries
 
 * [[fundamental class]]
@@ -114,3 +131,8 @@ Specifically for applications to [[Gromov-Witten theory]] see for instance
 
 The material in _[Moduli space of stable maps](#ModuliSpaceOfStableMaps)_ above originates in a blog discussion [here](http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html#c027000)
 
+The definition and description above for derived schemes derives from:
+*[[Bertrand Toën]] Derived Algebraic Geometry, 2013. ([http://arxiv.org/pdf/1401.1044v1.pdf](http://arxiv.org/pdf/1401.1044v1.pdf)) p.23.
+
+The devissage result needed is proven as Proposition 8.2 here:
+*[[Clark Barwick]] ([On Exact infty-categories and the Theorem of the Heart](http://dl.dropboxusercontent.com/u/1741495/papers/k2-1.pdf))
