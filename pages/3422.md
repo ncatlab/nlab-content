@@ -592,7 +592,7 @@ $$
   \,.
 $$
 
-And again by universality, this assignment if functorial $K_1 \to K_0$.
+And again by universality, this assignment is functorial: $K_1 \to K_0$.
 
 Diagrammatically, the choice of Cartesian morphisms here is a lift $e$ in the diagram
 
@@ -732,6 +732,63 @@ is an invertible [[natural transformation]] between $f$ and $f'$, hence these ar
 
 =--
 
+Conversely, every functor $f : D \to C$ gives rise to a Cartesian fibration that it is associated to, in the above sense.
+
++-- {: .un_prop}
+###### Proposition
+
+Every $(\infty,1)$-functor $f : D \to C$ is associated to some Cartesian fibration $p : K \to \Delta[1]$, and this is unique up to equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop 5.2.1.3]].
+
+The idea is that we obtain $K$ from first forming the cylinder $D \times \Delta[1]$ and the identifying the left boundary of that with $C$, using $f$.
+
+Formally this means that we form the [[pushout]]
+
+$$
+  N := (D^\sharp \times \Delta[1]^#) \coprod_{D^\sharp \times \{0\}^#} C^\sharp
+$$
+
+in $sSet^+$, where $C^\sharp$ and $D^\sharp$ are $C$ and $D$ with precisely the [[equivalence in a quasi-category|equivalences]] marked. This comes canonically with a morphism 
+
+$$
+  N \to \Delta[1]
+$$
+
+and does have the property that $N_0 = C$, $N_1 = D$ and that $f$ is associated to it in that the restriction of the canonical morphism $D \times \Delta[1] \to K$ to the 0-fiber is $f$.  But it may fail to be a Cartesian fibration.
+
+To fix this, use the [[small object argument]] to factor $N \to \Delta[1]$ as
+
+$$
+  N \to K \to \Delta[1]^#
+  \,,
+$$
+
+where the first morphism is [marked anodyne](http://ncatlab.org/nlab/show/model+structure+for+Cartesian+fibrations#MarkedAnodyne) and the second has the [[right lifting property]] with respect to all marked anodyne morphisms and is hence (since every morphism in $\Delta[1]^#$ is marked) a Cartesian fibration.
+
+It then remains to check that $f$ is still associated to this $K \to \Delta[1]^#$. This is done by observing that in the small object argument $K$ is built succesively from [[pushout]]s of the form
+
+$$
+  \array{
+    A &\to& N_\alpha
+    \\
+    \downarrow && \downarrow & \searrow 
+    \\
+    B &\to& N_{\alpha+1} &\to& \Delta[1]
+  }
+  \,,
+$$
+
+where the morphisms on the left are the generators of marked anodyne morphisms (see [here](http://ncatlab.org/nlab/show/model+structure+for+Cartesian+fibrations#MarkedAnodyne)). from this one checks that if the fiber $N_\alpha \times_{\Delta[1]} \{0\}$ is equivalent to $C$, then so is $N_{\alpha +1} \times_{\Delta[1]} \{0\}$ and similarly for $D$. By induction, it follows that $f$ is indeed associated to $K \to \Delta[1]$.
+
+To see that the $K$ obtained this way is unique up to equivalence, consider...
+
+=--
 
 
 
