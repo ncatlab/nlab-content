@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Given a [[monoidal category]] $(M,\otimes,I)$ and a [[comonoid]] $C$ in $M$ with coaugmentation $\eta:I\to C$, one can define the following pair $Triv \dashv Coinv$ of [[adjoint functor]]s:
 
 $$ Triv: M\to Comod_C, \,\,\,\,X\mapsto X\otimes\eta $$
@@ -11,5 +18,11 @@ If $(M,\otimes,I)$ is in fact a [[monoidal model category]], then we can ask whe
 $$ \mathbb{R}Coinv: Ho Comod_C\to Ho M.$$
 
 Given a $C$-[[comodule]] $(M,\rho)$, any representative of $\mathbb{R}Coinv(M,\rho)$ is called a *model* of the homotopy coinvariants of $M$. 
+
+## Related concepts
+
+* [[coinvariant]]
+
+## References
 
 * K. Hess, *Homotopic Hopf-Galois extensions: foundations and examples*, [arxiv/0902.3393](http://arxiv.org/abs/0902.3393)
