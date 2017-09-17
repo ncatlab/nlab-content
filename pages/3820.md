@@ -121,6 +121,10 @@ non-uniqueness may be parametrized instead by a choice of a [[connection on a bu
 
 ## Examples
 
+### Relativistic particle
+
+The covarint phase space of the [[relativistic particle]] on a [[pseudo-Riemannian manifold]] $X$ is the space of [[geodesic]]s of $X$ (in the absence of a [[background gauge field]]).
+
 ### Chern-Simons theory
 
 For [[Chern-Simons theory]] corresponding to a non-degenerate bilienear [[invariant polynomial]]
