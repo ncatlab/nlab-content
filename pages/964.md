@@ -32,7 +32,7 @@ A **frame** $\mathcal{O}$ is
 
   * all small [[coproduct]]s, called [[join|joins]] $\bigvee$
 
-  * all [[finite limit]]s, called [[meet|meets]] $\wedge$
+  * all [[finite limits]], called [[meet|meets]] $\wedge$
 
 * and which satisfies the _infinite distributive law_:
 
@@ -50,7 +50,21 @@ The formal duals of frames, hence the objects in the [[opposite category]] [[Loc
 
 =--
 
++-- {: .remark_remark}
+###### Remark
+
 The notation $\mathcal{O}$ to supposed to remind us that every frame is like a [[frame of opens]] of the corresponding [[locale]].
+
+=--
+
++-- {: .remark_remark}
+###### Remark
+
+So in particular a frame is a _[[lattice]]_ which has not only finite [[joins]] but all small joins. 
+
+It is not, in general, quite a _[[distributive lattice]]_, though.
+
+=--
 
 ## Properties
 
