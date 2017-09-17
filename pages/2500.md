@@ -27,10 +27,16 @@ etc. pp.
 
 * The [[D'Auria-Fre formulation of supergravity]]
 
-effectively realizes supergravity theories as higher [[gauge theory|gauge theories]]. See the discussion there.
+effectively realizes supergravity theories as higher [[gauge theory|gauge theories]]. See the discussion there. 
 
-* I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_, [googB](http://books.google.com/books?isbn=0750305061)
+A systematic mathematical treatment of supersymmetry and of supergravity solutions is in 
 
 * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]], eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+and physics monographs are
+
+* I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_, [googB](http://books.google.com/books?isbn=0750305061)
+
 * [[Julius Wess]], Jonathan Bagger, _Supersymmetry and supergravity_, 1992
+
+* S. Weinberg, _Quantum theory of fields_, volume III: supersymmetry
