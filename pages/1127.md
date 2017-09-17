@@ -21,7 +21,7 @@ This means that a **Grothendieck category** is an [[abelian category|abelian]] [
 
 * such that small [[filtered category|filtered]] [[colimit]]s are _exact_ in the following sense:
 
-  * for $I$ a [[direction|directed set]] and $0 \to A_i \to B_i \to C_i \to 0$ an [[exact sequence]] for each $i \in I$, then $0 \to colim_i A_i \to colim_i B_i \to colim_j B_j \to 0$ is also an [[exact sequence]].
+  * for $I$ a [[direction|directed set]] and $0 \to A_i \to B_i \to C_i \to 0$ an [[exact sequence]] for each $i \in I$, then $0 \to colim_i A_i \to colim_i B_i \to colim_i C_i \to 0$ is also an [[exact sequence]].
 
 Dually a *co-Grothendieck category* is an AB5$^*$ category 
 with a [[cogenerator]]. The category of abelian groups is not a co-Grothendieck category. Any abelian category which is simultaneously Grothendieck and co-Grothendieck has just a single object (see Freyd's book, p.116). 
