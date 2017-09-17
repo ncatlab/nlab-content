@@ -34,7 +34,7 @@ the following notions are equivalent:
 
 1. The [[proof]] of a [[proposition]]. (In [[logic]].)
 
-1. A [[program]] with output some [[type]]. 
+1. A [[program]] with output some [[type]]. (In [[type theory]].)
 
 1. A [[morphism]] between [[objects]]. (In [[category theory]].)
 
@@ -42,11 +42,15 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 
 >The central dogma of computational trinitarianism holds that Logic, Languages, and Categories are but three manifestations of one divine notion of computation.  There is no preferred route to enlightenment: each aspect provides insights that comprise the experience of computation in our lives.
 
->Computational trinitarianism entails that any concept arising in one aspect should have meaning from the perspective of the other two.  If you arrive at an insight that has importance for logic, languages, and categories, then you may feel sure that you have elucidated an essential concept of computation--you have made an enduring scientific discovery. 
+>Computational trinitarianism entails that any concept arising in one aspect should have meaning from the perspective of the other two.  If you arrive at an insight that has importance for logic, languages, and categories, then you may feel sure that you have elucidated an essential concept of computation--you have made an enduring scientific discovery. ([Harper](#Harper)) 
 
 [[!include types and logic - table]]
 
 ## References
 
+An exposition is given in
+
 * [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
  {#Harper}
+
+For further references see at _[[programs as proofs]]_, _[[propositions as types]]_, and _[[relation between category theory and type theory]]_.
