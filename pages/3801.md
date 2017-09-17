@@ -236,6 +236,10 @@ More details on all this, as well as the generalization to multiple [[D-brane]]s
 * [[Sander Kuipers]], _String topology operations_ MS thesis (2011)
  {#Kuipers}
 
+Also
+
+* [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
+
 A generalization of string topology with target manifolds generalized to target [[differentiable stack]]s/[[Lie groupoid]]s is discussed in
 
 * [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_, (89 pages) [arxiv/0712.3857](http://arxiv.org/abs/0712.3857); _String topology for loop stacks_, C. R. Math. Acad. Sci. Paris, __344__ (2007), no. 4, 247--252, (6 pages, [pdf]())
