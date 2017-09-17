@@ -8,3 +8,5 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 * globular [[strict 3-category]]
 * [[Gray-category]]
 * [[tricategory]]
+
+[[!redirects 3-categories]]
