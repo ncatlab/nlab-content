@@ -20,9 +20,9 @@ This is in fact a [[homeomorphism]] if we endow the left side with the [[product
 
 ## Coalgebraic formulation 
 
-We can describe the basic theory of continued fractions for real numbers in terms of dynamics of fractional linear transformations on the real [[projective line]] $\mathbb{P}^1(\mathbb{R})$, with the point at infinity playing a special role. From an nPOV, it is useful to cast this in [[coalgebra of an endofunctor|coalgebraic]] terms. 
+We can describe the basic theory of continued fractions for real numbers in terms of dynamics of [[fractional linear transformations]] on the real [[projective line]] $\mathbb{P}^1(\mathbb{R})$, with the point at infinity playing a special role. From an nPOV, it is useful to cast this in [[coalgebra of an endofunctor|coalgebraic]] terms. 
 
-Let us denote by $\mathbf{R}$ the interval $[1, \infty]$ (considered as a subset of the projective line $\mathbb{P}^1(\mathbb{R})$); if $1 \leq x \lt \infty$, we let $fl(x)$ be the floor (the greatest integer such that $fl(x) \leq x$). We denote by $\mathbb{N}_+$ the set of positive integers (so, excluding $0$). Put $\mathbf{1} = \{\ast\}$, and define a map 
+Let us denote by $\mathbf{R}$ the [[interval]] $[1, \infty]$ (considered as a subset of the projective line $\mathbb{P}^1(\mathbb{R})$); if $1 \leq x \lt \infty$, we let $fl(x)$ be the floor of $x$ (the greatest integer such that $fl(x) \leq x$). We denote by $\mathbb{N}_+$ the set of positive integers (so, excluding $0$). Put $\mathbf{1} = \{\ast\}$, and define a map 
 
 $$\alpha: \mathbf{R} \to \mathbf{1} + \mathbf{R} \times \mathbb{N}_+$$ 
 
@@ -66,7 +66,7 @@ In a nutshell, $x$ is given by the continued fraction
 
 $$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \cdots}}} $$ 
 
-and so it is really only a matter of proving that this continued fraction converges, i.e., that its truncations $p_n/q_n = [a_0, a_1, \ldots, a_n]$, namely the rational numbers $p_n/q_n$ with $\tau^{n+1}(p_n/q_n) = \infty$ and $fl(\tau^k(p_n/q_n)) = a_k$ for $0 \leq k \leq n$, form a Cauchy sequence. 
+and so it is really only a matter of proving that this continued fraction converges, i.e., that its truncations $p_n/q_n = [a_0, a_1, \ldots, a_n]$, namely the rational numbers $p_n/q_n$ with $\tau^{n+1}(p_n/q_n) = \infty$ and $fl(\tau^k(p_n/q_n)) = a_k$ for $0 \leq k \leq n$, form a [[Cauchy sequence]]. 
 
 For $a \in \mathbb{N}_+$, let $a \cdot -: \mathbf{R} \to \mathbf{R}$ denote the fractional linear transformation $x \mapsto a + \frac1{x}$. We have 
 
@@ -80,13 +80,13 @@ and since $a \cdot -: \mathbf{R} \to \mathbf{R}$ is monotone decreasing, we have
 
 * $$[a_0, \ldots, a_{2n}] \lt [a_0, \ldots, a_{2n}, a_{2n+1}]$$ 
 
-so that all that remains is to show $lim_{m\to \infty} {|p_m/q_m - p_{m+1}/q_{m+1}|} = 0$. 
+so that $\sup_n [a_0, \ldots, a_{2n}] \leq \inf_n [a_0, \ldots, a_{2n+1}]$, and all that remains is to show $lim_{m\to \infty} {|p_m/q_m - p_{m+1}/q_{m+1}|} = 0$. 
 
 In fact we have 
 
 $${|\frac{p_m}{q_m} - \frac{p_{m+1}}{q_{m+1}}|} = \frac{{|p_m q_{m+1} - p_{m+1}q_m|}}{q_m q_{m+1}} = \frac1{q_m q_{m+1}}$$ 
 
-To see the second equation, put $[a_1, \ldots, a_m] = \frac{q_m}{r_m}$ and $[a_1, \ldots, a_{m+1}] = \frac{q_{m+1}}{r_{m+1}}$, with all fractions in reduced form. Then the fractional linear transformation $a_0 \cdot -$, being represented by the integral matrix 
+The second equation is proved inductively: put $[a_1, \ldots, a_m] = \frac{q_m}{r_m}$ and $[a_1, \ldots, a_{m+1}] = \frac{q_{m+1}}{r_{m+1}}$, with all fractions in reduced form. Then the fractional linear transformation $a_0 \cdot -$, being represented by the integral [[matrix]] 
 
 $$A_0 = \left(
 \array{ 
@@ -94,7 +94,7 @@ a_0 & 1 \\
 1 & 0
 }\right)$$ 
 
-with determinant $-1$, takes $(\pm 1)$-determinant matrices to $(\pm 1)$-determinant matrices: 
+with [[determinant]] $-1$, takes $(\pm 1)$-determinant matrices to $(\pm 1)$-determinant matrices: 
 
 $$\left(
 \array{
@@ -106,7 +106,7 @@ p_m & p_{m+1} \\
 q_m & q_{m+1}
 }\right).$$ 
 
-Here $p_m = a_0 q_m + r_m \gt 2r_m$ and $p_{m+1} = a_0 q_{m+1} + r_{m+1} \gt 2r_{m+1}$. By this argument, if 
+Here $p_m = a_0 q_m + r_m \gt 2r_m$ and $p_{m+1} = a_0 q_{m+1} + r_{m+1} \gt 2r_{m+1}$. By this argument (replacing $p$'s by $q$'s and $r$'s by $s$'s), if 
 
 $$[a_2, \ldots, a_m] = \frac{r_m}{s_m}, \qquad [a_2, \ldots, a_{m+1}] = \frac{r_{m+1}}{s_{m+1}},$$ 
 
@@ -116,16 +116,16 @@ then
 
 * $${[a_0, \ldots, a_m] - [a_0, \ldots, a_{m+1}]|} = \frac1{q_m q_{m+1}} \lt \frac1{(2s_m)(2s_{m+1})} = \frac1{4s_m s_{m+1}}$$ 
 
-so that by induction, ${|p_{2m}/q_{2m} - p_{2m+1}/q_{2m+1}|} \lt \frac1{4^m}$, completing the proof. 
+so that by induction, ${|p_{2m}/q_{2m} - p_{2m+1}/q_{2m+1}|} \leq \frac1{4^m}$, completing the proof. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof of Theorem 1
-Let $(X, \phi: X \to \mathbf{1} + X \times \mathbb{N}_+)$ be an $F$-coalgebra. An $F$-coalgebra map $\xi: X \to \mathbf{R}$ must take $x \in X$ to $\infty$ if $\phi(x) = \ast$. Otherwise $\phi(x) = (x', a_0)$, and in general $x$ generates a behavior stream $x_0 = x, x_1 = x', \ldots$ where $x_0 = x$, $\phi(x_n) = (x_{n+1}, a_n)$. This forces the corecursive definition 
+Let $(X, \phi: X \to \mathbf{1} + X \times \mathbb{N}_+)$ be an $F$-coalgebra. An $F$-coalgebra map $\xi: X \to \mathbf{R}$ must take $x \in X$ to $\infty$ if $\phi(x) = \ast$. Otherwise $\phi(x) = (x', a_0)$, and in general $x$ generates a behavior stream $x_0 = x, x_1 = x', \ldots$ where $x_0 = x$, $\phi(x_n) = (x_{n+1}, a_n)$. This forces the [[corecursion|corecursive]] definition 
 
 $$\xi(x) = a_0 \cdot \xi(x')$$ 
 
-with $\xi(x) = [a_0, a_1, \ldots]$ if the stream continues without end. As all this is forced and evidently defines a coalgebra map, terminality is guaranteed. 
+with $\xi(x) = [a_0, a_1, \ldots]$ if the stream continues without end. As all this is forced and evidently defines a coalgebra map, [[terminal coalgebra|terminality]] is guaranteed. 
 =-- 
 
 ## Topology of infinite continued fractions 
@@ -138,11 +138,11 @@ is a terminal coalgebra for the functor $- \times \mathbb{N}_+: Set \to Set$, is
 
 $$(\mathbb{N}_+)^{\mathbb{N}} \stackrel{(\mathbb{N}_+)^{\langle s, o\rangle}}{\to} (\mathbb{N}_+)^{\mathbb{N} + \mathbf{1}} \cong (\mathbb{N}_+)^\mathbb{N} \times \mathbb{N}_+.$$ 
 
-Endow $\mathbf{I}$ with the subspace topology coming from $\mathbf{R}$ (as one-point compactification of $[1, \infty)$), and $(\mathbb{N}_+)^{\mathbb{N}}$ with the topology of the product of countably many discrete spaces $\mathbb{N}$. 
+Endow $\mathbf{I}$ with the subspace topology coming from $\mathbf{R}$ (as one-point [[compactification]] of $[1, \infty)$), and $(\mathbb{N}_+)^{\mathbb{N}}$ with the topology of the [[product]] of countably many [[discrete spaces]] $\mathbb{N}$. 
 
 +-- {: .num_lemma} 
 ###### Lemma 
-The coalgebra isomorphism $\mathbf{I} \to (\mathbb{N}_+)^{\mathbb{N}}$ is a continuous map. 
+The coalgebra isomorphism $\mathbf{I} \to (\mathbb{N}_+)^{\mathbb{N}}$ is a [[continuous map]]. 
 =-- 
 
 +-- {: .proof} 
@@ -155,7 +155,7 @@ is continuous. Following the notation $\tau(x) = (x - fl(x))^{-1}$ above, this c
 
 $$\{x \in \mathbf{I}: fl(x) = m\}$$ 
 
-is open for every $m$. This set is clearly open, being the intersection $(m, m+1) \cap \mathbf{I}$ (noting that of course $m \notin \mathbf{I}$!). 
+is [[open set|open]] for every $m$. This set is clearly open, being the intersection $(m, m+1) \cap \mathbf{I}$ (noting that of course $m \notin \mathbf{I}$!). 
 =-- 
 
 +-- {: .num_lemma} 
@@ -182,13 +182,13 @@ The coalgebra isomorphism $\psi$ is a homeomorphism.
 A continued fraction $[a_0, a_1, \ldots]$ is periodic, i.e., satisfies $a_i = a_{k+i}$ for some fixed $k$ and all $i$, only if it is the root of a quadratic equation $a_0 \cdot (a_1 \cdot \ldots (a_{k-1} \cdot x)\ldots ) = x$ (where the operator on the left can be written as a fractional linear transformation). Every quadratic irrational is _eventually_ periodic (i.e., for some $k$ and $N$ we have $a_i = a_{k+i}$ for all $i \geq N$): the proof is part of the theory of [[Pell's equation]]. 
 =-- 
 
-This example shows that periodic points are dense in the discrete dynamical system $\alpha^{-1}: \mathbf{I} \times \mathbb{N}_+ \to \mathbf{I}$, since quadratic surds are dense among all irrationals. 
+This example shows that periodic points are [[dense subset|dense]] in the discrete [[dynamical system]] $\alpha^{-1}: \mathbf{I} \times \mathbb{N}_+ \to \mathbf{I}$, since quadratic surds are dense among all irrationals. 
 
 Part of the story of Pell's equation is that an integer solution to $x^2 - D y^2 = \pm 1$, with $D$ is a square-free integer, is a pair $(x, y) = (p, q)$ where $p/q$ is a reduced form fraction (a rational approximant) represented by a finite truncation of the continued fraction of $\sqrt{D}$. 
 
 +-- {: .num_example} 
 ###### Example 
-The quadratic irrational represented by $[1, 1, 1, \ldots]$ is the Golden ratio $\frac1{2}(1 + \sqrt{5}) \approx 1.618\ldots$. Many properties of this constant (as manifested both mathematically and physically) are due to this fact and the fact that of all infinite continued fractions, the convergence rate of its rational approximants is slowest for this number. 
+The quadratic irrational represented by $[1, 1, 1, \ldots]$ is the [[golden ratio]] $\frac1{2}(1 + \sqrt{5}) \approx 1.618\ldots$. Many properties of this constant (as manifested both mathematically and physically) are due to this fact and the fact that of all infinite continued fractions, the convergence rate of its rational approximants is slowest for this number. 
 =-- 
 
 +-- {: .num_example} 
@@ -220,7 +220,7 @@ The map $\tau$ is topologically mixing. Moreover, if $Irr(0, 1)$ is equipped wit
 
 $$\mu(I) = \frac1{\log 2} \int_I \frac{d x}{1+x},$$ 
 
-then $\tau$ is an ergodic transformation with respect to $\mu$, making $(Irr(0, 1), \tau, \mu)$ an ergodic system. 
+then $\tau$ is an [[ergodic transformation]] with respect to $\mu$, making $(Irr(0, 1), \tau, \mu)$ an ergodic system. 
 =-- 
 
 A proof may be found [here](http://www.mathematik.uni-wuerzburg.de/~christ/nihon.pdf). 
