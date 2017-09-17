@@ -28,7 +28,7 @@ The notion if $(\infty,1)$-Kan extension is the generalization of the notion of 
 
 ### General abstract definition
 
-Indepent of any models or concrete realizations chosen, the notion of $(\infty,1)$-Kan extension is intrinsically determined from just the notions of 
+Independent of any models or concrete realizations chosen, the notion of $(\infty,1)$-Kan extension is intrinsically determined from just the notions of 
 
 * [[(∞,1)-functor]], 
 
@@ -69,7 +69,7 @@ $(\infty,1)$-Kan extensions in terms of quasi-categories are discussed in sectio
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
-For simlicially enriched categories and model categories a discussion is in section A.3.3 there.
+For simplicially enriched categories and model categories a discussion is in section A.3.3 there.
 
 [[!redirects (∞,1)-Kan extension]]
 [[!redirects (∞,1)-Kan extensions]]
