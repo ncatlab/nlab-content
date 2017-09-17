@@ -33,5 +33,7 @@ Cf. also [[Rozansky-Witten theory]].
 * [[Alberto S. Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640, [doi](http://dx.doi.org/10.1142/S0218216505004019), [math.GT/0307218](http://arxiv.org/abs/math/0307218)
 [[!redirects graph cohomology]], [MR2006g:58021](http://www.ams.org/mathscinet-getitem?mr=2006g:58021))
 
+* K. Igusa, _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
+
 [[!redirects graph cohomology]]
 [[!redirects Feynman transform]]
