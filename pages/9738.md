@@ -21,7 +21,7 @@ For $G= GL_1 = \mathbb{G}_m$ the [[multiplicative group]] then the quotient $G(\
 ###### Remark
 
 
-The further [[stacky quotient]] of G(\mathbf{Q})\backslash G(\mathbf{A}) by $G(\mathbb{A}_[\mathbb{Z}})$ is [[analogy|analogous]], under the [[function field analogy]] and in view of the [[Weil uniformization theorem]], with an incarnation of the [[moduli stack of bundles|moduli stack of G-principal bundles]] over a [[curve]]. A relation of the Tamagawa numbers to the properties of this stack is the content of the [[Weil conjecture on Tamagawa numbers]].)
+The further [[stacky quotient]] of $G(\mathbf{Q})\backslash G(\mathbf{A})$ by $G(\mathbb{A}_{\mathbb{Z}})$ is [[analogy|analogous]], under the [[function field analogy]] and in view of the [[Weil uniformization theorem]], with an incarnation of the [[moduli stack of bundles|moduli stack of G-principal bundles]] over a [[curve]]. A relation of the Tamagawa numbers to the properties of this stack is the content of the [[Weil conjecture on Tamagawa numbers]].)
 
 =--
 
