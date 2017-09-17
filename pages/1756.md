@@ -35,9 +35,9 @@ of [[adjoint functors]] (with $L$ [[left adjoint]]) is a **Quillen adjunction** 
 
 * $R$ preserves fibrations and trivial fibrations;
 
-* $L$ preserves cofibrations and $G$ preserves fibrations;
+* $L$ preserves cofibrations and $R$ preserves fibrations;
 
-* $R$ preserves trivial cofibrations and $G$ preserves trivial fibrations.
+* $L$ preserves trivial cofibrations and $R$ preserves trivial fibrations.
 
 Quillen adjunctions that are analogous to an [[equivalence of categories]] are called [[Quillen equivalences]].
 
