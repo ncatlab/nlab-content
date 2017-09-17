@@ -326,7 +326,9 @@ Introductory lecture notes on the moduli space of elliptic curves over the [[com
 
 * Richard Hain, _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
 
-More advanced lecture notes discussing also on curves over other rings introduction are in
+Lecture notes discussing the moduli space of general elliptic curves (over base [[schemes]]) $S$ include
+
+* [[Akhil Mathew]], section 3 of _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
 * [[Andre Henriques]], _The moduli stack of elliptic curves_   ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter04/henriques.pdf)) in _Topological modular forms_ Talbot workshop 2007 ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/)) 
 
@@ -338,7 +340,7 @@ The [[orbifold Euler characteristic]] of the moduli space of curves was original
 
 * {#ZagierHarer86} [[Don Zagier]], John Harer, _The Euler characteristic of the moduli space of curves_, Inventiones mathematicae (1986) Volume: 85, page 457-486 ([EUDML](https://eudml.org/doc/143377))
 
-Reviews include
+Reviews of the orbifold Euler characteristic computation include
 
 * _Mathematical ideas and notions in quantum field theory -- 5. The Euler characteristic of the moduli space of curves_ ([[EulerCharacteristicOfSpaceOfCurves.pdf:file]])
 
