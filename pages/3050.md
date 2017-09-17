@@ -1,6 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -350,6 +369,27 @@ Another example is in [[zoranskoda:gluing categories from localizations|gluing c
 All the ingredients of monadic descent generalize from [[category theory]] to [[higher category theory]]. Accordingly, one may consider [[higher monadic descent]] that relates to [[∞-stack]]s as monadic descent relates to [[stack]]s. For more on this see
 
 * [[higher monadic descent]].
+
+## Related concepts
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[cohomological descent]]
+
+  * **monadic descent** 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * [[descent in noncommutative algebraic geometry]]
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
+
+
+
 
 [[!redirects comonadic descent]]
 
