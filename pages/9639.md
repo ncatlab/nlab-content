@@ -1,13 +1,14 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A [[physical system]] in [[solid state physics]] consisting of [[electrons]] confined to an essentially 2-dimensional surface and subject to a perpendicular [[magnetic field]].
 
 In an appropriate limit of low [[temperature]] aspects of this system are described by the [[topological quantum field theory]] called _[[Chern-Simons theory]]_. In this limit the system has been proposed as constituting a possible implementation of [[topological quantum computation]].
+
 
 ## References
 
@@ -17,5 +18,8 @@ A quick review of the description via [[Chern-Simons theory]] with further point
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_ ([arXiv:0807.2857](http://arxiv.org/abs/0807.2857))
 
+
+[[!redirects quantum Hall effect]]
+[[!redirects quantum hall effect]]
 
 [[!redirects fractional quantum Hall effect]]
