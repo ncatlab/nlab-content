@@ -110,9 +110,11 @@ The basic idea is nicely described in
 
 (from which some of the above text is adapted).
 
-A more technical survey is in 
+More technical surveys include
 
 * [[Charles Rezk]], _Power operations in Morava E-theory --  a survey_ (2009) ([pdf](http://www.math.uiuc.edu/~rezk/midwest-2009-power-ops.pdf))
+
+* {#Rezk14} [[Charles Rezk]], _Isogenies, power operations, and homotopy theory_, talk at ICM 2014 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-2014-slides.pdf))
 
 The original articles are
 
