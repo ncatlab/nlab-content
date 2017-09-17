@@ -1,6 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -100,6 +114,10 @@ Moreover, for any globular operad $P$, one can show that the "cofibrant replacem
 * [[Richard Garner]], [Homomorphisms of higher categories](http://arxiv.org/abs/0810.4450).
 
 In particular, the [[Kleisli category]] of this comonad is a good candidate for the category of *weak functors* between Batanin weak $\omega$-categories.
+
+## Related concepts
+
+* [[syzygy]]
 
 
 ## References
