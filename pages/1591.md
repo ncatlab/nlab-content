@@ -61,13 +61,22 @@ to a [[base topos]] $\mathbf{B}$ (for instance [[Set]]), for which both $Disc$ a
 
 Even more generally, $\mathbf{H}$ may be a [[local (∞,1)-topos]]. For more on the discrete objects in such a context see _[[discrete ∞-groupoid]]_ .
 
+
 ### Topological categories, fibrations, and final lifts
 
-Every [[topological concrete category]] has discrete (and also codiscrete) spaces.
+Every [[topological concrete category]] has discrete (and also codiscrete) spaces 
 
 More generally, if $U$ is an [[opfibration]] and $Sp$ has an initial object preserved by $U$, then $Sp$ has discrete objects: the discrete object on $X$ can be obtained as $i_!(0)$ where $0$ is the initial object of $Sp$ and $i\colon \emptyset \to X$ is the unique map from the initial object in $Set$ (or whatever underlying category).  (Conversely, if $Sp$ has discrete objects and pushouts preserved by $U$, then $U$ is an opfibration.)
 
 Discrete objects can also be characterized as [[final lifts]] for empty [[sinks]].
+
+### In simplicial sets
+
+The category [[sSet]] of [[simplicial sets]] is a [[local topos]] (in fact a [[cohesive topos]]). 
+
+* A _discrete object_ in $sSet$ is precisely the [[nerve]] of a [[discrete groupoid]].
+
+* A _[[codiscrete object]]_ in $sSet$ is precisely the [[nerve]] of a [[codiscrete groupoid]].
 
 
 ### Discrete cellular/categorical structures
