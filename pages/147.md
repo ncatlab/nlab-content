@@ -216,3 +216,4 @@ In
 sites are discussed in section C2.1 and morphism of sites in C2.3.
 
 [[!redirects sites]]
+[[!redirects morphism of sites]]
