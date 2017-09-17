@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A _peridodic cohomology theory_ is an
 
 [[even cohomology theory|even]] [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $E$ with a [[Bott element]] $\beta \in E^2({*})$ which is invertible (under multiplication in the [[cohomology ring]] of the point) so that multiplication by it induces an [[isomorphism]] 
@@ -10,6 +29,8 @@ $$
 Compare with the notion of [[weakly periodic cohomology theory]].
 
 
-#related entries#
+## Related entries
+
+* [[periodic ring spectrum]]
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
