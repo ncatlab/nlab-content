@@ -94,8 +94,10 @@ The [[metalanguage|formal language]] for such _[[natural deduction]]_ of _[[judg
 | There is a type $X$ of things $x$. | $\vdash\; X \colon Type$ | an [[element]] $(* \stackrel{\vdash X}{\to} Obj) \in Mor(\mathbf{H})$ in the [[small object|small]]-[[object classifier]] $Obj$  | A point in the [[moduli stack]] of all [[small object|small]] moduli stacks. | _[Judgements about types and terms](#Judgments)_  |
 | Given a thing $x$ of type $X$ there is a thing $a(x)$ of type $A(x).$ | $x \colon X\;\vdash\; a(x) \colon A(x)$ | an [[element]] in the [[slice (infinity,1)-topos|slice topos]] $\left(\array{ X &&\stackrel{a}{\to}&& A \\ & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow_{} \\ && X }\right) \in \mathbf{H}_{/X}$ | An $X$-family  in a moduli stack over $X$. | _[Slice categories](#SliceCategories)_ and _[Slice toposes](#SliceToposes)_ and _[Slice ∞-Toposes](#SlicedInfinityToposes)_ |
 |  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | [[dependent sum]]/[[left adjoint]] to [[product]]: $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ |  | _[Natural deduction rules for dependent sum types](#DependentSumTypes)_ |
-| There is a thing $t$ in the collection of all things $a(x)$ for all $x$. | $\vdash\; t \colon \sum_{x \colon X} A(x)$ |  $*\stackrel{t}{\to} A$ | A point in the moduli stack $A$ over $X$. | |
-| There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$  | Smooth relative [[mapping space]] of smooth [[sections]].  | _[Natural deduction rules for dependent product types](#NaturalDeductionForDependentProduct)_ |   
+| There is a thing $t$ in the collection of all things $a(x)$ for all $x$. | $\vdash\; t \colon \sum_{x \colon X} A(x)$ |  $*\stackrel{t}{\to} A$ | A point in the moduli stack $A$ over $X$. | |  
+| There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | [[element]] in the [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$  | [[point]] in the smooth relative [[mapping space]] of smooth [[sections]]  | _[Natural deduction rules for dependent product types](#NaturalDeductionForDependentProduct)_ |   
+| There is the collection of assignments of an $a(x)$ to each $x$. | $\vdash\; \left( \prod_{x \colon X} A\left(x\right) \right) \colon Type$ | [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$ | smooth relative [[mapping space]] of smooth [[sections]] |  |
+| In particular, there is the collection of such assignments when $A$ does not depend on $x$, the collection of _functions_ from $X$ to $A$. |  $\vdash \; \left(X \to A\right) \coloneqq \left(\prod_{x \colon X} A\right) \colon Type$ | [[internal hom]] $[X,A] \in \mathbf{H}$  | smooth [[mapping space]] |  _[Smooth mapping spaces and smooth moduli spaces](#SmoothMappingSpaces)_ |
 | There is a proof $p$ that it is true that there is $x$ of type $X$. | $ \vdash \;  p \colon [X] $ | [[element]] of the [[truncated object of an (infinity,1)-topos|(-1)-truncation]] $* \stackrel{p}{\to}\tau_{-1}(X)$ |  | _[Subobjects](#Subobjects)_ |
 | There is a proof $p$ that it is true that there is an $a(x)$ for some $x$. | $\vdash\; p \colon \left(\exists_{x \colon X} A\left(x\right) \right) \coloneqq \left[ \sum_{x \colon X} A\left(x\right)\right]$ | | |  |
 
@@ -122,16 +124,17 @@ In either case, our [[metalanguage|formal language]] should not allow the [[natu
 
 > There is a gauge-of-gauge equivalence between two given gauge equivalences $\lambda_1, \lambda_2$ between gauge fields $\nabla_1, \nabla_2$.
 
-
-
 The flavor of _[[type theory]] with [[propositional equality]]_ for which this is the case is called _[[intensional type theory]]_.
 
-But there is then a compatibility issue, for now we have a notion of equivalence between things, but we also have a notion of _maps/[[functions]]_ between things as a special case of the [[dependent product types]]
+Since therefore a [[type]] $X$ in intensional type theory may contain [[homotopies]] between its [[terms]] of arbitrary order, we call it a _[[homotopy type]]_. The homotopy-type nature of the type of gauge connections $[X,\mathbf{B}G_{conn}]$ is most familiar in the physics literature in its [[infinity-Lie theory|infinitesimal approximation]], which is the (off-shell) [[BRST complex]] of the gauge theory: the $n$-fold ghost-of-ghost-fields in the BRST complex correspond to the $n$-fold [[homotopies]] in $[X, \mathbf{B}G_{conn}]$.
 
-$$
-  f \colon \left(X \to A\right) \coloneqq \prod_{x \colon X} A
-  \,.
-$$
+In particlar, in [[intensional type theory]] we find the [[gauge group]] of a homotopy type:
+
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
+| Given a type $X$, there is a group $G$ of ways that $X$ is equivalent to itself. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | [[∞-group|cohesive ∞-group]] | _[n-groups](#NGroups)_ |
+| Given a function between collections of things, there is over each thing in the codomain the preimage up to equivalence in the domain. | $\left( f \colon \left(X\to Y\right)\right), \left(y \colon Y\right) \;\vdash\; \sum_{x \colon X} \left(f\left(x\right) \simeq y\right) $ |  [[homotopy fiber]] $\array{ X \times_{Y} \{y \} &\to& X \\ \downarrow && \downarrow^{\mathrlap{f}} \\ {*} &\underset{y}{\to}&  Y } $  |  | |
 
 Suppose then that we have such a map between collections of gauge fields $\phi \colon [X, \mathbf{B}G_{conn}] \to [Y, \mathbf{B}H_{conn}]$ on two possibly different spacetimes with two different [[gauge groups]]. (For instance we might be looking at [[Montonen-Olive duality]] or [[Seiberg duality]] of [[super Yang-Mills theory]].) Then we should call $\phi$ an equivalence (in the physics literature often: a "duality") if, while not necessarily being a "[[bijection]]", it is such that the preimage $\phi^{-1}(\nabla) \in [X,\mathbf{B}G_{conn}]$ of a gauge field $\nabla \in [Y, \mathbf{B}H_{conn}]$ consists of gauge fields that are all gauge equivalent to each other, with the gauge equivalences exhibiting this equivalence themselves all being gauge equivalent to each other, etc. If this is the case one says that all [[homotopy fibers]] ("gauge pre-images") of $\phi$ are [[contractible]] ("gauge equivalent to a single gauge field") and that $\phi$ is a _[[weak homotopy equivalence]]_.
 
@@ -141,14 +144,14 @@ $[X, \mathbf{B}G_{conn}] \simeq [Y, \mathbf{B}H_{conn}]$ is itself equivalent to
 This requirement is called the _[[univalence]] [[axiom]]_. 
 The [[intensional type theory]]-language considered so far equipped with this axiom is called _[[homotopy type theory]]_.
 
-We indicate now some central judgements that are expressible in homotopy type theory. (...) This involves [[group theory]] and [[representation theory]], two of the pillars of modern [[quantum theory]]/[[quantum field theory]] (...)
+We indicate now some central judgements that are expressible in homotopy type theory. This involves [[group theory]] and [[representation theory]], two of the pillars of modern [[quantum theory]]/[[quantum field theory]].
 
 
 **Structures expressible in [[homotopy type theory]]**:
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
-|  | **[[general abstract]]** | **[[general concrete]]** | **[[concrete particular]]** | |
+|  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
 | Given a type $X$, there is a group $G$ of ways that $X$ is equivalent to itself. | $X \colon Type \;\vdash \; (X \stackrel{\simeq}{\to} X ) \colon Type $ | $ \array{ G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{X}} \\ * &\stackrel{X}{\to} & Type }  $ | [[∞-group|cohesive ∞-group]] | _[n-groups](#NGroups)_ |
 | There is the _delooping_ of $G$, which is the type of things equipped with equivalences to $X$. | $\vdash \; \mathbf{B}G \coloneqq  \sum_{Y \colon Type} \left[X \simeq Y\right] $ | $\array{G &\to& * \\ \downarrow &\swArrow& \downarrow^{\mathrlap{}} \\ * &\underset{}{\to}& \mathbf{B}G}$ | [[moduli stack]] of $G$-[[principal ∞-bundle]] | _[Principal n-bundles](#PrincipalNBundles)_ |
 | A $G$-representation is a thing $V$ on which group elements act. | $\array{* \colon \mathbf{B}G \;\vdash\; V(*) \colon Type \\  or\;with\;more;emphasis: \\  (*,*',g) \colon \sum_{*,*' \colon \mathbf{B}G} (*\rightsquigarrow *') \;\vdash\; V(* \stackrel{g}{\rightsquigarrow} *') \colon Type }$  | $\array{V &\to& V\sslash G \\&& \downarrow^{\overline{\rho}} \\ && \mathbf{B}G }$  | [[∞-action]] and its universal $\rho$-[[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]] | [Higher actions](#HigherActions) |
@@ -196,6 +199,9 @@ Structures expressible in [[cohesive homotopy type theory]] equipped with a [[co
 
 (...)
 
+$\,$
+
+This concludes the introduction and survey. We now begin with the genuine text on the _geometry of physics_.
 
 ## **Coordinate systems**
  {#CoordinateSystems}
