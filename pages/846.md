@@ -396,7 +396,7 @@ The monoidal structure on $\Delta_a$ that we are interested in now is, at the le
 
 As an example, consider $[1] = \{ 0 \lt 1\}$ and $[2] =  \{ \overline{0} \lt \overline{1} \lt \overline{2}\}$, where the overlines are just so that we can keep track of where the different elements come from. We form the union of the two sets and the rule says that anything without an overline is less than anything with one.  This gives a linear order
 $$[1]+[2] = \{0 \lt 1\lt \overline{0} \lt \overline{1} \lt \overline{2}\},$$
-which is isomorphic as a poset to $[4]$. Similarly $[1]+[1] = [3]$, which helps explain the picture above.
+which is [[isomorphic]] as a [[poset]] to $[4]$. Similarly $[1]+[1] = [3]$, which helps explain the picture above.
 
 We can thus think of the operation as the **addition of cardinalities**, but must remember that $[n]$ has $n+1$ elements. In terms of the counting 'off-by-one', this reads
 
@@ -669,6 +669,81 @@ for $n \in \mathbb{N}$, $n \gt 0$. The [[geometric realization]] of $\mathbf{S}^
 
 See [Ehlers/Porter p. 8](http://arxiv.org/PS_cache/math/pdf/9904/9904039v1.pdf#page=8).
 
+## Properties
+
+### Compatibility with quasi-categories
+
++-- {: .un_prop}
+###### Proposition
+
+If $S, S' \in $ [[sSet]] are both [[quasi-categories]], then so is their join $S \star S'$.
+
+=--
+
+This is due to [[Andre Joyal]]. A proof appears as [[Higher Topos Theory|HTT, prop. 1.2.8.3]].
+
+
+### Compatibility with homotopy coherent nerve
+
+There is also a join operations on [[categories]] and [[sSet-categories]]:
+
+
++-- {: .un_def}
+###### Definition
+
+Let $C,D \in sSet Cat$. Then define $C \star D$ to be the $sSet$-category given by
+
+$$
+  Obj(C \star D) = Obj(C) \coprod Obj(D)
+$$
+
+$$
+  C \star D(x,y) = 
+  \left\{
+    \array{
+       C(x,y) & for x,y \in C
+       \\
+       D(x,y) & for x,y \in D
+       \\
+       \emptyset & for x \in D, y \in C
+       \\
+       * & for x \in C , y \in D
+   }
+  \right.
+$$
+
+with the obvious composition operations.
+
+=--
+
+Write
+
+$$
+  \tau_{hc} : sSet \to sSet Cat
+$$
+
+for the [[left adjoint]] of the [[homotopy coherent nerve]] functor (denoted $\mathfrak{C}$ in [[Higher Topos Theory|HTT]]. ) 
+
++-- {: .un_prop}
+###### Proposition
+
+For $S, S'$ two [[simplicial set]]s we have that 
+
+* the two inclusions $\tau_{hc}(S), \tau_{hc}(S') \to \tau_{hc}(S\star S')$ are [[full and faithful functor|full and faithful]].
+
+* $\tau_{hc}(S \star S')$ is in general not [[isomorphic]] to $\tau_{hc}(S) \star \tau_{hc}(S')$;
+
+* the canonical morphism
+
+  $$
+    \tau_{hc}(S \star S') \to \tau_{hc}(S) \star \tau_{hc}(S')
+  $$
+
+  is an equivalence in the [[model structure on sSet-categories]].
+
+=--
+
+This is [[Higher Topos Theory|HTT, corollary 4.2.1.4]].
 
 ## References
 
