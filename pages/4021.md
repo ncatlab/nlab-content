@@ -1,13 +1,19 @@
-<div class="rightHandSide toc">
-[[!include mathematicscontents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
 
 
 > Page under construction with notes from blog entries.
 
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
