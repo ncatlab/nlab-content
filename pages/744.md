@@ -117,6 +117,16 @@ If about the _n_-Lab then try the [n-Forum](http://www.math.ntnu.no/~stacey/Vani
 
 If about something mathematical then try to convince [[John Baez|John]], [[Urs Schreiber|Urs]], or [[David Corfield|David]] to start a blog entry on the _n_-Category Caf&eacute; about it.
 
+### I want to help, but writing math on a wiki is scary; what can I do?
+
+There are numerous ways you can help out and get acquainted with the community even if you don't (yet) feel comfortable writing math publically on a wiki.
+
+1. You can do [[lab elf]] duty, such as correcting typos and spelling errors, fixing links, creating links, creating redirects (there are many pages that still need redirects created for alternate and plural forms of the title), organizing pages, and so on.
+
+1. You can ask questions (see previous question), and join discussions, at the nForum, and comment at the nCafe.
+
+1. You can try writing small additions to existing pages, for instance a paragraph or two that helps explain something that puzzled you initially.  If you aren't entirely positive that what you wrote was correct, when you announce your edit at Latest Changes on the nForum, you can mention that you're unsure and someone will usually reassure you or give a correction.
+
 ### How can I get a personal section of the nLab?
 
 Some users have personal areas of the _n_-Lab where they can have password protected pages and do work without fitting it into the rest of _n_-Lab.  If you would like to have such an area, ask the [[nlabmeta:steering committee|steering committee]].
