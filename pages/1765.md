@@ -9,7 +9,7 @@ A Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|fo
 
 ## Definition
 
-Let $f : R \hookrightarrow S$ be the extension of $k$-[[algebra]]s (where $k$ is a commutative unital [[ring]]). 
+Let $f : R \hookrightarrow S$ be the extension of associative unital $k$-[[associative algebra|algebra]]s (where $k$ is a commutative unital [[ring]]). 
 
 The corresponding __canonical coring__ or __Sweedler coring__ is the $S$-[[coring]] 
 
@@ -41,6 +41,8 @@ $$
  \epsilon: s_1 \otimes s_2 \mapsto s_1 s_2
  \,.
 $$  
+
+The element $1\otimes 1$ is a [[grouplike element]] in the Sweedler's coring. 
 
 ### Geometric interpretation {#GeomInterpretationOfCoring}
 
@@ -314,6 +316,10 @@ The further cocycle condition on $g$ similarly translates into the condition tha
 
 
 
-## Relation to ring extensions
+## Properties are related to the ones of the ring extension
 
 Various properties of canonical coring correspond to adequate properties of the ring extension. For example, [[coseparable coring|coseparable]] Sweedler corings correspond to [[split extension]]s (the $k$-algebra extension $R\to S$ is split if there is an $R$-bimodule map $h: S\to R$ with $h(1_S) = 1_R$).
+
+[[!redirects Sweddler corings]]
+[[!redirects Sweedler's coring]]
+[[!redirects Sweedler's corings]]
