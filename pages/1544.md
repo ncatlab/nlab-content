@@ -357,13 +357,15 @@ See [[connection on a principal ∞-bundle]].
 
 * [[connection on an ∞-bundle]]
 
-* **parallel transport**, [[higher parallel transport]]
+* [[parallel transport]], [[higher parallel transport]]
 
-* [[holonomy]]
+* [[holonomy]], [[higher holonomy]]
 
   * [[holonomy group]]
 
   * [[special holonomy]]
+
+  * [[nonabelian Stokes theorem]]
 
 
 
