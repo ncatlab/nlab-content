@@ -80,7 +80,7 @@ See also [[Moufang loop]].
 
 ## Applications
 
-Local analytic loops have interesting induced structure on the tangent space at the identity, generalizing the Lie algebra of a group, see [[Sabinin algebra]]. Sabinin algebras are closely related to the local study of affine connections on manifolds. They include Lie algebras, Mal'cev algebras, Lie triple systems (related to the study of [[symmetric space]]s) as simplest cases.
+Local analytic loops have interesting induced structure on the tangent space at the identity, generalizing the Lie algebra of a group, see [[Sabinin algebra]]. Sabinin algebras are closely related to the local study of affine connections on manifolds. They include some known important classes of nonassociative algebras, namely Lie algebras, Mal'cev algebras, Lie triple systems (related to the study of [[symmetric space]]s), Bol algebras as simplest cases.
 
 There are interesting subvarieties of quasigroups and loops (which are still not associative). Also, left [[racks]] (and quandles in particular) are precisely left distributive left quasigroups, with abundance of recent applications in the study of knots and links. Finite racks have been studied in the connection to classification of finite dimensional pointed Hopf algebras. Local augmented Lie racks appeared as integration objects in the local integration theory of [[Leibniz algebra]]s.
 
@@ -107,6 +107,10 @@ $$T Q \to Q \times V: w \mapsto (\pi(w), d(M_{\pi(w)} \circ J))(w)).$$
 
 This shows $T Q$ is isomorphic to the product bundle $Q \times V$. 
 =--  
+
+## Literature
+
+* R.H. Bruck, _A survey of binary systems_, Springer-Verlag 1958
 
 [[!redirects quasigroup]]
 [[!redirects quasigroups]]
