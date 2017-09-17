@@ -41,7 +41,7 @@ Moreover, in finite dimensions all orthogonal structures are equivalent in that 
 
 ## Structure Groups
 
-In finite dimensions, to put an orthogonal structure on a vector bundle is to give a reduction of its structure group from the general linear group to the corresponding orthogonal subgroup.  Thus the existence in general is equivalent to the fact that the inclusions $O(n) \to GL(n)$ and $U(n) \to GL(n)$ are homotopy equivalences.  A similar statement can be made about the fact that any two orthogonal structures are equivalent.
+In finite dimensions, to put an orthogonal structure on a vector bundle is to give a reduction of its structure group from the [[general linear group]] to the corresponding [[orthogonal group|orthogonal]] subgroup.  Thus the existence in general is equivalent to the fact that the inclusions $O(n) \to GL(n)$ and $U(n) \to GL(n)$ are [[homotopy equivalences]].  A similar statement can be made about the fact that any two orthogonal structures are equivalent.
 
 ## Infinite Dimensions
 
