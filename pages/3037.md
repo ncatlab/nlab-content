@@ -17,7 +17,9 @@
 
 __Predicate logic__, also called __$1$st-order logic__, is the usual sort of [[logic]] used in the [[foundations of mathematics]].  
 
-In contrast to [[0th-order logic]], we allow for [[variables]] in [[predicates]] [[bound variable|bound]] by [[quantification|quantifiers]].  However, in contrast to [[higher-order logic]], we do not allow variables that stand for predicates themselves.  (This distinction can become somewhat confusing when the first-order theory in question is a [[material set theory]], such as [[ZFC]], in which the variables stand for "sets" which behave very much like predicates.)
+In contrast to [[0th-order logic]], we allow for [[variables]] in [[predicates]] [[bound variable|bound]] by _[[quantification|quantifiers]]_. This means that the [[categorical semantics]] of 1st order logic is given by _[[hyperdoctrines]]_.
+
+However, in contrast to [[higher-order logic]], we do not allow variables that stand for predicates themselves.  (This distinction can become somewhat confusing when the first-order theory in question is a [[material set theory]], such as [[ZFC]], in which the variables stand for "sets" which behave very much like predicates.)
 
 A __predicate calculus__ is simply a system for describing and working with predicate logic.  The precise form of such a calculus (and hence of the logic itself) depends on whether one is using [[classical logic]], [[intuitionistic logic]], [[linear logic]], etc; see those articles for details.
 
