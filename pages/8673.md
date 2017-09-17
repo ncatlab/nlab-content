@@ -65,7 +65,7 @@ Every finite abelian group is the [[direct sum of abelian groups|direct sum]] of
 
 =--
 
-Se for instance ([Sullivan](#Sullivan)).
+See for instance ([Sullivan](#Sullivan)).
 
 ## References
 
