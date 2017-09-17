@@ -7,6 +7,7 @@ Related $n$Lab entries: [[ionad]], [[small object argument]], [[identity type we
 
 * R. Garner, _Understanding the small object argument_, Applied Cat. Structures, [arXiv:math.CT/0712.0724](http://arXiv.org/abs/0712.0724).
 
-* Benno van den Berg, [[Richard Garner]], *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
+* [[Benno van den Berg]], Richard Garner, *Types are weak $\omega$-groupoids*, [arXiv:0812.0298](http://arxiv.org/abs/0812.0298)
+
 
 category: people
