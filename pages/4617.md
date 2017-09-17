@@ -55,7 +55,7 @@ We recall some basics and then discuss a [[model category]] structure on cosimpl
 
 A [[Lawvere theory]] may be thought of as a generalization of the theory of ordinary [[associative algebra]]s. 
 
-A Lawvere theory is encoded in its [[syntactic category]] $T$, which by definition is a category with finite [[product]]s such that every object (isomorphic to) an integer multiple $x^k$ of a fixed object $x \in T$. We are to think of the [[hom-set]] $T(k,1)$ as the set of $k$-ary operations of the algebras defined by the theory. A **$T$-algebra** is accordingly a product-preserving functor $A : T \to Set$. Its image $U_T(A) \coloneqq A(1) \in Set$ is the underlying set, and its value $A(f) : U_T(A)^k \to U_T(A)$ on an element $f \in T(k,1)$ is the $k$-ary operation $f$ as implemented by $A$.
+A Lawvere theory is encoded in its [[syntactic category]] $T$, which by definition is a category with finite [[product]]s such that every object is (isomorphic to) a finite cartesian power $x^k$ of a fixed object $x \in T$. We are to think of the [[hom-set]] $T(k,1)$ as the set of $k$-ary operations of the algebras defined by the theory. A **$T$-algebra** is accordingly a product-preserving functor $A : T \to Set$. Its image $U_T(A) \coloneqq A(1) \in Set$ is the underlying set, and its value $A(f) : U_T(A)^k \to U_T(A)$ on an element $f \in T(k,1)$ is the $k$-ary operation $f$ as implemented by $A$.
 
 The category of $T$-algebras is the [[full subcategory]] $T Alg \subset [T, Set]$ of the [[category of presheaves]] on $T^{op}$ on these product-preserving functors.
 
