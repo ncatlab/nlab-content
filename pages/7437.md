@@ -60,13 +60,13 @@ Let $X$ be a [[topological space]].  Let $P X$ denotes its [[Moore path space]].
 
 +-- {: mynumdef #fits}
 ###### Definition
-Suppose that we have $\alpha \in P X$ and $s \in S A$, and suppose that $s = (a_1, t_1) \cdots (a_k,t_k)$.  Then we say that $\alpha$ **fits the schedule** s, written $\alpha \Vert s$, if:
+Suppose that we have $\alpha \in P X$ and $s \in S A$, and suppose that $s = (a_1, t_1) \cdots (a_k,t_k)$.  Then we say that $\alpha$ **fits the schedule** s, written $\alpha \Vert s$, if the following conditions hold:
 
 1. $l(\alpha) = l(s)$
-2. Split $\alpha$ into subpaths according to the times $\{t_i\}$.  Let $\alpha_i$ be the $i$th segment.  Then $\alpha_i \in P U_{a_i}$.
+2. We can split $\alpha$ into subpaths according to the times $\{t_i\}$.  Let $\alpha_i$ be the $i$th segment.  Then $\alpha_i \in P U_{a_i}$.
 =--
 
-Here, $l \colon P X \to T$ is the function that assigns to a Moore path its length.
+Here, $l \colon P X \to T$ is the function that assigns to a Moore path its length.  The schedule designates a decomposition of $[0,l]$ into subintervals with $t_i$ being the length of the $i$th subinterval.  Then saying that $\alpha$ fits the schedule $s$ means that $\alpha$ spends the $i$th subinterval in the open set $U_{a_i}$.
 
 
 ## Schedule Theorem
@@ -115,7 +115,16 @@ We need an initial technical result.
 
 +-- {: .num_lemma #even}
 ###### Lemma
-There is a locally finite covering $\mathcal{W} = \{W_s \mid s \in A^*\}$ of $P X$ by numerable open sets such that for $\alpha \in W_s$ then $\alpha$ evenly fits the schedule $s$.
+There is a locally finite covering $\mathcal{W} = \{W_s \mid s \in A^*\}$ of $P X$ by numerable open sets such that for $\alpha \in W_s$ then $\alpha$ evenly fits the word $s$.
+=--
+
++-- {: myrmk}
+###### Remark
+Let us explain why this is a reasonable result.  Consider a path, $\alpha$, of length $l$.  We pull back the cover $\mathcal{U}$ to a cover of $[0,l]$.  Using compactness of $[0,l]$ we can replace the pull-back cover by a finite family of open subintervals of $[0,l]$ which cover $[0,l]$.  Each subinterval is labelled by an element of $\mathcal{U}$ (though a label might be reused).  As the family is finite, the intersections are finite and therefore have a minimum length.  Choose $n$ big enough so that $l/n$ is less than this minimum length.  Then consider the subdivision of $[0,l]$ given by $\{0,1/n,\dots,l/n\}$.  Our conditions on $n$ guarantee that every intersection of subintervals contains at least one of these division points.  We can therefore assign to each subinterval of the form $[k/n, (k+1)/n]$ one of the original family of subintervals that contains it.  Then we can assign the corresponding element of $\mathcal{U}$.  Thus $\alpha$ fits evenly the corresponding word.
+
+Thus the sets $Y_s \coloneqq \{\alpha : \alpha \|_e s\}$ cover $P X$.  That they are open follows from the fact that the condition for membership depends on certain compact sets lying in certain open sets and we use the [[compact-open topology]] on $P X$.
+
+What is more complicated is reducing the family to a locally finite one.
 =--
 
 As $\mathcal{W}$ is locally finite and its elements are numerable, we can choose a numeration that is also a partition of unity.  That is, we can choose continuous functions $q_s \colon X \to [0,1]$ with the property that $q_s^{-1}((0,1]) = W_s$ and $\sum_s q_s = 1$.
@@ -129,10 +138,6 @@ D_b &\coloneqq \{\alpha \in P X \mid \sum_{s \in b} q_s(\alpha) = 1 \} \\
 \end{aligned}
 $$
 
-+-- {: myrmk}
-###### Remark
-Since the $q_s$ are a numeration of $\mathcal{W}$, if $q_s(\alpha) \ne 0$ then $\alpha$ evenly fits $s$.  Thus if $\alpha \in D_b$, it must be the case that $\alpha$ does not evenly fit any schedule other than those in $b$.
-=--
 
 
 This is a covering of $P X$ by closed sets.  As $\mathcal{W}$ is locally finite, for $\alpha \in P X$ there is some neighbourhood $V$ which meets only a finite number of the $\mathcal{W}$.  These are indexed by elements of $A^*$, indeed of $A^* \setminus \Lambda$, and so the set of indices is an element, say $b$, of$ \mathcal{B}$.  Then for $s \notin b$, $q_s \mid V = 0$ and so for $\beta \in V$, $\sum_{s \in b} q_s(\beta) = 1$, whence $V \subseteq D_b$.  Thus each $\alpha$ is contained in the interior of some $D_b$.
