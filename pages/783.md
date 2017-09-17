@@ -8,3 +8,4 @@ The video of a talk by W. Scharlau on his life can be seen [here](http://www.dai
 category: people
 
 [[!redirects Grothendieck]]
+[[!redirects Alexandre Grothendieck]]
