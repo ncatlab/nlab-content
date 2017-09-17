@@ -16,7 +16,7 @@
 
 ## Idea
 
-(...)
+According to _[[Science of Logic]]_ the [[unity of opposites|opposite]] of [[nothing]].
 
 ## Related concepts
 
