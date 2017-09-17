@@ -34,5 +34,7 @@ Horizontal and vertical composition are subject to the compatibility condition c
 
 * In [[Cat]], horizontal composition is the [[Godement product]] of [[natural transformation]]s.
 
-*[[whiskering]] 
+## Related topics
+
+* [[whiskering]] 
 
