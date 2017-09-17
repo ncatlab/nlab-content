@@ -20,6 +20,8 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, [doi](http://dx.doi.org/10.1006/aima.1993.1055).
 
+* A. Joyal, R. Street, _Braided monoidal categories_, Macquarie Math Reports 860081 (1986) [pdf](http://www.maths.mq.edu.au/~street/JS1.pdf); Macquarie Math Reports 850067 (1985) [pdf](http://www.math.mq.edu.au/~street/BMC850067.pdf).
+
 * A. Joyal, R. Street, D. Verity, _Traced monoidal categories_.  Math. Proc. Cambridge Philos. Soc.  __119__  (1996),  no. 3, 447--468. 
 
 * A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press 1995. viii+123 pp. ISBN: 0-521-55830-1
