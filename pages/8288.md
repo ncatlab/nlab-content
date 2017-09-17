@@ -133,7 +133,7 @@ being an [[exact sequence]]. In this form one often finds the definition of proj
 
 We first discuss the existence of injective/projective resolutions, and then the [[functor|functoriality]] of their constructions.
 
-+-- {: .num_prop }
++-- {: .num_prop #ExistenceOfInjectiveResolutions}
 ###### Proposition
 
 Let $\mathcal{A}$ be an [[abelian category]] with [[injective object|enough injectives]] (such as $R$[[Mod]] for some [[ring]] $R$).
@@ -178,7 +178,7 @@ $$
   X \to J^0 \stackrel{d^0}{\to} \cdots \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n
 $$
 
-has been constructed, where all the $J^\cdot$ are injective objects. Forming the [[cokernel]] of $d^{n-1}$ yields the [[short exact sequence]]
+has been constructed, where all the $J^\cdot$ are injective objects. Froming the [[cokernel]] of $d^{n-1}$ yields the [[short exact sequence]]
 
 $$
   0 \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{p}{\to} J^n/J^{n-1} \to 0
@@ -200,6 +200,8 @@ $$
 which completes the [[induction]] step.
 
 =--
+
+The following proposition is  [[duality|formally dual]] to prop. \ref{ExistenceOfInjectiveResolutions}. 
 
 +-- {: .num_prop }
 ###### Proposition
@@ -227,7 +229,7 @@ $$
 
 such that all the $J_\cdot$ are [[projective objects]]. 
 
-This we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
+This we we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
 
 In the first step, by the assumption of enough projectives we find a projective object $J_0$ and an [[epimorphism]]
 
@@ -257,7 +259,7 @@ $$
   0
 $$
 
-has been constructed, where all the $J_\cdot$ are projective objects. Forming the [[kernel]] of $\partial_{n-1}$ yields the [[short exact sequence]]
+has been constructed, where all the $J_\cdot$ are projective objects. Froming the [[kernel]] of $\partial_{n-1}$ yields the [[short exact sequence]]
 
 $$
   0 \to ker(\partial_{n-1})
@@ -298,6 +300,80 @@ which completes the [[induction]] step.
 
 =--
 
++-- {: .num_lemma #MapsOutOfExactIntoInjectiveAreNullHomotopic}
+###### Lemma
+
+Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[chain map]] out of an [[exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[chain homotopy]] 
+
+$$
+  \eta : 0 \Rightarrow f^\bullet
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[chain homotopy]] we need to construct a sequence of morphisms $(\eta^n : X^{n+1} \to J^{n})_{n \geq 1\in \mathbb{N}}$ such that 
+
+$$
+  f^n = \eta^{n+1} \circ d^n_X + d^{n-1} \circ \eta^n
+  \,.
+$$
+
+for all $n$. We now construct this by [[induction]] over $n$, where we take $\eta^0 \coloneqq 0$.
+
+Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above conditions. 
+
+First define now 
+
+$$
+  g^n \coloneqq f^n - d_J^{n-1} \circ \eta^n
+$$
+
+and observe that
+
+$$
+  \begin{aligned}
+    g^n \circ d_X^{n-1} 
+    & =
+    f^n \circ d^{n-1}_X - d^{n-1}_J \circ \eta^n \circ d^{n-1}_X
+    \\
+    & = f^n \circ d^{n-1}_X - d^{n-1}_J \circ f^{n-1} 
+        + d^{n-1}_J \circ d^{n-2}_J \circ \eta^{n-1}
+    \\
+    & = 0 + 0
+    \\
+    & 0
+  \end{aligned}
+  \,.
+$$
+
+This means that the [[image]] of $g^n$ is $X^n / im(d^{n-1}_X) \hookrightarrow J^n$. 
+
+Observe then that by exactness of $X^\bullet$ the morphism
+$X^n / im(d^{n-1}_X) \stackrel{d^n_X}{\to} X^{n+1}$ is a [[monomorphism]]. Together this gives us a diagram of the form
+
+
+$$
+  \array{
+    X^n / im(d^{n-1}_X) &\stackrel{d^n_X}{\to}& X^{n+1}
+   \\
+    \downarrow^{\mathrlap{g^n}} & \swarrow_{\mathrlap{\eta^{n+1}}}
+    \\
+    J^n   }
+  \,,
+$$ 
+
+
+where the morphism $\eta^{n+1}$ may be found due to the defining [[right lifting property]] of the [[injective object]] $J^n$ against the top monomorphism.
+
+Observing that the [[commuting diagram|commutativity]] of this diagram is the chain homotopy condition involving $\eta^n$ and $\eta^{n+1}$, this completes the induction step.
+
+=--
+
+The following proposition says that when injectively resolving objects the morphisms between these objects lift to the resolutions, uniquely up to chain homotopy.
+
 +-- {: .num_prop #InjectiveResolutionOfCodomainRespectsMorphisms}
 ###### Proposition
 
@@ -325,8 +401,6 @@ $$
   }
   \,.
 $$
-
-Moreover, this $f^\bullet$ is unique up to [[chain homotopy]].
 
 =--
 
