@@ -249,6 +249,8 @@ Introductions to the idea of homotopy type theory include
 * [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#Voevodsky}
 
+A list of video-recorded talks by Voevodsky on this topic is [here](http://video.ias.edu/taxonomy/term/42).
+
 An introduction to the notion of [[equivalence]] in HoTT is in
 
 * [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
