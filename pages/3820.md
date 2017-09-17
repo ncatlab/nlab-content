@@ -38,15 +38,69 @@ There are two main routes to the construction of the covariant phase space,
 ### (S) Via pre-symplectic structures
  {#ViaSymplecticStructure}
 
-Following the [[variational bicomplex]] terminology, there
-are two kinds of form gradings and two kinds of exterior
-differentials: spacetime and variational.
+We describe the canonical [[presymplectic structure]] on the covariant phase space of a [[local action functional]].
+Terminology is as in the discussion at [[variational bicomplex]].
 
+Let $E \to X$ be a smooth [[fiber bundle]] over [[spacetime]] $X$ and $J(E)$ the corresponding [[jet bundle]]. The [[local action functional]]
 
-A [[local action functional]] is defined by a [[Lagrangian]] [[spacetime]] density. Its variational differential can be written as the sum of the Euler-Lagrange form-density (variational form, spacetime density) and the spacetime differential of a pre-symplectic potential form-current.
+$$
+  S : \Gamma(E) \to \mathbb{R}
+$$
 
-Integrating this current over any [[Cauchy surface]] and taking an
-exterior variational derivative gives a [[pre-symplectic form]] on the [[space of field configurations]] (which need not satisfy [[equations of motion]]). The resulting pre-symplectic form depends on the choice of the Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, which is the _covariant phase space_ . The end point of the reduction no longer depends on the choice of the Cauchy surface.
+is by definition given by a [[Lagrangian]]
+
+$$
+  L : \Gamma(J(E)) \to \Omega^{dim X}(X)
+$$
+
+as
+
+$$
+  S : \phi \mapsto \int_X L(j_\infty(\phi))
+  \,.
+$$
+
+The [[variational calculus|variation]] of $S$ is
+
+$$
+  \begin{aligned}
+    \delta S (\phi) 
+     &= 
+    \int_X \delta L(j_\infty(\phi))
+    \\
+     &= 
+    \int_X EL(\phi) \delta \phi 
+      + 
+     \int_X d_{dR} \theta(\phi)
+    \,,
+  \end{aligned}
+$$
+
+where $EL(\phi) = 0$ is the [[Euler-Lagrange equation]] on $\phi$ and where $\theta$ is a deggre-$(1, dim X - 1)$ element in the [[variational bicomplex]] (one variational form degree and $(dim X - 1)$-spacetime form degrees). On a local [[coordinate]] patch $\{x^i\}$ for $X$ this is 
+
+$$
+  \theta 
+    = 
+  (\iota_{\partial_i} \frac{\partial L}{\partial_i \phi^a} )
+   \delta \phi^a
+  \,.
+$$
+
+The variational 1-form
+
+$$
+  \Theta = \int_{X|_{in}} \theta 
+$$
+
+given by an [[integration]] over a [[Cauchy surface]] $X|_{in}$ is the potential for the presymplectic form 
+
+$$
+  \Omega = \delta \Theta
+$$
+
+on covariant phase space.
+
+Notice that this does depend on the choice of Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, which is the _reduced phase space_ . The end point of the reduction no longer depends on the choice of the Cauchy surface.
 
 ### (P) Via Poisson structures
  {#ViiaPoissonStructure}
