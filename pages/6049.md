@@ -12,7 +12,7 @@ The _F5-brane_ is a 6-dimensional [[sigma-model]] with 10-[[dimension]]al [[targ
 ### Self-dual nonabelian 2-connections
  {#SelfDual2Connections}
 
-The 6-dimensional [[worldvolume]] theory of the 5-brane is expected to involve [[self-dual higher gauge theory]] of the [[nonabelian cohomology|nonabelian]] kind ([Witten07](#Witten07), [Witten09](#Witten09)): the fields are supposed to be [[connections on a 2-bundle]]($\sim$ [[gerbe]]), presumebaly with structure [[2-group]] the [[automorphism 2-group]] $AUT(G)$ of some [[Lie group]] $G$. 
+The 6-dimensional [[worldvolume]] theory of the 5-brane is expected to involve [[self-dual higher gauge theory]] of the [[nonabelian cohomology|nonabelian]] kind ([Witten07](#Witten07), [Witten09](#Witten09)): the fields are supposed to be [[connections on a 2-bundle]]($\sim$ [[gerbe]]), presumably with structure [[2-group]] the [[automorphism 2-group]] $AUT(G)$ of some [[Lie group]] $G$. 
 
 For instance in the proposal of ([SSW11](#SSW11)) one sees in equation (2.1) _almost_ the data of an $\mathfrak{aut}(\mathfrak{g})$-[[2-groupoid of Lie 2-algebra valued forms|Lie 2-algebra valued forms]].
 
