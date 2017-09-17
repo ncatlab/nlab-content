@@ -32,8 +32,15 @@ The Poisson tensor constitutes the [[anchor map]] of the [[Poisson Lie algebroid
 
 Regarded as an element in the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P}) \simeq (\wedge^\bullet \Gamma(T X), [\pi,-])$,  the Poisson tensor also constitutes the canonical [[Lie algebroid cocycle]] on $\mathfrak{p}$ which is in [[transgression]] with the canonical [[invariant polynomial]] on $\mathfrak{P}$, the one that exhibits $\mathfrak{P}$ as a [[symplectic Lie n-algebroid|symplectic Lie 1-algebroid]].
 
+## Related concepts
+
+* [[deformation quantization]]
+
+  * [[Moyal quantization]]
 
 
 [[!redirects Poisson tensors]]
 [[!redirects Poisson bivector]]
 [[!redirects Poisson bivectors]]
+
+
