@@ -420,7 +420,7 @@ This appears as ([Kontsevich-Rosenberg, 2.6](#KontsevichRosenbergSpaces)).
 +-- {: .num_remark #DiscussionOfTheInfinitesimalThickeningFormalization}
 ###### Remark
 
-Here we think of an algebra epimorphism $\phi : \mathbf{B} \to B$ with nilpotent kernel as the infinitesimal thickening of $Spec B$ by $Spec ker \phi$ to $Spec \mathbf{B}$.
+Here we think of an algebra epimorphism $\phi : \mathbf{B} \to B$ with nilpotent kernel -- an [[infinitesimal ring extension]] -- as the infinitesimal thickening of $Spec B$ by $Spec ker \phi$ to $Spec \mathbf{B}$.
 
 The functor $\epsilon$ builds the trivial (empty) infinitesimal thickenings
 
