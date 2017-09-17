@@ -20,6 +20,8 @@ A _operation tangent space_ of a [[generalized smooth space]] at some point is g
 
 ## Related concepts
 
+* [[synthetic tangent bundle]], [[kinematic tangent bundle]]
+
 * [[Kähler differentials]]
 
 
