@@ -1737,6 +1737,8 @@ Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-
 
 (...)
 
+> under construction, check again tomorrow
+
 
 first: higher gauge fields are elements in the set of cohomology classes: gauge equivalence classes
 
@@ -1744,7 +1746,7 @@ then: need to refine this to a [[groupoid]] where gauge fields are the [[objects
 
 Dirac's [famous argument](electromagnetic+field#ChargeQuantization) that leads to the observation that the [[electromagnetic field]] is modeled by a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]] only works in the absence of or outside of the [[support]] of [[magnetic charge]]. Because the [[Maxwell equations]] are
 
-* $d F = J_{mag}$ ([[magentic charge]] [[current]])
+* $d F = J_{mag}$ ([[magnetic charge]] [[current]])
 
 * $d \star F = J_{el}$ ([[electric charge]] [[current]])
 
@@ -1763,10 +1765,51 @@ $$
   \,.
 $$
 
+If differential cohomology is modeled by the [[Deligne complex]] with differential $D$, then a morphism $\hat \alpha : \hat F_1 \to \hat F_2$ is a [[coboundary]] $D \hat \alpha = \hat F_2 - \hat F_1$. Hence the above says that 
 
-other reason to consider this groupoid: needed in order to construct the [[quadratic refinement]] of the [[secondary intersectoin pairing]] that defines the partition function of [[self-dual higher gauge theory]] ([Hopkins-Singer](#HopkinsSinger))
+$$
+  D \hat F = \hat J_{mag}
+$$
 
+So for fixed $\hat J_{mag}$ the electromagnetic field is such a $\hat F$. But what is then a gauge transformation? Clearly, for this we need the 2-groupoid of differential cocycles, to next say that a gauge transformation is a [[2-morphism]]
 
+$$
+  \array{
+    & \nearrow \searrow^{\mathrlap{\hat F_1}}
+    \\
+    0 &\Downarrow^{\hat \alpha}& \hat J_{mag}
+    \\
+    & \searrow \nearrow_{\mathrlap{\hat F_2}}
+  }
+  \,.
+$$
+
+other reason to consider this groupoid: needed in order to construct the [[quadratic refinement]] of the [[secondary intersection pairing]] that defines the partition function of [[self-dual higher gauge theory]] ([Hopkins-Singer](#HopkinsSinger))
+
+What, furthermore, if we want to consider [[quantization]] of this gauge theory? We need a smooth refinement, for the following reasons
+
+1. We need the [[BRST complex]] of the gauge fields. Claim: for ordinary gauge theory this is the [[Lie algebroid]] of the smooth version $[X, \mathbf{B}G_{conn}]$. Similarly for higher gauge theory it is the [[L-infinity algebroid]].
+
+1. We need to consider the following "in families", hence as stacks (...).
+
+Next, to quantize we need the [[action functional]]. The kinetic piece is simply $\exp(i S_{kin}(\hat F)) = \exp(i \int_X F \wedge \ast F)$.
+
+But suppose there is a charged particle with trajectory $\gamma : S^1 \to X$. Then there is an interaction term 
+$\exp(2\pi i \int_{S^1} \gamma^* A)$. Let $J_{el}$ be the [[Poincare duality|Poincare dual]] form. Then $\cdots = \exp(i \int_X A \wedge J_{el})$. 
+
+This may be expressed using the [[Beilinson-Deligne cup product]] and the [[fiber integration in ordinary differential cohomology]] as $\exp(2 \pi i \int_X \hat J_{el} \cup \hat F)$. (Here is where we need $J_{el}$ to have [[compact support]].) This is a differential 2-cocycle on the [[moduli stack]] of field configurations: by the formula for the [[internal hom]] and for forms on a stack, we are evaluating for each test manifold $U$ on families of fields over $X \times U$ and then integrate out over $X$.
+
+But in the case where there is non-trivial $\hat J_{mag}$ this is no longer the case, there instead this is a trivialization of a twist
+
+$$
+  0 \stackrel{\exp(2 \pi i \int_X \hat J_{el} \cup \hat F)}{\to}
+  \exp(2 \pi i \int_X \hat J_{el} \cup \hat J_{mag})
+  \,.
+$$
+
+Moreover, this twist matters in [[compactly supported cohomology]] (this is what [[fiber integration in ordinary differential cohomology]] sees), where it is in general not trivialized. So the action functional is not a function, but a [[section]] of a line bundle. Its [[first Chern class]] is the 2-class of $\exp(2 \pi i \int_X \hat J_{el} \cup \hat J_{mag})$. For this to cancel, there needs to be a fermionic anomaly of the same structure: [[Green-Schwarz mechanism]].
+
+(...)
 
 
 #### Higher unitary-twisted covers of $O$
