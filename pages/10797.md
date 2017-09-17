@@ -21,6 +21,10 @@ on [[p-adic homotopy theory]].
 
 ### 2.2 Power operations on $E_\infty$-Algebras
 
+* [[power operation]]
+
+* [[Frobenius homomorphism]]
+
 ### 2.3 Finitely constructible sheaves
 
 * [[finitely constructible object]]
