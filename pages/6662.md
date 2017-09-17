@@ -5,7 +5,12 @@
 
 ## Frobenius morphism of fields
 
-Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by $F(a)=a^p$. 
+Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by 
+
+$$
+  F(a) \coloneqq  a^p
+  \,.
+$$ 
 
 Notice that this is indeed a [[homomorphism]] of fields: the identity $(a b)^p=a^p b^p$ evidently holds for all $a,b\in k$ and the [[characteristic]] of the field is used to show $(a+b)^p=a^p+b^p$. 
 
@@ -150,7 +155,10 @@ If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\pr
 
 ## Related concepts
 
+* [[Artin-Schreier sequence]]
+
 * [[Weil conjecture]]
+
 
 ## References
 
@@ -161,8 +169,11 @@ If $k\hookrightarrow k^\prime$ is a field extension we have $F_{X\otimes_k k^\pr
 
 * Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
 
+* [[Günter Tamme]], section II 4.2 of _[[Introduction to Étale Cohomology]]_
 
 * [[James Milne]], section 27 of _[[Lectures on Étale Cohomology]]_
+
+
 
 [[!redirects Frobenius morphisms]]
 
