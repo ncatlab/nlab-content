@@ -20,4 +20,16 @@ This entry is about the book
 
   * [Index](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ind.pdf)
 
+## Related references
+
+A goood accessible survey of or introduction into some of the developments in this book can be found around section 8.3
+
+* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics-impa-v01-2011.pdf))
+
+and section 3 of 
+
+* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ Journal of Geometry and Physics (2010) ([arXiv](http://arxiv.org/abs/1010.3210))
+
+
+
 category: reference
