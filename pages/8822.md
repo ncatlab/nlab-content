@@ -46,10 +46,12 @@ More generally:
 ###### Definition
 
 A [[family]] $\mathcal{S} = (S_a ;|; a\colon A)$ of [[objects]] of a [[category]] $\mathcal{C}$ is a __separating family__ or a __generating family__ if:
-* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if
+
+* for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$, if 
+
   * for every index $a$ and every morphism $e\colon S_a \to X$,
-  * $e \circ f = e \circ g$,
-* then $f = g$.
+
+  * $e \circ f = e \circ g$, then $f = g$.
 =--
 
 Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently say that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(U_a,-) \colon \mathcal{C} \to $ [[Set]] is [[jointly faithful family of functors|jointly faithful]].
@@ -87,7 +89,7 @@ A __separating set__ is a [[size issues|small]] separating class.
 +-- {: .num_theorem}
 ###### Motivating theorem
 
-If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a family $(S_a)_(a\colon A)$  is a separating family if and only if, for every $X\in C$, the canonical morphism
+If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a family $(S_a)_{(a\colon A)}$  is a separating family if and only if, for every $X\in C$, the canonical morphism
 $$ \varepsilon_X\colon \coprod_{a\colon A, f\colon S_a \to X} S_a \longrightarrow X $$
 is an [[epimorphism]].
 =--
@@ -97,7 +99,7 @@ More generally:
 +-- {: .num_defn}
 ###### Definition
 
-If $\mathcal{E}$ is a subclass of epimorphisms, we say that $(S_a)_(a\colon A)$ is an __$\mathcal{E}$-separator__ or __$\mathcal{E}-generator__ if each morphism $\varepsilon_X$ (as above) is in $\mathcal{E}$.
+If $\mathcal{E}$ is a subclass of epimorphisms, we say that $(S_a)_{(a\colon A)}$ is an _$\mathcal{E}$-separator_ or __$\mathcal{E}$-generator__ if each morphism $\varepsilon_X$ (as above) is in $\mathcal{E}$.
 =--
 
 Of particular importance is the notion of __strong separator__ or __strong generator__, which is obtained by taking $\mathcal{E}$ to be the class of [[strong epimorphism]]s.  This can be expressed equivalently, without requiring local smallness or the existence of coproducts, by saying that the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]].
