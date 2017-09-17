@@ -21,7 +21,7 @@ It is a compact metric space, but is not locally connected along the line  corre
 
 There is a simple continuous map from $S^0$, the 0-circle, $\{-1,1\}$, to $S_W$ which is a weak homotopy equivalence. (For instance define $f(-1) = (0,0)$ and $f(1)$ to be any point in the outer $sin(1/x)$ part of the space, it does not matter which one.)  This is not a homotopy equivalence. (In fact it is instructive to look at maps from $S_W$ to $S^0$!  It does not take long.)
 
- A striking thing about the picture is that it 'clearly' divides the plane into two components, and inside and an outside, and has a definite sense of being 'almost' a circle. It has a line of singularities, but otherwise ... .
+ A striking thing about the picture is that it 'clearly' divides the plane into two components, an inside and an outside, and has a definite sense of being 'almost' a circle. It has a line of singularities, but otherwise ... .
 
 
 If we consider, not just $S_W$ as a compact metric space, but as a subspace of the plane, then we can take small open neighbourhoods of $S_W$, to be definite take 
