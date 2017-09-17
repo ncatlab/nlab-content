@@ -15,6 +15,12 @@ Thus **sequential compactness** is what [[compact space|compactness]] looks like
 A topological space is **sequentially compact** if every [[sequence]] in it has a [[convergence|convergent]] [[subsequence]].
 =--
 
+##Warning
+Compactness does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces] (href="http://en.wikipedia.org/wiki/Compact_space")). 
+In [[metric spaces]] for example both notions coincide.
+
+
+
 # Properties #
 
 The following is a list of properties of and pertaining to sequentially compact spaces.
@@ -22,3 +28,6 @@ The following is a list of properties of and pertaining to sequentially compact 
 
 2. For a [[metric space]], the notions of sequential compactness and compactness coincide.
 3. A topological space $X$ is sequentially compact if and only if $\mathbb{R} \times X$ has the _tube property_.  That is, that a neighbourhood of $\{0\} \times X$ necessarily contains a subset of the form $(-\epsilon, \epsilon) \times X$.
+
+[[!redirects sequential compactness]]
+[[!redirects sequentially compact space]]
