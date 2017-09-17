@@ -42,7 +42,7 @@ $$
 for the [[concrete sheaf|concretification]] of the [[internal hom]]: the space of metrics on $X$.
 (Various variations and extensions of this statement are of interest and can easily be written out. The above direct statement works for possibly degenerate metrics.)
 
-A point in this space is a single (pseudo-)Riemannian metric on $X$ and a smooth $U$-parametereized family of metrics is a metric on $X \times U$.
+A point in this space is a single (pseudo-)Riemannian metric on $X$.
 
 
 The group $Aut(X)$ of [[automorphism]]s of $X$ [[action|acts]] on this by precomposition in the natural way
