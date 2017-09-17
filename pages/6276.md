@@ -1,0 +1,19 @@
+Let $X$ be a set of symbols. The free associative $k$-algebra $k\langle X \rangle$ on the set $X$ where $k$ is commutative unital ring, will be denoted $A(X)$. It is clearly graded (by the length of the word) as $A(X) = \oplus_n A^n(X)$. The product of $k$-modules $\hat{A}(X) = \prod_n A^n(X)$ has a natural multiplication 
+
+$$
+(ab)_n = \sum_{i = 0}^n a_i b_{n-i}
+$$
+
+where $a = (a_n)_n$ and $b = (b_n)_n$. Furthermore, $\hat{A}(X)$ has the topology of the product of discrete topological spaces. This makes $\hat{A}(X)$ a Hausdorff topological algebra, where 
+the ground field is considered discrete and $A(X)$ is dense in $\hat{A}(X)$. We say that $\hat{A}(X)$ is the __Magnus algebra__ with coefficients in $k$. (Bourbaki-Lie gr. II.5). 
+
+Element in $\hat{A}(X)$ is invertible (under multiplication) iff it's free term is invertible in $k$. 
+
+The __Magnus group__ is the (multiplicative) subgroup of the Magnus algebra consisting of all elements in the Magnus algebra with free 
+term $1$. 
+
+The [[free Lie algebra]] $L(X)$ naturally embeds in (the Lie algebra corresponding to the associative algebra) $A(X)\hookrightarrow \hat{A}(X)$; one defines $\hat{L}(X)$ as the closure of $L(X)$ in $\hat{A}(X)$. The exponential series and the makes sense in $\hat{A}(X)$; when restricted to $\hat{L}(X)$ it gives a bijection between $\hat{L}(X)$ and a closed subgroup of the Magnus group which is sometimes called the Hausdorff group $exp(\hat{L}(X))$.  
+
+__Hausdorff series__ is a series in the [[Malcev completion]] 
+
+* N. Bourbaki Lie groups and algebras, chapter II
