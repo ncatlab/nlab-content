@@ -1,18 +1,28 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 > **under construction**
 
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
-#Idea#
+## Idea
 
 Nonabelian Hodge theory generalizes aspects of [[Hodge theory]] from abelian cohomology ([[abelian sheaf cohomology]]) to [[nonabelian cohomology]].
 
-# nonabelian Hodge theorem #
+## Nonabelian Hodge theorem 
 
 Notice or recall (for instance from [[generalized universal bundle]] and [[action groupoid]]) the following equivalent description of [[section]]s of [[associated bundle]]s:
 
@@ -93,7 +103,7 @@ Next consider furthermore the special case that $V = G/K$ is the [[coset]] [[hom
 
 Then 
 
-+-- {: .un_definition}
++-- {: .num_defin}
 ###### Definition
 
 The **energy** of a [[section]] $\sigma$ of an associated $G/K$-bundle as above is the real number
@@ -114,7 +124,7 @@ Here
 * and the [[integral]] is taken with respect to the [[Riemannian metric]] on $X$.
 
 
-+-- {: .un_definition}
++-- {: .num_defn}
 ###### Definition
 
 Such a $\phi$ is called **harmonic** of it is a critical point of $E(-)$.
@@ -122,7 +132,7 @@ Such a $\phi$ is called **harmonic** of it is a critical point of $E(-)$.
 =--
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Corlette, generalizing Eells-Sampson)**
 
@@ -150,8 +160,13 @@ A version of the proof is reproduced on p.8 of
 
 =--
 
+## Related concepts
 
-#References#
+* [[Hodge structure]]
+
+* [[noncommutative Hodge theory]]
+
+## References
 
 Corlette's nonabelian Hodge theorem is in
 
