@@ -91,9 +91,9 @@ Define
 
 * $A^{vert} \coloneqq ker (\partial^{vert}_{out}) / im (\partial^{vert}_{in})$ -- the vertical [[chain homology]] at $X$;
 
-* ${}^{\Box}X \coloneqq \frac{ker (\partial^{hor}_{out}) \cap ker(\partial^{vert}_{out})}{im(\partial^{diag}_{in})}$ -- the "receptor" at $X$;
+* ${}^{\Box}A \coloneqq \frac{ker (\partial^{hor}_{out}) \cap ker(\partial^{vert}_{out})}{im(\partial^{diag}_{in})}$ -- the "receptor" at $A$;
 
-* $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor".
+* $A_{\Box}\coloneqq \frac{ker (\partial^{diag}_{out}) }{ im(\partial^{hor}_{in}) \oplus im(\partial^{vert}_{in})}$ -- the "donor" at $A$.
 
 =--
 
