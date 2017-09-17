@@ -64,16 +64,16 @@ A classical instance of gauge fixing is when $X=\tilde{X}//G$ is an action group
 ## Examples
 
 * [[temporal gauge]]
-
 * [[Lorenz gauge]]
-
 * [[Coulomb gauge]]
+* Feynman gauge
+* light cone gauge
 
 ## Related concepts
 
 * [[gauge group]], [[gauge transformation]]
-
 * [[spontaneously broken symmetry]]
+* [[Gribov ambiguity]]
 
 [[!redirects gauge fixings]]
      
