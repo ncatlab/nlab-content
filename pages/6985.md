@@ -29,3 +29,5 @@ In a [[model]] of the type theory in [[categorical semantics]] this is a [[copro
 
 [[!redirects sum type]]
 [[!redirects sum types]]
+[[!redirects disjoint union type]]
+[[!redirects disjoint union types]]
