@@ -1,0 +1,7 @@
+A **triangulated functor** $F : T \to T'$ between two [[triangulated categories]] $T$ and $T'$ is an [[additive functor]] that commutes with translation and preserves the distinguished triangles.
+
+Triangulated functors are also called _exact functors_.
+
+# See also
+
+* [[exact functor]]
