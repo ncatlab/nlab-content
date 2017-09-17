@@ -8,8 +8,10 @@ Directed homotopy theory is the study of 'directed spaces' of various types.  As
 
 * [[Topological Data Analysis]] and [[Persistent Homology]];
 
-* Models for mixed temporal-spatial [[modal logics],
+* Models for mixed temporal-spatial [[modal logics]];
 
-* [[causal sets]] and discrete models for space time.
+* [[causal sets]] and discrete models for space time;
+
+* models for multi-agent systems.
 
 The problems thrown up by these contexts will not always lead to the same notion of directed homotopy, so we need a reasonably flexible general definition, one that can be specialised to particular contexts later on.
