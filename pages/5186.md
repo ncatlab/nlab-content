@@ -165,7 +165,7 @@ where $\nabla$ is the [[covariant derivative]] with respect to the [[Levi-Civita
 ###### Proof
 
 
-Computing as before in local coordinates, the variation of the kinetic terms is
+Computing as before in local coordinates and parameterization such that $g(\dot \gamma, \dot \gamma) = 1$, the variation of the kinetic terms is
 
 $$
   \begin{aligned}   
