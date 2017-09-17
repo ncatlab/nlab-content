@@ -27,7 +27,7 @@ An _$(\infty,1)$-cohesive site_ is a [[site]] such that the [[(∞,1)-category o
 +-- {: .un_def}
 ###### Definition
 
-An **$(\infty,1)$-cohesive** over [[∞Grpd]] is
+An **$(\infty,1)$-cohesive site** over [[∞Grpd]] is
 
 * a [[site]] -- a [[small category]] $C$ equipped with a [[coverage]];
 
@@ -59,7 +59,7 @@ An **$(\infty,1)$-cohesive** over [[∞Grpd]] is
 +-- {: .un_remark}
 ###### Remark
 
-These conditions are stronger that for a [[cohesive site]], which only guarantees cohesiveness of the 1-topos over it.
+These conditions are stronger than for a [[cohesive site]], which only guarantees cohesiveness of the 1-topos over it.
 
 This definition is supposed to model the following ideas:
 
@@ -67,7 +67,7 @@ This definition is supposed to model the following ideas:
 
 * in view of the [[nerve theorem]] the condition that $\lim_\to C(U)$ is contractible means that $U$ itself is contractible, as seen by the [[Grothendieck topology]] on $C$. This reflects the _local_ aspect of cohesion: we only specify cohesive structure on contractible lumps of points;
 
-* in view of this the remaining condition that $Hom_C(*,C(U))$ is contractible is just the $\infty$-analog of the condition on a [[concrete site]] that $Hom_C(*.\coprod_i U_i) \to Hom_C(*, U)$ is surjective.  This just expresses that the notion of topology on $C$ and its concreteness over [[Set]] are consistent.
+* in view of this the remaining condition that $Hom_C(*,C(U))$ is contractible is the $\infty$-analog of the condition on a [[concrete site]] that $Hom_C(*.\coprod_i U_i) \to Hom_C(*, U)$ is surjective.  This expresses that the notion of topology on $C$ and its concreteness over [[Set]] are consistent.
 
 =--
 
