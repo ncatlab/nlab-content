@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Free monads
 * table of contents
 {: toc}
 
 ## Definition
 
-A **free monad** is a [[free object]] relative to a [[forgetful functor]] whose domain is a category of [[monads]].
+A **free monad** is a [[free object]] relative to a [[forgetful functor]] whose domain is a [[category]] of [[monads]].
 
 This general concept has many different specific incarnations, since there are potentially many different such forgetful functors.  Suppose $C$ is a [[category]], and write $Mnd(C)$ for the category whose objects are monads on $C$ and whose morphisms are natural transformations commuting with the monad structure maps; i.e. it is the category of [[monoids]] in the [[monoidal category]] of endofunctors with composition.  Then we have a string of forgetful functors:
 $$ Mnd(C) \to PtEnd(C) \to End(C) \to [ob(C),C] $$ 
