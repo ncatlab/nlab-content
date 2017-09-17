@@ -44,6 +44,10 @@ $$
 
 * **connection on a 3-bundle** / [[connection on a bundle 2-gerbe]]
 
+  * [[chiral anomaly]], [[baryogenesis]]
+
+  * [[supergravity C-field]]
+
 * [[connection on an ∞-bundle]]
 
 
@@ -76,3 +80,6 @@ See also [[connection on an infinity-bundle]] for the general theory.
 [[!redirects connections on a 3-bundle]]
 
 [[!redirects connections on 3-bundles]]
+
+[[!redirects 3-connection]]
+[[!redirects 3-connections]]
