@@ -31,6 +31,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Chris Rogers]]
 * [[Chris Schommer-Pries]]
 * [[Claire Tomesch]]
+* [[Colin Tan]]
 * [[dan|Dan Lior]]
 * [[Daniel de França MTd2|Daniel de França]] [[Daniel de Fran?a MTd2|MTd2]]
 * [[Daniel Schäppi]]
@@ -140,7 +141,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Victor Porton]]
 * [[Vishal Lama]]
 * [[ViV]]
-* [[YemonChoi|Yemon]] [[Yemon Choi|Choi]]
+* [[Yemon Choi]]
 * [[Yury Lifshits]]
 * [[Zoran Škoda]]
 
