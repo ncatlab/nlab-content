@@ -111,7 +111,7 @@ $$
 with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
 * The hom-objects $Map^#(X,Y) = (Y^X)^#$ make $sSet^+$ a 
-  [[[sSet]]-[[enriched category]].
+  [[sSet]]-[[enriched category]].
 
 =--
 
@@ -288,3 +288,4 @@ The model structure on marked simplicial oversets is described in section 3.1.3
 [[!redirects marked simplicial sets]]
 [[!redirects model structure for coCartesian fibrations]]
 [[!redirects model structure on marked simplicial over-sets]]
+[[!redirects model structure on marked simplicial oversets]]
