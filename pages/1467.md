@@ -107,6 +107,8 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 
 * The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of a [[Cartesian space]] is compact precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
 
+* In constructive mathematics, a [[discrete object|discrete space]] is compact iff its underlying set is [[finite set|Kuratowski-finite]].
+
 One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
 
 
