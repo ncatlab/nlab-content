@@ -1,3 +1,5 @@
+[[!redirects ring of functions]]
+
 +-- {: .num_defn}
 ###### Definition
 
