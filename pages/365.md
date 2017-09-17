@@ -223,19 +223,6 @@ Write $[2]$ and $[3]$ for the [[ordinal numbers]], regarded as categories. So $a
 A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ such that $c F$ is the identity on $arr(K)$.  Not all weak factorization systems are functorial, although most (including those produced by the [[small object argument]]) are, but all orthogonal ones are automatically functorial.
 
 
-## Related concepts
-
-* [[factorization system]]
-
-  * **weak factorization system**
-
-  * [[orthogonal factorization system]]
-
-* [[factorization system in a 2-category]]
-
-* [[factorization system in an (∞,1)-category]]
-
-  * [[orthogonal factorization system in an (∞,1)-category]]
  
 
 
