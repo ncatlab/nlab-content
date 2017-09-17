@@ -24,10 +24,10 @@ The definition is well-adapted to describing the [[(infinity,n)-category of cobo
 
 Let $n \in \mathbb{N}$ be a [[natural number]].
 
-+-- {: .un_defn}
-###### Definition (roughly)
++-- {: .un_defn #BlobGraph}
+###### Definition 
 
-A **blob $n$-category** $C$ is given by
+A **blob $n$-graph** $C$ is given by
 
 * for every $k \in \mathbb{N}$ a [[functor]] 
 
@@ -35,23 +35,29 @@ A **blob $n$-category** $C$ is given by
     C_k : core(Ball_k) \to Set
   $$ 
 
-  from the [[groupoid]] of [[topological space]]s [[homeomorphism|homeomorphic]] to a $k$-[[ball]] and [[homeomorphism]]s between them to [[Set]];
+  from the [[groupoid]] of [[topological space]]s [[homeomorphism|homeomorphic]] to a $k$-[[ball]] and [[homeomorphism]]s between them to [[Set]].
 
-* for each $k$ a [[natural transformation]]
+=--
+
+We think of $C(B^k)$ as the set of [[k-morphism]]s in the $n$-graph $C$. This means that the [[geometric shape for higher structures]] used here is the [[globe]]. Therefore the term _blob_ . 
+
++-- {: .un_defn}
+###### Definition (roughly)
+
+A **blob $n$-category** $C$ is 
+
+* a [blob n-graph](#BlobGraph) $C$;
+
+* for each $k$ a [[natural transformation]] -- **boundary restriction** 
+  (source/target)
  
   $$
     \partial : C_k(X) \to \underset{\to}{C}_{k-1}(\partial X)
     \,,
   $$
 
-  where 
-
-  $$
-    \underset{\to}{C}_{k-1}(\partial X) := {\lim_\to}_{U \hookrightarrow S^{k-1}} C_{k-1}(U)
-  $$
-
-  is the [[colimit]] of $C_{k-1}$ over the category of open balls in the $(k-1)$-[[sphere]]
-
+  where on the right we have the extension to $(k-1)$ spheres of $C_{k-1}$
+  described [below](#ExtensionToGeneralShapes);
 
 * for all balls $B = B_1 \cup_{B_1 \cap B_2} B_2$ and $E := \partial (B_1 \cap B_2)$ a natural transformation -- **composition**
 
@@ -67,9 +73,27 @@ A **blob $n$-category** $C$ is given by
     C(X) \to C(X \times D)
   $$
 
-  satisfying some compatibility conditions  
+  satisfying some compatibility conditions.
 
 =--
+
++-- {: .un_defn #ExtensionToGeneralShapes}
+###### Definition (roughly)
+**(extension to general shapes)**
+
+For $C$ a blob n-graph and $X$ any $k$-[[dimension]]al [[manifold]] with $k \leq n$, define $\underset{\to}{C}(X)$ to be  the [[colimit]]
+
+$$
+  \underset{\to}{C}(X) := {\lim_{\to}}_{({\coprod_i U_i \to X})} 
+   \left( fiber\;product\;of\;C(U_i)s\;over\;joint\;boundary\;labels \right)
+$$
+
+over the category of _permissible decompositions_ (...) of $X$, where the composition operation in $C$ is used to label refinements of permissible decompositions.
+
+=--
+
+This is ([MorrisonWalker, def. 6.3.2](#MorrisonWalker)).
+
 
 ## Examples
 
