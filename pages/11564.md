@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+
+$$
+  \array{
+    &&  \Pi_{dR} \Omega {\widehat E} && \longrightarrow && \flat_{dR}\Sigma {\widehat E}
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{\theta_{\widehat E}}} && \searrow
+    \\
+    \flat \Pi_{dR} \Omega {\widehat E}  && && {\widehat E} && && \Pi \flat_{dR}\Sigma {\widehat E}
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{\Pi \theta_{\widehat E}}}
+    \\
+    && \flat {\widehat E} && \longrightarrow && \Pi {\widehat E}
+  }
+  \,,
+$$
+
+
+$$
+  \array{
+    &&  connection\;on\;trivial\;bundle && \longrightarrow && differential\;forms
+    \\
+    & \nearrow & & \searrow & & \nearrow_{curvature} && \searrow
+    \\
+    \flat \Pi_{dR} \Omega {\widehat E}  && && geometric\;bundle\;with \;connection && && \Pi \flat_{dR}\Sigma {\widehat E}
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow_{\mathrlap{\Pi \theta_{\widehat E}}}
+    \\
+    && bundle\;with\;flat\;connection && \longrightarrow && bundle
+  }
+  \,,
+$$
