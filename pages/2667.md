@@ -204,13 +204,13 @@ G \downarrow & & \downarrow G \\
 D & \underset{S_{R, D}}{\to} & D
 }$$ 
 
-commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S_{R, C}$, and moreover these $\phi_G$ are suitably compatible with composing symmetric monoidal linear functors. 
+commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S_{R, C}$, and moreover these $\phi_G$ fit together sensibly with respect to composites of symmetric monoidal linear functors. 
 
-In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The presence of the isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ may be a pleasant observation, but surely this is only exploiting a small part of the story of Schur functors, which are after all deeply studied and incredibly rich classical structures? 
+In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ make for a pleasant observation, but surely this is merely general nonsense of the larger story of Schur functors, which are after all deeply studied and incredibly rich classical constructions? 
 
-Let us put the question another way. So, the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal linear (Cauchy complete) categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$. Or rather, not quite natural in a strict sense (of strict commutativity where $G S_{R, C} = S_{R, D} G$), but "pseudonatural" in the sense of commuting up to isomorphism $\phi_G$, with the $\phi_G$ fitting together compatibly with respect to composition of $G$'s. Now pseudonaturality is a very general phenomenon in 2-category theory, and the question is: among all such pseudonatural transformations, what makes the Schur functors special? What extra properties pick out exactly the Schur functors from this class? 
+Let us put the question another way. So, the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal linear (Cauchy complete) categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$. [Or again, not quite natural in a strict sense (of strict commutativity where $G S_{R, C} = S_{R, D} G$), but "_pseudonatural_" in the sense of commuting up to isomorphism $\phi_G$, with the $\phi_G$ fitting together compatibly with respect to composition of $G$'s.] Now pseudonaturality is a very general phenomenon in 2-category theory, and the question is: among all such pseudonatural transformations, what makes the Schur functors special? What extra properties pick out exactly the Schur functors from this class? 
 
-The perhaps surprising answer is: no extra properties! That is, the Schur functors are uniquely characterized as polymorphically defined functors that are compatible with change of base in the sense of giving rise to a pseudonatural transformation. 
+The perhaps surprising answer is: no extra properties! That is, the Schur functors are uniquely characterized as uniformly defined functors that are (pseudo)natural with change of base! 
 
 Let us now make this precise. Schur functors $S$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined. Let 
 
@@ -251,12 +251,12 @@ What this proposed definition makes immediately clear is that _Schur functors ar
 
 ## Representability ##
 
-In this discussion we assume that $SymMonLinCat_k$ is the 2-category of small symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
+Again, let $SymMonLinCauch_k$ is the 2-category of small symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
 
 +-- {: .un_thm}
 ######Theorem 
 The underlying functor 
-$$U: SymMonLinCat_k \to Cat$$ 
+$$U: SymMonLinCauch_k \to Cat$$ 
 is representable, in fact is represented by the Cauchy completion of the $k$-linearization of the groupoid of finite permutations $\mathbb{P}$. (If $k \mathbb{P}$ denotes the $k$-linearization, then $\widebar{k \mathbb{P}}$ denotes its Cauchy completion.) 
 =-- 
 
@@ -264,53 +264,70 @@ is representable, in fact is represented by the Cauchy completion of the $k$-lin
 ######Proof (Sketch)
 It is well-known that $\mathbb{P}$ is the representing object for the underlying 2-functor 
 
-$$u: SymMonCat \to Cat$$
+$$U_0: SymMonCat \to Cat$$
 
-Let $SymMonLin$ denote the 2-category of symmetric monoidal $k$-linear (but not necessarily linearly Cauchy complete) categories, and let $Lin$ denote the 2-category of small $k$-linear categories. Let $L: Cat \to Lin$ denote $k$-linearization, given by change of hom-base 
+Let $SymMonLin$ denote the 2-category of symmetric monoidal $k$-linear (but not necessarily linearly Cauchy complete) categories, and let $Lin$ denote the 2-category of small $k$-linear categories. Let $k(-): Cat \to Lin$ denote $k$-linearization, given by change of hom-base 
 
 $$k \cdot - : Set \to Vect_k$$ 
 
-applied to a small $Set$-enriched category $(C_0, hom: C_0 \times C_0 \to Set)$ to yield a $k$-linear category $(C_0, C_0 \times C_0 \to Vect_k)$. This is left 2-adjoint to the underlying 2-functor $U: Lin \to Cat$, and the 2-adjunction $L \dashv U$ has a canonical lift to a 2-adjunction 
+applied to a small $Set$-enriched category $(C_0, hom: C_0 \times C_0 \to Set)$ to yield a $k$-linear category $(C_0, C_0 \times C_0 \to Vect_k)$. $k(-): Cat \to Lin$ is left 2-adjoint to the underlying 2-functor $u: Lin \to Cat$, and the 2-adjunction $k(-) \dashv u$ has a lifts to the level of symmetric monoidal structure, where we obtain a 2-adjunction 
 
-$$(L^{~}: SymMonCat \to SymMonLin) \dashv (U^{~}: SymMonLin \to SymMonCat)$$ 
+$$(k(-): SymMonCat \to SymMonLin) \dashv (U_1: SymMonLin \to SymMonCat)$$ 
 
-Finally, let $LinCat$ denote the 2-category of $k$-linearly Cauchy-complete categories. The Cauchy completion gives a 2-functor $r: Lin \to LinCat$ which is left 2-adjoint to the forgetful 2-functor $i: LinCat \to Lin$, and the 2-adjunction $r \dashv i$ has a canonical lift to a 2-adjunction 
+Finally, let $LinCauch$ denote the 2-category of $k$-linearly Cauchy-complete categories. The linear Cauchy completion gives a 2-reflector $\widebar{(-)}: Lin \to LinCat$ which is left 2-adjoint to the 2-embedding $i: LinCauch \to Lin$, and again the 2-adjunction $\widebar{(-)} \dashv i$ lifts to the level of symmetric monoidal structure to give a 2-adjunction 
 
-$$(R: SymMonLin \to SymMonLinCat) \dashv (I: SymMonLinCat \to SymMonLin)$$ 
+$$(\widebar{(-)}: SymMonLin \to SymMonLinCauch) \dashv (U_2: SymMonLinCauch \to SymMonLin)$$ 
 
-Finally, the underlying functor $U: SymMonLinCat \to Cat$ is the evident composite 
+Putting this all together, the underlying functor $U: SymMonLinCauch \to Cat$ is the evident composite 
 
-$$SymMonLinCat \stackrel{I}{\to} SymMonLin \stackrel{U^{~}}{\to} SymMonCat \stackrel{u}{\to} Cat$$ 
+$$SymMonLinCauch \stackrel{U_2}{\to} SymMonLin \stackrel{U_1}{\to} SymMonCat \stackrel{U_0}{\to} Cat$$ 
 
 and therefore we have pseudonatural equivalences 
 
 $$\array{
-SymMonLinCat(R L^{~} \mathbb{P}, -) & \cong & SymMonLin(L^{~} \mathbb{P}, I-) \\
- & \cong & SymMonCat(\mathbb{P}, U^{~} I-) \\
- & \cong & u U^{~} I- \\
+SymMonLinCauch(\widebar{k(\mathbb{P})}, -) & \cong & SymMonLin(k(\mathbb{P}), U_2 -) \\
+ & \cong & SymMonCat(\mathbb{P}, U_1 U_2 -) \\
+ & \cong & U_0 U_1 U_2 \\
  & \cong & U
 }$$ 
 
-so that $R L^~ \mathbb{P} = \widebar{k \mathbb{P}}$ is the representing object. 
+so that $\widebar{k \mathbb{P}}$ is the representing object. 
 =--
 
-Let us calculate this Cauchy completion. It is the linear category of all $k$-linear functors 
+### Structure of the representing object
+
+Let us now calculate $\widebar{k \mathbb{P}}$. It is the linear category of all $k$-linear functors 
 
 $$k\mathbb{P}^{op} \to Vect_k$$  
 
 which as modules are left adjoint to modules 
 
-$$k\mathbb{P} \to Vect_k$$ 
+$$k\mathbb{P} \to Vect_k .$$ 
 
-but since $k\mathbb{P}$ is the coproduct of the one-object $k$-linear categories $k S_n$, this comes down to a sequence of modules 
+But since $k\mathbb{P}$ is the coproduct of the one-object $k$-linear categories $k S_n$, this comes down to a sequence of right modules 
 
 $$(k S_n)^{op} \to Vect_k$$ 
 
-which are left adjoint to modules $k S_n \to Vect_k$. These are well known as the finitely generated projective modules over $S_n$. (Of course, in characteristic zero, all finitely generated $S_n$-modules are projective, by Maschke's theorem.) 
+which are left adjoint to modules $k S_n \to Vect_k$. As is well known, these adjoint modules are the finitely generated projective right modules over $S_n$. 
 
-To be continued. 
+Hence an object of the Cauchy completion $\widebar{k \mathbb{P}}$ is given by a sequence of finitely generated projective $S_n$-modules, one for each $n$. 
 
-## Schur functors as actions of the plethystic monoidal category ##
+Now in characteristic zero, Maschke's theorem (all short exact sequences of $S_n$-modules split) implies that all finitely generated $S_n$-modules are projective. Thus, finitely generated projective $S_n$-modules boil down to finite-dimensional representations of $S_n$. 
+
+Therefore an object of the Cauchy completion is a sequence of finite-dimensional $S_n$-modules, in other words a functor $\mathbb{P}^{op} \to Vect_k$ with values in spaces of finite dimension. In summary, then, we have the following result. 
+
++-- {: .un_thm} 
+######Theorem 
+The representing object $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of functors $\mathbb{P}^{op} \to FinVect_k$. 
+=-- 
+
+The linear symmetric monoidal structure is inherited from the monoidal structure of $\mathbb{P}$. Explicitly, the monoidal structure on $\mathbb{P}$ is given by group homomorphisms 
+
+$$S_m \times S_n \to S_{m+n}$$ 
+
+To be continued.    
+
+## Composition of Schur functors ##
 
 There's a Schur functor from a symmetric monoidal category to itself for every $\mathbb{Z}[S_n]$ module $M$, given by 
 $$S_M(X)=X^{\otimes n}\otimes_{\Z[S_n]}M.$$
