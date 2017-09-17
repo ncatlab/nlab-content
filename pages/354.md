@@ -403,11 +403,7 @@ section 1.2.5 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-There is also discussion in section (???) of
-
-* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illustrated guidebook_ (2004) ([pdf](http://www.cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
-
-
+For background on the general relation of simplicial- and globular sets see also the references at [[oriental]]. 
 
 
 [[!redirects Kan complexes]]
