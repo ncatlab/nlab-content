@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+In the context of [[generalized complex geometry]] one says for $X$ a [[manifold]], $T X$ its [[tangent bundle]] and $T^* X$ the [[cotangent bundle]] that the fiberwise [[direct sum]]-bundle $T X \oplus T^* X$ is the _generalized tangent bundle_.
+
+## Properties
+
+### As an associated bundle
+
+The ordinary [[tangent bundle]] is the canonical [[associated bundle]] to the [[general linear group]]-[[principal bundle]] classified by the morphism
+
+$$
+  g_{T X} : X \to \mathbf{B} GL(n)
+$$
+
+to the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of $GL(n)$.
+
+Similarly there is a canonical morphism
+
+$$
+  (g_{T X}, g^*_{T X}) X \to \mathbf{B} O(n,n)
+$$
+
+to the [[moduli stack]] which is the [[delooping]] of the [[orthogonal group]] of signature $(n,n)$.
+
+### Reduction of structure group
+
+Where a [[reduction of structure groups|reduction of the structure group]] of the tangent bundle along $\mathbf{B} O(n) \hookrightarrow \mathbf{B} GL(n)$ is equivalently a [[vielbein]]/[[orthogonal structure]]/[[Riemannian metric]] on $X$, so a reduction of the structure group of the generalized tangent bundle along $\mathbf{B} O(n) \times O(n) \to \mathbf{B}O(n,n)$ is a [[generalized vielbein]], [[type II geometry]].
+
+## Related concepts
+
+* [[Courant Lie 2-algebroid]]
+
+[[!redirects generalized tangent bundles]]
