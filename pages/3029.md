@@ -379,7 +379,9 @@ $$
   \array{
      A &\to& G \times_c A &\to& G
      \\
-     \downarrow^{\mathrlap{id}} && \downarrow^{(id_G, p_2 -h \circ p_1)} && \downarrow^{\mathrlap{=}}
+     \downarrow^{\mathrlap{id}} 
+      && 
+     \downarrow^{\mathrlap{(id_G, p_2 -h \circ p_1)}} && \downarrow^{\mathrlap{=}}
      \\
      A &\to& G \times_{\tilde c} A &\to& G
   }
@@ -1338,6 +1340,27 @@ One may regard the above from the [[nPOV]] as a special case of the way cocycles
 * [[group cohomology]]
 
 * [[nonabelian group cohomology]].
+
+## Examples
+
+By the above classification theorems, all the examples at _[[group cohomology]]_ equivalently induce examples for group extensions. And indeed by definition every [[short exact sequence]] defines an extension.
+
+But examples of fundamental importance include for instance
+
+* the [[real numbers]] as an extension of the [[circle group]]
+
+  $$
+    \mathbb{Z} &\to& \mathbb{R} \to U(1)
+    \,.
+  $$
+
+* the [[spin group]] as an extension of the [[special orthogonal group]]
+
+  $$  
+    \mathbb{Z}_2 \to Spin \to SO
+  $$
+
+* etc.
 
 
 ## Related concepts
