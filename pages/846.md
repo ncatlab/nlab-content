@@ -368,7 +368,7 @@ Then we give the more explicit definition in terms of concrete formulas. We firs
 
 ### By Day convolution {#DayConvolution}
 
-Via the general process of [[Day convolution]], the ordinal sum monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[asSet]] or $sSet_+$ of [[augmented simplicial set]]s. This is given by a [[end|coend]] formula:
+Via the general process of [[Day convolution]], the [[ordinal sum]] [[monoidal structure]] on $\Delta_a$ is lifted to a [[monoidal structure]] on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[asSet]] or $sSet_+$ of [[augmented simplicial set]]s. This is given by a [[end|coend]] formula:
 
 +-- {: .un_prop}
 ###### Definition/Proposition
@@ -423,6 +423,12 @@ $$
   S_1 \star S_2 := {\hat S_1} \star {\hat S_2}
   \,.
 $$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+Note that the join operation is not commutative.  This comes from the fact that the [[monoidal structure]] given by [[ordinal sum]] on the [[augmented simplex category]] is not [[symmetric monoidal category|symmetric monoidal]].  See the discussion at [[augmented simplex category]] for more details.
 
 =--
 
