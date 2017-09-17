@@ -1,0 +1,10 @@
+
+## Related entries
+
+* [[photon]], [[light]], [[electromagnetic wave]]
+
+## References
+
+* Wikipedia, _[Laser](http://en.wikipedia.org/wiki/Laser)_
+
+[[!redirects lasers]]
