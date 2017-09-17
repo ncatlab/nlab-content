@@ -63,10 +63,7 @@ In this list, Isotony is redundant; it is equivalent to one direction of (left a
 
 On the other hand, we have a __quasiproximity__ (etc) if Symmetry is allowed to fail; then both left and right Additivity must be stated.  (Symmetry for neighbourhood spaces is particularly tricky in constructive mathematics.)
 
-
-## The category $Prox$
-
-If $X$ and $Y$ are (quasi)-proximity spaces, then a [[function]] $f: X \to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $A \ll B$ whenever $f_*(A) \ll f_!(B)$.  In this way we obtain a [[category]] $Prox$; the [[forgetful functor]] $Prox \to Set$ (taking a space to its set of points) makes it into a [[topological concrete category]].  The same goes for the category $QProx$ of quasiproximity spaces.
+If $X$ and $Y$ are (quasi)-proximity spaces, then a [[function]] $f: X \to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $f^*(C) \ll f^*(D)$ whenever $C \ll D$.  In this way we obtain a [[category]] $Prox$; the [[forgetful functor]] $Prox \to Set$ (taking a space to its set of points) makes it into a [[topological concrete category]].  The same goes for the category $QProx$ of quasiproximity spaces.
 
 
 ## Relation to other topological structures
