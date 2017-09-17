@@ -136,7 +136,9 @@ Under the second notion of morphism (where simple graphs are identified with set
 
 * E. Babson, H. Barcelo, M. de Longueville, R. Laubenbacher, A Homotopy Theory for Graphs, [arXiv:math/0403146 ](http://arxiv.org/abs/math/0403146)
 
+Discussion of use of [[simplicial complexes]] in graph theory:
 
+* MO, _[What have simplicial complexes ever done for graph theory?](http://mathoverflow.net/questions/161586/what-have-simplicial-complexes-ever-done-for-graph-theory)_
 
 
 
