@@ -121,30 +121,6 @@ non-uniqueness may be parametrized instead by a choice of a [[connection on a bu
 
 ## Examples
 
-### In dg-geometry
-
-(...)
-
-Let the ambient context be that of [[dg-geometry]]. Let $C$ be an ordinary [[smooth manifold]], assumed finite dimensional for the moment, and $\exp(i S) : C \to \mathbb{R}/\mathbb{Z}$ an ordinary [[smooth function]] such that its 0-locus is an sub-manifold.
-
-Then a presentation for the homotopy fiber of $\exp(i S)$ is given by the formal dual of the [[dg-algebra]]
-
-$$
- (\wedge^{-\bullet}_{C^\infty(X)}\Gamma(T X), \iota_{(-)} d \exp(i S))
-  =
- \left[
-  \cdots \to \wedge_{C^\infty(X)}^2\Gamma(T X) \stackrel{{\iota_{(-)}d \exp(i S)}}{\to} \Gamma(T X) \stackrel{\iota_{(-)}d \exp(i S)}{\to} C^\infty(X) 
-  \right]
-$$
-
-concentrated in non-positive degree, which in degree $k$ has the $k$th exterior powers of the [[tangent vector]]s of $X$ and whose differential is given by contracting a tangent vector with the 1-form $d \exp(i S)$.  
-
-This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. More generally, the homotopy fiber is given by a [[Koszul-Tate resolution]]-type complex. This is known as the _antifield complex_ in the [[BV-BRST formalism|BV-BRST formulation]] of derived phase spaces.
-
-(...)
-
-## Examples
-
 ### Chern-Simons theory
 
 For [[Chern-Simons theory]] corresponding to a non-degenerate bilienear [[invariant polynomial]]
@@ -167,6 +143,31 @@ $\langle -,-\rangle$ on a [[Lie algebra]] $\mathfrak{g}$ the
   $$
 
 See [[Chern-Simons theory]] and [[schreiber:∞-Chern-Simons theory]] for more details.
+
+
+
+### In dg-geometry
+
+(...)
+
+Let the ambient context be that of [[dg-geometry]]. Let $C$ be an ordinary [[smooth manifold]], assumed finite dimensional for the moment, and $\exp(i S) : C \to \mathbb{R}/\mathbb{Z}$ an ordinary [[smooth function]] such that its 0-locus is an sub-manifold.
+
+Then a presentation for the homotopy fiber of $\exp(i S)$ is given by the formal dual of the [[dg-algebra]]
+
+$$
+ (\wedge^{-\bullet}_{C^\infty(X)}\Gamma(T X), \iota_{(-)} d \exp(i S))
+  =
+ \left[
+  \cdots \to \wedge_{C^\infty(X)}^2\Gamma(T X) \stackrel{{\iota_{(-)}d \exp(i S)}}{\to} \Gamma(T X) \stackrel{\iota_{(-)}d \exp(i S)}{\to} C^\infty(X) 
+  \right]
+$$
+
+concentrated in non-positive degree, which in degree $k$ has the $k$th exterior powers of the [[tangent vector]]s of $X$ and whose differential is given by contracting a tangent vector with the 1-form $d \exp(i S)$.  
+
+This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. More generally, the homotopy fiber is given by a [[Koszul-Tate resolution]]-type complex. This is known as the _antifield complex_ in the [[BV-BRST formalism|BV-BRST formulation]] of derived phase spaces.
+
+(...)
+
 
 ## References
 
