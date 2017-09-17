@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -40,6 +39,3 @@ $$
 
 [[!include gauge field - table]]
 
-
-
-[[!redirects charges]]
