@@ -59,7 +59,7 @@ Therefore the following definition makes sense
 +-- {: .num_defn}
 ###### Definition
 
-A **2-framing** on a[[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]] $X$ is the [[homotopy class]] of a trivializations of the [[spin-group]]-[[principal bundle]] underlying [[Whitney sum|twice]] its [[tangent bundle]].
+A **2-framing** on a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]] $X$ is the [[homotopy class]] of a trivializations of the [[spin-group]]-[[principal bundle]] underlying [[Whitney sum|twice]] its [[tangent bundle]].
 
 =--
 
@@ -85,7 +85,7 @@ in [[Smooth∞Grpd]].
 
 =--
 
-In terms of this a 2-frmaing on $X$ with [[orientation]] $\mathbf{o} \colon X \to \mathbf{B}SO(3)$ is a lift $\hat {\mathbf{o}}$ in 
+In terms of this a 2-framing on $X$ with [[orientation]] $\mathbf{o} \colon X \to \mathbf{B}SO(3)$ is a lift $\hat {\mathbf{o}}$ in 
 
 $$
   \array{
@@ -160,9 +160,9 @@ Discussion in terms of bounding 4-manifolds is in
 * Stephen F. Sawin, _Three-dimensional 2-framed TQFTS and surgery_ (2004) ([pdf](http://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1020&context=mathandcomputerscience-facultypubs))
  {#Sawin}
 
-page 9 of 
+and page 9 of 
 
-* Stephen Sawin, _Invariants of Spin Three-Manifolds From Chern-Simons Theory and Finite-Dimensional Hopf Algebras_ ([arXiv:math/9910106](http://arxiv.org/abs/math/9910106))
+* Stephen Sawin, _Invariants of Spin Three-Manifolds From Chern-Simons Theory and Finite-Dimensional Hopf Algebras_ ([arXiv:math/9910106](http://arxiv.org/abs/math/9910106)).
 
 [[!redirects 2-framing]]
 [[!redirects 2-framings]]
