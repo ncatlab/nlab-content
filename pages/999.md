@@ -228,6 +228,8 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 * **compact object**
 
+* [[compact topos]]
+
 * [[compact object in an (∞,1)-category]]
 
 * [[small object]], [[small object argument]]
