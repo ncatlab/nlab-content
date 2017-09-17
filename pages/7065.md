@@ -1,1 +1,14 @@
-In [[homotopy type theory]], the notion of **contractible [[type]]** is an internalization of the notion of [[contractible space]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+
+In [[homotopy type theory]], the notion of **contractible [[type]]** / [[h-level 0]] type is an internalization of the notion of [[contractible space]] / [[(-2)-truncated]] object.
