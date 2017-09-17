@@ -119,6 +119,17 @@
 
 * [[rational homotopy theory in an (∞,1)-topos|rational homotopy]]
 
+* [[dimension]]
+
+  * [[homotopy dimension]]
+
+  * [[cohomological dimension]] 
+
+  * [[covering dimension]]
+
+  * [[Heyting dimension]]
+
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/%28infinity%2C1%29-topos+-+contents)</div>
 
