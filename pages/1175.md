@@ -55,6 +55,14 @@ on hypothetical connections between [[CFT]] and [[elliptic cohomology]], Stolz a
 
 See also the [Wikipedia entry](http://en.wikipedia.org/wiki/Von_Neumann_algebra) entry for more on von Neumann algebras and a list of references and links.
 
+### General
+
+The _[[bicommutant theorem]]_ (as known as the _double commutant theorem_ , or _von Neumann's double commutant theorem_ ) is the following result. 
+
+Let $A \subseteq B(H)$ be a sub-[[star-algebra]] of the [[C-star algebra]] of [[bounded linear operator|bounded linear operators]] on a [[Hilbert space]] $H$. Then $A$ is a [[von Neumann algebra]] on $H$ if and only if $A = A''$, where $A'$ denotes the [[commutant]] of $A$. 
+
+Notice that the condition of $A$ being a von Neumann algebra (being closed in the [[weak operator topology]]; "weak" here can be replaced by "strong", "ultrastrong", or "ultraweak" as described in [[operator topology]]), which is a [[topology|topological]] condition, is by this result equivalent to an algebraic condition (being equal to its bicommutant).  
+
 ### Relation to measure spaces
  {#RelationToMeasureSpaces}
 
