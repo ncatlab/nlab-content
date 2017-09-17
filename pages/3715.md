@@ -1,4 +1,6 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -67,5 +69,8 @@ On the [[stack]] of deformation quantizations:
 * [[Maxim Kontsevich]], _Deformation quantization of algebraic varieties_ ([arXiv:math/0106006](http://arxiv.org/abs/math/0106006))
 
 * Pietro Polesello, [[Pierre Schapira]], _Stacks of quantization-deformation modules on complex symplectic manifolds_ ([arXiv:math/0305171](http://arxiv.org/abs/math/0305171))
+
+* [[Amnon Yekutieli]], _Twisted Deformation Quantization of Algebraic Varieties_ , 
+[ arxiv:0905.0488 ](http://arxiv.org/abs/0905.0488)
 
 [[!redirects deformation quantizations]]
