@@ -1,8 +1,24 @@
-# Idea
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 An **inaccessible cardinal** is a [[cardinal number]] $\kappa$ which cannot be "accessed" from smaller cardinals using only the basic operations on cardinals.  It follows that the collection of sets smaller than $\kappa$ satisfies the axioms of set theory.
 
-# Definition
+## Definition
 
 An **inaccessible cardinal** is a regular strong limit [[cardinal number|cardinal]].  Here, $\kappa$ is _regular_ if every sum of $\lt\kappa$ cardinals, each of which is $\lt\kappa$, is itself $\lt\kappa$; $\kappa$ is a _strong limit_ if $\lambda\lt \kappa$ implies $2^\lambda\lt\kappa$.  In other words, the class of sets of cardinality $\lt\kappa$ is closed under the operations of indexed [[union]]s and taking [[power set]]s.
 
@@ -18,6 +34,6 @@ _Toby_:  It means that if a weakly inaccessible cardinal exists, then a strongly
 [[Mike Shulman|Mike]]: I don't believe that.  Suppose that the smallest weakly inaccessible is not strongly inaccessible, and let $\kappa$ be the smallest strongly inaccessible.  Then $V_\kappa$ is a model of set theory in which there are weakly inaccessibles but not strong ones.  I'm almost certain there is no reason for the smallest weakly inaccessible to be strongly inaccessible.
 =--
 
-# Properties
+## Properties
 
 A cardinal $\kappa$ is inaccessible precisely when the $\kappa$th level $V_\kappa$ of the [[von Neumann hierarchy]] is a [[Grothendieck universe]], and hence in particular itself a model of axiomatic [[set theory]].  For this reason, the existence of inaccessible cardinals cannot be proven in ordinary axiomatic set theory such as [[ZFC]].  The axiom asserting that there exists an inaccessible (which amounts to the existence of a Grothendieck universe) is thus the beginning of the study of [[large cardinal]]s.  If one thinks of $\aleph_0$ as already an inaccessible cardinal, then the [[axiom of infinity]] may be seen as itself the first large cardinal axiom.
