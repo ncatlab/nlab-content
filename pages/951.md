@@ -16,9 +16,9 @@ It is easy (and thus common) to make $\Fin\Set$ [[skeleton|skeletal]]; there is 
 
 The [[simplex category]] $\Delta$ embeds into $\Fin\Set$ as a category with the same objects but fewer morphisms. The category of [[cyclic set]]s introduced by Connes lies in between. All the three are special cases of extensions of $\Delta$ by a group in a particularly nice way. Full classification of allowed "skewsimplical groups" has been given by Krasauskas and independently by Loday and Fiedorowicz.
 
-## As a lawvere theory
+## As a Lawvere theory
 
-The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the multi-sorted [[lawvere theory]] of unbiased [[boolean algebra]]s. As a [[lawvere theory]], $FinSet$ has one more sort, corresponding to $\emptyset$, and one more model, in which every sort has exactly one element (in all the other models, the sort corresponding to $\emptyset$ is empty).
+The [[cartesian monoidal category]] $FinSet_+$ of nonempty finite sets is the multi-sorted [[Lawvere theory]] of unbiased [[boolean algebra]]s. As a [[lawvere theory]], $FinSet$ has one more sort, corresponding to $\emptyset$, and one more model, in which every sort has exactly one element (in all the other models, the sort corresponding to $\emptyset$ is empty).
 
 
 ## In topos theory
