@@ -23,10 +23,15 @@ The dual concept is that of [[discrete space]].
 
 ## Examples
 
-### Codicrete topological spaces
+### Codiscrete topological spaces
 
 For $\Gamma : Top \to Set$ the obvious  forgetful functor from [[Top]], a codiscrete space is a set with [[codiscrete topology]].
 
 ### Codiscrete cohesive spaces
 
 A general axiomatization of the notion of space is as an object in a [[cohesive topos]]. This comes by definition with an underlying-set-functor (or similar) and a [[left adjoint]] that produces discrete cohesive structure. See there for details.
+
+[[!redirects codiscrete spaces]]
+
+[[!redirects indiscrete space]]
+[[!redirects indiscrete spaces]]
