@@ -116,3 +116,9 @@ Section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#pag
 A characterization of Chern-character maps for [[K-theory]] is in
 
 * [[Goncalo Tabuada]], _A universal characterization of the Chern character maps_, [arXiv/1002.3276](http://arxiv.org/abs/1002.3726))
+
+A discussion of Chern characters in [[derived geometry]] is in 
+
+* [[Marc Hoyois]], _Chern character and derived algebraic geometry_ (2009) ([pdf](http://math.northwestern.edu/~hoyois/papers/chern.pdf))
+
+[[!redirects Chern characters]]
