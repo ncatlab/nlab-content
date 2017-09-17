@@ -186,3 +186,7 @@ where $P_2(C(\{\U_i\}) \in 2LieGrpd$ is a resolution of the [[path 2-groupoid]] 
 ## References
 
 The 2-groupoid of Lie 2-algebra valued forms described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of [SchrWalII](http://arxiv.org/abs/0802.0663). There are many possible conventions. The one reproduced above is supposed to describe the _bidual_ [[opposite 2-category]] of the 2-groupoid as defined in that article, with the direction of 1- and 2-morphisms reversed. 
+
+See also
+
+<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#ConnectionOn2Bundle">differential cohomology in an (∞,1)-topos -- survey - connections on 2-bundles</a>.
