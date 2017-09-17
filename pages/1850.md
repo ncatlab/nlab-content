@@ -58,5 +58,7 @@ which is a statement of the physical phenomenon of _charge conservation_ .
 
 * **electric charge**, [[magnetic charge]]
 
+* [[flux]]
+
 [[!redirects electric current]]
 [[!redirects electric charges]]
