@@ -5,7 +5,7 @@ and
 
 **[[nonabelian homological algebra]]**
 
-## Context
+### Context
 
 * [[additive and abelian categories]]
 
@@ -25,7 +25,7 @@ and
 
 * [[semi-abelian category]]
 
-## Basic definitions
+### Basic definitions
 
 * [[kernel]], [[cokernel]]
 
@@ -45,8 +45,7 @@ and
 
 * [[chain homology and cohomology]]
 
-  * [[cochain on a simplicial set|simplicial homology]], [[singular homology]]
-
+  * [[cochain on a simplicial set|simplicial homology]]
   * [[generalized homology]]
 
 * [[exact sequence]], 
@@ -57,25 +56,29 @@ and
 
   * [[injective resolution]], [[projective resolution]]
 
+  * [[flat resolution]]
+
 * [[derived functor]]
 
   * [[Tor]], [[Ext]]
 
+  * [[homotopy limit]], [[homotopy colimit]]
+
 * [[abelian sheaf cohomology]]
 
-## Higher category notions
+### Stable homotopy theory notions
 
 * [[derived category]]
 
-* [[triangulated category]]
+* [[triangulated category]], [[enhanced triangulated category]]
 
 * [[stable (∞,1)-category]]
 
+  * [[pretriangulated dg-category]]
+
   * [[A-∞-category]]
 
-  * [[differential graded category]]
-
-## Constructions
+### Constructions
 
 * [[double complex]]
 
@@ -95,7 +98,7 @@ and
 
     * [[Hochschild-Serre spectral sequence]]
 
-## Lemmas
+### Lemmas
 
 * [[3x3 lemma]]
 
@@ -107,7 +110,13 @@ and
 
 * [[Baer's criterion]]
 
-## Theorems
+### Homology theories
+
+* [[singular homology]]
+
+* [[cyclic homology]]
+
+### Theorems
 
 * [[Dold-Kan correspondence]] / [[monoidal Dold-Kan correspondence|monoidal]], [[operadic Dold-Kan correspondence|operadic]]
 
