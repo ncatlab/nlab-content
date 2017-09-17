@@ -25,6 +25,7 @@ Prime numbers do *not* quite match the [[prime elements]] of $\mathbb{N}$, since
 
 * [[coprime integers]]
 
+* [[p-localization]]
 
 [[!redirects prime number]]
 [[!redirects prime numbers]]
