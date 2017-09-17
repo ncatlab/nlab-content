@@ -5,15 +5,15 @@
 
 ## Idea
 
-For a [[ringed space]] $X$ one can form the [[Picard group]]. When $X$ is a [[projective morphism|projective]] [[integral scheme]] over $k$ the [[Picard group]] underlies a $k$-scheme. This scheme varies in a family as $X$ varies in a family. From this starting point one can naturally generalize to more general relative situations. 
+For a [[ringed space]] $(X, \mathcal{O}_X)$ there is its [[Picard group]] of [[invertible objects]] in the category of $\mathcal{O}_X$-[[modules]]. When $X$ is a [[projective morphism|projective]] [[integral scheme]] over $k$ the [[Picard group]] underlies a $k$-scheme. This scheme varies in a family as $X$ varies in a family. From this starting point one can naturally generalize to more general relative situations. 
 
 ## Definition
 
-__Picard variety__ of a complete [[smooth scheme|smooth]] algebraic [[variety]] $X$ over an [[algebraically closed field]] parametrizes the [[Picard group]] of $X$, more precisely the set of classes of isomorphic invertible quasicoherent sheaves with zero Chern class.
+The __Picard variety__ of a complete [[smooth scheme|smooth]] algebraic [[variety]] $X$ over an [[algebraically closed field]] parametrizes the [[Picard group]] of $X$, more precisely the set of classes of isomorphic invertible [[quasicoherent sheaves]] with vanishing [[first Chern class]].
 
-__Picard scheme__ is a scheme [[representable functor|representing]] the relative Picard functor $Pic_{X/S}: (Sch/S)^{op}\to Set$ by $T\mapsto Pic(X_T)/f^*Pic(T)$. Picard functor in this generality has been introduced by [[Grothendieck]] in [[FGA]], along with the proof of representability. An alternate form of this functor in terms of the [[derived functor]] of $f_*$ is $Pic_{X/S}(T)=H^0(T, R^1f_{T*}\mathcal{O}_{X_T}^*)$.
+The __Picard scheme__ is a scheme [[representable functor|representing]] the relative Picard functor $Pic_{X/S}: (Sch/S)^{op}\to Set$ by $T\mapsto Pic(X_T)/f^*Pic(T)$. In this generality the Picard functor has been introduced by [[Grothendieck]] in [[FGA]], along with the proof of representability. An alternate form of this functor in terms of the [[derived functor]] of $f_*$ is $Pic_{X/S}(T)=H^0(T, R^1f_{T*}\mathcal{O}_{X_T}^*)$.
 
-Note we must work with the relative functor because the global picard functor $Pic_X(T)=Pic(X_T)$ has no hope of being representable as it is not even a  [[sheaf]]. Consider any non-trivial invertible sheaf in $Pic(X_T)$. This becomes trivial on some cover $\{T_i\to T\}$, so $Pic(X_T)\to \prod Pic(X_{T_i})$ is not injective.
+Note we must work with the relative functor because the global Picard functor $Pic_X(T)=Pic(X_T)$ has no hope of being representable as it is not even a  [[sheaf]]. Consider any non-trivial invertible sheaf in $Pic(X_T)$. This becomes trivial on some cover $\{T_i\to T\}$, so $Pic(X_T)\to \prod Pic(X_{T_i})$ is not injective.
 
 ## Representability
 
@@ -33,7 +33,9 @@ For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separat
 
 ## Picard Stack
 
-The *Picard stack* $\mathcal{Pic}_{X/S}$ is just [[stack]] of invertible sheaves on $X/S$, i.e. the [[fiber category]] over $T\to X$ is the category of line bundles on $X_T$ (not isomorphism classes). If $X$ is proper and flat, then $\mathcal{Pic}_{X/S}$ is an [[Artin stack]] since $\mathcal{Pic}_{X/S}=\mathcal{Hom}(X, B\mathbb{G}_m)$ is the [[Hom stack]] which is Artin.
+The *[[Picard stack]]* $\mathcal{Pic}_{X/S}$ is the [[stack]] of invertible sheaves on $X/S$, i.e. the [[fiber category]] over $T\to X$ is the category of [[line bundles]] on $X_T$ (not just their [[isomorphism classes]]). (Hence it is the [[Picard groupoid]] equipped with geometric structure). 
+
+If $X$ is proper and flat, then $\mathcal{Pic}_{X/S}$ is an [[Artin stack]] since $\mathcal{Pic}_{X/S}=\mathcal{Hom}(X, B\mathbb{G}_m)$ is the [[Hom stack]] which is Artin.
 
 Note the following "failure" of the relative Picard scheme: points on $Pic_{X/S}$ do not parametrize line bundles. The low degree terms of the Leray [[spectral sequence]] give the following exact sequence $H^1(X_T, \mathbb{G}_m)\to H^0(T, R^1f_*\mathbb{G}_m)\to H^2(T, \mathbb{G}_m)\to H^2(X_T, \mathbb{G}_m)$, but as noted above $Pic_{X/S}(T)=H^0(T, R^1f_*\mathbb{G}_m)$, so we see exactly when a $T$-point comes from a line bundle it is when that point maps to $0$ in this sequence. 
 
@@ -48,5 +50,12 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 * wikipedia [Picard group](http://en.wikipedia.org/wiki/Picard_group)
 * [[Steven Kleiman|Steven L. Kleiman]], _The Picard scheme_, pp. 235--321 in [[FGA explained]], MR2223410 (draft [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s6t3&ifd=15022&down=1&type=lecture_notes)), [arxiv](http://arxiv.org/abs/math/0504020)
 
+* [[The Stacks Project]], _[The Picard stack](http://stacks.math.columbia.edu/tag/0372)_
+
 category: algebraic geometry
+
+
 [[!redirects Picard variety]]
+
+[[!redirects Picard stack]]
+[[!redirects Picard stacks]]
