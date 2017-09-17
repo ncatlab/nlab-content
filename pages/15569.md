@@ -21,7 +21,7 @@ Another example, which maybe hasn't been duly recognized as such yet, is the con
 | [[complex analytic geometry]] | [[complex curve]]  |  [[Jacobian]]/moduli of [[stable vector bundle|(semi-)stable bundles]]  |  [[moduli stack of Riemann surfaces]] |   
 | [[arithmetic geometry]] |  [[arithmetic curve]]   | [[geometric Langlands correspondence|geometric Langlands]]/[[Tamagawa measures]] | [[moduli stack of curves]] |  
 
-The construction is a ground-breaking accomplishment in [[algebraic topology]], but at least in view of the origin of the [[Witten genus]] in [[string theory]] it maybe raises more questions than it solves: from the perspective of physics the Witten genis is but the first example of a tower of similar phenomena, the next instance being the [[partition function]] of the [[M5-brane]] and then that of 10d [[string theory]] itself (see e.g. at _[[self-dual higher gauge theory]]_).  
+The construction is a ground-breaking accomplishment in [[algebraic topology]], but at least in view of the origin of the [[Witten genus]] in [[string theory]] it maybe raises more questions than it solves: from the perspective of physics the Witten genus is but the first example of a tower of similar phenomena, the next instance being the [[partition function]] of the [[M5-brane]] and then that of 10d [[string theory]] itself (see e.g. at _[[self-dual higher gauge theory]]_).  
 
 | $k$ | $(4k+3)d$ [[higher dimensional Chern-Simons theory]] | form [[theta characteristics]] $\to$ | $(4k+2)d$ [[self-dual higher gauge theory]] |
 |----|--------------|-----------|------------------|
@@ -41,7 +41,29 @@ Differential cohesion is a geometric homotopy theory hence a context for [[highe
 
 | $\mathbf{H}_{reduced}$ | $\hookrightarrow$ | $\mathbf{H}$ | $\longrightarrow$ |  $\mathbf{H}_{infinitesimal}$  |
 |---------|---|-------------------|---|------------------|
+| [[cohesion]] | [[differential cohesion]] | [[infinitesimal cohesion]] |
 | [[moduli ∞-stacks]] |  | [[synthetic differential ∞-groupoids]] |  |  [[formal moduli problems]] |
+
+This means that $\mathbf{H}$ is a geometric homotopy theory equipped with a triple of triples of operations, some of which are the following:
+
+1. [[cohesion]]
+
+   * [[shape modality]] $\Pi$ creates [[geometric realization]]/[[classifying spaces]];
+
+   * [[flat modality]] $\flat$ creates underlying point sets/moduli for [[flat connections]]/[[local systems]];
+
+   * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat connections
+
+1. [[infinitesimal cohesion]]
+
+   * $\flat_{rel}$ creates collection of [[formal disks]]
+
+1. [[differential cohesion]]
+
+   * [[infinitesimal shape modality]] $\Pi_{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
+
+
+
 
 We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele class group]] etc. have structural analogs in any context of [[differential cohesion]]. We show that specifically in the context of [[complex analytic infinity-groupoid|complex analytic cohesion]] these reproduce the correct analogs of the arithmetic concepts as predicted by the [[function field analogy -- table|function field analogy table]].
 
@@ -73,6 +95,24 @@ This underlies the following fact
 ###### Lemma
 
 The canononical maps between the [[commutative rings]] of [[integers]] $\mathbb{Z}$, of [[rational numbers]] $\mathbb{Q}$ of [[integral adeles]] $\mathbb{A}_{\mathbb{Z}}$ and of [[adeles]] $\mathbb{A}_{\mathbb{Q}}$ form a square [[commuting diagram]]
+
+
+$$
+  \array{
+     && \mathbb{Q}
+     \\
+     & \swarrow && \nwarrow
+     \\
+     \mathbb{Q}\otimes_{\mathbb{Z}}\left(\underset{p\;prime}{\prod} \mathbb{Z}_p \right) && && \mathbb{Z}
+     \\
+     & \nwarrow && \swarrow
+     \\
+     && \underset{p\;prime}{\prod} \mathbb{Z}_p
+  }
+  \,.
+$$
+
+
 
 $$
   \array{
@@ -192,22 +232,6 @@ We write
 * $\Pi_{rel} \dashv \flat_{rel} \dashv \sharp_{rel}$ for the corresponding modalities of the cohesion of $\mathbf{H}$ over $\mathbf{H}_{inf}$.
 
 =--
-
-1. [[cohesion]]
-
-   * [[shape modality]] $\Pi$ creates [[geometric realization]]/[[classifying spaces]];
-
-   * [[flat modality]] $\flat$ creates underlying point sets/moduli for [[flat connections]]/[[local systems]];
-
-   * [[sharp modality]] $\sharp$ induces [[moduli stacks]] for non-flat connections
-
-1. [[infinitesimal cohesion]]
-
-   * $\flat_{rel}$ creates collection of [[formal disks]]
-
-1. [[differential cohesion]]
-
-   * [[infinitesimal shape modality]] $\Pi_{inf}$ produces [[de Rham spaces]], detects [[formally etale morphisms]] and induces [[etale toposes]];
 
 
 
