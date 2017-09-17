@@ -72,7 +72,13 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
    
 * [[Platonism]]
 
-* [[objective idealism]]
+* [[idealism]]
+
+  * [[objective idealism]]
+
+  * [[subjective idealism]]
+
+* [[positivism]]
 
 * [[analytic philosophy]]
 
