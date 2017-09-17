@@ -44,6 +44,8 @@ In ([Lawvere 86](#Lawvere86)) it is amplified that this [[duality]] is generally
 
 * the space of _extensive quantities_ on $X$ is the $R$-linear dual, namely the mapping space $[X,R]^\ast \coloneqq [[X,R], R]_{R Mod}$ formed in $R$-[[modules]] in $\mathbf{H}$.
 
+  (here the operation $[[-,R],R]_{R Mod}$ happens to be what is also called the "[[continuation monad]]" for $R$)
+
 * the [[integration]] map is the canonical [[evaluation]] pairing
 
   $$
