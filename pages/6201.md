@@ -183,7 +183,7 @@ $$
    \,.
 $$
 
-Since the component maps of the right vertical morphisms are surjective, the degreewise pullbacks in $\mathrm{SmoothMfd}$ that define $P'$ are all along [[transversal map]s, and thus the underlying
+Since the component maps of the right vertical morphisms are surjective, the degreewise pullbacks in $\mathrm{SmoothMfd}$ that define $P'$ are all along [[transversal map]]s, and thus the underlying
 objects in [[TopMfd]] are the pullbacks of the underlying topological manifolds.
 Therefore the degreewise  forgetful functor $\mathrm{SmoothMfd} \to \mathrm{TopMfd}$ presents
   $i_!$ on the outer diagram and sends this homotopy pullback to a homotopy pullback.
@@ -1016,7 +1016,7 @@ is the [[2-groupoid]] of $G$-[[principal 2-bundle]]s, whose connected components
 The first case is a special case of the second, it is sufficient to consider that.
 
 First we argue that $\mathbf{B}G$ is fibrant in 
-$[CartSp^{op}, sSet]_{proj, loc}$, hence that for $\{U_i \to \mathbb{R}^n}$ an [[open cover]] we have a weak equivalence
+$[CartSp^{op}, sSet]_{proj, loc}$, hence that for $\{U_i \to \mathbb{R}^n\}$ an [[open cover]] we have a weak equivalence
 
 $$
   \mathbf{B}C^\infty(\mathbb{R}^n, G)
@@ -1025,7 +1025,7 @@ $$
   \,,
 $$ 
 
-for $C(U)$ the [[Cech nerve]] of the good cover. Since the [[site]] [[CartSp]] with good open cover coverage is a [[Verdier site]], it follows by the statements discussed at _[[hypercover]]_ that every hypercover has a refinement by a [[split hypercover]], which is a cofibrant [[resolution]] in $[CartSp^{op}, sSet]_{proj,loc}$. But also $C(U) \to X$ is a cofibrant resolution. Hence by the existence of the global model structure and using that $\mathbf{B}G$ is fibrant in [CartSp^{op}, sSet]_{proj}, it follows that 
+for $C(U)$ the [[Cech nerve]] of the good cover. Since the [[site]] [[CartSp]] with good open cover coverage is a [[Verdier site]], it follows by the statements discussed at _[[hypercover]]_ that every hypercover has a refinement by a [[split hypercover]], which is a cofibrant [[resolution]] in $[CartSp^{op}, sSet]_{proj,loc}$. But also $C(U) \to X$ is a cofibrant resolution. Hence by the existence of the global model structure and using that $\mathbf{B}G$ is fibrant in $[CartSp^{op}, sSet]_{proj}$, it follows that 
 
 $$
   \pi_0[CartSp^{op}, sSet](C(U), \mathbf{B}G)
@@ -1438,8 +1438,6 @@ Write $\mathbf{B}G \in Smooth \infty Grpd$ for its [[delooping]].
 Recall the fibrant presentation 
 $\mathbf{B}G_c \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ from 
 [above](#DeloopedLieGroup).
-
-{#LieGroupFlatCoefficients}
 
 +-- {: .un_prop #LieGroupFibrantFlatInclusion}
 ###### Proposition
@@ -5144,7 +5142,7 @@ $$
   [CartSp_{smooth}^{op},sSet](\hat X, \mathbf{cosk}_{n+1}\exp(\mathfrak{g})_{diff})
 $$
 
-is the [[Kan complex]] of **[[connection on an ∞-bundle|pseudo n-connections]] on $G$-[[principal ∞-bundle]]s. 
+is the [[Kan complex]] of **[[connection on an ∞-bundle|pseudo n-connections]]** on $G$-[[principal ∞-bundle]]s. 
 
 =--
 
