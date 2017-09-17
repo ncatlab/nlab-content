@@ -391,36 +391,45 @@ is the forgetful 2-functor. A **morphism** of Schur functors is a modification b
 
 What this proposed definition makes manifestly obvious is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections.  However, we should first check that this proposed definition gives a category of Schur functors equivalent to the category $Schur$ defined earlier!  
 
-Before launching into the proof, it is worth looking at an easier problem where we replace categories by sets and replace symmetric monoidal linear Cauchy-complete categories by commutative rings.  
+Before launching into the proof, it is worth pondering an easier problem where we replace categories by sets, and symmetric monoidal linear Cauchy-complete categories by commutative rings.  
 So, instead of $Cat$ let us consider $Set$, and instead of $SymMonLinCauch$ let us consider $CommRing$.  There is a forgetful functor 
 
-$$ U : CommRing \to Set \, , $$
+$$ U : CommRing \to Set \, . $$
 
-and the set of natural transformations from this functor turns out to be $\mathbb{Z}[x]$, the set of polynomials in one variable with integer coefficients.  In fact $\mathbb{Z}[x]$ is the free commutative ring on one generator.  Similarly, the category $Schur$ will turn out to be the free symmetric monoidal linear Cauchy-complete category on one generator.  And indeed, the proofs follow the same pattern.  So let us start by sketching the proof of the easier result.
+What are the natural transformations from this functor to itself?  Clearly any polynomial $P \in \mathbb{Z}[x]$
+defines such a natural transformation, since for any commutative ring $R$ there is a function $P_R: U(R) \to U(R)$ given by
 
-First, we note that 
+$$ P_R : x \mapsto P(x) $$
+
+and this is clearly natural in $R$.  But in fact, the set of natural transformations from this functor turns out to be _precisely_ $\mathbb{Z}[x]$.  And the reason is that $\mathbb{Z}[x]$ is the free commutative ring on one generator!  
+
+To see this, note that the forgetful functor
 
 $$ U : CommRing \to Set  $$
 
-has a left adjoint
+has a left adjoint, the 'free commutative ring' functor
 
-$$ F : Set \to CommRing $$ 
+$$ F : Set \to CommRing \, . $$ 
 
-sending each set to the free commutative ring on that set.  The free commutative ring on a 1-element set is
+The free commutative ring on a 1-element set is
 
 $$ F(1) \cong \mathbb{Z}[x] $$
 
-and homomorphisms from $\mathbb{Z}[x]$ to any commutative ring $R$ are in one-to-one correspondence with elements of the underlying set $U(R)$, since
+and homomorphisms from $F(1)$ to any commutative ring $R$ are in one-to-one correspondence with elements of the underlying set $U(R)$, since
 
-$$ U(R) = hom(1, U(R)) = hom(F(1), R) $$
+$$ U(R) = hom(1, U(R)) = hom(F(1), R) \, . $$
 
-So, we say $F(1)$ [[representable functor|represents]] the functor $U$.   As a consequence, the set of natural transformations from $U$ to itself is isomorphic to the underlying set $U(F(1))$:
+So, we say $F(1)$ [[representable functor|represents]] the functor $U$.   This makes it easy to show that the set of natural transformations from $U$ to itself is isomorphic to the underlying set $U(F(1))$:
 
 $$hom(U,U) \simeq hom(hom(F(1), -), hom(F(1), -)) \simeq hom(F(1), F(1)) \simeq U(F(1))$$ 
 
-where in the second step we use the [[Yoneda lemma]] and in the third step we use the adjointness between $U$ and $F$.  So, the set of natural transformations from $U$ to itself is (the underlying set of) $\mathbb{Z}[x]$.
+In the first step here we use the representability $U = hom(F(1), -)$; in the second we use the [[Yoneda lemma]], and in the third  we use the adjointness between $U$ and $F$.   
 
-We follow this same strategy in the proof to come. 
+We shall use a categorified version of this argument to prove that $Schur$ is the category of endomorphisms of the 2-functor
+
+$$U: SymMonLinCauch \to Cat$$ 
+
+The key is that $Schur$ is the free symmetric monoidal linear Cauchy-complete category on one generator.  
 
 ## Representability ##
 
