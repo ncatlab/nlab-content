@@ -1,0 +1,10 @@
+
+
+* [webpage]
+(http://www2.warwick.ac.uk/fac/sci/maths/people/staff/marco_schlichting/)
+
+## related $n$Lab entries
+
+* [[Waldhausen K-theory of a dg-category]]
+
+category: people
