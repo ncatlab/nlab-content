@@ -22,7 +22,7 @@
 
 A basic characteristic of [[physics]] in the context of [[special relativity]] and [[general relativity]] is that causal influences on a [[Lorentzian manifold]] [[spacetime]] propagate in [[timelike]] or [[lightlike]] directions but not [[spacelike]].
 
-The fact that any two spacelike-separated regions of spacetime thus behave like [independent subsystems](http://ncatlab.org/nlab/show/quantum+mechanics#Subsystems) is called **causal locality** or **Einstein causality**.
+The fact that any two spacelike-separated regions of spacetime thus behave like [independent subsystems](http://ncatlab.org/nlab/show/quantum+mechanics#Subsystems) is called **causal locality** or, with a slightly stronger technical definition, **Einstein causality**.
 
 (One sometimes sees a further criterion to causality, that the causal influences in timelike and lightlike directions only propagate into the [[future]], but this is not so simply dealt with; it probably only makes sense as a statement about coarse-grained [[entropy]] in [[statistical physics]].)
 
