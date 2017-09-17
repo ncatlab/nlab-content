@@ -3,12 +3,20 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Limits
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### $(\infty,1)$-Limits and colimits
 +--{: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * automatic table of contents goes here
