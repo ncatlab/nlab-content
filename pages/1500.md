@@ -52,7 +52,7 @@ Providing a certain condition is satisfied, a pivotal structure on a fusion cate
 ### Relation to extended 3d TQFT 
  {#RelationtoTQFT}
 
-Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. This implies by the [[homotopy hypothesis]] that and how they induce 3d [[TQFT]]s.
+Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. This implies by the [[homotopy hypothesis]] that and how they induce  [[3d TQFT]]s.
 
 
 +-- {: .num_defn #MonCan}
@@ -133,12 +133,12 @@ The [[Tannaka duality]] to [[weak Hopf algebras]] is discussed in
  {#Ostrik}
 
 
-The relation to 3d TQFT is fully clarified in
+The relation to [[3d TQFT]] is fully clarified in
 
-* [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([talk pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
- {#DSPS}
+* {#DSPS} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([talk pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
+ 
 
-* [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
 
 For some discussion see
