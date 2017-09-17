@@ -282,8 +282,7 @@ $$
 
 =--
 
-This statement appears as ([Esnault-Viehweg 88, (7.9)](#EsnaultViehweg88)) with the arguments going into it appearing on p.55, 57 there.
-
+(e.g. [Esnault-Viehweg 88, (7.9)](#EsnaultViehweg88), [Peters-Steenbrink 08, lemma 7.20](#PetersSteenbrink08)) .
 
 +-- {: .proof}
 ###### Proof
@@ -369,8 +368,22 @@ $$
 may be thought of as the mid-degree [[self-dual higher gauge fields]] on $\Sigma$. From this point of view the above is the [[Kähler polarization]] of the [[prequantum line bundle]] on [[higher dimensional Chern-Simons theory]] in dimension $4k+3$.
 
 
+#### The intermediate Jacobian of a Hodge structure
 
+By prop. \ref{AsQuotientByHodgeFiltering} above
+the intermediate Jacobian is defined by the canonical 
+[[Hodge filtering]] on complex [[ordinary cohomology]].
+The definition obtained this way directly generalizes to 
+other [[Hodge structures]] $H$ and hence one
+speaks more generally of the intermediate Jacobian
 
+$$
+  J(H)= H_{\mathbb{C}}/(H_\mathbb{Z}\oplus F^{k+1})
+$$
+
+if $H$ has weight $2k+1$.
+
+(e.g. [Peters-Steenbrink 08, example 3.30, section 7.1.2](#PetersSteenbrink08))
 
 ### General
  {#GeneralDescripion}
@@ -630,8 +643,11 @@ Reviews and surveys include
 
 * Valentin Zakharevich, _Mixed Intermediate Jacobians_, 2012 ([pdf](http://www.algant.eu/documents/theses/zakharevich.pdf))
 
-
 * {#Polishchuk03} [[Alexander Polishchuk]], _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
+
+Discussion of the generalization to [[Hodge structures]] includes
+
+* {#PetersSteenbrink08} [[Chris Peters]], [[Jozef Steenbrink]], _[[Mixed Hodge Structures]]_, Ergebisse der Mathematik (2008) ([pdf](http://www.arithgeo.ethz.ch/alpbach2012/Peters_Steenbrinck))
 
 
 ### For Calabi-Yau 3-folds
