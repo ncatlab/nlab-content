@@ -15,13 +15,22 @@
 ## Idea
 
 We include here a phase of matter which is, at long distance
-and low energy, described by a [[topological quantum field theory]] (invariant under small smooth deformations of space-time) as well as the phases related to [[symmetry protected trivial order]]s. For the first see [[topological order]]. The ground state is typically degenerate (for reasonably nontrivial theories).
+and low energy, described by a [[topological quantum field theory]] (invariant under small smooth deformations of space-time) as well as the phases related to [[symmetry protected trivial order]]s (SPT orders). For the first see [[topological order]]. The ground state is typically degenerate (for reasonably nontrivial theories).
 
 Examples of topological states of matter: [[quantum Hall effect]], [[topological insulator]], [[quantum spin Hall effect]]
 
 * applications in [[graphene]], [[topological quantum computing]], study of [[entanglement]] etc. 
 
 Involves study of symmetry breaking, tensor categories, K-theory classification
+
+## Relation between SPT order and topological order
+
+This entry refers both [[topological order]] and [[SPT order]], and here is an comparison between them.
+* Both [[topological order]] and [[SPT order]] are beyond Landau symmetry breaking theory.
+* [[SPT state]]s are short-range entangled while [[topological order|topologically ordered]] states are long-range entangled. 
+* Topologically ordered states have emergent fractional charge, emergent fractional statistics, and emergent gauge theory. In contrast, SPT states have no emergent fractional charge/fractional statistics for finite-energy excitations, nor emergent gauge theory (due to their short-ranged entanglement).
+* SPT orders are described by group cohomology theory while [[topological order]]s are
+described by n-category theory. The SPT orders for free fermions are described by K-theory.
 
 ## Literature
 
