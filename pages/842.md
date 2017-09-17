@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -31,9 +31,10 @@ For $K$ and $C$ two [[quasi-category|quasi-categories]] and $F : K \to
 C$ an [[(∞,1)-functor]] (a morphism of the underlying [[simplicial set]]s) , the **limit** over $F$ is, if it exists, the [[terminal object in a quasi-category|quasi-categorical terminal object]] in the [[over quasi-category]] $C_{/F}$:
 
 $$
-  lim_{\leftarrow} F := TerminalObj(C_{/F})
-  \,.
+  \underset{\leftarrow}{\lim} F \coloneqq TerminalObj(C_{/F})
 $$
+
+(well defined up to a ontractible space of choices).
 
 A **colimit** in a quasi-category is accordingly an limit in the [[opposite quasi-category]].
 
@@ -49,7 +50,7 @@ The notation $C_{/F}$ denotes the definition of [[over quasi-category]] induced 
 So we also have
 
 $$
-  lim_{\leftarrow} F := TerminalObj(C^{/F})
+  \underset{\leftarrow}{\lim} F \coloneqq TerminalObj(C^{/F})
   \,.
 $$
 
@@ -63,6 +64,23 @@ See [[Higher Topos Theory|HTT, prop 4.2.1.5]].
 
 ## Properties 
 
+### Simplicial aspects
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[quasi-category]] and let 
+$f \colon K \to \mathcal{C}$ be a [[diagram]] with $(\infty,1)$-colimiting [[cocone]] $\tilde f \colon K \star \Delta^0 \to \mathcal{C}$. Then the induced map of [[slice (∞,1)-categories|slice quasi-categories]]
+
+$$
+  \mathcal{C}_{/\tilde f} \to \mathcal{C}_{f}
+$$
+
+is an [[acyclic Kan fibration]].
+
+=--
+
+This appears for instance in ([Lurie, proof of prop. 1.2.13.8](#Lurie)).
 
 ### In terms of $\infty$-Hom adjunction
 
@@ -829,6 +847,7 @@ A brief survey is on page 159 of
 A detailed account is in [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=48) in 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+ {#Lurie}
 
 
 ### In homotopy type theory
