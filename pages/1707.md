@@ -860,6 +860,8 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 * [[equivariant cohomology]]
 
+* [[Friedlander-Milnor isomorphism conjecture]]
+
 ## References 
 
 ### General
