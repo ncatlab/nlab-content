@@ -56,6 +56,9 @@ for all $X \in \Sm_S$.
 
 * {#Voevodsky} [[Vladimir Voevodsky]], section 3.1 of _Triangulated categories of motives over a field_, K-Theory, 74 (2000) ([pdf](http://math.illinois.edu/K-theory/0368/s5.pdf), [web](http://www.math.uiuc.edu/K-theory/0074/))
 
+* {#Levine06} [[Marc Levine]], section 3.2 of _Six lectures on motives_, ICTP lectures 2006 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Levine/Levine.pdf))
+
+
 In the more general context of [[abelian sheaf cohomology]] a kind of "transfer" is discussed in 
 
 * {#Piacenza84} Robert Piacenza, _Transfer in generalized sheaf cohomology_, Proceedings of the AMS, Volume 90, Number 4 (1984)
