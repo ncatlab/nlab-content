@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
 # The Cauchy integral theorem
 * table of contents
 {: toc}
@@ -20,6 +34,15 @@ $$ \int_{\gamma_1} f(z) \,\mathrm{d}z = 0 $$
 
 for $\gamma_2 \coloneqq 0$.
 
+## Related concepts
+
+* [[Cauchy's integral formula]]
+
+* [[Goursat theorem]]
+
+## References
+
+*Wikipedia, _[Cauchy integral theorem](https://en.wikipedia.org/wiki/Cauchy's_integral_theorem)_
 
 category: analysis
 
