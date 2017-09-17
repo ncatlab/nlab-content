@@ -1,0 +1,10 @@
+[[!redirects Jean-Benoit Bost]]
+
+
+* [webpage](http://www.math.u-psud.fr/~bost/Accueil.html)
+
+## related $n$Lab entries
+
+* [[Arakelov geometry]]
+
+category: people
