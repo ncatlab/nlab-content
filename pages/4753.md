@@ -12,8 +12,26 @@ Here we consider the latter definition and show how it may naturally be expresse
 
 ## Definition
 
-...
+In a [[dependent type theory]] with [[dependent record types]] we can define a type of categories as follows (using a two-dimensional syntax):
+\[\begin{aligned}
+  \biggl\{&\text{Obj}\colon\text{Type}, \\
+    &\frac{a,b\colon\text{Obj}}{\hom(a,b)\colon\text{Type}_=}, \\
+    &\frac{a\colon\text{Obj}}{1_a\colon\hom(a,a)}, \\
+    &\frac{f\colon\hom(b,c) \quad g\colon\hom(a,b)}{f\circ g\colon\hom(a,c)}, \\
+    &\text{left-unit}\text{:- }\frac{g\colon\hom(a,b)}{1_b\circ g=g}, \\
+    &\text{right-unit}\text{:- }\frac{f\colon\hom(a,b)}{f\circ 1_a=f}, \\
+    &\circ\text{-assoc}\text{:- }\frac{f\colon\hom(c,d) \quad
+        g\colon\hom(b,c) \quad h\colon\hom(a,b)}{f\circ(g\circ h) =
+        (f\circ g)\circ h} \\
+  &\!\biggr\}
+\end{aligned}\]
+Here, $\text{Type}$ is a type of types, and $\text{Type}_=$ is a type of types with equality predicates (we may or may not have $\text{Type}=\text{Type}_=$).
 
+The two-dimensional syntax is convenient to allow inference of [[implicit parameters]], and to signify notation. We read the horizontal line as a rule, so for instance the second line means that whenever $a$ and $b$ have type $\text{Obj}$, then we have a type $\hom(a,b)$ (with equality).
+
+The notation $p\text{:- }P$ signifies that $p$ is a proof of the proposition $P$ (under [[propositions as types]], this may be the same as $p\colon P$, but many type theories treat propositions as distinct from types).
+
+So the above defines that a category is a record consisting of a type of objects, and for each pair of objects a type of homomorphisms between them, and also identity and composition operations satisfying unit laws and associativity.
 
 [[!redirects type-theoretic definition of category]]
 [[!redirects type-theoretic definition of a category]]
