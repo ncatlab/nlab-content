@@ -67,6 +67,18 @@ The relationon between the 2d [[SCFT]] describing the [[type II superstring]] an
 
 * [[Urs Schreiber]], _On deformations of 2d SCFTs_, JHEP 0406:058,2004 ([arXiv:hep-th/0401175](http://arxiv.org/abs/hep-th/0401175))
 
+The relation of the [[partition function]] of supersymmetric quantum mechanics to [[index theory]] was suggested in unpublished work of [[Edward Witten]] and formulated in
+
+* [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([Euclid](http://projecteuclid.org/euclid.cmp/1103940278))
+ {#AlvarezGaume83}
+
+* [[Ezra Getzler]], _Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem_, Comm. Math. Phys. 92 (1983), 163-178. ([pdf](http://math.northwestern.edu/~getzler/Papers/1103940796.pdf))
+ {#Getzler83}
+
+*  [[Ezra Getzler]], _A short proof of the Atiyah-Singer index theorem_, Topology 25 (1986), 111-117 ([pdf](http://math.northwestern.edu/~getzler/Papers/local.pdf))
+ {#Getzler86}
+
+
 See also
 
 * Fred Cooper, Avinash Khare, Uday Sukhatme, _Supersymmetry and Quantum Mechanics_ Physics Reports Volume 251 (1995), 267-385. [arXiv:hep-th/9405029](http://arxiv.org/abs/hep-th/9405029)
