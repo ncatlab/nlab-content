@@ -23,6 +23,13 @@ Iterated integrals include nested [[integration of differential forms]] of the k
 
 Applied to higher degree forms iterated integrals serve to express generalized [[transgression]] of differential forms to [[loop spaces]] and other [[mapping spaces]] relaized as [[diffeological spaces]].
 
+## Related concepts
+
+* [[Chen connection]]
+
+* [[higher holonomy]]
+
+* [ordinary homology -- description in terms of higher linear algebra](ordinary%20homology#InTermsOfHigherLinearAlgebra)
 
 ## References
 
