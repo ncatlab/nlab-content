@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An [[object]] $U$ in a [[category]] $\mathcal{C}$ is called a _separator_ if [[generalized elements]] of domain $U$ are sufficient to distinguish [[morphisms]] in $\mathcal{C}$.
+
+## Definition
+
+An [[object]] $U \in \mathcal{C}$ of a [[locally small category]] $\mathcal{C}$ is called a **separator** or a **separating object** or is said to **separate morphisms** (or sometimes [[generator]]) if the [[hom functor]] $Hom(U,-) \colon \mathcal{C} \to $ [[Set]] is a [[faithful functor]]. 
+
+This means that for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$ we have that if $\forall_{U \stackrel{e}{\to} X}: u \circ f = u \circ g$ then $f = g$.
+
+[[!redirects separators]]
+[[!redirects separating object]]
+[[!redirects separating objects]]
