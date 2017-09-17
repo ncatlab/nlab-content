@@ -23,7 +23,11 @@
 
 ## Idea
 
-Directly analogous to the concept of [[completion of a ring]] is the _completion of a module_ over that ring.
+Directly analogous to the concept of [[completion of a ring]] is the _completion of a module_ over that ring. 
+
+In particular the [[formal completion]] or _adic completion_ of a ring $A$ at an ideal $\mathfrak{a}$ has a corresponding analog for modules. Where the adic completion $A_{\mathfrak{a}}^\wedge$ of the ring itself has the geometric interpretation of forming the [[formal neighbourhood]] $Spf(A_{\mathfrak{a}}^\wedge)$ of [[spectrum of a commutative ring|ring spectra]] $Spec(A/\mathfrak{a}) \hookrightarrow Spec(A)$, so under the interpretation (see [here](module#RelationToVectorBundlesInIntroduction)) of $A$-[[modules]] as [[bundles]] over $Spec(A)$, the $\mathfrak{a}$-adic completion $N_{\mathfrak{a}}^\wedge$ of an $A$-module $N$ has the interpretation of being the restriction of that bundle to that formal neighbourhood.
+
+
 
 ## Definition
 
@@ -39,8 +43,9 @@ $$
   \coloneqq
   \underset{\leftarrow}{\lim}_n
   N/(\mathfrak{a}^n N)
-  \,.
 $$
+
+of [[quotients]] of $N$ by the submodules induced by all powers of the ideal.
 
 =--
 
