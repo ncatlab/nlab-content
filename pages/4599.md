@@ -210,7 +210,7 @@ is the pullback over a cospan all whose objects are fibrant and one of whose mor
 
 ## de Rham cohomology {#OrdinaryDeRham}
 
-The intrinsic de Rham cohomology of [[Smooth∞Grpd]] with coefficients in $\mathbb{R}$ or $U(1) = \mathbb{R}/\mathbb{Z}$ coincides with the ordinary [[de Rham cohomology]] of [[nLab:smooth manifold]]s and smooth [[simplicial manifold]]s in degree greater than 1. This we discuss here. The meaning of the discrepancy in degee 1 and lower is discussed [below](#U1GroupoidBundle).
+The intrinsic de Rham cohomology of [[Smooth∞Grpd]] with coefficients in $\mathbb{R}$ or $U(1) = \mathbb{R}/\mathbb{Z}$ coincides with the ordinary [[de Rham cohomology]] of [[smooth manifold]]s and smooth [[simplicial manifold]]s in degree greater than 1. This we discuss here. The meaning of the discrepancy in degee 1 and lower is discussed [below](#U1GroupoidBundle).
 
 So for this section let $n \in \mathbb{N}$ with $n \geq 2$.
 
@@ -238,7 +238,7 @@ $$
   \,,
 $$ 
 
-where on the left we have the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic (∞,1)-topos theoretic notion of de Rham cohomology</a>, and on the right the ordinary  notion of [[nLab:de Rham cohomology]] of a smooth manifold.
+where on the left we have the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20%28infinity,1%29-topos#deRhamCohomology">intrinsic (∞,1)-topos theoretic notion of de Rham cohomology</a>, and on the right the ordinary  notion of [[nLab:de Rham cohomology]] of a smooth manifold.
 
 =--
 
