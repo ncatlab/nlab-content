@@ -33,7 +33,8 @@ A number of people, starting with Lawvere, have defined "doctrine" to mean [[2-m
 
 In particular, the morphisms between such theories are not all representable by morphisms of monads.  For instance, there is a morphism of theories from the theory of commutative rings to the theory of abelian groups which sends a ring to its multiplicative group of units, but this is not induced by any morphism of monads because it does not preserve the underlying set.  Likewise, not all "morphisms of doctrines" are representable by morphisms of 2-monads.
 
-(other possible definitions...?)
+The word doctrine can also be used to design a particular setting for categorical logic (e.g., categories with finite products, etc...).
+This can also be formalized in a more general way using weak higher categories. This generalization is necessary to treat complicated algebraic structures like symmetric operads or higher operads in a categorical logical way.
 
 ## Related concepts
 
@@ -45,5 +46,12 @@ In particular, the morphisms between such theories are not all representable by 
 
 
 ## References
+
+For a simple abstract (non-computational) definition of a notion of doctrine, pedagogically aimed and based on weak n-categories, see:
+
+* [[Frédéric Paugam]]: Chapter 1 of
+[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
+
+Other reference:
 
 * [Algebraic Geometry for Category Theorists (blog post)](http://golem.ph.utexas.edu/category/2009/06/algebraic_geometry_for_categor.html)
