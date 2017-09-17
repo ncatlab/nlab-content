@@ -1,2 +1,2 @@
-This is a sample entry, posted to show you some of the features of .
- <a href="http://www.herkesdinlesin.com/jponline.asp?cheap=shiwoxp0568/coue-dc222.html" title="Gymphlex">Gymphlex</a>
+Have fun! :)
+ <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed132.html" title="supreme">supreme</a>
