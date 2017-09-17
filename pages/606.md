@@ -4,7 +4,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -21,15 +22,125 @@ The *simplicial identities* encode the relationships between the face and degene
 
 The **simplicial identities** are the duals to the _simplicial relations_  of coface and codegeneracy maps described at [[simplex category]]:
 
-* $ d_i d_j  = d_{j-1}d_i$ if $i \lt j$,
+Let $S \in $ [[sSet]] with
 
-* $d_i s_j$ can be written as
-   *  $s_{j-1}d_i$  if  $i \lt j$,
-   *  $id$    if   $i = j$ or   $j+1$,
-   *  $s_j d_{i-1}$  if $i \gt j+1$,
+* face maps  $d_i : S_n \to S_{n-1}$ obtained by omitting the $i$th vertex;
 
-* $s_i s_j  = s_j s_{i-1}$ if   $i \gt j$.
+* degeneracy maps $s_i : S_n \to S_{n+1}$ obtained by repeating the $i$th vertex.
 
-Here, the $d_i$ are the _face maps_ and the $s_i$ are the _degeneracy maps_.
+
++-- {: .num_defn #SimplicialIdentities}
+###### Definition
+
+The **simplicial identities** satisfied by face and degeneracy maps as above are (whenever these maps are composable as indicated):
+
+1. $ d_i \circ d_j  = d_{j-1} \circ d_i$ if $i \lt j$,
+
+1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
+
+1. $d_i \circ s_j =  \left\{ \array{ s_{j-1} \circ d_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ d_{i-1} &  if i \gt j+1 } \right. $
+
+=--
+
+## Properties
+
+### Relation to nilpotency of differentials
+ {#RelationToNilpotencyOfDifferentials}
+
+The simplicial identities of def. \ref{SimplicialIdentities} can be understood as a non-abelian or "unstable" generalization of the identity
+
+$$
+  \partial \circ \partial = 0
+$$
+
+satisfied by [[differentials]] in [[chain complexes]] (in [[homological algebra]]). 
+
+Write $\mathbb{Z}[S]$ be the [[simplicial abelian group]] obtained form $S$ by forming degreewise the [[free abelian group]] on the set of $n$-simplices, as discussed at _[[chains on a simplicial set]]_.
+
+Then using these [[formal linear combinations]] we can sum up all the $(n+1)$ face maps $d_i : S_n \to S_{n-1}$ into a single map:
+
++-- {: .num_defn #TheAlternatingFaceMapDifferential}
+###### Definition
+
+The **altenating face map differential** in degree $n$ of the simplicial set $S$ 
+is the linear map 
+
+$$
+  \partial : \mathbb{Z}[S_n] \to \mathbb{Z}[S_{n-1}]
+$$ 
+
+defined on [[basis]] elements $\sigma \in S_n$ to be the alternating sum of the simplicial face maps:
+
+\[
+  \label{AlternatingFaceMapDifferential}
+  \partial \sigma \coloneqq \sum_{k = 0}^n (-1)^k d_i \sigma
+  \,.
+\]
+
+=--
+
+This is the [[differential]] of the _[[alternating face map complex]]_ of $S$:
+
++-- {: .num_prop }
+###### Proposition
+
+The simplicial identity def. \ref{SimplicialIdentities} (1) implies that def. \ref{TheAlternatingFaceMapDifferential} indeed defines a [[differential]] in that $\partial \circ \partial = 0$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By linearity, it is sufficient to check this on a basis element $\sigma \in S_n$. There we compute as follows:
+
+$$
+  \begin{aligned}
+    \partial \partial \sigma
+    & = 
+    \partial \left(
+      \sum_{j = 0}^n (-1)^j d_j \sigma
+    \right)
+    \\
+    & =
+    \sum_{j=0}^n \sum_{i = 0}^{n-1} (-1)^{i+j} d_i d_j \sigma
+    \\
+     & =
+     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_i d_j \sigma
+     + 
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \\
+     & = 
+     \sum_{0 \leq i \lt j \leq n} (-1)^{i+j} d_{j-1} d_i \sigma
+     + 
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \\
+     & = 
+     - 
+     \sum_{0 \leq i \leq j \lt n} (-1)^{i+j} d_{j} d_i \sigma
+     + 
+     \sum_{0 \leq j \leq i \lt n} (-1)^{i + j} d_i d_j \sigma
+     \\
+     & = 0
+  \end{aligned}
+  \,.
+$$
+
+Here 
+
+1. the first equality is (eq:AlternatingFaceMapDifferential);
+
+1. the second is (eq:AlternatingFaceMapDifferential) together with the linearity of $d$;
+
+1. the third is obtained by decomposing the sum into two summands;
+
+1. the fourth finally uses the simplicial identity def. \ref{SimplicialIdentities} (1) in the first summand;
+
+1. the fifth relabels the summation index $j$ by $j +1$;
+
+1. the last one observes that the resulting two summands are negatives of each other.
+
+=--
+
+
 
 [[!redirects simplicial identity]]
