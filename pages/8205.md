@@ -92,6 +92,9 @@ Original articles include
 
 * [[Zvi Bern]], [[Lance Dixon]], [[David Kosower]], _On-Shell Methods in Perturbative QCD_ ([arXiv:0704.2798](http://arxiv.org/abs/0704.2798))
 
+* [[Joseph Polchinski]], [[Matthew Strassler]], _Hard Scattering and Gauge/String Duality_, Phys.Rev.Lett.88:031601,2002, ([arXiv:hep-th/0109174](http://lanl.arxiv.org/abs/hep-th/0109174))
+
+
 
 
 ##### Quark-gluon plasma
@@ -104,6 +107,15 @@ Properties of [[quark-gluon plasma]] from [[AdS/CFT|AdS/CFT-dual]] [[type II str
 * Makoto Natsuume, _String theory and quark-gluon plasma_ ([arXiv:hep-ph/0701201](http://arxiv.org/abs/hep-ph/0701201))
 
 * [[Steven Gubser]], _Using string theory to study the quark-gluon plasma: progress and perils_ ([arXiv:0907.4808](http://arxiv.org/abs/0907.4808))
+
+#### To the confinement problem
+
+Discussion of [[confinement]] in the context of the [[AdS-CFT correspondence]] is in
+
+* D. S. Berman, Maulik K. Parikh, _Confinement and the AdS/CFT Correspondence_, Phys.Lett. B483 (2000) 271-276 ([arXiv:hep-th/0002031](http://es.arxiv.org/abs/hep-th/0002031))
+
+* Henrique Boschi Filho, _AdS/QCD and confinement_, Seminar at the _Workshop on Strongly Coupled QCD: The confinement problem_, November 2011 ([pdf](http://www.if.ufrj.br/~boschi/pesquisa/seminarios/AdS_QCD_Confinement_UERJ_2011.pdf))
+
 
 #### To super Yang-Mills theory
 
