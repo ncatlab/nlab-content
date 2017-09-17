@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
 =--
 =--
 
