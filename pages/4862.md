@@ -13,7 +13,7 @@
 =--
 
 # Contents
-* the following line creates the automatic table of contents
+* table of contents
 {: toc}
 
 ## Idea
@@ -33,6 +33,10 @@ and it is one of the basic building blocks for lots of areas of mathematics, inc
 
 
 ## Definition
+
+We consider the circle first as a [[topological space]], then as the [[homotopy type]] represented by that space.
+
+### As a topological space
 
 +-- {: .num_defn #circle}
 ###### Definition
@@ -55,10 +59,36 @@ The two most common definitions of the circle are:
 
 The standard equivalence of the two definitions is given by the map $\mathbb{R} \to \mathbb{C}$, $t \mapsto e^{2 \pi i t}$.
 
+### As a homotopy type
+
+As a [[homotopy type]] the circle is for instance the [[homotopy pushout]]
+
+$$
+  S^1 \simeq * \coprod_{* \coprod * } * 
+  \,.
+$$
+
+A formalization as a [[higher inductive type]] in [[homotopy type theory]] is given by
+
+    Axiom circle : Type.
+
+    Axiom base : circle.
+    Axiom loop : base ~~> base.
+
+See ([Shulman](#Shulman)).
 
 ## Properties
 
-The circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]], but its higher [[homotopy groups]] $\pi_n(S^1)$, $n \gt 1$ vanish (and so is a [[homotopy type|homotopy 1-type]]). The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s.
+The circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]]. Its first [[homotopy group]] is the [[integer]]s
+
+$$
+  \pi_1(S^1) \simeq \mathbb{Z}
+  \,.
+$$
+
+(A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).)
+
+But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s.
 
 The [[product]] of the circle with itself is the [[torus]]
 
@@ -68,6 +98,18 @@ $$
 $$
 
 Generally, the $n$-torus is $(S^1)^n$.
+
+## References
+
+A formalization in [[homotopy type theory]] is in
+
+* [[Mike Shulman]], _[Circle.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Circle.v)_
+  {#Shulman}
+
+The proof that $\pi_1(S^1) \simeq \mathbb{Z}$ in this context is in
+
+* [[Mike Shulman]], _[P1S1.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Pi1S1.v)_
+
 [[!redirects circle]]
 [[!redirects circles]]
 [[!redirects Circle]]
