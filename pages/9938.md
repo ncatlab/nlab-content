@@ -58,7 +58,8 @@ $B P$ is related to [[p-typical formal groups]] as [[MU]] is to [[formal groups]
 
 ### Hopf algebroid structure on dual BP-Steenrod algebra
 
-The [[Hopf algebroid]] structure on the dual $BP$-[[Steenrod algebra]]
+The structure of [[Hopf algebroid over a commutative base]]
+on the dual $BP$-[[Steenrod algebra]]
 $BP_\bullet(BP)$ is described by the [[Adams-Quillen theorem]].
 
 ### Relation to Adams-Novikov spectral sequence
