@@ -1,7 +1,7 @@
 [[!redirects wall crossing in Aarhus]]
 
 
-[[Maxim Kontsevich]] tought a master class on [[wall crossing]] in Aarhus, August 16-20, 2010
+[[Maxim Kontsevich]] taught a master class on [[wall crossing]] in Aarhus, August 16-20, 2010
 
 * ([master class webpage](http://qgm.au.dk/events/show/artikel/masterclass-aug-2010/), [video recording](http://qgm.au.dk/video/mc/wall-crossing/))
 
