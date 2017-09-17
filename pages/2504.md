@@ -155,6 +155,7 @@ See [[D'Auria-Fre formulation of supergravity]].
 
 [[supergravity Lie 6-algebra]] $\to$ **supergravity Lie 3-algebra** $\to$ [[super Poincaré Lie algebra]]
 
+* [[type II supergravity Lie 2-algebra]]
 
 ## References
 
