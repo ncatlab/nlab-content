@@ -69,7 +69,7 @@ The first fits into the general [[inductive definition]] of [[n-groupoid]]: an $
 
 We discuss the [[categorical semantics]] of h-propositions.
 
-Let $\mathcal{C}$ be a [[locally cartesian closed category]] with [[categorical semantics of homotopy type theory|sufficient structure]] to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[trivial cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of [[coherence]], which are not important for this discussion.)
+Let $\mathcal{C}$ be a [[locally cartesian closed category]] with [[categorical semantics of homotopy type theory|sufficient structure]] to interpret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[trivial cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of [[coherence]], which are not important for this discussion.)
 
 Then for a fibrant object $A$, the object $isProp(A)$ defined above (with the first definition) is obtained by taking [[dependent product]] of the path-object $A^I \to A\times A$ along the projection $A\times A\to 1$.  By [[adjunction]], a [[global element]] of $isProp(A)$ is therefore equivalent to a [[section]] of the path-object, which exactly means a (right) [[homotopy]] between the two projections $A\times A\;\rightrightarrows\; A$.  The existence of such a homotopy, in turn, is equivalent to saying that *any two maps $X\;\rightrightarrows\; A$ are homotopic*.
 
