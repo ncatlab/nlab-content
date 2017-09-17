@@ -104,6 +104,9 @@ Compos. Math. 143 (2007), no. 5, 1335--1358.
 
 * A. I. Bondal, M. Larsen, V. A. Lunts, _Grothendieck ring of pretriangulated categories_ (<a href="http://front.math.ucdavis.edu/0401.5009">arXiv</a>)
 
+* Oren Ben-Bassat, [[Jonathan Block]], _Cohesive DG categories I: Milnor descent_, [arxiv/1201.6118](http://arxiv.org/abs/1201.6118)
+
+
 See also [[motives and dg-categories]].
 
 
