@@ -1,0 +1,17 @@
+terminology by [[Bill Lawvere]]:
+
+* an [[algebraic theory]] $T$: an _abstract general_ ;
+
+* the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$: a _concrete general_ ;
+
+* an [[object]] of $T Mod(E)$: a _concrete particular_
+
+(is the last one right?)
+
+[[!redirects abstract general]]
+[[!redirects concrete general]]
+[[!redirects concrete particular]]
+
+[[!redirects abstract generals]]
+[[!redirects concrete generals]]
+[[!redirects concrete particulars]]
