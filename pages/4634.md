@@ -166,7 +166,7 @@ which is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect c
 
 A survey is in 
 
-* [[Goncalo Tabuada]], _A guided tour through the garden of noncommutative motives_, ([arxiv1108.3787](http://arxiv.org/abs/1108.3787));
+* [[Goncalo Tabuada]], _A guided tour through the garden of noncommutative motives_, in Guillermo Cortinas, _Topics in Noncommutative Geometry_ Clay Mathematics Proceedings Vol 16, 2012 ([arxiv1108.3787](http://arxiv.org/abs/1108.3787));
  {#Tabuada11} 
 
 Discussion of [[Maxim Kontsevich]]'s definition of 
