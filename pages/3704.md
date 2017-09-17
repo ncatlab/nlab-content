@@ -6,6 +6,14 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
