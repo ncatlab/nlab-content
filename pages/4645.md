@@ -2185,7 +2185,7 @@ The following observation on [[Lie integration]] (see there for details) is clas
 ###### Proposition
 
 
-For $\mathfrak{g}$ a (finite-dimensonal) [[Lie algebra]], $G$ the [[simply-connected]] [[Lie group]] that integrates it according to [[Lie's three theorems]], $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]], we have an [[isomorphism]]
+For $\mathfrak{g}$ a (finite-dimensonal) [[Lie algebra]], $G$ the [[simply-connected]] [[Lie group]] integrating it according to [[Lie's three theorems]] and  $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]], we have an [[isomorphism]]
 
 $$
   \mathbf{B}G  
@@ -2209,9 +2209,9 @@ of $\mathbf{B}G$ with the presheaf that to $U \in CartSp$ assigns the groupoid t
 
 =--
 
-Unwinding a bit what this means, notice that dg-algebra-morphisms $CE(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with [[Lie algebra valued 1-forms]] $A \in \Omega^1(X, \mathfrak{g})$, whose [[curvature]] 2-form vanishes, $F_A = 0$: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition.
+Unwinding what this means, notice that dg-algebra-morphisms $CE(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with [[Lie algebra valued 1-forms]] $A \in \Omega^1(X, \mathfrak{g})$, whose [[curvature]] 2-form vanishes, $F_A = 0$: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition. It is this elementary but important observation that [histrotically](#http://ncatlab.org/nlab/show/Chern-Weil+theory#History) led [[Eli Cartan]] to [[Cartan calculus]] and the algebraic formulation of [[Chern-Weil theory]].
 
-So the presheaf $\exp(\mathfrak{g})$ has a 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
+So the presheaf $\exp(\mathfrak{g})$ has as 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
 
 Another classical dg-algebra associated with $\mathfrak{g}$ is its [[Weil algebra]] $W(\mathfrak{g})$. This is precisely characterized by the fact that dg-algebra homomorphisms $W(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with arbitrary, not-necessarily flat, $\mathfrak{g}$-valued forms.
 
@@ -2219,6 +2219,8 @@ Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in 
 
 +-- {: .un_lemma}
 ###### Observation
+
+The presheaf $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ is isomorphic to
 
 $$
   \mathbf{B}G_{diff}  : 
@@ -2239,19 +2241,27 @@ $$
       }
     \right\}
    ) 
-  \,.
+  \,
 $$
+
+where on the right we have the 1-truncation of the simplicial presheaf of diagram as indicated, where the vertical morphisms are the canonical ones.
 
 =--
 
-Here over a given $U$ the bottom morphism in such a diagram is an arbitrary $\mathfrak{g}$-valued 1-form $A$ on $U \times \Delta^k$. This we can decompose as $A = A_U + A_{vert}$, where $A_U$ vanishes on tangents to $\Delta^k$ and $A_{vert}$ on tangents to $U$. The commutativity of the diagram asserts that $A_{vert}$ has to be such that the  curvature 2-form $F_{A_{vert}}$ vanishes when both its arguments are tangent to $Delta^k$.
-
-We will see that it is not a coincidence that this is reminiscent to the first condition on an [[Ehresmann connection]] on a $G$-principal bundle, which asserts that restricted to the fibers a connection 1-form on the total space of the bundle has to be flat.
+Here over a given $U$ the bottom morphism in such a diagram is an arbitrary $\mathfrak{g}$-valued 1-form $A$ on $U \times \Delta^k$. This we can decompose as $A = A_U + A_{vert}$, where $A_U$ vanishes on tangents to $\Delta^k$ and $A_{vert}$ on tangents to $U$. The commutativity of the diagram asserts that $A_{vert}$ has to be such that the  curvature 2-form $F_{A_{vert}}$ vanishes when both its arguments are tangent to $\Delta^k$.
 
 On the other hand, there is in the above no further constraint on $A_U$. Accordingly, as we pass to the 1-truncation of $\exp(\mathfrak{g})_{diff}$ we find that morphisms are of the form $(A_U)_1 \stackrel{g}{\to} (A_U)_2$ with $(A_U)^i$ arbitrary. This is the definition of $\mathbf{B}G_{diff}$.
 
 
-We want to ignore the truncation issue for a moment to come back to it later and consider these simplicial presheaves untruncated. For that we write
++-- {: .un_remark}
+###### Remark
+
+We see below that it is not a coincidence that this is reminiscent to the first condition on an [[Ehresmann connection]] on a $G$-principal bundle, which asserts that restricted to the fibers a connection 1-form on the total space of the bundle has to be flat. Indeed, the presheaf $\mathbf{B}G_{diff}$ may be thought of as the $(\infty,1)$-sheaf of pseudo-connections on _trivial_ $\infty$-bundles. Imposing on this also the second Ehresmann condition will force the pseudo-connection to be a genuine connection.
+
+=--
+
+We now describe [[characteristic class]]es and [[curvature characteristic form]]s on $G$-bundles in terms of these simplicial presheaves.
+For that purpose it is useful for a moment to ignore the truncation issue -- to come back to it later -- and consider these simplicial presheaves untruncated. For that we write
 
 $$
   \exp(\mathfrak{g})_{diff}  : 
@@ -2274,13 +2284,26 @@ $$
   \,.
 $$
 
-For every [[∞-Lie algebra cocycle]] $CE(\mathfrak{g}) \leftarrow CE(b^n \mathbb{R}) : \mu$ we get a map 
+To see characteristic classes in this picture, write $CE(b^{n-1} \mathbb{R})$ for the commutative real [[dg-algebra]] on a single generator in degree $n$ with vanishing differential. As our notation suggests, this we may think as the [[Chevalley-Eilenberg algebra]] of a _higher Lie algebra_  -- the [[∞-Lie alg]] $b^{n-1} \mathbb{R$ -- which is an [[Eilenberg-MacLane object]] in the [[homotopy theory]] of [[∞-Lie algebra]]s, representing [[∞-Lie algebra cohomology]] in degree $n$ with coefficients in $\mathbb{R}$.
+
+Restating this in elementary terms, we may simply observe that [[dg-algebra]] [[homomorphism]]s
+
+$$
+  CE(\mathfrak{g}) \leftarrow CE(b^{n-1}\mathbb{R}) : \mu
+$$
+
+are in natural bijection with elements $\mu \in CE(\mathfrak{g})$ of degree $n$, that are closed, $d_{CE(\mathfrak{g})} \mu = 0$. This is the classical description of a cocycle in the [[Lie algebra cohomology]] of $\mathfrak{g}$.
+
++-- {: .un_def}
+###### Definition
+
+Every such $\infty$-Lie algebra cocycle $\mu$ induces a morphism of simplicial presheaves
 
 $$
   \exp(\mu) : \exp(\mathfrak{g}) \to \exp(b^n \mathbb{R})
 $$
   
-by postcomposition
+given by postcomposition
 
 $$
   \Omega^\bullet_{vert}(U \times \Delta^l)
@@ -2291,9 +2314,71 @@ $$
   \,.
 $$
 
-We are looking for a way to extend this to $\exp(\mathfrak{g})_{diff}$. 
+=--
 
-**Observation** Such an extention is given by an [[invariant polynomial]] $\langle - \rangle$ in transgression with $\mu$ and a [[Chern-Simons form|Chern-Simons element]] $cs$ exhibiting that transgression in that
++-- {: .un_example}
+###### Example
+**(first Pontryagin class)**
+
+Assume $\mathfrak{g}$ to be a [[semisimple Lie algebra]], let $\langle -,-\rangle$ be the [[Killing form]] and $\mu = \langle -,[-,-]\rangle$ the corresponding 3-cocycle in [[Lie algebra cohomology]]. We may assume without restriction that this cocycle is normalized such that its left-invariant continuation to a 3-form on $G$ has integral [[period]]s. Observe that since $\pi_2(G)$ is trivial we have that the 3-[[coskeleton]] of $\exp(\mathfrak{g})$ is equivalent to $\mathbf{B}G$. By the inegrality of $\mu$, the operation of $\exp(\mu)$ on $\exp(\mathfrak{g})$ followed by integration over simplices descends to an [[∞-anafunctor]] from $\mathbf{B}G$ to $\mathbf{B}^3 U(1)$, as indicated on the right of this diagram in $[CartSp^{op}, sSet]$
+
+$$
+  \array{
+     && \exp(\mathfrak{g}) &\stackrel{\exp(\mu)}{\to}&
+     \exp(b^{n-1}\mathbb{R})
+     \\
+      && \downarrow && \downarrow^{\mathrlap{\int_{\Delta^\bullet}}}
+     \\
+     C(V) & \stackrel{\hat g}{\to}& \mathbf{cosk}_3 \exp(\mathfrak{g})
+     &\stackrel{\int_{\Delta^\bullet}\mathbf{cosk}_3 \exp(\mu)}{\to}&
+     \mathbf{B}^3 \mathbb{R}/\mathbb{Z}
+     \\
+     \downarrow&\to& \downarrow^{\mathrlap{\simeq}}
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+  \,.
+$$
+
+Precomposing with this a cocycle $X \stackrel{\simeq}{\leftarrow}C(U)\stackrel{g}{\to} \mathbf{B}G$ for a $G$-principal bundle , hence a collection of transition functions $\{g_{i j} : U_i \cap U_j \to G\}$ amounts to choosing (possibly on a refinement $V$ of the cover $U$ of $X$)
+
+* on each $V_i \cap V_j$ a lift of $g_{i j}$ to a familly of smooth based paths in $G$  $\hat g_{i j} : (V_i \cap V_j) \times \Delta^1 \to G$ with endpoints $g_{i j}$;
+
+* on each $V_i \cap V_j \cap V_k$ a smooth family  $\hat g_{i j k} : (V_i \cap V_j \cap V_k) \times \Delta^2 \to G$ of disks interpolating between these paths;
+
+* on each $V_i \cap V_j \cap V_k \cap V_l$ a a smooth family  $\hat g_{i j k l} : (V_i \cap V_j \cap V_k \cap V_l) \times \Delta^3 \to G$ of 3-balls interpolating between these disks.
+
+On this datat the morphism $\int_{\Delta^\bullet} \exp(\mu)$ acts by sending each 3-cell to the number
+
+$$
+  \hat g_{i j k l} \mapsto \int_{\Delta^3} \hat g_{i j k l}^* \mu
+  \;\;  mod \mathbb{Z}
+  \,,
+$$
+
+where $\mu$ is regarded in this formula as a closed 3-form on $G$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The [[Cech cohomology]] cocycle obtained this way is the first [[Pontryagin class]] of the $G$-bundle classified by $G$.
+
+=--
+
+This follows by observing that the composition of [[∞-anafunctor]]s as spelled out in components above is verbatim the construction of Cech cocycles for the first Pontryagin class as given in ([BryMac](#BrylinskiMacLaughlin)). These authors proved that this is indeed the claimed class by refining this $U(1)$-cocycle to [[Deligne cohomology]] and computing its [[curvature]] 4-form. As we proceed now, we will see that this refinement, too, is obtained as a composition of $\infty$-anafunctors for cocycles of bundles with connection.
+
+For that purpose, we need to extend $\exp(\mu)$ from a map on just $\exp(\mathfrak{g})$ to a map on $\exp(\mathfrak{g})_{diff}.
+
++-- {: .un_prop}
+###### Proposition
+
+Such an extention is given by an [[invariant polynomial]] $\langle - \rangle$ in transgression with $\mu$ and a [[Chern-Simons form|Chern-Simons element]] $cs$ exhibiting that transgression in that
 
 $$
   \array{
@@ -2304,6 +2389,7 @@ $$
      \mu &\leftarrow& cs
      \\
      \\
+     \\
      CE(\mathfrak{g}) &\leftarrow& W(\mathfrak{g})
      &\leftarrow&
      inv(\mathfrak{g})
@@ -2311,7 +2397,9 @@ $$
   \,.
 $$
 
-Using this we can extend the cocycle to a square
+=--
+
+Because using this we can extend the cocycle to a square
 
 $$
   \array{
