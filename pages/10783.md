@@ -77,7 +77,7 @@ By [[Isbell duality|formal duality]] and [[sheafification|locality]] this yields
 +-- {: .num_defn }
 ###### Definition
 
-Write [[CRing]] for the [[category]] of [[commutative rings]].
+Write [[CRing]]${}_{fin}$ for the [[category]] of [[finitely generated]] [[commutative rings]].
 Write $Sh(CRing)$ for the [[category of sheaves]] ([[presheaves]], [[(infinity,1)-presheaves]]) over $CRing$.
  
 =--
@@ -88,10 +88,10 @@ Write $Sh(CRing)$ for the [[category of sheaves]] ([[presheaves]], [[(infinity,1
 Write
 
 $$
-  Red \;\colon\; CRing \longrightarrow CRing
+  Red \;\colon\; CRing_{fin} \longrightarrow CRing_{fin}
 $$
 
-for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, where $I$ is the [[nilradical]].
+for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, hence its [[quotient]] by its [[nilradical]] $I$.
 
 =--
 
@@ -101,7 +101,7 @@ for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced sche
 There is an [[adjoint triple]] of [[idempotent monad|idempotent]] [[comonad|co]]-[[monads]]
 
 $$
-  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing) \longrightarrow PSh(CRing)
+  (Red \dashv \int_{inf} \dashv \flat_{inf}) \;\colon\; PSh(CRing_{fin}) \longrightarrow PSh(CRing_{fin})
 $$
 
 where the [[left adjoint]] [[comonad]] $Red$ is given on [[representable functor|representables]] by the [[reduced scheme|reduction]] functor of def. \ref{ReductionOnRings}.
