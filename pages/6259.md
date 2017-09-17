@@ -62,7 +62,8 @@ in dimension $4k+3$ (for $k \in \mathbb{N}$) is [[holographic principle|holograp
 * $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
 
 
-#### Some details
+#### Conformal structure from polarization
+ {#ConformalStructureFromPolarization}
 
 We indicate why [[higher dimensional Chern-Simons theory]] is -- if holographically related to anything -- holographically related to [[self-dual higher gauge theory]].
 
