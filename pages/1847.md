@@ -60,7 +60,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
        for any open ball $B$ in $H_n$, then $E$ is paracompact, and furthermore admits _smooth_ partitions of unity. 
 
-       ( _Bry_ , section I.4)
+       ( [Brylinski, section I.4](#Brylinski))
 
        +-- {: .query}
        [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
@@ -147,6 +147,8 @@ Care should be taken as to which category one constructs partitions of unity on 
 
 ## References 
 
+* Brian Conrad, _Paracompactness and local compactness_ ([pdf](http://math.stanford.edu/~conrad/diffgeomPage/handouts/paracompact.pdf))
+
 *  the English Wikipedia\'s [article](http://en.wikipedia.org/wiki/Paracompact_space)
 
 Some properties of paracompact spaces are listed and proven in
@@ -155,8 +157,8 @@ Some properties of paracompact spaces are listed and proven in
 
 A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Čech cohomology]] is around page 32 of
 
-* **Bry** Brylinski, _Loop spaces, characteristic classes geoemetric quantization_
-
+* [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes geoemetric quantization_
+{#Brylinski}
 
 
 
