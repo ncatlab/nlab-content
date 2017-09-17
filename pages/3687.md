@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc} 
@@ -38,6 +37,10 @@ This categorical formulation was introduced by [[Maxim Kontsevich]] in 1994 unde
 
 The mirror symmetry conjecture roughly claims that every Calabi-Yau 3-fold has a mirror. In fact one considers (mirror symmetry for) degenerating families for Calabi-Yau 3-folds in large volume limit (what can be expressed precisely via the Gromov-Hausdorff metric). The appropriate definition of (an appropriate version of) the [[Fukaya category]] of a symplectic manifold is difficult to achieve in desired generality. 
 Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gromov-Witten invariants (building up the [[quantum cohomology]]). Mirror symmetry is related to the [[T-duality]] on each fiber of an associated Lagrangian fibration (Strominger-Yau-Zaslow conjecture).  
+
+Although the non-Calabi-Yau case may be of lesser interest to physics, one can still formulate some mirror symmetry statements for, for instance, Fano manifolds. The mirror to a Fano manifold is a Landau-Ginzburg model (see Hori-Vafa). Then the statements are: the A-model of the Fano (given by the Fukaya category) is equivalent to the B-model of the Landau-Ginzburg model (given by the category of matrix factorizations); and the B-model of the Fano (given by the derived category of sheaves) is equivalent to the A-model of the Landau-Ginzburg model (given by the Fukaya-Seidel category). A few of the relevant names: Kontsevich, Hori-Vafa, Auroux, Katzarkov, Orlov, Seidel, ...
+
+
 
 
 ## References
@@ -92,5 +95,11 @@ Here is a list with references that give complete proofs of homological mirror s
 * P. Seidel, _Homological mirror symmetry for the quartic surface_ ([arXiv:0310414](http://arxiv.org/abs/math/0310414))
 
 * Alexander I. Efimov, _Homological mirror symmetry for curves of higher genus_ ([arXiv:0907.3903](http://arxiv.org/abs/0907.3903))
+
+* Auroux, Katzarkov, Orlov, _Mirror symmetry for Del Pezzo surfaces: Vanishing cycles and coherent sheaves_
+
+* Auroux, Katzarkov, Orlov, _Mirror symmetry for weighted projective planes and their noncommutative deformations_
+
+* Seidel, _Homological mirror symmetry for the genus two curve_
 
 [[!redirects homological mirror symmetry]]
