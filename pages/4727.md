@@ -269,13 +269,13 @@ $$
 consider the unique decomposition
 
 $$
-  A = A_U + ( A_{vert} := \lambda \wedge d t)  \; \; \in \Omega
+  A = A_U + ( A_{vert} := \lambda \wedge d t)  \; \; 
   \,,
 $$
 
 with $A_U$ the horizonal differential form component and $t : \Delta^1 = [0,1] \to \mathbb{R}$ the canonical coordinate.
 
-We call $\lambda$ the **gauge parameter** .
+We call $\lambda$ the **gauge parameter** . This is a function on $\Delta^1$ with values in 0-forms on $U$ for $\mathfrak{g}$ an ordinary [[Lie algebra]], plus 1-forms on $U$ for $\mathfrak{g}$ a [[Lie 2-algebra]], plus 2-forms for a Lie 3-algebra, and so forth.
 
 =--
 
@@ -305,7 +305,7 @@ $$
   }
 $$
 
-may be solved by requiring all components 
+is solved by requiring all components 
 
 $$
   \Omega^\bullet(U \times \Delta^1)
@@ -318,16 +318,58 @@ $$
 
 of the [[curvature]] forms to vanish when evaluated on the [[vector field]] $\partial_s$ along $\partial_s$.
 
-By the nature of the [[Weil algebra]], this condition is a bunch of [[differential equation]]s of the form
+By the nature of the [[Weil algebra]] we have
 
 $$
-  \frac{\partial}{\partial s} A_U
+  \frac{d}{d s} A_U
   =
   d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
+  + 
+  (F_A)(\partial_s, \cdots)
+  \,,
+$$
+
+so that this condition is a system of ordinary [[differential equation]]s of the form
+
+$$
+  \frac{d}{d s} A_U
+  =
+  d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
+  \,,
+$$
+
+where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{g}$.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+Define the **[[covariant derivative]] of the gauge parameter** to be
+
+$$
+  \nabla \lambda := d \lambda + [A \wedge \lambda] + [A \wedge A \wedge \lambda] + \cdots
   \,.
 $$
 
 =--
+
+In this notation we have
+
+* the general identity 
+
+  \[
+    \frac{d}{d s} A_U = \nabla \lambda + (F_A)_s
+    \label{ShiftedGaugeTrafo}
+  \]
+
+* the **horizontality** or **[[rheonomy]]** constraint or **[[Ehresmann connection|second Ehresmann condition]]**
+
+  \[
+    \frac{d}{d s} A_U = \nabla \lambda
+    \label{GaugeTrafo}
+    \,.
+  \]
 
 This is known as the equation for **infinitesimal [[gauge transformation]]s** of an $\infty$-Lie algebra valued form. 
 
@@ -446,8 +488,23 @@ A collection of precursors to these notions is collected at
 
 * [[schreiber:differential cohomology in an (∞,1)-topos -- references]]: <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#InfLieAlgValuedForms">∞-Lie algebra valued forms</a>
 
-The [[Sullivan construction]] in [[rational homotopy theory]] involves really the same concepts as used here. For literature on its interpretation in terms of $\infty$-Lie theory see [[Lie integration]].
+The structure of the formula \eqref{GaugeTrafo} for infinitesimal gauge transformations of higher forms is widely known in the literature on [[supergravity]] and [[string theory]], if maybe not formalized in terms of $\infty$-Lie algebra theory as we do here. One exception is the remarkable book
 
+*  [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_ .
+
+In this old book no $\infty$-Lie algebras are mentioned explicitly, but the [[dg-algebra]] computations that are considered are easily seen to be precisely their [[Chevalley-Eilenberg algebra]]-incarnations. 
+
+The authors use the term _extended [[soft group manifold]]_ for what here we identify as an $\infty$-Lie algebra valued form $T X \to inn(\mathfrak{g})$.
+
+With this terminological translation understood, and observing that all their constructions straightforwardly generalize to more general dg-algebras than these authors conisder explicitly, we find that
+
+* our equation \eqref{ShiftedGaugeTrafo} for the possibly shifted gauge transformation is their equation I.3.136;
+
+* our equation \eqref{GaugeTrafo} for the genuine gauge transfomation is their equation for _horizontal_ or [[rheonomic]] gauge transformations III.3.23 .
+
+
+In fact their full rheonomy constraint III.3.32 is essentialy the same horizontality constraint, but applied not just to the 1-simplex $\Delta^1$, but to the [[supermanifold|super simplex]] $\Delta^{1|p}$. 
+ 
 
 [[!redirects infinity-Lie algebroid-valued differential form]]
 [[!redirects infinity-Lie algebroid-valued differential forms]]
