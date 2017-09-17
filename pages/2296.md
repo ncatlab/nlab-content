@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Complex geometry
-+--{: .hide}
-[[!include complex geometry - contents]]
-=--
 #### Stable Homotopy theory
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
+=--
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
 =--
 #### String theory
 +-- {: .hide}
