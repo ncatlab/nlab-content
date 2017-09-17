@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[fiber bundle]] of [[Clifford modules]].
+
+For instance a [[spinor bundle]].
+
+## Related pages
+
+* [[Dirac operator]]
+
+* [[Karoubi K-theory]]
+
+[[!redirects Clifford module bundles]]
