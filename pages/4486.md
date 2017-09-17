@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
@@ -41,11 +41,20 @@ To begin with, let $X$ and $Y$ be [[smooth manifolds]], and let $f\colon X \to Y
 If $X$ and $Y$ are [[topological manifolds]] but not smooth manifolds, the definitions above still may still make sense up to a certain point.  In general, if $X$ is a $C^{k+1}$-manifold then the [[tangent bundle]] $T X$ exists as a $C^k$-manifold, so we can define $n$ times differentiable maps or $C^n$ maps between $C^k$-manifolds whenever $n \leq k$.
 
 
+## Examples
+
+Let $k$ be a [[natural number]], and consider the function
+$$ f_k(x) \coloneqq x^k \sin(1/x) $$
+from the [[real line]] to itself, with $f(0) \coloneqq 0$.  Away from $0$, $f_k$ is smooth (even analytic); but at $0$, $f_0$ is not continuous, $f_1$ is continuous but not differentiable, $f_2$ is differentiable but not continuously differentiable, and so on:
+*  If $k = 2 n$ is even, then $f_k$ is differentiable $n$ times but not continuously differentiable $n$ times;
+*  If $k = 2 n + 1$ is odd, then $f_k$ is continuously differentiable $n$ times but not differentiable $n + 1$ times.
+
+
 ## Related concepts
 
 * [[extremum]]
 
-* [[smooth function]], [[analytic function]]
+* [[continuous function]], **differentiable function**, [[continuously differentiable function]], [[smooth function]], [[analytic function]]
 
 
 [[!redirects differentiable map]]
