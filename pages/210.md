@@ -19,3 +19,4 @@ _Mike_ says: Do you have a reason to care about full functors which are not also
 
 
 [[!redirects full]]
+[[!redirects full functors]]
