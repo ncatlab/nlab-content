@@ -10,7 +10,7 @@
 
 ## Idea
 
-For $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{k}$, a $G$-[[principal bundle]] $P \to X$ on a [[smooth manifold]] $X$ induces a collection of classes in the [[de Rham cohomology]] of $X$: the classes of the [[curvature characteristic form]]s 
+For $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, a $G$-[[principal bundle]] $P \to X$ on a [[smooth manifold]] $X$ induces a collection of classes in the [[de Rham cohomology]] of $X$: the classes of the [[curvature characteristic form]]s 
 
 $$
   P(F_A) \in \Omega^{2n}_{closed}(X)
