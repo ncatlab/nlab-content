@@ -24,7 +24,7 @@ If $g$ is an identity, the functor is sometimes called a **linear functor** or a
 
 Any polynomial functor, as defined above, is automatically equipped with a [[tensorial strength]], when the slice categories of $C$ are regarded as tensored over $C$ in the canonical way.  The following theorem is proven in [Gambino--Kock](#GK):
 
-+--{: .un_theorem}
++--{: .num_theorem}
 ###### Theorem
 There is a [[bicategory]] whose objects are the objects of $C$, whose morphisms from $W$ to $Z$ are diagrams of the form
 $$ W \overset{f}{\leftarrow} X \overset{g}{\to} Y \overset{h}{\to} Z, $$
