@@ -163,7 +163,7 @@ One can describe non-flat connections without leaving the context of Lie algebro
 
   * [[quantomorphism group]], [[quantomorphism n-group]]
 
-
+[[!include higher Atiyah groupoid - table]]
 
 
 
