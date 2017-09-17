@@ -1,4 +1,4 @@
 
-* [website](#http://www.math.sunysb.edu/~ajt/)
+* [website](http://www.math.sunysb.edu/~ajt/)
 
 category: people
