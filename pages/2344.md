@@ -409,7 +409,7 @@ it is proven that the 2-category of "[[locally presentable category|locally pres
 
 An introductory discussion aimed towards [[stable derivator]]s is also in
 
-* [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
+* [[Moritz Groth]], _Monoidal derivators and additive derivators_, [arxiv/1203.5071](http://arxiv.org/abs/1203.5071); _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
 {#Groth}
 
 
