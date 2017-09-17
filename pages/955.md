@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category Theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+
 # The Isbell Envelope of a Category
 * table of contents
 {: toc}
