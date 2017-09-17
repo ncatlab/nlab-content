@@ -130,7 +130,7 @@ Please [[How to get started|help]] with improving this page:
 
 * [Soul Conjecture](http://soul-conjecture.blogspot.com)
 
-* [SymOmega](http://symomega.wordpress.com)
+* [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
 
 * [Teaching College Math] (http://teachingcollegemath.com) A blog about math, technology, and teaching.
 
