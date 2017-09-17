@@ -497,7 +497,7 @@ and the [[initial object|initial]] such is the [[path space object]] $A^I \to A 
 +-- {: .num_example}
 ###### Example
 
-We spell out in detail how the the [[induction principle]] def. \ref{InterpretationOfTheRules} for identity types is th [[principle of substition of equals for equals]].
+We spell out in detail how the the [[induction principle]] def. \ref{InterpretationOfTheRules} for identity types is the [[principle of substitution of equals for equals]].
 
 To have an $F$-algebra $\langle E \to A\times A\rangle$ over $\langle A^I \to A \times A\rangle$ means precisely to have a diagram
 
@@ -589,3 +589,5 @@ Discussion of the inductive type of natural numbers is in
   {#Pfenning}
 
 [[!redirects inductive types]]
+
+
