@@ -16,7 +16,7 @@
 * table of contents
 {:toc}
 
-**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides the theory of [[bundles]] and [[differential cohomology]] which has realizations not just in [[higher differential geometry]] but also in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
+**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[bundles]] and [[differential cohomology]] which has realizations not just in [[higher differential geometry]] but also in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
 
 ## Motivation
 
@@ -47,7 +47,21 @@ In all of these higher dimensional cases the inter-geometric aspect appears. Whe
 Finding the higher analog of the [[string orientation of tmf]] for these higher dimensional cases is as desirable as it seems to be intractable without some more inter-geometric theory to guide one.
 Here we will not present solutions to these rather deep questions. But we do want to discuss something that looks like steps in the right direction.
 
-Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, spherical and hyperbolic geometry. The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
+Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, elliptic and hyperbolic geometry. 
+
+| [[synthetic geometry]]  |
+|-------------------------|
+| [[Euclidean geometry]]  |
+| [[hyperbolic geometry]] |
+| [[elliptic geometry]]   |
+
+The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
+
+| [[differential cohesion|higher synthetic differential geometry]] |
+|--------------------------------------------|
+| [[higher differential geometry]]                 |
+| [[higher complex analytic geometry]]       |
+| [[higher arithmetic geometry]]             |
 
 
 ## Overview
@@ -117,7 +131,6 @@ This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands
 
 * the subring $\mathbb{Z}[p^{-1}] \subset \mathbb{Q}$ of [[rational numbers]] with denominator a power of $p$  is analogous to the subring or [[meromorphic functions]] on $\Sigma$ with possible poles at $x$.
 
-### Arithmetic fracture squares
 
 Indeed, in further support of this [[analogy]] one may see that also the [[p-adic integers]] together with the [[rational functions]] form a "good enough cover" of the "[[F1]]-[[arithmetic curve]]" [[Spec(Z)]]. This is the statement of the [[arithmetic fracture square]]:
 
@@ -192,9 +205,68 @@ $$
 
 =--
 
+### Axiomatic differential generalized cohomology
+
+The above [[analogy]] calls for being formalized. We need an axiomatics that allows to implement differential geometry in systematic analogy. Just as back in the old days there was established a systematic analogy
+
+| [[synthetic geometry]]  |
+|-------------------------|
+| [[Euclidean geometry]]  |
+| [[hyperbolic geometry]] |
+| [[elliptic geometry]]   |
+
+for modern applications we need a systematic dictionary of the form
+
+| [[differential cohesion|higher synthetic differential geometry]] |
+|--------------------------------------------|
+| [[higher differential geometry]]           |
+| [[higher complex analytic geometry]]       |
+| [[higher arithmetic geometry]]             |
 
 
-### Differential cohesion, Axiomatic differential generalized cohomology
++-- {: .num_example #ComplexAnalyticDifferentialCohesion}
+###### Example
+
+Let
+
+* $CplMfd$ be the [[site]] of [[complex analytic manifolds]] with the standard [[open cover]] topology
+
+* $InfPt$ the site of [[infinitesimally thickened points]] with the trivial topology;
+
+* $CplMfd_{sd}$ the site of [[formal manifold|formal]] complex analytic manifolds with the local product topology.
+
+The evident projection and inclusion functors then form a 
+[[fiber sequence]] of 1-categories
+
+$$
+  CplMfd \longleftarrow CplMfd_{sd} \longleftarrow InfPt
+  \,.
+$$
+ 
+Under forming [[hypercomplete (∞,1)-topos|hypercomple]] [[(∞,1)-sheaf (∞,1)-topos]] this yields
+
+$$
+  \mathbb{C}Analytic\infty Grpd
+  \longrightarrow
+
+  \mathbb{C}Analytic\infty Grpd_{sd}
+  \longrightarrow
+  Inf\infty Grpd
+$$
+
+from left to right
+
+* [[complex analytic ∞-groupoids]];
+
+* complex analytic [[synthetic differential ∞-groupoids]]:;
+
+* infinitesimal $\infty$-groupoids
+
+Here the last item is essentially [[formal moduli problems]] but without the condition of $\Gamma(-) = \ast$ and without the condition of [[cohesive (∞,1)-presheaf on E-∞ rings|Lurie-infinitesimal cohesion]] (beware the terminology clash), see at [differential cohesion -- Lie theory](differential+cohesive+%28infinity%2C1%29-topos#LieTheory) for more on this.
+
+=--
+
+
 
 A _differentially cohesive homotopy theory_ is a geometric homotopy theory -- hence a context for [[higher geometry]]  -- $\mathbf{H}$ which is equipped with an extra structure that axiomatically encodes that the [[homotopy types]] in $\mathbf{H}$ may have [[infinitesimal object|infinitesimal extension]]. 
 
@@ -325,82 +397,10 @@ where
 This is effectively the content of ([[Proper Morphisms, Completions, and the Grothendieck Existence Theorem|Lurie "Completions", section 4]]):
 
 
-## Fracture squares
-
-### In arithmetic geometry
-
-Suppose one studies [[loop spaces]], say the [[Witten genus]]. Then one studies the [[moduli stack of elliptic curves]] $\bar\mathcal{M}_{ell}$. If one is ambitious and considers not just [[modular forms]] but [[topological modular forms]] here, then this is to be taken over [[Spec(Z)]], hence is the stack of solutions of the [[Weierstrass equation]] 
-
-$$
-  y^2 + a_1 x y + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6
-  \,.
-$$
-
-This stack may be hard to analyze. A common approach is to consider elliptic curves over the [[rational numbers]] and over the [[p-adic integers]] and re-built the general case from this.
-
-
-
-
-| [[curve]] | ring of global functions | [[ring of functions]] on a point | [[formal power series]] around a point |   |
-|----|----|-----|-----|----|
-| [[Spec(Z)]] | $\mathbb{Z}$  |  $\mathbb{F}_p$ ([[finite field]]) | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $= \underset{\leftarrow}{\lim}( \cdots \to \mathbb{Z}/(p^2)\to \mathbb{Z}/(p) )$  |
-| $\mathbb{C}$ ([[complex plane]]) | entire [[holomorphic functions]]  | $\mathbb{C}_x$ | $\mathbb{C}[ [ t_x ] ]$ |
-
-This underlies the following fact
-
-+-- {: .num_lemma}
-###### Lemma
-
-The canononical maps between the [[commutative rings]] of [[integers]] $\mathbb{Z}$, of [[rational numbers]] $\mathbb{Q}$ of [[integral adeles]] $\mathbb{A}_{\mathbb{Z}}$ and of [[adeles]] $\mathbb{A}_{\mathbb{Q}}$ form a square [[commuting diagram]]
-
-
-$$
-  \array{
-     && \mathbb{Q}
-     \\
-     & \swarrow && \nwarrow
-     \\
-     \mathbb{Q}\otimes_{\mathbb{Z}}\left(\underset{p\;prime}{\prod} \mathbb{Z}_p \right) && && \mathbb{Z}
-     \\
-     & \nwarrow && \swarrow
-     \\
-     && \underset{p\;prime}{\prod} \mathbb{Z}_p
-  }
-  \,.
-$$
-
-
-
-$$
-  \array{
-     && \mathbb{Q}
-     \\
-     & \swarrow && \nwarrow
-     \\
-     \mathbb{A}_{\mathbb{Q}} && && \mathbb{Z}
-     \\
-     & \nwarrow && \swarrow
-     \\
-     && \mathbb{A}_{\mathbb{Z}}
-  }
-$$
-
-in [[CRing]] which is both a [[pullback]] as well as a [[pushout]] square.
-
-
-=--
-
-(...)
-
-### In homotopy theory
-
-(...)
-
 
 ## Differential cohesion
 
 
-The synthetic axiomatics which we consider here is the following.
 
 +-- {: .num_defn }
 ###### Definition
@@ -433,47 +433,6 @@ We will mostly just say "differential cohesion" for short. Given any differentia
 =--
 
 
-+-- {: .num_example #ComplexAnalyticDifferentialCohesion}
-###### Example
-
-Let
-
-* $CplMfd$ be the [[site]] of [[complex analytic manifolds]] with the standard [[open cover]] topology
-
-* $InfPt$ the site of [[infinitesimally thickened points]] with the trivial topology;
-
-* $CplMfd_{sd}$ the site of [[formal manifold|formal]] complex analytic manifolds with the local product topology.
-
-The evident projection and inclusion functors then form a 
-[[fiber sequence]] of 1-categories
-
-$$
-  CplMfd \longleftarrow CplMfd_{sd} \longleftarrow InfPt
-  \,.
-$$
- 
-Under forming [[hypercomplete (∞,1)-topos|hypercomple]] [[(∞,1)-sheaf (∞,1)-topos]] this yields
-
-$$
-  \mathbb{C}Analytic\infty Grpd
-  \longrightarrow
-
-  \mathbb{C}Analytic\infty Grpd_{sd}
-  \longrightarrow
-  Inf\infty Grpd
-$$
-
-from left to right
-
-* [[complex analytic ∞-groupoids]];
-
-* complex analytic [[synthetic differential ∞-groupoids]]:;
-
-* infinitesimal $\infty$-groupoids
-
-Here the last item is essentially [[formal moduli problems]] but without the condition of $\Gamma(-) = \ast$ and without the condition of [[cohesive (∞,1)-presheaf on E-∞ rings|Lurie-infinitesimal cohesion]] (beware the terminology clash), see at [differential cohesion -- Lie theory](differential+cohesive+%28infinity%2C1%29-topos#LieTheory) for more on this.
-
-=--
 
 This is ([[schreiber:differential cohomology in a cohesive topos|dcct, section 4.5.1.4]]).
 
@@ -558,5 +517,6 @@ $$
 where the top pairs come from the formula 
 ([here](adjoint+infinity-functor#OnSlices)) for localization of adjunctions to slices, and the bottom one exists in each case by the [[adjoint (∞,1)-functor theorem]],
 since the middle one preserves [[(∞,1)-colimits]] (since colimits in slices are computed on the dependent sums, since $Disc$ preserves colimits, and since pullbacks preserve colimits in an $\infty$-topos).  The fact that two top composite preserves the terminal object follows now by the idempotency of the various adjunctions $\Pi_{rel} \flat_{rel} X \simeq \flat_{rel}X$ and then by [[infinitesimal cohesion]] $\Pi \flat_{rel} X \simeq \flat \flat_{rel} X \simeq \flat X$. Finally using that $\flat X$ is 0-connected, hence a set it follows from $\Pi \ast \simeq \ast$ that the composite right adjoint is fully faithful over over $x\in \flat X$, hence is fully faithful on all of $\infty Grpd$.
+
 
 =--
