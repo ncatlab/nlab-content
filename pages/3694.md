@@ -1,0 +1,1 @@
+**Ordinary differential equation** is a [[differential equation]] involving derivatives of a function with respect to one argument only. The same for systems: there can be several functions, but all the derivatives are with respect to the same argument (in all equations).
