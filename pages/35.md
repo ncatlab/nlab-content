@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -78,7 +77,7 @@ See
 
 ## Examples
 
-* Every [[smooth manifold]] $X$ is a 0-[[truncated]] Lie groupoid.
+* Every [[smooth manifold]] $X$ is a 0-[[0-groupoid|truncated]] Lie groupoid.
 
 * For every [[Lie group]] $G$ the one-object [[delooping]] groupoid $\mathbf{B}G$ is a Lie groupoid.
 
