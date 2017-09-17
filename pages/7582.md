@@ -10,4 +10,6 @@ which is a bit weaker than
 
 * _[[separated morphism of schemes]]_.
 
+category: algebraic geometry
+
 [[!redirects separated morphisms]]
