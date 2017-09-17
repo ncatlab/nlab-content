@@ -124,7 +124,7 @@ is
 
 * a [[simplicial set]] $C^\otimes$;
 
-* and a coCartesian fibration of simplicial 
+* and a [[coCartesian fibration]] of simplicial 
 sets $ p_\otimes : C^\otimes \to N(\Delta)^{op}$
 
 * such that for each $n \in \mathbb{N}$ the induced [[(infinity,1)-functor]]
@@ -155,7 +155,7 @@ The following defines [[symmetric monoidal (∞,1)-categories]] and their varian
 +-- {: .num_defn}
 ###### Definition
 
-Let $\mathcal{O}^\otimes$ be an [[(∞,1)-operad]]. A **coCartesian fibration** of $(\infty,1)$-operads is
+Let $\mathcal{O}^\otimes$ be an [[(∞,1)-operad]]. A **[[coCartesian fibration of (∞,1)-operads]]** is
 
 1. a [[coCartesian fibration]] $p : \mathcal{C}^\otimes \to \mathcal{O}^\otimes$ of the underlying [[quasi-categories]];
 
