@@ -18,7 +18,9 @@
 +-- {: .num_defn}
 ###### Definition
 
-An [[(∞,1)-functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] is **excisive** if it takes [[(∞,1)-pushout]] sqzares in $\mathcal{C}$ to [[(∞,1)-pullback]] squares $\mathcal{D}$. 
+An [[(∞,1)-functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] is **excisive** if it takes [[(∞,1)-pushout]] squares in $\mathcal{C}$ to [[(∞,1)-pullback]] squares $\mathcal{D}$. 
+
+This is the $n=1$ case of the concept [[n-excisive (∞,1)-functor]].
 
 =--
 
