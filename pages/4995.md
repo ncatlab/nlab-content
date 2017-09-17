@@ -901,7 +901,7 @@ We equip $\mathcal{G}$ with the canonical structure of a [[geometry (for structu
 +-- {: .un_lemma}
 ###### Observation
 
-This definition indeed makes $\mathcal{G}$ a [[geometry for structured (infinity,1)-toposes|geometry]].
+This definition indeed makes $\mathcal{G}$ a [[geometry (for structured (infinity,1)-toposes)|geometry]].
 
 =--
 
@@ -912,7 +912,7 @@ By the $\kappa$-bound $\mathcal{G}$ is a [[small (∞,1)-category]].
 
 Monomorphisms are pullback-stable and satisfy 2-out-of-3, hence do form an admissibility structure. 
 
-The quasi-$(\infty,1)$-topos $Conc(\mathbf{H})$ has all finite $(\infty,1)$-limits (...) and these are preserved by the right adjoint inclusion $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$.
+The quasi-$(\infty,1)$-topos $Conc(\mathbf{H})$ has all finite $(\infty,1)$-limits and these are preserved by the right adjoint inclusion $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$.
 
 A covering family in $\mathcal{G}$ goes to an effective epimorphism by definition. Effective epimorphisms are stable under pullback in $\mathcal{G}$ because that pullback coincides with the pullback in $\mathbf{H}$ where the statement holds due to [[universal colimits]] of the $(\infty,1)$-topos.
 
