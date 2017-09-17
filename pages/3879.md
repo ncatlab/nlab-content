@@ -48,10 +48,14 @@ This view led to Dirac to advocate the following as a methodology
 
 The version of this belief in the necessity of deep mathematics for physics to be found at the $n$Lab is, naturally enough, that higher categories, and in particular cohesive $(\infty, 1)$-toposes, are required. In this regard, see [[higher category theory and physics]], [[geometry of physics]] and [differential cohomology in a cohesive topos](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects).
 
+## Related entries
+
+* [[theory (physics)]]
+
+* See the related, but disputable notion of [[applied mathematics]]. 
+
 
 ## References and links
-
-See the related, but disputable notion of [[applied mathematics]]. 
 
 A historically inclined article on [mathematical physics](http://en.wikipedia.org/wiki/Mathematical_physics) is featured on wikipedia.
 
