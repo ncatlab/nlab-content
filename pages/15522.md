@@ -23,7 +23,7 @@ $$
   \,.
 $$ 
 
-If we think of $\Sigma$ as retrievable from its field of [[meromorphic functions]] (see for example [Mumford](#Mum)), then each such map $\phi$ is dual to a [[field]] extension $\mathbb{C}(t) \hookrightarrow Func(\Sigma)$; this is an _algebraic_ field extension. The dual map $\phi$ is [[surjective map|surjective]], and restricts to a [[covering space]] projection after removing all the (finitely many) ramification points of $\phi$. 
+If we think of $\Sigma$ as retrievable from its [[field]] of [[meromorphic functions]] (see for example [Mumford](#Mum)), then each such map $\phi$ is dual to a [[field extension]] $\mathbb{C}(t) \hookrightarrow Func(\Sigma)$; this is an _algebraic_ field extension. The dual map $\phi$ is [[surjective map|surjective]], and restricts to a [[covering space]] projection after removing all the (finitely many) [[ramification points]] of $\phi$. 
 
 ## Properties
 
