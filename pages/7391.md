@@ -620,7 +620,126 @@ By restriction along this inclusion, the
 above model structure reproduces the
 [[model structure for complete Segal spaces]].
 
-#### To dendroidal sets
+#### To dendroidal sets / quasi-operads
+
+The model structure for dendroidal complete Segal spaces is [[Quillen equivalence|Quillen equivalent]] to the [[model structure on dendroidal sets]], whose fibrant objects are the "quasi-operads" (the operadic generalization of [[quasi-categories]]).
+ 
+We discuss in fact two Quillen equivalences, with right adjoints going in both directions:
+
+1. [From quasi-operads to dendroidal complete Segal spaces](#QuasiOperadsToDendroidalCompleteSegal)
+
+   $$
+      ({|-|_J} \dashv Sing_J) : 
+      dSet_{CM}
+       \stackrel{\overset{{|-|_J}}{\leftarrow}}{\underset{{Sing_j}}{\to}}
+      [\Omega^{op}, sSet]_{cSegal}
+      \,.
+   $$
+
+1. [From dendroidal complete Segal spaces to quasi-operads](#DendroidalSegalSpacesToQuasiOperads)
+
+   $$
+     (i  \dashv )
+     [\Omega^{op}, sSet]_{cSegal}   
+       \stackrel{\overset{i}{\leftarrow}}{\underset{}{\to}}
+     dSet
+   $$
+
+##### Quasi-operads to dendroidal complete Segal spaces
+ {#QuasiOperadsToDendroidalCompleteSegal}
+
+Recall from _[[complete Segal space]]_ the basic example _[Categories as complete Segal spaces](complete+Segal+space#OrdinaryCategoriesAsCompleteSegalSpaces)_ which shows how an ordinary [[small category]] $C$ is regarded as a [[complete Segal space]] $Sing_J(C)$ by setting
+
+$$
+  Sing_J(C) : n \mapsto N(Core(C^{\Delta[n]}))
+  \,.
+$$
+
+We can rewrite this more in the form of a [[nerve]] using the following object
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  \Delta_J : \Delta \to sSet
+$$
+
+for the cosimplicial simplicial set that in degree $n$ is the [[nerve]] of the [[free construction|free]] [[groupoid]] on $\Delta[n]$
+
+$$
+  \Delta_J(n) := N ( \{0 \stackrel{\simeq}{\to} \cdots \stackrel{\simeq}{\to} n \} )
+  \,.
+$$
+
+We use the same symbol for the further prolongation to a cosimplicial dendroidal set
+
+$$
+  \Delta_J : \Delta \to sSet \stackrel{i_!}{\hookrightarrow} dSet
+  \,.
+$$
+
+Moreover, we use the same symbol also for
+
+$$
+  \Delta_J : \Delta \times \Omega \to dSet
+$$
+
+$$
+  \Delta_J : ([n], T) \mapsto \Delta_J[n] \otimes_{BV} \Omega[T]
+  \,.
+$$
+
+The induced [[nerve and realization]] [[adjunction]] we denote
+
+$$
+    ({|-|_J} \dashv Sing_J) : 
+    dSet_{}
+     \stackrel{\overset{{|-|_J}}{\leftarrow}}{\underset{{Sing_j}}{\to}}
+    [\Omega^{op}, sSet]_{}
+    \,.
+$$
+
+So for $X \in dSet$
+
+$$
+  Sing_J(X) :  (T, [n]) \mapsto Hom_{dSet}(\Delta_J[n]\otimes \Omega[T], X)
+  \,.
+$$
+
+
+=--
+
+This appears as ([Cis-Moer, 6.10](#CisinskiMoerdijk)).
+
++-- {: .num_example }
+###### Example
+
+
+For 
+
+$$
+  C \in Cat \stackrel{}{\hookrightarrow} Operad \stackrel{N_d}{\hookrightarrow}
+  dSet
+$$ 
+
+a [[small category]], we have
+
+$$
+  Sing_J(C)
+  :
+  n 
+    \mapsto 
+  N(Core(C^{\Delta[n]}))
+  \,.
+$$
+
+=--
+
+
+##### Complete Dendroidal Segal spaces to quasi-operads
+ {#DendroidalSegalSpacesToQuasiOperads}
 
 Write 
 
@@ -735,6 +854,7 @@ Notice that for all $n$ the morphism $X_{\Delta[n]} \to X_{\partial \Delta[n]}$ 
 (...)
 
 =--
+
 
 #### To Segal operads
 
