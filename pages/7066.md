@@ -159,9 +159,12 @@ If a polarization on an $2n$-dimensional symplectic manifold is generated from $
 
 ### Refinement to higher geometric quantization
 
-
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
+
+### Refinement to higher quantization by push-forward
+
+[[!include orientations in higher quantization - table]]
 
 ## References
 
