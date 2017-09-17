@@ -85,7 +85,7 @@ Then, more generally we may define a proof net of type $\Gamma \to \Delta$ to be
 
 Alternatively, we may define proof nets by reference to MLL sequent calculus, as follows. 
 
-### Nets of sequent deductions 
+### Nets of sequent deductions {#NetDeductions} 
 
 To each deduction or derivation tree in MLL sequent calculus, one may give an associated proof net. This is by induction; one considers the last step of a deduction $\delta$ whose premises have given derivations $\delta_i: \Gamma_i \to \Delta_i$, which have been given assigned proof nets $N(\delta_i)$, and uses this to assign a net to the full deduction $\delta$. 
 
@@ -96,21 +96,33 @@ We recall the rules for MLL over a list of variable types $\mathbf{T}$, and asso
 By the _[[cut rule|Hauptsatz]]_, i.e., cut-elimination theorem, we omit consideration of the cut rule. It is however interesting to consider the meaning of the cut-elimination algorithm in terms of proof nets; someone who is sufficiently savvy with graphics may wish to include material here. 
 =-- 
 
-1. Axiom $\frac{}{\displaystyle t \vdash t}\; id$, where $t \in \mathbf{T}$. Here the net of the conclusion consists of the KM-graph $t^- \to t^+$. 
+1. Axiom 
+$$\frac{}{\displaystyle t \vdash t}\; id,$$ 
+where $t \in \mathbf{T}$. Here the net of the conclusion consists of the KM-graph $t^- \to t^+$. 
 
-1. Structural rule $\frac{\displaystyle \delta': \Gamma, A, B, \Delta \vdash \Sigma}{\displaystyle \Gamma, B, A, \Delta \vdash \Sigma}\; exchange$. Here there is an identification between the sets of subformula occurrences for the premise and conclusion, and under this identification the proof net for $\delta$ is the same as the proof net for $\delta'$. 
+1. Structural rule 
+$$\frac{\displaystyle \delta': \Gamma, A, B, \Delta \vdash \Sigma}{\displaystyle \Gamma, B, A, \Delta \vdash \Sigma}\; exchange$$ 
+Here there is an identification between the sets of subformula occurrences for the premise and conclusion, and under this identification the proof net for $\delta$ is the same as the proof net for $\delta'$. 
 
 1. Unit rules (logical rules for units). There are four of these: 
-* $\frac{}{\displaystyle \; \vdash \mathbf{1}}\; \mathbf{1}_+)$. The KM-graph of the conclusion is empty.  
-* $\frac{}{\displaystyle \bot \vdash \; }\; \bot_{-})$. The KM-graph of the conclusion is empty. 
-* $\frac{\displaystyle \delta': \Gamma, \Delta \vdash \Sigma}{\displaystyle \Gamma, \mathbf{1}, \Delta \vdash \Sigma}\; \mathbf{1}_{-})$. Here there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
-* $\frac{\displaystyle \delta': \Gamma \vdash \Delta, \Sigma}{\displaystyle \Gamma \vdash \Delta, \bot, \Sigma}\; \bot_+)$. Here there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+$$\frac{}{\displaystyle \; \vdash \mathbf{1}}\; \mathbf{1}_+$$ 
+For $\mathbf{1}_+$, the KM-graph of the conclusion is empty.  
+$$\frac{}{\displaystyle \bot \vdash \; }\; \bot_{-}$$ T
+For $\bot_{-}$, the KM-graph of the conclusion is empty. 
+$$\frac{\displaystyle \delta': \Gamma, \Delta \vdash \Sigma}{\displaystyle \Gamma, \mathbf{1}, \Delta \vdash \Sigma}\; \mathbf{1}_{-}$$ 
+For $\mathbf{1}_{-}$, there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+$$\frac{\displaystyle \delta': \Gamma \vdash \Delta, \Sigma}{\displaystyle \Gamma \vdash \Delta, \bot, \Sigma}\; \bot_+$$ 
+For $\bot_+$, there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
 
 1. Logical rules for $\otimes$ and $\multimap$. There are four of these. 
-* $\frac{\displaystyle \delta': \Gamma, A, B, \Delta \vdash \Sigma}{\displaystyle \Gamma, A \otimes B, \Delta \vdash \Sigma}\; \otimes_{-})$. There is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
-* $\frac{\displaystyle \delta': \Gamma, A \vdash B, \Delta}{\displaystyle \Gamma \vdash A \multimap B, \Delta}\; \multimap_+)$. There is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
-* $\frac{\displaystyle \delta_1: \Gamma \vdash \Delta, A \qquad \delta_2: \Sigma \vdash B, \Omega}{\Gamma, \Sigma \vdash \Delta, A \otimes B, \Omega}\; \otimes_+)$. In this case, the set of variable subformula occurrences in the conclusion is identified with the disjoint union of those for the premises, and under this ientification the KM-graph of $\delta$ is the disjoint union of the KM-graphs for $\delta_1$ and $\delta_2$. 
-* $\frac{\displaystyle \delta_1: \Sigma, B \vdash \Omega \qquad \delta_2: \Gamma \vdash A, \Delta \qquad }{\Sigma, A \multimap B, \Gamma \vdash \Omega, \Delta}\; multimap_{-})$. In this case, the set of variable subformula occurrences in the conclusion is identified with the disjoint union of those for the premises, and under this ientification the KM-graph of $\delta$ is the disjoint union of the KM-graphs for $\delta_1$ and $\delta_2$. 
+$$\frac{\displaystyle \delta': \Gamma, A, B, \Delta \vdash \Sigma}{\displaystyle \Gamma, A \otimes B, \Delta \vdash \Sigma}\; \otimes_{-}$$ 
+For $\otimes_{-}$, there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+$$\frac{\displaystyle \delta': \Gamma, A \vdash B, \Delta}{\displaystyle \Gamma \vdash A \multimap B, \Delta}\; \multimap_+$$ 
+For $\multimap_+$, there is an identification between the variable subformula occurrences in the premise and in the conclusion. Under this identification, the KM-graph for $\delta$ is the same as for $\delta'$. 
+$$\frac{\displaystyle \delta_1: \Gamma \vdash \Delta, A \qquad \delta_2: \Sigma \vdash B, \Omega}{\Gamma, \Sigma \vdash \Delta, A \otimes B, \Omega}\; \otimes_+$$ 
+In the case $\otimes_+$, the set of variable subformula occurrences in the conclusion is identified with the disjoint union of those for the premises, and under this identification the KM-graph of $\delta$ is the disjoint union of the KM-graphs for $\delta_1$ and $\delta_2$. 
+$$\frac{\displaystyle \delta_1: \Sigma, B \vdash \Omega \qquad \delta_2: \Gamma \vdash A, \Delta \qquad }{\Sigma, A \multimap B, \Gamma \vdash \Omega, \Delta}\; \multimap_{-}$$ 
+In the case $\multimap_{-}$, the set of variable subformula occurrences in the conclusion is identified with the disjoint union of those for the premises, and under this ientification the KM-graph of $\delta$ is the disjoint union of the KM-graphs for $\delta_1$ and $\delta_2$. 
 
 
 
@@ -146,6 +158,8 @@ The proof is quite technical, but it is of fundamental importance in the analysi
 
 The Danos-Regnier criterion, stated according to the definition above, might appear exponential in complexity since it appears to involve checking that every one of the $2^p$ networks, where $p$ is the number of par switches, is connected and acyclic. However, Danos and Regnier gave a beautiful simplification which in fact gives an algorithm for deciding validity of a proof structure in polynomial time. 
 
++-- {: .num_remark #DR} 
+###### Description 
 Informally, what one does is draw an arc between the two edges of each par switch (in the manner of secondary school geometry, when one wishes to indicate an angle between two lines), and then applies a series of graph reductions: 
 
 * At each step in the series, any un-arced edge between two distinct nodes may be contracted to a single node; 
@@ -153,6 +167,7 @@ Informally, what one does is draw an arc between the two edges of each par switc
 * At each step of the series, any configuration consisting of two distinct nodes and a pair of arced edges between them may be contracted to a point, 
 
 * A graph consisting of a single node and no edges reduces to itself. 
+=-- 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -171,7 +186,23 @@ A **unit-extended proof structure** of type $\Gamma \to \Delta$ is a proof struc
 
 Unit-extended proof structures are considered as graphs, by adjoining to $\pi$ an edge $\mathbf{1}^- \to S$ for each subformula occurrence $\mathbf{1}^-$ that maps to $S$ under the first function, and another edge $T \to \bot^+$ for each subformula occurrence $\bot^+$ that maps to $T$ under the second function. This means for instance that for the sequent $\mathbf{1} \vdash \bot$, there is just one unit-extended proof structure of type $\mathbf{1} \to \bot$, and it consists of a _pair_ of edges from $\mathbf{1}^-$ to $\bot^+$. 
 
-To each MLL sequent deduction, one can associate a unit-extended proof structure, or rather a set of proof structures, as follows. (To be described) A **unit-extended proof net** is a unit-extended proof structure that is associated with some MLL sequent deduction. 
+To each MLL sequent deduction, one can associate a unit-extended proof structure, or rather a set of proof structures. 
+
+* For the axioms $t \vdash t$, the associated unit-extended proof structure is of course the KM-graph $t^- \to t^+$. 
+
+* For each of the rules $exchange$, $\mathbf{1}_+$, $\bot_{-}$, $\otimes_{-}$, $\otimes_+$, $\multimap_{-}$, $\multimap_+$, if unit-extended proof structures $\gamma_i$ (i.e., sets of unit edges and KM-links) have been associated to derivations of the premises, then associated to the final deduction (obtained by applying that rule) is the proof structure obtained by taking the disjoint union of the $\gamma_i$. 
+
+* This leaves the two unit rules $\mathbf{1}_{-}$, $\bot_+$. For the rule 
+$$\frac{\displaystyle \delta': \Gamma, \Delta \vdash \Sigma}{\displaystyle \Gamma, \mathbf{1}, \Delta \vdash \Sigma}\; \mathbf{1}_{-},$$ 
+if $\gamma'$ is a unit-extended proof structure for $\delta'$, then associated to the final deduction $\delta$ is any unit-extended proof structure obtained by adjoining to $\gamma'$ a unit edge from the occurrence of $\mathbf{1}^-$ introduced in the conclusion, to any subformula node occurring in $\gamma': \Gamma, \Delta \to \Sigma$. 
+Similarly, for the rule 
+$$\frac{\displaystyle \delta': \Gamma \vdash \Delta, \Sigma}{\displaystyle \Gamma \vdash \Delta, \bot, \Sigma}\; \bot_+,$$ 
+if $\gamma'$ is a unit-extended proof structure for $\delta'$, then associated to the final deduction $\delta$ is any unit-extended proof structure obtained by adjoining to $\gamma'$ a unit edge going to the occurrence of $\bot_+$ introduced in the conclusion, from any subformula node occurring in $\gamma': \Gamma, \Delta \to \Sigma$. 
+
++-- {: .num_defn} 
+###### Definition 
+A **unit-extended proof net** is a unit-extended proof structure that is associated with some MLL sequent deduction. 
+=-- 
 
 The notion of network for unit-extended proof structures is the same as for ordinary proof structures: a network is obtained by removing just one edge from each par-switch. The Danos-Regnier criterion for validity goes through without modification: 
 
@@ -180,7 +211,7 @@ The notion of network for unit-extended proof structures is the same as for ordi
 A unit-extended proof structure is a unit-extended proof net if and only if each of its networks is an acyclic connected graph (ignoring edge orientations). 
 =-- 
 
-The simplified algorithm for deciding validity, in terms of a series of graph reductions, also goes through for unit-extended proof structures without any modification. 
+The simplified algorithm for deciding validity, in terms of a series of [graph reductions](#DR), also goes through for unit-extended proof structures without any modification. 
 
 ## References
 
