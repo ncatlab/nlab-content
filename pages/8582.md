@@ -1,18 +1,18 @@
 
-# Formal systems
+# Deductive systems
 * table of contents
 {: toc}
 
 ## Definition
 
-In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **formal system** is specified by
+In [[logic]], [[type theory]], and the [[foundations]] of [[mathematics]], a **deductive system** (or, sometimes, **formal system**) is specified by
 
 1. A collection of [[judgments]], which are strings of symbols in some language, and
 2. A collection of *steps*, each of which has a finite list of judgments as hypotheses and a single judgment as conclusion.  A step is usually written as
    $$ \frac{J_1 \quad \cdots \quad J_n}{J} $$
    If $n=0$, a step is often called an [[axiom]].
 
-Moreover, to be considered a formal system, it should be algorithmically decidable whether or not a given expression is a judgment, and whether or not a given list of judgments is a step.  Deductive systems containing undecidable steps (e.g., most notably the $\omega$-rule) are sometimes known as **semi-formal systems**.
+Moreover, to be considered a deductive system, it should be algorithmically decidable whether or not a given expression is a judgment, and whether or not a given list of judgments is a step.  Deductive systems containing undecidable steps (e.g., most notably the $\omega$-rule) are sometimes known as **semi-deductive systems**.
 
 Usually, one generates the steps by using *rules of inference*, which are schematic ways of describing collections of steps, generally involving metavariables.
 
@@ -25,20 +25,25 @@ $$ \frac{a=a' \quad b=b'}{a\cdot a' = b\cdot b'} $$
 where $a$, $b$, etc. are [[metavariable]]s.  [[substitution|Substituting]] particular terms for these metavariables produces a *step* which is an instance of this rule.
 =--
 
++-- {: .un_remark}
+###### Remark
+This use of the terminology "deductive system" is not completely standard, but it is not uncommon, and we need *some* name by which to refer to this general notion.
+=--
 
 ## Proof trees and theorems
 
-A **proof tree** in a formal system is a rooted tree whose edges are labeled by judgments and whose nodes are labeled by steps.  We usually draw these like so:
+A **proof tree** in a deductive system is a rooted tree whose edges are labeled by judgments and whose nodes are labeled by steps.  We usually draw these like so:
 $$ \frac{\frac{J_1 \quad J_2}{J_3} \quad \frac{J_4}{J_5}}{J_6} $$
 
 If there is a proof tree with root $J$ and no leaves (which means that every branch must terminate in an axiom), we say that $J$ is a [[theorem]] and write
 $$\vdash J.$$
 More generally, if there is a proof tree with root $J$ and leaves $J_1,\dots, J_n$, we write
 $$ J_1, \dots, J_n \;\vdash\; J. $$
+This is equivalent to saying that $J$ is a theorem in the extended deductive system obtained by adding $J_1,\dots,J_n$ as axioms.
 
 +-- {: .un_remark}
 ###### Remark
-This use of $\vdash$ to express a statement *about* the formal system should be distinguished from its use in particular formal systems as a syntactic ingredient *in judgments*.  For instance, in [[sequent calculus]] the judgments are [[sequents]], which are sequences of statements connected by a turnstile $\vdash$.  Similarly, in [[type theory]] and [[natural deduction]] one often uses $\vdash$ inside a single judgment when that judgment is of a hypothetical sort.  However, when using a [[logical framework]], these two meanings of $\vdash$ become essentially identified.
+This use of $\vdash$ to express a statement *about* the deductive system should be distinguished from its use in particular deductive systems as a syntactic ingredient *in judgments*.  For instance, in [[sequent calculus]] the judgments are [[sequents]], which are sequences of statements connected by a turnstile $\vdash$.  Similarly, in [[type theory]] and [[natural deduction]] one often uses $\vdash$ inside a single judgment when that judgment is of a hypothetical sort.  However, when using a [[logical framework]], these two meanings of $\vdash$ become essentially identified.
 =--
 
 
@@ -48,6 +53,7 @@ This use of $\vdash$ to express a statement *about* the formal system should be 
 * [[type theory]]
 * [[sequent calculus]]
 
-
+[[!redirects deductive system]]
+[[!redirects deductive systems]]
 [[!redirects formal system]]
 [[!redirects formal systems]]
