@@ -166,9 +166,9 @@ $$
   \,.
 $$
 
-Accordingly, $Sh_{(\infty,1)}(\mathcal{G})$ may be thought of as
-the **classifying $(\infty,1)$-topos** for $\mathcal{G}$-structures
-on $\mathcal{X}$.
+We may think of this as saying that $Sh_{(\infty,1)}(\mathcal{G})$ is $(\infty,1)$-[[classifying topos]]** for the $(\infty,1)$-[[geometric theory]] of **local [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]** over the [[(∞,1)-algebraic theory]] $\mathcal{G}$.
+
+This is the content of ([Lurie, section 1.4](#Lurie)).
 
 
 ### Local morphisms between structure sheaves {#LocalMorphisms}
