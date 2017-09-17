@@ -1,0 +1,13 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/M._S._Narasimhan)
+
+## Related entries
+
+* [[Narasimhan-Seshadri theorem]]
+
+* [[Harder-Narasimhan theorem]]
+
+category: people
+
+[[!redirects Narasimhan]]
