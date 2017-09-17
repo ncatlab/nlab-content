@@ -6,4 +6,6 @@ Evidence of my lack of education:
 * [...about generating functions and stuff types](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html#c033601)
 * [...about thermodynamics, chaos theory and probability](http://golem.ph.utexas.edu/category/2011/05/categorytheoretic_characteriza_1.html#c037874)
 
+On the advice of [[John Baez]], I'm going to try writing a bit about [[universality]].
+  
 category: people
