@@ -12,12 +12,15 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hegel)
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Perception of Hegel's Naturphilosophie
  {#PerceptionOfHegelsPhilosophy}
+
+Some comments on the persecion of Hegel's [[metaphysics]]. For much more discussion of this see ([Redding 12](#Redding12)).
 
 Hegel's [[natural philosophy]] as laid out in particular in his _[[Science of Logic]]_ may easily seem rather mysterious and was accordingly criticized. Being partly a creation myth in the spirit of [[Heraclitus]]'s _[[logos]]_ and being all thoroughly arranged in terms of [[unity of opposites]] that taken at face value are typically plain self-contradictions, to a large extent it seems more a work of mysticism than of [[philosophy]] or [[science]]. Certainly Hegel does not try to provide observational evidence or rational argument for his statements about, say, the _[[becoming]]_ of _[[nothing]]_ into _[[being]]_, that would allow readers to confirm his conclusions. Rather he states all his natural philosophy as if a collection of self-evident truths which are all confirmed in themselves, as if a set of [[axioms]] for [[natural philosophy]].
 
@@ -55,6 +58,11 @@ This refers to Hegel's complaint about [[Newton's laws of motion]] which give th
 * [[objective idealism]]
 
 * _[[Science of Logic]]_
+
+## References
+
+* [[Paul Redding]],  _Georg Wilhelm Friedrich Hegel_, The Stanford Encyclopedia of Philosophy (Winter 2013 Edition), Edward N. Zalta (ed.) ([web](http://plato.stanford.edu/archives/win2013/entries/hegel/))
+ {#Redding12}
 
 
 category: people
