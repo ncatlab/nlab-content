@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Contents### {: .clickToReveal}
@@ -51,7 +52,7 @@ If after looking around for a while you feel like contributing yourself, you are
 
 ## Software requirements
 
-The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML) 
+The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  
 
 Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
 
