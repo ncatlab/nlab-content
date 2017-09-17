@@ -39,9 +39,11 @@ The **signature** of a $(p,q)$-shuffle is the [[signature of a permutation|signa
 
 =--
 
-### Unshuffles
+### Unshuffles 
 
-The same basic situation viewed from the other end leads to _unshuffles_ .  In these instead of combining things, we take the permutation and decompose it.
+The same concept viewed from the other end leads to _unshuffles_ .  These are just shuffles but are used in dual situations in the applications. The definition that follows is 'from the literature'. It is equivalent to that of shuffle that we gave above. (Although not needed, it is important to note the different terminology used in certain applications of the idea for when original source material is consulted.)
+
+
 +-- {: .un_defn}
 ###### Definition
 We say that a permutation $\sigma\in S_n$ is a $(j,n-j)$-unshuffle, $o\leq j\leq n$ if $\sigma(1)\lt \ldots \sigma(j)$ and $\sigma(j+1)\lt \ldots \lt \sigma(n)$.
