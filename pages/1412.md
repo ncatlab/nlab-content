@@ -41,9 +41,7 @@ the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such tha
   is famous under another name: it is called the second integral [[cohomology]] group of $X$, denoted $H^2(X, \mathbb{Z})$.
   
 * There is a similar such cohomology group $H^{n+1}(X,\mathbb{Z})$ 
-of $X$ for every natural number $n$: the $(n+1)$st 
-
-_integral cohomology group_ of $X$ -- and all these groups are naturally
+of $X$ for every natural number $n$: the $(n+1)$st _integral cohomology group_ of $X$ -- and all these groups are naturally
 realized in terms of homotopy classes of maps from $X$ into 
 some topological space -- called the [[Eilenberg-MacLane space]]s $K(\mathbb{Z}, n+1)$ or $\mathcal{B}^{n} U(1)$ -- and again each element in these groups can be identified with a certain geometric structure living over $X$, called a circle $n$-bundle or $(n-1)$-[[gerbe]]: $[X, \mathcal{B}^{n} U(1)] = \{ $circle $n$-bundles on $X \}/{\sim}$.
 
