@@ -38,7 +38,7 @@ The challenge is to find adequate mathematical models so as better to understand
 
 [[Tim Porter]]:  @Adam. Why not develop this a bit on some off shoot pages?  Also why not join n-forum and then it will be easier to discuss the points you make without discussions filling up the n-Lab pages. 
 
-I hope to get a bit more CS and TCS into the n-lab as there seem to be possibilities for interesting interactions between some topics there and the 'n-POV' as well as conncetions with quantum computing. 
+I hope to get a bit more CS and TCS into the n-lab as there seem to be possibilities for interesting interactions between some topics there and the 'n-POV' as well as connections with quantum computing. 
 
 What do you think? As I suggested please do get onto the n-forum if you have the time.   
 =--
@@ -75,3 +75,6 @@ What do you think? As I suggested please do get onto the n-forum if you have the
  *  [[Eric Goubault]], [[Some geometric perspectives in concurrency theory]], 
 
 *   [[Eric Goubault]] and [[Samuel Mimram]], [Formal Relationships Between Geometrical and Classical Models for Concurrency](http://fr.arxiv.org/abs/1004.2818)
+
+
+category: computer science
