@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __irreflexive__ if no element of $A$ is related to itself:
 $$ \forall (x: A),\; x \nsim x .$$
 
