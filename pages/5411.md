@@ -79,6 +79,8 @@ An object $X \in C$ is called **fully dualizable** if it is in the essential [[i
 
 * For all $n \in \mathbb{N}$, the [[(∞,n)-category of cobordisms]] $Bord_n$ is symmetric monoidal. By the [[cobordism hypothesis]] this should be the [[free functor|free]] symmetric monoidal $(\infty,n)$-category on the [[point]].
 
+* For all $n$ and $C$ any symmetric monoidal $(\infty,n)$-category, there is a symmetric monoidal [[(∞,n)-category of spans]] of [[∞-groupoid]]s over $C$.
+
 ## Related concepts
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
