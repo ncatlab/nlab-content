@@ -3408,11 +3408,11 @@ Examples of [[∞-cohesive site]]s are
 * [[discrete ∞-groupoid]]
 
 
-### Euclidean-topological $\infty$-groupoids
+### Topological $\infty$-groupoids
 
 * [[Euclidean-topological ∞-groupoid]]
 
-
+* [[locally contractible topological ∞-groupoid]]
 
 
 ### Smooth $\infty$-groupoids
