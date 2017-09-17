@@ -176,6 +176,10 @@ If a polarization on an $2n$-dimensional symplectic manifold is generated from $
 
 [[!include orientations in higher quantization - table]]
 
+### Other
+
+* [[canonical transformation]]
+
 ## References
 
 Lecture notes include 
