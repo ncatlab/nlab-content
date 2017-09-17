@@ -422,7 +422,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### D4.7 Real numbers in a topos
 
-* [[real number]]
+* [[real numbers object]]
 
 ### D5 Aspects of finiteness
 
