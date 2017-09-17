@@ -24,13 +24,17 @@ Intuitionistic mathematics is a variety of [[constructive mathematics]] done acc
 
 ## Terminology
 
-There are a variety of ways to use the term 'intuitionistic'.  We list them here from the most specific to the most general:
+There are a variety of ways to use the term 'intuitionistic'.  We list them here, roughly from the most specific to the most general, and contrast (where appropriate) with the term 'constructive':
 
-*  __Intuitionism__ is an early-20th-century [[philosophy of mathematics]] developed by Brouwer, according to which [[mathematics]] is a free creation of a mind, and valid results are about what that mind creates (rather than about an external reality, as in [[platonism]], or about nothing, as in [[formalism]]).  From this starting point, Brouwer developed a very controversial style of mathematics and even [[logic]], which he saw as derived from mathematics (rather than conversely, as in [[logicism]]).
+*  __Intuitionism__ is an early-20th-century [[philosophy of mathematics]] developed by Brouwer, according to which [[mathematics]] is a free creation of a mind, and valid results are about what that mind creates (rather than about an external reality, as in [[platonism]], or about nothing, as in [[formalism]]).  From this starting point, Brouwer developed a very controversial style of mathematics and even [[logic]], which he saw as derived from mathematics (rather than conversely, as in [[logicism]]).  Intuitionism is one particular philosophy of [[constructivism]].
 
-*  __Intuitionistic mathematics__ is the mathematics that Brouwer came up with.  However, it\'s not necessary to accept Brouwer\'s philosophy to practise intuitionistic mathematics; conversely, one may accept Brouwer\'s philosophical starting place but not his conclusions about the resulting mathematics.
+*  __Intuitionistic mathematics__ is the mathematics that Brouwer came up with.  However, it\'s not necessary to accept Brouwer\'s philosophy to practise intuitionistic mathematics; conversely, one may accept Brouwer\'s philosophical starting place but not his conclusions about the resulting mathematics.  Intuitionistic mathematics is one particular variety of [[constructive mathematics]].
 
-*  __[[Intuitionistic logic]]__ is the logic that Brouwer\'s mathematics uses, which lacks the principle of [[excluded middle]].  However, there are many other styles of mathematics that also use intuitionistic logic; these are known more generally as [[constructive mathematics]].
+*  __[[intuitionistic set theory|Intuitionistic set theory]]__ is a [[set theory]], generally proffered as a [[foundation of mathematics]], in which [[excluded middle]] fails but [[power sets]] are included (making it [[impredicative mathematics|impredicative]]).  In contrast, _constructive_ set theory has [[function sets]] but not power sets (making it [[weakly predicative mathematics|weakly predicative]]).  Neither of these actually captures the level of predicativity of intuitionistic mathematics.
+
+*  __[[intuitionistic type theory|Intuitionistic type theory]]__ is a [[set theory]], generally proffered as a [[foundation of mathematics]], which is usually [[predicative mathematics|predicative]].  For purposes of comparing type theory to set theory, it might be nice if 'intuitionistic' and 'constructive' were distinguished for type theories as they are for set theories, but they aren\'t.  (Then again, there was never much sense in that distinction for set theories, or at least not for making it using that terminology.)
+
+*  __[[Intuitionistic logic]]__ is the [[logic]] that intuitionistic mathematics, set theory, and type theory use, which lacks the principle of [[excluded middle]]; other forms of constructive mathematics also use intuitionistic logic, which is also known as _constructive logic_.
 
 
 ## Mathematical principles
@@ -47,7 +51,7 @@ Brouwer never accepted a complete axiomatisation of intuitionistic mathematics. 
 
 *  There\'s also some stuff about [[choice sequence]]s that I don\'t really understand.
 
-Although it\'s not enough to derive all of the above, much of the essence of intuitionistic mathematics can be summarised in the theorem that every (set-theoretic) [[function]] from the [[unit interval]] to the [[real line]] is [[uniformly continuous map|uniformly continuous]].
+Although it\'s not enough to derive all of the above, much of the essence of intuitionistic mathematics, or at least intuitionistic [[analysis]], can be summarized in the theorem that every (set-theoretic) [[function]] from the [[unit interval]] to the [[real line]] is [[uniformly continuous map|uniformly continuous]].
 
 
 ## Feel
@@ -59,7 +63,9 @@ Although intuitionstic mathematics does not accept all [[function sets]] (much l
 
 ## Related concepts
 
-* [[intuitionistic type theory]], [[homotopy type theory]]
+* [[constructive mathematics]]
+* [[intuitionistic type theory]]
+
 
 [[!redirects intuitionistic mathematics]]
 [[!redirects intuitionism]]
