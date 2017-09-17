@@ -109,6 +109,8 @@ $$E^*(\mathbb{N}) \cong E^*(\sum_{n: \mathbb{N}} 1) \cong \sum_{n: N} E^* 1 \con
 
 with the evident successor and constant $0$, is the natural nunbers object in $E$.  
 
+
+[[!redirects natural numbers object]]
 [[!redirects natural numbers objects]]
 [[!redirects natural number object]]
 [[!redirects natural number objects]]
