@@ -162,4 +162,7 @@ Surveys include
 * [[John Greenlees]], _Spectra for commutative algebraists_, [arXiv:math/0609452](http://arxiv.org/abs/math/0609452)
 * [[Stefan Schwede]], _An untitled book project
 about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/~schwede/SymSpec.dvi), [pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf)
+
+* [[Robert Thomason]], _Symmetric Monoidal Categories Model All Connective Spectra_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.8193))
+
 [[!redirects spectra]]
