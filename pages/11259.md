@@ -31,8 +31,7 @@ The following is taken literally from _[The QED Manifesto](ftp://mizar.uwb.edu.p
 
 > The development of mathematics toward greater precision has led, as is well known, to the formalization of large tracts of it, so that one can prove any theorem using nothing but a few mechanical rules. -- [[Kurt Gödel]]
 
-> If civilization continues to advance, in the next two thousand years the overwhelming novelty in human thought will be the dominance of mathematical
-understanding.  -- [[Alfred North Whitehead]]
+> If civilization continues to advance, in the next two thousand years the overwhelming novelty in human thought will be the dominance of mathematical understanding.  -- [[Alfred North Whitehead]]
 
 
 
