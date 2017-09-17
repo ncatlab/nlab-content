@@ -3,19 +3,19 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topos Theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-##Definition##
+## Definition
 
 Classically, we have:
 
@@ -55,6 +55,7 @@ By the general theory of [[geometric morphisms]], every Grothendieck topos sits 
 
 * Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
 
+
 ## Properties
 
 ### General
@@ -85,7 +86,9 @@ Therefore a Grothendieck topos is also cototal.
 
 =--
 
+
 ### Giraud\'s axiomatic characterization
+{#Giraud}
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
@@ -103,8 +106,6 @@ These conditions are equivalent to
 See the [[Elephant]], theorem C.2.2.8.  See also [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).
 
 Sometimes (3,4) are combined and strengthened to the statement that the category has all small [[colimits]], which are effective and pullback-stable.  However, this is a mistake for two reasons: it is a significantly stronger axiomatisation (since without the small generating set, not every infinitary pretopos has this property), and it is not valid in predicative mathematics (while the definition given above is).
-
-
 
 
 ## In weak foundations
