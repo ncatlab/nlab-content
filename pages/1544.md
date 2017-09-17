@@ -278,7 +278,7 @@ Choose a [[partition of unity]] $(\rho_i \in C^\infty(X,\mathbb{R}))$ subordinat
 Then set
 
 $$
-  A_i := \sum_{i_0} \rho_{i_0}|_{U_{i_0}} g_{i_0 i}|^{-1}_{U_{i_0}} d g_{i_0 i}|_{U_{i_0}}
+  A_i := \sum_{i_0} \rho_{i_0}|_{U_{i_0}} (g_{i_0 i}|^{-1}_{U_{i_0}}) d_{dR} (g_{i_0 i}|_{U_{i_0}})
   \,.
 $$
 
