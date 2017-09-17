@@ -318,6 +318,8 @@ and
 
 * **$L_\infty$-algebra**
 
+  * [[infinity-Lie algebra cohomology]]
+
 ## References ##
 
 The original references are:
