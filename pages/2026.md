@@ -17,7 +17,11 @@ An affine scheme is a spectrum of a noetherian ring iff it is a locally noetheri
 
 Every affine subscheme of a locally noetherian scheme is the spectrum of a noetherian ring. A scheme is noetherian if _and only if_ it has a finite cover by spectra of noetherian rings.
 =--
+* Springer eom: [Noetherian scheme](http://eom.springer.de/n/n066860.htm)
 
-
+[[!redirects locally noetherian scheme]]
+[[!redirects locally noetherian schemes]]
+[[!redirects locally Noetherian scheme]]
+[[!redirects locally Noetherian schemes]]
 [[!redirects noetherian schemes]]
 [[!redirects Noetherian scheme]]
