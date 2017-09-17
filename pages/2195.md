@@ -19,9 +19,11 @@ $$\hat{f}(\lambda)=\int_{-\infty}^\infty f(x) e^{-2\pi i\lambda x} d x.$$
 It is usually defined as a linear automorphism of the [[Schwarz space]] $S(\mathbb{R})\to S(\mathbb{R})$; there is also an appropriate extension to the space of [[distribution]]s $S'(\mathbb{R})$ by $\langle \hat{f},\phi\rangle := \langle f, \hat{\phi}\rangle$ where $f\in S'(\mathbb{R})$ and $\phi\in S(\mathbb{R})$. The Fourier transform and the inverse Fourier transform are continuous, mutually inverse operators $S'(\mathbb{R})\to S'(\mathbb{R})$. 
 There is also a unitary operator on $L_2(\mathbb{R},d x)$ which when restricted to $L_2(\mathbb{R},d x)\cap L_1(\mathbb{R},dx)$ agrees with the Fourier transform. 
 
-The study of the Fourier transform and its generalizations is the main subject of [[harmonic analysis]]. 
+The study of the Fourier transform is the main subject of [[Fourier analysis]] and, together with its generalizations like wavelet transform, of [[harmonic analysis]]. Regarding that, with an appropriate choice of functional spaces, the Fourier transform has an inverse, each function can be represented as a Fourier inverse of some function, which amounts to a decomposition into an integral over a Haar measure along some basis. THus the function gets *analysed* into *harmomics*. 
+
 For noncommutative topological groups, instead of continuous characters one should consider [[irreducible representation|irreducible]] unitary [[representation]]s, which makes the subject much more difficult. There are also generalizations in [[noncommutative geometry]], see [[quantum group Fourier transform]].   
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
 [[!redirects Fourier series]]
 [[!redirects Fourier integral]]
+[[!redirects Fourier analysis]]
