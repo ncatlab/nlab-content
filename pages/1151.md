@@ -19,6 +19,7 @@
 
 
 ## Idea ## 
+ {#Idea}
 
 There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. All these notions of cohomology are special cases of -- and in many instances special concrete _models_ for -- the following general idea:
 
