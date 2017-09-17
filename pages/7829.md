@@ -24,15 +24,18 @@ a [[manifold with boundary]].
 
 Introductions and surveys include
 
-* Ken Richardson, _Introduction to the Eta Invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
-
+* Jean-Michel Bismut, _Local index theory, eta invariants and holomorphic torsion: a survey_, pp. 1-76, in: Surveys in diff. geom. (C. C Hsiang, S/T. Yau, eds.) 1998. International Press
+* Ken Richardson, _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
 * Xianzhe Dai, _Eta invariant and holonomy_ Chern Centennial (2011) ([pdf slides](http://www.nim.nankai.edu.cn/activites/conferences/Chern-Centennial-20111024/ppt_pdf/1027pm-XZDai.pdf))
-
-* Wikipedia, _[Eta inavriant](http://en.wikipedia.org/wiki/Eta_invariant)_
+* Wikipedia, _[Eta invariant](http://en.wikipedia.org/wiki/Eta_invariant)_
 
 Further discussion of the relation to [[holonomy]] is in
 
-* Xianzhe Dai, Weiping Zhang, _Eta invariant and holonomy, the even dimensional case_ ([arXiv:1205.0562](http://arxiv.org/abs/1205.0562))
+* Xianzhe Dai, Weiping Zhang, _Eta invariant and holonomy, the even dimensional case_, [arXiv:1205.0562](http://arxiv.org/abs/1205.0562)
+
+Eta invariants play role in 
+
+* Lisa C. Jeffrey, _Symplectic quantum mechanics and Chern=Simons gauge theory I_,  [arxiv/1210.6635](http://arxiv.org/abs/1210.6635)
 
 
 [[!redirects eta invariant]]
