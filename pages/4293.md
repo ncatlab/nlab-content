@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Defintion
@@ -47,6 +47,10 @@ In particular, every [[power series]] in $\mathbb{R}[ [ X] ]$ is the taylor seri
 The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analysis|MSIA, I, 1.3]]
 
 =--
+
+## Related concepts
+
+[[!include infinitesimal and local - table]]
 
 
 [[!redirects Taylor series]]
