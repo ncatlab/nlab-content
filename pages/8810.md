@@ -60,7 +60,7 @@ The [[Narasimhan–Seshadri theorem]] identifies [[moduli spaces]] of stable vec
 
 * [[Harder-Narasimhan filtration]]
 
-* [[moduli space]]
+* [[moduli space of bundles]]
 
 
 ## References
