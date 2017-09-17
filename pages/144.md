@@ -27,7 +27,7 @@ Very generally,
 
   we think of each such copreasheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps from a would-be space _into_ $U$, hence as the collection of $U$-valued _functions_ on $X$. Since a function on a point is a "quantity", this are generalized quantities.
 
-Typically the admissiable (co)presheaves that are regarded as generalized spaces and quantities modeled on $C$ are required to respect certain properties of $C$:
+Typically the admissible (co)presheaves that are regarded as generalized spaces and quantities modeled on $C$ are required to respect certain properties of $C$:
 
 * If $C$ carries the structure of a [[site]], one asks a generalized space to be a presheaf $X = PSh(C) = [C^{op},Set]$ that respects the way objects in $C$ are covered by other objects. These are the [[sheaf|sheaves]]. The [[category of sheaves]]
 
