@@ -89,7 +89,11 @@ What is not true in this example is that $Disc K \to Codisc K$ is a monomorphism
 In particular, notice that the fibers $S_i$ may be empty. This is notably the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ represented by $\emptyset$.
 
 
+### Sites of balls;
 
+Any full small subcategory of [[Top]] on [[connected]] topological spaces with the canonical induced [[open cover]] [[coverage]] is a cohesive site. If a subcategory on [[contractible]] spaces, then this is also an [[(∞,1)-cohesive site]]. 
+
+This includes notably the category [[CartSp]] of all [[open ball]]s (with either continuous maps or smooth maps as morphism). 
  
 
 
