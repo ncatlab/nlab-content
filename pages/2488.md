@@ -1,4 +1,17 @@
-[[!redirects n-truncated object of an (infinity,1)-topos]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -566,3 +579,5 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 [[!redirects truncated object of an (∞,1)-category]]
 [[!redirects truncated object in an (∞,1)-category]]
 [[!redirects truncated object in an (infinity,1)-topos]]
+
+[[!redirects n-truncated object of an (infinity,1)-topos]]
