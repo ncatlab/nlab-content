@@ -62,6 +62,10 @@ Notice that the double quotients appearing here are by the [[Weil uniformization
 
 [[!include function field analogy -- table]]
 
+## Related concepts
+
+* [[Artin L-function]]
+
 ## References
 
 * wikipedia: en:[Artin reciprocity law](http://en.wikipedia.org/wiki/Artin_reciprocity_law), de:[Artinsches_Reziprozitaetsgesetz](http://de.wikipedia.org/wiki/Artinsches_Reziprozit%C3%A4tsgesetz)
@@ -72,3 +76,5 @@ Disucssion with an eye towards [[geometric class field theory]] is in
 * {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
 
 [[!redirects Artin's reciprocity law]]
+
+[[!redirects Artin reciprocity]]
