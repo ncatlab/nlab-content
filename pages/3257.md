@@ -1,4 +1,6 @@
 
+> This page is about a variant of the notion of [[natural transformation]] in [[category theory]]. For the notion of _canonical transformation_ in [[Hamiltonian mechanics]] see at [[symplectomorphism]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
