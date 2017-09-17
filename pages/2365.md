@@ -1,23 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
+An __inductive limit__ is the same thing as a [[colimit]].  (Similarly, a [[projective limit]] is the same thing as a [[limit]].)  In this context, an __inductive system__ is the same thing as a [[diagram]], and an __inductive cone__ is the same thing as a [[cocone]].
 
-The term "inductive limit" is another name for what here is simply called [[colimit]].  (Similarly, "[[projective limit]]" is another term for what here is called [[limit]].)
-
-Many authors restrict this term to colimits over [[directed sets]] (or [[filtered categories]]), especially the directed set $(\mathbb{N},\leq)$ of [[natural numbers]]; see [[directed colimit]] (or [[filtered colimit]]) for discussion of this case if you think that it may be what you want.
+Many authors restrict this terminology to colimits over [[directed sets]] (or [[filtered categories]]), especially the directed set $(\mathbb{N},\leq)$ of [[natural numbers]]; see [[directed colimit]] (or [[filtered colimit]]) for discussion of this case if you think that it may be what you want.
 
 
 [[!redirects inductive limit]]
 [[!redirects inductive limits]]
+
+[[!redirects inductive system]]
+[[!redirects inductive systems]]
+
+[[!redirects inductive cone]]
+[[!redirects inductive cones]]
