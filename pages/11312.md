@@ -61,6 +61,7 @@ where $\eta$ is the [[Dedekind eta function]].
 
 (recalled e.g. in [Todorov 03, page 3](#Todorov03))
 
+This kind of expression appears as the [[partition function]] of the [[bosonic string]] (e.g. section 6.4.2 in these lectures: [pdf](http://www.damtp.cam.ac.uk/user/tong/string/six.pdf))
 
 ## References
 
