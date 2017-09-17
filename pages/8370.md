@@ -43,6 +43,12 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 
 [[!include types and logic - table]]
 
+## Related concepts
+
+* [[relation between category theory and type theory]]
+
+* [[programs as proofs]], [[propositions as types]]
+
 
 ## References
 
