@@ -219,6 +219,10 @@ Such a thing is called a [[Gerstenhaber algebra]].  Note that we do not have the
 **([[Deligne conjecture]])**.  $C^*(A,A)$ is a $G_\infty$-algebra, which is a Gerstenhaber algebra _up to coherent homotopy_.
 =--
 
+## Examples
+
+* [[Moyal quantization]]
+
 ## Related concepts
 
 * [[reductions deformations resolutions in physics]]
