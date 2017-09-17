@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include quasi-category theory contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
