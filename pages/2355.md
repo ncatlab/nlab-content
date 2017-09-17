@@ -95,7 +95,7 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 
 ## Properties
 
-The two diferent definition above are indeed equivalent:
+The two different definition above are indeed equivalent:
 
 +-- {: .un_prop}
 ###### Proposition
@@ -108,6 +108,77 @@ For $C$ and $D$ [[quasi-categories]], the two definitions of adjunction, in term
 ###### Proof
 
 This is [[Higher Topos Theory|HTT, prop 5.2.2.8]].
+
+First we discuss how to produce the unit for an adjunction from the data of a correspondence $K \to \Delta[1]$ that encodes an $\infty$-adjunction $(f \dashv g)$.
+
+For that, define a morphism $F' : \Lambda[2]_2 \times C \to K$ as follows:
+
+* on $\{0,2\}$ it is the morphism $F : C \times \Delta[1] \to K$ that exhibits $f$ as associated to $K$, being $Id_C$ on $C \times \{0\}$ and $f$ on $C \times \{2\}$;
+
+* on $\{1,2\}$ it is the morphism $C \times \Delta[1] \stackrel{f \times Id}{\to} D \times \Delta[1] \stackrel{G}{\to} K$, where $G$ is the morphism that exhibits $g$ as associated to $K$;
+
+Now observe that $F'$ in particular sends $\{1,2\}$ to [[Cartesian morphism]]s in $K$ (by definition of functor associated to $K$). By one of the equivalent characterizations of [[Cartesian morphism]]s, this means that the lift in the diagram
+
+$$ 
+  \array{
+    \Lambda[2]_2 &\stackrel{F'}{\to}& K
+    \\
+    \downarrow &{}^{F''}\nearrow& \downarrow
+    \\
+    \Delta[2] \times C &\to & \Delta[1] 
+  }
+$$
+
+exists. This defines a morphism $C \times \{0,1\} \to K$ whose components may be regarded as forming a [[natural transformation]] $u : d_C \to g \circ f$.
+
+To show that this is indeed a unit transformation, we need to show that the maps of [[hom-object in a quasi-category]] for all $c \in C$ and $d \in D$
+
+$$
+  Hom_D(f(f), d) \to Hom_C(g(f(c)), g(d)) \to Hom_C(c, g(d))
+$$
+
+is an equivalence, hence an isomorphism in the [[homotopy category]]. Once checks that this fits into a commuting diagram
+
+$$
+  \array{
+    Hom_D(f(c), d) &\to& Hom_C(g(f(c)), g(d)) &\to& Hom_C(c, g(d))
+    \\
+    \downarrow &&&& \downarrow
+    \\
+    Hom_K(C,D) &&=&& Hom_K(C,D)
+  }
+  \,.
+$$
+
+For illustration, chasing a morphism $f(c) \to d$ through this diagram yields
+
+$$
+  \array{
+    (f(c) \to d) &\mapsto& (g(f(c)) \to g(d)) &\mapsto& 
+    (c \to g(f(c)) \to g(d))
+    \\
+    \downarrow && && \downarrow
+    \\
+    (c \to f(c) \to d)
+    &&\simeq&&
+    (c \to g(f(c)) \to g(d) \to d)
+  }
+ \,,
+$$
+
+where the morphisms $c \to f(c)$ and $g(d) \to d$ in $K$ are the Cartesian morphisms $F(\{c\} \times (0 \to 1))$ and $G( \{c\} \times (0 \to 1))$. The equivalence at the bottom is the one induced from the equivalence
+
+$$
+  \array{
+    && g(f(c))
+    \\
+    & \nearrow &\Downarrow^{\simeq}& \searrow
+    \\
+    c &&\to&& f(c)
+  }
+$$
+
+given by $F''|_{c} : \Delta[2] \to K$, by ...
 
 =--
 
