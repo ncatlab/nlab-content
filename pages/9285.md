@@ -1,0 +1,12 @@
+
+## Idea
+
+An [[internalization|internal]] [[module]] over a [[monoid object]].
+
+## Related concepts
+
+* [[monoid object]]
+
+* [[algebra object]]
+
+[[!redirects module objects]]
