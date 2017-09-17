@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Lie integration]] of [[higher Courant Lie algebroids]].
+
+## Related concepts
+
+[[!include higher Atiyah groupoid - table]]
+
+[[!redirects higher Courant groupoids]]
+
