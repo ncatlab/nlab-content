@@ -39,7 +39,82 @@ There is another formulation of the same physical content, but using the formali
 
 Here we formulate Noether's theorem for [[local action functional]] in terms of the [[variational bicomplex]] and the [[covariant phase space]].
 
-### The context
+
+
+### Simple schematic idea
+ {#LagrangianVersionSimpleSchematicIdea}
+
+Before coming to the precise and general formulation, we indicate here schematically the simple idea which underlies Noether's first theorem (in its original Lagrangian version).
+
+Consider a [[local Lagrangian]] $L$ and assume for simplicity
+that it depends only on the first [[derivatives]] $\nabla \phi$ (the [[gradient]]) of the [[field (physics)|fields]] $\phi$, hence
+
+$$
+  L \colon \phi \mapsto L(\phi, \nabla \phi)
+  \,.
+$$
+
+(We write $\nabla \cdot (-)$ in the following for the [[divergence]].)
+
+Then the [[variational derivative]] of $L$ by the fields is
+
+$$
+  \begin{aligned}
+    \delta L
+    & = 
+    \left(\frac{\delta}{\delta \phi} L\right)  \delta \phi
+    +
+    \left(\frac{\delta}{\delta \nabla \phi} L\right) \cdot \nabla \delta \phi
+    \\
+    & =
+    \left(
+      \frac{\delta}{\delta \phi} L
+      -
+      \nabla \cdot \left(\frac{\delta}{\delta \nabla\phi}L\right)
+    \right)
+    \cdot (\delta \phi)
+    + 
+    \nabla \cdot \left( \left(\frac{\delta }{\nabla \phi} L\right)
+    \delta \phi
+   \right)        
+  \end{aligned}
+  \,,
+$$
+
+where in the second step the total derivative was introduced via the [[product rule]] of [[differentiation]] $f (\nabla g) = -(\nabla f) g + \nabla (f g)$.
+
+From this law for the variation of the Lagrangian, one derives both the [[Euler-Lagrange equation|Equler-Lagrange]] [[equations of motion]] as well as Noether's theorem by making different assumptions and setting different terms to zero:
+
+1. Demanding that the variation $\delta \phi$ vanishes on some [[boundary]] of [[spacetime]] implies that the rightmost term in the above equation disappears in the variation $\delta S = \delta \int L$ of the [[action functional]] (by the [[Stokes theorem]]) and hence demanding that $\delta S = 0$ under variation that vanishes on the boundary is equivalent to demanding the [[Euler-Lagrange equation]]
+
+   $$
+      \frac{\delta}{\delta \phi} L
+      -
+      \nabla \cdot \left(\frac{\delta}{\delta \nabla\phi}L\right)
+    = 0
+    \,.
+   $$
+
+1. On the other hand, assuming that for given $\delta \phi$ the variation $\delta L $ vanishes when these equations of motion hold -- hense assuming that $\delta \phi$ is an _on-shell [[symmetry]]_ of $L$ -- is equivalent to assuming that the above expression is zero even without the left term, hence that
+
+  $$
+    \nabla \cdot 
+    \left(\left(\frac{\delta }{\delta \nabla\phi} L\right) \delta \phi\right)    
+     = 0
+    \,.
+  $$
+
+  This is the statement of _Noether's theorem_. The object
+
+  $$
+    p_\phi \delta \phi
+    \coloneqq
+    \left(\frac{\delta }{\delta \nabla \phi} L\right) \delta \phi
+  $$
+
+  (here $p_\phi$ is the [[canonical momentum]] of the [[field (physics)|field]] $\phi$) is called the _Noether current_ and the above says that this is (on-shell) a  [[conserved current]] precisely if $\delta \phi$ is a symmetry of the Lagrangian.
+
+### The formal context
 
 Let $X$ be a [[spacetime]] of [[dimension]] $n$, $E \to X$ a [[bundle]], $j_\infty E \to X$ its [[jet bundle]] and 
 
