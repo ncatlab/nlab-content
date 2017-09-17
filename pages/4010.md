@@ -7,8 +7,13 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
