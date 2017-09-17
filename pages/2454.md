@@ -15,7 +15,13 @@
 
 ## Definition
 
+### For Lie algebras
+
 Given a [[Lie algebra]] $L$ internal to some [[symmetric monoidal category|symmetric monoidal]] $k$-linear category $C = (C,\otimes, \mathbf{1},\tau)$, an __enveloping monoid__ (or __enveloping algebra__) of $L$ in $C$ is any morphism $f: L\to Lie(A)$ of Lie algebras in $C$ where $A$ is a monoid (= algebra) in $C$, and $Lie(A)$ is the underlying object of $A$ equipped with the Lie bracket $[,]_{Lie(A)}=\mu-\mu\circ\tau_{A,A}$. In further we will just write $A$ for $Lie(A)$. A morphism of enveloping algebras $\phi : (f:L\to A)\to (f':L\to A')$ is a morphism $g: A\to A'$ of monoids completing a commutative triangle of morphisms in $C$, i.e. $g\circ f = f'$. With an obvious composition of morphisms, the enveloping algebras of $L$ form a category. A __universal enveloping algebra__ of $L$ in $C$ is any universal [[initial object]] $i_L:L\to U(L)$ in the category of enveloping algebras of $L$; it is of course unique up to an isomorphism if it exists. If it exists for all Lie algebras in $C$, then the rule $L\mapsto U(L)$ can be extended to a functor $U$ which is the left adjoint to the functor $Lie:A\mapsto Lie(A)$ defined above and the morphism $i_L:L\to U(L)$ is the unit of the adjunction. 
+
+### For $L_\infty$-algebras
+
+In the more general context of [[higher algebra]] there is a notion of universal enveloping [[E-n algebra]] of an [[L-infinity algebra]] for all $n \in \mathbb{N}$ which generalizes the notion of universal associative algebra envelope of a Lie algebra. See at _[[universal enveloping E-n algebra]]_.
 
 ## Existence
 
@@ -30,25 +36,34 @@ In most standard cases, one can also form the smallest 2-sided ideal (i.e. $A$-s
 
 The _isomorphism problem_ for enveloping algebras is about the fact that the universal enveloping monoids of two Lie algebras of $C$ are isomorphic as associative [[monoids]] in $C$, but this does not imply that the Lie algebras are isomorphic. This is even not true in general for the Lie $k$-algebras (in classical sense), even if $k$ is a [[field]] of characteristics zero. It is known however in that case that the dimension of the finite-dimensional Lie $k$-algebra $L$ can be read off from its universal enveloping $k$-algebra as its Gel'fand-Kirillov dimension $GK(U(L))$. 
 
-### Hopf algebra structure on $U(L)$
+### Poisson algebra structure on $U(\mathfrak{g})$
+
+The universal enveloping algebra $U(\mathfrak{g})$ of a [[Lie algebra]] is naturally a (non-commutative) [[Poisson algebra]] with the restriction of the Poisson bracket to generators being the original [[Lie bracket]]
+
+### Hopf algebra structure on $U(\mathfrak{g})$
 
 Suppose the universal enveloping algebras of Lie algebras exist in a $k$-linear symmetric monoidal category $C$ and the functorial choice $L\mapsto U(L)$ realizing the above construction with tensor products is fixed. For example, this is true in the category of $k$-modules where $k$ is a commutative ring. Then the projection $L\to 0$ where $0$ is the trivial Lie algebra induces the counit $\epsilon:U(L)\to U(0)=\mathbf{1}$. The coproduct $\Delta:U(L)\to U(L\coprod L)\cong U(L)\otimes U(L)$ is induced by the diagonal map $L\to L\coprod L$ whereas the antipode $S=U(-id):U(L)\to U(L)$. One checks that these morphisms make $U(L)$ into a Hopf algebra in $C$.
 
-### Universal enveloping of a tangent Lie algebra 
-
-The universal enveloping algebra of the [[tangent Lie algebra]] of a finite-dimensional Lie group $G$ over real or complex numbers is canonically isomorphic to the algebra of the left [[invariant differential form|invariant differential operators]] on $G$. 
-
 ### PBW theorem
 
-The [[Poincaré–Birkhoff–Witt theorem]] states that the associated graded algebra of an enveloping algebra $U(g)$ in characteristics zero is canonically isomorphic to a symmetric algebra $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
+The [[Poincaré–Birkhoff–Witt theorem]] states that the 
+[[associated graded]] algebra of an enveloping algebra $U(g)$ in characteristics zero is canonically isomorphic to a symmetric algebra $Sym(g)$, and $U(g)$ is isomorphic to $S(g)$ as a coalgebra, via the projection map $U(g)\to Gr U(g)$. 
+
+## Examples
+
+### Universal enveloping of a tangent Lie algebra
+
+The universal enveloping algebra of the [[tangent Lie algebra]] of a 
+finite-dimensional Lie group $G$ over real or complex numbers is canonically isomorphic to the algebra of the left invariant 
+[[differential operators]] on $G$.
 
 ## Related concepts
-
 
 * [[Hausdorff series]], [[Poincaré–Birkhoff–Witt theorem]], [[coexponential map]], [[Duflo isomorphism]] 
 
 * An [[oidification]] is the [[universal enveloping algebroid]].
 
+* [[universal enveloping E-n algebra]]
 
 ## Literature
 
