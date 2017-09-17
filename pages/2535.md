@@ -69,6 +69,10 @@
 
 ## Theorems
 
+* [[Hadamard lemma]]
+
+* [[Steenrod-Wockel approximation theorem]]
+
 * [[Poincare lemma]]
 
 * [[de Rham theorem]]
