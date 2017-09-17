@@ -47,6 +47,7 @@ In particular a $(2,1)$-localic 2-topos is the same as a [[(2,1)-topos]].
 
 
 ### In terms of internal categories
+ {#InTermsOfInternalCategories}
 
 Given a 2-topos $\mathcal{X}$, regard it is a [[2-site]] by equipping it with its [[canonical topology]]. 
 
@@ -147,6 +148,8 @@ Discussion of the [[elementary topos]]-analog of 2-toposes is in
 
 
 [[!redirects (2,1)-topos]]
+[[!redirects (2,1)-toposes]]
+
 
 [[!redirects Grothendieck 2-topos]]
 [[!redirects Grothendieck 2-toposes]]
