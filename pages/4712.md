@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _nonabelian bundle gerbe_ is a model for the [[Lie groupoid]] which is the total space of a smooth $AUT(H)$-[[principal 2-bundle]] for $AUT(H)$ the [[Lie 2-group]] that is the [[automorphism 2-group]] of a [[Lie group]] $H$.
+A _nonabelian bundle gerbe_ (as studied by Aschieri-Cantini-Jurco) is a model for the [[Lie groupoid]] which is the total space of a smooth $AUT(H)$-[[principal 2-bundle]] for $AUT(H)$ the [[Lie 2-group]] that is the [[automorphism 2-group]] of a [[Lie group]] $H$.
 
 Specifically, a nonabelian bundle gerbe on a [[smooth manifold]] $X$ is given by a [[surjective submersion]] $Y \to X$ and an $H$-[[bibundle]] $P \to Y\times_X Y$ together with a morphism of $H$-bibundles
 
@@ -44,6 +44,8 @@ where on the rght we have the [[universal principal infinity-bundle|universal pr
 
 The resulting [[Lie groupoid]] $\tilde P$ is an extension of the [[Cech groupoid]] $C(Y)$ by $AUT(H)$.
 This generalizes the case of ordinary [[bundle gerbe]]s, which are models for $\mathbf{B}U(1)$-principal 2-bundles, for $\mathbf{B}U(1)$ the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>.
+
+This can all be extended to [[internal category|topological groupoids]], and to structure [[2-groups]] given by more general [[crossed modules]] than $H\to Aut(H)$.
 
 ## References
 
