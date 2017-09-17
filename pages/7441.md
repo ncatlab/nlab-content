@@ -5,12 +5,13 @@
 
 * [[internal category]], [[internal groupoid]]
 
+  [[weak equivalence of internal categories]]
+
 * [[internal profunctor]]
 
 ## In a [[(2,1)-category]]
 
 * [[2-congruence]]
-
 
 ## In [[∞Grpd]]
 
