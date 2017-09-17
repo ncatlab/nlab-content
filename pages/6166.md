@@ -5,9 +5,16 @@
 
 ## Definition
 
-Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(M,\nu)$, where $\nu :R\times M\to M$ is the action, is __finitely generated__ if there exist a set $S\subset M$ such that the composition of the inclusion of sets $R\times S\hookrightarrow R\times M$ and the action $\nu : R\times M\to M$ is surjective. 
+Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(N,\nu)$, is __finitely generated__ if there exist a [[finite set]] $S\subset N$ such that the canonical morphism from the [[free module]] $F(S) \longrightarrow N$ is a [[surjection]].
+
 
 ## Related concepts
+
+* [[generators and relations]]
+
+* [[finitely generated object]]
+
+  * [[finitely generated algebra]]
 
 * [[finitely presented module]]
 
