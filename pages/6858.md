@@ -1,0 +1,15 @@
+[[Euler]] solved the problem of finding a function of a continuous variable $x$ which for integer values of $x=n$ agrees with the factoriel function $n\mapsto n!$. In fact, gamma function is a shift by one of the solution of this problem.
+
+For a complex variable $x\neq -1,-2,\ldots$,
+
+$$
+\Gamma(x) = \lim_{k\to \infty} \frac{k! k^{x-1}}{(x)_k}
+$$
+
+where $(x)_0 =1$ and for positive integer $k = 1,2,\ldots$,
+
+$$
+(k)_k = x (x+1) (x+2)\cdots (x+ k-1)
+$$
+
+is the shifted factorial.
