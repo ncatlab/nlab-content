@@ -15,6 +15,16 @@ An early application of the ideas from that book was in the proof of what is som
 
 which gave a neat explicit construction/description of [[homotopy limit]]s.
 
+## Related entries
+
+* [[quasi-category]]
+
+* [[Boardman-Vogt resolution]]
+
+* [[Boardman-Vogt tensor product]]
+
+
+
 ## References
 
 Some of the above material is taken from [[joyalscatlab:Vogt, Rainer|Joyal's CatLab -- Rainer Vogt]].
