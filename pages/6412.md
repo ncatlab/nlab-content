@@ -98,23 +98,21 @@ As an additive compact Hausdorff [[topological group]], the inverse limit $\math
 
 $$0 \to \mathbf{Z}_p \stackrel{i}{\hookrightarrow} \mathbf{Q}_p \stackrel{q}{\to} \mathbf{Z}(p^\infty) \to 0.$$ 
 
-This exact sequence is Pontrjagin self-dual in the sense that the map $\mathbf{Q}_p \to \mathbf{Q}_p^\ast$ induced from the pairing 
+This exact sequence is Pontrjagin self-dual in the sense that the map $\mathbf{Q}_p \to \mathbf{Q}_p^\wedge$ induced from the pairing 
 
-$$\mathbf{Q}_p \times \mathbf{Q}_p \to \mathbb{R}/\mathbb{Z}$$ 
-$$\,$$ 
-$$(x, y) \mapsto {|x y|_p}$$ 
+$$\mathbf{Q}_p \times \mathbf{Q}_p \stackrel{mult}{\to} \mathbf{Q}_p \stackrel{q}{\to} \mathbb{Z}[1/p]/\mathbb{Z} \hookrightarrow \mathbb{R}/\mathbb{Z}$$  
 
 fits into an isomorphism of exact sequences 
 
 $$\array{
 0 & \to & \mathbf{Z}_p & \stackrel{i}{\to} & \mathbf{Q}_p & \stackrel{q}{\to} & \mathbf{Z}(p^\infty) & \to & 0 \\ 
  & & \downarrow & & \downarrow & & \downarrow & & \\ 
-0 & \to & (\mathbf{Z}(p^\infty))^\ast & \stackrel{q^\ast}{\to} & \mathbf{Q}_p^\ast & \stackrel{i^\ast}{\to} & \mathbf{Z}_p^\ast & \to & 0
+0 & \to & \mathbf{Z}(p^\infty)^\wedge & \stackrel{q^\wedge}{\to} & \mathbf{Q}_p^\wedge & \stackrel{i^\wedge}{\to} & \mathbf{Z}_p^\wedge & \to & 0
 }$$ 
 
-where the vertical isomorphisms on left and right come from [[Pontrjagin duality]], and the middle arrow can then be shown to be an isomorphism by invoking the [[short five lemma]] for topological groups. 
+where the vertical isomorphisms on left and right come from [[Pontrjagin duality]], and the middle arrow is then an isomorphism by the [[short five lemma]] for topological groups. 
 
-This self-duality figures into the local $p$-adic analysis initiated in [[Tate's thesis]]. (To be continued) 
+This self-duality figures into the local $p$-adic analysis initiated in [[Tate's thesis]]. 
 
 
 ## Related concepts
