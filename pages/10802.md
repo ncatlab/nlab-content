@@ -51,6 +51,8 @@ Notice that on the other hand for instance if instead $X = Spec(k)$ is the [[spe
 
 * [[comparison theorem (crystalline cohomology)]]
 
+* [[Chow's theorem]]
+
 ## References
 
 The original reference is
