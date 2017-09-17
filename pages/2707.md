@@ -239,6 +239,7 @@ See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutativ
 
 * See also at _[KK-theory -- Relation to motives](KK-theory#AsAnAnalogOfMotives)_.
 
+* [[motives in physics]]
 
 
 ## References
@@ -365,7 +366,7 @@ Further investigation of these stacky Chow motives then appears in
 
 * Utsav Choudhury, _Motives of Deligne-Mumford Stacks_ ([arXiv:1109.5288](http://arxiv.org/abs/1109.5288))
 
-
+For more see at _[[motives in physics]]_.
 
 
 category: algebraic geometry
