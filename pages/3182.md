@@ -305,7 +305,8 @@ for the intrinsic [[cohomology]] of $ETop \infty Grpd$ on $X$ with coefficients 
 +-- {: .un_prop }
 ###### Proposition
 
-Let $A \in $ [[∞Grpd]], write $Disc A \in ETop \infty Grpd$ for the corresponding [[discrete ∞-groupoid|discrete topological ∞-groupoid]]. Let $X \in Top_1 \stackrel{i}{\hookrightarrow} ETop \infty Grpd$ be a [[paracompact topological space]] regarded as a0-[[truncated]] e-topological $\infty$-groupoid. 
+Let $A \in $ [[∞Grpd]], write $Disc A \in ETop \infty Grpd$ for the corresponding [[discrete ∞-groupoid|discrete topological ∞-groupoid]]. Let $X \in Top_1 \stackrel{i}{\hookrightarrow} ETop \infty Grpd$ be a [[paracompact topological space]] regarded as a 0-[[truncated]] 
+Euclidean-topological $\infty$-groupoid. 
 
 We have an [[isomorphism]] of cohomology sets
 
@@ -342,7 +343,7 @@ From this the claim follows by the [above proposition](#FundGroupoidOfParacompac
 +-- {: .un_prop #GeometricRealizationOfHomotopyFibers}
 ###### Proposition
 
-Let $X$ and $G$ be degreewise [[paracompact topological space|paracompact]] [[simplicial topological space]]s. Let moreover $G$ be a well-sectioned topological [[simplicial group]]. Regard both as object in $E Top \infty Grpd$ in the canonical way. Write $\mathbf{B}G$ for  [[delooping]] of the [[∞-group]]-object $G$ in $ETop \infty Grpd$.
+Let $X$ and $G$ be degreewise [[paracompact topological space|paracompact]] [[simplicial topological space]]s with good open covers. Let moreover $G$ be a well-sectioned topological [[simplicial group]]. Regard both as object in $E Top \infty Grpd$ in the canonical way. Write $\mathbf{B}G$ for  [[delooping]] of the [[∞-group]]-object $G$ in $ETop \infty Grpd$.
 
 Then the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental (∞,1)-groupoid functor]] $\Pi : ETop \infty Grpd$ preserves [[homotopy fiber]]s of all morphisms of the form $X \to \mathbf{B}G$.
 
@@ -372,7 +373,7 @@ $$
 
 of topological spaces and hence (since the [[Yoneda embedding]] preserves [[limit]]s) of [[simplicial presheaves]] on [[CartSp]]${}_{top}$ is a [[homotopy pullback]] (as discussed there) and hence $P = X \times_{\bar W G} W G$ is a presentation of the [[homotopy fiber]] of $X \to \mathbf{B}G$ in the [[(∞,1)-category of (∞,1)-presheaves]] over $CartSp$ and hence by [[exact (∞,1)-functor|left exactness]] of [[(∞,1)-sheafification]] also in $ETop\infty Grpd$.
 
-In ([StevensonRoberts](#StevensonRoberts)) it is shown that under [[geometric realization of simplicial topological spaces]] the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a> $W G \to \bar W G$ maps to the universal $|G|$-principal topological bundle $E |G| \to B |G|$ over the [[topological group]] $|G|$ obtained by [[geometric realization of simplicial topological spaces|geometric realizations]] of $G$. This is a [[resolution]] of the point inclusion $* \to B|G|$ in [[Top]].
+In ([StevensonRoberts](#StevensonRoberts)) it is shown that under [[geometric realization of simplicial topological spaces]] the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a> $W G \to \bar W G$ maps to the universal $|G|$-principal topological bundle $E |G| \to B |G|$ over the [[topological group]] $|G|$ obtained by [[geometric realization of simplicial topological spaces|geometric realization]] of $G$. This is a [[resolution]] of the point inclusion $* \to B|G|$ in [[Top]].
 
 But [[geometric realization of simplicial topological spaces]] preserves (as discussed there) ordinary [[pullback]]s. Therefore we have that also 
 
@@ -399,11 +400,14 @@ We discuss <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#C
 +-- {: .un_prop}
 ###### Proposition
 
-Let $X$ be a [[pointed object|pointed] [[paracompact topological space]].  Then its ordinary [[Whitehead tower]] $* \to \cdots X^{(2)} \to X^{(1)} \to X^{(0)} = X$ in $Top_1$ coincides with the image under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental ∞-groupoid functor]] $|\Pi(-)|$ of its [[Whitehead tower in an (∞,1)-topos|geometric Whitehead tower]] $* \to \cdots X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} = X$ in $ETop \infty Grpd$:
+Let $X$ be a [[pointed object|pointed] [[paracompact topological space]] that admits a [[good open cover]].  Then its ordinary [[Whitehead tower]] 
+$* \to \cdots X^{(2)} \to X^{(1)} \to X^{(0)} = X$ in [[Top]] coincides with the image under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental ∞-groupoid functor]] $|\Pi(-)|$ of its [[Whitehead tower in an (∞,1)-topos|geometric Whitehead tower]] 
+$X^{\mathbf{(\infty)}} \to \cdots X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} = X$ in $ETop \infty Grpd$:
 
 $$
   \begin{aligned} 
-     |\Pi(-)| & :   (* \to \cdots X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} = X) \in ETop\infty Grpd
+     |\Pi(-)| & :   
+   (X^{\mathbf{(\infty)}} \to \cdots X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} = X) \in ETop\infty Grpd
     \\
      & \mapsto 
       (* \to \cdots X^{(2)} \to X^{(1)} \to X^{(0)} = X) 
@@ -427,8 +431,8 @@ $$
   \,.
 $$ 
 
-By the above [proposition on the fundamental ∞-groupoid](#spring) we have that $\mathbf{\Pi}_n(X) \simeq Disc Sing X$. Since $Disc$ is [[right adjoint]] and hence preserves [[homotopy fiber]]s this implies that 
-$\mathbf{B} \mathbf{\pi}_n(X) \simeq \mathbf{B}^n Disc \pi_n(X)$, where $\pi_n(X)$ is the ordinary $n$th [[homotopy group]] of the pointed topologicall space $X$. 
+By the above [proposition on the fundamental ∞-groupoid](#FundGroupoidOfParacompact) we have that $\mathbf{\Pi}_n(X) \simeq Disc Sing X$. Since $Disc$ is [[right adjoint]] and hence preserves [[homotopy fiber]]s this implies that 
+$\mathbf{B} \mathbf{\pi}_n(X) \simeq \mathbf{B}^n Disc \pi_n(X)$, where $\pi_n(X)$ is the ordinary $n$th [[homotopy group]] of the pointed topological space $X$. 
 
 Then by the above [proposition on geometric realization of homotopy fibers](#GeometricRealizationOfHomotopyFibers) we have that under $|\Pi(-)|$ the space $X^{\mathbf{(n)}}$ maps to the homotopy fiber of $|\Pi(X^{\mathbf{(n-1)}})| \to B^n |Disc \pi_n(X)| = B^n \pi_n(X)$.
 
