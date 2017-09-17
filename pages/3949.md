@@ -1,6 +1,7 @@
 Interloper/dilettante. "Functional analyst", who sometimes wonders if the term meant something different in Britain that it does in North America. Keeps finding category-theoretic things all over the place in *old* analysis, never mind the brave new world of NCG, and is starting to feel that they should be collated somewhere.
 
 * [website](http://math.usask.ca/~choi/)
+* [home](http://parasol.altijd-voordelig.nl)
 
 ### To do list ###
 Some things I am considering trying to write about, or contribute to. (This is mainly meant as a list to remind or nag me to write things down.)
@@ -23,4 +24,3 @@ Some things I am considering trying to write about, or contribute to. (This is m
 category: people
 
 [[!redirects YemonChoi]]
-
