@@ -232,7 +232,9 @@ A detailed proof of this is in ([Waldorf, lemma A.1.7](#Waldorf))
 
 The usual notions of _[[G-structures]]_ for [[manifolds]], such as [[orientation]], [[spin structure]], [[string structure]], etc. do not carry over directly to their smooth loop spaces, but they are closely related by [[transgression]]: a [[spin structure]] on $X$ is supposed to induce a kind of orientation structure on $\Omega X$, a string structure on $X$ is supposed to induce a kind of spin structure on $\Omega X$.
 
-Formalizations of such "smooth loop space $G$-structures" have been proposed in  ([Stolz-Teichner 2005](#Stolz)), ([Waldorf 2010](#Waldorf10))  and ([Waldorf 2012](#Waldorf12)).
+Formalizations of such "smooth loop space $G$-structures" have been proposed in  ([Stolz-Teichner 2005](#Stolz)), ([Waldorf 2010](#Waldorf10))  and ([Waldorf 2012](#Waldorf12)). In particular an equivalence between spin structures on smooth loop space and [[string structure]] on the underlying space is discussed in ([Waldorf 14](#Waldorf14)).
+
+
 
 ### As the loop space object of the smooth path groupoid 
  {#AsLoopObj}
@@ -382,8 +384,9 @@ For [[spin structure]] on loop spaces and its [[transgression]] from [[string st
 * [[Stephan Stolz]], [[Peter Teichner]], _The spinor bundle on loop space_ (2005) ([pdf])
  {#Stolz}
 
-* [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_ ([arXiv:1209.1731](http://arxiv.org/abs/1209.1731))
- {#Waldorf12}
+* {#Waldorf12} [[Konrad Waldorf]], _Spin structures on loop spaces that characterize string manifolds_ ([arXiv:1209.1731](http://arxiv.org/abs/1209.1731))
+
+* {#Waldorf14} [[Konrad Waldorf]], _String geometry vs. spin geometry on loop spaces_ ([arXiv:1403.5656](http://arxiv.org/abs/1403.5656))
 
 There are also sketchy notes in
 
