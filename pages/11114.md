@@ -1,11 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-So-called Trimble rewiring refers to a certain type of transformation on graphs which were introduced in [Trimble's thesis](#TT94), intended to refine [[Kelly-Mac Lane graphs]] or classical proof nets in multiplicative [[linear logic]] so as to capture properties of the [[monoidal category|monoidal unit]] in [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]. These unit-extended proof nets may be interpreted as morphisms in free symmetric monoidal closed categories, and it turns out that two unit-extended proof nets are interpretable as the same morphism if and only if they are "rewiring equivalent". 
+So-called _Trimble rewiring_ refers to a certain type of transformation on [[graphs]] which were introduced in [Trimble's thesis](#TT94), intended to refine [[Kelly-Mac Lane graphs]] or classical [[proof nets]] in multiplicative [[linear logic]] so as to capture properties of the [[monoidal category|monoidal unit]] in [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]. These unit-extended proof nets may be interpreted as morphisms in [[free construction|free]] [[symmetric monoidal category|symmetric monoidal]] [[closed category|closed categories]], and it turns out that two unit-extended proof nets are interpretable as the same morphism if and only if they are "rewiring equivalent". 
 
 Rewirings can be organized into a confluent and strongly normalizing rewrite system, where a rewrite called "directed rewiring". The normal forms of graphs can then be used to state a full coherence theorem, extending the [[coherence theorem]] of [Kelly and Mac Lane](#KM71) for symmetric monoidal closed categories. 
 
@@ -24,4 +39,3 @@ The concept of rewiring equivalence extends to [[weakly distributive category|we
 
 
 [[!redirects Trimble rewirings]]
-
