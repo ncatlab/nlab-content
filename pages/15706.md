@@ -25,9 +25,10 @@ Under this analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rationa
 
 The so-called _MKR dictionary_ (Mazur-Kapranov-Reznikov) relates terms from each side of the analogy (see sec 2.2 of [Sikora](#Sikora)).
 
-##Variant
+## Reznikov's Variant
+ {#ReznikovVariant}
 
-Reznikov has modified the dictionary ([Reznikov00](#Reznikov00)) so as to associate a number field with what he calls a $3\frac{1}{2}$-manifold, that is a closed three-manifold $M$, bounding a four-manifold $N$, such that the map of fundamental groups $\pi_1(M) \to \pi_1(N)$ is surjective.
+Reznikov has modified the dictionary ([Reznikov 00](#Reznikov00)) so as to associate a number field with what he calls a $3\frac{1}{2}$-manifold, that is a closed three-manifold $M$, bounding a four-manifold $N$, such that the map of fundamental groups $\pi_1(M) \to \pi_1(N)$ is surjective.
 
 ## Related concepts
 
@@ -37,7 +38,7 @@ Reznikov has modified the dictionary ([Reznikov00](#Reznikov00)) so as to associ
 
 ##References
 
-* {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
+* {#Morishita09} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv:0904.3399](http://arxiv.org/abs/0904.3399))
 
 * Masanori Morishita 2012, _Knots and Primes: An Introduction to Arithmetic Topology_, Springer
 
