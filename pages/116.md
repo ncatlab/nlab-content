@@ -116,15 +116,17 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
 
 * [[simple group]]
 
-* [[finite group]]
+* [[finite group]], [[progroup]]
 
   * [[classification of finite simple groups]]
 
   * [[sporadic finite simple groups]]
 
-* [[divisible group]]
+* [[abelian group]]
 
-* [[progroup]]
+  * [[finite abelian group]]
+
+* [[divisible group]]
 
 * [[topological group]]
 
