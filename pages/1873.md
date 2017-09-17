@@ -129,3 +129,6 @@ See also
 [[!redirects Lie-algebra valued differential 1-forms]]
 
 [[!redirects groupoid of Lie-algebra valued 1-forms]]
+
+[[!redirects Lie algebra valued 1-forms]]
+[[!redirects Lie algebra valued 1-form]]
