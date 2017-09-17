@@ -63,6 +63,8 @@ See also
 
 ## References
 
+* Gijs Heuts: [algebras over ∞-operads](http://arxiv.org/pdf/1110.1776.pdf)
+
 Model category structures for $\infty$-algebras are discussed in
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ ([arXiv:math/0512576](http://arxiv.org/abs/math/0512576))
