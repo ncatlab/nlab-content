@@ -36,6 +36,8 @@ Computable mathematics is an instance of [[intuitionistic mathematics]] (see e.g
 
 ## Related concepts
 
+* [[computation]], [[hypercomputation]]
+
 * [[computable real number]]
 
 * [[computable set]]
