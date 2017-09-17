@@ -1,3 +1,4 @@
+
 # Vector bundles
 * tic
 {: toc}
@@ -86,6 +87,13 @@ In one class of models for [[K-theory]] -- [[generalized (Eilenberg-Steenrod) co
 
 
 Much else to be discussed...
+
+
+## Related concepts
+
+* [[principal bundle]], [[associated bundle]]
+
+* [[n-vector bundle]]
 
 ## Literature
 
