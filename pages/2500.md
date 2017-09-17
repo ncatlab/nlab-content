@@ -68,7 +68,7 @@ The non-spinorial part of [[action functional]]s of supergravity theories are ty
 
 This might suggest that supergravity is to be thought of as a [[gauge theory]]. There are indeed various action functionals of [[Chern-Simons theory]]-form for supergrvaity theories ([Zanelli](#Zanelli)). These yield theories whose bosonic action functional is the [[Einstein-Hilbert action]] in certain conctraction limits.
 
-More generally ([DAuriaFreCastellani](#DauriaFreCastellani)) have shows that at least some versions, such as the maximal 11-dimensional supergravity are naturally understood as _higher_ gauge theories whose fields are [[∞-Lie algebra-valued forms]] with values in [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. This is described in detail at [[D'Auria-Fre formulation of supergravity]].
+More generally ([DAuriaFreCastellani](#DauriaFreCastellani)) have shown that at least some versions, such as the maximal 11-dimensional supergravity are naturally understood as _higher_ gauge theories whose fields are [[∞-Lie algebra-valued forms]] with values in [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. This is described in detail at [[D'Auria-Fre formulation of supergravity]].
 
 ## Solutions with global supersymmetry
  {#SolutionsWithGlobalSupersymmetry}
