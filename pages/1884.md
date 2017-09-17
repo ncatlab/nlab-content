@@ -358,6 +358,8 @@ The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topo
 
 * **topological K-theory
 
+  * [[topological index]]
+
 * [[twisted K-theory]]
 
 * [[differential K-theory]]
