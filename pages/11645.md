@@ -12,6 +12,8 @@ A [[moduli space]] of [[circle n-bundle with connection|higher line bundles (wit
 
 ## Related concepts
 
+* [[moduli space of bundles]]
+
 * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
 
 [[!redirects moduli spaces of (higher) line bundles]]
