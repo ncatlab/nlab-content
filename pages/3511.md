@@ -16,7 +16,7 @@
 Its full [[subcategory]] on [[∞-groupoid]]s is [[∞Grpd]].
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## The $(\infty,2)$-category 
@@ -98,6 +98,7 @@ This is [[Higher Topos Theory|HTT, section 3.3]].
 
 
 #### Automorphisms
+ {#Automorphisms}
 
 +-- {: .un_theorem }
 ###### Theorem
