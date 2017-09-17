@@ -17,7 +17,7 @@
 
 A preorder (also sometimes called a _[[quasi-order]]_) is like a [[partial order]], but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  
 
-The reason is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preordered set, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
+One reason to drop this requirement is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preordered set, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
 
 
 ## Definition
