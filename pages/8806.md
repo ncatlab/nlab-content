@@ -24,6 +24,12 @@ A _complex vector bundle_ is a [[vector bundle]] with respect [[complex vector s
 
 A omplex vector bundle with complex 1-dimensional [[fibers]] is a [[complex line bundle]].
 
+## Properties
+
+### Oka-Grauert principle
+
+The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the holomorphic and the topological classification of [[complex vector bundles]] on $X$ coincide. The original reference is ([Grauert 58](#Grauert58)).
+
 ## Related concepts
 
 * [[complex vector space]]
