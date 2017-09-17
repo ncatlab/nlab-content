@@ -9,7 +9,7 @@ Classically, a **Schur functor** is a specific sort of [[functor]]
 
 $$F: FinVect \to FinVect$$ 
 
-where $FinVect$ is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(V)$ is obtained by taking a [[tensor power]] of $V$, say $V^{\otimes n}$, and then picking out the subspace that transforms according to a particular [[irreducible representation]] of the [[symmetric group]] $S_n$, which acts on $V^{\otimes n}$ by permuting the tensor factors.  
+where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $F(V)$ is obtained by taking a [[tensor power]] of $V$, say $V^{\otimes n}$, and then picking out the subspace that transforms according to a particular [[irreducible representation]] of the [[symmetric group]] $S_n$, which acts on $V^{\otimes n}$ by permuting the tensor factors.  
 
 For example:
 
@@ -497,7 +497,7 @@ $$F: \mathbb{P}^{op} \to FinVect$$
 
 where $F(n) = 0$ for large enough $n$.  For it is clear that this category contains the representables and is closed under finite direct sums and retracts. On the other hand, every polynomial $F$ is a sum of monomials $F(0) \oplus F(1) \oplus \cdots \oplus F(n)$, and by Maschke's theorem, each $S_j$-module $F(j)$ is the retract of a finite sum of copies of the group algebra $k[S_j]$ which corresponds to the representable $k\mathbb{P}(-, j)$. 
 
-So, inspired by Joyal's work on species [ref], we make the following definition:
+So, inspired by Joyal's work on [[combinatorial species]] [ref], we make the following definition:
 
 +-- {: .un_def}
 ######Definition 
@@ -676,4 +676,4 @@ We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $
 
 =--
 
-[[!redirects Schur functors]]
+[[!redirects Schur functors]]^^
