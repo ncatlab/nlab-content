@@ -41,11 +41,11 @@ This is due to ([BarwickSchommer-Pries](#BarwickSchommer-Pries)).
 
 ## Related concepts
 
-* [[Cat]]
+* [[Cat]], [[Operad]]
 
 * [[2Cat]]
 
-* [[(∞,1)Cat]]
+* [[(∞,1)Cat]], [[(∞,1)Operad]]
 
 * **$(\infty,n)Cat$**
 
