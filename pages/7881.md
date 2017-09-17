@@ -93,13 +93,13 @@ p\mapsto \{(b,n)|p(b,n)=0\}\subseteq B\times \mathbb{N}
 Then we have $\neg\neg A=A$ in $Sub(k_{B\times\mathbb{N}})$; i.e. $A$ is a closed subobject with respect to the dense topology $\neg\neg$ in the [[algebra of subobjects]] of $k_{B\times\mathbb{N}}$.
 =--
 
+Let $\Omega$ denote the [[subobject classifier]] of $Psh(P)$. Let $\Omega_{\neg\neg}$ denote the subobject classifier of $Sh(P,\neg\neg)$. Recall that $\Omega_{\neg\neg}$ is given by the equalizer $\Omega_{\neg\neg}=eq(id_\Omega,\neg\neg)$.
+
+By the preceding lemma, the [[characteristic morphism]] $\chi_a$ of the subobject $a \colon A\hookrightarrow k_{B\times\mathbb{N}}=k_B\times\k_\mathbb{N}$ factors through some $f \colon k_{B\times\mathbb{N}}\to \Omega_{\neg\neg}$.
+
 +-- {: .num_lemma}
-###### Lemma
-Let $\Omega$ denote the [[subobject classifier]] of $Psh(P)$. Let $\Omega_{\neg\neg}$ denote the subobject classifier of $Sh(P,\neg\neg)$. Recall that $\Omega_{\neg\neg}$ is the equalizer $\Omega_{\neg\neg}=eq(id_\Omega,\neg\neg)$.
-
-The [[characteristic morphism]] $\chi_a$ of the subobject $a:A\hookrightarrow k_{B\times\mathbb{N}}=k_B\times\k_\mathbb{N}$ factors through some $f:k_{B\times\mathbb{N}}\to \Omega_{\neg\neg}$.
-
-Then the adjoint $g:k_B\to \Omega_{\neg\neg}^{k_{\mathbb{N}}}$ of $f$ is a monomorphism.
+###### Lemma 
+The adjoint $g:k_B\to \Omega_{\neg\neg}^{k_{\mathbb{N}}}$ of $f$ is a monomorphism.
 =--
 
 +-- {: .num_corollary}
