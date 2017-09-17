@@ -19,9 +19,17 @@
 
 ## Idea
 
-The standard [[model (in theoretical physics)]] for the observed [[cosmology]]:
+The standard [[model (in theoretical physics)]] for the [[observable universe]] on the largest length scales of [[cosmology]]:
 
 an [[cosmic inflation|inflationary]] [[FRW spacetime]] with [[cosmological constant]] and cold [[dark matter]].
+
+The current model assumes that the energy density of the [[observable universe]] consists of
+
+* 4.9% [[baryon|baryonic]] (visible) [[matter]]
+
+* 26.8% [[dark matter]]
+
+* 68.3% [[dark energy]].
 
 ## Related concepts
 
