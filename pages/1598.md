@@ -39,7 +39,7 @@ In other words, it is a [[group object]] [[internalization|internal to]] [[Diff]
 
 =--
 
-Usually the manifold is assumed to be over the [[real numbers]] or the [[complex numbers]] and of finite [[dimension]] (f.d.), but extensions to some other ground fields and infinite-dimensional setting are also relevant. 
+Usually the manifold is assumed to be over the [[real numbers]] or the [[complex numbers]] and of finite [[dimension]] (f.d.), but extensions to some other ground fields and infinite-dimensional setting are also relevant, sometimes under other names (such as [[Fréchet Lie group]] when the underlying manifold is an infinite-dimensional [[Fréchet manifold]]). 
 
 A real Lie group is _compact_ (or _connected_, _simply connected_, etc) if its underlying space is [[compact space|compact]] (or [[connected space|connected]], [[simply connected space|simply connected]], etc). 
 
