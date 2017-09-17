@@ -22,7 +22,7 @@ The term __derived algebraic geometry__ is used in two closely related but logic
 
 ## derived categories of sheaves on a space ##
 
-In the early works of the Russian school (Kapranov, Bondal, Orlov, [[Kontsevich]]) it meant, replacing a [[variety]] by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or [[dg-category]] (or [[A-infinity category]]) [[enhanced triangulated category|enhancements]] thereof. There are also noncommutative deformations of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore [[noncommutative derived geometry]] (and even noncommutative motives). 
+In the early works of the Russian school ([[Kapranov]], [[Bondal]], [[Orlov]], [[Kontsevich]]) it meant replacing a [[variety]] by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or [[dg-category]] (or [[A-infinity category]]) [[enhanced triangulated category|enhancements]] thereof. There are also noncommutative deformations of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore [[noncommutative derived geometry]] (and even noncommutative motives). 
 
 Notice that the [[derived category]] of coherent sheaves on a variety does _not_ remember all the structure of the original variety hence derived geometry loses often some information (sometimes not); thus derived algebraic geometry is sometimes easier than nonderived. 
 
@@ -33,6 +33,10 @@ On the other hand there is a closely related effort to include sheaves of commut
 This second school has been, after the original ideas of Deligne, Drinfel'd and Kontsevich advanced by [[Carlos Simpson]] (who introduced also basic prerequisited like algebraic and geometric [[infinity-stack|n-stack]]s), and later [[Bertrand Toen]] and coworkers. One of the main motivations for both variants of derived algebraic geometry is to develop a satisfactory deformation theory and on its basis the theory of [[moduli stack]]s in [[algebraic geometry]] beyond the few examples which work in classical language of algebraic spaces and algebraic 1-stacks. 
 
 Sometimes, but not always getting rid of limitations coming from 1-categorical truncations removes nonsmoothness, but the expectations in that directions (hidden smoothness principle) failed in generality expected at the beginning. The construction of the derived moduli spaces relies, similarly to the classical moduli theory in algebraic geometry, on the infinitesimal case -- the [[deformation theory]] (cf. [[cotangent complex]]).
+
+## Relation between the two senses of "derived algebraic geometry"
+
+Derived algebraic geometry in the second sense arises naturally from considerations of deformation theory and wanting the cotangent complex to be an object in the derived category of coherent sheaves; see this [MathOverflow answer by Chris Brav](http://mathoverflow.net/questions/111084/why-are-derived-categories-natural-places-to-do-deformation-theory/111365#111365).
 
 ## "derived" in the second sense versus "$\infty$-"
 
