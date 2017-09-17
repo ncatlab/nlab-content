@@ -5,3 +5,4 @@ Jean-Luc Brylinski is a French mathematician now working in the USA. He has deve
 
 
 category: people
+[[!redirects J.-L. Brylinski]]
