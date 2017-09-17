@@ -165,6 +165,18 @@ $\mathcal{C}_{/X}(f^* \langle F \to Y\rangle, \langle E \stackrel{p}{\to} X\rang
 =--
 
 
+This state of affairs may be summarized in terms of the notion of _[[hyperdoctrine]]_:
+
+
++-- {: .num_prop}
+###### Proposition
+
+If $C$ is a category with [[finite limits]], then it is locally cartesian closed precisely if regarded as an $C$-[[indexed category]] (by forming [[slice categories]]) it is a [[hyperdoctrine]].
+
+=--
+
+A proof of the statement in this form is for instance in ([Freyd](#Freyd)).
+
 ### Internal logic
 
 The [[internal logic]] of locally cartesian closed categories is an [[extensional type theory|extensional]] form of [[dependent type theory]].  In particular, the [[dependent product]] $\Pi_f$ represents an extensional [[dependent product type]] in the internal logic.
@@ -206,6 +218,11 @@ With the [[adjoint functor theorem]] this implies that for every morphism $f : X
 A standard textbook account is around corollary A1.5.3 in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+The relation between local cartesian closure and base change/[[hyperdoctrine]] structure is sometimes attributed to
+
+* [[Peter Freyd]], _Aspects of topoi_, Bull. Australian Math. Soc. 7 (1972), 1-76.
+ {#Freyd}
 
 A discussion of [[dependent type theory]] as the [[internal language]] of locally cartesian closed categories is in 
 
