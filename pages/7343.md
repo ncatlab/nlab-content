@@ -40,9 +40,13 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 ## Related concepts
 
+* [[super Yang-Mills theory]]
+
 * [[N=4 D=4 super Yang-Mills theory]]
 
 * [[N=4 D=3 super Yang-Mills theory]]
+
+* [[topologically twisted D=4 super Yang-Mills theory]]
 
 * [[Seiberg-Witten theory]], [[electric-magnetic duality]], [[symplectic duality]]
 
@@ -95,7 +99,7 @@ The further observation that therefore the sewing of [[Riemann surfaces]] on whi
 * [[Davide Gaiotto]], _N=2 dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
  {#Gaiotto09}
 
-The [[topologically twisted D=4 super Yang-Mills theory|topological twisting]] of the compactification which is used around (2.27) there was previously introduced in section 3.2.1 of
+The [[topologically twisted D=4 super Yang-Mills theory|topological twisting]] of the compactification which is used around (2.27) there was previously introduced in section 3.1.2 of
 
 * [[Davide Gaiotto]], [[Gregory Moore]] and [[Andrew Neitzke]], _Wall-crossing, Hitchin Systems, and the WKB Approximation_, ([arXiv:0907.3987](http://arxiv.org/abs/0907.3987))
 
