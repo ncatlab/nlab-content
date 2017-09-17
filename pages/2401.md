@@ -142,6 +142,7 @@ A bit of elementary exposition of these ideas is at
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
 [[!redirects moduli spaces]]
+[[!redirects space of moduli]]
 
 [[!redirects fine moduli space]]
 [[!redirects coarse moduli space]]
