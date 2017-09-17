@@ -49,3 +49,5 @@ category: foundational axiom
 [[!redirects the law of excluded middle]]
 [[!redirects principle of excluded middle]]
 [[!redirects the principle of excluded middle]]
+[[!redirects axiom of excluded middle]]
+[[!redirects the axiom of excluded middle]]
