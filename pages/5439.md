@@ -21,13 +21,114 @@
 
 ## Idea
 
-The notion of _Hilbert $C^\ast$-module_ (or simply _Hilbert module_) is a generalization of the notion of _[[Hilbert space]]_ where the algebra of [[complex numbers]] is replaced by a [[C*-algebra]] $A$. In particular a Hilbert $A$-module has an [[inner product]] which takes values not in $\mathcal{C}$, but in $A$.
+The notion of _Hilbert $C^\ast$-module_ (or simply _Hilbert module_) is a generalization of the notion of _[[Hilbert space]]_ where the algebra of [[complex numbers]] is replaced by a [[C*-algebra]] $A$. In particular a Hilbert $A$-module has an [[inner product]] which takes values not in $\mathbb{C}$, but in $A$.
 
 Hilbert $C^\ast$-modules naturally appear as modules over [[groupoid convolution algebras]]. Refined to [[Hilbert C*-bimodules]] they serve as [[homomorphism]] between [[C*-algebras]] in [[KK-theory]], in [[noncommutative topology]].
 
 ## Definition
+ {#Definition}
 
-Let $A$ be a [[complex number|complex]] $C^\ast$-[[C*-algebra|algebra]]. A complex [[vector space]] $E$ which is in compatible way a (say left) $A$-[[module]] has the structure of a __Hilbert $C^\ast$-module__ over $A$ if it is given an [[inner product]], i.e. a sesquilinear map (that is left antilinear in the first and right linear in the second argument) $\langle - , - \rangle\colon E\times E\to A$ which is conjugate symmetric ($\langle a,b\rangle = \langle b,a\rangle^*$ for all $a,b\in E$) and positive definite (for all $e\in E$, $\langle e,e\rangle \geq 0$ in the sense of the [[positive elements]] in the $C^\ast$-algebra $A$ and $\langle e,e\rangle = 0$ only if $x = 0$). 
++-- {: .num_defn #HilbertCStarModule}
+###### Definition
+
+For $B \in $ [[C*Alg]], a [[Hilbert C*-module]] over $B$ is 
+
+1. a [[complex numbers|complex]] [[vector space]] $H$;
+
+1. equipped with a [[C*-representation]] of $B$ from the right;
+
+1. equipped with a [[sesquilinear map]] (linear in the second argument)
+
+   $$
+     \langle -,-\rangle \colon H \times H \to B
+   $$
+
+   (the $B$-valued [[inner product]])
+
+such that 
+
+1. $\langle -,-\rangle$ behaves indeed like a positive definitine inner product over $B$:
+
+   1. $\langle x,y\rangle^\ast = \langle y,x\rangle$
+
+   1. $\langle x,x\rangle \geq 0$ (in the sense of [[positive elements]] in $B$)
+
+   1. $\langle x,x\rangle = 0$ precisely if $x = 0$;
+
+   1. $\langle x,y \cdot b\rangle = \langle x,y \rangle \cdot b $
+
+1. $H$ is [[complete space|complete]] with respect to the [[norm]]:
+
+   ${\Vert x \Vert_H} \coloneqq {\Vert \langle x,x\rangle\Vert_B}$.
+
+=--
+
+
+## Examples
+ {#Examples}
+
++-- {: .num_example }
+###### Example
+
+An ordinary complex [[Hilbert space]] is a Hilbert $\mathbb{C}$-module.
+
+=--
+
+
+The archetypical class of examples for [[commutative C*-algebras]] is the following. The general definition \ref{HilbertCStarModule} may be understood as the generalization of the structure of this example to [[noncommutative topology|non-cmmutative C*-algebras]].
+
++-- {: .num_example #FromAHilbertSpaceBundle}
+###### Example
+
+Let $X$ be a [[locally compact topological space]] and write $C_0(X)$ for its [[C*-algebra]] of [[continuous functions]] of [[compact support]].
+
+Let $E \to X$ be a [[fiber bundle]] of [[Hilbert spaces]] over $X$, hence an canonically [[associated bundle]] to a [[unitary group]]-[[principal bundle]]. Then the space $\Gamma_0(E)$ of continuous compactly supported [[sections]] is a Hilbert $C^\ast$-module over $C_0(X)$ with $C_0(X)$-valued [[inner product]] $\langle -,-\rangle$ the pointwise inner product in the [[Hilbert space]] [[fiber]] of $E$:
+
+$$
+  \langle \sigma_1, \sigma_2\rangle(x)
+  \coloneqq
+  \langle \sigma_1(y), \sigma_2(y)\rangle_{E_y}
+  \;\in C_0(X)\,,
+  \;\;\;\;\;\;
+  \sigma_1, \sigma_2 \in \Gamma(E), \; x \in X
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Every Hilbert $C_0(X)$-module arises, up to [[isomorphism]], as in example \ref{FromAHilbertSpaceBundle}.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Every $C^\ast$-algebra $A$ is a Hilbert $A$-module over itself when equipped by with the $A$-valued inner product given simply by
+
+$$
+  \langle a_1,a_2\rangle \coloneqq a_1^\ast \cdot a \;\;\in A
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+For $A \in $ [[C*Alg]], let $\ell^2 A$ be the space of those [[sequences]] $\{a_n \in A\}_{n \in \mathbb{N}}$ of elements in $A$ such that the [[series]] $\sum_n a_n^\ast a_n$ [[convergence|converges]]. This is a Hilbert $A$-module when equipped with the evident $A$-[[C*-representation]] and with the $A$-valued inner product
+
+$$ 
+  \langle \{a_n\}, \{b_n\}\rangle
+  \coloneqq
+  \sum_n a_n^\ast b_n
+  \,.
+$$
+
+This $\ell^2 A$ is sometimes called the **standard Hilbert $A$-module** over $A$.
+
+=--
 
 
 ## Properties
