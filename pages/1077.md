@@ -4,6 +4,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Additive and abelian categories
++-- {: .hide}
+[[!include additive and abelian categories - contents]]
+=--
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
@@ -22,9 +26,10 @@
 
 ## Idea 
 
-A _biproduct_ in a [[category]] $C$ is an operation that is both a [[product]] and a [[coproduct]], in a compatible way.  Finite biproducts are best known from [[additive category|additive categories]] and their generalisations.
+A _biproduct_ in a [[category]] $C$ is an operation that is both a [[product]] and a [[coproduct]], in a compatible way. Morphisms between finite biproducts are encoded in a [[matrix calculus]].
 
-Morphisms between finite biproducts are encoded in a [[matrix calculus]].
+Finite biproducts are best known from [[additive category|additive categories]]. A category which has biproducts but is not necessarily [[enriched category|enriched]] in [[Ab]], hence not necessatily [[additive category|additive]], is called a _semiadditive category_.
+
 
 ## Definition 
 
@@ -61,19 +66,16 @@ A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discu
 
 A category $C$ with all finite biproducts is called a **semiadditive category**.  More precisely, this means that $C$ has all finite products and coproducts, that the unique map $0\to 1$ is an isomorphism (hence $C$ has a zero object), and that the canonical maps $c_1 \sqcup c_2 \to c_1 \times c_2$ defined above are isomorphisms.
 
-Amusingly, for $C$ to be semiadditive, it actually suffices to assume that $C$ has finite products and coproducts and that there exists *any* [[natural transformation|natural]] family of isomorphisms $c_1 \sqcup c_2 \cong c_1 \times c_2$ --- not necessarily the canonical maps constructed above.  A proof can be found in
+Amusingly, for $C$ to be semiadditive, it actually suffices to assume that $C$ has finite products and coproducts and that there exists *any* [[natural transformation|natural]] family of isomorphisms $c_1 \sqcup c_2 \cong c_1 \times c_2$ --- not necessarily the canonical maps constructed above.  A proof can be found in ([Lack 09](#Lack09)).
 
-* Stephen Lack, "Non-canonical isomorphisms", [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
-
-An [[additive category]], although normally defined through the theory of [[enriched categories]], may also be understood as a semiadditive category with an [[extra property]], as explained below.
-
-The existence of duals also tends to imply (semi)additivity; see [this paper](http://arxiv.org/abs/math/0604542) and [this MO question](http://mathoverflow.net/questions/14402/semiadditivity-and-dualizability-of-2/21307).
+An [[additive category]], although normally defined through the theory of [[enriched categories]], may also be understood as a semiadditive category with an [[extra property]], as explained below at _[Properties -- Biproducts imply enrichment](#BiproductsImplyEnrichment)_.
 
 ## Properties
 
-### Biproducts imply enrichment 
+### Biproducts imply enrichment -- Relation to additive categories
+ {#BiproductsImplyEnrichment}
 
-A semiadditive category is automatically [[enriched category|enriched]] over the [[monoidal category]] of abelian [[monoids]] with the usual [[tensor product]], as follows.
+A semiadditive category is automatically [[enriched category|enriched]] over the [[monoidal category]] of [[commutative monoids]] with the usual [[tensor product]], as follows.
 
 Given two morphisms $f, g: a \to b$ in $C$, let their sum $f + g: a \to b$ be
 $$ a \to a \times a \cong a \oplus a \overset{f \oplus g}{\to} b \oplus b \cong b \sqcup b \to b .$$
@@ -92,6 +94,12 @@ Conversely, if $C$ is already known to be enriched over abelian monoids, then a 
 
 For categories enriched over [[suplattices]], this extends to all small biproducts, with the condition $n_1 p_1 + n_2 p_2 = 1_{c_1\oplus c_2}$ replaced by $\bigvee_{i} n_i p_i = 1_{\bigoplus_i c_i}$.  In particular, the category of suplattices has all small biproducts.
 
+### Biproducts from duals
+
+The existence of [[dual objects]] tends to imply (semi)additivity; see ([{Houston 06}](#Houston06), [MO discussion](http://mathoverflow.net/questions/14402/semiadditivity-and-dualizability-of-2/21307)).
+
+
+
 ## Examples
 
 Categories with biproducts include:
@@ -103,6 +111,11 @@ Categories with biproducts include:
 * [[semiadditive (∞,1)-category]]
 
 ## References
+
+* {#Lack09} [[Stephen Lack]], _Non-canonical isomorphisms_, ([arXiv:0912.2126](http://arxiv.org/abs/0912.2126)).
+
+* {#Houston06} [[Robin Houston]], _Finite Products are Biproducts in a Compact Closed Category_, Journal of Pure and Applied Algebra, Volume 212, Issue 2, February 2008, Pages 394-400 ([arXiv:math/0604542](http://arxiv.org/abs/math/0604542))
+
 
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
 
