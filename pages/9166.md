@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $(V,\omega)$ a [[symplectic vector space]], its _Lagrangian Grassmannian_ is the space of its [[Lagrangian subspaces]].
+
+## Properties
+
+For $V$ a real [[vector space]] of [[dimension]] $2n$, its Lagrangian Grassmannian is [[diffeomorphism|diffeomorphic]] to the [[coset space]] $U(n)/O(n)$ of the [[unitary group]] by the [[orthogonal group]]
+  
+## Related concepts
+
+* [[Grassmannian]]
+
+  * [[isotropic Grassmannian]]
+
+  * **Lagrangian Grassmannian**
+
+* [[Maslov index]]
+
+## References
+
+* [[Andrew Ranicki]], _The Maslov Index_ ([pdf](http://www.maths.ed.ac.uk/~aar/maslovnotes.pdf))
+
+* Esteban Andruchow, Gabriel Larotonda, _Lagrangian Grassmannian in Infinite Dimension_ ([arXiv:0808.2270](http://arxiv.org/abs/0808.2270))
+ 
+[[!redirects Lagrangian grassmannians]]
+
+[[!redirects Lagrangian grassmannian]]
