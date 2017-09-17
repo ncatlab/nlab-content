@@ -92,7 +92,7 @@ Remarks:
 
 Another possibility is to generalise the [[source]] of $\mu$; instead of using a $\sigma$-algebra on $X$, we could use a $\sigma$-ring or even a $\delta$-ring.  These versions are mostly more about changing the definition of [[measurable space]], so refer there for details of the definition; however, we note that (3), when $\Sigma$ is a $\delta$-ring, should state that the left-hand side exists (that is, the union is measurable) if the right-hand side converges.  Generalising $\Sigma$ in this way is complementary to generalising the target above; in particular it may allow one to avoid dealing with $\infty$.  For example, while Lebesgue measure is only a positive measure on a $\sigma$-algebra, it is a *finite* positive measure on the $\delta$-ring of bounded measurable sets.  Indeed, every signed measure gives rise to finite measure on its $\delta$-ring of finitely measurable sets (defined below); conversely, every $\sigma$-finite measure can be recovered from this by imposing (3) in all cases.
 
-Yet another possibility is to drop countable additivity, replacing it with finite additivity.  The result is a __finitely-additive measure__, sometimes called a __charge__ to avoid the [[red herring principle]].  For a charge, one could replace $\Sigma$ with an algebra (or even a ring) of sets; again see [[measurable space]] for these definitions.
+Yet another possibility is to drop countable additivity, replacing it with finite additivity.  The result is a __finitely additive measure__, sometimes called a __charge__ to avoid the [[red herring principle]]; in contrast, the usual sort of measure may be called __countably additive__.  For a charge, one could replace $\Sigma$ with an algebra (or even a ring) of sets; again see [[measurable space]] for these definitions.
 
 Finally, an __extended measure__ takes values in the set $[-\infty,\infty]$ of extended real numbers.  Here we have the problem that, even when considering finite additivity, we might have to add $\infty$ and $-\infty$.  While we might simply require that this never happens (so that at least one of $\mu(S)$ and $\mu(T)$ must be finite if they have opposite signs and $S \cap T = \empty$), this does not include some examples that we want.  To deal with this, we define an extended measure to be a formal difference $\mu^+ - \mu^-$ of positive measures; $\mu(S) = \mu^+(S) - \mu^-(S)$ whenever this is not of the form $\infty - \infty$ and is otherwise undefined.  Note that the set of extended measures on $X$ is a [[quotient set]] of the set of pairs of positive measures; we say that $\mu = \nu$ if $\mu(S) = \nu(S)$ whenever either side is defined, that is if they are the same as [[partial functions]] from $S$ to $[-\infty,\infty]$.
 
@@ -229,6 +229,8 @@ category: analysis
 
 [[!redirects finitely additive measure]]
 [[!redirects finitely additive measures]]
+[[!redirects countably additive measure]]
+[[!redirects countably additive measures]]
 [[!redirects extended measure]]
 [[!redirects extended measures]]
 [[!redirects sigma-finite measure]]
