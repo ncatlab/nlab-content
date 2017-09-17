@@ -33,7 +33,7 @@ Assume that the [[abelian category]] $\mathcal{A}$ has [[projective objects|enou
 
 #### Evaluated on an object
 
-+-- {: .num_defn}
++-- {: .num_defn #LeftDerivedFunctor}
 ###### Definition
 
 For $F : \mathcal{A} \to \mathcal{B}$ a [[right exact functor]] and $n \in \mathbb{N}$, its **left derived functor** is the functor
@@ -184,7 +184,105 @@ A left derived functor $L_\bullet F$ is a universal homological [[delta-functor]
 
 =--
 
+### Long exact sequence of a derived functor
+
++-- {: .num_prop #LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
+###### Proposition
+
+Let $\mathcal{A}, \mathcal{B}$ be [[abelian categories]] and assume that $\mathcal{A}$ has [[injective object|enough injectives]].
+
+Let $F : \mathcal{A} \to \mathcal{B}$ be a [[left exact functor]] and let
+
+$$
+  0 \to A \to B \to C \to 0
+$$
+
+be a [[short exact sequence]] in $\mathcal{A}$.  
+
+Then there is a [[long exact sequence]] of images of these objects under the right derived functors $R^\bullet F(-)$ of 
+def. \ref{LeftDerivedFunctor}
+
+$$
+  0 \to R^0F (A) = F(A) \to R^0 F(B) = F(B) \to R^0 F(C) 
+   \stackrel{\delta_0}{\to} 
+  R^1 F(A) \to R^1 F(B) \to R^1F(C)
+   \stackrel{\delta_1}{\to}
+  R^2 F(A) \to \cdots
+$$
+
+in $\mathcal{B}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [this lemma](projective+resolution#InjectiveResolutionOfExactSequenceByExactSequence) at _[[injective resolution]]_ we can find an [[injective resolution]]
+
+$$
+  0 \to A^\bullet \to B^\bullet \to C^\bullet \to 0
+$$
+
+of the given exact sequence which is itself again an exact sequence of cochain complexes.
+
+Since $A^n$ is an [[injective object]] for all $n$, its component sequences $0 \to A^n \to B^n \to C^n \to 0$ are indeed [[split exact sequences]] (see the discussion there). Splitness is preserved by a functor $F$ and so it follows that
+
+$$
+  0 \to F(\tilde A^\bullet) \to F(\tilde B^\bullet) \to F(\tilde C^\bullet) \to 0
+$$
+
+is a again short exact sequence of cochain complexes, now in $\mathcal{B}$. Hence we have the corresponding [[homology long exact sequence]]
+
+
+$$
+  \cdots
+   \to
+  H^{n-1}(F(A^\bullet)) \to H^{n-1}(F(B^\bullet)) \to H^{n-1}(F(C^\bullet))
+    \stackrel{\delta}{\to}
+  H^n(F(A^\bullet)) \to H^n(F(B^\bullet)) \to H^n(F(C^\bullet))
+    \stackrel{\delta}{\to}
+  H^{n+1}(F(A^\bullet)) \to H^{n+1}(F(B^\bullet)) \to H^{n+1}(F(C^\bullet))
+   \to
+  \cdots
+  \,.
+$$
+
+But by construction of the resolutions and by def. \ref{LeftDerivedFunctor} this is equal to
+
+$$
+  \cdots
+   \to
+  R^{n-1}F(A) \to R^{n-1}F(B) \to R^{n-1}F(C) 
+   \stackrel{\delta}{\to}
+  R^{n}F(A) \to R^{n}F(B) \to R^{n}F(C) 
+    \stackrel{\delta}{\to}
+  R^{n+1}F(A) \to R^{n+1}F(B) \to R^{n+1}F(C) 
+   \to
+  \cdots
+  \,.
+$$
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence} implies that one way to interpret $R^1 F(A)$ is as a "measure for how a [[left exact functor]] $F$ fails to be an [[exact functor]]". For, with $A \to B \to C$ any [[short exact sequence]], this proposition gives the exact sequence
+
+$$
+  0 \to F(A) \to F(B) \to F(C) \to R^1 F(A)
+$$
+
+and hence $0 \to F(A) \to F(B) \to F(C) \to $ is a short exact sequence itself precisely if $R^1 F(A) \simeq 0$.
+
+=--
+
+
+
 ### Relation to derived categories 
+
+(...) [[derived category]] (...)
 
 ## Examples
 
