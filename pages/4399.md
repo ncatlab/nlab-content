@@ -1,4 +1,4 @@
-CAT(X) is the [[quasicategory]] whose [[object|objects]] are [[concrete category|concrete categories]] over a fixed [[category]] X and whose [[morphism|morphisms]] are concrete [[functor|functors]].
+CAT(X) is the [[metacategory]] whose [[object|objects]] are [[concrete category|concrete categories]] over a fixed [[category]] X and whose [[morphism|morphisms]] are concrete [[functor|functors]].
 
 #References#
 
