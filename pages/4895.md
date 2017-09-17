@@ -131,7 +131,20 @@ Notice that $Z_A(\Sigma)$ is the space of **[[state]]s** of $A$ over $\Sigma$, w
 ## Examples
  {#Examples}
 
-### Of higher Chern-Simons/CFT-type
+### Poisson holography
+ {#PoissonHolography}
+
+
+One of the key statements of the holographic principle is that
+[[field (physics)|fields]] of a [[bulk field theory]] correpond to [[sources]] in its [[boundary field theory]].
+
+One setup where this can be made a formal [[theorem]] is for [[2d Chern-Simons theory]] which is a [[non-perturbative field theory|non-perturbative]] [[Poisson sigma-model]]. This theorem is discussed at 
+
+* _[off-shell Poisson bracket -- boundary field theory interpretation](#BoundaryFieldTheoryInterpretation)_.
+
+* _[motivic quantization -- Poisson holography](motivic+quantization#PoissonHolography)_.
+
+### Holography of higher Chern-Simons/CFT-type
  {#3dCS-2dCFT}
 
 See also _[[AdS3-CFT2 and CS-WZW correspondence]]_.
@@ -298,7 +311,7 @@ Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be t
 
 
 
-### Of AdS gravity/CFT-type
+### Holographiy of AdS gravity/CFT-type
 
 
 #### Type II on $AdS_5 \times S^5$ and $d = 4$ super Yang-Mills
