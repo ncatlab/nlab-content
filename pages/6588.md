@@ -170,22 +170,22 @@ which exhibits the Heisenberg Lie algebra as a [[subobject|sub]]-Lie algebra of 
 
 =--
 
-
 ### Integration to Heisenberg group
 
 As for any [[Lie algebra]] one has [[Lie integration]] of the Heisenberg Lie algebra to a [[Lie group]]. This is called the _[[Heisenberg group]]_ (of the given [[symplectic vector space]]). 
 
+### Relation to the Heisenberg double
+
+In the case of standard symplectic form on $\mathbf{R}^{2n}$, the enveloping algebra of the Heisenberg Lie algebra is an associative algebra. Adding one more central generator one gets (Heisenberg-)Weyl associative algebra. Given any Hopf algebra, one can define its [[Heisenberg double]], which generalized the Heisenberg-Weyl algebra, which corresponds to the case when the Hopf algebra is the polynomial 
+algebra. 
+
 ## References
 
-Lecture notes on standard material include for instance
+Lecture notes on standard material include 
 
-section 4 of 
+* (section 4 in) Gordon, _Infinite-dimensional Lie algebras_, Lecture notes, Edinburgh (2008) ([pdf](http://www.maths.ed.ac.uk/~igordon/LA1.pdf))
 
-* Iain Gordon, _Infinite-dimensional Lie algebras_, Lecture notes, Edinburgh (2008) ([pdf](http://www.maths.ed.ac.uk/~igordon/LA1.pdf))
-
-section 4 (relating to [[geometric quantization]]) of
-
-* Teruji Thomas, _Geometric quantization II: Prequantization and the Heisenberg group_ ([pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf))
+* Teruji Thomas, _Geometric quantization II: Prequantization and the Heisenberg group_ ([pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf)), section 4 (relating to [[geometric quantization]])
 
 A [[categorification]] of the Heisenberg algebra appears in 
 
