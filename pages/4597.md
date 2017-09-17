@@ -1156,6 +1156,23 @@ Special noteworthy cases are
 
   (see [[D'Auria-Fre formulation of supergravity]])
 
+## Related entries
+
+* [[schreiber:differential cohomology in a cohesive topos]]
+
+  * **∞-Chern-Weil theory**
+
+    * [[schreiber:Cech cocycles for differential characteristic classes]]
+
+    * [[schreiber:Twisted differential structures]]
+
+      * [[schreiber:Twisted Differential String and Fivebrane Structures]]
+
+  * [[schreiber:∞-Chern-Simons theory]]
+
+    * [[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]
+
+
 ## References
 
 An explicit presentation of the $\infty$-Chern-Weil homomorphism in terms of [[simplicial presheaves]] and the application to [[differential string structure]]s and [[differential fivebrane structure]]s is considered in
