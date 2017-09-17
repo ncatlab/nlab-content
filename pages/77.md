@@ -116,6 +116,8 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
 * **Lie algebra**,  [[Lie group]]
 
+  [[Kac-Moody algebra]]
+
 * [[Lie 2-algebra]], [[Lie 2-group]]
 
 * [[L-∞ algebra]], [[smooth ∞-group]]
