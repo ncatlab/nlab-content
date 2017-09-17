@@ -7,9 +7,9 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
-#### Model category theory
+#### Stable Homotopy theory
 +--{: .hide}
-[[!include model category theory - contents]]
+[[!include stable homotopy theory - contents]]
 =--
 =--
 =--
@@ -30,10 +30,11 @@ More concretely, a homology spectral sequence is a sequence of graded chain comp
 
 Being, therefore, an iterative perturbative approximation scheme of bigraded differential objects, fully-fledged spectral sequences can look a bit intricate. However, a standard experience in mathematical practice is that for most problems of practical interest the relevant spectral sequence "perturbation series" yields the exact result already at the second stage. This reduces the computational complexity immensely and makes spectral sequences a wide-spread useful computational tool.
 
-Traditionally, as in the example of the total complex of a double complex, spectral sequences are considered in the context of [[model structure on chain complexes|model categories of chain complexes]] in some [[abelian category]] for which [[fibrant replacement]] is given by [[injective resolution]] of [[chain complexes]].
-But more generally there is a notion of [[nonabelian cohomology|nonabelian]]/unstable spectral sequences, called **homotopy spectral sequences**.
-
 Despite their name, there seemed to be nothing specifically "spectral" about spectral sequences, for any of the technical meanings of the word [[spectrum - disambiguation|spectrum]]. Together with the concept, this term was introduced by [[Jean Leray]] and has long become standard, but was never really motivated (see p. 5 of [Chow](#Chow)). But then, by lucky coincidence it turns out in the refined context of [[stable (∞,1)-category]] theory/[[stable homotopy theory]] that spectral sequences frequently arise by considering the [[homotopy groups]] of _[[sequential diagram|sequences]] of [[spectra]]_. This is discussed at _[[spectral sequence of a filtered stable homotopy type]]_.
+
+While therefore spectral sequences are a notion considered in the context of [[homological algebra]] and more generally in [[stable homotopy theory]], 
+there is also an "unstable" or [[nonabelian cohomology|nonabelian]] variant of the notion in plain [[homotopy theory]], called _[[homotopy spectral sequence]]_.
+
 
 ## Definition
 
