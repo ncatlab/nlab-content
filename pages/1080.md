@@ -89,3 +89,5 @@ Here the distinction between upper and lower indices cannot be maintained, altho
 For instance section 2 of 
 
 * John Harding, _[[matrixcalculus.pdf:file]]_
+
+[[!redirects matrix multiplication]]
