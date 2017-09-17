@@ -510,7 +510,7 @@ in [[Top]] has a [[section]], where
 We say a [[simplicial topological space]] $X_\bullet \in Top^{\Delta^{op}}$ is **(global) Kan simplicial space** if the unique morphism $X_\bullet \to *$ is a global Kan fibration, hence if for all $n \in \mathbb{N}$ and all $0 \leq i \leq n$ the canonical [[continuous function]]
 
 $$
-  X_n \to [\Lambda^n_k, X]
+  X_n \to sTop(\Lambda^n_k, X)
 $$
 
 into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]].
