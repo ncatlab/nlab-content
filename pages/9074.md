@@ -5,6 +5,7 @@
 
 * [[exceptional generalized geometry]]
 
+
 * [[higher geometry]]
 
 [[!redirects generalized geometries]]
