@@ -65,6 +65,11 @@ based on
 
 * [[Peter Hochs]], _Quantisation commutes with reduction for cocompact Hamiltonian group actions_ ([pdf](http://www.math.ru.nl/~landsman/ThesisPeterHochs.pdf))
 
+Discussion taking into account the [[metaplectic correction]] is in 
+
+* Brian Hall, William Kirwin, _Unitarity in "quantization commutes with reduction"_, Comm. Math. Phys. 275 (2007), no. 3, pages 401 -- 442 ([arXiv:math/0610005](http://arxiv.org/abs/math/0610005))
+
+
 The full statement for this general case was then proven in 
 
 * [[Varghese Mathai]], [[Weiping Zhang]] (appendix by [[Ulrich Bunke]]), _Geometric quantization for proper actions_ ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
