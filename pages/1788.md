@@ -5,7 +5,7 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 ***
 
 
-Testing ...
+Testing ... $\int_{0}^{1} \sin(3t) t^2 \mathrm{dt}$.
 
 
 ***
