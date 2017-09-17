@@ -1,2 +1,44 @@
-Principal connection is a [[connection on a bundle|connection]] on a [[principal bundle]]. Most well known examples are [[affine connection]]s. Principal connection induces a connection on the associated bundle. 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The term _principal connection_ is synonymous to _[[connection on a bundle|connection]] on a [[principal bundle]]_ . 
+
+The most well known examples are [[affine connection]]s. 
+
+Given a $G$-[[representation]] $V$ and a $G$-principal connection, it induces a connection on the corresponding $V$-[[associated bundle]].
+
+## Related concepts
+
+* [[connection on a bundle]]
+
+  * [[parallel transport]], [[holonomy]]
+
+* [[principal connection]]
+
+  * [[affine connection]], [[Levi-Civita connection]] [[Cartan connection]]
+
+* [[connection on a 2-bundle]]
+
+* [[connection on an infinity-bundle]]
+
+  * [[higher parallel transport]]
+
+[[!redirects principal connections]]
