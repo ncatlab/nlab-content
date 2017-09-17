@@ -18,6 +18,10 @@ Localic groups are similar to [[topological group]]s, and many examples can be c
 
 However, the "locale of opens" functor $Top\to Loc$ does not preserve [[product]]s, so not every topological group is a localic group---even if its underlying topological space is [[sober space|sober]] (hence is the space of points of some locale).  In particular, the locale $\mathbb{Q}$ of rational numbers (with [[topology]] induced from that of $\mathbb{R}$) is not a localic group under addition, because the locale product $\mathbb{Q}\times_l \mathbb{Q}$ is "bigger" than the topological-space product (and in particular is not spatial), and the addition map $\mathbb{Q}\times \mathbb{Q}\to \mathbb{Q}$ cannot be extended to the locale product.  However, if $G$ is a [[locally compact space|locally compact]] topological group (such as $\mathbb{R}$), then the space product $G\times G$ does agree with the locale product (using the [[ultrafilter principle]] in the proof), and hence $G$ is also a localic group.
 
+## Examples
+
+* Another important source of localic groups is from [[progroups]]: cofiltered limits of discrete groups.
+
 ## Localic subgroups are closed
 
 A remarkable fact about localic groups is the following (which also proves that $\mathbb{Q}$ cannot be a localic group):
