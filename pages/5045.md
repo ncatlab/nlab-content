@@ -19,10 +19,11 @@
 
   * [[Chern-Simons theory]]
 
-      * [[Dijkgraaf-Witten theory]]
+* **For [[discrete group]] targets
 
+  * [[Dijkgraaf-Witten theory]]
 
-* **For [[2-group]] targets**
+* **For discrete [[2-group]] targets**
 
   * [[Crane-Yetter model]]
 
@@ -32,14 +33,17 @@
 
 * **For targets extending the [[super Poincare Lie algebra]]**
 
-  (suh as the [[supergravity Lie 3-algebra]], the [[supergravity Lie 6-algebra]])
+  (such as the [[supergravity Lie 3-algebra]], the [[supergravity Lie 6-algebra]])
 
   * [[Chern-Simons gravity]]
 
   * Chern-Simons-[[supergravity]]
 
-* **For [[symplectic Lie n-algebroid]] targets**
+* for higher abelian targets
 
+  * [[higher dimensional Chern-Simons theory]]
+
+* **For [[symplectic Lie n-algebroid]] targets**
 
   * [[AKSZ theory]]
 
@@ -48,6 +52,8 @@
       * [[A-model]], [[B-model]]
 
     * [[Courant sigma model]]
+
+      * [[Chern-Simons theory]]
 
     * [[topological Yang-Mills theory]]
 
