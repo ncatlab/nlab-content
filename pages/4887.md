@@ -24,7 +24,11 @@ A [[symplectic manifold]] serves as the [[target space]] for the 2-dimensional [
 
 The setup is reminiscent of how the [[deformation quantization]] of the phase space is computed by the 2-dimensional [[Poisson sigma-model]]. See [[holographic principle]] for more on the general pattern.
 
+## Related concepts
 
+* [[deformation quantization]]
+
+* [[geometric quantization]]
 
 ## References
 
