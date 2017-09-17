@@ -1,6 +1,9 @@
+[[!redirects gamma function]]
+## Idea and Definition 
+
 [[Euler]] solved the problem of finding a function of a continuous variable $x$ which for integer values of $x=n$ agrees with the factoriel function $n\mapsto n!$. In fact, gamma function is a shift by one of the solution of this problem.
 
-For a complex variable $x\neq -1,-2,\ldots$,
+For a complex variable $x\neq -1,-2,\ldots$, we define $\Gamma(x)$ by the formula 
 
 $$
 \Gamma(x) = \lim_{k\to \infty} \frac{k! k^{x-1}}{(x)_k}
@@ -12,4 +15,38 @@ $$
 (x)_k = x (x+1) (x+2)\cdots (x+ k-1)
 $$
 
-is the shifted factorial.
+is the shifted factorial. It easily follows that $\Gamma(n+1) = n! for natural numbers $n = 0, 1, 2, \ldots$. 
+
+## Properties 
+
+As a function of a complex variable, the Gamma function $\Gamma(x)$ is a [[meromorphic function]] with simple poles at $x = 0, -1, -2, \ldots$. 
+
+Extending the recursive definition of the ordinary factorial function, the Gamma function satisfies the following translation formula: 
+
+$$\Gamma(x+1) = x\Gamma(x)$$ 
+
+away from $x = 0, -1, -2, \ldots$. 
+
+It also satisfies a reflection formula, due to Euler: 
+
+$$\Gamma(x)\Gamma(1-x) = \frac{\pi}{\sin(\pi x)}.$$ 
+
+Quite remarkably, the Gamma function (this time as a function of a real variable) is uniquely characterized in the following theorem: 
+
++-- {: .un_thm}
+######Theorem (Bohr-Mollerup) 
+The restriction of the Gamma function to the interval $(0, \infty)$ is the unique function $f$ such that $f(x+1) = x f(x)$, $f(1) = 1$, and $\log f$ is convex. 
+=-- 
+
+A number of other representations of the Gamma function are known and frequently utilized, e.g., 
+
+* Product representation: 
+$$\frac1{\Gamma(x)} = x e^{\gamma x} \prod_{n=1}^{\infty} (1 + \frac{x}{n})e^{-x/n}$$ 
+where $\gamma$ is [[Euler's constant]]. 
+
+* Integral representation: 
+$$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$ 
+
+## References 
+
+* George Andrews, Richard Askey, Ranjan Roy, _Special Functions_. Encyclopedia of Mathematics and Its Applications 71, Cambridge University Press, 1999. 
