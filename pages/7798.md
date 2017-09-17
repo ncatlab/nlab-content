@@ -22,6 +22,8 @@
 For $X$ a [[space]] equipped with a notion of [[dimension]] $dim X \in \mathbb{N}$ and a notion of [[Kähler differential forms]], 
 a _$\Theta$-characteristic of $X$ is a choice of [[square root]] of the [[canonical characteristic class]] of $X$. See there for more details.
 
+In [[complex analytic geometry]] and at least if the Theta characteristic is [[polarized variety|principally polarizing]] then its [[holomorphic sections]] are called [[theta functions]].
+
 ## Examples
 
 ### Over Riemann surfaces
