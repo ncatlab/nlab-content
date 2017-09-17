@@ -39,8 +39,11 @@ Hawking's _Theorem of Black Hole topology_ asserts that the in case of $d = 4$ a
 
 [Galloway and Schoen](#GallowaySchoen) extended this theorem to higher dimensions; they showed that the cross sections of event horizon (stationary case) and the outer (apparent) horizon (general case) are of Yamabe type.
 
+### Entropy
 
+* [[Bekenstein-Hawking entropy]]
 
+* [[generalized second law of thermodynamics]]
 
 ## Empirical observation
 
