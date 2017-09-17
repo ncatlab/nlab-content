@@ -94,6 +94,12 @@ Notions of Lie algebras with extra [[stuff,structure, property]] includes
 
 ## Examples
 
+* [[line Lie algebra]]
+
+* [[general linear Lie algebra]]
+
+* [[orthogonal Lie algebra]]
+
 * [[special orthogonal Lie algebra]]
 
 * [[special unitary Lie algebra]]
