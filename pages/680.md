@@ -488,7 +488,7 @@ This sheaf version of the Dold--Kan correspondence  allows to understand [[abeli
 
 * There is a version of the Dold--Kan correspondence in the context of $(\infty,1)$-[[(infinity,1)-category|categories]]:
 
-  let $C$ be a [[stable (∞,1)-category]]. Then the $(\infty,1)$-categories of [[complexes]] in $C$ is equivalent to the $(\infty,1)$-category of [[simplicial objects]] in $C$
+  let $C$ be a [[stable (∞,1)-category]]. Then the $(\infty,1)$-categories of non-negatively graded [[complexes]] in $C$ is equivalent to the $(\infty,1)$-category of [[simplicial objects]] in $C$
 
   $$
     Fun(N(\mathbb{Z}_{\geq 0}), C)
@@ -497,7 +497,7 @@ This sheaf version of the Dold--Kan correspondence  allows to understand [[abeli
     \,.
   $$
 
-  This is [theorem 12.8, p. 50](http://www.math.harvard.edu/~lurie/topoibook/DAGI.pdf) of 
+  This is [[infinity-Dold-Kan correspondence]] is [theorem 12.8, p. 50](http://www.math.harvard.edu/~lurie/topoibook/DAGI.pdf) of 
 
   * [[Jacob Lurie]], [[Stable ∞-Categories]] 
 
