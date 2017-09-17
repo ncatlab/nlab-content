@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _formal neighbourhood_ is [[neighbourhood]] in [[formal geometry]], hence an "[[infinitesimal space|infinitesimal]] neighbourhood"
+A _formal neighbourhood_ is [[neighbourhood]] in [[formal geometry]], hence an "[[infinitesimal space|infinitesimal]] neighbourhood". Also called a _[[formal disk]]_, see there for more.
 
 ## Examples 
 
