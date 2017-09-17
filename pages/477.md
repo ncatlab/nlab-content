@@ -52,6 +52,13 @@ Under the [[relation between category theory and type theory]] products in a cat
 
 * [[product type]]
 
+* [[base change]]
+
+  * [[dependent sum]], [[dependent product]]
+
+  * [[dependent sum type]], [[dependent product type]]
+
+
 [[!redirects product]]
 [[!redirects products]]
 
