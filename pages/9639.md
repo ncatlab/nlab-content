@@ -16,10 +16,13 @@ In an appropriate limit of low [[temperature]] aspects of this system are descri
 
 A quick review of the description via [[Chern-Simons theory]] with further pointers is in the introduction of 
 
-* Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_ ([arXiv:0807.2857](http://arxiv.org/abs/0807.2857))
+* Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, [arXiv:0807.2857](http://arxiv.org/abs/0807.2857)
 
+Relation to [[Pfaffian]] state is illuminated in 
 
+* [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
+
+category: physics
 [[!redirects quantum Hall effect]]
 [[!redirects quantum hall effect]]
-
 [[!redirects fractional quantum Hall effect]]
