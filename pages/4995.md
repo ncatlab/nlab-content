@@ -660,7 +660,7 @@ $$
   \,.
 $$
 
-Since [[products]] of $(\infty,1)$-functor $(\infty,1)$-catgeories are computed objectwise, and since $\Pi$ preserves finite products by the axioms of cohesion, also $Func(A, \Pi)$ preserves finite products, and hence so does $\Pi/Disc A$. But products in the slice over $Disc A$ are [[(∞,1)-pullbacks]] over $Disc A$. So this proves the claim.
+Since [[products]] of $(\infty,1)$-functor $(\infty,1)$-categories are computed objectwise, and since $\Pi$ preserves finite products by the axioms of cohesion, also $Func(A, \Pi)$ preserves finite products, and hence so does $\Pi/Disc A$. But products in the slice over $Disc A$ are [[(∞,1)-pullbacks]] over $Disc A$. So this proves the claim.
 
 =--
 
