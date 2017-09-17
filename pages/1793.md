@@ -98,14 +98,14 @@ The catgeory $Ch^\bullet_+(Ab)$ of non-negatively graded cochain complexes of [[
 ###### Proof
 
 
-As usual, write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
+As usual, for $n \in \mathbb{N}$ write $\mathbb{Z}[n]$ for the complex concentrated on the additive group of [[integer]]s in degree $n$, and for $n \geq 1$  write $\mathbb{Z}[n-1,n]$ for the cochain complex $(0 \to \cdots 0 \to \mathbb{Z} \stackrel{Id}{\to} \mathbb{Z} \to 0 \cdots)$ with the two copies of $\mathbb{Z}$ in degree $n-1$ and $n$.
 
 
 **Lemma**
 
 The canonical inclusions $0 \to \mathbb{Z}[n]$ and $\mathbb{Z}[n] \to \mathbb{Z}[n-1,n]$ are cofibrations, in that they  have the [[left lifting property]] against acyclic fibrations.
 
-_Proof._  Let $p : A \stackrel{\simeq}{\to} B$ be an acylic fibration. We need to construct a lift in 
+_Proof._  Let $p : A \stackrel{\simeq}{\to} B$ be an acylic fibration, that is degreewise surjctive and an isomorphism on cohomology. We need to construct a lift in 
 
 $$
   \array{
@@ -123,7 +123,16 @@ is equivalently an element $\sigma \in A_{n-1}$ such that
 
 * $d_A \sigma = f_n(1)$
 
-* $\iota_{n-1}(\sigma) = g_{n-1}(1)$.
+* $p_{n-1}(\sigma) = g_{n-1}(1)$.
+
+Since $p$ is a quasi-isomorphism, we have 
+
+$$
+  (p_n|_{ker d_A})^{-1}(im d_B^n ) = im d_A
+  \,.
+$$
+
+And because $p_n(f_n(1)) = d_B g_{n-1} \in im d_B$ this implies that there is some $z \in A_{n-1}$ with $d_A z = f_n(1)$.
 
 Now...
 
