@@ -1,0 +1,13 @@
+
+* [webpage](http://pages.uoregon.edu/vostrik/)
+
+## related entries
+
+* [[monoidal category]], 
+
+* [[fusion category]]
+
+category: people
+
+[[!redirects Ostrik]]
+[[!redirects V. Ostrik]]
