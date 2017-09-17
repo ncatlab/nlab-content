@@ -9,31 +9,29 @@ Local boundedness is a generalization of the notion of [[locally presentable cat
 
 ## Context
 
-Let $C$ be a small cocomplete category with a proper [[factorization system]], i.e., an orthogonal factorization system $(E,M)$ where ever map in $E$ is an epimorphism and every map in $M$ is a monomorphism.
+Let $C$ be a [[small category|small]] [[cocomplete category]] with a proper [[factorization system]], i.e., an orthogonal factorization system $(E,M)$ where every map in $E$ is an [[epimorphism]] and every map in $M$ is a [[monomorphism]].
 
 The $M$-**union** of a small family of $M$-subobjects $(A_j \to B)_{j \in J}$ is the unique $M$-subobject $A \to B$ containing the $A_j$ and so that the induced map $\sum_j A_j \to A$ is in $E$. The union is calculated by applying the $(E,M)$ factorization to the canonical map $\sum_j A_j \to B$. 
 
-If the map $\sum_j A_j \to B$ is in $E$, we say $(A_j \to B)_{j \in J}$ is an $M$-**union**. The set $J$ is a preorder under the relation $j \leq k$ if $A_j \leq A_k$ as $M$-subobjects of $B$. Regarding the $A_j$ as a diagram of shape $J$, the family $(A_j \to B)_{j \in J}$ is an $M$-union if and only if the map colim$A_j \to B$ is in $E$. We say $(A_j \to B)_{j \in J}$ is a **filtered union of** $M$-**subobjects** if it is a union of $M$-subobjects and if the category $J$ is [[filtered]].
+If the map $\sum_j A_j \to B$ is in $E$, we say $(A_j \to B)_{j \in J}$ is an $M$-**union**. The set $J$ is a preorder under the relation $j \leq k$ if $A_j \leq A_k$ as $M$-subobjects of $B$. Regarding the $A_j$ as a diagram of shape $J$, the family $(A_j \to B)_{j \in J}$ is an $M$-union if and only if the map colim$A_j \to B$ is in $E$. We say $(A_j \to B)_{j \in J}$ is a **filtered union of** $M$-**subobjects** if it is a union of $M$-subobjects and if the category $J$ is [[filtered category|filtered]].
 
-A representable functor $C(X,-)$ **preserves** the $M$-union of $(A_j \to B)_{j \in J}$ if the functions $C(X,A_j) \to C(X,A)$ are jointly surjective, i.e., if each $X \to A$ factors through some $X \to A_j$.
+A [[representable functor]] $C(X,-)$ **preserves** the $M$-union of $(A_j \to B)_{j \in J}$ if the functions $C(X,A_j) \to C(X,A)$ are jointly surjective, i.e., if each $X \to A$ factors through some $X \to A_j$.
 
 ## Definition
 
-Let $\lambda$ be a regular cardinal.
+Let $\lambda$ be a [[regular cardinal]], and let $C$ be a cocomplete category with a proper factorization system $(E,M)$.
 
 +-- {: .num_defn}
 ###### Definition (locally bounded)
 
-An object $X$ is a cocomplete category $C$ with a proper factorization system $(E,M)$ is $\lambda$-**bounded** if $C(X,-)$ preserves $\lambda$-filtered unions of $M$-subobjects. 
+An object $X$ in $C$ is $\lambda$-**bounded** if $C(X,-)$ preserves $\lambda$-filtered unions of $M$-subobjects. 
 
 =--
-
-Let $C$ be a category with a proper factorization system $(E,M)$.
 
 +-- {: .num_defn}
 ###### Definition ($(E,M)$-generator)
 
-A small set $G$ of objects of $C$ is an $(E,M)$-**generator**  if $f \colon A \to B$ in $M$ is invertible whenever $f_* \colon C(X,A) \to  C(X,B)$ is bijective for all $X \in G$. Equivalently, $G$ is an $(E,M)$-**generator** if for each $A \in C$ the family of maps $X \to A$ is jointly in $E$, i.e., if the map $\sum_{X \in G} \sum_{C(X,A)} X \to A$ is in $E$.
+A small set $G$ of objects of $C$ is an $(E,M)$-**generator**  if $f \colon A \to B$ in $M$ is invertible whenever $f_* \colon C(X,A) \to  C(X,B)$ is [[bijection|bijective]] for all $X \in G$. Equivalently, $G$ is an $(E,M)$-**generator** if for each $A \in C$ the family of maps $X \to A$ is jointly in $E$, i.e., if the map $\sum_{X \in G} \sum_{C(X,A)} X \to A$ is in $E$.
 
 =--
 
@@ -44,7 +42,7 @@ A [[category]] $C$ is called **locally** $\lambda$-**bounded** with respect to a
 
 * it has an $(E,M)$-generator $G$ each of whose objects is $\lambda$-bounded
 
-* it has arbitrary cointersections (even large ones) of maps in $E$. 
+* it has arbitrary cointersections (even large ones) of maps in $E$ --- that is, it is [[E-cocomplete category|E-cocomplete]].
 
 =--
 
@@ -83,13 +81,13 @@ The essential point is an $(E,M)$-variant of the special adjoint functor theorem
 
 The following examples are discussed in Section 6.1 of Kelly's _Basic concepts of enriched category theory_.
 
-* Locally presentable categories such as simplicial sets, categories, abelian groups, sets.
+* [[locally presentable category|Locally presentable categories]] such as [[simplicial sets]], [[categories]], [[abelian groups]], [[Set|sets]].
 
-* Compactly generated spaces and based compactly generated spaces with $E$ the surjections and $M$ the subspace inclusions. The point is a $(E,M)$-generator.
+* [[compactly generated topological space|Compactly generated spaces]], and likewise based compactly generated spaces, with $E$ the surjections and $M$ the subspace inclusions. The point is an $(E,M)$-generator.
 
-* Quasi-topological spaces. Note this category is not $E$-cowellpowered.
+* [[quasi-topological space|Quasi-topological spaces]].  Note that this category is not $E$-well-copowered.
 
-* Banach spaces with $E$ the epimorphisms, equivalently the dense maps, and $M$ the extremal monomorphisms, equivalently the inclusions of closed subspaces with the induced norm. The base field is an $(E,M)$-generator.
+* [[Banach spaces]] with $E$ the epimorphisms, equivalently the dense maps, and $M$ the [[extremal monomorphisms]], equivalently the inclusions of closed subspaces with the induced norm. The base field is an $(E,M)$-generator.
 
 
 
@@ -103,6 +101,4 @@ See also:
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_.
 
-
-
-
+[[!redirects locally bounded categories]]
