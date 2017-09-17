@@ -35,7 +35,7 @@ On dimensional reduction of [[11-dimensional supergravity]] on a circle the M5-b
 
 ### Holographic dual
 
-The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the [[6d (2,0)-superconformal QFT]] to [[11-dimensional supergravity]] on 7-dimensional [[anti de Sitter spacetime]].
+The [[AdS/CFT correspondence]] for the 5-brane is $AdS_7/CFT_6$ and relates the [[6d (2,0)-superconformal QFT]] to [[7-dimensional supergravity]] obtained by [[Kaluza-Klein mechanism|reduction]] of [[11-dimensional supergravity]] on o 4-[[sphere]] to an and asymptotically 7d [[anti de Sitter spacetime]].
 
 ## Related concepts
 
