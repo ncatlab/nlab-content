@@ -113,3 +113,5 @@
   * [[model structure on simplicial sets|model structure for Kan complexes]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/quasi-category+theory+contents)</div>
+
+[[!redirects (infinity,1)-category theory - contents]]
