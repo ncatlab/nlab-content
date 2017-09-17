@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Definition
 
 A **presheaf** on a [[category]] $C$ is a [[functor]]
 
@@ -15,14 +15,7 @@ $$
  F : C^{op} \to Set
 $$
 
-from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s.
-
-
-Alternatively, a **presheaf** on a [[category]] $C$ is a [[contravariant functor]]
-
-$$
- F : C \to Set.
-$$
+from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s. Equivalently this may be thought of as a [[contravariant functor]] $F : C \to Set$.
 
 More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
 
@@ -38,7 +31,7 @@ The **[[category of presheaves]]** on $C$, usually denoted $Set^{C^{op}}$ or $[C
 
 As such, it is an example of a [[functor category]].
 
-#Remarks#
+## Remarks
 
 * Speaking of functors as presheaves indicates operations that one wants to do apply to these functors, or certain properties that one wants to check.
 
@@ -54,7 +47,7 @@ The Yoneda embedding sends each object $c \in C$ to the presheaf
 $$ F(-) = hom(-, c) $$
 Presheaves of this form, or isomorphic to those of this form, are called [[representable functors|representable]]; among their properties, representable presheaves always turn colimits into limits, in the sense that a representable functor from $C^{op}$ to $Set$ turns colimits in $C$ (i.e., limits in $C^{op}$) into limits in $Set$ (i.e., colimits in $Set^{op}$). In general, such continuity is a necessary but not sufficient criterion for representability; however, nicely enough, it _is_ sufficient when $C$ itself is a presheaf category. To see this, suppose $K$ is such a presheaf on $C = [D^{op}, Set]$, and let $G = K Y$, a presheaf on $D$. By the [[Yoneda lemma]], we have a natural isomorphism between $[D^{op}, Set](Y(-), G)$ and $K Y(-)$. But by the free cocompletion property of the Yoneda embedding, a colimit-preserving functor on presheaves is entirely determined by its precomposition with $Y$; accordingly, our isomorphism must extend to an identification of $[C^{op}, Set](-, G)$ with $K(-)$, thus establishing the representability of $K$.
 
-#Properties of presheaves#
+## Properties of presheaves
 
 Any category of presheaves is [[complete category|complete]] and [[cocomplete category|cocomplete]], with both [[limit|limits]] and [[colimit|colimits]] being computed _pointwise_.  That is, to compute the limit or colimit of a diagram $F : D \to Set^{C^op}$, we think of it as a functor $F: D \times C^{op} \to Set$ and take the limit or colimit in the $D$ variable.
 
@@ -104,6 +97,80 @@ $$
   \,.
 $$
 Since this holds for all $B$, the claim follows, again using [[Yoneda lemma|Yoneda]].
+
+
+## Special cases
+
+* [[representable functor|represenatble presheaf]]
+
+* [[concrete presheaf]]
+
+## Examples
+
+Examples for presheaves are abundant. Here is a non-representative selection of some examples.
+
+* For $C$ a [[locally small]] category, every object $c \in C$ gives rise to the [[representable functor|representable presheaf]] $Hom_C(-, c) : C^{op} \to Set$.
+
+* More generally, for $i : C \hookrightarrow D$ a [[subcategory]] of a locally small category $D$, every object $d \in D$ gives rise to the presheaf
+
+  $$
+    Hom_D(i(-), D) : C^{op} \to Set
+    \,.
+  $$
+
+  Let's spell this out in more detail: given a mophism $\phi : V \to U$ 
+  in $C$, we can take any morphism $f : i(U) \to X$ in $Hom_{D}(U,X)$ 
+  and turn it into a morphism $V \stackrel{f}{\to} U \stackrel{\phi}{\to} X$ 
+  in $Hom_{D}(i(V),X)$. This determines a map of set
+
+  $$
+    f^* : Hom_{D}(i(U),X) \to Hom_{D}(i(V),X)
+    \,.
+  $$
+
+  So we have a functorial assignment of the form
+
+  $$
+     \array{
+        W && \mapsto && Hom_{Diff}(i(W),X)
+         \\
+        \downarrow^g &&&& \uparrow^{g^*}
+        \\
+         V && \mapsto && Hom_{Diff}(i(V),X)
+         \\
+        \downarrow^f &&&& \uparrow^{f^*}
+        \\
+        U && \mapsto && Hom_{Diff}(i(U),X)
+     }
+     \,.
+  $$
+
+
+  Of course $i$ here could be any functor whatsoever. 
+  Asking if such a presheaf
+  is [[representable functor|representable]] is asking 
+  for a right [[adjoint functor]] of $i$.
+
+* A [[simplicial set]] is a presheaf on the [[simplex category]]
+
+  A [[globular set]] is a presheaf on the [[globe category]].
+
+  A [[cubical set]] is a presheaf on the [[cube category]].
+
+* A [[diffeological space]] is a [[concrete presheaf]] on [[CartSp]].
+
+* An important class of presheaves is those on a 
+  [[category of open subsets]] $Op(X)$ of a [[topological space]] 
+  or [[smooth manifold]] $X$.
+  
+  Traditional standard examples include: the presheaf of [[smooth function]]s
+  on $X$, that assigns to each $U \subset X$ the set 
+  $C^\infty(C,\mathbb{R})$ of smooth functions and to each unclusion 
+  $V \subset U$ the corresponding restriction operation of functions.
+
+
+
+... etc. pp.
 
 
 [[!redirects presheaves]]
