@@ -13,7 +13,7 @@ like indices, and the _French_ one using Cartesian (coordinate) like indices
 for the boxes $x_{i,j}$ in the diagram $F^\lambda$.
 
 In the English representation the boxes are adjusted to the north-west in the 4th quadrant of a 2-dimensional Cartesian coordinate system, with the 'y'-axis being
-downward oriented. (Representing boxes as stars, ugly is there \youngtab available? BF.) The partition $(5,4,4,2,1,1)$ of $17$ is given as:
+downward oriented. For instance the diagram $F^{(5,4,4,2,1,1)}$ representing the partition $(5,4,4,2,1,1)$ of $17$ is given in the English representation as:
 
 ` * * * * *`<br>
 ` * * * *`<br>
@@ -42,7 +42,7 @@ diagrams include:
 ## Skew Young diagram
 
 A generalisation of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be two
-partitions, and let $\nu \le \mu$ be defined as $\forall i : \nu_i\le \mu_i$ (possibly adding trailing zeros). The skew Young diagram $F^{\mu/\nu}$ is given by the Young diagram $F^\mu$ with all boxes belonging to $F^\nu$ when superimposed removed. If $mu=(5,4,4,2,1,1)$ and $\nu=(3,3,2,1)$ then $F^{\mu/\nu}$ looks like:
+partitions, and let $\nu \le \mu$ be defined as $\forall i : \nu_i\le \mu_i$ (possibly adding trailing zeros). The skew Young diagram $F^{\mu/\nu}$ is given by the Young diagram $F^\mu$ with all boxes belonging to $F^\nu$ when superimposed removed. If $\mu=(5,4,4,2,1,1)$ and $\nu=(3,3,2,1)$ then $F^{\mu/\nu}$ looks like:
 
 ` _ _ _ * *`<br>
 ` _ _ _ *`<br>
