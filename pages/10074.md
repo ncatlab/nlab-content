@@ -1,0 +1,7 @@
+
+A formal difference (with respect to [[direct sum]]/[[Whitney sum]]) of [[vector bundles]]. Appears as representative for classes in [[topological K-theory]].
+
+[[!redirects virtual vector bundles]]
+
+[[!redirects virtual vector space]]
+[[!redirects virtual vector spaces]]
