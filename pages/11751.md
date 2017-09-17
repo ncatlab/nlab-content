@@ -20,14 +20,19 @@
 
 ## Idea
 
-The [[higher geometry]] version of [[complex analytic geometry]], for instance with [[geometry (for structured ((∞,1)-toposes)]] being the [[site]] of [[Stein manifolds]].
+The [[higher geometry]] version of [[complex analytic geometry]], for instance (petit) with [[geometry (for structured ((∞,1)-toposes)]] being the [[site]] of [[Stein manifolds]] or (gros) [[complex analytic ∞-groupoids]].
 
 ## Related concepts
 
 * [[GAGA]]
+
+* [[higher differential geometry]]
 
 ## References
 
 * [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_
 
 * {#Larusson01} Finnur Larusson, _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_ ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103))
+
+
+[[!redirects complex analytic higher geometry]]
