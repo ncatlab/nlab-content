@@ -31,7 +31,7 @@ In particular, $\pi_n M O$ is naturally identified with the set of cobordism cla
 
 ## Definition
 
-For any $n\geq 1$, let $E_n\to BO(n)$ be the $\mathbb{R}^n$-bundle [[associated bundle|associated to]] the [[universal principal bundle]] $E O(n)\to B O(n)$ by the defining [[representation]] of the [[orthogonal group]] $O(n)$. The inclusion $O(n)\equiv O(n)\times\{1\}\hookrightarrow O(n+1)$ induces a map $\varphi_n:B O(n)\to B O(n+1)$. One sees that $\varphi_n^*E_{n+1}\simeq E_n\oplus\mathbb{R}$. therefore, passing to [[Thom space]]s, 
+For any $n\geq 1$, let $E_n\to B O(n)$ be the $\mathbb{R}^n$-bundle [[associated bundle|associated to]] the [[universal principal bundle]] $E O(n)\to B O(n)$ by the defining [[representation]] of the [[orthogonal group]] $O(n)$. The inclusion $O(n)\equiv O(n)\times\{1\}\hookrightarrow O(n+1)$ induces a map $\varphi_n:B O(n)\to B O(n+1)$. One sees that $\varphi_n^*E_{n+1}\simeq E_n\oplus\mathbb{R}$. therefore, passing to [[Thom space]]s, 
 $$
 \Sigma Th(E_n)\simeq Th(E_n)\wedge Th(\mathbb{R})\simeq Th(E_n\oplus \mathbb{R})\simeq Th(\varphi_n^*E_{n+1})\to Th(E_{n+1}).
 $$
