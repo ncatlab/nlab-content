@@ -9,7 +9,11 @@
 
 ## Topology
 
-* [[compact-open topology]]
+* [[topology of mapping spaces]]
+
+  * [[compact-open topology]]
+
+* [[evaluation fibration of mapping spaces]]
 
 * [[loop space]], [[free loop space]]
 
@@ -17,9 +21,11 @@
 
 * [[differential topology of mapping spaces]]
 
+  * [[C-k topology]]
+
 * [[manifold structure of mapping spaces]]
 
-* [[C-k topology]]
+  * [[tangent spaces of mapping spaces]]
 
 * [[smooth loop space]]
 
