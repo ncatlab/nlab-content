@@ -123,6 +123,8 @@ For more on this see [[monoidal Dold-Kan correspondence]].
 
 * [[oplax monoidal functor]]
 
+* [[bilax monoidal functor]]
+
 * **Frobenius monoidal functor**
 
 ## References
