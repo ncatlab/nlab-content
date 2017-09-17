@@ -24,11 +24,11 @@ _2Cat_ is the [[3-category]] of [[2-categories]].
 
 ## Related concepts
 
-* [[Cat]]
+* [[Cat]], [[Operad]]
 
 * **$2Cat$**
 
-* [[(∞,1)Cat]]
+* [[(∞,1)Cat]], [[(∞,1)Operad]]
 
 * [[(∞,n)Cat]]
 
