@@ -1,3 +1,5 @@
+## Overview
+
 Given any category $C$, one can define the [[arrow category]] $\Arr(C)$ of $C$, whose objects are morphisms in $C$ and whose morphisms are commutative squares. If $C$ is the category of [[vector space]]s (or some other $k$-linear [[closed monoidal category|closed]] [[symmetric monoidal category]] with [[equalizer]]s) one can define the _infinitesimal_ or _Loday--Pirashvili_ (LP) tensor product on the category of arrows, as well as an inner hom, equipping the category $\mathrm{Arr} C$ with a structure of a $k$-linear closed symmetric monoidal category.
 
 The LP-tensor product is
@@ -20,7 +22,11 @@ such that $g\circ u_1= u_0\circ f$ and $u_0=g\circ\phi$ while one does *not* req
 There are a number of remarkable functors relating [[internalization|internal]] algebras in LP, [[Lie algebra]]s in LP etc., to or from some other categories of algebras. For example the categories of left [[Leibniz algebra]]s and of right Leibniz algebras embed as full subcategories into the category of internal Lie algebras in LP. This embedding has an [[adjoint functor|adjoint]].
 Notice that because of truncation, being a Lie algebra in LP is a bit less than a (strict) $2$-[[n-Lie algebra|Lie algebra]] (a requirement in degree $2$ is dropped). 
 
-See J-L. Loday, T. Pirashvili, The tensor category of linear maps, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
+## Literature and discussions
+
+* [[Jean-Louis Loday]], [[Teimuraz Pirashvili]], _The tensor category of linear maps_, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
+
+* [nlab](http://golem.ph.utexas.edu/category/2007/10/loday_and_pirashvili_on_lie_2a.html)
 
 +-- {: .query}
 [[Tim Porter|Tim]]: Methinks that we need some comment on the evident connection with [[Baez–Crans 2-vector space]]. I think I remember seeing some paper on 2-vector spaces that mentions the connection.  Whether or not it exploited that connection has slipped my memory.  Can Zoran say something on this? 
