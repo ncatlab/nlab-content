@@ -32,6 +32,10 @@ Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq
 
 A __poset__ is a set equipped with a partial order.
 
+### As a preorder with antisymmetriy
+
+A poset is precisely a [[proset]] satisfying the extra condition that 
+$x \leq y \leq x$ implies that $x = y$. 
 
 ### As a category with extra properties 
 
@@ -128,9 +132,27 @@ category of [[copresheaves]] on $P$.
 
 For more see [[Alexandrov topology]].
 
+### Cauchy completion
+
+Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions of [[prosets]]. ([Rosolini](#Rosolini))
+
+
+## Related concepts
+
+* [[preorder]]
+
+* **partial order**
+
+
+
+
 ## References
 
-(...)
+
+[[Cauchy completion]] of prosets and posets is discussed in 
+
+* G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
+ {#Rosolini}
 
 Here are some references on [[directed homotopy theory]]:
 
