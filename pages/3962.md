@@ -2,9 +2,9 @@ A **local field** is a [[locally compact space|locally compact]] [[Hausdorff spa
 
 * Characteristic zero. In this case local fields $F$ are completions of [[number field]]s with respect to metrics induced by [[valuation]]s. The valuations may be 
 
-* * Archimedean. Here for every $x \in F$, there exists $n \in \mathbb{N}$ such that $\|n x\| \gt 1$, where $\| \cdot \|$ is the valuation. The local fields in this case are isomorphic as topological fields to $\mathbb{R}$ or $\mathbb{C}$. 
+  * Archimedean. Here for every $x \in F$, there exists $n \in \mathbb{N}$ such that $\|n x\| \gt 1$, where $\| \cdot \|$ is the valuation. The local fields in this case are isomorphic as topological fields to $\mathbb{R}$ or $\mathbb{C}$. 
 
-* * Nonarchimedean. Such valuations are discrete valuations, and are the completions of discrete valuations induced by prime ideals $v$ of the ring of algebraic integers $\mathcal{O}_k$ in a number field $k$. The valuation on the number field is defined by $\|x\|_v = q^{-n}$ where $q$ is the cardinality of the finite field $\mathcal{O}_k/v$, and $n$ is the least integer such that $x \in v^n$. The completion is called the $v$-**adic completion** and is denoted $k_v$. 
+  * Nonarchimedean. Such valuations are discrete valuations, and are the completions of discrete valuations induced by prime ideals $v$ of the ring of algebraic integers $\mathcal{O}_k$ in a number field $k$. The valuation on the number field is defined by $\|x\|_v = q^{-n}$ where $q$ is the cardinality of the finite field $\mathcal{O}_k/v$, and $n$ is the least integer such that $x \in v^n$. The completion is called the $v$-**adic completion** and is denoted $k_v$. 
 
 * Characteristic $p \gt 1$. In this case local fields are fields of Laurent series $\mathbb{F}_q((t))$ over a finite field $\mathbb{F}_q$ of cardinality $q = p^n$; here $\|f(t)\| = q^{-n}$ where $f(t) = a_n t^n + a_{n+1}t^{n+1} + \ldots$. The valuation is nonarchimedean. 
 
