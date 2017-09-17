@@ -1,6 +1,6 @@
 __Michael Artin__ (born 1934) is an algebraist and algebraic geometer at MIT. Early in his career he worked within Grothendieck's school, where his works on Grothendieck topologies, etale cohomology and algebraic stacks are especially well known, including [[Artin's representability theorem]] in theory of stacks and the notion of Artin's stack. Some of the SGA volumes are prepared with his contribution. In 1990-s Artin worked intensively at the interface between noncommutative algebra and algebraic geometry. 
 
-His father was Emil Artin. 
+His father was [[Emil Artin]]. 
 
 * [wikipedia](http://en.wikipedia.org/wiki/Michael_Artin), [MIT page](http://math.mit.edu/people/profile.php?pid=9)
 
