@@ -15,13 +15,13 @@
 
 ## Idea
 
-**Crystalline cohomology** is the [[abelian sheaf cohomology]] with respect to the _crystalline site_ of a [[scheme]].
+**Crystalline cohomology** is the [[abelian sheaf cohomology]] with respect to the _[[crystalline site]]_ of a [[scheme]].
 
 It serves to refine the notion of [[de Rham cohomology]] for [[scheme]]s.
 
 ## Definition
 
-Let $X$ be a [[scheme]] overy a base $S$. The **crystalline [[site]]** $Cris(X/S)$ of $X$ is
+Let $X$ be a [[scheme]] overy a base $S$. The **[[crystalline site]]** $Cris(X/S)$ of $X$ is
 
 * the [[category]] whose objects are all nilpotent $S$-immersions $U \hookrightarrow T$, where $U$ is an open set of $X$ and and the ideal on $T$ defining this immersion being endowed with a nilpotent divided power structure (...details...).;
 
