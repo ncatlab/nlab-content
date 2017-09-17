@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {:toc}
@@ -58,8 +57,8 @@ This is called the **category of contexts** or **category of contexts and substi
 
 A review is for instance in ([Taylor](#Taylor) [section 2.8](http://www.paultaylor.eu/ASD/foufct/cattype.html)).
 
-### Definition
 
+### Definition
 
 Let $\Gamma$ and $\Delta$ be contexts of some [[type theory]] $T$ of the form
 $$\Gamma \;=\; x_0:A_0,\; x_1:A_1(x_0),\; x_2:A_2(x_0,x_1),\;\dots x_n:A_n(x_0,\dots,x_{n-1})$$
@@ -85,6 +84,7 @@ In other words, to give such a morphism we must give, for each type (or assumpti
 This might fit better after the motivating examples below; but maybe those examples don\'t make sense to a newcomer.  This is incomplete, however, since it doesn\'t address contexts that include equational hypotheses.  ---Toby
 =--
 
+
 ### Properties
 
 The category of contexts $Con(T)$ has the [[universal property]] that for $C$ any suitable category, [[functors]]
@@ -98,7 +98,7 @@ that preserve the relevant structure correspond precisely to an [[categorical se
 The construction 
 
 $$
-  Con : TypeTheories \to Categories
+  Con\colon TypeTheories \to Categories
 $$
 
 is the [[left adjoint]] in an [[adjunction]] that relates [[type theories]] and categories, whose [[right adjoint]] $Lan : Categories \to TypeTheories$ extracts the [[internal logic]] of a category. See at _[[type theory]]_ the section 
@@ -111,6 +111,7 @@ $$
 $$
 
 says that there a canonical interpretatin of the internal logic of a category $C$ in $C$ itself. As it should be.
+
 
 ### Examples
 
@@ -147,6 +148,7 @@ $$
 $$
 
 Its [[right adjoint]] is the [[dependent product]] functor $\prod_{x : X}$ giving the [[universal quantifier]] $\forall_{x : X}$, and its [[left adjoint]] is the [[dependent sum]] functor $\sum_{x : X}$ giving the [[existential quantifier]] $\exists_{x :X}$.
+
 
 #### The theory of groups
 
@@ -194,12 +196,12 @@ Now you should be able to prove that composition satisfies the axioms of a [[cat
 
 Notice that the exact definition of equality of morphisms can depend heavily on the theory in question and your own purposes.  For example, this definition makes sense only because we have a notion of proving equality of elements of a group.  Also, you can sometimes place interesting conditions on whether two proofs count as equivalent, rather than requiring either syntactic identity or (as we do here) accepting proof irrelevance.
 
-+--{.num_example}
++-- {: .num_example}
 ###### Exercise
 Now that the category of contexts (in one sense) of the theory of a group has been completely defined, describe that category (up to [[equivalence of categories|equivalence]]) in terms familiar to an algebraist.  In particular, compare it to the [[Grp|category of groups]].
 =--
 
-+--{.proof}
++-- {: .proof}
 ###### Answer
 In [rot13](http://www.rot13.com/) (so that you have a chance to think about it yourself without accidentally seeing the answer): gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
 =--
@@ -209,13 +211,15 @@ The result of this exercise is true in more generality: it works for any finite-
 
 ## Display morphisms
 
-...
+... [[display morphisms]] ...
+
 
 ## Related pages
 
 * A way of describing categorical semantics, even for weak theories, which doesn't require the explicit introduction of contexts is to use [[cartesian multicategories]].
 
 * The category of contexts is also known as the [[syntactic category]] of the corresponding [[theory]].
+
 
 ## References
 
