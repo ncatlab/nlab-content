@@ -29,9 +29,13 @@ The first example of SPT order is the Haldane phase of spin-1 chain. It is a SPT
 
 ## Group cohomology theory for SPT phases
 
-Recently, it was shown that the bosonic SPT orders are described by [[group cohomology]] theory: d+1D SPT states with symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$. It was also shown that the fermionic SPT orders are described by group super-cohomology theory. 
+Recently, it was shown that the bosonic SPT orders are described by [[group cohomology]] theory: d+1D SPT states with on-site symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$. It was also shown that the fermionic SPT orders are described by group super-cohomology theory. 
 
 So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
+
+## SPT phases in free fermion systems
+
+Free fermion system can also have non-trivial SPT phases, such as topological insulators and topological superconductors. Those free fermion SPT phases are classified by K-theory.
 
 ## Relation between SPT order and topological order
 
@@ -48,19 +52,24 @@ Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entang
 
 * [SPT order](http://en.wikipedia.org/wiki/Symmetry_protected_topological_order)
 
-#### Classification
+#### Classification for bosonic SPT phases
+
+* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, Xiao-Gang Wen, _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B 87, 155114 (2013) [arXiv:1106.4772](http://arxiv.org/abs/1106.4772); A short version in Science __338__, 1604-1606 (2012) [pdf](http://dao.mit.edu/~wen/pub/dDSPTsht.pdf)
+
+#### Classification for free fermion SPT phases
 
 * [[Daniel S. Freed]], [[Gregory Moore|Gregory W. Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]])
 * Alexei Kitaev, _Periodic table for topological insulators and superconductors_, Proc. L.D.Landau Memorial Conf. "Advances in Theor. Physics", June 22-26, 2008, Chernogolovka, Russia, [arxiv/0901.2686](http://arxiv.org/abs/0901.2686) (uses [[K-homology]], [[Bott periodicity]] etc.)
-* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, Xiao-Gang Wen, _Symmetry protected topological orders and the group cohomology of their symmetry group_, [arXiv:1106.4772](http://arxiv.org/abs/1106.4772); A short version in Science __338__, 1604-1606 (2012) [pdf](http://dao.mit.edu/~wen/pub/dDSPTsht.pdf)
+
 
 #### Early discovery articles
 
 * Zheng-Cheng Gu, [[Xiao-Gang Wen]], Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order , Phys. Rev. B80, 155131 (2009); 
 * Frank Pollmann, Erez Berg, Ari M. Turner, Masaki Oshikawa, Symmetry protection of topological order in one-dimensional quantum spin systems , Phys. Rev. B85, 075125 (2012).
 * Xie Chen, Zheng-Xin Liu, [[Xiao-Gang Wen]], 2D symmetry protected topological orders and their protected gapless edge excitations Phys. Rev. B 84, 235141 (2011); 
-* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, [[Xiao-Gang Wen]], Symmetry protected topological orders and the group cohomology of their symmetry group, Phys. Rev. B 87, 155114 (2013)
 * Zheng-Cheng Gu, [[Xiao-Gang Wen]], [Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory](http://arxiv.org/abs/1201.2648)
+
+
 
 #### Other articles
 
