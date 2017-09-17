@@ -63,7 +63,9 @@ $$
 
 ### Relation to higher prequantum geometry
 
-The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equipping $\mathbb{R}^7$ with [[n-plectic geometry|2-plectic structure]]. From this point of view $G_2$ is the subgroup of the [[2-plectomorphism group]] in the image of the [[Heisenberg group]] of $(\mathbb{R}^7, \omega)$.
+The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equipping $\mathbb{R}^7$ with [[n-plectic geometry|2-plectic structure]]. From this point of view $G_2$ is the linear subgroup of the [[2-plectomorphism group]], hence (up to the translations) the image of the [[Heisenberg group]] of $(\mathbb{R}^7, \omega)$ in the symplectomorphism group.
+
+Or, dually, we may regard the 4-form $\star \omega$ of def. \ref{As2PlectomorphismsOnR7} as being a [[n-plectic geometry|3-plectic structure]] and $G_2$ correspondingly as the linear part in the [[3-plectomorphism group]] of $\mathbb{R}^7$.
 
 ## Related concepts
 
