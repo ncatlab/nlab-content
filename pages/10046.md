@@ -44,9 +44,13 @@ A poset $P$ with directed joins is continuous if and only if $\bigvee: Idl(P) \t
 
 ## Properties
 
+* Continuous lattices are those complete lattices for which taking [[suprema]] of directed subsets commutes with taking [[infima]] of arbitrary subsets. 
+
 * A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale]], hence [[exponentiable object|exponentiable]].
 
-* The forgetful functor from continuous lattices to sets is a [[monadic functor]]. Here the left adjoint takes a set $X$ to the lattice of filters in the power set Boolean algebra $P X$. 
+* The forgetful functor from the category of continuous lattices (with morphisms those maps preserving directed joins and arbitrary meets) to sets is a [[monadic functor]]. Here the left adjoint takes a set $X$ to the lattice of filters in the power set Boolean algebra $P X$. 
+
+* The category of continuous lattices, with morphisms those maps which preserve directed joins (aka Scott-continuous maps), is a [[cartesian closed category]]. This category was used by [[Dana Scott]] to construct models of the untyped [[lambda calculus]]. 
 
 ## Related pages
 
