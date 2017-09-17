@@ -18,7 +18,7 @@ A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
 
    $$\mathcal{O}^n|_U \to \mathcal{E}|_U$$ 
 
-   from a [[free module]] to $E|_{U}$,  where $n$ is finite. 
+   from a [[free module]] to $\mathcal{E}|_{U}$,  where $n$ is finite. 
 
 * __coherent__ if it is 
 
@@ -26,7 +26,7 @@ A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
 
   1. for every open $U$ in the base space (resp. every object $U$ in the base site), every finite $p \in \mathbb{N}$ and every morphism 
 
-     $$\mathcal{O}^p|_U\to \mathcal{E}_U$$ 
+     $$\mathcal{O}^p|_U\to \mathcal{E}|_U$$ 
 
      of $\mathcal{O}|_U$-modules has a finitely generated [[kernel]]. 
 
