@@ -25,7 +25,7 @@ An even more general version is this:  If a set is equipped with two binary oper
 1.  the operation is commutative;
 1.  the operation is associative.
 
-Fully generally the Eckmann-Hilton argument shows that
+If we [[internalisation|internalise]] the monoid version, then the Eckmann--Hilton argument shows that
 
 +-- {: .un_prop }
 ###### Proposition
@@ -93,5 +93,8 @@ For higher analogues see
 
 
 [[!redirects Eckmann-Hilton argument]]
+[[!redirects Eckmann-Hilton arguments]]
 [[!redirects Eckmann–Hilton argument]]
+[[!redirects Eckmann–Hilton arguments]]
 [[!redirects Eckmann--Hilton argument]]
+[[!redirects Eckmann--Hilton arguments]]
