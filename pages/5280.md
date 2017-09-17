@@ -68,7 +68,7 @@ where $C$ is any nontrivial [[finite category]]. But $EM$ is certainly the most 
 +-- {: .num_example #Top}
 ###### Example
 
-In [[Top]], for example, we have [[embeddings]] $\mathbb{R} \cong (0,1) \to [0,1] \to \mathbb{R}$, yet $[0,1] \ncong \mathbb{R}$.  This counterexample also shows that the CSB theorem fails in Brouwer\'s [[intuitionstic mathematics]] even for $Set$ (since every function between those sets must be continuous by Brouwer\'s continuity principle).
+Counterexample \ref{counterexample2} below shows that the CSB theorem fails in Brouwer\'s [[intuitionistic mathematics]] even for $Set$ (since every function between the sets $[0, 1]$ and $\mathbb{R}$ must be continuous by Brouwer\'s continuity principle!). See also the discussion in [Mac Lane-Moerdijk](#MM), VI.9, on toposes that realize Brouwer's theorem. 
 =--
 
 +-- {: .num_example #counterexample} 
@@ -81,7 +81,17 @@ Nor can one have internal existence of an isomorphism between $X$ and $Y$ in thi
 
 ## In other categories
 
-The CSB property holds in many other [[categories]] of interest, for example [[vector space]]s and [[algebraically closed field]]s. The question of when the CSB property holds was partially addressed in this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold), where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]). 
+The CSB property holds in many other [[categories]] of interest. For example: 
+
++-- {: .num_example #model} 
+###### Example 
+The CSB property holds in the category of [[vector space]]s and in the category of [[algebraically closed field]]s. See also this [MO post](http://mathoverflow.net/questions/1058/when-does-cantor-bernstein-hold), where model-theoretic criteria come into play, sometimes under strengthenings of the notion of monomorphism (e.g., [[elementary embedding]], [[split monomorphism]]). 
+=-- 
+
++-- {: .num_example #counterexample2} 
+###### Counterexample 
+On the other hand, the CSB property fails in [[Top]], since we have [[embeddings]] $\mathbb{R} \cong (0,1) \to [0,1] \to \mathbb{R}$, yet $[0,1] \ncong \mathbb{R}$. 
+=-- 
 
 More examples and discussion can be found at this Secret Blogging Seminar [post](http://sbseminar.wordpress.com/2007/10/30/theme-and-variations-schroeder-bernstein/). 
 
@@ -100,7 +110,10 @@ The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on th
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]: A Topos Theory Conpendium_, Vol. I, Clarendon Press, Oxford (2002)
 
 * [[Timothy Gowers]], _A Solution to the Schroeder-Bernstein Problem for Banach Spaces_, Bulletin of the London Mathematical Society, Volume 28, Issue 3 (1996), 297-304 [(abstract)](http://blms.oxfordjournals.org/content/28/3/297.abstract)
-{#Gowers}
+{#Gowers} 
+
+* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_, Springer-Verlag 1992. 
+{#MM}
 
 
 [[!redirects Cantor-Schroeder-Bernstein theorem]]
