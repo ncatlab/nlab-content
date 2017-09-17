@@ -29,7 +29,7 @@ The equivalence of these statements involves some serious proofs, including [[Gi
 
 ## Logical definition
 
-In logical terms, a geometric theory fits into a hierarchy of theories that can be interpreted in the [[internal logic]] of a hierarchy of categories.  Since [[predicates]] in the internal logic are represented by [[subobjects]], in order to interpret any connective or quantifier in the internal logic, one needs a corresponding operation on subobjects to exist in the category in question, and be well-behaved.  For instance:
+In logical terms, a geometric theory fits into a hierarchy of theories that can be interpreted in the [[internal logic]] of a hierarchy of types of [[categories]].  Since [[predicates]] in the internal logic are represented by [[subobjects]], in order to interpret any connective or quantifier in the internal logic, one needs a corresponding operation on subobjects to exist in the category in question, and be well-behaved.  For instance:
 
 * Since $\wedge$ and $\top$ are represented by [[intersections]] and identities (top elements), these can be interpreted in any [[lex category]].  Theories involving only these are [[cartesian theory|cartesian theories]].
 
@@ -37,7 +37,7 @@ In logical terms, a geometric theory fits into a hierarchy of theories that can 
 
 * Since $\vee$ and $\bot$ are represented by [[union]] and [[bottom elements]], these can be interpreted in any [[coherent category]].  Theories which add these to regular logic are called [[coherent theory|coherent theories]].
 
-* Finally, theories which also involve infinitary $\bigvee$, which is again represented by an infinitary union, can be interpreted in [[infinitary coherent categories]], aka *geometric categories*.  These are **geometric theories**.
+* Finally, theories which also involve infinitary $\bigvee$, which is again represented by an infinitary union, can be interpreted in [[infinitary coherent categories]], aka *[[geometric categories]]*.  These are **geometric theories**.
 
 Note that the axioms of one of these theories are actually of the form
 $$ \varphi \vdash_{\vec{x}} \psi $$
