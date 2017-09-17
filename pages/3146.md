@@ -76,4 +76,13 @@ After the conception of [[gauge theory]], the term _curvature_ was firmly establ
 
 * [[curvature characteristic form]]
 
+
 (TO ADD: Something about curved $A_\infty$ algebras and curved dg algebras.)
+
+[[!redirects curvatures]]
+
+[[!redirects curvature form]]
+[[!redirects curvature forms]]
+
+[[!redirects curvature differential form]]
+[[!redirects curvature differential forms]]
