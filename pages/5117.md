@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -15,7 +14,7 @@
 
 ## Idea
 
-A _braided monoidal functor_ is a [[functor]] $F : C \to D$ between [[symmetric monoidal categories]] that is a [[monoidal functor]] which respects the braiding on both sides.
+A _braided monoidal functor_ is a [[functor]] $F : C \to D$ between [[braided monoidal categories]] that is a [[monoidal functor]] which respects the braiding on both sides.
 
 
 ## Properties
