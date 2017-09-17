@@ -1,4 +1,4 @@
-Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the group of invertible linear transformations of the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ matrices with entries in $k$ having nonzero determinant.
+Given a [[field]] $k$, the **general linear group** $GL(n,k)$ (or $GL_n(k)$) is the group of invertible linear transformations of the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ [[matrix|matrices]] with entries in $k$ having nonzero [[determinant]].
 
 This group can be considered as a (quasi-affine) sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ defined by the condition that the [[determinant]] of a matrix is nonzero. It can be also presented as an affine subvariety of the affine space $M_{n \times n}(k) \times k$ defined by the equation $\det(M)t = 1$ (where $M$ varies over the factor $M_{n \times n}(k)$ and $t$ over the factor $k$). 
 
@@ -15,10 +15,12 @@ Coordinate rings of general linear groups and of special general linear groups h
 See also [[Gauss decomposition]].
 
 
-# References #
+## References
 
 * O.T. O'Meara, _Lectures on Linear Groups_, Amer. Math. Soc., Providence, RI, 1974.
 
 * B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp. 
 
+
+[[!redirects general linear group]]
 [[!redirects general linear groups]]
