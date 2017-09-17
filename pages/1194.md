@@ -481,3 +481,6 @@ The following particular type theories are important enough to (potentially) hav
 [[!redirects type theories]]
 [[!redirects dependent type theory]]
 [[!redirects dependent type theories]]
+
+[[!redirects intensional type theory]]
+[[!redirects extensional type theory]]
