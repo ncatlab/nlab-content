@@ -47,19 +47,19 @@ There are various objects that model the abstract notion of $2$-groupoid.
 
 ### Bigroupoids
 
-A **[[bigroupoid]]** is a [[bicategory]] in which all morphisms are [[equivalences]].
+A **[[bigroupoid]]** is a [[bicategory]] in which all morphisms are [[equivalences]]. 
+
+Bigroupoids may equivalently be thought of in terms of their [[Duskin nerve]]s. These are precisely the 3-[[coskeletal]] [[Kan complex]]es.
 
 ### 3-Coskeletal Kan complexes
 
-A $3$-[[coskeleton|coskeletal]] [[Kan complex]] is precisely the [[Duskin nerve]] of a bigroupoid. 
-
-This is a [[simplicial set]], whose vertices, edges, and 2-[[simplices]] we identify with the [[object]]s, [[morphism]]s and [[2-morphism]]s of the form
+A $3$-[[coskeleton|coskeletal]] [[Kan complex]] is a model for a 2-groupoid. This is a [[simplicial set]], whose vertices, edges, and 2-[[simplices]] we identify with the [[object]]s, [[morphism]]s and [[2-morphism]]s of the form
 
 $$
   \array{
      && y
      \\
-     & \nearrow &\downarrow& \searrow
+     & \nearrow &\Downarrow& \searrow
       \\
      x &&\stackrel{}{\to}&& z
   }
@@ -67,23 +67,60 @@ $$
   
 in the 2-groupoid, respectively. 
 
-Moreover, the 3-[[simplices]] encode the composition operation: given three faces of a tetrahedron (a 3-[[horn]]), a composite of them is any choice of fourth face and a 3-cell filling the reesulting hollow tetrahedron.
+Moreover, the 3-[[simplices]] in the simplicial set encode the composition operation: given three composable 2-simplex faces of a tetrahedron (a 3-[[horn]])
 
 $$
-\array{\arrayopts{\rowalign{center}}
-O(\Delta^3) = & \left\{
-\array{\begin{svg}
-[[!include oriental > Delta3]]
-\end{svg}}\right\}\\
-\end{svg}}
-\right\}
-}
+  \array{
+    y &\to& &\to& z
+    \\
+    \downarrow &\seArrow& &\nearrow&  \downarrow
+    \\
+    \downarrow &\nearrow& &\Downarrow& \downarrow
+    \\
+    x &\to&&\to& w
+  }
+  \;\;\;
+  \;\;\;
+  \array{
+    y &\to& &\to& z
+    \\
+    &\searrow& &\swArrow&  \downarrow
+    \\
+    && &\searrow& \downarrow
+    \\
+    &&&& w
+  }
+$$
+
+a composite of them is any choice $\kappa$ of fourth face and a 3-cell $comp$ filling the resulting hollow tetrahedron:
+
+$$
+  \array{
+    y &\to& &\to& z
+    \\
+    \downarrow &\seArrow& &\nearrow&  \downarrow
+    \\
+    \downarrow &\nearrow& &\Downarrow& \downarrow
+    \\
+    x &\to&&\to& w
+  }
+  \;\;\;
+  \stackrel{comp}{\to}
+  \;\;\;
+  \array{
+    y &\to& &\to& z
+    \\
+    \downarrow &\searrow& &\swArrow&  \downarrow
+    \\
+    \downarrow &{}_\kappa\Downarrow& &\searrow& \downarrow
+    \\
+    x &\to&&\to& w
+  }
+  \,.
 $$
 
 
-
-
-Then the 3-coskeletal-condition says that every boudnary of a 4-simplex made up of 5 such tetrahedra has a unqiue filler. This is the [[associativity]] [[coherence law]] on the comoposition operation given by the choice of tetrahedra.
+The 3-[[coskeletal]]-condition says that every boundary of a 4-[[simplex]] made up of five such tetrahedra has a unqiue filler. This is the [[associativity]] [[coherence law]] on the comoposition operation given by the choice of tetrahedra:
 
 $$
  \array{\arrayopts{\rowalign{center}}
@@ -92,6 +129,8 @@ $$
  \end{svg}} 
  }
 $$
+
+This says that any of the possible ways to use several of the 3-simpleces to compose a bunch of compsable 2-morphisms are actually equal.
 
 ### Homotopy 2-types
 
