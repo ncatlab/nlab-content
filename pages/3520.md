@@ -99,6 +99,8 @@ $$
 
 ## References
 
+The Hadamard lemma is due to [[Jacques Hadamard]].
+
 The Hadamard lemma is what makes the standard _convenient models_ for [[synthetic differential geometry]] tick. Its role in this respect can be seen from proposition 1.2 on in 
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
