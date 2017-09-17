@@ -168,7 +168,7 @@ $$
 By the discussion at <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucGeometricHomotopy">Smooth ∞-groupoi -- geometric homotopy</a> the action of $\Pi$ factors as $Smooth \infty Grpd \stackrel{i_!}{\to} ETop\infty Grpd \stackrel{\Pi_{ETop}}{\to} \infty Grpd$ and hence we may equivalently compute the geometric realization of the underlying  [[Euclidean-topological ∞-groupoid]]s 
 
 The statement we need to prove amounts to saying that $\Pi_{ETop}$ sends the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$ to the homtopy fiber of $\frac{1}{2}p_1$. 
-By <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#Cohomology">Euclidean-topological ∞-groupoid -- Cohomology</a> it does so on all morphisms that are presented by morphisms of [[good simplicial topological space]]s (that have degreewise [[good open cover]]s) of the form $X_\bullet \to \bar W G$, since on these [[geometric realization of simplicial topological spaces]] preserves homotopy fibers.
+By <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#Cohomology">Euclidean-topological ∞-groupoid -- Cohomology</a> it does so on all morphisms that are presented by morphisms of [[good simplicial topological space]]s of the form $X_\bullet \to \bar W G$, since on these [[geometric realization of simplicial topological spaces]] preserves homotopy fibers.
 
 Therefore the claim follows as soon as we exhibit an equivalence of the morphism $\frac{1}{2}\mathbf{p}_1$ from prop \ref{SmoothFractionalPontryaginClass} by a morphism of this form. 
 
@@ -182,44 +182,23 @@ $$
   \bar W Spin(n)
 $$
 
-over the degreewise finite dimensional simplicial smooth manifold $\bar W Spin$, but is not itself a degreewise finite dimensional simplicial manifold. 
-To obtain that, notice that we may always find (discussed at [[Lie group cohomology]]), a bisimplicial presheaf
+over the simplicial smooth manifold $\bar W Spin$, but is not itself the image under $\bar W$ of a simplicial group that $\Pi_{ETop}$ sends to its geometric realization.  
 
-$$
-  [k] \mapsto C(U^{(k)}) \in [CartSp_{smooth}^{op}, sSet]
-$$
 
-that is in each degree $k$ the [[Cech nerve]] of a differentiably [[good open cover]] of $Spin(n)^{\times_{k}}$. Writing $\mathbf{\Delta} : \Delta \to sSet$ for the [[fat simplex]], it follows that
-
-$$
-  (\int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot C(U^{(k)}))
-   \stackrel{\simeq}{\to}
-  \bar W Spin(n)
-$$
-
-is a cofibrant [[resolution]] in $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ (details of this argument appear for instance in the proof of <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity-groupoid#StrucCohomology">this proposition</a>). By construction this is a degreewise finite [[dimension|dimensional]] [[smooth manifold]] (with countably many connected components, each isomorphic to a [[Cartesian space]]). 
-
-(Alternatively we could have simply applied the general formula for cofibrant replacement in the projective [[model structure on simplicial presheaves]], as discussed there, which yields a presentation that is degreewise an uncountable disjoint union of [[Cartesian space]]s. Or we could have used a well-adapted construction as in ([Schommer-Pries](#Schommer-Pries)) to obtain a finite dimensional model with finitely many components in each degree.  For the present purpose either choice is equally good.)
-
-Since this is cofibrant, there is a lift $\sigma$ in
+Consider then
 
 $$
   \array{
-    & & \mathbf{cosk}_3 \exp(\mathfrak{so}(n)) 
-     &\stackrel{\exp(\mu)}{\to}&
-    \bar W \Xi U(1)[2]
-    \\
-    & {}^{\mathllap{\sigma}}\nearrow_{\mathrlap{\simeq}}
-   & \downarrow^{\mathrlap{\simeq}}
-    \\
-    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot C(U^{(k)})
-    &\stackrel{\simeq}{\to}&
-    \bar W Spin(n)
+      && \mathbf{cosk}_3 \exp(\mathfrak{so}) &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}& \bar W \Xi U(1)[2]
+      \\
+      & {}^{\mathllap{\simeq}}\nearrow & \downarrow^{\mathrlap{\simeq}}
+     \\
+    \bar W \Omega Spin(n) &\stackrel{\simeq}{\to}&  \bar W Spin
   }
-  \,.
+  \,,
 $$
 
-Therefore the composite $\frac{1}{2} \mathbf{p}_1 \circ \sigma $ here is an equivalent presentation of $\frac{1}{2}\mathbf{p}_1$ and it is supported on good simplicial topological spaces.
+
 
 =--
 
@@ -434,7 +413,8 @@ This is again a pullback diagram of a fibration resolution of the point inclusio
 
 
 
-### As a strict Lie 2-group
+### By strict Lie $2$-group
+ {#PresentationByStrictTwoGroups}
 
 A realization of the string 2-group as a [[strict 2-group]] [[internalization|internal]] to [[diffeological space]]s was given in ([BCSS](#BCSS)).
 
