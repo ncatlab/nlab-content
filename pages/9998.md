@@ -20,7 +20,7 @@
 
   * [[topologically twisted D=4 super Yang-Mills theory]]
 
-* [[geometric engineering of quantum field theories]]
+* [[geometric engineering of quantum field theory]]
 
 
 ## References
