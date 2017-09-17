@@ -1,4 +1,12 @@
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -248,7 +256,14 @@ Let $\underline{G} = \{G_n,p^m_n\}$ be an inverse sequence of groups (aka _tower
 
 * This has a natural group structure;
 
-* If $X = \bigcup_n K_n$, $U_n = X- K_n$, and $* : [0,\infty) \to X$ is chosen so that $*[n,\infty)\subset U_n$, then setting $G_n = \pi_k(U_n,*(n))$ with $G_n\to G_{n-1}$ induced
+* If $X = \bigcup_n K_n$, $U_n = X- K_n$, and $* : [0,\infty) \to X$ is chosen so that $*[n,\infty)\subset U_n$, then setting $G_n = \pi_k(U_n,*(n))$ with $G_n\to G_{n-1}$ induced by the inclusion of $U_n$ into $U_{n-1}$ and the change of base point along $*([n-1,n])$, then $\underline{\pi}^\infty_n(X,*) \cong \mathcal{P}(\underline{G}).$
+
+* For any tower of groups, $\underline{G}$ there is an action of the group $F = \underline{\pi}_1(\underline{S}^1,[0,\infty)$ on $\mathcal{P}(\underline{G})$.
+
+* (Chipman) Let $\underline{G}$, $\underline{H}$ be towers of finitely generated groups, then $\underline{G}$ is isomorphic to $\underline{H}$ if, and only if, there is an isomorphism from $\mathcal{P}(\underline{G})$ to $\mathcal{P}(\underline{H})$ commuting with the operation of $F$.  (What is remarkable here is that initially no morphism between $\underline{G}$ and $\underline{H}$ is given.  It is constructed from the ones on the images under $\mathcal{P}$.
+
+
+
 
 
 
