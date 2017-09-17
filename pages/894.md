@@ -6,5 +6,3 @@ Thinking of [[Set]] as a [[locally small category]], this is a special case of a
 category: foundational axiom
 
 [[!redirects function sets]]
-[[!redirects function type]]
-[[!redirects function types]]
