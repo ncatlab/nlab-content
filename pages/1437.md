@@ -139,17 +139,20 @@ $$.h_1... h_{n-1} 100000... = .h_1... h_{n-1}011111...$$
 as real numbers. In this way, we produce a unique well-defined interval map $X \to [0, 1]$, so that $[0, 1]$ is the terminal coalgebra. 
 =-- 
 
-Remarks: 
++-- {: .un_remark}
+###### Remarks 
+(More material can be found at [[real coalgebra]].) 
 
-* The same proof shows that we could have considered instead the category of [[poset|posets]] with separate top and bottom, or even the category of sets with separate top and bottom, with an analogous endofunctor. The reason we chose the category of intervals is (besides the availability of the succinct term 'interval') to indicate that choice of interval $[0, 1]$, 
+1. The same proof shows that we could have considered instead the category of [[poset|posets]] with separate top and bottom, or even the category of sets with separate top and bottom, with an analogous endofunctor. The reason we chose the category of intervals is (besides the availability of the succinct term 'interval') to indicate that choice of interval $[0, 1]$, 
 as the model which classifies the [[geometric realization]] functor, can be justified on the grounds of a universal property, as shown by this theorem. 
 
-* Freyd, in his original [post](#Freyd) on this result, was inspired by a similar theorem due to [Pavlovic and Pratt](#PP), that the half-open interval $[0, \infty)$ can be described as the terminal coalgebra for the endofunctor that sends a linearly ordered set $X$ to $\omega \times X$ with the dictionary order. 
+1. Freyd, in his original [post](#Freyd) on this result, was inspired by a similar theorem due to [Pavlovic and Pratt](#PP), that the half-open interval $[0, \infty)$ can be described as the terminal coalgebra for the endofunctor that sends a linearly ordered set $X$ to $\omega \times X$ with the dictionary order. 
 
-* The theorem holds in an arbitrary topos (with $[0, 1]$ being the interval of [[real number object|Dedekind reals]]), provided that the word "separate" is interpreted correctly: 
+1. The theorem holds in an arbitrary topos (with $[0, 1]$ being the interval of [[real number object|Dedekind reals]]), provided that the word "separate" is interpreted correctly: 
 $$\forall p\colon P\; (\neg(0 = p) \vee \neg(1 = p))$$ 
 and provided that the process of gluing endpoints is given correctly. See Johnstone's [[Elephant]], section D.4.7, for an extended discussion. 
 
+=--
 
 ### Categorified example: Trees 
 
@@ -204,7 +207,7 @@ Terminal coalgebras are the [[categorical semantics]] of [[M-types]].
 * [[Peter Freyd]], _Real coalgebra_ Mailing to the categories list, Dec. 22, 1999. ([link](http://www.mta.ca/~cat-dist/catlist/1999/realcoalg))
 {#Freyd}
 
-* [[Dusco Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, 1999. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
+* [[Dusko Pavlovic]], [[Vaughan Pratt]], _On coalgebra of real numbers_, 1999. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.47.5204))
 {#PP}
 
 Cross-relations between algebraic and coalgebraic aspects of real numbers may be found in this article: 
