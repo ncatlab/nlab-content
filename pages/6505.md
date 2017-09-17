@@ -65,21 +65,60 @@ and $H^1(M, \mathbf{R})$ measures how far is the right-most map from the identit
 ### Hamiltonian action and moment map
  {#HamiltonianActionAndTheMomentMap}
 
-__Hamiltonian action__ above means that the action induced at the level of Lie algebra is by Hamiltonian vector fields with specified [[Hamiltonian]]. That means that the infinitesimal action from $\mathfrak{g}\to \chi(M,\omega)$ lifts to a linear map
+Let $(X, \omega)$ be a [[symplectic manifold]] and let $\mathfrak{g}$ be a [[Lie algebra]]. Write $(C^\infty(X), \{-,-\})$ for the [[Poisson bracket]] Lie algebra underlying the corresponding [[Poisson algebra]]. 
+
++-- {: .num_defn}
+###### Definition
+
+A _[[Hamiltonian action]]_ of $\mathfrak{g}$ on $(X, \omega)$ is a Lie algebra [[homomorphism]]
 
 $$
-\mathfrak{g}\to C^\infty(M); \,\,\,\,\,A\mapsto \mu_A
-$$ 
+  \tilde \mu : \mathfrak{g} \to (C^\infty(X), \{-,-\})
+  \,.
+$$
 
-One usually dualizes that map. The __moment map__
-
-$$\mu: M\to \mathfrak{g}^*$$
-
-is determined by the formula 
+The corresponding function
 
 $$
-\langle \mu(z),A\rangle = \mu_A(z),\,\,\,\,\,\,\forall z\in M.
+  \mu : X \to \mathfrak{g}^*
 $$
+
+to the [[dual vector space]] of $\mathfrak{g}$, defined by
+
+$$
+  \mu : x \mapsto \tilde \mu(-)(x)
+$$
+
+is the corresponding **moment map**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is a homomorphism of [[Poisson manifolds]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If one writes the evaluation pairing as
+
+$$
+  \langle -,-\rangle : \mathfrak{g}^* \otimes \mathfrak{g}^* \to \mathbb{R}
+$$
+
+then the equation characterizing $\mu$ reads for all $x \in X$ and $A \in \mathfrak{g}$
+
+$$
+  \langle \mu(x), A \rangle = \tilde \mu(A)(x)
+  \,.
+$$
+
+This is the way it is often written in the literature.
+
+=--
 
 ## Examples
 
