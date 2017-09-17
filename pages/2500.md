@@ -169,6 +169,10 @@ Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-dual
 
 See the references ([below](#UDualityReferences)).
 
+### Exceptional geometry
+
+For the moment see the remarks/references on supergravity at _[[exceptional geometry]]_ and _[[exceptional generalized  geometry]]_.
+
 ## Examples
 
 For supergravity Lagrangians "of ordinary type" it turns out that  
