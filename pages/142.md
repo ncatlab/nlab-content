@@ -112,7 +112,7 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
   * [[representable morphism of stacks]]
 
-  * [[mapping stack]]
+  * [[mapping stack]], [[quotient stack]]
 
   * [[geometric stack]]
 
