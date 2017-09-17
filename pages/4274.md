@@ -83,7 +83,7 @@ It is maybe noteworthy that [[tmf]] (and hence its universal string orientation)
 The [characteristic series](genus#LogarithmAndCharacteristicSeries) of the Witten genus as a [[power series]] in $z$ with [[coefficients]] in formal power series in $q$ over $\mathbb{Q}$ is
 
 $$
-  K_w(z)
+  K_w(z)(q)
   =
   \frac{z/2}{sinh(z/2)}
   \prod_{n \geq 1}
@@ -94,6 +94,14 @@ $$
 By the discussion at _[Integrality and modularity](#IntegralityAndModularity)_ a [[modular form]] with respect to the variable $q$. Such functions which are power series of two variables $z$ and $q$ with elliptic nature in $z$ and modular nature in $q$ are called _[[Jacobi forms]]_ ([Zagier 86, p. 8](#Zagier86), [Ando-French-Ganter 08](#AndoFrenchGanter08)).
 
 In fact $K_w$ above is proportional to (the inverse of) the [[Weierstrass sigma-function]] (see e.g. [Ando Basterra 00, section 5.1](#AndoBasterra00)).
+
+Explicitly, the Witten genus has the following equivalent re-expressions:
+
+> check prefactors
+
+in terms of the [[Jacob theta-function]] it is...
+
+
 
 ### Integrality and modularity
  {#IntegralityAndModularity}
