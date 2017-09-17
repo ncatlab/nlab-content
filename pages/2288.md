@@ -48,6 +48,8 @@ A survey of formalisms used in stable homotopy theory -- tools to present the [[
 
 * [[Neil Strickland]], _Axiomatic stable homotopy - a survey_ ([arXiv:math.AT/0307143](http://front.math.ucdavis.edu/0307.5143))
 
+* [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]],  _Axiomatic stable homotopy theory_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf))
+
 * [[Stefan Schwede]], _Symmetric spectra_ ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 An account in terms of [[(∞,1)-category theory]] is in section 7 of
