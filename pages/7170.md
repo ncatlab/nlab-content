@@ -1,0 +1,71 @@
+
+## Idea
+
+Wu classes are a type of [[universal characteristic class]] in $\mathbb{Z}_2$-[[cohomology]] that refine the [[Stiefel-Whitney classes]].
+
+## Definition
+
+For $X$ a [[topological space]] equipped with a class $E : X  \to B SO(n)$ (a real [[vector bundle]] of some [[rank]] $n$), write
+
+$$
+  w_k \in H^k(X, \mathbb{Z}_2)
+$$ 
+
+for the [[Stiefel-Whitney classes]] of $X$. Moreover, write
+
+$$
+  \cup : H^k(X, \mathbb{Z}) \times H^l(X, \mathbb{Z}_2)
+  \to 
+  H^{k+1}(X, \mathbb{Z}_2)
+$$
+
+for the [[cup product]] on $\mathbb{Z}_2$-[[cohomology groups]] and write 
+
+$$
+  Sk^k(-) : H^l(X, \mathbb{Z}_2) \to H^{k+l}(X, \mathbb{Z}_2)
+$$
+
+for the [[Steenrod square]] operations.
+
+Then the **Wu class** 
+
+$$
+  \nu_k
+  \in 
+  H^k(X,\mathbb{Z}_2)
+$$ 
+
+is defined to be the class that "represents" $Sq^k(-)$ under the cup product, in the sense that for all $x \in H^l(X, \mathbb{Z}_2)$ we have
+
+$$
+  Sq^k(x) = \nu_k \cup x
+  \,.
+$$
+
+
+## Properties
+
+### Relation to Stiefel-Whitney classes
+
+The [[Stiefel-Whitney class]] $w_k$ is the [[Steenrod square]] of the Wu class $\nu_k$.
+
+$$
+  w_k = Sq(\nu_k)
+  \,.
+$$
+
+## Examples
+
+### For $Spin$-bundles
+
+## References
+
+The original reference is 
+
+* Wu ... (1955)
+
+Details are reviewed in appendix E of
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
+[[!redirects Wu classes]]
