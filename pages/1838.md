@@ -15,11 +15,13 @@
 
 ## Idea
 
-__Electromagnetism__ or __electrodynamics__ is the [[gauge theory]] whose field is the [[electromagnetic field]].
+__Electromagnetism__ or __electrodynamics__ is the [[gauge theory]] whose field is the [[electromagnetic field]], see there for more details.
 
 The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 ## Related concepts
+
+* [[Dirac charge quantization]]
 
 * [[Einstein-Maxwell theory]]
 
