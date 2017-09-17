@@ -58,7 +58,7 @@ Global aspects of the geometry of spacetimes:
 
 * John K. Beem, Paul E. Ehrlich, Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete)) (global aspects)
 
-* A Besse, _Einstein manifolds_, 2 vols. (differential geometry of solutions to Einstein equations, constant negative curvature, classification results, encyclopaedic)
+* Arthur L. Besse, _Einstein manifolds_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 10, Springer-Verlag, Berlin, Heidelberg, New York, London, Paris, Tokyo, 1987, xii + 510 pp. (differential geometry of solutions to Einstein equations, constant negative curvature, classification results, encyclopaedic; for a review see [Bull. AMS](http://projecteuclid.org/euclid.bams/1183554925)
 
 After the introduction emphasis on asymptotics of spacetimes far from gravitation objects:
 
