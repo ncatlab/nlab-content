@@ -27,6 +27,8 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 ## Related concepts
 
+* [[analytic number theory]]
+
 * [[elementary function arithmetic]]
 
 * [[second order arithmetic]]
