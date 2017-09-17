@@ -87,5 +87,34 @@ $$
 
 =--
 
+## Properties
+
+### Of free modules
+
+Let $R$ be a [[ring]].
+
++-- {: .num_prop }
+###### Proposition
+
+Assuming the [[axiom of choice]], the following are equivalent
+
+1. every submodule of a [[free module]] over $R$ is itself free;
+
+1. every [[ideal]] in $R$ is a free $R$-module;
+
+1. $R$ is a [[principal ideal domain]].
+
+=--
+
+A proof is in ([Rotman, pages 650-651](#Rotman)).
+
+## References
+
+For instance
+
+* Rotman _Advanced Modern Algebra_
+ {#Rotman}
+
+
 [[!redirects submodules]]
 
