@@ -195,7 +195,7 @@ The conditions of the above theorems are satisfied for
 
 * $V = $ [[Top]] the equivalence model structure on compactly generated topological spaces;
 
-  The _homotopy algebras_ over a simplicial/topological operad as defined by Boardman and Vogt (see references below), are algebras for cofibrant replacements of these operads in this moel structure. This is essentially the statement of theorem 4.1 in ([Vogt](#Vogt))
+  The _homotopy algebras_ over a simplicial/topological operad as defined by Boardman and Vogt (see references below), are algebras for cofibrant replacements of these operads in this model structure. This is essentially the statement of theorem 4.1 in ([Vogt](#Vogt))
 
 
 * $V = Ch_\bullet$, the [[model structure on chain complexes]];
