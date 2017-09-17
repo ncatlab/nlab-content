@@ -1,0 +1,8 @@
+
+* [webpage](http://math.berkeley.edu/~rieffel/)
+
+## Related entries
+
+* [[C-star algebraic deformation quantization]]
+
+category: people
