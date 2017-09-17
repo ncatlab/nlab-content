@@ -25,22 +25,22 @@ This is closely related to embedding the abelian category fully-faithfully and e
 
 ## Definition
 
-One definition goes likes this:
+One definition goes likes this ([MacLane, VIII.4](#MacLane) and also for instance [Gelfand-Mainin, II.5](#Gelfand-Manin)):
 
-An __(generalized) element__ of an object $W$ in a fixed [[abelian category]] $A$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to X'$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to X'$. 
+An __element__ of an [[object]] $W$ in a given [[abelian category]] $\mathcal{A}$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to X'$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to X'$. 
 
-Notice that subtlety in the equivalence relation.
-
-Elements in an abelian category can be used for [[diagram chasing]], see section VIII.4 of ([Mac Lane](#MacLane)) or the exercises at the end of chapter II.5 of ([Gelfand-Manin](#Gelfand-Manin)).
+However, beware that the passage to equivalence classes does not respect the abelian group structure and hence generalized elements in this sense cannot be added or subtracted. A more natural approach is discussed in ([Bergman](#Bergman)) where the actual generalized elements are remembered but a refinement of their domain is allowed, much as familiar from [[topos theory]]. 
 
 ## References
 
 Equivalence classes of generalized elements are considered for instance in
 
+* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd edition, Springer 1998. 
+ {#MacLane}
+
 * [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp.; 2nd corrected ed. 2002.
 {#Gelfand-Manin}
 
-* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd edition, Springer 1998. {#MacLane}
 
 Genuine generalized elements are considered in
 
