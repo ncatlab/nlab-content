@@ -5,25 +5,30 @@
 
 ## Idea
 
+The notion of _Lawvere theory_ is a joint generalization of the notionss of [[group]], [[ring]], [[associative algebra]], etc. 
+
 In his 1963 doctoral dissertation, Bill Lawvere introduced a new categorical method for doing [[universal algebra]], alternative to the usual way of presenting an algebraic concept by means of its logical [[signature (in logic)|signature]] (with generating operations satisfying equational axioms). The rough idea is to define an [[algebraic theory]] as a [[category]] with finite [[product]]s and possessing a "generic algebra" (e.g., a generic [[group]]), and then define a [[model]] of that [[theory]] (e.g., a group) as a product-preserving [[functor]] out of that [[category]]. This type of category is what is nowadays called a _Lawvere algebraic theory_, or just Lawvere theory. 
 
 
 ## Definition
 
-A **Lawvere [[theory]]** or **finite-product theory** is a [[category]] $T$ with finite cartesian [[product|products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). It is common to adopt the (slightly [[evil]]) convention that every object of $T$ is _equal_ to a chosen power of $x$. Thus, if $Fin$ is the category of finite cardinals and functions between them, then the unique (up to isomorphism) product-preserving functor 
-$$Fin^{op} \to T$$ 
-that takes the 1-element cardinal to $x$ is commonly supposed to be surjective on objects (rather than, less evilly, [[essentially surjective functor|essentially surjective]]), or even an isomorphism on objects so that each morphism $x^n \to x$ has a well-defined [[signature (in logic)|arity]] $n$. 
+A **Lawvere [[theory]]** or **finite-product theory** is (equivalently enoded by its [[syntactic category]] which is) a [[category]] $T$ with finite cartesian [[product|products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). 
 
-A **[[model]]** of $T$ is a product-preserving functor $T \to Set$, and _homomorphism of models_ is a natural transformation between such functors. A _morphism_ of theories $T \to T'$ is again a product-preserving functor. Thus, $Fin^{op}$ (the "theory of [[equality]]") is initial in the category of Lawvere theories. 
+A _morphism_ of theories $T \to T'$ is a product-preserving functor. 
+
+A **[[model]]** of $T$ -- an **[[algebra over a Lawvere theory|algebra over the Lawvere theory]]** or simply **$T$-algebra** -- is a product-preserving [[functor]] $T \to Set$, and _homomorphism of $T$-algebras_ is a [[natural transformation]] between such functors. 
+
 
 
 ### Remarks
 
-1. If $C$ is a category with finite products, then a group (object) in $C$ may be defined as a product-preserving functor $T_{Grp} \to C$. For example, a topological group may be identified with a functor $T_{Grp} \to Top$, and a Lie group with a product-preserving functor $T_{Grp} \to Man$ into the category of smooth [[manifold]]s. An analogous statement holds for any finitary algebraic theory, when formulated in terms of its Lawvere theory $T$. 
+1. It is common to adopt the (slightly [[evil]]) convention that every object of $T$ is _equal_ to a chosen power of $x$. Thus, if $Fin$ is the category of finite cardinals and functions between them, then the unique (up to isomorphism) product-preserving functor $Fin^{op} \to T$  that takes the 1-element cardinal to $x$ is commonly supposed to be surjective on objects (rather than, less evilly, [[essentially surjective functor|essentially surjective]]), or even an isomorphism on objects so that each morphism $x^n \to x$ has a well-defined [[signature (in logic)|arity]] $n$. 
 
 1. Some people use 'finite-product theory' to mean any (small) category with finite products, reserving 'Lawvere theory' to refer to finite product theories with the property that every object is isomorphic to a product of finitely many copies of a given object $x$. Finite-product theories $C$ can be regarded as a special case of multisorted Lawvere theories (see below) where the set of sorts is $Ob(C)$ itself. Some, but not all, the above discussion generalizes to this case. 
 
 1. As _finite-product theories_, Lawvere theories are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, regular theories, geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
+
+1. If $C$ is a category with finite products, then a group (object) in $C$ may be defined as a product-preserving functor $T_{Grp} \to C$. For example, a topological group may be identified with a functor $T_{Grp} \to Top$, and a Lie group with a product-preserving functor $T_{Grp} \to Man$ into the category of smooth [[manifold]]s. An analogous statement holds for any finitary algebraic theory, when formulated in terms of its Lawvere theory $T$. 
 
 
 ### Variations
@@ -52,6 +57,8 @@ $$
   \,.
 $$
 
+This is the [[initial object]] in the category of Lawvere theories.
+
 
 An algebra over this theory is just a bare [[set]]:
 
@@ -68,6 +75,8 @@ $$
 $$
 
 This sends each algebra to its _underlying set_ . For more on this see the section [Free T-algebras](#FreeAlgebras) below.
+
+
 
 ### The theory of groups
 
