@@ -27,7 +27,7 @@ $$
   s_\mu : X_p \to X_{p+q}
 $$
 
-for the map dual to to the sequence 
+for the map dual to the sequence 
 
 $$
   [p+q] 
@@ -64,7 +64,7 @@ for $(\mu,\nu)$ a $(p,q)$-[[shuffle]] and $x, y$ non-degenerate simplices in $\D
 
 
 
-## Exposition: Shuffles and products of simplices
+## Shuffles and products of simplices
 
 [[shuffle|Shuffles]] are interesting combinatorial structures but the reason why they come into many constructions in [[homotopy theory]] and [[higher category theory]] is because of their relationship with the structure of [[product]]s.
 
@@ -139,11 +139,14 @@ The path corresponding to a $(p,q)$-shuffle just follows the list of (transposed
 
 Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-shuffles.  
 
-Our $(2,1)$-example is really too simple and small to illustrate this well, but the two cases $(3,1)$ and $(2,2)$ do a much better job, but even so we first look at the (2,1) example:
+Our $(2,1)$-example is really too simple and small to illustrate this well, but the two cases $(3,1)$ and $(2,2)$ do a much better job, but, even so, we first look at the (2,1) example:
 
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0gt1)\ar@{-}[r]%26(0gt2)\ar@{-}[r]%26(1gt2).}"/>
-
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0\lt 1)\ar@{-}[r]%26(0\lt 2)\ar@{-}[r]%26(1\lt 2).}"/>
++--
+{: .query}
+(Here $(01)$ stands for $(0\lt 1)$, there is some bug around that does not allow it to show up although in the code.)
+=--
 (This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left.)
  
 We need here to explain the partial order.  We take the $\mu$-signature' of the shuffle, that is, the ordered set $\mu_1\lt\ldots \lt \mu_p$. (Of course, this determines the $\nu$-signature as that is the complement of $\mu$.)
