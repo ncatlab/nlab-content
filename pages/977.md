@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 There are two different notions of a dense [[subcategory]] $D$ of a [[category]] $C$:
 
 1. A subcategory $D\subset C$ is __dense__ if every [[object]] in $C$ is canonically a [[colimit]] of objects in $D$.  
@@ -7,3 +24,24 @@ There are two different notions of a dense [[subcategory]] $D$ of a [[category]]
 2. A subcategory $D\subset C$ is __dense__ if every object $c$ of $C$ has a $D$-expansion, that is a morphism $c\to\bar{c}$ of [[pro-object]]s in $D$ which is universal ([[initial object|initial]]) among all morphisms of pro-objects in $D$ with source $c$. 
 
    This second notion is used in [[shape theory]]. An alternative name for this is a [[pro-reflective subcategory]], that is a subcategory for which the inclusion has a [[proadjoint]].
+
+## Related concepts
+
+* [[subcategory]]
+
+  * [[full subcategory]], [[wide subcategory]], **dense subcategory**, [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
+
+  * [[dense sub-site]]
+
+* [[sub-2-category]]
+
+  * [[full sub-2-category]]
+
+  * [[locally full sub-2-category]]
+
+* [[sub-(∞,1)-category]]
+
+  * [[reflective sub-(∞,1)-category]]
+
+
+[[!redirects dense subcategories]]
