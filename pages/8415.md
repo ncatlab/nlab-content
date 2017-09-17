@@ -24,7 +24,7 @@ In some cases, the terminology 'compactification' is applied to generalizations 
 If the space has further geometric structure, the compactification is 
 usually required to has such a structure and embedding has to preserve it.
 Many [[moduli space]]s in algebraic and differential geometry have their
-natural compactifications. They are often useful because they carry natural integration which is useful in defining various invariants. Examples of compactifications in geometry: [[wonderful compactification]] and [[Deligne-Mumford compactification]].
+natural compactifications. They are often useful because they carry natural integration which is useful in defining various invariants. 
 
 A useful intuition throughout is that a 'compactification' is a process of adding "ideal points at infinity" in some way to "complete" a space. (Compact [[regular space|regular]] spaces $X$ themselves being "complete" in a technical sense: there is a unique [[uniform space|uniform structure]] whose uniform topology is the topology on $X$, and $X$ is complete with respect to this uniformity.) 
 
@@ -42,6 +42,8 @@ Then one requires that the compactified fiber is finite but small compared to so
 
 ## Examples 
 
+### In topology
+
 * [[One-point compactification]]
 
 * [[Stone–Cech compactification]]
@@ -50,9 +52,14 @@ Then one requires that the compactified fiber is finite but small compared to so
 
 * [[Bohr compactification]]
 
+### In geometry
+
+* [[wonderful compactification]] 
+
+* [[Deligne-Mumford compactification]].
+
 * [[Kaluza-Klein compactification]]
 
-... 
 
 
 [[!redirects compactification]]
