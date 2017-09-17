@@ -695,6 +695,40 @@ The [[quantum field theory]] defined by this action functional is known as _[[Ch
 
 (...)
 
+## Exposition of quantum $\sigma$-models
+ {#ExpositionQuantumSigmaModel} 
+
+Above we have discussed some standard [classical sigma-models](#ExpositionClassical) and [higher gauge theories as sigma-models](#GaugeTheoryAsSigmaModel), also mostly classically. Here we talk about the [[quantization]] of these models (or some of them) to [[QFT]]s: _quantum $\sigma$-models_ .
+
+### Topological string on a smooth manifold and string topology operations
+ {#StringTopology}
+
+The topological part of a [[string]]-[[sigma model]] with [[target space]] a [[smooth manifold]] (and vanishing [[background gauge field]]) is given by the Chas-Sullivan operations of the
+
+* [[string topology]]
+
+of $X$. For the moment, see there for more.
+
+
+### The topological $A$-model string and Gromov-Witten theory
+ {#GWTheory}
+
+The quantum [[string]]-[[sigma model]] whose [[target space]] is a [[complex manifold]] $X$ -- often called the [[A-model]] -- is given by the
+
+* [[Gromov-Witten theory]] 
+
+of $X$. For the moment see there for more details.
+
+### Quantum abelian Chern-Simons
+ {#QuantumAbelianCS}
+
+For the moment see
+
+* [[Topological Quantum Field Theories from Compact Lie Groups]].
+
+
+
+
 ## Exposition of a general abstract formulation
  {#Exposition}
 
