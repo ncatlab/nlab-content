@@ -1,19 +1,19 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential-graded objects
-+--{: .hide}
++-- {: .hide}
 [[!include differential graded objects - contents]]
 =--
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -64,7 +64,7 @@ If $f: (V,\partial)\to (V',\partial')$ in {\sf pre-DGVS}, then $f$ is a **weak e
 
 Let  $f,f' : (V,\partial)\to (V',\partial')$ be two morphisms in $pre-DGVS$. We say $f$ and $f'$ are **homotopic** denoted $f\sim f'$ if $f-f'$ is a boundary in $(Hom(V,V'),D)$, i.e., there is some $h : V \to V'$ of degree +1 such that $f-f' = Dh = \partial' h + h\partial$.
 
-**Contractable and Acyclic DGVSs**
+**Contractible and Acyclic DGVSs**
 
  A dgvs $(V,\partial)$ is _contractible_ if the identity map on $V$ is homotopic to the zero morphism and is _acyclic_ if $H(V,\partial) = 0$.
 
