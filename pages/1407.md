@@ -186,6 +186,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[string phenomenology]]
 
+  * [[G2-MSSM]]
 
 ## References
 
