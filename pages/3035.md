@@ -89,7 +89,9 @@
 
 * [[dg-Lie algebra]]
 
+* [[super L-∞ algebra]]
 
+  * [[super Lie algebra]]
 ## Cohomology
 
 * [[Lie algebra cohomology]]
