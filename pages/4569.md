@@ -1,0 +1,5 @@
+A _monoidal natural transformation_ is a [[natural transformation]] between [[monoidal functors]] that respects the monoidal structure.
+
+For the definition, see
+
+* [[John Baez]], _Some definitions everyone should know_, [pdf](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
