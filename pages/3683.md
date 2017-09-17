@@ -99,3 +99,5 @@ For the semiclassical method in [[superstring theory]] see
 [[!redirects quasi-classical approximation]]
 [[!redirects semiclassical expansion]]
 [[!redirects semiclassical analysis]][[!redirects semi-classical analysis]]
+
+[[!redirects semicalssical quantization]]
