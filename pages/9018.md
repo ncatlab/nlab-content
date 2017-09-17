@@ -28,6 +28,17 @@ The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifo
 
 Specifically for discussion of obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
 
+## Details
+ {#G2Manifolds}
+
+### The C-field
+
+In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the Hodge dual of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance towards the end of ([Bilal-Serendinger-Sfetos](#BilalDerendingerSfetos)) for a derivation.
+
+### Singularities
+
+For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactification]] one needs to consider not smooth (weak) [[G2-manifolds]] but [[orbifolds]] of these. see the first page of ([Acharya-Denef-Hofman-Lambert](#AcharyaDenefHofmanLambert)) for discussion of [[phenomenology]] for such orbifold $G_2$ models and further pointers and see ([Achary 98](#Acharya98)) for general discussion of orbifolds with $G_2$-structure.
+
 ## Related concepts
 
 * [[G2]]
@@ -54,6 +65,7 @@ Specifically for discussion of obtaining or approximating the [[standard model o
 Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in
 
 * [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
+ {#BilalDerendingerSfetos}
 
 Surveys include
 
@@ -73,8 +85,10 @@ Surveys include
 Compactificaton on [[orbifolds]] of $G_2$-manifolds, introducing ([[orbifold]]-) singularities necessary for realistic [[effective QFTs]] is discussed in 
 
 * [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_ ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+ {#Achary98}
 
 * [[Bobby Acharya]], F. Denef, C. Hofman, N. Lambert, _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
+ {#AcharyaDenefHofmanLambert03}
 
 
 The corresponding [[membrane]] [[instanton]] corrections to the [[superpotential]] are discussed in 
