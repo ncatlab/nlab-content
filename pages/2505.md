@@ -1,21 +1,21 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-
-***
-
-[[!include higher category theory - contents]]
-
-
-***
-
+=--
+#### Higher geometry
++--{: .hide}
 [[!include higher geometry - contents]]
+=--
+=--
+=--
 
-***
-
-[[!include higher algebra - contents]]
 
 
-</div>
+
 
 
 
