@@ -54,6 +54,11 @@ Further discussion in the context of [[higher algebra]] is in
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
+Infinitesimal neighborhoods of subvarieties play role in completion of subvarieties and various definitions of [[formal schemes]], the ring case of course plays a role, cf.
+
+* J. Illusie, Grothendieck tehorem [[FGA explained]]
+
+
 [[!redirects infinitesimal extensions]]
 
 [[!redirects square-0 extension]]
