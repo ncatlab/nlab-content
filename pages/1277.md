@@ -26,7 +26,7 @@ a __left $C$-coaction__ is
 
 * which is 
 
-  * co[[associative]] i.e. (for $\mathcal{M}$ nonstrict use the canonical isomorphism $C\otimes (C\otimes M)\cong (C\otimes C)\otimes M$ to compare the sides) $$(\Delta_C\otimes\mathrm{id}_M)\circ\rho = (\mathrm{id}_C\otimes\rho)\circ\rho: M\to C\otimes C\otimes M$$
+  * co[[associative]] i.e. (for $\mathcal{M}$ nonstrict use the canonical isomorphism $C\otimes (C\otimes M)\cong (C\otimes C)\otimes M$ to compare the sides) $(\Delta_C\otimes\mathrm{id}_M)\circ\rho = (\mathrm{id}_C\otimes\rho)\circ\rho: M\to C\otimes C\otimes M$
 
   * and co[[unital]] i.e. $(\epsilon\otimes \mathrm{id}_M)\circ\rho = \mathrm{id}_M$ (in this formula, $\mathbf{1}\otimes M$ is identified with $M$). 
 
