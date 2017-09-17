@@ -1,10 +1,11 @@
 We will collect here some references and blog posts arguing about controversies of string theory as a consistent and realistic physical theory and assesment of standards and financing of string community opposed to other physical and mathematical research.
 
-* Peter Woit, Not even wrong
+* Peter Woit, [Not Even Wrong](http://www.amazon.com/gp/product/0465092756) and [blog](http://www.math.columbia.edu/~woit/wordpress/)
 * Amelino Camelia
 * nForum: ...
 * nCafe: Local and global supersymmetry
 * Carlo Rovelli, _A critical look at strings_, [arxiv/1108.0868](http://lanl.arxiv.org/abs/1108.0868)
+* Lee Smolin, [The Trouble with Physics](http://www.thetroublewithphysics.com/)
 * Glimm, Jaffe, Witten, Thurston etc. about the idea of Experimental and theoretical mathematics, Bull. AMS
 
 (under construction)
