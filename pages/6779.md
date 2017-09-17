@@ -9,6 +9,44 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The first nonzero [[homotopy group]] and [[homology group]] of a [[simply-connected
+topological space]] occur in the same dimension and are [[isomorphism|isomorphic]].
+
+## Statement
+
++-- {: .num_theorem}
+###### Theorem
+
+If a [[topological space]] (or [[infinity-groupoid]]) $X$ is [[n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then the canonical morphism 
+
+$$
+  \pi_n(X) \to H_n(X)
+$$
+
+from the [[homotopy group]] to the [[homology group]] in degree $n$ is an [[isomorphism]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+With the [[universal coefficient theorem]] a corresponding statement follows for the [[cohomology group]] $H^n(X,A)$.
+
+=--
+
 ## References
 
+This appears for instance as theorem 4.32 in 
+
+* [[Alan Hatcher]], _Algebraic Topology_ ([web]())
+
+See also
+
 * wikipedia, _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
+
