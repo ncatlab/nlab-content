@@ -236,7 +236,7 @@ $$
 The first statement appears for instance as ([Bauer 11, below prop. 2.2](#Bauer11)), the second is highlighted in ([Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
 
 
-+-- {: .num_remark }
++-- {: .num_remark #TwoThirdHexagon}
 ###### Remark
 
 By the discussion at _[[Bousfield localization of spectra]]_ and at _[[localization of a space]]_, the [[rationalization]] and the [[p-completion]] maps on spectra are [[homotopy cofibers]] of $E$-acyclifications $G_E(X) \to X$, for $E = S \mathbb{Q} \simeq H \mathbb{Q}$ and $E = S \mathbb{F}_p$  the [[Moore spectra]] of $\mathbb{Q}$ and of the [[cyclic group]]/[[finite field]] $\mathbb{F}_p = \mathbb{Z}/(p)$, respectively (e.g. [Lurie 10, lecture 20](localization+of+a+space#Lurie)).
@@ -257,14 +257,19 @@ $$
   }
 $$
 
-has the following exactness properties:
+is homotopy exact, in that 
 
-1. the square is a [[homotopy pullback]] and hence also a [[homotopy pushout]];
+1. the square is a [[homotopy pullback]] and hence also a [[homotopy pushout]] (this is prop. \ref{ReformulationOfProdOverPComletionByLocalizationAtCoproduct});
 
-1. the diagonals are [[homotopy cofiber sequences]] and hence also [[homotopy fiber sequences]].
+1. the diagonals are [[homotopy cofiber sequences]] and hence also [[homotopy fiber sequences]] (by [this proposition](Bousfield+localization+of+spectra#LocalizationCofiber) at _[[Bousfield localization of spectra]]_);
 
+1. the top and bottom outer composite sequences are [[homotopy fiber sequences]] (and hence [[homotopy cofiber sequences]]) (by applying the [[pasting law]] to the previous two items).
+
+Together this is like two-thirds of a [[differential cohomology hexagon]], this we come back to [below](#InCohesiveHomotopyTheory).
 
 Notice that in view of remark \ref{GeometricMeaning} then $X_p^\wedge$ is like the restriction of $X$ from [[Spec(Z)]] to all [[formal disks]] around the points $(p)$, and hence $G_{S\mathbb{F}_p}$ is like the restriction to the "complement of all formal disks". Finally $X_{\mathbb{Q}}$ may be understood as the restriction to the [[Ran space]] of $Spec(\mathbb{Z})$ ([Gaitsgory 11](#Gaitsgory11)), roughly the colimit of the restriction of $X$ to the complement of finitely many points, as this set of points ranges through all points.
+
+
 
 =--
 
