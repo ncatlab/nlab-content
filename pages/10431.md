@@ -1,4 +1,4 @@
-A [[topological state of matter]] which behaves as insulator in the bulk but has conducting edge states on the surface. 
+A U(1) and time reversal symmetry protected state of matter with trivial [[topological order]], which behaves as insulator in the bulk but has conducting edge states on the surface if the time reversal symmetry is not broken on the surface. 
 
 * wikipedia [topological insulator](http://en.wikipedia.org/wiki/Topological_insulator)
 * Liang Fu, C. L. Kane, _Topological insulators with inversion symmetry_, Physical Review B 76 (4): 045302. [arXiv:cond-mat/0611341](http://arxiv.org/abs/cond-mat/0611341) [doi](http://dx.doi.org/10.1103%2FPhysRevB.76.045302); _Superconducting proximity effect and Majorana fermions at the surface of a topological insulator_, Phys. Rev. Lett. __100__: 096407, [arXiv:0707.1692](http://arxiv.org/abs/0707.1692) [doi](http://dx.doi.org/10.1103%2FPhysRevLett.100.096407)
