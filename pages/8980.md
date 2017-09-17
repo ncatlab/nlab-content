@@ -37,5 +37,7 @@ The collection of modal types forms the _closure_ of the given closure operator.
 
 * [[reflective sub-(∞,1)-category]]
 
+* [[modal type theory]]
+
 [[!redirects modal types]]
 
