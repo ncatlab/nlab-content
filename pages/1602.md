@@ -435,6 +435,10 @@ Therefore in this case the Green-Schwarz mechanism consists of
 
 The nature of the field configuration obtained this way -- spin connection with twist of th Kalb-Ramond field by the Pontryagin class -- may be understood conciesely as constituting a [[differential string structure|twisted differential string structure]] on $X$. See there for more details.
 
+## Related concepts
+
+* [[Freed-Witten anomaly]]
+
 
 ## References
 
