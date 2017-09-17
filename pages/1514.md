@@ -137,6 +137,8 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 * [[integration over infinite-dimensional manifolds]]
 
+* [[cohomological integration]], [[BV-BRST quantization]]
+
 ## References {#References}
 
 The original textbook reference is
