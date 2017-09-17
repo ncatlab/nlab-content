@@ -37,6 +37,8 @@ The concept of [[line n-bundle]] in [[complex analytic geometry]], classified by
 
 * [[algebraic line n-bundle]]
 
+* [[complex analytic ∞-stack]]
+
 ## References
 
 
