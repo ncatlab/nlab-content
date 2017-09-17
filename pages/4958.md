@@ -13,11 +13,6 @@
 
 
 
-
-
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -29,9 +24,12 @@ The analog in the context of [[(∞,1)-topos]] theory of a [[local geometric mor
 
 ## Definition
 
-A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathbf{H},\mathbf{S}$ is 
++-- {: .un_def }
+###### Definition
 
-* a [[geometric morphism]]
+A **local (∞,1)-geometric morphism** $f : \mathbf{H} \to \mathbf{S}$ between [[(∞,1)-topos]]es $\mathbf{H},\mathbf{S}$ is 
+
+* an [[(∞,1)-geometric morphism]]
 
   $$
     (f^* \dashv f_*) 
@@ -40,31 +38,162 @@ A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathb
     {\to}}  \mathbf{S}
   $$
 
-* such that a further [[right adjoint]] $f^! : \mathbf{S} \to \mathbf{H}$ exists:
+* such that 
 
-  $$
-    (f^* \dashv f_* \dashv f^!) : 
-    \mathbf{H}
-     \stackrel{\overset{f^*}{\leftarrow}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
-    \mathbf{S}
-  $$
+  1. a further [[right adjoint]] 
+     $f^! : \mathbf{S} \to \mathbf{H}$ 
+     to the [[direct image]] functor exists:
 
-* and such that some additional condition is satisfied.  See [[local geometric morphism]] for a list of equivalent conditions in the 1-categorical case; one or more of them should appear here.  (However, one may expect them to be redundant when $S=\infty Gpd$, just as they are redundant in the 1-categorical case when $S=Set$.)
+     $$
+       (f^* \dashv f_* \dashv f^!) : 
+       \mathbf{H}
+        \stackrel{\overset{f^*}{\leftarrow}}
+        {\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
+       \mathbf{S}  
+     $$
 
-If $f : \mathbf{H} \to \mathbf{S}$ is the [[global section]] geometric morphism in the category of $(\infty,1)$toposes over $\mathbf{S}$, then we say that $\mathbf{H}$ is a **local $(\infty,1)$-topos**.
+   1. and $f$ is a [[∞-connected (∞,1)-geometric morphism]].
+
+If $f : \mathbf{H} \to \mathbf{S}$ is the [[global section]] [[(∞,1)-geometric morphism]] in the [[over-(∞,1)-category]] [[Topos]]$/\mathbf{S}$, then we say that $\mathbf{H}$ is a **local $(\infty,1)$-topos** over $\mathbf{S}$.
+
+=--
+
++-- {: .un_remark }
+###### Remark
 
 
-## Properties
+If $\mathbf{S} = $ [[∞Grpd]] then the extra condition that $f$ is [[∞-connected (∞,1)-geometric morphism]] is automatic (see [Properties -- over ∞Grpd](#OverInfGrpd)).
 
-* [[concrete (∞,1)-sheaf]]
+=--
 
-
-
-
+## Properties {#Properties}
 
 
+### Over $\infty Grpd$ {#OverInfGrpd}
+
++-- {: .un_def }
+###### Definition
+
+If an [[(∞,1)-geometric morphism]] $f : \mathbf{H} \to $ [[∞Grpd]] has an extra [[right adjoint]] $f^!$ to its [[direct image]], then $\mathbf{H}$ is an [[∞-connected (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general properties of [[adjoint (∞,1)-functor]]s it is sufficient to show that $f_! f^* \\simeq Id$. To see this, we use that every [[∞-groupoid]] $S \in $ [[∞Grpd]] is the [[(∞,1)-colimit]] (as discussed there) over itself of the [[(∞,1)-functor]] constant on the point: $S \simeq {\lim_\to}_{S} *$.
+
+The [[left adjoint]] $f^*$ preserves all [[(∞,1)-colimit]]s, but if $f_*$ has a right adjoint, then it does, too, so that for all $S$ we have
+
+$$
+  f_* f^* {\lim_\to}_S  * \simeq {\lim_\to}_S f_* f^* *
+  \,.
+$$
+
+Now $f_*$, being a [[right adjoint]] preserves the [[terminal object in an (∞,1)-category|terminal object]] and so does  $f^*$ by definition of [[(∞,1)-geometric morphism]]. Therefore
+
+$$
+  \cdots \simeq {\lim_\to}_S * \simeq S
+  \,.
+$$
 
 
+=--
+
+
+
+### Concrete objects
+
+Every local $(\infty,1)$-geometric morphism induces a notion of [[concrete (∞,1)-sheaves]]. See there for more (also see [[cohesive (∞,1)-topos]]).
+
+
+
+## Examples
+
+### Local over-$(\infty,1)$-toposes
+
+
++-- {: .un_prop }
+###### Proposition
+
+Let $\mathbf{H}$ be any [[(∞,1)-topos]] (over [[∞Grpd]]) and let $X \in \mathbf{H}$ be an [[object]] that is [[small-projective]]. Then the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is local.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check that the [[global section]] [[(∞,1)-geometric morphism]] $\Gamma : \mathbf{H}/X \to $ [[∞Grpd]] preserves [[(∞,1)-colimit]]s. 
+
+The functor $\Gamma$ is given by the [[hom-functor]] out of the [[terminal object]] of $\mathcal{H}/X$, this is $(X \stackrel{Id}{\to} X)$:
+
+$$
+  \Gamma : (A \stackrel{f}{\to} X) \mapsto Hom_{\mathbf{H}/X}(Id_X, f)
+  \,.
+$$
+
+The [[derived hom-space|hom-∞-groupoid]]s in the [[over-(∞,1)-category]] are (as discussed there) [[homotopy fiber]]s of the hom-sapces in $\mathbf{H}$: we have an [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+      \mathbf{H}/X(Id_X, (A \to X)) &\to&
+       \mathbf{H}(X,A)
+      \\
+      \downarrow && \downarrow^{f_*}
+      \\
+      * &\stackrel{Id_X}{\to}& \mathbf{H}(X,X)
+  }
+  \,.
+$$
+
+Overserve that [[(∞,1)-colimit]]s in the [[over-(∞,1)-category]] $\mathbf{H}/X$ are computed in $\mathbf{H}/X$.
+
+$$
+  {\lim_{\to}}_i (A_i \stackrel{f_i}{\to} X)
+  \simeq
+  ({\lim_\to}_i A_i) \to X
+  \,.
+$$
+
+If $X$ is [[small-projective]] then by definition we have
+
+$$
+  \mathbf{H}(X, {{\lim}_\to}_i A_i)
+  \simeq
+  {\lim_\to}_i \mathbf{H}(X, A_i)
+  \,,
+$$
+
+Inserting all this into the above $(\infty,1)$-pullback gives the $(\infty,1)$-pullback
+
+$$
+  \array{
+      \mathbf{H}/X(Id_X, {\lim_\to}_i (A_i \to X)) &\to&
+       {\lim_\to}_i \mathbf{H}(X, A_i)
+      \\
+      \downarrow && \downarrow^{f_*}
+      \\
+      * &\stackrel{Id_X}{\to}& \mathbf{H}(X,X)
+  }
+  \,.
+$$
+
+By [[universal colimits]] in the [[(∞,1)-topos]] [[∞Grpd]], this [[(∞,1)-pullback]] of an  [[(∞,1)-colimit]] is the $(\infty,1)$-colimit of the separate pullbacks, so that
+
+$$
+  \Gamma({\lim_\to}_i (A_i \to X)))
+  \simeq
+  \mathbf{H}/X(Id_X, {\lim_\to}_i (A_i \to X))
+   \simeq
+  {\lim_\to}_i \mathbf{H}/X(Id_X,(A_i \to X))
+  \simeq
+  {\lim_\to}_i \Gamma(A_i \to X)
+  \,.
+$$
+
+So $\Gamma$ does commute with colimits if $X$ is [[small-projective]]. Since all [[(∞,1)-topos]]es are [[locally presentable (∞,1)-categories]] it follows by the [[adjoint (∞,1)-functor]] that $\Gamma$ has a [[right adjoint|right]] [[adjoint (∞,1)-functor]]. 
+
+=--
 
 
 ## Related concpepts
