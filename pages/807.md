@@ -21,7 +21,6 @@ The **Euler characteristic** of a [[space]] or [[∞-groupoid]] $X$ is an invari
 
 where cardinality counts elements in a set, the Euler characteristic counts [[object]]s up to [[equivalence]]s up to [[2-morphism|2-equivalence]]s up to [[3-morphism|3-equivalence]], and so on. For  that reason it has also come to be known as [[groupoid cardinality]].
 
-> there is a distinction to be made here between "homological" and "homotopical" Euler characteristic. Need to add something here...
 
 There are many different incarnations of [[space]]s and [[∞-groupoid]]s and accordingly there are many different definitions of Euler characteristics, that however agree in good cases.
 
@@ -57,6 +56,8 @@ The Euler characteristic of chain complexes is evidently invariant under the nat
 =--
 
 ### Of a topological space / of an $\infty$-groupoid
+
+#### Homological
 
 +-- {: .num_defn #EulerCharOfTopSpace}
 ###### Definition
@@ -101,6 +102,24 @@ $$
 
 =--
 
+#### Homotopical
+
+The above Euler characteristic of a topological space is the alternating _sum_ over sizes of _homology_ groups. Similar in construction is the alternating _product_ of sizes of [[homotopy group]]s. This should maybe go by the name $\infty$-[[groupoid cardinality]]. But [below](RelationBetweenDefinitions) we shall see that Euler characteristic of higher categories interpolates between this homotopical and the above homological notion. Therefore it may be justified to speak of _homtopical Euler characteristc_ .
+
++-- {: .num_defn #EulerCharOfSpaceHomotopically}
+###### Definition
+
+For $X$ a [[topological space]] / [[homotopy type]] / [[∞-groupoid]], its **homotopical Euler characteristic** or **[[∞-groupoid cardinality]]** is -- if it exists -- the [[rational number]] given by the alternating product of [[cardinality|cardinalities]] of [[homotopy group]]s
+
+$$
+  \chi_{homotop}(X) :=
+  \sum_{[x] \in \pi_0(X)}
+    \prod_{k =1}^\infty (|\pi_k(X,x)|)^{(-1)^k}
+  \,.
+$$
+
+=--
+
 ### Of posets, groupoids and categories
 
 The process of sending a [[category]] $C$ to its 
@@ -109,6 +128,8 @@ The process of sending a [[category]] $C$ to its
 Up to the relevant notion of [[equivalence in an (infinity,1)-category]] (which is [[weak homotopy equivalence]]), _every_ [[∞-groupoid]] arises as the [[nerve]]/[[geometric realization of categories|geometric realization]] of a category. In fact one can assume the category to be a [[poset]]. (This follows from the existence of the [[Thomason model structure]], as discussed in more detail there.)
 
 Since the combinatorial data in a [[category]] and all the more in a [[poset]] $C$ is much smaller than in that of its [[Kan fibrant replacement]] $\vert C \vert$, it is of interest to ask if one can read off the Euler characteristic $\chi(\vert C \vert)$ already from $C$ itself. This is indeed the case:
+
+#### Of locally small categories
 
 +-- {: .num_defn #EulerCharOfCat}
 ###### Definition
@@ -148,6 +169,10 @@ The definition of Euler characteristic of [[poset]]s  appears for instance in ([
 Notice that this $\chi(C)$ is in general not an [[integer]], but a [[rational number]]. However in sufficiently well-behaved cases, discussed [below](RelationBetweenDefinitions), $\chi(C)$ coincides with the topological Euler characteristic $\chi(\vert C \vert)$ of its [[geometric realization of categories|geometric realization]]. Since that is integral, in these cases also $\chi(C)$ is.
 
 =--
+
+#### Of enriched and higher categories
+
+(...)
 
 ### Of an object in a symmetric monoidal category
 
@@ -204,8 +229,21 @@ $$
  
 =--
 
-For posets this is due to Philipp Hall, appearing as ([Stanley, prop. 3.8.5]) ([Leinster, cor. 1.5, prop. 2.11](#Leinster)).
+For posets this is due to Philipp Hall, appearing as ([Stanley, prop. 3.8.5]). For finite categories this is  ([Leinster, cor. 1.5, prop. 2.11](#Leinster)).
 
++-- {: .num_prop }
+###### Proposition
+
+For $C$ a finite [[groupoid]], its Euler characteristic as a category, def. \ref{EulerCharOfCat}, coincides with its homotopical Euler characteristic, def. \ref{EulerCharOfSpaceHomotopically} or [[groupoid cardinality]]
+
+$$
+  \chi(C) = \chi_{homotop}(C)
+  \,.
+$$
+
+=--
+
+This is noted in ([Leinster, example 2.7](#Leinster)).
 
 +-- {: .num_prop }
 ###### Proposition
@@ -226,6 +264,9 @@ This is due to ... (?)
 [[Mike Shulman|Mike]]: Can the Euler characteristic of a category be recovered as the trace for a dualizable object in some symmetric monoidal category?
 =---
 
+### Gauss-Bonnet theorem
+
+For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic may also be given by [[integration]] of [[infinitesimal object|infinitesimal]] data: this is the statement of the higher dimensional [[Gauss-Bonnet theorem]].
 
 ## References
 
