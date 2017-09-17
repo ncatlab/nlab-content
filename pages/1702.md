@@ -98,11 +98,11 @@ One can form the *classifying stack*, $B\mathcal{A}$ from the important example 
 
 ##Differential geometry
 
-$H^3(X,Z)$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
+$H^3(X,\mathbb{Z})$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
 
-For the purposes of this subsection, we assume the base $X$ to be a smooth manifold. A *Dixmier-Douady sheaf of groupoids* over $X$ is an $C_X^*$-gerbe on $X$ where $C_X^*$ is the sheaf of smooth $C^*$-valued functions.
+For the purposes of this subsection, we assume the base $X$ to be a smooth manifold. A *Dixmier-Douady sheaf of groupoids* over $X$ is an $\mathbb{C}_X^*$-gerbe on $X$ where $\mathbb{C}_X^*$ is the sheaf of smooth $\mathbb{C}^*$-valued functions.
 
-We have a canonical isomorphism between the group of equivalence classes of Dixmier-Douady sheaves of groupoids over $X$ and $H^2(X, C_X^*)\stackrel{\sim}{\to} H^3(X, Z(1))$.
+We have a canonical isomorphism between the group of equivalence classes of Dixmier-Douady sheaves of groupoids over $X$ and $H^2(X, \mathbb{C}_X^*)\stackrel{\sim}{\to} H^3(X, \mathbb{Z}(1))$.
 
 +--{: .query}
 _Daniel_:Please, would someone mind explain this with detail? I am interested in understand quantization and somehow, this thing comes up all the time...
