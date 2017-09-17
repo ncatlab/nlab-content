@@ -88,6 +88,8 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 
 * [[Planck Collaboration]], _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
 
+  * Resonaances, _[Planck about inflation](http://resonaances.blogspot.de/2013/04/planck-about-inflation.html)_
+
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
 
