@@ -95,7 +95,7 @@ $$
   S^1 \to Aut(V)
 $$
 
-of the [[circle group]] is called **positive** if $\exp(i \theta)$ acts by $\exp(i A \theta)$ where $A \in End(V)$ is an [[operator]] with positive [[spectrum of an operator|spectrum]].
+of the [[circle group]] is called **positive** if $\exp(i \theta)$ acts by $\exp(i A \theta)$ where $A \in End(V)$ is a [[linear operator]] with positive [[spectrum of an operator|spectrum]].
 
 A linear [[representation]] 
 
