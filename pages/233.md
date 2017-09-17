@@ -464,6 +464,7 @@ from the [[stable (∞,1)-category]] of $A$-modules to the [[stabilization]] of 
 ## Related concepts
 
 ### Modules over higher and generalized algebras
+ {#OverHigherAndGeneralizedAlgebras}
 
 There is a notion of [[algebra over an operad]]. The corresponding notion of modules is described at [[module over an algebra over an operad]].
 
