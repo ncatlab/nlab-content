@@ -217,7 +217,7 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
 =--
 
-## Special cases
+## Particular classical systems
 
 * [[Hamiltonian dynamics on Lie groups]]
 
@@ -227,24 +227,17 @@ Conversely, given a quantum mechanical system $(A, \ast)$ and a field of star-al
 
 * [[mechanics]]
 
+* [[semiclassical approximation]]
 
-* **classical mechanics**
+* [[quantization]]: [[deformation quantization]], [[geometric quantization]]
 
-  * [[semiclassical approximation]]
+* [[quantum mechanics]], [[supersymmetric quantum mechanics]]
 
-* [[quantization]]
-
-  * [[deformation quantization]], [[geometric quantization]]
-
-* [[quantum mechanics]]
-
-  * [[supersymmetric quantum mechanics]]
-
-* [[quantum field theory]]
-
-  * [[FQFT]], [[AQFT]]
+* [[quantum field theory]]: [[FQFT]], [[AQFT]]
 
 ## References
+
+* $n$Lab: [[generating function in classical mechanics]], [[symplectic manifold]], [[contact manifold]], [[Poisson manifold]]
 
 Classical textbooks include
 
@@ -253,7 +246,6 @@ Classical textbooks include
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
 
 * Lev Landau, Lifschitz, _Classical mechanics_, vol. I of the [[Landau-Lifschitz|Course of theoretical physics]]
-
 
 Discussion with an eye also towards [[quantum mechanics]] is in
 
