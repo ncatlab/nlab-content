@@ -12,7 +12,7 @@ Operator algebras play major roles in [[functional analysis]], [[representation 
 ## Topics of interest for the understanding of AQFT
 This paragraph will collect some facts of interest for the aspects of [[AQFT]] in the nLab.
 
-###States
+###States {#statesOfOperatorAlgebras}
 The Heisenberg picture is sometimes formalized by describing the observables of a quantum system by an operator algebra, and the state of the system as a state of the algebra. The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited it's name from the physical concept.
 
 * Definition: A linear functional is **positive** if $A \ge 0$, that is A is a positive operator resp. is an element of the positive cone, implies that  $\rho(A) \ge 0$.
@@ -31,21 +31,27 @@ A **normal state** $\rho$ is a state that satisfies one of the following equival
 
 * There is an operator A of trace class of $\mathcal{H}$ with tr(A) = 1 such that $\rho(\pi(R)) = tr(A \pi(R))$ for all $R \in \mathcal{R}$.
 
-The last one is most frequently used by physicists.
+The last one is most frequently used by physicists, in that context the operator $A$ is also called a density matrix.
 
 Sometimes the observables of a system are described by an abstract operator algebra, in this case an important notion is the folium:
 
 * Definition: The **folium** of a representation $\pi$ of an operator algebra $\mathcal{R}$ on a Hilbert space is the set of normal states of $\pi(\mathcal{R})$.
 
-* Definition: A state $\rho$ of a representation is called a **vector state** if there is a $x \in \mathcal{H}$ such that $\rho(\pi(R)) = \langle \pi(R)x, x \Rangle$ for all $R \in \mathcal{R}$.
+* Definition: A state $\rho$ of a representation is called a **vector state** if there is a $x \in \mathcal{H}$ such that $\rho(\pi(R)) = \langle \pi(R)x, x \rangle$ for all $R \in \mathcal{R}$.
+
+* Theorem: Normal states are vector states if $\mathcal{R}$ is a von Neumann algebra with a seperating vector. More precisely: Let $\mathcal{R}$ be a von Neumman algebra acting on a Hilbert space $\mathcal{H}$, let $\rho$ be a normal state of $\mathcal{R}$ and $x \in \mathcal{H}$ be a separating vector for $\mathcal{R}$, then there is a $y \in \mathcal{H}$ such that $\rho(R) = \langle Ry, y \rangle$ for all $R \in \mathcal{R}$.
+
+Reference: This is theorem 7.2.3 in the book of Kadison and Ringrose, see references.
 
 The set of states of an operator algebra is sometimes called the **state space**.
 
 The state space is convex and weak$^*$-compact, so it has extreme points. By the [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem) it is the weak$^*$-closure of it's extreme points.
 
-* Definition: A **pure state** is a state that is an extreme point of the state space in the weak$^*$-topology.
+* Definition: A **pure state** is a state that is an extreme point of the state space.
 
 The term "pure" originates from the notion of [[entanglement]], being an extreme point a pure state is not the sum of two other states.
+
+
 
 ## References
 
