@@ -65,7 +65,9 @@ Given a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}^\otimes$, then for 
 
 > under construction
 
-An old notion of _defects_ in field theory -- well preceeding the [above](#DefinitionGeneral) general notion in the context of [[FQFT]] -- is that of [[cosmic string]]-type defects that may appear in [[gauge theory]] in the presnce of [[spontaneously broken symmetry]] (a comprehensive review in in ([Vilenkin-Shellard 94](#VilenkinShellard94)). Steps towards conceptually systematizing these broken-symmetry defects and their interaction are made in [Preskill-Vilenkin 92](#PreskillVilenkin92). We now show this may be translated to the general [[FQFT]] definition [above](#DefinitionGeneral) along the lines of ([Fiorenza-Valentino](#FiorenzaValentino), [FSS](#FSS)).
+An old notion of _defects_ in field theory -- well preceeding the [above](#DefinitionGeneral) general notion in the context of [[FQFT]] -- is that of **[[topological defects]] in the [[vacuum]] structure of [[gauge theories]] that exhibit [[spontaneous symmetry breaking]] (such as a [[Higgs mechanism]]).
+
+A comprehensive review in in ([Vilenkin-Shellard 94](#VilenkinShellard94). Steps towards conceptually systematizing these broken-symmetry defects and their interaction are made in [Preskill-Vilenkin 92](#PreskillVilenkin92). We now discuss this may be translated to and formalized in the general [[FQFT]] definition [above](#DefinitionGeneral) along the lines of ([Fiorenza-Valentino](#FiorenzaValentino), [FSS](#FSS)).
 
 Let $G$ be a [[Lie group]], to be thought of as the (local or global) [[gauge group]] of some [[gauge theory]]. Let $H \hookrightarrow G$ a [[subgroup]], to be thought of as the subgroup of global symmetries preserved by some [[vacuum]] configuration (which "[[spontaneous symmetry breaking|spontaneously breaks]]" the symmetry from $G$ to $H$, the archetypical example is the [[Higgs mechanism]]). 
 
@@ -325,7 +327,7 @@ Defects in [[higher dimensional Chern-Simons theory]] on [[manifolds with corner
 #### Topological defects in gauge theories with broken symmetry
  {#TopologicalDefectsInGaugeTheories}
 
-The following references discuss the traditional notion of defects in gauge theory such as [[cosmic strings]].
+The following references discuss the traditional notion of _[[topological defects]] in the [[vacuum]] structure of gauge theory with [[spontaneous symmetry breaking]]_ such as [[domain walls]], [[cosmic strings]] and [[monopoles]].
 
 Discussion of "topological defects in [[gauge theory]]" in higher codimension is in
 
