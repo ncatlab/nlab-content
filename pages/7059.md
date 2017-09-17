@@ -118,7 +118,7 @@ _[[path groupoid|geometric paths]]_ in the interval, such that
 any two of its points are connected by such a path, after all.
 In other words, one can form the smooth [[fundamental ∞-groupoid]]
 $\Pi(I)$ of the interval and regard _that_ as a [[homotopy type]]
-_without_ further geometric structure (a [[discrete ∞-groupoid]]).
+_without_ further geometric structure (a [[discrete ∞-groupoid]]). This $\Pi(I)$ is an _[[interval type]]_, while $I$ itself is not.
 
 As such, the canonical map $\Pi(I) \to *$ is an [[equivalence]]
 after all, namely a [[weak homotopy equivalence]]. Therefore,
