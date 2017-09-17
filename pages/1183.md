@@ -207,6 +207,79 @@ We interpret this data as follows:
 ### Quantization
  {#ExpositionQuantization}
 
+We assume now that $\mathcal{C}$ has [[colimit]]s and in fact [[biproduct|bilimits]].
+
+Then for every [[functor]] $\phi : K \to \mathcal{C}$ the [[colimit]] 
+
+$$
+  \int^{K} \phi \in \mathcal{C}
+$$
+
+exists, and this construction extends to a [[functor]]
+
+$$
+  \int : Span(Grpd, \mathcal{C}) \to \mathcal{C}
+  \,.
+$$
+
+We call this the _[[path integral]]_ functor.
+
+For
+
+$$
+  \exp(i S(-)) : Bord_n^S \to Span(Grpd, \mathcal{C})
+$$
+
+a [classical field theory](#ExpositionClassicalFieldTheory), we get this way a [quantum field theory](#ExpositionQuantumFieldTheory) by forming the composite functor
+
+$$
+  Z 
+    := 
+  \int \circ \exp(i S(-)) 
+   : 
+  Bord_n^S 
+    \stackrel{\exp(i S(-))}{\to}
+  Span(Grpd, \mathcal{C})
+    \stackrel{\int}{\to}
+  \mathcal{C}
+  \,.
+$$
+
+This $Z$ we call the _[[quantization]]_ of $\exp(i S(-))$.
+
+It acts
+
+* on [[object]]s by sending
+
+  $$
+    \begin{aligned}
+      \Sigma_{in} & \mapsto (V_{\Sigma_{in}} : Conf_{\Sigma_{in}} \to \mathcal{C}) 
+      \\
+      & \mapsto \mathcal{H}_{\Sigma_{in}} := \int^K V_{\Sigma_{in}}
+    \end{aligned}
+  $$
+
+  the vector bundle on the [[configuration space]] over some boundary $\Sigma_{in}$ of [[worldvolume]] to its space $\mathcal{H}_{\Sigma_{in}}$ of [[gauge transformation|gauge invariant]] [[section]]s. In typical situations this $\mathcal{H}_{\Sigma_{in}}$ is the famous [[Hilbert space]] of [[state]]s in [[quantum mechanics]], only that here it is allowed to be any object in $\mathcal{C}$;
+
+* on [[morphism]]s by sending a [[natural transformation]]
+
+  $$
+    \begin{aligned}   
+      \hat \Sigma & \mapsto 
+       (\exp(i S(-))_{\hat \Sigma} : \gamma \mapsto 
+       V_{\gamma|_{in}} \to V_{\gamma|_{out}})
+       \\   
+       & \mapsto
+       (\int^K \exp(i S(-))_{\hat \Sigma} 
+        : 
+        \mathcal{H}_{\Sigma_1} \to \mathcal{H}_{\Sigma_2}
+       )
+    \end{aligned}
+  $$
+
+  to the [[integral transform]] that it defines, weighted by the [[groupoid cardinality]] of $Conf_{\hat \Sigma}$ : the _[[path integral]]_ .
+
+
 ### Classical $\sigma$-models
  {#ExpositionClassicalSigmaModels}
 
