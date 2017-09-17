@@ -9,6 +9,39 @@ An _archimedean field_ is an [[order|ordered]] [[field]] in which every element 
 
 So an archimedan field has no infinite elements (and thus no non-zero [[infinitesimal object|infinitesimal]] elements).
 
+
+## Properties
+
+### Complete fields
+
+Any [[field]] $k$ equipped with an [[absolute value]] ${\vert -\vert}$ which is a [[complete field]] with respect to the corresponding [[metric]] is archimedean of ${\vert -\vert}$ is archimedean as an [[absolute value]], in which case it is either the [[real numbers]] or the [[complex numbers]], or the absolute value is non-archimedean and then so is the field.
+
+
+## Non-archimedean field
+
+For $k$ a non-archimedean field for some non-archimedean [[absolute value]] ${\vert -\vert}$ one defines
+
+* its **ring of integers** to be 
+
+  $$
+    k^\circ := \{x \in k \,|\, {\vert x\vert} \leq 1\}
+    \,.
+  $$
+
+This is a [[local ring]] with maximal ideal
+
+$$
+  k^{\circ\circ} := \{x \in k \,|\, {\vert x\vert} \lt 1\}
+  \,.
+$$
+
+* The **residue field** of $k$ is the [[quotient]]
+
+  $$
+    \tilde k := k^\circ / k^{\circ \circ}
+    \,.
+  $$
+
 ## Examples
 
 Archimean fields include
