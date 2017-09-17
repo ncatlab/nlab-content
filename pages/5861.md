@@ -484,6 +484,20 @@ $$
   \,.
 $$
 
+We say that
+
+* $Red$ is the **[[reduction modality]]**.
+
+* $\mathbf{\Pi}_{inf}$ is the **[[infinitesimal shape modality]]**.
+
+* $\flat_{inf}$ is the **[[infinitesimal flat modality]]**.
+
+An object in the full sub-$\infty$-category
+
+* of $Red$ we call a **[[reduced object]]**
+
+* of $\mathbf{\Pi}_{inf}$ we call a **[[coreduced object]]**.
+
 For $X\in \mathbf{H}_{th}$ we say that
 
 * $\mathbf{\Pi}_{inf}(X)$ is the **[[infinitesimal path ∞-groupoid]]** 
@@ -1562,7 +1576,12 @@ $$
 
 ## Related concepts
 
+* [[cohesion]], [[differential cohesion]]
+
 * [[differential homotopy type theory]]
+
+[[!include cohesion - table]]
+
 
 ## References
 
