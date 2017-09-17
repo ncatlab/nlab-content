@@ -167,7 +167,7 @@ We discuss properties of group extensions in stages,
 
 * [Abelian group extensions](#PropertiesAbelianGroupExtensions)
 
-* [Schreiber theory for nonabelian extensions](#SchreierTheory)
+* [Schreier theory for nonabelian extensions](#SchreierTheory)
 
 
 ### General 
