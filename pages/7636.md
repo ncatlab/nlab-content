@@ -316,7 +316,7 @@ Given a [[locally cartesian closed category]] $C$, define the corresponding [[de
 ### Homotopy type theory and locally cartesian closed $(\infty,1)$-categories
  {#HomotopyTypeTheory}
 
-All this has a higher analog in [[(∞,1)-category theory]] and [[homotopy type theory]].
+All this has a higher analog in [[(∞,1)-category theory]] and [[homotopy type theory]]
 
 +-- {: .num_prop }
 ###### Proposition
@@ -327,7 +327,7 @@ This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which shou
 
 =--
 
-For more on this see at _[locally cartesian closed (∞,1)-category](locally+cartesian+closed+%28infinity%2C1%29-category#InternalLogic)_.
+Some form of this statement was originally conjectured in ([Joyal 11](Joyal11)). For more details see at _[locally cartesian closed (∞,1)-category](locally+cartesian+closed+%28infinity%2C1%29-category#InternalLogic)_.
 
 
 
@@ -421,7 +421,9 @@ with lecture notes in
 
 * [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
 
-* [[André Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://ncatlab.org/homotopytypetheory/files/Joyal.pdf))
+* {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
+
+* {#Joyal14} [[André Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://ncatlab.org/homotopytypetheory/files/Joyal.pdf))
 
 A precise definition of [[elementary (infinity,1)-topos]] inspired by giving a natural equivalence to [[homotopy type theory]] with [[univalence]] was then proposed in 
 
