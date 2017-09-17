@@ -1,4 +1,19 @@
+[[!redirects (2,1)-sheafififcation]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -13,4 +28,14 @@ $$
 
 The [[left adjoint]] $L$ to the inclusion of [[stack]]s into all [[2-functor]]s on $C^{op}$ is _stackification_ .
 
-See also [[∞-stackification]].
+
+
+## Related concepts
+
+* [[sheafification]]
+
+* **$(2,1)$-sheafification**
+
+* [[(∞,1)-sheafification]]
+
+[[!redirects stackification]]
