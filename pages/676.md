@@ -31,8 +31,6 @@
 
     * [[general relativity]]
 
-    * [[closed time-like curves]]
-
 * **[[quantization|Quantization]]**
 
   * [[geometric quantization]]
@@ -44,29 +42,33 @@
   * [[semiclassical approximation]]
 
 * **[[quantum mechanics|Quantum Mechanics]]**
-
-  * Formalism
   
-    * [[Hamiltonian operator]]
+  * [[Hamiltonian operator]]
 
-    * [[density matrix]]
+  * [[density matrix]]
 
-    * [[quantum operations and channels]]
+  * [[quantum information]]
 
-      * [[extremal quantum channel|extremal quantum channels]]
-
-      * [[graphical quantum channel|graphical quantum channels]]
-
-    * [[quantum information]]
-
-    * [[open quantum systems]]
+  * [[open quantum systems]]
 
 * **[[quantum field theory|Quantum Field Theory]]**
 
   * Axiomatizations
 
     * [[AQFT|algebraic QFT]]
+
+      * [[operator algebra]]
+
+      * [[local net]]
+
+      * [[Osterwalder-Schrader theorem]]
+
+
     * [[FQFT|functorial QFT]]
+
+      * [[(∞,n)-category of cobordisms]]
+
+      * [[cobordism hypothesis]]
 
   * Tools
 
@@ -78,6 +80,7 @@
 
   * Models
 
+    * [[standard model of particle physics]]
     * [[GUT|Grand Unified Theories]]
     * [[integrable systems]]
 
@@ -102,13 +105,19 @@
      * [[gauge fixing]]
      * examples
        * [[electromagnetic field]]
+       * [[Yang-Mills field]]
        * [[Kalb-Ramond field]]
        * [[supergravity C-field]]
        * [[RR field]]
        * [[D'Auria-Fre formulation of supergravity]]
        * [[gravity as a BF-theory]]
+   * [[Yang-Mills theory]]
+
+     * [[spinors in Yang-Mills theory]]
+
    * [[holonomic quantum fields]]
    * [[sigma-model]]
+
 
 * [[string theory|String Theory]]
 
