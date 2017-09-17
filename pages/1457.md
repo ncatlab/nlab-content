@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -129,6 +128,10 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 [[!redirects quasimetrics]]
 [[!redirects quasimetric space]]
 [[!redirects quasimetric spaces]]
+[[!redirects quasipseudometric]]
+[[!redirects quasipseudometrics]]
+[[!redirects quasipseudometric space]]
+[[!redirects quasipseudometric spaces]]
 [[!redirects ultrametric]]
 [[!redirects ultrametrics]]
 [[!redirects ultrametric space]]
