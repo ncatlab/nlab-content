@@ -143,6 +143,7 @@ From this description one sees that $\mathcal{L}X$ is built from _pairs of paths
 
 
 ### Relation to based loop space object
+ {#RelationToBasedLoops}
 
 The fiber of $\mathcal{L}X$ over a [[point]] $x : {*} \to X$ is the corresponding (based) [[loop space object]] $\Omega_x X$ of $X$: we have an $(\infty,1)$-[[pullback]] diagram
 
