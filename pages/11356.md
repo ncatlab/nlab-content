@@ -1,0 +1,12 @@
+
+* webpage?
+
+## related $n$Lab entries
+
+* [[chiral de Rham complex]]
+
+* [[sheaf of vertex operator algebras]]
+
+* [[2d (2,0)-superconformal QFT]]
+
+category: people
