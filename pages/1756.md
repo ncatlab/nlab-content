@@ -39,6 +39,12 @@ of [[adjoint functors]] (with $L$ [[left adjoint]]) is a **Quillen adjunction** 
 
 * $R$ preserves trivial cofibrations and $G$ preserves trivial fibrations.
 
+Quillen adjunctions that are analogous to an [[equivalence of categories]] are called [[Quillen equivalences]].
+
+In an [[enriched model category]] one speaks of [[enriched Quillen adjunction]].
+
+
+
 ## Properties
 
 ### General
@@ -107,31 +113,6 @@ This is proposition 5.2.4.6 in [[Higher Topos Theory|HTT]].
 
 The following proposition states conditions undeer which a Quillen adjunction may be detected already from knowing of the right adjoint only that it preserves fibrant objects (instead of all fibrations).
 
-+-- {: .un_prop}
-###### Proposition
-
-The underlying [[adjunction]] of an [[SSet]]-[[enriched category theory|enriched]]-[[adjunction]] 
-
-$$
-  (L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
-  D
-$$
-
-between [[simplicial model categories]] $C$ and $D$, where $D$ is a [[left proper model category]] is a Quillen adjunction precisely if
-
-* $R$ preserves fibrant objects
-
-* $L$ preserves cofibrations.
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is proposition A.3.7.2 in [[Higher Topos Theory|HTT]].
-
-=--
 
 +-- {: .un_prop}
 ###### Proposition
@@ -148,12 +129,9 @@ is a Quillen adjunction already if $L$ preserves cofibrations and $R$ just fibra
 
 This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
 
+See [[simplicial Quillen adjunction]] for more details.
 
-## Remarks
 
-* Quillen adjunctions that are analogous to an [[equivalence of categories]] are called [[Quillen equivalences]].
-
-* In an [[enriched model category]] one speaks of [[enriched Quillen adjunction]].
 
 
 [[!redirects Quillen adjunctions]]
