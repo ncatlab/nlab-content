@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of  _relation_ is the extension of the notion of  _[[predicate]]_.  That is, if you have a statement whose [[truth value]] may depend on some [[variables]], then you get a relation that consists of those instantiations of the variables that make the statement [[true]].  Equivalently, you can think of a relation as a [[function]] whose [[target]] is the set of truth values.
+A _relation_ is the extension of a _[[predicate]]_.  That is, if you have a statement whose [[truth value]] may depend on some [[variables]], then you get a relation that consists of those instantiations of the variables that make the statement [[true]].  Equivalently, you can think of a relation as a [[function]] whose [[target]] is the set of truth values.
 
 
 ## Definitions
