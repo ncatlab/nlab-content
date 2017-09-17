@@ -53,6 +53,15 @@ $$
 
 * A more abstract way to state the Hadamard lemma (and a bit more) is to say that [[generalized smooth algebra|smooth function rings]] form a [[Fermat theory]]. As such the Hadamard lemma is a crucial ingredient for [[Models for Smooth Infinitesimal Analysis|well-adapted models]] of [[synthetic differential geometry]].
 
+## Related theorems
+
+* [[Borel's theorem]]
+
+* the [[Tietze extension theorem]]
+
+* the [[Steenrod-Wockel approximation theorem]]
+
+
 ## References
 
 The Hadamard lemma is what makes the standard _convenient models_ for [[synthetic differential geometry]] tick. Its role in this respect can be seen from proposition 1.2 on in 
