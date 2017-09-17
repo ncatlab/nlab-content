@@ -8,6 +8,7 @@ In the affine case, one can take $X=Spec\,R$ and $Y=Spec\,R/I$ where $I=\Gamma_X
 
 See also [[open subscheme]]. 
 
+category: algebraic geometry
 [[!redirects closed immersion of schemes]]
 [[!redirects closed subschemes]]
 
