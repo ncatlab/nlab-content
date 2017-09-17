@@ -32,6 +32,36 @@ For $C$ a [[symmetric monoidal (infinity,n)-category|symmetric monoidal (infinit
 
 This is ([Lurie, def. 4.2.6](#Lurie)). 
 
+## Examples
+
+### Calabi-Yau algebras
+ {#CYAlgebra}
+
++-- {: .num_example }
+###### Example
+
+Let $\mathbf{S}$ be a [good]() [[symmetric monoidal (∞,1)-category]]. Write $Alg(\mathbf{S})$ for the [[symmetric monoidal (∞,n)-category|symmetric monoidal (∞,2)-category]] whose [[object]]s are [[algebra in an (∞,1)-category|algebra objects]] in $\mathbf{S}$ and whose [[morphism]]s are [[bimodule]] objects. 
+
+Then a Calabi-Yau object in $Alg(\mathbf{S})$ is an algebra object $A$ equipped with an $SO(2)$-equivariant morphism
+
+$$
+  tr : \int_{S^1} A \to 1
+$$ 
+
+satisfying the condition that the composite morphism
+
+$$
+  A \otimes A \simeq \int_{S^0} A \to \int_{S^1} A \stackrel{tr}{\to} 1
+$$
+
+exhibits $A$ as its own dual $A^\vee$.
+
+Such an algebra object is called a [[Calabi-Yau algebra]] object.
+
+=--
+
+This is ([Lurie, example 4.2.8](#Lurie)).
+
 ## Properties
 
 A version of the [[cobordism hypothesis]] says that symmetric monoidal $(\infty,2)$-functors 
