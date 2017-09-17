@@ -6,8 +6,15 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
+=--
+
+
+
 
 # Equivalences in type theory
 * table of contents
@@ -27,11 +34,19 @@ We work in [[intensional type theory|intensional]] [[type theory]] with [[depend
 +-- {: .num_defn}
 ###### Definition
 
-For $f\colon A\to B$ a [[term]] of [[function type]]; we define new types as follows:
+For $f\colon A\to B$ a [[term]] of [[function type]]; we define new [[dependent types]] as follows:
 
-$$b\colon B \vdash hfiber(f,b) \coloneqq \sum_{a\colon A} (f(a) = b)$$
+the [[homotopy fiber]]
 
-$$isEquiv(f) \coloneqq \prod_{b\colon B} isContr(hfiber(f,b))$$
+$$
+  f \colon A \to B, b\colon B \vdash hfiber(f,b) \coloneqq \sum_{a\colon A} (f(a) = b)
+$$
+
+and 
+
+$$
+  f \colon A \to B \vdash isEquiv(f) \coloneqq \prod_{b\colon B} isContr(hfiber(f,b))
+$$
 
 We say $f$ is an **equivalence** if $isEquiv(f)$ is an [[inhabited type]].
 
@@ -39,9 +54,25 @@ We say $f$ is an **equivalence** if $isEquiv(f)$ is an [[inhabited type]].
 
 That is, a function is an equivalence if all of its [[homotopy fibers]] are [[contractible types]] (in a way which depends continuously on the base point).
 
-### Variations
++-- {: .num_defn}
+###### Definition
 
-Three variations are, informally:
+For $X, Y : Type$ two [[types]], the **type of equivalences** from $X$ to $Y$ is the [[dependent sum]]
+
+$$
+  Equiv(X,Y)
+  =
+  (X \stackrel{\simeq}{\to}Y)
+  \coloneqq
+  \sum_{f : (X \to Y)}
+  isEquiv(f)
+  \,.
+$$
+
+=--
+
+
+Three variations of this definition are, informally:
 
 * $f\colon A\to B$ is an equivalence if there is a map $g\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(g(b)) = b)$ (a **[[homotopy equivalence]]**)
 
@@ -104,7 +135,7 @@ $$
 $$
 
 
-precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  (See for instance ([Shulman, page 49](#www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf#page=49)) for more details.)
+precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  (See for instance ([Shulman, page 49](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf#page=49)) for more details.)
 
 
 But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equivalence --- and hence a homotopy equivalence, since it is a map between fibrant-cofibrant objects.
@@ -126,7 +157,7 @@ An introduction to equivalence in homotopy type theory is in
 
 * [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
 
-and basic ideas are also indicated around [slide 49](www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf#page=49) of 
+and basic ideas are also indicated from [slide 60 of part 2](www.math.ucsd.edu/~mshulman/hottminicourse2012/02hott.pdf#page=60) [slide 49 of part 3](www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf#page=49) of 
 
 * [[Mike Shulman]], _Categorical models of homotopy type theory_ (2012) ([pdf](www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf))
  {#Shulman}
