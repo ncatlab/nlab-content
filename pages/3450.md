@@ -76,6 +76,9 @@ For details see [[groupoid object in an (∞,1)-category]].
 
   * [[augmented ∞-group]]
 
+  * [[∞-group completion]]
+
+
 [[!include k-monoidal table]]
 
 ## References
