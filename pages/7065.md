@@ -128,7 +128,7 @@ An interpreted term of $isContr(A)$ induces a [[contraction]] [[right homotopy]]
 
 $$
   \array{
-    A \times A &\stackrel{\eta}{\to}& A^I
+    A &\stackrel{\eta}{\to}& A^I
     \\
     & {}_{\mathllap{(id, pt_a)}}\searrow & \downarrow
     \\
@@ -181,7 +181,7 @@ in $\mathcal{C}$, which represents an element in the [[hom set]] $\mathcal{C}_{/
 
 $$
   \array{
-    A \times A && \stackrel{\eta}{\to} &  & A^I  
+    A \times A && \stackrel{\tilde \eta}{\to} &  & A^I  
     \\
     &\searrow& & & \downarrow
     \\
@@ -194,7 +194,7 @@ $$
   \,.
 $$
 
-This is the [[contraction]] right [[homotopy]] in question.
+Then $A \stackrel{\Delta}{\to} A \times A \stackrel{\tilde \eta}{\to}A^I$ is the [[contraction]] right [[homotopy]] in question.
 
 Conversely, starting with a contraction $\eta$ as above, its [[adjunct]] is a morphism $\mathcal{C}_{/A}(pt_a, \prod_{p_2} A^I)$ and precomposing with $a : * \to A$ this gives a term of $[isContr(A)]$.
 
