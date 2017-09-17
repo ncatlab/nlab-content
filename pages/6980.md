@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -9,6 +26,13 @@
 
 In [[type theory]] a [[proposition]] is identitfied with the [[type]] of all its proofs ("[[propositions as types]]".) Here a proof consists of exhibiting a [[term]] of the corresponding type (showing that it is [[inhabited]]). See also _[[proofs as programs]]_.
 
+
+## References
+
+
+* [[Thomas Hale]], _Formal proof_ ([pdf](http://www.ams.org/notices/200811/tx081101370p.pdf))
+
+* John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
 
 
 [[!redirects proofs]]
