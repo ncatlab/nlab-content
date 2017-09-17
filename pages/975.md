@@ -17,7 +17,7 @@
 
 This entry provides a keyword list on concepts related to **categories and sheaves** following the book
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2000)
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 #Summary#
 
