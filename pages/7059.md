@@ -35,7 +35,7 @@ One way to arrive at cohesive homotopy type theory is to start with the external
 
 We discuss the formulation in [[homotopy type theory]] of the [internal axioms](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos#InternalDefinition) on a [[cohesive (∞,1)-topos]].
 
-Cohesive homotopy type theory is a [[modal type theory]] which ads to [[homotopy type theory]] an [[adjoint triple]] of [[modalities]]
+Cohesive homotopy type theory is a [[modal type theory]] which adds to [[homotopy type theory]] an [[adjoint triple]] of [[modalities]]
 
 $$
   &#643; \dashv \flat \dashv \sharp
