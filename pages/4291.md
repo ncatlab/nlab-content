@@ -25,7 +25,7 @@ Let $\mathcal{A}$ be an [[abelian category]].
 
 A [[short exact sequence]] $0\to A \stackrel{i}{\to} B \stackrel{p}{\to} C\to 0$ in $\mathcal{A}$  is called **split** if either of the following equivalent conditions hold
 
-1. There exists a [[section]] of $p$, hence a morphism $s \colon B\to C$ such that $p \circ s = id_C$.
+1. There exists a [[section]] of $p$, hence a morphism $s \colon C\to B$ such that $p \circ s = id_C$.
 
 1. There exists a [[retract]] of $i$, hence a morphism $r \colon B\to A$ such that $r \circ i = id_A$.
 
