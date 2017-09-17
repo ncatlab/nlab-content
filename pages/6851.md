@@ -1,0 +1,13 @@
+
+
+* [Stanford Encyclopedia of Philosophy](http://plato.stanford.edu/)
+
+
+
+## Related entries 
+
+* [[mathematics resources]]
+
+* [[physics resources]]
+
+* **philosophy resources**
