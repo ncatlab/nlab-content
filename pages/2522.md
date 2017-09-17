@@ -110,6 +110,14 @@ Moreover, since various observables in supersymmetric QFTs are easier to compute
 
 Therefore, if nothing else, supersymmetric quantum field theories constitute a part of the whole space of quantum field theories which is useful for understanding general properties of that space. What is however still missing is any experimental evidence that the world is fundamentally described by a supersymmetric quantum field theory.
 
+## Properties
+
+### Superymmetry multiplets and BPS states
+
+* [[supermultiplet]]
+
+* [[BPS state]]
+
 ## Examples
 
 * [[supergravity]]
@@ -143,6 +151,8 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 * [[supergeometry]]
 
 * [[unitary representation of the super Poincaré group]]
+
+* [[extended supersymmetry]]
 
 * [[supersymmetry and Calabi-Yau manifolds]]
 
