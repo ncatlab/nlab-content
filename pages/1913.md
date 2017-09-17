@@ -369,3 +369,9 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects differential 3-forms]]
 [[!redirects smooth differential 3-form]]
 [[!redirects smooth differential 3-forms]]
+
+[[!redirects differential 4-form]]
+[[!redirects differential 4-forms]]
+[[!redirects smooth differential 4-form]]
+[[!redirects smooth differential 4-forms]]
+
