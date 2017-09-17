@@ -15,7 +15,11 @@
 
 ## Idea
 
-The subject of _universal algebra_ is the study of types of structures in [[algebra]]. For instance instead of studying properties of [[group]]s, in universal algebra one studies properties of the _theory of groups_ . This is an example of an [[algebraic theory]] which is a [[Lawvere theory]], also an [[algebra over a monad]].
+Universal algebra is the study of [[algebraic theories]] and their models or algebras.  Whereas abstract algebra studies groups, rings, modules and so on --- that is, models of particular theories --- universal algebra is about algebraic or __equational__ theories in general.
+
+Traditionally, the subject studies models of algebraic theories in the [[category]] of [[Set|sets]].  The category-theoretic approach abstracts the traditional notions, to study models in more general categories.  There are two ways of doing this: by using [[monads]] and by using [[Lawvere theories]].
+
+As with the category-theoretic understanding of many other branches of mathematics, the advantage of doing things this way is not so much the obtaining of new results as the __unification__ of many previously disparate points of view.  Examples might include how a [[Hopf algebra]] is the same thing as a model in a category of vector spaces of the theory of groups, or how computational side-effects in the theory of programming languages may be understood in terms of [[free algebras]].
 
 
 ## Related entries
@@ -26,7 +30,7 @@ The subject of _universal algebra_ is the study of types of structures in [[alge
 
 * [[monad]] 
 
-*  [[operad]]
+* [[operad]]
 
 * [[algebra over a Lawvere theory]] 
 
@@ -48,4 +52,8 @@ The subject of _universal algebra_ is the study of types of structures in [[alge
 
 ## References
 
-* [[Martin Hyland]] and [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_ , ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
+* [[Martin Hyland]] and [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
+
+* [[Fred Linton]], _An outline of functorial semantics_, LNM 80 ([TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html)).
+
+* [[Max Kelly]] and [[John Power]], _Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads_, JPAA 89, 1993.
