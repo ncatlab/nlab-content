@@ -583,6 +583,10 @@ The KK-theory of twisted convolution algebras and its relation to [[twisted K-th
 * [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
  {#TXLG}
 
+Discussion of groupoid 1-[[cocycles]] and their effect on the [[groupoid algebra]] KK-theory is discussed in 
+
+* Bram Mesland, _Groupoid cocycles and K-theory_ ([arXiv:1005.3677](http://arxiv.org/abs/1005.3677))
+
 
 ### In D-brane theory
 
