@@ -174,6 +174,9 @@ The "general" notion (but without a concept of ambient $(3,1)$-topos made explic
 * [[Lawrence Breen]], _Notes on 1- and 2-gerbes_ in [[John Baez]], [[Peter May]] (eds.) _[[Towards Higher Categories]]_ ([arXiv:math/0611317](http://arxiv.org/abs/math/0611317)).
   {#Breen}
 
+The general notion for arbitrary $n$ in an $(\infty,1)$-topos context is discussed in section 2.3 of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
 
 
 [[!redirects ∞-gerbe]]
