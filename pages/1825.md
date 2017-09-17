@@ -93,6 +93,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[geometric quantization of the 2-sphere]]
 
+* [[representation sphere]]
+
 * [[motivic sphere]]
 
 [[!redirects n-sphere]]
