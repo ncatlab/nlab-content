@@ -15,7 +15,7 @@
 
 ## Definition
 
-Given a [[algebraically closed field]] $k$, an __algebraic $k$-group__ is a [[group object]] in the category of $k$-[[algebraic variety|varieties]]. 
+Given a (typically [[algebraically closed field|algebarically closed]]) field $k$, an __algebraic $k$-group__ is a [[group object]] in the category of $k$-[[algebraic variety|varieties]]. 
 
 
 
@@ -37,7 +37,7 @@ The category of affine group schemes is the [[opposite category|opposite]] of th
 
 ## Concrete examples
 
-The [[affine line]] $\mathbb{A}^1$ comes canonically with the structure of a group under addtion: the [[additive group]] $mathbb{G}_a$.
+The [[affine line]] $\mathbb{A}^1$ comes canonically with the structure of a group under addition: the [[additive group]] $\mathbb{G}_a$.
 
 The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically with the structure of a group under multiplication: the [[multiplicative group]] $\mathbb{G}_m$.
 
