@@ -1,0 +1,4 @@
+
+
+A [[section]] of a [[bundle]] [[connection on a bundle|with connection]] is called _flat_ if its [[covariant derivative]] vanishes.
+
