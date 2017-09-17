@@ -10,14 +10,14 @@ The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for
 
 ##Definition##
 
-* The __simplex category__ $\Delta$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] [[inhabited set|inhabited]] linear [[quiver]]s.
+* The __simplex category__ $\Delta$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] [[inhabited set|inhabited]] linear [[quivers]].
 $$
   \{c_0 \to c_1 \to \cdots \to c_n\}
   \,.
 $$
 
 
-* Equivalently: $\Delta$ is the category of finite inhabited [[total order|totally ordered set]]s and order-preserving functions between them.
+* Equivalently: $\Delta$ is the category of finite inhabited [[total order|totally ordered sets]] and order-preserving functions between them.
 
 ### Detailed description ###
 
@@ -137,15 +137,15 @@ There are important standard functors from $\Delta$ to other categories which _r
 $$
   |\cdot| : \Delta \to Top
 $$
-sends $[n]$ to the standard topological $n$-simplex $[n] \mapsto \{x_0 \leq x_1 \leq \cdots \leq x_n \leq 1\}\subset \mathbb{R}^{n}$. This functor induced [[geometric realization]] of [[simplicial set]]s.
+sends $[n]$ to the standard topological $n$-simplex $[n] \mapsto \{x_0 \leq x_1 \leq \cdots \leq x_n \leq 1\}\subset \mathbb{R}^{n}$. This functor induced [[geometric realization]] of [[simplicial sets]].
 
 * The functor
 $$
   O : \Delta \to Str\omega Cat  
 $$
-sends $[n]$ to the $n$th [[oriental]]. This induces simplicial [[nerve]]s of [[omega-category|omega-categories]].
+sends $[n]$ to the $n$th [[oriental]]. This induces simplicial [[nerves]] of [[omega-category|omega-categories]].
 
-Under the functor $Str \omega Cat \to Cat$ which discards all higher morphisms and identifies all 1-morphisms that are connected by a 2-morphisms, this becomes again the identification of $\Delta$ with the full subbcategory of $Cat$ on linear [[quiver]]s that we started the above definition with
+Under the functor $Str \omega Cat \to Cat$ which discards all higher morphisms and identifies all 1-morphisms that are connected by a 2-morphisms, this becomes again the identification of $\Delta$ with the full subbcategory of $Cat$ on linear [[quivers]] that we started the above definition with
 
 $$
   [n] \mapsto \{0 \to 1 \to \cdots \to n\}
