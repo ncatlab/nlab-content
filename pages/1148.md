@@ -352,3 +352,6 @@ See also
 
 [[!redirects sheaf of chain complexes]]
 [[!redirects sheaves of chain complexes]]
+
+[[!redirects abelian presheaf]]
+[[!redirects abelian presheaves]]
