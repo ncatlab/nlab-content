@@ -1,8 +1,9 @@
 
 There are several concepts often called a **path category**.
 
+#Contents#
 * table of contents
-{: toc}
+{:toc}
 
 
 ## Free category on a directed graph
