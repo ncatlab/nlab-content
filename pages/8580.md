@@ -5,6 +5,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
+### Contents
++-- {: .hide}
+#Contents#
+* automatic table of contents
+{:toc}
+[[!include geometryofphysicscontents]]
+=--
+=--
++-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Physics
 +-- {: .hide}
@@ -16,10 +25,6 @@
 =--
 =--
 =--
-
-#Contents#
-* table of contents
-{:toc}
 
 
 ## About this page
