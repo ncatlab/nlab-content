@@ -1,3 +1,4 @@
+[[!redirects epi/mono factorization system]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -26,7 +27,7 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 
 ## Related concepts
 
-* **epi/mono factorization system**
+* **epi-mono factorization system**
 
 * [[essentially surjective and full/faithful factorization system]]
 
