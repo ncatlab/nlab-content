@@ -95,3 +95,6 @@ Discussion of the [[category of sets]] as a $\Pi$-W-topos when formalized via [[
 [[!redirects strong predicative topos]]
 [[!redirects strong predicative topoi]]
 [[!redirects strong predicative toposes]]
+
+[[!redirects predicativity]]
+
