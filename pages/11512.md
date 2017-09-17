@@ -25,6 +25,9 @@
 
 ## Definition
 
++-- {: .num_defn} 
+###### Definition
+
 The [[profinite completion of a group|profinite completion]] of the [[integers]] is the [[inverse limit]]
 
 $$
@@ -35,9 +38,10 @@ $$
 
 of all the [[cyclic groups]] over their canonical [[filtered diagram]].
 
-## Properties
+=--
 
-### Relation to the $p$-adic integers
++-- {: .num_prop #AsProductOverAlsoPAdicIntegers} 
+###### Proposition
 
 This is [[isomorphism|isomorphic]] to the [[product]] of the [[p-adic integers]] for all [[prime numbers]] $p$
 
@@ -45,6 +49,15 @@ $$
   \widehat{\mathbb{Z}} \simeq \underset{p\; prime}{\prod} \mathbb{Z}_p
   \,.
 $$
+
+=--
+
++-- {: .num_remark} 
+###### Remark
+
+From this perspective the concept of the [[ring of adeles]] is natural, see there for more.
+
+=--
 
 ## Related concepts
 
