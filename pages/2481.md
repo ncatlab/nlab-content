@@ -53,7 +53,13 @@ See also
 
 * [[compact topos]]
 
+* [[n-coherent object]]
+
 ## **4.** Deligne's completeness theorem
+
+* [[Deligne-Lurie completeness theorem]]
+
+* [[Deligne completeness theorem]]
 
 ## **5.** Flat descent
 
