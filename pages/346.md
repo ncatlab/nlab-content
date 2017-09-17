@@ -31,19 +31,19 @@ which is required to satisfy the following axioms.
 * The following diagram commutes for any $X,Y$.
 
   $$\array{I & \overset{j_Y}{\to} & [Y,Y]\\
-  & _{j_{[X,Y]}}\searrow & \downarrow^{L^X_{Y Y}}\\
+  & _{\mathllap{j_{[X,Y]}}}\searrow & \downarrow^{L^X_{Y Y}}\\
   & & [[X,Y],[X,Y]]}$$
 
 * The following diagram commutes for any $X,Y$.
 
   $$\array{[X,Y] & \overset{L^X_{X Y}}{\to} & [[X,X],[X,Y]]\\
-  & _{i_{[X,Y]}}\searrow & \downarrow^{[j_X,1]}\\
+  & _{\mathllap{i_{[X,Y]}}}\searrow & \downarrow^{[j_X,1]}\\
   & & [I,[X,Y]]}$$
 
 * The following diagram commutes for any $Y,Z$.
 
   $$\array{[Y,Z] & \overset{L^I_{Y Z}}{\to} & [[I,Y],[I,Z]]\\
-  & _{[1,i_Z]}\searrow & \downarrow^{[i_Y,1]}\\
+  & _{\mathllap{[1,i_Z]}}\searrow & \downarrow^{[i_Y,1]}\\
   & & [Y,[I,Z]]}$$
 
 * Finally, the following diagram commutes for any $X,Y,U,V$.
@@ -61,21 +61,28 @@ sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given her
 
 ## Examples
 
-* Any [[closed monoidal category]] gives a closed category, by simply forgetting the tensor product and remembering only the internal-hom.  Most examples seem to be of this sort, although as remarked above it is often the case that the closed structure is "primary" and the tensor product is defined as a left adjoint to it. (It is also true, by a result due to Miguel LaPlaza, that every closed category embeds fully and faithfully into a closed monoidal category by a strong [[closed functor]], i.e., one respecting closed structure up to suitably coherent isomorphism, and this closed functor is also strong monoidal if the original closed category is closed monoidal.)  
+* Any [[closed monoidal category]] gives a closed category, by simply forgetting the tensor product and remembering only the internal-hom.  Most examples seem to be of this sort, although as remarked above it is often the case that the closed structure is "primary" and the tensor product is defined as a [[left adjoint]] to it. Notice also, as discussed [below](#EmbedIntoCloseMon) that every closed category arises as the full [[subcategory]] of a closed monoidal category.
 
 * Any [[multicategory]] which has a unit, i.e. an object $I$ such that $C(;Y) \cong C(I;Y)$ naturally, and is closed in the sense that for any $Y,Z$ there is an object $[Y,Z]$ with natural isomorphisms $C(X_1,\dots,X_n,Y;Z) \cong C(X_1,\dots,X_n; [Y,Z])$, gives rise to a closed category.  Conversely, from any closed category we can construct a multicategory of this sort, by defining the multimaps as $C(X_1,\dots,X_n; Z) = C(X_1, [X_2,\dots,[X_n,Z]])$.  Thus closed categories are essentially equivalent to closed unital multicategories.
 
+## Properties
 
-## Monadicity and 2-categories
 
-Since the notion of closed category involves a contravariant functor and extranatural transformations, it cannot be expected to be [[2-monad|2-monadic]] over the [[2-category]] [[Cat]].  It is, however, 2-monadic over the 2-category $Cat_g$ of categories, functors, and natural isomorphisms.  In this way we obtain a 2-category $ClCat$ of closed categories, strong [[closed functors]], and [[closed natural transformations]].  One can also define a notion of non-strong, or "lax," closed functor; although these do not seemingly arise from the 2-monad in question, they generalize lax monoidal functors between closed monoidal categories.
+### Embedding into closed monoidal categories {#EmbedIntoCloseMon}
+
+By a result due to Miguel LaPlaza, every closed category embeds [[full and faithful functor|fully and faithfully]] into a [[closed monoidal category]] by a strong [[closed functor]], i.e., one respecting closed structure up to suitably coherent isomorphism, and this closed functor is also strong monoidal if the original closed category is closed monoidal.
+
+
+### Monadicity and 2-categories
+
+Since the notion of closed category involves a contravariant functor and extranatural transformations, it cannot be expected to be [[2-monad|2-monadic]] over the [[2-category]] [[Cat]].  It is, however, 2-monadic over the 2-category $Cat_g$ of categories, functors, and natural isomorphisms, the [[core]] of [[Cat]].  In this way we obtain a 2-category $ClCat$ of closed categories, strong [[closed functors]], and [[closed natural transformations]].  One can also define a notion of non-strong, or "lax," closed functor; although these do not seemingly arise from the 2-monad in question, they generalize lax monoidal functors between closed monoidal categories.
 
 
 ## References 
 
 Closed categories were first defined here:
 
-* Samuel Eilenberg and Max Kelly, _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
 
 They were shown to be equivalent to closed unital [[multicategories]] here:
 
