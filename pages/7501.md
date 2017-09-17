@@ -19,7 +19,7 @@ In the context of [[factorization systems]] such as they appear notably in [[enr
 
 A central point of it is to have the statement of prop. \ref{IteratedLifting} below be easily expressible in terms of "division on both sides"-operations.
 
-## Definitions
+## The calculus
 
 ### Lifting
 
@@ -268,6 +268,55 @@ $$
 $$
 
 =--
+
+## Applications
+
+### Reedy theory
+
+Let $\mathcal{E}$ be a [[model category]]. Write $\Delta$ for the [[simplex category]] and [[sSet]] for the category of [[simplicial sets]]. In the [[Reedy model structure]] on the [[presheaf category]] $[\Delta^{op}, \mathcal{E}]$ the following constructions are central.
+
++-- {: .num_defn}
+###### Definition
+
+Write
+
+$$
+  \Box : sSet \times \mathcal{E} \to [\Delta^{op}, \mathcal{E}]
+$$
+
+for the functor given by
+
+$$
+  (S \Box X) : n \mapsto S_n \cdot X
+  \,.
+$$
+
+=--
+
+(Here on the right we have the canonical [[tensoring]] of $\mathcal{E}$ over [[Set]], where $S_n \cdot X \simeq \coprod_{s \in S_n} X$.)
+
++-- {: .num_prop}
+###### Observation
+
+The functor $\Box$ is divisible on both sides. 
+
+Let $X \in [\Delta^{op}, sSet]$. Then
+
+* the object $\partial \Delta[n] \backslash X$ is the _[[Reedy model structure|matching object]]_ of $X$ at stage $n$;
+
+* the morphism $(\partial \Delta[n] \hookrightarrow \Delta[n]) \backslash X$ is the canonical morphism from $X_n$ into the $n$-matching object.
+
+Let $f : X \to Y$ be a morphism in $[\Delta^{op}, sSet]$. Then
+
+* the [[Reedy model structure|relative matching morphism]] of $f$ at stage $n$ is
+
+  $$
+    (\partial \Delta[n] \hookrightarrow \Delta[n])\backslash f
+    \,.
+  $$
+
+=--
+
 
 ## Related concepts
 
