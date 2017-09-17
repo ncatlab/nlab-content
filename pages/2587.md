@@ -1,9 +1,14 @@
 
+$\cdots \to$ [[Fivebrane group]] $\to$ **string group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
+
+
+***
+
 #Contents#
 * autoamtic table of contents goes here
 {:toc}
 
-# Definition #
+## Definition
 
 The **string group** $String(n)$  is defined to be, as a [[topological group]], the [[Whitehead tower|3-connected cover]] of the [[Spin group]] $Spin(n)$, for any $n \in \mathbb{N}$.
 
@@ -14,7 +19,6 @@ $$
   \,.
 $$
 
-[[Fivebrane group]] to **string group** to [[spin group]] to [[special orthogonal group]] to [[orthogonal group]].
 
 The next higher connected group is called the [[Fivebrane group]].
 
@@ -68,7 +72,7 @@ $$
 $$
 
 
-## definition by co-killing of $\pi_3$ ##
+## Definition by co-killing of $\pi_3$ 
 
 More in detail this means the following.
 
@@ -124,15 +128,15 @@ in [[Top]].
 In other words: $\mathcal{B}String(n)$ is the $U(1)$- 2-[[gerbe]] or $\mathcal{B}^2 U(1)$ [[principal ∞-bundle]] on $\mathcal{B} Spin(n)$ whose class is $\frac{1}{2}p_1 \in H^4(\mathcal{B}Spin(n), 4)$.
 
 
-# Models #
+## Models 
 
-## as a topological group ##
+### As a topological group 
 
 There is a model due to Stolz and Teichner in 'What is an elliptic object?'...
 
 
 
-## as a smooth 2-group ##
+### As a smooth 2-group 
 
 While $Spin(n)$ is not just a [[topological group]] but a (finite dimensional) [[Lie group]], $String(n)$ cannot have the structure of a finite dimensional [[Lie group]], due to the fact that the third [[homotopy group]] is nontrivial for every (finite dimensional) Lie group, while for $\pi_3(String(n)) = 0$ by the very definition of $String(n)$.
 
@@ -142,7 +146,7 @@ While $Spin(n)$ is not just a [[topological group]] but a (finite dimensional) [
 
 But there are smooth models of $String(n)$ in the form of [[2-group]]s. See [[string 2-group]].
 
-# role in string theory #
+## Role in string theory
 
 
 The reason for the name is that in [[string theory]], for (blah) to be well-defined, it is necessary for the 
@@ -152,13 +156,13 @@ See [[String structure]].
 
 If one considers passing to the (free) [[loop space]] of spacetime and then doing [[quantum mechanics]], the requirement of the previous paragraph is that the structure group lifts to ... (cite Killingback, Mickelsson, Schreiber, Witten,...) 
 
-# generalization to other groups #
+## Generalization to other groups
 
 One may consider the universal 3-connected cover of any general [[compact space|compact]], [[simple Lie group|simple]] and [[simply connected space|simply connected]] [[Lie group]] $G$, in complete analogy to the case $G = Spin(n)$. Accordingly one speaks of string-groups $String_G$.
 
 Of these the case $G = $ [[E8]] is the other one relevant in [[string theory]]: see [[Green-Schwarz mechanism]].
 
-# References #
+## References 
 
 
 Originally the String-group was just known by its generic name: with $\mathcal{B} O \langle 8 \rangle$ being the topologist's notation for the [[connected cover|7-connected]] of the [[delooping]] $\mathcal{B}O$ of the group $O$.
