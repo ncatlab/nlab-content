@@ -1,0 +1,20 @@
+
+## Idea
+
+(...)
+
+
+## Related concepts
+
+* The Weierstrass $\sigma$-function is proportional to the (inverse of the) characteristic series of the [[Witten genus]] ([Ando-Basterra 00, section 5.1](#AndoBasterra00))
+
+
+## References
+
+A textbook account includes for instance
+
+* Joseph Silverman, _The arithmetic of elliptic curves_, volume 106 of Graduate Texts in Mathematics. Springer, 1986
+
+Relation to the [[Witten genus]] is discussed for instance in 
+
+* {#AndoBasterra00} [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:0008192](http://arxiv.org/abs/math/0008192))
