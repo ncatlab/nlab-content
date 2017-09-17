@@ -58,7 +58,11 @@ We may describe the relevant [[locale]] explicitly as follows: the elements of i
 
 * The [[double negation topology]] used in the sheaf-theoretic approach to [[forcing]] is a posite.
 
-  Classical [[set theory|set-theoretic]] [[forcing]] is done exclusively on posites.  One "reason" for this (in the sense of a reason why set-theorists have not been forced to look beyond such models) is explained in a paper of [[Peter Freyd]] called "All topoi are localic or why permutation models prevail."  See also [this MO question](http://mathoverflow.net/questions/13480/set-theoretic-forcing-over-sites) and answer.
+  Classical [[set theory|set-theoretic]] [[forcing]] is done exclusively on posites.  One "reason" for this (in the sense of a reason why set-theorists have not been forced to look beyond such models) is explained in the paper
+
+  * [[Peter Freyd]] _All topoi are localic or why permutation models prevail_, Journal of Pure and Applied Algebra 46 (1987) pp 49-58
+
+  See also [this MO question](http://mathoverflow.net/questions/13480/set-theoretic-forcing-over-sites) and answer.
 
 * The [[semilattice of commutative subalgebras]] of a [[C-star algebra]] $A$ is a posite (with trivial topology) internal to whose sheaf topos we have a [[constructive Gelfand duality theorem]] for $A$, even if $A$ was externally non-commutative.
 
