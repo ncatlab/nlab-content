@@ -1,3 +1,3 @@
-Saya sering mengatakan, saya tidak senang dengan sifat  Mak yang garang. Saya tidak sedar, sedikit sebanyak saya mewarisi sifat Mak. Garang, ego dan suka membentak.Pada masa yang sama, tabah, cekal dan bersemangat.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2313" >nike air Jordan Hydro 5 Premier gold</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2313]nike air Jordan Hydro 5 Premier gold[/url]
+Tiba saat yang dinantikan, dengan satu lafaz sahaja aku sah menjadi hak milik  Sufian. Aku bahagia bersamanya.. aku akan berusaha menjadi seorang isteri yang solehah dan taat pada suamiku. Aku harap kami hidup bahagia hingga keakhir hayat. Kepada suamiku, Sufian aku amat menyintaimu???.semoga kebahagian kita ini akan memayungi syurga yang kita bina ini???amiin???
+ <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=658" >Nike Air Max Hyper grey sale</a>
+[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=658]Nike Air Max Hyper grey sale[/url]
