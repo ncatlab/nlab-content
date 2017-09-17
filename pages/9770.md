@@ -5,6 +5,8 @@
 
 A [[characteristic class]].
 
+
+
 ## Related concepts
 
 * [[genus]]
@@ -20,6 +22,12 @@ named after [[John Arthur Todd]]
 Discussion of Todd classes for [[noncommutative topology]]/in [[KK-theory]] is in
 
 * Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
+
+
+Review of the Todd genus with an eye towards generalization to the [[Witten genus]] is in the introduction of
+
+* Pokman Cheung, _The Witten genus and vertex algebras_ ([arXiv:0811.1418](http://arxiv.org/abs/0811.1418))
+
 
 [[!redirects Todd classes]]
 
