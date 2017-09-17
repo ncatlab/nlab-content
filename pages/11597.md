@@ -1,6 +1,8 @@
 
 * [[cubical structure on a line bundle]]
 
+* [[cubical structure in M-theory]]
+
 category: disambiguation
 
 [[!redirects cubical structures]]
