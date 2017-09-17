@@ -57,7 +57,7 @@ However, no choice of [[Lagrangian]] will enforce a strictly self-dual gauge fie
 
 The question then is: which line bundle? Some plausibility arguments show that it must be a [[Theta characteristic]] bundle, hence a [[square root]] of the [[canonical bundle]] on the [[intermediate Jacobian]].  These have 1-dimensional spaces of holomorphic sections ([[theta functions]]) and hence any choice of that already uniquely fixes the would-be [[partition function]], too, up to a choice of global factor. (For that reason later authors often regard the partition function as a line bundle, somewhat abusing the terminology.)
 
-The claim then is that the correct choice of [[Theta characteristic]] to use is a [[quadratic refinement]] of the [[intersection pairing]] (the [[Deligne-Beilinson cup-product]])
+The claim then is that the correct choice of [[Theta characteristic]] to use is a [[quadratic refinement]] of the [[intersection pairing]] (the [[Beilinson-Deligne cup-product]])
 
 $$
   [\Sigma, \mathbf{B}^{2k+1}\mathbb{G}^\times_{conn}]
