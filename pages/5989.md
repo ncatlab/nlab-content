@@ -8,4 +8,6 @@ He had six Ph.D. students: Ira Wolf (1971), Carol Ann Keller (1983), Norman Adam
 
 > (Taken from [this website](http://www.math.rutgers.edu/newsletter/newsletter2003.html))
 
+
+[[!redirects M. Tierney]]
 category: people
