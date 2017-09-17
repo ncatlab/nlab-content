@@ -337,12 +337,12 @@ Every derivator can be made pointed in a universal way; given $D$ we define $D_*
 
 See [[derivator]] for general references.  The pointed reflection is discussed in III.5 of
 
-* Alex Heller, _Homotopy theories_ , Mem. AMS 71:383.
+* [[Alex Heller]], _Homotopy theories_ , Mem. AMS 71:383.
  {#HellerHomotopy}
 
 The definition of relative diagram categories is taken from:
 
-* Alex Heller, _Stable homotopy theories and stabilization_ , [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
+* [[Alex Heller]], _Stable homotopy theories and stabilization_ , [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
  {#HellerStable}
 
 The $Set_*$-enriched approach is taken as basic in
