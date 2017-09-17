@@ -22,7 +22,15 @@ Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in 
 
 ## Examples
 
-With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Boolean topos. This includes [[Set]] and models of [[ETCS]].
+With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Boolean topos. This includes [[Set]] and models of [[ETCS]]. 
+
+The topos of [[canonical topology|canonical]] sheaves on a [[Boolean algebra]] is Boolean. 
+
+If $E$ is any topos, the category of [[sheaf|sheaves]] for the [[double-negation topology]] is a Boolean [[subtopos]] of $E$. 
+
+Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu; see [[excluded middle]] for a brief discussion. 
+
+[[Barr's theorem]] implies that any topos $E$ can be covered by a Boolean topos $F$, in the sense of there being a [[surjective geometric morphism]] $f \colon F \to E$. 
 
 
 [[!redirects Boolean topos]]
