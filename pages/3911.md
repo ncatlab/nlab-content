@@ -442,6 +442,8 @@ taking values in the coefficients of the given cohomology theory. Note that in t
 
 * [[geometric quantization by push-forward]]
 
+* [[twisted Umkehr map]]
+
 [[!include generalized fiber integration synonyms - table]]
 
 ## References
