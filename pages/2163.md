@@ -102,10 +102,46 @@ of the cobordism category $(D,\partial,i)$.
 ### The homotopy type of the cobordism category
  {#GMTWTheorem}
 
+#### Topological case
 
-* topological case: ([GalatiusTillmannMadsenWeiss](#GMWT))
 
-* geometric case: ([Ayala](#Ayala))
+
++-- {: .num_theorem}
+###### Theorem
+
+There is a [[weak homotopy equivalence]]
+
+$$
+  \Omega |Cob_d|
+  \simeq
+  \Omega^\infty(MTSO(d))
+$$
+
+between the [[loop space]] of the [[geometric realization]] of the $d$-cobordism category and the [[Thom spectrum]]-kind spectrum 
+
+$$
+  \Omega^\infty MTSO(d)
+   :=
+  {\lim_\to}_{n \to \infty}  \Omega^{n+d} Th(U_{d,n}^\perp)
+$$
+
+where
+
+$$
+  U_{d,n}^\perp = 
+  \{
+   ...
+  \}
+$$
+
+=--
+
+This is ([GalatiusTillmannMadsenWeiss, main theorem](#GMWT)).
+
+
+#### Geometric case
+
+* ([Ayala](#Ayala))
 
 The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact smooth manifolds is the cobordism semigroup for $D=Diff_c$.
 
