@@ -104,7 +104,7 @@ Say a morphism $f : X \to Y$ in $PreSegalCat$ is
 +-- {: .num_prop #ModelStructureForSegalCategories}
 ###### Proposition
 
-This defines a [[model category]] structure fro Segal categories (...)
+This defines a [[model category]] structure for Segal categories (...)
 
 =--
 
