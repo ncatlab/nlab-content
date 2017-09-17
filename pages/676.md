@@ -57,7 +57,9 @@
 
     * [[general relativity]]
 
-    * [[black hole]]
+    * [[gravity]], [[supergravity]]
+
+      * [[black hole]]
  
 * **[[quantum mechanics|Quantum Mechanics]]**
   
@@ -183,14 +185,15 @@
         * [[Yang-Mills field]]
 
           * [[Yang-Mills theory]]
-
           * [[spinors in Yang-Mills theory]]
+          * [[topological Yang-Mills theory]]
 
         * [[Kalb-Ramond field]]
         * [[supergravity C-field]]
         * [[RR field]]
         * [[D'Auria-Fre formulation of supergravity]]
-        * [[gravity as a BF-theory]]
+        * [[BF-theory]]
+          * [[gravity as a BF-theory]]
 
     * [[sigma-model]]
 
