@@ -28,6 +28,19 @@ Two [[generalized homology theories]] $E_\bullet$, $F_\bullet$, hence [[spectra]
 
 ## Examples
 
+### Global arithmetic fracture square
+
+There is a Bousfield equivalence 
+
+$$
+  S (\mathbb{Q}/\mathbb{Z}) \simeq_{Bousf} \vee_p S \mathbb{F}_p
+$$
+
+between the [[Moore spectrum]] of the quotient $\mathbb{Q}/\mathbb{Z}$ and the [[coproduct]] of the Moore spectra of all [[cyclic groups]]/[[finite fields]] of [[prime]] order (e.g. [Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
+
+This goversn the global [[fracture theorem|arithmetic fracture theorem]] [in stable homotopy theory](fracture+theorem#InStableHomotopyTheory).
+
+
 ### Morava E-theory and Morava K-theory
 
 For all $n$, the $n$th [[Morava E-theory]] $E(n)$ is [[Bousfield equivalence|Bousfield equivalence]] to $E(n-1) \times K(n)$, where the last factor is $n$th [[Morava K-theory]].
