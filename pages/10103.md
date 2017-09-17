@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
 # Distributive monoidal categories
 
 * table of contents
@@ -5,7 +16,7 @@
 
 ## Idea
 
-A distributive monoidal category is a monoidal category whose tensor product distributes over coproducts.
+A _distributive monoidal_ category is a [[monoidal category]] whose [[tensor product]] [[distributive law|distributes]] over [[coproducts]].
 
 ## Definition
 
