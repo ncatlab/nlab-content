@@ -146,7 +146,7 @@ The corresponding table has been called the **[[brane scan]]**
 
 ## Related concepts
 
-* [[fractional brane]]
+* [[D-brane]], [[fractional D-brane]]
 
 * [[sigma-model]]
 
