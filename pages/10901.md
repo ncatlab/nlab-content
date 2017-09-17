@@ -145,11 +145,11 @@ Linear type theory as such is made explicit for instance in
 
 The following articles are about "logics of linear type" and their categorical semantics, although they predate the use of the word "linear" in Girard's sense. Most have a view motivated in part by categorical coherence problems. 
 
-* J. Lambek, _Deductive systems and categories_, Mathematical Systems Theory 2 (1968), 287-318. 
- {#Lambek68}
+* {#Lambek68} [[Joachim Lambek]], _Deductive systems and categories_, Mathematical Systems Theory 2 (1968), 287-318. 
+ 
 
-* J. Lambek, _Deductive systems and categories II_, Lecture Notes in Math. 86, Springer-Verlag (1969), 76-122. 
- {#Lambek69}
+* {#Lambek69} [[Joachim Lambek]], _Deductive systems and categories II_, Lecture Notes in Math. 86, Springer-Verlag (1969), 76-122. 
+ 
 
 * G.E. Minc, _Closed categories and the theory of proofs_, translated from an article in Russian in Zapiski Nauchnykh Seminarov Leningradskogo Otdeleniya Mat. Instituta im. V.A. Steklova AN SSSR 68 (1977), 83-114. 
  {#Minc77}
