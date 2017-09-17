@@ -561,6 +561,38 @@ By prop. \ref{LocalizationProposition}, $\mathcal{C}^0 \hookrightarrow \mathcal{
 
 =--
 
+### Model category presentation
+ {#ModelCategoryPresentation}
+
++-- {: .num_prop }
+###### Proposition
+
+Let $C$ be a [[left proper model category|left proper]] [[combinatorial simplicial model category]] which [[presentable (∞,1)-category|presents]] an [[(∞,1)-category]] $\mathcal{C} \simeq C^\circ$. 
+
+Then if $\mathcal{C}^0 \hookrightarrow \mathcal{C}$ is an [[accessible (∞,1)-functor|accessible]] reflective inclusion with reflector $L \colon \mathcal{C} \to \mathcal{C}^0$, then there exists a corresponding [[Bousfield localization of model categories|left Bousfield localization]]
+
+$$
+  C' \stackrel{\overset{id}{\leftarrow}}{\underset{id}{\to}}
+  C
+$$
+
+of the [[model category]] $C$ which presents this inclusion in that
+
+1. an object in $C'$ is a [[fibrant object]] precisely if it is fibrant as an object of $C$ and in addition its image in the [[homotopy category]] $Ho(C) \simeq Ho(\mathcal{C})$ is in the inclusion $Ho(\mathcal{C}^0) \hookrightarrow Ho(\mathcal{C})$;
+
+1. a morphism in $C'$ is a [[weak equivalence]] precisely if under $Ho(L) \colon Ho(C) \simeq Ho(\mathcal{C}) \to Ho(\mathcal{C}^0)$ is an [[isomorphism]].
+
+=--
+
+This is ([Lurie, prop. A.3.7.8](#Lurie)).
+
++-- {: .proof}
+###### Proof
+
+Use that by the above discussion $\mathcal{C}^0$ is the full subcategory on $S$-[[local objects]] for a [[small set]] of morphisms. By the discussion at [[Bousfield localization of model categories]] this presents precisely such localizations.
+
+=--
+
 ## Extra conditions
  {#ExtraConditions}
 
