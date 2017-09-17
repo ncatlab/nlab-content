@@ -4346,10 +4346,6 @@ Since under [[homotopy pullback]]s a weak equivalence of diagrams is sent to a w
 
 =--
 
-### Variational calculus
-  {#VariationalCalculus}
-
-* [[variational calculus]]
 
 ### Differential cohomology 
   {#StrucDifferentialCohomology}
