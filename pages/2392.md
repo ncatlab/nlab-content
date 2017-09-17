@@ -53,11 +53,7 @@ Here [[simplicial set]]s are generalized to [[dendroidal set]]s. The theory of $
 
 There is a [[model  structure on dendroidal sets]] whose fibrant objest are the **quasi-operad**s in direct analogy to the notion of [[quasi-category]]. 
 
-Here are two blog entries on talks on this stuff:
-
-* [Dendroidal Sets and Infinity-Operads](http://golem.ph.utexas.edu/category/2009/02/dendroidal_sets.html)
-
-* [Moerdijk on Infinity Operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
+So the [[model structure on dendroidal sets]] is a [[presentable (∞,1)-category|presention]] of the [[(∞,1)-category]] of $(\infty,1)$-operads. It is [[Quillen equivalence|Quillen equivalent]] to the standard [[model structure on operads]] enriched over [[Top]] or [[sSet]]. Therefore, conversely, the traditional homotopy-theoretic constructions on topological and chain operads (such as cofibrant [[resolution]]s in order to present homtopy algebras such as [[A-∞ algebra]]s, [[L-∞ algebra]]s, [[homotopy BV-algebra]]s and the like) are also indeed presentations of $(\infty,1)$-operads.
 
 ### In terms of $(\infty,1)$-categories of operators
 
@@ -349,6 +345,12 @@ The formulation in terms of [[dendroidal sets]] is due to
 * [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_ ([web](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314))
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv](http://arxiv.org/abs/0902.1954)) .
+
+Here are two blog entries on talks on this stuff:
+
+* [Dendroidal Sets and Infinity-Operads](http://golem.ph.utexas.edu/category/2009/02/dendroidal_sets.html)
+
+* [Moerdijk on Infinity Operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
 
 
 The formulation in terms of an $(\infty,1)$-version of the [[category of operators]] is introduced in
