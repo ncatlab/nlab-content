@@ -1,5 +1,13 @@
 
-**[[(infinity,1)-category theory|quasi-category theory]]**
+**[[(∞,1)-category theory]]**
+
+## Background
+
+* [[category theory]]
+
+* [[higher category theory]]
+
+* [[(n,r)-category]]
 
 ## Definition
 
@@ -15,17 +23,17 @@
 
 * [[hom-object in a quasi-category|hom-objects]]
 
-* [[equivalence in a quasi-category|equivalences in]]/[[equivalence of quasi-categories|of]] quasi-categories
+* [[equivalence in a quasi-category|equivalences in]]/[[equivalence of quasi-categories|of]] $(\infty,1)$-categories
 
-* [[sub-quasi-category]]
+* [[sub-quasi-category|sub-(∞,1)-category]]
 
-  * [[reflective sub-(infinity,1)-category|reflective subcategory]]
+  * [[reflective sub-(∞,1)-category]]
 
   * [[localization of an (∞,1)-category|reflective localization]]
 
-* [[opposite quasi-category]]
+* [[opposite quasi-category|opposite (∞,1)-category]]
 
-* [[over quasi-category]]
+* [[over quasi-category|over (∞,1)-category]]
 
   * [[join of quasi-categories]]
 
@@ -53,9 +61,9 @@
 
   * [[terminal object in a quasi-category|terminal object]]
 
-* [[adjoint (infinity,1)-functor|adjoint functors]]
+* [[adjoint (∞,1)-functor|adjoint functors]]
 
-* [[(infinity,1)-Grothendieck construction|Grothendieck construction]]
+* [[(∞,1)-Grothendieck construction|Grothendieck construction]]
 
 ## Local presentation
 
@@ -72,8 +80,13 @@
 * [[adjoint (∞,1)-functor theorem]]
 
 
+## Models
 
-## Relation to other concepts
+* [[category with weak equivalences]]
+
+* [[model category]]
+
+* [[derivator]]
 
 * [[relation between quasi-categories and simplicial categories|relation to simplicial categories]]
 
