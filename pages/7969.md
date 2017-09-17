@@ -66,7 +66,7 @@ $$
   \,.
 $$
 
-e.g. ([Beauville, above prop. 2.2](#Beauville))
+e.g. ([Beauville, above prop. 2.2](#Beauville)), also ([Beauville, section 3.4](#Beauville))
 
 ## Examples
 
