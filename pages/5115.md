@@ -19,3 +19,5 @@ $$
 that equips $F$ with the structire of a [[lax monoidal functor]].
 
 [[!redirects lax monoidal transformations]]
+
+[[!redirects oplax monoidal transformation]]
