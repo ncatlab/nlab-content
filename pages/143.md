@@ -644,6 +644,8 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
 
+* [[(∞,2)-sheaf]]
+
 * [[abelian sheaf cohomology]]
   
   * [[soft sheaf]]
