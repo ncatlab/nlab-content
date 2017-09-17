@@ -90,7 +90,7 @@ $$
 acts as global symmetry. This is called the **U-duality** group of the supergravity theory.
 
 It has been argued that this pattern should continue in some way further to the remaining values $0 \leq d \lt 3$,
-with "[[Kac-Moody groups]]" [[E9]]. [[E10]], [[E11]] corresponding to the [[Kac-Moody algebras]]
+with "[[Kac-Moody groups]]" [[E9]], [[E10]], [[E11]] corresponding to the [[Kac-Moody algebras]]
 
 $$
   \mathfrak{e}_9, \mathfrak{e}_10, \mathfrak{e}_{11}
