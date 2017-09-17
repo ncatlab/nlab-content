@@ -8,53 +8,66 @@
 The story starts with an embedding $i:X\to Y$ of [[compact space|compact]] [[manifolds]]. In this situation one can construct a [[homomorphism]] 
 
 $$
-i_{!}:K(T X)\longrightarrow K(T Y)
+  i_{!} : K(T X)\longrightarrow K(T Y)
 $$ 
 
-between the compactly supported [[K-theory|K-theories]] of their [[tangent bundles]]. Note the reverse [[functor|functoriality]]: for the base space $K$ is contravariant while for the total spaces of the tangent bundles it is covariant. This uses the [[Pontrjagin-Thom collaps map|Thom mapping]]: if $X$ is a compact manifold and $V$ a real vector bundle over $X$ there is a natural map
+between the [[compact support|compactly supported]] [[K-theory|K-theories]] of their [[tangent bundles]]. 
+
+Notice here the reverse [[functor|functoriality]]: for the base space $K$ is contravariant while for the total spaces of the tangent bundles it is covariant. This uses the [[Pontrjagin-Thom collaps map|Thom mapping]]: if $X$ is a compact manifold and $V$ a real [[vector bundle]] over $X$ there is a natural map
 
 $$
-\varphi:K(X)\longrightarrow K(V).
+  \varphi:K(X)\longrightarrow K(V)
+  \,.
 $$ 
 
-One of the most important results of $K$-theory, namely Bott periodicity, can be seen as the statement of the fact that this map is an isomorphism. Now apply this construction to the normal bundle $N$ of $X$ in $Y$ to get
+One of the most important results of [[K-theory]], namely [[Bott periodicity]], can be seen as the statement of the fact that this map is an [[isomorphism]]. Now apply this construction to the [[normal bundle]] $N$ of $X$ in $Y$ to get
 
 $$
-\varphi:K(T X)\longrightarrow K(T N)
+  \varphi
+  :
+  K(T X)\longrightarrow K(T N)
 $$
 
-and (looking at $N$ as a tubular neighborhood of $X$ in $Y$) compose it with the natural map  
+and (looking at $N$ as a [[tubular neighbourhood]] of $X$ in $Y$) compose it with the natural map  
 
 $$
-K_*:K(T N)\longrightarrow K(T Y)
+  K_*
+  :
+  K(T N)\longrightarrow K(T Y)
 $$ 
 
 to get $i_!$. 
-Now given a manifold $X$, embed it in an Euclidean space $\mathbb{R}^n$ for some suitable $n$ and consider the inclusion $\{0\}\to \mathbb{R}^n$. This induces the (Thom isomorphism) mapping $j_!:\mathbb{Z}=K(\{0\} \longrightarrow K(T\mathbb{R}^n)$. The topological index is defined to be
+
+Now given a manifold $X$, embed it in a [[Euclidean space]] $\mathbb{R}^n$ for some suitable $n$ and consider the inclusion $\{0\}\to \mathbb{R}^n$. This induces the ([[Thom isomorphism]]) mapping $j_!:\mathbb{Z}=K(\{0\}) \longrightarrow K(T\mathbb{R}^n)$. 
+
+The _topological index_ is defined to be
 
 $$
-ind_t:=j_!^{-1}\circ i_!.
+  ind_t
+  :=
+  j_!^{-1}\circ i_!
+  \,.
 $$ 
 
-One can prove that this is independent of all the occurring choices. In particular it does not depend on the embedding of the manifold $X$ into to the Euclidean space. The topological index function is uniquely fixed by two properties (this is the content of the Atiyah-Singer index theorem):
+One can prove that this is independent of all the occurring choices. In particular it does not depend on the embedding of the manifold $X$ into to the Euclidean space. The topological index function is uniquely fixed by two properties (this is the content of the [[Atiyah-Singer index theorem]]):
 
 1. For a point $ind_t=id$
 
-1. Index functions commutes with the maps $i_!$.
+1. Index functions commute with the maps $i_!$.
 
-Now it is easy to define the topological index of an elliptic operator. Its principal symbol defines a homogenous length one complex of bundles on $T X$ exact outside the null section. Elements of this kind are precisely cycles for the compactly supported $K$-theory of $T X$ hence an elliptic operator $D$ has a topological index only depending on its principal symbol. On the other hand, analysis associates to $D$ its analytical index that is
+Now it is easy to define the topological index of an [[elliptic operator]]. Its [[principal symbol]] defines a homogenous length-one [[chain complex]] of [[bundles]] on $T X$ [[exact complex|exact]] outside the null section. Elements of this kind are precisely cycles for the compactly supported [[K-theory]] of $T X$ hence an elliptic operator $D$ has a topological index only depending on its principal symbol. On the other hand, analysis associates to $D$ its [[analytical index]] that is
 
 $$
 \operatorname{dim}\operatorname{Ker}(D)-\operatorname{dim}\operatorname{coKer}(D)
 $$ 
 
-on one (hence all) Sobolev space $D$ is defined on. The Atiyah-Singer index theorem then states that the analytical index of is equal to the topological one.
+on one (hence all) [[Sobolev space]] that $D$ is defined on. The [[Atiyah-Singer index theorem]] states that the [[analytical index]] of is equal to the topological one.
 
 ## Related concepts
 
 * [[index theory]]
 
-  * [[topological index]]
+  * **topological index**
 
   * [[analytical index]]
 
