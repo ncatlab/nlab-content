@@ -928,7 +928,7 @@ The proof proceeds in direct generalization of the proofs of the
 ### The four lemma
  {#FourLemma}
 
-We prove the  _[[four lemma]]_ from the salamander lemma. 
+We prove the  _strong [[four lemma]]_ from the salamander lemma. 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -937,7 +937,7 @@ Consider a [[commuting diagram]] in $\mathcal{A}$ of the form
 
 $$
   \array{
-    A &\to& B &\to& C &\to& D
+    A &\to& B &\stackrel{\xi}{\to}& C &\to& D
     \\
     \downarrow^{\mathrlap{\tau}}
     &&
@@ -947,7 +947,7 @@ $$
     &&
     \downarrow^{\mathrlap{\nu}}
     \\
-    A' &\to& B' &\to& C' &\to& D'
+    A' &\to& B' &\stackrel{\eta}{\to}& C' &\to& D'
   }
 $$
 
@@ -959,7 +959,13 @@ where
 
 1. $\nu$ is a [[monomorphism]].
 
-Then
+Then 
+
+1. $\xi(ker(f)) = ker(g)$
+
+1. $im(f) = \eta^{-1}(im(g))$
+
+and so in particular
 
 1. if $f$ is a [[monomorphism]] then so is $g$;
 
@@ -1012,16 +1018,10 @@ such that
 
 1. the middle two rows are exact.
 
-For the first statement it is now sufficient to show that $ker(g)^{hor} \simeq 0$, for that means that
-
-$$
-  \xi(ker(f)) = ker(g)
-$$
-
-and hence in particular that $g$ is injective if $f$ is.
+For the first statement it is now sufficient to show that $ker(g)^{hor} \simeq 0$, for that is immediately equivalent to $\xi(ker(f)) = ker(g)$.
 
 To see this we use the intramural isomorphism, 
-cor. \ref{IntramuralIsos} item 2, to deduce that.
+cor. \ref{IntramuralIsos} item 2, to deduce that
 
 $$
   ker(g)^{hor} \simeq ker(g)_{\Box}
@@ -1032,11 +1032,10 @@ Then the long [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso}, s
 ${}^\Box 0 \simeq 0$ in the bottom left corner of the diagram.
 
 The second statement follows dually: it is implied by
-$(B'/im(f))^{hor} \simeq 0$ for that says that 
-$\eta^{-1}(im(g))\simeq im(f)$ which means in particular that 
-if $g$ is surjective then so is $f$.
+$(B'/im(f))^{hor} \simeq 0$ for that directly implies that 
+$\eta^{-1}(im(g))\simeq im(f)$.
 
-So here the intramural ismorphism to use is
+Here the intramural ismorphism to use is
 
 $$
   (B'/im(f))^{hor} \simeq {}^{\Box}(B'/im(f))
