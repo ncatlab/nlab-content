@@ -60,7 +60,7 @@ The classical [[model category|model structure]] -- or **Quillen model structure
 The **acyclic fibrations** (i.e. the maps that are both fibrations as well as weak equivalences) between [[Kan complex]]es are precisely the morphisms $f : X \to Y$ that have the [[right lifting property]] with respect to all inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ of boundaries of $n$-simplices into their $n$-simplices
   $$
     \array{
-      \delta \Delta[n] &\to& X
+      \partial \Delta[n] &\to& X
       \\
       \downarrow &{}^\exists\nearrow& \downarrow^f 
       \\
@@ -139,7 +139,7 @@ We know that both $N(C)$ and $N(D)$ are Kan complexes. By the above theorem it s
 
 $$
   \array{
-    \delta \Delta[n] &\to& N(C)
+    \partial \Delta[n] &\to& N(C)
     \\
     \downarrow &{}^\exists\nearrow& \downarrow^{N(F)}
     \\
