@@ -1,18 +1,3 @@
 Grad Student at JHU. 
 
-I like:
-
-Category Theory 
-
-Algebraic Topology
-
-Homotopy Theory
-
-Asking Questions
-
-
-I'm currently futzing around with the Bousfield lattice. I'd like to get my hands on some topological incarnation of some sublattice of it. This all may be connected to having a sensible construction of Spec(S). Don't ask me how though, yet.
-
-
-
-beardsle at math.jhu.edu
+[Website](http://math.jhu.edu/~beardsle/)
