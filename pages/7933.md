@@ -21,6 +21,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 Higher geometric quantization is meant to complete this table:
 
@@ -31,7 +32,21 @@ Higher geometric quantization is meant to complete this table:
 
 Being a concept in [[higher geometry]], higher geometric quantization is formulated naturally in [[(∞,1)-topos theory]]. More precisely, since it involves not just _[[cohomology]]_ but _[[differential cohomology]]_, it is formulated in _[[cohesive (∞,1)-topos|cohesive (∞,1)-topos theory]]_ ([[cohesive homotopy type theory]]).
 
-With the notation as used there, the basic constructions that higher geometric quantization is concerned with are indicated in the following table. All of them have also a fundamental interpretation in [[twisted cohomology|twisted]] [[cohomology]] (independent of any interpretation in the context of [[quantization]]) this is indicated in the right column of the table:
+In this context, write $\mathbf{B}^n \mathbb{G}_{conn} \in \mathbf{H}$ for the cohesive [[moduli ∞-stack]] of [[circle n-bundles with connection]], in the ambient [[cohesive (∞,1)-topos]] $\mathbf{H}$. Then for $X \in \mathbf{H}$ any object to be thought of as the [[moduli ∞-stack]] of fields or as the [[target space]] for a [[sigma-model]], a morphism
+
+$$
+  \mathbf{c}_{conn} : X \to \mathbf{B}^n \mathbb{G}_{conn}
+$$
+
+modulates a [[circle n-bundle with connection]] on $X$. We regard this as a _extended [[action functional]]_ in that for $\Sigma_{k} \in \mathbf{H}$ of [[cohomological dimension]] $k \leq n$ and sufficiently compact so that [[fiber integration in ordinary differential cohomology]] $\exp(2 \pi i \int_{\Sigma}_k(-))$ applies, the [[transgression]] of $\mathbf{c}_{conn}$ to low [[codimension]] reproduces the traditional ingredients
+
+| $k = $ | [[transgression]] of $\mathbf{c}_{conn}$ to $[\Sigma_{n-1},X]$ | meaning in [[geometric quantization]] |
+|--|--|--|
+| $n$ | $\exp(2 \pi i S(-)) : [\Sigma_n, X] \stackrel{[\Sigma_n, \mathbf{c}_{conn}]}{\to} [\Sigma_n, \mathbf{B}^n \mathbb{G}_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_n}(-))}{\to}  \mathbb{G} $ |  [[action functional]] |
+| $n-1$ | $\exp(2 \pi i S(-)) : [\Sigma_{n-1}, X] \stackrel{[\Sigma_{n-1}, \mathbf{c}_{conn}]}{\to} [\Sigma_{n-1}, \mathbf{B}^n \mathbb{G}_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_n}(-))}{\to}  \mathbf{B}\mathbb{G}_{conn}  \,$  | ordinary (off-shell) [[prequantum circle bundle]] | 
+
+The idea is to consider the higher geometric quantization not just of the low codimension transgressions, but of all transgressions of $\mathbf{c}_{conn}$.
+The basic constructions that higher geometric quantization is concerned with are indicated in the following table. All of them have also a fundamental interpretation in [[twisted cohomology|twisted]] [[cohomology]] (independent of any interpretation in the context of [[quantization]]) this is indicated in the right column of the table:
 
 
 
@@ -41,6 +56,7 @@ With the notation as used there, the basic constructions that higher geometric q
 | [[symplectomorphism group]] | $\mathbf{Aut}_{/\Omega^{n+1}(-,\mathbb{G})}(\omega) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\omega}}\searrow && \swarrow_{\mathrlap{\omega}} \\ && \Omega^{n+1}_{cl}(-,\mathbb{G})  } \right\}$ |   |
 | [[prequantum circle n-bundle]] | $\array{ && \mathbf{B}^n \mathbb{G}_{conn} \\ & {}^{\mathllap{\mathbf{c}_{conn}}}\nearrow & \downarrow^{\mathrlap{curv}} \\ X &\stackrel{\omega}{\to}& \Omega^{n+1}(-,\mathbb{G})}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[ordinary differential cohomology|differential cohomology]] |
 | [[quantomorphism group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
+| [[Hamiltonian actions]] of a [[smooth ∞-group]] $G$ / dual [[moment maps]]| $ \mu : \mathbf{B}G \to \mathbf{B}\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn})$ | $G$-[[∞-action]] on the twisting |
 | [[Hamiltonian symplectomorphisms]] |  [[∞-image]] of $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{Aut}_{/\Omega^{n+1}_{cl}(-,\mathbb{G})}(\omega)$  | twists in de Rham cohomology that lift to differential cohomology |
 | [[Hamiltonian]] [[quantum operator (in geometric quantization)|quantum observables]] | $Lie(\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}))$  | [[infinitesimal cohesion|infinitesimal]] twist automorphisms |
 | [[∞-representation]] of $\mathbf{B}^{n-1}\mathbb{G}$ | $\array{ V &\to& V//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow^{\mathbf{p}} \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
@@ -51,9 +67,9 @@ With the notation as used there, the basic constructions that higher geometric q
 
 ## Examples
 
-(...)
 
-### Of ordinary symplectic manifolds
+
+### Ordinary symplectic manifolds
 
 * [[prequantum circle bundle]]
 
@@ -89,6 +105,23 @@ With the notation as used there, the basic constructions that higher geometric q
 
 * [[space of states]]: [[twisted bundles]]
 
+### $\infty$-Chern-Simons theory generally
+
+[[schreiber:∞-Chern-Simons theory]]
+
+$G$ a [[smooth ∞-group]],
+
+$$
+  \mathbf{c}_{conn}
+  : 
+  \mathbf{B}G_{conn}
+  \to 
+  \mathbf{B}^n U(1)_{conn}
+$$
+
+a universal differential characteristic map.
+
+The following examples are of this form.
 
 ### Extended $(4k+3)d$ abelian Chern-Simons theory
 
@@ -210,6 +243,11 @@ Higher geometric quantization over [[smooth manifolds]] is discussed in
 
 Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-groupoids]] is discussed in
 
-* _[[schreiber:infinity-geometric prequantization]]_
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Chris Rogers]], _[[schreiber:infinity-geometric prequantization]]_
+
+and the examples of higher Chern-Simons theories in 
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]] _[[schreiber:∞-Chern-Simons theory]]_
+ {#FiorenzaSchreiber}
 
 [[!redirects higher geometric prequantization]]
