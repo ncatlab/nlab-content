@@ -152,12 +152,20 @@ There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]
 
 	One of the axioms of a [[yoneda structure|Yoneda structure]] on a 2-category abstract over this situation, by requiring the existence of $F$-nerves with respect to yoneda embeddings such that the 1-cell $F$ is an absolute left lifting as above; see Mark Weber or the original Street-Walters papers cited in the references below.
 
+## Related concepts
+
+* [[relative monad]]
+
 ## References ##
 
-- F Ulmer - _Properties of dense and relative adjoint functors_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/properties-dense-relative-adjoint-functors/)
-- Thorsten Altenkirch, James Chapman and Tarmo Uustalu - _Monads need not be endofunctors_ Foundations of Software Science :: [pdf](http://www.cs.nott.ac.uk/~txa/publ/Relative_Monads.pdf)
-- Mark Weber - _Yoneda structures from 2-toposes_ Applied Categorical Structures :: [pdf](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf)
-- Ross Street, Bob Walters - _Yoneda structures on 2-categories_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)
+*  F Ulmer - _Properties of dense and relative adjoint functors_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/properties-dense-relative-adjoint-functors/)
+
+*  [[Thorsten Altenkirch]], James Chapman and Tarmo Uustalu,  _Monads need not be endofunctors_ Foundations of Software Science :: [pdf](http://www.cs.nott.ac.uk/~txa/publ/Relative_Monads.pdf)
+
+*  [[Mark Weber]] - _Yoneda structures from 2-toposes_ Applied Categorical Structures :: [pdf](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf)
+
+
+*  [[Ross Street]], Bob Walters - _Yoneda structures on 2-categories_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)
 
 
 [[!redirects relative adjoint functors]]
