@@ -66,32 +66,18 @@ be an [[(∞,1)-functor]] -- a morphism of simplicial sets.
 
    where $i_{K,S} : K \to K \star S$ is the canonical inclusion of $K$ into its [[join of simplicial sets]] with $S$.
 
-   Concretely, the underlying simplicial set of $C_{F/}$ is given by 
-
-   $$
-     (C_{F/})_n = Hom_F(K \star \Delta^n , C)
-     \,,
-   $$
-
-   where $Hom_F(-)$ denotes the subset of morphisms of simplicial sets that restricts to $F$ on $K$.
-
    Similarly, the **over quasi-category** over $F$ is the simplicial set
-
-   $$
-     (C_{/F})_n = (Hom_{sSet})_F(\Delta^n \star K , C)
-   $$
-
    characterized by the property that
 
    $$
     Hom_{sSet}(S, C_{/F})
      \simeq
-     Hom_{F}(
-       S \star K , C
+     Hom_{(K\downarrow SSet)}(
+       j_{K,S} , F
      )
    $$
 
-   naturally in $S$.
+   naturally in $S$, where $j_{K,S}$ is the canonical inclusion map $K\to S\star K$.  
 
 1. The functor 
 
