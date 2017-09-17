@@ -16,13 +16,13 @@
 
 ## Idea
 
-In [[quantum field theory]] (and [[string theory]]) the [[scattering amplitudes]] ([[string scattering amplitudes]]) "where nothing externel scatters", hence for no incoming and no outgoing states, are called _[[vacuum]] amplitudes_. 
+In [[quantum field theory]] (and [[string theory]]) the [[scattering amplitudes]] ([[string scattering amplitudes]]) "where nothing external scatters," hence for no incoming and no outgoing states, are called _[[vacuum]] amplitudes_. 
 
 ## Properties
 
 ### As generating functionals for all other amplitudes
 
-As a function of [[source]] fields, the vauum amplitude serve as the [[generating functionals]] for all [[correlators]]/[[n-point functions]] (e.g. [Scrucca, 1.6](#Scrucca)).
+As functions of [[source]] fields, the vacuum amplitudes serve as the [[generating functionals]] for all [[correlators]]/[[n-point functions]] (e.g. [Scrucca, 1.6](#Scrucca)).
 
 ### One loop contribution and zeta functions
  {#OneLoopContributionAndZetaFunction}
