@@ -142,7 +142,7 @@ are equivalently
 
 1. an element in the $\chi$-twisted $E$-cohomology of $X$, hence  $c \in E^{\bullet}(X,E)$.
 
-In particular the [[internal hom]]
+In particular the [[internal hom]] (with respect to the relative [[smash product]]...)
 
 $$
   \left[
