@@ -1,16 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -23,7 +22,7 @@ __Composition__ is the operation that takes [[morphism|morphisms]] $f\colon  x \
 
 Strictly speaking, composition as defined above is *binary* composition.  One can also define $n$-ary composites for any [[natural number]] $n \geq 0$: given $n + 1$ objects $x_0, \ldots, x_n$ and $n$ morphisms $f_i\colon x_{i-1} \to x_i$, we get the composite $f_n \circ \dots \circ f_1\colon x_0 \to x_n$.  Since composition in a category is associative, a definition of $n$-ary composition from binary composition via any choice of bracketing will be equal to that resulting from any other choice of bracketing.  The unary composite of $f_1\colon x_0\to x_1$ is simply $f$ itself, and the nullary composite of $x_0$ is its [[identity morphism]].
 
-Conversely, a category can equivalently be defined as a [[directed graph]] equipped with an $n$-ary composition operation for every [[natural number]] $n\ge 0$, satisfying suitable associativity axioms.  This definition may be called *unbiased*, as opposed to the usual definition which is "biased" towards $0$ and $2$.
+Conversely, a category can equivalently be defined as a [[quiver]] (a [[directed graph]]) equipped with an $n$-ary composition operation for every [[natural number]] $n\ge 0$, satisfying suitable associativity axioms.  This definition may be called *unbiased*, as opposed to the usual definition which is "biased" towards $0$ and $2$.
 
 
 ## Notation {#Notation}
