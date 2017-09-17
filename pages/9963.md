@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _augmented $A_\infty$-algebra_ is the analogue in [[higher algebra]] of the notion of _[[augmented algebra]]_ in ordinary algebra: an [[A-∞ algebra]] euipped with a [[homomorphism]] to the bas [[E-∞ ring]].
+The notion of _augmented $A_\infty$-algebra_ is the analogue in [[higher algebra]] of the notion of _[[augmented algebra]]_ in ordinary algebra: an [[A-∞ algebra]] euipped with a [[homomorphism]] to the base [[E-∞ ring]] (which might be a plain [[commutative ring]]).
 
 ## Definition 
  {#Definition}
@@ -88,7 +88,7 @@ Augmentation (of [[∞-groups of units]] of [[E-∞ rings]]) over the [[sphere s
 
 Augmentation over the [[Eilenberg-MacLane spectrum]] $H\mathbb{Z}$ appears in
 
-* Fregory Arone, [[Kathryn Hess]], _Augmented $\Gamma$-spaces, the stable rank filtration, and a $b u$-analogue of the Whitehead conjecture_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
+* Gregory Arone, [[Kathryn Hess]], _Augmented $\Gamma$-spaces, the stable rank filtration, and a $b u$-analogue of the Whitehead conjecture_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
  {#AroneHess}
 
 [[!redirects augmented A-infinity-algebras]]
