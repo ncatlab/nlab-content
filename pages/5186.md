@@ -141,7 +141,7 @@ $$
 The variation of the kinetic terms is slightly subtle due to the square root in 
 
 $$
-  dvol(\gamma^* g) = \sqrt{g(\dot g, \dot g)} d\tau
+  dvol(\gamma^* g) = \sqrt{g(\dot \gamma, \dot \gamma)} d\tau
   \,.
 $$
 
