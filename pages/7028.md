@@ -74,6 +74,8 @@ corresponding to $f$;
 
 * [[Hamiltonian operator]]
 
+* [[effect algebra]]
+
 ## References
 
 See the references at [[geometric quantization]].
