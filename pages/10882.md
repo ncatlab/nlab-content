@@ -1,3 +1,4 @@
+[[!redirects Representability theorems]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,7 +21,7 @@ This page collects some links related to the article
 
   _Representability theorems_
 
- ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf))
+  ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf))
 
 of [[representable|representability]] by [[Deligne-Mumford stacks]] in [[E-∞ geometry]].
 
