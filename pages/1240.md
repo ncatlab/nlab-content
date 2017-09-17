@@ -9,7 +9,7 @@
 =--
 =--
 
-# Contents
+# Induced modules
 * table of contents
 {:toc}
 
@@ -20,16 +20,16 @@ Given a [[group]] $G$ with [[subgroup]] $H \hookrightarrow G$ and a [[representa
 
 ## Explanation
 
-We start with a [[Lie group]] $G$ acting smoothly and transitively on a [[smooth manifold]] $M$.  The [[stabilizer subgroup]] of a given point $x \in M$ is then a Lie subgroup $H \subseteq G$, and we have
+Suppose a [[Lie group]] $G$ acts smoothly and transitively on a [[smooth manifold]] $M$.  The [[stabilizer subgroup]] of a given point $x \in M$ is then a Lie subgroup $H \subseteq G$, and 
 
 $$ 
   M \cong G/H
   \,, 
 $$
 
-the [[coset]] space.
+is the [[coset]] space.
 
-Starting from this, there's a process that takes any [[representation]] $s$ of $H$ on a [[vector space]] $V$ and turns it into a [[vector bundle]] $E$ over $M$ --- called the _induced bundle_.  Moreover, the group $G$ [[action|acts]] on this [[bundle]], and the [[projection]] 
+Starting from this, there's a recipe taking any [[representation]] $s$ of $H$ on a [[vector space]] $V$ and turns it into a [[vector bundle]] $E$ over $M$ --- called the _induced bundle_.  Moreover, the group $G$ [[action|acts]] on this [[bundle]], and the [[projection]] 
 
 $$ \pi : E \to M $$
 
@@ -287,9 +287,8 @@ The above text is taken from these comments
 * John Baez _[Reply](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023258)_
 
 
-[[!redirects induced representation]]
+[[!redirects induced module]]
 [[!redirects induced representations]]
-
 [[!redirects induction functor]]
 [[!redirects induction functors]]
 
