@@ -13,11 +13,14 @@
 * table of contents
 {:toc}
 
+##Idea
+The _theory of objects_ is the logical theory whose models in a category $\mathcal{C}$ are precisely the objects of $\mathcal{C}$.
+
 ## Definition
 
-The _theory of objects_ is the [[theory]] with no axioms over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
+The _theory of objects_ $O$ is the [[theory]] with no axioms over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
 
-So a [[model]] for this theory in a [[topos]] (or more generally a category) $\mathcal{E}$ is just an [[object]] of $\mathcal{E}$.
+Of course, $O$ is a [[geometric theory]], and as [[models]] for $O$ in a [[topos]] $\mathcal{E}$ correspond to [[objects]] of $\mathcal{E}$, we can use its [[classifying topos]] to get a representation of the objects of $\mathcal{E}$.
 
 In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the theory of objects corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]], section 'Functorial definition').
 
