@@ -9,27 +9,47 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
-A _strict $n$-category_ is a [[strict omega-category]] all whose [[k-morphism]]s for $k \gt n$ are identities.
+## Definition
 
-The category $n Cat$ of strict $n$-categories can also be defined inductively by
+A _strict $n$-category_ is a [[strict omega-category]] all whose [[k-morphisms]] for $k \gt n$ are identities.
+
+The [[category]] $n Cat$ of strict $n$-categories and [[n-functors]] between them can also be defined [[induction|inductively]] by
 
 * starting by setting $0 Cat :=$ [[Set]]; 
 
 * noticing that [[Set]] is canonically a (symmetric, in fact cartesian) [[closed monoidal category]] such that one can consider [[enriched category|categories enriched]] over it;
 
-* noticing that for $V$ any [[complete category|complete]] and [[cocomplete category|cocomplete]] closed monoidal category, also $V Cat$ has these same properties;
+* noticing that for $V$ any [[complete category|complete]] and [[cocomplete category|cocomplete]] closed monoidal category, also $V Cat$ (the category of $V$-[[enriched categories]]) has these same properties;
 
 * finally setting, recursively, 
 
   $$
-    (n+1)Cat := n Cat Cat
+    (n+1)Cat := (n Cat) Cat
     \,.
   $$
 
-The category $Str\omega Cat$ of strict $\omega$-categories can then in turn be defined as a suitable [[limit]] of the categories $n Cat$.
+The category $Str\omega Cat$ of strict $\omega$-categories can then in turn be defined as a suitable [[colimit]] of the categories $n Cat$.
 
-A strict 1-category is just a [[category]].  [[strict 2-category|Strict 2-categories]] are also very important, because the [[coherence theorem for bicategories]] states that any weak 2-category is [[equivalence of categories|equivalent]] to a strict one, and also because many 2-categories, such as [[Cat]], are naturally strict. However, for $n\ge 3$, these two properties fail, so that strict $n$-categories become less useful (though not useless).  Instead, one needs to use (at least) [[semistrict categories]].
+## Examples
+
+A strict 1-category is just a [[category]].  
+
+[[strict 2-category|Strict 2-categories]] are important, because the [[coherence theorem for bicategories]] states that every ("weak") [[2-category]] is [[equivalence of categories|equivalent]] to a strict one, and also because many 2-categories, such as [[Cat]], are naturally strict. However, for $n\ge 3$, these two properties fail, so that strict $n$-categories become less useful (though not useless).  Instead, one needs to use (at least) [[semistrict categories]].
+
+## Related concepts
+
+* [[(∞,n)-category]]
+
+## References
+
+With an eye towards the generalization to [[(∞,n)-categories]], strict $n$-categories are discussed in section 2 of 
+
+* [[Clark Barwick]], [[Chris Schommer-Pries]], _On the Unicity of the Homotopy Theory of Higher Categories_ ([pdf](http://arxiv.org/abs/1112.0040), [unusual slides](http://prezi.com/w0ykkhh5mxak/the-uniqueness-of-the-homotopy-theory-of-higher-categories/))
+ {#BarwickSchommerPries}
 
 
 [[!redirects strict n-categories]]
