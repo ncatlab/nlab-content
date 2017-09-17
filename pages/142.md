@@ -36,7 +36,7 @@ If the pseudofunctor takes values in the 2-subcategory [[Grpd]]$\subset Cat$ of 
 
 In some circles the notion of a stack as a generalized [[groupoid]] is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[diffeological space]]s are only beginning to be investigated more in [[Lie theory]]. 
 
-An [[algebraic stack]], [[differentiable stack]] etc. is a stack over a site of schemes or differentiable manifolds with additonal representability conditions. 
+An [[algebraic stack]], [[differentiable stack]] etc. is a stack over a site of schemes or differentiable manifolds with additional representability conditions. 
 
 
 ## Provisional discussion
