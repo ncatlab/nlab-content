@@ -11,6 +11,26 @@ More generally, for $n \in \mathbb{N}$ a solution to the equation $x^n - a = 0$ 
 
 More generally, for any [[polynomial]] or more general [[function]] $P(x)$ of $x$, a solution to $P(x) = 0$ is called a _root_ (or _zero_) of $P$.
 
+## Roots of unity in fields 
+
+In a [[field]] $k$, a [[torsion subgroup|torsion]] element of the multiplicative group $k^\ast$ is clearly a root of unity. Moreover we have the following result. 
+
++-- {: .un_thm} 
+###### Theorem 
+Let $G$ be a finite subgroup of the multiplicative group $k^\ast$ of a field $k$. Then $G$ is cyclic. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $e$ be the _exponent_ of $G$, i.e., the smallest $n \gt 0$ such that $g^n = 1$ for all $g \in G$, and let $m = order(G)$. Then each element of $G$ is a root of $x^e - 1$, so that $\prod_{g \in G} (x - g)$ divides $x^e - 1$, i.e., $m \leq e$. But of course $g^m = 1$ for all $g \in G$, so $e \leq m$, and thus $e = m$. 
+
+This is enough to force $G$ to be cyclic. Indeed, write $e = p_1^{r_1} p_2^{r_2} \ldots p_k^{r_k}$. Since $e$ is the least common multiple of the orders of elements, there is (for each $i$) an element whose order is divisible by $p_i^{r_i}$, and some power $y_i$ of that element will have order exactly $p_i^{r_i}$. Then $y = \prod_i y_i$ will have order $e = m$, so that powers of $y$ exhaust all $m$ elements of $G$, and we are done. 
+=-- 
+
++-- {: .un_cor}
+###### Corollary 
+Every finite field has a cyclic multiplicative group. 
+=-- 
 
 ## Related concepts
 
