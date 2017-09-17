@@ -21,7 +21,7 @@
 
 ## Idea
 
-An [[(∞,1)-category]] satisfying the analogof the properties of a [[disjunctive category]].
+An [[(∞,1)-category]] satisfying the analogs of the properties of a [[disjunctive category]].
 
 ## References
 
