@@ -1,8 +1,28 @@
-A numerable open cover is an [[open cover]] of a topological space that admits a subordinate [[partition of unity]]. 
 
-### Definition ###
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
-Let $\{U_i\}$ be an open [[cover]] of the space $X$ (actually Dold doesn't always require open, see discussion below). It is said to be **numerable** if there is a collection of functions $\phi_i:X \to [0,1]$ such that 
+
+#Contemts#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+A _numerable open cover_ is an [[open cover]] of a [[topological space]] that admits a subordinate [[partition of unity]]. 
+
+
+
+## Definition
+
+Let $\{U_i\}$ be an open [[cover]] of the [[topological space]] $X$ (actually Dold doesn't always require open, see discussion below). It is said to be **numerable** if there is a collection of functions $\phi_i:X \to [0,1]$ such that 
 
 * $\overline{supp(\phi_i)} \subset U_i$,
 * at each point $x\in X$, only finitely many of the $\phi_i$ are non-zero,
@@ -16,8 +36,10 @@ For paracompact spaces, numerable covers are cofinal in open covers, so that the
 
 There is also some result by Bourbaki that I have to look up that numerable covers are cofinal in [[locally finite open cover|locally finite covers]] of [[normal spaces]].
 
-### References ###
+## References ##
 
-A. Dold, _Partitions of unity in the theory of fibrations_
+* A. Dold, _Partitions of unity in the theory of fibrations_
 
 Another one by Dold, will look it up - it talks about stacked covers in the appendix: these are useful for 'decomposing' numerable covers of products to a sort of parameterised version depending on a numerable cover of the first factor. This is important in looking at concordance of numerable bundles.
+
+[[!redirects numerable open covers]]
