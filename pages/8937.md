@@ -25,6 +25,8 @@ In [[higher geometric prequantization]] (see there for more details for the mome
 
 * [[line 2-bundle]]
 
+* [[prequantum n-state]]
+
 [[!include extended prequantum field theory - table]]
 
 
@@ -36,4 +38,11 @@ In [[higher geometric prequantization]] (see there for more details for the mome
 
 [[!redirects prequantum 2-bundle]]
 [[!redirects prequantum 2-bundles]]
+
+[[!redirects prequantum line 2-bundle]]
+[[!redirects prequantum line 2-bundles]]
+
+[[!redirects prequantum line n-bundle]]
+[[!redirects prequantum line n-bundles]]
+
 
