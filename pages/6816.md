@@ -104,6 +104,9 @@ Discussion of special properties of [[scattering amplitudes]] in the planar sect
 * [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
  {#Arkani-Hamed}
 
+For mathematical background see
+
+* Alexander Postnikov, _Total positivity, Grassmannians, and networks_ ([arXiv:math/0609764](http://arxiv.org/abs/math/0609764))
 
 ### Scattering amplitudes
 
