@@ -1496,8 +1496,13 @@ $$
   (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR} )
   : 
   */\mathbf{H}
-  \stackrel{\overset{\mathbf{\Pi}_{dR}}{\leftarrow}}{\stackrel{\underset{\mathbf{\flat}_{dR}}{\to}}
+  \stackrel{
+     \overset{\mathbf{\Pi}_{dR}}{\leftarrow}
+   }{
+     \underset{\mathbf{\flat}_{dR}}{\to}
+   }
   \mathbf{H}
+  \,.
 $$
 
 
@@ -1614,7 +1619,41 @@ $$
 The bottom horizontal morphism is a flat connection on the 
 $\infty$-bundle given by the cocycle $X \to \mathbf{\Pi}(X) \stackrel{\omega}{\to} A$. The diagram says that this is equivalent to the trivial bundle given by the trivial cocycle $X \to * \to A$.
 
++-- {: .un_prop #deRhamWithDiscCoeffsIsTrivial}
+###### Proposition
 
+The de Rham cohomology with coefficients in discrete object is trivial: for all $S \in ∞Grpd$ we have
+
+$$
+  \mathbf{\flat}_{dR} Disc S \simeq *
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using that in a [[local (∞,1)-topos]] the functor $Disc$ is a [[full and faithful (∞,1)-functor]] so that the [[unit of an adjunction|unit]] $Id \to \Gamma Disc $ is an equivalence and using that by the [[zig-zag identity]]  we have then that the [[unit of an adjunction|counit]] 
+$\mathbf{\flat} Disc S := Disc \Gamma Disc S \to Disc S$ is also an equivalence, we have
+
+
+$$
+  \begin{aligned}
+     \mathbf{\flat}_{dR} Disc S 
+     & :=
+     * \prod_{Disc S} \mathbf{\flat} Disc S
+     \\
+     & \simeq * \prod_{Disc S} Disc S
+     \\
+     & \simeq *
+  \end{aligned}
+  \,,
+$$
+
+since the pullback of an euqivalence is an equivalence.
+
+=--
 
 ### Concrete objects{#ConcreteObjects}
 
@@ -1822,7 +1861,7 @@ $$
 
 Since this is the pushout of an [[equivalence in an (∞,1)-category|equivalence]], also $* \to \Pi \mathbf{\Pi}_{dR} \mathbf{B}G$ is an equivalence.
 
-By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since in a [[local ∞-topos]] $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
+By the formal dual of the argument we have that $\Gamma \mathbf{\flat}_{dR} A \simeq *$. Since in a [[local (∞,1)-topos]] $\Gamma$ also preserves all colimits, we have in addition $\Gamma \mathbf{\Pi}_{dR} \simeq \mathbf{\Pi}_{dR} \Gamma$. The claim then follows with the above observation.
 
 =--
 
@@ -1841,34 +1880,26 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First observe that for all $A \in */\mathbf{H}$
+First observe that for all $A \in */\mathbf{H}$ we have
 
 $$
   \mathbf{\flat} \mathbf{\flat}_{dR} A \simeq *
 $$
 
-and dually for all $X \in \mathbf{H}$
+This follows using
 
-$$
-  \mathbf{\Pi} \mathbf{\Pi}_{dR} X \simeq *
-  \,.
-$$
-
-The first follows with using that 
-
-* \mathbf{\flat} is a [[right adjoint]] and hence preserves [[(∞,1)-pullback]]s;
+* $\mathbf{\flat}$ is a [[right adjoint]] and hence preserves [[(∞,1)-pullback]]s;
 
 * $\mathbf{\flat} \mathbf{\flat} := Disc \Gamma Disc \Gamma \simeq Disc \Gamma =: \mathbf{\flat}$ by the fact that $Disc$ is a 
   [[full and faithful (∞,1)-functor]]; 
 
-* the counit $\mathbf{\flat} \mathbf{\flat} A \to \mathbf{\flagt} A$ is equivalent to the identity, by the zig-zag-identity of the adjunction
+* the counit $\mathbf{\flat} \mathbf{\flat} A \to \mathbf{\flat} A$ is equivalent to the identity, by the [[zig-zag-identity]] of the [[adjunction]] and using that equivalences satisfy [[category with weak equivalences|2-out-of-3]].
 
 by computing
 
 $$
   \begin{aligned}
     \mathbf{\flat} \mathbf{\flat}_{dR} A
-    \\
     & 
     * \times_{\mathbf{\flat}A} \mathbf{\flat}\mathbf{\flat}A
     \\
@@ -1882,7 +1913,6 @@ $$
 
 using that the [[(∞,1)-pullback]] of an [[equivalence in an (∞,1)-category|equivalence]] is an equivalence.
 
-The second follows dually.
 
 From this we deduce that
 
@@ -1904,12 +1934,21 @@ $$
     * \times_{\mathbf{\flat}_{dR} A} *
     \\
     & \simeq
-    \mathbr{\flat}_{dR}( * \times_A * )
+    \mathbf{\flat}_{dR}( * \times_A * )
     \\
     & \simeq \mathbf{\flat}_{dR} \Omega A
   \end{aligned}
   \,.
 $$
+
+Also observe that by a [proposition above](#deRhamWithDiscCoeffsIsTrivial) we have
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{\Pi} X \simeq *
+$$
+
+for all $X \in \mathbf{H}$.
+
 
 Finally to obtain $FLie \circ FLie$ we do one more computation of this sort, using that $FLie := \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR}$ preserves the terminal object (since $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|∞-connected]]) and is a [[left adjoint]] (with right adjoint given by $\mathbf{\flat}_{dR} \mathbf{\Pi}_{dR}$):
 
@@ -1920,7 +1959,14 @@ $$
     FLie \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} A
     \\
     & \simeq
-    * \coprod_{FLie \mathbf{\flat}_{dR} A} \mathbf{\Pi} \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\flat}_{dR} A
+      * 
+        \coprod_{FLie \mathbf{\flat}_{dR} A} 
+      FLie \mathbf{\Pi} \mathbf{\flat}_{dR} A
+    \\
+    & \simeq
+      * 
+        \coprod_{FLie \mathbf{\flat}_{dR} A} 
+      \mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{\Pi} \mathbf{\flat}_{dR} A
     \\
     & \simeq 
     * \coprod_{FLie \mathbf{\flat}_{dR} A} *    
