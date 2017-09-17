@@ -19,7 +19,9 @@
 
 ## Idea
 
-Orientals are "oriented simplices": the $n$-th oriental is the simplicial $n$-simplex equipped with source and target relations, assigning to each $k$-face a set of $(k-1)$-faces called its source and a set of $(k-1)$-faces called its target, subject to some natural axioms. Each oriental freely generates (see below) a structure of a [[strict omega-category]] $O(\Delta^n)$, such that $k$-morphisms in $O(\Delta^n)$ are pasting diagrams of $k$-faces in $\Delta^n$.
+_Orientals_ are "oriented simplices": the $n$-th oriental is the [[simplicial set|simplicial]] $n$-[[simplex]] turned into a [[globular set|globular]] simplex, hence equipped with source and target relations, assigning to each $k$-face a set of $(k-1)$-faces called its source and a set of $(k-1)$-faces called its target, subject to some natural axioms. Thus an oriental is a translation from [[simplicial set|simplicial]] to _[[globular set|globular]]_ [[geometric shapes for higher structures]]. (For more discussion of this point see also at _[[Kan complex]]_ the section _[As models for ∞-groupoids](Kan%20complex#AsGrpds)_.)
+
+Each oriental freely generates (see below) a structure of a [[strict omega-category]] $O(\Delta^n)$, such that $k$-morphisms in $O(\Delta^n)$ are [[pasting diagrams]] of $k$-faces in $\Delta^n$.
 
 One of the axioms is a [[globular set|globularity axiom]], which says that the source of a source (that is, the union of sources of all $(k-1)$-faces in the source of a $k$-face) equals the source of the target, and similarly that the target of a source equals the target of the target. Thus, orientals mediate between the [[simplicial set|simplicial]] and the [[globular set|globular]] world of [[higher category theory|infinity-categories]].
 
