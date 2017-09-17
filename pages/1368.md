@@ -6,7 +6,7 @@
 
 ## Definition ##
 
-For $\infty Grpd$ the [[(∞,1)-category]] of [[∞-groupoids]], and for $S$ a [[(∞,1)-category]] (or in fact any [[simplicial set]]), an **$(\infty,1)$-presheaf** on $S$ is an $(\infty,1)$-functor
+For [[∞Grpd]] the [[(∞,1)-category]] of [[∞-groupoids]], and for $S$ a [[(∞,1)-category]] (or in fact any [[simplicial set]]), an **$(\infty,1)$-presheaf** on $S$ is an $(\infty,1)$-functor
 
 $$
   F : S^{op} \to \infty Grpd
@@ -38,6 +38,6 @@ see also
 
 section 5.1 of 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects (∞,1)-category of (∞,1)-presheaves]]
