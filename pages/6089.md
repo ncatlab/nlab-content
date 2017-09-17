@@ -34,3 +34,6 @@ For $A=B=\mathbb{Z}$, the Beilinson-Deligne cup product is associative and commu
 * [[Jean-Luc Brylinski]], _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkhaeuser
 
 * [[Mike Hopkins]] and [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math/0211216))
+
+
+[[!redirects cup product in ordinary differential cohomology]]
