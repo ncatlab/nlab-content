@@ -23,9 +23,9 @@ For more details see [[(∞,1)-category of (∞,1)-sheaves]].
 
 An $(n,1)$-presheaf can be $(n,1)$-sheafified by
 
-* applying the [[plus-construction on presheaves]] $n+1$ times (see [Lurie](#Lurie))
+* applying the [[plus-construction on presheaves]] $n+1$ times (see [Lurie, section 6.5.3](#Lurie))
 
-* applying a single "[[hypercover]]-plus-construction" (see [DHI](#DHI))
+* applying a single "[[hypercover]]-plus-construction" (see [DHI, theorem 7.6](#DHI))
 
 ## Related concepts
 
@@ -41,7 +41,7 @@ The iterated plus-construction is mentioned in section 6.5.3 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
 
-The "hypercover-plus construction" is discussed around prop. 7.9 of 
+The "hypercover-plus construction" is discussed around theorem 7.6 of 
 
 * [[Dan Dugger]], [[Sharon Hollander]], [[Dan Isaksen]], _Hypercovers and simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0563/spre.pdf))
  {#DHI}
