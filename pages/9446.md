@@ -1,9 +1,27 @@
 
-Give a [[monoid]] (or [[semigroup]]) $S$, a __left ideal__ in $S$ is [[subset]] $A$ of $S$ such that $S A$ is contained in $A$.  Similarly, a __right ideal__ is a subset $A$ such that $A S \subseteq A$.  Finally, a __two-sided ideal__, or simply __ideal__, in $S$ is a subset $A$ that is both a left ideal and a right ideal.  An ideal $A$ (on either side) must be a [[subsemigroup]] of $S$, but it is a [[submonoid]] iff $1 \in A$, in which case $A = S$.
+#Contents#
+* table of contents
+{:toc}
 
-Given a [[monoidal category]] $C$ and a [[monoid object]] (or semigroup object) $S$ of $C$, we can [[internalisation|internalise]] the above.  Note that we require $A$ to be a [[subobject]] of $S$ in $C$, even though it is not necessarily a [[submonoid]].
+## Definition
+
+Given a [[monoid]] (or [[semigroup]]) $S$, a __left ideal__ in $S$ is [[subset]] $A$ of $S$ such that $S A$ is contained in $A$.  Similarly, a __right ideal__ is a subset $A$ such that $A S \subseteq A$.  Finally, a __two-sided ideal__, or simply __ideal__, in $S$ is a subset $A$ that is both a left ideal and a right ideal.  
+
+Given a [[monoidal category]] $C$ and a [[monoid object]] (or semigroup object) $S$ of $C$, we can [[internalisation|internalise]] the above.  
+Note that we require $A$ to be a [[subobject]] of $S$ in $C$, even though it is not necessarily a [[submonoid]].
+
+In particular for $C = $ [[Ab]] a monoid in $C$ is a [[ring]] and the corresponding notion of _ideal in a ring_ is the most common notion of ideal.
 
 See [[ideal]] for ideals in more well known contexts: commutative idempotent monoids ([[semilattices]]) and monoids in [[Ab]] ([[rings]]).
+
+
+## Properties
+
+An ideal $A$ (on either side) must be a [[subsemigroup]] of $S$, but it is a [[submonoid]] iff $1 \in A$, in which case $A = S$.
+
+## Related concepts
+
+* [[sieve]]
 
 
 [[!redirects ideal of a monoid]]
