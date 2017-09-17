@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -32,6 +34,70 @@ See [[model structure on dg-coalgebras]] and [[model structure on dg-Lie algebra
 See ([Hinich](#Hinich))
 
 (...)
+
+### $(\infty,1)$-Sheaves over cosimplicial infinitesimally thickened points
+
+
++-- {: .num_defn }
+###### Definition
+
+Write 
+
+$$
+  InfThPoint \hookrightarrow Alg^{op}
+$$
+
+for the category of [[infinitesimally thickened points]], the [[full subcategory]] of the [[opposite category]] of 
+[[Artin algebras]] ("Weil alebras" in the language of [[synthetic differential geometry]]). The category of _[[infinitesimally thickened points]]_.
+
+Write
+
+$$
+  cInfThPoint \hookrightarrow sAlg^{op} \simeq (Alg^{op})^{\Delta}
+$$
+
+for the [[full subcategory]] of the [[opposite category]] on [[simplicial algebras]] on those which are [[Artin algebra|Artinian]] (or "Weil" ): the category of [[cosimplicial object|cosimplicial]] [[infinitesimally thickened points]].
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  FormalSpace \coloneqq Fun^{lex}(InfThPoints^{op}, Set)
+$$
+
+for the [[full subcategory]] of the [[category of presheaves]] over [[infinitesimally thickened points]] on those given by [[left exact functors]].
+
+=--
+
+In ([Pridham](#Pridham)) this is def. 1.18.
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  DerivedFormalSpace \coloneqq Fun^{lex}(cInfThPoints^{op}, sSet)
+$$
+
+for the [[full subcategory]] of the [[category of simplicial presheaves]] over [[cosimplicial object|cosimplicial]] infinitesimally thickened points on those given by [[left exact functors]].
+
+=--
+
+In ([Pridham](#Pridham)) this is def. 1.32.
+
+
+
++-- {: .num_defn }
+###### Definition
+
+
+
+=--
 
 ### Equivalent models
 
