@@ -104,7 +104,7 @@ $$
   tra : P_1(X) \to \mathbf{B}G
 $$
  
-in the 2-topos. These are now given by [[anafunctors]] of internal groupoids, and one finds that they encode a [[Cech cohomology|Cech cocycle]] for a $G$-principal bundle $P$ together with the parallel transport of a conneciton over it.
+in the 2-topos. These are now given by [[anafunctors]] of internal groupoids, and one finds that they encode a [[Cech cohomology|Cech cocycle]] for a $G$-principal bundle $P$ together with the parallel transport of a connection over it.
 
 This is discussed in more detail at
 
