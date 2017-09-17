@@ -40,7 +40,7 @@ $$
 
 +-- {: .un_defn}
 ###### Definition
-A representation $\pi$ of the local algebra $\mathcal{A}$ is called (DHR) **admissible** if $\pi | \mathcal{A}(\mathcal{K}^{\perp})$ is unitarily equivalent to $\pi | \mathcal{A}(\mathcal{K}^{\perp})$ for all $K \in \mathcal{J}_0$, that is, for all double cones $K$.
+A representation $\pi$ of the local algebra $\mathcal{A}$ is called (DHR) **admissible** if $\pi | \mathcal{A}(\mathcal{K}^{\perp})$ is unitarily equivalent to $\pi_0 | \mathcal{A}(\mathcal{K}^{\perp})$ for all $K \in \mathcal{J}_0$, that is, for all double cones $K$.
 =--
 
 Note that the equivalence of the representations is required for the causal complement of _all_ double cones, not a special one, so that the characterization that "the representations can not be distinguished at space-like infinity" is misleading.  
