@@ -39,6 +39,10 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * [[chromatic convergence theorem]]
 
+## Examples
+
+* [[Brown-Peterson spectrum]]
+
 ## Related concepts
 
 * [[p-completion]]
