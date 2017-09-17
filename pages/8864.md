@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also called their **Whitney sum**, is the vector bundle $E_1 \oplus E_2 \to X$ whose [[fiber]] over any $x \in X$ is the [[direct sum]] of vector spaces of the fibers of $E_1$ and $E_2$.
+
+## Related concepts
+
+* [[Stiefel-Whitney class]]
+
+[[!redirects Whitney sum]]
