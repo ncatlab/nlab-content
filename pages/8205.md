@@ -64,9 +64,9 @@ talks at
 
 #### Worldline formalism
 
-The [[worldline formalism]] for expressing QFT [[scattering amplitudes]] in an effective [[gauge invariance|gauge invariant]] way (different from but equivalent to the [[Feynman rules]]) was orginally found by taking the point-particle limit of the expressions for [[string scattering amplitudes]]. See at _[[worldline formalism]]_ for more.
+The [[worldline formalism]] for expressing QFT [[scattering amplitudes]] in an effective [[gauge invariance|gauge invariant]] way (different from but equivalent to the [[Feynman rules]]) was originally found by taking the point-particle limit of the expressions for [[string scattering amplitudes]]. See at _[[worldline formalism]]_ for more.
 
-#### Montonen-Olive electric/magentic duality
+#### Montonen-Olive electric/magnetic duality
 
 [[Montonen-Olive duality]] of ([[super Yang-Mills theory|super]])  [[Yang-Mills theory]] derives from conformal invariance of the [[6d (2,0)-supersymmetric QFT]] (see there) [[Kaluza-Klein mechanism|compactified]] on a [[torus]].
 
