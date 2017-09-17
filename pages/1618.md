@@ -59,6 +59,7 @@ More precisely, $E$ has enough points if for any morphism $f : A \to B$, we have
 ### In presheaf toposes
 
 +-- {: .num_prop}
+
 ###### Proposition
 
 For $C$ a [[small category]], the points of the [[presheaf topos]] $[C^{op}, sSet]$ are the [[flat functor]]s
@@ -68,7 +69,7 @@ there is an [[equivalence of categories]]
 
 $$
   Topos(Set, [C^{op}, Set])
-  \stackrle{\overset{}{\leftarrow}}{\underset{}{\to}}
+  \stackrel{\overset{}{\leftarrow}}{\underset{}{\to}}
   FlatFunc(C,Set)
   \,.
 $$
