@@ -37,11 +37,11 @@ $\langle A \rangle = \sum_{\alpha}p_{\alpha}\langle A \rangle_{\alpha} = \sum_{\
 
 ## Density operator
 
-Given the above, we define the *density operator* to be
+Given the above, we define the __density operator__ to be
 
 $\mathbf{\rho}=\sum_{\alpha} \rho_\alpha \, |\psi_{\alpha}\rangle\langle\psi_{\alpha}|$.
 
-We call the matrix representation of the density operator, the *density matrix*.
+We call the [[matrix]] representation of the density operator, the __density matrix__.
 
 ## Coherence
 
