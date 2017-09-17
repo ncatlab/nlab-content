@@ -49,7 +49,7 @@ Important classes of bounded operators are the [[compact operators]], [[trace-cl
 
 * wikipedia: [bounded operator](http://en.wikipedia.org/wiki/Bounded_operator)
 
-
+category: analysis
 [[!redirects bounded operator]]
 [[!redirects bounded operators]]
 
