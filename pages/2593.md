@@ -209,4 +209,11 @@ The [[∞-Lie algebra]] [[∞-Lie algebra cohomology|extensions]] $b^{n-2} \to \
 * [[John Baez]] and [[Alissa Crans]], Higher-Dimensional Algebra VI: Lie 2-Algebras, Theory and Applications of Categories 12 (2004), 492-528.  [arXiv](http://arxiv.org/abs/math.QA/0307263)
 {#BaezCrans}
 
+## References
+
+For instance chapter V in vol III of 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+
 [[!redirects Lie algebra cocycle]]
