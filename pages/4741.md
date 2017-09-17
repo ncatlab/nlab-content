@@ -39,8 +39,10 @@ It is the fact that this condition makes recourse among all [[(n,r)-categories]]
 
 ## Examples
 
-* The [[coherence theorem]] for [[monoidal categories]] asserts that the with the standar definition of [[monoidal category]], there is a unique composite of [[associators]] that re-bracket any sequence of [[tensor product]]s.
+* The [[coherence theorem for monoidal categories]] asserts that the with the standar definition of [[monoidal category]], there is a unique composite of [[associators]] that re-bracket any sequence of [[tensor product]]s.
 
 [[!redirects coherence laws]]
 [[!redirects coherent]]
 [[!redirects coherence]]
+
+[[!redirects coherence condition]]
