@@ -39,13 +39,19 @@ $$
   \mathbf{MCG}(X) \coloneqq \mathbf{Aut}(X)/\mathbf{Aut}_0(X)
 $$
 
-is the correspodning [[coset space]]/[[quotient group]].
+is the corresponding [[coset space]]/[[quotient group]]. In other words, the mapping class group is the group of [[diffeomorphisms]] of $X$ onto itself, modulo [[isotopy]]. 
+
+If $X$ is a manifold with boundary $\partial X$, then it is usual to consider automorphisms which restrict to the identity on the boundary. 
 
 ## Properties
 
 ### For 2-dimensional surfaces
 
-The [[classifying spaces]] of mapping class groups for 2-[[dimension]]al [[manifolds]] are encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details.
+The [[classifying spaces]] of mapping class groups for 2-[[dimension]]al [[manifolds]] are encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details. 
+
+One of the classical results is that the mapping class group of the torus $\mathbb{R}^2/\mathbb{Z}^2 \cong (S^1)^2$ is isomorphic to $SL_2(\mathbb{Z}$ (more generally, $MCG(\mathbb{R}^n/\mathbb{Z}^n) \cong SL_n(\mathbb{Z})$). Certain generators called Dehn twists may be visualized as cutting a torus along a circle $\{a\} \times S^1$ (or $S^1 \times \{b\}$), thus producing a cylinder, then twisting one of the ends of the cylinder through $2\pi$ and reattaching the two ends. 
+
+Another example is a 2-disk with $n$ punctures. The group of diffeomorphisms (fixing the boundary pointwise) modulo isotopy is the [[braid group]] $B_n$. 
 
 
 ## References
