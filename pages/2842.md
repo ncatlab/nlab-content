@@ -9,7 +9,7 @@
 =--
 =--
 
-#Contens#
+#Contents#
 * table of contents
 {:toc}
 
@@ -122,7 +122,7 @@ The [[product]] of two closed cofibrations is a closed cofibration.
 
 The fact that morphisms of fibrant pullback diagrams along closed cofibrations induce closed cofibrations is in
 
-* R. W. Kieboom, _A pullback theorem for cofibrations_ (1987) , ([web](http://www.springerlink.com/content/h13576n5672q1574/))
+* [[R. W. Kieboom]], _A pullback theorem for cofibrations_ (1987) , ([web](http://www.springerlink.com/content/h13576n5672q1574/))
 {#Kieboom}
 
 [[!redirects Hurewicz cofibrations]]
