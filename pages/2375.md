@@ -39,6 +39,8 @@
 
 * [[monadicity theorem]]
 
+* [[adjoint lifting theorem]]
+
 * [[Tannaka duality]]
 
 ## Extensions 
