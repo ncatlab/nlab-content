@@ -243,7 +243,7 @@ and $E_{8(8)}$ in
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for $d = 11$
 supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034)).
 
-A discussion in the context of [[generalized complex geometry]] is in 
+A discussion in the context of [[generalized complex geometry]] / [[exceptional generalized complex geometry]] is in 
 
 * Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
