@@ -148,6 +148,11 @@ This is how (equivariant) [[bivariant K-theory]] is presented, at least over man
 
 =--
 
+## Related concepts
+
+* [[noncommutative motive]]
+
+* [[motivic quantization]]
 
 
 ## References
