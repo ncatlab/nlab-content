@@ -132,3 +132,6 @@ See also
 * [[Hisham Sati]], _Geometry of $Spin$ and $Spin^c$ structures in the M-theory partition function_ ([arXiv:1005.1700](http://arxiv.org/abs/1005.1700))
 
 [[!redirects spin^c structures]]
+
+[[!redirects Spin^c structure]]
+[[!redirects Spin^c structures]]
