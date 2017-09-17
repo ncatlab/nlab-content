@@ -25,6 +25,8 @@ $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $
 
 * An essentially surjective functor is additionally [[fully faithful functor|fully faithful]] precisely when it is an [[equivalence of categories]].
 
+* The [[inclusion functor]] of a [[subcategory]] is essentially surjective preciesely when the subcategory is [[essentially wide subcategory|essentially wide]].
+
 
 ## Properties
 
