@@ -86,7 +86,7 @@ Surveys are in
 
 * [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
-* Anand Dessai, _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
+* [[Anand Dessai]], _Some geometric properties of the Witten genus_ ([pdf](http://homeweb2.unifr.ch/dessaia/pub/papers/Arolla/DessaiArollaFinalRevised30June09.pdf))
 
 
 Further discussion of the relation to [[quantum anomalies]] and the [[Green-Schwarz mechanism]] ([[string structure]], [[string^c structure]]) is in 
