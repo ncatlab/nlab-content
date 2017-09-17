@@ -152,7 +152,7 @@ While on the right this expresses the collection of the pullback bundle, the lef
 
 ### Spin-, String- and Fivebrane-structures
 
-Where a [[spin structure]] on [[spacetime]] is necessary to cancel a [[quantum anomaly]] of the [[spinning particle]]/[[superparticle]] [[sigma-model]], so the [[heterotic string|heterotic]] [[superstring]] requires a "higher spin structure" called a _[[string structure]]_. Or rather, in the presence of a nontrivial [[gauge field]] it involves a _[[twisted differential string structure|twisted string structure]]_ which in string theory is best known as showing up as part of the _[[Green-Schwarz mechanism]]_. Further up in dimension, _[[dual heterotic string theory]]_ involves a ([[twisted differential fivebrane structure|twisted, differential]]) _[[fivebrane structure]]_.
+Where a [[spin structure]] on [[spacetime]] is necessary to cancel a [[quantum anomaly]] of the [[spinning particle]]/[[superparticle]] [[sigma-model]], so the [[heterotic string|heterotic]] [[superstring]] requires a "higher spin structure", called a _[[string structure]]_. Or rather, in the presence of a nontrivial [[gauge field]] it involves a _[[twisted differential string structure|twisted string structure]]_, which in string theory is best known as showing up as part of the _[[Green-Schwarz mechanism]]_. Further up in dimension, _[[dual heterotic string theory]]_ involves a ([[twisted differential fivebrane structure|twisted, differential]]) _[[fivebrane structure]]_.
 
 #### Whitehead tower
  {#WhiteheadTower}
@@ -292,8 +292,7 @@ The [[universal property]] of [[homotopy pullbacks]] says that
 * the obstruction to lifting a [[string structure]] $X \to B String$ to a [[fivebrane structure]] is the [[second fractional Pontryagin class]].
 
 
-
-#### Smooth refinement
+#### Necessity of smooth refinement
 
 The [[classifying space]] for, say, the [[spin group]] is _not_ a [[fine moduli space]]: while homotopy classes $Maps(X, B Spin)_\sim$ of maps $X \to B Spin$ are in bijection with equivalence classes of [[spin bundles]] on $X$, the homotopy classes $Maps(X, \Omega B Spin)_\sim = Maps(X, Spin)_\sim$ of [[homotopies]] from the trivial map $X \to * \to B Spin$ are _not_ in general in bijection with the [[gauge transformations]] of the trivial spin bundle: the latter form the set of [[smooth functions]] $C^\infty(X,Spin)$, not just the homotopy classes of these.
 
@@ -309,6 +308,7 @@ Problems include for instance:
 
 These problems are all fixed by refining the [[classifying space]] $B Spin \in \infty Grpd$ to the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B} Spin \in Smooth \infty Grpd$, and similarly for the other cases.
 
+#### Smooth refinement
 
 **Theorem** There is a lift of the [above Whitehead tower](#WhiteheadTower) of [[homotopy type|bare homotopy types]] to a tower of [[smooth infinity-groupoid|smooth homotopy types]]/[[smooth infinity-stacks]] through the [[geometric realization]] map
 
@@ -329,7 +329,7 @@ $$
     \\
     \downarrow
     \\
-    \mathbf{B} String &\stackrel{\tfrac{1}{6}\mathbf{B}_2}{\to}& \mathbf{B}^7 U(1) 
+    \mathbf{B} String &\stackrel{\tfrac{1}{6}\mathbf{p}_2}{\to}& \mathbf{B}^7 U(1) 
     \\
     \downarrow
     \\
@@ -343,7 +343,7 @@ $$
     \\
     \mathbf{B} O &\stackrel{\mathbf{w}_1}{\to}& \mathbf{B} \mathbb{Z}_2
     \\
-    \downarrow^{\mathrlap{\simeq}}
+    \downarrow
     \\
     \mathbf{B} GL
   }
@@ -362,7 +362,45 @@ where
 
 #### Differential refinement
 
+
+**Theorem** 
+
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow
+    \\
+    \mathbf{B} Fivebrane_{conn}
+    \\
+    \downarrow
+    \\
+    \mathbf{B} String_{conn} &\stackrel{\tfrac{1}{6}\hat \mathbf{p}_2}{\to}& \mathbf{B}^7 U(1)_{conn} 
+    \\
+    \downarrow
+    \\
+    \mathbf{B} Spin_{conn} &\stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}& \mathbf{B}^3 U(1)_{conn} 
+    \\
+    \downarrow
+    \\
+    \mathbf{B} S O_{conn} &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
+    \\
+    \downarrow
+    \\
+    \mathbf{B} O_{conn} &\stackrel{\mathbf{w}_1}{\to}& \mathbf{B} \mathbb{Z}_2
+    \\
+    \downarrow^{}
+    \\
+    \mathbf{B} GL_{conn}
+  }
+  \,.
+$$
+
+#### Twisted refinement -- Green-Schwarz mechanism
+
 (...)
+
 
 ### $Spin^c$- $String^c$- and $Fivebrane^c$-structures
 
