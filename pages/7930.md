@@ -67,12 +67,11 @@ The unique irreducible Dirac representation in the odd dimension $d+1$ is, as a 
 
 ### Real and quaternionic representations
 
-One may ask in which dimensions $d$ the above complex representation admit a [[real structure]] or a [[quaternionic structure]].
+One may ask in which dimensions $d$ the above complex representations admit a [[real structure]] or a [[quaternionic structure]].
 
 Real spinor representations are also called _Majorana representations_, and an element of a real/Majorana spin representation is also called a _Majorana spinor_. On a Majorana representation $S$ there is a non-vanishing symmetric and $Spin(d-1,1)$-invariant [[bilinear form]] $S \otimes S \longrightarrow \mathbb{R}^d$, projectively unique if $S$ is [[irreducible representation|irreducible]]. This serves as the odd-odd [[Lie bracket]] in the [[super Lie algebra]] called the [[super Poincaré Lie algebra]] [[Lie algebra extension|extension]] of the ordinary [[Poincaré Lie algebra]] induced by $S$. This is "[[supersymmetry]]" in [[physics]].
 
 The above irreducible complex representations admit a [[real structure]] for $d = 1,2,3 \, mod \, 8$. 
-
 Therefore in dimension $d = 2 \, mod \, 8$ there exist _Majorana-Weyl spinor_ representations.
 
 The above irreducible complex representations admit a [[quaternionic structure]] for $d = 5,6,7 \, mod \, 8$. 
@@ -119,6 +118,10 @@ which is
 This allows to form the [[super Poincaré Lie algebra]] in each of these cases. See there and see _[Spinor bilinear forms](#SpinorBilinearForms)_ below for more.
 
 =--
+
+#### Quaternionic irreducible spin representations in Lorentz signature
+ {#QuaternionicIrreducibleSpinRepresentationInLorentzSignature}
+
 
 ### Spinor bilinear forms
  {#SpinorBilinearForms}
