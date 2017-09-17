@@ -1,4 +1,6 @@
 
+> under construction
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,8 +9,8 @@
 
 Traditional [[prequantum geometry]] is the [[differential geometry]] of [[smooth manifolds]] which are equipped with a _[[twisted cohomology|twist]]_   in the form of a [[circle group]]-[[principal bundle]] and a circle-[[principal connection]].
 In the context of _[[geometric quantization]]_ of [[symplectic manifolds]] these arise as _[[prequantum bundles]]_. Equivalently, prequantum geometry is the _[[contact geometry]]_ of the  total spaces of these bundles, equipped with their [[Ehresmann connection]] [[differential 1-form]] and  thought of as _[[regular contact manifolds]]_.  Prequantum geometry notably studies the [[automorphisms]] of [[prequantum bundles]] covering [[diffeomorphisms]] of the base
--- the _[[prequantum operators]]_ or _[[contactomorphisms]]_ -- and the [[action]] of these on the space of [[]]sections of the [[associated bundle|associated]] [[line bundle]] -- the _[[prequantum states]]_. This is an intermediate step in the genuine _[[geometric quantization]]_ of the [[curvature]] [[differential 2-form]] of these bundles,
-which is obtained by "dividing the above data in half" ([[polarizatiojn]]), important for instance in the the _[[orbit method]]_.
+-- the _[[prequantum operators]]_ or _[[contactomorphisms]]_ -- and the [[action]] of these on the space of [[sections]] of the [[associated bundle|associated]] [[line bundle]] -- the _[[prequantum states]]_. This is an intermediate step in the genuine _[[geometric quantization]]_ of the [[curvature]] [[differential 2-form]] of these bundles,
+which is obtained by "dividing the above data in half" ([[polarization]]), important for instance in the the _[[orbit method]]_.
 
 But prequantum geometry is of interest in its own right. 
 For instance the above automorphism group naturally provides the 
@@ -17,9 +19,199 @@ injection into the [[group of bisections]] of the [[Lie integration]] of the  _[
 
 For a plethora of applications in [[differential geometry]], one wants to generalize this to _[[higher differential geometry]]_ (see at _[[motivation for higher differential geometry]]_) and accordingly study _higher prequantum geometry_.
 
+## Motivation and survey of results
+
+A sequence of time-honored  traditional concepts in [[geometric quantization]]/[[prequantum geometry]] is
+
+| [[Lie groups]]: | [[Heisenberg group]] | $\hookrightarrow$ | [[quantomorphism group]] | $\hookrightarrow$ |   [[gauge group]]  | 
+|--|--|--|--|--|--|
+| [[Lie algebras]]: | [[Heisenberg Lie algebra]] | $\hookrightarrow$ | [[Poisson Lie algebra]] | $\hookrightarrow$ | twisted [[vector fields]] |
+
+For instance in the [[geometric quantization]] of the [[electromagnetic field|electrically]] [[charged particle|charted]] [[particle]] [[sigma-model]] we have a [[prequantum circle bundle]] $\nabla$ on a [[cotangent bundle]] $T^* X$ which is essentially the [[pullback]] of the [[electromagnetic field]]-bundle on [[target space|target]] [[spacetime]]. Then (...).
+
+
+we lift this to 
+
+[[!include slice automorphism groups in higher prequantum geometry - table]]
+
+
+in this generality this now includes various other notions, too:
+
+[[!include higher Atiyah groupoid - table]]
+
+
+We have the extension theorem fully generally:
+
++-- {: .num_theorem }
+###### Theorem
+
+For $\mathbb{G}$ a [[braided ∞-group]] and $\nabla \colon X \to \mathbf{B}\mathbb{G}_{conn}$ a higher prequantum geometry with respect to $\mathbb{G}$ there is a long [[homotopy fiber sequence]]
+
+$$
+  \left(\Omega \mathbb{G}\right)\mathbf{FlatConn}\left(\nabla\right)
+  \to
+  \mathbf{QuantMorph}(\nabla)
+  \to 
+  \mathbf{HamSympl}(\nabla)
+  \stackrel{\nabla \circ (-)}{\to}
+  \mathbf{B}\left(\left(\Omega \mathbb{G}\right)\mathbf{FlatConn}\left(\nabla\right) \right) 
+  \,.
+$$
+
+Similarly there is the [[Heisenberg infinity-group]] extension
+
+$$
+  (\Omega \mathbb{G})\mathbf{FlatConn}(X)
+   \to
+  \mathbf{Heis}(\nabla)
+   \to 
+  G
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[Lie differentiation]] of the [[∞-group extension]] sequence of prop. \ref{QuantomorphismExtension} is a [[homotopy fiber sequence]] of [[L-∞ algebras]] 
+
+$$
+  \mathbf{H}(X, \flat \mathbf{B}^{n-1}\mathbb{R})
+  \to
+  \mathfrak{Poisson}(X,\omega) \to \mathcal{X}_{Ham}(X,\omega)
+  \stackrel{\iota_{(-)\omega}}{\to}
+  \mathbf{B}\mathbf{H}(X, \flat \mathbf{B}^{n-1}\mathbb{R})
+  \,,
+$$
+
+where
+
+* $\mathfrak{Poisson}(X,\omega)$ is the [[Poisson Lie n-algebra]] as defined in ([Rogers 11](#Rogers11)).
+
+* $\mathcal{X}_{Ham}$ is the Lie algebra of [[vector fields]] restricted to the [[Hamiltonian vector fields]];
+
+* $\mathbf{H}(X, \flat (\mathbf{B}^{n-1})\mathbb{R})$ is the [[chain complex]] for flat [[de Rham cohomology]] in the given degree, regarded as an abelian [[L-∞ algebra]].
+
+=--
+
+
+
+The following table shows what this sequence reduces to when one chooses $\mathbb{G} = \mathbf{B}^{n-1}U(1)$.
+
+[[!include geometric quantization extensions - table]]
+
++-- {: .num_example }
+###### Example
+
+For $G$ a simply connected semisimple compact Lie group such as the [[spin group]], let $\nabla \colon G \to \mathbf{B}^2 U(1)_{conn}$ be the canonical [[circle 2-bundle with connection]] over it. Then the [[Heisenberg infinity-group|Heisenberg 2-group]] [[infinity-group extension|extension]]
+
+$$
+  U(1)\mathbf{FlatConn}(G)
+   \to
+  \mathbf{Heis}(\nabla)
+   \to
+  G
+$$
+
+is the [[string 2-group]] extension
+
+$$
+  \mathbf{B}U(1) \to String(G) \to G
+  \,.
+$$
+
+=--
+
+The way all these notions and theorems work is by considering [[automorphism ∞-groups]] of the classifying (or rather: modulating) maps $\nabla \colon X \to \mathbf{B}\mathbb{G}_{conn}$ of a [[prequantum ∞-bundle]] in the [[slice (∞,1)-topos]] over the domain. For instance
+
+$$
+  \mathbf{QuantMorph}(\nabla)  
+  =
+  \left\{
+    \array{
+      X && \underoverset{\simeq}{\phi}{\to} && X
+      \\
+      & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\mathrlap{\nabla}}
+      \\
+      && \mathbf{B}\mathbb{G}_{conn} 
+    }
+  \right\}
+  \,.
+$$
+
+The others are obtained by succesively forgetting connection data. For instance
+
+$$
+  \BiSect(Cou(\nabla))  
+  =
+  \left\{
+    \array{
+      X && \underoverset{\simeq}{\phi}{\to} && X
+      \\
+      & {}_{\mathllap{\nabla_1}}\searrow &\swArrow& \swarrow_{\mathrlap{\nabla_1}}
+      \\
+      && \mathbf{B}(\mathbf{B}\mathbb{G}_{conn})
+     }
+   \right\}
+   \,.
+$$
+
+and
+
+$$
+  \BiSect(At(\nabla))  
+  =
+  \left\{
+    \array{
+      X && \underoverset{\simeq}{\phi}{\to} && X
+      \\
+      & {}_{\mathllap{\nabla_0}}\searrow &\swArrow& \swarrow_{\mathrlap{\nabla_0}}
+      \\
+      && \mathbf{B}\mathbb{G}
+    }
+  \right\}
+  \,.
+$$
+
+The extension sequence is then schematically simply the following
+
+$$
+  \left\{
+    \array{
+      && X
+      \\
+      & \swarrow &  & \searrow
+      \\
+      & \searrow &\swArrow& \swarrow
+      \\
+      && \mathbf{B}\mathbb{G}_{conn} 
+    }
+  \right\}
+  \; \to \;
+  \left\{
+    \array{
+      X &&\stackrel{\simeq}{\to}&& X
+      \\
+      & {}_{\mathllap{\nabla}}\searrow &\swArrow& \swarrow_{\mathrlap{\nabla}}
+      \\
+      && \mathbf{B}\mathbb{G}_{conn}
+    }
+  \right\}
+  \;
+  \to
+  \;
+  \left\{
+    \array{
+      X && \stackrel{\simeq}{\to} && X
+    }
+  \right\}
+$$
+
 ## Constructions in higher prequantum geometry
 
-[[!include higher Atiyah groupoids - table]]
+[[!include slice automorphism groups in higher prequantum geometry - table]]
+
+[[!include higher Atiyah groupoid - table]]
 
 [[!include geometric quantization extensions - table]]
 
