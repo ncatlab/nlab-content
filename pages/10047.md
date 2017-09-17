@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Continuous categories
 
 * table of contents
@@ -5,13 +17,13 @@
 
 ## Idea
 
-A continuous category is a [[categorification]] of the notion of [[continuous poset]].
+The notion of _continuous category_ is a [[categorification]] of the notion of _[[continuous poset]]_.
 
 ## Definition
 
-Let $C$ be a [[category]] and $Ind(C)$ its category of [[ind-objects]].  We assume that $C$ has [[filtered colimits]], which is equivalently to say that the restricted [[Yoneda embedding]] $\hat{(-)} : C\to Ind(C)$ has a left adjoint $\colim$.
+Let $C$ be a [[category]] and $Ind(C)$ its category of [[ind-objects]].  We assume that $C$ has [[filtered colimits]], which is equivalently to say that the restricted [[Yoneda embedding]] $\hat{(-)} : C\to Ind(C)$ has a [[left adjoint]] $\colim$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 A category $C$ with filtered colimits is a **continuous category** if $\colim: Ind(C) \to C$ has a left adjoint.
 =--
