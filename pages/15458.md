@@ -1,2 +1,1 @@
-Loyalty program to encourage traders Prime FSM
-We do not do competitions, do not arrange sales and doing charity work.
+[[!redirects 6d+%282,0%29-supersymmetric+QFT]]
