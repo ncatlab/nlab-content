@@ -1,8 +1,10 @@
-[[!redirects orbifold groupoid]]
+# Orbifold groupoids
+* table of contents
+{: toc}
 
 ##Idea
 
-A [[groupoid]] [[presented stack|presenting]] an [[orbifold]] (as a stack) is called **orbifold groupoid**. Since in the literature there are different notions of orbifolds, there are different sets of properties the presenting groupoids are required to satisfy.
+A (smooth) [[groupoid]] [[presented stack|presenting]] an [[orbifold]] (as a [[stack]]) is called an **orbifold groupoid**. Since in the literature there are different notions of orbifolds, there are different sets of properties the presenting groupoids are required to satisfy.
 
 
 ## Definitions
@@ -95,4 +97,8 @@ Properness implies stability.
 [^Mc Duff]: [[''groupoids, branched manifolds and multisections'']]
 
 [^H. Hofer]: [[''polyfolds and a general Fredholm theory'']]
+
 category: orbifold
+
+[[!redirects orbifold groupoids]]
+[[!redirects orbifold groupoid]]
