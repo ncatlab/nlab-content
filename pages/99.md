@@ -334,18 +334,34 @@ This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is t
 
 ### $\infty$-Lie algebra valued differential forms {#LieAlgValuedForms}
 
-For $\mathfrak{g}$ an [[∞-Lie algebra]],  $X$ a [[smooth manifold]], $\mathfrak{g}$-valued differential forms are morphisms
+For $\mathfrak{g}$ an [[∞-Lie algebra]],  $X$ a [[smooth manifold]], an 
+[[∞-Lie algebra valued differential form]] is a morphism
 
 $$
-  (A,F_A) : W(\mathfrak{g}) \to \Omega^\bullet(X)
-  \,.
+  \Omega^\bullet(X) \leftarrow W(\mathfrak{g}) : A
 $$
+
+of [[dg-algebra]]s, from the Weil algebra into the [[de Rham complex]] of $X$.
 
 The image of the unshifted generators $A : \wedge^1 \mathfrak{g}^* \to \Omega^\bullet(X)$ are the forms themselves, the image of the shifted generators $F_A : \wedge^1 \mathfrak{g}^*[1]$ are the corresponding [[curvature]]s. The respect for the differential on the shifted generators are the [[Bianchi identity]] on the curvatures.
 
 Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$.
 
-More on this at [[schreiber:curvature of ∞-Lie algebroid valued differential forms]].
+$$
+  (F_A = 0) 
+  \;\;\Leftrightarrow
+  \;\;
+  \left(
+  \array{
+     && CE(\mathfrak{g})
+     \\
+     & {}^{\mathllap{\exists A_{flat}}}\swarrow & \uparrow
+     \\
+     \Omega^\bullet(X) &\stackrel{A}{\leftarrow}& W(\mathfrak{g})     
+  }
+  \right)
+  \,.
+$$
 
 
 ### Invariant polynomials and Chern-Simons elements
