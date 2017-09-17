@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Doctrinal Adjunction_ is the title of a 1974 paper ([Kelly](#Kelly)) that gives conditions under which [[adjunction|adjoint morphisms]] $f \dashv u$ in a [[2-category]] $K$, and additionally the unit and counit, may be lifted to $T$-$Alg_l$, for some [[2-monad]] $T$ on $K$.  
+_Doctrinal Adjunction_ is the title of a 1974 paper ([Kelly](#Kelly)) that gives conditions under which [[adjunction|adjoint morphisms]] $f \dashv u$ in a [[2-category]] $K$, and additionally the [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]], may be lifted to the category $T$-$Alg_l$ for some [[2-monad]] $T$ on $K$.  
 
 Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, [[lax morphism|lax T-morphisms]], and $T$-transformations, but the result works as well for pseudo algebras.
 
