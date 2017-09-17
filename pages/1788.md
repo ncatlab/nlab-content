@@ -4,7 +4,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-[pdf](http://www.math.uni-hamburg.de/home/runkel/PDF/phd.pdf)
+[pdf](http://sitemaker.umich.edu/belot/files/dissertation.pdf)
 
 ***
 
