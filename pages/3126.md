@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -49,7 +49,7 @@ A [[category theory|1-categorical]] approximation to the notion of tangent $(\in
 
 Let $C$ be a [[locally presentable (∞,1)-category]].
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 **(fiberwise stabilization)**
 
@@ -58,9 +58,9 @@ For $C' \to C$ a [[model structure for quasi-categories|categorical fibration]],
 
 =--
 
-This is [[Deformation Theory|DT, section 1.1]] formulated in view of [[Deformation Theory|DT, remark 1.1.8]]. There $Stab(C' \to C)$ is called the _stable envelope_ .
+This is ([Lurie, section 1.1](#Lurie)) formulated in view of ([Lurie, remark 1.1.8](#Lurie)). There $Stab(C' \to C)$ is called the _stable envelope_ .
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 **(tangent $(\infty,1)$-category)**
 
@@ -75,23 +75,60 @@ $$
 
 This is [[Deformation Theory|DT, def 1.1.12]].
 
+
+
 ## Properties
 
-+-- {: .un_prop}
+### General
+
++-- {: .num_prop}
 ###### Proposition
 
 The tangent $(\infty,1)$-category $T_C$ of the [[locally presentable (∞,1)-category]] $C$ is itself a locally presentable $(\infty,1)$-category.
 
-In particular, it admits all [[limit]]s and [[colimit]]s.
+In particular, it admits all [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s.
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is ([Lurie, prop. 1.1.13](#Lurie)).
 
-This is [[Deformation Theory|DT, prop. 1.1.13]].
+
+### Relation to modules
+ {#RelationToModules}
+
+We discuss how the tangent $(\infty,1)$-category construction indeed generalizes the equivalence between the [[tangent category]] over [[CRing]] and the category [[Mod]] of all [[modules]] over commutative rings.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{O}^\otimes$ by a [[coherent (∞,1)-operad]] and let $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$ be a [[presentable (∞,1)-category|presentable]] [[stable (∞,1)-category|stable]] $\mathcal{O}$-[[monoidal (∞,1)-category]]. Then there is a canonical [[equivalence of (∞,1)-categories|equivalence]]
+
+$$
+  \phi : T_{Alg_\mathcal{O}(\mathcal{C})}
+    \stackrel{\simeq}{\to}
+  Alg_\mathcal{O}(\mathcal{C}) 
+   \times_{Func(\mathcal{O}, Alg_\mathcal{O}(\mathcal{C}))}
+  Func_\mathcal{O}(\mathcal{O}, Mod^\mathcal{O}(\mathcal{C}))
+$$
+
+of presentble [[Cartesian fibration|fibrations]] over $Alg_\mathcal{O}(\mathcal{C})$.
 
 =--
+
+This is ([Lurie, theore, 1.5.19](#Lurie)).
+
+In words this says that under the given assumptions, objects of $T_{\mathcal{C}}$ may be identified with pairs
+
+$$
+  (A, N)
+$$
+
+where 
+
+* $A$ is an $\mathcal{O}$-[[∞-algebra over an (∞,1)-operad|algebra]] in $\mathcal{C}$;
+
+* $N$ is an $A$-[[∞-module over an ∞-algebra over an (∞,1)-operad|module]].
+
 
 ## Cotangent complex
 
@@ -102,7 +139,7 @@ $$
   \,.
 $$ 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition/Proposition
 **(cotangent complex)**
 
@@ -125,12 +162,9 @@ This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ 
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is [[Deformation Theory|DT, def. 1.1.2, remark 1.2.3]].
+This is ([Lurie, def. 1.1.2, remark 1.2.3](#Lurie)).
 
-=--
 
 
 ## References
@@ -138,6 +172,7 @@ This is [[Deformation Theory|DT, def. 1.1.2, remark 1.2.3]].
 The definition and study of the notion is tangent $(\infty,1)$-categories is from 
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
+ {#Lurie}
 
 [[!redirects tangent (infinity,1)-categories]]
 [[!redirects tangent (∞,1)-category]]
