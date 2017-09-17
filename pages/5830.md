@@ -291,6 +291,9 @@ A collection of all this code equipped with html-functionality that does display
 
 * _[Proviola/HoTT](http://mws.cs.ru.nl/proviola/HoTT/)_ .
 
+A further translation of these proofs into ordinary text is in 
+
+* Carlo Angiuli, _Univalence implies function extensionality_ ([pdf](http://hottheory.files.wordpress.com/2011/12/hott.pdf))
 
 More is in the repositories of various authors:
 
