@@ -191,6 +191,8 @@ For more see at _[[equivariant stable homotopy theory]]_ and _[[global equivaria
 
   * [[quantization commutes with reduction]]
 
+* [[equivariant elliptic cohomology]]
+
 
 ## References
 
