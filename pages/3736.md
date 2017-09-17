@@ -80,7 +80,7 @@ Note that since fibrations in $Alg C$ are created in $C$, and any algebraically 
 
 The standard [[model structure on simplicial sets]] $sSet_{Quillen}$ models the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoid]]s: its fibrant objects are precisely the [[Kan complex]]es. But a Kan complex is a model for an $\infty$-groupoid in which composites and inverses of [[k-morphism]]s are only guaranteed to exist, but are not specifically _chosen_ .
 
-An algebraic fibrant object in $sSet_{Quillen}$ is a [[Kan complex]] with a chosen filler for each [[horn]]: an **[[algebraic Kan complex]]** (essentially what is also called a [[simplicial T-complex]]). This means precisely that all possible composites and all possible inverses are chosen. So the Quillen equivalence
+An algebraic fibrant object in $sSet_{Quillen}$ is a [[Kan complex]] with a chosen filler for each [[horn]]: an **[[algebraic Kan complex]]** (see [[simplicial T-complex]] for a related but much stricter notion). This means precisely that all possible composites and all possible inverses are chosen. So the Quillen equivalence
 
 $$
   sSet_{Quillen} \stackrel{\leftarrow}{\to} Alg sSet_{Quillen} 
@@ -103,4 +103,6 @@ establishes an equivalence of an algebraic with the standard geometric model for
 ## References
 
 * [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
+
+* [[Thomas Nikolaus]] Talk on _Algebraic models for higher categories_ ([here](http://www.math.uni-hamburg.de/home/nikolaus/AlgMod.pdf))
 
