@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
 =--
+#### Index theory
++-- {: .hide}
+[[!include index theory - contents]]
+=--
 =--
 =--
 
