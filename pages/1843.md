@@ -8,13 +8,22 @@ The **Kalb-Ramond field** or **B-field** is the [[gauge field]] that generalizes
 
 Recall that the [[electromagnetic field]] is modeled as a [[cocycle]] in degree 2 ordinary [[differential cohomology]] and that this mathematical model is fixed by the fact that charged particles that trace out 1-dimensional trajectories couple to the electromagnetic field by an [[action functional]] that sends each trajectory to the holonomy of a $U(1)$-[[connection on a bundle|connection]] on it.
 
-When replacing particles with 1-dimensional trajectories by 2-particles with 2-dimensional trajectories, one accordingly expects that they may couple to a higher degree background field given by a degree 3 ordinary differential cocycle.
+When replacing particles with 1-dimensional trajectories by [[string theory|strings]] with 2-dimensional trajectories, one accordingly expects that they may couple to a higher degree background field given by a degree 3 ordinary differential cocycle.
 
 In [[string theory]] this situation arises and the corresponding background field appears, where it is called the _Kalb-Ramond field_  .
 
 Often it is also simply called the **$B$-field** , after the standard symbol used for the 2-forms $(B_i \in \Omega^2(U_i))$ on patches $U_i$ of a [[cover]] of spacetime when the differential cocycle is expressed in a [[Cech cohomology]] realization of [[Deligne cohomology]].
 
+
 This is the analog of the local 1-forms $(A_i \in \Omega^1(U_i))$ in a Cech cocycle presentation of a [[line bundle]] with [[connection on a bundle|connection]] encoding the [[electromagnetic field]].
+
+The [[field strength]] of the Kalb-Ramond field is a [[differential forms|3-form]] $H \in \Omega$. On each patch $U_i$ it is given by
+
+$$
+  H|_{U_i} = d B_i
+  \,.
+$$
+
 
 And just as a degree 2 [[Deligne cohomology|Deligne cocycle]] is equivalently encoded in a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]], the degree 3 differential cocycle is equivalently encoded in
 
