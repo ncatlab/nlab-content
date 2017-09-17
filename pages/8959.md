@@ -20,20 +20,21 @@
 
 ## Idea
 
-[[Per Martin-Löf]]'s **meaning explanations of type theory** provide a way to justify the correctness of the rules of [[type theory]]. The meaning of the judgements of type theory are defined by computation of closed terms to canonical form in a lambda calculus extended with constants for the constructors and eliminators of type theory.
+[[Per Martin-Löf]]'s **meaning explanations of type theory** provide a way to justify the correctness of the rules of [[type theory]]. The meaning of the judgements of type theory are defined by [[computation]] of closed terms to [[canonical form]] in a lambda calculus extended with constants for the [[term introduction|constructors]] and 
+[[term elimination|eliminators]] of type theory.
 
-From a technical point of view, the meaning explanations give rise to a realizability model of type theory, where realizers are terms in the extended lambda calculus. However, the term "meaning explanations" refer to the fact that they explain the basic "pre-mathematical" reasons for the constructive validity of the judgements of the theory.
+From a technical point of view, the meaning explanations give rise to a [[realizability model]] of type theory, where realizers are terms in the extended lambda calculus. However, the term "meaning explanations" refer to the fact that they explain the basic "pre-mathematical" reasons for the constructive validity of the [[judgements]] of the theory.
 
 The meaning explanations validate not just the rules of [[intensional type theory]] but also the stronger rules of [[extensional type theory]].  
 
-Thus, if one regards it as the "intended semantics" then one may believe in the extensional theory.  However, like any particular semantics for a formal theory, the meaning explanation also validates many other "rules" as well which no one would consider adding to type theory, so it is not so clear that the meaning explanation itself argues for extensionality.  (It can also be modified so as to no longer satisfy extensionality.)
+Thus, if one regards it as the "intended [[semantics]]" then one may believe in the extensional theory.  However, like any particular semantics for a formal theory, the meaning explanation also validates many other "rules" as well which no one would consider adding to type theory, so it is not so clear that the meaning explanation itself argues for extensionality.  (It can also be modified so as to no longer satisfy extensionality.)
 
 
 ## Definition
 
-Suppose we have given some collection of computational objects which we call "terms", with an *untyped* notion of "reduction" or "computation".
+Suppose we have given some collection of computational objects which we call "terms", with an *untyped* notion of "reduction" or "[[computation]]".
 We write $x\Rightarrow y$ to mean that $x$ computes or reduces to $y$ (in some number of steps).
-We then define simultaneously the following predicates, where $a,b,A$ are terms:
+We then define simultaneously the following [[predicates]], where $a,b,A$ are [[terms]]:
 
 * $A$ is a type, often written $A\;type$.
 * $a$ has type $A$, written $a:A$.
@@ -45,11 +46,11 @@ The clauses which we include in each case depend on what types we want to put in
 
 ### Natural numbers
 
-Suppose that we have terms $N$, $0$, and $s(x)$, along with a recursor $rec(n,z_0,x r. z_s)$ such that
+Suppose that we have terms $N$, $0$, and $s(x)$, along with a [[recursion|recursor]] $rec(n,z_0,x r. z_s)$ such that
 $$rec(0,z_0,x r.z_s) \Rightarrow z_0$$
 and
 $$rec(s(n),z_0,x r. z_s) \Rightarrow z_s[n/x,rec(n,z_0,x r.z_s)/r].$$
-Then to explain the [[natural numbers type]], we include a clause in the inductive definition of "$A$ is a type" which says
+Then to explain the [[natural numbers type]], we include a clause in the [[inductive definition]] of "$A$ is a type" which says
 
 * if $A\Rightarrow N$, then $A$ is a type.
 
