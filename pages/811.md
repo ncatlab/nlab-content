@@ -28,8 +28,8 @@ $$\array{E(c,b) & \overset{\phi\circ -}{\to} & E(c,a)\\
 +--{: .num_defn}
 ###### Definition
 We say that $p:E\to B$ is an **$n$-fibration** (or just a **fibration**) if
-1. For any object $a\in E$ and morphism $f:x\to p a$ in $B$, there exists a cartesian $\phi:b\to a$ and an [[equivalence]] $p\phi \simeq f$ in the [[over category|slice]] $n$-category $B/p a$.
-1. For any objects $a,b\in E$, the functor $p:E(b,a) \to B(p b, p a)$ is an $(n-1)$-fibration.
+1. For any object $a\in E$ and morphism $f:x\to p a$ in $B$, there exists a cartesian $\phi:b\to a$ and an [[equivalence]] $p\phi \simeq f$ in the [[over category|slice]] $n$-category $B/p a$,
+1. For any objects $a,b\in E$, the functor $p:E(b,a) \to B(p b, p a)$ is an $(n-1)$-fibration, and
 1. For any $a,b,c\in E$ and $\psi:c\to b$, the square
 $$\array{E(b,a) &\overset{-\circ \psi}{\to} & E(c,a)\\
   ^p\downarrow && \downarrow^p\\
@@ -55,7 +55,9 @@ is a morphism of $(n-1)$-fibrations.
 
 ## Remarks
 
-* The definition is recursive in $n$, but if we unravel it, it makes perfect sense for $n=\omega$.
+* The definition is recursive in $n$, but if we unravel it, it makes perfect sense for $n=\omega$.  That is, saying that $f$ is a fibration requires some things about cartesian 1-cells, and also that its action on hom-categories be a fibration--which in turn requires some things about cartesian 2-cells, and also that *its* action on hom-categories be a fibration---which in turn which requires some things about cartesian 3-cells, and so on.  After $\omega$ steps of unraveling, we are left with a list of conditions on cartesian $n$-cells for every $n$.
+
+  An equivalent, conciser way to say this is that we interpret the definition in the case $n=\omega$ as a [[coinductive definition]].
 
 * When $n=1$, this reduces to Street's weakened version of a [[Grothendieck fibration]].  We recover Grothendieck's original notion by requiring that for any $a\in E$ and $f:x\to p a$ in $B$, there exists a cartesian $\phi:b\to a$ such that $p\phi$ and $f$ are _equal_ (an [[evil]] condition).
 
