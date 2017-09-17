@@ -89,7 +89,7 @@ The [[axiom of foundation]] in material [[set theory]] states precisely that the
 
 ## Examples
 
-Let $S$ be a [[finite set]].  Then any relation on $S$ is well-founded.
+Let $S$ be a [[finite set]].  Then any relation on $S$ whose [[transitive closure]] is irreflexive is well-founded.
 
 Let $S$ be the set of [[natural numbers]], and let $x \prec y$ if $y$ is the [[successor]] of $x$: $y = x + 1$.  That this relation is well-founded is the usual principle of _mathematical induction_.
 
