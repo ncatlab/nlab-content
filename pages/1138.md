@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 This page is about **inverse images of sheaves** and related subjects.  For the set-theoretic operation, see [[preimage]].
 
@@ -196,7 +202,7 @@ The proof of left-exactness requires more technology and work.
 In the case where the [[site]]s $X$ and $Y$ in question are given by [[category of open subsets|categories of open subsets]] of [[topological space]]s denoted, by a abuse of symbols, also by $X$ and $Y$, one can identify sheaves with their corresponding [[etale space]]s over $X$ and $Y$. In that case the inverse image is simply obtained by the pullback along the continuous map $f : X \to Y$ of the corresponding [[etale space]]s.
 
 
-## Remarks
+## Properties
 
 * See also [[restriction and extension of sheaves]].
 
@@ -248,6 +254,9 @@ $$
 
 This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $U$  _containing_ it.
 
+## Related concepts
+
+* [[exceptional inverse image]]
 
 ## References
 
