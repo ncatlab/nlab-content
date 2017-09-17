@@ -49,6 +49,8 @@ of [[quotients]] of $N$ by the submodules induced by all powers of the ideal.
 
 =--
 
+There is a canonical projection map $N \longrightarrow N^\wedge_{\mathfrak{a}}$. Its [[kernel]] is sometimes called the $\mathfrak{a}$-[[adic residual]].
+
 ### For $\infty$-modules over an $E_\infty$-ring
 
 
