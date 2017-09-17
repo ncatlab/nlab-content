@@ -138,9 +138,11 @@ For [[indexed monoidal categories]] in
 
 * {#PontoShulman12} [[Kate Ponto]], [[Michael Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
 
-This article discusses the generalization of string diagrams to one dimension higher:
+The generalization of string diagrams to one dimension higher is discussed in
 
 * [[Todd Trimble]], _[Surface diagrams](/toddtrimble/published/Surface+diagrams)_
+
+* [[John Barrett]], [[Catherine Meusburger]], [[Gregor Schaumann]], _Gray categories with duals and their diagrams_, available [here](http://arxiv.org/abs/1211.0529).
 
 
 [[!redirects string diagram]]
