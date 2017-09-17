@@ -361,5 +361,10 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 
 [[!redirects smooth differential 1-form]]
 [[!redirects smooth differential 1-forms]]
+[[!redirects differential 2-form]]
+[[!redirects differential 2-forms]]
+[[!redirects smooth differential 2-form]]
+[[!redirects smooth differential 2-forms]]
+
 [[!redirects smooth differential n-form]]
 [[!redirects smooth differential n-forms]]
