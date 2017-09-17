@@ -1,22 +1,11 @@
 ## About ##
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://qubit.org/content/biamonte/jacob-biamonte.png" alt="Jacob Biamonte" /></div>
+<div style="float:center;margin:0 10px 10px 0;"><img src="http://qubit.org/content/biamonte/jacob-biamonte.png" alt="Jacob Biamonte" /></div>
 
-&nbsp; <br/>
-
-This is the nLab page for [Jacob Biamonte](http://qubit.org/jacob-biamonte.html).    
+* Welcome to the nLab page for [Jacob Biamonte](http://qubit.org/jacob-biamonte.html).    
 
 
 ***
-
-&nbsp; <br/>
-&nbsp; <br/>
-&nbsp; <br/>
-&nbsp; <br/>
-
-
-
-
 
 
 ## nLab pages ## 
@@ -34,4 +23,4 @@ This is the nLab page for [Jacob Biamonte](http://qubit.org/jacob-biamonte.html)
 
 * [My homepage at St Peter's College](http://www.spc.ox.ac.uk/Staff/69/Staff.html?StaffId=292) 
 * [Biamonte] (http://qubit.org/jacob-biamonte.html) (My homepage!)
-* [CQT, Singapore](http://qubit.org/courses/46-iqc2011.html) (Centre for Quantum Technologies, NUS, Singapore) 
+* [ISI Foundation](http://www.thequantumnetwork.org/)
