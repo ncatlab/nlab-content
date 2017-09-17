@@ -266,13 +266,21 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 
 ## Related concepts
 
-* [[projective object]], [[projective presentation]], [[projective resolution]]
+* [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
 
   * [[projective module]]
 
-* **injective object**, [[injective presentation]], [[injective resolution]]
+* **injective object**, [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
   * [[injective module]]
+
+* [[free object]], [[free resolution]]
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
 
 
 ## References
