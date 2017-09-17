@@ -26,7 +26,7 @@ There are several different viewpoint on theories:
 
   [syntactic view](#SyntacticView) 
 
-  is that the theory itself consists of the set of formulas _without free variables_ in the first order language $Lang(\Sigma)$ of a [[signature (in logic)|signature]] $\Sigma$ together with the set of logical consequences (aka theorems) of the axioms in $A$, relative to (some specified) fragment of [[first-order logic]]. Regarding that the formulas have no free variables the formulas in the theory are either true or false. 
+  is that the theory itself consists of a set of formulas in the first order language $Lang(\Sigma)$ of a [[signature (in logic)|signature]] $\Sigma$.  Classically, these formulas are assumed to have no free variables (i.e. to be "sentences"), but in weaker logics that lack [[universal quantification]] it is better to take them to be formulas-in-[[context]].  One also sometimes considers the theory to also include all logical consequences (aka theorems) of the axioms in $A$, relative to (some specified) fragment of [[first-order logic]] --- that is, to be "saturated" with respect to provability. 
 
 * The 
 
