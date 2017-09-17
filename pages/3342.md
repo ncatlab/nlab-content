@@ -76,7 +76,7 @@ A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilbert spa
 
 * (V5) **spectrum condition**: $spec\mathcal{U}(\mathcal{T}) \subseteq clo \mathcal{V}_+$
 
-Note: $\mathcal{T}$ is the abelian subgroup of translations, and $\mathcal{V}_+$ is the (open) forward cone at 0, see above.
+Note: $\mathcal{T}$ is the abelian subgroup of translations, and $\mathcal{V}_+$ is the (open) forward cone at 0, see above. For the definiton of the spectrum of the representation $\mathcal{U}(\mathcal{T})$ see [[spectral measure]].
 
 * (V6) **existence of a vacuum vector**: There exists a vector $\Omega \in \mathcal{H}, \|\Omega\| = 1$, such that $( \bigcup_{\mathcal{O}\in\mathcal{J}}\mathcal{M}(\mathcal{O} ) \Omega$ is dense in $\mathcal{H}$ and $\mathcal{U}(g)\Omega = \Omega$ for all $g \in \mathcal{P}$
 
