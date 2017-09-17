@@ -49,7 +49,7 @@ $$
 Then still a little later, it was understood that this is just the ordinary tensor product in the [[symmetric monoidal (∞,1)-category]] of [[chain complex]]es. If this
 is understood, we can just write again simply 
 $$
-  C_\bullet(M,A) := N \otimes_{A \otimes A^{op}} A
+  C_\bullet(N,A) := N \otimes_{A \otimes A^{op}} A
   \,.
 $$
 
