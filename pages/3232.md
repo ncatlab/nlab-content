@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -86,7 +85,16 @@ More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullb
 
 [[!redirects module of a monad]]
 [[!redirects module for a monad]]
-
+[[!redirects modules of a monad]]
+[[!redirects modules for a monad]]
+[[!redirects modules over a monad]]
+[[!redirects modules for monads]]
+[[!redirects modules over monads]]
 [[!redirects algebra of a monad]]
 [[!redirects algebra for a monad]]
 [[!redirects algebra over a monad]]
+[[!redirects algebras of a monad]]
+[[!redirects algebras for a monad]]
+[[!redirects algebras over a monad]]
+[[!redirects algebras for monads]]
+[[!redirects algebras over monads]]
