@@ -35,9 +35,9 @@ The dual concept is that of _[[n-epimorphism]]_.
 
 ## Examples
 
-* $\infty$-monomorphism are precisely the [[equivalences]]. 
+* $0$-monomorphism are precisely the [[equivalences]]. 
 
-* Every morphism is a $0$-monomorphism.
+* Every morphism is an $\infty$-monomorphism.
 
 * 1-Monomorphisms are often just called [[monomorphisms in an (∞,1)-category]].
 
