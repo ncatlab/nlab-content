@@ -133,6 +133,11 @@ Here the antepenultimate step uses the [[co-Yoneda lemma]].  This appears to inv
 
 Similarly, the above argument can be interpreted to say that even if $\mathcal{D}$ is not complete, then the exponential $G^F$ in $\mathcal{D}^{\mathcal{C}}$ exists if and only if the particular limits above exist, and in that case they are isomorphic.
 
+A more abstract argument using [[comonadic functor|comonadicity]] and the [[adjoint triangle theorem]], which also applies to [[locally cartesian closed categories]], can be found in Theorem 2.12 of
+
+* Street and Verity, *The comprehensive factorization and torsors*, [TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html).
+
+
 ### Functional completeness theorem 
 
 +-- {: .un_thm}
