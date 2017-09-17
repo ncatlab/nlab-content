@@ -23,7 +23,7 @@
 
 Every [[(∞,1)-topos]] $E$ has a [[shape of an (∞,1)-topos|shape]] $Shape(E) \in Pro\infty Grpd$. When $E$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] then this is a genuine [[∞-groupoid]] $\Pi(E) \in $ [[∞Grpd]]. We may think of this as the [[fundamental ∞-groupoid]] of the $(\infty,1)$-topos regarded as a generalized [[space]].
 
-But also every [[locally ∞-connected (∞,1)-topos]] has an _internal_ notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] for objects of $E$, denoted $\Pi_E : E \to \infty Grpd$. Applied to its [[terminal object]] this does agree with the fundamental ∞-groupoid of the topos:
+But also every [[locally ∞-connected (∞,1)-topos]] has an _internal_ notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] for objects of $E$, denoted $\Pi_E : E \to \infty Grpd$. (If in addition $\Delta \colon \infty Grpd \to E$ is [[fully faithful (∞,1)-functor|fully faithful]] then we call $\Pi$ the _[[shape modality]]_.) Applied to its [[terminal object]] this does agree with the fundamental ∞-groupoid of the topos:
 
 $$
   \Pi(E) \simeq \Pi_E(*)
@@ -36,7 +36,8 @@ Conversely, for an object $X\in E$, the fundamental ∞-groupoid $\Pi_E(X)$ inte
 ## Definition
 
 
-+-- {: .un_def}
++-- {: .num_def}
+
 ###### Definition
 
 For $(\Pi_E \dashv \Gamma_E \dashv LConst_E) :  E \to \infty Grpd$ a [[locally ∞-connected (∞,1)-topos]] we say its **fundamental $\infty$-groupoid** is
@@ -59,7 +60,7 @@ Let $\mathbf{H}$ be a locally $\infty$-connected $(\infty,1)$-topos and $X \in \
 
 We have then two different definitions of the fundamental $\infty$-groupoid of $X$: once as $\Pi_{\mathbf{H}}(X)$ -- the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]  -- and once as $\Pi(\mathbf{H}/X)$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 These agree:
@@ -95,7 +96,7 @@ and that $X_!$ in the [[etale geometric morphism]] is the projection map that se
 =--
 
 
-+-- {: .un_def}
++-- {: .num_def}
 ###### Definition
 
 Let $LC(\infty,1)Topos$ denote the full [[sub-(∞,1)-category]] of [[(∞,1)Topos]] determined by the locally ∞-connected objects.  
@@ -103,7 +104,7 @@ Let $LC(\infty,1)Topos$ denote the full [[sub-(∞,1)-category]] of [[(∞,1)Top
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The $(\infty,1)$-category $\infty Gpd$ (as the category of local homeomorphisms over $\infty Gpd$) is [[reflective sub-(∞,1)-category|reflective]] in $LC(\infty,1)Topos$, 
@@ -163,16 +164,17 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 So equivalently, one may say that a locally ∞-connected (∞,1)-topos $E$ has a [[shape of an (∞,1)-topos|shape]] which is [[representable functor|representable]], and its [[fundamental ∞-groupoid]] $\Pi(\mathbf{H})$ is the representing object.
 
 =--
 
+
 ## Examples
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $X$ a [[locally contractible topological space]], we have an equivalence
@@ -202,6 +204,7 @@ More generally the [[shape of an (∞,1)-topos]] of $(\infty,1)Sh(X)$ reproduces
 
 * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / **of a locally $\infty$-connected $(\infty,1)$-topos**
 
+* [[étale homotopy theory]], [[pro-left adjoint]]
 
 
 
