@@ -385,6 +385,9 @@ $$
 
 * [[twisted spin structure]]
 
+* [[twisted ∞-bundle]]
+
+
 ## References
  {#References}
 
