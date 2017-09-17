@@ -20,6 +20,13 @@ This book introduced the notion of [[weak Kan complex]] that was later populariz
 See also: _Homotopy invariant algebraic structures_: _a conference in honor of J. Michael Boardman_ edited by Jean-Pierre Meyer, Jack Morava, and W. Stephen Wilson. AMS, 1999, CONM/239.
 
 
+## Related entries
+
+* [[quasi-category]]
+
+* [[Boardman-Vogt resolution]]
+
+* [[Boardman-Vogt tensor product]]
 
 
 ## References
