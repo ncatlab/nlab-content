@@ -155,7 +155,13 @@ The fiberwiese linear dual of a Lie algebroid (regarded as a vector bundle) is n
 
 * [[Lie algebra]], **Lie algebroid**
 
+* [[double Lie algebroid]]
+
 * [[L-∞ algebra]], [[L-∞ algebroid]]
+
+* [[foliation of a Lie algebroid]]
+
+* [[Lie algebroid cohomology]]
 
 
 ## References
