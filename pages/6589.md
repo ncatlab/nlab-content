@@ -43,7 +43,7 @@ which has the property that a field theory with the action $S(R_t g, e^t a)$ is 
 
 $$  d g^i = \beta^i(g) \,d t. $$
 
-At the fixed points, $\beta^i(g) = 0$.  (The beta functions in RG theory should not be confused with the [[Euler beta function]]).  Here, we are using the term in the same sense as when people say, "The beta function in [[QCD]] is negative.")
+At the fixed points, $\beta^i(g) = 0$.  (The beta functions in RG theory should not be confused with the [[Euler beta function]]).  Here, we are using the term in the same sense as when people say, "The beta function in [[QCD]] is negative."
 
 The local energy-momentum tensor $T_{\mu\nu}(x) = T_{\nu\mu}(x)$ satisfies the conservation equation $\partial_\mu T_{\mu\nu} = 0$.  Define the complex coordinates
 
@@ -134,4 +134,6 @@ $$\beta^i(g) = -\frac{1}{12} G^{i j}(g) \partial_j c(g).$$
   {#Myers2010}
 * R. C. Myers and A. Sinha (2011), _Holographic $c$-theorems in arbitrary dimensions_, Journal of High Energy Physics **2011**, 1: 1--53, ([arXiv:1011.5819](http://arxiv.org/abs/1011.5819))
   {#Myers2011}
+* Z. Komargodski and A. Schwimmer (2011), _On renormalization group flows in four dimensions_, ([arXiv:1107.3987](http://arxiv.org/abs/1107.3987))
+  {#Komargodski2011}
 * Wikipedia, [Callan--Symanzik equation](http://en.wikipedia.org/wiki/Callan%E2%80%93Symanzik_equation)
