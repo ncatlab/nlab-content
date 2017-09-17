@@ -205,6 +205,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[locally connected topos]]
 
+* [[locally connected geometric morphism]]
 
 ## D Toposes as theories
 
