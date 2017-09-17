@@ -92,10 +92,5 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 * Michel [[Demazure, lectures on p-divisible groups]]
 
-[[!redirects Witt ring]]
-
-[[!redirects Witt-ring]]
-
-[[!redirects ring of Witt vectors]]
  
 
