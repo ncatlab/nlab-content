@@ -197,12 +197,12 @@ To see this, observe that
 
 1. hence the [[Cech nerve]] $C(\{U \times U_i\})$ is a natural (functorial in $U \in CartSp$) [[cofibrant object]] [[resolution]] of $U \times \Sigma_k$ in the projective local [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,loc}$ which [[presentable (infinity,1)-category|presents]] $\mathbf{H} = $[[Smooth∞Grpd]] (as discussed there);
 
-1. the (image under the [[Dold-Kan correspondence]]) of the [[Deligne complex]] $\mathbb{Z}(n+1)^\infty_D$ is a is fibrant in this model structure (since every circle $n$-budle is trivializable over a [[contractible topological space|contractible space]] $U \in $ [[CartSp]]).
+1. the (image under the [[Dold-Kan correspondence]]) of the [[Deligne complex]] $\mathbb{Z}(n+1)^\infty_D$ is a is fibrant in this model structure (since every circle $n$-bundle is trivializable over a [[contractible topological space|contractible space]] $U \in $ [[CartSp]]).
 
 This means that a presentation of $[\Sigma_k, \mathbf{B}^n U(1)_{conn}]$ by an object of $[CartSp^{op}, sSet]_{proj,loc}$ is given by the [[simplicial presheaf]]
 
 $$
-  U \mapsto DK \mathbb{Z}(n+1)^\infty_D(\{U \times U_i\})
+  U \mapsto DK \mathbb{Z}(n+1)^\infty_D(C(\{U \times U_i\}))
 $$
 
 that sends $U$ to the [[Cech cohomology|Cech]]-[[Deligne complex|Deligne]] [[hypercohomology]] [[chain complex]] with respect to the cover $\{U \times U_i \to U \times \Sigma_k\}$.
@@ -210,7 +210,7 @@ that sends $U$ to the [[Cech cohomology|Cech]]-[[Deligne complex|Deligne]] [[hyp
 On this def. \ref{GomiFiberIntegration} provides a morphism of simplicial sets
 
 $$
-  DK \mathbb{Z}(n+1)^\infty_D(\{U \times U_i\})
+  DK \mathbb{Z}(n+1)^\infty_D(C(\{U \times U_i\}))
   \to
   DK \mathbb{Z}(n+1)^\infty_D(U)  
 $$
