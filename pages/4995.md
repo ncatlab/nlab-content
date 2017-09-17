@@ -3979,6 +3979,12 @@ Examples of [[∞-cohesive site]]s are
 
 * [[super smooth ∞-groupoid]]
 
+### Super $\infty$-groupoids
+
+* [[super ∞-groupoid]]
+
+* [[smooth super ∞-groupoid]]
+
 
 ## Applications
 
