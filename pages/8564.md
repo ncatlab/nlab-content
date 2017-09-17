@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[ring]] $R$ is a **principal ideal domain** if
+
+1. it is an [[integral domain]];
+
+1. every [[ideal]] in $R$ is a [[principal ideal]].
+
+## Examples
+
+* any [[field]]
+
+* the ring of [[integers]]
+
+* a [[polynomial ring]] with [[coefficients]] in a field
+
+[[!redirects principal ideal domains]]
+
