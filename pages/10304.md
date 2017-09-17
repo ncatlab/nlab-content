@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Related entries
+
+* [[observable universe]]
+
+* [[LHC]]
+
+* [[standard model of particle physics]], [[standard model of cosmology]]
+
+## References
+
+* Wikipedia, _[Experiment](http://en.wikipedia.org/wiki/Experiment)_
+
+* Wikipedia. _[Observation](http://en.wikipedia.org/wiki/Observation)_
+
+[[!redirects experimental observations]]
+
+[[!redirects experiment]]
+[[!redirects experiments]]
+[[!redirects observation]]
+[[!redirects observations]]
+
