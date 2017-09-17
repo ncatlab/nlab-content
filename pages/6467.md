@@ -20,7 +20,7 @@
 
 ## Definition
 
-Given a [[monoidal category]] $(C, \otimes)$, the _Picard group of $(C,\otimes)$ is the group of [[isomorphism classes]] of [[objects]] that have an [[inverse]] under the [[tensor product]] -- the [[line objects]]. 
+Given a [[monoidal category]] $(C, \otimes)$, the _Picard group of $(C,\otimes)$ is the group of [[isomorphism classes]] of [[invertible objects]], those that have an [[inverse]] under the [[tensor product]] -- the [[line objects]]. 
 Equivalently, this is the [[decategorification]] of the [[Picard 2-group]], the maximal [[2-group]] inside a monoidal category. 
 
 In [[geometry]], the monoidal category in question is often assumed by default to be a category of [[vector bundles]] or [[quasicoherent sheaves]] over some space. For instance The _Picard group $Pic(X)$ of a [[ringed space]]_ $X$ is the Picard group of the monoidal category of [[invertible sheaves]], i.e. the locally free sheaves of $\mathcal{O}_X$-modules of [[rank]] $1$ (i.e. the [[line bundle]]s).
