@@ -7,3 +7,4 @@ The [[axiom of choice]] states precisely that every surjection in the category o
 
 [[!redirects surjective function]]
 [[!redirects surjections]]
+[[!redirects surjective]]
