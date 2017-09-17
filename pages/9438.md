@@ -1,0 +1,6 @@
+[[!redirects Diana Maclagen]]
+Diane Maclagen is lecturer at Warwick university working in [[tropical geometry]].
+
+* [webpage](http://homepages.warwick.ac.uk/staff/D.Maclagan/)
+
+category:people
