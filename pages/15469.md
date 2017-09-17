@@ -1,2 +1,2 @@
-1997: Clinton signs bipartisan legislation creating a state-federal program to provide coverage for millions of children in families of modest means whose incomes are too high to qualify for Medicaid.
- <a href="http://www.casaledeipozzi.com/public/nike_shoes_ca.asp?Running_Shoes=nike-air-max-green-c-38_51.html" title="Nike Air Max Green">Nike Air Max Green</a>
+Be present when you're not working
+ <a href="http://www.canyonlakepoa.com/nikefreeau.asp?Running_Shoes=salomon-swind-inca-c-77.html" title="Salomon S-Wind Inca">Salomon S-Wind Inca</a>
