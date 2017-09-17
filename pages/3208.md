@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -76,15 +86,33 @@ For instance ([Johnstone, def. D1.1.6](#Johnstone)).
 * [[categorical semantics]]
 
 (...)
+
 ## Examples 
 
 ### Classes of theories
 
-There are many different kinds of "theory" depending on the strength of the "logic": a by-no-means complete list includes [[equational logic]], 
-[[Horn logic]], [[essentially algebraic logic]], [[geometric logic]], [[regular logic]], [[exact logic]], [[extensive logic]], [[coherent logic]], [[first-order logic]] (aka pretopos logic), and corresponding theories for these logics. 
+There are many different kinds of "theory" depending on the strength of the "logic": a by-no-means complete list includes 
 
+* [[equational logic]], 
 
-Here is a list of examples of theories that have their own $n$Lab entries:
+* [[Horn logic]], 
+
+* [[essentially algebraic logic]], 
+
+* [[geometric logic]], 
+
+* [[regular logic]], 
+
+* [[exact logic]], 
+
+* [[extensive logic]], 
+
+* [[coherent logic]], 
+
+* [[first-order logic]] (aka pretopos logic), 
+
+and corresponding theories for these logics. 
+
 
 * [[essentially algebraic theory]]
 
@@ -98,10 +126,9 @@ Here is a list of examples of theories that have their own $n$Lab entries:
 
     * [[Fermat theory]]
 
-* [[geometric theory]]
 
 
-### Hierarchy of theories: cartesian, regular, coherent, geometric
+#### Hierarchy of theories: cartesian, regular, coherent, geometric
 
 There is a hierarchy of theories that can be interpreted in the [[internal logic]] of a hierarchy of types of [[categories]].  Since [[predicates]] in the internal logic are represented by [[subobjects]], in order to interpret any connective or quantifier in the internal logic, one needs a corresponding operation on subobjects to exist in the category in question, and be well-behaved.  For instance:
 
@@ -111,7 +138,7 @@ There is a hierarchy of theories that can be interpreted in the [[internal logic
 
 * **coherent theories** Since $\vee$ and $\bot$ are represented by [[union]] and [[bottom elements]], these can be interpreted in any [[coherent category]].  Theories which add these to regular logic are called [[coherent theory|coherent theories]].
 
-* **geometric theories** Finally, theories which also involve infinitary $\bigvee$, which is again represented by an infinitary union, can be interpreted in [[infinitary coherent categories]], aka *[[geometric categories]]*.  These are **geometric theories**.
+* **geometric theories** Finally, theories which also involve infinitary $\bigvee$, which is again represented by an infinitary union, can be interpreted in [[infinitary coherent categories]], aka *[[geometric categories]]*.  These are **[[geometric theories]]**.
 
 Note that the axioms of one of these theories are actually of the form
 $$ \varphi \vdash_{\vec{x}} \psi $$
@@ -126,6 +153,10 @@ Interestingly, one form of logic which made an early appearance but is not ordin
 
 
 ### Specific examples
+
+The simplest nontrivial theory is the
+
+* [[theory of objects]]
 
 * the theories 
 
