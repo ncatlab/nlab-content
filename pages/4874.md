@@ -1,6 +1,6 @@
 
 
-A useful way to visualise and manipulate knots is to project the knot onto a plane. A small change in the direction of projection will ensure that it is one-to-one except at the double points, called crossings, where the "shadow" of the knot crosses itself once transversely. At each crossing, to be able to recreate the original knot, the over-strand must be distinguished from the under-strand. This is usually done by creating a break in the strand going underneath.
+A useful way to visualise and manipulate knots is to project the knot onto a plane. A small change in the direction of projection will ensure that it is one-to-one except at the double points, called *crossings*, where the image curve of the knot crosses itself once transversely. At each crossing, so as to be able to recreate the original knot, the over-strand must be distinguished from the under-strand. This is usually done by creating a break in the strand going underneath.
 
 ###A few more details:
 
