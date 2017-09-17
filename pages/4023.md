@@ -127,17 +127,22 @@ This holds true even if we replace the field $k$ by an arbitrary commutative [[r
 
 +-- {: .num_lem}
 ###### Lemma 
-Let $R$ be a commutative ring, let $V$ be a finitely generated free module, and let $f \colon V \to V$ be an $R$-module map. Then there exists an $R$-module map $\tilde{f} \colon V \to V$ such that $f \circ \tilde{f} = \tilde{f} \circ f = \det(f)\cdot 1_V$. 
+Let $R$ be a commutative ring, and let $A$ be an $n \times n$ matrix with entries in $R$. Then there exists an $n \times n$ matrix $\tilde{A}$ with entries in $R$ such that $A \tilde{A} = \tilde{A} \circ A = \det(A)Id$. 
 =-- 
 
 +-- {: .proof}
 ###### Proof 
-Pick a basis $v_1, \ldots, v_n$, and let $A = (a_{i j})$ be the matrix representation of $f$ with respect to this basis. In the case where $A$ is invertible ($\det(A)$ is a unit), we have a unique $\tilde{A}$ such that $A \tilde{A} = \det(A) = \tilde{A} A$, and the entries of $\tilde{A}$ are computed by Cramer's rule, 
+We may as well take $R$ to be the polynomial ring $\mathbb{Z}[a_{i j}_{1 \leq i, j \leq n}]$, since we are then free to interpret the indeterminates $a_{i j}$ however we like along a ring map $\mathbb{Z}[a_{i j}] \to R$. Let $A$ denote the corresponding generic matrix. 
+
+Guided by Cramer's rule, put 
 
 $$\tilde{A}_{j i} = \det(a_1, \ldots, e_i, \ldots a_n),$$ 
 
-the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. This formula gives $\tilde{A}_{j i}$ as a polynomial expression in the entries $a_{i j}$. We define $\tilde{A}$ by the same formula for any $A$, and the collection of polynomial equations $A \tilde{A} = \det(A) = \tilde{A} A$ over the polynomial ring $R[a_{i j}]$ holds on the Zariski-dense subset $GL(V) \hookrightarrow Mod_R(V, V)$. It therefore holds on the closure, i.e., identically on the entire endomorphism ring $Mod_R(V, V)$ (as can also be established by direct computation). 
+the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. If we pretend $A$ is invertible, then we know $A \tilde{A} = \det(A) Id = \tilde{A} A$ by Cramer's rule. We claim this holds for general $A$. 
+
+Indeed, we can interpret this as a polynomial equation in $\mathbb{C}[a_{i j}]$ and check it there. As an equation between polynomial functions on $\mathbb{C}^{n^2}$, it holds on the dense subset $GL_n(\mathbb{C}) \hookrightarrow \mathbb{C}^{n^2}$. Therefore, by continuity, it holds on all of $\mathbb{C}^{n^2}$. But a polynomial function identity over $\mathbb{C}$ implies the corresponding polynomial identity, and the proof is complete. 
 =-- 
+
 
 +-- {: .num_thm}
 
