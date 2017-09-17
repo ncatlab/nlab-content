@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,6 +35,8 @@ The class of line bundles has a nicer behaviour (in some ways) than the class of
 * [[bundle gerbe]]
 
 * [[circle n-bundle with connection]]
+
+* [[line 2-bundle]]
 
 [[!redirects line bundles]]
 
