@@ -20,13 +20,11 @@ The _parenthesized braid operad_ is an [[operad]] in [[Grpd]] modelled on the [[
 
 ## Definition
 
-For any [[integer]] $n\geq 1$, let $PaB_n$ be the [[groupoid]] defined as follows:
-* its [[objects]] are parenthesized [[permutations]] of $\{1,\dots,n\}$, that is non-associative, non-commutative monomials on this set in which every letter appears exactly once.
-* [[morphisms]] between two objects $s,t$ are braids connecting each letter in $s$ to the same letter in $t$. In other words, let $p:B_n\rightarrow S_n$ be the canonical projection from the braid group to the symmetric group whose kernel is the pure braid group. Then, forgetting the parenthesization and viewing $s,t$ as permutations:
+Let $PaB$ be the category defined as follows:
+* its set of [[objects]] is the [[free magma]] on one generator, or equivalently the set of [[rooted binary tree]]s.
+* the set of morphisms between two objects $s,t$ is given by the braid group $B_n$ whenever $s$ and $t$ are words of the same legnth $n$, and is empty otherwise.
 
-$$Hom(s,t)=p^{-1}(\{s^{-1}t\})$$
-
-Then the collection $PaB$ of the $PaB_n$'s is an [[operad]]. The composition
+Then the collection $PaB$ of the $PaB_n$'s is a [[braided operad]]. The composition
 
 $$\circ_i:PaB_n \times PaB_m \rightarrow PaB_{m+n-1}$$
 
@@ -37,17 +35,33 @@ $PaB$ also have an obvious structure of a [[braided monoidal category]]. In fact
 +-- {: .num_theorem}
 ###### Theorem
 
-$PaB$ is an [[initial object]] in the [[category]] of 
+$PaB$ is the [[free object|free]] braided monoidal category on one object. As a consequence, it is an [[initial object]] in the [[category]] of 
 [[braided monoidal categories]].
 
 =--
 
-A topological interpretation of $PaB$ is as follows:
+
+## Colored/ordered version
+
+let $CPaB_n$ be the [[groupoid]] defined as follows:
+* it set  [[objects]] are parenthesized [[permutations]] of $\{1,\dots,n\}$, that is non-associative, non-commutative monomials on this set in which every letter appears exactly once.
+* [[morphisms]] between two objects $s,t$ are braids connecting each letter in $s$ to the same letter in $t$. In other words, let $p:B_n\rightarrow S_n$ be the canonical projection from the braid group to the symmetric group whose kernel is the pure braid group. Then, forgetting the parenthesization and viewing $s,t$ as permutations:
+
+$$Hom(s,t)=p^{-1}(\{s^{-1}t\})$$
+
+Then $CPaB$ is an (ordinary) [[operad]], the operadic structure being the same as for the non-colored version.
+
+A topological interpretation of $CPaB$ is as follows:
 
 +-- {: .num_theorem}
 ###### Theorem
 
-$PaB$ may be identified with a full sub-operad of the [[fundamental groupoid]] of the [[little 2-disk operad]].
+$CPaB$ may be identified with a full sub-operad of the [[fundamental groupoid]] of the [[little 2-disk operad]].
 
 =--
 
+## References
+
+$PaB$ was originally defined in
+
+* [[Dror Bar-Natan]] _On Associators and the Grothendieck-Teichmuller Group I_, [arXiv:q-alg/9606021](http://arxiv.org/abs/q-alg/9606021)
