@@ -274,9 +274,11 @@ $$
 
 is a [[(∞,1)-pullback]] in $C$.
 
-$A^+$ is called **Cech nerve** if the equivalent conditions of this proposition are satisfied.
 
 =--
+
+$A$ is called the **[[Cech nerve]]** of $A_0 \to A_{-1}$ if the equivalent conditions of this proposition are satisfied.
+
 
 ### Effective quotients {#Effective}
  
