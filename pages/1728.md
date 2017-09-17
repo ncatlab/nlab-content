@@ -228,6 +228,10 @@ $$
   \array{
      && {high\;energy \atop codim-(k+1)\;defects}
      \\
+     && \downarrow
+     \\
+     && {low\;energy\;codim-k\;defects \atop with\;their\;decay\;processes}
+     \\
      & \swarrow && \searrow
      \\
      {low\;energy \atop codim-k\;defects} && (pb) && {high\;energy \atop decay\;processes}
