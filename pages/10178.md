@@ -106,7 +106,7 @@ in the [[slice (∞,1)-topos]] is equivalently
 and the quantization step takes this to the [[equivalence class]] of maps of $E$-[[∞-modules]] that it induces under [[fiber integration in generalized cohomology]]:
 
 $$
-  \underset{i_2}{\int} i_1^\ast \xi 
+  \underset{i_{out}}{\int} i_{in}^\ast \xi 
   \;\;\colon \;\;
   \Gamma(\chi_{in})
   \stackrel{\;\;\;\;\;\;\;\;\;\;}{\to}
