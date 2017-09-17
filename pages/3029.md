@@ -84,7 +84,7 @@ For $A \hookrightarrow \hat G \to G$ a group extension, the inclusion $A \hookri
 +-- {: .proof}
 ###### Proof
 
-We need to check that for all $a \in A \hookrightarrow G$ and $g \in G$ the result of the [[adjoint action]] $g a g^{-1}$ formed in $G$ is again in $A \stackrel{i}{\hookrightarrow} G$. 
+We need to check that for all $a \in A \hookrightarrow G$ and $g \in G$ the result of the [[adjoint action]] $g a g^{-1}$ formed in $\hat G$ is again in $A \stackrel{i}{\hookrightarrow} \hat G$. 
 
 Since $p : \hat G \to G$ is a group homomorphism we have that 
 
@@ -245,7 +245,7 @@ A group extension $A \to \hat G \stackrel{p}{\to} G$ is called **split** if ther
 +-- {: .num_remark}
 ###### Remark
 
-It is important here that $\sigma$ is itself required to be a group homomorphism, not just a [[function]] on the underying sets. The latter always exists as soon as the [[axiom of choice]] holds, since $p$ is an [[epimorphism]] by definition.
+It is important here that $\sigma$ is itself required to be a group homomorphism, not just a [[function]] on the underlying sets. The latter always exists as soon as the [[axiom of choice]] holds, since $p$ is an [[epimorphism]] by definition.
 
 =--
 
@@ -265,7 +265,7 @@ for some [[action]] $\rho \colon A \times G \to A$ of $G$ on $A$.
 +-- {: .proof}
 ###### Proof
 
-Given a split extension $A \stackrle{i}{\to} \hat G \stackrel{p}{\to} G$ with splitting $\sigma \colon G \to \hat G$, define an [[action]] of $G$ on $A$ by the restriction of the [[adjoint action]] $\rho_{ad}$ of $\hat G$ on itself to $A$:
+Given a split extension $A \stackrel{i}{\to} \hat G \stackrel{p}{\to} G$ with splitting $\sigma \colon G \to \hat G$, define an [[action]] of $G$ on $A$ by the restriction of the [[adjoint action]] $\rho_{ad}$ of $\hat G$ on itself to $A$:
 
 $$
   \rho 
@@ -293,6 +293,7 @@ This means in particular that if all groups involved are [[abelian groups]] then
 
 =--
 
+If we have a split extension the different  splittings are given by [[derivation on a group|derivation]]s, but with possibly non-abelian vaues. In fact if we have $s: G\to A\rtimes G$ is a section then $s(g) = (a(g),g)$, and the multiplication in $A\rtimes G$ implies that $a: G\to A$ is a derivation. These are considered as the (possibly non-abelian) 1-cocylces of $G$ with (twisted) coefficients in $A$, as considered in, for instance, Serre's notes on [[Galois cohomology]].
 
 ### Central group extensions
  {#PropertiesCentralGroupExtensions}
