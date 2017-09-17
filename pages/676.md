@@ -177,10 +177,11 @@
       * [[gauge fixing]]
       * examples
 
-        * [[electromagnetic field]]
+        * [[electromagnetic field]], [[QED]]
           * [[electric charge]]
           * [[magnetic charge]]
-        * [[Yang-Mills field]]
+
+        * [[Yang-Mills field]], [[QCD]]
 
           * [[Yang-Mills theory]]
           * [[spinors in Yang-Mills theory]]
