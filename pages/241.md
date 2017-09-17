@@ -8,7 +8,18 @@
 Classically, we have:
 
 +-- {: .un_defn}
-A __Grothendieck topos__ is a [[category of sheaves]] ([[Set]]-valued [[presheaves]] satisfying the sheaf condition) over a [[small category|small]] [[site]].
+
+A __Grothendieck topos__ $\mathcal{T}$ is a [[geometric embedding]]
+
+$$
+  \mathcal{T} \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
+  PSh(C)
+$$
+
+in a [[presheaf]] category.
+
+This is equivalently [[category of sheaves]] ([[Set]]-valued [[presheaves]] satisfying the sheaf condition) over a [[small category|small]] [[site]].
+
 =--
 
 Since smallness can be relative, we also have:
