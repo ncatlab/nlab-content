@@ -1,4 +1,6 @@
 
+> This entry is about a general concepts of "mathematical structure" in [[category theory]]. It subsumes but is more general than the concept of [[structure in model theory]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
