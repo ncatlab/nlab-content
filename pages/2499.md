@@ -423,9 +423,9 @@ The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ f
 
 =--
 
-### Rheonomy 
+### Rheonomy {#Rheonomy}
 
-A central insight for the constructioj of supergravity theories in D'Auria-Fre formalism is their notion of _rheonomy_ . In terms of the interpretation supergravity fields as [[connections in ∞-bundles]] we shall interpret this as the [[supergeometry]] version of the [[Ehresmann connection|second Ehresmann condition]], as above for gauge transformations.
+A central insight for the construction of supergravity theories in D'Auria-Fre formalism is their notion of _rheonomy_ . In terms of the interpretation supergravity fields as [[connections on ∞-bundles]] we shall interpret this as the [[supergeometry]] version of the [[Ehresmann connection|second Ehresmann condition]], as above for gauge transformations.
 
 For the folowing let $U$ be an ordinary non-super manifold. Write 
 
@@ -433,21 +433,21 @@ $$
   \Delta^{k|p} = \Delta^k \times \mathbb{R}^{0|p}
 $$
 
-for the [[supermanifold|super-simplex]]. Then the full diagram for gauge transformations of _super_-[[∞-Lie algebra valued forms]], generalizing the one for bosonic [gauge transformations above](#GaugeTransformations) is
+for the [[supermanifold|super-simplex]]. Then the full diagram for higher gauge transformations of _super_-[[∞-Lie algebra valued forms]], generalizing the one for bosonic [gauge transformations above](#GaugeTransformations) is
 
 $$
     \array{
-      \Omega^\bullet(X \times \Delta^{1|N})_{vert}
+      \Omega^\bullet(X \times \Delta^{k|p})_{vert}
       &\stackrel{A_{vert}}{\leftarrow}&
-      CE(\mathfrak{a})
+      CE(\mathfrak{g})
       &&&
       gauge\;transformation
       \\
       \uparrow && \uparrow &&&& first\;Ehresmann\;condition
       \\
-      \Omega^\bullet(X \times \Delta^{1|N})
+      \Omega^\bullet(X \times \Delta^{k|p})
       &\stackrel{A}{\leftarrow}&
-      W(\mathfrak{a})
+      W(\mathfrak{g})
       &&&
       field
       \\
@@ -467,7 +467,7 @@ The analog of the gauge parameter is now $\epsilon$ in the decomposition
 
 $$
   \Omega^\bullet(U \times \Delta^{0|1}) 
-  \leftarow
+  \leftarrow
   A_U + \epsilon \wedge d \theta
 $$
 
@@ -484,7 +484,7 @@ $$
   \,.
 $$
 
-This is the _rheonomy constraint_ . Or more generally, the constraint called such is the condition that $(F_A)_\theta$ is an algebraic expression in the $(F_A)|_{T U}$.
+This is the _rheonomy constraint_ . (Or -- more generally -- the constraint called such is the condition that $(F_A)_\theta$ is an algebraic expression in the $(F_A)|_{T U}$).
 
 ## References {#References}
 
