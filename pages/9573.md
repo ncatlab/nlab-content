@@ -52,7 +52,7 @@ Accordingly, trialgebras may be thought of as 4-[[bases]] for [[spaces of quantu
 
 A proposal for the definition of trialgebras is in
 
-* [[Hendryk Pfeiffer]], _2-Groups, trialgebras and their Hopf categories of representations_ ([arXiv:math/0411468](http://arxiv.org/abs/math/0411468))
+* [[Hendryk Pfeiffer]], _2-Groups, trialgebras and their Hopf categories of representations_, Adv. Math. 212 No. 1 (2007) 62-108 ([arXiv:math/0411468](http://arxiv.org/abs/math/0411468))
  {#Pfeiffer}
 
 motivated from the definition of [[Hopf monoidal categories]] in 
