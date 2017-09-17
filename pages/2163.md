@@ -137,7 +137,14 @@ $$
 
 =--
 
-This is ([GalatiusTillmannMadsenWeiss, main theorem](#GMWT)).
+This is ([Galatius-Tillmann-Madsen-Weiss 06, main theorem](#GMWT)).
+
++-- {: .num_remark}
+###### Remark
+
+This statement may be thought of as a limiting case, of the [[cobordism hypothesis]]-theorem. See there for more.
+
+=--
 
 
 #### Geometric case
@@ -174,13 +181,13 @@ A classical reference is
 
 The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
 
-* [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_ 	Acta Math. 202 (2009), no. 2, 195--239 ([arXiv:math/0605249](http://arxiv.org/abs/math/0605249))
-{#GMWT}
+* {#GMWT} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_ 	Acta Math. 202 (2009), no. 2, 195--239 ([arXiv:math/0605249](http://arxiv.org/abs/math/0605249))
+
 
 A generalization to geometric structure on the cobordisms is discussed in
 
-* [[David Ayala]], _Geometric cobordism categories_ thesis (2009) ([arXiv:0811.2280](http://arxiv.org/abs/0811.2280))
- {#Ayala}
+* {#Ayala} [[David Ayala]], _Geometric cobordism categories_ thesis (2009) ([arXiv:0811.2280](http://arxiv.org/abs/0811.2280))
+ 
 
 
 [[!redirects cobordism categories]]
@@ -191,4 +198,3 @@ A generalization to geometric structure on the cobordisms is discussed in
 [[!redirects Galatius-Madsen-Tillmann-Weiss theorem]]
 [[!redirects Galatius-Tillmann-Madsen-Weiss theorem]]
 [[!redirects GMWT theorem]]
-
