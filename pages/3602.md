@@ -45,13 +45,13 @@ Slightly more generally, if $Q$ is a quantal_oid_, there is a quantaloid $Q$-$Ma
 
 Composition works exactly as before. 
 
-## Examples of *-quantaloids ## 
+## Examples of $*$-quantaloids ## 
 
 The examples in the preceding section carry over straightforwardly: 
 
 * For $E$ a Grothendieck topos, $Rel(E)$ is a $*$-quantaloid where the $*$-operator takes a relation from $X$ to $Y$, i.e., a subobject $i: R \hookrightarrow X \times Y$, to its opposite obtained by composing $i$ with the symmetry isomorphism $X \times Y \cong Y \times X$. 
 
-Next, let $Q$ be a [[quantale|*-quantale]]. The quantaloid $Q$-$Mat$ is as before; this becomes a $*$-quantaloid by defining the transpose of a matrix as 
+Next, let $Q$ be a $*$-[[star-quantale|quantale]]. The quantaloid $Q$-$Mat$ is as before; this becomes a $*$-quantaloid by defining the transpose of a matrix as 
 
 * $M^*(x, y) = (M(y, x))^*$ 
 
