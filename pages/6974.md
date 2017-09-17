@@ -1,7 +1,9 @@
 
 * **[[subcategory]]**
 
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]], [[Serre subcategory]], [[topologizing subcategory]]
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]], 
+
+  * [[abelian subcategory]], [[Serre subcategory]], [[topologizing subcategory]]
 
   * [[internal subcategory]]
 
