@@ -50,7 +50,7 @@ More generally, if $\kappa$ is a [[regular cardinal]], then an object $X$ such t
 +-- {: .num_prop}
 ###### Proposition
 
-A $\kappa$-small [[colimit]] of $\kappa$-compact objects is again a $\kappa$-small object.
+A $\kappa$-small [[colimit]] of $\kappa$-compact objects is again a $\kappa$-compact object.
 
 =--
 
