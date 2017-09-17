@@ -16,13 +16,13 @@
 
 ## Idea
 
-What is called the "BRST complex" in [[physics]] literture is the [[Lie infinity-algebroid|qDGCA]] which is the [[Chevalley-Eilenberg algebra]] of the $L_\infty$-[[Lie infinity-algebroid|algebroid]] which is the differential version in [[Lie theory]] if the $\infty$-groupoid 
+What is called the "BRST complex" in the [[physics]] literature is the [[Lie infinity-algebroid|qDGCA]] which is the [[Chevalley-Eilenberg algebra]] of the $L_\infty$-[[Lie infinity-algebroid|algebroid]] which is the differential version in [[Lie theory]] of the $\infty$-groupoid 
 
  * whose space of objects is the space of configurations/histories of a given physical system;
 
  * whose morphisms describe the gauge transformations between these configurations/histories;
 
- * whose $k$-morphisms descrive the $k$-fold gauge-of-gauge transformations.
+ * whose $k$-morphisms describe the $k$-fold gauge-of-gauge transformations.
 
 The generators of the BRST complex are called
 
@@ -54,14 +54,14 @@ In that case, over a [[smooth manifold]] $X$,
     A \in \Omega^1(X, \mathfrak{g})
   $$
 
-* a [[gauge transformation]] $A_1 \stackrel{g}{\to} A_2$ between two field configurations $A$ and $A'$ is given by a [[smooth function]] $g : X \to G$ such that
+* a [[gauge transformation]] $A_1 \stackrel{g}{\to} A_2$ between two field configurations $A_1$ and $A_2$ is given by a [[smooth function]] $g : X \to G$ such that
 
   $$  
     A_2 = g^{-1} A_1 g + g^{-1} d_{dR} g
     \,.
   $$
 
-Eventually we want to say that the full [[configuration space]] is therefore the [[groupoid of Lie algebra valued 1-forms]] on $X$, but we will be interested now only in the [[infinitesimal space|infinitesimal]] approximation to the gauge transformations. Since the infinitesimal approximation of a Lie group is its [[Lie algebra]], these infinitesimal gauge transformations are given by smooth functions $\lambda : X \to \mathfrak{g}$ to from $X$ to the Lie algebra of $G$, relating field configurations by
+Eventually we want to say that the full [[configuration space]] is therefore the [[groupoid of Lie algebra valued 1-forms]] on $X$, but we will be interested now only in the [[infinitesimal space|infinitesimal]] approximation to the gauge transformations. Since the infinitesimal approximation of a Lie group is its [[Lie algebra]], these infinitesimal gauge transformations are given by smooth functions $\lambda : X \to \mathfrak{g}$ from $X$ to the Lie algebra of $G$, relating field configurations by
 
 \[
   \label{InfinitesimalGaugeTransformation}
@@ -69,23 +69,23 @@ Eventually we want to say that the full [[configuration space]] is therefore the
   \,.
 \]
 
-To see more in detail what this equation means, we choose a [[basis]] $\{t_a\}$ for the [[vector space]] $\mathfrak{g}$ that underlies the Lie algebra. In terms of this basis the Lie bracket is defined by its structure constants $\{C^a{}_{b c} \in \mathbb{R}\}$ defined by
+To see in more detail what this equation means, we choose a [[basis]] $\{t_a\}$ for the [[vector space]] $\mathfrak{g}$ that underlies the Lie algebra. In terms of this basis the Lie bracket is defined by its structure constants $\{C^a{}_{b c} \in \mathbb{R}\}$ defined by
 
 $$
   [t_b, t_c] = C^a{}_{b c} t_a
   \,.
 $$ 
 
-In terms of this a field configuration decomposes into components $\{A^a \in \Omega^1(X)\}$ defined by
+In terms of this, a field configuration decomposes into components $\{A^a \in \Omega^1(X)\}$ defined by
 
 $$
   A = A^a t_a \in \Omega^1(X,\mathfrak{g}) \simeq \Omega^1(X)\otimes \mathfrak{g}
 $$
 
-and equation (eq:InfinitesimalGaugeTransformation) for infinitesimal gauge transformations reads equivalently
+and the equation (eq:InfinitesimalGaugeTransformation) for infinitesimal gauge transformations reads equivalently
 
 $$
-  A_2^a = C^a{}_{b c} A^b \lambda^c + d_{dR} \lambda^a
+  A_2^a = C^a{}_{b c} A_1^b \lambda^c + d_{dR} \lambda^a
   \,.
 $$
 
@@ -136,13 +136,13 @@ Moreover, we declare the elements in degree 1 to anticommute with each other
 $$
   \mathbf{c}^a(x)\mathbf{c}^b(x) = 
   -
-  \mathbf{c}^b(x)\mathbf{c}^a(x)\mathbf{c}^b(x)
+  \mathbf{c}^b(x)\mathbf{c}^a(x)
   \,.
 $$
 
 So far this describes a [[graded algebra]] of functions. What is still missing is the information encoded in equation (eq:InfinitesimalGaugeTransformation), which links the gauge transformations with the field configurations that they act on. 
 
-By that formula, if we evaluate the functional $\mathbf{A}^a_\mu(x)$ not on a field $A$ itself, but the gauge transformation of this field by some $\lamba$, then the result is not $A^a_\mu(x)$ but $C^a{}_{b c} A^b_\mu(x)\lambda^c(x) + (d\lambda)_\mu^a(x)$. Therefore on gauge transformed fields the functional $\mathbf{A}^a_\mu(x)$ is replaced by
+By that formula, if we evaluate the functional $\mathbf{A}^a_\mu(x)$ not on a field $A$ itself, but the gauge transformation of this field by some $\lambda$, then the result is not $A^a_\mu(x)$ but $C^a{}_{b c} A^b_\mu(x)\lambda^c(x) + (d\lambda)_\mu^a(x)$. Therefore on gauge transformed fields the functional $\mathbf{A}^a_\mu(x)$ is replaced by
 
 $$
   \mathbf{A}^a_\mu(x) \mapsto 
@@ -162,7 +162,7 @@ $$
 
 This operation $d_{BRST}$ of "shifting functionals of fields and gauge transformations by infinitesimal gauge transformations" promotes the [[graded algebra]] constructed so far to a [[differential graded algebra]]. This is the BRST-complex of the given system.
 
-In a precise sense, this differential graded algebra, encodes the [[Lie algebroid|infinitesimal]] [[groupoid of Lie algebra valued 1-forms]] that it is an algebra of functions on in the same way that an algebra of functions on some manifold characterizes that manifold.
+In a precise sense, this differential graded algebra encodes the [[Lie algebroid|infinitesimal]] [[groupoid of Lie algebra valued 1-forms]] that it is an algebra of functions on in the same way that an algebra of functions on some manifold characterizes that manifold.
 
 #### Observables
 
@@ -174,9 +174,9 @@ $$
   O : X \to \mathbb{R}
 $$
 
-on that space namely an assignment of a number to each field configuration (say the energy or momentum, assigned to each field configuration).
+on that space, namely, an assignment of a number to each field configuration (say the energy or momentum, assigned to each field configuration).
 
-In the case at hand now the configuration space is not quite the manifold $\Omega^1(X, \mathfrak{g})$, but is that manifold equipped with the information of the infinitesimal gauge transformations in $\Omega^0(X,\mathfrak{g})$. One way to say this is that the confguration space now is the [[action Lie algebroid]] $\Omega^1(X,\mathfrak{g})//\Omega^0(X, \mathfrak{g})$ and that an observable is hence a function
+In the case at hand now the configuration space is not quite the manifold $\Omega^1(X, \mathfrak{g})$, but is that manifold equipped with the information of the infinitesimal gauge transformations in $\Omega^0(X,\mathfrak{g})$. One way to say this is that the configuration space now is the [[action Lie algebroid]] $\Omega^1(X,\mathfrak{g})//\Omega^0(X, \mathfrak{g})$ and that an observable is hence a function
 
 $$
   O
@@ -207,7 +207,7 @@ $$
 
 This may be most familiar from [[algebraic geometry]], where one considers bare rings of functions, without any smooth structure. For the application to physics we usually want to keep track of the smooth structure. This works seamlessly if we simply replace the notion of _algebra_ by that of _[[smooth algebra]]_ . 
 
-In any case, we can now grasp the way in which the configuration space of a gauge theory is not an ordinary manifold in terms of its dual function algebra: the BRST complex that we have described above is the function algebra on that configuration space, but it is not a plain algebra (or [[smooth algebra]]), but in fact a [[dg-algebra]], in that it carries a gradining and a differential. One therefore also says that the configuration space of a gauge theory is a _[[dg-manifold]]_ .
+In any case, we can now grasp the way in which the configuration space of a gauge theory is not an ordinary manifold in terms of its dual function algebra: the BRST complex that we have described above is the function algebra on that configuration space, but it is not a plain algebra (or [[smooth algebra]]), but in fact a [[dg-algebra]], in that it carries a grading and a differential. One therefore also says that the configuration space of a gauge theory is a _[[dg-manifold]]_ .
 
 Therefore, if we write $C^\infty(\Omega^1(X, \mathfrak{g})//\Omega^0(X, \mathfrak{g}))$ for our BRST complex, we find that an observable now is a homomorphism
 
@@ -244,12 +244,12 @@ Since a homomorphism of [[dg-algebra]]s preserves the grading and intertwines th
        \\
        & = O^*(0)
        \\
-       & 0
+       & = 0
      \end{aligned}
      \,.
    $$
 
-In conclusion this shows that the observables in the BRST complex are precisely the BRST-closed elements in degree 0. These are precisely those functions on the space of field configurations, which are invariant under the gauge transformations of the fields.
+In conclusion, this shows that the observables in the BRST complex are precisely the BRST-closed elements in degree 0. These are precisely those functions on the space of field configurations which are invariant under the gauge transformations of the fields.
 
 ## Related concepts
 
@@ -261,7 +261,7 @@ The BRST complex described a homotopical [[quotient]] of a space by an infinites
 
 * [[antifield]], [[antighost field]]
 
-* [[equivarianr de Rham cohomology]]
+* [[equivariant de Rham cohomology]]
 
 [[!include gauge field - table]]
 
