@@ -16,7 +16,7 @@
 
 # Contents
 
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -180,7 +180,7 @@ These models are constructed in terms of [[sheaf]] [[topos]]es on the category o
 
 Transcipts or notes of further talks by Bill Lawvere on the subject are
 
-* [[Bill Lawvere]], _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([[LawvereToposesOfLawsOfMotions.pdf:file]])
+* [[Bill Lawvere]], _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([[LawvereToposesOfLawsOfMotions.pdf:file]])
 
   (on the description of [[differential equation]]s in terms of synthetic differential geometry)
 
