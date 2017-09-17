@@ -21,30 +21,10 @@ The collection of all [[(∞,1)-topos]]es. The [[(∞,1)-category]]-theory analo
 
 ## Definition
 
-**$(\infty,1)\,Topos$** (or **$(\infty,1)\,Toposes$**) is the (non-full) [[sub-(∞,1)-category]] of [[(∞,1)Cat]] on [[(∞,1)-toposes]] and $(\infty,1)$-geometric morphisms between them.
+**$(\infty,1)\,Topos$** (or **$(\infty,1)\,Toposes$**) is the (non-full) [[sub-(∞,1)-category]] of [[(∞,1)Cat]] on [[(∞,1)-toposes]] and [[(∞,1)-geometric morphisms]] between them.
 
+Morally, this should actually be an [[(∞,2)-category]], just as [[Topos]] is a [[2-category]], but since the technology of $(\infty,2)$-categories is not well developed, this point of view is not often taken yet.
 
-+-- {: .un_def}
-###### Defintion
-**(geometric morphism)**
-
-For $\mathbf{H}$, $\mathbf{K}$ two $(\infty,1)$-toposes, an [[(∞,1)-functor]]
-
-$$
-  f_* : \mathbf{H} \to \mathbf{K}
-$$
-
-is called an **[[(∞,1)-geometric morphisms]]** if it is the [[right adjoint]] of a pair of [[adjoint (∞,1)-functor]]s $(f^* \dashv f*)$ such that the [[left adjoint]] $f^*$ preserves finite [[(∞,1)-limit]]s (is a left [[exact (∞,1)-functor]]).
-
-Write
-
-$$
-  (\infty,1)Toposes \subset \widehat{(\infty,1)Cat}
-$$
-
-for the [[sub-(∞,1)-category]] of tje [[(∞,1)-category of (∞,1)-categories]] on $(\infty,1)$-toposes and geometric morphisms.
-
-=--
 
 ## Properties
 
