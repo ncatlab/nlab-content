@@ -231,4 +231,8 @@ An introduction and survey is in
 
 
 
+[[!redirects higher Chern-Simons theory]]
 [[!redirects higher Chern-Simons theories]]
+
+[[!redirects higher dimensional Chern-Simons theories]]
+
