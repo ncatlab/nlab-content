@@ -137,6 +137,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Explaining Math](http://explainingmaths.wordpress.com) math teaching with multimedia, screencasts
 
+* [FFF](http://ffbandf.wordpress.com) Forking, Forcing and back&Forthing -- a blog by 10 model theorists
+
 * [Frank Morgan's Blog](http://blogs.williams.edu/Morgan) (Riemannian and metric geometry, inequalities...)
 
 * [F_un mathematics](http://matrix.cmi.ua.ac.be/fun) ("field with one element")
