@@ -1,4 +1,6 @@
 
+> See also _[[Pontryagin duality]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -22,7 +24,7 @@ For example, the Pontrjagin dual of the additive group of [[integer]]s $\mathbb{
 
 ## Pontrjagin duality theorem
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Pontrjagin duality theorem
 For every [[locally compact space|locally compact]] (Hausdorff) topological abelian group $A$, the natural function $A \mapsto \widehat{\widehat{A}}$ from $A$ into the Pontrjagin dual of the Pontrjagin dual of $A$, assigning to every $g\in A$ the continuous character $f_g$ given by $f_g(\chi)=\chi(g)$, is an [[isomorphism]] of topological groups (that is, a group isomorphism that is also a [[homeomorphism]]). 
 =--
