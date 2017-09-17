@@ -247,6 +247,27 @@ For more on this see
 
 * [[quantum mechanics in terms of †-compact categories]].
 
+## Foundations theorems of quantum mechanics
+
+The following circle of [[theorems]]
+
+* [[Kochen-Specker theorem]]
+
+* [[Gleason's theorem]]
+
+* [[Alfsen-Shultz theorem]]
+
+* [[Harding-Döring-Hamhalter theorem]]
+
+all revolve around the phenomenon that the "[[phase space]]" in quantum mechanics and hence the [[space of quantum states]] are all determined by the [[Jordan algebra]] structure on the [[algebra of observables]], which in turn is determined by the [[poset of commutative subalgebras]] of the algebra of observables.
+
+There is also 
+
+* [[Wigner's theorem]]
+
+which says roughly that linear maps between [[spaces of quantum states]] are [[unitary operators]] (or anti-unitary) already when they preserve [[norm]], hence preserve [[probability]].
+
+
 ## Applications of quantum mechanics
 
 Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an accurate description of reality whenever the characteristic scale is sufficiently small. For instance
