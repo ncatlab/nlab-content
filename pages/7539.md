@@ -14,6 +14,33 @@ A _complex of groups_ is a [[diagram]] of [[groups]], [[homomorphisms]] and [[co
 
 ##Definition
 
+We will initially give the definition in its 'bare hands' form. Here $K$ is a [[simplicial complex]]
+
+ A _complex of groups_, $G(K)$, on $K$ is specified by the data, $(\{G_\sigma\}, \{\psi_a\}, \{g_{a, b}\})$
+given by
+
+* a group, $G_{\sigma}$, for each simplex, $\sigma$, of $K$; 
+
+* an injective homomorphism,
+
+$$\psi_a :G_{i (a)} \rightarrow G_{t(a)},$$
+
+for each edge, $a \in E_K$, of the barycentric subdivision of $K$;
+
+* for each pair of composable edges, $a$ and $b$, in $E_K$, an element
+  $g_{a, b} \in G_{t(a)}$ is given such that
+
+$$g^{- 1}_{a, b} \psi_{ba} (_-) g_{a, b} = \psi_a \psi_b$$
+
+and such that the   'cocycle condition'
+
+$$g_{a, cb} \psi_a (g_{b, c}) = g_{ab, c} g_{a, b}$$
+
+holds.
+
+
+##Examples
+
 (to come later)
 
 ## Complexes of groups as pseudofunctors.
