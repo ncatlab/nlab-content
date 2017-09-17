@@ -2,19 +2,16 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
+#### Symplectic geometry
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
-=--
-#### $\infty$-Lie theory
-+--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include symplectic geometry - contents]]
 =--
 =--
 =--
 
+
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Definition
