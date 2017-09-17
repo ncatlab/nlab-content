@@ -246,7 +246,7 @@ and might be taken to be the strict sense of the term.
 
 * For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 2-group</a> this yields the [[Kalb-Ramond field]]
 
-* For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 3-group</a> this yields the [[supergravity C-field]].
+* For structure group $G = \mathbf{B}^2U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 3-group</a> this yields the [[supergravity C-field]].
 
 * For structure group the [[K-theory spectrum]] we get [[differential K-theory]] describing the [[RR-field]].
 
