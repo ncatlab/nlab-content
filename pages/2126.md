@@ -69,6 +69,8 @@ $$
   \,.
 $$
 
+A [[cocycle]] in this cohomology theory is a [[cochain on a simplicial set]], on the singular complex $Sing X$.
+
 Using the [[adjunction]] $(F \dashv U)$ this is [[isomorphism|isomorphic]] to
 
 $$
@@ -111,14 +113,14 @@ This way singular cohomology is the abelian dual of [[singular homology]].
 
 
 
-## Properties
+## Related concepts
 
-* [[cup product]].
+* [[cochain on a simplicial set]]
 
+* [[cup product]]
 
 * [[de Rham theorem]]
 
-...
 
 ## Discussion
 
