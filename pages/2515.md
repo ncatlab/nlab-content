@@ -39,7 +39,7 @@ with those of
 
 * [[David Yetter]], _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1988__29_2_87_0))
 
-* H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / Februar 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
+* H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / February 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
 
 * H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
 
@@ -49,7 +49,7 @@ with those of
 
 The article
 
-* Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 { 486
+* Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471-486
  {#KonechnySchwarz}
  
 considers manifolds with odd and even nilpotent functions: formal supermanifolds.
