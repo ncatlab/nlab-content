@@ -97,11 +97,9 @@ By a result due to Miguel LaPlaza, every closed category embeds [[full and faith
 
 Since the notion of closed category involves a contravariant functor and extranatural transformations, it cannot be expected to be [[2-monad|2-monadic]] over the [[2-category]] [[Cat]].  It is, however, 2-monadic over the 2-category $Cat_g$ of categories, functors, and natural isomorphisms, the [[core]] of [[Cat]].  In this way we obtain a 2-category $ClCat$ of closed categories, strong [[closed functors]], and [[closed natural transformations]].  One can also define a notion of non-strong, or "lax," closed functor; although these do not seemingly arise from the 2-monad in question, they generalize lax monoidal functors between closed monoidal categories.
 
-### Relation to self-enrichment
+### The closed enrichment context
 
-In fact, the notion of a closed structure on $C$ is more natural than the notion of a monoidal structure on $C$ if we consider them from the point of view of the categories enriched in $C$. For monoidal $C$, we can express the definition of a $C$-enriched category for monoidal $C$ (or rather, we can characterize the $2$-category of $C$-enriched categories) by a (strict) $2$-functor from a $2$-category with a [[unit enriched category|unit object]] $\mathcal{I}$ to the lax [[slice 2-category]] $\mathbf{Cat}//C$ satisfying certain conditions. We cannot, however, recover the monoidal structure of $C$ from this characterization of the $2$-categories of $C$-enriched categories.
-
-On the other hand, for a closed $C$, that is, $C$ isomorphic to $[\mathcal{I},\mathcal{C}]$ for some $C$-enriched $\mathcal{C}$, we can express the same by a [[lax natural transformation]] ${}^-L$ from the $2$-functor $[\mathcal{I},-]^{op}$ to the $2$-functor $[-,\mathcal{C}]$, satisfying certain conditions. This recovers the closed structure of $C$ as the family of transformations $L^X_{Y,Z}$ below are exactly the data defining the component ${}^{\mathcal{C}}L$ of the lax natural transformation ${}^-L$. See [[category of V-enriched categories]] for details.
+The closed structure on a category $\mathcal{V}_0$ is an enrichment context $\mathcal{V}$ relative to which we can define a [[category of V-enriched categories]]. In fact, from this point of view the closed structure is more natural than the monoidal structure since most (if not all it) is forced if one insists for an enrichment context $\mathcal{V}$ for which $\mathcal{V}_0$ is self-enriched, that is, isomorphic to the underlying category $\mathcal{V}^e_0$ of some $\mathcal{V}$-enriched category $\mathcal{V}^e$. See [[category of V-enriched categories]] for details.
 
 ## Related concepts
 
