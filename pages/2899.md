@@ -159,3 +159,5 @@ Lecture notes are
 [[!redirects étale morphism of schemes]]
 [[!redirects formally etale morphism]]
 [[!redirects formally étale morphism]]
+
+[[!redirects formally etale]]
