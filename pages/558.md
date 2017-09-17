@@ -22,7 +22,7 @@
 
 The _homotopy hypothesis_ is the assertion that
 
-* [[∞-groupoid]]s are equivalent to [[topological space]].
+* [[∞-groupoid]]s are equivalent to [[topological space]]s.
 
 or rather the stronger statement that
 
@@ -62,7 +62,7 @@ Finally, in analogy to the homotopy hypothesis, there are also attempts to relat
 
 ## Realizations
 
-We discuss various different definitions of [[]n-groupoid]]s and [[∞-groupoid]]s and the formulation and proof of the homotopy hypothesis for them, to the extent that it is available.
+We discuss various different definitions of [[n-groupoid]]s and [[∞-groupoid]]s and the formulation and proof of the homotopy hypothesis for them, to the extent that it is available.
 
 
 ### For groupoids
@@ -79,7 +79,7 @@ The [[2-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s, and [[natural transf
 
 (...) [[2-groupoid]]s model all [[homotopy n-type|homotopy 2-type]]s (...)
 
-[[strict 2-groupoid]]s suffice (...)
+[[strict 2-groupoid]]s suffice (...) (but note that strict 2-functors are not sufficient to model all maps between 2-types)
 
 ### For Gray-groupoids
 
