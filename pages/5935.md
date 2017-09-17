@@ -1,7 +1,7 @@
-[[!redirects cohesive (infinity,1)-topos -- structure ∞-sheaves]]
-[[!redirects cohesive (∞,1)-topos -- structure ∞-sheaves]]
 
 > this is a subentry of [[cohesive (infinity,1)-topos]]. See there for background and context
+
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,6 +17,24 @@
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+We discuss how a [[cohesive (∞,1)-topos]] that is equipped with a notion of [[cohesive (∞,1)-topos|infinitesimal cohesion]] induces a notion of [[geometry (for structured (∞,1)-toposes)]], hence formally defines a  [[higher geometry]] with a good notion of cohesively [[structured (∞,1)-topos]]es that suitably adapts and generalizes the notion of [[locally ringed space]] and [[locally ringed topos]].
+
+Every [[(∞,1)-topos]] $\mathbf{H}$ is (in a tautological but useful way), the [[classifying topos]] (see there for details) for a [[theory]] $\mathbb{T}$ of [[local algebra|local]] [[∞-algebra over an (∞,1)-algebraic theory|∞-algebras]]. 
+
+This means that for $\mathcal{X}$ any [[(∞,1)-topos]] and 
+
+$$
+  A : (\mathcal{O}_{\mathcal{X}} \dashv R) : \mathcal{X} \to \mathbf{H}
+$$
+
+a [[geometric morphism]], we may think of $\mathcal{O}_{\mathcal{X}}$ as exhibiting a [[structure sheaf]] of local $\mathbb{T}$-algebras in $\mathcal{X}$.
+
+For this general abstract construction to accurately reflect a notion of [[higher geometry]], this setup needs to be equipped with a suitable choice of admissible morphisms between such $\infty$-structure sheaves. This is encoded by a choice of morphisms in $\mathbf{H}$ that qualify as [[open map]]s in a suitable sense. Such a choice then gives rise to a notion of [[geometry (for structured (∞,1)-toposes)]].
+
+We discuss below how in the case that $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] equipped with [[cohesive (∞,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]] these [[open map]]s are canonically and intrinsically induced: they are the [[formally etale morphism]]s with respect to the given notion of infinitesimal cohesion.
 
 ## Definition
 
@@ -36,10 +54,12 @@ Let in addition $i : \mathbf{H} \hookrightarrow \mathbf{H}_{th}$ be an [[cohesiv
 
 We say a morphism $\mathcal{O}_{\mathcal{X}} \to \mathcal{O}'_{\mathcal{X}}$ of $\mathbb{T}$-structures is **local**, if its components on [[formally étale morphism]]s are [[(∞,1)-pullback]] squares.
 
+Formally etale morphisms do satisfy the axioms on admissibile maps, according to <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#PropertiesOfFormallyEtaleMorphisms">this propositon</a>
+
 The subcategory spanned by the local morphisms of $T$-structures on $\mathcal{X}$ we write
 
 
-
+(...)
 
 
 
@@ -48,3 +68,7 @@ The subcategory spanned by the local morphisms of $T$-structures on $\mathcal{X}
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
   {#Lurie}
+
+
+[[!redirects cohesive (infinity,1)-topos -- structure ∞-sheaves]]
+[[!redirects cohesive (∞,1)-topos -- structure ∞-sheaves]]
