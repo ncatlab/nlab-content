@@ -600,7 +600,7 @@ by the above propositions we have that the counit $L z \to z$ is an equivalence 
 
 So by the properties of [[limit in a quasi-category|limits]] it suffices to check that $L$ preserves all pullbacks if $S$ is stable under pullback.
 
-For that, first notice that for $x \to y \leftarrow z$ a diagram in $C$, the pullback $L x \times_{L_y} L_z$ of the image exists in $C$, by assumption, but is easily seen to be $S$-local and hence lands in $D$. Therefore to show that we have an equivalence $L(x \times_y z) \simeq L x \times_{L y} \times L z$ it is sufficient to show that the natural morphism, $x \times_y z \to L x \times_{L y} L z$ is in $S$ induced from the morphism of diagrams
+For that, first notice that for $x \to y \leftarrow z$ a diagram in $C$, the pullback $L x \times_{L_y} L_z$ of the image exists in $C$, by assumption, but is easily seen to be $S$-local and hence lands in $D$. Therefore to show that we have an equivalence $L(x \; \times_y z) \simeq L x \; \times_{L y} \times L z$ it is sufficient to show that the natural morphism, $x \times_y z \to L x \times_{L y} L z$ induced from the morphism of diagrams
 
 $$
   \array{
@@ -616,7 +616,34 @@ $$
   }
 $$
 
-with the adjunction unit morphism  on the horizonatals, is in $S$. But by only passing along these units one at a time, this may be decomposed as a composite of three morphisms
+in $C$ with the adjunction unit morphism  on the horizonatals, is in $S$. By passing along these units one at a time
+
+$$
+  \array{
+    x &\stackrel{Id}{\to}& x &\stackrel{i_x}{\to}& L x
+    &\stackrel{Id}{\to}&
+    L x
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{i_y f}} && 
+    \downarrow^{L f}
+    &&
+    \downarrow^{L f}
+    \\
+    y &\stackrel{i_y}{\to}& L y &\stackrel{Id}{\to}& L y
+    &\stackrel{Id}{\to}&
+    L y
+    \\
+    \uparrow^{\mathllap{g}} && \uparrow_{\mathrlap{i_y g}} 
+    && 
+    \uparrow_{i_y g} && \uparrow_{L g}
+    \\
+    z &\stackrel{Id}{\to}& z &\stackrel{Id}{\to}& z
+    &\stackrel{i_z}{\to}&
+    L z
+  }
+$$
+
+this may be decomposed as a composite of three morphisms
 
 $$
   x \times_y z \to x \times_{L y} z 
