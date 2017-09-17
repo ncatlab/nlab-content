@@ -48,6 +48,12 @@ Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entang
 
 * [SPT order](http://en.wikipedia.org/wiki/Symmetry_protected_topological_order)
 
+#### Classification
+
+* [[Daniel S. Freed]], [[Gregory Moore|Gregory W. Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]])
+* Alexei Kitaev, _Periodic table for topological insulators and superconductors_, Proc. L.D.Landau Memorial Conf. "Advances in Theor. Physics", June 22-26, 2008, Chernogolovka, Russia, [arxiv/0901.2686](http://arxiv.org/abs/0901.2686) (uses [[K-homology]], [[Bott periodicity]] etc.)
+* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, Xiao-Gang Wen, _Symmetry protected topological orders and the group cohomology of their symmetry group_, [arXiv:1106.4772](http://arxiv.org/abs/1106.4772); A short version in Science __338__, 1604-1606 (2012) [pdf](http://dao.mit.edu/~wen/pub/dDSPTsht.pdf)
+
 #### Early discovery articles
 
 * Zheng-Cheng Gu, [[Xiao-Gang Wen]], Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order , Phys. Rev. B80, 155131 (2009); 
@@ -65,8 +71,7 @@ Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entang
 
 * seminar in Koeln [Topological states of matter](http://www.thp.uni-koeln.de/trebst/Lectures/2012-TopoSeminar.html)
 * Topological Phases of Matter: Simons Center, June 10-14, 2013, videos [available](http://scgp.stonybrook.edu/archives/3464)
-* A. Kitaev, _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874) (This is about trivial topological order with symmetry, or [[symmetry protected trivial order]])
-
+* A. Kitaev, _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874)
 
 [[!redirects symmetry protected trivial order]]
 [[!redirects symmetry protected trivial orders]]
