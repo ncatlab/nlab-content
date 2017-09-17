@@ -4,6 +4,9 @@ In an artinian ring $R$ the [[Jacobson radical]] $J(R)$ is [[nilpotent ideal|nil
 
 A dual condition is noetherian: a __[[noetherian ring]]__ is a ring satisfying the ascending chain condition on ideals. The symmetry is severely broken if one considers unital rings: for example every unital artinian ring is noetherian. For a converse there is a strong condition: a left (unital) ring $R$ is left artinian iff $R/J(R)$ is semisimple in $_R Mod$ and the Jacobson radical $J(R)$ is nilpotent. Artinian rings are intuitively much smaller than generic noetherian rings. 
 
+###Related concept
+
+* [[artinian object]]
 
 [[!redirects artinian rings]]
 [[!redirects Artinian ring]]
