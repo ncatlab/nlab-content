@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -176,6 +187,12 @@ For more background see [[deformation theory]].
 Apart from simplicial rings we can consider $E_\infty$-rings. A map of connective $E_\infty$-rings is an equivalence, if it induces an isomorphism at the level of $\pi_0$ plus a condition on the relative cotangent complex.
 Similarly, one can express the descent properties of higher stacks via the usual gluing at the bottom level plus the obstruction theory for relative cotangent complex. Study of an appropriate version of the [[Postnikov tower]] is a systematic way to do this. 
 
+## Related concepts
+
+* [[tangent complex]]
+
+* **cotangent complex**
+
 ## References
 
 See also [[deformation theory]] and references therein.
@@ -199,3 +216,11 @@ See also [[deformation theory]] and references therein.
 A short exposition (from the point of view of [[formal schemes]]) is in
 
 * chapter 5 (5.29-5.31) in Luc Illusie, _Grothendieck's existence theorem in formal geometry_, in [[FGA explained]] (179--233) MR2223409; (draft version [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes)) 
+
+The cotangent complex for a general [[algebra over an operad]] in [[chain complex]]es is discussed in section 7 of
+
+* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+{#Hinich}
+
+
+[[!redirects cotangent complexes]]
