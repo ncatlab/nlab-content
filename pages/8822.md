@@ -21,56 +21,44 @@ An [[object]] $U$ in a [[category]] $\mathcal{C}$ is called a _separator_ if [[g
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 An [[object]] $U \in \mathcal{C}$ of a [[locally small category]] $\mathcal{C}$ is called a **separator** or a **separating object** or is said to **separate morphisms** (or sometimes [[separator]]) if the [[hom functor]] $Hom(U,-) \colon \mathcal{C} \to $ [[Set]] is a [[faithful functor]]. 
 
-This means that for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$ we have that if $\forall_{U \stackrel{e}{\to} X}: u \circ f = u \circ g$ then $f = g$.
+This means equivalently that for every pair of [[parallel morphisms]] $f,g \colon X \to Y$ in $\mathcal{C}$ we have that if $\forall_{U \stackrel{e}{\to} X}: u \circ f = u \circ g$ then $f = g$.
 
-###Caution on terminology
+=--
 
-The term _separator_ is also quite frequently used for this, but does seem slightly more ambiguous because of the use of 'generators' as in _generators and relations_. Because of this the notion, for instance, of _separating family_ is also called a _separating family_ and so on.
+More generally:
 
++-- {: .num_defn}
+###### Definition
 
-One often extends this notion to a __separating family__ of objects, which is a (usually [[small set|small]]) [[set]] $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $C$ such that the family $C(S_a,-)$ is jointly faithful. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
-$$ \forall (a: A),\; \forall (\theta: S_a \to X),\; f_1 \circ \theta = f_2 \circ \theta ,$$
+A __separating family__ of objects in $\mathcal{C}$, which is a (usually [[small set|small]]) [[set]] $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $\mathcla{C}$ such that the family $C(S_a,-)$ is jointly faithful. 
+
+This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
+
+$$ 
+  \forall (a: A),\; \forall (\theta: S_a \to X),\; 
+  f_1 \circ \theta = f_2 \circ \theta 
+$$ 
+
 then $f_1 = f_2$.
 
-The dual notion is [[coseparator]].
+=--
+
+The dual notion is _[[coseparator]]_.
 
 
 ## Examples and applications
 
-In [[Set]], the [[point]] is a separator.  More generally, in any [[well-pointed category]], $1$ is a separator.  More generally still, in any [[concrete category]], the representing object is a separator.
+* In [[Set]], the [[point]] is a separator.  More generally, in any [[well-pointed category]], $1$ is a separator.  More generally still, in any [[concrete category]], the representing object is a separator.
 
-The standard example of a separator in the category of $R$-modules over a ring $R$ is any free module $R^I$ and $R$ in particular. If a separator is a finitely separated [[projective object]] in the category of $R$-modules, then the traditional terminology is _proseparator_. Proseparators are important in classical Morita theory, see [[Morita equivalence]].
-
-+--{: .query}
-[[Mike Shulman|Mike]]: The term "proseparator" seems unfortunate to me; it sounds to me like a [[pro-object]] that is a separator.  Is it well-established?  I've never heard it, though I have heard "projective separator" in the context of Morita theory.
-
-[[Zoran Škoda]] It is an extremely frequent term in classical algebra and in many of the standard monographs in module theory over classical rings. I personally never use the expression and mentioned it only once in a survey. But as a link to that area of mathematics I tend to behave conservatively. Notice that the terminology subsumes finite separation. 
-=--
-
-The existence of a small separating family is one of the conditions in [[Giraud's theorem]] characterizing [[Grothendieck topos]]es.
-
-The existence of a small (co)separating family is one of the conditions in one version of the [[adjoint functor theorem]].
+* For $R$ a [[ring]] a separator for the category $R$[[Mod]] of modules is any [[free module]] over $R$.
 
 
-## Strengthened separators
 
-If $C$ is [[locally small category|locally small]] and has small [[coproduct]]s, then a family $\{S_a\}_{a\in A}$  is a separating family if and only if for every $X\in C$, the canonical morphism
-$$ \varepsilon_X: \coprod_{a\in A, f:S_a\to X} S_a \longrightarrow X $$
-is an [[epimorphism]].
-
-More generally, if $\mathcal{E}$ is a subclass of epimorphisms, we say that $\{S_a\}$ is an **$\mathcal{E}$-separator** if each morphism $\varepsilon_X$ is in $\mathcal{E}$.
-
-Of particular importance is the notion of **strong separator** which is obtained by taking $\mathcal{E}$ to be the class of [[strong epimorphism]]s.  This can be expressed equivalently, without requiring local smallness or the existence to coproducts, by saying that  the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]].
-
-If we take $\mathcal{E}$ to be the class of [[extremal epimorphism]]s, we might call the resulting notion "extremal separator," but **dense separator** is more standard. The reason is that the family $\{S_a\}$ is an extremal separating family if and only if the inclusion of the full subcategory on the objects $\{S_a\}$ is [[dense functor|dense]] (and this definition makes sense without assuming coproducts or local smallness).  This is the strongest sort of separator.
-
-If $C$ has pullbacks, then extremal epis reduce to strong ones, and so extremal separators are necessarily strong. For this reason, some authors simply define "strong separator" to mean "dense separator."
-
-+--{: .query}
-[[Daniel Schaeppi]] Something seems to be wrong here: strong epimorphisms are extremal, so the notion of extremal generator is weaker than the notion of strong generator. In general, not every strong separator / strong generator is (Set-)dense (take the free abelian group on one separator, for example).
-=--
 
 ## Related concepts
 
