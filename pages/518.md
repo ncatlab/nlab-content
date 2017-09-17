@@ -20,7 +20,7 @@ This entry is about the article
 
 Brown was a student of [[Dan Quillen]]. He expands in this article work from his thesis on a notion of [[homotopical category]] -- called a [[category of fibrant objects]] -- with a bit less structure than that of a full [[model category]], which he uses to study "generalized [[abelian sheaf cohomology]]": 
 
-Following the [[nPOV]] on [[cohomology]] he studies precisely the cohomology within [[∞-stack]] [[(∞,1)-topos]]es and, in the second part of the article, that in [[(∞,1)-category|(∞,1)-categories]] of [[(∞,1)-sheaf|(∞,1)-sheaves]] of [[spectrum|spectra]].
+Following, or rather as a precursor of, the [[nPOV]] on [[cohomology]] he studies precisely the cohomology within [[∞-stack]] [[(∞,1)-topos]]es and, in the second part of the article, that in [[(∞,1)-category|(∞,1)-categories]] of [[(∞,1)-sheaf|(∞,1)-sheaves]] of [[spectrum|spectra]].
 
 As such, this article is a forunner of the development of the full [[model category]] structures built for the purpose of [[models for ∞-stack (∞,1)-toposes|modelling ∞-stack (∞,1)-toposes]]: the [[model structure on simplicial presheaves|model structure on simplicial (pre)sheaves]] as first defined by [[Andre Joyal]] in his letter to Grothendieck and then later generalized from simplicial sheaves to [[simplicial presheaf|simplicial presheaves]] and developed in great detail by Jardine (in its injective version) and [[Dan Dugger]] (in its projective version). 
 
