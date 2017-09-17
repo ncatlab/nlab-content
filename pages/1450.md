@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
 [[!include synthetic differential geometry - contents]]
-</div>
+=--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
 
 # Contents
