@@ -77,6 +77,11 @@ $$
 
 =--
 
+
+###Crossed complex version
+
+A version for [[crossed complexes]] is given by [[Andy Tonks]].
+
 ## Applications 
 
 ### Homology groups of products of topological spaces {#ProdTopSp}
@@ -124,3 +129,10 @@ The stronger version as stated above is in [chapter 4](http://www.maths.abdn.ac.
 The cosimplicial version of the theorem appears as theorem A.3 in
 
 * L. Grunenfelder and M. Mastnak, _Cohomology of abelian matched pairs and the Kac sequence_ ([arXiv:math/0212124](http://arxiv.org/abs/math/0212124))
+
+
+The crossed complex  version is given in 
+
+* [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220
+
+and on page 360 of [[Nonabelian Algebraic Topology]].
