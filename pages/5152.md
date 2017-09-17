@@ -85,7 +85,7 @@ The example from [[proper homotopy theory]] is discussed in
 
 * H.-J. Baues and  Antonio Quintero, _Infinite Homotopy Theory_,  K-monographs in mathematics, Volume 6, Kluwer, 2001.
 
-
+[[!redirects spherical objects]]
 [[!redirects spherical object and Pi(A)-algebra]]
 [[!redirects spherical objects and Pi(A)-algebra]]
 [[!redirects spherical objects and Pi(A)-algebras]]
