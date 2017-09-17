@@ -4,7 +4,7 @@
 
 ## Idea
 
-The _Hochschild-Kostant-Rosenberg theorem_ identifies the [[Hochschild homology]] and -cohomology of certain [[algebra]]s with [[Kähler differential]]s and [[derivation]]s, respectibely
+The _Hochschild-Kostant-Rosenberg theorem_ identifies the [[Hochschild homology]] and -cohomology of certain [[algebra]]s with [[Kähler differential]]s and [[derivation]]s, respectively.
 
 
 ## Details
