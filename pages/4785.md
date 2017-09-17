@@ -9,8 +9,7 @@
 =--
 =--
 
-The classification of [[simple Lie group]]s contains four infinite series of "classical" Lie groups:
-
+The classification of [[simple Lie group]]s contains four infinite series of "classical" simple Lie groups:
 
 * $A_n = SU(n+1)$, the [[special unitary group]] 
 
@@ -20,8 +19,10 @@ The classification of [[simple Lie group]]s contains four infinite series of "cl
 
 * $D_n = SO(2n)$, the [[special orthogonal group]] 
 
-
 Apart from this there are five [[exceptional Lie groups]].
 
+More generally, other [[matrix Lie groups]], such as the [[general linear group]] $GL(n)$, may be called "classical".
 
+
+[[!redirects classical Lie group]]
 [[!redirects classical Lie groups]]
