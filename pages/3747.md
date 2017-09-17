@@ -65,7 +65,7 @@ $$ {|x_i - y_j|} \leq \epsilon $$
 holds whenever $i,j \geq \alpha$.
 A generalised Cauchy real number does not need a modulus of convergence, for reasons that I should probably write about at [[modulus of convergence]].
 
-Another method is to use [[presequences]], which are [[multivalued functions]] from the natural numbers.  A __multivalued Cauchy real number__ $x$ is an [[entire relation]] between natural numbers and rational numbers such that, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i, j \geq \alpha$,
+Another method is to use [[presequence]]s, which are [[multivalued functions]] from the natural numbers.  A __multivalued Cauchy real number__ $x$ is an [[entire relation]] between natural numbers and rational numbers such that, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i, j \geq \alpha$,
 $$ {|a - b|} \leq \epsilon $$
 holds for some $a,b$ such that $x_{i,a}$ and $x_{j,b}$ hold.  Two multivalued Cauchy real numbers are considered __equal__ if, for every positive rational number $\epsilon$, there exists a natural number $\alpha$ such that, whenever $i \geq \alpha$,
 $$ {|a - b|} \leq \epsilon $$
@@ -131,7 +131,13 @@ We can also use [[nets]] instead of sequences.  In that case, we have that every
 [[!redirects Cauchy real numbers]]
 [[!redirects Cauchy real]]
 [[!redirects Cauchy reals]]
+
 [[!redirects Cantor real number]]
 [[!redirects Cantor real numbers]]
 [[!redirects Cantor real]]
 [[!redirects Cantor reals]]
+
+[[!redirects regular Cauchy real number]]
+[[!redirects regular Cauchy real numbers]]
+[[!redirects regular Cauchy real]]
+[[!redirects regular Cauchy reals]]
