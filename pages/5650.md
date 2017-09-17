@@ -361,6 +361,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 8.2 Properties of rings and modules
 
+* [[perfect module]]
+
 ### 8.3 The cotangent complex formalism
 
 * [[tangent (∞,1)-category]]
