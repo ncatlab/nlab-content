@@ -1,6 +1,8 @@
 
 ## Related entries
 
+* [[partial recursive function]]
+
 * [[computability]]
 
 * [[Type Two Theory of Effectivity]]
