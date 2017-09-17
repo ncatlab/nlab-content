@@ -53,3 +53,5 @@ A brief review is for instance in section 1 of
 See also
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+
+[[!redirects elliptic spectra]]
