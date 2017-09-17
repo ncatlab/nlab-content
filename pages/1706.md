@@ -356,8 +356,4 @@ Cobordisms with geometric structure are discussed in
 
 
 
-
-
-
-
-
+[[!redirects cobordism theorem]]
