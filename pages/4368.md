@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Gabriel--Ulmer duality
 * table of contents
 {: toc}
@@ -18,17 +30,17 @@ where [[Lex]] is the 2-category of:
 
 * small [[finitely complete categories]], 
 
-* finite limit preserving functors, and 
+* [[finite limit]] [[preserved limit|preserving]] [[functors]], and 
 
-* natural transformations, 
+* [[natural transformations]], 
 
 and LFP is the 2-category of 
 
 * [[locally finitely presentable categories]], 
 
-* finitary right adjoint functors and 
+* finitary [[right adjoint|right]] [[adjoint functors]] and 
 
-* natural transformations.
+* [[natural transformations]].
 
 The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and we can recover the theory $C$ from its category of models.
 
@@ -49,7 +61,7 @@ Some other general treatments of Gabriel--Ulmer duality (and generalizations to 
 
 For a 2-dimensional analogue see the slides from a 2010 talk by Makkai: [pdf](http://www.math.mcgill.ca/makkai/scans/2010Washington0001.pdf)
 
-For a connection to Tannaka theory see
+For a connection to [[Tannaka duality]] theory see
 
 * ncafe discussion [here](http://golem.ph.utexas.edu/category/2011/07/doctrinal_and_tannakian_recons.html)
 * [[Brian Day]], _Enriched Tannaka duality_, JPAA __108__ (1996) 17-22, [MR97d:18008](http://www.ams.org/mathscinet-getitem?mr=1382240) <a href="http://dx.doi.org/10.1016/0022-4049(95)00039-9">doi</a>
