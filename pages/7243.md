@@ -39,29 +39,49 @@ The $p$-adic integers have the following properties:
 
 * As a [[topological group]] under addition, it is therefore an [[almost connected group]]. As an [[abelian group|abelian]]  [[compact group]], it is [[Pontryagin duality|Pontryagin dual]] to the [[Prüfer group|Prüfer]] $p$-group as [[discrete group]]. 
 
-### Relation to profinite group completion
+### Relation to profinite completion of the integers
 
-+-- {: .num_example}
++-- {: .num_example #ProfCompletionOfIntegers}
 ###### Example
 
 The [[profinite completion of a group|profinite completion]] of the [[integers]] is
 
 $$
-  \widehat {\mathbb{Z}} \coloneqq \underset{\leftarrow}{\lim}_n \mathbb{Z}/n\mathbb{Z}
+  \widehat {\mathbb{Z}} 
+    \coloneqq 
+  \underset{\leftarrow}{\lim}_{n \in \mathbb{N}} (\mathbb{Z}/n\mathbb{Z})
   \,.
 $$
 
 This is [[isomorphism|isomorphic]] to the [[product]] of the $p$-adic integers for all $p$
 
 $$
-  \widehat{\mathbb{Z}} \simeq \underset{p}{\prod} \mathbb{Z}_p
+  \widehat{\mathbb{Z}} \simeq \underset{p\; prime}{\prod} \mathbb{Z}_p
   \,.
 $$
 
-For more on this see at _[[p-adic integers]]_, at _[[adele]]_ and _[[idele]]_.
-
 =--
 
+([e.g. Lenstra, example 2.2](#Lenstra))
+
++-- {: .num_defn }
+###### Definition
+
+The ring of integral [[adeles]] $\mathbb{A}_{\mathbb{Z}}$ is the [[product]]
+of the profinite completion $\widehat{\mathbb{Z}}$ of the integers,
+example \ref{ProfCompletionOfIntegers},
+with the [[real numbers]]
+
+$$
+  \mathbb{A}_{\mathbb{Z}}
+  \coloneqq
+  \mathbb{R} \times \widehat{\mathbb{Z}}
+  \,.
+$$
+
+The [[group of units]] of the ring of adeles is called the group of [[ideles]].
+
+=--
 
 
 ## Related notions 
@@ -72,8 +92,17 @@ For more on this see at _[[p-adic integers]]_, at _[[adele]]_ and _[[idele]]_.
 
 * [[ℓ-adic cohomology]]
 
+## References
+
+* [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
+ {#Lenstra}
+ 
+
+
 [[!redirects p-adic integer]]
 [[!redirects p-adic integers]]
 
 [[!redirects adic integer]]
 [[!redirects adic integers]]
+
+[[!redirects profinite completion of the integers]]
