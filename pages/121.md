@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-A _natural isomorphism_ $\eta : F \Rightarrow G$ between two [[functor]]s $F$ and $G$
+A __natural isomorphism__ $\eta\colon F \Rightarrow G$ between two [[functor]]s $F$ and $G$
 
 $$
   \array{
@@ -35,8 +35,11 @@ is equivalently
 
 * an [[isomorphism]] in the [[functor category]] $[C,D]$.
 
+In this case, we say that $F$ and $G$ are __naturally isomorphic__.
 
-If you want to speak of [[the]] functor satisfying certain conditions, then it should be unique up to unique natural isomorphism.
+
+If you want to speak of '[[the]]' functor satisfying certain conditions, then it should be unique up to unique natural isomorphism.
+
 
 ## Related concepts
 
@@ -44,4 +47,8 @@ If you want to speak of [[the]] functor satisfying certain conditions, then it s
 
 * [[natural equivalence]]
 
+
+[[!redirects natural isomorphism]]
 [[!redirects natural isomorphisms]]
+[[!redirects naturally isomorphic functor]]
+[[!redirects naturally isomorphic functors]]
