@@ -5,7 +5,7 @@
 
 ## Definition
 
-For $A$ a [[ring]], its _analytic spectrum_ or _Berkovich spectrum_ $Spec_an A$ is the set of all non-zero multiplicative [[seminorms]] on $A$, regarded as a [[topological space]] when equipped with the weakes topology such that all [[functions]]
+For $A$ a [[ring]], its _analytic spectrum_ or _Berkovich spectrum_ $Spec_an A$ is the set of all non-zero multiplicative [[seminorms]] on $A$, regarded as a [[topological space]] when equipped with the weakest topology such that all [[functions]]
 
 $$
   Spec_an A \to \mathbb{R}_+
