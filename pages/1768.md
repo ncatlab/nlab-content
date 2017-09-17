@@ -17,7 +17,7 @@ A sequence $(x_i)_i$ of [[real number]]s is __Cauchy__ if, for every positive nu
 $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq n,\; |x_i - x_j| \leq \epsilon .$$
 
 
-In a [[metric space]], a sequence $(x_i)_i$ is __Cauchy__ under the same condition, now relative to the metric on that space.  Explicitly:
+In a [[metric space]], a sequence $(x_i)_i$ is __Cauchy__ under the same condition, now relative to the metric $d$ on that space.  Explicitly:
 $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq n,\; d(x_i,x_j) \leq \epsilon .$$
 
 The same definition immediately applies to an extended quasipseudometric space (aka a Lawvere metric space), or anything in between.
@@ -27,11 +27,11 @@ In a [[gauge space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is sa
 $$ \forall d,\; \forall \epsilon,\; \exists N,\; \forall i, j \geq n,\; d(x_i,x_j) \leq \epsilon .$$
 
 
-In a [[uniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each entourage.  Explicitly:
+In a [[uniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
 $$ \forall U,\; \exists N,\; \forall i, j \geq n,; x_i \approx_U x_j .$$
 
 
-In a [[Cauchy space]], a sequence $(x_i)_i$ is __Cauchy__ if it generates a Cauchy filter.  Explicitly:
+In a [[Cauchy space]], a sequence $(x_i)_i$ is __Cauchy__ if it generates a [[Cauchy filter]].  Explicitly:
 
 *  the proper filter $ \{ A \;|\; \exists N,\; \forall i, j \geq n,\; x_i \in A \} $ is Cauchy.
 
