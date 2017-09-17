@@ -15,5 +15,5 @@ The terminology is due to the involved $q=0$ limit of quantum groups used in the
 * Masaki Kashiwara, Yoshihisa Saito, _Geometric construction of crystal bases_, Duke Math. J. 1996, [pdf cached](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=47F46C7CD4CE2825986E88F8A4C6BCE9?doi=10.1.1.11.9068&rep=rep1&type=pdf)
 * S-J.Kang, M. Kashiwara, K.Misra, _Crystal bases of Verma modules for quantum affine Lie algebras_, Compositio Math. __92__ (1994) 299--325, [numdam](http://www.numdam.org/item?id=CM_1994__92_3_299_0)
 * Hong and Kang, _Introduction to quantum groups and crystal bases_, Grad. Studies in Math. __42__, AMS 2002, 307 pp.
-* Stembridge, _A local characterization of simply-laced crystals_, Trans. Amer. Math. Soc. __355__ (2003), 4807--4823.
+* John R. Stembridge, _A local characterization of simply-laced crystals_, Trans. Amer. Math. Soc. __355__ (2003), 4807--4823.
 [[!redirects crystal basis]]
