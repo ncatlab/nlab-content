@@ -7,7 +7,7 @@
 
 Let $f : X \to Y$ be a morphism of [[scheme]]s. Let $\Delta_f: X \to X \times_Y X$ be the diagonal map. We say that $f$ is __quasi-separated__ if $\Delta_f$ is a [[quasicompact morphism]]. 
 
-A scheme $X$ is quasi-separated if the morphism $X\o Spec\, \mathbf{Z}$ is quasi-separated, i.e. $\Delta:X\to X\times X$ is quasicompact. Every quasi-separated scheme is [[semiseparated scheme|semiseparated]].
+A scheme $X$ is quasi-separated if the morphism $X \to Spec\, \mathbf{Z}$ is quasi-separated, i.e. $\Delta:X\to X\times X$ is quasicompact. Every quasi-separated scheme is [[semiseparated scheme|semiseparated]].
 
 
 ## Properties
