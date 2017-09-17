@@ -6,6 +6,7 @@ The entries of the following table denote [[Quillen equivalences]] between [[mod
 | [[model structure on sSet-categories|SimplicialCategories]] | $-$[[homotopy coherent nerve]]$\to$ | [[model structure on simplicial sets|SimplicialSets]] | | [[model structure for Cartesian fibrations|RelativeSimplicialSets]] | 
 | $\downarrow$[[nerve|simplicial nerve]] | | $\downarrow$ | | |
 | [[model structure for Segal categories|SegalCategories]] | $\hookrightarrow$ | [[model structure for complete Segal spaces|CompleteSegalSpaces]] | | |
+|  |  |  | | |
 |  | **[[(∞,1)Operad]]** |  | | |
 | [[model structure on simplicial operads|SimplicialOperads]] | $-$[[homotopy coherent dendroidal nerve]]$\to$ | [[model structure on dendroidal sets|DendroidalSets]] | | [[model structure for dendroidal Cartesian fibrations|RelativeDendroidalSets]] |
 | $\downarrow$[[dendroidal set|dendroidal nerve]] | | $\downarrow$ | | |
