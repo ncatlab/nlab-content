@@ -18,6 +18,8 @@ $$
 
 A is called _$p$-complete_ if the canonical [[homomorphism]] $A \to A_p^\wedge$ is an [[isomorphism]]
 
+For more see at _[[p-localization]]_.
+
 ### Of a homotopy type
 
 (...) ([e.g. May-Ponto, 10.2](#MayPonto))
