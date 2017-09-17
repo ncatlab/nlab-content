@@ -21,7 +21,7 @@
 =--
 =--
 
-A set of lecture notes on [[differential geometry]] and theoretical fundamental [[physics]], combining an introduction to traditional notions with an exposition of their formulation and refinement by [[higher geometry]] and [[extended prequantum field theory]]. With an eye towards [[Hilbert's sixth problem]].
+A set of lecture notes on [[differential geometry]] and theoretical fundamental [[physics]], combining an introduction to traditional notions with an exposition of their formulation and refinement by [[higher geometry]] and [[extended prequantum field theory]]. With an eye towards [[Hilbert's sixth problem]] ("[[schreiber:Synthetic Quantum Field Theory]]").
 
 Divided into two parts:
 
