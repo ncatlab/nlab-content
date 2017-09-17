@@ -58,9 +58,9 @@ where
 
 Then
 
-1. $\xi(ker(f)) = ker(g)$
+1. $\xi(ker(f)) = ker(g)$ (the [[image]] under $\xi$ of the [[kernel]] of $f$ is the [[kernel]] of $g$)
 
-1. $im(f) = \eta^{-1}(im(g))$
+1. $im(f) = \eta^{-1}(im(g))$ (the [[preimage]] under $\eta$ of the [[image]] of $g$ is the [[image]] of $f$)
 
 (the "strong four lemma") and hence in particular
 
