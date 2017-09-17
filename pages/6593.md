@@ -58,6 +58,8 @@ Since the formula looks the same for all $S$, one often just writes it without m
 
 ## Related concepts
 
+* [[super Minkowski spacetime]]
+
 * [[super Poincaré group]]
 
 * [[super Poincaré Lie algebra]]
