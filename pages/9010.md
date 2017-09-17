@@ -1,0 +1,75 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### Recalling general 2-vector bundles
+
+Let $R$ be a [[commutative ring]], or more generally an [[E-∞ ring]]. By the discussion at [[2-vector space]] consider the [[2-category]]
+
+$$
+  2 Vect_R \simeq Alg_R
+$$ 
+
+[[equivalence of 2-categories|equivalent]] to that whose objects are [[associative algebras]] (or generally [[A-∞ algebra|algebras]]) $A$ over $R$, (being placeholders for the 2-vector space $A Mod$ which is the category of [[modules]] over $A$) whose [[1-morphisms]] are [[bimodules]] between these algebras (inducing linear functors between the corresponding 2-vector spaces = categories of modules) and whose [[2-morphisms]] are [[homomorphisms]] between those. 
+
+Under [[Isbell duality]] and by the discussion at _[Modules -- as generalized vector bundles](module#RelationToVectorBundlesInIntroduction)_  we may think of this 2-category as being that of (generalized) 2-vector bundles over a [[space]] called $Spec R$.
+
+### Line 2-bundles
+
+The [[2-category]] $2 Vect_R \simeq Alg_R$ is canonically a [[monoidal 2-category]]. An object in $2 Vect_R$ is a _[[line]]_ if it is an _invertible object_ with respect to this tensor product, hence if it is an _[[Azumaya algebra]]_. In terms of the above this means that it represents a 2-vector bundle over $Spec R$ which is a **line 2-bundle**.
+
+The full inclusion
+
+$$
+  \mathbf{Br}(R) \hookrightarrow 2 Vect_R \simeq Alg_R
+$$
+
+of the maximal [[2-groupoid]] on the line 2-bundles over $Spec R$ is a [[braided 3-group]], the _[[Picard group|Picard 3-group]]_ of $Spec R$.  See _[Relation to Brauer group](#RelationToBrauerGroup)_ below for more.
+
+## Properties
+
+### Relation to Brauer group and Picard group
+ {#RelationToBrauerGroup}
+
+The [[braided 3-group]] $\mathbf{Br}(R)$ of line 2-bundles over $Spec R$ has as [[homotopy groups]]
+
+* $\pi_0(\mathbf{Br}(R))$ the [[Brauer group]] of $R$;
+
+* $\pi_1(\mathbf{Br}(R))$ the [[Picard group]] of $R$, hence the group of ordinary [[line bundles]] over $R$;
+
+* $\pi_2(\mathbf{Br}(R))$ the [[group of units]] of $R$.
+
+
+
+## Examples
+
+### Super line 2-bundles and twisted K-theory
+
+(...) ([Freed](#Freed)) (...)
+
+## References
+
+Line 2-bundles in [[supergeometry]] as a model for the [[B-field]] and [[orientifolds]] are discussed (even if not quite explicitly in the language of higher bundles) in 
+
+* [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_ ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
+ {#Freed}
+
+[[!redirects line 2-bundles]]
