@@ -49,17 +49,19 @@ $$
   b : B \vdash E(b) : Type
 $$
 
-corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ this is a [[fibration]] between fibrant objects.
+corresponds to a [[morphism]] $E \to B$ in $\mathcal{C}$ that is a [[fibration]] between fibrant objects.
 
-Then the dependent [[function type]]
+Then the [[dependent type|dependent]] [[function type]]
 
 $$
-  b_1 b_2 : B \vdash ( E(b_1) \to E(b_2)) : Type
+  b_1, b_2 : B \vdash ( E(b_1) \to E(b_2)) : Type
 $$
 
 is interpreted as the [[internal hom]] $[-,-]_{\mathcal{C}/_{B \times B}}$ in the [[slice category]] $\mathcal{C}/_{B \times B}$ after extending $E$ to the [[context]] $B \times B$ by pulling back along the two projections $p_1, p_2 : B \times B \to B$, respectively. Hence this is interpreted as
 
 $$
+  [p_1^* E \, , \, p_2^* E]_{\mathcal{C}/_{B \times B}}
+  \simeq
   [E \times B \, , \, B \times E]_{\mathcal{C}/_{B \times B}}
   \in 
   \mathcal{C}/_{B \times B}
@@ -68,7 +70,7 @@ $$
 
 Consider then the [[diagonal]] morphism $\Delta_B : B \to B \times B$  in $\mathcal{C}$ as an object of $\mathcal{C}/_{B \times B}$.  We would like to define a morphism 
 $$ q \colon \Delta_B \to [E \times B , B \times E]_{\mathcal{C}/_{B \times B}} \,.$$
-in $\mathcal{C}/_{B \times B}$.  By the defining product-hom [[adjunction]], it suffices to define a morphism
+in $\mathcal{C}/_{B \times B}$.  By the defining ([[product]] $\dashv$ [[internal hom]])-[[adjunction]], it suffices to define a morphism
 $$ \Delta_B \times_{\mathcal{C}/_{B \times B}} E \times B \to B \times E $$
 in $\mathcal{C}/_{B \times B}$.  But now by the 
 [[universal property]] of [[pullback]], it suffices to define a morphism
