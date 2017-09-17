@@ -43,6 +43,10 @@ Reviews include
 section 1.3 of 
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+
+Recent developments include
+
+* Jay Armas, Joan Camps, Troels Harmark, Niels A. Obers, _The Young Modulus of Black Strings and the Fine Structure of Blackfolds_ ([arXiv:1110.4835](http://arxiv.org/abs/1110.4835)) 
  
 [[!redirects black branes]]
 [[!redirects black p-brane]]
