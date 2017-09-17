@@ -1,2 +1,2 @@
-And can you blame them? Of course not. They were picking up their brand new  limited edition Jaegers and spending the day with Navy SEALs. The subtle highlights of orange against a black case and dial make for a very bold yet understated look. Being an experienced watchmaker, he taught the trade of making Michele watches to his son, Jack. Maurice son later on moved to the states to set up shop. Michele is Jack daughter from whom the company derived its name..
- <a href="http://www.rishabhdentalclinic.com/jpshopoutlet.asp?cheap=jpshopfl/shoppingso152.html" title="GEORGECOX">GEORGECOX</a>
+du poids en 1 mois ; Nergie. Quiz. Dans la dire MaigrirSant?? des
+ <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed49.html" title="EVISU">EVISU</a>
