@@ -73,7 +73,7 @@ recalled e.g. as [Ravenel, theorem 1.4.2](#Ravenel)
 
 The original article is
 
-* E. H. Brown, F. P. Peterson, _A spectrum whose $\mathbb{Z}/p$ cohomology is the algebra of reduced $p$-th powers_, Topology 5 (1966) 149.
+* [[Edgar Brown]], F. P. Peterson, _A spectrum whose $\mathbb{Z}/p$ cohomology is the algebra of reduced $p$-th powers_, Topology 5 (1966) 149.
  {#BrownPeterson66}
 
 
