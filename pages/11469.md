@@ -77,7 +77,8 @@ This was proved by [[Dennis Gaitsgory]] and [[Jacob Lurie]].  They reformulated 
 **(Gaitsgory-Lurie, "Grothendieck-Lefschetz trace formula for $Bun_G(X)$")**.
 Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[finite field]] $F_q$, for some prime $q$.  Then
   \[ \frac{|Bun_G(X)(\mathbf{F}_q)|}{q^{\dim(Bun_G(X))}} = \sum_{i \ge 0} (-1)^i \mathrm{Tr}(Frob^{-1} \mid H^i(\overline{Bun}_G(X) ; \mathbf{Q}_\ell)  \]
-where $\overline{Bun}_G(X)$ denotes the [[base change]] of $Bun_G(X)$ to the [[algebraic closure]] of $\mathbf{F}_q$, and $Frob : \overline{Bun}_G(X) \to \overline{Bun}_G(X)$ denotes the [[Frobenius map]].
+where $\overline{Bun}_G(X)$ denotes the [[base change]] of $Bun_G(X)$ to the [[algebraic closure]] of $\mathbf{F}_q$, where ${\vert -\vert}$ denotes [[groupoid cardinality]], and where $Frob : \overline{Bun}_G(X) \to \overline{Bun}_G(X)$ denotes the [[Frobenius map]].
+
 =--
 
 Then they proved the following result, via [[nonabelian Poincaré duality]] which provides a [[local-global principle]].
