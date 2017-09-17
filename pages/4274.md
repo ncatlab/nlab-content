@@ -1,5 +1,4 @@
 
-> under construction and incoherent
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -25,7 +24,7 @@
 
 ## Idea
 
-The _Witten genus_ is a [[genus]] with [[coefficients]] in [[power series]] in one variable that may be regarded as the universal [[elliptic genus]].
+The _Witten genus_ is a [[genus]] with [[coefficients]] in [[power series]] in one variable, playing the role of a universal [[elliptic genus]].
 This arises ([Witten 87](#Witten87)) as the [[large volume limit]] of the [[partition function]] of the [[heterotic string]] (hence in the string worldsheet [[perturbation theory]] about constant [[worldsheet]] configurations). Concretely, as Witten argued, this is a formal [[power series]] in string oscillation modes of the [[A-hat genus]] of the [[tensor powers]] of the [[tangent bundle]] that these modes take values in.
 
 In ([Witten 86](#Witten86)) it is suggested, by regarding the [[superstring]] [[sigma-model]] as [[quantum mechanics]] on the [[smooth loop space]] of its [[target space]], that the Witten genus may be thought of as the [[large volume limit]] of an $S^1$-equivariant [[A-hat genus]] on [[smooth loop space]], hence the [[index]] of a [[Dirac operator]] on loop space; and ever since this suggestion people have tried to make this perspective precise (e.g. [Landweber 99](#Landweber99)). 
@@ -37,14 +36,14 @@ $$
   \,.
 $$
 
-In the construction from [[string theory|string physics]] this map is interpeted as sending a [[target space|target]] [[spacetime]] $X$ of the [[superstring]] to the function $w_X(q) = w_X(e^{i \tau})$ which to each modulus $\tau \in \mathbb{C}$ characterizing a toroidal [[Riemann surface]] assigns the [[partition function]] of the [[superstring]] with [[worldsheet]] the [[torus]] $\mathbb{C}/(\mathbb{Z} + \mathbb{Z}\tau)$ andpropagating on [[target space]] $X$.
+In the construction from [[string theory|string physics]] this map is interpeted as sending a [[target space|target]] [[spacetime]] $X$ of the [[superstring]] to the function $w_X(q) = w_X(e^{i \tau})$ which to each modulus $\tau \in \mathbb{C}$ characterizing a toroidal [[Riemann surface]] assigns the [[partition function]] of the [[superstring]] with [[worldsheet]] the [[torus]] $\mathbb{C}/(\mathbb{Z} + \mathbb{Z}\tau)$ and propagating on [[target space]] $X$.
 
-On manifolds with [[spin structure]] the genus refines to integral power series (via the integrality of the [[A-hat genus]]). Moreover andcrucially, on manifolds with [[string structure]] it takes values in [[modular forms]] for the group $\Gamma_1(2))$
+On manifolds with [[spin structure]] the genus refines to integral power series (via the integrality of the [[A-hat genus]]). Moreover and crucially, on manifolds with [[string structure]] it takes values in [[modular forms]] for the group $\Gamma_0(2))$
 
 $$
   \array{
      M String_\bullet &\longrightarrow& 
-     M_\bullet(\Gamma_1(2)) & \simeq \mathbb{C}[\delta, \epsilon]
+     M_\bullet(\Gamma_0(2)) & \simeq \mathbb{C}[\delta, \epsilon]
      \\
      \downarrow && \downarrow
      \\
@@ -52,12 +51,14 @@ $$
      \\
      \downarrow && \downarrow
      \\
-     M SO_\bullet &\longrightarrow& \mathbb{Q}[ [ q ] ]
+     M SO_\bullet &\stackrel{w}{\longrightarrow}& \mathbb{Q}[ [ q ] ]
   }
+  \,.
 $$
 
+(On the left is the image under forming [[Thom spectra]]/[[cobordism rings]] of the first stages in the [[Whitehead tower]] of $BO$, see also at _[[higher spin structure]]_.)
 
-Observer here that [[topological modular forms]] are the [[coefficient]] [[ring]] 
+Observe here that [[topological modular forms]] are the [[coefficient]] [[ring]] 
 of the [[E-∞ ring]] [[spectrum]] known as _[[tmf]]_. By the general way in which [[genera]] (see there) tend to appear as [[decategorifications]] of [[homomorphisms]] of [[E-∞ rings]] out of a [[Thom spectrum]], this suggests that the Witten genus is the value on [[homotopy groups]] of a homomorphism of [[E-∞ rings]] of the form
 
 $$
