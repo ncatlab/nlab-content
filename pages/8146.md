@@ -16,6 +16,45 @@
 
 A basic [[lemma]] in [[homological algebra]].
 
+## Statement
+
++-- {: .num_lemma}
+###### Lemma
+
+Let 
+
+$$
+  \array{   
+     && 0 && 0 && 0 &&
+     \\
+     && \downarrow && \downarrow && \downarrow && 
+     \\
+     0 &\to& A' &\to& B' &\to& C' &\to& 0
+     \\
+     && \downarrow && \downarrow && \downarrow && 
+     \\
+     0 &\to& A &\to& B &\to& C &\to& 0
+     \\
+     && \downarrow && \downarrow && \downarrow && 
+     \\
+     0 &\to& A'' &\to& B'' &\to& C'' &\to& 0
+     \\
+     && \downarrow && \downarrow && \downarrow && 
+     \\
+     && 0 && 0 && 0 &&
+  }
+$$
+
+be a [[commuting diagram]] in some [[abelian category]] such that each of the three columns is an [[exact sequence]].  Then
+
+1. If the two bottom rows are exact, then so is the top.
+
+1. If the top two rows are exact, then so is the bottom.
+
+1. If the top and bottom rows are exact _and_ $A \to C$ is the [[zero morphism]], then also the middle row is exact.
+
+=--
+
 ## Related concepts
 
 * [[snake lemma]], [[5-lemma]]
