@@ -74,4 +74,8 @@ There is an inclusion of the absolute Galois group of the rational numbers into 
 
 category: Galois theory
 
+[[!redirects absolute Galois groups]]
+
 [[!redirects absolute Galois theory]]
+
+
