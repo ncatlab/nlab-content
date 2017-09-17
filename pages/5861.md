@@ -567,7 +567,12 @@ By the condition that $i_!$ is a [[full and faithful (∞,1)-functor]] the secon
 
 
 
-In this form this characterization of formal smoothness is the evident generalization of the condition given in ([Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces)). See the section _<a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a>_ at _[[Q-category]]_ for more discussion.. Notice that the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.
++-- {: .num_remark #RelationToRK}
+###### Remark
+
+In this form this characterization of formal smoothness is the evident generalization of the condition given in ([Kontsevich-Rosenberg, section 4.1](#KontsevichRosenbergSpaces)). See the section _<a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a>_ at _[[Q-category]]_ for more discussion. Notice that by <a href="http://nlab.mathforge.org/nlab/show/Q-category#DiscussionOfTheInfinitesimalThickeningFormalization">this remark</a> the notation there is related to the one used here by $u^* = i_!$, $u_* = i^*$ and $u^! = i_*$.  
+
+=--
 
 Therefore we have the following more general definition.
 
