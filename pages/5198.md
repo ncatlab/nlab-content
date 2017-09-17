@@ -49,7 +49,28 @@ $$\underline{\pi}_n(X,*) = Ho(Proper)(\underline{S}^n, (X,*)).$$
 ###The Brown-Grossman homotopy groups at $\infty$###
 +--{: .un_defn}
 ######Definition######
-The $n^{th}$ Brown-Grossman homotopy group of $(X,*)$ at $\infty$ is given by the  group of based germs of proper homotopy classes of based proper germs from $\underline{S}^n$ to $(X,*)$;
+The $n^{th}$ Brown-Grossman homotopy group of $(X,*)$ at $\infty$ is given by the  group of based germ homotopy classes of based proper germs from $\underline{S}^n$ to $(X,*)$;
 
 $$\underline{\pi}^\infty_n(X,*) = Ho(Proper_\infty)(\underline{S}^n, (X,*)).$$
 =--
+With this description, it is clear that $\underline{\pi}^\infty_n$ is functorial on base rayed spaces and that it only depends on the choice of the class of $*$ within $e(X)$ (cf. [[proper homotopy theory]]).
+
+##A proper Whitehead theorem##
+There are several different types of generalisation of Whitehead's theorem to the proper homotopy setting.  The following is due to Ed Brown (1974):
+
+
+
+##References##
+ General references include: the survey article:
+
+* [[Tim Porter]], _Proper Homotopy Theory_,  in the _Handbook on Algebraic Topology_, Ed. I.M.James, Elsevier, 1995, p. 127-167,
+
+and for a slightly different approach:
+
+* [[Hans-Joachim Baues|H. J. Baues]] and A. Quintero, _Infinite homotopy theory_, Volume 6 of K-monographs in mathematics,	Springer, 2001
+
+A specific reference for the Brown Whitehead theorem is 
+
+*  E.M. Brown, _Proper homotopy theory in simplicial complexes,_ Topology Conference (Virginia Polytechnic Institute and State University, Dickmann and Fletcher, eds.) SLNM 375, Springer (1974), pp. 41-46.
+
+{{!redirects Brown-Grossman homotopy groups]]
