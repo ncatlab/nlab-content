@@ -141,7 +141,7 @@ $$
   \,.
 $$
 
-This means that if we regard the graded modules $Z_\bullet$ and $B_\bullet$ of chains and of boundaries as chain complexes with zer-differentials, then we have a short exact sequence of chain complexes
+This means that if we regard the graded modules $Z_\bullet$ and $B_\bullet$ of chains and of boundaries as chain complexes with zero-differentials, then we have a short exact sequence of chain complexes
 
 $$
   0 \to Z_\bullet \otimes_R C'_\bullet \to C_\bullet \otimes_R C'_\bullet \to B_{\bullet-1}\otimes_R C'_\bullet  \to 0
