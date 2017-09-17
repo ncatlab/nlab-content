@@ -20,7 +20,9 @@ This page collects links related to the collection of lecture notes
 
   _String theory and the real world -- from particle physics to astrophysics_, 
 
-  Les Houches  Session LXXXVII 2007
+  [Les Houches  Session LXXXVII 2007](http://www.lpthe.jussieu.fr/houches07/)
+
+  ([SPIRE entry](http://inspirehep.net/record/1123257), [notes and slides](http://www.lpthe.jussieu.fr/houches07/lectures.shtml))
 
 
 on [[string phenomenology]].
@@ -55,7 +57,7 @@ on [[string phenomenology]].
 
 ## Course XII. Lectures on constructing string vacua
 
-by [[Frederik Denef]]
+* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
 
 ### 1. Introduction
