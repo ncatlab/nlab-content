@@ -10,6 +10,6 @@ Grothendieck  envisaged a deep picture of a hypothetical category of pure and mi
 
 * A. Beilinson, V. Vologodsky, A DG guide to Voevodsky's motives, [arXiv:math.KT/0604004](http://arxiv.org/abs/math/0604004)
 
-* S. Mahanta, Noncommutative geometry in the framework of differential graded categories, [arXiv:0805.1628](http://arxiv.org/abs/0805.1628)
+* [[Marc Levine]], _Smooth motives_, _Motives and Algebraic Cycles. A Celebration in Honour of Spencer J. Bloch, Fields Institute Communications._, 2009, [arXiv](http://arxiv.org/abs/0807.2265).
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], Stability structures, motivic Donaldson-Thomas invariants and cluster transformations, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
