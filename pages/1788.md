@@ -24,7 +24,27 @@ $$
   { {\Omega^1} \atop {\oplus \Omega^2}}
 $$
 
-(of symbols, that it).
+(of symbols, that is).
+
+### Symbol definition
+
+We define
+
+$$
+  a := 1
+  \,.
+$$
+
+But that doesn't look so good, using 
+
+      \coloneq
+
+it looks better:
+
+$$
+  a \coloneq 1
+  \,.
+$$
 
 ### Metacategories
 
