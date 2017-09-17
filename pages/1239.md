@@ -48,6 +48,8 @@
   * [[D-module]], [[perverse sheaf]], [[BBDG decomposition theorem]]
   * [[Kazhdan-Lusztig theory]]
 
+  * [[Dirac induction]]
+
 * [[Grothendieck group]], [[lambda-ring]], [[symmetric function]], [[formal group]]
 
 * [[principal bundle]], [[torsor]], [[vector bundle]], [[Atiyah Lie algebroid]]
