@@ -6,6 +6,14 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
 =--
 =--
 
@@ -16,7 +24,7 @@
 
 ## Idea
 
-A [[functor]] is _monadic_ if it looks like the [[forgetful functor]] from a [[category]] of [[algebras over a monad]].
+A [[functor]] is _monadic_ if it is [[natural isomorphism|equivalent]] to the [[forgetful functor]] from a [[category]] of [[algebras over a monad]]. In this case it is part of a _[[monadic adjunction]]_.
 
 The [[monadicity theorem]] characterizes monadic functors.
 
@@ -36,9 +44,13 @@ Various versions of Beck's [[monadicity theorem]] (old-fashioned name of some sc
 A monadic functor is strictly monadic if and only if it is also an [[amnestic functor|amnestic]] [[isofibration]]: clearly, a strictly monadic functor is an amnestic isofibration; and if a monadic functor $U$ is amnestic, then the comparison functor $K$ is also amnestic, and if $U$ is a monadic isofibration, so is $K$; therefore in this case $K$ must be an isomorphism of categories.
 
 
-## Related concepts and literature
+## Related concepts
+
+* [[monadic adjunction]], [[structure-semantics adjunction]]
 
 * [[comonadic functor]], [[monadicity theorem]]
+
+
 
 [[!redirects monadic]]
 [[!redirects monadic category]]
