@@ -385,6 +385,7 @@ $$
 
 ### Cohesive $\infty$-groups {#StrucInfinGroups}
 
+#### Lie groups
 
 Let $G$ be a [[Lie group]]. Under the embedding 
 $SmoothMfd \hookrightarrow Smooth \infty Grpd$ this is canonically identifed as a  [[0-truncated]] [[∞-group]] object in smooth $\infty$-groupoids.
@@ -439,15 +440,132 @@ as discussed at [[universal principal ∞-bundle]].
 =--
 
 
+#### Circle Lie $n$-groups
 
-### Cohomology and principal $\infty$-bundles {#StrucCohomology}
++-- {: .un_def }
+###### Definition
 
-### Cohomology {#Cohomology}
+Write equivalently
+
+$$
+  U(1) = S^1 = \mathbb{R}/\mathbb{Z}
+$$ 
+
+for the [[abelian group|abelian]] [[Lie group]] called the [[circle group]] or 1-dimensional [[unitary group]], regarded as a [[0-truncated]] [[∞-group]] object in $Smooth\infty Grpd$ under the embedding $SmoothMfd \hookrightarrow Smooth \infty Grpd$.
+
+For $n \in \mathbb{N}$ the $n$-fold [[delooping]] $\mathbf{B}^n U(1) \in Smooth \infty Grpd$ we call the cicle **Lie $(n+1)$-group**.
+
+=--
+
+Write $\Xi : Ch_\bullet^\to \to sAb \to sSet$ for the [[Dold-Kan correspondence]] functor postcomposed with the [[forgetful functor]] from [[abelian group|abelian]] [[simplicial group]]s to their underlying [[simplicial set]] and with convenient abuse of notation use the same symbols for its prolongation $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ to presheaves.
+
+Write 
+
+$$
+  U(1)[n] := [\cdots \to 0 \to C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+  \in
+  [CartSp^{op}, Ch^+_\bullet]
+$$
+
+for the [[chain complex]] of sheaves concentrated in degree $n$ on $U(1)$.
+
++-- {: .un_theorem }
+###### Theorem
+
+The [[simplicial presheaf]] $\Xi(U(1)[n]) \in [CartSp^{op}, sSet]$ is a fibrant representative in $[CartSp^{op},sSet]_{proj,loc}$
+of the circle Lie $(n+1)$-group $\mathbf{B}^n U(1)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First notice that $\Xi U(1)[n]$ is degreewise a [[Kan complex]] hence fibrant in the global model structure $[CartSp^{op}, sSet]_{proj}$. Since [[(∞,1)-pullback]]s of [[(∞,1)-sheaves]] are computes on the level of [[(∞,1)-presheaves]], we may check the statement about the delooping in the global model structure.
+
+Take a fibration [[resolution]] of the point inclusion $* \to \Xi(U(1)[n])$ given by
+
+$$
+  \array{
+    \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+    \\
+    \downarrow
+    \\
+    \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
+  }
+  \,.
+$$ 
+
+The underlying morphism of chain complexes is clearly surjective, hence a projective fibration, hence its image under $\Xi$ is a projective fibration. So the [[homotopy pullback]] in question is the ordinary [[pullback]]
+
+$$
+  \array{
+    \Xi[0 \to C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+    &\to&
+    \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+    \\
+    \downarrow && \downarrow
+    \\
+    \Xi [0 \to 0  \to 0 \to \cdots \to 0]
+    & \to &
+    \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
+  }
+  \,,
+$$ 
+
+computed in $[CartSp^{op}, Ch_\bullet]$ and then using that 
+$\Xi$ is the [[right adjoint]] and hence preserves pullbacks. This shows that the loop object $\Omega \Xi(U(1)[n])$ is indeed presented by 
+$\Xi (U(1)[n-1])$.
+
+
+Now we discuss the fibrancy of $U(1)[n]$ in the local model structure $[CartSp^{op}, sSet]_{proj,loc}$. We need to check that for all [[good open cover]]s $\{U_i \to U\}$ of a [[Cartesian space]] $U$ we have that the mophism
+
+$$
+  C^\infty(U,U(1))[n] \to [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n])
+$$
+
+is an equivalence of Kan complexes, where $C(\{U_i\})$ is the [[Cech nerve]] of the cover. Observe that the Kan complex on the right is that whose vertices are [[cocycle]]s in degree-$n$ [[Cech cohomology]] (see there for details) with coefficients in $U(1)$ and whose morphisms are coboundaries between these.
+
+We proceed by induction on $n$. For $n = 0$ the condition is just that $C^\infty(-,U(1))$ is a [[sheaf]], which clearly it is.
+For general $n$ we use that since $C(\{U_i\})$ is cofibrant, the above is the [[derived hom-space]] functor which commutes with [[homotopy pullback]]s and hence with forming [[loop space object]]s, so that
+
+$$
+  \pi_1 [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n])
+  \simeq
+  \pi_0 [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n-1])
+$$
+
+by the above result on delooping. So we find that for all $0 \leq k \leq n$ that $\pi_k [CartSp^{op}, sSet](C(\{U_i\}), U(1)[n])$ is the [[Cech cohomology]] of $U$ with coefficients in $U(1)$ in degree $n-k$.
+By standard facts about [[Cech cohomology]] (using the [[short exact sequence]] of abelian groups $\mathbb{Z} \to U(1)\to \mathbb{R}$ and the fact that the cohomology with coefficients in $\mathbb{R}$ vanishes in positive degree, for instance by a [[partition of unity]] argument) we have that this is given by the [[integral cohomology]] groups
+
+$$
+  \pi_0 [CartSp^{op}, sSet](C(\{U_i\}), \Xi (U(1)[n]))
+  \simeq
+  H^{n+1}(U, \mathbb{Z})
+$$ 
+
+for $n \geq 1$. For the [[contractible]] [[Cartesian space]] all these cohomology groups vanish.
+
+So we have that $\Xi(U(1)[n])(U)$ and $[CartSp^{op}, sSet](C(\{U_i\}), \Xi U(1)[n])$ both have homotopy groups concentrated in degree $n$ on $U(1)$. And the above looping argument together with the fact that $U(1)$ is a sheaf also shows that the morphism in question is an isomorphism on this degree-$n$ homotopy group, hence is indeed a [[weak homotopy equivalence]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In the equivalent presentation of $Smooth\infty Grpd$ by simplicial presheaves on all of [[SmoothMfd]] the objects $\Xi U(1)[n]$ are far from being locally fibrant. Instead, their local fibrant replacements are given by the $n$-stacks of [[circle n-bundle with connection|circle n-bundle]]s.
+
+=--
+
+
+
+
+### Cohomology and principal $\infty$-bundles {#StrucCohomology}{#Cohomology}
+
 
 As every [[(∞,1)-topos]], $\mathbf{H} = Smooth \infty Grpd$ comes with its [[cohomology|intrinsic cohomology]].
 
 
-#### With constant coefficients
+#### Cohomology with constant coefficients
 
 We discus the [[cohomology|intrinsic cohomology]] of $\mathbf{H}$ with _constant_ coefficients, i.e. coefficients that are [[constant (∞,1)-sheaf|constant (∞,1)-sheaves]] on [[CartSp]].
 
@@ -558,7 +676,7 @@ $$
 
 =--
 
-This is ([Brylinsko, definition 1.1](#Brylinski)).
+This is ([Brylinski, definition 1.1](#Brylinski)).
 
 As discussed there, this is equivalent to other definitions, notably to a definition given earlier by Segal. 
 
@@ -1101,7 +1219,78 @@ $$
 
 ### de Rham cohomology {#StrucDeRham}
 
-#### With coefficients $B^n U(1)$ {#DeRhamBnU(1)}
+#### With coefficients in $\mathbf{B}^n U(1)$
+
+
+
+A fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ of $\mathbf{\flat} \mathbf{B}^n U(1)$ is
+
+$$
+  \Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
+  \,.
+$$
+
+and of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is
+
+$$
+  \Xi[0 \to \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since the [[global section]] $\Gamma$ amounts to evaluation on the 
+point $\mathbb{R}^0$ and since conmstant simplicial presheaves on [[CartSp]]
+satisfy descent, we have that $\mathbf{\flat} \mathbf{B}^n U(1)$ is represented by $\Xi[const U(1) \to 0 \to \cdots \to 0]$. This is weakly equivalent to $\Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]$ by the [[Poincare lemma]] applied to each [[Cartesian space]] (using the same standard logic that proves the [[de Rham theorem]]).
+
+And so a fibration representing the counit $\mathbf{\flat} \mathbf{B}^n U(1) \to \mathbf{B}^n U(1)$ is the image under $\Xi$ of
+
+$$
+  \array{
+    C^\infty(-,U(1)) &\to& \Omega^1(-) &\to & \cdots &\to& \Omega^n_{cl}(-)
+    \\
+    \downarrow && \downarrow && && \downarrow
+    \\
+    C^\infty(-, U(1)) &\to& 0 &\to& \cdots &\to& 0
+  }
+  \,.
+$$
+
+The pullback 
+
+$$
+  \array{
+    \Xi[0 \to \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]
+    &\to&
+    \Xi[C^\infty(-,U(1)) \to \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]
+    \\
+    \downarrow && \downarrow
+    \\
+    \Xi[0 \to 0 \to \cdots \to 0]
+    &\to&
+    \Xi[C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
+  }
+$$
+
+of this is a [[homotopy pullback]] and since fibrantions are stable under pullback, we find that the top left is indeed fibrant.
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+We observe that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines flat [[Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is that which computes [[de Rham cohomology]] in degree $n$.
+
+Also notice that the complex that defines $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ has the following description in terms of hom-spaces of [[∞-Lie algebroid]]s.
+
+=--
+
+
+##### On  $\mathbf{B}^n U(1)$ {#DeRhamBnU(1)}
 
 
 
@@ -1160,10 +1349,10 @@ $$
     \mathbf{H}(\mathbf{B}^n U(1), \Omega \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
     \\
     & \simeq
-    \mathbf{H}(\Sigma \mathbf{B}^n U(1), \Omega \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
+    \mathbf{H}(\Sigma \mathbf{B}^n U(1), \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
     \\
     & \simeq
-    \mathbf{H}(\mathbf{B}^{n+1} U(1), \Omega \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
+    \mathbf{H}(\mathbf{B}^{n+1} U(1), \mathbf{\flat}_{dR} \mathbf{B}^{k+1}U(1))   
   \end{aligned}
   \,.
 $$
@@ -1654,160 +1843,6 @@ induced from an inclusion of subsets $I \hookrightarrow J$. Since all representa
 
 In conclusion we find that for determining the $\infty$-stack condition for _strict_ $\infty$-Lie groupoids we may equivalently use Street's formula for strict $\infty$-groupid valued presheaves. This is sometimes useful for computations in low categorical degree. 
 
-
-#### Circle $n$-Lie groupoids  {#BnU1}
-
-Write $U(1) = S^1 = \mathbb{R}/\mathbb{Z}$ for the [[abelian group|abelian]] [[Lie group]] called the [[circle group]] or 1-dimensional [[unitary group]].
-
-##### Delooping {#DeloopingBnU1}
-
-Write $\Xi : Ch_\bullet \to sAb \to sSet$ for the [[Dold-Kan correspondence]] functor and with convenient abuse of notation use the same symbols for its extension $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ to presheaves.
-
-Write 
-
-$$
-  U(1)[n] = [\cdots \to 0 \to C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
-$$
-
-for the [[chain complex]] of sheaves concentrated in degree $n$ on $U(1)$.
-
-+-- {: .un_theorem }
-###### Theorem
-
-The presheaf $\Xi(U(1)[n]) \in [CartSp^{op}, sSet]_{proj,cov}$ is a fibrant
-model of the $n$-fold [[nLab:delooping]] of the group object $U(1)$ in $\infty LieGrpd$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The fibrant objects in question are those presheaves that are degreewise [[Kan complex]]es and that satisfy [[descent]] along [[good open cover]]s of [[Cartesian spaces]]. 
-
-For the first, notice that all objects in the image of the Dold-Kan map are Kan complexes. 
-
-For $n = 0$ the second condition says that the ordinary presheaf $Hom_{Diff}(-, U(1)) : CartSp^{op} \to Set \to sSet$ is in fact a [[sheaf]], which clearly it is. 
-
-For $n \geq 1$ the integral cohomology of a [[Cartesian space]] $\mathbb{R}^k$ vanishes and therefore every $U(1)$-cocycle in degree $n$ is trivializable. The automorphism of the trivial $n$-cocycle are precisely the $(n-1)$-cocycles. Continuing this way, one finds that the $n$-groupoid of $n$-cocycle is equivalent to the $n$-fold delooping of the group of 0-cocycle, which is $C^\infty(\mathbb{R}, U(1))$. This is the value of $\Xi(U(1)[n])$ on $\mathbb{R}^k$. Hence the [[descent]] condition is satisfied. 
-
-(Notice as before that here it is crucial that the [[site]] we use is [[CartSp]] and not all of [[Diff]].)
-
-Now consider the delooping statement by induction. We need to show that for $n \geq 1$ the [[loop space object]] $\Omega \Xi(U(1)[n]) \simeq \Xi(U(1)[n-1])$. Since [[∞-stackification]] preserves fniite limits, it is sufficient to compute the [[homotopy pullback]] of $* \to \Xi(U(1)[n]) \leftarrow * $ in $[CartSp^{op}, sSet]_{proj}$.
-
-Therefor we take a fibrant replacement of the morphism $* \to \Xi(U(1)[n])$ to be 
-
-$$
-  \array{
-    \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
-    \\
-    \downarrow
-    \\
-    \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
-  }
-  \,.
-$$ 
-
-The underlying morphism of chain complexes is clearly surjective, hence a projective fibration, hence its image under $\Xi$ is a projective fibration. So the [[homotopy pullback]] in question is the ordinary [[pullback]]
-
-$$
-  \array{
-    Xi[0 \to C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
-    &\to&
-    \Xi [C^\infty(-,U(1)) \stackrel{Id}{\to} C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
-    \\
-    \downarrow && \downarrow
-    \\
-    \Xi [0 \to 0  \to 0 \to \cdots \to 0]
-    \to
-    \Xi [C^\infty(-,U(1)) \to 0  \to 0 \to \cdots \to 0]
-  }
-  \,,
-$$ 
-
-computed in $[CartSp^{op}, Ch_\bullet]$ and then using that 
-$\Xi$ is a right part of a [[Quillen adjunction]], hence [[right adjoint]] and hence preserves products.
-
-=--
-
-+-- {: .un_def }
-###### Definition
-
-We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])$. This may be called the **circle Lie $(n+1)$-group**.
-
-=--
-
-
-##### Differential coefficients {#DifferentialBnU1}
-
-We now describe the Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$ as discussed at [∞-connectedness](#InfConnectedness).
-
-
-
-A fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ of $\mathbf{\flat} \mathbf{B}^n U(1)$ is
-
-$$
-  \Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
-  \,.
-$$
-
-and of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is
-
-$$
-  \Xi[0 \to \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
-  \,.
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-Since the [[global section]] $\Gamma$ amounts to evaluation on the 
-point $\mathbb{R}^0$ and since conmstant simplicial presheaves on [[CartSp]]
-satisfy descent, we have that $\mathbf{\flat} \mathbf{B}^n U(1)$ is represented by $\Xi[const U(1) \to 0 \to \cdots \to 0]$. This is weakly equivalent to $\Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]$ by the [[Poincare lemma]] applied to each [[Cartesian space]] (using the same standard logic that proves the [[de Rham theorem]]).
-
-And so a fibration representing the counit $\mathbf{\flat} \mathbf{B}^n U(1) \to \mathbf{B}^n U(1)$ is the image under $\Xi$ of
-
-$$
-  \array{
-    C^\infty(-,U(1)) &\to& \Omega^1(-) &\to & \cdots &\to& \Omega^n_{cl}(-)
-    \\
-    \downarrow && \downarrow && && \downarrow
-    \\
-    C^\infty(-, U(1)) &\to& 0 &\to& \cdots &\to& 0
-  }
-  \,.
-$$
-
-The pullback 
-
-$$
-  \array{
-    \Xi[0 \to \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]
-    &\to&
-    \Xi[C^\infty(-,U(1)) \to \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)]
-    \\
-    \downarrow && \downarrow
-    \\
-    \Xi[0 \to 0 \to \cdots \to 0]
-    &\to&
-    \Xi[C^\infty(-,U(1)) \to 0 \to \cdots \to 0]
-  }
-$$
-
-of this is a [[homotopy pullback]] and since fibrantions are stable under pullback, we find that the top left is indeed fibrant.
-
-=--
-
-+-- {: .un_remark }
-###### Remark
-
-We observe that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that which defines flat [[Deligne cohomology]], while that of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is that which computes [[de Rham cohomology]] in degree $n$.
-
-Also notice that the complex that defines $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ has the following description in terms of hom-spaces of [[∞-Lie algebroid]]s.
-
-=--
 
 
 
