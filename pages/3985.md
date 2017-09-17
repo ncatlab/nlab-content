@@ -591,14 +591,44 @@ If $L$ preserves finite limits, then it preserves pullbacks,
 so that $L(f')$ is a pullback of the equivalence $L(f)$, hence itself
 an equivalence.
 
-So it remains to check that, conversely, stability of $S$ under pullbacl
-is equivalent to $L$ preserving finite limits.
-For that, first notice that $L$ necessarily preserves the 
-[[terminal object in a quasi-category|terminal object]]: 
+So it remains to check that, conversely, stability of $S$ under pullback
+implies that $L$ preserves finite limits. By the properties of [[limit in a quasi-category|limits]] it suffices to check that $L$ preserves all pullbacks if $S$ is stable under pullback.
 
-by the above propositions we have that the counit $L z \to z$ is an equivalence if the object $z$ is $S$-local, but the terminal object $*$ is evidently $S$-local, so $L * \simeq *$ is still terminal in $C$ and therefore in the full subcategory $D$.
+We first check that in this case $L$ preserves [[product]]s. For that it is sufficient to check that the morphism $L(x \times y) \to L(x) \times L(y)$ induced from the units $i_x : x \to L x$ and $i_y : y \to L y$ is in $S$. From inspection of the diagram
 
-So by the properties of [[limit in a quasi-category|limits]] it suffices to check that $L$ preserves all pullbacks if $S$ is stable under pullback.
+$$
+  \array{
+    x &\stackrel{i_x}{\to}& L x
+    \\
+    \uparrow && \uparrow
+    \\
+     x \times y &\to& L x \times y
+    \\
+    \downarrow && \downarrow
+    \\
+    y &\stackrel{Id}{\to}& y
+  }
+$$
+
+one finds that $x \times y \to L x \times L y$ is a [[pullback]] of $i_x$. Hence is in $S$, by assumption. Similarly in
+
+$$
+  \array{
+    L x &\stackrel{Id}{\to}& L x
+    \\
+    \uparrow && \uparrow
+    \\
+    L x \times y &\to& L x \times L y
+    \\
+    \downarrow && \downarrow
+    \\
+    y &\stackrel{i_y}{\to}& L y
+  }
+$$
+
+one see that $L x \times y \to L x \times L y$ is a pullback of $i_y$ and hence in $S$. The composite of these two morphisms is a morphism $x \times y \to L x \times L y$, which is in $S$ since $S$ is closed under composition. Applying $L$ hence yields an equivalence $L(x \times y) \stackrel{\simeq}{\to} L x \times L y$.
+
+We now apply the same kind of argument to show that $L$ respects more generally pullbacks.
 
 For that, first notice that for $x \to y \leftarrow z$ a diagram in $C$, the pullback $L x \times_{L_y} L_z$ of the image exists in $C$, by assumption, but is easily seen to be $S$-local and hence lands in $D$. Therefore to show that we have an equivalence $L(x \; \times_y z) \simeq L x \; \times_{L y} \times L z$ it is sufficient to show that the natural morphism, $x \times_y z \to L x \times_{L y} L z$ induced from the morphism of diagrams
 
@@ -633,9 +663,9 @@ $$
     &\stackrel{Id}{\to}&
     L y
     \\
-    \uparrow^{\mathllap{g}} && \uparrow_{\mathrlap{i_y g}} 
+    \uparrow_{\mathllap{g}} && \uparrow_{\mathrlap{i_y g}} 
     && 
-    \uparrow_{i_y g} && \uparrow_{L g}
+    \uparrow_{\mathrlap{i_y g}} && \uparrow_{\mathrlap{L g}}
     \\
     z &\stackrel{Id}{\to}& z &\stackrel{Id}{\to}& z
     &\stackrel{i_z}{\to}&
@@ -652,8 +682,48 @@ $$
   \,.
 $$
 
-Here the last two morphisms are pullbacks of the adjunction unit and hence are in $S$, by assumption on the pullback stability of $S$. So it remains to show that $x \times_y z \to x \times_{L y} z$ is in $S$. 
+If we equivalently reformulate these [[pullback]]s as [[equalizer]]s then this is
 
+$$
+  \array{
+    x \times_y z
+    &\to&
+    x \times z
+    &
+    \stackrel{\overset{g p_2}{\to}}{\underset{f p_1 }{\to}}
+    &
+    y
+    \\
+    \downarrow && \downarrow^{\mathrlap{Id}} && 
+    \downarrow^{\mathrlap{i_y}}
+    \\
+    x \times_{L y} z
+    &\to&
+    x \times z
+    &\stackrel{\overset{i_y f}{\to}}{\underset{i_y g}{\to}}&    
+    L y
+    \\
+    \downarrow && \downarrow^{(i_x, Id)} &&  \downarrow^{Id}
+    \\
+    L x \times_{L y}  z
+    &\to&
+    L x \times z
+    &\stackrel{\overset{L f}{\to}}{\underset{i_y g}{\to}}&    
+    L y
+    \\
+    \downarrow && \downarrow^{\mathrlap{(Id, i_z)}}   
+    && \downarrow^{\mathrlap{Id}}
+    \\
+    L x \times_{L y} L z
+    &\stackrel{\overset{L f}{\to}}{\underset{L g}{\to}}&        
+    L y
+  }
+$$
+
+Now one checks easily that the two bottom left squares are [[pullback]] squares. So the two left vertical morphisms are pullbacks of $(Id, i_z)$ and $(Id, i_x)$, respectively. Since $L$ preserves products, as shown above, these two morphisms are in $S$. Hence by the assumed pullback-stablity of $S$ the last two left vertical morphisms are in $S$:
+
+
+So it remains to show that $x \times_y z \to x \times_{L y} z$ is in $S$. 
 By doodling around a bit one finds that this morphism in turn may be expressed itself as the pullback 
 
 $$
