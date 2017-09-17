@@ -43,8 +43,11 @@ A complete lattice is called **constructive completely distributive** if the joi
 
 * wikipedia, _[completely distributive lattice](http://en.wikipedia.org/wiki/Completely_distributive_lattice)_
 
-* Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
+* [[Olivia Caramello]], _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
  {#Caramello}
+
+* {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], _Totally Distributive Toposes_ , arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
+
 
 * [[Richard Wood]] and Barry Fawcett, "Constructive complete distributivity. I". Math. Proc. Camb. Phil. Soc. (1990), 107, 81
  {#WoodFawcett}
