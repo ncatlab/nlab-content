@@ -31,8 +31,7 @@ at [[n-symplectic manifold]].
 
 ## Definition ##
 
-Let $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ be a Poisson structure on
-$X$, regarded as a bivector.
+Let $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ be a [[Poisson manifold]] structure, incarnated as a [[Poisson tensor]].
 
 ### As vector-bundle with anchor
 
@@ -49,7 +48,7 @@ $$
   }
 $$
 
-equipped with the anchor map that sends a [[differential 1-form]] $\alpha$ to the [[vector]] obtained by contraction with the bivector $\pi$: $\alpha \mapsto \pi(\alpha,-)$.
+equipped with the anchor map that sends a [[differential 1-form]] $\alpha$ to the [[vector]] obtained by contraction with the [[Poisson bivector]] $\pi \colon \alpha \mapsto \pi(\alpha,-)$.
 
 The [[Lie bracket]] $[-,-] : \Omega^1(X) \wedge \Omega^(X) \to \Omega^1(X)$ is given by
 
