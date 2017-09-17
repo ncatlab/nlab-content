@@ -70,9 +70,9 @@ This uniqueness (under mild conditions) is one reason for interest in supergravi
 
 The non-spinorial part of [[action functional]]s of supergravity theories are typically given in [[first-order formulation of gravity|first order formulation]] as functional on a space of [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]] $\mathfrak{iso}(n,1)$. Including the fermionic fields, this becomes connections with values in the [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$. 
 
-This might suggest that supergravity is to be thought of as a [[gauge theory]]. There are indeed various action functionals of [[Chern-Simons theory]]-form for supergrvaity theories ([Zanelli](#Zanelli)). These yield theories whose bosonic action functional is the [[Einstein-Hilbert action]] in certain conctraction limits.
+This might suggest that supergravity is to be thought of as a [[gauge theory]]. There are indeed various action functionals of [[Chern-Simons theory]]-form for supergravity theories ([Zanelli](#Zanelli)). These yield theories whose bosonic action functional is the [[Einstein-Hilbert action]] in certain contraction limits.
 
-More generally ([DAuriaFreCastellani](#DauriaFreCastellani)) have shown that at least some versions, such as the maximal 11-dimensional supergravity are naturally understood as _higher_ gauge theories whose fields are [[∞-Lie algebra-valued forms]] with values in [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. This is described in detail at [[D'Auria-Fre formulation of supergravity]].
+More generally ([DAuriaFreCastellani](#DauriaFreCastellani)) have shown that at least some versions, such as the maximal 11-dimensional supergravity, are naturally understood as _higher_ gauge theories whose fields are [[∞-Lie algebra-valued forms]] with values in [[∞-Lie algebra]]s such as the [[supergravity Lie 3-algebra]]. This is described in detail at [[D'Auria-Fre formulation of supergravity]].
 
 ### Solutions with global supersymmetry
  {#SolutionsWithGlobalSupersymmetry}
@@ -83,9 +83,9 @@ Accordingly, a configuration that solves the supergravity [[Euler-Lagrange equat
 
 Here the notion of [[covariant derivative]] includes the usual [[Levi-Civita connection]], but also in general [[torsion]] components and contributions from other [[background gauge fields]] such as a [[Kalb-Ramond field]] and the [[RR-field]]s in [[type II supergravity]] or [[heterotic string theory|heterotic supergravity]].
 
-Of particular interest to phenomenologists around the turn of the millenium (but maybe less so today with new experimental evidence) has been in solutions of spacetime manifolds of the form $M^4 \times Y^6$ for $M^4$ the locally observed [[Minkowski spacetime]] (that plays a role as the background for all available particle accelerator experiments) and a small closed 6-dimensional [[Riemannian manifold]] $Y^6$. 
+Of particular interest to phenomenologists around the turn of the millennium (but maybe less so today with new experimental evidence) has been in solutions of spacetime manifolds of the form $M^4 \times Y^6$ for $M^4$ the locally observed [[Minkowski spacetime]] (that plays a role as the background for all available particle accelerator experiments) and a small closed 6-dimensional [[Riemannian manifold]] $Y^6$. 
 
-In the absence of further fields besides gravity, the condition that such a configuration has precisely one [[Killing spinor]] and hence precisely one [[global supersymmetry]] turns out to tbe precisely that $Y^6$ is a [[Calabi-Yau manifold]]. This is where all the interest into these manifolds in [[string theory]] comes from. (Notice though that nothing in the theory itself demands such a compactification. It is only the phenomenological assumption of the factorized spacetime compactification together with $N = 1$ supersymmetry that does so).
+In the absence of further fields besides gravity, the condition that such a configuration has precisely one [[Killing spinor]] and hence precisely one [[global supersymmetry]] turns out to be precisely that $Y^6$ is a [[Calabi-Yau manifold]]. This is where all the interest into these manifolds in [[string theory]] comes from. (Notice though that nothing in the theory itself demands such a compactification. It is only the phenomenological assumption of the factorized spacetime compactification together with $N = 1$ supersymmetry that does so.)
 
 More generally, in the presence of other [[background gauge field]]s, the Calabi-Yau condition here is deformed. One also speaks of [[generalized Calabi-Yau space]]s. (For instance ([GMPT05](#GMPT))).
 
@@ -187,7 +187,7 @@ For supergravity Lagrangians "of ordinary type" it turns out that
 
 * $N = 1$ [[11-dimensional supergravity]] 
 
-is the highest dimensional possible. All lower dimensional theories in this class appear as compactifications of this theory or otherwise derived from it, such as
+is the highest dimension possible. All lower dimensional theories in this class appear as compactifications of this theory or otherwise derived from it, such as
 
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
