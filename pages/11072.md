@@ -19,7 +19,7 @@
 
 ## Idea
 
-In full [[linear logic]]/[[linear type theory]] there is assumed a (co-)[[modality]] denoted "!", whose role is, roughly, to give linear types also a non-linear interpretation. This is also called the _exponential conjunction_ and is also known as the "of course"-modality and sometimes also as the "bang"-operation (for better or worse).
+In full [[linear logic]]/[[linear type theory]] there is assumed a (comonadic) [[modality]] denoted "!", whose role is, roughly, to give linear types also a non-linear interpretation. This is also called the _exponential conjunction_ and is also known as the "of course"-modality and sometimes also as the "bang"-operation (for better or worse).
 
 ## Categorical semantics
 
