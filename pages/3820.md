@@ -71,7 +71,7 @@ $$
      &= 
     \int_X EL(\phi) \delta \phi 
       + 
-     \int_X d_{dR} \theta(\phi)
+     \int_X d_{dR} \theta_\phi(\delta \phi)
     \,,
   \end{aligned}
 $$
