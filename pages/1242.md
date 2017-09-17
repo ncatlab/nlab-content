@@ -1,6 +1,29 @@
-An **exact sequence** is a [[chain complex]] with vanishing [[homology]].
 
-This is sometimes called a **long exact sequence**, where a **short exact sequence** is an exact sequence of the form
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Conntents#
+* table of contents
+{:toc}
+
+## Definition
+
+An **exact sequence** is a [[chain complex]] with vanishing [[chain homology]].
+
+## Long and short exact sequences
+
+A general exact sequence is sometimes called a **long exact sequence**, to distinguish from the special case of a **short exact sequence** which is an exact sequence of the form
 $$ 0 \to A \to B \to C \to 0 .$$
 Of course, by adding $0$ to either end (or both!), one turns a short exact sequence into a chain complex and in particular into a long exact sequence.
 
