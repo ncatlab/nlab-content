@@ -33,11 +33,14 @@
 
 ## Idea
 
-The [[∞-Lie groupoid|Lie groupoid]] of _Lie algebra valued forms_ is a kind of differential refinement of the [[delooping]] [[∞-Lie groupoid|Lie groupoid]] $\mathbf{B}G$ of a [[Lie group]] $G$:
+
+For $\mathfrak{g}$ a [[Lie algebra]], the _groupoid of $\mathfrak{g}$-valued forms_ is the [[groupoid]] whose [[object]]s are [[differential form|differential 1-form]]s with values on $\mathfrak{g}$, and whose [[morphism]]s are [[gauge transformation]]s between these.
+
+This carries the structure of a generalized [[Lie groupoid]] $\mathbf{B}G_{conn}$ , which is a differential refinement of the [[delooping]] [[Lie groupoid]] $\mathbf{B}G$ of the [[Lie group]] $G$ corresponding to $\mathfrak{g}$:
 
 its $U$-parameterized smooth families of objects are _[[Lie algebra]] valued [[differential form]]s_ on $U$. Its $U$-parameterized families of morphisms are gauge transformations of these forms by $G$-valued [[smooth function]]s on $U$.
 
-A [[cocycle]] with coefficients in this groupoid is a [[connection on a bundle]].
+A [[cocycle]] with coefficients in $\mathbf{B}G_{conn}$ is a [[connection on a bundle]].
 
 For more discussion of this see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">∞-Lie groupoid -- Lie groups</a>.
 
