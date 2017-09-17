@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -54,3 +53,5 @@ The mirror symmetry operation was discussed in
 
 [[!redirects Coulomb branch]]
 [[!redirects Higgs branch]]
+
+[[!redirects N=4 D=3 sYM]]
