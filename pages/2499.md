@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
