@@ -26,7 +26,11 @@ $$ Bant^{op}(D_L X, Y) \cong Bant(X, D_R Y) $$
 In general
 $$ Bant^{op}(Y, D_L X) \not\cong Bant(D_R Y, X) $$
 so that $D_L$ is not a right adjoint of $D_R$.
+For example: take $Y$ to be the ground field $K$ and $X$ to be $c_0$ with the usual supremum norm.
 
+**Not-a-proof-yet** of this claim: we have $D_R(K)\cong K$ and the $Bant$-morphisms from $K$ to $c_0$ are just vectors in $c_0$; but the $Bant$-morphisms from $D_L(c_0)\cong\ell^1$ to $K$ correspond to the vectors in $\ell^\infty$. (It would seem from this example that even in [[dream mathematics]] one doesn't get $D_L$ being a right adjoin of $D_R$.)
+
+**Unit and counit.**
 The unit of this adjunction is the canonical map $\kappa_X: X\to (X^*)^*$ from a Banach space $X$ to its second dual $X^{**}$. In the presence of
 [[axiom of choice|Choice]], the [[Hahn–Banach theorem]]) ensures that $\kappa_X$ is an isometry.
 
