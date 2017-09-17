@@ -19,9 +19,11 @@ Generalized Reedy model structures are a class of [[model categories]] that gene
 
 So these model structures serve to present [[(∞,1)-categories of (∞,1)-functors]] on generalized Reedy categories.
 
+As for the [[Reedy model structure|Reedy model structures]], the generalized Reedy model structure typically models [[geometric shapes for higher structures]]. The crucial generalization is that the basic shapes here may have non-trivial [[automorphisms]].
+
 ## Definition
 
-Let $S$ be a (Cisinski-Moerdijk) [[generalized Reedy category]].
+Let $S$ be a (Berger-Moerdijk) [[generalized Reedy category]].
 Let $\mathcal{C}$ be a category with small [[limits]] and [[colimits]].
 
 ### The model structure
@@ -56,7 +58,7 @@ Equivalently this means that for all $s$ the above objects and morphisms take pl
 
 =--
 
-Choose now once and for all a [[model structure on functors]] on all $[B Aut(r), \mathcal{C}]$, for instance the projective or the injective one. We will write $[B Aut(r), \mathcal{C}]_{proj/inj}$ to indicate some fixed choice. 
+Choose now once and for all on all $[B Aut(r), \mathcal{C}]$ either the projective or the injective [[model structure on functors]]. We will write $[B Aut(r), \mathcal{C}]_{proj/inj}$ to indicate some fixed choice. 
 
 
 +-- {: .num_defn #ReedyModelStructure}
@@ -88,9 +90,7 @@ Call a morphism $f : X \to Y$ in $[S, \mathcal{C}]$
     f_s : X_s \to Y_s
   $$
 
-  is a weak equivalence in $\mathcal{C}$;
-
-where $[B Aut(r), \mathcal{C}]_{proj/inj}$ is the projective [[model structure on functors]].
+  is a weak equivalence in $\mathcal{C}$.
 
 =--
 
@@ -563,13 +563,13 @@ $$
   }
 $$ 
 
-is a pullback. Then for each $X \in [S, \mathcal{C}]$, the natural comparison functor
+is a pullback (in the 1-category [[Cat]]). Then for each $X \in [S, \mathcal{C}]$, there is a [[natural isomorphism]]
 
 $$
   L_k(\phi^*(X)) \to \phi_k^*(L_k X)
+  \,,
 $$
 
-is an isomorphism.
 
 Given a Reedy category $S$, examples of $\phi$ satisfying this condition include
 
@@ -602,7 +602,7 @@ $$
   }
 $$ 
 
-whose rowes define, by prop. \ref{DiagramOfRestrictions}, the latching objects by pull-push. Since the pullback square satisfies the [[Beck-Chevalley condition]], we find the intertwining isomorphism as follows
+whose rows define, by prop. \ref{DiagramOfRestrictions}, the latching objects by pull-push. Since the pullback square, being the pullback of an [[opfibration]] (the [[codomain opfibration]]) satisfies the [[Beck-Chevalley condition]] (by the fact discussed [here](http://ncatlab.org/nlab/show/Beck-Chevalley+condition#PullbacksOfOpfibrations)), we find the intertwining isomorphism as follows:
 
 $$
   \begin{aligned}
@@ -653,6 +653,8 @@ One sees that this is indeed the fiber product as claimed.
 
 =--
 
+We now show that the extra condition in prop. \ref{LiftingLemma} is in fact automatic.
+
 +-- {: .num_lemma #ExtraPropertyOfAcyclicCofibrations}
 ###### Lemma
 
@@ -663,7 +665,7 @@ Dually, let $f : X \to Y$ in $[S, \mathcal{C}]$ be a Reedy fibration which is a 
 
 =--
 
-This is ([Ber-Moer, lemma 5.3 and lemma 5.5](#BergerMoerdijk)).
+This is ([Ber-Moer, lemma 5.3](#BergerMoerdijk)).
 
 +-- {: .proof}
 ###### Proof
@@ -671,7 +673,7 @@ This is ([Ber-Moer, lemma 5.3 and lemma 5.5](#BergerMoerdijk)).
 We show this by induction over $n$, using the skeletal filtration def. \ref{SkeletaByAdjunction}. For $n = 0$ we have for all $X$ that
 $L_n X = sk_{-1} X = \emptyset$, and hence the condition is trivially satisfied. 
 
-So assume now that the statement has been shown for all $(k \lt n)$-skeleta, then we need to show that $i_n^* L_n f$ is an acyclic cofibration, hence that every square of the form
+So assume now that the statement has been shown for all $(k \lt n)$, then we need to show that $i_n^* L_n f$ is an acyclic cofibration in $[Obj(S)_n, \mathcal{C}]$, hence that every square of the form
 
 $$
   \array{   
@@ -686,39 +688,57 @@ $$
 with $g$ a fibration in $[Obj(S)_n, \mathcal{C}]_{proj/inh}$ (hence over every object of degree $n$) has a lift. Since by lemma \ref{DiagramOfRestrictions} we have
 
 $$
-  i^*_n L_n = i_n^* cod_! dom_n^* = cod_! i_n^* dom_n^*
+  i^*_n L_n = i_n^* cod_! dom_n^* \simeq cod_! i_n^* dom_n^*
 $$
 
 such a filler is equivalently a filler in 
 
-$$
+\[
+  \label{SomeLiftingDiagram}
   \array{
-     i_n^* dom_n^* A &\to& cod^* Y
+     i_n^* dom_n^* A &\to& cod_n^* Y
      \\
-     {}^{\mathllap{}}\downarrow && \downarrow
+     {}^{\mathllap{i_n^* dom_n^*}}{}\downarrow && \downarrow
      \\
-     i_n^* dom_n^* B &\to& cod^* X
+     i_n^* dom_n^* B &\to& cod_n^* X
   }
-$$
+\]
 
-being a diagram in $[S^+(n), \mathcal{C}]$
+being a diagram in $[S^+(n), \mathcal{C}]$.
 
-We now establish such a filler by using lemma \ref{LiftingLemma} with the Reedy category in question being $S^+(n)$. This has only $+$-morphisms and hence Reedy fibrations here are objectwise fibrations, so the morphism on the right is a Reedy fibration over $S^+(n)$.
+We now establish such a filler by using lemma \ref{LiftingLemma} with the Reedy category in question being now $S^+(n)$. This has only $+$-morphisms and hence Reedy fibrations here are objectwise fibrations, so the morphism on the right is a Reedy fibration over $S^+(n)$.
 
-Moreover, $i_n^* dom_n^* f$ is a Reedy weak equivalence in this structure, since all its objects have degree $\lt n$. It remains to be shown that the assumptions of lemma \ref{LiftingLemma} are satisfied. 
+Moreover, $i_n^* dom_n^* f$ is a Reedy weak equivalence in this structure, since all its objects have degree $\lt n$. It is now sufficient to show that the assumptions of lemma \ref{LiftingLemma} are satisfied over $S^+(n)$, to obtain the lift.
 
 By lemma \ref{LatchingIntertwiner} the functor
 
 $$
-  (d_k i_k)^* : [G_k(S), \mathcal{C}] \to [G_k(S^+(n)), \mathcal{C}]
+  (dom_n i_n)^* : [G_k(S), \mathcal{C}] \to [G_k(S^+(n)), \mathcal{C}]
 $$
 
-intertwines the latching objects on both sides. Therefore the above morphism on the left is the image under $(dom_n i_n)^*$ of the $k$th relative latching morphism of $A \to B$. Since $(d_k i_k)$ is a faithful functor between groupoids, $(d_k i_k)^*$ preserves cofibrations, and so the left morphism above is a Reedy cofibration. Similarly, since $L_k(f)$ is an acyclic cofibration by assumption, so is $L_k((d_k i_k)^* f)$.
+intertwines the latching objects on both sides. Therefore we have an isomorphism between the relative latching morphism of interest
 
-(...)
+$$
+  (dom_n i_n)^* A \coprod_{Latch_k (dom_n i_n)^* A} Latch_k (dom_n i_n)^* k \to (dom_n i_n)^* B
+$$
+
+and the morphism
+
+$$
+  (dom_n i_n)_k^*\left(
+    A_k \coprod_{Latch_k(A)} Latch_k(B)
+    \to
+    B_k
+  \right)
+  \,.
+$$
+
+Since $(d_n i_n)_k$ is a [[faithful functor]] between groupoids, $(d_n i_n)_k^*$ preserves cofibrations, and so the above relative latching morphism is a cofibration, hence $(dom_n i_n)^*(f)$ is a Reedy cofibration.
+Similarly, since $L_k(f)$ is an acyclic cofibration by induction hypothesis, so is $L_k((d_n i_n)_k^* f)$. So finally the assumption of lemma \ref{LiftingLemma} are checked for (eq:SomeLiftingDiagram) and so we do have a lift.
 
 =--
 
+Now we can finally conclude:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -744,7 +764,93 @@ By lemma \ref{ExtraPropertyOfAcyclicCofibrations} every Reedy cofibration induce
 ### Factorization
  {#Factorization}
 
-(...)
+We demonstrate the factorization axiom in the Reedy model structure, def. \ref{ReedyModelStructure}.
+
++-- {: .num_prop }
+###### Proposition
+
+Every morphism in $[S, \mathcal{C}]$ factors into an acyclic Reedy cofibration (according to def. \ref{ReedyModelStructure}) followed by a Reedy fibration, and into a Reedy cofibration followed by an acyclic Reedy fibration
+
+=--
+
+This is ([Ber-Moer, page 18](#BergerMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+
+Let $f : X \to Y$ be any morphism. 
+We construct the factorization by induction on the degree, i.e. by induction over the restrictions along $t_n^* : [S, \mathcal{C}] \to [S_{\leq n}, \mathcal{C}]$.
+
+For $n = 0$ we have $S_{\leq 0} = G_0(S)$ and we factor $f_0$ in the model structure $[G_0(S), \mathcal{C}]_{proj/inj}$. Now assume that a factorization of 
+
+$$
+  f_{\leq (n-1)}
+ : 
+  X_{\leq (n-1)}
+  \stackrel{\simeq}{\to}
+  A_{\leq (n-1)}
+  \to
+  Y_{\leq (n-1)}
+$$ 
+
+has been found. This induces the commutative diagram
+
+$$
+  \array{
+    Latch_n(A) &\to & Latch_n(A) &\to& Latch_n(Y)
+    \\
+    \downarrow && && \downarrow
+    \\
+    X_n && && Y_n
+    \\
+    \downarrow && && \downarrow
+    \\
+    Match_n(X) &\to & Match_n(A) &\to& Match_n(Y) 
+  }
+  \,.
+$$
+
+
+This diagram in turn induces a morphism
+
+$$
+  X_n \coprod_{Latch_n(X)} Latch_n(A)
+  \to 
+  Y_n \prod_{Match_n(Y)} Match_n(A)
+$$
+
+in $[G_n(S), \mathcal{C}]$, which we may factor as a trivial cofibration followed by a fibration 
+
+$$
+  X_n \coprod_{Latch_n(X)} Latch_n(A)
+   \stackrel{\simeq}{\to}
+   A_n
+  \to 
+  Y_n \prod_{Match_n(Y)} Match_n(A)
+$$
+
+in $[G_n(S), \mathcal{C}]_{proj/inj}$.
+
+This data defines an extension of $A_{\leq (n-1)}$ to $A_{\leq n}$ and defines an extended factorization of $f_{\leq n}$ through this object by a Reedy cofibration followed by a Reedy fibration (...).
+
+To see that the first of these is acyclic, notice that $f_n$ here is the composite
+
+$$
+  X_{n} 
+   \to 
+  X_n \coprod_{Latch_n(X)} Latch_n(A)
+   \to 
+  A_{n}
+  \,,
+$$
+
+where the first is a weak equivalence by lemma \ref{ExtraPropertyOfAcyclicCofibrations}, the second one by construction. (...)
+
+The other kind of factorization works by the dual argument.
+
+=--
+
 
 ## Properties
 
