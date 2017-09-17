@@ -1,6 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Banach algebras
-* tic
+* table of contents
 {: toc}
 
 ## Definitions
@@ -9,7 +27,7 @@ An associative unital Banach algebra is [[monoid object]] in the [[closed monoid
 
 Explicitly, this means a [[Banach space]] $A$ equipped with a [[bilinear map|bilinear]] _multiplication_ map
 $$ m\colon A \times A \to A ,$$
-which again is usually taken to be associative (and may even be unital), such that
+which again is usually taken to be [[associativity|associative]] (and may even be unital), such that
 $$ {\|a \cdot b\|} \leq {\|a\|} \cdot {\|b\|} ,$$
 where $a \cdot b$ (or just $a b$) means $m(a, b)$.
 
@@ -69,6 +87,8 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 ## Related concepts
 
+* [[Banach ring]]
+
 * [[normed group]], [[normed ring]], [[normed algebra]]
 
 ## References
@@ -83,12 +103,22 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 * F. F. Bonsall, J. Duncan, _Complete normed algebras_
 
+
 * T. W. Palmer, _Banach Algebras and the General Theory of \* -Algebras_
 
+Discussion in the context of ([[global analytic geometry]]) [[analytic geometry]] is in the following articles.
+
+Lecture notes on the concept of the [[spectrum (geometry)]] of a Banach ring include
+
+* Sarah  Brodsky, _Non-archimedean geometry_ ([pdf](http://math.berkeley.edu/~sstich/MAT_274/Math_274_3_Feb_2012.pdf))
+
+A more [[topos theory|topos-theoretic]] perspective:
+
+
+* {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 6.5 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 category: analysis
+
 
 [[!redirects Banach algebra]]
 [[!redirects Banach algebras]]
 
-[[!redirects Banach ring]]
-[[!redirects Banach rings]]
