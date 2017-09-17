@@ -26,7 +26,7 @@
 +-- {: .num_defn #TheOrbitCategory}
 ###### Definition
 
-Given a [[topological group]] $G$ the __orbit category__ $\mathrm{Or}\, G$ (denoted also $\mathcal{O}_G$) is the [[category]] whose 
+Given a [[topological group]] $G$ the __orbit category__ $\operatorname{Or}G$ (denoted also $\mathcal{O}_G$) is the [[category]] whose 
 
 * objects are the [[homogeneous space]]s ($G$-orbit types) $G/H$, where $H$ is a closed [[subgroup]] of $G$, 
 
@@ -37,15 +37,14 @@ Given a [[topological group]] $G$ the __orbit category__ $\mathrm{Or}\, G$ (deno
 +-- {: .num_remark }
 ###### Remark
 
-For suitable continuous [[actions]] of $G$ on a [[topological space]] $X$, every [[orbit]] of the action is [[isomorphism|isomomorphic]] to one of the [[homogeneous spaces]] $G/H$ ($H$ is the [[stabilizer group]] of any point in the orbit). This is the sense in which def. \ref{TheOrbitCategory} gives "the category of all $G$-orbits".
+For suitable continuous [[actions]] of $G$ on a [[topological space]] $X$, every [[orbit]] of the action is [[isomorphism|isomomorphic]] to one of the [[homogeneous spaces]] $G/H$ (the [[stabilizer group]] of any point in the orbit is conjugate to $H$). This is the sense in which def. \ref{TheOrbitCategory} gives "the category of all $G$-orbits".
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-Def. \ref{TheOrbitCategory}
-yields a [[small category|small]] [[enriched category|topologically enriched]] category (though of course if $G$ is a [[discrete group]], the enrichment of $\mathrm{Or}\, G$ is likewise discrete).  
+Def. \ref{TheOrbitCategory} yields a [[small category|small]] [[enriched category|topologically enriched]] category (though of course if $G$ is a [[discrete group]], the enrichment of $\operatorname{Or}G$ is likewise discrete).  
 
 Of course, like any category, it has a [[skeleton]], but as usually defined it is not itself skeletal, since there can exist distinct subgroups $H$ and $K$ such that $G/H\cong G/K$.
 
@@ -59,12 +58,12 @@ Warning: This should not be confused with the situation where a group $G$ acts o
 
 =--
 
-More generally, given a family $F$ of subgroups of $G$ which is closed under conjugation and taking subgroups one looks at the full subcategory $\mathrm{Or}_F\,G \subset \mathrm{Or}\,G$ whose objects are those $G/H$ for which $H\in F$.
+More generally, given a family $F$ of subgroups of $G$ which is closed under conjugation and taking subgroups one looks at the full subcategory $\mathrm{Or}_F\,G \subset \operatorname{Or}G$ whose objects are those $G/H$ for which $H\in F$.
 
 
 ## Variants
 
-Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\mathrm{Or}\, G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will go across to the restricted setting.
+Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\operatorname{Or}G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will go across to the restricted setting.
 
 ## Properties
 
