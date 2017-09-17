@@ -248,11 +248,11 @@ More generally a [[Thom isomorphism]] may not exists, but $[D X \otimes_{\mathbb
 #### In linear homotopy-type theory
 
 We may formulate the above still a bit more abstractly in 
-[[linear homotopy-type theory]] (following [[schreiber:Homotopy-type semantics for quantization]]).
+[[linear homotopy-type theory]] (following _[[schreiber:Homotopy-type semantics for quantization]]_).
 
 (...)
 
-[[!include integration in linear homotopy type theory -- table]]
+[[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
 (...)
 
