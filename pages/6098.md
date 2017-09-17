@@ -1,9 +1,10 @@
 
-## Cycle of a permuation
+* in [[group theory]]: cycle of a  [[permutation]]
 
-see [[permutation]]
+* in [[homological algebra]]: cycle in a [[chain complex]]
 
-## Cycle of chains
 
-see [[chain complex]]
 
+category: disambiguation
+
+[[!redirects cycles]]
