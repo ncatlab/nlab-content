@@ -1,6 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
 A **homotopy end** or **coend** is a [[homotopy limit]] corresponding to an [[end]] or coend.
 
-For now, see [[coend in a derivator]].
+For now, see 
+
+* [[coend in a derivator]];
+
+* [derived coends over tensors](http://ncatlab.org/nlab/show/Quillen+bifunctor#CoendsOverTensors).
 
 [[!redirects homotopy coends]]
 [[!redirects homotopy end]]
