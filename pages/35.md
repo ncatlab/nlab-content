@@ -80,13 +80,45 @@ See
 
 * For every [[Lie group]] $G$ the one-object [[delooping]] groupoid $\mathbf{B}G$ is a Lie groupoid.
 
+* Every [[Lie 2-group]] is in particular a Lie groupoid: a [[group object]] in the category of Lie groupoids
+
+* The [[inner automorphism 2-group]] $\mathbf{E}G = INN(G) = G//G$ is a Lie groupoid. There is an obvious morphism $\mathbf{E}G \to \mathbf{B}G$.
+
   The Lie group itself is a 0-[[truncated]] [[group object]] in the 2-category or Lie groupoids.
 
 * For every $G$-[[principal bundle]] $P \to X$ there is its [[Atiyah Lie groupoid]] $At(P)$.
 
+* Every [[smooth manifold]] $X$ is a 0-[[truncated]] Lie group.
+
 * The [[fundamental groupoid]] $\Pi_1(X)$ of a smooth manifold is naturally a Lie groupoid.
 
 * The [[path groupoid]] of a smooth manifold is naturally a groupoid internal to [[diffeological space]]s (a "diffeological groupoid").
+
+* The [[Cech groupoid]] $C(U)$ of a [[cover]] $\{U_i \to X\}$ of a smooth manifold is a Lie groupoid. 
+
+* An [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ from a smooth manifold $X$ to $\mathbf{B}G$ is a [[Cech cohomology|Cech cocycle]] in degree 1 with values in $G$, classifying $G$-[[principal bundle]] $P$.
+
+* The (1-categorical) [[pullback]]
+
+  $$
+    \array{
+       P &\stackrel{\simeq}{\leftarrow}& \mathbf{P} &\to& \mathbf{E}G
+       \\
+       && \downarrow && \downarrow
+       \\
+       && C(U) &\stackrel{}{\to}& \mathbf{B}G
+       \\
+       && \downarrow^{\mathrlap{\simeq}}
+       \\
+       && X
+    }
+  $$
+
+  is a Lie groupoid equivalent to this pricipal bundle $P$.
+
+  (For more on the general phenomenon of which this is a special case see [[principal ∞-bundle]] and [[universal principal ∞-bundle]].)
+
+* Similarly an anafunctor from $P_1(X)$ to $\mathbf{B}G$ is a [[connection on a bundle]] (see there for details).
 
 ## References
 
