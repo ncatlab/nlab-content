@@ -184,7 +184,6 @@ Therefore one sometimes loosely speaks of 'the' fundamental group of a connected
 ###### Proposition
 
 It is, however, a functor on [[pointed object|pointed topological spaces]]:
-
 $\pi_1(-) :$ [[Top]] ${}^{*/} \to$ [[Grp]].
 
 =--
