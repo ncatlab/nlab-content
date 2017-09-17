@@ -558,7 +558,9 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[function type]]
 
-* [[power object]]
+* [[power object]], [[exponential object]]
+
+* [[exponential law for spaces]]
 
 * [[closed category]], [[cartesian closed category]]
 
@@ -567,6 +569,8 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 * [[mapping stack]]
 
 * [[space of sections]]
+
+
 
 ## References
 
@@ -587,3 +591,6 @@ A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $
 
 [[!redirects mapping space]]
 [[!redirects mapping spaces]]
+
+[[!redirects exponential law]]
+[[!redirects exponential laws]]
