@@ -152,7 +152,10 @@ constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos
 
 This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
 
+
 ### For principal bundles {#PrincipalBund}
+
+Essentially every topos may be regarded as a classifying topos for certain [[torsor]]s/[[principal bundle]]s.
 
 #### Over bare groups {#BareGTor}
 
@@ -179,6 +182,33 @@ $$
 $$
 
 Such a flat functor picks a single sheaf on $X$ and encodes a $G$-action on this sheaf such that this sheaf is the sheaf of [[section]]s of a $G$-[[principal bundle]] on $X$.
+
++-- {: .un_theorem}
+###### Theorem
+
+Let $G$ be a (bare, discrete) group, write $\mathcal{B}G \in $ [[Top]] for the ordinary [[classifying space]] and $\mathbf{B}G \in $ [[Grpd]] the one-object groupoid version of $G$. There is a canonical [[geometric morphism]]s
+
+$$
+  PSh(\mathbf{B}C)
+  \to
+  Sh(\mathcal{B}G)
+  \,.
+$$
+
+This is a _weak homotopy equivalence_ of toposes, in that it induces isomorphisms on [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of the terminal object.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 1.1, proven in chapter IV of
+
+* [[Ieke Moerdijk]], Classifying spaces and classifying topoi, _Lecture Notes in Math._ **1616**, Springer-Verlag, New York, 1995.
+
+=--
+
+
 
 
 #### In terms of geometric theories {#BareGTorGeomTheo}
