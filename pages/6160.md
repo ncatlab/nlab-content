@@ -20,11 +20,20 @@
 
 ## Idea
 
-An _algebra spectrum_ or _[[A-∞ algebra]]-spectrum_over a [[ring spectrum]] is the analog in the [[higher algebra]] of [[stable homotopy theory]] of an [[associative algebra]] over a [[ring]] on ordinary [[algebra]].
+An _algebra spectrum_ or _[[A-∞ algebra]]-spectrum_ over a [[ring spectrum]] is the analog in the [[higher algebra]] of [[stable homotopy theory]] of an [[associative algebra]] over a [[ring]] on ordinary [[algebra]].
+
+## Definition
+
+Abstractly, an _$A_\infty$-algebra spectrum_ in an [[algebra in an (∞,1)-category]] in the [[stable (∞,1)-category]] [[Spec]] of [[spectra]].
+
+Concretely this [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by the [[model structure on monoids]] in the [[monoidal model category|monoidal]] [[model structure on symmetric spectra]].
+
+(...)
 
 
 ## Properties
 
+### Stable monoidal Dold-Kan correspondence
 
 Let $R := H \mathbb{Z}$ be the [[Eilenberg-MacLane spectrum]] for the [[integer]]s. 
 
@@ -52,7 +61,7 @@ between [[monoidal model categories]]satisfying the [[monoid axiom in a monoidal
 
 * and the [[model structure on chain complexes]] (unbounded).
 
-This induces a [[Quillen equivalence]] between the corresponding [[model structures on monoids]] in these [[monoidal category]], which on the left is the model structure on $H \mathbb{Z}$-algebra spectra and on the right the [[model structure on dg-algebras]]:
+This induces a [[Quillen equivalence]] between the corresponding [[model structures on monoids]] in these [[monoidal category|monoidal categories]], which on the left is the model structure on $H \mathbb{Z}$-algebra spectra and on the right the [[model structure on dg-algebras]]:
 
 $$
   H \mathbb{Z} Alg \simeq dgAlg_\mathbb{Z}
@@ -66,7 +75,7 @@ This is due to ([Shipley](#Shipley)).
 +-- {: .num_remark}
 ###### Remark
 
-This is an instance -- or a generalization -- of the [[monoidal Dold-Kan correspondence]]. See there for more details.
+This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there for more details.
 
 =--
 
@@ -78,7 +87,11 @@ This is an instance -- or a generalization -- of the [[monoidal Dold-Kan corresp
 
 ## References
 
-The equivalence of $H R$-algebra spectra with [[dg-algebra]]s is due to
+An account in terms of [[(∞,1)-category theory]] is in section 7.1.4 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+The equivalence of $H \mathbb{Z}$-algebra spectra with [[dg-algebra]]s is due to
 
 * [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_ , Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
  {#Shipley}
@@ -86,6 +99,8 @@ The equivalence of $H R$-algebra spectra with [[dg-algebra]]s is due to
 Eilenberg-MacLane spectra $H R$ for $R$ itself a [[dg-algebra]] are discussed in
 
 * [[Daniel Dugger]], [[Brooke Shipley]], _Topological equivalences for differential graded algebras_ ([arXiv:math/0604259](http://arxiv.org/abs/math/0604259))
+
+See also the references at [[stable homotopy theory]].
 
 [[!redirects algebra spectra]]
 
