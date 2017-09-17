@@ -34,7 +34,7 @@ For $(X,g)$ a [[Riemannian manifold]], the **Levi-Civita connection** $\nabla_g$
 
 1. the [[covariant derivative]] of the metric vanishes, $\nabla_{g} g = 0$;
 
-1. $\nabla_g$ has vanishing [[torsion]].
+1. $\nabla_g$ has vanishing [[torsion of a metric connection|torsion]].
 
 =--
 
