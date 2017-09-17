@@ -1,4 +1,39 @@
-The category $Grpd$ of [[groupoid]]s is the [[full subcategory]] of [[Cat]] on [[groupoid]]s.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The [[(2,1)-category]] $Grpd$ is the [[2-category]] whose
+
+* [[object]]s are [[small category|small]] [[groupoid]]s;
+
+* [[morphism]]s are [[functor]]s;
+
+* [[2-morphism]]s are [[natural transformation]]s, which are necessarily [[natural isomorphism]]s.
+
+This is the full sub-2-category of [[Cat]] on those [[categories]] that are groupoids.
+
+## Properties
+
+One may regard $Gprd$ also just as a 1-category by ignoring the natural isomorphisms betweemn functors. This 1-category may be equipped with the [[natural model structure on groupoids]] to provide a 1-categorical [[presentable (infinity,1)-category|presentation]] of the full $(2,1)$-category.
+
 
 category: category
 
