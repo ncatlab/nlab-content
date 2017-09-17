@@ -70,7 +70,11 @@ See also
 
 * [[orbifold cohomology]], [[Gromov-Witten theory]]
 
+Orbifolds in [[string theory]]:
+
 * [[orientifold]]
+
+* [[fractional D-brane]]
 
 
 ## References
