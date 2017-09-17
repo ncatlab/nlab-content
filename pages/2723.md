@@ -1,9 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 The formulation of the [[sigma-model]] 2d [[CFT]]s that are used in (super) [[string theory]] had originally been of two types:
 
@@ -25,7 +41,13 @@ Berkovits originally wrote down some more or less ad-hoc expressions. Later it w
 
 This at once made the previously mathemtically rather unjustified approach make close contact with the developing theory of [[chiral deRham complex]], which is one of the most-studied examples of sheaves of vertex operator algebras.
 
-#References#
+## Related concepts
+
+* [[superstring]]
+
+* [[string scattering amplitude]]
+
+## References
 
 A good reference that explains the sheaf of vertex operator algebra perspective on the Berkovits superstring is
 
