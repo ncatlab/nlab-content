@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of _[[operad]]_ comes in two broad flavors (apart from the choice of enriching category): _planar operads_ and _[[symmetric operads]]_. Accordingly, planar operads are also called _non-symmetric operads_.
+The notion of _[[operad]]_ comes in two broad flavors (apart from the choice of enriching category): _planar operads_ and _[[symmetric operads]]_. Accordingly, planar operads are also called _non-symmetric operads_. Another term is _nonpermutative operads_.
 
 A planar operad is a collection ([[set]]/[[object]] in some enriching category) of $n$-ary operations for all $n \in \mathbb{N}$, equipped with a suitable notion of _composition_. In contrast, a _[[symmetric operad]]_ in addition carries an [[action]] of the [[symmetric group]] $\Sigma_n$ on the object on $n$-ary operations, and all structures are required to respect this action.
 
@@ -30,3 +30,9 @@ The notion of planar operads takes its name from the fact that the operations in
 
 [[!redirects non-symmetric operad]]
 [[!redirects non-symmetric operads]]
+
+[[!redirects nonpermutative operad]]
+[[!redirects nonpermutative operads]]
+
+[[!redirects non-permutative operad]]
+[[!redirects non-permutative operads]]
