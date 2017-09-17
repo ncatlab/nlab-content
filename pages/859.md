@@ -1,19 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+
 # Semidirect products
-* tic
+* table of contents
 {: toc}
 
 ## Definitions
 
-If a [[group]] $G$ [[action|acts]] on a group $\Gamma$ on the left, then there is a
-__semidirect product__ group whose underlying set is $\Gamma \times  G$
-but whose multiplication is
+If a [[group]] $G$ [[action|acts]] on a group $\Gamma$ (on the left, say) by group [[automorphism]]
 
-$$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g)$$
+$$  
+  \rho : G \to Aut(\Gamma)
+  \,,
+$$
 
-for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$. This is called in
-group theory the semidirect product (see for example the [Wikipedia entry](http://en.wikipedia.org/wiki/Semi-direct_product)) and written $\Gamma \rtimes \, G$.
-There is a projection morphism $p:\Gamma \rtimes \, G \to G$ ,
-$(\gamma, g) \to g$. A section $s$ of this can be identified with a
+then there is a
+__semidirect product__ group whose underlying set is the [[product]] $\Gamma \times  G$
+but whose multiplication is twisted by $\rho$:
+
+$$
+  (\delta,h)(\gamma,g)= (\rho(h)(\delta) \gamma, h g)
+$$
+
+for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$. 
+
+This is called in
+[[group theory]] the **semidirect product** and written $\Gamma \rtimes \, G$.
+
+There is a [[projection]] morphism $p:\Gamma \rtimes \, G \to G$ ,
+$(\gamma, g) \to g$. A [[section]] $s$ of this can be identified with a
 [[derivation]] $d$, i.e. $d$  satisfies $d(h g) = (d h) \,^h (d g)$.
 
 
@@ -70,6 +95,16 @@ conventions are not quite the same).
 
 
 ## References
+
+A general survey is in 
+
+* Wikipedia, _[Semidirect product](http://en.wikipedia.org/wiki/Semi-direct_product)_
+
+Lecture notes include
+
+* Patrick Morandi, _Semidirect products_ ([pdf](http://sierra.nmsu.edu/morandi/notes/semidirect.pdf))
+
+Relevant textbooks include
 
 * R. Brown, "Topology and groupoids", Booksurge 2006.
 
