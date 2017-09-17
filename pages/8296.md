@@ -1,0 +1,86 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _$\infty$-group extension_ generalizes the notion of [[group extension]] to [[homotopy theory]]/[[(∞,1)-category theory]] and from [[groups]] to [[∞-groups]]. It is also a generalization to [[nonabelian cohomology]] of the shifted group extensions that are classified by [[Ext]]-groups.
+
+Under forming [[loop space objects]], $\infty$-group extensions are the special case of [[principal ∞-bundles]] whose base space is the [[moduli ∞-stack]] of the group being extended.
+
+## Definition
+
+Let $\mathcal{H}$ an [[(∞,1)-topos]] and $G \in Grp(\mathbf{H})$ an [[∞-group]] with [[delooping]] $\mathbf{B}G$. Then for $A$ an abelian ([[E-∞ algebra|E-∞]]) [[∞-group]] and $n \in \mathbf{N}$ an extension of $G$ by $A$ in degree $n$ is sequence of $\infty$-groups 
+
+$$
+  \mathbf{B}^{n-1} A \to \hat G \to A
+$$
+
+such that this arises as the [[loop space object|looping]] of a [[fiber sequence]]
+
+$$
+  \array{
+     \mathbf{B}^n A
+     &
+     \stackrel{\Omega \mathbf{c}}{\to}
+     &
+     \mathbf{B}\hat G
+     \\
+     && \downarrow
+     \\
+     && \mathbf{B}G
+     &\stackrel{\mathbf{c}}{\to}&
+     \mathbf{B}^{n+1}A
+     \,.
+  }
+$$
+
+hence, by the discussion there, of a $\mathbf{B}^n A$-[[principal ∞-bundle]] over $\mathbf{B}G$.
+
+## Properties
+
+By the main classification result at _[[principal ∞-bundles]]_, the [[∞-groupoid]] of $\infty$-group extensions is equivalent to
+
+$$
+  \mathbf{Ext}^n(G, A)
+  \coloneqq
+  \mathbf{H}(\mathbf{B}G, \mathbf{B}^{n+1}A)
+  \,.
+$$
+
+In particular they are classified by the intrinsic $n+1$st $A$-[[cohomology]] of $\mathbf{B}G$.
+
+## Examples
+
+* For $\mathbf{H} = Sh_\infty(C)$ the [[(∞,1)-category of (∞,1)-sheaves]] on some [[site]] $C$ the [[Dold-Kan correspondence]] embeds [[chain complexes]] of [[abelian sheaves]] over $C$ into $\mathbf{H}$. Under this embedding ordinary [[Ext]]-groups and the shifted extensions that they classify (see [here](http://ncatlab.org/nlab/show/Ext#RelationToGroupExtensions)) identify with $\infty$-group extensions in the above sense.
+ 
+* The [[string 2-group]] is an extension in $\mathbf{H} = $ [[Smooth∞Grpd]] of the [[spin group]] by the [[circle 2-group]].
+
+* The [[fivebrane 6-group]] is an extension in $\mathbf{H} = $ [[Smooth∞Grpd]] of the [[string 2-group]] by the [[circle n-group|circle 6-group]].
+
+## References
+
+Section 4.3 of 
+
+* [[Thomas Nikolaus]], [[Danny Stevenson]], [[Urs Schreiber]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+
+[[!redirects ∞-group extension]]
+[[!redirects infinity-group extensions]]
+[[!redirects ∞-group extensions]]
+
