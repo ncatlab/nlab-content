@@ -6,7 +6,7 @@
 
 ## Idea
 
-Thomason and Balmer showed that the [[derived category]] of [[coherent sheaves]] on a [[smooth variety]], when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure, completely determines the variety uniquely; see [[spectrum of a triangulated category]].  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure; moreover triangulated equivalences and autoequivalences are also important in relation to the [[homological mirror symmetry]] and similar phenomena.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its derived category of coherent sheaves when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
+Thomason and Balmer showed that the [[triangulated categories of sheaves|derived category of coherent sheaves]] on a [[smooth variety]], when considered as a [[monoidal category]] (i.e. with the tensor product) in addition to its [[triangulated category]] structure, completely determines the variety uniquely; see [[spectrum of a triangulated category]].  However, the derived category still turns out to be an interesting invariant when considered without the monoidal category structure; moreover triangulated equivalences and autoequivalences are also important in relation to the [[homological mirror symmetry]] and similar phenomena.  In fact, Bondal and Orlov show how to reconstruct a smooth [[variety]] from its [[triangulated categories of sheaves|derived category of coherent sheaves]] when its [[canonical sheaf]] is ample or anti-ample, using only the graded structure (i.e. the translation functor).
 
 ## Statement
 
@@ -77,9 +77,14 @@ For any invertible sheaf $\mathcal{L}$ on $X$, $\alpha \in \Hom(\mathcal{O}_X, \
   \[ \mathcal{O}_Y \stackrel{F(\alpha)}{\to} F(\mathcal{L}) \to \mathcal{O}_{\phi(x)}[s].\]
 $F(\alpha)$ corresponds bijectively to some $\beta \in \Hom(\mathcal{O}_Y, \omega_Y^m)$ and in fact our bijection $f : X \to Y$ becomes a homeomorphism mapping $U_\alpha$ to $V_{F(\alpha)}$.  It follows that $\{ V_\beta : \beta \in \Hom(\mathcal{O}_Y, \omega_Y^m), m \in \mathbb{Z} \}$ forms a basis of the Zariski topology on $Y$, which implies $\omega_Y$ is ample.
 
-## References
+## See also
 
-Related concepts include [[Tannaka duality for geometric stacks]], [[spectrum of a triangulated category]], [[spectrum of an abelian category]]
+* [[triangulated categories of sheaves]]
+* [[spectrum of a triangulated category]]
+* [[spectrum of an abelian category]]
+* [[Tannaka duality for geometric stacks]]
+
+## References
 
 The original paper:
 
