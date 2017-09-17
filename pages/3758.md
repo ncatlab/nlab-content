@@ -72,6 +72,8 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
 * [[state]]
 
+  * [[space of states (in geometric quantization)]]
+
   * [[classical state]], **quantum state**
 
   * [[state in AQFT and operator algebra]]
