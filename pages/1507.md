@@ -30,3 +30,4 @@ A **split idempotent** in a [[category]] $C$ is a [[morphism]] $e: A \to A$ whic
 [[!redirects split idempotents]]
 [[!redirects splitting]]
 [[!redirects splittings]]
+[[!redirects splitting of idempotents]]
