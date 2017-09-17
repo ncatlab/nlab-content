@@ -32,7 +32,7 @@ By the [[Dolbeault theorem]] this is equivalently the [[abelian sheaf cohomology
 
 ### Hodge isomorphism
 
-For $X$ a [[hermitian manifold]] write $\mathcal{H}^{p,q}(X)$ for the space of $(p,q)$-[[harmonic differential forms]]. 
+For $X$ a [[Hermitian manifold]] write $\mathcal{H}^{p,q}(X)$ for the space of $(p,q)$-[[harmonic differential forms]]. 
 
 There is a canonical [[homomorphism]]
 
