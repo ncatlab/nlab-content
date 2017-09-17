@@ -268,6 +268,11 @@ is called a _[[nLab:Bockstein homomorphism]]_.
 
 =--
 
+## Properties
+
+### Relation to homotopy fiber sequences
+
+The connecting homomorphism in a [[long exact sequence in homology]] induced from a short exact sequence $A_\bullet \stackrel{f}{\to} \to B_\bullet \to C_\bullet$ is equivalently the image under the [[homology group]] functor of the [[homotopy cofiber sequence]] induced by $f$. This is discussed in detail at _[[mapping cone]]_ in the section _[homology exact sequences](mapping+cone#HomologyExactSequencesAndFiberSequences)_.
 
 ## References
 
