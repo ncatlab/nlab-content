@@ -22,9 +22,11 @@ Specifically, _topological quantum computation_ is (or is meant to be) quantum c
 * Zhenghan Wang, _Topologization of electron liquids with Chern-Simons theory and quantum computation_ ([arXiv:cond-mat/0601285](http://arxiv.org/abs/cond-mat/0601285))
 
 * Wikipedia, _[Quantum computation](http://en.wikipedia.org/wiki/Quantum_computation)_
+* John C. Baez, Mike Stay, _Physics, topology, logic and computation: a rosetta stone_, [arxiv/0903.0340](http://arxiv.org/abs/0903.0340); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
+* Michael A. Nielsen, Isaac L. Chuang, _Quantum computation and quantum information_, Cambridge University Press 2000
 
+category: computer science, physics
 [[!redirects quantum computing]]
 [[!redirects quantum computations]]
-
 [[!redirects topological quantum computing]]
 [[!redirects topological quantum computation]]
