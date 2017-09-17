@@ -126,6 +126,8 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
 
   * [[discrete group]]
 
+  * [[Kac-Moody group]]
+
 * [[progroup]]
 
 * [[Lie group]]
