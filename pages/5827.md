@@ -7,6 +7,8 @@
 
 A __bilinear form__ is simply a [[linear map]] $\langle -,-\rangle\colon V \otimes V \to k$ out of a [[tensor product]] of $k$-[[module]]s into the [[ring]] $k$ (typically taken to be a [[field]]).
 
+The space $V$ equipped with a bilinear form $\langle-,-\rangle$ is also called an [[inner product space]].
+
 It is called __symmetric__ if $\langle x,y\rangle = \langle y,x\rangle$ for all $x,y \in V$.
 
 Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is called
