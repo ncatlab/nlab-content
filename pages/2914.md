@@ -28,7 +28,7 @@ For $C$ a [[model category]] and $X \in C$ an [[object]], the [[over category]] 
 
 ## Properties ##
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -45,6 +45,34 @@ then so are $C/X$ and $X/C$.
 =--
 
 The proofs are in ([OvMod](#OvMod)).
+
++-- {: .num_prop}
+###### Proposition
+
+If $C$ is a [[simplicial combinatorial model category]] and $X \in C$ is fibrant, then
+$C/X$ [[presentable (infinity,1)-category|presentation]] for the 
+[[over-(infinity,1)-category]] $C^\circ / X$
+
+$$
+  (C/X)^\circ \simeq C^\circ / X
+$$
+
+=--
+
+To see this, use the description of the [[derived hom-space]] in an [[over-(infinity,1)-category]] (see there) as a [[homotopy pullback]]
+
+$$
+  \array{
+    C^\circ/X(a : A \to X, b : B \to X) &\to& C(A,B)
+    \\
+    \downarrow && \downarrow^{\mathrlap{b_*}}
+    \\
+    {*} &\stackrel{a}{\to}& C(A,X)
+  }
+  \,.
+$$
+
+If $a : A \to X$ is cofibrant then $A$ is cofibrant, and if then $b : B \to X$ is fibrant, $B$ is fibrant and $b_* : C(A,B) \to C(A,X)$ is a fibration in the standard [[model structure on simplicial sets]] (by the axioms on an [[enriched model category]].) Therefore in this case the above [[homotopy pullback]] is computed by the ordinary pullback in [[sSet]]. This computes indeed the hom-space of the ordinary [[overcategory]] $C/X$.
 
 ## Related concepts
 
