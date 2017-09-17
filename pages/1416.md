@@ -30,7 +30,7 @@ The most classical notion is the following.
 +-- {: .num_defn #SetValuedFlat}
 ###### Definition
 
-A functor $C\to Set$ is **flat** if the opposite of its its [[category of elements]], $el(C)^{op}$, is a [[filtered category]].
+A functor $C\to Set$ is **flat** if the opposite of its [[category of elements]], $el(C)^{op}$, is a [[filtered category]].
 
 =--
 
