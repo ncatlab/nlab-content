@@ -243,9 +243,11 @@ This way the above theorem provides a model for $G$-equivariant refinements of [
 
 ## Related concepts
 
-
-
 Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[homotopy theory]] is to [[stable homotopy theory]].
+
+See also
+
+* [[G-CW complex]]
 
 ## References
 
