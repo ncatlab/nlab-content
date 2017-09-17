@@ -3,4 +3,5 @@ Different things are called _characteristic series_ in mathematics. For instance
 
 * the [[formal power series]] characterizing a [[genus]] (see there) of oriented or stable almost complex manifolds
 
-* ... something related to [[central series]] ...
+* in group theory, a [[subgroup series]] of a group is termed a characteristic series if all members of the series are characteristic subgroups of the whole group. For instance, a [[central series]] is a characteristic series.
+
