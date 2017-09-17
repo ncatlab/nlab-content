@@ -203,6 +203,10 @@ is a [[Quillen equivalence]].
 
 ## Examples {#Examples}
 
+### Monoids (associative algebras)
+
+For $P = Assoc$ the [[associative operad]] it category of algebras $Alg_{\mathcal{E}} P $ is the [[category of monoids]] in $\mathcal{E}$. The above model structure on Alg_{\mathcal{E}} P is the standard [[model structure on monoids in a monoidal model category]].
+
 ### $A_\infty$-Algebras {#AInfAlgebras}
 
 Let $Assoc$ be the [[associative operad]] in [[Set]] regarded as an operad in [[Top]] under the [[discrete space]] embedding $Disc : Set \to Top$.
