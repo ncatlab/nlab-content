@@ -14,15 +14,22 @@
 ***
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Definition
 
-A **Hurewicz fibration** $p:E\to B$ is a [[continuous map]] of [[topological spaces]] that satisfies the [[right lifting property]] with respect to maps $\sigma_0:X\cong X\times\{0\}\hookrightarrow X\times I$ for all topological spaces $X$.
++-- {: .num_defn}
+###### Definition
 
-Strictly speaking, the "all" in this context should be interpreted to refer to all spaces in whatever ambient category of spaces one is working in, since frequently this is a [[convenient category of spaces]].  In theory, therefore, a map in such a category could be a Hurewicz fibration in that category without necessarily being a Hurewicz fibration in the category of *all* topological spaces, but in practice this usually doesn't make a whole lot of difference.
+A [[continuous map]] $p \;\colon\; E\longrightarrow B$ of [[topological space]] is called a **Hurewicz fibration**  it it satisfies the [[right lifting property]] with respect to maps of the form 
+$\sigma_0 \;\colon\; X\cong X\times\{0\}\hookrightarrow X\times I$ for all topological spaces $X$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
 
 This right lifting property is in this context called the [[homotopy lifting property]], because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $f:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $f =\tilde{F}
 \circ\sigma_0 :=\tilde{F}_0$ and $F=p\circ\tilde{F}$: 
@@ -38,18 +45,29 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Strictly speaking, the "all" in this context should be interpreted to refer to all spaces in whatever ambient category of spaces one is working in, since frequently this is a [[convenient category of spaces]].  In theory, therefore, a map in such a category could be a Hurewicz fibration in that category without necessarily being a Hurewicz fibration in the category of *all* topological spaces, but in practice this usually doesn't make a whole lot of difference.
+
+=--
+
 Instead of checking the homotopy lifting property, one can instead solve a universal problem:
 
 
-+-- {: .num_thm}
++-- {: .num_theorem}
 ###### Theorem
+
 A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. (See there for details.)
+
 =--
 
 
 ## Appearance in a model structure
 
-There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibration]]s and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]] and [[Strøm's model category]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
+There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibrations]] and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]] and [[Strøm's model category]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
 
 
 ## References
@@ -58,7 +76,11 @@ The historical paper of Hurewicz is
 
 * [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
 
-Hurewicz fibrations are nowadays a standard topic in textbooks of algebraic topology (Whitehead, Spanier, Hatcher...). 
+A textbook account of the [[homotopy lifting property]] is for instance in
+
+* [[Alan Hatcher]], from p. 61 on in _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+
+See also the textbooks on algebraic topology by Whitehead and Spanier. 
 
 
 [[!redirects Hurewicz fibration]]
