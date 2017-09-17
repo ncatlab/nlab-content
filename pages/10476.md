@@ -23,7 +23,7 @@
 
 ## Idea
 
-_Elmendorf's theorem_  states that for $G$ a [[topological group]], then the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
+_Elmendorf's theorem_  states that for $G$ a [[topological group]], then the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences" (also presented by [[G-CW-spaces]], see at _[[equivariant homotopy theory]]_ for more).
 
 More in detail, for $G$ a [[topological group]], write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]]. Say that a [[continuous map]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** if for any [[closed subspace|closed subgroup]] $H \hookrightarrow G$, the induced function on $H$-[[fixed point]] spaces $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
 
