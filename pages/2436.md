@@ -1,6 +1,14 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Algebra and Super-Geometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 A **super vector space** is an [[object]] in the [[monoidal category]] [[SVect]]: as an object it is just a $\mathbb{Z}_2$-[[graded vector space]], but when [[tensor product|tensoring]] them one uses the non-trivial [[symmetric monoidal category|symmetric monoidal structure]] on $\mathbb{Z}_2$-graded vector spaces.  In simple terms, this means that when switching two 'odd' vectors one introduces a minus sign:
