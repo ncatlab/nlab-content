@@ -1,4 +1,3 @@
-
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +8,7 @@ An _exotic smooth structure_ is, roughly speaking, a [[smooth structure]] on a [
 
 Milnor (1956) gave the first examples of exotic smooth structures on the 7-[[sphere]], finding at least seven. Note that spheres inherit a canonical smooth structure from their canonical (topological) embedding into a [[Cartesian space]] $S^n \hookrightarrow \mathbb{R}^{n+1}$.
 
-Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Taubes, Donaldson, Freedman-Kirby - years?), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$. There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets.
+Note that there exist uncountably many exotic smooth structures on $\mathbb{R}^4$ (Taubes 1987, Donaldson 1990, Freedman-Kirby 1986), but a unique smooth structure on $\mathbb{R}^n$ for $n\neq 4$. There is a unique maximal exotic $\mathbb{R}^4$ into which all other 'versions' of $\mathbb{R}^4$ smoothly embed as open subsets.
 
 Moise (year?) proved that in dimension 3 there are no exotic differentiable structures, or to put in another way, 3-dimensional differentiable manifolds which are [[homeomorphism|homeomorphic]] are [[diffeomorphism|diffeomorphic]]. In this way the 3-sphere $S^3$ inherits a unique differentiable structure, no matter which $\mathbb{R}^4$ it is considered to be embedded in.
 
@@ -88,6 +87,12 @@ The first real connection between exotic smoothness and [[quantum field theory]]
 * [[Edward Witten]], _Topological quantum field theory_ Comm. Math. Phys., 117, (1988), 353--386.
 
 and the whole work of Seiberg and Witten leading to the celebrated invariants.
+
+The relation between TQFT and differential-topological invariants of smooth manifolds was clearified in:
+
+[[Hendryk Pfeiffer]] _Quantum general relativity and the classification of smooth manifolds_ [arXiv](http://arxiv.org/abs/gr-qc/0404088)
+
+[[Hendryk Pfeiffer]] _Diffeomorphisms from finite triangulations and absence of 'local' degrees of freedom_ Phys.Lett. B, 591, (2004), 197-201 
 
 The first conjectured (direct) relation (identifying submanifolds with operators) to [[quantum mechanics]] (using singular connections) was established here:
 
