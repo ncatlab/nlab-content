@@ -50,6 +50,8 @@ on [[étale cohomology]].
 
 * [[spectral sequence]]
 
+* [[edge morphism]]
+
 * (2.3.5) [[Grothendieck spectral sequence]]
 
 ### 3. Inductive limits
