@@ -1,29 +1,24 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-[[!redirects unitary irrep of the Poincare group]]
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The [[Poincaré group]] is the group of rigid [[spacetime]] symmetries of [[Minkowski spacetime]]. It is a [[topological group]] and as such has [[unitary representation]]s on infinite-dimensional [[Hilbert space]]s. For any [[quantum field theory]] in [[Minkowski space]] its [[space of states]] therefore decomposes into [[irreducible representation]]s of the [[Poincaré group]]. As was first observed by [[Hermann Weyl]], these irreducible representations encode the [[particle]] spectrum of the QFT.
 
-"Unitary [[irrep]]" is a shorthand for **unitary [[irreducible representation]]** of a [[topological group]] $G$, i.e., a continuous [[group]] [[homomorphism]] 
-
-$$U: G \to U(H)$$ 
-
-into the [[unitary group]] of a [[Hilbert space]] $H$ that is irreducible in the usual sense of [[representation theory]]. The topology on $U(H)$ here is understood to be the [[operator topology|strong operator topology]]. 
+We are interested in the **[[unitary representations]]** of a [[topological group]] $G$, i.e., the continuous [[group homomorphisms]]
+$$U\colon G \to U(H)$$
+into the [[unitary group]] of a [[Hilbert space]] $H$, especially those that are [[irreducible representation|irreducible]] in the usual sense of [[representation theory]]. The topology on $U(H)$ here is understood to be the [[operator topology|strong operator topology]]. 
 
 In this and related articles, we study such representations in the case where 
 
@@ -107,13 +102,13 @@ A survey is for instance in section I.3.1
 
 * [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_
 
+
+[[!redirects unitary irrep of the Poincare group]]
 [[!redirects unitary irreps of the Poincare group]]
 [[!redirects unitary irrep of the Poincaré group]]
 [[!redirects unitary irreps of the Poincaré group]]
 
 [[!redirects unitary representation of the Poincare group]]
 [[!redirects unitary representations of the Poincare group]]
-
 [[!redirects unitary representation of the Poincaré group]]
 [[!redirects unitary representations of the Poincaré group]]
-
