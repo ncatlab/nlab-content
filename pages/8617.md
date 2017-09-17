@@ -1,26 +1,27 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Complex geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic complex geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The notion of _complex analytic space_ is the notion of _[[analytic space]]_ in [[complex geometry]]; the generalization of the notion of [[complex manifold]] to spaces with [[singularities]].
+The notion of _complex analytic space_ is the notion of _[[analytic space]]_ in [[complex geometry]]; the generalization of the notion of [[complex manifold]] to spaces with [[singularity|singularities]].
+
 
 ## Definition
 
 A _complex analytic test space_ is a common vanishing locus of a set of [[holomorphic functions]] $\mathbb{C}^n \to \mathbb{C}$. This is naturally a [[locally ringed space]] over the [[complex numbers]] $\mathbb{C}$. A complex analytic space is a [[locally ringed space]] over $\mathbb{C}$ that is locally isomorphic to such a complex analytic test space.
+
 
 ## Properties
 
@@ -36,4 +37,6 @@ Generalization of smooth complex analytic spaces to smooth $p$-adic analytic spa
 * [[Vladimir Berkovich]], _Smooth $p$-adic analytic spaces ([[Berkovich spaces]]) are locally contractible_ ([pdf](www.wisdom.weizmann.ac.il/~vova/Inven_1999_137_contra.pdf))
  {#Berkovich}
 
+
+[[!redirects complex analytic space]]
 [[!redirects complex analytic spaces]]
