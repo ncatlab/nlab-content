@@ -20,5 +20,6 @@ A _modular operad_ is an [[operad]] that has the kind of extra structure which i
 * [[André Joyal]], [[Joachim Kock]], _Feynman graphs, and nerve theorem for compact symmetric multicategories_, proceedings "Quantum Physics and Logic VI", [arxiv/0908.2675](http://arxiv.org/abs/0908.2675)
 * Joseph Chuang, Andrey Lazarev, _Dual Feynman transform for modular operads_, [arxiv/0704.2561](http://arxiv.org/abs/0704.2561)
 * [[Ezra Getzler]], _The semi-classical approximation for modular operads_, [arxiv:alg-geom/9612005](http://arxiv.org/abs/alg-geom/9612005) 
+* [[Ezra Getzler]], J. D. S. Jones, _Operads, homotopy algebra and iterated integrals for double loop spaces_, [hep-th/9403055](http://arxiv.org/abs/hep-th/9403055)
 
 [[!redirects modular operads]]
