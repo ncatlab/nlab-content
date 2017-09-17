@@ -5,7 +5,7 @@
 
 ## Idea
 
-The exponential [[function]] of classical [[analysis]],
+The exponential [[function]] of classical [[analysis]] given by the [[series]],
 \[ \label{series} \exp x \coloneqq \sum_{i = 0}^{\infty} \frac{x^i}{i!} ,\]
 is the solution of the [[differential equation]]
 $$ f' = f $$
@@ -117,6 +117,8 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 [[!redirects exponential functions]]
 
 [[!redirects exponential]]
+
+[[!redirects exponential series]]
 
 [[!redirects flow]]
 [[!redirects flow of a vector field]]
