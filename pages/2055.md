@@ -18,9 +18,7 @@ For a quick introduction to math blogging, see
 
   blog discussion about this piece: [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
 
-See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web), the directory of many math blogs with alerts on recent updates [www.mathblogging.org](http://www.mathblogging.org) and another math blog  
-list at the [Academic Blog Portal](http://wiki.henryfarrell.net/wiki/index.php/Main_Page), wiki section [mathematics and statistics](http://wiki.henryfarrell.net/wiki/index.php/Mathematics/Statistics).
-
+See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web), the directory of many math blogs with alerts on recent updates [www.mathblogging.org](http://www.mathblogging.org).
 +-- {: .standout}
 
 Please [[How to get started|help]] with improving this page:
