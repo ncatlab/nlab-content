@@ -1,3 +1,4 @@
+[[!redirects essentially surjective and full/faithful factorization system]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -33,6 +34,6 @@ In fact, this factorization system exists in any 2-exact 2-category and any (2,1
 
 * [[epi-mono factorization system]]
 
-* **essentially surjective and full/faithful factorization system**
+* **(eso+full, faithful)-factorization system**
 
 * [[n-connected/n-truncated factorization system]].
