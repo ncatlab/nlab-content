@@ -529,6 +529,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[modal type theory]]
 
+  * [[computational type theory]]
+
   * [[geometric type theory]]
 
   * [[linear type theory]]
