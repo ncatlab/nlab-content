@@ -68,7 +68,7 @@ The [[braided 3-group]] $\mathbf{Br}(R)$ of line 2-bundles over $Spec R$ has as 
 ### Super line 2-bundles and twisted K-theory
  {#SuperLine2BundlesAndTwistedK}
 
-We discuss line 2-bundles in [[supergeometry]] and their relation to [[twisted K-theory]]. This follows the discussion in chapter 1 of ([Freed](#Freed)), which in turn follows the classical text ([Donovan-Karoubi](#DonovanKaroubi)) on [[twisted K-theory]] and ([Wall](#Wall)) on _[Picard 2-groupoids of superalgebras](super+algebra#Picard2Groupoid)_. What we add to this here is that we make explit the incarnation of these constructions as the [[∞-stack|higher stack]] on [[supermanifolds]] $2\mathbf{sLine}$ of super line 2-bundles. This is a supergeometric refinement of the [[moduli infinity-stack|moduli 2-stack]] $\mathbf{B}^2\mathbb{C}^\times$ for bare complex line 2-bundles, $\mathbb{C}^\times$-[[principal 2-bundles]].
+We discuss line 2-bundles in [[supergeometry]] and their relation to [[twisted K-theory]]. This follows the discussion in chapter 1 of ([Freed](#Freed)), which in turn follows the classical text ([Donovan-Karoubi](#DonovanKaroubi)) on [[twisted K-theory]] and ([Wall](#Wall)) on _[Picard 2-groupoids of superalgebras](super+algebra#Picard2Groupoid)_. What we add to this here, following ([Fiorenza-Sati-Schreiber 12](#FSS)) is that we make explit the incarnation of these constructions as the [[∞-stack|higher stack]] on [[supermanifolds]] $2\mathbf{sLine}$ of super line 2-bundles. This is a supergeometric refinement of the [[moduli infinity-stack|moduli 2-stack]] $\mathbf{B}^2\mathbb{C}^\times$ for bare complex line 2-bundles, $\mathbb{C}^\times$-[[principal 2-bundles]].
 
 
 +-- {: .num_defn}
@@ -236,6 +236,11 @@ More on super line 2-bundles is secretly in
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)) 
  {#FreedHopkinsTeleman}
+
+The above higher supergeometric story is made explicit in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+ {#FSS}
 
 [[!redirects line 2-bundles]]
 [[!redirects 2-line bundle]]
