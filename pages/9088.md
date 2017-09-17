@@ -1,0 +1,5 @@
+A [[regular scheme]] $(X,\mathcal{O}_X)$ is an [[algebraic scheme]] such that the [[stalk]] $\mathcal{O}_{X,x}$ of the structure sheaf $\mathcal{O}_X$ at any point $x\in X$ (as a locally ringed space) is a [[regular local ring]].
+
+* [[eom]]: [regular scheme](http://www.encyclopediaofmath.org/index.php/Regular_scheme)
+
+[[!redirects regular schemes]]
