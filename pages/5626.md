@@ -15,15 +15,15 @@
 
 ## Definition
 
-A [[2-functor]] $F : C \to D$ between [[2-categories]] is **locally full** if for all [[object]]s $c_1, c_2 \in C$ its component [[functor]] $F_{c_1,c_2} : C(c_1,c_2) \to D(F(c_1), F(c_2))$ is a [[full functor]].
-
-If this is even a [[full and faithful functor]] then $F$ exhibits each $C(c_1,c_2)$ as a [[full subcategory]] of $D(F(c_1), F(c_2))$.
-
-A _locally full sub 2-category_ is one whose embedding 2-functor is componentwise full and faithful.
+A __locally full sub 2-category__ is one whose embedding [[2-functor]] $C\to D$ is [[locally fully faithful 2-functor|locally fully faithful]].  This means that each $C(c_1,c_2)$ is a [[full subcategory]] of $D(c_1, c_2)$.
 
 ## Examples
 
-The sub-2-category of $Prof_{rep} \hookrightarrow$ [[Prof]] on all [[representable profunctor]]s is locally full.
+* The sub-2-category of $Prof_{rep} \hookrightarrow$ [[Prof]] on all [[representable profunctor]]s is locally full.
+
+* The sub-2-category of the 2-category $T Alg_l$ of algebras for a [[2-monad]] and [[lax morphisms]] between them contains, as a locally full sub-2-category, the 2-category $T Alg_p$ of algebras and pseudo morphisms (or of strict morphisms, if $T$ is strict).
+
+Both of these examples are also [[wide subcategories]].  A wide and locally full sub-2-category is equivalent to an [[F-category]].  See also [[2-category equipped with proarrows]].
 
 ## Related concepts
 
