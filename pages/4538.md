@@ -307,19 +307,19 @@ where on the right we have the first [[Tor]]-group of $H_{n-1}(C_\bullet)$ with 
 
 =--
 
-We spell out a proof as given for instance in ([Chen, section 3](#Chen)).
+We spell out a proof along the lines for instance given in ([Hatcher, 3.A](#Hatcher)) or ([Chen, section 3](#Chen)).
 
-+-- {: .num_lemma }
++-- {: .num_lemma #LongSequenceForHomologyWithCoefficients}
 ###### Lemma
 
 For $C_\bullet$ a [[chain complex]] of [[free abelian groups]] and $A \in$ [[Ab]] any [[abelian group]], there is a [[long exact sequence]] of the form
 
 $$
-  \cdots \to B_n \otimes A \to Z_n \otimes A \to H_n(C_\bullet \otimes A) \to B_{n-1} \otimes A \to Z_{n-1} \otimes A \to \cdots
+  \cdots \to B_n \otimes A \stackrel{i_n \otimes A}{\to} Z_n \otimes A \to H_n(C_\bullet \otimes A) \to B_{n-1} \otimes A \stackrel{i_{n-1}\otimes A}{\to} Z_{n-1} \otimes A \to \cdots
   \,,
 $$
 
-where $B_n$ are the [[boundaries]] and $Z_n$ the [[cycles]] of $C_\bullet$ in degree $n$.
+where $B_n$ are the [[boundaries]] and $Z_n$ the [[cycles]] of $C_\bullet$ in degree $n$ and where $i_n \colon B_n \hookrightarrow Z_n$ is the canonical inclusion.
 
 =--
 
@@ -333,7 +333,7 @@ $$
   \,.
 $$
 
-Here the second dirct summand on the right identifies under the differential $\partial^C$ with the [[boundaries]] in one degree lower, since by construction $\partial^C$ is injective on $C_n/Z_n$.
+Here the second direct summand on the right identifies under the differential $\partial^C$ with the [[boundaries]] in one degree lower, since by construction $\partial^C$ is injective on $C_n/Z_n$.
 
 
 Accordingly, if we regard the graded abelian groups $B_\bullet$ and $Z_\bullet$ as chain complexes with vanishing [[differential]], then we have a sequence of [[chain maps]]
@@ -354,10 +354,53 @@ is still a short exact sequence. The induced [[homology long exact sequence]], a
 
 
 +-- {: .proof}
-###### Proof of theorem \ref{TheoremInOrdinaryHomology}
+###### Proof 
+**of theorem \ref{TheoremInOrdinaryHomology}**
 
-(...)
+By lemma \ref{LongSequenceForHomologyWithCoefficients} we have [[short exact sequences]]
 
+$$
+  0 
+    \to 
+  coker(i_n \otimes A) 
+    \to 
+  H_n(C_\bullet \otimes A)
+    \to 
+  ker(i_n \otimes A)
+    \to
+  0
+$$
+
+Since the [[tensor product of abelian groups]] is a [[right exact functor]] it preserves [[cokernels]] and hence 
+
+$$
+  coker(i_n \otimes A) \simeq coker(i_n) \otimes A = H_n(C) \otimes A
+  \,.
+$$
+
+The dual statement were true if $(-)\otimes A$ were also a [[left exact functor]]. In general it is not, and the failure is measure by the [[Tor]]-group: 
+
+Notice that by assumption and by the [[Dedekind-Nielsen-Schreier theorem]] the defining [[short exact sequence]]
+
+$$
+  0 \to B_n \stackrel{i_n}{\to} Z_n \to H_n(C_\bullet) \to 
+$$
+
+exhibits $[\cdots \to 0 \to B_n \to Z_n] \stackrel{\simeq_{qi}}{\to} H_n(C)$ as a [[projective resolution]] of $H_n(C_\bullet)$. Therefore by definition of [[Tor]] the group $Tor_1(H_n(C_\bullet), A)$ is the chain homology in degree 1 of
+
+$$
+  [\cdots \to 0 \to B_n \otimes G \stackrel{i_n \otimes A}{\to} Z_n \otimes A]
+  \,,
+$$
+
+which is
+
+$$
+  Tor_1(H_n(C_\bullet), A)
+  \simeq
+  ker(i_n \otimes A)
+  \,.
+$$
 
 =--
 
@@ -659,6 +702,7 @@ $$
 An exposition of the universal coefficient theorem for ordinary cohomology and homology is in section 3.1 of
 
 * [[Allen Hatcher]], _Algebraic topology_ ([pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf)); also [section 3.A](http://www.math.cornell.edu/~hatcher/AT/ATch3.4.pdf).
+ {#Hatcher}
 
 
 The note
