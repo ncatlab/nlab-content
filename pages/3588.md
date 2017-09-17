@@ -36,7 +36,7 @@
 
 * [[2-type theory]], [[michaelshulman:2-categorical logic]]
 
-* [[homotopy type theory]], 
+* [[homotopy type theory]], [[homotopy type theory - contents]]
 
   * [[homotopy type]]
 
@@ -45,6 +45,8 @@
   * [[cohesive homotopy type theory]]
 
   * [[directed homotopy type theory]]
+
+  * [[HoTT methods for homotopy theorists]]
 
 
 **[[semantics]]**
