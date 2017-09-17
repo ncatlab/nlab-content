@@ -47,7 +47,7 @@ We list and discuss the basic notions, definitions and constructions in the cont
 
 ### The group and its Lie algebra
 
-Throughout, let $G$ be a [[semisimple Lie group|semisimple]] [[compact topological group|compact]] [[Lie group]]. 
+Throughout, let $G$ be a [[semisimple Lie group|semisimple]] [[compact topological group|compact]] [[Lie group]]. For some considerations below we furthermore assume it to be [[simply connected topological space|simply connected]].
 
 Write $\mathfrak{g}$ for its [[Lie algebra]]. Its canonical (up to scale) binary [[invariant polynomial]] we write
 
@@ -65,9 +65,9 @@ $$
 that identifies the [[vector space]] underlying the Lie algebra with its [[dual vector space]] $\mathfrak{g}^*$.
 
 
-### The coadjoint orbit and the coset / flag manifold
+### The coadjoint orbit and the coset space/ flag manifold
 
-We discuss the [[coadjoint orbits]] of $G$ and their relation to the [[cosets]]/[[flag manifolds]] of $G$.
+We discuss the [[coadjoint orbits]] of $G$ and their relation to the [[coset space]]/[[flag manifolds]] of $G$.
 
 Write 
 
@@ -170,7 +170,7 @@ The 2-form $\nu_\lambda$ from def. \ref{The2FormOnG}
      \,.
    $$
 
-1. it descends to a closed $G$-invariant 2-form on the [[coset]], to be denoted by the same symbol 
+1. it descends to a closed $G$-invariant 2-form on the [[coset space]], to be denoted by the same symbol 
 
    $$
      \nu_\lambda \in \Omega^2_{cl}(G/G_\lambda)^G
@@ -181,9 +181,40 @@ The 2-form $\nu_\lambda$ from def. \ref{The2FormOnG}
 
 =--
 
+### The prequantum bundle
+
+We discuss the [[geometric prequantization]] of the [[symplectic manifold]] given by the [[coadjoint orbit]] $\mathcal{O}_\lambda$ equipped with its [[symplectic form]] $\nu_\lambda$ of def. \ref{TheSymplecticFormOnTheCoset}.
+
+Assume now that $G$ is [[simply connected topological space|simply connected]]. 
+
++-- {: .num_prop #WeightsAndCharacters}
+###### Proposition
+
+The [[weight lattice]] $\Gamma_{wt} \subset \mathfrak{t}^* \simeq \mathfrak{t}$ of the Lie group $G$ is [[isomorphism|isomorphic]] to the group of [[group characters]]
+
+$$
+  \Gamma_{wt} \stackrel{\simeq}{\to} Hom_{LieGrp}(G,U(1))
+$$
+
+where the identification takes $\langle \alpha , -\rangle \in \mathfrak{t}^*$ to $\rho_\alpha : T \to U(1)$ given on $t = \exp(\xi)$ for $\xi \in \mathfrak{t}$ by
+
+$$
+  \rho_\alpha : \exp(\xi) \mapsto \exp(i \langle \alpha, \xi\rangle)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[symplectic form]] $\nu_\lambda \in \Omega^2_{cl}(G/T)$ of prop. \ref{TheSymplecticFormOnTheCoset} is integral precisely if $\langle \lambda, - \rangle$ is in the [[weight lattice]].
+
+=--
+
 ### The Hamiltonian $G$-action / coadjoint moment map
 
-The group $G$ canonically [[action|acts]] on the [[coset]] $G/G_{\lambda}$ (by multiplication from the left). We discuss a lift of this action to a [[Hamiltonian action]] with respect to the [[symplectic manifold]] structure $(G/T, \nu_\lambda)$ of prop. \ref{TheSymplecticFormOnTheCoset}, equivalently a [[momentum map]] exhibiting this Hamiltonian action.
+The group $G$ canonically [[action|acts]] on the [[coset space]] $G/G_{\lambda}$ (by multiplication from the left). We discuss a lift of this action to a [[Hamiltonian action]] with respect to the [[symplectic manifold]] structure $(G/T, \nu_\lambda)$ of prop. \ref{TheSymplecticFormOnTheCoset}, equivalently a [[momentum map]] exhibiting this Hamiltonian action.
 
 (...)
 
@@ -291,45 +322,54 @@ For instance by applying the [[factorization lemma]].
 +-- {: .num_prop #Extended1dCSLagrangianFromLambda}
 ###### Proposition
 
-There is a morphism of [[moduli stacks]]
+If $\langle \lambda ,- \rangle \in \Gamma_{wt} \hookrightarrow \mathfrak{g}^*$ is in the [[weight lattice]], then there is a morphism of [[moduli stacks]]
 
 $$
   \langle \lambda, - \rangle
-  : 
+  \;\colon\; 
   \Omega^1(-,\mathfrak{g})//T
   \to
   \mathbf{B}U(1)_{conn}
 $$
 
-in $\mathbf{H}$ given over a test manifold $U \in $ [[CartSp]] by the function on objects
+in $\mathbf{H}$ given over a test manifold $U \in $ [[CartSp]] by the [[functor]]
 
 $$
   \langle \lambda, - \rangle_U 
   \;:\; 
-  \Omega^1(U,\mathfrak{g}) \to \Omega^1(U)
+  \Omega^1(U,\mathfrak{g})//C^\infty(U,G) \to \Omega^1(U)//C^\infty(U,U(1))
 $$
 
-which in turn is given by sending
+which is given on objects by
 
 $$
   A \mapsto \langle \lambda, A\rangle
 $$
 
-and the function on morphisms given by sending $\exp( \sum_i f^i t_i )$ to $\sum_i d f^i \langle \lambda, \t_i\rangle$
+and which maps morphisms labeled by $\exp(\xi) \in T$, $\xi \in C^\infty(-,\mathfrak{t})$ as
+
+$$
+  \exp(\xi) \mapsto \exp( i \langle \lambda, \xi \rangle )
+  \,.
+$$ 
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The key point is that since $T \simeq G_\lambda$ stabilizes $\langle \lambda , - \rangle$ under the [[coadjoint action]], the [[gauge transformation]] law for points $A : U \to \mathbf{B}G_{conn}$, which for $g \in C^\infty(U,G)$ is
+That this construction defines a map $*//T \to *//U(1)$ is 
+the statement of prop. \ref{WeightsAndCharacters}. It remains to check that the differential 1-form gauge-transform accordingly. 
+
+For this the key point is that since $T \simeq G_\lambda$ stabilizes $\langle \lambda , - \rangle$ under the [[coadjoint action]], the [[gauge transformation]] law for points $A : U \to \mathbf{B}G_{conn}$, which for $g \in C^\infty(U,G)$ is
 
 $$
   A \mapsto Ad_g A + g^* \theta
   \,,
 $$
 
-maps for $g = exp(f^i t_i ) \in T \hookrightarrow G$ to the gauge transformation law in $\mathbf{B}U(1)_{conn}$:
+maps for $g = exp( \xi ) \in C^\infty(U,T) \hookrightarrow C^\infty(U,G)$ to the gauge transformation law in $\mathbf{B}U(1)_{conn}$:
 
 $$
   \begin{aligned}
@@ -337,7 +377,7 @@ $$
     & \mapsto
     \langle \lambda, Ad_g A\rangle + \langle \lambda, g^* \theta\rangle
     \\
-     & = \langle \lambda, A \rangle + d  \sum_i f^i\langle \lambda, t_i\rangle
+     & = \langle \lambda, A \rangle + d  \langle\lambda, \xi \rangle
   \end{aligned}
 $$
 
@@ -348,7 +388,7 @@ $$
 +-- {: .num_remark #ThePrequantumBundleFromCanonicalMaps}
 ###### Remark
 
-The composite of the canonical maps of prop. \ref{ThetaAsHomotopyFiberOfJ} and prop. \ref{Extended1dCSLagrangianFromLambda} modulates a canonical [[circle bundle with connection]] on the [[coset]]/[[coadjoint orbit]]:
+The composite of the canonical maps of prop. \ref{ThetaAsHomotopyFiberOfJ} and prop. \ref{Extended1dCSLagrangianFromLambda} modulates a canonical [[circle bundle with connection]] on the [[coset space]]/[[coadjoint orbit]]:
 
 $$
   \langle \lambda, \mathbf{\theta}\rangle
