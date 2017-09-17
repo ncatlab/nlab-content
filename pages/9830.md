@@ -1,5 +1,9 @@
 
-[[Umkehr map]], wrong-way map, push-forward, [[fiber integration]]...
+## Related concepts
+
+[[!include generalized fiber integration synonyms - table]]
+  
+
 
 [[!redirects Gysin maps]]
 
