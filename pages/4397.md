@@ -24,5 +24,7 @@ However, we can tell that bornological spaces and certain [[morphisms]] between 
 
 [[!redirects bornological space]]
 [[!redirects bornological spaces]]
+[[!redirects bornalogical space]]
+
 [[!redirects Bor]]
 [[!redirects Born]]
