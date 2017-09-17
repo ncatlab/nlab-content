@@ -15,7 +15,10 @@
 
 ## Idea
 
-(...)
+In [[type theory]]/[[categorical semantics]] some logical operations on [[propositions]]/[[h-level 1]] a priori lead out of the class of propositions into [[h-level 2]], namely forming [[or]]/[[sum type]] and [[existential quantification]]/[[dependent sum type]].
+
+The _bracket type_ of a given type is the _underlying proposition_ in the sense of [[propositions as types]], namely the [[truncated|(-1)-truncation]]/[[h-level 1|h-level 1-projection]].
+
 
 ## Properties
 
@@ -24,6 +27,46 @@
 strong [[dependent sums]], and bracket types is the 
 [[internal logic|internal]] [[type theory]] of 
 [[regular categories]].
+
+## Semantics
+
+The [[semantics]] of bracket types in a [[regular category]] $C$ is as follows.
+
+For 
+
+    A ( x : X) : Type
+
+a [[dependent type]] (type in [[context]] $X$) it is interpreted in $C$ as a [[morphism]]
+
+$$
+  \array{
+    A
+    \\  
+    \downarrow
+    \\
+    X
+  }
+  \,.
+$$
+
+The corresponding bracket type
+
+    [A] (x : X) : Type
+
+is interpreted then as the [[image]]-[[(epi, mono) factorization system|factorization]] 
+
+$$
+  \array{
+     A &&\to&& [A] & := im(A \to X)
+     \\
+     & \searrow && \swarrow
+     \\
+     && X
+    \,.
+  }
+$$
+
+Therefore $[A] \to X$ is a [[monomorphism]] and hence the interpretation of a [[proposition]] about the elements of $X$.
 
 ## References
 
