@@ -133,6 +133,8 @@ The canonical [[ring object]] of the [[Zariski site|gros Zariski topos]] of any 
 
 * [[finite field]], [[number field]]
 
+* [[positive characteristic]]
+
 * [[topological field]]
 
 * [[field with one element]]
