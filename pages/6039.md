@@ -498,3 +498,6 @@ Lecture notes along these lines are at
 
 [[!redirects Chan-Paton gauge field]]
 [[!redirects Chan-Paton gauge fields]]
+
+[[!redirects Chan-Paton gauge bundle]]
+[[!redirects Chan-Paton gauge bundles]]
