@@ -139,7 +139,20 @@ COSHEP also implies several weaker forms of choice, such as the [[axiom of multi
 ## In a topos
  {#topos}
 
-When working in the [[internal logic]] of a [[topos]], the "internal" meaning of COSHEP is "every object is covered by an [[internally projective object]]."  (Compare with the internal axiom of choice: every object is internally projective.)  Since every [[projective object]] is internally projective, if the topos itself has [enough projectives](projective+object#EnoughProjectives), then it must satisfy internal COSHEP.
+When working in the [[internal logic]] of a [[topos]], the "internal" meaning of COSHEP is "every object is covered by an [[internally projective object]]."  (Compare with the internal axiom of choice: every object is internally projective.)  As regards foundational axioms for toposes (in the sort of sense that the axiom of choice is regarded as "foundational"), the internal version of the presentation axiom should be taken as the default version. 
+
++-- {: .num_remark}
+###### Remark 
+Suppose that $1$ is (externally) projective in $E$. Then $E$ satisfies PAx whenever it satisfies internal PAx. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+It seems internal PAx does not follows from external PAx (counterexample?). However, if _every_ object is projective (AC), then every object is internally projective (IAC). 
+
+A stronger version of PAx may be worth considering. Say that an object is **stably projective** if its pullback to any slice category is projective. Then stably projective objects are internally projective. Similarly, if we say that a topos $E$ satisfies stable PAx if every object is covered by a stably projective object, then a topos satisfies internal PAx if it satisfies stable PAx. 
+=--
+
 
 +-- {: .num_example}
 ###### Example
