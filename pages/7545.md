@@ -85,6 +85,11 @@ Examples of absolute forms from classical differential geometry include:
 
 *  Similarly, the [[surface area]] element on a Riemannian manifold is an absolute $2$-form, and we can continue into higher dimensions (although the classical [[volume element]] in $\mathbb{R}^3$ is already covered as a $3$-pseudoform).
 
+## Related concepts
+
+* exterior [[differential forms]]
+
+* [[cogerm differential forms]] are a more general concept including both.
 
 ## References
 
