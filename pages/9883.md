@@ -1,0 +1,10 @@
+
+* [webpage](http://www.physics.berkeley.edu/research/faculty/mandelstam.html)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Stanley_Mandelstam)
+
+## related entries
+
+* [[string scattering amplitude]]
+
+category: people
