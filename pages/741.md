@@ -40,6 +40,16 @@ If a [[prime number]] $p$ divides ${\vert G\vert}$, then equivalently
 
 See at _[[Cauchy's theorem]]_ for more.
 
+### Feit-Thompson theorem
+
++-- {: .num_theorem}
+###### Theorem
+
+Every finite group of odd [[order]] is a [[solvable group]].
+
+=--
+
+See at _[[Feit-Thompson theorem]]_.
 
 ### Classification
 
