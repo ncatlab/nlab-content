@@ -25,4 +25,6 @@ $\mathbf{N}$ has the structure of a [[natural numbers object]] in [[Set]]; indee
 
 * [[carrying]]
 
+* [[numeral]]
+
 [[!redirects natural numbers]]
