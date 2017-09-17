@@ -831,6 +831,16 @@ that identifies the $k$-fold intersection with a Cartesian space itself.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Differentiably good covers are useful for computations. Their full impact is however on the [[homotopy theory]] of [[simplicial presheaves]] over [[CartSp]]. This we discuss further below, around 
+prop. \ref{DifferentiablyGoodCoverGivesSPlitHyperCoverOverCartSp}.
+
+=--
+
+
+
 +-- {: .num_prop #DiffGoodOpenCoversRefineOpenCovers}
 ###### Proposition
 
@@ -4280,8 +4290,11 @@ $$
   \right)
 $$
 
+##### Smooth path groupoid
 
-#### Differential 1-forms are smooth incremental path measures
+* [[smooth path groupoid]]
+
+##### Differential 1-forms are smooth incremental path measures
  {#1FormsAsSmoothFunctors}
 
 We give a more intrinsic characterization of [[differential 1-forms]].
@@ -4349,6 +4362,35 @@ $$
 
 ([SchreiberWaldorf](#SchreiberWaldorf)).
 
+#### Simplicial sets
+
+* [[simplicial set]]
+
+* [[model structure on simplical sets]]
+
+#### Simplicial presheaves
+
+* [[simplicial presheaf]]
+
+* [[model structure on simplicial presheaves]]
+
+##### Good covers and split hypercovers
+
+* [[Cech nerve]]
+
+* [[good open cover]]
+
+* [[split hypercover]]
+
++-- {: .num_prop #DifferentiablyGoodCoverGivesSPlitHyperCoverOverCartSp}
+###### Proposition
+
+For $X$ a [[smooth manifold]] let $\{U_i \hookrightarrow X\}_i$ be an [[open cover]]. This is a _differentiably good open cover_, def. \ref{DifferentiallyGoodOpenCover}, precisely if the corresponding  [[Cech nerve]] $C(\{U_i\}) \to X$ in $sPh(CartSp)_{proj,loc}$ is a [[split hypercover]].
+
+=--
+
+
+
 ### Semantic Layer
  {#SmoothHomotopyTypesSemanticLayer}
 
@@ -4356,13 +4398,13 @@ $$
 
 * [[(∞,1)-topos]]
 
-#### Slice $\infty$-toposes
+##### Slice $\infty$-toposes
  {#SlicedInfinityToposes}
 
 * [[slice (∞,1)-topos]]
 
 
-#### Local, $\infty$-connected and cohesive $\infty$-toposes
+##### Local, $\infty$-connected and cohesive $\infty$-toposes
 
 * [[local (∞,1)-topos]]
 
