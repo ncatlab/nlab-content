@@ -51,3 +51,12 @@ General mapping stacks of [[topological stacks]] are discussed in
 
 
 [[!redirects mapping stacks]]
+
+[[!redirects Hom stack]]
+[[!redirects Hom stacks]]
+[[!redirects hom stack]]
+[[!redirects hom stacks]]
+[[!redirects Hom-stack]]
+[[!redirects Hom-stacks]]
+[[!redirects hom-stack]]
+[[!redirects hom-stacks]]
