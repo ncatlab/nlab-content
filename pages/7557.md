@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -14,7 +18,7 @@
 
 ## Idea
 
-Systems of _formal_ [[logic]], such as [[type theory]], try to transform expressions into a _canonical form_ which then serves as the end result of the given computation or deduction. A formal system is said to enjoy _canonicity_ if every expression reduced to canonical form.
+Systems of _formal_ [[logic]], such as [[type theory]], try to transform expressions into a _canonical form_ which then serves as the end result of the given [[computation]] or [[deduction]]. A formal system is said to enjoy _canonicity_ if every expression reduced to canonical form.
 
 More precisely, in [[type theory]], a [[term]] belonging to some [[type]] is said to be of **canonical form** if it is explicitly built up using the constructors of that type.  A canonical form is in particular a [[normal form]] (one not admitting any reductions), but the converse need not hold.
 
