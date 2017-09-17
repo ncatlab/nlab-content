@@ -35,7 +35,9 @@ Similarly, a __cofree object__ (or __fascist object__) is given by a [[cofree fu
 
 * [[distributivity pullback]]
 
-For more examples see at _[[free construction]]_.
+For more examples see at _[[free construction]]_. 
+
+A general way to construct free objects is with a [[transfinite construction of free algebras]] (in [[set theory|set-theoretic]] foundations), or with an [[inductive type]] or [[higher inductive type]] (in [[type theory|type-theoretic]] foundations).
 
 ## Related concepts
 
