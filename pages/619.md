@@ -55,7 +55,7 @@ the following are equivalent:
 
 1. The [[right adjoint]] $Q_*$ is [[full and faithful functor|fully faithful]]. (In this case $B$ is equivalent to its essential image in $A$ under $Q_*$, a reflective full subcategory of $A$.) 
 
-2. The counit $\varepsilon : Q_* Q^*\to 1_A$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
+2. The [[counit of an adjunction|counit]] $\varepsilon : Q_* Q^*\to 1_A$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
 
 3. The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated to the adjunction is [[idempotent monad|idempotent]].
 
