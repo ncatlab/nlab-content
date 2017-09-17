@@ -158,3 +158,6 @@ and State Disturbance_ ([pdf](http://www.perimeterinstitute.ca/personal/cfuchs/B
 
 [[!redirects entropy]]
 [[!redirects entropies]]
+
+[[!redirects relative entropy]]
+[[!redirects relative entropies]]
