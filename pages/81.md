@@ -17,7 +17,7 @@
 
 _Physics_ studies the constituting mechanisms of the [[observable universe]]. 
 
-Since [[Newton]] laid the foundations of physics proper, distinguishing it from the earlier _[[natural philosophy]]_, physics is specifically concerned with modelling observed [[phenomenology]] by "physical laws" formulated in the language of [[mathematics]]. The relation to mathematics is typically the stronger the more one turns to _fundamental physics_ (e.g. [[fundamental particles]]) and away from [[complex systems]] or else the more one coarse-grains irregular complex behaviour and studies [[statistical physics|statistical]] aspects in [[statistical physics]].
+Since [[Newton]] laid the foundations of physics proper with what is since called _[[Newton's laws of physics]]_, distinguishing it from the earlier _[[natural philosophy]]_, physics is specifically concerned with modelling observed [[phenomenology]] by "physical laws" formulated in the language of [[mathematics]]. The relation to mathematics is typically the stronger the more one turns to _fundamental physics_ (e.g. [[fundamental particles]]) and away from [[complex systems]] or else the more one coarse-grains irregular complex behaviour and studies [[statistical physics|statistical]] aspects in [[statistical physics]].
 
 The present most fundamental understanding of the physics of the observable universe is summarized in [[models (in theoretical physics)]] called
 
