@@ -49,6 +49,10 @@ Over any [[manifold]] there is canonically the _[[density line bundle]]_ which i
 
   * [[complex line bundle]]
 
+* [[theta characteristic]]
+
+* [[cubical structure on a line bundle]]
+
 * [[bundle gerbe]]
 
 * [[circle n-bundle with connection]]
