@@ -1,5 +1,13 @@
+Stephen Lack (commonly known as `Steve') is an Australian category theorist. 
 
-* [website](http://www.maths.usyd.edu.au/u/stevel/)
+He was winner of [The Australian Mathematical Society Medal](http://www.austms.org.au/The+Australian+Mathematical+Society+Medal) for 2009.
+
+
+
+* [Homepage](http://maths.mq.edu.au/~slack/) of Steve Lack.
+
+
+
 
 category: people
 
