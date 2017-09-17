@@ -23,7 +23,7 @@ A **Grothendieck pretopology** or **basis for a Grothendieck topology** is a col
 
 Every Grothendieck pretopology generates a Grothendieck topology. Different pretopologies may give rise to the same topology.
 
-An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck toplogy, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.
+An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck topology, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.
 
 
 
