@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,6 +24,14 @@ The [[differential geometry]] of [[manifold]]s with [[spin structure]] is called
 The relevance of spin geometry in [[physics]] rests on the fact that in [[quantum mechanics]] and [[quantum field theory]] in general and in the [[standard model of particle physics]] in particular, [[fermion]]s such as the [[electron]] are mathematically modeled as [[sections]] of spin-bundles. The very term _spin_ originates in the fact that the quanta of these fields behave to some extent as if they had an intrinsic [[angular momentum]], as if they were _spinning_ about an axis as a classical top. 
 
 Spin geometry also plays a central role in supersymmetric quantum field theory such as [[supergravity]].
+
+## Related concepts
+
+* [[spin group]]
+
+* [[spinor]]
+
+* [[Fierz identity]]
 
 ## References
 
