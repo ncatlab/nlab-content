@@ -20,12 +20,16 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The precise meaning of the term _secondary characteristic class_ varies a little in the literature, as follows.
+In its most refined form, a _secondary characteristic class_ is a [[characteristic class]] in [[ordinary differential cohomology]]. The term "secondary" refers to the fact that such a differential cohomology class in degree $n$ not only encodes a degree-$n$ class in [[integral cohomology]], but in addition [[connection on an infinity-bundle|higher connection data]] in degree $(n+1)$: the data of a [[circle n-bundle with connection]].
+
+The refined [[Chern-Weil homomorphism]] takes values in such "secondary characteristic classes".
+
+But the precise meaning of the term _secondary characteristic class_ varies a little in the literature, as follows. Historically it was first understood in more restricted senses.
 
 1. In the strict sense of the word, a _secondary characteristic class_ is a characteristic of a situation where an ordinary [[characteristic class]] vanishes ([PetersonStein1962](#PetersonStein)).
 
