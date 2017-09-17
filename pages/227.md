@@ -200,7 +200,10 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[principal ideal domain]]
 
+* [[Noetherian ring]]
+
 * many more...
+
 ## Related concepts
 
 * [[monoid]], [[monoid object]]
@@ -213,6 +216,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
  
     * [[topological ring]]
 
+  * [[localization of a ring]]
+
 
 * [[affine scheme]]
 
@@ -221,6 +226,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 * [[nilradical]]
 
 * [[ring extension]]
+
+
 
 ## References
  {#References}
