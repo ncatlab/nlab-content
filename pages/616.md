@@ -1,3 +1,8 @@
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
 ##Idea##
 
 Directed Homotopy Theory is a form of [[homotopy theory]] which tries to study the properties of [[directed space]]s. Much of the impetus for the theory initially came from work on modelling concurrent process. It can also be seen as a way of studying an 'evolving' space. This is discussed in more detail in the entry on [[motivation for directed homotopy]].
