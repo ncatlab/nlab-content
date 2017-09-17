@@ -1,11 +1,21 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 
 # Traces
-* automatic table of contents goes here
+* table of contents 
 {: toc}
 
 
@@ -50,7 +60,7 @@ $$
 
 This definition makes sense in any [[braided monoidal category]], but often in non-symmetric cases one wants instead a slightly modified version which requires the extra structure of a [[balanced monoidal category|balancing]].
 
-The trace of the identity $1_a:a \to a$ is called the **dimension** or [[Euler characteristic]] of $a$.
+The trace of the identity $1_a:a \to a$ is called the **[[dimension]]** or [[Euler characteristic]] of $a$.
 
 
 ## Examples
@@ -64,12 +74,13 @@ The trace of the identity $1_a:a \to a$ is called the **dimension** or [[Euler c
  
 * $C = Span(Grpd)$: this reproduces the notion of trace of a linear map within the interpretation of spans of groupoids as linear maps in the context of [[groupoidification]] and [[geometric function theory]], made explicit at [[span trace]]
 
+## Generalizations
 
-## Categorification
+### Categorification
 
 See [[trace of a category]]
 
-## Partial trace
+### Partial trace
 
 If the morphism described above is the endomorphism of a tensor product object $V \otimes W$, then there is a similarly evident way to "bend around" only the W-strand.
 
@@ -77,7 +88,7 @@ If the morphism described above is the endomorphism of a tensor product object $
 TO DO: Draw the diagram just described.
 =--
 
-### Matrix representation
+#### Matrix representation
 
 Suppose $V$, $W$ are finite-dimensional vector spaces over a field, with dimensions $m$ and $n$, respectively. For any space $A$ let $L(A)$ denote the space of linear operators on $A$. The __partial trace__ over $W$, Tr$_{W}$, is a mapping
 
@@ -115,12 +126,29 @@ $$
 
 where we inserted the normalization factor $\frac{1}{2}$.
 
+
 ## References
 
-* [[Andre Joyal]], [[Ross Street]], and [[Dominic Verity]], _Traced Monoidal Categories_  
-* Dold, Albrecht and Puppe, Dieter, _Duality, trace, and transfer_
-* [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
+The categorical notion of trace in a monoidal category is due to
+
+* [[Albrecht Dold]],  and [[Dieter Puppe]], _Duality, trace, and transfer_ In Proceedings of the Inter-
+national Conference on Geometric Topology (Warsaw, 1978), pages 81{102, Warsaw, 1980.
+PWN.
+
+and
+
+* [[Max Kelly]] M. L. Laplaza, _Coherence for compact closed categories_  J. Pure Appl. Algebra, 19:193{213, 1980.
+
+A survey is in 
+
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf)).
+
+Further developments are in
+
+* [[Andre Joyal]], [[Ross Street]], and [[Dominic Verity]], _Traced Monoidal Categories_  
+
+* [[Peter Selinger]], _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf)), Section 5
+
 
 For partial trace, particularly its application to quantum mechanics, see:
 
