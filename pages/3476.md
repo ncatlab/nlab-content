@@ -50,7 +50,7 @@ Such a composite is called a [[polynomial endofunctor]].  Here $A^*$ is the [[pu
 
 This definition is most useful when the category $C$ is not just locally cartesian closed but is a [[Π-pretopos]], since often we want to use at least coproducts in constructing $A$ and $B$.  For example, a [[natural numbers object]] is a W-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a W-types specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomial]]s in the traditional sense:
 $$ F(Y) = A_n \times Y^{\times n}  + \dots + A_1 \times Y  + A_0 $$
-can be constructed as polynomial endofunctors in the above sense in any $\Pi$-pretopos.  A $\Pi$-pretopos in which all W-types exist is called a *$\Pi$-$W$-pretopos*.
+can be constructed as polynomial endofunctors in the above sense in any $\Pi$-pretopos.  A $\Pi$-pretopos in which all W-types exist is called a **[[ΠW-pretopos]]**.
 
 In a [[topos]] with a [[natural numbers object]], W-types for any polynomial endofunctor can be constructed as certain sets of well-founded trees; thus every topos with a NNO is a $\Pi$-$W$-pretopos.  This applies in particular in the topos [[Set]] (unless one is a [[predicative mathematics|predicativist]], in which case $Set$ is not a topos and W-types in it must be postulated explicitly).
 
@@ -83,7 +83,7 @@ Note also that in [[intensional type theory]], a W-type is only an initial algeb
 
 ## References
 
-* [[Ieke Moerdijk]], Palmgren, _Wellfounded trees in categories_
+* [[Ieke Moerdijk]], [[Erik Palmgren]], _Wellfounded trees in categories_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.6700))
 
 *  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
