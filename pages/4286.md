@@ -29,5 +29,7 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 
 * [[Croatian black hole school]], 2010
 
+* [[observing black holes]]
+
 [[!redirects black holes]]
 [[!redirects black hole spacetime]]
