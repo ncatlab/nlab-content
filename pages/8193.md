@@ -28,6 +28,7 @@ An $(\infty,n)$-category _has all adjoints_ (or just _has adjoints_, for short) 
 * [[fully dualizable object]]
 
 ## References
+ {#References}
 
 The notion appears first in section 2.3 of 
 
