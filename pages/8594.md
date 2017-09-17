@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _topological ring_ is a [[ring]] [[internalization|internal to]] [[Top]], a [[ring object]] in [[Top]]:
+
+a [[topological space]] $R$ equipped with the structure of a [[ring]] on its underlying [[set]], such that addition and multiplication are [[continuous functions]].
+
+Similarly a _topological field_ is a topological ring whose underlying ring is in fact a [[field]].
+
+## Examples
+
+* The [[real numbers]] are a topological field.
+
+[[!redirects topological rings]]
+[[!redirects topological field]]
+[[!redirects topological fields]]
+
