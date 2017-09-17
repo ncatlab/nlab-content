@@ -35,6 +35,8 @@ The so-called _MKR dictionary_ (Mazur-Kapranov-Reznikov) relates terms from each
 
 * {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
 
+* Masanori Morishita 2012, _Knots and Primes: An Introduction to Arithmetic Topology_, Springer
+
 * {#Sikora} Adam Sikora, _Analogies between group actions on 3-manifolds and number fields_, ([arxiv](http://arxiv.org/abs/math/0107210))
 
 
