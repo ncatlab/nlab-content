@@ -10,4 +10,6 @@ He has worked for many years now editing,  extending and completing the work of 
 
 * _Grothendieck $\infty$-groupoids, and still another definition of $\infty$-categories_, [arXiv](http://arxiv.org/abs/1009.2331) -- see [[Grothendieck ∞-groupoid]]
 
+
+[[!redirects Maltsiniotis]]
 category: people
