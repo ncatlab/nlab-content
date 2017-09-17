@@ -18,11 +18,24 @@
 * automatic table of contents goes here
 {:toc}
 
+
+## Idea
+
+The _kernel_ of a [[morphism]] is that part of its domain which is not sent to 0.
+
+
 ## Definition
 
-### Definition as a pullback 
+There are various definitions of the notion of kernel, depending on the properties and structures available in the ambient category. We list a few definitions and discuss (in parts) when they are equivalent.
 
-In a category with an [[initial object]] $0$, the __kernel__ $ker(f)$ of a morphism $f:c\to d$ is the [[pullback]]
+### As a pullback 
+
++-- {: .un_def}
+###### Definition
+
+
+In a [[category]] with an [[initial object]] $0$ and [[pullback]]s, the __kernel__ $ker(f)$ of a [[morphism]] $f:c\to d$ is the [[pullback]] $ker(f) \to c$ along $f$ of the unique morphism $0 \to d$
+
 $$
   \array{
     ker(f)
@@ -36,11 +49,18 @@ $$
   \,.
 $$
 
-As $0$ is initial the map $0\to d$ in this diagram is unique. More precisely, the kernel is the object $ker(f)$ together with the kernel arrow $ker(f)\to c$. 
+=--
 
-### Definition as an equalizer
 
-In a [[category]] with a notion of [[zero morphism]]), [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  (By a 'notion of zero morphism', we really mean that the category is [[enriched category|enriched]] over [[pointed sets]].)
+### As an equalizer
+
++-- {: .un_def}
+###### Definition
+
+
+In a [[category]] [[zero morphism]]s (meaning: [[enriched category|enriched]] over the [[category of pointed sets]]), [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the zero morphism $0_{c,d}$.  
+
+=--
 
 ### As a weighted limit 
 
@@ -48,7 +68,7 @@ In any category enriched over pointed sets, the kernel of a morphism $f:c\to d$ 
 
 This is a special case of the construction of [[generalized kernels]] in enriched categories.
 
-### $ker$ as a representing object
+### As a representing object
 
 Let $Ab$ be the category of abelian groups. It is a category with kernels. In an [[abelian category]] $A$, for every morphism $f: X\to Y$ in $A$ there is the [[subfunctor]] 
 
@@ -77,6 +97,42 @@ In [[universal algebra]], this may be handled in the framework of [[Malcev varie
 
 
 ## Properties {#Properties}
+
++-- {: .un_prop}
+###### Property
+
+Let $C$ be a category with [[pullback]]s and [[zero object]].
+
+In $C$, the kernel of a kernel is 0.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the <a href="http://nlab.mathforge.org/nlab/show/pullback#Pasting">pasting law for pullbacks</a> we have that the total square
+
+$$
+  \array{
+     ker ker f &\to& ker f  &\to& 0
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     0 &\to& c &\stackrel{f}{\to}& d
+  }
+$$
+
+is a pullback. Since $0 \to c$ is a [[monomorphism]] and the pullback of a monomorphism along itself is the domain of the monomorphis, we have $ker ker f \simeq 0$.
+
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This statement crucially fails to be true in [[higher category theory]]. There, the kernel of a kernel is the based [[loop space object]] of $d$. For this reason where one has [[short exact sequence]]s in 1-category theory, there are instead long [[fiber sequence]]s in higher category theory.
+
+=--
 
 +-- {: .un_prop}
 ###### Proposition
@@ -147,6 +203,12 @@ $$
 $$
 
 =--
+
+## Related concepts
+
+* **kernel**
+
+* [[cokernel]]
 
 
 [[!redirects kernels]]
