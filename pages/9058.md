@@ -1,8 +1,3 @@
 
-* [webpage](http://user.math.uzh.ch/ayoub/)
+* [[Joseph Ayoub]]
 
-## Related entries
-
-* [[motive]]
-
-category: people
