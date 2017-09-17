@@ -398,7 +398,7 @@ Classical accounts of the general case include
 
 * [[Pierre Deligne]], _Courbes Elliptiques: Formulaire (d'apres J. Tate)_ ([web](http://modular.math.washington.edu/Tables/antwerp/deligne/))
 
-* Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024)
+* Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024) 
 
 Introductory lecture notes for elliptic curves over the complex numbers include
 
@@ -430,7 +430,7 @@ Discussion over the [[rational numbers]] includes
 
 Discussion of elliptic curves over the [[p-adic numbers]] includes
 
-* {#Conrad07} [[Brian Conrad]], _Arithmetic moduli of generalized elliptic curves_, J. Inst. Math. Jussieu 6 (2007), no. 2, 209-278.
+* {#Conrad07} [[Brian Conrad]], _Arithmetic moduli of generalized elliptic curves_, J. Inst. Math. Jussieu 6 (2007), no. 2, 209-278. ([pdf](http://math.stanford.edu/~conrad/papers/kmpaper.pdf))
 
 * {#Winter11} Rosa Winter, _Elliptic curves over $\mathbb{Q}_p$_, 2011 ([pdf](http://www.math.leidenuniv.nl/scripties/BachWinter.pdf))
 
