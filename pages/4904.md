@@ -184,3 +184,5 @@ The Quillen equivalence to the model structure on homotopy $T$-algebras is in
 
 
 [[!redirects model structure on simplicial T-algebras]]
+
+[[!redirects simplicial T-algebra]]
