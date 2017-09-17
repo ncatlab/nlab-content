@@ -65,7 +65,7 @@ If $\Sigma$ has a single type (a so-called 'untyped' signature) and one tacitly 
 
 Confusingly, the cedents are sometimes also called 'contexts'; then one speaks of the __left context__ (the antecedent), the __right context__ (the succedent).  This is most easily done when ingoring what we have been calling the context; I\'m not even sure what term would then be used for that context (maybe the __type context__?).  See also also the [interpretation of sequents as hypothetical judgements](sequent#Gentzen2MartinLof) (which I hope to write soon), which shows how the type context, antecedent, and succedent are all used to form the context of a related [[hypothetical judgement]].
 
-One also sometimes uses 'antecedent' or 'succedent' for an *individual* proposition on the relevant side of the sequent; see also the use of '[[consequent]]' in [minimal sequents](#minimaletc) below.
+One also sometimes uses 'antecedent' or 'succedent' for an *individual* proposition on the relevant side of the sequent; see also the use of 'consequent' in [minimal sequents](#minimaletc) below.
 =--
 
 +-- {: .num_defn}
@@ -85,7 +85,7 @@ A __closed sequent__ is one in which the context is empty; a __closed theory__ i
 
 An __intuitionistic sequent__ is one in which the succedent consists of at most one proposition; an __intuitionistic theory__ is one in which every sequent is intuitionistic.
 
-A __minimal sequent__ is one in which the succedent consists of exactly one proposition (then called the __consequent__); a __minimal theory__ is one in which every sequent is minimal.
+A __minimal sequent__ is one in which the succedent consists of exactly one proposition (then called the __[[consequent]]__); a __minimal theory__ is one in which every sequent is minimal.
 
 A __dual-intuitionistic sequent__ is one in which the antecedent consists of at most one proposition; a __dual-intuitionistic theory__ is one in which every sequent is dual-intuitionistic.
 
@@ -150,11 +150,11 @@ or
     \frac{
       \vec{\phi} \vdash_{\Gamma} \vec{\psi}
     }{
-      a^*\vec{\phi} \vdash_{\Delta} a^*\psi
+      a^*\vec{\phi} \vdash_{\Delta} a^*\vec{\psi}
     }
     \,,
   $$
-  where $a$ is any [[interpretation]] of $\Gamma$ in $\Delta$.  Explicitly, such an interpretation is a list $\vec{s}$ of [[terms]] (of the same length as the list which is the context $\Gamma$), where each term $s_i$ is a term over $\Sigma$ of type $T_i$ in the context $\Delta$.  Then $a^*\phi_i$, or $\phi_i[\vec{s}/\vec{x}]$, is obtained from $\phi$ by substituting each $s_i$ for the corresponding $x_i$, and $a^*\vec{\phi}$ (and $a^*\vec{psi}$) are obtained by applying this substitution to every proposition in the list.  Of course, this rule is vacuous if $\Sigma$ has no terms.
+  where $a$ is any [[interpretation]] of $\Gamma$ in $\Delta$.  Explicitly, such an interpretation is a list $\vec{s}$ of [[terms]] (of the same length as the list which is the context $\Gamma$), where each term $s_i$ is a term over $\Sigma$ of type $T_i$ in the context $\Delta$.  Then $a^*\phi_i$, or $\phi_i[\vec{s}/\vec{x}]$, is obtained from $\phi$ by substituting each $s_i$ for the corresponding $x_i$, and $a^*\vec{\phi}$ (and $a^*\vec{\psi}$) are obtained by applying this substitution to every proposition in the list.  Of course, this rule is vacuous if $\Sigma$ has no terms.
 
 The **[[cut rule]]** is
   $$
@@ -164,7 +164,7 @@ The **[[cut rule]]** is
       \vec{\phi}, \vec{\chi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \vec{\omega}
    }\,;
   $$
-the proposition $\chi$ has been 'cut'.
+the proposition $\alpha$ has been 'cut'.
 
 The __[[exchange rule]]__ is
   $$
@@ -194,7 +194,7 @@ and
     }
     \,;
   $$
-in the absence of the exchange rule, these must be stated in greater generality (with the new proposition $\chi$ allowed to place anywhere in the antecedent or succedent).
+in the absence of the exchange rule, these must be stated in greater generality (with the new proposition $\chi$ allowed to be placed anywhere in the antecedent or succedent).
 
 The __[[contraction rules]] are
   $$
