@@ -34,6 +34,12 @@ The [[elliptic genus]] of the self-dual string at the boundary of the [[M2-brane
 
 ## References
 
+The appearance of self-dual string in six dimensions with an [[ADE classification]] was first observed in
+
+* {#Witten95} [[Edward Witten]], _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
+
+Further discussion includes
+
 * P.S. Howe, [[Neil Lambert]], [[Pete West]], _The Self-Dual String Soliton_, Nucl.Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](http://arxiv.org/abs/hep-th/9709014))
 
 * {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020),
