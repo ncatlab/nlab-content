@@ -106,7 +106,7 @@ A [[small (∞,1)-category]] is idempotent-complete if and only if it is [[acces
 
 =--
 
-This is [[Higher Topos Theory|HTT, 5.5.3.6]].
+This is [[Higher Topos Theory|HTT, 5.4.3.6]].
 
 
 +-- {: .num_theorem}
