@@ -28,7 +28,7 @@
 ## Idea
  {#Idea}
 
-A _$\sigma$-model_ is a particular kind of [[classical field theory]], which induces its quantization to a [[quantum field theory]].  The basic data describing a specific $\sigma$-model is some kind ot "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of fields" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is like an an $X$-valued [[function]] on $\Sigma$.
+A _$\sigma$-model_ is a particular kind of [[classical field theory]], which induces its quantization to a [[quantum field theory]].  The basic data describing a specific $\sigma$-model is some kind of "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of fields" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is like an an $X$-valued [[function]] on $\Sigma$.
 
 We assign a [[dimension]] $n \in \mathbb{N}$ to our $\sigma$-model, take $dim \Sigma \leq n$ and assume that [[target space]] $X$ is equipped with a "[[circle n-bundle with connection]]".  
 
@@ -385,7 +385,7 @@ Therefore, generally, we may take for $n \in \mathbb{N}$
   $$
 
 
-For $n = 3$ such a $\sigma$-model describes an analog of a relativistic particle which is not pointlike, but 2-dimensional (with 3-dimensional trajectory) hence which reminds one of a [[membrane]]. Inspired by this term, the general case has come to be known as the _relativistic $(n-1)$-[[brane]]_ . 
+For $n = 3$ such a $\sigma$-model describes an analog of a relativistic particle which is not point-like, but 2-dimensional (with 3-dimensional trajectory) hence which reminds one of a [[membrane]]. Inspired by this term, the general case has come to be known as the _relativistic $(n-1)$-[[brane]]_ . 
 
 The case $n = 2$ is called the relativistic [[string]], which we consider in more detail [below](#RelativisticString). This has received a lot of attention (in _[[string theory]]_ ) not just because it is the next simplest in an infinite hierarchy of cases, but also because its quantum theory turns out to have various interesting features that seem to make it special. Moreover, many of the $(n-1)$-branes for other $n$ re-appear in one way or other in the study of the string (as its boundary [[D-brane]]s in all dimensions $0 \leq n \leq 10$, as its "strongly coupled" version: the [[M-theory membrane]], or as its [[electric-magnetic duality|electric-magnetic dual]]: the [[NS5-brane]]). If nothing else, the seemingly innocent step from $n = 1$ to $n = 2$ in the $\sigma$-model shows that there is a rich pattern of higher dimensional ($\sigma$-model) quantum field theories that are all interrelated in intricate ways.
 
