@@ -1,3 +1,9 @@
-$Spec$ is the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. It is the free stable [[locally presentable (infinity,1)-category]] on one generator, namely the [[sphere spectrum]].
+$Spectrum$ is the [[stable (infinity,1)-category]] of [[spectrum|spectra]].  It is also denoted $Sp$, or sometimes $Spec$ although that [[affine scheme|can be confusing]].
+
+It is the free stable [[locally presentable (infinity,1)-category]] on one generator, namely the [[sphere spectrum]].
 
 category: category
+
+[[!redirects Spec]]
+[[!redirects Sp]]
+[[!redirects Spectra]]
