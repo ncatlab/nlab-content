@@ -28,6 +28,8 @@ A [[sheaf]] of [[vertex operator algebras]].
 
 This arises naturally in the descriptions of [[2d CFTs]] such as the [[2d (2,0)-superconformal QFT]] which patchwise on [[target space]] is a [[free field theory]], but not globally so.
 
+If the degree-0 part of a sheaf of vertex operator algebras is the [[structure sheaf]] of the base space, then one one may think of the whole sheaf as defining a "[[horizontal categorification]]" of a vertex operator algebra and hence one also speaks of a _[[vertex operator algebroid]]_.
+
 ## Examples
 
 * [[chiral de Rham complex]]
