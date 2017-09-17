@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The higher-dimensional generalization of [[string diagrams]].
+
+## References
+
+* [[Todd Trimble]], _[[toddtrimble:Surface diagrams]]_
+
+[[!redirects surface diagrams]]
