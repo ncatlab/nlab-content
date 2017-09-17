@@ -422,6 +422,7 @@ Something related to a **fibrant replacement** functor ("$\infty$-stackification
 
 In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement (see also _[[projectively cofibrant diagram]]_).
 
+(see also [Low, remark 8.2.3](#Low)).
 
 +-- {: .num_defn }
 ###### Definition
@@ -1376,7 +1377,7 @@ The relation to the general descent condition is discussed in
 
 A useful collection of facts is in 
 
-* [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
+* {#Low} [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
 
 [[!redirects model structures on simplicial presheaves]]
