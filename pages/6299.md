@@ -1,0 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+The [[2-category]] $Poset$ is the [[full sub-2-category]] of [[Cat]] on the [[poset]]s. 
+
+
+category: categories
