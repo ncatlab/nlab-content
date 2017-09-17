@@ -293,11 +293,8 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 
 Recall that the join of simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of [[Day convolution]] products). 
 
-This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as [[horn]]s are unions of face simplices, it follows easily that 
+This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as [[horn]]s are unions of face simplices, this allows to compute joins of horns with simplices.
 
-$$\Lambda^k[m] \star \Delta[n] \cong \Lambda^k[m+n+1]$$
-
-> (Is this right? What about the following:)
 
 ### Joins with the point: cones
 
