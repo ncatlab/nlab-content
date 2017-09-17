@@ -161,6 +161,8 @@ This is for instance ([Bunge-Pare, corollary 2.4](#BungePare)).
 
 * [[(∞,2)-sheaf]]
 
+* [[(∞,n)-sheaf]]
+
 * [[descent]]
 
 
