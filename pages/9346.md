@@ -44,7 +44,7 @@ More conceptually, the premise is that
 
 1. the [[standard model of particle physics]] and [[gravity]] is just an [[effective field theory]] (this is generally expected, independently of string theory)
 
-1. that a string perturbation series can provide its [[UV-completion]].
+1. that a string perturbation series can provide its [[UV-completion]] --  the [[string scattering amplitudes]] are finite at each loop, hence are already [[renormalization|renormalizations]] of the underlying [[effective field theory]] amplitudes (the higher massive string oscillations serve as natural [[counterterms]] to the massless interactions of the effective low energy theory).
 
 
 While the string perturbation series is a well-defined expression analogous to the Feynman perturbation series, by itself it lacks a _conceptual_ property of the latter: the Feynman perturbation series is known, in principle, to be the approximation to _something_, namely to the corresponding complete hence [[non-perturbative quantum field theory]]. The idea is that the string perturbation series is similarly the approximation to something, to something which would then be called _[[non-perturbative string theory]]_, but that something has not been identified.
