@@ -399,7 +399,7 @@ A discussion in the language of [[D-module]]s, following the book [[Chiral Algeb
 
 The relation between covariant phase space methods and [[multisymplectic geometry]] is discussed in
 
-* [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_ ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
+* [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_, in  Roger Bielawski, Kevin Houston, Martin Speight, J. Martin Speight (eds.) _Variational problems in differential geometry_, London Mathematical Society Lecture Note Series (2012) ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
   {#Helein}
 
 * Thomas J. Bridges, Peter E. Hydon and Jeffrey K. Lawson,
