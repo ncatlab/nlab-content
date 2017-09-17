@@ -7,6 +7,21 @@
 
 [[super Yang-Mills theory]] on a 4-[[dimension|dimensional]] [[spacetime]] with $N = 1$ [[supersymmetry]].
 
+## Related concepts
+
+* [[super Yang-Mills theory]]
+
+* [[N=2 D=4 super Yang-Mills theory]]
+
+* [[N=4 D=3 super Yang-Mills theory]]
+
+* [[N=4 D=4 super Yang-Mills theory]] 
+
+* [[D=5 super Yang-Mills theory]]
+
+* [[topologically twisted D=4 super Yang-Mills theory]]
+
+
 ## References
 
 Construction by [[Kaluza-Klein mechanism|KK-reduction]] of the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] on a [[Riemann surface]] is in
