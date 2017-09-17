@@ -26,7 +26,7 @@
 
 +-- {: bluebox}
 
-**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology|generaized]]/[[nonabelian cohomology|nonabelian]] _[[differential cohomology]]_ which has realizations not just in [[higher differential geometry]] but also notably in [[higher complex analytic geometry]] and moreover in "[[higher arithmetic geometry]]" ([[E-∞ arithmetic geometry]]) in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
+**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology|generalized]]/[[nonabelian cohomology|nonabelian]] _[[differential cohomology]]_ which has realizations not just in [[higher differential geometry]] but also notably in [[higher complex analytic geometry]] and moreover in "[[higher arithmetic geometry]]" ([[E-∞ arithmetic geometry]]) in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
 
 =--
 
@@ -34,12 +34,13 @@
 
 A fruitful approach to mathematical theory is what might be called "inter-geometric", meaning that definitions and theorems make sense and hold when interpreted in different flavors of geometry. Classical examples are the [[GAGA principle]], the [[function field analogy]], the [[geometric Langlands correspondence|geometric]] [[Langlands correspondence]], more recent are various approaches to [[F1]]-geometry and [[global analytic geometry]]. While in these examples the [[analogy]]  between different theories of geometry has been established case-by-case, there is by and large no meta-theory which would systematically imply the analogy. 
 
-This is of practical concern for instance in the [[Langlands program]], where it is an open problem how the methods and insights which are deeply on the side of [[complex analytic geometry]], such as involving [[mirror symmetry]], might have incarnations on the [[arithmetic geometry]]-side. And vice-versa, the complex-analytic version of the conjecture was obtained by educated guessing via analogy from the arithmetic side in the first place, but this guesswork has been questioned ([[Problems in the theory of automorphic forms -- 45 years later|Langlands 14]]). Both of these issue would be resolved if one had an "inter-geometric" theory from which the correspondence both in [[arithmetic geometry]] and in [[complex-analytic geometry]] would both follow systematically.
+This is of practical concern for instance in the [[Langlands program]], where it is an open problem how the methods and insights which are deeply on the side of [[complex analytic geometry]], such as involving [[mirror symmetry]], might have incarnations on the [[arithmetic geometry]]-side. And vice-versa, the complex-analytic version of the conjecture was obtained by educated guessing via analogy from the arithmetic side in the first place, but this guesswork has been questioned ([[Problems in the theory of automorphic forms -- 45 years later|Langlands 14]]). Both of these issues would be resolved if one had an "inter-geometric" theory from which the correspondence both in [[arithmetic geometry]] and in [[complex-analytic geometry]] would both follow systematically.
 
 More generally, inter-geometric theory is relevant in [[higher geometric quantization]], where choices of [[polarizations]] correspond to descending to more rigid geometries (for introduction and review see [Schreiber 14](#Schreiber14)).
 
-A noteworthy example in this context is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). There is thus a kind of [[p-adic string theory]] (closed string theory!) appearing here, which is however not of the kind that existing literature with such title would shed any light on.
+A noteworthy example in this context is the construction of the refined [[Witten genus]] in the guise of the [[string orientation of tmf]]: here what is initially a concept in [[complex analytic geometry|complex analytic]] ([[supergeometry|super]]-)geometry is constructed by passage (via the construction of [[tmf]]) to the [[moduli stack of elliptic curves]] all the way down in [[arithmetic geometry]], and in fact then via the [[fracture theorems]] by its [[base change|base changes]] to [[p-adic geometry]] and to [[rational homotopy theory]] (and further to [[K(n)-local stable homotopy theory]]). In fact, the [[supersingular elliptic curves]] which are the ones that contribute at [[height of a formal group law|height]] 2 and hence make for the genuinely stringy ([[chromatic filtration|second chromatic level]]) contribution to the [[topological modular forms|refined]] [[Witten genus]] exist only in [[positive characteristic]], invisible to complex geometry. There is thus a kind of [[p-adic string theory]] (closed string theory!) appearing here, which is however not of the kind that existing literature with such title would shed any light on.f
 
+The role of more "[[rigid analytic geometry|rigid]]" [[arithmetic geometry]] -- closer to the bottom [[Borger's absolute geometry|absolute geometry]] -- in [[quantization]] might be summarized in parts by the following table:
 
 **[[quantization of 3d Chern-Simons theory]] and [[holographic principle|holographically]] of the [[WZW-model]]/the [[string]] **
 
@@ -58,12 +59,11 @@ The construction of the bottom right items here is a ground-breaking accomplishm
 | 2  | [[11d Chern-Simons theory]] |  | [[RR-fields]] in [[type II string theory]] |
 
 In all of these higher dimensional cases the inter-geometric aspect appears. Where one assigned an [[elliptic cohomology theory]] to [[worldsheets]] equipped with polarization structure, it is only the [[arithmetic geometry]]  cases of [[supersingular elliptic curves]] which contribute; similarly in the higher dimensional cases it is the [[Artin-Mazur formal groups]] in positive [[characteristic]] which induce at the given height to the [[Calabi-Yau cohomology]].
-
-
 Finding the higher analog of the [[string orientation of tmf]] for these higher dimensional cases is as desirable as it seems to be intractable without some more inter-geometric theory to guide one.
+
 Here we will not present solutions to these rather deep questions. But we do want to discuss something that looks like steps in the right direction.
 
-Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, elliptic and hyperbolic geometry. 
+Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, elliptic and hyperbolic geometry:
 
 | [[synthetic geometry]]  |
 |-------------------------|
@@ -71,7 +71,7 @@ Notice that the idea of "inter-geometric theory" is ancient, it originates with 
 | [[hyperbolic geometry]] |
 | [[elliptic geometry]]   |
 
-The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
+The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_:
 
 | [[differential cohesion|higher synthetic differential geometry]] |
 |--------------------------------------------|
@@ -79,6 +79,7 @@ The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[d
 | [[higher complex analytic geometry]]       |
 | [[E-∞ arithmetic geometry|higher arithmetic geometry]]             |
 
+This we review and discuss [below](#AxiomaticDifferentialCohomology). First we recall now the key motivating ingredients of the [[function field analogy]] and the [[Langlands correspondence]].
 
 
 ## **1)** Langlands correspondence and Weil uniformization
@@ -233,6 +234,7 @@ Since the [[ring of adeles]] is the [[rationalization]] of the integral adeles $
 The statement of prop. \ref{ArithmeticFractureSquare} immediately lifts to flat finitely generated torsion free [[modules]], involving now the rationalization and the [[completion of modules]].
 This statement lifts to [[stable homotopy theory]], with [[spectra]] regarded as [[∞-modules]] over the [[sphere spectrum]] $\mathbb{S}$:
 
+
 +-- {: .num_prop #SullivanArithmeticFracture}
 ###### Proposition
 **(Sullivan [[arithmetic fracture square]])**
@@ -241,6 +243,7 @@ For every [[spectrum]] $X$ the canonical square diagram
 
 $$
   \array{
+
     && X_{\mathbb{Q}}
     \\
     & \swarrow && \nwarrow
@@ -273,10 +276,11 @@ Hence in order to systematize the implementation of such consideration in variou
 
 1. [[D-geometry]].
 
-This we turn to now.
+This axiomatic we turn to now, recalling how it has implementations in [[higher differential geometry]] and [[higher complex analytic geometry]]. Then at the end [below](#ArithmeticCohesion) we discuss how the axioms also have implementation in a [[E-∞ arithmetic geometry]], where moreover they reproduce precisely the classical number-theoretic [[fracture squares]] and hence an "automorphic" incarnation of all [[moduli ∞-stacks]] of [[higher gauge fields]].
 
 
 ## **2)** Axiomatic twisted differential generalized cohomology
+ {#AxiomaticDifferentialCohomology}
 
 The [above](LanglandsAndWeil) [[analogy]] calls for being formalized. We need an axiomatics that allows to implement differential geometry in systematic analogy. Just as back in the old days there was established a systematic analogy
 
@@ -397,6 +401,7 @@ Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that
 
 * the canonical map $\theta \colon G \longrightarrow \flat_{dR} G$ is naturally thought of as the **$G$-[[Maurer-Cartan form]]**;
 
+
 * for [[braided ∞-groups]] $G$ the various [[homotopy fibers]] of $\theta \colon G \longrightarrow \flat_{dR} G$ are moduli $\infty$-stacks $\mathbf{B}G_{conn}$ of non-flat **$G$-[[principal ∞-connections]]**;
 
 * the [[sharp modality]] $\sharp$ serves to produce various more suble **[[moduli ∞-stacks]]**, for instance:
@@ -432,6 +437,7 @@ $$
   T \mathbf{H}
    \stackrel{\longrightarrow}{\stackrel{\hookleftarrow}{\stackrel{\longrightarrow}{\hookleftarrow}}}  
   T \infty Grpd
+
   \,.
 $$
 
@@ -649,6 +655,7 @@ The [[infinitesimal shape modality]] $\Pi_{inf}$ is naturally thought of as prod
 
 =--
 
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -731,7 +738,7 @@ $$
     \\
     & \nearrow && \searrow && &
     \\
-    \flat^{rel} \Pi^{rel}_{dR}  X
+    \Pi^{rel}_{dR} \flat^{rel}  X
     && &&
     X 
     & 
@@ -750,7 +757,7 @@ $$
     \\
     & \swarrow && \nwarrow && &
     \\
-    [\flat^{rel} \Pi^{rel}_{dR}  X, \hat E]
+    [\Pi^{rel}_{dR}\flat^{rel}   X, \hat E]
     && &&
     [X,\hat E] 
     & 
@@ -768,10 +775,11 @@ which is homotopy cartesian.
 
 
 ## **3)** $E_\infty$-Arithmetic differential cohomology
+ {#ArithmeticCohesion}
 
 Above we found general synthetic axioms for differential cohomology and realization of these axioms in [[higher differential geometry]] and [[higher complex analytic geometry]]. Both turned out to exhibit also _relative_ [[differential cohesion]] over "[[formal moduli problems]]".
 
-While [[higher arithmetic geometry]](i.e. [[E-∞ arithmetic geometry]]) is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit such a kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}.
+While [[higher arithmetic geometry]] (i.e. [[E-∞ arithmetic geometry]]) is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit such a kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}:
 
 
 +-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
@@ -806,12 +814,14 @@ where
 =--
 
 
-This is effectively the content of ([Lurie "Completions", section 4](#LurieProper)):
+This is effectively the content of ([Lurie "Completions", section 4](#LurieProper)), a refinement to [[stable homotopy theory]] of what in [[homological algebra]] is sometimes known as _[Greenlees-May duality](fracture+theorem#CompletionAndTorsionOnDerivedCategories)_.
+
+For our purposes we notice the following immediate consequence.
 
 +-- {: .num_cor #FractureFromCohesion}
 ###### Corollary
 
-The traditional arithmetic fracture square of prop. \ref{SullivanArithmeticFracture}, regarded as in remark \ref{TwoThirdHexagon}, is the left part of the "[differential cohomology diagram](differential+cohomology+diagram#TheHexagonDiagram)" induced by the [[adjoint modality]] $(\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )$ of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, for the special case that $A = \mathbb{S}$ is the [[sphere spectrum]] and $\mathfrak{a} = (p)$ a [[prime ideal]]
+The traditional arithmetic fracture square of prop. \ref{SullivanArithmeticFracture} is the left part of the "[differential cohomology diagram](differential+cohomology+diagram#TheHexagonDiagram)" induced by the [[adjoint modality]] $(\Pi_{\mathfrak{a}} \dashv \flat_{\mathfrak{a}} )$ of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, for the special case that $A = \mathbb{S}$ is the [[sphere spectrum]] and $\mathfrak{a} = (p)$ a [[prime ideal]]
 
 $$
   \array{
@@ -828,28 +838,32 @@ $$
   \,,
 $$
 
-[[!include arithmetic cohesion -- table]]
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} where $A$ is the [[Eilenberg-MacLane spectrum]] of a plain [[commutative ring]], and hence -- by the [[stable Dold-Kan correspondence]] -- the case where $A$-[[∞-modules]] are equivalently [[chain complexes]], has a longer tradition in the existing literature. This we highlight separately [below](#CompletionAndTorsionOnDerivedCategories).
-
 =--
 
 +-- {: .num_remark #FracturingOnEInfinityAlgebras}
 ###### Remark
 
-By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is a "[[monoidal (∞,1)-functors]]" without possibly preservation of the unit on $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to "[[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]]-without unit" in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[E-∞ algebras]]-without unit, hence to affine [[spaces]] in "non-compact"-[[E-∞ geometry]]
+By the discussion at _[[completion of modules]]_ in the section _[Monoidalness](completion+of+a+module#Monoidalness)_, the [[adjoint modality]] of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra} is a [[monoidal (∞,1)-functor]] without, possibly, respect the [[tensor unit]] in $A Mod$. This means that $(\Pi_{\mathfrak{a}}\dashv \flat_{\mathfrak{a}})$ passes to "[[commutative monoid in a symmetric monoidal (∞,1)-category|commutative ∞-monoids]]-without unit" in $A Mod$, hence to ([[Isbell duality|formal duals of]]) [[nonunital E-∞ algebras]]. 
+By [this proposition](nonunital+Ek-algebra#RelationToAugmentedEkAlgebras) ([Lurie "Algebra", prop. 5.2.3.15](#LurieAlgebra)) [[nonunital E-∞ rings]]  are [[equivalence of (∞,1)-categories|equivalent]] to [[augmented E-∞ rings]] over the [[sphere spectrum]], hence this is [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$.
 
 Notice that in addition $\Pi_{\mathfrak{a}}$ here should preserve [[finite products]] (because by the discussion at  [completion of a module -- monoidalness](completion%20of%20a%20module#Monoidalness) the underlying $\Pi_{\mathfrak{a}} \colon A Mod \to A Mod$ preserves all small [[(∞,1)-colimits]] and because by 
 [this proposition](commutative+monoid+in+a+symmetric+monoidal+%28infinity%2C1%29-category#LimitsInCRing) finite coproducts in $CRng(A Mod)$ are computed in the underlying $A Mod$.
 
-Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on pointed affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]] -- namely on [[Isbell duality|formal duals]] of [[nonunital E-∞ rings]], which by [this proposition](nonunital+Ek-algebra#RelationToAugmentedEkAlgebras) ([Lurie "Algebra", prop. 5.2.3.15](#LurieAlgebra)) are equivalent to [[augmented E-∞ rings]] over the [[sphere spectrum]].
+Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\flat_{\mathfrak{a}}$ as a [[sharp modality]] on affine [[E-∞ geometry|E-∞]]-[[arithmetic geometry]] -- namely on [[Isbell duality|formal duals]] of [[nonunital E-∞ rings]] under $Spec(\mathbb{S})$.
+
+(It may be entertaining to note that on the level of [[quasicoherent ∞-stack|quasicoherent sheaves]] [[E-∞ arithmetic geometry]] under $Spec(\mathbb{S})$ translates to [[∞-modules]] over the [[sphere spectrum]] which has been argued to be the homotopy-theoretic inveranation of [[superalgebra]], see at _[superalgebra -- abstract idea](super+algebra#AbstractIdea)_ for more on this.)
 
 =--
+
+In conclusion, the situation is summarized by the following table.
+
++-- {: bluebox}
+
+[[!include arithmetic cohesion -- table]]
+
+=--
+
+
 
 ## References
 
@@ -862,10 +876,10 @@ Therefore we may think of $\Pi_{\mathfrak{a}}$ as a [[shape modality]] and of $\
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
 
+* {#LurieAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
+
 * {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, June 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
 * {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive ∞-topos]]_, based on Habilitation thesis, Hamburg 2011 ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
 * {#Schreiber14} [[Urs Schreiber]], _[[schreiber:What, and for what is Higher geometric quantization]]_, notes for a talk given at _[Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html)_, Oxford, July 5-8 2014
-
-* {#LurieAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
