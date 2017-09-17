@@ -1,0 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Lie algebra]] of the [[unitary group]]. Canonically identified with [[matrices]] with [[complex number]] entries that are skew-hermitean.
+
+## Related concepts
+
+* [[special orthogonal Lie algebra]]
