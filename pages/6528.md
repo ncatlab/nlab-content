@@ -53,6 +53,9 @@ $$
 
 is called the **instanton number** of $\nabla$.
 
+## Related concepts
+
+* [[instanton Floer homology]]
 
 ## References
 
