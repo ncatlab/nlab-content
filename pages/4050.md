@@ -29,6 +29,7 @@ A _category with duals_ is a [[category]] where [[objects]] and/or [[morphisms]]
 
 *  The __$*$-[[star-autonomous category|autonomous categories]]__ do not really belong on this list; being $*$-autonomous is logically independent of being autonomous, and while $*$-autonomous categories have duals, these are not in general duals in the sense of a [[dualisable object]].  However, any compact closed category is $*$-autonomous.
 
+* Likewise, [[closed category|closed categories]] or [[closed monoidal category|closed monoidal categories]] do not really belong on this list, but there is a sense of dual there which should be carefully distinguished from the primary sense here, which is generally stronger. See [[dual object in a closed category]]. 
 
 ## Categories with duals for morphisms
 
