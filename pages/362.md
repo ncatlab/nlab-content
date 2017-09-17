@@ -41,3 +41,5 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 * R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1-33.
 
 * F.A. Al-Agl, R. Brown and   R. Steiner, Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71-118.
+
+[[!redirects Gray]]
