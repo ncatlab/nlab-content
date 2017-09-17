@@ -40,7 +40,7 @@ $$
 
 is a [[quasi-isomorphism]] in $Ch^\bullet_+(k)$.
 
-Say a morphism of cosimplicial algebras is a fibration if it is a [[monomorphism]] (degreewise surjection).
+Say a morphism of cosimplicial algebras is a fibration if it is a [[epimorphism]] (degreewise surjection).
 
 This defines the **projective [[model category]] structure** on $Alg_k^\Delta$.
 
