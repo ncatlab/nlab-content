@@ -42,6 +42,9 @@ $G_X  = \pi_1T X,\;\; P_X = ker\;\pi_1t X$ and $P_X$ is a
 More precisely, $X$ can be recovered, up to homotopy, by applying the [[plus construction]] to $K(G_X,1)$ with respect to $P_X$.
  
 
+More generally, the Kan-Thurston theorem
+gives an embedding of the homotopy category of topological spaces into the category of presheaves on the category whose objects are groups and whose morphisms are conjugacy classes of [[group homomorphisms]].  Under this embedding a topological space $X$ is sent to the presheaf $G \mapsto [B G, X]$.
+
 ## References
 
 * [[Daniel Kan]] and [[William Thurston]], _Every connected space has the homology of a $K(\pi,1)$_, Topology  Vol.  15.  pp.  253--258, 1976.  
