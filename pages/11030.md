@@ -1,0 +1,8 @@
+
+* [webpage](http://aix1.uottawa.ca/~rblute/)
+
+## Related entries
+
+* [[linear logic]], [[linear type theory]]
+
+category: people
