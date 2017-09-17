@@ -328,3 +328,13 @@ The notion of [[derivator]] is largely a tool for handling homotopy Kan extensio
 For instance section A.3.3 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+[[!redirects homotopy Kan extensions]]
+[[!redirects left homotopy Kan extension]]
+[[!redirects left homotopy Kan extensions]]
+[[!redirects homotopy left Kan extension]]
+[[!redirects homotopy left Kan extensions]]
+[[!redirects right homotopy Kan extension]]
+[[!redirects right homotopy Kan extensions]]
+[[!redirects homotopy right Kan extension]]
+[[!redirects homotopy right Kan extensions]]
