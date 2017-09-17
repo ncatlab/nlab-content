@@ -1,4 +1,0 @@
-<a href="http://oakleysunglasses.fuzziecouch.com" title="oakley sunglasses outlet"><strong>oakley sunglasses outlet</strong></a>   [url=http://oakleysunglasses.fuzziecouch.com][b]oakley sunglasses outlet[/b][/url]   http://oakleysunglasses.fuzziecouch.com    
- <a href="http://oakleysunglasses.fuzziecouch.com" title="oakley sunglasses discount"><strong>oakley sunglasses discount</strong></a>   [url=http://oakleysunglasses.fuzziecouch.com][b]oakley sunglasses discount[/b][/url]   http://oakleysunglasses.fuzziecouch.com    
-
-jordan retro http://jordanretro.dennissearing.com
