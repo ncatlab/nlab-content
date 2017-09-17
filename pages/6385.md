@@ -1,3 +1,4 @@
+[[!redirects What to Contribute]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
