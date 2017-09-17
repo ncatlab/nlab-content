@@ -1,0 +1,11 @@
+
+## Related concepts
+
+* [[realizability]]
+
+## References
+
+* {#Streicher07} [[Thomas Streicher]], around p. 17 of  _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
+
+[[!redirects function realizability topos]]
+
