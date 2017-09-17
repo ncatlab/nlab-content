@@ -8,13 +8,13 @@
 
 ## Idea
 
-A _structured [[( ,1)-topos]]_ is a generalization of a [[ringed space]] or rather of a [[ringed site]]: 
+A _structured [[(∞,1)-topos]]_ is a generalization of a [[ringed space]] or rather of a [[ringed site]]: 
 a generalized [[space]] equipped with a *[[structure sheaf]]* taking values in generalized [[quantity|quantities]]. 
 
 A structured $(\infty,1)$-topos that is constrained to locally look like an object in a prescribed category of _test spaces_ is a [[generalized scheme]].
 
 At the bottom of it, a structured $(\infty,1)$-topos is a
-[[( ,1)-functor]]
+[[(∞,1)-functor]]
 
 $$
   X : S^{op}\times R \to V
@@ -23,7 +23,7 @@ $$
 
 where
 
-* $V$ is the suitable enriching category, i.e. [[SSet]] for the full [[(infinity,1)-category|( ,1)-categorical]] version;
+* $V$ is the suitable enriching category, i.e. [[SSet]] for the full [[(infinity,1)-category|(∞,1)-categorical]] version;
 
 * and for $U \in S$ and $C \in R$ the object $X(U,C)$ is to be thought of as the collection of morphisms from $U$ to $C$ that decompose into a morphism from $U$ into the generalized space and another morphism from that to $C$.
 
@@ -33,7 +33,7 @@ Here the generalization is in the sense described at [[space and quantity]]:
 
 * _[[quantity|quantities]]_ (meaning: function algebras) modeled on value spaces in some category $S$ are [[presheaf|co-presheaves]] $A$ on $S$: $A(U)$ is the collection of the quantities with values  in $U \in S$.
 
-In the context of structured $(\infty,1)$-toposes $S$ is called a [[geometry (for structured ( ,1)-toposes)]].
+In the context of structured $(\infty,1)$-toposes $S$ is called a [[geometry (for structured (∞,1)-toposes)]].
 
 Combined, this allows to give an analogous general way to think of the notion of a _space equipped with a structure sheaf_. A _structured generalized space_ is such a generalization.
 
@@ -96,11 +96,11 @@ We now describe the theory of structure sheaves encoded in topos-valued co-presh
 
 ## Definition
 
-Let $S$ be a [[geometry (for structured (infinity,1)-toposes)|geometric]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[( ,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[( ,1)-topos]] of [[( ,1)-category of ( ,1)-sheaves]] on $S$. 
+Let $S$ be a [[geometry (for structured (infinity,1)-toposes)|geometric]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[(∞,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] on $S$. 
 
-Notice that if $S = Op(X)$ is the nerve of the [[category of open subsets]] of some [[topological space]] $X$, then $Sh(X) := Sh(S)$ is the [[( ,1)-category of ( ,1)-sheaves]] on $X$, as in the above motivating introduction. 
+Notice that if $S = Op(X)$ is the nerve of the [[category of open subsets]] of some [[topological space]] $X$, then $Sh(X) := Sh(S)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $X$, as in the above motivating introduction. 
 
-We want to define a _structure sheaf_ on $S$ (for instance on $Op(X)$) of quantities modeled on some $(\infty,1)$-category $V$ to be an [[( ,1)-functor]]
+We want to define a _structure sheaf_ on $S$ (for instance on $Op(X)$) of quantities modeled on some $(\infty,1)$-category $V$ to be an [[(∞,1)-functor]]
 
 $$
   O_X : V \to Sh(S)
@@ -114,7 +114,7 @@ But since we are taking care of the sheaf condition on $S$, we also want to allo
 +-- {: .un_defn}
 ###### Definition An **admissiblility structure** on an $(\infty,1)$-category $V$ is 
 
-* a choice of [[sub-quasi-category|sub ( ,1)-category]] $V^{ad} \hookrightarrow V$, whose morphisms are to be called the **admissible morphisms**, such that
+* a choice of [[sub-quasi-category|sub (∞,1)-category]] $V^{ad} \hookrightarrow V$, whose morphisms are to be called the **admissible morphisms**, such that
 
   * for every admssible morphism $U \to X$ and any morphism $X' \to X$ there is a diagram
 
@@ -167,7 +167,7 @@ An $(\infty,1)$-category $V$ equipped with an admissiblility structure is a **ge
 **(structure sheaf)**
 
 Let $\mathcal{G}$ be a geometry and $\mathcal{X}$ an $(\infty,1)$-topos
-An [[( ,1)-functor]]
+An [[(∞,1)-functor]]
 
 $$
   O_X : \mathcal{G} \to \mathcal{X}
@@ -191,7 +191,7 @@ $\mathcal{G}$-**[[structure sheaf]]** on $\mathcal{X}$ if
 
 =--
 
-Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[( ,1)-category of ( ,1)-functors]].
+Write $Str_{\mathcal{G}}(\mathcal{X}) \subset Func(\mathcal{G},\mathcal{X})$ for the full subcategory of such morphisms of the [[(∞,1)-category of (∞,1)-functors]].
 
 
 +-- {: .un_example}
@@ -358,8 +358,7 @@ $$
   \,.
 $$
 
-Since rings can be identified with left-exact functors $(Ring^{fin})^{op}\to Set$, we don't need to impose any admissibility structure in order to recover the notion of a *sheaf of rings*, since left-exactness is part of the definition of a "structure sheaf."  We do, however, need an admissibility structure if we want to recover the notion of a sheaf of *local* rings, as in the previous example above.
-
+Since rings can be identified with left-exact functors $(Ring^{fin})^{op}\to Set$, we don't need to impose any admissibility structure in order to recover the notion of a sheaf of rings, since left-exactness is part of the definition of a "structure sheaf."  We do, however, need an admissibility structure if we want to recover the notion of a sheaf of *local* rings, as in the previous example above.
 
 ### Derived ringed spaces
 
@@ -379,7 +378,7 @@ $$
   SCR_k := PSh_\Sigma(FreeAlg_k)
 $$
 
-the $(\infty,1)$-category of [[( ,1)-presheaves]] on commutative $k$-algebras of the form $k[x_1, \cdots, x_n]$.
+the $(\infty,1)$-category of [[(∞,1)-presheaves]] on commutative $k$-algebras of the form $k[x_1, \cdots, x_n]$.
 
 Then...
 
@@ -437,9 +436,9 @@ the point of view is more on bi-presheaves, a useful discussion to the relation
 to structured morphisms here is in section 10.1. there.
 
 
-[[!redirects structured ( ,1)-topos]]
+[[!redirects structured (∞,1)-topos]]
 [[!redirects structured generalized spaces]]
 [[!redirects structured generalized space]]
-[[!redirects ringed ( ,1)-topos]]
+[[!redirects ringed (∞,1)-topos]]
 [[!redirects ringed generalized spaces]]
 [[!redirects ringed generalized space]]
