@@ -157,8 +157,12 @@ A review of the issue of flux compactifications is in
 * [[Mariana Graña]], _Flux compactifications in string theory: a comprehensive review_ ([arXiv:hep-th/0509003](http://arxiv.org/abs/hep-th/0509003))
  {#Grana05}
 
+General considerations on this state of affairs are in
 
-The fact that in principle all the parameters of the "landscape" of string theory vacua are dynamical (are moduli fields) and the idea that an [[eternal cosmic inflation]] might be something like an [[ergodic process]] in this landscape has led to ideas to connect this to [[phenomenology]] and the [[standard model of cosmology]]/[[standard model of particle physics]] by way of statistics.
+* [[Frank Wilczek]], _Multiversality_ ([arXiv:1307.7376](http://arxiv.org/abs/1307.7376))
+
+
+The fact that in principle all the parameters of the "landscape" of string theory vacua are dynamical (are moduli fields) and the idea that an [[eternal cosmic inflation]] might be something like an [[ergodic process]] in this landscape has led to ideas to connect this to [[phenomenology]] and the [[standard model of cosmology]]/[[standard model of particle physics]] by way of [[statistical mechanics]].
 
 Summaries of this line of thinking include
 
