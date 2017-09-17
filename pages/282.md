@@ -152,7 +152,7 @@ Let $X_\bullet$ be a [[filtered space]].
 
 Write $\Pi_1(X_1,X_0)$ for the subgroupoid of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects that are in $X_0$.
 
-The **[[fundamental crossed complex]]** $\Pi X_*$ of $X$ is the [[crossed complex]]
+The **fundamental crossed complex** $\Pi X_*$ of $X$ is the [[crossed complex]]
 
 with 
 
