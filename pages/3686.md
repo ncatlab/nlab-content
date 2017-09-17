@@ -17,7 +17,7 @@
 
 ### Symplectomorphisms
 
-A **symplectomorphism** from a [[symplectic manifold]] $(M,\omega)$ to a symplectic manifold $(N,\nu)$ is a [[diffeomorphism]] $f : M \to N$ preserving the [[sympletic form]]: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
+A **symplectomorphism** from a [[symplectic manifold]] $(M,\omega)$ to a symplectic manifold $(N,\nu)$ is a [[diffeomorphism]] $f : M \to N$ preserving the [[symplectic form]]: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
 
 ### Auto-symplectomorphisms
 
@@ -32,7 +32,7 @@ $$
 
 ### Preservation of volume
 
-Inasmuch as a symplectic manifold carries a canonical [[volume form]], it is clear that a symplectomorphism is locally volume-preserving. 
+Inasmuch as a symplectic manifold $(M, \omega)$ carries a canonical [[volume form]] $\omega^{\wedge n}$, it is clear that a symplectomorphism is locally volume-preserving. 
 
 
 ## Examples
@@ -48,7 +48,7 @@ $$
   vol(B_n) = \frac{\pi^{n/2}}{\Gamma(\frac{n}{2} + 1)}
 $$ 
 
-where $\Gamma$ is the [[Euler Gamma function]]. In dimension $2 n$, this gives 
+where $\Gamma$ is the Euler [[Gamma function]]. In dimension $2 n$, this gives 
 
 $$
   vol(B_{2 n}) = \frac{\pi^n}{n!}
