@@ -236,3 +236,8 @@ More on super line 2-bundles is secretly in
 [[!redirects line 2-bundles]]
 [[!redirects 2-line bundle]]
 [[!redirects 2-line bundles]]
+
+[[!redirects super line 2-bundle]]
+[[!redirects super line 2-bundles]]
+[[!redirects super 2-line bundle]]
+[[!redirects super 2-line bundles]]
