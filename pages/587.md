@@ -59,6 +59,7 @@ is as the [[slice category]] $\mathcal{C}_{/[\Gamma]}$ over the object the inter
 
 * [[antecedent]]
 
+* [[context extension]]
 
 ## References
 
