@@ -25,9 +25,9 @@ The [[4d TQFT]] analog of the Levin-Wen model is the [[Walker-Zhang model]].
 
 The original article is
 
-* Michael A. Levin, Xiao-Gang Wen, _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 ([arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617))
+* Michael A. Levin, [[Xiao-Gang Wen]], _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 ([arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617))
 
-A disucssion of the Levin-Wen model as an [[extended TQFT|extended]] [[2d TQFT]] formulated using [[tensor categories]] is in 
+A discussion of the Levin-Wen model as an [[extended TQFT|extended]] [[2d TQFT]] formulated using [[tensor categories]] is in 
 
 * [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ ([pdf](http://msc.tsinghua.edu.cn/upload/news_201246101459.pdf))
 
