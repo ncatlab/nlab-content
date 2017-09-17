@@ -1,9 +1,9 @@
-#Contents#
 
-* automatic table of contents goes here
+#Contents#
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 Spaces can be characterized by their [[algebra|algebras]] of functions. Using this [[duality]] between [[space and quantity]] one can define generalized spaces in terms of generalizations of their algebras of functions.
 
@@ -12,7 +12,7 @@ The idea of noncommutative geometry is to encode everything about the geometry o
 More generally, __noncommutative geometry__ means replacing the space by some structure carried by an entity (or a collection of entities) living on that would-be space. The entity may be for example a function, vector bundle, coherent sheaf, a complex of sheaves and KK-theory class. Objects organize into [[associative algebras]], [[operator algebras]],
 [[categories]], higher categories ($k$-linear or not) and so on; and sometimes such a collection represents a space.  [[reconstruction|Reconstruction]] theorems are theorems on construction of a genuine (say topological) "underlying" space of such an entity or collection.  Spectral theories are procedures (sometimes functors, often not) which recover some form of underlying space called [[spectrum (geometry)|spectrum]], often just partially or under strong assumptions on (the data determining) the noncommutative space.
 
-# Connes' noncommutative geometry #
+## Connes' noncommutative geometry 
 
 A particular and most prominent realization of the program of noncommutative geometry has been lead by [[Alain Connes]]. The central ingredients in Connes' noncommutative geometry are
 
@@ -28,7 +28,7 @@ For that reason [[Alain Connes|Connes]]' noncommutative manifolds are well descr
 
 In noncommutative geometry various homotopical and (co)homological invariants were introduced by large amount of improvization, similar to the beginnings of algebraic topology, but more recently there are few systematic approaches to homotopy theory emerging. See [[model structure on operator algebras]].
 
-#Very early sources and schools#
+## Very early sources and schools
 
 There are many sources of noncommutative spaces, e.g. [[quantization]] in [[physics]] (Snyder studied an interesting noncommutative space in the late 1940s). It has been often noticed, since Gel'fand--Neimark's work (see [[Gelfand spectrum]]), that many geometric notions for commutative [[Banach algebra]]s are interesting in the noncommutative case; among early enthusiasts one could mention [[Irving Segal]]; Semadeni's monograph on Banach spaces of continuous maps also predates the sudden expansion of the field in the late 1970s when [[Alain Connes]] ([web site](http://www.alainconnes.org/)) brought about a whole revolution in mathematics using the framework of noncommutative geometry based on [[operator algebra]]s, and boosted by the discovery of cyclic (co)homology by Connes and Boris Tsygan and its connection to [[K-theory]]. 
 
@@ -38,5 +38,11 @@ and so on) and stronger results in special cases like P. I. rings (polynomial id
 The quantization program and the study of [[integrable systems]] brought about a number of interesting examples (in the early phase by G. Kac, Sklyanin, Fadeev, Drinfel'd, Woronowicz, Jimbo, [[Yuri Manin|Manin]], Reshetikin, Lusztig, Majid and others) with group-like flavour, the study of [[quantum groups]] which were studied in a number of formalisms from operator algebraic to algebro-geometric and purely categorical. [[action|Actions]] are very important in noncommutative geometry, and are some of the main examples in Connes' school like group(oid) $C^*$-algebras, crossed product operator algebras and the study of functions on orbifolds and foliations. They also play an important role in [[equivariant noncommutative algebraic geometry]]; cf. the central notions like [[Hopf–Galois extension]] and entwining structure. 
 
 Noncommutative formal geometry, concerned with objects like infinitesimal neighborhoods of subvariaties, power series in noncommutative variables and so on, has been appearing more sporadically than the operator algebraic and algebro-geometric frameworks. Among pioneering works, there are [[Kontsevich]]'s (formal) noncommutative symplectic geometry (1992) and [[Kapranov's noncommutative geometry]] "based on commutator expansions". Noncommutative [[analytic geometry]] is even now only vaguely outlined in existing works. 
+
+## Related concepts
+
+* [[noncommutative scheme]]
+
+* [[non-commutative analytic space]]
 
 [[!redirects non-commutative geometry]]
