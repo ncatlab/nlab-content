@@ -11,7 +11,7 @@ A [[category]] $C$ is **$L$-finite** if the following equivalent conditions hold
 * $C$-[[limits]] commute with [[filtered colimits]] in [[Set]].
 * $C$ has an [[initial functor|initial]] [[finitely generated category|finitely generated]] [[subcategory]].
 * $C$ admits an [[initial functor]] from a [[finite category]].
-
+* $C$-limits lie in the [[saturated class of limits|saturation]] of the class of finite limits.
 
 ## Remarks
 
@@ -29,3 +29,7 @@ The notion of L-finite category is a sort of [[vertical categorification|categor
 
 [[!redirects L-finite category]]
 [[!redirects L-finite categories]]
+[[!redirects L-finite limit]]
+[[!redirects L-finite limits]]
+[[!redirects L-finite colimit]]
+[[!redirects L-finite colimits]]
