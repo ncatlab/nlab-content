@@ -1,0 +1,8 @@
+
+
+A collection of [[integers]] is called _coprime_ or _relatively prime_ if the only common [[prime factor]] is 1.
+
+[[!redirects coprime numbers]]
+
+[[!redirects relatively prime integers]]
+[[!redirects relatively prime numbers]]
