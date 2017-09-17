@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -11,30 +11,44 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-That [[category]] $Mod$ is the category of all [[module]]s over all commutative [[ring]]s.
+Given a [[monoid]] $R$ in a [[monoidal category]] $(\mathcal{C}, \otimes)$, $R$[[Mod]] is the [[category]] whose [[objects]] are $R$-[[modules]] in $\mathcal{C}$ and whose morphisms are module homomorphisms.
+
+Specifically if $(\mathcal{C}, \otimes)$ is the category [[Ab]] of [[abelian groups]] and $\otimes$ the [[tensor product of abelian groups]], then $R$ is a [[ring]]. 
+
+We write just $Mod$ for the category whose objects are pairs $(R,N)$ consisting of a monoid $R$ and an $R$-module, and whose morphisms may also map between different monoids.
 
 
-## Definition
 
-* An [[object]] is a pair $(R,N)$ consisting of a commutative [[ring]] $R$ and an $R$-[[module]] $N$. 
+## Definition of $Mod$
 
-* A [[morphism]]
+We assume that the ambient [[monoidal category]] is [[Ab]] with the [[tensor product of abelian groups]]. But the definition works more generally
 
-  $$
-   (\phi,\kappa) :  (R,N) \to (R',N')
-  $$
++-- {: .num_defn #ModSpelledOut}
+###### Definition
 
-  is a pair consisting of a ring homomorphism $\phi : R \to R'$ and a morphism $\kappa : N \to \phi^* N'$ of $R$-modules, where $\phi^* N'$ is the [[tensor product]] $\phi^* N' := R \otimes_{\phi} N$.
+An [[object]] in $Mod$ is a pair $(R,N)$ consisting of a commutative [[ring]] $R$ and an $R$-[[module]] $N$. 
 
+A [[morphism]]
 
-## As a bifibration
+$$
+ (\phi,\kappa) :  (R,N) \to (R',N')
+$$
 
-Projecting out the first items in these pairs yields a canonical functor
+is a pair consisting of a ring [[homomorphism]] $\phi : R \to R'$ and a morphism $\kappa : N \to \phi^* N'$ of $R$-modules, where $\phi^* N'$ is the [[tensor product]] $\phi^* N' := R \otimes_{\phi} N$.
+
+=--
+
+## Properties
+
+### $Mod$ as a bifibration
+ {#ModAsBifibration}
+
+Projecting out the first items in the pairs appearing in def. \ref{ModSpelledOut} yields a canonical functor
 
 $$
   p :Mod \to CRing
@@ -58,7 +72,8 @@ $$
 the category [[Ab]] of abelian groups.
 
 
-## Tangents and deformation theory
+### Tangents and deformation theory
+ {#TangentsAndDeformationTheory}
 
 By an old observation of Quillen -- reviewed at [[module]] -- the bifibration $Mod \to CRing$ this is [[equivalence of categories|equivalent]] to the category of fiberwise abelian [[group object]] in the [[codomain fibration]] $[I,CRing] \to CRing$:
 
@@ -95,10 +110,128 @@ $$
   \,.
 $$
 
+### $R Mod$ is an abelian category
+ {#RModIsAbelian}
+
+Let the ambient [[monoidal category]] be [[Ab]] equipped with the [[tensor product of abelian groups]].
+
++-- {: .num_theorem #RModIsAbelian}
+###### Theorem
+
+Let $R$ be a [[commutative ring]]. Then $R Mod$ is an [[abelian category]].
+
+=--
+
+We discuss now all the ingredients of this statement in detail.
+
+Let $U : R Mod \to Set$ be the [[forgetful functor]] to the underlying sets.
+
++-- {: .num_prop #RModHasZeroObject}
+###### Proposition
+
+$R Mod$ has a [[zero object]], given by the 0-module, the trivial abelian group equipped with trivial $R$-action.
+
+=--
+
++-- {: .num_prop #RModHasKernelsAndCokernels}
+###### Proposition
+
+
+$R Mod$ has all [[kernels]]. The kernel of a homomorphism $f : N_1 \to N_2$ is the set-theoretic [[preimage]] $U(f)^{-1}(0)$ equipped with the induced $R$-module structure.
+
+$R Mod$ has all [[cokernels]]. The cokernel of a homomorphism $f : N_1 \to N_2$ is the [[quotient]] abelian group 
+
+$$
+  coker f = \frac{N_2}{im(f)}
+$$
+
+of $N_2$ by the [[image]] of $f$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+$U : R Mod \to Set$ preserves and reflects [[monomorphisms]] and [[epimorphisms]]:
+
+A homomorphism $f : N_1 \to N_2$ in $R Mod$ is a [[monomorphism]] / [[epimorphism]] precisely if $U(f)$ is an [[injection]] / [[surjection]].
+
+
+=--
+
++-- {: .num_prop #RModIsAbEnriched}
+###### Proposition
+
+$R Mod$ is an [[Ab-enriched category]]. 
+
+For $N_1, N_2 \in R Mod$ the abelian group structure on $Hom(N_1,N_2)$ is given by argumentwise addition in $N_2$: $(f_1 + f_2) : n \mapsto f_1(n) + f_2(n)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In fact $R Mod$ is even a [[closed category]], but this we don not need for showsing that it is abelian.
+
+=--
+
+Prop. \ref{RModHasZeroObject} and prop. \ref{RModIsAbEnriched} together say that:
+
++-- {: .num_cor #RModIsAdditive}
+###### Corollary
+
+$R Mod$ is an [[pre-additive category]]. 
+
+=--
+
++-- {: .num_prop #RModHasProductsAndCoproducts}
+###### Proposition
+
+$R Mod$ has all [[products]] and [[coproducts]], being [[direct products]] and  [[direct sums]]. 
+
+The products are given by [[cartesian product]] of the underlying sets with componentwise addition and $R$-action.
+
+The direct sum is the subobject of the product consisting of tuples of elements such that only finitely many are non-zero.
+
+=--
+
+Together cor. \ref{RModIsAdditive} and prop. \ref{RModHasProductsAndCoproducts} say that:
+
++-- {: .num_cor #RModIsAdditive}
+###### Corollary
+
+$R Mod$ is an [[additive category]].
+
+=--
+
+
++-- {: .num_prop #InRModMonosAreKernelOfTheirCokernel}
+###### Proposition
+
+In $R Mod$
+
+* every [[monomorphism]] is the [[kernel]] of its [[cokernel]];
+
+* every [[epimorphism]] is the [[cokernel]] of its [[kernel]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using prop. \ref{RModHasKernelsAndCokernels} this is directly checked on the underlying sets.
+
+=--
+
+Now cor. \ref{RModIsAdditive} and prop. \ref{InRModMonosAreKernelOfTheirCokernel} imply theorem \ref{RModIsAbelian}, by definition.
 
 ## References
 
-A summary of these classical facts together with their embedding into the bigger picture of [[tangent (∞,1)-category|tangent (∞,1)-categories]] is in
+Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for instance in 
+
+* Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
+
+A summary of the discussion in [Mod as a bifibration](#ModAsBifibration) and [Tangents and deformation theory](#TangentsAndDeformationTheory) together with their embedding into the bigger picture of [[tangent (∞,1)-category|tangent (∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
