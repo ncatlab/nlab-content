@@ -152,27 +152,6 @@ naturally in $e$.
 
 There is a [[faithful functor]] from monoidal categories to [[multicategories]], given by forming [[representable multicategory|representable multicategories]].
 
-## References
-
-The definition of monoidal category can be found on [John Armstrong's blog](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [Wikipedia](http://en.wikipedia.org/wiki/Monoidal_category).
-
-For definitions of [[monoidal functor]] and [[monoidal natural transformation]], see:
-
-* [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
-
-It would be nice if **you**, dear reader, would add these definitions to the $n$Lab!   The [LaTeX code](http://math.ucr.edu/home/baez/qg-fall2004/texfiles/definitions.tex) is available if you want.
-
-For an elementary introduction to monoidal categories using string diagrams, see:
-
-* John Baez and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
-
-For a more detailed tour of monoidal categories, also using string diagrams, try:
-
-* Peter Selinger, [A survey of graphical languages for monoidal categories](http://www.mathstat.dal.ca/~selinger/papers.html#graphical).
-
-Selinger discusses autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories.
-
-
 ## Where the Definition Comes From
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
@@ -543,9 +522,27 @@ higher versions
 
   * [[closed monoidal (∞,1)-category]]
 
-## Related concepts
+## References
 
-* [[Picard group]]
+Related $n$Lab entries: [[Picard group]], [[multicategory]], [[bicategory]], [[enriched category]], [[actegory]]
+
+* [[Max Kelly]], _Basic concepts of enriched category theory_,
+London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, [tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)
+
+The definition of monoidal category can be found on [John Armstrong's blog](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [Wikipedia](http://en.wikipedia.org/wiki/Monoidal_category).
+
+For definitions of [[monoidal functor]] and [[monoidal natural transformation]], see:
+
+* [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf); [LaTeX code](http://math.ucr.edu/home/baez/qg-fall2004/texfiles/definitions.tex)
+
+For an elementary introduction to monoidal categories using string diagrams, see:
+
+* John Baez, [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
+
+A more detailed tour of monoidal categories, also using string diagrams, and including autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories:
+
+* Peter Selinger, [A survey of graphical languages for monoidal categories](http://www.mathstat.dal.ca/~selinger/papers.html#graphical).
+
 
 [[!redirects monoidal category]]
 [[!redirects monoidal categories]]
