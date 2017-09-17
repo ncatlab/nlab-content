@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -221,7 +220,7 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[unitisation of C*-algebras]]
 
-* [[von Neumann algebra]]
+* [[von Neumann algebra]], [[enveloping von Neumann algebra]]
 
 * [[Jordan-Lie-Banach algebra]]
 
