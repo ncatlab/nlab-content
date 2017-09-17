@@ -1,4 +1,4 @@
-[[!redirects exterior covariant derivative]]
+[[!redirects Exterior Covariant Derivative]]
 We require:
 
 * A smooth manifold $M$.
@@ -72,3 +72,6 @@ $$
 The Bianchi identity is $\mathrm{d}^{\omega}\Omega=0$. 
 
 Under the isomorphism $\Omega^k_{\rho}(P,V) \cong \Omega^k(M,P \times_{\rho}V)$, the curvature $\Omega$ corresponds to a 2-form $F_{\omega} \in \Omega^2(M,\mathrm{Ad}(P))$, and the Bianchi-identity corresponds to $\mathrm{D}^{\omega}F_{\omega} = 0$. 
+
+
+[[!redirects exterior covariant derivative]]
