@@ -22,6 +22,8 @@
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
+  * [[cobordism cohomology theory]]
+
   * [[integral cohomology]]
 
   * [[K-theory]]
@@ -29,8 +31,6 @@
   * [[elliptic cohomology]]
 
   * [[tmf]]
-
-  * [[complex cobordism cohomology theory|complex cobordism]]
 
 * [[abelian sheaf cohomology]]
 
@@ -92,13 +92,15 @@
 
   * [[differential cohomology|differential generalized (Eilenberg-Steenrod) cohomology]]
 
+    * [[differential cobordism cohomology]]
+
+    * [[Deligne cohomology]]
+
     * [[differential K-theory]]
 
-  * [[schreiber:theory of differential nonabelian cohomology|differential nonabelian cohomology]]
+    * [[differential elliptic cohomology]]
 
-  * [[schreiber:differential equivariant cohomology|differential equivariant cohomology]]
-
-  * [[schreiber:differential twisted cohomology|differential twisted cohomology]]
+  * [[schreiber:differential cohomology in an (∞,1)-topos]]
 
 * [[relative cohomology]]
 
