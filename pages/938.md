@@ -87,4 +87,24 @@ Do you think some light treatment of simple homotopy theory might be useful,say 
 A different direction of generalization is the notion of a [[homotopy equivalence of toposes]].
 
 
+## Related concepts
+
+* [[equality]]
+
+* [[isomorphism]]
+
+* [[equivalence]]
+
+* [[weak equivalence]]
+
+* [[homotopy equivalence]], **weak homotopy equivalence**
+
+* [[homotopy equivalence of toposes]]
+
+* [[equivalence in an (∞,1)-category]]
+
+* [[equivalence of (∞,1)-categories]]
+
+
+
 [[!redirects weak homotopy equivalences]]
