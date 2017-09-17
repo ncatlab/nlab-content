@@ -47,7 +47,7 @@ a\mapsto w_n(a)
 are morphisms of rings. In fact this unicity indicates that $W$ has a left adjoint. 
 =--
 
-### The Witt polynomials{#Witt polynomials}, the $\Sigma_i$, the $\Pi_i$
+### The Witt polynomials{#Witt polynomials}, the $\Sigma_i$, the $\Pi_i$, phantom components
 
 let $x_1, x_2, \ldots $ be a collection of [[indeterminate]]s. We can define an infinite collection of [[polynomial]]s in $\mathbb{Z}[x_1, x_2, \ldots ]$ using the following formulas:
 
@@ -59,7 +59,7 @@ $w_3(X)=x_1^3+3x_3$
 
 $w_4(X)=x_1^4+2x_2^2+4x_4$
 
-and in general $\displaystyle w_n(X)=\sum_{d|n} dx_n^{n/d}$.
+and in general $\displaystyle w_n(X)=\sum_{d|n} dx_n^{n/d}$. The value $w_n(w)$ of the $n$-th Witt polynomial in some element $w\in W(k)$ of the Witt ring of $k$ is sometimes called the *$n$-th phantom component of $w$*.
 
 
 Now let $\phi(z_1, z_2)\in\mathbb{Z}[z_1, z_2]$. This just an arbitrary two variable polynomial with coefficients in $\mathbb{Z}$. 
@@ -88,19 +88,27 @@ We can actually get this idea to work for any characteristic $0$ ring by conside
 Lastly, we need to prove this for positive [[characteristic]] rings. Choose a characteristic $0$ ring that surjects onto $A$, say $B\to A$. Then since the induced map again preserves everything and $W(B)\to W(A)$ is [[surjective]], the image is a ring and hence $W(A)$ is a ring. 
 =--
 
-### Duality of finite Witt groups
+## Duality of finite Witt groups
 
-### Examples
+## Examples
 
 * $W_{p^\infty}(\mathbb{F}_p)\simeq \mathbb{Z}_p$ the $p$-adic integers.
 
 * $W_{p^\infty}(\mathbb{F}_{p^n})$ is the unique [[unramified extension]] of $\mathbb{Z}_p$ of degree $n$.
 
-## Operations on the Witt vectors
+## Operations on the p-adic Witt vectors
 
 We assume we're in the case of $p$-typical Witt vectors. Since the ring operations of the first $n$ components only involve the first $n$ components, the truncated Witt vectors $W_n(A)$ are still rings and the projection map $W(A)\to W_n(A)$ is a [[ring homomorphism]].
 
-We have a shift operator $V: W_n(A)\to W_{n+1}(A)$ that is given on elements by $(a_0, \ldots, a_{n-1})\mapsto (0, a_0, \ldots, a_{n-1})$. Note that this map is additive, but is not a ring map. We also have the restriction map $R: W_{n+1}(A)\to W_n(A)$ given by $(a_0, \ldots, a_n)\mapsto (a_0, \ldots, a_{n-1})$. 
+### The Verschiebung map
+
+We have a shift operator $V: W_n(A)\to W_{n+1}(A)$ that is given on elements by $(a_0, \ldots, a_{n-1})\mapsto (0, a_0, \ldots, a_{n-1})$. $V$ is a morphism of groups but is not a morphism of rings.
+
+### The restriction map
+
+We also have the restriction map $R: W_{n+1}(A)\to W_n(A)$ given by $(a_0, \ldots, a_n)\mapsto (a_0, \ldots, a_{n-1})$. 
+
+### The Frobenius morphism
 
 Lastly, we have the Frobenius endomorphism $F: W_n(A)\to W_n(A)$ given by $(a_0, \ldots , a_{n-1})\mapsto (a_0^p, \ldots, a_{n-1}^p)$. This is also a ring map, but only because of our necessary assumption that $A$ is of characteristic $p$.
 
