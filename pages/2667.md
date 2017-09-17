@@ -109,7 +109,7 @@ This symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, a
 
 ### Modules over a bimonoid ###
 
-Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a cocommutative [[bialgebra]] --- or in fancier language, a cocommutative [[bimonoid]] in the symmetric monoidal category $FinVect_k$.  Since $i : FinVect_k \to C$ is a symmetric monoidal category, this means that $i$ carries $k[S_n]$ to a commutative bimonoid in $C$.  As noted above, we call bimonoid by the same name, $k[S_n]$.
+Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a cocommutative [[bialgebra]] --- or in fancier language, a cocommutative [[bimonoid]] in the symmetric monoidal category $FinVect_k$.  Since $i : FinVect_k \to C$ is a symmetric monoidal functor, this means that $i$ carries $k[S_n]$ to a cocommutative bimonoid in $C$.  As noted above, we call bimonoid by the same name, $k[S_n]$.
 
 The category of modules over a cocommutative bimonoid is a symmetric monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
 
@@ -140,6 +140,12 @@ $$e: V_\nu \otimes X^{\otimes n} \to V_\nu \otimes X^{\otimes n}$$
 This operator makes sense since $k$ has characteristic zero, and crucially, this operator is _idempotent_ (because $e = \sigma e$ for all $\sigma \in S_n$). Because we assume idempotents split in $C$, we have a (split) coequalizer 
 
 $$V_\nu \otimes X^{\otimes n} \stackrel{\overset{e}{\to}}{\underset{1}{\to}} V_\nu \otimes X^{\otimes n} \to V_\nu \otimes_{S_n} X^{\otimes n}$$
+
+This coequalizer is indeed the object of $S_n$-coinvariants of $V_\nu \otimes X^{\otimes n}$, i.e., the joint coequalizer of the diagram consisting of all arrows
+
+$$V_\nu \otimes X^{\otimes n} \stackrel{\sigma \cdot-}{\to} V_\nu \otimes X^{\otimes n}$$
+
+ranging over $\sigma \in S_n$ (it is the joint coequalizer because $e = \sigma e$ for all $\sigma$). 
 
 We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $\nu$. 
 
@@ -218,24 +224,29 @@ U(D) & \underset{S_D}{\to} & U(D)
 
 ## Discussion for module categories ##
 
-The weakest or baseline assumption is that objects of $SymMonLin$ are symmetric monoidal additive categories in which idempotents split. In the case of modules over a commutative ring $A$, this means that minimally we have to include finitely generated projective $A$-modules. This plays a role analogous to finite-dimensional vector spaces over a field, and in fact let's emphasize the analogy by letting $Vect_A$ denote the category of finitely generated projectives over $A$. 
+In this discussion we assume that $SymMonLinCat_k$ is the 2-category of symmetric monoidal _Cauchy-complete_ $k$-linear categories over a field $k$ of characteristic zero, with morphisms symmetric monoidal $k$-linear functors and 2-morphisms the symmetric monoidal $k$-linear transformations. 
 
-Here are some very easy but possibly suggestive observations: 
++-- {: .un_thm}
+######Theorem 
+The underlying functor 
+$$U: SymMonLinCat_k \to Cat$$ 
+is representable, in fact is represented by the Cauchy completion of the $k$-linearization of the groupoid of finite permutations $\mathbb{P}$. (If $k \mathbb{P}$ denotes the $k$-linearization, then $\widebar{k \mathbb{P}}$ denotes its Cauchy completion.) 
+=-- 
 
-* A 1-object symmetric monoidal $Ab$-category is precisely a commutative ring $A$. 
+The proof is pretty straightforward; I'll write it up later. 
 
-* The Cauchy completion of $A$ is the symmetric monoidal $Ab$-category $Vect_A$. 
+Let us calculate this Cauchy completion. It is the linear category of all $k$-linear functors 
 
-* A symmetric monoidal $Ab$-functor between commutative rings is precisely a ring homomorphism $\phi: A \to B$. 
+$$k\mathbb{P}^{op} \to Vect_k$$  
 
-* A symmetric monoidal $Ab$-functor $Vect_A \to Vect_B$ is monoidally isomorphic to one of the form 
-$$B \otimes_A -: Vect_A \to Vect_B$$ 
-for some unique $A$-algebra structure (ring homomorphism) $f: A \to B$. 
+which as modules are left adjoint to modules 
 
-Thus, if $S$ is a (polymorphic) Schur functor, the pseudonaturality forces the presence of strength isomorphisms 
+$$k\mathbb{P} \to Vect_k$$ 
 
-$$B \otimes_A S(M) \cong S(B \otimes_A M)$$ 
+but since $k\mathbb{P}$ is the coproduct of the one-object $k$-linear categories $k S_n$, this comes down to a sequence of modules 
 
-for any $A$-algebra $f: A \to B$ and for any $M$ in $Vect_A$ (and in fact for any $A$-module $M$ whatsoever). 
+$$(k S_n)^{op} \to Vect_k$$ 
 
-_To be continued..._
+which are left adjoint to modules $k S_n \to Vect_k$. These are well known as the finitely generated projective modules over $S_n$. (Of course, in characteristic zero, all finitely generated $S_n$-modules are projective, by Maschke's theorem.) 
+
+To be continued. 
