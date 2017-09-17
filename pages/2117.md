@@ -15,7 +15,7 @@
 
 ## Idea
 
-A universe is a realm within which [[mathematics]] may be thought of as taking place.  Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics.  There are several different kinds of 'universes'.
+A universe is a realm within which [[mathematics]] may be thought of as taking place.  Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics.  There are several different kinds of 'universes'. For a physical notion of universe see [[observable universe]].
 
 
 ## Categories as universes
