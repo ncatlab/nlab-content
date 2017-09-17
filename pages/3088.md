@@ -12,18 +12,15 @@
 
 A notion of _internal [[∞-groupoid]]_ is a [[vertical categorification]] of [[internal groupoid]]. As described at that entry on [[vertical categorification]], there is some flexibility possible in exactly what one may mean by this, depending for instance on which of several definitions of ordinary [[groupoid]]s one starts with, and how one deals with the higher coherences that are introduced upon categorification.
 
+One very general notion of internal $\infty$-groupoid is given by taking some standard definition of $\infty$-groupoid and writing it down internally to an [[(∞,1)-category]].  This is described below in the section
 
-The standard model for general ("weak") [[∞-groupoid]]s is given by the notion of [[Kan complexes]]. A very general notion of internal $\infty$-groupoid is given by a notion of Kan complex-up-to-homotopy internal to an [[(∞,1)-category]].
+* [∞-groupoids internal to an (∞,1)-category](#KanInoo1Cat).
 
-This is described below in the section
-
-* [Kan complexes internal to an (∞,1)-category](#KanInoo1Cat).
-
-For various applications somewhat stricter or at least more rigidified models for this may be useful. Notably one may wish to speak of Kan complexes internal to an ordinary category. This is discussed below in the section
+For various applications somewhat stricter or at least more rigidified models for this may be useful. Notably one may wish to speak of $\infty$-groupoids internal to an ordinary category.  In terms of [[Kan complexes]] as a model for ordinary [[∞-groupoids]], this is discussed below in the section
 
 * [Kan complexes internal to an ordinary category](#KanIn1Cat).
 
-Notice from the discussion there that these two aspects may and often do interplay: simplicial sets internal to [[Grothendieck topos|sheaf topos]]es may be used to [[presentable (infinity,1)-category|present]] [[(∞,1)-category|(∞,1)-categories]] inside of which one may be interested in $\infty$-groupoid objects in the first sense. For instance a Lie $\infty$-group object is usefully thought of as a _group object_ internal to the [[(∞,1)-topos]] presented by [[model structure on simplicial presheaves|a model of simplicial sets in]] the [[category of sheaves]] on [[Diff]].
+Notice from the discussion there that these two aspects may and often do interplay: simplicial objects in [[Grothendieck topos|sheaf topos]]es may be used to [[presentable (infinity,1)-category|present]] [[(∞,1)-category|(∞,1)-categories]] inside of which one may be interested in $\infty$-groupoid objects in the first sense. For instance a Lie $\infty$-group object is usefully thought of as a _group object_ internal to the [[(∞,1)-topos]] presented by [[model structure on simplicial presheaves|a model of simplicial sets in]] the [[category of sheaves]] on [[Diff]].
 
 Finally, a simplified version of [[∞-groupoid]] is often sufficient and useful: that given by [[strict omega-groupoid|strict ∞-groupoid]]s, equivalently [[crossed complexes]]. These may be straightforwardly [[internalization|internalized]] in any ordinary category with [[pullback]]s. This is discussed in
 
@@ -36,11 +33,13 @@ Under the internal [[omega-nerve]] operation this will embed into the definition
 is very useful.
 
 
-## Kan complexes internal to an $(\infty,1)$-category {#KanInoo1Cat}
+## Internal $\infty$-groupoids in an $(\infty,1)$-category {#KanInoo1Cat}
 
-This is described in detail at
+The special case of internal *1-groupoids* in an (∞,1)-category, which are still only associative and unital up to higher homotopy, but which do not include "higher cells" as additional data, is discussed in detail at:
 
-* [[groupoid object in an (∞,1)-category]]
+* [[groupoid object in an (∞,1)-category]].
+
+The general case remains to be explored.
 
 ## Kan complexes in an ordinary category {#KanIn1Cat}
 
