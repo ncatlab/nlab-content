@@ -90,6 +90,8 @@ This is a "$\theta$-algebra."/[[p-derivation]] as in remark \ref{AsPDerivations}
 
 Note in particular that $\psi$ is a lift of the [[Frobenius homomorphism]]. There are generalizations of $\psi, \theta$ at higher [[chromatic levels]], too, and there isa modular interpretation of the resulting algebraic structure in ([Rezk 09](#Rezk09)).
 
+By ([Strickland 98](#Strickland98)) we have that if $G$ is the [[formal group]] associated to a [[Morava E-theory]], then Frobenius lifts (twhich corresponds to degree $p^k$ subgroups of $G$) are classified by maps into $E^0(B \Sigma_{p^r})/I_{t r}$ where $I_{t r}$ is the transfer ideal. So, for example, the map $\psi$ above corresponds to a universal map $KU^0 \to KU^0(B \Sigma_p)/I_{t r} \simeq KU^0$.
+
 ## Related concepts
 
 * [[Adams operation]]
@@ -123,4 +125,11 @@ More discussion in the generality of [[E-infinity arithmetic geometry]] is in
 Discussion for $K(1)$-local $E_\infty$-rings is in 
 
 * {#Hopkins} [[Michael Hopkins]], _$K(1)$-local $E_\infty$-Ring spectra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/knlocal.pdf))
+
+and discussion of power operatins in [[Morava E-theory]] is in 
+
+* [[Matthew Ando]], _Isogenies of formal group laws and power operations in the cohomology theories $E_n$_, Duke Math. J. Volume 79, Number 2 (1995), 423-485 ([Euclid](http://projecteuclid.org/euclid.dmj/1077285158))
+
+* {#Strickland98} [[Neil Strickland]], _Morava E-theory of symmetric groups_ ([arXiv:math/9801125](http://arxiv.org/abs/math/9801125))
+
 [[!redirects power operations]]
