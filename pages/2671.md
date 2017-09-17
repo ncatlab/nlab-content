@@ -70,6 +70,8 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
   * [[generalized second law of thermodynamics]]
 
+* [[cosmology]]
+
 ## References
 
 ### General
