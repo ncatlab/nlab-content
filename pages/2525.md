@@ -38,7 +38,7 @@ $$
 
 If there is only one degree of freedom then one talks in singular: Euler-Lagrange equation. 
 
-Unlike in the usual [[classical mechanics|classical mechanical] systems, in some other problems of [[calculus of variations]] one has Lagrangians involving higher time derivatives; the Euler-Lagrange equations have then correspondingly more terms. Similarly, one can have dependence on more parameters than a single time parameter, what can also be easily incorporated. 
+Unlike in the usual [[classical mechanics|classical mechanical]] systems, in some other problems of [[calculus of variations]] one has Lagrangians involving higher time derivatives; the Euler-Lagrange equations have then correspondingly more terms. Similarly, one can have dependence on more parameters than a single time parameter, what can also be easily incorporated. 
 
 ## Examples
 
