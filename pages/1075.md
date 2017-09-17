@@ -24,7 +24,7 @@ Let $S$ be a [[category]]. A system of **local epimorphisms** on the [[presheaf]
 
 **LE3** if the composite $A_1 \stackrel{u}{\to} A_2 \stackrel{v}{\to} A_3$ is a local epimorphism, then so is $v$;
 
-**LE4** a morphism $u : A \to B$ is a local epimorphism precisely if for all $U \in S$ and morphisms $y: U \to B$ the [[pullback]] morphism $A \times_B U \to U$ is a local epimorphism.
+**LE4** a morphism $u : A \to B$ is a local epimorphism precisely if for all $U \in S$ (regarded as a [[representable presheaf]]) and morphisms $y: U \to B$, the [[pullback]] morphism $A \times_B U \to U$ is a local epimorphism.
 
 ## Relation to sieves
 
