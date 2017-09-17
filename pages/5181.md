@@ -55,7 +55,7 @@ In the language of [[derived algebraic geometry]] they were considered in
 
 * [[J. P. Pridham]], _Representability of derived stacks_, [arxiv/1011.2189](http://arxiv.org/abs/1011.2189)
 
-For the construction of the derived moduli stack of [[perfect complexes]] on a [[smooth]] [[proper]] [[scheme]], see
+For the construction of the derived moduli stack of [[perfect complexes]] on a [[smooth scheme|smooth]] [[proper morphism|proper]] [[scheme]], see
 
 * [[Bertrand Toen]], [[Michel Vaquie]], _Moduli of objects in dg-categories_, 2007, [arXiv:math/0503269](http://arxiv.org/abs/math/0503269).
 
