@@ -5,7 +5,7 @@
 
 ## Idea
 
-Inside the [[moduli stack of formal group laws]] sits the _moduli stack of one dimensional tori_ $\mathcal{M}_{\mathbb{G}_m}$ ([Lawson-Naumann 12, def. A.1, A.3](#LawsonNaumann12)). This is equivalent to the [[quotient stack]] of the point by the [[group of order 2]]
+Inside the compactified [[moduli stack of elliptic curves]], at the [[cusp]] point corresponding to the [[nodal cubic curve]] sits the _moduli stack of [one dimensional tori](http://ncatlab.org/nlab/show/torus#InAlgebraicGeometry)_ $\mathcal{M}_{\mathbb{G}_m}$ ([Lawson-Naumann 12, def. A.1, A.3](#LawsonNaumann12)). This is equivalent to the [[quotient stack]] of the point by the [[group of order 2]]
 
 $$
   \mathcal{M}_{\mathbb{G}_m}\simeq \mathbf{B}\mathbb{Z}_2
@@ -30,3 +30,5 @@ which is reviewed and amplified further in
 * {#Mathew13} [[Akhil Mathew]], section 3 of _The homology of $tmf$ ([arXiv:1305.6100](http://arxiv.org/abs/1305.6100)) 
 
 * {#Mathew} Akhil Mathew, section 2 of _The homotopy groups of $TMF$_, talk notes ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
+
+[[!redirects moduli stack of 1-dimensional tori]]
