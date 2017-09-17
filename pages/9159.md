@@ -35,3 +35,7 @@ With the understanding [[quantum mechanics]] the _principle of extremal action_ 
 [[!redirects preinciple of stationary action]]
 [[!redirects principle of extremal action]]
 [[!redirects action principle]]
+
+[[!redirects least action principle]]
+[[!redirects least action principles]]
+
