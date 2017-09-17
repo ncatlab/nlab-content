@@ -18,7 +18,9 @@
 
 * [[realizability]]
 
-* [[computable function (analysis)]], [[Kleene's second algebra]]
+* [[Kleene's second algebra]]
+
+[[!include computable mathematics -- table]]
 
 ## References
 
