@@ -1126,6 +1126,12 @@ in section 4.2.
 [[!redirects differential string-structure]]
 [[!redirects differential string-structures]]
 
+[[!redirects twisted differential string structure]]
+[[!redirects twisted differential string structures]]
+[[!redirects twisted differential string-structure]]
+[[!redirects twisted differential string-structures]]
+
+
 [[!redirects geometric string structure]]
 [[!redirects geometric string structures]]
 [[!redirects geometric string-structure]]
