@@ -17,15 +17,21 @@ The nullary forms of distributivity follow automatically:
 
 Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice?  This convenience does *not* extend to infintary distributivity, however.
 
+Distributive lattices and lattice [[homomorphisms]] form a [[concrete category]] [[DistLat]].
+
+
+## Examples
 
 Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lattice.
 
+## Properties
 
-Distributive lattices and lattice [[homomorphisms]] form a [[concrete category]] [[DistLat]].
+Every distributive lattice, regarded as a [[category]], is a _[[coherent category]]_.
 
 ## Related concepts
 
-* [[canonical extension]]
+
+A notion of extension of distributive lattices is  _[[canonical extension]]_.
 
 
 [[!redirects distributive lattices]]
