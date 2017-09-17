@@ -6,7 +6,7 @@
 
 ## Idea
 
-For $A$ a [[commutative ring]] and $p$ a [[prime number]], then there is the  [[topological ring|topological]] [[p-completion]] $A_p^\wedge \coloneqq \underset{\leftarrow}{\lim}_n A/(p^n A)$. The _analytic completion_ is instead the [[quotient]] 
+For $A$ a [[commutative ring]] and $p$ a [[prime number]], then there is the  [[formal completion|topological completion]] at $(p)$, the _[[p-completion]]_ $A_p^\wedge \coloneqq \underset{\leftarrow}{\lim}_n A/(p^n A)$. The _analytic completion_ is instead the [[quotient]] 
 
 $$
   A[ [ x ] ]/(x-p)A[ [ x ] ]
