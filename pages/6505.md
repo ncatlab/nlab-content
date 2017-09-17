@@ -1,6 +1,16 @@
+
+# The moment map
+* table of contents
+{: toc}
+
+## Idea
+
 The moment map came up historically as a generalization of [[angular momentum]] in the [[rigid body dynamics|dynamics of rigid bodies]].
 
-The basic setup is the following: Let $(M,\omega)$ be a [[symplectic manifold]] with a [[Hamiltonian action]] of a [[Lie group]] $G$. In particular that means that there is an [[action]] $\nu\colon G \times M \to M$ via [[symplectomorphism]]s (diffeomorphisms $\nu_g$ such that $\nu_g^*(\omega) = \omega$). A vector field $X$ is [[symplectic]] if the corresponding flow preserves (again by pullbacks) $\omega$. The symplectic vector fields form a Lie subalgebra $\xhi(M,\omega)$ of the Lie algebra of all smooth vector fields $\chi(M)$ on $M$ with respect to the Lie bracket. 
+
+## Definition
+
+The basic setup is the following: Let $(M,\omega)$ be a [[symplectic manifold]] with a [[Hamiltonian action]] of a [[Lie group]] $G$. In particular that means that there is an [[action]] $\nu\colon G \times M \to M$ via [[symplectomorphism]]s (diffeomorphisms $\nu_g$ such that $\nu_g^*(\omega) = \omega$). A vector field $X$ is [[symplectic]] if the corresponding flow preserves (again by pullbacks) $\omega$. The symplectic vector fields form a Lie subalgebra $\chi(M,\omega)$ of the Lie algebra of all smooth vector fields $\chi(M)$ on $M$ with respect to the Lie bracket. 
 
 By the [[Cartan homotopy formula]] and closedness $d \omega = 0$
 
@@ -40,6 +50,7 @@ $$
 
 The moment map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotient]]s.
 
+
 ## References
 
 * A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
@@ -54,5 +65,7 @@ Math. Soc. __14__ (1982), 1-15.
 * W. Crawley-Boevey, _Geometry of the moment map for representations of
 quivers_, Compositio Math. __126__ (2001), no. 3, 257-293.
 * [[Joel W. Robbin]], _Moment map_, an exposition, [pdf](http://www.math.wisc.edu/~robbin/moment.pdf)
+
+
 [[!redirects moment map]]
 [[!redirects moment maps]]
