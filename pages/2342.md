@@ -76,7 +76,7 @@ An elliptic curve over a [[field]] of [[positive number|positive]] [[characteris
 
 Elliptic curves are examples of solutions to [[Diophantine equations]] of degree 3. We start by giving the equation valued over general rings, which is fairly complicated compared to the special case that it reduces to in the classical case over the [[complex numbers]]. The more elements in the ground ring are invertible, the more the equation may be simplified.
 
-(See also for instance ([QuickIntro](#QuickIntro)), which we follow notationally to some degree.)
+(See [Silverman 09, III.1](#Silverman09) for a textbook account and for instance ([QuickIntro](#QuickIntro)) for a quick survey.)
 
 ##### Weierstrass cubic, discriminant and $j$-invariant
  {#WeierstrassCubicDiscriminantAndJInvariant}
@@ -369,6 +369,10 @@ Introductory lecture notes for elliptic curves over the complex numbers include
 and for the general case
 
 * {#QuickIntro} _A quick introduction to elliptic curves_ ([pdf](http://people.reed.edu/~jerry/311/ecintro.pdf))
+
+A general textbook account is
+
+* {#Silverman09} [[Joseph Silverman]], _The arithmetic of elliptic curves_, second ed., Graduate Texts in Mathematics, vol. 106, Springer, Dordrecht, 2009. MR 2514094 (2010i:11005)
 
 Discussion over the [[rational numbers]] includes
 
