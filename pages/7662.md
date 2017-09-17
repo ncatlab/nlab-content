@@ -1,0 +1,8 @@
+
+
+## References
+
+A construction via a [[1-dimensional Chern-Simons theory]] is in
+
+* [[Owen Gwilliam]], [[Ryan Grady]], _One-dimensional Chern-Simons theory and the $\hat A$-genus_ ([arXiv:1110.3533](http://arxiv.org/abs/1110.3533))
+
