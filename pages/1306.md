@@ -19,13 +19,17 @@ For clarity, in the context of generalized Reedy categories, an ordinary [[Reedy
 
 # Examples
 
-* Any [[Reedy category]] is a generalized Reedy category, but so is any [[groupoid]].
+* Any [[Reedy category]] is a generalized Reedy category.
+
+* Any [[groupoid]] $G$ is also a generalized Reedy category, with $G_+ = G_- = G$.
 
 * Connes' [[category of cycles]] $\Lambda$.
 
 * Segal's category $\Gamma$.
 
 * the Moerdijk-Weiss [[tree category]] $\Omega$.
+
+* Any generalized [[direct category]] or generalized [[inverse category]] is also a generalized Reedy category, in which either $R_-$ or $R_+$ consists only of the isomorphisms.
 
 
 # References
