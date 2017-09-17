@@ -2635,6 +2635,7 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
 * [[quantum field theory]]
 
+[[!include holographic principle -- table]]
 
 ## References
 
