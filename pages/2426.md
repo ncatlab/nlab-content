@@ -1,9 +1,29 @@
-#Definition#
 
-A _Riemannian manifold_ is a [[manifold]] equipped with a [[Riemannian metric]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
 
-#Remarks#
+## Definition
+
+A _Riemannian manifold_ is a [[smooth manifold]] equipped with a [[Riemannian metric]].
+
+See also [[pseudo-Riemannian manifold]]
+
+## Remarks
 
 * To be distinguished from [[Riemann surface]]. In particular, the concepts of 2-dimensional Riemannian manifolds and Riemann surfaces are, while closely related, crucially different.
 
