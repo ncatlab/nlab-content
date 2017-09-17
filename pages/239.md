@@ -51,7 +51,7 @@ $M$ is the category [[Ab]] of abelian groups, made into a [[multicategory]] usin
 
 =--
 
-Note that in this case, $A\otimes B$ is not a [[subobject]] _or_ a [[quotient]] of the [[cartesian product]] $A\times B$.  However, in many other cases the tensor product in a multicategory _can_ be obtained as a quotient of some other pre-existing product; see "tensor product of modules," below.
+Note that in this case, $A\otimes B$ is not a [[subobject]] _or_ a [[quotient]] of the [[cartesian product]] $A\times B$.  However, in many other cases the tensor product in a multicategory _can_ be obtained as a quotient of some other pre-existing product; see _[[tensor product of modules]]_ below.
 
 Other examples of tensor products in multicategories:
 
@@ -77,11 +77,15 @@ While the universal property referred to above (every bilinear map $A,B\to C$ fa
 
 ### Of modules in a monoidal category
 
-Let $R$ be a commutative ring and consider the multicategory $R$[[Mod]] of $R$-[[modules]] and $R$-[[multilinear maps]].  In this case the tensor product $A\otimes_R B$ of $R$-modules $A$ and $B$ can be constructed as the quotient of the tensor product $A\otimes B$ of their underlying abelian groups by the action of $R$; that is,
+Let $R$ be a [[commutative ring]] and consider the multicategory $R$[[Mod]] of $R$-[[modules]] and $R$-[[multilinear maps]].  In this case the 
+[[tensor product of modules]] $A\otimes_R B$ of $R$-modules $A$ and $B$ can be constructed as the [[quotient]] of the [[tensor product of abelian groups]] $A\otimes B$ underlying them by the [[action]] of $R$; that is,
 $$ A\otimes_R B = A\otimes B / (a,r\cdot b) \sim (a\cdot r,b). $$
-More category-theoretically, this can be constructed as the coequalizer of the two maps
+
+More category-theoretically, this can be constructed as the [[coequalizer]] of the two maps
 $$ A\otimes R \otimes B \;\rightrightarrows\; A\otimes B $$
-given by the action of $R$ on $A$ and on $B$.  If $R$ is a [[field]], then $R$-modules are vector spaces; this gives probably the most familiar case of a tensor product spaces, which is also probably the situation where the concept was first conceived.
+given by the action of $R$ on $A$ and on $B$.  
+
+If $R$ is a [[field]], then $R$-modules are vector spaces; this gives probably the most familiar case of a tensor product spaces, which is also probably the situation where the concept was first conceived.
 
 This tensor product can be generalized to the case when $R$ is not commutative, as long as $A$ is a right $R$-module and $B$ is a left $R$-module.  More generally yet, if $R$ is a [[monoid]] in any [[monoidal category]] (a ring being a monoid in [[Ab]] with its tensor product), we can define the tensor product of a left and a right $R$-module in an analogous way.  If $R$ is a commutative monoid in a [[symmetric monoidal category]], so that left and right $R$-modules coincide, then $A\otimes_R B$ is again an $R$-module, while if $R$ is not commutative then $A\otimes_R B$ will no longer be an $R$-module of any sort.
 
@@ -105,11 +109,14 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[tensor product of abelian groups]]
 
+* [[tensor product of modules]]
+
 * [[tensor product of chain complexes]]
 
 ## Related concepts
 
 [[!include homotopy-homology-cohomology]]
+
 
 ## References
 
