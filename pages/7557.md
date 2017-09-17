@@ -18,7 +18,7 @@ Systems of _formal_ [[logic]], such as [[type theory]], try to transform express
 
 More precisely, in [[type theory]], a [[term]] belonging to some [[type]] is said to be of **canonical form** if it is explicitly built up using the constructors of that type.  A canonical form is in particular a [[normal form]] (one not admitting any reductions), but the converse need not hold.
 
-For example, the terms of type $\mathbb{N}$ (a [[natural numbers type]]) of canonical form are the *numerals*
+For example, the terms of type $\mathbb{N}$ (a [[natural numbers type]]) of canonical form are the [[numerals]]
 $$ S(S(S(\cdots (0)\cdots ))). $$
 
 A type theory is said to enjoy **canonicity** if every term computes to a canonical form.  This is held to be an important meta-theoretic property of type theory, especially considered as a programming language or as a computational foundation for mathematics.
