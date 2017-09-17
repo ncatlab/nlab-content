@@ -126,6 +126,10 @@ An important theorem for the physical interpretation of states is [[Fell's theor
 ## Examples 
 ...
 
+## Related concepts
+
+* [[state]], [[quasi-state]]
+
 ## References 
 
 * Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_,AMS (1991)
