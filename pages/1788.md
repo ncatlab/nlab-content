@@ -350,6 +350,12 @@ that you have in ordinary xypic code have to be replaced (unfortunately) by the 
 
 otherwise the $n$Lab parser gets mixed up.
 
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26%26%26E\ar[dr]|{f_!}\ar@/^2.5pc/[ddrr]|=_{\%24}="s2"\\{*}\ar[dr]_A\ar@/^1pc/[urrr]^X_{\%24}="s1"%26%26 T\ar[ur]|{f^*}\ar[rr]|{=}^{\%24}="t1"%26%26T\ar[dr]|{f^*}^<{\ }="t4"\\%26E\ar[ur]|{f_*}^>{\%24}="t3"\ar[rrrr]|=^{\%24}="t2"%26%26%26%26E\ar@{=>} "t1"+(0,8);"t1"\ar@{=>}"t2"+(0,8);"t2"\ar@{=>}^\phi"s1";"t3"\ar@{=>}"s2";"t4"}
+"/>
+
+
+
+
 
 Another diagram using `\array`:
 
