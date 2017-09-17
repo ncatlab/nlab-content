@@ -1,6 +1,24 @@
-In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary class]]es of [[structure in model theory|structures]] beyond first-order theories (e.g. for some infinitary logics) as introduced by [[Saharon Shelah]].
+In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary class]]es of [[structure in model theory|structures]] beyond first-order theories (e.g. for the infinitary logic $L_{\omega_1,\omega}$) as introduced by [[Saharon Shelah]]. Its theory is also more general than the homogeneous model theory. 
 
-An __abstract elementary class__ is a __nonempty__ class of structures in a given signature, which is closed under isomorphisms and equipped with a strong substructure relation of partial order $\prec_K$ (strong substructure relation means that if $M\prec_K N$ and $M_0\subset M$ is a substructure, then $M\prec_L N$), which satisfies the axioms on union of chains, coherence and Loewenheim-Skolem properties. 
+An __abstract elementary class__ is a __nonempty__ class of structures for a given signature, which is closed under isomorphisms and equipped with a strong substructure relation of partial order $\prec_K$ (strong substructure relation means that if $M\prec_K N$ and $M_0\subset M$ is a substructure, then $M\prec_K N$), which satisfies the axioms on union of chains (Tarski-Vaught), coherence and downward Loewenheim-Skolem properties. More precisely, $\prec_K$ is a partial order on 
+
+(A0) (closure under isomorphisms) (a) $M\in K$ and $N$ an $L(K)$ structure with $N\cong M$, then $N\in K$
+
+(b) if $N_1,N_2,M_1,M_2\in K$, $f_i : N_i\cong M_i$, $i = 1,2$, $f_1\subset f_2$, with $M_1\prec_K M_2$ then $N_1\prec_K N_2$
+
+(A1) if $M,N\in K$, $M\prec_K N$ then $M\subset N$
+
+(A2) let $M,N,P\in K$, $M\prec_K P$, $N\prec_K P$, and $M\subset N$ then $M\prec_K P$ 
+
+(A3) downward Loewenheim-Skolem. There exist a cardinal $LS(K) = LS(K,\prec_K)\geq |L(K)|+\aleph_0$ such that $\forall M\in K$, $\forall A\subset |M|$, $\exists N\in K$ with $A\subset |N|$, $N\prec_K M$, $\|N\|\leq |A|+LS(K)$.  
+
+(A4) (Tarski-Vaught chain condition) for every regular cardinal $\mu$
+
+....
+
+The usual elementary classes, i.e. the classes of the form $K = Mod(T)$ for a frist order theory $T$ are abstract elementary with respect to the relation $\prec_K$ of being elementary submodel and with $|LS(K)| = |L(T)|+\aleph_0$. 
+
+
 
 * related $n$Lab entries: [[amalgamation]]
 * wikipedia [abstract elementary class](http://en.wikipedia.org/wiki/Abstract_elementary_class)
