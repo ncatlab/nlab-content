@@ -4,9 +4,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-$\coloneqq$ $\eqqcolon$
-
-[pdf](http://link.springer.com/content/pdf/10.1023%2FA%3A1015225622516.pdf)
+Any $\mathcal{Sand}$ in this box?
 
 | | [[local prequantum field theory]] | [[homotopy theory]] |  | [[local action functional]] / [[prequantum n-bundle]] |  |
 |--|--|--|--|--|--|
