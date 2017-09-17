@@ -1,0 +1,11 @@
+
+A [[localization]] is a universal functor from a given category $C$ with respect to the inversion of some family $\Sigma$ of morphisms in $C$; sometimes one says also quotient category. In topos theory and some other subjects one often restricts to the situation when $\Sigma$ is a calculus of left fractions, and corresponding localization functor has a right adjoint (which is then necessarily fully faithful);
+even more, one often requires that the localization functor is also left exact, hence exact. in Abelian categories, thus, one often speaks of [[colocalization]] as a case (of the universal functor into the quotient category) where $\Sigma$ admits a right calculus of fractions and the corresponding quotient functor has a left adjoint. 
+
+The theory of colocalization in [[co-Grothendieck categories]] has some features of its own as compared to the localization in [[Grothendieck categories]]. Namely, while
+by Gabriel-Popescu's theorem, every Grothendieck category is a localization of a category of modules over a fixed unital ring, their dual categories may be presented
+in terms of the theory of linearly topologized rings with some compactness properties, what is the content of [[Gabriel-Oberst duality]] theory. 
+
+A textbook exposition is in the chapter 6, _Duality_ of
+
+* N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
