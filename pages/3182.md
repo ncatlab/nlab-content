@@ -384,7 +384,7 @@ $$
 +-- {: .un_prop}
 ###### Corollary
 
-Let $X_\bullet$ a [[proper simplicial topological space]] that is degreewise [[paracompact topological space|paracompact]] and degreewise admitting a [[good open cover]], regarded naturally as an object $X_\bullet \in Top^{\Delta^{op}} \to ETop \infty Grpd$. 
+Let $X_\bullet$ be a [[good simplicial topological space]] that is degreewise [[paracompact topological space|paracompact]] and degreewise admits a [[good open cover]], regarded naturally as an object $X_\bullet \in Top^{\Delta^{op}} \to ETop \infty Grpd$. 
 
 We have that the intrinsic $\Pi(X_\bullet) \in \infty Grpd$ coincides under [[geometric realization]] $\mathbb{L}|-| : \infty Grpd \stackrel{\simeq}{\to} Top$ with the ordinary [[geometric realization of simplicial topological spaces]] $|X_\bullet|_{Top^{\Delta^{op}}}$
 
@@ -525,7 +525,13 @@ From this the claim follows by the [above proposition](#FundGroupoidOfParacompac
 +-- {: .un_prop #GeometricRealizationOfHomotopyFibers}
 ###### Proposition
 
-Let $X$ and $G$ be degreewise [[paracompact topological space|paracompact]] [[simplicial topological space]]s with good open covers. Let moreover $G$ be a well-sectioned topological [[simplicial group]]. Regard both as object in $E Top \infty Grpd$ in the canonical way. Write $\mathbf{B}G$ for  [[delooping]] of the [[∞-group]]-object $G$ in $ETop \infty Grpd$.
+Let 
+
+* $X$ be a degreewise [[paracompact topological space|paracompact]] [[good simplicial topological space]]s admiting degreewise [[good open cover]]s. 
+
+* $G$ be a [[well-sectioned simplicial topological group]]. 
+
+Regard both as object in $E Top \infty Grpd$ in the canonical way. Write $\mathbf{B}G$ for  [[delooping]] of the [[∞-group]]-object $G$ in $ETop \infty Grpd$.
 
 Then the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental (∞,1)-groupoid functor]] $\Pi : ETop \infty Grpd$ preserves [[homotopy fiber]]s of all morphisms of the form $X \to \mathbf{B}G$.
 
@@ -538,6 +544,7 @@ More in detail, if $P \to X$ is the $G$-[[principal ∞-bundle]] in $ETop \infty
 +-- {: .proof}
 ###### Proof
 
+This is a consequence of the [above proposition](#spring) that $\Pi$ acts on the morphism in question by [[geometric realization of simplicial topological spaces]] and the fact discussed at <a href="http://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces#TopologicalPrincipalInfinityBundle">Geometric realization of simplicial topological spaces -- Topological ∞-bundles</a> that geometric realization on good simplicial spaces preserves homotopy fibers.
 
 Write, as usual for [[simplicial group]]s, $\mathbf{B}G := \bar W G$ for its <a href="http://ncatlab.org/nlab/show/simplicial+group#Delooping">delooping</a>. Write $W G$ for the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a>.  This is a [[resolution]] of the point inclusion $* \to \mathbf{B}G$ by a fibration in $[CartSp^{op}, sSet]_{proj}$
 
