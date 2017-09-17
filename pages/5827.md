@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 # Bilinear forms
 * table of contents
 {: toc}
@@ -26,7 +37,7 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 
 ## Related concepts
 
-* [[quadratic form]]
+* [[quadratic form]], [[polarization identity]]
 
 * [[symplectic form]], [[Kähler form]]
 
@@ -36,3 +47,8 @@ Let $k = \mathbb{R}$ be the [[real number]]s. A symmetric bilinear form is calle
 [[!redirects bilinear forms]]
 
 [[!redirects positive definite bilinear form]]
+[[!redirects positive definite bilinear forms]]
+
+
+[[!redirects symmetric bilinear form]]
+[[!redirects symmetric bilinear forms]]
