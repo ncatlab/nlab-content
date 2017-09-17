@@ -10,10 +10,6 @@
 
 ***
 
-* [[state]], configuration space;
-
-* propagation 
-
 
 * **[[classical field theory|Classical Field Theory]]**
 
@@ -21,6 +17,16 @@
 
     * [[classical mechanics]]
     * [[waves]] and [[optics]]
+
+  * [[Lagrangian mechanics]]
+
+    * [[configuration space]], [[state]]
+
+    * [[action functional]], [[Lagrangian]]
+
+    * [[covariant phase space]]
+
+    * [[Euler-Lagrange equations]]
 
   * [[Hamiltonian mechanics]]
 
@@ -37,16 +43,6 @@
     * [[multisymplectic geometry]]
 
       * [[n-symplectic manifold]]
-
-  * [[Lagrangian mechanics]]
-
-    * [[Lagrangian]]
-
-    * [[action functional]]
-
-    * [[variational calculus]]
-
-      * [[Euler-Lagrange equations]]
 
   * [[spacetime]]
 
