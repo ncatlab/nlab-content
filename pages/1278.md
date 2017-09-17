@@ -424,3 +424,6 @@ and specifically for [[tangent (infinity,1)-topos|stable cohesion]] in
 
 * Simons Center Workshop on Differential Cohomology January 10, 2011- January 14, 2011 ([web](http://www.scgp.stonybrook.edu/?q=node/21))
 
+
+[[!redirects differential cohomology theory]]
+[[!redirects differential cohomology theories]]
