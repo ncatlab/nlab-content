@@ -142,6 +142,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Scott Morrison]]
 * [[Sebastian Thomas]]
 * [[Simon Willerton]]
+* [[Snoyl]]
 * [[Soeren]]
 * [[Sridhar Ramesh]]
 * [[Stefan Forcey]]
