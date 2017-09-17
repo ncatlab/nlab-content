@@ -11,4 +11,6 @@ For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also
 
 * [[Stiefel-Whitney class]]
 
+* [[virtual vector bundle]]
+
 [[!redirects Whitney sum]]
