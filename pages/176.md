@@ -25,6 +25,9 @@ In the former application it is mostly the _local_ behaviour of the CFT that is 
 
 In the [[string theory|string theoretic]] applications the extension of the local theory to a full representation of the 2d conformal cobordism category is crucial. This extension is called _solving the sewing constraints_ .
 
+## Abstract ##
+In the definition paragraph we will show how to define a conformal field theory using the axiomatic approach of Wightman resp. Osterwalder-Schrader. There are several approaches to axiomatically define conformal field theory, the said approach is not the most "popular" or "elegant" one. There are two reasons to consider the Wightman approach however: If one is already familiar with the Wightman approach, it helps to put conformal field theories into context. The second reason is that several notions often used by physicists can be easily and rigorously defined and explained using this approach. Therefore, it may serve as a bridge between mathematicians and physics literature.    
+
 ## Definition ##
 
 ### Definition in Terms of the Osterwalder-Schrader Axioms ###
@@ -67,11 +70,64 @@ $$
 
 The $s_i := h_i - \overline{h_i}$ are called **conformal spin** (for the index $i$) and $d_i := h_i + \overline{h_i}$ is the **scaling dimension**. As an axiom 2.2 we assume that all conformal spins and scaling dimensions are integers.
 
+For the next axiom, which is about reflection positivity, we need some notation:
+
+We write $z \in \mathbb{C}$ as $z = t + iy$ and identify $y$ as the space coordinate and $t$ as (imaginary) time.
+So, time reflection $\theta$ is simply:
+$$
+\theta: \mathbb{C} \to \mathbb{C}
+$$
+
+$$
+\theta:  z = t + iy \mapsto -t + iy = - \overline{z}
+$$
+
+Let $\mathcal{S}(\mathbb{C}^n)$ be the space of [[Schwartz functions]] and
+
+$$
+M_n^+ := \{ (z_1, ..., z_n) \in M_n: \operatorname{Re}(z_i) \gt 0 \}
+$$
+
+$$
+\mathcal{S}_0^+ := \mathbb{C}
+$$
+
+$$
+\mathcal{S}_n^+ := \{f \in \mathcal{S}(\mathbb{C}^n): \operatorname{Supp}(f) \subset M_n^+ \}
+$$
+
+Finally let $\underline{ \mathcal{S}^+ }$ the space of all sequences $\underline{f} = (f_i)_{i \in B}$ with $f_i \in \mathcal{S}_n^+$ fpr $i \in B_0^n$ with only finitely many entries $\ne 0$.
+
 +-- {: .un_defn}
 ###### Axiom 3
 **reflection positivity**
 
-TODO
+There is a map
+$$
+*: B_0 \to B_0
+$$
+with $*^2 = id_{B_0}$ that extends to a map
+
+$$
+*: B \to B
+$$
+
+
+$$
+*: i \mapsto i^*
+$$
+so that
+
+1. $G_i(z) = G_{i^*}(\theta(z)) = G_{i^*}(- \overline{z})$
+
+2. $\langle \underline{f}, \underline{f} \rangle \ge 0$ for all $\underline{f} \in \underline{\mathcal{S}^+}$
+
+The scalar product $\langle \underline{f}, \underline{f} \rangle$ is defined as
+
+$$
+\sum_{i, j \in B, m, n \in \mathbb{N} } \int_{M_{n+m}} G_{i^* j} (\theta(z_1), ...,\theta(z_n), w_1, ..., w_n) \overline{f_i(z)} f_j(w) d^n z d^m w
+$$
+
 =--
 
 +-- {: .un_prop}
@@ -172,7 +228,7 @@ Since the OPE has no interpretation as defining products of operators, or more g
 The primary fields have an associative OPE.
 =--
 
-
+Many _formal_ calculations of physicists in CFT involving OPE can be justified by using [[vertex operator algebra]]s, so that [[vertex operator algebra]]s have become a standard way to formulate CFT.
 
 ## Properties ##
 
