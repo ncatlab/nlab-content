@@ -28,6 +28,9 @@ Surely, one often works at the derived level. An adaptation of the  notion of st
 
 * [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]], [[Donaldson-Thomas invariant]].
 
+[[!include field theory with boundaries and defects - table]]
+
+
 ### Conferences and seminars
 
 * (past) [[Kontsevich]] in Aarhus, August 2010, [master class on wall crossing](http://qgm.au.dk/events/show/artikel/masterclass-aug-2010/); we will keep a [[wall crossing in Aarhus|nlab page]] on it
