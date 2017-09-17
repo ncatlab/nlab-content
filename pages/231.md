@@ -94,7 +94,14 @@ There is a [[strict 2-category]] MonCat with:
 
 One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
 
-## Properties {#Properties}
+## Properties 
+ {#Properties}
+
+### Coherence
+
+* [[coherence theorem for monoidal categories]]
+
+### Closure
 
 +-- {: .un_prop}
 ###### Proposition
