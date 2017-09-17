@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Localizable measures
 * table of contents
 {: toc}
@@ -27,7 +26,7 @@ Let $\mu$ be a [[positive measure]] on an [[abstract set]] $X$.  (That is, certa
 
 Given two measurable subsets $E$ and $F$, $E$ __essentially contains__ $F$ if the set
 $$ \{ x\colon X \;|\; x \in F \;\Rightarrow\; x \in E \} $$
-is [[full set|full]]; or equivalently (using [[excluded middle]]) if $F \setminus E$ is [[null set|null]].
+is [[full set|full]]; or equivalently (using [[excluded middle]]) if $F \setminus E$ is [[null set|null]].  (This is a [[preorder]] on the measurable sets.)
 
 Then $\mu$ is __localizable__ if the following conditions both apply:
 
@@ -69,14 +68,14 @@ Knowing the full/null sets is also sufficient to define [[almost equality]] of [
 
 If $\mathcal{M}$ is the $\sigma$-[[sigma-algebra|algebra]] of measurable sets and $\mathcal{F}$ is the $\delta$-filter of full sets (or $\mathcal{N}$ is the $\sigma$-ideal of null sets), then we may form the [[quotient ring|quotient]] [[boolean algebra]] $\mathcal{M}/\mathcal{F}$ (or $\mathcal{M}/\mathcal{N}$) by identifying each full set with the [[improper subset|entire space]] (or identifying each null set with the [[empty subset|empty set]]).  Then a measurable space is localizable iff this quotient is [[complete boolean algebra|complete]]; this is the real point of the notion of localizability.
 
-This boolean algebra is all the structure needed to specify a measure on the original space (at least one that is [[absolutely continuous measure|absolutely continuous]] in that it has the requisite full/null sets).  We can now abstract away the [[underlying set]] and simply look at the complete boolean algebra.  However, it is *not* true that every complete boolean algebra is capable of arising in this way from a measurable space.  Those which do so arise may be called __[[measurable locales]]__, since a complete boolean algebra is a [[frame]] and measurable functions (up to almost equality) between the measurable spaces correspond to [[continuous maps]] between the frames, thought of as [[locales]].
+This boolean algebra is all the structure needed to specify a measure on the original space (at least one that is [[absolutely continuous measure|absolutely continuous]] in that it has at least the requisite full/null sets).  We can now abstract away the [[underlying set]] and simply look at the complete boolean algebra.  However, it is *not* true that every complete boolean algebra is capable of arising in this way from a measurable space.  Those which do so arise may be called __[[measurable locales]]__, since a complete boolean algebra is a [[frame]] and measurable functions (up to almost equality) between the measurable spaces correspond to [[continuous maps]] between the frames, thought of as [[locales]].  (That is, $Loc Meas$ is [[equivalence of categories|equivalent]] to $Meas Loc$, a sort of pun.)
 
-Without requiring localizability, the boolean algebra $\mathcal{M}/\mathcal{F}$ (or $\mathcal{M}/\mathcal{N}$) is called a [[measurable algebra]]; equipped with a measure, we have a [[measure algebra]].  Thus a measurable locale is the same thing as a __localizable measurable algebra__, and one may also speak of __localizable measure algebras__.
+Without requiring localizability, the boolean algebra $\mathcal{M}/\mathcal{F}$ (or $\mathcal{M}/\mathcal{N}$) is called a [[measurable algebra]]; equipped with a measure, we have a [[measure algebra]].  Thus a measurable locale is the same thing as a __localizable measurable algebra__, and one may also speak of __localizable measure algebras__ (with the category of these equivalent to the category localizable measure spaces, so long as morphisms in the latter are again only defined up to almost equality).
 
 
 ## In weak foundations
 
-The [[axiom of choice]] is indispensable for the development above, as stated.  (The reason is that one constantly make choices among essentially equivalent measurable sets, or almost equal measurable functions.)  However, the [[category]] of localizable measurable spaces (and [[measurable functions]] up to [[almost equality]]) is (assuming choice) [[equivalence of categories|equivalent to]] the category of [[measurable locales]], which may prove to be more tractable without choice, even in [[constructive mathematics]].  That said, nobody has worked out a constructive development of this yet.
+The [[axiom of choice]] is indispensable for the development above, as stated.  (The reason is that one constantly makes choices among essentially equivalent measurable sets, or among almost equal measurable functions.)  However, the [[category]] of localizable measurable spaces (and [[measurable functions]] up to [[almost equality]]) is (assuming choice) [[equivalence of categories|equivalent to]] the category of [[measurable locales]], which may prove to be more tractable without choice, even in [[constructive mathematics]].  That said, nobody has worked out a constructive development of this yet.  (In particular, identifying which boolean algebras we want is more difficult; perhaps surprisingly, they are still boolean, but they are no longer necessarily complete!)
 
 
 ## References
