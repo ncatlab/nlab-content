@@ -114,6 +114,8 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[moduli space of connections]], [[moduli space of flat connections]]
 
+* [[moduli space of bundles]]
+
 * [[moduli space of (higher) line bundles]]
 
 ## Related concepts 
