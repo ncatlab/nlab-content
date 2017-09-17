@@ -127,7 +127,7 @@ $$
 is an [[epimorphism]] for all $X \in \mathcal{E}$. This is equivalent to the transformation
 
 $$
-  f^* S \stackrel{\simeq}{\to} f^* f_* f^! S \stackrel{\epsilon_S \cdot f^!}{\to} f^! S
+  f^* S \stackrel{\simeq}{\to} f^* f_* f^! S \stackrel{\epsilon_{f^! S}}{\to} f^! S
 $$
 
 being a [[monomorphism]] for all $S \in \mathcal{S}$ .
@@ -187,9 +187,9 @@ This is [theorem 2](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf#page=5) in 
 +-- {: .proof}
 ###### Proof
 
-Since $\Gamma$ is a [[left adjoint]] it preserves [[colimit]]s, as does of course $\Pi$. Therefore the collection of objects for which $\Gamma X \to \Pi X$ is an isomorphism is closed under colimits and hence $\mathcal{L}$ has all colimits and the inclusion $s^* : \mathcal{L} \hookrightarrow \mathcal{E}$ obviously preserves them. Using the [[adjoint functor theorem]] this implies that $s^*$ has a right adjoint $s_*$. 
+Since $\Gamma$ is a [[left adjoint]] it preserves [[colimit]]s, as does of course $\Pi$. Therefore the collection of objects for which $\Gamma X \to \Pi X$ is an isomorphism is closed under colimits and hence $\mathcal{L}$ has all colimits and the inclusion $s^* : \mathcal{L} \hookrightarrow \mathcal{E}$ obviously preserves them. 
 
-(...details...) 
+To apply the [[adjoint functor theorem]] to deduce that therefore $s^*$ has a right adjoint $s_*$ it is sufficient to argue that $\mathcal{L}$ is a [[locally presentable category]]. To see this, notice that $\mathcal{L} \hookrightarrow \mathcal{E}$ is the [[inverter]] of $\Gamma \to \Pi$, a certain [[2-limit]] in [[Cat]].  Since the 2-category of [[accessible categories]] and [[accessible functors]] is closed under (non-strict) [[2-limit]]s in [[Cat]], it follows that $\mathcal{L}$ is accessible. Since we already know that it is also cocomplete it follows that it must be locally presentable.
 
 Since $\Pi$ by assumption preserves finite products and $\Gamma$ preserves all products, it follows that $L$ is also closed under finite products and in particular contains the [[terminal object]] $*$. Since $\mathcal{E}$, being a [[topos]], is an [[extensive category]], it follows that $s_*$ preserves coproducts.
 
