@@ -15,11 +15,16 @@
 
 ## Idea
 
-A _[[domain specific programming language]]_ is one designed for  a specialized "domain" of applications. A _domain specific embedded programming language_ is a domain specific language realized "inside" a general-purpose high level ([[type theory|typed]]) [[programming language]].
+A _[[domain specific programming language]]_ is one designed for  a specialized "domain" of applications. A _domain specific embedded programming language_ (DSEL) is a domain specific language realized "inside" a general-purpose high level ([[type theory|typed]]) [[programming language]].
+
+## {#RelationToSyntheticMathematics} Relation to synthetic mathematics
  
+ 
+There is at least some similarity between DSELs and [[synthetic mathematics]], see for instance ([Hudak 89, section 3.2](#Hudak89)). In ([Hudak 89, figure 2](#Hudak89)) this shows aspects of a real-world DSL for "geometric region analysis" embedded in [[Haskell]] which under the [[relation between type theory and category theory]]/[[computational trinitarianism]] one immediately recognizes as a fragment of [[synthetic geometry]].
+
 ## Reference
 
-* Paul Hudak, _Modular Domain Specific Languages and Tools_, in _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  1989  ([pdf](http://cs.yale.edu/c2/images/uploads/dsl.pdf))
+* {#Hudak89} Paul Hudak, _Modular Domain Specific Languages and Tools_, in _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  1989  ([pdf](http://cs.yale.edu/c2/images/uploads/dsl.pdf))
 
 A list of literature is at 
 
