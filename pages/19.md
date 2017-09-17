@@ -271,7 +271,17 @@ See [[category theory vs order theory]] for more discussion.
 
 ## Related concepts
 
+* [[type theory]]
+
+  * [[relation between category theory and type theory]]
+
+* [[computer science]]
+
+  * [[computational trinitarianism]]
+
 [[!include table of category theories]]
+
+Some theorems in category theory are _[[folklore]]_.
 
 ## References
  {#References}
