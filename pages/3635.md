@@ -1,3 +1,4 @@
+[[!redirects Menagerie]]
 This entry is about the document
 
 
