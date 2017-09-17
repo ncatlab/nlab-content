@@ -263,3 +263,4 @@ Some more facts about homotopical aspects of simplicial sets are discussed in se
 [[!redirects boundary maps]]
 
 
+category : simplicial object
