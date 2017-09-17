@@ -104,7 +104,10 @@ $$
 
 The unit maps $j_a : I \to C^{op}(a,a)$ are those of $C$ under the identification $C^{op}(a,a) = C(a,a)$.
 
-Note that the [[braiding]] of $V$ is used in defining composition for $C^{op}$.  So, we cannot define the opposite of a $V$-enriched category if $V$ is merely a [[monoidal category]], though $V$-enriched categories still make perfect sense in this case.  If $V$ is a [[braided monoidal category]] there are (at least) two ways to define $C^{op}$.  If $V$ is [[symmetric monoidal category]] these two ways coincide.
+Note that the [[braiding]] of $V$ is used in defining composition for $C^{op}$.  So, we cannot define the opposite of a $V$-enriched category if $V$ is merely a [[monoidal category]], though $V$-enriched categories still make perfect sense in this case.  If $V$ is a [[braided monoidal category]] there are (at least) two ways to define "$C^{op}$", resulting in two different "opposite categories": we can use either the braiding or the inverse braiding.  If $V$ is [[symmetric monoidal category|symmetric]] these two definitions coincide.
+
+The opposite category can be regarded as a [[dual object]] of $C$ in the [[monoidal bicategory]] $V Prof$ of $V$-categories and $V$-[[profunctors]].  (Note that this does not characterize $C^{op}$ up to equivalence, but only up to [[Morita equivalence]], i.e. up to [[Cauchy completion]].)  When $V$ is symmetric, then $V Prof$ is also symmetric monoidal, so there is only one notion of dual object.  When $V$ is braided, then $V Prof$ is not symmetric and has two notions of dual: a left dual and a right dual.  These are exactly the two different opposite categories referred to above (the "left opposite" and "right opposite").
+
 
 ### In higher category theory
 
@@ -167,14 +170,15 @@ $$
 
 ### Opposite of the opposite
 
-The opposite of an opposite category is the original category
+The opposite of an opposite category is the original category:
 
 $$
   (C^{op})^{op} = C
   \,.
 $$
 
-This is also true for $V$-enriched categories when $V$ is symmetric monoidal, but not when $V$ is merely braided.
+This is also true for $V$-enriched categories when $V$ is symmetric monoidal, but not when $V$ is merely braided.  However, in the latter case we can say $(C^{op1})^{op2} = C = (C^{op2})^{op1}$, i.e. the two different notions of "opposite category" are inverse to each other (as is always the case for left and right dualization operations in a non-symmetric monoidal (bi)category).
+
 
 ### Co-algebraic structures
 
