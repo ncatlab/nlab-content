@@ -5,7 +5,7 @@
 
 ## Idea
 
-A structured set is, of course, a [[set]] equipped with extra [[structure]].  It is not the individual structured set that matters so much as the [[category]] of sets with a particular sort of structure.
+A structured set is, of course, a [[set]] equipped with [[extra structure]].  It is not the individual structured set that matters so much as the [[category]] of sets with a particular sort of structure.
 
 
 ## Definitions
