@@ -136,7 +136,7 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[Massey product]]
 
-### 3. The Lambde Algebra
+### 3. The Lambda Algebra
 
 * [[EHP spectral sequence]]
 
@@ -154,11 +154,35 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[Landweber-Novikov theorem]]
 
+* [[Brown-Peterson spectrum]]
+
+* [[p-typical formal group]]
+
+* [universal complex orientation on MU](cobordism+cohomology+theory#UniversalComplexOrientation)
+
+* [[Adams-Quillen theorem]]
+
+### 2. A survey of $B P$-theory
+
+* [[cobordism group]]
+
+* [[Thom spectrum]]
+
+### 3. Some calculations in $B P_\bullet(B P)$
+
+### 4. Beginning calculations with the Adams-Novikov Spectral Sequence
+
+* [[BP]]-[[Adams-Novikov spectral sequence]]
+
 ## Chapter 5. The Chromatic Spectral Sequence
 
 ### 1. The algebraic construction
 
+* [[chromatic spectral sequence]]
+
 ### 2. $Ext^1(B P_\bullet/I_n)$ and Hopf Invariant One
+
+* [[Hopf invariant one]]
 
 ### 3. $Ext(M^1)$ and the $J$-Homomorphism
 
