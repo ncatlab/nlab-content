@@ -18,7 +18,7 @@ A **pseudotopological space** is a [[set]] $S$ together with a [[relation]] $\to
 2. Isotone: If $F \subseteq G$ and $F \to x$, then $G \to x$;
 3. Star property: If $F$ is a filter such that for every proper filter $G \supseteq F$ there exists a proper filter $H \supseteq G$ with $H \to x$, then $F \to x$.
 
-A psuedotopological space is a special case of a [[convergence space]]; the star property is a stronger version of the filter property of a convergence space:
+A pseudotopological space is a special case of a [[convergence space]]; the star property is a stronger version of the filter property of a convergence space:
 
 *  If $F \to x$ and $G \to x$, then $F \cap G \to x$.
 
