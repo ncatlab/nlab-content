@@ -40,6 +40,7 @@ _Geometric quantization via push-forward_  or _$Spin^{\mathbb{C}}$-quantization_
 (...) see _[[Guillemin-Sternberg geometric quantization conjecture]]_
 
 ## References
+ {#References}
 
 
 
