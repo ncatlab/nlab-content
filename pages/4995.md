@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
