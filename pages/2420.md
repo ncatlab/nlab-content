@@ -45,6 +45,10 @@ This involves, conversely, counting for each fixed energy $E_\Psi$ the number of
 
 In fact, the common letter $Z$ uses to denote QFTs (or at least [[TQFT]]s) also derives from this: in German the partition function is called _Zustandssumme_ --- from German _Zustand_ for "state" .
 
+## Related concepts
+
+[[!include genera and partition functions - table]]
+
 ## Examples 
 
 Partition function for the [[superparticle]]: [[K-theory]] [[index]].
