@@ -28,9 +28,11 @@ The _ABJM model_ is 3-dimensional [[Chern-Simons theory]] coupled to matter, whi
 
 Under  [[holographic duality]] supposed to be related to [[11-dimensional supergravity|M-theory]] on $AdS_4 \times S^7 / \mathbb{Z}_k$.
 
-## Related properties
+## Related concepts
 
 * [[BLG model]]
+
+[[!include table of branes]]
 
 ## References
 
