@@ -63,7 +63,7 @@ $$
   \,.
 $$
 
-This is sometimes called the _anti-commutator_. Notice that it is directly analogous to the more famous [[commutator]]
+This is sometimes called the _anti-commutator_ (or more precisely, half the anti-commutator). Notice that it is analogous to the more famous [[commutator]]
 
 $$
   [x,y] \coloneqq x y - y x
@@ -75,7 +75,9 @@ $$
   x y = \frac{1}{2}[x,y] + x \circ y
 $$
 
-for all $x,y$. From the point of view of [[deformation quantization]] of [[Poisson manifolds]], one can read this as follows: the deformation quantization of a Poisson manifold $(X,\{-,-\})$ breaks up into two pieces:
+for all $x,y$. (A [[JLB-algebra]] is a [[Banach space]] equipped with the compatible structures of both a [[Jordan algebra]] and a [[Lie algebra]], and these are equivalent to $C^*$-[[C-star-algebra|algebras]] in just this way, using $\circ$ and ${\bullet} \coloneqq \frac{1}{2} \mathrm{i} [{-},{-}]$ as the operations.)
+
+From the point of view of [[deformation quantization]] of [[Poisson manifolds]], one can read this as follows: the deformation quantization of a Poisson manifold $(X,\{-,-\})$ breaks up into two pieces:
 
 1. the [[Poisson bracket]] $\{-,-\}$ on $C^\infty(X)$ deforms to the [[commutator]];
 
