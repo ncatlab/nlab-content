@@ -5,5 +5,7 @@ See
 
 * [[logical framework]]
 
-* [[type theory]].
+* [[type theory]]
+
+* [[consistency]]
 
