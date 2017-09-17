@@ -138,6 +138,7 @@ See also at _[twisted cohomology -- by R-module bundles](twisted+cohomology#InfS
  {#Properties}
 
 ### Adjointness to $\infty$-group $\infty$-ring
+ {#AdjointnessToGroupRing}
 
 ####  Unaugmented case
 
