@@ -50,7 +50,9 @@ Correspondingly, the symbols $\underset{\leftarrow}lim$ and $\underset{\rightarr
 
 Confusingly, many authors restrict the meanings of these alternative terms to (co)limits whose sources are [[direction|directed set]]s; see [[directed limit]].  In fact, this is the original meaning; projective and inductive limits in this sense were studied in algebra before the general category-theoretic notion of (co)limit.
 
-## Local definition in terms of representable functors 
+## Definition
+
+### Local definition in terms of representable functors 
 
 There is a general abstract definition of limits
 in terms of representable functors, which we 
@@ -60,7 +62,7 @@ universal cones, which is described further below.
 
 Let in the following $D$ be a [[small category]] and [[Set]] the category of sets (possibly realized as the category $U Set$ of $U$-small sets with respect to a given [[Grothendieck universe]].) 
 
-### Limit of a Set-valued functors 
+#### Limit of a Set-valued functors 
 
 The **limit of a Set-valued functor** $F : D^{op} \to Set$ is the [[hom-set]] 
 $$
@@ -112,7 +114,7 @@ $$
 where $Hom(S, F(-)) : D^{op} \to Set$.
 
 
-### Limit of a functor with values in an arbitrary category 
+#### Limit of a functor with values in an arbitrary category 
 
 The above formula generalizes straightforwardly to
 a notion of limit for 
@@ -165,7 +167,7 @@ $$
   \,.
 $$
 
-### Generalization to weighted limits 
+#### Generalization to weighted limits 
 
 In the above formulation, there is an evident
 generalization to [[weighted limit]]s:
@@ -204,7 +206,7 @@ $$
 
 naturally in $c \in C$.
 
-### Relation to continuous functors 
+#### Relation to continuous functors 
 
 The very definition of limit as above asserts
 that the covariant [[hom-functor]] 
@@ -215,13 +217,13 @@ to saying that the [[hom-functor]] is a
 [[continuous functor]].
 
 
-## Definition in terms of universal cones 
+### Definition in terms of universal cones 
 
 Unwrapping the above abstract definition of limits
 yields the following more hands-on description  in terms
 of universal cones.
 
-### Unwrapping 
+#### Unwrapping 
 
 Let $F : D^{op} \to C$ be a functor.
 
@@ -328,7 +330,7 @@ $$
 An illustrative example is the following: a limit of the [[identity functor]] $Id_c:C\to C$ is, if it exists, an [[initial object]] of $C$.
 
 
-## Global Definition in terms of adjoint of the constant diagram functor 
+### Global Definition in terms of adjoint of the constant diagram functor 
 
 Given categories $D$ and $C$, limits over functors $D^{op} \to C$ may exist for some functors, but not for all. If it does exist for all functors, then the above _local definition_ of limits is equivalent to the following _global definition_.
 
@@ -360,9 +362,10 @@ $$
 
 From this perspective, a limit is a special case of a [[Kan extension]], as described there, namely a Kan extension to the [[point]].
 
-## Generalizations 
+### Generalizations 
 
-The notion of limit, being fundamental to category theory, generalizes to many other situations.  Examples include the following.
+The notion of limit, being fundamental to 
+[[category theory]], generalizes to many other situations.  Examples include the following.
 
 * In [[enriched category theory]] one has the notion of [[weighted limit]].  This makes sense in ordinary category theory as well, but it turns out that in that case all weighted limits reduce to ordinary "conical" ones.
 * Weighted limits generalize further to the notion of limit in a [[2-category equipped with proarrows]], or to a [[Yoneda structure]].
@@ -534,6 +537,18 @@ See [[limits and colimits by example]] for what this formula says for instance f
 
 In general limits do not commute with colimits. But under a number of special conditions of interest they do. More on that at [[commutativity of limits and colimits]].
 
+
+## Related concepts
+
+* **limit**
+
+  * [[colimit]], [[universal construction]], [[Kan extension]], [[end]], [[coend]]
+
+* [[2-limit]]
+
+* [[(∞,1)-limit]]
+
+  * [[homotopy limit]]
 
 
 
