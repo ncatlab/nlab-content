@@ -1,4 +1,6 @@
 
+> under construction
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -47,4 +49,4 @@ The [[category]] $Sh(X_\bullet)$ of sheaves on the simplicial space is defined t
 
 ## Examples
 
-For $C$ a [[topological category]] and $N C : \Delta^{op} \to Top$ its [[nerve]], $Sh(N_\bullet C)$ is the [[classifying topos]] for $C$-torsors.
+For $C$ a [[topological category]] and $N C : \Delta^{op} \to Top$ its [[nerve]], $Sh(N_\bullet C)$ is the [[classifying topos]] for $C$-torsors. see [[classifying topos of a localic groupoid]].
