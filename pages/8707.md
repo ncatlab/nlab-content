@@ -61,6 +61,12 @@ By adding to [[homotopy type theory]] three (higher) modalities that encode [[di
 
 * [[closure operator]]
 
+* [[modal homotopy type theory]]
+
+* [[geometric type theory]]
+
+
+
 ## References
  {#References}
 
