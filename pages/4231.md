@@ -62,7 +62,7 @@ We discuss how on a [[presheaf topos]] equipped with a suitable notion of [[inte
 
 Let $A$ be a [[small category]]. Write $PSh(A)$ or $[A^{op}, Set]$ for the [[category of presheaves]] over $A$.
 
-+-- {: .num_defn #FunctorialCyclinder}
++-- {: .num_defn #FunctorialCylinder}
 ###### Definition
 
 For $X$ in $PSh(A)$,  **cylinder** on $X$ in the following means a [[cylinder object]]
@@ -268,7 +268,7 @@ With the classes of morphisms as in def. \ref{ModelStructureFromHomotopicalStruc
 
 * The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]].
 
-* The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is built from related results.
+* The [[model structure on dendroidal sets]] is not exactly a Cisinki model structure, but is [[transferred model structure|transferred]] from one that is.
 
 ## References
 
