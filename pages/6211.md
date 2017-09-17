@@ -45,6 +45,8 @@ is a special case of the notion of [[twisted differential c-structures]].
 
   * **differential T-duality**
 
+* [[Bn-geometry]], [[generalized complex geometry]]
+
 ## References
 
 The first proposal for a description of differential T-duality is 
