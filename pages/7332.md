@@ -1,0 +1,16 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Jean-Louis_Koszul)
+
+## Related entries
+
+* [[Koszul duality]]
+
+* [[Koszul algebra]]
+
+* [[Koszul complex]]
+
+* [[Koszul-Tate resolution]]
+
+category: people
+
+[[!redirects Koszul]]
