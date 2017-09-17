@@ -14,3 +14,5 @@
 * [[FGA explained]]
 
 category: people
+
+[[!redirects A. Vistoli]]
