@@ -8,4 +8,4 @@
 
 on [[higher category theory]].
 
-category: references
+category: reference
