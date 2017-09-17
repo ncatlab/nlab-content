@@ -73,19 +73,21 @@ Such an operation is called an [[internal hom]] functor, and categories carrying
 
 ### Representable functors
 
-For any object $c \in C$ one obtains a hom-functor
+Given a hom-functor $hom:C^{op}\times C\to Set$, for any object $c \in C$ one obtains a functor
 
 $$
-  hom(c,-) : C \to Set
+  h^c: C \to Set
 $$
 
-and a hom-functor
+given by $h^c = hom(c,-)$ and a functor
 
 $$
-  hom(-,c) : C^{op} \to Set
+  h_c : C^{op} \to Set
 $$
 
-by fixing one of the arguments of $hom : C^{op} \times C \to Set$ to be $c$. Formally this is
+given by $h_c = hom(-,c)$, i.e. by fixing one of the arguments of $hom: C^{op} \times C \to Set$ to be $c$. 
+
+Formally this is
 
 $$
   hom(c,-) : C \stackrel{\simeq}{\to} * \times C  \stackrel{(c,Id)}{\to} C^{op} \times C \stackrel{hom(-,-)}{\to} Set
