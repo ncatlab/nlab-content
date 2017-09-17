@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+=--
+=--
+
+
 ## Related concepts
 
 [[hyperstructure]]
