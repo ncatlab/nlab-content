@@ -25,6 +25,8 @@ into the [[(2,1)-topos]] over the given [[site]] of definition: it is the quotie
 
 This is the geometric version of the notion of _[[action groupoid]]_ .
 
+If the [[stabilizer subgroups]] of the [[action]] are [[finite groups]], then the quotient stack is an [[orbifold]]/[[Deligne-Mumford stack]] --the "quotient orbifold".
+
 ## Properties
 
 ### Relation to principal and associated bundles
@@ -63,3 +65,6 @@ There is a canonical projection $\overline{\rho} \;\colon\; V//G \to \mathbf{B}G
 
 [[!redirects orbifold quotient]]
 [[!redirects orbifold quotients]]
+
+[[!redirects quotient orbifold]]
+[[!redirects quotient orbifolds]]
