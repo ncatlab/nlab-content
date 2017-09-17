@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Extended quantum field theory_ (or _many-tiered quantum field theory_) is the fully [[local quantum field theory|local]] formulation of [[functorial quantum field theory]], formulated in [[higher category theory]]
+_Extended quantum field theory_ (or _multi-tiered quantum field theory_) is the fully [[local quantum field theory|local]] formulation of [[functorial quantum field theory]], formulated in [[higher category theory]]
 
 Whereas a
 
@@ -198,3 +198,10 @@ _Rafael_: Yes, for the merge. I think of a subsection here **construction of ETQ
 [[!redirects extended topological field theories]]
 [[!redirects extended field theory]]
 [[!redirects extended field theories]]
+
+[[!redirects multi-tiered field theory]]
+[[!redirects multi-tiered field theories]]
+
+[[!redirects multi-tiered quantum field theory]]
+[[!redirects multi-tiered quantum field theories]]
+
