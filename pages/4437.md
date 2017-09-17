@@ -25,3 +25,6 @@
 See [[cover]], [[covering space]].
 
 
+[[!redirects coverings]]
+
+
