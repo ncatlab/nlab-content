@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Euler)
+
+## Related entries
+
+* [[Euler characteristic]]
+
+category: people
