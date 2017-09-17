@@ -22,4 +22,8 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 
 * [[Lagrangian Grassmannian]]
 
+* [[flag variety]], [[Schubert variety]]
+
+* [[coset space]]
+
 [[!redirects Grassmannians]]
