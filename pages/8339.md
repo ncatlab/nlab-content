@@ -54,6 +54,12 @@ But a geometry modeled on a [[small category|small]] [[full subcategory]] of [[T
 
 * [[motivation for sheaves, cohomology and higher stacks]]
 
+* [[motivation for higher differential geometry]]
+
+* [[applications of (higher) category theory]]
+
+* [[higher category theory and physics]]
+
 category: motivation
 
 [[!redirects motivation for cohesion]]
