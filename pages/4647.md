@@ -162,7 +162,7 @@ manifestly exhibits a [[split equalizer]] sequence.
 
 ## Examples 
 
-If $T: Set \to Set$ is a monad on $Set$, with corresponding monadic functor $U: Set^T \to Set$, then the left adjoint $F: Set \to Set^T$ is comonadic provided that $F(!): F(0) \to F(1)$ is a regular monomorphism and not an isomorphism. In particular, if $T$ is given by an algebraic theory with at least one constant symbol and at least one function symbol of arity greater than zero, then the left adjoint is comonadic. 
+If $T: Set \to Set$ is a monad on $Set$, with corresponding monadic functor $U: Set^T \to Set$, then the left adjoint $F: Set \to Set^T$ is comonadic provided that $F(!): F(0) \to F(1)$ is a regular monomorphism and not an isomorphism. In particular, if $T$ is given by an algebraic theory with at least one constant symbol and at least one function symbol of arity greater than zero, then the left adjoint is comonadic (because then $F(!): F(0) \to F(1)$ is a split monomorphism but not an isomorphism). 
 
 More generally, let $A$ be a [[locally small category]] with small [[copower|copowers]], and suppose $a$ is an object such that $0 \to a$ is a regular monomorphism but not an isomorphism, then the copowering with $a$, 
 
