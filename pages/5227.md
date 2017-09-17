@@ -77,3 +77,4 @@ For an introduction to Petri nets (en francais, which is very clear and accessib
 
 [[!redirects Petri net]]
 [[!redirects Petri nets]]
+category: computer science
