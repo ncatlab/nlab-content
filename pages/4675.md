@@ -351,7 +351,7 @@ By pullback along the standard [[continuous function|continuous]] [[retract]] $\
 
 In order to find a horn filler for the 2-form component, consider any smooth 2-form with sitting instants and non-vanishing integeral on $\Delta^2$, regarded as the missing face of the [[horn]]. By multiplying it with a suitable smooth function on $U$ we can obtain an extension $\tilde B \in \Omega^3_{si,vert}(U \times \partial \Delta^3)$ of $B$ to all of $U \times \partial \Delta^3$ with the property that its integral over $\partial \Delta^3$ is the given $c$. By the [[Stokes theorem]] it remains to extend $\tilde B$ to the interior of $\Delta^3$ in any way, as long as it is smooth and has sitting instants.
 
-To that end, we can find in a similar fashion a smooth $U$-parameterized family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = H$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
+To that end, we can find in a similar fashion a smooth $U$-parameterized family of closed 3-forms $H$ with sitting instants on $\Delta^3$, whose integral over $\Delta^3$ equals $c$. Since by sitting instants this 3-form vanishes in a neighbourhood of the boundary, the standard formula for the [[Poincare lemma]] applied to it produces a 2-form $B' \in \Omega^2_{si, vert}(U \times \Delta^3)$ with $d B' = C$ that itself is radially constant at the boundary. By construction the difference $\tilde B - B'|_{\partial \Delta^3}$ has vanishing surface integral. By the discussion at [[Lie integration]] it follows that the difference extends smoothly and with sitting instants to a closed 2-form $\hat B \in \Omega^2_{si,vert}(U \times \Delta^3)$. Therefore the sum 
 
 $$
   B' + \hat B \in \Omega^2_{si,vert}(U \times \Delta^3)
@@ -497,7 +497,7 @@ $$
 
 may all be equivalently reformulated as lifting against a [[cylinder]] $D^k \hookrightarrow D^k \times [0,1]$ by using the sitting instants of all forms.
 
-We have then a 3-form $C \in \Omega^3_{si}(U \times D^{k-1}\times [0,1])$ with horizontal curvature $\mathcal{G} \in Omega^4(U)$ and differential form data $(A,B)$ on $U \times D^{k-1}$ given. We may always extend $A$ along the cylinder direction $[0,1]$ (its vertical part is equivalently a based smooth function to $Spin$ which we may extend constantly). $H$  has to be horizontal so it is to be constantly extended along the cylinder.
+We have then a 3-form $C \in \Omega^3_{si}(U \times D^{k-1}\times [0,1])$ with horizontal curvature $\mathcal{G} \in \Omega^4(U)$ and differential form data $(A,B)$ on $U \times D^{k-1}$ given. We may always extend $A$ along the cylinder direction $[0,1]$ (its vertical part is equivalently a based smooth function to $Spin$ which we may extend constantly). $H$  has to be horizontal so it is to be constantly extended along the cylinder.
 
 We can then use the kind of formula that proves the [[Poincare lemma]] to extend $B$. Let $\Psi : (D^k \times [0,1]) \times [0,1] \to (D^k  \times [0,1])$ be a smooth contraction. Then while $d(H - CS(A) + C)$ may be non-vanishing, by horizonatlity of their [[curvature characteristic form]]s we still have that $\iota_{\partial_t} \Psi_t^* d(H - CS(A) + C)$ vanishes (since the contraction vanishes).
 
@@ -760,7 +760,7 @@ The look of this diagram makes manifest how in this situation we are looking at 
 More discussion of this is in ([SSSIII](#SSSIII)).
 
 
-Since $\mathbf{H}_{dR}(X, \mathbf{B}^3 U(1))$ is abelian, we may consider the corresponding <a href="http://ncatlab.org/nlab/show/fiber%20sequence#MayerVietoris">Mayer-Vietoris</a> sequence by realizing $GSBackground(X)$ equivalently as the [[homotopy fiber]] of the difference of differential cocycles $\frac{1}{2}\hat \mathbf{p}_1 - \mathbf{c}_2$.
+Since $\mathbf{H}_{dR}(X, \mathbf{B}^3 U(1))$ is abelian, we may consider the corresponding <a href="http://ncatlab.org/nlab/show/fiber%20sequence#MayerVietoris">Mayer-Vietoris</a> sequence by realizing $GSBackground(X)$ equivalently as the [[homotopy fiber]] of the difference of differential cocycles $\frac{1}{2}\hat \mathbf{p}_1 - \hat \mathbf{c}_2$.
 
 $$
   \array{
