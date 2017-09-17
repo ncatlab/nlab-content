@@ -19,13 +19,23 @@
 
 ## Idea
 
-The _model structure for dendroidal Cartesian fibrations_ is an [[operad|operadic]] analog of the _[[model structure for Cartesian fibrations]]_. Its fibrant objects are [[Cartesian fibrations of dendroidal sets]]. These in turn model (Grothendieck-)fibrations of [[(∞,1)-operads]].
+The _model structure for dendroidal (co)Cartesian fibrations_ is an [[operad|operadic]] analog of the _[[model structure for Cartesian fibrations]]_. Its fibrant objects are (co)[[Cartesian fibrations of dendroidal sets]]. These in turn model (Grothendieck-)fibrations of [[(∞,1)-operads]].
+In particular, over the [[terminal object]], the [[E-∞ operad]], this is a model for [[symmetric monoidal (∞,1)-categories]].
+
+
 
 ## Related concepts
+
+* [[model structure for Cartesian fibrations]]
+
+* [[model structure for dendroidal left fibrations]]
 
 For an overview of models for [[(∞,1)-operads]] see
 _[[table - models for (infinity,1)-operads]]_.
 
+
 ## References
 
 * [[Gijs Heuts]], _Algebras over infinity-Operads_ ([arXiv:1110.1776](http://arxiv.org/abs/1110.1776))
+
+[[!redirects model structure for dendroidal coCartesian fibrations]]
