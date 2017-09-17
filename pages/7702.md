@@ -1,6 +1,12 @@
 
 ## Idea
 
+### As a supertrace
+
+(...)
+
+### As the partition function of a supersymmetric QFT
+
 (...)
 
 ## Properties
