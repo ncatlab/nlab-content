@@ -43,7 +43,7 @@ modulates a [[circle n-bundle with connection]] on $X$. We regard this as a _ext
 | $k = $ | [[transgression]] of $\mathbf{c}_{conn}$ to $[\Sigma_{n-1},X]$ | meaning in [[geometric quantization]] |
 |--|--|--|
 | $n$ | $\exp(2 \pi i S(-)) : [\Sigma_n, X] \stackrel{[\Sigma_n, \mathbf{c}_{conn}]}{\to} [\Sigma_n, \mathbf{B}^n \mathbb{G}_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_n}(-))}{\to}  \mathbb{G} $ |  [[action functional]] |
-| $n-1$ | $\exp(2 \pi i S(-)) : [\Sigma_{n-1}, X] \stackrel{[\Sigma_{n-1}, \mathbf{c}_{conn}]}{\to} [\Sigma_{n-1}, \mathbf{B}^n \mathbb{G}_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_n}(-))}{\to}  \mathbf{B}\mathbb{G}_{conn}  \,$  | ordinary (off-shell) [[prequantum circle bundle]] | 
+| $n-1$ | $\exp(2 \pi i S(-)) : [\Sigma_{n-1}, X] \stackrel{[\Sigma_{n-1}, \mathbf{c}_{conn}]}{\to} [\Sigma_{n-1}, \mathbf{B}^n \mathbb{G}_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_{n-1}}(-))}{\to}  \mathbf{B}\mathbb{G}_{conn}  \,$  | ordinary (off-shell) [[prequantum circle bundle]] | 
 
 The idea is to consider the higher geometric quantization not just of the low codimension transgressions, but of all transgressions of $\mathbf{c}_{conn}$.
 The basic constructions that higher geometric quantization is concerned with are indicated in the following table. All of them have also a fundamental interpretation in [[twisted cohomology|twisted]] [[cohomology]] (independent of any interpretation in the context of [[quantization]]) this is indicated in the right column of the table:
