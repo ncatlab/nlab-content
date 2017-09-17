@@ -100,6 +100,14 @@ The standard axioms are:
 
 It is easy to see that if $C$ has pointwise left and right Kan extensions along all functors in $Dia$, then its representable prederivator is a derivator.  Somewhat more difficult to prove is that if $C$ is a [[model category]] (or more generally, has well-behaved homotopy Kan extensions), then the prederivator $Ho(C)$ is also a derivator.  Thus the derivator encodes the notions of [[homotopy colimit]] and of [[homotopy limit]].  Note again that this way of seeing homotopy (co)limits does not use anything besides usual (2-)category theory.
 
+### Semiderivators
+
+It may sometimes be useful to consider prederivators which are like derivators, but which "do not have *all* limits and colimits."  Let us say that a **semiderivator** is a prederivator satisfying (Der1), (Der2), and (Der5).
+
+If $D$ is a semiderivator, $x\in D(B)$ is a $B$-shaped diagram, and $v\colon B\to C$ is a functor in $Dia$, then a **pointwise left extension** of $x$ along $v$ is an object "$v_! x$" in $D(C)$, together with a morphism $x \to v^* v_! x$ which is [[initial object|initial]] in the [[comma category]] $(x / v^*)$ (this says that $v_! x$ is a "local" or "partial" value of the left adjoint $v_!$ at $x$, although the entire functor $v_!$ may not exist) which additionally satisfies the [local Beck-Chevalley condition](/nlab/show/Beck-Chevalley+condition#Local) for any comma square as above.  We have a dual notion of **pointwise right extension**. 
+
+We say a semiderivator is **complete** (resp. **cocomplete**) if it admits all pointwise right (resp. left) extension.  Clearly a semiderivator is a derivator just when it is both complete and cocomplete.
+
 
 ## Computing homotopy Kan extensions
 
@@ -340,3 +348,5 @@ An brief informal discussion of derivators as a 2-categorical tool for studying 
 [[!redirects dérivateur]]
 [[!redirects derivateurs]]
 [[!redirects dérivateurs]]
+[[!redirects semiderivator]]
+[[!redirects semiderivators]]
