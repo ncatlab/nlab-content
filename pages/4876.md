@@ -103,7 +103,7 @@ $$
 },
 $$ 
 
-the morphism $WZW_{\mathbf{c}}$ can naturally be seen as a morphism from $G$ to $\mathbf{B}^2 U(1)_{conn}$.
+the morphism $WZW_{\mathbf{c}}$ can naturally be seen as a morphism from $G$ (as a smooth manifold) to the 2-stack $\mathbf{B}^2 U(1)_{conn}$ of [[circle n-bundle with connection|circle 2-bundles with connection]]. In other words, if $G$ is a compact simply connected simple Lie group, the differential refinement $CS_{\mathbf{c}}$ of the degree 4 characteristic class $\mathbf{c}$ provided by Chern-Simons theory naturally induces a  circle 2-bundle with connection over the smooth manifold underlying the Lie group $G$.
 
 
 The [[higher holonomy|surface holonomy]] of this is the topological part of the WZW action functional:
