@@ -654,6 +654,7 @@ A discussion of renormalization in the context of [[AQFT]], as well as a detaile
 
 * [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
 
+For more see at _[perturbation theory -- In AQFT](perturbation+theory#ReferencesInAQFT)_.
 
 ### Hopf algebraic BPHZ formulation
 
