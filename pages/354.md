@@ -133,13 +133,18 @@ See at _[[internal ∞-groupoid]]_ for more.
 Here we discuss aspects of how _Kan complexes_ serve as a model (a "[[geometric definition of higher categories|geometric model]]") for [[groupoids]], [[2-groupoids]], ... [[n-groupoids]] and generally _[[∞-groupoids]]_ or _[[homotopy types]]_. 
 
 
-First we briefly recall 1-[[groupoids]] and their [[nerves]] in
+First we survey the general idea in 
+
+* [Heuristics on composition and inverses](#HeuristicsOnCompositionAndInverses)
+
+then we recall 1-[[groupoids]] as Kan complexes via their [[nerves]] in
 
 * [1-Groupoids as Kan complexes](#1GroupoidsAsKanComplexes)
 
-then 
+Then we discuss basic aspects of the
 
-* (...)
+* [Homotopy theory of ∞-groupoids as Kan complexes](#HomotopyTheoryOfKanComplexes).
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -179,125 +184,24 @@ But in any case it seems clear that there is no "fundamental" conceptual role to
 
 =--
 
-### 1-Groupoids as Kan complexes
- {#1GroupoidsAsKanComplexes}
+### Heuristics on composition and inverses
+ {#HeuristicsOnCompositionAndInverses}
 
-+-- {: .num_defn #Groupoid}
-###### Definition
+An [[∞-groupoid]] is first of all supposed to be a structure that consists of [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. 
 
-A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
+In the context of Kan complexes, the tool for organizing such collections of [[k-morphisms]] is the notion of a _[[simplicial set]]_, which models $k$-morphisms as being of the [[geometric shape for higher structures|shape]] of $k$-[[simplices]] -- a [[vertex]] for $k = 0$, an [[edge]] for $k = 1$, a [[triangle]] for $k = 2$, a [[tetrahedron]] for $k = 3$, and so on. 
 
-* a pair of [[sets]] $\mathcal{G}_0 \in Set $ (the set of [[objects]]) and $\mathcal{G}_1 \in Set$ (the set of [[morphisms]])
+This means that a simplicial set $K_\bullet$ is a sequence of [[sets]] $\{K_n\}_{n \in \mathbb{N}}$ (sets of $k$-simplex shaped $k$-morphisms for all $k$) equipped with [[functions]] $d_i \colon K_{k+1} \to K_{k}$ that send a $(k+1)$-simplex to its $i$-th face, and functions $s_i \colon K_k \to K_{k+1}$ that over a $k$-simplex "erects a flat $(k+1)$-simplex" in all possible ways (hence which inserts "[[identities]]" called "degeneracies" in this context).
 
-* equipped with [[functions]]
-
-  $$
-    \array{
-      \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
-      &\stackrel{\circ}{\to}&
-      \mathcal{G}_1
-      & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
-      \mathcal{G}_0
-    }\,,
-  $$
-
-  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$, 
-
-such that
-
-* $i$ takes values in [[endomorphisms]];
-
-  $$
-    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
-  $$
-
-* $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{G}_0)$ the [[identities]]; in particular
-
-  $s (g \circ f) = s(f)$ and $t (g \circ f) = t(g)$;
-
-* every morphism has an [[inverse]] under this composition.
-
-=--
-
-
-+-- {: .num_defn #NerveOfGroupoid}
-###### Definition
-
-For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write
+If we write $\Delta$ for the [[category]] whose [[objects]] are abstract cellular [[simplices]] and whose morphisms are all cellular maps between these, then such a simplicial set is equivalently a [[functor]] of the form
 
 $$
-  \mathcal{G}_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
-$$ 
-
-for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
-
-$$
-  \mathcal{G}_n = 
-  \left\{
-    x_0 
-      \stackrel{f_1}{\to} 
-    x_1
-      \stackrel{f_2}{\to}
-    x_2
-      \stackrel{f_2}{\to}
-    \cdots
-      \stackrel{f_n}{\to}
-    x_n
-  \right\}
-  \,.
+  K \colon \Delta^{op} \to Set
 $$
 
-For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$ [[functions]] denoted
+Hence we think of this as assigning
 
-$$
-  d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
-  \,.
-$$
-
-Moreover, the assignments $s_i$ that insert an [[identity]] morphism in position $i$ constitute [[functions]] denoted
-
-$$
-  s_i \colon \mathcal{G}_{n-1} \to \mathcal{G}_n
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]]. Moreover, they make $N(\mathcal{G}_\bullet)$ a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
-
-=--
-
-
-+-- {: .num_prop }
-###### Proposition
-
-The [[nerve]] operation constitutes a [[full and faithful functor]]
-
-$$
-  N \colon Grpd \to KanCplx \hookrightarrow sSet
-  \,.
-$$
-
-
-=--
-
-
-
-
-### Composition and inverses
-
-An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
-
-$$
-  K : \Delta^{op} \to Set
-$$
-
-as specifying
-
-* a set $[0] \mapsto K_0$ of [[object]]s;
+* a set $[0] \mapsto K_0$ of [[objects]];
 
 * a set $[1] \mapsto K_1$ of [[morphism]];
 
@@ -319,7 +223,7 @@ as well as specifying
   on them.
 
 The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
-These are called the [[simplicial identities]].
+These are called the _[[simplicial identities]]_.
 
 But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
 
@@ -401,38 +305,9 @@ $$
 
 Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
 
-In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphism]]s, which means that we can find the relevant [[tetrahedra]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions in the evident way:
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphisms]], which means that we can find the relevant [[tetrahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions as in the definition of Kan complexes.
 
-let $\Lambda^i[n] \hookrightarrow \Delta[n]$ be the simplicial set -- called the $i$th $n$-[[horn]] -- that consists of all cells of the $n$-[[simplex]] $\Delta[n]$ except the interior $n$-morphism and the $i$th $(n-1)$-morphism.
-
-Then a simplicial set is called a [[Kan complex]], if for all images $f : \Lambda^i[n] \to K$ of such horns in $K$, the missing two cells can be found in $K$- in that we can always find a _horn filler_ $\sigma$ in the diagram
-
-$$
-  \array{
-     \Lambda^i[n] &\stackrel{f}{\to}& K
-     \\
-     \downarrow & \nearrow_{\mathrlap{\sigma}}
-     \\
-     \Delta[n]
-  }
-  \,.
-$$
-
-The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
-
-### Globular $k$-morphisms
-
-We expand now a bit on how a Kan complex may naturally be thought of as a _[[globular set|globular]]_ [[∞-groupoid]]: a [[higher category theory|higher category]] in which all [[k-morphisms]] for all $k \in \mathbb{N}$ are invertible. A structure mediating between the simplicial- and the globular model for $\infty$-groupoids is that of [[oriental|orientals]].
-
-For this interpretation, one thinks of a $k$-dimensional cell $\phi \in C_K$ of a Kan complex $C$ as a [[globular set|globular]] [[k-morphism]] whose 
-
-* _source_ is the $(k-1)$-morphism given by the pasting diagram ([[limit in a quasi-category|coproduct]]) of the $(k-1)$-cells that are the faces $d_{k} \phi, \; d_{k-2} \phi, d_{k-4} \phi \cdots$  of $\phi$;
-
-* _target_ is the $(k-1)$-morphism given by the pasting diagram of the $(k-1)$-cells that are the faces $d_{k-1} \phi, \; d_{k-3} \phi, d_{k-5} \phi \cdots$  of $\phi$
-
-where $d_i : C_k \to C_{k-1}$ are the [[simplicial identities|face maps]] of the [[simplicial set]] $C$.
-
-The task of analyzing the combinatorics of k-simplices and their boundaries quickly goes beyond what can be handled in a naive fashion. Luckily, this combinatorial problem has been completely solved by [[Ross Street]] in his work on [[oriental]]s.
+In order to conceive of the $k$-[[simplices]] for higher $k$ as "[[globular set|globular]] [[k-morphism]]" going from a source to a target one needs a bit of combinatorics. This provided by the _[[orientals]]_ (due to [[Ross Street]]).
 
 The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of  a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. The first few look like this:
 
@@ -559,6 +434,124 @@ $$
 $$
 
 A similar analysis for higher dimensional cells shows that the fact that a Kan complex has all horn fillers encodes precisely the fact that it is the [[omega-nerve]] of an [[omega-category]] in which _all_ [[k-morphism]]s for all $k$ are composable if adjacent and have a weak inverse.
+
+
+### 1-Groupoids as Kan complexes
+ {#1GroupoidsAsKanComplexes}
+
+We review how [[1-groupoids]] are incarnated as Kan complexes via their [[nerve]].
+
++-- {: .num_defn #Groupoid}
+###### Definition
+
+A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
+
+* a pair of [[sets]] $\mathcal{G}_0 \in Set $ (the set of [[objects]]) and $\mathcal{G}_1 \in Set$ (the set of [[morphisms]])
+
+* equipped with [[functions]]
+
+  $$
+    \array{
+      \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
+      &\stackrel{\circ}{\to}&
+      \mathcal{G}_1
+      & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
+      \mathcal{G}_0
+    }\,,
+  $$
+
+  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$, 
+
+such that
+
+* $i$ takes values in [[endomorphisms]];
+
+  $$
+    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+  $$
+
+* $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{G}_0)$ the [[identities]]; in particular
+
+  $s (g \circ f) = s(f)$ and $t (g \circ f) = t(g)$;
+
+* every morphism has an [[inverse]] under this composition.
+
+=--
+
+
++-- {: .num_defn #NerveOfGroupoid}
+###### Definition
+
+For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write
+
+$$
+  \mathcal{G}_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
+$$ 
+
+for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
+
+$$
+  \mathcal{G}_n = 
+  \left\{
+    x_0 
+      \stackrel{f_1}{\to} 
+    x_1
+      \stackrel{f_2}{\to}
+    x_2
+      \stackrel{f_2}{\to}
+    \cdots
+      \stackrel{f_n}{\to}
+    x_n
+  \right\}
+  \,.
+$$
+
+For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$ [[functions]] denoted
+
+$$
+  d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
+  \,.
+$$
+
+Moreover, the assignments $s_i$ that insert an [[identity]] morphism in position $i$ constitute [[functions]] denoted
+
+$$
+  s_i \colon \mathcal{G}_{n-1} \to \mathcal{G}_n
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], hence make the [[nerve]] $N(\mathcal{G}_\bullet)$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
+
+=--
+
+(A 2-[[simplicial coskeleton|coskeletal]] Kan complex.)
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[nerve]] operation constitutes a [[full and faithful functor]]
+
+$$
+  N \colon Grpd \to KanCplx \hookrightarrow sSet
+  \,.
+$$
+
+
+=--
+
+
+### Homotopy theory of $\infty$-groupoids as Kan complexes
+ {#HomotopyTheoryOfKanComplexes}
+
+
+(...)
+
 
 ## Properties
 
