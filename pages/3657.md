@@ -1,7 +1,7 @@
 ##Idea##
 An inverse sequence of groups  satisfies the _Mittag-Leffler condition_ if the images of groups from far down the sequence do not get smaller.
 
-An inverse sequence of groups consists of some groups $G_n$ indexed by the natural numbers  and between them group homomorphisms: if $m \gt n$, there is a homomorphism $p^m_n : G_m \to G_n$ and if $l\gt m  \gt n$ $p^m_np^l_m= pl_n$, so that we really just need the $p^{n+1}_n$s to define everything.
+An inverse sequence of groups consists of some groups $G_n$ indexed by the natural numbers  and between them group homomorphisms: if $m \gt n$, there is a homomorphism $p^m_n : G_m \to G_n$ and if $l\gt m  \gt n$, $p^m_n p^l_m= p^l_n$, so that we really just need the $p^{n+1}_n$s to define everything.
 
 
 ##Definition##
