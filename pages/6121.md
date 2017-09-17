@@ -1,0 +1,6 @@
+
+A [[matrix]] equal to minus its [[transpose]]
+
+$$
+  A = - A^T
+$$
