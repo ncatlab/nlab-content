@@ -188,3 +188,8 @@ In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axiom
 [[!redirects universe in the topos]]
 [[!redirects universes in the topos]]
 [[!redirects universes in the toposes]]
+[[!redirects internal full subcategory]]
+[[!redirects internal full subcategories]]
+[[!redirects internal full subtopos]]
+[[!redirects internal full subtoposes]]
+[[!redirects internal full subtopoi]]
