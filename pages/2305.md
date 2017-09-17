@@ -36,6 +36,17 @@ De Rham cohomology has a rather subtle generalization for possibly singular alge
 
 * [[de Rham theorem]]
 
+## Related concepts
+
+* [[twisted de Rham cohomology]]
+
+* [[Deligne cohomology]]
+
+* [[de Rham space]]
+
+* [[Lie algebra valued differential forms]]
+
+* [[L-infinity algebra valued differential forms]]
 
 ## References
 
