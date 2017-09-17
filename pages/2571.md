@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -114,23 +115,13 @@ Shulman\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, w
 
 
 [[!redirects ZF]]
-[[!redirects Zermelo-Fraenkel set theory]]
-[[!redirects Zermelo-Fraenkel set theory]]
+[[!redirects ZFC]]
+
 [[!redirects Zermelo-Fraenkel set theory]]
 [[!redirects Zermelo–Fraenkel set theory]]
-[[!redirects Zermelo–Fraenkel set theory]]
-[[!redirects Zermelo–Fraenkel set theory]]
-[[!redirects Zermelo--Fraenkel set theory]]
-[[!redirects Zermelo--Fraenkel set theory]]
 [[!redirects Zermelo--Fraenkel set theory]]
 [[!redirects Zermelo-Fraenkel]]
-[[!redirects Zermelo-Fraenkel]]
-[[!redirects Zermelo-Fraenkel]]
 [[!redirects Zermelo–Fraenkel]]
-[[!redirects Zermelo–Fraenkel]]
-[[!redirects Zermelo–Fraenkel]]
-[[!redirects Zermelo--Fraenkel]]
-[[!redirects Zermelo--Fraenkel]]
 [[!redirects Zermelo--Fraenkel]]
 
 [[!redirects CPZ]]
@@ -138,3 +129,10 @@ Shulman\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, w
 [[!redirects IZF]]
 [[!redirects CST]]
 [[!redirects NBG]]
+
+[[!redirects Tarski-Grothendieck set theory]]
+[[!redirects Tarski–Grothendieck set theory]]
+[[!redirects Tarski--Grothendieck set theory]]
+[[!redirects Tarski-Grothendieck]]
+[[!redirects Tarski–Grothendieck]]
+[[!redirects Tarski--Grothendieck]]
