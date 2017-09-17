@@ -1,0 +1,4 @@
+
+* [webpage](http://www.mathematik.uni-muenchen.de/~schotten/)
+
+category: people
