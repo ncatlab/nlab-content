@@ -162,3 +162,6 @@ The special case of this for morphisms of 1-groups is discussed in
 
 [[!redirects normal morphisms of ∞-groups]]
 [[!redirects normal morphisms of infinity-groups]]
+
+[[!redirects normal sub Lie algebra]]
+[[!redirects normal sub Lie algebras]]
