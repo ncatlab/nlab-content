@@ -134,7 +134,7 @@ where we have freely identified morphisms with their [[adjunct]]s. See [[differe
 
 A [[differential form|differential 1-form]] is a morphism $\omega : T X \to R$ that is "fiberwise linear". One elegant way to say this is obtained by considering all higher differential forms at once:
 
-for a sufficiently well behaved object $X$ in a [[smooth topos]], there is the [[simplicial object]] which is the [[infinitesimal singular simplicial complex]] $X^{(\Delta^\bullet_{inf})}$ of $X$. Taking functions on this procudes the [[cosimplicial algebra]] $Hom(X^{\Delta^\bullet_{inf}}, R)$. Its [[Moore complex|normalized Moore cochain complex]] is isomorphic to the [[de Rham complex|de Rham dg-algebra]] of differential forms on $X$:
+for a sufficiently well behaved object $X$ in a [[smooth topos]], there is the [[simplicial object]] which is the [[infinitesimal singular simplicial complex]] $X^{(\Delta^\bullet_{inf})}$ of $X$. Taking functions on this produces the [[cosimplicial algebra]] $Hom(X^{\Delta^\bullet_{inf}}, R)$. Its [[Moore complex|normalized Moore cochain complex]] is isomorphic to the [[de Rham complex|de Rham dg-algebra]] of differential forms on $X$:
 
 $$
   N^\bullet(Hom(X^{(\Delta^{inf}_\bullet)}),R)
@@ -180,7 +180,7 @@ The first model for the axioms presented there served to demonstrate that the th
 
 These models are constructed in terms of [[sheaf]] [[topos]]es on the category of [[smooth loci]], formal duals to [[generalized smooth algebra|C∞-ring]]s. See there for a detailed list of references.
 
-Transcipts or notes of further talks by Bill Lawvere on the subject are
+Transcripts or notes of further talks by Bill Lawvere on the subject are
 
 * [[Bill Lawvere]], _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([[LawvereToposesOfLawsOfMotions.pdf:file]])
 
@@ -202,7 +202,7 @@ The textbooks
 
 *  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-develop in great detail the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comoprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
+develop in great detail the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
 
 Somewhat complementary to that, the book
 
