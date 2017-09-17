@@ -865,7 +865,7 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
 
 * **$(\infty,1)$-limit
 
-  * [[finite (∞,1)-limit]]
+  * [[finite (∞,1)-limit]], [[relative (∞,1)-limit]]
 
   * [[homotopy limit]]
 
