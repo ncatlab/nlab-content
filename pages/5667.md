@@ -7,6 +7,14 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
 =--
 =--
 
@@ -16,11 +24,13 @@
 
 ## Idea
 
-KK-theory is a "bivariant" version of [[operator K-theory]]: for $A, B$ two [[operator algebras]], the _KK-group_ $KK(A,B)$ is a natural [[homotopy]] [[equivalence class]] of $(A,B)$-[[Hilbert bimodules]] equipped with an additional left weak [[Fredholm module]] structure. These KK-groups $KK(A,B)$ behave in the first argument as [[K-homology]] of $A$ and in the second as [[K-cohomology]] of $B$.
+_KK-theory_ is a "bivariant" joint generalization of [[operator K-theory]] and [[K-homology]]: for $A, B$ two [[C*-algebras]], the _KK-group_ $KK(A,B)$ is a natural [[homotopy]] [[equivalence class]] of $(A,B)$-[[Hilbert bimodules]] equipped with an additional left weak [[Fredholm module]] structure. These KK-groups $KK(A,B)$ behave in the first argument as [[K-homology]] of $A$ and in the second as [[K-cohomology]]/[[operator K-theory]] of $B$.
 
-There is a [[stable (infinity,1)-category]] and in particular a [[triangulated category]] of operator algebras such that $KK(-,-)$ is the [[hom-set]] of the corresponding [[homotopy category]] ([Meyer](#Meyer)).
+Abstractly, KK-theory is an [[additive category]] of [[C*-algebras]] which is the split-[[exact functor|exact]] and [[homotopy]]-invariant [[localization]] of [[C*Alg]] at the [[compact operators]]. Hence, abstractly KK-theory is fundamental notion in [[noncommutative topology]], but its standard presentation by [[Fredholm module|Fredolm]]-[[Hilbert bimodules]] as above is rooted in [[functional analysis|functional]] [[analysis]].
 
-Accordingly, the groups $KK(A,B)$ are now viewed as a "correct" hom-set among noncommutative operator algebras for the purpose of various homotopy-invariant functors. 
+Accordingly, KK-theory is a natural home of [[index theory]], for [[elliptic operators]] on [[smooth manifolds]] as well as for their generalization to [[equivariant cohomology|equivariant]] situations, to [[foliations]] and generally to [[Lie groupoid]]-theory (via their [[groupoid convolution C*-algebras]]) and [[noncommutative geometry]].
+
+As a special case of this, [[quantization]] in its incarnation as [[geometric quantization by push-forward]] has been argued to naturally proceed by [[index theory]] in KK-theory ([Landsman 03](#Landsman03), [Bos 07](#Bos07)). Also the coupling of [[D-branes]] and their [[Chan-Paton bundles]] in [[twisted K-theory]] with [[RR-charge]] in [[string theory]] is naturally captured by the coupling between [[K-homology]] and [[K-cohomology]] in KK-theory (e.g. [Szabo 08](#Szabo)).
 
 ## Definition
 
@@ -130,7 +140,7 @@ For $B = \mathbb{C}$ a Kasparov $(A,B)$-bimodule is equivalently an $A$-[[Fredho
 +-- {: .num_defn #HomotopyOfKasparovBimodules}
 ###### Definition
 
-A [[homotopy]] between two Kasparov $(A,B)$-bimodules is an $(A, C([0,1],B))$-bimodule which interpolates between then two.
+A [[homotopy]] between two Kasparov $(A,B)$-bimodules is an $(A, C([0,1],B))$-bimodule which interpolates between the two.
 
 (...)
 
@@ -400,9 +410,10 @@ algebras]] in the context of [[geometric quantization]] [[geometric quantization
 * [[Klaas Landsman]], _Quantization as a functor_ ([arXiv:math-ph/0107023](http://arxiv.org/abs/math-ph/0107023))
 
 * [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
+ {#Landsman03}
 
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
- {#Bos}
+ {#Bos07}
 
 The KK-theory of twisted convolution algebras and its relation to [[twisted K-theory]] of [[differentiable stacks]] is discussed in
 
@@ -417,6 +428,7 @@ KK-theory also descrives [[charges]] and sources in [[D-brane]] theory.
 A review is in
 
 * [[Richard Szabo]], _D-branes and bivariant K-theory_ ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
+ {#Szabo}
 
 
 [[!redirects Kasparov K-theory]]
