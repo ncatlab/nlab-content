@@ -1,0 +1,13 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
+A _probability space_ is a [[measure space]] whose [[measure]] is a [[probability distribution]]: its [[integral]] is 1.
