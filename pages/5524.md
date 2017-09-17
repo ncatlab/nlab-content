@@ -24,9 +24,9 @@
 +-- {: .un_def}
 ###### Definition
 
-Let [[CartSp]]${}_{synthdiff}$ be the [[full subcategory]] of the category of [[smooth loci]] on those objects of the form $\mathbb{R}^n \times D$ for $n \in \mathbb{N$ and $D$ an [[infinitesimal space]]: the formal dual of a Weil algebra.
+Let [[CartSp]]${}_{synthdiff}$ be the [[full subcategory]] of the category of [[smooth loci]] on those objects of the form $\mathbb{R}^n \times D$ for $n \in \mathbb{N}$ and $D$ an [[infinitesimal space]]: the formal dual of a Weil algebra.
 
-Equip this category with the [[coverage]] where a family of morphisms in is [[covering]] precisely if it is of the form $\{U_i \times D \stackrel{(f_i, Id_D)}{\to} U \times D\}$ for $\{f_i : U_i \to U\}$ a covering in [[CartSp]]$()_{smooth}$ (a [[good open cover]]).
+Equip this category with the [[coverage]] where a family of morphisms in is [[covering]] precisely if it is of the form $\{U_i \times D \stackrel{(f_i, Id_D)}{\to} U \times D\}$ for $\{f_i : U_i \to U\}$ a covering in [[CartSp]]${}_{smooth}$ (a [[good open cover]]).
 
 =--
 
