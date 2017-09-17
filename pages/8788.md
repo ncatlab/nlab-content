@@ -2,17 +2,24 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential cohomology
-+--{: .hide}
-[[!include differential cohomology - contents]]
-=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Integration theory
++-- {: .hide}
+[[!include integration theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
 =--
 =--
 
+
+
+  
 
 #Contents#
 * table of contents
@@ -63,11 +70,6 @@ Further developments are in
 
 * [[Shay Fuchs]], _$Spin^{\mathbb{C}}$-quantization, prequantization and cutting_ Ph.D. thesis, University of Toronto (2008) ([pdf](https://tspace.library.utoronto.ca/bitstream/1807/11205/1/Fuchs_Shay_Z_200806_PhD_thesis.pdf))
 
-* [[Fabian Meier]], _$Spin^{\mathbb{C}}$-Quantization in odd dimensions_, International Journal of Pure and Applied Mathematics Volume 74 No. 2 2012, 265-274 ([pdf](http://www.ijpam.eu/contents/2012-74-2/9/9.pdf))
-
-A review is in 
-
-* [[Fabian Meier]], _Geometric quantization -- An introduction to $Spin^{\mathbb{C}}$-quantization and related topics_ ([pdf](http://www.math.uni-bonn.de/people/fmeier/GeomQuan.pdf))
 
 
 [[!redirects spin-c quantization]]
@@ -75,3 +77,6 @@ A review is in
 [[!redirects spin^c quantization]]
 
 [[!redirects spin^c geometric quantization]]
+
+[[!redirects geometric quantization via push-forward]]
+[[!redirects geometric quantization via push-forward in generalized cohomology]]
