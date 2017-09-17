@@ -85,6 +85,10 @@ A textbook dedicated to the classical [[differential geometry|diffential geometr
 
 * John K. Beem; Paul E. Ehrlich, ; Kevin L. Easley, _Global Lorentzian geometry_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0846.53001&format=complete))
 
+The relation between causality and [[poset]]-structure is reviewed for instance in 
+
+* Ettore Minguzzi, _Time and Causality in General Relativity_ , talk notes, Ponta Delgada, July 2009 ([pdf](http://fqxi.org/data/documents/Minguzzi%20%20Azores%20Talk.pdf))
+
 There is also
 
 * [[Keye Martin]] and [[Prakash Panangaden]], <a href="http://www.springerlink.com/content/m3x4h1l6g64mu753/">	
