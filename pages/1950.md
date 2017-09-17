@@ -1,5 +1,19 @@
 
-This entry describes special methods for the construction of  fibrant replacements in the standard [[model structure on simplicial sets]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+This entry describes special methods for the construction of  fibrant [[resolution]]s in the standard [[model structure on simplicial sets]].
 
 
 #Contents#
