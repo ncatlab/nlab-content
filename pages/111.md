@@ -106,7 +106,7 @@ We said a category has a 'collection' of objects and 'collection'(s) of morphism
 Similarly, a category is [[locally small category|locally small]] if $C_1(x,y)$ is a set for every pair of objects $x,y$ in that category.  The most common motivating examples of categories are all locally small but not small (unless one restricts their objects in some way).
 
 
-### Alternative and generalised definitions
+### Alternative definitions
 
 For some purposes it is useful or necessary to vary the way the ordinary definition of category is expressed. See
 
@@ -116,9 +116,24 @@ For some purposes it is useful or necessary to vary the way the ordinary definit
 
 The first definition, with a single collection $C_1$ of morphisms, generalises to the notion of [[internal category]]; essentially, we define a category internal to (some other category) $D$ as above, with 'collection' interpreted as an object of $D$ and 'function' interpreted as a morphism of $D$.  In particular, a category internal to [[Set]] is the same thing as a small category.
 
-The second definition, with a family $C_1(x,y)$ of collections of morphisms, generalises to the notion of [[enriched category]]; essentially, we define a category enriched over (some other category) $D$ as above, with the collection of objects still a 'collection' as before, but with objects of $D$ in place of the collections of morphisms and morphisms of $D$ in place of the various functions.  In particular, a category enriched over [[Set]] is the same thing as a locally small category.
+### Generalizations
 
-There is also the notion of an [[indexed category]] which captures the idea of woking "over a base" other than [[Set]].
+#### Enriched categories
+
+The definition, of a category as a family $C_1(x,y)$ of collections of morphisms, generalises to the notion of [[enriched category]]: we define a category enriched over (some other category) $D$ as above, with the collection of objects still a 'collection' as before, but with objects of $D$ in place of the collections of morphisms and morphisms of $D$ in place of the various functions.  In particular, a category enriched over [[Set]] is the same thing as a locally small category.
+
+#### Indexed categories
+
+The notion of [[indexed category]] captures the idea of woking "over a base" other than [[Set]].
+
+
+#### Multicategories
+
+There is a rather obvious generalization of the notion of catgeory where one allows a morphism to go from several objects to a single object. This is called a [[multicategory]] or [[operad]].
+
+#### Higher categories
+
+See [[higher category theory]].
 
 ## Examples
 
