@@ -38,9 +38,15 @@
 
 * [[monoidal model category]]
 
+  * [[monoidal Quillen adjunction]]
+
 * [[enriched model category]]
 
+  * [[enriched Quillen adjunction]]
+
 * [[simplicial model category]]
+
+  * [[simplicial Quillen adjunction]]
 
 * [[cofibrantly generated model category]]
 
@@ -101,7 +107,14 @@
 
 ### for $\infty$-algebras
 
+#### general
+
 * [[model structure on simplicial T-algebras]], on [[homotopy T-algebra]]s
+
+* [[model structure on algebras over an operad|on algebras over an operad]],
+  [[model structure on modules over an algebra over an operad|on modules over an algebra over an operad]]
+
+#### specific
 
 * [[model structure on dg-algebras|on dg-algebras]] and on [[simplicial ring|on simplicial rings]]/[[model structure on cosimplicial rings|on cosimplicial rings]] 
 
@@ -129,8 +142,10 @@
 
 * [[model structure on operads|on operads]]
 
-* [[model structure on dendroidal sets|on dendroidal sets]]
+  [[model structure on algebras over an operad|on algebras over an operad]],
+  [[model structure on modules over an algebra over an operad|on modules over an algebra over an operad]]
 
+* [[model structure on dendroidal sets|on dendroidal sets]]
 
 ### for $(n,r)$-categories
 
