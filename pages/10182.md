@@ -9,13 +9,46 @@
 
 The [[twisted K-theory]] of geometric stacks $X$ assigns K-classes to maps $X \to \mathbf{B}^2 U(1)$ to the [[moduli 2-stack]] of [[circle n-bundle with connection|circle 2-bundles]].
 
+
+## Definition 
+
+We discuss two different but related definitions. The first
+
+* _[By topological K-theory of Hilbert bundles](#ByTopologicalKTheoryOfHilbertBundles)_
+
+realizes the K-theory of a suitable [[Lie groupoid]] (a [[local quotient groupoid]]) as a class in the [[Grothendieck group]] of suitable [[equivariant vector bundles]] ([[Hilbert space]] bundles). The second
+
+* _[By operator K-theory of convolution algebras](#ByOperatorKTheoryOfConvolutionAlgebras)_
+
+realizes it as the [[operator K-theory]] of the [[groupoid convolution algebra]].
+
+In the [Properties-section](#Properties) below we discuss how both definitions are compatible.
+
+### By topological K-theory of Hilbert bundles on groupoids
+ {#ByTopologicalKTheoryOfHilbertBundles}
+
+For [[local quotient groupoids]]
+
+([FHT, I, 3.2](#FHT))
+
+### By Operator K-theory of convolution algebras of groupoids
+ {#ByOperatorKTheoryOfConvolutionAlgebras}
+
+([TuXuLG 03](#TuXuLG03))
+
+## Properties
+ {#Properties}
+
+
+
 ## References
 
 ### For topological and Lie groupoids/stacks
 
 The [[twisted K-theory]] of [[local quotient stack|local quotient]] [[differentiable stacks]] is defined in terms of Fredholm bundles in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part I of _[[Loop Groups and Twisted K-Theory]]_ . 
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part I of _[[Loop Groups and Twisted K-Theory]]_ 
+ {#FHT}
 
 The [[twisted K-theory]] of general [[differentiable stacks]]/[[Lie groupoids]] in terms of the [[operator K-theory]] of their [[twisted groupoid convolution algebras]] is discussed in 
 
