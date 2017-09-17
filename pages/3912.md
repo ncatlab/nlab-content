@@ -68,11 +68,14 @@ A discussion in [[differential geometry]] with fiberwise compactly supported dif
 
 * [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_ 
 
-A comprehensive general abstract account is in
+A comprehensive general abstract account for [[multiplicative cohomology theories]] in terms of [[E-infinity ring]] [[spectra]] is in
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
+An alternative simple formulation in terms of geometric cycles as in [[bivariant cohomology theory]] is in 
+
+* Martin Jakob, _A note on the Thom isomorphism in geometric (co)homology_ ([arXiv:math/0403540](http://arxiv.org/abs/math/0403540))
 
 See also
 
