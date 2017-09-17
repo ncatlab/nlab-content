@@ -143,6 +143,10 @@ The standard example is that where $B = S^n$ is the $n$-[[sphere]]. This natural
 
 As opposed to [[cohomology]] where people are used to talking about [[generalized cohomology]], "homotopy" usually just means this ordinary homotopy for $B = S^n$.
 
+## Related concepts
+
+* [[homotopy groups of spheres]]
+
 ## References
 
 ### Formalization in HoTT
