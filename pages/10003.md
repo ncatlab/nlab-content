@@ -27,8 +27,9 @@ See at
 
 * [Infinity-action -- Invariants](infinity-action#Invariants)
 
+## Properties
 
-## Presentation
+### Presentation
 
 Generally, for $G$ an [[∞-group]] and $X$ equipped with an [[∞-action]], then the homotopy fixed points is the [[base change]] along/[[dependent product]] over the [[delooping]] $\mathbf{B}G$:
 
@@ -79,16 +80,27 @@ $$
 
 This is the form in which homotopy fixed points are often defined in traditional literature (for instance in the historical discussion of the [[Sullivan conjecture]] ). 
 
+### Homotopy fixed point and periodicity theorems
+
+In the context of [[complex oriented cohomology theory]]
+
+... ([Hill-Hopkins-Ravenel, theorem 8.4](#HillHopkinsRavenel))...
+
 ## Related concepts
 
 * [[Sullivan conjecture]]
 
 * [[invariant theory]]
 
+
 [[!include homotopy type representation theory -- table]]
 
-[[!redirects homotopy fixed points]]
+## References
+
+* {#HillHopkinsRavenel} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+
 
 [[!redirects homotopy fixed points]]
 
-[[invariants]] in [[homotopy theory]].
+[[!redirects homotopy fixed points]]
+
