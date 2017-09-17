@@ -1,3 +1,9 @@
-* [website](http://www2.polito.it/ricerca/sugragroup/members.html)
+
+
+* [website](http://areeweb.polito.it/ricerca/sugragroup/members.html)
+
+## Related entries
+
+* [[D'Auria-Fre formulation of supergravity]]
 
 category: people
