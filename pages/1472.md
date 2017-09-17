@@ -629,3 +629,5 @@ See [[semilattice of commutative subalgebras]] for more.
 [[!redirects n-categorical physics]]
 
 [[!redirects Physics]]
+
+[[!redirects theoretical physics]]
