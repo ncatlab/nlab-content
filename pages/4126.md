@@ -42,8 +42,11 @@ $$
   \lambda(\hat{A}_{1}\hat{A}_{2})=\lambda(\hat{A}_{1})\lambda(\hat{A}_{2}).
 $$
 
+Now we have:
+
 +-- {: .un_theorem}
-###### Kochen-Specker theorem 
+###### Theorem 
+**(Kochen-Specker)*
 
 No valuations on $B(\mathcal{H})$ exist if dim($\mathcal{H}$)>2.
 
@@ -91,7 +94,7 @@ Let $\Sigma : \mathcal{V}(\mathcal{B})^{op} \to Set$ be the [[presheaf]] on the 
 =--
 
 
-Recall that the [[terminal object]], $* = 1_{Set^{\mathcal{V}(\mathcal{H})^{op}}}$ in the [[category of presheaves]] on $\mathcal{V)(\mathcal{H})$ is the presheaf that assigns singleton set to each commutative algebra.  
+Recall that the [[terminal object]], $* = 1_{Set^{\mathcal{V}(\mathcal{H})^{op}}}$ in the [[category of presheaves]] on $\mathcal{V}(\mathcal{H})$ is the [[presheaf]] that assigns the singleton set $*$ (the [[terminal object]] in [[Set]]) to each commutative algebra.  
 
 A [[global element]] of the spectral presheaf $\Sigma$ is a morphism $e : * \to \Sigma$ in the presheaf topos. Being a [[natural transformation]] of functors, such a global element $\lambda : 1_{Set^{\mathcal{V}(\mathcal{H})^{op}}} \to \underline{\Sigma}$ of the spectral presheaf, $\underline{\Sigma}$ would associate an element of the spectrum of an algebra $V$ to that algebra such that all local valuations are global, i.e. for $V \subseteq W$ valuations on $V$ are local valuations on $W$ but global on $V$.  
 
