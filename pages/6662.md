@@ -23,7 +23,9 @@ $$
   \;.
 $$
 
-It is precisely in [[characteristic]] $p$ that this operation is indeed an algebra [[homomorphism]]
+It is precisely in [[positive characteristic]] $p$ that this operation is indeed an algebra [[homomorphism]]. 
+
+The Frobenius map is the shadow of the [[power operations]] in [[multiplicative cohomology theory]]/[[higher algebra]] ([Lurie, remark 2.2.7](#Lurie)).
 
 The presence of the Frobenius endomorphism in characteristic $p$ is a fundamental property in [[arithmetic geometry]] that controls many of its deep aspects. Notably [[zeta functions]] are typically expressed in terms of the [[action]] of the Frobenius endomorphisms on [[cohomology groups]] and so it features prominently for instance in the [[Weil conjectures]].
 
@@ -196,6 +198,10 @@ For a more detailed account of the relationship of Frobenius-, [[Verschiebung mo
 * [[Günter Tamme]], section II 4.2 of _[[Introduction to Étale Cohomology]]_
 
 * [[James Milne]], section 27 of _[[Lectures on Étale Cohomology]]_
+
+Discussion in the context of [[power operations]] on [[E-infinity rings]] is in 
+
+* {#Lurie} [[Jacob Lurie]], _[[Rational and p-adic Homotopy Theory]]_
 
 
 
