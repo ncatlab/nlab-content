@@ -1,0 +1,12 @@
+
+* [website](http://www.ulb.ac.be/sciences/ptm/pmif/membres/henneaux.html)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Marc_Henneaux)
+
+## related $n$Lab entries
+
+* [[gauge theory]]
+
+* [[BV-BRST formalism]]
+
+category: people
