@@ -1,0 +1,32 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $(X,\omega)$ a [[symplectic manifold]], the _symplectomorphism group_
+
+$$
+  Diff(X,\omega) \hookrightarrow Diff(X)
+$$
+
+is the [[subgroup]] of the [[diffeomorphism group]] of $X$ on the [[diffeomorphisms]].
+
+## Related concepts
+
+A further subgroup is that of [[Hamiltonian symplectomorphisms]]. The [[group extension]] of that whose elements are pairs consisting of a Hamiltonian diffeomorphism and a choice of [[Hamiltonian]] for this is the [[quantomorphism group]]. 
+
+The [[Lie algebra]] of the symplectomorphism group is that of [[symplectic vector fields]].
+
+
+[[!redirects symplectomorphism groups]]
