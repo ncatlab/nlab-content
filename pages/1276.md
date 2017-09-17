@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -226,13 +226,20 @@ This observation (Wraith, Blass) can be put into the more general context of mod
 
 +-- {: .num_prop}
 ###### Proposition
-**(Lazard's criterion)**
+**([[Lazard's criterion]])**
 
 A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]. 
 
 =--
 
 This is due to ([Lazard (1964)](#Lazard)).
+
++-- {: .proof}
+###### Proof
+
+(...) For the moment see the above discussion. (...)
+
+=--
 
 ### Relation to (locally) free modules
 
