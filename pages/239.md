@@ -126,7 +126,9 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[cartesian product]]
 
-* [[internalhom]]
+* [[external tensor product]]
+
+* [[internal hom]]
 
 * [[composite system]]
 
