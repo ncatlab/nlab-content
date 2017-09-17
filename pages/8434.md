@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:tco}
+
+## Idea
+
+The Levin-Wen model is a [[model (in theoretical physics)]] for certain phenomena in 2-dimensional [[solid state physics]]
+
+## References
+
+A disucssion of the Levin-Wen model as a 2-dimensional [[extended TQFT]] is in
+
+* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ (pdf)
+
+[[!redirects Levin-Wen models]]
