@@ -12,13 +12,13 @@ $$ Y \mapsto Ker(Hom(Y, X) \rightrightarrows Hom(Y, X)); \qquad (\ast) $$
 
 in other words the image of $p$ is the [[equaliser|difference kernel]] of $(id_X, p)$, when it exists.
 
-Now $C$ is called **Karoubian** if every idempotent $p$ admits an image.
+Now $C$ is called **Karoubian** if every idempotent $p$ admits an image. Since $p: X \to X$ is idempotent iff $id_X - p$ is idempotent, this is the same as saying every idempotent has a kernel. 
 
 # Properties
 
 One can show that for any idempotent $p$, $Ker(id_X, p)$ is representable if and only if $Coker(id_X, p)$ is, and that in fact their representing objects are canonically isomorphic.
 
-Recall that one says $p$ **splits** if there exists an object $Y$, and morphisms $f : X \to Y$, $g : Y \to X$, such that $f \circ g = id_Y$ and $g \circ f = p$.  Observe that when $p$ admits an image $K$, it splits: by definition there are functorial isomorphisms $\Phi_Y$ for all $Y$ between the image of the functor $(\ast)$ and $\Hom(Y, K)$; now take $f : X \to K$ the morphism corresponding to $p$ via $\Phi_X$, $g : K \to X$ the morphism corresponding to $id_K \in Hom(K, K)$ via $\Phi_K$.  (Presumably the converse also holds...?)
+Recall that one says $p$ **splits** if there exists an object $Y$, and morphisms $f : X \to Y$, $g : Y \to X$, such that $f \circ g = id_Y$ and $g \circ f = p$.  Observe that when $p$ admits an image $K$, it splits: by definition there are functorial isomorphisms $\Phi_Y$ for all $Y$ between the image of the functor $(\ast)$ and $\Hom(Y, K)$; now take $f : X \to K$ the morphism corresponding to $p$ via $\Phi_X$, $g : K \to X$ the morphism corresponding to $id_K \in Hom(K, K)$ via $\Phi_K$.  Conversely, if $p$ splits via a pair $(f, g)$, then $g: Y \to X$ is a difference kernel of $(id_X, p)$: we have $g = g \circ f \circ g = p \circ g$, and if $h: Z \to X$ satisfies $h = p \circ h = g \circ f \circ h$, then $h$ clearly factors through $g$, and uniquely so since sections $g$ are monomorphisms. 
 
 # Karoubi envelope
 
@@ -26,7 +26,7 @@ There exists a Karoubian category $kar(C)$ associated to any category $C$, and a
 
 $$\underline{Hom}(kar(C), C') \to \underline{Hom}(C, C')$$
 
-taking a functor $F : kar(C) \to C'$ to the composite $F \circ \varphi$ is an [[equivalence]] of categories.  $kar(C)$ is called the **Karoubi envelope** of $C$.  It can be realized explicitly by taking as objects pairs $(X, p)$, with $p$ idempotent, and as morphisms $(X, p) \to (Y, q)$ the morphisms $f : X \to Y$ that satisfy $f = q \circ f \circ p$.
+taking a functor $F : kar(C) \to C'$ to the composite $F \circ \varphi$ is an [[equivalence]] of categories.  $kar(C)$ is called the **[[Karoubi envelope]]** of $C$ (aka the _Cauchy completion_, or the _idempotent-splitting completion_).  It can be realized explicitly by taking as objects pairs $(X, p)$, with $p$ idempotent, and as morphisms $(X, p) \to (Y, q)$ the morphisms $f : X \to Y$ that satisfy $f = q \circ f \circ p$.
 
 # References
 
