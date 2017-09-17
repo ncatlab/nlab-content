@@ -15,6 +15,10 @@
   
 * [[ionad]]
 
+**[[reduced object]]**
+
+**[[coreduced object]]**
+
 **typical contexts**
 
 * [[local topos]], [[connected topos]], [[cohesive topos]], 
