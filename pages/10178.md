@@ -214,10 +214,10 @@ from an [[(∞,n)-category of cobordisms]] with [[branes]] and [[domain walls]],
 
 The point of this [[axiom]] is that the [[higher category theory|higher categorical]] [[(∞,n)-functor|(∞,n)-functoriality]] of $Z$ is what encodes the _[[local quantum field theory|locality]]_ of the [[field theory]]. This in turn encodes a fundamental property of the [[fundamental physics]] of the [[observable universe]] called _[[causal locality]]_ : (spacelike-)separated regions of [[spacetime]]/[[worldvolume]] behave like [[independent subsystems]].
 
-| [[fundamental physics]] | [[foundations|foundational]] [[mathematics]] |
-|---|---
-| [[gauge principle]] | [[homotopy theory]]  |
-| [[causal locality]] | [[higher category theory]] |
+| [[fundamental physics]] | [[foundations|foundational]] [[mathematics]] |  experimental bound on violation |
+|---|---|--|
+| [[gauge principle]] | [[homotopy theory]]  |  no violation  |
+| [[causal locality]] | [[higher category theory]] |  $\lessapprox 10^{-2}$[[fm]] ([Grigoriev 79](causal+locality#Microcausality)) |
 
 
 The [[cobordism hypothesis]] provides a good characterization of the space of _all_ such $Z \colon Bord_n^\otimes \to \mathcal{C}^\otimes$. But for modelling _[[physics]]_ there are typically more restrictions to be imposed.
