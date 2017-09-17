@@ -59,7 +59,7 @@ and
 
 The [[second quantization]] [[effective field theory|effective]] background field theory defined by the [[perturbation series]] of the A-model string has been argued to be [[Chern-Simons theory]]. ([Witten 92](#Witten92), [Costello 06](#Costello06))
 
-For more on this see at _[TCFT -- Worldsheet and effective background theories](http://ncatlab.org/nlab/show/TCFT#ActionFunctionals)_.
+For more on this see at _[TCFT -- Worldsheet and effective background theories](http://ncatlab.org/nlab/show/TCFT#ActionFunctionals)_. A related mechanism is that of _[[world sheets for world sheets]]_.
 
 ## Related concepts
 
@@ -127,7 +127,7 @@ Also
 
 Discussion of how the [[second quantization]] [[effective field theory]] given by the A-model [[perturbation series]] is [[Chern-Simons theory]] is in
 
-* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_ ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
+* [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_, Prog.Math. 133 (1995) 637-678 ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
  {#Witten92}
 
 * [[Kevin Costello]], _Topological conformal field theories and gauge theories_ ([arXiv:math/0605647](http://arxiv.org/abs/math/0605647))
