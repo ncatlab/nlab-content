@@ -68,7 +68,7 @@ Recall that by the dual [[Dold-Kan correspondence]] the category $C^\Delta$ of [
   {#StandardQuillenOnBounded}
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #InjectiveAndProjectiveModelStructure}
 ###### Theorem
 
 Let $R$ be a [[ring]] and $ A = R$[[Mod]] its category of [[module]]s.
@@ -82,6 +82,8 @@ $Ch_{\bullet \geq 0 }(A)$ whose
 
 * cofibrations are degreewise [[monomorphism]]s with [[projective object|projective]] [[cokernel]].
 
+called the _projective model structure_.
+
 Dually,
 
 there is a [[model category]] structure on non-negatively graded [[cochain complex]]es 
@@ -91,7 +93,9 @@ $Ch^{\bullet \geq 0 }(A)$ whose
 
 * cofibrations are the morphisms that are [[monomorphism]]s in $R Mod$ in each _positive_ degree;
 
-* fibrations are degreewise [[epimorphism]]s with [[injective object|injective]] [[kernel]].
+* fibrations are degreewise [[epimorphism]]s with [[injective object|injective]] [[kernel]],
+
+called the _injective model structure_.
 
 =--
 
@@ -696,6 +700,20 @@ Hence $L$ preserves all cofibrations and $R$ all fibrations.
 
 =--
 
+### Cofibrant generation
+
++-- {: .num_prop}
+###### Proposition
+
+The [injective model structure](#InjectiveAndProjectiveModelStructure) on $Ch_{\geq 0}(R Mod)$ is a [[cofibrantly generated model category]].
+
+=--
+
+This appears for instance as [Hovey, theorem 2.3.13](#Hovey).
+
+For results on model structures on chain complexes that are provably not cofibrantly generated see section 5.4 of [Christensen, Hovey](#ChristensenHovey).
+
+
 
 ### Inclusion into simplicial objects
 
@@ -804,7 +822,7 @@ An explicit proof of the injective model structure with monos in positive degree
 
 An explicit proof of the model structure on cochain complexes of abelian group with fibrations the degreewise surjections is recorded in the appendix of
 
-* [[nLab:Herman Stel]], _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras -- with Applications to ∞-Lie Theory]]_ (2010)
+* [[Herman Stel]], _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras -- with Applications to ∞-Lie Theory]]_ (2010)
 {#Stel}
 
 The resolution model structures on cofibrant objects go back to
@@ -817,6 +835,10 @@ and are reviewed in
 * A. Bousfield, _Cosimplicial resolutions and homotopy spectral sequences in model categories_ Geometry and Topology, volume 7 (2003)
 {#Bousfield}
 
+A general textbook acount is in chapter 2 of
+
+* [[Mark Hovey]], _Model categories_ 
+  {#Hovey}
 
 ### For unbounded chain complexes
 
