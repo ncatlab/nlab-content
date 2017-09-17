@@ -22,7 +22,7 @@
 
 The notion of a _hyperdoctrine_ is essentially an axiomatization of the collection of [[slice category|slices]] of a [[locally cartesian closed category]] (or something similar): a [[category]] $T$ together with a functorial assignment of "slice-like"-categories to each of its objects, satisfying some conditions.
 
-In its use in [[mathematical logic]] a hyperdoctrine is thought of (under [[categorical semantics]] of [[logic]]/[[type theory]]) as a collection of [[contexts]] together with the operations of [[context extension]]/[[substitution]] and [[quantifier|quantification]] on the categories of [[propositions]] or [[types]] in each context.  Therefore specifying the structure of a hyperdoctrine over a given [[category]] is a way of equipping that with a given kind of [[logic]].  
+In its use in [[mathematical logic]] ("categorical logic" ([Lawvere 69](#Lawvere69))) a hyperdoctrine is thought of (under [[categorical semantics]] of [[logic]]/[[type theory]]) as a collection of [[contexts]] together with the operations of [[context extension]]/[[substitution]] and [[quantifier|quantification]] on the categories of [[propositions]] or [[types]] in each context.  Therefore specifying the structure of a hyperdoctrine over a given [[category]] is a way of equipping that with a given kind of [[logic]].  
 
 Specifically, a hyperdoctrine on a category $T$ for a given notion of logic $L$ is a [[functor]]
 
@@ -125,6 +125,7 @@ nontrivial $P(X)$, but a syntactically presented one".
 The notion was introduced in 
 
 * [[Bill Lawvere]], _Adjointness in Foundations_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+ {#Lawvere69}
 
 and developed in 
 
