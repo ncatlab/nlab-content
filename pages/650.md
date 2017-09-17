@@ -92,14 +92,14 @@ The original proof of Loday's result is to be found in
 
 * J.-L. Loday, _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179--202.
 
-This paper also uses the term n-cat-group, but we later used the term cat$^n$-group to make it clearer that these were an [[n-fold category]] [[internalization|internal]] to [[Grp]]. There are one or two gaps in that proof and various patches and complete proofs were then given. The main one is in 
+This paper also uses the term n-cat-group, but later use favours the term cat$^n$-group to make it clearer that these were an [[n-fold category]] [[internalization|internal]] to [[Grp]]. There are one or two gaps in that proof and various patches and complete proofs were then given. The main one is in 
 
-* R. Steiner, Resolutions of spaces by cubes of fibrations. J. London Math. Soc. (2) 34 (1986), 169--176.
+* [[R. Steiner]], Resolutions of spaces by cubes of fibrations. J. London Math. Soc. (2) 34 (1986), 169--176.
 
 
 A proof using $cat^n$-groups and a neat detailed analysis of multisimplicial groups and related topics was given in
 
-* [[Manuel Bulejos|M. Bullejos]], [[Antonio Cegarra|A. M. Cegarra]], and [[John Duskin|J. Duskin]], _On $cat^n$ -groups and homotopy types_, J. Pure Appl. Alg., 86, (1993), 135--154.
+* [[Manuel Bullejos|M. Bullejos]], [[Antonio Cegarra|A. M. Cegarra]], and [[John Duskin|J. Duskin]], _On $cat^n$ -groups and homotopy types_, J. Pure Appl. Alg., 86, (1993), 135--154.
 
 Porter (1993) gave a simple proof in terms of [[crossed n-cube|crossed n-cubes]]  using as little high-powered simplicial techniques as possible in
 
