@@ -1,0 +1,12 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _genus_ of a [[surface]] is an [[integer]] that classifies the surface's [[homeomorphism]] class
+
+## References
+
+* wikipedia, _[genus](http://en.wikipedia.org/wiki/Genus_%28mathematics%29)_
