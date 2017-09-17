@@ -46,7 +46,7 @@ The numbering mismatch is traditional from topology; see [[n-connected space]]. 
 
 A [[(∞,1)-sheaf (∞,1)-topos]] $\mathbf{H}$ is called 
 **locally $\infty$-connected** if the (essentially unique) 
-[[global section]] [[(∞,1)-geometric morphism]] is an __essential $(\infty,1)$-geometric morphism__
+[[global section]] [[(∞,1)-geometric morphism]] $(\Delta\dashv\Gamma):H\xrightarrow{\Gamma}\infty\Grpd$ extends to an __essential $(\infty,1)$-geometric morphism__, i.e. there is a further left adjoint
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : 
