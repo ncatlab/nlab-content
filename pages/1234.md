@@ -76,13 +76,19 @@ This is a [[rigid category|rigid]], [[Karoubian category|Karoubian]], [[symmetri
 When the relation $\sim$ is [[rational equivalence]] then $A^*_\sim$ are the [[Chow groups]], and $Mot_\sim(k) = Mot_{rat}(k)$ is called the category of **pure [[Chow motives]]**.
 
 
+### Category of pure numerical motives
+
+When the relation $\sim$ is numerical equivalence, then one obtains
+_[[numerical motives]]_.
 
 
-## See also
+
+## Related concepts
 
 * [[motive]]
 * [[mixed motive]]
 * [[Voevodsky motive]]
+* [[noncommuative motive]]
 
 ##References##
 
