@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _algebraic curve_ over a [[field]] $F$ is the locus of solutions of $(n-1)$-[[polynomials]] in $n$-[[variables]] of [[type]] $F$.
+
+## Related concepts
+
+* [[algebraic variety]]
+
+## Properties
+
+* [[Mordell conjecture]]
+
+## References
+
+* Wikipedia, _[Algebraic curve](http://en.wikipedia.org/wiki/Algebraic_curve)_
+
+[[!redirects alegbraic curves]]
+
