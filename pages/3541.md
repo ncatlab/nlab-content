@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
 
 #Contents#
 * automatic table of contents goes here
