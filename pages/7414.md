@@ -14,3 +14,6 @@ Within $B_T$, there is a distributive lattice $DL_T$ that is precisely all _Bous
 ##References
 
 S.B. Iyengar and H. Krause, _The Bousfield Lattice of a Triangulated Category and Stratification_ ([arXiv](http://arxiv.org/abs/1105.1799))
+
+[[!redirects Bousfield Lattice]]
+[[!redirects bousfield lattice]]
