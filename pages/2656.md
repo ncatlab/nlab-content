@@ -15,25 +15,32 @@ for the boxes $x_{i,j}$ in the diagram $F^\lambda$.
 In the English representation the boxes are adjusted to the north-west in the 4th quadrant of a 2-dimensional Cartesian coordinate system, with the 'y'-axis being
 downward oriented. For instance the diagram $F^{(5,4,4,2,1,1)}$ representing the partition $(5,4,4,2,1,1)$ of $17$ is given in the English representation as:
 
-<svg width="480" height="160" xmlns="http://www.w3.org/2000/svg" se:nonce="13138" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
++-- {: #Young style="text-align:center"}
+<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <desc>Young diagram (5,4,4,2,1,1)</desc>
  <g>
   <title>Layer 1</title>
-  <line x1="200" y1="20" x2="200" y2="140" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="199" y1="20" x2="301" y2="20" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="220" y1="20" x2="220" y2="140" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="240" y1="20" x2="240" y2="100" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="260" y1="20" x2="260" y2="80" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="280" y1="20" x2="280" y2="80" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="300" y1="20" x2="300" y2="40" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="200" y1="40" x2="301" y2="40" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="200" y1="60" x2="280" y2="60" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="200" y1="80" x2="281" y2="80" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="200" y1="100" x2="241" y2="100" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="200" y1="120" x2="220" y2="120" stroke="#000000" stroke-width="2" fill="none"/>
-  <line x1="199" y1="140" x2="221" y2="140" stroke="#000000" stroke-width="2" fill="none"/>
+  <rect x="10" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_1"/>
+  <rect x="30" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_2"/>
+  <rect x="50" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_3"/>
+  <rect x="70" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_4"/>
+  <rect x="90" y="10" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_5"/>
+  <rect x="10" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_6"/>
+  <rect x="30" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_7"/>
+  <rect x="50" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_8"/>
+  <rect x="70" y="30" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_9"/>
+  <rect x="10" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_10"/>
+  <rect x="30" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_11"/>
+  <rect x="50" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_12"/>
+  <rect x="70" y="50" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_13"/>
+  <rect x="10" y="70" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_14"/>
+  <rect x="30" y="70" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_15"/>
+  <rect x="10" y="90" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_16"/>
+  <rect x="10" y="110" width="20" height="20" fill="#ffdddd" stroke="#000000" stroke-width="2" id="svg_39384_17"/>
  </g>
 </svg>
+=--
 
 Let $\mathbb{Y}$ be the set of Young diagrams. Important functions on Young 
 diagrams include:
@@ -57,25 +64,32 @@ diagrams include:
 A generalisation of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be two
 partitions, and let $\nu \le \mu$ be defined as $\forall i : \nu_i\le \mu_i$ (possibly adding trailing zeros). The skew Young diagram $F^{\mu/\nu}$ is given by the Young diagram $F^\mu$ with all boxes belonging to $F^\nu$ when superimposed removed. If $\mu=(5,4,4,2,1,1)$ and $\nu=(3,3,2,1)$ then $F^{\mu/\nu}$ looks like:
 
-<svg width="480" height="160" xmlns="http://www.w3.org/2000/svg" se:nonce="13138" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
++-- {: #SkewYoung style="text-align:center"}
+<svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39424" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <desc>Skew Young diagram (5,4,4,2,1,1)/(3,3,2,1)</desc>
  <g>
   <title>Layer 1</title>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="140" x2="200" y1="100" x1="200"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="20" x2="301" y1="20" x1="259"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="140" x2="220" y1="80" x1="220"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="100" x2="240" y1="60" x1="240"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="80" x2="260" y1="20" x1="260"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="80" x2="280" y1="20" x1="280"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="40" x2="300" y1="20" x1="300"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="40" x2="301" y1="40" x1="259"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="60" x2="280" y1="60" x1="239"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="80" x2="281" y1="80" x1="219"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="100" x2="241" y1="100" x1="199"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="120" x2="220" y1="120" x1="199"/>
-  <line fill="none" stroke-width="2" stroke="#000000" y2="140" x2="221" y1="140" x1="199"/>
+  <rect id="svg_39424_1" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="10" x="0"/>
+  <rect id="svg_39424_2" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="10" x="20"/>
+  <rect id="svg_39424_3" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="10" x="40"/>
+  <rect id="svg_39424_4" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="10" x="60"/>
+  <rect id="svg_39424_5" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="10" x="80"/>
+  <rect id="svg_39424_6" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="30" x="0"/>
+  <rect id="svg_39424_7" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="30" x="20"/>
+  <rect id="svg_39424_8" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="30" x="40"/>
+  <rect id="svg_39424_9" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="30" x="60"/>
+  <rect id="svg_39424_10" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="50" x="0"/>
+  <rect id="svg_39424_11" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="50" x="20"/>
+  <rect id="svg_39424_12" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="50" x="40"/>
+  <rect id="svg_39424_13" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="50" x="60"/>
+  <rect id="svg_39424_14" stroke-width="2" stroke="#cccccc" fill="none" height="20" width="20" y="70" x="0"/>
+  <rect id="svg_39424_15" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="70" x="20"/>
+  <rect id="svg_39424_16" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="90" x="0"/>
+  <rect id="svg_39424_17" stroke-width="2" stroke="#000000" fill="#ffdddd" height="20" width="20" y="110" x="0"/>
  </g>
 </svg>
+=--
 
 * A skew diagram is called connected if all boxes share an edge.
 * A skew diagram is called a horizontal strip if every column contains at most one box.
