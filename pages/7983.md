@@ -19,7 +19,7 @@ For $G$ a [[group]] and $g \in G$ an element, the _conjugacy class_ of $g$ is th
 
 ## Examples
 
-* The conjugacy class of the neutral element is always the whole group itself.
+* The conjugacy class of the neutral element consists of precisely only the neutral element itself.
 
 ## Related concepts
 
