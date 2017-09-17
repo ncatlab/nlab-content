@@ -1,4 +1,4 @@
-Let a meromorphic linear ordinary differential equation  
+Let a [[meromorphic map|meromorphic]] linear [[ordinary differential equation]]  
 
 $$
   y^{(n)}+h_1 y^{(n-1)}+ \ldots + h_n y = 0\,\,\,\,\,\,\,\,\,\, (E)
@@ -7,7 +7,7 @@ $$
 defined everywhere in the complex plane (in dimension 1) outside of a finite set of singular points (where some of the meromorphic coefficients have singularity), is given. Equivalently, we can instead of equation (E) of higher order, look at a system 
 
 $$
-\frac{du}{dz} = A u \,\,\,\,\,\,\,\,\,\,(S) 
+\frac{\mathrm{d}u}{\mathrm{d}z} = A u \,\,\,\,\,\,\,\,\,\,(S) 
 $$
 
 of meromorphic first order differential equations where $A$ is the matrix of coefficients and $z\in\mathbb{C}^n$ is a column vector. 
