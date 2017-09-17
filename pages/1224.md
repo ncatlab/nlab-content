@@ -135,14 +135,14 @@ If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks tha
 +-- {: .num_example }
 ###### Example
 
-Every [[right adjoint|right]] [[adjoint functor]] is cofinal.
+Every [[right adjoint|right]] [[adjoint functor]] is final.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $(L \dashv R) : C \to D$ be a pair of [[adjoint functors]].To see that $R$ is cofinal, we may for instance check that for all $d \in D$ the comma category $d / R$ is non-empty and connected:
+Let $(L \dashv R) : C \to D$ be a pair of [[adjoint functors]].To see that $R$ is final, we may for instance check that for all $d \in D$ the comma category $d / R$ is non-empty and connected:
 
 It is non-empty because it contains the [[unit of an adjunction|adjunction unit]] $(L(d), d \to R L (d))$. Similarly, for 
 
