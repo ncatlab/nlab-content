@@ -187,20 +187,20 @@ If the [[category with weak equivalences]] in question happens to carry even the
 +-- {: .num_prop #SimplicialLocalizationOfNaturalTransformation}
 ###### Proposition
 
-Let $(C,W')$ and $(C, W')$ be [[categories with weak equivalences]]. Write $L^H C, L^H C' \in sSet Cat$ for the corresponding [[hammock localizations]].
+Let $(C,W)$ and $(C', W')$ be [[categories with weak equivalences]]. Write $L^H C, L^H C' \in sSet Cat$ for the corresponding [[hammock localizations]].
 
-Then for $F_1, F_2 :  C \to C'$ two [[homotopical functors]] (functors respecting the weak equivalences $S_i(W) \subset W'$) with
+Then for $F_1, F_2 :  C \to C'$ two [[homotopical functors]] (functors respecting the weak equivalences, i.e. $F_i(W) \subset W'$) with
 
 $$
   \eta : F_1 \Rightarrow F_2
 $$
 
 a [[natural transformation]] with components in the $W'$,
-we have that for all objects $X,Y \in C$, there is induced a [[natural transformation|natural]] [[homotopy]] of [[simplicial sets]]
+we have that for all objects $X,Y \in C$, there is induced a [[natural transformation|natural]] [[homotopy]] between morphisms of [[simplicial sets]]
 
 $$
   \array{
-    && L^H C(F_1(X), F_1(Y) )     
+    && L^H C'(F_1(X), F_1(Y) )     
     \\
     & 
     {}^{\mathllap{L^H F_1}}\nearrow 
@@ -209,7 +209,7 @@ $$
     \\
     L^H C(X,Y) 
      && \Downarrow && 
-    L^HC'(F_1(X), F_2(Y))
+    L^H C'(F_1(X), F_2(Y))
     \\
     & 
      {}_{\mathllap{L^H F_2}}\searrow 
