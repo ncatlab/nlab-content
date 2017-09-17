@@ -20,6 +20,11 @@ One can in fact consider the set of invertible matrices over an arbitrary unital
 
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear group]]s. 
 
+
+##Stable and unstable versions:
+
+The above is sometimes referred to as the unstable general linear group, whilst the result if one lets $n$ go to infinity is called the _stable general linear group_ of $R$, and is then written $GL(R)$ with no suffix.
+
 ## References and links 
 
 Related entries: [[Gauss decomposition]], [special linear group]], [[orthogonal group]], [[unitary group]], [[Borel subgroup]], [[flag variety]]. 
