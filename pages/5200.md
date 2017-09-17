@@ -20,36 +20,25 @@
 
 ## Idea
 
-A kind of [[modal logic]]. (...)
+The flavor of _[[modal logic]]_ called $S4$ is [[propositional logic]] equipped with a single [[modality]] usually written "$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
 
-(Note that $S4 = S4_{(1)}$.)
+1. $\Box K \colon \Box(p \to q) \to (\Box p \to \Box q)$ ([[K modal logic]])
 
-Although better than $K$ (resp. $K(m)$), the [[the logic T(m)|epistemic logics ]], $T$ and $T_{(m)}$, still do not reflect that much of our intuition of 'knowledge'. One of the usual richer logics considered is the logic $S4$ (or in its 'multi-agent' form $S4_{(m)}$).  These involve the axiom scheme know as $(4)$, that is also present in many [[temporal logics]].
+1. $\Box T \colon \Box p \to p$ ([[T modal logic]])
 
+1. $\Box 4 \colon \Box p \to \Box \Box p$. (S4 modal logic)
 
-## The axioms $(4)_i$
-
-This is found in two equivalent forms (for agent $i$):
-
-* $M_i M_i p\to M_i p$
-
-and 
-
-* $K_i p\to K_i K_i p$.
-
-In this second form, it clearly corresponds to ''Agent $i$ knows that (s)he knows what (s)he knows''! That 'positive introspection' seems reasonable.  The dual version interprets as ''If the agent considers that it is possible that it is possible that $p$ holds, then the agent considers it possible that $p$ holds'' and again that is 'common sense'.
+Traditionally the canonical interpretation of the Box operator is that $\Box p$ is the statement that "$p$ is _necessarily_ true." Then the interpretation of $\Box 4$ is that "If $p$ is necessarily true then it is necessarily necessarily true."
 
 
-## The logics $S4$ and $S4_{(m)}$
+S4 modal logic appears in many [[temporal logics]].
 
-* $S4$ - this logic is obtained from $T$ by adding the axiom $(4)$.
+## Properties
 
-* $S4_{(m)}$ starting from $T_{(m)}$, add, for each $i = 1,\ldots, m$ the axiom $(4)_i$.
+### Relation to Kripke frames
 
-
-## Reflexive transitive Kripke frames
-
-With $T_{(m)}$, the models corresponded to frames where each relation $R_i$ was reflexive.  Here we consider the class $\mathcal{S}4(m)$ of models with frames, where each $R_i$ is both reflexive _and_ transitive.
+The [[models]] for [[T modal logic]] corresponded to [[Kripke frames]] where each [[relation]] $R_i$ is [[reflexive relation|reflexive]].  
+For $S4$ modal logic they are furthermore [[transitive relation|transitive]].
 
 +-- {: .un_theorem}
 ###### Theorem (Soundness of $S4_{(m)}$)
@@ -69,14 +58,19 @@ Suppose $\mathfrak{M},w\models K p$, then, for every  $t$ with $R w t$, we have 
 
 ## Related concepts
 
-* [[the logic T(m)]]
+* [[K modal logic]]
   
+* [[T modal logic]]
+
 
 ## References
+
+* Natasha Alechina, Michael Mendler, [[Valeria de Paiva]], and Eike Ritter, _Categorical and Kripke Semantics for Constructive S4 Modal Logic_ ([pdf](http://www.cs.nott.ac.uk/~nza/papers/Alechina++:01a.pdf))
 
 More on $S4$, $S5_{(m)}$ and their applications in Artificial Intelligence can be found in
 
 * J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995.
+
 
 General books on modal logics which treat  these logics thoroughly in the general context include e
 
