@@ -69,7 +69,12 @@ If $F\colon C\to Set$ is flat, then it preserves all finite limits that exist in
 A functor $F\colon C \rightarrow E$ is **flat** if for each [[object]] $e \in E$, the [[opposite category|opposite]] [[comma category]] $(e / F)^{op}$ is a [[filtered category]].
 =--
 
-Since $(e/F)$ is equivalent to the category of elements of the composite $C \xrightarrow{F} E \xrightarrow{E(e,-)} Set$, this is equivalent to saying  that $E(e,F-)\colon C\to Set$ is Set-valued flat for every $e\in E$.  Hence, this notion of flatness may be called **representably flat**.
+Since $(e/F)$ is equivalent to the category of elements of the composite $C \xrightarrow{F} E \xrightarrow{E(e,-)} Set$, this is equivalent to saying  that $E(e,F-)\colon C\to Set$ is Set-valued flat for every $e\in E$.  Hence, this notion of flatness may be called **representably flat**.  Spelled out explicitly as we did above for flat set-valued functors, this means that for every $e\in E$, we have:
+
+1. There is an object $c\in C$ and a morphism $e\to F(c)$.
+1. For any $c,d\in C$ and morphisms $y:e\to F(c)$ and $z:e\to F(d)$, there exists an object $b\in C$, morphisms $\alpha : b \to c$, $\beta : b \to d$ in $C$, and a morphism $w: e\to F(b)$ such that $F(\alpha)\circ w = y$ and $F(\beta)\circ w = z$.
+
+1. For two parallel morphisms $\alpha, \beta : c \to d$ in $C$, and a morphism $y : e \to F(c)$ such that $F(\alpha)\circ y = F(\beta)=circ y$, there exists a morphism $\gamma : b \to c$ in $C$ and a morphism $z : e \to F(b)$ such that $\alpha \circ \gamma = \beta \circ \gamma$ and $F(\gamma) \circ z = y$.
 
 Representably flat functors are sometimes referred to simply as "[[exact functor|left exact functors]]".  On the $n$Lab we try to generally reserve the latter terminology for the case when $C$ has [[finite limits]].
 
