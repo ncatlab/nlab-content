@@ -14,7 +14,7 @@
 
 From a modern, [[structural set theory|structural]] [[foundations]] point of view, one can build models of ZFA starting from ZFC by taking a [[topological group]] $G$, considering the [[Boolean topos|Boolean]] [[topos]] of [[sets]] with an [[action]] by an [[open subset|open]] [[subgroup]] $H \le G$ (where $H$ is allowed to vary), and functions $f\colon X\to Y$ which are equivariant for an open subgroup $L \le H \cap K$, where $H$ and $K$ act on $X$ and $Y$ respectively. The construction outlined at [[pure set]] can be varied to construct well-founded pure sets using atoms [ [[David Roberts|DR]]: I have to figure out what the atoms are. I believe they are the [[transitive action|transitive]] $G$-sets.]
 
-One such example is the [[Fraenkel model of ZFA]], which gave the first example of the independence of the axiom of choice from a set theory ([[David Roberts|I]] think!). 
+Two such examples are the [[basic Fraenkel model]] and the [[second Fraenkel model]] which gave the first examples of the independence of the axiom of choice from a set theory ([[David Roberts|I]] think!). 
 
 
 [[!redirects ZFA]]
