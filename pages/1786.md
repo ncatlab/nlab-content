@@ -1,5 +1,21 @@
 
-An __$H$-space__ is a [[magma]] in the category of topological spaces $Top$, or in the category $Top_*$ of pointed spaces,  which has a unit up to homotopy. An $H$-space is an __$H$-monoid__ if the product of the magma is associative up to homotopy, and an __$H$-group__ if it has also an inverse up to homotopy.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An __$H$-space__ is a [[magma]] in the [[category]] of [[topological space]]s [[Top]], or in the category $Top_*$ of pointed spaces,  which has a [[unit]] up to [[homotopy]]. An $H$-space is an __$H$-monoid__ if the product of the magma is associative up to homotopy, and an __$H$-group__ if it has also an inverse up to homotopy.
 
 A better name for an $H$-space would be $H$-[[unitoid]], but it is rarely used. The $H$ stands for [[Heinz Hopf]], and reflects the sad fact that the natural name 'homotopy group' was [[homotopy group|already occupied]]; Hopf and A. Borel found necessary algebraic conditions for a space to admit an $H$-space structure.
 
@@ -22,7 +38,7 @@ For more details see
 * [[loop space]].
 
 
-#References#
+## References
 
 The terminology $H$-space is a definition in a Chapter IV, Section 1 (dedicated to loop spaces) of 
 
@@ -53,9 +69,9 @@ For a historical account see
 
 The description in terms of [[groupoid object in an (∞,1)-category]] is due to 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-see last remark of section 6.1.3 .
+see last remark of section 6.1.2 .
 
 Wikipedia\'s definition (at time of this writing, and phrased in the language of [[homotopy theory]]) is rather a [[unitoid]] object in the $(\infty,1)$-category [[Top]].
 
