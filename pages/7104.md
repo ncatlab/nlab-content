@@ -25,9 +25,9 @@ generalizing Hadamard's approach to the partial differential systems of mathemat
 
 Remark that showing that a mathematical problem is well posed in the above sense may be a bit harder than solving it directly by hand, but both actions are homotopically equivalent, in the sense of doctrinal logic, as you may be able to prove it, with some unworthy efforts.
 
-This vast program of generalizing model theory methods to higher doctrines may be put at the heart of a categorical foundation of mathematics, a la Lawvere, but with a more concrete flavor, since the methods also allow to prove existence results (for objets, theories, and even proofs), under finiteness (coherence) hypothesis.
+This modest program of generalizing model theory methods to higher doctrines may be put at the heart of a categorical foundation of mathematics, a la Lawvere, but with a more concrete flavor, since the methods also allow to prove existence results (for objets, theories, and even proofs), under finiteness (coherence) hypothesis.
 
-Remark that this abstract nonsense  may also be pedagogically very useful to understand on a conceptual way the recent and numerous applications of higher categorical methods in mathematics and physics.
+Remark that this abstract nonsense  may also be pedagogically very helpful to understand on a conceptual way the recent and numerous applications of higher categorical methods in mathematics and physics.
 
 
 ## Definition and challenges
@@ -36,14 +36,14 @@ Suppose given a metalanguage of homotopical higher (and even multi-) categories,
 
 +-- {: .un_defn}
 ###### Definition
-A __doctrine__ $D$ is a higher category. A theory of type $D$ is an object $T$ of $D$. A model for a theory of type $D$ in another one is a morphism
+A __doctrine__ $D$ is a higher category given with _generators and relations_. A theory of type $D$ is an object $T$ of $D$. A model for a theory of type $D$ in another one is a morphism
 $$M\colon T_1 \to T_2.$$
 =--
 
 The main challenges of higher doctrine theory are the following:
 
 * Define a precise notion of (possibly homotopical) syntax for a given theory
-(analog of a site underlying a topos, or of a sketch underlying a theory a la Ehresmann).
+(analog of a site underlying a topos, or of a sketch underlying a theory a la Ehresmann). This is what it meant by the generators and relations data.
 
 * Basing on the above, give a precise definition of coherent theory (finiteness property for the syntax) in a given doctrine.
 
