@@ -205,12 +205,14 @@ exists uniquely.
 
 ## In higher category theory 
 
-In [[higher category theory]] there are generalizations of the notion of image. 
-
-There are the notions
+In [[higher category theory]] there are generalizations of the notion of image, such as these:
 
 * [[essential image]] (of a [[functor]])
 * [[homotopy image]].
+
+However, it is not clear that either serves as the proper categorification of the notion described above.
+
+There are several properties we might want a 'higher image' to have. For example, in an $2$-category, we might want isomorphic 1-cells to have equivalent images. In **Cat**, we might want the image of a functor between discrete categories to be its image as a function.
 
 ### In $(\infty,1)$-category theory {#InfImage}
  
