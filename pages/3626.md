@@ -1,3 +1,8 @@
+# Frobenius algebras
+* table of contents
+{: toc}
+
+
 ## Definition
 
 +-- {: .num_defn}
