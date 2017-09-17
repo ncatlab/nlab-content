@@ -35,6 +35,8 @@ $$
 
 Externally this is a _$V$-fiber $\infty$-bundle_.
 
+See at _[[associated ∞-bundle]]_ for more.
+
 ## Properties
 
 Every $V$-fiber $\infty$-bundle is the [[associated ∞-bundle]] to an [[automorphism ∞-group]]-[[principal ∞-bundle]].
