@@ -2,6 +2,7 @@
 See (or write):
 
 *  [[n-connective object]],
+*  [[connective spectrum]],
 *  [[connective chain complex]],
 *  [[logical connective]].
 
