@@ -14,6 +14,7 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
 A [[topological space]] (or more generally [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "closed and bounded": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
 
@@ -41,7 +42,9 @@ In any case, compactness can be characterized in terms of [[filter]] (or [[net]]
 ###### Definition
 Every proper filter (or net) on $X$ has a convergent proper [[refinement]] (or subnet).
 =--
-This is equivalent to the characterization given in **Idea** above: 
+
+This is equivalent to the characterization given in the [Idea-section](#Idea) above:
+ 
 +-- {: .num_defn #clustering}
 ###### Definition
 Every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
