@@ -58,9 +58,9 @@ Every [[paracompact space|paracompact]] [[manifold]] of [[dimension]] $d$ admits
 +-- {: .proof}
 ###### Proof
 
-Consider an open cover by geodesically convex subsets as in the proof before.
-By picking any point in an intersection $U_{i_1} \cap \cdots \cap U_{i_p}$, by its geodesic completeness the [[geodesic flow]] starting
-at that point provides a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[neighbourhood]] of the origin of the [[tangent space]] at that point (again by ([Milnor](#Milnor)), lemma 10.3). That neighbourhood is [[star-shaped]]: for if $v$ is a tangent vector and $\exp_p(v)$ is in the region, then by geodesic completemess the whole geodesic $s \mapsto \exp_p(s v)$ is in the region, for $s \in [0,1]$.  By theorem 237 of ([Ferus](#Ferus)) (see [[ball]] for more) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
+Consider an open cover by geodesically convex subsets as in the proof before. We may assume without restriction that in each $U_i$ there is no pair of conjugate points for the metric, so that any geodesic flow inside $U_i$ is a diffeomorphism.
+
+Picking any point in an intersection $U_{i_1} \cap \cdots \cap U_{i_p}$, the [[geodesic flow]] starting at that point provides then a diffeomorphism of $U_{i_1} \cap \cdots \cap U_{i_n}$ with a [[neighbourhood]] of the origin of the [[tangent space]] at that point. That neighbourhood is [[star-shaped]]: for if $v$ is a tangent vector and $\exp_p(v)$ is in the region, then by geodesic completemess the whole geodesic $s \mapsto \exp_p(s v)$ is in the region, for $s \in [0,1]$.  By theorem 237 of ([Ferus](#Ferus)) (see [[ball]] for more) this star-shaped region in turn is diffeomorphic to $\mathbb{R}^d$.
 
 =--
 
