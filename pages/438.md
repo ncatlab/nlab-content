@@ -9,8 +9,11 @@ In Bangor, it is even worse. Not only is there no mathematics department. There 
 
 -[[Tim Porter|Tim]]
 
+At least a couple of the top ten CS departments in the USA teach all of their own Maths classes.  The actual Math department at most schools is too focused on calculus and analysis (at the undergraduate level).  I think it has to be this way -- it would be obscene for the CS department to dictate curriculum to the Math department.
 
+Don Knuth proposed that every professor should be required to have both a "major" and "minor" department, just like undergraduates must at most universities.  That might be one step towards improving the situation -- a way to influence the curriculum without compromising autonomy.
 
+-[[Adam]]
 
 =--
 ##What you can find here and on my personal pages##
