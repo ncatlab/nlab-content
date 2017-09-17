@@ -121,13 +121,17 @@ $$
 
 ## Examples
 
-### $\infty$-Stacks on formal duals of algebras
+### $\infty$-Stacks on formal duals of algebras {#ToensSetup}
+
+Choose a [[universe]] $\mathbb{U}$ and a larger universe $\mathbb{V}$ containing $\mathbb{U}$.
+Let in the following [[Set]] and [[sSet]] denote sets with respect to 
+$\mathbb{V}$. 
 
 Consider the [[site]] $C$ whose underlying category is
 
-$$C = (Alg_k)^{op}$$ 
+$$C = (Alg_k(\mathbb{U}))^{op}\,,$$ 
 
-equipped with the [[fpqc-topology]].
+where $k$ is a [[field]] in $\mathbb{U}$ and $Alg_k(\mathbb{U})$ is the category of $k$-[[algebra]]s in $\mathbb{U}$, and where the [[Grothendieck topology]] is the [[fpqc-topology]].
 
 Let 
 
@@ -145,7 +149,7 @@ shows that this $\mathbf{H}$ has a well-adapted rational structure.
 
 #### The rational structure {#ToenRationalStructure}
 
-Write $\mathbb{A}^1 \in sPSh(C)$ for the [[lined topos|line object]], the formal dual of the free $k$-algebra $F_k[X]$ on one generator. This means that 
+Write $\mathbb{A}^1 \in sPSh(C)$ for the [[lined topos|line object]], the formal dual of the free $k$-algebra $k[X]$ on one generator. This means that 
 
 $$
   \mathbb{A}^1 : Spec A \mapsto Alg_k(F_k[X], A) \simeq A
@@ -159,7 +163,7 @@ is the tautological algebra valued presheaf that sends $Spec A$ to $A$.
 Define [[sSet]]-[[enriched functor]]s
 
 $$
-  \mathcal{O} : (Alg_k^\Delta)^{op}
+  \mathcal{O} : (Alg_k(\mathbb{V})^\Delta)^{op}
    \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
    sPSh((Alg_k)^{op})
    :
@@ -183,15 +187,29 @@ $$
 
 This is considered in [To06, section 2.2](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=42).
 
+Notice that 
+
+$$
+  \mathcal{O}(X)
+  = 
+  \int_{B \in Alg_k(\mathbb{U})} Hom_{Set}(X(B), B)
+  =
+  \int_{B \in Alg_k(\mathbb{U})} \prod_{X(B)} B
+$$
+
+is in general not a small algebra, i.e. an object in $Alg_k(\mathbb{U})$
+anymore, but is indeed in general a large algebra, i.e. an object in $Alg_k(\mathbb{V})$.
+
+
 In particular for $*$ the terminal presheaf we have 
 
 $$
   \mathcal{O}(*) = sPSh(*, \mathbb{A}^1) = \int_{Spec A \in Alg_k} Hom_{Set}(*,A)
-  = \lim_{A \in Alg_k} A
+  = \lim_{A \in Alg_k(\mathbb{U})} A
   = k     
 $$
 
-because $k$ is initial in $Alg_k$.
+because $k$ is initial in $Alg_k(\mathbb{U})$.
 
 
 
@@ -202,7 +220,7 @@ The functors $\mathcal{O}$ and $Spec$ form an [[sSet]]-[[enriched category theor
 
 $$
   (\mathcal{O} \dashv Spec) : sPSh(C)^{inj}_{loc} \stackrel{\leftarrow}{\to}
-  (Alg_k^\Delta)^{op}
+  (Alg_k(\mathbb{U})^\Delta)^{op}
   \,.
 $$
 
@@ -213,9 +231,9 @@ This appears as [To06, prop. 2.2.2](http://arxiv.org/PS_cache/math/pdf/0012/0012
 +-- {: .proof}
 ###### Proof
 
-By the fact that $(Alg_k^\Delta)^{op}$ is a [[sSet]]-[[enriched model category]] so that the enriched hom is a right [[Quillen bifunctor]] it follows that for the _global_ model structure $sSSh(C)_{glob}^{inj}$ $Spec(-)$ is right Quillen.
+By the fact that $(Alg_k(\mathbb{U})^\Delta)^{op}$ is a [[sSet]]-[[enriched model category]] so that the enriched hom is a right [[Quillen bifunctor]] it follows that for the _global_ model structure $sSSh(C)_{glob}^{inj}$ $Spec(-)$ is right Quillen.
 
-Since $sPSh(C)_{loc}$ arises by [[Bousfield localization of model categories|left Bousfield localization]] at [[hypercover]]s, it suffices to show that $Spec$ sends fibrant object of $(Alg_k^\Delta)^{op}$ to simplicial presheaves that satisfy [[descent]] at hypercovers. But for this it suffices to observe that for $Y \to U$ a [[hypercover]], the $k$-cohomology of $Y$ is isomorphic to that of $U$, so that $\mathcal{O}(Y) \leftarrow \mathcal{O}(X)$ is a [[quasi-isomorphism]]: we need to check that
+Since $sPSh(C)_{loc}$ arises by [[Bousfield localization of model categories|left Bousfield localization]] at [[hypercover]]s, it suffices to show that $Spec$ sends fibrant object of $(Alg_k(\mathbb{V})^\Delta)^{op}$ to simplicial presheaves that satisfy [[descent]] at hypercovers. But for this it suffices to observe that for $Y \to U$ a [[hypercover]], the $k$-cohomology of $Y$ is isomorphic to that of $U$, so that $\mathcal{O}(Y) \leftarrow \mathcal{O}(X)$ is a [[quasi-isomorphism]]: we need to check that
 
 $$
   sPSh(Y, Spec A) \to sPSh(X,Spec A) 
@@ -258,7 +276,7 @@ This appears as [To06, lemma. 2.2.1](http://arxiv.org/PS_cache/math/pdf/0012/001
 +-- {: .proof}
 ###### Proof
 
-If we think of presheaves over $(Alg^\Delta)^{op}$ then this is just the [[Yoneda lemma]].
+If we think of presheaves over $(Alg_k(\mathbb{U})^\Delta)^{op}$ then this is just the [[Yoneda lemma]].
 
 =--
 
