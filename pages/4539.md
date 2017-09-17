@@ -104,13 +104,15 @@ and
 
 ### Lemmas
 
+[[diagram chasing]]
+
 * [[3x3 lemma]]
 
-* [[five lemma]]
+* [[four lemma]], [[five lemma]]
 
-* [[snake lemma]]
+* [[snake lemma]], [[connecting homomorphism]]
 
-* [[hoerseshoe lemma]]
+* [[horseshoe lemma]]
 
 * [[Baer's criterion]]
 
