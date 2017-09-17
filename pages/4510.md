@@ -369,6 +369,19 @@ $$
 
 (...)
 
+### Relation to group cohomology
+ {#RelationToGroupCohomology}
+
+For $G$ a [[discrete group]] with $\mathbb{Z}[G]$ its [[group ring]], over the [[integers]], and for $N$ a linear $G$-[[representation]], hence a $\mathbb{Z}[G]$-[[module]], the [[group cohomology]] of $G$ with [[coefficients]] in $N$ is 
+  
+$$
+  Ext^\bullet_{\mathbb{Z}[G]Mod}(\mathbb{Z}, N)
+  \,.
+$$
+
+(...)
+
+
 ### Localization
  {#Locatization}
 
@@ -443,7 +456,7 @@ Various notions of [[cohomology groups]] in the context of [[algebra]] can be ex
 * For $G$ a [[discrete group]] with $\mathbb{Z}[G]$ its [[group ring]], over the [[integers]], and for $N$ a linear $G$-[[representation]], hence a $\mathbb{Z}[G]$-[[module]], the [[group cohomology]] of $G$ with [[coefficients]] in $N$ is 
   
   $$
-    Ext^\bullet_{\mathbb{Z}[G]Mod}(\mathbb{Z}[G], N)
+    Ext^\bullet_{\mathbb{Z}[G]Mod}(\mathbb{Z}, N)
     \,.
   $$
 
@@ -493,7 +506,9 @@ section 4 of
 
 as well as
 
-* Patrick Morandi, _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
+* [[Patrick Morandi]], _Ext Groups and Ext Functors_, ([pdf](http://sierra.nmsu.edu/morandi/oldwebpages/math683fall2002/Ext.pdf))
+
+  (warning: the last section on resolutions for cocycles for group (abelian) exensions is not correct)
 
 Original articles include
 
