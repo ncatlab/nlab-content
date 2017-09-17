@@ -79,3 +79,5 @@ One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [
 [[!redirects co-free functors]]
 [[!redirects fascist functor]]
 [[!redirects fascist functors]]
+
+[[!redirects free-forgetful adjunction]]
