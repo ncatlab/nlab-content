@@ -108,7 +108,7 @@ For the application to [[quantization]] of [[sigma-model]] theories we want to b
 
 * An [[morphism]] in $Fam_n(C)$ is to be thought of as
 
-  * two **configuration spaces of fields** $P_{in}, P_{ou}$ 
+  * two **configuration spaces of fields** $P_{in}, P_{out}$ 
     of some field theory;
 
   * together with an [[action functional]] on it in the form of an
@@ -123,7 +123,7 @@ $$
   kin : Bord_n \to Fam_n(*)
 $$
 
-whereas the **dynamics of a classical field theory** -- the specificaton of an [[action functional]]** on the given configuration spaces,  is a lift of that to $Fam_n(C)$
+whereas the **dynamics of a classical field theory** -- the specificaton of an [[action functional]] on the given configuration spaces,  is a lift of that to $Fam_n(C)$
 
 $$
   \array{
@@ -146,7 +146,7 @@ as given by homming a [[cobordism]] [[cospan]] of the form
 
 $$
   \array{
-    && \Sigma \times I
+    && \Sigma
     \\
     & \nearrow && \nwarrow
     \\
@@ -159,7 +159,7 @@ into $X$ to produce a [[span]] of path and configuration spaces
 
 $$
   \array{
-    && [\Sigma \times I,X]
+    && [\Sigma,X]
     \\
     & \swarrow && \searrow
     \\
@@ -171,7 +171,7 @@ equipped with the **transgressed background field** as the corresponding action 
 
 $$
   \array{
-    && [\Sigma \times I,X]
+    && [\Sigma, X]
     \\
     & \swarrow && \searrow
     \\
@@ -184,7 +184,7 @@ $$
    \,.
 $$
 
-With that in hand, the **[[quantization]]** of the given classical field theory $\exp(S(-)) : Bord_n \to Fam_n(C)$ is its "pushforward to the point", given by postcomopon with a functor
+With that in hand, the **[[quantization]]** of the given classical field theory $\exp(S(-)) : Bord_n \to Fam_n(C)$ is its "pushforward to the point", given by postcomposition with a functor
 
 $$
   \int : Fam_n(C) \to C
