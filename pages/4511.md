@@ -90,6 +90,12 @@ Analogous results fail, in general, for $\mathbb{Z}$ replaced by another ring $R
 For instance ([Weibel, cor. 3.2.13](#Weibel)).
 
 
+## Related concepts
+
+* [[Ext]]
+
+* [[flat resolution lemma]]
+
 ## References
 
 Standard textbook account include the following:
@@ -102,6 +108,8 @@ Standard textbook account include the following:
 * M. Kashiwara and P. Schapira, _[[Categories and Sheaves]]_, Springer (2000)
 
 * S. I . Gelfand, Yu. I. Manin, _Methods of homological algebra_
+
+
 
 [[!redirects Tor-functor]]
 [[!redirects Tor functor]]
