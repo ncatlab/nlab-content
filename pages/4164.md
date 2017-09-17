@@ -43,7 +43,8 @@ Both the statement and the proof we mention here refer to the [[Haag-Kastler vac
 
 +-- {: .un_theorem}
 ###### Reeh-Schlieder
-In the [[Haag-Kastler vacuum representation]] the vacuum vector $\Omega$ is cyclic and separating for every local algebra $\mathcal{M}(\mathcal{O})$.
+In the [[Haag-Kastler vacuum representation]] the vacuum vector $\Omega$ is [[cyclic vector|cyclic]] and [[separating vector|separating]] for every local algebra $\mathcal{M}(\mathcal{O})$.
+
 =--
 
 +-- {: .proof}
@@ -83,7 +84,7 @@ $$
 
 If there is a $U \subset \mathbb{R}^4$ open such that $f_{u, A}$ is real valued on $U$, then $f_{u, A}$ and $g_{u, A}$ coincide on $U$ and we can invoke a suitable version of the [[edge-of-the-wedge theorem]] as stated on [[analytic geometry]] to conclude that $f_{u, A}$ and $g_{u, A}$ are the branches of a unique holomorphic function, that is holomorphic at least on a complex neighborhood of $U$.
 
-Now the proof that $\Omega$ is cyclic for $\mathcal{M}(\mathcal{O})$:
+Now the proof that $\Omega$ is [[cyclic vector|cyclic]] for $\mathcal{M}(\mathcal{O})$:
 
 Choose a bounded open $\mathcal{O}_0$ and a neighborhood of zero $V \subset \mathcal{R}^4$ such that $\mathcal{O}_0 + V \subset \mathcal{O}$.
 
@@ -101,7 +102,7 @@ Now we see from our previous considerations that there is a function holomorphic
 
 Recall that weak additivity holds in the vacuum representation. This together with the previous statement implies that  $\langle v, R \Omega \rangle = 0$ for all $R \in \mathcal{R}$, the global algebra. But since $\mathcal{R} \Omega$ is dense in $\mathcal{H}$ by assumption (see the axiom about the existence of a vacuum vector), we get that $v$ must be zero, contradiction: $\Omega$ has to be cyclic for $\mathcal{M}(\mathcal{O})$.
 
-Now the proof that $\Omega$ is separating for $\mathcal{M}(\mathcal{O})$:
+Now the proof that $\Omega$ is [[separating vector|separating]] for $\mathcal{M}(\mathcal{O})$:
 
 Choose a bounded open set $\mathcal{O}_2$ such that $\mathcal{O} \perp \mathcal{O}_2$, then by locality we have $\mathcal{M}(\mathcal{O}) \subseteq  (\mathcal{M}(\mathcal{O}_2))'$. We know already that $\Omega$ is cyclic for $\mathcal{M}(\mathcal{O}_2)$, therefore it is separating for  $\mathcal{M}(\mathcal{O})$.
 
