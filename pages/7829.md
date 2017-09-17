@@ -1,12 +1,30 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-(...)
+Given a [[self-adjoint operator]] (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a closed [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is
+
+$$
+  \eta(s) \coloneqq \underoverset{n = -\infty}{^\infty }{\sum} sgn(\lambda_n) \frac{1}{(\lambda_n)^s}
+ \,.
+$$
+
+If the operator is an [[elliptic differential operator]] then this is a [[holomorphic function]] in $s$ for large $\Re(s)$. One defines $\eta$ on the rest of the [[complex plane]] by [[analytic continuation]].
+
+If in addition the operator happens to have only positive [[eigenvalues]], then the above is the [[zeta function of an elliptic differential operator]]. 
+
+The _eta invariant_ of the operator finally is $\eta(0)$.
+
+(e.g. [Richardson, first page](#Richardson))
 
 ## Related concepts
 
 * [[index of an operator]]
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
@@ -18,14 +36,15 @@ The $\eta$-invariant was introduced by Atiyah-Patodi-Singer in the series of art
 
   _Spectral asymmetry and Riemannian geometry III_, Proc. Cambridge Philos. Soc. 79 (1976), 71-99.
 
-as the [[boundary]] correction term  for the [[index formula]] on
-a [[manifold with boundary]].
+as the [[boundary]] correction term  for the [[analytic index|index formula]] on a [[manifold with boundary]].
 
 
 Introductions and surveys include
 
-* Jean-Michel Bismut, _Local index theory, eta invariants and holomorphic torsion: a survey_, pp. 1-76, in: Surveys in diff. geom. (C. C Hsiang, S/T. Yau, eds.) 1998. International Press
-* Ken Richardson, _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
+* [[Jean-Michel Bismut]], _Local index theory, eta invariants and holomorphic torsion: a survey_, pp. 1-76, in: Surveys in diff. geom. (C. C Hsiang, S/T. Yau, eds.) 1998. International Press
+
+* {#Richardson} [[Ken Richardson]], _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
+
 * Xianzhe Dai, _Eta invariant and holonomy_ Chern Centennial (2011) ([pdf slides](http://www.nim.nankai.edu.cn/activites/conferences/Chern-Centennial-20111024/ppt_pdf/1027pm-XZDai.pdf))
 * Wikipedia, _[Eta invariant](http://en.wikipedia.org/wiki/Eta_invariant)_
 
@@ -41,3 +60,8 @@ Eta invariants play role in
 [[!redirects eta invariant]]
 [[!redirects eta invariants]]
 [[!redirects Eta invariants]]
+
+[[!redirects eta function]]
+[[!redirects eta functions]]
+
+[[!redirects eta function of a self-adjoint operator]]
