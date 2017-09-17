@@ -36,13 +36,20 @@ The following characterization is due to ([SteenrodEpstein](#SteenrodEpstein)).
 +-- {: .num_defn}
 ###### Definition
 
-The **Steenrod squares** are a family of morphisms
+The **Steenrod squares** are a family of [[cohomology operations]]
+
+$$
+  Sq^n : H^k(-, \mathbb{Z}_2)\to H^{k+n}(-, \mathbb{Z}_2)
+  \,,
+$$
+
+hence of morphisms in the [[homotopy category]]
 
 $$
   Sq^n : B^k \mathbb{Z}_2 \to B^{k + n} \mathbb{Z}_2
 $$
 
-for all $n,k \in \mathbb{N}$ satisfying the following conditions
+for all $n,k \in \mathbb{N}$ satisfying the following conditions:
 
 1. for $n = 0$ it is the [[identity]];
 
@@ -70,6 +77,8 @@ $Sq^1$ is the [[Bockstein homomorphism]] of the [[short exact sequence]] $\mathb
 
 ### Adem relations
 
+(...)
+
 $$
   Sq^i \circ Sq^j 
    = 
@@ -85,6 +94,8 @@ $$
 $$
 
 for all $0 \lt i \lt 2 j$.
+
+(...)
 
 ## Related concepts
 
