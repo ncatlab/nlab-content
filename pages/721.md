@@ -59,9 +59,9 @@ Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which g
 The prototype is the pretopology on the [[category of open subsets]] $Op(X)$ 
 of a [[topological space]] $X$, consisting of [[open cover]]s of $X$. 
 
-Notice that a **basis for the topology** of $X$ is not a Grothendieck pretopology on $Op(X)$ (since it is in general not closed under pullback, which here is restriction) but is a [[coverage]] on $Op(X)$.
+Notice that a **[[basis for the topology]]** of $X$ is not a Grothendieck pretopology on $Op(X)$ (since it is in general not closed under pullback, which here is restriction) but is a [[coverage]] on $Op(X)$.
 
-Grothendieck Pretopologies on [[Top]] include:
+Grothendieck pretopologies on [[Top]] include:
 
 * [[local section|Local-section]]-admitting surjections
 * Surjective [[open map|open maps]]
@@ -87,9 +87,14 @@ The defnition appears for instance as definition 2 on page 111 of
 [[!redirects pretopology]]
 [[!redirects pretopologies]]
 
-[[!redirects basis for a topology]]
-[[!redirects bases for a topology]]
-
 
 [[!redirects basis for a Grothendieck topology]]
 [[!redirects bases for a Grothendieck topology]]
+
+[[!redirects basis for the Grothendieck topology]]
+[[!redirects bases for the Grothendieck topology]]
+
+[[!redirects basis for a Grothendieck topology]]
+[[!redirects bases for a Grothendieck topology]]
+
+[[!redirects bases for Grothendieck topologies]]
