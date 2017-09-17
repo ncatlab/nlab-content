@@ -5,6 +5,6 @@ Just as [[predicates]] on a set $X$ correspond to [[subset]]s of $X$ and equival
 
 ## Examples
 
-Consider the set $X$ of all [[infinite sequences]] of [[rational number]]s.  Let such sequences $x$ and $y$ be related if
+Consider the set $X$ of all [[infinite sequences]] of [[rational numbers]].  Let such sequences $x$ and $y$ be related if
 $$ \lim_{i,j\to \infty} {|x_i - y_j|} = 0 .$$
-Then this defines a partial equivalence relation $R$ on $X$; the corresponding subquotient of $X$ is the set of Cauchy [[real numbers]].  Normally, this definition of real number is split into two parts: those sequences satsifying the reflexivity condition of $R$ are the [[Cauchy sequences]] of rational numbers (under the absolute-value metric), and then we impose a total equivalence relation on the Cauchy sequences.  But a single partial equivalence relation does all of the work.  (This example generalises in the usual ways.)
+Then this defines a partial equivalence relation $R$ on $X$; the corresponding subquotient of $X$ is the set of [[Cauchy real numbers]].  Normally, this definition of real number is split into two parts: those sequences satsifying the reflexivity condition of $R$ are the [[Cauchy sequences]] of rational numbers (under the absolute-value metric), and then we impose a total equivalence relation on the Cauchy sequences.  But a single partial equivalence relation does all of the work.  (This example generalises in the usual ways.)
