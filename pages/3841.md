@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -22,7 +21,7 @@ A cardinal that is not regular is called **singular**.
 
 * The first regular cardinal is $\aleph_0 = |\mathbb{N}|$: 
 
-  because a set with cardinality less than $\aleph_1$ is a [[finite set]] and a finite union of finite sets is still a finite set. 
+  because a set with cardinality less than $\aleph_0$ is a [[finite set]], and a finite union of finite sets is still a finite set. 
 
 
 * The [[successor]] of any infinite cardinal, such as $\aleph_1$, is a regular cardinal.
@@ -31,3 +30,7 @@ A cardinal that is not regular is called **singular**.
 ### Singular cardinals
 
 * $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and $|\mathbb{N}| = \aleph_0 \lt\aleph_\omega$.
+
+[[!redirects regular cardinals]]
+[[!redirects singular cardinal]]
+[[!redirects singular cardinals]]
