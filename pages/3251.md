@@ -1,11 +1,18 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
-</div>
+=--
+=--
+=--
 
 > under construction
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -56,6 +63,10 @@ This may be expressed directly in terms of the notion of **homotopy group of a $
 ## Equivariant cohomology
 
 The notion of [[cohomology]] relevant in equivariant stable homotopy theory is the flavor of [[equivariant cohomology]] (see there for details) called [[Bredon cohomology]].
+
+## Related concepts
+
+* [[global equivariant homotopy theory]]
 
 ## References
 
