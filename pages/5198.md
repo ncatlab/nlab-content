@@ -32,7 +32,7 @@ This, of course, means that $\underline{S}^n $ is defined as a pushout
 ##The Brown-Grossman homotopy groups##
 +--{: .un_defn}
 ######Definition######
-The $n^{th}$ Brown-Grossman homotopy group of $(X,*)$ is given by the  group of based proper homotopy classes of based proper maps from $\underline{S}^n$ to $(X,*)$;
+The $n^{th}$ _Brown-Grossman homotopy group_ of $(X,*)$ is given by the  group of based proper homotopy classes of based proper maps from $\underline{S}^n$ to $(X,*)$;
 
 $$\underline{\pi}_n(X,*) = Ho(Proper)(\underline{S}^n, (X,*)).$$
 =--
@@ -49,7 +49,7 @@ $$\underline{\pi}_n(X,*) = Ho(Proper)(\underline{S}^n, (X,*)).$$
 ###The Brown-Grossman homotopy groups at $\infty$###
 +--{: .un_defn}
 ######Definition######
-The $n^{th}$ Brown-Grossman homotopy group of $(X,*)$ at $\infty$ is given by the  group of based germ homotopy classes of based proper germs from $\underline{S}^n$ to $(X,*)$;
+The $n^{th}$ _Brown-Grossman homotopy group of $(X,*)$ at $\infty$_ is given by the  group of based germ homotopy classes of based proper germs from $\underline{S}^n$ to $(X,*)$;
 
 $$\underline{\pi}^\infty_n(X,*) = Ho(Proper_\infty)(\underline{S}^n, (X,*)).$$
 =--
