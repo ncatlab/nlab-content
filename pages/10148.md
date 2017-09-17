@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[right adjoint]] to [[direct image with compact support]]
+
+(...)
+
+## Related concepts
+
+* [[inverse imaga]]
+
+[[!redircts exceptionalö inverse images]]
+
