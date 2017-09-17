@@ -1,0 +1,30 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CFT]]s. Depending on which class that is, one speaks of different _types_ of string theory.
+
+* In _type II string theory_ the CFTs in question are $(1,1)$-supersymmetric and defined on [[orientation|oriented]] [[worldsheet]]s;
+
+* In _[[heterotic string theory]]_ the CFTs in question are $(0,1)$-supersymmetric and defined on [[orientation|oriented]] [[worldsheet]]s;
+
+* In ...
+
+
+## References
+
+* [[string theory]]
+
+  * [[heterotic string theory]]
+
+    * [[Green-Schwarz mechanism]]
+
+    * [[dual heterotic string theory]]
+
+  * **type II string theory**
+
+* [[landscape of string theory vacua]]
+
