@@ -1,13 +1,20 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
-For $V$ a [[vector space]] and $0 \leq r \lt dim V$, then the **Grassmannian** $Gr(r,V)$ is the space of all linear [[subspaces]] of $V$ of [[dimension]] $r$.
+For $V$ a [[vector space]] and $r$ a [[cardinal number]] (generally taken to be a [[natural number]]), the **Grassmannian** $Gr(r,V)$ is the space of all linear [[subspaces]] of $V$ of [[dimension]] $r$.
 
-For $r = 1$ this is the [[projective space]] of $V$.
+Special cases:
+* For $r = 0$, this is the [[point]].
+* For $r = 1$, this is the [[projective space]] of $V$.
+* For $r = \dim V$, this is the point again.
+* For $r \gt \dim V$, this is the [[empty space]].
+
+If $V$ is an [[inner product space]], then [[orthogonal complement]] defines an [[isomorphism]] between $Gr(r,V)$ and $Gr(\dim V - r,V)$.
+
 
 ## Related concepts
 
