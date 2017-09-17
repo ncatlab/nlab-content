@@ -162,3 +162,5 @@ A comprehensive discussion is in
   chapter 1 _Lawvere Distributions on Toposes_
 
 For the $(\infty,1)$-category theory generalization see [[Pr(∞,1)Cat]] and references given there.
+
+[[!redirects Lawvere distributions]]
