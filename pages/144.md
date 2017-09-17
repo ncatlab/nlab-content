@@ -112,7 +112,7 @@ Lawvere addresses this adjoint pair as **Isbell conjugation**.
 
 In conclusion, the grand [[duality]] between spaces and quantities is a consequence of the [[duality|formal duality]] which reverses the arrows in the category $S$ of test spaces.
 
-This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance are in particular presheaves with values in the category [[Top] of [[topological space]]s and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
+This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance are in particular presheaves with values in the category [[Top]] of [[topological space]]s and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
 
 
 ## Isbell duality: global functions and spectrum {#Isbell}
