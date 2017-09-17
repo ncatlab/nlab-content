@@ -61,6 +61,10 @@ The [[open/closed string duality]] implies certain relations in string scatterin
 
 The scattering amplitudes in [[twistor string theory]] induce the MHV amplitudes in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]]. See at _[[string theory results applied elsewhere]]_ in the section _[Application to QCD -- Scattering amplitudes](string+theory+results+applied+elsewhere#QCDScatteringAmplitudes)_.
 
+## Examples
+
+* [[Veneziano amplitude]]
+
 ## Related entries
 
 * [[scattering amplitude]]
