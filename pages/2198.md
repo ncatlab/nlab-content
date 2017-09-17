@@ -38,6 +38,8 @@ Conversely, if $(X,\tau)$ is a completely regular topological space, then for an
 
 If $U$ is a uniformity on $Y$ (making it into a [[uniform space]]), then for all $A,B\subset Y$ let $A\delta B$ iff $V\cap (A\times B)\neq \emptyset$ for every [[entourage]] (aka vicinity) $V\in U$. This also defines a proximity structure on $Y$. The topology induced by the uniformity and the topology induced by the proximity structure are the same.
 
+A very interesting generalization of proximity spaces are [[funcoid]]s.
+
 
 ## References
 
