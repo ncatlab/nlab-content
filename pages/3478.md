@@ -10,7 +10,7 @@
 ## Definition
 
 A [[topological space]] $X$ is said to be **locally contractible** 
-if it has a [[basis for a topology|basis]] of open sets $U$ such that the spaces $U$ that are [[contractible]].
+if it has a [[basis for a topology|basis]] of open sets $U$ such that the spaces $U$ are [[contractible]].
 
 Sometimes one requires just that the inclusions $U \to X$ are [[null-homotopic maps]]. This might be called **semi-locally contractible**.
 
