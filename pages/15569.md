@@ -166,7 +166,7 @@ This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands
     \mathbb{C}((z-x)) = \{ a_{-k} (z-x)^{-k} + \cdots + a_{-1} (z-x)^{-1} + a_0 + a_1 (z-x) + a_2 (z-x)^2 + \cdots  \};
   $$ 
 
-* the subring $\mathbb{Z}[p^{-1}] \subset \mathbb{Q}$ of [[rational numbers]] with denominator a power of $p$  is analogous to the subring or [[meromorphic functions]] on $\Sigma$ with possible poles at $x$.
+* the subring $\mathbb{Z}[p^{-1}] \subset \mathbb{Q}$ of [[rational numbers]] with denominator a power of $p$  is analogous to the subring of [[meromorphic functions]] on $\Sigma$ with possible poles at $x$.
 
 Notice that the [[cover]] of the [[complex curve]] $\Sigma$ involved in the [[Weil uniformization theorem]] is exhibited by the following [[fiber product]] diagram
 
@@ -387,6 +387,7 @@ Lawvere argued since the 1990s (see [here](cohesive%20topos#References)) is that
 * the [[shape modality]] $\Pi$ is naturally thought of as sending each [[geometric homotopy type]] $X \in \mathbf{H}$ to its **[[fundamental ∞-groupoid]]** $\Pi X$ of geometric paths inside it, equivalently to its **[[geometric realization]]**;
 
 * the [[flat modality]] $\flat$ is naturally thought of as sending each [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]] to the [[moduli ∞-stack]] $\flat\mathbf{B}G$ of **$G$-[[flat ∞-connections|principal flat ∞-connections]]**;
+
 
 * the [[homotopy fiber]] $\flat_{\mathrm{dR}}G$ of the [[counit of a comonad|counit]] $\flat \mathbf{B}G \to \mathbf{B}G$ is naturally thought of as sending the moduli $\infty$-stack of **$\mathfrak{g}$-[[L-∞ algebra valued differential forms]]**;
 
