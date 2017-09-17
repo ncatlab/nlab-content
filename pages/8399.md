@@ -517,7 +517,7 @@ $$
 
 This in turn almost verbatim expresses the familar equivalent statement
 
-> A vielbeing is a [[reduction of the structure group]] of the $GL(n)$-[[principal bundle]] $T \Sigma$ along $O(n) \to GL(n)$.
+> A vielbein is a [[reduction of the structure group]] of the $GL(n)$-[[principal bundle]] $T \Sigma$ along $O(n) \to GL(n)$.
 
 This is still the naive space of fields, not yet generally covariant. So we next pass to the general covariant $\mathbf{B}\mathbf{Aut}(T\Sigma)$-[[context]] and form the correct generally covariant space of fields, being the [[type in context]] $\mathbf{B} \mathbf{Aut}(T \Sigma)$ given by
 
