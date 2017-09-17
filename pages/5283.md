@@ -25,6 +25,48 @@ In suitable contexts, multivector fields on $X$ can be identified with the [[Hoc
 
 There is a canonical bilinear pairing on multivector fields called the [[Schouten bracket]].
 
+### Isomorphisms with de Rham complex
+
+Let $X$ be a [[smooth manifold]] of [[dimension]] $d$, which is equipped with an [[orientation]] exhibited by a [[differential form]]
+$\omega \in \Omega^d(X)$.
+
+Then contraction with $\omega$ induces for all $0 \leq n \leq d$ an [[isomorphism]] of [[vector space]]s
+
+$$
+  \omega(-) : 
+  T^n_{poly}(X)
+    \stackrel{\simeq}{\to}
+  \Omega^{(d-n)}(X)
+  \,.
+$$
+
+The transport of the [[de Rham complex|de Rham differential]] along these isomorphism equips $T^\bullet_{poly}$ with the structure of a [[chain complex]]
+
+$$
+  \array{
+    \Omega^{n}(X) &\stackrel{d_{dR}}{\to}& \Omega^{n+1}(X)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    T^{d-n}_{poly} &\stackrel{div_\omega}{\to}&
+    T^{d-n-1}_{poly} 
+  }
+  \,,
+$$
+
+The operation $div_\omega$ is a [[derivation]] of the [[Schouten bracket]].
+
+
+
+## References
+
+The isomorphisms between the de Rham complex and the complex of polyvector field is reviewed for instance on p. 3 of
+
+* Thomas Willwacher, Damien Calaque _Formality of cyclic cochains_ ([arXiv:0806.4095](http://arxiv.org/abs/0806.4095))
+{#WillwacherCalaque}
+
 
 [[!redirects multivector field]]
 [[!redirects multivector fields]]
@@ -38,3 +80,10 @@ There is a canonical bilinear pairing on multivector fields called the [[Schoute
 
 [[!redirects p-vector field]]
 [[!redirects p-vector fields]]
+
+[[!redirects polyvector field]]
+[[!redirects polyvector fields]]
+[[!redirects poly-vector field]]
+[[!redirects poly-vector fields]]
+[[!redirects poly vector field]]
+[[!redirects poly vector fields]]
