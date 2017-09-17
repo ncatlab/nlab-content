@@ -19,6 +19,8 @@ A [[model category]] structure on the category of [[dg-categories]] that exhibit
 
 ## Statement
 
+### With Dwyer-Kan weak equivalences
+
 +-- {: .num_theorem}
 ###### Theorem
 
@@ -52,7 +54,17 @@ The definition is entirely analogous to the [[model structure on sSet-categories
 =--
 
 
-> this model structure should be a presentation of the [[(∞,1)-category]] of [[stable (∞,1)-categories]] over the ring $k$.
+
+### With Morita equivalences
+  {#WithMoritaEquivalences}
+
+There is another model category structure with more weak equivalences, the _Morita equaivalences_ ([Tabuada 05](#Tabuada05)).
+
+That is a presentation of the [[(∞,1)-category]] of [[stable (∞,1)-categories]] ([Cohn 13](#Cohn13)).
+
+
+
+
 
 ## Related concepts
 
@@ -88,5 +100,13 @@ Discussion of [[internal homs]] of dg-categories using (just) the structure of a
 There is also 
 
 * David Rosoff, _Mapping spaces of $A_\infty$-algebras_ ([pdf](http://www.math.washington.edu/~rosoff/ainfs.pdf))
+
+The model structure with Morita equivalences as weak equivalences is discussed in
+
+* {#Tabuada05} [[Goncalo Tabuada]], _Invariants additifs de dg-catgories_. Internat. Math. Res. Notices 53 (2005), 33093339.
+
+That the Morita model structure on dg-categories presents the homotopy theory of $k$-linear [[stable (infinity,1)-categories]] was shown in
+
+* {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
 
 
