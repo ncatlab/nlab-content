@@ -31,7 +31,7 @@
 
 * A functor from $C$ to $D$ is an _image of $C$ in $D$_ (but the naive [[image]] need not be a [[subcategory]] of $D$).
 
-* A functor between (small) categories is a morphism of the underlying [[directed graphs]] that respects the composition of edges.
+* A functor between (small) categories is a morphism of the underlying [[quivers]] that respects the composition of edges.
 
 
 So a functor $F : C \to D$ is a [[morphism]] between two [[category|categories]] that 
