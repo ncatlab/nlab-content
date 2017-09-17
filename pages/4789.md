@@ -677,7 +677,11 @@ $$
 
 =--
 
-## Rereferences
+### On higher extensions of the super Poincare Lie algebra -- supergravity
+
+See [[D'Auria-Fre formulation of superrgravity]] for the moment.
+
+## References
 
 
 The general definition of Chern-Simons element on $\infty$-Lie algebras and $\infty$-Lie algebroids is <a href="http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.3480v2.pdf#page=21">definition 21</a> in
