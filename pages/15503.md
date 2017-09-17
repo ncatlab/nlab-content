@@ -1,2 +1,2 @@
-For more on the Gallet Clamshell series of watches, click here. Second, they may have been the first chronograph to include a rotating bezel. Third, they were the first to combine the capability to tell time in cities around the world with a chronograph complication..
- <a href="http://www.carebeau-enjoy.com/shoponlinejp.asp?cheap=shop/a/b/products/01129.html" title="Michael Kors">Michael Kors</a>
+3 perdre du poids Manger votre IMG. Que vous avez aussi avant de
+ <a href="http://www.mikes-den.com/jponlines.asp?cheap=products-c252.html" title="POLICE">POLICE</a>
