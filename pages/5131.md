@@ -122,6 +122,9 @@ Each such partition defines a permutation of $\{0,\ldots, p+q-1 \}$.  Let us wri
 $$\sigma =\left(\begin{array}{ccccccccc}0&1&2& \ldots & p-1&p&p+1& \ldots & p+q-1\\
 \mu_1&\mu_2&\mu_3&\ldots & \mu_p&\nu_1&\nu_2&\ldots &\nu_q\end{array}\right).$$
 
+
+
+
 We can thus assign  a sign, $sgn(\sigma)$, to each such shuffle, namely the sign of the corresponding permutation.  
 
 For our standard examples, we have : 1) $\sigma$ is the identity, 2) $\sigma = \left(\begin{array}{ccc}0&1&2\\0&2&1\end{array}\right)$, i.e. the transposition exchanging 1 and 2,  and for 3) $\sigma = \left(\begin{array}{ccc}0&1&2\\1&2&0\end{array}\right)$, a 3-cycle. 
@@ -161,5 +164,18 @@ $$(\mu, \nu) \leq (\mu\prime,\nu\prime)$$
 if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We refer to this poset as $(Shuff_{(p,q)},\leq)$.
 =--
 
+(Diagrams under construction.. this will be a mess until after I have eaten!)
+Going to $(3,1)$,  the fact that $q = 1$ will mean that the poset is linear:
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0<1<2)\ar@{-}[r]& (0<1<3)\ar@{-}[r]&(0<2<3)\ar@{-}[r]&(1<2<3).}"/> 
+This is general:
+\begin{lemma}
+If $p = 1$ or $q = 1$, then  $(Shuff_{(p,q)},\leq)$ is a linear poset.
+\end{lemma}
+\textbf{Proof:}  If $p = 1$, $\bm{\mu} = (\mu_1)$ is a singleton, and the poset will be:
+
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0)\ar@{-}[r]&(1)\ar@{-}[r]&\quad \ldots\quad \ar@{-}[r] &(q)}."/>
+For $q = 1$, $\bm{\nu} = (\nu_1)$, and the poset is 
+<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0<1< \ldots < p-1)\ar@{-}[r]& (0<1< \ldots < p-2<p)\ar@{-}[r]&\quad \ldots\quad\ar@{-}[r]&(1<\ldots <p),}"/>
+where at each stage one misses out the single $\nu$-value
 
 [[!redirects products of simplices]]
