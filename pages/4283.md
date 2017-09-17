@@ -69,3 +69,6 @@ See also [[AQFT]], [[QFT]] and [[Haag-Kastler axioms]].
 [[!redirects superselection theory]]
 [[!redirects superselection sector]]
 [[!redirects superselection sectors]]
+
+[[!redirects superselection rule]]
+[[!redirects superselection rules]]
