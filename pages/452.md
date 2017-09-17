@@ -148,6 +148,10 @@ crossed module.  This will not be proved here, but is not that difficult.  (Of c
 
 * [[hypercrossed complex]]
 
+## References
+
+* R. Brown, _Groupoids and crossed objects in algebraic topology_ Homology, Homotopy and Applications, 1 (1999) 1-78. 
+
 
 
 
