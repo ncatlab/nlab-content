@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $A$ an [[abelian group]] there is a group [[automorphism]]
+
+$$
+  - \;\colon \; A \stackrel{\simeq}{\longrightarrow} A
+$$
+
+given by sending any element $a$ to its [[inverse]] $-a$.
+
+This is an [[involution]].
+
+## Examples
+
+
+* The inversion involution on the [[multiplicative group]] induces, via the [[Goerss-Hopkins-Miller theorem]] the [[real oriented cohomology theory]] structure on [[complex K-theory]] [[KU]] (namely [[KR-theory]]), see at _[[moduli stack of tori]]_ for details.
+
+
+[[!redirects inversion involutions]]
