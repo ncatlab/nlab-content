@@ -187,7 +187,7 @@ the **J-homomorphism**.
 +-- {: .num_remark #DeloopedJ}
 ###### Remark
 
-Since the mas of def. \ref{OrthogonalActionOnSphereOnHomotopyGroups}
+Since the maps of def. \ref{OrthogonalActionOnSphereOnHomotopyGroups}
 are [[∞-group]] [[homomorphisms]], there exists their [[delooping]]
 
 $$
@@ -197,14 +197,19 @@ $$
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
 Here $GL_1(\mathbb{S})$ is the [[∞-group of units]] of the [[sphere spectrum]].
+
+=--
 
 This map $B J$ is the [[universal characteristic class]] of stable [[vector bundles]] with values in [[spherical fibrations]]:
 
 +-- {: .num_defn #SphereBundleOfVectorBundle}
 ###### Definition
 
-For $V \to X$ a [[vector bundle]], write $S^V$ for its [[fiber]]-wise [[one-point compactification]]. This is a [[spherical fibration]]. Write $\mathbb{S}^V$ for the $X$-[[parameterized spectrum]] which is fiberwise the [[suspension spectrum]] of $S^V$.
+For $V \to X$ a [[vector bundle]], write $S^V$ for its [[fiber]]-wise [[one-point compactification]]. This is a [[sphere bundle]]/[[spherical fibration]]. Write $\mathbb{S}^V$ for the $X$-[[parameterized spectrum]] which is fiberwise the [[suspension spectrum]] of $S^V$.
 
 =--
 
@@ -214,7 +219,7 @@ It is immediate that:
 ###### Proposition
 
 For $V \to X$ a [[vector bundle]] classified by a map $X \to B O$, 
-the corresponding [[spherical fibration]] $\mathbb{S}^V$, def. \ref{SphereBundleOfVectorBundle}, is classified by $X \to B O \stackrel{B J}{\longrightarrow}$, def. \ref{DeloopedJ}.
+the corresponding [[spherical fibration]] $\mathbb{S}^V$, def. \ref{SphereBundleOfVectorBundle}, is classified by $X \to B O \stackrel{B J}{\longrightarrow} B GL_1(\mathbb{S})$, def. \ref{DeloopedJ}.
 
 =--
 
