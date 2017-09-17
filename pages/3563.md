@@ -211,4 +211,3 @@ Pieter J.W. Hofstra, Partial Combinatory Algebras and Realizability Toposes,
 [[!redirects combinatory algebra]] 
 [[!redirects Kleene's first algebra]]
 [[!redirects realizability tripos]]
-[[!redirects realizability topos]]
