@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,9 +19,13 @@
 * table of contents
 {:toc}
 
+## Idea
+
+An [[observable]] in [[quantum physics]].
+
 ## Definition in geometric quantization
 
-We consider the notion of quantum operators in the the context of [[geometric quantization]].
+We consider the notion of quantum observables in the the context of [[geometric quantization]].
 
 ### On a symplectic manifold
 
@@ -65,11 +70,16 @@ corresponding to $f$;
 
 ## Related concepts
 
+* [[observable]]
+
 * [[Hamiltonian operator]]
 
 ## References
 
 See the references at [[geometric quantization]].
 
+[[!redirects quantum observables]]
+
+[[!redirects quantum operator]]
 [[!redirects quantum operators]]
 
