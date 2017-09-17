@@ -311,6 +311,12 @@ In generalization of this, an abstract formalization of distribiutions in [[cate
 * [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952))
  {#Kock11}
 
+following the formalization of "[[intensive and extensive]]" in 
+
+* [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
+ {#Lawvere86}
+
+
 See also 
 
 * Springer online [[eom]], _[generalized function](http://eom.springer.de/g/g043810.htm)_
@@ -328,3 +334,6 @@ category: analysis
 [[!redirects distributions]]
 [[!redirects generalized function]]
 [[!redirects generalized functions]]
+
+[[!redirects linear distribution]]
+[[!redirects linear distributions]]
