@@ -237,12 +237,32 @@ and
 #### Quantum state space as space of polarized sections 
  {#Polarizations}
 
-For $(X, \omega)$ a [[symplectic manifold]], a **[[polarization]]** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
+For $(X, \omega)$ a [[symplectic manifold]], a **[[real polarization]]** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$, equivalently an involutive real Lagrangian subbundle $\mathcal{P} \subset T X$
+A choice of [[metaplectic correction]] of $\mathcal{P}$ defines the [[half-density]] bundle $\sqrt{\Omega \mathcal{P}}$. 
 
-After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr-Sommerfeld [[leaf]]** of a polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]].
+Let now $(L,\nabla)$ be a [[prequantum line bundle]] for $(X,\omega)$.
+
++-- {: .num_defn }
+###### Definition
+
+The [[space of quantum states]] of the prequantum bundle defined by choice of [[real polarization]] and [[metaplectic correction]] is the space of those [[sections]] of the [[tensor product]] $L \otimes \sqrt{\Omega \mathcal{P}}$ which are [[covariant derivative]] covariantly constant with respect to $\nabla$ along the leafs of the polarization:
+
+$$
+  \mathcal{H}_{pol}
+  \colon
+  \left\{
+   \psi \in \Gamma(L \otimes \sqrt{\Omega \mathcal{P}})
+   \;|\;
+   \nabla_{\mathcal{P}} \psi = 0
+  \right\}
+  \,.
+$$
+
+=--
+
+For instance ([Bates-Weinstein, def. 7.17](#BatesWeinstein)).
 
 
-See also at _[[metaplectic correction (in geometric quantization)]]_.
 
 #### Quantum state space as Euler characteristic of prequantum sheaf cohomology
  {#EulerCharacteristicOfSheafCohomology}
@@ -485,6 +505,7 @@ Introductions and lecture notes include
 Lecture notes with an emphasis on [[semiclassical states]] are in
 
 * Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+ {#BatesWeinstein}
 
 A careful discussion of the polarization-step from prequantization to quantization is in 
 
