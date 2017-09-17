@@ -58,10 +58,11 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 ## Related concepts
 
 
-
 * [[Kerr spacetime]]
 
 * [[Bekenstein-Hawking entropy]], [[black hole radiation]]
+
+* [[Penrose-Hawking singularity theorem]]
 
 * [[generalized second law of thermodynamics]]
 
@@ -109,4 +110,8 @@ The nature of the [[event horizon]], specifically, is discussed in
 
 
 [[!redirects black holes]]
+
 [[!redirects black hole spacetime]]
+[[!redirects black hole spacetimes]]
+
+
