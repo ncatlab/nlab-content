@@ -29,6 +29,7 @@ A [[geometric morphism]] $f\colon E\to F$ between [[toposes]] is called **hyperc
 
 This appears ([Johnstone, p. 225](#Johnstone)).
 
+
 ## Examples
 
 * If $g\colon C\to D$ is a [[functor]] between [[small categories]] which is both [[essentially surjective functor|essentially surjective]] and [[full functor|full]], then the induced geometric morphism $Set^C\to Set^D$ is hyperconnected.  In fact, instead of essentially surjective it suffices for $g$ to be [[Cauchy surjective functor|Cauchy surjective]], i.e. $D$ is the closure of $g(C)$ under retracts.
@@ -37,11 +38,13 @@ This appears ([Johnstone, p. 225](#Johnstone)).
 iff $C$ is strongly connected (see Elephant, A4.6.9), i.e., inhabitated and for any two objects $A,B$ there exist morphisms $f:A\to B$ and $g:B\to A$. This includes the case when $C=M$ is a [[monoid]], and the topos of [[simplicial set|simplicial sets]].
 
 
-## Remarks
+## Properties
 
 * Any hyperconnected geometric morphism is [[connected geometric morphism|connected]], so the name is not unreasonable.
 
-* Hyperconnected geometric morphisms are the left class of a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi; the right class is the class of [[localic geometric morphisms]].  In particular, a geometric morphism can only be both hyperconnected and localic if it is an equivalence.  Therefore, if we view topoi as generalized [[topological spaces]] (or [[locales]]), the world of hyperconnected topoi and geometric morphisms lives entirely in the "generalized" part.
+* Hyperconnected geometric morphisms are the left class of a 2-categorical [[orthogonal factorization system]] on the 2-category of toposes; the right class is the class of [[localic geometric morphisms]].  
+
+  In particular, a geometric morphism can only be both hyperconnected and localic if it is an equivalence.  Therefore, if we view topoi as generalized [[topological spaces]] (or [[locales]]), the world of hyperconnected topoi and geometric morphisms lives entirely in the "generalized" part.
 
 ## References
 
