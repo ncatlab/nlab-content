@@ -223,7 +223,7 @@ $$
   Stab(E_\infty/A) \simeq A Mod(Spec)
 $$
 
-is equivalentl to the category of $A$-[[module spectra]].
+is equivalent to the category of $A$-[[module spectra]].
 
 =--
 
