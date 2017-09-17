@@ -15,6 +15,11 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The generalization of the notion of [[effective epimorphism]] from [[category theory]] to [[(∞,1)-category theory]].
+
+See also at _[[1-epimorphism]]_. 
 
 ## Definition
 
@@ -68,6 +73,7 @@ For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an effective epi
 
 This is [[Higher Topos Theory|HTT, cor. 6.2.3.5]].
 
+
 More generally, 
 
 +-- {: .num_prop }
@@ -94,7 +100,9 @@ is [[injective function|injective]].
 
 This appears as ([Rezk, lemma 7.9](#Rezk)). 
 
-+-- {: .num_prop}
+Useful is also the following characterization:
+
++-- {: .num_prop #CharacterizationAsEpiOnZeroTruncation}
 ###### Proposition
 
 A morphism in an [[(∞,1)-topos]] is an effective epimorphism precisely if its [[0-truncated|0-truncation]] is an [[effective epimorphism]] in the underlying 1-[[topos]].
@@ -103,8 +111,32 @@ A morphism in an [[(∞,1)-topos]] is an effective epimorphism precisely if its 
 
 This is ([Lurie, prop. 7.2.1.14](#Lurie)).
 
++-- {: .num_remark}
+###### Remark
+
+In words this means that a map is an effective epimorphism if it induces an epimorphism on connected components. 
+
+=--
+
+This is true generally in the [[internal logic]] of the $(\infty,1)$-topos (i.e. in [[homotopy type theory]], see at [[1-epimorphism]] for more on this), but in [[∞Grpd]] $\simeq L_{whe}$ [[sSet]] it is also true externally (prop. \ref{EffectiveEpisOfInfinityGroupoids} below):
+
++-- {: .num_example}
+###### Example
+
+A morphism of [[∞-groupoids]] $f \colon X \to Y$ is an effective epimorphism precisely if it is a [[surjection]] on connected components, hence if
+
+$$
+  \pi_0(f) \colon \pi_0(X) \to \pi_0(Y)
+$$
+
+is a surjection of sets.
+
+=--
+
 
 ## Examples
+
+As a corollary of prop. \ref{CharacterizationAsEpiOnZeroTruncation} we have
 
 +-- {: .num_prop #EffectiveEpisOfInfinityGroupoids}
 ###### Proposition
@@ -126,7 +158,7 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].
 
 * [[regular epimorphism in an (∞,1)-category]]
 
-* [[n-connected object in an (∞,1)-category]]
+* [[n-connected object of an (∞,1)-category]]
 
 ## References
 
