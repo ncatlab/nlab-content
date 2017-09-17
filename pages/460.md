@@ -1,28 +1,35 @@
-[[!redirects sober space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc} 
+{: toc}
 
 ## Definition
 
 A [[topological space]] $X$ is **sober** if its [[point]]s are exactly determined by its open-set [[lattice]].  Different equivalent ways to say this are:
 
-* $X$ is [[isomorphic]] to the space of points of the [[locale]] it gives rise to (see there for details).
+* The [[continuous map]] from $X$ to the space of points of the [[locale]] that it gives rise to (see there for details) is a [[homeomorphism]].
 
-* The points of $X$ are in bijection with the _completely prime [[filter]]s_ of its open-set lattice.
+* The [[function]] from points of $X$ the _completely prime [[filter]]s_ of its open-set lattice is a [[bijection]].
 
 * (Assuming classical logic) $X$ is $T_0$ and every [[irreducible closed set]] (non-empty closed set that is not the union of any two non-empty closed sets) is the closure of a point.
+
+In each case, half of the definition is that $X$ is $T_0$, the other half states that $X$ has __enough points__:
+
+* The [[continuous map]] from $X$ to the space of points of the [[locale]] that it gives rise to (see there for details) is a [[quotient space|quotient map]].
+
+* The [[function]] from points of $X$ the _completely prime [[filter]]s_ of its open-set lattice is a [[surjection]].
+
+* (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the union of any two non-empty closed sets) is the closure of a point.
 
 
 ## Properties
@@ -31,13 +38,14 @@ A [[topological space]] $X$ is **sober** if its [[point]]s are exactly determine
 
 * The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint] is called the **soberification**.  This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the space of points of some locale, and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]].
 
+* A topological space has enough points if and only if its $T_0$ quotient is sober.  Spaces with enough points are also reflective, and a topological space is $T_0$ iff this reflection is sober.
+
 
 ## Examples (and non-examples)
 
-
 * Any nontrivial [[indiscrete space]] is not sober, since it is not $T_0$. More interestingly, the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the closure of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties.
 
-* The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words.
+* The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]).
 
 
 ## References
@@ -48,7 +56,15 @@ For instance around definition IX.3. 2 of
 {#MacLaneMoerdijk}
 
 
+[[!redirects sober topological space]]
+[[!redirects sober topological spaces]]
+[[!redirects sober topology]]
+[[!redirects sober topologies]]
 [[!redirects sober space]]
 [[!redirects sober spaces]]
+
 [[!redirects soberification]]
 [[!redirects soberifications]]
+
+[[!redirects topological space with enough points]]
+[[!redirects topological spaces with enough points]]
