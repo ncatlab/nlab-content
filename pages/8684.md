@@ -1,0 +1,14 @@
+A __filtered ring__ (resp. filtered algebra) is a [[filtered object]] in the category of rings (resp. algebras). 
+
+One considers positive and negative filtrations, as well as $\mathbb{Z}$-filtrations. 
+
+To-do list: complete filtrations, associated graded ring, symbol map, Poisson structure on the associated graded algebra if the latter is commutative.  
+
+A major example is the [[universal enveloping algebra]] of any Lie algebra.
+
+See also [[Lazard's criterion]] and [[microlocalization]]. 
+
+* wikipedia [filtration (mathematics)](http://en.wikipedia.org/wiki/Filtration_%28mathematics%29), [completion (ring_theory)](http://en.wikipedia.org/wiki/Completion_%28ring_theory%29)
+[[!redirects filtered algebra]]
+[[!redirects filtered algebras]]
+[[!redirects filtered rings]]
