@@ -6,8 +6,8 @@
 ## Idea
 
 Uniform convergence spaces are simultaneously a generalisation of [[uniform spaces]] and a specialisation with [[extra structure]] of [[convergence spaces]].  That is, we have [[functors]]
-$$ Conv \to Unif Conv \to Unif ,$$
-both [[faithful functor|faithful]] and with $Unif Conv \to Unif$ also [[full functor|full]].  (Here we take the [[morphisms]] of $Unif Conv$ and $Unif$ to be the [[uniformly continuous maps]], while $Conv$ must use the [[continuous maps]].)
+$$ Unif \to Unif Conv \to Conv ,$$
+both [[faithful functor|faithful]] and with $Unif \to Unif Conv$ also [[full functor|full]].  (Here we take the [[morphisms]] of $Unif Conv$ and $Unif$ to be the [[uniformly continuous maps]], while $Conv$ must use the [[continuous maps]].)
 
 
 ## References
