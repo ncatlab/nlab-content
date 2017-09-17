@@ -31,6 +31,8 @@ Compare with the notion of [[weakly periodic cohomology theory]].
 
 ## Related entries
 
+* [[Bott periodicity]]
+
 * [[periodic ring spectrum]]
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
