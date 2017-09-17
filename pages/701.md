@@ -9,6 +9,12 @@
 =--
 =--
 
+# Idempotents
+* table of contents
+{: toc}
+
+## Definition
+
 An [[endomorphism]] $e\colon B \to B$ in a [[category]] is an **idempotent** if the [[composition]] with itself equals itself 
 
 $$
@@ -37,7 +43,7 @@ This is important in [[measure theory]]; if $R$ is the ring $L^\infty(X,\mathcal
 
 If $R$ is a commutative $*$-[[star-ring|ring]], then we may restrict to the [[self-adjoint element|self-adjoint]] idempotent elements to get the Boolean algebra $Proj(R)$.  In measure theory, if $R$ is the [[complex number|complex]]-valued version of $L^\infty(X,\mathcal{M},\mathcal{N})$, then $Proj(R)$ will still reconstruct $\mathcal{M}/\mathcal{N}$.  In [[operator algebra]] theory, the self-adjoint idempotent elements of an operator algebra are called [[projection operator]]s, which the origin of the notation $Proj$.  (Sometimes one requires projection operators to be _proper_: to have norm $1$; the only projection operator that is not proper is $0$.)
 
-The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] give the link between operator algebra theory and measure theory; in fact, the [[categories]] of commutative $W^\star$-algebras and of [[localisable measurable spaces]] (or [[measurable locale]]s in [[constructive mathematics]]) are [[dual equivalence|dual]], and $W^\star$-algebra theory in general may be thought of as noncommutative measure theory.  In noncommutative measure theory, the projection operators are still important, but they no longer form a Boolean algebra.
+The projection operators of a commutative $W^\star$-[[W-star-algebra|algebra]] give the link between operator algebra theory and measure theory; in fact, the [[categories]] of commutative $W^\star$-algebras and of [[localisable measurable spaces]] (or [[measurable locales]] in [[constructive mathematics]]) are [[dual equivalence|dual]], and $W^\star$-algebra theory in general may be thought of as noncommutative measure theory.  In noncommutative measure theory, the projection operators are still important, but they no longer form a Boolean algebra.
 
 
 [[!redirects idempotent]]
