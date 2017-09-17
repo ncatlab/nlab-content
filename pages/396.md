@@ -42,6 +42,7 @@ For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully fa
 
 * [[equivalence of categories]]
 
+* [[full and faithful (∞,1)-functor]]
 
 [[!redirects full and faithful functor]]
 [[!redirects full and faithful functors]]
