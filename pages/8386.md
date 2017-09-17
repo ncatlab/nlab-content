@@ -1,0 +1,40 @@
+# Polymorphism
+
+In [[computer science]], **polymorphism** refers to the ability to define more than one [[function]] with the same name.  One usually distinguishes two types of polymorphism: *ad hoc polymorphism* and *parametric polymorphism*.
+
+## Ad hoc polymorphism
+
+In **ad hoc polymorphism**, one simply defines multiple functions with the same name and different [[types]], relying on the compiler (or, in some cases, the run-time system) to determine the correct function to call based on the types of its arguments and return value.  This is also called **overloading**.  For instance, using a mathematical notation, one might define functions
+
+$$ add : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$$
+$$ add : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$$
+
+and then when $add(3,2)$ is invoked, the compiler knows to call the first function since $3$ and $2$ are natural numbers, whereas when $add(4.2,\pi)$ is invoked it calls the second function since $4.2$ and $\pi$ are real numbers.
+
+Note that there is nothing which stipulates that the *behavior* of a class of ad-hocly polymorphic functions with the same name should be at all similar.  Nothing prevents us from defining $ add : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ to add its arguments but $ add : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ to subtract its arguments.  Of course, it is good programming practice to make overloaded functions similar in their behavior.
+
+## Parametric polymorphism
+
+In **parametric polymorphism**, one writes code to define a function *once*, which contains a "type variable" that can be instantiated at many different types to produce different functions.  For instance, we can define a function
+
+$$ first : A\times A \to A $$
+
+where $A$ is a type variable (or *parameter*), by
+
+$$ first(x,y) \coloneqq x. $$
+
+Now the compiler automatically instantiates a copy of this function, with identical code, for any type at which it is called.  Thus we can behave as if we had functions
+
+$$ first : \mathbb{N} \times \mathbb{N} \to \mathbb{N}$$
+$$ first : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$$
+
+and so on, for any types we wish.  In contrast to *ad hoc* polymorphism, in this case we do have a guarantee that all these same-named functions are doing "the same thing", because they are all instantiated by the same original polymorphic code.
+
+In a [[dependent type theory|dependently typed programming language]] with a [[type of types]], such as [[Coq]] or [[Agda]], a parametrically polymorphic family of functions can simply be considered to be a single dependently typed function whose first argument is a type.  Thus our function above would be typed as
+
+$$ first : \prod_{A:Type} A\times A \to A$$
+
+However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[ML]].
+
+[[!redirects ad hoc polymorphism]]
+[[!redirects parametric polymorphism]]
