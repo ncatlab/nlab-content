@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -45,9 +49,11 @@ Just as a function between sets, $f : X\to Y$ defines as an equivalence relation
 $$(h_0,h_1)\star (h_1,h_2) = (h_0,h_2)$$
 and inverses are given by swapping the two entries, $(h_0,h_1)^{-1} = (h_1,h_0)$. All this is happening within that same group theoretic context and there is a group multiplication on each of the sets given by $(h_0,h_1).(h^\prime_0,h^\prime_1) = (h_0h^\prime_0,h_1h^\prime_1)$. With this the maps giving the source and target of an 'arrow' are homomorphisms as is the composition.
 
+## Related concepts
 
+* [[strict 2-category]], [[strict 2-functor]]
 
-
+* [[n-groupoid]], [[infinity-groupoid]]
 
 
 
