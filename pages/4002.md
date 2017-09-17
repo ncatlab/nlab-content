@@ -39,9 +39,12 @@ If $p\colon E\to F$ is locally connected, then it is connected if and only if th
 This is C3.3.3 in the [[Elephant]].
 =--
 
+Strengthenings of this condition include
+* a [[strongly connected geometric morphism]], which is locally connected such that $p_!$ preserves all finite products, and
+* a [[totally connected geometric morphism]], which is locally connected such that $p_!$ preserves all finite limits.
+
 
 ## Examples
-
 
 
 The [[gros topos|gros]] [[sheaf topos]] $Sh(CartSp)$ on the [[nLab:site]] [[CartSp]] -- which contains the [[quasi-topos]] of [[diffeological space]] -- is a connected topos:
