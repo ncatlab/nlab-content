@@ -1,0 +1,90 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a sequence of inclusions
+
+$$
+  T \subset B \subset G
+$$
+
+where
+
+* $G$ is a [[connected topological space|connected]] [[complex geometry|complex]] [[reductive group|reductive]] [[algebraic group]]
+
+* $B$ is a [[Borel subgroup]]
+
+* $T$ is a [[maximal torus]];
+
+this induces
+
+* the [[Weyl group]] $W_0 = N(T)/T$;
+
+* the [[character lattice]] $\mathfrak{h}_{\mathbb{Z}}^\ast = Hom(T, \mathbb{C}^\times)$;
+
+* the [[cocharacter lattice]] $\mathfrak{h}_{\mathbb{C}} = Hom(\mathbb{C}^\times, T)$.
+
+* a _[[standard parabolic subgroup]]_ of $G$ is a subgroup $P_J$ including $B$ such that $G/P$ is a [[projective variety]];
+
+   [[parabolic subgroup]] is one [[conjugation|conjugate]] to the standard parabolic subgroup.
+
+* the [[flag variety]] $G/B$;
+
+* the _[[partial flag varieties]]_ $G/P_J$
+
+* the **Bruhat decomposition** is the [[coproduct]] decomposition
+
+  $$
+    G = \underset{w \in W_0}{\coprod} B w B
+  $$
+
+  $$
+    G =  \underset{u \in W^J}{\coprod} B u P_j
+  $$
+
+  with 
+
+  * $W_J \coloneqq \{v \in W_0 | v T  \subset P_J\}$
+
+  * $W^J \coloneqq \{coset\; representatives\; u \; of \; cosets \; in W_0/W_J\}$
+
+* into [[Schubert varieties]] 
+
+  $$
+    X_w = \overline{B w B} \subset G/B
+  $$
+
+  $$
+    X_u^J = \overline{B u P_J} \subset G/P_J
+    \,.
+  $$
+
+
+## Related concepts
+
+* [[Schubert calculus]]
+
+## References
+
+* Wikipedia, _[Bruhat decomposition](http://en.wikipedia.org/wiki/Bruhat_decomposition)_
+
+
+[[!redirects Bruhat decompositions]]
