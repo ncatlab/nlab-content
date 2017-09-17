@@ -2,7 +2,7 @@
 
 Hodge theory is centered around fine structure seen at the level of (complex, rational and integer) cohomologies (and [[motive]]s) of [[Kähler manifold]]s, based on the study of [[harmonic form]]s on them: Hodge decomposition, Hard Lefschetz theorem, pure Hodge structures, mixed Hodge structures, variations of Hodge structure, Hodge to de Rham spectral sequence, periods...This basic setup is however by now vastly generalized. 
 
-Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (Kaledin, Katzarkov, Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], Saito, K. Hertling and others.  
+Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], M. Saito, C. Hertling and others.  
 
 #References and related entries#
 
@@ -29,3 +29,7 @@ Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P.
 * L. Katzarkov, [[Maxim Kontsevich|M. Kontsevich]], T. Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
 
 * D. Kaledin, _Cartier isomorphism and Hodge theory in the non-commutative case_,  Arithmetic geometry,  537--562, Clay Math. Proc. __8__, Amer. Math. Soc. 2009, [arxiv/0708.1574](http://arxiv.org/abs/0708.1574)
+
+* Claus Hertling, Christian Sevenheck, _Twistor structures, $tt^*$-geometry and singularity theory_, [arxiv/0807.2199](http://arxiv.org/abs/0807.2199)
+
+* C. Herltling, C. Sabbah, _Fourier-Laplace transform of flat unitary connections and TERP structures_, [arxiv/0912.2754](http://arxiv.org/abs/0912.2754)
