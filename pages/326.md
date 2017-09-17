@@ -175,9 +175,14 @@ where $j$ is the [[Yoneda embedding]]. Profunctors $\mathbf{F} : C^{op} \times C
 [[!include homotopy-homology-cohomology]]
 
 
-* [[internal hom]], [[enriched hom]], [[derived hom space]]
+* [[internal hom]], [[enriched hom]], [[derived hom space]], [[Ext]]
+
+
 
 [[!redirects hom-functors]]
 
 [[!redirects hom functor]]
 [[!redirects hom functors]]
+
+[[!redirects hom]]
+[[!redirects Hom]]
