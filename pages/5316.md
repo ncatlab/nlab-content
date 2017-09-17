@@ -298,6 +298,25 @@ $$
 
 (e.g. [Mathew, section 3](#Mathew))
 
+## As a derived scheme in $E_\infty$-geometry
+ {#InEInfinityGeometry}
+
+
+By the [[Goerss-Hopkins-Miller theorem]] the [[structure sheaf]] $\mathcal{O}$ of the moduli stack of elliptic curves lifts to a sheaf $\mathcal{O}^{top}$ of [[E-∞ rings]] which over a given [[elliptic curve]] is the corresponding [[elliptic spectrum]].
+ 
+By ([[A Survey of Elliptic Cohomology|Lurie (Survey), theorem 4.1]]), this yields a  [[spectral Deligne-Mumford stack]] refinement $(\mathcal{M}_{ell}, \mathcal{O}^{top})$ which is the moduli stack of [[derived elliptic curves]], in that there is a [[natural equivalence]] in [[E-∞ rings]] $A$ of the form
+
+$$
+  Hom(Spec(A), (\mathcal{M}_{ell},\mathcal{O}^{top}))
+  \simeq
+  E(A)
+  \,,
+$$
+
+where on the left we have maps of [[structured (∞,1)-toposes]] and on the right the [[∞-groupoid]] of [[derived elliptic curves]] over $A$.
+
+This is based on the representability theorem ([[A Survey of Elliptic Cohomology|Lurie (Survey), prop. 4.1]], [[Representability Theorems|Lurie (Representability)]]).
+
 
 ## Properties
 
@@ -350,12 +369,7 @@ $$
 
 This is a special case of the result in ([Zagier-Harer 86](#ZagierHarer86)) discussed at _[[moduli space of curves]]_. See also the first page here: [[EulerCharacteristicOfSpaceOfCurves.pdf:file]].
 
-## As a derived scheme in $E_\infty$-geometry
- {#InEInfinityGeometry}
 
-(...)  [[Goerss-Hopkins-Miller theorem]] (...)
-
-spring
 
 ## Related concepts
 
