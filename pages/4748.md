@@ -664,7 +664,14 @@ The integration of flat differential forms with values in chain complexes toflat
 * [[Camilo Arias Abad]], [[Florian Schaetz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv](http://arxiv.org/abs/1011.4693))
 {#AbadSchaetz}
 
-based on constructions in
+
+based on
+
+arXiv:0908.2843 [pdf, ps, other]
+    Title: A Riemann Hilbert correspondence for infinity local systems
+    Authors: Jonathan Block, Aaron Smith 
+
+in turn based on constructions in
 
 * [[Kiyoshi Igusa]], _Iterated integrals of superconnections_ ([arXiv](http://arxiv.org/abs/0912.0249))
 {#Igusa}
