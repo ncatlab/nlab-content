@@ -33,6 +33,7 @@ In the case of non-archimedean ground field, the topology of the affine space is
 
 * [[Banach analytic space]]
 
+* [[B1-homotopy theory]]
 
 ## References
 
