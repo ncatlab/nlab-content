@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Measurable spaces
 * table of contents
 {: toc}
@@ -284,6 +283,24 @@ A useful series of expositions along these lines is in
   * [MO comment 1](http://mathoverflow.net/questions/20740/is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical-p/20820#20820)
 
   * [MO comment 2](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542)
+
+
+## Revision plan
+
+1.  Move [[sigma-algebra]] to its own page, and put the variations there.
+
+2.  Describe several variations of definition:
+    *  with a filter of full sets,
+    *  localisable,
+    *  Cheng,
+    *  from a delta-ring etc,
+    *  localic,
+    *  finitary,
+    *  noncommutative.
+
+3.  Do measurable functions only afterwards, stressing almost-everywhere equality.  Describe the relevant categories.
+
+4.  Mention measure spaces and anything else.
 
 
 [[!redirects measurable space]]
