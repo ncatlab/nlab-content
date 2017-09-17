@@ -80,6 +80,8 @@ Still more generally, the [[Kobayashi-Hitchin correspondence]] relates semi-stab
 
 * [[stable point]]
 
+* [[positive line bundle]], [[ample line bundle]]
+
 ## References
 
 
