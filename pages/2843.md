@@ -158,6 +158,24 @@ We claim that $\nabla_i|_{U_i \cap U_j} = \nabla_j|_{U_i \cap U_j}$.  This is an
 
 In the [[physics]], the theory of [[general relativity]] models the field of [[gravity]] in terms of the Levi-Civita connection on a [[Lorentzian manifold]]. See there for more details.
 
+## Related concepts
+
+* [[connection on a bundle]]
+
+  * [[parallel transport]], [[holonomy]]
+
+* [[principal connection]]
+
+  * [[affine connection]], **Levi-Civita connection**, [[Cartan connection]]
+
+* [[connection on a 2-bundle]]
+
+* [[connection on an infinity-bundle]]
+
+  * [[higher parallel transport]]
+
+
+
 
 ## References
 
