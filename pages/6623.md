@@ -1,6 +1,24 @@
-The notion of well-founded coalgebra is due to Paul Taylor (with antecedents in the work of Gerhard Osius). Our account is largely based on Taylor's book, Practical Foundations of Mathematics (section 6.3), and on his paper [The General Recursion Theorem](#taylor), although in some cases we work with slightly different hypotheses. 
 
-Let $C$ be a [[finitely complete category]], and let $T$ be an endofunctor on $C$. We will suppose that $T$ preserves pullbacks of cospans in which one of the cospan arrows is [[monomorphism|monic]]; in particular, $T$ preserves monos. An example is the covariant power-set functor $P: Set \to Set$. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+The notion of _well-founded coalgebra_ is due to [[Paul Taylor]] (with antecedents in the work of Gerhard Osius). Our account is largely based on ([Taylor, section 6.3)](#Taylor99)), and on his paper [The General Recursion Theorem](#tTaylor96), although in some cases we work with slightly different hypotheses. 
+
+## Definition
+
+Let $C$ be a [[finitely complete category]], and let $T$ be an [[endofunctor]] on $C$. We will suppose that $T$ preserves [[pullbacks]] of [[cospans]] in which one of the cospan arrows is [[monomorphism|monic]]; in particular, $T$ preserves monos. An example is the covariant power-set functor $P: Set \to Set$. 
 
 +-- {: .un_def}
 ######Definition 
@@ -35,17 +53,19 @@ $$f: A \dashrightarrow B$$
 
 (generally without explicitly mentioning the domain $D$ of $f$), or sometimes by a harpoon notation. 
 
-## Example: well-founded relations 
+## Examples
 
-The prototype of the notion of well-founded coalgebra is a well-founded relation, which is essentially the same thing as a well-founded coalgebra over the covariant power-set functor $P: Set \to Set$. In brief, a binary relation $\prec$ on a set $X$ corresponds to a coalgebra $\theta: X \to P X$, by saying $y \prec x$ if and only if $y \in \theta(x)$. See [[well-founded relation]] for more information. 
+### Well-founded relations 
+
+The prototype of the notion of well-founded coalgebra is a well-founded [[relation]], which is essentially the same thing as a well-founded coalgebra over the covariant power-set functor $P: Set \to Set$. In brief, a binary [[relation]] $\prec$ on a set $X$ corresponds to a coalgebra $\theta: X \to P X$, by saying $y \prec x$ if and only if $y \in \theta(x)$. See [[well-founded relation]] for more information. 
 
 Most of the constructions of this article are well-illustrated by checking them against the background of this prototypical case. 
 
 ## Induction and recursion 
 
-"One _proves_ things by induction; one _defines_ things by recursion." This slogan is not mere pedantry; it is meant to underline a difference between these processes. 
+"One _proves_ things by [[induction]]; one _defines_ things by [[recursion]]." This slogan is not mere pedantry; it is meant to underline a difference between these processes. 
 
-A proof by induction, say a proof of a property or predicate $R(x)$ where $x$ varies over a domain $X$, proceeds by showing that the subobject $i: U \hookrightarrow X$ defined by $R$ is an inductive subset with respect to a relation on $X$. It follows that $R$ is universally true on $X$, if the relation is well-founded. The same idiom applies more generally to well-founded coalgebras. 
+A [[proof]] by induction, say a proof of a [[property]] or [[predicate]] $R(x)$ where $x$ varies over a domain $X$, proceeds by showing that the subobject $i: U \hookrightarrow X$ defined by $R$ is an inductive subset with respect to a relation on $X$. It follows that $R$ is universally true on $X$, if the relation is well-founded. The same idiom applies more generally to well-founded coalgebras. 
 
 A recursive construction on the other hand involves a _dependency_ on prior stages of the construction. A typical application is to define a map $f: X \to A$ by recursion with respect to a well-founded relation, where $f(x)$ is specified in three stages: 
 
@@ -71,8 +91,16 @@ However, notice that this set is defined by a construction in [[dependent type t
 
 It is nevertheless true that one can prove, in rather considerable generality, both an induction principle and recursion theorem for well-founded coalgebras; this will occupy us in the following sections. 
 
+## Related concepts
+
+* [[well-founded relation]]
+
 ## References 
 
-* Paul Taylor, Practical Foundations of Mathematics, Cambridge University Press (1999). 
+* [[Paul Taylor]], _Practical Foundations of Mathematics_ , Cambridge University Press (1999). 
+ {#Taylor99}
 
-* Paul Taylor, Towards a unified treatment of induction, I: the general recursion theorem (1996). ([pdf](http://www.paultaylor.eu/ordinals/towuti.pdf)){#taylor}
+* [[Paul Taylor]], _Towards a unified treatment of induction_ , I: the general recursion theorem (1996). ([pdf](http://www.paultaylor.eu/ordinals/towuti.pdf))
+ {#Taylor96}
+
+[[!redirects well-founded coalgebras]]
