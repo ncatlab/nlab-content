@@ -57,10 +57,14 @@ see [[homotopy Kan extension]]
 
 see [[homotopy Kan extension]]
 
+## Properties
+
 ### Pointwise 
  {#Pointwise}
 
-([Gonzales 11, around remark 4.2](#Gonzales11), [Hopkins-Lurie 14, section 4](#HopkinsLurie14))
+Something like [pointwise]() $(\infty,1)$-Kan extensions is discussed ([Hopkins-Lurie 14, section 4](#HopkinsLurie14)).
+
+See also at _[homtopy Kan extension -- Properties -- Pointwise](homotopy+Kan+extension#Pointwise)_.
 
 ## Related concepts
 
@@ -82,7 +86,13 @@ Pointwise and [[ambidextrous adjunction|ambidextrous]] $\infty$-Kan extensions a
 
 Pointwise [[homotopy Kan extensions]] are discussed in 
 
+* {#Radulescu-Banu06} Andrei Radulescu-Banu, _Cofibrations in Homotopy Theory_ ([arXiv:0610009](http://arxiv.org/abs/math/0610009))
+
+* {#Cisinski09} [[Denis-Charles Cisinski]], _Locally constant functors_, Math. Proc. Camb. Phil. Soc. (2009), 147, 593 ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/lcmodcat3.pdf))
+
 * {#Gonzales11} Beatriz Rodriguez Gonzalez, section 4 of _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
+
+
 
 See also
 
@@ -97,5 +107,3 @@ See also
 
 [[!redirects pointwise (infinity,1)-Kan extension]]
 [[!redirects pointwise (infinity,1)-Kan extensions]]
-
-
