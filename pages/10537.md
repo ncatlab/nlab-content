@@ -56,7 +56,7 @@ $$
     \\
     cohesion && 
     Smooth \infty Grpds
-    &\stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftrightarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}&
+    &\stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftrightarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}&
     \infty Grpds
     \\
     \\
@@ -82,7 +82,7 @@ $$
     {}^{\mathllap{Disc_{inf}}}\uparrow \downarrow^{\mathrlap{\Pi_{inf}}}
     \\
     cohesion && Smooth \infty Grpds
-    &\stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftrightarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}&
+    &\stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftrightarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}&
     \infty Grpds
     \\
      && diff.\;cohesion && inf.\;cohesion
