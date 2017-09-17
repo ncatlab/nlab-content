@@ -133,6 +133,16 @@ $$
 
 =--
 
+## Related concepts
+
+* [[null homotopy]]
+
+## References
+
+Section 1.4 of 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
 [[!redirects cochain homotopy]]
 [[!redirects chain homotopies]]
 [[!redirects cochain homotopies]]
