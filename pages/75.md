@@ -27,9 +27,9 @@ There are two different attitudes to what a desirable or interesting foundation 
 
 1. In **proof-theoretic foundations** the emphasis is on seeing which formal systems, however convoluted they may be conceptually, allow us to formalize and prove which [[theorems]]. 
 
-   The archetypical such system is [[ZFC]] [[set theory]]. Other formal systems of interest here are [[elementary function arithmetic]] and [[second order arithmetic]], because they are [[proof theory|proof-theoretically]] weak, and still can derive "almost all of undergraduate mathematics" ([Friedman](#Friedman)).
+   The archetypical such system is [[ZFC]] [[set theory]]. Other formal systems of interest here are [[elementary function arithmetic]] and [[second order arithmetic]], because they are [[proof theory|proof-theoretically]] weak, and still can derive "almost all of undergraduate mathematics" ([Harrington](#Harrington)).
 
-1. In **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in [[Foundations of Algebraic Topology]]. (See also ([Harper](#Harper)).)
+1. In **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in ([Eilenberg-Steenrod](#EilenbergSteenrod), [Harper](#Harper)).
 
    Formal systems of interest here are [[ETCS]] or flavors of [[type theory]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
 
@@ -113,19 +113,32 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 ## References
 
-* [[Harvey Friedman]], ...
-  {#Friedman}
+* L. A. Harrington (ed.), _Harvey Friedman's Research on the Foundations of Mathematics_, Studies in Logic and the Foundations of Mathematics (2012)
+ {#Harrington}
+
+
 
 * [[Bill Lawvere]], _Foundations and applications: axiomatization and education_, Bulletin of Symbolic Logic 9 (2003), 213-224 ([ps](http://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
  {#Lawvere}
 
+Practical foundations in terms of [[type theory]] language are laid out in
+
 * [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
 {#Taylor}
+
+Under [[computational trinitarianism]] this corresponds to a practical foundation in [[program|programming]], laid out in
 
 *  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 {#Harper}
 
-* some old discussions from this page archived [here](http://nforum.mathforge.org/discussion/4172/foundation-of-mathematics/?Focus=33992#Comment_33992)
+A foundation for [[algebraic topology]] is this practical spirit is laid out in 
+
+* [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
+  {#EilenbergSteenrod}
+
+***
+
+Some old discussions from this page archived [here](http://nforum.mathforge.org/discussion/4172/foundation-of-mathematics/?Focus=33992#Comment_33992)
 
 
 
