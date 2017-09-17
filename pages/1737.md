@@ -17,9 +17,15 @@ Together with its [[type theory]] and [[category theory]], computer science is p
 
 * [[domain theory]]
 
+* [[equilogical space]]
+
 ### Some Theoretical Computer Scientists (with (eventually) pages in the nLab!)
 
 *  [[Joseph Goguen]];
+
+* [[Lars Birkedal]];
+
+* [[Andrej Bauer]];
 
 * [[Dana Scott]];
 
