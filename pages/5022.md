@@ -6,6 +6,8 @@
 ## Frames in Modal Logics ## 
 (The term **frame** is used in a different sense in [[modal logic]] than in [[geometric logic]] where it stands for an abstraction of the algebraic structure corresponding to the [[lattice]] of [[open sets]] of a [[topological space]]; see [[frame]].)
 
+###Frames in Monomodal Logics
+
 We will start with the simplest case, namely a frame for the basic [modal language](/nlab/show/modal+logic#modal+language), $\mathcal{L}_\omega(1)$, (so with _one_ _binary_ modal operator, denoted $\Diamond$).
 
 +--{: .un_defn}
@@ -17,7 +19,11 @@ A _frame_ for $\mathcal{L}_\omega(1)$ is a pair $\mathfrak{F} = (W,R)$ with $W$ 
 The terminology often used refers to $W$ as the set of possible worlds.  Its elements are sometimes called _worlds_, sometimes _states_, sometimes _points_, depending on the context and the whim of the writer.
 
 ## Models in Modal Logics ## 
-To give the standard (geometric) semantics of modal logics one needs the models.  Again we look at the basic model language.
+To give the standard (geometric) semantics of modal logics one needs the models.  
+
+###Models in Monomodal Logics###
+
+Again we look at the basic model language.
 
 +--{: .un_defn}
 ######Definition ######
