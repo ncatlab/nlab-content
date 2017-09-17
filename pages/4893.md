@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -259,7 +258,7 @@ See also [[higher category theory and physics]].
 
 The discussion of transformations between 2d FQFTs and how these encode boundary 1-[[brane]]s and defect 1-[[bi-brane]]s is in
 
-* [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
+* [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([[SchommerPriesDefects.pdf:file]])
 {#SchommerPries}
 
 from slide 65 on.
