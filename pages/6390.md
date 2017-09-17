@@ -68,6 +68,8 @@ That some [[particle]]s have a property called [[spinor|spin]] was found in 1922
 
   * [[string]], [[spinning string]], [[superstring]]
 
+    [string theory FAQ -- Does string theory predict supersymmetry?](string%20theory%20FAQ#DoesSTPredictSupersymmetry)
+
   * [[membrane]]
 
 
