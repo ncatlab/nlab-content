@@ -253,6 +253,7 @@ together with the map `inl`, `inr` and the homotopy `glue`.
  {#References}
 
 ### Introductions
+ {#Introductions}
 
 Introductions to the idea of homotopy type theory include
 
