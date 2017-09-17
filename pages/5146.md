@@ -70,10 +70,57 @@ which satisfy the identities that hold for the Whitehead products and compositio
 
    * a left action of $A_1$ on the $A_n$, $n\gt 1$, which commutes with these operations.
 
+The [[Whitehead products]] include
+
+   * $[\xi,a] = {}^\xi a - a$, where ${}^\xi a$ is the result of the $A_1$-action of $\xi \in A_1$ on $a\in A_r$, $r\gt 1$; similarly for a right action;
+
+   * the commutators $[a,b] = aba^{-1]b^{-1}$, for $a,b \in A_1$.
+
+## The homotopy $\Pi$-algebra of a pointed topological space.
+
+For a pointed space $X$, and $U \in \Pi$, define $\pi_* X = [U,X]_*$, the set of pointed homotopy classes of pointed maps from $U$ to $X$.
+
+This is a $\Pi$-algebra called the **homotopy $\Pi$-algebra** of $X$.
+
+
+##The realisability problem
+
+Suppose $A: \Pi \to sets_*$ is an abstract $\Pi$-algebra, the **realisability problem** for $A$ is to construct, if possible, a pointed space $X$, such that $A\simeq \pi_* X$.  The space $X$ is called a _realisation_ of $A$.
+
+Things can be complicated!
+
+1.  The homotopy type of $X$ is not be determined by $A$ (hence 'a' rather than 'the" realisation) , so that raises the additional problem of classifying the realisations.
+
+1. Not all $\Pi$-algebras can be reaised, in fact
+
+####Theorem (Blanc 1995)
+
+Given a $\Pi$-algebra, $A$, there is a sequence of [[higher homotopy operation]]s depending only on maps between wedges of spheres, such that $A$ is realisable if and only if the operations vanish coherently.
+
+####Example (Blanc 1995)
+
+For $p\neq 2$, a prime and $r\geq 4(p-1)$, $\pi_*S^r \otimes \mathbb{Z}/p$ cannot be realised (and if $p = 2$, one uses $r\geq 6).
+
+(There is a problem, discussed in Blanc's 1995 paper, that the composition operations need not be 
+homomorphisms, so tensoring with $\mathbb{Z}/p$ has to be interpreted carefully.)
+
+
+
+
 ## References
 
 * C.R. Stover, _A Van Kampen spectral sequence for higher homotopy groups_, Topology 29 (1990) 9 - 26.
 
-[[David Blanc]] has published a lot on these objects. An example is
+[[David Blanc]] has written a lot on these objects. An example is
 
 * [[David Blanc]], _Loop spaces and homotopy operations_, Fund. Math. 154 (1974) 75 - 95.
+
+The realisability problem is discussed in 
+
+* [[David Blanc]], _Higher homotopy operations and the realizability of homotopy groups_, Proc.  London Math. Soc. (3) 70 (19950 214 -240,
+
+and further in 
+
+*  [[David Blanc]], _Algebraic invariants for homotopy types_, Math. Proc. Camb. Phil. Soc. 127 (3)(1999) 497 - 523. (preprint version on the [ArXiv](http://arxiv.org/abs/math/9812035).)
+
+There are more recent results on the realisability problem in Martin Frankland's [thesis](http://www.math.uiuc.edu/~franklan/Frankland_Thesis_20100513.pdf).  
