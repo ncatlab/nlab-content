@@ -1,0 +1,45 @@
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The height of a [[variety]] should reflect how close the variety is to being ordinary and other arithmetic properties.
+
+
+## Definition
+
+Let $X$ be a smooth proper $n$ dimensional variety over an algebraically closed field $k$ of characteristic $p$. Then one can define the [[Artin-Mazur formal group]] $\Phi$. Since it is a one-dimensional formal group, it is completely determined up to isomorphism by its height. This is the height of the variety. The height could be infinite if $\Phi\simeq \widehat{\mathbb{G}_a}$, otherwise $\Phi$ is a $p$-divisible group.
+
+
+
+### Examples
+
+For an elliptic curve, the height is either $1$ in which case it is ordinary, or $2$ in which case it is supersingular.
+
+A [[Calabi-Yau variety]] of any dimension is ordinary if and only if it has height $1$. For K3 surfaces the height is less than or equal to $10$ or infinite, but for all higher dimensional Calabi-Yau varieties the height has no known bound. Infinite height Calabi-Yau varieties are known as supersingular.
+
+The height of an [[abelian variety]] depends on its $p$-rank, but must be $1$, $2$, or infinite.
+
+
+## Relation to Witt cohomology
+
+
+## Relation to Crystalline Cohomology
+
+
+
+## Related concepts
+
+* [[formal group]]
+
+* [[Artin-Mazur formal group]]
+
+## References
+
+Artin, M. and B. Mazur, <a href="archive.numdam.org/article/ASENS_1977_4_10_1_87_0.pdf">Formal Groups Arising from Algebraic Varieties</a>
+
+
