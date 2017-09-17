@@ -35,7 +35,7 @@ Finding the higher analog of the [[string orientation of tmf]] for these higher 
 Here we will not present solutions to these rather deep questions. But we do want to discuss something that looks like steps in the right direction.
 
 
-## Overfview
+## Overview
 
 Notice that the idea of "inter-geometric theory" is ancient, it originates with the [[synthetic geometry]] of Euclid which, with the parallel axiom removed, subsumes Euclidean, spherical and hyperbolic geometry. The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[differential geometry]] is not as ancient, but far from new, this is known as _[[synthetic differential geometry]]_. For the kinds of applications as mentioned above we need something a bit more expressive, we consider _[[differential cohesion|differentially]] [[cohesive (infinity,1)-topos|cohesive homotopy theory]]_.
 
@@ -105,7 +105,7 @@ $$
     \\
     [\flat^{rel} \Pi^{rel}_{dR}  X, C]
     && &&
-    X 
+    [X,C] 
     & 
     \\
     & \nwarrow && \swarrow && &
