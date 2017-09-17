@@ -12,4 +12,6 @@ A **connection** can mean
 
 * [[connection for a coring]]
 
+* [[meromorphic connection]]
+
 [[!redirects connections]]
