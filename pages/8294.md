@@ -66,7 +66,7 @@ In [[categorical semantics]] this means that the space of solutions to an equati
 $$
   \array{
     \sum_{{x : X} \atop {y : Y}} (\phi(x) = \psi(y))
-    &\to& X
+    &\to& Y
     \\
     \downarrow && \downarrow^{\mathrlap{\psi}}
     \\
