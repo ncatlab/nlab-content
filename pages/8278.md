@@ -34,7 +34,7 @@ Let $\mathcal{T}$ be a [[triangulated category]] with [[coproducts]]. Then $\mat
 
 1. All objects in $\mathcal{G}$ are [[compact object|compact]] i.e. for all $G \in \mathcal{G}$ and for every family $\{ X_i \mid i \in I\}$ of objects of $\mathcal{T}$
 $$
-\coprod_{i \in I} \mathcal{T}(G, X_i) \to \mathcal{T}(C,\coprod_{i \in I} X_i)
+\coprod_{i \in I} \mathcal{T}(G, X_i) \to \mathcal{T}\Big(C,\coprod_{i \in I} X_i\Big)
 $$
 is an [[isomorphism]].
 
