@@ -15,17 +15,88 @@
 
 ## Idea
 
-For $0 \to A \to B \to C \to 0$ a [[short exact sequence]] of [[cochain complexes]] in an [[abelian category]] $\mathcal{A}$, the corresponding [[cohomology long exact sequence]]
+Generally, a _connecting homomorphism_ is a [[morphism]] of the kind produced by the [[snake lemma]]. 
+
+Specifically, when the [[double complex]] that goes into the snake lemma is regarded as part of a [[short exact sequence]] $A_\bullet \to B_\bullet \to C_\bullet$ of [[chain complexes]], then the connecting homomorphisms induce morphisms $\delta_n : H_n(C) \to H_{n-1}(A)$ on the [[homology groups]] of these chain complexes which exhibit the corresponding [[long exact sequence in homology]] of the form
 
 $$
-  \cdots \to H^n(A) \to H^n(B) \to H^n(C) \stackrel{\delta}{\to} H^{n+1}(A) \to H^{n+1}(B) \to H^{n+1}(C) \to \cdots
+  \cdots
+   \to
+  H_n(A) \to H_n(B) \to H_n(C) 
+   \stackrel{\delta_n}{\to}
+  H_{n-1}(A) \to H_{n-1}(B) \to H_{n-1}(C)   
+   \to
+  \cdots
+  \,.
 $$
 
-has in every third step a morphism $\delta$ that shifts cohomological degree. This is called a _connecting homomorphism_ . 
+This long exact sequence is the image under [[chain homology]]
 
-If $\mathcal{A}$ is [[Freyd-Mitchell embedding theorem|realized]] as some $R$[[Mod]], then the connecting homomorphism is explicitly constructed as follows:
+$$
+  H_0(-) : Ch_\bullet(\mathcal{A}) \to \mathcal{A}
+$$
 
-for $[c]_C \in H^n(C)$ the class of a closed element $c$, by surjectivity of $B \to C$ there is an element $\hat c \in B$ mapping to it. This need not be closed anymore, but of course $d_B \hat c$ is. By the fact that $B \to C$ is a chain map we have that the image of $d_B \hat c$ in $B$ vanishes. Therefore by the exactness of the sequence the element $d_B \hat c$ may be regarded as a closed element of $A$. The cohomology class $[d_B \hat c]_A$ of this is what the connecting homomorphism assigns to $[c]_C$:
+of the long [[homotopy fiber sequence]] of chain complexes induced by the short exact sequence. Hence the connecting homomorphism is the image under $H_\bullet(-)$ of a [[mapping cocone]] inclusion on chain complexes.
+
+
+## Description for long homology exact sequences 
+
+The construction of the connecting homomorphism is easily described in terms of elements in the case that $\mathcal{A} \simeq R$[[Mod]] for some [[ring]] $R$, see [In terms of elements](#OnHomologyInTermsOfElements) below. By the [embedding theorems](abelian%20category#EmbeddingTheorems) the general case can be reduced to this case. But there is also an abstract construction without recourse to elements, see the [General abstract construction](#OnHomologyGeneralAbstract) below.
+
+### In terms of elements
+ {#OnHomologyInTermsOfElements}
+
+Let $R$ be a [[commutative ring]] and let $\mathcal{A} = R$[[Mod]]. Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] in $\mathcal{A}$.
+
+Let
+
+$$
+  0 \to A_\bullet \stackrel{i}{\to} B_\bullet \stackrel{p}{\to}  C_\bullet \to 0
+$$
+
+be a [[short exact sequence]] in $Ch_\bullet(\mathcal{A})$.
+
++-- {: .num_defn #ConnectingForHomologyInComponents}
+###### Definition
+
+For $n \in \mathbb{Z}$, define a map
+
+$$
+  \delta_n : H_n(C) \to H_{n-1}(A)
+$$
+
+by sending
+
+$$
+  \delta_n : [c] \mapsto \widehat{[\partial^B \hat c]}
+  \,,
+$$
+
+where 
+
+1. $c \in Z_n(C)$ is a [[cycle]] representing a given [[homology group]]; 
+
+1. $\hat c \in C_n(B)$ is any lift of that cycle to an element in $B_n$, which exists because $p$ is a [[surjection]] (but which no longer needs to be a cycle itself);
+
+1. $\widehat{[\partial^B \hat c]}$ is any lift of $\partial^B \hat c$ to $C_{n-1}(A)$, which exists uniquely by exactness (since $p(\partial^B \hat c) = \partial^C p(\hat c) = \partial^C c = 0$) and which is indeed in $Z_{n-1}(A)$ since $\partial^A \widehat{[\partial^B \hat c]} = \partial^B \partial^B \hat c = 0$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Def. \ref{ConnectingForHomologyInComponents} is indeed well in that 
+the given map is independent of the choices involved.
+
+=--
+
+
+Similarly in cohomology:
+
++-- {: .num_defn}
+###### Definition
+
+For $[c]_C \in H^n(C)$ the class of a closed element $c$, by surjectivity of $B \to C$ there is an element $\hat c \in B$ mapping to it. This need not be closed anymore, but of course $d_B \hat c$ is. By the fact that $B \to C$ is a chain map we have that the image of $d_B \hat c$ in $C$ vanishes. Therefore by the exactness of the sequence the element $d_B \hat c$ may be regarded as a closed element of $A$. The cohomology class $[d_B \hat c]_A$ of this is what the connecting homomorphism assigns to $[c]_C$:
 
 $$
   \delta : [c]_C \mapsto [d_B\hat c]_A
@@ -34,8 +105,10 @@ $$
 
 This is indeed well defined, in that it is independent of the choice of $\hat c$: for $\hat c'$ another choice, we have that the difference $\hat c - \hat c'$ is in the kernel of $B \to C$ hence is in $A$. Then $d_B \hat c' = d_B \hat C + d_A(\hat c - \hat c')$. Hence $[d_B \hat c]_A = [d_B \hat c']_A$.
 
+=--
 
-## Statement
+### General abstract
+ {#OnHomologyGeneralAbstract}
 
 +-- {: .num_theorem}
 ###### Theorem
