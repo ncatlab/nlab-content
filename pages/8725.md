@@ -42,6 +42,8 @@ An [[∞-group]] $G$ is _braided_ if it is equipped with the following equivalen
 
 * [[braided 2-group]]
 
+* [[abelian ∞-group]]
+
 [[!redirects braided ∞-group]]
 [[!redirects braided ∞-groups]]
 [[!redirects braided infinity-groups]]
