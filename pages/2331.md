@@ -178,9 +178,9 @@ Over a field of characteristic zero, there is an approach to deformation theory 
 
 In this approach, one begins with an object $X$ (for example a scheme, or a complex manifold, or a vector bundle, or an associative algebra, or a dg category, or ...) that one would like to deform. Then the general principle is that there exists a dgLa $L_X$ with the property that the functor $Def_{L_X} : Art \to Set$, which sends a local Artin algebra $(A,m)$ to the set of [[Maurer-Cartan equation|Maurer-Cartan solutions]] in $(L_X \otimes m)^1$ modulo the gauge action of $(L_X \otimes m)^0$, is isomorphic to the functor which sends a local Artin algebra $(A,m)$ to the set of isomorphism classes of deformations of $X$ over $\operatorname{Spec} A$. Note the similarity with Schlessinger's theory: both here and in Schlessinger's work, we deal with functors from Artin algebras to sets.
 
-In the case of a compact complex manifold, the dgLa in question is given by the so-called Kodaira-Spencer dgLa: holomorphic vector fields tensor $(0,q)$-forms (this is just the [[Dolbeault cohomology|Dolbeault resolution]] of the sheaf of holomorphic vector fields). In the case of an associative algebra (or a dg algebra, or an A-infinity algebra, or a dg category, or an A-infinity category), the appropriate dgLa is the Hochschild complex with the Hochschild differential and the Gerstenhaber bracket.
+In the case of a compact complex manifold, the dgLa in question is given by the so-called [[Kodaira-Spence theory|Kodaira-Spencer]] dgLa: holomorphic vector fields tensor $(0,q)$-forms (this is just the [[Dolbeault cohomology|Dolbeault resolution]] of the sheaf of holomorphic vector fields). In the case of an associative algebra (or a dg algebra, or an A-infinity algebra, or a dg category, or an A-infinity category), the appropriate dgLa is the Hochschild complex with the Hochschild differential and the Gerstenhaber bracket.
 
-In this language, the [[Tian-Todorov theorem]] on the unobstructedness of deformations of [[Calabi-Yau manifold]]s translates to the statement that the Kodaira-Spencer dgLa of a Calabi-Yau manifold is homotopy abelian --- that is, it is quasi-isomorphic to an abelian dg Lie algebra. Barannikov-Kontsevich proved more generally that the dgLa given by holomorphic polyvector fields tensor $(0,q)$-forms on a Calabi-Yau manifold is homotopy abelian. The deformation-theoretic consequence is that the "extended deformations" of Calabi-Yau manifolds are unobstructed. These "extended deformations" should be realized by certain $A_\infty$ deformations of (a dg enhancement of) the derived category of coherent sheaves on the Calabi-Yau.
+In this language, the [[Tian-Todorov theorem]] on the unobstructedness of deformations of [[Calabi-Yau manifold]]s translates to the statement that the [[Kodaira-Spencer theory|Kodaira-Spencer]] dgLa of a Calabi-Yau manifold is homotopy abelian --- that is, it is quasi-isomorphic to an abelian dg Lie algebra. Barannikov-Kontsevich proved more generally that the dgLa given by holomorphic polyvector fields tensor $(0,q)$-forms on a Calabi-Yau manifold is homotopy abelian. The deformation-theoretic consequence is that the "extended deformations" of Calabi-Yau manifolds are unobstructed. These "extended deformations" should be realized by certain $A_\infty$ deformations of (a dg enhancement of) the derived category of coherent sheaves on the Calabi-Yau.
 
 The following paper is a good introduction to these ideas:
 
@@ -192,6 +192,8 @@ The Kontsevich and Soibelman references below are also good.
 ## Related entries 
 
 * [[Kuranishi deformation theory]]
+
+* [[Kodaira-Spencer theory]]
 
 * [[tangent complex]], [[André-Quillen cohomology]], [[Hochschild cohomology]]
 
