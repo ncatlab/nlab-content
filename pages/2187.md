@@ -18,7 +18,7 @@ A **subfunctor** is a [[subobject]] in a [[functor category]].
 
 A subfunctor of a [[functor]] $G:C\to D$ between [[categories]] $C$ and $D$ is a pair $(F,i)$ where $F:C\to D$ is a functor and $i:F\to G$ is a [[natural transformation]] such that its components $i_M:F(M)\to G(M)$ are [[monomorphism|monic]]. 
 
-In fact one often by a subfunctor means just an equivalence class of such monic natural transformations; compare [[subobject]].
+In fact one often by a subfunctor means just an [[equivalence class]] of such monic natural transformations; compare [[subobject]].
 
 A subfunctor is also called a **sub[[presheaf]]** . A subfunctor of a [[representable functor]] $Hom(-,x)$ is precisely a [[sieve]] over the representing object $x$.
 
