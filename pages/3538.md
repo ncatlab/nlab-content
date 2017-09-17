@@ -11,17 +11,17 @@ We can form a category __$Clique(C)$__ whose objects are cliques of $C$, and who
 
 ## Applications ## 
 
-#### Objects with universal properties ####
+### Objects with universal properties ###
 
 Many [[universal properties]] that are commonly considered as defining "an object" actually define a clique.  For example, given two objects $a$ and $b$ of a category $C$, their [[cartesian product]] can be considered as the clique $T\to C$, where $T$ is the indiscrete category whose objects are product diagrams $a \overset{\leftarrow}{p} c \overset{\to}{q} b$, and where the functor $T\to C$ sends each such diagram to the object $c$ and each morphism to the unique comparison isomorphism between two cartesian products.  Note that unlike "the product" of $a$ and $b$ considered as a single object, this clique is defined without making any arbitrary choices.  This of course is the same philosophy which leads to [[anafunctors]], and so cliques are closely related to anafunctors.
 
-#### Cliques and Anafunctors ####
+### Cliques and Anafunctors ###
 
 There is an obvious [[anafunctor]] from $Clique(C)$ into $C$, through which every other anafunctor into $C$ factors in an essentially unique way into a genuine functor. This induces for $Clique(-)$ the structure of a (2-)monad on $Str Cat$ (the (2-)category of "genuine" functors between categories), such that the Kleisli category for this monad will be $Cat_{ana}$ (the (2-)category of anafunctors between categories).  This monad can also be described more explicitly; in particular the unit (a "genuine" functor) $C\to Clique(C)$ takes each object $c\in C$ to the corresponding clique $c\colon 1\to C$ defined on the domain $1$.  Note that this functor is a [[weak equivalence]], i.e. fully faithful and essentially surjective on objects, but not a strong equivalence unless one assumes the [[axiom of choice]].
 
 In particular, we can use cliques to *define* anafunctors, taking an anafunctor from $C$ into $D$ to simply be a genuine functor from $C$ into $Clique(D)$. (With composition of these defined in a straightforward way, and natural transformations between these being simply natural transformations of the corresponding genuine functors into $Clique(D)$). Accordingly, $Clique(-)$ is itself the same as $Cat_{ana}(1, -)$, and this can also be taken as a definition of a clique (hence the alternate name *anaobject*).
 
-#### Monoidal strictifications #### 
+### Monoidal strictifications ### 
 
 Unsurprisingly, cliques provide a useful technical device for describing strictifications of [[monoidal category|monoidal categories]]. 
 
