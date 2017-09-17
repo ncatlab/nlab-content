@@ -27,7 +27,7 @@ Historically,  the motivating example had been $(\infty,1)$ category [[Top]] of 
 
 ## Presentations ##
 
-A convenient, powerful, and traditional way to deal with $(\infty,1)$-categories is to "present" them by 1-categories with specified classes of morphisms called _[[weak equivalence|weak equivalences]]_ : a [[category with weak equivalences]] or [[homotopical category]].  The idea is as follows.  Given a category $C$ with a class $W$ of weak equivalences, we can form its **[[homotopy category]]** or **[[calculus of fractions|category of fractions]]** $C[W^{-1}]$ by adjoining formal inverses to all the morphisms in $W$.  The [[simplicial localization|(∞,1)-category presented by]] $(C,W)$" can be thought of as the result of regarding $C$ as an $\infty$-category with only identity $k$-cells for $k\gt 1$, then adjoining formal inverses to morphisms in $W$ in the $\infty$-categorical sense; that is, making them into [[equivalence|equivalences]] rather than isomorphisms.  It is remarkable that most $(\infty,1)$-categories that arise in mathematics can be presented in this way.
+A convenient, powerful, and traditional way to deal with [[(∞,1)-categories]] is to "present" them by 1-categories with specified classes of morphisms called _[[weak equivalence|weak equivalences]]_ : a [[category with weak equivalences]] or [[homotopical category]].  The idea is as follows.  Given a category $C$ with a class $W$ of weak equivalences, we can form its **[[homotopy category]]** or **[[calculus of fractions|category of fractions]]** $C[W^{-1}]$ by adjoining formal inverses to all the morphisms in $W$.  The [[simplicial localization|(∞,1)-category presented by]] $(C,W)$" can be thought of as the result of regarding $C$ as an $\infty$-category with only identity $k$-cells for $k\gt 1$, then adjoining formal inverses to morphisms in $W$ in the $\infty$-categorical sense; that is, making them into [[equivalence|equivalences]] rather than isomorphisms.  It is remarkable that most $(\infty,1)$-categories that arise in mathematics can be presented in this way.
 
 As with presentations of [[group]]s and other algebraic structures, very different presentations can give rise to equivalent $(\infty,1)$-categories.  For example, several different presentations of the $(\infty,1)$-category of $\infty$-groupoids are:
 
@@ -40,7 +40,7 @@ As with presentations of [[group]]s and other algebraic structures, very differe
 
 The latter three can hence be regarded as providing "combinatorial models" for the homotopy theory of topological spaces.
 
-## Model Categories ##
+### Model Categories 
 
 The value of working with presentations of $(\infty,1)$-categories rather than the $(\infty,1)$-categories themselves is that the presentations are ordinary 1-categories, and thus much simpler to work with.  For instance, ordinary limits and colimits are easy to construct in the category of topological spaces, or of simplicial sets, and we can then use these to get a handle on $(\infty,1)$-categorical limits and colimits in the $(\infty,1)$-category of $\infty$-groupoids.  However, we always have to make sure that we use only 1-categorical constructions that are _homotopically meaningful_, which essentially means that they induce $(\infty,1)$-categorical meaningful constructions in the presented $(\infty,1)$-category.  In particular, they must be invariant under weak equivalence.
 
@@ -50,14 +50,14 @@ Unlike the weak equivalences, which determine the "homotopy theory" and the $(\i
 
 In a model category, a morphism which is both a fibration and a weak equivalence is called an **acyclic fibration** or a **trivial fibration**.  Dually we have **acyclic** or **trivial cofibrations**. An object $X$ is called **cofibrant** if the map $0\to X$ from the initial object to $X$ is a cofibration, and **fibrant** if the map $X\to 1$ to the terminal object is a fibration.  The axioms of a model category ensure that for every object $X$ there is an acyclic fibration $Q X \to X$ where $Q X$ is cofibrant and an acyclic cofibration $X\to R X$ where $R X$ is fibrant.
 
-## Model Categories of Categories ##
+### Examples 
 
 For a (higher) category theorist, the following examples of model categories are perhaps the most useful to keep in mind.
  * $C=$ sets, $W=$ isomorphisms.  _All_ morphisms are both fibrations and cofibrations.  The $(\infty,1)$-category presented is again the 1-category $Set$.
  * $C=$ categories, $W=$ equivalences of categories.  The cofibrations are the functors which are injective on objects, and the fibrations are the [[isofibration|isofibrations]].  The acyclic fibrations are the equivalences of categories which are literally surjective on objects.  Every object is both fibrant and cofibrant.  The $(\infty,1)$-category presented is the 2-category $Cat$.  This is often called the _folk model structure_.
  * $C=$ (strict) 2-categories and (strict) 2-functors, $W=$ 2-functors which are [[equivalence of categories|equivalences of bicategories]].  The fibrations are the 2-functors which are isofibrations on hom-categories and have an equivalence-lifting property.  Every object is fibrant; the cofibrant 2-categories are those whose underlying 1-category is freely generated by some directed graph.  The $(\infty,1)$-category presented is the (weak) 3-category $2Cat$.  This model structure is due to Steve Lack.
 
-## Generalized Morphisms ##
+### Generalized Morphisms 
 
 The morphisms from $A$ to $B$ in the $(\infty,1)$-category presented by $(C,W)$ are zigzags
 $
@@ -78,15 +78,13 @@ Often it suffices to consider even shorter zigzags of the form $\stackrel{\simeq
 
 If $X$ is cofibrant and $Y$ is fibrant, then every generalized morphism from $X$ to $Y$ is equivalent to an ordinary morphism.  For example, if $X$ is a cofibrant 2-category, then every pseudofunctor $X\to Y$ is equivalent to a strict 2-functor $X\to Y$
 
-## Quillen Equivalences ##
+### Quillen Equivalences 
 
 Quillen also introduced a highly structured notion of equivalence between model categories, now called a [[Quillen equivalence]], which among other things ensures that they present the same $(\infty,1)$-category.  Quillen equivalences are now being used to compare different definitions of higher categories.
 
 ## Related concepts ##
 
 * [[equivariant homotopy theory]]
-
-* The [[model structure on crossed complexes]] gives an alternative approach to $\infty$-[[infinity-groupoid|groupoids]].
 
 * [[algebraic homotopy]]: In his talk at the 1950 ICM in Harvard, [[Henry Whitehead]] introduced the idea of [[algebraic homotopy]] theory and said
 
@@ -95,6 +93,8 @@ _"The ultimate aim of algebraic homotopy is to construct a purely
   way that 'analytic' is equivalent to 'pure' projective geometry."_
 
 This theme has been taken up more recently by Baues, using a type of abstract homotopy theory closely related to Ken Brown's [[category of fibrant objects|categories of fibrant objects]].  Whitehead's own work was extended by Ronnie Brown and Phil Higgins, see [[nonabelian algebraic topology]].
+
+A formalization of homotopy theory in terms of [[Martin-Löf dependent type theory]] is _[[homotopy type theory]]_.
 
 ## References ##
 
