@@ -4,4 +4,6 @@
 
 * links to [coursenotes](http://people.math.jussieu.fr/~schapira/lectnotes)
 
+[[!redirects P. Schapira]]
+
 category:people
