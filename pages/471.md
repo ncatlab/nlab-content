@@ -679,7 +679,7 @@ See [[A1-homotopy theory]].
 
 +-- {: .query}
 
-> [[Urs Schreiber]]: this is really old discussion by now. We might want to start putting dates on discussions. In principle it can be seen from the entry history, but readers glancing at this here hardly will. Maybe discussions like this here are better had at the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/) after all.
+> [[Urs Schreiber]]: this is really old discussion by now. We might want to start putting dates on discussions. In principle it can be seen from the entry history, but readers glancing at this here hardly will. Maybe discussions like this here are better had at the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) after all.
 
 We had originally started discussing the notion of interval objects at [[homotopy]] but then moved it to this entry here. The above entry grew out of the following discussion we had, together with discussion at [[Trimble n-category]].
 
