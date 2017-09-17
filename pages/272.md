@@ -113,6 +113,8 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
     * [[local net of observables]]
 
+    * [[quantum lattice systems]]
+
   * [[FQFT]]
 
 
