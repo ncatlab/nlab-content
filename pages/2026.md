@@ -19,6 +19,7 @@ Every affine subscheme of a locally noetherian scheme is the spectrum of a noeth
 =--
 * Springer eom: [Noetherian scheme](http://eom.springer.de/n/n066860.htm)
 
+category: algebraic geometry
 [[!redirects locally noetherian scheme]]
 [[!redirects locally noetherian schemes]]
 [[!redirects locally Noetherian scheme]]
