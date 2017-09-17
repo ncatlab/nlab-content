@@ -22,7 +22,43 @@
 
 In [[quantum field theory]] what has come to be known as the _holographic principle_ is the fact that the [[partition function]]s of some [[quantum field theories]] of [[dimension]] $n$ may be identified with [[state]] of QFTs in dimension $n + 1$:
 
-### For higher Chern-Simons/self dual gauge theory
+
+
+## Examples
+
+### Poisson $\sigma$-model / quantum mechanics
+
+Ordinary [[quantum mechanics]] induced by [[quantization]] of a [[Poisson manifold]] -- which may be regarded as a 1-dimensional QFT -- is holographically dual to the 2-dimensional [[Poisson sigma-model]] 
+(implicitly observed by ([Kontsevich](#Kontsevich)) made explicit by ([CattaneoFelder](#CattaneoFelder)).
+
+### A-model / quantum mechanics
+
+Similarly the [[A-model]] on certain [[D-brane]]s gives a holographic description of ordinary [[quantum mechanics]]. ([Witten](#WittenAModel)).
+
+See
+
+* [[quantization via the A-model]]
+
+### Chern-Simons theory / WZW-model
+
+3-dimensional Chern-Simons theory for a group $G$ is holographically dual to the 2-dimensional [[WZW-model]].
+
+### Higher dimensional Chern-Simons theory / Self-dual higher gauge theory
+ {#HigherDimCSAndSelfDualQFT}
+
+#### Idea and examples
+
+Generally, [[higher dimensional Chern-Simons theory]]
+in dimension $4k+3$ (for $k \in \mathbb{N}$) is holographically related to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case). 
+
+* $(k=0)$: ordinary 3-dimensional [[Chern-Simons theory]] is related to a [[string]] [[sigma-model]] on its boundary;
+
+* $(k=1)$: 7-dimensional Chern-Simons theory is related to a [[fivebrane]] model on its boundary;
+
+* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
+
+
+#### Some details
 
 We indicate why [[higher dimensional Chern-Simons theory]] is -- if holographically related to anything -- holographically related to [[self-dual higher gauge theory]].
 
@@ -102,36 +138,6 @@ Therefore indeed the symplectic pairing vanishes on the self-dual and on the ant
 Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be thought of as a function of the self-dual forms on $\Sigma$. Under holography this is (therefore) identified with the [[correlator]] of a [[self-dual higher gauge theory]] on $\Sigma$.
 
 (...)
-
-## Examples
-
-### Poisson $\sigma$-model / quantum mechanics
-
-Ordinary [[quantum mechanics]] induced by [[quantization]] of a [[Poisson manifold]] -- which may be regarded as a 1-dimensional QFT -- is holographically dual to the 2-dimensional [[Poisson sigma-model]] 
-(implicitly observed by ([Kontsevich](#Kontsevich)) made explicit by ([CattaneoFelder](#CattaneoFelder)).
-
-### A-model / quantum mechanics
-
-Similarly the [[A-model]] on certain [[D-brane]]s gives a holographic description of ordinary [[quantum mechanics]]. ([Witten](#WittenAModel)).
-
-See
-
-* [[quantization via the A-model]]
-
-### Chern-Simons theory / WZW-model
-
-3-dimensional Chern-Simons theory for a group $G$ is holographically dual to the 2-dimensional [[WZW-model]].
-
-### Higher dimensional Chern-Simons theory / Self-dual higher gauge theory
-
-Generally, [[higher dimensional Chern-Simons theory]]
-in dimension $4k+3$ (for $k \in \mathbb{N}$) is holographically related to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case). 
-
-* $(k=0)$: ordinary 3-dimensional [[Chern-Simons theory]] is related to a [[string]] [[sigma-model]] on its boundary;
-
-* $(k=1)$: 7-dimensional Chern-Simons theory is related to a [[fivebrane]] model on its boundary;
-
-* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
 
 
 ### Ads/CFT
