@@ -114,5 +114,10 @@ I am also not sure in which sense you refer to the law of the excluded middle. S
 
 [[!redirects apartness relation]]
 [[!redirects apartness relations]]
+[[!redirects apartness]]
+[[!redirects apartnesses]]
+
 [[!redirects tight apartness relation]]
 [[!redirects tight apartness relations]]
+[[!redirects tight apartness]]
+[[!redirects tight apartnesses]]
