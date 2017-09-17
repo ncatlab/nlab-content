@@ -1,10 +1,16 @@
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
+
 # Creation of limits
 * table of contents
 {: toc}
 
 ## Definition
 
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **creates** limits for $J$ if the composite $U\circ J$ has a limit, and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  This means that $J$ has a limit, and that moreover a cone over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $U\circ J$.
+Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **creates** limits for $J$ if the composite $F\circ J$ has a limit, and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  This means that $J$ has a limit, and that moreover a cone over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $F\circ J$.
 
 Of course, a functor $F$ creates a [[colimit]] if $F^{op}$ creates the corresponding limit.
 
