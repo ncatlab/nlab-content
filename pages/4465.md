@@ -47,18 +47,31 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 
 ### General
 
-* scholarpedia [article](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy) (written by Bekenstein, with lost of references)
+Basic introductory accounts include
 
-* MO question [statistical-physics-of-string-theory](http://mathoverflow.net/questions/31789/statistical-physics-of-string-theory)
+* [[Robert Wald]], _The Thermodynamics of Black Holes_ ([arXiv:gr-qc/9912119](http://arxiv.org/abs/gr-qc/9912119))
 
-* Ahmed Almheiri, Donald Marolf, Joseph Polchinski, James Sully, _Black holes: complementarity or firewalls?_, [http://arxiv.org/abs/arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)
+* [[Jacob Bekenstein]], _[Bekenstein-Hawking entropy](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy)_, (2008), Scholarpedia, 3(10):7375
+
+Further developments are in
+
+* Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_ ([arXiv:hep-th/new](http://arxiv.org/list/hep-th/new))
+
+A related controversial article that spawned a lot of discussion is
+
+* Ahmed Almheiri, Donald Marolf, Joseph Polchinski, James Sully, _Black holes: complementarity or firewalls?_, ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
   
 ### Interpretation in string theory
 
-Chapter 5 of 
+A survey of interpretation of [[black holes in string theory]] is in Chapter 5 of 
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N field theories, string theory and gravity_, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)
  {#AGMOO}
+
+See also
+
+* MO question, [statistical-physics-of-string-theory](http://mathoverflow.net/questions/31789/statistical-physics-of-string-theory)
+
 
 ### Interpretation as entanglement entropy
 
