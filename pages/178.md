@@ -1294,7 +1294,19 @@ This is the $(\infty,1)$-[[Cahiers topos]].
 ### Relative $\infty$-connectedness
 
 
-$\infty SDLieGrpd$ is an <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#InfinitesimalExtension">infinitesimal thickening of the (∞,1)-topos</a> $\infty LieGrpd$.
+
++-- {: .un_prop}
+###### Proposition
+
+
+$\infty SDLieGrpd$ is an <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#InfinitesimalExtension">infinitesimal thickening of the (∞,1)-topos</a> $\infty LieGrpd$: the morphism of [[site]]s
+
+$$
+  CartSp \stackrel{\overset{}{\leftarrow}}{\hookrightarrow}
+  ThCartSp
+$$
+
+is a [[reflective subcategory|coreflective embedding]] and induces an $\infty$-[[connected geometric morphism]]
 
 $$
   \infty SDLieGrpd
@@ -1303,6 +1315,78 @@ $$
   \,.
 $$
 
+=--
+
+This induces the follo^wing infinitesimal analogs of the structures discussed above for $\infty LieGrpd$
+
+
++-- {: .un_def}
+###### Definition
+
+Write
+
+$$
+  (\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})
+  :=
+  (LConst_{inf} \circ \Pi_{inf} \dashv LConst_{inf} \circ \Gamma_{inf})
+  :
+  \infty SDLieGrpd
+  \stackrel{\leftarrow}{\to}
+  \infty SDGrpd
+$$
+
+for the composite [[adjunction]]. For $X,A \in \infty SDGrpd$ we call $\mathbf{\Pi}$ the **Lie [[schreiber:infinitesimal homotopy ∞-groupoid]]** of $X$ and we call $\mathbf{\flat}A$ the **infinitesimally flat $\infty$-Lie groupoid** of $A$.
+
+For $X \in \infty Grpd$ we write $\mathbf{\Pi}_{inf,dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}_{inf}(X)$, i.e. for the [[pushout]]
+
+$$
+  \array{
+    X &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \mathbf{\Pi}_{inf}(X) &\to& \mathbf{\Pi}_{inf,dR}(X)
+  }
+$$
+
+in $\infty SDGrpd$.
+
+For $* \to A \in \infty SDGrpd$ a [[pointed object]], we write $\mathbf{\flat}_{inf,dR} A$ for the [[homotopy fiber]] of the counit $\mathbf{\flat}_{inf} A \to A$, i.e. for the [[pullback]]
+
+$$
+  \array{
+    \mathbf{\flat}_{inf,dR}A &\to& \mathbf{\flat}_{inf} A
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    * &\to& A
+  }
+$$
+
+in $\infty Grpd$\,.
+
+=--
+
+### Differential coefficients
+
+Let $G$ be one of the $\infty$-groups considered above
+($G,\mathbf{B}^n U(1), [G_2 \to G_1]$ ) regarded now naturally as an object of $\infty SDGrpd$.
+
+
++-- {: .un_prop}
+###### Proposition
+
+We have
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}G
+  \simeq
+  \mathbf{\flat}_{inf} \mathbf{B}\mathfrak{g}
+$$
+
+=--
+
+(...)
 
 
 ## Examples
