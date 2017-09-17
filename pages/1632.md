@@ -5,11 +5,11 @@
 
 ## Definitions
 
-An associative unital Banach algebra is [[monoid object]] in the category of [[Banach space]]s (and [[short map|short]] [[linear operators]]).  However, Banach algebras are not usually assumed to be unital, making them [[semigroup]] objects (or even [[magma]] objects if not assumed to be associative).
+An associative unital Banach algebra is [[monoid object]] in the category of [[Banach spaces]] (and [[short map|short]] [[linear operators]]).  However, Banach algebras are not usually assumed to be unital, making them [[semigroup]] objects (or even [[magma]] objects if not assumed to be associative).
 
 This means a Banach space $A$ equipped with a multiplication map
 $$ m\colon A \otimes A \to A ,$$
-where $\otimes$ is the standard tensor product for the [[symmetric monoidal closed category]] of Banach spaces, which again is usually taken to be associative. 
+where $\otimes$ is the standard tensor product for the [[symmetric monoidal category|symmetric]] [[closed monoidal category]] of Banach spaces, which again is usually taken to be associative. 
 
 Since the norm of $a \otimes b \in A \otimes A$ is ${\|a\|} \cdot {\|b\|}$ where ${\|a\|}$ is the norm in $A$, and since morphisms in the category of Banach spaces are taken to be bounded linear maps of norm $\leq 1$, we may equivalently define a Banach algebra to be equipped with a bilinear map (usually associative) $A \times A \to A$ such that
 $$ {\|a \cdot b\|} \leq {\|a\|} \cdot {\|b\|} $$
@@ -45,3 +45,6 @@ on continuous functions $f\colon X \to \mathbb{C}$. One can generalize this exam
 
 [[!redirects Banach algebra]]
 [[!redirects Banach algebras]]
+
+[[!redirects Banach ring]]
+[[!redirects Banach rings]]
