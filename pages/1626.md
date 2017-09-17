@@ -45,11 +45,19 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 ## Connected components ##
 
-Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The equivalence class $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from the basic results above that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by one of the basic results above.
+Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The equivalence class $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from the basic results above that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by one of the basic results above. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
 
-Alternatively, observe that if $x \in C$ and $x \in K$, where $C$ is a connected subspace and $K$ is clopen, then $C \subseteq K$. Moreover, the intersection of all clopens containing $x$ is itself connected (because it cannot be further subdivided by a clopen). Hence
-$$ Conn(x) = \bigcap \{ clopen K \;:\; x \in K \} .$$
-If we define connected components with this formula, then we can define a space to be connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
+There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y)$ for every continuous $f: X \to D$ mapping to a [[discrete space]] $D$. The equivalence class of $x$ may be alternatively described as the intersection of all clopens that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. It is easy to prove that 
+
+$$Conn(x) \subseteq QConn(x)$$ 
+
+and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below). 
+
+For an example where $Conn(c) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
+
+$$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$ 
+
+In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0, 1)\}$. 
 
 ## Locally connected space
 
