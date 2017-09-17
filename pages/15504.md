@@ -1,2 +1,0 @@
-This is a very carefully managed blog. It makes me want to sign up for the RSS feed :)
-Sac Longchamp Pour Les Cours http://www.unchataparis.fr/visinfo.php?pid=1623
