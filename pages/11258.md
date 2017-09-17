@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A project for formalization of parts of [[mathematics]] in formal languages supported by [[proof assistants]].
+
+* [ForMath Website](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath)
+
+## Related entries
+
+* [[The QED Project]]
+
