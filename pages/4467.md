@@ -71,5 +71,8 @@ The last example is not predicative, and this is in part *why* one studies forma
 
 [[!redirects formal topology]]
 [[!redirects formal topologies]]
+
 [[!redirects formal space]]
 [[!redirects formal spaces]]
+[[!redirects formal topological space]]
+[[!redirects formal topological spaces]]
