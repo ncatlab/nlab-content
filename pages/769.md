@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,7 @@
 
 ## Idea
 
-The notion of _comma object_ or _comma square_ is a generalization of the notion of [[pullback]] or _pullback square_ from [[category theory]] to [[2-category]] [[higher category theory|theory]].
+The notion of _comma object_ or _comma square_ is a generalization of the notion of [[pullback]] or _pullback square_ from [[category theory]] to [[2-category]] [[higher category theory|theory]]: it is a special kind of _[[2-limit]]_.
 
 Where a [[pullback]] involves a [[commuting diagram|commuting square]], for a comma object this square is filled by a [[2-morphism]].
 
