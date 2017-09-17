@@ -134,6 +134,8 @@ and the smooth fivebrane 6-group was indicated. The latter is discussed in more 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+* [[Jesse Wolfson]] says he has shown the existence of a presentation of the $Fivebrane$ [[smooth infinity-group|smooth 6-group]] by a locally Kan and degreewise finite-dimensional simplicial smooth manifold.
+
 [[!redirects Fivebrane 6-group]]
 
 [[!redirects fivebrane Lie 6-group]]
