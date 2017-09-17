@@ -54,7 +54,7 @@ As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \fr
 ### Divergence/Convergence
  {#DivergenceConvergence}
 
-Despite what one might naively expect, the [[perturbation series]] of natural [[quantum field theories]] have a vanishing [[radius of convergence]]. 
+Despite what one might naively expect, the [[perturbation series]] of natural [[quantum field theories]] have a vanishing [[radius of convergence]], they are [[asymptotic series]]. 
 
 Roughly this can be understood as follows: since the pertrubation is in the [[coupling constant]] about vanishing coupling, a non-zero [[radius of convergence]] would imply that the theory is finite also for _negative_ coupling (where "things fly apart"), which will not happen in realistic theories. 
 
