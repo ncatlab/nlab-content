@@ -541,7 +541,7 @@ $f^* : PSh(S) \to Sh(S)$.
 For $A \in PSh(S)$ a presheaf, its [[sheafification]] $\bar A := f_* f^* A$ is the presheaf given by
 
 $$
-  \bar A : U \mapsto colim_{(Y \to U) \in W} A(U)
+  \bar A : U \mapsto colim_{(Y \to U) \in W} A(Y)
 $$
 =--
 
@@ -552,7 +552,7 @@ By the discussion at [[geometric embedding]] the category $Sh(S)$ is equivalent 
 
 $$
   PSh(S)[W^{-1}](X,A) =
-  colim_{(Y \to X) \in W} A(X)
+  colim_{(Y \to X) \in W} A(Y)
   \,.
 $$
 
