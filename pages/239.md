@@ -11,7 +11,7 @@ is a representing object for a suitable sort of _multilinear map_.  The most cla
 
 * This generalizes to modules over [[monad|monads]] in a bicategory, which includes the notion of _tensor product of functors_.  
 
-* Finally, tensor products in a multicategory and tensor products over monads in a bicategory are both special cases of tensor products in an [[fc-multicategory]].
+* Finally, tensor products in a multicategory and tensor products over monads in a bicategory are both special cases of tensor products in an [[virtual double category]].
 
 #Tensor product in a multicategory#
 
@@ -49,7 +49,7 @@ This tensor product can be generalized to the case when $R$ is not commutative, 
 
 * Not all tensor products in multicategories are instances of this construction.  In particular, the tensor product in [[Ab]] is not the tensor product of modules over any monoid in the cartesian monoidal category [[Set]].  Abelian groups _can_ be considered as "sets with an action by something," but that something is more complicated than a monoid: it is a special sort of [[monad]] called a [[commutative theory]].
 
-* Conversely, if $R$ is a _commutative_ monoid in a symmetric monoidal category, there is a multicategory of $R$-modules whose tensor product agrees with the coequalizer defined above, but if $R$ is not commutative this is impossible.  However, see the section on tensor products in fc-multicategories, below.
+* Conversely, if $R$ is a _commutative_ monoid in a symmetric monoidal category, there is a multicategory of $R$-modules whose tensor product agrees with the coequalizer defined above, but if $R$ is not commutative this is impossible.  However, see the section on tensor products in virtual double categories, below.
 
 #Tensor product of modules in a bicategory#
 
@@ -57,10 +57,10 @@ The tensor product of left and right modules over a noncommutative monoid in a m
 
 For example, consider the bicategory $V-Mat$ of $V$-valued [[matrix|matrices]] for some monoidal category $V$.  A monad in $V-Mat$ is a $V$-[[enriched category]] $A$, an $(A,I)$-bimodule is a functor $A\to V$, an $(I,A)$-bimodule is a functor $A^{op}\to V$, and their tensor product in $V-Mat$ is a classical construction called the **tensor product of functors**.  It can also be defined as a [[end|coend]].
 
-#Tensor product in an fc-multicategory#
+#Tensor product in a virtual double category#
 
-An [[fc-multicategory]] is a common generalization of a multicategory and a bicategory (and actually of a [[double category]]).  Among other things, it has objects, 1-cells, and "multi-2-cells."  We leave it to the reader to define a notion of tensor product of 1-cells in such a context, analogous to the tensor product of objects in a multicategory.  A multicategory can be regarded as a 1-object fc-multicategory, so this generalizes the notion of tensor product in a multicategory.
+A [[virtual double category]] is a common generalization of a multicategory and a bicategory (and actually of a [[double category]]).  Among other things, it has objects, 1-cells, and "multi-2-cells."  We leave it to the reader to define a notion of tensor product of 1-cells in such a context, analogous to the tensor product of objects in a multicategory.  A multicategory can be regarded as a 1-object virtual double category, so this generalizes the notion of tensor product in a multicategory.
 
-On the other hand, in any bicategory (in fact, any double category) there is an fc-multicategory whose objects are monads and whose 1-cells are bimodules, and the tensor product in this fc-multicategory is the tensor product of modules in a bicategory defined above.  Thus, tensor products in an fc-multicategory include all notions of tensor product discussed above.
+On the other hand, in any bicategory (in fact, any double category) there is a virtual double category whose objects are monads and whose 1-cells are bimodules, and the tensor product in this virtual double category is the tensor product of modules in a bicategory defined above.  Thus, tensor products in a virtual double category include all notions of tensor product discussed above.
 
 [[!redirects tensor products]]
