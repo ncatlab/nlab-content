@@ -63,7 +63,7 @@ Finally let $Fun^\otimes(Bord_n^{fr} , C )$ be the [[(∞,n)-category]] of symme
 =--
 
 
-+-- {: .num_theorem }
++-- {: .num_theorem #CobordismHypothesisFramedVersion}
 ###### Theorem (cobordism hypothesis, framed version)
 
 Evaluation of any such functor $F$ on the [[point]] ${*}$
@@ -110,11 +110,40 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 
 =--
 
-#### Implications
+#### Implications -- The canonical $O(n)$-∞-action
+ {#TheCanonicalOnAction}
 
-This implies that any $\infty$-groupoid of [[fully dualizable objects]] in an n-category carries a canonical  [[∞-action]] of the [[orthogonal group]] $O(n)$ (the underlying [[∞-group]]) given by the action of $O(n)$ on the $n$-framing of the point in $Bord_n^{fr}$.
+One of the striking consequences of theorem \ref{CobordismHypothesisFramedVersion} is that implies that 
 
-Examples... a) duality, b) Serre functor, c) [[orthogonal spectrum]]...
++-- {: .num_cor #CanonicalOnAction}
+###### Corollary
+
+Every [[∞-groupoid]] 
+
+$$
+  \mathcal{C}^{fd} \hookrrightarrow \mathcal{C}
+$$ 
+
+of [[fully dualizable objects]] in a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}$ carries a canonical [[∞-action]] of (the [[∞-group]] structure on the [[homotopy type]] of) the [[orthogonal group]] $O(n)$, induced by the action of $O(n)$ on the [[framed manifold|n-framing]] of the point in $Bord_n^{fr}$.
+
+=--
+
+([Lurie, corollary 2.4.10](#Lurie))
+
++-- {: .num_example #ExamplesOfTheCanonicalOnActions}
+###### Example
+
+The action in corollry \ref{CanonicalOnAction} is
+
+* for $n =1$: the $O(1) = \mathbb{Z}/2\mathbb{Z}$ action action given by passing to [[dual objects]];
+
+* for $n = 2$ the $O(2)$-action the _[[Serre automorphism]]_.
+
+* for $n = \infty$ the $O$-action on [[orthogonal spectra]].
+
+=--
+
+([Lurie, examples 2.4.12, 2.4.14. 2-4-15](#Lurie))
 
 
 ### For cobordisms with extra topological structure
@@ -136,6 +165,7 @@ Let $X$ be a [[topological space]] and $\xi \to X$ a [[real number|real]] [[vect
   $$
 
   between the [[fiber]]wise [[direct sum]] of the [[tangent bundle]] $T N$ with the trivial rank $(n-m)$ bundle and the [[pullback]] of $\xi$ along $f$. 
+
 
 =--
 
@@ -164,7 +194,7 @@ $$
   \,,
 $$ 
 
-where on the right we regard $\tilde C$ as a [[topological space]] carrying the canonical $O(n)$-[[action]] discussed [above](#GEquivariantVersion).
+where on the right we regard $\tilde C$ as a [[topological space]] carrying the canonical $O(n)$-[[action]] discussed [above](#TheCanonicalOnAction).
 
 =--
 
