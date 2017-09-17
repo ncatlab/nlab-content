@@ -33,6 +33,10 @@
 
 * [[(n,1)-topos]]
 
+  * [[truncated|n-truncated object]]
+
+  * [[connected|n-connected object]]
+
 ## Characterization ##
 
 * [[universal colimits]]
@@ -40,6 +44,9 @@
 * [[object classifier]]
 
 * [[groupoid object in an (∞,1)-category|groupoid object in an (∞,1)-topos]]
+
+  * [[effective epimorphism]]
+
 
 ## Extra stuff, structure and property
 
