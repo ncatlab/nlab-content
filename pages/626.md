@@ -65,6 +65,8 @@ See the article by Selinger below for more examples.
 
 * [[surface diagram]]
 
+* [[Kelly-Mac Lane diagram]]
+
 * [[proof net]]
 
 * [[Feynman diagram]]
