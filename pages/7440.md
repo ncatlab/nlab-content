@@ -1530,3 +1530,6 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 [[!redirects precategory objects in an (∞,1)-category]]
 [[!redirects precategory objects in (infinity,1)-categories]]
 [[!redirects precategory objects in (∞,1)-categories]]
+
+[[!redirects categories in an (∞,1)-category]]
+
