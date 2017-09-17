@@ -38,6 +38,7 @@ Computable mathematics is an instance of [[intuitionistic mathematics]] (see e.g
 
 * [[computable real number]]
 
+* [[computable physics]]
 
 ## References
 
