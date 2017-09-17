@@ -6,57 +6,104 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 
-$\sin$, *$\sin$*, $sin$, *$sin$*
+I would like to understand the following question in 
+an $\infty$-topos / in homotopy type theory:
 
-$$\sin, sin$$
+given an object $V$ with an action by a group $G$, and given another object $X$. How can we naturally construct $[V,X]\sslash G$, the quotient of the space of maps $V \to G$ by $G$ acting by precomposition?
 
-+-- {: .num_prop #fonttest}
-$\sin$, *$\sin$*, $sin$, *$sin$*
+This seems basic, but I am being a bit dense, maybe. 
 
-$$\sin, sin$$
-=--
+I am suspecting that this object is $\sum_{\mathbf{B}G}[V\sslash G, X \times \mathbf{B}G]_{\mathbf{B}G}$. At least this exbits some $G$-action, so if it's not the one I am after then a second question I have: which $G$ action is this?
 
-see also the interesting footnote below[^footnote1]
+More in detail:
 
-bla bla bla bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla 
+I write $\mathbf{H}$ for my $\infty$-topos, as usual.
+
+The $G$-action on $V$ is exhibited by a fiber sequence
+
+$$
+  \array{ 
+     V &\to& V \sslash G
+     \\
+     && \downarrow
+     \\
+     && \mathbf{B}G 
+  }
+  \,.
+$$
+
+Similarly we get the fiber sequence
+
+$$
+  \array{
+     Q
+     &\to&  \sum_{x : \mathbf{B}G} [V \sslash G , X \times \mathbf{B}G ]_{/\mathbf{B}G}
+     \\
+     && \downarrow
+     \\
+     && \mathbf{B}G
+  }
+$$
+
+where $Q$ is the stand-in notation for whatever the fiber of the morphism on the right is. This exhibits an action of $G$ on Q. 
+
+What is $Q$? 
+
+So I can say what $\flat Q$ is, the type of global points of $Q$, by this line of reasoning:
+
+$$
+  \begin{aligned}
+     \flat Q & \simeq
+     \flat [ pt_{\mathbf{B}G} , 
+     [V\sslash G, X \times \mathbf{B}G]_{\mathbf{B}G} ]_{/\mathbf{B}G}
+     \\
+     & \simeq \flat [ pt_{\mathbf{B}G} \times_{\mathbf{B}G} V\sslash G, X \times \mathbf{B}G ]_{\mathbf{B}G}
+     \\
+     & \simeq \flat [
+        V , X \times \mathbf{B}G ]_{\mathbf{B}G}
+     \\
+     & \simeq
+     \flat [V,X]
+  \end{aligned}
+  \,.
+$$
+
+That matches my initial guess that $Q \simeq [V,X]$. 
+
+I am currently hesitant as to how to proceed in the first step above without the $\flat$s. It seems clear, but I need to think about it more. 
 
 
-[^footnote1]: This footnote is not actually interesting.
+But so it looks like this gives a canonical construction of a $G$-action on $[V,X]$. Can we also check that indeed it is the expected action by pre-composition with the $G$-action on $V$?
+
+For a $G$-action on $V$, its invariants are $\Gamma_{\mathbf{B}G}(V\sslash G)$. So maybe I can check what $\Gamma_{\mathbf{B}G}( \sum_{\mathbf{B}G} [V\sslash G, X \times \mathbf{B}G]_{\mathbf{B}G} )$ is. I compute:
+
+$$
+  \begin{aligned}
+    \Gamma_{\mathbf{B}G}( \sum_{\mathbf{B}G} [V\sslash G, X \times \mathbf{B}G]_{\mathbf{B}G} )
+    & \simeq
+      \flat [ \mathbf{B}G , [V\sslash G, X \times \mathbf{B}G]_{\mathbf{B}G}]_{\mathbf{B}G}
+    \\
+    & \simeq
+     \flat [ \mathbf{B}G \times_{\mathbf{B}G}  V \sslash G, X \times \mathbf{B}G]_{\mathbf{B}G}
+    \\
+    & \simeq
+      \flat [ V \sslash G  , X \times \mathbf{B}G]_{\mathbf{B}G}
+    \\
+    & \simeq \flat[ V \sslash G, X ]
+  \end{aligned}
+$$
+
+which is the right answer, I suppose, the maps $V \to X$ that are invariant under precomposing the $G$-action on $V$.
+
+That's how far I got for the moment. Will further mull over this.
 
 
-blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla
-
-and this footnote, too[^footnote2]
-
-[^footnote2]: Neither this footnote is very interesting.
-
-[Let's cite someone](#citepridham2)
-
-With some lipsum in between.
-
-Lorem ipsum dolor sit amet, consectetuer
-  adipiscing elit. Ut purus elit, vestibulum ut, placerat ac,
-  adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu
-  libero, nonummy eget, consectetuer id, vulputate a, magna. Donec
-  vehicula augue eu neque. Pellentesque habitant morbi tristique
-  senectus et netus et malesuada fames ac turpis egestas. Mauris ut
-  leo. Cras viverra metus rhoncus sem. Nulla et lectus vestibulum urna
-  fringilla ultrices.  Phasellus eu tellus sit amet tortor gravida
-  placerat. Integer sapien est, iaculis in, pretium quis, viverra ac,
-  nunc. Praesent eget sem vel leo ultrices bibendum. Aenean faucibus.
-  Morbi dolor nulla, malesuada eu, pulvinar at, mollis ac, nulla.
-  Curabitur auctor semper nulla. Donec varius orci eget risus. Duis
-  nibh mi, congue eu, accumsan eleifend, sagittis quis, diam. Duis
-  eget orci sit amet orci dignissim rutrum.
-
-* {: #citepridham2 }
-J. P. Pridham. _The homotopy theory of strong homotopy algebras and bialgebras_; [arXiv:0908.0116](http://arxiv.org/abs/0908.0116)
 
 ***
 
 
 category: meta
-
+_
 [[!redirects Sandbox]]
 [[!redirects SandBox]]
 [[!redirects Sand Box]]
