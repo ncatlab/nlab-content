@@ -81,7 +81,7 @@ On topological spaces, this model structure has
 ### Restriction to nice topological spaces
  {#OnNiceTopologicalSpaces}
 
-For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to bass to subcatgeories of [[nice topological spaces]].
+For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to pass to subcatgeories of [[nice topological spaces]].
 
 +-- {: .un_defn}
 ###### Definition
