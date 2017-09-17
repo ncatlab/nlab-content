@@ -1,11 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
 # The essential image of a functor
 * table of contents
 {: toc}
 
 ## Idea
 
-The notion of _essential image_ is an adaptation of the notion of [[image]] from a [[category theory|1-categorical]] to the 
-[[2-category|2-categorical]] context [[Cat]], i.e. to the image of [[functor]]s. 
+The notion of _essential image_ is sopposed to be an adaptation of the notion of [[image]] from a [[category theory|1-categorical]] to the 
+[[2-category|2-categorical]] context [[Cat]], i.e. to the image of [[functor]]s. But some care has to be exercised.
+
+For another definition of image of a functor, see [(2,1)-image](http://ncatlab.org/nlab/show/image#InfImageExamples).
+
 
 
 ## Definitions
