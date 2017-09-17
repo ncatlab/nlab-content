@@ -34,7 +34,7 @@ A Lie algebra is reductive if and only if its [[adjoint representation]] is [[co
 +-- {: .num_remark}
 ###### Remark
 
-The concept of reductive is not quite the same for [[Lie groups]] as it is for [[algebraic groups]] because a reductive Lie group can be the group of real points of a unipotent algebraic group.
+The concept of reductive is not quite the same for [[Lie groups]] as it is for [[algebraic groups]] (see at _[[reductive algebraic group]]_) because a reductive Lie group can be the group of real points of a unipotent algebraic group.
 
 =--
 
@@ -47,6 +47,7 @@ The concept of reductive is not quite the same for [[Lie groups]] as it is for [
 ## References
 
 * Wikipedia, _[Reductive group](http://en.wikipedia.org/wiki/Reductive_group)_
+
 
 [[!redirects reductive groups]]
 
