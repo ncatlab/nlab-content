@@ -7,7 +7,7 @@
 
 In general, the _center_ (or _centre_) of an algebraic object $X$ is the collection of things which "commute with all elements of $X$."  This has a number of specific incarnations.
 
-## Defintions
+## Definitions
 
 ### Of groups and monoids
 
@@ -22,7 +22,7 @@ The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consist
 
 ### Of categories and higher categories {#OfCategories}
 
-The centre of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the center of a category $C$ is defined to be the commutative monoid $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$.  It is straightforward to check that this reduces to the usual definition if $C = \mathbf{B}(A,\times)$ is the [[delooping]] of a [[monoid]]. 
+The center of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the _center of a category_ $C$ is defined to be the commutative monoid $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$.  It is straightforward to check that this reduces to the usual definition if $C = \mathbf{B}(A,\times)$ is the [[delooping]] of a [[monoid]]. 
 
 The notion of center can also be [[vertical categorification|vertically categorified]].  It is easy to categorify the notion of center of a category as defined above: if $C$ is an [[n-category]], then its _center_ is the monoidal $(n-1)$-category $[C,C](Id_C,Id_C)$ of endo-transformations of its identity functor.  One expects that in general, this center will actually admit a natural structure of *braided* monoidal $(n-1)$-category, just as the center of a category is actually a commutative monoid, not merely a monoid.
 
