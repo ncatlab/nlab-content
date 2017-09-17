@@ -148,6 +148,8 @@ In this diagram now
 
 * [[Green's function]]
 
+* [[initial value problem]]
+
 * [[differential Galois theory]]
 
 * [[D-module]], [[D-geometry]]
