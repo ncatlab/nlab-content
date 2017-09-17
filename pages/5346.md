@@ -34,7 +34,7 @@ $$
   sSet_0
 $$
 
-with the [[model structure on connected simplicial sets]].
+with the [[model structure on reduced simplicial sets]].
 
 ## References
 
