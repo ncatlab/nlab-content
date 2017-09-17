@@ -20,7 +20,7 @@ This entry is is to record the monograph 3 volumes
 
   2: Categories and Structures, [gBooks]()
 
-  3: Categories of Sheavesh, [gBooks](http://books.google.fr/books/about/Handbook_of_Categorical_Algebra_Categori.html?id=7jgots78faUC)
+  3: Categories of Sheaves, [gBooks](http://books.google.fr/books/about/Handbook_of_Categorical_Algebra_Categori.html?id=7jgots78faUC)
 
 on [[category theory]] and [[topos theory]].
 
