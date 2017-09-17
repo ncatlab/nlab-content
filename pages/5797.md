@@ -49,11 +49,19 @@ for the corresponding [[dg-algebra]]: its [[Chevalley-Eilenberg algebra]].
 
 ## Examples
 
+In the context of [[supergravity]]/[[string theory]] the
+
 * [[super Poincare Lie algebra]]
 
-* [[supergravity Lie 3-algebra]]
+and its super-$L_\infty$-extensions to the 
+
+* [[supergravity Lie 3-algebra]] ([[m2brane]])
 
 * [[supergravity Lie 6-algebra]]
+
+play a central role. Their exceptional [[infinity-Lie algebra cohomology]] governs the consistent [[Green-Schwarz action functionals]] for super-$p$-[[branes]]. (See the discusson of the _[brane scan](Green-Schwarz+action+functional#BraneScan)_) there.
+
+Moreover, the [[BRST complex]] of the [[superstring]] might form a super $L_\infty$-algebra whose brackets give the [[n-point function]] of the string, in analogy to what happens for the bosonic string in Zwiebach's [[string field theory]]. (...)
 
 [[!redirects super L-∞ algebra]]
 [[!redirects super L-∞ algebras]]
