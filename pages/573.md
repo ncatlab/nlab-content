@@ -25,14 +25,32 @@ In [[higher category theory]] an _$(\infty,n)$-category_ may be thought of as
 
 * a [[weak omega-category]] for which all [[k-morphisms]] with $k \gt n$ are [[equivalences]].
 
+There are two main [[recursion|recursive]] definitions of $(\infty,n)$-categories: by iterated [[enriched (∞,1)-category|(∞,1)-enrichment]]
+
+$$
+  Cat_{(\infty,n)} \simeq (\cdots((Cat_{(\infty,0)} Cat) Cat) \cdots) Cat
+$$ 
+
+and by iterated [[category object in an (∞,1)-category|(∞,1)-internalization]]
+
+$$
+  Cat_{(\infty,n)} \simeq Cat(\cdots(Cat(Cat_{(\infty,0)}))\cdots)
+  \,.
+$$
+
+There is also a fairly simple axiomatization of the [[(∞,1)-category]] $Cat_{(\infty,n)}$ itself, as something _generated_ by [[strict n-categories]]. 
+
+Then there is a plethora of [[model category]] structures that [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] $Cat_{(\infty,n)}$.
 
 ## Definitions
 
-There is an axiomatic characterization of the [[(∞,1)-category]] of $(\infty,n)$-categories (hence of these structures with all morphisms but only invertible [[transfors]] between them).
+There are various different ways of defining $(\infty,n)$-categories, which are all natural in their own right, and all equivalent to each other. 
 
-* [Axiomatic definition](#AxiomaticCharacterization)
+There is an axiomatic characterization of the [[(∞,1)-category]] of $(\infty,n)$-categories by [[generators and relations|generation]] from [[strict n-categories]]:
+ 
+* [Definition via generation from strict n-categories](#AxiomaticCharacterization)
 
-Among the concrete constructions one can roughly distinguish two flavors, those that build $(\infty,n)$-categories by _[[enriched category|enrichment]]_ over $(\infty,n-1)$-categories
+Among the more direct definitions of $(\infty,n)$-categories one can roughly distinguish two flavors, those that build $(\infty,n)$-categories by _[[enriched category|enrichment]]_ over $(\infty,n-1)$-categories
 
 * [Definitions via enrichment](#ViaEnrichment)
 
@@ -42,16 +60,16 @@ and those that build them by [[internalization]] in the collection of $(\infty,n
 
 
 
-### Axiomatic definition
+### Via generation by strict $n$-categories
  {#AxiomaticCharacterization}
 
-We discuss the axiomatic characterization of the [[(∞,1)-category]] of $(\infty,n)$-categories due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)).
+We discuss a characterization of the [[(∞,1)-category]] of $(\infty,n)$-categories as an $(\infty,1)$-category [[generators and relations|generated]] by [[strict n-categories]], due to ([Barwick, Schommer-Pries](#BarwickSchommerPries)).
 
 #### Preliminaries
 
 The main definition is def. \ref{AxiomaticDefinition} below, which roughly says that the collection of $(\infty,n)$-categories is _generated_ from [[strict n-categories]] in a certain sense. Therefore we first need to fix some terminology and notions about strict $n$-categories and about the relevant notion of generation.
 
-+-- {: .num_defn}
++-- {: .num_defn #GauntStrictNCategories}
 ###### Definition
 
 Write $Str n Cat$ for the 1-[[category]] of [[strict n-categories]]. Write
@@ -197,12 +215,10 @@ For more on this see prop. \ref{AutomorphismInfinityGroup} below.
 
 =--
 
-### Presentations
+#### Presentation
 
 By def. \ref{AxiomaticDefinition} $Cat_{(\infty,n)}$ is [[equivalence of (∞,1)-categories]] to a [[localization of an (∞,1)-category|localization]] of the [[(∞,1)-category of (∞,1)-presheaves]] on $Str n Cat_{gen}$. In fact, various subcategories of $Str n Cat_{gen}$ are already sufficient. Here we discuss these [[presentable (∞,1)-category|presentations]]. 
 
-
-#### Universal presentation
 
 
 +-- {: .num_defn #UniversalLocalizingClass}
@@ -282,8 +298,8 @@ is an [[equivalence of (∞,1)-categories]]:
 
 ([B-SP, theorem 9.2](#BarwickSchommerPries)) 
 
-#### Theta-spaces
 
+A closely related presentation is given by [[Theta spaces]].
 
 +-- {: .num_prop }
 ###### Proposition
@@ -325,11 +341,19 @@ $$
 
 #### Presentation by Segal $n$-categories
 
-A presentation of the notion of $n$-fold enrichement of
-def. \ref{EnrichementDefinition} is given by
-_[[Segal n-categories]]_.
+The notion of _[[Segal n-categories]]_ is a realization of the
+idea of _weak enrichment_ in a suitable [[model category]]. 
+For nice enough model categories this can be further 
+strictfied to just the notion of [[enriched model category]], 
+discussed _[below](#ByEnrichedModelCategories)_
 
 (...)
+
+#### Presentation by enriched model categories
+ {#ByEnrichedModelCategories}
+
+(...)
+
 
 ### Via $\infty$-internalization
  {#ViaInternalization}
@@ -339,7 +363,7 @@ _[[Segal n-categories]]_.
 There is a general notion of _[[internal category in an (∞,1)-category]]_. For $\mathcal{C}$ an [[(∞,1)-category]] write $Cat(\mathcal{C})$ for the $(\infty,1)$-category of internal categories in $\mathcal{C}$. Write $Cat_{(\infty,1)} \coloneqq$ [[∞Grpd]] for the $(\infty,1)$-category of [[∞-groupoids]].
 
 
-+-- {: .num_defn }
++-- {: .num_defn #IteratedInternalization}
 ###### Definition
 
 For $n \in \mathcal{N}$ the $(\infty,1)$-category of 
@@ -358,7 +382,36 @@ $$
 
 ([Lurie](#Lurie)).
 
+
++-- {: .num_prop }
+###### Proposition
+
+The $(\infty,1)$-category $Cat_{(\infty,n)}$ given by
+def. \ref{IteratedInternalization} is [[equivalence of (∞,1)-categories|equivalent]] to that given by
+def. \ref{AxiomaticDefinition}.
+
+=--
+
+This is ([B-SP, theorem 12.6](#BarwickSchommerPries)), shown there via the presentations discussed [below](#PresentationByCompleteSegal).
+
 #### Presentation by $n$-fold complete Segal spaces
+ {#PresentationByCompleteSegal}
+
+By the discussion [here](category+object+in+an+%28infinity,1%29-category#ModelCategoryPresentations) at _[[category object in an (∞,1)-category]]_ we have
+
++-- {: .num_prop }
+###### Proposition
+
+Write $cSegal_0 \coloneqq sSet_{Quillen}$ for the standard [[model structure on simplicial sets]]. Then recursively for $n \in \mathbb{N}$, $n \geq 1$, there is a model structure on 
+
+$$
+  cSegal_n \coloneqq [\Delta^{op}, cSegal_{n-1}]
+$$
+
+which [[presentable (infinity,1)-category|presents]] $Cat^n(\infty Grpd)$.
+
+=--
+
 
 A presentation of $Cat^n(\infty Grpd)$ is given by [[n-fold complete Segal spaces]].
 
@@ -380,9 +433,12 @@ $$
 ([B-SP, theorem 12.6](#BarwickSchommerPries))
 
 
+(...)
+
+
 ## Properties
 
-### Uniqueness and equivalences
+### Moduli 
 
 +-- {: .num_prop #AutomorphismInfinityGroup}
 ###### Proposition
