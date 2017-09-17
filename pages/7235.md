@@ -21,7 +21,7 @@
 
 One of the [[exceptional Lie groups]].
 
-## Proeperties
+## Properties
 
 ### As U-Duality group of 4d SuGra
 
