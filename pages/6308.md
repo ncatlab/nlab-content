@@ -1,0 +1,10 @@
+
+This entry is about the book
+
+* [[Rudolf Haag]], _Local quantum physics -- Fields, particles, algebras_ Springer (1992)
+
+which discusses basic aspects of [[quantum field theory]] from the axiomatic and precise point of view of [[AQFT]] (formalizing quantum field theories by their [[local nets of observables]]).
+
+While axiomatic, the book does contain a fair bit of discussion of the relation to actual physics.
+
+[[!redirects Local Quantum Physics]]
