@@ -1,3 +1,4 @@
+[[!redirects syntax - semantics duality]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,6 +24,10 @@
 There is a [[duality]] between [[syntax]] and [[semantics]].
 
 ## Related concepts
+
+* [[relation between category theory and type theory]]
+
+* [[computational trinitarianism]]
 
 * [[Stone duality]]
 
