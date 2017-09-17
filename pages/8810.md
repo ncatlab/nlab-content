@@ -62,6 +62,7 @@ The [[Narasimhan–Seshadri theorem]] identifies [[moduli spaces]] of stable vec
 
 * [[moduli space of bundles]]
 
+* [[stable point]]
 
 ## References
 
