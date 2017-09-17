@@ -1,9 +1,16 @@
 <div class="rightHandSide toc">
 [[!include category theory - contents]]
+***
+[[!include topos theory - contents]]
 </div>
 
 
-# Overview #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea 
 
 If $C$ is a [[locally small category]], then we say a [[functor]] 
 
@@ -14,7 +21,7 @@ is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a 
 
 Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
-# Definition #
+## Definition 
 
 More precisely, given a functor $F: C^{op} \to Set$ (also called a [[presheaf]] on $C$), a **representation** of $F$ is a specified natural isomorphism 
 
@@ -24,7 +31,7 @@ By the [[Yoneda lemma]], any such transformation $\theta$ (isomorphism or not) i
 
 Following the proof of the Yoneda lemma, representability means precisely this: given any object $x$ of $C$ and any element $\alpha \in F(x)$, there exists a unique morphism $f: x \to c$ such that the function $F(f)$ carries the universal element $\xi \in F(c)$ to $\alpha \in F(x)$. Such a dry formulation fails to convey the remarkable power of this concept, which can really only be appreciated through the myriad examples which illustrate it. 
 
-## Definition in enriched category theory ##
+### In enriched category theory 
 
 The above definition generalizes straightforwardly
 to [[enriched category theory]].
@@ -63,15 +70,15 @@ A $V$-enriched functor $F : C \to V$ is **representable** if there is $c \in C$ 
 If $V$ is [[symmetric monoidal category|symmetric monoidal]] one can form the [[opposite category]] $C^{op}$ and have the analogous definition for representable functors $F : C^{op} \to V$.
 
 
-# Examples #
+## Examples 
 
-## Example 1: limits ##
+### Limits 
 
 If $F:J\to C$ is a diagram in $C$, we can construct a diagram $\hom_C(-,F)$ in the [[functor category]] $Set^{C^{op}}$ as the composite of $F$ with the curried [[hom-functor]] $C\to\Set^{C^{op}}$ (the [[Yoneda embedding]]).  The object-wise [[limit]] of this diagram in [[Set]], that is, the functor $C^{op}\to\Set$ sending on object $x$ to the set which is the limit of the diagram $\hom_C(x,F):J\to\Set$, is representable iff the diagram $F$ has a limit in $C$; in fact, a representing object for that limit functor is exactly $\lim F$, and we obtain a natural isomorphism
 
 $$\lim\hom_C(-,F)\cong\hom_C(-,\lim F).$$
 
-### Sub-Example: Products ###
+#### Products 
 
 For an example in the case of the [[product]], let $c, d$ be objects of $C$, and consider the presheaf given by a product of [[hom-functor|hom-functors]]
 
@@ -90,7 +97,7 @@ there exists a unique element in $\hom(x, c \times d)$, denoted $langle f, g \ra
 
 $$\pi_c \langle f, g \rangle = f \qquad \pi_d \langle f, g \rangle = g.$$
 
-## Example 1 a: weighted limits ##
+#### Weighted limits 
 
 The above example has an important straightforward generalization.
 
@@ -102,7 +109,7 @@ the above expression
 $\lim\hom_C(-,F)$ can be rewritten equivalently as 
 $[J,Set](\Delta pt, C(-,F(-)))$. Replacing in this expression the constant terminal functor $\Delta pt : J \to Set$ by any other functor leads to the notion of [[weighted limit]], as described there.
 
-## Example 2: exponential objects ##
+### Exponential objects
 
 Suppose $C$ is a category which admits finite products; given objects $c, d$, consider the presheaf 
 
@@ -114,7 +121,7 @@ $$e \in \hom_C(d^c \times c, d)$$
 
 is a morphism called the **evaluation** map $eval: d^c \times c \to d$. 
 
-## Example 3: classifying bundles ##
+### Classifying bundles
 
 Consider a category $Top$ of 'nice' spaces (just to fix the discussion, let's say paracompact spaces, although this is a technical point), and a topological group $G$ therein, i.e., a group internal to $Top$. There is a presheaf 
 
@@ -133,17 +140,17 @@ A **[[classifying space]]** $\mathcal{B}G$ is precisely a representing object fo
 These general considerations are quite commonplace in algebraic topology, where they crop up for example in the connection between generalized cohomology theories and spectra; cf. Brown's representability theorem. 
 
 
-#References#
+## References
 
-a discussion of representable functors in the context of enriched category theory is in section 1.6 and section 1.10 of
+A discussion of representable functors in the context of enriched category theory is in section 1.6 and section 1.10 of
 
-* Kelly, _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 
 
 ***
 
-#Discussion#
+## Discussion
 
 +--{+ .query}
 I am pretty unhappy that all entries related to limits, colimits and representable things at nlab say that the limit, colimit and representing functors are what normally in strict treatment are just the vertices of the corresponding universal construction. A representable functor is not a functor which is naturally 
