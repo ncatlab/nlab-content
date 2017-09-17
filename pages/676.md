@@ -145,6 +145,8 @@
 
       * [[Green-Schwarz mechanism]]
 
+    * [[instanton]]
+
     * [[spontaneously broken symmetry]]
 
     * [[Kaluza-Klein mechanism]]
