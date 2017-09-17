@@ -215,13 +215,9 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [What's new](http://terrytao.wordpress.com) (Terence Tao)
 
-* [Wiskundemeisjes](http://www.wiskundemeisjes.nl)
+* [Wiskundemeisjes](http://www.wiskundemeisjes.nl) (A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets, in Dutch)
 
-  * A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets (in Dutch)
-
-* [Wiskunde is sexy](http://weetlogs.scilogs.be/index.php?blogId=11)
-
-  * Another blog about mathematics for a general audience, written by Rudi Penne and Paul Levrie (also in Dutch)
+* [Wiskunde is sexy](http://weetlogs.scilogs.be/index.php?blogId=11) (Another blog about mathematics for a general audience, written by Rudi Penne and Paul Levrie, also in Dutch)
 
 * [XOR's hammer](http://xorshammer.wordpress.com) (logics and foundations)
 
