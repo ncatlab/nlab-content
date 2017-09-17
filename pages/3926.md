@@ -1,19 +1,19 @@
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Definition
 
 In a [[†-category]] $C$, a [[morphism]] $f : x \to y$ is said to be **unitary** if it is [[isomorphism|invertible]] and its [[inverse]] $f^{-1}$ is its dagger $f^{\dagger}$: 
 
 $$
-  f^{-1} = f^\dagger : y \to x
+  f^{-1} = f^\dagger\colon y \to x
   \,.
 $$ 
 
 For more details, see the entry [[†-category]].
+
 
 ## Examples
 
@@ -27,3 +27,9 @@ For more details, see the entry [[†-category]].
 * [[self-adjoint morphism]]
 
 * **unitary morphism**
+
+
+[[!redirects unitary morphism]]
+[[!redirects unitary morphisms]]
+[[!redirects unitary isomorphism]]
+[[!redirects unitary isomorphisms]]
