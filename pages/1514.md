@@ -187,7 +187,7 @@ $$
 ### Perturbatively for free field theory in BV-formalism
  {#PerturbativelyInBVFormalism}
 
-[[BV-BRST formalism]] is a means to formalize the path integral in [[perturbation theory]] as the passage to [[cochain cohomology]] in a _[[quantum BV-complex]]_. See there for more details.
+[[BV-BRST formalism]] is a means to formalize the path integral in [[perturbation theory]] as the passage to [[cochain cohomology]] in a _[[quantum BV-complex]]_. See at _[The BV-complex and homological integration](BV-BRST+formalism#HomologicalIntegration)_ for more details.
 
 [[!include action (physics) - table]]
 
