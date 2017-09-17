@@ -2,11 +2,11 @@ The **formality theorem** by [[Maxim Kontsevich]] states that there is an [[L-âˆ
 
 The formality theorem implies that every [[Poisson manifold]] has a canonical [[deformation quantization]].
 
-References:
+## References
 
-Kontsevich, Deformation quantization of Poisson manifolds
+* _[[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_
 
-Tamarkin
+* Tamarkin
 
 
 [[!redirects Kontsevich formality theorem]]
