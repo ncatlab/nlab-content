@@ -531,7 +531,7 @@ A **projective class** on $\mathcal{A}$ is a collection $\mathcal{P} \subset ob 
 +-- {: .un_example}
 ###### Example
 
-Taking $\mathcal{P} := ob \mathcal{A}$ to be the class of _all_ objects yields a projective class -- called the *trivial projective class** . The corresponding morphisms are the class $\mathcal{E}$ of all [[split epimorphism]]s in $\mathcal{A}$.
+Taking $\mathcal{P} := ob \mathcal{A}$ to be the class of _all_ objects yields a projective class -- called the _trivial projective class_ . The corresponding morphisms are the class $\mathcal{E}$ of all [[split epimorphism]]s in $\mathcal{A}$.
 
 =--
 
@@ -563,7 +563,7 @@ between [[abelian categories]] and given $(\mathcal{P}, \mathcal{E})$ a projecti
 +-- {: .un_theorem}
 ###### Definition/Theorem
 
-Given a projective class $\mathcal{P}$ in $\mathcal{A}$, call a morphism $f \in Ch(\mathcal{A)$ 
+Given a projective class $\mathcal{P}$ in $\mathcal{A}$, call a morphism $f \in Ch(\mathcal{A})$ 
 
 * a fibration if $\mathcal{A}(P,f)$ is a surjection in [[Ab]] for all $P \in \mathcal{P}$;
 
