@@ -21,7 +21,7 @@ Let $C : sAb \to Ch_\bullet^+$ be the chains/[[Moore complex]] functor of the [[
 
 Let $(sAb, \otimes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Eilenberg-Zilber map** or **Eilenberg-MacLane map** or **shuffle map** is the [[natural transformation]] on [[chain complex]]es
@@ -66,14 +66,14 @@ The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signat
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The sum may be understood as being over all non-degenerate simplices in the product $\Delta[p] \times \Delta[q]$. See [[products of simplices]] for more on this.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -96,7 +96,7 @@ The specific maps introduced by Eilenberg-Mac Lane have stronger properties whic
 
 which has been a foundation of the subject of Homological Perturbation Theory. The homotopies play a key role in the formulae and calculations.  
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The Eilenberg-Zilber map is a [[lax monoidal transformation]] that makes $C$ and $N$ into [[lax monoidal functor]]s. 
@@ -105,7 +105,7 @@ The Eilenberg-Zilber map is a [[lax monoidal transformation]] that makes $C$ and
 
 See [[monoidal Dold-Kan correspondence]] for details.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -122,7 +122,7 @@ $$
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a chain [[homotopy equivalence]].
@@ -134,7 +134,7 @@ This is in 29.10 of ([May](#May)).
 
 For the next statement notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[symmetric monoidal categories]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
  
