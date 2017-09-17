@@ -58,6 +58,67 @@ Suppose that $f^*$ and $h^*$ do not have entire left adjoints, but that for a pa
 
 If the functors $f_!$ and $h_!$ do exist, then the square satisfies the (global) Beck-Chevalley condition as defined above if and only if it satisfies the local one defined here at every object.
 
+## In logic / type theory
+ {#InTypeTheory}
+
+If the functors in the formulation of the Beck-Chevalley condition are [[base change]] functors in the [[categorical semantics]] of some [[dependent type theory]] (or just of a [[hyperdoctrine]]) then the BC condition is equivalently stated in terms of logic as follows. 
+
+A [[commuting diagram]]  
+
+$$
+  \array{
+    D &\stackrel{h}{\to}& C 
+    \\
+    {}^{\mathllap{k}}\downarrow && \downarrow^{\mathrlap{g}}
+    \\
+    A &\stackrel{f}{\to}& B
+  }
+$$
+
+is interpreted as a morphism of [[contexts]]. The [[pullback]] (of [[slice categories]] or of fibers in a [[hyperdoctrine]]) $h^*$ and $f^*$ is interpreted as the [[substitution]] of [[variables]] in these contexts. And the [[left adjoint]] $\sum_k \coloneqq k_! $ and $\sum_q \coloneqq g_!$, the [[dependent sum]] is interpreted (up to [[truncated|(-1)-truncation]], possibly) as [[existential quantifier|existential quantification]]. 
+
+In terms of this the Beck-Chevalley condition says that if the above diagram is a [[pullback]], then **substitution commutes with existential quantification**
+
+$$
+  \sum_k h^* \phi \stackrel{\simeq}{\to} f^* \sum_g \phi
+  \,.
+$$
+
++-- {: .num_example}
+###### Example
+
+Consider the diagram of [[contexts]]
+
+$$
+  \array{
+    [\Gamma, x : X] &\stackrel{}{\to}& [\Gamma, x : X, y : Y]
+    \\
+    \downarrow && \downarrow
+    \\
+    \Gamma &\to& [\Gamma, y : Y]
+  }
+  \;\;\;
+  \simeq
+  \;\;\;
+  \array{
+    \Gamma \times X &\stackrel{(p_1,p_2,t)}{\to}& \Gamma \times X \times Y
+    \\
+    {}^{\mathllap{p_1}}\downarrow && \downarrow^{\mathrlap{(p_1,p_3)}}
+    \\
+    \Gamma &\stackrel{(id,t)}{\to} & \Gamma \times Y
+  }
+  \,,
+$$
+
+with the horizontal morphism coming from a [[term]] $t : \Gamma \to Y$ in [[context]] $\Gamma$ and the vertical morphisms being the evident [[projection]], then the condition says that we may in a [[proposition]] $\phi$ substitute $t$ for $y$ before or after quantifying over $x$:
+
+$$
+ \sum_{x : X} \phi(x,t) \simeq (\sum_{x : X} \phi(x,y))[t/y]
+ \,.
+$$
+
+=--
+
 ## Examples
 
 ### Pullbacks of opfibrations
