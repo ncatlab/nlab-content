@@ -95,6 +95,7 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 * Zbigniew Semadeni, _Banach spaces of continuous functions_, vol. I, [gBooks](http://books.google.com/books/about/Banach_spaces_of_continuous_functions.html?id=vCDvAAAAMAAJ)
 
+
 * N. Landsman, _Mathematical topics between classical and quantum mechanics_, Springer
 
 * Walter Rudin, _Functional analysis_
@@ -105,6 +106,11 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 
 * T. W. Palmer, _Banach Algebras and the General Theory of \* -Algebras_
+
+Discussion over [[non-archimedean fields]] is in
+
+* {#BoschGuntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], section 3.7 of _[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry_, 1984 ([pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf))
+
 
 Discussion in the context of ([[global analytic geometry]]) [[analytic geometry]] is in the following articles.
 
@@ -121,4 +127,3 @@ category: analysis
 
 [[!redirects Banach algebra]]
 [[!redirects Banach algebras]]
-
