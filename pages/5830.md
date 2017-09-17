@@ -419,7 +419,11 @@ A discussion of univalence for [[categories of presheaves]] over an [[inverse ca
 
 * [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)).
 
-the conjecture that the models of HoTT with function extensionality are [[locally cartesian closed (∞,1)-categories]] is explicitly stated in
+Discussion of univalence in various other [[model category]] presentations for [[∞Grpd]] ([[cubical sets]], [[cellular sets]]) is in
+
+* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+
+The conjecture that the models of HoTT with function extensionality are [[locally cartesian closed (∞,1)-categories]] is explicitly stated in
 
 * [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
 
