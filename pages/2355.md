@@ -140,10 +140,76 @@ This is [[Higher Topos Theory|HTT, prop 5.2.1.3]] (also remark 5.2.2.2), and [[H
 
 =--
 
+### Preservation of limits and colimits {#PresOfLims}
+
+Recall that for $(L \dashv R)$ an ordinary pair of [[adjoint functor]]s, the fact that $L$ preserves [[colimit]]s (and that $R$ preserves [[limit]]s) is a formal consequence of 
+
+1. the hom-isomorphism $Hom_C(L(-),-) \simeq Hom_D(-,R(-))$;
+
+1. the fact that $Hom_C(-,-) : C^{op} \times C \to Set$ preserves all limits in both arguments;
+
+1. the [[Yoneda lemma]], which says that two objects are isomorphic if all homs out of (into them) are.
+
+Using this one computes for all $c \in C$ and diagram $d : I \to D$
+
+$$
+\begin{aligned}
+  Hom_C(L(\lim_{\to} d_i), c) & \simeq 
+  Hom_D(\lim_\to d_i, R(c))
+  \\
+  & \simeq 
+  \lim_{\leftarrow} Hom_D(d_i, R(c))
+  \\
+  & \simeq \lim_{\leftarrow} Hom_C(L(d_i), c)
+  \\
+  & \simeq Hom_C(\lim_{\to} L(d_i), c)
+  \,,
+\end{aligned}
+$$
+
+which implies that $L(\lim_\to d_i) \simeq \lim_\to L(d_i)$.
+
+Now to see this in $(\infty,1)$-category theory...
+
+
+### Adjunctions on homotopy categories {#OnHomotopyCat}
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $(L \dashv R) : C \stackrel{\leftarrow}{\to} D$ an $(\infty,1)$-adjunction, its image under decategorifying to [[homotopy category of an (infinity,1)-category|homotopy categories]] is a pair of ordinary [[adjoint functor]]s 
+
+$$
+  (Ho(L) \dashv Ho(R)) : Ho(C) \stackrel{\leftarrow}{\to} Ho(D)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop 5.2.2.9]].
+
+This follows from that fact that for $\epsilon : Id_C \to R \circ L$ a unit of the $(\infty,1)$-adjunction, its image $Ho(\epsilon)$ is a unit for an ordinary adjunction.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+The converse statement is in general false. 
+
+One way to find  that an ordinary adjunction of homotopy categories lifts to an $(\infty,1)$-adjunction is to exhibit it as a [[Quillen adjunction]] between [[simplicial model category]]-structures. This is discussed in the Examples-section [Simplicial and derived adjunction](#SimplicialAndDerived) below.
+
+=--
+
 
 ## Examples
 
-### Simplicial and derived adjunctions
+### Simplicial and derived adjunctions {#SimplicialAndDerived}
 
 A large class of examples arises from adjunctions in [[sSet]]-[[enriched category theory]], and in particular from enriched [[Quillen adjunctions]] between [[simplicial model category|simplicial model categories]].
 
