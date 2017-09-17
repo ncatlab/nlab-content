@@ -45,8 +45,27 @@ A _symmetric 2-group_ is a [[2-group]] equipped with the following equivalent st
 
 ## Related concepts
 
-* [[k-tuply groupal n-groupoid]]
+* [[∞-group]], [[k-tuply groupal n-groupoid]]
 
-* [[braided 2-group]]
+* [[braided ∞-group]],
+
+  * [[braided 2-group]]
+
+  * [[braided 3-group]]
+
+* [[sylleptic ∞-group]]
+
+  * [[sylleptic 3-group]]
+
+* [[abelian ∞-group]]
+
+  * [[abelian group]]
+
+  * **symmetric 2-group**
+
+  * [[abelian 3-group]]
 
 [[!redirects symmetric 2-groups]]
+
+[[!redirects abelian 2-group]]
+[[!redirects abelian 2-groups]]
