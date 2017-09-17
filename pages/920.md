@@ -8,3 +8,5 @@ Working with decidable subsets of sets with decidable equality makes constructiv
 
 
 [[!redirects decidable subsets]]
+[[!redirects detachable subset]]
+[[!redirects detachable subsets]]
