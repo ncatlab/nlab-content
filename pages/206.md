@@ -3,6 +3,16 @@
 </div>
 
 
+This page is about **algebra as a theory**. If you are looking for the term **algebra as an object** see [[associative algebra]] or [[algebra over an operad]] or the like. See below for more.
+
+***
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 **Algebra** is the manipulation of symbols without (necessarily) regard for their meaning, especially in a way that can be formalized in [[cartesian logic]].  It is often seen as [[duality|dual]] to [[geometry]]. While modern algebra has ties and applications nearly everywhere in mathematics, traditionally closest ties are with the [[number theory]] and [[algebraic geometry]].
 
 The word 'algebra' is often also used for an algebraic structure:
@@ -16,11 +26,13 @@ The word 'algebra' is often also used for an algebraic structure:
 
 Various fields of mathematics or mathematical concepts can be manipulated in an algebraic or symbolic way, and such approaches or formalized subfields have names like [[categorical algebra]], [[homological algebra]], [[homotopical algebra]] and so on. Methods of combinatorics which involve much algebra, and manipulations with [[formal power series]] in particular, are called [[algebraic combinatorics]].
 
+## Related entries
+
 The $n$lab has a number of entries on particular algebraic structures ([[monoid]], [[semigroup]], [[group]], [[ring]], [[noetherian ring]], [[quasigroup]], [[associative algebra]], [[Lie algebra]], [[coalgebra]], [[dg-algebra]], [[bialgebra]], [[graded algebra]], [[Hopf algebra]], [[coring]], [[quasitriangular bialgebra]], [[lattice]], [[rig]], $\Omega$-[[$\Omega$-group|group]], [[field]], [[perfect field]], [[free field]], [[vertex operator algebra]] etc.), their structural features, parts, "envelopes" or localizations ([[ideal]], [[center]], [[centralizer]], [[normal subgroup]], [[normal closure]], [[normalizer]], [[holomorph]], [[Ore set]], [[Ore localization]], [[enveloping algebra]], [[universal enveloping algebra]]...) and on algebraic structures internal to other categories ([[topological group]], [[Lie group]], [[Lie groupoid]], [[algebraic group]], [[formal group]] etc).
 
 For many algebraic structures a notion of [[action]] is defined; they embody "symmetry algebras" of some other algebraic objects. The possibilities for realizing a given algebra in such a way are systematically studied in a field called [[representation theory]]. 
 
-#Further references#
+## Further references
 
 * See [_Wikipedia_](http://en.wikipedia.org/wiki/Algebra)
 
