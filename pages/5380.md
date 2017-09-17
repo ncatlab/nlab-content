@@ -1,9 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
+
 
 Let $T$ be an abelian [[Lawvere theory]] (one containing the theory of [[abelian group]]s). Write $\mathbb{A}^1$ for its canonical [[line object]] and $\mathbb{G}_m$ for the corresponding multiplicative group object.
 
@@ -23,6 +34,12 @@ $$
 
 is the corresponding projective space.
 
+If instead of forming the [[quotient]] one forms the weak quotient/[[action groupoid]], one speaks of the [[projective stack]]
+
+$$
+  \hat \mathbb{P}(X) := (X-\{0\})//\mathbb{G}_m
+  \,.
+$$
 
 ### Examples
 
