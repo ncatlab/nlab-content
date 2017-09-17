@@ -83,6 +83,8 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 
 * [[model structure for homotopy n-types]]
 
+* [[n-types cover]]
+
 [[!redirects n-type]]
 [[!redirects homotopy n-types]]
 [[!redirects n-types]]
