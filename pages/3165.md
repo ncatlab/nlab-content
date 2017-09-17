@@ -30,3 +30,7 @@ $$
 $$ 
 
 Concrete formulas for this work exactly as described in detail at [[group cohomology]], only wherever there we have the unique object $\bullet$, now there may be arbitrary objects.
+
+## Examples
+
+* The [[Liouville cocycle]] is a 1-cocycle on the [[action groupoid]] of the action of conformal resclings on the space of [[Riemannian metric]]s on a surface.
