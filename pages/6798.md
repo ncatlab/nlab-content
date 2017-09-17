@@ -52,6 +52,8 @@ Special properties are enjoyed by
 
 * [[D=5 super Yang-Mills theory]]
 
+* [[D=10 super Yang-Mills theory]]
+
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
 See there for more details.
