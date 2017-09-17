@@ -22,6 +22,8 @@
 
 The _spinning string_ is a variant of the [[string]] in direct analogy (but one [[worldvolume]] [[dimension]] higher) to how the [[spinning particle]] is a variant of the [[particle]].
 
+(Which means that "spinning" here is _not_ in the sense of "rotating", but in the sense of the kind of "intrinsic" spin as exhibited by [[fermion]] [[particle]]s. A spinning string can rotate _in addition_ to its intrinsic spin.)
+
 And just as as the [[spinning particle]] automatically exhibits local [[worldline supersymmetry]], the spinning string automatically exhibits local [[worldsheet]] [[supersymmetry]]. For that reason it is today almost exclusively known as the _[[superstring]]_ . 
 
 In fact, the very notion of [[supersymmetry]] was realized (in parallel to its independent discovery in Russia) when people noticed that the spinning string [[sigma-model]] -- also called the _Neveu-Ramond-Schwarz model_ (**NSR model**) -- automatically exhibits this extra graded symmetry.
