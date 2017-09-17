@@ -36,6 +36,12 @@ I think I must have forgotten a clause in this definition, since the geometric m
 
 * Hyperconnected geometric morphisms are the left class of a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi; the right class is the class of [[localic geometric morphisms]].  In particular, a geometric morphism can only be both hyperconnected and localic if it is an equivalence.  Therefore, if we view topoi as generalized [[topological spaces]] (or [[locales]]), the world of hyperconnected topoi and geometric morphisms lives entirely in the "generalized" part.
 
+## References
+
+* [[Peter Johnstone]], _Factorization theorems for geometric morphisms_ Cahiers, 22, no1 (1981) ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_1_3_0))
+{#Johnstone}
+
+
 
 [[!redirects hyperconnected geometric morphism]]
 [[!redirects hyperconnected geometric morphisms]]
