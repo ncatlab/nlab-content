@@ -56,6 +56,9 @@ There is a canonical projection map $N \longrightarrow N^\wedge_{\mathfrak{a}}$.
 
 Let $A$  be an [[E-∞ ring]] and $\mathfrak{a} \subset \pi_0 A$ a [[generators and relations|finitely generated]] ideal of its underlying [[commutative ring]]. 
 
+#### Torsion approximation
+ {#TorsionApproximation}
+
 +-- {: .num_defn #TorsionInfinityModule}
 ###### Definition
 
@@ -64,6 +67,42 @@ An $A$-[[∞-module]] $N$ is an _$\mathfrak{a}$-torsion module_ if for all eleme
 =--
 
 ([Lurie "Completions", def. 4.1.3](#LurieCompletions)).
+
+
++-- {: .num_prop #TorsionApproximation}
+###### Proposition
+
+The [[full sub-(∞,1)-category]]
+
+$$
+  A Mod_{\mathfrak{a}tor}
+  \hookrightarrow
+  A Mod
+$$
+
+is [[reflective sub-(∞,1)-category|co-reflective]] and the co-reflector $\Pi_{\mathfrak{a}}$ -- the _[[torsion approximation]]_ -- is [[smashing localization|smashing]].
+
+=--
+
+([Lurie "Completions", prop. 4.1.12](#LurieCompletions)).
+
++-- {: .num_prop}
+###### Proposition
+
+For $N \in A Mod_{\leq 0}$ then [[torsion approximation]], prop. \ref{TorsionApproximation}, intuced a [[monomorphism]] on $\pi_0$
+
+$$
+  \pi_0 \Pi_{\mathfrak{a}} N \hookrightarrow \pi_0 N
+$$
+
+including the $\mathfrak{a}$-nilpotent elements of $\pi_0 N$.
+
+=--
+
+([Lurie "Completions", prop. 4.1.18](#LurieCompletions)).
+
+#### Localization
+ {#Localization}
 
 +-- {: .num_defn #LocalInfinityModule}
 ###### Definition
@@ -83,7 +122,7 @@ is contractible.
 +-- {: .num_prop #LocalizationAwayByColimit}
 ###### Proposition
 
-For $\mathfrak{a} = (a)$ generated from a single element, then the localization map $A \to A[a^{-1}]$ is given by the [[(∞,1)-colimit]] over the sequence of right-multiplication with $a$
+For $\mathfrak{a} = (a)$ generated from a single element, then the [localization of an (∞,1)-ring](localization+of+a+commutative+ring#ForEInfinityRings)-map $A \to A[a^{-1}]$ is given by the [[(∞,1)-colimit]] over the sequence of right-multiplication with $a$
 
 $$
   A[a^{-1}]
@@ -101,6 +140,45 @@ $$
 
 ([Lurie "Completions", remark 4.1.11](#LurieCompletions))
 
++-- {: .num_prop}
+###### Proposition
+
+The [[full sub-(∞,1)-category]]
+
+
+$$
+  A Mod_{\mathfrak{a}loc}
+  \hookrightarrow
+  A Mod
+$$
+
+of [[∞-modules]] [[localization of a module|local]] away from $\mathfrak{a}$ is [[reflective sub-(∞,1)-category|reflective]]. The reflector
+
+
+$$
+  \Pi_{\mathfrak{a}dR} \colon A Mod \longrightarrow A Mod_{\mathfrak{a}loc}
+$$
+
+is called _[[localization of a module|localization]]_.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[natural transformation|natural]] [[homotopy fiber sequence]]
+
+$$
+  &#643;_{\mathfrak{a}} \longrightarrow id \longrightarrow &#643;_{\mathfrak{a}dR}
+$$
+
+relating $\mathfrak{a}$-torsion approximation on the left with $\mathfrak{a}$-[[localization of a module|localization]] on the right.
+
+=--
+
+
+#### Completion
+
 +-- {: .num_defn #InfinityCompletion}
 ###### Definition/Proposition
 
@@ -116,8 +194,9 @@ $$
 
 of the [[(∞,1)-category of ∞-modules]] on the $\mathbb{a}$-complete ones is a [[reflective sub-(∞,1)-category]]. The reflector
 
+
 $$
-  \flat_{\mathfrak{a}} \colon A Mod \longrightarrow A Mod_{\mathfrak{a}compl} \hookrightarrow A Mod
+  \flat_{\mathfrak{a}} \colon A Mod \longrightarrow A Mod_{\mathfrak{a}comp} \hookrightarrow A Mod
 $$
 
 $$
@@ -170,7 +249,7 @@ $$
  \,.
 $$
 
-Moreover, the coreflector $\Pi_{\mathfrak{a}}$ is "[[smashing localization|smashing]]", in that there is $V \in A Mod$ such that $\Pi_{\mathfrak{a}}(-) \simeq \wedge (-)$ is given by the [[smash product]] with $V$. If $\mathfrak{a} = (x_i)_i \Omega (A[x_i^{-1}]/A)$ then $V$ is the tensor product $V =\underset{i}{\otimes} V_i$ over all the [[homotopy fibers]]
+Moreover, the coreflector $\Pi_{\mathfrak{a}}$ is "[[smashing localization|smashing]]", in that there is $V \in A Mod$ such that $\Pi_{\mathfrak{a}}(-) \simeq \wedge (-)$ is given by the [[smash product]] with $V$. If $\mathfrak{a} = (x_i)_i $ then $V$ is the tensor product $V =\underset{i}{\otimes} V_i$ over all the [[homotopy fibers]]
 
 $$
   \Omega (A[x_i^{-1}]/A) \longrightarrow A \longrightarrow A[x_i^{-1}]
