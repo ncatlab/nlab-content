@@ -1,10 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-This page is about unbounded operators on [[Hilbert space]]s. For operators on Hilbert spaces, "bounded" and "continuous" are synonymous, so the first question to be answered is: Why consider unbounded, i.e., discontinuous operators in a category that is a [[subcategory]] of [[Top]]? The reason is simple: It is forced upon us both by applications, such as [[quantum mechanics]], and by the fact that simple and useful operators like differentiation are not bounded. Happily, in most applications the operators considered retain some sort of "limit property", namely the property of being "closed". Although that seems to be negligible compared to continuity, it allows the development of a rich and useful theory, and as a consequence there is a tremendous amount of literature devoted to this subject. 
+This page is about unbounded [[linear operator]]s on [[Hilbert space]]s. For operators on Hilbert spaces, "bounded" and "continuous" are synonymous, so the first question to be answered is: Why consider unbounded, i.e., discontinuous operators in a category that is a [[subcategory]] of [[Top]]? The reason is simple: It is forced upon us both by applications, such as [[quantum mechanics]], and by the fact that simple and useful operators like differentiation are not bounded. Happily, in most applications the operators considered retain some sort of "limit property", namely the property of being "closed". Although that seems to be negligible compared to continuity, it allows the development of a rich and useful theory, and as a consequence there is a tremendous amount of literature devoted to this subject. 
   
 ### Example: differentiation is unbounded
 
@@ -189,6 +205,16 @@ Let $D$ be the set of all smooth functions with compact support not containing $
 
 Only part (a) needs further explanation...
 
+## Related concepts
+
+* [[operator]]
+
+* [[linear operator]]
+
+* [[bounded linear operator]] / **unbounded linear operator**
+
+* [[operator algebra]]
+
 ## References
 
 Chapter VIII of the following classic volume is devoted to unbounded operators:
@@ -207,3 +233,6 @@ Nelson's example is taken from the above reference, the original reference is th
 [[!redirects closable operator]]
 [[!redirects closed operator]]
 [[!redirects essentially selfadjoint operator]]
+
+[[!redirects unbounded linear operator]]
+[[!redirects unbounded linear operators]]
