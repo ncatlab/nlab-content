@@ -45,7 +45,7 @@ See
 ### Higher dimensional Chern-Simons theory / Self-dual higher gauge theory
 
 Generally, [[higher dimensional Chern-Simons theory]]
-in dimension $4k+3$ (for $k \in \mathbb{N}$) is holograohically related to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case). 
+in dimension $4k+3$ (for $k \in \mathbb{N}$) is holographically related to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case). 
 
 * $(k=0)$: ordinary 3-dimensional [[Chern-Simons theory]] is related to a [[string]] [[sigma-model]] on its boundary;
 
