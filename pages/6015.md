@@ -1,0 +1,9 @@
+[[Henning Krause]] is a German mathematician (Padeborn, Bielefeld) specialized in algebra including representation theory of finite dimensional associative algebras and quivers, study of abelian and triangulated categories, including localization theory and spectra of abelian and (tensor) triangulated categories. 
+
+* [webpage](http://www2.math.uni-paderborn.de/people/henning-krause.html), [publications](http://www2.math.uni-paderborn.de/people/henning-krause/publications.html)
+
+* _Localization theory for triangulated categories_, [arXiv/0806.1324](http://arxiv.org/abs/0806.1324)
+
+* _The spectrum of a module category_, Memoirs AMS vol. __149__, n. 707 (2001), [gBooks](http://books.google.hr/books?id=ax_P331Qfu0C)
+
+[[!redirects H. Krause]]
