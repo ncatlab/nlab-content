@@ -255,7 +255,7 @@ is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ 
 
 
 
-### Homotopy and Galois theory {#Homotopy}
+### Geometric homotopy and Galois theory {#Homotopy}
 
 Every [[locally ∞-connected (∞,1)-topos]] comes with its notion of [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] $\Pi(X)$ of an object $X$.
 
@@ -398,7 +398,7 @@ The proposition now follows with the above observation that $\Pi$ preserves all 
 
 
 
-### Paths {#Paths}
+### Paths and geometric Postnikov towers {#Paths}
 
 +-- {: .un_def}
 ###### Definition
