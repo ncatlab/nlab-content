@@ -29,13 +29,30 @@ $$
 
 where $L_4$ is the fourth [[Drinfeld-Kohno Lie algebra]] and $c=-a-b$.
 
-
-These [[equations]] are modelled on the defining [[axioms]] of [[braided monoidal categories]]. Indeed, associators provides a universal way of constructing braided monoidal categories out of some [[Lie algebra|Lie algebraic]] data.
-
 +-- {: .num_remark}
 ###### Remark
 
 The set of "0-associators" is the so-called [[Grothendieck-Teichmueller group]].
+
+=--
+
+## Relations with braided monoidal categories
+These [[equations]] are modelled on the defining [[axioms]] of [[braided monoidal categories]]. Indeed, associators provides a universal way of constructing braided monoidal categories out of some [[Lie algebra|Lie algebraic]] data.
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $(\mathfrak{g},t)$ be a metrizable [[Lie algebra]], that is a Lie algebra $\mathfrak{g}$ together with a non-degenerate symmetric $\mathfrak{g}$-invariant 2-tensor $t$. Then if $\Phi$ is a $\lambda$-associator and $\hbar$ a formal variable, then the action of 
+$$
+\Phi(\hbar (t \otimes 1),\hbar (1\otimes t)) \in U(\mathfrak{g})^{\otimes 3}[[\hbar]]
+$$
+ and $e^{\hbar \lambda t/2}\circ P$ turns the category of $U(\mathfrak{g} ) [ [ \hbar ] ] $ module into a braided monoidal category, where $P$ is the flip: $P(a\otimes b)=b\otimes a$.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Examples of metrizable Lie algebras are provided by [[simple Lie algebras]], in which case $t$ is a scalar mutliple of the [[Killing form]]. The braided monoidal category obtained this way is equivalent to that constructed from the corresponding [[quantum group]], by the [[Drinfeld-Kohno theorem]].
 
 =--
 
