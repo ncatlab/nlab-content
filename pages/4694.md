@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A **monoidal adjunction** is an [[adjunction]] between [[monoidal categories]] which respects the monoidal structure.
@@ -14,6 +34,12 @@ Actually, since there are several types of [[monoidal functors]] (lax, colax, an
 
 * A mixed situation, in which the left adjoint is colax, the right adjoint is lax, and the lax and colax structure maps are [[mates]] under the adjunction.  This is a [[conjunction]] in the [[double category]] of monoidal categories and lax and colax monoidal functors, so we may call it a **monoidal conjunction** or a **lax/colax monoidal adjunction**.  By [[doctrinal adjunction]], given any adjunction between monoidal categories, if the right adjoint is lax monoidal, then the left adjoint automatically acquires a colax monoidal structure making the adjunction into a monoidal conjunction, and dually.
 
+## Examples
+
+* In [[linear type theory]] (see there for more) the $!$-[[modality]] may have [[categorical semantics]] as the [[comonad]] induced by a monoidal adjunction. 
+
+
+
 [[!redirects monoidal adjunctions]]
 [[!redirects opmonoidal adjunction]]
 [[!redirects opmonoidal adjunctions]]
@@ -22,3 +48,5 @@ Actually, since there are several types of [[monoidal functors]] (lax, colax, an
 [[!redirects monoidal conjunction]]
 [[!redirects monoidal conjunctions]]
 
+[[!redirects strong monoidal adjunction]]
+[[!redirects strong monoidal adjunctions]]
