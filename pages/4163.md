@@ -4,7 +4,7 @@
 </div>
 
 
-> see [[quantum field theory]]
+> see [[perturbation theory]]
 
 
 ## References
@@ -17,3 +17,5 @@ The following are references on perturbative quantum field theory in the context
 
 
 * Bruno Chilian, _The time-slice axiom in perturbative QFT on globally hyperbolic spacetimes_ ([pdf slides](http://www.desy.de/uni-th/lqp/lqp08/slides/Hamburg-Slides-Chilian.pdf))
+
+[[!redirects perturbative field theory]]
