@@ -65,6 +65,9 @@ For more on this idea, see [[internal logic]].
 
   * The category $G Set$ of [[set]]s equipped with the [[action]] of a [[group]] $G$: this is the topos of presheaves on the category $\mathbf{B}G$ which is the [[delooping]] [[groupoid]] of $G$.
 
+* For $E$ a topos and $X \in E$ any [[object]], also the [[overcategory]]
+  $E/X$ is again a topos. ([[Elephant]], A.2.3.2). 
+
 * If $G$ is a [[topological group]], then the category $Cont(G)$ of sets with a *continuous* action of $G$ (that is, the action map $G\times X\to X$ is [[continuous map|continuous]], where $X$ has the [[discrete topology]]) is a topos, and in fact a Grothendieck topos (though this may not be obvious).  More generally, $G$ may be a [[topological groupoid]], or even a [[localic groupoid]].  In fact, it is a theorem that every Grothendieck topos can be presented as the topos of "continuous sheaves" on a localic groupoid.
 
 * Again if $G$ is a topological group, the category $Unif(G)$ of *[[uniformly continuous map|uniformly continuous]]* $G$-sets is also a topos, but not (in general) one of Grothendieck's.  For example, if $G$ is the [[profinite completion]] of $\mathbb{Z}$, then a continuous $G$-set is a $\mathbb{Z}$-set all of whose orbits are finite, while a uniformly continuous one is a $\mathbb{Z}$-set with a finite upper bound on the size of all its orbits.
