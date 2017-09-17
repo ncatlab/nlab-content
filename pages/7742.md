@@ -1,0 +1,9 @@
+Let $L$ be a first order language and $T$ a [[theory]] over $L$. One can consider the category $\mathcal{M}_{el}(L)$ of [[structure in model theory|structures]] over $L$ and [[elementary monomorphism]]s. Define $\mathcal{M}_{el}(T)$ as a full subcategory whose objects are models of $T$. 
+ 
+A __definable groupoid__ over a theory $T$ is an [[internal groupoid]] in the category of [[definable set]]s and definable functions, i.e. the internal groupoid in the category of functors $\mathcal{M}_{el}(T)\to Set$.  Similarly, for more general notion of a __definable category__\ over $T$. 
+
+* [[Ehud Hrushovski]], _Groupoids, imaginaries and internal covers_, [arxiv/math.LO/0603413](http://arxiv.org/abs/math/0603413) 
+
+[[!redirects definable groupoids]]
+[[!redirects definable category]]
+[[!redirects definable categories]]
