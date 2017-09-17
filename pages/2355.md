@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
-
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -290,6 +295,47 @@ As for ordinary [[adjoint functor]]s we have that given an $(\infty,1)$-adjuncti
 
 
 (see also [[Higher Topos Theory|HTT, p. 308]]).
+
+### On over-$(\infty,1)$-categories {#OnSlices}
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let
+
+$$
+  (L \dashv R) : D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
+     C
+$$
+
+be a pair of adjoint $(\infty,1)$-functors where the $(\infty,1)$-category $C$ has all [[(∞,1)-pullback]]s. 
+
+Then for every object $X \in C$ there is induced a pair of adjoint $(\infty,1)$-functors between the [[over-(∞,1)-categories]]
+
+$$
+  (L/X \dashv R/X) 
+   : D/(L X) \stackrel{\overset{L/X}{\leftarrow}}{\underset{R/X}{\to}}
+     C/X
+$$
+
+where
+
+* $L/X$ is the evident induced functor;
+
+* $R/X$ is the composite
+
+  $$
+    R/X : D/{L X} \stackrel{R}{\to} C/{(R L X)} \stackrel{i_{X}^*}{\to}
+     C/X
+  $$
+
+  of the evident functor induced by $R$ with the [[(∞,1)-pullback]] along the $(L \dashv R)$-[[unit of an adjunction|unit]] at $X$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.2.5.1]].
 
 ## Examples
 
