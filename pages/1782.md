@@ -237,5 +237,10 @@ implementing a suggestion stated in
 
 * {#Drinfeld03} [[Vladimir Drinfeld]], _Infinite-dimensional vector bundles in algebraic geometry (an introduction)_ ([arXiv:math/0309155](http://arxiv.org/abs/math/0309155))
 
+### Examples
+
+* {#Ananyevskiy} Alexey Ananyevskiy, _On the algebraic $K$-theory of some homogeneous varieties_ ([pdf](http://www.math.uni-bielefeld.de/lag/man/431.pdf))
+
+
 [[!redirects algebraic K-theory of a stable (∞,1)-category]]
 [[!redirects algebraic K-theory of a stable (infinity,1)-category]]
