@@ -266,7 +266,9 @@ Would someone translate the Topological term for an aging algebraic topologist? 
 [[!redirects WZW theory]]
 [[!redirects WZW-theory]]
 [[!redirects WZNW model]]
+[[!redirects WZNW models]]
 [[!redirects WZNW-model]]
+[[!redirects WZNW-models]]
 [[!redirects WZNW theory]]
 [[!redirects WZNW-theory]]
 
