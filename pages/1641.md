@@ -26,7 +26,7 @@ A _topological category_ is a [[concrete category]] with nice features matching 
 
 ## Definition
 
-Most generally, the definition relates to a [[functor]] $U\colon C \to D$ (such as the [[forgetful functor]] from $Top$ to [[Set]]), but one can think of this as giving $C$ as a [[bundle]] over $D$.  Usually $C$ and $D$ will be [[large categories]].  Let a _space_ be an object of $C$, an _algebra_ be an object of $D$, a _map_ be a morphism in $C$, and a _homomorphism_ be a morphism in $D$.  (The reason is that, typically, $C$ will be a category of spaces with some kind of topological structure while $D$ will be, if not $Set$, then some kind of algebraic category.)
+Most generally, the definition relates to a [[functor]] $U\colon C \to D$ (such as the [[forgetful functor]] from $Top$ to [[Set]]), but one can think of this as giving $C$ as a [[bundle]] over $D$. Sometimes, when $D$ is in fact [[Set]], the category $C$ satisfying the properties described belows is called a _topological construct_ (Preuss). Usually $C$ and $D$ will be [[large categories]].  Let a _space_ be an object of $C$, an _algebra_ be an object of $D$, a _map_ be a morphism in $C$, and a _homomorphism_ be a morphism in $D$.  (The reason is that, typically, $C$ will be a category of spaces with some kind of topological structure while $D$ will be, if not $Set$, then some kind of algebraic category.)
 
 Then $C$ is a __topological category__ over $D$ if, given any algebra $X$ and any (possibly large) family of spaces $S_i$ and homomorphisms $f_i\colon X \to U(S_i)$ (that is, a "$U$-structured" [[sink|source]] from $X$), there exists an [[initial lift]], which is to say
 *  a space $T$, an [[isomorphism]] $g\colon U(T) \to X$, and maps $m_i\colon T \to S_i$ such that each [[composite]] $g ; f_i$ equals $U(m_i)$ and,
@@ -118,8 +118,13 @@ It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in
 [acc]: http://katmat.math.uni-bremen.de/acc "Abstract and Concrete Categories"
 
 
+* Gerhard Preuss; 2002; _Foundations of Topology: An Approach to Convenient Topology_; Kluwer ISBN 1-4020-0891-0.
+
 [[!redirects topological concrete category]]
 [[!redirects topological concrete categories]]
+
+[[!redirects topological construct]]
+[[!redirects topological constructs]]
 
 [[!redirects topological category]]
 [[!redirects topological categories]]
