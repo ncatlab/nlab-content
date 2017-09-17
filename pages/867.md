@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,12 +10,11 @@
 =--
 
 #Contents#
-* automatic toc goes here
+* table of contents
 {:toc}
 
 
-
-## Idea ##
+## Idea 
 
 A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.  This is the fundamental notion in [[order theory]].
 
@@ -33,7 +33,7 @@ Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq
 A __poset__ is a set equipped with a partial order.
 
 
-### As a category with extra properties ###
+### As a category with extra properties 
 
 A poset can be understood as a [[category]] with [[extra property]].
 
@@ -47,7 +47,7 @@ Equivalently, we may define a poset to be a [[skeleton|skeletal category]] [[thi
 When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain sense.  (On the other hand, it is not evil if taken as a *definition* of [[equality]].)
 
 
-### Monotone functions ###
+### Monotone functions 
 
 The morphisms of partially ordered sets are [[monotone functions]]; a __monotone function__ $f$ from a poset $S$ to a poset $T$ is a [[function]] from $S$ to $T$ (seen as seen as [[structured sets]]) that preserves $\leq$:
 $$ x \leq y \;\Rightarrow\; f(x) \leq f(y) .$$
@@ -56,7 +56,7 @@ Equivalently, it is a [[functor]] from $S$ to $T$ (seen as certain categories).
 In this way, posets form a [[category]] [[Pos]].
 
 
-## Intervals ##
+### Intervals 
 
 A (closed bounded) **[[interval]]** in a poset $C$ is a set of the form
 $$[x,y] = \{r\in C|x\le r\le y\}.$$
@@ -64,7 +64,7 @@ $$[x,y] = \{r\in C|x\le r\le y\}.$$
 A poset is **[[locally finite poset|locally finite]]** if every closed bounded interval is finite.
 
 
-## Kinds of posets ##
+### Kinds of posets 
 
 A poset with a [[top element]] and [[bottom element]] is called __bounded__.  (But note that a *[[subset]]* of a poset may be bounded without being a bounded as a poset in its own right.)  More generally, it is __bounded above__ if it is has a top element and __bounded below__ if it has a bottom element.
 
@@ -77,16 +77,101 @@ As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is
 A poset with a bounding [[countable set|countable subset]] is called __$\sigma$-bounded__.  That is, the poset is $\sigma$-bounded above if there exists a sequence $(x_n)_{n=1}^{N}$ (where $N$ is a natural number or infinity) such that for every $y$ in the poset there is an $x_m$ with $y \leq x_m$.  (The poset is $\sigma$-bounded below if we have $x_m \leq y$ instead.)  Note that every bounded poset is $\sigma$-bounded, but not conversely.  Note that some authorities require $N = \infty$; this makes a difference only for the empty poset (we say it is $\sigma$-bounded, they say it is not).
 
 
-## In higher category theory ##
+### In higher category theory 
 
 A poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[vertical categorification]] of the notion of poset to that of [[n-poset]].
 
 
-## References ##
+## Properties
 
-* Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
-* Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88--100.
-* Tim Porter, _Enriched categories and models for spaces of
+### Locales from posets -- Alexandrov topology
+ {LocalesFromPosets}
+
++-- {: .num_defn }
+###### Definition
+
+For $P$ a poset, write $Up(P)$ for the [[topological space]] whose underlying [[set]] is the underlying set of $P$ and whose [[open subset]]s are the _upward closed subsets_ of $P$: those subsets $U \subset P$ with the property that 
+
+$$
+  ((x \in U) and (x \leq y)) \Rightarrow (y \in U)
+  \,.
+$$ 
+
+This is called the **[[Alexandrov topology]]** on $P$.
+
+=--
+
++-- {: .num_prop #UpIfFFAndPreservesLimits}
+###### Proposition
+
+This construction naturally extends to a [[functor]]
+
+$Up : $ [[Poset]] $\to$ [[Top]] $\to$ [[Locale]].
+
+This functor is [[full and faithful functor|full and faithful]] and [[preserved limit|preserves]] [[limit]]s.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $P$ a poset, there is a [[natural equivalence]]
+
+$$
+  Sh(Up(P)) \simeq [P,Set]
+$$
+
+between the [[category of sheaves]] on the [[locale]] $Up(P)$ and the 
+category of [[copresheaves]] on $P$.
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+The [[2-functor]]
+
+$[-,Set] : Poset \to $ [[Topos]]
+
+that sends $f : P \to Q$ to the [[geometric morphism]]
+
+$$  
+  [P, Set]
+  \stackrel{\overset{f^*}{\leftarrow}}{\underset{Ran_f}{\to}}
+  [Q,Set]
+$$
+
+preseves limits.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the above the functor factors as
+
+$$
+  [-,Set] : Poset \stackrel{Up}{\to} Locale \stackrel{Sh}{\to} Topos
+  \,.
+$$
+
+By prop. \ref{UpIfFFAndPreservesLimits} the first functor
+preserves limits. By [[localic reflection]] the second one
+does, too.
+
+=--
+
+## References
+
+(...)
+
+Here are some references on [[directed homotopy theory]]:
+
+* [[Marco Grandis]], _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
+
+* [[Tim Porter]], _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88--100.
+
+* [[Tim Porter]], _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
 
 [[!redirects partially ordered]]
