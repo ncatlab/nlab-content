@@ -45,7 +45,7 @@ to postulate one direction because the other one follows.
 The nice thing about this formulation is that there is no
 mention of "canonical" morphisms and no of cleavages. 
 
-A fibration $P$ has products satisfying the Chevalley condition iff the opposite fibration $P^\mathsf{op}$ is 
+A fibration $P$ has products satisfying the Chevalley condition iff the opposite fibration $P^{op}$ is 
 a bifibration satisfying the Chevalley condition in the above sense.
 
 According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is crucial for establishing the connection between the descent in the sense of fibered categories and the [[monadic descent]].
