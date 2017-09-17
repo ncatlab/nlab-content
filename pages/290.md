@@ -104,7 +104,7 @@ Press,Cambridge,1995).
 
 An extensive compilation of material on QFT aiming for mathematical precision is
 
-* [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists. I: Basics in mathematics and physics._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete)), _II: Quantum electrodynamics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete))
+* [[Eberhard Zeidler]], _Quantum field theory. A bridge between mathematicians and physicists. I: Basics in mathematics and physics._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1124.81002&format=complete)), _II: Quantum electrodynamics_ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1155.81005&format=complete)), _III: Gauge theory_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1228.81005&format=complete)).
 
 A discussion of aspects of QFT with an eye towards applications in [[string theory]] and _aimed_ at mathematicians (though requiring more of a physicist's mindset than many pure mathematicians will find themselves in) is
 
