@@ -1,0 +1,14 @@
+
+* [webpage](http://math.mit.edu/~vwg/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Victor_Guillemin)
+
+## Related entries
+
+* [[symplectic geometry]]
+
+* [[geometric quantization]]
+
+* [[deformation quantization]]
+
+category: people
