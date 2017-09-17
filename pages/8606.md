@@ -1,0 +1,138 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Baer sum_ is the natural addition operation on [[abelian group extensions]].
+
+For $G$ a [[group]] and $A$ an [[abelian group]], the extensions of $G$ by $A$ are classified by the degree-2 [[group cohomology]] 
+
+$$
+  H^2_{Grp}(G,A) = H^2(\mathbf{B}G, A) = H(\mathbf{B}G, \mathbf{B}^2 A)
+  \,.
+$$
+
+On [[cocycles]] $\mathbf{B}G \to \mathbf{B}^2 A$ there is a canonical addition operation coming from the additive structure of $A$, and the Baer sum is the corresponding operation on the extensions that these cocycles classify.
+
+
+## Definition
+
+Below are discussed several different equivalent ways to define the Baer sum
+
+### On concrete cocycles
+
+A [[cocycle]] in degree-2 [[group cohomology]] $H^2_{Grp}(G,A)$ is a [[function]]
+
+$$
+  c : G \times G \to A
+$$
+
+satisfying the cocycle property. 
+
++-- {: .num_defn }
+###### Definition
+
+Given two coycles $c_1, c_2 : G \times G \to A$ their **sum** is the composite
+
+$$
+  (c_1 + c_2) : G \times G \stackrel{\Delta_{G \times G}}{\to} (G \times G) \times (G \times G) \stackrel{(c_1,c_2)}{\to} A \times A \stackrel{+}{\to} A
+$$
+
+of 
+
+* the [[diagonal]] on $G\times G$;
+
+* the [[direct product]] $(f,g)$;
+
+* the group operation $+ \colon A \times A \to A$.
+
+Hence for all $g_1, g_2 \in G$ this sum is the function that sends
+
+$$
+  (c_1 + c_2) : (g_1, g_2) \mapsto c_1(g_1,g_2) + c_2(g_1, g_2)
+$$
+
+
+=--
+
+
+
+### On abstract cocycles
+ 
+As discussed at [[group cohomology]], a cocycle $c \colon G \times G \to A$ is equivalently a morphism of [[2-groupoids]] from the [[delooping]] [[groupoid]] $\mathbf{B}G$ of $G$ to the double-delooping [[2-groupoid]] $\mathbf{B}^2 A$ of $A$:
+
+$$
+  c_1,c_2 : \mathbf{B}G \to \mathbf{B}^2 A
+  \,.
+$$
+
+Since $A$ is an abelian group, $\matbf{B}^2 A$ is naturally an abelian [[infinity-group|3-group]], equipped with a group operation $+ \colon (\mathbf{B}^2 A) \times (\mathbf{B}^A)\to \mathbf{B}^2 A $.
+
+With respect to this the sum operation is 
+
+$$
+  c_1 + c_2 : \mathbf{B}G \stackrel{\Delta_{\mathbf{B}G}}{\to} \mathbf{B}G \times   \mathbf{B}G \stackrel{(c_1,c_2)}{\to} \mathbf{B}^2 A \times \mathbf{B}^2 A \stackrel{+}{\to} \mathbf{B}^2 A
+$$
+
+### On short exact sequences
+
+
+For $0 \to A \to \hat G_{i} \to G \to 0$ for $i = 1,2$ two [[short exact sequences]] of [[abelian groups]], their **Baer sum** is 
+
+$$
+  \hat G_1 + \hat G_2
+  \coloneqq
+  +_* \Delta^* \hat G_1 \times \hat G_2
+$$
+
+The first step forms the [[pullback]] of the short exact sequence along rhe diagonal on $G$:
+
+$$
+  \array{
+    A \oplus A &\to& A \oplus A
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta^* (\hat G_1 \oplus \hat G_2) &\to& \hat G_1 \oplus \hat G_2
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{\Delta_G}{\to}&  G\oplus G
+  }
+$$
+
+The second forms the [[pushout]] along the addition map on $A$:
+
+$$
+  \array{
+    A \oplus A &\stackrel{+}{\to}& A
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta^* (\hat G_1 \oplus \hat G_2) &\to& +_* \Delta^*(\hat G_1 \oplus \hat G_2)
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\to&  G
+  }
+$$
+
+
+## Related concepts
+
+* [[cup product]]
+
+[[!redirects Baer sums]]
+[[!redirects Baer's sum]]
