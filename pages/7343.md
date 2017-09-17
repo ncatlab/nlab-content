@@ -67,17 +67,21 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 ### Introductions and surveys
  {#Surveys}
 
+
 * [[Davide Gaiotto]], _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
+
+* [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
+ {#Moore12}
+
 
 * [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
 
-* [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
- {#Moore}
 
 
 ### Construction from 5-branes
+ {#ReferencesConstructionFrom5Branes}
 
-$N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](SeibergWitten94)) for $N=2$, $D=4$ SYM may be understood as being the [[Kaluza-Klein mechanism|compactification]] of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of [[M5-branes]]. This is discussed in
+$N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](SeibergWitten94)) may be understood as being the [[Kaluza-Klein mechanism|compactification]] of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of [[M5-branes]] on a [[Riemann surface]]: the Riemann surface is identified with the _Seiberg-Witten curve_ of complexified coupling constants. This observation goes back to
 
 * A. Klemm, [[Wolfgang Lerche]], P. Mayr, [[Cumrun Vafa]], N. Warner, _Self-Dual Strings and N=2 Supersymmetric Field Theory_ ([arXiv:hep-th/9604034](http://arxiv.org/abs/hep-th/9604034))
  {#KlemmLercheMayrVafaWarner96}
@@ -85,14 +89,29 @@ $N=2$ $D=4$ SYM including its [[Seiberg-Witten theory]] ([Seiberg-Witten 94](Sei
 * [[Edward Witten]], _Solutions Of Four-Dimensional Field Theories Via M Theory_ ([arXiv:hep-th/9703166](http://arxiv.org/abs/hep-th/9703166)) 
  {#Witten97}
 
+
+The further observation that therefore the sewing of [[Riemann surfaces]] on which one compactifies the M5-brane yields a gluing operation on N=2 SYM theories is due to
+
 * [[Davide Gaiotto]], _N=2 dualities_ ([arXiv:0904.2715](http://arxiv.org/abs/0904.2715))
  {#Gaiotto09}
 
-The corresponding theory under [[AdS-CFT duality]] is discussed in
+(This is possibly the mechanism behind the [[AGT correspondence]], though the details obehind that statement seem to be unclear.)
+
+A brief review of these matters is in ([Moore 12, section 7](#Moore12)). An amplification of the relevance of this to the understanding of [[S-duality]]/[[electric-magnetic duality]] is in
+
+* [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_, in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+ {#Witten07}
+
+and the resulting relation to the [[geometric Langlands correspondence]] is discussed in 
+
+* [[Edward Witten]], _Geometric Langlands From Six Dimensions_ ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
+ {#Witten09}.
+
+The corresponding dual theory under [[AdS-CFT duality]] is discussed in
 
 * [[Davide Gaiotto]], [[Nathan Seiberg]], _The gravity duals of N=2 superconformal field theories_ ([arXiv:0904.4466](http://arxiv.org/abs/0904.4466))
 
-Discussion of construction of [[N=1 D=4 super Yang-Mills theory]] this way is in 
+Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way is in 
 
 * Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
