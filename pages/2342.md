@@ -90,6 +90,19 @@ A **framed lattice** in $\mathbb{C}$ is a lattice $\Lambda$ together with an ord
 
 =--
 
+### Over the rational numbers
+ {#OverTheRationalNumbers}
+
+Over the [[rational numbers]]: [Sagemath: Elliptic curves over the rational numbers](http://www.sagemath.org/doc/reference/plane_curves/sage/schemes/elliptic_curves/ell_rational_field.html)
+
+### Over the $p$-adic integers and $p$-adic numbers
+ {#OverpAdics}
+
+Over the [[p-adic integers]], see ([Conrad 07](#Conrad07)).
+
+Over the [[p-adic numbers]]. see ([Winter 11](#Winter11)).
+
+
 ## Properties
 
 ### Group law 
@@ -188,9 +201,16 @@ Classical accounts of the general case include
 
 * Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves, Annals of Mathematics Studies_, vol. 108, Princeton University Press, Princeton, NJ, 1985. MR MR772569 (86i:11024)
 
+Discussion over the [[rational numbers]] includes
+
+* Sagemath _[Elliptic curves over the rational numbers](http://www.sagemath.org/doc/reference/plane_curves/sage/schemes/elliptic_curves/ell_rational_field.html)_
+
 Discussion of elliptic curves over the [[p-adic numbers]] includes
 
-* Rosa Winter, _Elliptic curves over $\mathbb{Q}_p$_, 2011 ([pdf](http://www.math.leidenuniv.nl/scripties/BachWinter.pdf))
+* {#Conrad07} [[Brian Conrad]], _Arithmetic moduli of generalized elliptic curves_, J. Inst. Math. Jussieu 6 (2007), no. 2, 209-278.
+
+* {#Winter11} Rosa Winter, _Elliptic curves over $\mathbb{Q}_p$_, 2011 ([pdf](http://www.math.leidenuniv.nl/scripties/BachWinter.pdf))
+
 
 
 See also
