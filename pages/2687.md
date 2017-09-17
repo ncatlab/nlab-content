@@ -111,6 +111,8 @@
 
    related by the [[Dold-Kan correspondence]]
 
+* [[model structure on cosimplicial simplicial sets]]
+
 ### for $\infty$-groups
 
 * [[model structure on simplicial groups]]
