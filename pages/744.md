@@ -121,11 +121,13 @@ If about something mathematical then try to convince [[John Baez|John]], [[Urs S
 
 There are numerous ways you can help out and get acquainted with the community even if you don't (yet) feel comfortable writing math publically on a wiki.
 
-1. You can do [[lab elf]] duty, such as correcting typos and spelling errors, fixing links, creating links, creating redirects (there are many pages that still need redirects created for alternate and plural forms of the title), organizing pages, and so on.
+1.  You can do [[lab elf]] duty, such as correcting typos and spelling errors, fixing links, creating links, creating redirects (there are many pages that still need redirects created for alternate and plural forms of the title), organizing pages, and so on.
 
-1. You can ask questions (see previous question), and join discussions, at the nForum, and comment at the nCafe.
+2.  You can ask questions (see previous question), and join discussions, at the nForum, and comment at the nCafe.
 
-1. You can try writing small additions to existing pages, for instance a paragraph or two that helps explain something that puzzled you initially.  If you aren't entirely positive that what you wrote was correct, when you announce your edit at Latest Changes on the nForum, you can mention that you're unsure and someone will usually reassure you or give a correction.
+3.  You can try writing small additions to existing pages, for instance a paragraph or two that helps explain something that puzzled you initially.  If you aren't entirely positive that what you wrote was correct, when you announce your edit at Latest Changes on the nForum, you can mention that you're unsure and someone will usually reassure you or give a correction.
+
+4.  If you don\'t sign your edits, then they are attributed to the [[AnonymousCoward]].  We prefer that you sign your edits, but anonymous help is better than none at all, so that option is available to you.
 
 ### How can I get a personal section of the nLab?
 
