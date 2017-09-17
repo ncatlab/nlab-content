@@ -39,6 +39,16 @@ It is to be noted that many auxiliary operators in usual [[quantum field theory]
 
 ## Related concepts
 
+### Factorization algebras
+
 There is a version of the notion of local nets for Euclidean spaces. This is closely related to the notion of [[factorization algebra]].
+
+### Conformal nets
+
+The notion of local net in the context of [[conformal field theory]] is a [[conformal net]].
+
+## References
+
+for the moment see the references at [[AQFT]].
 
 [[!redirects local nets]]
