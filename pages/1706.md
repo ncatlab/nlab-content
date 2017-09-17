@@ -29,7 +29,7 @@ Since a fully [[extended topological quantum field theory]] may be identified wi
 
 ## Simple version on geometric realization
 
-By GalatiusTillmannMadsenWeiss (see [[cobordism category]]) we have that the [[loop space]] of the [[geometric realization]] of the framed [[cobordism category]] is equivalent to the [[sphere spectrum]]
+By GalatiusTillmannMadsenWeiss (see [[cobordism category]]) we have that the [[loop space]] of the [[geometric realization]] of the [[framed manifold|framed]] [[cobordism category]] is equivalent to the [[sphere spectrum]]
 
 $$
   \Omega \Vert Cob_d^{fr} \Vert
@@ -56,7 +56,7 @@ In ([Lurie](#Lurie)) a formalization and proof of the cobordism hypothesis is de
 
 Let $C$ by a [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category with duals|with duals]] and $Core(C)$ its [[core]] (the maximal [[∞-groupoid]] in $C$).
 
-Let $Bord_n^{fr}$ be the [[symmetric monoidal (∞,n)-category|symmetric monoidal]] [[(∞,n)-category of cobordisms]].
+Let $Bord_n^{fr}$ be the [[symmetric monoidal (∞,n)-category|symmetric monoidal]] [[(∞,n)-category of cobordisms]] with [[framed manifold|framing]].
 
 Finally let $Fun^\otimes(Bord_n^{fr} , C )$ be the [[(∞,n)-category]] of symmetric monoidal [[(∞,n)-functor]]s from bordisms to $C$.
 
@@ -245,7 +245,7 @@ We have
     Bord_n^{(1,\xi)} \simeq Bord_n^{fr}
   $$
 
-  reproduces the $(\infty,n)$-category of framed cobordisms, def. \ref{FramedCobordismsNCat}.
+  reproduces the $(\infty,n)$-category of [[framed cobordisms]], def. \ref{FramedCobordismsNCat}.
 
 * For $G = SO(n)$ the [[special orthogonal group]] equipped with the canonical embedding $\chi : SO(n) \to O(n)$ a $G$-structure is an [[orientation]]
 
