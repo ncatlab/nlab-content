@@ -1,0 +1,10 @@
+
+The "Archive for Mathematical Sciences & Philosophy"
+
+* [webpage](http://www.archmathsci.org)
+
+run by [[Michael Wright]] has a considerable collection of recordings of lectures notably by [[William Lawvere]]. (But at the moment few or none of these are available online.)
+
+category: reference
+
+[[!redirects Archive for Mathematical Sciences and Philosophy]]
