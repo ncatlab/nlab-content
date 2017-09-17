@@ -18,7 +18,7 @@
 
 Let $C : sAb \to Ch_\bullet^+$ be the chains/[[Moore complex]] functor of the [[Dold-Kan correspondence]].
 
-Let $(sAb, \otmes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
+Let $(sAb, \otimes)$ be the standard [[monoidal category]] structure given degreewise by the [[tensor product]] on [[Ab]] and let $(Ch_\bullet^+, \otimes)$ be the standard monoidal structure on the [[category of chain complexes]].
 
 For $A,B \in sAb$ two abelian [[simplicial group]]s, the **Alexander-Whitney map** is the [[natural transformation]] on [[chain complex]]es
 
@@ -26,7 +26,7 @@ $$
   \Delta_{A,B} :  C(A \otimes B) \to C(A) \otimes C(B)
 $$
 
-defined on two $n$-simplices $a \in A_n$ and $b \in $b \in B_n$ by
+defined on two $n$-simplices $a \in A_n$ and $b \in B_n$ by
 
 $$
   \Delta_{A,B} : a \otimes b \mapsto \oplus_{p + q = n} \tilde (d^p a) \otimes (d^q_0 b)
