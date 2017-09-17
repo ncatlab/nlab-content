@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -90,7 +89,7 @@ This is a general strategy that one can adopt: suppose I dream up a space but do
 
 * will you be able, in general, to guess my space $X$ from this information $U \mapsto X(U)$? No. So, to be fair, I should provide a bit more information: what you need to know to actually get a feeling for what my space $X$ is like is an idea about how different ways of probing my space relate to each other.
  
-* Okay, so we'll do this: for every pair $U$ and $V$ of test spaces that you come up with, and for every way $\phi : U \to V$ of mapping these into each other, I inform you not only about the set of ways $X(U) = \{U$-probes of $X\}$ that $U$ can be mapped into my secret space $X$, and the set of ways $X(V) = \{V$-probes of $X\}$ that $V$ can be mapped into my secret space, but I also tell you how these are related when you first map $V$ into $X$ by a map $(p : V \to X) \in X(V)$ and then map $U$ into $X$ by first mapping it to $V$: $U \stackrel{f}{\to}  V \stackrel{p}{\to}  X$.
+* Okay, so we'll do this: for every pair $U$ and $V$ of test spaces that you come up with, and for every way $f : U \to V$ of mapping these into each other, I inform you not only about the set of ways $X(U) = \{U$-probes of $X\}$ that $U$ can be mapped into my secret space $X$, and the set of ways $X(V) = \{V$-probes of $X\}$ that $V$ can be mapped into my secret space, but I also tell you how these are related when you first map $V$ into $X$ by a map $(p : V \to X) \in X(V)$ and then map $U$ into $X$ by first mapping it to $V$: $U \stackrel{f}{\to}  V \stackrel{p}{\to}  X$.
  
 * This transforms every element in $X(V)$ into an element in $X(U)$. To be fair, I should tell you at least what this transformation is!
  
