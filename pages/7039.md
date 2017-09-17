@@ -32,14 +32,15 @@ The vector spaces $V$ and $W$ may be generalised to [[analytic manifold]]s and (
 
 ## Complex-analytic functions of one variable
 
-If $W$ is a vector space over the [[complex numbers]], then we have this very nice theorem:
+If $W$ is a vector space over the [[complex numbers]], then we have this very nice theorem, due essentially to [[Édouard Goursat]]:
 
 +-- {: .un_theorem}
 ###### Theorem
 A function from $D \subseteq \mathbb{C}$ to $W$ is analytic if and only if it is [[differentiable function|differentiable]].
 =--
 
-(Differentiability here is in the usual sense, that the difference quotient converges in $W$.)  See [[holomorphic function]].
+(Differentiability here is in the usual sense, that the difference quotient converges in $W$.)  See [[holomorphic function]] and [[Goursat theorem]].
+
 
 ## Related concepts
 
@@ -48,6 +49,7 @@ A function from $D \subseteq \mathbb{C}$ to $W$ is analytic if and only if it is
 * [[holomorphic function]], [[meromorphic function]]
 
 * [[smooth function]]
+
 
 ## References
 
