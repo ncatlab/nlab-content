@@ -846,6 +846,7 @@ The role of the [[metaplectic correction]] is studied in some detail in
 
 * {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
  
+Also, from p. 154 (11 of 76) on, this article carefully discusses what is really the non-abelian version of the Griffiths [[intermediate Jacobian]] structure (see there) for $k = 0$.
 
 Decent expositions are for instance in 
 
