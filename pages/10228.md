@@ -28,10 +28,13 @@ a [[stable (∞,1)-category|stable]] [[symmetric monoidal (∞,1)-category]].
 
 ## Related concepts
 
+* [[tensor triangulated category]]
+
+* [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]
+
 * [[higher linear algebra]]
 
 [[!redirects tensor (∞,1)-categories]]
 
 [[!redirects tensor (infinity,1)-category]]
 [[!redirects tensor (infinity,1)-categories]]
-
