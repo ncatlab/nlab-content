@@ -129,6 +129,10 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 * Kripke frames $(R,S)$ (with a transition relation $R$ of arity $2$) as studied in [[modal logic]] are [[coalgebra]]s for the power-set functor $P$. Kripke frames for a more general *modal similarity type* $t$ are a coalgebras of a functor of the form $X\mapsto \product_{d\in t} P(S^{arity(d)})$. Kripke models are coalgebras of functor $K:X\mapsto P(Prop)\times P(X)$ where $Prop$ is the set of propositional variables of the logic in consideration. In particular all the functors appearing here are polynomial functors. So, at least in some aspects, the study of modal logics reduces to the study of (certain) polynomial functors
 
+## Examples
+
+* [[symmetric polynomial]], [[elementary symmetric polynomial]]
+
 ## Related entries
 
 * [[polynomial monad]]
