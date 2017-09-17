@@ -12,3 +12,4 @@ For $V$ a [[vector space]] over the [[real numbers]] or some other $\mathbb{R}$-
 * [[complex Lie algebra]], [[complex Lie group]]
 
 [[!redirects complexifications]]
+[[!redirects complexified]]
