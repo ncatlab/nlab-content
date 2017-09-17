@@ -189,6 +189,80 @@ Now by prop. \ref{Concrete0TruncatedIsDiffeological} both $A_0$ and $A_1$ are [[
 
 =--
 
+## Transgression of differential cocycles to mapping spaces
+ {#TransgressionOfDifferentialCocycles}
+
+
+For $n \in \mathbb{N}$, write $\mathbf{B}^n U(1)_{conn} \in Smooth\infty Grpd$ for the smooth $\infty$-groupoid given under the [[Dold-Kan correspondence]] by the [[Deligne complex]]. Over [[smooth manifold]]s this is the coefficient object for [[circle n-bundles with connection]].
+
+At [[schreiber:∞-Chern-Simons theory]] the following fact is proven:
+
++-- {: .num_prop #IntrinsicHolonomyTakingValuesInDiscrete}
+###### Proposition
+
+Let $\Sigma$ be a closed [[smooth manifold]] of [[dimension]] $dim \Sigma \leq n$. Then there is an equivalence
+
+$$
+  hol
+    :
+  \tau_{n - dim \Sigma} \mathbf{H}(\Sigma, \mathbf{B}^n U(1)_{conn})
+   \to 
+  B^{n-dim \Sigma} U(1)
+$$
+
+of [[discrete ∞-groupoid]]s such that for $dim \sigma  = n$ this computes the $n$-volume [[holonomy]] of circle $n$-bundles with connection.
+
+=--
+
+Using concretization we want to refine this from discrete to smooth $\infty$-groupoids.
+
+Write $[\Sigma, \mathbf{B}^n U(1)_{conn}]$ for the [[internal hom]] in the [[(∞,1)-topos]] (see there).
+
+We first look at this for $n = dim \Sigma$
+
++-- {: .num_prop}
+###### Proposition
+
+For $dim \Sigma = n$ there is an equivalence
+
+$$
+  hol 
+   : 
+  Conc \tau_0 [\Sigma, \mathbf{B}^nU(1)_{conn}]
+   \to 
+   U(1)
+$$
+
+in [[Smooth∞Grpd]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $\tau_0 [\Sigma, \mathbf{B}^n U(1)_{conn}]$ is [[0-truncated]], hence a [[sheaf]], concretification is that discussed at [[concrete sheaves]]:
+
+$$
+  Conc(F)(U) = image( F(U) = \mathbf{H}(U,F) \to 
+  \mathbf{H}(U, coDisc \Gamma F) =  Set(\Gamma(U), \Gamma(F)) )
+  \,.
+$$
+
+So for $U = *$ first of all we have by prop. \ref{IntrinsicHolonomyTakingValuesInDiscrete} that 
+
+$$
+  Conc \tau_0 \mathbf{H}(\Sigma, \mathbf{B}^n U(1)_{conn})(*) = U(1)
+$$ 
+
+in $Set$.
+
+Generally $Conc \tau_0 \mathbf{H}(\Sigma, \mathbf{B}^n U(1)_{conn})(U)$
+is therefore a subset of the set of functions of sets $U \to U(1)$. We need to show that it is precisely the set of smooth such functions.
+
+But this is clear: holonomy of a smoth family of smoth circle $n$-bundles is a smooth function. Moreover, every smooth function arises this way: for $f : U \to U(1)$ any smooth function, pick a trivial family of trivial circle $n$-bundles with connection and then rescale the connection form using $f$.
+
+=--
+
 ## Related concepts
 
 * [[concrete sheaf]], [[concrete (∞,1)-sheaf]]
