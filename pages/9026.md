@@ -1,0 +1,9 @@
+
+| [[G-structure]] | [[special holonomy]] | [[dimension]] |
+|--|--|--|
+| [[Kähler manifold]] | [[unitary group|U(k)]] | $2k$ |
+| [[Calabi-Yau manifold]] | [[special unitary group|SU(k)]] | $2k$ |
+| [[hyper-Kähler manifold]] | [[symplectic group|Sp(k)]] | $4k$ |
+| [[G2 manifold]] | [[G2]] | $7$ | 
+| [[Spin(7) manifold]] | [[spin group|Spin(7)]] | 8 |
+
