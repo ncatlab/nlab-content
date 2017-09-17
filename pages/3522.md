@@ -284,9 +284,9 @@ See also Eric Finster's blog post [Thoughts on the Goodwillie Calculus](http://c
 
 ## Properties
 
-### $\infty$-Toposes of polynomial functors
+### $\infty$-Toposes of polynomial $(\infty, 1)$-functors
 
-For each $n$, the collection of [[polynomial functors]] of degree $n$ from bare [[homotopy types]] to bare homotopy types is an [[(infinity,1)-topos]]. 
+For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ from bare [[homotopy types]] to bare homotopy types is an [[(infinity,1)-topos]]. 
 
 ( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[tangent (infinity,1)-category]]_.
 
