@@ -10,8 +10,24 @@ _Invariant theory_ studies algebraic entities -- for instance elements in a [[ri
 In _[[geometric invariant theory]]_ one regards the algebraic objects as [[Isbell duality|formally dual]] to a geometric space and interprets the invariants as functions on a [[quotient]] space.
 
 ## Examples
+ {#Examples}
 
-* [[invariant polynomial]]
+Let $V$ be a ([[graded vector space|graded]]) [[vector space]] equipped with the [[action]] $\rho$ of a [[group]] $G$. This induces an action on the symmetric [[tensor powers]] $Sym^n V$. A [[linear map]] out of sums of such symmetric powers is called a [[polynomial]] on $V$. It is an _[[invariant polynomial]]_ if it is invariant under the group action, hence if for every $g \in G$ we have (writing it for a homogeneous polynomial for convenience)
+
+$$
+  f(\rho_g(x_1), \cdots, \rho_g(x)) = f(x_1, \cdots, x_n)
+  \,.
+$$ 
+
+For instance if $G$ is a [[Lie group]] and $V = \mathfrak{g}$ is its [[Lie algebra]], there is a canonical _[[adjoint action]]_ $\rho = Ad$ of $G$ on $Sym^n \mathfrak{g}$. The corresponding _[[invariant polynomials]]_ play a central role in [[Lie theory]], notably via [[Chern-Weil theory]]. 
+In this case the $Ad$-invariance is often expressed in its differential form (obtained by differentiating the above equation at the neutral element), where it says that for all $y \in \mathfrak{g}$ we have
+
+$$
+  f([y,x_1], \cdots, x_n) + \cdots + 
+  f(x_1, \cdots, [y,x_n])
+  = 0
+  \,.
+$$
 
 ## References
 
