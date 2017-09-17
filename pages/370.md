@@ -77,8 +77,9 @@ $$
      \\
      \cdots &\to& 0 &\to& 0 &\to& \mathbb{Z}/2\mathbb{Z} &\to& 0 &\to& \cdots
   }
-  \,.
 $$
+
+from the chain complex concentrated on the morphism of multiplication by 2 on integers, to the chain complex concentrated on the [[cyclic group of order 2]].
 
 This clearly induces an isomorphism on all homology groups. But there is not even a non-zero chain map in the other direction, since there is no non-zero group homomorphism $\mathbb{Z}/2\mathbb{Z} \to \mathbb{Z}$.
 
