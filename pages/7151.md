@@ -1,4 +1,14 @@
 
 * [webpage](http://www.christiansaemann.de/research.html)
 
+## related $n$Lab entries
+
+* [[3-Lie algebra]]
+
+* [[Nambu mechanics]]
+
+* [[membrane matrix model]]
+
+* [[twistor space]]
+
 category: people
