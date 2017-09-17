@@ -13,9 +13,14 @@
 =--
 =--
 
-#Content#
+# Contents
 * table of contents
-{:toc}
+{: toc}
+
+## Disambiguation
+
+For spans in [[vector spaces]] (or [[modules]]), see [[linear span]].
+
 
 ## Definition 
 
