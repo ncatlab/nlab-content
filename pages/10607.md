@@ -18,7 +18,7 @@
 
 The notion of [[adjunction]] as such expresses a [[duality]]. The stronger notion of an _adjoint cyclinder_ or _adjoint modality_ is meant to express specifically a _duality between opposites_. 
 
-The notion was suggested in ([Lawvere 94, p. 11](#Lawvere94)) (and in view of [Lawvere 91](#Lawvere91)) to capture the phenomena of "Unity and Identity of Opposites" as they appear informally in [[Georg Hegel]]'s _[[Science of Logic]]_. 
+The notion was suggested in ([Lawvere 91, p. 7](#Lawvere91), [Lawvere 94, p. 11](#Lawvere94)) to capture the phenomena of "Unity and Identity of Opposites" as they appear informally in [[Georg Hegel]]'s _[[Science of Logic]]_. 
 
 (One might therefore say the notion is meant to capture the idea of "dialectic", though there is some debate as to wether Hegel's  somewhat mythical "creation out of [[paradox]]" should really go by this term, see [this Wikipeda entry](#Wikipedia) ).
 
