@@ -5,15 +5,21 @@
 
 ## Definitions
 
-A _[[square root]]_ of a number $a$ is a solution to the equation $x^2 -a = 0$. This is denoted $\pm \sqrt{a}$.
+A _[[square root]]_ of an element $a$ in a [[monoid]] is a solution to the equation $x^2 = a$ within the monoid. If the monoid is the multiplicative [[group of units]] of a (commutative) [[field]] or [[integral domain]], then there are exactly two square roots if there are any; these are denoted $\pm \sqrt{a}$. (In general, there may be many square roots; for example, in the "field" or [[division ring]] of [[quaternions]] $\mathbb{H}$, there are [[continuum]] many square roots of $-1$.) 
 
-More generally, for $n \in \mathbb{N}$ a solution to the equation $x^n - a = 0$ is called an **$n$th root** of $a$. Specifically for $a = 1$ and working in the [[field]] of [[complex number]]s one speaks of an **$n$th root of unity**.
+More generally, for $n \in \mathbb{N}$ a solution to the equation $x^n = a$ is called an **$n$th root** of $a$. Specifically for $a = 1$ and working in the [[field]] of [[complex number]]s, one speaks of an **$n$th root of unity**. This terminology can be applied to other fields as well; for example, the field of [7-adic numbers](http://ncatlab.org/nlab/show/p-adic+number) contains non-trivial cube (or $3^{rd}$) roots of unity. 
 
-More generally, for any [[polynomial]] or more general [[function]] $P(x)$ of $x$, a solution to $P(x) = 0$ is called a _root_ (or _zero_) of $P$.
+More generally, for any [[polynomial]] $P(x)$ of $x$ with coefficients in a field $k$, a solution to $P(x) = 0$ in $k$ is called a _root_ of $P$. When $P(x) \in k[x]$ has no solution in $k$, one can speak of a field obtained by "adjoining roots" of $P$ to $k$, meaning that one considers roots in an extension field $i: k \hookrightarrow E$ of the corresponding polynomial $Q = (i \otimes_k k[x])(P) \in E[x]$, i.e., applying the evident composite map 
+
+$$k[x] \cong k \otimes_k k[x] \stackrel{i \otimes_k 1}{\to} E \otimes_k k[x] \cong E[x]$$ 
+
+to $P$ to get $Q$, and passing the smallest intermediate subfield between $k$ and $E$ that contains the designated roots of $Q$ (often writing $P$ for $Q$ by abuse of language). 
+
+More generally still, one may refer to roots even of non-polynomial [[functions]] $f$ defined on a field, for example of [[meromorphic functions]] $f \colon \mathbb{C} \to \mathbb{C}$, although it is much more usual to speak of _zeroes_ of $f$ instead of roots of $f$ (e.g., zeroes of the [[Riemann zeta function]]). 
 
 ## Roots of unity in fields 
 
-In a [[field]] $k$, a [[torsion subgroup|torsion]] element of the multiplicative group $k^\ast$ is clearly a root of unity. Moreover we have the following result. 
+In a [[field]] $k$, a [[torsion subgroup|torsion]] element of the multiplicative group $k^\ast$ is a root of unity by definition. Moreover we have the following useful result. 
 
 +-- {: .un_thm} 
 ###### Theorem 
@@ -26,6 +32,8 @@ Let $e$ be the _exponent_ of $G$, i.e., the smallest $n \gt 0$ such that $g^n = 
 
 This is enough to force $G$ to be cyclic. Indeed, write $e = p_1^{r_1} p_2^{r_2} \ldots p_k^{r_k}$. Since $e$ is the least common multiple of the orders of elements, there is (for each $i$) an element whose order is divisible by $p_i^{r_i}$, and some power $y_i$ of that element will have order exactly $p_i^{r_i}$. Then $y = \prod_i y_i$ will have order $e = m$, so that powers of $y$ exhaust all $m$ elements of $G$, and we are done. 
 =-- 
+
+Clearly there is at most one subgroup $G$ of a given order $n$ in $k^\ast$, which will be the set of $n^{th}$ roots of unity. If $G$ is a finite subgroup of order $n$ in $k^\ast$, then a generator of $G$ is called a **primitive** $n^{th}$ root of unity in $k$. 
 
 +-- {: .un_cor}
 ###### Corollary 
