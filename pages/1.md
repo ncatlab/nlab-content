@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contents {: .clickToReveal}
@@ -90,7 +89,7 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
 ## Steering Committee 
  {#SteeringCommitte}
 
-The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]].  Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
+The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
 
 
 category: meta
