@@ -78,7 +78,7 @@ $$
 
 =--
 
-This is called the **[[Frobenius reciprocity]]** law.  It is discussed, for instance, as ([Johnstone, lemma 1.5.8](#Johnstone)).
+This is called the **[[Frobenius reciprocity]]** law.  It is discussed, for instance, as ([Johnstone, lemma 1.5.8](#Johnstone)). More generally for closed monoidal categories (not necessarily cartesian monoidal) it is discussed in "[[Wirthmüller contexts]]" in 
 
 Let still $R$ and $L$ be as above.
 
@@ -105,7 +105,7 @@ $$
  
 is cartesian closed.
 
-In particular the [[inverse image]] functor of an [[étale geometric morphism]] between [[toposes]] is cartesian closed. 
+In particular the [[inverse image]] functor of an [[étale geometric morphism]] between [[toposes]] is cartesian closed and hence constitutes a cartesian [[Wirthmüller context]].
 
 =--
 
@@ -171,5 +171,10 @@ For instance section A1.5 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
+
+Also
+
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+ {#May05}
 
 [[!redirects cartesian closed functors]]
