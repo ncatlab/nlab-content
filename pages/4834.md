@@ -89,12 +89,12 @@ The [[natural deduction]] rules are defined to be the following, for all $s \in 
 name          | rule                                                                                                                      | condition                         |
 --------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 (axioms)      | $\Gamma \vdash c : s$                                                                                                     | if $(c : s)$ is an axiom;         |
-(start)       | $\frac{\Gamma \vdash A:s}{\Gamma, x : A \vdash \Gamma x : A}$                                                             | if $x \notin \Gamma$              |
+(start)       | $\frac{\Gamma \vdash A:s}{\Gamma, x : A \vdash x : A}$                                                             | if $x \notin \Gamma$              |
 (weakening)   | $\frac{\Gamma \vdash A:B; \quad \Gamma \vdash C:s}{\Gamma, x : C \vdash A : B}$                                           | if $x \notin \Gamma$              |
 (product)     | $\frac{\Gamma \vdash A : s_{1}; \quad \Gamma x:A \vdash B : s_{2}}{\Gamma \vdash (\prod x:A . B) : s_{3}}$                | if $(s_{1}, s_{2}. s_{3}) \in R$; |
 (application) | $\frac{\Gamma \vdash F : (\prod x:A . B); \quad \Gamma \vdash a : A}{\Gamma \vdash Fa : B [x := a]}$                      |                                   |
 (abstraction) | $\frac{\Gamma, x:A \vdash b : B; \quad \Gamma \vdash (\prod x:A . B) : s}{\Gamma \vdash (\lambda x:A:b) : (\prod x:A:B)}$ |                                   |
-(conversion)  | $\frac{\Gamma \vdash A : B; \quad \Gamma B' : s; B =_{\beta} B'}{\Gamma \vdash A : B'}$                                   |                                   |
+(conversion)  | $\frac{\Gamma \vdash A : B; \quad \Gamma \vdash B' : s; \quad B =_{\beta} B'}{\Gamma \vdash A : B'}$                                   |                                   |
 
 
 ## Examples ##
@@ -119,12 +119,13 @@ The most expressive is given by the following choice of sorts, axioms and relati
 The other systems omit some of the last three relations.
 Some specific systems are the following:
 
-name                                                  | $(\ast, \ast)$ | $(\ast, \square)$ | $(\square, \ast)$ | $(\square, \square)$ | 
-------------------------------------------------------|----------------|-------------------|-------------------|----------------------|
-$\lambda\rightarrow$ [[simply typed lambda calculus]] | yes            |                   |                   |                      |
-[[LF]]                               | yes            | yes               |                   |                      |
-$\lambda2$ [[system F]]                                                | yes            |                   | yes               |                      |
-[[calculus of constructions]]                          | yes            | yes               | yes               | yes                  |
+name | $(\ast, \ast)$ | $(\ast, \square)$ | $(\square, \ast)$ | $(\square, \square)$ |
+-----|----------------|-------------------|-------------------|-----------------------|
+$\lambda\rightarrow$ [[simply typed lambda calculus]] | yes |   |   |   |
+${\lambda}P$ [[logical framework]] | yes | yes |   |   |
+$\lambda2$ [[system F]] | yes |   | yes |   |
+$\lambda\underline{\omega}$ | yes |   |   | yes |
+${\lambda}C$ [[calculus of constructions]] | yes | yes | yes | yes |
 
 #### Calculus of constructions {#CalculusOfConstructions}
 
