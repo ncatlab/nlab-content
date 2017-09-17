@@ -19,7 +19,7 @@
 
 ## Definition
 
-A **Reedy category with fibrant constants** is a [[Reedy category]] $R$ such that for every [[model category]] $M$ an every fibrant object $X \in M$ the constant $R$-diagram at $X$ is Reedy fibrant.
+A **Reedy category with fibrant constants** is a [[Reedy category]] $R$ such that for every [[model category]] $M$ and every [[fibrant object]] $X \in M$ the constant $R$-[[diagram]] at $X$ is Reedy fibrant.
 
 ## Properties
 
@@ -29,8 +29,8 @@ A **Reedy category with fibrant constants** is a [[Reedy category]] $R$ such tha
 For a Reedy category $R$ the following are equivalent.
 
 1. $R$ has fibrant constants.
-1. For any model category $M$ the colimit functor $\colim_R \colon M^R \to M$ is a [[Quillen adjunction|left Quillen functor]].
-1. All matching categories of $R$ are connected or empty.
+1. For any model category $M$ the [[colimit]] functor $\colim_R \colon M^R \to M$ is a [[Quillen adjunction|left Quillen functor]].
+1. All matching categories of $R$ are [[connected category|connected]] or empty.
 
 =--
 
