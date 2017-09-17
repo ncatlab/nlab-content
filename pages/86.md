@@ -499,7 +499,7 @@ This is written in the traditional informal style of the physics literature. A p
 
 A nice exposition of this is in section 3 and section 4 of 
 
-* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/1010/1010.3210v2.pdf))
+* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ Journal of Geometry and Physics (2010) ([arXiv](http://arxiv.org/abs/1010.3210))
 {#Paugam}
 
 ### Lagrangian BV
