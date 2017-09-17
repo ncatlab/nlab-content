@@ -26,7 +26,6 @@
 * [[Hamiltonian action]]
 
 
-
 The analog for [[presymplectic manifolds]] is [[presymplectic reduction]].
 
 The analog for [[Poisson manifolds]] is [[Poisson reduction]].
@@ -34,7 +33,7 @@ The analog for [[Poisson manifolds]] is [[Poisson reduction]].
 
 [[!include symplectic reduction - table]]
   
-
+* [[quantization commutes with reduction]]
 
 
 ## References
