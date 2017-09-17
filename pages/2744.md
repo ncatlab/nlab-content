@@ -87,7 +87,7 @@ into some prescribed **[[target space]]** $X$. This is the case where $E = \Sigm
 
 **Remark.** Beware of the standard source of confusion here when correlating this formalism with actual physics: the physical [[spacetime]] that we inhabit may be given either by $\Sigma$ or by $X$:
 
-* in the description of the [[quantum mechanics]] of objects propagating _in_ our physical [[spacetime,]] subject to [[forces]] exerted by fixed 
+* in the description of the [[quantum mechanics]] of objects propagating _in_ our physical [[spacetime]], subject to [[forces]] exerted by fixed 
 [[background gauge fields]] (such as electrons propagating in our particle accelerator, subject to the electromagnetic field in the accelerator tube), physical spacetime is identifid with target space $X$, while $\Sigma$ is the **worldvolume** of the object that propagates through $X$. The _field configurations_ on $\Sigma$ are really the maps $\Sigma \to X$ that determine how the object sits in spacetime.
 
 * in quantum mechanics of fields on spacetime, such as the quantized electromagnetic field in a laser, it is $\Sigma$ which represents physical spacetime, and $X$ is some abstract space, for instance a smooth version of the [[classifying space]] $\mathcal{B}U(1)$, so that a field configuration $\Sigma \to X$ encodes a [[line bundle]] [[connection on a bundle|with connection]] that encodes a configuration of the [[electromagnetic field]].
