@@ -129,9 +129,13 @@ A physicists' monograph:
 
 * Reinhold A. Bertlmann, _Anomalies in quantum field theory_, Oxford Science Publ., 1996, 2000
 
-An account that very clearly identifies the mathematical nature of quantum anomalies for higher gauge theories is
+A clear description of the quantum anomalies for higher gauge theories is in
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+
+As an application of this, a detailed discussion of the cancellation of the anomaly of the [[supergravity C-field]] in 11-dimensional [[supergravity]] is in
+
+* [[Dan Freed]], [[Greg Moore]], _Setting the quantum integrand of M-theory_ ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
 
 ### Gauge anomaly
 
