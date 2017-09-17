@@ -48,7 +48,7 @@ MR 39:970
 
 Locally conelike stratified spaces have been considered  in
 
-* L. Siebenmann, _Deformations of homeomorphisms on stratied sets_, Comment. Math. Helv. 47 (1971), 123{165. MR 47:7752
+* L. Siebenmann, _Deformations of homeomorphisms on stratified sets_, Comment. Math. Helv. 47 (1971), 123{165. MR 47:7752
 
 These are all special cases of ([Quinn's definition](#Quinn)).
 
@@ -62,7 +62,7 @@ See also
 
 * Bruce Hughes, _Geometric topology of stratified spaces_ ([pdf](http://aimsciences.org/journals/pdfsnews.jsp?paperID=2468&mode=full))
 
-Discussion of the [[fundamental category]] of a (Whiteney-)stratified space is in 
+Discussion of the [[fundamental category]] of a (Whitney-)stratified space is in 
 
 * Jonathan Woolf, _Transversal homotopy theory_ ([arXiv:0910.3322](http://arxiv.org/abs/0910.3322))
 
