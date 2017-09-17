@@ -25,9 +25,11 @@ Often one considers [[flat connections]] only, see at _[[moduli space of flat co
 
 If $\Sigma$ is a [[compact topological space|compact]] [[smooth manifold]], then the moduli space of flat connections over $\Sigma$ is compact. 
 
-### Complex structure
+### Over complex manifolds / complex varieties
 
- The _[[Narasimhan–Seshadri theorem]]_ identifies [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[complex manifold|complex]] spaces of [[stable vector bundles]].  This space appears as the [[phase space]] for [[Chern-Simons theory]] over that surface. See there for more.
+Over a [[complex manifold]]/[[complex variety]], the [[Koszul-Malgrange theorem]] identifies holomorphic [[flat connections]] on [[complex vector bundles]] with [[holomorphic vector bundles]].
+
+More specifically _[[Narasimhan–Seshadri theorem]]_ identifies the [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[complex manifold|complex]] spaces of [[stable vector bundle|stable]] [[holomorphic vector bundles]].  This space appears as the [[phase space]] for [[Chern-Simons theory]] over that surface. See there for more.
 
 ## Examples
 
