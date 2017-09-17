@@ -1,3 +1,4 @@
+
 <div style="float:right;margin:0 20px 10px 20px;">
 <img alt="" src="http://upload.wikimedia.org/wikipedia/commons/3/39/Elves-shoemaker.gif" width="472" />
 
@@ -13,6 +14,9 @@ Some lab elves have handy superpowers to edit the options on webs and create new
 
 category: meta
 
+[[!redirects lab elf]]
+[[!redirects lab elfs]]
 [[!redirects lab elves]]
 [[!redirects Lab Elf]]
+[[!redirects Lab Elfs]]
 [[!redirects Lab Elves]]
