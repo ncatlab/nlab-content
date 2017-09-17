@@ -11,7 +11,7 @@ The idea is that operations in a properad can
 have multiple inputs and outputs, as opposed
 to a single output in an operad.
 On the other hand, a properad is less general
-than a [[PROP]], because a PROP also
+than a prop, because a prop also
 allows nonconnected graphs in the definition
 of the substitution product.
 
