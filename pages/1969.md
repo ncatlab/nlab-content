@@ -544,3 +544,5 @@ A useful quick review of the interrelation of the various constructions of deriv
 
 [[!redirects homotopy function complex]]
 [[!redirects homotopy function complexes]]
+
+[[!redirects (∞,1)-hom (∞,1)-functor)]]
