@@ -1,0 +1,8 @@
+[[!redirects R. H. Crowell]]
+Richard (Dick) Crowell was emeritus professor of mathematics at Dartmouth College.  He is best known for his book on [[knot theory]] written with [[Ralph Fox]].
+
+* [Obituary](https://paw.princeton.edu/memorials/3/83/index.xml)
+
+category: knot theory
+
+category:people
