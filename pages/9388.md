@@ -10,6 +10,21 @@ $$ Unif \to Unif Conv \to Conv ,$$
 both [[faithful functor|faithful]] and with $Unif \to Unif Conv$ also [[full functor|full]].  (Here we take the [[morphisms]] of $Unif Conv$ and $Unif$ to be the [[uniformly continuous maps]], while $Conv$ must use the [[continuous maps]].)
 
 
+## Motivation
+
+The [[uniform property|uniform properties]] of a [[metric space]] $X$ are determined entirely by the [[equivalence relation]] between [[infinite sequences]] through which sequences $a$ and $b$ are related iff the distance between them tends to zero:
+$$ \lim_{n \to \infty} {\|a_n - b_n\|} = 0 .$$
+
+An analogous holds for a [[uniform space]] $X$ if one generalises from sequences to [[nets]].  However, the relevant equivalence relation is not (directly) between two arbitrary nets but rather between two nets with the same [[directed set]] as [[domain]].  (This is because the limit above refers to a single index $n$; if we changed this to the limit as $m, n \to \infty$ of ${\|a_m - b_n\|}$, then we would get a [[partial equivalence relation]] that applies only to [[Cauchy sequences]], and this would recover only the [[Cauchy structure]] and not the entire [[uniform structure]].)
+
+Rather than speak of two nets with the same domain, let us speak equivalently of a single net in the [[cartesian square]] $X \times X$.  Then for a more manifestly [[essentially small]] definition, let us speak of a [[filter]] on $X \times X$.  So a uniform convergence structure on a [[set]] $X$ will be a collection of filters on $X \times X$.  We will require this collection to satisfy certain properties; if we imposed enough properties, we could recover a definition of uniform space (or even of metrisable uniform space), but some less stringent requirements yield the definition of uniform convergence space below.
+
+
+## Definition
+
+...
+
+
 ## References
 
 Start on page 72 (in Part I) in
