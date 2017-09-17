@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Stable homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[model structure on spectra]] for [[orthogonal spectra]].
+
+## Related concepts
+
+[[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
+
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+* [[orthogonal spectrum]], **model structure on orthogonal spectra**
+
+* [[S-module]], [[model structure on S-modules]]
+
+
+
+## References
+
+* [[Michael Mandell]], _Equivariant orthogonal spectra and S-modules_ ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
