@@ -70,13 +70,18 @@ A complex manifold whose [[canonical bundle]] is trivializable is a  _[[Calabi-Y
 
 ## References
 
-For instance
+Textbook accounts include
+
+* {#Voisin02} [[Claire Voisin]], section 2 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
+
+Lectures notes inclide
 
 * Stefan Vandoren, _Lectures on Riemannian Geometry, Part II:
 Complex Manifolds_ ([pdf](http://www.phys.uu.nl/~vandoren/MRIlectures.pdf))
 
-* Zachary Maddock, _Dobeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
- {#Maddock}
+* {#Maddock} Zachary Maddock, _Dobeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
+ 
 
 [[!redirects complex manifolds]]
 
