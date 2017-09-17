@@ -74,6 +74,20 @@ Finally, skeletality is mostly meaningless in HoTT because paths are the only no
 [[!include homotopy n-types - table]]
 
 
+## References
+
+### History
+
+An early definition of "set" appears in
+
+* Bernard Bolzano, _Paradoxien des Unendlichen_ (1847)
+
+where in section 4 it says in translation 
+
+> There are wholes which, although they contain the same parts A, B, C, D,..., nevertheless present themselves as different when seen from our point of view or conception (this kind of difference we call 'essential'), e.g. a complete and a broken glass viewed as a drinking vessel. [...] A whole whose basic conception renders the arrangement of its parts a matter of indifference (and whose rearrangement therefore changes nothing essential from our point of view, if only that changes), I call a set.
+
+
+
 [[!redirects set]]
 [[!redirects sets]]
 
