@@ -134,6 +134,8 @@ where we inserted the normalization factor $\frac{1}{2}$.
  
   * [[Reidemeister trace]]
 
+* [[higher trace]]
+
 ## References
 
 The categorical notion of trace in a monoidal category is due to
