@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A kind of [[algebraic variety]] generalizing a [[torus]] with its [[abelian group]] structure.
+
+## References
+
+* Pavel Dimitrov, _Toric varieties, a short introduction_ ([pdf](http://www.cim.mcgill.ca/~pdimit/math707-talk.pdf))
+
+* Stephan Fischli, _On Toric Varieties_ ([pdf](http://www.sws.bfh.ch/~fischli/thesis.pdf))
+
+* Helena Verrill, David Joyner, _Notes on toric varieties_ (2002) ([pdf](http://www.wdjoyner.org/papers/toric7.pdf))
+
+[[!redirects toric varieties]]
