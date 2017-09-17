@@ -159,6 +159,23 @@ X & \underset{i}{\begin{svg}[[!include SVG triplelengthrightarrow]]\end{svg}} & 
 $$
 
 
+(an **_elementary topos_{: style="font-style: normal"}**)
+
+an **_elementary topos_{: style="font-style: normal"}**
+
+
++-- {: .num_theorem #theoreme}
+###### Definition ######
+A **_topos_{: style="font-style: normal"}** (or **_elementary topos_{:
+style="font-style: normal"}**) is a cartesian closed category with finite limits and a
+subobject classifier.
+=--
+
++-- {: .num_theorem #theoreme}
+###### Definition ######
+A **_topos_{: style="font-style: normal"}** (or **_elementary topos_{: style="font-style: normal"}**) is a cartesian closed category with finite limits and a subobject classifier.
+=--
+
 
 ***
 
