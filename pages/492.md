@@ -32,7 +32,7 @@ $$
  }
 $$
 
-a commuting square, there always exists a lift
+a commuting square with $n\ge 1$ and $0\le k\le n$, there always exists a lift
 
 $$
  \array{
