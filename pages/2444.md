@@ -13,7 +13,7 @@ There are two different things that one might mean by a "complex supermanifold",
 ordinary [[supermanifold]] is a generalization of an ordinary manifold with its sheaf 
 of smooth real-valued functions.
 However, considering ordinary smooth manifolds as ringed spaces with either their sheaves of real or complex smooth functions gives two equivalent categories, whereas this is not true in the case of real and complex supermanifolds; the corresponding functor is neither essentially surjective nor fully faithful.
-(For $X$ a complex supermanifold in this sense, the underlying reduced manifold $X_{red}$ is **not** a [[complex manifold]] but just a smooth [[manifold]] regarded as a [[ringed space]] with [[structure sheaf]] taken to be the sheaf of $\mathbb{C}$-valued smooth functions on the ordinary real manifold.)
+(For $X$ a complex supermanifold in this sense, the underlying reduced manifold $X_{red}$ is **not** a [[complex manifold]] but just a [[smooth manifold]] regarded as a [[ringed space]] with [[structure sheaf]] taken to be the sheaf of $\mathbb{C}$-valued smooth functions on the ordinary real manifold.)
 
 1. In the second sense, a complex supermanifold is a super(complex manifold), a super-version of [[complex manifold]].
 
