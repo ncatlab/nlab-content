@@ -82,6 +82,10 @@ See also
 
 * [[abelian variety]]
 
+* [[elliptic cohomology]]
+
+* [[Szpiro's conjecture]]
+
 ## References
 
 an introduction to elliptic curves is at
