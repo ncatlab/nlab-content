@@ -47,24 +47,21 @@ There is then a composite 2-monad $M$ that takes a span $E$ from $B$ to $A$ to $
 
 A two-sided Street fibration from $B$ to $A$ in $Cat$ is given by a span $p \colon E \to A$, $q \colon E \to B$ such that
 
-1. each $a \to p x$ in $A$ has a [[cartesian morphism|cartesian]] lift in $E$ with codomain $x$ whose image under $q$ is invertible (that is, $E$ is a left fibration)
+1. each $i \colon a \to p x$ in $A$ has a $p$-[[cartesian morphism|cartesian]] lift $\kappa_i \colon i^* x \to x$ in $E$ that is $q$-vertical (that is, $E$ is a left fibration)
 
-1. each $q x \to b$ in $B$ has an opcartesian lift in $E$ with domain $x$ whose image under $p$ is invertible ($E$ is a right fibration)
+1. each $j \colon q x \to b$ in $B$ has a $q$-opcartesian lift $\kappa^j \colon x \to j_! x$ in $E$ that is $p$-vertical ($E$ is a right fibration)
 
-1. for each $f \colon e \to e'$ in $E$ the canonical arrow between the codomain of any opcartesian lift of $q f$ as in (2) and the domain of the cartesian lift of $p f$ as in (1) is an [[isomorphism]].
+1. for every cartesian--opcartesian composite $i^* x \to x \to j_! x$ in $E$, the canonical morphism $j_! i^* x \to i^* j_! x$ is an [[isomorphism]].
 =--
 
 +-- {: .proof}
 ###### Proof
-**Warning**: incomplete, possibly wrong
 
 By the usual theory of [[distributive laws]], an $M$-algebra $m \colon M E \to E$ gives rise to $L$- and $R$-algebras $m \cdot (\Phi A \circ \eta^R_E)$ and $m \cdot (\eta^L_E \circ \Phi B)$, and conversely an $L$-algebra $\ell$ and an $R$-algebra $r$ underlie an $M$-algebra if and only if there is an isomorphism $r \cdot (\ell \circ \Phi B) \cong \ell \cdot (\Phi A \circ r)$ that makes $r$ a morphism of $L$-algebras.
 
 Now given $\ell$ and $r$, because $L$ is [[colax-idempotent]], there is a unique two-cell $\bar r \colon r \cdot (\ell \circ \Phi B) \Rightarrow \ell \cdot (\Phi A \circ r)$ that makes $r$ a colax morphism of $L$-algebras.  So we want to show that given an $L$-algebra and an $R$-algebra in $Cat$, this two-cell is invertible if and only if condition (3) above holds.
 
-The two-cell in question is given here by $\ell \cdot (\Phi A \circ r) \cdot (\epsilon \circ \Phi B)$, where $\epsilon$ is the counit of the adjunction $\eta^L_E \dashv \ell$.
-
-... to be continued ...
+The two-cell in question is given here by $\ell \cdot (\Phi A \circ r) \cdot (\epsilon \circ \Phi B)$, where $\epsilon$ is the counit of the adjunction $\eta^L_E \dashv \ell$.  Its components are thus given, for each $i \colon a \to p x$ in $A$ and $j \colon p x \to b$ in $B$, by first factoring $\kappa^j \kappa_i$ through the opcartesian $j_! i^* x \to i^* x$ and then factoring the result through the cartesian $i^* j_! x  \to j_! x$, to obtain exactly the canonical morphism $j_! i^* x \to i^* j_! x$.
 
 =--
 
