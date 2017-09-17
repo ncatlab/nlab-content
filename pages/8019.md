@@ -10,9 +10,11 @@ An ordered group is both a [[poset]] and a [[group]] in a compatible way.  The c
 
 ## Definition
 
-Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|commutative]]), and let $\leq$ be a [[partial order]] on the [[underlying set]] of $G$.  Then $(G,\leq)$ is an __ordered group__ if this compatibility conditions holds:
+Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|commutative]]), and let $\leq$ be a [[partial order]] on the [[underlying set]] of $G$.  Then $(G,\leq)$ is an __ordered group__ if this compatibility condition (_translation invariance_) holds:
 
 *  If $a \leq b$, then $a + c \leq b + c$ and $c + a \leq c + b$.
+
+More slickly, an ordered group is (up to [[equivalence of categories|equivalence]]) a [[thin category|thin]] [[groupal category]] (a groupal $(0,1)$-[[(0,1)-category|category]]).
 
 
 ## Properties
@@ -24,7 +26,9 @@ It\'s possible to *define* an ordered group in terms of the positive cone (by sp
 
 ## Ordered monoids
 
-Probably it works just as well to talk of partially ordered [[monoids]], but I haven\'t gotten around to checking this, and I don\'t want to jump to conclusions.  The characterisation in terms of the positive cone would be more difficult and may not be possible.
+It works just as well to talk of partially ordered [[monoids]], using the same condition of translation invariance.  Equivalently, this is a thin [[monoidal category]], or a monoidal $(0,1)$-category.
+
+However, the characterisation in terms of the positive cone probably can\'t be made to work (although I haven\'t checked for certain).
 
 
 ## Examples
