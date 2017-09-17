@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topos Theory
-+-- {: .hide}
-[[!include topos theory - contents]]
-=--
-#### Cohesive $\infty$-Toposes
+#### Cohesive Toposes
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
+=--
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
 =--
 =--
 =--
@@ -28,9 +28,9 @@ about (implicitly) the notion of [[cohesive toposes]]. (See there for further re
 
 The article is written in a style typical for Lawvere, where precise general abstract [[category theory|category theoretic]] and [[topos theory|topos theoretic]] situations are discussed more in prose than in the usual style of mathematical writing. The thoughts revolve around a topic that Lawvere takes up in various later articles, which are all listed in the References-section at [[cohesive topos]]. In the following we try to illuminate what the article here is saying. Of course such an _exegesis_ may or may not accurately reflect some of the original author's actual intentions.
 
-Generally, the notion of a **category of Being** that Lawvere discusses in _Some Thoughts on the Future of Category Theory_ is the notion that more recently he has been calling a _category of cohesion_ . The following tries to illuminate a bit what's going on .
+Generally, the notion of a **category of [[being|Being]]** that Lawvere discusses in _Some Thoughts on the Future of Category Theory_ is the notion that more recently he has been calling a _category of cohesion_ . The following tries to illuminate a bit what's going on .
 
-We restrict attention to the case that the [[category]] "of Being" is a [[topos]] and say _[[cohesive topos]]_ for short. This is a topos that satisfies a small collection of simple but powerful axioms that are supposed to ensure that its [[object]]s may consistently be thought of as _[[geometry|geometric]] [[space]]s_ built out of [[point]]s that are equipped with "cohesive" structure (for instance [[topology|topological structure]], or [[smooth structure]], etc.). So the idea is to axiomatize [[big topos]]es in which [[geometry]] may take place. 
+We restrict attention to the case that the [[category]] "of [[being|Being]]" is a [[topos]] and say _[[cohesive topos]]_ for short. This is a topos that satisfies a small collection of simple but powerful axioms that are supposed to ensure that its [[object]]s may consistently be thought of as _[[geometry|geometric]] [[space]]s_ built out of [[point]]s that are equipped with "cohesive" structure (for instance [[topology|topological structure]], or [[smooth structure]], etc.). So the idea is to axiomatize [[big topos]]es in which [[geometry]] may take place. 
 
 We walk through the main bits of the article:
 
@@ -57,11 +57,11 @@ This is what Lawvere is talking about from the bottom of p. 12 on. The _downward
 
 (This has, by the way, an important implication that Lawvere does not seem to mention: it implies that we are entitled to the corresponding [[quasi-topos]] induced by the sub-topos. That, one can show, may be identified with the collection of _[[concrete sheaf|concrete]]_ cohesive spaces. In the case of the cohesive topos for differential geometry, the concrete objects in this sense are precisely the _[[diffeological space]]s_ .  )
 
-He calls the subtopos given by the image of $\mathrm{coDisc} : \mathcal{S} \to \mathcal{E}$ that of "pure Becoming" further down on p. 7, whereas the subcategory of discrete objects he calls that of "non Becoming". One way one might understand this terminology is as follows:
+He calls the subtopos given by the image of $\mathrm{coDisc} : \mathcal{S} \to \mathcal{E}$ that of "pure [[becoming|Becoming]]" further down on p. 7, whereas the subcategory of discrete objects he calls that of "non [[becoming|Becoming]]". One way one might understand this terminology is as follows:
 
 whereas any old [[(∞,1)-topos]] is a collection of _[[space]]s_ , a [[cohesive (∞,1)-topos]] comes with the extra adjoint $\Pi$ which, as mentioned above, has the interpretation of sending any space to its [[fundamental ∞-groupoid]]. Therefore there is an intrinsic notion of _geometric paths_ in any cohesive $\infty$-topos. This allows notably to define [[parallel transport]] along paths and [[higher parallel transport]] along higher [[dimension]]al paths, hence a kind of _dynamics_ . In fact there is [[differential cohomology]] in every cohesive $(\infty,1)$-topos. 
 
-Now, in a [[discrete space|discrete object]] there are no non-trivial paths (formally because   by the fact that $Disc$  is [[full and faithful functor|full and faithful]] and [[left adjoint]] to $\Pi$ we haver $\Pi Disc \simeq Id$), so there is "no dynamics" in a discrete object hence "no becoming", if one wishes. Conversely in a [[codiscrete space|codiscrete object]] every sequence of points whatsoever counts as a path, hence the distinction between the space and its "dynamics" disappears and so we have "pure becoming", if one wishes.
+Now, in a [[discrete space|discrete object]] there are no non-trivial paths (formally because   by the fact that $Disc$  is [[full and faithful functor|full and faithful]] and [[left adjoint]] to $\Pi$ we haver $\Pi Disc \simeq Id$), so there is "no dynamics" in a discrete object hence "no [[becoming]]", if one wishes. Conversely in a [[codiscrete space|codiscrete object]] every sequence of points whatsoever counts as a path, hence the distinction between the space and its "dynamics" disappears and so we have "pure [[becoming]]", if one wishes.
 
 Notice next that every [[adjoint triple]] induces an [[adjoint monad]]. In the present situation we get
 
