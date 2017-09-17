@@ -272,6 +272,9 @@ One says that $PSh(C)$ is the _[[classifying topos]]_ for internally flat functo
 
 * [[morphism of sites|Morphisms of sites]] are flat functors which additionally preserve covering families.
 
+* [[tensor product of modules]] with a [[flat module]]
+
+
 
 ## References
 
