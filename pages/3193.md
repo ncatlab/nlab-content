@@ -5,7 +5,7 @@
 
 ## Definition
 
-For an [[operator]] between [[Banach spaces]], compactness is a natural strengthening of [[bounded operator|continuity]] (boundedness). A linear operator is **compact** if it sends the [[bounded subspace|bounded subsets]] to [[relatively compact subset|relatively compact subsets]]. 
+For a [[linear operator]] between [[Banach spaces]], compactness is a natural strengthening of [[bounded operator|continuity]] (boundedness). A linear operator is **compact** if it sends the [[bounded subspace|bounded subsets]] to [[relatively compact subset|relatively compact subsets]]. 
 
 
 ## Properties
