@@ -58,7 +58,7 @@ The definition is entirely analogous to the [[model structure on sSet-categories
 ### With Morita equivalences
   {#WithMoritaEquivalences}
 
-There is another model category structure with more weak equivalences, the _Morita equaivalences_ ([Tabuada 05](#Tabuada05)).  This is in fact the [[left Bousfield localization]] of the above model structure with respect to the Morita equivalences, i.e. functors $F: C \to D$ whose induced [[restriction of scalars]] functor $\mathbf Lf^* : \mathbf D(D) \to \mathbf D(C)$ is an [[equivalence of categories]].
+There is another model category structure with more weak equivalences, the _Morita equivalences_ ([Tabuada 05](#Tabuada05)).  This is in fact the [[left Bousfield localization]] of the above model structure with respect to the Morita equivalences, i.e. functors $F: C \to D$ whose induced [[restriction of scalars]] functor $\mathbf Lf^* : \mathbf D(D) \to \mathbf D(C)$ is an [[equivalence of categories]].
 
 The [[fibrant objects]] with respect to this model structure are the [[dg-categories]] A for which the canonical inclusion $H^0(A) \hookrightarrow \mathbf D(A)$ has its [[essential image]] stable under [[cones]], [[suspensions]], and [[direct sums]].  Hence the [[homotopy category]] with respect to this model structure is identified with the [[full subcategory]] of Ho(DGCat), the homotopy category of the Dwyer-Kan model structure, spanned by dg-categories of this form.
 
