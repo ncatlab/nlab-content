@@ -51,7 +51,7 @@ $$
   \,,
 $$
 
-for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[shuffle]]s $\sigma$.
+for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[unshuffle]]s $\sigma$.
 
 Notably for $n = 4$ this says that the binary bracket $l_2 = [-,-]$, the trinary bracket $l_3 = [-,-,-]$ and the unary "bracket" $l_1$ are related by
 
