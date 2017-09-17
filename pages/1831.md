@@ -62,7 +62,7 @@ Let $p : X \to S$ be a morphism of [[simplicial set]]s where $S$ is a [[Kan comp
 
 1. $p$ is a Cartesian fibration
 
-1. $p$ os a coCartesian fibrationn
+1. $p$ is a coCartesian fibration
 
 1. $p$ is a [[Joyal model structure on simplicial sets|categorical fibration]]
 
