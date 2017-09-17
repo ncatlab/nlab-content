@@ -117,7 +117,16 @@ The subspace of $\mathcal{H}$ that is invariant under the action of the translat
 
 * **Reeh-Schlieder Theorem**: The vacuum vector is cyclic and separating for all local algebras.
 
+Let $x, y \in \R^4$ and define $[x, y] := \{\lambda x + \mu y | \lambda, \mu \geqq 0, \lambda + \mu = 1\} $.
+Define
+$$
+           \mathcal{M}[x, y] := \cap_{[x, y] \subset \mathcal{O}} \mathcal{M}(\mathcal{O})
+$$
+* **Triviality of algebras of spacelike segments**: If the segment $[x, x + b]$ is spacelike, i.e. $\langle b, b \rangle \lt 0$, and the vacuum respresentation has a unique vacuum vector, then $\mathcal{M}[x, x + b] = \mathbb{C} \mathbb{1}$, i.e. the algebra associated with the segment is trivial.
 
+* **Triviality of algebras of points**: The conclusion of the preceding statement holds if we put $b = 0$, i.e. if we consider the algebra associated with one point.
+
+The preceding theorem is sometimes summarized as _there are no non-trivial observables at the point_. There are two possible ways to interpret this result: The pragmatic approach says that, since no detector can be built that measures observables precisley at one point of spacetime, there is no need of a theory to support the concept of observables localized at a point. The philosophical approach takes this one step further and states that our relativistic quantum theory tells us that the concepts of points and observables localized at points are an idealization with no relevance to nature.
 
 ## Generalization of the Haag-Kastler Axioms to Curved Spacetimes
 It is possible to generalize the Haag-Kastler approach to general (Lorentzian) spacetimes.
@@ -163,6 +172,8 @@ Recently published review papers:
 * Romeo Brunetti, Klaus Fredenhagen: [Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)
 
 * Robert M. Wald: [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
+
+* Robert M. Wald: [The History and Present Status of Quantum Field Theory in Curved Spacetime] (http://lanl.arxiv.org/abs/gr-qc/0608018v1)
 
 +-- {: .query}
 [[Tim van Beek]]: I have not done an extensive search for pages that I could link to, so there may be some missing (but not on purpose!). Also the links on the [[AQFT]] site could equally well be placed here... 
