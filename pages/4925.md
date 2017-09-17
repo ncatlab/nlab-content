@@ -178,7 +178,7 @@ An _$n$-colouring_ of a knot diagram, $D$, is an assignment to each arc of an el
 
 with $a+c \equiv_n 2b$.
 
-=--
+
 What, of course, needs to be checked (left to 'the reader') is
 
 * this notion is a generalisation of 3-colourability (i.e. coincides in the case of $n = 3$);
@@ -192,6 +192,8 @@ and then to find some examples of, say, 5-colourability. What knots are 5-colour
 There is an even more general notion of coloring a knot $K$ by the elements of a [[quandle]] $(Q,\rhd : Q \times Q \to Q)$.  Formally, a coloring of $K$ by $Q$ corresponds to a quandle homomorphism from the fundamental quandle $Q(K)$ of $K$ to $Q$.  Concretely, this says that at each crossing with arcs labelled $a$, $b$, and $c$ (as in the above diagram), the identity $c = a \rhd b$ must be respected.  In particular, $n$-coloring corresponds to coloring by the set $\mathbb{Z}_n$ equipped with the quandle operation $a \rhd b = 2b - a\,(mod\,n)$, known as the dihedral quandle.
 
 ## References
+
+* [[Ralph Fox]], _A quick trip through Knot theory_ [pdf file]( (http://homepages.math.uic.edu/~kauffman/QuickTrip.pdf)
 
 * Wikipedia articles on [tricolorability](http://en.wikipedia.org/wiki/Tricolorability) and [Fox n-coloring](http://en.wikipedia.org/wiki/Fox_n-coloring)
 
