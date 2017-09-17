@@ -16,7 +16,7 @@
 
 ## Statement
 
-The **Hadamard lemma** states that for every [[smooth function]] $f \in C^\infty(\mathbb{R})$ on the [[real line]] there is a smooth function $g$ such that
+The **Hadamard lemma** (or Hadamard's lemma) states that for every [[smooth function]] $f \in C^\infty(\mathbb{R})$ on the [[real line]] there is a smooth function $g$ such that
 
 $$
   f(x) = f(0) + x \cdot g(x)
@@ -46,6 +46,15 @@ $$
   \,.
 $$
 
+### Proof 
+
+Holding $x$ fixed, put $h(t) = f(t x)$. Then 
+
+$$f(x) - f(0) = \int_{0}^{1} h'(t) d t = \int_{0}^{1} \sum_{i=1}^n \frac{\partial f}{\partial x_i} (t x) \cdot x_i d t$$ 
+
+where the second equality uses the chain rule. The lemma follows by putting 
+
+$$g_i(x) = \int_{0}^{1} \frac{\partial f}{\partial x_i}(t x) d t$$
 
 ## Remarks
 
