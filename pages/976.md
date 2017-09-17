@@ -262,7 +262,7 @@ which explores categorical methods in the area.
 
 The relationship between invariants of $C^*$-algebras and the shape of their spectra was explored in
 
-* [[B. A. Blackadar]], _Shape theory for $C^*$-algebras_, Math. Scand. 56 (1985) 249 -  275, [journal link](http://www.mscand.dk/article.php?id=2767).
+* [[Bruce Blackadar]], _Shape theory for $C^*$-algebras_, Math. Scand. 56 (1985) 249 -  275, [journal link](http://www.mscand.dk/article.php?id=2767).
  {#Blackadar}
 
 
