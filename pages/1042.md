@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -24,9 +23,10 @@ A __hereditarily finite set__ is a [[finite set]] of hereditarily finite sets; t
 
 As a property of a [[set]], being hereditarily finite is equivalent (up to [[isomorphism]] of sets) to simply being finite.  So the 'hereditary' part is meaningful only in  [[material set theory]], not [[structural set theory|structurally]], unless you see it as a property of a [[pure set]] represented structurally as a membership tree.
 
+
 ## Properties
 
-There are countably many hereditarily finite sets, up to [[isomorphism]], and in fact they can be neatly enumerated as follows:  Given a [[natural number]] $n \geq 0$, write $n$ in base $2$; the $i$th hereditarily finite set is a member of the $n$th one if the $i$th digit of $n$ is $1$.  (This definition is well-founded, because the highest non-zero digit of $n$ must have position at most $\log_2 n$, which is less than $n$.)
+There are countably many hereditarily finite sets, up to [[equality]] (in material set theory), and in fact they can be neatly enumerated as follows:  Given a [[natural number]] $n \geq 0$, write $n$ in base $2$; the $i$th hereditarily finite set is a member of the $n$th one if the $i$th digit of $n$ is $1$.  (This definition is well-founded, because the highest non-zero digit of $n$ must have position at most $\log_2 n$, which is less than $n$.)
 
 So the hereditarily finite sets are as follows:
 
@@ -56,4 +56,6 @@ The set $V_\omega$ of hereditarily finite sets is a [[Grothendieck universe]] (u
 
 In [[constructive mathematics]], one gets different notions of hereditarily finite set depending on exactly how one defines _[[finite set]]_.  The enumeration above works if you use the strictest sense, but you need to close under taking [[subsets]] (or use subfinite sets to start with) to get a Grothendieck universe in [[material set theory]].
 
-[[!redirects  hereditarily finite sets]]
+
+[[!redirects hereditarily finite set]]
+[[!redirects hereditarily finite sets]]
