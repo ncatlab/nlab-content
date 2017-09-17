@@ -24,8 +24,8 @@ One could also consider a basis of open sets such that the opens $U$ have trivia
 
 * Any [[CW-complex]] is locally contractible.
 * Any [[paracompact]] [[manifold]] is locally contractible
-* Any contractible space is semi-locally contractible
-* The cone on the [[Hawaiian earring space]] is contractible, hence semi-locally contractible, but is not locally contractible, as any neighbourhood of the 'bad point' is not simply connected.
+* Any [[contractible]] space is semi-locally contractible
+* The [[cone]] on the [[Hawaiian earring space]] is contractible, hence semi-locally contractible, but is not locally contractible, as any neighbourhood of the 'bad point' is not simply connected.
 
 ## Other viewpoints
 
