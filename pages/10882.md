@@ -39,6 +39,16 @@ More concrete implementations of the main theorem appear in
 
 ## 2. Properties of moduli functors
 
+### 2.1 Nilcomplete, Cohesive, and Integrable Functors
+
+* [[cohesive ∞-presheaf on E-∞ rings]]
+
+### 2.2 Relativized properties of functors
+
+### 2.3 Finiteness conditions on functors
+
+### 2.4 Moduli of spectral Deligne-Mumford stacks
+
 ## 3. Representability theorems
 
 ## 4. Tangent complexes and dualizing modules
