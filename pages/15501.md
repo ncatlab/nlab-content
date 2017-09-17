@@ -1,3 +1,3 @@
-"When you look beyond airlines, spend-based programmes are the industry standard,Michael Kors," said Tim Winship, editor and publisher of FrequentFlier.com.
- <a href="http://www.doordefender.co.uk/RayBannfashion-2014.asp?fashion=fake-ray-bans-aviator-c-1/" >Fake Ray Bans Aviator</a>
-[url=http://www.doordefender.co.uk/RayBannfashion-2014.asp?fashion=fake-ray-bans-aviator-c-1/]Fake Ray Bans Aviator[/url]
+LinkedIn and other professional networking sites such as Xing.com in Europe are good places to connect with former administrative workers who can give you sage advice on making a move.
+ <a href="http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-7010-c-43.html" >Ray Ban 7010</a>
+[url=http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-7010-c-43.html]Ray Ban 7010[/url]
