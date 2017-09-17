@@ -52,7 +52,7 @@ Then a **Banach space** is simply a vector space equipped with a complete norm. 
 $$ {\left\| \sum_{i=1}^\infty v_i \right\|} \leq \sum_{i=1}^\infty {\|v_i\|} ,$$
 with the left-hand side guaranteed to exist if the right-hand side exists as a finite real number (but the left-hand side may exist even if the right-hand side diverges, the usual distinction between absolute and conditional convergence).
 
-If we do not insist on the space being complete, we call it a **[[normed vector space|normed (vector) space]]**.  If we have a [[topological vector space]] such that the topology comes from a norm, but we do not make an actual choice of such a norm, then we talk of a **normable space**.
+If we do not insist on the space being complete, we call it a **normed (vector) space**.  If we have a [[topological vector space]] such that the topology comes from a norm, but we do not make an actual choice of such a norm, then we talk of a **normable space**.
 
 
 ### Banach spaces as metric spaces
