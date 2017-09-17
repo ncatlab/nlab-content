@@ -242,6 +242,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[directed homotopy type theory]]
 
+[[!include homotopy n-types - table]]
+
 
 
 
