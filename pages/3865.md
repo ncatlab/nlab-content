@@ -197,8 +197,6 @@ Only part (a) needs further explanation...
 
 ## Related concepts
 
-* [[operator]]
-
 * [[linear operator]]
 
 * [[bounded linear operator]] / **unbounded linear operator**
