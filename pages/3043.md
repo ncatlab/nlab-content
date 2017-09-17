@@ -1,13 +1,44 @@
-Short exact sequences of Lie algebras are the diagrams of the form
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The notion of **Lie algebra extension** is a special case of the general notion of <a href="http://ncatlab.org/nlab/show/infinity-Lie+algebra+cohomology#Extensions">Extensions</a> in [[∞-Lie algebra cohomology]].
+
+## Definition
+
+A [[short exact sequence]]s of [[Lie algebra]]s is a diagram
 
 $$ 0\to \mathfrak{k}
 \overset{i}\to \mathfrak{g}\overset{p}\to\mathfrak{b}\to 0$$
 
 where $\mathfrak{k},\mathfrak{g},\mathfrak{b}$ are Lie algebras, $i,p$ are homomorphisms of Lie algebras and the underlying diagram of vector spaces is exact, i.e. $Ker(p)=Im(i)$, $Ker(i)=0$ and $Im(p)=0$. 
 
-We also say that this diagram (and sometimes loosely $\mathfrak{g}$ itself) is a **Lie algebra extension** of $\mathfrak{b}$ by the "kernel" $\mathfrak{k}$. Lie algebra extensions may be obtained from Lie [[group extension]]s via the tangent Lie algebra functor. 
+We also say that this diagram (and sometimes, loosely speaking, $\mathfrak{g}$ itself) is a **Lie algebra extension** of $\mathfrak{b}$ by the "kernel" $\mathfrak{k}$. 
 
-Then each element $g \in \mathfrak{g}$ defines
+Lie algebra extensions may be obtained from [[Lie group]] [[group extension]]s via the tangent Lie algebra functor. 
+
+## Classification by nonabelian Lie algebra cocycles
+
+We discuss how Lie algebra extensions are classified by cocycles in [[nonabelian Lie algebra cohomology]].
+
+Each element $g \in \mathfrak{g}$ defines
 a derivative $\phi(g)$ on $\mathfrak{k}$ by $\phi(g)(k) = [g,k]$.
 The rule $g \mapsto \phi(g)$ defines a homomorphism of Lie algebras
 $\phi : \mathfrak{g} \rightarrow Der(\mathfrak{k})$.
@@ -17,7 +48,7 @@ $$\phi([g_1,g_2])(k) = [[g_1,g_2],k] =
 [[g_1,k],g_2] + [g_1,[g_2,k]] = -\phi(g_2)([g_1,k]) + \phi(g_1)([g_2,k])
 = [-\phi(g_2)\circ\phi(g_1) + \phi(g_1)\circ\phi(g_2)](k) = [\phi(g_1),\phi(g_2)](k),$$
 
-for all $g_1,g_2 \in {\mathfrak g}$, for all $k \in \mathfrak{k}$.
+for all $g_1,g_2 \in \mathfrak{g}$, for all $k \in \mathfrak{k}$.
 The restriction $\phi|_{\mathfrak{k}}$ takes
 (by definition) values in the Lie subalgebra $Int(\mathfrak{k})$ of inner derivatives of $\mathfrak{k}$.
 If $g_1$ and $g_2$ are in the same coset, that is
@@ -85,3 +116,5 @@ However, not every pair $(\chi,\psi)$ will
 give some commutation rule on $\mathfrak{b} \times k$ satisfying Jacobi identity, and also some different pairs may lead to the isomorphic extensions. 
 
 In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-cocycle in the sense of [[nonabelian Lie algebra cohomology]].
+
+[[!redirects Lie algebra extensions]]
