@@ -57,4 +57,4 @@ also a file at K-theory archive [THESE.pdf](http://www.math.uiuc.edu/K-theory/07
 
 * {#Belmans} [[Pieter Belmans]], section 2.2 of _Grothendieck duality: lecture 3_, 2014 ([[BelmansDuality.pdf:file]])
 
-
+* [[Amnon Neeman]], _An improvement on the base-change theorem and the functor $f^!$_, [arXiv](http://arxiv.org/abs/1406.7599).
