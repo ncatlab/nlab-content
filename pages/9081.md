@@ -462,7 +462,73 @@ $$
 
 which modulates a [[circle n-bundle with connection|circle (n-k)-bundle with connection]] on the [[moduli infinity-stack]] of fields on $\Sigma_k$. At least for large classes of theories, this is the (off-shell) [[prequantum n-bundle|prequantum (n-k)-bundle]] of the theory.
 
+## Properties
+
+### Relation to universal characteristic classes
+
+By the discussion at _[[field (physics)]]_ in the section _[Properties - Relation to twisted cohomology](field%20%28physics%29#RelationToTwistedCohomology)_ a field configuration in any [[theory of physics]] may equivalently be thought of as a [[cocycle]] in [[twisted cohomology|twisted]] general [[cohomology]]. Here we discuss that evaluating an extended Lagrangian on such a field configuration is equivalently producing a [[characteristic class]]. In other words, under this identification with [[cohomology]] an extended Lagrangian is equivalently a [[universal characteristic map]] and its [[equivalence class]] is the corresponding [[universal characteristic map]].
+
+[[!include gauge field - table]]
+
 ## Examples
+
+### For discrete higher gauge groups: $\infty$-Dijkgraaf-Witten theory
+
+$G$ a [[discrete ∞-group]]
+
+extended Lagrangians are cocycles in [[group cohomology]]:
+
+$$
+  \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n U(1))
+  \simeq
+  \pi_0 Top(B G, B^n U(1)_{disc})
+  \simeq
+  H_{Grp}^n(G,U(1))
+$$
+
+these are the extendd Lagrangians of [[infinity-Dijkgraaf-Witten theory]].
+
+### For ordinary gauge theory with
+
+We consider $G$ a [[Lie group]], to be regarded as the [[gauge group]] of a [[gauge theory]]. We write $\mathbf{B}G_{conn} \in \mathbf{H}$ for the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of $G$-[[principal connections]].  
+
+Setting $\mathbf{Fields} \coloneqq \mathbf{B}G_{conn}$ this is the [[moduli stack]] for [[field (physics)|fields]] in a pure $G$-gauge theory. An extended Lagrangian is hence to be a map
+
+$$
+  \mathbf{L} 
+    \;\colon\;
+  \mathbf{B}G_{conn}
+   \stackrel{}{\to}
+  \mathbf{B}^n U(1)_{conn}
+  \,.
+$$
+
++-- {: .prop_defn}
+###### Proposition
+
+For $G \in \mathbf{H} \coloneqq $ [[Smooth∞Grpd]] a [[compact Lie group]] and $n \in \mathbb{N}$, then [[geometric realization of cohesive ∞-groupoids]] ${\vert - \vert} \colon \mathbf{H} \to \infty Grpd \simeq L_{whe} Top$ induces a [[natural isomorphism]]
+
+$$ 
+  {\vert- \vert}
+  \;\colon\;
+  \pi_0 \mathbf{H}(\mathbf{B}G, \mathbf{B}^n U(1))
+  \stackrel{\simeq}{\to}
+  \pi_0 L_{whe} Top(B G, B^n U(1))
+  \simeq
+  H^{n+1}(B G, \mathbb{Z})
+  \,.
+$$ 
+
+=--
+
+This is discussed at _[[Lie group cohomology]]_. The proof is in ([dcct](#dcct)).
+
++-- {: .prop_defn}
+###### Proposition
+
+This means that the [[instanton sectors]] of extended Lagrangians for pure ordinary gauge theory are labeled precisely by the [[integral cohomology]] of the [[classifying space]] $B G$ of the [[gauge group]]. In ordinary [[Chern-Simons theory]] this is called the **level** of the theory.
+
+=--
 
 ### Higher gauge theory
 
@@ -489,6 +555,38 @@ $$
 $$
 
 In this case the extended Lagrangian also plays the role as the universal differential refinement of the [[obstruction]] class to [[lift of structure groups]] through $\hat G \to G$. More generally, its [[homotopy fiber products]] are [[moduli ∞-stacks]] of [[twisted differential c-structures]]. See there for more examples.
+
+### Construction of extended Lagrangians by Lie integration
+ {#ByLieIntegration}
+
+[[Lie integration]]:
+
+for $\mathbb{g}$ an [[L-∞ algebra]] and
+
+$$
+  \mu \;\colon\; \mathfrak{g} \to b^{n-1}\mathbb{R}
+$$ 
+
+a [[homomorphism]] of $L_\infty$-algebras into the [[line Lie n-algebra]], hence a [[cocycle]] in [[L-∞ algebra cohomology]], the operation of differentially refined [[Lie integration]] ([FSS](#spring)) produces a morphism of [[moduli ∞-stacks]]
+
+$$
+  \widehat {\exp(\mu)}
+  \;\colon\;
+  \exp(\mathfrak{g})_{conn}
+  \to 
+  \mathbf{B}^n \mathbb{R}_{conn}
+$$
+
+Under [[truncated object in an (∞,1)-category|truncation]] this yields
+
+$$
+  \mathbf{B}G_{conn}
+  \to 
+  \mathbf{B}^n (\mathbb{R}/\Gamma)
+  \,,
+$$
+
+where $G \coloneqq \Omega \tau_n \exp(\mathfrak{g})$ and where $\mathbf{B}G_{conn}$ is the moduli of $G$-[[connections on an ∞-bundle|∞-connections]]. ([FSS](#FiorenzaSchreiberStesheff))
 
 ### Higher Chern-Simons theory
 
@@ -517,7 +615,6 @@ Various examples are discussed at
 [[!include extended prequantum field theory - table]]
   
 
-
 ## References
 
 Expositions, examples and further pointers are in 
@@ -529,9 +626,14 @@ Expositions, examples and further pointers are in
 Lecture notes are in _[[geometry of physics]]_, and section 1.2 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+ {#dcct}
 
 A general abstract discussion is in section 3 there, further discussion of examples in section 5.
 
+The construction by Lie integration is due to
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
+ {#FiorenzaSchreiberStesheff}
 
 
 [[!redirects extended Lagrangians]]
