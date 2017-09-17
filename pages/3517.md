@@ -17,6 +17,7 @@
 
 The **five lemma** is one of the basic lemmas of [[homological algebra]], useful for example in the construction of the [[connecting homomorphism]] in the  [[homology long exact sequence]]. 
 
+
 ## Five lemma
 
 Consider a [[commutative diagram]] in a fixed [[abelian category]] of the form 
@@ -30,16 +31,13 @@ B_1 & \to & B_2 & \to & B_3 & \to & B_4 &\to & B_5
 where the top and bottom rows are [[exact sequences]]. For simplicity we denote all the differentials in both exact sequences by $d$.
 
 +-- {: .num_lemma}
-###### Lemma
-**(five lemma)**
-
+###### Lemma (five lemma)
 
 * 1) If $f_2$ and $f_4$ are [[epimorphism|epi]] and $f_5$ is [[monomorphism|mono]], then $f_3$ is epi. 
 
 * 2) If $f_2$ and $f_4$ are [[monomorphism|monic]] and $f_1$ is [[epimorphism|epi]], then $f_3$ is mono. 
 
 * 1+2) If $f_2$ and $f_4$ are [[isomorphism|isos]], $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
-
 =--
 
 +-- {: .proof}
@@ -51,11 +49,10 @@ we can always assume that the abelian category is $R$[[Mod]] (though this requir
 Suppose $b\in B_3$. Since $f_4$ is epi, one can choose an element $a_4\in A_4$ such that $f_4(a_4) = d(b)$. Now $0 = d^2 b = d f_4 (a_4) = f_5 d (a_4)$. Since $f_5$ is monic that means that $d a_4 = 0$ as well. By the exactness of the upper row, that means there is $a_3\in A_3$ such that 
 $d a_3 = a_4$, hence also $d f_3 (a_3) = f_4 d (a_3) = f_4(a_4) = d
 b$. We would like that $f_3(a_3)$ be equal to $b$ but this is not so, we just see that $d (b-f_3(a_3)) = 0$ and hence by exactness  of the lower row there is $b'\in B_2$ such that $d b' = b-f_3(a_3)$. Since $f_2$ is also epi, there is $a_2\in A_2$ such that $f_2(a_2) = b'$. Now $d a_2+a_3\in A_3$ is such that 
-
 $$f_3 (d a_2 + a_3) = d f_2(a_2) + f_3(a_3) = d b' + f_3(a_3) = b - f_3(a_3) + f_3(a_3) = b$$ 
-
 demonstrating that $b$ is in the image of $f_3$.
 
+Hence $f_3$ is epic.
 =--
 
 +-- {: .num_remark}
@@ -68,6 +65,7 @@ The five lemma also holds in the category [[Grp]] of [[groups]], by essentially 
 One can avoid appealing to the [[Freyd-Mitchell embedding theorem]] if one works with [[element in an abelian category|generalized elements]] or uses the device of [[internal logic|interpreting]] [[regular logic]] in the given abelian category. The former requires a bit of manual reformulation, while the latter is almost automatic, as the element-based proof given above only uses (constructive) regular reasoning.
 =--
 
+
 ## Short split five lemma
 
 A special case of the five lemma is the _short five lemma_ where the objects $A_1,B_1,A_5,B_5$ above are all [[zero objects]]. It may hold in more general setups, sometimes with additional assumptions. 
@@ -75,22 +73,20 @@ A special case of the five lemma is the _short five lemma_ where the objects $A_
 The **short split five lemma** is a statement usually stated in the setup of [[semiabelian categories]]:
 
 +-- {: .num_lemma}
-###### Lemma
-**(short split five lemma)**
-
+###### Lemma (short split five lemma)
 
 Given a commutative diagram
 $$\array{L & \overset{l}{\to} & H & \overset{q}{\to} & C\\
   ^u\downarrow && \downarrow^w && \downarrow^v \\
   K & \underset{k}{\to} & G& \underset{p}{\to} & B}$$
 where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]]s, if $u$ and $v$ are [[isomorphism]]s then so is $w$.
-
 =--
 
 +-- {: .num_remark}
 ###### Remark 
 The short five lemma holds in the category of [[abelian group|abelian]] [[topological groups]], even though that category is not semi-abelian. For a proof, see this [paper](#BorClem) by Borceux and Clementino. 
 =--
+
 
 ## Related concepts
 
@@ -99,6 +95,7 @@ The short five lemma holds in the category of [[abelian group|abelian]] [[topolo
 * [[3x3 lemma]], [[snake lemma]]
 
 * [[horseshoe lemma]]
+
 
 ## References
 
