@@ -6,7 +6,7 @@ or
 
 * the [[extra structure]] which such an algebra has with respect to the underlying object. 
 
-There are several notions of an __algebraic structure__ on an object of some category or higher category, which differ in generality. It may be to be an algebra over an [[algebraic theory]], [[algebra over an operad]] (or higher operad) or an [[algebra over a monad]], or over a prop, over a properad etc. See also [[variety of algebras]].
+There are several notions of an __algebraic structure__ on an object of some category or higher category, which differ in generality. It may be to be an algebra over an [[algebraic theory]], [[algebra over an operad]] (or higher operad) or an [[algebra over a monad]], or over a [[PROP]], over a [[properad]] etc. See also [[variety of algebras]].
 
 There is also an older notion of an algebraic structure/algebra as a model for a one-sorted [[theory]] where the only relation symbols in the language involved are $\epsilon$ and equality (with standard interpretation in models). This notion includes for example fields which are not an algebraic theory in the sense of monads (because there are no free objects in the case of fields, i.e. the category of fields is not [[monadic functor|monadic]] over the category of sets). 
 
