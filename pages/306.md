@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
 =--
 =--
 
@@ -199,6 +203,19 @@ In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] subobject cla
 As pointed out there, from some perspective it is not so much a _subobject_ classifier that matters in [[higher topos theory]], but an 
 
 * [[object classifier]].
+
+
+## Related concepts
+
+* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[classifying topos]]
+
+* [[universal principal bundle]], [[universal principal ∞-bundle]]
+
+* [[classifying topos]}
+
+* [[classifying morphism]]
 
 
 ## References#
