@@ -19,17 +19,20 @@
 
 ## Idea
 
-The _smooth loop space_ of a [[smooth manifold]] or other [[smooth space]], $X$ is the [[smooth space]] of smooth maps from the [[circle]], $S^1$, to $X$: the smooth space of smooth [[loops]] in $X$, or technically the [[mapping space]]
+The notion of the _smooth loop space_ of a (smooth) [[smooth manifold|manifold]] is a way to make the set of smooth maps from the [[circle]] to the target manifold into an object amenable to the tools of [[differential topology]].
 
+Let $M$ be a [[smooth manifold|smooth finite dimensional manifold]].  Then the set of smooth maps $S^1 \to M$ is not usefully the underlying set of a finite dimensional manifold.  Therefore to make it into an object that can be studied in differential topology, one has to allow for smooth spaces other than finite dimensional smooth manifolds.  That is to say, one has to work in a larger category than just that of finite dimensional smooth manifolds.
+
+If the category is [[cartesian closed]] then the smooth loop space of a smooth space, say $X$, is simply the result of applying the [[internal hom]] functor with that space as target and the circle as source:
 $$
   L X \coloneqq [S^1, X]
 $$
+(This is the smooth [[free loop space]]; for the smooth [[based loop space]] one applies the standard restriction.)
 
-(for a smooth [[free loop space]] or otherwise a restriction of that if one considers based loops). 
+There are a variety of suitable categories listed at [[generalized smooth spaces]].
 
-In [[smooth spaces]] the [[internal hom]] $[S^1,X]$ always exists, more discussion is at _[geometry of physics - smooth mapping spaces](geometry%20of%20physics#SmoothMappingSpaces)_. But if $X$ comes from a certain [[subcategory]] of smooth spaces, then also $[S^1, X]$ may land in a certain subcategory of interest.
-
-Notably, if $X \in $ [[SmthMfd]] $\hookrightarrow$ [[smooth space|Smth0Type]] is a [[smooth manifold]], then $[S^1, X]$ naturally carries the structure of a [[diffeological space]] (a [[concrete object]] in [[smooth spaces]]) or [[Frölicher space]] and can be given compatibly the structure of an infinite dimensional [[Fréchet manifold]].
+The categories of smooth spaces discussed at [[generalized smooth spaces]] are all cartesian closed and thus all admit smooth loop spaces of all objects.
+However, by restricting to a subcategory that might not be cartesian closed (for example, finite dimensional smooth manifolds) one can ask for another subcategory that is large enough to contain all the resulting smooth loop spaces.  For finite dimensional smooth manifolds it turns out that one can give their smooth loop spaces the structure of an infinite dimensional [[Fréchet manifold]].
 
 Depending on taste and application, certain smooth [[quotient objects]] of this free loop space may be and are often considered. 
 
