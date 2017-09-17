@@ -34,7 +34,7 @@ Let $f = (f_1, f_2, \ldots)$ be an [[equicontinuous family|equicontinuous]] [[in
 ## Counterexamples
 
 The first counterexamples to Non-Theorem \ref{mistake} arose as [[Fourier series]].  The sawtooth wave
-$$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} = \frac{1}{2} (\pi - x \bmod 2 \pi) $$
+$$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} = \frac{\pi}{2} - \frac{x \mathbin{mod} 2 \pi}{2} $$
 may be the simplest.  Each partial sum of this [[infinite series]] is continuous; the sum converges pointwise as indicated for $x$ not a multiple of $2 \pi$ and to $0$ (which is the average of the limits $\pm\pi/2$ on either side) for $x$ a multiple of $2 \pi$.  However, the sequence of partial sums is not equicontinuous, nor does it converge uniformly.  And indeed, the sum is not continuous at multiples of $2 \pi$.
 
 
@@ -71,7 +71,7 @@ $$    {|f_\infty(x + h) - f_\infty(x)|}
   \lt \epsilon/3 + \epsilon/3 + \epsilon/3
     = \epsilon
 $$
-whenever $n \geq $N$ and $h \lt \delta$.  Fixing any $n$, $f_\infty$ is continuous.
+whenever $n \geq N$ and $h \lt \delta$.  Fixing any such $n$, $f_\infty$ is continuous.
 =--
 
 We have used the variable names $n$ and $h$ in two different [[contexts]] each, then pretended that they arose in a single context for the final inequality.  The error can be made more explicit by using different variable names:
@@ -79,19 +79,44 @@ We have used the variable names $n$ and $h$ in two different [[contexts]] each, 
 ###### Non-proof
 (Non-theorem \ref{mistake}).
 
-Let $\epsilon$ be a [[positive number]], and consider $\epsilon/3$.  Because $f$ converges to $f_\infty$ at $x$, there is some [[natural number]] $N$ such that ${|f_n(x) - f_\infty(x)|} \lt \epsilon/3$ whenever $n \geq N$.  Because $f_{n'}$ is continuous at $x$ for each $n'$, there is some positive number $\delta$ such that ${|f_{n'}(x + h) - f_{n'}(x)|} \lt \epsilon/3$ whenever $h \lt \delta$.  Because $f$ converges to $f_\infty$ at $x + h'$ for each $h'$, there is some natural number $N'$ such that ${|f_\infty(x + h') - f_{n''}(x + h')|} \lt \epsilon/3$ whenever $n'' \geq N'$.  Therefore, there are $N$ and $\delta$ such that
+Let $\epsilon$ be a [[positive number]], and consider $\epsilon/3$.  Because $f$ converges to $f_\infty$ at $x$, there is some [[natural number]] $N$ such that ${|f_n(x) - f_\infty(x)|} \lt \epsilon/3$ whenever $n \geq N$.  Because $f_{n'}$ is continuous at $x$ for each $n'$, there is some positive number $\delta$ such that ${|f_{n'}(x + h) - f_{n'}(x)|} \lt \epsilon/3$ whenever $h \lt \delta$.  Because $f$ converges to $f_\infty$ at $x + h'$ for each $h'$, there is some natural number $N'$ such that ${|f_\infty(x + h') - f_{n''}(x + h')|} \lt \epsilon/3$ whenever $n'' \geq N'$.  Therefore, there are $N, N'$ and $\delta$ such that
 $$    {|f_\infty(x + h) - f_\infty(x)|}
- \leq {|f_\infty(x + h') - f_{n''}(x + h')|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+ \leq {|f_\infty(x + h') - f_{n''}(x + h')|} + {|f_{n'}(x + h) - f_{n'}(x)|} + {|f_n(x) - f_\infty(x)|}
   \lt \epsilon/3 + \epsilon/3 + \epsilon/3
     = \epsilon
 $$
-whenever $n \geq $N$ and $h \lt \delta$.  Fixing any $n$, $f_\infty$ is continuous.
+whenever $n, n', n'' \geq max(N, N')$ and $h, h' \lt \delta$.  Fixing any such $n, n', n''$, $f_\infty$ is continuous.
 =--
 The final inequality is now clearly spurious, since $n, n', n''$ need not be equal, nor $h, h'$.
 
-This can be fixed up to a point.  We may let $n'$ be $n$ and let $h'$ be $h$, but then we have no control over $n''$.  Conversely, we may let $n, n', n''$ all be (anything bounded below by) $max(N,N')$, but then we have no control over $h'$.  Indeed, Non-theorem \ref{mistake} is false.
+This can be fixed up to a point.  We may let $n'$ be $n$ and let $h'$ be $h$, but then we have no control over $n''$.  Conversely, we may let $n, n', n''$ all be (anything bounded below by) $max(N,N')$, but then we have no control over $h'$.  Indeed, Non-theorem \ref{mistake} is false, as the counterexamples show.
 
-...
+To fix this further, we must strengthen the hypothesis in either of two ways:
++-- {: .proof}
+###### Proof
+(Theorem \ref{uniform}).
+
+Let $\epsilon$ be a [[positive number]], and consider $\epsilon/3$.  Because $f$ converges uniformly to $f_\infty$, there is some [[natural number]] $N$ such that ${|f_n(x + h) - f_\infty(x + h)|} \lt \epsilon/3$ for every $h$ (including $h \coloneqq 0$) whenever $n \geq N$.  Because $f_n$ is continuous at $x$ for each such $n$, there is some positive number $\delta$ such that ${|f_n(x + h) - f_n(x)|} \lt \epsilon/3$ whenever $h \lt \delta$.  Therefore, there is $N$ such that, whenever $n \geq N$, there is $\delta$ such that
+$$    {|f_\infty(x + h) - f_\infty(x)|}
+ \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+  \lt \epsilon/3 + \epsilon/3 + \epsilon/3
+    = \epsilon
+$$
+whenever $h \lt \delta$.  Fixing any such $n$, $f_\infty$ is continuous.
+=--
+
++-- {: .proof}
+###### Proof
+(Theorem \ref{equicontinuous}).
+
+Let $\epsilon$ be a [[positive number]], and consider $\epsilon/3$.  Because $f$ converges to $f_\infty$ at $x$, there is some [[natural number]] $N$ such that ${|f_n(x) - f_\infty(x)|} \lt \epsilon/3$ whenever $n \geq N$.  Because $f$ is equicontinuous at $x$, there is some positive number $\delta$ such that ${|f_n(x + h) - f_n(x)|} \lt \epsilon/3$ for every $n$ whenever $h \lt \delta$.  Because $f$ converges to $f_\infty$ at $x + h$ for each such $h$, there is some natural number $N'$ such that ${|f_\infty(x + h) - f_n(x + h)|} \lt \epsilon/3$ whenever $n \geq N'$.  Therefore, there are $N$ and $\delta$ such that, whenever $h \lt \delta$, there is $N'$ such that
+$$    {|f_\infty(x + h) - f_\infty(x)|}
+ \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+  \lt \epsilon/3 + \epsilon/3 + \epsilon/3
+    = \epsilon
+$$
+whenever $n \geq max(N,N')$.  Fixing any such $n$, $f_\infty$ is continuous.
+=--
 
 
 ### In nonstandard analysis
