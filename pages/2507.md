@@ -44,7 +44,7 @@ The _[[super-translation group]]_.
 
 ### Cohomology and super $p$-branes
 
-As opposed to ordinary [[Minkowski space]], the [[de Rham cohomology]] of super-Minkowski space contains nontrivial exceptional [[cocycles]]. These serve as the [[Wess-Zumino-Witten model|WZW terms]] for the [[Green-Schwarz action functional]] (see there for more) of super-$p$-[[branes]] propagating on super-Minkowski space.
+As opposed to ordinary [[Minkowski space]], the [[de Rham cohomology]] of super-Minkowski space contains nontrivial exceptional [[cocycles]]. These serve as the [[Wess-Zumino-Witten model|WZW terms]] for the [[Green-Schwarz action functional]] (see there for more) of super-$p$-[[branes]] propagating on super-Minkowski space ([FSS 13](#FSS13)).
 
 ## References 
 
@@ -52,6 +52,10 @@ for instance page 370, part II section II.3.3
 
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], _[[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]_
 
+Discussion of how [[super L-infinity algebra]] [[L-infinity cocycle|extensions]] of super Minkowski spacetime yield all the [[brane scan]] of [[string theory]]/[[M-theory]] is in 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet]]_ (2013)
+  {#FSS13}
 
 [[!redirects super Minkowski spacetime]]
 [[!redirects super-Minkowski spacetime]]
