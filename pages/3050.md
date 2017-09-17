@@ -161,7 +161,7 @@ for the [[monad]] built from these two [[adjoint functor]]s.
 
 #### The algebras over the monad: geometric descent data
 
-We spell out in detail the data of an algebra over the above monad, nad show that this encodes precisely the familiar geometric [[descent]] datum for a [[bundle]].
+We spell out in detail the data of an algebra over the above monad, and show that this encodes precisely the familiar geometric [[descent]] datum for a [[bundle]].
 
 To that end, let $(P, \rho)$
 
