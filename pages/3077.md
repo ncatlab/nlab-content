@@ -26,7 +26,7 @@ Let $L$ denote the long line, and $R$ the long ray.
 
 1. Every [[continuous function]] $f\colon L \to \mathbb{R}$ is eventually constant, i.e., there exists $x \in L$ and $c \in \mathbb{R}$ such that $f(y) = c$ whenever $y \geq x$ (and similarly $f$ is constant for all sufficiently small $x$). 
 
-2. $L$ is a [[normal space|normal]] ($T_4$) space, but the [[Tychonoff product]] $L \times L$ is not normal. (See for example [Munkres](#Munk).) 
+2. $L$ is a [[normal space|normal]] ($T_4$) space, but the [[Tychonoff product]] $L \times \bar{L}$ with its one-point [[compactification]] is not normal. (See for example [Munkres](#Munk).) 
 
 3. Every continuous map $L \to L$ has a fixed point. 
 
