@@ -79,9 +79,9 @@ This process is a [[functor]] $B\colon Loc \to Meas Loc$, which we can also exte
 
 ### Lebesgue measurable spaces
 
-Simliarly, [[topological manifolds]] give rise to (much simpler!) measurable locales by taking the Lebesgue sets (possible since we know which sets are null sets on a manifold).  This processes is a [[functor]] $L\colon Top Man_surj \to Meas Loc$, where the [[morphisms]] in $Top Man_surj$ are the [[surjections]].
+Similarly, [[smooth manifolds]] give rise to (much simpler!) measurable locales by taking the Lebesgue sets (possible since we know which sets are null sets on a smooth manifold).  This processes is a [[functor]] $L\colon SmoothMan_subm \to MeasLoc$, where the [[morphisms]] in $SmoothMan_subm$ are the smooth [[submersions]].
 
-In the case of the [[real line]], we get the usual line described under the basic examples above.  In fact, *any* [[second-countable space|second-countable]] manifold with finite positive dimension gives rise to this measurable locale; the really interesting thing about $L$ is what it does to the morphisms.
+In the case of the [[real line]], we get the usual line described under the basic examples above.  In fact, *any* [[second-countable space|second-countable]] smooth manifold with positive dimension gives rise to this measurable locale; the really interesting thing about $L$ is what it does to the morphisms.
 
 
 ## Measures
