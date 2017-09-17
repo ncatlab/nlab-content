@@ -1,5 +1,5 @@
+[[!redirects locally n-connected (infinity,1)-topos]]
 [[!redirects locally n-connected (infinity,1)-tops]]
-[[!redirects locally connected topos]]
 
 
 #Contents#
@@ -18,8 +18,11 @@ A [[topos]] may be thought of as a generalized [[topological space]]. Accordingl
 
 * [[locally contractible space]]
 
-have analogs for [[topos]]es and [[(∞,1)-topos]]es.
+have analogs for [[topos]]es and [[(∞,1)-topos]]es
 
+* [[locally connected topos]]
+ 
+* **locally $n$-connected $(n,1)$-topos**
 
 ## Locally connected topos
 
@@ -206,7 +209,6 @@ exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. W
 **Examples.** All the locally conneted $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also contractible.
 
 
-[[!redirects locally connected topos]]
 [[!redirects locally n-connected (∞,1)-topos]]
 [[!redirects locally contractible (infinity,1)-topos]]
 [[!redirects locally contractible (∞,1)-topos]]
