@@ -4,7 +4,9 @@
 
 ## Idea 
 
-__Matroid__ is one of the basic structures of combinatorics with several different ways of encoding/defining and presenting a general notion of "independence", e.g., linear independence in a vector space, algebraic independence in a field extension. There is also a similar concept of an [[oriented matroid]]; every oriented matroid has an underlying matroid. 
+The concept of *matroid*, due to Hassler Whitney, is one of the basic structures of combinatorics, giving several different ways of encoding/defining and presenting a general notion of "independence", e.g., linear independence in a vector space, algebraic independence in a field extension, etc. 
+
+There is also a similar concept of an [[oriented matroid]]; every oriented matroid has an underlying matroid. 
 
 ## Definitions 
 
@@ -13,9 +15,35 @@ __Matroid__ is one of the basic structures of combinatorics with several differe
 A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $C: P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in C(S \cup\{b\}) \cap \neg C(S)$, then $b \in C(S \cup\{a\}) \cap \neg C(S)$. 
 =-- 
 
-Usually when speaking of matroids, $X$ is taken to be a finite set. A typical example is $X$ some finite subset of a vector space $V$, taking $C(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
+Usually when combinatorialists speak of matroids as such, $X$ is taken to be a finite set. A typical example is $X$ some finite subset of a vector space $V$, taking $C(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
 
-Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $C(T) \subset C(S)$ for every strict inclusion $T \subset S$. Again under this definition, $S$ is a _basis_ if $C(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $C(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota speaks of _cryptomorphism_ between these differing presentations. 
+Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $C(T) \subset C(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin C(S\backslash \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $C(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $C(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
+
++-- {: .num_proposition} 
+###### Proposition 
+Any two bases of a matroid have the same cardinality, called the _dimension_ of the matroid. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+
+=-- 
+
+## Examples 
+
+Vector spaces, algebraic closures, graphs, restrictions, localizations, ... 
+
+## Model-theoretic geometry 
+
+Essentially the very same notion arises in model theory, except instead of being called a matroid it is called a "geometry". It arises in the study of geometry of strongly minimal sets, with applications to stability theory (i.e., Shelah's classification theory). 
+
++-- {: .num_defn} 
+###### Definition 
+A _pregeometry_ is a (possibly infinite) matroid (given by a set $X$ equipped with a closure operator $C$) such that for all $S \subseteq X$, if $x \in C(S)$ then $x \in C(S_0)$ for some finite subset $S_0 \subseteq S$. A **geometry** is a pregeometry such that $C(\emptyset) = \emptyset$ and $C(\{x\}) = \{x\}$ for every $x \in X$. 
+=-- 
+
+## Combinatorial optimization 
+
 
 ## Mnev's theorem 
 
