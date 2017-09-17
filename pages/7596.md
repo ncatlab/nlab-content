@@ -1,0 +1,1 @@
+I am currently studying Part III of the Mathematical Tripos at the University of Cambridge, and will be starting a Ph.D. in October 2012.
