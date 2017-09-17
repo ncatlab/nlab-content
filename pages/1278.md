@@ -370,6 +370,9 @@ See [[differential cobordism cohomology theory]]
 
 * [[differential orientation]]
 
+[[!include gauge field - table]]
+
+
 ## References {#References}
 
 A detailed discussion of the axiomatization of differential stable cohomology is
