@@ -22,3 +22,5 @@ Non-archimean fields include
 [[!redirects archimedean fields]]
 [[!redirects non-archimedean field]]
 [[!redirects non-archimedean fields]]
+[[!redirects nonarchimedean field]]
+[[!redirects nonarchimedean fields]]
