@@ -252,6 +252,10 @@
   * [[string theory results applied elsewhere]]
 
 
+* [[number theory and physics]]
+
+  * [[Riemann hypothesis and physics]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
 
 [[!redirects physics contents]]
