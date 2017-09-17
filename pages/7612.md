@@ -6,9 +6,14 @@
 
 ## Idea
 
-A certification of a computer program is a formalized guarantee -- a [[proof]] -- that the output of the program has given specified properties -- that it is of a specified [[type]].
+A certification of a computer program is a formalized guarantee -- a [[proof]] -- that the program has given specified properties.  For instance, it could be guaranteed to compute a given output based on a given input, or to always terminate, or to not include a certain kind of security hole.
 
-Therefore programming languages supporting certified programming are naturally based on [[type theory]]. Examples are _[[Coq]]_ or _[[Agda]]_.
+Certifications often take the form of a proof that a program, regarded as a [[term]] of some sort, has a specified [[type]].  Thus, programming languages based on highly expressive [[type theories]] (including [[dependent types]]) are a natural place to do certified programming "natively".  Examples are _[[Coq]]_ and _[[Agda]]_. In this case, the program is written at the same time as a proof of its certification.  One often then wants to "extract" the executable code or "ignore" the proof part of the terms when actually running the code, for performance reasons; Coq and Agda include mechanisms designed for this.
+
+It is also possible to write a program in some less strongly typed language and provide an "external" certification for it, rather than one built into the program itself.  Computer proof assistants like Coq and Agda are also used for this, using a formal representation of some other programming language.  There are also other program analysis tools which can produce automated proofs of certain aspects of a computer program, such as safety and termination (although of course a *complete* solution to termination-checking is impossible, being the [[halting problem]]).
+
+So far, fully certified programming in the type-theoretic sense is largely an academic endeavor; the tools available at present usually require too much time and effort to be worth the payoff in industry.  As automation progresses, this may change.
+
 
 ## References
 
