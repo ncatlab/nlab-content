@@ -54,6 +54,8 @@ for all $X \in \Sm_S$.
 
 * [[Becker-Gottlieb transfer]], [[transfer context]]
 
+* [[Mackey functor]]
+
 ## References
 
 * {#Deglise} [[Frédéric Déglise]], _Finite correspondences and transfers over a regular base_, [pdf](http://www.math.uiuc.edu/K-theory/0765/regular_base.pdf).
