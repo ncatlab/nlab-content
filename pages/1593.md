@@ -46,7 +46,7 @@ $$
   \,,
 $$
 
-where the differential $U(1) \to \mathbb{Z}_2$ and where the [[action]] of $\mathbb{Z}_2$ on $U(1)$ is given under the identification of $U(1)$ with the unit circle in the plane by reversal of the sign of the angle.
+where the differential $U(1) \to \mathbb{Z}_2$ is trivial and where the [[action]] of $\mathbb{Z}_2$ on $U(1)$ is given under the identification of $U(1)$ with the unit circle in the plane by reversal of the sign of the angle.
 
 This is an <a href="http://nlab.mathforge.org/nlab/edit/cohesive+%28infinity%2C1%29-topos+--+structures#InfinityGroupExtensions">extension of smooth ∞-groups</a>
 
@@ -63,7 +63,7 @@ $$
 The nature of $AUT(U(1))$ is clear. Let $\mathbf{B}U(1) \to AUT(U(1))$ be the evident inclusion. We have to show that its [[delooping]] is the [[homotopy fiber]] of $\mathbf{B}AUT(U(1)) \to \mathbf{B}\mathbb{Z}_2$.
 
 For this it is sufficient to show that $\mathbf{B}^2 U(1)$ is equivalent to the  ordinary [[pullback]] of simplicial presheaves 
-$\mathbf{AUT}(U(1))\times_{\mathbf{B}\mathbb{Z}_2} \mathbf{E}\mathbb{Z}_2$ of the $\mathbb{Z}$_2-[[universal principal bundle]].
+$\mathbf{B}AUT(U(1))\times_{\mathbf{B}\mathbb{Z}_2} \mathbf{E}\mathbb{Z}_2$ of the $\mathbb{Z}$_2-[[universal principal bundle]].
 
 This pullback is the [[2-groupoid]] whose 
 
@@ -79,7 +79,8 @@ This pullback is the [[2-groupoid]] whose
 
 * horizontal composition of 1-morphisms with 2-morphisms ([[whiskering]]) is given by the [[action]] of $\mathbb{Z}_2$ on $U(1)$.
 
-This 2-groupoid has vanishing $\pi_1$, and $\pi_2 = U(1)$ and the inclusion in question is an isomorphism of $\pi_2$.
+This 2-groupoid has vanishing $\pi_1$, and $\pi_2 = U(1)$.
+The inclusion of $\mathbf{B}^2 U(1)$ into this pullback is the obvious one, includion elements in $U(1)$ as endomorphisms of the trivial element in $\mathbb{Z}_2$. This is manifestly an isomorphism on $\pi_2$ and trivially an isomorphism on all other homotopy groups, hence is a [[weak equivalence]].
 
 =--
 
@@ -119,7 +120,7 @@ $$
 
 For $X \in Smooth\infty Grpd$ a **double cover** $\hat X \to X$ is a $\mathbb{Z}_2$-[[principal bundle]]. 
 
-For $n \in \mathbb{N}$, $n \geq 1$, an **orientifold circle $n$-bundle (with connection)** is an $AUT(\mathbf{B}^{n-1})$-[[principal ∞-bundle]] (with [[connection on an ∞-bundle|∞-connection]]) on $X$ that <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Cohomology">extends</a> $\hat X \to X$ with respect to the extension def. \ref{ExtensionOfZTwo} of $\mathbb{Z}^2$ by $AUT(\mathbf{B}^n U(1))$.
+For $n \in \mathbb{N}$, $n \geq 1$, an **orientifold circle $n$-bundle (with connection)** is an $AUT(\mathbf{B}^{n-1}U(1))$-[[principal ∞-bundle]] (with [[connection on an ∞-bundle|∞-connection]]) on $X$ that <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Cohomology">extends</a> $\hat X \to X$ with respect to the extension def. \ref{ExtensionOfZTwo} of $\mathbb{Z}^2$ by $AUT(\mathbf{B}^n U(1))$.
 
 =--
 
