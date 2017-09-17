@@ -38,7 +38,8 @@ There are different [[geometric shapes for higher structures]]: [[globe]]s, [[si
 
 A **globular** $2$-morphism looks like this:
 
-+--{: style="text-align:center"}
+$$
+\begin{svg}
 <svg width="95" height="34" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="67270">
  <g>
   <title>Layer 1</title>
@@ -65,29 +66,32 @@ A **globular** $2$-morphism looks like this:
   </marker>
  </defs>
 </svg>
-=--
+\end{svg}\includegraphics[width=72px]{globular}
+$$
 
 A **simplicial** $2$-morphism looks like this:
 
 $$
-  \array{
+\begin{matrix}
     && b
     \\
     & \nearrow &\Downarrow& \searrow
     \\
     a &&\to&& c
-  }
+\end{matrix}
 $$
 
 A **cubical** $2$-morphism looks like this:
 
-$$\array{
+$$
+\begin{matrix}
   &          & b \\
   & \nearrow &            & \searrow \\
 a &          & \Downarrow &          & d \\
   & \searrow &            & \nearrow \\
   &          & c
-}$$
+\end{matrix}
+$$
 
 Of course, using [[identity morphisms]] and [[composition]], we can turn one into the other; which is more fundamental depends on which shapes you prefer.
 
