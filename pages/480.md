@@ -5,7 +5,7 @@
 
 ## Definition
 
-A **coherent category** is a [[regular category]] in which the [[subobject]] [[partial order|posets]] $Sub(X)$ all have finite unions which are preserved by the [[base change]] functors $f^*:Sub(Y)\to Sub(X)$.
+A **coherent category** is a [[regular category]] in which the [[subobject posets]] $Sub(X)$ all have finite unions which are preserved by the [[base change]] functors $f^*:Sub(Y)\to Sub(X)$.
 
 A coherent category has an [[internal logic]] which is [[coherent logic]].
 
