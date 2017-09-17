@@ -71,7 +71,7 @@ where
 
 * $k_j \in \mathbb{R}$ are normalization constants, $k_j = \frac{1}{j!} \left( \frac{1}{2\pi i}\right)^j$.
 
-Chern character applied to the Whitney sum of two vector bundles is a sum of the Chern characters for the two: $ch(\xi\oplus \eta) = ch(\chi)-ch(\eta)$ and it is multiplicative under the tensor product of vector bundles: $ch(\xi\otimes\eta)=ch(\chi)ch(\eta)$. Therefore we get a ring homomorphism. 
+Chern character applied to the Whitney sum of two vector bundles is a sum of the Chern characters for the two: $ch(\xi\oplus \eta) = ch(\chi)+ch(\eta)$ and it is multiplicative under the tensor product of vector bundles: $ch(\xi\otimes\eta)=ch(\chi)ch(\eta)$. Therefore we get a ring homomorphism. 
 
 ## General theory
 
