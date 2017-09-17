@@ -42,17 +42,7 @@ Unlike the [[Wightman axioms]], the Haag--Kastler axioms do not need the notion 
 The nLab has a page with a specific choice of axioms and an exposition of some of their consequences here: [[Haag-Kastler vacuum representation]]
 
 ## Generalization of the Haag-Kastler Axioms to Curved Spacetimes
-It is possible to generalize the Haag-Kastler approach to general (Lorentzian) spacetimes.
-
-### Idea
-From the physical point of view there are two different reasons to consider the Haag-Kastler approach on more general manifolds than the Minkowski spacetime:
-
-* It is expected that such a theory, while not solving the problem to construct a theory of quantum gravity, would still have a wide range of validity.
-
-* From a conceptual viewpoint abandoning the special situation of the Minkowski spacetime could lead to the development of new ideas and tools that turn out to be helpful to understand the concept of a quantum field theorie better.
-
-The first point deserves some elaboration: The curved manifolds under consideration are supposed to be solutions to the field equations of General Relativity, i.e. physically realistic spacetimes, so that gravity is modelled classically by the curvature of spacetime. A quantum field theory on such a spacetime should be able to model the situation of elementary particles that feel the effects of gravity while neglecting the effect that the particles themselves have on spacetime (the notion of "particle" is highly nontrivial and problematic in this setting and is to be understood in a metaphorical sense in the given context). Example: If you let an electron drop from your hand to the ground, that would be a situation that the theory is supposed to describe.
-While a full theory of quantum gravity still eludes us, a theory of quantum fields on curved spacetimes could be useful as a kind of interpolation. In a certain sense this is already the case, since the [laws of black hole thermodynamics] (http://en.wikipedia.org/wiki/Black_hole_thermodynamics) were first discovered with the help of this setting.
+See [[AQFT on curved spacetimes]].
 
 ## References 
 
@@ -64,11 +54,16 @@ Since on that page there are already some references to sources that stress the 
 
 The classic references are of course:
 
-* Rudolf Haag: Local quantum physics. Fields, particles, algebras. 2nd., rev. and enlarged ed. Springer 1996 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.46057&format=complete).
+* Rudolf Haag: _Local quantum physics. Fields, particles, algebras._ 2nd., rev. and enlarged ed. Springer 1996 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0857.46057&format=complete).
 
 and:
 
-* Huzihiro Araki: Mathematical theory of quantum fields. Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
+* Huzihiro Araki: _Mathematical theory of quantum fields._ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
+
+and
+
+* Bogolyubov, Logunov, Oksak, Todorov: _General principles of quantum field theory._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0732.46040&format=complete))
+
 
 An online reference page is here:
 
@@ -86,24 +81,10 @@ An introduction into Tomita-Takesaki modular theory is here:
 
 * Stephen J. Summers: "Tomita-Takesaki Modular Theory" ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0511034))
 
-...while a paper that put it to serious work is this:
+...while a paper that puts it to serious work is this:
 
 * H.J. Borchers: "On Revolutionizing of Quantum Field Theory
 with Tomita's Modular Theory", ([ESI preprint page] (http://www.esi.ac.at/preprints/ESI-Preprints.html))
-
-### References for the generalization of the Haag-Kastler approach to curved spacetimes
-
-A classic reference is this:
-
-* Wald, Robert M.: Quantum field theory in curved spacetime and black hole thermodynamics. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
-
-Recently published review papers:
-
-* Romeo Brunetti, Klaus Fredenhagen: [Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)
-
-* Robert M. Wald: [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
-
-* Robert M. Wald: [The History and Present Status of Quantum Field Theory in Curved Spacetime] (http://lanl.arxiv.org/abs/gr-qc/0608018v1)
 
 +-- {: .query}
 [[Tim van Beek]]: I have not done an extensive search for pages that I could link to, so there may be some missing (but not on purpose!). Also the links on the [[AQFT]] site could equally well be placed here... 
