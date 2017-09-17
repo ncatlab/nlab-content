@@ -68,6 +68,8 @@ See
 
 * [[strong adjoint functor]]
 
+A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3372&Focus=27648).
+
 
 [[!redirects internal homs]]
 [[!redirects inner hom]]
