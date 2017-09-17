@@ -225,7 +225,6 @@ In particular the $(\infty,1)$-topos $\infty LieGrpd := Sh_{(\infty,1)}(CartSp)$
 [[!redirects locally n-connected (infinity,1)-tops]]
 
 
-[[!redirects ∞-connected (∞,1)-topos]]
 
 [[!redirects locally connected (∞,1)-geometric morphism]]
 [[!redirects connected (∞,1)-geometric morphism]]
