@@ -41,11 +41,14 @@ For motivation of the first two, see [[Banach algebra]]; for motivation of the l
 +-- {: .num_defn}
 ###### Definition
 
-The Jordan--Banach algebra $A$ is __unital__ if the Jordan multiplication has an [[identity element]], usually denoted $1$:
+The Jordan--Banach algebra $A$ is __unital__ if the Jordan multiplication has an [[identity element]] in its unit ball, usually denoted $1$:
 
 * $1 \circ x = x$,
-* $x \circ 1 = x$.
+* $x \circ 1 = x$,
+* ${\|1\|} \leq 1$.
 =--
+
+People might state the last clause as ${\|1\|} = 1$, which follows (using shortness of the multiplication) from the existence of any $x \ne 0$.  However, ${\|1\|} = 0$ in the [[trivial ring|trivial algebra]], and this should be allowed.
 
 +-- {: .num_defn}
 ###### Definition
@@ -56,7 +59,7 @@ The Jordan--Banach algebra $A$ is a __$JB$-algebra__ if it satisfies these ident
 * positivity: ${\|x \circ x\|} \leq {\|x \circ x + y \circ y\|}$.
 =--
 
-Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out of a direct definition of $JB$-algebras.  (Compare the analogous result for $C^*$-[[C-star-algebra|algebras]].)
+Shortness of the multiplication follows from the $B$-identity (via the [[polarization identities]] and the triangle identity), so it may be left out of a direct definition of $JB$-algebras; the same goes for the norm of $1$ in the unital case.  (Compare the analogous results for $C^*$-[[C-star-algebra|algebras]].)
 
 +-- {: .num_defn}
 ###### Definition
@@ -75,6 +78,10 @@ Coming ... but basically, $JB$-algebras have nice properties like those of $C^*$
 ## Examples
 
 The main example of a $JB$-algebra is the algebra of [[self-adjoint operator]]s in a $C^*$-[[C-star-algebra|algebra]].  For a $JBW$-algebra, try the algebra of self-adjoint operators in a [[von Neumann algebra]].
+
+In particular, the algebra of self-adjoint operators on a [[Hilbert space]] is a $JBW$-algebra.  (Note that a real Hilbert space and its complexification have the same algebra of self-adjoint operators.)
+
+The [[trivial ring|trivial algebra]] (which is the algebra of self-adjoint operators on the zero Hilbert space) is a $JBW$-algebra, although it might not fit definitions by authors who mistakenly require ${\|1\|} = 1$.
 
 
 ## References
