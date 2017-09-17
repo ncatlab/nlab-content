@@ -225,31 +225,35 @@ We dicuss aspects of the intrinsic [[cohomology]] of $E Top \infty Grpd$ and of 
 +-- {: .un_def }
 ###### Definition
 
-Let $A \in $ [[∞Grpd]] be any [[∞-groupoid]]. Write $|A| \in $ [[Top]] for its [[geometric realization]]. For $X$ any [[topological space]], the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is the set of [[homotopy]] classes of maps $X \to |A|$
+Let $A \in $ [[∞Grpd]] be any [[discrete ∞-groupoid]]. Write $|A| \in $ [[Top]] for its [[geometric realization]]. For $X$ any [[topological space]], the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is the set of [[homotopy]] classes of maps $X \to |A|$
 
 $$ 
   H_{Top}(X,A) := \pi_0 Top(X,|A|)
   \,.
 $$
 
-We say $Top(X,|A|)$ itself is the [[cocycle]] [[∞-groupoid]] for $A$-valued cohomology on $X$.
+We say $Top(X,|A|)$ itself is the [[cocycle]] [[∞-groupoid]] for $A$-valued [[nonabelian cohomology]] on $X$.
 
-Similarly, for $X,A \in ETop \infty Grpd$ two objects, write
+Similarly, for $X, \mathbf{A} \in ETop \infty Grpd$ two e-topological $\infty$-groupoids, write
 
 $$
-  H_{ETop\infty Grpd}(X,A) := \pi_0 ETop\infty Grpd(X,A)
+  H_{ETop}(X,\mathbf{A}) := \pi_0 ETop\infty Grpd(X,\mathbf{A})
 $$
 
-for the intrinsic [[cohomology]] of $ETop \infty Grpd$ on $X$ with coefficients in $A$.
+for the intrinsic [[cohomology]] of $ETop \infty Grpd$ on $X$ with coefficients in $\mathbf{A}$.
+
 =--
+
 
 +-- {: .un_prop }
 ###### Proposition
 
-Let $A \in $ [[∞Grpd]], write $Disc A \in ETop \infty Grpd$ for the corresponding [[discrete ∞-groupoid|discrete topological ∞-groupoid]]. Let $X \in Top_1 \stackrel{i}{\hookrightarrow} ETop \infty Grpd$ be [[paracompact topological space|paracompact]]. Then we have an [[isomorphism]] on cohomology sets
+Let $A \in $ [[∞Grpd]], write $Disc A \in ETop \infty Grpd$ for the corresponding [[discrete ∞-groupoid|discrete topological ∞-groupoid]]. Let $X \in Top_1 \stackrel{i}{\hookrightarrow} ETop \infty Grpd$ be a [[paracompact topological space]] regarded as a0-[[truncated]] e-topological $\infty$-groupoid. 
+
+We have an [[isomorphism]] of cohomology sets
 
 $$ 
-  H_{Top}(X,A) \simeq H_{ETop\infty Grpd}(X,Disc A)
+  H_{Top}(X,A) \simeq H_{ETop}(X,Disc A)
 $$
 
 and in fact an [[equivalence in an (∞,1)-category|equivalence]] of [[cocycle]] [[∞-groupoid]]s
@@ -258,6 +262,7 @@ $$
   Top(X,|A|) \simeq ETop\infty Grpd(X, Disc A)
   \,.
 $$
+
 =--
 
 +-- {: .proof}
@@ -276,21 +281,27 @@ From this the claim follows by the [above proposition](#FundGroupoidOfParacompac
 =--
 
 
+
 +-- {: .un_prop}
 ###### Proposition
 
-Let $G$ be a [[simplical object|simplicial]] [[topological group]] that is well-sectioned and degreewise [[paracompact topological space]]. Regard it as an object in $E Top \infty Grpd$ in the canonical way, where it is an [[∞-group]] object. Write $\mathbf{B}G$ for its [[delooping]] in $ETop \infty Grpd$.
+Let $X$ and $G$ be degreewise [[paracompact topological space|paracompact]] [[simplicial topological space]]s. Let moreover $G$ be a well-sectioned topological [[simplicial group]]. Regard both as object in $E Top \infty Grpd$ in the canonical way. Write $\mathbf{B}G$ for  [[delooping]] of the [[∞-group]]-object $G$ in $ETop \infty Grpd$.
 
-The [[(∞,1)-functor]] $\Pi : ETop \infty Grpd$ preserves [[homotopy fiber]]s of all morphisms of the form $X \to \mathbf{B}G$.
+Then the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental (∞,1)-groupoid functor]] $\Pi : ETop \infty Grpd$ preserves [[homotopy fiber]]s of all morphisms of the form $X \to \mathbf{B}G$.
 
-More in detail, for $P \to X$ a $G$-[[principal ∞-bundle]] in $ETop \infty Grpd$ classified by a [[cocycle]] $X \to \matbf{B}G$ we have that $|\Pi(P)| \to |\Pi(X)|$ is the $|G|$-[[principal ∞-bundle]] in [[Top]] classified by $|\Pi(X)| \to B |G|$.
+
+More in detail, if $P \to X$ is the $G$-[[principal ∞-bundle]] in $ETop \infty Grpd$ classified by the [[cocycle]] $X \to \matbf{B}G$ then $|\Pi(P)| \to |\Pi(X)|$ is the $|G|$-[[principal ∞-bundle]] in [[Top]] classified by $|\Pi(X)| \to B |G|$.
+
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
 
-Write, as usual for [[simplicial group]]s, $\mathbf{B}G := \bar W G$ for its <a href="http://ncatlab.org/nlab/show/simplicial+group#Delooping">delooping</a>. Write $E G$ for the corresponding model for the [[universal principal ∞-bundle]]. Both are naturally fibrant objects of $[CartSp^{op}, sSet]_{proj}$ and $W G \to \bar W G$ is a fibant presentation of the point inclusion $* \to \mathbf{B}G$. Write $X$ for a fibrant model of that object in $[CartSp^{op}, sSet]_{proj}$. Then the ordinary [[pullback]] of $W G \to \bar W G$ along $X\to W G$ is a model for the [[homotopy fiber]] of $X \to \mathbf{B}G$ in $E Top \infty Grppd$. 
+Write, as usual for [[simplicial group]]s, $\mathbf{B}G := \bar W G$ for its <a href="http://ncatlab.org/nlab/show/simplicial+group#Delooping">delooping</a>. Write $W G$ for the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a>.  This is a [[resolution]] of the point inclusion $* \to \mathbf{B}G$ by a fibration in $[CartSp^{op}, sSet]_{proj}$
+
+Therefore the ordinary [[pullback]]
 
 $$
   \array{
@@ -302,44 +313,29 @@ $$
   }
 $$
 
-(as described at [[homotopy fiber]] and [[universal principal ∞-bundle]]). 
+of topological spaces and hence (since the [[Yoneda embedding]] preserves [[limit]]s) of [[simplicial presheaves]] on [[CartSp]]${}_{top}$ is a [[homotopy pullback]] (as discussed there) and hence $P = X \times_{\bar W G} W G$ is a presentation of the [[homotopy fiber]] of $X \to \mathbf{B}G$ in the [[(∞,1)-category of (∞,1)-presheaves]] over $CartSp$ and hence by [[exact (∞,1)-functor|left exactness]] of [[(∞,1)-sheafification]] also in $ETop\infty Grpd$.
 
-By the [above proposition](#FundGroupoidOfParacompact) the functor $\Pi$ sends this pullback diagram to the corresponding [[geometric realization of simplicial topological spaces]], up to weak equivalence.
+In ([StevensonRoberts](#StevensonRoberts)) it is shown that under [[geometric realization of simplicial topological spaces]] the <a href="http://nlab.mathforge.org/nlab/show/simplicial+group#UniversalSimplicialBundle">universal simplicial G-bundle</a> $W G \to \bar W G$ maps to the universal $|G|$-principal topological bundle $E |G| \to B |G|$ over the [[topological group]] $|G|$ obtained by [[geometric realization of simplicial topological spaces|geometric realizations]] of $G$. This is a [[resolution]] of the point inclusion $* \to B|G|$ in [[Top]].
 
-In ([StevensonRoberts](#StevensonRoberts)) it is shown that under [[geometric realization of simplicial topological spaces]] the universal [[simplicial principal bundle]] (see there)
-$\mathbf{E}G := W G \to \bar W G$ maps to the universal $|G|$-[[principal bundle]] $\mathcal{E} |G| \to \mathcal{B}|G|$ in [[Top]].
-
-
-Since [[geometric realization of simplicial spaces]] preserves [[pullback]]s (see there), we have that $\Pi$ sends the above, up to equivalence, to the pullback square
+But [[geometric realization of simplicial topological spaces]] preserves (as discussed there) ordinary [[pullback]]s. Therefore we have that also 
 
 $$
   \array{
-    |P_\bullet| &\to& \mathcal{E}G
+    |P| &\to& E |G|
     \\
     \downarrow && \downarrow
     \\
-    |X_\bullet| &\to& \mathcal{B}G
+    |X| &\to& B |G|
   }
 $$
 
-in [[Top]]. Again, this computes the homotopy fiber of the bottom morphism, up to equivalence.
+is a pullback, hence a [[homotopy pullback]], and therefore that $|P|$ is a model for the [[homotopy fiber]] of $|X| \to B |G|$ in [[Top]] $\simeq$ [[∞Grpd]]. 
 
-
-=--
-
-+-- {: .un_corollary}
-###### Corollary
-
-The functor $\Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd$ preserves homotopy fibers of morphisms represented by degreewise [[paracompact space|paracompact]] simplicial topological spaces $X_\bullet \to \mathbf{B}G$ as above.
+In summary we have that on simplicial topological spaces $X \to \mathbf{B}G$ as in the asumptions, geometric realization preserves homotopy fibers. But by the [above proposition](#FundGroupoidOfParacompact) the [[(∞,1)-functor]] $\Pi$ is modeled on these morphisms by geometric realization, hence the claim follows.
 
 =--
 
-
-
-
-
-
-### Path $\infty$-groupoid
+### Path $\infty$-groupoid and geometric Postnikov towers
 {#PathInftinityGroupoids}
 
 Let $C$ be an [[∞-connected site]]. We give an explicit presentation of the _<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">constant path inclusion</a>_ $X \to \mathbf{\Pi}(X)$ in the [[locally ∞-connected (∞,1)-topos]] over $C$ such that the component maps are cofibrations. 
@@ -615,6 +611,11 @@ Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the cate
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 {#Dugger}
+
+Discussion of geometric realization of simplicial topological principal bundles is in 
+
+* [[nLab:Danny Stevenson]], [[nLab:David Roberts]], unpublished notes (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#StevensonRoberts">web</a>)
+{#StevensonRoberts}
 
 
 [[!redirects Euclidean-topological infinity-groupoid]]
