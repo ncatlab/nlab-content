@@ -1,6 +1,6 @@
 A _globular operad_ is a type of operad on which certain algebraic notions of higher category are based. The notion was introduced by Batanin; a globular operad is also called a _Batanin operad_. 
 
-A globular operad gives rise to a monad on the category of [[globular set|globular sets]]; one example is the free strict $\omega$-category monad $T$ on globular sets. The monads which so arise may be characterized precisely as [[cartesian monad|cartesian monads]] on globular sets over $T$ (itself a cartesian monad). 
+A globular operad gives rise to a monad on the category of [[globular set|globular sets]]; one example is the free strict $\omega$-category monad $T$ on globular sets. The monads which so arise may be characterized precisely as [[cartesian monad|cartesian monads]] on globular sets over $T$ (itself a cartesian monad).  This means that they are also examples of [[generalized multicategories]] relative to $T$.
 
 ## Definition ## 
 
@@ -51,3 +51,5 @@ $$M_P(X)(n) = \sum_{x \in P(n)} \hom([f(x)], X)$$
 In the Batanin (or Leinster) theory of $\infty$-categories, there is a universal contractible globular operad $f: K \to T(1)$, where each element $x \in K(n)$ is thought of as a _way_ of (weakly) pasting together the underlying shape $f(x)$. The contractibility implies that for every two different ways of pasting together the same shape, i.e., two elements $x, y \in K(n)$ such that $f(x) = f(y)$ and such that $x$ and $y$ have the same source and have the same target, there is an $(n+1)$-cell in $K(n+1)$ mediating between them, with source $x$ and target $y$, and which maps to the identity $(n+1)$-cell on $f(x)$. 
 
 An $\infty$-**category** in the sense of Batanin is a globular set with a $K$-algebra structure. 
+
+[[!redirects globular operads]]
