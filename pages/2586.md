@@ -173,3 +173,5 @@ See also
 [[!redirects Spin group]]
 [[!redirects Spin]]
 [[!redirects Spin(n)]]
+
+[[!redirects spin-group]]
