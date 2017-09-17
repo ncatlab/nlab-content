@@ -1,3 +1,8 @@
+[[!redirects II.11, p-divisible formal groups]]
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 Let $k$ be a field of prime characteristic $p\gt 0$.
 
 ## Definition
