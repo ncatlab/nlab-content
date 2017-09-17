@@ -148,6 +148,13 @@ This subbundle $H = \cup_p H_p\subset T X$ over $X$ can be expressed as a field 
 The Ehresmann connections on a principal $G$-bundle are in 1-1 correspondence with an appropriate notion of a connection on the associated
 bundle. Namely, if $T^H P\subset T P$ is the smooth horizontal distrubution of subspaces defining the principal connection on a principal $G$-bundle $P$ over $X$, where $G$ is a Lie group and $F$ a smooth left $G$-space, then consider the total space $P\times_G F$ of the associated bundle with typical fiber $F$. Then, for a fixed $f\in F$ one defines a map $\rho_f : P\to P\times_G F$ assigning the class $[p,f]$ to $p\in P$. If $(T_p \rho_f)(T^H_p P) =: T_{[p,f]}^H P\times_G F$ defines the horizontal subspace $T_{[p,f]}^H P\times_G F\subset T_{[p,f]} P\times_G F$, the collection of such subspaces does not depend on the choice of $(p,f)$ in the class $[p,f]$, and the correspondence $p\mapsto T_{[p,f]}^H P\times_G F$ is a connection on the associated bundle $P\times_G F\to X$.
 
+### In terms of cohesive homotopy type theory
+
+One may also describe(flat) Ehresmann connections in 
+[[cohesive homotopy type theory]]. 
+
+The general abstract discussion is [here](cohesive+%28infinity%2C1%29-topos+--+structures#FlatEhresmannConnections). The discussion of how in [[smooth infinity-groupoids]] this reduces to the traditional notion is [here](smooth+infinity-groupoid+--+structures#FlatEhresmannConnections).
+
 ## Properties
 
 ### General
