@@ -117,6 +117,8 @@ is the [[right adjoint]] part of a [[Quillen equivalence]] between these model s
 
 * [[simplicial groupoid]]
 
+There is an [[operad|operadic]] analog of the relation between quasi-categories and simplicial categories, involving, correspondingly [[dendroidal sets]] and [[simplicial operads]].
+
 ## References
 
 The idea of a [[homotopy coherent nerve]] has been around for some time; see there for references.
