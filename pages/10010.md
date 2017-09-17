@@ -18,7 +18,7 @@
 
 A _[[moduli space]]/[[moduli stack]] of [[complex structures]]_ on a given [[topological manifold]]/[[smooth manifold]].
 
-For complex structures on 2-dimensional manifolds this is called _[[Teichmüller space]]_, an [[orbifold]]/[[Deligne-Mumford stack]].
+For complex structures on 2-dimensional manifolds the moduli space of complex structures modulo [[homeomorphisms]] [[isotopy|isotopic]] to the identity is _[[Teichmüller space]]_, and the further [[orbifold quotient]] of tht by the [[mapping class group]] is an [[orbifold]]/[[Deligne-Mumford stack]] called the Riemann [[moduli stack of complex curves]].
 
 Specifically for once-punctured 2-dimensional manifolds of [[genus]] 1 ([[tori]]) this is equivalently the [[moduli stack of elliptic curves]] over the complex numbers.
 
