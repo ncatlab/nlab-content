@@ -90,6 +90,8 @@ As suggested there and by the main ([Lawson-Naumann 12, theorem 1.2](#LawsonNaum
 
 [[!include string theory and cohomology theory -- table]]
 
+[[!include moduli stack of curves -- table]]
+
 ## References
 
 KR theory was introduced in
