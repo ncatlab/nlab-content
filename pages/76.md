@@ -159,6 +159,11 @@ Brief indications of open questions and future directions (as of 2013) of [[alge
 
 * [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
 
+and in
+
+* _Problems in homotopy theory_ ([wiki](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/HomePage))
+ {#ProblemsInHomotopyTheoryWiki}
+
 
 [[!redirects Homotopy Theory]]
 [[!redirects homotopy theories]]
