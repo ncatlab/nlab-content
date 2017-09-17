@@ -258,3 +258,9 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 [[!redirects super ∞-groupoids]]
 
 [[!redirects Super∞Grpd]]
+
+[[!redirects super ∞-group]]
+[[!redirects super ∞-groups]]
+[[!redirects super infinity-group]]
+[[!redirects super infinity-groups]]
+
