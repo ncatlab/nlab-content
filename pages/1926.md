@@ -3,13 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
-=--
 #### Higher geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
 =--
 =--
 =--
@@ -21,22 +21,34 @@
 
 ## Idea 
 
-In the context of [[structured (∞,1)-topos]]es a _pre-geometry_ is an [[(∞,1)-algebraic theory]] $\mathcal{T}$, such that the _structure $(\infty,1)$-sheaf_ of an [[little topos|little]] [[(∞,1)-topos]] $\mathcal{X}$ _with $\mathcal{T}$-structure_ is a $\mathcal{T}$-algebra in $\mathcal{X}$, hence a [[(∞,1)-limit|(∞,1)-product]]-preserving [[(∞,1)-functor]]
+A _geometry_ $\mathcal{G}$ is an [[(∞,1)-category]] equipped in a compatible way with 
 
-$$
-  \mathcal{O} : \mathcal{T} \to \mathcal{X}
-  \,.
-$$
+1. the structure of an [[(∞,1)-site]];
 
-If we think of $\mathcal{X} = Sh_{(\infty,1)}(C)$ as an [[(∞,1)-sheaf (∞,1)-topos]] then this encodes precisely an $(\infty,1)$-sheaf of $\mathcal{T}$-algebras on $C$. Extra conditions on $\mathcal{O}$ ensure that this indeed looks like a sheaf of geometric-structure-preserving functions.
+1. the structure of an [[essentially algebraic (∞,1)-theory]].
 
-A _geometry_ $\mathcal{G}$ is a universal completion of a pre-geometry under [[(∞,1)-limit]]s, such that this $\mathcal{O}$ is equivalently an $(\infty,1)$-limit preserving $(\infty,1)$-functor
+The [[object]]s of $\mathcal{G}$ are to be thought of as test-[[space]]s with certain [[higher geometry]] structure and the [[morphism]]s as [[homomorphism]]s preserving that geometric structure. 
 
-$$
-  \mathcal{O} : \mathcal{G} \to \mathcal{X}
-$$
+These two structures gives rise to
 
-subject to a condition that ensures that this looks like an $(\infty,1)$-sheaf of $\infty$-functions algebras.
+1. The [[big topos|big]] [[(∞,1)-topos]]  $Sh(\mathcal{G})$ of [[(∞,1)-sheaves]] on $\mathcal{G}$. Its objects are generalized [[space]]s given by rules 
+
+   $X : \mathcal{G}^{op} \to $ [[∞Grpd]] 
+
+   for how to map test spaces into them.
+
+1. The [[∞-algebra over an (∞,1)-algebraic theory|(∞,1)-algebras]] over $\mathcal{G}$ in some [[little topos]] $\mathcal{X}$, given by rules
+
+   $$
+     \mathcal{O} : \mathcal{G} \to \mathcal{X}
+   $$
+
+   that send each obect $U\in \mathcal{G}$ to a $U$-valued [[structure sheaf]].
+
+Using the additional structure of a site on $\mathcal{G}$ allows to identify those structure sheaves $\mathcal{O}$ that are **local** in that they respect coverings. This constitutes a generalized notion of [[locally ringed topos]]es called $\mathcal{G}$-[[structured (∞,1)-topos]]es. Equivalently these local structure sheaves are given by [[(∞,1)-geometric morphism]]s
+$ \mathcal{X} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\to} \mathbf{H} = Sh(\mathcal{G}) $ to the [[big topos]] over $\mathcal{G}$.
+
+
 
 ## Definition 
 
