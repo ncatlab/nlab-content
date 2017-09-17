@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[isometry group]] $SO(n,2)$ of $(n+1)$-dimensional [[anti de Sitter spacetime]].
+The [[isometry group]] $O(n,2)$ of $(n+1)$-dimensional [[anti de Sitter spacetime]].
 
 ## Properties
 
