@@ -69,7 +69,24 @@ A sequence of chain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0
 
 ### Closed monoidal structure
 
-Equipped with the standard [[tensor product of chain complexes]] $Ch_\bullet$ is a [[closed monoidal category]].
++-- {: .num_prop }
+###### Proposition
+
+Equipped with the standard [[tensor product of chain complexes]] $\otimes$
+the category of chain complexes is a [[monoidal category]]
+$(Ch_\bullet(R Mod), \otimes)$. The [[unit object]]
+is the chain complex concentrated in degree 0 on the tensor unit $R$ of $R Mod$. 
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+In fact $(Ch_\bullet, \otimes)$ is a [[closed monoidal category]], 
+the [[internal hom]] is the standard [[nLab:internal hom of chain complexes]].
+
+=--
+
 
 ## Related concepts
 
