@@ -1,0 +1,10 @@
+
+## Related entries
+
+* [[nonabelian cohomology]]
+
+* [[gerbe]]
+
+* [[2-sheaf]]
+
+category: people
