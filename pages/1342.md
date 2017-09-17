@@ -1,4 +1,23 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * tic
 {:toc}
@@ -362,7 +381,7 @@ The full proof is given at [[Verity on descent for strict omega-groupoid valued 
 
 =--
 
-## Descent in terms of gluing conditions
+## Descent in terms of gluing conditions {#AsGluing}
 
 We unwrap the expression 
 
