@@ -65,13 +65,13 @@ in $C$.
 
 This is ([[Higher Topos Theory|HTT, cor. 5.3.4.15]]).
 
-### Presentation in combinatorial model categories
+### Presentation in model categories
 
 If the [[(∞,1)-category]] $\mathcal{C}$ is a [[locally presentable (∞,1)-category]], then it is the [[simplicial localization]] of a [[combinatorial model category]] $C$, and one may ask how the 1-categorical notion of [[compact object]] in $C$ relates to the $(\infty,1)$-categorical notion of compact in $\mathcal{C}$.
 
 Since compactness is defined in terms of colimits, the question is closely related to the question which 1-categorical $\kappa$-[[filtered colimits]] in $C$ are already [[homotopy colimits]] (without having to [[derived functor|derive]] them first).
 
-General statements seem not to be in the literature yet, but see [this MO discussion](http://mathoverflow.net/questions/95165/compact-objects-in-model-categories-and-infty-1-categories).
+General statements seem not to be in the literature yet, but see [this MO discussion](http://mathoverflow.net/questions/95165/compact-objects-in-model-categories-and-infty-1-categories). For discussion of compactness in a [[model structure on simplicial sheaves]], see for instance ([Powell, section 4](#Powell)).
 
 ## Examples
 
@@ -97,6 +97,12 @@ The general definition appears as definition 5.3.4.5  in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
+Compactness in presenting model categories of simplicial sheaves is discussed for instance in 
+
+section 4 of 
+
+* Geoffrey Powell, _The adjunction between $\mathcal{H}(k)$ and $DM^{eff}_-(k)$_ (2001) ([pdf](http://www.math.univ-paris13.fr/~powell/documents/2001/adjoint.pdf))
+  {#Powell}
 
 
 [[!redirects compact object in an (∞,1)-category]]
