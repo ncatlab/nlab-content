@@ -366,7 +366,7 @@ Observe how from the point of view of just the [[Dolbeault operator]], this is t
 +-- {: .num_defn #DolbeaultDiracSpacesOfStates}
 ###### Definition
 
-The *Dolbeault-Dirac* space of quantum states of $(X,\omega, L_\omega)$ is the [[index]] of the $L_\omega$-twisted [[Dolbeault-Dirac operator]]
+The *Dolbeault-Dirac* space of quantum states of $(X,\omega, L_\omega)$ is the [[index]] of the $L_\omega$-twisted [[Dolbeault-Dirac operator]] (the [[Todd genus]])
 
 $$
   \mathcal{H}_{DolbDir} 
@@ -970,6 +970,7 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
 [[!include Isbell duality - table]]
 
+[[!include genera and partition functions - table]]
 
 ## References
  {#References}
