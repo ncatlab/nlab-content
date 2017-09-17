@@ -89,8 +89,8 @@ given by ...
 
 This is ([Sagave 11, def. 3.14 in view of example 3.8](#Sagave11)). See also ([Sagave 11, section 1.4](#Sagave11)) for comments on how this yields an $\infty$-version of $\mathbb{Z}$-grading on an abelian group.
 
-+-- {: .num_theorem}
-###### Theorem
++-- {: .num_prop #FiberSequenceForExtendedGl1}
+###### Proposition
 
 For $E$ an [[E-∞ ring]], there is a [[homotopy fiber sequence]] of [[abelian ∞-groups]]
 
