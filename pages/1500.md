@@ -52,17 +52,17 @@ Providing a certain condition is satisfied, a pivotal structure on a fusion cate
 ### Relation to extended 3d TQFT 
  {#RelationtoTQFT}
 
-Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. This implies by the [[homotopy hypothesis]] that and how they induce  [[3d TQFT]]s.
+Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. By the [[homotopy hypothesis]] this explains how they induce [[3d TQFT]]s.
 
 
 +-- {: .num_defn #MonCan}
 ###### Definition
 
-Write $MonCaT$ for the [[(infinity,n)-category|(infinity,3)-category]] has as 
+Write $MonCat$ for the [[(infinity,n)-category|(infinity,3)-category]] which has as 
 
 * objects [[monoidal categories]], 
 
-* as morphism [[bimodule]]s of these, 
+* morphism [[bimodule]]s of these, 
 
 * and so on.
 
