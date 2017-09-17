@@ -23,22 +23,14 @@
 
 ## Idea
 
-Traditionally, a _homotopy type_ is a [[topological space]] regarded up to [[weak homotopy equivalence]], (although this may sometimes be reffered to as its _weak homotopy type_, (see below). Formally this may be taken to mean the [[object]] that $X$ represents in the standard [[homotopy category]] [[Ho(Top)]], or, better, in the [[(∞,1)-category]] [[Top]] of which the former is the [[decategorification]]. As such, topological spaces regarded as homotopy types are equivalently _[[∞-groupoids]]_ (see at _[[homotopy hypothesis]]_ for more on this). 
+Traditionally, a _homotopy type_ is a [[topological space]] regarded up to [[weak homotopy equivalence]], (although this may sometimes be referred to as its _weak homotopy type_, (see below)). Formally this may be taken to mean the [[object]] that $X$ represents in the standard [[homotopy category]] [[Ho(Top)]], or, better, in the [[(∞,1)-category]] [[∞Grpd]] $\simeq$ $L_{whe} Top$, the [[simplicial localization]] of the category [[Top]] at the [[weak homotopy equivalences]],  of which $Ho(Top)$ is the [[decategorification]]. As such, topological spaces regarded as homotopy types are equivalently _[[∞-groupoids]]_ (see at _[[homotopy hypothesis]]_ for more on this). 
 
-More generally, then, we may think of every object in any [[(∞,1)-category]] or at least every [[(∞,1)-topos]] $\mathcal{C}$ as being a _homotopy type_ in the context $\mathcal{C}$. For instance if $\mathcal{C}$ is an [[(∞,1)-category of (∞,1)-sheaves]]/of [[∞-stacks]] over some [[(∞,1)-site]] $C$, then an object of $\mathcal{C}$ may be thought of as a _homotopy type over $C$_.
+More generally, then, we may think of every object in any [[(∞,1)-category]] or at least every [[(∞,1)-topos]] $\mathcal{C}$ as being a _homotopy type_ in the context $\mathcal{C}$. For instance if $\mathcal{C} = Sh_\infty(C)$ is an [[(∞,1)-category of (∞,1)-sheaves]]/of [[∞-stacks]] over some [[(∞,1)-site]] $C$, then an object of $\mathcal{C}$ may be thought of as a _homotopy type over $C$_. For the special case that $\mathcal{C} = Sh_\infty(*) \simeq \infty Gprd$, this reproduces the traditional notion.
 
-+-- {: fbox}
-###### 
-
- _homotopy type_ : [[object]] of an [[(∞,1)-category]]
-   
-=--
+If the [[(∞,1)-category]] here is at least a [[locally cartesian closed (∞,1)-category]] then its [[internal language]] is a [[model]] for the formal [[logic]] called _[[homotopy type theory]]_. The [[types]] of this theory may therefore also be called _homotopy types_, abstractly, and the concrete homotopy types in the sense of objects of $\mathcal{C}$ are then the [[categorical semantics]] of these abstract homotopy types.
 
 
-This general perspective is notably enforced by _[[homotopy type theory]]_, which is a formal language for reasoning about such general homotopy types (at least when $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]]).
-
-A homotopy type that is an [[n-truncated object in an (∞,1)-category]] (see there for more details) is also called a _[[homotopy n-type]]_ or _$n$-type_ for short. For topological spaces / [[∞-groupoids]] this means that all [[homotopy groups]] above degree $n$ a trivial. In the context of [[homotopy type theory]] a homotopy $n$-type is also called to be _of [[homotopy level]]_ $n+2$. 
-
+A homotopy type that is an _[[n-truncated object in an (∞,1)-category]]_ or equivalently that interprets a [[type]] of _[[homotopy level]]_ $n+2$ is also called a _[[homotopy n-type]]_ or _$n$-type_ for short. For topological spaces / [[∞-groupoids]] this means that all [[homotopy groups]] above degree $n$ a trivial. 
 
 
 ## Examples
@@ -77,20 +69,10 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 ## Related concepts
 
+[[!include homotopy n-types - table]]
+
 [[!include notions of type]]
 
-
-* [[homotopy n-type]]
-
-  * [[(-2)-type]]
-
-  * [[(-1)-type]]
-
-  * [[0-type]]
-
-  * [[1-type]]
-
-  * [[2-type]]
 
 ## References
 
