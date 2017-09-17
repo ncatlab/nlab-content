@@ -48,6 +48,8 @@ De Rham cohomology has a rather subtle generalization for possibly singular alge
 
 * [[L-infinity algebra valued differential forms]]
 
+* [[absolute de Rham cohomology]]
+
 ## References
 
 A classical reference on the algebraic version is
