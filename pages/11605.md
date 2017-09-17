@@ -33,7 +33,7 @@ This space naturally carries the structure of a [[complex manifold]] (in fact tw
 
 Notice that conceptually we may
 
-* think of $H^{2k+1}(\Sigma,\mathbb{R})$ as the space of those [[circle n-bundle with connection|n-form connections]] on $\Sigma$ which are both [[flat infinity-connection|flat]] and have trivial underying [[line n-bundle]];
+* think of $H^{2k+1}(\Sigma,\mathbb{R})$ as the space of those [[circle n-bundle with connection|n-form connections]] on $\Sigma$ which are both [[flat infinity-connection|flat]] and have trivial underlying [[line n-bundle]];
 
 * think of $H^{2k + 1}(\Sigma,\mathbb{Z})$ as the group of "large" (not connected to the identity) [[higher gauge field|higher]] [[gauge transformations]] acting on these gauge fields;
 
@@ -85,7 +85,7 @@ $$
   \alpha \in \Omega^{2k+1}_{\mathbb{R}}(\Sigma)
 $$
 
-is, by the [[Hodge theorem]], a sum of complex differential forms in homogeneous [[Dolbeault complex|Dolbeaut bidegree]] of the form
+is, by the [[Hodge theorem]], a sum of complex differential forms in homogeneous [[Dolbeault complex|Dolbeault bidegree]] of the form
 
 $$
   \alpha 
@@ -138,7 +138,7 @@ is the $(k+1)$st stage in the [[Hodge filtration]] of $H^{2k+1}(\Sigma,\mathbb{C
 
 =--
 
-Hence an equivalent way to write the intermediate Jacobian (still as a realmanifold) as the quotient of the real manifold underlying a complex vector space is the following:
+Hence an equivalent way to write the intermediate Jacobian (still as a real manifold) as the quotient of the real manifold underlying a complex vector space is the following:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -501,7 +501,7 @@ A certain [[square root]] of the [[canonical bundle]] on intermediate Jacobians 
 
 ## Examples
 
-The two extreme cases of intermdiate Jacobians $J^k(\Sigma)$ with minimal $k = 0$ and maximal $k = dim_{\mathbb{C}}(\Sigma)= 1$ go by special names, the
+The two extreme cases of intermediate Jacobians $J^k(\Sigma)$ with minimal $k = 0$ and maximal $k = dim_{\mathbb{C}}(\Sigma)= 1$ go by special names, the
 
 * [Picard variety](#ExamplePicard)
 
@@ -513,13 +513,13 @@ Of special interest are also the intermediate Jacobian
 
 * [of Calabi-Yau varieties](#ExampleCY).
 
-### $k = 0$: the Picard varitey $J^1(\Sigma)$
+### $k = 0$: the Picard variety $J^1(\Sigma)$
  {#ExamplePicard}
 
 +-- {: .num_prop}
 ###### Proposition
 
-The intermdiate Jacobian $J^1(\Sigma)$, def. \ref{PlainIJacobian}, of a [[complex curve]] ($dim_{\mathbb{C}}(\Sigma) = 1$) coincides with the connected component $Pic_0(\Sigma)$ of the [[Picard variety]] $Pic(\Sigma)$ of $\Sigma$, hence with the [[Jacobian variety]] $Jac(\Sigma)$:
+The intermediate Jacobian $J^1(\Sigma)$, def. \ref{PlainIJacobian}, of a [[complex curve]] ($dim_{\mathbb{C}}(\Sigma) = 1$) coincides with the connected component $Pic_0(\Sigma)$ of the [[Picard variety]] $Pic(\Sigma)$ of $\Sigma$, hence with the [[Jacobian variety]] $Jac(\Sigma)$:
 
 $$
   J^1(\Sigma) = Pic_0(\Sigma) = Jac(\Sigma)
