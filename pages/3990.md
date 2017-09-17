@@ -8,7 +8,9 @@ such that $e f = e g$.  A **split coequalizer** is a fork together with morphism
 
 The name is appropriate, because in any split coequalizer diagram, the morphism $e$ is necessarily a [[coequalizer]] of $f$ and $g$.  For given any $h\colon B\to D$ such that $h f = h g$, the composite $h s$ provides a factorization of $h$ through $e$, since $h s e = h g t = h f t = h$, and such a factorization is unique since $e$ is (split) [[epimorphism|epic]].  In fact, a split coequalizer is not just a coequalizer but an [[absolute coequalizer]]: one preserved by all [[functors]].
 
-On the other hand, suppose we are given only $f,g\colon A\to B$ and $t\colon B\to A$ such that $f t = 1_B$ and $g t f = g t g$ (which is certainly the case in any split coequalizer, since $g t f = s e f = s e g = g t g$).  Such a situation is sometimes called a **contractile pair**.  In this case, any coequalizer of $f$ and $g$ is split, for if $e\colon B\to C$ is a coequalizer of $f$ and $g$, then the equation $g t f = g t g$ implies, by the universal property of $e$, a unique morphism $s\colon C\to B$ such that $s e = g t$, whence $e s e = e g t = e f t = e$ and so $e s = 1_C$ since $e$ is epic.
+On the other hand, suppose we are given only $f,g\colon A\to B$ and $t\colon B\to A$ such that $f t = 1_B$ and $g t f = g t g$ (which is certainly the case in any split coequalizer, since $g t f = s e f = s e g = g t g$).  Such a situation is sometimes called a **contractible pair**.  In this case, any coequalizer of $f$ and $g$ is split, for if $e\colon B\to C$ is a coequalizer of $f$ and $g$, then the equation $g t f = g t g$ implies, by the universal property of $e$, a unique morphism $s\colon C\to B$ such that $s e = g t$, whence $e s e = e g t = e f t = e$ and so $e s = 1_C$ since $e$ is epic.
+
+Dually, if $e\colon B\to C$ is a [[split epimorphism]], with a splitting $s\colon C\to B$, say, then the [[kernel pair]] of $e$, if it exists, is a split coequalizer diagram.  For if $A \;\underoverset{f}{g}{\rightrightarrows}\; B$ is this kernel pair, then the two maps $s e, 1_B \colon B\to B$ satisfy $e \circ s e = e \circ 1_B$, and hence induce a map $t\colon B\to A$ such that $f t = 1_B$ and $g t = s e$.
 
 ## Examples
 
@@ -23,5 +25,5 @@ This split coequalizer figures prominently in Beck's [[monadicity theorem]].
 [[!redirects split coequalizers]]
 [[!redirects split coequaliser]]
 [[!redirects split coequalisers]]
-[[!redirects contractile pair]]
-[[!redirects contractile pairs]]
+[[!redirects contractible pair]]
+[[!redirects contractible pairs]]
