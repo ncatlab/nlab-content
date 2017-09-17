@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
 =--
 =--
 
@@ -54,21 +58,7 @@ Other types of morphism in a 2-category which have some claim to be considered "
 
 ## Related concepts
 
-* **subcategory**
-
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
-
-  * [[dense sub-site]]
-
-* [[sub-2-category]]
-
-  * [[full sub-2-category]]
-
-  * [[locally full sub-2-category]]
-
-* [[sub-(∞,1)-category]]
-
-  * [[reflective sub-(∞,1)-category]]
+[[!include notions of subcategory]]
 
 
 [[!redirects subcategory]]
