@@ -23,7 +23,7 @@ The precise definition of tangent bundle depends on the nature of the ambient ca
 
 ## Definitions in ordinary differential geometry
 
-Here we define the notion of tangent bundle in the [[category]] [[Diff]] of smooth [[manifold]]s
+Here we define the notion of tangent bundle in the [[category]] [[Diff]] of [[smooth manifold]]s
 
 There are 3 standard definitions of tangent vector known as algebraic (derivation), geometric (equivalence class of germs of curves) and physical definition (via components in local coordinate system with prescribed behaviour under change of coordinates). 
 
