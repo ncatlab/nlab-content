@@ -130,6 +130,8 @@ By the Chern-Simons form of the [[holographic principle]] one expects the Poisso
 
   * [[infinite-dimensional Chern-Simons theory]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
