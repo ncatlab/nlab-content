@@ -1,0 +1,8 @@
+
+* [website](http://www.math.uni-bonn.de/~mgroth/)
+
+## related entries
+
+* [[derivator]], [[pointed derivator]], [[stable derivator]]
+
+category: people
