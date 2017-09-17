@@ -50,7 +50,7 @@ If the last trinagle inequality is strengthened to
 
 then ${\vert -\vert}$ is called an [[ultrametric]] or **non-archimedean** absolute value. Otherwise it is called **archimedean**.
 
-Two absolute values ${\vert - \vert}_1$ and ${\vert - \vert}_1$ are called _equivalent_ if for all $x \in k$
+Two absolute values ${\vert - \vert}_1$ and ${\vert - \vert}_2$ are called _equivalent_ if for all $x \in k$
 
 $$
   ({\vert x \vert}_1 \lt 1)
