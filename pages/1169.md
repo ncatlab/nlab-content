@@ -74,7 +74,11 @@ One problem with the notion of Reedy category is that it is [[evil]]: it is not 
 
 * [[generalized Reedy category]],
 
-due to [[Clemens Berger]] and [[Ieke Moerdijk]], avoids these problems.
+due to [[Clemens Berger]] and [[Ieke Moerdijk]], avoids these problems.  There is a similar generalization due to [[Denis-Charles Cisinski]].
+
+### Elegant Reedy categories
+
+The notion of [[elegant Reedy category]], introduced by [[Julie Bergner]] and [[Charles Rezk]], is a *restriction* of the notion which captures the property that the Reedy model structure and injective model structure coincide.  Several important Reedy categories are elegant, such as the $\Delta$ and $\Theta$.
 
 ### Enriched Reedy category 
 
