@@ -1136,7 +1136,7 @@ In order to formalize this, we introduce a ([[diffeological space|diffeological]
 
 For $X$ a [[smooth manifold]] let $[I,X]$ be the set of [[smooth function]]s $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say that _a $U$-parameterized smooth family of points in $[I,X]$_ is a smooth map $U \times I \to X$. (This makes $[I,X]$ a [[diffeological space]]).
 
-Say a path $\gamma \in [I,X]$ has _sitting instants_ if it is constant in a neighbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
+Say a path $\gamma \in [I,X]$ has _[[sitting instant]]s_ if it is constant in a neighbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
 
 Let $[I,X]_{si} \to [I,X]_{si}^{th}$ be the projection to the set of [[equivalence class]]es where two paths are regarded as equivalent if they are cobounded by a smooth [[thin homotopy]].
 
@@ -1370,24 +1370,91 @@ A connection $\nabla$ is _flat_ precisely if it factors through the inclusion $\
 
 =--
 
-For the purposes of [[Chern-Weil theory]] we want a good way to extract the [[curvature]] 2-form in a general abstract way from a cocycle $\nabla : X \stackrel{\simeq}{\leftarrow }C(U) \to \mathbf{B}G_{conn}$. In order to do that, we first need to disczuss [[connections on 2-bundles]].
+For the purposes of [[Chern-Weil theory]] we want a good way to extract the [[curvature]] 2-form in a general abstract way from a cocycle $\nabla : X \stackrel{\simeq}{\leftarrow }C(U) \to \mathbf{B}G_{conn}$. In order to do that, we first need to discuss [[connections on 2-bundles]].
+
 
 #### Connections on principal 2-bundles {#ConnectionOn2Bundle}
 
+There is an evident higher dimensional generalization of the definition of connections on 1-bundles in terms of functors out of the [[path groupoid]] discussed [above](#ConnectionOnPrincipalBundle). This we discuss now. We will see that, however, the obvious generalization captures not quite all 2-connections. But we will also see a way to recode 1-connections in terms of flat 2-connections. And that recoding then is the right general abstract perspective on connections, which generalizes to [[principal ∞-bundles]] and in fact which in the [[schreiber:differential cohomology in an (∞,1)-topos|full theory]] follows from first principles.
+
+(Construtions and results in this section are from ([SWII+III](#SW)}.)
 
 +-- {: .un_def}
 ###### Definition
 
-The [[path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(X)$ is the smooth [[strict 2-groupoid]] analogous to $\mathbf{P}_1(X)$, with [[thin homotopy]]-classes of disks $D^2 \to X$ as [[2-morphism]]s.
+The [[path n-groupoid]] $\mathbf{P}_2(X)$ is the smooth [[strict 2-groupoid]] analogous to $\mathbf{P}_1(X)$, but with nontrivial [[2-morphism]]s given by [[thin homotopy]]-classes of disks $\Delta^2_{Diff} \to X$ with [[sitting instant]]s.
 
-Let $\mathbf{\Pi}_2(X)$ be the 2-groupoid by dividing out full homotopy of disks, relative boundary.
+In analogy to the projection $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ there is a projection to $\mathbf{P}_2(X) \to \mathbf{\Pi}_2(X)$ to the 2-groupoid obtained by dividing out full homotopy of disks, relative boundary.
 
 =--
 
-Let $G$ be a strict [[Lie 2-group]] coming from a [[crossed module]] $[G_2 \stackrel{\delta}{\to} G_1]$. Then $\mathbf{B}G$ is the strict [[Lie 2-groupoid]] coming from the [[crossed complex]] $[G_2 \to G_1 \stackrel{\to}{\to} *]$.
++-- {: .un_lemma}
+###### Observation
 
-For instance if $K$ is an [[abelian group]] then $\mathbf{B}K$ is the [[delooping]] 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ the 2-group coming from the complex $[K \to 1 \to 1]$.
+Let $G$ be a strict [[Lie 2-group]] coming from a [[crossed module]] $([G_2 \stackrel{\delta}{\to} G_1], \alpha : G_1 \to Aut(G_2))$.Its [[delooping]]  $\mathbf{B}G$ is the strict [[Lie 2-groupoid]] coming from the [[crossed complex]] $[G_2 \stackrel{\delta}{\to} G_1 \stackrel{\to}{\to} *]$.
 
+$$
+  \mathbf{B}G
+  = 
+  \left\{
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_1}}\nearrow 
+       & \Downarrow^{\mathrlap{k}}& 
+       \searrow^{\mathrlap{g_2}}
+       \\
+       \bullet &&\underset{\delta(k) g_1 g_2 }{\to}&&
+       \bullet
+    }
+    \;\;
+    |
+    \;\;
+    g_1, g_2 \in G_1, k \in G_2 
+  \right\}
+  \,.
+$$
+
+This inducces a [[differential crossed module]] $(\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1)$, the [[Lie 2-algebra]] of $G$.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+For $A$ is an [[abelian group|abelian]] Lie group then $\mathbf{B}K$ is the [[delooping]] 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ is the 2-group coming from the complex $[K \to 1 \to 1]$.
+
+=--
+
+A smooth 2-functor  $\mathbf{\Pi}_2(X) \to \mathbf{B}G$ now assigns information also to surfaces
+
+$$
+  \left(
+    \array{
+      && y
+      \\
+      & {}^{\mathllap{\gamma_1}}\nearrow 
+      &\Downarrow^{\mathrlap{\Sigma}}& 
+      \searrow^{\mathrlap{\gamma_2}}
+      \\
+      x &&\underset{}{\to}&& z
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+      && y
+      \\
+      & {}^{\mathllap{tra(\gamma_1)}}\nearrow 
+      &\Downarrow^{\mathrlap{tra(\sigma)}}& 
+      \searrow^{\mathrlap{tra(\gamma_2)}}
+      \\
+      x &&\to&& z
+    }
+  \right)
+$$
+
+and thus encodes a [[higher parallel transport]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -1395,12 +1462,12 @@ For instance if $K$ is an [[abelian group]] then $\mathbf{B}K$ is the [[deloopin
 There is a natural equivalence of [[2-groupoid]]s
 
 $$
-  [CartSp^{op}, Grpd](\mathbf{P}_2(X), \mathbf{B}G)
+  [CartSp^{op}, 2Grpd](\mathbf{\Pi}_2(X), \mathbf{B}G)
   \simeq
   \mathbf{\flat} \mathbf{B}G
 $$
 
-where on the right we have the [[2-groupoid of Lie 2-algebra valued forms]] whose
+where on the right we have the [[2-groupoid of Lie 2-algebra valued forms|2-groupoid of Lie 2-algebra valued forms]] whose
 
 * objects are pairs $A \in \Omega^1(X,\mathfrak{g}_1)$, 
   $B \in \Omega^2(X,\mathfrak{g}_2)$ such that
@@ -1424,25 +1491,29 @@ where on the right we have the [[2-groupoid of Lie 2-algebra valued forms]] whos
   $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + \delta_* a$
   and $B' = \lambda(B) + d_{dR} a + [A\wedge a]$
 
-* 2-morphisms are (exercise).
+* 2-morphisms are... (exercise).
 
 =--
 
-This is in ([SWII](#SW)).
-
-As before, this is natural in $X$, so that we that we get a presheaf of 2-groupoids
+As before, this is natural in $X$, so that we that we get a [[(infinity,1)-presheaf|presheaf of 2-groupoids]]
 
 $$
   \mathbf{\flat}\mathbf{B}G : U \mapsto
-  [CartSp^{op}, 2Grpd]\mathbf{P}_2(U), \mathbf{B}G)
+  [CartSp^{op}, 2Grpd]\mathbf{\Pi}_2(U), \mathbf{B}G)
   \,.
 $$
 
++-- {: .un_prop}
+###### Proposition
+
+If in the above definition we use $\mathbf{P}_2(X)$ instead of $\mathbf{\Pi}_2(X)$, we obtain the same 2-groupoid, except that the 3-form curvature $F_3(A,B)$ is not required to vanish.
+
+=--
 
 +-- {: .un_def}
 ###### Definition
 
-Let $P \to X$ be a $G$-[[principal 2-bundle]] classified by a cocycle $C(U) \to \mathbf{B}G$. Then a structure of a flat **[[connection on a 2-bundle]]** $\nabla $ on it is a lift
+Let $P \to X$ be a $G$-[[principal 2-bundle]] classified by a cocycle $C(U) \to \mathbf{B}G$. Then a structure of a _flat_ **[[connection on a 2-bundle]]** $\nabla $ on it is a lift
 
 $$
   \array{
@@ -1455,17 +1526,31 @@ $$
   \,.
 $$
 
+For $G = \mathbf{B}A$, a **[[connection on a 2-bundle]]** (not necessarily flat) is a lift
+
+$$
+  \array{
+    && \mathbf{\flat}\mathbf{B}\mathbf{B}A
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+    \\
+    C(U) &\stackrel{g}{\to}& \mathbf{B}\mathbf{B}A
+  }
+  \,.
+$$
+
+
 =--
 
 +-- {: .un_prop}
-###### Proposition
+###### Theorem
 
-Let $\{U_i \to X\}$ be a [[nLab:good open cover]] of $X$ and $C(\{U_i\})$ the corresponding [[nLab:Cech nerve|Cech groupoid]] internal to [[nLab:diffeological space]]s. 
+Let $\{U_i \to X\}$ be a [[good open cover]], a cocycle $C(U) \to [\mathbf{P}_2(-), \mathbf{B}^2 A]$ is a cocycle in [[Cech cohomology]]-[[Deligne cohomology]] in degree 3. 
 
-We have a natural equivalence of [[nLab:bicategories]]
+Moreover, we have a natural equivalence of [[bicategories]]
 
 $$
-  [CartSp^{op}, 2Grpd](\mathbf{P}_2(C(U), \mathbf{B}^2 U(1))
+  [CartSp^{op}, 2Grpd](\mathbf{P}_2(C(U), [\mathbf{P}_2(-), \mathbf{B}G])
   \simeq
   U(1) Gerb_\nabla(X)
   \,,
@@ -1473,24 +1558,165 @@ $$
 
 where on the right we have the bicategory of $U(1)$-[[bundle gerbe]]s with connection.
 
+In particular the equivalence classes of cocycles form, the degree 3 [[ordinary differential cohomology]] of $X$:
+
+$$
+  H^3_{diff}(X, \mathbb{Z}) \simeq \pi_0( [C(U), [\mathbf{P}_2(-), \mathbf{B}^2 U(1)]])
+  \,.
+$$
+
 =--
 
-This is in ([SWIII](#SW)).
 
++-- {: .un_remark}
+###### Remark
+
+A cocycle as above naturally corresponds to a [[∞-anafunctor|2-anafunctor]]
+
+$$
+  \array{
+    Q &\to& \mathbf{B}^2 U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{P}_2(X)
+  }
+  \,.
+$$
+
+The value of this on 2-morphisms in $\mathbf{P}_2(X)$ is the [[higher parallel transport]] of the connection on the 2-bundle. 
+
+This appears for instance in the [[action functional]] of the [[sigma model]] that describes strings charged under a [[Kalb-Ramond field]].
+
+=--
+
+The following example of a flat nonabelian 2-bundle is very degenerate as far as 2-bundles go, but does congtain in it the seed of a full understanding of connections on 1-bundles.
+
++-- {: .un_def}
+###### Definition
+
+For $G$ a [[Lie group]] its [[inner automorphism 2-group]] $INN(G)$ is as a groupoid just the [[universal principal infinity-bundle|universal G-bundle]] $\mathbf{E}G$, but regarded as a 2-group with the group structure coming from the crossed module $[G \stackrel{Id}{\to} G].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+
+This is the Lie 2-group whose [[Lie 2-algebra]] $inn(\mathfrak{g})$ is the one whose [[Chevalley-Eilenberg algebra]] is the [[Weil algebra]] of $\mathfrak{g}$.
+
+=--
+
++-- {: .un_example}
+###### Example
+
+By the above theorem we have that there is a bijection of sets
+
+$$
+  \{\mathbf{\Pi}_2(X) \to \mathbf{B} INN(G)\}
+  \simeq
+  \Omega^1(X, \mathfrak{g})
+$$
+
+of flat $INN(G)$-valued 2-connections and Lie-algebra valued 1-forms. Under the identifications of this theorem this identification works as follows:
+
+* the 1-form component of the 2-connection is $A$;
+
+* the vanishing of the 2-form component of the 2-curvature $F_2(A,B) = F_A + B$  identifies the 2-form component of the 2-connection with the [[curvature]] 2-form, $B = - F_A$;
+
+* the vanishing of the 3-form component of the 2-curvature $F_3(A,B) = d B + [A \wedge B] = d_A + [A \wedge F_A]$ is the [[Bianchi identity]] satisfied by any curvature 2-form.
+
+=--
+
+This means that 2-connectons with values in $INN(G)$ actually model 1-connections _and_ keep track of their curvatures. Using this we see in the next section a general abstract definition of connections on 1-bundles that naturally supposrt the [[Chern-Weil homomorphism]].
 
 #### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
 
-> now $\mathbf{B}G_{diff} = \mathbf{B}G \times \mathbf{B}INN(G) \mathbf{\flat}\mathbf{B} INN(G)$...
+We now describe connections on 1-bundles in terms of their _flat curvature 2-bundles_ . This gives a general abstract notion of connections that generalizes to [[connections on ∞-bundles]] and that supports naturally the [[Chern-Weil homomorphism]]
 
-Above we described connections on [[nLab:principal bundle]]s and on [[nLab:gerbe]]s and [[nLab:principal 2-bundle]]s in terms of their [[nLab:parallel transport]] manifested as a smooth $n$-functor out of the [[nLab:path groupoid]] $\mathbf{P}_1(-)$ and the [[nLab:path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(-)$.
+Throughout this section $G$ is a [[Lie group]], $\mathbf{B}G$ its [[delooping]] 2-groupoid and $INN(G)$ its [[inner automorphism 2-group]] and $\mathbf{B}INN(G)$ the corresponding delooping [[Lie 2-groupoid]]. 
 
-From various points of view the [[nLab:fundamental groupoid]] $\mathbf{\Pi}_1(-)$ and the fundamental 2-groupoid $\mathbf{\Pi}_2(-)$ and ultimately the [[homotopy ∞-groupoid]] $\mathbf{\Pi}(-) := \mathbf{\Pi}_{\infty}(-)$ are more fundamental than the [[nLab:path n-groupoid]] $\mathbf{P}_n$. We have seen above for low $n$ that parallel transport on $\mathbf{P}_n$ factors through $\mathbf{\Pi}_n$ precisely if the corresponding connections are flat. This is a drastic restriction, of course. But due to the nice fundamental nature of $\mathbf{\Pi}$, the _obstructions_ to equipping a [[nLab:principal ∞-bundle]] with a flat $\infty$-connection organize themselves neatly into a cohomology theory, namely a [[nLab:twisted cohomology]] theory with the twist being _$\infty$-[[curvature]]_ .  The general abstract definition of differential cohomology as curvature-twisted flat differential cohomology in the precise sense of [[nLab:twisted cohomology]] is our main goal in the sections <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCoeffs">Differential cohomology with groupal coefficients</a>/<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#WithCurvatureClasses">with non-groupal coefficients</a>. As a preparation for that general treatment we now look at connections on ordinary bundles along these lines.
 
-To start with, it is worth noticing that in a higher categorical context flat connections do encode a fair amount of non-trivial information. For instance by the above propositions we have for the structure [[nLab:2-group]] $G := \mathbf{E}U(1) = [U(1) \stackrel{id}{\to} U(1)]$ that the parallel surface transport with coefficients in $\mathbf{B}G$ is given by a 1-form $A$ and a 2-form $B$, where $A$ is arbitrary and $B$ is restricted to be the curvature $B = F_A = d_{dR} A$ of $A$. This is quite restrictive as a 2-connection, but it contains all the local information of an unconstrained 1-connection on a [[nLab:line bundle]]! And in fact when regarded as the connection on a line bundle the flatness of the 2-connection $(A,B)$ is an important statement about the 1-connection: it is precisely the [[nLab:Bianchi identity]] $d_{dR} B = d_{dR} F_A = 0$. 
++-- {: .un_remark}
+###### Definition
 
-This is the simplest example of a general phenomenon: flat $(n+1)$-connections serve to encode the [[curvature]] of non-flat $n$-connections. 
+Define the (generalized) smooth groupoid $\mathbf{B}G_{diff} \in [CartSp^{op}, Grpd]$ as the [[pullback]]
 
-We shall now systematize this observation and show how line bundles with non-flat connection may be  expressed in terms of flat parallel 2-transport out of the fundamental 2-groupoid $\mathbf{\Pi}_2(-)$. Then we give the analogous discusion for connection on general $G$-principal bundles. It is this description of differential cohomology which we then generalize verbatim to a notion of differential cohomology with coefficients in [[nLab:∞-group]]s in gebenral [[nLab:(∞,1)-topos]]es below.
+$$
+  \mathbf{B}G_{diff} = \mathbf{B}G \times_{\mathbf{B}INN(G)} \mathbf{\flat} \mathbf{B}INN(G)
+  \,.
+$$
+
+This is the [[groupoid-valued presheaf]] which assigns to $U \in CartSp$ groupoid whose objects are [[commuting diagram]]s
+
+$$
+  \array{
+    U &\to& \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\Pi}_2(U) &\to& \mathbf{B}INN(G)
+  }
+  \,,
+$$
+
+where the vertical morphisms are the canonical inclusions discussed above, and whose morphisms are compatible pairs of [[natural transformation]]s of the horizontal morphisms.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The projection $\mathbf{B}G_{diff} \stackrel{\simeq}{\to} \mathbf{B}G$ is a weak equivalence.
+
+=--
+
+So $\mathbf{B}G_{diff}$ is a [[resolution]] of $\mathbf{B}G$. We will see that it is the resoluton that supprts [[infinity-anafunctor]]s out of $\mathbf{B}G$ that represent [[curvature characteristic class]]es.
+
+
++-- {: .un_remark}
+###### Observation
+
+
+For $G = A$ an [[abelian group]], in particular the [[circle group]], there is a canonical morphism $\mathbf{B} INN(U(1)) \to \mathbf{B}\mahbf{B}U(1)$.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+Set
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}^2U(1) = 
+  * \times_{\mathbf{B}^2 U(1)} \mathbf{\flat} \mathbf{B}^2 U(1)
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Observation
+
+
+There is a canonice [[infinity-anafunctor]]
+
+$$
+  \array{
+    \mathbf{B}U(1)_{diff} &\to& \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}U(1)
+  }
+  \,.
+$$
+
+=--
+
+This sends a $U(1)$-[[principal bundle]] to a smooth de Rham representative of its [[Chern class]].
+
+(...)
 
 ##### Of $U(1)$-principal bundles {#U1BundCurvatureCharacteristics}
 
