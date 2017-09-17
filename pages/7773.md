@@ -15,7 +15,7 @@ $$hom(G,D(H))=hom(H,D(G))=hom(G\times H,\mu_k)$$
 The notion of a *multipliciative group scheme* generalizes 
 
 +-- {: .num_defn}
-###### Definition and Remmark
+###### Definition and Remark
 A group scheme is called *multiplicative group scheme* if the following equivalent conditions are satisfied:
 
 1. $G\otimes_k k_s$ is [[diagonalizable group scheme|diagonalizable]].
@@ -35,7 +35,7 @@ A group scheme is called *multiplicative group scheme* if the following equivale
 
 +-- {: .num_remark}
 ###### Remark
-Let $G_const$ dnote a [[constant group scheme]], let $E$ be an [[étale group scheme]]. Then we have the following [[Cartier duality|cartier duals]]:
+Let $G_const$ denote a [[constant group scheme]], let $E$ be an [[étale group scheme]]. Then we have the following [[Cartier duality|cartier duals]]:
 
 1. $D(G_const)$ is [[diagonalizable group scheme|diagonalizable]].
 
