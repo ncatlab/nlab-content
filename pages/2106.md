@@ -42,6 +42,10 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 
 ## References
 
+Discussion from the point of view of [[homological algebra]] of [[abelian sheaves]] is in
+
+* C. Viterbo, _An introduction to symplectic topology through sheaf theory_ (2010) ([pdf](http://www.math.polytechnique.fr/cmat/viterbo/Eilenberg/Eilenberg.pdf))
+
 The notion of symplectic geometry may be understood as the mathematical structure that underlies the physics of [[Hamiltonian mechanics]]. A classical monograph that emphasizes this point of view is
 
 * [[Vladimir Arnold]], _Mathematical methods of classical mechanics_ Springer.
