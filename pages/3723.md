@@ -218,8 +218,44 @@ Similarly, form now the top square as a pullback. Then by the composition law of
 
 ### For $\infty$-groupoids
 
-In $\mathbf{H} = Top \simeq $ [[∞Grpd]] the functors $\Pi$ and $\mathbf{\Pi}$ are the identity and so 
-$\cdots \to \mathbf{\Pi}_1(X) \to \mathbf{\Pi}_0(X)$ is just the standard [[Postnikov tower]] $\cdots \to X_1 \to  X_0 $. If $X$ is a pointed topological space, then $\mathbf{B}^n \mathbf{\pi}_n(X)$ is the [[Eilenberg-Mac Lane space]] $K(\pi_n(X),n)$.
+In the archetypical $(\infty,1)$-topos $\mathbf{H} = $ [[∞Grpd]] the functors $\Pi$ and $\mathbf{\Pi}$ are the identity and so 
+$\cdots \to \mathbf{\Pi}_1(X) \to \mathbf{\Pi}_0(X)$ is just the standard [[Postnikov tower]] $\cdots \to X_1 \to  X_0 $. 
+
+If we use the [[model structure on simplicial sets]] in order to [[presentable (infinity,1)-category|present]] $\infty Grpd$, then the Postnikov tower may be realized by the simplicial [[coskeleton]] operation
+
+$$
+  \cdots \to \mathbf{cosk}_2(X) \to \mathbf{cosk}_1(X)
+  \,.
+$$
+
+If $X$ is [[connected]], the [[homotopy pullback]] 
+
+$$
+  \array{
+    X^{(n+1)} &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\to& X_{(n)}
+  }
+$$
+
+defining the Whitehead tower of an $\infty$-groupoid incarnated as a [[Kan complex]] $X$ may be computed as an ordinary [[pullback]] using a fibrant replacement diagram, such as thatr replacing the [[point]] by the [[decalage]] simplicial set, hence as the ordinary pullback
+
+$$
+  \array{
+    X^{(n+1)} &\to& Dec \mathbf{cosk}_n X
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\to& \mathbf{cosk}_n X
+  }
+$$
+
+in [[sSet]].
+
+
+If $X$ is a pointed $\infty$-groupoid then $\mathbf{B}^n \mathbf{\pi}_n(X)$ is the [[Eilenberg-Mac Lane space]] $K(\pi_n(X),n)$.
 
 
 ### For topological $\infty$-groupoids {#TopInfGrpds}
@@ -245,19 +281,10 @@ The analog of this statement for the higher items $X^{(n)}$ with $n \gt 1$ in th
 
 The following reviews some central ideas of this.
 
-##### Preliminary remarks
-
-Given an $(\infty,1)$-topos $C$ we can talk about [[n-truncated object of an (infinity,1)-topos|n-truncated objects]] in $C$. The above construction then has an analogue in $C$ (may need something like properness so as to get the pullback of a fibration to be a fibration -- I'm making this section up as I go along -DMR). The path fibration is replaced by the trivial cofibration-fibration factorisation of the inclusion of the basepoint $* \to X$ (probably want this to be functorial for my liking -DMR).
-
-For example, in $sSet$, we have a functoral $n$-truncation operation, via the [[coskeleton]] endofunctor $Cosk_{n+1}: sSet \to sSet$ (I think I have the indexing right - it may be $Cosk_n$. -DMR). We also have the [[decalage]] functor, which gives us the factorisation $* \to Dec^1 X \to X$. The pullback of $Dec^1Cosk_{n+1} X \to \Cosk_{n+1} X$ (again, indexing) along the unit $X \to Cosk_{n+1}X$ gives the $n$-connected cover of $X$, and now we are justified in saying [[the]]. This idea of the canonical Postnikov tower is explored in low dimensions by Duskin in
-
-*  Simplicial matrices and the nerves of weak $n$-categories I: Nerves of bicategories, TAC **9** no. 2, (2002).
-
-In Duskin's treatment the inclusion $X \to Cosk_3X$ for $X$ a Kan complex is just the map sending an $\infty$-groupoid into the nerve of the bigroupoid representing its 2-type. This hopefully motivates somewhat the details of the construction in the next section.
 
 ##### Non-traditional approach in $Top$ 
 
-**The following is some semblance of current research, except the stuff about the string 2-group. All errors and stupid ideas are mine - David Roberts**
+**The following is some semblance of current research, except the stuff about the string 2-group. All errors and stupid ideas are mine - [[David Roberts]]**
 
 For locally nice spaces (say locally contractible), it is desirable to have a functorial construction of the Whitehead tower. A shadow of a low-dimensional case of this can be seen in the construction of the [[string 2-group]] given by Baez-Crans-Schreiber-Stevenson. Since finite-dimensional Lie groups have non-trivial third homotopy group, it is not possible to form the 3-connected cover in the [[category]] $fin.dim.LieGrp$, like it is possible to take the 0-, and 1-connected covers. While most people give up the smoothness and make do with the [[topological group]] $String_G$, The BCSS construction leaps out of that [[category]] into that of strict ([[Frechet space|Frechet]]) Lie [[2-group]]s. The construction is also functorial.
 
