@@ -4457,11 +4457,15 @@ in $\infty Grpd$\,.
 
 ## Related concepts
 
-* [[∞-groupoid]]
+* [[cohesive (∞,1)-topos]]
 
-* [[topological ∞-groupoid]]
+  * [[discrete ∞-groupoid]]
 
-* **smooth $\infty$-groupoid**
+  * [[continuous ∞-groupoid]]
+
+  * **smooth $\infty$-groupoid**
+
+  * [[synthetic differential ∞-groupoid]]
 
 ## References
 
