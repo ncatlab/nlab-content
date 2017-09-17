@@ -219,6 +219,8 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 * [[monoidal category]], **monoidal $(\infty,1)$-category**
 
+  * [[monoidal (∞,1)-functor]]
+
   * [[Picard ∞-group]]
 
 * [[braided monoidal category]], [[braided monoidal (∞,1)-category]]
