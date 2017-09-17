@@ -10,13 +10,18 @@
 =--
 
 
-See 
+## Types of mechanical systems
 
 * [[classical mechanical system]]
 
 * [[quantum mechanical system]]
 
 * [[subsystem]]
+
+## Examples
+
+* [[Harmonic oscillator]]
+
 
 [[!redirects mechanical systems]]
 
