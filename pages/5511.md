@@ -57,7 +57,7 @@ This appears as ([Lurie, prop. 6.2.3.15](#Lurie)).
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an effective epimorphism precisely if its (-1)-[[truncated|truncation]] is a [[terminal object in an (∞,1)-category|terminal object]] in the [[over-(∞,1)-category]] $C/X$.
+For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an effective epimorphism precisely if its (-1)-[[truncated|truncation]] is a [[terminal object in an (∞,1)-category|terminal object]] in the [[over-(∞,1)-category]] $C/Y$.
 
 =--
 
