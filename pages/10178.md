@@ -898,6 +898,58 @@ The first step is ([Nuiten 13, section x](#Nuiten13)). The second is ([DEKM 11, 
 
 ##### Geometric quantization of symplectic manifolds
 
+We now consider the special case of the above where the [[Poisson manifold]] $(X,\pi)$ happens to be a [[symplectic manifold]] $(X,\omega^{-1})$. 
+
++-- {: .num_prop }
+###### Proposition
+
+The [[symplectic groupoid]] of a [[symplectic manifold]] is equivalent to the point
+
+$$
+  SymplGrp(X,\omega^{-1}) \simeq \ast
+  \,.
+$$
+
+Accordingly, the boundary condition for the Poisson [[2d Chern-Simons theory]] induced by a [[Poisson manifold]] which is symplectic is a correspondence of the form
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_\nabla && \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^2 U(1)_{conn^1}
+  }
+$$
+
+and so is equivalently given by a [[prequantum bundle]]
+
+$$
+  \nabla \; \colon \; X \to \mathbf{B}U(1)_{conn} \simeq \Omega \mathbf{B}^2 U(1)_{conn^1}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Traditionally the [[strict deformation quantization]] of a [[symplectic manifold]] with a good [[polarization]] $\mathcal{P}$ is taken to be the [[C*-algebra]] of [[compact operators]] on the [[leaf space]] $X/\mathcal{P}$. In ([EH 06](geometric+quantization+of+symplectic+groupoids#EH)) this is rederived as the polarized [[groupoid convolution algebra]] of the symplectic groupoid of $(X,\omega^{-1})$ naturally presented as the [[pair groupoid]] $SymplGrpd(X,\omega^{-1}) \simeq Pair(X/\mathcal{P})$. 
+
+However, once one passes from [[smooth manifolds]] to [[Lie groupoids]], it is unnatural to essentially distibuish the [[pair groupoid]] from the point, since both are [[Morita equivalence|Morita equivalent]]. Notably, in analogy to this the algebra of [[compact operators]] is of course itself [[Morita equivalence|Morita equivalent]] to the base algebra of [[complex numbers]]. 
+
+As a consequence, the traditional description of the [[strict deformation quantization]] of [[symplectic manifolds]] in the refined perspective of ([EH 06](geometric+quantization+of+symplectic+groupoids#EH)) contains a conundrum: either one unnaturally breaks the natural Morita equivalence or else one arrives at a trivial quantization.
+
+In the following we see that this is resolved in motivic quantization. Here is is not just the symplectic groupoid itself that is quantized, but the [[correspondence]] $\ast \leftarrow X \to SymplGrp(X,\omega^{-1})$ which exhibits the original symplectic manifold as a boundary of the corresponding [[2d Chern-Simons theory]]. While the quantization of $SymplGrpd(X,\omega^{-1})$ itself is trivial when properly regarded in [[higher geometry]], that of $\ast \leftarrow X \to SymplGrpd(X,\omega^{-1})$ is not and in fact yields the correct quantization.
+
+A conceptual way to understand this phenomenon is to recall that the symplectic groupoid of a [[Poisson manifold]] is effectively a stacky model for the [[leaf space]] by [[symplectic leafs]] of the Poisson manifold. Since for symplectic Poisson manifolds the lead space is the point, accordingly so is the symplectic groupoid, up to equivalence.
+
+=--
+
 (...) [[geometric quantization]] (...)
 
 ###### Quantum states and K-theory
