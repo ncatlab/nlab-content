@@ -39,6 +39,12 @@ The following is (or will eventually be) a linked list of keywords.
 
 #### 2.1.1 From colored operads to $\infty$-operads
 
+* [[Segal Gamma-category]]
+
+* [[inert morphism]]
+
+* [[category of operators]]
+
 * [[(∞,1)-operad]]
 
 #### 2.1.2 Maps of $\infty$-operads
