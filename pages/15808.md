@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] one speakes of a _parent action functional_ ([Deser-Jackiw 84](#DeserJackiw84)) when referring to an [[action functional]] $S_{par}$ which, by solving the [[equations of motion]] of two different sets of its "auxiliary" [[field (physics)|fields]], is classically equivalent to two different-looking action functionals $S_A$ and $S_B$, thereby exhibiting $S_A$ and $S_B$ as classically equivalent to each other. Hence a parent action functional constitutes a [[correspondence]] between two action functionals 
+
+$$
+  \array{
+    && S_{par}
+    \\
+    & {}^{\mathllap{\simeq_{clas}}}\swarrow &&  \searrow^{\mathrlap{\simeq_{clas}}}
+    \\
+    S_A && && S_B
+  }
+  \,.
+$$
+
+The method is used notably to exhibit "[[duality in physics|duality]]" between $S_A$ and $S_B$ of one form or another, in particular [[electric-magnetic duality]]. (See e.g. [Mia-Ohta 03](#MiaOhta03)).
+
+Beware that some authors also speak of _master actions_ instead of _parent actions_ in this context, but there is not relation to "master actions" in the sense of [[BV-BRST formalism]] (except, of course, that both are [[action functionals]] of some sort). 
+
+## References
+
+* {#DeserJackiw84} [[Stanley Deser]], [[Roman Jackiw]], Phys. Lett. B, 139 (1984), p. 2366
+
+* {#MiaOhta03} Yan-Gang Miao, Nobuyoshi Ohta, _Parent Actions, Dualities and New Weyl-invariant Actions of Bosonic p-branes_ ([arXiv:hep-th/0301233](http://arxiv.org/abs/hep-th/0301233))
+
+
+[[!redirects parent action functionals]]
+
+[[!redirects parent action]]
+[[!redirects parent actions]]
