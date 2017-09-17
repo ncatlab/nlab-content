@@ -1,11 +1,18 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
 [[!include supergeometry - contents]]
-
-***
-
+=--
+#### Synthetic differential geometry
++--{: .hide}
 [[!include synthetic differential geometry - contents]]
-
-</div>
+=--
+=--
+=--
 
 
 
