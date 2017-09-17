@@ -101,7 +101,7 @@ We had some blog discussion about this at
 
 ## Related concepts
 
-* [[[model structure on strict omega-categories]]
+* [[model structure on strict omega-categories]]
 
 ## References
 
@@ -111,3 +111,5 @@ We had some blog discussion about this at
 [[!redirects folk model structure]]
 [[!redirects canonical model structures]]
 [[!redirects folk model structures]]
+
+[[!redirects natural model structure]]
