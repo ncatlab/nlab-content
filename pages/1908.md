@@ -93,3 +93,4 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 [[!redirects decategorify]]
 
 [[!redirects isomorphism class]]
+[[!redirects isomorphism classes]]
