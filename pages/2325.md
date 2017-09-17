@@ -98,7 +98,7 @@ This implies that an $n$-localic $(\infty,1)$-topos is also $(n+1)$-localic and 
 +-- {: .un_prop}
 ###### Proposition
 
-The [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] $C$ which is an [[(n,1)-category]] is $n$-localic.
+The [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] $C$ with finite limits which is an [[(n,1)-category]] is $n$-localic.
 
 =--
 
