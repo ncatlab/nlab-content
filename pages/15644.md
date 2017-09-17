@@ -7,7 +7,7 @@
 
 The _Dirichlet L-functions_ are a kind of [[L-function]] with induced by [[Dirichlet characters]]  (e.g. [Goldfeld-Hundley 11 (2.2.1)](#GoldfeldHundley11)).
 
-In terms of the [[adelic integral]] representation of L-functions via [[Iwasawa-Tate theore]], given a [[Dirichlet character]] $\chi$ then the corresponding Dirichlet L-functions are simply the [[adelic integrals]] (e.g. [Garrett 11, section 2.2](#Garrett11))
+In terms of the [[adelic integral]] representation of L-functions via [[Iwasawa-Tate theory]], given a [[Dirichlet character]] $\chi$ then the corresponding Dirichlet L-functions are simply the [[adelic integrals]] (e.g. [Garrett 11, section 2.2](#Garrett11))
 
 $$
   s \mapsto \int_{\mathbb{I}} \chi(x) \;f(x)\; {\vert x\vert}^s
