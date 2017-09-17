@@ -635,7 +635,20 @@ $$
   f^{-1}(d) \to f/d
 $$
 
-of the [[fiber]] over $d$ into the [[comma category]] is a [[cofinal functor]]. Accordingly the local formula for the left Kan extension 
+of the [[fiber]] over $d$ into the [[comma category]] given by
+
+$$
+  c \mapsto (c, Id_{d} = Id_{f(c)})
+$$
+
+has a [[left adjoint]], given by
+
+$$
+  (c, f(c) \to d) \mapsto c
+  \,.
+$$
+
+Therefore (by the discussion _[here](final+functor#Examples)_) it is a [[cofinal functor]]. Accordingly, the local formula for the left Kan extension 
 
 $$
   f_! : [C, \mathcal{D}] \to [D, \mathcal{D}]
