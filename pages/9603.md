@@ -1,0 +1,48 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A Moufang loop is a set with a [[binary operation]] that is similar to that of a [[group]], but lacks [[associativity]]. Making this precise is a little fiddly.
+
+## Definition
+
+A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \to Q$ with two-sided unit $e$ such that left and right multiplication, $y\cdot -\colon Q \to Q$ and right $-\cdot x\colon Q \to Q$ respectively, are isomorphisms (i.e. it is a unital [[quasigroup]] or _loop_) such that the _Moufang identities_ hold:
+
+* $(u v)(w u) = (u(v w))u) = u((v w)u)$ 
+
+* $((u v)u)w = u(v(u w))$
+
+* $((u v)w)v = u(v(w v))$
+
+## Properties
+
+Every element in a Moufang loop has a multiplicative inverse; a priori there are only left and right inverses, but these coincide by the Moufang identities.
+
+Since right and left multiplication give isomorphisms of the underlying set, one can 'divide' by any element of the Moufang loop, on the right or on the left (recall we are not assuming commutativity). Thus one can define a Moufang loop as a set together with a multiplication as above, together with right and left division operations $/, \backslash \colon Q\times Q \to Q$.
+
+Moufang loops are _power associative_, in that any bracketing of a string consisting of copies of the same element multiply to a unique element. In fact, more is true, in that any two elements generate a genuine group.
+
+
+
+## Examples
+
+* Any group is a Moufang loop.
+
+* The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of unit quaternions.
+
+* The basis octonions, $1,e_1,\ldots,e_7$ and their additive inverses $-1,-e_1,\ldots,-e_7$ form a finite Moufang loop of order 16 (compare with the case of the quaternions, where the basis elements and their inverses form a group of order 8, the [[quaternion group]] $Q_8$).
+
+* There is a finite Moufang loop of order $2^{13}$ which [[John Conway]] used to construct the [[Monster group]]. Conway's Moufang loop is a central extension by $\mathbb{Z}/2$ of the [[binary Golay code]], an abelian group of order $2^{12}$.
+
+See the [English Wikipedia page](http://en.wikipedia.org/wiki/Moufang_loop) for more examples.
+
+## Related concepts
+
+* [[composition algebra]]
+* [[quasigroup]]
+
+
+[[!redirects Moufang loops]]
