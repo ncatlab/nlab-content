@@ -20,6 +20,8 @@ The [[Baum-Connes conjecture]] states that the assembly map is an [[isomorphism]
 
 ## Related concepts
 
+* [[Novikov conjecture]]
+
 * [[Baum-Connes conjecture]]
 
 ## References
@@ -37,3 +39,6 @@ An introduction is in
 
 [[!redirects Baum-Connes assembly map]]
 [[!redirects Baum-Connes assembly maps]]
+
+[[!redirects analytic assembly map]]
+[[!redirects analytic assembly maps]]
