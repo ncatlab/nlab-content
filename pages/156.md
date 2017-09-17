@@ -1,3 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+> This entry is about the notion of _skeleton_ for categories. For the notion of (co)skeletal simplicial sets see [[simplicial skeleton]].
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
