@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[target space]] spectrum of the [[string]] [[sigma-model]] contains  beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale, notably for compactifications on [[anti de Sitter space]]s of small radius. In this limit the string spectrum looks like a an infinite collection of massless [[spinning particle]]s for ever higher spin. Due to their common orgin in the string, these share intricate relations among each other, which are described by what [Vasiliev](Vasiliev) termed **higher spin gauge theory**.
+
+
+## References
+
+### General
+
+* [[Mikhail Vasiliev]], _Higher-Spin Gauge Theories in Four, Three and Two Dimensions_ ([arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024))
+
+* [[Mikhail Vasiliev]], _Higher Spin Gauge Theories in Various Dimensions_ 27th Johns Hopkins Workshop on Current Problems in Particle Theory: Symmetries and Mysteries of M Theory ([pdf](http://www.pha.jhu.edu/events/jhworkshop/goteborg03/vasiliev.pdf))
+ {#Vasiliev}
+
+* [[Mikhail Vasiliev]], _Higher spin gauge theories in any dimension_ talk at String2004 in Moscow ([pdf](http://strings04.lpthe.jussieu.fr/talks/Vasiliev.pdf))
+
+### Relation to holography
+
+We list references that discuss the relation of higher spin gauge theory to the [[AdS/CFT correspondence]].
+
+* Simone Giombi, Xi Yin, _Higher Spin Gauge Theory and Holography: The Three-Point Functions_ ([arXiv:0912.3462](http://arxiv.org/abs/0912.3462))
+
+* Simone Giombi, Xi Yin, _Higher Spins in AdS and Twistorial Holography_ ([arXiv:1004.3736](http://arxiv.org/abs/1004.3736))
+
+[[!redirects higher spin gauge theories]]
