@@ -33,6 +33,10 @@ Therefore the theory of quantum angular momentum is that of the [[irreducible re
 
 * [[spin]]
 
+* [[helicity]]
+
+* [[Pauli-Lubanski vector]]
+
 ## References
 
 ### Classical angular momentum
