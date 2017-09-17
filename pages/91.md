@@ -171,6 +171,7 @@ consecutive identity-assigning, source or target maps, respectively.
 
 * Also related is the notion of [[computad]], which is similar to a globular set in some ways, but allows "formal composites" of $n$-cells to appear in the sources and targest of $(n+1)$-cells.
 
+
 ## Related concepts
 
 * [[graph]]
@@ -180,6 +181,11 @@ consecutive identity-assigning, source or target maps, respectively.
   * **directed $n$-graph**
 
 * [[ribbon graph]]
+
+## References
+
+Tom Leinster: [higher operads, higher categories](http://arxiv.org/pdf/math/0305049)
+
 
 
 
