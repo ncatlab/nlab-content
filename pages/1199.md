@@ -30,7 +30,7 @@ More generally, let $S$ be a set of [[ordinal numbers]] (or even the proper clas
 Let $S$ be the set of positive integers, and let $x \prec y$ mean that $x$ divides $y$: $x \mid y$, or $y/x$ is an integer.  This relation is also well-founded, so one can prove properties of integers by induction on their divisors.
 
 
-## Alternative formulations
+## Formulations in classical logic
 
 While the definition above follows how a well-founded relation is generally *used* (namely, to prove properties of elements of $S$ by induction), it is complicated.  Two alternative formulations are given by the following lemmas:
 
@@ -42,14 +42,39 @@ Lemma (1) is essentially Fermat\'s method of _infinite descent_.  Lemma (2) is t
 
 However, neither of these is acceptable in [[constructive mathematics]], since both lemmas require the principle of [[excluded middle]] to prove one direction.  The nonexistence of infinite descending sequences is too weak to allow proofs by induction (except for special forms of $A$), although it is sufficient to establish the [[Burali-Forti paradox]].  On the other hand, the requirement that every inhabited subset have a minimal element is too strong to ever be established (except for degenerate cases of $S$).  When necessary, we call a relation with the property of Lemma (2) **classically well-founded**.
 
+## Coalgebraic formulation 
+
+Many inductive or recursive notions may also be packaged in coalgebraic terms. For the concept of well-founded relation, first observe that a binary relation $\prec$ on a set $X$ is the same as a coalgebra structure $\theta: X \to P(X)$ for the covariant power-set endofunctor on $Set$, where $y \prec x$ if and only if $y \in \theta(x)$. 
+
+In this language, a subset $i: U \hookrightarrow X$ is $\prec$-inductive, or $\theta$-inductive, if in the pullback 
+
+$$\array{
+H & \stackrel{j}{\to} & X \\ 
+\downarrow & & \downarrow^\mathrlap{\theta} \\
+P U & \underset{P i}{\to} & P X
+}$$ 
+
+the map $j$ factors through $i$. (Note that $j$ is necessarily monic, since $P$ preserves monos.) Unpacking this a bit: for any $x \in X$, if $\theta(x) = V$ belongs to $P U$, that is if $\theta(x) \subseteq U$, then $x \in U$. This says the same thing as $\forall_{x: X} (\forall_{y: X} y \prec x \Rightarrow y \in U) \Rightarrow x \in U$. 
+
+Then, as usual, the $P$-coalgebra $(X, \theta)$ is well-founded if every $\theta$-inductive subset $U \hookrightarrow X$ is all of $X$. 
+
+Other relevant notions may also be packaged; for example, the $P$-coalgebra $X$ is extensional if $\theta: X \to P X$ is monic. See also [[well-founded coalgebra]]. 
 
 ## Simulations
 
 Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f: S \to T$ is a __simulation__ of $S$ in $T$ if
-*  $f(x) \prec f(y)$ whenever $x \prec y$ and
-*  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
+1.  $f(x) \prec f(y)$ whenever $x \prec y$ and
+1.  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
 Then sets so equipped form a [[category]] with simulations as [[morphisms]].  See [[extensional relation]] for more uses of simulations.
+
+In coalgebraic language, a simulation $S \to T$ is simply a $P$-coalgebra homomorphism $f: S \to T$. Condition 1., that $f$ is merely $\prec$-preserving, translates to the condition that $f$ is a lax coalgebra map in the sense of there being an inclusion 
+
+$$\array{
+X & \stackrel{\theta_X}{\to} & P X \\
+ ^\mathllap{f} \downarrow & \swArrow & \downarrow^\mathrlap{P f} \\
+Y & \underset{\theta_Y}{\to} & P Y.
+}$$ 
 
 
 ## Remarks
