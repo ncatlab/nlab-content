@@ -1,3 +1,3 @@
-The material previously on this page referred to [PlanetMath](http://planetmath.org/encyclopedia/LogicalGraph.html).
-
 [[!redirects Logical Graph]]
+
+The animated and updated version of this short feature may be viewed at your [friendly neighborhood logical theatre](http://mywikibiz.com/Logical_graph).
