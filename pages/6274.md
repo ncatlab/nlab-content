@@ -15,6 +15,8 @@ The [[homomorphisms]] of conformal structures are called _[[conformal transforma
 
 * [[twistor space]]
 
+* [[conformal cobordism category]]
+
 ## References
 
 * David Gu, _Conformal structure_, slides ([pdf](http://www.cs.sunysb.edu/~gu/lectures/lecture_2_conformal_structure.pdf))
