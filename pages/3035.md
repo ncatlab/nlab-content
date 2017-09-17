@@ -109,14 +109,6 @@
 
 ### $\infty$-Lie groupoids
 
-* [[orthogonal group]]
-
-* [[spin group]]
-
-* [[string 2-group]]
-
-* [[fivebrane 6-group]]
-
 * [[Atiyah Lie groupoid]]
 
 * [[schreiber:path ∞-groupoid]]
@@ -127,13 +119,24 @@
 
 * [[principal ∞-bundle|smooth principal ∞-bundle]]
 
+### $\infty$-Lie groups
+
+* [[orthogonal group]]
+
+* [[spin group]]
+
+* [[string 2-group]]
+
+* [[fivebrane 6-group]]
+
+* [[∞-Lie groupoid|circle Lie n-group]]
+
+
 ### $\infty$-Lie algebroids
 
-* [[string Lie 2-algebra]]
-
-* [[supergravity Lie 3-algebra]]
-
 * [[tangent Lie algebroid]]
+
+* [[action Lie algebroid]]
 
 * [[Atiyah Lie algebroid]]
 
@@ -141,12 +144,17 @@
 
   * [[symplectic manifold]]
 
-  * [[Poisson Lie algebroid]]
+  * [[Poisson Lie algebroid]
 
   * [[Courant Lie algebroid]]
 
     * [[generalized complex geometry]]
 
+### $\infty$-Lie algebras
+
+* [[string Lie 2-algebra]]
+
+* [[supergravity Lie 3-algebra]]
 
 
 
