@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Erich_Jantsch)
+
+## writings
+
+* _[[The Self-Organizing Universe]]_
+
+category: people
