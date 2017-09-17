@@ -69,7 +69,7 @@ If $(S,\sigma)$ is a well-pointed endofunctor and $S\to T$ is a natural transfor
 
 +-- {: .num_lemma #WellPointedCointersection}
 ###### Lemma
-Suppose $(S_i,\sigma_i)$ is a family of (accessible) well-pointed endofunctors and let $\sigma:Id to S$ be the [[wide pushout]] of all the points $\sigma_i:Id \to S_i$.  Then $(S,\sigma)$ is (accessible and) well-pointed, and $S Alg = \bigcap_i (S_i Alg)$.
+Suppose $(S_i,\sigma_i)$ is a family of (accessible) well-pointed endofunctors and let $\sigma:Id \to S$ be the [[wide pushout]] of all the points $\sigma_i:Id \to S_i$.  Then $(S,\sigma)$ is (accessible and) well-pointed, and $S Alg = \bigcap_i (S_i Alg)$.
 =--
 
 +-- {: .num_lemma #WellPointedTransfer}
