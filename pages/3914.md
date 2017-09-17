@@ -54,9 +54,17 @@ $$
 is the $GL_1(R)$-principal $\infty$-bundle $P \to X$ classified by that map.
 
 
-**Example** For $R = \mathbb{S}$ the [[sphere spectrum]], we have that $B GL_1(\mathbb{S})$ is the [[classifying space]] for spherical fibrations.
++-- {: .num_example}
+###### Example
 
-**Example** There is a canonical morphism
+For $R = \mathbb{S}$ the [[sphere spectrum]], we have that $B GL_1(\mathbb{S})$ is the [[classifying space]] for spherical fibrations.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+There is a canonical morphism
 
 $$
   B O \to B GL_1(\mathbb{S})
@@ -71,6 +79,7 @@ $$
 
 which sends each fiber to its [[one-point compactification]].
 
+=--
 
 
 #### $GL_1(R)$-associated $\infty$-bundles
@@ -95,7 +104,10 @@ This is the generalized **Thom spectrum**. For $R = K O$ the real [[K-theory spe
 
 An $E$-orientation of a vector bundle $V \to X$ is a trivialization of the $E$-module bundle $E \wedge S^V$, where fiberwise form the [[smash product]] of $E$ with the [[Thom space]] of $V$.
 
-**Proposition** For $f : R \to S$ a morphism of $E_\infty$-rings, and $\zeta : X \to B GL_1(R)$ the classifying map for an $R$-bundle, the corresponding associated $S$-bundle classified by the composite
++-- {: .num_prop}
+###### Proposition
+
+For $f : R \to S$ a morphism of $E_\infty$-rings, and $\zeta : X \to B GL_1(R)$ the classifying map for an $R$-bundle, the corresponding associated $S$-bundle classified by the composite
 
 $$
   X \stackrel{\zeta}{ \to } B GL_1(R) \stackrel{f}{\to} B GL_1(S)
@@ -107,6 +119,8 @@ $$
   X^{f \circ \zeta} \simeq X^\zeta \wedge_R S
   \,.
 $$
+
+=--
 
 This appears as ([Hopkins, bottom of p. 6](#Hopkins)).
 
@@ -213,13 +227,19 @@ and so forth.
 
 This is the way orientations in generalized cohomology often appear in the literature.
 
-**Example** The construction of the $String$-orientation of [[tmf]], hence a morphism
+
++-- {: .num_example}
+###### Example
+
+The construction of the [[string orientation of tmf]], hence a morphism
 
 $$
   M String \to tmf
 $$
 
 is discussed in ([Hopkins, last pages](#Hopkins)).
+
+=--
 
 ### Concretely for vector bundles
 
