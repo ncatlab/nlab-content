@@ -222,7 +222,7 @@ $$I(\sigma) = \frac{m(m-1)}{2} \frac{n(n-1)}{2}$$
 
 whence 
 
-$$(-1)^{I(\sigma)} = (-1)^{\frac{p-1}{2}\frac{q-1}{2}}$$ 
+$$(-1)^{I(\sigma)} = (-1)^{\frac{m-1}{2}\frac{n-1}{2}}$$ 
 
 which completes the proof. 
 =-- 
