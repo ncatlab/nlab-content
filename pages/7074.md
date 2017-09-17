@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In [[type theory]] the kind of [[type]] corresponding in [[categorical semantics]] to a [[quotient object]] / [[coequalizer]].
+
+## Properties
+
+Quotient type may be constructed as [[higher inductive types]]. See [here](ncatlab.org/nlab/show/higher+inductive+type#QuotientsOfSets)
+
+[[!redirects quotient types]]
