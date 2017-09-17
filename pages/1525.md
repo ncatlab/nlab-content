@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Contex
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
@@ -11,10 +11,9 @@
 
 There are several concepts often called a **path category**.
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
-
 
 ## Free category on a directed graph
 
@@ -43,7 +42,11 @@ Given a [[topological space]] $X$ (or some other kind of [[space]] with a notion
 Given a [[category]] $X$, the [[functor category]] $[I,X]$ for $I$ the [[interval category]] might be called a "directed path category of $X$" (similar to [[path space]]). However, this functor category is referred to instead as the [[arrow category]] of $X$ and sometimes even denoted $Arr(X)$.
 
 
+[[!redirects path category]]
+[[!redirects path categories]]
+
 [[!redirects free category]]
 [[!redirects free categories]]
 
-[[!redirects path categories]]
+[[!redirects free category on a quiver]]
+[[!redirects free categories on quivers]]
