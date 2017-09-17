@@ -9,9 +9,13 @@ X & \stackrel{e}{\to} & X \\
 
 To say this loop commutes, is to say $e^3 = 1_X$. Or is it?
 
+[[David Roberts]]: That is correct.
+
 Since this loop is degenerate, we may or may not have (depending on convention?), parallel identity arrows running between each vertex.
 
 If there are hidden identity morphisms, then to say the triangle commutes is to say $e = 1_X$.
+
+[[David Roberts]]: No: the above version $e^3 = id$ is correct.
 
 
 Here is a degenerate triangle:
@@ -24,11 +28,13 @@ X & \stackrel{e}{\to} & X \\
 
 To say this triangle commutes is to say $e^2 = e$. Or is it?
 
+[[David Roberts]]: That is correct.
+
 Since this triangle is degenerate, we may or may not have (depending on convention?), parallel identity arrows running between each vertex.
 
 If there are hidden identity morphisms, then to say the triangle commutes is to say $e = 1_X$.
 
-
+[[David Roberts]]: No: the above version $e^2 = e$ is correct. For both of these wrong statements, you are assuming that arrows somehow cancel. Especially the first one, think of it in terms of dimensional analysis. If you have a quantity in physics with dimensions of something else cubed, it cannot have the dimensions of that original thing (unless both are dimensionless). But this is only a rough analogy, please don't read anything deep into it. In my comment in reply to Harry's $e^2 = e$ being a loop, then I said I would draw this as a commuting triangle. I wouldn't draw a loop (i.e. an endomorphism) (resp. a degenerate loop) as a triangle (resp. commuting triangle) in any circumstances, because we are not given that the loop factors into a composite of other arrows.
 
 ##Main Article
 
