@@ -23,7 +23,7 @@ As special cases this includes:
 
 * for $n = 1$: [[elliptic cohomology]];
 
-* form $n = 2$: [[K3-cohomology]].
+* for $n = 2$: [[K3-cohomology]].
 
 [[!include moduli of higher lines -- table]]
 
