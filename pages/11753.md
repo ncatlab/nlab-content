@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Reinhold_Remmert)
+
+## Related $n$Lab entries
+
+* [[analytic space]], [[complex analytic space]], [[Stein manifold]]
+
+category: people
