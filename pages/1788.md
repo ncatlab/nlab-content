@@ -145,10 +145,11 @@ hello world
 =--
 end up?
 
-+-- {: .num_theorem #theorem}
++--
 ###### Theorem
 Something equals nothing
 =--
+{: .num_theorem #theorem}
 
 +-- {: .num_theorem #theorem_theorem}
 ###### Theorem
@@ -162,6 +163,11 @@ Theorems \ref{theorem} and \ref{theorem_theorem} are equivalent.
 {: #secthis}
 
 Section [this](#secthis) is very useful.
+
++-- {: style="text-align: center"}
+*a topos is a generalized space.*
+=--
+
 
 category: meta
 
