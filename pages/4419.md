@@ -21,6 +21,7 @@ This theorem has been, under some restrictions proved, in [[Pierre Gabriel]]'s t
 
 * related MO question: [what is the center of QCohX](http://mathoverflow.net/questions/41789/what-is-the-center-of-qcohx)
 
+category: algebraic geometry, noncommutative geometry
 [[!redirects Gabriel-Rosenberg reconstruction theorem]]
 [[!redirects Gabriel-Rosenberg's theorem]]
 [[!redirects Gabriel-Rosenberg reconstruction]]
