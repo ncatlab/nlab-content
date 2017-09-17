@@ -23,7 +23,7 @@
 
 While fundamental [[physics]] is at some level well described by [[quantum field theory]], a typical [[Lagrangian]] used to define such a QFT can reasonably be expected to define only degrees of freedom and interactions that are relevant up to some given [[energy]] scale. In this perspective one speaks of the theory as being the _effective quantum field theory_ of some -- possibly known but possibly unspecified -- more fundamental theory.
 
-An example (historically the first to be successfully considered) is the [[Fermi theory of beta decay]] of hadrons: this contains interactions of four [[fermion]]s at a time, for instance a process in which a [[neutron]] decays into a collection consisting of a [[proton]], an [[electron]] and a [[neutrino]]. Later it was discovered that, more fundamentally, this is not a single reaction but is composed out of several other interactions that involve exchanges of [[W boson]]s between these four particles. Nevertheless, Fermi's original _effective_ theory made vey precise predictions at energy scales less than 10 [[MeV]]. The reason is that the $W$-boson has mass several orders of magnitude higher than that (about 80 [[GeV]]) and was thus _effectively_ invisibible at these low energies.
+An example (historically the first to be successfully considered) is the [[Fermi theory of beta decay]] of hadrons: this contains interactions of four [[fermion]]s at a time, for instance a process in which a [[neutron]] decays into a collection consisting of a [[proton]], an [[electron]] and a [[neutrino]]. Later it was discovered that, more fundamentally, this is not a single reaction but is composed out of several other interactions that involve exchanges of [[W boson]]s between these four particles. Nevertheless, Fermi's original _effective_ theory made very precise predictions at energy scales less than 10 [[MeV]]. The reason is that the $W$-boson has mass several orders of magnitude higher than that (about 80 [[GeV]]) and was thus _effectively_ invisible at these low energies.
 
 In the perspective of effective field theory notably  [[renormalization|unrenormalizable]] Lagrangians can still make perfect sense as effective theories and give rise to well defined predictions: they can be effective approximations to renormalizable or even degreewise finite more fundamental theories. This is sometimes called a [[UV completion]] of the given effective theory.
 
@@ -31,7 +31,7 @@ For instance [[gravity]] -- which is notoriously non-renormalizable -- makes per
 
 ## Theory
 
-The technique of effective field theory is based on the followig fact:
+The technique of effective field theory is based on the following fact:
 
 +-- {: .num_prop}
 ###### Proposition
