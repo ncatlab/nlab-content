@@ -25,7 +25,9 @@ In cases like that, the basic club idea will work. Given a category $C$, the fre
 
 It should also be mentioned (I'm sure you know this) that in such mixed variance cases, even if there are no islands in formal compositions, the result is merely a monad on $Cat$, not a 2-monad. On the other hand, you do get a 2-monad if you restict to categories, functors, and natural isomorphisms.
 
-[[Mike Shulman]]: Ah, right, thanks.  Now I remember how Kelly dealt with graphs in that way by just throwing away the "bad composites".  I must have forgotten about it because I thought it was so weird.  (-:  Is that sort of club also a generalized operad for some cartesian monad on $Cat$?
+[[Mike Shulman]]: Ah, right, thanks.  Now I remember how Kelly dealt with graphs in that way by just throwing away the "bad composites".  I must have forgotten about it because I thought it was so weird.  (-:  Is that sort of club also a generalized operad for some cartesian monad on $Cat$? 
+
+[[Todd Trimble]]: I'm pretty sure that it's a cartesian monad on $Cat$, and actually I don't know any real examples of Kelly's clubs which aren't.
 =--
 
 Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]].  In fact, most types of clubs are a special case of [[generalized multicategories|generalized operads]].
