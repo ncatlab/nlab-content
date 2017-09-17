@@ -125,7 +125,7 @@ Here is a more detailed way to say again what the above paragraph said.
 
 Let $Aff = CRing^{op}$; recall the fibered category $Mod\to CRing^{op}$ where for each $f:A\to B$ in $CRing$ the inverse image functor is $f^*=B\otimes_A - :{}_A Mod\to {}_B Mod$. Then the identity functor $CRing\to CRing$ can be interpreted as the presheaf of rings and is denoted by $O$ (the "structure sheaf"). An $O$-module is a presheaf of $O$-modules. Usually some Grothendieck topology is given and one asks for sheaves in fact. We can Yoneda extend $O$-modules to presheaves. We now define quasicoherent sheaves of $O$-modules on an arbitrary presheaf $X$ on $Aff$, viewed as a covariant functor on $CRing$. 
 
-A **quasicoherent sheaf of $O$-modules** on $X$ is a rule assigning to any $\phi\in X(A)$ an $A$-module $M_\phi = M_{A,\phi}$ and to any morphism $f:A\to B$ in $CRing$ an isomorphism $\theta_{f,\phi}:f^*(M_\phi)\to M_{X(f)(\phi)}$ such that for any composable pair $A\stackrel{f}\to B\stackrel{g}\to C$ and any $\phi\in X(A)$ the cocycle condition 
+A **quasicoherent sheaf of $O$-modules** on $X$ is a rule assigning to any $\phi\in X(A)$ an $A$-module $M_\phi = M_{A,\phi}$ and to any morphism $f:A\to B$ in $CRing$ an isomorphism $\theta_{f,\phi}:f^*(M_\phi)\to M_{X(f)(\phi)}$ such that for any [[composable pair]] $A\stackrel{f}\to B\stackrel{g}\to C$ and any $\phi\in X(A)$ the cocycle condition 
 
 $$
 \theta_{g\circ f,\phi}\circ \alpha_{fg} = \theta_{g,X(f)(\phi)}\circ g^*(\theta_{f,\phi})\colon g^* f^*(M_\phi)\to M_{X(g\circ f)(\phi)}
