@@ -61,8 +61,11 @@ This appears as ([Johnstone, prop. 3.1.3](#Johnstone)).
 
 ## Related concepts
 
-* [[topos]], [[indexed category]], [[base topos]]
+* [[topos]], [[base topos]]
 
+* [[indexed category]]
+
+* [[hyperdoctrine]]
 
 ## References
 
