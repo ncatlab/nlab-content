@@ -1,10 +1,36 @@
 
-**[[measure]]**/[[orientation]] [[orientation in generalized cohomology|in generalized cohomology]]
+**[[integration]]**
 
-**[[integration]]** [[fiber integration in generalized cohomology|in generalized cohomology]], [[fiber integration in differential cohomology|in differential cohomology]]
+| analytic integration | cohomological integration |
+|--|--|
+| [[measure]] | [[orientation in generalized cohomology]] |
+| [[Riemann integration|Riemann]]/[[Lebesgue integration]], [[integration of differential forms|of differential forms]] | [[push-forward in generalized cohomology]]/[[fiber integration in differential cohomology|in differential cohomology]] |
+
+### Analytic integration
+
+* [[Riemann integration]], [[Lebesgue integration]]
 
 * [[integration of differential forms]]
 
+* [[integration over supermanifolds]], [[Berezin integral]], [[fermionic path integral]]
+
+* [[Kontsevich integral]], [[Selberg integral]], [[elliptic Selberg integral]]
+
+### Cohomological integration
+
+* [[integration in ordinary differential cohomology]]
+
+* [[integration in differential K-theory]]
+
+* [[Riemann-Roch theorem]]
+
+### Variants
+
+* [[path integral]]
+
+* [[Batalin-Vilkovisky integral]]
+
 * [[Lie integration]]
+
 
 [[!redirects integration theory  - contents]]
