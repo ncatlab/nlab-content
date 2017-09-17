@@ -166,7 +166,7 @@ $Lan_f X : d \mapsto {\underset{\to}{\lim}}((f^{op}/d) \to {\mathcal{C}}^{op} \s
 +-- {: .num_remark}
 ###### Remark
 
-This is a "contravariant" constructin in that a morphism of sites going one way gives a geometric morphisms of toposes going the opposite way. Another condition, the [[covering lifting property]] gives a covariant assignment.
+This is a "contravariant" construction in that a morphism of sites going one way gives a geometric morphisms of toposes going the opposite way. Another condition, the _[[covering lifting property]]_ gives a covariant assignment.
 
 =--
 
