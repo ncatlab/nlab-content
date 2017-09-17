@@ -28,7 +28,7 @@ For bicategories $A$ and $B$, $[A,B]$ denotes the bicategory of [[pseudofunctors
 
 ## Implications
 
-In particular, the Yoneda lemma for bicategories implies that there is a [[Yoneda embedding]] for bicategories $C\to [C^{op},Cat]$ which is [[2-fully-faithful functor|2-fully-faithful]], i.e. an equivalence on hom-categories.  Therefore, $C$ is [[equivalence|equivalent]] to a sub-bicategory of $[C^{op},Cat]$.  Since $Cat$ is a [[strict 2-category]], it follows that $C$ is equivalent to a strict 2-category, which is one form of the [[coherence theorem for bicategories]].  (Conversely, another form of the coherence theorem can be used to prove the Yoneda lemma; see below.)
+In particular, the Yoneda lemma for bicategories implies that there is a [[Yoneda embedding]] for bicategories $C\to [C^{op},Cat]$ which is [[2-fully-faithful functor|2-fully-faithful]], i.e. an equivalence on hom-categories.  Therefore, $C$ is [[equivalence|equivalent]] to a sub-bicategory of $[C^{op},Cat]$.  Since [[Cat]] is a [[strict 2-category]], it follows that $C$ is equivalent to a strict 2-category, which is one form of the [[coherence theorem for bicategories]].  (Conversely, another form of the coherence theorem can be used to prove the Yoneda lemma; see below.)
 
 ## Proof
 
