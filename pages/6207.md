@@ -66,7 +66,7 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 
 ## References
 
-The statement above is Ex. IX.6.4 in 
+The statement above is Ex. IX.6.3 in 
 
 * [[MacLane]], _Categories for the working mathematician - 2nd Edition_
 
