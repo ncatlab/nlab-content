@@ -65,3 +65,6 @@ See also
 [[!redirects Minkowski geometries]]
 [[!redirects Minkowskian geometry]]
 [[!redirects Minkowskian geometries]]
+
+[[!redirects Lorentzian signature]]
+[[!redirects Lorentzian signatures]]
