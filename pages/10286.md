@@ -14,6 +14,8 @@ Given a [[vector space]] $V$, the abelian [[Lie algebra]] on $V$, hence the Lie 
 
 ## Related concepts
 
+* [[translation group]]
+
 * [[Poincaré Lie algebra]] 
 
 * [[super translation Lie algebra]]
