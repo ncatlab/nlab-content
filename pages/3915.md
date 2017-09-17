@@ -79,6 +79,6 @@ Let $M^n$ be a smooth compact $n$-dimensional manifold without boundary, then th
 
 ## Literature
 
-* Victor P. Snaith, _Stable homotopy around the arf-Kervaire invariant_, Birkhauser 2009
+* Victor P. Snaith, _Stable homotopy around the Arf-Kervaire invariant_, Birkhauser 2009
 
 [[!redirects normal bundles]]
