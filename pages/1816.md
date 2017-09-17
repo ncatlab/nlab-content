@@ -26,9 +26,19 @@ The effective topos construction alluded in the above paragraph can be performed
 
 The effective topos is the category obtained from the category of sets by first freely adjoining recursively-indexed coproducts (but being careful to preserve the empty set), and then adding quotients of (pseudo-)equivalence relations. ([RobinsonRosolini](#RobinsonRosolini)).
 
+## Related concepts
+
+* [[realizability]]
+
 ## References
 
-*   J.M.E. [[Martin Hyland|Hyland]], _The effective topos_ in  A. S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
+Reviews include 
+
+
+* {#Vermeeren09} [[Stijn Vermeeren]], section 3 of _Realizability Toposes_, 2009 ([pdf](http://stijnvermeeren.be/download/mathematics/essay.pdf))
+
+
+* J.M.E. [[Martin Hyland|Hyland]], _The effective topos_ in  A. S. Troelstra (ed.)  D. van Dalen (ed.) , _The L.E.J. Brouwer Centenary Symposium_, North-Holland  (1982)  pp. 165--216.
 
 In the context of [[triposes]]:
 
@@ -36,7 +46,7 @@ In the context of [[triposes]]:
 
 Then
 
-* Sori Lee, Jaap van Oosten, _Basic subtoposes of the effective topos_, [arxiv/1201.2571](http://arxiv.org/abs/1201.2571)
+* Sori Lee, [[Jaap van Oosten]], _Basic subtoposes of the effective topos_, [arxiv/1201.2571](http://arxiv.org/abs/1201.2571)
 
 * Edmund Robinson, Giuseppe Rosolini, _Colimit completions and the effective topos_, The Journal of symbolic logic, 55, no 2 (1990) ([JSTOR](http://www.jstor.org/discover/10.2307/2274658?uid=3738736&uid=2129&uid=2134&uid=2&uid=70&uid=4&sid=47698789906927))
  {#RobinsonRosolini}
