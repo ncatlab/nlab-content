@@ -218,6 +218,16 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 ## Related concepts
 
+* [[simplicial object]]
+
+  * **simplicial set**
+
+  * [[simplicial object in an (∞,1)-category]]
+
+* [[semi-simplicial object]]
+
+  * [[semisimplicial set]]
+
 * [[simplicial homotopy theory]]
 
 * [[simplicial group]], [[reduced simplicial set]]
@@ -226,7 +236,6 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 * [[globular set]], [[cubical set]], [[cellular set]], [[dendroidal set]]
 
-* [[semi-simplicial set]]
 
 
 ## References
