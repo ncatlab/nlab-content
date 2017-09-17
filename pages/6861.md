@@ -13,6 +13,8 @@
 
 * [[higher dimensional WZW theory]]
 
+  * [[4d WZW theory]]
+
 * [[WZW-type superstring field theory]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Wess-Zumino-Witten+theory+-+contents)</div>
