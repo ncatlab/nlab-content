@@ -27,7 +27,7 @@ Let $k$ be a commutative ring.
 
 Write $Ch_\bullet(k)$ for the [[category of chain complexes|category of unbounded chain complexes]] of $k$-[[module]]s.
 
-+-- {: .un_defn}
++-- {: .un_defn #SigmaSplitOperad}
 ###### Definition
 
 An [[operad]] $P$ over $Ch_\bullet(k)$ is called **$\Sigma$-split** if (...)
@@ -45,9 +45,21 @@ An [[operad]] $P$ over $Ch_\bullet(k)$ is called **$\Sigma$-split** if (...)
 
 This is ([Hinich, example 4.2.5](#Hinich)).
 
++-- {: .un_prop #ModelStructure}
+###### Proposition
+
+Let $P$ be a $\Sigma$-[split operad](#SigmaSplitOperad) in $Ch_\bullet(k)$. Then the category $Alg_{Ch_\bullet(k)}(P)$ of [[algebras over an operad|algebras over the operad]] admits a [[model category]] structure whose weak equivalences are the [[quasi-isomorphism]]s and whose fibrations are the degreewise surjections in $Ch_\bulle(k)$.
+
+=--
+
+This appears as ([Hinich, theorem 4.1.1](#Hnich)).
+
+
 ## Properties
 
-### Simplicial enrichment
+### Simplicial enrichment {#SimplicialEnrichment}
+
+We discuss how the [above model structure](#ModelStructure) on $Alg_{Ch_\bullet(k)}(P)$ is enhanced to a [[simplicial model category]] structure.
 
 +-- {: .un_defn}
 ###### Definition
@@ -86,7 +98,7 @@ $$
 
 =--
 
-+-- {: .un_defn}
++-- {: .un_defn #SimplicialEnrichment}
 ###### Definition
 
 For $P$ a dg-operad as above, define [[sSet]]-[[hom-object]]s between objects $A,B \in Alg(P)$ by
@@ -102,7 +114,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-With the model structure and the simplicial hom-objects as defined above, $Alg_P$ becomes a [[simplicial model category]].
+With the [above model structure](#ModelStructure) and the [above simplicial enrichment](#SimplicialEnrichment), $Alg_{Ch_\bullet(K)}(P)$ becomes a [[simplicial model category]].
 
 =--
 
@@ -110,17 +122,19 @@ This is ([Hinich, lemma 4.8.4](#Hinich)).
 
 ## Related concepts
 
+* [[model structure on dg-operads]]
+
 * **model structure on dg-algebras over an operad**
 
-* [[model structure on dg-algebras]]
+  * [[model structure on dg-algebras]]
 
-* [[model structure on dg-categories]]
+  * [[model structure on dg-categories]]
 
 ## References
 
 The model structure on dg-algebras over an operad is discussed in
 
-* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453))
+* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 {#Hinich}
 
 
