@@ -1,1 +1,2 @@
+[[!redirects example of compact self-adjoint operators]]
 [[!redirects example of compact self-adjoint opertors]]
