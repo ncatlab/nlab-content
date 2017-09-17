@@ -1,4 +1,4 @@
-The Chu construction is a method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of Michael Barr, who gave the construction in his master's thesis at McGill University. 
+The Chu construction is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of Michael Barr, who gave the construction in his master's thesis at McGill University. It has been extensively developed by [[Vaughan Pratt]] for its potential applications in Theoretical Computer Science.
 
 In outline, given a closed symmetric monoidal category $C$ with [[pullback]]s and an object $d$ of $C$, there is a star-autonomous category $Chu(C, d)$ and a strong symmetric monoidal functor 
 
@@ -92,7 +92,7 @@ $$lim_i (b_i \to d^{a_i}) \cong lim_i b_i \to d^{colim_i a_i}$$
 and the formula for limits is obtained by dualizing the formula for colimits in $Chu(C, d)$.  
 
 
-## Chu spaces ## 
+## Chu spaces (General case)##
 
 While the Chu construction is worthy of exploration for many types of symmetric monoidal categories $C$, a great deal of attention has been focused just on the particular case $Chu(Set, 2)$ (or $Chu(Set,TV)$, where $TV$ is the set of [[truth value]]s, to be [[constructive mathematics|constructive]]), called the category of **Chu spaces**, and on relatives like $Chu(E, \Omega)$ where $E$ is a [[topos]] and $\Omega$ its [[subobject classifier]]. The reason is that a great many concrete categories of interest are fully embedded in Chu spaces. Moreover, the 2-element set $TV$ carries a panoply of [[ambimorphic object|ambimorphic]] (formerly, schizophrenic) object structures which induce concrete dualities between these categories, and all of these dualities are embedded in (i.e., are restrictions of) the one overarching duality that obtains on Chu spaces. 
 
@@ -155,6 +155,10 @@ Now that I go to write [[Boolean rig]], I\'m not so sure.  I just know that $Chu
 
 Right, I agree. The Chu construction applied to a complete Heyting algebra is merely a $*$-autonomous quantale, not a $*$-autonomous frame (which would be a complete Boolean algebra), as you noted at [[measurable space]]. ---Todd
 =--
+
+## Chu spaces (Simple examples)##
+
+One of the simplest occurrences of Chu space constructions, and the one explored in Pratt's notes (see below), leads to examples that although extremely simple have a well developed theory with connections to areas of logic and to [[formal concept analysis]]. This will be explored in a separate entry, [[Chu spaces, simple examples]].
 
 ## References ##
 
