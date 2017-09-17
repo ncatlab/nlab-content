@@ -75,6 +75,15 @@ $$
   }
 $$
 
+## Examples
+
+* [[centralizer subgroup]]
+
+* [[normalizer subgroup]]
+
+* [[stabilizer subgroup]]
+
+
 ## Related concepts
 
 * [[Klein geometry]], [[Cartan geometry]]
