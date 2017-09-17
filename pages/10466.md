@@ -44,7 +44,7 @@ Here $Orb$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categoric
 
 We follow ([Rezk 14](#Rezk14)). Beware that the terminology there differs slightly but crucially in some places from ([Henriques-Gepner 07](#HenriquesGepner07)). Whatever terminology one uses, the following are the key definitions.
 
-The following is the _global indexing category_.
+The following is the _[[global equivariant indexing category]]_.
 
 +-- {: .num_defn #GlobalIndexingCategory}
 ###### Definition
@@ -276,6 +276,8 @@ The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definiti
 ## Related concepts
 
 * [[global equivariant stable homotopy theory]]
+
+[[!include equivariant homotopy theory -- table]]
 
 [[!include homotopy type representation theory -- table]]
 
