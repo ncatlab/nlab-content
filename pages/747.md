@@ -793,6 +793,7 @@ In total this shows that the localization at the [[coverage]] produces the [[top
 
 
 ### For values in strict and abelian $\infty$-groupoids   
+
   {#DescentForStrictInf}
 
 
@@ -1007,7 +1008,7 @@ simplicial sets.
 
 =--
 
-This is true for instance for the injective Jardine model structure when $C$ has [[point of a topos|enough points]].
+This is true for instance for the injective Jardine model structure when $C$ has [[point of a topos|enough points]]. (e.g. recalled on p. 12 [here](http://www.math.uiuc.edu/K-theory/0175/)).
 
 +-- {: .proof}
 ###### Proof
