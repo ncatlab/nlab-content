@@ -237,7 +237,7 @@ $$\array{
 
 and $\overline{Q}:(\Omega_i,\mathfrak{A}_i,P_i)\to(\Omega_j,\mathfrak{A}_j,P_j)$ where $Q:\Omega_i\times\mathfrak{A}_j\to [0,1]$ is the transition probability for the passage from state $i$ to state $j$.
 
-## Martingale
+### Martingale
 
 An adapted stochastic process with the natural filtration in discrete time is called a *martingale* if all $E[X_i]\lt \infty$ and $\forall i\le j, E[X_j|\mathfrak{A}_i]=X_i$.
 
@@ -254,3 +254,7 @@ $$\array{
 [[martingale]]
 
 (...)
+
+## Chapman-Kolmogorow Equation
+
+For a Markow process the Chapman-Kolmogorow equation encodes the statement that the transition probabilities of the process form a semi-group.
