@@ -42,6 +42,6 @@ Any [[extensive category]] is distributive, but the converse is not true.
 
 ## References 
 
-* Carboni, Aurelio and Lack, Stephen and Walters, R. F. C., _Introduction to extensive and distributive categories_, JPAA 84 no. 2
+* [[Aurelio Carboni]],  and [[Stephen Lack]],  and [[Robert F. C. Walters]], _Introduction to extensive and distributive categories_,  Journal of Pure and Applied Algebra 84 (1993) 145-158, 
 
-* Stephen Lack, _Non-canonical isomorphisms_.  [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
+* [[Stephen Lack]], _Non-canonical isomorphisms_.  [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
