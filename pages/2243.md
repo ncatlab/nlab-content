@@ -18,6 +18,8 @@
 
 * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]]
 
+* [[∞-Lie algebra cohomology]]
+
 * [[groupoid cohomology]], [[nonabelian groupoid cohomology]]
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
