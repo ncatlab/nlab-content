@@ -1,3 +1,4 @@
+
 # The separation axioms
 * tic
 {: toc}
@@ -116,7 +117,7 @@ Other terms are also in use, principally 'Tychonoff' for [[Tychonoff space|compl
 ### Other axioms
 
 There are other axioms sometimes included among the separation axioms that don\'t fit the preceding pattern; but like the others, they all hold of a metric space:
-*  [[sober space|sober]],
+*  [[sober space|sober]] and having enough points,
 *  [[semiregular space|semiregular]],
 *  fully normal and fully $T_4$, which are related to [[paracompact space|paracompactness]].
 
