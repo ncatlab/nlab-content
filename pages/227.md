@@ -125,6 +125,10 @@ Both for a discussion for under-over and also for this difference between $K$-al
 
 A dual notion to an $A$-ring is an $A$-[[coring]]. 
 
+The structure of an $A\otimes A^{op}$-ring $(R,\mu_R,\eta)$ is determined by
+the structure of $A$ as a ring, together with the two natural homomorphisms
+of rings
+$s = \eta(-\otimes 1_A):A\to R$ and $t=\eta(1_A\otimes -):A^{op}\to R$ which have commuting images ($s(a)t(a')=t(a')s(a)$, for all $a,a'\in A$). 
 
 ### Higher rings
 
