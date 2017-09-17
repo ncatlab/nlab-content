@@ -167,6 +167,8 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 
   * [[over-(∞,1)-topos]]
 
+* [[opposite model structure]]
+
 
 ## References ##
 
