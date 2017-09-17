@@ -1,8 +1,18 @@
-<div class="rightHandSide toc">
-[[!include type theory - contents]]
-***
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
 
 
 
