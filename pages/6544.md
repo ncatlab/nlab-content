@@ -17,7 +17,7 @@
 
 The notion of _recursion_ is the concept of defining [[functions]] and other mathematical objects by giving an _initial value_ or _constructor_ together with further rules for how to obtain all other values by successively applying to that further operations.
 
-Traditionally this is typically considered for functions on the [[natural numbers]], but the general concept applies to considerably more general domains.
+Traditionally this is typically considered for functions on the [[natural numbers]], but the general concept applies to considerably more general domains. In the case of natural numbers there is a rich theory regarding the functions which can or cannot be recursively defined: this is [[computability theory]] and has deep connections with the logic of [[Peano arithmetic]].
 
 Recursion is formalized in [[type theory]] by the notion of _[[inductive type]]_ and, equivalently, in [[category theory]] by the notion of _[[initial algebra over an endofunctor]]_: for $F$ is an [[endofunctor]], a [[morphism]] of the form $F(X) \to X$ determines a collection of _constructors_ and the _induction principle_ is the statement that there is a (unique) morphism $f : A \to X$ from the [[initial object|initial]] such structure $F(A) \to A$. This $f$ is the corresponding _recursively defined function_.
 
