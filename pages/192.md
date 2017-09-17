@@ -67,7 +67,7 @@ $$
   \mathcal{P} \;\colon\; Set \to Bool^{op}
 $$
 
-constitutes an [[equivalence of categories]] between $Set$ and the [[opposite category]] of that of [[complete atomic Boolean algebras]].
+is a faithful functor which in its [(eso+full, faithful) factorization](http://ncatlab.org/nlab/show/%28eso%2Bfull%2C+faithful%29+factorization+system) induces an [[equivalence of categories]] between $Set$ and the [[opposite category]] of that of [[complete atomic Boolean algebras]].
 
 =--
 
