@@ -156,13 +156,25 @@ Notice that by the relation (see [here](equivariant+elliptic+cohomology#Relation
 ### Integrality and modularity
  {#IntegralityAndModularity}
 
-The Witten genus a priori has [[coefficients]] the [[power series]] ring $\mathbb{Q}[ [q] ]$ over the [[rational numbers]].
+A priori, the Witten genus has [[coefficients]] the [[power series]] ring $\mathbb{Q}[ [q] ]$ over the [[rational numbers]]. But under suitable conditions ([[quantum anomaly cancellation]]) it takes values in more interesting subrings.
 
-But in fact, with suitable normalization, it always takes values in the subring $MF_\bullet^{\mathbb{Q}}(\Gamma_0(2)) \hookrightarrow \mathbb{Q}[ [q] ]$ of [[modular forms]] for $\Gamma_0(2)\subset SL_2(\mathbb{Z})$ with rational coefficients ([Zagier 86, item d) on page 2](#Zagier86) based on [Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88)), but see also ([Zagier 86, page 6](#Zagier86)).
 
-On manifolds with [[spin structure]] the Witten genus has integral coeffcients, hence in the ring $\mathbb{Z}[ [ q ] ]$ ([Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88), [Landweber 88](#Landweber88)), see also ([Kreck-Stolz 93](#KreckStolz93), [Hovey 91](#Hovey91)). 
+#### For the type II superstring
+ {#ModularityForTypeIISuperstring}
 
-On manifolds with rational [[string structure]] (meaning spin structure and the [[first fractional Pontryagin class]]) is at most torsion, then the Witten genus takes values in actual [[modular forms]] $MF_\bullet$ ([Zagier 86, page 6](#Zagier86)).
+The genus obtained from the [[type II superstring]] in the NS-R sector is a [[modular form]] for the [[congruence subgroup]] $\Gamma_2(2)$. ([Witten 87a, below (13)](Witten87a)) See at _[congruence subgroup -- Relation to spin structures](level+structure+on+an+elliptic+curve#RelationToSpinStructures)_ for more. 
+
+Hence, with suitable normalization, the universal Witten-Ochanine genus takes values in the subring $MF_\bullet^{\mathbb{Q}}(\Gamma_0(2)) \hookrightarrow \mathbb{Q}[ [q] ]$ of [[modular forms]] for $\Gamma_0(2)\subset SL_2(\mathbb{Z})$ with rational coefficients ([Zagier 86, item d) on page 2](#Zagier86) based on [Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88)).
+
+#### For the heterotic superstring
+ {#ModularityForHeteroticString}
+
+
+On manifolds with [[spin structure]] the heterotic string Witten genus has integral coeffcients, hence in the ring $\mathbb{Z}[ [ q ] ]$ ([Chudnovsky-Chudnovsky 88](#ChudnovskyChudnovsky88), [Landweber 88](#Landweber88)), see also ([Kreck-Stolz 93](#KreckStolz93), [Hovey 91](#Hovey91)). 
+
+On manifolds with rational [[string structure]] (meaning spin structure and the [[first fractional Pontryagin class]] is at most [[torsion subgroup|torsion]]), then the Witten genus takes values in actual [[modular forms]] $MF_\bullet$ ([Zagier 86, page 6](#Zagier86)).
+
+
 
 On manifolds with actual [[string structure]], finally, the Witten genus factors through [[topological modular forms]] ([Hopkins 94](#Hopkins94), [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk)).
 
