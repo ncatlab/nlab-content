@@ -36,6 +36,22 @@ As such this appears for instance in the discussion at
 
 ### Multiplicative group
 
+Write 
+
+$$
+  \mathbb{G}_m \in \mathbf{B}
+$$
+
+for the sheaf which sends each ring to its [[∞-group of units]]
+
+$$
+  \mathbb{G}_m \;\colon\; R \mapsto R^\times
+  \,.
+$$
+
+This is the canonical group object in $\mathbf{B}$.
+
+
 For [[E-∞ rings]] over the [[complex numbers]], hence [[E-∞ algebras]] over $\mathbb{C}$, the [[multiplicative group]]
 
 $$
@@ -71,4 +87,3 @@ where on the right we have the [[∞-groupoid]] underlying the [[abelian ∞-gro
 
 [[!redirects smooth E∞-groupoid]]
 [[!redirects smooth E∞-groupoids]]
-
