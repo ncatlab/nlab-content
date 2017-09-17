@@ -140,6 +140,15 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
 
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
+## References
+
+Section C1.5 and C3.3 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .
+
+A variant is in
+
+* [[Marta Bunge]], Funk, _Quasi locally connected toposes_ ([pdf](http://www.tac.mta.ca/tac/volumes/18/8/18-08.pdf))
 
 
 [[!redirects locally connected topoes]]
