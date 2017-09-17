@@ -1,4 +1,38 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+There are several [[cohomology theories]] that are being called _Morava E-theory_ at times:
+
+* $B P\langle n\rangle$, the truncated [[Brown-Peterson spectrum]];
+
+* $E(n)$, the [[Johnson-Wiles spectrum]], a localization of B P \langle n\rangle at $v_n$;
+
+* $\widehat{E(n)}$ the complete Johnson-Wiles spectrum
+
+* $E(k,\Gamma)$ the [[Lubin-Tate spectrum]] associated to the universal deformation of a [[formal group law]] $\Gamma$ over $k$.
+
 ## Related concepts
 
 * [[Morava K-theory]]
@@ -11,3 +45,5 @@ Not to be confused with [[C*-algebra]]-[[E-theory]].
 
 * [[Jacob Lurie]], _Morava E-theory and Morava K-theory_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
 
+* [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
+ {#SatiWesterland11}
