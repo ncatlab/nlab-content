@@ -98,6 +98,8 @@ The twisted theory itself is then defined to be given by the [[factorization alg
 
 * [[S-duality]], [[geometric Langlands duality]]
 
+* [[chiral ring]], [[quantum cohomology]]
+
 ## References
 
 The idea of topological twisting of [[supersymmetry|supersymmetric]] quantum field theory goes back to 
