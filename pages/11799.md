@@ -1,0 +1,21 @@
+
+
+A  _biholomorphic function_ is a [[holomorphic function]] which is a [[bijection]] and whose set-theoretic [[inverse]] is also holomorphic.
+
+[[!redirects biholomorphic functions]]
+
+[[!redirects biholomorphic map]]
+[[!redirects biholomorphic maps]]
+
+[[!redirects biholomorphism]]
+[[!redirects biholomorphisms]]
+
+[[!redirects bi-holomorphic function]]
+[[!redirects bi-holomorphic functions]]
+
+[[!redirects bi-holomorphic map]]
+[[!redirects bi-holomorphic maps]]
+
+[[!redirects bi-holomorphism]]
+[[!redirects bi-holomorphisms]]
+
