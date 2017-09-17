@@ -1,0 +1,5 @@
+
+
+* [webpage](http://wwwmath.uni-muenster.de/u/schneider/)
+
+category: people
