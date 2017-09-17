@@ -2203,7 +2203,7 @@ is reviewed and discussed in detail in
 =--
 
 
-###### Integration to $\mathbf{B}^n \mathb{R}$ {#IntegrationOfBnR}
+###### Integration to line $n$-groups {#IntegrationOfBnR}
 
 +-- {: .un_def}
 ###### Definition
@@ -2264,7 +2264,9 @@ From this it follows that also every closed $n$-form on the $k$-sphere for $k \g
 
 
 
-##### Integration of $\infty$-Lie algebra cocycles
+##### Integration of $\infty$-Lie algebra cocycles {#IntegrationOfCocycles}
+
+We discuss how under [[Lie integration]] a [[cocycle]] in [[∞-Lie algebra cohomology]] integrates to a cocycle on $\infty$-Lie groupoids.
 
 For $\mathfrak{g}$ an [[∞-Lie algebra]], an $n$-cocycle on $\mathfrak{g}$ (with "values in the trivial module $\mathbb{R}$") is a morphism
 
@@ -2325,7 +2327,7 @@ $$
   }
 $$
 
-###### The String 3-cocycle
+###### Integration of the String 3-cocycle
 
 For $\mathfrak{g}$ a semisimple Lie algebra with binary [[invariant polynomial]] $\langle -,-\rangle$, we have a canonical 3-cocycle
 
@@ -2852,12 +2854,134 @@ Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[con
 
 
 
-##### $\infty$-Chern-Weil homomorphism
+##### $\infty$-Chern-Weil homomorphism {#ChernWeilHomomorphism}
 
-The ordinary [[Chern-Weil homomorphism]] constructs [[curvature characteristic form]]s for $G$-[[principal bundle]]s from [[invariant polynomial]]s of [[Lie algebra]]s. The notion of [[invariant polynomial]] generalizes straightforwardly from Lie algebras to [[L-∞-algebra|∞-Lie algebra]]s. We discuss a generalization of the Chern-Weil homomorphism for $\infty$-Lie groups in the image of the [[Lie integration]] map applied to an $\infty$-Lie algebra $\mathfrak{g}$.
+The ordinary [[Chern-Weil homomorphism]] constructs [[curvature characteristic form]]s for $G$-[[principal bundle]]s from [[invariant polynomial]]s of [[Lie algebra]]s. The notion of [[invariant polynomial]] generalizes straightforwardly from Lie algebras to [[∞-Lie algebra]]s. We discuss a generalization of the Chern-Weil homomorphism for $\infty$-Lie groups in the image of the [[Lie integration]] map applied to an $\infty$-Lie algebra $\mathfrak{g}$.
+
+We discuss how to construct for each $\infty$-Lie algebra $\mathfrak{g}$ with [[Lie integration]] $\mathbf{B}G := \tau_n \exp(\mathfrak{g})$ from each [[infinity-Lie algebra cohomology|∞-Lie n-cocycle]] $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ in transgression with an [[invariant polynomial]] $P$ a morphism
+
+$$
+  P : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}/K
+$$
+
+that represents a class in the intrinsic de Rham cohomology 
+
+$$
+  P \in \mathbf{H}_{dR}(\mathbf{B}G, \mathbf{B}^n \mathbb{R})
+  \,.
+$$
 
 
 
++-- {: .un_defn}
+###### Definition
+**(differential resolution)**
+
+For $\mathfrak{g}$ an [[∞-Lie algebra]] with [[Lie integration]] $\mathbf{B}G := \tau_n \exp(\mathfrak{g}) \in [CartSp^{op}, sSet]$, write $\mathbf{B}_{diff}G \in [CartSp^{op}, sSet]$ for the $n$-truncation of the [[simplicial presheaf]] given by
+
+$$
+  U,n \mapsto
+  \left\{
+    \array{
+       C^\infty(U) \otimes' \Omega^\bullet(\Delta^n_{diff}) 
+       &\leftarrow&
+       CE(\mathfrak{g})
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet(U \times \Delta^n_{Diff})
+       &\leftarrow&
+       W(\mathfrak{g})
+    }
+  \right\} 
+  \,.
+$$ 
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The evident projection
+
+$$
+  \mathbf{B}G \stackrel{\simeq}{\leftarrow}
+  \mathbf{B}_{diff} G
+$$
+
+is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The projection without the truncation is a weak equivalence
+by the [[free construction|freeness]] of the [[Weil algebra]] $W(\mathfrak{g})$: morphisms of [[dg-algebra]]s $\Omega^\bullet(U \times \Delta^n) \leftarrow W(\mathfrak{g})$ are fixed by and uniquely corespond to their underlying morphisms of graded vector spaces $\Omega^(U \times \Delta^n) \leftarrow \wedge^1 \mathfrak{g}^*$. This implies that every diagram
+
+$$
+  \array{
+    \partial\Delta[n] &\to& \mathbf{B}_{diff}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] &\to& \mathbf{B}G
+  }
+$$
+
+has a lift over each $U \in CartSp$, hence that the morphism on the right is over each $U$ an aacyclic  [[Kan fibration]].
+
+=--
+
+
+
+Let $\mu : \mathfrak{g} \to b^{n-1} \mathbb{R}$ be an [[infinity-Lie algeba cohomology|∞-Lie algebra cocycle]] which is in transgression with an [[invariant polynomial]] $P$, where the transgression is induced from a Chern-Simons element $cs_P$. This data is a diagram
+
+$$
+  \array{
+    \mathfrak{g} &\stackrel{\mu}{\to}& b^{n-1}\mathbb{R}
+    &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    inn(\mathfrak{g}) &\stackrel{(cs_P, P)}{\to}& 
+    inn(b^{n-1}\mathbb{R})
+    &\stackrel{P}{\to}&
+    b^{n}\mathbb{R}
+  }
+$$
+
+of $\infty$-Lie algebras, or dually a [[dg-algebra]] diagram
+
+$$
+  \array{
+    CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}&
+    CE(b^{n-1}\mathbb{R})
+    &\leftarrow&
+    0
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    W(\mathfrak{g}) &\stackrel{(cs_P,P)}{\leftarrow}&
+    W(b^{n-1}\mathbb{R})
+    &\leftarrow&
+    CE(b^n \mathbb{R})
+  }
+  \,.
+$$
+
+This integrates to a moprhism 
+
+$$
+    \hat \mathbf{B}_{diff}G \stackrel{\int \mu}{\to}
+    \mathbf{B}_{diff}^{n} \mathbb{R}/K
+    \mathbf{\flat}_{dR} \mathbf{B}^{n+1}/K
+$$
+
+where $\hat \mathbf{B}G \stackrel{\simeq}{\leftarrow} \mathbf{B}_{diff}G$
+and $\mathbf{B}^n \mathbb{R}/K 
+  \stackrel{\simeq}{\leftarrow} \mathbf{B}^n_{diff} \mathbb{R}/K$
+are the [[resolution]]s.
 
 
 
@@ -3463,7 +3587,12 @@ The proposal for descent objects for strict $\infty$-groupoid-valued presheaves 
 
 The relation to the general descent condition is discussed in
 
-* [[Dominic Verity]], _[Relating descent notions](Verity on descent for strict omega-groupoid valued presheaves)_ {#Verity}
+* [[Dominic Verity]], _[[Verity on descent for strict omega-groupoid valued presheaves|Relating descent notions]]_ {#Verity}
+
+
+
+
+
 
 [[!redirects Lie infinity-groupoids]]
 [[!redirects Lie-infinity-groupoid]]
