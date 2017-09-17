@@ -32,6 +32,8 @@ Traditionally fibration sequences have been considered in the context of [[homot
 ## Definition
  {#Definition}
 
+### In higher category theory
+
 Let $C$ be an [[(∞,1)-category]] with small [[limits]] and consider [[pointed objects]] of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken with respect to these points.
 
 Notice that in the case that $C$ happens to be a [[stable (∞,1)-category]] for which ${*} = 0$ all objects are canonically pointed and the notions of left- and right-exact fibration sequences coincide.
@@ -54,7 +56,18 @@ $$
   \,.
 $$
 
-A formalization of fiber sequences in [[homotopy type theory]] is in the [[Coq]] code 
+### In homotopy type theory
+
+In [[homotopy type theory]] the homotopy fiber of a function term $f : A \to B$ over a function term $pt_B : * \to B$ is the type
+
+$$
+  \sum_{a : A} (f(a) = pt_B)
+  \,,
+$$
+
+hence the [[dependent sum]] over $A$ of the [[identity type]] on $B$ with $f(a)$ and $pt_B$ [[substitution|substituted]]. (A special case of the discussion at [[homotopy pullback]])
+
+For the corresponding [[Coq]] code  see
 
 * [[Vladimir Voevodsky]], _[Foundations/Generalities/uuo.v](https://github.com/vladimirias/Foundations/blob/master/Generalities/uu0.v)_
 
