@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents
@@ -20,7 +31,15 @@ For a useful exposition of this see
 * A. J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
 
 
-## Exposition entries
+
+
+## Related concepts
+
+* [[quantum sheaf cohomology]]
+
+## References
+
+### Expositions
 
 here are some seminar notes:
 
@@ -30,8 +49,7 @@ And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
 * [[A Survey of Elliptic Cohomology - elliptic curves]]. 
 
-
-## References
+### General
 
 * M. Kontsevich, Yu. Manin, _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164 (1994), no. 3, 525--562 ([euclid](http://projecteuclid.org/euclid.cmp/1104270948)).
 
