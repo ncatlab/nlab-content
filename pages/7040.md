@@ -30,21 +30,22 @@ Solovay proved that dream mathematics is [[consistent theory|consistent]] if the
 
 Besides the axioms themselves, other nice properties hold in dream mathematics.  Examples include:
 
-*  Every (total) [[linear function]] from a [[Fréchet space]] to any [[topological vector space]] is [[continuous map|continuous]].
+*  Every (total) [[linear function]] from a [[Fréchet space]] to any [[topological vector space]] is [[continuous map|continuous]] (so every linear mapping between [[Banach spaces]] is [[bounded map|bounded]]).
 
-*  The [[dual vector space|dual]] of the [[Lebesgue space]] $L^\infty$ is $L^1$ (so in particular these two spaces are [[reflexive Banach space|reflexive]]).
+*  On a [[localizable measure|localisable measure space]], the [[dual vector space|dual]] of the [[Lebesgue space]] $L^\infty$ is $L^1$ (so these two spaces are [[reflexive Banach space|reflexive]]).
 
 
 ## References
 
 * Wikipedia (English); [Solovay model](https://en.wikipedia.org/wiki/Solovay_model).
 
-* [[HAF]]; end of Chapter 27.
+* _[[HAF]]_; end of Chapter 27.
 
 
 [[!redirects dream mathematics]]
 [[!redirects dream analysis]]
 [[!redirects dream universe]]
+[[!redirects dream universes]]
 
 [[!redirects Solovay model]]
 [[!redirects Solovay universe]]
