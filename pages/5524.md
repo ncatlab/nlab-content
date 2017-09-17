@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 =--
 =--
 
@@ -34,5 +38,18 @@ Therefore we call an object in $SynthDiff \infty Grpd$ a **synthetic differentia
 By restriction along the morphism of sites [[CartSp]] $\to$ [[ThCartSp]] every synthetic differential $\infty$-groupoid has an underlying [[smooth ∞-groupoid]].
 
 
+## Properites
+
+The [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 0} SynthDiff\infty Grpd\hookrightarrow SynthDiff \infty Grpd$ of 0-[[truncated]] objects is the [[Cahiers topos]].
+
+
+## Structures
+
+We discuss what some of the general abstract <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">Structures in a cohesvive (∞,1)-topos</a> look like in the model $SynthDiff \infty Grpd$.
+
+
+(...)
 
 [[!redirects synthetic differential ∞-groupoid]]
+
+[[!redirects SynthDiff∞Grpd]]
