@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[model (in theoretical physics)]] for [[gravity]] coupled to [[electromagnetism]].
+
+## Related concepts
+
+* [[Einstein-Yang-Mills theory]]
+
+## References
+
+* Wikipedia, _[Maxwell equations in curved spacetime](http://en.wikipedia.org/wiki/Maxwell%27s_equations_in_curved_spacetime)_
+
