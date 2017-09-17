@@ -37,11 +37,19 @@ the nPOV asserts that
 
 ## Some summary statements
 
-Practitioners of category theory have often attempted to express the striking power of category theory, sometimes through aphorism, sometimes through metaphor. Early on, Peter Freyd wrote, 
+Practitioners of category theory have often attempted to express the striking power of category theory (or general conceptual methods), sometimes through aphorism, sometimes through metaphor. Early on, Peter Freyd wrote 
 
 > Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial.
 
+This can be taken to mean that one thing category theory does is help make the softer bits seem utterly natural and obvious, so as to quickly get to the heart of the matter, isolating the hard nuggets, which one may then attack with abandon. This is an invaluable service category theory performs for mathematics; therefore, category theory is plain good pragmatics. 
 
+However, it is also possible to take it a step beyond the pragmatic attitude, and see category theory (and now higher category theory) as exemplifying a style for doing even hard mathematics, as in the style for which Grothendieck is renowned. Paraphrasing from Colin McLarty's [excellent essay](http://www.math.jussieu.fr/~leila/grothendieckcircle/mclarty1.pdf), let us regard the aforementioned pragmatic attitude as leading up to the _hammer-and-chisel principle_: if you think of a theorem to be proved as a nut to be opened, so as to reach "the nourishing flesh protected by the shell" (Grothendieck), then one thing to do is "put the cutting edge of the chisel against the shell and strike hard. If needed, begin again at many different points until the shell cracks -- and you are satisfied." Grothendieck points to Serre as a master of this technique. He then says: 
+
+> I can illustrate the second approach with the same image of a nut to be opened. The first analogy which came to my mind is of immersing the nut in some softening liquid, and why not simply water? From time to time you rub so the liquid penetrates better, and otherwise you let time pass. The shell becomes more flexible through weeks and months -- when the time is ripe, hand pressure is enough, the shell opens like a perfectly ripened avocado! 
+
+> A different image came to me a few weeks ago. The unknown thing to be known appeared to me as some stretch of earth or hard marl, resisting penetration... the sea advances insensibly in silence, nothing seems to happen, nothing moves, the water is so far off you hardly hear it... yet it finally surrounds the resistant substance. (Translated from the French by McLarty)
+
+This arresting metaphor of "la mer qui monte", which over time changes the very form of the resistant substance, is very much in the style of Grothendieck himself. Again following McLarty, he quotes Deligne as saying that a typical Grothendieck proof consists of a long series of trivial steps where "nothing seems to happen, and yet at the end a highly non-trivial theorem is there." 
 
 ## Examples
 
