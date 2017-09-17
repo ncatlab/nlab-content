@@ -26,7 +26,7 @@ There, a _Landau-Ginzburg model_ (LG-model) is a 2-[[dimension|dimensional]] [[s
 
 $$
   S_{LB} : (\phi : \Sigma \to X) \mapsto
-  \int_\Sigma \left( \vert (\nabla \Phi \vert^2 + \vert (\nabla W)(\phi) \vert^2 
+  \int_\Sigma \left( \vert \nabla \Phi \vert^2 + \vert (\nabla W)(\phi) \vert^2 
   + fermionic terms \right) d \mu
   \,,
 $$
