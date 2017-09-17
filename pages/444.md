@@ -44,7 +44,7 @@ $$
 
 This [[simplicial set]] is called the _nerve_ of $A$ (with respect to the chosen [[geometric realization|realization]] of the standard simplicies in $C$).
 
-There various obvious generalizations of this procedure, some of which described below.
+There are various obvious generalizations of this procedure, some of which are described below.
 
 ## Definition ##
 
