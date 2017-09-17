@@ -71,6 +71,7 @@ There are now uses of models of $n$-types in areas of homological algebra.
 [[Urs Schreiber]]: I had meanwhile had a long private discussion with Ronnie about this by private email. This showed that more discussion here about the notion of fundamental $\infty$-groupoids in homotopy theory should eventually be given here.
 =--
 
+* At least for locally contractible spaces, the fundamental ∞-groupoid of $X$ can be identified with the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of the [[(∞,1)-topos]] $Sh(X)$.  This perspective suggests that when $X$ is not locally contractible, a better replacement for its fundamental $\infty$-groupoid (as usually defined) is the [[shape of an (∞,1)-topos|shape]] of $Sh(X)$.
 
 ## References
 
