@@ -296,7 +296,122 @@ From this the claim follows by the [above proposition](#FundGroupoidOfParacompac
 
 ### Path $\infty$-groupoid
 
+We discuss concrete presentations of the canonical path $\infty$-groupoid functor 
+$\mathbf{\Pi} : ETop\infty Grpd \to ETop\infty Grpd$ in terms of actual paths.
+
+By the [above discussion](#GeometricHomotopy) a fairly explicit presentaiton of $\Pi(X)$ is given by forming Dugger's cofibrant replacement $Q X$ and then contracting all representables to points, equivalently forming degreewise the coproduct $\lim\limits_\to Q X$. In terms of this presentation the _constant path inclusion_ morphism $X \to \mathbf{\Pi}(X)$ (the [[unit of an adjunction|unit]] of the $(\Pi \dashv Disc)$-adjunction) is presented by the canonical projection $Q X \to \lim\limits_\to Q X$ that degreewise projects every representable to the point. One deficiency of this presentation is that it is far from being a cofibration. However, in order to compute the de Rham space object $\mathbf{\Pi}_{dR} X := \mathbf{\Pi}(X) \coprod_X *$ it is useful to have the _constant path inclusion morphism_ be prsented by a cofibration.
+We now consider a different presentation of $\mthbf{\Pi}(X)$ in terms of actual paths that does achieve this and which does live up to the term _constant path inclusion_ .
+
+
++-- {: .un_def }
+###### Definition
+
+For $V \in $ [[CartSp]] write $\mathbf{Sing} U \in [CartSp^{op}, sSet]$ for the [[simplicial presheaf]] given by
+
+$$
+  \mathbf{Sing}V : (U, [n]) \mapsto  Hom_{Top}(U \times \Delta^n, V)
+  \,,
+$$
+
+where $\Delta^n \in Top_1$ is the standard topological $n$-[[simplex]].
+
+This extends to a functor
+
+$$
+  \mathbf{Sing} : CartSp \to [CartSp^{op}, sSet] 
+  \,.
+$$
+
+Let
+
+$$
+  i_V : V \to \mathbf{Sing} V
+$$
+
+the morphism of simplicial presheaves induced in degree $k$ be precomposition with the projection $U \times \Delta^k \to U$.
+
+=--
+
++-- {: .un_prop }
+###### Observation
+
+In the injective local [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{inj,loc}$ we have for each $V \in CartSp$ that the composite
+
+$$
+  V \hookrightarrow \mathbf{Sing}V \stackrel{\simeq}{\to} *
+$$
+
+is a factorization of the terminal morphism into a cofibration followed by a weak equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the standard lifting properties of the [[model structure on topological spaces]]  we have that all lifts $\sigma$ as indicated in
+
+$$
+  \array{
+     U \times \partial \Delta^n &\to& V
+     \\
+     \downarrow & \nearrow_{\sigma}
+     \\
+     U \times \Delta^n
+  }
+$$
+
+exist, since $V \times \partial \Delta^n \to V \times \Delta^n$ is a cofibation in $Top_{Quillen}$ and for $V$ a [[Cartesian space]] the terminal morphism $V \to *$ is an acyclic fibration.
+
+This shows that $\mathbf{Sing} V \to *$ is a weak equivalence of simplicial sets over each $U$, hence is a weak equivalence of simplicial presheaves.
+
+The morphism $i_V : V \to \mathbf{Sing} V$ includes in degree $k$ precisely the maps $U \times \Delta^k \to V$ that are constant on $\Delta^n$ into the set of all continuous maps, hence this is degreewise a monomorphism, hence objectwise a cofibration of simplicial sets, hence a cofibration in $[CartSp^{op}, sSet]_{inj,loc}$.
+
+=--
+
++-- {: .un_def }
+###### Definition
+
+Let 
+
+$$
+  \mathbf{Sing} : [CartSp^{op}, sSet] \to [CartSp^{op}, sSet]
+$$
+
+be the [[Yoneda extension]] (left [[Kan extension]] along the [[Yoneda embedding]]). 
+
+=--
+
+
++-- {: .un_prop }
+###### Proposition
+
+The functor $\mathbf{Sing}$ is the [[left adjoint]] part of a [[Quillen adjunction]]
+
+$$
+  (\mathbf{Sing} \dashv R) : 
+    [CartSp^{op}, sSet]_{inj,loc} 
+    \to
+    [CartSp^{op}, sSet]_{inj,loc} 
+   \,.
+$$
+
+Its left [[derived functor]] is equivalent to the inrinsic [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] on $ETop \infty Grpd$
+
+$$
+  \mathbf{Sing}(-) \simeq \Pi(-) : ETop \infty Grpd \to ETop \infty Grpd
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
 (...)
+
+=--
+
 
 ## Homotopy localizationo
 
