@@ -17,6 +17,8 @@
 
 ## Idea
 
+### General
+
 For $S \to X$ a [[spinor bundle]] over a [[Riemannian manifold]] $(X,g)$, a _Dirac operator_ on $S$ is an [[differential operator]] on ([[sections]] of) $S$ whose [[principal symbol]] is that of $c \circ d$, where $d$ is the [[exterior derivative]] and $c$ is the [[symbol map]].
 
 More abstractly, for $D$ a Dirac operator, its normalization $D(1+ D^2)^{-1/2}$ is a [[Fredholm operator]], hence defines an element in [[K-homology]].
@@ -59,9 +61,12 @@ The Dirac operator is involved in approaches to the [[Atiyah-Singer index theore
 
 ## Examples
 
+* [[Kähler-Dirac operator]]
+
+* [[Dolbeault-Dirac operator]]
+
 * [[Spin^c Dirac operator]]
 
-* [[Kähler-Dirac operator]]
 
 ## Related concepts
 
