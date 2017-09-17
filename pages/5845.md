@@ -106,7 +106,7 @@ Suppose $(F \dashv G \dashv H) \colon C \to D$ is an adjoint triple in which $F$
 =--
 +-- {: .proof}
 ###### Proof
-Let $\{G(S_i) \to X\}$ be a small sink in $C$, and consider the diagram in $D$ consisting of all the $S_i$, all the counits $\varepsilon\colon F G(S_i) \to S_i$ (where $F$ is the left adjoint of $U$), and all the images $F G(S_i) \to F(X)$ of the morphisms making up the sink.  The colimit of this diagram is preserved by $U$ (since it has a right adjoint as well).  But the image of the diagram consists essentially of just the sink itself (since $F$ is fully faithful, $G(\varepsilon)$ is an isomorphism), and its colimit is $X$; hence the colimit of the original diagram is a lifting of $X$ to $D$ (up to isomorphism).  It is easy to verify that this lifting has the correct universal property.
+Let $\{G(S_i) \to X\}$ be a small sink in $C$, and consider the diagram in $D$ consisting of all the $S_i$, all the counits $\varepsilon\colon F G(S_i) \to S_i$ (where $F$ is the left adjoint of $G$), and all the images $F G(S_i) \to F(X)$ of the morphisms making up the sink.  The colimit of this diagram is preserved by $G$ (since it has a right adjoint as well).  But the image of the diagram consists essentially of just the sink itself (since $F$ is fully faithful, $G(\varepsilon)$ is an isomorphism), and its colimit is $X$; hence the colimit of the original diagram is a lifting of $X$ to $D$ (up to isomorphism).  It is easy to verify that this lifting has the correct universal property.
 =--
 
 Thus, we can talk about objects of $D$ having the [[weak structure]] or [[strong structure]] induced by any small collection of maps.
