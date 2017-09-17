@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 **Oriented Borel-Moore homology** is a generalization of the theory $CH_* : Sch_K \to AbGrp_*$ of [[Chow groups]] on [[schemes]] over a [[field]] $K$.  The additivity of the first [[Chern class]] operator (the formula $c_1(L \otimes M) = c_1(L) + c_1(M)$), is replaced by imposing a [[formal group law]] $F$, i.e. $c_1(L \otimes M) = F(c_1(L), c_1(M))$.  **Algebraic cobordism** is the universal oriented Borel-Moore homology theory.  This is a direct analogue of the [[complex cobordism]] $MU^*$ of [[Quillen]].
 
 (Co)homological theories for [[algebraic variety|algebraic varieties]] have led [[Grothendieck]] to propose a theory of [[motive]]s which has partly been realized (e.g. in its triangulated and dg-versions) so far. One systematic approach is to study the homotopy theory in this context, namely $\mathbb{A}^1$-[[A1-homotopy theory|homotopy theory]]. However in practice, one is led to calculate invariants and it is difficult to find new computable cases; the study of algebraic cycles in higher codimension is notoriously difficult, and the Chow groups are difficult to compute. Somewhat more accessible is [[algebraic K-theory]]. This is unlike the classical situation where in addition many other extraordinary (co)homology theories are at hand. In the abstract setup, Voevodsky and others did study more general extraordinary cohomology theories, but down-to-Earth examples are difficult to find. This was roughly the motivation for two people -- [[Marc Levine]] and [[Fabien Morel]] -- to construct in a single effort the notion of **algebraic cobordism**, which is an analogue of complex cobordism for algebraic varieties. Many of the tools from Quillen's and Novikov's work on complex cobordism, like Lazard's ring and [[formal group]]s, play a major role. 
@@ -5,6 +12,10 @@
 Algebraic cobordism is the [[universal]] **oriented Borel--Moore homology theory**, where 'oriented' stands for the existence of the [[proper]] [[direct image]] homomorphisms. The fact that $\mathbb{A}^1$-homotopy theory is not used ---that is, the constructions are more direct--- is an advantage. 
 
 On the other hand a universal oriented motivic cohomology theory is not the algebraic cobordism of Morel and Levine but rather the cohomology associated to the [[motivic spectrum]] $MGL$ of Voevodsky, which is different and also may be called a theory of algebaric cobordism. An early different approach to some sort of algebraic cobordism is from late 1970-s work of [[Victor Snaith]], discussed in [[Victor Snaith|that entry]].
+
+## Related concepts
+
+* [[algebraic cobordism spectrum]]
 
 ## References
 
