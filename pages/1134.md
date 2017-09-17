@@ -245,6 +245,7 @@ A more general variant of this in the spirit of [[locally algebra-ed topos]]es i
 * Alexander Alldridge, _A convenient category of supermanifolds_ ([arXiv:1109.3161](http://arxiv.org/abs/1109.3161))
 
 ### As manifolds over superpoints
+ {#ReferencesOverSuperpoints}
 
 The proposal that the study of super-structures in mathematics should be regarded as taking place over the [[base topos]] on the [[site]] of [[super point]]s has been made around 1984 in
 
