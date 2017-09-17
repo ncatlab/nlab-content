@@ -41,7 +41,7 @@ In other words, the thick subcategories are the [[kernels]] of $K(n)_\ast$ (for 
 
 ## Applications
 
-The thick subcategory theorem serves to determine the [[prime spectrum of a monoidal stable (∞,1)-category]] of the [[stable homotopy theory]].
+The thick subcategory theorem serves to determine the [[prime spectrum of a symmetric monoidal stable (∞,1)-category]] of the [[stable homotopy theory]].
 
 (For an exposition see [MazelGee 13, around slide 9](#MazelGee13)).
 
