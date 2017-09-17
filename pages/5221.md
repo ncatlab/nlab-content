@@ -68,6 +68,9 @@ In [[noncommutative algebraic geometry]], one of the most important results is [
 
 On the other hand [[pretriangulated dg-categories]] are known to provide a model for linear [[stable (infinity,1)-categories]].  Using a different model, like [[quasi-categories]], would be more convenient for extending Toen's theorem from (smooth proper) schemes to (smooth proper) [[derived stacks]].  This was done in [Ben-Zvi & Francis & Nadler 08](#BZFN08).  In the followup ([Ben-Zvi & Nadler & Preygel 13](#BZNP13)) the authors have also extended these results to the non-smooth case.
 
+## Related concepts
+
+* [[polynomial functor]]
 
 ## References
  {#References}
