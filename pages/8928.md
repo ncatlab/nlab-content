@@ -40,6 +40,16 @@ The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. 
 
 * [[AdS/CFT correspondence]]
 
+* gravitational entropy
+
+  * [[Bekenstein-Hawking entropy]]
+
+  * [[generalized second law of thermodynamics]]
+
+  * [[black holes in string theory]]
+
+  * [[holographic entanglement entropy]]
+
 [[!include table of branes]]
 
 
