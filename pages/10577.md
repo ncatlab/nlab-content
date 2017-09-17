@@ -16,8 +16,14 @@ See at _[[gauged WZW model]]_.
 
 ## References
 
+* [[David Gepner]], section 1.1 of _[[Homotopy topoi and equivariant elliptic cohomology]]_, 2005
+
 * Robert Waelder, _Equivariant Elliptic Genera_ ([arXiv:math/0603521](http://arxiv.org/abs/math/0603521))
 
 * Stefan Hohenegger, Amer Iqbal, section 5.1 of _M-strings, Elliptic Genera and N=4 String Amplitudes_ ([arXiv:1310.1325](http://arxiv.org/abs/1310.1325))
 
 [[!redirects equivariant elliptic genera]]
+
+
+[[!redirects equivariant Witten genus]]
+[[!redirects equivariant Witten genera]]
