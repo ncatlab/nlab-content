@@ -263,6 +263,8 @@ replaced by [[equivariant elliptic cohomology]] yields (aspects of) the [[repres
 
 * [[tmf]]
 
+[[!include moduli of higher lines -- table]]
+
 
 ## References
 
