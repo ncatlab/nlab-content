@@ -83,7 +83,7 @@ Sufficient conditions for a limit-preserving functor $G : D \to C$ to be a [[rig
 
 * $D$ is complete, locally small [[well-powered category|well-powered]], and has a [[small set|small]] [[cogenerating set]], and $C$ is [[locally small category|locally small]].  
 
-  This is sometimes called the "**Special Adjoint Functor Theorem**".
+  This is sometimes called the "**Special Adjoint Functor Theorem**", and abbreviated to SAFT.
 
 * $D$ is [[total category|cototal]] and $C$ is locally small.
 
@@ -95,7 +95,7 @@ In the first two cases, which work by replacing large limits by small ones, it s
 +-- {: .proof}
 ###### Proof
 
-Here is a proof that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satisfies the [[solution set condition]]. 
+Here is a proof of the General Adjoint Functor Theorem: that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satisfies the [[solution set condition]]. 
 
 From the discussion at <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">adjoint functors -- In terms of universal arrows</a> we have that the existence of the adjoint is equivalent to the existence for each $d \in D$ of an [[initial object]] $i_d : d \to R L d$ in the [[comma category]] $(d \downarrow R)$: an object such that for each $f : d' \to R d$ there is a unique $\tilde f$ such that 
 
@@ -124,6 +124,15 @@ If $C$ is locally small and small-complete and $R: C \to D$ preserves limits, th
 
 If in addition each $d \downarrow R$ has a weakly initial family (solution set condition), then by 2. and 3. each $d \downarrow R$ has an initial object. This restates the condition that $R$ has a left adjoint.
 
+=--
+
++-- {: .proof} 
+###### Proof of SAFT 
+As before, the proof proceeds by constructing initial objects of comma categories. We assume that $C$ is locally small and small-complete, has a cogenerating set $\{c_\alpha: \alpha \in A\}$, and that $R: C \to D$ is a small-continuous functor into a locally small category $D$. 
+
+As before, for each object $d$ of $D$, the comma category $d \downarrow R$ is locally small and small-complete. Moreover, it is easy to check that the set of all objects of the form $d \to R c_\alpha$ is a cogenerating set for $d \downarrow R$. 
+
+It then remains to prove that any locally small and small-complete category $X$ with a cogenerating set $\{k_s: s \in S\}$ has an initial object. TO BE CONTINUED. 
 =--
 
 In practice an important special case is that of functors between
