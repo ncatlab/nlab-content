@@ -56,11 +56,9 @@ This construction could however break the left exactness condition. However, $E$
 
 ## Related entries
 
-for some context see 
+* for some context see _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
-* [[A Survey of Elliptic Cohomology - cohomology theories]]
-
-or this [blog entry](http://math.ucr.edu/home/baez/week150.html)
+* [[Landweber exact functor theorem]]
 
 ## References
 
