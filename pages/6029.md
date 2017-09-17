@@ -9,12 +9,14 @@
 =--
 =--
 
-[[!redirects particles]]
 
-* [[relativistic particle]]
+* [[relativistic particle]], [[spinning particle]], [[super particle]]
 
 * [[fundamental particle]]
 
 * [[standard model of particle physics]]
 
 * [[brane]]
+
+
+[[!redirects particles]]
