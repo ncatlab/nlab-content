@@ -19,7 +19,7 @@
 
 ## Idea
 
-The classical _Gleanson theorem_ says that a [[state]] of the [[C-star algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
+The classical _Gleason theorem_ says that a [[state]] of the [[C-star algebra]] $\mathcal{B}(\mathcal{H})$ of all [[bounded operators]] on a [[Hilbert space]] is uniquely described by the values it takes on the orthogonal projections $\mathcal{P}$, if the dimension of the [[Hilbert space]] $\mathcal{H}$ is not 2.
 
 In other words: every [[quasi-state]] is already a state $(if dim(H) \gt 2)$.
 
