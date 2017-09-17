@@ -1,8 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A __permutation__ is an [[automorphism]] in [[Set]].  More explicitly, a __permutation__ of a [[set]] $X$ is an [[inverse|invertible]] [[function]] from $X$ to itself.
 
-The [[group]] of permutations of $X$ (that is the [[automorphism group]] of $X$ in $Set$) is the __symmetric group__ (or __permutation group__) on $X$.  This group may be denoted $S_X$, $\Sigma_X$, or $X!$.  When $X$ is [[the]] [[finite set]] $[n]$ with $n$ elements, one typically writes $S_n$ or $\Sigma_n$; note that this group has $n!$ elements.
+## Definition
+
+The [[group]] of permutations of $X$ (that is the [[automorphism group]] of $X$ in $Set$) is the __[[symmetric group]]__ (or __permutation group__) on $X$.  This group may be denoted $S_X$, $\Sigma_X$, or $X!$.  When $X$ is [[the]] [[finite set]] $[n]$ with $n$ elements, one typically writes $S_n$ or $\Sigma_n$; note that this group has $n!$ elements.
 
 In [[combinatorics]], one often wants a slight generalisation.  Given a [[natural number]] $r$, an __$r$-permutation__ from $X$ is an [[injective function]] from $[r]$ to $X$, that is a [[list]] of $r$ distinct elements of $X$.  Then an $n$-permutation from $[n]$ is the same as a permutation of $[n]$.  (That an injective function from $X$ to itself must be invertible characterises $X$ as a [[Dedekind-finite set]].)
+
+## Related entries
+
+* [[signature of a permutation]]
 
 
 [[!redirects permutation]]
