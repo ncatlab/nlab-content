@@ -50,8 +50,8 @@ This is ([Lurie, cor. 1.5.15](#Lurie)).
 
 For $R$ an ordinary [[ring]], write $H R$ for the corresponding [[Eilenberg-MacLane spectrum]]. 
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_theorem #StableDoldKan}
+###### Theorem
 
 For $R$ any [[ring]] (or [[ringoid]], even) there is a [[Quillen equivalence]] 
 
@@ -78,6 +78,26 @@ This is a stable version of the [[Dold-Kan correspondence]].
 
 See [[algebra spectrum]] for the corresponding statement for $H R$-algebra spectra and [[dg-algebra]]s.
 
++-- {: .num_example}
+###### Example
+
+For $X$ a [[topological space]] and $R$ a ring, let $C_\bullet(X, R)$ be the standard [[chain complex]] for [[singular homology]] $H_\bullet(X, R)$ of $X$ with coefficients in $R$.
+
+Under the stable Dold-Kan correspondence, prop. \ref{StableDoldKan}, this ought to be identified with the [[smash product]] $(\Sigma^\infty_+ X) \wedge H R$ of the [[suspension spectrum]] of $X$ with the [[Eilenberg-MacLane spectrum]]. Notice that by the general theory of [[generalized homology]] the [[homotopy groups]] of the latter are again singular homology
+
+$$
+  \pi_\bullet( (\Sigma^\infty_+ X) \wedge H R) \simeq H_\bullet(X, R)
+  \,.
+$$
+
+While the correspondence $(\Sigma^\infty_+ X) \wedge H R \sim C_\bullet(X,R)$ under the above equivalence is suggestive, maybe nobody has really checked it in detail. It is sort of stated as true for instance on <a href="http://arxiv.org/PS_cache/arxiv/pdf/0906/0906.5198v1.pdf#page=15">p. 15 </a> of ([BCT](#BCT)).
+
+=--
+
+### As fibers for $(\infty,1)$-vector bundles
+
+An ordinary [[vector bundle]] is a [[bundle]] of $k$-[[module]]s for $k$ some [[ring]] (which should be a [[field]], or otherwise we'd rather say "module bundle"). Generalizing $k$ here from a ring to a [[ring spectrum]], we may hence regard $K$-module spectra as [[(∞,1)-vector space]]s, and [[associated ∞-bundle|∞-bundles]] of these as [[(∞,1)-vector bundle]]s. See there for more details.
+
 ## Related concepts
 
 * [[ring spectrum]], [[algebra spectrum]]
@@ -98,5 +118,12 @@ The refinement of this statement to a [[Quillen equivalence]] is due to
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_ , Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf))
  {#SchwedeShipley}
+
+Applications to [[string topology]] are discussed in
+
+* [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology and Hochschild homology_ ([arXiv:0906.5198](http://arxiv.org/abs/0906.5198))
+ {#BCT}
+
+See the section on string topology at [[sigma model]] for more on this.
 
 [[!redirects module spectra]]
