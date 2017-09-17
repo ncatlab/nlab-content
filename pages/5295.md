@@ -89,6 +89,10 @@ Then an axiomatization of intuitionistic mathematics is given in
 
 in terms of [[realizability]] (the [[Kleene-Vesley topos]]), and hence intuitionistic mathematics is shown to be consistent.
 
+General reviews include
+
+* Stanford Encyclopedia of Philosophy, _[Intuitionism in the Philosophy of Mathematics](http://plato.stanford.edu/entries/intuitionism/)
+_
 Reviews with further developments include for instance
 
 * [[Frank Waaldijk]], _On the foundations of constructive mathematics -- especially to the theory of continuous functions_  ([pdf](http://www.fwaaldijk.nl/foundations+of+constructive+mathematics.pdf))
