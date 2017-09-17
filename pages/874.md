@@ -1,6 +1,20 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -41,6 +55,10 @@ The cartesian product of the empty family $()$ is the [[point]], a set whose onl
 In [[material set theory]], the existence of binary cartesian products follows from the [[axiom of pairing]] and the axiom of [[weak replacement]] (which is very weak).  In [[structural set theory]], their existence generally must be stated as an axiom: the __axiom of products__.  See [[ordered pair]] for more details.
 
 
+## Related entries
+
+* [[cartesian monoidal category]]
+
 category: foundational axiom
 
 [[!redirects cartesian product]]
@@ -55,3 +73,4 @@ category: foundational axiom
 [[!redirects axiom of cartesian products]]
 [[!redirects axiom of Cartesian products]]
 [[!redirects axiom of products]]
+
