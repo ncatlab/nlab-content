@@ -76,7 +76,7 @@ for the [[2-category]] [[Cat]], and more generally for arbitrary
 
 A [[module over a monad]] (see there for more details) is defined essentially exactly as that 
 of module over a monoid. For historical reasons, a module over
-a monad in [[Cat]] is called an _algebra over a monad_, because the algebras in the sense of [[universal algebra]] can be obtained as algebras/modules over a [[finitary monad]] in $Set$: the modules for a free algebra monad (for certain kind of algebras) on [[Set]], which are the composition of the free alegbra functor and its [[right adjoint]] forgetful functor are exactly algebras of that type. Modules over a fixed monad (in $Cat$) are the objects of the [[Eilenberg-Moore category]] of the monad; in arbitrary bicategory, this category generalized to Eilenberg-Moore objects which may or may not exist. 
+a monad in [[Cat]] is called an _algebra over a monad_, because the algebras in the sense of [[universal algebra]] can be obtained as algebras/modules over a [[finitary monad]] in $Set$: the modules for a free algebra monad (for certain kind of algebras) on [[Set]], which are the composition of the free algebra functor and its [[right adjoint]] forgetful functor are exactly algebras of that type. Modules over a fixed monad (in $Cat$) are the objects of the [[Eilenberg-Moore category]] of the monad; in arbitrary bicategory, this category generalized to Eilenberg-Moore objects which may or may not exist. 
 
 
 #### Enriched presheaves
@@ -505,7 +505,7 @@ stabilized slice-categories of the category of monoids:
 
 The ordinary case of modules over rings is phrased 
 in terms of stabilized overcategories by the following
-observation, wich apparently goes back to [[Daniel Quillen]].
+observation, which goes back at least to Jon Beck's 1967 thesis, and is found in the important paper of  [[Daniel Quillen]]; both listed below.
 
 +-- {: .num_prop #Square0ExtensionsOfRingsAreAbelianSliceObjectsAreModules}
 ###### Proposition
