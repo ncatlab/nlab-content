@@ -126,7 +126,7 @@ $$
 and
 
 $$
-  f(a, r b) = f f(a,b)
+  f(a, r b) = r f(a,b)
   \,.
 $$
 
