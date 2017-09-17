@@ -4,7 +4,7 @@
 
 
 ## Idea ##
-This page is about the modular theory introduces by Tomita of [[von Neumann-algebra]]s. It is important both for the structure theory of von Neumann-algebras and in the [[Haag-Kastler approach]] to [[AQFT]], one important example is the [[Bisognano-Wichmann theorem]]. It is often called Tomita-Takesaki theory, because the first presentation beyond a preprint is due to Takesaki. 
+This page is about the modular theory introduced by Tomita for [[von Neumann-algebra]]s. It is important both for the structure theory of von Neumann-algebras and in the [[Haag-Kastler approach]] to [[AQFT]], one important example is the [[Bisognano-Wichmann theorem]]. It is often called Tomita-Takesaki theory, because the first presentation beyond a preprint is due to Takesaki. 
 
 ## Definition ##
 Let $\mathcal{H}$ be a [[Hilbert space]], $\mathcal{M}$ a [[von Neumann-algebra]] with commutant $\mathcal{M}'$ and a separating and cyclic vector $\Omega$. Then there is a **modular operator** $\Delta$ and a **modular conjugation** $J$ such that:
