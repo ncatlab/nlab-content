@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 ## Idea
 
 One of the [[exceptional Lie groups]].
@@ -6,3 +16,4 @@ One of the [[exceptional Lie groups]].
 ## References
 
 * wikipedia, _[E7](http://en.wikipedia.org/wiki/E%E2%82%87)_
+
