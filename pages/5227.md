@@ -3,6 +3,8 @@
 * automatic table of contents goes here
 {:toc}
 
+See also the [Petri net](http://www.azimuthproject.org/azimuth/show/Petri+net) in The Azimuth Project.
+
 ## Introduction
 
 Petri nets are a well known model of parallel computation, generalising [[transition systems]] by using a built in notion of resource.  Their use is widespread in modelling manufacturing systems, optimising control systems and in resource critical aspects of operational research, as well as being a useful model of computation.  Because of this they exist in many variants : colored, algebraic, probabilistic, timed, ..., and hence there are many forms of the basic definition, each thought best of that particular application.
