@@ -100,7 +100,7 @@ For $A$ an [[abelian group]] we may understand the $A$-torsor/$A$-[[principal bu
 All this is then summarized by the statement that
 
 $$
-  A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \stckrel{c}{\to}
+  A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \stackrel{c}{\to}
   \mathbf{B}^2 A
 $$
 
