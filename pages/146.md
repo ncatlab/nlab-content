@@ -18,6 +18,12 @@ $$
 from the [[opposite category]] $C^{op}$ of $C$ to the category [[Set]] of [[set]]s.
 
 
+Alternatively, a **presheaf** on a [[category]] $C$ is a [[contravariant functor]]
+
+$$
+ F : C \to Set.
+$$
+
 More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
 
 $$
