@@ -1,0 +1,17 @@
+A __dynamical system__ is a set $M$ equipped with some geometric structure (say a manifold) together with a __law of motion__, that is the law of evolution of points which is the action 
+
+$$
+\mathbb{R}\times M\to M
+$$
+
+The parameter of evolution is called time.
+
+The law of motion is often given by (what is in a particular case) an equivalent datum, e.g. by an initial value problem for a differential equation "of evolution type".
+
+Sometimes the evolution is only partially defined; this is most often in dynamical systems induced by evolution differential equations which do not necessarily have existence of solutions for arbitrary large time, or the dynamical system is defined only for nonnegative time. 
+
+Sometimes time is taken to be discrete, that is belonging to integers or say to positive integers. 
+
+Most often one looks at dynamical systems in which $M$ is a smooth manifold. Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
+
+[[!redirects dynamical systems]]
