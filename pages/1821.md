@@ -22,9 +22,9 @@
 
 In the context of [[homological algebra]], for $V_\bullet \in Ch_\bullet(\mathcal{A})$ a _[[chain complex]]_, its _chain [[homology group]]_ in degree $n$ is akin to the $n$-th [[homotopy groups]] of a topological space. It is defined to be the [[quotient]] of the $n$-[[cycles]] by the $n$-[[boundaries]] in $V_\bullet$.
 
-[[duality|Dually]], for $V^\bullet \in Ch^\bullet(\mathcal{A})$ a [[cochain complex]], its _cochain [[cohomology group]]_ in degree $n$ is the qotients of the $n$-[[cocycles]] by the $n$-[[coboundaries]].
+[[duality|Dually]], for $V^\bullet \in Ch^\bullet(\mathcal{A})$ a [[cochain complex]], its _cochain [[cohomology group]]_ in degree $n$ is the quotient of the $n$-[[cocycles]] by the $n$-[[coboundaries]].
 
-Basic examples are the [[singular homology]] and [[singular cohomology]] of a tological space, which are the (co)chain (co)homology of the [[singular complex]].
+Basic examples are the [[singular homology]] and [[singular cohomology]] of a topological space, which are the (co)chain (co)homology of the [[singular complex]].
 
 Chain homology and cochain cohomology constitute the basic invariants of (co)chain complexes. A [[quasi-isomorphism]] is a [[chain map]] between chain complexes that induces isomorphisms on all chain homology groups, akin to a [[weak homotopy equivalence]]. A [[category of chain complexes]] equipped with quasi-isomorphisms as [[weak equivalences]] is a presentation for the [[stable (infinity,1)-category]] of chain complexes.
 
