@@ -208,7 +208,7 @@ $$
 
 ## Related concepts
 
-* **kernel**
+* **kernel**, [[generalized kernel]]
 
 * [[cokernel]]
 
