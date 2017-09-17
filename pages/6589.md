@@ -33,9 +33,9 @@ We follow the original proof given by [Zamolodchikov (1986)](#Zamolodchikov).
 
 We start with a field theory whose action functional is an integral of a local [[Lagrangian]] density:
 
-$$ S = \int \mathcal{L}(g,a,x) d x. $$
+$$ S = \int \mathcal{L}(g,a,x) d x, $$
 
-The RG flow is described by the **beta functions**:
+where $a$ is the ultraviolet cutoff of the theory.  The RG flow is described by the **beta functions**:
 
 $$  d g^i = \beta^i(g) \,d t. $$
 
@@ -118,7 +118,10 @@ $$\beta^i(g) = -\frac{1}{12} G^{i j}(g) \partial_j c(g).$$
 
 * A. B. Zamolodchikov (1986), _"Irreversibility" of the Flux of the Renormalization Group in a 2-D Field Theory_, JETP Lett. **43**: 730--732. ([pdf](http://www.jetpletters.ac.ru/ps/1413/article_21504.pdf))
   {#Zamolodchikov}
+* J. Cardy (2010), _The Ubiquitous 'c': From the Stefan--Boltzmann Law to Quantum Information_, J.Stat.Mech. **2010**: P10004, ([arXiv:1008.2331](http://arxiv.org/abs/1008.2331))
+  {#Cardy2010}
 * R. C. Myers and A. Sinha (2010), _Seeing a $c$-theorem with holography_, Physical Review D **82**: 046006, ([arXiv:1006.1263](http://arxiv.org/abs/1006.1263))
   {#Myers2010}
 * R. C. Myers and A. Sinha (2011), _Holographic $c$-theorems in arbitrary dimensions_, Journal of High Energy Physics **2011**, 1: 1--53, ([arXiv:1011.5819](http://arxiv.org/abs/1011.5819))
   {#Myers2011}
+* Wikipedia, [Callan--Symanzik equation](http://en.wikipedia.org/wiki/Callan%E2%80%93Symanzik_equation)
