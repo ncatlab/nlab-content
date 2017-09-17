@@ -118,3 +118,5 @@ The monoidal model structure on $\mathcal{E}^{\mathbf{B}G}$ is discussed for ins
 {#BergerMoerdijkResolution}
 
 [[!redirects monoidal model categories]]
+[[!redirects monoidal model structure]]
+[[!redirects monoidal model structures]]
