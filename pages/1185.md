@@ -174,7 +174,7 @@ there are also some references listed at
 
 * [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
 
-Any *standard* approach will start from a [[material set theory]], such as ZFC; not so much the [[structural set theory]] emphasized above.  But since cardinality is isomorphism invariant it is easy to interpret the standard material structurally, but the basic definitions will be different.  There does not seem to be a standard account of cardinality from withing structural set theory.
+*Standard* approaches start with a [[material set theory]], such as ZFC, whereas the approach here uses [[structural set theory]] as emphasized above.  Since cardinality is isomorphism-invariant, it is easy to interpret the standard material structurally, although the basic definitions will be different.  There does not seem to be a standard account of cardinality from within structural set theory.
 
 A critical discussion of the history of the meaning of Cantors "Kardinalen" see 
 
