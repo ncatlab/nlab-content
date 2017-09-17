@@ -233,7 +233,7 @@ One special cases of T-duality is [[mirror symmetry]].
 
 ### In Langlands duality
 
-In some cases the passage to the [[Langands dual group]] in the [[geometric Langlands correspondence]] can be understood as T-duality. ([Daenzer-vanErp](#DaenzerErp))
+In some cases the passage to the [[Langlands dual group]] in the [[geometric Langlands correspondence]] can be understood as T-duality. ([Daenzer-vanErp](#DaenzerErp))
 
 
 ## Related concepts
@@ -245,6 +245,8 @@ In some cases the passage to the [[Langands dual group]] in the [[geometric Lang
   * [[topological T-duality]]
 
   * [[differential T-duality]]
+
+  * [[T-duality 2-group]]
 
 * [[T-fold]], [[double field theory]]
 
