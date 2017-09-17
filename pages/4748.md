@@ -118,13 +118,129 @@ $$
   \phi^* \nabla : \Pi(\Sigma) \to \Gamma(A)
 $$
 
-in the [[homotpy category]]
+in the [[homotopy category]]
 
 $$
   [\phi^* \nabla] \in [\Pi(\Sigma), \Gamma(A)] 
 $$
 
 =--
+
+
+## In terms of parallel transport $n$-functors on $n$-paths
+
+At least in low categorical dimension one has the definition of the [[path n-groupoid]] $\mathbf{P}_n(X)$ of a smooth manifold, whose $n$-morphisms are [[thin-homotopy]]-classes of smooth functions $[0,1]^n \to X$. Parallel $n$-transport with only the $(n+1)$-curvature form possibly nontrivial and all the lower curvature degree 1- to $n$-forms nontrivial may be expressed in terms of smooth $n$-functors out of $\mathbf{P}_n$ ([SWI](#SWI), [SWII](#SWII), [MartinsPickenI](#MartinsPickenI), [MartinsPickenII](#MartinsPickenII)).
+
+
+We work now concretely in the category $2DiffeoGrpd$ of [[2-groupoid]]s [[internalization|internal to]] the category of [[diffeological space]]s.
+
+Let $X$ be a [[smooth manifold]] and write $\mathbf{P}_2(X) \in 2DiffeoGrpd$ for its [[path 2-groupoid]]. Let $G$ be a [[Lie 2-group]] and $\mathbf{B}G \in 2DiffeoGrpd$ its [[delooping]] 1-object 2-groupoid. Write $\mathfrak{g}$ for the corresponding [[Lie 2-algebra]].
+
+Assume now first that $G$ is a [[strict 2-group]] given by a [[crossed module]] $(G_1 \to G_0)$. Corresponding to this is a [[differential crossed module]] $(\mathfrak{g}_1 \to \mathfrak{g}_0)$.
+
+We describe now how smooth 2-functors
+
+$$
+  tra : \mathbf{P}_2(X) \to \mathbf{B}G
+$$
+
+i.e. morphisms in $2DiffeoGrpd$ are characterized by [[Lie 2-algebra valued differential forms]] on $X$.
+
++-- {: .un_defn}
+###### Definition
+
+Given a morphism $F : \mathbf{P}_2(X) \to \mathbf{B}G$ we construct a$\mathfrak{g}_1$-valued 2-form  $B_F \in \Omega^2(X, \mathfrak{g}_1)$ as follows.
+
+To find the value of $B_F$ on two vectors $v_1, v_2 \in T_p X$ at some point, _choose_ any smooth function
+
+$$
+  \Gamma : \mathbb{R}^2 \to X
+$$
+
+with
+
+* $\Gamma(0,0) = p$
+
+* $\frac{d}{d s}|_{s = 0} \Gamma(s,0) = v_1$
+
+* $\frac{d}{d t}|_{t = 0} \Gamma(0,t) = v_2$.
+
+Notice that there is a canonical 2-parameter family
+
+$$
+  \Sigma_{\mathbb{R}} : \mathbb{R}^2 \to 2Mor \mathbf{P}_2(\mathbb{R}^2)
+$$
+
+of classes of bigons on the plane, given by sending $(s,t) \in \mathbb{R}^2$ to the class represented by any bigon (with sitting instants) with straight edges filling the square
+
+$$
+  \Sigma_{\mathbb{R}}(s,t) = 
+  \left(
+    \array{
+      (0,0) &\to& (0,t)
+      \\
+      \downarrow && \downarrow
+      \\
+      (s,0) &\to& (s,t)
+    }
+  \right)
+  \,.
+$$
+
+Using this we obtain a smooth function
+
+$$
+  F_\Gamma : 
+  \mathbb{R}^2 \stackrel{\Sigma_{\mathbb{R}}}{\to}
+  2Mor \mathbf{P}_2(\mathbb{R})
+  \stackrel{\Gamma_*}{\to}
+  2Mor \mathbf{P}_2(\mathbb{X})
+  \stackrel{F}{\to}
+  G_0 \times G_1
+  \stackrel{p_2}{\to}
+  G_1
+  \,.
+$$
+
+Then set
+
+$$
+  B_F(v_1, w_1) := 
+   \frac{\partial^2 F_\Gamma}{\partial s \partial t}|_{(0,0)}
+  \,.
+$$
+ 
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+This definition is well defined, in that it does not depend on the choices made. Moreover, the 2-form defines this way is smooth.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that the definition does not depend on the choice of $\Gamma$, proceed as follows.
+
+Let $\Gamma, \Gamma' : \mathbb{R}^2 \to X$ be two smooth maps as in the defnition.  By restricting, if necessary, to a neighbourhood of the origin of $\mathbb{R}^2$, we may assume that these maps land in a single coordinate pathc in $X$. Using the vector space structure of $\mathbb{R}^n$ defined by such a pathch, define a smooth homotopy
+
+$$
+  \tau : [0,1]^3 \to X : (x,y,z) \mapsto (1-z)\Gamma(x,y) + z \Gamma'(x,y)
+$$
+
+There is a smooth factorization
+
+$$
+  \mathbb{R}^3 \to Z \to X
+$$
+
+(...)
+
+=--
+
+
 
 
 ## Examples
@@ -293,7 +409,18 @@ In [[physics]] various [[action functional]]s for [[quantum field theories]] are
 
 For references on parallel 2-transport in bundle gerbes see [[connection on a bundle gerbe]].
 
-The generalization of this to parallel 2-transport of [[connections on a 2-bundle]] as described above is in 
+The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] is in 
 
-* SWIII (<a href="SchrWalII+III">web</a>)
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth functors vs. differential forms_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">SWII</a>)
+{#SWII}
+
+* [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
+{#MartinsPickenI}
+
+* [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
+{#MartinsPickenII}
+
+The description of [[connections on a 2-bundle]] in terms of such parallel 2-transoort 
+
+* U.S. [[Konrad Waldorf]] _Nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
 {#SWIII}
