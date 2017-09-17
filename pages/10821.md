@@ -9,6 +9,12 @@ An [[algebraic variety]] $X \hookrightarrow \mathbb{A}^n$ defined as the [[zero 
 
 A variety is called _singular_ if it ha at least one singular point and _non-singular_ if it has none.
 
+## Examples
+
+* [[cusp]]
+
+* [[nodal curve]]
+
 ## Related concepts
 
 * [[geometric point]]
