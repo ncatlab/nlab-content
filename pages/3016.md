@@ -51,7 +51,7 @@ However, it is also possible to take it a step beyond the pragmatic attitude, an
 
 > A different image came to me a few weeks ago. The unknown thing to be known appeared to me as some stretch of earth or hard marl, resisting penetration... the sea advances insensibly in silence, nothing seems to happen, nothing moves, the water is so far off you hardly hear it... yet it finally surrounds the resistant substance. (Translated from the French by McLarty)
 
-This arresting metaphor of "la mer qui monte", which over time changes the very form of the resistant substance, is very much in the style of Grothendieck himself. McLarty quotes Deligne as saying that a typical Grothendieck proof consists of a long series of trivial steps where "nothing seems to happen, and yet at the end a highly non-trivial theorem is there." 
+This arresting metaphor of "la mer qui monte" ("[[the rising sea]]"), which over time changes the very form of the resistant substance, is very much in the style of Grothendieck himself. McLarty quotes Deligne as saying that a typical Grothendieck proof consists of a long series of trivial steps where "nothing seems to happen, and yet at the end a highly non-trivial theorem is there." 
 
 
 ## Examples
