@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a $G$-_equivariant bundle_ on $X$ is a [[bundle]] on the [[action groupoid]] $X//G$ of $X$.
+
+## Related concepts
+
+* [[equivariant cohomology]]
+
+* [[equivariant K-theory]]
+
+[[!redirects equivariant bundles]]
+
+[[!redirects equivariant fiber bundle]]
+[[!redirects equivariant fiber bundles]]
+
+[[!redirects equivariant vector bundle]]
+[[!redirects equivariant vector bundles]]
+
