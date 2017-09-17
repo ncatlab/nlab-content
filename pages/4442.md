@@ -1,5 +1,37 @@
 
-AdS-CFT correspondence (or Maldacena duality) is a special case of more general and more conjectural holographic duality in QFT: the duality between the strings/conformal field theory (with gravity) in even dimensional conformal boundary of odd dimensional Anti de Sitter space with a gauge theory (without gravity) on the Anti de Sitter space. There is also some confusion with [[Rehren duality]], whose proponents originally claimed to explain mathematically AdS/CFT within [[AQFT]]. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Phyics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _AdS-CFT correspondence_ (or _Maldacena duality_ ) is a special case of more general and more conjectural [[holographic principle|holographic duality]] in [[quantum field theory]].
+
+The conjectural correspondence asserts a the duality between [[string theory]] on an asymptotically [[anti-de Sitter spacetime]] and [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
+
+See also [[holographic principle of higher category theory]].
+
+
+## Formalizations
+
+The formalization of AdS/CFT is still very much out of reach. One proposal to formalize a toy version in the context of [[AQFT]] is [[Rehren duality]]. However the claim that this does in fact formalize what physicists mean by AdS/CFT is controversial.
+
+
+## References
 
 * wikipedia: [AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)
 
@@ -28,3 +60,5 @@ AdS-CFT correspondence (or Maldacena duality) is a special case of more general 
 * Jan de Boer, _Introduction to AdS/CFT correspondence_, [pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf)
 
 [[!redirects AdS/CFT]][[!redirects AdS/CFT correspondence]][[!redirects AdS-CFT correspondence]]
+
+[[!redirects AdS-CFT correspondence]]
