@@ -4,3 +4,4 @@
 category: people
 
 [[!redirects John C. Moore]]
+[[!redirects J. C. Moore]]
