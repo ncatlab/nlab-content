@@ -24,7 +24,7 @@
 
 ## Idea
 
-A _continous field of $C^\ast$-algebras_ is a [[topological space]] $X$ and a [[C*-algebra]] $A_x$ for each point $ x \in X$, such that in some sense these algebras vary continuously as $x$ varies in $X$. Hence it is a kind of topological [[bundle]] of $C^\ast$-algebras.
+A _continous field of $C^\ast$-algebras_ is a [[topological space]] $X$ and a [[C*-algebra]] $A_x$ for each point $ x \in X$, such that in some sense these algebras vary continuously as $x$ varies in $X$. Hence it is a kind of topological [[bundle]] of $C^\ast$-algebras. It is also an example of a [[Fell bundle|Fell Bundle]] over $X$ when $X$ is thought of as a topological groupoid with only identity morphisms.
 
 ## Applications
 
