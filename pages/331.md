@@ -87,7 +87,7 @@ For instance,
 
 Generally, [[(∞,1)-category theory]], which is about untruncated objects, is the home for logic and types with a [[constructive mathematics|constructive]] notion of [[equality]], the [[identity types]] in [[homotopy type theory]].
 
-
+See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 
 ## Entries on logic
 
