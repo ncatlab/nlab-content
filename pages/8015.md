@@ -40,7 +40,11 @@ This may be [[presentable (infinity,1)-category|presented]] by a [[model structu
 
 * [[generalized étale cohomology]]
 
-* [[differential cohomology]], [[tangent cohesion]]
+* [[tangent cohesion]]
+
+  * [[smooth spectrum]]
+
+  * [[differential cohomology]], 
 
 * [[differential algebraic K-theory]]
 
