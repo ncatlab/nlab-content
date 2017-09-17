@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -27,8 +29,10 @@ This is the generalization of the notion of [[symplectic manifold]] to [[higher 
 
 Notice that every symplectic manifold is in particular a [[Poisson manifold]] and that the structure of a Poisson manifold is equivalently encoded in the corresponding [[Poisson Lie algebroid]]. A _[[symplectic groupoid]]_ is the [[Lie integration]] of such a Poisson Lie algebroid. Therefore, strictly speaking, already "ordinary" symplectic geometry secretly involves [[Lie groupoid]]s. This insight is exploited in the refinement of [[geometric quantization of symplectic groupoids]]. 
 
+## Constructions
 
-## By Lie integration of symplectic $L_\infty$-algebroids
+### By Lie integration of symplectic $L_\infty$-algebroids
+  {#ByLieIntegration}
 
 The [[symplectic form]] $\omega$ on a [[symplectic Lie n-algebroid]] $\mathfrak{a}$ is Lie theoretically an [[invariant polynomial]]. Therefore by [[infinity-Chern-Weil theory]] it induces a moprhism
 
@@ -46,7 +50,7 @@ We spell this out in some special cases.
 
 
 
-### $n = 1$ -- Symplectic groupoids from Poisson Lie algebroids
+#### $n = 1$ -- Symplectic groupoids from Poisson Lie algebroids
 
 
 Let $\mathfrak{P}$ be the [[Poisson Lie algebroid]] corresponding to a [[Poisson manifold]] that comes from a [[symplectic manifold]] $(X,\omega)$.
@@ -214,6 +218,47 @@ $$
 
 This completes the proof.
 
+### Geometric quantization
+
+We discuss the [[geometric quantization]] of symplectic $\infty$-groupoids by generalizing the [[geometric quantization of symplectic groupoids]].
+
+Given a [[symplectic Lie n-algebroid]] $(\mathfrak{P}, \omega)$ we have by ([FRS](#FRS)) the corresponding [[infinity-Lie algebra cohomology|L-∞ cocycle]] in [[transgression]] with $\omega$
+
+$$
+  \pi : \mathfrak{P} \to b^{n+1}\mathbb{R}
+  \,.
+$$
+
+Its [[Lie integration]] 
+
+$$
+  \exp(\pi)
+  :
+  \tau_{n} \exp(\mathfrak{P})
+  \to
+  \mathbf{B}^{n+1} U(1)
+$$
+
+classifies a [[circle n-bundle with connection|circle n-bundle]]
+
+$$
+  \widehat \tau_n \exp(\mathfrak{P}) 
+   \to 
+  \tau_n \exp(\mathfrak{P})
+  \,,
+$$
+
+the **prequantum circle $n$-bundle**. By [[∞-Chern-Weil theory]] this pairs with the symplectic form from [above](ByLieIntegration) to a cocycle in [[ordinary differential cohomology]] 
+
+$$
+  [\nabla] \in H_{diff}^{n+1}(A, U(1))
+$$
+
+which classifies a [[circle n-bundle with connection]] $(\widehat \tau_n \exp(\mathfrak{P}), \nabla)$.
+
+This is the **geometric prequantization** of $(\mathfrak{P}, \omega)$.
+
+
 ## Related concepts
 
 * [[higher symplectic geometry]]
@@ -227,10 +272,14 @@ This completes the proof.
 
 ## References
 
-A bit of discussion is in section 4.3 of 
+Higher symplectic geometry is discussed in section 4.3 of 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
 
+The ingredients for the geometric quantization of symplectic Lie $n$-algebroids are constructed in 
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
+  {#FRS}
 
 [[!redirects symplectic ∞-groupoid]]
 [[!redirects symplectic ∞-groupoids]]
