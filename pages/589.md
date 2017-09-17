@@ -34,6 +34,8 @@ Many familiar categories of mathematical structures are complete: to name just a
 
 As hinted above, every [[complete lattice]] is complete as a category.
 
+A common situation is that of a category of algebras for a [[monad]] in a complete category:  If there exists a [[monadic  functor]] $C\to D$ and $D$ is complete, then $C$ is complete (as [[monadic functor|mondic functors]] [[created limit|create limits]]).  This includes some obvious examples (such as [[Grp]], [[Ab]], and [[Vect]]), as well as some less-obvious examples, such as [[complete lattice|complete lattices]] and [[compact space|compact]] [[Hausdorff space|Hausdorff]] spaces
+
 
 ## Related concepts
 
