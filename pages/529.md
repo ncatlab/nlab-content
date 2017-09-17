@@ -184,6 +184,8 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 * [[augmentation ideal]]
 
+* [[∞-group ∞-ring]]
+
 ## References
 
 Lecture notes include
