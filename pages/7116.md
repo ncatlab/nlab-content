@@ -93,8 +93,7 @@ $$
   \,.
 $$
 
-With respect to these standard absolute values, both $\mathbb{R}$ and $\mathbb{C}$ are [[complete field|complete]] [[archimedean fields]].
-
+These standard absolute values are archimedean, and with respect to these standard absolute values, both $\mathbb{R}$ and $\mathbb{C}$ are [[complete field|complete]] and hence are complete [[archimedean valued fields]]. Notice that $\mathbb{R}$ is in addition an [[ordered field]] and as such also an [[archimedean field]].
 
 ### On the rational numbers
 
@@ -127,3 +126,8 @@ The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete
 
 [[!redirects absolute value]]
 [[!redirects absolute values]]
+
+[[!redirects archimedean absolute value]]
+[[!redirects Archimedean absolute value]]
+[[!redirects archimedean absolute values]]
+[[!redirects Archimedean absolute values]]
