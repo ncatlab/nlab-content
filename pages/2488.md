@@ -71,6 +71,26 @@ Some terminology:
 * By the above convention on (-2)-truncated $\infty$-groupoid, it is the [[terminal object]]s of $C$ that are (-2)-truncated.
 
 
++-- {: .un_defn}
+###### Definition
+**($n$-truncated morphism in an $(\infty,1)$-category)**
+
+A morphism $f : X \to Y$ of [[∞-groupoid]]s is $n$-truncated if all of its [[nLab:homotopy fiber]]s are.
+
+A morphism $f : X \to Y$ in an [[(∞,1)-category]] $C$ is $n$-truncated if for all $W \in C$ the postcomposition morphism
+
+$$
+  C(W,f) : C(W,X) \to C(W,Y)
+$$
+
+is $n$-truncated in [[∞Grpd]].
+
+=--
+
+By the [characterization of homotopy fiber of functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats)
+this is equivalent to saying that $F$ is $k$-truncated when regarded as an
+object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$.
+
 ### In terms of categorical homotopy groups 
 
 At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, more intrinsic, characterization of $n$-truncation in terms of [[categorical homotopy groups in an (∞,1)-topos]]:
@@ -98,6 +118,51 @@ This is [[Higher Topos Theory|HTT, prop 6.5.1.7]].
 Notice that this expected statement does require the assumption that $X$ is $k$-truncated for some $k$. Without any _a priori_ truncation assumption on $X$, there is no comparable statement about the relaton to categorical homotopy groups. See [[Higher Topos Theory|HTT, remark 6.5.1.8]].
 
 =--
+
+
+## Properties
+
+### Recursive definition
+
++-- {: .un_prop}
+###### Proposition
+
+In an $(\infty,1)$-category with finite limits, a morphism
+$f : X \to Y$ is $k$-truncated (for $k \geq -1$) precisely if the
+diagonal morphism $X \to X \times_Y X$ is $(k-1)$-truncated.
+
+=--
+
+This is [[Higher Topos Theory|HTT, lemma 5.5.6.15]].
+
++-- {: .proof}
+###### Proof
+
+for $C = $ [[∞Grpd]] this is a classical statement of [[homotopy theory]].
+
+The general case reduces to this one: for each object $D \in C$, het
+$j(D) : C \to \infty Grpd$ be the functor co-represented by it.
+These [[hom-functor]]s preserve in particular finite limits.
+
+Moreover, by definition $f : X \to Y$ is $k$-truncated if 
+$j(D)(f) : C(D,X) \to C(D,Y)$ is $k$-truncated.
+ 
+
+=--
+
+
+
+### General
+
++-- {: .un_prop}
+###### Proposition
+
+For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-category]] $\tau_{\leq k} C$ is stable under all [[limit in a quasi-category|limits]] in $C$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.6.5]].
+
 
 
 ## Truncation 
@@ -145,6 +210,93 @@ $$
 
 ### Properties {#Properties}
 
+#### General {#GeneralPropsTruncation}
+
+
++-- {: .un_cor}
+###### Observation/Corollary
+
+A left [[exact functor]] 
+$F : C \to D$
+between $(\infty,1)$-categories with finite limits sends
+$k$-truncated objects/morphisms to $k$-truncated objects/morphisms.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.6.1.6]].
+
+
++-- {: .proof}
+###### Proof
+
+Follows from the above recursive characterization of 
+$k$-truncated morphisms by the $(k-1)$-truncation of their
+diagonal, which is preserved by the finite limit preserving $F$.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+A presentable $(\infty,1)$-functor $F : C \to D$  between
+[[locally presentable (∞,1)-categories]] $C$ and $D$ commutes with 
+localization:
+
+$$
+  F \circ \tau^C_{\leq k} \simeq \tau^D_{\leq k} \circ F
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.6.28]].
+
++-- {: .proof}
+###### Proof
+
+By the above lemma, $F$ restricts to a functor on the truncations. So we need to show that the diagram
+
+$$
+  \array{
+    C &\stackrel{F}{\to}& D
+    \\
+    {}^{\mathllap{\tau_{\leq k}}}\downarrow 
+    & (?) & 
+    \downarrow^{\mathrlap{\tau_{\leq k}}}
+    \\
+    \tau_{\leq k } C &\stackrel{F}{\to}&
+    \tau_{\leq k} D
+  }
+$$
+
+in [[(∞,1)Cat]] can be filled by a 2-cell. To see this, notice that the
+[[adjoint (∞,1)-functor]] of both composite morphisms exists 
+(because that of $F$ exists by the [[adjoint (∞,1)-functor theorem]]
+and bcause adjoints of composites are composites of adjoints)
+and since the bottom morphism is just the restriction of the top morphism
+and the right adjoints of the vertical morphisms are full inclusions
+this adjoint diagram 
+
+$$
+  \array{
+    C &\stackrel{G}{\leftarrow}& D
+    \\
+    \uparrow 
+    & & 
+    \uparrow
+    \\
+    \tau_{\leq k } C &\stackrel{G}{\leftarrow}&
+    \tau_{\leq k} D
+  }
+  \,.
+$$
+
+evidently commutes, since it just expresses this restriction.
+
+=--
+
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -152,8 +304,50 @@ If $C$ is an [[(∞,1)-topos]], then truncation $\tau_{\leq n} : C \to C$ preser
 
 =--
 
+This appears as [[Higher Topos Theory|HTT, lemma 6.5.1.2]].
 
-This is [[Higher Topos Theory|HTT, lemma 6.5.1.2]].
++-- {: .proof}
+###### Proof
+
+First notice that the statement is true for $C = $ [[∞Grpd]]. For instance we can use the example [In ∞Grpd and Top](#InInfGrpd), model [[∞-groupoid]]s by [[Kan complex]]es and notice that then $\tau_{\leq n}$ is given by the truncation functor $tr_{n+1} : sSet \to [\Delta^{op}_{\leq n+1}, sSet]$. This is also a [[right adjoint]] and as such preserves in particular product in $sSet$, which are $(\infty,1)$-products in $\infty Grpd$.
+
+From that we deduce that the statement is true for  $C$ any [[(∞,1)-category of (∞,1)-presheaves]] $C = PSh_{(\infty,1)}(K) = Func_{(\infty,1)}(K^{op}, \infty Grpd)$ because all relevant operations there are objectwise those in $\infty Grpd$.
+
+So far this shows even that on presheaf $(\infty,1)$-toposes all products (not necessarily finite) are preserved by truncation.
+
+A general [[(∞,1)-topos]] $C$ is (by definition) a left exact [[reflective sub-(∞,1)-category]] of a presheaf $(\infty,1)$-topos, 
+
+$$
+  C \stackrel{\overset{L}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  PSh_{(\infty,1)}(K)
+  \,.
+$$ 
+
+Let $\prod_{j} i(X_j)$ be the product of the objects in question
+taken in $PSh(K)$. By the above there we have an equivalence
+
+$$
+  \tau_{\leq k} \prod_j i(X_j)
+  \stackrel{\simeq}{\to}
+  \prod_j \tau_{\leq} i(X_j)
+  \,.
+$$
+
+Now applying $L$ to this equivalence and using now that $L$ preserves the
+_finite_ product, this gives an equivalence
+
+$$
+  L \tau_{\leq k} \prod_j i(X_j)
+  \stackrel{\simeq}{\to}
+  L \prod_j \tau_{\leq} i(X_j)
+  \simeq
+  \prod_j L \tau_{\leq} i(X_j)
+$$
+
+in $C$. The claim follows now with the above result that $L \circ \tau_{\leq n} \simeq \tau_{\leq n} \circ L$.
+
+=--
+
 
 
 
@@ -182,18 +376,6 @@ $$
 is the [[Postnikov tower in an (∞,1)-category]] of $A$. See there for more details.
 
 
-
-## Properties
-
-
-+-- {: .un_prop}
-###### Proposition
-
-For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-category]] $\tau_{\leq k} C$ is stable under all [[limit in a quasi-category|limits]] in $C$.
-
-=--
-
-This is [[Higher Topos Theory|HTT, prop. 5.5.6.5]].
 
 ### Relation to homotopy groups {#RelationToHomotopyGroups}
 
@@ -234,6 +416,16 @@ If $X \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-trunca
 
 
 ## Examples
+
+### Truncated morphisms
+
+A morphism $f : X \to 0$ is 
+
+* (-2)-truncated precisely if it is an 
+  [[equivalence in a quasi-category|equivalence]];
+
+* (-1)-truncated precisely if it is a 
+  [[monomorphism in an (infinity,1)-category|monomorphism]].
 
 ### In $\infty Grpd$ and in $Top$ {#InInfGrpd}
 
