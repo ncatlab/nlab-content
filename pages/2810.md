@@ -139,6 +139,14 @@ For an $E_k$-operad in a [[category of chain complexes]], its [[homology]] is th
 
 See for instance [Costello](#Costello)
 
+## Examples
+
+Explicit models of $E_\infty$-operads include
+
+* [[Barratt-Eccles operad]]
+
+(...)
+
 ## Related concepts
 
 * [[A-∞ operad]]
