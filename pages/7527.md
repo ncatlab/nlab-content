@@ -1,0 +1,4 @@
+Phil Scott is a Canadian based researcher with research interests in Mathematical Logic, Category Theory, Foundations of Mathematics and Computing,  and in Theoretical Computer Science.
+
+* [homepage](http://www.site.uottawa.ca/~phil/)
+category: people
