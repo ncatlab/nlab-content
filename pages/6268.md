@@ -1,0 +1,45 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Yoneda lemma
++--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A **classifying map** or **classifying morphism** for a given [[object]] is a [[morphism]] into a [[classifying space]] that classified this object.
+
+## Examples
+
+* For [[subobject]]s one typically speaks of **characteristic maps** or **characteristic functions**. The corresponding classifiyng space is a _[[subobject classifier]]_ . See there for more.
+
+
+## Related concepts
+
+* [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+[[!redirects classifying map]]
+[[!redirects classifying function]]
+
+[[!redirects characteristic map]]
+[[!redirects characteristic morphism]]
+[[!redirects characteristic function]]
+
+[[!redirects classifying morphisms]]
+[[!redirects classifying maps]]
+[[!redirects classifying functions]]
+
+[[!redirects characteristic maps]]
+[[!redirects characteristic morphisms]]
+[[!redirects characteristic functions]]
+
