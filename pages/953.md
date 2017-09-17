@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-# Idea #
+## Idea 
 
 A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows us to consider it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] [[Grothendieck group]] $\mathbf{K}(C)$ of $C$.
 
@@ -33,7 +33,7 @@ with $A \hookrightarrow B$ a special morphism called a Waldhausen cofibration co
 
 Using this, the [[Waldhausen S-construction]] on $C'$ is an algorithm for computing the [[K-theory]] spectrum of $C$.
 
-# Definition #
+## Definition 
 
 Waldhausen in his work in [[K-theory]] introduced the notion of a category with cofibration and weak equivalences, nowadays known as _Waldhausen category_. As the original name suggests, this is a category $C$ with zero object $0$, equipped with a choice of two classes of maps $\mathrm{cof}$ of the cofibrations and $w.e.$ of weak equivalences such that
 
@@ -69,14 +69,14 @@ given by formula $\Omega\mathrm{hocolim}_{\Delta^{\mathrm{op}}}([n]\mapsto N_\bu
 
 Then the K-groups are the [[homotopy group]]s of the K-theory space.
 
-#Remarks#
+## Remarks
 
 * The axioms of a Waldhausen category $C$ are very similar to the axioms of a [[category of fibrant objects]] on the [[opposite category]] $C^{op}$ in which the initial object is also terminal. The difference is in axiom W3, whose analog in a [[category of fibrant objects]] is the axioms that every object has a [[path object]]. It still follows that one has fibration sequences in a [[category of fibrant objects]].
 
 
-# Examples #
+## Examples 
 
-## Waldhausen category of a small abelian category ##
+### Waldhausen category of a small abelian category 
 
 For $C$ a [[small category|small]] [[abelian category]] the [[category of chain complexes|category of bounded chain complexes]] $Ch^b(C)$ becomes a Waldhausen category by taking
 
@@ -85,7 +85,7 @@ For $C$ a [[small category|small]] [[abelian category]] the [[category of chain 
 * a cofibration $f : A_\bullet \to X_\bullet$ is a chain morphism that is a [[monomorphism]] in $C$ in each degree $f_n : A_n \to X_n$.
 
 
-## Waldhausen category of a small exact category ##
+### Waldhausen category of a small exact category 
 
 For $C$ just a [[Quillen exact category]] with ambient [[abelian category]] $\hat C$ there is an analogous, slightly more sophisticated construction of a Waldhausen category structure on $Ch^b(C)$:
 
@@ -93,7 +93,15 @@ For $C$ just a [[Quillen exact category]] with ambient [[abelian category]] $\ha
 
 * the cofibrations are the degreewise _admissable morphisms_, i.e. those morphisms $A \to X$ such that the pushout $A \to X \to A/X$ computed in the ambient [[abelian category]] $\hat C$ is in $C$.
 
-# References #
+## Related concepts
+
+* [[category with weak equivalences]]
+
+* [[category of fibrant objects]], [[category of cofibrant objects]]
+
+* [[model category]]
+
+## References 
 
 Waldhausen categories are discussed with an eye towards their application in the computation of [[Grothendieck group]]s in [chapter 2](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.II.pdf) of
 
