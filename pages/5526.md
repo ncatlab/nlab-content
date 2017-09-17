@@ -84,7 +84,7 @@
 
 * **[[smooth ∞-groupoid]]**
 
-  * [[smooth manifold]], [[diffeological space]], [[Lie group]], [[Lie groupoid]], [[Lie 2-group]], [[Lie 2-groupoid]]
+  * [[smooth manifold]], [[diffeological space]], [[Lie group]], [[Lie groupoid]], [[differentiable stack]], [[Lie 2-group]], [[Lie 2-groupoid]], [[smooth ∞-groupoid]]
 
 * **[[synthetic differential ∞-groupoid]]**
 
