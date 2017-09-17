@@ -81,6 +81,10 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
+Analogous remarks are also in
+
+*  [[John Duskin]] _Simplicial matrices and the nerves of weak $n$-categories I: Nerves of bicategories_ , TAC **9** no. 2, (2002). ([web](http://www.emis.de/journals/TAC/volumes/9/n10/9-10abs.html))
+
 
 A pedagogical introduction to Postnikov systems with an eye towards their $\infty$-[[infinity-groupoid|groupoid]] incarnation under the correspondence given by the [[homotopy hypothesis]] is in
 
