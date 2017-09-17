@@ -17,18 +17,3 @@ Note that a bicartesian closed category is [[bicartesian category|bicartesian]] 
 Also note that a bicartesian closed category is automatically a [[distributive category]]. This follows since the functors $X\mapsto A\times X$ have right adjoints (by closedness), so they preserve colimits. 
 
 A bicartesian closed category is one kind of [[2-rig]].
-
-+-- {: .query}
-Question: don't you need *distributive* bicartesian closed categories to interpret intuitionistic propositional logic? Consider the or-elimination rule 
-
-$$
-\frac{\Gamma, A \vdash C \qquad \Gamma,B \vdash C}
-     {\Gamma, A + B \vdash C}
-$$
-
-The intepretations of the two premises will be maps of type $\Gamma \times A \to C$ and $\Gamma \times B \to C$. Then the universal property of coproducts gets us to $(\Gamma \times A) + (\Gamma \times B) \to C$, but we can't get any farther -- we need a distributivity law to get $\Gamma \times (A+B) \to C$.
-
-Answer: Does the above answer your question?
-
-Yes, it does. Thanks a lot!
-=--
