@@ -112,3 +112,18 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 [[!redirects lax-idempotence]]
 [[!redirects colax-idempotent]]
 [[!redirects colax-idempotence]]
+
+[[!redirects lax idempotent 2-monad]]
+[[!redirects lax idempotent 2-monads]]
+[[!redirects lax idempotent monad]]
+[[!redirects lax idempotent monads]]
+
+[[!redirects colax idempotent 2-monad]]
+[[!redirects colax idempotent 2-monads]]
+[[!redirects colax idempotent monad]]
+[[!redirects colax idempotent monads]]
+
+[[!redirects lax idempotent]]
+[[!redirects lax idempotence]]
+[[!redirects colax idempotent]]
+[[!redirects colax idempotence]]
