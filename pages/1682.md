@@ -233,7 +233,7 @@ See also
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011)
 
-More details are in  
+An actual detailed account of the construction of $tmf$ is in
 
 * [[Mark Behrens]], _Notes on the construction of $tmf$_ ([pdf](http://math.mit.edu/~mbehrens/papers/buildTMF.pdf))
 
