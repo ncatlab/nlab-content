@@ -1,0 +1,5 @@
+
+
+A [[class]]. As opposed to _[[small set]]_. See _[[universe enlargement]]_.
+
+[[!redirects large sets]].
