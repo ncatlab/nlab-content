@@ -12,13 +12,13 @@ These together with the _internal_ [[Ext]] and [[Tor]] functors are often called
 
 ## Related concepts
 
-* [[recollement]]
+* [[Grothendieck duality]]
 
 ## References
 
 A general abstract discussion is in 
 
-* H. Fausk, P. Hu, and [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+* H. Fausk, P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
 
 The traditional applications are discussed in
 
