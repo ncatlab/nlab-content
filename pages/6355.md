@@ -17,9 +17,9 @@
 
 In the context of [[mechanics]] (broadly construed), one distinguishes between *kinematics* and *dynamics*:
 
-1. __Kinematics__ concerns (only) the [[states]] and [[observables]], including the [[spaces]] and [[algebras]] (such as a [[phase space]] or [[Hilbert space]] [[space of states|of (pure) states]] and an appropriate [[algebra of observables]]) into which they are organised;
+1. __Kinematics__ concerns (only) the [[physical fields]], [[states]] and [[observables]], including the [[spaces]] and [[algebras]] (such as a [[phase space]] or [[Hilbert space]] [[space of states|of (pure) states]] and an appropriate [[algebra of observables]]) into which they are organised;
 
-2. __Dynamics__ additionally treats the evolution of the system in [[time]] or even [[spacetime]]: as given by a [[Hamiltonian]], [[Lagrangian]], [[action functional]], etc.  
+2. __Dynamics__ additionally treats the evolution of the system in [[time]] or even [[spacetime]]: as given by a [[Lagrangian]] and [[action functional]] and as given by the [[action]] of [[Hamiltonian]] [[quantum observables]] on physical states.
 
    In the [[Schrödinger picture]], we think of the [[states]] as evolving, while the [[observables]] evolve in the [[Heisenberg picture]]. In the [[interaction picture]] we think of the states as evolving with respect to a given time evolution and the observables to evolve, too, with respect to a [[perturbation theory|perturbation]] of this time evolution.
 
@@ -86,6 +86,7 @@ So in terms of the background field data we have:
 * the kinematics is encoded in a smooth [[principal bundle]] -- hence a [[cocycle]] in [[smooth infinity-groupoid -- structures|smooth cohomology]];
 
 * the dynamics is encoded in a [[connection on a bundle|connection]] on this bundle -- hence a refinement of the above cocycle to [[ordinary differential cohomology]].
+
 
 
 [[!redirects kinematics and dynamics]]
