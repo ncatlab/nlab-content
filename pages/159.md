@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[higher category theory]] a notion of $\infty$-[[infinity-category|categories]] or $n$-[[n-category|categories]] is said to be **semi-strict**, if these higher categories are, somewhat vaguely, _as strict as possible while still being equivalent to general weak higher categories_.
+In [[higher category theory]] a notion of $\infty$-[[infinity-category|categories]] or $n$-[[n-category|categories]] is said to be **semi-strict**, if these higher categories are, somewhat vaguely, _as strict as possible while still being equivalent to general weak higher categories_ -- a kind of [[rectification]] statement.
 
 For $n \leq 2$, even [[strict n-categories]] are semi-strict, but this does not hold for $n \gt 2$.
 
@@ -33,6 +33,9 @@ all horizontal composition is strict. See [[relation between quasi-categories an
 
 * A [[dg-category]] is an [[A-infinity-category]] in which horizontal composition is defined strictly. Every $A_\infty$-category is $A_\infty$-equivalent to a [[dg-category]]. This is at least rouhgly the [[stable (∞,1)-category]] analog of the above statement.
 
+## Related concepts
+
+* [[rectification]]
 
 ## References
 
