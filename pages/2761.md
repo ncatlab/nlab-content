@@ -24,7 +24,7 @@
 The statement of the [[Yoneda lemma]] has a straightforward generalization from [[category|categories]] to [[(∞,1)-category|(∞,1)-categories]].
 
 
-## Yoneda embedding
+## Yoneda embedding {#YonedaEmbedding}
 
 +-- {: .un_def }
 ###### Definition
@@ -39,6 +39,8 @@ $$
 given by $y(X) : U \mapsto C(U,X)$.
 
 =--
+
+
 
 ## Properties
 
@@ -104,6 +106,40 @@ The $(\infty,1)$-Yoneda embedding $y : C \to PSh(C)$ preserves all [[(∞,1)-lim
 
 This appears as [[Higher Topos Theory|HTT, prop. 5.1.3.2]].
 
+
+### Local Yoneda embedding {#LocalYonedaEmbedding}
+
+
++-- {: .un_prop }
+###### Proposition
+
+For $C$ an [[(∞,1)-site]] and $\mathcal{X}$ an [[(∞,1)-topos]], [[(∞,1)-geometric morphism]]s $(f^* \dashv f_*) Sh(C) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} \mathcal{X}$ from the [[(∞,1)-sheaf (∞,1)-topos]] $Sh(C)$ to $\mathcal{X}$ correspond to the **local** [[(∞,1)-functor]]s $f^* : C \to \mathcal{X}$, those that 
+
+* are left [[exact (∞,1)-functor]]s;
+
+* send [[covering]] families $\{U_i \to X\}$ in $\mathcal{G}$ to [[effective epimorphism]]
+
+  $$
+    \coprod_i f^*(U_i) \to f^*(X)
+    \,.
+  $$
+
+More preseicely, the [[(∞,1)-functor]]
+
+$$
+  Topos(\mathcal{X}, Sh_{(\infty,1)}(\mathcal{G}))
+  \stackrel{L}{\to}
+  Topos(\mathcal{X}, PSh_{(\infty,1)}(\mathcal{G}))
+  \stackrel{y}{\to}
+  Func(\mathcal{G}, \mathcal{X})
+$$
+
+given by precomposition of [[inverse image]] functors by [[∞-stackification]] and by the [(∞,1)-Yoneda embedding](#YonedaEmbedding)
+is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by these local morphisms.
+
+=--
+
+This appears as ([[Higher Topos Theory|HTT, prop. 6.2.3.20]]).
 
 ## References
 
