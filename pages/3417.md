@@ -63,7 +63,7 @@ Such a morphism is also called a **Dwyer-Kan weak equivalence** after the work b
   1. the induced functor $\pi_0(F) : Ho(C) \to Ho(D)$ on [[homotopy categories]] is an [[isofibration]].
 
 
-In particualar, the fibrant objects in this structure are the [[Kan complex]]-enriched categories, i.e. the strictly [[∞-groupoid]]-enriched ones (see [[(n,r)-category]]).
+In particular, the fibrant objects in this structure are the [[Kan complex]]-enriched categories, i.e. the strictly [[∞-groupoid]]-enriched ones (see [[(n,r)-category]]).
 
 ### Related concepts
 
