@@ -40,13 +40,13 @@ Certain elementary properties are easy to prove.
 
 +-- {: .num_prop #ElemProp}
 ###### Proposition
-There is an obvious embedding of $\mathcal{T}$ as a full subcategory of $E(\mathcal{T})$ via
+There is a ("double/twosided Yoneda") embedding of $\mathcal{T}$ as a full subcategory of $E(\mathcal{T})$ via
 
 \[
 T \mapsto (\mathcal{T}(-,T), \mathcal{T}(T,-), \circ)
 \]
 
-Identifying $\mathcal{T}$ with its image, we have [[natural isomorphism]]s
+Identifying $\mathcal{T}$ with its image, there are [[natural isomorphism]]s
 
 \[
 \mathcal{T}^g(T,X) \cong P_X(T), \qquad \mathcal{T}^g(X,T) \cong F_X(T)
@@ -76,7 +76,7 @@ In other words, a lax factorisation of $Hom$ through $1$.
 
 ## Concrete Envelopes
 
-A variant of the above involves having a background category, say $\mathcal{U}$.  The test objects should be viewable also as objects of $\mathcal{U}$, usually via a faithful functor.  Any object of $\mathcal{U}$ defines a profunctor $\mathcal{T} \to \mathcal{T}$ (which factors through $1$) via
+A variant of the above involves a background category, say $\mathcal{U}$.  The test objects should be viewable also as objects of $\mathcal{U}$, usually via a faithful functor.  Any object of $\mathcal{U}$ defines a profunctor $\mathcal{T} \to \mathcal{T}$ (which factors through $1$) via
 
 \[
 \begin{aligned}
