@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 =--
 =--
 
