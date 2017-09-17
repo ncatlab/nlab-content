@@ -258,7 +258,7 @@ This is in ([ABGHR, section 8](#ABGHR)).
 
 Equivalently the Thom spectrum is characterized as follows:
 
-+-- {: .num_defn}
++-- {: .num_defn #ThomSpectrumAsHomotopyColimit}
 ###### Definition/Proposition
 
 For $\chi \colon X \to  R Line$ a map to the [[∞-group]] of $R$-[[(∞,1)-lines]] inside $R Mod$, the corresponding Thom spectrum is the [[(∞,1)-colimit]]
