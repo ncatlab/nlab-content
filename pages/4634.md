@@ -17,6 +17,8 @@
 
 The notion of [[motives]] in algebraic geometry can be adapted to derived [[noncommutative geometry]]. The idea and the first version has been developed by [[Maxim Kontsevich]]. There is a remarkable observation that the [[category of Chow motives]] (after localizing at the [[Lefschetz motive]]) can be embedded into the category of Kontsevich's noncommutative motives. More recently this direction has been systematically studied by Cisinski and Tabuada. 
 
+A second approach is due to [[Bertrand Toën]], [[Michel Vaquié]], [[Gabriele Vezzosi]].  They construct a [[motivic stable homotopy theory]] for [[noncommutative geometry|noncommutative spaces]] (in the sense of [[Kontsevich]]).
+
 There is another approach by [[Arne Ostvaer]].
 
 In [[noncommutative geometry]] a la [[Alain Connes]], Connes and [[Matilde Marcolli]] have also introduced some motivic ideas. Marcolli also has most recent collaboration with Tabuada on the algebraic side.
@@ -174,6 +176,21 @@ See also
 
 * Ivo Dell'Ambrogio, [[Gonçalo Tabuada]], _Tensor triangular geometry of non-commutative motives_, [arxiv/1104.2761](http://arxiv.org/abs/1104.2761) 
 
+For the approach of [[Bertrand Toën]]-[[Michel Vaquié]]-[[Gabriele Vezzosi]], see
+
+* [[Michel Vaquié]], _A new approach on non commutative motives_, lecture at [JAMI 2011](http://www.mathematics.jhu.edu/new/jami2011/noncommgeo.htm).  [video](http://streams1.nts.jhu.edu/mathematics/jami2011/), [notes](http://streams1.nts.jhu.edu/mathematics/jami2011/jami2011pdf/Vaquie.pdf)
+
+and the Ph.D. thesis of [[Marco Robalo]], under the supervision of [[Bertrand Toën]]:
+
+* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012, [arxiv](http://arxiv.org/abs/1206.3645)
+
+* [[Marco Robalo]], _Noncommutative Motives II: K-Theory and Noncommutative Motives_, June 2013, [arxiv](http://arxiv.org/abs/1306.3795)
+
+Also the lectures notes:
+
+* [[Marco Robalo]], _Noncommutative motives and K-theory_, talk at [Higher Categories and Topological Quantum Field Theories,
+Vienna, 2013](http://www.mat.univie.ac.at/~favero/Workshops/Higher.html), [notes](http://www.mat.univie.ac.at/~favero/Workshops/here/NotesRobalo.pdf)
+
 category: algebraic geometry, noncommutative geometry
 
 [[!redirects noncommutative motif]]
@@ -195,4 +212,3 @@ category: algebraic geometry, noncommutative geometry
 
 [[!redirects (infinity,1)-categories of noncommutative motives]]
 [[!redirects (∞,1)-categories of noncommutative motives]]
-
