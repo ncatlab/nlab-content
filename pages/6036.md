@@ -96,6 +96,8 @@ See also
 
 * A. D. Popov, _Geometric quantization of strings and reparametrization invariance_, Theoretical and Mathematical Physics, Volume 83, Number 3 (1990) ([journal](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=tmf&paperid=5817&option_lang=eng))
 
+### In multisymplectic geometry and higher geometric quantization
+ {#ReferencesMultisymplecticGeometry}
 
 A discussion starting systematically with the correct [[symplectic form]]  obtained by transgression from an [[multisymplectic geometry|multisymplectic]] [[extended phase space]] and including the [[BRST-complex|BRST sector]] is in
 
