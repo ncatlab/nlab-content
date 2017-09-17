@@ -45,9 +45,26 @@ with the following properties:
 
 These are called the _Morava K-theories_.
 
-Due to the thrid point one may regard $K(n)$ as a "$E_\infty$-field" among the [[E-infinity rings]].
+Due to the third point one may regard $K(n)$ as a [[E-∞ field]] among the [[E-infinity rings]]. See [below](#AsInfinityFields).
 
 ## Properties
+
+### Universal characterization
+
++-- {: .num_prop}
+###### Proposition
+
+For each [[prime number]] $p$ and each $n \in \mathbb{N}$, the Morava K-theory [[E-∞ ring]] $K(n)$ is, up to [[equivalence in an (∞,1)-category]], the unique [[E-∞ ring]] which is
+
+1. [[complex oriented]];
+
+1. whose [[formal group]] has [[height of a formal group|height]] exactly $n$;
+
+1. whose [[homotopy groups]] are $\pi_\bullet \simeq \mathbb{F}_p[v_n^\pm]$.
+
+=--
+
+For instance ([Lurie, lecture 24, prop. 11](#LurieLecture)).
 
 ### As $E_\infty$-fields
  {#AsInfinityFields}
