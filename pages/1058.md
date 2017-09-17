@@ -1,4 +1,8 @@
-If $C$ is a [[small category]] (or even a [[topological category]]), one can define a $C$-torsor (or _torsor with structure category $C$_) which generalizes the [[torsor]] (principal bundle) with structure group(oid).  
+## Idea
+
+If $C$ is a [[small category]] (or even a [[topological category]]), one can define a $C$-torsor (or _torsor with structure category $C$_) which generalizes the [[torsor]] (principal bundle) with structure group(oid). We present two variants in slightly different context.  
+
+## Moerdijk's definition
 
 If $F$ is a [[sheaf]] over $X$, denote by $F_x$ its stalk over $x$ (cf. [[etale space]]). 
 
@@ -16,7 +20,21 @@ This definition is from the monograph
 
 where it is shown that _the [[classifying space]] of a category $C$ classifies $C$-torsors_.
 
-There is another notion of $C$-torsor in
+## Street's definition
+
+Suppose now $C$ is a finitely complete category with a [[calculus of left fractions]] whose morphisms are called *covers*.
+
+Let $A$ be an [[internal category]] in $C$. An __$A$-torsor trivialized by a cover__ $e : V\to U$ is a [[discrete fibration]] $A\stackrel{p}\leftarrow E\stackrel{q}\to U$ for which there exist a morphism $a : V\to A$ and a commutative diagram
+
+<center><img src="http://latex.codecogs.com/gif.latex?
+\xymatrix{
+A\downarrow{a}\ar[r]^q \ar@/_2pc/[dd]_{p} \ar@%3C-.5ex%3E[d]
+%26 V\ar[d]^e \\
+E\ar[r]_q\ar[d]_p%26 U\\
+A%26
+}" />
+</center>
+in which the square is a pullback. Street says __$A$-torsor at $U$__ for an $A$-torsor trivialized by some cover $e : V\to U$.
 
 * [[Ross Street]], _Combinatorial aspects of descent theory_, [pdf](http://www.math.mq.edu.au/~street/DescFlds.pdf) (page 25 in the file)
 
