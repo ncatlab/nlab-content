@@ -7,7 +7,7 @@
 
 * [[Lagrangian]], [[local action functional]]
 
-* [[Euler-Lagrange equations]], [[de Donder-Weyl formalism]]
+* [[principle of extremal action]], [[Euler-Lagrange equations]], [[de Donder-Weyl formalism]]
 
 * [[covariant phase space]]
 
@@ -24,7 +24,6 @@
 
 * [[D-module]]
 
-(...)
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/variational+calculus+-+contents)</div>
