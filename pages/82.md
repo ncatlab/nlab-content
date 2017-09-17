@@ -100,7 +100,7 @@ A survey is in
 
 ### History
 
-* [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825))
+* [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf)
 
 
 [[!redirects Sheaf and Topos Theory]]
