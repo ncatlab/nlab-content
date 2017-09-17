@@ -791,6 +791,9 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 [[!redirects fiber sequences]]
 
+[[!redirects homotopy cofiber sequence]]
+[[!redirects homotopy cofiber sequences]]
+
 
 [[!redirects homotopy exact sequence]]
 [[!redirects homotopy exact sequences]]
