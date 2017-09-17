@@ -447,3 +447,5 @@ Relations to [[algebraic K-theory]] are discussed in
 [[!redirects complex K-theory]]
 
 [[!redirects periodic complex K-theory]]
+
+[[!redirects complex topological K-theory]]
