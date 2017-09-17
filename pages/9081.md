@@ -293,11 +293,11 @@ So we are after a picture as indicated in the following table.
 ### Intermezzo: Recalling elements of higher cohesive geometry  
  {#IntermezzoElementsOfHigherCohesiveGeometry}
 
-The idea of _[[extended prequantum field theory]]_ indicated [above](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)  is best illustrated by the example of [[Chern-Simons field theory]]. We talk about this in a moment [below](#CSAsArchetypicalExample), but since in order to do so we need now at least some basic notions from [[cohesion|cohesive]] [[higher geometry]], we briefly recall these first.
+The idea of _[[extended prequantum field theory]]_ indicated [above](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)  is best illustrated by the example of [[Chern-Simons field theory]]. We talk about this in a moment [below](#CSAsArchetypicalExample), but since in order to do so we need now at least some basic notions from [[cohesion|cohesive]] [[higher geometry]], we very briefly recall these first, just for reference. For more discussion see at _[geometry of physics - smooth homotopy types](geometry+of+physics#SmoothnGroupoids)_  and _[geometry of physics - Maurer-Cartan forms](geometry+of+physics#MaurerCartanForms)_ and _[geometry of physics  - principal connections](geometry+of+physics#PrincipalConnections)_
 
-(...)
+Fix some [[site]] $\mathcal{C}$ of test spaces which encode some notion of  [[geometry]]. The running example to keep in mind is the site [[SmthMfd]] of [[smooth manifolds]], or equivalently its full [[dense subsite]] of [[CartSp]] on manifolds of the form $\mathbb{R}^n$.  Assume for simplicity that the site has _[[point of a topos|enough points]]_ (which [[SmthMfd]] does).
 
-For $\mathcal{C}$ a [[site]] with [[point of a topos|enough points]] the [[(2,1)-category]] of [[(2,1)-sheaves]] ([[stacks]]) on $\mathcal{C}$ is the [[simplicial localization]]
+Then the [[(2,1)-category]] of [[(2,1)-sheaves]] ([[stacks]]) on $\mathcal{C}$ is the [[simplicial localization]] 
 
 $$
   Sh_{(2,1)}(\mathcal{C})
@@ -306,19 +306,17 @@ $$
   \,.
 $$
 
-$L_{le}$: formally turn [[stalk]]-wise ("local") [[equivalence of groupoids|equivalence of groupoids]] into actual [[equivalences]].
+of that of [[groupoid]]-valued [[presheaves]] on $\mathbf{C}$ at the _local equivalences_. This means that $Sh_{(2,1)}(\mathcal{C})$ is the result of turning [[stalk]]-wise ("local") [[equivalence of groupoids|equivalence of groupoids]] into actual [[equivalences]].
 
-(...)
+For the running example of $\mathcal{C} \simeq $ [[SmthMfd]] we may think of an object in $Sh_{(2,1)}(\mathcal{C})$ as a _[[smooth groupoid]]_. Examples include [[smooth manifolds]], [[diffeological space]],  [[orbifolds]], [[Lie groupoids]]/[[differentiable stacks]], sheaves of smooth differential forms, etc.
+
+The higher refinement of groupoids which we need are _[[∞-groupoids]]_. The collection of these is equivalently that of [[simplicial sets]] or (compactly generated weakly Hausdorff) [[topological spaces]] with the [[weak homotopy equivalences]] universally turned into actual [[homotopy equivalences]]:
 
 $$
   \infty Grpd \simeq L_{whe} sSet \simeq L_{whe} Top
 $$
 
-$L_{w}$: formally turn [[weak homotopy equivalences]] into actual [[homotopy equivalences]].
-
-(...)
-
-
+The combination of these two aspects, the [[geometry]] and the [[homotopy theory]], is that of [[(∞,1)-sheaves]]/[[∞-stacks]], here we write $\mathbf{H}$ for the collection of [[presheaves]] of [[simplicial sets]] ([[simplicial presheaves]]) with the local ([[stalk]]-wise) [[weak homotopy equivalences]] universally turned into actual homotopy equivalences:
 
 $$
   \array{
@@ -344,16 +342,14 @@ $$
   }&
   L_{whe} Func(\mathcal{C}^{op}, sSet)
   }
+  \,.
 $$
 
+This $\mathbf{H}$ is the _[[(∞,1)-topos]]_ over $\mathcal{C}$. This is the kind of context for the [[higher geometry]] encoded by $\mathcal{C}$ in which all of our constructions take place.
 
-$L_{lwhe}$: universally turn [[stalk]]-wise ("local") [[weak homotopy equivalences]] into actual [[homotopy equivalences]]
+In order to formulate not just [[kinematics]] but also [[dynamics]] in [[physics]], we need to require that $\mathbf{H}$ has an intrinsic notion of what it means to have a _path_ or _[[trajectory]]_ inside one of its objects. This is axiomatized by the notion of  _[[cohesion]]_: 
 
-(...)
-
-[[cohesion]]
-
-$\mathcal{C}$ an [[infinity-cohesive site]] 
+if $\mathcal{C}$ satisfies some properties that make it an an [[infinity-cohesive site]], the the [[global section geometric morphism]] of $\mathbf{H}$ extended to an [[adjoint quadruple]] of [[(∞,1)-functors]]:
 
 $$
   \array{
@@ -373,15 +369,15 @@ $$
   }
 $$
 
-(...)
+with some mild extra condition on $\Pi$ and $coDisc$. This is the case in particular for $\mathcal{C} = $ [[SmthMfd]] in which case we say that $\mathbf{H}$ is the [[cohesive (∞,1)-topos]] of _[[smooth ∞-groupoids]]_.
 
-the [[adjoint quadruple]] of [[(∞,1)-functors]] induces an [[adjoint triple]] of [[comonad|co]][[(∞,1)-monads]]:
+The defining [[adjoint quadruple]] of [[(∞,1)-functors]] induces an [[adjoint triple]] of [[comonad|co]][[(∞,1)-monads]]:
 
 | [[shape modality]] | $\dashv$ | [[flat modality]] | $\dashv$ |[[sharp modality]] |
 |--|--|--|--|--|
 | $\mathbf{\Pi} \coloneqq Disc \circ \Pi$ | | $flat \coloneqq Disc \circ \Gamma$ |   | $\sharp \coloneqq coDisc \circ \Gamma$  |
 
-for $G \in Grp(\mathbf{H})$ we have a [[pasting diagram]] of [[(∞,1)-pullbacks]]
+For $G \in Grp(\mathbf{H})$ a [[group object in an (∞,1)-category|group object]] in $\mathbf{H}$, hence a geometric [[∞-group]], we have by these axioms of [[cohesion]] a [[pasting diagram]] of [[(∞,1)-pullbacks]]
 
 $$
   \array{
@@ -409,9 +405,13 @@ $$
     \\
     * &\to& principal\,coefficients
   }
+  \,.
 $$
 
-for $\mathbb{G}$ a [[braided ∞-group]] set 
+Here the [[delooping]] $\mathbf{B}G$ is the moduli of geometric $G$-[[principal ∞-bundles]],  $\flat_{dR} \mathbf{B}G$ is that of flat [[infinity-Lie algebroid-valued differential form
+|L-∞ algebra valued differential forms]] and $\theta_G$ is the _[[Maurer-Cartan form]]_ on the [[smooth ∞-group]] $G$.
+
+If $\mathbb{G}$ is "slightly abelian" in that it is equipped with the structure of a [[braided ∞-group]], then we write
 
 $$
   curv_{\mathbb{G}}
@@ -421,8 +421,10 @@ $$
   \flat_{dR}\mathbf{B}^2 \mathbb{G}
 $$
 
-then $\mathbb{G}$-[[differential cohomology]] is $curv_{\mathbf{B}\mathbb{G}}$-[[twisted cohomology]]
+for the [[Maurer-Cartan form]] of its [[delooping]] [[∞-group]] and call this the _universal [[curvature]] characteristic_.
 
+Then _$\mathbb{G}$-[[differential cohomology]]_ is 
+_$curv_{\mathbf{B}\mathbb{G}}$-[[twisted cohomology]]_.
 In particular, if we consider globally defined curvature forms
 
 $$
@@ -445,7 +447,7 @@ $$
   }
 $$
 
-is the mopduli for [[principal ∞-connections]].
+is the moduli for [[principal ∞-connections]].
 
 Now for 
 
@@ -479,9 +481,9 @@ $$
   \,.
 $$
 
-These are the [[extended Lagrangians]] here.
+These are the [[extended Lagrangians]] in our discussion of [[extended prequantum field theory]].
 
-if $\mathbb{G} = \mathbf{B}^{n-1}U(1)$ then 
+In particular if, in the context of [[smooth ∞-groupoids]], we consider $\mathbb{G} = \mathbf{B}^{n-1}U(1)$ the [[circle n-group]] then 
 
 $$
   \mathbf{B}\mathbb{G}_{conn}
@@ -489,10 +491,11 @@ $$
   \mathbf{B}^n U(1)_{conn}
   \simeq
   DK(  U(1) \to \Omega^1 \to \cdots \to \Omega^n)
-  \,.
 $$
 
-There is [[fiber integration in ordinary differential cohomology]] refined to moduli $\infty$-stacks: for $\Sigma_k$ an oriented [[closed manifold]] of [[dimension]] $k$ we have a map
+is given as the [[∞-stackification]] of the image under the [[Dold-Kan correspondence]] of the _[[Deligne complex]]_ for [[ordinary differential cohomology]].
+
+In this case there is [[fiber integration in ordinary differential cohomology]] refined to moduli $\infty$-stacks: for $\Sigma_k$ an oriented [[closed manifold]] of [[dimension]] $k$ we have a map of [[moduli ∞-stacks]]
 
 $$
   \exp\left(
@@ -505,7 +508,7 @@ $$
   \,.
 $$
 
-Composed with the [[internal hom]] this is _[[transgression]]_ of differential cocycles. 
+Composed with the [[internal hom]] this is _[[transgression]]_ of differential cocycles. The transgressions of an [[extended Lagrangian]] as above are (the moduli for) the higher [[prequantum n-bundles]] that we consider here.
 
 
 ### Chern-Simons theory as the archetypical example
