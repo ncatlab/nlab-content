@@ -14,11 +14,11 @@
 
 ## Idea ##
 
-The **circle** is a fantastic thing with lots and lots of properties.  It is a:
+The **circle** is a fantastic thing with lots and lots of [[stuff, structure, property|properties and extra structures]].  It is a:
 
 * [[topological space]]
 * [[smooth manifold]]
-* [[Lie group]]
+* [[Lie group]] (the [[circle group]])
 * [[co-H-group]]
 
 and it is one of the basic building blocks for lots of areas of mathematics, including:
