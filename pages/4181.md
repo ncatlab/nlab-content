@@ -30,8 +30,8 @@ First, given a [[manifold]] with a torsion-free [[connection]] $\nabla$ on its [
 $$  v \cdot w = \nabla_v w $$
 The definition of 'torsion-free' is precisely \eqref{basic_identity}.  The Lie algebra arising from this pre-Lie algebra is just the usual Lie algebra of vector fields.
 
-Second, suppose $O$ is a linear [[operad]] whose space of unary operations is $1$-dimensional, and let $A$ be the free $O$-[[algebra of an operad|algebra]] on one generator.  As a vector space we have
-$$  A = \bigoplus_{n \ge 1} O_n/S_n \, .$$
+Second, suppose $O$ is a [[linear operad]], and let $A$ be the free $O$-[[algebra of an operad|algebra]] on one generator.  As a vector space we have
+$$  A = \bigoplus_{n} O_n/S_n \, .$$
 Here $S_n$ is the [[symmetric group]], which acts on the space $O_n$ of $n$-ary operations of $O$.  Moreover, $A$ becomes a pre-Lie algebra in a manner described here:
 
 * Dominique Manchon, [A short survey on pre-Lie algebras](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf)
