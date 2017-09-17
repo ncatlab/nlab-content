@@ -46,6 +46,9 @@ This is ([Lurie, def. 2.3.13, def. 2.3.16](#Lurie)).
 
 * [[rigid monoidal category]]
 
+* [[category with duals]]
+
+* [[dualizable object]]
 
 ## References
 
