@@ -41,6 +41,12 @@ For $E = H \mathbb{Z}_p$ the [[Eilenberg-MacLane spectrum]] of the [[cyclic grou
 
 * [[telescopic localization]]
 
+* [chromatic localization](Morava+E-theory#BousfieldLocalizationAndChromaticFiltration)
+
+## Related concepts
+
+* [[smashing localization]]
+
 ## References
 
 The original article is
@@ -55,4 +61,3 @@ Lecture notes include
 in section 2.4 of
 
 * Holger Reeker, _On K(1)-local SU-bordism_ ([arXiv:0907.4299](http://arxiv.org/abs/0907.4299))
-
