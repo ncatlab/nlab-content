@@ -102,8 +102,8 @@ The theory described above gives full second-order arithmetic. However, in [[rev
 
 * Harvey Friedman's [Home Page](http://www.math.osu.edu/~friedman.8/)
 
-* Stephen G. Simpson, _Subsystems of second order arithmetic_, Perspectives in Logic (2nd ed.), Cambridge University Press (2009). 
-{#Sim}
+* {#Sim} Stephen G. Simpson, _Subsystems of second order arithmetic_, Perspectives in Logic (2nd ed.), Cambridge University Press (2009) ([pdf](http://www.personal.psu.edu/t20/sosoa/chapter1.pdf))
+
 
 
 [[!redirects SOA]]
