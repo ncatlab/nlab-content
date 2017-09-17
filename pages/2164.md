@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
 ***
@@ -137,7 +136,7 @@ All the spaces that are described as collection of degree $n$ infinitesimal neig
 There are several different objects that one may think 
 of as an infinitesimal interval. 
 
-The smallest of them is often denoted $D$ and sometimes called the **disembodied tangent vector** or the *walking tangent vector** . 
+The smallest of them is often denoted $D$ and sometimes called the **disembodied tangent vector** or the **[[walking structure|walking]] tangent vector** . 
 
 This is described in more detail at
 
@@ -592,11 +591,11 @@ So inside the space of functions on infinitesimal simplices, we find the [[diffe
 
 #### The tangent Lie algebroid and differential forms
 
-The collection of the spaces $R^n \times \tilde D(k,n)$ for all $k \in \mathbb{N}$ naturally forms a [[simplicial object|simplicial]] [[smooth locus]] $(\mathbb{R}^n)^{(\Delta^\bullet_{inf})}$, which represents the [[schreiber:infinitesimal path ∞-groupoid]] of $\mathbb{R}^n$, equivalently the [[tangent Lie algebroid]] of $\mathbb{R}^n$. 
+The collection of the spaces $R^n \times \tilde D(k,n)$ for all $k \in \mathbb{N}$ naturally forms a [[simplicial object|simplicial]] [[smooth locus]] $(\mathbb{R}^n)^{(\Delta^\bullet_{inf})}$, which represents the [[schreiber:infinitesimal path  -groupoid]] of $\mathbb{R}^n$, equivalently the [[tangent Lie algebroid]] of $\mathbb{R}^n$. 
 
 Dually this is a [[smooth algebra|smooth]] [[cosimplicial algebra]]. Under the _normalized cochain complex functor_ of the dual [[Dold-Kan correspondence]] this identifies with a [[dg-algebra]]. The fact that this is the _normalized_ cochain complex algebra means that it consists in degree $k$ only of a subspace of the space that the cosimplicial algebra has in degree $k$. This subspace is precisely that of differential $k$-forms.
 
-This we now describe in detail. All the arguments involved are still (with slightly different parameterization, possibly) due to [[Anders Kock]], the only new thing here being the observation that the restriction to the joint kernel of the degeneracy maps exhibts the Dold-Kan map, and that this way using the simplicial picture everything acquires a nice [[nPOV]] interpretation as being about the [[schreiber:infinitesimal path ∞-groupoid]] of $\mathbb{R}^n$, regarded either as an infinitesimal [[Lie ∞-groupoid]] or as a [[∞-Lie algebroid]].
+This we now describe in detail. All the arguments involved are still (with slightly different parameterization, possibly) due to [[Anders Kock]], the only new thing here being the observation that the restriction to the joint kernel of the degeneracy maps exhibts the Dold-Kan map, and that this way using the simplicial picture everything acquires a nice [[nPOV]] interpretation as being about the [[schreiber:infinitesimal path  -groupoid]] of $\mathbb{R}^n$, regarded either as an infinitesimal [[Lie  -groupoid]] or as a [[ -Lie algebroid]].
 
 
 +-- {: .un_def}
@@ -824,7 +823,7 @@ $$
   CartSp \mapsto [\Delta^{op}, \mathbb{L}]
 $$
 
-from [[CartSp]] to [[simplicial object|simplicial]] [[smooth loci]]. Effectively just by ([[derived functor|derived]]) [[Yoneda extension]] of this functor to a functor on [[simplicial presheaves]] on [[CartSp]] one obtains a definition of the [[schreiber:infinitesimal path ∞-groupoid]] of any [[smooth manifold]], any [[diffeological space]] and even every [[∞-Lie groupoid]].
+from [[CartSp]] to [[simplicial object|simplicial]] [[smooth loci]]. Effectively just by ([[derived functor|derived]]) [[Yoneda extension]] of this functor to a functor on [[simplicial presheaves]] on [[CartSp]] one obtains a definition of the [[schreiber:infinitesimal path  -groupoid]] of any [[smooth manifold]], any [[diffeological space]] and even every [[ -Lie groupoid]].
 
 
 ## References
