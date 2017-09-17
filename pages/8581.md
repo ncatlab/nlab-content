@@ -1,0 +1,8 @@
+
+
+A [[stack]] on the [[site]] [[CartSp]]${}_{smooth}$.
+
+A [[n-truncated object in an (infinity,1)-topos|1-truncated]] [[smooth infinity-groupoid]].
+
+[[!redirects smooth groupoids]]
+
