@@ -24,6 +24,8 @@ In [[higher category theory]] an **equivalence** often means a morphism which is
 
 * In a (possibly weak) $\infty$-[[infinity-category|category]], an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-$\infty$-categories.  This can be made rigorous as a [[corecursion|corecursive definition]].
 
+There is also the more structured/coherent notion of an [[adjoint equivalence]], but one hopes to have a theorem that any equivalence can be improved to an adjoint one.  This is known in some cases, including 2-categories, 3-categories, strict $\omega$-categories, and some models for $(\infty,1)$-categories.
+
 In addition to this, there is the notion of [[equivalence of categories]] (and higher categories), which is on a separate page.  But it is related: properly done, two $n$-categories are equivalent if and only if they\'re equivalent as objects in the $(n+1)$-category of $n$-categories.
 
 
