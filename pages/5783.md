@@ -79,6 +79,7 @@ The [[higher algebra]] over this ring object is what is called [[superalgebra]].
 (...) [[supergeometry]] (...)
 
 ## References
+ {#References}
 
 The proposal that the study of super-structures in mathematics should be regarded as taking place over the [[base topos]] on the [[site]] of [[super point]]s has been made around 1984 in
 
