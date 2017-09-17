@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
 =--
 =--
+=--
+
+
 
 # Reflective factorization systems
 * table of contents
