@@ -55,6 +55,7 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
   * [[higher differential geometry applied to plain differential geometry]]
   
+* [[prequantum geometry]], [[higher prequantum geometry]]
 
 * [[D-geometry]]
 
