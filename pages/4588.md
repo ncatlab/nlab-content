@@ -126,4 +126,32 @@ The table inside EXAMPLE test1:
  </td></tr><tr><td>f</td><td>z</td></tr></table>
  </td></tr></table>
 
+<div class='DBE' markdown='1'
+ id='%7B%22id%22%3A%22NEWx%22%2C%22type%22%3A%22category%22%2C%22page%22%3A%22%5B%5BRod%20McGuire%5D%5D%22%7D'
+ json='{"id":"NEWx","type":"category","page":"[[Rod McGuire]]"}'><table markdown="1"><tr><td>id</td><td>NEWx</td></tr><tr><td>type</td><td>category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
+ <span class='DBE'/>
+</div>
+
+LATEST TESTS:
+
+<div class='DBE' markdown='1'
+ id='ungeneratedDBE'
+ json='{"id":"NEW","type":"category","page":"[[Rod McGuire]]"}'>
+ UNGENERATED
+ <span class='DBE'/>
+</div>
+
+xx
+
+<table class='DBE' markdown='1'
+ id='{"id":"NEW","type":"category","page":"[[Rod+McGuire]]"}'>
+ <caption>Ungenerated DBE table</caption>
+</table>
+<span class='DBE'/>
+
 category: people
+
+
+
+
+
