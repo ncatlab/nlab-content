@@ -55,6 +55,38 @@ Second: bimodules are not that much good unless you can compose them; for that o
 
 ## Properties
 
+### The 1-category of bimodules and intertwiners
+
++-- {: .num_defn #1CategoryOfBimodulesAndIntertwiners}
+###### Definition 
+
+For $R$ a [[commutative ring]], write $BMod_R$ for the [[category]] whose
+
+* [[objects]] are triples $(A,B,N)$ where $A$ and $B$ are $R$-[[associative algebra|algebras]] and where $N$ is an $A$-$B$-[[bimodule]];
+
+* [[morphisms]] are triples $(f,g, \phi)$ consisting of two algebra [[homomorphisms]] $f \colon A \to A'$ and $B \colon B \to B'$ and an [[intertwiner]] of $A$-$B'$-bimdules $\phi \colon N \cdot g \to f \cdot N'$. This we may depict as a 
+
+  $$
+    \array{
+      A &\stackrel{N}{\to}& B
+      \\
+      {}^{\mathllap{f}}\downarrow &\Downarrow_{\phi}& \downarrow^{\mathrlap{g}}
+      \\
+      A' &\stackrel{N'}{\to}& B'
+    }  
+    \,.
+  $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+As this notation suggests, $BMod_R$ is naturally the vertical category of a [[pseudo double category]] whose horizontal composition is given by tensor product of bimodules. spring
+
+=--
+
+
 ### The 2-category of algebras and bimodules
  {#AsMorphismsInA2Category}
 
@@ -109,6 +141,40 @@ This is the [[Eilenberg-Watts theorem]].
 In the context of [[higher category theory]]/[[higher algebra]] one may interpret this as says that the [[2-category]] of those [[2-modules]] over the given ring which are equivalent to a [[category of modules]] is that of $R$-algebras, bimodules and intertwiners. See also at _[[2-ring]]_.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+The 2-category of algebras and bimodules is an archtypical example for a [[2-category with proarrow equipment]], hence for a [[pseudo double category]] with niche-fillers. Or in the language of [[internal (infinity,1)-category]]-theory: it naturally induces the structure of a [[simplicial object]] in the [[(2,1)-category]] $Cat$ 
+
+$$
+  \left(
+    \cdots
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    X_1 
+      \stackrel{\overset{\partial_1}{\to}}{\underset{\partial_0}{\to}}
+    X_0
+  \right)
+  \in
+  Cat^{\Delta^{op}}
+$$
+
+which satisfies the [[Segal conditions]]. Here 
+
+$$
+  X_0 =  Alg_R
+$$ 
+
+is the category of [[associative algebras]] and [[homomorphisms]] between them, while 
+
+$$
+  X_1 = BMod_R
+$$ 
+
+is the category of def. \ref{1CategoryOfBimodulesAndIntertwiners}, whose objects are pairs consisting of two algebras $A$ and $B$ and an $A$-$B$ bimodule $N$ between them, and whose morphisms are pairs consisting of two algebra homomorphisms $f \colon A \to A'$ and $g \colon B \to B'$ and an [[intertwiner]] $N \cdot (g) \to (f) \cdot N'$.
+
+=--
+
 
 ### The $(\infty,2)$-category of $\infty$-algebras and $\infty$-bimodules
  {#Infinity2CategoryOfInfinityAlgebrasAndBimodules}
