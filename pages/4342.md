@@ -30,6 +30,8 @@ For two transportable endomorphisms the **set of intertwiners** are the **arrows
 
 
 ## Properties ##
+
+### DHR is a C-star-category with a direct product ###
 It is straightforward to see that $\Delta$ is a category:
 
 The identity arrow for each object in $\Delta$ is given by the identiy in $\mathcal{A}$. The composition of arrows is simply the composition of intertwiners:
@@ -89,6 +91,49 @@ $$
 $$
 It is possible to show that $\pi_0 \rho$ is unitarily equivalent to $\pi_1 \oplus \pi_2$ and that $\rho$ is a transportable (and therefore in particular a localized) endomorphism. So we will call $\rho$ a **direct sum** of $\rho_1$ and $\rho_2$.
 =--
+
+### DHR is a symmetric monoidal category ###
+We first define the "tensor product":
+
++-- {: .un_defn}
+###### Definition
+For endomorphisms we set $\rho_1 \otimes \rho_2 := \rho_1 \rho_2$.
+
+For intertwiners $S \in Hom(\rho, \rho^{\prime})$ and $T \in Hom(\sigma, \sigma^{\prime})$ we define the tensor product via $S \otimes T := S \rho(T)$.
+=--
+
+_Remark_: In the [[AQFT]] literature the tensor product of arrows is sometimes called the _crossed product_ of intertwiners.
+
++-- {: .un_lemma }
+###### Lemma
+The tensor product as defined above turns $\Delta$ into a [[monoidal category]].
+=--
+
++-- {: .proof}
+###### Proof
+
+First: The tensor product of arrows is well defined, for any $A \in \mathcal{A}$ we have:
+
+$$
+S \otimes T (\rho_1 \otimes \rho_2) (A) 
+
+= (S \rho(T)) \rho (\sigma(A)) 
+
+= S \rho(T \sigma(A))
+
+= \rho^{\prime} (T \sigma(A)) S
+
+= \rho^{\prime} (\sigma^{\prime}(A) T) S
+
+= \rho^{\prime} \sigma^{\prime}(A) \rho^{\prime}(T) S
+
+= \rho^{\prime} \sigma^{\prime}(A) S \rho(T)
+
+$$
+
+which shows that the tensor product of intertwiners is an intertwiner for the tensor product of endomorphisms. The unit object is the identity endomorphism $\mathbb{1} \in \mathcal{A}$, left and right unitor and the associator are the identities, that is, $\Delta$ is **strict**.
+=--
+
 ## References ##
 
 See [[DHR superselection theory]]
