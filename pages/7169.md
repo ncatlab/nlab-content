@@ -109,3 +109,6 @@ Discussion of the intersection pairing in [[ordinary differential cohomology]] a
 
 [[!redirects intersection product]]
 [[!redirects intersection products]]
+
+[[!redirects intersection number]]
+[[!redirects intersection numbers]]
