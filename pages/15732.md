@@ -63,13 +63,21 @@ e.g. ([Scrucca, section 1.6](#Scrucca), [Edelstein 13, page 2](#Edelstein13))
 
 ### As holomorphic potential for Determinant line bundle
 
-Regarding
+Regard
 
 $$
   h \coloneqq \frac{1}{2} det_{reg}H
 $$
 
-as a holomorphic potential for a hermitian structure on a [[holomorphic line bundle]], then this is the [[determinant line bundle]] of $H$.
+as ahermitian structure on a [[holomorphic line bundle]], hence, locally, as the [[absolute value]]-squared of the unit [[section]] $\phi_i$ of a [[holomorphic line bundle]] with respect to a local trivializing section (see at [[Chern connection]]).
+
+$$
+  h|_{U_i} = {\Vert \phi_i \Vert}^2
+  \,.
+$$
+
+Then this line bundle is the [[determinant line bundle]] of $H$.
+([Quillen 85](#Quillen85)), review includes ([Qiu 12, section 2.8.1](#Qiu12)).
 
 The [[Chern connection]] is
 
@@ -84,7 +92,6 @@ $$
   \,.
 $$
 
-[Quillen 85](#Quillen85), review includes section 2.8.1 of [arXiv:1201.5550](http://arxiv.org/abs/1201.5550)
 
 ## References
 
@@ -96,3 +103,5 @@ For instance
 
 * {#Quillen85} [[Daniel Quillen]], _Determinants of Cauchy-Riemann Operators over a Riemann Surface_, Functional Anal.
 Appl. 19 (1985) 31.
+
+* {#Qiu12} Jia Qiu, section 2.8 of _Lecture notes on topological field theory_ [arXiv:1201.5550](http://arxiv.org/abs/1201.5550)
