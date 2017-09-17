@@ -234,11 +234,15 @@ Using [[higher inductive types]], we can also define [[homotopy pushouts]]. if `
 together with the map `inl`, `inr` and the homotopy `glue`.
 (see [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pushout.v) for the proof)
 
-## Related concepts
+## Related entries
+
+* [[HoTT methods for homotopy theorists]]
 
 * [[cohesive homotopy type theory]]
 
 * [[directed homotopy type theory]]
+
+
 
 
 ## References
