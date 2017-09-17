@@ -1,6 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### $(\infty,1)$-topos theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -238,7 +249,7 @@ This is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (4) iv)]].
 When the ambient [[(∞,1)-category]] is an [[(∞,1)-topos]] then -- by the $\infty$-Giraud axioms -- all groupoid objects are [[quotient object|effective]], meaning that for
 
 $$
-  \mathbf{B}G = \lim_\to U_\bullet
+  \mathbf{B}G = \lim_{\leftarrow} U_\bullet
 $$
 
 we have
