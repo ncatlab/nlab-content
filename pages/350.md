@@ -504,9 +504,10 @@ He proves that there is an object $\Omega_{T}$ in $[\mathcal{C}^{op},\text{Set}]
 
 ## Related concepts
 
-* [[modal type theory]]
+* [[modality]] [[modal type theory]]
 
 * [[monad (in programming theory)]]
+
 
 ## References
 
@@ -549,3 +550,6 @@ and section A4.4 of
 [[!redirects Lawvere-Tierney operators]]
 [[!redirects Lawvere–Tierney operators]]
 [[!redirects Lawvere--Tierney operators]]
+
+[[!redirects local modality]]
+[[!redirects local modalities]]
