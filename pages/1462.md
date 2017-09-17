@@ -102,7 +102,7 @@ $$
 The **coimage** of $f$ is the [[(∞,1)-colimit]] over this diagram
 
 $$
-  coim(f) := \lim_\leftarrow
+  coim(f) := \lim_\to
     \left(
     \cdots \stackrel{\to}{\stackrel{\to}{\to}} c \times_d c \stackrel{\to}{\to} c
   \right)
