@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Aharonov-Bohm effect_ is an observable property of the [[electromagnetic field]] which shows that the [[electromagnetic field strength]] [[differential 2-form]] $F$ alone does not characterize the physically distinguishable field configurations, but that only the "[[vector potential]]" of the field strength does, hence the [[circle bundle with connection]] of which which $F$ is the [[curvature]] 2-form.
+
+Accoridngly, the Aharonov-Bohm effect is a certain interference pattern in the [[wavefunction]] of an [[electron]] that propagates in an [[electromagnetic field|electromagnetic]] [[background gauge field]] that is modeled by a [[circle bundle with connection]] which is a [[flat connection]], hence has vanishing [[curvature]]/[[field strength]] just as the trivial electromagnetic field configuration does, but which is nevertheless a nontrivial connection. The observed interference comes from the [[holonomy]] of this non-trivial but flat connection around loops in [[spacetime]] which represent non-trivial elements of the [[fundamental group]].
+
+## Related concepts
+
+* [[Dirac charge quantization]]
+
