@@ -1,0 +1,26 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[(∞,2)-category]] of [[monoidal (∞,1)-categories]].
+
+## Variants
+
+### Pseudomonoidal $(\infty,1)$-category
+
+A [[monoidal (∞,1)-category]] $(C, \otimes)$ is equivalently a [[model structure for dendroidal Cartesian fibrations|coCartesian fibration of (∞,1)-operads]] over [[Assoc]].
+
+A [[symmetric monoidal (∞,1)-category]] $(C, \otimes)$ is equivalently a [[model structure for dendroidal Cartesian fibrations|coCartesian fibration of (∞,1)-operads]] over [[Comm]].
+
+(...)
+
+## Properties
+
+### Model category presentations
+
+see _[[table - models for (infinity,1)-operads]]_
+
+category: category
