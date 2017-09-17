@@ -18,22 +18,25 @@
 
 ## In representation theory
 
-In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.
+In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well.
 
 ## In category theory
 
 In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
 
-Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a left adjoint, so by the calculus of [[mates]], this condition is equivalent to asking that the canonical morphism $f_!(C \times f^*B) \to (f_! C) \times B$ is an isomorphism for each $B$ in $Y$ and $C$ in $X$.  This clearly makes sense if the categories are [[cartesian monoidal category|cartesian]] but not [[closed category|closed]], and is the usual formulation found in the literature.
+Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a left adjoint, so by the calculus of [[mates]], this condition is equivalent to asking that the canonical morphism $f_!(C \times f^*B) \to (f_! C) \times B$ is an isomorphism for each $B$ in $Y$ and $C$ in $X$.  This clearly makes sense if the categories are [[cartesian monoidal category|cartesian]] but not [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
 
 This terminology is most commonly used in the following situations:
 
 * When $f^*$ and $f_!$ are the [[inverse image|inverse]] and [[direct image]] functors along a map $f$ in a [[hyperdoctrine]].  Here $S$ is a category and $P \colon S^{op} \to Cat$ is an $S$-[[indexed category]] such that each category $P X$ is [[cartesian closed]] and each functor $f^* = P f$ has a [[left adjoint]] $\exists_f$ (also written $f_!$).  Then $P$ is said to satisfy Frobenius reciprocity, or the **Frobenius condition** , if each of the [[adjunction]]s $\exists_f\dashv f^*$ does. If the categories $P X$ are cartesian but not closed then it still makes sense to ask for Frobenius reciprocity in the second form above, and in that case its logical interpretation is that $\exists x . (\phi \wedge \psi)$ is equivalent to $(\exists x.\phi) \wedge \psi$ if $x$ is not free in $\psi$.
 
-* When $f^*$ is the [[inverse image]] part of a [[geometric morphism]] between [[(n,1)-topoi]] and $f_!$ is a [[left adjoint]] of it, if the [[adjunction]] $f_!\dashv f^*$ satisfies  Frobenius reciprocity, then the geometric morphism is called [[locally n-connected (n+1,1)-topos|locally (n-1)-connected]].  In particular, if $n=0$ so that we have a [[continuous map]] of [[locales]], then a left adjoint $f_!$ satisfying Frobenius reciprocity makes it an [[open map]], and if $n=1$ so that we have 1-[[topoi]], then it is [[locally connected geometric morphism|locally connected]].
+* When $f^*$ is the [[inverse image]] part of a [[geometric morphism]] between [[(n,1)-topoi]] and $f_!$ is a [[left adjoint]] of it, if the [[adjunction]] $f_!\dashv f^*$ satisfies  Frobenius reciprocity, then the geometric morphism is called [[locally n-connected (n+1,1)-topos|locally (n-1)-connected]].  In particular, if $n=0$ so that we have a [[continuous map]] of [[locales]], then a left adjoint $f_!$ satisfying Frobenius reciprocity makes it an [[open map]], and if $n=1$ so that we have 1-[[topoi]], then it is [[locally connected geometric morphism|locally connected]].  This usage of "Frobenius reciprocity" is sometimes also extended to the dual situation of [[proper map]]s of locales and topoi.
 
-  This usage of "Frobenius reciprocity" is sometimes also extended to the dual situation of [[proper map]]s of locales and topoi.
+## The relationship
 
+The relationship between the two usages is not clear.  In fact, since the category-theoretic usage is a special case of being a [[Hopf adjunction]], it seems as though it might have been misnamed, since [[Frobenius algebras]] and [[Hopf algebras]] are similar, but different.
+
+The word "Frobenius" is also sometimes used in category theory to denote a condition which is in some way analogous to the characteristic property of a [[Frobenius algebra]].
 
 [[!redirects Frobenius reciprocity]]
 [[!redirects Frobenious reciprocity]]
