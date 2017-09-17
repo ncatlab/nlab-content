@@ -7,6 +7,8 @@
 
 A (smooth) _simplicial manifold_ is a [[simplicial object]] in the [[category]] [[Diff]] of [[smooth manifolds]].
 
+Under the canonical inclusion [[Diff]] $\hookrightarrow$ [[Top]] this is in particular a [[simplicial topological space]].
+
 ## Constructions on simplicial manifolds 
 
 * The [[simplicial deRham complex]] generalizes the [[deRham complex]] from ordinary manifolds to simplicial manifolds.
