@@ -66,13 +66,13 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
 * Higher differential spin structures 
 
-  * [[twisted spin structure|twisted differential spin structure]]
+  * [[twisted spin structure]], [[differential spin structure]]
 
-  * [[differential string structure]]
+  * [[twisted differential string structure]]
 
   * [[supergravity C-field]]
 
-  * [[differential fivebrane structure]]
+  * [[twisted differential fivebrane structure]]
 
 * [[differential T-duality]]
 
