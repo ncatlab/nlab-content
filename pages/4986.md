@@ -48,20 +48,35 @@ Conversely, one can show that any totally connected topos can be (but need not b
 
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
-* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+  * [[connected topos]] / [[∞-connected (∞,1)-topos]]
 
-* [[strongly connected topos]]
+  * [[strongly connected topos]] / [[strongly ∞-connected (∞,1)-topos]]
 
-* **totally connected topos** / [[totally connected (∞,1)-topos]]
+  * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
 
 * [[local topos]] / [[local (∞,1)-topos]].
 
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
+and
+
+* [[locally connected site]] / [[locally ∞-connected site]]
+
+  * [[connected site]] / [[∞-connected site]]
+
+  * [[strongly connected site]] / [[strongly ∞-connected site]]
+
+  * **totally connected site** / [[totally ∞-connected site]]
+
+* [[local site]]
+
+* [[cohesive site]], [[(∞,1)-cohesive site]]
 
 ## References
 
-Chapter C3.6 in the [[Elephant]].
+Chapter C3.6 in 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .
 
 [[!redirects totally connected]]
 [[!redirects totally connected geometric morphisms]]
@@ -72,4 +87,3 @@ Chapter C3.6 in the [[Elephant]].
 [[!redirects totally connected sites]]
 
 
-[[!redirects totally connected (∞,1)-topos]]
