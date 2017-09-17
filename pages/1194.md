@@ -14,7 +14,27 @@ One way to look at type theory, from the point of view of a category theorist, i
 
 ## Categorical semantics of type theory
 
-The [[syntax|syntactic]] constructs corresponding to objects and morphisms are called _types_ and _terms_, respectively.  The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  For example, given terms $f(x)$ and $g(y)$ with one free variable each, representing morphisms $[f]$ and $[g]$, the term $g(f(x))$ represents the morphism $[g]\circ [f]$.
+The [[syntax|syntactic]] constructs corresponding to objects and morphisms are called _types_ and _terms_, respectively.  The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: if the following is right, I would find it helpful as additional explanation:
+
+* In category theory $x \stackrel{f}{\to} A$ is a [[morphism]] $f$ with domain $x$ and codomain $A$;
+
+* in type theory this is the _term_ $f(x)$ of _type_ $A$.
+
+=--
+
+
+For example, given terms $f(x)$ and $g(y)$ with one free variable each, representing morphisms $[f]$ and $[g]$, the term $g(f(x))$ represents the morphism $[g]\circ [f]$.
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: now I need to make sense of "free variable". I suppose that $f(x)$ regarded as a term of type $A$ with free variable $x$ is an assignment that sends each object $x$ in the category $C$ to a morphism $x \to A$. Am I to think of this as a morphism of presheaves on the category, of the form $f : * \to Hom_C(-,A)$?
+
+=--
+
 
 What sorts of syntactical constructions you allow on types and terms corresponds to the structure of the category in which the [[semantics]] is intended to occur.  For example, if our semantic categories have binary products, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (by choosing their free variables appropriately), we are really describing the full universal property of a cartesian product.
 
