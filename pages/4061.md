@@ -43,15 +43,15 @@ On [[quantum mechanics]]:
 
 * [[Peter Olver]], *Equivalence, invariants, and symmetry*, Cambridge Univ. Press 1995; *Applications of Lie groups to differential equations*, Springer.  
 
-* Shlomo Sternberg, *Group theory and physics*, Cambridge University Press 1994. 
+* [[Shlomo Sternberg]], *Group theory and physics*, Cambridge University Press 1994. 
 
-* V. I. Arnold, *Mathematical methods of classical mechanics*, Springer (1989).
+* [[Vladimir Arnold]], *Mathematical methods of classical mechanics*, Springer (1989).
 
-* V. Guillemin, S. Sternberg, *Symplectic techniques in physics*, Cambridge University Press (1990)
+* [[Victor Guillemin]], [[Shlomo Sternberg]], *Symplectic techniques in physics*, Cambridge University Press (1990)
 
-* Theodore Frankel, _The geometry of physics_, Cambridge Univ. Press
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_, Cambridge Univ. Press
 
-* N. P. Landsman, _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp.
+* [[Klaas Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp.
 
 * Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
