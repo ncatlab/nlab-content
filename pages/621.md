@@ -67,7 +67,7 @@ The trace of the identity $1_a:a \to a$ is called the **[[dimension]]** or [[Eul
 
 * $C = Vect$ with its standard monoidal structure ([[tensor product]] of vector spaces): in this case tr(f) is the usual trace of a linear map;
 
-* $C = SuperVect = (Vect_{\mathbb{Z}_2}, \otimes, b)$, the category of $\mathbb{Z}_2$-graded vector spaces with the _non_trivial symmetric braiding which is $-1$ on two odd graded vector spaces: in this case the above is the **supertrace** on supervectorspaces, $str(V) = tr(V_{even}) - tr(V_odd)$.
+* $C = SuperVect = (Vect_{\mathbb{Z}_2}, \otimes, b)$, the category of $\mathbb{Z}_2$-graded vector spaces with the _non_trivial symmetric braiding which is $-1$ on two odd graded vector spaces: in this case the above is the **[[supertrace]]** on supervectorspaces, $str(V) = tr(V_{even}) - tr(V_odd)$.
 
 
 * $C = Span(Top^{op})$: here the trace is the [[co-span co-trace]] which can be seen as describing the gluing of in/out boundaries of [[cobordism]]s 
