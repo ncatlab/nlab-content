@@ -387,3 +387,5 @@ which provides an alternative expression of the functoriality condition as simpl
 
 [[!redirects internal functor]]
 [[!redirects internal functors]]
+
+[[!redirects functorial]]
