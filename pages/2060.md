@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##  Idea 
@@ -34,13 +34,18 @@ Recall from the discussion at [[generalized universal bundle]] and at [[stuff, s
 
 ## Definition 
 
+### For $(\infty,1)$-categories
+
 ...see section 3.3.2 of [[Higher Topos Theory|HTT]]...
 
 
+### For $\infty$-Groupoids 
+  {#RestInfGrpd}
 
-### Restriction to $\infty$-Groupoids {#RestInfGrpd}
++-- {: .num_defn }
+###### Definition
 
-The universal fibration of $(\infty,1)$-categories restricts to a [[Cartesian fibration]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ over [[∞-Grpd]] by [[pullback]] along the inclusion morphism $\infty Grpd \hookrightarrow (\infty,1)Cat$
+The universal fibration of $(\infty,1)$-categories restricts to a [[Cartesian fibration]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ over [[∞Grpd]] by [[pullback]] along the inclusion morphism $\infty Grpd \hookrightarrow (\infty,1)Cat$
 
 $$
   \array{
@@ -53,9 +58,13 @@ $$
   \,.
 $$
 
-The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fibration]] and it is the universal right fibration. 
+=--
 
-+-- {: .un_prop }
+The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fibration]] and it is the _universal right fibration_. 
+
+It is closely related to the [[object classifier]] in [[∞Grpd]].
+
++-- {: .num_prop }
 ###### Proposition
 
 The following are equivalent:
@@ -124,3 +133,5 @@ The universal fibration as such is discussed in section 3.3.2 of
 The concrete description in terms of model theory on marked simplicial sets is in section 3.2. A simpler version of this is in section 2.2.1
 
 [[!redirects universal fibration of (∞,1)-categories]]
+
+[[!redirects universal right fibration]]
