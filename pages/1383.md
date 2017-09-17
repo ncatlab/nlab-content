@@ -1,5 +1,23 @@
 
-#Idea#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 An ordinary (commutative) [[ring]] is a (commutative) [[monoid]] or [[algebra]] object [[internalization|internal to]] the [[symmetric monoidal category]] [[Ab]] of abelian groups.
 
@@ -10,12 +28,12 @@ A _commutative ring spectrum_, or _[[E-infinity ring]]_, is accordingly a [[comm
 
 
 
-#Definition#
+## Definition
 
 A **commutative ring spectrum** is a [[commutative algebra in an (infinity,1)-category|commutative algebra object]] in the [[symmetric monoidal (infinity,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]].
 
 
-#References#
+## References
 
 reference to standard literature on $E_\infty$ things goes here ...
 
@@ -26,3 +44,5 @@ the $(\infty,1)$-categorical perspective on commutative ring spectra is the topi
 section 7 of
 
 * [[Jacob Lurie]], [[higher algebra|Commutative algebra]].
+
+[[!redirects commutative ring spectra]]
