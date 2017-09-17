@@ -1,19 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Quantum field theory
-+--{: .hide}
++-- {: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-### Idea ###
+# The Zamolodchikov $c$-theorem
+* table of contents
+{: toc}
+
+## Idea
 
 The fixed point of a [[renormalization]]-group (RG) transform applied to a [[field theory]] should, intuitively, be described by a theory which is scale-invariant.  The **Zamolodchikov $c$-theorem** makes this precise:  for any renormalizable 2D field theory, there exists a function $c(g)$ of its coupling constants $g = (g_1,g_2,\ldots)$ which
 
@@ -22,7 +26,8 @@ The fixed point of a [[renormalization]]-group (RG) transform applied to a [[fie
 
 Attempts to find analogues for the 2D $c$-theorem in higher [[dimensions]] have involved versions of [[holographic principle|holographic duality]] such as the [[AdS/CFT correspondence]].  See [Myers and Sinha (2010)](#Myers2010), [(2011)](#Myers2011).
 
-### Proof ###
+
+## Proof
 
 We follow the original proof given by [Zamolodchikov (1986)](#Zamolodchikov).
 
@@ -109,7 +114,7 @@ Note that to maintain consistency of indices across both sides of this equation,
 $$\beta^i(g) = -\frac{1}{12} G^{ij}(g) \partial_j c(g).$$
 
 
-### References ###
+## References
 
 * A. B. Zamolodchikov (1986), _"Irreversibility" of the Flux of the Renormalization Group in a 2-D Field Theory_, JETP Lett. **43**: 730--732. ([pdf](http://www.jetpletters.ac.ru/ps/1413/article_21504.pdf))
   {#Zamolodchikov}
