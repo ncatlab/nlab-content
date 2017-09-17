@@ -131,6 +131,14 @@ $$\sum_{j=1}^n d x_j \wedge d y_j = \sum_{j=1}^n r_j d r_j \wedge d\theta_j$$
 
 is preserved by pulling back along $\phi \colon P_n/S_n \to Q_n$. Since symplectic maps are locally volume-preserving, and since $P_n$ and $Q_n$ are almost all of $B_2^n$ and $B_{2 n}$ respectively, this gives a proof that the volume of $B_{2 n}$ is $\pi^n/n!$ (alternate to standard purely computational proofs). 
 
+## Related concepts
+
+* [[canonical transformation]]
+
+* [[Hamilton's equations]]
+
+* [[symplectic integrator]]
+
 ## References 
 
 Lecture notes include
