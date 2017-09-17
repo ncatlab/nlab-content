@@ -9,7 +9,7 @@ Classically, a 'Schur functor' is a specific sort of [[functor]]
 
 $$S: FinVect \to FinVect$$ 
 
-where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $S(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.   In fact, Schur functors can be defined on a large class of categories resembling $FinVect$: for example, categories of group representations, or vector bundles, or coherent sheaves.  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be 'naturally' --- or more precisely, 'pseudonaturally' defined on all symmetric monoidal linear Cauchy complete categories.
+where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $S(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.   In fact, Schur functors can be defined on a large class of [[categories]] resembling $FinVect$: for example, categories of [[group]] [[representation]]s, or [[vector bundle]]s, or [[coherent sheaves]].  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be '[[natural transformation|naturally]]' --- or more precisely, '[[pseudonatural transformation|pseudonaturally]]' defined on all [[symmetric monoidal category|symmetric monoidal]] [[linear category|linear]] [[Cauchy complete categories]].
 
 The most famous examples of Schur functors are these:
 
@@ -17,7 +17,7 @@ The most famous examples of Schur functors are these:
 
 * For each $n \geq 0$, the $n^{th}$ [[alternating power]] $X \mapsto \Lambda^n(X)$ is a Schur functor. 
 
-More generally, irreducible complex representations of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors are usually described with the help of these.   An $n$-box Young diagram is simply a pictorial way of writing $n$ as a sum of natural numbers listed in decreasing order.  For example, this 17-box Young diagram:
+More generally, complex [[irreducible representation]]s of $S_n$ correspond to $n$-box [[Young diagram|Young diagrams]], so Schur functors are usually described with the help of these.   An $n$-box Young diagram is simply a pictorial way of writing $n$ as a sum of natural numbers listed in decreasing order.  For example, this 17-box Young diagram:
 
 +-- {: #Young style="text-align:center"}
 <svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
