@@ -1,10 +1,20 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -35,9 +45,13 @@ Some examples of terminal objects in notable categories follow:
 * The terminal object of a [[over category|slice category]] $C/x$ is the [[identity morphism]] $x \to x$.
 
 
-## Terminal object in higher categories
+## Related concepts
 
-For the notion of terminal object in [[(infinity,1)-category]] theory, see [[terminal object in a quasi-category]].
+* [[initial object]]
+
+* [[unit type]]
+
+* [[terminal object in a quasi-category]].
 
 
 [[!redirects terminal object]]
