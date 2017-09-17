@@ -34,11 +34,11 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow_{curvature} && \searrow
     \\
-    flat\;differential\;forms  && && geometric\;bundle\;with \;connection && && rationalized\;bundle
+    flat\;differential\;forms  && && geometric\;bundle\;with \;connection && && rational\;shape\;of\;bundle
     \\
     & \searrow &  & \nearrow & & \searrow^{\mathrlap{}} && \nearrow_{\mathrlap{Chern\;character}}
     \\
-    && geometric\;bundle\;with\;flat\;connection && \underset{forget\;connection}{\longrightarrow} && bundle
+    && geometric\;bundle\;with\;flat\;connection && \underset{forget\;connection}{\longrightarrow} && shape\;of\;bundle
   }
 $$
 
