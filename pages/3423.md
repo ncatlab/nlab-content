@@ -15,7 +15,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -56,6 +56,7 @@ $$
 
 exhibits $Locale$ as a [[full sub-2-category]] of [[Topos]]. See _[[localic reflection]]_ for more on this.
 
+
 ## References
 
 For instance Section C1 of 
@@ -66,5 +67,6 @@ For instance Section C1 of
 
 [[!redirects Loc]]
 [[!redirects Locale]]
+[[!redirects category of locales]]
 
 category: category
