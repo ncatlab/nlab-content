@@ -56,7 +56,7 @@ category: people
 
 
 [[!redirects Tim Porter]]
-[[!redirects   Tim Porter]]
+[[!redirects  ++Tim Porter]]
 [[!redirects Timothy Porter]]
 [[!redirects Tim]]
 [[!redirects Tim Porrter]]
