@@ -45,13 +45,19 @@ $$C \stackrel{\hom(d, G-)}{\to} Set/I \stackrel{\sum}{\to} Set$$
 preserves connected limits, for every object $d$. Since this is the same composite as in (1), and since the representables $\hom(d, -)$ jointly reflect arbitrary limits, we conclude that $G$ preserves connected limits. 
 =-- 
 
-In particular, for $C$ complete, a functor $G: C \to D$ that preserves wide pullbacks also preserves [[equalizers]]. 
+In particular, for $C$ complete, a functor $G: C \to D$ that preserves wide pullbacks also preserves [[equalizers]].
+
+It is not true, however, that if $C$ has wide pullbacks then it has connected limits.  The [[saturated class of limits|saturation]] of the class of wide pullbacks is the class of connected and "simply connected" limits (limits over categories $C$ whose groupoid reflection $\Pi_1(C)$ is trivial).
 
 
 ## Related pages
 
 * [[parametric right adjoint]]
 
+
+## References
+
+* [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
 [[!redirects connected limit]]
 [[!redirects connected limits]]
