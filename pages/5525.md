@@ -67,17 +67,17 @@ For that purposes consider the following
 Define the [[quasi-categories]]
 
 $$
-  Top := N(Top_{Quillen})^\circ \in N(sSet_{Joyal}^\circ)
+  Top := N(Top_{Quillen})^\circ 
 $$
 
 and
 
 $$
-  \infty Grpd := N(sSet_{Quillen})^\circ \in N(sSet_{Joyal}^\circ)
+  \infty Grpd := N(sSet_{Quillen})^\circ 
   \,,
 $$
 
-where on the right we have the standard [[model structure on topological spaces]] $Top_{Quillen}$ and the standard [[model structure on simplicial sets]] $sSet_{Quillen}$ as well as the Joyal-[[model structure for quasi-categories]] $sSet_{Joyal}$; and $N((-)^\circ)$ denotes the [[homotopy coherent nerve]] of the [[simplicial category]] given by the full [[sSet]]-subcategory of these [[simplicial model categories]] on fibrant-cofibrant objects.
+where on the right we have the standard [[model structure on topological spaces]] $Top_{Quillen}$ and the standard [[model structure on simplicial sets]] $sSet_{Quillen}$  and $N((-)^\circ)$ denotes the [[homotopy coherent nerve]] of the [[simplicial category]] given by the full [[sSet]]-subcategory of these [[simplicial model categories]] on fibrant-cofibrant objects.
 
 =--
 
@@ -98,7 +98,7 @@ $$
 
 for the corresponding [[derived functor]]s (the image under the [[homotopy coherent nerve]] of the restriction of ${|-|}$ and $Sing$ to fibrant-cofibrant objects followed by functorial fibrant-cofibrant replacement) that constitute a pair of [[adjoint (∞,1)-functor]]s modeled as morphisms of [[quasi-categories]].
 
-Since this is an [[equivalence of (∞,1)-categories]] either functor serves as the [[left adjoint]] or [[right adjoint]] and so we have
+Since this is an [[equivalence of (∞,1)-categories]] either functor serves as the [[left adjoint]] and [[right adjoint]] and so we have
 
 +-- {: .un_observation}
 ###### Observation
