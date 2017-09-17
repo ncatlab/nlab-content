@@ -25,16 +25,36 @@
 The **Levi-Civita connection** is the unique symmetric [[connection on a bundle|connection]] on the [[tangent bundle]] of a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] that is compatible with the [[Riemannian metric|metric]] or [[pseudo-Riemannian metric|pseudo-metric]].  The [[curvature]] and [[geodesic]]s on a pseudo-Riemannian manifold are taken with respect to this connection.  The existence and uniqueness of the Levi-Civita connection is the so-called **fundamental theorem of [[Riemannian geometry]].**
 
  
-##Definition of Compatibility##
+## Definition
 
-The pseudo-metric $g$ is **compatible** with the connection $\nabla$ (here thought of in its incarnation as a [[covariant derivative]]) if and only if $\nabla_X g = 0$ for all $X$, which is equivalent to the preservation of the metric inner product of tangent vectors under [[parallel transport|parallel translation]].  Since 
++-- {: .un_defn}
+###### Definition
+
+For $(X,g)$ a [[Riemannian manifold]], the **Levi-Civita connection** $\nabla_g$ on $X$ is the unique [[connection on a bundle|connection]] on the [[tangent bundle]] $T X$ that
+
+1. preserves the metric, $\nabla_{g} g = 0$;
+
+1. has vanishing [[torsion]].
+
+=--
+
+The [[curvature]] $F_{\nabla_g}$ is called the [[Riemann curvature]] of $(X,g)$.
+
+
+Here a metric $g$ is **compatible** with the connection $\nabla$ or _preserved_ by it (here thought of in its incarnation as a [[covariant derivative]]) if and only if $\nabla_X g = 0$ for all $X$, which is equivalent to the preservation of the metric inner product of tangent vectors under [[parallel transport|parallel translation]].  Since 
 \[ X(g(X_1,X_2))  = (\nabla_X g)(X_1,X_2) + g(\nabla_X X_1, X_2) + g(X_1, \nabla_X X_2) ,\]
 by the fact that covariant differentiation commutes with contractions and satisfies the derviative identity, compatibility is equivalent to 
 \begin{equation}  X (g (X_1,X_2)) = g(\nabla_X X_1, X_2) + g(X_1, \nabla_X X_2),\end{equation}
 for all  $X,X_1, X_2$.
 
+In parts of the  literature the Levi-Citita connection is discussed in terms of [[Christoffel symbol]]s. See there for more details.
 
-##Uniqueness and existence on $\mathbb{R}^n$##
+
+## Properties
+
+We show that the defining properties of the Levi-Civita connection indeed define it uniquely.
+
+### Uniqueness and existence on $\mathbb{R}^n$
 
 Now assume $M \subset \mathbb{R}^n$ and we have such a connection associated to $g$.  
 Then the connection is uniquely determined by its [[Christoffel symbols]], which we can determine in terms of $g$ by a bit of elementary algebra.
@@ -62,7 +82,7 @@ We must check for compatibility.
 The difference of the two terms in (1) vanishes when $X,X_1,X_2$ are of the form $\partial_i$.  The vanishing holds generally because the difference of the two sides, which is $(\nabla_X g)(X_1,X_2)$, is a tensor.  Hence compatibility follows.
 
 
-##Uniqueness and existence in the general case##
+### Uniqueness and existence in the general case
 
 We have already shown the uniqueness assertion, since that is local.  Connections restrict to connections on open subsets. 
 
@@ -70,11 +90,11 @@ We have proved the existence of $\nabla$ when $M$ is an open submanifold of $\ma
 
 We claim that $\nabla_i|_{U_i \cap U_j} = \nabla_j|_{U_i \cap U_j}$.  This is an easy corollary of uniquness.  So we can patch the connections together to get the one  Levi-Civita connection on $M$.
 
-## Christoffel symbols ##
 
-In parts of the literature the Levi-Citita connection is treated in terms of [[Christoffel symbol]]s. See there for more details.
 
-## Applications in physics
+## Applications 
+
+### In physics
 
 In the [[physics]], the theory of [[general relativity]] models the field of [[gravity]] in terms of the Levi-Civita connection on a [[Lorentzian manifold]]. See there for more details.
 
