@@ -11,7 +11,7 @@
 
 
 
-The intention of this page is to list a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and too obsolete books for any major purpose should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry; similarly we avoided the relevant books on Kac-Moody algebras and groups but included the books on related VOAs and the Pressley-Segal book. 
+The intention of this page is to list a wide choice of main books and comprehensive reviews in [[mathematical physics]]. The irrelevant repetitions and minor, too specialized and obsolete books in any major respect should be avoided. We avoid references for quantum groups as they are many and the main ones can be found at the [[quantum group]] entry; similarly we avoided the relevant books on Kac-Moody algebras and groups but included the books on related VOAs and the Pressley-Segal book. 
 
 #Contents#
 * table of contents
@@ -46,6 +46,8 @@ On [[quantum mechanics]]:
 * Anthony Sudbery, _Quantum mechanics and the particles of nature: An outline for mathematicians_
 
 * [[Leon A. Takhtajan]], *[[Quantum mechanics for mathematicians]]*, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
+
+* Brian C. Hall, _Quantum theory for mathematicians_, Springer GTM __267__ (has also a big chapter on geometric quantization)
 
 ## Geometry and symmetries in classical and QM, quantization (but no QFT) 
 
