@@ -16,15 +16,19 @@
 
 ## Idea
 
-The notion of _orthogonal spectrum_ in [[stable homotopy theory]] is a variant of that of _[[spectrum]]_. An orthogonal spectrum is a sequence of [[pointed topological spaces]] $\{X_n\}_{n \in \mathbb{N}}$ equipped with maps $X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[suspension]] of one into the next, but such that the $n$th [[topological space]] is equipped with an [[action]] of the [[orthogonal group]] $O(n)$ and such that all the induced structure maps 
+The concept of _orthogonal spectrum_ ([MMSS 98a](#MMSS98a)) in [[stable homotopy theory]] is one model of the concept of _[[spectrum]]_ by . An orthogonal spectrum is a sequence of [[pointed topological spaces]] $\{X_n\}_{n \in \mathbb{N}}$ equipped with maps $X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[suspension]] of one into the next, but such that the $n$th [[topological space]] is equipped with an [[action]] of the [[orthogonal group]] $O(n)$ and such that all the induced structure maps 
 
 $$
   X_n \wedge S^k \longrightarrow X_{n+k}
 $$
 
-are all $O(n)\times O(k)$-[[equivariance|equivariant]], hence are [[action]] [[homomorphisms]].
+are all $O(n)\times O(k)$-[[equivariance|equivariant]], hence are [[action]] [[homomorphisms]]. There is a natural [[homotopy theory]] of such orthogonal spectra and it is equivalent to the standard [[stable homotopy theory]] ([MMSS 98](#MMSS08)).
 
 ## Properties
+
+### Homotopy theory
+
+([MMSS 98b](#MMSS98b))
 
 ### Relation to the cobordism hypothesis
 
@@ -47,10 +51,14 @@ Since orthogonal spectra are by definition equipped with orthogonal group [[acti
 
 Orthogonal spectra were introduced in 
 
-* [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], and [[Brooke Shipley]],  _Model categories of diagram spectra_, 1998
+* {#MMSS98a} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Diagram spaces, diagram spectra, and FSP's_, 1998 ([KTheory:0319](http://www.math.uiuc.edu/K-theory/0319/))
 
-* [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and
-S-modules_. Preprint, April 29, 2000, ([K-theory Preprint Archives](http://www.math.uiuc.edu/K-theory/0408/))
+
+* {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _Model categories of diagram spectra_, 1998 ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
+
+and in the context of [[equivariant stable homotopy theory]]
+
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_. Preprint, April 29, 2000, ([KTheory:0408](http://www.math.uiuc.edu/K-theory/0408/))
 
 
 Reviews include
