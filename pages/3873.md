@@ -65,6 +65,10 @@ The Dirac operator is involved in approaches to the [[Atiyah-Singer index theore
 
 ## Properties
 
+### Eta invariant and functional determinant
+
+The [[eta function]] (see there for more) of a Dirac operator $D$ expresses the [[functional determinant]] of its [[Laplace operator]] $H = D^2$. 
+
 ### Index and partition function
 
 +-- {: .num_prop}
