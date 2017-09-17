@@ -180,6 +180,11 @@ $$
 
 characteristic of a [[cohesive topos]].
 
+### Totally distributive categories
+
+For $\mathcal{K}$ a [[totally distributive category]]
+it induces on its [[category of presheaves]] an adjoint modality whose [[right adjoint]] is the [[Yoneda embedding]] $Y$ postcomposed with its [[left adjoint]] $X$.
+
 ## References
 
 * [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
