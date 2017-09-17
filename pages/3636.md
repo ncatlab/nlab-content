@@ -26,7 +26,7 @@ These spaces will most often than not be locally finite [[simplicial complex]]es
 We will  be interested in the [[homotopy]] of such spaces 'out towards its ends' 
 
 
-###Ends
+###Ends###
 
 To illustrate the idea of the ends of a space $X$, we note that naively $\mathbb{R}$ has two ends, $\infty$ and $-\infty$, whilst $\mathbb{R}^2$ has only one as it is $S^2\setminus \{\infty\}$, (but that is vague!).
 
@@ -46,7 +46,19 @@ $$e(X) \cong 2^{\aleph_0}.$$
 * Let $M$ be a compact manifold and $X = M\setminus \partial M$, then
 $e(X) \cong \pi_0(\partial M)$.
 
+###Proper maps###
 The assignment sending $X$ to $E(X)$ cannot be functorial on the category of spaces and _continuous_ maps, since the contracting map $\mathbb{R}\to \{0\}$ is continuous, $e(\mathbb{R})$ is $\{-\infty, \infty\}$, whilst $e(\{0\})$ is empty since $\{0\}$ is compact.
+The problem is that continuity is really about inverse images (inverse image of open is open), but the inverse image mapping does not preserve compactness  (as in the example!).
+
+####Definition (recall)####
+A map $f:X\to Y$ is a [[proper map]] if for each subset $K$ compact in $Y$ then $f^{-1}(K)$ is compact in $X$.
+
+###End spaces continued###
+If $f:X\to Y$ is proper, then it induces a pro-morphism
+$$\epsilon(f) : \epsilon(X)\to \epsilon(Y)$$
+and hence a _continuous map of the end spaces
+$$e(f):e(X)\to e(Y).$$
+
 
 ##References##
 
@@ -54,6 +66,10 @@ Survey article:
 
 * [[Tim Porter]], _Proper Homotopy Theory_,  in the _Handbook on Algebraic Topology_, Ed. I.M.James, Elsevier,1995, p. 127-167,
 
-Book:
+Books:
 
 * [[Hans-Joachim Baues|H. J. Baues]] and A. Quintero, _Infinite homotopy theory_, Volume 6 of K-monographs in mathematics,	Springer, 2001
+
+* Bruce Hughes and Andrew Ranicki, _Ends of Complexes_, Cambridge Tracts in Mathematics (No. 123), C.U.P.
+
+
