@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A kind of [[character]] for [[loop group representations]].
+
+## Properties
+
+### Jacobi form
+
+On an integral highest weight representation the KW character is a [[Jacobi form]], closely related to the [[Witten genus]] ([KL 95](#KL95)).
+
+## References
+
+* {#KL95} [[Kefeng Liu]], section 2.2 of _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
