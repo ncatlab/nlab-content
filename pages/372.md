@@ -9,7 +9,7 @@
 
 ## Definition
 
-An **initial object** in a [[category]] $C$ is an [[object]] $\emptyset$ such that for any object $x$ of $C$, there is a unique [[morphism]] $!:\emptyset\to C$.  An initial object, if it exists, is unique up to unique [[isomorphism]], so we speak of [[the]] initial object.
+An **initial object** in a [[category]] $C$ is an [[object]] $\emptyset$ such that for any object $x$ of $C$, there is a unique [[morphism]] $!:\emptyset\to x$.  An initial object, if it exists, is unique up to unique [[isomorphism]], so we speak of [[the]] initial object.
 
 An initial object may also be called _coterminal_, _universal initial_, _co-universal_, or simply _universal_.
 
