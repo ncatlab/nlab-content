@@ -1004,7 +1004,7 @@ $$
 
 ### Parallel transport in low dimensions {#LowDimension}
 
-With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bunndles in terms of  [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a non-concrete [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
+With a decent handle on principal $\infty$-bundles as described [above](#ModelForPrincipalInfinityBundle) we now turn to the description of [[connection on an ∞-bundle|connections on ∞-bundles]]. It will turn out that the above [[cocycle]]-description of $G$-principal $\infty$-bundles in terms of  [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \stackrel{g}{\to} \mathbf{B}G$ has, under mild conditions, a natural generalization where $\mathbf{B}G$ is replaced by a [[concrete ∞-sheaf|non-concrete]] [[∞-Lie groupoid]] $\mathbf{B}G_{conn}$ which we may think of as the [[∞-groupoid of ∞-Lie algebra valued forms]]. This comes with a canonical map $\mathbf{B}G_{conn} \to \mathbf{B}G$ and an $\infty$-connection $\nabla$ on the $\infty$-bundle classified by $g$ is simply a lift
 
 $$
   \array{
@@ -1027,9 +1027,11 @@ In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-
 
 1. Why are these formulas what they are? What is the general abstract concept of an $\infty$-connection? What are its defining abstract properties?
 
-A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]] to aspects of which we are here giving the introduction. Therefore here in this introduction we will not give a complete answer to the second question, but rather provide some basic facts that are useful for concrete computationa that serve to put the general abstract answer in proper perspective.
+A comprehensive answer to the second question is provided by the general abstract concept of [[schreiber:differential cohomology in an (∞,1)-topos]] to aspects of which we are here giving the introduction. Here in this introduction we will not go into the full abstract theory, but using classical tools we get pretty close.
 
-A central aspect of our development is that we shall understand $\infty$-connection in terms of the [[parallel transport]] and  [[higher parallel transport]] along paths and higher dimensional paths that that they induce. The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]].
+A central aspect of our development is that we shall understand $\infty$-connection in terms of the [[parallel transport]] and  [[higher parallel transport]] along paths and higher dimensional paths that that they induce. (...)
+
+The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]].
 
 In the following subsections we describe the concept of a smooth [[path groupoid]] $\mathbf{P}_1(X)$ of a [[smooth manifold]] $X$ and more generally of a smooth [[path n-groupoid]] $P_n(X)$ for low $n \in \mathbb{N}$, and how smooth functors $P_n(X) \to A$ out of these encode [[differential form]]s and [[connection on a bundle|connections]] on [[principal bundle]]s, [[vector bundle]]s and (abelian and nonabelian) [[bundle gerbe]]s in terms of their [[nLab:parallel transport]] along curves and surfaces.
 
@@ -1375,7 +1377,7 @@ $$
   }
 $$
 
-of smooth 2-groupoids is a cocycle for a line bundle equipped with a [[nLab:pseudo-connection]]. Forming the [[nLab:pasting]] composite
+of smooth 2-groupoids is a cocycle for a line bundle equipped with a [[pseudo-connection]]. Forming the [[pasting]] composite
 
 $$
   \array{
@@ -2358,3 +2360,4 @@ For further references see
 [[!redirects ∞-Chern-Weil theory -- preparatory concepts]]
 
 [[!redirects ∞-Chern-Weil-theory introduction]]
+[[!redirects ∞-Chern-Weil theory introduction]]
