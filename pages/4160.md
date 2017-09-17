@@ -33,10 +33,15 @@ Now suppose $B$ is an arbitrary set of real numbers.  In order for $B$ to be mea
 
 ## Definition
 
-We may define the Lebesgue measure as being
+We define the __Lebesgue [[outer measure]]__ as follows:
 $$
   {|B|} = inf \left\{\sum_{j=1}^{\infty} {|I_{j}|} : B \subseteq \bigcup_{j=1}^{\infty} I_{j}\right\}.
 $$
+
+The set $B$ is __Lebesgue measurable__ if
+$$ {|B|} = {|A \cap B|} + {|A \setminus B|} $$
+holds for every set $A$.  Restricting to these sets, Lebesgue outer measure becomes an honest [[measure]].
+
 Note that once the Lebesgue measure is known for open sets, the outer regularity property allows us to find it for all [[Borel set]]s (but also rather more sets).
 
 
