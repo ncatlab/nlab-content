@@ -1,5 +1,4 @@
 
-This page is for general thoughts and notes on the mathematics literature as a whole, questions related to open access, etc.
 
 ##Databases aiming for complete coverage of the mathematical literature
 
