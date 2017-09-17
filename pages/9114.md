@@ -28,7 +28,7 @@ A [[quantum field theory]] in [[FQFT]]-[[axiomatization]] is simply a consistent
 
 However, most (or maybe all?) quantum field theories of interest in actual [[physics]] (as opposed to as devices of pure [[mathematics]]) are not random models of these axioms, but do arise under a process called [[quantization]] from a ([[local Lagrangian|local]]/[[extended Lagrangian|extended]]) [[Lagrangian]], hence from an [[action functional]], defined on a [[configuration space]] of [[quantum fields]], or else arise as [[holographic duals]] of quantum field theories that arise by quantization. Moreover, the extra information provided by the Lagrangian is commonly used (and is maybe strictly necessary) to interpret the mathematical structure of the axiomatic QFT in actual [[physics]] (though notably in [[AQFT]] there are results that re-extract at least parts of this data from the axiomatic QFT, for instance the [[Doplicher-Roberts reconstruction theorem]] which extract the [[global gauge group]] from the [[local net of quantum observables]]).
 
-There are in turn two formalizations of the notion of [[quantization]]: _algebraic [[deformation quantization]]_ and _[[geometric quantization]]_. In the latter one speaks of _[[prequantization]]_ when referring to a precursor step to the actual quantization step, in which the [[symplectic form]] on [[phase space]] is lifted from to [[differential cohomology]], hence to a [[prequantum bundle]]. But in the context of [[higher geometry]] and [[higher geometric quantization]] this prequantization step is already part of the data of the [[Lagrangian]] itself: an [[extended Lagrangian]] already encodes not just the [[action functional]] but also the [[prequantum bundle]] and all the [[prequantum n-bundle|prequantum (n-k)-bundles]] in each [[dimension]] $k$. The action functional itself is the _[[prequantum 0-bundle]]_  in this context.
+There are in turn two formalizations of the notion of [[quantization]]: _algebraic [[deformation quantization]]_ and _[[geometric quantization]]_. In the latter one speaks of _[[prequantization]]_ when referring to a precursor step to the actual quantization step, in which the [[symplectic form]] on [[phase space]] is lifted to [[differential cohomology]], hence to a [[prequantum bundle]]. But in the context of [[higher geometry]] and [[higher geometric quantization]] this prequantization step is already part of the data of the [[Lagrangian]] itself: an [[extended Lagrangian]] already encodes not just the [[action functional]] but also the [[prequantum bundle]] and all the [[prequantum n-bundle|prequantum (n-k)-bundles]] in each [[dimension]] $k$. The action functional itself is the _[[prequantum 0-bundle]]_  in this context.
 
 Therefore, in the refined picture of [[higher geometry]]/[[extended quantum field theory]] it makes good sense to refer in a unified way to **prequantum field theory** for all of the data related to [[Lagrangians]] that is not yet the final [[quantum field theory]]. 
 
@@ -83,7 +83,7 @@ Taken together this means that spaces of fields are _[[(∞,1)-sheaf|geometric h
 
 A collection of all such geometric higher groupoids for a chosen flavor of [[geometry]] -- for instance [[topology]] or [[differential geometry]] or  [[supergeometry]] (for the description of [[fermion]] fields) or [[synthetic differential geometry]] or [[synthetic differential supergeometry]], etc. -- is called an _[[∞-topos]]_. 
 
-Not quite every [[∞-topos]] $\mathbf{H}$ serves as a decent context for collectiojns (moduli stacks) of [[physical fields]] though. In the following we need at least that $\mathbf{H}$ has a reasonable notion of _[[discrete objects]]_ so that we can identify the geometrically discrete spaces in there. We here need this to mean the following
+Not quite every [[∞-topos]] $\mathbf{H}$ serves as a decent context for collections (moduli stacks) of [[physical fields]] though. In the following we need at least that $\mathbf{H}$ has a reasonable notion of _[[discrete objects]]_ so that we can identify the geometrically discrete spaces in there. We here need this to mean the following
 
 +-- {: .num_defn #ShapeAndFlatModality}
 ###### Definition
@@ -109,7 +109,7 @@ and call the _[[flat modality]]_.
 +-- {: .num_example}
 ###### Example
 
-Every [[cohesive (∞,1)-topos]] is in particular globally and locally $\infty$-connected, by definition. Standard anonical exmaples to keep in mind are
+Every [[cohesive (∞,1)-topos]] is in particular globally and locally $\infty$-connected, by definition. Standard canonical examples to keep in mind are
 
 * $\mathbf{H} = $ [[∞Grpd]] for [[∞-Dijkgraaf-Witten theories]];
 
@@ -172,7 +172,7 @@ $$
 
 Here $\mathbf{Fields}_{in}$ is to be thought of as the space of incoming fields, $\mathbf{Fields}_{out}$ that of outgoing fields, and $\mathbf{Fields}$ the space of all fields on some [[cobordism]] connecting the incoming and the outgoing pieces of [[worldvolume]]/[[spacetime]]. The left map sends such a trajectory to its starting configuration, and the right one sends it to its end configuration.
 
-Given two such spans/corespondences, that share a common field configuration as in 
+Given two such spans/correspondences, that share a common field configuration as in 
 
 $$
   \array{
@@ -188,7 +188,7 @@ $$
   }
 $$ 
 
-can be [[composition|composed]], by forming consecutive trajectories from all pairs of trajectories that mathch in the middle. The space of these composed trajectories is the [[fiber product]] 
+can be [[composition|composed]], by forming consecutive trajectories from all pairs of trajectories that match in the middle. The space of these composed trajectories is the [[fiber product]] 
 $\mathbf{Fields}_1 \underset{{\mathbf{Fields}_{out_1}} \atop {=\mathbf{Fields}_{in_2}}}{\times} \mathbf{Fields}_2$ which sits in a new [[span]]/[[correspondence]]
 
 $$
@@ -201,7 +201,7 @@ $$
 
 exhibiting the composite of the previous two. This way, spaces of fields with spans/correspondences between them form a [[category]], which we denote $Span_1(\mathbf{H})$ if $\mathbf{H}$ denotes the ambient context (a [[topos]]) in which the spaces of fields live. 
 
-If two cobordisms run in parallel, then the fiedl configurations on their union are pairs of the original field configurations, which are elements in the [[cartesian product]] of spaces of fields. Hence the operations
+If two cobordisms run in parallel, then the field configurations on their union are pairs of the original field configurations, which are elements in the [[cartesian product]] of spaces of fields. Hence the operations
 
 $$
   \left(
@@ -229,7 +229,7 @@ $$
   \right)
 $$
 
-make this category of fields and corespondence into a [[monoidal category]]. 
+make this category of fields and correspondence into a [[monoidal category]]. 
 
 Then a choice of field configurations for a (not yet localized) field theory in dimension $n \in \mathbb{N}$ is a [[monoidal functor]] from a [[category of cobordisms]] of dimension $n$ to such a category of [[spans]]/[[correspondences]]
 
@@ -238,7 +238,7 @@ $$
   \,,
 $$
 
-namely a consistend assignment that to each [[closed manifold]] $\Sigma_{n-1}$ of dimension $(n-1)$ assigns a space of field configurations $\mathbf{Fields}(\Sigma_{n-1})$ and which two each [[cobordism]]
+namely a consistent assignment that to each [[closed manifold]] $\Sigma_{n-1}$ of dimension $(n-1)$ assigns a space of field configurations $\mathbf{Fields}(\Sigma_{n-1})$ and that to each [[cobordism]]
 
 $$
   \Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}
@@ -255,7 +255,7 @@ $$
   \,.
 $$
 
-Apart from the field configurations themselves, prequantum field theory assigns to each [[trajectory]] a "[[phase]]" -- an element in the [[circle group]] $U(1)$ -- by a map called the (exponentiated) [[action functional]]. In order to nicely relate that to the expression of spaces of trajectories as [[spans]]/[[correspondences]] as above, it is useful to think of the [[circle group]] here as being the [[automorphisms]] of something. This is universally accomplished by taking it to be the automorphsims of the unique point in the [[delooping]] [[groupoid]] $\mathbf{B}U(1) = \{\ast \stackrel{c \in U(1)}{\to} \ast\}$. (A lightning review of [[groupoid]]-[[homotopy theory]] is below in [Groupoids and basic homotopy 1-type theory](#GroupoidsAndBasicHomotopy1TypeTheory)). In other words, we think of the group of phases $U(1)$ as the space of [[homotopies]] from the point to itself in the [[Eilenberg-MacLane space]] $\mathbf{B}U(1)$, expressed by the [[diagram]] (a [[homotopy fiber product]] diagram)
+Apart from the field configurations themselves, prequantum field theory assigns to each [[trajectory]] a "[[phase]]" -- an element in the [[circle group]] $U(1)$ -- by a map called the (exponentiated) [[action functional]]. In order to nicely relate that to the expression of spaces of trajectories as [[spans]]/[[correspondences]] as above, it is useful to think of the [[circle group]] here as being the [[automorphisms]] of something. This is universally accomplished by taking it to be the automorphisms of the unique point in the [[delooping]] [[groupoid]] $\mathbf{B}U(1) = \{\ast \stackrel{c \in U(1)}{\to} \ast\}$. (A lightning review of [[groupoid]]-[[homotopy theory]] is below in [Groupoids and basic homotopy 1-type theory](#GroupoidsAndBasicHomotopy1TypeTheory).) In other words, we think of the group of phases $U(1)$ as the space of [[homotopies]] from the point to itself in the [[Eilenberg-MacLane space]] $\mathbf{B}U(1)$, expressed by the [[diagram]] (a [[homotopy fiber product]] diagram)
 
 $$
   \array{
@@ -309,9 +309,9 @@ $$
   \,.
 $$
 
-Hence action functioals are naturally incorporated into [[spans]]/[[correspondences]] of [[moduli spaces]] of fields simply by regarding these to be formed not in the ambient [[topos]] $\mathbf{H}$ itself, but in its [[slice topos]] $\mathbf{H}_{/\mathbf{B}U(1)}$, where each object is equipped with a map to $\mathbf{B}U(1)$ and each morphism with a [[homotopy]] in $\mathbf{B}U(1)$ between the corresponding maps.
+Hence action functionals are naturally incorporated into [[spans]]/[[correspondences]] of [[moduli spaces]] of fields simply by regarding these to be formed not in the ambient [[topos]] $\mathbf{H}$ itself, but in its [[slice topos]] $\mathbf{H}_{/\mathbf{B}U(1)}$, where each object is equipped with a map to $\mathbf{B}U(1)$ and each morphism with a [[homotopy]] in $\mathbf{B}U(1)$ between the corresponding maps.
 
-We write $\mathrm{Span}_1(\mathbf{H}, \mathbf{B}U(1))$ for the category of spans/correspondences as before, but now equipped with maps to and transformations over $\mathbf{B}U(1)$ as in the above diagram. 
+We write $\mathrm{Span}_1(\mathbf{H}, \mathbf{B}U(1))$ for the category of spans/correspondences as before, but now equipped with maps to, and transformations over, $\mathbf{B}U(1)$ as in the above diagram. 
 
 Then an [[action functional]] for a choice of field configurations that itself is given as a [[monoidal functor]] $\mathbf{Fields} \colon Bord_n^\otimes \to Span_1(\mathbf{H})$ as above is a monoidal functor
 
@@ -332,10 +332,10 @@ $$
   \,,
 $$
 
-where the right vertical functor [[forgetful functor|forgets]] the phase assignsments and just remembers the correspondences of field trajectories.
+where the right vertical functor [[forgetful functor|forgets]] the phase assignments and just remembers the correspondences of field trajectories.
 
 
-So far this is a non-local (or: not-neccessarily local) preqauntum field theory, since it assigns data only to entire $n$-dimensional cobordisms and $(n-1)$-dimensional [[closed manifolds]], but is not guaranteed to be obtained by integrating up local data over little pieces of these manifolds. The latter possibility is however the characteristic property of [[local quantum field theory]], which in turn is the flavor of quantum field theory that seems to matter in nature, and fundamentally.
+So far this is a non-local (or: not-necessarily local) prequantum field theory, since it assigns data only to entire $n$-dimensional cobordisms and $(n-1)$-dimensional [[closed manifolds]], but is not guaranteed to be obtained by integrating up local data over little pieces of these manifolds. The latter possibility is however the characteristic property of [[local quantum field theory]], which in turn is the flavor of quantum field theory that seems to matter in nature, and fundamentally.
 
 In order to formalize this localization, we allow the cobordisms to contain higher-[[codimension]] pieces that are [[manifolds with corners]]. These then form not just a [[category of cobordisms]], but an [[(∞,n)-category]] of cobordisms, which we will still denote $Bord_n^\otimes$. If we now have a cobordism with [[codimension]]-2 [[corners]], then the field configurations over it now form a span-of-spans
 
@@ -403,7 +403,7 @@ $$
   (Bord_n^S)^\otimes \in E_\infty Alg(Cat_{(\infty,n)})
 $$
 
-for the corresponding symmetric monoidal $(\infty,n)$-category of cobordimss equipped with [[G-structure|S-structure]] on their $n$-stabilized [[tangent bundle]]. 
+for the corresponding symmetric monoidal $(\infty,n)$-category of cobordisms equipped with [[G-structure|S-structure]] on their $n$-stabilized [[tangent bundle]]. 
 
 =--
 
@@ -463,7 +463,7 @@ $$
 +-- {: .num_prop #FullSelfDualizabilityInSpan}
 ###### Proposition
 
-Every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]]. The [[evaluation map]]/[[coevaluaton map]] $k$-spans in dimension $k$ involve in top degree the spans
+Every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]]. The [[evaluation map]]/[[coevaluation map]] $k$-spans in dimension $k$ involve in top degree the spans
 
 $$
   \ast \leftarrow X \stackrel{}{\to} [\Pi(S^k), X]
@@ -1344,7 +1344,7 @@ The prequantum field theory defined by a [[group character]]
       \in Span_1(Grpd,\mathbf{B}\flat U(1))
   $$
 
-  assigns to the [[circle]] the [[trace]] of the idenity on this object, which is 
+  assigns to the [[circle]] the [[trace]] of the identity on this object, which is 
 
 
 $$
@@ -1622,7 +1622,7 @@ that there is a fairly canonical such morphism $S^{n+1}_{tYM}$, namely the "[[at
 
 * _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_
 
-where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantm field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_.
+where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the prequantum field theories of higher [[Chern-Simons theory]]-type, the _[[schreiber:∞-Chern-Simons theories]]_.
 
 
 
