@@ -1,6 +1,5 @@
 
 #Contents#
-
 * table of contents
 {:toc}
 
@@ -50,6 +49,8 @@ degree-2 maps, so $M_{0,0}(Q,2)$ contains 2875 components of dimension 2, in con
 
 
 ## Related entries
+
+* [[fundamental class]]
 
 * Virtual fundamental classes play a central role in the theory of [[Gromov-Witten invariants]].
 
