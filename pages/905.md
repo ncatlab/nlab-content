@@ -1,4 +1,19 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Definition
+
 An **m-cofibrant space** is a [[topological space]] that is [[homotopy equivalence|homotopy equivalent]] to a [[CW complex]].
+
+
+## Idea
 
 The importance of m-cofibrant spaces comes from the fact any [[weak homotopy equivalence]] between m-cofibrant spaces is a homotopy equivalence. It is a classical theorem -- the [[Whitehead theorem]] -- that this is true for CW complexes, and it is easy to see that it is a property preserved under homotopy equivalence.  In fact, it is easy to see that m-cofibrant spaces are the largest subcategory $C$ of $Top$ which includes all CW complexes and such that any weak homotopy equivalence between objects of $C$ is a homotopy equivalence.
 
