@@ -65,23 +65,23 @@ $$
 ### Jacobi theta-functions
  {#JacobiThetaFunctions}
 
-The most important example is the [[Jacobi theta function]].
-The four Jacobi theta-functions are (with $q = e^{\pi i \tau}$)
+The most important examples are the Jacobi [[theta-functions]].
+The four Jacobi $\theta$-functions are (with $q = e^{2\pi i \tau}$)
 
 $$
   \theta(z,\tau) 
     \coloneqq
-  2 q^{1/4} sin(\pi z)
+  2 q^{1/8} sin(\pi z)
   \prod_{j = 1}^{\infty}
   \left(   
     \left(
-      1 - q^{2j}
+      1 - q^{j}
     \right)
     \left(
-      1 - e^{2\pi i z} q^{2 j}
+      1 - e^{2\pi i z} q^{j}
     \right)
     \left(
-      1 - e^{-2 \pi i z} q^{2 j}
+      1 - e^{-2 \pi i z} q^{j}
     \right)
   \right)
 $$
@@ -89,17 +89,17 @@ $$
 $$
   \theta_1(z,\tau) 
     \coloneqq
-  2 q^{1/4} cos(\pi z)
+  2 q^{1/8} cos(\pi z)
   \prod_{j = 1}^{\infty}
   \left(   
     \left(
-      1 - q^{2j}
+      1 - q^{j}
     \right)
     \left(
-      1 + e^{2\pi i z} q^{2 j}
+      1 + e^{2\pi i z} q^{j}
     \right)
     \left(
-      1 + e^{-2 \pi i z} q^{2 j}
+      1 + e^{-2 \pi i z} q^{j}
     \right)
   \right)
 $$
@@ -111,13 +111,13 @@ $$
   \prod_{j = 1}^{\infty}
   \left(   
     \left(
-      1 - q^{2j}
+      1 - q^{j}
     \right)
     \left(
-      1 - e^{2\pi i z} q^{2 j - 1}
+      1 - e^{2\pi i z} q^{j - 1/2}
     \right)
     \left(
-      1 - e^{-2 \pi i z} q^{2 j - 1}
+      1 - e^{-2 \pi i z} q^{j - 1/2}
     \right)
   \right)
 $$
@@ -129,13 +129,13 @@ $$
   \prod_{j = 1}^{\infty}
   \left(   
     \left(
-      1 - q^{2j}
+      1 - q^{j}
     \right)
     \left(
-      1 + e^{2\pi i z} q^{2 j - 1}
+      1 + e^{2\pi i z} q^{j - 1/2}
     \right)
     \left(
-      1 + e^{-2 \pi i z} q^{2 j - 1}
+      1 + e^{-2 \pi i z} q^{j - 1/2}
     \right)
   \right)
 $$
