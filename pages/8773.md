@@ -28,6 +28,22 @@
 
 ## Related concepts
 
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+  * [[Chern-Simons theory]]
+
+  * **5d Chern-Simons theory**
+
+  * [[7d Chern-Simons theory]]
+
+  * [[AKSZ sigma-models]]
+
+  * [[string field theory]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
+
 * [[self-dual Yang-Mills theory]]
 
 * [[5-dimensional supergravity]]
