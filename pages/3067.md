@@ -4,5 +4,9 @@ A pseudomonoid in the [[cartesian monoidal category|cartesian]] monoidal 2-categ
 
 Just as a monoid in a monoidal category $C$ can be equivalently defined as a [[monad]] in the corresponding one-object [[2-category]] $\mathbf{B}C$ (the [[delooping]] of $C$), so a pseudomonoid in a monoidal 2-category $C$ can equivalently be defined as a [[pseudomonad]] in the corresponding one-object [[3-category]] $\mathbf{B}C$.
 
-
+[[!redirects pseudomonoid]]
+[[!redirects pseudomonoids]]
 [[!redirects pseudomonoid object]]
+[[!redirects pseudomonoid objects]]
+[[!redirects monoidale]]
+[[!redirects monoidales]]
