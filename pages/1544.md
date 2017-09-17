@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -363,6 +362,8 @@ See [[connection on a principal ∞-bundle]].
     * [[equivariant connection]]
 
     * [[logarithmic connection]]
+
+  * [[Chern connection]]
 
   * [[moduli space of connections]]
 
