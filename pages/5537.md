@@ -21,7 +21,16 @@ Thus, the open sets in the locale $\lim S_i$ are the "ideals" for this coverage,
 
 ### The pro-set $\pi_0$ of a locale
 
-On the other hand, there is a naturally defined functor $\pi_0\colon Loc \to Pro(Set)$ which sends a locale to its pro-set of [[connected components]].  The vertices of the cofiltered diagram defining $\pi_0(X)$ are decompositions $X = \coprod_{i\in I} U_i$ of $X$ as a [[coproduct]] of [[open subsets]], and the corresponding set is the index set $I$.  We say $(U_i) \le (V_j)$ for decompositions set$(U_i)$ and $(V_j)$ if each $U_i$ is contained in some $V_j$; this induces a map $I\to J$.  (If the $U_i$ are allowed to be empty, then this map is not uniquely determined, so that we can have more than one morphism $(U_i)\to (V_j)$; thus $\pi_0$ is a cofiltered category rather than merely a directed set.  We can avoid this by requiring all the $U_i$ to be [[positive element|positive]].)
+On the other hand, there is a naturally defined functor $\pi_0\colon Loc \to Pro(Set)$ which sends a locale to its pro-set of [[connected components]].  The vertices of the cofiltered diagram defining $\pi_0(X)$ are decompositions $X = \coprod_{i\in I} U_i$ of $X$ as a [[coproduct]] of [[open subsets]], and the corresponding set is the index set $I$.  A morphism $(U_i) \to (V_j)$, called a *refinement*, consists of a function $f:I\to J$ such that $U_i$ is contained in $V_{f(i)}$; the corresponding function is of course $f$.
+
+This diagram is cofiltered:
+1. It is nonempty, since $X$ is the 1-ary coproduct of itself.
+1. Given decompositions $(U_i)$ and $(V_j)$, the decomposition $(U_i \cap V_j)_{i,j}$ refines both of them.
+1. Given parallel refinements $f,g:(U_i)\to (V_j)$, for each $i$ we have $U_i \subseteq V_{f(i)} \cap V_{g(i)}$.  If we define $K = \{ i | f(i) = g(i) \}$ and $W_i = U_i$ for $i\in K$, then we have an obvious refinement $h\colon (W_k) \to (U_i)$ and $f h = g h$.  It remains to show that $(W_k)$ is actually a cover of $X$.
+
+   Since $V_{j_1} \cap V_{j_2} = \bigcup \{ V_{j_1} | j_1 = j_2 \}$ (the latter being the [[join]] of a [[subsingleton]]), we have $U_i \subseteq \bigcup \{ U_i | f(i) = g(i) \}$ (another join of a subsingleton) and thus $U_i \subseteq \bigcup_{k\in K} W_k$.  Thus, since the $U_i$ cover $X$, so do the $W_k$.
+
+The [[classical mathematics|classical mathematician]] may be forgiven for thinking this last argument to be more confusing than necessary, since classically, either $f(i)=g(i)$ (in which case $W_i = U_i$) or $f(i)\neq g(i)$ (in which case $U_i = \emptyset$).  Constructively, however, the more involved argument is required.
 
 Note that if $X$ is [[locally connected space|locally connected]], then it has a "minimal" such decomposition, namely its decomposition into [[connected components]].  Thus, in this case $\pi_0(X)$ is a mere set.
 
@@ -35,6 +44,9 @@ The functor $\pi_0\colon Loc \to Pro(Set)$ is left adjoint to $\lim\colon Pro(Se
 ###### Proof
 Since $\lim$ is given by regarding a pro-set as a diagram of discrete locales and taking its limit, it suffices to show that morphisms of pro-sets $\pi_0(X) \to S$, for a set $S$, are equivalent to morphisms of locales $X \to S_{disc}$.  But a locale map $X \to S_{disc}$ is precisely a decomposition of $X$ into disjoint opens indexed by $S$, which exactly defines a map $\pi_0(X) \to S$.
 =--
+
+If $X$ is an [[overt locale]], then every decomposition is refined by a decomposition into [[positive elements]], so we may as well consider only decompositions into positive opens.  If we do this, the cofiltered category indexing $\pi_0$ becomes a [[codirected poset]], since (in the argument above) each $(U_i)$ is covered by $\{ U_i | f(i) = g(i) \}$, which must therefore be an [[inhabited set]] for all $i$, so that $f=g$.  Moreover, since in any refinement $f\colon (U_i) \to (V_j)$, each $V_j$ is covered by $\{ U_i | f(i)=j\}$, in this case the transition maps of the resulting pro-set are surjective.  However, for a non-overt locale (which, recall, cannot exist [[classical mathematics|classically]], it seems that the pro-set $\pi_0(X)$ need not be surjective in this sense.
+
 
 ### The classifying locale functor is not an embedding
 
