@@ -2294,7 +2294,7 @@ Form the defining pullback as before. (...)
 
 We discuss here the  <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">intrinsic exponentiated ∞-Lie algebras</a> in $Smooth \infty Grpd$.
 
-#### Lie integration
+#### Lie integration {#LieIntegration}
 
 +-- {: .un_def}
 ###### Definition
@@ -4853,10 +4853,70 @@ in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet
 
 We now insert this in the above general abstract definition of the $\infty$-Chern-Weil homomorphism to deduce a presentation of that in terms of smooth families of [[∞-Lie algebroid valued differential forms]].
 
+The main step is the construction of a well-suited composite of two spans of morphisms of simplicial presheaves (of two [[∞-anafunctor]]s): we consider presentations of [[characteristic class]]es $\mathbf{c} : \mathbf{B}G$ \to \mathbf{B}^n U(1)$ in the image of the [∞-Lie integration](#LieIntegration) and presented by trunactions and quotients of morphisms of simplicial presheaves of the form
+
+$$
+  \mathbf{c}_{smp}
+  :
+  \array{
+    \exp(\mathfrak{g})
+    \stackrel{\exp(\mu)}{\to}
+    \exp(b^{n-1}\mathbb{R})
+  }
+  \,.
+$$
+
+Then, using the above, the composite differential characteristic class $\mathbf{c}_{dR}$ is presented by the zig-zag
+
+$$
+  \array{
+    && \mathbf{B}^n \mathbb{R}_{diff,smp}
+    &\stackrel{curv_{smp}}{\to}&
+     \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
+    \\
+    && \downarrow^{\mathrlap{simeq}}
+    \\
+    \exp(\mathfrak{g})
+    &\stackrel{\exp(\mu)}{\to}&
+    \mathbf{B}^n \mathbb{R}_{smp}
+  }
+$$
+
+of simplicial presheaves. In order to efficiently compute which morphism in $Smooth \infty Grpd$ this presents we need to construct, preferably naturally in the [[L-∞ algebra]] $\mathfrak{g}$ a simplicial presheaf $\exp(\mathfrak{g})_{diff}$ that fills this diagram as follows:
+
+$$
+  \array{
+    \exp(\mathfrak{g})_{diff,smp} &\stackrel{\exp(\mu,cs)}{\to}& \mathbf{B}^n \mathbb{R}_{diff,smp}
+    &\stackrel{curv_{smp}}{\to}&
+     \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{simeq}}
+    \\
+    \exp(\mathfrak{g})
+    &\stackrel{\exp(\mu)}{\to}&
+    \mathbf{B}^n \mathbb{R}_{smp}
+  }
+  \,.
+$$
+
+Given this, $\exp(\mathfrak{g})_{diff,smp}$ serves as a new [[resolution]] of $\exp(\mathfrak{g})$ for which the composite differential characteristic class is presented by the ordinary composite of morphisms of simplicial presheaves $curv_{smp}\circ \exp(\mu, cs)$.
+
+This object $\exp(\mathfrak{g})_{diff}$ we shall see may be interpreted as the coefficient for _pseudo_ [[connection on an ∞-bundle|∞-connections]] with values in $\mathfrak{g}$. 
+
+There is however still room to adjust this presentation such as to yield in each cohomology class special nice cocycle representatives. This we will achieve by finding naturally a [[subobject]] $\exp(\mathfrak{g})_{conn} \hookrightarrow \exp(\mathfrak{g})_{diff}$ whose inclusion is an isomorphism on connected components and restricted to which the morphism $curv_{smp} \circ \exp(\mu,cs)$ yields nice representatives in the [[de Rham cohomology|de Rham]] [[hypercohomology]] encoded by $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}_{smp}$. On this object the differential characteristic classes we will show factor naturally through the refinements to differential cohomology, and hence $\exp(\mathfrak{g})_{conn}$ is finally identified as a presentation for the the coefficient object for [[connection on an ∞-bundle|∞-connections]] with values in $\mathfrak{g}$.
 
 (...)
 
 * [[∞-Chern-Weil homomorphism]]
+
+
+#### $L_\infty$-algebra cohomology and Chern-Simons elements
+
+(...)
+
+#### $\infty$-Connections
+
+(...)
 
 
 ### Higher holonomy and Chern-Simons functional {#StrucChernSimons}
