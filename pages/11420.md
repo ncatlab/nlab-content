@@ -1,26 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
-A _completion of a ring_ is a [[completion]] of a [[ring]] to a [[complete metric space|complete]] [[topological ring]].
+A _completion of a ring_ is a [[completion]] of a [[ring]] to a [[complete space|complete]] [[topological ring]].
 
 Specifically, for $R$ a [[commutative ring]] and $I \subset R$ a [[maximal ideal]], then the [[limit]]
 
@@ -29,6 +28,7 @@ $$
 $$
 
 of the [[quotients]] of $R$ by all the powers of this ideal is the completion of $R$ at $I$.
+
 
 ## Exanples
 
@@ -43,9 +43,13 @@ of the [[quotients]] of $R$ by all the powers of this ideal is the completion of
 
 * [[localization of a ring]], [[localization of a commutative ring]]
 
+
 ## References
 
-* Wikipedia, _[Completion (ring theory)](https://en.wikipedia.org/wiki/Completion_(ring_theory))_
+* Wikipedia, _[Completion (ring theory)](https://en.wikipedia.org/wiki/Completion_%28ring_theory%29)_
 
+[[!redirects completion of a ring]]
 [[!redirects completion of rings]]
+[[!redirects completions of a ring]]
+[[!redirects completions of rings]]
 [[!redirects completion (ring theory)]]
