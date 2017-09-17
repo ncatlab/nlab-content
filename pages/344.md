@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[category]] is _extensive_ if it has [[coproducts]] that interact well with [[pullbacks]].  Variations (some only terminological) include _lextensive_, _disjunctive_, and _positive_ categories.  All of these come in _finitary_ and _infinitary_ versions (and, more generally, $\kappa$-ary versions for any (regular) cardinal $\kappa$).
+A [[category]] is _extensive_ if it has [[coproducts]] that interact well with [[pullbacks]].  Variations (some only terminological) include _lextensive_, _disjunctive_, and _positive_ categories.  All of these come in _finitary_ and _infinitary_ versions (and, more generally, $\kappa$-ary versions for any [[arity class]] $\kappa$).
 
 
 ## Definitions
@@ -38,7 +38,7 @@ An __infinitary extensive category__ is a category $E$ with all (small) [[coprod
  $$\array{ x_i & \to & z \\\downarrow &&\downarrow^f \\ a_i & \to & \coprod_i a_i } $$
  in which the bottom family of morphisms is the coproduct injections and the right-hand morphism is always the same, the top family are the injections of a coproduct diagram (hence $z = \coprod_i x_i$) if and only if all the squares are pullbacks.
 
-In between, a __$\kappa$-ary extensive category__ (for $\kappa$ a [[cardinal number]]) is one with disjoint and stable coproducts of fewer than $\kappa$ objects.  The unqualified term **extensive category** can refer to either the finitary or infinitary version, depending on the author; the more usual meaning is the finitary version.
+In between, a __$\kappa$-ary extensive category__ (for $\kappa$ a [[cardinal number]] or an [[arity class]]) is one with disjoint and stable coproducts of fewer than $\kappa$ objects.  The unqualified term **extensive category** can refer to either the finitary or infinitary version, depending on the author; the more usual meaning is the finitary version.
 
 Extensive categories are also called __positive categories__, especially if they are also [[coherent category|coherent]].  Note that any disjoint coproduct in a coherent category is automatically pullback-stable.  A positive coherent category which is also [[exact category|exact]] is called a [[pretopos]].  Infinitary pretoposes encapsulate all the exactness conditions of Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]] (the remaining condition is the existence of a small [[generating set]]).
 
