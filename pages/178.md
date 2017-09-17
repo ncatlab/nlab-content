@@ -589,11 +589,17 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 
 =--
 
+## The $(\infty,1)$-topos on $ThCartSp$ of $\infty$-Lie algebroids {#InfSheavesOnCartSp}
 
+If we pass from the [[site]] [[CartSp]] to the site [[ThCartSp]] of [[infinitesimal object|infinitesimally thickened]] [[Cartesian space]]s, then the objects in the corresponding $(\infty,1)$-topos are $\infty$-Lie groupoids whose spaces of $k$-morphisms may have [[nLab:infinitesimal object|infinitesimal extension]]. This then also inclused [[∞-Lie algebroid]]s.
 
+The $(\infty,1)$-topos $Sh_{(\inmfty,1)}(ThCartSp)$ is the $(\infty,1)$-categorical analog of the [[Cahiers topos]].
+
+...
 
 ## Examples
 
+### Finite 
 
 * [[Lie group]]
 
@@ -613,7 +619,27 @@ Setting here $K_\bullet = \int^{[k]} \Delta[k] \cdot C(\{U^k_i\})$ and using the
 
 * [[schreiber:path ∞-groupoid]]
 
+### Infinitesimal
 
+* [[∞-Lie algebroid]]
+
+* [[Lie algebra]]
+
+* [[Lie algebroid]]
+
+  * [[tangent Lie algebroid]]
+
+  * [[Atiyah Lie algebroid]]
+
+* [[Lie 2-algebra]]
+
+  * [[string Lie 2-algebra]]
+
+* [[n-symplectic manifold]]
+
+  * [[Poisson Lie algebroid]]
+
+  * [[Courant algebroid]]
 
 
 
