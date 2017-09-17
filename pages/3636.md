@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -6,11 +5,15 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 =--
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea of some problems
