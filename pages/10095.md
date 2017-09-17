@@ -1,0 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _complex Lie group_ is a [[Lie group]] that is a [[group object]] not just [[internalization|internal]] to [[smooth manifolds]] but in fact to [[complex manifolds]]. Hence it is a [[complex manifold]] $G$ equipped with a [[group]] structure such that both the multiplication map $G \times G \to G$ as well as the [[inverse]] map $G \to G$ are [[holomorphic functions]].
+
+## Properties
+
+### Relation to almost complex structure
+
+One can also conider groups in [[almost complex manifolds]]. But every _almost complex Lie group_ is automatically also a complex Lie group.
+
+### Complexification of compact Lie groups
+
+For $K$ a [[compact Lie group]] there is a unique [[connected topological space|connected]] complex Lie group $G$ such that 
+
+1. the [[Lie algebra]] of $G$ is the [[complexification]] of the Lie algebra of $K$: 
+
+   $$
+     Lie(G) \simeq Lie(K) \otimes_{\mathbb{R}} \mathbb{C}
+     \,,
+   $$
+
+1. $K$ is a [[maximal compact subgroup]] of $G$.
+
+This $G$ is called the **complexification** of $K$.
+
+## Related concepts
+
+* [[complex Lie algebra]]
+
+[[!redirects complex Lie groups]]
