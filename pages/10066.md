@@ -108,6 +108,10 @@ Discussion relating to K-theory of homotopy quotients / Borel construction is in
 
 * [[Jacob Lurie]], around p. 11 of _[[A Survey of Elliptic Cohomology]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
 
+Discussion of the [[adjoint action]]-equivariant K-theory of suitable [[Lie groups]] in in 
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]_.
+
 Discussion of K-theory of [[orbifolds]] is for instance in section 3 of 
 
 * Alejandro Adem, Johanna Leida, Yongbin Ruan, _Orbifolds and string topology_, Cambridge Tracts in Mathematics 171, 2007 ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
