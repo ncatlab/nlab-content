@@ -118,11 +118,15 @@ In the context of [[higher category theory]]/[[higher algebra]] one may interpre
 
 ## References
 
-Bimodules in [[higher algebra]], [[A-infinity bimodules]], are discussed in
+Bimodules in [[homotopy theory]]/[[higher algebra]] are discussed in section 4.3 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+Specifically the homotopy theory of [[A-infinity bimodules]] is discussed in
 
 * Volodymyr Lyubashenko, Oleksandr Manzyuk, _A-infinity-bimodules and Serre A-infinity-functors_ ([arXiv:math/0701165](http://arxiv.org/abs/math/0701165))
 
-section 5.4.1 of 
+and section 5.4.1 of 
 
 * [[Boris Tsygan]], _Noncommutative calculus and operads_ in 
 Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics Proceedings volume 16
