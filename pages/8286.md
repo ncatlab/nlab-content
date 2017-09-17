@@ -22,6 +22,8 @@ It is this notion of "coefficient" that appears in terms like
 
 * [[local coefficient bundle]] 
 
+This usage of "coefficient" is almost certainly originally derived from the former one.  When classical homology with coefficients in $A$ (in the homological sense) is defined using [[singular homology|singular]] or [[cellular homology|cellular]] chains, the chains themselves are formal linear combinations of singular simplices or cells whose coefficients (in the algebraic sense) are elements of $A$.  For more general homology and cohomology theories, however, the "coefficient object" is no longer directly interpretable using coefficients in the algebraic sense.
+
 
 category: disambiguation
 
