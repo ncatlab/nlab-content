@@ -1,11 +1,16 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea ##
 
-A **Dold fibration** is a map that allows [[lifting]] of [[homotopies]], with initial condition agreeing with a given map up to a [[vertical homotopy]].
+A **Dold fibration** is a continuous map of [[topological space]]s that allows [[lifting]] of [[homotopies]], with initial condition agreeing with a given map up to a [[vertical homotopy]].
 
 
 ## Definition ##
 
-The map $f:E \to B$ is said to have the **weak covering homotopy property** (WCHP) for the space $Y$ if for all squares
+The morphism $f:E \to B$ of [[topological space]]s is said to have the **weak covering homotopy property** (WCHP) for the space $Y$ if for all squares
 
 $$
 \begin{matrix}
