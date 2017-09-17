@@ -37,3 +37,6 @@ A formulation of aspects of this in [[(∞,1)-category theory]] is in
 See also the references at [[(∞,1)-vector bundle]].
 
 [[!redirects parametrized spectra]]
+
+[[!redirects parameterized spectrum]]
+[[!redirects parameterized spectra]]
