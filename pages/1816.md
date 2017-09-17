@@ -2,7 +2,7 @@
 
 The effective topos is an example of an elementary [[topos]] with a [[natural numbers object]] which is not a [[Grothendieck topos]]. It is an environment for [[higher-order logic|higher order]] [[recursion]] theory, where, in the [[internal logic]], it is provable that every [[total function]] from [[natural numbers]] to natural numbers is [[computable function|recursive]] (furthermore, the functor $Hom(1, -)$ from the effective topos into [[Set]] preserves the natural numbers object, giving a suitable version of this result in the external logic as well). It can be specified as the [[realizability topos]] for the [[Kleene's first algebra]]. 
 
-The effective topos construction alluded in the above paragraph can be performed more generally, in every topos $E$ with a natural numbers object, replacing set. To every such topos one constructs the corresponding "external" effective topos $e E$ and the correspondence $E \mapsto e E$ extends to a functor admiting a fully faithful right adjoint. 
+The effective topos construction alluded in the above paragraph can be performed more generally, in every topos $E$ with a natural numbers object, replacing [[Set]]. To every such topos one constructs the corresponding "external" effective topos $e E$ and the correspondence $E \mapsto e E$ extends to a functor admiting a fully faithful right adjoint.  Kleene's first algebra can also be replaced by any [[partial combinatory algebra]], or even some more general types of gadgets; toposes obtained in this way are called [[realizability toposes]].
 
 ## Reference
 
