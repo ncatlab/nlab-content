@@ -16,7 +16,7 @@
 
 Where an ordinary [[simplicial set]] $X$ may be thought of a [[space]] made up of $n$-[[simplices]] $\sigma \in X_n$ for all $n \in \{0,1,2,3, \cdots \}$, an _augmented simplicial set_ in addition has a set $X_{-1}$ of "$(-1)$-simplices" such that each 0-simplex has a single $(-1)$-dimensional face and such that the $(-1)$-dimensional faces of the two faces of any $1$-simplex coincide.
 
-Equivalently this may be thought of as the data that encodes a morphism $X \to const X_{-1}$ between ordinary simplicial sets from an _underlying_ simplicial set to a _constant_ simplicial set with $X_{-1}$ as its set of $k$-simplices for all $k$.
+Equivalently this may be thought of as the data that encodes a [[morphism]] $X \to const X_{-1}$ in [[sSet]] between ordinary simplicial sets from an _underlying_ simplicial set to a _constant_ simplicial set with $X_{-1}$ as its set of $k$-simplices for all $k$.
 
 It is in this latter form that augmented simplicial sets maybe mostly arise in practice, whereas the former incarnation offers a more succinct way of thinking about them.
 
