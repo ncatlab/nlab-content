@@ -16,8 +16,12 @@
 
 ## Idea
 
-A **CW-complex** is a [[nice topological space]] which can be built up inductively, by a process of attaching disks along their boundaries. They are principal objects of interest in algebraic topology; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. (And every space is [[weak homotopy equivalence|weakly homotopy equivalent]] to a CW-complex, but need not be strongly homotopy equivalent to one.) 
+A **CW-complex** is a [[nice topological space]] which is or can be built up inductively, by a process of attaching $n$-[[dimension|dimensional]] [[disks]] $D^n$ along their [[boundary]] [[spheres]] $S^{n.1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
 
+Being, therefore,  essentially combinatotial objects, CW complexes are the principal objects of interest in [[algebraic topology]]; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. Notably the [[geometric realization]] of every [[simplicial set]], hence also of every [[groupoid]], [[2-groupoid]], etc., is a CW complex. 
+
+Also, CW complexes are the [[cofibrant objects]] in the standard [[model structure on topological spaces]]. 
+This means in particular that _every_ topological space is _[[weak homotopy equivalence|weakly homotopy equivalent]]_ to a CW-complex (but need not be [[homotopy equivalence|strongly homotopy equivalent]] to one). Since every topological space is a [[fibrant object]] in this [[model category]] structure, this means that the [[full subcategory]] of [[Top]] on the CW-complexes is a category of "homotopically very good representatives" of [[homotopy types]]. See at _[[homotopy theory]]_ and _[[homotopy hypothesis]]_ for more on this.
 
 ## Definition
 
@@ -45,8 +49,30 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 ## Properties
 
 ### Local contractibility
+ {#LocalContractibility}
 
-* A CW-complex is a [[locally contractible space]].
++-- {: .num_prop }
+###### Proposition
+
+A CW-complex is a [[locally contractible topological space]].
+
+=--
+
+For instance ([Hatcher, prop. A.4](#Hatcher)).
+
+
+
+### Subcomplexes
+ {#Subcomplexes}
+
++-- {: .num_prop }
+###### Proposition
+
+For $X$ a CW complex, the inclusion $X' \hookrightarrow X$ of any subcomplex has an [[open neighbourhood]] in $X$ which is a [[deformation retract]] of $X'$. In particular such an inclusion is a _[good pair](relative+homology#GoodPair)_ in the sense of [[relative homology]].
+
+=--
+
+For instance ([Hatcher, prop. A.5](#Hatcher)).
 
 ### Singular homology
  {#SingularHomology}
