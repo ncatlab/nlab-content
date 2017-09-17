@@ -26,8 +26,8 @@
 
 The analog in the context of [[(∞,1)-topos]] theory of a [[local geometric morphism]] in [[topos theory]].
 
-## Definition
 
+## Definition
 
 A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathbf{H},\mathbf{S}$ is 
 
@@ -45,7 +45,7 @@ A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathb
   $$
     (f^* \dashv f_* \dashv f^!) : 
     \mathbf{H}
-    \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\leftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
+     \stackrel{\overset{f^*}{\leftarrow}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\leftarrow}}}
     \mathbf{S}
   $$
 
@@ -53,6 +53,10 @@ A **local geometric morphism** $f : E \to S$ between [[(∞,1)-topos]]es $\mathb
 
 If $f : \mathbf{H} \to \mathbf{S}$ is the [[global section]] geometric morphism in the category of $(\infty,1)$toposes over $\mathbf{S}$, then we say that $\mathbf{H}$ is a **local $(\infty,1)$-topos**.
 
+
+## Properties
+
+* [[concrete (∞,1)-sheaf]]
 
 ## Examples
 
