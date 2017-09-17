@@ -1,0 +1,7 @@
+
+* [webpage](http://math.bard.edu/greg/)
+
+category: people
+
+[[!redirects Greg Landweber]]
+
