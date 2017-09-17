@@ -1,0 +1,104 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+For $(X,\omega)$ a [[symplectic manifold]] such that $\omega$ is an [[integral form]], a **prequantum line bundle** is any [[line bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$ on $X$ such that 
+
+$$
+  \omega = F_\nabla
+$$
+
+is the [[curvature]] 2-form of $\nabla$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Choosing a prequantum line bundle is the first step in the [[geometric quantization]] of $(X, \omega)$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+In [[cohomology]], a choice of prequantum line bundle corresponds to a lift from [[curvature]] 2-forms to [[ordinary differential cohomology]] $H^2(X)_{diff}$ through the [[curvature]] projection
+
+$$
+  H^2(X)_{diff} \stackrel{F}{\to} \Omega^2_{int}(X)
+  \,.
+$$
+
+=--
+
+The above definition has an immediate generalization to [[n-plectic geometry]].
+
++-- {: .num_defn}
+###### Definition
+
+For $(X,\omega)$ an [[n-plectic manifold]] such that $\omega$ is an [[integral form]], a **prequantum circle n- bundle** is any [[circle n-bundle with connection]] $(P \to X, \nabla)$  such that 
+
+$$
+  \omega = F_\nabla
+$$
+
+is the [[curvature]] $(n+1)$-form of $\nabla$.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+
+In [[cohomology]], a choice of prequantum circle $n$-bundle corresponds to a lift from [[curvature]] $(n+1)$-forms to [[ordinary differential cohomology]] $H^{n+1}(X)_{diff}$ through the [[curvature]] projection
+
+$$
+  H^{n+1}(X)_{diff} \stackrel{F}{\to} \Omega^{n+1}_{int}(X)
+  \,.
+$$
+
+=--
+
+
+## References
+
+For the moment see _[[geometric quantization]]_ for more.
+
+
+[[!redirects prequantum line bundles]]
+
+[[!redirects prequantum circle bundle]]
+[[!redirects prequantum circle bundles]]
+
+[[!redirects prequantum bundle]]
+[[!redirects prequantum bundles]]
+
+[[!redirects pre-quantum line bundle]]
+[[!redirects pre-quantum line bundles]]
+
+[[!redirects pre-quantum circle bundle]]
+[[!redirects pre-quantum circle bundles]]
+
+[[!redirects pre-quantum bundle]]
+[[!redirects pre-quantum bundles]]
+
+[[!redirects prequantization]]
+[[!redirects pre-quantization]]
