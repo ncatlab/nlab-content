@@ -14,3 +14,5 @@
 * [[Simons-Sullivan structured bundle]]
 
 category: people
+
+[[!redirects D. Sullivan]]
