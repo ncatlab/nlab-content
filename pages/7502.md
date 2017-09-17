@@ -1,0 +1,56 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $ \otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ be a functor (e.g. a [[tensor product]], [[tensoring]]). Let $\mathcal{E}_3$ have [[pushouts]].
+
++-- {: .num_defn}
+###### Definition
+
+For $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, the **pushout product** morphism is the morphism
+
+$$
+  A \otimes Y \coprod_{A \otimes X} B \otimes Y
+  \to
+  B \otimes Y
+$$
+
+
+out of the [[coproduct]], induced from the [[commuting diagram]]
+
+$$
+  \array{
+    A \otimes X &\to& B \otimes X
+    \\
+    \downarrow && \downarrow
+    \\
+    B \otimes X &\to& B \otimes Y
+  }
+  \,.
+$$
+
+=--
+
+## Related concepts
+
+* [[pushout-product axiom]]
+
+* [[Joyal-Tierney calculus]]
+
+
+[[!redirects pushout product]]
+[[!redirects pushout-products]]
+[[!redirects pushout products]]
