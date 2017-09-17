@@ -21,7 +21,7 @@
 
 Model structures on chain complexes are [[model category]] structures on [[categories of chain complexes]] whose weak equivalences are [[quasi-isomorphism]]s. 
 
-Via these model structures, all of the standard techniques in [[homological algebra]], such as injective and projective resolutions, are special cases of constructions in [[homotopy theory]], such as cofibrant and fibrant [[resolution]]s.
+Via these model structures, all of the standard techniques in [[homological algebra]], such as [[injective resolutions]] and [[projective resolutions]], are special cases of constructions in [[homotopy theory]], such as [[cofibrant resolutions]] and [[fibrant resolutions]]. 
 
 The existence of these model structures depends subtly on whether the chain complexes in question are bounded or not. 
 
