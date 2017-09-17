@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
 We keep lists:
 
 * [[math blogs]] -- list of online communities like blogs and wikis ("Online Resources")
