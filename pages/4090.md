@@ -59,6 +59,9 @@ This is  [[Higher Topos Theory|HTT, prop. 5.3.2.9]].
 
 This is [[Higher Topos Theory|HTT, prop. 5.3.2.4]].
 
+## Related concepts
+
+* [[excisive (∞,1)-functor]]
 
 ## References
 
