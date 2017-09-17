@@ -128,7 +128,7 @@ A **category with families** is a category $C$ together with
 * For each $\Gamma\in C$ and $A\in Ty(\Gamma)$, a [[representing object]] for the functor
   $$
   \begin{aligned}
-    (C/Gamma)^{op} & \to Set\\
+    (C/\Gamma)^{op} & \to Set\\
     (\Delta \xrightarrow{f} \Gamma) & \to Tm(f^*(A))
   \end{aligned}
   $$
