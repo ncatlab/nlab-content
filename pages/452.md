@@ -170,7 +170,7 @@ $\Pi_2$: (pairs of pointed spaces) $\to$ (crossed modules)
 preserves certain colimits (see reference below).  
 
 
-This last example was one of the first investigated by Whitehead and his proof appears also in a little book by Hilton.
+This last example was one of the first investigated by Whitehead and his proof appears also in a little book by Hilton. See also [[Nonabelian algebraic topology]]. 
 
 
 
