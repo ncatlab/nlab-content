@@ -34,3 +34,5 @@ A tutorial for use of Agda as an implementation of [[homotopy type theory]] is a
 
 * [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
  {#Brunerie}
+
+category: software
