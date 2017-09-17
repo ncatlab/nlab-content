@@ -41,6 +41,10 @@ For $n = 1$ this is the [[circle]].
 
 The torus naturally inherits the structure of a [[Lie group]].
 
+## Related concepts
+
+* [[toric variety]]
+
 
 [[!redirects tori]]
 
