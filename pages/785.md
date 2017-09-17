@@ -97,12 +97,14 @@ Formal discussion of this is in ([Brunerie](#Brunerie)).
 
 What in classical logic is interpreted as the set of pairs $(a,b)$ such that $f(a)$ and $g(b)$ are equal here becomes the restriction of a [[mapping cocylinder]].
 
-## Properties
 
-### Concrete constructions
+## Concrete constructions
   {#ConcreteConstructions}
 
 We discuss various concrete constructions by ordinary [[pullbacks]] and ordinary [[limits]] such that under some sufficient conditions these compute homotopy pullbacks, up to weak equivalence.
+
+### General
+ {#ConstructionsGeneral}
 
 +-- {: .num_prop #HomotopyPullbackByOrdinaryPullback}
 ###### Proposition
@@ -149,10 +151,11 @@ where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path object]] for the
 
 Then by prop. \ref{HomotopyPullbackByOrdinaryPullback} we have
 
-+-- {: .num_cor }
++-- {: .num_cor #HomotopyPullbackByFactorizationLemma}
 ###### Corollary
 
-If in $A \to C \leftarrow B$ all three objects are [[fibrant objects]], then
+If in $A \stackrel{f}{\to} C \stackrel{g}{\leftarrow} B$ 
+all three objects are [[fibrant objects]], then
 the homotopy pullback of this diagram is presented by the ordinary [[limit]] 
 in 
 
@@ -195,10 +198,12 @@ $$
     \\
     \downarrow && \downarrow 
     \\
-     A\times B & \to & C\times C
+     A\times B & \stackrel{(f,g)}{\to} & C\times C
   }
   \,.
 $$
+
+
 
 =--
 
@@ -250,6 +255,55 @@ Then an ordinary pullback of $A \to C \leftarrow B$ in $\mathcal{C}$ is a homoto
 The _global_ projective [[model structure on simplicial presheaves]] is [[right proper model category|right proper]]. So by prop. \ref{HomotopyPullbackByOrdinaryPullback} the ordinary pullback in question presents the homotopy pullback in the global structure. By the discussion at [[homotopy limit]] and [[Bousfield localization of model categories]], this presents the [[(∞,1)-pullback]] of the diagram of [[(∞,1)-presheaves]], and the fibrant replacement of that pullback in the _local_ model structure presents the [[(∞,1)-sheafification]] of this [[(∞,1)-presheaf]]. This is (essentially by definition, see [[(∞,1)-topos]]) a [[left exact functor|left exact]] [[(∞,1)-functor]] and hence preserves finite [[(∞,1)-limits]]. 
 
 =--
+
+### In homotopy type theory
+ {#ConstructionInHomotopyTypeTheory}
+
+If we unwind the [[categorical semantics]] of the [above definition](#InHomotopyTypeTheory) 
+
+$$
+  A \times_C^h B \simeq \{ a : A, b : B | (f(a) = g(b)) \}
+$$
+
+of the homotopy pullback in [[homotopy type theory]], we re-obtain the 
+[above prescription](#ConstructionsGeneral) for how to construct homotopy pullbacks.
+
+So let the ambient category be a suitable [[type-theoretic model category]].
+
+The type $ a : A, b : B \vdash (f(a) = g(b))$ is obtained by [[substitution]] from the [[identity type]] of $C$. By the discussion there, the [[categorical semantics]] of substitution is given by [[pullback]] of the fibrations that interpret the [[dependent types]], and so this is interpreted as the pullback $[a : A, b : B \vdash (f(a) = g(b))] \coloneqq (f,g)^* C^I$ of the [[path space object]] of $C$:
+
+$$
+  \array{
+    [a : A, b : B \vdash (f(a) = g(b))]
+    &\to&
+    [Id C]
+    \\
+    \downarrow && \downarrow
+    \\
+    [a : A , b : B]
+    &\stackrel{(f,g)}{\to}&
+    [c_1 : C , c_2 : C]
+  }
+  \;\;
+   = 
+  \;\;
+  \array{
+    (f,g)^* C^I &\to& C^I
+    \\
+    \downarrow && \downarrow
+    \\
+    A \times B
+    &
+    \stackrel{(f,g)}{\to}
+    &
+    C \times C
+  }
+  \,.
+$$
+
+Forming the [[dependent sum]] over $a : A, b : B$ is simply interpreted as regarding the resulting object $(f,g)^* C^I$ as an object in $\mathcal{C} \simeq \mathcal{C}_{/*}$ instead of as an object in the [[slice category]] $\mathcal{C}_{/ A \times B}$.
+
+Since by assumption on the categorical interpretation of a type, all objects here are fibrant, this coincides with the expression of the homotopy pullback from corollary \ref{HomotopyPullbackByFactorizationLemma} above.
 
 ## Examples
 
