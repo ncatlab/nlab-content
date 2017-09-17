@@ -67,7 +67,7 @@ $$
    \;\colon\;
   \mathbf{H}_{/X}
    \stackrel{\overset{i^*}{\leftarrow}}{\underset{Jet := i_*}{\to}}
-  \mathbf{H}_{/\mathbf{\Pi}_{inf}}(X)
+  \mathbf{H}_{/\mathbf{\Pi}_{inf}(X)}
 $$
 
 for the corresponding [[base change geometric morphism]].
