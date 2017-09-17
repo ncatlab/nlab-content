@@ -49,3 +49,5 @@ A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all o
 [[!redirects causets]]
 [[!redirects causal set]]
 [[!redirects locally finite poset]]
+
+[[!redirects causal sets]]
