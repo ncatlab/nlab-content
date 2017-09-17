@@ -164,6 +164,7 @@ $inv(\mathfrak{g})$ is generated from indecomposable invariant polynomials.
 
 =--
 
+
 ## Role in $\infty$-Chern-Weil theory
 
 In ($\infty$-)[[Chern-Weil theory]] the crucial role played by the invariant polynomials is their relation to [[∞-Lie algebra cocycle]]s. One may understand invariant invariant polynomials as extending under [[Lie integration]] $\infty$-Lie algebra cocycles from [[cohomology]] to [[differential cohomology]].
@@ -546,6 +547,66 @@ $$
 $$
 
 But while $\mu_3$ is not in $ker(W(\mathfrak{g}_{\mu_3}) \to CE(\mathfrak{g}_{\mu_3}))$, the element $h$ is, by definition. Therefore $\tilde cs_3$ is in that kernel, and hence exhibits a horizontal equivalence between $\langle -,- \rangle$ and $0$.
+
+=--
+
+## Properties
+ {#Properties}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathfrak{g}$ be an [[L-infinity algebra]] and 
+$\mu : \mathfrak{g} \to b^n \mathbb{R}$ a 
+[[infinity-Lie algebra cohomology|cocycle]]. Write $\mathfrak{g}_\mu$ for the corresponding shifted central extension
+
+$$
+  b^{n-1} \mathbb{R} \to \mathfrak{g}_\mu \to \mathfrak{g}
+  \,.
+$$
+
+If $\my$ is in [[transgression]] with an invariant polynomial $\langle -\rangle \in inv(\mathfrak{g})$, then $inv(\mathfrak{g}_\mu)$ is generated from the invariant polynomials of $\mathfrak{g}$ except $\langle - \rangle$:
+
+$$
+  \inv(\mathfrak{g}) = inv(\mathfrak{g}_\mu)[\langle - \rangle]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+the statement follows from the analogous statement for the [[cochain cohomology]] of [[Chevalley-Eilenberg algebra]]s
+
+$$
+  H^\bullet(CE(\mathfrak{g}))
+  =
+  H^\bullet(CE(\mathfrak{g}_\mu))[\langle -,[-,-]\rangle]
+$$
+
+by using the [[fiber sequence|long exact sequence in cohomology]] 
+
+$$
+  H^\bullet(ker(W(\mathfrak{g}) \to CE(\mathfrak{g})))
+   \underoverset{\tau}{\simeq}{\to}
+  H^{\bullet-1}(CE(\mathfrak{g}))
+  \to 0 \to \cdots
+$$
+
+induced from the [[short exact sequence]] 
+
+$$
+  ker(W(\mathfrak{g}) \to CE(\mathfrak{g}))
+  \to 
+  W(\mathfrak{g})
+  \to 
+  CE(\mathfrak{g})
+$$
+
+and the inclusion $inv(\mathfrak{g}) \hookrightarrow ker(W(\mathfrak{g}) \to CE(\mathfrak{g}))$. Here $\tau$ is [[transgression]].
+
+(...)
 
 =--
 
