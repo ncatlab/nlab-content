@@ -25,3 +25,7 @@
 * [[math resources|Math Resources]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
+
+
+[[!redirects contents]]
+[[!redirects Contents]]
