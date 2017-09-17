@@ -776,7 +776,8 @@ A discussion of fiber sequences in terms of [[associated ∞-bundle]]s is in
 
 Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfield localization of model categories]] is in
 
-* [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf))
+* [[Matthias Wendt]], _Fibre sequences and localization of simplicial sheaves_,
+Alg. Geom. Topol. 13(3), 2013, pp. 1779--1813. ([preprint pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf) and [ArXiv](http://arxiv.org/abs/1011.4784).)
 
 
 [[!redirects fibration sequence]]
