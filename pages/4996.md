@@ -145,7 +145,7 @@ The fact that $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using
 
 Let $C$ be an $\infty$-cohesive site. Then the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_{(\infty,1)}(C)$ over $C$ is a [[cohesive (∞,1)-topos]] that satisfies the axiom "discrete objects are concrete" .
 
-If moreover for all objects $U$ of $C$ we have that $C(*,U)$ is [[inhabited set|inhabited]], then als the axiom "pieces have points" holds.
+If moreover for all objects $U$ of $C$ we have that $C(*,U)$ is [[inhabited set|inhabited]], then the axiom "pieces have points" also holds.
 
 =--
 
@@ -258,7 +258,7 @@ $$
   \lim_{\to_i} \Gamma(U)^i \to \Gamma(U)^k
 $$
 
-is a coffibration. But this is the inclusion 
+is a cofibration. But this is the inclusion 
 into all $k$-tuples of elements of $U$ of those $k$-tuples for which 
 an entry repeats. So this is a monomorphism, hence a cofibration.
 
