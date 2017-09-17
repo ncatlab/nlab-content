@@ -108,6 +108,10 @@ Another variant is in
 
 * Henrik Forssell, _First-order logical duality_, Ph.D. thesis, Carnegie Mellon U. 2008, [pdf](http://www.andrew.cmu.edu/user/awodey/students/forssell.pdf)
 
+Discussion in [[E-∞ geometry]] is in
+
+* [[Jacob Lurie]], section A of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
+
 [[!redirects Stone duality]]
 [[!redirects Stone dualities]]
 
