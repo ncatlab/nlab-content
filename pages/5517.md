@@ -1,35 +1,60 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
+###Context###
 #### $(\infty,1)$-Topos Theory
-+-- {: .hide}
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
 =--
 =--
-
-# Contents
+=--
+#Contents#
 * table of contents
 {: toc}
 
+## Idea
+
+In the language of [[(∞,1)-topos theory]] the ordinary definition of [[gerbe]] has the following simple re-formulation: 
+
+In a given [[(2,1)-topos]], a _[[gerbe]]_ is an object which is 
+
+1. [[1-connective]];
+
+1. [[1-truncated]].
+
+There are various evident generalizations of this, where one allows the degree in either of the two clauses to vary. In the literature one finds higher gerbes defined in either way, and so there are more general and more specific definitions.
+
 ## Definition 
 
-+-- {: .un_defn}
+
++-- {: .num_defn}
 ###### Definition
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]].
+Let $\mathcal{X}$ be an [[(∞,1)-topos]].
 
-For $n \in \overline{\mathbb{N}}$ an [[extended natural number]], an **$n$-gerbe** is an object $\mathcal{G} \in \mathbf{G}$ that is 
+For $n \in \overline{\mathbb{N}}$ an [[extended natural number]], 
 
-* $n$-[[n-connective|connective]] 
+* a **general $n$-gerbe** is an object $\mathcal{G} \in \mathbf{G}$ that is 
 
-* as well as $n$-[[truncated]].
+  1. [[1-connective]];
+
+  1. [[n-truncated]].
+
+* a **restricted $n$-gerbe** is an object $\mathcal{G} \in \mathbf{G}$ that is 
+
+  1. [[n-connective]]
+
+  1. [[n-truncated]].
+
 =--
 
-This appears as [[Higher Topos Theory|HTT, def. 7.2.2.20]].
+The definition of "restricted" $n$-gerbe appears as [[Higher Topos Theory|HTT, def. 7.2.2.20]]. For $n = 2$ the definition of "general $n$-gerbe" (called a _nonabelian 2-gerbe_ at [[2-gerbe]]) appears for instance in ([Breen](#Breen))
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If one adds the condition that $\mathcal{G}$ has a global section $* \to \mathcal{G}$, then this defines an [[Eilenberg-MacLane object]] in degree $n$.
@@ -38,16 +63,28 @@ If one adds the condition that $\mathcal{G}$ has a global section $* \to \mathca
 
 ## Related entries
 
-* [[gerbe]]
+* [[principal bundle]] / [[torsor]] / [[associated bundle]]
 
-* **$\infty$-gerbe**
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
+* [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
+
+* [[principal ∞-bundle]] / [[associated ∞-bundle]]  / **$\infty$-gerbe**.
+
+
+Notice that the notion of [[bundle gerbe]] and [[bundle 2-gerbe]] etc. is not unrelated, but is _a priori_ a rather different notion.
 
 ## References
 
-The general notion of $\infty$-gerbes in an $(\infty,1)$-topos appears in section 7.2.2 of 
+The notion of "restricted" $\infty$-gerbes in an $(\infty,1)$-topos appears in section 7.2.2 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+The "general" notion (but without a concept of ambient $(3,1)$-topos made explicit) for $n = 2$ (see [[2-gerbe]]) appears for instance in
+
+* [[Lawrence Breen]], _Notes on 1- and 2-gerbes_ in [[John Baez]], [[Peter May]] (eds.) _[[Towards Higher Categories]]_ ([arXiv:math/0611317](http://arxiv.org/abs/math/0611317)).
+  {#Breen}
+
 
 
 [[!redirects ∞-gerbe]]
