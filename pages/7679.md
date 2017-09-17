@@ -1,8 +1,13 @@
+[[!redirects II.1, group -functors]]
 [[!redirects k-group]]
 
 [[!redirects k-group-functor]]
 
 [[!redirects k-group scheme]]
+
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
 A _group functor_ is a [[group object]] in a functor category.
 
