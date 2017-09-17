@@ -38,7 +38,7 @@ Moreover, the [[diagram]] $I$ may be taken to be a [[sieve]] in the [[poset of s
 
 =--
 
-This is due to [[Victor Kac]], 1998, see for instance [Kitchloo's survey, p. 9](#KitchlooSurvey).
+This is due to [[Nitu Kitchloo]], 1998, see for instance [Kitchloo's survey, p. 9](#KitchlooSurvey).
 
 +-- {: .num_remark}
 ###### Remark
