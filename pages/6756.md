@@ -200,7 +200,7 @@ Every Hamiltonian vector field is in particular a [[symplectic vector field]]. W
 
 ### Group of Hamiltonian symplectomorphisms
 
-The auto-[[symplectomorphisms]] on a [[symplectic manifold]] form a [[group]], of which the [[symplectic vector fields]] generate the connected component. The Hamiltonian vector fields among the symplectic ones generate the group of Hamiltonian symplectomorphisms.
+The auto-[[symplectomorphisms]] on a [[symplectic manifold]] form a [[group]], of which the [[symplectic vector fields]] generate the connected component. The Hamiltonian vector fields among the symplectic ones generate the group of [[Hamiltonian symplectomorphisms]].
 
 (...) 
 
