@@ -79,7 +79,6 @@ Notes from talks can be found [here](http://canyon23.net/math/talks) and [here](
 Some notes appeared in the context of the
 
 * [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
-* [link building service](http://www.diamondlinks.net)
 
 See the 
 
