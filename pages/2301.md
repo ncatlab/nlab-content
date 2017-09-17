@@ -34,7 +34,7 @@ $$
 
 and this is a [[sheaf]] with respect to Zariski [[Grothendieck topology]] on $Aff$. Sheaves in any other fixed *subcanonical* topology $\tau$ on $Aff$ are called $\tau$-locally affine spaces. The usual schemes are obtained for $\tau=Zariski$ and $Loc=Aff$. Algebraic spaces are another example. In other fields like analytic spaces, sheaves on other categories of local models $Loc$ instead of $Aff$ are considered in classical works.
 
-In general various generalizations which do not have exactness properties of Zariski or etale coverings, are usually among algebraic geometers called generalized _spaces_ rather than (generalized) _schemes_; thus the terminology almost scheme is OK because though the local objects are more general the exactness properties are basically the same (similarly for derived schemes of Toen et al. noncommutative schemes of Rosenberg etc.). 
+In general various generalizations which do not have exactness properties of Zariski coverings or [[étale (∞,1)-site|étale coverings]], are usually among algebraic geometers called generalized _spaces_ rather than (generalized) _schemes_; thus the terminology almost scheme is OK because though the local objects are more general the exactness properties are basically the same (similarly for derived schemes of Toen et al. noncommutative schemes of Rosenberg etc.). 
 
 There are various way to generalize the scope of the functor of points approach.  
 
