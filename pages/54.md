@@ -1,4 +1,4 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://nlab.mathforge.org/schreiber/files/atfields.jpg" alt="Urs Schreiber at Fields Institute" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" /></div>
 
 #contents#
 * table of contents
