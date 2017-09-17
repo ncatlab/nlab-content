@@ -31,7 +31,7 @@ Note that it is quite possible that $\phi a$ may be provable (in a given [[conte
 
 We work in a [[logic]] in which we are concerned with which [[propositions]] entail which propositions (in a given [[context]]); in particular, two propositions which entail each other are considered equivalent.
 
-Let $\Gamma$ is an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __universal quantification__ of $P$ is any proposition $\forall\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
+Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __universal quantification__ of $P$ is any proposition $\forall\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
 
 *  $Q \vdash_{\Gamma}\forall\, x\colon T, P$ if and only if $Q[\hat{x}] \vdash_{\Gamma, x\colon T} P$.
 
@@ -42,7 +42,7 @@ Often one makes the appearance of the free variable in $P$ explicit by thinking 
 *  $Q \vdash_{\Gamma}\forall\, x\colon T, P(x)$ if and only if $Q \vdash_{\Gamma, x\colon T} P(x)$.
 
 
-In terms of [[semantics]] (as for example topos-theoretic semantics; see the next section), the weakening from $Q$ to $Q[\hat{x}]$ corresponds to pulling back along a product projection $\sigma(T) \times A \to A$, where $\sigma(T)$ is the interpretation of the type $T$, and $A$ is the interpretation of $\Gamma$. In other words, if a statement $Q$ read in context $\Gamma$ is interpreted as a subobject of $A$, then the statement $Q$ read in context $\Delta = Gamma, x \colon T$ is interpreted by pulling back along the projection, obtaining a subobject of $\sigma(T) \times A$. 
+In terms of [[semantics]] (as for example topos-theoretic semantics; see the next section), the weakening from $Q$ to $Q[\hat{x}]$ corresponds to pulling back along a product projection $\sigma(T) \times A \to A$, where $\sigma(T)$ is the interpretation of the type $T$, and $A$ is the interpretation of $\Gamma$. In other words, if a statement $Q$ read in context $\Gamma$ is interpreted as a subobject of $A$, then the statement $Q$ read in context $\Delta = \Gamma, x \colon T$ is interpreted by pulling back along the projection, obtaining a subobject of $\sigma(T) \times A$. 
 
 As observed by [[Lawvere]], we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. (Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!: X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
