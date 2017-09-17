@@ -21,11 +21,7 @@
 
 ## Idea
 
-Derived categories were introduced by [[Jean-Louis Verdier]] in his thesis under the supervision of [[Alexandre Grothendieck]].
-
-+-- {: .query}
-Someone could add something about the original motivations of Grothendieck here.
-=--
+Derived categories were introduced by [[Jean-Louis Verdier]] in his thesis under the supervision of [[Alexandre Grothendieck]].  It was originally used to extend [[Serre duality]] to a relative context.  See [[Hartshorne]]'s lecture notes "Residues and duality".
 
 The _derived category_ $D(\mathcal{A})$ of an [[abelian category]] $\mathcal{A}$ is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[(∞,1)-category of chain complexes]] in $\mathcal{A}$: the [[localization]] of the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ at the [[quasi-isomorphisms]].
 
