@@ -458,55 +458,6 @@ hence this composite is also a weak homotopy equivalence.
 ## Examples and Applications
 
 
-### Classifying spaces
-
-For $G$ a [[topological group]], write $\mathbf{B}G$ for its [[delooping]] [[topological groupoid]]: the topological groupoid with a single object and $Mor_{\mathbf{B}G}(*,*) \coloneqq  G$, with composition given by the product on $G$.
-
-The [[nerve]] $N \mathbf{B}G$ of this topological groupoid is naturally a [[simplicial topological space]], with
-
-$$
-  N \mathbf{B}G \colon  [n] \mapsto G^{\times_n}
-  \,.
-$$
-
-+-- {: .num_prop}
-###### Proposition
-
-The geometric realization of $N \mathbf{B}G$ is a model for the [[classifying space]] $B G$ of $G$-[[principal bundle]]s
-
-$$
-  {|N \mathbf{B}G|} \simeq B G
-  \,.
-$$
-
-=--
-
-An early reference for this classical fact is ([Segal68](#Segal68)).
-
-
-
-### Cech nerves
- {#CechNerves}
-
-+-- {: .num_prop}
-###### Proposition
-
-Let $X,Y$ be  [[topological space]]s and $\pi : Y \to X$ a [[continuous function]] that admits local [[section]]s. Write $C(\pi) \in sTop$ for the [[Cech nerve]].
-
-Then the canonical map
-
-$$
-  {|C(\pi)|} \to X
-$$
-
-from the geometric realization of $X$ back to $X$ is a [[weak homotopy equivalence]]. If $X$ is a [[paracompact topological space]] then it is even a [[homotopy equivalence]].
-
-
-=--
-
-For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is discussed in ([DuggerIsaksen](#DuggerIsaksen)). A generalization to parameterized spaces is in ([RobertsStevenson, lemma 22](#RobertsStevenson)).
-
-
 ### Topological principal $\infty$-bundles
  {#TopologicalPrincipalInfinityBundle}
 
@@ -707,7 +658,7 @@ is surjective. But by the assumption that $f : X \to Y$ is a global Kan fibratio
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #HocolimPreservesHomotopyFibers}
 ###### Proposition
 
 The [[homotopy colimit]] operation
@@ -795,6 +746,120 @@ $$
 $$
 
 =--
+
+
+
+### Classifying spaces
+  {#ClassifyingSpaces}
+For $G$ a [[topological group]], write $\mathbf{B}G$ for its [[delooping]] [[topological groupoid]]: the topological groupoid with a single object and $Mor_{\mathbf{B}G}(*,*) \coloneqq  G$, with composition given by the product on $G$.
+
+The [[nerve]] $N \mathbf{B}G$ of this topological groupoid is naturally a [[simplicial topological space]], with
+
+$$
+  N \mathbf{B}G \colon  [n] \mapsto G^{\times_n}
+  \,.
+$$
+
++-- {: .num_prop #ClassifyingSpaceByGeometricRealization}
+###### Proposition
+
+The geometric realization of $N \mathbf{B}G$ is a model for the [[classifying space]] $B G$ of $G$-[[principal bundle]]s
+
+$$
+  {|N \mathbf{B}G|} \simeq B G
+  \,.
+$$
+
+=--
+
+An early reference for this classical fact is ([Segal68](#Segal68)).
+
+
++-- {: .num_cor}
+###### Corollary
+
+Let $G$ be a [[well-pointed simplicial topological group|well-pointed]] [[topological group]], $B G$ its [[classifying space]] and $\Omega B G$ the [[loop space]] of the classifying space. 
+
+There is a [[weak homotopy equivalence]]
+
+$$
+  \Omega B G \stackrel{\simeq}{\to} G
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ClassifyingSpaceByGeometricRealization} we have
+that $B G \simeq |\mathbf{B}G|$ (we suppress the [[nerve]] operation notationally, which injects [[groupoid]]s into [[∞-groupoid]]s).
+
+By standard facts about the $\bar W$-functor (see [[simplicial principal bundle]]) we have a [[pullback]] square of [[simplicial topological space]]s
+
+$$
+  \array{
+    G &\to& W G
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \bar W G
+  }
+$$
+
+exhibiting the [[homotopy pullback]]
+
+$$
+  \array{
+    G &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+  \,.
+$$
+
+Under geoemtric realization this maps to 
+
+$$
+  \array{
+    G &\to& *
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow
+    \\
+    * &\to& B G
+  }
+$$
+
+in [[Top]]. By prop \ref{HocolimPreservesHomotopyFibers} this is still a homotopy pullback, and hence exhibits $G$ as the [[loop space]] of $B G$.
+
+=--
+
+
+
+
+### Cech nerves
+ {#CechNerves}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X,Y$ be  [[topological space]]s and $\pi : Y \to X$ a [[continuous function]] that admits local [[section]]s. Write $C(\pi) \in sTop$ for the [[Cech nerve]].
+
+Then the canonical map
+
+$$
+  {|C(\pi)|} \to X
+$$
+
+from the geometric realization of $X$ back to $X$ is a [[weak homotopy equivalence]]. If $X$ is a [[paracompact topological space]] then it is even a [[homotopy equivalence]].
+
+
+=--
+
+For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is discussed in ([DuggerIsaksen](#DuggerIsaksen)). A generalization to parameterized spaces is in ([RobertsStevenson, lemma 22](#RobertsStevenson)).
+
 
 
 
