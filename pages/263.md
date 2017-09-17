@@ -91,3 +91,4 @@ is equivalent to the identity, do you?
 
 [[!redirects 2-out-of-3 property]]
 [[!redirects two-out-of-three property]]
+[[!redirects categories with weak equivalences]]
