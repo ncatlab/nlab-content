@@ -1,8 +1,8 @@
 
 **Generalized uniform structures**
 
-| object | [[monoid]] | [[pro-object|pro]]-monoid | symmetric versions | | |
+| [[proarrow]] | [[monad]] | [[pro-object|pro]]-monad | symmetric versions | | |
 | - | - | - | - | - | - |
 | [[binary relation]] | [[preorder]] | [[quasiuniformity]] | [[symmetric relation]] | [[equivalence relation]] | [[uniformity]] |
 | [[binary function]] to $[0,\infty)$ | [[quasipseudometric]] | [[quasiprometric]] | [[symmetric binary function]] | [[pseudometric]] | [[prometric]] |
-| [[topogeny]] | [[quasiproximity]] | [[syntopogeny]] | symmetric topogeny | [[proximity]] | symmetric syntopogeny |
+| [[topogeny]] | [[quasiproximity]] | [[syntopogeny]] | [[symmetric topogeny]] | [[proximity]] | [[symmetric syntopogeny]] |
