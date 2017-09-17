@@ -135,8 +135,24 @@ A model structure $(C,W,F)$ on a category $\mathcal{C}$ is determined by its cla
 
 =--
 
-This statement appears as ([Joyal, prop. E.1.10](#Joyal))
+This statement appears for instance as ([Joyal, prop. E.1.10](#Joyal))
 
++-- {: .proof}
+###### Proof
+
+So let $\mathcal{E}$ with $C,F,W \subset Mor(\mathcal{E})$ be a model category.
+
+By the above remark it is sufficient to show that the cofibrations and the fibrant objects determine the class of weak equivalences. Moreover, these are already determined by the weak equivalences between cofibrant objects, because for $u : A \to B$ any morphism, functorial cofibrant replacement $\emptyset \hookrightarrow \hat A \stackrel{\simeq}{\to} A$ and $\emptyset \hookrightarrow \hat B \stackrel{\simeq}{\to} B$ with 2-out-of-3 implies that $u$ is a weak equivalence precisely if $\hat u : \hat A \to \hat B $ is.
+
+By the nature of the [[homotopy category]] $Ho$ of $\mathcal{E}$ and by the [[Yoneda lemma]], a morphism $\hat u : \hat A \to \hat B$ between cofibrant objects is a weak equivalence precisely if for every fibrant object $X$ the map
+
+$$
+  Ho(\hat u, X) : Ho(\hat B, X) \to Ho(\hat A, X)
+$$
+
+is an [[isomorphism]], namely a [[bijection]] of sets. The [[equivalence relation]] that defines $Ho(\hat A,X)$ may be taken to be given by [[left homotopy]] induced by [[cylinder objects]], which in turn are obtained by factoring [[codiagonals]] into cofibrations followed by acyclic fibrations. So all this is determined already by the class of cofibrations, and hence weak equivalences are determined by the cofibrations and the fibrant objects.
+
+=--
 
 ### Opposite model structure
 
