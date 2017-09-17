@@ -25,7 +25,7 @@ A _filtered chain complex_ is a [[filtered object]] in a [[category of chain com
 
 ## References
 
-* [[Ross Street]], _Homotopy classification of filtered complexes_, J. Australian Math. Soc. 15 (1973) 298-318 ([pdf](http://maths.mq.edu.au/~street/Thesis.pdf))
+* [[Ross Street]], _Homotopy classification of filtered complexes_, J. Australian Math. Soc. 15 (1973) 298-318 ( and  in his thesis:[pdf](http://maths.mq.edu.au/~street/Thesis.pdf))
 
 
 [[!redirects filtered chain complexes]]
