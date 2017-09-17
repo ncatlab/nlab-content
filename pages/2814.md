@@ -89,12 +89,54 @@ A [[homomorphism]] between monoidal functors is a [[natural transformation]] tha
 
 ## Properties
 
+
++-- {: .un_defn}
+###### Observation
+
 Lax monoidal functors send [[monoid]]s to monoids.
 
-Oplax monoidal functors send [[comonoids]] to comonoids. 
+If $F : (C,\otimes) \to (D,\otimes)$ is a lax monoidal functor and 
 
+$$
+  (A \in C,\;\; \mu_A : A \otimes A \to A, \; i_A : I \to A)
+$$
 
-If we pass to the [[delooping]] [[2-category|2-categories]] $\mathbf{B}C$ and $\mathbf{B}D$ of the monoidal categories $C$ and $D$ then a lax monoidal functor corresponds to a [[lax 2-functor]] 
+is a [[monoid]] in $C$, then the object $F(A)$ is naturally equipped with the structure of a monoid in $D$ by setting
+
+$$
+  i_{F(A)} : I_D \stackrel{}{\to} F(I_C) \stackrel{F(i_A)}{\to} F(A)
+$$
+
+and
+
+$$
+  \mu_{F(A)} : 
+  F(A) \otimes F(A)
+  \stackrel{\nabla_{F(A), F(A)}}{\to} 
+  F(A \otimes A)
+  \stackrel{F(\mu_A)}{\to}
+  F(A)
+  \,.
+$$
+
+This construction defines a functor
+
+$$
+  Mon(f) : Mon(C) \to Mon(D)
+$$
+
+between the categories of monoids.
+
+=--
+
+Similarly, an [[oplax monoidal functor]] sends [[comonoids]] to comonoids. 
+
++-- {: .un_defn}
+###### Observation
+
+For $(C,\otimes)$ a [[monoidal category]] write $\mathbf{B}C$ for the correspinding [[delooping]] [[2-category]].
+
+Lax monoidal functor $f : C \to D$ correspond to [[lax 2-functor]] 
 
 $$
   \mathbf{B}F : \mathbf{B}C \to \mathbf{B}D
@@ -102,6 +144,8 @@ $$
 $$
 
 If $F$ is strong monoidal then this is an ordinary [[2-functor]]. If it is strict monoidal, then this is a [[strict 2-functor]].
+
+=--
 
 ## String diagrams
 
