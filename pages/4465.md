@@ -31,7 +31,9 @@ Detailed computations exist in particular for [[D1-brane]]/[[D5-brane]] systems.
 
 See also _[[string theory results applied elsewhere]]_.
 
+### Interpretation by strong coupling limit of D-branes
 
+Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by computing the entropy of weakly coupled open strings on D-brane configurations in flat [[Minkowski space]] which transmute as the coupling constant is increased to given (supersymmetric) black hole configurations. More on this is at _[[black holes in string theory]]_.
 
 ## Related concepts
 
