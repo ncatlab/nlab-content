@@ -18,7 +18,19 @@ is an isomorphism, where $f_*$ and $g_*$ denote pointwise *right* Kan extensions
 
 This definition refers to Kan extensions of diagrams with values in any category $M$ (whenever such Kan extensions exist).  If a square is exact only relative to diagrams defined in a *particular* category $M$, we may call it **$M$-exact**.
 
-This is a "functional" definition, which generalizes correctly to other contexts (see below).  However, in the case of ordinary categories and Kan extensions, there is a precise combinatorial characterization of which squares are exact.  Analogous, but different, combinatorial characterizations exist in other contexts.  Thus, when using exactness to compute with Kan extensions in practice, we can use the combinatorial characterization to verify that a square is exact, then apply the definition above to compute one Kan extension in terms of another.  
+This is a "functional" definition, which generalizes correctly to other contexts (see below).  However, in the case of ordinary categories and Kan extensions, there is a precise combinatorial characterization of which squares are exact.  Thus, when using exactness to compute with Kan extensions in practice, we can use the combinatorial characterization to verify that a square is exact, then apply the definition above to compute one Kan extension in terms of another.  
+
+## Generalizations
+
+The definition given above generalizes directly to squares inhabited by a 2-cell in any [[2-category]], and any suitable notion of "(pointwise) Kan extension" which may exist along morphisms in that 2-category.  This includes:
+
+* Internal [[pointwise Kan extension]]s in any [[2-category]] with finite [[2-limits]].
+* Enriched pointwise Kan extensions in a 2-category $V Cat$ of [[enriched categories]].  Note that this notion of "pointwiseness" is not the "internal" one in $V Cat$.
+* Pointwise Kan extensions can also be defined in any [[Yoneda structure]], and more or less equivalently in any [[2-category equipped with proarrows]].  This specializes both to the classical case, to internal pointwise extensions in a 2-category, and to the enriched case.
+* In the world of [[(infinity,1)-categories]] we have a notion of [[homotopy exact square]], which can also be defined and characterized in the easier context of [[derivators]].  In fact, one can argue that derivators are basically designed as a context for the study of homotopy exact squares.
+
+The combinatorial characterization of exact squares has a corresponding version for any of these generalizations, although in different cases it will be more or less explicit.
+
 
 ## Examples
 
@@ -51,13 +63,5 @@ is exact.  Exactness of this square says that for $F\colon B\to M$, the canonica
 
 ...
 
-## Generalizations
-
-The notion of exact square makes sense for squares inhabited by 2-cells in any [[2-category]], and for any suitable notion of "(pointwise) Kan extension."  This includes:
-
-* Internal [[pointwise Kan extension]]s in any [[2-category]] with finite [[2-limits]].
-* Enriched pointwise Kan extensions in a 2-category $V Cat$ of [[enriched categories]].  Note that this notion of "pointwiseness" is not the "internal" one in $V Cat$.
-* Pointwise Kan extensions can also be defined in any [[Yoneda structure]], and more or less equivalently in any [[2-category equipped with proarrows]].  This specializes both to the classical case, to internal pointwise extensions in a 2-category, and to the enriched case.
-* Exact squares play an especially important role in the theory of [[derivators]]; see [[homotopy exact square]].
 
 [[!redirects exact squares]]
