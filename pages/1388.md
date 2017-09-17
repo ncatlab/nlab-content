@@ -46,7 +46,7 @@ Another version of the $A_\infty$-ring is simply what is usually called the $A_\
 [[!redirects A∞-rings]]
 [[!redirects A-∞-ring]]
 [[!redirects A-∞ ring]]
-[[!redirects A-∞-rings]]
+[[!redirects A-∞ rings]]
 
 [[!redirects ∞-ring]]
 [[!redirects ∞-rings]]
