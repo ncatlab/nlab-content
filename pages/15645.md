@@ -9,9 +9,7 @@ A kind of _[[L-function]]_ for [[number fields]].
 
 ## Related concepts
 
-* [[Dedekind zeta function]]
-
-* [[Hecke theta function]]
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
