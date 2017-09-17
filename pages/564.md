@@ -26,7 +26,7 @@ There are various different terms for "dualizing objects". As recalled on p. 112
 
 * Simmons speaks of _schizophrenic objects_.
 
-It has been convincingly argued by [[Tom Leinster]] (blog comment [here](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html#c007089)) that the term "schizophrenic" should not be used. [[Todd Trimble]] then suggested the term "ambimorphic object", which will be used here.
+It has been convincingly argued by [[Tom Leinster]] (blog comment [here](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html#c007089)) that the term "schizophrenic" should not be used. [[Todd Trimble]] then suggested the term "ambimorphic object."  Another suggestion was "Janusian object."
 
 ## Definition
 
