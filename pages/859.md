@@ -29,7 +29,7 @@ __semidirect product__ group whose underlying set is the [[product]] $\Gamma \ti
 but whose multiplication is twisted by $\rho$:
 
 $$
-  (\delta,h)(\gamma,g)= (\rho(h)(\delta) \gamma, h g)
+  (\delta,h)(\gamma,g)= (\delta \rho(h)(\gamma) , h g)
 $$
 
 for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$. 
@@ -99,6 +99,37 @@ conventions are not quite the same).
 ### As split group extensions
 
 Semidirect product groups $A \rtimes_\rho G$ are precisely the split [[group extensions]] of $G$ by $A$. See at [group extension -- split extensions and semidirect product groups](group+extension#SplitExtensionsAndSemidirectProductGroups).
+
+## Examples
+
+### The automorphisms on the circle group
+
+For $U(1) = \mathbb{R}/\mathbb{Z}$ the [[circle group]], the [[automorphism group]] is 
+
+$$
+  Aut(U(1)) \simeq \mathbb{Z}_2
+  \,,
+$$
+
+where the nontrivial element in $\mathbb{Z}_2$ acts on $\mathbb{R}$ by multiplication with $-1$. Write $\rho_{aut} : U(1) \times \mathbb{Z}_2 \to U(1)$ for the automorphism [[action]]. The corresponding semidirect product group is the [[group extension]]
+
+$$
+  U(1) \stackrel{}{\hookrightarrow} U(1) \rtimes_{\rho_{aut}} \mathbb{Z}_2
+  \to \mathbb{Z}_2
+$$
+
+where the group operation is given by
+
+$$
+  (c_1 \; mod \; \mathbb{Z}, \sigma_1)
+  \cdot
+  (c_2\; mod \; \mathbb{Z}, \sigma_2)
+  = 
+  (c_1 + \sigma_1(c_2) \; mod \; \mathbb{Z}, \sigma_1 + \sigma_2)
+  \,.
+$$
+
+
 
 ## References
 
