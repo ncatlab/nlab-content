@@ -196,7 +196,7 @@ This is due to ([KarazerisVelebil](#KarazerisVelebil)).
 
 ## Examples
 
-* [[morphisms of site|Morphisms of sites]] are flat functors which additionally preserve covering families.
+* [[morphism of sites|Morphisms of sites]] are flat functors which additionally preserve covering families.
 
 
 ## References
