@@ -54,6 +54,15 @@ $$
 
 is an [[equivalence of categories|equivalence]] of [[triangulated category|triangulated categories]].
 
+## Related concepts
+
+* [[triangulated category]]
+
+* **pretriangulated dg-category**, [[enhanced triangulated category]]
+
+* [[stable derivator]]
+
+* [[stable (∞,1)-category]]
 
 ## References
 
