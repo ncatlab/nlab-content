@@ -21,7 +21,7 @@ $$ \int_{\gamma_1} f(z) \,\mathrm{d}z = 0 $$
 for $\gamma_2 \coloneqq 0$.
 
 
-category: calculus
+category: analysis
 
 [[!redirects Cauchy's integral theorem]]
 [[!redirects Cauchy\'s integral theorem]]
