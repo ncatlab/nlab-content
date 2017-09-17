@@ -13,6 +13,8 @@
 
 There is still some technical problem with the display of the figures in the following. For instance all arrow heads are missing.
 
+_Igor_: The problem appears to be in the fact that the wiki software processes the SVG code before embedding it. The embedded version is thus a corrupted and broken version of the original. The original SVG code displays fine for me.
+
 =--
 
 
