@@ -60,6 +60,17 @@ This is especially common when $S=$ [[Set]], in which case the final condition i
 
 ## Properties
 
+### General
+
++-- {: .num_prop}
+###### Proposition
+
+The [[global section]] geometric morphism of any local $\mathcal{S}$-topos (over a [[base topos]] $\mathcal{S}$) is a [[Grothendieck fibration]] and a [[Grothendieck opfibration]].
+
+=--
+
+This appears in ([Shulman](#Shulman)).
+
 ### Concrete sheaves
 
 Every local topos $\Gamma : E \to S$ comes with a notion of [[concrete sheaves]], a [[reflective subcategory]] $Conc_\Gamma(E) \hookrightarrow E$ which factors the topos inclusion of $S$:
@@ -490,11 +501,13 @@ and
 
 ## References
 
+Standard references include
+
 * [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_  Proc. London Math. Soc.  (1989)   s3-58  (2):  281-305.  ([pdf](http://plms.oxfordjournals.org/content/s3-58/2/281.full.pdf+html))
 
+and Chapter C3.6 of
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ Chapter C3.6
-{#Johnstone}
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ {#Johnstone}
 
 A completely [[internal logic|internal]] characterization of local toposes is discussed in
 
@@ -505,6 +518,11 @@ This is based on part 2 of
 
 * [[Lars Birkedal]], _Developing Theories of Types and
 Computability via Realizability_ PhD Thesis ([pdf](http://itu.dk/people/birkedal/papers/devttc.pdf))
+
+Free local constructions are considered in 
+
+* [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
+  {#Shulman}
 
 [[!redirects local geometric morphisms]]
 [[!redirects local topos]]
