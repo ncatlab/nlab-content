@@ -8,7 +8,7 @@
 
 ## Idea
 
-In [[quantum mechanics]] a **density matrix** is a linear endomorphism of a [[Hilbert space]] of states that represents a [[statistical ensemble]] of [[quantum state]]s.
+In [[quantum mechanics]] a _density matrix_ is a linear endomorphism of a [[Hilbert space]] of states that represents a [[statistical ensemble]] of [[quantum state]]s.
 
 ## Notation
 
