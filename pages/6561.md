@@ -37,6 +37,10 @@ See [[AdS/CFT correspondence]] for more on this.
 
 The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the point of view of the ambient [[11-dimensional supergravity]] these are the boundaries of [[M2-branes]] ending on the [[M5-branes]]. ([GGT](#GGT))
 
+### Compactification on a Riemann surface
+
+The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] obtained by [[Kaluza-Klein mechanism|compactifying]] the $6d$ M5-brane theory on a [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ with $n$ punctures to 2d [[Liouville theory]] on $C_{g,n}$. 
+
 ## Related entries
 
 [[!include table of branes]]
