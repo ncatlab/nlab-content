@@ -19,24 +19,33 @@
 
 ## Idea
 
-Recall that an $n$-dimensional [[FQFT]] is a [[symmetric monoidal functor|symmetric monoidal]] $(\infty,n)$-[[n-functor|functor]] from the [[(infinity,n)-category of cobordisms]]. 
+A [[quantum field theory]] _with defects_ is, roughly a quantum field theory that assigns data not just to plain [[manifolds]]/[[cobordisms]], but to spaces that may carry certain singularities and/or colorings. At the locus of such a singularity the [[bulk]] field theory may then undergo transitions.
+
+Such defects are known by many names. In [[codimension]] 1 they are often called [[domain walls]]. If they are [[boundaries]] they are often called _[[branes]]_, the corresponding domain walls are then sometimes called [[bi-branes]]. Examples of Dimension-1 defects are [[Wilson lines]] and [[cosmic strings]] (at least in [[gauge theory]]) and dimension-0 defects are often called [[monopoles]].
+
+## Definition
+
+### General
+ {#DefinitionGeneral}
+
+A plain $n$-dimensional local [[FQFT]] (a [[bulk]] field theory) is a [[monoidal (∞,n)-functor|symmetric monoidal]] [[(∞,n)-functor]] from the [[(∞,n)-category of cobordisms]]. 
 
 $$  
-  Z : Bord_n \to C
+  Z : Bord_n \to \mathcal{C}^\otimes
   \,.
 $$
 
-If one replaces plain [[cobordism]]s here with cobordisms that are _colored_ in that they are equipped with certain partitions labeled in a certain index set $Def$, one calls a morphism
+If one replaces plain [[cobordisms]] here with cobordisms $Bord_n^{Def}$ "with singularities" including [[boundaries]] and [[corners]] but also partitions labeled in a certain index set $Def$, one calls a morphism
 
 $$
-  Z : Bord_n^{Def} \to C
+  Z : Bord_n^{Def} \to \mathcal{C}
 $$
 
-a TQFT _with defects_.
+a TQFT _with defects_. A general formalization is in ([Lurie, section 4.3](#Lurie)), see also ([Davydov-Runkel-Kong](#DavydovRunkelKong)).
 
-The reason is that such a morphism will behave like encoding 
+Such a morphism carries data as follows:
 
-* for each label in $Def$ of codimension 0 regions one ordinary TQFT;
+* for each label in $Def$ of codimension 0 there is an ordinary [[bulk]] field theory;
 
 * for each label in $Def$ of codimension 1 data on how to "connect" the two TQFTs on both sides
 
@@ -46,9 +55,57 @@ So one may think of the codimension $k$ colors as _defects_ where the TQFT that 
 
 In particular, when the QFT on one side of the defect is trivial, then the defect behaves like a _boundary condition_ for the remaining QFT. Since at least for $n=2$ QFT such boundary conditions are also called _[[branes]]_, defects are also called _[[bi-branes]]_.
 
-## Examples
+The statement of the **cobordism theorem with singularities** ([Lurie, theorem 4.3.11](#Lurie)) is essentially the following: 
 
-* An old example is the class of [[Turaev-Reshetikhin TQFT]], which is a functor on 3-dimensional [[cobordisms]] with codimension 3 and 2 defects. This is supposed to be the would-be result of [[Chern-Simons theory]], where the defect lines are the original [[Wilson line]]s in this context.
+Given a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}^\otimes$, then for every choice of [[pasting diagram]] of [[k-morphisms]] for all $k$, there is a type of manifolds with singularity $Def$, such that $Bord_n^Def$ is the free symmetric monoidal $(\infty,n)$-category on this data, hence such that TFTs with defects $(Bord_n^Def)^\otimes \to \mathcal{C}^\otimes$ are equivalently given by realizing such a pasting diagram in $\mathcal{C}$, where each of the given [[k-morphism]] appears as the value of a codimension $(n-k)$-defect. (See also [Lurie, remark 4.3.14](#Lurie)).
+
+
+### Topological defects in gauge theory with broken symmetry
+
+An old notion of _defects_ in field theory -- well preceeding the [above](#DefinitionGeneral) notion in the context of [[FQFT]] -- is that of [[cosmic string]]-type defects that may appear in [[gauge theory]] in the presnce of [[spontaneously broken symmetry]] (a comprehensive review in in ([Vilenkin-Shellard 94](#VilenkinShellard94)). Steps towards conceptually systematizing these broken-symmetry defects and their interaction are made in [Preskill-Vilenkin 92](#PreskillVilenkin92). We now show this may be translated to the general [[FQFT]] definition [above](#DefinitionGeneral) along the lines of ([Fiorenza-Valentino](#FiorenzaValentino), [FSS](#FSS)).
+
+(...)
+
+## Related concepts
+
+[[!include field theory with boundaries and defects - table]]
+
+## References
+
+### General
+
+A general formulation via an [[(∞,n)-category of cobordisms]] with defects is in section 4.3 of 
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+ {#Lurie}
+
+Further general aspects are discussed in
+
+* [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+ {#DavydovRunkelKong}
+
+Details in dimension 2 and 3 are discussed in
+
+* [[Chris Schommer-Pries]], _Topological Defects and Classification of Local TQFTs in Low Dimension_, [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
+
+Discussion of defects in [[prequantum field theory]], hence for [[coefficients]] in an [[(∞,n)-category of spans]] is in 
+
+* [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary conditions in local TFTs_ (in preparation)
+ {#FiorenzaValentino}
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] et. al, _[[Higher Chern-Simons local prequantum field theory]]_
+ {#FSS}
+
+### Examples
+
+#### General
+
+Examples in physics of interaction of defects of various dimension is discussed in
+
+* Muneto Nitta, _Defect formation from defect--anti-defect annihilations_,  Phys. Rev. D85:101702,2012 ([arXiv:1205.2442](http://arxiv.org/abs/1205.2442)) 
+
+
+#### In 2d field theory
 
 * Defects in 2-dimensional [[conformal field theory]] have a long history in real-world application, for instance
 
@@ -60,33 +117,13 @@ In particular, when the QFT on one side of the defect is trivial, then the defec
 
   * See the discussion at [Planar Algebras, TFTs with Defects](http://golem.ph.utexas.edu/category/2008/09/planar_algebras_tfts_with_defe.html) for a start.
 
-## Formulation in terms of transformations of TQFTs
 
-Based on techniques used in his work on the [[2-category of 2-dimensional cobordisms]], [[Chris Schommer-Pries]] shows that a [[TQFT]] with given collection of defects is the same as collection of natural transformations between ordinary [[FQFT|functorial QFTs]] (functors on an [[(infinity,n)-category of cobordisms]]):
 
-* [[Chris Schommer-Pries]], _Topological Defects and Classification of Local TQFTs in Low Dimension_, [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
 
-This in particular connects to the attempt at
 
-* [Towards 2-functorial CFT](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html)
+#### In Chern-Simons theory
 
-to encode the decoration prescription in the FFRS description of [[conformal field theory]] in terms of the components of transformations of the Reshetikhin-Turaev 3d TFT functor.
-
-## Related concepts
-
-[[!include field theory with boundaries and defects - table]]
-
-## References
-
-### General
-
-A general formulation via an [[(infinity,n)-category of cobordisms]] with defects is in section 4.3 of 
-
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
-
-Further general aspects are discussed in
-
-* [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+* An old example is the class of [[Turaev-Reshetikhin TQFT]], which is a functor on 3-dimensional [[cobordisms]] with codimension 3 and 2 defects. This is supposed to be the would-be result of [[Chern-Simons theory]], where the defect lines are the original [[Wilson lines]] in this context.
 
 Defects in [[Chern-Simons theory]] and related systems are discussed in
 
@@ -96,24 +133,26 @@ Defects in [[Chern-Simons theory]] and related systems are discussed in
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
 
-Quantum field theory on [[manifolds with corners]] is discussed in
+Defects in [[higher dimensional Chern-Simons theory]] on [[manifolds with corners]] are discussed in
 
 * [[Hisham Sati]], _Corners in M-theory_, J.Phys.A44:255402,2011 ([arXiv:1101.2793](http://arxiv.org/abs/1101.2793))
 
-Examples in physics of interaction of defects of various dimension is discussed in
 
-* Muneto Nitta, _Defect formation from defect--anti-defect annihilations_,  	Phys.Rev.D85:101702,2012 ([arXiv:1205.2442](http://arxiv.org/abs/1205.2442)) 
+#### Topological defects in gauge theories with broken symmetry
+ {#TopologicalDefectsInGaugeTheories}
 
-### Topological defects in gauge theories
+The following references discuss the traditional notion of defects in gauge theory such as [[cosmic strings]].
 
 Discussion of "topological defects in [[gauge theory]]" in higher codimension is in
 
 * [[John Preskill]], [[Alexander Vilenkin]], _Decay of Metastable Topological Defects_, Phys. Rev. D47 : 2324-2342 (1993) ([arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210))
+ {#PreskillVilenkin92}
 
 * [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
+ {#VilenkinShellard94}
 
 
-### In solid state physics
+#### In solid state physics
 
 Defects field theory motivated from [[solid state physics]] is discussed in
 
