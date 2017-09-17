@@ -1,0 +1,105 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _salamander lemma_ is a fundamental lemma in [[homological algebra]]. Other fundamental lemmas of homological algebra are direct consequence of this lemma, such as the [[3x3 lemma]], the [[snake lemma]] and the [[long exact sequence in cohomology]] deriving from a [[short exact sequence]].
+
+> Diagram-chasing arguments frequently lead to "magical" relations between distant points of diagrams: [[exact sequence|exactness]] implications, [[connecting homomorphism|connecting morphisms]], etc.. These long connections are usually composites of short "unmagical" connections, but the latter, and the objects they join, are not visible in the proofs. ([Bergman](#Bergman))
+
+The salamander lemma can remedy this situation.
+
+## Statement
+
+
++-- {: .num_defn}
+###### Definition
+
+For $X_{\bullet \bullet}$ a [[double complex]] in some [[abelian category]] and $A = X_{k l}$ an [[object]], being the source and target of the following [[morphisms]] of the double complex
+
+$$
+  \array{
+     \searrow^{\mathrlap{\partial_{diag}^{in}}} 
+     & \downarrow^{\mathrlap{\partial_{vert}^{in}}}
+     \\
+     \stackrel{\partial_{hor}^{in}}{\to} & A &
+     \stackrel{\partial_{hor}^{out}}{\to} 
+     \\
+     & \downarrow^{\mathrlap{\partial_{vert}^{out}}}
+     &
+     \searrow^{\mathrlap{\partial_{diag}^{out}}}
+  }
+$$
+
+define
+
+* $X_{hor} \coloneqq ker (\partial_{hor}^{out}) / im (\partial_{hor}^{in})$ -- the horizontal [[chain homology]] at $X$;
+
+* $X_{vert} \coloneqq ker (\partial_{vert}^{out}) / im (\partial_{vert}^{in})$ -- the vertical [[chain homology]] at $X$;
+
+* ${}^{\Box}X \coloneqq \frac{ker (\partial_{hor}^{out}) \cap ker(\partial_{vert}^{out})}{im(\partial_{diag}^{in})}$ -- the "receptor" at $X$;
+
+* $X_{\Box}\coloneqq \frac{ker (\partial_{diag}^{out}) }{ im(\partial_{hor}^{in}) \oplus im(\partial_{vert}^{in})}$ -- the "donor".
+
+=--
+
+
++-- {: .num_lemma}
+###### Lemma
+**(Salamander lemma)**
+
+If a [[diagram]]
+
+$$
+  \array{
+    C 
+    \\
+    \downarrow
+    \\
+    A &\to& B
+    \\
+    && \downarrow
+    \\
+    && D
+  }
+$$
+
+is part of a [[double complex]] in an [[abelian category]], then there is a [[long exact sequence]] of the form
+
+$$
+  C_\box \to A_{hor} \to A_{\Box} \to {}^{\Box} B \to B_{hor} \to {}^{\Box}D 
+  \,.
+$$
+
+=--
+
+
+## References
+
+The salamander lemma is due to 
+
+* [[George Bergman]], _On diagram-chasing in double complexes_ ([arXiv:1108.0958](http://arxiv.org/abs/1108.0958))
+ {#Bergman}
+
+based on an earlier unpublished preprint which was circulated ([pdf](http://sbseminar.files.wordpress.com/2007/11/diagramchasingbergman.pdf)).
+
+An exposition of this is in 
+
+* [[Anton Geraschenko]], _The Salamander lemma_ ([blog post](http://sbseminar.wordpress.com/2007/11/13/anton-geraschenko-the-salamander-lemma/))
+
+A purely [[category theory|category-theoretic proof]] is in section 2 of 
+
+* [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/))
+
