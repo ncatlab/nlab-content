@@ -266,6 +266,8 @@ For more on this see
 
 * **quantum mechanics**
 
+  * [[Planck's constant]]
+
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
   * [[Born-Oppenheimer approximation]]
