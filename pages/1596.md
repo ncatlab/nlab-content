@@ -1,19 +1,57 @@
-A [[subcategory]] $D$ of a category $C$ is called __replete__ if it respects [[isomorphism]] of morphisms in the [[arrow category]] of $C$.  It is a subcategory for which the property of (strictly) belonging to it is not [[evil]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+# Replete subcategories
+
+* table of contents
+{: toc}
+
+## Idea
+
+A [[subcategory]] $D$ of a [[category]] $C$ is called __replete__ if it respects [[isomorphism]] of morphisms in the [[arrow category]] of $C$.  It is a subcategory for which the property of (strictly) belonging to it is not [[evil]].
 
 
 ## Definition
 
-A subcategory $D$ of $C$ is __replete__ if for any $x$ in $D$ and any isomorphism $f:x\cong y$ in $C$, both $y$ and $f$ are also in $D$.
+A [[subcategory]] $D$ of $C$ is __replete__ if for any $x$ in $D$ and any isomorphism $f\colon x\cong y$ in $C$, both $y$ and $f$ are also in $D$.  Equivalent ways to state this include:
 
-Equivalently, if $f \in D$ and $f \cong g$ in $Arr(C)$, then $g \in D$.
+* If $f \in D$ and $f \cong g$ in the [[arrow category]] $Arr(C)$, then $g \in D$.
+* The inclusion $D\hookrightarrow C$ is an [[isofibration]].
+
 
 ## Repletion and replete images
 
-Note that the inclusion functor of any replete subcategory must be [[pseudomonic functor|pseudomonic]].  Conversely, any subcategory whose inclusion functor is pseudomonic has a **repletion**.  The repletion $repl(D)$ of $D\subset C$ defined to consist of those objects of $C$ admitting an isomorphism to some object of $D$, with the morphisms $x\to y$ in $repl(D)$ being those morphisms $f\colon x\to y$ in $C$ such that $g f h^{-1}$ is in $D$ for some isomorphisms $g\colon x\to x'$ and $h\colon y\to y'$ with $x', y'\in D$.  Note that $D\subset C$ must be pseudomonic for this condition to be independent of the choice of $g$ and $h$.
+Since repleteness is a "closure condition," the [[intersection]] of any collection of replete subcategories is again replete.  Therefore, any subcategory is contained in a smallest replete subcategory, called its **repletion**.  We can construct the repletion $repl(D)$ of $D\subset C$ explicitly as follows:
 
-Repleteness and repletions are most often applied to [[full subcategories]], in which case the repletion is simply the full subcategory of $C$ determined by those objects which are isomorphic to some object of $D$.
+* its objects are those objects of $C$ which admit an isomorphism to some object of $D$, and
+* its morphisms are those morphisms of $C$ which can be written as a composite of morphisms in $D$ and isomorphisms in $C$.
 
-The **replete image** of a functor which is full on isomorphisms is the repletion of its image (which is pseudomonic).  The **replete full image** of a functor is the repletion of its [[full image]], i.e. the full subcategory of its target determined by those objects isomorphic to some object in its image.  See also [[essential image]].
+Repleteness and repletions are most often applied to [[full subcategories]], in which case the repletion is simply the full subcategory of $C$ determined by those objects which are isomorphic to some object of $D$.  In particular, in this case, the repletion is [[equivalence of categories|equivalent]] to $D$.  More generally, we can say:
+
++-- {: .un_prop}
+###### Proposition
+The inclusion $D\hookrightarrow repl(D)$ is an equivalence if and only if the inclusion $D\hookrightarrow C$ is [[pseudomonic functor|pseudomonic]].
+=--
++-- {: .proof}
+###### Proof
+The inclusion of a replete subcategory is always pseudomonic, so if $D\hookrightarrow repl(D)$ is an equivalence, and in particular full and faithful, then $D\hookrightarrow C$ must also be pseudomonic.
+
+Conversely, if $D\hookrightarrow C$ is pseudomonic, then every morphism of $repl(D)$ can be written as $g f h^{-1}$ for some morphism $f$ in $D$ and isomorphisms $g$ and $h$ in $C$.  If the domain and codomain are in $D$, then since $D\hookrightarrow C$ is pseudomonic, both $g$ and $h$ must also be in $D$, hence such a morphism is itself necessarily in $D$.  Thus the inclusion $D\hookrightarrow repl(D)$ is full.  It is clearly faithful and essentially surjective, so it is an equivalence.
+=--
+
+The **replete image** of a functor is the repletion of its image.  The **replete full image** of a functor is the repletion of its [[full image]], i.e. the full subcategory of its target determined by those objects isomorphic to some object in its image.  See also [[essential image]].
 
 
 ## Higher-categorical versions
@@ -44,5 +82,8 @@ Zoran, you might also want to address these issues at [[equivalence]].
 
 [[!redirects replete subcategory]]
 [[!redirects replete subcategories]]
-
 [[!redirects replete image]]
+[[!redirects replete images]]
+[[!redirects full replete image]]
+[[!redirects full replete images]]
+[[!redirects repletion]]
