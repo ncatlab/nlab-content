@@ -22,6 +22,8 @@ A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal
 
 ## Definition 
 
+### In terms of internal group objects
+
 A **group object** or **internal group** in a category $C$ with binary [[product]]s and a [[terminal object]] $*$ is an object $G$ in $C$ and arrows
 $$
 1:* \to G
@@ -64,15 +66,18 @@ $$
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
 
-### In terms of generalized group elements 
+### In terms of presheaves of groups
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
-Given a [[cartesian monoidal category]] $C$, the category of internal groups in $C$ is equivalent to the full subcategory of the category of presheaves of groups $Grp^{C^{op}}$ on $C$, spanned by those presheaves whose underlying set part in $Set^{C^{op}}$ is representable. 
+
+Given a [[cartesian monoidal category]] $C$, the category of internal groups in $C$ is equivalent to the [[full subcategory]] of the category of [[presheaves]] of [[groups]] $Grp^{C^{op}}$ on $C$, spanned by those presheaves whose underlying set part in $Set^{C^{op}}$ is [[representable functor|representable]]. 
+
 =--
 
-In other words, the [[forgetful functor]] from $Grp^{C^{op}}$ to $Set^{C^{op}}$ (obtained by composing with the forgetful functor [[Grp]] $\to$ [[Set]]) creates representable group objects from 
-representable objects. 
+This is a special case of the general theory of _[[structures in presheaf toposes]]_.
+
+In other words, the [[forgetful functor]] from $Grp^{C^{op}}$ to $Set^{C^{op}}$ (obtained by composing with the [[forgetful functor]] [[Grp]] $\to$ [[Set]]) creates representable group objects from  representable objects. 
 
 An object $G$ in $C$ with an internal group structure is a diagram
 
