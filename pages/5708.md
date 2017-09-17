@@ -19,6 +19,7 @@ This entry is about the book
 
 on [[effective quantum field theory|effective]] [[perturbative quantum field theory]].
 
+As the book is now [published by AMS](http://www.ams.org/bookstore-getitem/item=surv-170), it is no longer available from the [author's webpage](http://www.math.northwestern.edu/~costello).
 
 #Contents#
 * table of contents
