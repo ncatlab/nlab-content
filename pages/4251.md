@@ -14,10 +14,10 @@
 =--
 
 This is a sub-entry of [[homotopy groups in an (∞,1)-topos]].
-It discusses the general notion of **[[étale homotopy]]** in the contex of [[locally ∞-connected (∞,1)-toposes]].
+It discusses the general notions of **[[étale homotopy]]** in the context of [[locally ∞-connected (∞,1)-toposes]].
 
 
-For the other notion of homotopy grups in an $(\infty,1)$-topos see [[categorical homotopy groups in an (∞,1)-topos]].
+For the other notion of homotopy groups in an $(\infty,1)$-topos see [[categorical homotopy groups in an (∞,1)-topos]].
 
 # Contents
 * automatic table of contents goes here
