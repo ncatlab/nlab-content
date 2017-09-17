@@ -63,8 +63,8 @@ The _Hodge filtration_ in the cohomology of $X$ is the [[filtered complex]] stru
 $$
   F^p H^k(X, \mathbb{C})
    \coloneqq
-  \underset{p \geq k}{\oplus}
-  H^{p,k-p}(X)
+  \underset{k-q \geq p}{\oplus}
+  H^{k-q,q}(X)
   \,.
 $$
 
