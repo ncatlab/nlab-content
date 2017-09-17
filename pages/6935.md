@@ -634,10 +634,11 @@ In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], th
 
 
 ## References
+ {#References}
 
 A very basic introduction to the concept, with an eye towards explaining [[identity types]] is in 
 
-* [[Mike Shulman]], _Induction on equality_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/induction.pdf))
+* [[Mike Shulman]], _Induction on equality_ ([pdf](http://home.sandiego.edu/~shulman/papers/induction.pdf))
 
 A textbook account in the context of [[programming languages]] is in section 15 of
 
