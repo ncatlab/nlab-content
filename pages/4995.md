@@ -774,7 +774,158 @@ By the discussion at [[exponential ideal]] a reflective subcategories of a [[car
 
 =--
 
+### Factorization systems associated to $\mathbf{\Pi}$
+ {#FactorizationSystemsForPi}
 
+We discuss [[orthogonal factorization system in an (infinity,1)-category|orthogonal factorization systems]] in a cohesive $(\infty,1)$-topos that characterize or are characterized by the [[reflective sub-(infinity,1)-category|reflective subcategory]] of dicrete objects, with reflector $\mathbf{\Pi} : \mathbf{H} \stackrel{\Pi}{\to} \infty Grpd \stackrel{Disc}{\hookrightarrow} \mathbf{H}$.
+
+
++-- {: .num_defn #PiClosure}
+###### Definition
+
+For $f : X \to Y$ a morphism in $\mathbf{H}$, write $c_{\mathbf{\Pi}} f \to Y$ for the [[(∞,1)-pullback]] in
+
+$$
+  \array{
+    c_{\mathbf{\Pi}} f &\to & \mathbf{\Pi} X
+    \\
+    \downarrow && \downarrow^{\mathrlap{\mathbf{\Pi} f}}
+    \\
+    Y &\to& \mathbf{\Pi} Y
+  }
+  \,,
+$$
+
+where the bottom morphism is the $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]]. We say that $c_{\mathbf{\Pi}} f$ is the **$\mathbf{\Pi}$-closure** of $f$, and that $f$ is **$\mathbf{\Pi}$-closed** if $X \simeq c_{\mathbf{\Pi}} f$.
+
+=--
+
++-- {: .num_prop #FactorizationPiEquivalencePiClosed}
+###### Proposition
+
+If $\mathbf{H}$ has an [[∞-cohesive site]] of definition, then
+every morphism $f : X \to Y$ in $\mathbf{H}$ factors as 
+
+$$
+  \array{
+     X &&\stackrel{f}{\to}&& Y
+     \\
+     & \searrow && \nearrow
+     \\
+     && c_{\mathbf{\Pi}}f 
+  }
+  \,,
+$$
+
+such that $X \to c_{\mathbf{\Pi}} f$ is a _$\mathbf{\Pi}$-equivalence_ in that it is inverted by $\mathbf{\Pi}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The factorization is given by the naturality of $\mathbf{\Pi}$
+and the universal property of the $(\infty,1)$-pullback 
+in def. \ref{PiClosure}.
+
+$$
+  \array{
+    X &\to & c_{\mathbf{\Pi}} f &\to & \mathbf{\Pi} X
+    \\
+    &{}_{\mathllap{f}}\searrow & \downarrow && \downarrow^{\mathrlap{\mathbf{\Pi} f}}
+    \\
+    && Y &\to& \mathbf{\Pi} Y
+  }
+  \,.
+$$
+
+Then by prop. \ref{PiPreservesPullbacksOverDiscretes} the functor
+$\mathbf{\Pi}$ preserves the $(\infty,1)$-pullback over the
+discrete object $\mathbf{\Pi}Y$ and since $\mathbf{\Pi}(X \to \mathbf{\Pi}X)$
+is an equivalence, it follows that $\mathbf{\Pi}(X \to c_{\mathbf{\Pi}f})$
+is an equivalence.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The pair of classes
+
+$$
+  ($\mathbf{\Pi}-equivalence, \mathbf{\Pi}-closed morphisms)
+$$
+
+is an [[orthogonal factorization system in an (infinity,1)-category|orthogonal factorization system]] in $\mathbf{H}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by the general reasoning discussed at [[reflective factorization system]]:
+
+By prop. \ref{FactorizationPiEquivalencePiClosed} we have the required factorization. It remains to check the orthogonality. 
+
+So let 
+
+$$
+  \array{
+     A &\to& X 
+     \\
+     \downarrow && \downarrow 
+     \\
+     B &\to& Y
+  }
+$$
+
+be a square diagram in $\mathbf{H}$ where the left morphism is a $\mathbf{\Pi}$-equivalence and the right morphism is $\mathbf{\Pi}$-closed. Then by assumption there is a pullback square on the right in 
+
+$$
+  \array{
+     A &\to& X &\to& \mathbf{\Pi}X 
+     \\
+     \downarrow && \downarrow  && \downarrow
+     \\
+     B &\to& Y &\to& \mathbf{\Pi}Y
+     \,.
+  }
+  \,.
+$$
+
+By naturality of the [[unit of an adjunction|adjunction unit]], this square is equivalent to
+
+$$
+  \array{
+    A &\to& \mathbf{\Pi} A &\to & \mathbf{\Pi} Y
+    \\
+    \downarrow && \downarrow^{\mathrlap{\simeq}} && \downarrow
+    \\
+    B &\to& \mathbf{\Pi} B &\to& \mathbf{\Pi}X
+  }
+  \,.
+$$
+
+Here by assumption the middle morphism is an equivalence.
+Therefore there is an essentially unique lift in the square on the right and hence a lift in the total square. 
+Again by the universality of the adjunction, any such lift factors through $\athbf{\Pi} B$ and hence also this lift is essentially unique.
+
+Finally by universality of the pullback, this induces an essentially unique lift $\sigma$ in
+
+$$
+  \array{
+     A &\to& X &\to& \mathbf{\Pi}X 
+     \\
+     \downarrow &{}^{\mathllap{\sigma}}\nearrow& \downarrow  && \downarrow
+     \\
+     B &\to& Y &\to& \mathbf{\Pi}Y
+     \,.
+  }
+  \,.
+$$
+
+
+=--
 
 ## Structures in a cohesive $(\infty,1)$-topos 
   {#Structures}
