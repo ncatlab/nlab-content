@@ -39,6 +39,8 @@
 
   * [[inserter]]
 
+  * [[isoinserter]]
+
   * [[equifier]]
 
   * [[inverter]]
