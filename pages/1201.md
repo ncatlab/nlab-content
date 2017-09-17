@@ -92,7 +92,7 @@ Most of set theory works without the axiom of foundation, but not the deep study
 
 Alternatively, one can adopt the __axiom of anti-foundation__, which says:
 
-* Given any [[extensional relation|extensional]] binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ such that $(U,\in)$ is [[isomorphism|isomorphic]] to $(S,\prec)$.
+* Given any binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ and surjection $f : S \to U$ such that $f(s_1) \in f(s_2)$ if and only if $s_1 \in s_2$, for $s_1, s_2$ in $S$. (That is, $f$ is almost an isomorphism between $(S, \prec)$ and $(U, \in)$, but needn't be injective)
 
 Just as there are several versions of an [[extensional relation]], there are several versions of this axiom.  Note that the existence part of the statement is a set-formation axiom, while the uniqueness part is a strong version of the [[axiom of extensionality]] (which is equivalent to the usual one for well-founded sets).
 
