@@ -1,0 +1,15 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
+_[Planet Math](http://planetmath.org/)_ is a virtual community which aims to help make mathematical knowledge more accessible. PlanetMath's content is created collaboratively: the main feature is the 
+[mathematics encyclopedia](http://planetmath.org/encyclopedia) with entries written and reviewed by members.
