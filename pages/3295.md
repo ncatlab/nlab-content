@@ -42,7 +42,7 @@ $$
   \,,
 $$
 
-where $\mathbf{H}^I$ the [[arrow category]] of $\mathbf{H}$, hence the [[(∞,1)-category of (∞,1)-functors]] $I \to \mathbf{H}$, where $I$ is the [[interval category]].
+where $\mathbf{H}^I$ the [[arrow (∞,1)-topos]] of $\mathbf{H}$, hence the [[(∞,1)-category of (∞,1)-functors]] $I \to \mathbf{H}$, where $I$ is the [[interval category]].
 
 
 =--
