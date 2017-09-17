@@ -103,24 +103,29 @@ $$
   T(\rho) = Tr_{env}U(\rho \otimes \rho_{env})U^{\dagger}.
 $$
 
+## Related concepts
+
+* [[quantum mechanics in terms of dagger-compact categories]]
+  
+
 ## References
 
 An early influential reference on _(completely) positive trace-preserving maps (CPTP)_ is:
 
-* Choi, M. (1975). _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, June 1975, Pages 285-290
+* M. Choi, _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, (1975), Pages 285-290
  {#Choi}
 
 A useful review of the notion is provided by 
 
 * Caleb J. O'Loan (2009), _Topics in Estimation of Quantum Channels_ , PhD thesis, University of St. Andrews, ([arXiv](http://arxiv.org/abs/1001.3971))
 
-* Mendl, Christian B. and Wolf, Michael M. (2009) _Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem_ , Commun. Math. Phys. 289, 1057-1096 (2009) ([arXiv:0806.2820](http://arxiv.org/abs/0806.2820))
+* Christian B. Mendl, Michael M. Wolf, _Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem_ , Commun. Math. Phys. 289, 1057-1096 (2009) ([arXiv:0806.2820](http://arxiv.org/abs/0806.2820))
 
-* Nielsen, Michael and Chuang, Isaac (2000) _Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge.
+* Michael Nielsen, Isaac Chuang, _Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge (2000)
 
 * Smolin, John A., Verstraete, Frank, and Winter, Andreas _Entanglement of assistance and multipartite state distillation_ , Phys. Rev. A, vol. 72, 052317, 2005 ([arXiv:quant-ph/0505038](http://arxiv.org/abs/quant-ph/0505038))
 
-* Watrous, John (2008). _Mixing doubly stochastic quantum channels with the completely depolarizing channel_ ([arXiv](http://arxiv.org/abs/0807.2668))
+* John Watrous, _Mixing doubly stochastic quantum channels with the completely depolarizing channel_ (2008) ([arXiv](http://arxiv.org/abs/0807.2668))
 
 The description of completely positive maps in terms of [[dagger-categories]] goes back to
 
@@ -133,7 +138,7 @@ The description of completely positive maps in terms of [[dagger-categories]] go
 
 This was further developed in
 
-* [[Bob Coecke]], [[Eric Paquette]], [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
+* [[Bob Coecke]], Eric Paquette, [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
 
 
 [[!redirects quantum channel]]
