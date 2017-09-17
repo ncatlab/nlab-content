@@ -15,7 +15,7 @@
 
 ## Idea
 
-To a [[permutative category]]  ${\vert C\vert}$ is naturally associated a [[Gamma-space]], hence a [[symmetric spectrum]]. The [[generalized (Eilenberg-Steenrod) cohomology]] theory [[Brown representability theorem|represented]] by this is called the 
+To a [[permutative category]]  $C$ is naturally associated a [[Gamma-space]], hence a [[symmetric spectrum]]. The [[generalized (Eilenberg-Steenrod) cohomology]] theory [[Brown representability theorem|represented]] by this is called the 
 _([[algebraic K-theory|algebraic]]) [[K-theory]]_ of (or represented by) $C$.
 
 If the category is is even a [[bipermutative category]] then the corresponding [[K-theory of a bipermutative category]] in addition has [[E-infinity ring]] structure, hence is a [[multiplicative cohomology theory]].
