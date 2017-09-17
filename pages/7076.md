@@ -49,3 +49,10 @@ A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a c
 
 * [[Carlos Simpson]],  _Homotopy theory of higher categories_ (2012)
 
+[[!redirects cartesian closed model categories]]
+
+[[!redirects Cartesian close model category]]
+[[!redirects Cartesian close model categories]]
+
+[[!redirects cartesian closed model structure]]
+[[!redirects cartesian closed model structures]]
