@@ -7,7 +7,7 @@
 
 Epsilontic analysis is the now standard rigorous approach to [[analysis]], developed by [[Augustin Cauchy]], [[Karl Weierstrass|Karl Weierstraß]], [[Richard Dedekind]], and others in the mid-to-late 19th century.  It contrasts with [[infinitesimal analysis]], both the less-than-rigorous analysis that preceded it and the rigorous [[nonstandard analysis]] (and other approaches to infinitesimals, such as [[synthetic differential geometry]]) that followed it.
 
-Ironically, classical epsilontic analysis is not rigorous enough for some [[constructive mathematics|constructive mathematicians]], such as [[Jan Brouwer]], who would allow it to be applied only using [[intuitionistic logic]].  This was developed thoroughly by [[Errett Bishop]].
+Ironically, [[classical analysis|classical]] epsilontic analysis is not rigorous enough for [[constructive mathematics]], which requires it to be applied using [[intuitionistic logic]].  This was developed thoroughly by [[Errett Bishop]]; see [[constructive analysis]].
 
 
 ## History
@@ -32,6 +32,8 @@ but we cannot shift the quantifiers further.
 In contrast, a uniform property necessarily refers to a range of points and typically takes the form
 $$ \forall \epsilon,\; \exists M,\; \forall x,\; \phi(M,x,\epsilon) ,$$
 which is stronger.
+
+It is difficult to make this distinction without the $\epsilon$.  It is not impossible to do this otherwise, as [[Abraham Robinson]] showed with infinitesimals, but it\'s telling that nobody did so before epsilontics.  Even Cauchy\'s definitions are difficult to understand in this respect, since he used epsilontics primarily for proofs (and not always even then) and rarely for definitions.  (In this regard, see [[Cauchy's mistake]].)
 
 
 ## References
