@@ -231,7 +231,17 @@ A bicategory of relations has a unit $1$ in the sense of allegories:
 
 A bicategory of relations is also pretabular, for the maximal element in $\hom(X, Y)$ is tabulated as $(\pi_X)_* \pi_Y$, where $\pi_X$, $\pi_Y$ are the product projections for $X \times Y$. 
 
-In the other direction, suppose $\mathbf{A}$ is a unitary pretabular allegory.  By theorem 1.6 of Carboni--Walters, $\mathbf{A}$ is a [[Cartesian bicategory]] if:
+In the other direction, suppose $\mathbf{A}$ is a unitary pretabular allegory.  There is a faithful embedding, which preserves the unit, of $\mathbf{A}$ into its coreflexive splitting, which is unitary and tabular, and hence equivalent to $Rel$ of the regular category $Map(\mathbf{A})$.  By the proposition below, then, $\mathbf{A}$ is a full sub-2-category of a bicategory of relations.  Because the product of two Frobenius objects is again Frobenius, it suffices to show that $\mathbf{A}$ is closed under products in its coreflexive splitting.  The inclusion of $\mathbf{A}$ into the latter preserves the unit and the property of being a map, and hence preserves top elements of hom sets, while any allegory functor must preserve tabulations.  So the tabulation $(\pi^{X Y}_X, \pi^{X Y}_Y)$ of $\top_{X Y}$ in $\mathbf{A}$ is a tabulation of $\top_{1_X 1_Y}$ in the coreflexive splitting, and hence $1_{X \times Y} \cong 1_X \times 1_Y$.
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+If $C$ is a [[regular category]], then the bicategory $Rel C$ of [[Rel|relations]] in $C$ is a bicategory of relations.
+=--
++-- {: .proof}
+###### Proof
+By theorem 1.6 of Carboni--Walters, $\mathbf{A}$ is a [[Cartesian bicategory]] if:
 
 * $Map(\mathbf{A})$ has finite products.
 
@@ -241,36 +251,22 @@ In the other direction, suppose $\mathbf{A}$ is a unitary pretabular allegory.  
 $$ R \otimes S =  (p R p_*) \cap (p' S p'_*) $$
 is functorial, where $p$ and $p'$ are the appropriate product projections.
 
-For the first condition, the existence of a unit $1$ implies that $1$ is terminal in $Map(\mathbf{A})$, and the tabulation of the top element of $\mathbf{A}(X,Y)$ is the product cone $X \leftarrow X \times Y \to Y$.  For the second, local meets are given as part of the allegory structure, and the definition of a unit object gives top elements and the second part of the condition.
-
-The third condition is a little trickier.  For identity morphisms, it says that $p p_* \cap p' p'_* = 1$, which is true because $(p,p')$ tabulates the top element of the relevant hom set.  Now suppose that $R, S \colon X \to Y$ and $R', S' \colon Y \to Z$.  The composition condition for the tensor product requires that
-$$ p R R' p_* \cap p' S S' p'_*
-   = (p R p_* \cap p' S p'_*) (p R' p_* \cap p' S' p'_*) $$
-We may interpret the LHS as
-$$ (x',z')^* (\exists y. z^* R x y \wedge x^* R' y z) \wedge (x,z)^* (\exists y'. z'^* S x' y' \wedge x'^* S' y' z')
-$$
-and the right as
-$$
-\exists y, y'. (z,z')^* ((x',y')^* R x y \wedge (x,y)^*S x' y') \wedge (x,x')^* ((y',z')^* R' y z \wedge (y,z)^* S' y' z')
-$$
-where $x^*, (x,y,\ldots)^*$ etc. represent pullback along (i.e. composition with) a product projection. But recall from [[allegory]] that existential formulas may be interpreted equally as either compositions or more complicated morphisms involving product projections and diagonals.  Applying this to the morphisms above, the result we want follows from [[Frobenius reciprocity]], which is a special case of the modular law, and some [[Beck-Chevalley conditions]]:
+The first two are obvious, and for the third we may reason in the [[internal language]] of $C$.  Clearly
+$$ 1 \otimes 1 = [x = x \wedge x' = x'] = 1  $$
+The formula whose meaning is by $R S \otimes R' S'$ is
+$$ (\exists y. R x y \wedge S y z) \wedge (\exists y'. R' x' y' \wedge S' y' z') $$
+and we may use [[Frobenius reciprocity]] to get
 $$
 \begin{aligned}
-& (x',z')^* (\exists y. z^* R x y \wedge x^* R' y z) \wedge (x,z)^* (\exists y'. z'^* S x' y' \wedge x'^* S' y' z') \\
-& = (\exists y. (z,x',z')^* R x y \wedge (x,x',z')^* R' y z) \wedge (\exists y'. (x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')  \\
-& = \exists y. ((z,x',z')^* R x y \wedge (x,x',z')^* R' y z \wedge y^* \exists y'. (x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')  \\
-& = \exists y. ((z,x',z')^* R x y \wedge (x,x',z')^* R' y z \wedge \exists y'. y^* ((x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')) \\
-& = \exists y, y'. (y'^*((z,x',z')^* R x y \wedge (x,x',z')^* R' y z) \wedge y^* ((x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')) \\
-& = \exists y, y'. ((y,z,x',z')^* R x y \wedge (x,y,x',z')^* R' y z \wedge ((x,y,z,z')^* S x' y' \wedge (x,y,z,x')^* S' y' z')) \\
-& = \exists y, y'. (z,x',y',z')^* R x y \wedge  (x,y,z,z')^* S x' y' \wedge (x,x',y',z')^* R' y z \wedge (x,y,z,x')^* S' y' z') \\
-& = \exists y, y'. (z,z')^* ((x',y')^* R x y \wedge (x,y)^*S x' y') \wedge (x,x')^* ((y',z')^* R' y z \wedge (y,z)^* S' y' z')
+  & \exists y. (R x y \wedge S y z \wedge y^* \exists y'. R' x' y' \wedge S' y' z') \\
+  & \equiv \exists y. (R x y \wedge S y z \wedge  \exists y'. y^* (R' x' y'   \wedge S' y' z')) \\
+  & \equiv \exists y, y'. R x y \wedge S y z \wedge R' x' y' \wedge S' y' z' \\
 \end{aligned}
 $$
-The Beck--Chevalley swap in the second line holds because there $\exists$ is expressed by post-composition with a projection, and pullback/substitution by precomposition, and these automatically commute in a 2-category.  That in line 4 is valid because it amounts to the identity $\epsilon_{Y'}\epsilon^o_Y = p'_* p$, where $p$ and $p'$ are the projections out of $Y \times Y'$.
-
-
-Finally, the modular law implies [[Frobenius reciprocity]], which implies the Frobenius laws as shown at _loc. cit._
-
+which is the meaning of $(R \otimes R')(S \otimes S')$.  Finally, the Frobenius law is
+$$ [\exists x'. (x_1, x_2) = (x', x') = (x_3, x_4)]
+= [\exists x'. (x_1, x') = (x_3, x_3) \wedge (x_2, x_2) = (x_4, x')]  $$
+which follows from transitivity and symmetry of equality.
 =--
 
 
