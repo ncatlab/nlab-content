@@ -17,7 +17,7 @@
 
 ### Integrated
 
-Given a [[symplectic manifold]] $(X,\omega)$, there is the group of [[Hamiltonian symplectomorphisms]] $Sympl(X,\omega)$ [[action|acting]] on $X$. If $(X,\omega)$ is [[prequantum line bundle|prequantizable]] this lifts to the group of [[quantomorphisms]], both of them covering the [[diffeomorphisms]] of $X$:
+Given a [[symplectic manifold]] $(X,\omega)$, there is the group of [[Hamiltonian symplectomorphisms]] $HamSympl(X,\omega)$ [[action|acting]] on $X$. If $(X,\omega)$ is [[prequantum line bundle|prequantizable]] this lifts to the group of [[quantomorphisms]], both of them covering the [[diffeomorphisms]] of $X$:
 
 [[quantomorphisms]] $\to$ [[Hamiltonian symplectomorphisms]] $\to$ [[diffeomorphisms]] .
 
