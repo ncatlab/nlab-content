@@ -15,7 +15,11 @@
 
 ## Idea
 
-The Levin-Wen model is a [[model (in theoretical physics)]] for certain phenomena in 2-dimensional [[solid state physics]]
+The Levin-Wen model is a [[model (in theoretical physics)]] for certain phenomena in 2-dimensional [[solid state physics]]. It can be regarded as a  [[3d TQFT]].
+
+## Related concepts
+
+The [[4d TQFT]] analog of the Levin-Wen model is the [[Walker-Zhang model]].
 
 ## References
 
