@@ -395,6 +395,18 @@ for the [[adjoint triple]] induced on [[categories of presheaves]] by the inclus
 
 In terms of all this the nerve theorem \ref{NerveTheorem} says the following:
 
+We have [[geometric morphisms]] of [[toposes]]
+
+$$
+  Grph \simeq Sh(\Delta_0)
+  \stackrel{\overset{i^*}{\to}}{\underset{i_*}{\hookrightarrow}}
+  PSh(\Delta_0)
+   \stackrel{\overset{j_!}{\to}}{\stackrel{\overset{j^*}{\leftarrow}}{\underset{j_*}{\to}}}
+  PSh(\Delta)
+$$
+
+which capture the Segal condition as follows.
+
 +-- {: .num_prop #CatAsPullback}
 ###### Proposition
 
