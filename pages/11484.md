@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _nodal_  [[singular point of an algebraic variety|singularity]] of an [[algebraic curve]] is one of the form parameterized by the [[equation]] $x y = 0$. A _nodal curve_ is a curve with a nodel singularity.
+A _nodal_  [[singular point of an algebraic variety|singularity]] of an [[algebraic curve]] is one of the form parameterized by the [[equation]] $x y = 0$. A _nodal curve_ is a curve with a nodal singularity.
 
 (e.g.[Hain 08, p. 45](#Hain08))
 
