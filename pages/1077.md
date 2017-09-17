@@ -69,7 +69,7 @@ Given two morphisms $f, g: a \to b$ in $C$, let their sum $f + g: a \to b$ be
 $$ a \to a \times a \cong a \oplus a \overset{f \oplus g}{\to} b \oplus b \cong b \sqcup b \to b .$$
 One proves that $+$ is associative and commutative. Of course, the zero morphism $0: a \to b$ is the usual [[zero morphism]] given by the zero object:
 $$ a \to 1 \cong 0 \to b .$$
-One proves that $0$ is the neutral element for $+$ and that this matches the $0$ morphism that we began with in the definition.
+One proves that $0$ is the neutral element for $+$ and that this matches the $0$ morphism that we began with in the definition.  Note that in addition to a zero object, this construction actually only requires biproducts of an object with itself, i.e. biproducts of the form $a\oplus a$ rather than the more general $a\oplus b$.
 
 If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of [[abelian groups]] and is therefore (precisely) an __[[additive category]]__.
 
