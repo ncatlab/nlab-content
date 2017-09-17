@@ -31,7 +31,7 @@ Om manifolds with rational [[string structure]] the [[Witten genus]] takes value
 
 ### Relation to modular forms
 
-Write $\overline{\mathcsal{M}}$ for the [[Deligne-Mumford compactification]] of the [[moduli stack of elliptic cuvres]] regarded as a [[derived scheme]], such that [[tmf]] is defined as the [[global sections]]
+Write $\overline{\mathcal{M}}$ for the [[Deligne-Mumford compactification]] of the [[moduli stack of elliptic curves]] regarded as a [[derived scheme]], such that [[tmf]] is defined as the [[global sections]] of the derived [[structure sheaf]]
 
 $$
   tmf = \mathcal{O}(\overline{\mathcal{M}})
@@ -54,6 +54,7 @@ $$
 $$
 
 this induces an [[edge morphism]]
+
 
 
 $$
