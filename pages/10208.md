@@ -62,11 +62,22 @@ There is an isomorphism $c_A\colon \Omega(A) \stackrel{\sim}{\to} T_{A^\dagger}$
 ###### Proof
 The map $c_A$ is defined as 
 $$
-  X \mapsto (I - A^\dagger X)(A + X)^{-1}.
+  X \mapsto (I - A^\dagger X)(A + X)^{-1} = (I - A^\dagger X)(I + A^\dagger X)^{-1}A^\dagger
 $$
-we need to check that this is indeed a map to $T_{A^\dagger}$ and that it is an isomorphism. 
+the latter equality using that $A^{-1} = A^\dagger$. We need to check that this is indeed a map to $T_{A^\dagger}$ and that it is an isomorphism. 
+
+We calculate
+$$
+\begin{aligned}
+   (A c_A(X))^\dagger & = A c_I(A^\dagger X)^\dagger A^\dagger\\
+    & = A c_I(X^\dagger A) A^\dagger
+\end{aligned}
+$$
+so if we show that $c_I(X^\dagger A) = - c_I(A^\dagger X)$ we are done.
 
 (tbc...)
+
+
 =--
 
 
