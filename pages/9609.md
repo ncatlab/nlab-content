@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[synthetic differential geometry]], the _[[tangent bundle]]_ of an [[object]] $X$ is the [[internal hom]] $X^D$, equipped with the projection to $X$ induced from the unique point $\ast \to D$ of the [[infinitesimal space|infinitesimal interval]] $D$:
+
+$$
+  X^{(\ast \to D)} \colon X^D \to X
+  \,.
+$$
+
+## Properties
+
+For $X$ a [[microlinear space]] the synthetic tangent bundle shares many of the expected properties of a [[tangent bundle]].
+
+## Examples
+
+* Synthetic tangent bundles of [[smooth spaces]] are discussed a bit at _[Cahiers topos -- Synthetic tangent spaces](Cahiers+topos#RelationToSyntheticTangentSpaces)_.
+
+## Related concepts
+
+* [[kinematic tangent bundle]], [[operational tangent bundle]]
+
+[[!redirects synthetic tangent bundles]]
+[[!redirects synthetic tangent space]]
+[[!redirects synthetic tangent spaces]]
+
