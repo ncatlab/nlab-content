@@ -58,6 +58,9 @@ Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gr
 Although the non-Calabi-Yau case may be of lesser interest to physics, one can still formulate some mirror symmetry statements for, for instance, Fano manifolds. The mirror to a Fano manifold is a Landau-Ginzburg model (see Hori-Vafa; see also work of Auroux for an explanation via the Strominger-Yau-Zaslow T-duality philosophy). Then the statements are: the A-model of the Fano (given by the Fukaya category) is equivalent to the B-model of the Landau-Ginzburg model (given by the category of matrix factorizations); and the B-model of the Fano (given by the derived category of sheaves) is equivalent to the A-model of the Landau-Ginzburg model (given by the Fukaya-Seidel category). A few of the relevant names: Kontsevich, Hori-Vafa, Auroux, Katzarkov, Orlov, Seidel, ...
 
 
+## Related concepts
+
+[[duality in physics]], [[duality in string theory]]
 
 
 ## References
