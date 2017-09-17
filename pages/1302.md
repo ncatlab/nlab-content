@@ -159,7 +159,7 @@ $$
 $$
 
 $$
-  (Spec S_ \stackrel{f^{op}}{\to} Spec R)
+  (Spec S \stackrel{f^{op}}{\to} Spec R)
   \mapsto (R Mod \stackrel{S \otimes_{f} -}{\to} S Mod)
 $$
 
@@ -192,7 +192,7 @@ $$
 and on morphisms by
 
 $$
-  QC : (Spec S \stackrel{f}{\to} Spec R) 
+  QC : (Spec S \stackrel{f^{op}}{\to} Spec R) 
          \mapsto 
        (R Mod \stackrel{S\otimes_{f} }{\to} S Mod)
   \,,
@@ -208,12 +208,12 @@ the operation $S \otimes_{f} - : R Mod \to S Mod$ corresponds to the
 [[pullback]] of [[bundle]]s along a morphism of the underlying spaces.
 (See for instance the discussion of [[monadic descent]] at [[Sweedler coring]] for more on this.)
   
-We may [[Kan extension|right Kan extend]] the 2-functor $QC : CRing^{op} \to Cat$ through the [[Yoneda embedding]] $Ring^{op} \hookrightarrow [CRing,Cat]$
+We may [[Kan extension|right Kan extend]] the 2-functor $QC : CRing^{op} \to Cat$ through the [[Yoneda embedding]] $CRing^{op} \hookrightarrow [CRing,Cat]$
 to get a definition of $QC$ on arbitrary [[presheaf|presheaves]]. 
 
 $$
   \array{
-    CRing^{op} &\stackrel{QC}{\to}& Cat^{op}
+    CRing^{op} &\stackrel{QC}{\to}& Cat
     \\
     {}^{Y}\downarrow & \nearrow_{\mathrlap{Ran_Y QC}}
     \\
