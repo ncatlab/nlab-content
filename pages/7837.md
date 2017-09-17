@@ -1,0 +1,7 @@
+In [[model theory]], given a cardinal $\kappa$, a [[theory]] is __$\kappa$-categorical__ (or categorical in cardinality $\kappa$), if it has precisely one isomorphism class of models of cardinality $\kappa$. The __Morley categoricity theorem__ says that a [[first-order theory]] $T$ with countably many symbols is $\kappa$-categorical for one uncountable cardinal $\kappa$ iff $T$ is categorical in any uncountable cardinality. 
+
+* John Baldwin, _Categoricity_, Amer. Math. Soc. 2011, [pdf](http://www.math.uic.edu/~jbaldwin/pub/AEClec.pdf)
+* John T. Baldwin, _What is a complete theory_, talk, [pdf](http://homepages.math.uic.edu/~jbaldwin/nd08.pdf)
+* wikipedia: [Morley categoricity theorem](http://en.wikipedia.org/wiki/Morley%27s_categoricity_theorem)
+
+Study of categoricity lead historically to the development of the [[stability theory]] in model theory, see also [[geometric stability theory]].
