@@ -134,6 +134,7 @@ While on the right this expresses the collection of the pullback bundle, the lef
 | $\array{ F &\to& P  \\ && \downarrow^{\mathrlap{\rho}} \\ && \mathbf{B}G }$ | $G$-[[principal infinity-bundle|principal bundle]] | $G$-[[higher gauge field|gauge field]] | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | | 
 | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n) \\ && \downarrow \\ && \mathbf{B} GL(n) }$ | [[manifold]] structure |  | [[vielbein]] | [[gravity]] |
 | $\array{ O(n)\backslash O(n,n)/O(n) &\to& \mathbf{B} O(n) \times O(n) \\ && \downarrow \\ && \mathbf{B} O(n,n) }$ | [[generalized  tangent bundle]] |  | [[generalized complex geometry|generalized geometry]] | DFT [[type II supergravity]] | 
+| $\array{ E_n/H &\to& \mathbf{H} \\ && \downarrow \\ && \mathbf{B}E_n }$ |  |  | [[exceptional generalized geometry]] |  |
 | $\array{ \mathbf{B} U &\to& \mathbf{B} P U \\ && \downarrow^{\mathbf{dd}} \\ && \mathbf{B}^2 U(1) }$ | [[circle n-bundle with connection|circle 2-bundle]]/$U(1)$-[[bundle gerbe]] | [[B-field]] | [[twisted bundle|twisted unitary bundle]] | [[Yang-Mills field]] |
 | $\array{ \mathbf{B}String &\to& \mathbf{B} Spin  \\ && \downarrow^{\mathrlap{\tfrac{1}{2}\mathbf{p}_1}} \\ && \mathbf{B}^3 U(1)  }$ | [[circle n-bundle with connection|circle 3-bundle]]/$U(1)$-[[bundle 2-gerbe]] |  [[NS5-brane]] [[magnetic charge]] |  [[twisted differential string structure|twisted smooth string structure]] | [[gravity]]+[[B-field]] |
 | $\array{ \mathbf{B}Fivebrane &\to& \mathbf{B} String  \\ && \downarrow^{\mathrlap{\tfrac{1}{6}\mathbf{p}_2}} \\ && \mathbf{B}^7 U(1)  }$ | [[circle n-bundle with connection|circle 7-bundle]]| [[string]] [[electric charge]]  | [[twisted differential fivebrane structure|twisted smooth fivebrane structure]] | [[gravity]]+[[B6-field]] |
@@ -154,6 +155,48 @@ While on the right this expresses the collection of the pullback bundle, the lef
 (...)
 
 #### Whitehead tower
+
+$$
+  \array{
+    B Fivebrane &\to& *
+    \\
+    \downrrow && \downarrow
+    \\
+    B String &\stackrel{\tfrac{1}{6}p_2}{\to}&  B^7 U(1)
+    \\
+    \downarrow && && \downarrow
+    \\
+    B Spin && &\stackrel{\tfrac{1}{2}p_1}{\to}& B^3 U(1)
+    \\
+    \downarrow && && && \downarrow
+    \\
+    B S O 
+    &\to&
+    \cdots
+    &\to&
+    &\to&
+    & \stackrel{w_2}{\to} &
+    \mathbf{B}^2 \mathbb{Z}_2
+    \simeq
+    *
+    \\
+    \downarrow && && && &&  \downarrow
+    \\
+    B O 
+    &\to&
+    \cdots
+    &\to&
+    \tau_{\leq 8 } B O
+    &\to&
+    \tau_{\leq 4 } B O
+    &\to&
+    \tau_{\leq 2 } B O
+    &\to&
+    \tau_{\leq 1 } B O
+    \simeq
+    B \mathbb{Z}_2
+  }
+$$
 
 $$
   \array{
