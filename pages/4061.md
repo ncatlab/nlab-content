@@ -28,11 +28,13 @@ On [[quantum mechanics]]:
 
 * Anthony Sudbery, _Quantum mechanics and the particles of nature: An outline for mathematicians_
 
-* Leon A. Takhtajan, *Quantum mechanics for mathematicians*, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
+* [[Leon A. Takhtajan]], *[[Quantum mechanics for mathematicians]]*, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
 
 ## Geometry and symmetries in classical and QM, but not much QFT 
 
-* Peter Olver, *Equivalence, invariants, and symmetry*, Cambridge Univ. Press 1995.  
+* Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) [amazon](http://www.amazon.com/Geometrical-Methods-Mathematical-Physics-Bernard/dp/0521298873), [google](http://books.google.hr/books?id=HAPMB2e643kC&lpg=PP1&dq=schutz%20geometrical%20methods&pg=PP1#v=onepage&q&f=false)
+
+* [[Peter Olver]], *Equivalence, invariants, and symmetry*, Cambridge Univ. Press 1995; *Applications of Lie groups to differential equations*, Springer.  
 
 * Shlomo Sternberg, *Group theory and physics*, Cambridge University Press 1994. 
 
@@ -47,6 +49,8 @@ On [[quantum mechanics]]:
 * Sean Bates, Alan Weinstein, _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
 
 * A. Cannas da Silva, A. Weinstein, _Geometric models for noncommutative algebras_, 1999, [pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf)
+
+* [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
 
 ## Lorentzian geometry and general relativity
 
@@ -96,8 +100,6 @@ On [[quantum field theory]] and [[string theory]]:
 * Yvonne Choquet-Bruhat, Cecile Dewitt-Morette, *Analysis, manifolds and physics*, 1982 and 2001
 
 * Albert Schwartz, *Quantum field theory and topology*, Grundlehren der Math. Wissen. __307__, Springer 1993. (translated from Russian original)
-
-* Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) [amazon](http://www.amazon.com/Geometrical-Methods-Mathematical-Physics-Bernard/dp/0521298873), [google](http://books.google.hr/books?id=HAPMB2e643kC&lpg=PP1&dq=schutz%20geometrical%20methods&pg=PP1#v=onepage&q&f=false)
 
 * Howard Georgi: _Lie Algebras in Particle Physics. From isospin to unified theories._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0505.00036&format=complete))
 
