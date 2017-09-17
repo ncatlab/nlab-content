@@ -69,18 +69,40 @@ for its set of [[normal operator]]s. This is naturally a [partial C-star algebra
 
 For $A$ a [partial C-star algebra](#PartialCStar) write $\mathcal{C}(A)$ for the [[poset]] of total (not partial) commutative sub [[C-star algebra]]s. We call this the [[semilattice of commutative subalgebras]].
 
-Let $\mathcal{T}_A = [\mathcal{C}(A), Set]_{\not \not}$ be the [[sheaf topos]] over this poset. This is naturally a [[ringed topos]] with ring object $\underline{A} : C \mapsto C$ that is actually a [[internalization|interal]] commutative $C^*$-algebra. Write $\underline{\Sigma}_A$ for the corresponding internal [[locale]] associated to $\underline{A}$ by internal [[constructive Gelfand duality]]. Write 
+Let 
+
+$$
+  [\mathcal{C}(A), Set]
+$$ 
+
+be the [[presheaf topos]] over this poset and
+
+$$
+  Sh_{\not \not}(\mathcal{C}(A)^{op}) \hookrightarrow [\mathcal{C}(A), Set]
+$$
+
+the [[sheaf topos]] for the [[double negation topology]].
+
+Both of these arenaturally [[ringed topos]]es with ring object 
+$\underline{A} : C \mapsto U(C)$ (where $U : CStar \to Set$ is the underlying set functor) that is actually a [[internalization|interal]] commutative $C^*$-algebra. Write $\underline{\Sigma}_A$ and $\Sigma_A^{\not \not}$, respectively for the corresponding [[internal locale]]s associated to $\underline{A}$ by internal [[constructive Gelfand duality]]. Write 
 
 $$
   \Sigma_A \to \mathcal{C}(A)
+$$ 
+
+and
+
+$$
+  \Sigma^{\not \not}_A \to \mathcal{C}(A)
 $$ 
 
 for the corresponding external locale, given under the [[equivalence of categories]]
 
 $$
   Loc(Sh(\mathcal{C}(A))) \simeq Loc/\mathcal{C}(A)
-  \,.
 $$
+
+discussed at [[internal locale]].
 
 =--
 
@@ -90,7 +112,13 @@ $$
 For $A$ a (noncommutative) [[C-star algebra]], the assignment
 
 $$
-  A \mapsto \Sigma_{N(A)}
+  A \mapsto \Sigma_{A}
+$$
+
+or 
+
+$$
+  A \mapsto \Sigma^{\not \not}_{A}
 $$
 
 is called the **Bohrification** of $A$.
@@ -98,6 +126,7 @@ is called the **Bohrification** of $A$.
 =--
 
 ## Properties
+
 
 
 +-- {: .num_prop}
@@ -116,6 +145,34 @@ $$
 =--
 
 (...)
+
++-- {: .num_prop}
+###### Proposition
+
+The Bohrification of $A \in ncCStar$ only depends on its [partial C-star algebra](#PartialCStar) $N(A)$ of normal elements
+
+$$
+  \Sigma_A \simeq \Sigma_{N(A)}
+  \,.
+$$
+
+=--
+
+This is highlighted in ([vdBergHeunen](#vdBergHeunen)).
+
++-- {: .num_prop}
+###### Proposition
+
+For $A$ a commutative $C^\ast$-algebra and $\Sigma_A^{Gelf} \in $ [[Loc]] its ordinary [[Gelfand spectrum]], we have that Bohrification in the double negation topology reproduces this ordinary Gelfand spectrum:
+
+$$
+  \Sigma^{\not \not}_A \simeq \Sigma_A^{Gel}
+  \,.
+$$
+
+=--
+
+This is [Spittes06, theorem 9, corollary 10](#Spitters06).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -168,14 +225,18 @@ that assigns to each [[open subset]] of $X$ regarded as [[spacetime]] an object 
 * Erhard Scheibe. _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
 {#Scheibe}
 
-The [[functor|functoriality]] of Bohrification is observed in 
-
-* [[Benno van den Berg]], [[Chris Heunen]], _Noncommutativity as a colimit_ ([arXiv:1003.3618](http://arxiv.org/abs/1003.3618))
-{#vdBergHeunen}
-
-The [[topos theory|topos-theoretic]] constructions involved in or related to this are exposed in
+The term _Bohrification_ and the investigations associated with it are initiated in
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification of operator algebras and quantum logic_ ([arXiv:0905.2275](http://arxiv.org/abs/0905.2275))
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], [[Sander Wolters]], _The Gelfand spectrum of a noncommutative $C^\ast$-algebra: a topos-theoretic approach_ ([arxiv:1010.2050](http://arxiv.org/abs/1010.2050))
 
+The [[functor|functoriality]] of Bohrification is observed in 
+
+* [[Benno van den Berg]], [[Chris Heunen]], _Noncommutativity as a colimit_ ([arXiv:1003.3618](http://arxiv.org/abs/1003.3618))
+{#vdBergHeunen}
+
+The application of the double negation topology to make Bohrification coinicide with ordinary [[Gelfand duality]] on commutative $C^*$-algebras is discussed in 
+
+* [[Bas Spitters]], _The space of measurement outcomes as a spectrum for non-commutative algebras_ in Cooper, Kashefi, Panangaden (eds.) _Developments in computational models_ (DCM 2010)([arXiv:1006.1432](http://arxiv.org/abs/1006.1432))
+{#Spitters06}
