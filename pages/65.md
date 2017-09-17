@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -100,6 +104,8 @@ We had some blog discussion about this at
 [Freely generated omega-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
 
 ## Related concepts
+
+* [[basic localizer]]
 
 * [[canonical model structure on Operad]]
 
