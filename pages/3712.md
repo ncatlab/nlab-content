@@ -1,0 +1,23 @@
+The purpose of this stub is to collect (in future) various characterizations, expressions, consequences and applications of flatness of connections in various area of mathematics and mathematical physics. 
+
+## Definition and general properties
+
+A [[connection]] on a fibre bundle is **flat** if its [[curvature]] is zero. The same definition of faltness holds for connections in various algebraic setups. 
+
+The condition of flatness is usually expressed via the [[Maurer-Cartan equation]]. Flat connections on bundles correspond to [[local system]]s. 
+
+## Flatness as integrability
+
+In geometry one says instead of flat connection, **integrable connection**. The reason is roughly the following: in the theory of systems of differential equations the flatness of the corresponding connection is the condition of the integrability of the system. 
+
+(...elaborate on this with equations)
+
+The condition of flatness is usually expressed via the [[Maurer-Cartan equation]], which is in integrable systems theory often called *zero curvature equation*. For example, the Lax equations can always be written in the form of the zero curvature equation. 
+
+## Isometric embeddings
+
+Maurer-Cartan equation is called also structure equation when used to treat the conditions for isometric embeddings of Riemannian submanifolds in an Euclidean space. 
+
+...
+
+[[!redirects integrable connection]]
