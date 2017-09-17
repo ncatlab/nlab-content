@@ -1,7 +1,26 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
-...
+For $\tau \mapsto f(\tau)$ a suitably well-behaved [[function]] of a single [[variable]], its _Mellin transform_ is the function given by the [[integral]] expression
+
+$$
+  s \mapsto \int_0^\infty \tau^{s-1} f(\tau) \; d\tau
+ \,.
+$$
+
+## Examples
+
+### Zeta functions
+
+A [[zeta function]]/[[L-function]] is the [[analytic continuation]] of the Mellin transform of the corresponding [[theta function]].
+
+### 1-loop vacuum amplitudes
+
+[[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _Schwinger parameter_.
 
 ## Properties
 
@@ -30,3 +49,5 @@ In particular it sends the [[Jacobi theta function]] to the [[Riemann zeta funct
 * Wikipedia, _[Mellin transform](http://en.wikipedia.org/wiki/Mellin_transform)_
 
 [[!redirects Mellin transforms]]
+
+[[!redirects Schwinger parameter]]
