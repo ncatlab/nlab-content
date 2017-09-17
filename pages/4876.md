@@ -185,7 +185,7 @@ for the case that $\Sigma_2$ is [[closed manifold|closed]], and generally in
 
 * [[Krzysztof Gawędzki]], _Topological actions in two-dimensional quantum field theories_. In: Nonperturbative quantum field theory. 'tHooft, G. et al. (eds.). London: Plenum Press 1988
 
-as the [[surface homolomy]] of a [[circle 2-bundle with connection]]. See also the references at _[[B-field]]_ and at _[[Freed-Witten anomaly cancellation]]_.
+as the [[surface holonomy]] of a [[circle 2-bundle with connection]]. See also the references at _[[B-field]]_ and at _[[Freed-Witten anomaly cancellation]]_.
 
 For the fully general understanding as the [[surface holonomy]] of a [[circle 2-bundle with connection]] see the references [below](#ReferencesRelationToGerbesAndCS).
 
