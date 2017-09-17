@@ -653,6 +653,7 @@ $$
   \mathbf{H}_{Disc A}
   \to 
   \infty Grpd_{/A}
+
   \,.
 $$
 
@@ -1077,7 +1078,7 @@ For $\mathbf{H} = $ [[∞Grpd]] ("discrete cohesion", see [below](#DiscreteInfin
 For $\mathbf{H}$ a cohesive $(\infty.1)$-topos its [[category of simplicial objects|(∞,1)-category of simplicial objects]] $\mathbf{H}^{\Delta^{op}}$ is cohesive over $\mathbf{H}$
 
 $$
-  \mathbf{H}^{Delta^{op}}
+  \mathbf{H}^{\Delta^{op}}
   \stackrel{\Pi_I}{\stackrel{\to}{\stackrel{\overset{Disc_I}{\leftarrow}}{\stackrel{\overset{\Gamma_I}{\to}}{\underset{coDisc_I}{\leftarrow}}}}}
   \mathbf{H}
   \,.
