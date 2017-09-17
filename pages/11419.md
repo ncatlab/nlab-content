@@ -19,7 +19,7 @@
 {:toc}
 ## Idea
 
-The _splitting principle_ in [[Chern-Weil theory]]/[[nonabelian cohomology]] is a method of turning a $G$-[[principal bundle]] for $G$ a [[compact Lie group]] into a [[torus]] bundle (hence _splitting_ it into [[line bundles]]) such that the [[universal characteristic classes]] of the original $G$-bundle may be computed in terms of the (generally simpler) classes of this torus bundle.
+The _splitting principle_ in [[Chern-Weil theory]]/[[nonabelian cohomology]] is a method of turning a $G$-[[principal bundle]] for $G$ a [[compact Lie group]] into a [[torus]] bundle (hence _splitting_ it into [[complex line bundles]]) such that the [[universal characteristic classes]] of the original $G$-bundle may be computed in terms of the (generally simpler) classes of this torus bundle.
 
 ## Statement
 
@@ -101,6 +101,49 @@ $$
 (Since $p^\ast$ is injective, this is a genuine characterization of $c(P)$).
 
 =--
+
+## Examples
+ {#Examples}
+
+### Complex vectors bundles and their Chern roots
+ {#ComplexVectorBundleAndTheirChernRoots}
+
+For $G = U(n)$ the [[unitary group]], the [[universal characteristic classes]] are the [[Chern classes]] $c_k \in H^\bullet(B U(n), \mathbb{Z})$. By the discussion at _[Chern class -- Properties -- Splitting principle and Chern roots](Chern+class#SplittingPrinciple).
+the universal splitting principle here says that 
+
+$$
+  (B i)^\ast(\sum_k c_k) = (1 + x_1) \cdots (1+ x_n)
+  \,,
+$$
+
+where the $x_i \in H^\bullet(B U(1)^n , \mathbb{Z})$ are the universal characteristic classes of the [[maximal torus]], hence are $n$ incarnations of the [[first Chern class]] 
+It follows that every [[complex vector bundle]] $\xi$ of [[rank]] $n$ over a space $X$ when pulled back to its [[flag space]] bundle decomposes as a [[direct sum]] of [[complex line bundles]] $\zeta_i$ and has [[Chern classes]] $c_k$ expressed in terms of the [[first Chern classes]] of these line bundles as
+
+$$
+  c_k(p^\ast \xi ) = \sigma_k(c_1(\zeta_1), \cdots, c_n(\zeta_n))
+  \,.
+$$
+
+This case is what is traditionally is often meant by default by the "splitting principe".
+
+For the [[special unitary group]] the situation is the same, only that here the splitting is into a sum of line bundles used [[tensor product]] is constrained to be trivializable.
+
+### Real vector bundles 
+ {#RealVectorBundles}
+
+Under the _[Relation between Pontryagin classes and Chern classes](Pontryagin+class#FurtherRelationToChernClasses)_ the above translates into a splitting principle also for [[real vector bundles]].
+
+### Genera and Hirzebruch characteristic series
+
+The basic theorem of [[Hirzebruch series]] expresses [[genera]] via the splitting principle. The Hirzebruch characteristic series $K_\phi$ is a [[series]] in a single variable $x = c_1(L)$, to be thought of as the [[first Chern class]] of the universal [[complex line bundle]] over $B U(1)$. 
+
+The Hirzebruch formula for the value of the [[genus]] $\phi$ on an [[orientation|oriented]] [[manifold]] $X$
+
+$$
+  \phi(X) = \langle K_\phi(T X), [X]\rangle
+$$
+
+denotes the pairing of that class of the [[tangent bundle]] with the [[fundamental class]] which under the splitting principle pulls back on the [[flag space]] bundle to the class $\prod_k K_\phi(x_k)$ of the corresponding direct sum of line bundles.
 
 
 ## Related concepts
