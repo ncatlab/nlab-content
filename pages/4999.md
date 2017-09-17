@@ -20,15 +20,15 @@ It is usual to classify them using their axiom systems, but also in terms of the
 
 Modal logics have semantics given in terms of [[Kripke frames]], which are simply [[relational structures]]. For instance, [[temporal logics]] have [[posets]] as models.
 
-The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics.
+The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics. (For the moment, these will be unary operators and we will not be considering operators that have more than one input. The general case is discussed in the books on modal logic listed below.)
 
 ## Multimodal Logics## 
 
-We will give a modal language with $n$ modal operators, $\Diamond_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions:
+We will give a modal language with $n$ modal operators, $\Diamond_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions.  If $n=1$, we will refer to the language, defined below,  as the _basic modal langugae_.
 
 +--{: .un_defn}
 ######Definition ######
-We suppose given a set of variables, the $n$-operator basic modal language $\mathcal{L}_\omega(n)$ given by  
+We suppose given a set of variables, the _$n$-operator basic modal language_, $\mathcal{L}_\omega(n)$, given by  
 
 $$\phi ::= p_\lambda \mid \bot \mid \neg \phi \mid \phi_1 \vee \phi_2 \mid \Diamond_i\phi,$$  
 
@@ -36,9 +36,24 @@ where the $p_\lambda$ are the propositional variables ordered by finite ordinals
 
 =--
 ####Gloss####
+1. This form of definition needs a bit of interpreting if you have not met it before.  It gives a way of deciding if a formula is 'well-formed'.  The well formed formulae of  $\mathcal{L}_\omega(n)$ are defined as follows: A formula is either
+
+   * a proposition variable, 
+
+   * the propositional constant $\bot$, that is _falsum_, 
+
+   * a negated formula,
+
+   * a disjunction of two formulae, or
+
+   * a formula prefixed by one of the diamonds / modal operators.
+
+
+
 1. The interpretation of $\Diamond \phi$ depends on the context (to some extent), but in the initial form here it is usually said to mean 'possibly $\phi$'.
 
-1. Some authors use an equivalent generation rule using $\square \phi$, which is $\neg \Diamond \neg \phi$. Of course, this interprets as 'necessarily $\phi$'.
+1. Some authors use an equivalent generation rule using $\square \phi$, which is $\neg \Diamond \neg \phi$. Of course, this interprets as 'necessarily $\phi$' in this initial form.  In [[epistemic logic]] the basic modal language interprets $\square \phi$ as saying 'the agent knows that $\phi$'.
+
 
 1. Another formulation replaces $\vee$ and $\neg$ by implication $\phi_1\to \phi_2$.
 
@@ -64,7 +79,8 @@ and monotonicity (for each $i$):
 if $\psi \to \chi \in \Lambda$ then $\Diamond_i \psi \to \Diamond_i \chi \in \Lambda$.  
  
 =--
-
+## Semantics## 
+The usual semantics of modal languages is in terms of [[frames (Kripke)]]. (These are quite often called 'Kripke frames' as Kripke was one of the first to use relational semantics in this context. A discussion of the history can be found in  the book by Blackburn, de Rijke and Vedema, (see below) page 42.) As there is another sense to [[frame]] as the dual of a [[locale]], we probably need to think of the terminology here.) A more detailed discussion of [[frames (Kripke)]] is to be found at that entry. 
 
 
 ## References## 
@@ -77,4 +93,4 @@ General books on modal logics include
 
 and more particularly on epistemic logics and their applications,
 
-* J.- J. Ch. Meyer and W. Van der Hoek, Epistemic logic for AI and Computer Science, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995. 
+* J.- J. Ch. Meyer and W. Van der Hoek, _Epistemic logic for AI and Computer Science_, Cambridge Tracts in Theoretical Computer Science, vol. 41, 1995. 
