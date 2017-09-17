@@ -15,6 +15,12 @@ By a result by Brown and Higgins, going back to insights by Whitehead, $\omega$-
 
 Strict $\infty$-groupoids form one of the vertices of the [[cosmic cube]] of [[higher category theory]].
 
+## $(\infty,1)$-Category of strict $\infty$-groupoids
+
+There is a [[model structure on strict ∞-groupoids]]. 
+
+This should [[presentable (∞,1)-category|present]] the full [[sub-(∞,1)-category]] of [[∞Grpd]] on strict $\infty$-groupoids.
+
 ## References
 
 A textbook reference is
