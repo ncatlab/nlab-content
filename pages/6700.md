@@ -45,6 +45,10 @@ Lectures and reviews include
 
 * {#Gawedzki99} [[Krzysztof Gawędzki]], section 5.6 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
+A nice review with a new concise construction is in
+
+* {#Looijenga10} [[Eduard Looijenga]], _From WZW models to Modular Functors_ ([arXiv:1009.2245](http://arxiv.org/abs/1009.2245))
+
 
 Discussion in the context of [[(2,1)-dimensional Euclidean field theories and tmf]] is in
 
