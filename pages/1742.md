@@ -118,3 +118,9 @@ With labels left implicit, this notation becomes very economical:
 [[!redirects zig-zag identity]]
 [[!redirects zig-zag law]]
 [[!redirects triangle identity]]
+
+[[!redirects zigzag-identity]]
+[[!redirects zigzag-identities]]
+[[!redirects zigzag-identity]]
+[[!redirects zig-zag-identities]]
+[[!redirects zig-zag-identity]]
