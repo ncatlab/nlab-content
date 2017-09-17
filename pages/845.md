@@ -61,7 +61,8 @@ determines a functor $C\to A\star B$ and viceversa.
 
 * If the small categories $C,C'$ are two posets, their join consists of their [[ordinal sum]];
 * The monoidal structure induced on $\Cat$ by $\star$ is not symmetric (if it was, then the right cone of $C$ would be equivalent to the left cone, which is blatantly false);
-* The functors $-\star C', C\star -$ both are left adjoints; see [Joyal, Ch. 3.1.1-2](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf#page=96) for a detailed description.
+* The monoidal structure induced on $\Cat$ by $\star$ is not closed, since the functor $A\star -$ does not preserve colimits.
+* The functor $-\star C'\colon \Cat \to C'/\Cat\colon A\mapsto (A\to A\star C')$ is a left adjoints, and similarly is the functor $C\star-$; see [Joyal, Ch. 3.1.1-2](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf#page=96) for a detailed description.
 
 #Examples#
 
