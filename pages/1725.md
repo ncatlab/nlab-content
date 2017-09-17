@@ -12,7 +12,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -23,12 +23,14 @@ It is best known now through a [[geometric definition of higher category]].
 
 Models include 
 * the definition by [[Carlos Simpson]] and Tamsamani;
-* the definition in terms of [[n-fold Segal space]]s;
+* the definition in terms of [[n-fold Segal spaces]];
 * a definition in terms of scaled simplicial sets, following Verity's [[simplicial model for weak omega-categories]] by Jacob Lurie (see reference below)
 
-See also the list of all definitions of higher categories at [[n-category]].
+See also the list of all definitions of higher categories at [[(∞,n)-category]].
 
-## Models for the $(\infty,1)$-category of $(\infty,2)$-categories {#TotMod}
+## Properties
+
+### Models for the $(\infty,1)$-category of $(\infty,2)$-categories {#TotMod}
 
 In _[[(∞,2)-Categories and the Goodwillie Calculus]]_ [[Jacob Lurie]] discusses a variety of [[model category]] structures, all [[Quillen equivalence|Quillen equivalent]], that all model the [[(∞,1)-category]] of $(\infty,2)$-categories, in generalization of the standard model category models for [[(∞,1)-category|(∞,1)-categories]] themselves (see there for details).
 
@@ -50,6 +52,14 @@ between Joyal-$SSet$-enriched categories, Joyal-$SSet$-enriched [[complete Segal
 
 This is [remark 0.0.4, page 5](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0462v2.pdf#page=5) of the article.
 There are many more models. See there for more.
+
+## Examples
+
+Classes of examples include
+
+* [[(∞,2)-toposes]]
+
+* For $\mathcal{C}$ a suitable [[monoidal (∞,1)-category]] there is the $(\infty,2)$-category $Mod(\mathcal{C})$ of $\infty$-algebras and $\infty$-bimodules in $\mathcal{C}$. See at _[bimodule - Properties - The (∞,2)-category of ∞-algebras and ∞-bimodules](bimodule#Infinity2CategoryOfInfinityAlgebrasAndBimodules)_.
 
 ## Related concepts
 
