@@ -1,5 +1,5 @@
 
-A __perplex number__ is an expression of the form $a + \mathrm{I} b$, where $a$ and $b$ are [[real numbers]] and $\mathrm{I}^2 = 1$ (but $\mathrm{I} \ne \pm{1}$).  The set of perplex numbers (in fact a [[topological vector space]] and [[commutative algebra]] over the real numbers) may be denoted $\mathbf{P}$ or $\mathbb{P}$.
+A __perplex number__ (also known as a __split-complex number__ or a __hyperbolic number__ or a __Lorentz number__ or myriad other such synonyms varying from author to author) is an expression of the form $a + \mathrm{I} b$, where $a$ and $b$ are [[real numbers]] and $\mathrm{I}^2 = 1$ (but $\mathrm{I} \ne \pm{1}$).  The set of perplex numbers (in fact a [[topological vector space]] and [[commutative algebra]] over the real numbers) may be denoted $\mathbf{P}$ or $\mathbb{P}$.
 
 This can be thought of as:
 
