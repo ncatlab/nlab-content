@@ -118,7 +118,7 @@ If the site $S$ _has enough points_ then this condition is equivalent to saying 
 
 ###In terms of local liftings###
 
-(see _DI02_ )
+(see _DI02_, i.e. Dugger and Isaksen, Weak equivalences of simplicial presheaves )
 
 If $X$ and $Y$ are local fibrations there is a characterisation in terms of local homotopy liftings. In this case a local weak equivalence is a morphism $f : X \to Y$ such that for all commuting diagrams
 
