@@ -115,13 +115,20 @@ An early influential reference on _(completely) positive trace-preserving maps (
 * M. Choi, _Completely positive linear maps on complex matrices_, Linear Algebra and its Applications Volume 10, Issue 3, (1975), Pages 285-290
  {#Choi}
 
-A useful review of the notion is provided by 
+Reviews and surveys include
+
+* [[Greg Kuperberg]], section 1.5 of _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
+ {#Kuperberg05}
+
+* Michael Nielsen, Isaac Chuang, section 8.2 of_Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge (2000) ([[NielsenChuangQuantumComputation.pdf:file]])
+
+See also
 
 * Caleb J. O'Loan (2009), _Topics in Estimation of Quantum Channels_ , PhD thesis, University of St. Andrews, ([arXiv](http://arxiv.org/abs/1001.3971))
 
+
 * Christian B. Mendl, Michael M. Wolf, _Unital Quantum Channels - Convex Structure and Revivals of Birkhoff's Theorem_ , Commun. Math. Phys. 289, 1057-1096 (2009) ([arXiv:0806.2820](http://arxiv.org/abs/0806.2820))
 
-* Michael Nielsen, Isaac Chuang, _Quantum Computation and Quantum Information_, Cambridge University Press, Cambridge (2000)
 
 * Smolin, John A., Verstraete, Frank, and Winter, Andreas _Entanglement of assistance and multipartite state distillation_ , Phys. Rev. A, vol. 72, 052317, 2005 ([arXiv:quant-ph/0505038](http://arxiv.org/abs/quant-ph/0505038))
 
