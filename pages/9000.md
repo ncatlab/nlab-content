@@ -1,0 +1,1 @@
+The term *cartesian reflector* (A4.3.1) is used in the [[Elephant]] to say *idempotent  cartesian monad*. This is because an idempotent monad is called a *reflector* (A1.1.1), there.
