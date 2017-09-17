@@ -3,15 +3,14 @@ Consider the following table.  The basic thesis of this page is that, if you are
 
 | Category theory | Order theory |
 | - | - |
-| [[category]] | [[poset]] |
-| [[strict category]] | [[proset]] |
+| [[category]] | [[proset]] |
+| [[skeletal category]] | [[poset]] |
 | [[groupoid]] | [[set]] |
 | [[functor]] | [[monotone function]] |
 | [[limit]] | [[meet]] |
 | [[colimit]] | [[join]] |
-| ([[dual adjunction|dual]] [[adjunction]]| [[Galois connection]] |
+| ([[dual adjunction|dual]]) [[adjunction]]| [[Galois connection]] |
 | [[monad]] | [[Moore closure]] |
-| [[boolean topos]] | [[boolean algebra]] |
 | [[cartesian closed category|cartesian closed]] [[pretopos]] | [[Heyting algebra]] |
 | [[Grothendieck topos]] | [[locale]] |
 | [[site]] | [[posite]] |
