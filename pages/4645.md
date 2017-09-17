@@ -1825,7 +1825,7 @@ $$
       \\
       \uparrow && \uparrow
       \\
-      \Omega^\bullet(U \times \Delta^n_{Diff})
+      \Omega^\bullet(U) \otimes \Omega^\bullet(\Delta^n_{Diff})
       &\leftarrow&
       inv(\mathfrak{g})
     }
@@ -2002,7 +2002,7 @@ $$
   \,.
 $$
 
-A [[cocycle]] $\mu$ in the [[∞-Lie algebra cohomology]] of $\mathfrak{g}$ coming by transgression from an [[invariant polynomial]] $\langle - \rangle$ mediated by a Chern-Simons element $cs$ is exhibited by a diagram
+A [[cocycle]] $\mu$ in the [[∞-Lie algebra cohomology]] of $\mathfrak{g}$ coming by transgression from an [[invariant polynomial]] $\langle - \rangle_\mu$ mediated by a Chern-Simons element $cs_\mu$ is exhibited by a diagram
 
 $$
   \array{
@@ -2011,21 +2011,19 @@ $$
      \\
      \uparrow && \uparrow
      \\
-     W(\mathfrak{g}) &\stackrel{cs}{\leftarrow}&
+     W(\mathfrak{g}) &\stackrel{cs_\mu}{\leftarrow}&
      W(b^k \mathbb{R})
      \\
      \uparrow && \uparrow
      \\
      inv(\mathfrak{g})
-     &\stackrel{\langle -\rangle}{\leftarrow}&
+     &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
      inv(b^k \mathbb{R}) & = CE(b^{k+1} \mathbb{R})
   }
   \,.
 $$
 
-
-
-A connection with values in $\mathfrak{g}$ is encoded by [[simplicial presheaves]] that assign sets of diagrams of the form
+A connection with values in $\mathfrak{g}$ is encoded by [[simplicial presheaves]] of [[∞-Lie algebra valued differential forms]] that assign sets of diagrams of the form
 
 $$
   \array{
@@ -2063,14 +2061,19 @@ $$
      CE(\mathfrak{g})
      &\stackrel{\mu}{\leftarrow}&
      CE(b^k \mathbb{R})
+     & : \mu(A)
+     &&&
+     characteristic\;class
      \\
      \uparrow && \uparrow && \uparrow
      \\
      \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
      &\stackrel{A}{\leftarrow}&
      W(\mathfrak{g})
-     &\stackrel{cs}{\leftarrow}&
+     &\stackrel{cs_\mu}{\leftarrow}&
      W(b^k \mathbb{R})
+     &
+     : cs_\mu(A)
      &&&
      Chern-Simons\;form
      \\
@@ -2079,8 +2082,10 @@ $$
      (\Omega^\bullet(U)\otimes C^\infty(\Delta^n))_{closed}
      &\stackrel{\langle F_A\rangle}{\leftarrow}&
      inv(\mathfrak{g})
-     &\stackrel{\langle -\rangle}{\leftarrow}&
+     &\stackrel{\langle -\rangle_\mu}{\leftarrow}&
      inv(b^k \mathbb{R})
+     &
+     : \langle F_A\rangle_\mu
      &&&
      curvature\;characteristic\;form
   }
