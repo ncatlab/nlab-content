@@ -49,7 +49,7 @@ Conversely, one may typically think of the geometric presentation of an $(n,r)$-
 
   * an [[n-fold complete Segal space]]
 
-* a geoemtric model for a general [[omega-category]] is supposed to be a [[weak complicial set]]
+* a geometric model for a general [[omega-category]] is supposed to be a [[weak complicial set]]
 
 ## Properties
 
