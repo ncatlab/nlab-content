@@ -145,7 +145,7 @@ Then $\Desc [N(A),X]\cong[A,X]$
 
 ## Related concepts
 
-See also _[[descent]]_ and [[categroy of descent data]]. 
+See also _[[descent]]_ and [[category of descent data]]. 
 
 Discussion related to the computation of descent objects is also at _[[model structure on cosimplicial simplicial sets]]_.
 
