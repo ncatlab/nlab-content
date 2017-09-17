@@ -18,6 +18,8 @@
 
 * [[particle]], [[string]], [[brane]]
 
+* [[preon]]
+
 * [[unitary representation of the Poincaré group]]
 
 * [[particle physics]], [[standard model of particle physics]]
