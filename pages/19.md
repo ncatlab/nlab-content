@@ -169,7 +169,7 @@ All these are special cases of each other and thus reflect different aspect of o
 
 ## The central theorems
 
-Category theory has a handful of central lemmas and theorems. Their proof is typically easy, sometimes almost tautological. Their power rests in the fact that they apply over and over again all over mathematics. Many concrete constructions get simplified by observing that they are but special realizations of these general abstract results in category theory. These central theorems are
+Category theory has a handful of central lemmas and theorems. Their proof is typically easy, sometimes almost tautological. Their power rests in the fact that they apply over and over again all over mathematics. Many concrete constructions get simplified by observing that they are but special realizations of these general abstract results in category theory. Among these central theorems are
 
 * first and foremost: the [[Yoneda lemma]];
 
