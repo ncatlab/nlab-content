@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -57,7 +57,7 @@ It is easy to check that these would be the unit and counit of an [[adjunction]]
 
 The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] and also holds classically in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 If $G:D\to C$ is any functor between (small) preorders such that $D$ has, and $G$ preserves, all small [[meet]]s, then $G$ has a left adjoint.
@@ -72,7 +72,7 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 ## Statement
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Sufficient conditions for a limit-preserving functor $G : D \to C$ to be a [[right adjoint]] include:
@@ -127,7 +127,47 @@ If in addition each $d \downarrow R$ has a weakly initial family (solution set c
 =--
 
 
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $F : C \to D$ be a functor between [[locally presentable categories]]. Then
+
+* $F$ has a [[right adjoint]] precisely if it preserves all small [[colimits]].
+
+* $F$ has a [[left adjoint]] precisely if it is an [[accessible functor]] and preserves all small [[limits]].
+
+=--
+
+This is ([AdamekRosicky, theorem 1.66](#AdamekRosicky)).
+
 ## Examples {#Examples}
+
+### For functors between sheaf toposes
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[sheaf topos]] is a [[total category]] and a [[cototal category]].
+
+=--
+
+See the discussion at _[[Grothendieck topos]]_ . 
+
+
+It follows that
+
++-- {: .num_cor}
+###### Corollary
+
+Let $F : C \to D$ be a [[functor]] between [[sheaf toposes]]. Then
+
+* $F$ has a [[right adjoint]] precisely if it preserves all small [[colimits]];
+
+* $F$ has a [[left adjoint]] precisely if it preserves all small [[limits]].
+
+=--
+
 
 ### In presheaf categories {#InPresheafCategories}
 
@@ -225,5 +265,10 @@ A detailed expository survey is
 The adjoint functor theorem in context with [[Yoneda embedding]] is discussed in 
 
 * Friedrich Ulmer, _The adjoint functor theorem and the Yoneda embedding_  Illinois J. Math. Volume 15, Issue 3 (1971), 355-361. ([web](http://projecteuclid.org/euclid.ijm/1256052605))
+
+The case for [[locally presentable categories]] is discussed in
+
+* [[Jiri Adamek]], [[Jiri Rosicky]], _[[Locally presentable and accessible categories]]_ Cambridge University Press (1994)
+  {#AdamekRosicky}
 
 [[!redirects adjoint functor theorem]]
