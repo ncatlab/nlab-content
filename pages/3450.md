@@ -40,6 +40,7 @@ For details see [[groupoid object in an (∞,1)-category]].
 
 ## Related concepts
 
+
 * [[group]]
 
 * [[2-group]]
@@ -48,15 +49,19 @@ For details see [[groupoid object in an (∞,1)-category]].
 
 * **$\infty$-group**
 
-* [[looping and delooping]]
+  * [[looping and delooping]]
 
-* [[automorphism ∞-group]],
+  * [[automorphism ∞-group]],
 
-* [[center of an ∞-group]]
+  * [[center of an ∞-group]]
 
-* [[outer automorphism ∞-group]]
+  * [[normal morphism of ∞-groups]]
 
-* [[Eilenberg-MacLane object]], [[∞-gerbe]]
+  * [[stabilizer ∞-group]]
+
+  * [[outer automorphism ∞-group]]
+
+  * [[Eilenberg-MacLane object]], [[∞-gerbe]]
 
 
 ## References
