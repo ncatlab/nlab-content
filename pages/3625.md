@@ -22,7 +22,7 @@ Unitary operators are the [[automorphism]]s of Hilbert spaces since they preserv
 
 Sometimes operators may only obey the _[[isometry]]_ $U^{*}U=I$ or the _[[coisometry]]_ $U U^{*}=I$.
 
-The generalization of a unitary operator is called a _unitary element_ of a [[unital]] [[*-algebra]].
+The generalization of a unitary operator is called a _unitary element_ of a [[unital algebra|unital]] [[star-algebra|*-algebra]].
 
 #Unitary matrices
 
