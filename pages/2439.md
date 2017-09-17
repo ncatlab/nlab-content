@@ -436,6 +436,12 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 (...)
 
+## Related concepts
+
+* [[smooth superalgebra]]
+
+* [[supermanifold]]
+
 ## References
 
 Basics of superalgebra are reviewed in section 2 and the topos-theoretic reformulation is discussed in section 3 of
