@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Definition
 
 An **epimorphism** in a [[category]] $C$ is a [[morphism]] 
 $f : X \to Y$ 
@@ -14,27 +14,133 @@ $$
   \,.
 $$
 
-In more elementary terms, $f: X \to Y$ is an epimorphism if, given any $g, h: Y \to Z$, $g = h$ if $f; g = f; h$:
-$$\array{
+In more elementary terms, $f: X \to Y$ is an epimorphism if, given any $g, h: Y \to Z$, such that the composites $\stackrel{f}{\to} \stackrel{g}{\to} = \stackrel{f}{\to} \stackrel{h}{\to}$ are equal, then already $g = h$:
+$$
+\left(\array{
   &              & Y \\
   & \nearrow_{f} &   & \searrow^{g} \\
 X &              &   &              & Z \\
   & \searrow^{f} &   & \nearrow_{h} \\
   &              & Y \\
-} \quad\quad \Rightarrow \quad\quad \array{
+} 
+\right)
+\quad\quad \Rightarrow \quad\quad 
+\left(\array{
 X & \rightarrow^{f} & Y & \rightrightarrows^g_h & Z \\
-}$$
+}\right)$$
 
-+--{.query}
-Can anybody make this look nicer? Preferably with curved arrows in the right-hand diagram? And maybe even with little vertical equals signs to show how the diagrams commute? I can do it in XYpic, but that\'s not supported by iTeX.
-=--
-
-An epimorphism in $C^{op}$ is a [[monomorphism]] in $C$.
+## Examples
 
 The epimorphisms in [[Set]] are the [[surjection|surjective]] functions; thus epimorphisms can be thought of as a categorical notion of surjection.  However, this is frequently not quite right: in categories of sets with [[stuff, structure, property|extra structure]], epimorphisms need not be surjective (unlike the case for [[monomorphism]]s, which are usually injective).  Often, though, the surjections correspond to a stronger notion of epimorphism.
 
+## Properties
 
-# Variations #
++-- {: .un_prop}
+###### Proposition
+
+The following are equivalent
+
+* $f : x \to y$ is an epimorphism in $C$;
+
+* $f$ is a [[monomorphism]] in the [[opposite category]] $C^{op}$;
+
+* for all $d$, $Hom(f,d)$ is a [[monomorphism]] in [[Set]] -- an [[injection]];
+
+* the [[commuting diagram]] 
+  $$
+    \array{
+      x &\stackrel{f}{\to}& y
+      \\
+      {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Id}}
+     \\
+     y &\underset{Id}{\to}& y
+    }
+  $$
+
+  is a [[pushout]] diagram.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Every [[coequalizer]]
+
+$$
+  z \stackrel{\to}{\to} x \to y
+$$
+
+is an epimorphism.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+Epimorphisms are preserved by [[pushout]]: if $f : x \to y$ is an epimorphism and
+
+$$
+  \array{
+    x &\to& a
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{g}
+    \\
+    y &\to& b
+  }
+$$
+
+is a [[pushout]] diagram, then also $g$ is an epimorphism.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $h_1,h_2 : b \to c$ be two morphisms such that $\stackrel{g}{\to} \stackrel{h_1}{\to} = \stackrel{g}{\to} \stackrel{h_2}{\to} $. Then by the commutativity of the diagram also $x \to y \to b \stackrel{h_1}{\to} c$ equals $x \to y \to b \stackrel{h_2}{\to} c$. Since $x \to y$ is assumed to be epi, it follows that $y \to b \stackrel{h_1}{\to} c$ equals $y \to b \stackrel{h_2}{\to} c$. But this means that $h_1$ and $h_2$ define the same [[cocone]]. By the universality of the pushout $b$ there is a unique map of cocones from $b$ to $c$. Hence $h_1$ must equal $h_2$. Therefore $g$ is epi. 
+
+=---
+
++-- {: .un_prop}
+###### Proposition
+
+Epimorphisms are preserved by [[left adjoint]] [[functor]]s:
+
+if $F : C \to D$ is a [[functor]] which is [[left adjoint]] then for $f \in Mor(C)$ an epimorphism also $F(f) \in Mod(D)$ is an epimorphism
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One argument is this:
+
+By the [[adjunction]] [[natural isomorphism]] we have for all $d \in Obj(D)$
+
+$$
+  Hom_D(L(f),d) \simeq Hom_C(f,R(d))
+  \,.
+$$
+
+The right hand is a monomorphism by assumption, hence so is the left hand, hence $L(f)$ is epi.
+
+Another argument is this: use that by the above $f$ is epi precisely if
+
+$$
+  \array{
+    & \stackrel{f}{\to} &
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Id}}
+    \\
+    & \underset{Id}{\to} & 
+  }
+$$
+
+is a [[pushout]] diagram and observe that left adjoint functors preserve pushouts (and of course [[identity|identities]]).
+
+=--
+
+## Variations 
 
 There are a sequence of variations on the concept of epimorphism, from strongest to weakest:
 
