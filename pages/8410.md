@@ -15,4 +15,6 @@
 
 ## Idea
 
-Before [[mathematics]] was found to be 'the language with which God has written the universe' ([[Galileo]]), the study of the [[phenomenology]] of [[physics]] was pursued by more informal means, and went by the name _natural philosophy_, that is the [[philosophy]] of [[nature]].  (Compare 'natural history' for [[biology]], although that term is still used for observational biology.)
+Before [[mathematics]] was found to be 'the language with which God has written the universe' ([[Galilei]]) with [[Newton's laws of motion]], the study of the [[phenomenology]] of [[physics]] was pursued by more informal means, and went by the name _natural philosophy_, that is the [[philosophy]] of [[nature]].  (Compare 'natural history' for [[biology]], although that term is still used for observational biology.)
+
+
