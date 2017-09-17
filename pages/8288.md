@@ -1525,26 +1525,29 @@ $Ext^1(G,A) \simeq H^2_{Grp}(G,A)$. By the discussion at _[[group extension]]_ i
 
 
 ### Cohomology of cyclic groups 
+ {#CohomologyOfCyclicGroups}
 
-Let $G = C_k$ be a [[cyclic group]] of finite order $k$, with generator $g$. Define special elements in the group algebra $\mathbb{Z}G$: 
+Let $G = C_k$ be a [[cyclic group]] of finite [[order]] $k$, with generator $g$. Define special elements in the [[group algebra]] $\mathbb{Z}G$: 
 
-$$N = 1 + g + g^2 + \ldots + g^{k-1}$$ 
+$$N \coloneqq 1 + g + g^2 + \ldots + g^{k-1}$$ 
 
 $$\,$$ 
 
-$$D = g - 1,$$
+$$D \coloneqq g - 1,$$
 
 and denote the corresponding multiplications by these elements by the same letters $N, D \colon \mathbb{Z}G \to \mathbb{Z}G$. 
 
-Then a very simple and useful projective resolution of the trivial $G$-module $\mathbb{Z}$ is based on an exact sequence of $G$-modules 
+Then a very simple and useful projective resolution of the trivial $\mathbb{Z}G$-module $\mathbb{Z}$ is based on an [[exact sequence]] of $\mathbb{Z}G$-[[modules]]
 
 $$\ldots \stackrel{N}{\to} \mathbb{Z}G \stackrel{D}{\to} \mathbb{Z}G \stackrel{N}{\to} \mathbb{Z}G \stackrel{D}{\to} \mathbb{Z}G \to \mathbb{Z} \to 0$$ 
 
-where the last map $\mathbb{Z}G \to \mathbb{Z}$ is induced from the trivial group homomorphism $G \to 1$. 
+where the last map $\mathbb{Z}G \to \mathbb{Z}$ is induced from the trivial group homomorphism $G \to 1$, hence is the map that forms the sum of all [[coefficients]] of all group elements.
 
-It follows from this resolution that the cohomology groups $H^n(C_k, A)$ for a $C_k$-module $A$ are periodic of order 2: 
+It follows from this resolution that the [[cochain cohomology|cohomology groups]] $H^n(C_k, A)$ for a $C_k$-[[module]] $A$ are periodic of order 2: 
 
-$$H^{n+2}(C_k, A) \cong H^n(C_k, A)$$ 
+$$
+  H^{n+2}(C_k, A) \cong H^n(C_k, A)
+$$ 
 
 for $n \geq 1$. More precisely, 
 
@@ -1563,11 +1566,13 @@ A well-known calculation in the cohomology of cyclic groups is **Hilbert's Theor
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Suppose $K$ be a finite Galois extension of a field $k$, with a cyclic Galois group $G = \langle g \rangle$. Regard the multiplicative group $K^\ast$ as a $G$-module. Then $H^1(G, K^\ast) = 0$. 
+Suppose $K$ be a finite [[Galois extension]] of a [[field]] $k$, with a cyclic [[Galois group]] $G = \langle g \rangle$. Regard the [[multiplicative group]] $K^\ast$ as a $G$-module. Then $H^1(G, K^\ast) = 0$. 
+
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
+
 Let $\sigma \in \mathbb{Z}G$, and denote the action of $\sigma$ on an element $\beta \in K$ by exponential notation $\beta^\sigma$. The action of the element $N \in \mathbb{Z}G$ is 
 
 $$\beta^N = \beta^{1 + g + \ldots + g^{n-1}} = \beta \cdot \beta^g \cdot \ldots \beta^{g^{n-1}}$$ 
@@ -1584,11 +1589,13 @@ $$\alpha = \theta + \beta \theta^g + \beta^{1+g}\theta^{g^2} + \ldots + \beta^{1
 is non-zero. Using the fact that $N(\beta) = 1$, one may calculate that $\beta \alpha^g = \alpha$, as was to be shown. 
 =-- 
 
-The next result may be thought of as establishing "independence of characters" (where "characters" are valued in the multiplicative group of a field): 
+The next result may be thought of as establishing "independence of characters" (where "[[group character|characters]]" are valued in the [[multiplicative group]] of a field): 
 
 +-- {: .num_lemma} 
 ###### Lemma 
-Let $K$ be a field, let $G$ be a monoid, and let $\chi_1, \ldots, \chi_n \colon G \to K^\ast$ be distinct monoid homomorphisms. Then the functions $\chi_i$, considered as functions valued in $K$, are $K$-linearly independent. 
+
+Let $K$ be a [[field]], let $G$ be a [[monoid]], and let $\chi_1, \ldots, \chi_n \colon G \to K^\ast$ be distinct monoid [[homomorphisms]]. Then the [[functions]] $\chi_i$, considered as functions valued in $K$, are $K$-[[linear independence|linearly independent]]. 
+
 =-- 
 
 +-- {: .proof} 
@@ -1609,7 +1616,8 @@ Dividing equation 2 by $\chi_1(g)$ and subtracting from it equation 1, the first
 
 $$(a_2\frac{\chi_2(g)}{\chi_1(g)} - a_2)\chi_2 + \ldots = 0$$ 
 
-which is a contradiction. 
+which is a [[contradiction]]. 
+
 =-- 
 
 ## Related concepts
