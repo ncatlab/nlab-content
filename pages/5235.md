@@ -1,0 +1,3 @@
+It appears that the group $Aut(F_n)$ of automorphisms of the free group $F_n$ on $n$ letters and especially the group $Out(F_n)$ of outer automorphisms of the free group on $n$ letters appear often at sometimes unexpected places in geometry, theory of operads, deformation theory, study of moduli spaces etc. Some of the occurences are expressed in terms of Kontsevich's [[graph homology]], ribbon diagrams and alike. 
+
+Some of the authors who wrote extensively on related issues include Karen Vogtmann ([homepage](http://www.math.cornell.edu/~vogtmann/papers/papers.html)). Cf. also articles by [[Leila Schneps]] etc. 
