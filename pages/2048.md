@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -68,6 +68,12 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 [[A. Vistoli]] commented at MathOverflow [here](http://mathoverflow.net/questions/68150) that for some categorical purposes
 
 > one should interpret "coherent" as meaning "quasi-coherent of finite presentation". The notion of coherent sheaf, as defined in EGA, is not functorial, that is, pullbacks of coherent sheaves are not necessarily coherent. Hartshorne's book defines "coherent" as "quasi-coherent and finitely generated", but this is a useless notion when working with non-noetherian schemes.
+
+## Related concepts
+
+* [[quasicoherent sheaf]]
+
+* [[Bondal-Orlov reconstruction theorem]]
 
 ##References
 
