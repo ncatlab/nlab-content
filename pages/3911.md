@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Integration theory
 +--{: .hide}
 [[!include integration theory - contents]]
@@ -13,10 +13,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -231,7 +230,7 @@ $$
   \,.
 $$
 
-If now one has a [[Thom isomorphism]] ($E$-[[orientation in generalized cohomology|orientation]]) $ [D X \otimes_{\mathbb{S}} E, E] \simeq [X,E]$ that identifies the cohomology of the dual object with the original cohomology, then together with produces the [[Umkehr map]]
+If now one has a [[Thom isomorphism]] ($E$-[[orientation in generalized cohomology|orientation]]) $ [D X \otimes_{\mathbb{S}} E, E] \simeq [X,E]$ that identifies the cohomology of the dual object with the original cohomology, then together with produces the __Umkehr map__
 
 $$
   [X,E] \simeq [D X \otimes_{\mathbb{S}} E, E] \to E
@@ -581,7 +580,7 @@ and section 10 of ([ABG, 10](#ABG10))
 
 
 
-Discussion of fiber integration [[Gysin maps]]/[[Umkehr maps]] in [[noncommutative topology]]/[[KK-theory]] as [above](#InKKTheory) is in the following references.
+Discussion of fiber integration [[Gysin maps]]/Umkehr maps in [[noncommutative topology]]/[[KK-theory]] as [above](#InKKTheory) is in the following references.
 
 The definition of the element $f! \in KK(C(X), C(Y))$ for a $K$-oriented map $f \colon X \to Y$ between smooth manifolds goes back to section 11 in
 
