@@ -135,6 +135,8 @@ The [[Lagrangian dg-submanifolds]] of a Courant Lie 2-algebroid corespond to its
 
 * [[Courant sigma-model]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
