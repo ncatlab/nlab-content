@@ -62,5 +62,5 @@ There is also
 
 * Wikipedia on [operator algebras] (http://en.wikipedia.org/wiki/Operator_algebras)
 
-
+category: analysis, noncommutative geometry
 [[!redirects operator algebras]]
