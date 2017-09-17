@@ -1976,7 +1976,7 @@ This simple technical point turns out to play a crucial role in the abstract def
 
 
 
-+-- {: .un_remark}
++-- {: .un_lemma}
 ###### Observation
 
 There is a canonical [[infinity-anafunctor|2-anafunctor]] $c_1^{dR} : \mathbf{B}U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^2 U(1)$
@@ -1989,12 +1989,48 @@ $$
     \\
     \mathbf{B}U(1)
   }
-  \,.
+  \,,
 $$
+
+where the top morphism is given by forming the [[pasting]]-composite with the $\mathbf{B} U(1)$-[[universal principal infinity-bundle|universal 2-bundle]], as described above.
+
 
 =--
 
-The top morphism is given by forming the [[pasting]]-composite with the $\mathbf{B} U(1)$-[[universal principal infinity-bundle|universal 2-bundle]], as described above.
++-- {: .un_remark}
+###### Remark
+
+
+For emphasis, notice that this span is governed by a presheaf of diagrams that over $U \in CartSp$ is of the form
+
+$$
+  \array{
+    U &\to& \mathbf{B}U(1) &&& transition function
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}INN(U) &&& connection
+    \\
+    \downarrow &&  \downarrow
+    \\
+    \mathbf{\Pi}(U) &\to& \mathbf{B}^2 U(1) &&& curvature
+  }
+  \,.
+$$
+
+The top morphisms are the components of the presheaf $\mathbf{B}U(1)$. The top square are those of $\mathbf{B}U(1)_{diff}$. Forming the bottom square is forming the bottom morphism, which necessarily satifies the constraint that makes it a components of $\mathbf{\flat}\mathbf{B}^2 U(1)$. 
+
+The interpretation of the stages is as indicated in the diagram:
+
+1. the top morphism is the transition function of the underlying bundle;
+
+1. the middle morphism is a choice of (pseudo-)connection on that bundle;
+
+1. the bottom morphism picks up the curvature of this connection.
+
+We will see that full $\infty$-Chern-Weil theory is governed by a slight refinement of presheaves of essentially this kind of diagram. We will also see that the three stage process here is really an incarnation of the computation of a [[connecting homomorphism]], reflecting the fact that behind the scenes the notion of _curvature_ is exhibited as the [[twisted cohomology|obstruction cocycle]] to lifts from bare bundles toflat bundles.
+
+=--
 
 +-- {: .un_remark}
 ###### Observation
@@ -2013,7 +2049,7 @@ $$
     \\
     C(U) &\to& \mathbf{B}U(1)
     \\
-    \downarrow^{\mathrla{\simeq}} 
+    \downarrow^{\mathrlap{\simeq}} 
     \\
     X 
   }
@@ -2056,33 +2092,6 @@ is equivalent to disjoint union of groupoids of $U(1)$-bundles with connection w
 
 
 
-##### Of $G$-principal bundles 
-
-> (to be polished)
-
-For $G$ not abelian, the double delooping object $\mathbf{B}^2 G$ does not exist and accordingly the analog of the above discussion of curvature characteristic of $U(1)$-bundles fails. One may understand all of [[Chern-Weil theory]] as the attempt to fix this failure by finding the closest possible approximation to the non-existent morphism $\mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}^2 G$.
-
-Let $\{\langle - \rangle_i\}$ be a set of generators of [[invariant polynomial]]s on the [[Lie algebra]] $\mathfrak{g}$. Let $Q$ be the Lie groupoid which over $U \in CartSp$ has as objects closed differential forms of the degree of these polynomials, and as morphisms, forms of one degree less, _modulo exact forms.
-
-Then there is a morphism
-
-$$
-   ch : \mathbf{B}G_{diff} \to Q
-$$
-
-which sends a [[Lie-algebra valued 1-form]] $A$ to its [[curvature characteristic form]]s $\langle F_{A} \rangle_i$ and sends a shift of connections $a = A_2 - A_1 + g^{-1} (A_1 + d) g$ to the corresponding [[Chern-Simons form]]. This is indeed well defined up to an exact form.
-
-
-**Observation** The fibers of the induced morphism
-
-$$
-  \mathbf{H}(X,\mathbf{B}G) \to \mathbf{H}(X,Q)
-$$
-
-are [[Simons-Sullivan structured bundle]]s. These are $G$-bundles with connection but divided out by a larger equivalence relation. For $G = U$ the [[unitary group]] these model [[differential K-theory]].
-
-For a more complete description of curvature characteristics of $G$-bundles, we need the notion of [infinity-Lie algebra valued connections below](#LieConnections).
-
 ### Circle $n$-bundles with connection {#CirclenBundles}
 
 In the abelian case it is easy to generalize the above construction to higher degrees.
@@ -2100,11 +2109,13 @@ $$
   =
   U \mapsto
   \left\{
+   \array{
       U &\to& \mathbf{B}^n U(1)
      \\
      \downarrow && \downarrow
      \\
      \mathbf{\Pi}(U) &\to& \mathbf{B}^n INN(U(1))
+   }
   \right\}
 $$
 
@@ -2413,7 +2424,7 @@ $$
  \mapsto 
   \left\{
     \array{
-       C^\infty(U)\otimes \Omega^\bullet(\Delta^n_{Diff})
+       \Omega^\bullet(U \times \Delta^n_{Diff})_{vert}
        &\leftarrow&
        CE(\mathfrak{g})
       \\
@@ -2424,8 +2435,10 @@ $$
       W(\mathfrak{g})
     }
   \right\}
-  \,.
+  \,,
 $$
+
+where $\Omega^\bullet(U \times\Delta^n)_{vert}$ is the complex of vertical forms relative to the projection $U \times\Delta^n \to U$.
 
 This assigns to a smooth test space $U$ the $\infty$-groupoid whose objects are non-flat $\mathfrak{g}$-valued forms, morphisms are paths of gauge transformations of these, 2-morphisms are homotopies of paths of gauge transformations, and so on.
 
@@ -2446,7 +2459,7 @@ $$
   \mapsto
   \left\{
     \array{
-       C^\infty(U)\otimes \Omega^\bullet(\Delta^n_{Diff})
+       \Omega^\bullet(U \times \Delta^n_{Diff})_{vert}
        &\leftarrow&
        0
       \\
@@ -2531,12 +2544,12 @@ $$
   \mathbf{\flat}_{dR} \prod_i \mathbf{B}^{n_i} \mathbb{R}
 $$
 
-are the corresponding [[nLab:curvature characteristic form]]s. They are locally obtained by projecting in the diagram
+are the corresponding [[curvature characteristic form]]s. They are locally obtained by projecting in the diagram
 
 
 $$
   \array{
-    C^\infty(U)\otimes' \Omega^\bullet(\Delta^n)
+    \Omega^\bullet(U \times \Delta^n)_{vert}
     &\leftarrow&
     CE(\mathfrak{g})
     &&&
@@ -2552,7 +2565,7 @@ $$
     \\
     \uparrow && \uparrow
     \\
-    \Omega^\bullet(U \times \Delta^n)
+    \Omega^\bullet(U)
     &\leftarrow&
     inv(\mathfrak{g}) 
     &&&
