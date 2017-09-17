@@ -49,6 +49,9 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[computation]]
 * [[computational trinitarianism]]
+
+* [[proof management system]]
+
 * [[computational topology]]
 * [[list of mathematics software]]
 
