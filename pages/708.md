@@ -842,7 +842,7 @@ Apparently, we all took a break from the $n$Lab for the New Year!
 
 ***
 
-[[2008 changes|First list]] --- [[2008 changes|Previous list]] --- [[2009 February changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+[[2008 changes|First list]] --- [[2008 changes|Previous list]] --- [[2009 February changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5)
 
 ***
 
