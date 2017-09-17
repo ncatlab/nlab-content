@@ -80,7 +80,10 @@ This is proposition 3.16 in ([SchwedeShipley](#SchwedeShipley)).
 
 
 
-Let $C$ and $D$ be [[monoidal model categories]] such that on their categories of [[monoid]]s exists the corresponding [[transferred model structure]], transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
+
+### Lift to Quillen adjunctions on monoids {#LiftToMonoids}
+
+For $C$ and $D$ [[monoidal model categories]] we may ask if on their categories of [[monoid]]s exist the corresponding [[transferred model structure]]s, transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
 
 $$
   (F_C \dashv U_C) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
@@ -88,12 +91,10 @@ $$
   \,.
 $$
 
-### Lift to Quillen adjunctions on monoids {#LiftToMonoids}
-
 +-- {: .un_theorem}
 ###### Theorem
 
-If $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ is a lax monoidal Quillen adjunction and the forgetful functors induce transferred model structures on monoids, then there is an induced [[Quillen adjunction]]
+If $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ is a lax monoidal Quillen adjunction and the forgetful functors $U_C$ and $U_D$ induce transferred model structures on monoids, then there is an induced [[Quillen adjunction]]
 
 $$
   (L^{mon} \dashv R) 
