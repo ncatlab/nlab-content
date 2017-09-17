@@ -99,7 +99,8 @@ Since the notion of closed category involves a contravariant functor and extrana
 
 ### The closed enrichment context
 
-The closed structure on a category $\mathcal{V}_0$ is an enrichment context $\mathcal{V}$ relative to which we can define a [[category of V-enriched categories]]. In fact, from this point of view the closed structure is more natural than the monoidal structure since most (if not all it) is forced if one insists for an enrichment context $\mathcal{V}$ for which $\mathcal{V}_0$ is self-enriched, that is, isomorphic to the underlying category $\mathcal{V}^e_0$ of some $\mathcal{V}$-enriched category $\mathcal{V}^e$. See [[category of V-enriched categories]] for details.
+The closed structure on a category $\mathcal{V}_0$ is an enrichment context $\mathcal{V}$ relative to which we can define a [[category of V-enriched categories]]. From this point of view, a closed structure is more natural than a monoidal structure since most (if not all) of this structure is forced if one insists for an enrichment context $\mathcal{V}$ for which $\mathcal{V}_0$ is self-enriched, that is, isomorphic to the underlying category $\mathcal{V}^e_0$ of some $\mathcal{V}$-enriched category $\mathcal{V}^e$. See [[category of V-enriched categories]] for details.
+
 
 ## Related concepts
 
