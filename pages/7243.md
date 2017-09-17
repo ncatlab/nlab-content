@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
+=--
 =--
 =--
 
@@ -86,6 +90,20 @@ The [[group of units]] of the ring of adeles is called the group of [[ideles]].
 
 =--
 
+### As the formal neighbourhood of a prime
+ {#AsFormalNeighbourhoodOfPrime}
+
+The [[formal spectrum]] $Spf(\mathbb{Z}_p)$ of $\mathbb{Z}_p$ may be understood as the [[formal neighbourhood]] of the point corresponding to the [[prime]] $p$ in the [[prime spectrum]] $Spec(\mathbb{Z})$ of the [[integers]]. The inclusion
+
+$$
+  \{p\}
+  \hookrightarrow
+  Spf(\mathbb{Z}_p)
+  \hookrightarrow
+  Spec(\mathbb{Z})
+$$
+
+is the [[Isbell duality|formal dual]] of the canonical [[projection]] maps $\mathbb{Z}\to \mathbb{Z}_p\to \mathbb{Z}/(p)$.
 
 ## Related notions 
 
