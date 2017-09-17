@@ -58,11 +58,15 @@
 
 * [[C-∞ algebra]] 
 
-* [[E-∞ algebra]] 
+* [[E-∞ ring]], [[E-∞ algebra]] 
 
-  * [[E-∞ ring]]
+  * [[∞-module]], [[(∞,1)-module bundle]]
+
+  * [[multiplicative cohomology theory]]
 
 * [[L-∞ algebra]] 
+
+  * [[deformation theory]]
 
 ## Model category presentations
 
