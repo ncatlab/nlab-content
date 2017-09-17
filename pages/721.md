@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include topos theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
 > This entry is about the notion of [[site]]. For a generalization of [[topological space]]s based on neighborhoods, see [[pretopological space]].
 
