@@ -738,7 +738,7 @@ A review including also the Weil complex structure is in
 
 * {#Griffiths12} [[Phillip Griffiths]], section 1 of _Some results on algebraic cycles on algebraic manifolds_, Proceedings of the International Conference on Algebraic Geometry, Tata Institute (Bombay), 2012 ([web](http://publications.ias.edu/node/181), [pdf](http://publications.ias.edu/sites/default/files/someresultsonalg.pdf))
 
-For $k = 0$ but with generalization to non-abelian differential forms (fields in non-abelian [[3d Chern-Simons theory]]) the Grifiths-like structure is discussed also in 
+For $k = 0$ but with generalization to non-abelian [[moduli space of flat connections]] the Grifiths-like follows also with the [[Donaldson-Uhlenbeck-Yau theorem]] as discussed in 
 
 * {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], pp. 154 (11 of 76) of _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753)) 
 
