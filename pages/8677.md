@@ -69,6 +69,14 @@ $$
 
 (e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
 
+## Properties
+
+### As a modality in arithmetic cohesion
+
+Localization away from a suitably tame ideal may be understood as the [[dR-shape modality]] in the [[cohesion]] of [[E-infinity arithmetic geometry]]:
+
+[[!include arithmetic cohesion -- table]]
+
 
 ## Related concepts
 
