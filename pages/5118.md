@@ -243,7 +243,23 @@ $$
   \,.
 $$
 
-See [[model structure on monoids]]. For the purposes of the following statement, we define
+See [[model structure on monoids]]. 
+
++-- {: .un_assumptio}
+###### Assumption
+
+We assume for this section that the monoidal model category $C$
+
+* is [[symmetric monoidal category|symmetric monoidal]];
+
+* is a [[cofibrantly generated model category]]
+
+* satisfies the [[monoid axiom in a monoidal model category]].
+
+=--
+
+
+For the purposes of the following statement, we define
 
 +-- {: .un_def #CreatedModelStructure}
 ###### Definition
