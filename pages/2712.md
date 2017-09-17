@@ -15,9 +15,9 @@
 
 ## Idea
 
-The reshitikhin-Turaev construction is the construction of a 3d [[TQFT]] from the data of  a [[modular tensor category]] $C$.
+The Reshetikhin-Turaev construction is the construction of a 3d [[TQFT]] from the data of  a [[modular tensor category]] $C$.
 
-In the case that $C$ is a category of positive energy representations of a [[loop group]] $\Omefga G$ of a [[Lie group]] $G$, then this algebraically defined QFT is thought to be the result of [[quantization]] of [[Chern-Simons theory]] over the group $G$. 
+In the case that $C$ is a category of positive energy representations of a [[loop group]] $\Omega G$ of a [[Lie group]] $G$, then this algebraically defined QFT is thought to be the result of [[quantization]] of [[Chern-Simons theory]] over the group $G$. 
 
 The [[CFT|Fuchs-Runkel-Schweigert-construction]] builds from this explicitly the rational 2-dimensional [[CFT]] boundary theory (see [[holographic principle of higher category theory]]).
 
