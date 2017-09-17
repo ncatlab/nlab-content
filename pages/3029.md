@@ -1652,6 +1652,9 @@ A bit of discussion of some occurences of central extensions of groups in [[phys
 [[!redirects Schreier's theory]]
 [[!redirects Schreier theory]]
 
+[[!redirects extension of groups]]
+[[!redirects extensions of groups]]
+
 [[!redirects central extension]]
 [[!redirects central extensions]]
 [[!redirects central extension of groups]]
