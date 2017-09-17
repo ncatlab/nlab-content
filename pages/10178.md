@@ -600,7 +600,7 @@ $\,$
 
 We discuss how to [[fiber integration in generalized cohomology|integrate]] $\exp(i S ) \,d\mu$ over $\mathbf{Fields}$ in $E$-modules (this playing the role of the [[path integral]] in plain [[quantum mechanics]]).
 
-While traditionally the definition of [[path integral]] is notoriously elusive, here we make use of general abstract but basic facts of [[higher linear algebra]] in a _[[tensor (∞,1)-category]]_ (a [[stable (∞,1)-category|stable]] and [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category]]): the simple basic ide is that
+While traditionally the definition of [[path integral]] is notoriously elusive, here we make use of general abstract but basic facts of [[higher linear algebra]] in a _[[tensor (∞,1)-category]]_ (a [[stable (∞,1)-category|stable]] and [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category]]): the simple basic idea is that
 
 _Cohomological integration_
 
@@ -616,9 +616,9 @@ $$
 
 in $\mathcal{C}$, an _[[Umkehr map]]/[[Gysin map]]/[[fiber integration]]/[[push-forward in generalized cohomology|push-forward]]_ is just
 
-* forming the [[dual morphism]] $f^\ast \colon V_2^\ast \to V_1^\ast$;
+* forming the [[dual morphism]] $f^\vee \colon V_2^\vee \to V_1^\vee$;
 
-* such that [[equivalences]] $V_i^\ast \simeq V_i$ exhbiting self-[[dual objects]] exist ([[Poincaré duality]]) and have been chosen ([[orientation in generalized cohomology|orientation]]).
+* such that [[equivalences]] $V_i^\vee \simeq V_i$ exhbiting self-[[dual objects]] exist ([[Poincaré duality]]) and have been chosen ([[orientation in generalized cohomology|orientation]]).
 
 This allows in total to have a morphism between the same objects, but in the opposite direction
 
@@ -627,9 +627,9 @@ $$
    \;\colon\;
   V_2
    \stackrel{\;\simeq\;}{\to} 
-  V_2^\ast
-   \stackrel{\; f^\ast \;}{\to}
-  V_1^\ast
+  V_2^\vee
+   \stackrel{\; f^\vee \;}{\to}
+  V_1^\vee
     \stackrel{\; \simeq \;}{\to}
   V_1
   \,.
@@ -653,7 +653,7 @@ $$
   H R^\bullet\left(X\right)
     \underoverset{\simeq}{\;\; PD_X\;\;}{\to} 
   \left( 
-   H R^{\bullet+ dim(X)}\left(X\right)\right)^\ast 
+   H R^{\bullet+ dim(X)}\left(X\right)\right)^\vee
   \simeq
   H R_{\bullet + dim(X)}\left(X\right)
   \,.
@@ -711,7 +711,8 @@ $$
   }
 $$
 
-along which we want to integrate, which $\chi$ invertible, $(\chi^\vee)^\vee \simeq \chi$.
+along which we want to integrate, whith $\chi$ invertible in $Func(Y, E Mod)$: $\left(\chi^\vee\right)^\vee \simeq \chi$.
+ $\left(\chi^\vee\right)^\vee \simeq \chi$.
 
 Observe that we have the pair of [[adjoint triples]] of left/right [[Kan extensions]] and [[colimits]]/[[limits]]
 
@@ -733,7 +734,7 @@ $$
 
 Notice that $f^\ast$ preserves duals, but $f_!$ may not. 
 
-If $f_! f^\ast \chi^\vee$ is a [[dualizable object]], say that a *choice of orientation* of $f$ in $\chi$-[[twisted cohomology]] is a choice of $\beta \colon X \to E Mod$ and an [[equivalence]]
+If $f_! f^\ast \chi^\vee$ is a [[dualizable object]], say that a *choice of twisted orientation* of $f$ in $\chi$-[[twisted cohomology]] is a choice of $\beta \colon X \to E Mod$ together with a choice of a [[equivalence]] (if such exists) of the form
 
 $$
   PD 
@@ -742,10 +743,12 @@ $$
   \right)^\vee
   \simeq
   f_!\left(
-    f^\ast \chi - \beta
+    f^\ast \chi + \beta
   \right)
-  \,.
+  \,,
 $$
+
+hence a choice of correction of $f_!$ preserving the duality of $f^\ast \chi$.
  
 
 Then the $(f_! \dashv f^\ast)$ [[counit of an adjunction|counit]]
@@ -762,14 +765,14 @@ $$
   \left(f_! f^\ast \chi^\vee \right)^\vee 
     \underoverset{\simeq}{PD}{\longrightarrow}
   f_!\left(
-    f^\ast \chi - \beta
+    f^\ast \chi + \beta
   \right)
 $$
 
-and under $\left[ p_! \left( - \right), (-) \right]$ this becomes
+and under $\left[ p_! \left( - \right), E \right]$ this becomes
 
 $$
-  \left[p_! f_! \left(f^\ast \chi - \beta\right), E\right]
+  \left[p_! f_! \left(f^\ast \chi + \beta\right), E\right]
   \longrightarrow
   \left[p_! \chi , E\right]
 $$
@@ -777,13 +780,15 @@ $$
 which is 
 
 $$
-  E^{\bullet + f^\ast \chi - \beta}(X)
+  \int_f
+  \;\colon \;
+  E^{\bullet + f^\ast \chi + \beta}(X)
   \longrightarrow
   E^{\bullet + \chi}(Y)
   \,.
 $$
 
-This we call the [[twisted Umkehr map]] of $f$ induced by the orientation $PD$.
+This we call the _[[twisted Umkehr map]] of $f$_ or _twisted [[fiber integration in generalized cohomology|fiber integration]] along $f$_ induced by $(\beta, PD)$. If $\beta = 0$ then we call $PD$ an _[[orientation in generalized cohomology|orientation]]_ of $f$ in $\chi$-twisted cohomology.
 
 
 Notice that
