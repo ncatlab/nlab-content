@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include functional analysis - contents]]
+</div>
+
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
