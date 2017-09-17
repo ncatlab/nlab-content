@@ -41,7 +41,7 @@ Some [[duality in string theory]] involving the heterotic string:
 
 For the moment see at _[[Horava-Witten theory]]_.
 
-#### Relation to F-theory
+#### Relation to F-theory, type II and type I superstring theory
 
 For [[duality between F-theory and heterotic string theory]] see there
 and see [references below](#DualityWithFTheory).
@@ -108,6 +108,7 @@ Heterotic strings were introduced in
 
 Textbook accounts include
 
+
 * [[Joseph Polchinski]], _[[String theory]]_, volume II, section 11
 
 * [[Eric D'Hoker]], _String theory -- lecture 8: Heterotic strings_  in part 3 (p. 941 of volume II) of
@@ -147,6 +148,16 @@ A more formal discussion is in
 * B. Andreas and D. Hernandez Ruiperez, Adv. Theor. Math. Phys. Volume 7, Number 5 (2003), 751-786 _Comments on N = 1 Heterotic String Vacua _ ([project Euclid](http://projecteuclid.org/euclid.atmp/1111510429))
 
 ### Dualities
+
+#### With type I superstring theory
+
+The original conjecture is due to 
+
+* {#Witten05} [[Edward Witten]], section 5 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+More details are then in
+
+* {#PolchinskiWitten96} [[Joseph Polchinski]], [[Edward Witten]], _Evidence for Heterotic - Type I String Duality_, Nucl.Phys.B460:525-540,1996 ([arXiv:hep-th/9510169](http://arxiv.org/abs/hep-th/9510169))
 
 #### With $F$-theory
  {#DualityWithFTheory}
