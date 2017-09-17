@@ -1,4 +1,4 @@
-**[[type theory]]**
+**[[type theory]]** ([[extensional type theory|extensional]], [[intensional type theory|intensional]])
 
 **[[homotopy type theory]]**
 
@@ -26,10 +26,9 @@
 
   * [[internal logic of an (∞,1)-topos]]
 
-# Particular Types
+# Specific types
 
-* [[identity type]]
+* [[function type]], [[identity type]]
 
-* [[W-type]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/type+theory+-+contents)</div>
