@@ -28,3 +28,5 @@ Perturbative [[string theory]] is defined in terms of certain classes of 2d [[CF
 
 * [[landscape of string theory vacua]]
 
+
+[[!redirects type II superstring]]
