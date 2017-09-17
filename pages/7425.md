@@ -23,8 +23,14 @@ It is known that in the [[Bousfield lattice]] of the [[stable homotopy category]
 
 * [[K-theory]], [[topological K-theory]], [[algebraic K-theory]]
 
+* [[Morava E-theory]]
+
 ## References
 
 * D. Ravenel, _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies 128, Princeton University Press (1992).
+
+* _Morava E-theory and Morava K-theory_ Lecture notes ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
+
+
 
 [[!redirects Morava K-theories]]
