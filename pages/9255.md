@@ -16,7 +16,13 @@
 
 * [Chomp](http://chomp.rutgers.edu)
 
-* [Comptop](http://comptop.stanford.edu/) -- applied and computational topology group at Stanford University
+* [Comptop](http://comptop.stanford.edu/) -- applied and computational topology group at Stanford University.
+
+* [HAP](http://hamilton.nuigalway.ie/Hap/www/SideLinks/About/aboutContents.html) --  although primarily concerned with Homological Algebra Programming, (whence HAP), this library of GAP based programs includes some of relevance to topology. (See also [CHA](http://hamilton.nuigalway.ie/CHA/).
+
+*  [Zenzo](http://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/) -- effective algebraic topology as viewed by Francis Sergeraert (Grenoble).
+
+
 
 ## Software
 
