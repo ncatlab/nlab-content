@@ -16,7 +16,7 @@ In [[quantum mechanics]], the _Kochen-Specker theorem_ -- developed in 1967 by [
 +-- {: .un_defn}
 ###### Definition
 
-Let _A_ be a physical quantity represented by a self-adjoint operator $\hat{A}$ on the Hilbert space $\mathcal{H}$ of the system.  A**valuation** is defined to be a real-valued function $\lambda$ on the set of all bounded, self-adjoint operators.  This function has the following two properties:
+Let _A_ be a physical quantity represented by a self-adjoint operator $\hat{A}$ on the Hilbert space $\mathcal{H}$ of the system.  A **valuation** is defined to be a real-valued function $\lambda$ on the set of all bounded, self-adjoint operators.  This function has the following two properties:
 
 1. the value $\lambda(\hat{A})$ belongs to the spectrum of $\hat{A}$; and
 
@@ -45,11 +45,17 @@ No valuations exist if dim($\mathcal{H}$)>2.
 
 ### Consequences
 
-If a valuation _did_ exist and was restricted to a commutative sub-algebra of operators, it would be an element of the [[spectrum]] of the algebra.  Since such elements _do_ exist, valuations must exist on any commutative sub-algebra of operator but not on the _non_-commutative algebra, $\mathcal{B}(\mathcal{H})$, of all bounded operators.  Isham calls these valuations _local_.
+If a valuation _did_ exist and was restricted to a commutative sub-algebra of operators, it would be an element of the [[spectrum]] of the algebra.  Since such elements _do_ exist, valuations must exist on any commutative sub-algebra of operators but not on the _non_-commutative algebra, $\mathcal{B}(\mathcal{H})$, of all bounded operators.  Isham calls these valuations _local_.
 
 ## Sheaf-theoretic interpretation
 
-Isham has shown that the Kochen-Specker theorem is equivalent to the statement that the spectral presheaf has no global elements.
+Isham has shown that the Kochen-Specker theorem is equivalent to the statement that the spectral presheaf has no global elements.  To see how this argument works, let $\mathcal{V}(\mathcal{H})$ denote the collection of all commutative sub-algebras of operators on the Hilbert space $\mathcal{H}$.  This is a [[poset]] with respect to sub-algebra inclusion which means it is also a category whose objects are the commutative sub-algebras of $\mathcal{B}(\mathcal{H})$.  Isham refers to these as the **category of contexts**.
+
+Each commutative algebra is viewed as a context within which to view a quantum system in an essentially classical way in the sense that the physical quantities in any such algebra can be given consistent values (as they can in a classical context).
+
+Let _V_ and _W_ be a pair of commutative sub-algebras such that $V \subseteq W$.  Now let $\underline{\Sigma}_{V}$ be the set of all local valuations on (i.e. the spectrum of) _V_.  The operation $V \mapsto \underline{\Sigma}_{V}$ defines the elements of a [[contravariant functor]], $\underline{\Sigma}$, from the category $\mathcal{V}(\mathcal{H})$ to the category [[Set]].  This means equivalently that it is a covariant functor from $\mathcal{V}(\mathcal{H})^{op}$ to [[Set]].  We may thus form a [[topos]] we call [[Set]]$^{\mathcal{V}(\mathcal{H})^{op}}$.
+
+The [[terminal object]], $1_{Set^{\mathcal{V}(\mathcal{H})^{op}}}$, in this topos is the [[presheaf]] that associates a singleton set with each commutative algebra.  Thus the global element $\lambda : 1_{Set^{\mathcal{V}(\mathcal{H})^{op}}} \to \underline{\Sigma}$ of the spectral presheaf, $\underline{\Sigma}$ associates an element of spectrum of an algebra, _V_, to that algebra such that all local valuations are global, i.e. for $V \subseteq W$ valuations on _V_ are local valuations on _W_ but global on _V_.  Thus we can see that the Kochen-Specker theorem is equivalent to the statement that the spectral presheaf has no global elements.
 
 ## Contextuality
 
