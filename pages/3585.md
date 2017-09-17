@@ -55,8 +55,8 @@ $$
 
 \begin{cases}
 
-  1, \quad  \text{if } \; x \gt 0 \\
-  0, \quad  \text{if } \; x \lt 0
+  1, & \text{if } x \gt 0  \\
+  0, & \text{if } x \lt 0
 
 \end{cases}
 
