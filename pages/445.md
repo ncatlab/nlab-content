@@ -21,7 +21,7 @@
 
 The **image** of a [[function]] $f\colon A\to B$ between [[sets]] is the [[subset]] of $B$ consisting of all those elements $b\in B$ that are of the form $f(a)$ for some $a\in A$.  This notion can be generalized from [[Set]] to other categories, as follows.
 
-To discuss images in a category $C$, we must first fix a notion of [[subobject]] or [[embedding]] in $C$.  (Sometimes we want these to be the [[monomorphisms]], but sometimes we want the [[regular monomorphisms]] instead.)  Then [[generalized the|the]] **image**  of a [[morphism]] $f\colon A\to B$ in $C$ is a universal factorization of $f$ into a composite $A \to im(f) \to C$ such that $im(f)\to C$ is a subobject, of the specified sort.
+To discuss images in a category $C$, we must first fix a notion of [[subobject]] or [[embedding]] in $C$.  (Sometimes we want these to be the [[monomorphisms]], but sometimes we want the [[regular monomorphisms]] instead.)  Then [[generalized the|the]] **image**  of a [[morphism]] $f\colon A\to B$ in $C$ is a universal factorization of $f$ into a composite $A \to im(f) \to B$ such that $im(f)\to B$ is a subobject, of the specified sort.
 
 Note that in this generality, a given morphism may or may not have an image, although if it does, it is unique up to isomorphism by universality.  In many cases, images can be constructed out of [[limits]] and [[colimits]] in the ambient category.  In particular, in a [[regular category]], images (relative to all monomorphisms) can be constructed as the [[quotient object]] of a [[kernel pair]].
 
