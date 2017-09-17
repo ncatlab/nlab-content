@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -69,6 +79,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 ## Related concepts
 
 * **representation**
+
+* [[2-representation]]
 
 * [[infinity-representation]]
 
