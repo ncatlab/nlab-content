@@ -33,6 +33,8 @@ is a focal point. This construction is in fact the same as generically adding a 
 
 The [[category of sheaves]] over (the [[site of open subsets]]) of a topological space with focal point is a [[local topos]].
 
+Every [[topos]] has a [[free construction|free]] "completion" to a "focal space", given by its [[Freyd cover]].
+
 ## References
 
 * [[Peter Freyd]], A. Scedrov, _Geometric logic_, (North-Holland, Amsterdam,
