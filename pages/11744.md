@@ -1,6 +1,8 @@
 
 [[arithmetic geometry]], [[number theory]]
 
+* [[prime field]], [[p-adic integer]], [[p-adic rational number]], [[p-adic complex number]]
+
 * [[arithmetic scheme]]
 
   * [[elliptic curve]]
