@@ -10,7 +10,7 @@
 =--
 
 #Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -127,11 +127,10 @@ A useful review of the notion is provided by
 
 * John Watrous, _Mixing doubly stochastic quantum channels with the completely depolarizing channel_ (2008) ([arXiv](http://arxiv.org/abs/0807.2668))
 
-The description of completely positive maps in terms of [[dagger-categories]] goes back to
+The description of completely positive maps in terms of [[dagger-categories]] (see at _[[finite quantum mechanics in terms of dagger-compact categories]]_) goes back to
 
-* [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_ ([ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps))
+* [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_, 2005 ([[SelingerPositiveMaps.pdf:file]], [ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps))
  {#Selinger}
-
 
 * [[Bob Coecke]], _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
  {#Coecke}
@@ -139,6 +138,10 @@ The description of completely positive maps in terms of [[dagger-categories]] go
 This was further developed in
 
 * [[Bob Coecke]], Eric Paquette, [[Dusko Pavlovic]], _Classical and quantum structures_ ([pdf](http://www.comlab.ox.ac.uk/files/627/RR-08-02.pdf))
+
+See also
+
+* [pdf](http://www.cs.ox.ac.uk/people/bob.coecke/Leverhulme.pdf)
 
 
 [[!redirects quantum channel]]
