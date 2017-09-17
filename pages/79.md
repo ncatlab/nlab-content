@@ -32,6 +32,25 @@
   * [[rational homotopy theory]]
 
   * [[differential geometry]]
+  * [tandean](http://yawan.blogdetik.com/) 
+  * [legitoz](http://lucubanget.inilahkita.com/) 
+  * [beng beng](http://deyong.dagdigdug.com/) 
+  * [laporoz](http://id4download.blog.com/) 
+  * [tonduw](http://kanduyung.wordpress.com/)
+
+  * [teler](http://katamutiarabijak.netai.net/) 
+  * [minum](http://bentor.pressku.com/) 
+  * [ballo](http://infonews.site90.net/) 
+  * [kemarin](http://mutiarabijak.wordpress.com/)
+  * [drolow](http://lucubro.blogspot.com/) 
+
+  * [antang](http://deyong.abatasa.com/) 
+  * [biol](http://kandu.webnode.com/) 
+  * [gendeng](http://wockee.weebly.com/index.html) 
+  * [ridwanaz](http://deyong.posterous.com/) 
+  * [taztim](http://deyongbp.bravejournal.com/index.php) 
+  * [perek](http://kandu.webs.com/)
+  * [siso bosi](http://deyong.livejournal.com/) 
 
   * [[differential topology]]
 
