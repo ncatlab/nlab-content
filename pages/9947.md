@@ -41,8 +41,10 @@ Projects for formalization of mathematics
 
 ## References
 
-
 * Wikipedia, _[Proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)_
+
+* Oscar Lanford III., _Computer assisted proofs in analysis_, Proceedings of the International Congress of Mathematicians, 1986 ([pdf](http://www.mathunion.org/ICM/ICM1986.2/Main/icm1986.2.1385.1394.ocr.pdf))
+
 
 * Freek Wiedijk, _Digital math by alphabet_ ([web](http://www.cs.ru.nl/~freek/digimath/index.html))
 
