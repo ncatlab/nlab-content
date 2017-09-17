@@ -101,3 +101,5 @@ Section 4.2.1 of
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
 [[!redirects (∞,1)-operad for (∞,1)-modules over an A-∞ algebra]]
+
+[[!redirects operad for modules]]
