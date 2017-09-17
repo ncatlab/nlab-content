@@ -1,9 +1,9 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Definition ##
+## Definition
 
 An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] (or an element of a [[monoid]]) is another morphism $f^{-1} : Y \to X$ which is both a left-inverse (a [[retraction]]) as well as a right-inverse (a [[section]]) of $f$, in that 
 $$
@@ -16,7 +16,7 @@ $$
 equals the [[identity morphism]] on $X$.
 
 
-## Remarks ##
+## Remarks
 
 * A morphism which has an inverse is called an [[isomorphism]].
 
@@ -30,25 +30,33 @@ equals the [[identity morphism]] on $X$.
 
   * This is a special case of the **2-out-of-6-property** which is satisfied by the _weak equivalences_ in any [[homotopical category]].
 
-  * When this is applied to a [[homotopy category]] such as that of [[Top]] for the standard [[model structure on topological spaces]] it implies the construction of and formulae for certain homotopies. 
+  * When this is applied to a [[homotopy category]] such as that of [[Top]] for the standard [[model structure on topological spaces]] it implies the construction of and formulae for certain homotopies.
 
 
-## Inverses in non-associative contexts ##
+## In non-associative contexts
 
 These can be a little more complicated; see [[quasigroup]] for some discussion of the one-object version.
+
 
 ## Related concepts
 
 * [[weak inverse]]
 
+
 [[!redirects inverse]]
 [[!redirects inverses]]
 [[!redirects inverse element]]
 [[!redirects inverse elements]]
+[[!redirects inverse of an element]]
+[[!redirects inverses of an element]]
+[[!redirects inverses of elements]]
 [[!redirects invertible element]]
 [[!redirects invertible elements]]
 
 [[!redirects inverse morphism]]
 [[!redirects inverse morphisms]]
+[[!redirects inverse of a morphism]]
+[[!redirects inverses of a morphism]]
+[[!redirects inverses of morphisms]]
 [[!redirects invertible morphism]]
 [[!redirects invertible morphisms]]
