@@ -1,7 +1,7 @@
+
 # Structured sets
 * tic
 {: toc}
-
 
 ## Idea
 
@@ -26,9 +26,11 @@ In other words, $T\colon Set_\cong \to Set_\cong$ (or equivalently $T\colon Set_
 
 (Compare the notion of [[structure type]] from [[combinatorics]], which is a set-valued functor on the groupoid of [[finite sets]].  Every combinatorial structure type can be interpreted as a type of structure, where only finite sets are capable of supporting the structure.)
 
-Given a type $T$ of structure on sets, we define a __$T$-structured set__ to be a set $A$ equipped with an [[element]] of $T(A)$.  Given $T$-structured sets $X = (A,\sigma)$ and $Y = (B,\tau)$, a bijection $f\colon A \to B$ __preserves__ the $T$-structure on $X$ and $Y$ if $T(f)(\sigma) = \tau$.  In general, there is no notion of whether an arbitrary function $f\colon A \to B$ preserves $T$-structure, although such a notion may be defined in many cases.
+Given a type $T$ of structure on sets, we define a __$T$-structured set__ to be a set $A$ equipped with an [[element]] of $T(A)$.  Given $T$-structured sets $X = (A,\sigma)$ and $Y = (B,\tau)$, a bijection $f\colon A \to B$ __preserves__ the $T$-structure on $X$ and $Y$ if $T(f)(\sigma) = \tau$.
 
-It is often convenient to restrict the form that $T$ may take.  [[Bourbaki]]\'s theory of structure, while not described in category-theoretic terms, is essentially the above where $T$ is required to be constructed from constant finite sets, [[cartesian products]], [[power sets]] and the like.  (I need to check Bourbaki for a complete list, particularly what kinds of [[subsets]] we may take in constructing $T$.)  This is particularly convenient for deciding when a non-invertible function preserves $T$-structure, although it does not always give the most useful answer.
+In general, there is no notion of whether an arbitrary function $f\colon A \to B$ preserves $T$-structure, although such a notion may be defined in many cases.  So to get a concrete construction of a [[concrete category]], we specify whatever morphisms we like, subject to the restriction that they form a category and have the correct [[core]] given above.
+
+[[Bourbaki]]\'s theory of structure, while not described in category-theoretic terms, is essentially the above.
 
 
 ## Conversions
@@ -53,7 +55,7 @@ Given a type $T$ of structure on sets, we cannot quite reconstruct the category 
 
 An object of $C$ is simply a pair $(A,\sigma)$ consisting of a set $A$ and an element $\sigma$ of $T(A)$.  Given two such objects, an isomorphism from $(A,\sigma)$ to $(B,\tau)$ is simply a structure-preserving map from $A$ to $B$, that is a bijection $f\colon A \to B$ such that $T(f)(\sigma) = \tau$.  Then it is straightforward to check that this defines a [[groupoid]] $C_\cong$.  This groupoid is naturally equipped with a faithful [[forgetful functor]] $U\colon C_\cong \to Set$, given by $U(A,\sigma) \coloneqq A$.
 
-For $T$ restricted to certain functors, such as is done by Bourbaki, we may also define a notion of non-invertible morphism in $C$.  However, this does not always give the most useful notion of morphism in $C$; while defining isomorphisms of structured sets is an exact science, choosing more general morphisms of structured sets is still something of an art.  (More details ...)
+While defining isomorphisms of structured sets is an exact science, choosing more general morphisms of structured sets is something of an art.
 
 
 ### Back and forth
@@ -71,9 +73,7 @@ Thus the abstract and concrete approaches to structured sets are equivalent, exc
 
 Almost everything in contemporary [[mathematics]] is an example of a structured set; here we list only a few representative ones (and perhaps also some exceptions).
 
-+-- {: .query}
-I want to check Bourbaki first, so that I can say clearly how they get morphisms between structured sets in the concrete approach, given restrictions on $T$.  That way, the examples can also discuss when this gives the right notion (as with [[varieties of algebras]] and preimage categories like [[Top]] and [[measurable space|Meas Sp]]) and when it does not (such as [[linear order|Lin Ord]] or [[metric space|Met]], although these are probably all arguable too!).
-=--
+...
 
 
 ## Structured objects
@@ -87,4 +87,5 @@ Given any category $S$ whatsoever, we may define a __type of structure__ on obje
 *  [[Grothendieck construction]]
 
 
+[[!redirects structured set]]
 [[!redirects structured sets]]
