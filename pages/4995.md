@@ -3228,7 +3228,7 @@ a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These struct
 In the presence of [infinitesimal cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
 
 
-+-- {: .un_def}
++-- {: .un_def #InfinitesimalPathsAndReduction}
 ###### Definition
 
 Define the triple of [[adjoint (∞,1)-functor]]s 
@@ -3270,18 +3270,6 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 =-- 
 
-
-+-- {: .un_def #InfinitesimalObject}
-###### Definition
-
-An object $X \in \mathbf{H}_{th}$ is an 
-**infinitesimal cohesive $\infty$-groupoid** if 
-$\mathbf{\Pi}_{inf} X \simeq *$.
-
-An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an [[∞-Lie algebra]]. 
-
-=--
-
 +-- {: .un_prop}
 ###### Observation
 
@@ -3318,14 +3306,67 @@ $$
 =--
 
 
-+-- {: .un_corollary}
-###### Corollary
+
+#### $\infty$-Lie algebras and $\infty$-Lie algebroids
+
+The infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are genuine [[∞-Lie algebra]]s.
+
++-- {: .un_def #InfinitesimalObject}
+###### Definition
+
+An object $X \in \mathbf{H}_{th}$ is an 
+**infinitesimal cohesive $\infty$-groupoid** if 
+$\mathbf{\Pi}_{inf} X \simeq *$.
+
+An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an **[[∞-Lie algebra]]** . 
+
+For $X \in \mathbf{H}$ any object, we say 
+$\mathfrak{a} \in \mathbf{H}_{th}$ is an 
+**[[∞-Lie algebroid]] over $X$** if $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq \mathbf{\Pi}_{inf}(X)$; equivalently: if there is a morphism
+
+$$
+  \mathfrak{a} \to \mathbf{\Pi}_{inf}(X)
+$$
+
+that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] on $\mathfrak{a}$, hence as the [infinitesimal path inclusion](#InfinitesimalPathsAndReduction) for $\mathfrak{a}$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [∞-Lie algebra](#InfinitesimalObject) $\mathfrak{g}$ is an [[∞-Lie algebroid]] over the point.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since both $i^*$ and $i_*$ are [[right adjoint]], the [infinitesimal path ∞-groupoid functor](#InfinitesimalPathsAndReduction) commutes with [[delooping]]. Therefore 
+
+$$
+  \begin{aligned}
+    \mathbf{\Pi}_{inf} \mathbf{B}\mathfrak{g}
+    & \simeq
+    \mathbf{B} \mathbf{\Pi}_{inf} \mathfrak{g}
+    \\
+    & \simeq \mathbf{B} *
+    \\
+    & \simeq *
+    \\
+    & \simeq \mathbf{\Pi}_{inf} *
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
 
 An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject) 
-$X \in \mathbf{H}_{th}$ is both geometrically contractible
-and has as underlying [[discrete ∞-groupoid]] the point:
-
-* $\Pi X \simeq *$;
+$X \in \mathbf{H}_{th}$ has as underlying [[discrete ∞-groupoid]] the point:
 
 * $\Gamma X \simeq *$.
 
@@ -3334,22 +3375,7 @@ and has as underlying [[discrete ∞-groupoid]] the point:
 +-- {: .proof}
 ###### Proof
 
-The first follows with the [above proposition](#InfinitesimalNeighbourhoodIsOverInfGroupoid) 
-saying that $Disc_{inf}$ is full and faithful. This implies that 
-with  $\mathbf{\Pi}_{inf} X \simeq *$ already $\Pi_{inf} X \simeq *$, hence 
-
-$$
-  \begin{aligned}
-    \mathbf{\Pi}(X) 
-     & \simeq
-      Disc_{\mathbf{H}_{th}}\Pi_{\mathbf{H}} \Pi_{inf}(X)
-    \\
-    & \simeq *
-  \end{aligned}
-  \,.
-$$
-
-The second property follows by 
+This follows by 
 
 $$
   \begin{aligned}
