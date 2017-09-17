@@ -16,13 +16,13 @@ This is a redirection page using the semi-standard term **D-geometry** for the g
 
 * [[microlocal analysis]], [[algebraic microlocalization]]
 
-* [[Riemann-Hilbert problem]]
+* [[Riemann-Hilbert problem]], [[Fuchsian equation]]
 
 * [[algebraic approaches to differential calculus]]
 
 * [[regular differential operator in noncommutative geometry]]
 
-* [[holonomic quantum field]]
+* [[holonomic quantum field]], [[Hodge theory]]
 
 
 
