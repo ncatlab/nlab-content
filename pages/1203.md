@@ -1,4 +1,22 @@
-In the [[foundations]] of mathematics, the [[axiom of infinity]] asserts that [[infinite set]]s exist.  Infinite sets cannot be constructed from finite sets, so their existence must be posited as an extra axiom.  Further axioms in this vein which assert the existence of even larger sets that cannot be constructed from smaller ones are called [[large cardinal]] axioms.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the [[foundations]] of [[mathematics]], the [[axiom of infinity]] asserts that [[infinite set]]s exist.  Infinite sets cannot be constructed from finite sets, so their existence must be posited as an extra axiom.  Further axioms in this vein which assert the existence of even larger sets that cannot be constructed from smaller ones are called [[large cardinal]] axioms.
 
 One common form of the axiom of infinity says that the particular set $N$ of [[natural number]]s exists.  In material [[set theory]] this often takes the form of asserting that the von Neuman [[ordinal number]] $\omega$ exists, where $\omega$ is characterized as the smallest set such that $\emptyset\in\omega$ and whenever $a\in \omega$ then $a\cup \{a\}\in \omega$.  In structural set theory the usual form of the axiom of infinity is the existence of a [[natural numbers object]].
 
