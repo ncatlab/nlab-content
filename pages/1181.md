@@ -101,7 +101,7 @@ There are interesting cases in which such sheaf toposes contain objects that loo
 
 ## Properties
 
-Let $(f^* \dashv f_*) : F \overset{f^*}\underset{f_*}\leftrightarrows E$ be a [[geometric morphism]] of toposes. If $N \in E$ is a natural numbers object, then $f^* N$ is a natural numbers object in $F$. ([[Elephant|Elephant, lemma 4.1.14]]).
+Let $(f^* \dashv f_*) : F \underoverset{f^*}{f_*}{\leftrightarrows} E$ be a [[geometric morphism]] of toposes. If $N \in E$ is a natural numbers object, then $f^* N$ is a natural numbers object in $F$. ([[Elephant|Elephant, lemma 4.1.14]]).
 
 
 
