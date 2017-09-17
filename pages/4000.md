@@ -640,6 +640,8 @@ that are associative up to a higher coherent morphisms, etc.
 
 * For the case that $G = O$ is the [[orthogonal group]] and $X \to \mathbf{B}O$ the classifying map of the [[tangent bundle]] of $X$, a trivialization of the corresponding Chern-Simons 3-bundle is a [[string structure]] on $X$. A trivialization of the Chern-Simons 3-bundle _with connection_ is a [[differential string structure]] on $X$.
 
+  For products of torus groups and the [[cup product]] class the same construction yields the [[T-duality 2-group]]
+
 * [[universal Chern-Simons n-bundle]]
 
   * **Chern-Simons circle 3-bundle**
@@ -704,3 +706,5 @@ Exposition of this and further developments are in
 [[!redirects universal Chern-Simons circle 3-connection]]
 
 [[!redirects universal Chern-Simons 3-connection]]
+
+[[!redirects universal Chern-Simons circle 3-bundle with connection]]
