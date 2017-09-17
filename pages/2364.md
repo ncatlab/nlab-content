@@ -1,4 +1,9 @@
-# Idea #
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea 
 
 The _Landweber exactness criterion_ determins if a given [[formal group law]] does arise as the formal group law defined by a [[weakly periodic cohomology theory]].
 
@@ -11,15 +16,17 @@ $$
 
 where $MP^\bullet$ denotes the [[complex cobordism cohomology theory]] and where the tensor product is taken using the $R$-module structure on $MP({*})$ induced by $f$.
 
-The point of Lazard-exactness is that if $f$ is Lazard exact (i.e. if the corresponding formal group law is) then this construciton defines a [[cohomology theory]] $A^\bullet(-)$.
+The point of Landweber-exactness is that if $f$ is Landweber exact (i.e. if the corresponding [[formal group law]] is) then this construction defines a [[cohomology theory]] $A^\bullet(-)$.
  
 
-#Definition#
+## Definition
 
-**Landweber criterion**  Let $f(x,y)$ be a [[formal group law]] and $p$ a prime,
-$v_i$ the coefficient of $x^{p^i}$ in $[p]_f(x)=x+_f\cdots+_f x$.
-If $v_0,\ldots,v_i$ form a regular sequence for all $p$ and $i$ then $f(x,y)$ is Lazard exact and hence gives a 
+**Landweber criterion**  Let $f(x,y)$ be a [[formal group law]] and $p$ a [[prime]],
+$v_i$ the [[coefficient]] of $x^{p^i}$ in $[p]_f(x)=x+_f\cdots+_f x$.
+If $v_0,\ldots,v_i$ form a [[regular sequence]] for all $p$ and $i$ then $f(x,y)$ is Landweber exact and hence gives a 
 [[cohomology theory]] via the the formula above.
+
+See at _[[Landweber exact functor theorem]]_
 
 **Example.**  $g_a(x,y)=x+y$, $[p]_a(x)=px$, $v_0=p$, $v_i=0$ for all $i\ge1$;
 regularity condtions imply that
@@ -33,10 +40,22 @@ The regularity conditions are trivial.
 Hence we know that $K^*(X)=MP^*(X)\otimes_{MP(\bullet)} \mathbb{Z}$ is a cohomology theory.
 
 
-#related entries#
+
+
+## Related entries
+
+* [[Landweber exact functor theorem]]
 
 * [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
 
+## References
+
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, 
+Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture15.pdf))
+ {#LurieLecture15}
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 16 _The Landweber exact functor theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture16.pdf)) 
 
 [[!redirects Landweber exactness criterion]]
 [[!redirects Landweber criterion]]
