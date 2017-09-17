@@ -213,6 +213,10 @@ Other standard operations on categories include
 
 ## Related concepts
 
+* [[continuous category]]
+
+* [[enriched category]]
+
 
 * [[0-category]], [[(0,1)-category]]
 
