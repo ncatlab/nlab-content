@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -24,7 +23,7 @@ Every [[subgroup]] $H$ of a [[discrete group|discrete]] [[free group]] $G$ is it
 
 =-- 
 
-This has a number of different proofs. 
+This has a number of different proofs. The first proof, perhaps nowadays the most familiar proof, is based on covering space theory (in particular, covering spaces of topological graphs). The second proof is quite similar in spirit but is based on groupoids (another way of viewing homotopy 1-types), and has the advantage that it circumvents the point-set topology considerations inherent to covering space theory. 
 
 +-- {: .proof} 
 ###### Topological Proof (sketch) 
@@ -40,9 +39,9 @@ This topological proof can be reformulated in more algebraic language, using a l
 +-- {: .proof}
 ###### Groupoidal Proof
 
-By the discussion at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_, we may think of the [[free group]] $F(S)$ as the [[fundamental group]] of a homotopy 1-type which is freely built from a single vertex and one loop from that vertex to itself for each element in $S$. This is the _[[free groupoid]]_ $*\sslash F(S)$ on this [[directed graph]] (a bouquet of circles). It is a classical fact (see at _[[universal principal bundle]]_) that the [[universal cover]] of this is the [[contractible]] groupoid $\mathbf{E}(F(S))$, the [[action groupoid]] $F(S)\sslash F(S)$ of $F(S)$ acting on itself from the right and that its [[quotient]] by the $F(S)$-action from the left recovers the original groupoid with fundamental group $F(S)$. The idea of the following proof is to instead quotient only by the given subgroup $H \hookrightarrow F(S)$ and hence obtain a groupoid with fundamental group $H$. It is then sufficient to observe that this quotient is still a [[free groupoid]] on a directed graph to conclude that $H$ is a free group.
+By the discussion at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_, we may think of the [[free group]] $F(S)$ as the [[fundamental group]] of a homotopy 1-type which is freely built from a single vertex and one loop from that vertex to itself for each element in $S$. This is the _[[free groupoid]]_ $*\sslash F(S)$ on this [[directed graph]] (a bouquet of circles). It is a classical fact (see at _[[universal principal bundle]]_) that the [[universal cover]] of this is the [[contractible]] groupoid $\mathbf{E}(F(S))$, the [[action groupoid]] $F(S)\sslash F(S)$ of $F(S)$ acting on itself from the right and that its [[quotient]] by the $F(S)$-action from the left recovers the original groupoid with fundamental group $F(S)$. If we instead quotient only by the given subgroup $H \hookrightarrow F(S)$, we obtain a connected groupoid with fundamental group $H$ (meaning simply that at any point or object $x$ of the groupoid, the group $\hom(x, x)$ is isomorphic to $H$). 
 
-So let $\mathbf{E} F(S) \coloneqq  F(S)\sslash F(S)$ be the action groupoid of $F(S)$ acting on itself (see also at [[universal principal bundle]]). This is [[contractible]], $\mathbf{E}F(S) \simeq *$, and comes with a canonical $F(S)$-[[action]] (from the other side). Hence it comes with an induced $H$-action and the [[quotient]] $H \backslash \mathbf{E}F(S) \simeq H \backslash \backslash *$ is [[generalized the|the]] connected groupoid whose [[fundamental group]] is $\pi_1 = H$. By the properties of [[free groupoids]] discussed at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_ it is sufficient to show that $H \backslash \mathbf{E}F(S)$ is isomorphic to the [[free groupoid]] on a connected [[directed graph]]. But $\mathbf{E}F(S)$ itself is the free groupoid on a directed graph, namely on the _action graph_ $F(S)\sslash S$ (which is the same as the [[Cayley graph]] given by a set $S$ of generators and no relations), and we may consider the quotient graph $H \backslash (F(S) \sslash S)$. The free groupoid functor $F$ preserves this quotient. Thus we have  
+Thus, consider the [[quotient]] $H \backslash \mathbf{E}F(S) \simeq H \backslash \backslash *$, [[generalized the|the]] connected groupoid whose [[fundamental group]] is $\pi_1 = H$. By the properties of [[free groupoids]] discussed at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_ it is sufficient to show that $H \backslash \mathbf{E}F(S)$ is isomorphic to the [[free groupoid]] on a connected [[directed graph]]. But $\mathbf{E}F(S)$ itself is the free groupoid on a directed graph, namely on the _action graph_ $F(S)\sslash S$ (which is the same as the [[Cayley graph]] given by a set $S$ of generators and no relations), and we may consider the quotient graph $H \backslash (F(S) \sslash S)$. The free groupoid functor $F$ preserves this quotient. Thus we have  
 
 $$
   H \backslash \mathbf{E}F\left(S\right) = H  \backslash F\left( F\left(S\right)\sslash S \right) =  F \left(\left(H \backslash F\left(S\right)\right)\sslash S\right)
