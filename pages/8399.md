@@ -314,7 +314,7 @@ $$
   \mathbf{Fields} \in \mathbf{H}
 $$ 
 
-be an object that represent the [[moduli ∞-stack]] of field configuration on $\Sigma$ for some [[model (in theoretical physics)]] to be described. For instance for $G \in Grp(\mathbf{H})$ an [[∞-group]] and $\mathbf{H}$ a [[cohesive homotopy type theory]], we could have $\mathbf{Fields} = \mathbf{B}G_{conn}$ the moduli for a choice of $G$-[[connection on an ∞-bundle|principel ∞-connection]], being the moduli for $G$-([[higher gauge theory|higher]])[[gauge fields]]. For general $\mathbf{Fields} = X \in \mathbf{H}$ we may always regard $X$ as the [[target space]] of a [[sigma-model]].
+be an object that represents the [[moduli ∞-stack]] of field configurations on $\Sigma$ for some [[model (in theoretical physics)]] to be described. For instance for $G \in Grp(\mathbf{H})$ an [[∞-group]] and $\mathbf{H}$ a [[cohesive homotopy type theory]], we could have $\mathbf{Fields} = \mathbf{B}G_{conn}$ the moduli for a choice of $G$-[[connection on an ∞-bundle|principal ∞-connection]], being the moduli for $G$-([[higher gauge theory|higher]])[[gauge fields]]. For general $\mathbf{Fields} = X \in \mathbf{H}$ we may always regard $X$ as the [[target space]] of a [[sigma-model]].
 
 Then the [[internal hom]] 
 
@@ -340,7 +340,7 @@ $$
 $$
 
 which is [[context enlargement]] by $\mathbf{B}\mathbf{Aut}(\Sigma)$, 
-the the moduli type $\mathbf{Fields}$ is freely moved to the general covariant context, where it is regaded as equipped with the [trivial ∞-action](infinity-action#TrivialAction). Accordingly we will write just $\mathbf{Fields} \in \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ with that trivial action understood, which is justified by the precise syntactic expression for it:
+the moduli type $\mathbf{Fields}$ is freely moved to the general covariant context, where it is regarded as equipped with the [trivial ∞-action](infinity-action#TrivialAction). Accordingly we will write just $\mathbf{Fields} \in \mathbf{H}_{/\mathbf{B}\mathbf{Aut}(\Sigma)}$ with that trivial action understood, which is justified by the precise syntactic expression for it:
 
 $$
   \Sigma : \mathbf{B}\mathbf{Aut}(\Sigma) \vdash \mathbf{Fields} : Type
@@ -385,7 +385,7 @@ is the [[homotopy quotient]] of the naive fields $\in \mathbf{Fields}(\Sigma)$ b
 
 This is precisely as it should be for configuration space of generally covariant theories. We have found:
 
-**Fact**. In terms of homotopy type theory, configuration spaces of a generally coveriant theory over $\Sigma$ are precisely the ordinary configuration spaces of fields, but formed in the context $\mathbf{B}\mathbf{Aut}(\Sigma)$:
+**Fact**. In terms of homotopy type theory, configuration spaces of a generally covariant theory over $\Sigma$ are precisely the ordinary configuration spaces of fields, but formed in the context $\mathbf{B}\mathbf{Aut}(\Sigma)$:
 
 $$
   \mathbf{Conf} =_{def}
