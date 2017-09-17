@@ -21,9 +21,9 @@ The traditional counting is, however, offset by two. The correspondence between 
 
  [[homotopy type theory]]  | [[(∞,1)-category theory]] |   groupoids
 ---------------------------|---------------------------|---------------------------
-   hlevel 0                |   (-2)-truncated          | [[(-2)-groupoid]]
-   hlevel 1                |   (-1)-truncated          | [[(-1)-groupoid]]/[[truth value]]
-   hlevel 2                |   0-truncated             | [[0-groupoid]]/[[set]]
+   hlevel 0                |   (-2)-truncated          | [[(-2)-groupoid]] 
+   hlevel 1                |   (-1)-truncated          | [[(-1)-groupoid]]/[[truth value]] / hProp
+   hlevel 2                |   0-truncated             | [[0-groupoid]]/h[[set]] 
    hlevel 3                |   1-truncated             | [[1-groupoid]]/[[groupoid]]
    hlevel 4                |   2-truncated             | [[2-groupoid]]
 
@@ -37,3 +37,6 @@ The traditional counting is, however, offset by two. The correspondence between 
 [[!redirects h-level 0]]
 [[!redirects h-level 1]]
 [[!redirects h-level 2]]
+
+[[!redirects hProp]]
+[[!redirects hSet]]
