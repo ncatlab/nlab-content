@@ -1,0 +1,557 @@
+
+> This entry contains one chapter of the material at _[[geometry of physics]]_.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## **Principal bundles**
+ {#PrincipalBundles}
+ {#PrincipalNBundles}
+
+
+### Model Layer
+
+#### Principal 1-Bundles
+
+Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[paracompact space|paracompact]]). 
+
+We give a discussion of smooth $G$-[[principal bundle]]s on $X$ in a manner that paves the way to a straightforward generalization to a description of [[principal ∞-bundle]]s.
+
+From the group $G$ we canonically obtain a [[groupoid]] that we write $\mathbf{B}G$ and call the [[delooping]] groupoid of $G$. Formally this groupoid is
+
+$$
+  \mathbf{B}G = (G \stackrel{\to}{\to} *)
+$$
+
+with composition induced from the product in $G$. A useful cartoon of this groupoid is
+
+$$
+  \mathbf{B}G = 
+  \left\{
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{g_1}}\nearrow 
+      &=& 
+      \searrow^{\mathrlap{g_2}}
+      \\
+      \bullet &&\stackrel{g_2 \cdot g_1 }{\to}&& \bullet
+    }
+  \right\}
+$$
+
+where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention whose choice, once and for all, does not matter up to equivalence.)
+
+But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathbf{B}G$  that makes it a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
+
+$$
+  \mathbf{B}G \in LieGrpd
+$$
+
+for $\mathbf{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[Smooth∞Grpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
+
+[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $B G_{disc}$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
+
+Also the smooth manifold $X$ may be regarded as a [[Lie groupoid]] -- a groupoid with only identity morphisms. Its cartoon description is simply
+
+$$
+  X = \{x \stackrel{id}{\to} x \}
+  \,.
+$$
+
+But there are other groupoids associated with $X$:
+
+Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. To this is canonically associated the [[Cech groupoid]] $C(\{U_i\})$. Formally we may write this groupoid as
+
+$$
+  C(\{U_i\})
+  =
+  \left(
+    \coprod_{i,j} U_i \cap U_j
+    \stackrel{\overset{p_1}{\to}}{\underset{p_2}{\to}}
+    \coprod_i U_i
+  \right)
+  \,.
+$$
+
+A useful cartoon description of this groupoid is
+
+$$
+  C(\{U_i\})
+  = 
+  \left\{
+    \array{
+       && (x,j)
+       \\
+       & \nearrow &=& \searrow
+       \\
+      (x,i) &&\to&& (x,k)
+    }
+  \right\}
+  \,.
+$$
+
+This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s. 
+hence also $C(U)$ becomes a [[Lie groupoid]].
+
+There is a canonical [[functor]]
+
+$$
+  C(\{U_i\}) \to X \;\; :\;\; (x,i) \mapsto x
+  \,.
+$$
+
+This functor is an [[internal functor]] in [[Diff]] and moreover it is evidently [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]]. 
+
+However, while 
+essential surjectivity and full-and-faithfulness implies that the underlying bare functor has a homotopy-inverse, that homotopy-inverse never 
+has itself smooth component maps, unless $X$ itself is a Cartesian space and the chosen cover is trivial.
+
+We do however want to think of $C(\{U_i\})$ as being equivalent to $X$ even as a Lie groupoid. 
+One says that a smooth functor whose underlying bare functor is an equivalence of groupoids is
+a _weak equivalence_ of Lie groupoids, which we write as 
+$C(\{U_i\}) \stackrel{\simeq}{\to} X$.
+Moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its non-empty finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{dim X}$. 
+
+We shall discuss later in which precise sense this condition makes $C(U)$ _good_ in the sense that smooth functors out of $C(U)$ model the correct notion of morphism out of $X$ in the context of smooth groupoids (namely it will mean that $C(U)$ is cofibrant in a suitable [[model category]] structure on the category of Lie groupoids). The formalization of this statement is what [[(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
+
+Observe that a [[functor]]
+
+$$
+  g : C(U) \to \mathbf{B}G
+$$
+
+is given in components precisely by a collection of functions
+
+$$
+  \{g_{i j} : U_{i j} \to G \}_{i,j \in I}
+$$
+
+such that on each $U_i \cap U_k \cap U_j$ the equality $g_{j k} g_{i j}  = g_{i k}$ of [[smooth function]]s holds:
+
+$$
+  \left(
+    \array{
+       && (x,j)
+       \\
+       & \nearrow && \searrow
+       \\
+      (x,i) &&\to&& (x,k)
+    }
+  \right)
+  \mapsto
+  \left(
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_{i j}(x)}}\nearrow
+       && \searrow^{\mathrlap{g_{j k}(x)}}
+       \\
+      \bullet &&\stackrel{g_{i k}(x)}{\to}&& \bullet
+    }
+  \right)
+  \,.
+$$
+
+It is well known that such collections of functions characterize $G$-[[principal bundle]]s on $X$. While this is a classical fact, we shall now describe a way to derive it that is true to the Lie-groupoid-context and that will make clear how smooth principal $\infty$-bundles work.
+
+First observe that in total we have discussed so far [[span]]s of smooth functors of the form
+
+$$
+  \array{
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+  \,.
+$$
+
+Such spans of functors, whose left leg is a weak equivalence, are sometimes known, essentially equivalently, as [[Morita morphism]]s or _generalized morphisms_ of Lie groupoids, as [[Hilsum-Skandalis morphism]]s or groupoid [[bibundle]]s, or as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined direct morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of $\infty$-Lie groupoids. 
+
+Now consider yet another Lie groupoid canonically associated with $G$: we shall write $\mathbf{E}G$ for the groupoid whose formal description is
+
+$$
+  \mathbf{E}G  = 
+  \left(
+    G \times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G 
+  \right)
+$$
+
+with the evident composition operation. The cartoon description of this groupoid is
+
+$$
+  \mathbf{E}G
+  = 
+  \left\{
+     \array{
+        && g_2
+        \\
+        & {}^{\mathllap{g_2 g_1^{-1}}}\nearrow &=& \searrow^{\mathrlap{g_3 g_2^{-1}}}
+        \\
+        g_1 &&\stackrel{ g_3 g_1^{-1}}{\to}&& g_3
+     }
+  \right\}
+  \,,
+$$
+
+This again inherits an evident smooth structure from the smooth structure of $G$ and hence becomes a Lie groupoid.
+
+There is an evident [[forgetful functor]]
+
+$$
+  \mathbf{E}G \to \mathbf{B}G
+$$
+
+which sends
+
+$$
+  (g_1 \to g_2) \mapsto (\bullet \stackrel{g_2 g_1^{-1}}{\to} \bullet)
+  \,.
+$$
+
+Consider then the [[pullback]] diagram
+
+$$
+  \array{
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+$$
+
+in the category $Grpd(Diff)$.
+The object $\tilde P$ is the Lie groupoid whose cartoon description is
+
+
+$$
+  \array{
+    \tilde P = 
+    \left\{
+       \array{
+          (x,i,g_1) &&\stackrel{}{\to}&& (x,j,g_2 = g_{i j}(x) g_1 )
+       }
+   \right\}
+  }
+  \,,
+$$
+
+where there is a unique morphism as indicated, whenever the group labels match as indicated. Due to this uniqueness, this Lie groupoid is weakly equivalent to one that comes just from a manifold $P$ (it is 0-[[truncated]])
+
+$$
+  \tilde P \stackrel{\simeq}{\to} P
+  \,.
+$$
+
+This $P$ is traditionally written as
+
+$$
+  P = \left( \coprod_{i} U_i \times G \right)/{\sim}
+  \,,
+$$
+
+where the [[equivalence relation]] is precisely that exhibited by the morphisms in $\tilde P$. This is the traditional way to construct a $G$-[[principal bundle]] from cocycle functions $\{g_{i j}\}$. We may think of $\tilde P$ as _being_ $P$. It is a particular _representative_ of $P$ in the $(\infty,1)$-topos of Lie groupoids.
+
+While it is easy to see in components that the $P$ obtained this way does indeed have a principal $G$-[[action]] on it, for later generalizations it is crucial that we can also recover this in a general abstract way. For notice that there is a canonical [[action]]
+
+$$
+  (\mathbf{E}G) \times G \to \mathbf{E}G
+$$
+given by the action of $G$ on the space of objects, which are themselves identified with $G$.
+
+Then consider the [[pasting]] diagram of pullbacks
+
+$$
+  \array{
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+  }
+  \,.
+$$
+
+The morphism $\tilde P \times G \to \tilde P$ exhibits the principal $G$-[[action]] of $G$ on $\tilde P$.
+
+
+In summary we find
+
++-- {: .num_prop}
+###### Observation
+
+For $\{U_i \to X\}$ a [[good open cover]], there is an [[equivalence of categories]]
+
+$$
+  SmoothFunc(C(\{U_i\}), \mathbf{B}G)
+  \simeq
+  G Bund(X)
+$$
+
+between the [[functor category]] of smooth functors and smooth natural transformations, and the groupoid of smooth $G$-[[principal bundle]]s on $X$. 
+
+=--
+
+It is no coincidence that this statement looks akin to the maybe more familiar statement which says that _equivalence classes_ of $G$-principal bundles are classified by [[homotopy]]-classes of morphisms of [[topological space]]s 
+
+$$
+  \pi_0 Top(X, \mathbf{B}G)
+  \simeq
+  \pi_0 G Bund(X)
+  \,,
+$$
+
+where $\mathbf{B}G \in $ [[Top]] is the topological [[classifying space]] of $G$. The category [[Top]] of topological spaces, regarded as an [[(∞,1)-category]], is the archetypical [[(∞,1)-topos]] the way that [[Set]] is the archetypical [[topos]]. And it is equivalent to [[∞Grpd]], the $(\infty,1)$-category of bare [[∞-groupoid]]s. What we are seeing above is a first indication of how [[cohomology]] of bare $\infty$-groupoids is lifted to a richer $(\infty,1)$-topos to cohomology of $\infty$-groupoids with extra structure.
+
+In fact, all of the statements that we have considered so far become conceptually _simpler_ in the $(\infty,1)$-topos. We had already remarked that the [[anafunctor]] span $X \stackrel{\simeq}{\leftarrow} C(U) \stackrel{g}{\to} \mathbf{B}G$ is really a model for what is simply a direct morphism $X \to \mathbf{B}G$ in the $(\infty,1)$-topos. But more is true: that pullback of $\mathbf{E}G$ which we considered is just a model for the [[homotopy pullback]] of just the _point_ 
+
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+     \\
+     {}
+     \\
+     {}
+     \\
+     & in\;the\;model\;category &
+  }
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \array{
+     \vdots && \vdots
+     \\
+     P \times G &\to& G
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow
+     \\
+     P &\to& * 
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow 
+     \\
+     X &\stackrel{}{\to}& \mathbf{B}G
+     \\
+     .
+     \\
+     .
+     \\
+     \\
+     \\
+     & in\;the\;(\infty,1)-topos
+  }
+  \,.
+$$
+
+
+
+#### Universal principal bundle
+
+* [[groupal model for universal principal infinity-bundles]]
+
+#### Principal bundles
+
+also
+
+$$
+  \mathbf{E}G
+  =
+  G \sslash G
+  = 
+  \left(
+     G\times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G 
+  \right)
+  \,.
+$$
+
+canonical map
+
+$$
+  \array{
+    \mathbf{E}G
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G
+  }
+$$
+
+[[universal principal bundle]]
+
+for $X$ a [[smooth space]] a $G$-[[principal bundle]] over $X$ is a smooth space $P$ with map $P \to X$ such that there is a diagram 
+
+$$
+  \array{ 
+     P &\stackrel{\simeq}{\leftarrow}& \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow &pb& \downarrow
+     \\
+     X &\stackrel{\simeq}{\leftarrow}& \tilde X &\underset{g}{\to}& \mathbf{B}G
+  }
+$$
+
+where the left horizontal morphisms are [[weak equivalences]]
+and the right square is a [[pullback]]
+
+
+#### Weakly principal simplicial bundles
+
+The [[principal ∞-bundle]]s that we wish to model are already the main and simplest example of the application of these three items: 
+
+Consider an object $\mathbf{B}G \in [C^{op}, sSet]$ which is an $\infty$-groupoid with a single object, so that we may think of it as the [[delooping]] of an [[∞-group]] $G$, let $*$ be the point and $* \to \mathbf{B}G$ the unique inclusion map. The _good replacement_ of this inclusion morphism is the $G$-[[universal principal ∞-bundle]] $\mathbf{E}G \to \mathbf{B}G$ given by the pullback diagram
+  
+$$
+  \array{ 
+    \mathbf{E}G &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G^{\Delta[1]} &\to& \mathbf{B}G
+    \\
+    \downarrow
+    \\
+     \mathbf{B}G
+   }
+$$
+
+An [[∞-anafunctor]] $X \stackrel{\simeq}{\leftarrow} \hat X \to \mathbf{B}G$ we call a [[cocycle]] on $X$ with coefficients in $G$, and the [[(∞,1)-pullback]] $P$ of the point along this cocycle, which by the above discussion is the ordinary [[limit]]
+
+
+$$
+  \array{ 
+    P &\to& \mathbf{E}G &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    && \mathbf{B}G^I &\to& \mathbf{B}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \hat X &\stackrel{g}{\to}& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+we call the [[principal ∞-bundle]] $P \to X$ classified by the cocycle.
+
+It is now evident that our discussion of ordinary smooth principal bundles [above](#PrincipalBundles) is the special case of this for $\mathbf{B}G$ the [[nerve]] of the one-object groupoid associated with the ordinary [[Lie group]] $G$.
+
+So we find the complete generalization of the situation that we already indicated there, which is summarized in the following diagram:
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+     \\
+     {}
+     \\
+     {}
+     \\
+     & in\;the\;model\;category &
+  }
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
+  \array{
+     \vdots && \vdots
+     \\
+     P \times G &\to& G
+     \\
+     \downarrow && \downarrow
+     \\
+     P &\to& * 
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow 
+     \\
+     X &\stackrel{}{\to}& \mathbf{B}G
+     \\
+     .
+     \\
+     .
+     \\
+     \\
+     \\
+     & in\;the\;(\infty,1)-topos
+  }
+  \,.
+$$
+
+
+* [[simplicial principal bundle]]
+
+
+
+### Semantic Layer
+
+#### Principal $\infty$-bundles
+
+* [[homotopy fiber]]
+
+* [[homotopy colimit]]
+
+* [[principal infinity-bundle]]
+
+### Syntactic Layer
+
+* [[connected type]]
+
