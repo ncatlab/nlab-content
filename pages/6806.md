@@ -25,6 +25,10 @@ The [[worldline]] theory of a collection of D0-branes is supposed to be describe
 
 ### Nonperturbative dynamics and M-theory
 
+The [[non-perturbative quantum field theory|non-perturbative]] limit of [[type IIA superstring theory]] is supposed to be [[M-theory]] compactified on a circle. 
+
+The degree-2 [[RR-field]] that the D0-brane is charged under, with local potential 1-form $A_1$ may be understood as the [[Kaluza-Klein compactification|KK-field]] induced by this compactification, hence as one part of the field of [[gravity]] in [[11-dimensional supergravity]].
+
 One aspect of the [[M-theory]] conjecture is that [[type IIA string theory]] with a [[condensate]] of [[D0-branes]] behaves like a 10-dimensional theory that develops a further circular dimension of [[radius]] scaling with the density of [[D0-branes]].  ([Banks-Fischler-Shenker-Susskind 97](#BanksFischlerShenkerSusskind97), [Polchinski 99](#Polchinski99)). See also ([FSS 13, section 4.2](#FSS13)).
 
 
