@@ -67,6 +67,7 @@ $$
 }
 $$
 where the right-hand square is a comma square.  Then the following are equivalent:
+
 * the whole diagram is a comma square
 * the left-hand square is a (2-)pullback square
 
