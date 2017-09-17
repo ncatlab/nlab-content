@@ -1,0 +1,11 @@
+
+
+A [[monad (in computer science)]].
+
+(...)
+
+$X \mapsto [[X, S], S]$
+
+(...)
+
+[[!redirects continuation monads]]
