@@ -1096,11 +1096,10 @@ An iterartive definition in terms of [[n-fold complete Segal spaces]] is given i
 * [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  {#Lurie}
 
-A summary of definitions and some known comparison results can be found at
+A summary of definitions and some known comparison results can be found in
 
-* [[Julie Bergner]], *Models for $(\infty, n)$-categories and the cobordism hypothesis*, [arXiv:1011.0110](http://arxiv.org/abs/1011.0110)
-
-* [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Urs Schreiber]], [[Hisham Sati]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, volume 83 
+ AMS (2011) ([arXiv:1011.0110](http://arxiv.org/abs/1011.0110))
 
 An axiomatic characterization is in 
 
