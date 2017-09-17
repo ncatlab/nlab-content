@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Functional analysis
 +--{: .hide}
 [[!include functional analysis - contents]]
@@ -9,12 +9,9 @@
 =--
 =--
 
-
-
 # Banach spaces
 * table of contents
 {: toc}
-
 
 ## Idea
 
@@ -28,13 +25,14 @@ where $1 \leq p \leq \infty$ (this doesn't strictly make sense for $p = \infty$,
 
 However, the theory of these spaces is not much more complicated than that of finite dimensional vector spaces because they all have the same underlying topology.   When we look at infinite-dimensional examples, however, things become trickier.  Common examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
 
+
 ## Definitions
 
 Let $V$ be a [[vector space]] over the field of [[real number]]s.  (One can generalise the choice of [[field]] somewhat.)  A **pseudonorm** (or **seminorm**) on $V$ is a function
 $$ {\| - \|}\colon V \to \mathbb{R} $$
 such that:
 
-1.  $ {\|0\|} \geq 0 $;
+1.  $ {\|0\|} \leq 0 $;
 1.  $ {\|r v\|} = {|r|} {\|v\|} $ (for $r$ a [[scalar]] and $v$ a vector);
 1.  $ {\|v + w\|} \leq {\|v\|} + {\|w\|} $.
 
@@ -53,6 +51,7 @@ $$ {\left\| \sum_{i=1}^\infty v_i \right\|} \leq \sum_{i=1}^\infty {\|v_i\|} ,$$
 with the left-hand side guaranteed to exist if the right-hand side exists as a finite real number (but the left-hand side may exist even if the right-hand side diverges, the usual distinction between absolute and conditional convergence).
 
 If we do not insist on the space being complete, we call it a **normed (vector) space**.  If we have a [[topological vector space]] such that the topology comes from a norm, but we do not make an actual choice of such a norm, then we talk of a **normable space**.
+
 
 ### Banach spaces as metric spaces
 
@@ -73,9 +72,9 @@ Similarly, norms correspond to homogenous translation-invariant metrics and comp
 Thus a Banach space may equivalently be defined as a vector space equipped with a complete homogeneous translation-invariant metric.  Actually, one usually sees a sort of hybrid approach: a Banach space is a normed vector space whose corresponding metric is complete.
 
 
-### Morphisms of Banach spaces
+### Maps between Banach spaces
 
-If $V$ and $W$ are pseudonormed vector spaces, then the **norm** of a linear function $f: V \to W$ may be defined in either of these equivalent ways:
+If $V$ and $W$ are pseudonormed vector spaces, then the **norm** of a linear function $f\colon V \to W$ may be defined in either of these equivalent ways:
 
 *  $ {\|f\|} = \sup \{ {\|f v\|} \;|\; {\|v\|} \leq 1 \} $;
 *  $ {\|f\|} = \inf \{ r \;|\; \forall{v},\; {\|f v\|} \leq r {\|v\|} \} $.
@@ -90,12 +89,13 @@ For finite-dimensional spaces, any linear map has a well-defined finite norm.  I
 *  $f$ is Lipschitz continuous;
 *  ${\|f\|}$ is finite.
 
-In this case, we say that $f$ is **bounded**.  (In [[constructive mathematics]], it is necessary to further require that ${\|f\|}$ be [[located real number|located]].) If $f: V \to W$ is not assumed to be linear, then the above conditions are no longer equivalent.
+In this case, we say that $f$ is **bounded**.  (In [[constructive mathematics]], it is necessary to further require that ${\|f\|}$ be [[located real number|located]].) If $f\colon V \to W$ is not assumed to be linear, then the above conditions are no longer equivalent.
 
 The bounded linear maps from $V$ to $W$ themselves form a pseudonormed vector space $\mathcal{B}(V,W)$.  This will be a Banach space if (and, except for degenerate cases of $V$, only if) $W$ is a Banach space.  In this way, the category $Ban$ of Banach spaces is a [[closed category]] with $\mathbb{R}$ as the unit.
 
-The clever reader will note that we have not yet defined $Ban$ as a category! 
-There are many (nonequivalent) ways to do so.  In functional analysis, the usual notion of [[isomorphism]] for Banach spaces is a bounded bijective linear map $f:V \to W$ such that $f^{-1}:W \to V$ is also bounded. In this case one can accept all bounded linear maps between Banach spaces as morphisms.  Analysts sometimes refer to this as the "isomorphic category".
+The clever reader will note that we have not yet defined $Ban$ as a category!  There are many (nonequivalent) ways to do so.
+
+In [[functional analysis]], the usual notion of '[[isomorphism]]' for Banach spaces is a bounded bijective linear map $f\colon V \to W$ such that the [[inverse function]] $f^{-1}\colon W \to V$ (which is necessarily linear) is also bounded. In this case one can accept all bounded linear maps between Banach spaces as morphisms.  Analysts sometimes refer to this as the "isomorphic category".
 
 Another natural notion of isomorphism is a surjective linear isometry. In this case, we take a morphism to be a **short** linear map, or linear contraction: a linear map $f$ such that ${\|f\|} \leq 1$.  This category, which is what category theorists generally refer to as $Ban$, is sometimes referred to as the "isometric category" by analysts. Note that this makes the 'underlying set' (in the sense of $Ban$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
 $$ Hom_Ban(\mathbb{R},V) \cong \{ v \;|\; {\|v\|} \leq 1 \} $$
@@ -103,11 +103,18 @@ rather than the set of all vectors in $V$ (the underlying set of $V$ as a vector
 
 +-- {: .query}
 Yemon Choi: This is really here to remind myself how to make query boxes. But while I'm at it, is it really OK to refer to the "unit ball functor" as "taking the underlying set"? I notice that on the discussion about internal homs at [[internal hom]] it is claimed that "Every closed category is a [[concrete category]] (represented by $I$), and the underlying set of the internal hom is the external hom" which seems to require "underlying set" to be interpreted in this looser sense.
+
+_Toby_:  Sure, but the point of putting 'underlying set' in scare quotes is precisely to point out that the category-theoretic underlying set is not what one would normally expect.
 =--
 
 +-- {: .query}
 Mark Meckes: I've expanded this section in part to be consistent with analysts' terminology.  I've made some assumptions about category theorists' conventions which might not be correct.  (If I find time I might write about other categories of Banach spaces that analysts think about.)
+
+_Toby_:  Looks good to me!
 =--
+
+From a category-theorist\'s perspective, the isomorphic category is really the [[full image]] of the [[inclusion functor]] from $Ban$ to $TVS$ (the category of [[topological vector spaces]]), which may be denoted $Ban_{TVS}$.  If you\'re working in $Ban_{TVS}$, then you only care about the topological linear structure of your space (although you do also care that it can be derived from some metric); if you\'re working in $Ban$, then you care about all of the structure on the space.
+
 
 ## Examples
 
@@ -130,7 +137,7 @@ Many examples of Banach spaces are parametrised by an exponent $1 \leq p \leq \i
 
 ## Categorial operations on Banach spaces
 
-The category of Banach spaces is [[complete category|small complete]], [[cocomplete category|small cocomplete]], and [[symmetric monoidal closed category|symmetric monoidal closed]] with respect to its standard internal hom (described at [[internal hom]]). Some details follow.
+The category $Ban$ of Banach spaces is [[complete category|small complete]], [[cocomplete category|small cocomplete]], and [[symmetric monoidal closed category|symmetric monoidal closed]] with respect to its standard internal hom (described at [[internal hom]]). Some details follow.
 
 * The category of Banach spaces admits small [[product]]s. Given a small family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its product in $Ban$ is the subspace of the vector-space product
 $$\prod_{\alpha \in A} X_\alpha$$
@@ -157,7 +164,9 @@ To be described:
 *  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$).
 *  $Ban$ as a (somewhat larger) category with duals.
 
+
 ## Integration in Banach spaces
+
 This paragraph describes some aspects of integration theory in Banach spaces that are relevant to understand the literature about [[AQFT]]. In the given context, elements of a Banach space $\mathcal{B}$ are sometimes called vectors, a function or measure taking values in $\mathcal{B}$ are therefore called vector functions and vector measures. Functions and measures taking values in the [[field]] that the Banach space is defined upon as a vector space are called scalar functions and scalar measures. 
 
 We will consider two types of integrals:
@@ -166,7 +175,9 @@ We will consider two types of integrals:
 
 * integrals of scalar functions with respect to a vector measure, specifically the spectral integral of a normal operator on a Hilbert space.
 
+
 ### Bochner integral
+
 The Bochner integral is a direct generalization of the Lesbegue integral to functions that take values in a Banach space. Whenever you encounter an integral of a function taking values in a Banach space in the [[AQFT]] literature, it is safe to assume that it is meant to be a Bochner integral. Two points already explained by Wikipedia are of interest:
 
 1. A version of the dominated convergence theorem is true for the Bochner integral.
@@ -176,20 +187,29 @@ The Bochner integral is a direct generalization of the Lesbegue integral to func
 
 _reference_: Joseph Diestel: "Sequences and Series in Banach Spaces" ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0542.46007&format=complete)), chapter IV. 
 
-### spectral integral
+
+### The spectral integral
+
 The integral with respect to the spectral measure of a bounded normal operator on a Hilbert space is an example of a Banach space integral with respect to a vector measure.
 In this paragraph we present a well known, but somewhat less often cited result, that is of use in some proofs in some approaches to [[AQFT]], it is the version of the dominated convergence theorem for the given setting.
 
 Let A be a bounded normal operator on a Hilbert space and E be it's spectral measure (the "resolution of identity" in the terms of Dunford and Schwartz). Let $\sigma(A)$ be the spectrum of A. For a bounded complex Borel function f we then have
 $$
-           f(A) := \int_{\sigma(A)} f(\lambda) E(d\lambda)
+           f(A) \coloneqq \int_{\sigma(A)} f(\lambda) E(d\lambda)
 $$
 
-* theorem (dominated convergence): if the uniformly bounded sequence $\{f_n\}$ of complex Borel functions converges at each point of $\sigma(A)$ to the function $f$, then $f_n(A) \to f(A)$ in the strong operator topology.
++-- {: .un_theorem}
+###### Theorem (dominated convergence)
+If the uniformly bounded sequence $\{f_n\}$ of complex Borel functions converges at each point of $\sigma(A)$ to the function $f$, then $f_n(A) \to f(A)$ in the strong operator topology.
+=--
 
-_reference_: see Dunford, Schwartz II, chapter X, corollary 8.
++-- {: .proof}
+See Dunford, Schwartz II, chapter X, corollary 8.
+=--
+
 
 ### References
+
 One standard reference for this paragraph is
 
 * Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part I: General theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47001&format=complete))
@@ -226,4 +246,5 @@ and
 [[!redirects vector measures]]
 
 [[!redirects norm isomorphism]]
+[[!redirects norm-isomorphic]]
 [[!redirects norm isomorphic]]
