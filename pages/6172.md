@@ -62,5 +62,6 @@ Special characters
 
 
 [[!redirects searching in the nLab]]
-
+[[!redirects searching nLab]]
+[[!redirects searching the nLab]]
 category: meta
