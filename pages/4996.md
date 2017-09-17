@@ -23,7 +23,7 @@ An _$(\infty,1)$-cohesive site_ is a [[site]] such that the [[(∞,1)-category o
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A [[site]] $C$ is **$\infty$-cohesive** over [[∞Grpd]] if it is
@@ -64,7 +64,7 @@ In detail this means that $C$ is
   
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 These conditions are stronger than for a [[cohesive site]], which only guarantees cohesiveness of the 1-topos over it.
@@ -82,7 +82,7 @@ This definition is supposed to model the following ideas:
 
 ## Examples
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 The site for a [[presheaf topos]], hence with trivial topology, is $\infty$-cohesive if it has finite [[product]]s.
@@ -96,7 +96,7 @@ All covers $\{U_i \to U\}$ consist of only the [[identity]] morphism $\{U \stack
 
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples/Proposition
 
 The following [[site]]s are $\infty$-cohesive:
@@ -139,7 +139,7 @@ The fact that $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using
 
 ## Properties {#Properties}
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $C$ be an $\infty$-cohesive site. Then the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_{(\infty,1)}(C)$ over $C$ is a [[cohesive (∞,1)-topos]] that satisfies the axiom "discrete objects are concrete" .
@@ -150,7 +150,7 @@ If moreover for all objects $U$ of $C$ we have that $C(*,U)$ is [[inhabited set|
 
 Since the [[(n,1)-topos]] over a site for any $n \in \mathbb{N}$ arises as the full [[sub-(∞,1)-category]] of the $(\infty,1)$-topos on the $n$-[[truncated]] objects and since the definition of cohesive $(n,1)$-topos is compatible with such truncation, it follows that
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 Let $C$ be an $\infty$-cohesive site. Then for all $n \in \mathbb{N}$ the [[(n,1)-topos]] $Sh_{(n,1)}(C)$ is cohesive. 
@@ -173,7 +173,7 @@ To prove this, we need to show that
 
 The last two conditions we demonstrate now.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The functor $Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ whose existence is guaranteed by the above proposition preserves [[product]]s:
