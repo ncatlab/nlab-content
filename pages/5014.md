@@ -34,8 +34,13 @@ It is called an **[[étale groupoid]]** if in addition $s$ is a [[local homeomor
 
 ## Related entries
 
+* [[Lie groupoid]]
+
+* [[topological group]]
+
 * [[topological stack]]
 
+* [[amenable topological groupoid]]
 
 [[!redirects topological groupoids]]
 
