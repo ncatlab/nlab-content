@@ -33,6 +33,69 @@ A _Grothendieck (2,1)-topos_ is a [[(2,1)-category]] of [[(2,1)-sheaves]] over a
 
 See also [[higher topos theory]].
 
+## Properties
+
+### Characterization of 2-sheaf 2-toposes
+
+The [[2-toposes]] of [[2-sheaves]] over a [[2-site]] are special among all 2-toposes, in direct generalization of how [[sheaf toposes]] ("[[Grothendieck toposes]]") are special among all [[toposes]]. In that case, _[[Giraud's theorem]]_ famously characterizes sheaf toposes. This characterization has a 2-categorical analog: the _[[2-Giraud theorem]]_.
+
+### $(n,r)$-Localic 2-toposes
+
+A [[2-sheaf]] [[2-topos]] is "$(n,r)$-localic" or "$(n,r)$-truncated" if it has an [[(n,r)-site]] of definition.
+
+In particular a $(2,1)$-localic 2-topos is the same as a [[(2,1)-topos]].
+
+
+### In terms of internal categories
+
+Given a 2-topos $\mathcal{X}$, regard it is a [[2-site]] by equipping it with its [[canonical topology]]. 
+
++-- {: .num_defn}
+###### Definition
+
+Write $Cat(\mathcal{X})$ for the 2-category of _[[internal categories]]_ in $\mathcal{X}$, precisely: the 2-category of [[2-congruences]] and internal [[anafunctors]] between them (see [here](http://ncatlab.org/nlab/show/2-congruence#2CategoryOf2Congruences)).
+
+=--
+
+
++-- {: .num_theorem}
+###### Theorem
+
+For $\mathcal{X}$ a 2-topos, there is an [[equivalence of 2-categories]]
+
+$$
+  \mathcal{X} \simeq Cat(\mathcal{X})
+  \,.
+$$
+
+If $\mathcal{X}$ is $(2,1)$-localic, with a [[(2,1)-site]] of definition $C$, then there is already an equivalence
+
+$$   
+  \mathcal{X} \simeq Cat(Sh_{(2,1)}(C))
+$$
+
+with the 2-category of categories internal to the underlying [[(2,1)-topos]].
+
+If $\mathcal{X}$ is $1$-localic, with 1-site of definition, then there is even already an equivalence
+
+$$
+  \mathcal{X} \simeq Cat(Sh(C))
+$$
+
+with the internal categories in the underlying [[sheaf topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[2-Giraud theorem]], $\mathcal{X}$ is an [[exact 2-category]]. With this, the first statement is [this theorem](http://ncatlab.org/nlab/show/2-congruence#nCongExidempotent) at _[[2-congruence]]_.
+
+By the discussion at [[n-localic 2-topos]], a 2-sheaf 2-topos has _[[core in a 2-category|enough groupoids]]_ precisely if it has a [[(2,1)-site]] of definition, and has _[[core in a 2-category|enough discretes]]_ precisely if it has a 1-site of definition.
+With this the second and third statement is [this theorem](http://ncatlab.org/nlab/show/2-congruence#nCongOnGroupoidsAndDiscretes) at _[[2-congruence]]_.
+
+=--
+
 ## Examples
 
 ### The archetypical 2-topos
