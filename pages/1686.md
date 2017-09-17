@@ -325,7 +325,7 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
  {#BaseChangeSpectralSequence}
 
 For $R$ a [[ring]] write $R$[[Mod]] for its category of [[modules]].
-Given a [[homomorphism]] of [[ring]]s $f : R_1 \to R_2$ and an $R_2$-[[module]] $N$ there are composites of [[base change]] along $f$ with the [[hom-functor]] and the [[tensor product]] functor
+Given a [[homomorphism]] of [[ring]] $f : R_1 \to R_2$ and an $R_2$-[[module]] $N$ there are composites of [[base change]] along $f$ with the [[hom-functor]] and the [[tensor product]] functor
 
 $$
   R_1 Mod \stackrel{\otimes_{R_1} R_2}{\to} R_2 Mod \stackrel{\otimes_{R_2} N}{\to} Ab
@@ -339,7 +339,7 @@ $$
   \,.
 $$
 
-The [[derived functor]]s of $Hom_{R_2}(-,N)$ and $\otimes_{R_2} N$ are the [[Ext]]- and the [[Tor]]-functors, respectively, so the Grothendieck spectral sequence applied to these composites yields a [[base change]] spectral sequence for these.
+The [[derived functors]] of $Hom_{R_2}(-,N)$ and $\otimes_{R_2} N$ are the [[Ext]]- and the [[Tor]]-functors, respectively, so the [[Grothendieck spectral sequence]] applied to these composites yields [[base change spectral sequence]] for these.
 
 #### Hochschild-Serre spectral sequence
  {#HochschildSerreSpectralSequence}
@@ -389,7 +389,27 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 ### List of examples
  {#ListOfExamples}
 
-(using material from [Wikipedia](#Wikipedia))
+The following list of examples orders the various classes of spectral sequences by special cases: items further to the right are special cases of items further to the left.
+
+* ***[[spectral sequence of a filtered complex]]*** (approximate [[chain homology]] by higher-order [[relative homology]] in the presence of a [[filtered object|filtering]])
+
+  * [[Atiyah-Hirzebruch spectral sequence]] (compute [[generalized homology]] of a [[Serre fibration]] in terms of that of the base with [[coefficients]] in that of the [[fibers]])
+
+    * [[Serre spectral sequence]] (compute [[ordinary homology]] of a [[Serre fibration]] in terms of that of the base with [[coefficients]] in that of the [[fibers]])
+
+  * [[Eilenberg-Moore spectral sequence]] (compute homology of [[homotopy fiber products]])
+
+  * **[[spectral sequence of a double complex]]** (compute homology of [[total complex]] by filtering by row/column degree)
+
+    * **[[Grothendieck spectral sequence]]** (compute [[composition]] of two [[derived functors in homological algebra|derived functors]])
+
+      * [[base change spectral sequence]] (compute [[base change]]/[[extension of scalars]] in two stages)
+
+      * [[Leray spectral sequence]] (compute [[global sections]] in two stages)
+
+      * [[Hochschild-Serre spectral sequence]] (compute [[group cohomology]] in two stages)
+
+Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventually to be merged with the above.
 
 * [[Adams spectral sequence]] in [[stable homotopy theory]]
 
@@ -436,7 +456,7 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 
 * [[hyperhomology spectral sequence]] for calculating [[hyperhomology]]
  
-* [[Künneth spectral sequence]] for calculating the homology of a [[tensor product]] of [[differential gradedalgebras]]
+* [[Künneth spectral sequence]] for calculating the homology of a [[tensor product]] of [[differential graded algebras]]
 
 * [[Leray spectral sequence]] converging to [[abelian sheaf cohomology]]
 
@@ -450,11 +470,7 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 
 * [[Quillen spectral sequence]] for calculating the homotopy of a [[simplicial group]]
     
-* [[spectral sequence of a double complex]] for computing the homology of a [[total complex]]
-
 * [[spectral sequence of an exact couple]]
-
-* [[Universal coefficient spectral sequence]]
 
 * [[van Est spectral sequence]] converging to relative [[Lie algebra cohomology]]
 
