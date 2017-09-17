@@ -53,11 +53,20 @@ This may be expressed directly in terms of the notion of **homotopy group of a $
 
 
 
-## Topological Mackey-functors
+## In terms of Mackey-functors
 
-> ... see the references below, for the moment...
+A _Mackey functor_ with values in [[spectra]] ("spectral Mackey functor") is an [[(∞,1)-functor]] on a suitable  [[(∞,1)-category of correspondences]] 
+$Corr_1^{eff}(\mathcal{C}) \hookrightarrow Corr_1(\mathcal{C})$ which sends [[coproducts]] to [[smash product]]. (This is similar to the concept of [[sheaf with transfer]].)
 
-* [[Mackey functor]]
+$$
+  S \;\colon\; Corr_1^{eff}(\mathcal{C}) \longrightarrow Spectra
+$$
+
+For $G$ a [[finite group]] and $\mathcal{C}= G Set$ its category of [[permutation representations]], then $S$ is a genuine $G$-[[equivariant spectrum]] ([Guillou-May 11](#GuillouMay11)).
+ So in this case the [[homotopy theory]] of spectral Mackey functors is a presentation for [[equivariant stable homotopy theory]] ([Guillou-May 11](#GuillouMay11), [Barwick 14](#Barwick14)).
+
+For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](#Barwick14)) Mackey functors as originally defined in ([Dress 71](#Dress71)).
+
 
 
 ## Equivariant cohomology
@@ -72,17 +81,30 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 ## References
 
+Introductions and surveys include
+
 * [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_ ([pdf](http://math.uchicago.edu/~bohmann/basicequivnotions.pdf))
 
 * [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-The characterization of $G$-equivariant functors in terms of topological Mackey-functors is discussed in example 3.4 (i) of
+The characterization of $G$-equivariant functors in terms of topological [[Mackey functors]] is discussed in example 3.4 (i) of
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
 
 Something on modelling the equivariant stable category using functors on _all_ (nice) $G$-spaces (instead of on just the [[orbit category]]) is in 
 
-* Andrew Blumberg, _Continuous functors as a model for the equivariant stable homotopy category_ ([(arXiv:math.AT/0505512](http://arxiv.org/abs/math.AT/0505512))
+* [[Andrew Blumberg]], _Continuous functors as a model for the equivariant stable homotopy category_ ([(arXiv:math.AT/0505512](http://arxiv.org/abs/math.AT/0505512))
+
+A comprehensive construction of equivariant stable homotopy theory in terms of [[Mackey functors]] is in the series
+
+* B. Guillou and [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
+
+  _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+
+A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation is i 
+
+* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
+
 
 The [[May recognition theorem]] for $G$-spaces and genuine $G$-spectra is discussed in 
 
