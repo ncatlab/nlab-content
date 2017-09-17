@@ -153,16 +153,16 @@ $$
   \mathbb{Z}/p\mathbb{Z} \to 0
 $$
 
-constitutes a [[projective resolution]] of $\mathbb{Z}/p\mathbb{Z}$. Accordingly we have 
+constitutes a [[projective resolution]] (even a [[free resolution]]) of $\mathbb{Z}/p\mathbb{Z}$. Accordingly we have 
 
 $$
   \begin{aligned}
     Tor_1^\mathbb{Z}(\mathbb{Z}/p\mathbb{Z}, A)
     &\simeq
-    H_1( [\cdots\to 0 \to Hom(\mathbb{Z}, A) \stackrel{Hom(\cdot p,A)}{\to} Hom(\mathbb{Z}, A)] )
+    H_1( [\cdots\to 0 \to \mathbb{Z}\otimes A \stackrel{(\cdot p) \otimes A}{\to} \mathbb{Z} \otimes A )
     \\
     & \simeq
-    ker( Hom(\cdot p,A) )
+    ker( (\cdot p) \otimes A )
     \\
     & \simeq 
     \{ a\in A | p\cdot a = 0 \}
@@ -170,19 +170,19 @@ $$
   \,.
 $$
 
-Here we used that $\mathbb{Z}$ is the [[free group]] on one generator ($1 \in \mathbb{Z}$), so that an element $a \in A$ regarded as the image of $1$ defines equivalently a homomorphism
+Here in the last step we use that $(\cdot p)\otimes A$ acts as
 
 $$
-  a \colon \mathbb{Z} \stackrel{}{\to} A
+  \begin{aligned}
+    (1, a) &\mapsto  (p,a)
+    \\
+    & = p \cdot (1,a)
+    \\
+    & = (1, p \cdot a)
+  \end{aligned}
   \,.
 $$
 
-The [[hom-functor]]-homomorphism $Hom(\cdot p, A)$ takes this to the [[composition|composite]]
-
-$$
-  p \cdot a \colon \mathbb{Z} \stackrel{\cdot p}{\to} \mathbb{Z} \stackrel{a}{\to} A
-  \,.
-$$
 
 =--
 
@@ -194,9 +194,9 @@ Let $A$ and $B$ be [[abelian groups]]. Write $Tor^\mathbb{Z}$ for the [[left der
 
 1. $Tor^\mathbb{Z}_1(A,B)$ is a [[torsion group]].
 
-1. $Tor^{\mathbb{Z}}_1^(\mathbb{Q}/\mathbb{Z}, A)$ is the [[torsion subgroup]] of $A$.
+1. $Tor^{\mathbb{Z}}_1(\mathbb{Q}/\mathbb{Z}, A)$ is the [[torsion subgroup]] of $A$.
 
-1. $A$ is a [[torsion subgroup|torsion free group]] precisely if $Tor^\mathbb{Z}_1(A,-) = 0$, equivalently if $Tor^\mathbb{Z}_1(-,A) = 0$.
+1. $A$ is a [[torsion subgroup|torsion-free group]] precisely if $Tor^\mathbb{Z}_1(A,-) = 0$, equivalently if $Tor^\mathbb{Z}_1(-,A) = 0$.
 
 =--
 
@@ -217,6 +217,50 @@ Analogous results fail, in general, for $\mathbb{Z}$ replaced by another ring $R
 
 =--
 
+### Respect for direct sums and filtered colimits
+
++-- {: .num_prop}
+###### Proposition
+
+Each $Tor_n^R(-,N)$ resepects [[direct sums]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $S \in$ [[Set]] and let $\{N_s\}_{s \in S}$ be an $S$-family of $R$-[[modules]]. Observe that 
+
+1. if $\{(F_s)_\bullet\}_{s \in S}$ is an family of [[projective resolutions]], then their degreewise [[direct sum]] $(\oplus_{s \in S} F)_\bullet$ is a projective resolution of $\oplus_{s \in S} N_s$. 
+
+1. the tensor product functor distributes over direct sums (discussion at [tensor product of modules -- monoidal category structure](module#MonoidalCategoryStructure))
+
+1. the [[chain homology]] functor preserves direct sums (see at [chain homology - respect for direct sums](http://ncatlab.org/nlab/show/chain+homology+and+cohomology#RespectForDirectSum)).
+
+Using this we have
+
+$$
+  \begin{aligned}
+    Tor_n^R(\oplus_{s \in S} N_n, N)
+    & \simeq
+    H_n\left( \left( \left(\oplus_{s \in S} F\right) \otimes  N \right)_\bullet \right)
+    \\
+    & \simeq
+    H_n\left( \oplus_{s \in S} \left(F_s \otimes N \right)_\bullet  \right)
+    \\
+    & \simeq \oplus_{s \in S} H_n( (F_s \otimes N)_\bullet )
+    \\
+    & \simeq \oplus_{s \in S} Tor_n(N_s, N)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+### Symmetry in the two arguments
+
+(...)
 
 ### Localization
  {#Localization}
@@ -252,6 +296,9 @@ section 3 of
 * [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
  {#May}
 
+Original articles include
+
+* Patrick Keef, _On the Tor functor and some classes of abelian groups_,  Pacific J. Math. Volume 132, Number 1 (1988), 63-84. ([Euclid](http://projecteuclid.org/euclid.pjm/1102689795))
 
 
 
