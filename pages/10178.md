@@ -1543,6 +1543,8 @@ $$
 
 =--
 
+This perspective on the [[Green-Schwarz anomaly cancellation]] condition in [[heterotic string theory]] as an [[orientation in generalized cohomology|orientation]] in [[twisted cohomology|twisted]] [[tmf]] originates in ([Sati 10](#Sati10)).
+
 By analogy with the above discussion of _[D-brane charge](#DBraneCharge)_ the image of this map might be called the _$M9$-brane charge_. 
 
 
@@ -1751,7 +1753,12 @@ and ([Nuiten 13](#Nuiten13)).
 #### Elliptic cohomology and $tmf$
 
 
-The twisted Witten genus in the present of [[background gauge field]] hence for a [[twisted string structure]]/[[string^c structure]] was considered in 
+The twisted [[Witten genus]] in the presence of [[background gauge field]] hence for a [[twisted string structure]]/[[string^c structure]] was considered in 
 
 * Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_ ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
  {#ChenHanZhang10}
+
+The identification of the [[Green-Schwarz anomaly cancellation]] condition of [[heterotic string theory]] as a [[string^c structure]] and the proposal that this hence is to be regarded as an [[orientation in generalized cohomology|orientation]] in [[twisted cohomology|twisted]] [[tmf]] is due to 
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ ([arXiv:1001.5020](http://arxiv.org/abs/1001.5020))
+ {#Sati10}
