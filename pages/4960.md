@@ -130,13 +130,16 @@ There are several further axioms that one may want to impose in order to formali
 ###### Definition
 
 For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that 
-**cohesive pieces have points** or equivalently that **discrete objects are concrete** in $\mathcal{E}$ if the [[natural transformation]]
+**pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
 
 $$
-  f_* X \stackrel{\simeq}{\to} f_! f^* f_* X \to f_! X 
+  f_* X \stackrel{}{\to} f_* f^* f_! X \stackrel{\simeq}{\to} f_! X 
 $$
 
-is an [[epimorphism]] for all $X \in \mathcal{E}$, equivalently if the transformation
+is an [[epimorphism]] for all $X \in \mathcal{E}$.
+
+
+We say that **discrete objects are concrete**  if the transformation
 
 $$
   f^* S \to f^! f_* f^* S \stackrel{\simeq}{\to} f^! S
