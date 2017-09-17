@@ -226,8 +226,11 @@ The observation that this is just the special rank-1 case of the more general st
 
 The observation that the "multiplicative" structure of the WZW-[[B-field]] (induced from it being the [[transgression]] of the [[Chern-Simons circle 3-bundle|Chern-Simons circle 3-connection]] over the [[moduli stack]] of $G$-[[principal connections]]) induces the [[Verlinde ring]] fusion product structure on symmetric D-branes equipped with [[Chan-Paton gauge fields]] is discussed in 
 
-* [[Alan Carey]], [[Bai-Ling Wang]], _Fusion of symmetric $D$-branes and Verlinde rings_, Commun.Math.Phys.277:577-625 (2008) ([arXiv:math-ph/0505040](http://arxiv.org/abs/math-ph/0505040))
+* [[Alan Carey]], [[Bai-Ling Wang]], _Fusion of symmetric $D$-branes and Verlinde rings_, Commun. Math. Phys.277:577-625 (2008) ([arXiv:math-ph/0505040](http://arxiv.org/abs/math-ph/0505040))
 
+The image in [[K-theory]] of these [[Chan-Paton gauge fields]] over conjugacy classes is shown to generate the [[Verlinde ring]]/the [[positive energy representations]] of the [[loop group]] in 
+
+* [[Eckard Meinrenken]], _On the quantization of conjugacy classes_,  	Enseign. Math. (2) 55 (2009), no. 1-2, 33-75 ([arXiv:0707.3963](http://arxiv.org/abs/0707.3963))
 
 
 ### Relation to extended TQFT
