@@ -90,7 +90,7 @@ Yet properly learning Coq can be quite daunting, luckily the right material can 
 
 1. [[Benjamin Pierce]]'s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/) is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
 
-1. In a similar style, [[Andrej Bauer]] and [[Peter LeFanu Lumsdaine]] wrote a nice [Coq tutorial](https://github.com/andrejbauer/Homotopy/tree/master/OberwolfachTutorial) ([pdf](https://github.com/andrejbauer/Homotopy/blob/master/OberwolfachTutorial/univalence.pdf)) on [homotopy type theory](#HomotopyTypeTheory).
+1. In a similar style, [[Andrej Bauer]] and [[Peter LeFanu Lumsdaine]] wrote a nice [Coq tutorial](https://github.com/andrejbauer/Homotopy/tree/master/OberwolfachTutorial) ([pdf](https://github.com/andrejbauer/Homotopy/blob/master/OberwolfachTutorial/univalence.pdf)) on [homotopy type theory](#HomotopyTypeTheory). See also _[[Oberwolfach HoTT-Coq tutorial]]_.
 
 1. [[Adam Chlipala]]'s trimmed down version of [Certified Programming with Dependent Types](http://adam.chlipala.net/papers/CpdtJFR/) explains more advanced Coq techniques.
 
