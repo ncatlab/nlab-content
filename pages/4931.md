@@ -15,7 +15,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -285,6 +285,7 @@ See also the Math Overflow discussion [here](http://mathoverflow.net/questions/4
 
 [[!redirects open ball]]
 [[!redirects open balls]]
+[[!redirects open balll]]
 [[!redirects open n-ball]]
 [[!redirects open n-balls]]
 
@@ -313,7 +314,3 @@ See also the Math Overflow discussion [here](http://mathoverflow.net/questions/4
 [[!redirects open n-disks]]
 [[!redirects open n-disc]]
 [[!redirects open n-discs]]
-
-[[!redirects open interval]]
-[[!redirects open intervals]]
-
