@@ -88,9 +88,9 @@ Here the inclusions are homotopy equivalences and the left projection is a unive
 
 With regard to the inclusion maps above being homotopy equivalences, we remark in passing that the [[homogeneous space]] 
 
-$$SO^+(1, 3)/SO(2)$$ 
+$$SO^+(1, 3)/SO(3)$$ 
 
-is identified with the space of boost maps; topologically, it is $\mathbb{R}^3$, but geometrically this space carries hyperbolic structure as well, in other words the space of boosts carries a structure of hyperbolic 3-space $H^3$. 
+is identified with the space of boost maps (concretely, every element of $SO^+(1, 3)/SO(3)$ may be uniquely expressed as a composite of a rotation followed by a boost map); topologically, the space of boost maps is $\mathbb{R}^3$, but geometrically this space carries hyperbolic structure as well, in other words the space of boosts carries a structure of hyperbolic 3-space $H^3$. 
 
 ## Lie algebra presentations 
 
