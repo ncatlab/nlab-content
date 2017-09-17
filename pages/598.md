@@ -522,8 +522,15 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 * [[John Duskin]], _Simplicial methods and the interpretation of "triple" cohomology_, number  163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc. (1975)
 
+## Related concepts
 
-## General references 
+* [[simplicial topological group]]
+
+* [[∞-group]]
+
+* [[group object in an (∞,1)-category]]
+
+## References 
 
 A standard reference for the case of _abelian_ simplicial groups is [chapter 5](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi) of
 
