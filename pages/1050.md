@@ -1,8 +1,21 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
-
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
 #Contents#
 * tic
 {: toc}
@@ -10,16 +23,20 @@
 
 ## Idea 
 
-A functor is _left exact_ or [[flat functor|flat]] if it preserves [[finite limits]], and _right exact_ if it preserves [[finite colimits]].
+A [[functor]] is _left exact_ or [[flat functor|flat]] if it preserves [[finite limits]], and _right exact_ if it preserves [[finite colimits]].
+An functor is called _exact_ if it is both left and right exact.
+
+Specifically [[Ab]]-[[enriched functor]]s between [[abelian categories]] are exact if they preserve [[exact sequence]]s.
 
 
-##Definition#
+## Definition#
 
 * A [[functor]] $F : C \to D$ is **right exact** if for all [[objects]] $d \in D$ the [[comma category]] $F/d$ is [[filtered category|filtered]].
 
 * A [[functor]] $F : C \to D$ is **left exact** if for all [[objects]] $d \in D$ the [[opposite category|opposite]] [[comma category]] $(d/F)^{op}$ is [[filtered category|filtered]].
 
 * A [[functor]] is **exact** if it is both left and right exact.
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -56,19 +73,7 @@ is the equalizer of $F(f), F(g): F(c) \stackrel{\to}{\to} F(d)$, whenever $i: e 
  
 
 
-
-
-+-- {: .un_prop}
-###### Proposition
-
-A functor between [[abelian categories]] is left exact if and only if it preserves [[direct sums]] and [[kernels]]. 
-
-A functor between [[abelian categories]] is right exact if and only if it preserves [[direct sums]] and [[cokernels]].  
-
-=--
-
-
-##Terminology
+## Terminology
 
 Frequently the term "left exact" is restricted to the case that $C$ has all [[finite limits]]. If so,  then the general case is called a [[flat functor]]. 
 
@@ -78,6 +83,47 @@ Conceivably, it might be used also in the more general case, but to refer to a w
 
 'Left exact' is sometimes abbreviated **lex**.  In particular, [[Lex]] is the 2-category of categories with [[finite limits]] and lex functors.  See also [[continuous functor]].   Similarly, but more rarely, 'right exact' is sometimes abbreviated as **rex**.
 
+## Between abelian categories
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+A functor $F : C \to D$ between [[abelian categories]] is left exact if and only if it preserves [[direct sums]] and [[kernels]]. 
+
+A functor $F : C \to D$ between [[abelian categories]] is right exact if and only if it preserves [[direct sums]] and [[cokernels]].  
+
+=--
+
+In particular for $0 \to A \to B \to C \to 0$ is an [[exact sequence]] in the abelian category $C$, we have that 
+
+* if $F$ is left exact then 
+
+  $$
+    0 \to F(A) \to F(B) \to F(C)
+  $$
+
+  is an exact sequence in $D$;
+
+* if $F$ is right exact then 
+
+  $$
+    F(A) \to F(B) \to F(C) \to 0
+  $$
+
+  is an exact sequence in $D$;
+
+* if $F$ is exact then 
+
+  $$
+    0 \to F(A) \to F(B) \to F(C) \to 0
+  $$
+
+  is an exact sequence in $D$.
+
+Also: if $F$ is exact then it preserves [[chain homology]].
+
 ## In higher category theory
 
 The notion of exact functor has straightforward analogs in [[higher category theory]].
@@ -85,11 +131,16 @@ The notion of exact functor has straightforward analogs in [[higher category the
 For [[(∞,1)-category]] theory see [[exact (∞,1)-functor]].
 
 
-##References
+## References
 
-for instance section 3.3 of
+A general discussion is for instance section 3.3 of
 
-* Kashiwara, Schapira, [[Categories and Sheaves]]
+* Kashiwara, Schapira, _[[Categories and Sheaves]]_
+
+A detailed discussion of how the property of a functor being exact is related to the property of it preserving homology in generalized situations is in 
+
+* [[Michael Barr]], _Preserving homology_ , Theory and Applications of Categories,  Vol. 16, 2006, No. 7, pp 132-143. ([TAC](http://www.tac.mta.ca/tac/volumes/16/7/16-07abs.html))
+
 
 [[!redirects left exact]]
 [[!redirects left exact functor]]
