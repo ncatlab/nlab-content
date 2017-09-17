@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,7 +32,7 @@ Similarly, if one already looks at [[p-local spectra]] then torsion approximatio
 
 ## Properties
 
-Under suitable conditions, torsion approximation forms an [[adjoint modality]] with [[adic completion]]. See at _[[fracture theorem]]_ for more on this.
+Under suitable conditions, torsion approximation forms an [[adjoint modality]] with [[adic completion]]. See at _[Fracturing for chain complexes](fracture+theorem#CompletionAndTorsionOnDerivedCategories)_ for more on this.
 
 ## References
 
