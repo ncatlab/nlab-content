@@ -32,9 +32,6 @@ If we look at this in the case of the relation coming from a space $X$ and an op
 
 There are natural questions that arise here. One is how to turn these [[simplicial complexes]] into [[simplicial sets]], to which one reply is take a total order (or at least pick a partial order that any simplex is ordered in that partial order; another reply would be to take each $n$-simplex $(n+1)!$-times, one for each possible order. 
 
-+--{: .query} 
-[[Tim]]: I am not sure what happens to the homotopy types.  It may be they both give the same. Mostly people take the total order way out, but that feels a bit [[evil]]!
-=--
 
 Another obvious question is to compare $V(R)$ and $C(R)$: are they closely related?  That is discussed more in [[Dowker's Theorem]].  It looks very much a situation for a combinatorial duality result.
 
