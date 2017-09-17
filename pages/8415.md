@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -87,9 +87,10 @@ One place where this appears is ([Hewitt 47](#Hewitt47)).
 
 The topological spaces satisfying the conditions of
 prop. \ref{UniqueCompactificationOfAlmostCompactSpaces}
-are also called [[almost compact topological spaces]].
+are also called [[almost compact topological space|almost compact topological spaces]].
 
 =--
+
 
 ## Examples 
 
@@ -113,9 +114,12 @@ are also called [[almost compact topological spaces]].
 
   * [[Freund-Rubin compactification]]
 
+
 ## References
 
 * Edwin Hewitt, _Certain generalizations of the Weierstrass approximation theorem_,  Duke Math. J. Volume 14, Number 2 (1947), 419-427. ([Euclid](http://projecteuclid.org/euclid.dmj/1077474139))
   {#Hewitt47}
+
+
 [[!redirects compactification]]
 [[!redirects compactifications]]
