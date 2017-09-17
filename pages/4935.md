@@ -83,11 +83,16 @@ There are several lower boundas on the [injectivity radius](#InjectivityRadius) 
 +-- {: .un_proposition}
 ###### Proposition
 
-The convexity radius is always less than or equal to half of the injectivity radius.
+The convexity radius is always less than or equal to half of the injectivity radius:
+
+$$
+  conv (X,g) \leq \frac{1}{2} inj(X,g)
+  \,.
+$$
 
 =--
 
-This appears for instance as proposition 95 in ([Berger](#Berger)).
+This appears for instance as proposition IX.6.1 in [Chavel](#Chavel), where it is attributed to M. Berger (1976). In ([Berger](#Berger)) it is proposition 95. 
 
 
 
@@ -140,6 +145,11 @@ A general exposition is in sectin 6 "Injectivity, Convexity radius and cut locus
 
 * Marcel Berger, _A panoramic view of Riemannian geometry_
 {#Berger}
+
+Also section IX of
+
+* Isaac Chavel, _Riemannian geometry: a modern introduction_
+{#Chavel}
 
 A survey of the main estimates is in
 
