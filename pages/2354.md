@@ -1,12 +1,11 @@
+
 <div class="rightHandSide toc">
 [[!include 2-category theory - contents]]
 </div>
 
 # $2$-pullbacks
-
 * tic
 {: toc}
-
 
 An ordinary [[pullback]] is a [[limit]] over a [[diagram]] of the form $A \to C \leftarrow B$.  Accordingly, a __2-pullback__ (or **2-fiber product**) is a [[2-limit]] over such a diagram.
 
@@ -41,10 +40,12 @@ $$\array{Z & \overset{r}{\to} &A \\
 $$\array{Z & \overset{v}{\to} &A \\
   ^w\downarrow & \cong & \downarrow^f\\
   B& \underset{g}{\to} &C }$$
-in which the triangles commute up to isomorphism, there exists a morphism $u:Z\to P$ and isomorphisms $p u \cong v$ and $q u \cong w$ which are coherent with the given ones above, and (2) given any two morphisms $u,t:Z\to P$ and 2-cells $\alpha:p u \to p t$ and $\beta:q u \to q t$ such that $f \alpha = g \beta$ (modulo the given isomorphism $f p \cong g q$), there exists a unique 2-cell $\gamma:u\to t$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
+in which the triangles commute up to isomorphism, there exists a morphism $u\colon Z \to P$ and isomorphisms $p u \cong v$ and $q u \cong w$ which are coherent with the given ones above, and (2) given any two morphisms $u,t\colon Z \to P$ and 2-cells $\alpha\colon p u \to p t$ and $\beta\colon q u \to q t$ such that $f \alpha = g \beta$ (modulo the given isomorphism $f p \cong g q$), there exists a unique 2-cell $\gamma\colon u \to t$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
 
 +--{.query}
 Stephan: I would not write $f\alpha =g \beta$ since 1-cells are not composable with 2-cells.
+
+_Toby_:  They are, through the operation of [[whiskering]].
 =--
 
 To see that these definitions are equivalent, we observe that both assert the [[representable functor|representability]] of some [[2-functor]] (where "representability" is understood in the 2-categorical "up-to-equivalence" sense), and that the corresponding 2-functors are equivalent.
@@ -62,6 +63,7 @@ We have a canonical [[pseudonatural transformation]] $F_2\to F_1$ that forgets $
 ## Variations
 
 2-pullbacks can also be identified with [[homotopy pullbacks]], when the latter are interpreted in $Cat$-enriched homotopy theory.
+
 
 ### Strict 2-pullbacks
 
@@ -84,25 +86,7 @@ Every strict iso-comma object, and every strict pseudo-pullback, is also a (non-
 Replacing the isomorphism $\mu$ in the simplified definition by a mere transformation results in a [[comma object]], while replacing $\kappa$ and $\lambda$ in the unsimplified definition by mere transformations results in a [[lax pullback]].  In a [[(2,1)-category]], any [[comma object]] or [[lax pullback]] is also a 2-pullback, but this is not true in a general 2-category.  Note that comma objects are often misleadingly called lax pullbacks.
 
 
-## Discussion
-
-A previous version of this entry prompted the following discussion.
-
-+-- {: .query}
-Zoran: I disagree with a second part of the sentence. If it were a 2-limit of THAT diagram strictly speaking we would have from it an arrow to $C$ (which can be skipped in 1-categorical situation as it is superfluous) and several 2-cells in the story. So there is some confusion between sisters like comma objects, 2-pullbacks and alike. 
-
-_Toby_:  It seems to me that (without loss of generality) you can take the arrow to $C$ to be (following the picture below) the composite $P \overset{p}\to A \overset{f}\to C$ (or the composite $P \overset{q}\to B \overset{g}\to C$ if you prefer).  But identifying comma objects with lax pullbacks may be trickier.
-
-[[Mike Shulman]]: I agree with Toby.  The default sense of "2-limit" on the nLab is up to isomorphism everywhere, i.e. what other people call a "bilimit".  In this sense, it is true that a 2-pullback is a 2-limit of a simple cospan; the distinction between iso-comma objects and pseudopullbacks disappears in the world of bilimits, where the limit is only characterized up to equivalence.
-
-Comma objects, however, are never the same as lax pullbacks, except of course in a (2,1)-category.
-
-Zoran: giving in some version of 2-categories the same vertex (of 2-limit) or not, it is principal difference that it is not in the definition of 2-cones of such diagrams to force that the arrow to $C$ is the same as the composition $P\to A\to C$ as Toby states. The arrow to $C$ if it were the 2-limit to that diagram would disagree with $P\to A\to C$ by a 2-cell. Thus the arrow $P\to C$ is a separate datum to include in that case. So the definitions are different. Now, depending on weather we have pseudo, lax, colax, or bilimit this may have or may have not repercussions on the outcome for the vertex of the 2-limit, but this is less important. 
-
-_Toby_:  Please note my 'without loss of generality'.  The two definitions (the simplified one below, and the general limit-based one) are equivalent; specifically, each (universal) limit cone is uniquely isomorphic to the one in which the arrow to $C$ is taken to be $P\to A\to C$.
-=--
-
-
+[[!redirects 2-pullback]]
 [[!redirects 2-pullbacks]]
 [[!redirects 2-fiber product]]
 [[!redirects 2-fiber products]]
@@ -110,6 +94,7 @@ _Toby_:  Please note my 'without loss of generality'.  The two definitions (the 
 [[!redirects bipullbacks]]
 [[!redirects bi-pullback]]
 [[!redirects bi-pullbacks]]
+
 [[!redirects bi-iso-comma-object]]
 [[!redirects bi-iso-comma-objects]]
 [[!redirects iso-comma-object]]
@@ -120,12 +105,14 @@ _Toby_:  Please note my 'without loss of generality'.  The two definitions (the 
 [[!redirects iso-comma objects]]
 [[!redirects strict iso-comma object]]
 [[!redirects strict iso-comma objects]]
+
 [[!redirects pseudopullback]]
 [[!redirects pseudopullbacks]]
 [[!redirects pseudo-pullback]]
 [[!redirects pseudo-pullbacks]]
 [[!redirects pseudo pullback]]
 [[!redirects pseudo pullbacks]]
+
 [[!redirects strict pseudopullback]]
 [[!redirects strict pseudopullbacks]]
 [[!redirects strict pseudo-pullback]]
