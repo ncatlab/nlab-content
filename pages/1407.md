@@ -42,11 +42,11 @@ Below we indicate the basic idea and provide pointers to further details. See al
 
 ### Conceptually: String perturbation theory from QFT worldline formalism
 
-_Perturbative string theory_ is something at least close to a [[vertical categorification|categorification]] of the following description of _perturbative quantum field theory_ in terms of sums over Feynman diagrams.
+_Perturbative string theory_ is something at least close to a [[vertical categorification|categorification]] of the following description of _[[perturbation theory|perturbative]] [[quantum field theory]]_ in terms of sums over [[Feynman diagrams]].
 
-Recall that in [[quantum field theory]] one approach to make sense of the [[path integral]] is the _[[perturbation series]] expansion_,  which interprets the path integral as a certain sum over [[graphs]] of certain numbers assigned to each graph.
+Recall that in [[quantum field theory]] one approach to make sense of the [[path integral]] is the _[[perturbation series]] expansion_,  which interprets the path integral for the [[scattering amplitudes]] (the _[[S-matrix]]_) as a certain sum over [[graphs]] of certain numbers assigned to each [[graph]].
 
-The graphs are called _[[Feynman diagrams]]_, the numbers assigned to them are called _([[renormalization|renormalized]]) amplitudes_ and the sum over graphs of (renormalized) amplitudes is the _perturbation series_.
+The graphs are called _[[Feynman diagrams]]_, the numbers assigned to them are called _([[renormalization|renormalized]]) [[scattering amplitudes]]_ and the sum over graphs of (renormalized) amplitudes is the _[[perturbation series]]_ or [[S-matrix]].
 
 The amplitude assigned to a single graph with $n$ external edges is interpreted as the amplitude for $n$ "quanta" or "[[particles]]" of the [[field (physics)|fields]] in question to interact in the way indicated by the graph. 
 
@@ -54,7 +54,7 @@ Crucial for the motivation of the idea of string theory is the observation that 
 
 When made explicit this is called the _[[worldline formalism]]_ for computing the quantum field perturbation series. (See there for more details.)
 
-The premise of perturbative string theory is to replace the perturbation series over correlators of a 1-d QFT over graphs by a sum of correlators of a 2-dQFT over 2-dimensional surfaces -- called worldsheets. Again in simple cases this 2d QFT is a [[sigma-model]] whose target is the spacetime in which one computes interactions. 
+The premise of perturbative string theory is to replace the [[perturbation series]] over correlators of a 1-d QFT over graphs by a sum of correlators of a 2-dQFT over 2-dimensional surfaces -- called worldsheets and hence produce an [[S-matrix]] this way. Again in simple cases this 2d QFT is a [[sigma-model]] whose target is the spacetime in which one computes interactions. 
 
 In analogy to the previous case, one thinks of the amplitude assigned this way to a surface as the amplitude for the boundary arcs -- the _string_s -- to interact in the way given by the surface.
 
