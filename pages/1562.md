@@ -32,8 +32,39 @@ An __$(n,1)$-category__, is an $n$-[[n-category|category]] $C$ that is __locally
 *  A $(2,1)$-category is a [[locally groupoidal 2-category|locally groupoidal]] $2$-[[2-category|category]].
 *  An $(\infty,1)$-[[(infinity,1)-category|category]] can be understood as a [[quasi-category]] or in many other ways.
 
+## Extra stuff, structure, property
+
+* An $(n,1)$-category with the abalogous properties of a [[topos]] is an [[(n,1)-topos]].
+
 ## Examples
 
 The canonical example of an $(n+1,1)$-category is [[nGrpd]].
+
+
+## Related concepts
+
+* [[0-category]], [[(0,1)-category]]
+
+* [[category]]
+
+* [[2-category]]
+
+* [[3-category]]
+
+* [[n-category]]
+
+* [[(∞,0)-category]]
+
+* **(n,1)-category**
+
+* [[(∞,1)-category]]
+
+* [[(∞,2)-category]]
+
+* [[(∞,n)-category]]
+
+* [[(n,r)-category]]
+
+
 
 [[!redirects (n,1)-categories]]
