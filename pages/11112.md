@@ -5,7 +5,7 @@
 
 ## Idea
 
-A diagrammatic calculus for [[closed categories]], akin to [[proof nets]] in linear logic and more broadly [[string diagrams]] for [[monoidal categories]].
+A diagrammatic calculus for [[closed categories]], akin to [[proof nets]] in linear logic and more generally [[string diagrams]] for [[monoidal categories]] and related categorical structures of "[[linear type theory|linear]]" type.
 
 ## Related concepts
 
