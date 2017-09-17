@@ -3,6 +3,8 @@
 
 * [[singular point of a curve]]
 
+* [[differential form with logarithmic singularities]]
+
 ## References
 
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
