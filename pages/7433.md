@@ -1,8 +1,7 @@
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -10,7 +9,7 @@ The Reidemeister trace, developed by Reidemeister and Wecken, is an algebraic in
 
 ## Definition
 
-Suppose $M$ is a closed manifold and $f\colon M\to M$ a self-map.  Deform $f$ so that it has isolated fixed points.  We say that two fixed points $x$ and $y$ are in the same [[fixed-point class]] if there is a path $\gamma$ from $x$ to $y$ such that $f(\gamma)$ is [[homotopy|homotopic]] to $\gamma$ rel the endpoints ($x$ and $y$).  Let $\mathbb{Z}[\pi_1(M)_f]$ denote the free abelian group on the set of fixed-point classes.  Then the **Reidemeister trace** of $f$ is the formal sum
+Suppose $M$ is a [[closed manifold]] and $f\colon M\to M$ a [[self-map]].  Deform $f$ so that it has isolated fixed points.  We say that two fixed points $x$ and $y$ are in the same [[fixed-point class]] if there is a path $\gamma$ from $x$ to $y$ such that $f(\gamma)$ is [[homotopy|homotopic]] to $\gamma$ rel the endpoints ($x$ and $y$).  Let $\mathbb{Z}[\pi_1(M)_f]$ denote the free abelian group on the set of fixed-point classes.  Then the **Reidemeister trace** of $f$ is the formal sum
 
 $$ R(f) \coloneqq \sum_{f(x)=x} ind_f(x) \cdot [x] \in \mathbb{Z}[\pi_1(M)_f] $$
 
@@ -47,4 +46,3 @@ See also
 A reformulation of the Reidemeister trace in terms of [[bicategorical trace]] is in 
 
 * [[Kate Ponto]], [[Michael Shulman]], _The multiplicativity of fixed point invariants_ ([arXiv:1203.0950](http://arxiv.org/abs/1203.0950))
-
