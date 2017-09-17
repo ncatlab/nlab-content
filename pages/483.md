@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -136,7 +135,7 @@ See [[(n,r)-category]] for more on that.
 
 ## Definition
 
-A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of a [[topological space]] $X$ and a subset $d X \subset C([0,1],X)$ of continuous maps from the interval into $X$ -- called _directed paths_ or d-paths -- satisfying the following conditions:
+A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of a [[topological space]] $X$ and a subset $d X \subset C(I,X)$ of continuous maps from the interval $I = [0,1]$ into $X$ -- called _directed paths_ or d-paths -- satisfying the following conditions:
 
 1. (constant paths) every constant map $I\to X$ is directed,
 
@@ -146,7 +145,7 @@ A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of
 
 $$(a+b)(t) = a(2t),\,\text{if}\, 0\le t\le \frac{1}{2},$$
 
-$$(a+b)(t) = b(2t),\,\text{if}\, \frac{1}{2}\le t\le 1.$$
+$$(a+b)(t) = b(2t-1),\,\text{if}\, \frac{1}{2}\le t\le 1.$$
 
 A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \to Y$ which preserves directed paths in that for every $\gamma: I \to X$ in $d X$ the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$ is in $d Y$.
 
