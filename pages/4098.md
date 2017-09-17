@@ -36,7 +36,7 @@ In ordinary category theory there are not very many absolute colimits, but we ha
 * [[absolute coequalizers]] and
 * [[split idempotents]].
 
-The latter example is "universal," in that an ordinary category is Cauchy complete iff it has split idempotents, although not every absolute colimit "is" the splitting of an idempotent.
+The latter example is "universal," in that an ordinary category is Cauchy complete iff it has split idempotents, although not every absolute colimit "is" the splitting of an idempotent.  More precisely, the class of absolute $Set$-limits is the [[saturated class of limits|saturation]] of idempotent-splittings.
 
 In [[enriched category theory]] there can be more types of absolute colimits.  For instance:
 
