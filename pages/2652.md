@@ -138,7 +138,7 @@ However, there are other sorts of completions in mathematics, such as:
 
 * {#Sullivan70} [[Dennis Sullivan]], pp.9 in _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
 
-
+* [[Marta Bunge]], _Tightly Bounded Completions_ , TAC **28** no. 8 (2013) pp.213-240. ([pdf](http://www.tac.mta.ca/tac/volumes/28/8/28-08.pdf))
 
 [[!redirects completion]]
 [[!redirects completions]]
