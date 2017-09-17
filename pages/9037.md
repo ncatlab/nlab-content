@@ -65,6 +65,12 @@ This is ([Hitchin, theorem 13](#Hitchin00)).
 
 (...)
 
+## Related concepts
+
+* [[Calabi-Yau manifold]], [[G2-manifold]]
+
+* [[topological M-theory]]
+
 ## References
 
 The original articles are
