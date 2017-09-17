@@ -166,8 +166,11 @@ This indicates that it is sensible to identify the strong coupling limit of the 
 
 The geometric understanding of S-duality in [[type II superstring theory]] via [[M-theory]]/[[F-theory]] goes back to
 
-
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
+
+A 2-loop test is in 
+
+* [[Eric D'Hoker]], Michael Gutperle, [[Duong Phong]], _Two-loop superstrings and S-duality_, Nucl.Phys. B722 (2005) 81-118 ([arXiv:hep-th/0503180](http://arxiv.org/abs/hep-th/0503180))
 
 The understanding of [[Montonen-Olive duality]] as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory -- the [[6d (2,0)-superconformal QFT]] -- compactified on a torus is described in 
 
