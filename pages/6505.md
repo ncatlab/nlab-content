@@ -161,7 +161,8 @@ Original articles include
 * [[Michael Atiyah]], _Convexity and commuting Hamiltonians_, Bull. London
 Math. Soc. __14__ (1982), 1-15.
 
-* [[Michael Atiyah]], [[R. Bott]], _The moment map and equivariant cohomology_, Topology __23__, 1, 1-28 (1984)
+* [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology, Vol 23, No. 1 (1984) ([pdf](https://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
+ {#AtiyahBott}
 
 Further developments are in
 
