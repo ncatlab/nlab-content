@@ -15,53 +15,139 @@
 
 ## Idea 
 
-Recall that a [[topos]] may be thought of as a generalized [[topological space]]. A [[localic topos]] is one that essentially behaves  like an ordinary [[topological space]] after all.
+An [[(∞,1)-topos]] is **$n$-localic** if 
 
-In [[higher topos theory]] one realizes that an ordinary [[topos]] that is a [[localic topos]] may be thought of as a [[(1,1)-topos]] that _effectively behaves_ like a [[(0,1)-topos]]. And a (Grothendieck) [[(0,1)-topos]] is effectively a [[locale]] which is essentially a [[topological space]].
+* regarded as a [[little topos]] it behaves like a generalized [[n-groupoid]]; 
 
-This is the beginning of a pattern: a $k$-localic [[(n,1)-topos]] for $0 \leq k \leq n \leq \infty$ is a [[(n,1)-topos]] that effectively behaves like a $(k,1)$-topos.
+* if it behaves like the [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] that is a [[(n,1)-category]].
 
-In other words, when we embed $(k,1)$-toposes in the larger context of $(n,1)$-toposes for $k \leq n$ then we can remember those $(n,1)$-toposes that came from $(k,1)$-toposes by noticing that these are $k$-localic.
+More precisely: if [[(∞,1)-geometric morphism]]s into it are fixed by their restriction to the underlying [[(n,1)-toposes]] of $(n-1)$-[[truncated]] objects.
+
+To the tower of [[(n,1)-toposes]] of $(n-1)$-truncated objects 
+
+$$
+  \cdots \to \tau_{\leq 3-1} \mathcal{X} \to \tau_{\leq 2-1} \mathcal{X} \to \tau_{\leq 1-1} \mathcal{X} \to \tau_{\leq 0-1} \mathcal{X}
+  \to *
+$$
+
+of a given [[(∞,1)-topos]] $\mathcal{X}$ corresponds a tower of $n$-localic toposes $\mathcal{X}_n$ such that $\tau_{\leq n -1} \mathcal{X} \simeq \tau_{\leq n-1} \mathcal{X}_n$. We may think of the $n$-localic $\mathcal{X}_n$ as being $n$th stage in the [[Postnikov tower]] decomposition of $\mathcal{X}$.
+
+A 0-localic $(1,1)$-topos is a [[localic topos]] from ordinary [[topos theory]].
+
 
 ## Definition 
 
+We write [[(∞,1)Topos]] for the [[(∞,1)-category]] of [[(∞,1)-toposes]] and [[(∞,1)-geometric morphism]]s between them.
 
-Recall from [[n-truncated object of an (infinity,1)-category]] that for $X$ an [[(infinity,1)-topos]]
-the symbols $\tau_{n-1} X$ denote the essential image of the truncation
-functor $\tau_{n-1} : X \to X$. Recall from the warning remark
-6.4.5.10 and the discussion above it that this should really be thought of
-as $\tau_n X$ if we think of $X$ as a [[topological space]].
+For $\mathcal{X}$ an [[(∞,1)-topos]] we denote by
+
+$$
+  \tau_{\leq n-1} \mathcal{X} \hookrightarrow \mathcal{X}
+$$ 
+
+the [[(n,1)-topos]] of $(n-1)$-[[truncated]] objects of $\mathcal{X}$.
+
+We write $(n,1)Topos$ for the [[(n,1)-category|(n+1,1)-category]] of [[(n,1)-topos]]es and $(n,1)$-geometric morphisms between them.
+
 
 +-- {: .un_defn}
 ###### Definition
 **($n$-localic $(\infty,1)$-topos)**
 
-For $X,Y$ [[(∞,1)-topos]]es, 
-let $Geom(X,Y) \subset Fun(X,Y)$ denote the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] $X \to Y$
-on those that are [[geometric morphism]]s of $(\infty,1)$-toposes.
 
-An $(\infty,1)$-topos $X$ is **$n$-localic** if for any other
-$(\infty,1)$-topos $Y$ the canonical morphism
+An [[(∞,1)-topos]] $\mathcal{X}$ is **$n$-localic** if for any other
+$(\infty,1)$-topos $\mathcal{Y}$ the canonical morphism
 
 $$
-  Geom(X,Y) \to Geom(\tau_{n-1}X, \tau_{n-1}Y)
+  (\infty,1)Topos(\mathcal{Y},\mathcal{X}) \to 
+   (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{Y})
 $$
 
-is an [[equivalence in a quasi-category|equivalence]] (of [[∞-groupoid]]s).
+is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoid]]s).
 
+More generally,
 
+a [[(n,1)-topos|(k,1)-topos]] $\mathcal{X}$ is **$n$-localic** for $0 \leq n \leq k \leq \infty$ if for any other
+$(k,1)$-topos $\mathcal{Y}$ the canonical morphism
 
+$$
+  (k,1)Topos(\mathcal{Y},\mathcal{X}) \to 
+   (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{Y})
+$$
+
+is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoid]]s).
 
 =--
 
 
-This is [[Higher Topos Theory|HTT, def. 6.4.5.8]]
+This is ([[Higher Topos Theory|HTT, def. 6.4.5.8]]).
+
++-- {: .un_remark}
+###### Remark
+
+This implies that an $n$-localic $(\infty,1)$-topos is also $(n+1)$-localic and generally $k$-localic for all $k \geq n$.
+
+=--
 
 
 
 ## Properties
 
-...
++-- {: .un_prop}
+###### Proposition
+
+Every [[(n,1)-topos]] $\mathcal{Y}$ is the [[(n,1)-category]] of $(n-1)$-[[truncated]] objects in an $n$-localic $(\infty,1)$-topos $\mathcal{X}_n$
+
+$$
+  \tau_{n-1} X_n  \stackrel{\simeq}{\to} \mathcal{Y}
+  \,.
+$$
+
+=--
+
+This is ([[Higher Topos Theory|HTT, prop. 6.4.5.7]]).
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos let $U \in \mathcal{X}$ be an [[object]]. Then the following are equivalent
+
+1. the restriction of the [[inverse image]] $U^* : \mathcal{X} \to \mathcal{X}/U$ (of the [[etale geometric morphism ]] from the [[over-(∞,1)-topos]]) to $(n-1)$-[[truncated]] objects is an [[equivalence of (∞,1)-categories]];
+
+1. the object $U$ is $n$-[[connected]].
+
+=--
+
+This is ([LurieStructured, lemma 2.3.14](#JurieStructured)).
+
+
+
+## Examples
+
++-- {: .un_prop}
+###### Proposition
+
+The [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] $C$ which is an [[(n,1)-category]] is $n$-localic.
+
+=--
+
+This is ([[Higher Topos Theory|HTT, lemma 6.4.5.6]]).
+
++-- {: .un_remark}
+###### Remark
+
+For $n = 0$ this implies the familiar statement from ordinary [[topos theory]]: a [[category of sheaves]] over a [[posite]]=[[(0,1)-site]] is a [[localic topos]] (= 0-localic $(1,1)$-topos).
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For $n \in \mathbb{N}$ and $\mathcal{X}$ an $n$-localic $(\infty,1)$-topos, the [[over-(∞,1)-topos]] $\mathcal{X}/U$ is $n$-localic precisely if the object $U$ is $n$-[[truncated]].
+
+=--
 
 ## References
 
@@ -72,7 +158,7 @@ The general noion is the topic of section 6.4.5 of
 Remarks on the application of $n$-localic $(\infty,1)$-toposes in [[higher geometry]] are in
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
-
+{#JurieStructured}
 
 [[!redirects localic (∞,1)-topos]]
 [[!redirects localic (infinity,1)-topos]]
