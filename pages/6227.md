@@ -100,7 +100,7 @@ This is due to ([Araki](#Araki)).
 
 Relative entropy of [[state]]s on  [[von Neumann algebra]]s was introduced in 
 
-* H. Araki, _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
+* [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
  {#Araki}
 
 A characterization of [relative entropy](#OnFiniteDimensionalSpaces) on finite-[[dimension]]al [[C-star algebra]]s is given in 
