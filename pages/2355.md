@@ -479,6 +479,19 @@ because in an [[enriched model category]] the enriched hom out of a cofibrant ob
 
 A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{\hookrightarrow} D$ where $R$ is a [[full and faithful (∞,1)-functor]] exhibits $C$ as a [[reflective (∞,1)-subcategory]] of $D$. This subcategory and the composite $R \circ L : D \to D$ are a [[localization of an (∞,1)-category|localization]] of $D$.
 
+## Related concepts
+
+* [[adjoint functor]], [[adjoint triple]], [[adjoint quadruple]]
+
+* [[proadjoint]], [[Hopf adjunction]]
+
+* [[2-adjunction]]
+  
+  [[biadjunction]], [[lax 2-adjunction]], [[pseudoadjunction]]
+
+* **adjoint $(\infty,1)$-functor
+
+
 ## References
 
 Section 5.2 in 
