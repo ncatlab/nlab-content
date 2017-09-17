@@ -34,6 +34,9 @@ See also
 
 * [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213).
 
+There is also a theory of [[connections on a noncommutative bundle]]. 
+
 [[!redirects noncommutative principal bundles]]
+[[!redirects noncommutative torsor]]
 [[!redirects quantum principal bundle]]
 [[!redirects quantum principal bundles]]
