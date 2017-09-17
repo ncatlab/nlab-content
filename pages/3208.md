@@ -172,6 +172,15 @@ The simplest nontrivial theory is the
 
 ## Models for a theory
 
+#### Set-theoretic models for a first-order theory in syntactic approach
+
+The basic concept is of a structure for a first-order language $L$: a set $M$ together with an interpretation of $L$ in $M$. A theory is specified by a language and a set of sentences in $L$. An $L$-structure $M$ is a __model__ of $T$ if for every sentence $\phi$ in $T$, its interpretation in $M$, $\phi^M$ is true ("$\phi$ holds in $M$"). We say that $T$ is __consistent__ or satisfiable (relative to the universe in which we do model theory) if there exist at least one model for $T$ (in our universe). Two theories, $T_1$, $T_2$ are said to be __equivalent__ if they have the same models. 
+
+Given a class $K$ of structures for $L$, there is a theory $Th(K)$ consisting of all sentences in $L$ which hold in every structure from $K$. Two structures $M$ and $N$ are __elementary equivalent__ (sometimes written by equality $M=N$, sometimes said "elementarily equivalent") if $Th(M)=Th(N)$, i.e. if they satisfy the same sentences in $L$. Any set of sentences which is equivalent to $Th(K)$ is called a __set of axioms__ of $K$. A theory is said to be __finitely axiomatizable__ if there exist a finite set of axioms for $K$. 
+
+A theory is said to be __complete__ if it is equivalent to $Th(M)$ for some structure $M$. 
+
+#### Categorical point of view and models in topoi
 
 From the categorical point of view, for every theory $T$ there exists a [[category]] $C_T$ -- the  **[[syntactic category]]** $C_T$ -- such that a model for $T$ is a [[functor]] $C_T \to \mathcal{T}$ into some [[topos]] $T$, satisfying certain conditions.
 
@@ -183,7 +192,9 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 ## Links and literature
 
-A standard textbook reference is section D of
+* H. Jerome Keisler, _Fundamentals of model theory_, A2 in JOhn Barwise, Handbook of mathematical logic (pp.47-103), North Holland 1977
+
+A standard textbook reference for the categorical point of view is section D of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
