@@ -1,5 +1,6 @@
-
 For copyright issues in $n$Lab see [[Home Page]] and [[General Discussion]]. 
+
+Some past material on copyright issues of $n$Lab from the unofficial point of view of one $n$Laber see [[zoranskoda:copyright of nLab|here]].
 
 Here we discuss general copyright issues and literature (mainly in science) in general.
 
@@ -19,7 +20,3 @@ According to some historians and anti-copyright activists, the copyright in the 
 * Wikipedia [Copyright](http://en.wikipedia.org/wiki/Copyright), [copyright law](http://en.wikipedia.org/wiki/Copyright_law), [intellectual property activism](http://en.wikipedia.org/wiki/Category:Intellectual_property_activism), [anti-copyright](http://en.wikipedia.org/wiki/Anti-copyright), [free nad open source software](http://en.wikipedia.org/wiki/Free_and_open_source_software)
 
 See also the related issues at [[zoranskoda:citations]]. 
-
-Some past material on copyright issues of $n$Lab from the unofficial point of view of one $n$Laber see [[zoranskoda:copyright of nLab|here]].
-
-category: meta
