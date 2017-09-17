@@ -9,7 +9,35 @@
 It would be nice to write something here, but most mathematicians know what a differential equation is and most physicists use them regularly.  See [Wikipedia](http://en.wikipedia.org/wiki/Differential_equation).
 
 
-## In terms of synthetic differential geometry {#InSynthDiff}
+## As sub-$\infty$-groupoids of tangent and jet bundle
+
+Analogous to how ordinary equations determine and are determined by their spaces of solutions -- the corresponding [[scheme]]s -- accordingly differential equations $F(\partial^i x)$ on sections of a bundle $E \to X$ determine and are determined by their solution spaces, which sub-[[D-scheme]]s of the [[jet bundle]] D-scheme
+
+$$
+  \array{
+    Solutions(F) &&\hookrightarrow&& Jet(E)
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{\Pi}_{inf}(X)
+  }
+$$
+
+At least in nice cases dfor differential equations on functions on $X$ this is equivalently modeled by sub-[[Lie algebroid]]s of [[tangent Lie algebroid]]s.
+
+$$
+  \array{
+    Solutions(F) &&\hookrightarrow&& T X
+  }
+$$
+
+
+
+
+see [[exterior differential system]] for details
+
+## In terms synthetic differential equations
+  {#InSynthDiff}
 
 A perspective on differential equations from the [[nPOV]] of [[synthetic differential geometry]] is given in 
 
