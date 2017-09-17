@@ -26,7 +26,7 @@ There are several things that one might mean by a "(possibly [[weak homotopy equ
 
 1. A geometric morphism which induces an isomorphism on all [[nonabelian cohomology]] with coefficients in [[constant ∞-stacks]].
 
-1. A geometric morphism which induces an [[isomorphism]] on all [[abelian sheaf cohomology]] with coefficients in [[locally constant sheaves|locally constant]] sheaves (of complexes) of [[abelian groups]] (the most classical notion).
+1. A geometric morphism which induces an [[isomorphism]] on all [[abelian sheaf cohomology]] with coefficients in [[locally constant sheaves|locally constant]] sheaves (of complexes) of [[abelian groups]], as well as cohomology in dimension one with non-abelian coefficients (the most classical notion).
 
 1. A geometric morphism which has an inverse up to "homotopy" in the classical sense of a map $E\times [0,1]\to F$, where since $E$ and $F$ are toposes, we have to incarnate $[0,1]$ as the topos $Sh([0,1])$.
 
