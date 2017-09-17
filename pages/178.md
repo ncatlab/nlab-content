@@ -2,21 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
-=--
-#### Higher geometry
-+--{: .hide}
-[[!include higher geometry - contents]]
-=--
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
-=--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
 =--
 =--
 =--
