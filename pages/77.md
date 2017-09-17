@@ -107,5 +107,10 @@ Notions of Lie algebras with extra [[stuff,structure, property]] includes
 
 * [[super Poincare Lie algebra]]
 
+## References
+
+For instance chapter IV in vol III of 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 [[!redirects Lie algebras]]
