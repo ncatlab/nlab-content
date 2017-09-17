@@ -33,7 +33,7 @@ If $\nabla$ is the [[Levi-Civita connection]] on a [[Riemannian manifold]] and t
 
   * [[holonomy group]]
 
-  * **special holonomy**, [[exceptional geometry]]
+  * **special holonomy**, [[reduction of structure groups]], [[G-structure]],  [[exceptional geometry]]
 
 ## References
 
