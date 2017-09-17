@@ -4,7 +4,7 @@
 
 ## Introduction 
 
-Over the years (as on the FOM mailing list about a dozen years ago as of this article, revision number 2), various people have "challenged" category theorists to write down a fully formal presentation of ETCS. We will do so here. 
+Over the years (as on the FOM mailing list about a dozen years ago, as of revision number 3 of this article), various people have "challenged" category theorists to write down a fully formal presentation of ETCS. We will do so here. 
 
 There will be no pretense to elegance or other aesthetic criteria such as efficiency or lack of redundancy. At a first pass we will do things in a quick and dirty way; with luck there will be various polishings of this entry as time passes. 
 
@@ -136,3 +136,5 @@ Despite the length of the list of axioms, it should be noted that they generally
 Hence, the only "irremovable" existential clauses (that necessitate passing from essentially algebraic logic to a larger fragment of first-order logic) are well-pointedness and the axiom of choice. The axiom of choice belongs to [[geometric logic]]. 
 
 This is in marked contrast to ZFC, whose axiom list is superficially shorter but whose logical complexity is much greater. 
+
+It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work. However, this has been well-treated elsewhere and need not be gone into further here, as this page has a very particular focus and purpose (as stated in the Introduction). 
