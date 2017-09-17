@@ -237,11 +237,42 @@ However, you do not need any password to **see** the stylesheet tweaks on the va
 
 If you have some material at a page called `foo` that you want to include directly in pages called `bar` and `baz`, then type <nowiki><code>[[!include foo]]</code></nowiki> in `bar` and `baz`.  For an example, see how [[contents]] is included at the tope of this page.  Also see how [[contents]] itself has been formatted so that it will appear as a sidebar when included.
 
-Besides such sidebars that appear in many pages, you can also use inclusion to put in something that contains a bunch of ugly code (such as raw <abbr title="scalable vector graphics">SVG</abbr>) without mucking up the rest of the page.  That is, you put your messy code in `bar/foo` and then put <nowiki><code>[[!include bar/foo]]</code></nowiki> in `bar`.  Note that this is for something that, logically, should appear within `bar` itself, which is why `bar` appears in the name of the included page.
+Besides such sidebars that appear in many pages, you can also use inclusion to put in something that contains a bunch of ugly code (such as raw <abbr title="scalable vector graphics">SVG</abbr>, see [here](#IncludeSVG)) without mucking up the rest of the page.  That is, you put your messy code in `bar/foo` and then put <nowiki><code>[[!include bar/foo]]</code></nowiki> in `bar`.  Note that this is for something that, logically, should appear within `bar` itself, which is why `bar` appears in the name of the included page.
 
 Note that the included page goes directly in where it is called with no surrounding whitespace.  This can mean that formatting rules are broken on the include.  For example, if the included file starts and ends with a `div` tag and is included with no surrounding blank lines then this breaks the rules and will generate an error.
 
+## How to include SVG figures
+ {#IncludeSVG}
 
+To include an [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) figures within a page, proceed as following:
+
+1. If you produce the SVG with a standard SVG editor, save it using, if possible, the two options
+
+   1. save as _plain SVG_
+
+   1. save as _optimes SVG_
+
+   You can also use a simple SVG editor built into the $n$Lab. See [below](#svgedit). (Though this may not work on some systems).
+
+1. You need to include the resulting _source code_ . Uploading the SVG as a file to the $n$Lab won't work. So
+
+   1. Go to the page where you want to include the SVG, say titled "SomePage", and at the point where the figure is to appear insert the code
+                  
+      <nowiki>
+      +--{: style="text-align:center"}
+      [[!include SomePage > figureN]]
+      =--
+      </nowiki>
+
+   1. Then type
+
+             http://ncatlab.org/nlab/show/SomePage > figureN
+
+      into your browser's address line. The software will ask you to create a page with the title "SomePage > figureN". Paste the source code of your SVG into this page and hit _Submit_ .
+
+Go back to _SomePage_ . The SVG figure should now be displayed there.
+
+See for instance the entry [[comma object]] for an example.
 
 ## How to use redirects ##
 
@@ -429,7 +460,7 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
 1. _Include an image file_: This is the quick-and-dirty method.  To create the image file, either use a program like [textogif](http://www.fourmilab.ch/webtools/textogif/textogif.html) to create the image from a TeX file locally, or use a web service like [codecogs](http://www.codecogs.com/components/equationeditor/equationeditor.php).  Then follow the instructions [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads) for putting it on the lab.
 
-1. _Include SVG_: This is arguably a "better" method, since unlike an image (and like MathML) SVG can be scaled with the text, and (in theory) edited by other users without recreating the entire diagram.  There are various methods for producing SVG.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]], [[oriental]] and [[comma object]].  Once you have some SVG, you can modify it by hand to put in the itex math; use the SVG `<foreignObject>` tag with a `$...$` inside it.  You need to put `markdown="1"` on the `<foreignObject>` tag, or else on a `<g>` tag containing it.
+1. _Include SVG_: See [here](#IncludeSVG) for the general procedure. This is arguably a "better" method, since unlike an image (and like MathML) SVG can be scaled with the text, and (in theory) edited by other users without recreating the entire diagram.  There are various methods for producing SVG.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]], [[oriental]] and [[comma object]].  Once you have some SVG, you can modify it by hand to put in the itex math; use the SVG `<foreignObject>` tag with a `$...$` inside it.  You need to put `markdown="1"` on the `<foreignObject>` tag, or else on a `<g>` tag containing it.
 
    Once you have the SVG, you can include it on a page as described [here](http://golem.ph.utexas.edu/instiki/show/SVG).  Since raw SVG is a bit ugly, you may want to put the SVG on a "subpage" by itself (with a name like `pagename > imagename`) which is included from the main page (see above for the syntax to include other pages).
 
@@ -455,7 +486,8 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
    <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
 
-# How to use the SVG editor {#svgedit}
+# How to use the SVG editor 
+ {#svgedit}
 
 There is now a WYSIWYG SVG-editor embedded within Instiki (the software running the nLab).  The homepage for this editor is [here](http://code.google.com/p/svg-edit/). The Instiki implementation is not feature-complete, yet. In particular, it should be possible to embed itex equations, but those don't show up in the editor (currently).
 
