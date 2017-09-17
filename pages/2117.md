@@ -57,7 +57,7 @@ In [[logic]], we use [[reflection principle]]s (see [Wikipedia](https://secure.w
 
 This follows the following outline:
 
-1.  We assume that we understand _a priori_ what it means to use [[first-order logic]] (or some finitary base logic).
+1.  We assume that we understand _a priori_ what it means to use [[first-order logic]] (or some other finitary base logic).
 
 2.  Using this base logic, we can formulate a foundational [[set theory]] that describes a meta-universe such as $SET$.
 
