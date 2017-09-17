@@ -48,9 +48,9 @@ This is ([Lurie, def. 2.3.13, def. 2.3.16](#Lurie)).
 
 * [[category with duals]]
 
-* [[dualizable object]]
+* [[dualizable object]], [[fully dualizable object]]
 
-* [[fully dualizable object]]
+* [[blob n-category]]
 
 ## References
 
