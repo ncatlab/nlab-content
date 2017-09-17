@@ -7,7 +7,13 @@ Non-archimedean geometry is geometry over [[non-acrhimedean field]]s. While the 
 * Fujiwara-Kato approach which takes a limit over all formal models; this has spirit of [[birational geometry]]  
 * [[global analytic geometry]]. 
 
+### Literature
 
+For literature on specific approaches see the $n$Lab entries [[Berkovich analytic space]], [[adic space]], [[global analytic geometry]]. For comparison see
+
+* Brian Conrad, _Several approaches to non-archimedean geometry_, lectures at Arizona winter school 2007, [pdf](http://www.wstein.org/swc/aws/07/ConradNotes11Mar.pdf)
+
+category: geometry
 [[!redirects non-Archimedean analytic geometry]]
 [[!redirects nonarchimedean analytic geometry]]
 [[!redirects non-archimedean geometry]]
