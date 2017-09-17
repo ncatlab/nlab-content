@@ -146,6 +146,8 @@ In particular, the proposition and its corollary apply to a [[cohesive topos]], 
 
 * If $T$ is a [[lax-idempotent 2-monad]], then a $T$-algebra $A$ has an adjunction $a : T A \rightleftarrows A : \eta_A$.  If this extends to an adjoint triple with a further left adjoint to $a$, then $A$ is called a [[continuous algebra]].
 
+* [[Wirthmüller context]]
+
 ## Related concepts
 
 * [[adjoint quadruple]], [[cohesive topos]]
