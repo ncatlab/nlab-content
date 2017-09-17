@@ -1,0 +1,8 @@
+
+> This entry is about the notion of extension in [[semantics]]. For the notion of [[extension]] in [[algebra]], see there.
+
+
+## References
+
+* wikipedia, [extension (semantics)](http://en.wikipedia.org/wiki/Extension_%28semantics%29)
+
