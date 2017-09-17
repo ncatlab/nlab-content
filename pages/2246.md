@@ -1,1 +1,1 @@
-A [[field]] (in the sense of [[commutative algebra]]) $F$ is __perfect__ if every [[algebraic extension]] of $F$ is [[separable extension|separable]]. For example, all fields of characteristic zero are perfect. 
+A [[field]] (in the sense of [[commutative algebra]]) $F$ is __perfect__ if every [[algebraic extension]] of $F$ is [[separable extension|separable]]. For example, all fields of characteristic zero are perfect, as are all finite fields. An example of a field that isn't perfect is the field of rational functions over a finite field.
