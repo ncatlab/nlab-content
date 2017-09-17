@@ -32,7 +32,7 @@ Let $R$ be a [[commutative ring]] and $\mathcal{A} = R$[[Mod]] the [[category]] 
 For $X,Y \in Ch_\bullet(\mathcal{A})$ any two [[objects]], define a chain complex $[X,Y] \in Ch_\bullet(\mathcal{A})$ to have components
 
 $$
-  [X,Y]_n := \oplus_{i \in \mathbb{Z}} Hom_{R Mod}(X_i, Y_{i+n})
+  [X,Y]_n := \prod_{i \in \mathbb{Z}} Hom_{R Mod}(X_i, Y_{i+n})
 $$ 
 
 (the collection of degree-$n$ maps between the underlying [[graded object|graded]] modules) and whose [[differential]] is defined on homogeneously graded elements $f \in [X,Y]_n$ by
