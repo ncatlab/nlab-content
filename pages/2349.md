@@ -48,7 +48,11 @@ In the category [[Set]] the diagonal $\Delta_X$ is the [[function]] $a \mapsto (
 
 In the category [[Top]] of [[topological spaces]], an object $X$ is a [[Hausdorff space]] if and only if its diagonal subobject is a [[closed subspace]] of $X^2$; this fact can be generalised to other notions of [[space]].
 
+In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 
 [[!redirects diagonal]]
 [[!redirects diagonal subobject]]
 [[!redirects diagonal morphisms]]
+
+[[!redirects diagonal map]]
+[[!redirects diagonal maps]]
