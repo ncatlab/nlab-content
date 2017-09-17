@@ -85,6 +85,6 @@ $$
 
 
 [[!redirects SSet-site]]
-
-
 [[!redirects simplicial site]]
+[[!redirects SSet-sites]]
+[[!redirects simplicial sites]]
