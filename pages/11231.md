@@ -1,0 +1,6 @@
+
+* [webpage](http://en.wikipedia.org/wiki/Georg_Kreisel)
+
+category: people
+
+[[!redirects Kreisel]]
