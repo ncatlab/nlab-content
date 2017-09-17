@@ -1,0 +1,5 @@
+__Michel Van den Bergh__ is a Belgian algebraist and algebraic geometer. 
+
+* [homepage](http://alpha.uhasselt.be/Research/Algebra/Members/michel_id.html), [publications](http://alpha.uhasselt.be/Research/Algebra/Publications/michel_pub.html)
+
+[[!redirects M. Van den Bergh]]
