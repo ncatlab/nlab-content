@@ -6,7 +6,7 @@
 
 ## Idea
 
-A slight variant $\tilde Mot_{num}(k,\mathbb{Q})$ of the [[category of pure motives]] $Mot_{num}(k,\mathbb{Q})$ given by [[numerical equivalence]] is a [[Tannakian category]] [[equivalence of categories|equivalent]] to a [[category of representations]] of some [[algebraic group]] $GMot_k$:
+A slight variant $\tilde Mot_{num}(k,\mathbb{Q})$ of the [[category of pure motives|category of pure]] [[numerical motives]] $Mot_{num}(k,\mathbb{Q})$ is a [[Tannakian category]] [[equivalence of categories|equivalent]] to a [[category of representations]] of some [[algebraic group]] $GMot_k$:
 
 $$
   Mot_{num}(k,\mathbb{Q}) \simeq Rep(GMot_k)
