@@ -11,14 +11,12 @@ Suppose the universal enveloping algebras of Lie algebras exist in a $k$-linear 
 
 The universal enveloping algebra of the tangent Lie algebra of a finite-dimensional Lie group $G$ over real or complex numbers is canonically isomorphic to the algebra of the left invariant differential operators on $G$. 
 
-+--{.query}
-
-[[Eric]]: Is this a special case of universal enveloping algebra as it pertains to Lie algebras? I thought the concept of a universal enveloping algebra was more general than this. I scribbled some notes [here](http://www.ncatlab.org/ericforgy/show/differential+envelope). They are far from rigorous, but the references at the bottom of the page are certainly rigorous. I don't remember them being confined to Lie algebras. I'm likely confused.
-
-[Edit: Oh! I see now. From [[enveloping algebra]] you link to this page and call it **enveloping algebra of a Lie algebra**. Would that be a better name for this page? Or maybe **universal enveloping algebra of a Lie algebra**? Something to make it clear this page is specific to Lie algebras?]
-
-Zoran: if you read the above article than you see that it distingusihes the enveloping algebra of a Lie algebra and universal enveloping algebra if a Lie algebra which is a universal among such. There is also an enveloping algebra of an associative algebra what si a different notion. 
-
-=--
-
 An [[oidification]] is the [[universal enveloping algebroid]].
+
+## Literature
+
+* Related entries: [[Hausdorff series]]
+* [[N. Bourbaki]], _Lie groups and Lie algebras_
+* Jacques Dixmier, _Enveloping algebras_, Graduate Studies in Mathematics 11, Amer. Math. Soc. 
+* wikipedia: [universal enveloping algebra](http://en.wikipedia.org/wiki/Universal_enveloping_algebra), [PBW theorem](http://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem)
+* MathOverflow question [What is the universal enveloping algebra](http://mathoverflow.net/questions/25020/what-is-the-universal-enveloping-algebra) which is looking for a rather general construction in a class of symmetric monoidal [[pseudoabelian category|pseudoabelian categories]].
