@@ -144,6 +144,10 @@ Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... 
 
 ## Related concepts
 
+* [[real form]]
+
+* [[maximal compact subgroup]]
+
 * [[Hamiltonian dynamics on Lie groups]]
 
 
