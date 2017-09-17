@@ -125,6 +125,8 @@ This is ([Watts, theorem 1](#Watts)),
 
 ## Related concepts
 
+* [[additive monad]]
+
 * [[enriched functor]]
 
 * In the context of [[derived functors in homological algebra]] one considers functors that are additive and in addition left/right [[exact functors]], as discussed above in _[Characterization by exactness](#CharacterizationByExactness)_.
