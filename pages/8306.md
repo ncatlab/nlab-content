@@ -1,10 +1,9 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
-
 
 +-- {: .num_defn}
 ###### Definition
@@ -23,31 +22,34 @@ $$
   f : A \times B \to A \otimes B \to C
   \,.
 $$
-
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The analogous defintion for more than two arguments yields _[[multilinear maps]]_. There is a [[multicategory]] of abelian groups and multilinear maps between them. 
-
+The analogous defintion for more than two arguments yields _multilinear maps_. There is a [[multicategory]] of abelian groups and multilinear maps between them. 
 =--
+
 
 ## Related concepts
 
-* [[binary function]], **bilinear map**, [[multilinear map]]
+* [[binary function]], **bilinear map**, **multilinear map**
 
-* [[binary morphism]]
+* [[binary morphism]], [[multimorphism]]
 
 * [[bifunctor]], [[Quillen bifunctor]]
 
+
+[[!redirects bilinear map]]
 [[!redirects bilinear maps]]
-
-[[!redirects multilinear map]]
-[[!redirects multilinear maps]]
-
+[[!redirects bilinear mapping]]
+[[!redirects bilinear mappings]]
 [[!redirects bilinear function]]
 [[!redirects bilinear functions]]
 
+[[!redirects multilinear map]]
+[[!redirects multilinear maps]]
+[[!redirects multilinear mapping]]
+[[!redirects multilinear mappings]]
 [[!redirects multilinear function]]
 [[!redirects multilinear functions]]
