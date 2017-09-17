@@ -43,6 +43,7 @@ $$
 
 The additional [[fermion]]ic field $\Psi$ is the [[gravitino]] field.
 
+So the [[configuration space]] of gravity on some $X$ is essentially the [[moduli space of Riemannian metrics]] on $X$.
 
 ## Details
 
