@@ -28,7 +28,7 @@ An oplax monoidal functor sends [[comonoids]] in $C$ to comonoids in $D$, just a
 Note that a *strong* opmonoidal functor --in which the morphisms $\phi$ are required to be [[isomorphisms]]--- is the same thing as a [[strong monoidal functor]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop #OplaxAdjointToLax}
 ###### Proposition
 
 A functor with a [[right adjoint]] is oplax monoidal if and only if that right adjoint is a [[lax monoidal functor]].  
