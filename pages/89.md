@@ -18,13 +18,13 @@
 {:toc}
 
 ## Idea
-**Morita equivalence** is a categorical concept of equivalence that is in general weaker than isomorphism or equivalence (of category). The concept has originated in [[ring theory]] in K. Morita's groundbreaking investigation into the equivalence relation between rings $R, S$ induced by an equivalence $Mod_R\cong Mod_S$ of their category of modules.
+**Morita equivalence** is a categorical concept of equivalence that is in general weaker than [[isomorphism]] or [[equivalence]] (of category). The concept has originated in [[ring theory]] in K. Morita's groundbreaking investigation into the equivalence relation between rings $R, S$ induced by an equivalence $Mod_R\cong Mod_S$ of their category of modules.
 
 Nowadays, the term is applied in a wide range of mathematical fields, and one speaks of _Morita equivalent_ [[categories]], [[algebraic theories]], [[geometric theories]] and so on.
 
-Typically, such Morita situations involve three ingredients: a 'syntactic' ground level to which the concept Morita equivalence applies, a 'hypersyntactic' level that obtains from an 'idempotent' completion, and a second process of completion to a 'semantic' level where the equivalence relation for the syntactic ground level is defined by plain categorical equivalence e.g. _Morita equivalence_ for small categories is defined as equivalence of their presheaf categories with [[Cauchy completion]] as intermediate hypersyntactic level.
+Typically, such Morita situations involve three ingredients: a 'syntactic' ground level to which the concept _Morita equivalence_ applies, a 'hypersyntactic' level that obtains from an 'idempotent' completion, and a second process of completion to a 'semantic' level where the equivalence relation for the syntactic ground level is defined by plain equivalence of category e.g. Morita equivalence for _small categories_ is defined as equivalence of their presheaf categories with [[Cauchy completion]] as intermediate hypersyntactic level.
 
-So the broad intuition is that Morita equivalence is a _coarse grained semantic equivalence that obtains between syntactic gadgets_ - basically two [[theory|theories]] that have the same category of [[model|models]]. The role of the intermediate hypersyntactic level in this analogy is that of an 'ideal syntax' (syntax classifier) that already reflects the relations at the semantic level. The categorical equivalence (bimodule) at the semantic level then shows up at the intermediate level as a ('Cauchy convergent') bidirectional _translation_ from one syntax into another.
+So the broad intuition is that Morita equivalence is a _coarse grained semantic equivalence that obtains between syntactic gadgets_ - basically two [[theory|theories]] that have up to equivalence the same category of [[model|models]]. The role of the intermediate hypersyntactic level in this analogy is that of an 'ideal syntax' (syntax classifier) that already reflects the relations at the semantic level. The categorical equivalence (via bimodules)  from the semantic level then shows up at the intermediate level as a ('Cauchy convergent'$\sim$ 'fgp-module') bidirectional _translation_ from one syntax into another.
 
 ## Classical Morita theorem
 
@@ -52,6 +52,11 @@ are equivalent;
 Two rings are **Morita equivalent** if the equivalent statements in Morita theorem above are true. A **Morita equivalence** is a weakly invertible 1-cell in the bicategory $\mathrm{Rng}$ of rings, bimodules and 
 morphisms of bimodules.
 
+A theorem in ring theory says that the [[center]] of a ring is isomorphic to the center of its category of modules and that Morita equivalent rings have isomorphic centers. Especially, two _commutative_ rings are Morita equivalent precisely when they are isomorphic!
+
+This shows that the property of _having center $Z$ up to isomorphism_ is stable within Morita equivalence classes. Properties of this kind are sufficiently important to deserve a special name:
+
+A property $P$ of rings is called a **Morita invariant** iff whenever $P$ holds for a ring $R$, and $R$ and $S$ are Morita equivalent then $P$ also holds for $S$. Another classical example is the property of being [[simple ring|simple]]. (cf. Cohn 2003)
 
 ### In homotopy theory 
 
@@ -79,6 +84,8 @@ Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]
 ## References
 
 * wikipedia, _[Morita equivalence](http://en.wikipedia.org/wiki/Morita_equivalence)_
+
+* P. M. Cohn, _Further Algebras and Applications_ , Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
 
 * [[Ralf Meyer]], _Morita equivalence in algebra and geometry_ ([[MeyerMoritaEquivalence.pdf:file]])
 
