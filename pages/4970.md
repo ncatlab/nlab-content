@@ -163,4 +163,7 @@
                                                 </g> 
 </svg> 
 
+
 [[!redirects figure eight knot - SVG]]
+
+category: svg
