@@ -5,7 +5,7 @@
 
 ## Disambiguation
 
-This is about functionals in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For functionals in the sense of [[functional analysis]], see [[linear functional]]. For the relation between these, see under Examples below. There is also the notion of functional as "[[function]] on [[infinite-dimensional manifolds]]", for these see at _[[nonlinear functional]]_.
+This is about functionals in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For functionals in the sense of [[functional analysis]], see _[[linear functional]]_; for the relation between these, see under Examples below.  For functionals on [[infinite-dimensional manifolds]], see at _[[nonlinear functional]]_.
 
 
 ## Definition
@@ -19,7 +19,7 @@ Although one typically interprets type theory within [[set theory]] so that oper
 
 ## Examples
 
-In [[variational calculus]] one studies functions on spaces of [[sections]] of [[jet bundles]] or other [[mapping spaces]].  For example, they appear in [[physics]] as [[action functionals]].  See [[covariant phase space]] and [[path integral]] for other functionals in physics.
+In [[variational calculus]] one studies functions on spaces of [[sections]] of [[jet bundles]] or other [[mapping spaces]].  The notion of [[nonlinear functional]] is an abstraction of this.  For example, such functionals appear in [[physics]] as [[action functionals]].  See [[covariant phase space]] and [[path integral]] for other functionals in physics.
 
 If we interpret $X$ as the [[real line]], then $X^X$ consists of real-valued maps of a real variable, which form a [[vector space]].  The [[linear maps]] from $X^X$ to $X$ are the original [[linear functionals]].  In [[functional analysis]], we now replace $X^X$ with an arbitrary [[topological vector space]] $V$ (originally but no longer necessarily taken to be a [[vector subspace|subspace]] of $X^X$) and consider linear maps from $V$ to $X$ instead; so these linear functionals are actually unstructured operations in a type-theoretic sense.
 
