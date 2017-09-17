@@ -143,7 +143,7 @@ to the [[category]] [[Poset]] of [[posets]].
 
 =--
 
-Notice the following fact about [[Alexadrov space]]s:
+Notice the following fact about [[Alexandrov space]]s:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -304,7 +304,7 @@ $$
   C^\ast_{com} Topos
 $$
 
-that takes values in [[essential geometric morphism]]s.
+that takes values in [[essential geometric morphisms]]. 
 
 =--
 
@@ -313,7 +313,7 @@ This is ([Nuiten, lemma 2.7](#Nuiten)).
 +-- {: .proof}
 ###### Proof
 
-To $f : A \to B$ in $C^\ast Alg$ with
+To $f : A \to B$ in $C^\ast Alg_{cr}$ with
 
 $$
   ( \mathcal{C}(f) \dashv R_f) : 
@@ -322,7 +322,7 @@ $$
   \mathcal{C}(B)
 $$
 
-we assing the [[essential geometric morphism]]
+we assign the [[essential geometric morphism]]
 
 $$
   (f_! \dashv f^* \dashv f_* )
@@ -332,26 +332,61 @@ $$
   [\mathcal{C}(A), Set]
 $$
 
-equipped with the morphism of internal $C^*$-algebras
+equipped with the evident morphism of internal $C^*$-algebras
 
 $$
-  f^* \underline{A} \to \underline{B}
+  \eta_f : \underline{A} \to f_* \underline{B}
 $$
 
-which over $C \in \mathcal{C}(B)$ is the restriction
+which over $C \in \mathcal{C}(A)$ is the restriction
 
 $$
-  (f^* \underline{A})(C) = R_f(C) \stackrel{f|_{R_f C}}{\to} C
+  f|_C : C \to f(C)
 $$
 
-of $f$ to $R_f C$. This indeed lands in $C$, due to the $(\mathcal{C}(f) \dashv R_f)$-[[unit of an adjunction|counit]] (on posets), which exhibits an inclusion
-
-$$
-  f(R_f(D)) = \mathcal{C}(f)(R_f(D)) \hookrightarrow D
-  \,.
-$$
+of $f$ to $C$. 
 
 =--
+
++-- {: .num_prop #ToposCharacterizationOfAlgebraHomomorphisms}
+###### Proposition
+
+For $A, B \in C^\ast Alg$,  morphisms $Bohr(B) \to Bohr(A)$ in $C^\ast Top$ for which the underlying geometric morphism has an extra right adjoint are in bijection with [[function]]s
+
+$$
+  f : A \to B
+$$
+
+that are [[homomorphism]]s on all commutative subalgebras and reflect commutativity.
+
+In particular when $A$ is already commutative, morphisms $Bohr(B) \to Bohr(A)$ with an extra right adjoint are in bijection with algebra homomorphisms $A \to B$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[localic reflection]] every [[geometric morphism]] $Sh(Alex \mathcal{C}(A)) \to Sh(Alex \mathcal{C}(B))$ comes from a morphism of locales $Alex \mathcal{C}A \to Alex \mathcal{C}A$, which by the discussion at [[Alexandrov space]] is equivalently a morphism of posets $\mathcal{C}(f) : \mathcal{C}(A) \to \mathcal{C}(B)$. By the assumption of the extra right adjoint we also have a geometric morphism the other way round, and hence by localic reflection an adjoint pair
+
+$$
+  (\mathcal{C}(f) \dashv R_f) : \mathcal{C}(A) \leftrightarrow \mathcal{C}(B)
+$$
+
+that induces functors between toposes as in the above proof.
+Finally the fact that $f$ is a morphisms of $C^\ast$-toposes implies 
+algebra homomorphisms
+
+$$
+  f_C : C \to f(C)
+$$
+
+natural in $C \in \mathcal{C}(A)$.
+
+=--
+
+
+
+
 
 
 ## Kinematics in a Bohr topos
@@ -385,6 +420,7 @@ For $A = B(H) \in C^\ast Alg$ as above, we have a natural bijection between the 
 
 
 ### The phase space
+ {#ThePhaseSpace}
 
 The idea is is that for $A \in C^* Alg$, the Bohr topos 
 $Bohr(A) = (Sh(Alex(\mathcal{C}(A))), \underline{A}) \in C^* TopSpace \subset C^* Topos$ _is_ the corresponding quantum [[phase space]].  More precisely, we may think of the internal commutative $C^*$-algebra $\underline{A} \in Bohr(A)$ as the [[Isbell duality|formal dual]] to the quantum phase space.
@@ -559,24 +595,77 @@ This is effectively the functoriality of the internal [[constructive Gelfand dua
 
 
 ### The observables
+ {#TheObservables}
 
-()...
+For $A \in C^\ast Alg$ we call a [[self-adjoint operator]] $a \in A$ an quantum [[observable]]. The following statement asserts that quantum observables on $A$ are in a precise sense the $\mathbb{R}$-valued "functions" on the Bohr topos of $A$.
+
+Write $C(\mathbb{R})$ for the $C^\ast$-algebra of continuous complex functions on the [[real line]]. We think of $Bohr(C(\mathbb{R}))$ as the incarnation of $\mathbb{R}$ in the context of Bohr toposes.
+
+
++-- {: .num_prop }
+###### Proposition
+
+Morphisms $Bohr(A) \to Bohr(C(\mathbb{R}))$ with an extra right adjoint to the underlying geometric morphism are in bijection to the observables on $A$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ToposCharacterizationOfAlgebraHomomorphisms}
+such morphisms are in bijection to algebra homomorphisms
 
 $$
-  a : Bohr(A) \to Bohr(C(\mathbb{R}))
+  C(\mathbb{R}) \to A
+  \,.
 $$
 
-(...)
+By [[functional calculus]]: every [[self-adjoint operator]] $a \in A$ provides such a homomorphism by $f \mapsto f(a)$. Conversely, given such an algebra homomorphism, its image of $i : x \mapsto x$ is a self-adjoint operator in $A$, and these two constructions are clearly inverses of each other.
 
+=--
 
 ### The states
 
-sections of $\mathbb{R}$-moduled toposes of
+
++-- {: .num_defn }
+###### Definition
+
+For $A \in C^\ast Alg$ write 
+$(Sh(Alex \mathcal{C}(A)), \mathbb{R})$ for the [[ringed topos]] as indicated, where $\mathbb{R}$ denotes the copresheaf constant on $\mathbb{R}$.
+
+The internal $C^\ast$-algebra $\underline{A} \in Bohr(A)$ is an internal $\mathbb{R}$-module. Forgetting the algebra structure and only remembering the $\mathbb{R}$-module structure, we get a category of "$\mathbb{R}$-moduld toposes".
+
+=--
+
++-- {: .num_prop }
+###### Observation
+
+There is a canonical morphism of ringed toposes
 
 $$
-  Bohr(A) \to (Sh(Alex \mathcal{C}(A)), \mathbb{R})
+  \pi : Bohr(A) \to (Sh(Alex \mathcal{C}(A)), \mathbb{R})
 $$
 
+whose underlying geometric morphism is the identity (and whose morphism of internal ring objects is the unique).
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This [[bundle]] is the $C^\ast$-topos incarnation of the morphism $\Sigma \to Alex \mathcal{C}(A)$ of locales discussed [above](ThePhaseSpace).
+
+=--
+
++-- {: .num_prop }
+###### Observation
+
+A [[state]] $\rho$ on $A$ is a [[section]] of $\pi$ in the category
+of $\mathbb{R}$-moduled toposes that is positive and normalized.
+
+=--
+
+(...)
 
 ## (Pre-)Sheaf of Bohr toposes of a quantum field theory
  {#SheafOfBohrToposesOfQFT}
