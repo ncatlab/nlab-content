@@ -409,6 +409,8 @@ See [[differential cobordism cohomology theory]]
 ## References 
  {#References}
 
+### General
+
 Differential cohomology was first developed for the special cases of [[ordinary differential cohomology]]  and of [[differential K-theory]] (interest into which came from discussion of [[D-brane charge]] in [[type II superstring theory]]). See the references there. A survey is in 
 
 * [[Ulrich Bunke]], _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
