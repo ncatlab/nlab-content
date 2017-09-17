@@ -1,4 +1,31 @@
-Associated graded ring (algebra) is the associated graded object to the filtered ring (algebra). 
 
-A version of [[PBW theorem]] states that if a Lie $k$-algebra $g$ is flat as a $k$-module over a commutative ground ring $k\supset \mathbb{Q}$ containing rationals, then the associated graded ring 
-$Gr U(\gg)$is isomorphic to the symmetric algebra $Sym(g)$ of the underlying $k$-module of $g$. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[filtered ring]] is a [[filtered object]] in the [[category]] [[Ring]] of [[rings]].
+
+The **associated graded ring** to a filtered ring is the corresponding _[[associated graded object]]_.
+
+
+## Properties
+
+A version of [[PBW theorem]] states that if a [[Lie algebra]] $\mathfrak{g}$ over a [[field]] $k$ is [[flat module|flat]] as a $k$-[[module]] over a commutative ground ring $k\supset \mathbb{Q}$ containing [[rational numbers|rationals]], then the associated graded ring 
+$Gr U(\gg)$is [[isomorphism|isomorphic]] to the [[symmetric algebra]] $Sym(g)$ of the underlying $k$-module of $g$. 
+
+
+[[!redirects associated graded rings]]
