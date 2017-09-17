@@ -7,7 +7,7 @@
 
 ### Generalizing sums
 
-A __sum__ $\sum_{s \in S} a_s$ is defined over a domain $S$ which is, as a rule, a _discrete_ set. This set is also typically fixed in the sense that no subdivision is assumed in its definition, except sometimes for convergence purposes. Thus a general sum takes two arguments: a set $S$ and a function on $S$ and outputs a value. In the case of sum of an infinite series the order may matter as the limiting procedure is taken into account.
+A __[[sum]]__ $\sum_{s \in S} a_s$ is defined over a domain $S$ which is, as a rule, a _discrete_ set. This set is also typically fixed in the sense that no subdivision is assumed in its definition, except sometimes for convergence purposes. Thus a general sum takes two arguments: a set $S$ and a function on $S$ and outputs a value. In the case of sum of an infinite series the order may matter as the limiting procedure is taken into account.
 
 An __integral__ is a generalization of a sum where the domain is typically not a discrete set, but some mathematical object, which may be (typically not in a single fixed way, but in many possible ways) approximated or split into pieces.
 The function to be integrated over the range, 
@@ -22,7 +22,7 @@ __Integration__ in most narrow sense is a process involved in defining or comput
 
 ### Integration as opposite to differentiation
 
-Many integrals are supposed to be inverse to differentiation procedures of various kinds. Indeed, if integral is a generalization of a sum, then a difference between two partial sums is a value to be added at a step of summation, and its generalization is some sort of differentiation. Of course, the initial value has to be determined as the differentiation gives just a step of the addition.
+Many integrals are supposed to be inverse to differentiation procedures of various kinds. Indeed, if integral is a generalization of a sum, then a difference between two partial sums is a value to be added at a step of summation, and its generalization is some sort of [[differentiation]]. Of course, the initial value has to be determined as the differentiation gives just a step of the addition.
 
 
 ### Solving differential equations and constraints
@@ -55,7 +55,9 @@ The basic problem with the path integral comes from the fact that there is no tr
 
 * in [[differential geometry]]
 
-  *  [[differential form]]s are involved in integration over differentiable manifolds, see at _[[integration of differential forms]]_ ; more generally, one can integrate currents (cf. [[geometric measure theory]]
+  *  [[differential forms]] are involved in integration over differentiable manifolds, see at _[[integration of differential forms]]_ ; more generally, one can integrate currents (cf. [[geometric measure theory]]
+
+  * [[fiber integration in ordinary differential cohomology]]
 
 *  in [[supergeometry]]
 
@@ -76,7 +78,13 @@ vector fields and flows)
 
 ## References
 
-(...)
+An introduction to the basic notions of [[integration of differential forms]], with an eye towards applications in [[physics]] is in section 3 of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_ 
+
+Discussion of integration similarly with an eye towards applications in physics but from a more [[general abstract]] perspective is in 
+
+* _[[geometry of physics]] -- [integration](geometry+of+physics#Integration)_
 
 A proof of the [[Riesz representation theorem]] in [[constructive mathematics]] is given in
 
