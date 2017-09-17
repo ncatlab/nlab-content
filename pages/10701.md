@@ -199,6 +199,9 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 ## Lecture 23 _The Bousfield Classes of $E(n)$ and $K(n)$_ 
 
+* [[Bousfield equivalence]]
+
+* [[smash product theorem]]
 
 ##  Lecture 24 _Uniqueness of Morava K-theory_ 
 
