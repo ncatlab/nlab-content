@@ -169,7 +169,9 @@ But the category of representations of a groupoid has even more nice features wh
 
 In the literature on species, the monoidal structure coming from $+$ is often called **multiplication**, since multiplying species in this way corresponds to multiplying their generating functions.  Aguiar and Mahajan call this monoidal structure the [Cauchy product](http://www.math.tamu.edu/~maguiar/a.pdf#page=290).  The monoidal structure coming from $\times$ has no commonly used name, but it deserves to be called the **Dirichlet product**.
 
-On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ a fifth monoidal structure: the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.   
+Aguiar and Mahajan point out that some of the relationships between the "pointwise" products (addition and Hadamard) and the "Day" products (Cauchy and Dirichlet) can be described in terms of [[duoidal categories]].  Specifically, the Hadamard and Cauchy products form duoidal structures in both orders.
+
+On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ a fifth monoidal structure: the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.  
 
 Mathematicians often work with a decategorified version of $Schur$: its [[Grothendieck group]], also known as the ring of [[symmetric functions]].  The various structures that $Schur$ possesses endow this ring with corresponding structures.  Among other things, it is the free [[lambda-ring]] on one generator.   As we shall see, corresponds to the fact that $Schur$ is the free [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] on one object.
 
