@@ -126,7 +126,7 @@ By Chern-Simons [[holography]] (see there for more details) the 2d WZW [[CFT]] o
 ### D-branes
  {#DBranes}
 
-The characterization of [[D-branes]] [[submanifolds]] for the [[open string]] WZW model on a [[Lie group]] $G$ comes from two consistency conditions:
+The characterization of [[D-brane]] [[submanifolds]] for the [[open string]] WZW model on a [[Lie group]] $G$ comes from two consistency conditions:
 
 1. geometrical condition:
 
@@ -136,7 +136,7 @@ The characterization of [[D-branes]] [[submanifolds]] for the [[open string]] WZ
 
 1. cohomological condition: 
 
-   In order for the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] of the [[worldsheet]] [[action functional]] of the open WZW string to vanish, the D-brane must be equipped with a [[Chan-Paton gauge field]], hence a [[twisted unitary bundle]] ([[bundle gerbe module]]) of some rannk $n \in \mathbb{N}$ for the restriction of the ambient [[B-field]] to the brane. 
+   In order for the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] of the [[worldsheet]] [[action functional]] of the open WZW string to vanish, the D-brane must be equipped with a [[Chan-Paton gauge field]], hence a [[twisted unitary bundle]] ([[bundle gerbe module]]) of some rank $n \in \mathbb{N}$ for the restriction of the ambient [[B-field]] to the brane. 
 
    For [[simply connected topological space|simply connected]] Lie groups only the rank-1 Chan-Paton gauge fields and their direct sums play a role, and their existence corresponds to a trivialization of the underlying $\mathbf{B}U(1)$-[[principal 2-bundle]] ($U(1)$-[[bundle gerbe]]) of the restriction of the [[B-field]] to the brane. There is then a discrete finite collection of symmetric D-branes = [[conjugacy classes]] satisfying this condition, and these are called the **integral symmetric D-branes**. ([Alekseev-Schomerus](#AlekseevSchomerus), [Gawedzki-Reis](#GW)). As observed in [Alekseev-Schomerus](#AlekseevSchomerus), this may be thought of as identifying a D-brane as a variant kind of a [[Bohr-Sommerfeld leaf]].
 
