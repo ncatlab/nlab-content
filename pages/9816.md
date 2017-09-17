@@ -56,9 +56,9 @@ $$
   \,.
 $$
 
-These are (either) referred to as the _Atiyah-Bott-Shapiro orientation_ (after [Atiyah-Bott-Shapiro](#AtiyahBottShapiro)), the $E-\infty$-structure is due to ([Joachim 04](#Joachim04)).
+These are (both) referred to as the _Atiyah-Bott-Shapiro orientation_ (after [Atiyah-Bott-Shapiro](#AtiyahBottShapiro)), the $E_\infty$-structure is due to ([Joachim 04](#Joachim04)).
 
-The [[genus]] induces by this multiplicative orientation is the [[A-hat genus]].
+The [[genus]] induced by this multiplicative orientation is the [[A-hat genus]].
 
 
 
