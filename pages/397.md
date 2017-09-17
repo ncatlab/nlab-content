@@ -63,6 +63,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Eugene Lerman]]
 * [[Evan Jenkins]]
 * [[Finn Lawler]]
+* [[Frédéric Paugam]]
 * [[G. Rodrigues]]
 * [[G B]]
 * [[Gabriel C. Drummond-Cole]]
