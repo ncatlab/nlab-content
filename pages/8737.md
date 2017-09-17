@@ -6,6 +6,8 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+=--
++-- {: .toc .clickDown tabindex="0"}
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
