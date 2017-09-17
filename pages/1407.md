@@ -105,6 +105,10 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[gravity]], [[supergravity]], [[Yang-Mills theory]], [[quantum gravity]]
 
+  * [[quantum anomaly]]
+
+  * [[twisted smooth cohomology in string theory]]
+
 ### Critical string models
 
 * [[heterotic string theory]]
