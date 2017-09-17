@@ -1,8 +1,22 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea 
+
+In a context of [[synthetic differential geometry]], the _de Rham space_ $dR(X)$ of a [[space]] $X$ is the quotient of $X$ that identifies [[infinitesimal object|infinitesimally close points]].
 
 > [[nPOV]] claim:
 
