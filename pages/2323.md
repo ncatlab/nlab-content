@@ -1,7 +1,7 @@
 
 **[[Higher Topos Theory|(∞,1)-topos theory]]**
 
-## Contents ##
+## Definitions ##
 
 * [[(∞,1)-topos]]
 
@@ -29,11 +29,17 @@
 
 ## Constructions  ##
 
+**[[schreiber:structures in an (∞,1)-topos]]**
+
 * [[shape of an (∞,1)-topos|shape]]
 
 * [[cohomology]]
 
 * [[homotopy groups in an (∞,1)-topos|homotopy]]
+
+  * [[Postnikov tower in an (∞,1)-category|Postnikov towers]]
+
+  * [[Whitehead tower in an (∞,1)-topos|Whitehead towers]]
 
 * [[rational homotopy theory in an (∞,1)-topos|rational homotopy]]
 
