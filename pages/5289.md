@@ -39,6 +39,10 @@ See [[E-∞ algebra]].
 
 [[!include k-monoidal table]]
 
+* [[k-tuply monoidal (n,r)-category]]
+
+* [[k-tuply groupal n-groupoid]]
+
 
 ## References
 
@@ -53,6 +57,10 @@ some summary of which is at _[[Ek-Algebras]]_.
 
 
 [[!redirects En-algebras]]
+
+[[!redirects E1-algebra]]
+[[!redirects E1-algebras]]
+
 
 [[!redirects E2-algebra]]
 [[!redirects E2-algebras]]
