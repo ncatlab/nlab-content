@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -32,6 +31,7 @@ Higher-order [[intuitionistic logic]] is often identified with the [[internal lo
 * **higher order logic**
 
 
+[[!redirects higher-order logic]]
 [[!redirects higher order logic]]
 [[!redirects higher-order proposition]]
 [[!redirects higher-order propositions]]
