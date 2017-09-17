@@ -161,8 +161,12 @@ A test of __underlining__, with punctuation
 
 Only it wasn't *underlining*, it was **emphasis**.
 
+
 category: meta
 
+[[!redirects Sandbox]]
+[[!redirects SandBox]]
+[[!redirects Sand Box]]
 [[!redirects sandbox]]
 [[!redirects Symbol Sandbox]]
 [[!redirects sandbox905234]]
