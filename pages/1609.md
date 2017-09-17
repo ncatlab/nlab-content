@@ -13,6 +13,10 @@ for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that the composites above are 
 
 Compare this to the notion of [[locally partially ordered category]].  A partially ordered category in which the [[source]] and [[target]] maps preserve the partial order is a category *[[internal category|internal]] to* the category [[Pos]] of [[poset]]s, while a locally partially ordered category is a category *[[enriched category|enriched]] over* $Pos$.  
 
++--{: .query}
+[[Sridhar Ramesh]]: Is there meant to also be a partial ordering on the objects in addition to those on the Hom-sets? (Without this, I cannot make sense of the source and target maps preserving the partial order. Indeed, as it stands, I don't see how this definition is any different from that of a locally partially ordered category.)
+=--
+
 Similarly, such a partially ordered category is a special kind of [[double category]], while a locally partially ordered category is a special kind of $2$-[[2-category|category]].
 
 ## Partially ordered $\dagger$-categories ##
