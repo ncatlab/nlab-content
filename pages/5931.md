@@ -60,6 +60,8 @@ All of the following notions are special cases of locally algebra-ed toposes:
 
 * [[ringed space]], [[locally ringed space]];
 
+* [[ringed site]], [[locally ringed site]]
+
 * [[ringed topos]], [[locally ringed topos]].
 
 The [[(∞,1)-category theory]]-version is that of
