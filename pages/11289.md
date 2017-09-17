@@ -1,0 +1,10 @@
+
+## Related concepts
+
+* [[observable universe]]
+
+## References
+
+A visualization of the scales in the solar system is in
+
+* [A tediously accurate scale model of the solar system](http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
