@@ -1,0 +1,4 @@
+[[!redirects dg-presheaves]]
+Let $A$ be a [[dg-category]] over a [[commutative ring]] $k$.  A **dg-presheaf** on $A$ is a [[functor]] $A^\op \to Ch(k)$, where $Ch(k)$ denotes the [[dg-category]] of [[chain complexes]] of $k$-[[modules]].  Hence it is a [[presheaf]] on $A$ in the $Ch(k)$-enriched context.  Dg-presheaves are often called _(right) dg-modules_ due to the fact that a [[dg-category]] with a single object is a [[dg-algebra]], and a [[dg-presheaf]] is a [[dg-module]] in the traditional sense.
+
+[[!redirects dg-presheaves]]
