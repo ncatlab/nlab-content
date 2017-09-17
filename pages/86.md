@@ -674,7 +674,7 @@ A **classical BV complex** is a [[cochain complex]] equipped with the structure 
 
 =--
 
-+-- {: .num_defn #BeilinsonDrinfelAlgebra}
++-- {: .num_defn #BeilinsonDrinfeldAlgebra}
 ###### Definition
 
 A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[graded algebra]] $A$ over the ring $\mathbb{R} [ [ \hbar ] ]$ of [[formal power series]] in a formal constant $\hbar$, equipped with a [[Poisson 0-algebra|Poisson bracket]] $\{-,-\}$ of degree 1 and with an operator $\Delta \colon A \to A$ of degree 1 which satisfies:
@@ -720,19 +720,38 @@ The classical limit of a [[Beilinson-Drinfeld algebra]] is canonically a classic
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #BVQuantizationByBDAlgebra}
 ###### Definition
 
-For $A_{\hbar = 0}$ a classical BV complex, def. \ref{ClassicalBVComplexAsPoisson0Algebra}, a **BV quantization** of it is a [[Beilinson-Drinfeld algebra]] $A_{\hbar}$, def. \ref{BeilinsonDrinfelAlgebra} whose classical limit, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}, is the given $A_{\hbar = 0}$.
+For $A_{\hbar = 0}$ a classical BV complex, def. \ref{ClassicalBVComplexAsPoisson0Algebra}, a **BV quantization** of it is a [[Beilinson-Drinfeld algebra]] $A_{\hbar}$, def. \ref{BeilinsonDrinfeldAlgebra} whose classical limit, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}, is the given $A_{\hbar = 0}$.
 
 =--
 
 In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.6.
 
 
-
 #### Quantum observables by BV-cohomology
  {#PathIntegrationAndQuantumObservablesByBVCohomology}
+
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[quantum BV-complex]], its [[cochain cohomology]] are the **[[expectation values]] of [[observables]]** of the [[theory (physics)|theory]].
+
+Specifically, an observable is a closed element $f$ in the quantum BV-complex and its _expectation value_ is its image $[f]$ in [[cochain cohomology]]. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Given a [[quantum BV-complex]] by def. \ref{BVQuantizationByBDAlgebra}
+its [[cochain cohomology]] is, by definition, a perturbation of that of its [[classical limit]] BV complex, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}. Accordingly, the quantum observables may be computed from the classical observables by the [[homological perturbation lemma]]. For [[free field theories]] this yields [[Wick's lemma]] and [[Feynman diagrams]] for computing observables. ([Gwilliam 2013, section 2.3](#Gwilliam)).
+
+
+=--
+
 
 (...)
 
@@ -1065,6 +1084,8 @@ based on
 [[!redirects classical BV complex]]
 [[!redirects classical BV complexes]]
 
+[[!redirects BV-quantization]]
+[[!redirects BV quantization]]
 
 [[!redirects quantum BV-complex]]
 [[!redirects quantum BV-complexes]]
