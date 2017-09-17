@@ -100,6 +100,6 @@ gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
 ## Copyright statement ##
 
-My contributions to the [[HomePage|nLab]] are released under a [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) license. Indeed, when I can (for instance, all those of which I am solo author) I post my papers on the arXiv under this license.
+My contributions to the [[HomePage|nLab]] are released under a [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/) license. Indeed, when I can (for instance, all those of which I am solo author) I post my papers on the arXiv under a CC-BY license.
 
 category: people
