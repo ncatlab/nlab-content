@@ -264,17 +264,17 @@ In this case, the universal 2-cell $1_C \to R L$ corresponds to the
 
 It is also possible to express this in terms of Kan liftings: $L$ has a right adjoint $R$ if and only if:
 
-- $R = \mathop{Rift}_L 1_D$ and this [[Kan lift]] is [[Kan lift|absolute]]
+- $R \simeq \mathop{Rift}_L 1_D$ and this [[Kan lift]] is [[Kan lift|absolute]]
 
 In this case, we get the counit as given by the universal cell $L R \to 1_D$, while the rest of the data and properties can be derived from it through the absolute Kan lifting assumption.
 
 Dually, we have that for $R\colon D \to C$, it has a left adjoint $L \colon C \to D$ precisely if 
 
-- $L = \mathop{Ran}_R 1_D$, and this Kan extension is [[Kan extension|absolute]]
+- $L \simeq \mathop{Ran}_R 1_D$, and this Kan extension is [[Kan extension|absolute]]
 
 or, in terms of left Kan liftings:
 
-- $L = \mathop{Lift}_R 1_C$, and this Kan lifting is [[Kan lift|absolute]]
+- $L \simeq \mathop{Lift}_R 1_C$, and this Kan lifting is [[Kan lift|absolute]]
 
 The formulations in terms of liftings generalize to [[relative adjoint|relative adjoints]] by allowing an arbitrary functor $J$ in place of the identity; see there for more.
 
