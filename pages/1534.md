@@ -30,7 +30,9 @@ $$
   \otimes V_{D_{21}} \otimes V_{D_{2 2}} \otimes \cdots \to V_D
   \,.
 $$
-
++-- {: .standout}
+Is there a condition missing here? I don't understand the definition. Maarten Bergvelt 
+=--
 This is pretty much like saying that the factorization algebra is an extended [[FQFT]] of genus 0 [[cobordisms]] that are embedded into $X$.
 
 Indeed, such factorization algebras serve to describe [[quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebras]]. See also the comments on the references below.
