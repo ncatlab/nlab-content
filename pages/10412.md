@@ -3,3 +3,4 @@ The __amplituhedron__ is a geometric body in the positive Grassmanian (which is 
 * Nima Arkani-Hamed, Jacob L. Bourjaily, Freddy Cachazo, [[Alexander Goncharov|Alexander B. Goncharov]], Alexander Postnikov, Jaroslav Trnka, _Scattering amplitudes and the positive Grassmannian_, [arxiv/1212.5605](http://arxiv.org/abs/1212.5605)
 * wikipedia: [amplituhedron](http://en.wikipedia.org/wiki/Amplituhedron)
 * Jaroslav Trnka, _The amplitudohedron_, [pdf](http://www.staff.science.uu.nl/~tonge105/igst13/Trnka.pdf)
+* Natalie Wolchover, _A Jewel at the Heart of Quantum Physics_, Quanta Magazine, Sep 17, 2013 (hosted at Simons Foundation) [html](https://www.simonsfoundation.org/quanta/20130917-a-jewel-at-the-heart-of-quantum-physics)
