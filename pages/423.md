@@ -55,6 +55,7 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 * [[classifying space]], [[Eilenberg-MacLane space]],[[Moore space]], [[Moore path category]]
 * [[topological K-theory]], [[gerbe]], [[twisted K-theory]], [[Karoubi K-theory]], [[differential K-theory]], [[K-theory spectrum]]
 * [[loop space]], [[free loop space object]], [[de Rham cohomology]], [[string topology]]
+* [[Thom space]], [[Thom bundle]], [[fiber integration]], [[equivariant cohomology]]
 * [[differential topology]], [[microbundle]], [[cobordism]], [[derived smooth manifold]]
 * [[topological group]], [[H-space]], [[co-H-space]], [[topological stack]], [[orbispace]] 
 * [[topological quantum field theory]], [[tmf]], [[cobordism hypothesis]], [[topological T-duality]]
