@@ -423,6 +423,10 @@ Then there is
 * [[Max Karoubi]], _Twisted bundles and twisted K-theory_, Clay Mathematics Proceedings, Volume 19 (2011) ([pdf](http://www.math.jussieu.fr/~karoubi/Publications/89.pdf))
  {#Karoubi}
 
+* [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
+ {#Pennig}
+
+
 ### As 2-sections of 2-bundles
  {#ReferencesAsSectionsOf2Bundles}
 
