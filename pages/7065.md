@@ -11,11 +11,12 @@
 
 # Contractible types
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In [[homotopy type theory]], the notion of **contractible [[type]]** is an internalization of the notion of [[contractible space]] / [[(-2)-truncated]] object.
+
 
 ## Definition
 
@@ -29,7 +30,8 @@ In [[propositions as types]] language, this can be pronounced as "there exists a
 
 A provably [[equivalence in homotopy type theory|equivalent]] definition is
 $$isContr(A) \coloneqq A \;\times\; isProp(A) $$
-(where of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).
+(where of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).  In other words, $A$ is contractible iff $A$ is an [[inhabited type|inhabited]] [[h-prop|proposition]].
+
 
 ## Properties
 
@@ -37,9 +39,11 @@ $$isContr(A) \coloneqq A \;\times\; isProp(A) $$
 
 * A type is contractible if and only if it is [[equivalence in homotopy type theory|equivalent]] to the [[unit type]].
 
+
 ## Coq code
 
 * [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Contractible.v)
+
 
 ## Semantics
 
@@ -61,11 +65,13 @@ We can also construct the type
 $$\prod_{x\colon B} isContr(A(x))$$
 in global context, which has a global element precisely when $isContr(A)\to B$ has a section.  Thus, a global element of this type is also equivalent to $A\to B$ being an acyclic fibration.
 
+
 ## Remarks
 
-* Contractible types are also called of **h-level 0**.
+* Contractible types are also called of **[[h-level]] $0$**.
 
 
+[[!redirects contractible type]]
 [[!redirects contractible types]]
 [[!redirects h-level 0]]
 [[!redirects h-level 0 type]]
