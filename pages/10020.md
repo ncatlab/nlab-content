@@ -57,7 +57,7 @@ Reviews include
 
 The relation of this to the [[AdS-CFT correspondence]] is discussed in
 
-* {#GukovMartinecMooreStrominger04} [[Sergei Gukov]], [[Emil Martinec]], [[Gregory Moore]], [[Andrew Strominger]], _Chern-Simons Gauge Theory and the AdS(3)/CFT(2) Correspondence_ ([arXiv:hep-th/0403225](http://xxx.lanl.gov/abs/hep-th/0403225))
+* {#GukovMartinecMooreStrominger04} [[Sergei Gukov]], [[Emil Martinec]], [[Gregory Moore]], [[Andrew Strominger]], _Chern-Simons Gauge Theory and the AdS(3)/CFT(2) Correspondence_, in [[Mikhail Shifman]] et al.  (ed.) _From fields to strings_, vol. 2, 1606-1647, 2004 ([arXiv:hep-th/0403225](http://xxx.lanl.gov/abs/hep-th/0403225))
  
 
 * Kristan Jensen, _Chiral anomalies and AdS/CMT in two dimensions_, JHEP 1101:109,2011 ([arXiv:1012.4831](http://lanl.arxiv.org/abs/1012.4831))
