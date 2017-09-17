@@ -26,6 +26,8 @@ The abc conjecture implies the [[Mordell conjecture]] ([Elkies](#Elkies)).
 * [[Barry Mazur]], _Questions about number_, [pdf](http://www.math.harvard.edu/~mazur/papers/scanQuest.pdf) scan
  {#Mazur}
 
+* PolyMath, _[ABC conjecture](http://michaelnielsen.org/polymath1/index.php?title=ABC_conjecture)_
+
 * abc conjecture [homepage](http://www.math.unicaen.fr/~nitaj/abc.html)
 * wikipedia [abc conjecture](http://en.wikipedia.org/wiki/Abc_conjecture)
 
