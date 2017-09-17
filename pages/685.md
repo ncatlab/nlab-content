@@ -51,21 +51,6 @@ When we know we are working in a (weak) 2-category, the only type of limit that 
 Unfortunately, we probably shouldn't use "weak limit" to emphasize the "up-to-isomorphism" nature of these limits, because that also has the [[weak limit|completely unrelated meaning]] of an object in a 1-category satisfying the existence, but not the uniqueness property of an ordinary limit.
 
 
-
-### Lax limits
-{#lax}
-
-A **lax limit** is like a 2-limit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  The lax limit of one diagram can always be converted to an ordinary 2-limit by changing the weight.
-
-* Lax terminal objects and lax products are the same as ordinary ones, since there are no commutativity conditions on the cones.
-
-* The **lax limit of an arrow** $f:A\to B$ is a universal object $L$ equipped with projections $p:L\to A$ and $q:L\to B$ and a 2-cell $f p \to q$.  Note that this is equivalent to a comma object $(f/1_B)$.
-
-* The **lax pullback** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$, $q:P\to B$, $r:P\to C$, and 2-cells $f p \to r$ and $g q \to r$.
-
-Note that lax pullbacks are _not_ the same as [[comma objects]].  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
-
-
 ## Examples
 
 ### 2-limits over diagrams of special shape
@@ -111,6 +96,19 @@ Traditionally, [[(∞,1)-limit]]s are best known in tersm of the presentation of
 For instance 2-limits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[natural transformation]]s and (necessarily) [[natural isomorphism]]s. Are equivalently computed as [[homotopy limit]]s in the [[model structure on simplicial sets]] $sSet_{Quillen}$ of diagrams of [[1-truncated]] [[Kan complex]]es. (The equivalnce of homotopy limits with $(\infty,1)$-limits is discusssed at [[(∞,1)-limit]]).
 
 Or for instance, more generally, the 2-limits in any [[(2,1)-sheaf]](=[[stack]]) [[(2,1)-topos]] may be computed as [[homotopy limit]]s in a [[model structure on simplicial presheaves]] over the given [[(2,1)-site]] of diagrams of [[1-truncated]] [[simplicial presheaves]]. This includes as examples [[big topos|big (2,1)-toposes]] such as those over the large sites [[Top]] or [[SmoothMfd]] where computations with [[topological groupoid]]s/[[topological stack]]s, [[Lie groupoid]]s/[[differentiable stack]]s etc. take place.
+
+### Lax limits
+{#lax}
+
+A **lax limit** can be defined like a 2-limit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  In other words, in place of the 2-category $[D,Cat]$ we use the 2-category $[D,Cat]_l$ whose morphisms are [[lax natural transformations]].  This may look like a different concept, but in fact, for any weight $J$ there is another weight $Q_l(J)$ such that lax $J$-weighted limits are the same as $Q_l(J)$-weighted 2-limits.  Here $Q_l$ is the [[lax morphism classifier]] for 2-functors.  Therefore, lax limits are really a special case of 2-limits.
+
+* Lax terminal objects and lax products are the same as ordinary ones, since there are no commutativity conditions on the cones.
+
+* The **lax limit of an arrow** $f:A\to B$ is a universal object $L$ equipped with projections $p:L\to A$ and $q:L\to B$ and a 2-cell $f p \to q$.  Note that this is equivalent to a comma object $(f/1_B)$.
+
+* The **lax pullback** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$, $q:P\to B$, $r:P\to C$, and 2-cells $f p \to r$ and $g q \to r$.
+
+Note that lax pullbacks are _not_ the same as [[comma objects]].  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
 
 
 ### 2-Colimits in $Cat$
