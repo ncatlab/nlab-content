@@ -26,17 +26,17 @@ JLB-algebras are the outcome of [[quantization]] of [[Poisson algebra]]s. Often 
 
 ## Definition
 
-A __JLB algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$ equipped with two [[short linear operator|short]] [[bilinear operators]] $(-)\circ(-)$ and $(-)\bullet(-)$, called the _Jordan product_ and the _Lie product_, satisfying the following identities:
+A __JLB-algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$ equipped with two [[short linear operator|short]] [[bilinear operator]]s $(-)\circ(-)$ and $(-)\bullet(-)$, called the _Jordan product_ and the _Lie product_, satisfying the following identities:
 
 * Jordan commutativity: $x \circ y = y \circ x$;
 * Lie anticommutativity: $x \bullet x = 0$, or equivalently (given bilinearity) $x \bullet y = -y \bullet x$;
 * the Jacobi identity (Lie self-derivation): $x \bullet (y \bullet z) = (x \bullet y) \bullet z + y \bullet (x \bullet z)$, or equivalently (given anticommutativity) $x \bullet (y \bullet z) + y \bullet (z \bullet x) + z \bullet (x \bullet y) = 0$;
-* Jordan derivation: $x \bullet (y \circ z) = (x \bullet y) \circ z + x \circ (y \bullet z)$;
+* Jordan derivation: $x \bullet (y \circ z) = (x \bullet y) \circ z + y \circ (x \bullet z)$;
 * the associator identity: $(x \circ y) \circ z - x \circ (y \circ z) = ((x \bullet z) \bullet y)$;
-* the $C^*$ identity: ${\|x \circ x\|} = {\|x\|^2}$;
+* the $B$-identity: ${\|x \circ x\|} = {\|x\|^2}$ (compare the $B^*$-identity or $C^*$-identity of a $C^*$-[[C-star-algebra|algebra]]);
 * positivity: ${\|x \circ x \|} \leq {\|x \circ x + y \circ y\|}$.
 
-This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  Halvorson does not include the statement that the Lie multiplication is short, and it includes a nonnegative real constant factor $r$ on the right-hand side of the associator identity.  However, Halvorson claims to construct an equivalence between real JLB-algebras and complex $C^*$-[[C*-algebra|algebras]], and this construction produces $r = 1$, and then shortness of the Lie product follows.
+This definition is adapted from Section 1.1 of [Halvorson, 1999](#Halvorson1999).  Halvorson does not include the statement that the Lie multiplication is short, and it includes a nonnegative real constant factor $r$ on the right-hand side of the associator identity.  However, Halvorson claims to construct an equivalence between real JLB-algebras and complex $C^*$-[[C*-algebra|algebras]], and this construction produces a short Lie product that satisfies $r = 1$.
 
 Another consequence of this definition is that the Jordan product makes $A$ into a [[Jordan algebra]] (and hence into a [[JB-algebra]]).
 
