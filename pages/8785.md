@@ -155,6 +155,8 @@ $$
 
 * [[chiral Dolbeault complex]]
 
+* [[holomorphic de Rham complex]]
+
 ## References
 
 * {#Maddock} Zachary Maddock, _Dolbeault cohomology_ ([pdf](http://www.math.columbia.edu/~maddockz/notes/dolbeault.pdf))
