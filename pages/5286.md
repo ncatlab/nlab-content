@@ -80,7 +80,9 @@ Multivecotr field can be identified with [[Hochschild cohomology]] in good cases
 
 * **BV-algebra**
 
-* [[homotopy BV-algebra]].
+* [[homotopy BV-algebra]]
+
+  * [[dg-BV-algebra]]
 
 ## References
 
