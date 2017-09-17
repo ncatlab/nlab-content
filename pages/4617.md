@@ -47,7 +47,7 @@ As an application, we show how Anders Kock's simplicial model for synthetic comb
 
 ### Cosimplicial $T$-algebras
 
-A good general notion of function algebras on generalized [[space]]s are $T$-algebras, for $T$ a [[Lawvere theory]]. A good general notion of function algebras on [[internal ∞-groupoid]]s in such spaces are [[cosimplicial object|cosimplicial]] $T$-algebras.
+A good general notion of [[function algebras]] on generalized [[spaces]] are $T$-algebras, for $T$ a [[Lawvere theory]]. A good general notion of [[function algebras]] on [[internal ∞-groupoid]]s in such spaces are [[cosimplicial object|cosimplicial]] $T$-algebras.
 
 We recall some basics and then discuss a [[model category]] structure on cosimplicial $T$-algebras for the cases that $T$ contains the theory of [[abelian group]]s.
 
@@ -55,7 +55,7 @@ We recall some basics and then discuss a [[model category]] structure on cosimpl
 
 A [[Lawvere theory]] may be thought of as a generalization of the theory of ordinary [[associative algebra]]s. 
 
-A Lawvere theory is encoded in its [[syntactic category]] $T$, which by definition is a category with finite [[product]]s such that every object (isomorphic to) an integer multiple $x^k$ of a fixed object $x \in T$. We are to think of the [[hom-set]] $T(k,1)$ as the set of $k$-ary operations of the algebras defined by the theory. A **$T$-algebra** is accordingly a product-preserving functor $A : T \to Set$. Its image $U_T(A) := A(1) \in Set$ is the underlying set, and its value $A(f) : U_T(A)^k \to U_T(A)$ on an element $f \in T(k,1)$ is the $k$-ary operation $f$ as implemented by $A$.
+A Lawvere theory is encoded in its [[syntactic category]] $T$, which by definition is a category with finite [[product]]s such that every object (isomorphic to) an integer multiple $x^k$ of a fixed object $x \in T$. We are to think of the [[hom-set]] $T(k,1)$ as the set of $k$-ary operations of the algebras defined by the theory. A **$T$-algebra** is accordingly a product-preserving functor $A : T \to Set$. Its image $U_T(A) \coloneqq A(1) \in Set$ is the underlying set, and its value $A(f) : U_T(A)^k \to U_T(A)$ on an element $f \in T(k,1)$ is the $k$-ary operation $f$ as implemented by $A$.
 
 The category of $T$-algebras is the [[full subcategory]] $T Alg \subset [T, Set]$ of the [[category of presheaves]] on $T^{op}$ on these product-preserving functors.
 
@@ -266,7 +266,7 @@ and $A \in (T Alg^\Delta)^{op}$ [[nLab:natural transformation|natural]] isomorph
 $$
 \begin{aligned}
   (T Alg^\Delta)^{op}_s(B, A)_n
-  & :=
+  & \coloneqq
   (T Alg^\Delta)^{op}(B \cdot \Delta^n, A)
   \\
   & \simeq \int_{k \in \Delta} T Alg(A_k, \prod_{\Delta(k,n)} B)
@@ -303,7 +303,7 @@ Recall from [above](#TAlgebras) that we write $F_T(*)$ for the free $T$-algebra 
 +-- {: .num_defn}
 ###### Definition
 
-We call $R := j(F_T(*))$ the **line object** in $[C^{op}, sSet]$. 
+We call $R \coloneqq j(F_T(*))$ the **line object** in $[C^{op}, sSet]$. 
 
 =--
 
@@ -329,7 +329,7 @@ This characterization may look simpler, but does not capture the important fact 
 For $X \in [C^{op}, sSet]$, the [[nLab:cosimplicial set]] 
 
 $$
-  U_T(\mathcal{O}(X)) := [C^{op},sSet](X_\bullet, R) \in Set
+  U_T(\mathcal{O}(X)) \coloneqq [C^{op},sSet](X_\bullet, R) \in Set
 $$
 
 we call the cosimplicial set of $R$-valued _functions_ on $X$. This is naturally the cosimplical set underlying the cosimplicial $T$-algebra
@@ -369,7 +369,8 @@ Write $[C^{op}, sSet]_{proj,loc}$ for the
 By general results on left Bousfield localization, this exists always for $S$ a [[small set]], notably for $f$ the set of [[Cech nerve]] projections $C(U) \to X$ for [[cover]]s $\{U_i \to X\}$ of the [[Grothendieck topology]] on $C$. By general results on the [[local model structure on simplicial presheaves]], the localization also exists for $S$ the class of all (split) hypercovers. 
 
 
-### The Yoneda-Quillen-adjunction {#YonedaQuillenAdjunction}
+### The Yoneda-Quillen-adjunction 
+  {#YonedaQuillenAdjunction}
 
 We relate now the [model structure on cosimplicial T-algebras](#ModelTAlg) with the [model structure on simplicial presheaves](#ModelPresheaves) over $C \subset T Alg^{op}$ using the [function algebra functor](#Line) $\mathcal{O}$ and the [prolonged Yoneda embedding](#ProlongedYoneda) $j$.
 
@@ -379,7 +380,8 @@ We relate now the [model structure on cosimplicial T-algebras](#ModelTAlg) with 
 The functors $j$ and $\mathcal{O}$ constitute a [[simplicial Quillen adjunction]] 
 
 $$
-  (\mathcal{O} \dashv j) : 
+  (\mathcal{O} \dashv j) 
+  \;\colon\;
   (TAlg^\Delta_{proj})^{op}
   \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\hookrightarrow}}
   [C^{op}, sSet]_{proj}
@@ -397,7 +399,7 @@ We first establish the [[nLab:adjunction]] itself: using [[nLab:end]]-calculus f
 $$
 \begin{aligned}
   (T Alg^\Delta)^{op}(\mathcal{O}(X), A)
-  & :=
+  & \coloneqq
   T Alg^\Delta (A(-), [C^{op}, sSet](X, j(F_T(-))))
   \\
   & \simeq
@@ -435,7 +437,7 @@ $$
   \begin{aligned}
     (T Alg^\Delta)^{op}_s(\mathcal{O}(X), A)_n
     &
-    := 
+    \coloneqq 
     (T Alg^\Delta)^{op}(\mathcal{O}(X), A^{\Delta^n})
     \\
     & \simeq
@@ -626,7 +628,7 @@ The Quillen adjunction $(\mathcal{O} \dashv j)$ is a [[nLab:presentable (∞,1)-
 
 $$
   \mathbf{L}_C \stackrel{\stackrel{\mathcal{O}}{\leftarrow}}{\hookrightarrow}
-  \mathbf{H}:=
+  \mathbf{H} \coloneqq
   Sh_{(\infty,1)}(C)
 $$
 
@@ -635,6 +637,14 @@ of the [[nLab:(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$, where 
 =--
 
 We obtain a proof of this after the following discussions.
+
++-- {: .num_remark}
+###### Remark
+
+The resulting [[localization]] [[modality]] $Spec \mathcal{O}$ we might call the _[[affine modality]]_. It is similar to exhibiting $C$ as a [[total category]].
+
+=--
+
 
 ### $R$-Cohomology
 
@@ -651,7 +661,7 @@ Write $\Xi : Ch^\bullet_+ \to Ab^\Delta$ for the dual [[Dold-Kan correspondence]
 For $n \in \mathbb{N}$ the object $\mathbf{B}^n R \in Sh_{(\infty,1)}(C)$ is presented in $[C^{op}, sSet]_{proj,loc}$ by
 
 $$
-  \mathbf{B}^n R_{chn} := j(ab_* \Xi(F_{Ab}(*)[n])
+  \mathbf{B}^n R_{chn} \coloneqq j(ab_* \Xi(F_{Ab}(*)[n])
   \,.
 $$
 
@@ -660,7 +670,7 @@ $$
 Every [[(∞,1)-topos]] such as $\mathbf{H} = Sh_{(\infty,1)}(C)$ comes with its [[cohomology|intrinsic notion of abelian cohomology]]: for $X \in \mathbf{H}$ any object and for $A \in \mathbf{H}$ a [[∞-group]] object with arbitrary [[delooping]]s $\mathbf{B}^n A$, the $n$th cohomology group of $X$ with coefficients in $A$ is
 
 $$
-  H^n(X,A) := \pi_0 \mathbf{H}(X,\mathbf{B}^n A)
+  H^n(X,A) \coloneqq \pi_0 \mathbf{H}(X,\mathbf{B}^n A)
   \,.
 $$
 
@@ -787,7 +797,7 @@ But more abstractly, we can also simply use the general theory of [[reflective s
 
 $$
   \mathbf{L} \stackrel{\overset{\mathbb{L} \mathcal{O}}{\hookrightarrow}}{\underset{\mathbb{R} i}{\to}}
-  \mathbf{H} := Sh_{(\infty,1)}(C)
+  \mathbf{H} \coloneqq Sh_{(\infty,1)}(C)
 $$ 
 
 and that the left adjoint to the embedding inverts precisely the $R$-equivalences. Hence $\mathbf{L}$ is the full sub-$(\infty,1)$-category of $\mathbf{H}$ on $R$-local objects.
@@ -797,7 +807,7 @@ and that the left adjoint to the embedding inverts precisely the $R$-equivalence
 
 ## In derived geometry {#DerivedGeometry}
 
-We now discuss funciton algebras on $\infty$-stacks more generally in the context of [[derived geometry]], meaning that we we pass in the above from sites inside the opposite of a 1-category of $T$-algebras to an [[(∞,1)-site]] inside the opposite of an [[(∞,1)-category]] of [[∞-algebras over an (∞,1)-algebraic theory]].
+We now discuss [[function algebras]] on $\infty$-stacks more generally in the context of [[derived geometry]], meaning that we we pass in the above from sites inside the opposite of a 1-category of $T$-algebras to an [[(∞,1)-site]] inside the opposite of an [[(∞,1)-category]] of [[∞-algebras over an (∞,1)-algebraic theory]].
 
 
 ### Over ordinary associative algebras
@@ -825,7 +835,7 @@ Let $C \subset (cdgAlg_k^{op})^\circ_-$ be a [[small (∞,1)-category|small]] fu
 Set
 
 $$
-  \mathbf{H} := Sh_{(\infty,1)}(C)
+  \mathbf{H} \coloneqq Sh_{(\infty,1)}(C)
   \,.
 $$
 
@@ -960,9 +970,9 @@ $T$ the Lawvere theory of $\mathbb{Q}$-algebras. Then $(\mathcal{O} \dashv j)$ r
 
 In this section we study the general theory for the case that
 
-* $T := $ [[CartSp]] is the ([[syntactic category]] of the) Lawvere theory of [[smooth algebra]]s.
+* $T \coloneqq $ [[CartSp]] is the ([[syntactic category]] of the) Lawvere theory of [[smooth algebra]]s.
 
-Write $Smooth Alg := T Alg$ for the category of smooth algebras. Sheaf toposes on sub-sites $C \subset Smooth Alg^{op}$ are well known to provide [[smooth topos]]es that are [[Models for Smooth Infinitesimal Analysis|well adapted models]] for [[synthetic differential geometry]].
+Write $Smooth Alg \coloneqq T Alg$ for the category of smooth algebras. Sheaf toposes on sub-sites $C \subset Smooth Alg^{op}$ are well known to provide [[smooth topos]]es that are [[Models for Smooth Infinitesimal Analysis|well adapted models]] for [[synthetic differential geometry]].
 
 We consider here the choice
 
@@ -1093,7 +1103,7 @@ We call
 
 $$
   \mathbf{\Pi}_{inf}(U)
-  :=
+  \coloneqq
   \mathbb{R}j\; (U^{\Delta^\bullet_{inf}})
   \in 
   [C^{op}, sSet]
