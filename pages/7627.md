@@ -1,0 +1,33 @@
+
+> under construction
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+If [[particles]] specied are identified [[simple objects]] of a [[DHR category]], then the elements of the corresponding [[dual object]] are called **antiparticles**.
+
+## Related concepts
+
+* [[CPT theorem]]
+
+## References
+
+A discussion of traditional and of formalized discussions of antimatter, with an eye towards [[AQFT]], is in 
+
+* David Baker, [[Hans Halvorson]], _Antimatter_  ([pdf](http://philsci-archive.pitt.edu/4467/1/Antimatter.pdf))
+
+In 
+
+* [[Hans Halvorson]], _Algebraic quantum field theory_ ([pdf](http://www.princeton.edu/~hhalvors/aqft.pdf))
+
+the topic appears around remark 8.79.
+
+See also
+
+* R. Ascoli, G. Teppati und S. Termini, _Some remarks about particle-antiparticle superselection rules_, Lettere Al Nuovo Cimento (1969 - 1970)
+Volume 1, Number 4 (1969), 223-227, DOI: 10.
+
+[[!redirects antimatter]]
