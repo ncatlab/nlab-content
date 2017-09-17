@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-topos theory
-+--{: .hide}
++-- {: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
 #### Notions of subcategory
@@ -13,14 +13,14 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Idea
 
 The analog of the notion of [[subcategory]] for [[(∞,1)-categories]].
+
 
 ## Definition
 
@@ -42,11 +42,13 @@ $$
 
 exhibits an $(n-1)$-subcategory.
 
+
 ## Special cases
 
 ### 1-Subcategory / full subcategory
 
 A **full subcategory** is a 1-subcategory, exhibited by a [[full and faithful (∞,1)-functor]]. 
+
 
 #### For $sSet$-enriched and quasi-categories
 
@@ -61,6 +63,7 @@ $$
 
 where the second morphism is an ordinary inclusion of objects and hom-complexes.
 
+
 #### Reflective sub-$(\infty,1)$-categories
 
 If the $(\infty,1)$-functor $F : D \to C$ has a left [[adjoint (∞,1)-functor]] $L : C \to D$, then $F$ is full and faithful and hence exhibits a 1-subcategory precisely if the counit
@@ -72,6 +75,7 @@ $$
 is an [[equivalence in a quasi-category|equivalence]] of [[(∞,1)-functor]]s. (See also [[Higher Topos Theory|HTT, p. 308]]).
 
 In this case $D$ is a [[reflective (∞,1)-subcategory]].
+
 
 ### 2-Subcategory
 
@@ -145,21 +149,26 @@ What we call a 2-subcategory of an $(\infty,1)$-category appears in  section 1.2
 
 
 [[!redirects sub-quasi-category]]
-
-[[!redirects sub-quasicategory]]
-[[!redirects subquasicategory]]
-
-[[!redirects sub-(∞,1)-category]]
-[[!redirects sub-(infinity,1)-category]]
-
 [[!redirects sub-quasi-categories]]
+[[!redirects sub-quasicategory]]
 [[!redirects sub-quasicategories]]
+[[!redirects subquasicategory]]
 [[!redirects subquasicategories]]
 
-[[!redirects sub-(∞,1)-categories]]
+[[!redirects sub-(infinity,1)-category]]
 [[!redirects sub-(infinity,1)-categories]]
+[[!redirects sub-(∞,1)-category]]
+[[!redirects sub-(∞,1)-categories]]
+[[!redirects (infinity,1)-subcategory]]
+[[!redirects (infinity,1)-subcategories]]
+[[!redirects (∞,1)-subcategory]]
+[[!redirects (∞,1)-subcategories]]
 
-[[!redirects full sub-(∞,1)-category]]
 [[!redirects full sub-(infinity,1)-category]]
-[[!redirects full sub-(∞,1)-categories]]
 [[!redirects full sub-(infinity,1)-categories]]
+[[!redirects full sub-(∞,1)-category]]
+[[!redirects full sub-(∞,1)-categories]]
+[[!redirects full (infinity,1)-subcategory]]
+[[!redirects full (infinity,1)-subcategories]]
+[[!redirects full (∞,1)-subcategory]]
+[[!redirects full (∞,1)-subcategories]]
