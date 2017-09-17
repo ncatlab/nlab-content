@@ -177,7 +177,7 @@ There is a version of the mate correspondence that applies to [[two-variable adj
 
 * [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
 
-* [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
+* [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520), (to appear: Journal of K-Theory).
 {#CGR}
 
 [[!redirects mates]]
