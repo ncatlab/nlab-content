@@ -80,6 +80,8 @@ In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned 
 
   * [[state in AQFT and operator algebra]]
 
+    * [[quasi-state]]
+
 * [[observable]]
 
   * [[algebra of observables]]
