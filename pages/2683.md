@@ -26,6 +26,13 @@ This is naturally a [[spacetime]].
 
 ## Properties
 
+### Isometries
+
+The [[isometry group]] of Minkowski space is the [[Poincaré group]]. 
+The study of Minkowski spacetime with its isometries is also called _[[Lorentzian geometry]]_. This is the context of the [[theory of special relativity]].
+
+### Gravitational stability
+
 +-- {: .num_theorem}
 ###### Theorem
 
