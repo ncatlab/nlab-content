@@ -1731,6 +1731,12 @@ After discussing some generalities of these higher unitary-twisted connected cov
 |  [[twisted differential fivebrane structure]] | [[Green-Schwarz mechanism]] in [[dual heterotic string theory]] |
 
 
+#### Higher gauge theory anomalies
+
+Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory. A nice account of that is given in ([Freed](#Freed)).
+
+(...)
+
 
 #### Higher unitary-twisted covers of $O$
  {#HigherUnitaryTwistedCovers}
@@ -2255,7 +2261,7 @@ satisfying the (twisted) [[Bianchi identities]] ([SSSa](SSSa)))
 (together with more local cocycle components on higher overlaps). Notably the twisted Bianchi identity of $H$ exhibits the above cohomological identity in de Rham cocycles. 
 
 These formulas characterize the
-[[Green-Schwarz mechanism|Green-Schwarz anomaly cancellation conditions]] on the [[background gauge field]] content, that makes the heterotic string be well defined. Accordingly, $String^{\mathbf{a}}_{conn}$ is the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|modul 2-stack]] of anomaly free heterotic background fields (in the massless bosonic sector).
+[[Green-Schwarz mechanism|Green-Schwarz anomaly cancellation conditions]] on the [[background gauge field]] content, that makes the heterotic string be well defined. Accordingly, $String^{\mathbf{a}}_{conn}$ is the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|moduli 2-stack]] of anomaly free heterotic background fields (in the massless bosonic sector).
 
 Notice that if the twist $\tfrac{1}{2}\hat \mathbf{p_1}(\phi_{gr}) - \hat\mathbf{a}(\phi_{gau})$ happen to vanish (say because both the field of gravity and the gauge field are trivial), then the above homotopy pullback reduces to 
 
@@ -2699,6 +2705,7 @@ but considered in the non-stable context of [[nonabelian cohomology]] and refine
 The fundamental observation that background gauge fields in string theory are modeled by (twisted) [[differential cohomology]] goes back to 
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+ {#Freed}
 
 and literature referenced there. For this classical literature, notably on the example of _[[twisted K-theory|twisted]]_ and _[[differential K-theory|differential]] [[K-theory]]_, as well as on _[[orientifolds]]_, see the lists of references provided at these entries.
 
@@ -2707,10 +2714,17 @@ The [[higher dimensional Chern-Simons theory|7d Chern-Simons theory]] that the [
 * [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
  {#Witten96}
 
+* [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J.Geom.Phys.22:1-13 (1997) ([arXiv:hep-th/9609122](http://arxiv.org/abs/hep-th/9609122))
+ {#Witten96b}
+
 A precise mathematical formulation of the proposal made there is given in
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
  {#HopkinsSinger}
+
+in terms of [[quadratic refinement]] of [[secondary intersection pairing]] via [[differential integral Wu structures]].
+
+$\,$
 
 This page here originates in notes for an introductory lecture:
 
