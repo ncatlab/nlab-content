@@ -1,13 +1,17 @@
 
 * **[[functional analysis|Functional Analysis]]**
 
+## Overview diagrams
+
+* [[TVS relationships|topological vector spaces]]
+
+* [[diagram of LCTVS properties|locally convex topological vector spaces]]
+
 ## Basic concepts
 
-* [[TVS|Topological Vector Spaces]]
+* [[topological vector space]]
 
-  * [[LCTVS|Locally Convex Topological Vector Spaces]]
-
-  * [[TVS relationships|The Topological Vector Space Diagram]]
+  * [[locally convex topological vector space]]
 
   * [[Banach space|Banach Spaces]]
 
