@@ -199,7 +199,7 @@ $$
   \mathbb{S}^3 \to K(\mathbb{Z},3)
 $$
 
-may be thought of as classifying the gerbe called the [[magnetic monopole]]-gerber
+may be thought of as classifying the gerbe called the [[magnetic monopole]]-gerbe
 
 Postcomposing with $\mu : K(\mathbb{Z},3) \to K(ku)$
 
