@@ -315,9 +315,11 @@ $$
 
 ## Related concepts
 
-* [[product law]]
+* [[product law]], [[chain rule]]
 
 * [[Jacobian matrix]], [[Hessian matrix]], [[extremum]]
+
+* [[partial differentiation]]
 
 * [[pullback of differential forms]]
 
