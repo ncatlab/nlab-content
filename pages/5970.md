@@ -1,0 +1,30 @@
+
+**[[variational calculus]]**
+
+## Differential geometric version
+
+* [[variational bicomplex]]
+
+* [[Lagrangian]], [[local action functional]]
+
+* [[Euler-Lagrange equations]]
+
+* [[covariant phase space]]
+
+* [[Noether's theorem]]
+
+  * [[conserved current]], [[charge]]
+
+  * [[symmetry]]
+
+
+## Derived differential geometric version
+
+* [[BV-BRST complex]]
+
+* [[D-module]]
+
+(...)
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/variational+calculus+-+contents)</div>
