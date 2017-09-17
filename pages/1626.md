@@ -18,7 +18,7 @@ A [[space]] is __connected__ if it can\'t be split up into two independent parts
 
 Every topological space can be decomposed into disjoint maximal connected subspaces, called its __connected components__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
 
-One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (for instance, this is the case for _locally connected_ spaces).
+One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (see _locally connected spaces_ below).
 
 
 ## Definitions 
