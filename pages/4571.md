@@ -3,3 +3,10 @@ Pantelimon (Pante) Stanica is a Romanian-American mathematician, whose interests
 *****************************************************************
 
 Check out his [homepage](http://faculty.nps.edu/pstanica/) for more info.
+
+
+category: people
+
+[[!redirects Pante Stanica]]
+[[!redirects mathguy]]
+[[!redirects mathwiz]]
