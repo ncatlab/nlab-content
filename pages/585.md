@@ -290,7 +290,7 @@ and so the terminal $E$-coalgebra is the category $Trimble(\omega)Cat$ as descri
 
 $$\Pi_\omega: Top \to Trimble(\omega)Cat$$ 
 
-### As a coinductive definition
+### As a coinductive definition {#Coinductive}
 
 It is often convenient to reason about terminal coalgebras using [[coinduction]] and [[corecursion]].  In this spirit, it is possible to reformulate the definition of Trimble $\omega$-categories coinductively.  Namely, we define a category $\omega Cat = Trimble \omega Cat$ and a functor $\Pi\colon Top \to \omega Cat$, which preserves coproducts and finite products, by mutual coinduction, as follows.
 
