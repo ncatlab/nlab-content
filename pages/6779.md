@@ -15,23 +15,61 @@
 
 ## Idea
 
-The first nonzero [[homotopy group]] and [[homology group]] of a [[simply-connected
-topological space]] occur in the same dimension and are [[isomorphism|isomorphic]].
+The first nonzero [[homotopy group]] and [[ordinary homology|ordinary]]/[[singular homology]] [[homology group|group]] of a [[simply-connected topological space]] occur in the same dimension and are [[isomorphism|isomorphic]].
 
-## Statement
+## Hurewicz homomorphism
+ {#HurewiczHomomorphismSection}
+
++-- {: .num_defn #HurewiczHomomorphism}
+###### Definition 
+**(Hurewicz homomorphism)**
+
+For $(X,x)$ a [[pointed object|pointed]] [[topological space]], the **Hurewicz homomorphism** is the [[function]]
+
+$$
+  \Phi : \pi_k(X,x) \to H_k(X)
+$$
+
+from the $k$th [[homotopy group]] of $(X,x)$ to the $k$th [[singular homology]] group defined by sending
+
+$$
+  \Phi : (f : S^k \to X)_{\sim} \mapsto f_*[S_k]
+$$
+
+a representative singular $k$-sphere $f$ in $X$ to the push-forward along $f$ of the [[fundamental class]] $[S_k] \in H_k(S^k) \simeq \mathbb{Z}$.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The Hurewicz homomorphism is a [[natural transformation]] between
+
+$$
+  \Phi : \pi_n(-) \to H_k(-)
+$$
+
+between [[functors]] $Top^{*/} \to $ [[Ab]].
+
+=--
+
+## Hurewicz theorem
 
 +-- {: .num_theorem}
 ###### Theorem
 
-If a [[topological space]] (or [[infinity-groupoid]]) $X$ is [[n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then the canonical morphism 
+If a [[topological space]] (or [[infinity-groupoid]]) $X$ is [[n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then the [[Hurewicz homomorphism]], def. \ref{HurewiczHomomorphism} 
 
 $$
-  \pi_n(X) \to H_n(X)
+  \Phi : \pi_n(X,x) \to H_n(X)
 $$
 
-from the [[homotopy group]] to the [[homology group]] in degree $n$ is an [[isomorphism]].
+is an [[isomorphism]].
 
 =--
+
+A proof is spelled out for instance with theorem 2.1 in ([Hutchings](#Hutchings)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -44,9 +82,16 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 This appears for instance as theorem 4.32 in 
 
-* [[Alan Hatcher]], _Algebraic Topology_ ([web]())
+* [[Alan Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+
+Lecture notes include
+
+* * [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
+ {#Hutchings}
+
 
 See also
 
 * wikipedia, _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
 
+[[!redirects Hurewicz homomorphism]]
