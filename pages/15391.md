@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,7 +22,7 @@
 
 The _Kobayashi-Hitchin correspondence_ states that over suitable [[complex manifolds]] the [[moduli space]] of [[stable vector bundle|semi-stable vector bundles]] and that of [[Hermite-Einstein connections]] are essentially the same.
 
-For the special case over [[complex curves]] and [[Kähler manifolds]] this is the _[[Donaldson-Uhlenbeck-Yau theorem]]_.
+For the special case over [[Kähler manifolds]] this is the _[[Donaldson-Uhlenbeck-Yau theorem]]_. For the special case over [[Riemann surfaces]] it is the _[[Narasimhan-Seshadri theorem]]_. See also Deligne's characterization of [[intermediate Jacobians]] (in particular there at [Examples -- Picard variety](intermediate+Jacobian#ExamplePicard)).
 
 ## References
 
