@@ -27,6 +27,13 @@ This entry provides a hyperlinked index for the book
   
   Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
+on basics of [[category theory]] and the foundations of [[homological algebra]] and [[abelian sheaf cohomology]].
+
+See also the related lecture notes
+
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ {#Schapira}
+
 
 **Summary**
 
