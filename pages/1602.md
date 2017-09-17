@@ -438,8 +438,16 @@ A clear and precise account of what anomalies are and what the Green-Schwarz mec
 
 For the moment, see there for further references.
 
+### For $10 D$ supergravity
 
+Much of the literature discusses the Green-Schwarz mechanism in 10 d supergravity while suppressing the contributions from the [[fermion]]s. An excveption is
 
+* L. Bonora, M. Bregola, R. D'Auria, P. Fr&eacute; K. Lechner, P. Pasti, 
+I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks
+on the supersymmetrization of the Lorentz Chern-Simons form
+in $D = 10$ $N= 1$ supergravity theories_ ([[BonoraSuperGS.pdf:file]])
+
+and references given there.
 
 
 
