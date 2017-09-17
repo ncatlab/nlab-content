@@ -3,6 +3,8 @@
 
 [[synthetic differential geometry]], [[deformation theory]]
 
+[[local-global principle]]
+
 [[infinitesimal space]], 
 
 * [[infinitesimal ring extension]]
