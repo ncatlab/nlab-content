@@ -63,14 +63,6 @@ $$
 
 =--
 
-The archetypical example which historically gave the notion its name ("ring of numbers") are the canonical ring structures on the [[cyclic groups]].
-
-+-- {: .num_example}
-###### Example
-
-The [[integers]] $\mathbb{Z}$ are a ring under the standard addition and multiplication operation. For each  $n$, this induces a ring structure on the [[cyclic group]] $\mathbb{Z}_n$, given by operations in $\mathbb{Z}$ modulo $n$.
-
-=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -135,6 +127,65 @@ A dual notion to an $A$-ring is an $A$-[[coring]].
 By replacing in the sentence "a ring is a [[monoid]] in [[Ab]]" the [[abelian category]] [[Ab]] with a [[higher category theory|higher category]] of _symmetric monoidal_ higher groupoids, one obtains higher notion of rings.
 
 Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]]s and, even more generally, that of [[spectrum|spectra]]. A [[monoid in an (∞,1)-category]] in the [[stable (∞,1)-category of spectra]] is an [[A-infinity-ring]] or [[associative ring spectrum]]. The commutative case is a [[commutative monoid in an (∞,1)-category]]: an [[E-infinity ring]] or [[commutative ring spectrum]].
+
+
+## Examples
+ {#Examples}
+
+
+
++-- {: .num_example}
+###### Example
+
+* The [[integers]] $\mathbb{Z}$ are a ring under the standard addition and multiplication operation. 
+
+* For each  $n$, this induces a ring structure on the [[cyclic group]] $\mathbb{Z}_n$, given by operations in $\mathbb{Z}$ modulo $n$.
+
+* The [[rational numbers]] $\mathbb{Q}$, [[real numbers]] $\mathbb{R}$ and [[complex numbers]] are rings under their standard operations, in fact these are even _[[fields]]_.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $R$ a ring, the [[polynomials]] 
+
+$$
+  r_0 + r_1 x + r_2 x^2 + \cdots + r_n x^n
+$$
+
+(for arbitrary $n \in\mathbb{N}$) in a [[variable]] $x$ with [[coefficients]] in $R$ form another ring, the _[[polynomial ring]]_ denoted $R[x]$.
+This is the [[free construction|free]] $R$-[[associative algebra]] on a single generator $x$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $R$ a ring and $n \in \mathbb{N}$, the set 
+$M(n,R)$
+of $n \times n$-[[matrices]] with [[coefficients]] in $R$
+is a ring under elementwise addition and [[matrix multiplication]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[topological space]], the set of [[continuous functions]]
+$C(X,\mathbb{R})$ or $C(X,\mathbb{C})$ with values in the 
+[[real numbers]] or [[complex numbers]] is a ring uper pointwise 
+(points in $X$) addition and multiplication.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology]] groups $H^\bullet(X,\mathbb{Z})$ forms a ring whose multiplication operation is the [[cup product]]. This is a [[graded object|graded ring]], graded by the cohomological degree.
+
+=--
+
 
 ## Related concepts
 
