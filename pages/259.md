@@ -94,7 +94,7 @@ The two basic examples for quasi-categories are
 
 * The [[nerve]] of a [[category]] is a quasi-category.
 
-Since the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid], quasi-categories are a minimal common generalization of Kan complexes and nerves of categories.
+Since the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid]], quasi-categories are a minimal common generalization of Kan complexes and nerves of categories.
 
 By the [[homotopy hypothesis]]-theorem every Kan complex arises, up to equivalence, as the [[fundamental ∞-groupoid]] of a [[topological space]]. 
 
