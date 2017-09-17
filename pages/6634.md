@@ -33,6 +33,8 @@ satisfying some axioms.
 
 If the 2-cell goes in the other direction, then we say $f$ is a **colax $T$-morphism** (or **oplax $T$-morphism**).  Equivalently, a colax $T$-morphism is a lax $T^{co}$-morphism, where $T^{co}$ is the induced 2-monad on the 2-cell dual $K^{co}$ (see [[opposite 2-category]]).
 
+If the 2-cell is invertible, we call $f$ a **pseudo** or **strong** $T$-morphism.
+
 ### For coalgebras of 2-comonads
 
 Let $W$ be a 2-comonad on $K$, i.e. a 2-monad on the 1-cell dual $K^{op}$, and let $C$ and $D$ be $W$-coalgebras.  A **lax $W$-morphism** $f\colon C\to D$ is a morphism in $K$ together with a 2-cell
@@ -56,6 +58,47 @@ Note that a lax morphism of algebras for the 2-comonad $W$ is a *colax* morphism
 * A [[lax functor]] between 2-categories is a lax morphism for the 2-monad on Cat-graphs whose algebras are 2-categories.
 
 * A [[lax algebra for a 2-monad]] $T$ is a lax morphism $T\to \langle A,A\rangle$ for the 2-monad whose algebras are 2-monads, where $\langle A,A\rangle$ is the [[codensity monad]] of the object $A$.
+
+* If $T$ is a [[lax-idempotent 2-monad]], then (by definition) *every* morphism in the underlying 2-category $K$ between (the objects underlying) $T$-algebras has a unique structure of lax $T$-morphism.  For instance, every functor between categories with (some class of) [[colimits]] is a lax morphism for the 2-monad which assigns those colimits; the unique lax structure map is the canonical comparison $colim (F\circ D) \to F(colim D)$.  Such a morphism is strong/pseudo exactly when it preserves the colimits in question.
+
+## Categories of lax morphisms
+
+For any 2-monad $T$, there are a 2-categories:
+
+* $T Alg_l$ of $T$-algebras and lax morphisms
+* $T Alg_c$ of $T$-algebras and colax morphisms
+* $T Alg_p$ (frequently written just $T Alg$) of $T$-algebras and pseudo morphisms
+* (if $T$ is strict) $T Alg_s$ of $T$-algebras and strict morphisms
+
+We have obvious 2-functors
+
+$$ \array{ & & & & T Alg_l \\
+  & & & \nearrow\\
+  T Alg_s & \to & T Alg_p\\
+  & & & \searrow\\
+ & & & & T Alg_c }$$
+
+which are [[bijective on objects functor|bijective on objects]], [[faithful functor|faithful]] on 1-cells, and [[locally fully faithful 2-functor|locally fully faithful]].
+
+Therefore, we can also assemble a number of [[F-categories]] of $T$-algebras and any suitable pair of types of $T$-morphism: strict+pseudo, strict+lax, strict+colax, pseudo+lax, or pseudo+colax.
+
+If we want to consider both lax and colax $T$-morphisms together, the natural structure is a [[double category]]: there is a straightforward definition of the squares in a double category whose vertical arrows are colax $T$-morphisms and whose horizontal arrows are lax ones.  We could then, if we wish, add some "F-ness" to incorporate pseudo and/or strict morphisms as well.
+
+The 2-category $T Alg_p$ is fairly well-behaved; for strict $T$, it admits all strict [[PIE-limits]] (if the base 2-category does), and therefore all [[2-limits]] (i.e. bilimits).  When $T$ is [[accessible functor|accessible]], $T Alg_p$ admits all 2-colimits as well (but not, in general, many strict 2-colimits).
+
+However, the 2-categories $T Alg_l$ and $T Alg_c$ are not so well-behaved; they do not have many limits or colimits.  But once we enhance them to [[F-categories]], they admit all [[rigged limits]].  All three 2-categories also admit [[lax morphism classifier|morphism classifiers]]; that is, the inclusions $T Alg_s \to T Alg_*$ have left 2-adjoints.
+
+
+## Related pages
+
+* [[2-monad]]
+
+* [[lax morphism classifier]]
+
+
+## References
+
+* Blackwell, [[Max Kelly|Kelly]], [[John Power|Power]].  "2-dimensional monad theory"
 
 [[!redirects lax morphisms]]
 [[!redirects colax morphism]]
