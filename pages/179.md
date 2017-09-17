@@ -393,11 +393,220 @@ Using this the total complex of $N C^\infty(-)$ of this bisimplicial set is mani
 
 ...
 
+## In a cohesive $(\infty,1)$-topos {#InCohesiveContext}
+
+We now give the above considerations a precise context by interpreting them in a [[cohesive (∞,1)-topos]].
+
+### Definition
+
+Let $\mathbf{H} = (\infty,1)Sh(ThCartSp)$ be $(\infty,1)$-[[Cahiers topos]], the [[(∞,1)-sheaf (∞,1)-topos]] on [[ThCartSp]]. 
+
+This is a [[cohesive (∞,1)-topos]].
+
+
+In the [[model structure on simplicial presheaves|model by simplicial presheaves]] $[ThCartSp^{op}, sSet]_{proj,loc}$ say an $\infty$-Lie algebra is an object of the form
+
+$$
+  \mathbf{B} \mathfrak{g}
+  =
+  \int^{[k]\in \Delta} \mathbf{\Delta}[k] \cdot \mathfrak{g}_k
+  \,,
+$$
+
+where 
+
+* $\mathbf{\Delta} : \Delta \to sSet$ is the [[fat simplex]];
+
+* $\mathfrak{g} : \Delta^{op} \to ThCartSp \hookrightarrow [ThCartSp^{op}, sSet]$ is degreewise representable by an [[infinitesimal space]] with the point in degree 0.
+
+
+### Properties
+
+
++-- {: .un_lemma }
+###### Lemma
+
+
+The object $\mathbf{B}\mathfrak{g} \in [ThCartSp^{op}, sSet]_{proj,loc}$ is cofibrant.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[coend]] over the [[tensoring]] 
+
+$$
+  \int^{[k] \in \Delta}
+  (-)\cdot (-)
+  : 
+  [\Delta, sSet_{Quillen}]_{proj} \times
+  [\Delta^{op}, (T Alg^\Delta_{proj})^{op}]_{inj}
+  \to 
+  (T Alg^\Delta_{proj})^{op}
+$$
+
+for the projective and injective [[global model structure on functors]] on the [[simplex category]] and its opposite is a [[Quillen bifunctor]] (as discussed there). We have moreover
+
+1. The [[fat simplex]] is cofibrant in $[\Delta, sSet_{Quillen}]_{proj}$. 
+
+1. Because every representable $ThCartSp \hookrightarrow [ThCartSp^{op}, sSet]_{proj}$ is cofibrant the object $\mathfrak{g}_\bullet \in [\Delta^{op}, [ThCartSp^{op}, sSet]_{proj}]_{inj}$ is cofibrant.
+
+Therefore also $\mathbf{B}\mathfrak{g}$ is cofibrant.
+
+=--
+
+
++-- {: .un_lemma }
+###### Lemma
+
+The image of $\mathbf{B}\mathfrak{g}$ under the [[(∞,1)-functor]] $\mathcal{O} : \mathbf{H} \to \mathbf{L}$ described at [[function algebras on ∞-stacks]] is weakly equivalent to the object modeled by $\int^{[k] \in \Delta} \Delta[k] \cdot \mathfrak{g}_k$ (meaning: with the ordinary instead of the fat simplex).
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+As described at [[function algebras on ∞-stacks]] the $(\infty,1)$-functor $\mathcal{O}$ is modeled by a [[Quillen adjunction]]
+
+$$
+  (T Alg^\Delta_{proj})^{op}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\to}
+  [ThCartSp^{op}, sSet]_{proj}
+  \,,
+$$
+
+where $T = $ [[CartSp]] is the [[Lawvere theory]] of [[smooth algebra]]s.
+
+We use now the [[Reedy model structure]]s over the [[simplex category]]: 
+
+In $[\Delta^{op}, (T Alg^{\Delta}_{proj})^{op}]_{Reedy}$ we have that $[k] \mapsto \mathfrak{g}_k$ is cofibrant, because the inclusion of the degenerate $k$-cells into all $k$-cells is dually a surjection of algebras, hence dually a fibration. 
+
+The [[coend]] over the [[tensoring]] 
+
+$$
+  \int^{[k] \in \Delta}
+  (-)\cdot (-)
+  : 
+  [\Delta, sSet_{Quillen}]_{Reedy} \times
+  [\Delta^{op}, (T Alg^\Delta_{proj})^{op}]_{Reedy}
+  \to 
+  (T Alg^\Delta_{proj})^{op}
+$$
+
+is a [[Quillen bifunctor]] (as discussed there).
+
+Since both the simplex $\Delta$ as well as the [[fat simplex]] $\mathbf{\Delta}$ [[Reedy model structure|are Reedy cofibrant]] and the map $\mathbf{\Delta} \to \Delta$ a weak equivalence, it follows (by the [[factorization lemma]]) that 
+
+$$
+  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathfrak{g}_k
+    \stackrel{\simeq}{\to} 
+  \int^{[k] \in \Delta} \Delta[k] \cdot \mathfrak{g}_k
+$$
+
+is a weak equivalence in $(T Alg^\Delta_{proj})^{op}$.
+
+=--
+
+
+
++-- {: .un_corollary }
+###### Corollary
+
+The image of $\mathbf{B}\mathfrak{g}$ under the [[(∞,1)-functor]] $\Pi : \mathbf{H} \to \infty Grpd$ descrived ar [[locally ∞-connected (∞,1)-topos]] is [[contractible]]
+
+$$
+  \Pi \mathbf{B}\mathfrak{g} \simeq *
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since by the above lemma $\mathbf{B}\mathfrak{g}$ is cofibrant, the $(\infty,1)$-functor $\Pi$ acts degreewise by replacinf the representable presheaf by the point (see [[schreiber:path ∞-groupoid]])
+
+$$
+  \Pi : 
+  \mathbf{B}\mathfrak{g}
+  =
+  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathfrak{g}_{k} 
+  \mapsto 
+  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot *
+  \,.
+$$ 
+
+That this is equivalent to the point follows from the fact that $\emptyset \to \mathbf{\Delta}$ is an acylic cofibration in $[\Delta, sSet_{Quillen}]_{proj}$, and that
+
+$$
+  \int^{[k] \in \Delta}
+  (-)\times (-)
+  : 
+  [\Delta, sSet_{Quillen}]_{proj}
+  \times
+  [\Delta^{op}, sSet_{Qillen}]_{inj}
+  \to 
+  sSet_{Quillen}
+$$
+
+is a [[Quillen bifunctor]], using that $* \in [\Delta^{op}, sSet_{Quillen}]_{inj}$ is cofibrant.
+
+
+=--
+
++-- {: .un_corollary }
+###### Corollary
+
+The image of $\mathbf{B}\mathfrak{g}$ under the [[global section]] [[(∞,1)-functor]] $\Gamma : \mathbf{H} \to \infty Grpd$ is [[contractible]]
+
+$$
+  \Gamma \mathbf{B}\mathfrak{g} \simeq *
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[ThCartSp]] is an [[(∞,1)-cohesive site]] and using the main theorem there, we have that $\Gamma$ is modeled by the functor that evaluates on the point, and that this is a left Quillen functor
+
+$$
+  Hom(*,-) : [ThCartSp^{op}, sSet]_{proj,loc} \to sSet_{Quillen}
+  \,.
+$$
+
+Therefore $\Gamma \mathbf{B}\mathfrak{g}$ is modeled by degreewise evaluating $\mathfrak{g}_k$ on the point. But since this is by assumption an [[infinitesimal space]] it has only a single point, so that
+
+$$
+  \Gamma \mathbf{B}\mathfrak{g}_k  = \int^{[k] \in \Delta} \mathbf{\Delta}[k]
+  \,.
+$$
+
+As in the previous corollary, this is equivalent to the point.
+
+=--
+
++-- {: .un_corollary }
+###### Corollary
+
+The canonical morphism
+
+$$
+  \Gamma \mathbf{B}\mathfrak{g} \to \Pi \mathbf{B}\mathfrak{g}
+$$
+
+
+is an [[equivalence in a quasi-category|equivalence]] in [[∞Grpd]].
+
+=--
+
+By the discussion at [[cohesive (∞,1)-topos]] this characterizes $\mathbf{B}\mathfrak{g}$ intrinsically as an infinitesmal object.
+
 ## Related concepts
 
-### $\infty$-Lie algebroid valued differential forms
-
-see 
 
 * [[∞-Lie algebroid valued differential forms]]
 
@@ -415,7 +624,7 @@ which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, 
 
 The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such appears in 
 
-* Hisham Sati, Urs Schreiber, Jim Stasheff, _Twisted differential string- and  fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">ref</a>)
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string- and  fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">ref</a>)
 
 The term also appears in
 
