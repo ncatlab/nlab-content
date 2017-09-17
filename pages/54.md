@@ -80,11 +80,11 @@ For more see my home pages
 
 * _[at Wikipedia](https://en.wikipedia.org/wiki/Urs_Schreiber)_, 
 
+* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_.
+
 * _[at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)_ 
 
 * _[at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)_
-
-* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_.
 
 * _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)
 
