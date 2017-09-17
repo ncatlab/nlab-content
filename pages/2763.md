@@ -22,9 +22,10 @@
 
 A _derived elliptic curve_ is an object in [[higher geometry]] that is to an [[E-∞ ring]] as an ordinary [[elliptic curve]] is to an ordinary [[ring]].
 
-## Definition ##
+The ordinary [[moduli stack of elliptic curves]] when equipped with the [[structure sheaf]] of [[E-∞ rings]] which assigns to each elliptic curve its [[elliptic spectrum]] becomes a [[spectral Deligne-Mumford stack]] which as such is what modulates derived elliptic curves (see [below](#ModuliStack)). 
 
-For the notation and terminology of the following definition, see (for the time being)
+
+## Definition ##
 
 
 Let $A$ be an [[E-∞ ring]]. A **derived elliptic curve** over $A$ is [[derived group scheme]] $E \to Spec A$ with the property that the underlying morphism $\bar E \to Spec \pi_0 A$ is an ordinary [[elliptic curve]].
@@ -32,6 +33,7 @@ Let $A$ be an [[E-∞ ring]]. A **derived elliptic curve** over $A$ is [[derived
 ## Properties
 
 ### Moduli stack of derived elliptic curves
+ {#ModuliStack}
 
 By the [[Goerss-Hopkins-Miller theorem]] the [[structure sheaf]] $\mathcal{O}$ of the [[moduli stack of elliptic curves]] (ordinary [[elliptic curves]]) lifts to a sheaf $\mathcal{O}^{top}$ of [[E-∞ rings]] which over a given [[elliptic curve]] is the corresponding [[elliptic spectrum]].
  
@@ -51,6 +53,8 @@ This is based on the representability theorem ([[A Survey of Elliptic Cohomology
 
 ## References
 
-* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+
+* [[Jacob Lurie]], _[[Representability Theorems]]_
 
 [[!redirects derived elliptic curves]]
