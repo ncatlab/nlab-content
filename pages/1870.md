@@ -186,6 +186,10 @@ The seminal result on the relation to [[loop group]] [[representations]], now ag
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]] II_ ([arXiv:math/0511232](http://arxiv.org/abs/math/0511232))
 
+Discussion in terms of [[Karoubi K-theory]]/[[Clifford module bundles]] is in 
+
+* [[Max Karoubi]], _Clifford modules and twisted K-theory_, Proceedings of the International Conference on Clifford algebras (ICCA7) ([arXiv:0801.2794](http://arxiv.org/abs/0801.2794))
+
 The perspective of twisted K-theory by sections of a $K U$-bundle of spectra is discussed for instance in section 22 of 
 
 * [[Peter May|May]], Sigurdsson, _Parametrized homotopy theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf)) AMS Lecture notes 132
