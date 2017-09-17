@@ -19,6 +19,9 @@ Given an [[embedding]] of [[manifold]]s $i : X \hookrightarrow Y$, the _Thom col
 
 ## Definition
 
+
+### Traditional definition in components
+
 All [[topological space]]s in the following are taken to be [[compact space|compact]].
 
 Let $X$ and $Y$ be two [[manifold]]s and let 
@@ -60,6 +63,106 @@ $$
 and its homotopy class defines an element in $\pi_{n+r}(S^r)$. 
 
 
+### Abstract definition in terms of duality
+ {#AbstractDefinitionInTermsOfDuality}
+
+The following is a more abstract description of Pontryagin-Thom collapse in the [[stable homotopy theory]] of [[sphere spectrum]]-[[(∞,1)-module bundles]]. 
+
++-- {: .num_defn #SpanierDualityOperation}
+###### Definition
+
+Write
+
+$$
+  D \coloneqq (-)^\vee\circ \Sigma^\infty_+ \coloneqq L_{whe} Top \to \mathbb{S}Mod
+$$
+
+for the [[Spanier-Whitehead duality]] map which sends a [[topological space]] first to its [[suspension spectrum]] and then that to its [[dual object]] in the [[(∞,1)-category of spectra]].
+
+=--
+
+([ABG 11, def 10.3](#ABG11)).
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[compact manifold]], let $X \to \mathbb{R}^n$ be an [[embedding]] and write $S^n \to X^{\nu_n}$ for the classical [[Pontryagin-Thom collapse map]] for this situation, and write
+
+$$
+  \mathbb{S} \to X^{-T X}
+$$
+
+for the corresponding [[looping]] map from the [[sphere spectrum]] to the [[Thom spectrum]] of the negative [[tangent bundle]] of $X$. Then [[Atiyah duality]] produces an [[equivalence]]
+
+$$
+  X^{- T X} \simeq D X
+$$
+
+which identifies the [[Thom spectrum]] with the [[dual object]] of $\Sigma^\infty_+ X$ in $\mathbb{S} Mod$ and this constitutes a [[commuting diagram]]
+
+$$
+  \array{
+    && X^{- T X}
+    \\
+    & \nearrow & \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbb{S}
+    &\underset{D(X \to \ast)}{\to}&
+    D X
+  }
+$$
+
+identifying the classical [[Pontryagin-Thom collapse map]] with the abstract [[dual morphism]] construction of prop. \ref{SpanierDualityOperation}.
+
+More generally, for $W \hookrightarrow X$ an [[embedding]] of [[manifolds]], then [[Atiyah duality]] identifies the [[Pontryagin-Thom collapse maps]] 
+
+$$
+  \mathbb{S} \to X^{-T X} \to W^{- T W}
+$$
+
+with the abstract [[dual morphisms]]
+
+$$
+  \mathbb{S} \to D X \to D W
+  \,.
+$$
+
+
+=--
+
+([ABG 11, prop. 10.5](#ABG11)).
+
++-- {: .num_remark}
+###### Remark
+
+Given now $E \in CRing_\infty$ an [[E-∞ ring]], then the [[dual morphism]] $\mathbb{S} \to D X$ induces under [[smash product]] a similar Pontryagin-Thom collapse map, but now not in [[sphere spectrum]]-[[(∞,1)-modules]] but in $E$-[[(∞,1)-modules]].
+
+$$
+  E \to D X \otimes_{\mathbb{S}} E
+  \,.
+$$
+
+The image of this under the $E$-[[generalized cohomology theory|cohomology]] functor produces 
+
+$$
+  [D X \otimes_{\mathbb{S}} E, E] \to E
+  \,.
+$$
+
+If now one has a [[Thom isomorphism]] ($E$-[[orientation in generalized cohomology|orientation]]) $ [D X \otimes_{\mathbb{S}} E, E] \simeq [X,E]$ that identifies the cohomology of the dual object with the original cohomology, then together with produces the [[Umkehr map]]
+
+$$
+  [X,E] \simeq [D X \otimes_{\mathbb{S}} E, E] \to E
+$$
+
+that pushes the $E$-cohomology of $X$ to the $E$-cohomology of the point. Analogously if instead of the terminal map $X \to \ast$ we start with a more general map $X \to Y$.
+
+More generally a [[Thom isomorphism]] may not exists, but $[D X \otimes_{\mathbb{S}} E, E]$ may still be equivalent to a [[twisted cohomology]]-variant $[X,E]_{\chi}$ of $[X,E]$, namely to $[\Gamma_X(\chi),E]$, where $\chi \colon \Pi(X) \to E Line \hookrightarrow E Mod$ is an ([[flat (∞,1)-bundle|flat]]) $E$-[[(∞,1)-module bundle]] on $X$ and and $\Gamma \simeq \underset{\to}{\lim}$ is the [[(∞,1)-colimit]] (the [[generalized Thom spectrum]] construction). In this case the above yields a _[[twisted Umkehr map]]_.
+
+
+=--
+
+([ABG 10, 9.1](#ABG10))
 
 ## Properties
 
@@ -92,9 +195,21 @@ An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Ko
 
 More details are in 
 
-* [[Ralph Cohen]], [[John Klein]], _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
+* [[Ralph Cohen]], John Klein, _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
 
 * [[Victor Snaith]], _Stable homotopy around the arf-Kervaire invariant_, Birkhauser 2009
+
+The general abstract formulation in [[stable homotopy theory]] is in sketched in section 9 of
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ {#ABG10}
+
+and is in section 10 of
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+ {#ABG11}
+
+with an emphases on [[parameterized spectra]].
 
 [[!redirects Pontryagin-Thom construction]]
 [[!redirects Pontryagin-Thom collaps map]]
@@ -109,3 +224,6 @@ More details are in
 [[!redirects Thom collapse]]
 
 [[!redirects Pontryagin-Thom collapse map]]
+
+[[!redirects Pontryagin-Thom collapse maps]]
+[[!redirects Pontrjagin-Thom collapse maps]]
