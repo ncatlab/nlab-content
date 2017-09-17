@@ -29,6 +29,8 @@ The [[biholomorphisms]], i.e. the bijective [[conformal transformations]] from t
 
 * [[celestial sphere]]
 
+* [[branched cover of Riemann sphere]]
+
 ## References
 
 * Wikipedia, _[Riemann sphere](http://en.wikipedia.org/wiki/Riemann_sphere)_
