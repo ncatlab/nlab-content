@@ -64,6 +64,8 @@
 
 ## Extra stuff, structure, properties
 
+* [[petit topos|petit topos/gros topos]]
+
 * [[locally connected topos]]
 
 * [[connected topos]]
