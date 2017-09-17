@@ -39,6 +39,9 @@ Given a [[topological space]] $X$ (or some other kind of [[space]] with a notion
 
 Given a [[category]] $X$, the [[functor category]] $[I,X]$ for $I$ the [[interval category]] might be called a "directed path category of $X$" (similar to [[path space]]). However, this functor category is referred to instead as the [[arrow category]] of $X$ and sometimes even denoted $Arr(X)$.
 
+## Related concepts
+
+* [[free monoid]], [[free operad]]
 
 [[!redirects path category]]
 [[!redirects path categories]]
