@@ -98,7 +98,7 @@ In this section we consider topological [geometric realization of simplicial set
 
 ### Realizations as CW complexes ### 
 
-Each ${|X|}$ is a CW complex (see lemma \ref{mono} below), and so geometric realization ${|(-)|}: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces. 
+Each ${|X|}$ is a CW complex (see lemma \ref{mono} below), and so geometric realization ${|(-)|}: Set^{\Delta^{op}} \to Top$ takes values in the full subcategory of CW complexes, and therefore in any [[convenient category of topological spaces]], for example in the category $CGHaus$ of compactly generated Hausdorff spaces. Let $Space$ be any convenient category of topological spaces, and let $i \colon Space \to Top$ denote the inclusion. 
 
 +-- {: .un_prop} 
 ######Proposition
@@ -118,7 +118,7 @@ $$R: Set^{\Delta^{op}} \to Space$$
 
 is a left [[exact functor]] in that it preserves finite [[limit]]s. 
 
-It is important that we use some such niceness assumption, because for example 
+It is important that we use some such "convenience" assumption, because for example 
 
 $${|(-)|}: Set^{\Delta^{op}} \to Top,$$
 
@@ -191,9 +191,9 @@ The product of two representables $\Delta(-, m) \times \Delta(-, n)$ is the coli
 
 +-- {: .proof} 
 ###### Proof 
-We describe a finite collection of monomorphisms $p_i: \Delta(-, m+n): \Delta(-, m) \times \Delta(-, n)$ (there are $\binom{m+n}{m}$ many to be exact) which collectively define an epimorphism 
+We describe a finite collection of monomorphisms $p_i: \Delta(-, m+n) \to \Delta(-, m) \times \Delta(-, n)$ (there are $\binom{m+n}{m}$ many to be exact) which collectively define an epimorphism 
 $$(p_i): \sum_{1 \leq i \leq \binom{m+n}{m}} \Delta(-, m+n) \to \Delta(-, m) \times \Delta(-, n).$$ 
-The product of ordinals $[m] \times [n]$ can be pictured as a rectangular grid consisting of $m \times n$ rectangles, and an order-preserving monomorphism $[k] \to [m] \times [n]$ can be pictured as a path of length $k$ along the grid, traveling north and east. A maximal such path is of length $m+n$, traveling from $(0, 0)$ to $(n, m)$ say, and is specified by a choice of which $m$ among $m+n$ many steps are steps north. These maximal paths give the monomorphisms $p_i$. 
+The product of ordinals $[m] \times [n]$ can be pictured as a rectangular grid consisting of $m \times n$ rectangles, and an order-preserving monomorphism $[k] \to [m] \times [n]$ can be pictured as a path of length $k$ along the grid, traveling north and east. A maximal such path is of length $m+n$, traveling from $(0, 0)$ to $(n, m)$ say, and is specified by a choice of which $m$ among $m+n$ many steps are steps north. These maximal paths give the monos $p_i$. 
 
 To show the collective map $(p_i)$ is epic, we must show that any map $f: \Delta(-, k) \to \Delta(-, m) \times \Delta(-, n)$ lifts through $(p_i)$. By factoring $f$ as an epi followed by a mono, it is sufficient to prove this in the case where $f$ is monic. In that case, $f$ is described by a path of length $k$, which is embedded in a maximal path $p_j$. Such an embedding is given by a monic $[k] \to [m+n]$, whereupon the composite 
 
