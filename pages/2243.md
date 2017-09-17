@@ -117,17 +117,19 @@
 
 * [[cup product]]
 
+* [[orientation]], [[orientation in generalized cohomology|in generalized cohomology]]
+
 * [[fiber integration]]
 
-  * [[orientation]]
-
-  * [[transgression]]
+* [[transgression]]
 
 ### Theorems
 
-* [[de Rham theorem]]
+* [[de Rham theorem]], [[Poincare lemma]]
 
 * [[Brown representability theorem]]
+
+* [[abelian sheaf cohomology|hypercovering theorem]]
 
 * [[Eckmann-Hilton duality|Eckmann-Hilton-Fuks duality]]
 
