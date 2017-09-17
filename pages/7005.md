@@ -28,11 +28,89 @@ The name *univalence* (due to Voevodsky) comes from the following reasoning.  A 
 
 ## Definition
 
+### In the type theory
+
 Let $X$ and $Y$ be types.  There is a canonically defined map from the type $(X = Y)$ of paths (in [[Type]]) between them to the type $(X \simeq Y)$ of [[equivalences]] between them.  It can be defined by *path induction*, i.e. the eliminator for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$.
 
 **Univalence:** _For any two [[types]] $X,Y$, this map $(X=Y)\to (X\simeq Y)$ is an equivalence._
 
 Univalence is a commonly assumed axiom in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (the _Univalent Foundations Project_.)
+
+
+### In simplicial sets
+ {#InSimplicialSets}
+
+Let $C = $ [[sSet]], equipped with the 
+standard [[model structure on simplicial sets]].
+
+For $E \to X$ any fibration ([[Kan fibration]])
+between fibrant objects ([[Kan complexes]]),
+consider first the simplicial set
+
+$$
+  [E \times B , B \times E]_{B \times B}
+  \in 
+  sSet/_{B \times B} 
+$$
+
+defined as the [[internal hom]] in the [[slice category]] $sSet/_{B \times B}$.
+
+Notice that the vertices of this simplicial set over 
+a fixed pair $(b_1, b_2) : * \to B \times B$ of vertices in $B$ form the set of morphisms $E_{b_1} \to E_{b_2}$ between the [[fibers]] in $sSet$.
+
+This is because -- by the defining property of the [[internal hom]] in the [[slice category|slice]] and using that [[products]] in $sSet/_{B \times B}$ are [[pullbacks]] in $sSet$ -- the horizontal morphisms of simplcial sets in
+
+$$
+  \array{
+    * &&\to&& [E \times B, B \times E]_{B \times B}
+    \\
+    & {}_{\mathllap{(b_1,b_2)}}\searrow && \swarrow
+    \\
+    && B \times B
+  }
+$$
+
+correspond bijectively to the horizontal morphisms in
+
+$$
+  \array{
+    E_{b_1} \times \{b_2\} &&\to&& \{b_1\} \times E_{b_2}
+    \\
+    & \searrow && \swarrow
+    \\
+    && B \times B
+  }
+$$
+
+in $sSet$, which are precisely morphisms $E_{b_1} \to E_{b_2}$.
+
+Let then 
+
+$$
+  Eq(E) \hookrightarrow [E \times B, B \times E]_{B \times B}
+  \in sSet/_{B \times B}
+$$
+
+be the full sub-simplicial set on those vertices that correspond to 
+[[weak equivalences]]
+(([[weak homotopy equivalence|weak]]) [[homotopy equivalences]]).
+
+By a similar consideration, one sees that the [[diagonal]] morphism
+$\Delta_B : B \to B \times B$ in $sSet$, regarded as an object  $B \in sSet/_{B \times B}$, comes with a canonical morphism
+
+$$
+  B \to Eq(E)
+  \,.
+$$
+
+The fibration $E \to B$ is univalent, precisely when this morphism is  a weak equivalence.
+
+This appears originally as [Voevodsky, def. 3.4](#UnivalentFoundationsProject)
+
+### In simplicial presheaves
+  {#InSimplicialPresheaves}
+
+(...)
 
 ## Properties
 
@@ -43,7 +121,8 @@ The univalence axiom implies [[function extensionality]].
 
 The univalence axiom was introduced and promoted independntly by [[Steve Awodey]] and [[Vladimir Voevodsky]] around 2005/06.
 
-* _Univalent Foundations Project_ ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
+* [[Vladimir Voevodsky]], _Univalent Foundations Project_ ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
+ {#UnivalentFoundationsProject}
 
 A quick survey is for instance in
 
