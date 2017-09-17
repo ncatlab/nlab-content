@@ -53,6 +53,7 @@ This is ([AdamekRosicky, theorem 6.28](#AdamekRosicky)).
 
 * the inclusion of [[Kelley space]]s into [[Top]], where the right adjoint "kelleyfies"
 
+* the inclusion of [[torsion theory|torsion]] [[abelian groups]] into [[Ab]], where the right adjoint takes the [[torsion subgroup]].
 
 ## References
 
