@@ -25,8 +25,6 @@ The **Yoneda lemma** says that the [[set]] of [[morphisms]] from a [[representab
 
 The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]], [[universal construction]], and [[universal element]]. 
 
-In brief, the principle is that the [[identity]] morphism $id_x: x \to x$ is the universal [[generalized element]] of $x$. This simple principle is surprisingly pervasive throughout category theory. 
-
 ## Preliminaries
 
 Recall that for $C$ a [[locally small category]] and $[C^{op}, Set] (= Set^{C^{op}} = Hom(C^{op},Set))$ the [[category of presheaves]] on $C$, there naturally is a functor 
