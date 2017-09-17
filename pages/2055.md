@@ -1,13 +1,15 @@
 [[!include contents]]
 
 
-This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog), [wikis](http://en.wikipedia.org/wiki/Wiki), and other online resources about mathematics.
+This page lists links to [blogs](http://en.wikipedia.org/wiki/Blog), [wikis](http://en.wikipedia.org/wiki/Wiki), and other online resources about mathematics. 
 
 For a quick introduction to math blogging, see
 
 * [[John Baez]], _What do mathematicians need to know about blogging?_ [AMS notices, March 2010](http://www.ams.org/notices/201003/) ([pdf](http://www.ams.org/notices/201003/rtx100300333p.pdf))
 
   blog discussion about this piece: [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
+
+See also [MO question: most helpful math resources on the web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web).
 
 
 +--{: .query}
@@ -32,6 +34,11 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 ## Mathematics
 
+### Online encyclopaedias
+
+* [eom.springer.de](http://eom.springer.de) -- free online access to 8000 entries of Springer online Encyclopeadia of Mathematics 
+
+* [wolframworld](http://mathworld.wolfram.com)
 
 ### Forums
 
