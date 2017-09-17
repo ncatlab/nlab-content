@@ -1,7 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -110,8 +120,14 @@ For instance the [[associative operad]] is $\Sigma$-cofibrant, so that by the ab
 
 See around [BerMor03, remark 4.6](http://arxiv.org/PS_cache/math/pdf/0206/0206094v3.pdf#page=15).
 
-## References
 
+## Related concepts
+
+* **model structure on operads**
+
+* [[model structure on algebras over an operad]]
+
+## References
 
 An influential article in which many of the homotopical and $(\infty,1)$-categorical aspects of operad theory originate is
 
