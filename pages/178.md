@@ -432,6 +432,51 @@ By a [proposition above](#UnderlyingETopologicalInftyGroupoids) the functor $\Pi
 
 =--
 
++-- {: .un_prop}
+###### Corollary
+
+The $\Pi : \mathrm{Smooth}\infty\mathrm{Grpd} \to \infty \mathrm{Grpd}$
+preserves [[homotopy fiber]]s of morphisms that are presented in 
+  $[\mathrm{CartSp}_{\mathrm{smooth}}^{\mathrm{op}}, \mathrm{sSet}]_{\mathrm{proj}}$ by morphisms
+of the form $X \to \bar W G$ with $X$ fibrant and $G$ a simplicial group in
+[[SmoothMfd]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+ By the above the functor factors as
+
+$$
+  \Pi_{\mathrm{Smooth}} \simeq \Pi_{\mathrm{ETop}} \circ i_!
+  \,.
+$$
+ 
+and  $i_!$ assigns the underlying  topological spaces. If we can show that this preserves the homotopy fibers in question, then 
+the claim follows with the analogous discussion at
+[[ETop∞Grpd]].
+
+We find this as in the proof of the latter proposition, by considering the pasting diagram of pullbacks of simplicial presheaves
+
+$$
+  \array{
+    P' &\to& P &\to& W G
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    Q X &\to& X &\to& \bar W G
+   }
+   \,.
+$$
+
+Since the component maps of the right vertical morphisms are surjective, the degreewise pullbacks in $\mathrm{SmoothMfd}$ that define $P'$ are all along [[transversal map]s, and thus the underlying
+objects in [[TopMfd]] are the pullbacks of the underlying topological manifolds.
+Therefore the degreewise  forgetful functor $\mathrm{SmoothMfd} \to \mathrm{TopMfd}$ presents
+  $i_!$ on the outer diagram and sends this homotopy pullback to a homotopy pullback.
+
+=--
 
 
 ### Concrete objects {#StrucConcreteObjects}
