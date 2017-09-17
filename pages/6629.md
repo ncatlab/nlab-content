@@ -8,8 +8,14 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -52,6 +58,10 @@ A [[cofibrantly generated model category|cofibrantly generated]] [[simplicial mo
 
 
 See ([Jardine11, page 14](#Jardine)), ([Marty, def 1.7](#Marty)).
+
+## Related concepts
+
+* [[compactly generated triangulated category]]
 
 ## References
 
