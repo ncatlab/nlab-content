@@ -1,0 +1,4 @@
+Heiner Kamps is a German mathematician who worked in Abstract Homotopy Theory.
+
+
+category:people
