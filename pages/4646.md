@@ -239,6 +239,17 @@ The notion of [[connection on a bundle]] generalizes to that of [[connection on 
 
 See [[higher parallel transport]] for details.
 
+## Related concepts
+
+* [[connection on a bundle]], [[connection on a 2-bundle]], [[connection on an infinity-bundle]],
+
+* **parallel transport**, [[higher parallel transport]]
+
+* [[holonomy]]
+
+  * [[holonomy group]]
+
+  * [[special holonomy]]
 
 ## References
 
