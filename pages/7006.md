@@ -17,6 +17,14 @@
 
 What [[homotopy type theory]] is for [[homotopy theory]]/[[(∞,1)-category theory]], _directed homotopy type theory_ is for [[directed homotopy theory]]/[[(∞,n)-category]] [[higher category theory|theory]].
 
+## Related concepts
+
+* [[semi-simplicial type]]
+
+* [[geometric homotopy type theory]]
+
+* [[modal homotopy type theory]]
+
 ## References
 
 * [[Robert Harper]], [[Dan Licata]], _Canonicity for 2-Dimensional Type Theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh112tt/lh112tt.pdf))
