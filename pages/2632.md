@@ -1,3 +1,6 @@
+
+> under construction
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -48,5 +51,9 @@ physics, part of quantum mechanics; it requires special limiting assumptions (th
 
 [[Ian Durham]]: J.J. Sakurai's book *Modern Quantum Mechanics* (not to be confused with his *Advanced Quantum Mechanics* which is a field theory book) discusses quantum statistical mechanics under the guise of quantum mechanics as does the forthcoming book *Q-PSI: Quantum processes, systems, and information* by Schumacher and Westmoreland.  While it may not be entirely accurate, "quantum physics" and "quantum mechanics" are usually treated as being synonymous.
 
+
+## related entries
+
+* [[Hamilton operator]]
 
 [[!redirects quantum physics]]
