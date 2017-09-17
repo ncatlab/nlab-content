@@ -114,6 +114,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### B1 Indexed categories and fibrations
 
+
 #### B1.1 Review of 2-categories
 
 * [[2-category]]
@@ -122,6 +123,10 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
   * [[inverter]]
 
 #### B1.2 Indexed categories
+
+* [[indexed category]]
+
+* [[indexed functor]]
 
 * [[pseudofunctor]]
 
