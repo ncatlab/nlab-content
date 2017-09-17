@@ -6,9 +6,9 @@ A __torsion theory__ in an [[abelian category]] $A$ is a couple $(T,F)$ of addit
 
 (in other words, $A(X,Y) = 0$ if $X \in Ob T$ and $Y\in Ob F$).
 
-* $Hom(T,Y) = 0 \Rightarrow Y\in Ob Y$
+* $Hom(T,Y) = 0 \Rightarrow Y\in Ob F$
 
-* $Hom(X,F) = 0 \Rightarrow X\in Ob X$
+* $Hom(X,F) = 0 \Rightarrow X\in Ob T$
 
 * for all $X\in Ob A$, there exists $Y\subset X$, $Y\in Ob T$ and $X/Y\in Ob F$
 
