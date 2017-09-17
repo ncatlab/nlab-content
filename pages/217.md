@@ -75,7 +75,5 @@ Erik Palmgren has a [[constructive mathematics|constructive]] [[predicative math
 *  Erik Palmgren, _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf))
 
 
-category: foundational axiom
-
 [[!redirects ETCS]]
 [[!redirects etcs]]
