@@ -10,7 +10,7 @@
 =--
 
 # Directed limits
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Abstract definition 
@@ -60,7 +60,7 @@ This can be seen as a special case of the construction of an arbitrary limit out
 
 ## Examples
 
-Directed limits over the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]
+Directed limits over the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]], the [[tower]]-diagram,
 $$
   \array{
      && && \lim_{\leftarrow_n} X(n) &&
