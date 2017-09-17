@@ -3,9 +3,65 @@
 * table of contents
 {: toc}
 
-## Definition
+## Idea
 
-A __binary function__, or __function of two variables__, is a [[function]] out of a binary [[cartesian product]].
+A _binary function_, or _function of two variables_, is like a [[function]] but with two [[domains]].  That is, while a function $f$ from the [[set]] $A$ to the set $C$ maps an [[element]] $x$ of $A$ to a unique element $f(x)$ of $C$, a binary function from $A$ and $B$ to $C$ maps an element $x$ of $A$ and an element $y$ of $B$ to a unique element $f(x,y)$ of $C$.
+
+We can generalise further to _multiary functions_, or _functions of several variables_.
+
+
+## Definitions
+
+The possible definitions depend on [[foundations]]; for us, the simplest is probably this:
+
++-- {: .num_defn}
+###### Definition
+A __binary function__ from $A$ and $B$ to $C$ is simply a [[function]] $f$ to $C$ from the binary [[cartesian product]] $A \times B$.  We write $f(x,y)$ for $f((x,y))$.
+=--
+
+This is natural in [[structural set theory]]; it makes sense in any [[set theory]] and (suitably interpreted) in a foundational [[type theory]].
+
+In [[material set theory]], one often declines to specify the domain of a function (since this can be recovered from it); then we can say this:
+
++-- {: .num_defn}
+###### Definition
+A __binary function__ to $C$ is simply a [[function]] $f$ to $C$ such that every [[element]] of the [[domain]] of $f$ is an [[ordered pair]].  Again, we write $f(x,y)$ for $f((x,y))$.
+=--
+
+An equivalent (but different) definition in material set theory is this:
+
++-- {: .num_defn}
+###### Definition
+A __binary function__ to $C$ is a [[ternary relation]] $f$ such that
+
+* given $(x,y,z) \in f$, we have $z \in C$, and
+* given $(x,y,z) \in f$ and $(x,y,z') \in f$, we have $z = z'$.
+
+Now we write $f(x,y)$ for the unique $z$ (if any) such that $(x,y,z) \in f$.
+=--
+
+Either way, the material concept is actually more general than the structural one, because the [[domain]] of a material binary function might not be a [[cartesian product]].  The link is provided by the binary version of a [[partial function]]:
+
++-- {: .num_defn}
+###### Definition
+A __partial binary function__ from $A$ and $B$ to $C$ is a function to $C$ from a [[subset]] of $A \times B$.
+=--
+
+
+It\'s also possible to take the concept of binary function as an undefined primitive concept, on the same level as that of [[function]].  Then we want [[axioms]] such as the following (depending on the style of [[foundations]]):
+
+*  Given an [[element]] $x$ of the [[set]] $A$, an element $y$ of $B$, and a binary function from $A$ and $B$ to $C$, we have an element $f(x,y)$ of $C$.
+
+*  If $x$ and $x'$ are [[equality|equal]] elements of $A$ and $y$ and $y'$ are equal elements of $B$, then $f(x,y) = f(x',y')$.
+
+*  Given two such binary functions $f$ and $f'$, if $f(x,y) = f'(x,y)$ for every $x$ in $A$ and every $y$ in $B$, then $f = f'$.
+
+
+## Internalisation
+
+We could conceivably have the notion of binary function *without* the notion of [[cartesian product]]; then a binary function could not be understood as a special case of a function.  I doubt that anybody has proposed such a [[foundation of mathematics]], but there are situations where this is true in some [[internal logic]].
+
+In particular, a binary function [[internalisation|internal to]] a [[multicategory]] is simply a [[binary morphism]] in that multicategory.  This is most like a binary function between sets in the case of a [[cartesian multicategory]].  But even so, there may be no [[tensor product]] in the multicategory, and then a binary morphism cannot be understood as a special case of a [[morphism]].
 
 
 ## Related concepts
@@ -19,10 +75,10 @@ A __binary function__, or __function of two variables__, is a [[function]] out o
 
 [[!redirects binary function]]
 [[!redirects binary functions]]
-[[!redirects binary functons]]
 
-[[!redirects binary function of two variables]]
-[[!redirects binary functions of two variables]]
+[[!redirects function of two variables]]
+[[!redirects functions of two variables]]
+[[!redirects functions of two variables each]]
 
 [[!redirects binary map]]
 [[!redirects binary maps]]
