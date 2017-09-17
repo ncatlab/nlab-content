@@ -35,7 +35,7 @@ Often topological _quantum_ field theories are just called _topological field th
 
 ## Non-topological QFTs
 
-In constrast to topological QFTs, non-topological quantum field theories in the [[FQFT]] description are $n$-functors on $n$-categories $Bord^S_n$ whose morphisms are manifolds with extra $S$-structure, for instance
+In contrast to topological QFTs, non-topological quantum field theories in the [[FQFT]] description are $n$-functors on $n$-categories $Bord^S_n$ whose morphisms are manifolds with extra $S$-structure, for instance
 
 * $S =$ conformal structure $\to$ [[conformal field theory]]
 
