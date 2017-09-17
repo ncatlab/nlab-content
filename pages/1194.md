@@ -563,6 +563,9 @@ Discussion aimed towards [[homotopy type theory]] includes
 * [type-theory questions](http://mathoverflow.net/questions/tagged/type-theory) on MathOverflow
 * [type-theory questions](http://cstheory.stackexchange.com/questions/tagged/type-theory) on CS StackExchange
 
+* [types mailing list](http://lists.seas.upenn.edu/mailman/listinfo/types-list)
+* [types-announce mailing list](http://lists.seas.upenn.edu/mailman/listinfo/types-announce)
+
 
 
 [[!redirects type theories]]
