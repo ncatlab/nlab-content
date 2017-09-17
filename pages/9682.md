@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -49,6 +48,8 @@ General Boundary Field Theory_, ([pdf](http://relativity.phys.lsu.edu/ilqgs/zapa
 Axiomatization and examples of boundary field theories in [[local prequantum field theory]] is in
 
 * _[[schreiber:Local prequantum field theory]]_
+
+* {#FiorenzaValentino14} [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors_ ([arXiv:1409.5723](http://arxiv.org/abs/1409.5723))
 
 
 [[!redirects boundary field theories]]
