@@ -1,0 +1,18 @@
+
+## Idea
+
+A special case of _[[G-structure]]_.
+
+For $G \to K$ a [[monomorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _reduction_ of the structure group from $K$ to $G$.
+
+Alternatively, gor $G \to K$ an [[epimorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _lift_ of the structure group from $K$ to $G$.
+
+The distinction is, however, not quite "homotopy correct". For instance in the first steps of the [[Whitehead tower]] of the [[orthogonal group]]
+
+$$
+  Spin(n) \to SO(n) \hookrightarrow O(n) (\hookrightarrow GL(n))
+$$
+
+the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
+
+[[!redirects lift of structure groups]]
