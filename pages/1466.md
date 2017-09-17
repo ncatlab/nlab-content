@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 # Uniform spaces
 * table of contents
 {: toc}
@@ -196,6 +207,10 @@ One could stop there, but this is not a very useful notion of approximation.  In
 The idea that a uniformity is an "approximate equivalence relation" can be made precise as follows.  A [[preorder]] is the same as a category [[enriched category|enriched]] over the poset $\mathbb{2}$ of [[truth values]], and it is an equivalence relation if and only if this category is symmetric.  In fancier language, a preorder is a [[monoid]] (or [[monad]]) in the [[bicategory]] $Rel = \mathbb{2} Mat$.  A quasi-uniform space can then be identified with a monoid in the bicategory $Pro Rel$, whose hom-categories are the categories of [[pro-objects]] in the hom-categories of $Rel$, aka [[filters]].  Of course, it is a uniform space just when it is also symmetric.  See also [[prometric space]].
 
 In all these cases, in order to recover the correct notion of morphism abstractly, we must consider monoids in a [[double category]] or [[equipment]] rather than merely a bicategory.
+
+## Related concepts
+
+* [[proximity space]], [[syntopogenous space]]
 
 
 ## References
