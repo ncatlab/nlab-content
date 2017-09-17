@@ -16,7 +16,7 @@ We will give three definitions, which can all be shown equivalent.
 
 An element of $S^*$ consists of a [[natural number]] $n$ (possibly $n = 0$) and function from $[n]$ to $S$, where $[n]$ is the [[subset]] $\{i: \mathbf{N} \;|\; i \lt n\}$ of $\mathbf{N} = \{0, 1, 2, \ldots\}$.  Such an element is called a __list__ or (to specify $n$) __$n$-tuple__ of elements of $S$.  The number $n$ is called the __length__ of the list.
 
-The __empty list__ is the unique list of length $0$.  It may be written $()$, $*$, or $\epsilon$, perhaps with a subscript $S$ if desired.
+The __[[empty list]]__ is the unique list of length $0$.  It may be written $()$, $*$, or $\epsilon$, perhaps with a subscript $S$ if desired.
 
 If $n \gt 0$, then the list which assigns $0, \ldots, n - 1$ to $a_0, a_1, \ldots, a_{n-1}$ may be written $(a_0, a_1, \ldots, a_{n-1})$.  For example, if $a,b,c$ are elements of $S$, then $(a,b,c)$ is an element of $S^*$.
 
@@ -31,7 +31,7 @@ One can now show that concatenation is associative with the empty list as identi
 
 The (underlying) set $S^*$ may be defined as an [[inductive type]] as follows.  There are two basic constructors, one with no arguments, and one with two arguments, of which one is an element of $S$ and the other is an element of $S^*$.  By the yoga of inductive types, that is a complete definition, but we spell it out in more detail while also giving terminology and notation.
 
-So, a __list__ is either the __empty list__ or the __cons__ (short for 'constructor' and deriving from Lisp) of an element $a$ of $S$ and a (previously constructed) list $x$.  The empty list may may be written $()$, $*$, or $nil$, perhaps with a subscript $S$ if desired; the cons of $a$ and $x$ may be written $s:x$, $(a) * x$, or $cons(a,x)$.  We interpret the definition [[recursion|recursively]], so we can list the elements of $S^*$ in the order in which they appear:
+So, a __list__ is either the __[[empty list]]__ or the __cons__ (short for 'constructor' and deriving from Lisp) of an element $a$ of $S$ and a (previously constructed) list $x$.  The empty list may may be written $()$, $*$, or $nil$, perhaps with a subscript $S$ if desired; the cons of $a$ and $x$ may be written $s:x$, $(a) * x$, or $cons(a,x)$.  We interpret the definition [[recursion|recursively]], so we can list the elements of $S^*$ in the order in which they appear:
 
 *  $()$,
 *  $a:()$,
@@ -106,7 +106,6 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 [[!redirects finite list]]
 [[!redirects finite lists]]
 
-[[!redirects empty list]]
 [[!redirects concatenation]]
 [[!redirects cons]]
 
