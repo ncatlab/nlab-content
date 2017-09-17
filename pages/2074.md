@@ -194,6 +194,52 @@ In words we have
 
 * The marked edges of $Y^X$ are those simplicial maps $X \times \Delta[1] \rightarrow Y$ such that the restriction of $X_1 \times \Delta[1]_1 \rightarrow Y_1$ to $E \times \Delta[1]_1$ factors though the marked edges of $Y$. In the presence of the previous condition, this says that when you apply the homotopy $X \times \Delta[1] \rightarrow Y$ to a marked edge of $X$ paired with the identity at $[1]$, the result should be marked.
 
++-- {: .un_def }
+###### Definition
+
+We generalize all this notation from $sSet^+$ to the [[overcategory]] $sSet^+/S := sSet^+/(S^#)$ for any given (plain) simplicial set $S$, by declaring
+
+$$
+  Map_S^\flat(X,Y) \subset Map^\flat(X,Y)
+$$
+
+and
+
+$$
+  Map_S^#(X,Y) \subset Map^#(X,Y)
+$$
+
+to be the subcomplexes spanned by the cells that respect that map to the base $S$.
+
+=--
+
+
++-- {: .un_lemma }
+###### Observation
+
+Let $Y \to S$ be a [[Cartesian fibration]] of simplicial sets, and $X^\sharp$ as above the marked simplicial set with precisely the [[Cartesian morphism]]s marked.
+
+Then 
+
+* $Map_S^\flat(X,Y^\sharp)$ is an [[quasi-category]];
+
+* $Map_S^#(X, Y^\sharp)$ is its [[core]], the maximal [[Kan complex]] inside it.
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, remark 3.1.3.1]].
+
++-- {: .proof}
+###### Proof
+
+The $n$-cells of $Map_S^\flat(X,Y^\sharp)$ are morphisms $X \times \Delta[n]^\flat \to Y^\sharp$ over $S$.  This means that for fixed $x \in X_0$, $\Delta[n]$ maps into a [[fiber]] of $Y\to S$. But fibers of Cartesian fibrations are fibers of [[inner fibration]]s, hence are quasi-categories.
+
+Similarly, the $n$-cells of $Map_S^#(X,Y^\sharp)$ are morphisms $X \times \Delta[n]^# \to Y^\sharp$ over $S$.  Again for fixed $x \in X_0$, $\Delta[n]$ maps into a [[fiber]] of $Y\to S$, but now only hitting Cartesian edges there. But (as discussed at [[Cartesian morphism]]), an edge over a point is Cartesian precisely if it is an equivalence.
+
+=--
+
+
 
 
 +-- {: .un_prop }
@@ -217,44 +263,6 @@ with $(-)^{\flat} \dashv (-)^{\flat} \dashv (-)^{\sharp} \dashv (-)^{\sharp}$.
 
 
 =--
-
-### $sSet$-Enrichment
-
-+-- {: .un_prop }
-###### Proposition
-
-* The hom-objects $Map^#(X,Y)$ make $sSet^+$ an 
-  [[sSet]]-[[enriched category]].
-
-=--
-
-
-+-- {: .un_remark }
-###### Remark 
-
-When instead using as hom-objects
-
-$$
-  hom(X,Y) := Map_S^\flat(X,Y)
-$$
-
-then one obtains an $sSet_{Joyal}$-[[enriched model category]] (enriched over the [[model structure for quasi-categories]]). This models the full [[(∞,2)-category]] of cartesian fibrations of [[(∞,1)-categories]].
-
-=--
-
-This is [[Higher Topos Theory|HTT, remark 3.1.4.5]].
-
-+-- {: .un_remark }
-###### Remark (HTT, 3.1.3.1)
-
-For $(X \to S) \in SSet^+/S$ and $p : Y \to S$ a [[Cartesian fibration]] we have
-
-* $Map^\flat_S(X,Y^{cart})$ is a [[quasi-category]]
-
-* $Map^#_S(X,Y^{cart})$ is the largest [[Kan complex]] in $Map^\flat_S(X,Y^{cart})$
-
-=--
-
 
 ## Model structure on marked simplicial sets
 
@@ -387,17 +395,18 @@ The model structure is proposition 3.1.3.7 in [[Higher Topos Theory|HTT]]. The s
 
 =--
 
-+-- {: .un_def }
-###### Definition/Proposition
-**(coCartesian model structure on $sSet^+/S$)**
++-- {: .un_remark}
+###### Remark
 
-There is another such model structure, with [[Cartesian fibration]]s replaced everywhere by **coCartesian fibrations.
+
+Using $Map_S^\flat(X,Y)$ for the mapping objects makes $sSet^+/S$ a
+$sSet_{Joyal}$-[[enriched model category]] (i.e. enriched in the [[model structure for quasi-categories]]).
 
 =--
 
+This is [[Higher Topos Theory|HTT, remark 3.1.4.5]].
 
 
-### Properties
 
 
 +-- {: .un_prop}
@@ -418,42 +427,15 @@ This is [[Higher Topos Theory|HTT, prop. 3.1.5.2]].
 
 =--
 
-We write $sSet_{Quillen}$ for the standard [[model structure on simplicial sets]] and $sSet_{Joyal}$ for the [[model structure for quasi-categories]].
-
-+-- {: .un_prop}
-###### Proposition
-
-The category $sSet^+/S$ becomes an [[sSet]]-[[enriched category]] in the following two ways:
-
-* $sSet^+/S(X,Y) := Map^\flat(X,Y)$
-
-  In this case $sSet^+/S$ with the above model structure is a $sSet_{Quillen}$-[[enriched model category]], hence a [[simplicial model category]].
-  
-or
-
-* $sSet^+/S(X,Y) := Map^#(X,Y)$.
-
-  In this case $sSet^+/S$ with the above model structure is a $sSet_{Joyal}$-[[enriched model category]]
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is [[Higher Topos Theory|HTT, cor. 3.1.4.4]]
-and [[Higher Topos Theory|HTT, remark 3.1.4.5]].
-
-=--
-
-
-Notice that triviall every object in the model structure is cofibrant.
+Notice that trivially every object in the model structure is cofibrant.
 The following proposition shows that the above model structure indeed
 presents the $(\infty,1)$-category $CartFib(S)$ of [[Cartesian fibration]]s.
 
+
 +-- {: .un_prop}
 ###### Proposition
 
-An object $p : X \to S$ in $sSet^+/S$ si _fibrant_ with respect to the above model structure precisely if it is isomorphic to an object of the
+An object $p : X \to S$ in $sSet^+/S$ is _fibrant_ with respect to the above model structure precisely if it is isomorphic to an object of the
 form $Y^#$, for $Y \to S$ a [[Cartesian fibration]] in [[sSet]].
 
 =--
@@ -467,6 +449,26 @@ This is [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 
 
+
++-- {: .un_def }
+###### Definition/Proposition
+**(coCartesian model structure on $sSet^+/S$)**
+
+There is another such model structure, with [[Cartesian fibration]]s replaced everywhere by **coCartesian fibrations.
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+### Marked anodyne morphisms
 
 +-- {: .un_defn}
 ###### Definition ([[Higher Topos Theory|HTT, Def 3.1.1.1]])
