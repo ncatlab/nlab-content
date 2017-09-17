@@ -47,8 +47,7 @@ that satisfy a [[coherence law]] among themselves.
 
 By the [[periodic table of higher categories]] a [[monoidal category]] is a pointed [[bicategory]] with a single object, its [[object]]s are the 1-morphisms of the bicategory. 
 
-
-Accordingly, aby [[monoidal category]] is equipped with a [[natural isomorphism]]
+Accordingly, a [[monoidal category]] is equipped with a [[natural isomorphism]]
 
 $$ \ell_x : 1 \otimes x \to x $$
 
