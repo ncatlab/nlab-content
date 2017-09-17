@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -34,9 +34,10 @@ $$
   \rho : L G \to Aut(V)
 $$
 
-is said to have **positive energy** or to be a [[positive energy representation]]** if it extends to a representation of the [[semidirect product group]] $S^1 \rtimes L G$ such that the restriction to $S^1$ is positive.
+is said to have **positive energy** or to be a **positive energy representation** if it extends to a representation of the [[semidirect product group]] $S^1 \rtimes L G$ such that the restriction to $S^1$ is positive.
 
 =--
+
 
 ## Related concepts
 
@@ -63,4 +64,5 @@ A review talk is
 
 
 
+[[!redirects positive energy representation]]
 [[!redirects positive energy representations]]
