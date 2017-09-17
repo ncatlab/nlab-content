@@ -33,7 +33,15 @@ There is an eviden [[model category]] structure on $sSet^{\Delta}$ which models 
 
 ## Properties
 
-There are several standard ways to equip $sSet^\Delta$ with the structure of a [[model category]]. See [[model structure on cosimplicial simplicial sets]] for more.
+### Model structure
+
+There are several standard ways to equip $sSet^\Delta$ with the structure of a [[model category]]. See _[[model structure on cosimplicial simplicial sets]]_ for more.
+
+
+### Homotopy and homology
+
+The [[homotopy groups]] of the [[totalization]] of a cosimplicial homotopy type are computed by a [[Bousfield-Kan spectral sequence]]. The [[homology groups]] by an [[Eilenberg-Moore spectral sequence]].
+
 
 ## References
 
@@ -61,4 +69,7 @@ The homotopy [[spectral sequence]] for cosimplicial spaces is in chapter VIII.
 
 [[!redirects simplicial cosimplicial set]]
 [[!redirects simplicial cosimplicial sets]]
+
+[[!redirects cosimplicial homotopy type]]
+[[!redirects cosimplicial homotopy types]]
 
