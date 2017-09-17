@@ -21,8 +21,11 @@
 
 ## Idea
 
-What are called _Fierz identities_ are certain relations between multilinear expressions of [[spinors]]. More precisely, the Fierz identities encode the docpositions of spinorial expressions into [[irreducible representations]] of the [[super Poincare Lie algebra]].
+What are called _Fierz identities_ are certain relations between multilinear expressions of [[spinors]]. More precisely, the Fierz identities encode the decomposition of spinorial expressions into [[irreducible representations]] of the [[super Poincare Lie algebra]].
 
+## Related concepts
+
+* [[Clebsch-Gordan coefficient]]
 
 ## References
 
