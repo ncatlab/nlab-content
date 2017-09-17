@@ -32,3 +32,4 @@ In particular the [[complex plane]] $\mathbb{C}$ itself is a complex line; conve
 
   * [[complex line bundle]]
 
+[[!redirects complex lines]]
