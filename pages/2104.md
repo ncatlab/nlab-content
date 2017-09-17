@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -17,6 +27,8 @@ In view of this, quantization is often understood as a [[retraction|right invers
 
 * [[geometric quantization]], [[deformation quantization]], [[semiclassical approximation]], [[BV-BRST formalism]]
 * [[path integral]], [[exercise in groupoidification - the path integral]]
+
+* [[quantization via the A-model]]
 
 A general geometrically inclined introduction can be found in 
 
