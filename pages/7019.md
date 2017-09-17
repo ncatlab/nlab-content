@@ -1,0 +1,29 @@
+[[!redirects homotopy levels]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[homotopy type theory]] one speaks of **homotopy level** where in [[(∞,1)-category theory]] one speaks of [[n-truncated|n-truncation]].
+
+The traditional counting is, however, offset by two
+
+ [[homotopy type theory]]  | [[(∞,1)-category theory]] |   groupoids
+---------------------------|-------------------------------------------------------
+   hlevel 0                |   (-2)-truncated          | [[(-2)-groupoid]]
+   hlevel 1                |   (-1)-truncated          | [[(-1)-groupoid]]
+   hlevel 2                |   0-truncated             | [[0-groupoid]]/[[set]]
+   hlevel 3                |   1-truncated             | [[groupoid]]
+   hlevel 4                |   2-truncated             | [[2-groupoid]]
