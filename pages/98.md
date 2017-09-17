@@ -9,6 +9,18 @@
 =--
 =--
 
+
+* [[∞-Lie algebra cohomology]]
+
+* **Chevalley-Eilenberg algebra**
+
+* [[Weil algebra]]
+
+* [[invariant polynomial]]
+
+***
+
+
 # Contents
 * tic
 {:toc}
