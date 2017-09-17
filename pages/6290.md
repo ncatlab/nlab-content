@@ -45,7 +45,7 @@ The generalized [[Riemann conjecture]] is concerned with zeros of the _[[Dedekin
 
 * [[motivic L-function]]
 
-[[!include zeta-functions and eta-functions and L-functions -- table]]
+* [[explicit formulae (L-function)]]
 
 ## References
 
