@@ -1,7 +1,7 @@
 
 * **[[subcategory]]**
 
-  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]], [[Serre subcategory]], [[topologizing subcategory]]
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]] ([[reflective subcategory - internal formulation|internal formulation]]), [[coreflective subcategory]], [[Serre subcategory]], [[topologizing subcategory]]
 
   * [[internal subcategory]]
 
@@ -18,3 +18,5 @@
   * [[reflective sub-(∞,1)-category]]
 
   * [[thick subcategory]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/notions+of+subcategory)</div>
