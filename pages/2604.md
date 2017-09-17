@@ -15,14 +15,14 @@ Examples include
 * [[crossing number]]
 * [[bridge number]]
 * [[unknotting number]]
+* [[colorability]]
+* [[knot group]]= the fundamental group of the complement of the knot.
 * [[knot genus]]
 * [[Jones polynomial]]
 * [[HOMFLY polynomial]]
 * [[Alexander polynomial]]
 * [[Reshetikhin-Turaev invariant]]s for any object in a [[ribbon category]]
 * [[Khovanov homology]]
-* [[colorability]]
-* [[knot group]]= the fundamental group of the complement of the knot.
 * [[Kauffman bracket]] technically, an invariant of [[framed links]] but closely related to the [[Jones polynomial]]
 
 
