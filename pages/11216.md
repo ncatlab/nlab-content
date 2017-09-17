@@ -34,23 +34,34 @@ Write $AdmRep$ for the [[category]] of admissible representations in this sense,
 
 ## Properties
 
+### General
+ {#GeneralProperties}
+
+The category $AmdRep$ is [[cartesian closed category|cartesian closed]]. 
+
 ### Relation to function realizability
 
 The category $AdmRep$ above is a [[reflective subcategory]] of the [[function realizability topos]] $RT(\mathcal{K}_2)$ (see [vanOosten 08](#vanOosten08)).
 
 ### Relation to topology
+ {#RelationToTopology}
 
 $AdmRep$ is [[equivalence of categories|equivalent]] to the [[full subcategory]] of that of [[topological spaces]] on the $T_0$-[[quotient spaces]] of countably based $T_0$ spaces ([BSS](#BSS)).
 
 ## Examples
 
+Under the [above](#RelationToTopology) inclusion, all complete separable [[metric spaces]] are in $AdmRep$.
+
 Some standard classes of examples (with an eye towards applications in [[computable physics]]) are discussed in [Weihrauch-Zhong 02, def. 2.6](#WeihrauchZhong02)
+
+
+Since the [[Siepinski space]] is in $AdmRep$, and due to cartesian clossure [above](GeneralProperties), for any $X \in AdmRep$ also its lattice of [[closed subspaces]] is in $AdmRep$.
+
 ## Related concepts
+
 
 [[!include computable mathematics -- table]]
 
-
-## Related concepts
 
 The subcategory on the effectively computable morphisms of the [[function realizability topos]] $RT(\mathcal{K}_2)$ is the [[Kleene-Vesley topos]]. The category of "admissible representations" $AdmRep$ above is a a [[reflective subcategory]] of $RT(\mathcal{K}_2)$ and the restriction of that to $KV$ is $AdmRep_{eff}$
 
@@ -85,3 +96,19 @@ Textbooks include
 Concrete examples with an eye towards applications in [[computable physics]] are discussed in section 2 of 
 
 * {#WeihrauchZhong02} [[Klaus Weihrauch]],  Ning Zhong, _Is wave propagation computable or can wave computers beat the Turing machine?_, Proc. of the London Math. Soc. (3) 85 (2002) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.95.5994))
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
