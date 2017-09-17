@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Homotopy theory
+#### Locality and descent
 +--{: .hide}
-[[!include homotopy - contents]]
+[[!include descent and locality - contents]]
 =--
 #### $(\infty,1)$-Category theory
 +--{: .hide}
