@@ -54,6 +54,8 @@ More generally, one may start with construction with other objects that map to [
 For $R$ a [[commutative ring]], and $R$[[Mod]] its [[category of modules]] ([[projective modules]]), then $\mathcal{K}(R Mod)$ is Quillen's [[algebraic K-theory]] of $R$.
 More generally this reproduces the [[K-theory of a permutative category]] etc. ([Nikolaus 13, section 6](#Nikolaus13)).
 
+In particular, applied to the [[stack]] of [[algebraic vector bundles]] this produces the [[sheaf of spectra]] of [[algebraic K-theory]] of [[schemes]] ([Bunke-Tamme 12, section 3.3](#BunkeTamme12)), see at  _[differential algebraic K-theory -- Algebraic K-theory sheaf of spectra](differential+algebraic+K-theory#AlgebraicKTheorySheafOfSpectra)_. 
+
 ## Examples
 
 ### On monoidal stacks
