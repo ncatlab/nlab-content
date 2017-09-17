@@ -35,7 +35,11 @@ When the [[theory]] of a [[category]] is phrased in dependent type theory, there
 
 * [[Martin-Löf dependent type theory]]
 
-[[!include notions of type]]
+## References
+
+In [[Coq]]:
+
+* Yves Bertot, _Introduction to dependent types in Coq_ ([pdf](http://www-sop.inria.fr/members/Yves.Bertot/tsinghua/tsinghua-1.pdf))
 
 
 
