@@ -23,7 +23,7 @@
 
 ## Idea
 
-The type of [[field (physics)|field]] [[theory (physics)|theory]] called _holomorphic Chern-Simons theory_ is a variant of [[Chern-Simons theory]] where instead of [[Lie algebra valued differential forms]] on a real odd-[[dimension|dimensional]] [[manifold]] the [[field (physics)|fields]] are [[holomorphic differential forms]] with values in a [[Lie algebra]] on a complex odd-dimensional manifold, the [[action functional]] otherwise having roughly the same structure as for standard [[Chern-Simons theory]]. 
+The type of [[field (physics)|field]] [[theory (physics)|theory]] called _holomorphic Chern-Simons theory_ is a variant of [[Chern-Simons theory]] where instead of [[Lie algebra valued differential forms]] on a real odd-[[dimension|dimensional]] [[manifold]] the [[field (physics)|fields]] are [[holomorphic differential forms]] with values in a [[Lie algebra]] on a complex odd-dimensional [[complex manifold]], the [[action functional]] otherwise having roughly the same structure as for standard [[Chern-Simons theory]]. 
 
 ## Definition
 
@@ -40,6 +40,8 @@ Holomorphic CS may be understood in terms of a nonabelian version of the _[[beta
 * [[Chern-Simons theory]]
 
 * [[beta-gamma system]]
+
+* [[analytically continued Chern-Simons theory]]
 
 ## References
 
