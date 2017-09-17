@@ -21,6 +21,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The _orbit category_ of a [[group]] $G$ is the category of "all kinds" of  [[orbits]] of $G$, namely of all suitable [[coset spaces]] regarded as [[G-spaces]]. 
+
 ## Definition
 
 +-- {: .num_defn #TheOrbitCategory}
@@ -85,7 +89,7 @@ See at _[[global equivariant homotopy theory]]_.
 
 ## Related concepts
 
-* [[global equivariant stable homotopy theory]]
+* [[global orbit category]], [[global equivariant stable homotopy theory]]
 
 * [[Bredon cohomology]]
 
