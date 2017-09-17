@@ -1,3 +1,3 @@
-wrote: "My personal opinion is that the best possible job for someone who is intelligent but lazy would be to be a professional expert at something,Michael Kors Wallet, to get paid to just share your thoughts and opinions about things with people who will do the heavy lifting."
- <a href="http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=christian-louboutin-sandals-c-11.html" >Christian Louboutin Sandals</a>
-[url=http://www.destinationvenus.co.uk/christianlouboutinpprevalent.asp?prevalent=christian-louboutin-sandals-c-11.html]Christian Louboutin Sandals[/url]
+Conditions Sunny D
+ <a href="http://www.dltc.co.uk/christianlouboutinddiscount.asp?discount=christian-louboutin-mary-janes-c-4/" >Christian Louboutin Slingback</a>
+[url=http://www.dltc.co.uk/christianlouboutinddiscount.asp?discount=christian-louboutin-mary-janes-c-4/]Christian Louboutin Slingback[/url]
