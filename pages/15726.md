@@ -1,5 +1,5 @@
 
-**Lou van den Dries** is model-theorist best known for his work on O-minimal structures and [[tame topology]].
+**Lou van den Dries** is a model-theorist best known for his work on O-minimal structures and [[tame topology]].
 
 * [Homepage](http://www.math.uiuc.edu/People/vddries.html)
 * [Page with lecture notes on model theory, stability theory, motivic integration etc.](http://www.math.uiuc.edu/~vddries/)
