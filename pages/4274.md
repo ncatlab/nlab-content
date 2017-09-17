@@ -63,6 +63,10 @@ see also remark 1.4 of
 
 * [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller and Lurie)_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0910/0910.5130v1.pdf)).
 
+Discussion of the relation to [[vertex operator algebras]] is in 
+
+* Chongying Dong, _Elliptic Genus and Vertex Operator Algebras_, ([pdf](http://www.math.jussieu.fr/~ma/mypubli/dlvoaPAMQ05.pdf))
+
 Other references include
 
 * [[Stephan Stolz]], _A conjecture concerning positive Ricci curvature and the Witten genus_, Mathematische Annalen Volume 304, Number 1 (1996),
