@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __connected__ if any two elements that are related in neither order are [[equality|equal]]:
 $$ \forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y .$$
 This is a basic property of [[linear orders]]; an [[apartness relation]] is usually called _tight_ if it is connected.
