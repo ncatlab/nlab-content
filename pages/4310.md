@@ -18,7 +18,11 @@ and the **multiplicative counit**:
 
 $$ R \to \mathbb{Z} $$
 
-satisfying the usual axioms of a commutative ring, but 'turned around'.  More precisely, a biring is a [[internalization|commutative ring object]] in the [[opposite category|opposite]] of the category of commutative rings (also known as the category of [[affine schemes]]).  Equivalently, a biring is a commutative ring $R$ equipped with a lift of the functor 
+satisfying the usual axioms of a commutative ring, but 'turned around'.  
+
+More tersely, and also more precisely, a biring is a [[internalization|commutative ring object]] in the [[opposite category|opposite]] of the category of commutative rings (also known as the category of [[affine schemes]]).  
+
+Equivalently, a biring is a commutative ring $R$ equipped with a lift of the functor 
 
 $$ hom(-, R) : CommRing \to Set $$
 
@@ -26,7 +30,9 @@ to a functor
 
 $$ hom(-, R) : CommRing \to CommRing $$
 
-Birings form a [[monoidal category]] thanks to composition of functors, and a [[monoid object]] in this monoidal category is called a [[plethory]].  A plethory is an example of a [[Tall–Wraith monoid]].
+Birings form a [[monoidal category]] thanks to our ability to  composite functors of this form.  A [[monoid object]] in this monoidal category is called a [[plethory]].  A plethory is an example of a [[Tall–Wraith monoid]].
+
+The most important example of a biring is $\Lambda$, the ring of [[symmetric polynomials]].  This is actually a plethory.
 
 
 ## References
