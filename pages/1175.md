@@ -35,6 +35,35 @@ In this paragraph $\mathcal{M}$ will always be a von Neumann algebra acting on a
 
 * Theorem: The notions of cyclic and separating are dual with respect to the commutant, that is a vector is cyclic for $\mathcal{M}$ iff it is separating for $\mathcal{M}'$.
 
+##projections in von Neumann algebras
+One crucial feature of von Neumann algebras is that they contain 
+"every projection one could wish": there are three points that make this statement precise:
+
+* the linear combinations of projections are norm dense in a von Neumann algebra
+
+* Gleason's theorem
+
+* Murray-von Neumann classification of factors 
+
+### projections are norm dense
+First let us note that every element $A$ of a von Neumann algebra can trivially be written as a sum of two selfadjoint elements:
+$$
+A = \frac{1}{2} (A + A^*) + \frac{1}{2} (A - A^*)
+$$
+
+Then, by the [[spectral theorem]] every selfadjoint element A is represented by it's spectral measure E via
+$$
+A = \integral_{-\|A\|}^{\|A\|} \lambda E(d\lambda)
+$$
+The integral converges in norm to A and all spectral projections are elements of the von Neumann algebra. It immediatly follows that the set of finite sums of multiples of projections are norm dense in every von Neumann algebra. 
+
+### Gleason's theorem
+
+* Wikipedia on [Gleason's theorem] (http://en.wikipedia.org/wiki/Gleason%27s_theorem)
+
+### Murray-von Neumann classification of factors 
+To be done...
+
 #Remarks#
 
 * Von Neumann algebras may also be defined abstractly as (abstract) $C^*$-algebras with a predual.
