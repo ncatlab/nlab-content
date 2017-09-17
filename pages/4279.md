@@ -130,6 +130,8 @@ An important theorem for the physical interpretation of states is [[Fell's theor
 
 * [[state]], [[quasi-state]]
 
+* [[Alfsen-Shultz theorem]]
+
 ## References 
 
 * Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_,AMS (1991)
