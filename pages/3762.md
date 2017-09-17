@@ -13,7 +13,7 @@ $$
   s \mapsto Tr \left(\frac{1}{H}\right)^s
 $$ 
 
-of suitable [[elliptic differential operators]] $H$ (in [[physics]] these are [[regularization (physics)|regularized]] [[Feynman propagators]]), which means that for sufficiently nice such $H$ these are analytic continuations in $s$ of sums of the form
+of suitable [[elliptic differential operators]] $H$ (in [[physics]] these are [[regularization (physics)|regularized]] [[traces]] of [[Feynman propagators]] leading to expressions for [[vacuum amplitudes]]), which means that for sufficiently nice such $H$ these are analytic continuations in $s$ of sums of the form
 
 $$
   s \mapsto \underset{\lambda}{\sum}  \lambda^{-s}
