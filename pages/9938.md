@@ -42,6 +42,18 @@ For each [[prime]] $p$ there is an unique [[E-∞ ring]] [[spectrum]] $B P$ whic
 
 Due to ([Brown-Peterson 66](#BrownPeterson66)), recalled as ([Ravenel, theore, 4.1.12](#Ravenel)).
 
+## Properties
+
+### Universal characterization
+
+(...)
+
+The [[formal group law]] of Brown-Peterson cohomology theory is [[universal property|universal]] for $p$-local [[complex oriented cohomology theories]] in that $\mathbb{G}_{B P}$ is universal among $p$-local, [[p-typical formal group laws]].
+
+(...)
+
+
+
 ## References
 
 The original article is
