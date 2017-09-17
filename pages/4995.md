@@ -1101,7 +1101,16 @@ Here $\mathbf{H}^{\Delta^{op}}$ is also the [[classifying topos]] for [[linear i
 
 For more see at _[[simplicial object in an (∞,1)-category]]_.
 
-### Over $\infty$-Cohesive sites of definition
+
+### Stable cohesion: cohesive tangent $\infty$-categories
+
+The [[tangent (∞,1)-category]] $T(\infty Grpd)$
+is a cohesive $\infty$-topos, see the discussion at
+_[tangent ∞-category -- Examples -- Of an ∞-topos](tangent+%28infinity%2C1%29-category#ExamplesTangentOfAnInfinityTopos)_.
+
+This is the $\infty$-topos of [[parameterized spectra]], hence a context for [[stable homotopy theory]].
+
+### From $\infty$-Cohesive sites of definition
 
 +-- {: .num_prop}
 ###### Proposition
