@@ -17,7 +17,7 @@ $$
   q(t v) = t^2 q(v)
 $$
 
-and
+and the _polarization_ of $q$
 
 $$
   (v,w) \mapsto q(v+w) - q(v) - q(w) 
