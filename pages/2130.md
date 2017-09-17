@@ -210,6 +210,7 @@ The generalization of the notion of symplectic manifolds to [[dg-geometry]] is s
 
 [[!redirects symplectic manifolds]]
 [[!redirects symplectic form]]
+[[!redirects symplectic forms]]
 
 [[!redirects symplectic structure]]
 [[!redirects almost symplectic structure]]
