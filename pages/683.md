@@ -988,6 +988,8 @@ This appears as theorem 1.5 in
 
 ## References 
 
+### General
+
 The classical reference is 
 
 * A. K. Bousfield and [[Dan Kan]], _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI).
@@ -1053,6 +1055,13 @@ Other references are
 * Andre Hirschowitz, [[Carlos Simpson]], [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
 
 *MathOverflow [universal-problem-that-motivates-the-definition-of-homotopy-limits](http://mathoverflow.net/questions/38047/what-is-the-universal-problem-that-motivates-the-definition-of-homotopy-limits)
+
+### In homotopy type theory
+
+A formalization of some aspects of homotopy limits in terms of [[homotopy type theory]] is [[Coq]]-coded in 
+
+* [[Guillaume Brunerie]], _[HoTT/Coq/Limits](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Limits)_
+
 
 [[!redirects homotopy limits]]
 [[!redirects homotopy colimit]]
