@@ -63,7 +63,7 @@
 
 * . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">∞-Lie algebras</a>
 
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">Maurer-Cartan forms and curvatue characteristic forms</a>
+* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">Maurer-Cartan forms and curvature characteristic forms</a>
 
 * . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">differential cohomology</a>
 
