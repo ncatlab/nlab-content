@@ -24,9 +24,9 @@ In [[homotopy theory]] infinite loop spaces are equivalent to [[connective spect
 
 ### Algebraic characterization
 
-Infinite loop spaces are the [[E-∞ algebras]] in [[Top]] ([[E-∞ space|E-∞ spaces]]).
+Infinite loop spaces are the grouplike [[E-∞ algebras]] in [[Top]] (grouplike [[E-∞ space|E-∞ spaces]]).
 
-See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed there for traditional accounts. See ([Lurie, section 5.3.1](#Lurie)) for a modern formulation.
+See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed there for traditional accounts. See ([Lurie, section 5.1.3](#Lurie)) for a modern formulation.
 
 (Compare to how just [[loop spaces]] are the grouplike [[A-∞ algebras]], see _[[looping and delooping]]_.)
 
