@@ -32,7 +32,7 @@ A category is said to be **essentially small** if it is [[equivalence of categor
 
 A **small category structure** on a category $C$ is an [[essentially surjective functor]] from a set (as a [[discrete category]]) to $C$.  A category is essentially small iff it has a small category structure; this does not require the axiom of choice.
 
-## Smallness in the conext of universes
+## Smallness in the context of universes
 
 If [[Grothendieck universe]]s are being used, then for $U$ a fixed Grothendieck universe, a category $C$ is **$U$-small** if its collection of objects and collection of morphisms are both elements of $U$.  $C$ is **essentially $U$-small** if there is a [[bijection]] from its set of morphisms to an element of $U$ (the same for the set of objects follows); this condition is non-evil.
 
