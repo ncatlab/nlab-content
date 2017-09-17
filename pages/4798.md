@@ -21,7 +21,9 @@
 
 ## Idea
 
-In [[physics]] the term **gauge transformation** means essentially [[isomorphism]]: the configuration [[space]] of a physical theory is typically a [[groupoid]] (an [[orbifold]]) and a _gauge transformation between configurations_ is a [[morphism]] in this groupoid.
+### Local gauge transformations
+
+In [[physics]] the term local **gauge transformation** means essentially [[isomorphism]]: the configuration [[space]] of a physical theory is typically a [[groupoid]] (an [[orbifold]]) and a _gauge transformation between configurations_ is a [[morphism]] in this groupoid.
 
 More specifically, in physical theories called [[gauge theory]] -- such as describing [[electromagnetism]] and [[Yang-Mills field]]s -- the configuration space is a space of $G$-[[principal bundle]]s (over [[spacetime]] $X$) with [[connection on a bundle|connection]] over a [[Lie group]] $G$ called the **[[gauge group]]**. A _gauge transformation_ in the strict and original sense of the word is a morphism in the groupoid $G Bund_\nabla(X)$ of these bundles with connection.
 
@@ -44,6 +46,10 @@ The [[Lie algebroid]] of the groupoid of configurations and gauge transformation
 
 If the space of configurations is not just a groupoid in ordinary spaces but a groupoid in _derived_ spaces such as [[derived smooth manifold]]s, then the CE-algebra of the corresponding [[derived ∞-Lie algebroid]] is called the [[BV-BRST complex]]. 
 
+### Global gauge transformations
+
+See [[global gauge group]].
+
 
 ## Details
 
@@ -60,6 +66,10 @@ The formulas for the local gauge transformations and higher gauge transformation
 The fully general description for [[connections on ∞-bundles]] is at
 
 * [[∞-groupoid of ∞-Lie-algebra valued forms]].
+
+## Related concepts
+
+* [[gauge group]]
 
 [[!redirects gauge transformations]]
 [[!redirects gauge symmetry]]
