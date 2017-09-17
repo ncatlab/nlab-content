@@ -798,6 +798,7 @@ We therefore write $\mathbf{B}^n U(1) \in [CartSp^{op}, sSet]$ for $\Xi(U(1)[n])
 
 =--
 
+
 ##### Differential coefficients {#DifferentialBnU1}
 
 We now describe the Lie $n$-groupoids $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ and $\mathbf{\Pi}_{dR} \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ induced from $\mathbf{B}^n U(1)$ as discussed at [∞-connectedness](#InfConnectedness).
@@ -869,6 +870,151 @@ We observe that the complex of sheaves $\mathbf{\flat}\mathbf{B}^n U(1)$ is that
 Also notice that the complex that defines $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ has the following description in terms of hom-spaces of [[∞-Lie algebroid]]s.
 
 =--
+
+##### Intrinsic De Rham cohomology of $B^n U(1)$ {#DeRhamBnU(1)}
+
++-- {: .un_prop }
+###### Proposition
+
+We have
+
+$$
+  \mathbf{H}(\mathbf{B}^n U(1), \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1))
+  \simeq
+  \mathbb{R}
+$$
+
+as $\infty$-groups.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We first observe that this statement were easy to see if we did not have to pass to a cofibrant representative of $\mathbf{B}^n U(1)$. For then we would compute, using the [above](#DifferentialBnU1) fibrant model for $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$
+
+$$
+  \begin{aligned}
+    & [CartSp^{op}, sSet](\Xi(C^\infty(-U(1))[n]), \Xi[\Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)])
+    \\
+    & \simeq
+    [CartSp^{op}, Ch_\bullet](N \Xi(C^\infty(-U(1))[n]), \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)\)
+    \\
+    & \simeq
+    [CartSp^{op}, Ch_\bullet](C^\infty(-U(1))[n], \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)\)
+   \\
+    &\simeq
+    [CartSp^{op}, Ab](C^\infty(-,U(1)), \Omega^1(-) )
+  \end{aligned}
+  \,.
+$$
+
+If we forgoit the abelian group structure, and looked at the last hom-set as one of sheaves, we'd get $\Omega^1(U(1))$. Among these these forms $\omega \in \Omega^1(U(1))$ that do respect the group structure are those such that for all $U \in CartSp$ and all $f,g : U \to U(1)$ we have
+
+$$
+  f^* \omega + g^* \omega = (f \cdot g)^* \omega
+  \,.
+$$
+
+A little reflection shows that this is satisfied precisely by the constant forms, i.e. those that are a linear multiple of the [[Maurer-Cartan form]] on $U(1)$. Hence 
+
+$$
+  \cdots \simeq \mathbb{R}
+  \,.
+$$
+
+But $\mathbf{B}^n U(1)$ is not cofibrant in $[CartSp^{op}, sSet]_{proj}$. We will pass now to a cofibrant replacement and discuss that computing the homs out of that does nevertheless reduce to the above computation.
+
+By Dugger's general theorem for fibrant replacements in the projective model structure (reviewed at [[model structure on simplicial presheaves]]) we have that a cofuibrant replacement for a simplciial presheaf $A$ is given by the diagonal of the bisimplicial presheaf which in degree $(n,k)$ has
+
+$$
+  \coprod_{U_n \to U_{n-1} \to \cdots \to U_0 \to A_k} U_n
+  \,,
+$$
+
+where the coproduct ranges over all sequences of morphisms of representables $U_i \in CartSp$ into $A_k$. And face and degenracy maps are the evident ones. 
+
+As a warmup, we discuss this first for $\mathbf{B}^1 U(1)$. Write $Q(\mathbf{B}^1 U(1))$ for the above cofibrant replacement. In degree 1 this is
+
+$$
+  Q(\mathbf{B}^1 U(1))_1 =  \coprod_{U_0 \to U_1 \to U(1)} U_0
+$$
+
+and in degree 2 it is
+
+$$
+  Q(\mathbf{B}^1 U(1))_2 =  \coprod_{U_0 \to U_1 \to U_2 \to U(1)} U_0
+  \,.
+$$
+
+Since $\mathbf{B}U(1)$ is 1-[[connected]] and $\mathbf{\flat}_{dR} \mathbf{B}^2 U(1) = \Xi[\Omega^1(-) \to \Omega^2_{cl}(-)]$ is 1-truncated, it is sufficient to look at morphisms in these two degrees.
+
+Write $\omega_{U_0 \to U_1 \to U(1)} \in \Omega^1(U(1))$ for a 1-form assigned by a morphism Q(\mathbf{B}U(1)) \to \Xi(\Omega^1(-) \to \Omega^2_{cl}(-))$ in degree 1 to a sequence $U_0 \to U_1 \to U(1)$ (using the [[Yoneda embedding]]).
+
+Then looking at the respect to the face maps shows that for every sequence $U_0 \stackrel{f}{\to} U_1 \to U_2\to U(1)$ we have on these 1-forms impose the relation
+
+$$
+  \omega_{U_0 \to U_2 \to U(1)} = 
+  \omega_{U_1 \to U_2 \to U(1)} + f^* \omega_{U_0 \to U_1 \to U(1)}
+  \,.
+$$
+
+Using this and the respect for degeneracy maps shows that 
+
+$$
+  \omega_{U_0 \to U_2 \to * \stackrel{e}{\to} U(1)} = 0
+  \,.
+$$
+
+We also have from $\Omega^1(*) = 0$ that $\omega_{* \to U_1 \to U(1)} = 0$, becessarily. Using this in the addition law for $* \to U_1 \to * \stackrel{e}{\to} U(1)$ yields
+
+$$
+  \omega_{U_0 \to * \stackrel{e}{\to} U(1)} = 0
+  \,.
+$$
+
+Using the addition law on $U_0 \to U_1 \to *$ this implies that $\omega_{U_0 \to U_1 \to U(1)} = 0$ if the maps are constant on the neutral element.
+
+Once more from the addition law we have
+
+$$
+  \omega_{U_0 \stackrel{f}{\to} U_1 \to U(1)}
+  =
+  f^* \omega_{U_1 \stackrel{Id}{\to} U_1 \to U(1)}
+  + 
+  \omega_{U_0 \to U_1 \to * \stackrel{e}{\to} U(1)}
+$$
+
+which by what we just said is
+
+$$
+  \cdots = f^* \omega_{U_1 \stackrel{Id}{\to} U_1 \to U(1)}
+  \,.
+$$
+
+This finally shows in summary, that the form assigned to a sequence $U_0 \to U_1 \to U(1)$ depends only on the composite map $U_0 \to U(1)$. But these are the elements of $(\mathbf{B} U(1))_1$. So we find that every morphism out of the cofibrant replacment into our sheaf of forms factors in fact through $\mathbf{B}(1)$ itself
+
+$$
+  \array{
+    && \mathbf{B}U(1)
+    \\
+    & \nearrow && \searrow
+    \\
+    Q(\mathbf{B}U(1)) &&\to&& \mathbf{\flat}_{dR} \mathbf{B}^2(U(1))
+  }
+  \,.
+$$
+
+This way the above argument applies indeed after all, and the result follows.
+
+
+For $\mathbf{B}^n U(1)$ with $n \gt 1$ the argument should be analogous.
+
+(...details...)
+
+=--
+
 
 #### Lie groups {#LieGroups}
 
