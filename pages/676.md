@@ -1,13 +1,10 @@
 
 **[[physics]]**
 
-[[books and reviews in mathematical physics|books and reviews]]
+* [[higher category theory and physics|(higher) category theory and physics]]
 
-[[higher category theory and physics|(higher) category theory and physics]]
+* [[books and reviews in mathematical physics|books and reviews]]
 
-* [[category theory]]
-
-* [[higher category theory]]
 
 ***
 
