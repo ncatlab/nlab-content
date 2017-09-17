@@ -40,9 +40,9 @@ $$
 
 of connective chain complexes is naturally identified with the category of $\mathbb{N}$-graded chain complexes.
 
-### Equivalence of categories
+### Equivalence of categories {#EquivalenceOfCategories}
 
-+-- {: .num_theorem }
++-- {: .un_theorem }
 ###### Theorem (Dold--Puppe)
 
 For $A$ an [[abelian category]] 
@@ -68,7 +68,7 @@ This is an [[adjoint equivalence]] in both ways: $(\Gamma \dashv N)$ and $(N \da
 
 =--
 
-+-- {: .num_theorem }
++-- {: .un_theorem }
 ###### Theorem (Kan)
 
 For the case that $A$ is the category [[Ab]] of [[abelian group]]s, the functors $N$ and $\Gamma$ are [[nerve and realization]] with respect to the cosimplicial chain complex
@@ -86,6 +86,80 @@ $$
 $$
 
 =--
+
+More explicitly we have the following
+
++-- {: .un_prop }
+###### Proposition
+
+* For $V \in Ch_\bullet^+$ the simplicial abelian group $\Gamma(V)$ is in degree $n$ given by
+
+  $$
+    \Gamma(V)_n = \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
+  $$
+
+  and for $\theta : [m] \to [n]$ a morphism in $\Delta$ the corresponding map
+  $\Gamma(V)_n \to \Gamma(V)_m$ 
+
+  $$
+    \theta^* : \bigoplus_{[n] \underset{surj}{\to} [k]} V_k
+     \to 
+     \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+  $$
+  
+  is given on the summand indexed by some $\sigma : [n] \to [k]$ by the composite
+  
+  $$
+    V_k  \stackrel{d^*}{\to} V_s \hookrightarrow \bigoplus_{[m] \underset{surj}{\to} [r]} V_r
+  $$
+
+  where
+
+  $$
+    [m] \stackrel{t}{\to} [s] \stackrel{d}{\to} [k]
+  $$
+
+  is the [[weak factorization system|epi-mono factorization]] of the composite $[m] \stackrel{\theta}{\to} [n] \stackrel{\sigma}{\to} [k]$.
+
+* The [[natural isomorphism]] $\Gamma N \to Id$ is given on $A \in sAb^{\Delta^{op}}$ by the map
+
+  $$
+    \bigoplus_{[n] \underset{surj}{\to} [k]}
+     (N A)_k
+    \to
+    A_n
+  $$
+
+  which on the [[direct sum]]mand indexed by $\sigma : [n] \to [k]$ is the composite 
+
+  $$
+    N A_k \hookrightarrow A_k \stackrel{\sigma^*}{\to} A_n
+    \,.
+  $$
+
+* The [[natural isomorphism]] $Id \to N \Gamma$ is on  a chain complex $V$ given by the composite of the projection
+
+  $$
+    V \to C(\Gamma(V)) \to C(\Gamma(C))/D(\Gamma(V))
+  $$
+
+  with the inverse
+
+  $$
+    C(\Gamma(V))/D(\Gamma(V)) \to N \Gamma(V)  
+  $$
+
+  of 
+
+  $$
+    N \Gamma(V) \hookrightarrow C(\Gamma(V)) \to C(\Gamma(V))/D(\Gamma(V))
+  $$
+
+  (which is indeed an [[isomorphism]], as discussed at [[Moore complex]]).
+
+=--
+
+This is spelled out around prop. 2.2 in section III.2 of ([GoerssJardine](#Goerssjardine)).
 
 
 
@@ -137,6 +211,15 @@ are [[Quillen equivalence]]s with respect to these model structures.
 
 This is discussed for instance in [section 4.1](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17) of [SchwedeShipley](#SchwedeShipley)
 
+
++-- {: .num_remark }
+###### Remark
+
+The category $Ab^{\Delta^{op}}$ is -- being a [[category of simplicial objects]] of a category with colimits -- naturally an [[sSet]]-[[enriched category]] and with the model structure this makes it a [[simplicial model category]].
+
+Since the DK-correspondence is even an [[equivalence of categories]], this induces accordingly the structure of a simplicial model category also on $Ch_\bullet^+$. Therefore the above Quillen equivalence is even an [[sSet]]-Quillen equivalence of simplicial model categories.
+
+=--
 
 ## Statement (general nonabelian case) {#StatementGeneral}
 
