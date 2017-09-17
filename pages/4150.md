@@ -8,10 +8,19 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
-Categorical algebra is the study of [[Lawvere theory|algebra]]s, [[monad]]s , [[operad]].
+## Idea
 
-__Categorical algebra__ is the appropriate generalization of algebra to categorical context. Thus it studies those aspects of categorical and category-like constructions which are in the spirit of pure algebra. 
+Categorical algebra is the study of [[Lawvere theory|algebras]] over [[algebraic theories]], [[algebra over a monad|algebras over]] [[monads]] , and [[algebra over an operad|algebrasover]] [[operads]].
+
+__Categorical algebra__ is the appropriate generalization of algebra to [[category theory|category theoretic]] context. Thus it studies those aspects of categorical and category-like constructions which are in the spirit of pure algebra. 
+
+## Related concepts
+
+* [[universal algebra]]
 
 ## References
 
