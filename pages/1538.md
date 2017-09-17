@@ -2,17 +2,20 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Phyics
+#### $\infty$-Chern-Simons theory
 +--{: .hide}
-[[!include physicscontents]]
+[[!include infinity-Chern-Simons theory - contents]]
 =--
-#### Functorial quantum field theory
+#### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
 =--
 =--
-
+=--
 
 #Contents#
 * automatic table of contents goes here
