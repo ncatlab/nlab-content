@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 # Boolean algebras
 * table of contents
 {: toc}
 
 ## Idea
 
-A Boolean algebra or Boolean lattice is an algebraic structure which models classical [[propositional calculus]], roughly the fragment of the logical calculus which deals with the basic logical connectives "and", "or", "implies", and "not". 
+A _Boolean algebra_ or _Boolean [[lattice]]_ is an algebraic structure which models classical [[propositional calculus]], roughly the fragment of the logical calculus which deals with the basic logical connectives "and", "or", "implies", and "not". 
 
 
 ## Definitions
@@ -14,7 +24,7 @@ There are many known ways of defining a __Boolean algebra__ or __Boolean lattice
 
 * A Boolean algebra is a [[complement|complemented]] [[distributive lattice]]. 
 
-* A Boolean algebra is a [[Heyting algebra]] $H$ satisfying the law of excluded middle, which means either 
+* A Boolean algebra is a [[Heyting algebra]] $H$ satisfying the [[law of excluded middle]], which means either 
 $$\neg \neg = id: H \to H$$ 
 or (equivalently) 
 $$\forall_{x \in H} x \vee \neg x = \top$$
@@ -24,7 +34,7 @@ $$a \wedge b \leq c \qquad iff \qquad a \leq \neg b \vee c$$
 
 ### Explicitly
 
-There are even two explicit definitions: order-theoretic and algebraic.
+There are even two explicit definitions: [[order theory|order-theoretic]] and algebraic.
 
 A __Boolean lattice__ is a [[poset]] such that:
 
