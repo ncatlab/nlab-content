@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include Yoneda lemma - contents]]
 ***
@@ -95,7 +94,7 @@ to emphasize that the morphisms of presheaves are [[natural transformation]]s of
 
 ### Proof {#Proof}
 
-The crucial point is that the naturality condition on any [[natural transformation]] $\eta : C(-,c) \Rightarrow X$ is sufficient to ensure that $\eta$ is already entirely fixed by the value $\eta_c(Id_c) \in F(c)$ of its component $\eta_c : C(c,c) \to X(c)$ on the [[identity morphism]] $Id_c$.
+The crucial point is that the naturality condition on any [[natural transformation]] $\eta : C(-,c) \Rightarrow X$ is sufficient to ensure that $\eta$ is already entirely fixed by the value $\eta_c(Id_c) \in X(c)$ of its component $\eta_c : C(c,c) \to X(c)$ on the [[identity morphism]] $Id_c$.
 And every such value extends to a natural transformation $\eta$.
 
 
