@@ -182,3 +182,6 @@ More details are at
 and in the series of lecture notes linked to there.
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+
+
+[[!redirects TMF]]
