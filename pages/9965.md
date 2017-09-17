@@ -24,7 +24,7 @@ Discussion of [[∞-groups of units]] of [[E-∞ rings]] as [[abelian ∞-groups
 
 Augmentation over the [[Eilenberg-MacLane spectrum]] $H\mathbb{Z}$ appears in
 
-* Fregory Arone, [[Kathryn Hess]], _Augmented $\Gamma$-spaces, the stabe rank filtration, and a $b u$-analogue of the Whitehead conjectur_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
+* Gregory Arone, [[Kathryn Hess]], _Augmented $\Gamma$-spaces, the stable rank filtration, and a $b u$-analogue of the Whitehead conjecture_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
  {#AroneHess}
 
 
