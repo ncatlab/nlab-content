@@ -18,7 +18,7 @@ More concretely, the tangent $(\infty,1)$-category $T_C \to C$ for $C = K^{op}$ 
 
 This generalizes -- as discussed at [[deformation theory]] -- the classical example of the [[bifibration]] [[Mod]] $\to$ [[CRing]] of the category of all [[module]]s over the cateory [[CRing]] of all commutative rings: 
 
-the fiber of the tangent $(\infty,1)$-category $T_C$ over an object $A \in C$ may be thought of as the $(\infty,1)$-category of **square-0-extensions** $A \oplus N$ of $A$, for $N$ a [[module]] over $A$. Dually, in $K = C^{op}$ we may think of these as being infinitesimal neighbourhoods of 0-sections of [[vector bundle]]s or rather of [[quasicoherent sheaves]] over whatever [[space]] $A$ is regarded to be the algebra of functions on.
+the fiber of the tangent $(\infty,1)$-category $T_C$ over an object $A \in C$ may be thought of as the $(\infty,1)$-category of **square-0-extensions** $A \oplus N$ of $A$, for $N$ a [[module]] over $A$. Dually, in $K = C^{op}$ we may think of these as being infinitesimal neighbourhoods of 0-sections of [[vector bundle]]s -- or rather of [[quasicoherent sheaves]] -- over whatever [[space]] $A$ is regarded to be the algebra of functions on.
  
 A remarkable amount of information about the geometry of these spaces/objects in $K$ is encoded in the fiber of the tangent $(\infty,1)$-category over them. Notably the [[left adjoint|left]] [[adjoint (∞,1)-functor]] 
 
@@ -97,7 +97,13 @@ $$
   C
 $$
 
-that is also a [[section]] of $p : T_C \to C$ in that $C \stackrel{\Omega}{\to} T_C \stackrel{p}{\to} C$ is equivalent to the identity on $C$.
+that is also a [[section]] of $p : T_C \to C$ in that 
+
+$$
+  (C \stackrel{\Omega}{\to} T_C \stackrel{p}{\to} C) \simeq Id_C
+$$ 
+
+and hence that $C$ is a [[retract]] of $T_C$.
 
 This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ the object $\Omega(A)$ is the [[cotangent complex]] of $A$.
 
@@ -109,6 +115,7 @@ This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ 
 This is [[Deformation Theory|DT, def. 1.1.2, remark 1.2.3]].
 
 =--
+
 
 ## References
 
