@@ -1150,7 +1150,7 @@ and call this the **topological [[geometric realization]]** of $X$, or just the 
 +-- {: .num_note #GeometricRealizationInTheLiterature}
 ###### Note
 
-In presentations of $\mathbf{H}$ by a [[model structure on simplicial presheaves]] as in prop. \ref{SimplicialPresheavesOverInfinityCohesviveSite} this abstract notion reproduces the notion of geometric realization of [[∞-stack]]s in ([Simpson](#Simpson)). See remark 2.22 in ([SimpsonTeleman](#SimpsonTeleman)).
+In presentations of $\mathbf{H}$ by a [[model structure on simplicial presheaves]] -- as discussed at [[∞-cohesive site]] -- this abstract notion reproduces the notion of geometric realization of [[∞-stack]]s in ([Simpson](#Simpson)). See remark 2.22 in ([SimpsonTeleman](#SimpsonTeleman)).
 
 =--
 
