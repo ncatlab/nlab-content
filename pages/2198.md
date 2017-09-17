@@ -36,7 +36,7 @@ Every proximity space is a [[topological space]]; let $x$ belong to the closure 
 
 Conversely, if $(X,\tau)$ is a completely regular topological space, then for any $A,B\subset X$ let $A\;\delta\;B$ iff $A\neq \emptyset\neq B$ and there is no continuous function $f:X\to I=[0,1]$ such that $f(x)=0$ on $A$ and $f(x)=1$ on $B$. This defines a proximity structure on $X$, which induces the topology $\tau$ on $X$, and which is separated iff $\tau$ is a Hausdroff (hence Tychonoff) topology.
 
-If $U$ is a uniformity on $Y$ (making it into a uniform space), then for all $A,B\subset Y$ let $A\delta B$ iff $V\cap (A\times B)\neq \emptyset$ for every entourage (aka vicinity) $V\in U$. This also defines a proximity structure on $Y$. The topology induced by the uniformity and the topology induced by the proximity structure are the same.
+If $U$ is a uniformity on $Y$ (making it into a [[uniform space]]), then for all $A,B\subset Y$ let $A\delta B$ iff $V\cap (A\times B)\neq \emptyset$ for every [[entourage]] (aka vicinity) $V\in U$. This also defines a proximity structure on $Y$. The topology induced by the uniformity and the topology induced by the proximity structure are the same.
 
 
 ## References
