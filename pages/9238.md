@@ -32,7 +32,7 @@ The following appears for instance as ([Gwilliam 2.6.2](#Gwilliam)).
 +-- {: .num_defn #FreeFieldTheory}
 ###### Definition
 
-A **free field theory** ([[local field theory|local]], [[Lagrangian]]) is the following data
+A **free field theory** ([[local quantum field theory|local]], [[Lagrangian]]) is the following data
 
 **[[kinematics]]**:
 
@@ -234,7 +234,7 @@ $$
 
 =--
 
-In ([Gwilliam](#Gwilliam)) this is construction 3.1.6, and section 5.3.3.
+In ([Gwilliam](#Gwilliam)) this is construction 2.4.9 (also construction 3.1.6, and section 5.3.3).
 
 +-- {: .num_defn #QuantumObservables}
 ###### Definition
@@ -256,18 +256,86 @@ In ([Gwilliam](#Gwilliam)) this is def. 5.3.9.
 
 ## Properties
 
-### The quantum observables
+### Characterization of the quantum observables
+
+We characterize the [[cochain complex]] $Obs^q$ of [[quantum observables]] of def. \ref{QuantumObservables} by an equivalent but small complex built from just the [[cochain cohomology]] of the [[elliptic complex]] of [[field (physics)|fields]] $(\mathcal{E}, Q)$.
+
+
++-- {: .num_defn #TheQuantumBVComplexOnTheCohomologyOfTheFieldComplex}
+###### Definition
+
+For $(E, Q, \langle -,-\rangle_{loc})$ a free field theory, def. \ref{FreeFieldTheory}, the global pairing constitutes a dg-[[symplectic vector space]] $(\mathcal{E}, Q, \langle -,-\rangle)$, which descends to the [[cochain cohomology]] to a graded symplectic vector space $(H^\bullet(\mathcal{E}, \langle -,-\rangle)$;
+hence by def. \ref{TheStandardBVLaplacian} there is a standard [[BV-Laplacian]] $\Delta_{H^\bullet\mathcal{E}}$. Write
+
+$$
+  \mathcal{BVQ}(H^\bullet \mathcal{E})
+  \coloneqq
+  ( Sym (H^\bullet(\mathcal{E}))^*, \Delta_{H^\bullet \mathcal{E}} )
+$$
+
+for the corresponding [[quantum BV-complex]].
+
+=--
+
+This is part of ([Gwilliam, prop. 2.4.10, prop. 5.5.1](#Gwilliam)),
+
+> Handle the following with care for the moment.
 
 +-- {: .num_prop}
 ###### Proposition
 
 For a free field theory $(E,Q,\langle-,- \rangle_{loc})$, def. \ref{FreeFieldTheory}, the complex of quantum observables $Obs^q$, def. \ref{QuantumObservables} is [[quasi-isomorphism|quasi-isomorphic]] to
+the BV-quantization of the cohomology of the field complex, given by def. \ref{TheQuantumBVComplexOnTheCohomologyOfTheFieldComplex}
 
-(...)
+$$
+  Obs^q
+  \simeq
+  \mathcal{BVQ}(H^\bullet(\mathcal{E}))
+  \,.
+$$
 
 =--
 
-In ([Gwilliam](#Gwilliam)), this is prop. 5.5.1.
+This is ([Gwilliam, prop. 5.5.1](#Gwilliam)).
+
+The proof is supposedly along the lines of ([Gwilliam, section 2.5](#Gwilliam)), applying the [[homological perturbation lemma]].
+
++-- {: .num_prop}
+###### Proposition
+
+The bracket $\{-,-\}$ on the complex of quantum observables $Obs^q$ of def. \ref{QuantumObservables} descends to a bracket on [[cochain cohomology]], making $(H^\bullet (Obs^q), \{-,-\})$ into a graded [[symplectic vector space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $a,b \in Obs^q$ be closed elements of homogeneous degree. Then by the compatibly of $\Delta$ with $\{-,-\}$ also $\{a,b\}$ is closed:
+
+$$
+  \Delta \{a,b\}
+  = 
+  \{\Delta a, b\} \pm \{a , \Delta b\} = 0
+  \,.
+$$
+
+Let in addition $c \in Obs^q$ be any element. Then
+
+$$
+  \begin{aligned}
+    \{a, b + \Delta c\}
+    &= 
+    \{a,b\} + \{a, \Delta c\}
+    \\ 
+    & = \{a,b\} + \Delta (a \cdot (\Delta b)) - (\Delta a)\cdot b   -a \cdot (\Delta^2 b)
+    \\
+    & = \{a,b\} + \Delta (a \cdot (\Delta b))
+  \end{aligned}
+$$
+
+and hence the cohomology class of $\{a,b\}$ is independent of the representative cocycle $b$, and similarly for $a$.
+
+=--
 
 ## Examples
  {#Examples}
