@@ -19,15 +19,22 @@
 
 ## Idea
 
-The concept of _$G$-spectrum_ (or $G$-equivariant spectrum) is the generalization of that of [[spectrum]] as one passes from [[stable homotopy theory]] to [[equivariant stable homotopy theory]], or more generally, as $G$ is allow to vary, of [[global equivariant stable homotopy theory]]. See there for more details.
+For $G$ a [[compact Lie group]] (or more generally a [[compact topological group]]) the concept of _$G$-spectrum_ (or _$G$-equivariant spectrum_) is the generalization of that of [[spectrum]] as one passes from [[stable homotopy theory]] to [[equivariant stable homotopy theory]], or more generally, as $G$ is allow to vary, of [[global equivariant stable homotopy theory]]. See there for more details.
 
-Where the ordinary concept of [[spectrum]] is given in terms of [[looping and delooping]] by ordinary [[spheres]], a $G$-spectrum for $G$ a suitable [[topological group]] is instead given by looping and delooping with respect to [[representation spheres]] of $G$, namely [[one-point compactifications]] of linear $G$-[[representations]].
+Where the ordinary concept of [[spectrum]] is given in terms of [[looping and delooping]] of ordinary [[topological spaces]] by ordinary [[spheres]], a $G$-spectrum is instead given by looping and delooping of [[topological G-spaces]] with respect to [[representation spheres]] of $G$, namely [[one-point compactifications]] of linear $G$-[[representations]], for all representations appearing in a chosen "[[G-universe]]".
 
-Equivalently, $G$-spectra are expressed by _[[Mackey functors]]_.
+Such a [[G-universe]] is called _complete_ if it contains every [[irreducible representation]] of $G$, and the spectra modeled on such a complete $G$-universe are the _genuine $G$-spectra_.
+Equivalently, genuine $G$-spectra are expressed as _[[Mackey functors]]_.
 
-Such $G$-spectra (or "genuine $G$-spectra", for emphasis) are richer than _[[spectra with G-action]]_ and have better homotopy-theoretic properties. The latter appear as the special case of $G$-spectra "for the trivial universe" and are also called _[[naive G-spectra]]_. To distinguish from that case for emphasis $G$-spectra are also called _genuine $G$-spectra_.
+At the other extreme, if the [[G-universe]] contains only the trivial representations, then the resulting spectra are the _[[spectra with G-action]]_, also called _[[naive G-spectra]]_ for emphasis of the distinction to the previous case.
+
+The genuine $G$-spectra are richer than _[[spectra with G-action]]_ and have better homotopy-theoretic properties. 
 
 ## Properties
+
+### Via excisive functors
+
+Characterization of $G$-spectra [via excisive functors]() on [[G-spaces]] is in ([Blumberg 05](#Blumberg05)).
 
 ### Relation to Mackey functors
 
@@ -44,10 +51,14 @@ Surveys and introductions include
 
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
-* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
+For more references see at _[[equivariant stable homotopy theory]]_ and at _[[Mackey functor]]_
 
-For more references see at _[[equivariant stable homotopy theory]]_.
+Characterization via [[excisive functors]] is in 
+
+* {#Blumberg05} [[Andrew Blumberg]], _Continuous functors as a model for the equivariant stable homotopy category_ ([arXiv:math.AT/0505512](http://arxiv.org/abs/math.AT/0505512))
+
 
 [[!redirects G-spectra]]
 
