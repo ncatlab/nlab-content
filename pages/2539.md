@@ -59,20 +59,20 @@ Let $X$ be a [[smooth manifold]] and let $\{g_i \in C^\infty(X)\}_{i = 1}^n$ be 
 
 =--
 
-This is lemma 2.1 in ([MoerdijkReyes](#MoerdijkReyes)).
+This is lemma 2.1 in Chapter I of ([MoerdijkReyes](#MoerdijkReyes)).
 
 +-- {: .un_prop}
 ###### Proposition
 
 If $\ell A \hookrightarrow \ell B$  is a closed
-sublocus of $\ell B$ then every morphism $\ell A \to A$
+sublocus of $\ell B$ then every morphism $\ell A \to R$
 extends to a morphism $\ell B \to R$
 
 
 
 =--
 
-This is prop. 1.6 in ([MoerdijkReyes](#MoerdijkReyes)).
+This is prop. 1.6 in Chapter II of ([MoerdijkReyes](#MoerdijkReyes)).
 
 +-- {: .proof}
 ###### Proof
