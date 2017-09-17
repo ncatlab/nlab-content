@@ -57,7 +57,9 @@ When the [[(∞,1)-category]] of all [[(n,r)-categories]] is presented by a [[mo
 
 For instance all in the standard [[model structure on simplicial sets]], or the standard [[model structure for quasi-categories]] all objects are cofibrant. 
 
+## Related concepts
 
+There are also geometric models for [[operad|operadic]] structures: _[[dendroidal sets]]_.
 
 [[!redirects geometric definition of higher categories]]
 [[!redirects geometric definitions of higher categories]]
