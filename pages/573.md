@@ -26,6 +26,8 @@ One definition building on that of [[(∞,1)-category]] in terms of [[complete S
 
 Due to this definition an $(\infty,n)$-category is an [[n-fold complete Segal space]].
 
+Another variant of this idea is _[[higher Segal spaces]]_.
+
 For each $n \in \mathbb{N}$, there is an $(\infty,1)$-category $(\infty,n)Cat$ of all $(\infty,n)$-categories. This is such that $(\infty,1)Cat$ is indeed equivalent to the [[(∞,1)-category of (∞,1)-categories]].
 
 See def. 1.3.6 in the above reference.
