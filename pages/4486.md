@@ -1,0 +1,1 @@
+ A map $f : X \to Y$ between [[manifold]]s is _differentiable_ if its first [[derivative]] $d f : T X \to T Y$ exists.
