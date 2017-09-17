@@ -26,7 +26,7 @@
 What is called _Verdier duality_  is the refinement of [[Poincaré duality]] from [[ordinary cohomology]] to [[abelian sheaf cohomology]]. 
 The Grothendieck [[six operations]] formalism is a formalization of aspects of Verdier duality.
 
-In general abstract formulation one says that a locally compact [[site]] $X$ (e.g. a [[locally compact topological space]]) _satisfies Verdier duality_ if there exists a [[derived functor|derived]] [[right adjoint]] $\mathbb{L}p^!$ to the operation $\mathbb{R}p_!$ of [[direct image with compact support]] for the terminal map $X \to \ast$. More generally, in the relative situation, for $f \colon X \to Y$ a map, Verdier duality of $f$ means that $\mathbb{R}f_!$ has a derived right adjoint. If here $X$ is a [[scheme]] and $f_! \simeq f_\ast$ coincides with the [[direct image]] ("[[Grothendieck context]]") then this is called _[[Grothendieck duality]]_. Therefore one often speaks of _Verdier-Grothendieck duality_. 
+In general abstract formulation one says that a locally compact [[site]] $X$ (e.g. a [[locally compact topological space]]) _satisfies Verdier duality_ if there exists a [[derived functor|derived]] [[right adjoint]] $\mathbb{L}p^!$ ([[exceptional inverse image]]) to the operation $\mathbb{R}p_!$ of [[direct image with compact support]] for the terminal map $X \to \ast$. More generally, in the relative situation, for $f \colon X \to Y$ a map, Verdier duality of $f$ means that $\mathbb{R}f_!$ has a derived right adjoint. If here $X$ is a [[scheme]] and $f_! \simeq f_\ast$ coincides with the [[direct image]] ("[[Grothendieck context]]") then this is called _[[Grothendieck duality]]_. Therefore one often speaks of _Verdier-Grothendieck duality_. 
 
 
 
