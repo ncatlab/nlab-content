@@ -27,6 +27,8 @@
 
 A _Boardman-Vogt resolution_ or _W-construction_ is a particular choice of cofibrant [[resolution]] of [[topological operads]] (or [[simplicial operads]] or similar). It is closely related to the operation of forming the [[dendroidal homotopy coherent nerve]]. Its restriction to [[Top]]-[[enriched categories]] / [[simplicial categories]] is accordingly closely related to the ordinary [[homotopy coherent nerve]].
 
+The construction is an variant of the _[[free operad]]_ construction, where the free composites of operations are further labeled by "distances" such that for vanishing distance the free composite is replaced with the actual composite.
+
 The original Boardman-Vogt resolution over [[Top]] generalizes naturally to a cofibrant [[resolution]] in the [[model structure on operads]] for operads enriched over any suitable [[monoidal model category]] that is equipped with a suitable [[comonoid|comonoidal]] [[interval object]]. In this general form the construction subsumes
 
 * the W-construction on topological operads ([BoardmanVogt](#BoardmanVogt));
@@ -43,13 +45,15 @@ The original Boardman-Vogt resolution over [[Top]] generalizes naturally to a co
 
 Over [[Top]] the BV-resolution works as follows:
 
-for $P$ a [[topological operad]], its [[free operad]] $F_*(P)$ has as $n$-ary operations all [[trees]] with $n$ inputs, with each vertex of valence $k+1$ labeled by an element in $P(k)$. Composition is given by [[grafting]] of trees.
+for $P$ a [[topological operad]], its [[free operad]] $F_*(P)$ has as $n$-ary operations all [[trees]] with $n$ inputs, with each vertex of valence $k+1$ labeled by an element in $P(k)$. Composition is given by grafting of trees.
 
 The operad $W(P)$ is obtained from this by in addition 
 
 * labeling the inner edges of any tree by [[real number]]s $\ell \in [0,1]$;
 
 * identifying trees one of whose edges has length 0 with the tree with that edge removed and with the correspnding operad-operation labels composed.
+
+* equipping the set of labeled trees with the corresponding quotient of the product topology, to make it into a [[topological space]].
 
 There is an evident operad morphism $F_*(P) \to W(P)$ obtained by regarding each edge of a tree as being of length 1, and there is an evident morphism $W(P) \to P$ obtained by forgetting all trees and sending their operad-operation-labels to their composite. 
 
