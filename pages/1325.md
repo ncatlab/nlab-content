@@ -52,6 +52,8 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
 
 ## Examples
 
+### Over single-coloured operads
+
 * an [[associative algebra]] is an algebra over the [[associative operad]].
 
   * an [[A-infinity algebra]] is an algebra over a cofibrant [[resolution]] of $Assoc$.
@@ -61,6 +63,14 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
   * an [[E-infinity algebra]] is an algebra over a cofibrant [[resolution]] of the commutative operad
 
 * etc.
+
+### Over coloured operads
+
+* There is a [[coloured operad]] $Mod_P$ whose algebras are pairs consisting of a $P$-algebra $A$ and a [[module]] over $A$;
+
+* For a single-coloured operad $P$ there is a coloured operad $P^1$ whose algebras are triples consisting of two $P$ algebras and a [[morphism]] $A_1 \to A_2$ between them.
+
+* Let $C$ be a set. There is a $C$-coloured operad whose algebras are $V$-[[enriched categories]] with $C$ as their set of objects.
 
 ## Related concepts
 
