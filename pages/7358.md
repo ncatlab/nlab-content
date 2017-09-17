@@ -4,7 +4,7 @@
 
 ## Idea
 
-A $\Gamma$-space is an [[∞-groupoid]] together with a multiplication that is unital, associative, and commutative up to all higher homotopies.  Homotopically, $\Gamma$-spaces are the same as $E_\infty$-[[E-infinity algebra|spaces]]: they represent [[infinite loop spaces]] and can thus be [[delooping|delooped]] infinitely many times to produce a [[connective spectrum]].  Where $\Gamma$-spaces differ from $E_\infty$-spaces is that their multiplication is specified [[geometric definition of higher categories|"nonalgebraically"]] rather than using an operad.
+A $\Gamma$-space is an [[∞-groupoid]] together with a multiplication that is unital, associative, and commutative up to all higher homotopies.  Homotopically, $\Gamma$-spaces are the same as $E_\infty$-[[E-infinity algebra|spaces]]: they represent [[infinite loop spaces]] and can thus be [[delooping|delooped]] infinitely many times to produce a [[connective spectrum]].  Where $\Gamma$-spaces differ from $E_\infty$-spaces is that their multiplication is specified [[geometric definition of higher categories|"nonalgebraically"]] rather than using an [[operad]].
 
 ## Definition
 
