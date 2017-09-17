@@ -244,6 +244,13 @@ Moving down and left the diagonals corresponds to _[[double dimensional reductio
 +-- {: .num_remark }
 ###### Remark
 
+The above table considers only $N=1$ superspace, hence that of [[11-dimensional supergravity]] and [[heterotic supergravity]], but not of [[type II supergravity]].
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
 What is missing in the table is the [[M5-brane]] in that top dimension. (See also [BPST](#BPST)).
 The reason is that the M5 corresponds to a 7-cocycle not on the ordinary [[super Poincaré Lie algebra]], but on its [[infinity-Lie algebra cohomology|L-infinity algebra extension]], the [[supergravity Lie 3-algebra]]. See the 7-cocycle at _[[supergravity Lie 6-algebra]]_.
 
