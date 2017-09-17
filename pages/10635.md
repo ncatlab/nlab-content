@@ -50,10 +50,27 @@ It suffices to show that a function $f:[0,1] \to {\mathbb{R}}$ with $f' = 0$ is 
 **(Proof of theorem \ref{StokesForInterval})**. Define a function $g:[0,1]\to {\mathbb{R}}$ by $g(x) = \int_0^x \! f'(t) \, {\mathrm{d}}t$. The uniform differentiability of $f$ implies that $f'$ is uniformly continuous. Hence we may apply the first part of the fundamental theorem of calculus to deduce that $g$ is uniformly differentiable with $g' = f'$. Since $g(0) = f(0)$, by the above lemma, we have $g = f$. In particular, $g(1) = f(1)$, which is the assertion of this theorem.
 =--
 
+## In synthetic differential geometry
+
+The fundamental theorem of differential calculus is an axiom of synthetic differential geometry, namely the Integration Axiom.
+
+
++-- {: .num_theorem #ConvMathOfFTC} 
+###### Theorem 
+Suppose that the ring object $R$ has a preordering compatible with its ring structure. Denoting $D$ for the infinitesimal interval, further assume that for any $g: D \to R$, there exists a unique $b\in R$ such that each $d\in D$ satisfies $g(d) = g(0) + db$ (this is Axiom 1 in Kock). Then the following are equivalent.
+1. **Integration axiom**. For $f: [0, 1]\to R$, there exists a unique $g:[0,1]\to R$ such that $g' = f$ and $g(0) = 0$.
+1. **Increasing function theorem**. For $f: [0, 1] \to R$, if $f' \ge 0$, then $f$ is increasing.
+1. **Law of bounded change**. For $f:[0,1] \to R$, if there exists $M_1$ and $M_2$ such that $M_1\le f' \le M_2$, then $M_1 \le f(1) - f(0) \le M_2$. 
+=--
+
+Suppose $f:[0,1] \to R$. The integration axiom gives a unique $g:[0,1] \to R$ such that $g' = f$ and $g(0) = 0$. We thus define the definite integral $\int_0^1 \! f(t) \, {\mathrm{d}}t$ as $g(1)$.
+
 ## References
 
 * Wikipedia, _[Fundamental theorem of calculus](http://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus)_
 
 * Mark Bridger and Gabriel Stolzenberg. The American Mathematical Monthly. Vol. 106, No. 7 (Aug. - Sep., 1999), pp. 628-635.
+
+* [[Anders Kock]], Synthetic Differential Geometry
 
 [[!redirects fundamental theorem of differential calculus]]
