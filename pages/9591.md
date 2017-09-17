@@ -1,0 +1,9 @@
+
+## References
+
+* Wikipedia, _[Equicontinuity](http://en.wikipedia.org/wiki/Equicontinuity)_
+
+[[!redirects equicontinuous functions]]
+
+[[!redirects equicontinuous map]]
+[[!redirects equicontinuous maps]]
