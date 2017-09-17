@@ -142,9 +142,15 @@ Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be t
 
 ### Ads/CFT
 
+#### Type II on $AdS_5 \times S^5$ and $d = 4$ super Yang-Mills
+
 Conjecturally, [[type II string theory]] on a [[anti-de Sitter space]] background is holographically dual to [[super Yang-Mills theory]] on the asymptotic boundary.
 
 See [[AdS/CFT correspondence]].
+
+#### M-theory on $AdS_7 \times S_4$ and 6d $(2,0)$-SCFT
+
+[[11-dimensional supergravity|M-theory]] on $AdS_7 \times S^4$ is supposed to have as holographic boundary the [[6d (2,0)-superconformal QFT]]. See there for references.
 
 
 
