@@ -2,12 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
-+-- {: .hide}
-[[!include category theory - contents]]
+#### Internal category theory
++--{: .hide}
+[[!include internal infinity-categories contents]]
 =--
 =--
 =--
+
+
 
 # Internal diagrams
 * table of contents
@@ -23,12 +25,12 @@ Compare the ideas discussed on this page with those at [[internal profunctor]] a
 
 ### In category theory
 
-Given $C\in Cat(E)$, with the usual structure maps $s,t,i,c$, an **internal diagram** $F$ on $C$ (or, of type $C$) is given by
+Given an [[internal category]] $C\in Cat(E)$, with the usual structure maps $s,t,i,c$, an **internal [[diagram]]** $F$ on $C$ (or, of type $C$) is given by
 
-* a morphism $d : F_0\to C_0$ in $E$ together with
+* a [[morphism]] $d : F_0\to C_0$ in $E$ together with
 * a morphism $e : F_1= F_0\times_{C_0} C_1 \to F_0$
 
-where $F_1$ is the pullback
+where $F_1$ is the [[pullback]]
 \[
 \array{
   F_0 \times_{C_0} C_1 & \to & F_0 \\
@@ -42,14 +44,19 @@ These data must satisfy the following conditions:
 
 * $e$ is an _action_ in the sense that $e \circ (1 \times i) = 1$ and $e(e \times 1) = e(1 \times c)$.
 
-It is clear how to define morphisms of internal diagrams: a morphism $F \to G$ is given by an $E/C_0$-morphism $F_0 \to G_0$ that commutes with the actions $e$. Internal diagrams on $C$ in $E$ form a category denoted by $E^C$.
+It is clear how to define [[homomorphisms]] of internal diagrams: a morphism $F \to G$ is given by an $E/C_0$-morphism $F_0 \to G_0$ that commutes with the actions $e$. Internal diagrams on $C$ in $E$ form a category denoted by $E^C$.
 
 An internal diagram on $C^{op}$ is sometimes called an **[[internal presheaf]]** on $C$.
 
 ### In dependent type theory
 
-Using the language of [[dependent type|dependent types]], the map $d: F_0 \to C_0$ can be seen as the interpretation of a dependent type $X:C_0 \vdash F(X):Type$. The action of $C_1$ on $F_0$ can equivalently be given by the interpretation of a closed term $p$ of type
-$$ \Pi_{X,Y:C_0} \Pi_{f:C_1(X,Y)} (F(X) \to F(Y)), $$
+Using the [[dependent type theory|language of]] [[dependent type|dependent types]], the map $d: F_0 \to C_0$ can be seen as the [[categorical semantics|interpretation]] of a dependent type $X:C_0 \vdash F(X):Type$. The action of $C_1$ on $F_0$ can equivalently be given by the interpretation of a closed term $p$ of type
+
+$$ 
+  \Pi_{X,Y:C_0} \Pi_{f:C_1(X,Y)} (F(X) \to F(Y))
+  \,,
+$$
+
 where we let $C_1$ depend on $C_0 \times C_0$ by the canonical morphism $C_1 \to C_0 \times C_0$ induced by $s$ and $t$.
 
 The axioms then take a particularly familiar form, to be interpreted in the [[internal language]] of $E$:
@@ -84,6 +91,9 @@ By the [[Yoneda lemma for bicategories]], the object $P$ determines (up to canon
 
 * If $E$ is equipped with a [[coverage]] and $C$ is the [[Cech nerve]] associated to a cover $p : U \to X$ in $E$, then the category of $C$-diagrams in $F$ is the [[descent]] category $Des_p(F)$.
 
+## Related concepts
+
+* [[diagram]], [[internal presheaf]]
 
 ## References
 
