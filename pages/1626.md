@@ -38,28 +38,49 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 ## Basic results {#basic}
 
-1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
++-- {: .num_remark} 
+###### Result
+The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
+=-- 
 
-1. [[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected. 
++-- {: .num_remark} 
+###### Result
+[[pushout|Wide pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Set$ commute with [[wide pullback]]s. More memorably: [[connected limit|connected colimits]] of connected spaces are connected. 
+=--
 
-1. An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. More discussion can be found at [[connected object]].) 
++-- {: .num_remark #3} 
+###### Result
+An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. Discussion of this point can be found at [connected object](http://ncatlab.org/nlab/show/connected+object#properties_14).)
+=--
 
-1. The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the [[intermediate value theorem]].)
++-- {: .num_remark} 
+###### Result
+The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the [[intermediate value theorem]].)
+=--
 
-1. If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected. 
++-- {: .num_remark} 
+###### Result
+If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overline{S}$ (i.e. if $T$ is between $S$ and its closure), then $T$ is connected.
+=--
 
 ## Exotic examples 
 
-The basic results above give a plethora of ways to construct connected spaces. More exotic examples are sometimes useful, especially for constructing counterexamples. 
+The [basic results](basic) above give a plethora of ways to construct connected spaces. More exotic examples are sometimes useful, especially for constructing counterexamples. 
 
 +-- {: .num_example} 
 ###### Example 
-The following, due to Bing, is a countable connected [[Hausdorff space]]. Let $Q = \{(x, y) \in \mathbb{Q} \times \mathbb{Q}: y \geq 0\}$, topologized by defining a basis of neighborhoods $N_{\epsilon, a, b}$ for each point $(a, b) \in Q$ and $\epsilon \gt 0$: 
+The following, due to [Bing](#Bing), is a countable connected [[Hausdorff space]]. Let $Q = \{(x, y) \in \mathbb{Q} \times \mathbb{Q}: y \geq 0\}$, topologized by defining a basis of neighborhoods $N_{\epsilon, a, b}$ for each point $(a, b) \in Q$ and $\epsilon \gt 0$: 
 
 $$N_{a, b} \coloneqq \{(a, b)\} \cup \{(s, 0) \in Q: {|a + b/\theta - s|} \lt \epsilon\} \cup \{(s, 0) \in Q: {|a - b/\theta - s|} \lt \epsilon\}$$ 
 
-where $\theta \lt 0$ is some chosen fixed irrational number. It is easy to see this space is Hausdorff (using the fact that $\theta$ is irrational). However, the _closure_ of $N_{\epsilon, a, b}$ consists of points $(x, y)$ of $Q \times Q$ with either $x - \epsilon \leq y/\theta \leq x + \epsilon$ or $x - \epsilon \leq -y/\theta \leq x + \epsilon)$, in other words, the union of two infinitely long strips of width $2\epsilon$ and slopes $\theta$, $-\theta$. Clearly any two such closures intersect, and therefore the space is connected. 
+where $\theta \lt 0$ is some chosen fixed irrational number. It is easy to see this space is Hausdorff (using the fact that $\theta$ is irrational). However, the _closure_ of $N_{\epsilon, a, b}$ consists of points $(x, y)$ of $Q \times Q$ with either $(x-a) - \epsilon \leq (y-b)/\theta \leq (x-a) + \epsilon$ or $(x-a) - \epsilon \leq -(y-b)/\theta \leq (x-a) + \epsilon$, in other words, the union of two infinitely long strips of width $2\epsilon$ and slopes $\theta$, $-\theta$. Clearly any two such closures intersect, and therefore the space is connected. 
 =-- 
+
++-- {: .num_example}
+###### Example 
+This example is due to [Golomb](#Golomb). Topologize the set of natural numbers $\mathbb{N}$ by taking a basis to consist of sets $A_{a,b} \coloneqq \{a k + b | k = 1,2, \ldots\}$, where $a, b \in \mathbb{N}$ are relatively prime. The space is Hausdorff, but the intersection of the closures of two non-empty open sets is never empty, so this space is connected. 
+=-- 
+
 
 ## Connected components
 
@@ -78,20 +99,61 @@ $$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$
 In this example, $Conn((0, 0)) = \{(0, 0)\}$, but $QConn((0, 0)) = \{(0, 0), (0, 1)\}$. 
 
 
-## Locally connected space
+## Locally connected spaces
+
+An entry point is given in the following remark/warning: 
 
 +-- {: .un_remark}
 ###### Warning
 
-It is not generally true that a space is the coproduct (in $Top$) of its connected components. For example, the connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the singletons, but the coproduct of the singleton subspaces carries the discrete topology; another example with this feature is the set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
+It is not generally true that a space is the coproduct (in $Top$) of its connected components, nor of its quasi-components. For example, the connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the singletons, but the coproduct of the singleton subspaces carries the discrete topology; another example with this feature is the set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
 =--
 
-Indeed, a space is the coproduct of its connected components precisely when it is **locally connected** (meaning that every point has a connected neighborhood). This occurs for example if there are only finitely many connected components (because then each connected component will be both closed and open).
++-- {: .un_defn}
+###### Definition 
+A space $X$ is **locally connected** if it is the coproduct (in $Top$) of its connected components. Equivalently, a space is locally connected if every point has a connected neighborhood. 
+=-- 
 
-For more on this see [[locally connected topos]].
+For example, a space with only finitely many connected components is locally connected (because then each connected component will be both closed and open). [[manifold|Topological manifolds]] are also locally connected. Notice that for locally connected spaces, connected components and quasi-components coincide. 
 
+Let $i \colon LocConn \hookrightarrow Top$ be the full inclusion of locally connected spaces. The following result is straightforward but useful. 
+
++-- {: .num_theorem #coref} 
+###### Theorem 
+$LocConn$ is a coreflective subcategory of $Top$, i.e., the inclusion $i$ has a right adjoint $R$. For $X$ a given space, $R(X)$ has the same underlying set as $X$, topologized as the coproduct (in $Top$) of the connected components of $X$. 
+=-- 
+
+Being a coreflective category of a complete and cocomplete category, the category $LocConn$ is also complete and cocomplete. Of course, limits and particularly _infinite_ products in $LocConn$ are not calculated as they are in $Top$; rather one takes the limit in $Top$ and _then_ retopologizes it according to \ref{coref}. (For _finite_ products of locally connected spaces, we can just take the product in $Top$ -- the result will be again locally connected.) 
+
+Let $\Gamma \colon LocConn \to Set$ be the underlying set functor, and let $\nabla, \Delta \colon Set \to LocConn$ be the functors which assign to a set the same set equipped with the codiscrete and discrete topologies, respectively. Let $\Pi_0 \colon LocConn \to Set$ be the functor which assigns to a locally connected space the set of its connected components. 
+
++-- {: .num_theorem} 
+###### Theorem 
+There is a string of adjoints 
+$$\Pi_0 \dashv \Delta \dashv \Gamma \dashv \nabla \colon Set \to LocConn$$ 
+and moreover, the functor $\Pi_0$ preserves finite products. 
+=-- 
+
+The proof is largely straightforward; we point out that the continuity of the unit $X \to \Delta \Pi_0$ is essentially equivalent to the defining property of being locally connected. As for $\Pi_0$ preserving finite products, write locally connected spaces $X$, $Y$ as coproducts of connected spaces 
+
+$$X = \sum_i C_i; \qquad Y = \sum_j D_j;$$ 
+
+then their product in $LocConn$ coincides with their product in $Top$, and is 
+
+$$X \times Y \cong \sum_{i, j} C_i \times D_j$$ 
+
+where each summand $C_i \times D_j$ is connected by Result \ref{3}. From this it is immediate that $\Pi_0$ preserves finite products. 
+
+For related discussions, see [[locally connected topos]], and also [[cohesive topos]]. 
+
+Finally, 
+
++-- {: .un_defn} 
+###### Definition 
 A space $X$ is **totally disconnected** if its connected components are precisely the singletons of $X$. 
+=-- 
 
+In other words, a space is totally disconnected if its coreflection into $LocConn$ is discrete. Such spaces recur in the study of [[Stone spaces]]. 
 
 ## Path-connectedness 
 
@@ -151,13 +213,27 @@ The functor $\hom(I, -) \colon Top \to Set$ preserves coproducts since $I$ is co
 
 ## Related concepts
 
-* [[locally connected topos]]
+* [[locally connected topos]] 
+
+* [[cohesive topos]] 
 
 * [[contractible topological space]]
 
 * [[almost connected topological group]]
 
 * A space in which the only connected subspaces are the singletons and the empty set is called [[totally disconnected space]].
+
+
+## References 
+
+Examples of countable connected Hausdorff spaces were give in 
+
+* R.H. Bing, A connected countable Hausdorff space, Proc. Amer. Math. Soc. 4
+(1953), 474.
+{#Bing} 
+
+* Solomon W. Golomb, Golomb, _A Connected Topology for the Integers_, Amer. Math. Monthly, Vol. 66 No. 8 (Oct. 1959), 663-665.
+{#Golomb}
 
 
 [[!redirects connected space]]
