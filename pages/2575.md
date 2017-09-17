@@ -265,9 +265,11 @@ One question that's been bugging me (Ben Webster) recently is what fills in the 
 Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?_  I'm inclined to think there must be one, as it seems that all of the knot homologies associated by Chern--Simons theory to representations have categorifications (I have a [mostly finished paper](http://math.mit.edu/~bwebster/KI-HRT.pdf) on this).  Presumably these all glue together into something, possibly by a similar trick to the Reshetikhin-Turaev construction of 3-manifold invariants, but it's not so easy for me to see how.
 
 
-## Related concepts
+### More related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
+
+  * [[higher dimensional Chern-Simons theory]]
 
 * [[sigma-model]]
 
