@@ -64,6 +64,10 @@ of the double Cartier dual with the original group scheme.
 
 * [[dual abelian group scheme]]
 
+* [[Picard scheme]]
+
+* [[Poincaré line bundle]]
+
 ## References
 
 A textbook account is for instance in section 10.1 of
