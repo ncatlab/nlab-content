@@ -107,6 +107,10 @@ $$
 The weak equivalences 
 $Mor_C(\Gamma^\bullet X, R Y) \stackrel{\simeq}{\to} diag Mor_C(\Gamma^\bullet X, \Lambda_\bullet Y) \stackrel{\simeq}{\leftarrow} Mor_C(Q X, \Lambda_\bullet Y)$ appear also as ([Hovey, prop. 5.4.7](#Hovey)).
 
+### In terms of zig-zags
+
+For the moment see _[[simplicial localization]]_.
+
 ### In terms of simplicial function complexes between cofibrant/fibrant objects 
  {#EnrichedHomsCofToFib}
 
