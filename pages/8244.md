@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 # $C^*$-coalgebras
 * table of contents
 {: toc}
