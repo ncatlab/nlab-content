@@ -19,7 +19,7 @@ $$
 (x)_k = x (x+1) (x+2)\cdots (x+ k-1)
 $$
 
-is the shifted factorial. It easily follows that $\Gamma(n+1) = n! for natural numbers $n = 0, 1, 2, \ldots$. 
+is the shifted factorial. It easily follows that $\Gamma(n+1) = n!$ for natural numbers $n = 0, 1, 2, \ldots$. 
 
 ## Properties 
 
