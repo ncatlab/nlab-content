@@ -273,7 +273,7 @@ By the above we have that [[CartSp]]${}_{smooth}$ is a [[dense sub-site]] of [[S
 +-- {: .un_cor}
 ###### Corollary
 
-The canonical embedding of [[smooth manifold]]s as [[0-truncated]] objects in $Smooth\inftyy Grpd$ is a [[full and faithful (∞,1)-functor]]
+The canonical embedding of [[smooth manifold]]s as [[0-truncated]] objects in $Smooth\infty Grpd$ is a [[full and faithful (∞,1)-functor]]
 
 $$
   SmoothMfd \hookrightarrow Smooth \infty Grpd
@@ -432,7 +432,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $X \in Sh(CartSp) \hookrightarrow Smooth \infty Grpd$ be a [[sheaf]] on $CartSp$. The condition for it to be concrete is that the 
+Let $X \in Sh(CartSp) \hookrightarrow Smooth \infty Grpd$ be a [[sheaf]] on $CartSp$. The condition for it to be concrete is that the [[unit of an adjunction|unit]]
 
 $$
   X \to coDisc \Gamma X
@@ -446,7 +446,23 @@ $$
   \infty Grpd(\Gamma U, \Gamma X)
 $$
 
-is a monomorphism of sets, where in the first step we used the [[(∞,1)-Yoneda lemma]] and in the last one the $(\Gamma \dashv coDisc)$-[[adjunction]]. This is manifestly the defining condition for [[concrete sheaves]] that define [[diffeological space]]s.
+is a monomorphism of sets, where in the first step we used the [[(∞,1)-Yoneda lemma]] and in the last one the $(\Gamma \dashv coDisc)$-[[adjunction]]. 
+
+That this morphism is indeed $\Gamma : Sh(U,X) \to Set(\Gamma(U), \Gamma(X)) \hookrightarrow \infty Grpd(\Gamma(U), \Gamma(X))$ follows by chasing the identity on $\Gamma X$ through the adjunction naturality square for any morphism $f : X \to X$
+
+$$
+  \array{
+    Set(\Gamma X, \Gamma X) &\stackrel{\simeq}{\to}&
+    Sh(X, coDisc \Gamma X)
+    \\
+    \downarrow^{\mathrlap{\Gamma(f)^*}} && \downarrow^{\mathrlap{f^*}}
+    \\
+    Set(\Gamma U, \Gamma X) &\stackrel{\simeq}{\leftarrow}& Sh(U, coDisc \Gamma X)
+  }
+  \,.
+$$
+
+So this is indeed the defining condition for [[concrete sheaves]] that defines [[diffeological space]]s.
 
 =--
 
