@@ -7,8 +7,13 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
