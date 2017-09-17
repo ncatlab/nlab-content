@@ -1,3 +1,4 @@
+
 # The fan theorem
 * table of contents
 {: toc}
@@ -52,6 +53,7 @@ In constructive mathematics, the fan theorem is equivalent to any and all of the
 *  As a [[locale]], [[Cantor space]] has enough points (is [[topological locale|topological]]).
 *  As a [[topological space]], Cantor space is [[compact space|compact]].
 *  As a topological space, the (located Dedekind) [[unit interval]] is [[compact space|compact]] (the [[Heine-Borel theorem|Heine–Borel theorem]]).
+*  As a topological space, the (located Dedekind) [[real line]] is [[locally compact space|locally compact]].
 *  Every [[uniformly continuous map|uniformly continuous]] function from Cantor space to the [[metric space]] $\dot{\mathbb{R}}^+$ of positive real numbers has a positive lower bound.
 *  Every [[uniformly continuous map|uniformly continuous]] function from the unit interval to $\dot{\mathbb{R}}^+$ has a positive lower bound.
 *  There exists a class of "kontinuous" [[partial functions]] from the set $\mathbb{R}$ of (located Dedekind) [[real numbers]] to itself (see Waaldijk) such that
@@ -63,8 +65,7 @@ In constructive mathematics, the fan theorem is equivalent to any and all of the
 
 It follows from any of these statements:
 *  The [[bar theorem]] holds.
-*  As a locale, [[Baire space]] has enough points.
-*  As a topological space, the [[unit interval]] is compact.
+*  As a locale, [[Baire space of irrational numbers|Baire space]] has enough points.
 *  Every pointwise-continuous function on Cantor space is uniformly continuous.
 *  Every pointwise-continuous function on the unit interval is uniformly continuous.
 
