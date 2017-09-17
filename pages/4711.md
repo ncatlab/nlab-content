@@ -27,4 +27,11 @@ A **Lie 2-groupoid** is a 2-[[truncated]] [[∞-Lie groupoid]].
 
 * For $X$ a smooth manifold, the [[path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(X)$ is a Lie 2-groupoid (a 2-groupoid internal to [[diffeological space]])s.
 
+## Related concepts
+
+
+* [[double Lie algebroid]], [[Lie algebroid-groupoid]], [[double Lie groupoid]]
+
+* [[higher differential geometry]]
+
 [[!redirects Lie 2-groupoids]]
