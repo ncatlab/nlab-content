@@ -404,6 +404,8 @@ See at _[[model structure for dendroidal complete Segal spaces]]_ the section _[
 
 ## Related concepts
 
+* [[semi-Segal space]], [[Segal space]]
+
 * [[model structure for complete Segal spaces]]
 
 * [[higher complete Segal space]], [[dendroidal complete Segal space]]
