@@ -436,6 +436,11 @@ An identification of boundary conditions and [[QFT with defects|defects]] as [[n
 
 See [[holographic principle of higher category theory]] for more on this.
 
+Further discussion of formalization in [[extended TQFT]] is in 
+
+* [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+
+
 [[!redirects holographic duality]]
 
 [[!redirects holography]]
