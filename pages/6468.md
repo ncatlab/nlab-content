@@ -42,6 +42,8 @@ A **K3 surface** is a [[Calabi-Yau variety]] of [[dimension]] $2$. This means th
 
 ## References
 
+* [[Daniel Huybrechts]], _Lectures on K3-surfaces_ ([pdf](http://www.math.uni-bonn.de/people/huybrech/K3Global.pdf))
+
 * [[Claire Voisin]], _<a href="http://www.ams.org/mathscinet-getitem?mr=2487743">Geometry of the Moduli Space of K3 surfaces</a>_ 
 
 * David Morrison, _[The geometry of K3 surfaces](http://www.cgtp.duke.edu/ITP99/morrison/cortona.pdf)_ Lecture notes (1988)
