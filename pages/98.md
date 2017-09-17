@@ -81,10 +81,10 @@ More generally, the $L_\infty$-algebra $b^n \mathfrak{u}(1)$ is the one whose CE
 
 ### Of $\mathfrak{su}(2)$
 
-The CE-algebra of $\}mathfrak{su}(2)$ has two generators $x, y, z$ in degree one and differential
+The CE-algebra of $\mathfrak{su}(2)$ has two generators $x, y, z$ in degree one and differential
 
 $$
-  d x_1 = x_2 \wegde x_3
+  d x_1 = x_2 \wedge x_3
 $$
 
 and cyclically.
@@ -103,7 +103,7 @@ $$
 
 ### Lie algebra cohomology
 
-[[Lie algebra cohomology]] of a $k$-[[Lie algebra]] $\mathfrak{g}$ with coefficients in the left $\mathfrak{g}$-module $M$ is defined as $H^*_{Lie}(\mathfrak{g},M) = Ext_{U\mathfrak{g}}^*(k,M)$. It can be computed as $Hom_{\mathfrak{g}}(CE(\mathfrak{g}),M)$ (a similar story is for [[Lie algebra homology]]).
+[[Lie algebra cohomology]] of a $k$-[[Lie algebra]] $\mathfrak{g}$ with coefficients in the left $\mathfrak{g}$-module $M$ is defined as $H^*_{Lie}(\mathfrak{g},M) = Ext_{U\mathfrak{g}}^*(k,M)$. It can be computed as $Hom_{\mathfrak{g}}(V(\mathfrak{g}),M)$ (a similar story is for [[Lie algebra homology]]) where $V(\mathfrak{g})=U(\mathfrak{g})\otimes\Lambda^*(\mathfrak{g})$ is the [[Chevalley-Eilenberg chain complex]]. If $\mathfrak{g}$ is finite-dimensional over a field then $Hom_{\mathfrak{g}}(V(\mathfrak{g}),k) =  CE(\mathfrak{g}) = \Lambda^* \mathfrak{g}^*$ is the underlying complex of the Chevalley-Eilenberg algebra, i.e. the [[Chevalley-Eilenberg cochain complex]] with trivial coefficients. 
 
 A [[cocycle]] in degree n of the [[Lie algebra cohomology]] of a [[Lie algebra]] $\mathfrak{g}$ with values in the trivial module $\mathbb{R}$ is a morphism of [[L-∞ algebra]]s
 
