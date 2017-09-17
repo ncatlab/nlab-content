@@ -219,6 +219,10 @@ A detailed discussion with emphasis on the correct [[anafunctor]] morphisms betw
 
 * [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) ([pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf))
 
+Discussion with emphasis on [[topos theory]] is in section V7 of 
+
+* [[Sauders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
 An introduction is also in
 
 * [[John Baez]], [[Alissa Crans]], _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
