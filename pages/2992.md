@@ -21,11 +21,14 @@ According to [[Ostrowski's theorem]] this are the only possibilities.
 Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although the completion $\mathbb{R}$ can.  (Probably the same holds for (3); I need to check.)
 
 
-## Related entries
+## Related concepts
 
 * [[natural number]]
 * [[integer]]
 * **rational number**
+
+  * a finite [[field extension]] of $\mathbb{Q}$ is called a _[[number field]]_
+   
 * [[algebraic number]]
 * [[Gaussian number]]
 * [[irrational number]]
