@@ -10,7 +10,7 @@ Some works of relevance for the $n$lab:
 
 * V. A. Lunts, [[Alexander Rosenberg|A. L. Rosenberg]], _Differential operators on noncommutative rings_, Selecta Math. (N.S.)  __3__  (1997),  no. 3, 335--359 ([doi](http://dx.doi.org/10.1007/s000290050014)); sequel: _Localization for quantum groups_, Selecta Math. (N.S.) __5__ (1999), no. 1, pp. 123--159 ([doi](http://dx.doi.org/10.1007/s000290050044)).
 
-* V. A. Lunts, [[Alexander Rosenberg|A. L. Rosenberg]], _Differential calculus in noncommutative algebraic geometry I. D-calculus on noncommutative rings_, MPI 1996-53 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3894), _II. D-Calculus in the braided case. The localization of quantized enveloping algebras_, MPI 1996-76 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3916)
+* V. A. Lunts, [[Alexander Rosenberg|A. L. Rosenberg]], _Differential calculus in noncommutative algebraic geometry I. D-calculus on noncommutative rings_, MPI 1996-53 [pdf](http://www.mpim-bonn.mpg.de/preblob/3894), _II. D-Calculus in the braided case. The localization of quantized enveloping algebras_, MPI 1996-76 [pdf](http://www.mpim-bonn.mpg.de/preblob/3916)
 
 * Alexander I. Efimov, Valery A. Lunts, [[Dmitri Orlov|Dmitri O. Orlov]], _Deformation theory of objects in homotopy and derived categories_ 
    * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
