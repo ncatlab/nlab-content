@@ -19,9 +19,9 @@
 
 ## Idea ##
 
-The _stabilization_ of an [[(∞,1)-category]] $C$ with finite [[limit]]s  is the [[free construction|free]]
+The _stabilization_ of an [[(∞,1)-category]] $C$ with [[finite (∞,1)-limits]]  is the [[free construction|free]]
 [[stable (∞,1)-category]] $Stab(C)$ on $C$. This is also called the $(\infty,1)$-category of
-[[spectrum object]]s  of $C$, because for the archetypical example where $C = $ [[Top]]
+[[spectrum objects]]  of $C$, because for the archetypical example where $C = $ [[Top]]
 the stabilization is $Stab(Top) \simeq Spec$ the category of [[spectrum|spectra]].
 
 There is a canonical [[forgetful functor|forgetful]] [[(∞,1)-functor]] $\Omega^\infty : Stab(C) \to C$ that remembers of a [[spectrum object]] the underlying object of $C$ in degree 0. Under mild conditions, notably when $C$ is a [[presentable (∞,1)-category]], this functor has a [[left adjoint]] $\Sigma^\infty : C \to Stab(C)$ that _freely stabilizes_ any given object of $C$.
@@ -48,31 +48,31 @@ Indeed, as the notation suggests, $\Omega^\infty \Sigma^\infty X$ may be thought
 
 ### Abstract definition
 
-Let $C$ be an [[(∞,1)-category]] with finite [[limit]]s and write
-$C_* := C^{{*}/}$ for its $(\infty,1)$-category of [[pointed object]]s, the
+Let $C$ be an [[(∞,1)-category]] with [[finite (∞,1)-limit]] and write
+$C_* := C^{{*}/}$ for its [[(∞,1)-category]] of [[pointed objects]], the
 [[undercategory]] of $C$ under the [[terminal object]].
 
 
 On $C_*$ there is the [[loop space object]] [[(infinity,1)-functor]] 
 $\Omega : C_* \to C_*$, that sends each object $X$ to the [[pullback]] of the
-point inclusion ${*} \to X$ along itself. Recall that if a $(\infty,1)$-category
-is stable, the loop object functor is an equivalence.
+point inclusion ${*} \to X$ along itself. Recall that if a $(\infty,1)$-category is stable, the [[loop space object]] functor is an equivalence.
 
 The _stabilization_ $Stab(C)$ of $C$ is the
-[[limit]] (in the [[(infinity,1)-category of (infinity,1)-categories]]) of the 
+[[(∞,1)-limit]] (in the [[(∞,1)-category of (∞,1)-categories]]) of the 
 tower of applications of the loop space functor
 
 $$
   Stab(C)
   =
-  \lim(
+  \underset{\leftarrow}{\lim}
+  \left(
     \cdots \to C_* \stackrel{\Omega}{\to} C_* \stackrel{\Omega}{\to} C_*
-  )
+  \right)
   \,.
 $$
 
 
-This is proposition 8.14 in [StabCat](http://arxiv.org/abs/math/0608228).
+This is ([StabCat, proposition 8.14](http://arxiv.org/abs/math/0608228)).
 
 The canonical functor from $Stab(C)$ to $C_*$ and then further, via the functor that
 forgets the basepoint, to $C$ is therefore denoted
