@@ -33,7 +33,7 @@ A _smooth manifold_ is a [[space]] that is _locally [[isomorphic]]_ to a [[Carte
 
 Traditionally, a _smooth manifold_ is defined as follows.
 
-#### As special topological manifolds
+#### As special topological manifold
 
 +-- {: .num_defn}
 ###### Definition
@@ -42,13 +42,12 @@ A [[manifold]] is a **smooth manifold** if its transition functions are [[smooth
 
 So a smooth manifold is a $C^k$-[[differentiable manifold]] for all $k$.
 
-A [[homomorphism]] of smooth manifolds is a [[smooth function]]s. Smooth manifolds and smooth functions form the category [[Diff]].
+A [[homomorphism]] of smooth manifolds is a [[smooth function]]. Smooth manifolds and smooth functions form the category [[Diff]].
 
 
 =--
 
-#### As special locally ringed spaces
-
+#### As special locally ringed space
 
 +-- {: .num_prop}
 ###### Proposition
@@ -59,17 +58,18 @@ A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X
 
 =--
 
+
 ### Patching as idempotent splitting
 
 In an exercise of his 1973 Perugia lectures [[F. William Lawvere]] reported a somewhat surprising observation:
 
 In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a category of open subsets of Euclidean spaces. More precisely:
 
-Let $Man$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ [[manifold]] without boundary.  Let $i: Open \hookrightarrow Man$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
+Let $Diff$ be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a finite-dimensional, second-countable, Hausdorff, $C^\infty$ [[manifold]] without boundary.  Let $i: Open \hookrightarrow Diff$ be the [[full subcategory]] whose objects are the [[open subspaces]] of finite-dimensional [[Cartesian spaces]]. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-The subcategory $i: Open \hookrightarrow Man$ exhibits $Man$ as an idempotent-splitting completion of $Open$. 
+The subcategory $i: Open \hookrightarrow Diff$ exhibits $Diff$ as an idempotent-splitting completion of $Open$. 
 =-- 
 
 +-- {: .proof} 
@@ -307,6 +307,10 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 A textbook reference is
 
 * John Lee, _[Introduction to Smooth Manifolds](http://www.math.washington.edu/~lee/Books/smooth.html)_, Springer Graduate Texts in Mathematics 218 ([pdf of chapter 1](http://www.math.washington.edu/~lee/Books/Smooth/c01.pdf))
+
+An algebraic approach to classical smooth manifolds with an eye toward physics is in
+
+* Jet Nestruev, _Smooth Manifolds and Observables_ , Springer LNM **220** Heidelberg 2003.
 
 Discussion of smooth manifolds as colimits of the Cech nerves of their good open covers is also at 
 
