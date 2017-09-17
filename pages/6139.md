@@ -108,10 +108,18 @@ $$
   \infty Grpd(\mathbf{H})
 $$
 
-between pointed connected objects in $\mathbf{H}$ and groupal [[A-∞ algebra]] objects in $\mathbf{H}$: [[∞-group]] objects in $\mathbf{H}$.
+between pointed connected objects in $\mathbf{H}$ and grouplike [[A-∞ algebra]] objects in $\mathbf{H}$: [[∞-group]] objects in $\mathbf{H}$.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+If the ambient [[(∞,1)-topos]] has [[homotopy dimension]] 0 then every connected object $E$ admits a point $* \to E$. Still, the [[(∞,1)-category]] of pointed connected objects differs from that of unpointed connected objects (because in the latter the [[natural transformation]]s may have nontrivial components on the point, while in the former case they may not).
+
+The connected objects $E$ which fail to be [[∞-group]]s by failing to admit a point are of interest: these are the _[[∞-gerbes]]_ in the [[(∞,1)-topos]].
+
+=--
 
 ### For cohesive $\infty$-groupoids
 
