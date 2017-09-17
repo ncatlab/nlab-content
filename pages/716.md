@@ -1,4 +1,10 @@
-A **compact closed category**, also called an **autonomous monoidal category**, is a [[symmetric monoidal category]] in which every object is [[dualizable object|dualizable]].  If we drop the symmetry requirement, we obtain a [[rigid monoidal category]].
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
+A **compact closed category**, or simply a **compact category**, is a [[symmetric monoidal category]] in which every object is [[dualizable object|dualizable]].
+
+If we drop the symmetry requirement, we obtain a [[rigid monoidal category]], a.k.a. an *autonomous category*.  Thus a compact category may also be called a **rigid symmetric monoidal category** or a **symmetric autonomous category**.  A maximally clear, but rather verbose, term would be a **symmetric monoidal category with duals for objects**.
 
 #References#
 
@@ -11,8 +17,10 @@ Also see section 2.1 in:
 * Peter Selinger, _Dagger compact closed categories and
 completely positive maps. [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf)_
 
-[[!redirects autonomous monoidal category]]
-[[!redirects autonomous category]]
 [[!redirects compact closed categories]]
-[[!redirects autonomous monoidal categories]]
-[[!redirects autonomous categories]]
+[[!redirects compact category]]
+[[!redirects compact categories]]
+[[!redirects symmetric monoidal category with duals for objects]]
+[[!redirects symmetric monoidal categories with duals for objects]]
+[[!redirects symmetric monoidal category with duals]]
+[[!redirects symmetric monoidal categories with duals]]
