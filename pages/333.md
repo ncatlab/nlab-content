@@ -68,6 +68,8 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[noncommutative motive]]
 
+* [[Riemann hypothesis and physics]]
+
 ## References
 
 ### General
