@@ -24,12 +24,24 @@ In this situation, $r$ is a [[split epimorphism]] and $i$ is a [[split monomorph
 
 ## Properties
 
-* Retracts are clearly preserved by any functor. 
+### General
+
++-- {: .num_remark #RetractsPreservedByFunctor}
+###### Remark
+
+Retracts are clearly preserved by any functor. 
+
+=--
 
 
-* A [[split epimorphism]] $r; B \to A$ is the strongest of various notions of [[epimorphism]] (e.g., it is a [[regular epimorphism]], in fact an [[abolute limit|absolute]] [[coequalizer]], being the coequalizer of a pair $(e, 1_B)$ where $e = i \circ r: B \to B$ is idempotent). Dually, a [[split monomorphism]] is the strongest of various notions of monomorphism. 
++-- {: .num_remark #SplitEpisAndMonos}
+###### Remark
 
-+-- {: .num_prop}
+A [[split epimorphism]] $r; B \to A$ is the strongest of various notions of [[epimorphism]] (e.g., it is a [[regular epimorphism]], in fact an [[abolute limit|absolute]] [[coequalizer]], being the coequalizer of a pair $(e, 1_B)$ where $e = i \circ r: B \to B$ is idempotent). Dually, a [[split monomorphism]] is the strongest of various notions of monomorphism. 
+
+=--
+
++-- {: .num_prop #RetractOfObjectWithLLP}
 ###### Proposition
 
 If an object $B$ has the [[left lifting property]] against a morphism $X \to Y$, then so does every of its retracts $A \to B$:
@@ -60,7 +72,8 @@ $$
 
 =--
 
-+-- {: .num_prop}
+
++-- {: .num_prop #RetractOfRepresentable}
 ###### Proposition
 
 Let $C$ be a [[category]] with [[split idempotent]]s and write $PSh(C) = [C^{op}, Set]$ for its [[presheaf category]]. Then a retract of a [[representable functor]] $F = PSh(C)$ is itself representable.
@@ -70,27 +83,160 @@ Let $C$ be a [[category]] with [[split idempotent]]s and write $PSh(C) = [C^{op}
 This appears as ([Borceux, lemma 6.5.6](#Borceux))
 
 
-+-- {: .num_prop #RetractsOfLimits}
+### Retracts of morphisms
+
+Let $\Delta[1] = \{0 \to 1\}$ be the [[interval category]]. For every category $C$ the [[functor category]] $[\Delta[1], C]$ is the [[arrow category]] of $C$.
+
++-- {: .num_prop #RetractsOfMorphismWithLiftingProperty}
 ###### Proposition
 
-Let $C$ and $J$ be categories. Let $F : J \to C$ be a [[diagram]] with [[limit]] ${\lim_\leftarrow}_j F_j$, regarded as a diagram 
-$\lim_\leftarrow F : J^{\triangleleft} \to C$. Then if $G : J^{\triangleleft} \to C$ is another such cone diagram and $G \stackrel{i}{\to} F \stackrel{p}{\to} G$ is a retraction, then also $G$ is a limiting diagram 
+Classes of morphisms in a category $C$ that are given by a left or right [[lifting property]] are preserved under retracts in the [[arrow category]] $[\Delta[1],C]$.
+
+=--
+
+This implies:
+
++-- {: .num_prop #RetractOfIso}
+###### Proposition
+
+In every category $C$ the class of [[isomorphism]]s is preserved under retracts in $[\Delta[1], C]$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We check the [[universal property]] of the limit: let $const Q \to G$ be any other [[cone]] over $G$. Then $const Q \to G \stackrel{i}{\to} F$ is a cone over $F$. So there is a unique morphism $const Q \to \lim_\leftarrow F$ and hence a cone morphism $const Q \to \lim_\leftarrow F \to G(*)$. Similarly one sees that this is unique, by the fact that $i$ is a monomorphism.
+This is also checked directly: for 
+
+$$
+  \array{
+    Id: & a_1 &\to& a_2 &\to& a_1
+    \\
+    & \downarrow && \downarrow && \downarrow
+    \\
+    Id: & b_1 &\to& b_2 &\to& b_1    
+  }
+$$
+
+a retract diagram and $a_2 \to b_2$ an isomorphism, the inverse to $a_1 \to b_1$ is given by the composite
+
+$$
+  \array{
+    &  & & a_2 &\to& a_1
+    \\
+    & && \uparrow && 
+    \\
+    & b_1 &\to& b_2 &&     
+  }
+  \,,
+$$
+
+where $b_2 \to a_2$ is the inverse of the middle morphism.
 
 =--
 
+
+### Retracts of diagrams
+ {#RetractsOfDiagrams}
+
+For the following, let $C$ and $J$ be categories and write $J^{\triangleleft}$ for the [[join of quasi-categories|join]] of $J$ with a single [[initial object]], so that [[functor]]s $J^{\triangleleft} \to C$ are precisely [[cone]]s over functors $J \to C$. Write
+
+$$
+  i : J \to J^{\triangleleft}
+$$
+
+for the canonical inclusion and hence $i^* F$ for the underlying diagram of a cone $F : J^{\triangleleft} \to C$. Finally, write $[J^{\triangleleft}, C]$ for the [[functor category]].
+
++-- {: .num_prop #RetractsOfLimits}
+###### Proposition
+
+If $Id: F_1 \hookrightarrow F_2 \to F_1$ is a [[retract]] in the category $[J^{\triangleleft}, C]$ and $F_2 : J^{\triangleleft} \to C$ is a [[limit]] [[cone]] over the [[diagram]] $i^* F_2 : J \to C$, then also $F_1$ is a limit cone over $i^* F_1$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We give a direct and a more abstract argument.
+
+**Direct argument**. We can directly check the [[universal property]] of the limit: for $G$ any other [[cone]] over $i^* F_1$, the composite $i^* G = i^* F_1 \to i^* F_2$ exhibits $G$ also as a cone over $i^* F_2$. By the pullback property of $F_2$ this extends to a morphism of cones $G \to F_2$. Postcompisition with $F_2 \to F_1$ makes this a morphism of cones $G \to F_1$. By the injectivity of $F_1 \to F_2$ and the universality of $F_2$, any two such cone morphisms are equals.
+
+**More abstract argument**. The limiting cone over a diagram $D : J \to C$ may be regarded as the right [[Kan extension]] $i_* D := Ran_i D$ along $i$
+
+$$
+  \array{   
+    J &\stackrel{D}{\to}& C
+    \\
+    {}^{\mathllap{i}}\downarrow & \nearrow_{i_* D}
+    \\
+    J^{\triangleleft}
+  }
+  \,.
+$$
+
+Therefore a cone $F : J^{\triangleleft} \to C$ is limiting precisely if the $(i^* \dashv i_*)$-[[unit of an adjunction|unit]]
+
+$$
+  F \stackrel{}{\to} i_* i^* F
+$$
+
+is an [[isomorphism]]. Since this unit is a [[natural transformation]] it follows that applied to the retract diagram
+
+$$
+  Id : F_1 \hookrightarrow F_2 \to F_1
+$$
+
+it yields the retract diagram
+
+$$
+  \array{
+    Id : & F_1 &\to& F_2 &\to& F_1
+    \\ 
+    & \downarrow && \downarrow && \downarrow
+    \\
+    Id : & i_* i^* F_1 &\to& i_* i^* F_2 &\to& i_* i^* F_1
+  }
+$$
+
+in $[\Delta[1], [J^{\triangleleft}, C]]$. Here by assumption the middle morphism is an isomorphism. Since isomorphisms are stable under retract, by prop. \ref{RetractOfIso}, also the left and right vertical morphism is an isomorphism, hence also $F_1$ is a limiting cone. 
+
+=--
+
+This argument generalizes form limits to [[homotopy limit]]s.
+
+For that, let now $C$ be a [[category with weak equivalences]] and write $Ho(C) : Diagram^{op} \to Cat$ for the corresponding [[derivator]]: $Ho(C)(J) := [J,C](W^J)^{-1}$ is the [[homotopy category]] of $J$-diamgrams in $C$, with respect to the degreewise weak equivalences in $C$.
+
++-- {: .num_cor #RetractOfHomotopyLimits}
+###### Corollary
+
+Let 
+
+$$
+  Id : F_1 \to F_2 \to F_1
+$$
+
+be a retract in $Ho(C)(J^{\triangleleft})$. If $F_2$ is a [[homotopy limit]] cone over $i^* F_2$, then also $F_1$ is a homotopy limit cone over $i^* F_1$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[derivator]] we have that 
+
+1. $i_* : Ho(C)(J) \to Ho(C)(J^{\triangleleft})$ forms [[homotopy limit]] cones;
+
+1. $F \to i_* i^* F$ is an isomorphism precisely if $F$ is a homotopy limit cone.
+
+With this the claim follows as in prop. \ref{RetractsOfLimits}.
+
+=--
 
 ## Examples
 
 ### Of simplices
 
-The includion of standard topological [[horn]]s into the topological [[simplex]] $\Lambda^n_k \hookrightarrow \Delta^n$ is a retract in [[Top]]. 
+The inclusion of standard topological [[horn]]s into the topological [[simplex]] $\Lambda^n_k \hookrightarrow \Delta^n$ is a retract in [[Top]]. 
 
 ### In arrow categories
 
