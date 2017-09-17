@@ -7,31 +7,30 @@
 
 In [[constructive mathematics]], a [[set]] $X$ has __decidable equality__ if any two elements of $X$ are either [[equality|equal]] or [[negation|not]] equal.  Equivalently, $X$ has decidable equality if its [[equality]] relation is a [[decidable subset]] of $X \times X$.  Sometimes one says that such a set $X$ is _discrete_, although of course this term has many meanings.  Of course, in [[classical mathematics]], every set has decidable equality.  But the concept generalises in [[sheaf and topos theory|topos theory]] to the notion of [[decidable object]].
 
-More generally, $X$ has __stable equality__ if any two elements of $X$ are equal if they are not unequal.  Equivalently, $X$ has stable equality if its equality relation is its own [[double negation]].  Every set with decidable equality must also have stable equality.
+More generally, $X$ has __stable equality__ if any two elements of $X$ are equal if (hence iff) they are [[double negation|not not]] equal.  Every set with decidable equality must also have stable equality, but not conversely.
 
 
 ## Applications
 
-Working with decidable subsets of sets with decidable equality makes constructive mathematics very much like classical mathematics.  This is why constructivism has few consequences for basic combinatorics and algebra (although it does have important consequences for more advanced topics in those fields).  In analysis, in contrast, constructivism matters right away, because the set of [[real numbers]] may not have decidable equality.  However, the set of [[located real numbers]] does have stable equality.
+Working with decidable subsets of sets with decidable equality makes constructive mathematics very much like classical mathematics.  This is why constructivism has few consequences for basic [[combinatorics]] and [[algebra]] (although it does have important consequences for more advanced topics in those fields).  In [[analysis]], in contrast, constructivism matters right away, because the set of [[real numbers]] may not have decidable equality.  (However, the set of [[located real numbers]] does have stable equality.)
+
 
 ## In type theory
 
 In [[type theory|type-theoretic]] foundations, the notion of decidable equality is slightly different depending on whether "or" is interpreted using [[propositions as types]] or [[propositions as some types]].  That is, decidable equality for $A$ could be either of the two types
-
 $$
 \begin{aligned}
   Decidable1(A) &\coloneqq \prod_{x,y\colon A} (x=y) + \neg (x=y)\\
   Decidable2(A) &\coloneqq \prod_{x,y\colon A} [(x=y) + \neg (x=y)]
 \end{aligned}
 $$
-
 where $[-]$ denotes a [[bracket type]].  Since every type maps to its bracket, $Decidable1(A)$ implies $Decidable2(A)$.
 
 On the other hand, if $Decidable2(A)$ holds and $A$ is an [[h-set]], i.e. it satisfies [[uniqueness of identity proofs]], then $(x=y)$ and $\neg (x=y)$ represent disjoint subobjects of $A\times A$.  Thus $(x=y) + \neg (x=y)$ is already a subobject of $A\times A$, so it is equivalent to its bracket, and $Decidable1(A)$ also holds.
 
 The converse of this is also true: if $Decidable1(A)$ holds, then not only does $Decidable2(A)$ also hold, but in fact $A$ is an h-set.  This was first proven by Michael Hedberg; a proof can be found at [[h-set]] and in the references below.  This fact is useful in [[homotopy type theory]] to show that many familiar types, such as the [[natural numbers]], are h-sets.
 
-For non-h-sets, the difference between $Decidable1$ and $Decidable2$ can be dramatic.  For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies $Decidable2$, but only the h-sets satisfy $Decidable1$.
+For non-h-sets, the difference between $Decidable1$ and $Decidable2$ can be dramatic.  For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies $Decidable2$ (which is what it means for the logic to be boolean), but only the h-sets satisfy $Decidable1$ (in accordance with Hedberg\'s theorem).
 
 
 ## References
