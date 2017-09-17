@@ -1,0 +1,3 @@
+Word soliton is coming as an abbreviation of "solitary wave".
+
+A **soliton solution** of a nonlinear wave equation is a solution whose large amplitude part is **localized in space** and is **asymptotically stable in time**. This asymptotic stability (non-damping and preservation of shape, up to translation) is typically a feature of an infinite number of conservation laws, and many models of equations allowing soliton solutions are in fact integrable systems (with infinitely many degrees of reedom). Soliton solution often combine to multisoliton solutions in a nonlinear way, with a period of interaction when they "meet", but after a passage of some time, the waves gradally uncouple and regain their original shape when outgoing to infinity.  
