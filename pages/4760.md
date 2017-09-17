@@ -19,7 +19,7 @@
 
 ## Idea
 
-The (unitary) _geometric nerve_ is a natural  [[nerve]] operation on [[bicategories]]. It is a [[functor]] from [[BiCat]] to [[sSet]]. This is also sometimes called the _Duskin nerbve_. The  notion is implicit in work by R. Street (1987). The direct approach was used by Duskin in work at about the same time, as explained in both articles. (Duskin's article directly on the idea was published in 2002.) 
+The (unitary) _geometric nerve_ is a natural  [[nerve]] operation on [[bicategories]]. It is a [[functor]] from [[BiCat]] to [[sSet]]. This is also sometimes called the _Duskin nerve_. The  notion is implicit in work by R. Street (1987). The direct approach was used by Duskin in work at about the same time, as explained in both articles. (Duskin's article directly on the idea was published in 2002.) 
 
 The construction, thus, yields a functor:
 
@@ -66,7 +66,7 @@ these are the lax 2-functors which strictly preserve identities. There are also 
 
 ## Example
 
-Any [[strict 2-category]] determines both a 'bicategory' in the above sense (since a 'strict' thing is also a 'weak' one)  and a simplicially enriched category.  The latter is found by taking the nerve of each 'hom-category'.  The Duskin nerve of a 2-category is the same as the [[homotopy coherent nerve]] of the corresponding $sSet$-category.  This can also be applied to [[2-groupoid]]s and results in a classifying space construction for [[crossed module]]s. 
+Any [[strict 2-category]] determines both a 'bicategory' in the above sense (since a 'strict' thing is also a 'weak' one)  and a simplicially enriched category.  The latter is found by taking the nerve of each 'hom-category'.  The Duskin nerve of a 2-category is the same as the [[homotopy coherent nerve]] of the corresponding $sSet$-category.  This can also be applied to [[2-groupoid]]s and, thus, results in a classifying space construction for [[crossed module]]s. 
 
 ## Related concepts
 
