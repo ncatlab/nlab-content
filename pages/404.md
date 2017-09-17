@@ -11,20 +11,32 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
+
+## Idea
+
+Every [[category]] $C$ gives rise to an _arrow category_ $Arr(C)$ such that the [[objects]] of $Arr(C)$ are the [[morphisms]] (or _arrows_, hence the name) of $C$.
+
 
 ## Definition
 
-For $C$ any [[category]], its **arrow category** is the [[functor category]]
+For $C$ any [[category]], its **arrow category** $Arr(C)$ is the category such that:
 
+* an [[object]] $a$ of $Arr(C)$ is a [[morphism]] $a\colon a_0 \to a_1$ of $C$;
+* a [[morphism]] $f\colon a \to b$ of $Arr(C)$ is a [[commutative square]]
+  $$ \array {
+     a_0 & \overset{f_0}\to & b_0 \\
+     \llap{a}\downarrow & & \rlap{b}\downarrow \\
+     a_1 & \underset{f_1}\to & b_1
+     } $$
+  in $C$;
+* [[composition]] in $C$ is given simply by placing commutative squares side by side to get a commutative oblong.
+
+Up to [[equivalence of categories|equivalence]], this is the same as the [[functor category]]
 $$
   Arr(C) := Funct(I,C) = [I,C] = C^I
 $$
-
 for $I$ the [[interval category]] $\{0 \to 1\}$.  $Arr(C)$ is also written $[\mathbf{2},C]$, $C^{\mathbf{2}}$, $[\Delta[1],C]$, or $C^{\Delta[1]}$, since $\mathbf{2}$ and $\Delta[1]$ (for the $1$-[[simplex]]) are common notations for the interval category.
-
-
-This means that the [[objects]] of $Arr(C)$ are the [[morphisms]] (the "arrows", therefore the name) of $C$, while the [[morphisms]] of $Arr(C)$ are pairs of $C$ morphisms constituting [[commuting diagram|commuting]] square [[diagrams]] in $C$. 
 
 
 ## Properties
