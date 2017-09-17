@@ -63,9 +63,14 @@ Superconformal invariance of $N=4$, $D=4$ SYM can be shown with the result of
 * Robert Leigh, [[Matthew Strassler]], _Exactly Marginal Operators and Duality in Four Dimensional N=1 Supersymmetric Gauge Theory_ ([arXiv:hep-th/9503121](http://arxiv.org/abs/hep-th/9503121))
 
 (after regarding it as $N=1$ SYM with three adjoint chiral [[superfield]]s).
+
 ### Planar sector and integrability
 
 A comprehensive discussion of the planar sector is in 
 
 * N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_ 
 Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
+
+### Scattering amplitudes
+
+For the moment see also at [[motivic multiple zeta values]].
