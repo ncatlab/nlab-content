@@ -414,6 +414,8 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 
 * [[twisted differential K-theory]]
 
+[[!include orientations in higher quantization - table]]
+
 
 ## References 
 
