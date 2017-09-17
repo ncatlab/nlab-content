@@ -189,7 +189,11 @@ This is in ([Cranch](#Cranch)). For more details see
 
 ## Related concepts
 
-* [[algebraic theory]] / [[Lawvere theory]] / [[2-Lawvere theory]] /  **$(\infty,1)$-algebraic theory**
+* [[algebraic theory]] / [[Lawvere theory]] / [[essentially algebraic theory]] 
+
+  * [[2-Lawvere theory]]  
+
+  *  **algebraic $(\infty,1)$-theory** / [[essentially algebraic (∞,1)-theory]]
 
 * [[monad]] / [[(∞,1)-monad]]
 
@@ -243,3 +247,6 @@ A discussion of [[E-∞ algebra]]-structures in terms of $(\infty,1)$-algebraic 
 [[!redirects (infinity,1)-algebraic theory]]
 [[!redirects (infinity,1)-algebraic theories]]
 [[!redirects (∞,1)-algebraic theories]]
+
+[[!redirects algebraic (∞,1)-theory]]
+[[!redirects algebraic (∞,1)-theories]]
