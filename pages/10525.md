@@ -23,7 +23,7 @@ The rightmost column is discussed at [[JLB-algebra]]; here we discuss the next-t
 
 ## Definitions
 
-Let $A$ be a [[Banach space]], typically over the [[real numbers]], but potentially over any [[topological field]] (or possibly even more general).  We will generally assume the real numbers, but some theorems 
+Let $A$ be a [[Banach space]], typically over the [[real numbers]], but potentially over any [[topological field]] (or possibly even more general).  We will generally assume the real numbers, and some theorems may rely on this, or at least on the divisibility of $2$ in the [[ground field]].
 
 +-- {: .num_defn}
 ###### Definition
