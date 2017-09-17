@@ -163,7 +163,7 @@ category) is $B^A \cong !A\multimap B$.
 ## References
 
 *  Girard, Jean-Yves, 'Linear logic'.  _Theoretical Computer
-   Science_ 50:1, 1987.
+   Science_ 50:1, 1987. [(link)](http://iml.univ-mrs.fr/~girard/linear.pdf)
 {#Girard}
 
 *  Seely, R. A. G., 'Linear logic, $*$-autonomous categories
