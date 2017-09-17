@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A refinement of the notion of [[covering dimension]].
+
+
+## Related concepts
+
+* [[dimension]]
+
+  * [[homotopy dimension]]
+
+  * [[cohomological dimension]]
+
+  * [[covering dimension]]
+
+  * **Heyting dimension**
+
+## References
+
+Section 7.2.4 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
