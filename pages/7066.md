@@ -19,19 +19,48 @@
 
 ## Idea
 
-For $(X, \omega)$ a [[symplectic manifold]], a **real polarization** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
+For a [[symplectic manifold]] $(X, \omega)$ regarded as the [[phase space]] of a [[physical system]], a choice of _polarization_ is, locally, a choice of decomposition of the [[coordinates]] on $X$ into "[[canonical coordinates]]" and "[[canonical momenta]]".
 
-After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **[[Bohr-Sommerfeld leaf]]** of a real polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]] with connection.
+The archtypical example is that where $X = T^* \Sigma$ is the [[cotangent bundle]] of a [[manifold]] $\Sigma$. In this case the canonical [[canonical coordinates]] are those parameterizing $\Sigma$ itself, while the canonical [[canonical momenta]] are coordinates on each [[fiber]] of the cotangent bundle.
 
-In [[geometric quantization]] the space of [[states]] is obtained as the subspace of the space of [[sections]] of a [[prequantum line bundle]] over a symplectic manifold consisting of _horizontal sections_, i.e. sections whose [[covariant derivative]] along the [[leafs]] of a real polarization is constant.
+But for general symplectic manifolds there is no such canonical choice of coordinates and momenta. Moreover, in general there is not even a global notion of canonical momenta. Instead, a choice of polarization is a [[foliation]] of phase space by [[Lagrangian submanifolds]] and
+
+* the "[[canonical coordinates]]" are coordinates on the corresponding [[leaf space]] (parameterizing the leaves);
+
+* the "[[canonical momenta]]" are coordinates along each leaf. If there is no _typical leaf_ then this is not a globally defined notion, only the polarization itself is.
+
+Locally this is a choice of [[coordinate patch]] $\phi : \mathbb{R}^{2n} \to X$ such that the [[symplectic form]] takes the form
+
+$$
+  \phi^* \omega = \sum_{i = 1}^n \mathbf{d} q^i \wedge \mathbf{d}p_i
+$$
+
+where the $\{q^i : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}\}$ are the canonical coordinates on the first $\mathbb{R}^n$-factor of the [[Cartesian space]] $\mathbb{R}^{2n}$, and where $\{p_o : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}\}$ are canonical coordinates  on the second $\mathbb{R}^n$-factor.
+
+Upon ([[geometric quantization|geometric]]) [[quantization]] of the physical system described by the [[symplectic manifold]] $(X, \omega)$ a [[quantum state]] is supposed to be a function on $X$ -- or rather a [[section]] of a [[prequantum line bundle]] which is a "wave-function that only depends on the canonical coordinates", not on the canonical momenta. In terms of polarizations this is formalized by saying that a [[space of states (in geometric quantization)|quantum state]] is a section which is [[covariant derivative|covariant constant]] along the [[leaves]] of the polarization (along the "momentum direction"). 
+
+After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **[[Bohr-Sommerfeld leaf]]** of a (real) polarization is a [[leaf]] on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]] with connection.
 
 ## References
 
-For instance section 5 of 
+For instance section 4 and 5 of 
+
+* [[Matthias Blau]], _Symplectic Geometry and Geometric Quantization_ ([[BlauGeometricQuantization.pdf:file]])
+ {#Blau}
+
+or section 5 of 
 
 * A. Echeverria-Enriquez, M.C. Munoz-Lecanda, N. Roman-Roy, C. Victoria-Monge, _Mathematical Foundations of Geometric Quantization_ Extracta Math. 13 (1998) 135-238 ([arXiv:math-ph/9904008](http://arxiv.org/abs/math-ph/9904008))
+
+
+or
 
 * Yuichi Nohara, _Independence of Polarization
 in Geometric Quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
 
+
+
 [[!redirects polarizations]]
+
+[[!redirects canonical coordinate]]
+[[!redirects canonical coordinates]]
