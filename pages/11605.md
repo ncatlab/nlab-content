@@ -243,7 +243,7 @@ $$
 
 The following says this in a [[complex analytic geometry|complex analytic]]-way that generalizes:
 
-+-- {: .num_prop}
++-- {: .num_prop #HodgeCyclesAsPullbackOfHolomorphic}
 ###### Proposition
 
 Equivalently the Hodge cohomology classes of def. \ref{HodgeCohomologyClasses} are given by the [[pullback]]
@@ -252,7 +252,7 @@ $$
   \array{
      Hdg^{k+1}(\Sigma) 
        &\longrightarrow& 
-     H^{2k+2}(\Sigma, (0 \to \Omega^{k+1} \stackrel{\partial}{\to} \cdots))
+     H^{2k+2}(\Sigma, \Omega^{\bullet \geq k+1})
      \\
      \downarrow && \downarrow
      \\
@@ -263,7 +263,7 @@ $$
   \,,
 $$
 
-where now in the top right we have the [[abelian sheaf cohomology|abelian sheaf]] [[hypercohomology]] with [[coefficients]] in the [[holomorphic de Rham complex]], truncated as indicated.
+where now in the top right we have the [[abelian sheaf cohomology|abelian sheaf]] [[hypercohomology]] with [[coefficients]] in the [[holomorphic de Rham complex]], truncated (but otherwise unshifted) as indicated.
 
 =--
 
@@ -291,13 +291,81 @@ Use prop. \ref{ReplacingHodgeFiltrationQuotientByHolomorphicConnections} and the
 
 =--
 
-+-- {: .num_prop #ReformulationOfDeligneTheorem}
-###### Proposition
 
++-- {: .num_remark #AsFiberOf0TruncationOnFractureSquare}
+###### Remark
 
-(...)
+The [[fiber product]]-incarnation of $Hdg^{k+1}(\Sigma)$ in prop. \ref{HodgeCyclesAsPullbackOfHolomorphic} is noteworthy in that it
+is analogous to the [[homotopy fiber]]-characterization of the 
+holomorphic [[Deligne complex]] itself.
+
+Consider the following [[diagram]] of [[sheaves of chain complexes]]
+on the site $SteinSp$ of [[Stein manifolds]] (see at _[[complex analytic ∞-groupoid]]_ for more on this):
+
+$$
+  \array{
+    \mathbb{Z}(p)[-2k-2]
+     && &&
+     \Omega^{\bullet \geq k+1}[-2k-2]
+     \\
+     & \searrow && \swarrow
+     \\
+     && \mathbb{C}[-2k-2]
+  }
+  \,.
+$$
+
+This is just of the form as discussed in some detail at _[[circle n-bundle with connection]]_ and also at _[[differential cohomology diagram]]_ in the section on _[Deligne coefficients](differential+cohomology%20diagram#DeligneCoefficients)_. In particular the [[homotopy limit]] over this diagram, hence the [[homotopy fiber]] of the two maps is a version of the [[Deligne complex]]
+
+$$
+  \array{
+     &&\mathbb{Z}(p)_D[-2k-2]
+     \\
+     && = 
+     \\
+     &&(\mathbb{Z}(p) \to \mathcal{O} \to \Omega^1 \to \cdots \to \Omega^{k} \to 0 \to \cdots)[-2k-2]
+     \\
+     & \swarrow && \searrow
+    \\
+    \mathbb{Z}(p)[-2k-2]
+     && (hpb) &&
+     \Omega^{\bullet \geq k+1}[-2k-2]
+     \\
+     & \searrow && \swarrow
+     \\
+     && \mathbb{C}[-2k-2]
+  }
+  \,.
+$$
+
+Since [[homotopy pullbacks]] are preserved by foming [[mapping spaces]] into them, this statement holds true after evaluating on $\Sigma$ (which produces the [[Cech cohomology|Cech-]][[Deligne complexes]]). Forming the [[n-truncated object of an (infinity,1)-category|0-truncation]] $\tau_0$ of the result gives the differential cohomology group $H^{2k+2}(\Sigma, \mathbb{Z}(k+1)_{D})$ 
+appearing in theorem \ref{DeligneTheorem}.
+
+Alternatively, first passing the 0-truncation of the diagram and then producing the pullback yields the Hodge cocycle group of prop. \ref{HodgeCyclesAsPullbackOfHolomorphic}.
+
+Accordingly, the statement of theorem \ref{DeligneTheorem} may equivalently be rephrased in the following more suggestive way:
+
+the intermediate Jacobian $J^{k+1}(\Sigma)$ is the [[fiber]] in
+
+$$
+  J^{k+1}(\Sigma)
+   \longrightarrow
+  \tau_0\left(
+     [\Sigma,\mathbb{Z}(p)[-2k-2]]
+     \underset{[\Sigma, \mathbb{C}[-2k-2]]}{\times}
+     \Omega^{\bullet \geq k+1}[-2k-2]
+  \right)
+  \longrightarrow
+  \tau_0 [\Sigma,\mathbb{Z}(p)[-2k-2]]
+   \underset{\tau_0 [\Sigma, \mathbb{C}[-2k-2]]}{\times}
+  \tau_0 [\Sigma, \Omega^{\bullet \geq k+1}[-2k-2]]
+  \,.
+$$
 
 =--
+
+This formulation of the intermediate Jacobian has a
+straightforward generalization from [[ordinary differential cohomology]] to [[differential cohomology|differential]] [[generalized (Eilenberg-Steenrod) cohomology]]. This we turn to [below](#GeneralDescripion).
 
 
 #### The Griffith complex structure
@@ -388,9 +456,11 @@ if $H$ has weight $2k+1$.
 ### General
  {#GeneralDescripion}
 
-(...)
+The formulation of the traditional intermediate 
+Jacobian by remark \ref{AsFiberOf0TruncationOnFractureSquare}
+above suggest the following generalization.
 
-With notation from _[[differential cohomology hexagon]]_.
+(We use notation from _[[differential cohomology hexagon]]_).
 
 Given any [[differential cohomology]] [[spectrum]] $\hat E$ (hence a [[spectrum object]]) in a [[cohesive (∞,1)-topos]] $\mathbf{H}$, it sits in its [[differential cohomology hexagon]] part of which is the [[homotopy pullback]]
 
