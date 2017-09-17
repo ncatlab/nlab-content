@@ -1,0 +1,3 @@
+Perlahan-lahan Elisya merapatkan kepalanya ke meja. Pen masih di tangan. Matanya terus tertutup apabila kepalanya mencecah ke atas buku catatan yang masih terbuka.
+ <a href="http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1989" >retro Jordan Trunner Dominate 1.5 Oscuro</a>
+[url=http://www.ramsay-street.com/Espana.asp?zapatillasNikeairjordan=1989]retro Jordan Trunner Dominate 1.5 Oscuro[/url]
