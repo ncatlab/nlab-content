@@ -443,6 +443,12 @@ In the case of general (commutative) schemes, every presheaf of $O_X$-modules wh
 
 ## Related concepts
 
+### General
+
+* [[coherent sheaf]]
+
+* [[Bondal-Orlov reconstruction theorem]]
+
 ### D-Modules
 
 The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasicoherent sheaves on the corresponding [[deRham space]].
