@@ -32,6 +32,4 @@ However, the two definitions do coincide for [[fibration in a 2-category|fibrati
 Discrete morphisms are often the right class of a [[factorization system in a 2-category|factorization system]].  This factorization system, or one related to it, plays a role in the construction of a [[proarrow equipment]] from [[codiscrete cofibrations]].
 
 [[!redirects discrete morphisms]]
-[[!redirects discrete object]]
-[[!redirects discrete objects]]
 
