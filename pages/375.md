@@ -95,6 +95,33 @@ In showing that a given category is cartesian closed, the following theorem is o
 If $C$ is cartesian closed, and $D\subseteq C$ is a [[reflective subcategory]], then the reflector $L\colon C\to D$ preserves finite [[products]] if and only if $D$ is an [[exponential ideal]] (i.e. $Y\in D$ implies $Y^X\in D$ for any $X\in C$).  In particular, if $L$ preserves finite products, then $D$ is cartesian closed.
 =--
 
+### Exponentials of cartesian closed categories
+
+The following observation was taken from a post of Mike Shulman at [MathOverflow](http://mathoverflow.net/questions/104152/exponentials-in-functor-categories/104178#104178). 
+
+If $\mathcal{C}$ is small and $\mathcal{D}$ is complete and cartesian closed, then $\mathcal{D}^{\mathcal{C}}$ is also complete and cartesian closed. Completeness is clear since limits in $D^C$ are computed pointwise. As for cartesian closure, we can compute exponentials in essentially the same way as for presheaves, motivated by $\mathcal{D}$-enriched category theory:
+$$
+G^F(x) = \int_{y\in \mathcal{C}} \prod_{\mathcal{C}(x,y)} G(y)^{F(y)}.
+$$
+Then we can compute
+<p>
+$$
+\array{
+  \mathcal{D}^{\mathcal{C}}\left(H,G^F\right)
+  &=& \int_{x\in \mathcal{C}} \mathcal{D}\left(H(x), G^F(x)\right)\\
+  &=& \int_{x\in \mathcal{C}} \mathcal{D}\left(H(x), \int_{y\in \mathcal{C}} \prod_{\mathcal{C}(x,y)} G(y)^{F(y)}\right)\\
+  &=& \int_{x\in \mathcal{C}} \int_{y\in \mathcal{C}} \prod_{\mathcal{C}(x,y)} \mathcal{D}\left(H(x), G(y)^{F(y)}\right)\\
+  &=& \int_{y\in \mathcal{C}} \mathcal{D}\left( \int^{x\in \mathcal{C}} \sum_{\mathcal{C}(x,y)} H(x), G(y)^{F(y)}\right)\\
+  &=&  \int_{y\in \mathcal{C}} \mathcal{D}\left(H(y), G(y)^{F(y)}\right)\\
+  &=&  \int_{y\in \mathcal{C}} \mathcal{D}\left(H(y)\times F(y), G(y)\right)\\
+  &=& \mathcal{D}^{\mathcal{C}}(H\times F, G).
+}
+$$
+</p>
+
+Here the antepenultimate step uses the [[co-Yoneda lemma]].  This appears to involve colimits in $\mathcal{D}$ as well, but the existence of these colimits is not actually an extra assumption: the co-Yoneda lemma tells us that $\int^{x\in \mathcal{C}} \sum_{\mathcal{C}(x,y)} H(x)$ _exists and is isomorphic to_ $H(y)$.
+
+Similarly, the above argument can be interpreted to say that even if $\mathcal{D}$ is not complete, then the exponential $G^F$ in $\mathcal{D}^{\mathcal{C}}$ exists if and only if the particular limits above exist, and in that case they are isomorphic.
 
 ## Related concepts
 
