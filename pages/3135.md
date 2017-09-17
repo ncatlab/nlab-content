@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -101,6 +101,8 @@ $$
 $U(1)$ is the [[circle group]].
 
 ## Related concepts
+
+* [[stable unitary group]]
 
 * The subgroup of unitary matrices with [[determinant]] equal to 1 is the [[special unitary group]]. The [[quotient]] by the [[center]] is the [[projective unitary group]].  The space of equivalence classes of unitary matrices under conjugation is the [[symmetric product of circles]].
 
