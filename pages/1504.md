@@ -387,9 +387,15 @@ For the moment see _[[WZW-type superstring field theory]]_ .
 
   * [[1d Chern-Simons theory]]
 
-  * [[Chern-Simons theory]]
+  * [[2d Chern-Simons theory]]
+
+  * [[3d Chern-Simons theory]]
+
+  * [[4d Chern-Simons theory]]
 
   * [[5d Chern-Simons theory]]
+
+  * [[6d Chern-Simons theory]]
 
   * [[7d Chern-Simons theory]]
 
