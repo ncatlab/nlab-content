@@ -12,7 +12,7 @@ Stone duality is a subject comprising various [[dualities]] between [[space and 
 
 ### Locales and frames
 
-Perhaps the most generality duality falling under this heading is that between [[locales]] (on the [[space]] side) and [[frames]] (on the [[quantity]] side).  Of course, this duality is not very deep at all; the category [[Loc]] of locales is simply *defined* to be the [[opposite category|opposite]] of the category [[Frm]] of frames.  But there are several interesting dualities between [[subcategories]] of these.
+Perhaps the most general duality falling under this heading is that between [[locales]] (on the [[space]] side) and [[frames]] (on the [[quantity]] side).  Of course, this duality is not very deep at all; the category [[Loc]] of locales is simply *defined* to be the [[opposite category|opposite]] of the category [[Frm]] of frames.  But there are several interesting dualities between [[subcategories]] of these.
 
 
 ### Topological spaces
