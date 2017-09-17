@@ -17,7 +17,8 @@
 
 ## Idea
 
-[[fiber integration|Fiber integration]] in [[ordinary differential cohomology]] is the partial [[higher parallel transport|higher]] [[holonomy]] operation for [[circle n-bundles with connection]]:
+The special case of [[fiber integration in differential cohomology]] for _[[ordinary differential cohomology]]_
+is the partial [[higher parallel transport|higher]] [[holonomy]] operation for [[circle n-bundles with connection]]:
 
 for $Y \to X$ a [[bundle]] of [[compact space|compact]] [[smooth manifolds]] $S$ of [[dimension]] $k$ and $[\nabla] \in H_{diff}^n(Y)$ a class in [[ordinary differential cohomology]] of degree $n$ on $Y$, its [[fiber integration]]
 
@@ -280,6 +281,8 @@ $$
 ## Related concepts
 
 * [[higher parallel transport]], [[higher holonomy]]
+
+* [[fiber integration in differential K-theory]]
 
 ## References
 
