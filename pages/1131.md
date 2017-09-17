@@ -206,9 +206,48 @@ $$L\star L' = \mathbb{L}(V\oplus V')/{I,I'}.$$
 
 The differential on $L\star L'$ is the unique Lie algebra derivation extending $\partial$ and $\partial'$.
 
-## Model category structure
+## Properties
+
+### Model category structure
 
 * [[model structure on dg-Lie algebras]]
+
+### Relation to simplicial Lie algebras
+
++-- {: .num_theorem}
+###### Theorem
+
+There is an [[adjunction]]
+
+$$
+  (N^* \dashv N) : LieAlg^\Delta \stackrel{\overset{N^*}{\leftarrow}}{\underset{N}{\to}}
+  dgLieAlg
+$$
+
+between [[simplicial Lie algebras]] and [[dg-Lie algebra]]s, where $N$ acts on the underlying simplicial vector spaces as the [[Moore complex]] functor.
+
+=--
+
+This is ([Quillen, prop. 4.4](#Quillen)).
+
++-- {: .num_theorem}
+###### Theorem
+
+The corresponding [[derived functors]] constitute an [[equivalence of categories]] between the corresponding [[homotopy categories]]
+
+$$
+  (L N^* \dashv \tilde N) 
+   : 
+  Ho(LieAlg^\Delta)_1 
+   \stackrel{\overset{L N^*}{\leftarrow}}{\underset{\tilde N}{\to}} Ho(dgLieAlg)_1
+$$
+
+of [[1-connected]] objects on both sides.
+
+=--
+
+This is in the proof of ([Quillen, theorem. 4.4](#Quillen)).
+
 
 
 ## Related concepts
@@ -220,7 +259,14 @@ The differential on $L\star L'$ is the unique Lie algebra derivation extending $
 
 ## References
 
-See the regerences at [[model structure on dg-Lie algebras]].
+A standard reference in the context of [[rational homotopy theory]] is
+
+* [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725))
+ {#Quillen}
+
+
+
+See also the regerences at [[model structure on dg-Lie algebras]].
 
 A discussion of how formal neighbourhoods of points in [[infinity-stack]]s are governed by dg-Lie algebras:
 
