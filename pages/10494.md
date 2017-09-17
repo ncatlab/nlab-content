@@ -319,6 +319,10 @@ exhibits $A$ as a [[differential cohomology]]-coefficient of the [[generalized c
 
 * [[twisted generalized cohomology]]
 
+* [[twisted bivariant cohomology]]
+
+* [[twisted smooth cohomology in string theory]]
+
 ## References
 
 The idea of forming $T_\ast \mathbf{H}$ as a home for nontrivial [[stable homotopy types]] was originally suggested by [[Joyal]], see the references at _[[tangent (infinity,1)-topos]]_.
@@ -327,6 +331,11 @@ Discussion of [[differential cohomology]] in $T_\ast Smooth \infty Grpd \simeq S
 
 * [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], to appear
   {#BunkeNikolausVoelkl13}
+
+The above discussion of geometric twisted generalized cohomology as cohomology in the tangent cohesive $\infty$-topos was presented in
+
+* [[Urs Schreiber]], talk at _[Twists, generalised cohomology and applications](http://wwwmath.uni-muenster.de/sfb/sfb878/2013/twists.html)_, October 2013 ([talk notes](twisted+smooth+cohomology+in+string+theory#LocalPrequantumFieldTheory))
+  {#SchreiberTwists2013}
 
 [[!redirects cohesive tangent (∞,1)-topos]]
 
