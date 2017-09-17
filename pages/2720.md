@@ -57,4 +57,14 @@ in particular, the lengths of curves in $M$ are necessarily comparable to the us
 
 * [[orthogonal structure]]
 
+* [[Riemannian manifold]], [[pseudo-Riemannian manifold]]
+
+* [[Levi-Civita connection]]
+
+## References
+
+An introduction in terms of [[synthetic differential geometry]] is in 
+
+* [[Gonzalo Reyes]], _Metrics, connections and curvature_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/metrics.pdf))
+
 [[!redirects Riemannian metrics]]
