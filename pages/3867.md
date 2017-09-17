@@ -20,3 +20,5 @@ of the ordinary torus (no boundary circle) to itself, which sends
 \]
 But the map $s_t$ doesn't seem to work if there is a boundary circle involved. Because an automorphism of $\Gamma_{1,1}$ is supposed to be the identity on the boundary circle, but the map $s_t$ isn't: it rotates the boundary circle a quarter rotation (right?). So how does the map $s$ work?
 
+
+category: reference
