@@ -1,15 +1,16 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Geometric quantization
-+--{: .hide}
++-- {: .hide}
 [[!include geometric quantization - contents]]
 =--
 =--
 =--
 
-
 ...[[coherent state]] in [[geometric quantization]]...
+
 
 ## References
 
@@ -17,3 +18,12 @@
 
 * Anatol Odzijewicz, _Coherent State Method in Geometric Quantization_, in Twenty Years of BialowiezA: a mathematical anthology, Aspects of Differential Geometric Methods in Physics_ (pp 47-78) 
 
+
+[[!redirects coherent state (in geometric quantization)]]
+[[!redirects coherent states (in geometric quantization)]]
+[[!redirects coherent state (in geometric quantisation)]]
+[[!redirects coherent states (in geometric quantisation)]]
+[[!redirects coherent state in geometric quantization]]
+[[!redirects coherent states in geometric quantization]]
+[[!redirects coherent state in geometric quantisation]]
+[[!redirects coherent states in geometric quantisation]]
