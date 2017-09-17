@@ -1,0 +1,13 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _homology localization_ is the formal dual of that of _[[cohomology localization]]_. For the moment see there for more.
+
+## Related concepts
+
+* [[quasi-isomorphism]]
+
