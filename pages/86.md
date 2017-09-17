@@ -749,9 +749,14 @@ Specifically, an observable is a closed element $f$ in the quantum BV-complex an
 Given a [[quantum BV-complex]] by def. \ref{BVQuantizationByBDAlgebra}
 its [[cochain cohomology]] is, by definition, a perturbation of that of its [[classical limit]] BV complex, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}. Accordingly, the quantum observables may be computed from the classical observables by the [[homological perturbation lemma]]. For [[free field theories]] this yields [[Wick's lemma]] and [[Feynman diagrams]] for computing observables. ([Gwilliam 2013, section 2.3](#Gwilliam)).
 
-
 =--
 
++-- {: .num_remark }
+###### Remark
+
+For local theories (...) [[gauge fixing operator]] (...) [[Hodge theory]] (...)
+
+=--
 
 (...)
 
