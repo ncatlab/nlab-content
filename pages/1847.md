@@ -16,7 +16,7 @@
 
 ## Definition 
 
-A [[topological space]] $X$ is called **paracompact** if every [[open cover]] $\{U_i \to X\}$ has a [[refinement]] by an open covering $\{V_j \to X\}$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many of the  open subsets $V_j$.
+A [[topological space]] $X$ is called **paracompact** if every [[open cover]] $\{U_i \to X\}$ has a [[refinement]] by an open covering $\{V_j \to X\}$ that is _[[locally finite cover|locally finite]]_, i.e. such that every point has a neighbourhood that intersects only finitely many of the  open subsets $V_j$.
 
 #### Terminological variants
 
