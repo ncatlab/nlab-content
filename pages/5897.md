@@ -1,2 +1,1 @@
-
-see [[Stephan Stolz]]
+&lt; [[Stephan Stolz]]
