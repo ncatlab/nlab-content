@@ -49,6 +49,12 @@
 
   * [[effective epimorphism]]
 
+## Morphisms
+
+* [[(∞,1)-geometric morphism]]
+
+* [[(∞,1)Toposes]]
+
 
 ## Extra stuff, structure and property
 
