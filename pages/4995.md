@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _cohesive $(\infty,1)$-topos_ is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$ that provides a context of generalized [[space]]s in which [[higher geometry]] makes sense. 
+A _cohesive $(\infty,1)$-topos_ is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$ that provides a context of generalized [[spaces]] in which [[higher geometry]] makes sense. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
 
 It is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $coDisc$: 
 
