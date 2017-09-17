@@ -1,4 +1,2 @@
 
-* [website](http://nd.edu/~stolz/)
-
-category: people
+see [[Stephan Stolz]]
