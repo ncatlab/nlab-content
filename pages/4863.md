@@ -70,9 +70,9 @@ $$
   \,.
 $$
 
-This is the infintiesimal form of a [[gauge transformation]]: an [[isomorphism]] in the [[groupoid of Lie algebra-valued forms]]. This means than _every_ functional $(g_{X \times F}) \mapsto S(g_{X\times f})$ that is invariant under [[diffeomorphism]]s will restrict on metrics of the above form to something that looks like an action functional for a [[gauge theory]] of the [[gauge field]] $A$.
+This is the infinitesimal form of a [[gauge transformation]]: an [[isomorphism]] in the [[groupoid of Lie algebra-valued forms]]. This means than _every_ functional $(g_{X \times F}) \mapsto S(g_{X\times F})$ that is invariant under [[diffeomorphism]]s will restrict on metrics of the above form to something that looks like an action functional for a [[gauge theory]] of the [[gauge field]] $A$.
 
-All this of course remains true if the product $X \times F$ is generalized to an [[associated bundle]] $E \to X$ with fiber $F$ to a $G$-[[principal bundle]] $P \to X$ (E = P \times_G F), in which case the decomposition of the metric applies locally.
+All this of course remains true if the product $X \times F$ is generalized to an [[associated bundle]] $E \to X$ with fiber $F$ to a $G$-[[principal bundle]] $P \to X$ ($E = P \times_G F$), in which case the decomposition of the metric applies locally.
 
 A [[pseudo-Riemannian manifold]] of this form $(E, g^KK_{E})$ for fixed _moduli_ $g_F$ is called a **Kaluza-Klein compactification** of the [[spacetime]] $E$. One also speaks of the effective spacetime $X$ as being obtained by **dimensional reduction** from the spacetime $E$.
 
@@ -96,9 +96,9 @@ The [[gauge group]] of the experimentally verified [[standard model of particle 
 
 In ([Witten](#Witten)) it was observed that the minimal [[dimension]] of a fiber $F$ for the KK-reduction on $F$ to yield gauge group $SU(3) \times SU(2) \times U(1)$ is 7 . This may be a meaningless numerical coincidence, but might be -- and was regarded as being -- remarkable: because it means that the minimum total dimension of a KK-compactification $X \times F$ that could yield a realistic model of observed physics is $4 + 7 = 11$. This is the uniquely specified dimensional of the maximal [[supergravity]] model: [[11-dimensional supergravity]].
 
-While there are many 7-dimensional manifolds $F$ that do yield the desired gauge group of the standard model, ([Witten](#Witten)) also shows that for none of them the remaining field content of the standard model -- the [[fermion]]s and the [[Higgs field]] -- do come out correctly.
+While there are many 7-dimensional manifolds $F$ that do yield the desired gauge group of the standard model, ([Witten](#Witten)) also shows that for none of them does the remaining field content of the standard model -- the [[fermion]]s and the [[Higgs field]] -- come out correctly.
 
-Largely due to this result the pure Kaluza-Klein ansatz is regarded nowadays as a non-viable way to reproduce the standard model of particle physics from a theory pure gravity. But one can further play with the idea and consider more flxible models that still exhibit the essence of KK-reduction in parts. 
+Largely due to this result the pure Kaluza-Klein ansatz is regarded nowadays as a non-viable way to reproduce the standard model of particle physics from a theory pure gravity. But one can further play with the idea and consider more flexible models that still exhibit the essence of KK-reduction in parts. 
 
 ### Reductions of type II supergravity
 
