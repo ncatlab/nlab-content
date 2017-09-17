@@ -369,6 +369,21 @@ The statement then follows with the "[stable Giraud theorem](stable%20%28infinit
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+The tangent $(\infty,1)$-category $T \inftyGrpd$ is itself 
+an [[(∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+With the above equivalence this is ([Joyal 08](#Joyal08)).
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -475,7 +490,12 @@ and section 7.3 of
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#LurieHigherAlgebra}
 
+The [[(infinity,1)-topos]] structure on tangent $(\infty,1)$-categories
+is discussed in 35.5 of
+
+* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  {#Joyal08}
+
 [[!redirects tangent (infinity,1)-categories]]
 [[!redirects tangent (∞,1)-category]]
 [[!redirects tangent (∞,1)-categories]]
-
