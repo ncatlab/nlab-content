@@ -28,6 +28,8 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 
 ## Definition
 
+### Dagger cateories
+
 A **dagger category** is a [[category]] $C$ equipped with a contravariant functor
 $$
   \dagger : C \to C
@@ -35,6 +37,68 @@ $$
 which is the identity on objects, and which satisfies $\dagger \circ \dagger = \mathrm{id}_C$.
 
 Note that regarded as an extra structure on categories, a dagger structure is [[evil]], since it imposes equations on objects.
+
+
+### The category of dagger-categories {#CatOfDagCats}
+
+A morphism $F : (C, \dagger) \to (D, \ddagger)$ of dagger-categories -- a **dagger-functor** -- is a [[functor]] $F : C \to D$ of the underlying categories, which commutes with the dagger-structures in that
+
+$$
+  F \circ \dagger = \ddagger \circ F
+  \,.
+$$
+
+A [[natural transformation]] between dagger-functors is just a natural transformation of the underlying functors. This makes the $\dagger$-[[functor category]] $[F,G]$ between two $\dagger$-functors $F,G : (C,\dagger) \to (D, \ddagger)$ itself naturally a $\dagger$-category:
+
+the adjoint of a natural transformation is given by the componentwise adjoint in $(D,\ddagger)$:
+
+for let $f : a \to b$ be a morphism in $C$, and 
+
+$$
+  \array{
+    F(a) &\stackrel{\eta_a}{\to}& G(a)
+    \\
+    \downarrow^{\mathrlap{F(f)}} && \downarrow^{\mathrlap{G(f)}}
+    \\
+    F(b) &\stackrel{\eta_b}{\to}& G(b)
+  }
+  \,,
+$$
+
+the naturality square of a natural transformation $\eta : F \to G$, then its $\ddagger$-adjoint 
+
+$$
+  \array{
+    F(a) &\stackrel{\eta_a^\ddagger}{\leftarrow}& G(a)
+    \\
+    \uparrow^{\mathrlap{F(f)^{\ddagger}}} 
+    && 
+    \uparrow^{\mathrlap{G(f)^{\ddagger}}}
+    \\
+    F(b) &\stackrel{\eta_b^{\ddagger}}{\leftarrow}& G(b)
+  }
+  \;\;\;
+  =
+  \;\;\;
+  \array{
+    F(a) 
+      &\stackrel{\eta_a^\ddagger}{\leftarrow}& 
+    G(a)
+    \\
+    \uparrow^{\mathrlap{F(f^\dagger)}} 
+     && 
+    \uparrow^{\mathrlap{G(f^\dagger)}}
+    \\
+    F(b) 
+     &\stackrel{\eta_b^{\ddagger}}{\leftarrow}&
+     G(b)
+  }
+$$
+
+is the corresponding naturality square on $f^\dagger: b \to a$ of the adjoint natural transformation $\eta^* : G \to F$ with components $\eta^*_a := (\eta_a)^{\ddagger}$. 
+
+...
+
 
 ## Examples
 
