@@ -15,7 +15,7 @@
 
 ## Idea
 
-__Predicate logic__, also called __$1$st-order logic__, is the usual sort of [[logic]] used in the [[foundations of mathematics]].  
+__Predicate logic__, also called __first-order logic__ and sometimes abbreviated __FOL__, is the usual sort of [[logic]] used in the [[foundations of mathematics]].  
 
 In contrast to [[0th-order logic]], we allow for [[variables]] in [[predicates]] [[bound variable|bound]] by _[[quantification|quantifiers]]_. This means that the [[categorical semantics]] of 1st order logic is given by _[[hyperdoctrines]]_.
 
@@ -46,3 +46,5 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 [[!redirects first order language]]
 [[!redirects first-order languages]]
 [[!redirects first order languages]]
+
+[[!redirects FOL]]
