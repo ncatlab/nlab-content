@@ -101,8 +101,7 @@ that sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \
 A **limit** well-order is a well-order $S$ whose successor map is a [[total function]]. 
 =-- 
 
-Similarly, one may define a successor [[functor]] on the [[category]] of well-ordered sets, taking $S$ to the well-order obtained by freely adjoining a (new) top element to $S$. 
-
+Similarly, one may define a successor [[functor]] on the [[category]] of well-ordered sets, taking $S$ to the well-order obtained by freely adjoining a (new) top element to $S$. Since this category (which is [[thin category|thin]]) can be regarded as itself a well-ordered [[proper class]], this is a special case of the successor operation above.  (Hence the ordinal of all ordinals is a limit ordinal.)
 
 
 [[!redirects well order]]
