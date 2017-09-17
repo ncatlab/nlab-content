@@ -441,6 +441,8 @@ The [[duality|dual]] notion is that of _[[singular cohomology]]_.
 
 ## References
 
+### General
+
 Lecture notes include
 
 * Rob Thompson, Len Evens , _[Topology notes](http://math.hunter.cuny.edu/~rthompso/topology_notes/)_ _Chapter 6, Singular homology_ ([pdf](http://math.hunter.cuny.edu/~rthompso/topology_notes/chapter%20six.pdf))
@@ -466,6 +468,11 @@ Discussion in the context of computing [[homotopy groups]] is in
 See also 
 
 * Wikipedia, _[Singular homology](http://en.wikipedia.org/wiki/Singular_homology)_
+
+### Examples and applications
+
+* [[Michael Barratt]], [[John Milnor]], _An example of anomalous singular homology_, Proceedings of the American Mathematical Society
+Vol. 13, No. 2 (Apr., 1962), pp. 293-297 ([JSTOR]( http://www.jstor.org/stable/2034486))
 
 [[!redirects singular chain]] 
 [[!redirects singular chains]] 
