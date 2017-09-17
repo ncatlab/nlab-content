@@ -41,7 +41,7 @@ One method that would solve a lot of that would be to have the SVGs as external 
 
 Another thing is that exported files can often contain a lot of "junk" (cafeful examination of my picture will reveal that it uses 5 decimal places; perhaps slightly over-accurate).  Some way of automatically trimming this down would be helpful.
 
-I think it's okay to add another step into your scheme, between the export and copying into Instiki, but it needs to be an easy one, say a script that modifies things a little to be acceptable to Instiki.  However, what that needs to do will only become apparent with a little experimentation.
+I think it's okay to add another step into your scheme, between the export and copying into Instiki, but it needs to be an easy one, say a script that modifies things a little to be acceptable to Instiki.  However, what that needs to do will only become apparent with a little experimentation. [loan modification](http://www.mycaal.com)
 
 [[Andrew Stacey]]
 
