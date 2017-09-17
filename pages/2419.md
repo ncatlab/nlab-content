@@ -36,7 +36,12 @@ such that
 
 by this definition, modular forms are not really functions on the upper half plane, but function on a [[moduli space]] of [[torus|tori]]. 
 
+## Links and references
 
+* Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School
+2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
+
+* wikipedia: [modular form](http://en.wikipedia.org/wiki/Modular_form)
 
 [[!redirects integral modular form]]
 [[!redirects topological modular form]]
