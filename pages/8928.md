@@ -60,6 +60,7 @@ The original computations are due to
 
 * [[Ashoke Sen]], _Extremal black holes and elementary string states_ ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
 
+
 * {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_ ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
 * Curtis Callan, [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
@@ -74,7 +75,10 @@ Reviews include
 
 * [[Barton Zwiebach]], chapter 22 of _A first course in string theory_
 
-* Joao Gomes, _Joao Gomes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
+* {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, extensive lecture notes ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
+
+
+* Joao Gomes, _Quantum entropy of supersymmetric black holes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
 
 More recent developments include
 
