@@ -76,3 +76,5 @@ the morphism $c\circ j : X\to C_1$, where $c: C_1\times_{C_0} C_1\to C_1$ is the
 
 [[!redirects discrete fibration]]
 [[!redirects discrete fibrations]]
+[[!redirects discrete opfibration]]
+[[!redirects discrete opfibrations]]
