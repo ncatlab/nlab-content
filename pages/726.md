@@ -1,3 +1,4 @@
+
 The book
 
 * [[Paul Taylor]],  _Practical Foundations of Mathematics_ ([web](http://www.paultaylor.eu/~pt/prafm/index.html))
@@ -11,10 +12,12 @@ It is [available online](http://www.PaulTaylor.EU/Practical-Foundations/index.ht
 A useful survey of some of the topics discussed there is also in
 
 * [[Paul Taylor]], _Foundations for computable topology_ ([web](http://www.paultaylor.eu/ASD/foufct/abstract.html))
- {#Taylor}
+ {#topology}
+
+which is an exposition of Taylor's [[Abstract Stone Duality]].
 
 
 category: reference
 
-
 [[!redirects Practical Foundations of Mathematics]]
+[[!redirects PFM]]
