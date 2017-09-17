@@ -45,3 +45,5 @@ The __[[topological interior|interior]]__ of any subspace $A$ is the largest ope
 [[!redirects open sublocales]]
 [[!redirects open nucleus]]
 [[!redirects open nuclei]]
+
+[[!redirects open]]
