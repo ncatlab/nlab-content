@@ -1,0 +1,82 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[T-duality]] and in particular of [[differential T-duality]] one considers (as discussed in detail there) [[fiber products]] of two [[torus]]-[[fiber bundles]] together with a [[circle 2-bundle]] on this, ([[circle n-bundle with connection|with connection]]). 
+
+In some disguise, this has been called _$B_n$-geometry_ ([Baraglia](#Baraglia)). The T-duality interpretation is made explicit in [Bouknegt](Bouwknegt)
+
+## Properties
+
+### Interpretation in higher differential geometry
+
+We give the interpretation of $B_n$-geometry in [[smooth infinity-groupoid|higher differential geometry]].
+
+For $c_{conn},c'_{conn} \colon X \to \mathbf{B}U(1)$ modulating two circle principal bundles with conection, a [[differential T-duality]] structure is a choice of trivialization of their [[cup product]] class. From this we get the [[pasting diagram]] of [[homotopy pullbacks]] of smooth $\infty$-stacks
+
+$$
+  \array{
+    P \times_X \hat P&\stackrel{\tau}{\to}& \mathbf{B}^2 U(1) &\to& *
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X 
+     &\to& 
+    fib(\cup) 
+     &\to& 
+    (\mathbf{B}U(1)) \times (\mathbf{B}U(1))
+    \\
+    &\searrow & \downarrow && \downarrow^{\mathrlap{\cup}}
+    \\
+    && * &\to& \mathbf{B}^3 U(1)
+  }
+  \,.
+$$
+
+Here $\tau$ is the morphism that modulates the circle 2-bundle on the fiber product of the two circle bundles.
+
+(...)
+
+## References
+
+The term $B_n$-geometry was introduced in
+
+* David Baraglia, _Leibniz algebroids, twistings and exceptional generalized geometry_ ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
+ {#Baraglia}
+
+A review is in
+
+* [[Nigel Hitchin]], talks at StringMath2012,  ([pdf](http://www.hcm.uni-bonn.de/fileadmin/stringmath2012/plenary_talks/03-Hitchin.pdf))
+ {#Hitchin}
+
+The relation to T-duality is made clear around slide 80 of
+
+* [[Peter Bouwknegt]], _Courant Algebroids and Generalizations of Geometry_, talk at StringMath2011 ([pdf](http://www.math.upenn.edu/StringMath2011/notes/Bouwknegt_StringMath2011_talk.pdf))
+ {#Bouwknegt}
+
+A discussion of the [[infinity-Lie theory|higher Lie theoretic]] aspects is in 
+
+* [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](http://arxiv.org/abs/1208.6048))
+
+[[!redirects geometry of type Bn]]
