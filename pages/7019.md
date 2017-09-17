@@ -31,6 +31,9 @@ The traditional counting is, however, offset by two. The correspondence between 
 [[!redirects homotopy level]]
 [[!redirects homotopy levels]]
 
+[[!redirects h-level]]
+[[!redirects h-levels]]
+
 [[!redirects h-level 0]]
 [[!redirects h-level 1]]
 [[!redirects h-level 2]]
