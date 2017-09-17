@@ -80,19 +80,19 @@ However, this doesn't mean that essential geometric morphisms are the "relative"
 ### Locally connected and connected {#Connected}
 
 
-A [[topos]] $E$ is called a [[connected topos]] if the [[right adjoint]] $LConst : Set \to E$ is a [[full and faithful functor]].
+A [[topos]] $E$ is called a [[connected topos]] if the [[left adjoint]] $LConst : Set \to E$ is a [[full and faithful functor]].
 
 
 +-- {: .un_prop}
 ###### Proposition
-If $\Gamma \colon E\to Set$ is a locally connected, topos, then it is als a [[connected topos]] -- in that $LConst$ is full and faithful -- if and only if the left adjoint $\Pi_0$ of the inverse image functor preserves the terminal object.
+If $\Gamma \colon E\to Set$ is a locally connected topos, then it is also a [[connected topos]] --- in that $LConst$ is full and faithful --- if and only if the left adjoint $\Pi_0$ of $LConst$ preserves the terminal object.
 =--
 +-- {: .proof}
 ###### Proof
 This is C3.3.3 in the [[Elephant]].
 =--
 
-Notice that for a locally connected topos that is also a connected topos the adjunction
+Notice that for a connected and locally connected topos, the adjunction
 
 $$
   Set \stackrel{\overset{\Pi_0}{\leftarrow}}{\hookrightarrow} E
@@ -105,12 +105,9 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
 
 * For $X$ a [[topological space]], the [[category of sheaves]] $Sh(X) := Sh(Op(X))$ is a locally connected topos precisely if $X$ is a [[locally connected space]]. The functor $\Pi_0$ sends a sheaf $F \in Sh(X)$ to the set of connected components of the coresponding [[etale space]].
 
-* For $C = $ [[CartSp]] the [[site]] of [[Cartesian space]] with their [[good open cover]] [[coverage]], we have that $Sh(CartSp)$ is locally connected.  An arbitrary $X \in Sh(CartSp)$ is sent to the [[colimit]] $\lim_\to X \in Set$. If $X$ is a [[diffeological space]] or even a [[smooth manifold]], then this is the set of connected components of the underlying topological space.
+* For $C = $ [[CartSp]] the [[site]] of [[Cartesian spaces]] with its [[good open cover]] [[coverage]], the topos $Sh(CartSp)$ is locally connected.  An arbitrary $X \in Sh(CartSp)$ is sent to the [[colimit]] $\lim_\to X \in Set$. If $X$ is a [[diffeological space]] or even a [[smooth manifold]], then this is the set of connected components of the underlying topological space.
 
-* Generally, if $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sheaves]], then the left adjoint $\Pi_0$ exists and is given by the [[colimit]] functor, by the defining property of the colimit as a left [[Kan extension]] of presheaves:
-
-  Write $L : PSh(C) \to Sh(C)$ for [[sheafification]] and assume that 
-  constant presheaves are sheaves. Then
+* Suppose that $C$ is a [[site]] such that constant [[presheaves]] on $C$ are [[sheaves]].  Then the left adjoint $\Pi_0$ exists and is given by the [[colimit]] functor: if we write $L : PSh(C) \to Sh(C)$ for [[sheafification]], then for any sheaf $X$, we have
 
   $$
     Hom_{Sh(C)}(X, L Const S)
@@ -123,6 +120,9 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
     \,.
   $$
 
+  In particular, this is the case if every covering [[sieve]] in $C$ is connected, i.e. $C$ is a [[locally connected site]].
+
+  If $C$ furthermore has a terminal object $1$, then the global sections functor $\Gamma\colon Sh(C)\to Set$ (the right adjoint of $LConst$) is simply given by evaluation at $1$, and so the unit $S \to \Gamma LConst S \cong LConst S(1)$ is an isomorphism.  Thus in this case $Sh(C)$ is additionally [[connected topos|connected]].  This situation also applies to $C=CartSp$.
 
 =--
 
