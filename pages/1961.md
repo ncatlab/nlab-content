@@ -160,6 +160,9 @@ See [[Frölicher space]] and [[diffeological space]] for the definitions in thei
 
 * [[Lie algebra]]
 
+[[!include infinitesimal and local - table]]
+
+
 ## References
 
 A textbook account of tangent bundles in the context of [[synthetic differential geometry]] is in 
