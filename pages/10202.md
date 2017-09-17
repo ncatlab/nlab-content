@@ -61,7 +61,10 @@ A _primitive recursive function_ is a function that belongs to the smallest clas
 
 Clearly the primitive recursive functions are a subclass of partial recursive functions. Notice that primitive recursive functions are not merely partial functions, but actual (*total*) functions. 
 
-Both the class of partial recursive functions and the class of primitive recursive functions yield [[Lawvere theories]] $Th(Comp)$ and $Th(PrimRec)$, where a morphism $k \to 1$ of the Lawvere theory is a function $\mathbb{N}^k \to \mathbb{N}$ belonging to the class. 
++-- {: .num_remark #Lawvere} 
+###### Remark 
+Both the class of partial recursive functions and the class of primitive recursive functions yield [[Lawvere theories]] $Th(Comp)$ and $Th(PrimRec)$, where a morphism $k \to 1$ of the Lawvere theory is a function $\mathbb{N}^k \to \mathbb{N}^1$ belonging to the class. It is straightforward to check that in either case, the generating object $1$ of the Lawvere theory (or $\mathbb{N}$ if you prefer) is a parametrized [[natural numbers object|NNO]] in that category: this is the essence of primitive recursion. 
+=-- 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -83,7 +86,7 @@ We may build up a stock of functions and relations that are primitive recursive 
 
 1. Therefore the equality relation ${|x-y|} = 0$ is a primitive recursive relation. So is $x \lt y$, being the relation "$y \stackrel{\cdot}{-} x$ doesn't equal zero". If $f$ is a (primitive) recursive function, then its graph defined by the relation $y = f(x)$ is a (primitive) recursive relation. 
 
-1. Similarly, if $R$ is a primitive recursive relation (so that its characteristic function $\chi_R$ is primitive recursive), then so is its negation $\neg R$, since $\chi_{\neg R} = \alpha(\chi_R)$. If $P$, $Q$ are primitive recursive relations, so is $P \wedge Q$, since $\chi_{P \wedge Q} = \chi_P \cdot \chi_Q$. Hence Boolean combinations of primitive recursive relations are primitive recursive. 
+1. (Boolean combinations) Similarly, if $R$ is a primitive recursive relation (so that its characteristic function $\chi_R$ is primitive recursive), then so is its negation $\neg R$, since $\chi_{\neg R} = \alpha(\chi_R)$. If $P$, $Q$ are primitive recursive relations, so is $P \wedge Q$, since $\chi_{P \wedge Q} = \chi_P \cdot \chi_Q$. Hence Boolean combinations of primitive recursive relations are primitive recursive. 
 
 1. If $f(x, y, \mathbf{z})$ and $h(y)$ are primitive recursive, so is 
 $$g(y, \mathbf{z}) \coloneqq \sum_{x=0}^{h(y)} f(x, y, \mathbf{z})$$ 
@@ -94,25 +97,25 @@ is primitive recursive since $\chi_Q(y, \mathbf{z}) = \prod_{x=0}^{y-1} \chi_R(x
 1. (Bounded least choice operator) If $R(x, y, \mathbf{z})$ is a primitive recursive relation and $h$ is a primitive recursive function, then the function $f(y, \mathbf{z})$ defined to be "the least $x \leq h(y)$ such that $R(x, y, \mathbf{z})$ if such $x$ exists, else $y$" is primitive recursive. Indeed, 
 $$f(y, \mathbf{z}) = [\sum_{x=0}^{h(y)} (x \cdot \chi_R(x, y, \mathbf{z}) \cdot (\prod_{w=0}^{x-1} \chi_{\neg R}(w, y, \mathbf{z}))] + y \cdot \prod_{x=0}^{h(y)} \chi_{\neg R}(x, y, \mathbf{z}).$$ 
 
-1. There is an isomorphism $\mathbb{N}^2 \to \mathbb{N}$ in the Lawvere theory $Th(PrimRec)$, i.e., there is a primitive recursive function $f: \mathbb{N}^2 \to \mathbb{N}$ with a primitive recursive inverse $g: \mathbb{N} \to \mathbb{N}^2$. The function $f$ can be taken to be 
+1. (Pairing and unpairing) There is an isomorphism $\mathbb{N}^2 \to \mathbb{N}$ in the Lawvere theory $Th(PrimRec)$, i.e., there is a primitive recursive function $f: \mathbb{N}^2 \to \mathbb{N}$ with a primitive recursive inverse $g: \mathbb{N} \to \mathbb{N}^2$. The function $f$ can be taken to be 
 $$f: (m, n) \mapsto \binom{m+n+1}{2} + n$$ 
 and the function $g$ can be described as taking $m$ to the pair 
 $$(a \stackrel{\cdot}{-} (y+2), m - \binom{a \stackrel{\cdot}{-} 1}{2})$$ 
 where $a$ is the least element less than $m+2$ such that $\binom{a}{2} \gt m$. By the aforementioned properties, this $g$ is manifestly primitive recursive. 
 
-As a consequence, there exist primitive recursive [[isomorphisms]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$. Since partial/primitive recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial/primitive recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $\mathbb{N} \to 1$ or $1 \to \mathbb{N}$ is recursive.) 
+As a consequence of this last property, there exist primitive recursive [[isomorphisms]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$. Since partial/primitive recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial/primitive recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $1 \to \mathbb{N}$ is recursive.) 
 
 +-- {: .num_remark} 
 ###### Remark 
-To show that $\mathbb{N}^2 \cong \mathbb{N}$ in the category of primitive recursive functions, it is not enough just to exhibit a primitive recursive bijection $f: \mathbb{N}^2 \to \mathbb{N}$, because it is not true that every primitive recursive bijection possesses a primitive recursive inverse. In other words, it is not true that the forgetful functor $Th(PrimRec) \to Set$ reflects isomorphisms. See example \ref{inverse} below. 
+To show that $\mathbb{N}^2 \cong \mathbb{N}$ in the category of primitive recursive functions, it is not enough just to exhibit a primitive recursive bijection $f: \mathbb{N}^2 \to \mathbb{N}$, because it is not true that every primitive recursive bijection possesses a primitive recursive inverse. In other words, it is not true that the forgetful functor $Th(PrimRec) \to Set$ (see Remark \ref{Lawvere}) reflects isomorphisms. See Example \ref{inverse} below. 
 =-- 
 
 +-- {: .num_remark} 
 ###### Remark 
-Similarly, it is not always true that if a graph of a function is a primitive recursive relation, then the function itself is primitive recursive. (For example, the graph of the Ackermann function is a primitive recursive relation.) However, we do have a sample theorem as follows. 
+Similarly, it is not always true that if a graph of a function is a primitive recursive relation, then the function itself is primitive recursive. (For example, the graph of the Ackermann function, discussed below, is a primitive recursive relation.) However, we do have a sample theorem as follows. 
 =-- 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #bound} 
 ###### Theorem 
 If a graph of a function $f$ is a primitive recursive relation, and if $f \leq g$ for some primitive recursive $g$, then $f$ is itself primitive recursive. 
 =-- 
@@ -159,9 +162,9 @@ For each $n$, we define a function $A_n: \mathbb{N} \to \mathbb{N}$ by
 where $f^m$ denotes the composition of $m$ copies of $f$. The **Ackermann function** $A: \mathbb{N} \to \mathbb{N}$ is defined by $A(m) = A_m(m)$. 
 =-- 
 
-We show that while each $A_n$ is primitive recursive, the function $A$ grows faster than any primitive recursive function on $\mathbb{N}$, hence is not itself primitive recursive. It does however belong to the class of partial recursive functions. (The key is that while 
+We show that while each $A_n$ is primitive recursive, the function $A$ grows faster than any primitive recursive function on $\mathbb{N}$, hence is not itself primitive recursive. It does however belong to the class of partial recursive functions. 
 
-It is easy to show that $A_0$ is primitive recursive. Supposing that $A_n$ is primitive recursive, $A_{n+1}$ is also primitive recursive because it satisfies the recursion $A_{n+1}(0) = 1$, $A_{n+1}(m+1) = A_n (A_{n+1}(m))$. 
+By property 1 above, $A_0$ is primitive recursive. Supposing that $A_n$ is primitive recursive, $\phi = A_{n+1}$ is also primitive recursive because it satisfies the recursion $\phi(0) = 1$, $\phi(m+1) = A_n (\phi(m))$. 
 
 By induction one may easily show $A_n(1) = 2$ for all $n$ and $A_n(2) = 4$ for all $n$. We have $A_{n+1}(3) = A_n(A_n(A_n(1))) = A_n(A_n(2)) = A_n(4)$ for all $n$. The function $A_1$ gives $n^{th}$ powers of $2$, the function $A_2$ gives tetrations (iterated exponentials stacked $n$ high) of $2$, the function $A_3$ gives iterated tetrations, and so on. 
 
@@ -171,7 +174,7 @@ Some routine inductions establish the following facts:
 
 +-- {: .num_lemma} 
 ###### Lemma 
-If $f: \mathbb{N}^k \to \mathbb{N}$ is primitive recursive, then there exists $n$ such that $f(x_1, \ldots, x_k) \leq A_n(\max \{3, x_1, \ldots, x_k\})$ for all $x_1, \ldots, x_k$. (We say $f$ is _dominated_ by $A_n$, for short.) 
+If $f: \mathbb{N}^k \to \mathbb{N}$ is primitive recursive, then there exists $n$ such that $f(x_1, \ldots, x_k) \leq A_n(\max \{3, x_1, \ldots, x_k\})$ for all $x_1, \ldots, x_k$. (We say $f$ is **dominated** by $A_n$, for short.) 
 =-- 
 
 +-- {: .proof} 
@@ -219,12 +222,12 @@ so that $f$ is dominated by $A_{n+3}$. This completes the proof.
 
 +-- {: .num_corollary} 
 ###### Corollary 
-The Ackermann function is not primitive recursive. 
+The Ackermann function $A$ is not primitive recursive. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-If it were recursive, then so would be the function $\phi: x \mapsto A_x(x) + 1$. In that case, $\phi$ is dominated by $A_n$ for some $n \geq 3$. We then arrive at the contradiction 
+If $A: x \mapsto A_x(x)$ were recursive, then so would be the function $\phi: x \mapsto A_x(x) + 1$. In that case, $\phi$ is dominated by $A_n$ for some $n \geq 3$. We then arrive at the contradiction 
 
 $$A_n(n) + 1 = \phi(n) \leq A_n(\max\{3, n\}) = A_n(n).$$ 
 =-- 
@@ -252,21 +255,50 @@ $$(x \gt 0) \wedge (y \gt 2) \wedge (x \lt z) \wedge \exists_{y_0, y_1, \ldots y
 
 where the quantifications are manifestly bounded by $z$. This shows that the ternary predicate $A_x(y) = z$ is primitive recursive. 
 
-From this it follows that relation $A_x(x) = z$ is also primitive recursive, as claimed. 
+From this it follows that the binary relation $A_x(x) = z$ is also primitive recursive, as claimed. 
 =-- 
 
-Combining this result with theorem \ref{graph}, we have 
+Combining this result with Theorem \ref{graph}, we have 
 
 +-- {: .num_corollary} 
-The Ackermann function $A$ is recursive. 
+###### Corollary
+The Ackermann function $A: x \mapsto A_x(x)$ is recursive. 
 =-- 
 
++-- {: .num_example #inverse} 
+###### Example 
+Here we exhibit a primitive recursive bijection whose inverse is not primitive recursive. The graph $y = A_x(x)$ of the Ackermann function is primitive recursive binary predicate, and the image $I = \{y: \exists_x y = A_x(x)\}$ is a primitive recursive unary predicate, because the existential quantifier is a bounded quantifier applied to a primitive recursive relation: 
+
+$$I = \bigvee_{x=0}^{y-1} [A_x(x) = y].$$ 
+
+Observe that both $I$ and its complement $\neg I$ in $\mathbb{N}$ are infinite. 
+
+For any infinite set $J \subseteq \mathbb{N}$, let $p_J: \mathbb{N} \to \mathbb{N}$ be the function taking $n$ to the $n^{th}$ element of $J$ (with respect to the usual order $\lt$). For example, $p_I(x) = A_x(x)$. Now define 
+a function $f: \mathbb{N} \to \mathbb{N}$ by 
+
+$$\array{
+f(m) & = & 2p_I^{-1}(m) & \text{if} \; m \in I \\ 
+     & = & 2p_{\neg I}^{-1}(m) + 1 & \text{if} \; m \in \neg I
+}$$ 
+
+Then $f(m) \leq 2m + 1$ and the graph of $f$ is primitive recursive, so by Theorem \ref{bound}, $f$ is a primitive recursive function. It is a bijection by construction. But $f^{-1}$ is not primitive recursive, because $f^{-1}(2x) = p_I(x) = A(x)$, and $A$ is not primitive recursive. 
+=-- 
+
+## Busy Beaver function 
 
 
 ## Related concepts
 
 * [[recursive subset]]
 * [[computable function]]
+
+## References 
+
+Quite a bit of the arrangement and proofs were taken from clear and useful lecture notes of Stephen Simpson, 
+
+* Stephen G. Simpson, Foundations of Mathematics (Lecture Notes), October 1, 2009. ([pdf](http://www.math.psu.edu/simpson/notes/fom.pdf)) 
+
+
 
 
 [[!redirects partial recursive function]]
