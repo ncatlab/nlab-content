@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Local rings
 * table of contents
 {: toc}
@@ -35,6 +45,10 @@ Local rings are often more useful than fields when doing mathematics [[internali
 
 In [[constructive mathematics]], one could do the same thing, but it\'s more common to use the notion of [[Heyting field]]. This is closely related, however; the quotients of local rings are precisely the Heyting fields (which are themselves local rings). In fact, one can define an [[apartness relation]] (like that on a Heyting field) in any local ring: $x \# y$ iff $x - y$ is invertible. Then the local ring is a Heyting field if and only if this apartness relation is [[tight relation|tight]].
 
+
+## Related concepts
+
+* [[localization of a commutative ring]]
 
 [[!redirects local ring]]
 [[!redirects local rings]]
