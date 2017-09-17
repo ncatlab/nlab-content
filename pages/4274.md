@@ -43,6 +43,7 @@ from the [[Thom spectrum]] of [[String bordism]] to the [[tmf]]-spectrum, also c
 [[!include genera and partition functions - table]]
 
 ## References
+ {#References}
 
 ### General
 
