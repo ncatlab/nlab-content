@@ -55,6 +55,10 @@ It is a matter of interest to interpret the double cosets directly as operators 
 
 To be continued... 
 
+## Related concepts
+
+* [[Iwahori–Hecke algebra]]
+
 ## References and links
 
 * sbseminar blog: interpreting the Hecke algebra [I](http://sbseminar.wordpress.com/2008/02/25/interpreting-the-hecke-algebra), [II](http://sbseminar.wordpress.com/2009/04/09/interpreting-the-hecke-algebra-ii-the-sheafification)
