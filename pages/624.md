@@ -156,7 +156,12 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 
 ## References
 
-Duals in a monoidal category are a very classical notion.  A large number of examples can be found in
+Duals in a monoidal category are a very classical notion. See, for instance,
+ 
+* James C. Becker and Daniel Henry Gottlieb, _A History of Duality in Algebraic Topology_, ([pdf](http://www.math.purdue.edu/~gottlieb/Bibliography/53.pdf)), from p. 5.
+
+
+A large number of examples can be found in
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
 
