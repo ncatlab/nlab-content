@@ -319,6 +319,10 @@ Given a [[locally cartesian closed category]] $C$, define the corresponding [[de
 
 (...)
 
+## Related concepts
+
+* [[computational trinitarianism]]
+
 
 ## References
 
