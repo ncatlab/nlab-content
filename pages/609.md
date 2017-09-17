@@ -24,3 +24,5 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 *  Many constructions on simplicial groups, such as that of its [[Moore complex]] carry over to simplicialy enriched groupoids without difficulty.
 
 [[!redirects simplicial groupoids]]
+[[!redirects simplicially enriched groupoids]]
+[[!redirects simplicially enriched groupoid]]
