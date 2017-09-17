@@ -1,0 +1,8 @@
+[[!redirects monoidal monads]]
+A **monoidal monad** is a [[monad]] in the [[2-category]] of [[monoidal category|monoidal categories]], [[lax monoidal functor|lax monoidal functors]], and monoidal transformations. 
+
+The notion of monoidal monad is equivalent to a suitable general notion of _commutative monad_, as discussed at [[commutative algebraic theory]]. We explore this connection in this article. 
+
+(To be continued.) 
+
+[[!redirects monoidal monads]]
