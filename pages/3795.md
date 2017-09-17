@@ -8,9 +8,11 @@ Its critical points are holomorphically flat connections: $F^{0,2}_A = 0$. One w
 
 Under the [[mirror symmetry]], the holomorphic bundles correspond to the [[Lagrangian submanifold]]s in the mirror, and the stability condition restricts the attention to the [[special Lagrangian submanifold]]s in the mirror. 
 
-A more general setup is given by [[Dominic Joyce]] and by Kontsevich and Soibelman. 
+A more general setup is given by Dominic Joyce and by Kontsevich and Soibelman. 
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315)
+
+* [[Dominic Joyce]], Yinan Song, _A theory of generalized Donaldson-Thomas invariants_, [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
 
 * S. Cecotti, [[Cumrun Vafa|C. Vafa]], _[[BPS state|BPS]] wall crossing and topological strings_, 
 [arXiv/0910.2615](http://arxiv.org/abs/0910.2615)
