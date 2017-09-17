@@ -96,20 +96,13 @@ This follows by general facts discussed at [[reflective sub-(∞,1)-category]].
 +-- {: .num_defn}
 ###### Definition
 
-For $n \in \mathbf{N}$ we say an object $X \in \mathbf{H}$ is 
-**$n$-concrete** if 
+We say an object $X$ is **$n$-concrete** if the canonical morphism 
+$X \to coDisc \Gamma X$ is [[n-truncated]].
 
-* it is [[n-truncated]];
+If a [[0-truncated]] object $X$ is $(-1)$-concrete, we call it just **concrete**.
 
-* the $(coDisc \dashv \Gama)$-[[unit of an adjunction|unit]]
-  $X \to coDisc \Gamma X$ is a $(n-1)$-[[truncated]] morphism.
-
-We say an object is **concrete** if the following recursive condition holds.
-
-* A 0-concrete object is concrete.
-
-* For $n \geq 1$ an $n$-concrete object $X$ is concrete if 
-  there exists an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $Y \to X$ such that $Y$ is $(n-1)$-concrete.
+Recursively, we say an [[n-truncated]] object $X$ is **concrete** if there is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $U \to X$ from a concrete 0-truncated $U$, such that
+the [[(∞,1)-pullback]] $U \times_X U$ is concrete.
 
 =--
 
@@ -122,7 +115,7 @@ a [[concrete sheaf]] in the traditional sense.
 
 =--
 
-> [[Dave Carchedi]] has an argument that shows, at least over some sites, that, generally, concrete objects are presented by simplicial concrete sheaves. Details will go here, evebtually.
+> [[Dave Carchedi]] has an argument that shows, at least over some sites, that, generally, concrete objects are presented by simplicial concrete sheaves. Details will go here, eventually.
 
 +-- {: .num_defn #NConcretfication}
 ###### Definition
