@@ -47,6 +47,10 @@ A relation of the [[U-duality]] symmetry to [[generalized complex geometry]] is 
 
 * Paulo Pires Pacheco, Daniel Waldram, _M-theory, exceptional generalised geometry and superpotentials_ ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
 
+A thesis reviewing some aspects is
+
+* Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
+
 
 [[!redirects type II supergravities]]
 
