@@ -33,4 +33,12 @@ So, a (2,1)-category is in particular modeled by
 
 * an [[(∞,1)-category]] that is 2-[[truncated]].
 
-[[!redirects (2,1)-categories]].
+## Related concepts
+
+* [[hom-groupoid]]
+
+* [[monoidal (2,1)-category]], [[symmetric monoidal (2,1)-category]]
+
+
+[[!redirects (2,1)-categories]]
+
