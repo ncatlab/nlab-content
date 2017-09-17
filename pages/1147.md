@@ -1,6 +1,10 @@
-This entry is about special properties of [[functor]]s on [[comma category|comma categories]].
+This entry is about special properties of [[functor]]s on [[comma category|comma categories]]. See also [[category of presheaves]].
 
-#Presheaves on over-categories and over-categories of presheaves#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Presheaves on over-categories and over-categories of presheaves
 
 Let $C$ be a [[category]], $c$ an [[object]] of $C$ and let $C/c$ be the [[over category]] of $C$ over $c$. Write
 $PSh(C/c) = [(C/C)^{op}, Set]$ for the category of [[presheaf|presheaves]] on $C/c$ and write
@@ -58,3 +62,10 @@ $
   C(d,c) \times F(d) 
 $
 and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure on presheaves]].
+
+
+## In higher category theory
+
+See also
+
+* [(∞,1)-category of (∞,1)-presheaves -- Interaction with overcategories](http://ncatlab.org/nlab/show/(infinity%2C1)-category+of+(infinity%2C1)-presheaves#interaction_with_forming_overcategories_19)
