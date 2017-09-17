@@ -5,7 +5,27 @@
 
 ## Idea
 
-The __quaternions__ form the largest [[associative algebra|associative]] [[normed division algebra]], usually denoted  $\mathbb{H}$ after [[William Rowan Hamilton]] (since $\mathbb{Q}$ is taken for the [[rational numbers]]).
+The __quaternions__ form the largest [[associative algebra|associative]] [[normed division algebra]], usually denoted  $\mathbb{H}$ after [[William Rowan Hamilton]] (since $\mathbb{Q}$ is taken for the [[rational numbers]]). 
+
+## Normed division algebra structure
+
+Concretely, the structure of $\mathbb{H}$ as an $\mathbb{R}$-[[associative unital algebra|algebra]] is given by a basis $\{1, i, j, k\}$ of the underlying [[vector space]] of $\mathbb{H}$, equipped with a multiplication table where $1$ is the [[identity element]] and otherwise uniquely specified by the equations 
+
+$$i^2 = j^2 = k^2 = i j k = -1,$$ 
+
+and extended by $\mathbb{R}$-linearity to all of $\mathbb{H}$. The norm on $\mathbb{H}$ is given by 
+
+$${\|\alpha\|}^2 = \alpha \widebar{\alpha}$$ 
+
+where given an $\mathbb{R}$-[[linear combination]] $\alpha = a 1 + b i + c j + d k$, we define $\widebar{\alpha} \coloneqq a 1 - b i - c j - d k$. A simple calculation yields 
+
+$${\|\alpha\|}^2 = a^2 + b^2 + c^2 + d^2$$ 
+
+whence for $\alpha \neq 0$, the multiplicative [[inverse]] is 
+
+$$\alpha^{-1} = \frac1{{\|\alpha\|}^2} \widebar{\alpha}.$$ 
+
+In this way $\mathbb{H}$ is a normed division algebra. 
 
 
 ## References
