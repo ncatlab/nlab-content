@@ -41,6 +41,10 @@ If the abelian group is the group of [[integers]] $\mathbf{Z}$ then we talk abou
 
 In [[algebraic geometry]] there are very important theorems due Chevalley, [[valuative criterion of properness]] and [[valuative criterion of separatedness]].
 
+## Related concepts
+
+* [[normed ring]]
+
 ## Literature 
 
 * wikipedia [valuation (algebra)](http://en.wikipedia.org/wiki/Valuation_%28algebra%29)
