@@ -17,6 +17,10 @@
 
 In the context of [[cosmology]], _cosmic inflation_ is a [[model (in theoretical physics)]] that can explain certain large-scale features of the [[observable universe]] (flatness, horizon problem, CMB anisotropy) by assuming a finite period of drastic expansion of the universe shortly after the [[big bang]]. Cosmic inflation is part of the [[standard model of cosmology]].
 
+The typical [[model (physics)|model]] of cosmic inflation adds to a standard [[FRW model]] simply a [[scalar field]] $\phi$ --  then called the **inflaton field** -- with standard kinetic term and some potential term. If the potential term is chosen suitably one can obtain solutions to [[Einstein's equations]] of this simple homogenous and isotropic model which exhibit "slow roll behaviour" for $\phi$, meaning that $\phi$ (homogeneous in space) starts out in the vicinity of the [[big bang]] with some finite value and then slowly "rolls down" its potential well (where one speaks in the analogy with the [[model (in theoretical physics)|model]] describing a single [[particle]] on the [[real line]] in the given potential, which has the same kind of [[action functional]]). Therefore in this "slow roll" period the contribution of $\phi$ to the [[FRW model]] is essentially that of a [[cosmological constant]] and so this drives the expansion of the "universe" in this model. But since $\phi$ is only approximately constant it eventually reaches the minimum of its potential well. Again, if the potential parameters of the model are chosen suitably one can arrange that it stays there (called the "graceful exit property" of the inflationary model) and so it stops driving the expansion of the "universe". In conclusion this yields variants of the [[FRW model]] that exhibit pronounced  expansion shortly after the initial singularity and then asymptote to the behaviour of the plain FRW model. This is what is called _cosmic inflation_.
+
+Simple as it is, this model has proven to successfully match the observations that it was designed to match (the large-scale homogeneity of the [[observable universe]], notably). But of course people are trying all kinds of variants, too. A central conceptual problem of most of these models is that it is unclear what the field $\phi$ should be in terms of [[particle physics]] or other known phyisics. In some variants it is identified with the [[Higgs field]], in other it is a scalar moduli field of some [[Kaluza-Klein compactification]], but all of this is speculative. 
+
 ## Details
 
 ### Old inflation
@@ -67,3 +71,7 @@ In the context of [[cosmology]], _cosmic inflation_ is a [[model (in theoretical
 * H.V.Peiris et al, _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Implications for Inflation_, Astrophys.J.Suppl.148:213,2003 ([arXiv:astro-ph/0302225](http://arxiv.org/abs/astro-ph/0302225))
 
 [[!redirects inflation]]
+
+[[!redirects inflaton field]]
+[[!redirects inflaton fields]]
+
