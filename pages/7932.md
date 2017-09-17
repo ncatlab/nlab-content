@@ -154,14 +154,14 @@ $$
     \bar \rho_2
   \simeq
    V_1\sslash G \times_{\mathbf{B}G} V_2 \sslash G
-  \,,
 $$
 
+in $\mathbf{H}$,
 with the product action being exhibited by the [[principal ∞-bundle]]
 
 $$
   \array{
-    V_1 \times V_2 &\to& \sum_{\mathbf{B}G}V_1\sslash G \times_{\mathbf{B}G} V_2 \sslash G
+    V_1 \times V_2 &\to& V_1\sslash G \times_{\mathbf{B}G} V_2 \sslash G
     \\
     && \downarrow^{\mathrlap{\overline{ \rho_1 \times \rho_2 }}}
     \\
@@ -174,14 +174,14 @@ Here the [[homotopy fiber]] on the left is identified as $V_1 \times V_2$ by usi
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #InternalHomAction}
 ###### Proposition
 
 For $\rho_1, \rho_2 \in Act(G)$ their [[internal hom]] $[\rho_1, \rho_2] \in Act_{\mathbf{H}}(G)$ is a $G$-action on the [[internal hom]] $[V_1, V_2] \in \mathbf{H}$. 
 
 =--
 
-+-- {: .proof}
++-- {: .proof }
 ###### Proof
 
 Taking fibers 
@@ -196,14 +196,13 @@ Therefore it preserves [[exponential objects]]:
 $$
   \begin{aligned}
     pt_{\mathbf{B}G}^* [\bar \rho_1, \bar \rho_2]
-    & \simeq
-    pt_{\mathbf{B}G}^* [V_1 \sslash G , V_2 \sslash G]_{\mathbf{B}G}
     &
     \simeq
-    [pt_{\mathbf{B}G}^* V_1 \sslash G, * pt_{\mathbf{B}G}^* V_2 \sslash G]
+    [pt_{\mathbf{B}G}^* \bar \rho_1, pt_{\mathbf{B}G}^* \bar \rho_2]
     \\
     & \simeq [V_1, V_2]
   \end{aligned}
+  \,.
 $$
 
 =--
@@ -223,7 +222,7 @@ $$
   }
 $$
 
-enocdes the [[adjoint action]] of $G$ on $[V_1, V_2]$ by pre- and post-composition of [[functions]] $V_1 \to V_2$ with the $G$-action on $V_1$ and on $V_2$, respectively.
+encodes the [[adjoint action]] of $G$ on $[V_1, V_2]$ by pre- and post-composition of [[functions]] $V_1 \to V_2$ with the $G$-action on $V_1$ and on $V_2$, respectively.
 
 (...)
 
@@ -238,6 +237,36 @@ enocdes the [[adjoint action]] of $G$ on $[V_1, V_2]$ by pre- and post-compositi
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $G \in Grp(\mathbf{H})$ be an [[∞-group]] in $\mathbf{H}$. 
 
 The following lists some fundamental classes of examples of $\infty$-actions of $G$, and of other canonical $\infty$-groups. By the discussion [above](#PropertiesOfGroupActionsInTopos) these actions may be given by the classifying morphisms.
+
+#### Trivial action
+
+Consider the [[etale geometric morphism]]
+
+$$
+  Act_{\mathbf{H}}(G) \coloneqq
+  \mathbf{H}_{/\mathbf{B}G}
+  \stackrel{\overset{p^* \coloneqq (-) \times \mathbf{B}G}{\leftarrow}}{\underset{}{\to}}
+  \,.
+$$
+
++-- {: .num_defn #TrivialAction}
+###### Definition
+
+For $V \in \mathbf{H}$ any object, the **trivial action** of $G$ on
+$V$ is $p^* V \in Act_{\mathbf{H}}(G)$, exhibited by the split fiber sequence
+
+$$
+  \array{
+    V &\to& V \times \mathbf{B}G
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+=--
 
 #### Fundamental action
 
@@ -282,6 +311,11 @@ $$
 $$
 
 #### Automorphism action
+ {#AutomorphismAction}
+
++-- {: .num_defn #AutomorphAction}
+###### Definition
+
 
 For $V \in \mathbf{H}$ any object, there is a canonical action of the 
 internal [[automorphism infinity-group]] $\mathbf{Aut}(V)$:
@@ -295,6 +329,38 @@ $$
     V//\mathbf{Aut}(V) &\to& \mathbf{B} \mathbf{Aut}(V)
   }
 $$
+
+=--
+
+#### General covariance
+
+Let $X \in \mathbf{H}$ be a [[moduli infinity-stack]] for 
+field in a [[gauge theory]] or [[sigma-model]]. Let $\Sigma \in \mathbf{H}$ be the corresponding [[spacetime]] or [[worldvolume]], respectively. 
+
+We have the automorphism action, def. \ref{AutomorphAction}
+
+$$
+  \array{
+     \Sigma &\to& \Sigma \sslash \mathbf{Aut}(\Sigma)
+      \\
+      && \downarrow
+      \\
+      && \mathbf{B} \mathbf{Aut}(\Sigma)
+  }
+  \,.
+$$
+
+The slice $\mathbf{H}_{/\mathbf{Aut}(\Sigma)} = Act_{\mathbf{H}}(\mathbf{Aut}(\Sigma))$ is the context of types which are _[[general covariance|generally covariant]]_ over $\Sigma$.
+
+On $X$ consider the trivial $\mathbf{Aut}(\Sigma)$-action, def. \ref{TrivialAction}. Then the internal-hom action of prop. \ref{InternalHomAction}
+
+$$
+  [\Sigma, X]\sslash \mathbf{Aut}(\Sigma)
+  \simeq
+  [\Sigma \sslash \mathbf{Aut}(\Sigma), X \times \mathbf{B}\mathbf{Aut}(\Sigma)]_{\mathbf{B}\mathbf{Aut}(\Sigma)}
+$$
+
+is the configuration space of fields on $\Sigma$ modulo automorphisms (diffeomorphisms, in [[smooth infinity-groupoid|smooth cohesion]]) of $\Sigma$. This is the configuration space of a [[gravity|gravitational]] "generally covariant" field theory on $\Sigma$.
 
 ## Related concepts
 
