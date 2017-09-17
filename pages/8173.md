@@ -20,12 +20,33 @@
 
 ## Idea
 
-The _Adams-Novikov spectral sequence_ is a [[spectral sequence]] used for the computation of [[stable homotopy groups of spheres]]. It refines the _[[Adams spectral sequence]]_ by replacing [[ordinary cohomology]] with [[coefficients]] in $\mathbb{Z}/p\mathbb{Z}$ by[[complex cobordism cohomology theory]]. 
+The _Adams-Novikov spectral sequence_ is a class of [[spectral sequences]] which converge to and hence are used to compute [[homotopy groups]] of [[connective spectra]],  hence in particular the [[stable homotopy groups of spheres]]. It refines the _[[Adams spectral sequence]]_ by replacing [[ordinary cohomology]] with [[coefficients]] in $\mathbb{Z}/p\mathbb{Z}$ by[[complex cobordism cohomology theory]]. 
+
+## Properties
+
+### Relation to Brown-Peterson spectrum
+
+The $p$-component of the $E^2$-term of the Adams-Novikov spectral sequence for the [[sphere spectrum]], hence the one converging to the 
+[[stable homotopy groups of spheres]] $\pi_\ast(\mathbb{S})$ is
+
+$$
+  Ext_{BP_\ast(BP)}(BP_\ast, BP_\ast)
+  \,,
+$$
+
+where $BP$ denotes the [[Brown-Peterson spectrum]] at prime $p$.
+
+recalled e.g. as [Ravenel, theorem 1.4.2](#Ravenel)
+
 
 
 ## Related concepts
 
 * [[stable homotopy groups of spheres]]
+
+* [[chromatic spectral sequence]]
+
+* [[EHP spectral sequence]]
 
 ## References
 
@@ -40,6 +61,7 @@ Reviews include for instance
 
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, page 11 0f chapter I _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+ {#Ravenel}
 
 * [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_, chapter IV _$B P$-Theory and the Adams-Novikov Spectral Sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf))
 
