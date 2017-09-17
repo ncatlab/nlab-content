@@ -1,0 +1,14 @@
+
+In [[dependent type theory]], a _dependent term_ is a [[term]] 
+
+$$
+  a \colon A \; \vdash \; b(a) \colon B(a)
+$$
+
+of a [[dependent type]]
+
+$$
+  a \colon A \;\vdash \; B(a) \colon Type
+  \,.
+$$
+
