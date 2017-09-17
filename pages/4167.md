@@ -119,7 +119,7 @@ all products and coproducts.
 
 But we can turn it into a [[category of fibrant objects]].
 
-#### A notion of category of fibrant objects
+#### A notion of category of fibrant objects {#GetzlerCatFibOb}
 
 This is analogous to (in fact an example of the same general fact) 
 how [[Kan complex]]es inside all [[simplicial set]]s
@@ -153,7 +153,7 @@ Let $C$ be a [[category]]. The axioms used here are the following.
 1. $C$ has all [[product]]s and in particular a [[terminal object]] $*$.
 
 
-#### Filtered $L_\infty$-algebras as a Getler-category of fibrant objects {#Filtered}
+#### Filtered $L_\infty$-algebras as a Getzler-category of fibrant objects {#Filtered}
 
 Write $\mathbb{L}$ for the category of _filtered_ [[L-infinity algebra]]s
 
@@ -405,9 +405,145 @@ $\pi_2(MC_\bullet(L), P)$ is the set of Casimir operators of $P$.
 
 for $k \gt 2$ $\pi_k(MC_\bullet(L), P)$.
 
+## Descent for $L_\infty$-algebra valued sheaves {#Descent}
+
+Associated to an [[L-infinity algebra]] $L$ is a [[Kan complex]] whose set of $k$-cells is the set of [[Maurer-Cartan element]]s on the $n$-[[simplex]]
+
+$$
+  MC_k(L) = MC( L \otimes \Omega^\bullet(\Delta^k) )
+  \,.
+$$
+
+Now assume that we have a [[sheaf]] of [[L-infinity algebra]]s over a [[topological space]] $X$. Let \{U_\alpha \to X\} be an [[open cover]] of $X$.
+
+On $k$-fold intersections we form 
+
+$$
+  L^k = \oplus_{\alpha_0,\cdots, \alpha_k}
+  L(U_{\alpha_0, \cdots, \alpha_k})
+  \,.
+$$
+
+The problem of [[descent]] is to glue all this to a single $L_\infty$ algebra given by the [[totalization]]  [[end]]
+
+$$
+  Tot(L^\bullet) = \int_k L^k \otimes \Omega^\bullet(\Delta^k)
+$$
+
+and check if that is equivalent to the one assigned to $X$.
+
+We now want to compare the $\infty$-stack of $L_\infty$-algebras and that of the "integration" to the Kan complexes of Maurer-Cartan elements, so compare
+
+$$
+  MC_\bullet(Tot(L^\bullet))
+$$
+
+with 
+
+$$
+  Tot(MC_\bullet(L^\bullet))
+$$
+
+Notice that we have an evident map
+
+$$
+  MC(\int_l L^l \otimes \Omega^\bullet(\Delta^l) \otimes \Omega^\bullet(\Delta^k) )
+  \to
+  MC(\int_l L^l \otimes \Omega^\bullet(\Delta^l \times \Delta^k))
+$$
+
+Hinich shows in a special case that this is a [[homotopy equivalence]].
+
+It is easy to prove it for abelian $L_\infty$-algebras.
+
+**Theorem** (Getzler) 
+
+This is indeed a homotopy equivalence.
+
+**Proof** By E.G.'s own  account he has "a terrible proof" but thinks a nicer one using induction should be possible.
+
+
+### Gauge fixing
+
+Recall the notion of "context" from above, which is a collection of maps
+
+$$
+  L \stackrel{\overset{f}{\to}}{\underset{g}{\leftarrow}}
+  M
+  \stackrel{h}{\to} M
+$$
+
+between filtered complex-like things, satisfying some conditions.
+
+We can arrange this such that $h$ imposes a certain gauge condition on $L$, or something
+
+> I missed some details here...
+
+**Theorem**
+
+With
+
+$$
+  MC(M,h) := 
+  \left\{
+    \omega \in MC(M) | 
+    h \omega = 0
+  \right\}
+$$
+
+we have
+
+$$
+  g : MC(M,h) \stackrel{\simeq}{\to} MC(L)
+$$
+
+$$
+  MC_\bullet(M,h) \stackrel{g \simeq}{\to} MC_\bullet(L)
+  \stackrel{MC_\bullet(f) \simeq}{\to}
+  MC_\bullet(M)
+$$
+
+**Proof** Along the lines of Kuranishi's construction:
+
+$$
+ h
+  \left(
+    [-]_0 + d_M \omega + \sum_{k = 1}^\infty
+    \frac{1}{k!} [\omega, \cdots , \omega]^h 
+  \right)
+  = 0
+  \,.
+$$
+
+So the big $\infty$-groupoid that drops out of the integration procedure is equivalent to the smaller one which is obtained from it by applying that gauge fixing condition.
+
+It would be nice if in the definition of the MC complex we could replace differential forms on the $n$-simplex with just [[cochain on a simplicial set|simplicial cochains]] on $\Delta[n]$.
+
+$$
+  MC(L \otimes C^\bullet(\Delta^\bullet))
+  \,.
+$$
+
+This would make the construction even smaller.
+
+If $L$ is abelian, then this is the [[Eilenberg-MacLane space]] which features in the [[Dold-Kan correspondence]].
+
+This is true if one takes care of some things. This is part of the above "terrible proof".
+
+Because one can proove that using explicit Eilenberg-MacLane's homotopies that proove the [[Eilenberg-Zilber theorem]] in terms of [[cochain on a simplicial set|simplicial cochains]] we have an equivalence
+
+$$
+  MC(
+    L \otimes C^\bullet(\Delta[k] \otimes \Delta[l])
+  )
+  \to
+  MC( L \otimes C^\bullet(\Delta[k] \times \Delta[l]))
+$$
+
+
 ## References
 
-The discussion of the Deligne groupoind and the gauge condition on the Maurer-Cartan elements is 
+The discussion of the Deligne groupoid (the $\infty$-groupoid "integrating" an $L_\infty$-algebra) and the gauge condition on the Maurer-Cartan elements is 
 
 * [[Ezra Getzler]], _Lie theory for nilpotent L-infinity algebras_ ([arXiv:0404003](http://arxiv.org/abs/math/0404003))
 
