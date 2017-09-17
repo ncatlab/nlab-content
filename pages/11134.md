@@ -20,8 +20,11 @@ The _state monad_ is a [[monad (in computer science)]] used to implement computa
 
 A [[functional program]] with input of [[type]] $X$, output of [[type]] $Y$ and mutable state $S$ is a [[function]] ([[morphism]]) of [[type]] $X \times S \longrightarrow Y \times S$. Under the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]] this is equivalently given by its [[adjunct]], which is a function of type $X \longrightarrow [S, S \times Y ]$. Here the operation $[S, S\times (-)]$ is the [[monad]] induced by the above adjunction and this latter function is naturally regarded as a morphism in the [[Kleisli category]] of this monad. This monad $[S, S\times (-)]$ is called the _state monad_ for mutable states of type S.
 
+
 ## Related concepts
 
 * [[maybe monad]],
+
+* [[continuation monad]]
 
 [[!redirects state monads]]
