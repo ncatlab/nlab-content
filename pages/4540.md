@@ -354,13 +354,19 @@ Other notions related to $\infty$-Lie algebroid cohomology include
 
 ## References
 
+Discussion of cohomology of $L_\infty$-algebras is in 
+
+* Michael Penkava, _$L_\infty$-algebras and their cohomology_ ([arXiv:q-alg/9512014](http://arxiv.org/abs/q-alg/9512014))
+
+The relation between $L_\infty$-cohomology and extension of $L_\infty$-algebras is discussed around theorem 3.8 of 
+
+* [[Andrey Lazarev]], _Models for classifying spaces and derived deformation theory_ ([arXiv:1209.3866](http://arxiv.org/abs/1209.3866))
+
+
 The general structure of the threory of $\infty$-Lie algebroid cohomology and [[transgression]] between $\infty$-Lie algebroid [[invariant polynomial]]s and -cocycles via [[Chern-Simons element]] was given in
 
 * Sati, Schreiber, Stasheff, _$L_\infty$-connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
-Discussion of cohomology of $L_\infty$-algebras is in 
-
-* Michael Penkava, _$L_\infty$-algebras and their cohomology_ ([arXiv:q-alg/9512014](http://arxiv.org/abs/q-alg/9512014))
 
 [[!redirects ∞-Lie algebra cohomology]]
 [[!redirects L-∞-algebra cohomology]]
