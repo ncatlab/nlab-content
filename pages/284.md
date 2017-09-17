@@ -1,16 +1,28 @@
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
 
-***
-
-[[!include (infinity,1)-topos - contents]]
-
-***
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Homotopy theory
++--{: .hide}
 [[!include homotopy - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+#### $(\infty,1)$-topos theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
 
 
-</div>
+
 
 #Contents#
 * automatic table of contents goes here
