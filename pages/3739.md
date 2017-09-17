@@ -1,3 +1,6 @@
-A [[subset]] $A$ of a [[set]] $S$ is __proper__ if $A$ is not equal to $S$ as a subset of itself.  Equivalently, $A$ is proper if there exists an element $x$ of $S$ such that $x \notin A$.
+A [[subset]] $A$ of a [[set]] $S$ is __proper__ if $A$ is not equal to the [[improper subset]] of $S$ ($S$ as a subset of itself).  We may also state that $A$ is proper in either or these equivalent ways:
 
-Actually, these two definitions are equivalent only if we accept the principle of [[excluded middle]]; in [[constructive mathematics]], we usually prefer the latter definition.  However, it is common that even this is not strong enough and we need to replace the condition that $x \notin A$ by some stronger condition not involving [[negation]].  (For example, consider the notion of [[proper filter]] on a set $X$, thought of as a subset of the [[power set]] of $X$.)
+*  There exists an element $x$ of $S$ such that $x \notin A$;
+*  Given any way of expressing $A$ as the [[intersection]] of a family of subsets of $S$, this family is [[inhabited set|inhabited]]. 
+
+Actually, these three definitions are equivalent only if we accept the principle of [[excluded middle]]; in [[constructive mathematics]], we usually prefer the last definition.  (For example, consider the notion of [[proper filter]] on a set $X$, thought of as a subset of the [[power set]] of $X$.)  However, this definition is not [[predicative mathematics|predicative]].
