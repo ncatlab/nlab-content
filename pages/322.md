@@ -339,6 +339,8 @@ See also related discussion at [[club]].
 
 * [[associative operad]]
 
+  * [[A-infinity operad]]
+
 * [[endomorphism operad]]
 
 * [[E-k operad]]
@@ -353,13 +355,12 @@ generalizations:
 
 * [[(∞,1)-operad]]
 
-### Inintial operads 
+### General
 
-For $C$ a set, the [[initial object]] $I_C$ of $C$-coloured operads has $I_C(c;c) = I_V$ for all $c$ in $C$ and all other components of $I_C$ are the [[initial object]] of $V$.
+* For $C$ a set, the [[initial object]] $I_C$ of $C$-coloured operads has $I_C(c;c) = I_V$ for all $c$ in $C$ and all other components of $I_C$ are the [[initial object]] of $V$.
 
-### Free operads {#FreeOperads}
 
-see [[free operad]]
+* There is also a canonical notion of [[free operad]].
 
 ## Properties
 
