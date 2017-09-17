@@ -24,7 +24,15 @@
 
 A theory of _quantum gravity_ is supposed to be a [[quantum field theory]] (QFT) -- or something similar -- that corresponds to the [[classical field theory]] of [[gravity]], possibly by [[quantization]].
 
-There are various proposals for what quantum gravity might be, but a comprehensive theory is missing to date. This is in stark contrast to the situation for the other fundamental [[force]]s of the [[standard model of particle physics]]: these are [[Yang-Mills field]]s, whose nature as QFTs is, while subtle, well understood. Indeed, the theoretical and experimental sucess of [[Yang-Mills theory]] is the main reason for the belief that QFT is the right framework for fundamental physics, and that also the field of gravity must have a description in this form. 
+While the [[Einstein-Hilbert action]] (or any of its variants) that defines the dynamics of gravity makes perfect sense at low energies as the definition of an [[effective quantum field theory]] (see there for details), it cannot be a non-effective theory at arbitrary high energies: because it is not [[renormalization|renormalizable]]. 
+
+Approaches to a full quantization of gravity therefore roughly fall into two different strategies
+
+1. One assumes that the Einstein-Hilbert action is indeed the [[effective QFT]] that approximates a "[[UV-completion]]", a more fundamental theory valid at all energies. This is the approach taken for instance in [[string theory]].
+
+1. One assumes that by some other fact that has been overlooked, one can make sense of a non-perturbative quantization of the EH action at arbitrary energies after all. This is for instance the case in speculations that EH-gravity has a [[UV fixed point]].
+
+Accordingly, there are various proposals for what quantum gravity might be, but a comprehensive theory is missing to date. This is in stark contrast to the situation for the other fundamental [[force]]s of the [[standard model of particle physics]]: these are [[Yang-Mills field]]s, whose nature as QFTs is, while subtle, well understood. Indeed, the theoretical and experimental sucess of [[Yang-Mills theory]] is the main reason for the belief that QFT is the right framework for fundamental physics, and that also the field of gravity must have a description in this form. 
 
 Indeed, a model of fundamental physics where Yang-Mills fields are quantized but gravity is not is incomplete and arguably even inconsistent. Central motivating examples for this come from [[black hole]]-physics:
 
@@ -62,3 +70,7 @@ The problem with discriminating between all these proposals is the combination o
 
 As a result, the field of fundamental physics today finds itself in a somewhat awkward position where the need for theoretical progress concerning quantum gravity for conceptual reasons is widely appreciated, but where disagreements about the viability of various proposals finds no conclusive resolution and divides the community. 
  
+## Examples
+
+* [[3d quantum gravity]]
+
