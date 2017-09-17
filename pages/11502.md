@@ -9,4 +9,4 @@
 |  | $\mathcal{M}_{1dTori}$ | $\hookrightarrow$ |  $\mathcal{M}_{Tate}$ | $\hookrightarrow$ | $\mathcal{M}_{\overline{ell}}$ | $\hookrightarrow$ | $\mathcal{M}_{cub}$  | $\to$  | $\mathcal{M}_{FG}$
 | [[moduli stack]] | of [1d tori](torus#InAlgebraicGeometry)  |  | of [[Tate curves]] | | [[moduli stack of elliptic curves|of elliptic curves]] |  | of [[cubic curves]] | |  [[moduli stack of formal groups|of formal groups]] |
 | $\mathcal{O}^{top}_{\Sigma}$ | [[KU]] |  | $KU[ [q] ]$ |  | [[elliptic spectrum]] |  |  |  | [[complex oriented cohomology theory]] |
-| $\Gamma(-, \mathcal{O}^{top}) = $ | ([[KO]] $\hookrightarrow$ [[KU]]) = [[KR-theory]] |  | [[Tate K-theory]] ($KO[ [q] ] \hookrightarrow KU[ [q] ]$) |  |  ([[tmf|Tmf]] $\to Tmf(n)$) ([[modular equivariant elliptic cohomology]])  |  |  [[tmf]]  |  |  $\mathbb{S}$ |  
+| $\Gamma(-, \mathcal{O}^{top}) = $ | ([[KO]] $\hookrightarrow$ [[KU]]) = [[KR-theory]] |  | [[Tate K-theory]] ($KO[ [q] ] \hookrightarrow KU[ [q] ]$) |  |  ([[tmf|Tmf]] $\to$ [[Tmf(n)]]) ([[modular equivariant elliptic cohomology]])  |  |  [[tmf]]  |  |  $\mathbb{S}$ |  
