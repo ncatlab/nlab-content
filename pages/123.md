@@ -71,6 +71,19 @@ $$F(1_X) = 1_{F(X)}.$$
 
 Preserving commuting loops means $F$ preserves identity morphisms.
 
+Another equivalent way to say this is that a functor $F : C \to D$ is precisely a morphism of [[simplicial set]]s $N(F) : N(C) \to N(D)$ between the [[nerve]]s of these categories
+
+* the [[object]]s of $C$ and $D$ are the 0-cells of $N(C)$ and $N(D)$, so $N(F)_0 : N(F)_0 \to N(F)_0$ maps objects of $C$ to objects of $D$;
+
+* the [[morphism]]s of $C$ and $D$ are the 1-cells of $N(C)$ and $N(D)$, so $N(F)_1 : N(F)_1 \to N(F)_1$ maps morphisms of $C$ to objects of $D$;
+
+* the identity morphisms of $C$ and $D$ are the degenerate 1-cellsof $N(C)$ and $N(D)$, so the fact that $N(F)$ respects degeneracy maps means that $F$ respects identities;
+
+* the commuting triangles of $C$ and $D$ are the 2-cells of $N(C)$ and $N(D)$, so the fact that $N(F)$ maps 2-cells to 2-cells means that it respects commuting triangles, hence that it respects composition.
+
+See [[nerve]] for more details on this.
+
+
 The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
 ### Internal definition {#InternalDefinition}
