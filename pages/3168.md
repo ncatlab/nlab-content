@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of _inhabited object_ in a general [[topos]] is a generalization of the notion of [[inhabited set]] from the archetypal topos [[Set]].
+In [[category theory]] and specifically in [[topos theory]], the notion of _inhabited object_ in a general [[topos]] is a generalization of the notion of [[inhabited set]] from the archetypal topos [[Set]]. It is the [[semantics]] of an [[inhabited type]] in [[type theory]].
 
 
 ## Definition
@@ -92,6 +92,12 @@ _Mike_: Does that mean you might be satisfied with the way it's written now?  (I
 _Toby_: Yes, I\'m happy now for now.
 
 =--
+
+## Related concepts
+
+* [[inhabited type]]
+
+  * **inhabited object**, [[inhabited set]]
 
 
 [[!redirects well-supported object]]
