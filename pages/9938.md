@@ -23,7 +23,7 @@
 
 ## Idea
 
-The [[Bousfield localization of spectra|localization]] $MU_{(p)}$ of [[complex cobordism cohomology theory]] $MU$ at a [[prime]] $p$ decomposes as a [[direct sum]]. The direct summands are the _Brown-Peterson spectra_.
+The [[Bousfield localization of spectra|localization]] $MU_{(p)}$ of [[complex cobordism cohomology theory]] $MU$ at a [[prime]] $p$, the [[p-localization]] $MU_{(p)}$, decomposes as a [[direct sum]]. The direct summands are the _Brown-Peterson spectra_.
 
 ## Definition
 
@@ -40,7 +40,7 @@ For each [[prime]] $p$ there is an unique [[E-∞ ring]] [[spectrum]] $B P$ whic
 
 =--
 
-Due to ([Brown-Peterson 66](#BrownPeterson66)), recalled as ([Ravenel, theore, 4.1.12](#Ravenel)).
+Due to ([Brown-Peterson 66](#BrownPeterson66)), recalled as ([Ravenel, theorem, 4.1.12](#Ravenel)).
 
 ## Properties
 
@@ -51,6 +51,15 @@ Due to ([Brown-Peterson 66](#BrownPeterson66)), recalled as ([Ravenel, theore, 4
 The [[formal group law]] of Brown-Peterson cohomology theory is [[universal property|universal]] for $p$-local [[complex oriented cohomology theories]] in that $\mathbb{G}_{B P}$ is universal among $p$-local, [[p-typical formal group laws]].
 
 (...)
+
+### Relation to $p$-typical formal groups
+
+$B P$ is related to [[p-typical formal groups]] as [[MU]] is to [[formal groups]].
+
+### Hopf algebroid structure on dual BP-Steenrod algebra
+
+The [[Hopf algebroid]] structure on the dual $BP$-[[Steenrod algebra]]
+$BP_\bullet(BP)$ is described by the [[Adams-Quillen tbeorem]].
 
 ### Relation to Adams-Novikov spectral sequence
 
@@ -96,3 +105,5 @@ The truncated version is discussed in
 
 [[!redirects Brown-Peterson theory]]
 [[!redirects Brown-Peterson theories]]
+
+[[!redirects BP]]
