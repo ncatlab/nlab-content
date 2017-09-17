@@ -468,15 +468,13 @@ and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher
 
 * [[Jacob Lurie]], _Proper morphisms, completions, and the Grothendieck existence theorem_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
 
+category: algebraic geometry
 [[!redirects quasicoherent sheaves]]
 [[!redirects quasicoherent module]]
 [[!redirects quasicoherent modules]]
-
 [[!redirects quasi-coherent sheaves]]
 [[!redirects quasi-coherent module]]
 [[!redirects quasi-coherent modules]]
-
 [[!redirects quasi-coherent sheaf]]
-
 [[!redirects quasicoherent sheaf of modules]]
 [[!redirects quasicoherent sheaves of modules]]
