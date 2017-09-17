@@ -194,3 +194,9 @@ The generalization to unoriented surfaces (hence to type I strings) was given in
 ## References
 
 (...)
+
+[[!redirects connections on a bundle gerbes]]
+[[!redirects connections on bundle gerbess]]
+
+[[!redirects bundle gerbe with connection]]
+[[!redirects bundle gerbes with connection]]
