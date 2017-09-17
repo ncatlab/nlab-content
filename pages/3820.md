@@ -138,6 +138,31 @@ This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. M
 
 (...)
 
+## Examples
+
+### Chern-Simons theory
+
+For [[Chern-Simons theory]] corresponding to a non-degenerate bilienear [[invariant polynomial]]
+$\langle -,-\rangle$ on a [[Lie algebra]] $\mathfrak{g}$ the 
+
+* configuration space is the space $\Omega^1(\Sigma, \mathfrak{g})$ of [[Lie algebra valued forms]];
+
+* covariant phase space is the space of field configurations $A$ whose [[curvature]] 2-form vanishes
+
+  $$
+    F_A = 0
+  $$
+
+* the [[presymplectic structure]] is
+
+  $$
+    \Omega(\delta A_1, \delta A_2) = 
+   \int_{\Sigma_0} \langle \delta A_1 \wedge \delta A_2\rangle
+    \,.
+  $$
+
+See [[Chern-Simons theory]] and [[schreiber:∞-Chern-Simons theory]] for more details.
+
 ## References
 
 
