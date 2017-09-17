@@ -6,7 +6,7 @@
 Global [[analytic geometry]] is a developing subject that gives an alternative/complementary approach to scheme theory in [[arithmetic geometry]] and [[analytic number theory]]. The starting point of this theory is in Vladimir Berkovich's book about spectral theory and non-archimedean analytic geometry. It was then developped further by Jerome Poineau.
 
 ##Main interests:##
-* it combines non-archimedean and archimedean analytic geometry
+* it combines [[non-archimedean analytic geometry|non-archimedean]] and archimedean analytic geometry
 * it contains algebraic geometry as a sub-theory
 * it treats all places on equal footing, contrary to scheme theory. This implies that it is closer in spirit to the automorphic philosophy and Langlands program, and more historically to Tate's proof of the functional equation.
 
