@@ -264,7 +264,19 @@ See also the Math Overflow discussion [here](http://mathoverflow.net/questions/4
 [[!redirects disc]]
 [[!redirects discs]]
 
+[[!redirects open disk]]
+[[!redirects open disks]]
+[[!redirects open disc]]
+[[!redirects open discs]]
+
+
 [[!redirects n-disk]]
 [[!redirects n-disks]]
 [[!redirects n-disc]]
 [[!redirects n-discs]]
+
+[[!redirects open n-disk]]
+[[!redirects open n-disks]]
+[[!redirects open n-disc]]
+[[!redirects open n-discs]]
+
