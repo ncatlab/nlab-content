@@ -267,7 +267,13 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 * [[anabelian geometry]]
 
+* [[Chevalley fundamental group]]
+
+
 * [[etale homotopy]]
+
+* [[Grotheideck's Galois theory]]
+
 
 ## References
 
