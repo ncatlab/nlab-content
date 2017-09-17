@@ -52,6 +52,10 @@ here are some seminar notes:
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
+Some introductory notes:
+
+* Simon Rose, _Introduction to Gromov-Witten theory_, [arXiv](http://arxiv.org/abs/1407.1260v1).
+
 And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
 * [[A Survey of Elliptic Cohomology - elliptic curves]]. 
