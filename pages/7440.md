@@ -383,7 +383,7 @@ This gives in particular to the standard [[model structure for complete Segal sp
 
 For $\mathbf{H}$ an [[(∞,1)-topos]], another way of saying that we have an internal category object in $\mathbf{H}$ is to say that we formulate it in the [[internal language]] of $\mathbf{H}$, which is a [[homotopy type theory]].
 
-This is still open, but one might approach it like this:
+The full details of this are still open, but there some aspects seem clear. One might approach it like this:
 
 1. By the discussion at _[[semi-Segal space]]_ a category object should equivalently be a [[semi-category]] object $X_\bullet$: a [[semi-simplicial object]] satisfying the [[Segal conditions]], and which is unital in that $Eq(X_1) \hookrightarrow X_1 \stackrel{\partial_1}{\to} X_0$ is an equivalence.
 
@@ -429,6 +429,120 @@ The formulation of [[simplicial objects in an (∞,1)-category]] in the [[intern
 This is how the above formulation implicitly deals with [[homotopy coherent diagram|homotopy coherence]]. Under [[categorical semantics]] this state of affairs translates into the statement that [[Reedy model structure|Reedy]] [[fibrant object|fibrant]] [[semisimplicial objects]] are already a good (fibrant+cofibrant) model for [[homotopy types]].
 
 =--
+
+#### H-Category types
+
+We begin here by discussing an notion of [[internal category]] in [[homotopy theory]] which is _not_ an category object in an $(\infty,1)$-category and which does _not_ interpret as an [[(∞,1)-category]], but which serves to illustrate a subtlety in the correct definition.
+
+Historically one says that:
+
++-- {: .num_defn }
+###### Definition
+
+An **[[H-monoid]]** is a [[monoid object]] internal to the [[homotopy category]] [[Ho(∞Grpd)]]/[[Ho(Top)]]. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This means that an [[H-monoid]] is 
+
+1. a [[homotopy type]] $X$;
+
+1. equipped with a binary operation $\cdot \colon X \times X \to X$;
+
+1. and equipped with a point $i \colon * \to X$
+
+such that 
+
+1. there [[existential quantifier|exists]] an [[associativity]] [[homotopy]]
+
+   $$
+     \left(\left(-\right) \cdot \left(\left(-\right) \cdot \left(-\right)\right)\right)
+     \Rightarrow
+     \left(\left(\left(-\right) \cdot \left(-\right)\right) \cdot \left(-\right)\right)
+     \colon
+     X \times X \times X \to X
+   $$
+
+1. there exists a [[unit law|unitality]] [[homotopy]]
+
+   $$
+     (i \cdot (-)) \to id \colon  X \to X
+     \,.
+   $$
+
+The point here is that these homotopies are only required to exist, but are not specified and are not part of the data of an [[H-monoid]].
+
+=--
+
+One also speaks of an _[[H-group]]_ for an [[H-monoid]] for which the product operation similarly has [[inverses]] up to unspecified homotopies. 
+Hence it makes sense to consider the following many-object version ("[[oidification]]") of this classical concept:
+
++-- {: .num_defn }
+###### Definition
+
+An **H-category** is a [[category object]] in [[Ho(∞Grpd)]].
+
+=--
+
+This has an evident formulation in  [[homotopy type theory]]:
+
++-- {: .num_defn }
+###### Definition
+
+An **H-category type** $X$ is a 
+
+1. a [[type]] $\vdash \; X_0  \colon $ [[Type]] 
+
+1. a [[dependent type]] $x_0,x_1 \colon X_0 \;\vdash\; X_1(x_0,x_1) \colon Type$
+
+1. a [[term]] $\vdash \; i \colon X_0$;
+
+1. a [[function]] 
+
+   $$
+     x_0,x_1,x_2 \colon X_0 \;\vdash\; comp_{x_1,x_2,x_2} \colon X_1(x_0,x_1) \times X_1(x_1,x_2) \to X_1(x_0,x_2)
+   $$
+
+such that there is a [[term]] of [[identity type]]
+
+$$
+  x_0, x_1, x_2, x_3 \colon X_0 \;\vdash\; ( com_{x_0,x_2,x_3} \circ comp_{x_0,x_1,x_2} =  comp_{x_0, x_1, x_2} \circ comp_{x_1,x_2,x_3})
+$$
+
+(hence, equivalently, a necessarily unique term of the [[proposition]] [[type]] [[inhabited type|isInhabited]](...) of this identity type ).
+
+=--
+
+The archetypical example of [[H-groups]] already illustrates the deficiency of this notion
+
++-- {: .num_example }
+###### Example
+
+For $ \colon * \to Y$ a pointed [[homotopy type]], its [[loop space]][[loop space object|object]] $\Omega_y Y$ is naturally equipped with the structure of an [[H-group]] by 
+
+1. taking the unit $* \to \Omega_y Y$ to be the constant loop on $Y$;
+
+1. taking the product to be given by any choice of concatenation of loops.
+
+=--
+
+The natural question arising then is: how are those [[H-groups]] characterized that arise as [[loop space objects]], this way? 
+
+One observes that those that areise this way carry much more structure than just a composition and unit up to unspecified homotopy: we can instead make an explicit choice of such homotopies by choosing ways to reparameterize the interval and, crucially, any two such choices are themselves related by a choice of higher order homotopy, and so ever on. Such a structure is called a **strong homotopy monoid** structure with **strong homotopy associativity** (as opposed to just bare homotopy associativity as in an [[H-monoid]]). Later this was abbreviated to **[[A-∞ algebra|A-∞]]** structure.
+
+The classical result by [[Jim Stasheff]] answered the question by saying that:
+
++-- {: .num_theorem }
+###### Theorem
+
+An [[H-group]] $(X, \cdot)$ arises as a [[loop space object]], $X \simeq \Omega Y$ precisely if its homotopy-monoidal structure may be lifted to an [[A-∞ algebra]] structure.
+
+=--
+
+The point of the following constructions is to take care of that additional _strong_ homotopy information.
 
 #### $(0,1)$-Category types
  {#0CategoryTypes}
