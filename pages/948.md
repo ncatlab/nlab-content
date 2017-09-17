@@ -233,6 +233,7 @@ Other references include the following.
 
 *  [[Frank Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
 
+See also the references at _[[intuitionistic mathematics]]_ for more.
 
 Most books on [[topos theory]] include some discussion of toposes\' [[internal logic|internal]] constructive logic.  One good reference is:
 
