@@ -196,6 +196,35 @@ We might call $\mathbb{S}[A]$ the spring **[[∞-group ∞-ring]]** of $A$ over 
 
 Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOfUnits} is a homotopy right adjoint. ([Sagave 11, theorem 1.8](#Sagave11)).
 
+### Cohomology and logarithm
+ {#CohomologyAndLogarithm}
+
+Given $E$ an [[E-∞ ring]], then write $gl_1(E)$ for its $\infty$-group of units regarded as a [[connective spectrum]]. For $X$ the [[homotopy type]] of a  [[topological space]], then the [[cohomology]] [[Brown representability theorem|represented]] by $gl_1(E)$ in degree 0 is the ordinary [[group of units]] in the [[cohomology ring]] of $E$:
+
+$$
+  H^0(X, gl_1(E))  \simeq (E^0(X))^\times
+  \,.
+$$
+
+In positive degree the canonical map of pointed homotopy types $GL_1(E) = \Omega^\infty gl_1(E) \to \Omega^\infty E$ is in fact an [[isomorphism]] on all [[homotopy groups]]
+
+$$
+  \pi_{\bullet \geq 1} GL_1(E) \simeq \pi_{\bullet \geq 1} \Omega^\infty E
+  \,.
+$$
+
+On cohomology elements this map
+
+$$
+  \pi_q(gl_1(E)) \simeq \tilde H^0(S^q, gl_1(E)) \simeq  (1+ \tilde R^0(S^q))^\times \subset (R^0(S^q))^\times
+$$
+
+is [[logarithm]]-like, in that it sends $1 + x \mapsto x$.
+
+But there is not a homomorphism of [[spectra]] of this form. This only exists after [[K(n)-local stable homotopy theory|K(n)-localization]], where it is called then the [[logarithmic cohomology operation]], see there for more.
+
+([Rezk 06](#Rezk06))
+
 ## Examples
 
 ### Snaith's theorem
@@ -316,6 +345,9 @@ The $\infty$-group of units of [[Morava K-theory]] is discussed in
 * [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
  {#SatiWesterland11}
 
+The [[cohomology]] with coefficients in $gl_1(E)$ and the corresponding [[logarithmic cohomology operations]] are discussed in
+
+* {#Rezk06} [[Charles Rezk]], _The units of a ring spectrum and a logarithmic cohomology operation_, J. Amer. Math. Soc. 19 (2006), 969-1014 ([arXiv:math/0407022](http://arxiv.org/abs/math/0407022))
 
 
 [[!redirects ∞-group of units]]
