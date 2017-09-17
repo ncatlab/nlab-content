@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Motivic cohomology
++--{: .hide}
+[[!include motivic cohomology - contents]]
+=--
 =--
 =--
 
