@@ -20,3 +20,5 @@ is equivalently
 
 
 If you want to speak of [[the]] functor satisfying certain conditions, then it should be unique up to unique natural isomorphism.
+
+[[!redirects natural isomorphisms]]
