@@ -1,5 +1,22 @@
-Let $G$ be a Lie group, $M$ a manifold and
+Let $G$ be a Lie group with Lie algebra $\mathfrak{g}\cong T_e G$, $M$ a $C^1$-[[differentiable manifold]] and
 $$
 \nu : G\times M\to M
 $$
-a $C^1$-differentiable action on a $C^1$-[[differentiable manifold]].
+a left $C^1$-differentiable action. For every $m\in M$, denoted by $\nu_m:G\to M$ the $C^1$-differentiable map $\nu_m:g\mapsto \nu(g,m)$. If $A\in\mathfrak{g}$ the $C^1$-vector field on $M$ given by 
+$$
+(\chi_A)_m = (T_{1_G}\nu_m)(A),\,\,\,\,m\in M,
+$$ 
+sometimes also denoted $A^\sharp$, is called the __fundamental vector field__ corresponding to $A$. If $s: I\to G$ is a curve around $s(0)=1_G$ representing $A$, then $(\chi_A)_m$ is represented by $t\mapsto s(t)m$. 
+
+Analogously, one can define the fundamental vector field for the right actions.
+
+There is a dual notion as well. Given a right $C^1$-differentiable $G$-manifold $E$, a $C^1$-differentiable 1-form $\omega$ with values in $\mathfrak{g}$,  
+$$
+\omega \in \Gamma (T^* E\otimes\mathfrak{g})
+$$
+is called the __fundamental differentiable form__ corresponding to $A$, if for all $p\in E$, $\omega_p(\chi_A) = A$. 
+
+The fundamental vector fields are important in study of differentiable actions and particularly useful in the basic study of [[Ehresmann connections]]. Indeed, the connection form is a fundamental form ("1st Ehresmann condition"), and there is a characterization of those fundamental forms which are connection forms ("2nd Ehresmann condition").
+
+[[!redirects fundamental form]]
+[[!redirects fundamental differentiable form]]
