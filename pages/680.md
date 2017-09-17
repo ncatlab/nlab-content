@@ -463,6 +463,15 @@ If $[S^{op}, sSet]$ is equipped with the projective [[model structure on simplic
 
 If the coefficient objects come from sheaves of chain complexes along $\Gamma$, this cohomology restricts to ordinary [[abelian sheaf cohomology]]. See there for more details.
 
+
+## Related concepts
+
+* **Dold-Kan correspondence**
+
+* [[monoidal Dold-Kan correspondence]]
+
+* [[operadic Dold-Kan correspondence]]
+
 ## References
 
 Historical references for the Dold--Kan correspondence are
