@@ -81,16 +81,18 @@ Fields defined as sections of field bundles cannot capture gauge phenomena in a 
 
    But this construction is not local: if we consider this assignment of field bundles to all suitable manifolds $X$, and if $U \to X$ is a cover of $X$, then we cannot in general obtain the field bundle on $X$ by gluing the field bundle on the cover. This is because _locally_ every $G$-[[principal bundle]] has trivial class, so that locally there is always only a single (the trivial) instanton sector. 
 
-   Notice that instanton sectors are non-negligible phenomena. For instance the very [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors (see at _[[instanton in QCD]] for more on this). 
+Notice that instanton sectors are non-negligible phenomena. For instance the very [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors (see at _[[instanton in QCD]] for more on this).  And there are field theories where the fields consist entirely of "[[instanton sectors]]" and where there is no infinitesimal information about the gauge group at all: these are theories whose gauge group is a [[discrete group]], which includes notably [[Dijkgraaf-Witten theory]] and its higher analogy such as the [[Yetter model]]. This means that for these [[theory (physics)|theories]] a local field bundle formalism can see nothing of the actual fields and also traditional tools applied to a global field bundle (such as traditional [[BV-BRST formalism]]) see nothing of the actual fields. All this is fixed by the formulation that we discuss [below](#Definition).
+
 
    But this example already points to the general nature of the problem with field bundles, and also to its solution: while the [[instanton]]-component of [[Yang-Mills fields]] are not section of a bundle, they famously are sections of a _[[stack]]_ -- the "[[moduli stack]] $\mathbf{B}G$ of $G$-principal bundles", an object in [[higher geometry]].
 
-   The problem with the locality of the [[field bundle]] for [[Yang-Mills theory]] is solved by passing from [[fiber bundles]] to [[fiber ∞-bundles]]: in the [[smooth ∞-groupoid|higher differential geometry]] there is an object $\mathbf{B}G_{conn}$  -- the [[moduli stack]] of $G$-[[principal connections]], being the [[stackification]] of the [[groupoid of Lie algebra-valued forms]] -- such that maps $X \to \mathbf{B}G_{conn}$ are equivalent to Yang-Mills fields on $X$ (even including their [[gauge transformations]]). This means that if we allow field bundles in higher geometry -- [[fiber ∞-bundles]], then that for Yang-Mills theory over $X$ is even a trivial field bundle, namely the [[projection]]
+   The problem with the locality of the [[field bundle]] for [[Yang-Mills theory]] is solved by passing from [[fiber bundles]] to [[fiber ∞-bundles]]: in the [[smooth ∞-groupoid|higher differential geometry]] there is an object $\mathbf{B}G_{conn}$  -- the [[moduli stack]] of $G$-[[principal connections]] (being the [[stackification]] of the [[groupoid of Lie algebra-valued forms]]) such that maps $X \to \mathbf{B}G_{conn}$ are equivalent to Yang-Mills fields on $X$ (even including their [[gauge transformations]]). This means that if we allow field bundles in higher geometry -- [[fiber ∞-bundles]], then that for Yang-Mills theory over $X$ is even a trivial field bundle, namely the [[projection]]
 
    $$
      X \times \mathbf{B}G_{conn} \to X
-     \,.
    $$
+
+out of the [[proudct]] of [[spacetime]] with the [[moduli stack]] of fields.
 
    This is a differential refinement of what is called the trivial _$G$-[[gerbe]]_ on $X$, which is 
 
@@ -100,7 +102,6 @@ Fields defined as sections of field bundles cannot capture gauge phenomena in a 
 
    and hence the "field bundle for instanton sectors" of Yang-Mills fields.
 
-Notice that there are field theories where the fields consist entirely of "[[instanton sectors]]" and where there is no infinitesimal information about the gauge group at all: these are theories whose gauge group is a [[discrete group]] which includes notably [[Dijkgraaf-Witten theory]] and its higher analogy such as the [[Yetter model]]. This means that for these [[theory (physics)|theories]] a local field bundle formalism can see nothing of the actual fields and also traditional tools applied to a global field bundle (such as traditional [[BV-BRST formalism]]) see nothing of the actual fields. All this is fixed by the formulation that we discuss [below](#Definition).
 
    Judging from these examples one might be tempted to guess that the notion of field [[fiber bundle]] should simply be replaced by that of field [[fiber ∞-bundle]]. But in fact what the example rather suggests is that what matters directly is the [[moduli stack]] $\mathbf{Fields}$ of fields, which for $G$-[[Yang-Mills theory]] is simply
 
@@ -109,7 +110,7 @@ Notice that there are field theories where the fields consist entirely of "[[ins
      \,.
    $$
 
-   This perspective, which we describe in detail [below](#Definition) also has the pleasant effect that it drastically simplifies and unifies notions of quantum field theory, for this says equivalently that if only we allow spaces in [[higher geometry]], then [[Yang-Mills theory]] is a [[sigma-model]] quantum field theory: one whose fields are simply maps to a given [[target space]], only that this target space here is a [[stack]].
+   This perspective, which we describe in detail [below](#Definition) also has the pleasant effect that it drastically simplifies and unifies notions of quantum field theory, for this says equivalently that if only we allow spaces in [[higher geometry]], then [[Yang-Mills theory]] is a _[[sigma-model]]_ quantum field theory: one whose fields are simply maps to a given [[target space]], only that this target space here is a [[stack]].
 
    But there are more advantages, slightly less obvious. These we come to in the following points.
 
@@ -117,9 +118,15 @@ Notice that there are field theories where the fields consist entirely of "[[ins
 #### Spin-structures and other $G$-structures
  {#IdeaSpinStructures}
 
-Some fields in physics are (or involve) choices of [[G-structure]] in the sense of [[reduction and lift of structure groups]]. The most famous example is the choice of [[Spin structure]] in field theories with [[fermion]]fields (discussed in detail in [Fermions](#Fermions) below). Often in the literature the choice of [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that the in the full theory this is really a field configuraton. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
+Some fields in physics are (or involve) choices of [[G-structure]] in the sense of [[reduction and lift of structure groups]]. The most famous example is the choice of _[[Spin structure]]_ in field theories with [[fermion]] fields (discussed in detail in _[Fermions](#Fermions)_ below). Often in the literature the choice of [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that the in the full theory this is really a field configuraton. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
 
-Now, a spin structure _is_ equivalently a section of something, but again not of a [[principal bundle]], but of an analog in [[higher geometry]], a [[principal 2-bundle]]. Concretely, for a [[spacetime]] represented by a [[smooth manifold]] $X$ of [[dimension]] $B$, let $\tau_X : X \to \mathbf{B}GL(n)$ be the map that modulates its [[tangent bundle]]. Then a choice of [[Spin structure]] on $X$ is a lift of this map three steps through through the [[Whitehead tower]] of $\mathbf{B}GL(n)$:
+Now, a spin structure _is_ equivalently a section of something, but again not of a [[principal bundle]], but of an analog in [[higher geometry]], a [[principal 2-bundle]]. Concretely, for a [[spacetime]] represented by a [[smooth manifold]] $X$ of [[dimension]] $n$, let 
+
+$$
+  \tau_X \;\colon\; X \to \mathbf{B}GL(n)
+$$ 
+
+be the map that modulates its [[tangent bundle]] (discussed at _[geometry of physics - ](geometry of physics#TangentBundle)_). Then a choice of [[Spin structure]] on $X$ is a lift of this map three steps through through the [[Whitehead tower]] of $\mathbf{B}GL(n)$:
 
 $$
   \array{
@@ -145,7 +152,7 @@ $$
 
 A lift of the tangent bundle $\tau_X$ to $e_X$ is a choice of [[orthogonal structure]] (a [[vielbein field]], discussed in detail below in _[Ordinary gravity](#OrdinaryGravity)_), further to $o_X$ is a choice of [[orientation]], further to $s_X$ is a choice of [[spin structure]].
 
-Now, every hook-shaped sub-[[diagram]] of the form
+Now, every hook-shaped sub-[[diagram]] in the above of the form
 
 $$
   \array{
@@ -157,7 +164,7 @@ $$
   }
 $$
 
-in the above is a [[homotopy fiber sequence]]. By the [[universal property]] of the [[homotopy pullback]] this means that the "space" -- really: _[[homotopy type]]_ or just _[[type]]_, for short -- of lifts of a given map $X \to \mathbf{B}G$ to a map $X \to \mathbf{B}\hat G$ is equivalently the type of trivializations of the [[composition|composite]] $X \to \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^n A$. But this map modulates an $(\mathbf{B}^{n-1}A)$-[[principal ∞-bundle]] $P \to X$ and a trivialization of this map is equivalently a [[section]] of $P \to X$. Only if here $n = 1$ (and $A$ an ordinary 1-group) is this an ordinary bundle.
+is a [[homotopy fiber sequence]]. By the [[universal property]] of the [[homotopy pullback]] this means that the "space" -- really: _[[homotopy type]]_ or just _[[type]]_, for short -- of lifts of a given map $X \to \mathbf{B}G$ to a map $X \to \mathbf{B}\hat G$ is equivalently the type of trivializations of the [[composition|composite]] $X \to \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^n A$. But this map modulates an $(\mathbf{B}^{n-1}A)$-[[principal ∞-bundle]] $P \to X$ and a trivialization of this map is equivalently a [[section]] of $P \to X$. Only if here $n = 1$ (and $A$ an ordinary 1-group) is this an ordinary bundle.
 
 In particular for $o_X \colon X \to \mathbf{B}SO(n)$ a given choice of [[orientation]] of an $n$-dimensional [[manifold]] $X$, a choice of [[Spin structure]] is a choice of section of the $(\mathbf{B}\mathbb{Z}_2)$- [[principal 2-bundle]]
 
@@ -172,11 +179,11 @@ This is only the most famous phenomenon in a large class of similar structures o
 #### Background fields
  {#BackgroundFields}
 
-Comparison of the above discussions under _[Locality](#IdeaLocality)_ and _[Spin structures](#IdeaSpinStructures)_  shows that there we had a higher-geometric field bundle of [[Yang-Mills fields]] which was hower "trivial" in the sense that it was a projection out of the [[product]] of [[spacetime]] with a [[moduli stack]], so that a field configuration was equivalently of [[sigma-model]]-type, namely simply a map $\phi \colon : X \to \mathbf{B}G_{conn}$; whereas here the "spin-lifting 2-bundles" and its higher analogs are, in general, not of this product form, hence "Spin structure"-field superficially do not seem to be of [[sigma-model]]-type, even in [[higher geometry]].
+Comparison of the above discussions under _[Locality](#IdeaLocality)_ and _[Spin structures](#IdeaSpinStructures)_  shows that there we had a higher-geometric field bundle of [[Yang-Mills fields]] which was hower "trivial" in the sense that it was a projection out of the [[product]] of [[spacetime]] with a [[moduli stack]], so that a field configuration was equivalently of [[sigma-model]]-type, namely simply a map $\phi \colon : X \to \mathbf{B}G_{conn}$; whereas here the "spin-lifting 2-bundles" and its higher analogs are, in general, not of this product form, hence "Spin structure"-fields, at least superficially do not seem to be of [[sigma-model]]-type, even in [[higher geometry]].
 
-But a closer inspection shows that in fact both situations are entirely analogous -- once we realize that here these Spin-structure fields are not really defined just on $X$, but on $X$ _equipped with its orientation_ $o_X$. Since, by the same logic as above, also the orientation is a "field", we should call it a **[[background field]]**. It serves as "background" over which spin structure fields can be considered.
+But a closer inspection shows that in fact both situations are entirely analogous -- once we realize that here these Spin-structure fields are not really defined just on $X$, but on $X$ _equipped with its orientation_ $o_X$. Since, by the same logic as above, also the orientation is a "field", we may call it a ***[[background field]]***. It serves as "background" over which spin structure fields can be considered.
 
-In [[higher geometry]] incarnated naturally as [[(∞,1)-topos theory|higher topos theory]], this state of affairs is naturally modeled and indeed yields again a _moduli stack of spin structure fields_ and makes spin-structures by [[sigma-model]]-type fields, as follows:
+In [[higher geometry]] incarnated naturally as [[(∞,1)-topos theory|higher topos theory]], this state of affairs is naturally modeled and indeed yields again a _moduli stack of spin structure fields_ and makes spin-structures be [[sigma-model]]-type fields, as follows:
 
 the natural way to regard both $X$ as well as its orientation structure $o_X$ as a single object is to regard the map $X \stackrel{o_X}{\to} \mathbf{B}SO(n)$ as an object in the [[slice (∞,1)-topos|slice (2,1)-topos]] $\mathbf{H}_{/\mathbf{B}SO(n)}$. In here an [[object]] is a map of [[stacks]] into $\mathbf{B}SO(n)$, and a morphism is map of the domains of these maps together with a [[homotopy]] filling the evident triangle [[diagram]]. Notably a lift of the orientation structure $o_X$ to a spin structure $s_X$ as above, hence a diagram of the form
 
@@ -229,7 +236,7 @@ $$
   \array{
    S^1 &&\to&& \Omega^1(-,\mathfrak{g}//T)
    \\
-   & {}_{\mathllap{C}}\searrow &\swArrow& \swarrow_{\mathbf{OrbitStruct}}
+   & {}_{\mathllap{C}}\searrow &\swArrow& \swarrow_{\mathrlap{\mathbf{OrbitStruct}}}
    \\
    && \mathbf{B}G_{conn} 
   }
@@ -360,7 +367,9 @@ In this context we say that
     \array{
        X &&\stackrel{\phi}{\to}&& \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields}
        \\
-       & {}_{\mathllap{\Phi_X}}\searrow && \swarrow_{\mathrlap{\mathbf{Fields}}}
+       & {}_{\mathllap{\Phi_X}}\searrow 
+       &\swArrow& 
+       \swarrow_{\mathrlap{\mathbf{Fields}}}
        \\
        && \mathbf{BgFields}
     }
