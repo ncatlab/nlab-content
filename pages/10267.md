@@ -1,0 +1,54 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+=--
+=--
+
+
+This page collects links related to the book
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]]
+
+  _Spin geometry_
+
+  Princeton University Press (1989)
+
+
+on [[spin geometry]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Chapter I Clifford algebras, Spin groups and Their Representations
+
+* [[Clifford algebra]]
+
+* [[spin group]]
+
+* [[spin representation]]
+
+## Chapter II Spin Geometry and the Dirac Operator
+
+* [[spin structure]]
+
+* [[spinor bundle]]
+
+* [[Dirac operator]]
+
+## Chapter III Index Theorems
+
+* [[index theory]]
+
+* [[index of a Dirac operator]]
+
+## Chapter IV Applications in Geometry and Topology
+
+* [[spin geometry]]
+
+category: reference
