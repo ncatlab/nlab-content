@@ -1,8 +1,20 @@
-* toc
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
 {:toc}
 
 
-# Idea
+## Idea
 
 **Dinatural transformations** are a generalization of ordinary [[natural transformations]] and also of [[extranatural transformations]].  The differences can be summarized thusly:
 
@@ -15,7 +27,7 @@ If the dependence of $F$ or $G$ on $x$ in a dinatural transformation is trivial,
 Arguably, most dinatural transformations which arise in practice are ordinary or extranatural.
 
 
-# Formalization
+## Formalization
 
 Let $F, G: C^{op} \times C \to D$ be functors. A __dinatural transformation__ from $F$ to $G$, sometimes written 
 
@@ -40,7 +52,7 @@ where $G$ is constant with respect to the argument $c$, and the codomain version
 when $F$ is constant with respect to the argument $c$. 
 
 
-# Dinaturality versus extranaturality
+## Dinaturality versus extranaturality
 
 Many people who encounter the notion of dinaturality through the general definition (as in equation (eq:hexagon) have subsequent difficulty grokking it.  It is the opinion of at least one author of this article ([[Todd Trimble]]), and it was certainly the opinion of Max Kelly, that this "efficient" definition is not the most useful or intuitive one.  Rather, one may be better off grokking the separate squares (eq:domain) and (eq:codomain) -- that is, the notion of [[extranaturality]] -- and how they arise in practice. 
 
@@ -59,7 +71,22 @@ and considering extranatural transformations from the constant $1$ (the terminal
 Dinatural transformations cannot, in general, be composed with each other, although there are certain circumstances when they can be (such as when certain squares are pushouts or pullbacks, or when they are in fact ordinary natural transformations).  In general, what we can say is that dinatural transformations with fixed source and target form a [[paracategory]].
 
 
-# References
+## Related concepts
+
+* [[homotopy]]
+
+* [[transfor]]
+
+  * [[natural transformation]]
+
+    * [[extranatural transformation]], **dinatural transformation**
+
+  * [[pseudonatural transformation]]
+
+  * [[lax natural transformation]]
+
+
+## References
 
 Here is a blog post inspired by the above discussion:
 
