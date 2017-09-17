@@ -73,7 +73,7 @@ X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
 
 2. The category [[Top]] of [[topological spaces]] is infinitary lextensive.  The category [[Diff]] of smooth [[manifolds]] is infinitary extensive, though it lacks all pullbacks.
 
-3. The category of affine schemes (opposite to the category of commutative [[ring]]s with identity) is infinitary lextensive.
+3. The category of affine schemes (opposite to the category of commutative [[ring]]s with identity) is lextensive, but (perhaps contrary to geometric intuition) not infinitary lextensive. Some details may be found [here](http://ncatlab.org/toddtrimble/published/Dippy+disproof+of+infinitary+extensivity+of+affine+schemes). 
 
 4. The category [[Cat]] is infinitary lextensive.
 
