@@ -1687,6 +1687,7 @@ that factors the [[natural transformation|naturality]] square of $\flat$ on $\ma
 
 
 #### Differential Whitehead tower
+ {#DifferentialWhitehead}
 
 **Theorem** ([SSSa](#SSSa), [FSSa](#FSS)) There exists a smooth differential refinement of the [Whitehead tower of BO](#WhiteheadTower) as follows:
 
@@ -2005,7 +2006,111 @@ $$
 
 Similarly for higher gauge theory it is the [[L-infinity algebroid]].
 
+#### Extended higher Chern-Simons-type functionals
+
+The anomaly line bundle to be discussed in a moment [below](GaugeInteractionAndChargeAnomaly) is a special case of a general construction in extended "[[schreiber:∞-Chern-Simons theory]]". So before getting to that special case, we indicate here the general pattern.
+
+The [[action functional]] of ordinary [[Chern-Simons theory]] is traditionally taken to be simply a [[function]], for a gven compact 3-manifold $\Sigma_3$, 
+
+$$
+  \exp( i S_{cs}) : G Bund_\nabla(\Sigma_3)
+  \to U(1)
+$$
+
+on $G$-[[principal connections]] over $\Sigma_3$. This perspective can be refined.
+
+First of all, since this function is [[gauge invariance|gauge invariant]] we may think of it as being defined on the full moduli stack
+
+$$
+  \exp( i S_{cs}) : [\Sigma_3, \mathbf{B}G_{conn}] \to U(1)
+  \,.
+$$
+
+This also exhibits the smoothness of the action. 
+
+An important construction in [[Chern-Simons theory]] is the [[geometric quantization]] of this action functional in the case that $\Sigma_3 = \Sigma_2 \times Interval$ , which yields a holomorphic line bundle with connection on the [[covariant phase space]] of the theory, which may be identified with the space of flat connections over a _2-dimensional_ $\Sigma_2$.
+Generally, one expects to see a [[circle n-bundle with connection|circle k-bundle with connection]] assigned to a $\Sigma$ of [[codimension]] $k$.
+
+[Above](#DifferentialWhitehead) we had already seen such a structure in top codimension: if $\Sigma = *$ is the point, then $[\Sigma, \mathbf{B}G_{conn}] \simeq [*, \mathbf{B}G_{conn}] \simeq \mathbf{B}G_{conn}$. So there should be a cricle 3-bundle with connection on this moduli stack. Taking $G = Spin$, for definiteness, then the differential first fractional Pontryagin class from [above](#DifferentialWhitehead) is precisely of this form:
+
+$$
+  \tfrac{1}{2} \hat \mathbf{p}_1 
+    : 
+  \mathbf{B} Spinn_{conn}
+  \to 
+  \mathbf{B}^3 U(1)
+  \,.
+$$
+
+And indeed, as stated there, this induces the Chern-Simons action functional itself. Indeed, it induces a whole tower of higher circle bundles, in each codimension:
+
+The operation of fiber integration of differential forms extends to an operation of [[fiber integration in ordinary differential cohomology]], which in turn, as discussed there, extends to a morphism of smooth moduli stacks of the form
+
+$$
+  \exp(2 \pi i \int_{\Sigma_k}(-))
+  :
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+  \to
+  \mathbf{B}^{n-k} U(1)_{conn}
+  \,.
+$$
+
+If now
+
+$$
+  \hat \mathbf{c}
+  : 
+  \mathbf{B}G_{conn}
+   \to 
+  \mathbf{B}^n U(1)_{conn}
+$$
+
+is any universal differential characteristic map, and $\Sigma_k$ is compact closed of dimension $k$, then the composite
+
+$$  
+  \exp(2 \pi i \int_{\Sigma_k} \hat \mathbf{c})
+  : 
+  [\Sigma_k, \mathbf{B}G_{conn}]
+   \stackrel{[\Sigma_k, \hat \mathbf{c}]}{\to}
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+   \stackrel{\exp(2 \pi i \int_{\Sigma_k} (-))}{\to}
+  \mathbf{B}^{n-k} U(1)_{conn}
+$$ 
+
+is a "$k$-extended action functional".
+
+An important class of [[schreiber:∞-Chern-Simons theories]] arising this way come from $\hat \mathbf{c}$ that are [[cup product|cup products]] of two other differential classes. For instance in ordinary abelian [[higher dimensional Chern-Simons theory]] one starts with the tautological differential class
+
+$$
+  \hat \mathbf{DD}  
+    : 
+  \mathbf{B}^{2k+1} U(1)_{conn} 
+    \to 
+  \mathbf{B}^{2k+1} U(1)_{conn}
+$$
+
+and then forms its [[differential cup product]]
+
+$$
+  \hat \mathbf{c} 
+  \coloneqq
+  \mathbf{B}^{2k+1} U(1)_{conn}   
+  \stackrel{}{\to}
+  \mathbf{B}^{2k+1} U(1)_{conn} \times   
+  \mathbf{B}^{2k+1} U(1)_{conn}
+  \stackrel{\hat \mathbf{DD} \cup \hat \mathbf{DD}}{\to}
+  \mathbf{B}^{4k + 3} U(1)_{conn}
+  \,.
+$$
+
+The action functional induced by this is that of $(4k+3)$-dimensional [[higher dimensional Chern-Simons theory]] which sends those $(2k+1)$-form fields $C$ whose underlying bundle happens to be trivial to 
+$\exp(2 \pi i\int_{\Sigma_{4k+3}} C \wedge d_{dR} C)$.
+
+The anomaly line bundle which we now turn to arises in this kind of way, only for the slightly more general case that the [[schreiber:∞-Chern-Simons theory]] involved is not given by a differential square, but by a genuine differential cup of two different cocycles: the electric and the magnetic differential cocycles.
+
+
 #### Gauge interaction and the charge anomaly
+ {#GaugeInteractionAndChargeAnomaly}
 
 We discuss now how the action functional of the (higher) gauge theory in the presence of [[electric charge]] [[current]] and [[magnetic charge]] [[current]] has in general an [[quantum anomaly|anomaly]], but this anomaly exhibits itself, in traditional language, as something living over _families_ of gauge fields. But by the formula for the [[internal hom]] of sheaves/stacks
 
