@@ -833,6 +833,7 @@ One checks that this is indeed the correct prequantization as considered in ([Wi
 
 
 ## Formulation in equivariant K-theory (Dirac induction)
+ {#DiracInduction}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -867,6 +868,13 @@ and
 =--
 
 This is ([FHT II, (1.27), theorem 1.28](#FHT)).
+
+
+## Formulation in equivariant elliptic cohomology
+
+The [above](#DiracInduction) formulation of the orbit method in 
+[[equivariant K-theory]] has a higher order generalization where one replaces [[equivariant K-theory]] with [[equivariant cohomology|equivariant]] [[elliptic cohomology]]. Here the "elliptic" orbit method directly knows about the [[representation theory]] of the [[loop group]]. ([Ganter 12](#Ganter12)).
+
 
 
 ## Theorems
@@ -939,6 +947,10 @@ Discussion of the orbit method in terms of [[equivariant K-theory]] and [[Dirac 
 * [[Peter Hochs]], section 2.2 of _Quantisation of presymplectic manifolds, K-theory and group representations_ ([arXiv:1211.0107](http://arxiv.org/abs/1211.0107))
  {#Hochs12}
 
+The generalization of this to [[elliptic cohomology]] is discussed in 
+
+* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+ {#Ganter12}
 
 Generalization to [[supergeometry]] is discussed in:
 
