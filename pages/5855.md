@@ -142,4 +142,5 @@ For that reason if there is some other fibered category $\mathcal{F}$ over the o
 
 ## Related concepts
 
-* [[coextension of scalars]]
+* **extension of scalars** $\dashv$ [[restriction of scalars]] $\dashv$ [[coextension of scalars]]
+
