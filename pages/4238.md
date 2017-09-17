@@ -35,7 +35,7 @@ $$
 
 to the symmetric monoidal [[dg-category]] of chain complexes.
 
-This means in particular that when two [[Riemann surface]]s are homologous as chains in the [[moduli space]] of Riemann surfaces, then the TCFT will send them to two equivalent morphisms of chain complexes between the in- and the output states. 
+This means in particular that when two [[Riemann surface]]s $\Sigma_1$ and $\Sigma_2$ are homologous as chains in the [[moduli space]] of Riemann surfaces, then the TCFT will send them to two equivalent morphisms $f_{\Sigma_1}$ and $f_{\Sigma_2}$ of chain complexes between the in- and the output states. The equivalence between $f_{\Sigma_1}$ and $f_{\Sigma_2}$, however, is not unique neither up to equivalence. Rather, it funtorially depends on the 1-chain realizing the homology equivalence between $\Sigma_1$ and $\Sigma_2$ as 0-chains in the moduli space. In particular, two non-homologous 1-chains between $\Sigma_1$ and $\Sigma_2$ will in general lead to non-equivalent equivalences between $f_{\Sigma_1}$ and $f_{\Sigma_2}$.
 
 ## Classification
 
