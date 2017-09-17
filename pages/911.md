@@ -81,6 +81,8 @@ Given a functor $P:C\to\mathbf{Set}$, the **category of elements** $el(P)$ or $E
 
   $El_P(C)$ is also often written with [[end|coend]] notation as $\int^C P$, $\int^{c: C} P(c)$, or $\int^c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$.
 
+* It is the (strict) [[oplax colimit]] of the composite $C \xrightarrow{P} \mathbf{Set} \xrightarrow{disc} \mathbf{Cat}$; see [[Grothendieck construction]].
+
 When $C$ is a [[concrete category]] and the functor $F:C\to Set$ is simply the [[forgetful functor]], we can define a functor
 
 $$Explode(-) := El_F(-).$$
@@ -89,7 +91,20 @@ This is intended to illustrate the concept that constructing a category of eleme
 
 ## Properties
 
-* The category of elements is naturally equipped with a _projection functor_ $\pi_P:El_P(C) \to C$ given by $(c,x)\mapsto c$ and $u\mapsto u$.  This projection is a [[Grothendieck fibration|discrete opfibration]] and can be viewed also as a $C$-indexed [[family of sets]].
+The category of elements defines a functor $el : \mathbf{Set}^{C} \to \mathbf{Cat}$.  This is perhaps most obvious when viewing it as an oplax colimit.  Furthermore we have:
+
++-- {: .num_theorem #ColimitPreserving}
+###### Theorem
+The functor $el : \mathbf{Set}^{C} \to \mathbf{Cat}$ is [[cocontinuous functor|cocontinuous]].
+=--
++-- {: .proof}
+###### Proof
+As remarked above, $el$ is a strict [[weighted colimit]] [[2-colimit]], hence we have an isomorphism
+$$ el(P) \cong \int^{c\in C} J(c) \times disc(P(c)) $$
+for some weight $J:C^{op} \to \mathbf{Cat}$, where $disc:\mathbf{Set}\hookrightarrow \mathbf{Cat}$ is the inclusion of the [[discrete categories]].  But since $disc$ has a right adjoint (regarded purely as a 1-functor), it preserves (1-categorical) colimits.  Since colimits also commute with colimits, the composite operation $\el$ also preserves colimits.
+=--
+
+Now for any $C$, the terminal object of $\mathbf{Set}^C$ is the functor $\Delta 1$ constant at the [[point]].  The category of elements of $\Delta 1$ is easily seen to be just $C$ itself, so the unique transformation $P\to \Delta 1$ induces a _projection functor_ $\pi_P: \el(P) \to C$ defined by $(c,x)\mapsto c$ and $u\mapsto u$.  The projection functor is a [[discrete opfibration]], and can be viewed also as a $C$-indexed [[family of sets]].  When we regard $\el(P)$ as equipped with $\pi_P$, we have an embedding of $\mathbf{Set}^C$ into $\mathbf{Cat}/C$.
 
 
 ##Examples
