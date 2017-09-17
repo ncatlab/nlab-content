@@ -111,7 +111,7 @@ To capture the theory fully, we need to include a little more data: a natural ma
 
 ### Other examples
 
-* Monads on [[partial order|posets]] are particularly simple.  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
+* Monads on [[partial order|posets]] are particularly simple (in particular, they are always [[idempotent monad|idempotent]]).  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
 
 * An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
