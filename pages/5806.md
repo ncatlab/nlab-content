@@ -88,7 +88,7 @@ Even more generally one can allow the [[∞-groupoid]]s $X, Y, \cdots$ to be [[(
 ### Direct definition
 
 The [[(∞,2)-category]] of spans in [[∞Grpd]] is discussed in some detail in ([Dyckerhoff-Kapranov 12, section 10](#DyckerhoffKapranov12)).
-For a sketch of the definition for all $n$ see ([Lurie, page 57](#Lurie)).
+A sketch of the definition for all $n$ was given in ([Lurie, page 57](#Lurie)). A fully detailed version of this definition is in ([Haugseng 14](#Haugseng14)).
 
 ### Definition via coalgebras
  {#DefinitionViaCoalgebras}
@@ -144,17 +144,21 @@ as it should be for the composition of [[correspondences]].
 ## Properties
  {#Properties}
 
+### Fully dualizability
+
 +-- {: .num_prop }
-###### Claim
+###### Proposition
 
-$Span_n(\infty Grpd)$ is a [[symmetric monoidal (∞,n)-category]] [[cobordism hypothesis|with duals]].
+$Span_n(\infty Grpd)$ is a [[symmetric monoidal (∞,n)-category|symmetric monoidal]] [[(∞,n)-category with duals]]. 
 
-More generally If $C$ is any symmetric monoidal $(\infty,n)$-category with 
+More generally If $C$ is any symmetric monoidal $(,n)$-category with 
 duals, then so is $Span_n(\infty Grpd,C)$.
+
+In particular every object in these is a [[fully dualizable object]].
 
 =--
 
-This appears as ([Lurie, remark 3.2.3](#Lurie)).
+This appears as ([Lurie, remark 3.2.3](#Lurie)). A proof is written down in ([Haugseng 14](#Haugseng14)).
 
 Let $Bord_n$ be the [[(∞,n)-category of cobordisms]].
 
@@ -208,13 +212,18 @@ An explicit definition of the [[(∞,2)-category]] of spans in [[∞Grpd]] is in
  {#DyckerhoffKapranov12}
 
 
-An inductive definition of the [[symmetric monoidal (∞,n)-category]] $Span_n(\infty Grpd)/C$ of spans of [[∞-groupoid]] over a symmetric monoidal $(\infty,n)$-category $C$ is in section 3.2 of 
+An inductive definition of the [[symmetric monoidal (∞,n)-category]] $Span_n(\infty Grpd)/C$ of spans of [[∞-groupoid]] over a symmetric monoidal $(\infty,n)$-category $C$ is sketched in section 3.2 of 
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
  {#Lurie}
 
 there denoted $Fam_n(C)$. Notice the heuristic discussion on page 59.
 
+A detailed version of this definition is given in 
+
+* {#Haugseng14} [[Rune Haugseng]], _Iterated spans and "classical" topological field theories_ ([arXiv:1409.0837](http://arxiv.org/abs/1409.0837))
+
+Both articles comment on the relation to [[schreiber:Local prequantum field theory]].
 
 The generalization to an $(\infty,n)$-category $Span_n((\infty,1)Cat^Adj)$ of spans between [[cobordism hypothesis|(∞,n)-categories with duals]] is discussed on p. 107 and 108.
 
