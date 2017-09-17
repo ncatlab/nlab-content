@@ -1,0 +1,11 @@
+
+
+## Idea
+
+(...)
+
+## Related concepts
+
+* [[flop transition]]
+
+[[!redirects conifold transitions]]
