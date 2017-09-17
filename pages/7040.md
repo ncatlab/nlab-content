@@ -32,7 +32,7 @@ Besides the axioms themselves, other nice properties hold in dream mathematics. 
 
 *  Every (total) [[linear function]] from a [[Fréchet space]] to any [[topological vector space]] is [[continuous map|continuous]].
 
-*  The [[dual space|dual]] of the [[Lebesgue space]] $L^\infty$ is $L^1$ (so in particular these two spaces are [[reflexive Banach space|reflexive]]).
+*  The [[dual vector space|dual]] of the [[Lebesgue space]] $L^\infty$ is $L^1$ (so in particular these two spaces are [[reflexive Banach space|reflexive]]).
 
 
 ## References
