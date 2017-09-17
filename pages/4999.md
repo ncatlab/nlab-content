@@ -83,18 +83,8 @@ _if $\phi$, $\phi\to \psi \in \Lambda$ then $\psi \in \Lambda$_ , i.e. detachmen
 
 ####Modal Logics exist####
 As the set of all formulae in $\mathcal{L}_\omega(n)$ satisfies the conditions for a logic and any intersection of logics is itself also a logic, we have that given a set of formulae decreed to be 'axioms' for a logic, there is a smallest modal logic containing them.
-
-##Uniform and normal logics##
-
-A logic is **uniform** if it is closed under the rule of uniform substitution of $\mathcal{L}_\omega(n)$-formulae for propositional variables and is **normal** if it contains the schemata:
-  
-(K)  $\Diamond_i(\psi \vee \chi) \to \Diamond_i(\psi)\vee \Diamond_i(\chi)$  
-  
-(N) $\neg \Diamond_i(\bot)$
-
-and monotonicity (for each $i$):
  
-if $\psi \to \chi \in \Lambda$ then $\Diamond_i \psi \to \Diamond_i \chi \in \Lambda$.  
+One of the basic axiom systems leads to [[normal modal logic]]s. 
  
 =--
 ## Semantics## 
