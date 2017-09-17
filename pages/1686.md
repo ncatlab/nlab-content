@@ -198,18 +198,18 @@ This is discussed at _[[spectral sequence of a double complex]]_.
 ### Spectral sequences for hyper-derived functors 
   {#HyperDerivedFunctors}
 
-From the [[spectral sequence for a double complex]] one obtains as a special case a spectral sequence that computes [[hyper-derived fuctors]]. 
+From the [[spectral sequence for a double complex]] one obtains as a special case a spectral sequence that computes [[hyper-derived functors]]. 
 
 (...)
 
 ### Grothendieck spectral sequence 
  {#GrothendieckSpectralSequence}
 
-The _[[Grothedieck spectral sequence]]_ computes the composite of two [[derived functors]] from the two derived functors separately.
+The _[[Grothendieck spectral sequence]]_ computes the composite of two [[derived functors]] from the two derived functors separately.
 
 Let $\mathcal{A} \stackrel{F}{\to} \mathcal{B} \stackrel{G}{\to} \mathcal{C}$ be two [[left exact functors]] between [[abelian categories]].
 
-Write $R^p F : \mathcal{D} \to Ab$ for the [[cochain cohomology]] of the [[derived functor]] of $F$ in degree $p$ etc. 
+Write $R^p F : \mathcal{D} \to Ab$ for the [[cochain cohomology]] of the [[derived functor]] of $F$ in degree $p$ etc. .
 
 
 +-- {: .num_theorem}
@@ -293,12 +293,12 @@ This is the Grothendieck spectral sequence.
  {#LeraySpectralSequence}
 
 The _[[Leray spectral sequence]]_ is the special case of the 
-[[Grothendieck spectral sequence]] for the case where the two functors being composed are a [[direct image|push-foward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
+[[Grothendieck spectral sequence]] for the case where the two functors being composed are a [[direct image|push-forward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
 
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $X, Y$ be suitable [[sites]] and $f : X \to Y$ be a morphism of sites. () Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bulle(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
+Let $X, Y$ be suitable [[sites]] and $f : X \to Y$ be a morphism of sites. () Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bullet(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
 
 $$
   \Gamma_X : \mathcal{C} \stackrel{f_*}{\to} \mathcal{D} \stackrel{\Gamma_Y}{\to} Ch_\bullet(Ab)
@@ -339,7 +339,7 @@ $$
   \,.
 $$
 
-The [[derived functor]]s of $Hom_{R_2}(-,N)$ and $\otimes_{R_2} N$ are the [[Ext]]- and the [[Tor]]-functors, respectively, so the Grothendieck spectral sequence applied to these composites yields a  [[base change]] spectral sequence for these.
+The [[derived functor]]s of $Hom_{R_2}(-,N)$ and $\otimes_{R_2} N$ are the [[Ext]]- and the [[Tor]]-functors, respectively, so the Grothendieck spectral sequence applied to these composites yields a [[base change]] spectral sequence for these.
 
 #### Hochschild-Serre spectral sequence
  {#HochschildSerreSpectralSequence}
@@ -614,6 +614,7 @@ Homotopy spectral sequences in model categories are discussed in
 Spectral sequences in general categories with [[zero morphisms]] are discussed in 
 
 * [[Marco Grandis]], _Homotopy spectral sequences_ ([arXiv:1007.0632](http://arxiv.org/abs/1007.0632))
+
 
 ### History
 
