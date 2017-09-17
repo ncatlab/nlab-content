@@ -254,3 +254,5 @@ This is the content of section 2.1.4 of
 There the model structure $(sSet/S)_{lfib}$ is called the **covariant model structure** and the model structure $(sSet/S)_{rfib}$  the **contravariant model structure**.
 
 [[!redirects model structure for right fibrations]]
+[[!redirects covariant model structure]]
+[[!redirects contravariant model structure]]
