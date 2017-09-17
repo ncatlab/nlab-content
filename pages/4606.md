@@ -1,0 +1,1 @@
+Given a [[set]] $X$, the __empty function__ to $X$ is the [[function]] to $X$ from the [[empty set]].  This always exists and is unique, since the empty set is the [[initial object]] of the [[category of sets]].
