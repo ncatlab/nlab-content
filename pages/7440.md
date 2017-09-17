@@ -59,7 +59,7 @@ $$
   x_0, x_1, x_2 \colon X_0 \;\vdash\; comp_{x_0,x_1,x_2} \colon X_1(x_0,x_1) \times X_1(x_1, x_2) \to X_1(x_0, x_2)
 $$
 
-to be thought of as taking a [[pair]] $(g,f)$ of compasable morphisms to their composite morphism $g \circ f$, and demand that it satisfies [[associativity]] up to [[homotopy]]. This approach is explored below in the section _[H-category types](#HCategoryTypes)_, where it is also discussed that this is _not_ the correct notion of category objects internal to a homotopy-theoretic context. 
+to be thought of as taking a [[pair]] $(g,f)$ of composable morphisms to their composite morphism $g \circ f$, and demand that it satisfies [[associativity]] up to [[homotopy]]. This approach is explored below in the section _[H-category types](#HCategoryTypes)_, where it is also discussed that this is _not_ the correct notion of category objects internal to a homotopy-theoretic context. 
 
 To get a hint for what the correct formulation should be, it is useful to turn this around and investigate which internal-homotopy-theory structure an _ordinary_ [[small category]] ([[internal category|internal to]] [[Set]]) gives rise to.
 
