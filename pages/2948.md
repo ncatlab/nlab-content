@@ -17,7 +17,7 @@
 
 If $C$ and $D$ are monoidal categories, an **oplax monoidal functor** $F : C \to D$ is defined to be a [[lax monoidal functor]] $F: C^{op} \to D^{op}$.  So, among other things, tensor products are preseved up to morphisms of the following sort in $D$:
 
-$$\phi_{c,c'} : F(c \otimes c') \to F(c) \otimes F(c')$$
+$$\Delta_{c,c'} : F(c \otimes c') \to F(c) \otimes F(c')$$
 
 which must satisfy a certain [[coherence law]].
 
@@ -26,6 +26,51 @@ which must satisfy a certain [[coherence law]].
 An oplax monoidal functor sends [[comonoids]] in $C$ to comonoids in $D$, just as a lax monoidal functor sends [[monoids]] in $C$ to monoids in $D$.  For this reason an oplax monoidal functor is sometimes called a **lax comonoidal functor**.  The other obvious terms, __colax monoidal__ and __lax opmonoidal__, also exist (or at least are attested on Wikipedia).
 
 Note that a *strong* opmonoidal functor --in which the morphisms $\phi$ are required to be [[isomorphisms]]--- is the same thing as a [[strong monoidal functor]].
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a pair of [[adjoint functor]]s and let $(C,\otimes)$ and $(D,\otimes)$ be structures of [[monoidal categories]]. 
+
+Then if $R$ is a [[lax monoidal functor]] $L$ becomes an oplax monoidal functor with oplax unit
+
+
+$$
+  L(I_D) \to I_C
+$$
+
+the [[adjunct]] of the lax unit $I_D \to R(I_D)$ of $R$ and with oplax monoidal transformation 
+
+$$
+    (L (x \otimes y) \stackrel{\Delta_{x,y}}{\to} L(x) \otimes L(y)) 
+$$
+
+given by the [[adjunct]] of
+
+$$
+  x \otimes y \stackrel{i_x \otimes i_y}{\to}
+  R L x \otimes R L y
+  \stackrel{\nabla_{L x, L y}}{\to}
+  R(L x \otimes L y)
+  \,.
+$$
+
+=--
+
+Notice that this adjunct is the composite
+
+$$
+  L(x \otimes y) \stackrel{L(i_x \otimes i_y)}{\to}
+  L(R L x \otimes R L y)
+  \stackrel{L(\nabla_{L x, L y})}{\to}
+  L R(L x \otimes L y)
+  \stackrel{\epsilon_{L x \otimes L y}}{\to}
+  L x \otimes L y
+  \,.
+$$
+
+This appears for instance on [p. 17](http://arxiv.org/PS_cache/math/pdf/0209/0209342v2.pdf#page=17) of ([SchwedeShipley](#SchwedeShipley))
 
 ## Related concepts
 
@@ -40,6 +85,13 @@ Note that a *strong* opmonoidal functor --in which the morphisms $\phi$ are requ
 * [[bilax monoidal functor]]
 
 * [[Frobenius monoidal functor]]
+
+## References
+
+The construction of oplax monoidal functors from right adjoint lax monoidal functors is considered for instance around page 17 of
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
+{#SchwedeShipley}
 
 
 [[!redirects oplax monoidal functors]]
