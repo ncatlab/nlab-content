@@ -2,6 +2,7 @@
 +-- {: .standout}
 Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
 =--
+***
 
 <table style="border-style: hidden"><tr><td><i>Search the nLab via Google:</i></td><td><form name="gsearch" method="get" action="http://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="http://www.ncatlab.org/nlab"/></form></td></tr></table>
 
@@ -10,9 +11,12 @@ $one \tensor{\prod}{_three} two$
 
 $\righttoleftarrow$ $\lefttorightarrow$ $\leftsquigarrow$
 
+Check that these produce different results in the MathML:
+
+*  $\widehat{S(\mathfrak{g}^*)}$
+*  $\hat{S(\mathfrak{g}^*)}$
+
 ***
-
-
 
 category: meta
 
