@@ -7,7 +7,13 @@
 
 The _Hermitean Yang-Mills connection_ or _Hermite-Einstein connection_ is a [[connection on a vector bundle]] on a [[complex vector bundle]] over a base space with [[almost complex structure]] and [[almost Hermitean structure]] such that its [[curvature]] 2-form is of [[Dolbeault complex|Dolbeault-type]] $(1,1)$  and, finally,the contraction of the almost Hermitean structure with the curvature 2-form is proportionalt to the identity bundle endomorphism (see e.g. [Popov 09 (2.5)](http://arxiv.org/abs/0907.0106v2)).
 
-The kinds of connections appear in the statement of the [[Donaldson-Uhlenbeck-Yau theorem]] ([Uhlenbeck-Yau 86](UhlenbeckYau86)).
+## Properties
+
+### Relation to (semi-)stable vector bundles
+
+The [[Donaldson-Uhlenbeck-Yau theorem]] ([Uhlenbeck-Yau 86](UhlenbeckYau86)) relates [[moduli]] of Hermite-Einsrein connections over compact [[Kähler manifolds]] to [[stable vector bundle|(semi-)stable vector bundles]].
+
+The [[Kobayashi-Hitchin correspondence]] generalizes this to more general [[complex manifolds]].
 
 ## References
 
