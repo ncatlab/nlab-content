@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Wess-Zumino-Witten theory
++--{: .hide}
+[[!include infinity-Wess-Zumino-Witten theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[infinity-Wess-Zumino-Witten theory - contents|higher dimensional WZW models]] the following 1-dimensional [[sigma-models]] are seen to be examples
+
+
+* the free non-relativistic [[particle]];
+
+* the massive [[Green-Schwarz action functional|Green-Schwarz]] [[superparticle]].
+
+See in ([AzcarragaIzqierdo](#AzcarragaIzqierdo)) section 8.3 and 8.7.
+
+## References
+
+Section 8.3 and 8.7 of 
+
+* Azcarraga, Izqierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_
+ {#AzcarragaIzqierdo}
