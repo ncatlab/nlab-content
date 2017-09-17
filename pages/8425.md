@@ -6,15 +6,13 @@ He is based at the University of Illinois at Chicago.
 
 * [homepage](http://homepages.math.uic.edu/~kauffman/)
 
-##References
+## References
 
 * [[Louis H. Kauffman]], Knots and Physics, World Scientific, 1991.
 
 
-[[!redirects L. H. Kauffman]]
-
-[[!redirects Louis H. Kauffman]]
-
 category:people
-
 category:knot theory
+
+[[!redirects L. H. Kauffman]]
+[[!redirects Louis H. Kauffman]]
