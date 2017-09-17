@@ -1,0 +1,5 @@
+A Zariski [[tangent space]] is well defined at any smooth point of an algebraic variety. At a singular point (say a cusp or double intersection) however, the linearized local structure is better expressed with a refinement which is called the __tangent cone__.
+
+* [[Igor Shafarevich|Igor R. Shafarevich]], _Basic algebraic geometry_ 
+* wikipedia [tangent cone](http://en.wikipedia.org/wiki/Tangent_cone)
+* [[eom]]: [tangent cone](http://www.encyclopediaofmath.org/index.php/Tangent_cone)
