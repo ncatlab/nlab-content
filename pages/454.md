@@ -1,4 +1,8 @@
 
+> This entry is about the notion in _[[order theory]]/[[logic]]_. For other notions of the same name, such as in [[bilinear form]]-theory, see at _[[lattice (disambiguation)]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -55,6 +59,8 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 * [[complete lattice]]
 
 * [[distributive lattice]]
+
+* [[modular lattice]]
 
 * [[frame]]
 
