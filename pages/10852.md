@@ -25,7 +25,7 @@ This page collects some links related to the book
 
   1986  
 
-on the [[foundations]] of [[continuum mechanics]], [[variational calculus]] and [[equations of motion]] in [[synthetic differential geometry]], [[diffeological spaces]], [[Frölicher spaces]] and of the notion [[intensive and extensive]] properties by [[mapping spaces]] in [[ring objects]],  and related constructions in [[topos theory]].
+on the [[foundations]] of [[continuum mechanics]] (also [[rational thermodynamics]]), [[variational calculus]] and [[equations of motion]] in [[synthetic differential geometry]], [[diffeological spaces]], [[Frölicher spaces]] and of the notion [[intensive and extensive]] properties by [[mapping spaces]] in [[ring objects]],  and related constructions in [[topos theory]].
 
 Related texts by Lawvere include
 
