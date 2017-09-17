@@ -21,7 +21,7 @@
 Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of [[terms]] and [[formulas]], and has close links to the [[internal logic]] of [[categories]].
 
 
-## An introduction for category-theorists 
+## As a formal language for category theory 
   {#CategoricalSemantics}
 
 One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the construction of [[objects]] and [[morphisms]] in a category_.  (An introduction and historical background is for instance in [Taylor](#Taylor) [section 2](http://www.paultaylor.eu/ASD/foufct/cattype.html).) 
@@ -46,7 +46,7 @@ A couple of side notes for experts:
 
 * 1-categorical semantics is only relevant to *[[extensional type theory|extensional]]* type theory; see the section on [[intensional type theory]] vs. [[extensional type theory]] [below](#ExtensionalIntensional).
 
-* The description given below is a somewhat simplified one, in that we identify objects of the category with single objects, rather than contexts.  This is strictly speaking only okay in type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.
+* The description given below is a somewhat simplified one, in that we identify objects of the category with single types, rather than contexts.  This is strictly speaking only okay in type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.  An alternative approach which avoids this problem is to use [[cartesian multicategories]].
 
 
 ### The internal language of a category
