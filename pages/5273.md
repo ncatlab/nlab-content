@@ -34,7 +34,11 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 ## References
 
+* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
+
+
 * [pdf](http://verbit.ru/MATH/TALKS/Israel/kahler-3.pdf)
+
 
 
 
