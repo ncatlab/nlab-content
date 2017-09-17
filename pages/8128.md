@@ -1,3 +1,4 @@
+[[!redirects URL]]
 author: AnonymousCoward
 company: 
 title: URL
@@ -15,3 +16,5 @@ My First Slide
 -----------------
 
 www.emre2.com
+nLab
+Creating URL
