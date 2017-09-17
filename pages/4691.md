@@ -161,6 +161,11 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 {#References}
 
 ### General
+ {#ReferencesGeneral}
+
+The concept of entropy was introduced, by [[Rudolf Clausius]] in 1865, in the context of [[physics]], and then adapted to [[information theory]]
+by [[Claude Shannon]] in 1948, to [[ergodic theory]] by [[Andrey Kolmogorov]] and Sinai in 1958, and to [[topological dynamics]] by
+Adler, Konheim and McAndrew in 1965.
 
 [Relative entropy](#RelativeEntropy) of [[states]] on  [[von Neumann algebras]] was introduced in 
 
