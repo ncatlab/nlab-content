@@ -9,7 +9,18 @@ Unlike with other notions of [[order]], a set equipped with a quasiorder cannot 
 Accordingly, quasiorders in general should usually be replaced by partial orders when generalising mathematics to other categories.  However, if a quasiorder satisfies comparison (if $x \lt z$, then $x \lt y$ or $y \lt z$), then it is a [[linear order]] (at least on some [[quotient set]]), which is an important concept.
 
 
+[[!redirects quasiorder]]
+[[!redirects quasiorders]]
 [[!redirects quasi-order]]
+[[!redirects quasi-orders]]
+[[!redirects quasiordering]]
+[[!redirects quasiorderings]]
+[[!redirects quasi-ordering]]
+[[!redirects quasi-orderings]]
+
 [[!redirects quasiordered set]]
+[[!redirects quasiordered sets]]
 [[!redirects quasi-ordered set]]
+[[!redirects quasi-ordered sets]]
 [[!redirects quoset]]
+[[!redirects quosets]]
