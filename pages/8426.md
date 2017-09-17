@@ -24,6 +24,8 @@ For a fiber surface $T$, the translation of the fibre around the base-space circ
 
 > (that is similar to how the [[Artin L-function]] is defined... see also  [Sikora 01, analogy 2.2 (10)](#Sikora01))
 
+In [[arithmetic topology]], Alexander-Fox theory is the analog of [[Iwasawa theory]] ([Morishita, section 7](#Morishita)).
+
 ## References
 
 * [Alexander's original paper](http://homepages.math.uic.edu/~kauffman/Alex.pdf)
@@ -36,6 +38,8 @@ Various approaches to the Alexander polynomial are described in introductory tex
 * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
 * [[Barry Mazur]], _Remarks on the Alexander polynomial_ ([pdf](http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf))
+
+* {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
 
 * {#Stallings87} John Stallings, _Constructions of fibered knots and links_, Proceedings of Symposia in Pure Mathematics, Volume 32,1987 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stallfib2.pdf))
 
