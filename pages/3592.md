@@ -75,7 +75,7 @@ Set \downarrow U & \to & Top \\
 2\text{-}im(\pi) & \to & Set.
 }$$ 
 
-But notice also that $Set \downarrow U \to Top$ is [eso and full](http://ncatlab.org/nlab/show/ternary+factorization+system#examples_9). It is eso because any topology $\mathcal{O}(S)$ on $S$ can be reconstituted from the triple $(S, P{|\mathcal{O}(S)|}, S \to P{|\mathcal{O}(S)|} \colon x \mapsto N(x))$. We claim it is full as well. For, every continuous map $X \to X'$ between topological spaces induces a continuous map between their $T_0$ reflections $X_0 \to X_{0}'$, and since algebraic lattices like $P{|\mathcal{O}(X)|}$ (being continuous lattices) are [[injective objects]] in the category of $T_0$ spaces, we are able to complete to a diagram 
+But notice also that $Set \downarrow U \to Top$ is [eso and full](http://ncatlab.org/nlab/show/ternary+factorization+system#examples_9). It is eso because any topology $\mathcal{O}(S)$ on $S$ can be reconstituted from the triple $(S, P{|\mathcal{O}(S)|}, x \mapsto N(x) \colon S \to P{|\mathcal{O}(S)|})$. We claim it is full as well. For, every continuous map $X \to X'$ between topological spaces induces a continuous map between their $T_0$ reflections $X_0 \to X_{0}'$, and since algebraic lattices like $P{|\mathcal{O}(X)|}$ (being continuous lattices) are [[injective objects]] in the category of $T_0$ spaces, we are able to complete to a diagram 
 
 $$\array{
 X & \to & X_0 & \to & P{|\mathcal{O}(X)|} \\
