@@ -27,6 +27,8 @@ Accordingly, there are [[model category]] structures on [[sSet-categories]] that
 
 * there is another model structure on [[sSet-categories]] whose fibrant objects are [[(∞,1)-category]]/[[quasi-category]]-enriched categories, and which model [[(∞,2)-categories]].
 
+Both are special cases of a [[model structure on enriched categories]].
+
 ## Model for $(\infty,1)$-categories
 
 Here we describe the model category structure on [[SSet Cat]] that 
