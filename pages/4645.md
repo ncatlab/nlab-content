@@ -1368,7 +1368,7 @@ For the purposes of [[Chern-Weil theory]] we want a good way to extract the [[cu
 
 There is an evident higher dimensional generalization of the definition of connections on 1-bundles in terms of functors out of the [[path groupoid]] discussed [above](#ConnectionOnPrincipalBundle). This we discuss now. We will see that, however, the obvious generalization captures not quite all 2-connections. But we will also see a way to recode 1-connections in terms of flat 2-connections. And that recoding then is the right general abstract perspective on connections, which generalizes to [[principal ∞-bundles]] and in fact which in the [[schreiber:differential cohomology in an (∞,1)-topos|full theory]] follows from first principles.
 
-(Constructions and results in this section are from ([SWII+III](#SW).)
+(Constructions and results in this section are from <a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">SWII, SWIII</a>)
 
 +-- {: .un_def}
 ###### Definition
@@ -1486,8 +1486,7 @@ where on the right we have the [[2-groupoid of Lie 2-algebra valued forms|2-grou
 
 =--
 
-As before, this is natural in $X$, so that we that we get a [[(infinity,1)-presheaf|presheaf of 2-groupoids]]
-
+As before, this is natural in $X$, so that we that we get a presheaf of 2-groupoids
 $$
   \mathbf{\flat}\mathbf{B}G : U \mapsto
   [CartSp^{op}, 2Grpd](\mathbf{\Pi}_2(U), \mathbf{B}G)
@@ -1536,7 +1535,7 @@ $$
 +-- {: .un_remark}
 ###### Remark
 
-The attentive reader will wonder why we do not state the last definition for general Lie 2-groups $G$. The reason is that for general $G$ 2-anafunctors out of $\mathbf{P}_2(X)$ do not produce the fully general notion of 2-connections that we are after,  but yield a special case in between flatness and non-flatness: the case where precisely the 2-form [[curvature]]-components vanish, while the 3-form curvature part is unrestricted. This case is important in itself and discussed in detail [below](#below). 
+We do not state the last definition for general Lie 2-groups $G$. The reason is that for general $G$ 2-anafunctors out of $\mathbf{P}_2(X)$ do not produce the fully general notion of 2-connections that we are after,  but yield a special case in between flatness and non-flatness: the case where precisely the 2-form [[curvature]]-components vanish, while the 3-form curvature part is unrestricted. This case is important in itself and discussed in detail [below](#below). 
 
 Only for $G$ of the form $\mathbf{B}A$ does the 2-form curvature necessarily vanish anyway, so that in this case the  definition by morphisms out of $\mathbf{P}_2(X)$ happens to already coincide with the proper general one. This serves in the following theorem as an illustration for the toolset that we are exposing, but for the purposes of introducing the full notion of $\infty$-Chern-Weil theory we will rather focus on flat 2-connections, and then show in [Curvature characteristics of 1-bundles](#CurvatureCharacteristicsI) how using these one does arrive at a functorial definition of 1-connections that does generalize to the fully general definition of $\infty$-connections.
 
@@ -1558,7 +1557,7 @@ $$
 
 where on the right we have the bicategory of $U(1)$-[[bundle gerbe]]s with connection.
 
-In particular the equivalence classes of cocycles form, the degree 3 [[ordinary differential cohomology]] of $X$:
+In particular the equivalence classes of cocycles form the degree-3 [[ordinary differential cohomology]] of $X$:
 
 $$
   H^3_{diff}(X, \mathbb{Z}) \simeq \pi_0( [C(U), [\mathbf{P}_2(-), \mathbf{B}^2 U(1)]])
@@ -1595,11 +1594,11 @@ The following example of a flat nonabelian 2-bundle is very degenerate as far as
 +-- {: .un_def}
 ###### Definition
 
-For $G$ a [[Lie group]] its [[inner automorphism 2-group]] $INN(G)$ is as a groupoid just the [[universal principal infinity-bundle|universal G-bundle]] $\mathbf{E}G$, but regarded as a 2-group with the group structure coming from the crossed module $[G \stackrel{Id}{\to} G]$.
+For $G$ a [[Lie group]], its _[[inner automorphism 2-group]]_ $INN(G)$ is as a groupoid the [[universal principal infinity-bundle|universal G-bundle]] $\mathbf{E}G$, but regarded as a 2-group with the group structure coming from the crossed module $[G \stackrel{Id}{\to} G]$.
 
 =--
 
-The delooping [[2-groupoid]] $\mathbf{B}INN(G)$ looks as
+The cartoon presentation of the delooping [[2-groupoid]] $\mathbf{B}INN(G)$ is
 
 $$
   \mathbf{B}INN(G)
@@ -1653,7 +1652,7 @@ of flat $INN(G)$-valued 2-connections and Lie-algebra valued 1-forms. Under the 
 
 =--
 
-This means that 2-connections with values in $INN(G)$ actually model 1-connections _and_ keep track of their curvatures. Using this we see in the next section a general abstract definition of connections on 1-bundles that naturally supposrt the [[Chern-Weil homomorphism]].
+This means that 2-connections with values in $INN(G)$ actually model 1-connections _and_ keep track of their curvatures. Using this we see in the next section a general abstract definition of connections on 1-bundles that naturally support the [[Chern-Weil homomorphism]].
 
 
 ### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
