@@ -16,7 +16,9 @@
 
 ## Idea
 
-In the context of [[arithmetic geometry]] a _regulator_ is a certain map from [[algebraic K-theory]] to suitable [[ordinary cohomology]] used in the study of [[L-functions]] for instance in the context of the [[Bloch-Kato conjecture]].
+In the context of [[arithmetic geometry]] a _regulator_ is a certain map from [[algebraic K-theory]] to suitable [[ordinary cohomology]].
+
+Regulators are used in the study of [[L-functions]] for instance in the context of the [[Bloch-Kato conjecture]].
 
 The simplest example of such regulators are
 
@@ -24,20 +26,143 @@ The simplest example of such regulators are
 
 * the [[Dedekind zeta-function]] of $K$;
 
-* the [[Dirichlet regulator]] map from $K_1(R) = R^\times$ to a certain real vector space.
+* the Dirichlet regulator map, discussed below
 
-Then there is The Borel regulator and generally Beilinson's regulators (...)
 
 These regulators can be understood to be essentially the [[Chern characters]] in [[algebraic K-theory]] ([Tamme 12](#Tamme12)), which has a particularly natural construction in [[differential algebraic K-theory]] ([Bunke-Tamme 12](#BunkeTamme12))
 
+## Definition
+
+### Dirichlet and Borel regulator
+ {#BorelRegulator}
+
+For $R$ a [[ring]], $K R$ denoting its [[algebraic K-theory]] [[spectrum]] and $\Sigma^n H \mathbb{R}$ a [[suspension]] of the [[Eilenberg-MacLane spectrum]] of the [[real numbers]], then a regulator of $K R$-[[cohomology theory]] is a [[homomorphism]] of [[spectra]]
+
+$$
+  r_{\sigma,p} \;\colon\; K R \longrightarrow \Sigma^p H \mathbb{R}
+$$
+
+or equivalently is the induced [[cohomology operations]]. e.g. ([Bunke-Tamme 12, 1.2](#BunkeTamme12))
+
+If here $R$ is the [[ring of integers]] of a [[number field]] and $\sigma \colon R \hookrightarrow \mathbb{C}$ is a choice of embedding into the [[complex numbers]], then the _Borel regulator_ ([Borel 74](#Borel74)) is of this form, for odd $p$, such that its induced [[cohomology operation]]
+
+$$
+  r_{\sigma,p} \;\colon\; K_1(R) \longrightarrow \mathbb{R}
+$$
+
+is the _Dirichlet regulator_ given by
+
+$$
+  u \mapsto log {\vert \sigma(u) \vert}
+  \,.
+$$
+
+A description of this in [[differential algebraic K-theory]] is in ([Bunke-Tamme  12, 1.2](#BunkeTamme12)):
+
+for $X$ a [[smooth manifold]], then a class in $K R^0(X)$ is represented by  [[finitely generated module|finitely generated]] [[projective module|projective]] $R$-[[module bundle]] $V \to X$. Write
+
+$$
+  cycl(V) \in K R^0(X)
+$$
+
+for this class. 
+
+Under the chosen embedding $\sigma$ we have the [[complexification]] $V \otimes_\sigma \mathbb{C}$ of this [[module bundle]], which is a [[complex vector bundle]] with (because $R$ is geometrically [[discrete object|discrete]]) a [[flat connection]] $\nabla_{V_\sigma}$.  
+
+The choice of hermitean structure on $V_\sigma$, hence a [[reduction of the structure group]] to the [[unitary group]] induces an adjoint connection $\nabla_{V_\sigma}^\ast$. Write then 
+
+$$
+  CS_p(\nabla_{V_\sigma}^\ast, \nabla_{V_\sigma})
+$$
+
+for the relative [[Chern-Simons form]] between these two connections, hence for the [[transgression]] of the relative [[Chern character]] in degree $p+1$. 
+
+This is a closed differential form, (the Kamber-Tondeur form, see [Bismut-Lott 95](#BismutLott95)).
+
+This differential form represents, via the [[de Rham theorem]] [[isomorphism]], the Dirichlet regulator above
+
+$$
+  r_{\sigma,p}(cycl(V))
+  \simeq
+  [CS_p(\nabla_{V_\sigma}^\ast, \nabla_{V_\sigma})]
+  \in 
+  H_{dR}^p(X) \simeq H^p(X,\mathbb{R})
+  \,.
+$$
+
+In [[differential algebraic K-theory]] this construction can be refined from landing in [[de Rham cohomology]] to landing in genuine [[ordinary differential cohomology]] ([[higher prequantization]]), hence with $CS_p(\nabla_{V_\sigma}^\ast, \nabla_{V_\sigma})$ itself realizes as the [[curvature]] of a [[circle n-bundle with connection|circle (p-1)-bundle with connection]].
+
+## Properties
+
+### Becker-Gottlieb transfer and GRR for algebraic K-theory
+ {#BeckerGottliebTransfer}
+
+For $\pi \colon X \to X$ a [[proper map|proper]] [[submersion]] of [[smooth manifolds]], there is a variant of [[fiber integration in generalized cohomology]] given by the [[Becker-Gottlieb transfer]] in some $E$-[[cohomology theory]]
+
+$$
+  tr_\pi \;\colon\; E^\ast(X) \longrightarrow E^\ast(B)
+  \,.
+$$
+
+Moreover, for the above [[sheaves]] of $R$-[[modules]] $cycl(V)$ we have the [[direct image]] sheaves $\pi_\ast V$ and there is an identity
+
+$$
+  \underset{i \geq 0}{\sum} (-1)^i cycl(R^i \pi_\ast(V))
+  \simeq
+  tr_\pi(cycl(V))
+$$ 
+
+in $K R(B)$. The [above](#BorelRegulator) Borel-Dirichlet regulator $r_{\sigma,p}$ is such that it preseves this as an identity in $H(X,\mathbb{R})$. Hence it plays a role here analogous that of the [[Chern character]] in the [[Grothendieck-Riemann-Roch theorem]].
+
+The [[Becker-Gottlieb transfer]] refines in turn to [[differential cohomology]], hence [[differential algebraic K-theory]] mapping to [[ordinary differential cohomology]], according to ([Bunke-Gepner 13](BunkeGepner13)). 
+
+However, the above relation between direct image of sheaves and push-forward in cohomology receives a correction when refined to [[algebraic differential K-theory]], a correction by a term in the image of the inclusion $a(-)$ of differential forms into [[differential cohomology]], by the [[transfer index conjecture]] one has
+
+
+$$
+  \underset{i \geq 0}{\sum} (-1)^i \widehat{cycl}(R^i \pi_\ast(V))
+   + a(something)
+  \simeq
+  \widehat{tr}_\pi(\widehat{cycl}(V))
+$$ 
+
+where the hats denote the [[differential cohomology]] refinement.
+
+
+See at _[[Becker-Gottlieb transfer]]_.
+
+
+
+
 ## References
+
+The Bott regulator is due to 
+
+* [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole
+Norm. Sup. (4) 7 (1974), 235{272 (1975). MR 0387496 
+  {#Borel74}
+
+The relation to [[Chern characters]] is made very explicit in
 
 * [[Georg Tamme]], _Karoubi's relative Chern character and Beilinson's regulator_,
 Ann. Sci. Ec. Norm. Super. (4) 45 (2012), no. 4, 601-636.
  {#Tamme12}
 
+The interpretation of these regulator Chern characters in [[differential algebraic K-theory]] is due to
+
+
+* [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
+ {#BunkeGepner13}
+
 * [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
  {#BunkeTamme12}
+
+based on 
+
+
+* [[Jean-Michel Bismut]], [[John Lott]], _Flat vector bundles, direct images and
+higher real analytic torsion_, J. Amer. Math. Soc. 8 (1995), no. 2, 291-363.
+ {#BismutLott95}
 
 See also
 
@@ -47,37 +172,9 @@ See also
 
 [[!redirects Beilinson's regulator]]
 [[!redirects Beilinson's regulators]]
----
-S Saito and Asakura: Maximal components etc. [review](http://www.ams.org/mathscinet-getitem?mr=2377474)
 
-Various defs of motivic cohomology: K-theory,  analogous to Atiyah (see Atiyah: K-theory). Higher Chow groups. Voevodsky's complexes. Suslin-Friedlander??? Homotopical def. 
+[[!redirects Borel regulator]]
+[[!redirects Borel regulators]]
 
-Scholl and Deninger defines motivic cohom with rational coeffs and Z subscript as the just the motivic cohom for q>p, and as the image of motivic cohom of a proper regular model. Conjecturally this is equiv to defining it in the latter way for all p,q.
-
-Deligne cohomology should be interpreted as Exts in a cat of mixed Hodge structures (see Scholl-Den section 2.9)
-
-Deligne cohomology relates to Betti and de Rham cohomology through a certain les, and also via 2 ses's. (Sch-Den p 3) so it seems like somehow we encode the period map, or some aspect of it, in the Deligne cohomology groups with Q-structure. For open varieties the naive def gives in general infinite-dimensional groups, must refine a little...
-
-Bloch has a construction of the regulator, using higher Chow groups. This is briefly explained in Deninger-Scholl, section 2.8. Same construction works for continuous etale cohomology.
-
-Abstract Chern class theory explained in Schneider. Relate this to oriented theories maybe.
-
-Explain the regulator as a realization map.
-
-The idea of defining the regulator on the level of complexes, or on the level of representing spectra.
-
-Source: Nekovar, Feliu, ...
-
-Various concrete cases of the regulator covered in the RSS volume
-
-[arXiv:1209.6451](http://front.math.ucdavis.edu/1209.6451) Regulators and cycle maps in higher-dimensional differential algebraic K-theory
-fra arXiv Front: math.KT av Ulrich Bunke, Georg Tamme
-We develop differential algebraic K-theory of regular and separated schemes
-of finite type over Spec(Z). Our approach is based on a new construction of a
-functorial, spectrum level Beilinson regulator using differential forms. We
-construct a cycle map which represents differential algebraic K-theory classes
-by geometric vector bundles. As an application we derive Lott's relation
-between short exact sequences of geometric bundles with a higher analytic
-torsion form.
-
-nLab page on [[nlab:Beilinson regulator]]
+[[!redirects Dirichlet regulator]]
+[[!redirects Dirichlet regulators]]
