@@ -190,6 +190,8 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
 * [[topological K-theory]]
 
+* [[K-orientation]]
+
 * [[algebraic K-theory]]
 
   * [[K-theory of a permutative category]]
