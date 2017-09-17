@@ -170,6 +170,8 @@ on [[chromatic homotopy theory]].
 
 * [[Bousfield localization]]
 
+* [[Bousfield localization of spectra]]
+
 ## Lecture 21 _Lubin-Tate theory_
 
 * [[Lubin-Tate theory]]
