@@ -26,7 +26,7 @@ This can be rephrased in more elementary terms by saying that:
 
 Just as all finite [[colimit|colimits]] can be constructed from initial objects, binary coproducts, and coequalizers, so a cocone on any finite diagram can be constructed from these three.
 
-More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone where $D$ has fewer than $\kappa$ arrows.  Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[direction|directed]] as a preorder.
+More generally, if $\kappa$ is a [[regular cardinal]], then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone where $D$ has $\lt \kappa$ arrows. Usual filtered categories are then the case $\kappa = \omega$. Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[direction|directed]] as a preorder. 
 
 
 ## Examples
