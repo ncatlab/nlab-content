@@ -35,3 +35,7 @@ It motivates (e.g. [Bump, p.18](#Bump)) the definition of the Selberg [[zeta fun
 * {#Bump} Bump, theorem 19 in _Spectral theory of $\Gamma \backslash SL(2,\mathbb{R})$_ ([[BumpSpectralTheory.pdf:file]])
 
 * {#VorosBalasz86} A. Voros and N.L. Balasz, _Chaos on the pseudosphere_, Physics Reports 143 no. 3 (1986)
+
+For [[Dirac operators]]:
+
+* Jens Bolte, Hans-Michael Stiepan, _The Selberg trace formula for Dirac operators_ ([arXiv:math-ph/0607010](http://arxiv.org/abs/math-ph/0607010))
