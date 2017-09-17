@@ -30,6 +30,15 @@ For complex vector bundles, [[complex line]] bundles are canonically [[associate
 
 The class of line bundles has a nicer behaviour (in some ways) than the class of vector bundles in general.  In particular, the [[dual bundle|dual]] of a line bundle $L$ is a [[weak inverse]] of $L$ under the tensor product of line bundles.  Thus the isomorphism classes of line bundles form a [[group]].
 
+## Examples
+
++-- {: .num_example}
+###### Example
+
+Over any [[manifold]] there is canonically the _[[density line bundle]]_ which is the [[associated bundle]] to the [[principal bundle]] underlying the [[tangent bundle]] by the [[derterminant]] homomorphism.
+
+=--
+
 ## Related concepts
 
 * [[bundle gerbe]]
