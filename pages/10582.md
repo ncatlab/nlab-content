@@ -17,14 +17,15 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-Given a point in 4-dimensional [[Minkowski spacetime]], its _celestial sphere_ is the  space of lines in its [[light cone]], hence the [[projective space]] of its [[light cone]].
+Given a point in 4-dimensional [[Minkowski spacetime]], its _celestial_ (or _heavenly_) _sphere_ is the  space of lines in its [[light cone]], hence the [[projective space]] of its [[light cone]].
+
+We can equivalently speak of rays in the past light cone (or rays in the future light cone); then your celestial sphere (the one around the point where your head is) is the sphere of which you directly perceive a portion when you look. (Since our eyes face forward, we actually see only a small portion of this sphere, but some birds see the entire sphere.) If you take the point to be Earth, then this celestial sphere is the sphere of the heavens as it appeared to the ancients.
 
 ## Properties
 
@@ -97,4 +98,8 @@ the [[Riemann sphere]].
 
 * [[twistor space]]
 
+
+[[!redirects celestial sphere]]
 [[!redirects celestial spheres]]
+[[!redirects heavenly sphere]]
+[[!redirects heavenly spheres]]
