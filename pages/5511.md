@@ -38,14 +38,7 @@ This appears below [[Higher Topos Theory|HTT, cor. 6.2.3.5]] for $C$ a [[(∞,1)
 
 ## Properties
 
-+-- {: .num_prop}
-###### Proposition
-
-For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an effective epimorphism precisely if its (-1)-[[truncated|truncation]] is a [[terminal object in an (∞,1)-category|terminal object]] in the [[over-(∞,1)-category]] $C/X$.
-
-=--
-
-This is [[Higher Topos Theory|HTT, cor. 6.2.3.5]].
+### Stability
 
 +-- {: .num_prop}
 ###### Proposition
@@ -55,6 +48,19 @@ In an [[(∞,1)-semitopos]], effective epimorphisms are stable under [[(∞,1)-p
 =--
 
 This appears as ([Lurie, prop. 6.2.3.15](#Lurie)).
+
+
+
+### Characterization
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ an [[(∞,1)-semitopos]]  we have that $f : X \to Y$ is an effective epimorphism precisely if its (-1)-[[truncated|truncation]] is a [[terminal object in an (∞,1)-category|terminal object]] in the [[over-(∞,1)-category]] $C/X$.
+
+=--
+
+This is [[Higher Topos Theory|HTT, cor. 6.2.3.5]].
 
 More generally, 
 
@@ -67,6 +73,20 @@ The effective epimorphisms in any [[(∞,1)-topos]] are precisely the [[n-connec
 
 See [[n-connected/n-truncated factorization system]] for more on this.
 
++-- {: .num_prop #CharacterizationByActionOnSubobjects}
+###### Proposition
+
+For $C$ an [[(∞,1)-topos]], a morphism $f : X \to Y$ in $C$ is effective epi precisely if the induced morphism on [[subobjects]] ([[monomorphism in an (∞,1)-category|(∞,1)-monos]], they form actually a [[small set]]) by [[(∞,1)-pullback]]
+
+$$
+  f^* : Sub(Y) \to Sub(X)
+$$
+
+is [[injective function|injective]].
+
+=--
+
+This appears as ([Rezk, lemma 7.9](#Rezk)). 
 
 ## Examples
 
@@ -93,9 +113,15 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.15]].
 
 ## References
 
+Section 7.7 of 
+
+* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+  {#Rezk}
+
 Section 6.2.3 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+  {#Lurie}
 
 [[!redirects effective epimorphism in an (∞,1)-category]]
 [[!redirects effective epimorphisms in an (∞,1)-category]]
