@@ -228,28 +228,7 @@ The object $\mathbf{Sing} X \in [CartSp^{op}, sSet]$ presents the abstractly def
 +-- {: .proof}
 ###### Proof
 
-One sees that the ordinary [[singular simplicial complex]] of $X$ equipped with discrete smooth structure is a presentation for $\mathbf{\Pi}(X)$. 
-
-There is a canonical inclusion of simplicial presheaves
-
-$$
-  Disc Sing X \to \mathbf{Sing}X
-  \,.
-$$
-
-We claim that this is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
-
-For this we need to exhibit a [[weak homotopy equivalence]]
-
-$$
-  Hom_{Top}(\Delta^\bullet,X)
-  \simeq
-   Hom_{SmthMfd}(U \times \Delta^\bullet, X)
-$$
-
-for each $U \in CartSp$.
-
-By the [[Steenrod-Wockel approximation theorem]] we have that the right is weakly equivalent to $Hom_{Top}(U \times \Delta^\bullet , X) \simeq Hom_{Top}(\Delta^\bullet, X^U) \simeq Sing X^U$. Since $X^U \simeq X$ due to the fact that the Cartesian space $U$ is contractible, the result follows.
+Using the [[Steenrod-Wockel approximation theorem]] this comes down to the same argument as for [[Euclidean topological ∞-groupoid]]s. See _[Presentation of the path ∞-groupoid](http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#PresentationOfPathGroupoid)_ there.
 
 =--
 
