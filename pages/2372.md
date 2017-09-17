@@ -52,7 +52,7 @@ Gerstenhaber algebra: essentially a [[Poisson algebra]] in the dg context.
 How to define a Gerstenhaber algebra up to homotopy?
 =--
 
-Extend the operations dfined by Gerstenhaber on $CH(A,A)$ whjich induce the erstenhaber algebra on $HH(A,A)$ to a **Gerstenhaber algebra up to homotopy**.
+Extend the operations dfined by Gerstenhaber on $CH(A,A)$ whjich induce the Gerstenhaber algebra on $HH(A,A)$ to a **Gerstenhaber algebra up to homotopy**.
 
 So we have a strict structure on Hochschild homology $HH(A,A)$ and are asking for from which homotopy structure it may come on Hochschild chains in $CH(A,A)$.
 
