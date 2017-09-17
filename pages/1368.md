@@ -277,8 +277,8 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.5.8]].
 The following analog of the corresponding result for
 1-[[categories of presheaves]] holds for $(\infty,1)$-presheaves. See [[functors and comma categories]].
 
-+-- {: .un_cor}
-###### Corollary
++-- {: .un_prop}
+###### Proposition
 **(forming overcategories commutes with passing to presheaves)**
 
 Let $C$ be a [[small (∞,1)-category]] and $p : K \to C$
