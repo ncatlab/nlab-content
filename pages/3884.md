@@ -15,19 +15,21 @@ For instance on a spacetime that is obtained from two copies of [[Minkowski spac
 
 These kinds of ideas Wheeler liked to describe by phrases such as _charge without charge_ and _mass without mass_ . Later these basic ideas have continued a life notably in the context of attempts to describe gravity by a [[topological quantum field theory]], for instance in approaches to describe [[gravity as a BF-theory]].
 
-##Mass without Mass
+## Geometric description of physical phenomena
+
+###Mass without Mass
 
 ...
 
-##Momenta without Momenta
+###Momenta without Momenta
 
 ...
 
-##Charge without Charge
+###Charge without Charge
 
 ...
 
-##Spin without Spin
+###Spin without Spin
 
 ...
 
