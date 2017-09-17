@@ -23,7 +23,7 @@ The bicategory $Map K$ is the [[locally full sub-2-category]] of $K$ determined 
 
 If $K$ is a [[cartesian bicategory]], then $Map K$ has finite $2$-products.
 
-If every map in $K$ is [[comonadic morphism|comonadic]] and $Map K$ has a terminal object, then $Map K$ is equivalent to a $1$-category.  Further, if $K$ is a [[cartesian bicategory]] and every [[comonad]] in $K$ has an [[Eilenberg--Moore object]] then $K$ is [[biequivalent]] to $Span Map K$, where $Map K$ has finite (1-)limits [\[LWW10\]](#LWW10).
+If every map in $K$ is [[comonadic morphism|comonadic]] and $Map K$ has a terminal object, then $Map K$ is equivalent to a $1$-category.  Further, if $K$ is a [[cartesian bicategory]] and every [[comonad]] in $K$ has an [[Eilenberg--Moore object]] then $K$ is [[biequivalence|biequivalent]] to $Span Map K$, where $Map K$ has finite (1-)limits [\[LWW10\]](#LWW10).
 
 $Map K$ is a [[regular category]] if and only if $K$ is a unitary tabular [[allegory]], equivalently a [[bicategory of relations]] in which every [[coreflexive morphism]] [[split idempotent|splits]].  In that case $Rel Map K \simeq K$.
 
