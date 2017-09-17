@@ -128,6 +128,16 @@ For non-vanishing [[field strength]] ("flux") of the [[supergravity C-field]] in
 
 * [[spontaneously broken symmetry]]
 
+* **Kaluza-Klein mechanism**
+
+  * [[double dimensional reduction]]
+
+  * [[moduli stabilization]]
+
+  * [[flux compactification]]
+
+  * [[landscape of string theory vacua]]
+
 
 ## References
 
