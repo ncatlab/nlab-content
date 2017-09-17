@@ -115,12 +115,19 @@ $$
   \,.
 $$
 
+
 ## Properties
  {#Properties}
 
 ### Holography
 
 By Chern-Simons [[holography]] (see there for more details) the 2d WZW [[CFT]] on $G$ is related to $G$-[[Chern-Simons theory]] in $3d$.
+
+### D-branes
+ {#DBranes}
+
+[[D-branes]] for the [[string]] in the WZW model correspond to [[conjugacy classes]] in the group manifold. See _[References - D-branes](#ReferencesDBranes)_ below.
+
 
 ## Related concepts
 
@@ -160,6 +167,17 @@ Section 2.3.18 and section 4.7 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_  ([pdf slides](http://ncatlab.org/schreiber/files/Erlangen2011Schreiber.pdf)).
 
+### D-branes
+ {#ReferencesDBranes}
+
+[[D-branes]] in the WZW model are discussed in
+
+* [[Anton Alekseev]], [[Volker Schomerus]], _D-branes in the WZW model_, Phys.Rev.D60:061901,1999 ([arXiv:hep-th/9812193v2](http://arxiv.org/abs/hep-th/9812193v2))
+
+
+## Discussion
+
+Would someone translate the Topological term for an aging algebraic topologist? B^3U(1) aka K(Z,3) or is it 4? sub conn denotes the classifying space for bundles with connection? The morphism from G to B^2 is strict or up to homotopy?
 
 
 [[!redirects WZW model]]
@@ -198,4 +216,5 @@ Section 2.3.18 and section 4.7 of
 [[!redirects Wess-Zumino theories]]
 [[!redirects Wess-Zumino-theories]]
 
-Would someone translate the Topological term for an aging algebraic topologist? B^3U(1) aka K(Z,3) or is it 4? sub conn denotes the classifying space for bundles with connection? The morphism from G to B^2 is strict or up to homotopy?
+
+
