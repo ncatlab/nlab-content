@@ -162,6 +162,7 @@ In the context of [[BV theory|BRST-BV quantization]] these statements are subsum
 
 ## Related concepts
 
+* [[renormalization scheme]]
 * [[perturbation theory]]
 * [[BV quantization]]
 * [[gauge fixing]], [[Gribov ambiguity]]
@@ -179,7 +180,7 @@ A review is in
 
 * [[R. E. Borcherds]], _Renormalization and quantum field theory_, [arxiv/1008.0129](http://arxiv.org/abs/1008.0129) 
 
-A modern mathematical account relativing to [[BV-BRST formalism]] is in 
+A modern mathematical account in terms of [[BV-BRST formalism]] and related to [[factorization algebras of observables]] is in 
 
 * [[Kevin Costello]], _Renormalization and Effective Field Theory_ AMS (2011) ([publisher webpage](http://www.ams.org/publications/authors/books/postpub/surv-170))
 
