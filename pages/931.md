@@ -18,7 +18,7 @@
 
 ## Idea
 
-For $G$ a [[group]],  a $G$-**torsor** is an [[inhabited object]]/[[space]] $P$ with an [[action]] $\rho : G \times P \to P$ by $G$ that is
+For $G$ a [[group]],  a $G$-**torsor** (also called a **principal homogeneous space**) is an [[inhabited object]]/[[space]] $P$ with an [[action]] $\rho : G \times P \to P$ by $G$ that is
 
 * free: only the identity element acts trivially;
 
@@ -249,3 +249,6 @@ A standard elementary discussion of torsors in algebraic geometry is in J. Milne
 MathOverflow: [torsors-for-monoids](http://mathoverflow.net/questions/25863/torsors-for-monoids/25886)
 
 [[!redirects torsors]]
+
+[[!redirects principal homogeneous space]]
+[[!redirects principal homogeneous spaces]]
