@@ -36,7 +36,7 @@ A **stable model category** $C$ is
 * such that the [[loop space object]] functor $\Omega$ and the [[suspension object]] functor $\Sigma$, are inverse [[equivalence of categories|equivalences]] on the [[homotopy category]] $Ho(C)$:
 
   $$ 
-    \Omega : Ho(C) \stackrel{\overset{\sime}{\leftarrow}}{\underset{\simeq}{\to}} : 
+    \Omega : Ho(C) \stackrel{\overset{\simeq}{\leftarrow}}{\underset{\simeq}{\to}} : 
    Ho(C) : \Sigma
    \,.
   $$
