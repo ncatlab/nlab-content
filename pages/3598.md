@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 =--
 =--
 
@@ -101,6 +105,8 @@ See also [Taylor](#Taylor), example 8.3.6.
 
 
 ## Related pages
+
+* [[bundle]]
 
 * [[display map category]], a sort of [[categorical model of dependent types]]
 
