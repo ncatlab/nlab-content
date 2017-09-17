@@ -125,6 +125,40 @@ Accordingly the [[spectrum]] of $A$-regulators of $\mathcal{K}(\mathcal{C})$ is 
 
 (...)
 
+## Examples
+
+### Constructions in terms of line $n$-bundles ($n-1$-bundle gerbes)
+ {#GeometricConstruction}
+
+Some special cases of Beilinson regulators have known "geometric" constructions in terms of maps relating [[holomorphic line n-bundles]] for various $n$.
+
+The regulator
+
+$$
+  c_{2,2} \colon K_2(X) \longrightarrow H^2(X, \mathbb{Z}(2)_{\mathcal{D}})
+$$
+
+is given by sending pairs of non-vanising [[holomorphic functions]] to the [[holomorphic line bundle]] which is their [[Beilinson-Deligne cup product]] (the "[[Deligne line bundle]]") ([Bloch 78](#Bloch78)).
+
+Moreover, the regulator 
+
+$$
+  c_{2,1} \colon K_1(X) \longrightarrow H^3(X, \mathbb{Z}(2)_{\mathcal{D}})
+$$
+
+or rather its component
+
+$$
+  c_{2,1} \colon H^1(X, \mathbf{K}_2) \longrightarrow H^3(X, \mathbb{Z}(2)_{\mathcal{D}})
+$$
+
+is given by sending functions constituing a [[cocycle]] in the relevant [[Gersten complex]] to a [[bundle gerbe]] whose transition line bundles are [[Deligne line bundles]] built from these functions ([Brylinski 94, theorem 3.3](#Brylinski94)).
+
+Notice that $c_{2,1}$ is the regulator that interpolates the [[string 2-group]]/[[universal Chern-Simons line 3-bundle]] for a [[reductive algebraic group]] from the algebraic to the complex-analytic realm, see at _[universal Chern-Simons line 3-bundles -- For reductive algebraic groups](universal+Chern-Simons+line+3-bundle#ForReductiveAlgebraicGroups)_.
+
+
+
+
 ## Properties
 
 ### Becker-Gottlieb transfer and GRR for algebraic K-theory
@@ -176,7 +210,9 @@ The Borel regulator is due to
 
 * {#Borel74} [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole Norm. Sup. (4) 7 (1974), 235-272 (1975). MR 0387496 
   
-The Beilinson regulator (with values in [[Deligne cohomology]]) is due to 
+The Beilinson regulator with values in [[Deligne cohomology]] is due to 
+
+* {#Bloch78} [[Spencer Bloch]], _Applications of the dilogarithm function in algebraic Ktheory and algebraic geometry_, in: Proc. of the International Symp. on Alg. Geometry, Kinokuniya, Tokyo, 1978
 
 * {#Bloch81} [[Spencer Bloch]], _The dilogarithm and extensions of Lie algebras_, Algebraic K-Theory Evanston 1980, Lecture Notes in Mathematics Volume 854, 1981, pp 1-23
 
