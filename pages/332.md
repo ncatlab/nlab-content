@@ -3,7 +3,7 @@ See also [[topology]].
 #some of the entries related to geometry#
 
 * [[differential geometry]], [[differential topology]], [[Diff]], [[cobordism]]
-* [[differential form]], [[tangent space]], [[tangent bundle]]. [[cotangent bundle]], [[cotangent complex]]
+* [[differential form]], [[tangent space]], [[tangent bundle]], [[cotangent bundle]], [[cotangent complex]]
 * [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]], [[Lagrangian submanifold]]
 * [[multisymplectic geometry]], [[n-symplectic manifold]], [[foliation]], [[integrable distribution]], [[G-structure]]
 * [[fibre bundle]], [[principal bundle]], [[noncommutative principal bundle]], [[vector bundle]]
