@@ -2477,7 +2477,8 @@ $$
 
 
 
-### Maurer-Cartan forms and curvature characteristic forms {#CurvatureCharacteristics}
+### Maurer-Cartan forms and curvature characteristic forms      
+  {#CurvatureCharacteristics}
 
 In the [intrinsic de Rham cohomology](#deRhamCohomology) of a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] [[∞-connected (∞,1)-topos|∞-connected]] there exist canonical cocycles that we may identify with [[Maurer-Cartan form]]s and with universal [[curvature characteristic form]]s.
 
@@ -2527,7 +2528,7 @@ $$
 =--
 
 
-+-- {: .un_def}
++-- {: .un_defn #UniversalCurvatureForms}
 ###### Definition
 
 
@@ -2541,6 +2542,55 @@ for the intrinsic Maurer-Cartan form and call this the intrinsic **universal [[c
 
 =--
 
+
+### Differential and variational calculus
+ {#VariationalCalculus}
+
+We discuss an abstract formulation of [[variational calculus]] in any cohesive $(\infty,1)$-topos $\mathbf{H}$ using the [intrinsic de Rham cohomology](#deRhamCohomology) and the [intrinsic curvature characteristic forms](#CurvatureCharacteristics).
+
+Let $K \in Trunc_{\leq 0} \mathbf{H} \hookrightarrow \mathbf{H}$ be an [[abelian group|abelian]] [[0-truncated]] [[group object]] in the cohesive $(\infty,1)$-topos $\mathbf{H}$.
+
++-- {: .un_defm}
+###### Definition
+
+For $X \in \mathbf{H}$, $n \in \mathbb{N}$ 
+and $f : X \to \mathbf{B}^n A$ a morphism in $\mathbf{H}$, we say that the [[homotopy fiber]] $X_{\{d f = 0\}} \to $ of the postcomposition 
+
+$$
+  d f : X \stackrel{f}{\to} \mathbf{B}^n K
+   \stackrel{\theta}{\to}
+  \mathbf{\flat}_{dR} \mathbf{B}^{n+1} K
+$$
+
+with the [universal curvature form](#UniversalCurvatureForms) $\theta$, hence the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    X_{\{d f = 0\}} &\to& *
+    \\
+    \downarrow && \downarrow^{\mathrlap{0}}
+    \\
+    X &\stackrel{d f}{\to}& \mathbf{\flat}_{dR} \mathbf{B}^{n+1}K
+  }
+$$
+
+is the **critical locus** of $f$.
+
+=--
+
+Here the right vertical morphism is the canonical point of the 
+[de Rham coefficient object](#deRhamCohomology) $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} K$.
+
++-- {: .un_note}
+###### Remark
+
+If $f : X \to \mathbf{B}^n K$ is regarded as the [[action functional]] of a [[quantum field theory]] with [[configuration space]] $X$ (in codimension $n$) then $X_{\{d f = 0\}}$ is the (extended) [[covariant phase space]] of the system. 
+
+=--
+
+For more on this see the discussion at 
+[Higher holonomy and Chern-Simons functional](#ChernSimonsTheory)
+below.
 
 ### Differential cohomology {#DifferentialCohomology}
 
@@ -3002,7 +3052,8 @@ $(\infty,1)$-pullbacks for the $\mathbf{H}_{diff}(X, \mathbf{B}^{n_i}A)$.
 =--
 
 
-### Higher holonomy and Chern-Simons functional {#ChernSimonsTheory}
+### Higher holonomy and Chern-Simons functional 
+  {#ChernSimonsTheory}
 
 The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
 cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomy]] and [[Chern-Simons theory|Chern-Simons functionals]].
@@ -3179,16 +3230,20 @@ In the language of [[sigma-model]] [[quantum field theory]] the ingredients of t
 
 In suitable situations this construction refines to an internal construction.
 
-Let $dim \Sigma = n$, assume that $\mathbf{H}$ has a canonical [[line object]] $\mathbb{A}^1$ and a [[natural numbers object]] $\mathbb{Z}$. Then the [[action functional]] $\exp(i S(-))$ may lift to the [[internal hom]] with respect to the canonical <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">cartesian closed monoidal structure</a> on any [[(∞,1)-topos]] to a morphism of the form
+Assume that $\mathbf{H}$ has a canonical [[line object]] $\mathbb{A}^1$ and a [[natural numbers object]] $\mathbb{Z}$. Then the [[action functional]] $\exp(i S(-))$ may lift to the [[internal hom]] with respect to the canonical <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">cartesian closed monoidal structure</a> on any [[(∞,1)-topos]] to a morphism of the form
 
 $$
-  \exp(i S_{\mathbf{c}}(-)) : [\Sigma,\mathbf{B}G_{conn}] \to \mathbb{A}^1/\mathbb{Z}
-  \,,
+  \exp(i S_{\mathbf{c}}(-)) : [\Sigma,\mathbf{B}G_{conn}] \to 
+  \mathbf{B}^{n-dim \Sigma}\mathbb{A}^1/\mathbb{Z}
+  \,.
 $$
 
-where $\mathbb{A}^1$ is the [[line object]].
+We call $[\Sigma, \mathbf{B}G_{conn}]$ the [[configuration space]] of the [[schreiber:∞-Chern-Simons theory]] defined by $\mathbf{c}$ and $\exp(i S_\mathbf{c}(-))$ the [[action functional]] in [[codimension]] 
+$(n-dim\Sigma)$ defined on it. 
 
-We call $[\Sigma, \mathbf{B}G_{conn}]$ the [[configuration space]] of the [[schreiber:∞-Chern-Simons theory]] defined by $\mathbf{c}$ and $\exp(i S_\mathbf{c}(-))$ the [[action functional]] defined on it. Postcomposition with the [canonical differential form](CurvatureCharacteristics)
+We apply [variational calculus](#VariationalCalculus) to this object:
+
+Postcomposition with the [canonical differential form](#CurvatureCharacteristics)
 
 $$
   d \exp(i S_{\mathbf{c}}(-)) : 
@@ -3199,11 +3254,11 @@ $$
   \mathbf{\flat}_{dR} \mathbf{B}\mathbb{A}^1
 $$
 
-yields an [intrinsic closed differential form](#deRhamCohomology) on configuration space, called the [[Euler-Lagrange equation]] of the action. Its [[homotopy fiber]] $P$, the [[(∞,1)-pullback]]
+yields an [intrinsic closed differential form](#deRhamCohomology) on configuration space, called the [[equation of motion]] or [[Euler-Lagrange equation]] of the [[action functional]]. Its [[homotopy fiber]] $X_{\{d \exp(i S) = 0\}}$, the [[(∞,1)-pullback]]
 
 $$
   \array{
-    P &\to& *
+    X_{\{d \exp(i S) = 0\}} &\to& *
     \\
     \downarrow && \downarrow^{\mathrlap{0}}
     \\
