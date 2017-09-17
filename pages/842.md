@@ -20,7 +20,7 @@ For $K$ and $C$ two [[quasi-category|quasi-categories]] and $F : K \to
 C$ an [[(∞,1)-functor]] (a morphism of the underlying [[simplicial set]]s) , the **limit** over $F$ is, if it exists, the [[terminal object in a quasi-category|quasi-categorical terminal object]] in the [[over quasi-category]] $C_{/F}$:
 
 $$
-  lim F := TerminalObj(C_{/F})
+  lim_{\leftarrow} F := TerminalObj(C_{/F})
   \,.
 $$
 
@@ -33,9 +33,14 @@ A **colimit** in a quasi-category is accordingly an limit in the [[opposite quas
 
 Notice from the discussion at [[join of quasi-categories]] that there are two definitions -- denoted $\star$ and $\diamondsuit$ -- of join, which yield results that differ as simplicial sets, though are equivalent as quasi-categories.
 
-The notation $C_{/F}$ denotes the definition of [[over quasi-category]] induced from $*$, while the notation $C^{/F}$ denotes that induced from $\diamondsuit$.
+The notation $C_{/F}$ denotes the definition of [[over quasi-category]] induced from $*$, while the notation $C^{/F}$ denotes that induced from $\diamondsuit$. Either can be used for the computation of limits in a quasi-category, as for quasi-categorical purposes they are weakly equivalent.
 
-Either can be used for the computation of limits in a quasi-category, as for quasi-categorical purposes they are weakly equivalent.
+So we also have
+
+$$
+  lim_{\leftarrow} F := TerminalObj(C^{/F})
+  \,.
+$$
 
 See [[Higher Topos Theory|HTT, prop 4.2.1.5]].
 
