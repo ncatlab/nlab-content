@@ -1,0 +1,58 @@
+
+
+**[[differential cohomology]]**
+
+## Ingredients
+
+* [[cohomology]]
+
+* [[Chern character]]
+
+## Connections on bundles
+
+* [[connection on a bundle|connection]]
+
+  * [[parallel transport]]
+
+  * [[holonomy]]
+
+* [[curvature]]
+
+  * [[curvature characteristic form]]
+
+* [[Chern-Weil theory]]
+
+  * [[Chern-Weil homomorphism]]
+
+## Higher abelian differential cohomology
+
+* [[differential character]]s, [[Deligne cohomology]]
+
+* [[differential K-theory]]
+
+* [[differential elliptic cohomology]]
+
+* [[differential cobordism cohomology]]
+
+## In physics
+
+* [[gauge theory]], [[gauge field]]
+
+  * [[electromagnetic field]]
+
+  * [[Yang-Mills field]]
+
+  * [[Kalb-Ramond field]]
+
+  * [[RR-field]]
+
+  * [[supergravity C-field]]
+
+* [[quantum anomaly]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/differential+cohomology+-+contents)</div>
+
+
+
+[[!redirects cohomology – contents]]
+[[!redirects cohomology -- contents]]
