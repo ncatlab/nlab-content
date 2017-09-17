@@ -102,10 +102,7 @@ Recall that a $\sigma$-[[sigma-algebra|algebra]] on a [[set]] $X$ is ...
 
 ### Bases for Grothendieck coverages
 
-Recall that a [[coverage]] on a [[category]] $X$ is ...
-
-...
-
+See  [[basis for a Grothendieck topology]].
 
 ## General theory
 
