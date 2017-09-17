@@ -1,0 +1,10 @@
+
+## Idea
+
+A [[projective space]] of [[dimension]] 2.
+
+## Examples
+
+* [[Cayley plane]]
+
+[[!redirects projective planes]]
