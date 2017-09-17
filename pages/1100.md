@@ -137,7 +137,7 @@ $$
 
 Under [[Isbell duality]] the powering operation corresponds to higher order [[Hochschild cohomology]] in $X$, as discussed there.
 
-Below we discuss that the powering is equivalently given by the [[internal hom]] out of the [[constant ∞-stack]] $LConst K$ on $K$:
+Below we discuss that the powering is equivalently given by the [[internal hom]] ([[mapping stack]]) out of the [[constant ∞-stack]] $LConst K$ on $K$:
 
 $$
   X^K \simeq [LConst K, X]
@@ -175,7 +175,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-For $C$ an [[(∞,1)-site]] for $\mathbf{H}$ we have that the internal hom $[X,-]$ is given on $A \in \mathbf{H}$ by the [[(∞,1)-sheaf]]
+For $C$ an [[(∞,1)-site]] for $\mathbf{H}$ we have that the [[internal hom]] ([[mapping stack]]) $[X,-]$ is given on $A \in \mathbf{H}$ by the [[(∞,1)-sheaf]]
 
 $$
   [X,A] : U \mapsto \mathbf{H}(X \times L y(U), A)
