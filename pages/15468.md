@@ -1,3 +1,3 @@
-Ceh, dia ingat aku ni jalang ke apa? Aku terpaksalah! Aku mengomel didalam hati.
- <a href="http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2483" >retro Jordan Melo 1.5 Mujeres Blanco</a>
-[url=http://www.safetymanagementgroup.com/readwrite/ES.asp?Spain-Nikeairjordan=2483]retro Jordan Melo 1.5 Mujeres Blanco[/url]
+Sudah cukup sudah Aimy ! Kau jangan nak berangan sampai ke situ sebab perkara itu tak kan mungkin terjadi kerana si Fareeq hanya melihat kau sebagai seorang teman sahaja. Bukan teman tapi mesra tapi teman biasa. Titik ! Noktah !Novel : 5 Hari Bersama Cinta 6
+ <a href="http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=2490" >Nike Air Max 2014 Hombres Gym Baratos</a>
+[url=http://www.alvinproducts.com/ES.asp?zapatillas-nikeairmax=2490]Nike Air Max 2014 Hombres Gym Baratos[/url]
