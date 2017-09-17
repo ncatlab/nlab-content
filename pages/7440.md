@@ -371,6 +371,10 @@ $$
 
 The corresponding model category presentation is that of _[[n-fold complete Segal spaces]]_.
 
+## Related concepts
+
+* [[(n,r)-congruence]]
+
 ## References
 
 A general abstract formulation is in 
@@ -405,6 +409,12 @@ Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Cl
 
 [[!redirects complete Segal space object]]
 [[!redirects complete Segal space objects]]
+
+[[!redirects internal category in an (∞,1)-category]]
+[[!redirects internal category in an (infinity,1)-category]]
+[[!redirects internal categories in an (∞,1)-category]]
+[[!redirects internal categories in an (infinity,1)-category]]
+
 
 [[!redirects internal (infinity,1)-category]]
 
