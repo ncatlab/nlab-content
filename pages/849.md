@@ -566,6 +566,8 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[mapping stack]]
 
+* [[space of sections]]
+
 ## References
 
 
