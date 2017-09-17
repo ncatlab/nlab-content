@@ -34,6 +34,8 @@ The [[Ochanine genus]] lifts to a homomorphism of [[ring spectra]] $M Spin \to K
 
 * [[string orientation of tmf]]
 
+* [[cobordism theory determining homology theory]]
+
 ## References
 
 * {#KreckStolz93} [[Matthias Kreck]], [[Stefan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math, 171 (1993) 231-261 ([[KreckStolzElliptic.pdf:file]])
