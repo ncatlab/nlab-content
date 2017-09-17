@@ -15,7 +15,7 @@ A crossed $G$-algebra is a type of $G$-[[graded algebra]], with an inner product
 
 ##Definitions:
 
-We will lead up to the definition of crossed $G$-algebra thorugh various stages.
+We will lead up to the definition of crossed $G$-algebra through various stages.
 
 We need a particular form of [[graded algebra]] in which the summands are projective modules, so we give that form first.
 
@@ -27,7 +27,7 @@ $$L = \bigoplus_{g\in G} L_g,$$
 
 as a direct sum of projective $\mathbb{k}$-modules of finite type such that
 
-(i) $L_gL_h \subseteq L_{gh}$ for any $g,h \in G$ 
+(i) $L_g L_h \subseteq L_{gh}$ for any $g,h \in G$ 
 (so, if $\ell_1$ is graded $g$, and $\ell_2$ is graded $h$, then $\ell_1\ell_2$ is graded $gh$),
 
 and 
@@ -120,7 +120,7 @@ b) The useful terminology 'twisted sector' in a crossed $G$-algebra refers to a 
 * V. [[Turaev]],  _Homotopy Quantum Field Theory_ ,
 EMS Tracts in Math.10, European Math. Soc. Publ. House, Zurich 2010. (for the detailed development and the links with low dimensional topology and [[HQFT]]s).
 
-* [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
+* [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv hep-th 0609042](http://arxiv.org/abs/hep-th/0609042))
 
 
 
