@@ -58,6 +58,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
 * [Online Encyclopedia of Integer Sequences](https://oeis.org)
+* [open problem garden](http://garden.irmacs.sfu.ca)
 * [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
 * [The nLab](http://ncatlab.org), or $n$-Category Lab, which you are reading right now!
 
