@@ -91,3 +91,5 @@ Arguments for the finiteness of superstring scattering amplitudes to all loop or
 * [[Nathan Berkovits]], _Multiloop Amplitudes and Vanishing Theorems using the Pure Spinor Formalism for the Superstring_,  JHEP 0409:047,2004 ([arXiv:hep-th/0406055](http://arxiv.org/abs/hep-th/0406055))
 
 [[!redirects string scattering amplitudes]]
+
+[[!redirects string scatt]]
