@@ -98,7 +98,7 @@ Many entries are [stubs](http://en.wikipedia.org/wiki/Wikipedia:Stub)!
 
 **Notice**: an entry being in a pitiful state is usually more a sign of nobody having spared the time and energy to work on it, than of our joint incompetence to write a decent entry if we were being paid for doing it. So if you find your eyebrows raised by some entry, don't turn away to be the next one _not_ to work on it. Instead, improve it. We all do this voluntarily. We all have other duties to look after. So don't be annoyed with "us", help us.
 
-So if you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add [proposal software] (https://www.proposable.com/) new paragraph, headed by a suitable headline. **Be bold**: The $n$Lab will be the better the more people decide to contribute to it.
+So if you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add a new paragraph, headed by a suitable headline. **Be bold**: The $n$Lab will be the better the more people decide to contribute to it.
 
 See the [[HowTo]] page for information on how to contribute to the $n$Lab and edit and/or create its entries.
 
