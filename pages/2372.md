@@ -1,6 +1,9 @@
 
 +-- {: .standout}
 rough notes from a talk by [[Bruno Valette]] -- **raw material** to be polished
+
+see also [[framed little 2-disk operad]] 
+
 =--
 
 #Contents#
