@@ -53,7 +53,7 @@ Let $M$ be a [[differentiable manifold]], let $\Del$ be an [[affine connection]]
 Let $M$ be a [[Riemannian manifold]] (or a [[pseudo-Riemannian manifold]]) and let $p$ be a point in $M$.  Then $M$ may be equipped with the [[Levi-Civita connection]] $\Del_{lc}$, so we define the __natural Riemannian exponential map on $M$ at $p$__ to be the natural exponential map on $M$ at $p$ relative to $\Del_{lc}$.
 
 
-## In Lie groups 
+## In Lie groups {#exp_of_Lie_groups}
 
 Note: this section is under repair. 
 
@@ -97,7 +97,7 @@ Let $M$ be [[Lie group]] and let $\mathfrak{g}$ be its [[Lie algebra]] $T_1 M$, 
 
 ## Logarithms
 
-A __[[logarithm]]__ is a [[partial section]] of an exponential map.
+A __[[logarithm]]__ is a [[local section]] of an exponential map.
 
 ## Related concepts
 
