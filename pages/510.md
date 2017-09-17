@@ -17,7 +17,7 @@ This entry is about the notion of spectrum in [[stable homotopy theory]]. For ot
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -160,6 +160,10 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 * [[ring spectrum]], [[algebra spectrum]], [[module spectrum]]
 
 * [[zero spectrum]]
+
+* [[finite spectrum]]
+
+* [[p-local spectrum]]
 
 * [[Bousfield localization of spectra]]
 
