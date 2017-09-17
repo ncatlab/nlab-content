@@ -47,6 +47,8 @@ $$ X\to Y\to Z\to \Sigma X $$
 
 in $\mathcal{C}$ into a long exact sequence
 
+
+
 $$ \dots \to \pi(X)\to \pi(Y)\to \pi(Z)\to \pi(\Sigma X) \to \dots $$
 
 in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$. 
@@ -131,6 +133,7 @@ define a [[sequential diagram]] in the ([[triangulated category|triangulated]]) 
 
 $$
   C_\bullet
+
   \;\colon\;
   (\mathbb{Z}, \leq)
     \longrightarrow
@@ -173,7 +176,7 @@ where the total outer [[homotopy pushout]] exhibits the [[suspension]] of $F(n-1
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #ZComplexInCInducedChainComplexInHoC}
 ###### Proposition
 
 The sequence $C_\bullet$ in def. \ref{ChanComplexInducedFromZComplex} is a [[chain complex]] in that the $d_\bullet$ are [[differentials]], hence in that for all $n \in \mathbb{Z}$ we have that the composite 
@@ -191,19 +194,56 @@ is the [[zero morphism]] in the [[triangulated category]] $Ho(\mathcal{C})$.
 +-- {: .proof}
 ###### Proof
 
+Consider the [[pasting]] [[diagram]]
+
 $$
   \array{
-    F(n-2,n-1 )&\longrightarrow & F(n-2,n)
+    F(n-2,n) &\longrightarrow& F(n-2,n+1) &\longrightarrow& 0
     \\
-    \downarrow && \downarrow
+    \downarrow &(c)& \downarrow && \downarrow
     \\
-    F(n-1,n-1) &\longrightarrow & F(n-1,n) &\longrightarrow& F(n-1,n+1) &\to& 0
+    F(n-1,n) &\longrightarrow& F(n-1,n+1) &\longrightarrow& 0
     \\
-    && \downarrow && \downarrow && \downarrow
+    \downarrow &(c)& \downarrow &(c)& \downarrow
     \\
-    && 0 &\longrightarrow& F(n,n+1) &\stackrel{\delta_n}{\longrightarrow}& \Sigma F(n-1,n)
+    0 &\longrightarrow& F(n,n+1) &\underset{\delta_n}{\longrightarrow}& \Sigma F(n-1,n)
   }
 $$
+
+where the squares labeled "c" are (co-)cartesian ([[homotopy pushouts]]). 
+By the [[universal property]] of the pushout applied twice, this induces a factorization
+
+$$
+  \array{
+    F(n,n+1) &\longrightarrow& \Sigma F(n-2,n)
+    \\
+    & {}_{\mathllap{\delta_n}}\searrow & \downarrow
+    \\
+    && \Sigma F(n-1,n)
+  }
+  \,.
+$$
+
+Pasting this in turn to the homotopy pushout that defines $\Sigma \delta_{n-1}$
+
+$$
+  \array{
+    F(n,n+1) &\longrightarrow& \Sigma F(n-2,n)  &\longrightarrow& 0 
+    \\
+    & {}_{\mathllap{\delta_n}}\searrow & \downarrow &(c)& \downarrow
+    \\
+    && \Sigma F(n-1,n) &\underset{\Sigma \delta_{n-1}}{\longrightarrow}&
+    \Sigma^2 F(n-2,n-1)
+  }
+$$
+
+and then suspending the result $n$ times yields a diagram that exhibits a null-homotopy
+
+$$
+  \delta_{n-1}  \circ \delta_n \simeq 0
+$$
+
+in $\mathcal{C}$.
 
 =--
 
