@@ -260,7 +260,10 @@ Let $\underline{G} = \{G_n,p^m_n\}$ be an inverse sequence of groups (aka _tower
 
 * For any tower of groups, $\underline{G}$ there is an action of the group $F = \underline{\pi}_1(\underline{S}^1,[0,\infty)$ on $\mathcal{P}(\underline{G})$.
 
-* (Chipman) Let $\underline{G}$, $\underline{H}$ be towers of finitely generated groups, then $\underline{G}$ is isomorphic to $\underline{H}$ if, and only if, there is an isomorphism from $\mathcal{P}(\underline{G})$ to $\mathcal{P}(\underline{H})$ commuting with the operation of $F$.  (What is remarkable here is that initially no morphism between $\underline{G}$ and $\underline{H}$ is given.  It is constructed from the ones on the images under $\mathcal{P}$.
+* (Chipman) Let $\underline{G}$, $\underline{H}$ be towers of finitely generated groups, then $\underline{G}$ is isomorphic to $\underline{H}$ if, and only if, there is an isomorphism from $\mathcal{P}(\underline{G})$ to $\mathcal{P}(\underline{H})$ commuting with the operation of $F$.  (What is remarkable here is that initially no morphism between $\underline{G}$ and $\underline{H}$ is given.  It is constructed from the ones on the images under $\mathcal{P}$.)
+
+###Grossman's reduced product construction###
+Grossman gave an alternative construction of $\mathcal{P}(\underline{G})$ for any tower of groups (or, in fact,  any tower of sets, $\underline{X}$).  This involves the [[reduced product]].
 
 
 
