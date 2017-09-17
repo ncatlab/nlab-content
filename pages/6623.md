@@ -1,0 +1,32 @@
+Our account closely follows that of Paul Taylor (Practical Foundations of Mathematics, section 6.3). 
+
+Let $C$ be a [[finitely complete category]], and let $T$ be an endofunctor on $C$. We will suppose that $T$ preserves [[monomorphism|monos]]. 
+
++-- {: .un_def}
+######Definition 
+Let $\theta: X \to T X$ be a $T$-[[coalgebra of an endofunctor|coalgebra]] structure on $X$. A [[subobject]] $i: U \hookrightarrow X$ in $C$ is $\theta$-**inductive** if in the pullback 
+
+$$\array{
+H & \stackrel{j}{\to} & X \\ 
+\downarrow & & \downarrow^\mathrlap{\theta} \\
+T U & \underset{T i}{\to} & T X
+}$$ 
+
+the map $j$ factors through $i$ (note that $j$ is monic since $T$ preserves monos). 
+
+A coalgebra $(X, \theta)$ is **well-founded** if the only inductive subobject of $X$ is $X$ itself. 
+=-- 
+
+Our goal in this article is to show that one can perform inductive arguments and recursive constructions in the abstract context of well-founded coalgebras. The more challenging aspect is to make precise what is meant by a recursive construction of a map $\phi: X \to A$, where the problem is to build $\phi$ from the ground up, as it were. Stages in the recursive construction of a morphism will be _partial_ maps, defined as usual as spans 
+
+$$\array{
+ & & D & & \\
+ &  ^\mathllap{i} \swarrow & & \searrow^\mathrlap{f} \\ 
+A & & & & B
+}$$ 
+
+for which the arrow $i$ is _monic_. Composition of partial maps is effected by span composition, for which we need only finite cocompleteness (we do not need $C$ to be a [[regular category]], as we would if we were composing general relations between $A$ and $B$). We denote a partial map by 
+
+$$f: A \harpoonright B$$ 
+
+generally without explicitly mentioning the domain $D$ of $f$. 
