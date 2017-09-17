@@ -21,7 +21,7 @@
 
 If one accepts the notion of [[subcategory]] without any qualification (as discussed there), then:
 
-A [[subcategory]] $S$ of a category $C$ is a **full subcategory** if its [[inclusion functor]] is a [[full functor]]. 
+A [[subcategory]] $S$ of a category $C$ is a **full subcategory** if for any $x$ and $y$ in $S$, every morphism $f : x \to y$ in $C$ is also in $S$ (that is, the inclusion [[functor]] $S \hookrightarrow C$ is [[full functor|full]]).
 
 This inclusion functor is often called a __full embedding__ or a __full inclusion__.
 
