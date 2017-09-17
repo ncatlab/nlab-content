@@ -1,8 +1,13 @@
-# Idea
+# $k$-tuply monoidal $(n,r)$-categories
+* table of contents
+{: toc}
+
+## Idea
 
 Two important [[periodic table]]s are the table of $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories and the table of $(n,r)$-[[(n,r)-category|categories]]. These can actually be combined into a single 3D table, which surprisingly also includes $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids.
 
-# Definition
+
+## Definition
 
 A __$k$-tuply monoidal $(n,r)$-category__ is a [[pointed object|pointed]] $\infty$-[[infinity-category|category]] (which you may interpret as weakly or strictly as you like) such that:
 * any two parallel $j$-morphisms are equivalent, for $j \lt k$;
@@ -19,7 +24,8 @@ If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between 
 
 According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $(n,r)$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $(n,r)$-category. Unlike the other restrictions on values of $n, r, k$, this one is not trivial.
 
-# Special cases
+
+## Special cases
 
 A $0$-tuply monoidal $(n,r)$-category is simply a pointed $(n,r)$-category. The restriction that $r + k \geq 0$ becomes that $r \geq 0$. This is why $(n,r)$-categories use $0 \leq r \leq n + 1$ rather than the restriction on $r$ given before.
 
@@ -28,3 +34,7 @@ A $k$-tuply monoidal $(n,0)$-category is a $k$-tuply monoidal $n$-[[n-groupoid|g
 A $k$-tuply monoidal $(n,n)$-category is simply a $k$-tuply monoidal $n$-category. A $k$-tuply monoidal $(n,n+1)$-category is a $k$-tuply monoidal $(n+1)$-[[n-poset|poset]]. Note that a $k$-tuply monoidal $\infty$-category and a $k$-tuply monoidal $\infty$-poset are the same thing.
 
 A __stably monoidal $(n,r)$-category__, or __symmetric monoidal $(n,r)$-category__, is an $(n+2)$-tuply monoidal $(n,r)$-category. Although the general definition above won\'t give it, there is a notion of stably monoidal $(\infty,r)$-category, basically an $(\infty,r)$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way.
+
+
+[[!redirects k-tuply monoidal (n,r)-category]]
+[[!redirects k-tuply monoidal (n,r)-categories]]
