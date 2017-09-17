@@ -1,0 +1,8 @@
+
+
+On a [[complex]] [[vector space]] a _sesquilinear map_ is a [[function]] of two arguments which is a [[linear function]] in one argument and complex anti-linear in the other.
+
+[[!redirects sesquilinear maps]]
+[[!redirects sesquilinear function]]
+[[!redirects sesquilinear functions]]
+
