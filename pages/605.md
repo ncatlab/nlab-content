@@ -9,7 +9,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 
@@ -29,7 +29,7 @@ Dual to a cobordism is a [[bordism]].
 
 * [[B-bordism]]
 
-
+* [[orbifold cobordism]]
 
 [[!redirects cobordisms]]
 
