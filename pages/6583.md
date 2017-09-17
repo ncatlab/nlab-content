@@ -1,0 +1,12 @@
+## Idea
+
+__Hofer's metric__ is a metric on the group of Hamiltonian diffeomorphisms of a symplectic manifold. This group is infinite-dimensional, so that the existence of this metric is a very nontrivial due noncompactness. The subject of Hofer's geometry is now a classic subject in [[symplectic geometry]]. 
+
+## References 
+
+* Helmut Hofer, _The topology of symplectic maps_, Proceedings of the
+Royal Society of Edinburgh, 115 (1990), 25-38.
+* Lev Buhovsky, Yaron Ostrover, _On the uniqueness of Hofer's geometry_, [arxiv:1008.0661](http://arxiv.org/abs/1008.0661) 
+
+[[!redirects Hofer's metric]]
+[[!redirects Hofer metric]]
