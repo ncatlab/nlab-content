@@ -1,0 +1,18 @@
+
+A statement about [[elliptic curves]].
+
+## Relation to other statements
+
+In its general form, equivalent to the [[abc conjecture]].
+
+
+## References
+
+* Wikipedia, _[Szpiro's conjecture](http://en.wikipedia.org/wiki/Szpiro%27s_conjecture)_
+
+The relation to the [[abc conjecture]] is discussed in 
+
+* Matt Baker (notes taken by William Stein), _Elliptic curves, the ABC conjecture, and points of small canonical height_ ([pdf](http://modular.math.washington.edu/mcs/archive/Fall2001/notes/12-10-01/12-10-01.pdf))
+
+
+[[!redirects Szpiro conjecture]]
