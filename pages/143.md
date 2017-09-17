@@ -640,6 +640,8 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
 * [[presheaf]] /  **sheaf** / [[cosheaf]]
 
+  * [[sheaf of abelian groups]]
+
 * [[2-sheaf]] / [[stack]]
 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
@@ -683,7 +685,7 @@ Section C2 in
 
 The book by Kashiwara and Shapira discusses sheaves with motivation from [[homological algebra]], [[abelian sheaf cohomology]] and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]].
 
-* Kashiwara, Shapira, [[Categories and Sheaves]], Springer
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 A quick pedagogical introduction with an eye towards the generalization to [[(∞,1)-sheaves]] is in 
 
