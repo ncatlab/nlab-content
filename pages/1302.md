@@ -454,6 +454,14 @@ Quasicoherent sheaves on [[Spectral Schemes]] over [[E-infinity rings]] are disc
 
 * [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
 
+Their [[descent]] properties are discussed in
+
+* [[Jacob Lurie]], _Descent theorems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
+
+and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher context is discussed in 
+
+* [[Jacob Lurie]], _Proper morphisms, completions, and the Grothendieck existence theorem_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
+
 [[!redirects quasicoherent sheaves]]
 [[!redirects quasicoherent module]]
 [[!redirects quasicoherent modules]]
