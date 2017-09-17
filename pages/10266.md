@@ -1,0 +1,5 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Thanu_Padmanabhan)
+
+category: people
