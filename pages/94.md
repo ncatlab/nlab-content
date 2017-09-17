@@ -326,7 +326,8 @@ The original references are:
 
 * [[Tom Lada]] and [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv](http://arxiv.org/abs/hep-th/9209099))
 
-* [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/hep-th/9406095))
+* [[Tom Lada]], [[Martin Markl]], Communications in Algebra
+Volume 23, Issue 6, (1995) _Strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/hep-th/9406095))
 
 A quick web entry is:
 
