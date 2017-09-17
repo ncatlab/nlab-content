@@ -16,6 +16,8 @@ in the 20th century.
 
 * [[Hilbert's sixth problem]]
 
+* [[Hilbert's 15th problem]]
+
 * [[Hilbert's 21st problem]]
 
 ## References
