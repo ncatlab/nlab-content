@@ -247,7 +247,7 @@ $$
 where the graded vector space $\mathfrak{g}$ is regarded as being in non-positive degrees.
 
 
-### 1-Morphisms: integration of infinitesimal gauge transformations
+### 1-Morphisms: integration of infinitesimal gauge transformations {#InfGaugeTrafo}
 
 The 1-[[morphism]]s in $\exp(\mathfrak{g})(X)$ may be thought of as [[gauge transformation]]s between $\mathfrak{a}$-valued forms. We unwind what these look like concretely.
 
