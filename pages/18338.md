@@ -52,11 +52,7 @@ The use of adjectives like _canonical_, _invariant_, _functorial_, _natural _ is
 
 > I can assure you, at any rate, that (...) my results are invariant, probably canonical, perhaps even functorial. (*Oeuvres*, vol. 2, page 558)
 
-which may be subtly mocking. An influential German textbook also mocks one of the terms in a footnote. 
-
-+--{: .query}
-If we want to keep that remark, we should say something about what about them is being mocked and why.
-=--
+which may be subtly mocking. 
 
 These three terms can be distinguished in the following way:
 
