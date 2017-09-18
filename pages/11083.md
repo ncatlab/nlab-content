@@ -1,6 +1,10 @@
 
 > This entry contains one chapter of the material at _[[geometry of physics]]_.
 
+> previous chapter: _[[geometry of physics -- smooth spaces|smooth sets]]_
+
+> next chapter:_[[geometry of physics -- groups|groups]]_
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -363,7 +367,8 @@ $$
 $$
   X \sslash G = 
   \left(
-    X \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}}
+    X \times G 
+     \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}
     X
   \right)
 $$
