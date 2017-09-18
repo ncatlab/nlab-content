@@ -23,7 +23,7 @@ The concept of _projective bundle_ is the generalization of that of _[[projectiv
 For $\pi \colon E \to X$ a [[topological vector bundle]] over some [[topological field]] $k$, write $E \setminus X \subset E$ for its [[complement]] of the [[zero section]], regarded with its [[subspace topology]]. 
 
 
-Then the _projective bundle_ is the [[fiber bundle]] $P(E) \to X$ whose total space the [[quotient topological space]] of $E \setminus X$ by the [[equivalence relation]]
+Then its _projective bundle_ is the [[fiber bundle]] $P(E) \to X$ whose total space the [[quotient topological space]] of $E \setminus X$ by the [[equivalence relation]]
 
 $$
   \left( 
