@@ -17,11 +17,17 @@ For $k\ge 0$, an action $G \times X \to X$ is said to be **$k$-transitive** if t
 
 ## Examples
 
-Any group acts transitively on itself.
+* Any group $G$ acts transitively on itself by multiplication $\cdot : G \times G \to G$, which is called the (left) [[regular representation]] of $G$.
 
-The [[alternating group]] $A_n$ acts transitively on $\{1,\dots,n\}$ for $n \gt 2$, and in fact it acts $(n-2)$-transitively for all $n \ge 2$.
+* The [[alternating group]] $A_n$ acts transitively on $\{1,\dots,n\}$ for $n \gt 2$, and in fact it acts $(n-2)$-transitively for all $n \ge 2$.
 
-The [[projective general linear group]] $PGL(2,\mathbb{C})$ acts 3-transitively on the [[Riemann sphere]] $\mathbb{P}^1(\mathbb{C})$.
+* The [[projective general linear group]] $PGL(2,\mathbb{C})$ acts 3-transitively on the [[Riemann sphere]] $\mathbb{P}^1(\mathbb{C})$.
+
+## As an action on cosets
+
+Let $\rho : G \times X \to X$ be a transitive action and suppose that $X$ is [[inhabited]].  Then $\rho$ is equivalent to the action of $G$ by multiplication on a [[coset]] space $G/H$, where the subgroup $H$ is taken as the [[stabilizer subgroup]]
+$$H = G_x = \{ g \in G \mid g x = x \}$$
+of some arbitrary element $x \in X$.  In particular, the transitivity of $\rho$ guarantees that the $G$-equivariant map $G/H \to X$ defined by $g H \mapsto g x$ is a bijection.  (Note that although the subgroup $H = G_x$ depends on the choice of $x$, it is determined up to conjugacy, and so the coset space $G/H$ is independent of the choice of element.)
 
 ## Related concepts
 
@@ -32,5 +38,7 @@ The [[projective general linear group]] $PGL(2,\mathbb{C})$ acts 3-transitively 
 ## References
 
 * Helmut Wielandt.  _Finite Permutation Groups_.  Academic Press, 1964.
+
+* [Fundamental theorem of group actions](http://groupprops.subwiki.org/wiki/Fundamental_theorem_of_group_actions) on the Group Properties Wiki.
 
 [[!redirects transitive]]
