@@ -171,13 +171,13 @@ Let $\mathcal{S}$ be a topos and $\mathbf{mon}(\mathcal{S})$ its category of int
 
 For a proof see Johnstone ([1977](#JT77),p.190).
 
-The existence of a natural number object is in turn crucial for the existence of [[classifying topos|classifying toposes]] over $\mathcal{S}$ due to a result by [[Andreas Blass|A. Blass]] ([1989](#Blass)).
+Furthermore then it is a theorem due to [[Andreas Blass]] ([1989](#Blass)) that $\mathcal{S}$ has a NNO precisely if $\mathcal{S}$ has an [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$.
 
-A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that classifying toposes for [[geometric theories]] over $\mathcal{S}$ exist precisely if the [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$ exists.
+A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that [[classifying topos|classifying toposes]] for [[geometric theories]] over $\mathcal{S}$ exist precisely if $\mathcal{S}$ has a NNO.
 
-So in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] often hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
+So from a different perspective, in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] (often) hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
 
-Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ of finite sets free [[graphic category|graphic monoids]] exist.
+Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ of finite sets [[graphic category|free graphic monoids]] exist.
 
 ## Examples
 
