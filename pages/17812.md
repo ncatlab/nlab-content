@@ -10,8 +10,6 @@ $\,$
 
 > next section: _[[geometry of physics -- supersymmetry]]_
 
-> under construction
-
 $\,$
 
 
@@ -30,7 +28,7 @@ in parallel to the discussion of ordinary [[differential geometry]] in _[[geomet
 </div>
 
 
-Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the
+Apart from the abstract mathematical motivation for supergeometry, it is also an [[experimental observation|experimental]] fact that the
 [[observable universe]] is fundamentally described by
 [[supergeometry]]. Namely the [[Pauli exclusion principle]], in its refined form of the
 [[spin-statistics theorem]], implies that the [[phase space]] of a [[field theory]]
@@ -42,7 +40,7 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
  This is an old insight:
  The experimental detection of the special properties of [[fermions]] that show their super-geometric nature
  goes back all the way to the [[Stern-Gerlach experiment]] in 1922, which revealed that [[electrons]] are [[spinors]].
- The [[Pauli exclusion principle]] ([Pauli 1925](#Pauli25)) --[[deduction|deduced]] from the nature of energy levels of [[electrons]]
+ The [[Pauli exclusion principle]] ([Pauli 1925](#Pauli25)) -- [[deduction|deduced]] from the nature of energy levels of [[electrons]]
  in [[atoms]] --  says that no two such [[spinors]]
  may occupy the exact same [[quantum state]]. Technically this says that the spinor [[field (physics)|field]] variable $\psi$ has
  to satisfy
@@ -137,9 +135,10 @@ Then a general superspace is modeled as a [[sheaf]] on the category of super Car
 possibly satisfying some suitable properties. see remark \ref{ASheafAsASpace} below for explanation of this perspective.
 
 
-This means that we follow the perspective of "**[[functorial geometry]]**" due to ([Grothendieck 65](#Grothendieck65)),
+This means that we follow the perspective of "**[[functorial geometry]]**" due to [Grothendieck 65](#Grothendieck65),
 where a [[scheme]] is regarded as a [[sheaf]] over the category of [[affine schemes]] (its "[[functor of points]]")
-satisfying the condition that it is covered by ([[representable functor|representables]] of) offines, via [[formally étale morphism]].
+satisfying the condition that it is covered by ([[representable functor|representables]] of) affines, via [[formally étale morphism]].
+We explain all this below.
 
 Beware that -- despite the urging in [Grothendieck 73](#Grothendieck73) that the definition of [[schemes]] as
 [[locally ringed spaces]] should be abandoned in favour of the perspective of [[functorial geometry]] -- most textbooks on [[supergeometry]]
@@ -166,6 +165,7 @@ use the axiomatics of "[[differential cohesion]]" ([Schreiber 13](#Schreiber)). 
 ## Super Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
 
+For reference, recall:
 
 +-- {: .num_defn #SuperCartesianSpace}
 ###### Definition
@@ -178,7 +178,8 @@ $$
   \wedge^\bullet \langle \theta^1, \cdots, \theta^q\rangle
 $$
 
-is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^q$ subject to the relations
+is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^q$ 
+in odd degree, ,subject to the relations
 
 $$
   \theta^i \theta^j = - \theta^j \theta^i
@@ -392,7 +393,12 @@ $$
    \mathbb{R}^p
 $$
 
-its image under $\overset{\rightrightarrows}{(-)}$ is a bosonic space, but not an ordinary manifold. For instance
+its image under $\overset{\rightrightarrows}{(-)}$ is a bosonic space, but not an ordinary manifold. For example:
+
++-- {: .num_example #EvenPartOfDimTwoSuperpoint}
+###### Example
+
+The [[algebra of functions]] on $\overset{\rightrightarrows}{\mathbb{R}^{0\vert 2}}$ is 
 
 $$
   \begin{aligned}
@@ -416,11 +422,24 @@ $$
 
 where in the last line we renamed $\theta_1 \theta_2$ to $\epsilon$.
 
+
 This algebra $\mathbb{R}[\epsilon]/(\epsilon^2)$
-is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thouhgt of as the [[algebra of functions]]
+is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thought of as the [[algebra of functions]]
 on a bosonic but [[infinitesimally thickened point]], a 1-dimensional neighbourhood of a point which is "so very small"
 that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tiny" that its square, which is bound to be
 even tinier, is actually indistinguishable from zero.
+
+We will write
+
+$$
+  \mathbb{D}^1 \coloneqq Spec(\mathbb{R}[\epsilon]/(\epsilon^2))
+  \in 
+  Aff(sVect_k)
+  \,.
+$$
+
+
+=--
 
 In generalization of this we make the following definitions
 
@@ -474,8 +493,8 @@ The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCa
 +-- {: .num_prop #HomsOutOfFirstOrderInfinitesimalLine}
 ###### Proposition
 
-Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]].
-
+Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]]
+(example \ref{EvenPartOfDimTwoSuperpoint}).
 Then morphisms in $FormalCartSp$ (def. \ref{FormalCartSp}) of the form
 
 $$
@@ -959,7 +978,7 @@ $$
 ###### Remark
 
 The strategy is now to work in the nice category $SmoothSets$ of [[generalized smooth spaces]] (a [[topos]]), 
-and find in their [[fulll subcategories]] of more specific types of smooth spaces having extra properties which one may need in given applications. There is a long list of such subcategories of relevance, some of these we briefly discuss now:
+and find in their [[full subcategories]] of more specific types of smooth spaces having extra properties which one may need in given applications. There is a long list of such subcategories of relevance, some of these we briefly discuss now:
 
 $\{$[[Cartesian spaces]]$\}$
  $\hookrightarrow$
@@ -1034,7 +1053,7 @@ $$
   \,,
 $$
 
-hence a [[full subcategory inclusion]].
+hence a [[full subcategory]] inclusion.
 
 =--
 
@@ -1903,7 +1922,7 @@ prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, def. \ref{ProgressionOfIdempoten
 +-- {: .num_prop #Sublations}
 ###### Proposition
 
-We have the following extra relations between the projection endofunctors in
+There are the following extra relations between the projection endofunctors in
 def. \ref{ProgressionOfIdempotentEndofunctors} ("[[Aufhebung|Aufhebungs]]"-relations):
 
 * $\sharp \emptyset \simeq \emptyset$ (the [[codiscrete objects]] form a [[dense subtopos]])
@@ -1916,24 +1935,24 @@ def. \ref{ProgressionOfIdempotentEndofunctors} ("[[Aufhebung|Aufhebungs]]"-relat
 ###### Proof
 
 Write $\mathbf{H} \coloneqq SuperFormalSmoothSet$ for short.
-For any $X \in \mathbf{H}$ and any $U \times D_s\in SuperFormalCartSp \hookrightarrow \mathbf{H}$ we have by [[adjunction]] [[natural equivalences]]
+For any $X \in \mathbf{H}$ and any $U \times \mathbb{D}\in SuperFormalCartSp \hookrightarrow \mathbf{H}$ we have by [[adjunction]] [[natural equivalences]]
 
 $$
   \begin{aligned}
-    \mathbf{H}(U \times D_s , \stackrel{\rightsquigarrow}{\Im X})
+    \mathbf{H}(U \times \mathbb{D} , \stackrel{\rightsquigarrow}{\Im X})
     & \simeq
-    \mathbf{H}(\stackrel{\rightrightarrows}{U \times D_s} , \Im X)
+    \mathbf{H}(\stackrel{\rightrightarrows}{U \times \mathbb{D}} , \Im X)
     \\
     &\simeq
-    \mathbf{H}(\Re(\stackrel{\rightrightarrows}{U \times D_s}) , X)
+    \mathbf{H}(\Re(\stackrel{\rightrightarrows}{U \times \mathbb{D}}) , X)
     \\
     & \simeq
     \mathbf{H}(U, X)
     \\
     & \simeq
-    \mathbf{H}(\Re(U \times D_s), X)
+    \mathbf{H}(\Re(U \times \mathbb{D}), X)
     \\
-    & \simeq \mathbf{H}(U \times D_s, \Im X)
+    & \simeq \mathbf{H}(U \times \mathbb{D}, \Im X)
   \end{aligned}
   \,.
 $$
@@ -2001,9 +2020,9 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 
 We now discuss [[mapping spaces]] in [[supergeometry]]. These are interesting in two ways:
 
-1. for the theory -- mapping spaces nicely exhibit the usage and the power of the [[functor of points]] perspective;
+1. for the theory -- mapping spaces nicely exhibit the usage and the power of the [[functor of points]] perspective (remark \ref{ASheafAsASpace});
 
-1. for applications -- the [[phase spaces]] of interest in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[sections]], namely of a [[field bundle]]).
+1. for applications -- the [[phase spaces]] of interest in [[physics]] are [[mapping spaces]] (in the generality of spaces of [[spaces of sections]], namely of a [[field bundle]]).
 
 The key idea is that [[sets]] of functions between sets have the following [[universal property]]:
 
@@ -2054,14 +2073,14 @@ for all [[objects]] $X,Y,Z \in \mathcal{C}$.
 
 =--
 
-The class of examples that we are interested in is the following
+The class of examples that we are interested in is the following:
 
 +-- {: .num_prop #SheavesHomInternal}
 ###### Proposition
 
 Let $\mathcal{C} = Sh(\mathcal{S})$ be a [[category of sheaves]] over some [[site]] $\mathcal{S}$.
 
-Then the [[Cartesian product]] between any two sheaves $X,Y \in Sh(\mathcall{C})$ exists and
+Then the [[Cartesian product]] between any two sheaves $X,Y \in Sh(\mathcal{C})$ exists and
 is given objectwise by the [[Cartesian product]] of sets:
 
 $$
@@ -2090,15 +2109,20 @@ where $y \colon \mathcal{S} \hookrightarrow Sh(\mathcal{S})$ is the [[Yoneda emb
 
 For the **proof** see at _[[closed monoidal structure on presheaves]]_.
 
-The following shows that the concept of [[internal homs]] in the [[topos]] of [[generalized smooth spaces]]
+Notice how prop. \ref{SheavesHomInternal} expresses an intuitively most obvious statement: Applied to 
+geometric sheaf toposes such as $SmoothSet$ or $SuperFormalSmoothSet$ it says that a 
+$U$-parameterized smooth family of points in a [[mapping space]] $[X,Y]$ is a smooth map of the form
+$X \times U \to Y$, hence a family of smooth functions $X \to Y$ which is smoothly parameterized by $U$. 
+
+The following shows formally that the concept of [[internal homs]] in the [[topos]] of [[generalized smooth spaces]]
 does generalize the traditional concept of smooth [[mapping spaces]]:
 
-+-- {: .num_example}
++-- {: .num_example #SmoothManifoldsMappingSpace}
 ###### Example
 
 Let $\Sigma$ be a [[compact topological space|compact]] [[smooth manifold]] and let $X$ be any [[smooth manifold]].
 Then set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an
-[[infinite-dimensional manifold|infinite dimensional]] (in general) [[Frechet manifold]] $Maps(\Sigma,X)_{Frechet}$.
+[[infinite-dimensional manifold|infinite dimensional]] (in general) [[Fréchet manifold]] $Maps(\Sigma,X)_{Frechet}$.
 Under the embedding $i \colon FrechetMfd \hookrightarrow SmoothSet$ of prop. \ref{SmoothSetsContainSmoothManifolds} 
 this coincides with  [[internal hom]] $[\Sigma,X]$ formed in $Smoothset$ according to prop. \ref{SheavesHomInternal}:
 
@@ -2114,6 +2138,83 @@ In particular for instance the smooth [[loop space]] of a smooth manifold $X$ is
 
 A **proof** is given in  [Waldorf 09, lemma A.1.7](diffeological+space#Waldorf09).
 
+But in the topos $SuperFormalSmoothSet$ we have also mapping spaces much more general than the traditional ones of
+example \ref{SmoothManifoldsMappingSpace}. We now look at some examples of these.
+
+
++-- {: .num_example #CorepresentingTangentSpace}
+###### Example
+
+Let 
+
+$$
+  \mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))
+    \in
+  InfPoint \hookrightarrow SuperFomalSmoothSet
+$$ 
+
+be the [[formal dual]] of the [[ring of dual numbers]] (example \ref{EvenPartOfDimTwoSuperpoint}). 
+Observe that there is a unique morphism of the form $\ast \to \mathbb{D}^1$, picking the base point.
+
+Then for 
+
+$$
+  X \in SmoothMfd \hookrightarrow SuperFormalSmoothSet
+$$
+
+a [[smooth manifold]], regarded as a [[super formal smooth set]] via prop. \ref{SmoothSetsContainSmoothManifolds},
+the [[internal hom]] out of $\mathbb{D}^1$ with this basepoint is the smooth [[tangent bundle]] of $X$
+(again under the embedding of prop. \ref{SmoothSetsContainSmoothManifolds}):
+
+$$
+  \array{
+    [\mathbb{D}^1, X] &\simeq& T X
+    \\
+    {}^{\mathllap{[\ast \to \mathbb{D}^1,X]}}\downarrow && \downarrow
+    \\
+    [\ast,\X] &\simeq& X
+  }
+  \,.
+$$
+
+=--
+ 
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{SheavesHomInternal} the rule for the [[smooth set]] $[\mathbb{D}^1,X]$ is
+
+$$
+  \mathbb{R}^n \mapsto Hom_{Smooth0Type}( \mathbb{R}^n \times \mathbb{D}^1, X )
+  \,.
+$$
+
+By prop. \ref{HomsOutOfFirstOrderInfinitesimalLine}, the set on the right is naturally identified with the set of
+of smoothly $\mathbb{R}^n$-parameterized families of [[tangent vectors]] in $X$. But this is the set that 
+$T X$, regarded as a smooth set, assigns to $\mathbb{R}^n$.
+
+Moreover, looking at the proof of prop. \ref{HomsOutOfFirstOrderInfinitesimalLine} it is immediate that composiing 
+a morphism
+
+$$
+  \mathbb{D}^1 \to X
+$$
+
+representing some tangent vector in $X$ with the global point inclusion of $\mathbb{D}^1$ yields the point in $X$
+
+$$
+  \ast \to \mathbb{D}^1 \to X
+$$
+
+at which this tangent vector is based. This shows that the vertical map in the above claim is indeed the projection from the 
+[[tangent bundle]] to the base manifold.
+
+=--
+
+Example \ref{CorepresentingTangentSpace} is a key observation that motivated the development of
+[[synthetic differential geometry]] ([[Toposes of laws of motion|Lawvere 97]]).
+We may also consider the following super-geometric version
 
 
 +-- {: .num_example}
@@ -2121,14 +2222,76 @@ A **proof** is given in  [Waldorf 09, lemma A.1.7](diffeological+space#Waldorf09
 
 Let $X$ be any [[smooth manifold]]. Then the [[internal hom]] in $SuperFormalSmoothSet$ out of the
 [[superpoint]] $\mathbb{R}^{0\vert 1}$ into $X$, according to prop. \ref{SheavesHomInternal},
-is the [[odd tangent bundle]] from def. \ref{OddTangentBundle}.
+is the [[odd tangent bundle]] from def. \ref{OddTangentBundle} $\Pi T X$:
+
+$$
+  \array{
+    [\mathbb{R}^{0\vert 1}, X] &\simeq& \Pi T X
+    \\
+    {}^{\mathllap{[\ast \to \mathbb{R}^{0\vert 1},X]}}\downarrow && \downarrow
+    \\
+    [\ast,\X] &\simeq& X
+  }
+  \,.
+$$
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By unwinding the definitions and then using prop. \ref{HomsOutOfFirstOrderInfinitesimalLine}.
+Let $\mathbb{R}^n$ be a bosonic Cartesian space. 
+By prop. \ref{SheavesHomInternal} the value of the smooth set $[\mathbb{R}^{0\vert 1}, X]$
+on this is
+
+$$
+  [\mathbb{R}^{0\vert 1},X](\mathbb{R}^n)
+  =
+  Hom_{SuperFormalSmoothSet}( \mathbb{R}^{n\vert 1}, X )
+  \,.
+$$
+
+But since $X$ is bosonic (an ordinary smooth manifold), this is equivalently just
+
+$$
+  [\mathbb{R}^{0\vert 1},X](\mathbb{R}^n)
+  =
+  Hom_{SuperFormalSmoothSet}( \mathbb{R}^{n}, X )
+  \simeq
+  X(\mathbb{R}^n)
+  \,,
+$$
+
+which shows that the bosonic super smooth set underlying $[\mathbb{R}^{0\vert 1},X]$ is just $X$ itself.
+
+But then consider probes parameterized by the [[superpoint]] $\mathbb{R}^{0\vert 1}$:
+
+$$
+  \begin{aligned}
+    [\mathbb{R}^{0\vert 1},X](\mathbb{R}^{n\vert 1})
+    & =
+    Hom( \mathbb{R}^{n\vert 2}, X )
+    \\
+    & \simeq
+    Hom( \mathbb{R}^{n\vert 2}, \overset{\rightsquigarrow}{X} )
+    \\
+    & \simeq 
+    Hom(  \overset{\rightrightarrows}{\mathbb{R}^{n \vert 2}}, X )
+    \\
+    & \simeq
+    Hom(  \mathbb{R}^n \times \mathbb{D}^1 , X )    
+    \\
+    & \simeq
+    Hom(\mathbb{R}^n, T X)
+  \end{aligned}
+  \,,
+$$
+
+where we used the adjunction $\rightrightarrows \dashv \rightsquigarrow$ from 
+prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, def. \ref{ProgressionOfIdempotentEndofunctors},
+then example \ref{EvenPartOfDimTwoSuperpoint} and finally example \ref{CorepresentingTangentSpace}.
+
 
 =--
 
@@ -2183,7 +2346,7 @@ $$
 
 and extended from there to all degree by the graded Leibnitz rule.
 
-It is immediate to generalize this to the super-context, one just needs to be sure to apply the [[signs in supergeometry|sign rule]] throughout.
+It is immediate to generalize this to [[supergeometry]], one just needs to be sure to apply the [[signs in supergeometry|sign rule]] throughout.
 
 
 +-- {: .num_defn #SuperDeRhamComplex}
