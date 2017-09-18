@@ -297,7 +297,46 @@ The argument for the homomorphism property of the counit should be formally dual
 
 =--
 
+$(...)$
 
+$$
+  \array{     
+     R (X) \otimes R(Y)
+      &\overset{\eta(R(X) \otimes R(Y))}{\longrightarrow}&
+     R L (R(X) \otimes R(Y))
+      &\underoverset{}{ R( {\mu_L^{-1}(R(X), R(Y))} ) }{\longrightarrow}&
+     R ( L  R(X) \otimes L R (Y) )
+       &\overset{R( \epsilon(X) \otimes \epsilon(Y) )}{\longrightarrow}&
+     R(X \otimes Y)
+     \\
+     &{}_{\mathllap{ \text{derived } \atop {\text{adjunction unit}} }}\searrow& 
+     \downarrow^{\mathrlap{R j L (R(X) \otimes R(Y))}}
+     &&
+     \downarrow^{\mathrlap{R j ( L R (X) \otimes L R(Y) )}}
+     &&
+     \downarrow^{\mathrlap{ R j( X \otimes Y ) }}
+     \\
+      &&
+     R P L (R(X) \otimes R(Y))
+      &\underoverset{}{ R Q( {\mu_L^{-1}(R(X), R(Y))} ) }{\longrightarrow}&
+     R P ( L  R(X) \otimes L R (Y) )
+       &\overset{R Q( \epsilon(X) \otimes \epsilon(Y) )}{\longrightarrow}&
+     R P (X \otimes Y)
+  }
+$$
+  
+   and
+
+   $$
+     e_R
+     \;\colon\;
+     1 
+       \overset{\eta(1)}{\longrightarrow} 
+     R L(1) 
+       \overset{R(e_L^{-1})}{\longrightarrow} 
+     R(1)
+     \,,
+   $$
 
 
 
@@ -311,23 +350,24 @@ The argument for the homomorphism property of the counit should be formally dual
 The [[stabilization]] adjunction 
 
   $$
-    \left(
-    \Sigma^\infty(-)_+
-    \dashv
-    \Omega^\infty
-    \right)
-    \;\colon\;
     Ho(Spectra)
      \underoverset
        {\underset{\Omega^\infty}{\longrightarrow}}
        {\overset{\Sigma^\infty(-)}{\longleftarrow}}
        {\bot}
+    Ho(Spaces^{\ast/})
+       \underoverset
+         {\underset{}{\longrightarrow}}
+         {\overset{(-)_+}{\longleftarrow}}
+         {}
     Ho(Spaces)
   $$
 
-  between the [[classical homotopy category]] $Ho(Spaces)$ and the [[stable homotopy category]] $Ho(Spectra)$ is a monoidal adjunction, since the [[left adjoint]] $\Sigma^\infty(-)_+$ (forming the [[suspension spectrum]] of a space after freely [[pointed topological space|adjoining a basepoint]]) is [[strong monoidal functor|strong monoidal]] with respect to forming [[product topological spaces]] and forming [[smash  product of spectra]], respectively.
+  between the [[classical homotopy categories]] $Ho(Spaces)$ and $Ho(Spaces^{\ast/})$ of ([[pointed topological space|pointed]]) [[topological spaces]] and the [[stable homotopy category]] $Ho(Spectra)$ is a monoidal adjunction, since the [[left adjoint]] $\Sigma^\infty(-)_+$ (forming the [[suspension spectrum]] of a space after freely [[pointed topological space|adjoining a basepoint]]) is [[strong monoidal functor|strong monoidal]] with respect to forming [[product topological spaces]] and forming [[smash  product of spectra]], respectively.
 
-  In fact this is the [[derived functors]] of what is even a [[monoidal Quillen adjunction]] between the [[classical model structure on topological spaces]] and the stable [[model structure on orthogonal spectra]] ([this cor.](Introduction+to+Stable+homotopy+theory+--+1-2#StableMonoidalQuillenSuspensionSpectrumFunctor)) which implies (strong) modality of the derived functors on homotopy categories ([this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction)).
+  In fact this is the [[derived functors]] of what is even a [[monoidal Quillen adjunction]] between the [[classical model structure on topological spaces]] and the stable [[model structure on orthogonal spectra]] ([this cor.](Introduction+to+Stable+homotopy+theory+--+1-2#StableMonoidalQuillenSuspensionSpectrumFunctor)), which implies (strong) monoidality of the derived functors on homotopy categories ([this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction)).
+
+
 
 =--
 
