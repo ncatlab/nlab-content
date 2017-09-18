@@ -14,6 +14,7 @@ Compare this to the notion of category [[internal category|internal]] to [[Pos]]
 Similarly, such a partially ordered category can be considered as a special kind of [[double category]], while a [[locally posetal 2-category|locally partially ordered category]] can be considered as a special kind of $2$-[[2-category|category]].
 
 >Old discussion:
+
 +--{: .query}
 [[Sridhar Ramesh]]: Is there meant to also be a partial ordering on the objects in addition to those on the Hom-sets? (Without this, I cannot make sense of the source and target maps preserving the partial order. Indeed, as it stands, I don't see how this definition is any different from that of a locally partially ordered category.)
 
