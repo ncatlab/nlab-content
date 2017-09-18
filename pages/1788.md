@@ -1,34 +1,41 @@
+Let $E \in SeqSpec(Top_{cg})$ be an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) and let $X\in Top^{\ast/}_{cg}$ be a [[pointed topological space]] with $\Sigma^\inft X$ its [[suspension spectrum]] (example \ref{SuspensionSpectrum}). Then the [[graded abelian group]]
 
 $$
- \array{
-   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
-   \\
-   \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   \\
-   \mathbb{S} Mod_{strict}
-   &
-     \underoverset
-       {\underset{orth^\ast}{\longrightarrow}}
-       {\overset{orth_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Orth} Mod_{strict}
-   &
-     \underoverset
-       {\underset{sym^\ast}{\longrightarrow}}
-       {\overset{sym_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Sym} Mod_{strict}
-   &
-     \underoverset
-       {\underset{seq^\ast}{\longrightarrow}}
-       {\overset{seq_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Seq} Mod_{strict}
-  }
+  \begin{aligned}
+    \tilde E^\bullet(X)
+     & \coloneqq
+    [\Sigma^\infty X, \Sigma^\bullet E]
+    \\
+      & \simeq
+    [X, \Omega^\infty \Sigma^\bullet E]_\ast
+    \\
+      & \simeq
+    [X, E_\bullet]_\ast
+  \end{aligned}
 $$
+
+is also called the [[reduced chomology]] of $X$ in the [[generalized (Eilenberg-Steenrod) cohomology]] theory that is [[Brown representability theorem|represented]] by $E$.
+
+Here the equivalence used are
+
+1. the [[adjunction]] isomorphism of $(\Sigma^\infty \dashv \Omega^\infty)$ from theorem \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory};
+
+1. the isomorphism $\Sigma \simeq [1]$ of suspension with the shift spectrum (def. \ref{ShiftedSpectrum}) on $Ho(Spectra)$ of lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}, together with the nature of $\Omega^\infty$ from prop. \ref{SigmaInfinityOmegaInfinity}.
+
+The latter expression 
+
+$$
+  \tilde E^n(X) \simeq [X, E_n]_\ast
+$$
+
+(on the right the hom in in the [[classical homotopy category]] $Ho(Top^{\ast/})$ of [[pointed topological spaces]]) is manifestly the definition of [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology]] as discussed in [[Introduction to Stable homotopy theory -- S|part S]] in the [section on the Brown representability theorem](Introduction+to+Stable+homotopy+theory -- S#BrownRepresentabilityTheorem).
+
+More generally, there is now $E$-cohomology not only for spaces, but also for spectra: for $X \in Ho(Spectra)$ be any spectrum, then
+
+$$
+  \tilde E^\bullet(X)
+   \coloneqq
+  [X,\Sigma^\bullet E]
+$$
+
+is called the reduced $E$-cohomology of the spectrum $X$. For examples see in the [[Introduction to Stable homotopy theory -- S|part S]] the section _[Orientation in generalized cohomology](Introduction+to+Stable+homotopy+theory+--+S#OrientationAndFiberIntegration)_.
