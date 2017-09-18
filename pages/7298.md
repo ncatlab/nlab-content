@@ -46,3 +46,7 @@ Consider a morphism $(f,f^\sharp):(Y,\mathcal{O}_Y)\to(X,\mathcal{O}_X)$ of [[ri
 [[!redirects monads in nonstandard analysis]]
 [[!redirects monad in non-standard analysis]]
 [[!redirects monads in non-standard analysis]]
+
+[[!redirects infinitesimal disk]]
+[[!redirects infinitesimal disks]]
+
