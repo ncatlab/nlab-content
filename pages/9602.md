@@ -47,7 +47,7 @@ The category $((LieAlg)_k)^{\Delta^{op}}_{proj}$ from def. \ref{CategoryOfSimpli
 
 =--
 
-Since [[Lie algebras]] are algebras over a [[Lawvere theory]], this is a special case of ([Reedy 74, theorem I](https://ncatlab.org/nlab/show/model+structure+on+simplicial+algebras#Reedy74)) discussed at _[[model structure on simplicial algebras]]_. Without the simplicial enrichment and on [[reduced simplicial sets|reduced]] simplicial Lie algebras this model structure is left as an exercise for the reader in ([Quillen 69, below theorem 4.7](#Quillen69)).
+Since [[Lie algebras]] are algebras over a [[Lawvere theory]], this is a special case of ([Reedy 74, theorem I](https://ncatlab.org/nlab/show/model+structure+on+simplicial+algebras#Reedy74)) discussed at _[[model structure on simplicial algebras]]_. Without the simplicial enrichment and on [[reduced simplicial sets|reduced]] simplicial Lie algebras this model structure is a special case of ([Quillen 67, II.4 theorem 4](#Quillen67)) and also left as an exercise for the reader in ([Quillen 69, below theorem 4.7](#Quillen69)).
 
 ## Properties
 
@@ -175,7 +175,11 @@ $$
 
 ## References
 
-The model structure for [[reduced simplicial set|reduced]] simplicial Lie algebras is originally due to
+The model structure for for simplicial %T%Palgebras is originally due to
+
+* {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, Lectures Notes in Mathematics 43, Springer Verlag, Berlin, (1967)
+
+and specifically for [[reduced simplicial set|reduced]] simplicial Lie algebras due to
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
 
