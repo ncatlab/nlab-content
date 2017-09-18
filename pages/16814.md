@@ -1,11 +1,38 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-For lack of time, for the moment I essentially just [quote](http://math.stackexchange.com/a/438697/58526) [[Martin Brandenburg]]:
+While a (left or right) [[adjoint]] to a [[functor]] may be understood as the best approximation (from one side or the other) of a possibly non-existent inverse, any pair of [[adjoint functors]] restricts to an [[equivalence of categories]] on [[subcategories]]. These subcategories are sometimes known as the _center_ of the adjunction, their objects are sometimes known as the [[fixed point of an endofunctor|fixed points]] of the adjunction.
 
-[[adjunction|Adjunctions]] often "prepare" [[equivalence of categories|equivalences]]. More precisely, if $F : D \to C $ is [[left adjoint]] to $G : C \to D$, then we take the [[fixed points of the endofunctor]] $F G$ to be those [[objects]] of $C$ where the [[counit of an adjunction|counit]] $\epsilon$ is an [[isomorphism]], and analogously the fixed points of $G F$ as those objects of $D$ where the [[unit of an adjunction|unit]] $\eta$ is an isomorphism. The [[triangle identities]] imply that $F$ and $G$ induce an [[equivalence of categories]] between the fixed points of $F G$ and the fixed points of $G F$. 
+The [[equivalences of categories]] that arise from fixed points of adjunctions this way are often known as [[dualities]]. Examples include [[Pontrjagin duality]], [[Gelfand duality]], [[Stone duality]], and the [[Isbell duality]] between [[commutative rings]] and [[affine schemes]].
 
-Lots of equivalences of categories can be seen that way, for example the Main Theorem of [[Galois theory]], [[Pontrjagin duality]], [[Gelfand duality]], [[Stone duality]], the [[Isbell duality]] between [[commutative rings]] and [[affine schemes]], the classification of coherent sheaves on projective spaces, the (weak) equivalence between CW complexes and Kan simplicial sets, and so on.
+## Definition
+
+If $L \colon \mathcal{D} \longrightarrow \mathcal{C}$ is [[left adjoint]] to $R  \colon \mathcal{C} \longrightarrow \mathcal{D}$, then we take the [[fixed points of the endofunctor]] $F G$ to be those [[objects]] of $\mathcal{C}$ on which the [[counit of an adjunction|counit]] $\epsilon$ is an [[isomorphism]], and take the fixed points of $G F$ to be those objects of $\mathcal{D}$ on which the [[unit of an adjunction|unit]] $\eta$ is an isomorphism. The [[triangle identities]] then imply that $F$ and $G$ induce an [[equivalence of categories]] between the [[full subcategories]] of fixed points of $F G$ and the fixed points of $G F$. 
+
+## Related concepts
+
+* [[nucleus of a profunctor]]
+
 
 [[!redirects fixed points of an equivalence]]
+
+[[!redirects center of an adjunction]]
+[[!redirects centers of adjunctions]]
