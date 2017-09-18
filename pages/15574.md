@@ -494,9 +494,29 @@ A simple _example_ of a non-trivial quintessential localization is given by the 
 ###### Example
 Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs.
 
-Symmetricization $\rho\mapsto\bar{\rho}$ by adding pairs $(y,x)$ (if necessary) when $(x,y)\in\rho$ gives a functor from $\mathbf{Bin}$ to the full subcategory $\mathbf{Sym}$ of sets equipped with a symmetric relation that is adjoint to $\mathbf{Sym}\hookrightarrow\mathbf{Bin}$ on both sides.
+Symmetricization $\rho\mapsto\bar{\rho}$ by adding pairs $(y,x)$ (if necessary) when $(x,y)\in\rho$ gives a functor from $\mathbf{Bin}$ to the full subcategory $\mathbf{Sym}$ of sets equipped with a _symmetric_ relation that is adjoint to the inclusion on both sides:
 
-$(\empty,\empty)$ and $(\{\ast\},\{\ast,\ast\})$ are the initial resp. the terminal object in $\mathbf{Bin}$. The inclusion $e\vdash u\vdash t: Set\hookrightarrow\mathbf{Bin}$ is an essential localization whereby $t$ maps a set $X$ to $(X,\tau_X)$ with $\tau_X$ the total relation on $X$, $u$ is the forgetful functor mapping $(X,\rho)$ to its underlying set $X$, and $e$ maps a set $X$ to $(X,\empty)$. The correponding modalities ($\Box$ resp. $\diamond$) are mapping $(X,\rho)$ to $(X,\empty)$ resp. to $(X,\tau_X)$. This is the Aufhebung of $0\dashv 1$ since $(\empty,\empty)$ is the only object $(X,\rho)$ such that $\rho$ is simultaneously total and empty. Since the total as well as the empty relation on a set $X$ is symmetrical, one sees that $\mathbf{Sym}$ resolves $Set$.
+$$
+i\dashv s\dashv i:\mathbf{Sym}\hookrightarrow\mathbf{Bin}\quad .
+$$
+
+$(\empty,\empty)$ and $(\{\ast\},\{\ast,\ast\})$ are the initial resp. the terminal object in $\mathbf{Bin}$. The inclusion 
+
+$$e\vdash u\vdash t: Set\hookrightarrow\mathbf{Bin}$$
+
+is an essential localization whereby $t$ maps a set $X$ to $(X,\tau_X)$ with $\tau_X$ the total relation on $X$, $u$ is the forgetful functor mapping $(X,\rho)$ to its underlying set $X$, and $e$ maps a set $X$ to $(X,\empty)$. The correponding modalities ($\Box$ resp. $\diamond$) are mapping $(X,\rho)$ to $(X,\empty)$ resp. to $(X,\tau_X)$. The corresponding level resolves $0\dashv 1$ and is itself in turn resolved by $\mathbf{Sym}$ since the total as well as the empty relation on a set $X$ is symmetrical.
+
+$\mathbf{Bin}$ has other interesting subcategories e.g. another copy of $Set$ as the full reflective subcategory of sets $X$ equipped with the identity relation. The corresponding inclusion $\Delta$ forms part of an adjoint string
+
+$$\Pi\dashv\Delta\dashv\Gamma:\mathbf{Bin}\to Set$$
+
+with the connected components functor $\Pi$ and the section functor $\Gamma$ mapping $(X,\rho)$ to $\{x\in X| x\rho x\}$. This is not a localization since $\Pi$ does not preserve finite limits.
+
+The inclusion $i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}$ of the full subcategory of sets equipped with a _reflexive_ relation is an essential localization:
+
+$$d\dashv r \dashv i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}\quad .$$
+
+Here $r$ is the reflexivization functor that maps $(X,\rho)$ to $(X,\rho\cup id_X)$, whereas $d:\mathbf{Refl}\hookrightarrow \mathbf{Bin}$ is the irreflexivization functor that maps $(X,\rho)$ to $(X,\rho\setminus id_X)$. The corresponding identical opposite of $\mathbf{Refl}$ is, of course, the full subcategory $\mathbf{IrRefl}$ of sets equipped with an irreflexive relation. Note that this level resolves $0\dashv 1$ since the empty relation on the empty set is reflexive and irreflexive at the same time. In fact $(\empty,\empty)$ is the only object $(X,\rho)$ contained in $\mathbf{Refl}\cap\mathbf{IrRefl}$. In particular, $\mathbf{Refl}$ contains $Set$ as the sets equipped with the total relation but does not resolve the corresponding level.
 
 Note that this example can be viewed as a toy-model illustration of the basic dialectical movement of concepts in the logic of essence in WdL which consists in the dynamic unfolding of the (asymmetrically relational) concept of essence into the (symmetrically relational) concept of _Wechselwirkung_ or mutual action where the asymmetry between essence and appearance is finally sublated by the symmetry between action and counter action.
 
