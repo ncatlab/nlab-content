@@ -1214,7 +1214,19 @@ This provides all the necessary structure to now set up an axiomatic theory of [
 
 ### Syntax Layer 
 
-(...)
+(...) formulation of the above in [[homotopy type theory]] in [Wellen 17](#Wellen17) (...)
+
+
+## References
+
+The above formulation of [[V-manifolds]] in [[differential cohesion]] is due to [[schreiber:differential cohomology in a cohesive topos|dcct]] and
+
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+and the formalization in [[homotopy type theory]] is in
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, PhD Thesis, 2017
+
 
 [[!redirects formal smooth set]]
 [[!redirects formal smooth sets]]
