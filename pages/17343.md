@@ -60,7 +60,7 @@ $\,$
 
 Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them. Its [[isomorphisms]] are the [[homeomorphisms]]. 
 
-(Further [below](#SimplicialSets) in the discussion of [[geometric realization]] we restrict attention to the [[full subcategory]] of [[compactly generated topological spaces]].)
+(Further [below](#ModelStructureOnCompactlyGeneratedTopologicalSpaces) we restrict attention to the [[full subcategory]] of [[compactly generated topological spaces]].)
 
 
 #### Universal constructions
@@ -632,9 +632,9 @@ In the context of prop. \ref{MappingTopologicalSpaceIsExponentialObject} it is o
 
 Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails in general if $Y$ is not locally compact. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]]. 
 
-This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance when comparing it for instance to the [[simplicial homotopy theory]] via the singular [[nerve and realization]] adjunction, since it implies that [[geometric realization]] of [[simplicial sets]] does not necessarily preserve [[finite limits]].
+This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance for various constructions that one would like to perform within that homotopy theory. For instance on general [[pointed topological spaces]] the [[smash product]] is in general not [[associativity|associative]].
 
-On the other hand, without changing any of the following discussion one may just pass to a more [[convenient category of topological spaces]] such as notably the [[full subcategory]] of [[compactly generated topological spaces]] $Top_{ck} \hookrightarrow Top$ (def. \ref{kTop}) which is [[Cartesian closed category|Cartesian closed]].
+On the other hand, without changing any of the following discussion one may just pass to a more [[convenient category of topological spaces]] such as notably the [[full subcategory]] of [[compactly generated topological spaces]] $Top_{cg} \hookrightarrow Top$ (def. \ref{kTop}) which is [[Cartesian closed category|Cartesian closed]]. This we turn to [below](#ModelStructureOnCompactlyGeneratedTopologicalSpaces).
 
 =--
 
@@ -5521,7 +5521,7 @@ The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^
 
 1. there is a concept of [[topologically enriched functors]] with values in topological spaces, to which we turn [below](#ModelStructureOnTopEnrichedFunctors);
 
-1. [[geometric realization]] of [[simplicial sets]] preserves [[products]] (prop. \ref{Timesk} below).
+1. [[geometric realization]] of [[simplicial sets]] preserves [[products]].
 
 The first two of these are crucial for the development of [[stable homotopy theory]] in the [[Introduction to Stable homotopy theory -- 1|next section]], the third is a great convenience in computations.
 
