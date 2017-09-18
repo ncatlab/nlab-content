@@ -68,7 +68,7 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 =--
 
 
-If [[excluded middle]] is assumed, then def. \ref{hb} the following reformulations #in terms of [[closed subsets]]:
+If [[excluded middle]] is assumed, then def. \ref{hb} has the following reformulations in terms of [[closed subsets]]:
 
 +-- {: .num_prop #fip}
 ###### Proposition
@@ -83,7 +83,6 @@ Assuming [[excluded middle]], then the following are equivalent:
    
 1. Let $\{C_i \subset X\}_{i \in I}$ be a set of [[closed subsets]] such that it enjoys the  _[[finite intersection property]]_, meaning that for every [[finite set|finite]] [[subset]] $J \subset I$ then the corresponding finite intersection is [[inhabited set|non-empty]] $\underset{i \in J \subset I}{\cap} C_i \neq \emptyset$. Then also the total intersection is [[inhabited set|inhabited]], $\underset{i \in I}{\cap} C_i \neq \emptyset$.
 
-1. {#ClosedProjectionCharacterization} For every topological space $(Y,\tau_Y)$ the [[projection]] map out of the [[product topological space]] $\pi_Y \;\colon\; (X \times Y, \tau_{X \times Y}) \to (Y, \tau_Y)$ is a [[closed map]].
 
 =--
 
@@ -96,7 +95,25 @@ Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Write $C_i \coloneqq X \
 
 Then statement 3 is the [[contraposition]] of the second, and contrapositives are equivalent under [[excluded middle]].
 
-The proof of the equivalence of statement 4 is discussed at _[[closed-projection characterization of compactness]]_.
+
+=--
+
++-- {: .num_defn #projection}
+###### Proposition
+**([[closed-projection characterization of compactness]])**
+
+A topological space $X$ is compact (def. \ref{hb}) precisely if for any topologocial space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[product topological space]] is [[closed map|closed]]. 
+
+=--
+
+For **proof** see at _[[closed-projection characterization of compactness]]_
+
++-- {: .num_remark}
+###### Remark
+
+Contrary to possible appearance, the equivalence in prop. \ref{projection} does not require the [[axiom of choice]]; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction).  This equivalence is also true for [[locales]], by way of proper maps; see below. 
+
+Moreover, the characterization of compact spaces via prop. \ref{projection} may be used to give an attractive proof of the [[Tychonoff theorem]], due to Clementino and Tholen. See [here](https://ncatlab.org/nlab/show/closed-projection%20characterization%20of%20compactness) for details. 
 
 =--
 
@@ -150,19 +167,7 @@ $X$ is compact iff it is a [[compact object]] in $Op(X)$.
 
 Compactness is equivalent to the condition of being "stably closed" (and it is this condition which suggests the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere):
 
-+-- {: .num_defn #projection}
-###### Definition
-**([[closed-projection characterization of compactness]])**
-
-$X$ is compact iff for any space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[Cartesian product]] is [[closed map|closed]] (see e.g. [Milne, section 17](#Milne)).
-
-=--
-
-Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction).  This equivalence is also true for [[locales]], by way of proper maps; see below. 
-
-Moreover, this characterization of compact spaces may be used to give an attractive proof of the [[Tychonoff theorem]], due to Clementino and Tholen. See [here](https://ncatlab.org/nlab/show/closed-projection%20characterization%20of%20compactness) for details. 
-
-Closely related to the previous definition, a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
+Closely related to [[closed-projection characterization of compactness]], a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
 
 +-- {: .num_defn #quantification}
 ###### Definition
@@ -234,10 +239,57 @@ Let $X$ be a [[topological space]]. Let
 Then the [[complement]]
 
 $$
-  K \setminus U \subset X
+  K \setminus U \subset Xcov
 $$
 
 is itself a compact subspace.
+
+=--
+
++-- {: .proof #ProofIntersectionCompactWithOpen}
+###### Proof
+
+Let $\{V_i \subset K \setminus U\}$ be an [[open cover]] of the complement subspace. We need to show that this admits a finite subcover.
+
+Observe that by definition of the [[subspace topologies]] on $K \setminus U$  and on $K$:
+
+1. the $V_i \subset K \setminus U$ are still open when regarded as subsets $V_i \subset K$ of $K$;
+
+1. also the intersection $K \cap U \subset K$ is an open subset of the compact subspace $K$. 
+
+This means that
+
+$$
+  \{ 
+    V_i \subset K
+  \}_{i \in I}
+  \sqcup 
+   (U \cap K)
+$$
+
+is an [[open cover]] of $K$. Hence by the compactness of $K$, this has a finite subcover. If $U \cap K$ is retained in this subcover then it is of the form
+
+$$
+  \{ V_j \subset K\}_{j \subset J} \sqcup (U \cap K)
+$$
+
+otherwise it is of the form
+
+$$
+  \{ V_j \subset K\}_{j \subset J} 
+$$
+
+
+with $J \subset I$ a [[finite set|finite]] [[subset]]. 
+
+Since either of these is still a cover, also their restriction from $K$ to $K \setminus U$ is a cover of $K \setminus U$. But by assumption the $V_j$ are already restricted to $K \setminus U$, while the restriction of $(U \cap K)$ to $K \setminus U$ is empty. Therefore in either of the above cases we find that 
+
+$$
+  \{ V_j \subset K \setminus U\}_{j \subset J} 
+$$
+
+is a finite subcover of the original open cover of $K \setminus U$. Therefore $K \setminus U$ is compact.
+
 
 =--
 
