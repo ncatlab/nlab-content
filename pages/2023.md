@@ -128,6 +128,8 @@ See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/
 
 * [[abstract circle]]
 
+* [[twisted arrow category]]
+
 
 [[!redirects interval]]
 [[!redirects intervals]]
