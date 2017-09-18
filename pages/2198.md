@@ -17,7 +17,7 @@
 
 In addition to the well-known [[topological spaces]], many other structures can be used to found topological reasoning on sets, including [[uniform spaces]] and _proximity spaces_.  Proximity spaces provide a level of structure in between topologies and uniformities; in fact a proximity is equivalent to an equivalence class of uniformities with the same [[totally bounded space|totally bounded]] [[reflection]].
 
-Proximity spaces are often called _nearness spaces_, but this term has other meanings in the literature. (See for example [this article](http://ijmsa.yolasite.com/resources/43--newnew.pdf).) One can clarify with the term _set--set nearness space_.  The same goes for the term _apartness space_, which is another way to look at the same basic idea.
+Proximity spaces are often called _nearness spaces_, but this term has other meanings in the literature. (See for example [this article](http://ijmsa.yolasite.com/resources/43--newnew.pdf).) One can clarify with the term _set--set nearness space_.  The same goes for the term _apartness space_, which is another way to look at the same basic idea.  (See [[apartness space]] for a point--set version and [[apartness relation]] for a point--point version.)
 
 
 ## Notation and terminology
@@ -39,7 +39,7 @@ In [[classical mathematics]], these relations are all interdefinable:
 
 (Here, $\neg$ indicates [[negation]] of truth values, while $B'$ is the [[complement]] of $B$ in $X$.)
 
-In [[constructive mathematics]], any one of these relations may be taken as primary and the others defined using it; thus we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__ (see [[apartness space]]), and a __set--set neighbourhood space__.
+In [[constructive mathematics]], any one of these relations may be taken as primary and the others defined using it; thus we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__, and a __set--set neighbourhood space__.
 
 
 ## Definitions
@@ -151,8 +151,6 @@ Symmetry probably doesn\'t fit into this picture very well, but who knows?
 
 ## Related concepts
 
-* [[apartness relation]]
-
 [[!include generalized uniform structures - table]]
 
 
@@ -198,6 +196,25 @@ Symmetry probably doesn\'t fit into this picture very well, but who knows?
 [[!redirects set–set nearness relation]]
 [[!redirects set–set nearness relations]]
 [[!redirects set--set nearness relation]]
+[[!redirects set--set nearness relations]]
+
+[[!redirects set-set apartness space]]
+[[!redirects set-set apartness spaces]]
+[[!redirects set–set apartness space]]
+[[!redirects set–set apartness spaces]]
+[[!redirects set--set apartness space]]
+[[!redirects set--set apartness spaces]]
+[[!redirects set-set apartness structure]]
+[[!redirects set-set apartness structures]]
+[[!redirects set–set apartness structure]]
+[[!redirects set–set apartness structures]]
+[[!redirects set--set apartness structure]]
+[[!redirects set--set apartness structures]]
+[[!redirects set-set apartness relation]]
+[[!redirects set-set apartness relations]]
+[[!redirects set–set apartness relation]]
+[[!redirects set–set apartness relations]]
+[[!redirects set--set apartness relation]]
 [[!redirects set--set nearness relations]]
 
 [[!redirects quasiproximity]]
