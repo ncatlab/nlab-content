@@ -26,3 +26,5 @@ of the substitution product.
 
 * [1] [[Bruno Vallette]], A Koszul duality for props.
 [arXiv:math/0411542](http://arxiv.org/abs/math/0411542)
+
+[[!redirects properads]]
