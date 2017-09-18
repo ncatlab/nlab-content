@@ -50,7 +50,7 @@ For $n = 0$ the free construction is [[isomorphism|isomorphic]] to the correspon
 
 * {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
-* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_ (2012)
+* {#Schwede12} [[Stefan Schwede]], section I.3 of _[[Symmetric spectra]]_ (2012)
 
 [[!redirects free spectra]]
 
