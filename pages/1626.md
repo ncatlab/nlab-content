@@ -32,7 +32,7 @@ so $X$ is connected if this is always a [[bijection]]. This definition generalis
 
 Here are some equivalent ways to say that $X$ is connected in more elementary terms:
 
-* Whenever $X \cong Y + Z$, where the right side is the coproduct of spaces $Y, Z$ (so that $Y, Z$ are identified with disjoint open subspaces of $X$), then exactly one of $Y, Z$ is [[inhabited set|inhabited]] (so the other is [[empty set|empty]], making the inhabited one homeomorphic to $X$).
+* Whenever $X \cong Y +\sqcup Z$, where the right side is the [[disjoint union space]] $Y, Z$ (so that $Y, Z$ are identified with disjoint open subspaces of $X$), then exactly one of $Y, Z$ is [[inhabited set|inhabited]] (so the other is [[empty set|empty]], making the inhabited one [[homeomorphism|homeomorphic]] to $X$).
 
 * If $K \subseteq X$ is [[clopen set|clopen]] (both closed and open), then $K = X$ if and only if $K$ is inhabited.
 
