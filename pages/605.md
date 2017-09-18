@@ -74,13 +74,16 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 ## References
 
+* {#Ston68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+
+* {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
 
 * [[Manifold Atlas]], _[Bordism](http://www.map.mpim-bonn.mpg.de/Bordism)_
 
 * Wikipedia, _[Cobordism](http://en.wikipedia.org/wiki/Cobordism)_
 
-* {#Ston68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
 
 [[!redirects cobordisms]]
