@@ -129,9 +129,9 @@ $$
 
 from the [[homotopy category]] $Top^{\hookrightarrow}$ of pairs of [[topological spaces]] to the category [[Ab]] of abelian groups, as well as a [[natural transformation]] $\delta: A^n(X, \emptyset) \to A^{n+1}(X, U)$. These functors and natural transformations satisfy and are characterized by the following axioms.
 
-1. **Exactness**: The following sequence is exact. Note that the inclusions $U \hookrightarrow X$ and $(X, \emptyset) \hookrightarrow (X, U)$ induce the unlabeled arrows. 
+1. {#ExactnessUnreduced} **Exactness**: For $U \hookrightarrow X$ a subspace inclusion then there is a [[long exact sequence]] of the form
 
-$ \cdots \to E^n(X, U) \to E^n(X, \emptyset) \to E^n(U, \emptyset) \xrightarrow{\delta} E^{n+1}(X, U) \to \cdots $
+   $ \cdots \to E^n(X, U) \to E^n(X, \emptyset) \to E^n(U, \emptyset) \xrightarrow{\delta} E^{n+1}(X, U) \to \cdots $
 
 1. **Homotopy equivalence**: if $f : X \to Y$ is a [[weak homotopy equivalence]] then $E^n(f) : E^n(Y) \to E^n(X)$ is an [[isomorphism]]
 
