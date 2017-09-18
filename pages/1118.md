@@ -164,6 +164,11 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 * [[ring]], [[ring object]]
 
+## References
+
+
+* [[Saunders MacLane]], chapter III, section 6 in _[[Categories for the Working Mathematician]]_, Springer (1971) 
+
 [[!redirects group objects]]
 
 [[!redirects internal group]]
