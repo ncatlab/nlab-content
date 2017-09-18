@@ -197,15 +197,15 @@ In particular this does show that $\Pi(\mathbf{H}) : \infty Grpd \to \infty Grpd
 
 ### Shape of a locally $\infty$-connected topos
 
-Suppose that $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], meaning that $\LConst$ has a left adjoint $\Pi$ which constructs the [[geometric homotopy groups in an (∞,1)-topos|homotopy ∞-groupoids]] of objects of $\mathbf{H}$.  Then $\Shape(\mathbf{H})$ is [[representable functor|represented]] by $\Pi(*)\in \infty Grpd$, for we have
+Suppose that $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], meaning that $\LConst$ has a left adjoint $\Pi$ which constructs the [[geometric homotopy groups in an (∞,1)-topos|homotopy ∞-groupoids]] of objects of $\mathbf{H}$.  Then $\Shape(\mathbf{H})$ is [[representable functor|represented]] by $\Pi(*)\in \infty Grpd$, for we have the following sequence of [[natural equivalence|natural]] [[equivalences of ∞-groupoids]]:
 
 $$
 \begin{aligned}
-Shape(\mathbf{H})(A) &= \Gamma(LConst(A))\\
-&= Hom_{\infty Grpd}(*, \Gamma(LConst(A)))\\
-&= Hom_{\mathbf{H}}(LConst(*), LConst(A)) \\
-&= Hom_{\mathbf{H}}(*, LConst(A)) \\
-&= Hom_{\infty Grpd}(\Pi(*),A).
+Shape(\mathbf{H})(A) &\simeq \Gamma(LConst(A))\\
+&\simeq Hom_{\infty Grpd}(*, \Gamma(LConst(A)))\\
+&\simeq Hom_{\mathbf{H}}(LConst(*), LConst(A)) \\
+&\simeq Hom_{\mathbf{H}}(*, LConst(A)) \\
+&\simeq Hom_{\infty Grpd}(\Pi(*),A).
 \end{aligned}
 $$
 
