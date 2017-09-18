@@ -197,7 +197,6 @@ in the broad context of _[[factorization algebras]]_ (see there for further refe
 
 [[!redirects perturbation theories]]
 
-[[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
 
 [[!redirects perturbation]]
