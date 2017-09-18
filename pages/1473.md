@@ -185,7 +185,7 @@ One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha 
 
 +-- {: .num_remark #TyCH} 
 ###### Remark 
-The axiom of choice is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for Hausdorff spaces. 
+The [[axiom of choice]] is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for Hausdorff spaces. 
 =-- 
 
 
