@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
-#### Arithmetic geometry
+#### Arithmetic
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
