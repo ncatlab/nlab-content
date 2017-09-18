@@ -387,5 +387,9 @@ Material on pseudo-arcs can be found in
 [[!redirects connected component]]
 [[!redirects connected components]]
 
+[[!redirects path component]]
+[[!redirects path components]]
+
 [[!redirects path-component]]
 [[!redirects path-components]]
+
