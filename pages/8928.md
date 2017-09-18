@@ -131,6 +131,8 @@ Discussion for [[M-theory]]/[[11-dimensional supergravity]] includes
 
 * [[Juan Maldacena]], [[Andrew Strominger]], [[Edward Witten]], _Black Hole Entropy in M-Theory_, JHEP 9712:002,1997 ([arXiv:hep-th/9711053](http://arxiv.org/abs/hep-th/9711053))
 
+* [[Gary Horowitz]] , M. Roberts, _Counting the microstates of a Kerr black hole in M theory_, Phys Rev Lett. 2007 Nov 30;99(22):221601. Epub 2007 Nov 30. ([web](https://www.ncbi.nlm.nih.gov/pubmed/18233277))
+
 * [[Davide Gaiotto]], [[Andrew Strominger]], Xi Yin, _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070,2007 ([arXiv:hep-th/0607010](http://arxiv.org/abs/hep-th/0607010))
 
 Discussion relating to the [[Kaluza-Klein monopole]] includes
