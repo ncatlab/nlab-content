@@ -9308,7 +9308,7 @@ Proposition \ref{EnHomology} is the key ingredient in the construction of the **
 
 #### Examples
 
-For reference, we consider some basic examples of [[orthogonal ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) $E$. By prop. \ref{RingSpectraAreDayMonoids} and corollary \ref{MonoidalStableHomotopyCategory} each of these examples in particular represents a [[homotopy commutstive ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}). 
+For reference, we consider some basic examples of [[orthogonal ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) $E$. By prop. \ref{RingSpectraAreDayMonoids} and corollary \ref{MonoidalStableHomotopyCategory} each of these examples in particular represents a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}). 
 
 We make use of these examples of homotopy commutative ring spectra $E$ in [[Introduction to Stable homotopy theory -- 2|Part 2]] in the computation of $E$-[[Adams spectral sequences]].
 
