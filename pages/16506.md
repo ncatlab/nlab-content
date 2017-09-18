@@ -29,7 +29,7 @@ $$
 
 given by forming the [[internal hom]] out of $W$, hence the "space of functions" out of $W$. This is sometimes called the _function monad_.  Its [[unit of a monad]] is given by sending values to [[constant functions]] with that value, and the monad operation is given by evaluating on the [[diagonal]].
 
-In the context of [[monads in computer science]] this monad is called the _reader monad_ or _environmen monad_. It serves to write programs in which all operations may "read in" a state of type $W$ (an "environment").
+In the context of [[monads in computer science]] this monad is called the _reader monad_ or _environment monad_. It serves to write programs in which all operations may "read in" a state of type $W$ (an "environment").
 
 ## Properties
 
