@@ -275,10 +275,12 @@ A review of T-duality from the [[worldsheet]] perspective is in
 
 ### Target space
 
+#### Without supergeometry
+
 Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
 
-* [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
-  {#KahleValentino}
+* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
+  
 
 More physically oriented discussion of this is in 
 
@@ -310,3 +312,10 @@ The relation to [[Langlands dual groups]] is discussed in
 
 * {#DaenzerErp} [[Calder Daenzer]], [[Erik Van Erp]], _T-Duality for Langlands Dual Groups_ ([arXiv:1211.0763](http://arxiv.org/abs/1211.0763))
  
+#### With supergeometry
+
+Disucssion including [[super p-brane]] charges on [[super spacetime]]:
+
+* {#BandosJulia03} [[Igor Bandos]], [[Bernard Julia]], _Superfield T-duality rules_, JHEP 0308 (2003) 032 ([arXiv:hep-th/0303075](https://arxiv.org/abs/hep-th/0303075))
+
+  reviewed in _Superfield T-duality rules in ten dimensions with one isometry_ ([arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299))
