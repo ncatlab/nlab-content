@@ -15,7 +15,7 @@
 
 ## Idea
 
-What is sometimes called _de Sitter grvity_ and _anti de Sitter gravity_ is the analog of [[Einstein gravity]] with the local model geometry of [[Minkowski spacetime]] acted on by the [[Poincaré group]] replaced by [[anti de Sitter spacetime]] or [[de Sitter spacetime]] acted on by their [[isometry groups]] ([[anti de Sitter group]] and de Sitter group).
+What is sometimes called _de Sitter gravity_ and _anti de Sitter gravity_ is the analog of [[Einstein gravity]] with the local model geometry of [[Minkowski spacetime]] acted on by the [[Poincaré group]] replaced by [[anti de Sitter spacetime]] or [[de Sitter spacetime]] acted on by their [[isometry groups]] ([[anti de Sitter group]] and de Sitter group).
 
 More in detail, in the [[first order formulation of gravity]] the [[field (physics)|field configurations]] of [[Einstein gravity]] ([[general relativity]]) are [[Cartan connections]] for the inclusion of the [[Spin group]] into the [[Poincaré group]]. Accordingly a field configuration of (anti) de Sitter gravity is a [[Cartan connection]] for a suitable [[stabilizer subgroup]] included into  $O(d-1,2)$ of $O(d,1)$, respectively.
 
@@ -31,6 +31,8 @@ More in detail, in the [[first order formulation of gravity]] the [[field (physi
 
 
 * Wikipedia, _[de Sitter invariant special relativity](http://en.wikipedia.org/wiki/De_Sitter_invariant_special_relativity)_
+
+* M. Gunaydin, [[Peter van Nieuwenhuizen]], N.P. Warner, _General Construction of the Unitary Representations of Anti-de Sitter Superalgebras and the Spectrum of the $S^7$ Compactification of Eleven-dimensional Supergravity_, Nucl.Phys. B255 (1985) 63 ([spire](http://inspirehep.net/record/206013?ln=en))
 
 [[!redirects anti de Sitter gravity]]
 
