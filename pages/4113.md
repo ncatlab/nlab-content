@@ -226,7 +226,7 @@ $$
   \right\}_{n \in \mathbb{N}, l_n \in L_n}
 $$
 
-is a refinement by closed balls as required. It local finiteness follows by the fact that each $B_{l_n}$ is contained in the "strip" $V_{n+2} \setminus K_{n-1}$, each strip contains only a finite set of $B_{l_n}$-s and each strip intersects only a finite number of other strips. (Hence an open subset around a point $x$ which intersects only a finite number of elements of the refined cover is given by any one of the balls $B_{l_n}$ that contain $x$.)
+is a refinement by closed balls as required. Its local finiteness follows by the fact that each $B_{l_n}$ is contained in the "strip" $V_{n+2} \setminus K_{n-1}$, each strip contains only a finite set of $B_{l_n}$-s and each strip intersects only a finite number of other strips. (Hence an open subset around a point $x$ which intersects only a finite number of elements of the refined cover is given by any one of the balls $B_{l_n}$ that contain $x$.)
 
 
 =--
@@ -255,7 +255,7 @@ $$
     V_j
       \subset 
     X
-  \right\}_{i \in J}
+  \right\}_{j \in J}
   \,.
 $$
 
