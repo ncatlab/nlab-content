@@ -359,7 +359,7 @@ says that
 
 =--
 
-There are various ways to see the existence and to construct the $T_n$-reflections. The following is the quickest way to see the existence, even though it leaves the actual construction rather implicit.
+There are various ways to see the existence and to construct the $T_n$-reflections. The following is the quickest way to see the existence, even if to some tastes the construction seems more implicit or abstract than the previous one.
 
 
 +-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
