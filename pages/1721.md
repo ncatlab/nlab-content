@@ -48,10 +48,10 @@ The Eilenberg-Steenrod axioms are the following:
 A [[cohomology theory]] is a collection $\{A^n\}_{n \in \mathbb{Z}}$ of [[functor]]s
 
 $$
-  A^n : (Top \times Top)^{op} \to Ab
+  A^n : (Top^{\hookrightarrow})^{op} \to Ab
 $$
 
-from the [[homotopy category]] of pairs of [[topological space]]s to the category [[Ab]] of abelian groups, as well as a [[natural transformation]] $\delta: A^n(X, \emptyset) \to A^{n+1}(X, U)$. These functors and natural transformations satisfy and are characterized by the following axioms.
+from the [[homotopy category]] $Top^{\hookrightarrow}$ of pairs of [[topological space]]s to the category [[Ab]] of abelian groups, as well as a [[natural transformation]] $\delta: A^n(X, \emptyset) \to A^{n+1}(X, U)$. These functors and natural transformations satisfy and are characterized by the following axioms.
 
 1. *Exactness*: The following sequence is exact. Note that the inclusions $U \hookrightarrow X$ and $(X, \emptyset) \hookrightarrow (X, U)$ induce the unlabeled arrows. 
 
