@@ -1,5 +1,5 @@
 
-Philip Candelas is professor of mathematical [[physics]] at Oxford
+Philip Candelas is professor of mathematical [[physics]] at Oxford.
 
 * [webpage](http://www.maths.ox.ac.uk/people/profiles/philip.candelas)
 
@@ -10,6 +10,8 @@ Philip Candelas is professor of mathematical [[physics]] at Oxford
 * [[supersymmetry and Calabi-Yau manifolds]]
 
 * [[string phenomenology]]
+
+* [[Calabi-Yau varieties]] over [[finite fields]]
 
 
 category: people
