@@ -6005,8 +6005,9 @@ $$
 
 ##### The May spectral sequence
 
-The cobar complex (def. \ref{CobarComplex}) relizes the second page of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) as the [[cochain cohomology]] of a [[cochain complex]]. This is still hard to compute directly, but we now oberserve that this cochain complex admits a [[filtered complex|filtration]] so that the induced [[spectral sequence of a filtered complex]] has a computable first page. This is called the _[[May spectral sequence]]_.
+The cobar complex (def. \ref{CobarComplex}) realizes the second page of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) as the [[cochain cohomology]] of a [[cochain complex]]. This is still hard to compute directly, but we now discuss that this cochain complex admits a [[filtered complex|filtration]] so that the induced [[spectral sequence of a filtered complex]] is computable and has trivial [[extension problem]]. This is called the _[[May spectral sequence]]_.
 
+We obtain this spectral sequence in prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence} below. First we need to consider some prerequisites.
 
 +-- {: .num_lemma #CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra}
 ###### Lemma
@@ -6154,7 +6155,7 @@ converging to the [[Ext]] over $\Gamma$ from $A$ to itself, whose first page is 
 +-- {: .proof}
 ###### Proof
 
-The filtering induces a filtering on the cobar complex (def. \ref{CobarComplex}) which computes $Ext_\Gamma$ (prop. \ref{CobarComplexGivesExtGroupsOutOfA}). The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)).
+The filtering induces a filtering on the cobar complex (def. \ref{CobarComplex}) which computes $Ext_\Gamma$ (prop. \ref{CobarComplexGivesExtGroupsOutOfA}). The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)), which hence is the homology of the cobar complex (def. \ref{CobarComplex}) of the [[associated graded]] Hopf algebra $gr_\bullet \Gamma$. By prop. \ref{CobarComplexGivesExtGroupsOutOfA} this is the [[Ext]]-groups as shown.
 
 =--
 
@@ -6181,22 +6182,27 @@ where we set $\xi_0 \coloneqq 1$.
 +-- {: .num_defn #hGeneratorsinClassicalAdamsSpectralSequence}
 ###### Definition
 
-Write
+Introduce new generators
 
 $$
-  h_{i,n} \coloneqq \xi_i^{2^n}
-  \,.
+  h_{i,n} 
+    \coloneqq 
+  \left\{
+    \array{
+      \xi_i^{2^n} & for \; i \geq 1, \, k \geq 0
+      \\
+      1 & for \; i = 0
+    }
+  \right.
 $$
-
 
 =--
 
-By binary expansion of powers, there is a unique way to express every monomial in $\mathbb{F}_2[\xi_1, \xi_2, \cdots]$ as a product of elements
++-- {: .num_remark #hGeneratorsForSteenrodAlgebraGiveUniqueDecompositionOfMonomials}
+###### Remark
 
-$$
-  h_{i,n} \coloneqq \xi_i^{2^n}
-$$
 
+By binary expansion of powers, there is a unique way to express every monomial in $\mathbb{F}_2[\xi_1, \xi_2, \cdots]$ as a product of the new generators in def. \ref{hGeneratorsinClassicalAdamsSpectralSequence}
 such that each such element appears at most once in the product. E.g.
 
 $$
@@ -6210,6 +6216,8 @@ $$
   \end{aligned}
   \,.
 $$
+
+=--
 
 +-- {: .num_prop #CoproductOnDualSteenrodInTermsOfAdaptedGenerators}
 ###### Proposition
@@ -6236,7 +6244,7 @@ $$
     & = 
     \Psi\left(\xi_i^{2^n}\right)
     \\
-    & = (\Psi(\xi_i))^{2n}
+    & = (\Psi(\xi_i))^{2^n}
     \\
     & = 
     \left(\underoverset{k = 0}{i}{\sum} \xi_{i-k}^{2^k} \otimes \xi_k\right)^{2^n}
@@ -6256,21 +6264,23 @@ $$
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #MaySpectralSequenceForClassicalAdamsSpectralSequence}
 ###### Proposition
 
-There exists a homological spectral sequence of graded $\mathbb{F}_2$-vector spaces
+There exists a converging [[spectral sequence]] of graded $\mathbb{F}_2$-vector spaces of the form
 
 $$
-  Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
+  E_1^{s,t,p}
   =
-  \mathbb{F}_2[\{h_{i,n}\}_{{i \geq 1,} \atop {n \geq 0}}]  
+  \mathbb{F}_2[ \{ h_{i,n} \}_{{i \geq 1,} \atop {n \geq 0}}]  
+    \;\Rightarrow\;
+  Ext^{s,t}_{\mathcal{A}_2^\ast}(\mathbb{F}_2, \mathbb{F}_2)
   \,,
 $$
 
-called a **[[May spectral sequence]]**, with 
+called the **[[May spectral sequence]]** (where $s$ and $t$ are from the bigrading of the spectral sequence itself, while the index $p$ is that of the graded $\mathbb{F}_2$-vector spaces), with 
 
-1. $deg(h_{i,n}) = 2i -1$;
+1. $h_{i,n} \in E_1^{1, 2^{2^{i+n} - 2^n - 1, 2i - 1 }}$
 
 1. first differential given by
 
@@ -6286,13 +6296,15 @@ called a **[[May spectral sequence]]**, with
    $$
      d_r
        \;\colon\;
-     F^p E_r^{s,t}
+     E_r^{s,t, p}
        \longrightarrow
-     F^{p-2r+1} E_r^{s+1,t-1,}
+     E_r^{s+1, t-1, p-2r+1}
      \,,
    $$
 
    where the filtration is by maximal degree.
+
+Notice that since everything is $\mathbb{F}_2$-linear, the [extension problem](spectral+sequence#ExtensionProblem) of this spectral sequence is trivial.
 
 =--
 
@@ -6303,7 +6315,7 @@ called a **[[May spectral sequence]]**, with
 ###### Proof
 
 
-Define a [[graded algebra|grading]] on $\mathcal{A}^\bullet_{2}$ by setting (this is due to ([Ravenel 86, p.69](#Ravenel86)))
+Define a [[graded algebra|grading]] on the dual [[Steenrod algebra]] $\mathcal{A}^\bullet_{2}$ (theorem \ref{MilnorTheoremOnDualSteenrodAlgebra}) by taking the degree of the generators from def.\ref{hGeneratorsinClassicalAdamsSpectralSequence} to be (this idea is due to ([Ravenel 86, p.69](#Ravenel86)))
 
 $$
   {\vert h_{i,n} \vert}
@@ -6311,10 +6323,9 @@ $$
   2i-1
 $$
 
-and extending this additively to these unique representative.
+and extending this additively to monomials, via the unique decomposition of remark \ref{hGeneratorsForSteenrodAlgebraGiveUniqueDecompositionOfMonomials}.
 
-
-For instance
+For example
 
 $$
   \begin{aligned}
@@ -6328,8 +6339,7 @@ $$
   \,.
 $$
 
-
-Consider the corresponding [[filtered object|filtering]]
+Consider the corresponding increasing [[filtration]]
 
 $$
   \cdots 
@@ -6345,19 +6355,19 @@ $$
 
 with filtering stage $p$ containing all elements of total degree $\leq p$.
 
-Observe that
+Observe via prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} that
 
 $$
   \begin{aligned}
-    \Psi(\xi_i)
+    \Psi(h_{i,n})
     &
    =
-   \underset{deg = 2i-1}{\underbrace{\xi_{i} \otimes 1}}
+   \underset{deg = 2i-1}{\underbrace{h_{i,n} \otimes 1}}
    +
     \underoverset{0 \lt k \lt i}{}{\sum} 
-     \underset{deg = 2i-2}{\underbrace{\xi_{i-k}^{p^k} \otimes \xi_k}}
+     \underset{deg = 2i-2}{\underbrace{h_{i-k,n+k} \otimes h_{k,n}}}
    +
-    \underset{deg = 2i-1}{\underbrace{1 \otimes \xi_i}}
+    \underset{deg = 2i-1}{\underbrace{1 \otimes h_{i,n} }}
   \end{aligned}
   \,.
 $$
@@ -6368,6 +6378,8 @@ $$
   F_\bullet \mathcal{A}^\ast_{2}
    \longrightarrow
   gr_\bullet \mathcal{A}^\ast_{2}
+  \coloneqq
+  F_\bullet( \mathcal{A}^\ast_2)/F_{\bullet-1}( \mathcal{A}^\ast_2 ) 
 $$ 
 
 all the generators $h_{i,n}$ become [[primitive elements]]:
@@ -6394,7 +6406,7 @@ Hence lemma \ref{CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra} appl
 
 $$
   Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
-  =
+    \simeq
   \mathbb{F}_2[\{h_{i,n}\}_{{i \geq 1,} \atop {n \geq 0}}]  
   \,.
 $$
@@ -6410,9 +6422,7 @@ $$
   \,.
 $$
 
-This is the _[[May spectral sequence]]_ for the computation of $Ext_{\mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)$. Notice that since everything is $\mathbb{F}_2$-linear, its [extension problem](spectral+sequence#ExtensionProblem) is trivial.
-
-Moreover, again by lemma \ref{SpectralSequenceConvergingToExtForFilteredHopfAlgebra}, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). The differential of the bar complex is the alternating sum of the coproduct on $\mathcal{A}^\ast_{2}$, hence by prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} this is:
+Moreover, again by lemma \ref{SpectralSequenceConvergingToExtForFilteredHopfAlgebra}, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). Now the differential of the cobar complex is the alternating sum of the coproduct on $\mathcal{A}^\ast_{2}$, hence by prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} this is:
 
 $$
   d_1 (h_{i,n})
@@ -6424,28 +6434,19 @@ $$
 
 ##### The second page
 
-Now we use the above formula to explicitly compute the cohomology of the second page of the [[classical Adams spectral sequence]].
+Now we use the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) to compute the second page of the [[classical Adams spectral sequence]] in low internal degrees $t-s$.
 
-In doing so it is now crucial that the differential in the standard bar complex resolution for $Ext$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
 
-$$
-  d \;\colon\;
-  A \otimes_A \Gamma \otimes_A \Gamma
-  \longrightarrow
-  A \otimes_A \Gamma \otimes_A \Gamma \otimes_A A
-$$
+In doing so it is now crucial that the differential in the standard cobar complex (def. \ref{CobarComplex}) for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
+
+Recall the further abbreviation
 
 $$
-  \begin{aligned}
-    d(1,h,1) & = 
-    (d 1 , h , 1) - (1 , d h , 1) + (1 , h , d 1)
-    \\
-    & = (1,1,h,1) - (1, \Psi(h) , 1 ) + (1 , h, 1, 1)
-  \end{aligned}  
+  h_n \coloneqq h_{1,n}
   \,.
 $$
 
-Hence we find for instance, using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} that
+Hence we find using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, that
 
 $$
   \begin{aligned}
@@ -6454,12 +6455,12 @@ $$
     d_1(h_{1,n})
     \\
     & =   
-    \Psi(h_{1,n})
+    \overline{\Psi}(h_{1,n})
     \\
     & =
-    h_{1,n+1} \underset{= 0}{\underbrace{ h_{0,n} }}
+    h_{1,n} \otimes \underset{= 0}{\underbrace{ h_{0,n} }}
     + 
-    \underset{= 0}{\underbrace{ h_{0,n+1} }} h_{1,n}
+    \underset{= 0}{\underbrace{ h_{0,n+1} }} \otimes h_{1,n}
     \\
     & = 
     0
@@ -6468,25 +6469,48 @@ $$
 
 and hence all the elements $h_n$ are cocycles.
 
-Similarly for instance
-
 $$
   d_1(h_{2,0}) 
     = 
-  h_{2,0} \underset{= 0}{\underbrace{h_{0,0}}}
+  h_{2,0} \otimes \underset{= 0}{\underbrace{h_{0,0}}}
   + 
-  h_{1,1} h_{1,0}
+  h_{1,1} \otimes h_{1,0}
   +
   \underset{= 0}{\underbrace{h_{0,2}}} h_{2,0}
 $$
 
-and so this is not a cocycle, but gives the relation that the product
+$$
+  d_1( h_{2,1} )
+    =
+  h_{2,1} \otimes \underset{= 0}{\underbrace{h_{0,n}}}
+    +
+  h_{1,2} \otimes h_{1,1}
+    +
+  \underset{ = 0}{\underbrace{h_{0,3}}} \otimes h_{2,1}
+$$
 
 $$
-  h_{1,1} h_{1,0} = 0
+  d_1( h_{2,2} )
+    =
+  h_{1,3} \otimes h_{1,2}
 $$
 
-in cohomology. Proceeding this way by explicit inspection, one obtains:
+$$
+  d_1( h_{2,3} )
+    =
+  h_{1,4} \otimes h_{1,3}
+$$
+
+$$
+  d_1( h_{3,0} )
+    =
+  h_{2,1} \otimes h_{1,0}# 
+    +
+  h_{1,2} \otimes h_{2,0}
+$$
+
+
+Proceeding this way by explicit inspection, one obtains:
 
 +-- {: .num_lemma }
 ###### Lemma
