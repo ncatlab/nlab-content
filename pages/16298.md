@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+This page collects material related to 
+
+* [[Bertrand Russell]],
+
+  _Principia Mathematica_
+
+  1910
+
+an early account aiming to lay [[foundations of mathematics]].
+
+Among other things, this book introduces a concept of [[type theory|typing]], called "[ramified types](http://en.wikipedia.org/wiki/Principia_Mathematica#Ramified_types_and_the_axiom_of_reducibility)", in order to avoid [[paradoxes]] such as [[Russell's paradox]].
+
+
+## References
+
+* Wikipedia, _[Principia Mathematics](http://en.wikipedia.org/wiki/Principia_Mathematica)_ 
+
+category: reference
+
+[[!redirects ramified type]]
+[[!redirects ramified types]]
