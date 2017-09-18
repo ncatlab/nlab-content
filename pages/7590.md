@@ -37,6 +37,10 @@ This is ([Lurie, lemma 5.5.8.11](#Lurie)).
 
 * [[filtered colimit]], [[filtered (∞,1)-colimit]]
 
+## References
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+ {#Lurie}
 
 
 [[!redirects sifted (∞,1)-colimit]]
