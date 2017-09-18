@@ -275,3 +275,6 @@ category: foundational axiom
 [[!redirects axiom schema of stratified comprehension]]
 [[!redirects axiom schemas of stratified comprehension]]
 [[!redirects axiom schemata of stratified comprehension]]
+
+[[!redirects comprehension rule]]
+[[!redirects comprehension rules]]
