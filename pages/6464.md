@@ -45,12 +45,24 @@ To a cosimplicial chain complex we can assign a double complex by taking the alt
 
 ## References
 
+Totalization of cosimplicial spaces is discussed in
+
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], chapter X.3 of _[[Homotopy limits, completions and localizations]]_, Lecture Notes in Mathematics, Vol 304, Springer 1972
+
+and the generalization to [[cosimplicial objects]] in more general [[model categories]] is discussed in
+
+* {#Bousfield03} [[Aldridge Bousfield]], _Cosimplicial resolutions and homotopy spectral sequences in model categories_, Geom. Topol. 7 (2003) 1001-1053 ([arXiv:math/0312531](http://arxiv.org/abs/math/0312531))
+
+Review of this includes
+
+* {#Levine13} [[Marc Levine]], _The Adams-Novikov spectral sequence and Voevodsky's slice tower_, Geom. Topol. 19 (2015) 2691-2740 ([arXiv:1311.4179](http://arxiv.org/abs/1311.4179))
+
 Some kind of notes are in
 
 * Rosona Eldred, _Tot primer_ ([pdf](http://www.math.uiuc.edu/~reldred2/tot-primer.pdf))
 
-See also remark 15.7 in
+See also 
 
-* Dugger, _Homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+* [[Daniel Dugger]], remark 15.7 in _Homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
 
 [[!redirects totalizations]]
