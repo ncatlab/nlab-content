@@ -889,6 +889,41 @@ $$
 
 ([Adams 74, theorem 15.1 page 318](#Adams74))
 
++-- {: .num_remark}
+###### Remark
+
+The morphism
+
+$$
+  [X,g_k]
+  \;\colon\;
+  [X,Y_k]_\bullet
+    \overset{[X,e \wedge id_{Y_k}]  }{\longrightarrow}
+  [X, E \wedge Y_k]_\bullet
+$$
+
+in def. \ref{AdamsEAdamsSpectralSequence} is sometimes called the **[[Boardman homomorphism]]** ([Adams 74, p. 58](#Adams74)).
+
+For $X = \mathbb{S}$ the [[sphere spectrum]] it reduces to a canonical morphism from stable homotopy to [[generalized homology]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)))
+
+$$
+ \pi_\bullet(g_k)
+    \;\colon\;
+  \pi_\bullet(Y_k)
+    \longrightarrow
+  E_\bullet(Y_k)
+  \,.
+$$
+
+For $E = $ [[HA]] an [[Eilenberg-MacLane spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#ReducedALinearizationOfnSphere)) this in turn reduces to the **[[Hurewicz homomorphism]]** for spectra.
+
+This way one may think of the $E$-Adams filtration on $Y$ in def. \ref{AdamsEAdamsSpectralSequence} as the result of filtering any spectrum $Y$ by iteratively projecting out all its $E$-homology. 
+
+This idea was historically the original motivation for the construction of the [[classical Adams spectral sequence]] by [[John Frank Adams]], see the first pages of ([Bruner 09](#Adams+spectral+sequence#Bruner09)) for a historical approach.
+
+=--
+
+
 It is convenient to adopt the following notation for $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}):
 
 +-- {: .num_defn #HomotopyFiberOfUnitOfCommutativeRingSpectrum}
@@ -920,9 +955,9 @@ $$
 
 =--
 
-([Adams 74, theorem 15.1 page 319](#Adams74)) Beware that for instance ([Hopkins 99, proof of corollary 5.3](#Hopkins99)) uses $\overline{E}$ to denote noth the homotopy fiber of $\mathbb{S} \overset{e}{\to} E$ but its homotopy cofiber, hence for $\Sigma \overline{E}$ according to ([Adams 74](#Adams74)).
 
-=--
+([Adams 74, theorem 15.1 page 319](#Adams74)) Beware that for instance ([Hopkins 99, proof of corollary 5.3](#Hopkins99)) uses "$\overline{E}$" not for the [[homotopy fiber]] of $\mathbb{S} \overset{e}{\to} E$ but for its [[homotopy cofiber]], hence for what is $\Sigma \overline{E}$ according to ([Adams 74](#Adams74)).
+
 
 
 +-- {: .num_lemma #Wp}
@@ -1137,7 +1172,8 @@ First of all, that the given pairing is a well defined homomorphism (descends fr
 
 We discuss that it is an isomorphism when $E_\bullet(E)$ is flat over $\pi_\bullet(E)$:
 
-First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then 
+First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then (by [this example](Introduction+to+Stable+homotopy+theory+--+1-2#SuspendedSphereSpectrumHomology), using the [[tensor triangulated category|tensor triangulated]] stucture on the [[stable homotopy category]] ([prop.] (Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)))
+
 
 $$
   E_\bullet(X) = E_\bullet(\Sigma^n X) \simeq \pi_{\bullet-n}(E)
