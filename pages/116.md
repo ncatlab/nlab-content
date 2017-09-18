@@ -257,6 +257,8 @@ For more see [[counterexamples in algebra]].
 
   * [[loop group]]
 
+  * [[cogroup]]
+
 * [[ring]], [[ring object]]
 
 * [[automorphism group]], [[automorphism 2-group]], [[automorphism ∞-group]],
