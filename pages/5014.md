@@ -32,6 +32,12 @@ A topological groupoid $C$ is  called an **open topological groupoid** if the so
 It is called an **[[étale groupoid]]** if in addition $s$ is a [[local homeomorphism]].
 
 
+## Properties
+
+### Relation to toposes
+
+Every [[topos]] ([[Grothendieck topos]]) with [[point of a topos|enough points]] is the _[[classifying topos of a topological groupoid]]_. See there for more.
+
 ## Related entries
 
 * [[Lie groupoid]]
