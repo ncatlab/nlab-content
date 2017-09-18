@@ -45,13 +45,14 @@ that are [[associativity|associative]] and [[unitality|unital]] in the evident s
 
 ### For highly structured spectra
 
-For the case of [[highly structured spectra]] such as [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]], the equivalence of FSPs with monoids with respect to the [[symmetric smash product of spectra]] is discussed in ([MMSS 00, prop. 22.1, prop. 22.6](#MMSS00)).
+For the case of [[highly structured spectra]] such as [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]], the equivalence of FSPs with monoids with respect to the [[symmetric smash product of spectra]] is due to [this proposition](Day+convolution#DayMonoidsAreLaxMonoidalFunctorsOnTheSite) at _[[Day convolution]]_.
+([MMSS 00, prop. 22.1, prop. 22.6](#MMSS00)).
 
 (For instance accounts such as ([Kochmann 96, section 3.3](Adams+category#Kochmann96),  [Schwede 14](orthogonal%20spectrum#Schwede14)) follow this perspective and define [[ring spectra]] first as FSPs, before or introducing the smash product on spectra)
 
 ### For excisive functor
 
-For the monoidal [[model structure]] for excisive functors, the fact that monoids with respect to the [[symmetric smash product of spectra]] are equivalently FSPs is discussed in ([Lydakis 98, remark 5.12](#Lydakis98)).
+For the monoidal [[model structure]] for excisive functors, the fact that monoids with respect to the [[symmetric smash product of spectra]] are equivalently FSPs is discussed in ([Lydakis 98, remark 5.12](#Lydakis98)). See [this proposition](model+structure+for+excisive+functors#MonoidsInLydakisModelStructureAreFSP).
 
 ## Examples
 
