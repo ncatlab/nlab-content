@@ -73,12 +73,11 @@ Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of 
 
 The notion of tiny object is clearly highly dependent on the base of enrichment. For example, for a [[ring]] $R$, the tiny objects in the category of left $R$-[[category of modules|modules]] $Ab^R$, considered as an $Ab$-enriched category, are the finitely generated projective modules. Certainly f.g. projective modules are tiny because $R$ is tiny (the forgetful functor $\hom(R, -): Ab^R \to Ab$ preserves $Ab$-colimits) and the closure of $R$ under finite direct sums and retracts, which are absolute $Ab$-colimits, comprise finitely generated projective modules. See also [[Cauchy completion]]. 
 
-On the other hand, when the category $Ab^R$ is considered as a $Set$-category, the only tiny object is the zero module: If $M$ is a tiny object in a category of modules, the map
+On the other hand, when the category $Ab^R$ is considered as a $Set$-category, there are no tiny objects: If $M$ is a tiny object in a category of modules, the canonical map
 $$
   Hom(M,M) \amalg Hom(M,M) \longrightarrow Hom(M,M \oplus M)
 $$
-is bijective and in particular surjective. Therefore the [[diagonal]] embedding $x \mapsto (x,x)$ can be written as $\iota \circ f$ for some linear map $f : M \to M$, where $\iota$ is one of the inclusions $M \to M \oplus M$. This shows that any element of $M$ is zero.
-
+is bijective and in particular surjective. Therefore the [[diagonal]] embedding $x \mapsto (x,x)$ can be written as $\iota \circ f$ for some linear map $f : M \to M$, where $\iota$ is one of the inclusions $M \to M \oplus M$. This shows that any element of $M$ is zero, i.e., $M$ would have to be trivial. But then $Hom(M, M)$ is a singleton and the canonical map above cannot be an isomorphism. 
 
 
 ### In presheaf categories
