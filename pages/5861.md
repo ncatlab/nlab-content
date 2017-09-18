@@ -2261,7 +2261,7 @@ $$
   \mathbf{c} \colon \tau_X \longrightarrow G\mathbf{Struc}
 $$
 
-is the [[slice (∞,1)-topos]].
+in the [[slice (∞,1)-topos]].
 
 =--
 
@@ -2285,7 +2285,7 @@ $$
 +-- {: .num_defn #IntegrableGStructure}
 ###### Definition
 
-For $V$ framed, def. \ref{Framing}, and $X$ a $V$-manifold, def. \ref{Manifold}, then  $G$-structure $\mathbf{c}$ on $X$ is _[[integrability of G-structures|integrable]]_ (or _locally flat_) if there exists a $V$-cover
+For $V$ framed, def. \ref{Framing}, and $X$ a $V$-manifold, def. \ref{Manifold}, then  a $G$-structure $\mathbf{c}$ on $X$, def. \ref{GStructure}, is _[[integrability of G-structures|integrable]]_ (or _locally flat_) if there exists a $V$-cover
 
 $$
   \array{
