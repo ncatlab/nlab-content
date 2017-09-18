@@ -227,7 +227,7 @@ are [[Quillen equivalence]]s with respect to these model structures.
 
 =--
 
-This is discussed for instance in ([Schwede-Shipley, section 4.1](#SchwedeShipley)), ([p.17](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17).
+This is discussed for instance in ([Schwede-Shipley, section 4.1](#SchwedeShipley), [p.17](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17)).
 
 
 +-- {: .num_remark }
