@@ -43,7 +43,7 @@ In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ 
 
 * $\sim$ can be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the utility of the co-Heyting negation for [[paraconsistent logic]].
 
-* The co-Heyting supplement satisfies the dual **de Morgan rule** $\sim (a\wedge b)=(\sim a)\vee(\sim b)$, but only $\sim\sim (a\vee b) = (\sim\sim a)\wedge (\sim\sim b)$ in general.
+* The co-Heyting supplement satisfies the dual **de Morgan rule** $\sim (a\wedge b)=(\sim a)\vee(\sim b)$, but not $\sim (a\vee b) = \sim a\wedge \sim b$ in general.
 
 * For $a\in L$ define its **core** as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ **regular**. Lawvere (1986) proposes in the vein of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
 
