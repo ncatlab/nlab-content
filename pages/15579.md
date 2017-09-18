@@ -27,6 +27,6 @@ This theorem controls the relation between [[localization of a space]] at $\math
 ## References
 
 
-* {#Schiffmann81} Stephen J. Schiffman, _A mod Whitehead Theorem_, Proceedings of the American Mathematical Society Vol. 82, No. 1 (May, 1981), pp. 139-144
+* {#Schiffmann81} Stephen J. Schiffman, _A mod p Whitehead Theorem_, Proceedings of the American Mathematical Society Vol. 82, No. 1 (May, 1981), pp. 139-144
 
 [[!redirects mod-p Whitehead theorem]]
