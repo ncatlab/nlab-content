@@ -43,13 +43,13 @@ Since $Set = Sh(*)$ is the [[category of sheaves]] on the one-point [[locale]], 
 =--
 
 
-+-- {: .num_defn}
++-- {: .num_defn #EnoughPoints}
 ###### Definition
 
 A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise, i.e. if the 
 [[inverse image]] functors from all of its points are jointly [[conservative functor|conservative]].
 
-More precisely, $E$ has enough points if for any morphism $f : A \to B$, we have that if for every point $p$ of $E$, the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an [[isomorphism]], then $f$ itself is an isomorphism.
+More explicity: $E$ has enough points if for any morphism $f : A \to B$, we have that if for every point $p$ of $E$, the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an [[isomorphism]], then $f$ itself is an isomorphism.
 
 =--
 
@@ -158,7 +158,7 @@ This appears for instance as ([MacLaneMoerdijk, corollary VII, 4](#MacLaneMoerdi
 +-- {: .num_prop}
 ###### Proposition
 
-If $E$ is a [[Grothendieck topos]] with enough points, there is a  *[[small set]]* of points of $E$ which are jointly conservative, and therefore a [[geometric morphism]] $Set/X \to E$, for some set $X$, which is [[surjective geometric morphism|surjective]].  
+If $E$ is a [[Grothendieck topos]] with enough points (def. \ref{EnoughPoints}), there is a  *[[small set]]* of points of $E$ which are jointly conservative, and therefore a [[geometric morphism]] $Set/X \to E$, for some set $X$, which is [[surjective geometric morphism|surjective]].  
 
 =--
 
@@ -169,7 +169,7 @@ This appears as ([Johnstone, lemma 2.2.11, 2.2.12](#Johnstone)).
 +-- {: .num_prop}
 ###### Proposition
 
-A Grothendieck topos has enough points precisely when it underlies a bounded [[ionad]].
+A Grothendieck topos has enough points (def. \ref{EnoughPoints}) precisely when it underlies a bounded [[ionad]].
 
 =--
 
@@ -183,7 +183,7 @@ From the above it follows that if $E$ is the [[classifying topos]] of a [[geomet
 +-- {: .num_prop}
 ###### Proposition
 
-If a [[sheaf topos]] $E$ has _enough points_ then
+If a [[sheaf topos]] $E$ has _enough points_ (def. \ref{EnoughPoints}) then
 
 * there exists a [[topological space]] $X$ whose [[cohomology]] and [[homotopy theory]] is the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homotopy theory]] of the topos;
 
@@ -197,7 +197,7 @@ This is due to ([Butz](#Butz)) and ([Moerdijk](#Moerdijk)).
 
 ### General
 
-* For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
+* For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points (def. \ref{EnoughPoints}): a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
 
 * Points of [[over-topos]]es are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
 
@@ -215,7 +215,7 @@ A [[local topos]] $(\Delta \dashv \Gamma \dashv coDisc) : E \to Set$ has a canon
 
 ### Toposes with enough points
 
-The following classes of topos have enough points.
+The following classes of topos have enough points (def. \ref{EnoughPoints}).
 
 * every [[presheaf topos]];
 
