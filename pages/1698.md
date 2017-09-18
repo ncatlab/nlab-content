@@ -888,6 +888,11 @@ Classical textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+The construction in the axiomatioc homotopy theory of [[model categories]] is due to 
+
+* {#Quillen67} [[Daniel Quillen]], chapter I.3 of  _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+
+
 A discussion of fiber sequences in terms of [[associated ∞-bundles]] is in
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
