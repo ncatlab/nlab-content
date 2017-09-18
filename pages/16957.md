@@ -1,0 +1,11 @@
+
+
+* [Mathematics Genealogy Page](http://www.genealogy.ams.org/id.php?id=12004)
+
+## related $n$Lab entries
+
+* [[cohomology operation]]
+
+* [[Hopf construction]]
+
+category: people
