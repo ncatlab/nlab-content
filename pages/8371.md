@@ -78,3 +78,4 @@ A proposal for formalization of syllogisms within [[linear logic]] is in
 [[!redirects syllogisms]]
 
 [[!redirects Aristotle's logic]]
+[[!redirects Aristotelian logic]]
