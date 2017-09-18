@@ -46,6 +46,14 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 * [[computable analysis]]
 
+
+## Related concepts
+
+* [[epsilontic analysis]]
+
+* [[infinitesimal analysis]]
+
+
 ## References
 
 See also disambiguation entry [[calculus]]. 
