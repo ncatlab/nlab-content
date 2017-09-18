@@ -1,0 +1,10 @@
+[webpage](http://www0.cs.ucl.ac.uk/staff/p.ohearn/)
+
+## Related entries
+
+* [[bunched logic]]
+* [[separation logic]]
+
+category: people
+
+category: computer science
