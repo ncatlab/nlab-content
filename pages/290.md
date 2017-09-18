@@ -36,7 +36,7 @@ Recent times have seen major progress in understanding these axiomatizations and
 
 
 ## Locally covariant perturbative quantum field theory
- {#LocallyCoveriantPerturbativeQunantumFieldTheory}
+ {#LocallyCoveriantPerturbativeQuantumFieldTheory}
 
 The formulation of [[quantum field theory]] has many aspects and perspectives. Two almost complementary threads are the following:
 
