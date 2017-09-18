@@ -240,24 +240,24 @@ Their [[prequantization]] is developed in
 
 * [[Marius Crainic]], _Prequantization and Lie brackets_ ([arXiv:0403269](http://arxiv.org/abs/math/0403269))
 
-* [[Marius Crainic]], [[Chenchang Zhu]], _Integrability of Jacobi structures_ ([arXiv:math/0403268](http://arxiv.org/abs/math/0403268))
-  {#CrainicZhu04}
+* {#CrainicZhu04} [[Marius Crainic]], [[Chenchang Zhu]], _Integrability of Jacobi structures_ ([arXiv:math/0403268](http://arxiv.org/abs/math/0403268))
+  
 
-* Francesco Bonechi, [[Alberto Cattaneo]], [[Maxim Zabzine]], _Geometric quantization and non-perturbative Poisson sigma model_,  	Adv. Theor. Math. Phys. 10:683-712, 2006 ([arXiv:math/0507223](http://arxiv.org/abs/math/0507223))
-  {#BonechiCattaneoZabzine05}
+* {#BonechiCattaneoZabzine05} Francesco Bonechi, [[Alberto Cattaneo]], [[Maxim Zabzine]], _Geometric quantization and non-perturbative Poisson sigma model_,  	Adv. Theor. Math. Phys. 10:683-712, 2006 ([arXiv:math/0507223](http://arxiv.org/abs/math/0507223))
+  
 
 The interpretation of symplectic groupoids in [[higher geometry]] is made fairly explicit in ([LGX](#LGX)) above. This is further expanded on in the last section of 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ 2013
-  {#hgp13}
+* {#hgp13} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ 2013
+  
 
 and in 
 
-* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_, thesis, August 2013
-  {#Nuiten13}
+* {#Nuiten13} [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local boundary prequantum field theory]]_, thesis, August 2013
+  
 
-* [[Stefan Bongers]], _[[schreiber:master thesis Bongers]]_
-  {#Bongers13}
+* {#Bongers13} Stefan Bongers, _[[schreiber:master thesis Bongers]]_
+  
 
 
 A notion of [[polarization]] and of actual [[geometric quantization]] of symplectic groupoids, yielding a [[strict deformation quantization]] of the underlying Poisson manifold, is discussed in
@@ -269,5 +269,4 @@ The case over Poisson vector spaces leading to [[Moyal quantization]] was consid
 
 * Jose M. Gracia-Bondia, Joseph C. Varilly, _From geometric quantization to Moyal quantization_, J. Math. Phys. 36 (1995) 2691-2701 ([arXiv:hep-th/9406170](http://arxiv.org/abs/hep-th/9406170))
  {#GBV}
-
 
