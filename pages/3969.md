@@ -29,7 +29,7 @@ The [[model structure on simplicial algebras]] on [[simplicial C-∞-ring]] is a
 
 ## Applications
 
-Smooth $(\infty,1)$-algebras appear as the algebras of functions in [[derived differential geometry]], for instance on[[derived smooth manifolds]].
+Smooth $(\infty,1)$-algebras appear as the algebras of functions in [[derived differential geometry]], for instance on [[derived smooth manifolds]].
 
 [[!redirects smooth (∞,1)-algebra]]
 [[!redirects smooth (∞,1)-algebras]]
