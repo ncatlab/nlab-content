@@ -29,4 +29,4 @@ And the identification with opposite [[orientation]] yields the [[Möbius strip]
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
-[[!redirects square]]
+[[!redirects squares]]
