@@ -31,6 +31,119 @@ The Hadamard distribution may also be thought of as the [[2-point function]] of 
 
 ## Definition
 
+### On Minkowski spacetime
+ {#OnMinkowskiSpacetime}
+
+
++-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
+###### Definition
+**(standard Hadamard distributio on [[Minkowski spacetime]])***
+
+For $p \in \mathbb{N}$, the standard Hadamard distribution on [[Minkowski spacetime]] of [[dimension]] $(p+1)$ is (see the computation of [this prop.](scalar+field#IntegralKernelForPoissonBracketOfFreeScalarFieldOnMinkowskiSpacetime) at _[[scalar field]]_)
+
+$$
+  \label{2PointFunctionFreeScalarFieldOnMinkowski}
+  \begin{aligned}
+    \omega(x,y)
+     & \coloneqq
+    (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
+    \\
+    & =
+    (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+    \,,
+  \end{aligned}
+$$
+
+(where the first line follows from the second by the [[change of integration variables]] via $k_0 = \sqrt{h}$).
+
+=--
+
++-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
+###### Proposition
+**([[contour integral]] representation of standard Hadamard propagator on [[Minkowski spacetime]])
+
+The standard Hadamard distribution on Minkowski spacetime from 
+def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is 
+equivalently given by the [[contour integral]]
+
+$$
+  \label{StandardHadamardPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
+  \omega(x,y)
+  \;=\;
+    -i(2\pi)^{-(p+1)}
+    \int
+    \oint_{C_+(\vec k)}
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+    d k_0
+    d^{p} k
+  \,,
+$$
+
+where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the point $+ E(\vec k) \in \mathbb{R} \subset \mathbb{C}$, but not enclosing the point $- E(\vec k) \in \mathbb{R} \subset \mathbb{C}$. (Compare the analogous expression for the [[causal propagator]] in [this equation](causal+propagator#eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral).)
+
+
+<img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="200">
+
+> graphics grabbed from [Kocic 16](#Kocic16)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+[[Cauchy's integral formula]] says that the given contour integral picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ E(\vec k) \in \mathbb{R} \subset \mathbb{C}$: 
+
+
+$$
+  \begin{aligned}
+    -i(2\pi)^{-(p+1)}
+    \int
+    \oint_{C_+(\vec k)}
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+    d k_0
+    d^{p} k
+    & =
+    -i(2\pi)^{-(p+1)}
+    \int
+    \oint_{C_+(\vec k)}
+      \frac{
+        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        - k_0^2 + E(\vec k)^2 
+      } 
+    d k_0
+    d^p \vec k 
+    \\
+    & =   
+    -i(2\pi)^{-(p+1)}
+    \int
+    \oint_{C_+(\vec k)}
+      \frac{
+        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
+      }{
+        ( E_\epsilon(\vec k) + k_0 )
+        ( E_\epsilon(\vec k) - k_0 )
+      } 
+    d k_0
+    d^p \vec k
+    \\
+    & = 
+    (2\pi)^{-p}
+     \int
+       \frac{1}{2 E(\vec k)}
+       e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
+    d^p \vec k
+    \\
+    & = \omega(x,y)
+    \,.
+  \end{aligned}
+$$
+
+=--
+
+
+### On general globally hyperbolic spacetimes
+
 
 Recall the following general facts about the [[wave equation]]/[[Klein-Gordon equation]]
 
@@ -237,6 +350,10 @@ Textbook discussion of the Hadamard distribution for [[free fields]] in [[Minkow
 * [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
 (there the Hadamard distribution is denoted "$-i D^+_m(x-y)$").
+
+An concise overview of the standard Hadamard propagator in Minkowski spacetime and its relation to the other pertinent propagors is given in
+
+* {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_, 2016 ([[KGPropagatorsOnMinkowskiTable.pdf:file]])
 
 
 The Hadamard spectrum condition was first rigorously defined in 
