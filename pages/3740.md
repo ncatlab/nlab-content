@@ -103,7 +103,9 @@ Given any collection of extended lower reals, their __supremum__ is an extended 
 
 Given any collection of extended upper reals, their __infimum__ is an extended upper real which is found by taking the union of upper sets.  The infimum of an inhabited set of upper reals is an upper real, and the infimum of an inhabited set of bounded upper reals is bounded iff the set has a bounded upper real as a lower bound.  In any case, this infimum really is the [[infimum]] under $\leq$.  This agrees with the notion of infimum of real numbers in the real number system, when that exists.  Every extended upper real is also the infimum in this sense of its corresponding upper set, interpreted as a set of upper reals that happen to all be rational numbers.
 
-Constructively, we cannot necessarily take the infimum of a set of lower reals, nor the supremum of a set of upper reals.  We can, however, interpret such a supremum or infimum as a [[MacNeille real number]].
+In [[predicative mathematics|predicative]] constructive mathematics, we cannot necessarily take the infimum of a set of lower reals, nor the supremum of a set of upper reals.  Even in impredicative constructive mathematics (where these infima and suprema exist by the [[adjoint functor theorem]]), these may not be what we really want; an obvious example of this is if we take the infimum of a set of lower reals that happen to all be located, in which case what we really want is an upper real.  We can, however, always interpret such a supremum or infimum as a [[MacNeille real number]] (and then ask whether this MacNeille real happens to be an upper real or a lower real or even both at once, in which case it is an ordinary located real number).
+
+A [[lim inf]] [[liminf]] [[limes inferior]] [[limit inferior]] [[inferior limit]] [[limes infimum]] [[limit infimum]] [[infimum limit]] [[lower limit]] [[inner limit]] is ...
 
 
 ## Arithmetic {#arithmetic}
