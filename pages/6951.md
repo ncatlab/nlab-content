@@ -25,7 +25,7 @@ Kripke-Joyal semantics provide rules and prescriptions for semantic interpretati
 
 ## Formulation
 
-Let $\mathcal{E}$ be an [[elementary topos]]. We will now specify the Kripke-Joyal semantics for formulas $\varphi$ in the [[Mitchell-Bénabou language]] of $\mathcal{E}$ restricting ourselves mainly to formulas $\varphi (x)$ with one free variable $x$ of type $X$. The straight forward generalization to the case with (less or) more free variables can be found in Johnstone ([1977](JT77)) or Borceux ([1994](#Borceux94).
+Let $\mathcal{E}$ be an [[elementary topos]]. We will now specify the Kripke-Joyal semantics for formulas $\varphi$ in the [[Mitchell-Bénabou language]] of $\mathcal{E}$ restricting ourselves mainly to formulas $\varphi (x)$ with one free variable $x$ of type $X$. The straight forward generalization to the case with (less or) more free variables can be found in Johnstone ([1977](JT77)) or Borceux ([1994](#Borceux94)).
 
 Recall that such a formula $\varphi (x)$ is interpreted by a morphism $X\overset{\varphi(x)}{\to}\Omega$ and gets an extension $\{x|\varphi(x)\}$ assigned to by the pullback
 
@@ -78,20 +78,31 @@ First of all, the forcing relation is _monotone_ and _local_ :
 If $f:V\to U$ and $U\models \varphi (\alpha)$ then $V\models \varphi (\alpha\circ f)$. Conservely, if $f:V\to U$ is _epic_ and $V\models \varphi (\alpha\circ f)$ then $U\models \varphi (\alpha)$.
 =--
 
-The short proof can be found in MacLane-Moerdijk ([1994](#MM94), p.304). Note that the proposition gives a first hint of the importance of epimorphisms or _covers_ in this semantics, testimony of its geometric underpinning.
+The short proof can be found in MacLane-Moerdijk ([1994](#MM94), p.304).
+
+Note that the proposition gives a first hint of the importance of epimorphisms or _covers_ in this semantics, testimony of its geometric underpinning.
 
 +-- {: .num_prop #Kripke-Joyal}
 ###### Theorem
 Let $\mathcal{E}$ be an elementary topos and $\alpha:U\to X\,$ a generalized element of $X\in\mathcal{E}$ . The forcing relation $\models$ satisfies
 
-1. $U\models \varphi(\alpha)\wedge \varpsi(\alpha)$ iff $U\models \varphi(\alpha)$ and $U\models\wedge \varpsi(\alpha)\,$.
+1. $U\models \varphi(\alpha)\wedge \psi(\alpha)$ iff $U\models \varphi(\alpha)$ and $U\models \psi(\alpha)\,$.
 
-2. $U\models \varphi(x)\vee \varpsi(x)$ iff there exists maps $g:U_1\to U$ and $g_2:U_2\to U$ with $g_1+g_2:U_1+U_2\to U$ epi and such that $U_1\models \varphi(\alpha\circ g_1)$ and $U\models\wedge \varpsi(\alpha\circ g_2)\,$.
+1. $U\models \varphi(\alpha)\vee \psi(\alpha)$ iff there exists maps $g:U_1\to U$ and $g_2:U_2\to U$ with $g_1+g_2:U_1+U_2\to U$ epic and such that $U_1\models \varphi(\alpha\circ g_1)$ and $U_2\models \psi(\alpha\circ g_2)\,$.
 
-3. $U\models \varphi(\alpha)\Rightarrow \varpsi(\alpha)$ iff for any $g:V\to U$ $V\models \varphi(\alpha\circ g)$ implies $V\models\varpsi(\alpha\circ g)\,$.
+1. $U\models \varphi(\alpha)\Rightarrow \psi(\alpha)$ iff for any $g:V\to U\,$, $V\models \varphi(\alpha\circ g)$ implies $V\models\psi(\alpha\circ g)\,$.
+
+1. $U\models\neg \varphi(\alpha)$ iff for all $g:V\to U\,$, $V\models \varphi(\alpha\circ g)$ implies that $V\simeq 0$.
+
+Let $\varphi(x,y)$ be a formula with free variables x,y of type $X$ and $Y$ respectively. Then
+
+1. $U\models \exists y\varphi(\alpha, y)$ iff there exists $g:V\to U$ epic and a generalized element $h:V\to Y$ such that $V\models \varphi(\alpha\circ g,h)\,$.
+
+1. $U\models \forall y\varphi(\alpha, y)$ iff for every object $Y$ and all pairs of generalized elements $g:V\to U$ and $h:V\to Y\,$, $V\models \varphi(\alpha\circ g,h)\,$.
 
 =--
-...
+
+For a proof see MacLane-Moerdijk ([1994](#MM94), pp.305f).
 
 ## Lawvere on Kripke-Joyal semantics
 
