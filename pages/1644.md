@@ -101,3 +101,7 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 [[!redirects cores]]
 [[!redirects underlying groupoid]]
 [[!redirects underlying groupoids]]
+[[!redirects maximal subgroupoid]]
+[[!redirects maximal subgroupoids]]
+[[!redirects maximal sub-groupoid]]
+[[!redirects maximal sub-groupoids]]
