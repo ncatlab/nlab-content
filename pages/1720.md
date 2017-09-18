@@ -119,6 +119,8 @@ Model categories which are both left and right proper include
 
 * The standard [[model structures on chain complexes]].
 
+* The projective [[model structure on differential graded-commutative algebra]] (unbounded). See [this MO discussion](http://mathoverflow.net/q/204414/381).
+
 
 ### Proper Quillen equivalent model structures {#ProperEquivModels}
 
