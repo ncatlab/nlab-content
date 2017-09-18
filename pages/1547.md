@@ -9,7 +9,8 @@
 #### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
-=--=--
+=--
+=--
 =--
 
 
