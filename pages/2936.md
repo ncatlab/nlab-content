@@ -195,6 +195,22 @@ where $\phi$ is a quantifier-free sentence, is a Polish space homeomorphic to th
 $$\prod_{relations\; R} \mathbf{2}^{\mathbb{N}^{arity(R)}} \times \prod_{functions\; f} \mathbb{N}^{\mathbb{N}^{arity(f)}}$$ 
 (taking constants to be functions of arity $0$ in the signature). 
 
+As an example of the last principle, we have a kind of continuum hypothesis for substructures: 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $X$ be a countable structure of a language; then the number of substructures of $X$ is either countable or the continuum. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+A subset of $X$ is specified by its [[characteristic function]] $\chi \in 2^X$, where $2^X$ is regarded as a Polish space. In order for the subset *not* to support a substructure, then must be some function symbol $f$ of the language, say of arity $n$, and elements $a_1, \ldots, a_n$ such that $\chi(a_i) = 1$ for all $i$ and $\chi(f_X(a_1, \ldots, a_n)) = 0$. The basic open 
+
+$$U_{f; a_1, \ldots, a_n} \coloneqq \{\omega \in 2^X: \; \omega(a_1) = 1, \ldots, \omega(a_n) = 1, \; \omega(f_X(a_1, \ldots, a_n)) = 0\}$$ 
+
+would thus contain $\chi$ and also exclude any substructure; we conclude that the collection of substructures forms a closed subset $C$ of $2^X$. Then the Cantor-Bendixson theorem (i.e., Corollary \ref{CH}) shows that ${|C|}$ is either countable or the continuum. 
+=-- 
+
 ##References##
 
 * [Blog discussion](http://golem.ph.utexas.edu/category/2008/08/polish_spaces.html) 
