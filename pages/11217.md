@@ -32,8 +32,9 @@ _[[Introduction to Topology -- 1|Introduction]]_
 
 ## Basic facts
 
-...
+[[continuous metric space valued function on compact metric space is uniformly continuous]]
 
+...
 
 ## Theorems
 
