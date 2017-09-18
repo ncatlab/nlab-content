@@ -326,13 +326,16 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 =--
 
 
-## Related concepts
+### Related concepts
 
 * [[localization]], [[locally presentable category]]
 
 * [[reflective sub-(infinity,1)-category]]
 
 * [[adjoint cylinder]], describing the situation when the reflector has a further left adjoint
+
+* [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]
+
 
 ## References
 
