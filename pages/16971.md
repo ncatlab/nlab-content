@@ -1,0 +1,59 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a $G$-[[equivariant spectrum]], it _fixed ponint spectrum_ $F^G X$ is the value of the  [[derived functor]] of the naive $G$-[[fixed point]] functor on $X$.
+
+(e.g. [Schwede 15, def. 7.1](#Schwede15))
+
+## Properties
+
+### Relation to equivariant homotopy groups
+
+The plain [[homotopy groups]] of the $G$-fixed point spectrum of $X$ are the [[equivariant homotopy groups]] of the $G$-spectrum $X$:
+
+$$
+  \pi_k(F^G X) \simeq \pi_k^G(X)
+$$
+
+(e.g. [Schwede 15, prop. 7.2](#Schwede15))
+
+## Examples
+
+### For equivariant suspension spectra
+
+For $\Sigma^\infty_G X$ an [[equivariant suspension spectrum]] the fixed point spectrum is given by the [[tom Dieck splitting]] formula
+
+$$
+  F^G(\Sigma^\infty_G X)
+  \simeq
+  \underset{[H\subset G]}{\oplus}
+  \Sigma^\infty( E W(X)_+ \wedge_{W H} X^H )
+  \,.
+$$
+
+(e.g. [Schwede 15, example 7.7](#Schwede15))
+
+## References
+
+* {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+[[!redirects fixed point spectra]]
