@@ -5,4 +5,4 @@
 
 ## References
 
-* Wikipedia, _[Leptogenesis](https://en.wikipedia.org/wiki/Leptogenesis_(physics)_
+* Wikipedia, _[Leptogenesis](https://en.wikipedia.org/wiki/Leptogenesis_(physics%29)_
