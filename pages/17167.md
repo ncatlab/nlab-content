@@ -25,9 +25,9 @@ The map $\pi: R \to \widehat{R}$ is surjective.
 ###### Proof 
 Since $R$ is compact and $\widehat{R}$ is Hausdorff, the image $\pi(R)$ is closed in $\widehat{R}$, so it suffices to show the image is a [[dense subspace]]. 
 
-So, we are to show that if $U \subseteq \widehat{R}$ is open, then there exists $x \in R$ with $\pi(x) \in U$. Let $\pi_I: \widehat{R} \to R/I$ denote a typical component map of the limit cone. A [[basis of a topology|basis]] for the topology of $\widehat{R}$ consists of [[inhabited set|inhabited]] finite intersections of the form $U = \pi_{I_1}^{-1}(x_1) \cap \ldots \pi_{I_n}^{-1}(x_n)$ where each $x_k$ is a point of $R/I_k$. 
+So, we are to show that if $U \subseteq \widehat{R}$ is open and [[inhabited set|inhabited]], then there exists $x \in R$ with $\pi(x) \in U$. Let $\pi_I: \widehat{R} \to R/I$ denote a typical component map of the limit cone. A [[basis of a topology|basis]] for the topology of $\widehat{R}$ consists of inhabited finite intersections of the form $U = \pi_{I_1}^{-1}(x_1) \cap \ldots \cap \pi_{I_n}^{-1}(x_n)$ where each $x_k$ is a point of $R/I_k$. 
 
-In order for such an intersection to be inhabited, the coordinates $x_k$ must be compatible, in the sense that any two $x_i \in R/I_i, x_j \in R/I_j$ must map to the same element $x \in R/I$ whenever $I_i, I_j \subseteq I$. It follows from the [[Chinese remainder theorem]] that, putting $J = \bigcap_{i=1}^n I_i$, there exists a unique $y \in R/J$ that maps to each of the $x_i$ under the map $R/J \to R/I_i$. Then, letting $x \in R$ be an element that maps to $y$ under $R \to R/J$, the element $\pi(x)$ lies in $U$ and we are done. 
+Let $x = \langle x_I \rangle_{I \in \mathcal{O}(R)} \in \widehat{R}$ be a point belonging to $U$, and put $J = \bigcap_{i=1}^n I_i$. Then for each $x_i$ the coordinate $x_J$ maps to $x_i$ under the map $R/J \to R/I_i$, precisely because of the compatibility conditions on the coordinates imposed by the limit. Then, letting $x \in R$ be an element that maps to $x_J$ under $R \to R/J$, the element $\pi(x)$ lies in $U$ and we are done. 
 =-- 
 
 ## Compact rings are totally disconnected 
@@ -103,11 +103,11 @@ This and Proposition \ref{surj} taken together imply that $\pi$ is a ring isomor
 
 +-- {: .proof} 
 ###### Proof 
-As we have an inclusion $\widehat{R} \hookrightarrow \prod_{I \in \mathcal{O}} R/I$ of the profinite completion as projective limit, we see the kernel of $\pi$ is the same as the kernel of 
+As we have an inclusion $\widehat{R} \hookrightarrow \prod_{I \in \mathcal{O}(R)} R/I$ of the profinite completion as projective limit, we see the kernel of $\pi$ is the same as the kernel of 
 
-$$\langle proj_I \rangle_{I \in \mathcal{O}}: R \to \prod_{I \in \mathcal{O}} R/I$$ 
+$$\langle proj_I \rangle_{I \in \mathcal{O}(R)}: R \to \prod_{I \in \mathcal{O}(R)} R/I$$ 
 
-which is precisely $\bigcap_{I \in \mathcal{O}} I$. Since by Lemma \ref{openideal} every neighborhood of $0 \in R$ contains an open ideal $I \in \mathcal{O}$, this intersection is contained in the intersection of all open neighborhoods of $0$, which is $\{0\}$ since $R$ is Hausdorff. Thus the kernel of $\pi$ is trivial, as was to be shown. 
+which is precisely $\bigcap_{I \in \mathcal{O}(R)} I$. Since by Lemma \ref{openideal} every neighborhood of $0 \in R$ contains an open ideal $I \in \mathcal{O}(R)$, this intersection is contained in the intersection of all open neighborhoods of $0$, which is $\{0\}$ since $R$ is Hausdorff. Thus the kernel of $\pi$ is trivial, as was to be shown. 
 =-- 
 
 ## Related concepts 
