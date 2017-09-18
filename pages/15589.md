@@ -27,3 +27,11 @@ Discussion in the context of the [[geometric Langlands correspondence]] includes
 See also 
 
 * [MO discussion](http://mathoverflow.net/q/73054/381)
+
+Higher dimensional class field theory, using the [[Chow group with modulus]], is developed in
+
+* [[Moritz Kerz]], [[Shuji Saito]], _Chow group of 0-cycles with modulus and higher dimensional class field theory_, [arXiv:1304.4400](http://arxiv.org/abs/1304.4400).
+
+which is briefly summarized in
+
+* _Chow group of 0-cycles with modulus and higher dimensional class field theory_, [pdf](http://preschema.com/documents/chowmodcft.pdf).
