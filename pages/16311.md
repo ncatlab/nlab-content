@@ -12,7 +12,7 @@
 
 ## In philosophy
 
-In [[philosophy]] a concept called _substance_ plays the central role in [[Spinoza's system]]. 
+In [[philosophy]] a concept called _substance_ plays the central role in [[Spinoza's system]] and in [[Descartes]]'s thoughts ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesSubstance)).
 
 In [[Kant]]'s _critique of pure reason_ this appears as one of the _[[category (philosophy)|categories of pure thought]]_. Here "substance" is to go along with _substantial_, as opposede to _accidental_.
 
