@@ -180,19 +180,20 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
   * The category of [[diffeological space|diffeological spaces]]. 
 
-* The following examples are categories of separated presheaves for the $\neg\neg$-topology on various presheaf toposes: 
+* {#exampsep} The following examples are categories of separated presheaves for the $\neg\neg$-topology on various presheaf toposes: 
 
-  * The category of [[monomorphisms]] between sets (as presheaves on the [[interval category]]). 
+  * {#mono} The category [[M-category#def|Mono]] of [[monomorphisms]] between sets (as presheaves on the [[interval category]] - the [[Sierpinski topos]]).  
 
-  * The category of sets equipped with a [[relation]] (as presheaves on 
+  * {#endorel} The category [[relation#endorel|EndoRel or Bin]] of sets equipped with a [[relation]] (as presheaves on [[Quiv]]
     $$G_1 = (0 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} 1),$$ 
-    a truncation of the [[globular category]]). 
+    a truncation of the [[globular category]]).  
 
-  * The category of sets equipped with a reflexive relation (as presheaves on a truncated reflexive globular category). 
+  * {#endoref} The category of sets equipped with a reflexive relation (as presheaves on a truncated reflexive globular category). 
 
-  * The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
+  * {#endosym} The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
 
-  * The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). See [[category of simple graphs]]. 
+  * {#endorefsym} The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). See [[category of simple graphs]]. 
+
 
 * The category of [[bornological set|bornological sets]]. 
 
