@@ -1,32 +1,58 @@
 
-Factor the diagram in question
++-- {: .num_prop #ExactSequenceOfHomotopyFiberAtOneStage}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \to Y$ any morphism of [[pointed objects]], and for $A$ a [[pointed object]], def. \ref{CategoryOfPointedObjects}, then the sequence
+
+$$
+  [A,hofib(f)]_\ast \longrightarrow [A,X]_\ast \longrightarrow [A,Y]_{\ast}
+$$
+
+is [[exact sequence|exact]] (the sequecne being the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor of the pointed [[homotopy category of a model category]]
+
+$$
+  [A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may choose representatives such that $A$ is cofibrant, and $f$ is a fibration. Then we are faced with an ordinary pullback diagram
 
 $$
   \array{
-    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    hofib(f) &\overset{i}{\longrightarrow}& X
     \\
-    \downarrow^{\mathrlap{}} && \downarrow && \downarrow^{\mathrlap{f}}
+    \downarrow && \downarrow^{\mathrlap{p}}
     \\
-    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+    \ast &\longrightarrow& Y
   }
-$$
+$$ 
 
-through the pullback of the bottom horizontal line:
+and the hom-classes are represented by genuine morphisms in $\mathcal{C}$. From this it follows immediately that $ker(p_\ast)$ includes $im(i_\ast)$. Hence it remains to show that every element in $ker(p_\ast)$ indeed comes from $im(i_\ast)$.
+
+But an element in $ker(p_\ast)$ is represented by a morphism $\alpha \colon A \to X$ such that there is a left homotopy as in the following diagram
 
 $$
   \array{
-    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
-    \\
-    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{id}}
-    \\
-    fib(\phi) &\longrightarrow& f^\ast X_2 &\underoverset{\in Fib}{\phi}{\longrightarrow}& Y_1
-    \\
-    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
-    \\
-    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+     && A &\overset{\alpha}{\longrightarrow}& X
+     \\
+     && {}^{\mathllap{i_0}}\downarrow &{}^{\tilde \eta}\nearrow& \downarrow^{\mathrlap{p}}
+     \\
+     A &\overset{i_1}{\longrightarrow} & Cyl(A) &\overset{\eta}{\longrightarrow}& Y
+     \\
+     \downarrow && && \downarrow^{\mathrlap{=}}
+     \\
+     \ast && \longrightarrow && Y
   }
+  \,.
 $$
 
-Here $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} and with this $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and [[two-out-of-three]].
+Now by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the square here has a lift $\tilde \eta$, as shown. This means that $i_1 \circ\tilde \eta$ is left homotopic to $\alpha$. But by the universal property of the fiber, $i_1 \circ \tilde \eta$ factors through $i \colon hofib(f) \to X$.
 
-Moreover, this diagram exhibits $fib(f_1)\to fib(\phi)$ as the base change (along $\ast \to Y_2$) of $X_1 \to f^\ast X_2$. Hence the claim follows with lemma \ref{spring}.
+=--
+
