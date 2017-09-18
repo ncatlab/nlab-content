@@ -15,10 +15,10 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 * {#Girard13} [[Jean-Yves Girard]], _Transcendental syntax 2.0_, 2013 ([pdf](http://iml.univ-mrs.fr/~girard/TS2.pdf))
 
-* {#Girard13b} [[Jean-Yves Girard]], _Geometry of Interaction VI: a Blueprint for Transcendental Syntax_, 2013
+* {#Girard13b} [[Jean-Yves Girard]], _Geometry of Interaction VI: a Blueprint for Transcendental Syntax_, 2013 ([CiteSeer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.303.7141))
 
 
-* {#AbrusciPistone12} V. M. Abrusci, P. Pistone, _Transcendental Syntax and GoI: interplays between logic and philosophy_, 2012  ([GoogleScholar](http://scholar.googleusercontent.com/scholar?q=cache:478L1dYoWicJ:scholar.google.com/&hl=en&as_sdt=0,5))
+* {#AbrusciPistone12} [Vito Michele Abrusci](http://www.uniroma3.it/persona.php?persona=v9rdc8l%2Fv34h57mDvlwB1jjlJFqAH%2B3Or9wKcvkvgtI%3D&tab=2), Paolo Pistone, _On Trascendental syntax: a Kantian program for logic?_, 2012 ([pdf](https://www.academia.edu/10495057/On_Trascendental_syntax_a_Kantian_program_for_logic))
 
 * {#Rouleau13} [[Vincent Laurence Rouleau]], _Towards an understanding of Girard's transcendental syntax: Syntax by testing_, PhD thesis 2013  ([pdf](https://www.ruor.uottawa.ca/fr/bitstream/handle/10393/23680/Laurence_Rouleau_Vincent_2013_thesis.pdf?sequence=3))
 
