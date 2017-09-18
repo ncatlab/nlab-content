@@ -165,7 +165,9 @@ But there is an example with even non-circular system of axioms:
 
 ## Related concepts
 
-The _[[calculus of inductive constructions]]_ can be formulated as a particular pure type system (with a hierarchy of [[type of types]]) augmented by rules for introducing [[inductive types]].
+* Pure type systems can be augmented with a *cumulativity* relation between sorts, so that if $s_1 \preceq s_2$, then any type in $s_1$ is also in $s_2$; see [Barras-Gregoire](#BG05).
+
+* The _[[calculus of inductive constructions]]_ can be formulated as a particular pure type system (with a hierarchy of [[type of types]]) augmented by rules for introducing [[inductive types]].
 
 ## References ##
 
@@ -178,5 +180,10 @@ Oxford University Press. ([preprint pdf](http://ttic.uchicago.edu/~dreyer/course
 A quick survey is in 
 
 * Frade, _Calculus of inductive constructions_ ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
+
+A generalization to cumulativity can be found in
+
+* Bruno Barras and Benjamin Gregoire, *On the role of type decorations in the Calculus of Inductive Constructions*, Lecture Notes in Computer Science Volume 3634, 2005, pp 151-166, [PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.61.2666&rep=rep1&type=pdf)
+ {#BG05}
 
 [[!redirects pure type systems]]
