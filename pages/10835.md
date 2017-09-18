@@ -23,19 +23,19 @@
 
 ## Definition
 
-Given a [[commutative ring]] $R$ and an $R$-[[associative algebra]] $A$, hence a [[ring]] [[homomorphism]] $R \longrightarrow A$, the _Amitsur complex_ is the [[Moore complex]] of the dual [[Cech nerve]] of $Spec(A) \to Spec(R)$, hence the [[chain complex]]
+Given a [[commutative ring]] $R$ and an $R$-[[associative algebra]] $A$, hence a [[ring]] [[homomorphism]] $R \longrightarrow A$, the _Amitsur complex_ is the [[Moore complex]] of the dual [[Cech nerve]] of $Spec(A) \to Spec(R)$, hence the [[chain complex]] of the form
 
 $$
   R \to A \to A \otimes_R A \to A \otimes_R A \otimes_R A \to \cdots
-  \,.
 $$
 
-(See also at _[[Sweedler coring]]_ and at _[[commutative Hopf algebroid]]_ for the same or similar constructions.)
+with [[differentials]] given by the alternating sum of the coface-maps.
+
+(See also at _[[Sweedler coring]]_, at _[[commutative Hopf algebroid]]_ and at _[[Adams spectral sequence]]_ for the same or similar constructions.)
 
 ## Properties
 
 ### Descent theorem
-
 
 
 +-- {: .num_theorem }
