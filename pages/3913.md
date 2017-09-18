@@ -62,6 +62,9 @@ The Thom space of the rank-$n$ [[universal vector bundle]] over the [[classifyin
 ## Definition 
  {#Definition}
 
+
+
+
 +-- {: .num_defn #ThomSpace}
 ###### Definition
 
@@ -129,8 +132,54 @@ $$
 
 =--
 
+
 ## Properties
  {#Properties}
+
+### Homotopy-theoretic nature
+ {#HomotopyTheoreticNature}
+
++-- {: .num_prop #ThomSpaceOverCWComplexIsHomotopyCofiber}
+###### Proposition
+
+Let $V \to X$ be a [[vector bundle]] over a [[CW-complex]] $X$. Then the Thom space $Th(V)$ (def. \ref{ThomSpace}) is equivalently the [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) of the inclusion $S(V) \longrightarrow D(V)$ of the sphere bundle into the disk bundle.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The Thom space is defined as the ordinary [[cofiber]] of $S(V)\to D(V)$. Under the given assumption, this inclusion is a [[relative cell complex]] inclusion, hence a cofibration in the [[classical model structure on topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)). Therefore in this case the ordinary cofiber represents the homotopy cofiber ([def.](#Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)).
+
+=--
+
+The equivalence to the following alternative model for this homotopy cofiber is relevant when discussing [[Thom isomorphisms]] and [[orientation in generalized cohomology]]:
+
++-- {: .num_prop #ThomSpaceOverCWEquivalentToConeOnInclusionOfComplementOf0Section}
+###### Proposition
+
+Let $V \to X$ be a [[vector bundle]] over a [[CW-complex]] $X$. Write $V-X$ for the complement of its 0-[[section]].  Then the Thom space $Th(V)$ (def. \ref{ThomSpace}) is [[homotopy equivalence|homotopy equivalent]] to the [[mapping cone]] of the inclusion $(V-X) \hookrightarrow V$ (hence to the pair $(V,V-X)$ in the language of [[generalized (Eilenberg-Steenrod) cohomology]]).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[mapping cone]] of any map out of a [[CW-complex]] represents the [[homotopy cofiber]] of that map ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardTopologicalMappingConeIsHomotopyCofiber)). Moreover, transformation by (weak) homotopy equivalences between morphisms induces a (weak) homotopy equivalence on their homotopy fibers ([prop.](Introduction+to+Stable+homotopy+theory+--+P#FiberOfFibrationIsCompatibleWithWeakEquivalences)). But we have such a weak homotopy equivalence, given by contracting away the fibers of the vector bundle:
+
+$$
+  \array{
+    V-X &\longrightarrow& V
+    \\
+    {}^{\mathllap{\in W_{cl}}}\downarrow && \downarrow^{\mathrlap{\in W_{cl}}}
+    \\
+    S(V) &\hookrightarrow& D(V)
+  }
+  \,.
+$$
+
+=--
+
 
 ### Behaviour under direct sum of vector bundles
 
