@@ -1336,7 +1336,7 @@ $$
 * {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]] [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. 3, fasc. 12 (1980) ([spire](http://inspirehep.net/record/156191))
   
 
-* {#AzcarragaIzqierdo95} [[José de Azcárraga]], Izqierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_, Cambridge monographs of mathematical physics, (1995)
+* {#AzcarragaIzqierdo95} [[José de Azcárraga]], Izqierdo, _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics, (1995)
  
 
 
