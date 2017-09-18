@@ -58,7 +58,7 @@ where $n$ is an arbitrary [[natural number]] and $a_0, \dots, a_n \in R$, subjec
 $$ 
   0 z^{n+1} + a_n z^n + \cdots + a_1 z + a_0 = a_n z^n + \cdots + a_1 z + a_0 $$
 
-(so that we ignore coefficients of zero).
+so that we ignore coefficients of zero). The **degree** of a polynomial is the maximum $n$ for which $a_n$ is nonzero. 
 
 This set is equipped with an $R$-module structure (where formal linear combinations are added and scalar-multiplied as usual) and also with the structure of a ring, in fact a [[commutative algebra]] over $R$, denoted $R[z]$
 and called the **polynomial ring** or **ring of polynomials**, with ring multiplication 
