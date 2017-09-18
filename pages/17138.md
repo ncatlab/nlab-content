@@ -2648,6 +2648,54 @@ More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInA
 
 =--
 
++-- {: .num_lemma #ComponentMapsOfCylinderAndPathSpaceInGoodSituation}
+###### Lemma
+
+Let $\mathcal{C}$ be a [[model category]]. 
+
+If $X \in \mathcal{C}$ is cofibrant, then for every [[cylinder object]] $Cyl(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(i_0,i_1) \colon X \sqcup X \to X$ a cofibration, but each
+
+$$
+  i_0, i_1 \colon X \longrightarrow X
+$$
+
+is an acyclic cofibration.
+
+Dually, if $X \in \mathcal{C}$ is fibranr, then for every [[path space object]] $Path(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(p_0,p_1) \colon Path(X)\to X \times X$ a cofibration, but each
+
+$$
+  p_0, p_1 \colon Path(X) \longrightarrow X
+$$
+
+is an acyclic fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the case of the path space object. The other case is [[formal dual|formally dual]].
+
+First, that the component maps are weak equivalences follows generally: by definition they have a [[right inverse]] $Path(X) \to X$ and so this follows by [[two-out-of-three]].
+
+But if $X$ is fibrant, then also the two projection maps out of the product $X \times X \to X$ are fibrations, because they are both pullbacks of the fibration $X \to \ast$
+
+$$
+  \array{
+      X\times X &\longrightarrow& X 
+      \\
+      \downarrow &(pb)& \downarrow
+      \\
+      X &\longrightarrow& \ast
+  }
+  \,.
+$$
+
+hence $p_i \colon Path(X)\to X \times X \to X$ is the composite of two fibrations, and hence itself a fibration.
+
+=--
+
+
 +-- {: .num_defn #LeftAndRightHomotopyInAModelCategory}
 ###### Definition
 
@@ -5790,7 +5838,7 @@ $$
 it is itself a fibration.
 
 
-Next, observe that, by [[two-out-of-three]], both projections $p_i \colon Path(X)\to X$ are weak equivalences, since they have the [[right inverse]] $Y \to Path(Y)$. By the [[universal property]] of  [[pullbacks]], this induces a right inverse of $\hat X \to X$ fitting into this [[pasting]] diagram
+Next, by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}, both projections $p_i \colon Path(X)\to X$ are weak equivalences,  By the [[universal property]] of  [[pullbacks]], this induces a right inverse of $\hat X \to X$ fitting into this [[pasting]] diagram
 
 $$
   \array{
@@ -6055,6 +6103,81 @@ Hence it is now sufficient to observe that in category of fibrant objects, base 
 
 =--
 
+Hence we say:
+
++-- {: .num_defn #HomotopyFiber}
+###### Definition
+
+Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \longrightarrow Y$ any morphism, then its **[[homotopy fiber]]**
+
+$$
+  hofib(f)\longrightarrow X
+$$
+
+is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
+
+=--
+
+We may now state the abstract version of the statement of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}:
+
++-- {: .num_prop #ExactSequenceOfHomotopyFiberAtOneStage}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \to Y$ any morphism of [[pointed objects]], and for $A$ a [[pointed object]], def. \ref{CategoryOfPointedObjects}, then the sequence
+
+$$
+  [A,hofib(f)]_\ast \overset{i_\ast}{\longrightarrow} [A,X]_\ast \overset{f_\ast}{\longrightarrow} [A,Y]_{\ast}
+$$
+
+is [[exact sequence|exact]] (the sequence being the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor of the pointed [[homotopy category of a model category]]
+
+$$
+  [A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may choose representatives such that $A$ is cofibrant, and $f$ is a fibration. Then we are faced with an ordinary pullback diagram
+
+$$
+  \array{
+    hofib(f) &\overset{i}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \ast &\longrightarrow& Y
+  }
+$$ 
+
+and the hom-classes are represented by genuine morphisms in $\mathcal{C}$. From this it follows immediately that $ker(p_\ast)$ includes $im(i_\ast)$. Hence it remains to show that every element in $ker(p_\ast)$ indeed comes from $im(i_\ast)$.
+
+But an element in $ker(p_\ast)$ is represented by a morphism $\alpha \colon A \to X$ such that there is a left homotopy as in the following diagram
+
+$$
+  \array{
+     && A &\overset{\alpha}{\longrightarrow}& X
+     \\
+     && {}^{\mathllap{i_0}}\downarrow &{}^{\tilde \eta}\nearrow& \downarrow^{\mathrlap{p}}
+     \\
+     A &\overset{i_1}{\longrightarrow} & Cyl(A) &\overset{\eta}{\longrightarrow}& Y
+     \\
+     \downarrow && && \downarrow^{\mathrlap{=}}
+     \\
+     \ast && \longrightarrow && Y
+  }
+  \,.
+$$
+
+Now by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the square here has a lift $\tilde \eta$, as shown. This means that $i_1 \circ\tilde \eta$ is left homotopic to $\alpha$. But by the universal property of the fiber, $i_1 \circ \tilde \eta$ factors through $i \colon hofib(f) \to X$.
+
+=--
+
+
 (...)
 
 #### Long exact sequences
@@ -6090,6 +6213,13 @@ where $[-,-]_\ast$ denotes the hom-sets in the [[homotopy category of a model ca
 =--
 
 ([Quillen 67, I.3, prop. 4](#Quillen67))
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage} and prop. \ref{...}.
+
+=--
 
 (...)
 
