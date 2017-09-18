@@ -146,6 +146,8 @@ Or, dually, we may regard the 4-form $\star \omega$ of def. \ref{As2Plectomorphi
   [[E6]], [[E7]],  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
 
 
+[[!include special holonomy table]]
+
 ## References
 
 ### General
