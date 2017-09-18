@@ -6,3 +6,5 @@
 * [[circle action]]
 
 category: people
+
+[[!redirects Martin Saralegi]]
