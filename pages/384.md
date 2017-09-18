@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
