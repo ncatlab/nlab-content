@@ -2390,7 +2390,7 @@ Finally, by the second item of lemma \ref{PropertiesOfAlmostSpectrificationForTo
  {#Stability}
 
 
-We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation $\Sigma$ is an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
+We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation $\Sigma$ is an [[equivalence of categories]] from the [[stable homotopy category]] to itself. This is theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} below. 
 
 +-- {: .num_defn #StableModelCategory}
 ###### Definition
@@ -2688,17 +2688,10 @@ The canonical suspension functor on the [[homotopy category of a model category|
 +-- {: .proof}
 ###### Proof
 
-Notice that via [[CW-approximation]], every object in the stable homotopy category is represented by a [[CW-spectrum]]. For instance by the [[Quillen equivalence]] to the stable [[Bousfield-Friedlander model structure]] $SeqSpec(sSet)_{stable}$ (prop. \ref{QuillenEquivalenceToStableBFModelStructure}) every topological sequential spectrum $X$ is stably equivalent to the [[CW-spectrum]] which is degreewise the [[geometric realization]] of a BF-cofibrant replacement of its degreewise [[singular simplicial complex]]
-
-$$
-  {\vert Q Sing X \vert}
-  \overset{\in W_{stable}}{\longrightarrow}
-  X
-$$
-
+By [[CW-approximation]] (prop. \ref{CWApproximationForSequentialSpectra}), every object in the stable homotopy category is represented by a [[CW-spectrum]]. 
 By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canonical suspension functor on the homotopy category (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. 
 
-=---
+=--
 
 +-- {: .num_theorem #StableModelStructureOnSequentiaSpectraIsStableModelCategory}
 ###### Theorem
@@ -3219,7 +3212,7 @@ Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says
 
 In conclusion we have:
 
-+-- {: .num_prop}
++-- {: .num_prop #TheStableHomotopyCategoryIsAdditive}
 ###### Proposition
 
 The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) is an [[additive category]] (def. \ref{AdditiveCategory}).
@@ -3318,34 +3311,10 @@ for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable wea
 
 =--
 
+
+
 #### Triangulated structure
  {#TriangulatedStructure}
-
-
-+-- {: .num_defn #AdditiveFunctor}
-###### Definition
-
-A [[functor]] $F \colon  \mathcal{A} \to \mathcal{B}$ between [[additive categories]], def. \ref{AdditiveCategory} is called an **[[additive functor]]** if it preserves finite [[biproducts]] (remark \ref{BiproductsInAdditiveCategories}). That is, 
-
-1. $F$ maps a [[zero object]] to a zero object, $F(0) \simeq 0 \in \mathcal{B}$; 
-
-1. given any two [[objects]] $X, Y \in \mathcal{A}$, there is an [[isomorphism]] $F(X \oplus Y) \cong F(x) \oplus F(y)$, and this respects the inclusion and projection maps of the [[direct sum]]:
-
-$$
-\array { X &          &            &          & Y \\
-           & {}_{\mathllap{i_X}}\searrow &            & \swarrow_{\mathrlap{i_Y}} \\
-           &          & X \oplus Y \\
-           & {}^{\mathllap{p_X}}\swarrow &            & \searrow^{\mathrlap{p_Y}} \\
-         x &          &            &          & y }
-\quad\quad\stackrel{F}{\mapsto}\quad\quad
-\array { F(X) &          &                                      &          & F(Y) \\
-              & {}_{\mathllap{i_{F(X)}}}\searrow &   & \swarrow_{\mathrlap{i_{F(Y)}}} \\
-              &          & F(X \oplus Y) \cong F(X) \oplus F(Y) \\
-              & {}^{\mathllap{p_{F(X)}}}\swarrow &                                      & \searrow^{\mathrlap{p_{F(Y)}}} \\
-         F(X) &          &                                      &          & F(Y) }
-$$
-
-=--
 
 
 
@@ -3356,7 +3325,7 @@ A **[[triangulated category]]** is
 
 1. an [[additive category]] $Ho$ (def. \ref{AdditiveCategory});
 
-1. an [[additive functor]] (def. \ref{AdditiveFunctor}), called the **suspension functor** or **[[shift functor]]**
+1. a functor, called the **suspension functor** or **[[shift functor]]**
 
    $$
      \Sigma \;\colon\; Ho \overset{\simeq}{\longrightarrow} Ho
@@ -3367,7 +3336,8 @@ A **[[triangulated category]]** is
 1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
 
    $$
-     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow} C \overset{}{\longrightarrow} \Sigma A
+     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow}  \overset{}{\longrightarrow} \Sigma A
+     \,,
    $$
 
    which is also denoted as
