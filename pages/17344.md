@@ -6427,7 +6427,7 @@ $$
 
 Here the commutativity of the middle square exhibits the desired conclusion.
 
-This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished traingle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
+This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished triangle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
 
 Regarding the second case: 
 
@@ -6716,9 +6716,9 @@ $$
        &\longrightarrow&
      X
        &\longrightarrow&
-     \ast
+     Cone(X)
        &\longrightarrow&
-     \ast
+     Cone(X)
      \\
      \downarrow 
        &&
@@ -6732,7 +6732,7 @@ $$
        &\underset{=}{\longrightarrow}&
      Y
        &\underset{}{\longrightarrow}&
-     hocof(f)
+     Cone(f)
        &\longrightarrow&
      \Sigma X
   }
@@ -6759,7 +6759,7 @@ $$
       &\overset{id}{\longrightarrow}& 
     X
       &\longrightarrow&
-    \ast
+    Cone(X)
     \\
     \downarrow && \downarrow && \downarrow
     \\
@@ -6769,9 +6769,29 @@ $$
       &\longrightarrow&
     \Sigma X
   }
+  \,,
 $$
 
-Namely the bottom composite is equal, in the homotopy category, to the previous bottom composite by $\Sigma X$ being the homotopy cofiber of $Y \to hocof(f)$; and the middle composite is trivially equal to the previous one since its codomain is the 0 object. Hence the top composite is equal, by universality of homotopy fibers, to the previous top composite. Since $\eta$ is an isomorphism in the stable homotopy category, this gives the commutativity of the right part of the diagram to be proven.
+due to the defining pasting composite of pushouts
+
+$$
+  \array{
+    X &\longrightarrow& Cone(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    Y &\longrightarrow& Cone(f)
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& \Sigma X
+  }
+  \,.
+$$
+
+
+
+Hence the top composite is equal, by universality of homotopy fibers, to the previous top composite. Since $\eta$ is an isomorphism in the stable homotopy category, this gives the commutativity of the right part of the diagram to be proven.
 
 So far we have shown that
 
