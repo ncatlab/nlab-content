@@ -649,10 +649,17 @@ The following non-example shows that sobriety is not a hereditary separation pro
 [[!redirects sober topologies]]
 [[!redirects sober space]]
 [[!redirects sober spaces]]
-#
+
+[[!redirects sobrification]]
+[[!redirects sobrifications]]
+
 [[!redirects soberification]]
 [[!redirects soberifications]]
 
+
+
+
 [[!redirects topological space with enough points]]
 [[!redirects topological spaces with enough points]]
-H
+
+
