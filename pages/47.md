@@ -2,6 +2,7 @@
 # General Discussion
 
 Below we used to discuss general issues concerning the $n$Lab. But it seems that we found a consensus that _discussion_ (as opposed to incremental work on entries) is best hosted at the blog, not the wiki. So now you are encouraged to post any messages concerning the $n$Lab community to:
+
 * the blog entry [nLab -- General Discussion](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html), or
 * the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/)
 
