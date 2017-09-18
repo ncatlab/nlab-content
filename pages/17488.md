@@ -1,3 +1,4 @@
+[[!redirects Introduction to stable homotopy theory -- 1-1]]
 
 
 {:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
@@ -35,7 +36,7 @@ This section_ _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable ho
 
 This subsection: **Part 1.1 -- Stable homotopy theory -- Sequential spectra**
 
-Next subsection: _Part 1.2 -- Stable homotopy theory -- Structured Spectra_
+Next subsection: _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2 -- Stable homotopy theory -- Structured Spectra]]_
 
 Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_
 
