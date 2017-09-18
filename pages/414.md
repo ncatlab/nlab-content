@@ -128,18 +128,16 @@ $$
   0 \to A \stackrel{i}{\hookrightarrow} B \stackrel{p}{\to} C \to 0
 $$
 
-be a [[short exact sequence]] and consider
+be a [[short exact sequence]]. The exactness at $A$ and $B$ together is equivalent to the statement that $i = \ker(p)$. Since as remarked above $Hom(X, -)$ is left exact, it preserves [[kernels]] and so $Hom(X, i) = \ker(Hom(X, p))$, giving exactness of the sequence 
 
 $$
-  Hom(X,A) 
+0 \to  Hom(X,A) 
     \stackrel{Hom(X,i)}{\to}
   Hom(X,B)
    \stackrel{Hom(X,p)}{\to}
   Hom(X,C)
   \,.
 $$
-
-Since $Hom(X,-)$ is generally left exact, by the above remark, it preserves [[kernels]] and so $Hom(X,p)$ is a [[monomorphism]] and $ker( Hom(X,p) ) \simeq im ( Hom(X,i) )$, generally. 
 
 Therefore we are reduced to showing that $Hom(X,p)$ is an [[epimorphism]] precisely if $X$ is projective. But this is def. \ref{ByCovHomPreservingEpis}.
 
