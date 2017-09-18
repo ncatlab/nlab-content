@@ -43,6 +43,10 @@ An adjoint logic version of [[homotopy type theory]] giving [[cohesive homotopy 
 
 * [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](http://arxiv.org/abs/1509.07584))
 
+For a more general framework see
+
+* [[Daniel Licata]], [[Mike Shulman]], and [[Mitchell Riley]], _A Fibrational Framework for Substructural and Modal Logics (extended version)_, ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf))
+
 [[!redirects adjoint logics]]
 
 [[!redirects adjoint type theory]]
