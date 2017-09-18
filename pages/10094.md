@@ -43,3 +43,14 @@ There are also the following related notions which are not comparable in general
 
 * [[distributive law]]
 
+* [[distributivity for monoidal structures]]
+
+  * [[distributive monoidal category]]
+
+  * [[bipermutative category]]
+
+  * [[linearly distributive category]]
+
+  * [[rig category]]
+
+
