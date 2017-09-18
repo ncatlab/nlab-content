@@ -116,9 +116,11 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 ## History
 
-* Andrea Cappelli, Elena Castellani, Filippo Colomo, Paolo Di Vecchia (eds.), _The Birth of String Theory_
+* [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_ IoP 1999
+
+* {#TheBirthOfStringTheory} Andrea Cappelli, Elena Castellani, Filippo Colomo, Paolo Di Vecchia (eds.), _The Birth of String Theory_
 Cambridge University Press (2012). ([additional material](http://theory.fi.infn.it/colomo/string-book/), [publisher webpage](http://www.cambridge.org/gb/knowledge/isbn/item5979248/?site_locale=en_GB))
- {#TheBirthOfStringTheory}
+ 
 
 ## Other lists of bibliography
 
