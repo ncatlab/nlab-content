@@ -1,3 +1,4 @@
+[[!redirects Lagrangian]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -102,3 +103,6 @@ is the corresponding [[local action functional]].
 [[!redirects local Lagrangian]]
 [[!redirects local Lagrangians]]
 
+[[!redirects Lagrangian densities]]
+[[!redirects local Lagrangian density]]
+[[!redirects local Lagrangian densities]]
