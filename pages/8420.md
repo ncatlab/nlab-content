@@ -10,6 +10,14 @@
 =--
 =--
 
+## Related concepts
+
+* [[doctrine of ideas]]
+
+* [[idealism]]
+  
+  [[objective idealism]], [[subjective idealism]]
+
 ## References
 
 * Wikipedia, _[Absolute idealism](http://en.wikipedia.org/wiki/Absolute_idealism)_
