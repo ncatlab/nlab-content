@@ -272,7 +272,7 @@ $$
 different morphisms of type $\mathbf{n} \to \mathbf{m}$ in $\Delta_a$, where we obtain the expression on the right by applying the [[Chu–Vandermonde identity]].  For example, there are 
 
 $$
-\binom{2}{1}\binom{2}{0} + \binom{2}{2}\binom{2}{1} = 2+2 = 4 = \binom{4}{1}
+\binom{2}{1}\binom{2}{0} + \binom{2}{2}\binom{2}{1} = 2+2 = 4 = \binom{4}{3}
 $$
 
 different morphisms $\mathbf{3} \to \mathbf{2}$, corresponding to the four functions
@@ -282,7 +282,7 @@ different morphisms $\mathbf{3} \to \mathbf{2}$, corresponding to the four funct
 1. $f(0) = f(1) = f(2) = 0$
 1. $f(0) = f(1) = f(2) = 1$
 
-As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $n$ elements (OEIS sequence [A088218](https://oeis.org/A088218), or [A001700](https://oeis.org/A001700) if we count morphisms $[n] \to [n] \in \Delta$), while taking $m=3$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
+As some interesting special cases, taking $n=m$ gives the number of monotone endofunctions on $n$ elements (OEIS sequence [A088218](https://oeis.org/A088218), or [A001700](https://oeis.org/A001700) if we consider morphisms $[n] \to [n] \in \Delta$), while taking $n=2$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
 
 ## Related constructions ##
 
