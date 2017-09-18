@@ -65,7 +65,7 @@ is still a [[refinement]] of $\{U_i \subset X\}_{i \in I}$ to a locally finite c
 
 It is clear by construction that $W_i \subset U_i$, hence that we have a [[refinement]]. We need to show local finiteness.
 
-Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finitee]] [[subset]] $K \subset J$ such that 
+Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finite]] [[subset]] $K \subset J$ such that 
 
 $$
   \underset{j \in J\backslash K}{\forall} \left( U_x \cap V_j = \emptyset \right)
@@ -75,7 +75,7 @@ $$
 Hence by construction 
 
 $$
-  \underset{I \in I\backslash \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
+  \underset{i \in I\backslash \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
   \,.
 $$
 
