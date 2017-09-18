@@ -1,15 +1,33 @@
 
 > under construction
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-We discuss in detail the abstract concept of [[cofiber sequences]] in its explicit incarnation in [[point-set topology]].
+We discuss in detail the realization of the abstract concept of [[cofiber sequences]] in its explicit incarnation in [[point-set topology]], the way it is traditionally presented in [[topology]] textbooks.
 
-## Background
+Hence we use the concepts of [[homotopy equivalence]] instead of [[weak homotopy equivalence]]. For discussion using the latter in the context of the [[classical model structure on topological spaces]] see instead at _[[Introduction to Homotopy Theory]]_ the section _[Homotopy fiber sequences](Introduction+to+Homotopy+Theory#HomotopyFiberSequences)_.
+
+## Pushouts
 
 +-- {: .num_prop #PastingLaw}
 ###### Proposition
@@ -21,15 +39,47 @@ $$
   \array{
      &\longrightarrow& &\longrightarrow&
     \\
-    \downarrow && \downarrow &(po)& \downarrow
+    \downarrow &(po)& \downarrow && \downarrow
     \\
      &\longrightarrow& &\longrightarrow&   
   }
 $$
 
-This: The total rectangle is a [[pushout]] precisely if the left square is.
+Then: The total rectangle is a [[pushout]] precisely if the left square is.
 
 =--
+
++-- {: .num_defn #QuotientBySubspace}
+###### Definition
+**(quotient by a subspace)**
+
+Let $X$ be a [[topological space]] and $A \subset X$ a [[inhabited set|non-empty]] [[subset]].
+Consider the [[equivalence relation]] on $X$ which identifies all points in $A$ with each other. The resulting [[quotient space]] is denoted $X/A$.
+
+Notice that $X/A$ is canonically a [[pointed topological space]], with base point the [[equivalence class]] $A/A \subset X/A$ of $A$.
+
+If $A = \emptyset$ is the [[empty space]], then one defines 
+
+$$
+  X/\emptyset \coloneqq X_+ \coloneqq X \sqcup \ast
+$$ 
+
+to be the [[disjoint union space]] of $X$ with the [[point space]]. This is no longer a quotient space, but both constructions are unified by the _[[pushout]]_ $i \colon A \to X$ along the map $A \to \ast$, equivalently the [[cokernel]] of the inclusion:
+
+$$
+  \array{
+    A &\overset{i}{\hookrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& X/A
+  }
+  \,.
+$$
+
+=--
+
+
 
 +-- {: .num_lemma #ClosedSubspacesGluing}
 ###### Lemma
@@ -49,7 +99,7 @@ $$
   \array{
      A \cap B &\longrightarrow& A
      \\
-     \downarrow && \downarrow^{\mathrlap{i_A}}
+     \downarrow &(po)& \downarrow^{\mathrlap{i_A}}
      \\
      B &\underset{i_B}{\longrightarrow}& X
   }
@@ -138,12 +188,13 @@ This exhibits $S$ as the intersection of two open subsets, hence as open.
 
 =--
 
+
 +-- {: .num_prop #CofibrantHomotopyEquivalencePushout}
 ###### Proposition
-**([[pushout]] of cofibrant homotopy equivalences is homotopy equivalence)
+**([[pushout]] of cofibrations)
 
 Let $A$ be a [[topological space]] and let
-$A \hookrightarrow X$ be a [[relative cell complex]] inclusion (or more generally a closed [[Hurewicz cofibration]]) which in addition is a [[homotopy equivalence]].
+$A \hookrightarrow X$ be a [[relative cell complex]] inclusion.
 
 Then for every [[continuous function]] $f \colon A \to Y$, the [[pushout]] $f_\ast i$ in 
 
@@ -157,16 +208,32 @@ $$
   }
 $$
 
-is a [[homotopy equivalence]].
+is also a [[relative cell complex]] inclusion. Moreover, if $i$ is in addition a [[homotopy equivalence]], then so is $f_\ast i$.
 
 =--
 
-This is part of the existence of the [[Strøm model structure]] on [[Top]].
+Prop. \ref{CofibrantHomotopyEquivalencePushout} is a consequence of the existence of the [[Strøm model structure]] $Top_{Stron}$ and the [[classical model structure on topological spaces]] $Top_{Quillen}$ and of the fact that the identity [[functors]] $Top_{Strom} \underoverset{\underset{id}{\longrightarrow}}{\overset{id}{\longleftarrow}}{\bot} Top_{Quillen}$ constitute a [[Quillen adjunction]].
 
+
++-- {: .num_prop #ContractibleSubcomplexQuotient}
+###### Proposition
+**(quotient by contractible subcomplex)**
+
+If $f \colon A \longrightarrow X$ is a [[relative cell complex]] inclusion, and if $A$ is a [[contractible topological space]], then the coprojection 
+
+$$
+  X \longrightarrow X/A
+$$
+
+to the [[quotient space]] (def. \ref{QuotientBySubspace}) is a [[homotopy equivalence]].
+
+=--
+
+(e.g. Hatcher. prop. 0.17)
 
 ## Mapping cones
 
-Throughout, write $[0,1]$ for the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]].
+Throughout, write $[0,1] \subset \mathbb{R}$ for the [[closed interval]] equipped fwith its [[Euclidean space|Euclidean]] [[metric topology]].
 
 +-- {: .num_defn #ConeCyclinder}
 ###### Definition
@@ -179,7 +246,7 @@ Let $X$ be a [[topological space]]. Then
      Cyl(X) \coloneqq X \times [0,1]
    $$
 
-1, the _standard [[cone]]_ on $X$ is the [[quotient space]] ([this example](quotient space#QuotientBySubspace))
+1. the _standard [[cone]]_ on $X$ is the [[quotient space]] (def. \ref{QuotientBySubspace})
 
    $$
      Cone(X) \coloneqq Cyl(X) / (X \times \{0\})
@@ -243,7 +310,35 @@ Let $f \colon X \to Y$ be a [[continuous function]] between [[topological spaces
      }
    $$
 
+
 =--
+
++-- {: .num_remark #MappingConePasting}
+###### Remark
+
+In summary, def. \ref{ConeCyclinder} and def. \ref{MappingConeCylinder} say that for $f \colon X \to Y$ a [[continuous function]] then we have a [[pasting]] of [[pushout]] diagrams in [[Top]] of the following form:
+
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{\mathrlap{i_1}} &(po)& \downarrow
+    \\
+    X &\stackrel{i_0}{\to}& Cyl(X) &\to & Cyl(f)
+    \\
+    \downarrow &(po)& \downarrow &(po)& \downarrow
+    \\
+    {*} &\to& Cone(X) &\to& Cone(f) 
+  }
+  \,.
+$$
+
+Since $X \to Cone(X)$ is a [[relative cell complex]] inclusion, the [[pasting law]] together with prop. \ref{CofibrantHomotopyEquivalencePushout} therefore implies that also $Y \to Cone(f)$ is a relative cell complex inclusion.
+
+
+
+=--
+
 
 +-- {: .num_lemma #ForClosedImageQuotientOfMappingConeByCone}
 ###### Lemma
@@ -286,13 +381,13 @@ Here the top square is a [[pushout]] by lemma \ref{ClosedSubspacesGluing}, while
 +-- {: .num_lemma #RelativeCellComplexInclusionMappingCone}
 ###### Lemma
 
-If $f \colon Y \to X$ is a [[relative cell complex]] inclusion, then 
+If $f \colon X \to Y$ is a [[relative cell complex]] inclusion, then 
 
 $$
   Cone(f) \longrightarrow Y/f(X)
 $$
 
-is a [[weak homotopy equivalence]].
+is a [[homotopy equivalence]].
 
 
 =--
@@ -316,17 +411,17 @@ $$
   }
 $$
 
-Since $f$ is a relative cell complex inclusion, so is $Cone(X) \to Cone(f)$. Since $Cone(X) \to \ast$ is a weak homotopy equivalence, so is 
-$Cone(f) \to Cone(f)/Cone(X)$. But by lemma \ref{ForClosedImageQuotientOfMappingConeByCone} there is also a homeomorphism $Cone(f)/Cone(X) \simeq Y/f(X)$.
+Since $f$ is a [[relative cell complex]] inclusion, so is $Cone(X) \to Cone(f)$, by prop. spring. Since $Cone(X) \to \ast$ is a [[homotopy equivalence]], so is 
+$Cone(f) \to Cone(f)/Cone(X)$, by prop. \ref{ContractibleSubcomplexQuotient}. But by lemma \ref{ForClosedImageQuotientOfMappingConeByCone} there is also a homeomorphism $Cone(f)/Cone(X) \simeq Y/f(X)$.
 
 =--
 
 ## Cofiber sequences
 
-+-- {: .num_prop}
++-- {: .num_prop #HomotopyEquivalenceSuspensionWithMappingConeOfMappingCone}
 ###### Proposition
 
-Let $f \colon X \to Y$ be a [[continuous function]] with closed image. Write $Cone(g)$ in
+Let $f \colon X \to Y$ be a [[continuous function]] with [[closed subset|closed]] [[image]] $f(X) \subset Y$. Write $Cone(g)$ in
 
 $$
   \array{
@@ -340,26 +435,28 @@ $$
   }
 $$
 
-for the mapping cone of the inclusion $g$ into the mapping cone of $f$.
+for the mapping cone of the inclusion $g$ of $Y$ into the mapping cone of $f$.
 
-Then there is a weak homotopy equivalence
+Then the canonical quotient coprojection
 
 $$
   Cone(g) \to \Sigma X
 $$
+
+to the [[suspension]] of $X$ is a [[homotopy equivalence]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since $g \colon Y \to Cone(f)$ is a relative cell complex inclusion, lemma \ref{RelativeCellComplexInclusionMappingCone} gives that 
+Since $g \colon Y \to Cone(f)$ is a [[relative cell complex]] inclusion (by remark \ref{MappingConePasting}), lemma \ref{RelativeCellComplexInclusionMappingCone} gives that 
 
 $$
   Cone(g) \to Cone(f)/g(Y)
 $$
 
-is a weak homotopy equivalence.  But
+is a [[homotopy equivalence]].  But
 
 $$
   Cone(f)/g(Y)
@@ -373,3 +470,11 @@ $$
 $$
 
 =--
+
+
+
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="660" >
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
+
