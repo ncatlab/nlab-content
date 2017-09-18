@@ -20,9 +20,13 @@
 
 ## Idea
 
+_Stable homotopy theory_ is [[homotopy theory]] in the case that the operations of [[looping and delooping]] are _[[equivalence of (infinity,1)-categories|equivalences]]_.
+
 As [[homotopy theory]] is the study of [[homotopy types]], so _stable homotopy theory_ is the study of [[stable homotopy types]]. As [[homotopy theory]] in generality is [[(∞,1)-category theory]] (or maybe [[(∞,1)-topos theory]]), so stable homotopy theory in generality is the theory of [[stable (∞,1)-categories]].
 
 More specifically, if one thinks of classical [[homotopy theory]] as the study of (just) the [[(∞,1)-category]] $L_{whe}$[[Top]] $\simeq$ [[∞Grpd]] of [[topological spaces]] modulo [[weak homotopy equivalence]] ([[∞-groupoids]]), or rather of its [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(Top)$, then stable homotopy theory is the study of the corresponding [[stabilization]]: To every suitable [[(∞,1)-category]] is associated its corresponding [[stable (∞,1)-category]] of [[spectrum objects]]. For $L_{whe}$[[Top]] this is the [[stable (∞,1)-category of spectra]], $Sp(L_{whe}Top)$. **Stable homotopy theory** is the study of $Sp(Top)$, or rather of its [[homotopy category of an (infinity,1)-category|homotopy category]], the [[stable homotopy category]] $Ho(Sp(L_{whe}Top))$.
+
+For detailed introduction to the stable homotopy theory of spectra see at _[[Introduction to Stable homotopy theory]]_.
 
 By definition a [[stable homotopy type]] is one on which [[suspension]] and hence [[looping and delooping]] act as an [[equivalence]]. Historically people considered in plain [[homotopy theory]] statements that became true after sufficiently many [[suspensions]], hence once the process of taking [[suspensions]] "stabilizes". Whence the name.
 
