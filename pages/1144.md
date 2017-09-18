@@ -530,7 +530,7 @@ $$
 
 #### Algebraic homotopy theory
 
-+-- {: .num_theorem}
++-- {: .num_theorem #ProjectiveModelStructureOndgcAgebras}
 ###### Theorem
 
 Say that a [[homomorphism]] of [[differential graded-commutative algebras]] in non-negative degrees is
@@ -541,7 +541,7 @@ Say that a [[homomorphism]] of [[differential graded-commutative algebras]] in n
 
 * a _[[cofibration]]_ if it is the [[retract]] of a [[relative Sullivan algebra]] inclusion.
 
-These classes of morphisms make the category of [[differential graded-commutative algebras]] over the [[rational numbers]] and in non-negative degree into a [[model category]], to be called the [[projective model structure of differential graded-commutative algebras]], $(dcgAlg_{\mathbb{Q} ,\geq 0})_{proj}$.
+These classes of morphisms make the category of [[differential graded-commutative algebras]] over the [[rational numbers]] and in non-negative degree into a [[model category]], to be called the [[projective model structure on differential graded-commutative algebras]], $(dcgAlg_{\mathbb{Q} ,\geq 0})_{proj}$.
 
 
 
@@ -555,9 +555,16 @@ These classes of morphisms make the category of [[differential graded-commutativ
 +-- {: .num_theorem #SullivanRationalizationAdjunction}
 ###### Theorem
 
-The [[adjunction]] of def. \ref{AdjunctionBetweenSimplicialSetAnddgcAlgebras} is a [[Quillen adjunction]] with respect to the [[classical model structure on simplicial sets]] on the left, and the projective [[model structure on differential graded-commutative algebras]] on the right.
+The [[adjunction]] of def. \ref{AdjunctionBetweenSimplicialSetAnddgcAlgebras} is a [[Quillen adjunction]] with respect to the [[classical model structure on simplicial sets]] on the left (theorem \ref{TopQuillen}), and the [[opposite model structure]] of the [[projective model structure on differential graded-commutative algebras]] on the right (theorem \ref{ProjectiveModelStructureOndgcAgebras}):
 
-Moreover, this restricts to an equivalence between simply connected rational homotopy types and (minimal) [[Sullivan algebras]]. (...)
+$$
+  (dgcAlg_{\mathbb{Q}, \geq 0}_{proj})^{op}
+    \underoverset
+      {\underset{K_{poly}}{\longrightarrow}}
+      {\overset{\Omega^\bullet_{poly}}{\longleftarrow}}
+      {\bot}
+  sSet_{Quillen}
+$$
 
 =--
 
