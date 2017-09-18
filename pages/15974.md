@@ -70,7 +70,7 @@ Makkai and collaborators introduced a slight variation they called 'multitopes':
 higher-dimensional categories I, II_  Jour. Pure Appl. Alg. **157** (2001), 221--277.
 
 * {#Makkai} [[Michael Makkai]], The multitopic $\omega$-category of all multitopic $\omega$-categories. 
-([web](http://www.math.mcgill.ca/makkai/mltomcat04/))
+([pdf](http://www.math.mcgill.ca/makkai/mltomcat04/mltomcat04.pdf), [web](http://www.math.mcgill.ca/makkai/mltomcat04/))
 
 Cheng has carefully compared opetopes and multitopes, and various approaches to opetopic $n$-categories:
 
