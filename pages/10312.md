@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[moduli stack of formal groups]] $\mathcal{M}_{FG}$ admits a natural [[stratification]] whose open [[strata]] are labeled by a [[natural number]] called the _[[height of a formal group|height of formal groups]]_.
+The [[moduli stack of formal groups]] $\mathcal{M}_{FG}$ (1-dimensional commutative formal groups) admits a natural [[stratification]] whose open [[strata]] are labeled by a [[natural number]] called the _[[height of a formal group|height of formal groups]]_.
 
 For $p$ a [[prime number]], write $\overline{\mathbb{F}}_{\mathrm{p}}$ for the [[algebraic closure]] of the [[prime field]] $\mathbb{F}_p$.
 
