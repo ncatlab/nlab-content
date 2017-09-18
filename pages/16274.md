@@ -31,3 +31,7 @@
 A text arguing that [[Georg Hegel]]'s system (the _[[Science of Logic]]_) is hermeticism instead of [[philosophy]] is
 
 * {#Magee01} [[Glenn Alexander Magee]], _Hegel and the Hermetic Tradition_, Cornell University Press, 2001 ([introduction html](https://www.marxists.org/reference/subject/philosophy/works/en/magee.htm))
+
+See also
+
+* {#Melzer14} Arthur Melzer, _Philosophy between the lines -- The lost history of esoteric writing_, University of Chicago Press, 2014
