@@ -26,7 +26,7 @@ $\,$
 
 ## contact
 
-The best way to contact me is to send an email to <urs.schreiber@gmail.com>
+The best way to contact me is to send an email to <schreiber@math.cas.cz> or to <urs.schreiber@gmail.com>.
 
 
 ## my position {#myposition}
