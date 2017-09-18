@@ -51,6 +51,9 @@ Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 * [[periodic ring spectrum]]
 
+* [[model structure for ring spectra]]
+
+
 ## Reference
 
 Discussion of ring spectra as rings with repsect to [[symmetric smash product of spectra]] includes
