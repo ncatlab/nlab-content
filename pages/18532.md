@@ -131,3 +131,6 @@ The refinement to the point-extension problem for distributions in the solution 
 
 [[!redirects point-extension of a distribution]]
 [[!redirects point-extensions of distributions]]
+
+[[!redirects point-extension of distributions]]
+[[!redirects point-extensions of distributions]]
