@@ -15,7 +15,7 @@
 
 ## Idea
 
-A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothendieck fibration]] which is [[non-evil]], i.e. covariant under [[equivalence of categories]].  In [[Cat]], almost all Street fibrations which arise in practice are actually Grothendieck fibrations, so the extra generality is not very useful; since it is also fairly cumbersome, it is rarely used.  However, when working with [[anafunctors]] or internally to a [[bicategory]] (a weak [[2-category]]), one is essentially forced to work with Street fibrations instead; see below.
+A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothendieck fibration]] which obeys the [[principle of equivalence]], i.e. covariant under [[equivalence of categories]].  In [[Cat]], almost all Street fibrations which arise in practice are actually Grothendieck fibrations, so the extra generality is not very useful; since it is also fairly cumbersome, it is rarely used.  However, when working with [[anafunctors]] or internally to a [[bicategory]] (a weak [[2-category]]), one is essentially forced to work with Street fibrations instead; see below.
 
 
 ## Definition
