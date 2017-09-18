@@ -24,6 +24,11 @@ It can't be constructed using homogeneous coordinates the way we do for projecti
 
 * Salzmann et. al., *Compact Projective Planes, with an introduction to Octonion Geometry*
 
+Discussion of the [[Witten genus]] of Cayley plane-[[fiber bundles]] is in
+
+* {#McTague10} [[Carl McTague]], _The Cayley Plane and the Witten Genus_ ([arXiv:1006.0728](http://arxiv.org/abs/1006.0728))
+
+
 [[!redirects Cayley planes]]
 [[!redirects octonion projective plane]]
 [[!redirects octonion projective planes]]
