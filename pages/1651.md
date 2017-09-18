@@ -20,7 +20,37 @@ A [[topological space]] is called **locally path-connected** if it has a [[basis
 
 ## Properties
 
-A locally path-connected space is [[connected space|connected]] if and only if it is [[path-connected topological space|path-connected]].  In any case, the connected components of a locally path-connected space are the same as its path-connected components.
++-- {: .num_lemma #InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}
+###### Lemma
+
+Let $X$ be a locally path connected space. Then the path connected component $P_x \subset X$ over any point $x \in X$ is an [[open set]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which  is path connected. It follows by concatenation of paths that $V_y \subset P_x$.
+
+=--
+
+
+A locally path-connected space is [[connected space|connected]] if and only if it is [[path-connected topological space|path-connected]].  
+
+
++-- {: .num_prop #AdjointCylinderOnSuperAffines}
+###### Proposition
+
+The [[connected components]] of a locally path-connected space are the same as its path-connected components.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A path connected component is always connected ([this lemma](connected+space#ConnectedPathConnectedSpace)), and in a locally path-connected space is it also open (lemma \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}).
+
+=--
 
 ## Related concepts
 
