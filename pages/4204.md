@@ -379,6 +379,8 @@ This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
 
 * {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
+[[!redirects 2d TQFTs]]
+
 [[!redirects 2d topological field theory]]
 [[!redirects 2d topological field theories]]
 
