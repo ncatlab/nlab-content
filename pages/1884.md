@@ -478,7 +478,7 @@ Further introductions include
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
-* Aderemi Kuku, _Introduction to K-theory and some applcations_ ([pdf](https://www.math.ksu.edu/~zlin/kuku/Intro-Kthy.pdf))
+* Aderemi Kuku, _Introduction to K-theory and some applications_ ([pdf](https://www.math.ksu.edu/~zlin/kuku/Intro-Kthy.pdf))
 
 A textbook account of topological K-theory with an eye towards [[operator K-theory]] is section 1 of
 
