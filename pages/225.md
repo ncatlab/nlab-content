@@ -32,7 +32,7 @@ In the absence of the [[axiom of choice]] (including many [[internal category|in
 
 ## Properties
 
-###  Limtis and colimits and closure
+###  Limits and colimits and closure
 
 If $D$ has [[limits]] or [[colimits]] of a certain shape, then so does $[C,D]$ and they are computed pointwise.  (However, if $D$ is not complete, then other limits in $[C,D]$ can exist "by accident" without being pointwise.)
 
