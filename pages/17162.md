@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[generalized homology]] of [[MU]].
+
+A key ingredient in [[Quillen's theorem on MU]] giving the [[homotopy groups]] of $MU$.
+
+## References
+
+* [[Frank Adams]], part II.6 of _[[Stable homotopy and generalised homology]]_,1974
+
+* [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
+
+
