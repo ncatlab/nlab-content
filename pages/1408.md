@@ -45,7 +45,7 @@ as being the [[(∞,1)-sheaf]] of structure-preserving functions on $C$ with val
 
 Let $S$ be a [[geometry (for structured (∞,1)-toposes)|geometry]] and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on $S$. 
 
-Notice that if $S = Op(X)$ is the nerve of the [[category of open subsets]] of some [[topological space]] $X$, then $Sh(X) := Sh(S)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $X$, as in the above motivating introduction. 
+Notice that if $S = Op(X)$ is the nerve of the [[category of open subsets]] of some [[topological space]] $X$, then $Sh(X) \coloneqq Sh(S)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $X$, as in the above motivating introduction. 
 
 We want to define a _structure sheaf_ on $S$ (for instance on $Op(X)$) of quantities modeled on some $(\infty,1)$-category $V$ to be an [[(∞,1)-functor]]
 
@@ -311,7 +311,7 @@ And this is indeed the same kind of datum as an admissibility structure on a geo
 
 Let $(\infty,1)Toposes \subset $ [[(∞,1)Cat]]  be the [[sub-quasi-category|sub (∞,1)-category]] of [[(∞,1)-topos]]es: objects are [[(∞,1)-topos]]es, morphisms are [[geometric morphism]]s.
 
-Write $LTop := (\infty,1)Toposes^{op}$.
+Write $LTop \coloneqq (\infty,1)Toposes^{op}$.
 
 +-- {: .num_defn}
 ###### Definition 
@@ -447,7 +447,7 @@ This is ([Lurie, theorem xyz](#Lurie)).
 For $\mathcal{G}$ a [[geometry (for structured (infinity,1)-toposes)|geometry]] let
 
 $$
-  \mathbf{H} := Sh_\infty(\mathcal{G})
+  \mathbf{H} \coloneqq Sh_\infty(\mathcal{G})
 $$
 
 be the [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$. This is the [[big topos]] of [[higher geometry]] modeled on $\mathcal{G}$. By the [above discussion](#InTermsOfClassifying) it is also the classifying topos of $\mathcal{G}$-[[structure sheaves]] on toposes:
@@ -467,7 +467,7 @@ in that $\mathcal{O}_{\mathcal{X}} = p^* j$, where $j$ is the [[(∞,1)-Yoneda e
 Notice that for every object $X \in \mathcal{H}$ its [[little topos]]-incarnation is the [[over-(∞,1)-topos]] $\mathbf{H}/X$. This canonically sits over $\mathbf{H}$ by its [[etale geometric morphism]]
 
 $$
-  \mathcal{X} := \mathbf{H}/X
+  \mathcal{X} \coloneqq \mathbf{H}/X
   \stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}
   \mathbf{H}
   \,.
@@ -478,7 +478,7 @@ So we have
 +-- {: .num_lemma}
 ###### Observation
 
-The [[little topos]] $\mathcal{X} := \mathbf{H}/X$ of every object $X$ in the big topos $\mathbf{H}$ over $\mathcal{G}$ is canonically equipped with a $\mathcal{G}$-structure sheaf
+The [[little topos]] $\mathcal{X} \coloneqq \mathbf{H}/X$ of every object $X$ in the big topos $\mathbf{H}$ over $\mathcal{G}$ is canonically equipped with a $\mathcal{G}$-structure sheaf
 
 $$
   \mathcal{O}_X : \mathcal{G} \stackrel{j}{\to} \mathbf{H}
@@ -689,7 +689,7 @@ To generalize this to **derived structure sheaves** we replace the category of r
 The $(\infty,1)$-category of **simplicial commutative rings** over an ordinary commutative ring $k$ is
 
 $$
-  SCR_k := PSh_\Sigma(FreeAlg_k)
+  SCR_k \coloneqq PSh_\Sigma(FreeAlg_k)
 $$
 
 the $(\infty,1)$-category of [[(∞,1)-presheaves]] on commutative $k$-algebras of the form $k[x_1, \cdots, x_n]$.
@@ -703,9 +703,9 @@ Then...
 
 Every ordinary [[smooth manifold]] $X$ becomes canonically a generalized space with structure sheaf as follows:
 
-Let $V := Diff$ be some version of the category of smooth manifolds. This becomes a _pregeometry_ in the above sense by taking admissible morphisms to be inclusions of open submanifolds.
+Let $V \coloneqq Diff$ be some version of the category of smooth manifolds. This becomes a _pregeometry_ in the above sense by taking admissible morphisms to be inclusions of open submanifolds.
 
-Then for $Sh(X) := Sh(Op(X))$ the $(\infty,1)$-topos of $(\infty,1)$-sheaves on $X$, the obvious $(\infty,1)$-functor
+Then for $Sh(X) \coloneqq Sh(Op(X))$ the $(\infty,1)$-topos of $(\infty,1)$-sheaves on $X$, the obvious $(\infty,1)$-functor
 
 $$
   O_X : V \to Sh(X)
@@ -758,7 +758,7 @@ This appears as ([Lurie, corl 1.5.4](#Lurie)).
 For $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] write 
 
 $$
-  \hat \mathcal{G} := Pro(\mathcal{G})
+  \hat \mathcal{G} \coloneqq Pro(\mathcal{G})
 $$
 
 for its [[(∞,1)-category]] of [[ind-object in an (∞,1)-category|pro-objects]].
