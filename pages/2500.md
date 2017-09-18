@@ -381,6 +381,10 @@ The original article that introduced the [[D'Auria-Fre formulation of supergravi
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
  
+A compendium, of relevant [[action functionals]] and [[equations of motion]] is in 
+
+* M. J. D. Hamilton, _The field and Killing spinor equations of M-theory and type IIA/IIB supergravity in coordinate-free notation_ ([arXiv:1607.00327](http://arxiv.org/abs/1607.00327))
+
 ### Renormalization
 
 * S. Deser, J.H. Kay, K.S. Stelle, _Renormalizability Properties of Supergravity_, Phys Rev Lett 38, 527 (1977) (reproduced as [arXiv:1506.03757](http://arxiv.org/abs/1506.03757))
