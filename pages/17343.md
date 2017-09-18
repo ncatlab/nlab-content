@@ -4023,7 +4023,10 @@ In practice it turns out to be useful to arrange for the assumptions in corollar
 
 $$
   \mathcal{C}
-    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {}
   \mathcal{D}
 $$
 
@@ -4091,7 +4094,10 @@ $$
   (L \dashv R)
   \;\colon\;
   \mathcal{C}
-    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {}
   \mathcal{D}
 $$
 
@@ -4191,11 +4197,14 @@ Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since 
 +-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
 ###### Proposition
 
-For $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
+For $\mathcal{C} \underoverset{\underoverset{R}{\bot}{\longrightarrow}}{\overset{L}{\longleftarrow}}{} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
 
 $$
   Ho(\mathcal{C})
-    \stackrel{\overset{\mathbb{L}L}{\longleftarrow}}{\underoverset{\mathbb{R}R}{\bot}{\longrightarrow}}
+    \underoverset
+      {\underset{\mathbb{R}R}{\longrightarrow}}
+      {\overset{\mathbb{L}L}{\longleftarrow}}
+      {\bot}
   Ho(\mathcal{D})
   \,.
 $$
@@ -4252,11 +4261,26 @@ $$
   (L \dashv R)
   \;\colon\;
   \mathcal{C}
-    \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
   \mathcal{D}
 $$
 
-is called a **[[Quillen equivalence]]** if the following equivalent conditions hold.
+is called a **[[Quillen equivalence]]**, to be denoted
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\simeq_{\mathrlap{Q}}}
+  \mathcal{D}
+  \,,
+$$
+
+if the following equivalent conditions hold.
 
 1. The [[right derived functor]] of $R$ (via prop. \ref{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}, corollary \ref{LeftAndRightDerivedFunctors}) is an [[equivalence of categories]]
 
@@ -5054,7 +5078,10 @@ Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimi
 
 $$
   \mathcal{C}^{\ast/}
-     \stackrel{\overset{(-)_+}{\longleftarrow}}{\underoverset{U}{\bot}{\longrightarrow}}
+     \underoverset
+       {\underset{U}{\longrightarrow}}
+       {\overset{(-)_+}{\longleftarrow}}
+       {\bot}
   \mathcal{C}
 $$
 
@@ -5603,7 +5630,10 @@ This means equivalently that the functor $k$ (def. \ref{kfication}) together wit
 
 $$
   Top_{cg}
-    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+    \underoverset
+      {\underset{k}{\longleftarrow}}
+      {\hookrightarrow}
+      {\bot}
   Top
   \,.
 $$
@@ -5679,7 +5709,10 @@ is [[left adjoint]] to the [[smash product]] operation on [[pointed topological 
 
 $$
   Top_{cg}^{\ast/}
-    \stackrel{\overset{Y \wedge (-)}{\longleftarrow}}{\underoverset{Maps(Y,-)_\ast}{\bot}{\longrightarrow}}
+    \underoverset
+      {\underset{Maps(Y,-)_\ast}{\longrightarrow}}
+      {\overset{Y \wedge (-)}{\longleftarrow}}
+      {\bot}
   Top_{cg}^{\ast/}
  \,.
 $$
@@ -5837,7 +5870,10 @@ The restriction of the [[model category]] structure on $Top_{Quillen}$ from theo
 
 $$
   (Top_{cg})_{Quillen}
-    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+    \underoverset
+      {\underoverset{k}{\longleftarrow}}
+      {\hookrightarrow}
+      {\bot}
   Top_{Quillen}
   \,.
 $$
