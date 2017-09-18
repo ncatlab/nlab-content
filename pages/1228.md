@@ -361,7 +361,7 @@ The [co-Yoneda lemma in the sense of MacLane](#MacLanesCoYonedaLemma) appears as
 
 * {#MacLane} [[Saunders MacLane]], _[[Categories Work|Categories for the Working Mathematician]]_,
  
-where it is atributed to [[Daniel Kan]].
+where it is attributed to [[Daniel Kan]].
 
 
 [[!redirects Coyoneda lemma]]
