@@ -302,6 +302,9 @@ $$
 =--
 
 
+### Colimits
+
+See at _[[colimits of paracompact Hausdorff spaces]]_.
 
 ### Homotopy and Cohomology 
  {#HomotopyAndCohomology}
