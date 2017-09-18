@@ -1632,7 +1632,7 @@ $$
 
 
 The terminology "closed" subspace for complements of opens is justified by the following statement,
-which is a further example of how the combinatorial concept of open subsets captures key phenomena in [[analysis}}:
+which is a further example of how the combinatorial concept of open subsets captures key phenomena in [[analysis]]:
 
 +-- {: .num_prop #ConvergenceInClosedSubspace}
 ###### Proposition
@@ -1908,20 +1908,20 @@ $$
 ###### Example
 **(pre-images of continuous functions are frame homomorphisms)**
 
-Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological spaces]]. 
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological spaces]].
 One way to obtain a function between their sets of open subsets
 
 $$
   \tau_X \longleftarrow \tau_Y \;\colon\; \phi
 $$
 
-is to specifiy a function 
+is to specifiy a function
 
 $$
   f \colon X \longrightarrow Y
 $$
 
-of their underlying sets, and take $\phi \coloneqq f^{-1}$ to be the 
+of their underlying sets, and take $\phi \coloneqq f^{-1}$ to be the
 [[pre-image]] operation. A priori this is a function of the form
 
 $$
@@ -5547,7 +5547,7 @@ $$
   \,.
 $$
 
-Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$ 
+Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$
 (which is hence in particular $T_1$) the singleton subsets $\{y_i\}$ are closed
 by prop. \ref{AllPointsClosedEquivalentToT1}, and since pre-images under continuous functions preserves closed subsets by
 prop. \ref{ClosedSubsetContinuity}.
@@ -6506,7 +6506,6 @@ $\,$
 ***
 
 
-
 ## References
 
 A canonical compendium is
@@ -6531,8 +6530,9 @@ Lecture notes include
 
 Disucssion of [[sober topological spaces]] is in
 
-* {#Johnstone82} [[Peter Johnstone]], section II 1. of _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+* {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
 See also
 
 * [[Topospaces]], a Wiki with basic material on topology.
+
