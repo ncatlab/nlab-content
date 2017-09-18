@@ -298,7 +298,7 @@ for the projection of $(n,s)$-forms to the image of the "interior Euler operator
 +-- {: .num_prop #ELComplexHasSameCohomologyAsDeRhamComplex}
 ###### Proposition
 
-The [[cochain cohomology]] of the Euler-Lagrange complex
+The [[cochain cohomology]] of the [[Euler-Lagrange complex]]
 
 $$
  0 \to \mathbb{R}
