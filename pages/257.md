@@ -31,7 +31,7 @@ So, what is a model category?  For starters, it is a [[category]] equipped with 
 
 * The weak equivalences play the role of '[[homotopy equivalences]]' or something a bit more general (such as [[weak homotopy equivalences]]).  Already in the case of [[topological spaces]], it is useful to say that two spaces have the same [[homotopy type]] if there is a map from one to the other that induces [[isomorphisms]] on [[homotopy groups]] for any choice of basepoint in the first space.  These maps are more general than homotopy equivalences, so they are called 'weak equivalences'.
 
-* The [[fibrations]] play the role of 'nice surjections'.  For example, in the category [[Top]] of [[topological spaces]] with its usual [[model structure on topological spaces]], a locally trivial [[fiber bundle]] is a fibration. More generally the fibrations here are the [[Serre fibrations]].
+* The [[fibrations]] play the role of 'nice surjections'.  For example, in the category [[Top]] of [[topological spaces]] with its usual [[Quillen model structure on topological spaces]], a locally trivial [[fiber bundle]] is a fibration. More generally the fibrations here are the [[Serre fibrations]].
 
 * The [[cofibrations]] play the role of 'nice inclusions'.  For example, in the category [[Top]] of [[topological spaces]] with its usual [[model structure on topological spaces]], an [[NDR pair]] is typically a cofibration.  
 
@@ -173,8 +173,11 @@ Every category with limits and colimits carries the [[trivial model structure]] 
 
 The archetypical model structures are the
 
-* [[model structure on topological spaces|Quillen model structure on topological spaces]] and the
-* Quillen [[model structure on simplicial sets]].
+* [[Quillen model structure on topological spaces]] 
+
+and the
+
+*  [[Quillen model structure on simplicial sets]].
 
 These model categories are [[Quillen equivalence|Quillen equivalent]] and encapsulate much of "classical" homotopy theory.  From a higher-categorical viewpoint, they can be regarded as models for [[∞-groupoid]]s (in terms of [[CW complexes]] or [[Kan complex]]es, respectively).
 
@@ -215,7 +218,7 @@ Other "higher categorical structures" can also  be expected to form model catego
 
 which generalizes the Joyal model structure from [[(∞,1)-categories]] to [[(∞,1)-operads]].
 
-There is also another class of model structures on categorical structures, often called [[Thomason model structure]]s (not to be confused with the notion of "Thomason model category").  In the "categorical" or "canonical" model structures, the weak equivalences are the categorical [[equivalences]], but in the Thomason model structures, the weak equivalences are those that induce weak homotopy equivalences of [[nerves]].  Thomason model structures are known to exist on 1-categories and 2-categories, at least, and are generally Quillen equivalent to the Quillen model structures on topological spaces and simplicial sets (via the nerve construction).
+There is also another class of model structures on categorical structures, often called [[Thomason model structure]]s (not to be confused with the notion of "Thomason model category").  In the "categorical" or "canonical" model structures, the weak equivalences are the categorical [[equivalences]], but in the Thomason model structures, the weak equivalences are those that induce weak homotopy equivalences of [[nerves]].  Thomason model structures are known to exist on 1-categories and 2-categories, at least, and are generally [[Quillen equivalence|Quillen equivalent]] to the [[Quillen model structure on topological spaces]] and thus (via the [[singular simplicial complex]] and [[geometric realization]] [[adjunction]]) to the and [[Quillen model structure on simplicial sets]].
 
 ### Parametrized model structures
 
