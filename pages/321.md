@@ -164,7 +164,7 @@ Correspondences may be seen as generalizations of [[relations]]. A relation is a
 
 ## Examples
 
-* Spans in [[FinSet]] behave like the [[categorification]] of  [[matrices]] with entries in the [[natural number]]s: for $X_1 \leftarrow N \to X_2$ a span of finite sets, the [[cardinality]] of the [[fiber]] $X_{x_1, x_2}$ over any two elements $x_1 \in X_2$ and $x_2 \in X_2$ plays the role of the corresponding matrix entry. Under this identification composition of spaces indeed corresponds to matrix multiplication.
+* Spans in [[FinSet]] behave like the [[categorification]] of  [[matrices]] with entries in the [[natural number]]s: for $X_1 \leftarrow N \to X_2$ a span of finite sets, the [[cardinality]] of the [[fiber]] $X_{x_1, x_2}$ over any two elements $x_1 \in X_1$ and $x_2 \in X_2$ plays the role of the corresponding matrix entry. Under this identification composition of spaces indeed corresponds to matrix multiplication.
 
 * The [[Burnside category]] is essentially the category of correspondences in [[G-sets]] for $G$ a [[finite group]].
 
