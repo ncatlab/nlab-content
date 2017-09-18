@@ -33,7 +33,49 @@ $$
   \,.
 $$
 
-=--
+=-- 
+
+In other words, the join is the pushout in [[Top]] of the diagram 
+
+$$\array{
+ & & X \times Y & & & & X \times Y & & \\
+ & \mathllap{\pi_1} \swarrow & & \searrow \mathrlap{i_0} & & \mathllap{i_1} & & \searrow \mathrlap{\pi_2} & \\ 
+X & & & & X \times I \times Y & & & & Y
+}$$ 
+
+where $i_0$ is the inclusion $(x, y) \mapsto (x, 0, y)$, and $i_1$ is the inclusion $(x, y) \mapsto (x, 1, y)$. 
+
+Intuitively, $X \ast Y$ is the union of all line segments connecting $X$ to $Y$ when these are placed in general position in an ambient [[Euclidean space]]. 
+
+The join is [[monoidal category|associative]]; intuitively, a join of three spaces $X, Y, Z$ is the union of 2-[[simplices]] whose vertices lie in $X, Y, Z$ respectively when these are placed in general position. Thus the join endows $Top$ with a [[monoidal category]] structure whose unit is the empty space. 
+
+## Examples 
+
+Special cases include the [[cone]] of a space, and the calculation $S^m \ast S^n \cong S^{m+n+1}$ when these spheres are placed in general position. 
+
++-- {: .num_example} 
+###### Example 
+For $X = S^1, Y = S_1$, we may consider $X$ to consist of [[quaternions]] $a + b i$ and $Y$ to consist of quaternions $c j + d k$ such that $a^2 + b^2 = 1 = c^2 + d^2$. Then $X$ and $Y$ are in general position in $\mathbb{H} \cong \mathbb{R}^4$ with respect to each other, and the quotient map 
+
+$$X \times I \times Y \to S^3$$ 
+
+$$\,$$
+
+$$(a + b i, t, c + d i) \mapsto t^{1/2}(a + b i) + (1 - t)^{1/2}(c + d i)$$ 
+
+is an explicit realization of the unit sphere $S^3$ as $X \ast Y$. 
+=-- 
+
++-- {: .num_example} 
+###### Example 
+For a topological group $G$, the [[Milnor construction]] of the total space $E G$ of the [[classifying space|classifying bundle]] is an iterated join, i.e., the colimit of a diagram of inclusions 
+
+$$G \to G \ast G \to G \ast G \ast G \to \ldots$$ 
+
+where the identity element of $G$ is used to embed each $G^{\ast n}$ into its successor $G^{\ast (n+1)}$. The idea is that passing to higher joins kills off more and more lower-dimensional [[homotopy groups]], until one reaches the colimit which is then weakly contractible. 
+
+The same idea applies to a general space $X$; an $H$-space structure and higher homotopy associativities (collectively embodied in a structure of algebra over the [[associahedron|Stasheff operad]]) may be used to build a classifying bundle in iterative fashion, with the [[Hopf construction]] giving the first stage of the iteration. 
+=-- 
 
 ## Related concepts
 
