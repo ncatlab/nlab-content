@@ -5,7 +5,7 @@
 
 ## Idea 
 
-The hyperbolic functions (or sometimes *hyperbolic trigonometric functions*) are analogues of the usual [[trigonometric functions]], but adapted to the hyperbola $x^2 - y^2 = 1$ rather than the circle $x^2 + y^2 = 1$. 
+The hyperbolic functions (or sometimes *hyperbolic trigonometric functions*) are analogues of the usual [[trigonometric functions]], but adapted to the [[hyperbola]] $x^2 - y^2 = 1$ rather than the [[circle]] $x^2 + y^2 = 1$. 
 
 ## Definition 
 
