@@ -115,6 +115,8 @@ See
 
 * [[translation Lie algebra]], [[line Lie algebra]]
 
+* [[endomorphism Lie algebra]]
+
 * [[general linear Lie algebra]]
 
 * [[orthogonal Lie algebra]]
