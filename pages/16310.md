@@ -144,3 +144,6 @@ The analogy is mentioned for expositional purpose for instance in
 
 [[!redirects rubber-sheet geometry]]
 [[!redirects rubber-sheet analogy of gravity]]
+
+[[!redirects elastic]]
+
