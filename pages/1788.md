@@ -1,8 +1,5 @@
+
+
 $$
-  \begin{aligned}
-     Lan_{\otimes_{\mathcal{C}}} (X\overline{\wedge} Y)(c)
-     &
-     \simeq
-   \end{aligned}
-  \,.
+  {\coprod}_{{n_1+n_2} \atop {= n}}
 $$
