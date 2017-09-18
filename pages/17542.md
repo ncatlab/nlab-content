@@ -38,7 +38,7 @@ Given a generalized graph $G$, Definition 2.3 of [HRY](#HRY) gives some useful t
 1. An $\iota$-fixed point is a **leg** of $G$. The set of legs is denoted by $Leg(G)$. An **ordinary leg** (resp. **exceptional leg**) is an ordinary (resp. exceptional) flag that is also a leg. For an $\iota$-fixed point $x\in F_\epsilon$, the pair $\{x,\pi x\}$ is called an **exceptional edge**.
 1. A 2-cycle of $\iota$ consisting of ordinary flags is called an **ordinary edge**. A 2-cycle of $\iota$ contained in a vertex is a **loop**. A vertex that does not contain any loop is called **loop free**. A 2-cycle of $\iota$ contained in the exceptional cell is called an **exceptional loop**. 
 1. An **internal edge** is any 2-cycle of $\iota$. An **edge** is an internal edge, an exceptional edge, or an ordinary leg. The set of edges of $G$ (resp. internal edges) is denoted $Edge(G)$ (resp. Edge_i(G))$. 
-1. An ordinary edge $e=\{e_0,e_1\}$ is said to be **adjacent to** or **attached to* a vertex $v$ if either $e_0$, $e_1$ or both are adjacent to $v$.  
+1. An ordinary edge $e=\{e_0,e_1\}$ is said to be **adjacent to** or **attached to** a vertex $v$ if either $e_0$, $e_1$ or both are adjacent to $v$.  
 =--
 
 
