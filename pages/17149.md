@@ -42,13 +42,31 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 ## Part I
 
+### 2. Cobordism groups
+
 * [[cobordism ring]]
 
 * [[cobordism theory]]
 
+### 3. Homology
+
 * [[Novikov operations]]
 
+### 4. The Conner-Floyd Chern classes
+
+* [[Conner-Floyd Chern class]]
+
+### 5. The Novikov operations
+
+### 6. The algebra of all operations
+
+### 7. Scholium on Novikov's operations
+
+### 8. Complex manifolds
+
 * [[Umkehr map]]
+
+
 
 ## Part II -- Quillen's work on formal groups and complex cobordism
  {#PartII}
