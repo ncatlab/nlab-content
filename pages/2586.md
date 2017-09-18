@@ -287,7 +287,7 @@ Discussion of the [[cohomology]] of the [[classifying space]] $B Spin$ includes
 [[!redirects spin groups]]
 
 [[!redirects Spin group]]
-[[!redirects Spin group]]
+[[!redirects Spin groups]]
 
 
 [[!redirects Spin]]
