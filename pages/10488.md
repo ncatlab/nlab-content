@@ -2,4 +2,13 @@ I'm a doctoral student of Samson Abramsky's in Oxford. I'm interested in abstrac
 
 In time, a personal webpage will emerge [here](http://users.ox.ac.uk/~magd3996/index.html).
 
+###Related pages
+
+* [[dependent linear type theory]]
+
+###Publications
+
+* _In Search of Effectful Dependent Type_, PhD thesis,
+ [arXiv:1706.07997](https://arxiv.org/abs/1706.07997)
+
 category: people
