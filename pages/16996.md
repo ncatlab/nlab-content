@@ -1,0 +1,12 @@
+##Idea
+
+**Einselection**, short for **e**nvironment-**in**duced superselection, is a name coined by [[Wojciech Zurek]] for a process which explains the emergence of classical behavior in an open quantum system from its interaction with its environment.
+
+## Related concepts
+
+* [[quantum decoherence]]
+* [[consistent histories]]
+
+## References
+
+* [[Wojciech Zurek]] _Decoherence, einselection, and the quantum origins of the classical_, ([arXiv:quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127))
