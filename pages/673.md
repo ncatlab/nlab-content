@@ -23,7 +23,7 @@ You may also find me on
 
 ## Preprints
 
-* _The smooth loop stack of a differentiable stack_, [arXiv:1602.????](http://arxiv.org/abs/1602.????). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+* _The smooth loop stack of a differentiable stack_, [arXiv:1602.07973](http://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
 Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
