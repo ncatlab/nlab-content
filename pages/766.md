@@ -55,7 +55,7 @@ into the [[singular simplicial complex]] of $X$ exhibits $Sing(X)$ as the [[homo
 
 This is theorem A.1.1 in ([Lurie](#Lurie)).
 
-A related theorem is given by Dugger and Isaksen(#DuggerIsaksen) and earlier versions were given by [[G. Segal]], (amongst others).
+A related theorem is given by ([Dugger-Isaksen 2004](#DuggerIsaksen)) and earlier versions were given by [[G. Segal]], (amongst others).
 
 
 
