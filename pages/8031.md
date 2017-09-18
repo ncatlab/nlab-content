@@ -11,6 +11,13 @@
 
 * [[flop transition]]
 
+## References
+
+Discussion in the context of [[gauged supergravity]] includes
+
+* J. D. Edelstein, A. Paredes, A. V. Ramallo, _Singularity Resolution in Gauged Supergravity and Conifold Unification_, Phys.Lett. B554 (2003) 197-206 ([arXiv:hep-th/0212139](http://arxiv.org/abs/hep-th/0212139))
+
+
 [[!redirects conifold]]
 [[!redirects conifolds]]
 
