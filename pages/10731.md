@@ -23,6 +23,25 @@
 {:toc}
 
 
+## Idea
+
+The _Milnor-Quillen theorem on $MU$_ determines the structure of the [[graded ring]] $\pi_{\bullet}(MU)$ of [[stable homotopy groups]] of the universal complex [[Thom spectrum]] [[MU]].
+
+In ([Milnor 60](#Milnor60)) it was shown this is the [[polynomial ring]] $\mathbb{Z}[y_1, y_2, \cdots]$ on generators $y_{n+1}$ in degree $2(n+1)$ for all $n \in \mathbb{N}$. 
+
+Notice that by [[Thom's theorem]], this is also isomorphic to the [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bullet(M U)$ of [[smooth manifolds]] equipped with stable [[almost complex structure]].
+
+Moreover, by [[Lazard's theorem]], this graded ring is also abstractly [[isomorphism|isomorphic]] to the [[Lazard ring]] $L$.
+
+But the [[universal complex orientation on MU]] induces a preferred ring [[homomorphism]]
+
+$$
+  L \longrightarrow \pi_\bullet(M U) \simeq \Omega_\bullet^U \simeq \mathbb{Z}[y_1, y_2, \cdots]
+  \,.
+$$
+
+A priori it is not clear whether this particular canonical homomorphism exhibits the [[isomorphism]]. But it does, this is the result of ([Quillen 69](#Quillen69)).
+
 ## Statement
 
 Write $MU$ for the [[E-∞ ring]] [[spectrum]] of [[complex cobordism cohomology theory]]. Since this is a [[complex oriented cohomology theory]], by [[Lazard's theorem]] there is associated a commutative 1-dimensional [[formal group law]] classified by a [[ring]] homomorphism of the form
@@ -45,9 +64,17 @@ $$
 
 =--
 
-This is due to ([Quillen 69](#Quillen69)), based on ([Milnor 60](#Milnor60)), reproduced e.g. as ([Kochmann 96, theorem 4.4.13](#Kochmann96)).
+This is due to ([Quillen 69](#Quillen69)), based on ([Milnor 60](#Milnor60)), reproduced e.g. as ([Kochmann 96, theorem 3.7.7, theorem 4.4.13](#Kochmann96)).
 
-**Proof strategy:** (for Milnor's part) Compute the [[homology of MU]] and apply the [[Boardman homomorphism]] to get the statement over the [[rational numbers]]. Deduce that $\pi_\bullet(MU)$ is finitely generated so that it is now sufficient to prove it over the [[p-adic integers]] for all $p$. Using the [[change of rings theorem]], this finally follows from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$.
+**Proof strategy:** (for Milnor's part) 
+
+Apply the [[Boardman homomorphism]] to get the statement over the [[rational numbers]]. Deduce that $\pi_\bullet(MU)$ is finitely generated so that it is now sufficient to prove it over the [[p-adic integers]] for all $p$. 
+
+Now use the $H\mathbb{F}_p$-[[Adams spectral sequence]], which, on its second page, expresses these homotopy groups by the $H\mathbb{F}_p$-[[homology of MU]].
+
+The [[homology of MU]] may be computed by reducing, via the [[Thom isomorphism]], to computation of the homology of the [[classifying space]] $B U$, which in turn is given by [[Kronecker pairing]] from the [[Conner-Floyd Chern classes]]. 
+
+Using this and applying the [[change of rings theorem]], the [[Adams spectral sequence]] is seen to collapse right away, and so the result may now be obtained by explicitly computing the relevant comodule [[Ext]]-groups of the [[homology of MU]]
 
 +-- {: .num_remark}
 ###### Remark
