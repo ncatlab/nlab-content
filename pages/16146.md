@@ -69,7 +69,7 @@ and
 
 $$
   \array{   
-     I \otimes N &&\stackrel{i \otimes id_N}{\to}&& A \otimes N
+     I \otimes N &&\stackrel{e \otimes id_N}{\to}&& A \otimes N
      \\
      & \searrow && \swarrow_{\mathrlap{\rho}}
      \\
