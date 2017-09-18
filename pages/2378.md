@@ -63,7 +63,7 @@ Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. Let $A$ be a subset of $X
 +-- {: .num_defn #LocallyCompact}
 ###### Definition 
 
-A topological space $(X, \mathcal{O}_{X})$ is _[[locally compact topological space|locally compact]]_ if, for every $x \in X$ and every $U \in \mathcal{O}_{X}$ such that $x \in U$, there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $\overline{V} \in \mathcal{O}^{c}_{X}$, and such that $\overline{V} \subset U$.
+A topological space $(X, \mathcal{O}_{X})$ is _[[locally compact topological space|locally compact]]_ if, for every $x \in X$ and every $U \in \mathcal{O}_{X}$ such that $x \in U$, there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, and such that $V \in \mathcal{O}^{c}_{X}$.
 
 =--
 
@@ -114,13 +114,13 @@ To demonstrate this, we make the following observations.
 
 1) Since $f$ is continuous, we have that $f^{-1}(U) \in \mathcal{O}_{X}$. 
 
-2) Since $(X, \mathcal{O}_{X})$ is locally compact, we deduce from 1) that there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $\overline{V} \in \mathcal{O}^{c}_{X}$, and such that $V \subset f^{-1}(U)$. 
+2) Since $(X, \mathcal{O}_{X})$ is locally compact, we deduce from 1) that there is a $V \in \mathcal{O}_{X}$ such that $x \in V$, such that $V \in \mathcal{O}^{c}_{X}$, and such that $V \subset f^{-1}(U)$. 
 
-3) By 2) and by definition of $\mathcal{O}_{X \times Y^{X}}$ and $\mathcal{O}_{Y^{X}}$, we have that $V \times M_{\overline{V}, U} \in \mathcal{O}_{X \times Y^{X}}$, and that $(x,f) \in V \times M_{\overline{V}, U}$. 
+3) By 2) and by definition of $\mathcal{O}_{X \times Y^{X}}$ and $\mathcal{O}_{Y^{X}}$, we have that $V \times M_{V, U} \in \mathcal{O}_{X \times Y^{X}}$, and that $(x,f) \in V \times M_{V, U}$. 
 
-4)  Let $(x',f') \in V \times M_{\overline{V}, U}$, Since $x' \in V$, and since $f'(V) \subset f'(\overline{V}) \subset U$, the latter inclusion holding by definition of $M_{\overline{V}, U}$, we have that $f'(x) \in U$. We deduce that $ev(V \times M_{\overline{V}, U}) \subset U$.
+4)  Let $(x',f') \in V \times M_{V, U}$, Since $x' \in V$, and since $f'(V) \subset f'(V) \subset U$, the latter inclusion holding by definition of $M_{V, U}$, we have that $f'(x) \in U$. We deduce that $ev(V \times M_{ V, U}) \subset U$.
 
-By 3) and 4), we see that we can take $U'$ as the beginning of the proof to be $V \times M_{\overline{V}, U}$. 
+By 3) and 4), we see that we can take $U'$ as the beginning of the proof to be $V \times M_{V , U}$. 
 
 =--
 
