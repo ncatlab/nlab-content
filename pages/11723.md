@@ -23,7 +23,7 @@ Given a [[modal operator|(co-)modal operator]] $\Box$, then a [[type]] $X$ may b
 Since a type $Y$ is called a _$\Box$-[[modal type]]_ if $\Box Y \simeq Y$, being anti-modal is in a sense indeed the opposite extreme of being modal.
 
 
-In as far as [[modal operators]] have [[categorical semantics]] as [[idempotent monads|idempotent (co-)-mondads]]/[[idempotent (∞,1)-monads|idempotent (∞,1)-(co-)monads]] anti-modal types are familiar in [[homotopy theory]] as forming [[localizing subcategories]].
+In as far as [[modal operators]] have [[categorical semantics]] as [[idempotent monads|idempotent (co-)-monads]]/[[idempotent (∞,1)-monads|idempotent (∞,1)-(co-)monads]] anti-modal types are familiar in [[homotopy theory]] as forming [[localizing subcategories]].
 
 ## Examples
 
