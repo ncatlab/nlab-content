@@ -100,7 +100,7 @@ Expositions and summaries of this are in
 
 * [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Notes on instantons in topological field theory and beyond_ ([arXiv:hep-th/0702137](http://arxiv.org/abs/hep-th/0702137))
 
-* [[Jacques Distler]], _Localized_ (2006) ([blog](Localized))
+* [[Jacques Distler]], _Localized_ (2006) ([blog post](https://golem.ph.utexas.edu/~distler/blog/archives/001030.html))
 
 ### In string theory
 
