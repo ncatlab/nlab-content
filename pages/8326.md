@@ -1028,7 +1028,7 @@ The _smallest_ [[nLab:dense subtopos]] of a [[nLab:topos]] is that of [[nLab:loc
 ([Johnstone 02, corollary A4.5.20](#Johnstone02)). 
 
 
-Therefore we may add the demand that the resolution of $(\emptyset \dashv \ast)$ be by $loc_{\neq \neg}$ ([Lawvere 91, p. 8](#Lawvere91), [Shulman 15]()). This equivalently means to demand that the [[nLab:double negation]] subtopos is [[nLab:essential geometric morphism|essential]] .
+Therefore we may add the demand that the resolution of $(\emptyset \dashv \ast)$ be by $loc_{\neg \neg}$ ([Lawvere 91, p. 8](#Lawvere91), [Shulman 15]()). This equivalently means to demand that the [[nLab:double negation]] subtopos is [[nLab:essential geometric morphism|essential]] .
 
 Thus we have found the first step in the process by demanding resolution of the initial opposition. We will denote this by
 
@@ -2520,6 +2520,7 @@ $$
   CartSp \rtimes SuperPoint  
   \,.
 $$
+
 
 
 Here
