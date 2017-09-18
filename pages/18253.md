@@ -69,7 +69,7 @@ Observe that
 
 1. $\{V_j \subset X\}_{j \in J}$ is a cover of $X$
 
-   because $V_j \subpset C_j$ for each $j$ and since $\{C_j \subset X\}_{j \in J}$ is a cover.
+   because $V_j \subset C_j$ for each $j$ and since $\{C_j \subset X\}_{j \in J}$ is a cover.
 
 Hence $\{V_j \subset X\}_{j \in J}$ is an open cover of $X$. 
 
@@ -104,12 +104,13 @@ Then $X$ is [[paracompact topological space]].
 
 +-- {: .num_prop }
 ###### Proposition
+**([[Michael's theorem]])**
 
 Let $X$ be a [[topological space]] such that
 
 1. $X$ is [[regular topological space|regular]];
 
-1. every [[open cover]] of $X$ has a refinement by a union of a [[countable set]] of locally finite sets of subsets. 
+1. every [[open cover]] of $X$ has a refinement by a union of a [[countable set]] of [[locally finite sets of subsets]] (not necessarily open, and not necessarily covering). 
 
 Then $X$ is [[paracompact topological space]].
 
