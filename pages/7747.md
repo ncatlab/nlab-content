@@ -64,7 +64,7 @@ That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction o
 
 But in fact the following stronger statement is also true.
 
-+-- {: .num_prop}
++-- {: .num_prop #EveryOrientable3ManifoldsIsParallelizable}
 ###### Proposition
 
 Every [[orientation|orientable]] 3-[[dimension|dimensional]] [[manifold]] admits a framing.
@@ -77,6 +77,14 @@ Every [[orientation|orientable]] 3-[[dimension|dimensional]] [[manifold]] admits
 By the argument in the proof of 
 prop. \ref{SpinManifoldAdmitsFraming}, the only possible 
 obstruction is the [[second Stiefel-Whitney class]] $w_2$.  By the discussion at _[[Wu class]]_, this vanishes on an oriented manifold precisely if the second [[Wu class]] vanishes. This in turn is by definition defined to represent the [[Steenrod square]] under [[cup product]], and this vanishes on a 3-manifold by degree reasons.
+
+=--
+
+
++-- {: .num_remark #In4dFirstOrderGravity}
+###### Remark
+
+Prop. \ref{EveryOrientable3ManifoldsIsParallelizable} has some impact in the context of the [[first order formulation of gravity]], where one is interested in [[vielbein]] fields on 4-dimensional [[spacetime manifolds]], and in particular in [[globally hyperbolic spacetimes]], which, as [[topological spaces]], are the [[Cartesian product]] of the [[real line]] (time) with a [[3-manifold]] (space). Prop. \ref{EveryOrientable3ManifoldsIsParallelizable} implies that already when that spatial 3-manifold is orientable, then the whole globally hyperbolic spacetime admits a framing. (See also at _[[teleparallel gravity]]_.)
 
 =--
 
