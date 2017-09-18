@@ -17,11 +17,13 @@ Let $\mathcal{M}$ be the category whose [[objects]] are [[injections]] ([[monomo
 A ([[locally small category|locally small]]) __$\mathcal{M}$-category__ is simply a [[category enriched]] over $\mathcal{M}$. In other words, where the hom-objects are pairs of sets $(T, L)$ where $T \subseteq L$. 
 
 In more detail, an __$\mathcal{M}$-category__ consists of the following data:
+
 * a [[class]] of __[[objects]]__;
 * for each pair $x, y$ of objects, a [[set]] $L(x,y)$ of __loose [[morphisms]]__;
 * for each pair $x, y$ of objects, a [[subset]] $T(x,y)$ of $L(x,y)$ of __tight morphisms__;
 * for each object $x$, a tight __[[identity morphism]]__ $id_x$; and
 * for each triple $x, y, z$ of objects, a [[binary operation]] __[[composition]]__ $\circ_{x,y,z}$ from $L(y,z)$ and $L(x,y)$ to $L(x,z)$ such that:
+
   * $f \circ g$ is tight whenever $f, g$ are;
   * $\id_y \circ f = f = f \circ \id_x$ whenever this makes sense; and
   * $(f \circ g) \circ h = f \circ (g \circ h)$ whenever this makes sense.
@@ -84,7 +86,7 @@ $\mathcal{M}$-categories are mentioned as $Subset$-categories (thinking of $\mat
 
 We discussed them in the [[nlabmeta:n-Forum]] as part of a discussion of the category of [[Banach spaces]]:
 
-*  [[Mark Meckes]] et al (2011), Banach space, n-Forum, [web](https://nforum.ncatlab.org/discussion/3289/banach-space/).
+*  [[Mark Meckes]] et al (2011), Banach space, n-Forum, ([discussion link](https://nforum.ncatlab.org/discussion/3289/banach-space/)).
 
 
 [[!redirects M-category]]
