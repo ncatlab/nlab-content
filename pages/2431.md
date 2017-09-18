@@ -839,6 +839,9 @@ Textbook accounts include
 
 * {#AguilarGitlerPrito02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], chapter 2.5 _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]])
+
+
 Quick reviews include
 
 * {#Muro10} [[Fernando Muro]], _Representability of cohomology theories_, 2010 ([pdf](http://personal.us.es/fmuro/praha.pdf))
