@@ -232,6 +232,8 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 * [[adjoint modality]]
 
+* [[adjoint logic]]
+
 * [[modal type theory]]
 
 * [[algebraic model for modal logic]]
