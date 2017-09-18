@@ -5,6 +5,11 @@
 
 * [[gravity]]
 
+* [[quantum field theory on curved spacetime]]
+
 * [[Bekenstein-Hawking entropy]]
+
+* [[Hadamard distribution]]
+
 
 category: people
