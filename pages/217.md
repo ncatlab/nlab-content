@@ -51,6 +51,7 @@ For more details see
 
 
 ## Todd Trimble's exposition of ETCS
+ {#ExpositionByTrimble}
 
 [[Todd Trimble]] has a series of expositional writings on ETCS which provide a very careful introduction and at the same time a wealth of useful details.
 
