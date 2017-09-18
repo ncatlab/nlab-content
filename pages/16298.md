@@ -30,7 +30,7 @@ Among other things, this book,inspired by work of [[Gottlob Frege]], introduces 
 
 ## References
 
-* Wikipedia, _[Principia Mathematics](http://en.wikipedia.org/wiki/Principia_Mathematica)_ 
+* Wikipedia, _[Principia Mathematica](http://en.wikipedia.org/wiki/Principia_Mathematica)_ 
 
 category: reference
 
