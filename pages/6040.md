@@ -16,7 +16,7 @@ See also the [[fundamental theorem of differential geometry of curves]].
 
 ## In algebraic geometry
 
-In [[algebraic geometry]], an __algebraic curve__ is a $1$-dimensional [[algebraic variety]] over a field.
+In [[algebraic geometry]], an [[algebraic curve]] is a $1$-dimensional [[algebraic variety]] over a field.
 
 An example: [[elliptic curve]].
 
