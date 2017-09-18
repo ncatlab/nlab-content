@@ -28,3 +28,6 @@ A [[differential form]] on $P$ is a [[horizontal differential form]] with respec
 
 [[!redirects vertical vector]]
 [[!redirects vertical vectors]]
+
+[[!redirects vertical tangent bundle]]
+[[!redirects vertical tangent bundles]]
