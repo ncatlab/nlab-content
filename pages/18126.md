@@ -7,7 +7,6 @@
 
 
 
-
 ***
 
 This page is a detailed introduction to basic [[topology]].
@@ -126,6 +125,7 @@ $\,$
 
 In this first part we discuss the foundations of the concept of "sets equipped with topology"
 ([[topological spaces]]) and of [[continuous functions]] between them.
+
 
 
 ## Metric spaces
@@ -394,7 +394,7 @@ $$
 
 This is a continuous function, with $\mathbb{R}$ regarded as a [[metric space]] via its [[Euclidean norm]] (example \ref{EuclideanNorm}).
 
-In particular the original distance function $d(x,-) = d(\{x\,-})$ is continuous in both its arguments.
+In particular the original distance function $d(x,-) = d(\{x,-\})$ is continuous in both its arguments.
 
 =--
 
@@ -402,7 +402,7 @@ In particular the original distance function $d(x,-) = d(\{x\,-})$ is continuous
 ###### Proof
 
 Let $x \in X$ and let $\epsilon$ be a positive real number. We need to find a positive real number
-\delta$ such that for $y \in X$ with $d(x,y) \lt \delta$ then ${\vert d(S,x) - d(S,y) \vert} \lt \epsilon$.
+$\delta$ such that for $y \in X$ with $d(x,y) \lt \delta$ then ${\vert d(S,x) - d(S,y) \vert} \lt \epsilon$.
 
 For $s \in S$ and $y \in X$, consider the [[triangle inequalities]]
 
@@ -4622,19 +4622,20 @@ $\,$
 ### $T_n$ reflection
  {#HausdorffReflections}
 
-Not every [[universal construction]] of [[topological spaces]] applied to $T_n$-spaces (as
-[above](#TnTopologicalSpaces))
-results again in a $T_n$ topological space, notably [[quotient space]] constructions need not,
+While the [[topological subspace]] construction preserves the $T_n$-property  for $n \in \{0,1,2\$ 
+(exmaple \ref{TiSubspaces}) the construction of [[quotient topological spaces]] in general does not,
 as shown by examples \ref{RQuotientedByQ} and \ref{LineWithTwoOrigins}.
+
+Further [below](#UniversalConstructions) we will see that, generally, among all [[universal constructions]] 
+in the [[category]] [[Top]] of all  [[topological spaces]] those
+that are [[limits]] preserve the $T_n$ property, while those that are [[colimits]] in general do not.
 
 But at least for $T_0$, $T_1$ and $T_2$  there is a  universal way, called _[[reflective subcategory|reflection]]_ (prop. \ref{HausdorffReflection} below),
 to approximate any topological space "from the left" by a $T_n$ topological spaces
 
 Hence if one wishes to work within the [[full subcategory]] of the $T_n$-spaces
 among all [[topological space]], then the correct way to construct quotients and other _[[colimits]]_
-(see [below](#UniversalConstructions)) is to first construct them as usual [[quotient topological spaces]] (example \ref{QuotientTopologicalSpace}),
-and then apply the $T_n$-reflection to the result.
-
+(see [below](#UniversalConstructions)) is to first construct them as usual [[quotient topological spaces]] (example \ref{QuotientTopologicalSpace}), and then apply the $T_n$-reflection to the result.
 
 
 +-- {: .num_prop #HausdorffReflection}
@@ -4679,7 +4680,7 @@ $$
     T_n X
       \overset{\tilde f}{\longrightarrow}
     Y
-  \phantom{AAAA}i.e. \phantom{AA}
+  \phantom{AAAA}i.e.: \phantom{AAA}
   \array{
     X && \overset{f}{\longrightarrow} && Y
     \\
@@ -4723,7 +4724,9 @@ $$
   t_n(Y) \circ f
     =
   T_n(f) \circ t_n(X)
-  \phantom{AAAAA}
+  \phantom{AAAA}
+  i.e.:
+  \phantom{AAAA}
   \array{
       X &\overset{f}{\longrightarrow}& Y
       \\
@@ -4809,6 +4812,28 @@ $$
   \,.
 $$
 
+One calls the image under $\phi_{c,L(c)}$ of the [[identity morphism]] $id_{L(x)}$ the
+_[[unit of an adjunction|unit of the adjunction]]_, written
+
+$$
+  \eta_x \;\colon\; c \longrightarrow R(L(c))
+  \,.
+$$
+
+One may show that it follows that the image $\tilde under $\phi_{c,d}$ of a general morphism $f \colon c \to d$
+(called the _[[adjunct]]_ of $f$) is given by this [[composition|composite]]:
+
+$$
+  \tilde f
+    \;\colon\;
+  c \overset{\eta_c}{\longrightarrow} R(L(c)) \overset{R(f)}{\longrightarrow} R(d)
+  \,.
+$$
+
+In the case of the [[reflective subcategory]] inclusion $(T_n \dashv \iota)$ of the category of $T_n$-spaces into 
+the category [[Top]] of all topological spaces this adjunction unit is precisely the $T_n$-reflection
+$t_n(X) \colon X \to \iota( T_n(X))$ (only that we originally left the re-embedding $\iota$ notationally implicit). 
+
 =--
 
 $\,$
@@ -4838,13 +4863,13 @@ Then
 
 1. the set of [[equivalence classes]]
 
-  $$
-    T_n X \coloneqq X /{\sim}
-  $$
+   $$
+     T_n X \coloneqq X /{\sim}
+   $$
 
-  equipped with the [[quotient topology]] (example \ref{QuotientTopologicalSpace}) is a $T_n$-topological space, 
+   equipped with the [[quotient topology]] (example \ref{QuotientTopologicalSpace}) is a $T_n$-topological space, 
   
-1. the quotient projectioon
+1. the quotient projection
 
    $$
      \array{
@@ -4887,23 +4912,31 @@ equipped with its [[topological subspace|subspace topology]] as a subspace of $Y
 prop. \ref{TiSubspaces} also the image $f(X)$ is a $T_n$-topological space, since $Y$ is.
 This means that if two elements $x_1, x_2 \in X$ have the same equivalence class, then, by definition of the 
 equivalence relation, they have the same image under _all_ comntinuous surjective functions into a $T_n$-space,
-hence in particular they have the same image under $f \colon X \overset{\text{surjective}}{\longrightarrow} f(X) \hookrightarrow Y$
+hence in particular they have the same image under $f \colon X \overset{\text{surjective}}{\longrightarrow} f(X) \hookrightarrow Y$:
 
 $$
-  ( [x_1] = [x_2]) \,\Leftrightarrow\, (x_1 \sim x_2) \,\Rightarrow\, ( f(x_1) = f(x_2) )
-  \,.
+  \begin{aligned}
+    ( [x_1] = [x_2]) & \Leftrightarrow\, (x_1 \sim x_2) 
+    \\ 
+    & \Rightarrow\, ( f(x_1) = f(x_2) )
+    \,.
+  \end{aligned}
 $$
 
-This shows that $\tilde f$ is well defined.
+This shows that $\tilde f$ is well defined as a function between sets.
 
-To see that $\tilde f$ is also continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[quotient topological space|quotient topology]] (example \ref{QuotientTopologicalSpace}) , this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
+To see that $\tilde f$ is also continuous, consider $U \in Y$ an open subset. We need to show that 
+the pre-image $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[quotient topological space|quotient topology]] (example \ref{QuotientTopologicalSpace}), this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
 
 $$
-  (t_n(X))^{-1} \left( \tilde f^{-1}\left(U\right)  \right)
-  =
-  \left( \tilde f \circ t_n(X) \right)^{-1}(U)
-  =
-  f^{-1}(U)
+  \begin{aligned}
+    (t_n(X))^{-1} \left( \tilde f^{-1}\left(U\right)  \right)
+    & =
+    \left( \tilde f \circ t_n(X) \right)^{-1}(U)
+    \\
+    & =
+    f^{-1}(U)
+  \emd{aligned}
 $$
 
 is open in $X$. But this is the case by the assumption that $f$ is continuous. Hence $\tilde f$ is indeed the unique 
@@ -4927,8 +4960,8 @@ $$
 $$
 
 Accordingly, since $Y$ is $T_n$,
-there exist the respective kinds of neighbourhoods around these image points in $Y$. Moreover, by the previous statement there
-exists the continuous function $\tilde f \colon T_n X \to Y$ with $\tilde f([x]) = f(x)$ and $\tilde f([y]) = f(y)$.
+there exist the respective kinds of neighbourhoods around $f(x_1)$ and $f(x_2)$ in $Y$. Moreover, by the previous statement there
+exists the continuous function $\tilde f \colon T_n X \to Y$ with $\tilde f([x_1]) = f(x_1)$ and $\tilde f([x_2]) = f(x_2)$.
 By the nature of continuous functions,
 the pre-images of these open neighbourhoods in $Y$ are still open in $X$ and still
 satisfy the required disjunction properties. Therefore $T_n X$ is a $T_n$-space.
@@ -4948,11 +4981,51 @@ equivalence relation (def. \ref{QuotientTopologicalSpace}) exhibits the $T_0$-re
 
 =--
 
+A more explicit construction of the Hausdorff quotient than given by prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} 
+is rather more involved:
+
++-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
+###### Proposition
+**(more explicit [[Hausdorff reflection]])**
+
+For $(Y,\tau_Y)$ a [[topological space]], write $r_Y \subset Y \times Y$
+for the [[transitive relation|transitive closure]] of tthe [[relation]] given by the [[topological closure]] $Cl(\Delta_Y)$ of the [[image]] of the [[diagonal]] $\Delta_Y \colon Y \hookrightarrow Y \times Y$.
+
+$$
+  r_Y \coloneqq Trans(Cl(Delta_Y))
+  \,.
+$$
+
+Now for $(X,\tau_X)$ a [[topological space]], define by [[induction]] for each [[ordinal number]] $\alpha$ an [[equivalence relation]] $r^\alpha$ on $X$ as follows, where we write $q^\alpha \colon X \to H^\alpha(X)$ for the corresponding [[quotient topological space]] projection:
+
+We start the induction with the trivial equivalence relation:
+
+* $r^0_X \coloneqq \Delta_X$;
+
+For a [[successor ordinal]] we set
+
+* $r_X^{\alpha+1} \coloneqq \left\{ (a,b) \in X \times X  \,\vert\, (q^\alpha(a), q^\alpha(b)) \in r_{H^\alpha(X)} \right\}$
+
+and for a [[limit ordinal]] $\alpha$ we set
+
+* $r_X^\alpha \coloneqq \underset{\beta \lt \alpha}{\cup} r_X^\beta$.
+
+Then:
+
+1. there exists an ordinal $\alpha$ such that $r_X^\alpha = r_X^{\alpha+1}$
+
+1. for this $\alpha$ then $H^\alpha(X) = H(X)$ is the Hausdorff reflection from prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}.
+
+
+=--
+
+A detailed **proof** is spelled out in ([vanMunster 14, section 4](#vanMunster14)).
 
 
 
 +-- {: .num_example}
 ###### Example
+**([[Hausdorff reflection]] of the [[line with two origins]])**
 
 The [[Hausdorff reflection]] ($T_2$-reflection, prop. \ref{HausdorffReflection})
 
@@ -4977,13 +5050,19 @@ $$
 
 
 
-
+$\,$
 
 ## Sober spaces
  {#SoberSpaces}
 
-The alternative characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
-immediately suggests the following strengthening, different from the $T_1$-condition:
+While the original formulation of the [[separation axioms]] $T_n$ from def. \ref{HausdorffTopologicalSpace} and def. \ref{NormalSpace}
+clearly does follow some kind of pattern, its equivalent reformulation in terms of closure conditions in
+prop. \ref{T0InTermsOfClosureOfPoints}, prop. \ref{T1InTermsOfTopologicalClosure}, prop \ref{T2InTermsOfClosedDiagonal},
+prop. \ref{T3InTermsOfTopologicalClosures} and prop. \ref{T4InTermsOfTopologicalClosures} suggests rather different patterns. 
+Therefore it is worthwhile to also consider separation-like axioms that are not among the original list.
+
+In partticular, the alternative characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
+immediately suggests the following strengthening, different from the $T_1$-condition (see example \ref{T1AndSoberIncomparable} below):
 
 +-- {: .num_defn #Sober}
 ###### Definition
@@ -5074,8 +5153,9 @@ The [[intersection]] of the [[classes]] of [[sober topological spaces]] (def. \r
 That the intersection is not empty follows from prop. \ref{SoberFromHausdorff}.
 That neither class is contained in the other is shown by the following counter-examples:
 
-+-- {: .num_exampl}
++-- {: .num_example #T1AndSoberIncomparable}
 ###### Example
+**($T_1$ neither implies nor is implied by soberity)**
 
 * The [[Sierpinski space]] (def. \ref{SierpinskiSpace}) is sober, but not $T_1$.
 
@@ -7952,9 +8032,12 @@ $\,$
 
 ## References
 
+
+### General
+
 A canonical compendium is
 
-* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Springer (1971, 1990)
 
 Introductory textbooks include
 
@@ -7970,7 +8053,16 @@ Lecture notes include
 
 See also the references at _[[algebraic topology]]_.
 
+
+### Special topics
+
+The standard literature typically omits the following important topics:
+
 Discussion of [[sober topological spaces]] is in
 
 * {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+
+Detailed discussion of the [[Hausdorff reflection]] is in
+
+* {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
 
