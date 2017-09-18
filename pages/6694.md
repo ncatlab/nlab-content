@@ -53,6 +53,8 @@ For the second, let $G \subseteq H$ be compact.  As it is a compact subset of a 
 
 * [[a CW-complex is a Hausdorff space]]
 
+* [[Hausdorff implies sober]]
+
 
 [[!redirects map from compact space to Hausdorff space]]
 [[!redirects map from a compact space to a Hausdorff space]]
