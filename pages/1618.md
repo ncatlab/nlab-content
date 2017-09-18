@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -81,13 +80,13 @@ This appears for instance as ([MacLaneMoerdijk, theorem VII 2](#MacLaneMoerdijk)
 
 ### In localic sheaf toposes
 
-For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ the notion of topos points comes from the ordinary notion of points of $X$.
+For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[sober topological space|sober]] [[topological space]] $X$ the notion of topos points comes from the ordinary notion of points of $X$.
 
 For notice that
 
 * $Set = Sh(*)$ is simply the [[topos]] of [[sheaf|sheaves]] on a one-[[point]] [[topological space|space]].  
 
-* [[geometric morphisms]] $f : Sh(Y) \to Sh(X)$ between [[category of sheaves|sheaf topoi]] are in a bijection with continuous functions of topological spaces $f : Y \to X$ (denoted by the same letter, by convenient abuse of notation).
+* [[geometric morphisms]] $f : Sh(Y) \to Sh(X)$ between [[category of sheaves|sheaf topoi]] are in a bijection with continuous functions of topological spaces $f : Y \to X$ (denoted by the same letter, by convenient abuse of notation); for this to hold $X$ needs to be sober.
 
 It follows that for $E = Sh(X)$ points of $E$ in the sense of points of topoi are in bijection with the ordinary points of $X$.
 
@@ -157,7 +156,7 @@ This appears for instance as ([MacLaneMoerdijk, corollary VII, 4](#MacLaneMoerdi
 +-- {: .num_prop}
 ###### Proposition
 
-If $E$ is a [[Grothendieck topos]], there is a  *[[small set]]* of points of $E$ which are jointly conservative, and therefore a [[geometric morphism]] $Set/X \to E$, for some set $X$, which is [[surjective geometric morphism|surjective]].  
+If $E$ is a [[Grothendieck topos]] with enough points, there is a  *[[small set]]* of points of $E$ which are jointly conservative, and therefore a [[geometric morphism]] $Set/X \to E$, for some set $X$, which is [[surjective geometric morphism|surjective]].  
 
 =--
 
@@ -184,7 +183,7 @@ From the above it follows that if $E$ is the [[classifying topos]] of a [[geomet
 
 If a [[sheaf topos]] $E$ has _enough points_ then
 
-* there exists a [[topological space]] $X$ whose [[cohomology]] and [[homotopy theory]] is the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homtopy theory]] of the topos;
+* there exists a [[topological space]] $X$ whose [[cohomology]] and [[homotopy theory]] is the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homotopy theory]] of the topos;
 
 * such that $E$ is the category of [[equivariant cohomology|equivariant]] objects in the [[sheaf topos]] $Sh(X)$ with respect to some groupoid action on $X$.
 
@@ -240,7 +239,7 @@ as well as section C2.2 of
 
 In 
 
-* Carsten Butz, _Logical and cohomological aspects of the space of points of a topos_ ([ps](http://www.itu.dk/~butz/research/thesis0.ps.gz))
+* Carsten Butz, _Logical and cohomological aspects of the space of points of a topos_ ([web](http://www.academia.edu/9139781/Logical_and_Cohomological_Aspects_of_the_Space_of_Points_of_a_Topos))
  {#Butz}
 
 is a discussion of how for every topos with enough points there is a [[topological space]] whose [[cohomology]] and [[homotopy theory]] is related to the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homtopy theory]]of the topos.
