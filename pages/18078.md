@@ -1,25 +1,130 @@
 
 [[UrysohnConstruction.png:file]]
 
-<img src="https://ncatlab.org/nlab/files/UrysohnConstruction.png" width="400">
+
++-- {: .proof}
+###### Proof
 
 Let $(X,\tau)$ be a [[normal topological space]] and let $A, B \subset X$ be two [[closed subsets]] which are disjoint
+
+
+Set
+
+$$
+  C_0 \coloneqq A
+  \phantom{AAA}
+  U_1 \coloneqq X \backslash B
+  \,.
+$$
+
+Since by assumption
 
 $$
   A \cap B = \emptyset
   \,.
 $$
 
-Set
+we have 
 
 $$
-  C_1 \coloneqq A
-  \phantom{AAA}
-  U_0 \coloneqq X \backslash B
+  C_0 \subset U_1
   \,.
 $$
 
-Then by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)
+Recall that (by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)) if a space is normal then every open neighbourhood $U \supset C$ of closed subset $C$ contains a smaller neighbourhood $V$ together with its closure $Cl(V)$
+
+$$
+  U \subset V \subset Cl(V) \subset C
+  \,.
+$$
+
+Apply this fact successively to the above situation to obtain the following infinite sequence of nested open/closed subsets 
+
+$$
+  \array{
+    C_0 &&  &&  &&  &\subset&  &&  &&  && U_1
+    \\
+    C_0 &&  &\subset&  && U_{1/2} &\subset& C_{1/2} &&  &\subset&  && U_1
+    \\
+    C_0 &\subset& U_{1/4} &\subset& C_{1/4} &\subset& U_{1/2} &\subset& C_{1/2} &\subset& U_{3/4} &\subset& C_{3/4} &\subset& U_1
+  }
+$$
+
+and so on.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/UrysohnConstruction.png" width="400">
+</div>
+
+
+This produces a set of open subsets labeled by the [[dyadic rational numbers]]
+
+$$
+ \{ U_{r} \subset X \}_{r \in \mathbb{Q}_{dy}}
+$$
+
+with the property that 
+
+$$
+  \underset{r \in \mathbb{Q}_{dy}}{\forall}
+  \left(
+     A \subset U_r \subset X\backslash B
+  \right)
+$$
+
+and
+
+$$
+  \left(
+     r_1 \lt r_2
+  \right)
+   \Rightarrow
+  \left(
+     \left(U_{r_1} \subset U_{r_2}\right)
+     \,\text{and}\,
+     \left(
+      U_1 \neq U_2
+     \right)
+  \right)
+  \,.
+$$
+
+Define then the function
+
+$$
+  f \;\colon\; X \longrightarrow [0,1]
+$$
+
+to assign to a point $x \in X$ the [[infimum]] of the labels of those open subsets in this sequence that contain $x$:
+
+$$
+  f(x) 
+     \coloneqq
+  inf\left\{ r \,\vert\,  x\in U_r \right\}
+$$
+
+
+This function clearly has the property that $f(A) = \{0\}$  and $f(B) = \{1\}$. It only remains to see that it is continuous.
+
+Observe that for $\alpha \in [0,1]$ then
+
+$$
+  f^{-1}((\alpha, 1])
+    =
+  \underset{r \gt \alpha}{\cup} U_r
+$$
+
+and
+
+$$
+  f^{-1}([0,\alpha))
+    =
+  \underset{r \lt \alpha}{\cup} U_r
+$$
+
+These are open subsets. Now every [[topological basis|basic]] open subset of $[0,1]$ is a finite intersection of those of the form $[0,\alpha)$ and $(\alpha, 1]$, and hence all pre-images undr $f$ of these are open. Therefore $f$ is continuous.
+
+
 
 
 
