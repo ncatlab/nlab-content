@@ -17,7 +17,7 @@ For $X$ and $Y$ be [[simply connected space|simply connected]] [[topological spa
 
 1. it induces an isomorphism on rational [[cohomology]] groups: $H^*(f,\mathbb{Q}) : H^*(X,\mathbb{Q}) \stackrel{\simeq}{\to} H^*(X,\mathbb{Q})$;
 
-1. it induces a [[weak homotopy equivalence]] on the  [[rationalization]]s $X_{ra}$ and $Y_{ra}$ : $f_{ra} : X_{ra} \stackrel{\simeq_{whe}{\to} Y_{ra}$.
+1. it induces a [[weak homotopy equivalence]] on the  [[rationalization]]s $X_{ra}$ and $Y_{ra}$ : $f_{ra} : X_{ra} \stackrel{\simeq_{whe}}{\to} Y_{ra}$.
 
 ## References
 
