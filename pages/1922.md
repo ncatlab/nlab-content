@@ -56,10 +56,10 @@ Suppose every neighbourhood of $a$ meets every neighbourhood of $b$; by $T_0$ (a
 Since every Hausdorff space is $T_0$, a less ambiguous term for a $T_3$ space is a __regular Hausdorff space__.
 
 
-It is possible to describe the regularity condition fairly simply entirely in terms of the algebra of open sets.  First notice the relevance above of the condition that $Cl(V) \subset U$; we write $V \subset\subset U$ in that case and say that $V$ is __well inside__ $U$.  We now rewrite this condition in terms of open sets and regularity in terms of this condition.
+It is possible to describe the regularity condition fairly simply entirely in terms of the algebra of open sets.  First notice the relevance above of the condition that $Cl(V) \subset U$; we write $V \subset\!\!\!\!\subset U$ in that case and say that $V$ is __well inside__ $U$.  We now rewrite this condition in terms of open sets and regularity in terms of this condition.
 +-- {: .num_defn #locale}
 ###### Definition
-Given sets $U, V$, $V \subset\subset U$ iff there exists an open set $G$ such that $V \cap G = \empty$ but $U \cup G = X$.  Then $X$ is regular iff, given any open set $U$, $U$ is the union of all of the open sets that are well inside $U$.
+Given sets $U, V$, then $V \subset\!\!\!\!\subset U$ iff there exists an open set $G$ such that $V \cap G = \empty$ but $U \cup G = X$.  Then $X$ is regular iff, given any open set $U$, $U$ is the union of all of the open sets that are well inside $U$.
 =--
 This definition is suitable for [[locales]].  As the definition of a Hausdroff locale is rather more complicated, one often speaks of compact regular locales where classically one would have spoken of [[compact Hausdorff space]]s.  (The theorem that compact regular $T_0$ spaces and compact Hausdorff spaces are the same works also for locales, and every locale is $T_0$, so compact regular locales and compact Hausdorff locales are the same.)
 
