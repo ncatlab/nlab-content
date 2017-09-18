@@ -3909,9 +3909,9 @@ If a subset $CO \subset X$ is both closed and open, this means equivalently that
 ###### Definition
 **([[connected components]] and [[locally connected topological spaces]])**
 
-For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_ 
-are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which 
-regards to points as equivalent if they both sit in some [[open subset]] 
+For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
+are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
+regards to points as equivalent if they both sit in some [[open subset]]
 which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
 
 $$
@@ -8426,7 +8426,7 @@ and example \ref{NonCompactEuclideanSpace}.
 
 +-- {: .num_example #UnionsAndIntersectionOfCompactSubspaces}
 ###### Example
-**(unions and intersection of compact spaces)**
+**([[unions]] and [[intersection9] of [[compact spaces]])**
 
 Let $(X,\tau)$ be a [[topological space]] and let
 
@@ -10456,7 +10456,7 @@ are themselves paracompact Hausdorff. In fact this is true generally: all CW-com
 
 =--
 
-Another source of paracompact spaces are [[topological groups]] (def. \ref{TopologicalGroup}), 
+Another source of paracompact spaces are [[topological groups]] (def. \ref{TopologicalGroup}),
 by prop. \ref{ParacompactLocallyCompactTopologicalGroups} below:
 
 +-- {: .num_defn #TopologicalGroup}
@@ -10474,7 +10474,7 @@ are [[continuous functions]].
 **([[Euclidean space]] as a [[topological groups]])**
 
 For $n \in \mathbb{N}$ then the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]
-and 
+and
 equipped with the addition operation from its canonical [[vector space]] structure
 is a [[topological group]] (def. \ref{TopologicalGroup}), dented $(\mathbb{R}^n, +)$.
 
@@ -10498,20 +10498,20 @@ For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the
 
    with group operation given by [[matrix multiplication]]. The [[topological space|topology]] on $GL_(n,\mathbb{R})$ is the
    [[subspace topology]] (def. \ref{SubspaceTopology}) as a subspace of the [[Euclidean space]] (example \ref{EuclideanNorm}) of [[matrices]]
-   
+
    $$
      Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
    $$
 
-   with its [[metric topology]] (example \ref{MetricTopology}). 
-   
-   Since [[matrix multiplication]] is a 
+   with its [[metric topology]] (example \ref{MetricTopology}).
+
+   Since [[matrix multiplication]] is a
    [[polynomial function]] and since [[inverse matrix|matrix inversion]] is a [[rational function]],
-   and since [[polynomials are continuous]] and more generally [[rational functions are continuous]] on their [[domain]] of definition 
-   (example \ref{PolynoialsAreContinuous}) and since the domain of definition for matrix inversion is precisely 
-   $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$, the group operations on $GL(n,\mathbb{R})$ are indeed 
+   and since [[polynomials are continuous]] and more generally [[rational functions are continuous]] on their [[domain]] of definition
+   (example \ref{PolynoialsAreContinuous}) and since the domain of definition for matrix inversion is precisely
+   $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$, the group operations on $GL(n,\mathbb{R})$ are indeed
    [[continuous functions]].
-   
+
 =--
 
 +-- {: .num_prop #ParacompactLocallyCompactTopologicalGroups}
@@ -10553,10 +10553,10 @@ As an open subspace of Euclidean space, $GL(n,\mathbb{R})$ is not compact, by th
 
 As Euclidean space is Hausdorff (example \ref{HausdorffMetricSpace}), and since every [[topological subspace]] of a Hausdorff space is again Hausdorff, so $Gl(n,\mathbb{R})$ is Hausdorff.
 
-Similarly, as Euclidean space is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}) and since 
+Similarly, as Euclidean space is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}) and since
 an open subspace of a locally compact space is again locally compact, it follows that $GL(n,\mathbb{R})$ is locally compact.
 
-From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact 
+From this it follows that $GL(n,\mathbb{R})$ is paracompact, since locally compact topological groups are paracompact
 by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
 
 
@@ -10580,7 +10580,7 @@ as witnessed by prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} and pro
 **([[second-countable topological space]])**
 
 A [[topological space]] is called _[[second-countable topological space|second countable]]_
-if it admits a [[base for a topology|base for its topology]] $\beta_X$ which is a [[countable set]] of open subsets.
+if it admits a [[base for a topology|base for its topology]] $\beta_X$ (def. \ref{TopologyBase}) which is a [[countable set]] of open subsets.
 
 =--
 
@@ -10588,11 +10588,12 @@ if it admits a [[base for a topology|base for its topology]] $\beta_X$ which is 
 ###### Example
 **([[Euclidean space]] is second-countable)**
 
-Let $n \in \mathbb{N}$. Consider the [[Euclidean space]] $\mathbb{R}^n$ with its [[Euclidean norm|Euclidean]] [[metric topology]]. Then $\mathbb{R}^n$ is second countable.
+Let $n \in \mathbb{N}$. Consider the [[Euclidean space]] $\mathbb{R}^n$ with its [[Euclidean norm|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}). Then $\mathbb{R}^n$
+is [[second-countable topological space|second countable]] (def. \ref{CountableSecond}).
 
 A [[countable set]] of [[topological base|base open subsets]] is given by the [[open balls]] $B^\circ_x(\epsilon)$ of [[rational number|rational]] [[radius]] $\epsilon \in \mathbb{Q}_{\geq 0} \subset \mathbb{R}_{\geq 0}$ and centered at points with [[rational number|rational]] [[coordinates]]: $x \in \mathbb{Q}^n \subset \mathbb{R}^n$.
 
-Here we are using that 
+Here we are using that
 
 1. The set of [[rational numbers]] is [[countable set|countable]];
 
@@ -10606,7 +10607,7 @@ Here we are using that
 **([[sigma-compact topological space]])**
 
 A [[topological space]] is called _[[sigma-compact topological space|sigma-compact]]_ if it is the
-[[union]] of a [[countable set]] of [[compact subsets]].
+[[union]] of a [[countable set]] of [[compact subsets]] (def. \ref{CompactTopologicalSpace}).
 
 =--
 
@@ -10634,23 +10635,25 @@ are [[compact topological space|compact]] [[subspaces]]. Clearly they exhaust $\
 
 =--
 
-We obtain a class of examples of paracompact spaces in prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}
+Using the concept of second-countable and of sigma-compact topological spaces,
+we obtain a class of examples of paracompact spaces in prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}
 below, which will be useful for
 identifying [[manifolds]] below in prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}.
 First we need the following lemma.
 
 +-- {: .num_lemma #LocallyCompactAndSigmaCompactImpliesGoodNestedCover}
 ###### Lemma
+**([[locally compact topological space|locally compact]] and [[sigma-compact topological space|sigma-compact]] space admits nested countable cover by coompact subspaces)**
 
 Let $X$ be a [[topological space]] which is
 
-1. [[locally compact topological space|locally compact]];
+1. [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace});
 
-1. [[sigma-compact topological space|sigma-compact]].
+1. [[sigma-compact topological space|sigma-compact]] (def. \ref{CompactSigma}).
 
 Then there exists a [[countable open cover]] $\{U_i \subset X\}_{i \in \mathbb{N}}$ of $X$ such that for each $i \in I$
 
-1. the [[topological closure]] $Cl(U_i)$ is a [[compact topological space|compact]] [[subspace]]
+1. the [[topological closure]] $Cl(U_i)$ (def. \ref{ClosedSubset}) is a [[compact topological space|compact]] [[subspace]] (def. \ref{CompactTopologicalSpace}, example \ref{SubspaceTopology});
 
 1. $Cl(U_i) \subset U_{i +1}$.
 
@@ -10670,13 +10673,13 @@ $$
 
 Then assume that for $n \in \mathbb{N}$ we have constructed a set $\{U_i \subset X\}_{i \in \{1, \cdots, n\}}$ with the required properties.
 
-In particular this implies that
+In particular this implies that the union
 
 $$
   Q_n \coloneqq Cl(U_n) \cup K_{n-1} \;\subset X
 $$
 
-is a compact subspace. We now construct an open neighbourhood $U_{n+1}$ of this union as follows:
+is a compact subspace (by example \ref{UnionsAndIntersectionOfCompactSubspaces}). We now construct an open neighbourhood $U_{n+1}$ of this union as follows:
 
 Let $\{U_x \subset X\}_{x \in Q_n}$ be a set of open neighbourhood around each of the points in $Q_n$. By [[locally compact topological space|local compactness]] of $X$, for each $x$ there is a smaller open neighbourhood $V_x$ with
 
@@ -10685,17 +10688,18 @@ $$
   \,.
 $$
 
-So $\{V_x \subset X\}_{x \in Q_n}$ is still an open cover of $Q_n$. By compactness of $Q_n$,  there exists a [[finite set]] $J \subset Q_n$ such that $\{V_x \subset X\}_{x \in J}$ is a [[finite open cover]]. The union
+So $\{V_x \subset X\}_{x \in Q_n}$ is still an open cover of $Q_n$. By compactness of $Q_n$,  there exists a [[finite set]] $J_n \subset Q_n$ such that $\{V_x \subset X\}_{x \in J_n}$ is a [[finite open cover]]. The union
 
 $$
-  U_{i + 1} \coloneqq \underset{x \in J}{\cup} V_x
+  U_{n + 1} \coloneqq \underset{x \in J_n}{\cup} V_x
 $$
 
-is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_i)$. Moreover, since finite unions of compact spaces are compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)), the closure of $U_{i+1}$ is compact:
+is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_n)$. Moreover, since finite unions of compact
+spaces are compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}), the closure of $U_{n+1}$ is compact:
 
 $$
   \begin{aligned}
-    Cl(U_{i+1})
+    Cl(U_{n+1})
     &=
     Cl\left(  \underset{x\in J}{\cup} V_x \right)
     \\
@@ -10705,7 +10709,7 @@ $$
   \,.
 $$
 
-This produces by [[induction]] a set $\{U_i \subset X\}_{i \in \mathbb{N}}$ with $Cl(U_i)$ compact and $Cl(U_i) \subset U_{i+1}$ for all $i \in \mathbb{N}$. It remains to see that this is a cover. This follows since by construction each $U_{i+1}$ is an open neighbourhood not just of $Cl(U_{i})$ but in fact of $Q_i$, hence in particular of $K_i$, and since the $K_i$ form a cover:
+This produces by [[induction]] a set $\{U_n \subset X\}_{i \in \mathbb{N}}$ with $Cl(U_i)$ compact and $Cl(U_i) \subset U_{i+1}$ for all $i \in \mathbb{N}$. It remains to see that this is a cover. This follows since by construction each $U_{n+1}$ is an open neighbourhood not just of $Cl(U_{n})$ but in fact of $Q_n$, hence in particular of $K_n$, and since the $K_n$ form a cover by assumption:
 
 $$
   \underset{i \in \mathbb{N}}{\cup} U_i
@@ -10742,7 +10746,7 @@ By lemma \ref{LocallyCompactAndSigmaCompactImpliesGoodNestedCover} there exists 
 
 1. $Cl(V_n)$ is compact;
 
-1. $V_n \subset V_{n+1}$.
+1. $Cl(V_n) \subset V_{n+1}$.
 
 Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open,
 by example \ref{IntersectionCompactWithOpen}.
@@ -10754,11 +10758,11 @@ We consider the sets of intersections
 $$
   \mathcal{U}_n
     \coloneqq
-  \{ U_i \cap ( V_{n+2} \setminus Cl(V_{n-1}) )  \}
+  \{ U_i \cap ( V_{n+2} \setminus Cl(V_{n-1}) )  \}_{i \in I}_{i \in J_n}
   \,.
 $$
 
-Since $V_{n+2} \setminus Cl(V_{n-1})$ is open, and since $Cl(V_{n+1}) \subset V_{n+2}$ by construction, this is still an open cover of $Cl(V_{n+1})\setminus V_n$. We claim now that
+Since $V_{n+2} \setminus Cl(V_{n-1})$ is open, and since $Cl(V_{n+1}) \subset V_{n+2}$ by construction, this $\mathcal{U}_n$ is still an open cover of $Cl(V_{n+1})\setminus V_n$. We claim now that
 
 $$
   \mathcal{U} \coloneqq \underset{n\in \mathbb{N}}{\cup} \mathcal{U}_n
@@ -10778,7 +10782,7 @@ is a locally finite refinement of the original cover, as required:
 ###### Example
 **([[Euclidean space]] is [[paracompact topological space|paracompact]])**
 
-For $n \in \mathbb{N}$, then the [[Euclidean space]] $\mmathbb{R}^n$ (example \ref{EuclideanNorm}),
+For $n \in \mathbb{N}$, the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}),
 regarded with its [[metric topology]] (example \ref{MetricTopology})
 is a [[paracompact topological space]] (def. \ref{ParacompactSpace}).
 
@@ -10787,7 +10791,7 @@ is a [[paracompact topological space]] (def. \ref{ParacompactSpace}).
 +-- {: .proof}
 ###### Proof
 
-Euclidean space is [[locally compact topological space|locally compact]] by example \ref{MetricSpacesAreLocallyCompact}
+The Euclidean space is [[locally compact topological space|locally compact]] by example \ref{MetricSpacesAreLocallyCompact}
 and [[sigma-compact topological space|sigma-compact]] by example \ref{SigmaCompactEuclideanSpace}.
 Therefore the statement follows since [[locally compact and sigma-compact spaces are paracompact]]
 (prop.  \ref{ParacompactFromLocallyCompactAndSigmacompact}).
@@ -10805,11 +10809,57 @@ We discuss some important general properties of [[paracompact topological spaces
 
 $\,$
 
++-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
+###### Lemma
+**(every locally finite refinement induces one with the original index set)**
+
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I, \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+
+Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with
+
+$$
+  W_i
+    \;\coloneqq\;
+  \left\{
+    \underset{j \in \phi^{-1}(\{i\})}{\cup} V_j
+  \right\}
+$$
+
+is still a [[refinement]] of $\{U_i \subset X\}_{i \in I}$ to a [[locally finite cover]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+It is clear by construction that $W_i \subset U_i$, hence that we have a [[refinement]]. We need to show local finiteness.
+
+Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finite]] [[subset]] $K \subset J$ such that
+
+$$
+  \underset{j \in J\setminus K}{\forall} \left( U_x \cap V_j = \emptyset \right)
+  \,.
+$$
+
+Hence by construction
+
+$$
+  \underset{i \in I\setminus \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
+  \,.
+$$
+
+Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows that $\{W_i \subset X\}_{i \in I}$ is locally finite.
+
+=--
+
+
 +-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
 ###### Proposition
 **([[paracompact Hausdorff spaces are normal]])**
 
-Every [[paracompact Hausdorff space]] is [[normal Hausdorff space|normal]].
+Every [[paracompact Hausdorff space]]
+(def. \ref{ParacompactSpace}, def. \ref{HausdorffTopologicalSpace}) is [[normal Hausdorff space|normal]] (def. \ref{NormalSpace}).
 
 In particular [[compact Hausdorff spaces are normal]].
 
@@ -10823,13 +10873,15 @@ Let $(X,\tau)$ be a paracompact Hausdorff space
 We first show that it is [[regular topological space|regular]]: To that end,
 let $x \in X$ be a point, and let $C \subset X$ be a [[closed subset]] not containing $x$. We need to find disjoint open neighbourhoods $U_x \supset \{x\}$ and $U_C \supset C$.
 
-First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset C$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
+First of all, by the Hausdorff property there exists for each $c \in C$ disjoint open neighbourhods $U_{x,c} \supset \{x\}$ and $U_c \supset \{c\}$. As $c$ ranges, the latter clearly form an open cover $\{U_c \subset X\}_{c \in C}$ of $C$, and so the union
 
 $$
   \{U_c \subset X\}_{c \in C} \,\cup\, X \setminus C
 $$
 
-is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet) we may assume its elements to share the original index set and be contained in the original elements of the same index. Hence
+is an open cover of $X$. By paracompactness of $(X,\tau)$, there exists a locally finite refinement, and by
+lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet} we may assume its elements to share the original index
+set and be contained in the original elements of the same index. Hence
 
 $$
   \{V_c \subset U_c \subset  X\}_{c \in C}
@@ -10892,7 +10944,7 @@ $$
   X \setminus C
 $$
 
-is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet), assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
+is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by lemma \ref{LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}, assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
 
 $$
   \{ V_c \subset U_c \subset X \}_{c \in C}
@@ -10945,63 +10997,6 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 
 
 
-
-
-$\,$
-
-
-We consider now a couple of technical lemmas related to [[locally finite covers]]
-which will be needed in the proof of prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} below:
-
-1. [every locally finite refinement induces one with the original index set](#LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet),
-
-1. [every locally finite cover of a normal space contains the closure of one with smaller patches](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained) ("[[shrinking lemma]]").
-
-+-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
-###### Lemma
-**(every locally finite refinement induces one with the original index set)**
-
-Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I, \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
-
-Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with
-
-$$
-  W_i
-    \;\coloneqq\;
-  \left\{
-    \underset{j \in \phi^{-1}(\{i\})}{\cup} V_j
-  \right\}
-$$
-
-is still a [[refinement]] of $\{U_i \subset X\}_{i \in I}$ to a [[locally finite cover]].
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-It is clear by construction that $W_i \subset U_i$, hence that we have a [[refinement]]. We need to show local finiteness.
-
-Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finitee]] [[subset]] $K \subset J$ such that
-
-$$
-  \underset{j \in J\setminus K}{\forall} \left( U_x \cap V_j = \emptyset \right)
-  \,.
-$$
-
-Hence by construction
-
-$$
-  \underset{I \in I\setminus \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
-  \,.
-$$
-
-Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows that $\{W_i \subset X\}_{i \in I}$ is locally finite.
-
-=--
-
-
 +-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
 ###### Lemma
 **([[shrinking lemma]] for locally finite covers)**
@@ -11020,7 +11015,7 @@ $$
 
 =--
 
-We now **prove** this in  increasing generality; first for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). The last statement needs the [[axiom of choice]].
+We now **prove** the [[shrinking lemma]] in  increasing generality; first for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). The last statement needs the [[axiom of choice]].
 
 +-- {: .num_lemma #ShrinkingLemmaForBinaryCover}
 ###### Lemma
