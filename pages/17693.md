@@ -1,6 +1,7 @@
 __Statistical mechanics__ is a theoretical study of systems of large degree of freedom, and in particular statistical features of ensembles of large systems. An ensemble is a a theoretical term denoting a collection of similar large systems under consideration, where statistical features of the ensemble are considered. Alternatively, an ensemble may be a probability distribution of alike physical systems. Statistical mechanics wants to extract small number of relevant "macroscopical" features of a physical system determined as the average over an ensemble. One may consider ensembles with fixed features like number of particles, total energy and alike and in which hypothetically an ergodic hypothesis is true: after sufficient passage of time the system will evolve in a system which is arbitrary close to any given member of the ensemble. 
 
-Related $n$Lab entries include [[thermodynamics]], [[Brownian motion]], [[Langevin equation]], [[stochastic process]] 
-category: physical
+Related $n$Lab entries include [[thermodynamics]], [[Brownian motion]], [[Langevin equation]], [[stochastic process]], [[fluctuation-dissipation theorem]], [[random matrix theory]]
+
+category: physics
 
 [[!redirects statistical physics]]
