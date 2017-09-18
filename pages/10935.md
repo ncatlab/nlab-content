@@ -46,6 +46,8 @@ According to ([Hegel, Philosophy of the Spirit -- The soul](Science+of+Logic#PS3
 
 * [[metaphysics]]
 
+* [[hermeticism]]
+
 ## References
 
 
