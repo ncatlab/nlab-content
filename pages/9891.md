@@ -3,4 +3,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Erik_Verlinde)
 
+## Related $n$Lab entries
+
+* [[Verlinde algebra]]
+
 category: people
