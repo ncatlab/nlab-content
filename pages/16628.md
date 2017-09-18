@@ -68,10 +68,12 @@ This is called the _[[Cheeger-Simons class]]_.
 (e.g. [Neumann 11, section 2.3](#Neumann11))
 
 ### Relation to algebraic K-theory
+ {#RelationToAlgebraicKTheory}
 
 Up to [[torsion subgroups]], the extended Bloch group of a is isomorphic to the third [[algebraic K-theory]] group $K_3^{ind}(\mathbb{C})$ ([Suslin90](#Suslin90), [Zickert 09](#Zickert09)).
 
 ### Relation to the Borel regulator
+ {#RelationToTheBorelRegulator}
 
 For $k$ an [[algebraic number field]] and $\{\sigma_i \colon k \hookrightarrow \mathbb{C}\}$ its complex embeddings, write
 
