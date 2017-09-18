@@ -17,7 +17,11 @@
 
 ## References
 
+
 * Wikipedia, _[Mysticism](http://en.wikipedia.org/wiki/Mysticism)_
+
+* [[Georg Hegel]], _[[Lectures on the Philosophy of Religion]]_ 1832
+
 
 * {#Melzer14} Arthur Melzer, _Philosophy between the lines -- The lost history of esoteric writing_, University of Chicago Press, 2014
 
