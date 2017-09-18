@@ -143,7 +143,7 @@ $$
   C
 }
 $$
-More explcitly, the specifications are given by pairs $(s, t) \in |F| \times |G|$ such that $\tau_F(s) = \sigma_G(t)$, and $\sigma_{G F}(s, t) = \sigma_F(s)$, $\tau_{G F}(s, t) = \tau_G(t)$. For $(s, t), (s', t') \in |GF|$ and an arrow $f: \sigma_F(s) \to \sigma_F(s')$, we obtain an arrow $F_{s, s'}(f): \tau(s) \to \tau(s')$. This is also an arrow $\sigma_G(t) \to \sigma_G(t')$, so we can lift this map to $G_{t, t'}F_{s, s'}(f): \tau(t) \to \tau(t')$, and this completes the description of the anafunctor. The other axioms can be verified straightforwardly.
+More explicitly, the specifications are given by pairs $(s, t) \in |F| \times |G|$ such that $\tau_F(s) = \sigma_G(t)$, and $\sigma_{G F}(s, t) = \sigma_F(s)$, $\tau_{G F}(s, t) = \tau_G(t)$. For $(s, t), (s', t') \in |GF|$ and an arrow $f: \sigma_F(s) \to \sigma_F(s')$, we obtain an arrow $F_{s, s'}(f): \tau(s) \to \tau(s')$. This is also an arrow $\sigma_G(t) \to \sigma_G(t')$, so we can lift this map to $G_{t, t'}F_{s, s'}(f): \tau(t) \to \tau(t')$, and this completes the description of the anafunctor. The other axioms can be verified straightforwardly.
 
 Categories, anafunctors, and a suitably defined notion of [[ananatural transformation]] between them form a [[bicategory]] $Cat_{ana}$; an internal [[equivalence]] in this 2-category is called an **anaequivalence**.  Every functor may be interpreted as an anafunctor, with ${|F|}$ always taken to be (the set of objects in) $C$ itself and $\sigma$ the [[identity functor]].  Indeed, there is a [[2-functor]] to $Cat_{ana}$ from the [[strict 2-category]] $Str Cat$ of categories, functors and natural transformations; this functor is an [[equivalence of categories|equivalence]] if and only if the [[axiom of choice]] holds.  Thus, most mathematicians will identify $Cat_{ana}$ and $Str Cat$ as simply [[Cat]], the $2$-category of categories; however, mathematicians who doubt the axiom of choice will distinguish them.  While anafunctors exist in any case, there is an ideological statement that may be implied by their use: that $Cat$ is *really* $Cat_{ana}$ rather than $Str Cat$.
 
@@ -209,7 +209,8 @@ If we specialize to groupoids, with their canonical model structure by [[Ronnie 
 this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent|codescent]] such homotopical cocycles are related to [[descent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
 
 ## Examples
-We will use the [#SetDef](Explicit set-theoretic definition) in this section.
+
+We will use the [explicit set-theoretic definition](/nlab/show/anafunctor#SetDef) in this section.
 
 ### Product anafunctor
 Given a category $C$ with [[cartesian product|binary products]], we can form a product functor $P: C \times C \to C$ that sends a pair of objects $(A, B)$ to a product of them. This requires picking a product for each pair, and hence requires the [[axiom of choice]].
