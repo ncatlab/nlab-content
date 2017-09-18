@@ -80,7 +80,7 @@ so that $\sup_n [a_0, \ldots, a_{2n}] \leq \inf_n [a_0, \ldots, a_{2n+1}]$, and 
 
 In fact we have 
 
-$${|\frac{p_m}{q_m} - \frac{p_{m+1}}{q_{m+1}}|} = \frac{{|p_m q_{m+1} - p_{m+1}q_m|}}{q_m q_{m+1}} = \frac1{q_m q_{m+1}}$$ 
+$$\left|\frac{p_m}{q_m} - \frac{p_{m+1}}{q_{m+1}}\right| = \frac{{|p_m q_{m+1} - p_{m+1}q_m|}}{q_m q_{m+1}} = \frac1{q_m q_{m+1}}$$ 
 
 The second equation is proved by induction on the length $j$ of continued fraction representations $[x_1, \ldots, x_j]$. Put $[a_1, \ldots, a_m] = \frac{q_m}{r_m}$ and $[a_1, \ldots, a_{m+1}] = \frac{q_{m+1}}{r_{m+1}}$, with all fractions in reduced form, and suppose as induction hypothesis that ${|q_m r_{m+1} - q_{m+1}r_m|} = 1$. The fractional linear transformation $a_0 \cdot -$, being represented by the integral [[matrix]] 
 
