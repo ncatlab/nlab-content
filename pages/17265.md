@@ -1742,7 +1742,7 @@ define a [[model category]] structure, $Top_{Quillen}$.
 =--
 
 
-### The homotopy theory
+### The homotopy category
 
 We may now pass to the [[homotopy category of a model category]] and find [[Ho(Top)]] the "[[classical homotopy category]]" (or maybe "Quillen-Serre homotopy category"). For discussion of the [[Quillen equivalence]] to the [[classical model structure on simplicial sets]] (the "[[homotopy hypothesis]]"), see there.
 
@@ -1751,15 +1751,23 @@ We may now pass to the [[homotopy category of a model category]] and find [[Ho(T
 
 Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[retract]] of a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the existence of [[CW approximations]], every topological space is weakly homotopy equivalent even to a [[CW complex]]. In particular, by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]], every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] (and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) a [[CW-complex]], def. \ref{TopologicalCellComplex}.
 
-
-
 =--
 
-(...)
 
 ## Related model structures
+ {#RelatedModelStructures}
+
+We discuss various further [[model category]] structures whose existence follows by immediate variation of the above proof of theorem \ref{TopQuillenModelStructure}:
+
+* [The model structure on pointed topological spaces](#ModelstructureOnPointedTopologicalSpaces);
+
+* [The model structure on compactly generated topological spaces](#ModelStructureOnCompactlyGeneratedTopologicalSpaces);
+
+* [The model structure on topologically enriched functors](#ModelStructureOnTopEnrichedFunctors).
+
 
 ### Classical model structure on pointed topological spaces
+ {#ModelstructureOnPointedTopologicalSpaces}
 
 Every [[coslice category]] $\mathcal{C}^{X/}$ of a [[model category]] $\mathcal{C}$ inherits the [[coslice model structure]], whose classes of morphisms are those of $\mathcal{C}$ as seen by the [[forgetful functor]] $U \colon \mathcal{C}^{X/}\longrightarrow \mathcal{C}$.
 
@@ -1815,8 +1823,14 @@ The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhi
 
 =--
 
-This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties). But it also follows by a proof directly analogous to that of theorem \ref{TopQuillenModelStructure}.
+This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties). But it also follows by a proof directly analogous to that of theorem \ref{TopQuillenModelStructure}:
 
++-- {: .proof}
+###### Proof
+
+Due to the fact that in $J_{Top^{\ast/}}$ a basepoint is freely adjoined, lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} goes through verbatim for the pointed case, with $J_{Top}$ replaced by $J_{Top^{\ast/}}$, as do the other two lemmas above that depend on point-set topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences}. With this, the rest of the proof follows by the same general abstract reasoning as [above](#VerificationOfTopQuillen) in the proof of theorem \ref{TopQuillenModelStructure}.
+
+=--
 
 ### Model structure on compactly generated topological spaces
  {#ModelStructureOnCompactlyGeneratedTopologicalSpaces}
@@ -1950,7 +1964,7 @@ e.g. ([Strickland 09, prop. 2.12](#Strickland09))
 
 Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know many conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
 
-+-- {: .num_example CWComplexIsCompactlyGenerated}
++-- {: .num_example #CWComplexIsCompactlyGenerated}
 ###### Example
 
 Every [[CW-complex]] is [[compactly generated topological space|compactly generated]]. 
@@ -1960,7 +1974,11 @@ Every [[CW-complex]] is [[compactly generated topological space|compactly genera
 +-- {: .proof}
 ###### Proof
 
-Since [[a CW-complex is a Hausdorff space]], by prop. \ref{HausdorffImpliessWeaklyHausdorff} and  prop. \ref{CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace} its $k$-closed subsets are precisely those whose intersection with every [[compact subspace]] is closed. But this follows since [[compact subspaces of Hausdorff spaces are closed]].
+Since [[a CW-complex is a Hausdorff space]], by prop. \ref{HausdorffImpliessWeaklyHausdorff} and  prop. \ref{CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace} its $k$-closed subsets are precisely those whose intersection with every [[compact subspace]] is closed. 
+
+Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed. 
+
+For the converse direction, since [[a CW-complex is a Hausdorff space]] and since [[compact subspaces of Hausdorff spaces are closed]], the intersection of a closed subset with a compact subset is closed.
 
 =--
 
@@ -1987,7 +2005,7 @@ The category $Top_{cg}$ of [[compactly generated topological spaces]] includes
 
 Recall that by corollary \ref{kTopIsCoreflectiveSubcategory}, all [[colimits]] of compactly generated spaces are again compactly generated.
 
-+-- {: .num_example CWComplexIsCompactlyGenerated}
++-- {: .num_example #CWComplexIsCompactlyGenerated}
 ###### Example
 
 The [[product topological space]] of a [[CW-complex]] with a [[compact topological space|compact]] CW-complex is [[compactly generated topological space|compactly generated]].
@@ -2000,11 +2018,23 @@ The [[product topological space]] of a [[CW-complex]] with a [[compact topologic
 +-- {: .num_theorem } 
 ###### Theorem
 
-The restriction of the [[model category]] structure on $Top_{Quillen}$ due to theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, and the inclusion is part of a [[Quillen equivalence]].
+The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
 
+$$
+  Top_{cg, Quillen}
+    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+  Top_{Quillen}
+  \,.
+$$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{CWComplexIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$.
+
+=--
 
 
 #### Pointed compactly generated topological spaces
@@ -2078,9 +2108,9 @@ While the inclusion $Top_{cg} \hookrightarrow Top$ [above](#ModelStructureOnComp
 
 A popular choice introduced in ([McCord 69](weakly+Hausdorff+topological+space#McCord69)) is to add the further restriction to topopological spaces which are not only compactly generated but also [[weakly Hausdorff topological space|weakly Hausdorff]]. This was motivated from ([Steenrod 67](compactly+generated+topological+space#Steenrod67)) where compactly generated Hausdorff spaces were used by the observation (([McCord 69, section 2](weakly+Hausdorff+topological+space#McCord69))) that Hausdorffness is not preserved my many colimit operations, notably not by forming [[quotient spaces]]. 
 
-On the other hand, in above we wouldn't have imposed Hausdorffness in the first place. Possibly more intrinsic advantage of $Top_{cgwH}$ over $Top_{cg}$ are the following
+On the other hand, in above we wouldn't have imposed Hausdorffness in the first place. Possibly more intrinsic advantages of $Top_{cgwH}$ over $Top_{cg}$ are the following
 
-* every [[pushout]] of a morphism in $Top_{cgwH} \hookrightarrow Top$ along a [[closed subspace]] inclusion in $Top$ is again in $Top_{cgwH}$ ([MO comment by Peter may](http://mathoverflow.net/a/204221/381))
+* every [[pushout]] of a morphism in $Top_{cgwH} \hookrightarrow Top$ along a [[closed subspace]] inclusion in $Top$ is again in $Top_{cgwH}$ ([MO comment by Peter May](http://mathoverflow.net/a/204221/381))
 
 * in $Top_{cgwH}$ quotient spaces are not only preserved by [[cartesian products]] (as is the case for all compactly generated spaces due to $X\times (-)$ being a left adjoint, according to cor. \ref{kTopIsCoreflectiveSubcategory}) but by all [[pullbacks]] ([MO comment by Charles Rezk](http://mathoverflow.net/a/47724/381))
 
@@ -2129,7 +2159,7 @@ e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
 
 
 
-### The model structure on $Top_{Quillen}$-enriched functors
+### The model structure on topologically enriched functors
  {#ModelStructureOnTopEnrichedFunctors}
 
 The [[projective model structure on enriched functors]], enriched over the classical model structure on topological spaces above, is an immediate corollary of the above proof ([Piacenza 91](#Piacenza91)). 
