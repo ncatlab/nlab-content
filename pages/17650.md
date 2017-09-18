@@ -41,7 +41,7 @@ $$
 a [[functor]] (out of the [[product category]] of the [[opposite category]] of $\mathcal{C}$ with $\mathcal{C}$ itself). Then for 
 
 $$
-  f \;\colon\; X \to Y
+  g \;\colon\; X \to Y
 $$
 
 and
@@ -53,7 +53,7 @@ $$
 two [[morphisms]] in $\mathcal{C}$, their _pullback powering_ $g^f$ is the morphism
 
 $$
-   [B,f] \stackrel{[i , p]}{\to} [A,X] \times_{[A,Y]} [B,Y]
+   [B,X] \stackrel{[i , p]}{\to} [A,X] \times_{[A,Y]} [B,Y]
 $$ 
 
 into the evident [[fiber product]] on the right.
