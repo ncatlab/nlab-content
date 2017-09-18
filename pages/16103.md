@@ -20,7 +20,11 @@
 
 ## Definition
 
-Given a [[symplectic vector space]] $(V,\omega)$, then its _affine symplectic group_ $ASp(V,\omega)$ is the [[intersection]] of the [[affine group]] of the [[affine space]] $V$ and the [[symplectomorphism group]] of the [[symplectic manifold]] $(X,\omega)$, i.e.the  [[group]] of all those [[affine transformations]] which preserve the [[symplectic form]] $\omega$.
+Given a [[symplectic vector space]] $(V,\omega)$, then its _affine symplectic group_ $ASp(V,\omega)$ (or _inhomogeneous sympelctic group_ $ISp(V,\omega)$) is equivalently
+
+* the [[intersection]] $ASp(V,\omega) = Aff(V)\times_{Diff(V)} Sympl(X,\omega)$ of the [[affine group]] of the [[affine space]] $V$ and the [[symplectomorphism group]] of the [[symplectic manifold]] $(X,\omega)$, i.e.the  [[group]] of all those [[affine transformations]] which preserve the [[symplectic form]] $\omega$;
+
+* the [[semidirect product]] $ASp(V,\omega) = V \rtimes Sp(V,\omega)$ of the [[symplectic group]] acting on $V$ regarded as the [[translation group]] over itself.
 
 The further restriction to [[linear functions]] gives the [[symplectic group]] proper. 
 
@@ -45,5 +49,16 @@ $$
      HamSympl(V,\omega)
   }
 $$
+
+## Related concepts
+
+* [[Poincare group]]
+
+## References
+
+Review includes
+
+* {#Low12} Stephen G. Low, section 1 of _Maximal quantum mechanical symmetry: Projective representations of the inhomogenous symplectic group_, J. Math. Phys. 55, 022105 (2014) ([arXiv:1207.6787](http://arxiv.org/abs/1207.6787))
+
 
 [[!redirects affine symplectic groups]]
