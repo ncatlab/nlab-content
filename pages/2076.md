@@ -34,12 +34,15 @@ $$
   }
 $$
 
-in $F$ such that its image in $A$ is a [[pullback]] square, if $\chi$ and $\chi'$ are cartesian then $k_1$ is cocartesian.
+in $F$ such that its image in $A$ is a [[pullback]] square, if $\chi$ and $\chi'$ are cartesian and $k_0$ is cocartesian then $k_1$ is cocartesian.
 
 +--{: .query}
 [[Mike Shulman]]: Is that really correct?  I would have thought it would be "if $\chi$ and $\chi'$ are cartesian and $k_1$ is opcartesian, then $k_0$ is also opcartesian.
 
 Zoran: I have to think, I got rusty in these issues.
+
+[[Beren Sanders]]: I believe Mike is correct; I've corrected the statement accordingly.
+
 =--
 
 An equivalent way to state the condition is that for any pullback square
