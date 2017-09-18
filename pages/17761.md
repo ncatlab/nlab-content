@@ -1,6 +1,7 @@
-The **order polynomial** of a finite [[partially ordered set]] $P$ is a function $\Omega(P;n)$ counting the total number of [[order-preserving functions]] from $P$ into any [[linear order]]
-$$\mathbf{n} = \{ 0 \lt 1 \lt \cdots \lt n-1 \}.$$
-To see that this defines a [[polynomial]] in $n$, first observe that any function $P \to \mathbf{n}$ factors as a [[surjection]] from $P$ onto some $\mathbf{k} = \{ 0 \lt 1 \lt \cdots \lt k-1 \}$ (where $k \le n$), followed by an [[injection]] from $\mathbf{k}$ to $\mathbf{n}$. The total number of order-preserving functions from $P$ to $\mathbf{n}$ can therefore be calculated explicitly as 
+The **order polynomial** $\Omega(P;n)$ of a finite [[partially ordered set]] $P$ counts the total number of [[order-preserving functions]] from $P$ into any [[linear order]] $\mathbf{n} = \{ 0 \lt 1 \lt \cdots \lt n-1 \}.$
+To see that
+$$\Omega(P;n) = |Hom(P,\mathbf{n})|$$
+defines a [[polynomial]] in $n$, first observe that any function $P \to \mathbf{n}$ factors as a [[surjection]] from $P$ onto some $\mathbf{k} = \{ 0 \lt 1 \lt \cdots \lt k-1 \}$ (where $k \le n$), followed by an [[injection]] from $\mathbf{k}$ to $\mathbf{n}$. The total number of order-preserving functions from $P$ to $\mathbf{n}$ can therefore be calculated explicitly as 
 $$\Omega(P;n) = \sum_{k=1}^{|P|} e_k \binom{n}{k}$$
 where $e_k$ is the number of surjective order-preserving functions from $P$ to $\mathbf{k}$. Hence $\Omega(P;n)$ is a polynomial of degree bounded by the cardinality of $P$.
 
@@ -14,6 +15,12 @@ The order polynomial of the 3-element poset
 $$P = \array{&&c&& \\ &\nearrow& &\nwarrow& \\ a &&&& b}$$
 is $n + 3 \binom{n}{2} + 3\binom{n}{3} = \frac{2n^3 + 3n^2 + n}{6}$.
 Evaluating at $n=2$, we compute that there are 5 order-preserving functions from $P$ onto $\mathbf{2}$.
+
+## Related concepts
+
+* [[zeta polynomial]]
+* [[incidence algebra]]
+* [[Möbius inversion]]
 
 ## References
 
