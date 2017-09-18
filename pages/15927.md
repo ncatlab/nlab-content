@@ -1,5 +1,7 @@
 
-A version of axiomatic [[set theory]].
+New Foundations (NF) is a version of axiomatic [[set theory]] in which there is a set of all sets, but the comprehension axiom is restricted by a "stratification" condition.
+
+For a long time the consistency of NF was an open problem, although NF with urelements (NFU) was known to be consistent (relative to ZF plus some large cardinals).  Recently there [may be](http://mathoverflow.net/questions/132103/the-status-of-the-consistency-of-nf-relative-to-zf) a proof of its consistency.
 
 ## References
 
