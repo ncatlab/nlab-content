@@ -6,4 +6,6 @@
 
 * [[rational equivariant stable homotopy theory]]
 
+* [[orthogonal calculus]]
+
 category: people
