@@ -1,4 +1,3 @@
 
-[[BonnLogo.png:file]]
 
-<img width="200" src="http://ncatlab.org/nlab/files/BonnLogo.png"></img> 
+Sand.
