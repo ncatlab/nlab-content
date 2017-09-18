@@ -45,11 +45,15 @@ One may understand this form the central fact of [[rational homotopy theory]] (t
 
 An $n$-sphere has rational cohomology concentrated in degree $n$. Hence its minimal Sullivan model needs at least one closed generator in that degree. In the odd dimensional case one such is already sufficient, since the wedge square of that generator vanishes and hence produces no higher degree cohomology classes. But in the even degree case the wedge square $\omega_{2k}\wedge \omega_{2k}$ needs to be canceled in cohomology. That is accomplished by the second generator $\omega_{4k-1}$. 
 
-Again by [that proposition](rational+homotopy+theory#HomotopyGroupsFromSullivanGenerators), this now implies that the rational [[homotopy groups of spheres]] are concentrated, in degree $2k+1$ for the odd $(2k+1)$-dimensional spheres, and in degrees $2k$ and $4k-1$ in for the even $2k$-dimensional spheres. 
+Again by [that proposition](rational+homotopy+theory#HomotopyGroupsFromSullivanGenerators), this now implies that the rational [[homotopy groups of spheres]] are concentrated, in degree $2k+1$ for the odd $(2k+1)$-dimensional spheres, and in degrees $2k$ and $4k-1$ in for the even $2k$-dimensional spheres.  (These are the non-torsion [[homotopy groups of spheres]] appearing in the [[Serre finiteness theorem]].)
 
 For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one in degree 7 being represented by the [[quaternionic Hopf fibration]].
 
 Hence, even dimensional $n$-spheres are [[rational homotopy equivalence|rationally homotopy equivalent]] to [[Eilenberg-MacLane spaces]] $K(\mathbb{Z},n)$, while odd-dimensional spheres are not.
+
+## Related concepts
+
+* [[Serre finiteness theorem]]
 
 
 [[!redirects rational n-spheres]]
