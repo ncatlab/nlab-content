@@ -19,20 +19,38 @@
 
 ## Idea
 
-The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 2](#BousfieldFriedlander78)) is a [[model structure for spectra]], specifically a [[model structure on sequential spectra]] in [[simplicial sets]].
+The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 2](#BousfieldFriedlander78)) is a [[model structure for spectra]], specifically it is a standard [[model structure on sequential spectra]] in [[simplicial sets]]. An immediate variant works for [[sequential spectra]] in [[topological spaces]], see at _[[model structure on topological sequential spectra]]_.
 
-As such its [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the cla
-ical [[stable homotopy category]].
+As such, the Bousfield-Friedlander model structure [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the classical [[stable homotopy category]].
 
 
 ## Background on sequential spectra
 
 ### Sequential pre-spectra
 
+Write $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ for the minimal [[simplicial set|simplicial]] [[circle]]. Write
+
+$$
+  \wedge 
+  \;\colon\;
+  sSet^{\ast/}
+  \times
+  sSet^{\ast/}
+  \longrightarrow
+  sSet^{\ast/}
+$$
+
+for the [[smash product]] of [[pointed simplicial sets]].
+
+
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
 
-A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
+A **[[sequential spectrum|sequential]] [[prespectrum]] in [[simplicial sets]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
+
+* an $\mathbb{N}$-[[graded object|graded]] [[pointed simplicial set]] $X_\bullet$ 
+
+* equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$.
 
  A [[homomorphism]] $f \colon X \to Y$ of spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
 
@@ -48,7 +66,7 @@ $$
 
 [[commuting diagram|commute]].
 
-Write $SeqSpec(sSet)$ for this [[category]] of spectra.
+Write $SeqSpec(sSet)$ for this [[category]] of sequential spectra.
 
 =--
 
@@ -123,7 +141,7 @@ $$
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-A _[[Omega-spectrum]]_ is a sequential spectrum $X$, def. \ref{SequentialSpectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] the pointed-hom [[adjuncts]]
+A _[[Omega-spectrum]]_ is a sequential spectrum $X$, def. \ref{SequentialSpectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] the ([[smash product]] $\dahsv$ [[pointed mapping space]])-[[adjuncts]]
 
 $$
   {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
@@ -464,16 +482,13 @@ A spectrum $X \in SeqSpec(sSet)_{stable}$ is
 
 ## Properties
 
-### Fibrantions and cofibrantions
+### Fibrations and cofibrations
  {#FibrantAndCofibrantObjects}
 
 +-- {: .num_prop}
 ###### Proposition
 
 A [[sequential spectrum]] $X\in SeqSpec(sSet)_{stable}$ is cofibrant precisely if all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[monomorphisms]].
-
-A [[sequential spectrum]] $X\in SeqSpec(Top)_{stable}$ is cofibrant in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]] are cofibrant in $SeqSpec(Top)_{stable}$.
-
 
 =--
 
@@ -482,7 +497,7 @@ A [[sequential spectrum]] $X\in SeqSpec(Top)_{stable}$ is cofibrant in particula
 
 A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} (in either the strict or stable model structure, they have the same cofibrations) if 
 
-1. $X_0$ is cofibrant; this is no condition in [[sSet]], while in [[Top]] it means that $X_0$ is a retract of a [[cell complex]];
+1. $X_0$ is cofibrant; this is no condition in [[sSet]];
 
 1. $$
      \ast_{n+1}\underset{S^1 \wedge \ast_n}{\coprod} S^1 \wedge X_n
@@ -496,48 +511,7 @@ A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphis
      S^1 \wedge X_n \longrightarrow X_{n+1}
    $$
 
-   being cofibrations;  hence inclusions in [[sSet]], and [[relative cell complexes]] in [[Top]].
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-For $X\in SeqSpec(Top)_{stable}$ a [[CW-spectrum]], then its standard [[cylinder spectrum]] $X \wedge (X_+)$ is a _good_ [[cylinder object]] in that the inclusion
-
-$$
-  X \vee X \longrightarrow X \wedge (I_+)
-$$
-
-is a cofibration in $SeqSpec(Top)_{stable}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-According to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} we need to check that for all $n$ the morphism
-
-$$
-  (X \vee X)_{n+1}
-  \underset{S^1 \wedge (X\vee X)_n}{\sqcup}
-  S^1 \wedge (X \wedge (I_+))_n
-  \longrightarrow
-  (X \wedge (I_+))_{n+1}
-$$
-
-is a retract of a relative cell complex. After distributing indices and smash products over wedge sums, this is equivalently
-
-$$
-  (X_{n+1} \vee X_{n+1})
-  \underset{(S^1 \wedge X_n )\vee (S^1 \wedge X_n))}{\sqcup}
-   S^1 \wedge X_n \wedge (I_+)
-  \longrightarrow
-  X_{n+1} \wedge I_+
-  \,.
-$$
-
-Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-complex, and this implies that $X_n \wedge (I_+)$ is a relative cell complex in $Top^{\ast/}$. With this, inspection shows that also the above morphism is a relative cell complex.
+   being cofibrations;  hence inclusions.
 
 =--
 
@@ -546,7 +520,7 @@ Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-comple
 +-- {: .num_prop}
 ###### Proposition
 
-There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedlander model structure $SeqSpec(sSet)_{stable}$, def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}, prop. \ref{StableModelStructureOnSequentialSpectraIsModelCategory} with standard model structures on [[sequential spectra]] in [[topological spaces]] and with Kan's [[combinatorial spectra]].
+There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedlander model structure $SeqSpec(sSet)_{stable}$, def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}, prop. \ref{StableModelStructureOnSequentialSpectraIsModelCategory} with standard model structures on [[sequential spectra]] in [[topological spaces]] (the [[model structure on topological sequential spectra]]) and with Kan's [[combinatorial spectra]].
 
 =--
 
