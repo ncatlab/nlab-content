@@ -1,0 +1,1 @@
+d* = coderivative = *d* also written as lower case Greek delta. Here d is exterior derivative.
