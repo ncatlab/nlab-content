@@ -302,7 +302,7 @@ Hence we may read prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} as
 By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such they inherit [[symmetric monoidal category]] structure 
 
 $$
-  (\mathb{S}_{dia} Mod, \wedge_{\mathbb{S}_{dia}})
+  (\mathbb{S}_{dia} Mod, \wedge_{\mathbb{S}_{dia}})
 $$
 
 Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
@@ -607,7 +607,7 @@ is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an
 ###  Free spectra
  {#FreeSpectra}
 
-> This is a technical section with discussion of certain [[free construction|free]] objects  in the categories of spectra of prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules}. This discussion is used in the proof of the stable model structures [below](#ProofOfTheStableModelStructure) and of the Quillen equivalences between them [further below](#QuillenEquivalencesOfStableModelStructures).
+> This is a technical section with discussion of certain [[free construction|free]] objects  in the categories of spectra of prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules}. The discussion here provides technical lemmas that are used in the proof of the stable model structures [below](#ProofOfTheStableModelStructure), the proof of the Quillen equivalences between them [further below](#QuillenEquivalencesOfStableModelStructures) and [then](#MonoidalStableModelStructure) the proof that the model structure is monoidal.
 
 The concept of _[[free spectrum]]_ is a generalization of that of _[[suspension spectrum]]_. In fact the [[stable homotopy types]] of free spectra are precisely those of iterated [[loop space objects]] of [[suspension spectra]]. But for the development of the theory what matters is free spectra before passing to stable homotopy types, for as such they play the role of the basic cells for the stable [[model structures on spectra]] analogous to the role of the [[n-spheres]] in the [[classical model structure on topological spaces]] (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} below).
 
@@ -1094,7 +1094,49 @@ does _not_ become highly connected as $q$ increases, due to the [[discrete topol
 
 =--
 
+Another use of free spectra is that their [[pushout products]] may be explicitly analyzed, and checking the [[pushout-product axiom]] for general cofibrations may be reduced to checking it on morphisms between free spectra.
 
++-- {: .num_lemma}
+###### Lemma
+
+For $A, B \in Top^{\ast/}$ and for $k,\ell \in \mathbb{N}$, then the [[symmetric monoidal smash product of spectra]], def. \ref{SymmetricSmashProductOfDiagramSpectra}, applied to the corresponding [[free spectra]] from def. \ref{FreeStructuredSpectrum} relates to the plain [[smash product]] of [[pointed topological spaces]] via [[natural isomorphisms]]
+
+$$
+  (F_k A)\wedge_{\mathbb{S}_{dia}} (F_\ell B)
+  \simeq
+  F_{k+\ell}(A\wedge B)
+  \,.
+$$
+
+=--
+
+([MMSS 00, lemma 1.8, lemma 21.3](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+Consider the following sequence of [[natural isomorphisms]]
+
+$$
+  \begin{aligned}
+    [\mathbb{S}_{dia} FreeMod^{op},Top^{\ast/}]((F_k A)\wedge_{\mathbb{S}_{dia}} (F_\ell B), Z)
+    & \simeq
+     [\mathbb{S}_{dia} FreeMod^{op}\times \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}]((F_k A)\tilde \wedge (F_\ell B), Z \circ \wedge)
+    \\
+    & \simeq 
+    Top^{\ast/}( A\wedge B, F_{k+\ell})
+    \\
+    & \simeq
+    [\mathbb{S}_{dia} FreeMod^{op},Top^{\ast/}](
+      F_{k+\ell}(A \wedge B), Z
+    )    
+  \end{aligned}
+  \,,
+$$
+
+where we used the adjoint characterization ([here](Day+convolution#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) of the [[Day convolution]]. Since this is natural in $Z$, the [[Yoneda lemma]] implies the claim.
+
+=--
 
 ## Part II. Model categories of diagram spectra
  {#PartII}
@@ -1683,6 +1725,7 @@ Since both adjoints in the present case preserve [[colimits]], [[tensoring]] wit
  {#ModelStructuresOnRingSpectraAndModuleSpectra}
 
 #### Monoidal model structure
+ {#MonoidalStableModelStructure}
 
 
 +-- {: .num_theorem}
