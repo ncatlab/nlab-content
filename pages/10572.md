@@ -40,6 +40,6 @@ Relation to [[twistor spaces]] is discussed in
 
 See also
 
-* Wikipedia, _[Parabolic geometry (differential geometry)](http://en.wikipedia.org/wiki/Parabolic_geometry_(differential_geometry))_
+* Wikipedia, _[Parabolic geometry (differential geometry)](http://en.wikipedia.org/wiki/Parabolic_geometry_(differential_geometry%29)_
 
 [[!redirects parabolic geometries]]
