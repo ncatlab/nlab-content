@@ -1119,7 +1119,7 @@ But beware that there are other kinds of [[spaces]] in mathematics.
 =--
 
 
-In view of example \ref{MetricTopology} below one generalizes the terminology from 
+In view of example \ref{MetricTopology} below one generalizes the terminology from
 def. \ref{OpenSubsetsOfAMetricSpace} as follows:
 
 +-- {: .num_defn #Neighbourhood}
@@ -1127,11 +1127,11 @@ def. \ref{OpenSubsetsOfAMetricSpace} as follows:
 **([[neighbourhood]])**
 
 Let $(X,\tau)$ be a [[topological space]] and let $x \in X$ be a point.
-A _[[neighbourhood]]_ of $x$ is a [[subset]] $U_x \subset X$ which contains an 
+A _[[neighbourhood]]_ of $x$ is a [[subset]] $U_x \subset X$ which contains an
 [[open subset]] that still contains $x$.
 
 An _open neighbourhood_ is a neighbourhood that is itself an open subset, hence an open neighbourhood
-of $x$ is the same as an open subset containing $x$. 
+of $x$ is the same as an open subset containing $x$.
 
 
 =--
@@ -1812,7 +1812,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{UnionOfOpensGivesClosure} we use that a point is in the closure of a set precisely if every [[open neighbourhood]] 
+By lemma \ref{UnionOfOpensGivesClosure} we use that a point is in the closure of a set precisely if every [[open neighbourhood]]
 (def. \ref{Neighbourhood}) of the point intersects the set.
 
 Hence in one direction
@@ -3270,7 +3270,7 @@ $$
   \,.
 $$
 
-Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]]. 
+Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]].
 
 
 +-- {: .num_defn #Homeomorphism}
@@ -8068,13 +8068,17 @@ $$
 
 are continuous.
 
+More generally if $\{U_i \subset X\}_{i \in I}$ is a [[cover]] of $X$ by an arbitrary set of [[open subsets]]
+or by a [[finite set]] of [[closed subsets]], then a function $f \colon X \to Y$ is continuous precisely
+if all its restrictions $f\vert_{U_i}$ for $i \in I$ are continuous.
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{SetLimits} the underlying diagram of underlying [[sets]] is clearly a pushout in [[Set]]. Therefore, 
-by prop. \ref{DescriptionOfLimitsAndColimitsInTop}, we need to show that the [[topological space|topology]] on $X$ 
+By prop. \ref{SetLimits} the underlying diagram of underlying [[sets]] is clearly a pushout in [[Set]]. Therefore,
+by prop. \ref{DescriptionOfLimitsAndColimitsInTop}, we need to show that the [[topological space|topology]] on $X$
 is the [[final topology]] (def. \ref{InitialAndFinalTopologies}) induced by the set of functions $\{i_A, i_B\}$, hence that
 a [[subset]] $S \subset X$ is an [[open subset]] precisely if the [[pre-images]] (restrictions)
 
@@ -8450,7 +8454,7 @@ theory, in particular for the discussion of [[topological manifolds]] [below](#M
  {#ConnectedComponents}
 
 Via [[homeomorphism]] to [[disjoint union spaces]] one may characterize whether topological spaces are
-_[[connected topological spaces|connected]]_  (def. \ref{ConnectedTopologicalSpace} below), 
+_[[connected topological spaces|connected]]_  (def. \ref{ConnectedTopologicalSpace} below),
 and one may decompose every topological space
 into its [[connected components]] (def. \ref{ComponentsConnected} below).
 
@@ -8460,8 +8464,10 @@ components.
 The extreme case of this phenomenon are [[totally disconnected topological spaces]]
 (def. \ref{TotallyDisconnectedTopologicalSpace} below) which are nevertheless not [[discrete topological spaces|discrete]]
 (examples \ref{RationalNumbersAreTotallyDisconnected} and \ref{TotallyDisconnectedCantorSpace} below).
-Spaces which are free from this exotic behaviour are the
-_[[locally connected topological spaces]]_ (def.  \ref{LocallyConnected} below).
+Spaces which are free from this exotic behaviour include the
+_[[locally connected topological spaces]]_ (def.  \ref{LocallyConnected} below) 
+and in particular 
+the [[locally path-connected topological spaces]] (def. \ref{ForLocallyPathConnectedThenPathConnectedComponentsAgree} below).
 
 
 
@@ -9014,10 +9020,9 @@ But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumptio
 
 +-- {: .num_example #LocallyConnectedEuclideanSpace}
 ###### Example
-**([[Euclidean space]] is locally connected)
+**([[Euclidean space]] is [[locally connected topological space|locally connected]])
 
-For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) (
-with its [[metric topology]]
+For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (example \ref{EuclideanNorm}) (with its [[metric topology]]
 (example \ref{MetricTopology}) is [[locally connected topological space|locally connected]]
 (def. \ref{LocallyConnected}).
 
@@ -9088,7 +9093,7 @@ The following is obvious, but the construction is important:
 **(being connected by a [[path]] is [[equivalence relation]])**
 
 Let $(X,\tau)$ be a [[topological space]].
-Being connected by a [[path]] (def. \ref{Path}) is an [[equivalence relation]] $\sim_{pcon}$ on the underlying set of 
+Being connected by a [[path]] (def. \ref{Path}) is an [[equivalence relation]] $\sim_{pcon}$ on the underlying set of
 points $X$.
 
 =--
@@ -9096,7 +9101,7 @@ points $X$.
 +-- {: .proof}
 ###### Proof
 
-We need to show that the relation is [[reflexive relation|reflexive]], 
+We need to show that the relation is [[reflexive relation|reflexive]],
 [[symmetric relation|symmetric]] and [[transitive relation|transitive]].
 
 For $x \in X$ a point, then the [[constant function]] with value $x$
@@ -9107,10 +9112,10 @@ $$
 
 is continuous (example \ref{PointsViaContinuousFunctions}). Therefore $x \sim_{pcon} x$  for all point ([[reflexive relation|reflexivity]]).
 
-For $x,y \in X$ two points and 
+For $x,y \in X$ two points and
 
 $$
-  \gamma 
+  \gamma
     \;\colon\;
   [0,1] \longrightarrow X
 $$
@@ -9118,25 +9123,25 @@ $$
 a path connecting them, then the _reverse path_
 
 $$
-  [0,1] 
-    \overset{(1-(-))}{\longrightarrow} 
+  [0,1]
+    \overset{(1-(-))}{\longrightarrow}
   [0,1]
     \overset{\gamma}{\longrightarrow}
   X
 $$
 
 is continuous (the function $[0,1] \overset{1-(-)}{\to} [0,1]$ is continuous because
-[[polynomials are continuous]] ). Hence with $x \sim_{pcon} y$ also $y \sim_{pcon} x$ ([[symmetic relation|symmetry]]).
+[[polynomials are continuous]] ). Hence with $x \sim_{pcon} y$ also $y \sim_{pcon} x$ ([[symmetric relation|symmetry]]).
 
 For $x,y,z \in X$ three points and for
 
 $$
-  \gamma_1, \gamma_2 
+  \gamma_1, \gamma_2
     \;\colon\;
   [0,1] \longrightarrow X
 $$
 
-two paths with $\gamma_1(0) = x$, $\gamma_1(1) = \gamma_2(0) = y$ and $\gamma_2(1) = z$, 
+two paths with $\gamma_1(0) = x$, $\gamma_1(1) = \gamma_2(0) = y$ and $\gamma_2(1) = z$,
 consider the function
 
 $$
@@ -9156,8 +9161,8 @@ $$
   \,.
 $$
 
-This is a [[continuous function]] by example \ref{ClosedSubspacesGluing}, hence this constitutes a path connecting $x$ with $y$
-(the ``concatenated path''). Therefore $x \sim_{pcon} y$ and $y \sim_{pcon} z$ implies $x \sim_{pcon} z$ ([[transitive relation|transitivity]]).
+This is a [[continuous function]] by example \ref{ClosedSubspacesGluing}, hence this constitutes a path connecting $x$ with $z$
+(the "concatenated path"). Therefore $x \sim_{pcon} y$ and $y \sim_{pcon} z$ implies $x \sim_{pcon} z$ ([[transitive relation|transitivity]]).
 
 =--
 
@@ -9165,8 +9170,8 @@ This is a [[continuous function]] by example \ref{ClosedSubspacesGluing}, hence 
 ###### Definition
 **(path-connected components)**
 
-Let $X$ be a [[topological space]].  The [[equivalence classes]] of 
-the equivalence relation "connected by a path" (def. \ref{Path}, lemma \ref{ConnectedByPathIsEquivalenceRelation}) 
+Let $X$ be a [[topological space]].  The [[equivalence classes]] of
+the equivalence relation "connected by a path" (def. \ref{Path}, lemma \ref{ConnectedByPathIsEquivalenceRelation})
 are called the _path-connected components_ of $X$.
 The set of the path-connected components is usually denoted
 
@@ -9220,9 +9225,10 @@ be a [[continuous function]]. Then also the [[image]] $f(X)$ of $X$
 
 $$
   X
-    \undervrset{\text{surjective}}{p}{\longrightarrow}
+    \underoverset{\text{surjective}}{p}{\longrightarrow}
   f(X)
     \underoverset{\text{injective}}{i}{\longrightarrow}
+  Y
 $$
 
 with either of its two possible topologies (example \ref{ImageFactorization})
@@ -9281,7 +9287,7 @@ $$
   \ast \overset{const_1}{\hookrightarrow} [0,1]
 $$
 
-induce to continuous functions of the form
+induce two continuous functions of the form
 
 $$
   P X
@@ -9297,6 +9303,9 @@ $$
   \,.
 $$
 
+The [[coequalizer]] (example \ref{CoequalizerInTop}) of these two functions is the set $\pi_0(X)$
+of path-connected components (def. \ref{PathConnectedComponents}) topologized with the
+corresponding [[final topology]] (def. \ref{InitialAndFinalTopologies}).
 
 =--
 
@@ -9304,7 +9313,7 @@ $$
 ###### Lemma
 **([[path-connected spaces]] are [[connected topological space|connected]])
 
-A [[path connected topological space]] $X$ (def. \ref{ConnectedPath})
+A [[path connected topological space]] $X$ (def. \ref{PathConnectedComponents})
 is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}).
 
 =--
@@ -9323,7 +9332,7 @@ Assume it were not, then it would be covered by two disjoint inhabited open subs
 A [[topological space]] $X$ is called _[[locally path-connected topological space|locally path-connected]]_
 if for every point $x \in X$ and every [[neighbourhood]] $U_x \supset \{x\}$ there exists
 a neighbourhood $C_x \subset U_x$ which, as a [[subspace]],
-is [[path-connected topological space|path-connected]] (def. \ref{ConnectedPath}).
+is [[path-connected topological space|path-connected]] (def. \ref{PathConnectedComponents}).
 
 =--
 
@@ -9348,8 +9357,8 @@ Another class of examples we consider below:
 [[locally Euclidean topological spaces]] are locally path-connected (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} below).
 
 
-+-- {: .num_lemma #InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}
-###### Lemma
++-- {: .num_prop #InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}
+###### Proposition
 
 Let $X$ be a [[locally path-connected topological space]] (def. \ref{PathConnectedLocally}).
 Then each of its path-connected components is an [[open set]] and a [[closed set]].
@@ -9360,7 +9369,7 @@ Then each of its path-connected components is an [[open set]] and a [[closed set
 ###### Proof
 
 To see that every path connected component $P_x$ is open,
-it is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which  is path connected. It follows by concatenation of paths 
+it is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which  is path connected. It follows by concatenation of paths
 (as in the proof of lemma \ref{ConnectedByPathIsEquivalenceRelation}) that $V_y \subset P_x$.
 
 Now each path-connected component $P_x$ is the [[complement]] of the [[union]] of all the
@@ -9374,10 +9383,11 @@ complement $P_x$ is closed.
 ###### Proposition
 
 Let $X$ be a [[locally path-connected topological space]] (def. \ref{PathConnectedLocally}).
-
 Then the [[connected components]] of $X$ according
 to def. \ref{ComponentsConnected} agree
-with the path-connected components according to def. \ref{ConnectedPath}.
+with the path-connected components according to def. \ref{PathConnectedComponents}.
+
+In particular, locally path connected spaces are [[locally connected topological spaces]] (def. \ref{LocallyConnected}).
 
 =--
 
@@ -9385,14 +9395,14 @@ with the path-connected components according to def. \ref{ConnectedPath}.
 ###### Proof
 
 A path connected component is always connected by lemma \ref{ConnectedPathConnectedSpace},
-and in a locally path-connected space is it also open (lemma \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}).
-This means that the path-connected components are also connected components.
+and in a locally path-connected space is it also open (prop. \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}).
+This means that the path-connected components are maximal connected suspaces, and hence must be the connected components.
 
 Conversely let $U$ be a connected component. It is now sufficient to see that this is
 path-connected. Suppose it were not, then it would be covered by
 more than one disjoint non-empty path-connected components.
-But by lemma \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen} these
-would be all open. This would be in contradiction with the assumption that
+But by prop. \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen} these
+would all be open. This would be in contradiction with the assumption that
 $U$ is connected. Hence we have a [[proof by contradiction]].
 
 =--
@@ -14991,7 +15001,7 @@ $$
 the vertical morphism in the middle on the right is unique, by the fact that all other
 morphisms in the diagram on the right are invertible.
 
-Therefore there is a unique vector bundle homomorphism
+Therefore by example \ref{ClosedSubspacesGluing} there is a unique vector bundle homomorphism
 
 $$
   f\;\colon\; E(c_1) \to E(c_2)
