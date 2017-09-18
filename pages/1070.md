@@ -21,7 +21,7 @@
 
 ## Idea
 
-Derived categories were introduced by [[Jean-Louis Verdier]] in his thesis under the supervision of [[Alexandre Grothendieck]].  It was originally used to extend [[Serre duality]] to a relative context.  See [[Hartshorne]]'s lecture notes "Residues and duality".
+Derived categories were introduced by [[Jean-Louis Verdier]] in his thesis under the supervision of [[Alexandre Grothendieck]].  It was originally used to extend [[Serre duality]] to a relative context.  See [[Robin Hartshorne|Hartshorne]]'s lecture notes "Residues and duality".
 
 The _derived category_ $D(\mathcal{A})$ of an [[abelian category]] $\mathcal{A}$ is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[(∞,1)-category of chain complexes]] in $\mathcal{A}$: the [[localization]] of the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ at the [[quasi-isomorphisms]].
 
@@ -48,7 +48,7 @@ $$
 the [[quasi-isomorphisms]] of [[chain complexes]] become true [[isomorphisms]]
 and that $D(\mathcal{A})$ is [[universal property|universal]] with respect to this property.
 
-Hence the derived category is an approximation to the full [[simplicial localization]] of $K(\mathcal{A})$. It is or can be equipped with several further [[properties]] and [[structure]] that give a more accurate approximation. Notably every derived category is a _[[triangulated category]]_, wich is a way of remembering the [[suspension]] and de-suspension operations on its objects -- the [[suspension of chain complexes]] -- hence its "[[stable (infinity,1)-category|stability]]".
+Hence the derived category is an approximation to the full [[simplicial localization]] of $K(\mathcal{A})$. It is or can be equipped with several further [[properties]] and [[structure]] that give a more accurate approximation. Notably every derived category is a _[[triangulated category]]_, which is a way of remembering the [[suspension]] and de-suspension operations on its objects -- the [[suspension of chain complexes]] -- hence its "[[stable (infinity,1)-category|stability]]".
 
 ## Definition 
 
