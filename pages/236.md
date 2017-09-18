@@ -35,7 +35,7 @@ $\rho : S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $
 * a morphism from $s \in S$ to $s' \in S$ is a group element $g \in G$ with $g s = s'$.  So, a general morphism is a pair $(g,s) : s \to g s$.
 
 * The composite of $(g,s) : s \to g s = s'$ and $(g',s'): 
-s \to g's'$ is $(g' g, s) : s \to g' g s$.
+s' \to g's'$ is $(g' g, s) : s \to g' g s$.
 
 Equivalently, we may define the _action groupoid_ $S//G$ to be the groupoid
 $$
