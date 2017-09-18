@@ -16,7 +16,7 @@
 
 ## Idea
 
-The $\mathbb{Z}_2$-[[orbifold]]/[[higher orientifold]] fixed point manifold in [[Hořava-Witten theory]] might be called it _[[O-plane|O9-plane]]_ but is often called the _M9-brane_, even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
+The $\mathbb{Z}_2$-[[orbifold]]/[[higher orientifold]] fixed point manifold in [[Hořava-Witten theory]] might be called it _[[O-plane|O9-plane]]_ but is often called the _M9-brane_ (e.g. [Moore-Peradze-Saulina 04](#MoorePeradzeSaulina04)), even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
 
 In ([Hull 97, pages 8-9](#Hull97)) the M9-brane was argued to be the object whose charge is the [[Hodge duality|Hodge dual]] to the time-component of the [[M2-brane]] charge as it appears in the [[M-theory super Lie algebra]] via
 
@@ -69,6 +69,7 @@ See also
 
 * [[Paul Howe]], A. Kaya, [[Ergin Sezgin]], P. Sundell, _Codimension One Branes_ ([arXiv:hep-th/0001169](http://arxiv.org/abs/hep-th/0001169))
 
+* {#MoorePeradzeSaulina04} [[Gregory Moore]], Grigor Peradze, [[Natalia Saulina]], _Instabilities in heterotic M-theory induced by open membrane instantons_, Nucl.Phys. B607 (2001) 117-154 ([arXiv:hep-th/0012104](http://arxiv.org/abs/hep-th/0012104))
 
 * Takeshi Sato, _On M-9-branes and their dimensional reductions_ ([arXiv:hep-th/0102084](http://arxiv.org/abs/hep-th/0102084))
 
