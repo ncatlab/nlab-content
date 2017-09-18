@@ -3056,13 +3056,8 @@ A definite globalization, of this 3-cocycle over a $\mathbb{R}^{3\vert \mathbf{2
 ###### Proposition
 
 The joint [[nLab:stabilizer]] of $GL(\mathbb{R}^{2,1\vert 2})$
-of the Lie bracket and the 3-cocycle is the [[nLab:spin group]] $Spin(2,1)$,
+of the Lie bracket and the 3-cocycle is the [[nLab:pin group]] $Pin(2,1)$, the unoriented generalization of the [[nLab:spin group]] $Spin(2,1)$, 
 the [[nLab:double cover]] of the [[nLab:Lorentz group]] $SO(2,1)$.
-
-There are two inequivalent ways to embed $Spin(2,1) \to GL(\mathbb{R}^{2,1\vert 2})$.
-We write $\mathbb{R}^{2,1\vert \mathbf{2}}$ and 
-$\mathbb{R}^{2,1\vert \overline{\mathbf{2}}}$ to distinguish 
-3d super Minkowski spacetime equipped with these two actions.
 
 =--
 
@@ -3089,7 +3084,7 @@ $$
 ###### Proposition
 
 There is a 1-dimensional space of $Spin(2,1)$-invariant 2-cocycles
-on $\mathbb{R}^{2,1\vert \mathbf{2} + \overline{\mathbf{2}}}$.
+on $\mathbb{R}^{2,1\vert \mathbf{2} + \overline{\mathbf{2}}$.
 The [[nLab:Lie algebra extension]] classified by that 
 is 4d [[nLab:super Minkowski spacetime]]
 
@@ -3099,7 +3094,7 @@ $$
     \\
     \downarrow
     \\
-    \mathbb{R}^{2,1\vert \mathbf{2}+\overline{\mathbf{2}}}
+    \mathbb{R}^{2,1\vert \mathbf{2}+{\mathbf{2}}}
     &\longrightarrow&
     \mathbf{B}\mathbb{R}
   }
