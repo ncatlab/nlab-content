@@ -265,7 +265,7 @@ Write $Grpd(\mathcal{C})$ for the [[(∞,1)-category]] of groupoid objects in $\
 
 =--
 
-The equivalence follows with [[HTT|HTT prop. 6.2.1.6]], see at _[groupoid object -- equivalent characterizations](groupoid+object+in+an+%28infinity%2C1%29-category#EquivalentCharacterizations)_.
+The equivalence follows with [[HTT|HTT prop. 6.1.2.6]], see at _[groupoid object -- equivalent characterizations](groupoid+object+in+an+%28infinity%2C1%29-category#EquivalentCharacterizations)_.
 
 +-- {: .num_remark }
 ###### Remark
