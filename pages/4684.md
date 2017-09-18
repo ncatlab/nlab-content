@@ -25,6 +25,29 @@ Often one is interested in extra structure on topological manifolds, that make t
 
 ## Definition
 
++-- {: .num_defn #LocallyEuclideanSpace}
+###### Definition
+**(locally Euclidean topological space)**
+
+A [[topological space]] $X$ is _locally Euclidean_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(locally Euclidean spaces are $T_1$ but not necessarily $T_2$)**
+
+It might superficially seem that every locally Euclidean space (def. \ref{LocallyEuclideanSpace}) is necessarily a [[Hausdorff topological space]], since [[Euclidean space]], like any [[metric space]], is Hausdorff, and since by definition the neighbourhood of every point in a locally Euclidean spaces looks like Euclidean space.
+
+But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, Hausdorffness is a "non-local condition", as opposed to the $T_0$ and $T_1$ [[separation axioms]].
+
+Every locally Euclidean space is $T_1$: Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$. By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may set $U_x \coloneqq E_x$. If it does, then $x \neq y$ are two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+
+
+=--
+
+
+
 +-- {: .num_defn #TopologicalManifold}
 ###### Definition
 **(topological manifold)**
@@ -41,10 +64,13 @@ such that
 
 =--
 
-+-- {: .num_example}
-###### Counter-Example
 
-An example of a [[topological space]] which is locally Euclidean as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a topological manifold in the usual sense, is the [[line with two oigins]].
+
++-- {: .num_example #NonHausdorffManifolds}
+###### Counter-Example
+**([[non-Hausdorff manifolds]])**
+
+An example of a [[topological space]] which is locally Euclidean as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a topological manifold in the usual sense, is the [[line with two origins]].
 
 =--
 
@@ -96,7 +122,7 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 
 +-- {: .num_defn #Differentiable manifold}
 ###### Definition
-**([[differntiable manifold|differentiable]] and [[smooth manifolds]])**
+**([[differentiable manifold|differentiable]] and [[smooth manifolds]])**
 
 For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ is 
 
@@ -148,4 +174,10 @@ See also
 
 
 [[!redirects topological manifolds]]
+
+[[!redirects locally Euclidean topological space]]
+[[!redirects locally Euclidean topological spaces]]
+
+[[!redirects locally Euclidean space]]
+[[!redirects locally Euclidean spaces]]
 
