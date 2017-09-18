@@ -1,4 +1,4 @@
 
-* [webpage](http://home.germany.net/brandt/)
+* [papers on the arXiv](https://arxiv.org/a/brandt_f_1.html)
 
 category: people
