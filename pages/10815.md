@@ -174,38 +174,60 @@ $$
   \,.
 $$
 
-Moreover, by the convergence of the [[Serre spectral sequence]], there are [[short exact sequences]] of the form
+Finally observe (lemma \ref{lemma}) that due to the sparseness of the $E_\infty$-page, there are also [[short exact sequences]] of the form
 
 $$
-  \array{
-     0 && && 0
-     \\
-     \downarrow && && \downarrow
-     \\
-     E_\infty^{s,0} &&  \simeq &&  F^s H^s(E; R)
-     \\
-     \downarrow && && \downarrow
-     \\
-     H^s(E; R) && = && H^s(E; R)
-     \\
-     \downarrow && && \downarrow
-     \\
-     E_\infty^{s-n,n} 
-       & \simeq & 
-     \frac{F^{s-n}H^s(E;R)}{F^{s-n+1}H^s(E;R)} 
-       & \simeq &
-     \frac{H^s(E;R)}{F^s H^s(E;R)}
-     \\
-     \downarrow && && \downarrow
-     \\
-     0 && && 0
-  }
+  0 \to E_\infty^{s,0} \longrightarrow H^s(E; R) \longrightarrow  E_\infty^{s-n,n} \to 0
   \,.
 $$
 
-Concatenating these two collections of exact sequences yields the [[long exact sequence]] in question.
+Concatenating these with the above exact sequences yields the desired [[long exact sequence]].
 
 =--
+
++-- {: .num_lemma #lemma}
+###### Lemma
+
+For a cohomology [[spectral sequence]] converging to some $C^\bullet$ with the property that $E_\infty^{s,t} = 0$ unless $t = 0$ or $t = n$, then there are [[short exact sequences]] of the form
+
+$$
+  0 \to E_\infty^{s,0} \longrightarrow C^s \longrightarrow  E_\infty^{s-n,n} \to 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of convergence the $E_{\infty}^{s,t}$ sit in [[short exact sequences]] of the form
+
+$$
+  0 \to F^{s+1}C^{s+t} \longrightarrow F^s C^{s+t} \longrightarrow E_\infty^{s,t} \to 0
+$$
+
+and so for $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s+t} \simeq C^{s+t}$.
+
+Similarly for $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{s+1+t-1} = E_\infty^{s+t,0}$. 
+
+Hence the defining exact sequence
+
+$$
+  0 \to F^{s+1}C^{s+n} \longrightarrow F^{s}C^{s+n} \longrightarrow E_\infty^{s,n} \to 0
+$$
+
+is 
+
+$$
+  0 \to E_\infty^{s+n,0} \longrightarrow C^{s+n} \longrightarrow E_\infty^{s,n}
+ \to 0
+  \,.
+$$
+
+
+
+=--
+
 
 ## Related concepts
 
