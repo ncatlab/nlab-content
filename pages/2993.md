@@ -122,7 +122,7 @@ Similarly, the set of polynomials in any given [[set]] of variables with coeffic
 +-- {: .num_remark #substitution} 
 ###### Remark 
 As usual in the study of universal algebra via [[Lawvere theories]], there is an [[operad]] whose $n^{th}$ component $C_n$ is the free algebra $R[x_1, \ldots, x_n]$, and whose operadic multiplication is given by maps 
-$$C_n \times C_{n_1} \times \ldots \times C_{n_k} \to C_n$$ 
+$$C_k \times C_{n_1} \times \ldots \times C_{n_k} \to C_n$$ 
 ($n = n_1 + \ldots + n_k$) that take a tuple of elements $(p; q_1, \ldots, q_k)$ to $p(q_1(x), \ldots, q_k(x))$. Formally, it takes this tuple to the value of $p$ under the unique algebra map $R[x_1, \ldots, x_k] \to R[x_1, \ldots, x_n]$ that extends the mapping $x_j \mapsto i_j(q_j)$. Here the $i_j: R[x_1, \ldots, x_{n_j}] \to R[x_1, \ldots, x_n]$ are appropriate coproduct inclusions (in the category of commutative rings), where $i_j(x_l) = x_{n_1 + \ldots + n_{j-1} + l}$. A particularly important case of substitution is the case $k=1$ and $n_1 = 1$, where the map $R[x] \times R[x] \to R[x]$ is ordinary substitution $(p, q) \mapsto p(q(x))$. This is a special case of the more general notion of [[Tall-Wraith monoid]]. 
 =-- 
 
