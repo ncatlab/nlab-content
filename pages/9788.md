@@ -20,7 +20,7 @@ In
 
 the existence of D9-branes is argued from [[BPS state]] considerations. The [[S-duality]] doublet 9-brane in [[type II string theory]] "$(p,q)$-9-brane" is mentioned in section 6.
 
-The [[Green-Schwarz sigma-model]] description of $(p,q)$-branes is obtained in 
+The [[Green-Schwarz sigma-model]] description of $(p,q)$-9-branes via cocycles on [[extended super Minkowski spacetimes]] is obtained in 
 
 * {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
