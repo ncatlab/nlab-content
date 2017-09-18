@@ -5,8 +5,9 @@
 
 ## Idea
 
-Bayesian [[reasoning]] is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  It relies on an interpretation of probabilities as expressions of an agent's uncertainty about the world, rather than as concerning some notion of objective chance in the world. The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]], where knowledge of the truth or falsity of a proposition  corresponds to adopting the extreme probabilities $1$ and $0$.
+Bayesian [[reasoning]] is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  It relies on an interpretation of probabilities as expressions of an agent's uncertainty about the world, rather than as concerning some notion of objective chance in the world. The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]], where knowledge of the truth or falsity of a proposition  corresponds to adopting the extreme probabilities $1$ and $0$. 
 
+Several advantages to this interpretation have been proposed. For one thing, it is possible to have (rational) degrees of belief about a wide range of propositions, including matters which are settled, yet unknown. For example, it is possible to speak of the probability of the value of a constant of nature falling within a given interval on the basis of various pieces of evidence, or of the outcome of a coin that has already been tossed. This interpretation of probability beyond limiting frequences leads, so advocates such as [[Edwin Jaynes]] claim, to a more integrated treatment of probability theory and statistics.
 
 ## Dutch Book justification
 
@@ -46,7 +47,7 @@ For some Bayesians, degrees of belief must satisfy further restrictions. One ext
 
 Some such restrictions are generally accepted. If, for example, all I know of an event is that it has $n$ possible outcomes, the objective Bayesian will apply the principle of indifference to set their degrees of belief to $1/n$ for each outcome. On the other hand, if there is background knowledge concerning differences between the outcomes, indifference need not hold. This principle of indifference can be generalized to other kinds of invariance, such as the Jeffreys prior ([wiki](http://en.wikipedia.org/wiki/Jeffreys_prior)). 
 
-Other objective Bayesian principles include maximum entropy (see [Jaynes 2003](#Jaynes)). For instance, Jaynes argues that if all that is known of a die is that the mean value of throws is equal to, say, 4, then a prior distribution over $\{1, 2, 3, 4, 5, 6\}$ should be chosen which maximizes [[entropy]], subject to the constraint that the mean is 4.
+Other objective Bayesian principles include maximum entropy (see [Jaynes 2003](#Jaynes)). For instance, Jaynes argues that if all that is known of a die is that the mean value of throws is equal to, say, 4, then a prior distribution over $\{1, 2, 3, 4, 5, 6\}$ should be chosen which maximizes [[entropy]], subject to the constraint that the mean is 4. Many familiar distributions are maximum entropy distributions, subject to moment constraints. For instance, the Normal distribution, $N(\mu, \sigma^2)$, is the distribution over the reals which maximises entropy subject to having mean $\mu$ and variance $\sigma^2$.
 
 ##References
 
