@@ -5,7 +5,7 @@
 
 ## Idea
 
-An $n$th _root of unity_ in a [[ring]] $R$ is an element $x$ such that $x^n = 1$ in $R$, hence is a [[root]] of the [[equation]] $x^n = 0$.
+An $n$th _root of unity_ in a [[ring]] $R$ is an element $x$ such that $x^n = 1$ in $R$, hence is a [[root]] of the [[equation]] $x^n-1 = 0$.
 
 ## Properties
 
