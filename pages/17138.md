@@ -1686,7 +1686,9 @@ For instance a _[[multiplicative cohomology theory]]_ is one which is represente
 
 (-- from here on we need the basics of [Interlude: Spectral sequences](#SpectralSequences) --)
 
-Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ which serves to compute $E$-cohomology of any space $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E_\bullet(\ast)$.
+Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of any finite [[CW-complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E^\bullet(\ast)$.
+
+The AHSS in turn is a direct consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
 
 ### **Part S2) Cobordism theory**
 
