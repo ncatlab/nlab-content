@@ -22,7 +22,7 @@
 The notion of an _idempotent_ [[morphism]] in a [[category]] generalizes the notion of _[[projector]]_ in the context of [[linear algebra]]: it is an [[endomorphism]] $e \colon X \to X$ of some [[object]] $X$ that "squares to itself" in that the [[composition]] of $e$ with itself is again $e$:
 
 $$
-  e \circ e \simeq e
+  e \circ e = e
   \,.
 $$
 
