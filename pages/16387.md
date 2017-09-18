@@ -34,6 +34,7 @@ While the  [[light-cone gauge quantization]] of the [[Green-Schwarz super p-bran
 [[!include brane scan]]
 
 ## References
+ {#References}
 
 * {#YuZhang98} Ming Yu, Bo Zhang, _Light-Cone Gauge Quantization of String Theories on AdS3 Space_, Nucl.Phys. B551 (1999) 425-449 ([arXiv:hep-th/9812216](http://arxiv.org/abs/hep-th/9812216))
 
