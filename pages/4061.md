@@ -22,7 +22,7 @@ The intention of this page is to list a wide choice of main books and comprehens
 
 Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical physics, special functions, [[generalized function]]s, analytic functions, basic [[functional analysis]], potential theory:
 
-* R. Courant, D. Hilbert, _Methods of mathematical physics_, 2 vols. 
+* R. Courant, [[David Hilbert]], _Methods of mathematical physics_, 2 vols. 
 
 * P. M. Morse, H. Feshbach, _Methods of theoretical physics I, II, [publisher](http://www.feshbachpublishing.com)
 
@@ -42,6 +42,8 @@ Here PDEs, [[differential equation|ODE]]s, and integral equation of mathematical
 * R. Abraham, J. Marsden, _The Foundations of Mechanics_, Benjamin Press, 1967, Addison-Wesley, 1978; large pdf 86 Mb free at [CaltechAuthors](http://resolver.caltech.edu/CaltechBOOK:1987.001)
 
 * [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986
+
+* [[Vicente Cortés]], Alexander S. Haupt, _Lecture Notes on Mathematical Methods of Classical Physics_, ([arXiv:1612.03100](https://arxiv.org/abs/1612.03100))
 
 ## Mathematical introduction to quantum mechanics
 
