@@ -163,7 +163,7 @@ Lecture notes on characters of finite and compact Lie groups include
 * Andrei Yafaev, _Characters of finite groups_ ([pdf](http://www.ucl.ac.uk/~ucahaya/Characters.pdf))
 
 
-Discussion for finite groups in the more general context of [[equivariant cohomology|equivariant]] [[complex oriented cohomology theory]] is in
+Discussion for finite groups in the more general context of [[equivariant cohomology|equivariant]] [[complex oriented cohomology theory]] ([[transchromatic character]]) is in 
 
 * [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
