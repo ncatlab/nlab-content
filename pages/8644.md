@@ -23,7 +23,9 @@ In [[QCD]] [[instanton]] configurations of the [[gauge field]] control the exper
 
 One considers QCD on a [[Minkowski spacetime]] [[Wick rotation|Wick rotated]] to a Euclidean $\mathbb{R}^4$ and assumes the [[field strength]] to [[vanish at infinity]]. This makes the gauge field configurations be equivalently $SU(3)$-[[principal connections]] on the 4-[[sphere]] $S^4$. The [[second Chern class]] of the underlying $SU(3)$-[[principal bundle]] is called the [[Yang-Mills instanton]]-number of the gauge field configuration. The theoretical/experimentally observed [[vacuum]] of [[QCD]] is some [[superposition]] of gauge fields in various instanton number sectors.
 
-In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see for instance ([Schaefer-Shuryak](#SchaeferShuryak)) for a good survey.
+In particular the **instanton liquid model** in QCD assumes that the [[vacuum]] (ground state of QCD) is populated by instanton field configurations of average radius $1/3 fm$ ([[femtometres]]) with a density of 1 such instanton per $fm^4$. Some details of this model remain subtle, see notably ([Schaefer-Shuryak](#SchaeferShuryak)) for a survey.
+
+This instanton sea model suffers however from infrared divergencies that either require a finite-volume cutoff or appeal to other effects (e.g. [Witten 98](#Witten98)). 
 
 ## Experimental evidence
 
@@ -99,7 +101,7 @@ Physics-style  surveys include the introductory lecture notes
 
 and the fairly detailed account (with lot of pointers to the literature)
 
-* {#SchaeferShuryak98} T. Schaefer, [[Edward Shuryak]], _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
+* {#SchaeferShuryak98} [[Thomas Schaefer]], [[Edward Shuryak]], _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
   
 
   {#SchaeferShuryak} section III D: relation to [[confinement]]
@@ -139,6 +141,21 @@ Discussion in the context of the [[quark-gluon plasma]] includes
 * {#Shuryak01} [[Edward Shuryak]], _Nonperturbative QCD and Quark-Gluon Plasma_, lectures at Trieste, 2001 ([pdf](http://users.ictp.it/~pub_off/lectures/lns010/Shuryak/Shuryak.pdf))
 
 * Nikolai Kochelev, _Ultra-light Glueballs in Quark-Gluon Plasma_ ([arXiv:1501.07002](http://arxiv.org/abs/1501.07002))
+
+Discussion of the infrared problem of the QCD instanton vacuum model includes
+
+* {#Witten98} [[Edward Witten]], _Theta Dependence In The Large N Limit Of Four-Dimensional Gauge Theories_, Phys.Rev.Lett.81:2862-2865,1998 ([arXiv:hep-th/9807109](http://arxiv.org/abs/hep-th/9807109))
+
+Discussion of instantons in [[lattice gauge theory]] includes
+
+* {#Moore03} Guy Moore, section 7 of _Informal lectures on lattice gauge theory_, 2003 ([pdf](http://www.physics.mcgill.ca/~guymoore/latt_lectures.pdf))
+
+* {#Gruber13} Florian Gruber, _Topology in dynamical Lattice QCD simulations_, 2013 ([web](http://epub.uni-regensburg.de/27631/), [pdf](http://epub.uni-regensburg.de/27631/1/dissertation.pdf))
+
+Discussion of the $\eta'$-mass from instantons includes
+
+* [[Thomas Schaefer]], _QCD and the eta prime Mass: Instantons or Confinement?_, Phys.Rev. D67 (2003) 074502 ([arXiv:hep-lat/0211035](http://arxiv.org/abs/hep-lat/0211035))
+
 
 [[!redirects instantons in QCD]]
 [[!redirects instanton in quantum chromodynamics]]
