@@ -45,12 +45,12 @@ $$
   \,.
 $$
 
-It is topologized via identification with the set $\{(x, x^{-1}) \in \mathbb{A}_\mathbb{Q}^2: \; x \in \mathbb{I}_\mathbb{Q}\}$, seen as a [[subspace]] of $\mathbb{A}_\mathbb{Q}^2$. 
+It is a [[topological group]] via identification with the set $\{(x, x^{-1}) \in \mathbb{A}_\mathbb{Q}^2: \; x \in \mathbb{I}_\mathbb{Q}\}$, seen as a [[subspace]] of $\mathbb{A}_\mathbb{Q}^2$. 
 =--
 
 +-- {: .num_remark} 
 ###### Remark 
-The topology on $\mathbb{I}_\mathbb{Q}$ is strictly finer than the subspace topology inherited from $\mathbb{A}_\mathbb{Q}$. For example, the set $\mathbb{R}^\times \times \prod_p \mathbb{Z}_p^\times$ is a neighborhood of $1$ in $\mathbb{I}_\mathbb{Q}$, but not in the subspace topology. Cf. the discussion [here](https://math.stackexchange.com/a/145452/43208). 
+The topology on $\mathbb{I}_\mathbb{Q}$ is strictly finer than the subspace topology inherited from $\mathbb{A}_\mathbb{Q}$. For example, the set $\mathbb{R}^\times \times \prod_p \mathbb{Z}_p^\times$ is a neighborhood of $1$ in $\mathbb{I}_\mathbb{Q}$, but not in the subspace topology. Cf. the discussion [here](https://math.stackexchange.com/a/145452/43208). Note: multiplicative inversion is not continuous in the subspace topology. 
 =-- 
 
 The same definition holds for the [[ring of adeles]] of any other [[global field]] $K$, here one writes
@@ -59,7 +59,7 @@ $$
   \mathbb{I}_K \coloneqq GL_1(\mathbb{A}_K)
 $$
 
-or similar.
+or similar. The notation $J_K$ is also common. 
 
 +-- {: .num_defn #IdeleClassGroup}
 ###### Definition
