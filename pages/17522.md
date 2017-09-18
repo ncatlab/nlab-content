@@ -21,6 +21,8 @@
 
 Given two [[vector bundles]] $V_1 \to X$ and $V_2 \to X$ over the same base space $X$, their _tensor product of vector bundles_ $V_1 \otimes V_2 \to X$ is the vector bundle over $X$ whose [[fiber]] over any point is the [[tensor product of vector spaces]] (i.e. the [[tensor product of modules]]) of the respective fibers of $V_1$ and $V_2$.
 
+The tensor product of vector bundles makes the category [[Vect(X)]] into a [[symmetric monoidal category|symmetric]] [[monoidal category]], in fact a [[distributive monoidal category]].
+
 
 ## Definition
 
@@ -86,9 +88,12 @@ $$
 
 ## Related concepts
 
+
 * [[direct sum of vector bundles]]
 
 * [[dual vector bundle]]
+
+* [[tensor product]]
 
 * [[tensor category]]
 
