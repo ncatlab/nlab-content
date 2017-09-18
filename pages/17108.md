@@ -1,0 +1,12 @@
+
+## Idea
+
+[[spin group|Spin(n)]] for $n = 7$.
+
+## Related concepts
+
+* [[Spin(7)-manifold]]
+
+* [[Spin(7)-instanton]]
+
+[[!include special holonomy table]]
