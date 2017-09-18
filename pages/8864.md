@@ -23,7 +23,7 @@ For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also
 
 ## Related concepts
 
-* [[tensor product of vector bundles]]
+* [[tensor product of vector bundles]], [[dual vector bundle]], [[tensor category]]
 
 * [[Stiefel-Whitney class]]
 
