@@ -15,6 +15,8 @@ A vector bundle minus its zero-section is a [[spherical fibration]].
 
 * [[Thom space]], [[Thom spectrum]]
 
+* [[projective bundle]]
+
 [[!redirects zero-section]]
 
 [[!redirects zero sections]]
