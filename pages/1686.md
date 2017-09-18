@@ -153,7 +153,7 @@ have [[domain]] and [[codomain]] necessarily in different rows an columns (while
 +-- {: .num_defn #Convergence}
 ###### Definition
 
-A [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ is said to **converge** to a [[graded object]] $H_\bullet$ with [[filtered chain complex|filtering]] $F_\bullet H_\bullet$, traditionally denoted
+A [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ **converges weakly** to a [[graded object]] $H_\bullet$ with [[exhaustive filtering]] $F_\bullet H_\bullet$, traditionally denoted
 
 $$
   E^r_{p,q} \Rightarrow H_\bullet
@@ -167,25 +167,32 @@ $$
   \,.
 $$
 
+Furthermore one says that $E$
+
+* **converges** if $F_\bullet$ is also a [[Hausdorff filtration]];
+
+* **converges strongly** if $F_\bullet$ is also a [[complete Hausdorff filtration]].
+
 =--
 
-(See also _[[conditional convergence]]_.)
+([Boardman 99, def. 2.5](#Boardman99)) See also _[[conditional convergence]]_.
 
 +-- {: .num_remark }
 ###### Remark
 
-In practice spectral sequences are often referred to via their first interesting page, usually the first or the second Then one often uses notation such as
+In practice, spectral sequences are often referred to via their first interesting page, usually the first or the second. Then one often uses notation such as
 
 $$
-  E^1_{p,q} \Rightarrow H_\bullet
+  E^1_{p,q} \;\Rightarrow\; H_\bullet
 $$
 
+or
 
 $$
-  E^2_{p,q} \Rightarrow H_\bullet
+  E^2_{p,q} \;\Rightarrow\; H_\bullet
 $$
 
-to be read as "There is a spectral sequence whose firdt/second page is as shown on the left and which converges to a filtered object as shown on the right."
+to be read as "There is a spectral sequence whose first/second page is as shown on the left and which converges (weakly, strongly, or conditionally) to a filtered object as shown on the right."
 
 =--
 
@@ -743,7 +750,6 @@ Cohomological spectral sequences are compatible with [[cup product]] structure o
 
 * [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
 
-
 ### Abelian/stable theory
 
 An elementary pedagogical introduction is in 
@@ -791,10 +797,7 @@ Reviews of and lecture notes on standard definitions and facts about spectral se
 
 * Brandon Williams, _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
 
-Original articles incluce
-
-* [[Michael Boardman]], _Conditionally convergent spectral sequences_ ([pdf](http://hopf.math.purdue.edu/Boardman/ccspseq.pdf))
- {#Boardman}
+* {#Boardman99} [[Michael Boardman]], _Conditionally convergent spectral sequences_, 1999 ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/boardman-conditionally-1999.pdf))
 
 See also 
 
