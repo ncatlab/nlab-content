@@ -250,6 +250,9 @@ Discussion of jet-restriction of the [[Haefliger groupoid]] is in
 * Arne Lorenz, _Jet Groupoids, Natural Bundles
 and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf))
 
+Discussion of jet bundles in [[supergeometry]] includes
+
+* Arthemy V. Kiselev, Andrey O. Krutov, appendix of _On the (non)removability of spectral parameters in $\mathbb{Z}_2$-graded zero-curvature representations and its applications_ ([arXiv:1301.7143](http://arxiv.org/abs/1301.7143))
 
 [[!redirects jet bundles]]
 
