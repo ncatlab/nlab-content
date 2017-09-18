@@ -5666,7 +5666,7 @@ $$
   \,.
 $$
 
-This is clearly $A \sqcup \ast \sqcup B$. Then, by definition \ref{SmashProductOfPointedObjects}
+This is clearly $X \sqcup \ast \sqcup Y$. Then, by definition \ref{SmashProductOfPointedObjects}
 
 $$
   \begin{aligned}
