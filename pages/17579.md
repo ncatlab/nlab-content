@@ -116,6 +116,13 @@ Let $(\mathcal{C}, J_{at})$ be an atomic site. Then $Sh(\mathcal{C}, J_{at})$ is
 The main idea is to consider the full subcategory $\mathcal{C}'$ on those objects $U$ with $\emptyset\notin J_{at}(U)$ together with the [[dense sub-site|induced topology]] $J'_{at}=J_{at}|_{\mathcal{C}'}$. Then one shows that $\mathcal{C}'$ satisfies the Ore condition and concludes by the [[comparison lemma]] that $Sh(\mathcal{C}', J'_{at})\simeq Sh(\mathcal{C}, J_{at})$. For the details see Caramello ([2012](#Ca12), prop.1.4).
 =--
 
++-- {: .num_example}
+###### Example
+
+Consider the category $\mathcal{C}$ on the 'walking co-span' $\bullet\rightarrow \bullet \leftarrow \bullet$. $\mathcal{C}$ is connected but does not satisfy the [[Ore condition]]. Then according to a remark in Caramello ([2012](#Ca12),rem.1.5.) the subcategory $\mathcal{C}'$ is empty and $Sh(\mathcal{C},J_{at})\simeq 1$ is degenerate and, in particular,  $Sh(\mathcal{C},J_{at})$ is not equivalent to $Sh(\mathcal{C},J_d)\simeq Sh_{\neg\neg}(Set^{\bullet\leftarrow\bullet\rightarrow\bullet})$ since the latter is equivalent to the non-atomic topos $Set\times Set$. In particular, the atomic topology on a category will be distinct from the [[dense topology]] in general.
+
+Further details on $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$, the topos of hypergraphs, may be found at [[hypergraph]].
+=--
 
 ## Related entries
 
