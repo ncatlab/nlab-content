@@ -1,0 +1,14 @@
+
+
+## Idea
+
+[[complexity theory]] and [[physics]]
+
+## Related concepts
+
+* [[computable physics]]
+
+## References
+
+* Stephan Mertens, _Computational Complexity for Physicists_ ([arXiv:cond-mat/0012185](http://arxiv.org/abs/cond-mat/0012185))
+
