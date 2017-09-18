@@ -17,10 +17,11 @@
 A **Freyd category** [Levy 04](#Levy04) may be defined as
 
 * a [[small category]] $\mathbb{V}$ with [[finite products]];
-* a small category $\mathbb{C}$;
+* a small category $\mathbb{C}$, that has the same objects as $\mathbb{V}$[^sameObjs];
 * an [[action]] of $\mathbb{V}$ on $\mathbb{C}$ (with the finite products providing a [[symmetric monoidal category|symmetric monoidal structure]] for $\mathbb{V}$)
-* an identity-on-objects [[functor]] $\mathbb{V} \to \mathbb{C}$ that preserves the actions.
+* an [[identity-on-objects functor]] $\mathbb{V} \to \mathbb{C}$ that preserves the actions.
 
+[^sameObjs]: Having the same objects is required or implied by having an identity-on-objects functor from $\mathbb{V}$ to $\mathbb{C}$.
 ## Properties
 
 ### Relation to Lawvere theories
