@@ -104,6 +104,8 @@ Then statement 3 is the [[contraposition]] of the second, and contrapositives ar
 
 The closed-subset formulations of compactness appear frequently and are often more convenient. For example, [[compactness theorems]] in [[model theory]] draw on a connection between the finite intersection property and finite satisfiability of sets of axioms. 
 
+### Compactness for locales 
+
 In another direction, the definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  Here is an equivalent way to phrase it that is often convenient for locale theory. 
 
 +-- {: .num_prop #directed}
