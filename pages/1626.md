@@ -234,9 +234,60 @@ If $S \subseteq X$ is a connected subspace and $S \subseteq T \subseteq \overlin
 
 (see also prop. \ref{ClosureOfConnectedSubspaceIsConnected} below)
 
-+-- {: .num_remark #3}
-###### Result
-An arbitrary [[product]] of connected spaces is connected. (This relies on some special features of $Top$. Discussion of this point can be found at [connected](/nlab/show/connected+object#prod) [object](/nlab/show/connected+object#prod2).)
++-- {: .num_example #ProductSpaceOfConnectedSpacesIsConnected}
+###### Example
+**([[product space]] of connected spaces is connected)
+
+Let $\{X_i\}_{i \in I}$ be a set of connected spaces. Then also their [[product topological space]]
+$\underset{i \in I}{\prod}X_i$ (with the [[Tychonoff topology]]) is connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This relies on some special features of [[Top]]
+An general abstract proof is given at _[[connected object]]_ in [this theorem](connected+object#prod)
+and [this remark](connected+object#prod2).
+
+Here is an alternative elementary proof in [[point-set topology]]:
+
+Let $U_1, U_2 \subset \underset{i \in I}{\prod}X_i$ be an [[open cover]]
+of the product space by two disjoint open subsets. We need to show that precisely one of the two
+is empty. Since each $X_i$ is connected and hence non-empty, the product space is not empty, and hence
+it is sufficient to show that at lest one of the two is empty.
+
+Assume on the contrary that we could find $x_1 \in U_1$ and $x_2 \in U_2$.
+Observe that this would mean that these two points could differ only in a finite number of their
+coordinates: Because they must be contained in disjoint [[base of a topology|base opens]]
+and by the nature of the base opens of the  [[Tychonoff topology]] any two differ in only a finite number of variables.
+
+Observe that this would mean that we could find $x'_1 \in U_1$ that differed only in a single coordinate from $x_2$:
+Because pick one coordinate in which $x_1$ differs from $x_2$ and change it to the corresponding coordinate of $x_2$.
+Since $U_1$ and $U_2$ are a cover, the resulting point is either in $U_1$ or in $U_2$. If it is in $U_2$, then
+$x_1$ already differed in only one coordinate from $x_2$ and we may take $x'_1 \coloneqq x_1$.
+If instead the new point is in $U_1$, then rename it to $x_1$ and repeat the argument. By [[induction]]
+this finally yields an $x'_1$ as claimed.
+
+Therefore it is now sufficient to see that it leads to a contradiction to assume 
+that there are points $x_1 \in U_1$ and $x_2 \in U_2$
+that differ in only the $i_0$th coordinate, for some $i_0 \in I$ then $x_1 = x_2$.
+
+Observe that the inclusion
+
+$$
+  \iota \colon X_{i_0} \longrightarrow \underset{i \in I}{\prod} X_i
+$$
+
+which is the identity on the $i_0$th component and is otherwise constant on the $i$th component of
+$x_1$ or equivalently of $x_2$ is a continuous function, by the nature of the Tychonoff topology.
+
+Therefore also the restrictions $\iota^{-1}(U_1)$ and $\iota^{-1}(U_2)$ are open subsets.
+Moreover they are still disjoint and cover $X_i$. Hence by the connectedness of $X_i$,
+precisely one of them is empty. This means that the $i_0$-component of both $x_1$ and $x_2$
+must be in the other subset of $X_i$, and hence that $x_1$ and $x_2$ must both be in $U_1$
+or both in $U_2$, contrary to the assumption.
+
 =--
 
 +-- {: .num_example #ConnectedSubspacesOfRealLineAreTheIntervals}
@@ -419,7 +470,7 @@ $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\
 provides a classic example where the path component of a point need not be closed. (Specifically, consider a point on the locus of $y = \sin(1/x)$.)
 =--
 
-The basic categorical Results \ref{1}, \ref{2}, and \ref{3} above carry over upon replacing "connected" by "path-connected". (As of course does \ref{EuclideanIntervalIsConnected}, trivially.)
+The basic categorical Results \ref{ContinuousImagesOfConnectedSpacesAreConnected}, \ref{2}, and \ref{ProductSpaceOfConnectedSpacesIsConnected} above carry over upon replacing "connected" by "path-connected". (As of course does \ref{EuclideanIntervalIsConnected}, trivially.)
 
 Finally, as a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete!
 
@@ -551,7 +602,7 @@ takes every value in between $f(a)$ and f(b).
 
 By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} the interval $[a,b]$ is connected.
 By example \ref{ContinuousImagesOfConnectedSpacesAreConnected} also its image $f([a,b]) \subset \mathbb{R}$
-is connected. By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} that image is hence 
+is connected. By example \ref{ConnectedSubspacesOfRealLineAreTheIntervals} that image is hence
 itself an interval. This implies the claim.
 
 =--
