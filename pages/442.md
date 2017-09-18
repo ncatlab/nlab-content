@@ -248,7 +248,7 @@ This is a standard example of a [[free functor]], called the **free $T$-algebra 
 +-- {: .proof}
 ###### Proof
 
-For $S \in $ [[Set]], let $F_T(S)$ be the $T$-algebra whose underlying set is the set of formal expressions $\{f(s_1, \cdots, f_n) | f \in T(n,1), s_i \in S\}$ with the evident composition operation. 
+For $S \in $ [[Set]], let $F_T(S)$ be the $T$-algebra whose underlying set is the set of formal expressions $\{f(s_1, \cdots, s_n) | f \in T(n,1), s_i \in S\}$ with the evident composition operation. 
 
 =--
 
