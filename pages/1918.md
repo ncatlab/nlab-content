@@ -113,7 +113,7 @@ of points:
 
 +-- {: .num_prop #T0InTermsOfClosureOfPoints}
 ###### Proposition
-**(T0 in terms of topological closures)**
+**($T_0$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau)$ is $T_0$ 
 precisely if the function $Cl(\{-\})$
@@ -152,7 +152,7 @@ By definition this means that $(X,\tau)$ is $T_0$.
 
 +-- {: .num_prop #T1InTermsOfClosureOfPoints}
 ###### Proposition
-**(T1 in terms of topological closures)**
+**($T_1$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau)$ is $T_1$ precisely if
 all its points are [[closed points]].
@@ -175,6 +175,31 @@ contain $x$.
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+**($T_2$ in terms of topological closures)**
+
+A [[topological space]] $(X,\tau_X)$ is $T_2$=[[Hausdorff topological space|Hausdorff]] 
+precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightarrow (X \times X, \tau_{X \times X})$ 
+ is a [[closed map]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $(X,\tau_X)$ is Hausdorff, then by definition for every pair of distinct points $x \neq y \in X$ there exists open neighbourhoods
+$U_x, U_y \in \tau_X$ such that $U_x \cap U_y = \emptyset$. In terms of the [[product topology]]
+this means that every point $(x,y) \in X \times X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which
+still does not contain the diagonal. By definition, this means that in fact every [[subset]] of the diagonal is a 
+[[closed subset]] of $X \times X$, hence in particular those that are in the image under $\Delta_X$ of closed subsets of $X$.
+Hence $\Delta_X$ is a closed map.
+
+Conversely, if $\Delta_X$ is a closed map, then the full diagonal (i.e. the image of $X$ under $\Delta_X$) is closed in $X \times X$,
+and hence this means that every points $(x,y) \in X \times X$ not on the diagonal has an open neighbourhood $U_x \times U_y$
+not containing the diagonal, i.e. such that $U_x \cap U_y = \emptyset$. Hence $X$ is Hausdorff.
+
+=--
 
 
 ### Relations between the axioms
