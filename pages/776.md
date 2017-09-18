@@ -27,6 +27,10 @@ $$U \underoverset{b}{a}{\rightrightarrows} V .$$
 
 A coequalizer in $C$ is an [[equalizer]] in the [[opposite category]] $C^{op}$.
 
+## Examples
+
+* In [[Set]], the coequalizer of two [[functions]] $f$, $g$ is the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$.
+
 [[!redirects coequalizers]]
 [[!redirects coequaliser]]
 [[!redirects coequalize]]
