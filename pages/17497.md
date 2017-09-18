@@ -3817,7 +3817,7 @@ Consider the pointed topological diagram categries  (def. \ref{PointedTopologica
 
 * $[Seq,Top^{\ast/}_{cg}]$ is called the category of **sequences** of pointed topological spaces (e.g. [HSS 00, def. 2.3.1](#HoveyShipleySmith00));
 
-* $[Sym,Top^{\ast/}_{cg}]$ is called the category of **symmetric sequences** (e.g. [HSS 00, def. 2.1.1](#HoveyShipleySmith00));
+* $[Sym,Top^{\ast/}_{cg}]$ is called the category of **[[symmetric sequences]]** (e.g. [HSS 00, def. 2.1.1](#HoveyShipleySmith00));
 
 * $[Orth, Top^{\ast/}_{cg}]$ is called the category of **orthogonal sequences**.
 
