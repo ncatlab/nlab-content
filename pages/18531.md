@@ -98,6 +98,8 @@ such that on smooth functions it acts by precomposition with $f$.
 
 * [[scaling degree of a distribution]]
 
+* [[extension of distributions]]
+
 ## References
 
 
