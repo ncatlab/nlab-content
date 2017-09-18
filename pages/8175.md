@@ -46,6 +46,16 @@ This is of interest already for $F \simeq \ast$, as then it expresses generalize
 
 There is a generalization to [[equivariant cohomology theory]] ([Davis-Lueck 98, theorem 4.7](#DavisLueck98)).
 
+For [[genuine G-spectrum|genuine G-equivariance]], with [[RO(G)-grading]] for [[representation spheres]] $S^V$, then for $P \to X$ an $F$-fibration of [[topological G-spaces]] and for $A$ any $G$-[[Mackey functor]], the equivariant Serre spectral sequence looks like ([Kronholm 10, theorem 3.1](#Kronholm10)):
+
+$$
+  E_2^{p,q} = H^p(X, H^{V+q}(F,A)) \,\Rightarrow\, H^{V+p+q}(P,A)
+  \,,
+$$
+
+where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coefficients]] in the genuine equivariant cohomology groups of the fiber.
+
+
 ## Examples
 
 ### For K-theory
