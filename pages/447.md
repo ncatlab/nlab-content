@@ -111,6 +111,7 @@ This is obvious: more generally, if $F: J \to A$ is a diagram and $i: A \hookrig
 Below, we let $R: Set^{\Delta^{op}} \to Space$ denote the geometric realization when considered as landing in $Space$. 
 
 ### Theorem: Geometric realization is left exact ### 
+ {#GeometricRealizationIsLeftExact}
 
 We continue to assume $Space$ is any [[convenient category of topological spaces]]. In this section we prove that geometric realization 
 
