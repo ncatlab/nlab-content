@@ -144,7 +144,7 @@ $$
   d^n o
 $$
 
-be the [[Feynman propagator]] for the massive [[free field|free]] [[scalar field]] on $n$-dimensional [[Mionkowski spacetime]] (a [[Green function]] for the [[Klein-Gordon equation]]). Its scaling degree is
+be the [[Feynman propagator]] for the massive [[free field|free]] [[scalar field]] on $n$-dimensional [[Minkowski spacetime]] (a [[Green function]] for the [[Klein-Gordon equation]]). Its scaling degree is
 
 $$
   sd(E_F) = n - 2
@@ -160,7 +160,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-Let $X \sbset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] as in def. \ref{RescaledDistribution}, such that its scaling degree  is finite $sd(u) \lt \infty$ (def. \ref{ScalingDegree}). 
+Let $X \subset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] as in def. \ref{RescaledDistribution}, such that its scaling degree  is finite $sd(u) \lt \infty$ (def. \ref{ScalingDegree}). 
 
 1. $sd(u \otimes v) \leq sd(u) + sd(v)$ for $v \in \mathcal{D}'(Y)$ another distribution on $Y \subset \mathbb{R}^{n'}$;
 
@@ -176,6 +176,12 @@ Here $\alpha \in \mathbb{N}^n$ a multi-index.
 
 ([Brunetti-Fredenhagen 00, lemma 5.1](#BrunettiFredenhagen00))
 
+
+## Related concepts
+
+* [[support of a distribution]]
+
+* [[order of a distribution]]
 
 ## References
 
