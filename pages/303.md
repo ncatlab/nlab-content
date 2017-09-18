@@ -63,11 +63,18 @@ $$F_{x, y}: C(x, y) \to D(F_0x, F_0y)$$
 
 * Analogous to the [[functor category]] for ordinary [[functors]] between ordinary [[categories]], enriched functors between two enriched categories form an [[enriched functor category]].
 
+## Related concepts
+
+* [[enriched natural transformation]]
+
+* [[enriched functor category]]
 
 ## References
 
-The standard reference on [[enriched category theory]] is
+* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ ([web](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html))
 
-* Max Kelly, _Basic Concepts of Enriched Category Theory_ ([web](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html))
+* [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
+
+For more references see at _[[enriched category theory]]_.
 
 [[!redirects enriched functors]]
