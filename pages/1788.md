@@ -14,3 +14,19 @@ link to [heading1](#anchorname).
 link to another page [[HowTo#software|howto-software]].
 
 [[differentiable map#DerivativeOfFunctionFromRnToR]]
+
+## a proposition and theorem
+
++-- {: .num_prop #propname}
+###### Proposition
+$A = A$
+=--
+
++-- {: .num_theorem #theoremname}
+###### Theorem
+$A = A$
+=--
+
+[see this theorem](#theoremname)
+
+see Theorem \ref{theoremname}
