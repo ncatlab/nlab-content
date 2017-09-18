@@ -1,0 +1,9 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[group cohomology]] theory, the [[cohomological dimension]] $cd(G)$ for a [[profinite group]] is a fundamental numerical invariant. We say $G$ is of **virtual cohomological dimension** $n$ if there exists an [[open subgroup]] $H$ such that $cd(H)=n$.
+
+If $G$ is  a  group  which  has  torsion-free  subgroups  of  finite  index, then all such subgroups have the same cohomological  dimension;  this common dimension  is  called  the  virtual cohomological dimension  of $G$ and denoted $vcd(G)$.
