@@ -59,6 +59,8 @@ A central example of a non-perturbative effect is [[confinement]] (hence the "ma
 
 ## References
 
+### In field theory
+
 Discussion of non-perturbative effects in [[QCD]] are in
 
 * Marcos Marino, _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
@@ -67,14 +69,20 @@ and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string th
 
 * Marcos Marino, _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
-A review specifically in [[type II string theory]] is in 
+### In string theory
 
-* Hugo Looyestijn, _Non-perturbative effects in type IIA string theory_, Master Thesis 2006 ([pdf](http://testweb.science.uu.nl/ITF/teaching/2006/Looyestijn.pdf))
+Estimates of non-perturbative effects in string theory go back to
+
+* [[Stephen Shenker]], _The Strength of nonperturbative effects in string theory_, presented at the Cargese Workshop on Random Surfaces, Quantum Gravity and Strings, Cargese, France, May 1990 ([spire](http://inspirehep.net/record/298523?ln=en))
+
 
 The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
 
+A review specifically in [[type II string theory]] is in 
+
+* Hugo Looyestijn, _Non-perturbative effects in type IIA string theory_, Master Thesis 2006 ([pdf](http://testweb.science.uu.nl/ITF/teaching/2006/Looyestijn.pdf))
 
 
 [[!redirects non-perturbative effects]]
