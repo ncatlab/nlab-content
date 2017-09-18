@@ -1,0 +1,15 @@
+
+## Related concepts
+
+* [[matrix group]]
+
+## References
+
+* Wikipedia, _[Invertible matrix](https://en.wikipedia.org/wiki/Invertible_matrix)_
+
+[[!redirects inverse matrices]]
+
+[[!redirects invertible matrix]]
+[[!redirects invertible matrices]]
+
+[[!redirects matrix inverse]]
