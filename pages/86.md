@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -933,8 +932,8 @@ and in section 2 of
 
 A discussion in the general context of [[BV-algebras]] is in
 
-* C. Roger, _Gerstenhaber and Batalin-Vilkovisky algebras_ ([ps](http://www.emis.de/journals/AM/09-4/roger.ps.gz))
-{#Roger}
+* {#Roger} [[Claude Roger]], _Gerstenhaber and Batalin-Vilkovisky algebras_, Archivum mathematicum, Volume 45 (2009), No. 4 ([pdf](http://www.emis.de/journals/AM/09-4/roger.pdf))
+
 
 The generalization of this to [[Poincaré duality]] on Hochschild (co)homollogy is in 
 
