@@ -21,6 +21,8 @@
 
 For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]] the [[over category]] $\mathcal{T}/X$ -- the **slice topos** or **over-topos** -- is itself a topos: the "big [[little topos]]" incarnation of $X$.  This fact is sometimes called the "Fundamental Theorem of Topos Theory".
 
+More generally, given a [[fibred product]]-preserving functor $u : E \to F$ between [[toposes]], the [[comma category]] $(id_F/u)$ is again a [[topos]], called the [[Artin gluing]]. 
+
 ## Definition / Existence
  {#Definition}
 
@@ -341,6 +343,7 @@ The claim the follows with the assumption that $\mathcal{E}$ has enough points.
 
   * **over-topos**
 
+  * [[Artin gluing]]
 
 * [[over (∞,1)-category]],
 
