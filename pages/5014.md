@@ -27,7 +27,7 @@ A **topological groupoid** is an [[internal groupoid]] in the [[category]] [[Top
 So this is a [[groupoid]] with a [[topological space]] of [[object]]s and one of [[morphism]]s, and all structure maps (source, target, identity, composition, inverse) are [[continuous maps]].
 
 
-A topological groupoid $C$ is  called an **open topological groupoid** is the source map $s : Mor C \to Obj C$ is an [[open map]].
+A topological groupoid $C$ is  called an **open topological groupoid** if the source map $s : Mor C \to Obj C$ is an [[open map]].
 
 It is called an **[[étale groupoid]]** if in addition $s$ is a [[local homeomorphism]].
 
