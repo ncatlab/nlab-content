@@ -69,7 +69,7 @@ The tensor product of modules can be generalized to the [[tensor product of func
 ### Monoidal category structure
  {#MonoidalCategoryStructure}
 
-The category $R$[[Mod]] equipped with the tensor product of modules $\otimes_R$ becomes a [[monoidal category]]. 
+The category $R$[[Mod]] equipped with the tensor product of modules $\otimes_R$ becomes a [[monoidal category]], in fact a [[distributive monoidal category]].
 
 +-- {: .num_prop}
 ###### Proposition
