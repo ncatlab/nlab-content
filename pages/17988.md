@@ -25,3 +25,8 @@ Review includes
 
 * [[Max Niedermaier]], [[Martin Reuter]], _The Asymptotic Safety Scenario in Quantum Gravity_, Living Reviews in Relativity December 2006, 9:5 [doi:10.12942/lrr-2006-5](http://link.springer.com/article/10.12942/lrr-2006-5)
 
+This review here considely provides background on actual technical details:
+
+* Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
+
+
