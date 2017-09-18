@@ -61,11 +61,42 @@ on [[spin geometry]].
 
 ## Chapter II Spin Geometry and the Dirac Operator
 
+### 1 Spin structures on vector bundles
+
 * [[spin structure]]
+
+
+### 2 Spin manifolds and Spin cobordism
+
+* [[spin cobordism]]
+
+### 3 Clifford and spinor bundle
+
+* [[Clifford bundle]]
 
 * [[spinor bundle]]
 
+### 4 Connection on spinor bundle
+
+* [[connection on a bundle]]
+
+* [[spin connection]]
+
+### 5 The Dirac operators
+
 * [[Dirac operator]]
+
+### 6 The fundamental elliptic operators
+
+* [[elliptic operator]]
+
+### 7 $Cl_k$-linear Dirac operators
+
+* [[fiber integration in K-theory]]
+
+* [[index]]
+
+### 8 Vanishing theorems and some applications
 
 ## Chapter III Index Theorems
 
