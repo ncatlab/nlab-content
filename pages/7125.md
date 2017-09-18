@@ -207,7 +207,7 @@ Examples of the gluing construction abound. Here are a few:
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. (sec. A2.1.12, pp.82-84; A4.5.6, p.208)
   {#Johnstone}
 
-* {#JLS07}[[Peter Johnstone]], [[Steve Lack]], [[Pawel Sobocinsky]], _Quasitoposes, Quasiadhesive Categories and Artin Glueing_ , pp.312-326 in LNCS **4624** Springer Heidelberg 2007. ([preprint](http://users.ecs.soton.ac.uk/ps/papers/calco07.pdf)) 
+* {#JLS07}[[Peter Johnstone]], [[Steve Lack]], [[Pawel Sobocinski]], _Quasitoposes, Quasiadhesive Categories and Artin Glueing_ , pp.312-326 in LNCS **4624** Springer Heidelberg 2007. ([preprint](http://users.ecs.soton.ac.uk/ps/papers/calco07.pdf)) 
 
 * [[Mamuka Jibladze|M. Jibladze]], _Lower Bagdomain as a Glueing_ , Proc. A. Razmadze Math. Inst. **118** (1998) pp.33-41. ([pdf](http://www.rmi.ge/~jib/baglue.pdf))
 
