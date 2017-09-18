@@ -27,7 +27,10 @@ The concept of a  [[homotopy type]] ([[homotopy n-type]]) all whose [[homotopy g
 
 see at _[[K(n)-local stable homotopy theory]]_ (...)
 
+
+
 ### Relation to coherent objects
+ {#RelationToCoherentObjects}
 
 +-- {: .num_prop }
 ###### Proposition
