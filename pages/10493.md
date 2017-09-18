@@ -50,7 +50,95 @@ This notion is comparable to how a [[polynomial]] of degree at most $n$ is deter
 
 =--
 
-## Eamples
+## Properties
+
+### $n$-Excisive approximation and reflection
+ {#nExcisiveApproximation}
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and a [[terminal object in an (∞,1)-category|terminal object]], and let $\mathcal{D}$ be a [[Goodwillie-differentiable (∞,1)-category]]. 
+
++-- {: .num_defn #InclusionOfNExcisive}
+###### Definition
+
+For $n \in \mathbb{N}$
+
+$$
+  Exc^n(\mathcal{C}, \mathcal{D})
+  \hookrightarrow
+  Func(\mathcal{C}, \mathcal{D})
+$$
+
+for the [[full sub-(∞,1)-category]] of the [[(∞,1)-functor (∞,1)-category]] on those [[(∞,1)-functors]] which are $n$-excisive.
+
+=--
+
++-- {: .num_prop #nExcisiveApproximations}
+###### Proposition
+
+The inclusion of def. \ref{InclusionOfNExcisive} is [[left exact (∞,1)-functor|lex]] [[reflective sub-(∞,1)-category|reflective]], hence the inclusion functor has a [[left adjoint|left]] [[adjoint (∞,1)-functor]]
+
+$$
+  P_n \;\colon\; Func(\mathcal{C}, \mathcal{D}) \longrightarrow
+  Exc^n(\mathcal{C}, \mathcal{D})
+$$
+
+which preserves [[finite (∞,1)-limits]].
+
+=--
+
+This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03)). In the above form it appears explicitly as ([Lurie, theorem 6.1.1.10](#HigherAlg)). The construction of the reflector$P_n$ is in ([Lurie, constrution 6.1.1.27](#HigherAlg)).
+
++-- {: .num_cor}
+###### Corollary
+
+For $\mathcal{D} = \mathbf{H}$ an [[(∞,1)-topos]], then for all $n \in \mathbb{N}$ we have that
+
+$$
+  Exc^n(\mathcal{C}, \mathbf{H}) \in (\infty,1)Topos
+$$
+
+is an [[(∞,1)-topos]]. (For $n  \gt 1$ this is in general _not_ a  [[hypercomplete (∞,1)-topos]], even if $\mathbf{H}$ is.)
+
+=--
+
+This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
+
++-- {: .num_remark}
+###### Remark
+
+As $n$ ranges, the tower of $n$-excisive approximations of an  $(\infty,1)$-functor, accordding to prop. \ref{nExcisiveApproximations}, forms a tower [[analogy|analogous]] to the the [[Taylor series]] of a [[smooth function]]. This is called the [[Goodwillie-Taylor tower]]
+
+$$
+  \cdots \to P_{n+1} F \to P_n F \to \cdots \to P_1 F \to P_0 F
+  \,.
+$$
+
+If this converges to $F$, then $F$ is analogous to an [[analytic function]] and is called an _[[analytic (∞,1)-functor]]_.
+
+=--
+
+### Homogeneous pieces
+
+(...)
+
++-- {: .num_prop}
+###### Proposition
+
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with [[terminal object in an (∞,1)-category|terninal object]]. Let $\mathcal{D}$ be a [[pointed category|pointed]] [[Goodwillie-differentiable (∞,1)-category]]. Write $\mathcal{C}^{\ast/}$ for the [[pointed objects]] in $\mathcal{C}$.
+
+Then for all natural numbers $n \geq 1$ composition with the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ induces an [[equivalence of (∞,1)-categories]]
+
+$$
+  Homog^n(\mathcal{C},\mathcal{D}) \stackrel{\simeq}{\longrightarrow} Homog^n(\mathcal{C}^{\ast/}, \mathcal{D})
+$$
+
+=--
+
+([Lurie, prop. 6.1.2.11](#HigherAlg))
+
+
+## Examples
 
 ### Goodwillie $n$-jets
  {#GoodwillienJets}
@@ -85,82 +173,6 @@ the tower of "[[Goodwillie calculus|Goodwillie]] [[jet (∞,1)-categories]]" of 
 =--
 
 see ([Lurie, def. 1.4.2.8 and around p. 823](#HigherAlg))
-
-## Properties
-
-### $n$-Excisive approximation and reflection
- {#nExcisiveApproximation}
-
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and a [[terminal object in an (∞,1)-category|terminal object]], and let $\mathcal{D}$ be a [[Goodwillie-differentiable (∞,1)-category]]. 
-
-+-- {: .num_defn #InclusionOfNExcisive}
-###### Definition
-
-For $n \in \mathbb{N}$
-
-$$
-  Exc^n(\mathcal{C}, \mathcal{D})
-  \hookrightarrow
-  Func(\mathcal{C}, \mathcal{D})
-$$
-
-for the [[full sub-(∞,1)-category]] of the [[(∞,1)-functor (∞,1)-category]] on those [[(∞,1)-functors]] which are $n$-excisive.
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-The inclusion of def. \ref{InclusionOfNExcisive} is [[left exact (∞,1)-functor|lex]] [[reflective sub-(∞,1)-category|reflective]], hence the inclusion functor has a [[left adjoint|left]] [[adjoint (∞,1)-functor]]
-
-$$
-  P_n \;\colon\; Func(\mathcal{C}, \mathcal{D}) \longrightarrow
-  Exc^n(\mathcal{C}, \mathcal{D})
-$$
-
-which preserves [[finite (∞,1)-limits]].
-
-=--
-
-This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03)). In the above form it appears explicitly as ([Lurie, theorem 6.1.1.10](#HigherAlg)).
-
-+-- {: .num_cor}
-###### Corollary
-
-For $\mathcal{D} = \mathbf{H}$ an [[(∞,1)-topos]], then for all $n \in \mathbb{N}$ we have that
-
-$$
-  Exc^n(\mathcal{C}, \mathbf{H}) \in (\infty,1)Topos
-$$
-
-is an [[(∞,1)-topos]]. (For $n  \gt 1$ this is in general _not_ a  [[hypercomplete (∞,1)-topos]], even if $\mathbf{H}$ is.)
-
-=--
-
-This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
-
-
-
-
-### Homogeneous pieces
-
-(...)
-
-+-- {: .num_prop}
-###### Proposition
-
-
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with [[terminal object in an (∞,1)-category|terninal object]]. Let $\mathcal{D}$ be a [[pointed category|pointed]] [[Goodwillie-differentiable (∞,1)-category]]. Write $\mathcal{C}^{\ast/}$ for the [[pointed objects]] in $\mathcal{C}$.
-
-Then for all natural numbers $n \geq 1$ composition with the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ induces an [[equivalence of (∞,1)-categories]]
-
-$$
-  Homog^n(\mathcal{C},\mathcal{D}) \stackrel{\simeq}{\longrightarrow} Homog^n(\mathcal{C}^{\ast/}, \mathcal{D})
-$$
-
-=--
-
-([Lurie, prop. 6.1.2.11](#HigherAlg))
 
 
 
