@@ -32,6 +32,8 @@ Let $C$ be a [[category]], let $M\subset Mono(C)$ be a subclass of the monomorph
 
 In other words, it is a factorization $c \overset{e}{\to} im(f) \overset{m}{\to} d$ of $f$ (i.e. $f = m e$) such that $m\in M$, and given any other factorization $f = m' e'$ with $m'\in M$, we have $m \subseteq m'$ as subobjects of $C$ (i.e. $m$ factors through $m'$, $m = m' k$ for some $k$).  Such a factorization is unique up to unique isomorphism, if it exists.
 
+(For instance if $M$ is the class of [[regular monomorphisms]], then the $M$-image is the _[[regular image]]_. See [below](#AsEqualizer) for more.)
+
 This can be phrased equivalently as follows.  Let $C/d$ be the [[slice category]] of $C$ over $d$, and let $M/d$ be its full subcategory whose objects are $M$-morphisms into $d$.  If all images exist in $C$, then taking the image of a map $f: c \to d$ provides a [[left adjoint]]
 
 $$C/d \to M/d$$ 
@@ -72,7 +74,8 @@ Note that the notion of factorization system is self-dual.  Therefore, if $(E,M)
 
 However, see below for additional remarks on the usage of the terms "image" and "coimage."
 
-## Construction using limits {#AsEqualizer}
+## Construction using limits 
+ {#AsEqualizer}
 
 Suppose that the category $C$ admits finite [[limits]] and [[colimits]], and that $M=RegMono$ consists of the [[regular monomorphisms]].  Then the $M$-image of a morphism $f : c \to d$ may be constructed as
 
@@ -94,7 +97,7 @@ $$
   \,.
 $$
 
-In other words, the **regular image** is the [[equalizer]] of the [[cokernel pair]].  To see that this is in fact the $RegMono$-image, we first note that it is of course a regular monomorphism by definition, and then invoke the fact that in a category with finite limits and colimits, a monomorphism is regular if and only if it is the equalizer of its cokernel pair.
+In other words, the **[[regular image]]** is the [[equalizer]] of the [[cokernel pair]].  To see that this is in fact the $RegMono$-image, we first note that it is of course a regular monomorphism by definition, and then invoke the fact that in a category with [[finite limits]] and colimits, a monomorphism is regular if and only if it is the equalizer of its cokernel pair.
 
 Dually, the **regular coimage** of a morphism is the [[coequalizer]] of its [[kernel pair]].  In [[Set]] (and more generally in any [[topos]]) these two constructions coincide, but in general they are distinct.  For example, in [[Top]] the regular image is the set-theoretic image topologized as a subspace of the [[target|codomain]], while the regular coimage is the set-theoretic image topologized as a quotient space of the [[source|domain]].
 
