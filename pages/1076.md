@@ -61,7 +61,7 @@ is a distinguished triangle;
 **TR2:** for all $f : X \to Y$, there exists a distinguished triangle 
 
 $$
-  X \stackrel{f}{\to} Y \to Z \to TX
+  X \stackrel{f}{\to} Y \to Z \to T X
   \,;
 $$
 
@@ -74,7 +74,7 @@ $$
 is a distinguished triangle precisely if 
 
 $$
-  Y \stackrel{-g}{\to} Z \stackrel{-h}{\to} T X \stackrel{-T(f)}{\to} T Y
+  Y \stackrel{g}{\to} Z \stackrel{h}{\to} T X \stackrel{-T(f)}{\to} T Y
 $$ 
 
 is a distinguished triangle;
@@ -109,9 +109,9 @@ $$
     &\stackrel{g}{\to}& Z
     &\stackrel{h}{\to}& T X
     \\
-    \downarrow^\alpha && \downarrow^\beta
-    && \downarrow^{\exists \gamma}
-    && \downarrow^{T(\alpha)}
+    \downarrow^\alpha && \downarrow^{\mathrlap{\beta}}
+    && \downarrow^{\mathrlap{\exists \gamma}}
+    && \downarrow^{\mathrlap{T(\alpha)}}
     \\
     X' &\stackrel{f'}{\to}& Y'
     &\stackrel{g'}{\to}& Z'
@@ -224,6 +224,42 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 =--
 
 ## Properties
+
+### Long exact sequences
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{T}$ be a triangulated category, let $A \overset{f}{\to} B \overset{g}{\to} B/A \overset{h}{\to} T A$ be a distinguished triangle in $\mathcal{T}$ and let $X \in \mathcal{T}$ be any object. Then both and
+
+$$
+  \mathcal{T}(T A, X)
+    \overset{\mathcal{T}(h,X)}{\longrightarrow}
+  \mathcal{T}(B/A, X)
+    \overset{\mathcal{T}(g,X)}{\longrightarrow}
+  \mathcal{T}(B, X)
+    \overset{f,X}{\longrightarrow}
+  \mathcal{T}(A, X)
+$$
+
+and
+
+$$
+  \mathcal{T}(X,A)   
+    \overset{\mathcal{T}(X,f)}{\longrightarrow}
+  \mathcal{T}(X,B)
+     \overset{\mathcal{T}(X,g)}{\longrightarrow}
+  \mathcal{T}(X,B/A)
+     \overset{\mathcal{T}(X,h)}{\longrightarrow}
+  \mathcal{T}(X, T A)
+$$
+
+are [[long exact sequences]] (of [[abelian groups]]).
+
+=--
+
+
 
 ### From stable model categories
 
