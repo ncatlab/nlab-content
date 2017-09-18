@@ -220,7 +220,7 @@ section 7 of
 
 Full details are in 
 
-* {#Haugseng14} [[Rune Huagseng]], _The higher Morita category of $E_n$-algebras_ ([arXiv:1412.8459](http://arxiv.org/abs/1412.8459))
+* {#Haugseng14} [[Rune Haugseng]], _The higher Morita category of $E_n$-algebras_ ([arXiv:1412.8459](http://arxiv.org/abs/1412.8459))
 
 Review of work on 4-modules (implicitly) as [[trialgebras]]/[[Hopf monoidal categories]] is around p. 98 of 
 
