@@ -212,7 +212,8 @@ In a [[dynamical system]], the [[attractor]]s are rarely polyhedra and their hom
 
 See also $n$lab entries [[shape fibration]], [[approximate fibration]], ... and references 
 
-The original references for the shape theory of metric compacta are: 
+The original references for the shape theory of metric compacta are:
+
 * [[K. Borsuk]], _Concerning homotopy properties of compacta_, Fund Math. 62 (1968) 223-254
 * [[K. Borsuk]], _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa 1975.
 
