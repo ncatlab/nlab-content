@@ -321,14 +321,14 @@ $$
   \mathcal{A}
 $$
 
-between [[abelian categories]] such that the [[left adjoint]] $L$ is an [[exact functor]], then the [[right adjoint]] preserves injective objects.
+between [[abelian categories]] such that the [[left adjoint]] $L$ is a [[left exact functor]], then the [[right adjoint]] preserves injective objects.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Observe that an object is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]], and that $L$ preserves monomorphisms by assumption of exactness. With this the statement follows via adjunction isomorphism
+Observe that an object is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]], and that $L$ preserves monomorphisms by assumption of (left-)exactness. With this the statement follows via adjunction isomorphism
 
 $$
   Hom_{\mathcal{A}}(-,R(I))\simeq Hom_{\mathcal{B}}(L(-),I)
