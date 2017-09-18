@@ -6,7 +6,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 [[Introduction to Topology|Introduction]]
 
-## Basic concepts
+**Basic concepts**
 
 * [[open subset]], [[closed subset]], [[neighbourhood]]
 
@@ -34,7 +34,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
   * [[convenient category of topological spaces]]
 
-## [Universal constructions](Top#UniversalConstructions)
+**[Universal constructions](Top#UniversalConstructions)**
 
 * [[initial topology]], [[final topology]]
 
@@ -51,7 +51,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[mapping telescope]]
 
 
-## [[stuff, structure, property|Extra stuff, structure, properties]]
+**[[stuff, structure, property|Extra stuff, structure, properties]]**
 
 * [[nice topological space]]
 
@@ -83,7 +83,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[cell complex]], [[CW-complex]]
 
-## Examples
+**Examples**
 
 * [[empty space]], [[point space]]
 
@@ -127,7 +127,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 
 
-## Basic statements
+**Basic statements**
 
 * [[Hausdorff spaces are sober]]
 
@@ -171,7 +171,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[second-countable regular spaces are paracompact]]
 
-## Theorems
+**Theorems**
 
 * [[Urysohn's lemma]]
 
@@ -192,13 +192,11 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 * [[Jordan curve theorem]]
 
 
-## Basic **[[homotopy theory]]**
+**Basic [[homotopy theory]]**
 
-  * [[homotopy group]]
+* [[homotopy group]]
 
-  * [[covering space]]
-
-**Theorems**
+* [[covering space]]
 
 * [[Whitehead's theorem]]
 
