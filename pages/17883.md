@@ -24,5 +24,5 @@ The pairing of the concepts of [[commutative Hopf algebra]] and [[E-∞ algebra]
 
 Hopf (semi-)ring structure on the [[symmetric algebra]] of the [[sphere spectrum]] is discussed in 
 
-* [[Neil Strickland]], [[Paul Turner]], _Rational Morava $E$-theory and $D S^0$_, Topology Volume 36, Issue 1, January 1997, Pages 137-151 ([pdf](http://hopf.math.purdue.edu/Strickland-PTurner/rme.pdf))
+* {#StricklandTurner97} [[Neil Strickland]], [[Paul Turner]], _Rational Morava $E$-theory and $D S^0$_, Topology Volume 36, Issue 1, January 1997, Pages 137-151 ([pdf](http://hopf.math.purdue.edu/Strickland-PTurner/rme.pdf))
 
