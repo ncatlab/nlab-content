@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Adolf_Hurwitz)
+
+## related $n$Lab entries
+
+* [[Hurwitz theorem]]
+
+* [[composition algebra]]
+
+category: people
