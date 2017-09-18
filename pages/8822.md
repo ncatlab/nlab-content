@@ -58,6 +58,16 @@ Since repetition is irrelevant in a separating family, we may also speak of a _s
 A __separating set__ is a [[size issues|small]] separating class.
 =--
 
+### In fibered categories {#fibered}
+
+The notion of separating family can be generalized from categories to [[fibered categories]] in such a way that the [[family fibration]] of a category $\mathbf{C}$ 
+has a separating family if and only if $\mathbf{C}$ has a small separating family.
++-- {: .num_defn}
+###### Definition
+A separating family in a [[fibered category]] $P:\mathbf{E}\to \mathbf{B}$ is an object $S\in \mathbf{E}$ such that for every parallel pair $f,g:A\to B$ in $E$ with $f\neq g$ and $P(f) = P(g)$ there exist arrows $c: X\to S$ and $h:X\to A$ (constituting a span) such that $c$ is $P$-cartesian, and $f h \neq g h$ .
+=--
+
+See Definition B2.4.1 in the [[Elephant]].
 
 ## Examples and applications
 
