@@ -52,9 +52,12 @@ $$
 
 is an [[isomorphism]] for $k \leq 2n$.
 
+The suspension isomorphism is equivalently given by the map in lemma \ref{SigmaOmegaAdjunctionUnitOnNConnectedSpaceIsHigherConnected}.
+
+
 =--
 
-The suspension isomorphism is equivalently given by the map in lemma \ref{SigmaOmegaAdjunctionUnitOnNConnectedSpaceIsHigherConnected}.
+e.g. ([Switzer 75, 6.26](#Switzer75))
 
 An alternative proof proceeds from the [[Blakers-Massey theorem]] (e.g. [Kochmann 96, p. 70](#Kochmann96)). 
 
@@ -73,6 +76,7 @@ are [[isomorphisms]]. In particular $[Y,X]$ canonically has the structure of an 
 
 =--
 
+(e.g. [Kochmann 96, corollary 3.2.3](#Kochmann96))
 
 
 ## Properties
@@ -98,7 +102,7 @@ Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 3.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* [[Alan Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, chapter 4 ([pdf](http://www.math.cornell.edu/~hatcher/AT/ATch4.pdf))
+* [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, chapter 4 ([pdf](http://www.math.cornell.edu/~hatcher/AT/ATch4.pdf))
 
 A nice expanded version of the latter is in
 
