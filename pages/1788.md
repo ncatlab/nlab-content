@@ -2,3 +2,17 @@
 $$
   Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
 $$
+
+$$
+  \array{
+    \vdot & \vdots
+    \\
+    3 & h_0^3 & & &  {h_1^3}, {h_0^2 h_2}
+    \\
+    2 & h_0^2 & & h_1^2 & h_0 h_2
+    \\
+    1& h_0 & h_1 & & h_2
+     \\
+     & 0 & 1 & 2& 3 & 4
+  }
+$$
