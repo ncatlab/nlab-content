@@ -243,7 +243,7 @@ Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H}
 #### From $\infty$-sheaves over infinitesimal neighbourhood sites
  {#PresentationOnInfinitesimalNeighbourhoodSites}
 
-We give a presentation of classes of infinitesimal neighbourhoods by [[simplicial presheaves]] on suitable [[site]]s.
+We give a presentation of classes of infinitesimal neighbourhoods by [[simplicial presheaves]] on suitable [[sites]].
 
 +-- {: .num_defn #InfinitesimalNeighBourhoodSite}
 ###### Definition
@@ -2101,7 +2101,8 @@ See at _[[differential cohesion and idelic structure]]_.
 
 ## Examples
 
-* [[synthetic differential ∞-groupoid]]
+* [[formal smooth ∞-groupoid]]
+
 
 ## Related concepts
 
