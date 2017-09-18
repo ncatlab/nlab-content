@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,7 +36,7 @@ The following are [[semifree differential graded-commutative algebras]]:
 
 * A [[Sullivan algebra]].
 
-* The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generall of an [[L-infinity algebra]].
+* The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generally of an [[L-infinity algebra]].
 
 ## Related concepts
 
