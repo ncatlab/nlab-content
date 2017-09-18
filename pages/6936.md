@@ -116,7 +116,7 @@ The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[h
     Inductive quotient (A : Type) (R : A -> A -> hProp) : Type :=
     | proj : A -> quotient A R
     | relate : forall (x y : A), R x y -> proj x == proj y
-    | contr1 : forall (x y : quot A R) (p q : x == y), p == q.
+    | contr1 : forall (x y : quotient A R) (p q : x == y), p == q.
 
 This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
 
@@ -232,7 +232,7 @@ Details are in
 
 An experimental implementation is described in:
 
-* Bruno Barra, _Native implementation of Higher Inductive
+* Bruno Barras, _Native implementation of Higher Inductive
 Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
 
 A detailed description of a subset of the HITs is in:
