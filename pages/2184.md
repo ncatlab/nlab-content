@@ -110,13 +110,17 @@ In particular, such a subgrap $(W,F)$ may have isolated vertices which are not i
 
 [^2]: This happens to be the usual notion of substructure in model theory, for any relational structure.
 
-Another usual notion of subgraph in combinatorics is[^3] _spanning_ subgraph: this means just any subgraph $(W,F)$ in the above sense with $W=V$. There are three kinds of spanning subgraphs which are the most studied: [[Hamilton circuit]]s[^3], [[perfect matching]]s and [[spanning tree]]s.
-
-[^3]: We here follow A. Bondy's choice of words in (#HandbookOfCombinatoricsVol1). The term _circuit_ is less usual than _cycle_ in combinatorics, but less ambiguous, not longer, and more clearly signalling that the combinatorial notion is meant (not one of the many other meanings of _cycle_).
-
-[^4]: Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
+Another usual notion of subgraph in combinatorics is[^3] _spanning_ subgraph: 
 
 
+[^3]: Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
+
+
+this means just any subgraph $(W,F)$ in the above sense with $W=V$. There are three kinds of spanning subgraphs which are the most studied: [[Hamilton circuit]]s[^4], [[perfect matching]]s and [[spanning tree]]s.
+
+[^4]: We here follow A. Bondy's choice of words in [p. 20](#HandbookOfCombinatoricsVol1), both in the decision whether to use _hamiltonian_ or _Hamilton_, and whether to use _cycle_ or _circuit_. 
+The term _circuit_ is less usual than _cycle_ in combinatorics, but less ambiguous, not longer, and more clearly signalling that the combinatorial notion is meant (not one of the many other meanings of _cycle_).
+One argument in favor of _Hamilton_ is that _any_ circuit, by itself, is _hamiltonian_.
 
 From the [[nPOV]], it is often possible to describe notions of subgraph in terms of types of monomorphisms in categories of graphs; for example, 
 
@@ -126,9 +130,9 @@ From the [[nPOV]], it is often possible to describe notions of subgraph in terms
 
 in the [[category of simple graphs]], and similarly for suitable categories of other types of graph. 
 
-One synonym, in the nLab[^4] for _induced subgraph_ is *full subgraph*, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
+One synonym, in the nLab[^5] for _induced subgraph_ is *full subgraph*, for brevity, and for harmony with other uses of _full_ in category theory (but also for more precise reasons).
 
-[^4]: Incidentally, the term _full_ was in use in mid-twentieth century graph theory, then seems to have fallen out of favor.
+[^5]: Incidentally, the term _full_ was in use in mid-twentieth century graph theory, then seems to have fallen out of favor.
 
 The precise meaning of _subgraph_ depends on the chosen formalization of *graph*, needless to say.
 
