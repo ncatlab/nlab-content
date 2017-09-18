@@ -62,6 +62,8 @@ The name "monad" and the terms "unit", "multiplication" and "associativity" bear
 
 A third and somewhat less obvious definition says that a monad in $K$ is a **[[lax 2-functor]]** from the terminal bicategory $1$ to $K$: the unique object $\ast$ of $1$ is sent to the object $a$, the morphism $1_a$ becomes $t$, and $\eta$ and $\mu$ arise from the coherent 2-cells expressing lax functoriality. This in turn is equivalent to saying that a monad is a [[category enriched in a bicategory]] with a single object and single morphism. Among higher-category theorists, it's tempting to suggest that this is the most fundamental definition, and the most basic reason for the ubiquity and importance of monads.  Regardless of this, however, the earlier more elementary definitions are both practically and pedagogically essential.
 
+Finally, a monad can be defined in terms of the "Kleisli operation" taking any map $a \to T b$ to a map $T a \to T b$; see [[extension system]].
+
 We can picture a monad in $K$ as an image of the [[oriental|third oriental]] in $K$. See the remarks at [[monoidal category]].
 
 The data of and axioms for a monad can be expressed graphically as [[string diagrams]].  Writing $T \colon C \to C, \eta, \mu$ for the monad in question (this notation being the standard one when $K = Cat$), these data can be represented as
