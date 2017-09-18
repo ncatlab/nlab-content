@@ -1,4 +1,4 @@
-
+[[Picard groupoid]]
 .
 
 .
