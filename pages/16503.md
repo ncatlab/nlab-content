@@ -15,11 +15,11 @@
 
 ## Idea
 
-In [[probability theory]] a _random variable_ or _stochastic variable_ is meant to be quantity that is subject to random variation.
+A **random variable**, or _stochastic variable_, is  a quantity that is subject to 'random' variation.
 
 ## Definition
 
-The modern formalization of this idea ([Kolmogorov 33, III](#Kolmogorov33)) is to take a random variable to be a [[measurable function]] $f$ on a [[probability space]] $(X,\mu)$ (e.g. [Grigoryan 08, 3.2](#Grigoryan08), [Dembo 12, 1.2.1](#Dembo12)). 
+The formalization of this idea in modern [[probability theory]] ([Kolmogorov 33, III](#Kolmogorov33)) is to take a random variable to be a [[measurable function]] $f$ on a [[probability space]] $(X,\mu)$ (e.g. [Grigoryan 08, 3.2](#Grigoryan08), [Dembo 12, 1.2.1](#Dembo12)). 
 
 One thinks of $X$ as the space of all possible configurations (all the "[[possible worlds]]" with respect to the idealized situation under consideration), thinks of the measure $\mu(U)$ of any [[subset]] of it as the [[probability]] that one of the configurations $x \in U \subset X$ is _randomly_ realized, and thinks of $f(x)$ as the value of the given random variable in the situation of that configuration.
 
@@ -49,13 +49,17 @@ See also ([Toronto-McCarthy 10b, slide 24](#TorontoMcCarthy10b)). [Toronto-McCar
 
 ### Random variables and Dedekind reals
 
-Given a measure space $(X,\Sigma,\mu)$ a _random variable_ is standardly defined as a measurable _real_-valued function on $X$. It has been observed by [[Pierre Deligne|P. Deligne]][^Del] that the po-set of measurable subsets $\Sigma$ can be equipped with a suitable [[Grothendieck topology]] in this context.
+Given a measure space $(X,\Sigma,\mu)$, a _random variable_ is also often  defined as an _equivalence class_ of measurable _real_-valued functions on $X$ where two such functions are identified when they differ only on a subset of measure zero.
+
+In this context, it has been observed by [[Pierre Deligne|P. Deligne]][^Del] that the po-set of measurable subsets $\Sigma$ can be equipped with a suitable [[Grothendieck topology]].
 
 [^Del]:  [[SGA4]].I, p.412.
 
-In the resulting [[Grothendieck topos]] $Meas(X,\Sigma,\mu)$ the object of [[Dedekind real numbers]] $R_D$ corresponds to the sheaf of random variables on $X$.
+In the resulting [[Grothendieck topos]] $Meas(X,\Sigma,\mu)$ the object of [[Dedekind real numbers]] $R_D$ corresponds to the _sheaf of random variables_ on $X$ in this sense.
 
-The details of this observation, due to [[Dana Scott|D. Scott]], are described in ([Johnstone 1977](#Johnstone77), p.213).
+A Dedekind real in a topos $Sh(X)$ of sheaves on a _topological space_ is just a continuous real-valued function on $X$. This suggests the view that the sheaf-theoretic perspective on $(X,\Sigma,\mu)$ sweeps the measure-theoretic details under the rug and brings out the conceptual essence of a random variable as simply a real-valued 'function' or 'variable real number' on $X$ and goes in the same direction as the connection to the function monad mentioned in the previous section.
+
+The details of this example, due to [[Dana Scott|D. Scott]], are described in ([Johnstone 1977](#Johnstone77), p.213).
 
 ## Related concepts
 
@@ -65,11 +69,11 @@ The details of this observation, due to [[Dana Scott|D. Scott]], are described i
 
 ## References
 
-* Wikipedia, _[Random variable](http://en.wikipedia.org/wiki/Random_variable)_.
+* Wikipedia, _[Random variable](http://en.wikipedia.org/wiki/Random_variable)_
 
 The modern formal concept originates around
 
-* {#Kolmogorov33} [[Andrey Kolmogorov]], _Grundbegriffe der Wahrscheinlichkeitsrechnung_, Ergebnisse der Mathematik und Ihrer Grenzgebiete, Springer Berlin Heidelberg (1933).
+* {#Kolmogorov33} [[Andrey Kolmogorov]], _Grundbegriffe der Wahrscheinlichkeitsrechnung_, Ergebnisse der Mathematik und Ihrer Grenzgebiete, Springer Berlin Heidelberg 1933.
 
 Surveys and lecture notes include
 
