@@ -325,6 +325,8 @@ in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobin
 
 * [[gauged supergravity]]
 
+* [[magic supergravity]]
+
 * [[Rarita-Schwinger field]]
 
 * [[duality in physics]], [[duality in string theory]]
