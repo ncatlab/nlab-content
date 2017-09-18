@@ -9,6 +9,9 @@
 
 ## References
 
+Named after [[Paul Dirac]], [[Max Born]] and [[Leopold Infeld]].
+
+
 For non-abelian [[Chan-Paton gauge field]]:
 
 * {#Tseytlin97} [[Arkady Tseytlin]], _On nonAbelian generalization of Born-Infeld action in string theory_, Nucl.Phys. B501 (1997) 41-52 ([spire](http://inspirehep.net/record/439767/))
