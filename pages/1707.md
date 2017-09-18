@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -141,7 +140,7 @@ $$
   \,.
 $$
 
-By the discussion at [[∞-action]], this expresses the [[invariants|∞-invariants]] of the [[conjugation action]] of $G$ on the morphisms $* \to V$ of the underlying objects. Since the action on the point is trivial, these are just the [[invariants|∞-invariants]] of $V$.
+By the discussion at [[∞-action]], this expresses the [[invariant|∞-invariants]] of the [[conjugation action]] of $G$ on the morphisms $* \to V$ of the underlying objects. Since the action on the point is trivial, these are just the [[invariant|∞-invariants]] of $V$.
 
 +-- {: .num_prop #GroupCohomologyInInfinityToposForTrivialAction}
 ###### Proposition
@@ -206,7 +205,7 @@ is the kind of [[coefficient]] for the group cohomology of $G$ to which the foll
 +-- {: .num_remark #InvariantsByHomFunctor}
 ###### Remark
 
-For $A$ a $G$-[[module]], the [[invariants]] of $A$ are equivalently the $\mathbb{Z}[G]$-module homomorphisms from $\mathbb{Z}$ equipped with the trivial module structure
+For $A$ a $G$-[[module]], the [[invariant|invariants]] of $A$ are equivalently the $\mathbb{Z}[G]$-module homomorphisms from $\mathbb{Z}$ equipped with the trivial module structure
 
 $$
   Invariants(A) \simeq Hom_{\mathbb{Z}G}(\mathbb{Z}, A)
@@ -279,7 +278,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Give a [[normal subgroup]] $K \hookrightarrow G$ the [[invariants]]-functor may be decomposed as a [[composition]] of the functor that forms $K$-invariants with that which forms $(G/K)$-invariants for the [[quotient group]]. This decomposition gives rise to a [[Grothendieck spectral sequence]] for the group cohomology. This is called the _[[Hochschild-Serre spectral sequence]]_.
+Give a [[normal subgroup]] $K \hookrightarrow G$ the [[invariant|invariants]]-functor may be decomposed as a [[composition]] of the functor that forms $K$-invariants with that which forms $(G/K)$-invariants for the [[quotient group]]. This decomposition gives rise to a [[Grothendieck spectral sequence]] for the group cohomology. This is called the _[[Hochschild-Serre spectral sequence]]_.
 
 =--
 
@@ -847,6 +846,8 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
   * [[nonabelian group cohomology]], [[groupoid cohomology]]
 
   * [[Galois cohomology]]
+
+* [[group homology]]
 
 * [[group extension]]
 
