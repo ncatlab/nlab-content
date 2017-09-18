@@ -702,7 +702,7 @@ See also
 A nice review from the modern point of view of [[higher algebra]] is in 
 
 * [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the
-Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~hirolee/pretalbot2013/index.php) ([pdf](http://www.math.harvard.edu/~hirolee/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
  {#Wilson13}
 
 More review along these lines is in
