@@ -13,4 +13,9 @@ The Verlinde ring is also understood as being the ring of [[equivariant cohomolo
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]_
 
+* [[Domenico Fiorenza]], [[Alessandro Valentino]], _$(3,2,1)$-TQFTs and Verlinde algebras_  ([MO question](http://mathoverflow.net/q/74593/381), [MO answer](http://mathoverflow.net/a/263829/381))
+
 [[!redirects Verlinde rings]]
+
+[[!redirects Verlinde algebra]]
+[[!redirects Verlinde algebras]]
