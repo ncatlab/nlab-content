@@ -28,7 +28,7 @@ $$
 $$
 
 of [[hom-set]]s for [[object]]s $X\in D$ and $Y\in C$.  Two [[morphism]]s 
-$f:L X \to Y$ and $g : X \to R Y$ which correspond under this bijection are said to be **adjuncts** of each other.  That is, $g$ is the (right-)adjunct of $f$, and $f$ is the (left-)adjunct of $g$.  Sometimes one writes $g = f^\sharp$ and $f = g^\flat$.
+$f:L X \to Y$ and $g : X \to R Y$ which correspond under this bijection are said to be **adjuncts** of each other.  That is, $g$ is the (right-)adjunct of $f$, and $f$ is the (left-)adjunct of $g$.  Sometimes one writes $g = f^\sharp$ and $f = g^\flat$, as in musical notation.
 
 Sometimes people call $\tilde f$ the "adjoint" of $f$, and vice versa, but this is potentially confusing because it is the _functors_ $F$ and $G$ which are adjoint.  Other possible terms are _conjugate_, _transpose_, and [[mate]].
 
