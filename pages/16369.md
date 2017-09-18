@@ -136,11 +136,15 @@ Let $i:Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a dense subtopos that is 
 
 **Proof**: Let $X\coprod Y = 1$ be a decomposition of $1$ in $\mathcal{E}$. Since $i^\ast$ is a left exact left adjoint, it preserves coproducts and the terminal object and $i^\ast(X)\coprod i^\ast (Y)$ is therefore a decomposition of $1$ in $Sh_j(\mathcal{E})$ hence trivial by assumption. Let's say $i^\ast(X)\simeq\emptyset$ but $Sh_j(\mathcal{E})$ is dense and therefore we can conclude $X\simeq\emptyset$ hence $X\coprod Y = 1$ is trivial as well. $\qed$
 
-Next, let us record the following observation that applies e.g. to presheaf toposes $Set^{M^{op}}$ on monoids:
+###Example I: two-valued toposes
+
+Presheaf toposes $Set^{M^{op}}$ of actions of a (non-trivial) monoid $M$ are classical examples of toposes whose truth value objects $\Omega$ have exactly two global points $1\to\Omega$ without the toposes being necessarily Boolean. In fact they are Boolean precisely when $M$ is a group.
+
+As the next proposition shows, they are also instances of toposes in which only the degenerate subtopos fails to be dense:
 
 +-- {: .num_prop}
 ###### Proposition
-Let $\mathcal{E}$ be a [[two-valued topos]]. Then every non-trivial subtopos $Sh_j(\mathcal{E})$ is dense.
+The non-degenerate subtoposes $Sh_j(\mathcal{E})$ of a [[two-valued topos]] $\mathcal{E}$ are precisely the dense subtoposes of $\mathcal{E}$.
 =--
 
 **Proof**: Truth values $1\to\Omega$ correspond precisely to subobjects of $1$. Hence the $j$-closure $ext(j)$ of $\emptyset\rightarrowtail 1$ is either $\emptyset$ or $1$. In the first case, $Sh_j(\mathcal{E})$ is dense, in the second, from $X\times 1=1$ for $X\in Cl(Sh_j(\mathcal{E}))$ follows triviality. $\qed$
@@ -154,7 +158,7 @@ A topos $\mathcal{E}$ that is two-valued and Boolean has no non-trivial subtopos
 
 In other words, two-valued Boolean toposes are atoms in the lattice of subtoposes. Notice that this applies e.g. to well-pointed toposes.
 
-### An example: persistent localizations
+### Example II: persistent localizations
 
 Recall that a [[persistent localization]] is given by a [[Lawvere-Tierney topology]] $j$ with the property that every $j$-separated object is a $j$-sheaf. But separated objects are closed under taking subobjects and therefore in the case of persistent $j$, subobjects of $j$-sheaves are themselves $j$-sheaves.
 
