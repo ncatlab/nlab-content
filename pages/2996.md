@@ -29,7 +29,7 @@ that means it is equipped with
 
 1. a choice of [[pentagon law]] homotopy between five such $\eta$s;
 
-1. and so ever on, as controled by the [[associahedron|associahedra]].
+1. and so ever on, as controlled by the [[associahedron|associahedra]].
 
 In short one may say: an **$A_\infty$-space** is an [[A-∞ algebra]]/[[monoid in an (∞,1)-category]] in the [[(∞,1)-category]] [[∞Grpd]]/[[Top]]. See there for more details.
 
