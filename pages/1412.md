@@ -219,7 +219,7 @@ The fact that the two ways of going from the bottom left to the top right of the
 
 So that then is our definition of maps $f : X \to Y$ between generalized spaces $X$ and $Y$: if $U \mapsto X(U)$ and $V \mapsto X(V)$ are the probe-assignments that define $X$ and $Y$, then the map $f$ is defined by probe-transformations $f_U : X(U) \to Y(U)$ such that for all maps $\phi : U \to V$ the above squares commute.
 
-* Such a collection of data is called a [[natural transformation]] between the probe-assigning [[functor]]s $X(-)$ and $Y(-)$. Clearly, its a transformation, and it being "natural" just means that it satisfies the obvious consistency condition we discussed. 
+* Such a collection of data is called a [[natural transformation]] between the probe-assigning [[functor]]s $X(-)$ and $Y(-)$. Clearly, it's a transformation, and it being "natural" just means that it satisfies the obvious consistency condition we discussed. 
 
 
 With this understanding of maps between generalized spaces in hand, we should go back and compare it to the notion of _probes_ of generalized spaces by ordinary spaces.
