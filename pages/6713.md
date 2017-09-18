@@ -239,6 +239,8 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 * [[O-plane]], [[KR-theory]]
 
+* [[D-brane geometry]]
+
 [[!include table of branes]]
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
