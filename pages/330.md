@@ -44,7 +44,7 @@ For example:
 
 Many (but not all) of the examples above are [[cartesian closed categories]].  In a more general [[closed category]], a morphism from the unit object to $x$ can be called an _element_ of $x$. For example, an element of an [[abelian group]] $x$ is a morphism from the group $\mathbf{Z}$ of integers to $x$, and of course this is equivalent to the usual notion of element of $x$. But here the adjective 'global' is not used.
 
-Somewhat relatedly, there is[^1] a usage defining the informal notion "name of a morphism" as follows: if $\mathcal{C}$ is any [[closed monoidal category]], then 
+Somewhat relatedly, there is[^1] a usage defining the informal notion "name of a morphism" as follows: if $\mathcal{C}$ is any [[closed monoidal category]], and if $\text{"}\cdot\text{"}\colon \mathcal{C}(A,B)\rightarrow\mathcal{C}(I, [A,B])$ is some function (where $\mathcal{C}(\cdot,\cdot)$ denotes the non-internal-hom) then 
 
  (*name* of a morphism $A\overset{f}{\rightarrow}B$ in $\mathcal{C}$) 
 
