@@ -20,7 +20,7 @@ The following argument comes from ([Karoubi 1978](#Karoubi78), Theorem II.5.9), 
 ###### Proof
 For closed subsets $Y_1$ and $Y_2$, then the ring structure on K-theory means
 $$
-K_{Y_1}(X)\cdot K_{Y_2}(X) \subset K_{Y_1\cap Y_2}(X)
+K_{Y_1}(X)\cdot K_{Y_2}(X) \subset K_{Y_1\cup Y_2}(X)
 $$
 where $K_{Y_i}(X) := ker(K(X) \to K(Y_i))$. We can likewise consider the same for a sequence $Y_1,\ldots ,Y_n$.
 
