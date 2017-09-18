@@ -86,23 +86,28 @@ If the reflector $T$ is [[faithful functor|faithful]], the reflection is called 
 +-- {: .num_prop #CharacterizationByLocalization}
 ###### Proposition
 
-Given any pair of [[adjoint functor]]s 
+Given any pair of [[adjoint functors]]
 
 $$
-  Q^*\dashv Q_* : 
+  (Q^*\dashv Q_*)
+  \;:\; 
   B
-  \stackrel{\overset{Q^*}{\leftarrow}}{\underset{Q_*}{\to}} A
+    \underoverset
+      {\underset{Q_*}{\longrightarrow}}
+      {\overset{Q^*}{\longleftarrow}} 
+      {\bot}
+  A
 $$ 
 
 the following are equivalent:
 
-1. The [[right adjoint]] $Q_*$ is [[full and faithful functor|fully faithful]]. (In this case $B$ is equivalent to its essential image in $A$ under $Q_*$, a reflective full subcategory of $A$.) 
+1. The [[right adjoint]] $Q_*$ is [[full and faithful functor|fully faithful]]. (In this case $B$ is equivalent to its [[essential image]] in $A$ under $Q_*$, a full [[reflective subcategory]] of $A$.) 
 
 2. The [[counit of an adjunction|counit]] $\varepsilon : Q^* Q_*\to 1_B$ of the [[adjunction]] is a [[natural isomorphism]] of functors.
 
 3. The [[monad]] $(Q_* Q^*,Q_*\varepsilon Q^*,\eta)$ associated with the adjunction is [[idempotent monad|idempotent]], the right adjoint $Q_*$ is [[conservative functor|conservative]], and the left adjoint $Q^*$ is [[essentially surjective functor|essentially surjective on objects]].
 
-4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$, then $Q^*: A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
+4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is an [[isomorphism]] in $B$, then $Q^* \colon A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
 
 =--
 
