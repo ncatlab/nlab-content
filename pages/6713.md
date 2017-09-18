@@ -297,6 +297,8 @@ The idea that the physics of D-branes is described by [[topological K-theory]] o
 
 Review includes
 
+* [[Edward Witten]], _Overview Of K-Theory Applied To Strings_,  	Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
+
 * [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
 
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int.J.Geom.Meth.Mod.Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
