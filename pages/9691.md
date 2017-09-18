@@ -7,6 +7,10 @@
 
 The 2-[[simplex]]. The [[polygon]] with three sides.
 
+## Properties
+
+* [[Pythagorean theorem]]
+
 ## Related concepts
 
 * [[circle]]
