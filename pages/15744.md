@@ -1,4 +1,5 @@
 
+Marco Schlichting is associate professor of [[mathematics]] at Warwick.
 
 * [webpage](http://www2.warwick.ac.uk/fac/sci/maths/people/staff/marco_schlichting/)
 
