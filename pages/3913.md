@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -15,53 +19,111 @@
 
 ## Idea
 
-The **Thom space** $Th(V)$ of a [[vector bundle]] $V \to X$ over a [[topological space]] $X$ is the [[topological space]] obtained by first forming the disk bundle $D(V)$ of (unit) disks in the [[fibers]] of $V$ and then identifying to a point the [[boundaries]] of all the disks, i.e. forming the quotient by the [[sphere bundle]] $S(V)$:
+The **Thom space** $Th(V)$ of a real [[vector bundle]] $V \to X$ over a [[topological space]] $X$ is the [[topological space]] obtained by first forming the disk bundle $D(V)$ of (unit) disks in the [[fibers]] of $V$ (with respect to a [[metric]] given by any choice of [[orthogonal structure]]) and then identifying to a point the [[boundaries]] of all the disks, i.e. forming the [[quotient topological space]] by the [[sphere bundle]] $S(V)$:
 
 $$
-  Th(V) := D(V)/S(V)
+  Th(V) \coloneq D(V)/S(V)
   \,.
 $$
 
-(N.B.: this is a quotient of the *total* spaces of the bundles taken in $Top$, not a bundle quotient in $Top/V$.) This is equivalently the [[mapping cone]]
+(N.B.: this is a quotient of the *total* spaces of the bundles taken in $Top$, not a bundle quotient in $Top/V$.) 
+
+This is equivalently the [[mapping cone]]
 
 $$
   \array{
-    S(V) &\to& *
+    S(V) &\longrightarrow& *
     \\
-    \downarrow^{\mathrlap{p}} && \downarrow
+    {}^{\mathllap{p}}\downarrow &\swArrow& \downarrow
     \\
-    X &\to& Th(V)
+    X & \longrightarrow & Th(V)
   }
 $$
 
-in [[Top]] of the [[sphere]] [[bundle]] of $V$. Therefore more generally, for $P \to X$ any $S^n$-[[bundle]] over $X$, its Thom space is the the [[mapping cone]]
+in [[Top]] of the [[sphere]] [[bundle]] of $V$. Therefore more generally, for $P \to X$ any [[n-sphere]]-[[fiber bundle]] over $X$ ([[spherical fibration]]), its Thom space is the the [[mapping cone]]
 
 $$
   \array{
-    P &\to& *
+    P &\longrightarrow& *
     \\
-    \downarrow^{\mathrlap{p}} && \downarrow
+    {}^{\mathllap{p}}\downarrow &\swArrow& \downarrow
     \\
-    X &\to& Th(P)
+    X & \longrightarrow & Th(P)
   }
 $$
 
 of the bundle projection.
 
 
-For $X$ a [[compact topological space]], the $Th(V)$ is a model for [[generalized the|the]] [[one-point compactification]] of the total space $V$.
+For $X$ a [[compact topological space]], $Th(V)$ is a model for [[generalized the|the]] [[one-point compactification]] of the total space $V$.
 
-The Thom space of the universal rank-$n$ vector bundle over the [[classifying space]] $B O(n)$ of the [[orthogonal group]] is usuelly denoted $M O(n)$. As $n$ ranges, these spaces form the [[Thom spectrum]].
+The Thom space of the rank-$n$ [[universal vector bundle]] over the [[classifying space]] $B O(n)$ of the [[orthogonal group]] is usuelly denoted $M O(n)$. As $n$ ranges, these spaces form the [[Thom spectrum]].
 
 ## Properties
 
-+-- {: .num_prop}
-###### Observation
++-- {: .num_defn}
+###### Definition
 
-The Thom space of the rank-0 bundle over $X$ is the space $X$ with a basepoint freely adjoined:
+Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
+
+1. the **unit disk bundle** $D(V) \to X$ is the subbundle of elements of [[norm]] $\leq 1$;
+
+1. the **unit sphere bundle** $S(V)\to X$ is the subbundle of elements of norm $= 1$;
+
+   $S(V) \overset{i_V}{\hookrightarrow} D(V) \hookrightarrow V$;
+
+1. the **Thom space** $Th(V)$ is the [[cofiber]] (formed in [[Top]] ([prop.](Top#DescriptionOfLimitsAndColimitsInTop))) of $i_V$ 
+
+   $$
+     Th(V) \coloneqq cofib(i_V)
+   $$
+
+   canonically regarded as a [[pointed topological space]].
+
+$$
+  \array{
+    S(V) &\overset{i_V}{\longrightarrow}& D(V)
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& Th(V)
+  }
+  \,.
+$$
+
+If $V \to X$ is a general real vector bundle, then there exists an isomorphism to an $O(n)$-[[associated bundle]] and the Thom space of $V$ is, up to based [[homeomorphism]], that of this orthogonal bundle.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+If the [[rank]] of $V$ is positive, then $S(V)$ is non-empty and then the Thom space is the [[quotient topological space]]
+
+$$
+  Th(V) \simeq D(V)/S(V)
+  \,.
+$$
+
+However, in the degenerate case that the [[rank]] of $V$ vanishes, hence the case that $V = X\times \mathbb{R}^0 \simeq X$, then $D(V) \simeq V \simeq X$, but $S(V) = \emptyset$. Hence now the [[pushout]] defining the cofiber is
+
+$$
+  \array{
+    \emptyset &\overset{i_V}{\longrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& Th(V) \simeq X_*
+  }
+  \,,
+$$
+
+which exhibits $Th(V)$ as the [[coproduct]] of $X$ with the point, hence as $X$ with a basepoint freely adjoined.
 
 $$
   Th(X \times \mathbb{R}^0) = Th(X) \simeq X_+
+  \,.
 $$
 
 =--
