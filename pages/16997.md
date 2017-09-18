@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of [[gravity]] ([[general relativity]] and its variants, such as [[supergravity]]) what are called _no-hair theorems_ are statements saying that or to which extent [[black hole]] [[spacetimes]] and more generally [[black brane]] spacetimes are characterized by their [[mass]], [[angular momentum]] and [[charge]], hence that they look much like macroscopic [[fundamental particles]] or fundamental [[branes]] ("[[black branes]]").
+
+## Examples
+
+### In 4d Einstein-Maxwell theory
+
+The archetypical example is 4-dimensional [[Einstein-Maxwell theory]], where the no-hair theorem asserts that all [[black hole]] solutions are entirely characterized by their [[mass]], [[angular momentum]] and [[electric charge]].
+
+[[!include charged and rotating black holes -- table]]
+
+### In 4d Einstein-Yang-Mills theory
+
+Generalizing to 4-dimensional [[Einstein-Maxwell-Yang-Mills theory]] with [[nonabelian group|nonabelian]] [[gauge group]], the situation becomes much more subtle. (...) 
+
+## Wikipedia 
+
+* Wikipedia, _[No-hair theorem](https://en.wikipedia.org/wiki/No-hair_theorem)_
