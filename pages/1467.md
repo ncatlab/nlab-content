@@ -333,11 +333,16 @@ is a finite subcover of the original open cover of $K \setminus U$. Therefore $K
 +-- {: .num_prop }
 ###### Proposition
 
-Assuming the [[axiom of choice]], the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. 
+Assuming the [[axiom of choice]], the category of compact spaces admits all small [[products]]. And, even without the axiom of choice, the category of compact locales admits all small products. 
 
-By the [[Tychonoff theorem]], every [[product topological space]] of compact spaces is itself again compact.
+The first statement follows from the [[Tychonoff theorem]]: every [[product topological space]] of compact spaces is itself again compact.
 
-=--
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+However, the category of compact spaces does not admit equalizers. An explicit example is where one takes two maps $[0, 1] \to \{0, 1\}$ where the codomain is [[Sierpinski space]], where one of the maps $f$ has $f^{-1}(1) = [0, 1/2)$, and the other is the constant map at $1$. If an equalizer in $Comp$ existed, then $\hom(1, -): Comp \to Set$ would have to preserve it, so set-theoretically it would have to be $[0, 1/2)$. The topology on $[0, 1/2)$ would then have to be the same as or finer than the subspace topology in order for the equalizer map to be continuous. But if the subspace topology isn't compact, then no finer topology would make it compact either. (Here we are invoking the contrapositive of the proposition that if $(X, \tau)$ is compact and $\tau' \subseteq \tau$ is a coarser topology, then $(X, \tau')$ is also compact.) 
+=-- 
 
 
 +-- {: .num_prop }
