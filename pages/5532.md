@@ -28,7 +28,7 @@ For the general concept see at _[[n-connected object of an (infinity,1)-topos]]_
 
 A [[topological space]] $X$ is __$n$-connected__ or __$n$-simply connected__ if its [[homotopy groups]] are trivial up to degree $n$.
 
-More explicitly, $X$ is __precisely $k$-connected__ if every [[continuous map]] to $X$ from the $k$-[[sphere]] extends to a continuous map to $X$ from the $k$-[[disk]].  Then $X$ is __$n$-(simply) connected__ if $X$ is precisely $k$-connected for $-1 \leq k \leq n$.
+More explicitly, $X$ is __precisely $k$-connected__ if every [[continuous map]] to $X$ from the $k$-[[sphere]] extends to a continuous map to $X$ from the $k+1$-[[disk]].  Then $X$ is __$n$-(simply) connected__ if $X$ is precisely $k$-connected for $-1 \leq k \leq n$.
 
 
 ## Special cases
