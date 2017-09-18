@@ -22,7 +22,7 @@ Remark that some important Lambda-rings, such as K-theory, are
 actually equipped with an additional $\mathbb{Z}/2$-grading,
 that may be combined with the Lambda-structure to get an action
 of the full monoid $\mathbb{Z}$-$\{0\}$. It is important to remark here
-that the $\Lambda$-structure on $K$-theory allows to get back
+that the $\Lambda$-structure on $K$-theory allows one to get back
 (as the spectrum of the Lambda-operations) the full $\mathbb{Z}$-grading
 on Betti cohomology.
 
