@@ -5,7 +5,11 @@
 
 * [[variational bicomplex]]
 
-* [[Lagrangian]], [[local action functional]]
+* [[local Lagrangian]], [[local action functional]]
+
+  * [[Euler-Lagrange form]], [[source form]]
+
+  * [[Lepage form]]
 
 * [[principle of extremal action]], [[Euler-Lagrange equations]], [[de Donder-Weyl formalism]]
 
