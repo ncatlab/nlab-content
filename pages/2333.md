@@ -19,7 +19,7 @@ Of particular importance are convex spaces parametrized by the interval $P = [0,
 
 A __convex space__ is a [[set]] $X$ equipped with:
 
-* a [[semiring|(semi)]]([[ring]] $P$, so that for each element $p \in P$, there exists an operation $c_p: X \times X \to X$,
+* a [[semiring|(semi)]][[ring]] $P$, so that for each element $p \in P$, there exists an operation $c_p: X \times X \to X$,
 
 such that the following identities always hold:
 
@@ -32,7 +32,7 @@ As a consequence of the first and third axioms, $c_1(x,y) = c_0(y,x) = y$.
 
 This defines convex spaces as a [[variety of algebras]], with one binary operation for each $p$. 
 
-The intended interpretation is that $c_p(x,y) = x + p(y-x) = (1-p)x + py$. i.e., $c_p(x,y)$ is the $p$-weighted average of $x$ and $y$, where $x$ gets weight $1-p$ and $y$ gets weight $p$. By thinking of $p$ as a continuous parameter, this interpretation has the advantage of "starting" at $x$, then moving toward $y$ at "rate" $p$.
+The intended interpretation is that $c_p(x,y) = x + p(y-x) = (1-p)x + p y$. i.e., $c_p(x,y)$ is the $p$-weighted average of $x$ and $y$, where $x$ gets weight $1-p$ and $y$ gets weight $p$. By thinking of $p$ as a continuous parameter, this interpretation has the advantage of "starting" at $x$, then moving toward $y$ at "rate" $p$.
 
 This interpretation is '[[bias|biased]]', in the sense that the centered choice $p=0$ favors $x$. It is also possible to give an '[[bias|unbiased]]' definition, which characterizes to convex-linear combinations of many points. This is an $n$-ary operation parametrised by a list $p := (p_1,\ldots,p_n)$ satisfying $\sum_{i = 1}^n p_i = 1$. If $x := (x^1,\ldots, x^n)$, then $c_p(x) := \sum_i p_i x^i$.
 
