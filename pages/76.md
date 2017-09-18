@@ -174,6 +174,8 @@ See also
 
 * H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
 
+* Jasper Moller, _Homotopy theory for beginners_ ([pdf](http://www.math.ku.dk/~moller/e01/algtopI/comments.pdf))
+
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
