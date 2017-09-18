@@ -27,7 +27,7 @@ Composing pullback of cohomology classes with fiber integration yields the notio
 
 ## Definition
 
-### In generalized cohomology by Pontryagin-Thom collapse maps
+### In generalized cohomology via Pontryagin-Thom collapse maps
 
 #### Along maps of manifolds
 
@@ -37,7 +37,7 @@ The basic strategy is this:
 
 1. start with a map $E \to B$
 
-1. make $E$ bigger by passing to its [[Thom space]] $Th(E)$ such that we have a map the other way round $B \to Th(E)$;
+1. make $B$ bigger without changing its homotopy type such that the map from $E$ becomes an [[embedding]];
 
 1. choose an [[orientation in generalized cohomology|orientation]] structure that makes the cohomology of $E$ equivalent to that of $Th(E)$ (the [[Thom isomorphism]]);
 
