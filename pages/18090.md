@@ -19,6 +19,7 @@ This page is going to contain a detailed introduction to basic [[topology]] ([[p
 starting from scratch with motivation from [[analysis]]
 and ending with the first elementary application of [[homotopy theory]]: [[covering spaces]].
 
+
 > Under construction.
 
 For introduction to genuine _[[homotopy theory]]_ see at
@@ -30,7 +31,7 @@ For introduction to genuine _[[homotopy theory]]_ see at
 $\,$
 
 The idea of _[[topology]]_ is to study "[[spaces]]" with "[[continuous functions]]" between them.
-Specifically one consider [[functions]] between [[sets]] (whence "[[point-set topology]]", see [below](#PointSetTopology))
+Specifically one considers [[functions]] between [[sets]] (whence "[[point-set topology]]", see [below](#PointSetTopology))
 such that there is a concept for what it means that these functions depend
 continuously on their arguments, in that that their values do not "jump".
 Such a concept of [[continuous function|continuity]] is familiar from [[analysis]] on [[metric spaces]],
@@ -99,7 +100,7 @@ $\,$
 ## Point-set topology
  {#PointSetTopology}
 
-In this first part we discuss the foundations of the concept of "sets equipped with topology" 
+In this first part we discuss the foundations of the concept of "sets equipped with topology"
 ([[topological spaces]]) and of [[continuous functions]] between them.
 
 
@@ -588,7 +589,7 @@ be a [[subset]] of its set of [[open subsets]]. We say that
 Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the
 [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 
-Here is some common further terminology relating to topological spaces:
+Here is some common **further terminology** relating to topological spaces:
 
 +-- {: .num_defn #ClosedSubset}
 ###### Definition
@@ -621,7 +622,7 @@ Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the
 +-- {: .num_defn #ClosedIrreducible}
 ###### Definition
 
-A [[closed subset]] $S \subset X$ (def. \ref{ClosedSubset}) of a [[topological space]] $X$ is called _irreducibe_ if it is
+A [[closed subset]] $S \subset X$ (def. \ref{ClosedSubset}) of a [[topological space]] $X$ is called _[[irreducible closed subspace|irreducible]]_ if it is
 [[inhabited|non-empty]] and not the [[union]] of two closed proper (i.e. smaller) subsets. In other words, $S$ is irreducible if whenever
 $S_1, S_2 \subset X$ are two [[closed subspace]] such that
 
@@ -641,6 +642,86 @@ the [[topological closure|closure]] $Cl(\{x\})$ of the [[singleton]] [[subset]] 
 is [[irreducible closed subset|irrducible]] (def. \ref{ClosedIrreducible}).
 
 =--
+
+Sometimes it is useful to re-express the condition of irreducibility of closed subspace
+in terms of complementary open subsets:
+
++-- {: .num_prop #OpenSubsetVersionOfClosedIrreducible}
+###### Proposition
+
+Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau \subset P(X)$ be a proper [[open subset]],
+so that the [[complement]] $F \coloneqq X\backslash P$ is an [[inhabited]] [[closed subspace]]. Then $F$
+is [[irreducible closed subspace|irreducible]] in the sense of def. \ref{ClosedIrreducible} precisely if whenever $U_1,U_2 \in \tau$ are open subsets
+with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
+
+$$
+  X \backslash P \,\text{irreducible}
+  \;\Leftrightarrow\;
+  \left(
+    \underset{U_1, U_2 \in \tau}{\forall }
+    \left(
+      U_1 \cap U_2 \subset P
+      \;\Rightarrow\;
+      \left(U_1 \subset P \;\text{or}\; U_2 \subset P\right)
+    \right)
+  \right)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Every [[closed subset]] $F_i \subset F$ may be exhibited as the [[complement]]
+
+$$
+  F_i = F \backslash U_i
+$$
+
+for some open subset $U_i \in \tau$. Observe that under this identification the condition
+that $U_1 \cap U_2 \subset P$ is equivalent to the condition that $F_1 \cup F_2 = F$,
+because it is equivalent to the equation labeled $(\star)$ in the following sequence of equations:
+
+$$
+\begin{aligned}
+  F_1 \cup F_2
+  & =
+  (F \backslash U_1) \cup (F \backslash U_2)
+  \\
+  &
+  = \left( X \backslash (P \cup U_1) \right) \cup \left( X \backslash P \cup U_2 \right)
+  \\
+  & = X \backslash ( P \cup (U_1 \cap U_2)  )
+  \\
+  & \stackrel{(\star)}{=}   X \backslash P
+  \\
+  & = F
+\end{aligned}
+\,.
+$$
+
+Similarly, the condition that $U_i \subset P$ is equivalent to the condition that $F_i = F$,
+because it is quivalent to the equality $(\star)$ in the following sequence of equalities:
+
+$$
+  \begin{aligned}
+    F_i &= F \backslash U_i
+    \\
+    & = X \backslash ( P \cup U_i )
+    \\
+    & \stackrel{(\star)}{=} X \backslash P
+    \\
+    & =
+    F
+  \end{aligned}
+  \,.
+$$
+
+Under these equivalences, the two conditions are manifestly the same.
+
+=--
+
+
 
 +-- {: .num_defn #TopologyFinerCoarser}
 ###### Definition
@@ -697,7 +778,7 @@ See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
 +-- {: .num_defn #TopologyCofinite}
 ###### Definition
 
-Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]] 
+Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]]
 (def. \ref{TopologicalSpace}) whose [[open subsets]] are precisely
 
 1. all [[cofinite subsets]];
@@ -716,7 +797,7 @@ On the 2-element set $\{0,1\}$ there are (up to [[permutation]] of elements) thr
 
 1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\} \{0,1\}  \right\}$;
 
-1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\} \{0,1\}  \right\}$.
+1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\}, \{0,1\}  \right\}$.
 
 =--
 
@@ -898,17 +979,25 @@ says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[To
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #PointsViaContinuousFunctions}
 ###### Example
 
-For $(X, \tau)$ a [[topological space]] then for $x \in X$ any element of the underlyiing set,
+For $(X, \tau)$ a [[topological space]] then for $x \in X$ any element of the underlying set,
 there is a unique continuous function
 
 $$
   \ast \longrightarrow X
 $$
 
-from the [[point]] (def. \ref{Point}), whose image in $X$ is that element.
+from the [[point]] (def. \ref{Point}), whose image in $X$ is that element. Hence there is a [[natural bijection]]
+
+$$
+  Hom_{Top}(\ast,(X.\tau)) \;\simeq\; X
+$$
+
+between the continuous functions from the point to any topological space, and the underlying set of that topological space.
+
+
 
 =--
 
@@ -1198,14 +1287,14 @@ $$
   \,.
 $$
 
-For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neihghbouthoods]] of these points
+For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neighbourhoods]] of these points
 
 * **(T0**) $\underset{x \neq y}{\forall} \left(
-    \left( \underset{U_x}{\exists} ( \{x\} \cap U_y = \emptyset ) \vee \left( \{y\} \cap U_x = \emptyset  \right) \right)$
+    \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right) \vee \left( \underset{U_x}{\exists} \left( U_x \cap \{y\} = \emptyset  \right) \right) \right)$
 
-* **((T1)** $\underset{x \neq y}{\forall} \underset{U_x,U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \,\wedge \, \{y\} \cap U_x = \emptyset \right)$
+* **((T1)** $\underset{x \neq y}{\forall} \left(\underset{U_x,U_y}{\exists} \left(\left( \{x\} \cap U_y = \emptyset\right) \,\wedge \, \left( U_x \cap \{y\}  = \emptyset \right)\right) \right)$
 
-* **(T2)** $\underset{x \neq y}{\forall} \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right)$
+* **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/HausdorffProperty.png" width="190">
@@ -1518,9 +1607,180 @@ That neither class is contained in the other is shown by the following counter-e
 
 * The [[Sierpinski space]] (def. \ref{SierpinskiSpace}) is sober, but not $T_1$.
 
-* The [[cofinite topology]] (def. \ref{TopologyCofinite}) on a non-[[finite set]] is $T_1$ but not sober. 
+* The [[cofinite topology]] (def. \ref{TopologyCofinite}) on a non-[[finite set]] is $T_1$ but not sober.
 
 =--
+
+
+What makes the concept of _[[sober topological spaces]]_ special is that
+for them the concept of [[continuous functions]] may be expressed entirely in terms
+of the relations between their [[open subsets]], disregarding the underlying
+set of points of which these open are in fact subsets. In order to express this
+property, we first introduce the following terminology:
+
++-- {: .num_defn #HomomorphismOfFramesOfOpens}
+###### Definition
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]] (def. \ref{TopologicalSpace}).
+Then a function
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; \phi
+$$
+
+between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_
+if it preserves
+
+1. inclusions;
+
+1. arbitrary [[unions]];
+
+1. [[finite number|finite]] [[intersections]].
+
+In other words, $\phi$ is a frame homomorphism if
+
+1. for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
+
+   $$
+     \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
+     \,,
+   $$
+
+1. for every [[set]] $I$ and every $I$-indexed set $\{U_i \in \tau_Y\}_{i \in I}$ of elements of $\tau_Y$, then
+
+   $$
+     \phi\left(\underset{i \in I}{\cup} U_i\right) \;=\; \underset{i \in I}{\cup} \phi(U_i)\;\;\;\;\in \tau_X
+     \,,
+   $$
+
+1. for every [[finite set]] $J$ and every $J$-indexed set $\{U_j \in \tau_Y\}$ of elements in $\tau_Y$, then
+
+   $$
+     \phi\left(\underset{j \in J}{\cap} U_j\right)
+       \;=\;
+     \underset{j \in J}{\cap} \phi(U_j)
+     \;\;\;\;\in \tau_X
+     \,.
+   $$
+
+=--
+
+For
+
+$$
+  f \;\colon\; (X,\tau_X) \longrightarrow (Y, \tau_Y)
+$$
+
+a [[continuous function]], then its function of [[pre-images]]
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; f^{-1}
+$$
+
+is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
+
+For sober topological spaces the converse holds:
+
++-- {: .num_prop}
+###### Proposition
+
+If $(X,\tau_X)$ and $(Y,\tau_Y)$ are [[sober topological spaces]] (def. \ref{Sober}), then
+for every frame homomorphism (def. \ref{HomomorphismOfFramesOfOpens})
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; \phi
+$$
+
+there is a unique [[continuous function]] $f \colon X \to Y$ such that $\phi$ is the function
+of forming [[pre-images]] under $f$:
+
+$$
+  \phi = f^{-1}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\ast = (\{x\}, \tau_\ast = \{\emptyset, \{1\}\})$ be the [[point]] [[topological space]] (def. \ref{TerminalityOfThePoint}).
+
+By precomposition
+
+$$
+  \ast \longrightarrow X \longrightarrow Y
+$$
+
+it is sufficient to see that frame homomorphisms of the form
+
+$$
+  \tau_\ast \longleftarrow \tau_X \;\colon\; \phi_\ast
+$$
+
+are in bijection to the underlying $X$, identified with the continuous functions
+$\ast \to (X,\tau)$ via example \ref{PointsViaContinuousFunctions}.
+
+To this end, consider the [[union]] $U_{\emptyset}$ of all elements $U \in \tau_x$ such that $\phi_\ast(U) = \emptyset$:
+
+$$
+  U_{\emptyset}
+    \coloneqq
+  \underset{{U \in \tau_X} \atop {\phi_\ast(U) = \emptyset} }{\cup}
+   U
+  \,.
+$$
+
+Then observe that if there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 = U_{\emptyset}$
+then $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$.
+This is because
+
+$$
+  \begin{aligned}
+    \phi_\ast(U_1 \cap U_2)
+    & =
+    \phi(U_1) \cap \phi(U_2)
+    \\
+    & \subset \phi(U_{\emptyset})
+    \\
+    & =
+    \emptyset
+  \end{aligned}
+  \,,
+$$
+
+(where the first equality holds because $\phi$ preserves finite intersections, the inclusion holds because $\phi$ respects
+inclusions, and the second equality holds because $\phi$ preserves arbitrary unions).
+But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
+hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$,
+as claimed.
+
+Now according to prop. \ref{OpenSubsetVersionOfClosedIrreducible}
+this condition identifies the [[complement]]
+$X \backslash U_{\emptyset}$ as an [[irreducible closed subspace]] of $(X,\tau)$.
+Therefore by assumption of [[sober topological space|sobriety]] of $(X,\tau)$ there is a unique point
+$x \in X$ with $X \backslash U_{\emptyset} = Cl(\{x\})$. In particular this means that for $U_x$ an open
+neighbourhood of $x$, then $U_x$ is not a subset of $U_\emptyset$, and so it follows that $\phi(U_x) = \{1\}$.
+In conclusion we have found a unique $x \in X$ such that
+
+$$
+  \phi
+    \;\colon\;
+  U \mapsto
+  \left\{
+    \array{
+      \{1\} & \vert \,\text{if}\, x \in U
+      \\
+      \emptyset & \vert \, \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+This is precisely the the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
+
+=--
+
 
 
 
