@@ -89,10 +89,10 @@ This is proposition 3.16 in ([SchwedeShipley](#SchwedeShipley)).
 
 ### Lift to an adjunction on monoids {#LiftToAdjunctionOnMonoids}
 
-We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, an adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding [[categories of monoids]]. In the following secton we discuss how this is itself a Quillen adjunction
+We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, an adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding [[categories of monoids]]. In the following section we discuss how this is itself a Quillen adjunction
 
 
-The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). Write $\mabla_{X,Y} : R X \otimes R Y \to R(X \otimes Y)$ for the lax monoidal structure on $R$. This induces canonically the structure of a [[oplax monoidal functor]] (as described there) on the left adjoint  $L : D \to C$. Write $\tilde\nabla : L(X \otimes Y) \to L X \otimes L Y$ for this oplax structure.
+The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). Write $\nabla_{X,Y} : R X \otimes R Y \to R(X \otimes Y)$ for the lax monoidal structure on $R$. This induces canonically the structure of a [[oplax monoidal functor]] (as described there) on the left adjoint  $L : D \to C$. Write $\tilde\nabla : L(X \otimes Y) \to L X \otimes L Y$ for this oplax structure.
 
 While $L$ will not extend to a functor on the [[category of monoids]] unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$.
 
@@ -661,12 +661,12 @@ $\,$
 
 The notion of strong monoidal Quillen adjunction is def. 4.2.16 in 
 
-* [[Mark Hovey]], _Model categories_
+* [[Mark Hovey]], _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 The lax monoidal version is considered as definition 3.6 of 
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
-{#SchwedeShipley}
+* {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342))
+
 
 The statements involving pushouts along free monoid morphisms are discussed in lemma 6.2 of 
 
