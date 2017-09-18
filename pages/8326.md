@@ -2340,7 +2340,7 @@ Indeed, this is a phenomenon known as the [[nLab:torsion constraints in supergra
 +-- {: .num_defn #DefiniteGlobalizationofWZWTerm}
 ###### Definition
 
-Given a WZW term of the form
+Given a [[nLab:infinity-group cohomology|group cocycle]] $\mathbf{c} \colon \mathbf{B}G\to\mathbf{B}^{p+2}\mathbb{G}$ with [[nLab:WZW term]], prop. \ref{WZWTermFromCocycle}, of the form
 
 $$
   \mathbf{L}_{WZW}^V
@@ -2383,7 +2383,11 @@ $$
   \,.
 $$
 
-Accordingly, as in def. \ref{IntegrabilityOfGStructure} we say that $\mathbf{L}_{WZW}^X$ is an _infinitesimally integrable globalization_ if this correspondence exists after restriction along the inclusion $\flat^{rel} U \to U$ of the [[nLab:infinitesimal disks]] in $X$.
+Accordingly, as in def. \ref{IntegrabilityOfGStructure} we say that $\mathbf{L}_{WZW}^X$ is an _infinitesimally integrable globalization_ if this correspondence exists after restriction along the inclusion $\flat^{rel} U \to U$ of the [[nLab:infinitesimal disks]] in $X$ and such that 
+
+1. the induced section of the [[nLab:associated infinity-bundle|associated]]  $[\mathbb{D}(1)^V,\mathbf{B}^{p+1}\mathbb{G}_{conn}]$-[[nLab:fiber infinity-bundle]] is _definite_ on the restriction $\mathbf{L}_{WZW}^{\mathbb{D}}$ of $\mathbf{L}_{WZW}^V$ to the infinitesimal disk;
+
+1. also the underlying cocycle is definite, in that the infinitesimal disk bundle lifts to an $\mathbb{D}^V(1)$-[[nLab:gerbe]] (for the induced group structure on $\mathbb{D}^V(1)$).
 
 =--
 
@@ -2495,7 +2499,6 @@ $$
   \stackrel{\longleftarrow}{\hookrightarrow}
   CartSp
   \stackrel{\hookrightarrow}{\longleftarrow}
-
   CartSp\rtimes InfPoint
   \stackrel{\longleftarrow}{\stackrel{\hookrightarrow}{\longleftarrow}}
   CartSp \rtimes SuperPoint  
@@ -2995,6 +2998,8 @@ $$
 $$
 
 =--
+
+A definite globalization, of this 3-cocycle over a $\mathbb{R}^{3\vert \mathbf{2}}$-manifold requires, by def. \ref{DefiniteGlobalizationofWZWTerm}, that the [[nLab:tangent bundle]] is a bundle of [[nLab:super Lie algebras]] and that the cocycle extends to a [[nLab:definite form]]. This imposes [[nLab:G-structure]] for $G$ the [[nLab:Lorentz group]] (or rather its [[nLab:spin group]] [[nLab:double cover]]).
 
 +-- {: .num_prop}
 ###### Proposition
