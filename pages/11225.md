@@ -21,7 +21,7 @@ There are two main concepts of computable functions, called "type I" and "type I
 
 * In the type I case one considers functions operating on "finite strings of a finite alphabet" hence equivalently on the set of [[natural numbers]]. The computable functions in this case are _[[partial recursive functions]]_.
 
-* In the type II case one considers functions operating on "infinit strings of a finite alphabet" hence equivalently on the set of infinite sequences of [[natural numbers]] ("[[Baire space (computability)|Baire space]]"). The idea here is that the computation may be continued indefinitely to produce results always of finite but of ever increasing precision. Therefore this type II-concept is of relevance for computability in [[analysis]], hence in _[[computable analysis]]/[[constructive analysis]]_.  See at _[[computable function (analysis)]]_.
+* In the type II case one considers functions operating on "infinite strings of a finite alphabet" hence equivalently on the set of infinite sequences of [[natural numbers]] ("[[Baire space (computability)|Baire space]]"). The idea here is that the computation may be continued indefinitely to produce results always of finite but of ever increasing precision. Therefore this type II-concept is of relevance for computability in [[analysis]], hence in _[[computable analysis]]/[[constructive analysis]]_.  See at _[[computable function (analysis)]]_.
 
 The following table summarizes this and related concepts:
 
