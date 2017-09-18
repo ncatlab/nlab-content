@@ -88,6 +88,7 @@ In fact, $Con(T)$ is not just a structured category, it is a [[split model of ty
 
 
 ### Universal property
+ {#UniversalProperty}
 
 The syntactic category $Con(T)$ has the [[universal property]] that for $C$ any suitable category, [[functors]]
 
