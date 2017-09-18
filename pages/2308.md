@@ -15,25 +15,98 @@
 
 ## Definition
 
-A _reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory_ is a $\mathbb{Z}$-collection of  [[functors]]
++-- {: .num_defn #ReducedGeneralizedCohomology}
+###### Definition
+
+A **reduced [[cohomology theory]]** is a [[functor]]
 
 $$
-  \tilde E^\bullet \colon (Top^{\ast/})^{op} \longrightarrow Ab
+  \tilde E^\bullet 
+   \;\colon\; 
+  (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
 $$
 
-from the [[opposite category]] of [[pointed topological spaces]] to [[abelian groups]]
-
-equipped with [[natural isomorphism|natural]] [[suspension isomorphisms]] 
+from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
 
 $$
-  \tilde E^k(-) \stackrel{\simeq}{\longrightarrow} \tilde E^k(\Sigma -) 
+  \tilde E 
+    \;\colon\; 
+  (X \stackrel{f}{\longrightarrow} Y)
+    \mapsto
+  (\tilde E^\bullet(Y) 
+    \stackrel{f^\ast}{\longrightarrow}
+  \tilde E^\bullet(X))
+  \,,
 $$
 
-such that
+and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
 
-1. **homotopy invariance**....
+$$
+  \sigma
+    \;\colon\;
+  \tilde E^{\bullet +1}(\Sigma -) 
+    \overset{\simeq}{\longrightarrow} 
+  \tilde E^\bullet(-) 
+$$
 
-1. **exactness*...
+such that:
+
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+
+   $$
+     f_1^\ast = f_2^\ast
+     \,.
+   $$
+
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+
+   $$
+     \tilde E^\bullet(Cone(i)) 
+      \overset{j^\ast}{\longrightarrow} 
+     \tilde E^\bullet(X)
+       \overset{i^\ast}{\longrightarrow}
+     \tilde E^\bullet(A)
+     \,.
+   $$
+
+We say $\tilde E^\bullet$ is **additive** if in addition
+
+* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical comparison morphism
+
+  $$
+    \tilde E^\bullet(\vee_{i \in I} X_i) 
+     \longrightarrow
+    \prod_{i \in I} \tilde E^\bullet(X_i)
+  $$
+
+  is an [[isomorphism]], from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, .
+
+We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
+
+* **(Dimension)**  $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
+
+A [[homomorphism]] of reduced cohomology theories
+
+$$
+  \eta \;\colon\; \tilde E^\bullet \longrightarrow \tilde F^\bullet
+$$
+
+is a [[natural transformation]] between the underlying functors which is compatible with the suspension isomorphisms in that all the following [[commuting square|squares commute]]
+
+$$
+  \array{
+    \tilde E^\bullet(X) &\overset{\eta_X}{\longrightarrow}&  \tilde F^\bullet(X)
+    \\
+    {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
+    \\
+    \tilde E^{\bullet + 1}(\Sigma X) 
+    &\overset{\eta_{\Sigma X}}{\longrightarrow}&
+    \tilde F^{\bullet + 1}(\Sigma X)
+  }
+  \,.
+$$
+
+=--
 
 (e.g. [AGP 02, def. 12.1.4](#AGP02))
 
@@ -41,24 +114,32 @@ such that
 
 ### Brown representability 
 
-The [[Brown representability theorem]] says that for $\tilde H^\bullet$ there is a [[spectrum]] $E$ such that $\tilde H^k(X) \simeq [X,E_n]_\ast$.
+The [[Brown representability theorem]] says that for any reduced cohomology theory $\tilde E^\bullet$ there is an [[Omega-spectrum]] $E$ which [[representable functor|represents]] $\tilde E^\bullet$ on pointed connected CW-complex $X$, in that
+
+$$
+  \tilde E^n(X) \simeq [X,E_n]_\ast
+  \,.
+$$
 
 ### Relation to unreduced cohomology
 
-For an unreduced [[cohomology theory]] $H^\bullet$  the induced **reduced cohomology** 
+For an unreduced [[cohomology theory]] $E^\bullet$  the induced **reduced cohomology** is
 
 $$
-  \tilde H^\bullet(X,x_0) \coloneqq H^k(X,\{x_0\}) = ker(H^k(X)\to H^k(\{x_0\}))
+  \tilde E^k(X,x_0) \coloneqq E^k(X,\{x_0\}) = ker(H^k(X)\to H^k(\{x_0\}))
 $$
 
 e.g. [AGP 02, theorem 12.1.12](#AGP02)
 
+For more see at _[generalized cohomology -- Relation btween reduced and unreduced](generalized+cohomology#RelationBetweenReducedAndUnreduced)_.
 
 ## Related entries
 
 * [[reduced homology]]
 
 ## References
+
+See the references at _[[generalized (Eilenberg-Steenrod) cohomology]]_.
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
