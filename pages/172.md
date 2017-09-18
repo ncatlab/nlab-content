@@ -53,7 +53,7 @@ This is a central [[motivation for sheaves, cohomology and higher stacks|motivat
 
 ## Definition 
 
-A well developed theory exists for $\infty$-stacks that are sheaves with values in [[∞-groupoids]]. given that ordinary sheaves may be thought of as sheaves of [[0-category|0-categories]] and that $\infty$-groupoid-values sheaves may be thought of as sheaves of [[(infinity,0)-category|(∞,0)-categories]], these may be called [[(infinity,1)-sheaf|(∞,1)-sheaves]]. In the case that these $\infty$-groupoids have vanishing [[homotopy groups]] above some degree $n$, these are sometimes also called [[sheaves of n-types|sheaf of n-types]].
+A well developed theory exists for $\infty$-stacks that are sheaves with values in [[∞-groupoids]]. Given that ordinary sheaves may be thought of as sheaves of [[0-category|0-categories]] and that $\infty$-groupoid-values sheaves may be thought of as sheaves of [[(infinity,0)-category|(∞,0)-categories]], these may be called [[(infinity,1)-sheaf|(∞,1)-sheaves]]. In the case that these $\infty$-groupoids have vanishing [[homotopy groups]] above some degree $n$, these are sometimes also called [[sheaves of n-types|sheaf of n-types]].
 
 The currently most complete picture of [[(infinity,1)-sheaf|(∞,1)-sheaves]] appears in
 
