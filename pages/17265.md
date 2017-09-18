@@ -357,7 +357,7 @@ Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails if $Y$ is not
 
 This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance when comparing it for instance to the [[simplicial homotopy theory]] via the singular [[nerve and realization]] adjunction, since it implies that [[geometric realization]] of [[simplicial sets]] does not necessarily preserve [[finite limits]].
 
-On the other hand, without changing any of the following discussion one may just pass to a more [[convenient category of topological spaces]] such as notably the [[full subcategory]] of [[compactly generated topological spaces]] $Top_{ck} \hookrightarrow Top$ which is [[Cartesian closed category|Cartesian closed]].
+On the other hand, without changing any of the following discussion one may just pass to a more [[convenient category of topological spaces]] such as notably the [[full subcategory]] of [[compactly generated topological spaces]] $Top_{cg} \hookrightarrow Top$ which is [[Cartesian closed category|Cartesian closed]].
 
 =--
 
@@ -1819,6 +1819,7 @@ This is a special case of a general statement about cofibrant generation of [[co
 
 
 ### Model structure on compactly generated topological spaces
+ {#ModelStructureOnCompactlyGeneratedTopologicalSpaces}
 
 The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) exist only for $Y$ a [[locally compact topological space]] but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
 
@@ -1899,9 +1900,9 @@ $$
 which means equivalently that the functor $k$ (def. \ref{kfication}) together with the inclusion from def. \ref{kTop} forms an pair of [[adjoint functors]]
 
 $$
-  Top
-    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
   Top_{cg}
+    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+  Top
   \,.
 $$
 
@@ -1949,10 +1950,58 @@ e.g. ([Strickland 09, prop. 2.12](#Strickland09))
 
 Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know many conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
 
++-- {: .num_example CWComplexIsCompactlyGenerated}
+###### Example
+
+Every [[CW-complex]] is [[compactly generated topological space|compactly generated]]. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[a CW-complex is a Hausdorff space]], by prop. \ref{HausdorffImpliessWeaklyHausdorff} and  prop. \ref{CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace} its $k$-closed subsets are precisely those whose intersection with every [[compact subspace]] is closed. But this follows since [[compact subspaces of Hausdorff spaces are closed]].
+
+=--
+
 +-- {: .num_example}
 ###### Example
 
-spring
+The category $Top_{cg}$ of [[compactly generated topological spaces]] includes
+
+1. all [[locally compact topological spaces]]
+
+1. all [[first-countable topological spaces]]
+
+   hence in particular
+
+   1. all [[metrizable topological spaces]]
+
+   1. all [[discrete topological spaces]]
+
+   1. all [[codiscrete topological spaces]]
+
+=--
+
+([Lewis 78, p. 148](#Lewis78))
+
+Recall that by corollary \ref{kTopIsCoreflectiveSubcategory}, all [[colimits]] of compactly generated spaces are again compactly generated.
+
++-- {: .num_example CWComplexIsCompactlyGenerated}
+###### Example
+
+The [[product topological space]] of a [[CW-complex]] with a [[compact topological space|compact]] CW-complex is [[compactly generated topological space|compactly generated]].
+
+=--
+
+([Hatcher "Topology of cell complexes", theorem A.6](CW+complex#HatcherTopologyOfCellComplexes))
+
+
++-- {: .num_theorem } 
+###### Theorem
+
+The restriction of the [[model category]] structure on $Top_{Quillen}$ due to theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, and the inclusion is part of a [[Quillen equivalence]].
+
 
 =--
 
@@ -2025,6 +2074,20 @@ The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac
 
 #### Compactly generated weakly Hausdorff spaces
 
+While the inclusion $Top_{cg} \hookrightarrow Top$ [above](#ModelStructureOnCompactlyGeneratedTopologicalSpaces) does satisfy the requirement that it gives a [[cartesian closed category]] with all [[limits]] and [[colimits]] and containing all [[CW-complexes]], one may ask for yet smaller subcategories that still share all these properties but potentially exhibit further convenient properties still.
+
+A popular choice introduced in ([McCord 69](weakly+Hausdorff+topological+space#McCord69)) is to add the further restriction to topopological spaces which are not only compactly generated but also [[weakly Hausdorff topological space|weakly Hausdorff]]. This was motivated from ([Steenrod 67](compactly+generated+topological+space#Steenrod67)) where compactly generated Hausdorff spaces were used by the observation (([McCord 69, section 2](weakly+Hausdorff+topological+space#McCord69))) that Hausdorffness is not preserved my many colimit operations, notably not by forming [[quotient spaces]]. 
+
+On the other hand, in above we wouldn't have imposed Hausdorffness in the first place. Possibly more intrinsic advantage of $Top_{cgwH}$ over $Top_{cg}$ are the following
+
+* every [[pushout]] of a morphism in $Top_{cgwH} \hookrightarrow Top$ along a [[closed subspace]] inclusion in $Top$ is again in $Top_{cgwH}$ ([MO comment by Peter may](http://mathoverflow.net/a/204221/381))
+
+* in $Top_{cgwH}$ quotient spaces are not only preserved by [[cartesian products]] (as is the case for all compactly generated spaces due to $X\times (-)$ being a left adjoint, according to cor. \ref{kTopIsCoreflectiveSubcategory}) but by all [[pullbacks]] ([MO comment by Charles Rezk](http://mathoverflow.net/a/47724/381))
+
+
+* in $Top_{cgwH}$ the [[regular monomorphisms]] are the [[closed subspace]] inclusions ([MO comment by Charles Rezk](http://mathoverflow.net/a/47724/381))
+
+
 +-- {: .num_defn #WeaklyHausdorff}
 ###### Definition
 
@@ -2038,7 +2101,7 @@ out of a [[compact topological space|compact]] [[Hausdorff space]] $K$, its [[im
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #HausdorffImpliessWeaklyHausdorff}
 ###### Proposition
 
 Every [[Hausdorff space]] is a [[weakly Hausdorff space]], def. \ref{WeaklyHausdorff}.
@@ -2054,7 +2117,7 @@ Since [[compact subspaces of Hausdorff spaces are closed]].
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace}
 ###### Proposition
 
 For $X$ a [[weakly Hausdorff topological space]], def. \ref{WeaklyHausdorff}, then a subset $A \subset X$ is $k$-closed, def. \ref{kTop}, precisely if for every subset $K \subset X$ that is [[compact subspace|compact]] [[Hausdorff space|Hausdorff]] with respect to the [[subspace topology]], then the [[intersection]] $K \cap A$ is a [[closed subset]] of $X$.
