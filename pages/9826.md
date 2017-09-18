@@ -37,6 +37,10 @@ A **projective line** is a set $\ell$ of cardinality $\ge 3$ together with
 A projective line is **Desarguesian** if in addition $\Lambda(p,q)$ acts [[transitive action|transitively]] on $\ell \setminus \{p,q\}$.  In other words, if $r,s\in \ell\setminus \{p,q\}$, there is a (necessarily unique) $\sigma\in\Lambda(p,q)$ with $\sigma(r)=s$.
 =--
 
++--{: .query}
+[[Mike Shulman]]: I've copied this definition from Buekenhout; the only point I'm not entirely sure about is that when he talks about "perspectivities with center $p$ and axis $q$" he means what I'm calling "collineations with center $p$ and axis $q$" here.  If that *is* what he means, then I don't agree with his definition; I don't see how to prove that $\Lambda(p,q)$ is closed under composition without Desargues's theorem, or how to prove that $\Lambda(p)$ is closed under composition without Pappus's theorem.
+=--
+
 
 ## References
 
