@@ -5,12 +5,22 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++-- {: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
 =--
 =--
+
+
 
 This page on aspects of [[homotopy type theory]] is meant for readers who are interested in [[homotopy theory]] but not (necessarily) in [[formal logic]] and [[formal proof]]. This page is meant to help answer the question:
 
@@ -156,7 +166,7 @@ However, after generalization to _[[homotopy type theory]]_ this is rectified: h
 
 | [[category theory]] | [[type theory]] |
 |---|---|
-| [[homotopy pushout]] $\array{ C &\stackrel{g}{\to}& B \\ {}^{\mathllap{f}}\downarrow &\swArrow_{\simeq}& \downarrow \\ A &\to&  A \coprod_C^h B}$ | $hpushout (A B C : Type) (f : C \to A) (g : C \to B) : Type \coloneqq \left\{ \array{inl : B \to hpushout(f,g) \\ inr : A \to hpushout(f,g) \\ glue \prod_{c : C} (inl(f(c)) = inr(g(c)))} \right.$  |
+| [[homotopy pushout]] $\array{ C &\stackrel{g}{\to}& B \\ {}^{\mathllap{f}}\downarrow &\swArrow_{\simeq}& \downarrow \\ A &\to&  A \coprod_C^h B}$ | $hpushout (A\,B\,C : Type) (f : C \to A) (g : C \to B) : Type \coloneqq \left\{ \array{inl : B \to hpushout(f,g) \\ inr : A \to hpushout(f,g) \\ glue \prod_{c : C} (inl(f(c)) = inr(g(c)))} \right.$  |
 
 (...)
 
