@@ -55,6 +55,14 @@ $$\array{
 
 How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\to\Omega$ its characteristic map, then $\chi_X$ maps vertices of $Y$ not in $X$ to $\emptyset$ and vertices in $X$ to $\bullet$ (a vertex is either contained in a subgraph or not - the choice is binary and, accordingly, $\Omega$ needs two vertices to represent this). For edges the situation is more complicated since there are five ways (and, accordingly five edges in $\Omega$ to represent this) for an edge $z$ of $Y$ to be related to the subgraph $X$: the most straightforward is when $z$ has neither source nor target in $X$, such $z$ are definitely not in $X$ and are represented in $\Omega$ by the loop at $\emptyset$. Now suppose that $z$ has either source or target vertex in $X$ but not both: $\chi_X$ maps these to the maps $x,y$ between $\emptyset\rightleftarrows\bullet$, respectively. When $z$ has both source and target in $X$, the edge itself might or might not be in $X$, and the corresponding two cases are represented by the two loops at $\bullet$ , respectively.
 
+### (Double) negation
+
+The [[negation]] $\neg:\Omega\to \Omega$ is defined as the characteristic map of $\bot:1\to\Omega$. It interchanges the vertices $\empty$ and $\bullet$ (vertices inside a subgraph are vertices outside its complement and vice versa) and maps $empty$ to $e$ (edges fully outside a subgraph are fully inside its complement) and maps the loops at $\bullet$ to $empty$ (an edge is outside the complement of a subgraph as long as its source and target are in the subgraph) and interchanges $x,y$.
+
+Complementing a subobject $X\subseteq Y$ i.e. taking the subobject $\neg X$ of $Y$ that is classified by $\neg\circ\chi_X$ amounts to taking all vertices of $Y$ not in $X$ and all the edges in $Y$ between them.
+
+Whence the result $\neg\neg X$ of applying $\neg$ twice to $X\subseteq Y$ amounts to adding to $X$ all the edges of $Y$ that have source and target in $X$. This implies in turn that a subgraph $X\subseteq Y$ is [[dense subobject|dense]] for the [[double negation|double negation topology]] $\neg\circ\neg:\Omega\to\Omega$ , precisely when it contains all vertices of $Y$ since complementing twice will throw into $\neg\neg X$ all the arrows in $Y$ between all the vertices in $X$.
+
 ## Related entries
 
 * [[hypergraph]]
