@@ -40,9 +40,11 @@ The above is sometimes referred to as the unstable general linear group, whilst 
 
 * [[orthogonal group]], [[unitary group]], 
 
-* [[Borel subgroup]], [[flag variety]]. 
+* [[Borel subgroup]], [[flag variety]]
 
 * [[group of units]]
+
+* [[jet group]]
 
 ## References 
 
