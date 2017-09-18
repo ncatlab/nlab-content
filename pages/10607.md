@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
 #### Duality
 +-- {: .hide}
 [[!include duality - contents]]
@@ -143,6 +147,7 @@ $$
 $$
 
 given by including the [[initial object]] $\emptyset$ and the [[terminal object]] $\ast$ into $\mathbf{H}$.
+
 
 In the [[type theory]] of $\mathbf{H}$ this corresponds to the [[adjoint pair]] of [[modalities]]
 
@@ -341,6 +346,8 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 * [[Aufhebung]]
 
 * [[modal type theory]]
+
+* [[adjoint logic]]
 
 * [[category of being]]
 
