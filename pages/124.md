@@ -223,6 +223,8 @@ For various applications one uses toposes that have [[stuff, structure, property
 
   [[local topos]], [[locally connected topos]], [[connected topos]], [[cohesive topos]]
 
+  [[smooth structure on a topos]]
+
   [[monoidal topos]]
 
 * [[(∞,1)-topos]] 
