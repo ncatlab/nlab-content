@@ -142,7 +142,9 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 +-- {: .num_prop }
 ###### Proposition
 
-Assuming the [[axiom of choice]], the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
+Assuming the [[axiom of choice]], the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. 
+
+By the [[Tychonoff theorem]], every [[product topological space]] of compact spaces is itself again compact.
 
 =--
 
@@ -217,6 +219,14 @@ Hence:
 A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
 
 =--
+
+
+## Examples
+
+Every [[closed interval]] is compact.
+
+By the [[Tychonoff theorem]], every [[product topological spaces]]spring
+
 
 ## In synthetic topology
 
