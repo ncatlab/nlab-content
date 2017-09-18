@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.aei.mpg.de/~theisen/)
+
+## related $n$Lab entries
+
+* [[string theory]]
+
+category: people
