@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Geometry
+#### Topology
 +--{: .hide}
-[[!include higher geometry - contents]]
+[[!include topology - contents]]
 =--
 =--
 =--
@@ -570,6 +570,14 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 
 =--
+
+## Related concepts
+
+* [[real projective space]]
+
+* [[complex oriented cohomology]]
+
+* [[classifying space]]
 
 
 ## References
