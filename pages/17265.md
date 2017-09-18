@@ -2808,7 +2808,9 @@ $$
 +-- {: .proof}
 ###### Proof idea
 
-In low dimension one readily sees that
+To see this, it is profitable to model [[n-disks]] and [[n-spheres]], up to [[homeomorphism]], as n-cubes and their boundaries.
+
+To see the idea of the proof, consider the situation in low dimensions, where one readily sees that
 
 $$
   i_1 \Box i_1
@@ -2829,6 +2831,18 @@ $$
   \,.
 $$
 
+Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[0,1]$, and $S^n$ as the suspace of tuples for which at least one of the coordinates is equal to 0 or to 1.
+
+Accordingly $S^{n_1} \times D^{n_2} $ is the spaces of $(n_1+n_2)$-tuples, such that one of the first $n_1$ coordinates is equal to 0 or 1, and hence
+
+$$
+  S^{n_1} \times D^{n_2} \cup D^{n_1} \times S^{n_2} \simeq S^{n_1 + n_2}
+  \,.
+$$
+
+And of course it is clear that $D^{n_1} \times D^{n_2} \simeq D^{n_1 + n_2}$. This shows the first case.
+
+For the second, use that $S^{n_1} \times D^{n_2} \times I$ is contractible to $S^{n_1} \times D^{n_2}$ in $D^{n_1} \times D^{n_2} \times I$, and that $S^{n_1} \times D^{n_2}$ is a subspace of $D^{n_1} \times D^{n_2}$.
 
 =--
 
