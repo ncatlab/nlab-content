@@ -16,7 +16,7 @@
 
 ## Idea
 
-In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for certain systems of bigraded [[modules]] $H(p,q)$ are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$.
+In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for certain systems of bigraded [[modules]] $H(p,q)$ ("Cartan-Eilenberg systems") are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$.
 
 ## Examples
 
@@ -26,6 +26,9 @@ The key example of such a system are the [[relative cohomology]] groups $E^\bull
 
 This case of the Cartan-Eilenberg spectral sequence came to be known as the _[[Atiyah-Hirzebruch spectral sequence]]_.
 
+## Related concepts
+
+* [[multiplicative spectral sequence]]
 
 ## References
 
@@ -33,3 +36,6 @@ This case of the Cartan-Eilenberg spectral sequence came to be known as the _[[A
 
 [[!redirects Cartan-Eilenberg spectral sequences]]
 
+
+[[!redirects Cartan-Eilenberg system]]
+[[!redirects Cartan-Eilenberg systems]]
