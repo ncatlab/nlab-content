@@ -21,6 +21,11 @@ The BPTS construction considers -- on a 4-dimensional [[Minkowski spacetime]] [[
 
 The physics literature typically focuses on describing this $SU(2)$-bundle in terms of the [[Cech cohomology|Cech cocycle]] which after [[covering]] the 4-sphere with two 4-[[balls]] (two "hemispheres") is given by an $SU(2)$-vaued transition function on the intersection of these two balls, which has the [[homotopy type]] of the 3-spehere. Since also the [[manifold]] underlying the [[special unitary group|special unitary]] [[Lie group]] $SU(2)$ is [[diffeomorphism|diffeomorphic]] to $S^3$, this allows to encode the classes of $SU(2)$-[[principal bundles]]/$SU(2)$-instantons on $S^4$ in terms of [[homotopy classes]] of maps $S^3 \to S^3$, and this is what much of the literature focuses on.
 
+## $SU(2)$-instantons from the correct maths to the traditional physics story
+ {#FromTheMathsToThePhysicsStory}
+
+[[!include SU2-instantons from the correct maths to the traditional physics story]]
+
 ## Related concepts
 
 * [[Yang-Mills instanton]]
