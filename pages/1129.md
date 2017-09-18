@@ -302,6 +302,60 @@ The group of [[rational numbers]] $\mathbb{Q}$ is injective in [[Ab]], as is the
 
 In any [[topos]], the [[subobject classifier]] $\Omega$ is an injective object, as is any power of $\Omega$ ([[Mac Lane-Moerdijk]], IV.10). 
 
+Also one can define various notions of *internally* injective objects. These turn out to be equivalent:
+
++-- {: .num_prop #EquivalenceOfInternalNotionsOfInjectivity}
+###### Proposition
+
+In any elementary topos $\mathcal{E}$ with a natural numbers object, the following statements about an object $I \in \mathcal{E}$ are equivalent.
+
+1. The functor $[-, I] : \mathcal{E}^op \to \mathcal{E}$ maps monomorphisms in $\mathcal{E}$ to epimorphisms.
+2. The functor $[-, I] : \mathcal{E}^op \to \mathcal{E}$ maps monomorphisms in $\mathcal{E}$ to morphisms for which any global element of the target locally (after [[change of base]] along an epimorphism) possesses a preimage.
+3. For any morphism $p : A \to 1$ in $\mathcal{E}$, the object $p^*I$ has property 1. as an object of $\mathcal{E}/A$.
+4. For any morphism $p : A \to 1$ in $\mathcal{E}$, the object $p^*I$ has property 2. as an object of $\mathcal{E}/A$.
+5. The interpretation of the statement "$I$ is an injective object" using the [[stack semantics]] of $\mathcal{E}$ holds.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The implications "1. $\Rightarrow$ 2.", "3 $\Rightarrow$ 4.", "3. $\Rightarrow$ 1.", and "4. $\Rightarrow$ 2." are trivial.
+
+The equivalence "3. $\Leftrightarrow$ 5." follows directly from the interpretation rules of the stack semantics.
+
+The implication "2. $\Rightarrow$ 4." employs the [[base change#GeometricMorphism|extra left-adjoint]] $p_! : \mathcal{E}/A \to \mathcal{E}$ to $p^* : \mathcal{E} \to \mathcal{E}/A$, as in the usual proof that injective sheaves remain injective when restricted to smaller open subsets: We have that $p_* \circ [-, p^*I]_{\mathcal{E}/A} \cong [-, I]_{\mathcal{E}} \circ p_!$, the functor $p_!$ preserves monomorphisms, and one can check that $p_*$ reflects the property that global elements locally possess preimages. Details are in ([Harting, Theorem 1.1](#Harting)).
+
+The implication "4. $\Rightarrow$ 3." follows by performing an extra change of base, since any non-global element becomes a global element after a suitable change of base.
+
+=--
+
+Somewhat surprisingly, and in stark contrast with the situation for [[internally projective objects]], internal injectivity coincides with external injecticity.
+
++-- {: .num_prop #EquivalenceOfInternalAndExternalInjectivity}
+###### Proposition
+
+Let $\mathcal{E}$ be the topos of [[sheaves]] over a [[locale]]. Then an object $I \in \mathcal{E}$ is internally injective (in any of the senses given by Proposition \ref{EquivalenceOfInternalNotionsOfInjectivity}) if and only if $I$ is injective as in Definition \ref{InjectiveObjects}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $I$ be an externally injective object. Then $I$ satisfies condition 2. of \ref{EquivalenceOfInternalNotionsOfInjectivity}, even without having to pass to a cover.
+
+Conversely, let $I$ be an internally injective object. Let $m : X \to Y$ be a monomorphism and let $k : X \to I$ be an arbitrary morphism. We want to show that there exists an extension $Y \to I$ of $k$ along $m$. To this end, consider the sheaf
+$$ F := \{ k' : \mathcal{H}om(Y,I) | k' \circ m = k \}. $$
+One can check that $F$ is [[flabby sheaf|flabby]] (this is particularly easy using the [[internal language]], details will be added later) and therefore has a global section.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The analogs of Proposition \ref{EquivalenceOfInternalNotionsOfInjectivity} and Proposition \ref{EquivalenceOfInternalAndExternalInjectivity} for abelian group objects instead of unstructured objects hold as well, with mostly the same proofs. Condition 1. then refers to the functor $[-, X] : Ab(\mathcal{E})^op \to Ab(\mathcal{E})$.
+
+=--
 ### In topological spaces 
 
 In the category [[Top]] of all topological spaces, the injective objects are precisely the [[inhabited set|inhabited]] [[indiscrete spaces]]. 
@@ -601,5 +655,12 @@ See also
 
 * T.-Y. Lam, _Lectures on modules and rings_, Graduate Texts in Mathematics 189, Springer Verlag (1999). 
 {#Lam}
+
+See
+
+* Roswitha Harting, _Locally injective abelian groups in a topos_, Communications in Algebra 11 (4), 1983
+{#Harting}
+
+for a detailed discussion of internal notions of injectivity.
 
 [[!redirects injective objects]]
