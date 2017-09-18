@@ -50,7 +50,11 @@ on [[M-theory]]
 
 ## 5 Intersecting branes and black holes
 
-On [[black branes]], [[black holes in string theory]] and [[Bekenstein-Hawking entropy]]
+On [[black branes]], [[BPS-states]] of intersecting M-branes, 
+
+* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035))
+
+as well as [[black holes in string theory]] and [[Bekenstein-Hawking entropy]]
 
 ## 6 $M$-theory and duality
 
