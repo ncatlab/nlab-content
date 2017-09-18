@@ -25,6 +25,10 @@ Conversely, a subset $X\subseteq A$ of a topological space $A$ is called **nowhe
 
 * If $X\subseteq A$ is a dense subset of topological space $A$, then $X\cap Y\neq\emptyset$ for all non-empty open sets $Y$.
 
+* If $X \subseteq A$ is a dense subset of a topological space $A$ and $f: A \to B$ is an [[epimorphism]], then the [[image]] $f(X)$ is dense in $B$. 
+
+* If i: $X \hookrightarrow A$ and $j: A \hookrightarrow B$ are dense subspace inclusions, then so is the composite $j \circ i: X \to B$. 
+
 * If $X\subseteq A$ is a dense subset of topological space $A$ and $X$ is connected, so is $A$.
 
 * In point-set topology, a space is [[separable space|separable]] if and only if it has a dense subspace with [[countable set|countably]] many points.
