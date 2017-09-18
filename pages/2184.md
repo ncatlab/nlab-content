@@ -110,10 +110,11 @@ In particular, such a subgrap $(W,F)$ may have isolated vertices which are not i
 
 [^2]: This happens to be the usual notion of substructure in model theory, for any relational structure.
 
-Another usual notion of subgraph in combinatorics is[^3] _spanning_ subgraph. This is just any subgraph $(W,F)$ in the above sense with $W=V$. 
+Another usual notion of subgraph in combinatorics is[^3] _spanning_ subgraph: this means just any subgraph $(W,F)$ in the above sense with $W=V$. There are three kinds of spanning subgraphs which are the most studied: [[Hamilton circuit]]s[^3], [[perfect matching]]s and [[spanning tree]]s.
 
+[^3]: We here follow A. Bondy's choice of words in (#HandbookOfCombinatoricsVol1). The term _circuit_ is less usual than _cycle_ in combinatorics, but less ambiguous, not longer, and more clearly signalling that the combinatorial notion is meant (not one of the many other meanings of _cycle_).
 
-[^3]: Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
+[^4]: Somewhat counterintuitively (with regard to connotations of the words _spanning_ and _induced_), a _spanning_ subgraph need not be _induced_, and in fact it never is, _except_ if the subgraph is the graph itself. 
 
 
 
@@ -169,6 +170,8 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 ## References
 
 * E. Babson, H. Barcelo, M. de Longueville, R. Laubenbacher, A Homotopy Theory for Graphs, [arXiv:math/0403146 ](http://arxiv.org/abs/math/0403146)
+
+* {#HandbookOfCombinatoricsVol1} A. Bondy. Basic Graph Theory: Paths and Circuits. Elsevier Amsterdam, 1995, Vol. 1, pp. 1--110
 
 * {#DiestelGraphTheoryFourthEd} R. Diestel, Graph Theory, 4. ed., Springer 2010
 
