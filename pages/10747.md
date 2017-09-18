@@ -121,17 +121,18 @@ A comprehensive textbook account is in
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
-Discussion of the [[model structure on symmetric spectra]] includes
+Further discussion of the [[model structure on symmetric spectra]] beyond ([Hovey-Shipley-Smith 00](#HoveyShipleySmith00)) and [Schwede 12, part III](#Schwede12) includes
 
 * {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Model categories of diagram spectra_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
 
-Brief reviews include
+More or less brief reviews include
 
 * {#Malkiewich14} [[Cary Malkiewich]], section 2.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
 * [[Alexander Kupers]], _Symmetric spectra_ ([pdf](http://ncatlab.org/nlab/files/SymmetricSpectra.pdf))
 
+* [[Mitya Boyarchenko]], _Introduction to symmetric spectra_ (prepared for a [Geometric Langlands Seminar](http://www.math.uchicago.edu/~mitya/langlands.html)) Part I ([pdf](http://www.math.uchicago.edu/~mitya/langlands/spectra/iss1.pdf)) and Part II ([pdf](http://www.math.uchicago.edu/~mitya/langlands/spectra/iss2.pdf)) 
 
 
 [[!redirects symmetric spectra]]
