@@ -215,7 +215,7 @@ $$
   \,.
 $$
 
-Therefore a general Thom space may be thought of as "twisted suspension", with twist encoded by a vector bundle (or rather by its underlying [[spherical fibration]]). See at _[Thom spectrum -- For infinity-module bundles](Thom+spectrum#ForInfinityModuleBundles)_ for more on this.
+Therefore a general Thom space may be thought of as a "twisted [[reduced suspension]]", with twist encoded by a vector bundle (or rather by its underlying [[spherical fibration]]). See at _[Thom spectrum -- For infinity-module bundles](Thom+spectrum#ForInfinityModuleBundles)_ for more on this.
 
 =--
 
