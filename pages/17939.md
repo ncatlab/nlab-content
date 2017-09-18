@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -11,11 +22,13 @@
 
 * [[topological invariance of dimension]]
 
+* [[Tietze extension theorem]]
+
 ## References
 
 * Wikipedia, _[Brouwer fixed-point theorem](https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem)_
 
-Discussion in [[cohesive homotopy type theory]]:
+Discussion in [[cohesive homotopy type theory]] is in
 
 * [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584))
 
