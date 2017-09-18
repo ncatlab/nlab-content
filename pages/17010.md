@@ -26,11 +26,15 @@ $$
   \,.
 $$
 
-Namely one thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^n$, such that they [[intersection|intersect]] at the [[equator]] of the sphere. Take then then point $p \in S^n$ to be one of the resulting "poles", hence a point on the sphere at maximal distance form the equatorial hyperplane. Then consider the relation
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/StereographicProjection.png" width="300" >
+</div>
 
-"$x \in S^n \backslash p$ and $y \in \mathbb{R}^n$ sit on a straight line with the point $p$."
+Namely one thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^{n+1}$ in a standard way, such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. Taking then then point $p \in S^n$ to be one of the resulting "poles", hence at maximal distance form the equatorial hyperplane, one considers the relation
 
-This relation is the "stereographic projection". It establishes a [[bijection]] between $S^n \backslash p$ and $\mathbb{R}^n$. Inspection shows that this bijection is a [[homeomorphism]].
+"The point $x \in S^n \backslash p$ and $y \in \mathbb{R}^n$ sit on a straight line with the point $p$."
+
+This relation is the "stereographic projection" from the $n$-sphere without that point to the $n$-plane, and vice versa. It establishes a [[bijection]] between $S^n \backslash p$ and $\mathbb{R}^n$. Inspection shows that this bijection is a [[homeomorphism]].
 
 If one applies stereographic projection to _both_ possible poles $p_+, p_- \in S^n$ of the sphere given a fixed equatorial plane, then one obtains two different [[homeomorphisms]]
 
@@ -43,11 +47,15 @@ $$
   \,.
 $$
 
-This constitutes an [[atlas]] that exhibits the [[n-sphere]] as a [[smooth manifold]]. 
+This constitutes an [[atlas]] that exhibits the [[n-sphere]] as a [[topological manifold]], in fact a [[differentiable manifold]] and in fact as a [[smooth manifold]]. 
+
+Moreover, for $n = 2$ and with $\mathbb{R}^2 \simeq_{\mathbb{R}} \mathbb{C}$ regarded as the [[complex plane]], then this atlas realizes the [[2-sphere]] as a [[complex manifold]]: the _[[Riemann sphere]]_.
 
 ## Definition
 
-Consider a (unit, say) [[sphere]] $S^n \subset \mathbb{R}^{n+1}$, and a point $v\in S^n$, considered as a vector in $\mathbb{R}^{n+1}$. Let $W\subset \mathbb{R}^{n+1}$ be the linear [[subspace]] that is the [[orthogonal complement]] to the [[linear span]] $span\{v\}$. There is a [[homeomorphism]]
+
+
+Consider a (unit, say) [[sphere]] $S^n \subset \mathbb{R}^{n+1}$, and a point $p\in S^n$, considered as a [[vector]] in $\mathbb{R}^{n+1}$. Let $W\subset \mathbb{R}^{n+1}$ be the [[linear subspace]] that is the [[orthogonal complement]] to the [[linear span]] $span\{v\}$. There is a [[homeomorphism]]
 
 $$
   \sigma \;\colon\; S^n\setminus \{v\} \stackrel{\simeq}{\longrightarrow} W
@@ -55,24 +63,121 @@ $$
 
 given by sending a point $p\in S^n\setminus \{v\}$ to the point in $W$ that is the intersection of the line through $v$ and $p$ with $W$.
 
+More concretely:
 
-The inverse map $\sigma^{-1}$ exhibits $S^n$ as the [[one-point compactification]] of $W$.
+We consider the ambient canonicall [[coordinates]] of $\mathbb{R}^{n+1}$, in terms of which the $n$-sphere is the [[topological subspace]] whose underlying [[subset]] is 
 
-In the case that $v=(1,0,\ldots,0)$, then $W = \{0\}\oplus \mathbb{R}^n$ and we have the simple formula
 $$
-\sigma(z,\mathbf{x}) = \frac{1}{z-1}(0,\mathbf{x}).
+  S^n 
+  =
+  \left\{
+     x = (x_1, \cdots, x_{n+1})  \in \mathbb{R}^{n+1}
+     \,\vert\,
+     \underoverset{i = 1}{n+1}{\sum} (x_i)^2 = 1
+  \right\}
+  \;\subset\;
+  \mathbb{R}^{n+1}
+  \,.
 $$
 
+Without restriction, we may identify the given pole point with
+
+$$
+  p = (1,0,\ldots,0)
+$$
+
+hence the coresponding equatorial hyperplane with 
+
+$$
+  W 
+    = 
+  \left\{
+    x = (x_1, x_2, \cdots, x_{n+1}) \in \mathbb{R}^{n+1}
+    \,\vert\,
+    x_1 = 0
+  \right\}
+  \,.
+$$
+
+Proposition:
+
+A point $x \in S^{n} \backslash p \subset \mathbb{R}^{n+1}$ and a point $y \in W \subset \mathbb{R}^{n+1}$ sit on a line with the point $p = (1,0, \cdots, 0)$ precisely if
+
+$$
+  (y_1, \cdots, y_{n+1}) = \frac{1}{x_1-1}(0, x_2, \cdots , x_{n+1} )
+$$
+
+In one direction, consider the stereographic projection
+
+$$
+  \sigma
+    \;\colon\;
+  \mathbb{R}^{n+1} \backslash (1,0,\cdots, 0)
+    \longrightarrow
+  \mathbb{R}^n
+   = 
+  \{x \in \mathbb{R}^{n.1} \,\vert\, x_1 = 0 \}
+$$
+
+of the entire ambient space onto the equatorial plane, given by mapping a point $x$ to the unique point $y$ on the equatorial hyperplane such that the points $p$, $x$ any $y$ sit on the same straight line. This condition means that there exists $d \in \mathbb{R}$ such that
+
+$$
+  p +  d(x-p) = y
+$$
+
+and since the only condition on $y$ is that $y_1 = 0$ this implies that 
+
+$$ 
+  p_1 + d(x_1-p_1) = 0 
+  \,.
+$$
+
+This has a unique solution for $d$ given by
+
+$$ 
+  d = 1/(1-x_1)
+$$
+
+and hence it follow that
+
+$$
+  \sigma(x_1, x_2, \cdots, x_{n+1}) 
+    = 
+  \frac{1}{1-x_1}(0,x_2, \cdots, x_n).
+$$
+
+This is clearly a [[continuous function]] $\mathbb{R}^{n+1} \backslash (1,0,\cdots 0) \to \mathbb{R}^{n}$ and since the topology on $S^n\backslash p$ is the [[subspace topology]] under the canonical embedding $S^n \backslash p \subset \mathbb{R}^{n+1} \backslash p$ is follows that the restiction
+
+$$
+  \sigma\vert_{S^n \backslash p}
+    \;\colon\;
+  S^n\backslash p 
+    \longrightarrow
+  \mathbb{R}^n
+$$
+
+is itself a [[continuous function]] (because its pre-images are the restrictions of the pre-images of $\sigma$ to $S^n\backslash p$).
+
+
+## Generalizations
 
 More generally, one may take for $W$ any _[[affine space|affine]]_ subspace of $\mathbb{R}^{n+1}$ normal to $span\{v\}$ and not containing $v$. For instance one option is to take $W$ to be the tangent space to $S^n$ at $-v$, embedded as a subspace of $\mathbb{R}^{n+1}$.
 
 (see e.g. [Cook-Crabb 93, section 1](#CookCrabb93))
 
-## Extra structure
+## Properties
+
+### One-point compactification
+
+The inverse map $\sigma^{-1}$ exhibits $S^n$ as the [[one-point compactification]] of $W$.
+
+
+### Extra geometric structure
 
 In most cases of interest one is doing [[geometry]] using stereographic projection, so the sphere and the subspace $W$ are equipped with extra structure. Taking the explicit case above ($v=(1,0,\ldots,0)$), as the formula is so simple, some structures are automatically preserved, for instance:
 
 * [[conformal structure]]
+
 * [[orthogonal group|orthogonal]] [[group action]] fixing $v,-v$ pointwise (note that these two points are sent to "$\infty$" and $0$, respectively, under $\sigma$)
 
 ## Related entries
