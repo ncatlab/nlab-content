@@ -213,6 +213,12 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * [[Brown representability theorem]]
 
+## Necessity of naturality
+
+The assumption of naturality is necessary for the Yoneda lemma to hold. A simple counter-example is given by a category with two objects $A$ and $B$, in which $Hom(A,A) = Hom(A,B) = Hom(B,B) = \mathbb{Z}_{\geq 0}$, the set of integers greater than or equal to $0$, and $Hom(B,A) = \mathbb{Z}_{\geq 1}$, the set of integers greater than or equal to $1$. Here it is certainly the case that $Hom(A,-)$ is isomorphic to $Hom(B,-)$ for any choice of $-$, but $A$ and $B$ are not isomorphic (composition with any arrow $B \rightarrow A$ is greater than or equal to $1$, so cannot have an inverse, since $0$ is the identity on $A$ and $B$).
+
+A finite counter-example is given by the category with two objects $A$ and $B$, in which $Hom(A,A) = Hom(A,B) = Hom(B,B) = \{0, 1\}$, in which $Hom(B,A) = \{0, 2\}$, and composition is multiplication modulo 2. Here, again, it is certainly the case that $Hom(A,-)$ is isomorphic to $Hom(B,-)$ for any choice of $-$, but $A$ and $B$ are not isomorphic (composition with any arrow $B \rightarrow A$ is $0$, so cannot have an inverse, since $1$ is the identity on $A$ and $B$).
+
 ## Applications
 
 * The Yoneda lemma is the or a central ingredient in various [[reconstruction theorem]]s, such as those of [[Tannaka duality]]. See there for a detailed account.
