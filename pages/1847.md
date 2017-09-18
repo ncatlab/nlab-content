@@ -99,7 +99,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
        [[Andrew Stacey]] Hmm, I guess I'll have to get Lang and Brylinski out of the library to see exactly what's going on here.  I don't see how density can make any difference since we could always restrict to the closure of $p_n(E)$ in $H_n$.
        =--
 
-
+* [[CW complexes]]. For a careful proof that CW complexes are paracompact, including discussion of the [[axiom of choice|choice principles]] involved, see [Fritsch & Piccinini](#FP), Theorem 1.3.5 (p. 29 and following). 
 
 * metric spaces
 
@@ -145,7 +145,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
 Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
 
-### Homomotopy and Cohomology 
+### Homotopy and Cohomology 
  {#HomotopyAndCohomology}
 
 * On paracompact spaces, abelian [[Čech cohomology]] does compute [[abelian sheaf cohomology]], 
@@ -188,7 +188,10 @@ This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
 A basic discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Čech cohomology]] is around page 32 of
 
 * [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes geoemetric quantization_
-{#Brylinski}
+{#Brylinski} 
+
+* Rudolf Fritsch and Renzo A. Piccinini, _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
+ {#FP} 
 
 
 [[!redirects paracompact]]
