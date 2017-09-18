@@ -22,10 +22,18 @@
 ## Idea
 
 
-Where generally a [[symmetry]] is an invariance under a [[group]] [[action]], or, [[infinitesimal space|infinitesimally]], invariance under a [[Lie algebra]] action, 
-in the general sense of the word, a **supersymmetry** is invariance under a [[supergroup]] action or a [[super Lie algebra]] action. 
+Where generally a [[symmetry]] is an invariance under a [[group]] [[action]] (after all the mathematical term "[[group]]" is a contraction of _group of symmetries_), or, [[infinitesimal space|infinitesimally]], an invariance under a [[Lie algebra]] action,  in the general sense of the word, a **supersymmetry** is invariance under a [[supergroup]] action or a [[super Lie algebra]] action. 
 
-In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to [[Lie superalgebra]] extensions of the [[isometry]] [[Poincaré Lie algebra]] algebra of [[Minkowski spacetime]],  -- the [[super Poincaré Lie algebra]], often called the **supersymmetry algebra** in this context. An odd element in this [[super Lie algebra]] is called a **supersymmetry generator**. Or more generally, if the basic [[spacetime]] geometry is taken to be [[conformal geometry]] or [[de Sitter spacetime]]/[[anti-de Sitter spacetime]], then one considers supergeometric extensions of their 
+By [[Deligne's theorem on tensor categories]] it is precisely the context of supersymmetry in which [[tensor categories]] over the [[complex numbers]] exhibit full [[Tannaka duality]].
+
+In the stricter sense of the word as it originates in theoretical fundamental [[physics]], _supersymmetry_ refers specifically to supergeometric extensions of the [[isometry group]] (or its Lie alhgebra)  of the local model of [[spacetime]]. For [[Minkowski spacetime]] this is the [[Poincaré group]] with its [[Poincaré Lie algebra]] and their super-extensions are accordingly known as the [[super Poincaré group]]  and [[super Poincaré Lie algebra]]. In physics the latter are often referred to simply as  **the supersymmetry algebra**. An odd element in this [[super Lie algebra]] is called a **supersymmetry generator** and its [[Hamiltonian]] is called a _[[supercharge]]_. More generally,if spacetime geometry taken to be [[conformal geometry]] or [[de Sitter spacetime]]/[[anti-de Sitter spacetime]], then one considers supergeometric extensions of the [[conformal group]], [[de Sitter group]] and [[anti de Sitter group]], respectively, and then these are the relevant "supersymmetries".
+
+With the focus on spacetime symmetry groups implicitly understood, this implies that supersymmetry is the group theory relevant for [[super Cartan geometry]] locally modeled on [[super Minkowski spacetime]] or [[super anti de Sitter spacetime]], etc. In terms of physics and in view of the [[first order formulation of gravity]], this means that "locally gauged" supersymmetry is the super-geometric generalization from [[Einstein gravity]] to [[supergravity]] or, respectively, from [[conformal field theory]] to [[superconformal field theory]], etc.
+
+
+
+
+
 
 
 ### Global supersymmetry and superparticles
