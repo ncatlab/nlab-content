@@ -207,6 +207,8 @@ such that
 
 ## References
 
+Presumeably named after [[Leopold Kronecker]].
+
 * {#Adams74} [[Frank Adams]], Part III, section 13 of _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#Kochmann96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
