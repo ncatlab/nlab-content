@@ -361,7 +361,7 @@ Princeton university, 1963
 
 * {#Dirac78} [[Paul Dirac]], _[[The Principles of Quantum Mechanics]]_, International series of monographs on physics, Oxford University Press, 1978
   
-
+* Anthony Sudbery, Quantum mechanics and the particles of nature: an outline for mathematicians 
 
 Lecture notes include
 
@@ -386,10 +386,14 @@ Some standard references include
  {#BatesWeinstein}
 
 
-* F. Strocchi, _An Introduction to the Mathematical Structure of Quantum Mechanics_ .
+* F. Strocchi, _An introduction to the mathematical structure of quantum mechanics_ .
 
 This follows an axiomatic approach with [[observable]]s as elements of 
 [[C-star algebra]]s.
+
+The following book has much emphasis on the theory of quantum measurement at physics level of rigor:
+
+* Jan Perina, Z. Hradil, [[B. Jurčo]], _[[Quantum optics and fundamentals of physics]]_, Kluwer 1994
 
 The generalization of this kind of discussion to [[quantum field theory]] is
 
