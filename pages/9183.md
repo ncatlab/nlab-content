@@ -43,6 +43,8 @@ Any further details about the nature of this hypothetical dark matter remain elu
 
 Review includes
 
+* {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
+
 * [[Syksy Räsänen]], _Dark matter_ cosmo 2015 lecture notes ([pdf](http://www.courses.physics.helsinki.fi/teor/cos1/cosmo2015_07.pdf))
 
 * Wikipedia, _[Dark matter](http://en.wikipedia.org/wiki/Dark_matter)_
@@ -60,6 +62,11 @@ The observation that the lightest supersymmetric particle is a natural dark matt
 with review in 
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
+
+A proposal that [[axions]] account for dark matter is in
+
+* {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_ ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
+
 
 [[!redirects WIMP]]
 [[!redirects WIMPs]]
