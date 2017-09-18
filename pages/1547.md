@@ -117,6 +117,9 @@ Much else to be discussed...
 ## Properties
 
 ### Concordances of topological vector bundles
+ {#ConcordanceOfTopolgicslVectorBundles}
+
+We discuss that every [[concordance]] of topological vector bundles over a [[paracompact topological space]] makes the restriction of the vector bundle over the endpoints of the interval isomorphic (prop. \ref{ConcondanceOfTopologicalVectorBundles} below). In particular this implies tht the [[pullbacks of vector bundles]] along two [[homotopy|homotopic]] [[continuous functions]] are [[isomorphism|isomorphic]] (corollary \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} below). The proof below follows [Hatcher, theorem 1.6](#Hatcher).
 
 For $X$ a [[topological space]] write $X \times I$ for the [[product topological space]] with the [[closed interval]] $[0,1]$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]. 
 
@@ -190,10 +193,11 @@ with the required property.
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #ConcondanceOfTopologicalVectorBundles}
 ###### Proposition
+**([[concordance]] of topological vector bundles)**
 
-Let $X$ be a [[paracompact topological space]]. If $E \to X \times [0,1]$ is a vector bundle, then the two endpoint-restrictions
+Let $X$ be a [[paracompact Hausdorff space]]. If $E \to X \times [0,1]$ is a vector bundle, then the two endpoint-restrictions
 
 $$
   E|_{X \times \{0\}}
@@ -210,45 +214,138 @@ are [[isomorphism|isomorphic]] vector bundles over $X$.
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{CoverForProductSpaceWithIntrval} there exists an open cover $\{U_i \subset X\}_{i \in I}$ of $X$ such that the vector bundle $E$ trivializes over $U_i \times [0,1]$ for each $i \in I$. By lemma ... there exists a [[countable cover]] 
+By lemma \ref{CoverForProductSpaceWithIntrval} there exists an open cover $\{U_i \subset X\}_{i \in I}$ of $X$ such that the vector bundle $E$ trivializes over $U_i \times [0,1]$ for each $i \in I$. By [this lemma](paracompact+topological+space#CountableCoverOfUnionsofOpenSubsetsInsideGivenCover) there exists a [[countable cover]] 
 
 $$
-  \{V_n \subset X\}_{n \in mathbb{N}}
+  \{V_n \subset X\}_{n \in \mathbb{N}}
 $$
 
 such that each element is a [[disjoint union]] of open subsets that each are contained in one of the $U_i$. This means that the vector bundle $E$ still trivializes over $V_n \times [0,1]$, for each $n \in \mathbb{N}$.
 
-Moreover, by paraompactness there exists a [[partition of unity]] $\{f_n \colon X \to [0,1] \}_{n \in \mathbb{N}}$ subordinate to this countable cover.
+Moreover, since [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]], there exists a [[partition of unity]] $\{f_n \colon X \to [0,1] \}_{n \in \mathbb{N}}$ subordinate to this countable cover.
 
 For $n \in \mathbb{N}$ define
 
 $$
-  \psi_n \coloneqq \underoverset{n}{k = 0}{\sum} f_n
+  \psi_n \coloneqq \underoverset{k = 0}{n}{\sum} f_n
 $$
 
 (so $\psi_0 = 0$ and by local finiteness there is for each $x \in X$ an $n_x$ such that $\psi_{n \gt n_x} = 1$.)
 
-Now set
+Now write
 
 $$
   X_n \coloneqq graph( \psi_n ) \subset X \times [0,1]
 $$
 
-and write $E_n \to X_n$ for the restriction of $E$ to that subspace.
+for the [[graph]] of the function $\psi_n$ equipped with its [[subspace topology]], and write 
 
-Consider the continuous functions
+$$
+  E_n 
+   \coloneqq
+  \psi_n^\ast E
+$$ 
+
+for the restriction of $E$ to that subspace.
+
+Observe that the projection functions
 
 $$
   \array{
     X_{n+1} &\overset{}{\longrightarrow}& X_n
+    \\
+    (x,\psi_{n+1}(x)) &\overset{\phantom{AA}}{\mapsto}& (x, \psi_n(x))
   }
+$$
+
+are continuous. Since, by construction, these projections are non-trivial only on the [[support]] of $f_{n+1}$, and since $E$ is trivial on that support, they induce vector bundle isomorphisms of the form
+
+$$
+  h_n 
+    \;\colon\; 
+  E_{n+1} \overset{\simeq}{\longrightarrow} E_n
+  \,.
+$$
+
+By local finiteness, each point $x \in X$ has a neighbourhood $U_x$ such that only a finite number $n_x$ of these $h_n$ are non-trivial, and so it makes sense to consider the infinite composition
+
+$$
+  h_1 \circ h_2 \circ h_3 \circ \cdots
+$$
+
+understood to be on each $U_x$ the finite composite
+
+$$
+  h_1 \circ \cdots \circ h_{n_x}
+  \,.
+$$
+
+Since all the $h_k$ are vector bundle isomorphisms, so are all their composites. But the infintie composite is now a morphism, hence an isomorphism, of the required form
+
+$$
+  E|_{X \times \{0\}}
+   \overset{\simeq}{\longrightarrow}
+  E|_{X \times \{1\}}
+  \,.
+$$
+
+=--
+
++-- {: .num_cor #PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic}
+###### Corollary
+
+Let $X$ be a [[paracompact Hausdorff space]], let $E \to Y$ be a topological [[vector bundle]], let $f,g \colon X \to Y$ be two [[continuous functions]], and let $\eta \colon f \to g$ be a [[left homotopy]] between them. Then there is an [[isomorphism]] of vector bundles over $X$ between the [[pullback of vector bundles]] of $E$ along $f$ and along $g$, respectively:
+
+$$
+  f^\ast E \simeq g^\ast E
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, the [[left homotopy]] $\eta$ is a [[continuous function]] of the form
+
+$$
+  \eta
+  \;\colon\;
+  X \times [0,1] \longrightarrow Y
+  \,.
+$$
+
+For $t \in [0,1]$ write $i_t$ for the continuous function
+
+$$
+  \array{
+     X &\overset{\phantom{AA}i_t\phantom{AA}}{\longrightarrow}& X \times [0,1]
+     \\
+     x &\overset{\phantom{AAAA}}{\mapsto}& (x,t)
+  }
+  \,.
+$$
+
+By the [[pasting law]] for pullbacks we have that 
+
+$$
+  f^\ast E = (\eta \circ i_0)^\ast E
+  \simeq i_0^\ast (\eta^\ast E) \simeq (\eta^\ast E)|_{X \times \{0\}}
 $$
 
 and
 
-(...)
+$$
+  g^\ast E = (\eta \circ i_1)^\ast E
+  \simeq i_1^\ast (\eta^\ast E) \simeq (\eta^\ast E)|_{X \times \{1\}}
+$$
+
+With this the statement follows by prop. \ref{ConcondanceOfTopologicalVectorBundles}.
 
 =--
+
+
+
 
 ## Related concepts
 
@@ -301,5 +398,4 @@ Discussion with an eye towards [[K-theory]] is in
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
-[[!redirects vector bundle]]
 [[!redirects vector bundles]]
