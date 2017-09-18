@@ -199,7 +199,7 @@ The category of simplicial sets is a [[presheaf category]], and so in particular
 
 Specifically, if $E$ is a topos containing such an interval $I$, then we obtain a functor $\Delta \to E$ sending $[n]$ to the subobject
 $$ \{ (x_1,x_2,\dots,x_n) \;|\; x_1 \le x_2 \le \dots \le x_n \} \hookrightarrow I^n $$
-The corresponding [[geometric realization]]/[[nerve]] [[adjunction]] $E \leftrightarrows Set^{\Delta^{op}}$ is the [[geometric morphism]] which classifies $I$.
+The corresponding [[geometric realization]]/[[nerve]] [[adjunction]] $E \leftrightarrows Set^{\Delta^{op}}$ is the [[geometric morphism]] which classifies $I$.  In particular, the generic such interval is the simplicial 1-simplex $\Delta^1$; see [[generic interval]] for more.
 
 The usual geometric realization into [[topological spaces]] cannot be obtained in this way precisely, since [[Top]] is not a topos.  However, there are [[Top]]-like categories which are toposes, such as [[Johnstone's topological topos]].
 
