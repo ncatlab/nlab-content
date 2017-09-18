@@ -226,11 +226,11 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Misapplied Math](http://www.klittlepage.com) (Math (mainly statistics, probability, and stochastic control), data science, and CS)
 
-* [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom writes on Cohomology, homotopy theory, and arithmetic geometry)
+* [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom writes on Cohomology, homotopy theory, and arithmetic geometry; see also the related [Cohomology Theory Database](http://notes.andreasholmstrom.org/index.php) by the same author)
 
 * [Musings Mathematical and Otherwise](http://edwardfhughes.wordpress.com) (Edward Hughes - Algebraic Geometry and String Theory)
 
-* [My research in geometry](http://alekskleyn.blogspot.com/) (Aleks Kleyn)
+* [My research in geometry](http://alekskleyn.blogspot.com) (Aleks Kleyn)
 
 * [NAPmath - math and technology in education] (http://NAPmath.wordpress.com)
 
