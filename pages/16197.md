@@ -97,15 +97,17 @@ Review and exposition includes
 
 Discussion of embedding of Starobinsky inflation in [[supergravity]] originates in 
 
-* {#Ceotti87} S. Cecotti, Phys. Lett. B 190, 86 (1987).
+* {#Ceotti87} S. Cecotti, _Higher derivative supergravity Is equivalent to standard supergravity coupled to matter_, Phys. Lett. B 190, 86 (1987).
 
 * S. Cecotti, S. Ferrara, M. Porrati and S. Sabharwal, Nucl. Phys. B 306, 160 (1988).
 
 and is further developed in
 
-* [[John Ellis]], Dimitri Nanopoulos, [[Keith Olive]], _No-Scale Supergravity Realization of the Starobinsky Model of Inflation_ Phys. Rev. Lett. 111, 111301 (2013) ([arXiv:1305.1247](http://arxiv.org/abs/1305.1247))
+* [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], _No-Scale Supergravity Realization of the Starobinsky Model of Inflation_ Phys. Rev. Lett. 111, 111301 (2013) ([arXiv:1305.1247](http://arxiv.org/abs/1305.1247))
 
   _Starobinsky-like Inflationary Models as Avatars of No-Scale Supergravity_ JCAP 1310, 009 (2013) ([arXiv:1307.3537](http://arxiv.org/abs/1307.3537))
+
+* [[Sergei Ketov]], _Supergravity and Early Universe: the Meeting Point of Cosmology and High-Energy Physics_, Int.J.Mod.Phys. A28 (2013) 1330021 ([arXiv:1201.2239](http://arxiv.org/abs/arXiv:1201.2239))
 
 * [[Renata Kallosh]], [[Andrei Linde]], _Superconformal generalizations of the Starobinsky model_ JCAP 1306, 028 (2013) ([arXiv:1306.3214](http://arxiv.org/abs/1306.3214))
 
@@ -121,7 +123,7 @@ and is further developed in
 
 * S. Ferrara, P. Fre and A. S. Sorin, _On the Topology of the Inflaton Field in Minimal Supergravity Models_ ([arXiv:1311.5059](http://arxiv.org/abs/1311.5059))
 
-* S. V. Ketov and A. A. Starobinsky, JCAP 1208, 022 (2012) [arXiv:1203.0805 [hep-th]]. S. V. Ketov and S. Tsujikawa, Phys. Rev. D 86, 023529 (2012) [arXiv:1205.2918 [hep-th]]. S. V. Ketov, arXiv:1309.0293 [hep-th].
+* [[Sergei Ketov]], [[Aleksei Starobinsky]], JCAP 1208, 022 (2012) [arXiv:1203.0805 [hep-th]]. S. V. Ketov and S. Tsujikawa, Phys. Rev. D 86, 023529 (2012) [arXiv:1205.2918 [hep-th]]. S. V. Ketov, arXiv:1309.0293 [hep-th].
 
 
 * [[Sergei Ketov]], _On the supersymmetrization of inflation in $f(R)$
@@ -136,5 +138,16 @@ gravity_, Prog. Theor. Exp. Phys. 2013, 123B04 ([pdf](http://ptep.oxfordjournals
 
 
 * {#DalianisFarakos15} [[Ioannis Dalianis]], [[Fotis Farakos]], _On the initial conditions for inflation with plateau potentials: the $R + R^2$ (super)gravity case_ ([arXiv:1502.01246](http://arxiv.org/abs/1502.01246))
+
+### Embedding into superstring theory
+ {#ReferencesEmbeddingIntoStringTheory}
+
+Embedding into [[superstring theory]] is discussed in
+
+* [[Costas Kounnas]], [[Dieter Luest]], Nicolaos Toumbas, _$\mathcal{R}^2$ inflation from scale invariant supergravity and anomaly free superstrings with fluxes_ ([arXiv:1409.7076](http://arxiv.org/abs/1409.7076))
+
+* {#EllisCarciaNanopoulosOlive15} [[John Ellis]], Marcos A. G. Garcia, [[Dimitri Nanopoulos]], [[Keith Olive]], _Phenomenological Aspects of No-Scale Inflation Models_ ([arXiv:1503.08867](http://arxiv.org/abs/1503.08867))
+
+* [[Luis Alvarez-Gaume]], [[Alex Kehagias]], [[Costas Kounnas]], [[Dieter Luest]], Antonio Riotto, _Aspects of Quadratic Gravity_ ([arXiv:1505.07657](http://arxiv.org/abs/1505.07657))
 
 [[!redirects Starobinsky inflation]]
