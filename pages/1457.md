@@ -142,6 +142,9 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[countably compact metric spaces are equivalently compact metric spaces]]
 
+* [[metric spaces are fully normal]]
+
+* [[metric spaces are paracompact]]
 
 ## Related concepts
 
