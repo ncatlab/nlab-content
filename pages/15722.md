@@ -145,6 +145,9 @@ Review includes
 
 * {#Bump} Bump, below theorem 19 in _Spectral theory of $\Gamma \backslash SL(2,\mathbb{R})$_ ([[BumpSpectralTheory.pdf:file]])
 
+* _Selberg and Ruelle zeta functions for compact hyperbolic manifolds_ ([pdf](http://www.math.uni-bonn.de/people/xenia/Oberseminar%202014/Oberseminar%202014.pdf))
+
+
 Expression of the Selberg/Ruelle zeta function as an [[Euler product]] of [[characteristic polynomials]] is due to 
 
 * {#Gangolli77} Ramesh Gangolli, _Zeta functions of Selberg's type for compact space forms of symmetric spaces of rank one_, Illinois J. Math. Volume 21, Issue 1 (1977), 1-41. ([Euclid](http://projecteuclid.org/euclid.ijm/1256049498))
