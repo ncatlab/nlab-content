@@ -1,71 +1,23 @@
 
 
-$\bigcirc$
-
 $$
   \array{
-    G && \longrightarrow && \ast
-    \\
-    & \searrow^{\mathrlap{\theta}} && && \searrow^{\mathrlap{\theta/G}}
-    \\
-    \downarrow && \flat_{dR}\mathbf{B}G && \longrightarrow && \flat \mathbf{B}G
-    \\
-    & \swarrow && && \swarrow   
-    \\
-    \ast && \longrightarrow && \mathbf{B}G
+     && &\mathfrak{D}(2p)\mathfrak{brane} &&& \mathfrak{D}(2p+1)\mathfrak{brane}
+     \\
+     &&& \downarrow && & \downarrow
+     \\
+     && &  \mathfrak{string}_{IIA} && & \mathfrak{string}_{IIB}
+     \\
+     && & \searrow && \swarrow
+     \\
+     \mathfrak{sdstring} & && \mathbb{R}^{10 \vert N=(1,1)} &  & \mathbb{R}^{10 \vert N=(2,0)}  &&& \mathfrak{string}_{het}
+     \\
+     & \searrow &  && \downarrow && & \swarrow
+     \\
+     && \mathbb{R}^{6 \vert N=(2,0)} && \mathbb{R}^{10 \vert N=2} && \mathbb{R}^{10 \vert N=(1,0)} 
+     \\
+     && & \searrow & \downarrow & \swarrow
+     \\
+     && && \mathbb{R}^{0\vert N} &\leftarrow& \mathbb{R}^{11\vert N=1} &\leftarrow& \mathfrak{m}2\mathfrak{brane} &\leftarrow& \mathfrak{m}5\mathfrak{brane} 
   }
 $$
-
-$$
-  \array{
-    G && \longrightarrow && Z && \longrightarrow && \ast
-    \\
-    & \searrow^{\mathrlap{\theta_x}} && && \searrow^{\mathrlap{\underset{x\colon X}{\sum} \theta_x}}  && && \searrow^{\mathrlap{\theta/G}}
-    \\
-    \downarrow && \flat_{dR}\mathbf{B}G && \longrightarrow && && \longrightarrow && \flat \mathbf{B}G
-    \\
-    & \swarrow && && \swarrow && && \swarrow   
-    \\
-    \ast && \stackrel{x}{\longrightarrow} && X_1 && \stackrel{g}{\longrightarrow} && \mathbf{B}G
-  }
-$$
-
-
-***
-
-Somebody writes:
-
-***
-
-I want to touch two points concerning Lawvere's concept of [[Aufhebung]]:
- 
-Let us briefly recall the definition given in the entry. Given a topos $\mathcal{B}$ define a level $i$ as an essential subtopos that is $i_!\dashv i^ *\dashv i_*:\mathcal{A}\to\mathcal{B}$ with $i_*$ fully faithful. This yields an [[adjoint modality]] $\lozenge_i\dashv \Box_i$ via $\lozenge_i := i_!i^*$ and $\Box_i :=i_*i^*$. A level $j$ is higher iff 
- 
-$$
-  \array{
-             \lozenge_j & \dashv & \Box_j\\
-                               \cup &  & \cup\\
-                               \lozenge_i & \dashv & \Box_i
-} $$
- 
-$j$ resolves $i$ if furthermore $ \Box_j\lozenge_i = \lozenge_i$ and $j$ is the _Aufhebung_ (term taken from Hegel) of $j$ if every other level $k$ that resolves $i$ is higher than $j$.
- 
-1. The first point which suggests that there might be something wrong here (at least in my understanding) is that this appears to imply that a quintessential localization aka [[quality type]] where $i_!\simeq i_*$ is his own Aufhebung as then $\lozenge_i\simeq\Box_i$ whence $\Box_i\lozenge_i=\lozenge_i\lozenge_i=\lozenge_i$. 
- 
-   This is somewhat puzzling because Lawvere in (1991, p.10) asks for the Aufhebung of a level that is an quality type and also the Aufhebung operator computed in Kennett-Riehl-Roy-Zaks for some homotopical cats does have no fix points implying e.g. that sSet has no quintessential localizations. So there probably is a bug here!?
- 
- 
-2. The second point is related to Mike's quest in a recent thread to deconstruct the modalities internally. Taking a look at Urs' table for [[differential cohesion]] and rearranging a bit :
-$$
-   \array{
-      \Re&\dashv&\int_{inf}&\dashv&\flat_{inf} &     &
-      \\
-      &       & \cup  &                &\cup        &           &
-      \\  
-      &        &\int &\dashv      & \flat       &\dashv   &\sharp
-      \\
-      &        &        &              & \cup         &            & \cup
-      \\
-      &         &       &              &  \empty     & \dashv & \ast
-   }$$
-This suggests to read the $\cup$ as Aufhebung with the left-peripheral $\Re ,\int$ just there to ensure that the Aufhebung exists at the preceding level so that we start with $\empty\dashv\ast$ at the bottom, lift with carry-over $\int$, lift once more with final carry-over $\Re$. As Aufhebung consists intuitively basically in shifting the 'negative' part $\lozenge$ to the 'positive' right $\Box$ at a higher level (in particular, the Aufhebung of a $\lozenge$ can be viewed as a stand-in for a left adjoint which transforms $\lozenge\to\Box'$ already at the same level) this could be viewed as a repeated _rectification_ of $\empty$ - non-being. So the idea would be to put aside the base and the thickened topos and try to characterize the adjunctions in the table via the existence of the appropriate Aufhebungen. In order to find out whether this story holds water it would be necessary to check that the $\cup$ are indeed Aufhebungen and then that the carry-overs actually can be connected to these Aufhebungen, also the implicit quantification over all levels is potentially nasty from an internal point of view.
