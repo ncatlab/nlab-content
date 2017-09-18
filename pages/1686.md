@@ -361,7 +361,7 @@ Moreover
    $$
 
    induced from applying $F$ to an injective resolution 
-   $A \to \hat A$ and the [[isomorphism]]
+   $A \to \hat A$ and the morphism
 
    $$
      R^q (G \circ F)(A) \to G(R^q F (A))
