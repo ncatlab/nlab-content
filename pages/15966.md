@@ -22,7 +22,7 @@
 
 ## A new formulation for classical index theory
 
-Classical real or [[complex analytic geometry|complex analytic]] [[index theory]] may be described as a setting that contains both:
+Classical real or [[complex analytic geometry|complex analytic]] [[index theory]] may be described as a setting that contains:
 
 * [[Riemann-Roch theorem|Riemann-Roch]] type theorems, such as Bismut's Riemann-Roch theorem for a general smooth proper morphism of complex analytic spaces, Grothendieck's Riemann-Roch theorem for a morphism of schemes, or Riou's motivic Riemann-Roch theorem for a projective morphism of schemes, and
 
