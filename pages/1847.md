@@ -236,10 +236,71 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
 * [[Michael's theorems]] 
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_example #CountableCoverOfUnionsofOpenSubsetsInsideGivenCover}
+###### Lemma
+
+Let $X$ be a [[paracompact Hausdorff space]], and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Then there exists a [[countable cover]]
+
+$$
+  \{V_n \subset X\}_{n \in \mathbb{N}}
+$$
+
+such that each element $V_n$ is a [[union]] of [[open subsets]] of $X$ each of which is contained in at least one of the elements $U_i$ of the original cover.
 
 =--
+
+(e.g. [Hatcher, lemma 1.21](#Hatcher))
+
++-- {: .proof}
+###### Proof
+
+Let $\{f_i \colon  X \to [0,1]\}_{i \in I}$ be a [[partition of unity]] subordinate to the original cover, which exists since [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]].
+
+For $J \subset I$ a [[finite set]], let 
+
+$$
+  V_J
+    \;\coloneqq\;
+  \left\{
+    x \in X 
+    \;\vert\;
+    \underset{j \in J}{\forall}
+    \left(
+       \underset{k \in I \setminus J}{\forall}
+       \left(
+         f_j(x) \gt f_k(x)
+       \right)
+    \right)
+  \right\}
+  \,.
+$$
+
+By local finiteness there are only a [[finite number]] of $f_k(x)$ greater than zero, hence the condition on the right is a finite number of strict inequalities. Since the $f_i$ are continuous, this implies that $V_J$ is an [[open subset]].
+
+Moreover, $V_J$ is contained in $supp(f_j)$ for $j \in J$ and hence in one of the $U_i$.
+
+Now for $n \in \mathbb{N}$ take
+
+$$
+  V_n 
+    \;\coloneqq\;
+  \underset{ {J \subset I} \atop { {\vert J\vert} = n } }{\cup}
+  V_J
+$$
+
+to be the union of the $V_J$ over all subset $J$ with precisely $n$ elements.
+
+The set $\{V_n \subset X\}_{n \in \mathbb{N}}$ is a cover because for any $x \in X$ we have $x \in V_{J_x}$ for
+
+$$
+ J_x \coloneqq \{ i \in I \;\vert\; f_i(x) \gt 0  \}
+$$
+
+(which is finite by local finitness of the partition of unity).
+
+
+=--
+
 
 
 ### Homotopy and Cohomology 
