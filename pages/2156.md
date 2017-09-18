@@ -62,8 +62,8 @@ Now suppose that $k$ is equipped with a [[partial order]].  (Note that the [[com
 In this case, we have these theorems:
 
 *  A positive or negative inner product really is semidefinite (as the terminology implies).
-*  Conversely, a semidefinite inner product is either positive or negative; if $V$ is nontrivial (meaning that there exists $x$ such that $x \ne 0$), then 'or' strengthens to '[[xor]]'.  (In constructive mathematics, this should only be stated for nontrivial spaces in the first place.)
-*  Hence, a definite inner product is either positive or negative definite.  (The same remarks about 'xor' and constructivity apply.)
+*  Conversely, a semidefinite inner product is either positive or negative, at least if we use [[classical logic]].  (In [[constructive mathematics]], we can say that a semidefinite inner product is either positive or negative, indeed is positive [[xor]] negative, as long as it is nonzero in the sense that at least some $\lang{x,y}\rang$ is [[apart]] from zero.  And of course, the zero inner product is the only one that is both positive and negative.)
+*  Hence, a definite inner product is either positive or negative definite.  (We can strengthen this to 'xor' and state it constructively if we assume that $V$ is nonzero in that there exists $x$ with $x \ne 0$.)
 *  Conversely, an inner product is indefinite if and only if some norms are positive and some are negative.  (No constructive caveats here!)
 
 Negative (semi)definite inner products behave very much like positive (semi)definite ones; you can turn one into the other by multiplying all inner products by $-1$.
