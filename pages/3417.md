@@ -143,7 +143,7 @@ and
 
 Recall the slight but crucial difference between the two notions of "[[simplicial categories]]", the other being an [[internal category]] in [[sSet]]. But also for this latter concept there is a [[model category]] structure which presents [[(infinity,1)-categories]], see
 
-* {#Horel14} Geoffroy Horel, _A model structure on internal categories_ ([arXiv:1403.6873](http://arxiv.org/abs/1403.6873)).
+* {#Horel14} Geoffroy Horel, _A model structure on internal categories_, Theory and Applications of Categories, Vol. 30, 2015, No. 20, pp 704-750 ([arXiv:1403.6873](http://arxiv.org/abs/1403.6873)).
 
 
 [[!redirects model structure on SSet-categories]]
