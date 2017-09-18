@@ -120,9 +120,50 @@ A _rooted tree_ can be defined as a [[relational structure]] and as such serves 
 
 This last property, of course, implies that $S$ is irreflexive.
 
+### As polynomial endofunctors (after Kock) 
+
+A new way of thinking about (rooted, usually assumed finite) trees has been introduced by [Joachim Kock](#Kock). 
+
++-- {: .num_defn} 
+###### Definition 
+A *tree* $T$ consists of a set $T_0$ of edges, a set $T_1$ of nodes, and a set $T_2$ of *input flags*, all assumed finite, together with functions 
+
+$$T_0 \stackrel{s}{\leftarrow} T_2 \stackrel{p}{\to} T_1 \stackrel{t}{\to} T_0$$ 
+
+such that $t$ is injective, $s$ is injective and its image is complementary to a singleton $\{r\}$, and the "walk-to-root" function $\sigma: T_0 \to T_0$ defined by $e \mapsto t(p(s^{-1}(e)))$ if $e \neq r$, else $r \mapsto r$, can be iterated only finitely many times (i.e., for all $e \in T_0$ there exists a natural number $k$ such that $\sigma^k(e) = r$). 
+=-- 
+
+Some commentary is in order. The subscript $0$ for edges and $1$ for nodes is consonant with standard usage in [[string diagrams]], where edges are labeled by $0$-cells in a monoidal category and nodes by $1$-cells. Each node is pictured as having a multiplicity of (and possibly zero) input edges and exactly one outgoing edge; the map $t: T_1 \to T_0$ maps a node to its outgoing edge. Only the root edge is not an input edge of any node, i.e., the unique inhabitant of the complement of $im(s)$ is what we call the root $r$. Now: the input "function" $T_1 \to T_0$ is actually a multivalued function, taking a node to the set of its input edges, and is therefore represented as a [[relation]] or [[span]] from $T_0$ to $T_1$. The domain of this relation $T_2$ is the set of ordered pairs $(e, v)$ where $e \in T_0$ is an input edge of $v \in T_1$; this may be called a "flag" (thinking of a general flag as a chain of incidence relations, here a 1-step chain with $e$ input-incident to $v$). 
+
+To each tree $T$ described in this form, there is an associated [[polynomial endofunctor]] $p_T: Set/T_0 \to Set/T_0$ controlled by the data 
+
+$$T_0 \stackrel{s}{\leftarrow} T_2 \stackrel{p}{\to} T_1 \stackrel{t}{\to} T_0$$ 
+
+and defined by the composition 
+
+$$Set/T_0 \stackrel{s^\ast}{\to} Set/T_2 \stackrel{\Pi_p}{\to} Set/T_1 \stackrel{\Sigma_t}{\to} Set/T_0.$$ 
+
+Notice this functor preserves pullbacks. 
+
+There is a [[double category]] whose $0$-cells are sets $I$, whose horizontal $1$-cells are polynomial endofunctors $p: Set/I \to Set/J$, whose vertical $1$-cells are pullback functors $f^\ast: Set/I \to Set/I'$ induced by functions $f: I' \to I$, and whose $2$-cells are [[cartesian natural transformations]] of the form 
+
+$$\array{
+Set/I & \stackrel{p}{\to} & Set/J \\ 
+\mathllap{f^\ast} \downarrow & \swArrow & \downarrow \mathrlap{g^\ast} \\ 
+Set/I' & \underset{p'}{\to} & Set/J'
+}$$ 
+
+The category consisting of horizontal arrows and 2-cells between them is called the *category of polynomial endofunctors*, $PolyEnd$. Kock defines a category of trees where objects are trees $T$ and whose morphisms are morphisms between the corresponding endofunctors $p_T$ as objects in $PolyEnd$. 
+
+As Kock shows, this description of trees is well-adapted to the usual sorts of combinatorics that emerge in the study of [[operads]], such as free operads. 
+
 ## Related concepts
 
 * [[category of trees]]
+
+## References 
+
+* Joachim Kock, *Polynomial functors and trees*, http://arxiv.org/abs/0807.2874 ([link](http://arxiv.org/abs/0807.2874)) 
 
 
 [[!redirects tree]]
