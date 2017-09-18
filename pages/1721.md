@@ -755,6 +755,55 @@ Exactness holds by prop. \ref{LongExactSequenceOfACohomologyTheoryOnAnInfinityCa
 
 =--
 
++-- {: .num_theorem}
+###### Theorem
+
+The constructions of def. \ref{ReducedToUnreducedGeneralizedCohomology} and def. \ref{FromUnreducedToReducedCohomology} constitute a pair of [[functors]] between then [[categories]] of reduced cohomology theories, def. \ref{ReducedGeneralizedCohomology} and unreduced cohomology theories, def. \ref{GeneralizedCohomologyTheory} which exhbit an [[equivalence of categories]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...careful with checking the respect for suspension iso and connecting homomorphism..)
+
+To see that there are [[natural isomorphisms]] relating the two composites of these two functors to the identity:
+
+One composite is
+
+$$
+  \begin{aligned}
+    E^\bullet 
+    & \mapsto
+    (\tilde E^\bullet \colon (X,x) \mapsto E^\bullet(X,\{x\})) 
+    \\
+    & \mapsto
+    ((E')^\bullet \colon (X,A) \mapsto E^\bullet( X_+ \cup Cone(A_+) ), \ast)
+  \end{aligned}
+  \,,
+$$
+
+where on the right we have, from the construction, the reduced mapping cone of the original inclusion $A \hookrightarrow X$ with a base point adjoined. That however is isomorphic to the unreduced mapping cone of the original inclusion. With this the natural isomorphism is given by lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}.
+
+The other composite is
+
+$$
+  \begin{aligned}
+    \tilde E^\bullet
+     & \mapsto
+    (E^\bullet \colon (X,A) \mapsto \tilde E^\bullet(X_+ \cup Cone(A_+)))
+    \\
+    & \mapsto 
+    ((\tilde E')^\bullet \colon X \mapsto \tilde E^\bullet(X_+ \cup Cone(*_+)))
+  \end{aligned}
+$$
+
+where on the right we have the reduced mapping cone of the point inclusion with a point adoined. As before, this is isomorphic to the unreduced mapping cone of the point inclusion. That finally is clearly homotopy equivalent to $X$, and so now the natural isomorphism follows with homotopy invariance.
+ 
+=--
+
+Finally we record the following basic relation between reduced and unreduced cohomology:
+
 +-- {: .num_prop #UnreducedCohomologyIsReducedPlusPointValue}
 ###### Proposition
 
@@ -822,12 +871,13 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 +-- {: .num_prop }
 ###### Proposition
 
-Given a generalized cohomology functor $H^\bullet \colon Ho(\mathcal{C})^{op}\to Ab^{\mathbb{Z}}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, its underlying [[Set]]-valued functors $H^n \colon Ho(\mathcal{C})^{op}\to Ab\to Set$ are [[Brown functors]], def. \ref{BrownFunctorOnInfinityCategory}.
+Given a generalized cohomology functor $E^\bullet \colon Ho(\mathcal{C})^{op}\to Ab^{\mathbb{Z}}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, its underlying [[Set]]-valued functors $H^n \colon Ho(\mathcal{C})^{op}\to Ab\to Set$ are [[Brown functors]], def. \ref{BrownFunctorOnInfinityCategory}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
+
 
 The first condition on a [[Brown functor]] holds by definition of $H^\bullet$. For the second condition, given a homotopy pushout square
 
