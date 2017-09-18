@@ -836,6 +836,11 @@ For more references on this WZW perspective see [below](#ReferencesWZWTerm).
 For references on curved backgrounds see [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
 
 
+### Dualities
+
+Discussion of [[T-duality]] for the Green-Schwarz string is in 
+
+* [[Mirjam Cvetic]], H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], _T-Duality in the Green-Schwarz Formalism, and the Massless/Massive IIA Duality Map_, Nucl.Phys.B573:149-176,2000 ([arXiv:hep-th/9907202](https://arxiv.org/abs/hep-th/9907202))
 
 ### WZW terms, super Lie algebra cohomology and the brane scan
  {#ReferencesWZWTerm}
