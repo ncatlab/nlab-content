@@ -21,6 +21,12 @@ An $(\infty,n)$-category _has all adjoints_ (or just _has adjoints_, for short) 
 
 If in addtition every [[object]] in $\mathcal{C}$ is a [[fully dualizable object]], then $\mathcal{C}$ is called an _[[(∞,n)-category with duals]]_.
 
+## Properties
+
+### Internal language
+
+The [[internal language]] of $(\infty,n)$-categories with duals seems plausibly to be axiomatizable in [[opetopic type theory]]. 
+
 ## Examples
 
 * An [[(∞,n)-category of cobordisms]] has all adjoints.
