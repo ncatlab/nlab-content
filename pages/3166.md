@@ -8,7 +8,7 @@
 
 The _[[cohomology]] of a [[category]]_ $C$ is often defined to be the [[groupoid cohomology]] of the [[∞-groupoid]] that is presented by the [[nerve]] of the category.
 
-Hence for $\mathbf{A}$ some coeffiecient [[∞-groupoid]]  -- typically, but not necessarily, an [[Eilenberg-MacLane object]] $\mathbf{A} = K(A,n) = \mathbf{B}^n A$ -- regarded as a [[Kan complex]], the cohomology of $C$ in this sense is
+Hence for $\mathbf{A}$ some coefficient [[∞-groupoid]]  -- typically, but not necessarily, an [[Eilenberg-MacLane object]] $\mathbf{A} = K(A,n) = \mathbf{B}^n A$ -- regarded as a [[Kan complex]], the cohomology of $C$ in this sense is
 
 $$
   H^n(C,A) := \pi_0 \infty Grpd( F(N(C)), \mathbf{A} )
