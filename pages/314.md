@@ -542,6 +542,8 @@ In general limits do not commute with colimits. But under a number of special co
 
 * **limit**
 
+  * [[internal limit]]
+
   * [[colimit]], [[universal construction]], [[Kan extension]], [[end]], [[coend]]
 
 * [[2-limit]]
