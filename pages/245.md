@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents 
+* table of contents 
 {:toc}
 
 
@@ -19,19 +19,18 @@
 Intuitively speaking, a braided monoidal category is a category with a tensor product and an isomorphism called the 'braiding' which lets us 'switch' two objects in a tensor product like $x \otimes y$.
 
 ## Definition
+ {#Definition}
 
-A **braided monoidal category**, or __braided tensor category__, is a [[monoidal category]] $V$ equipped with a [[natural isomorphism]]
++-- {: .num_defn #BraidedMonoidalCategory} 
+###### Definition
 
-$$ B_{x,y} : x \otimes y \to y \otimes x $$
+A **braided monoidal category**, or ("braided [[tensor category]]", but see there), is a [[monoidal category]] $\mathcal{C}$ equipped with a [[natural isomorphism]]
 
-called the **braiding**, which must satisfy two axioms called **hexagon identities** encoding the compatibility of the braiding with the [[associator]] for the tensor product.  
+$$ 
+  B_{x,y} : x \otimes y \to y \otimes x 
+$$
 
-If the braiding squares to the identity, then the braided monoidal category is a [[symmetric monoidal category]].
-
-
-### The coherence laws
-
-To see the hexagon identities, let us write $a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ for the components of the associator in $V$.   Then the first hexagon identity says that for all $x,y,z \in Obj(V)$ the following diagram commutes:
+called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved (called the **hexagon identities** encoding the compatibility of the braiding with the [[associator]] for the tensor product):
 
 $$
   \array{
@@ -53,7 +52,7 @@ $$
   }
 $$
 
-The second hexagon identity says that for all $x,y,z \in Obj(V)$ the following diagram commutes:
+and
 
 $$
   \array{
@@ -73,11 +72,33 @@ $$
    &\stackrel{B_{x,z} \otimes Id}{\to}&
    (z \otimes x) \otimes y
   }
+  \,,
 $$
 
-Intuitively speaking, the first hexagon identity says we can braid $x \otimes y$ past $z$ all at once or in two steps.  The second hexagon identity says we can braid $x$ past $y \otimes z$ 'all at once' or in two steps.
+where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ denotes the components of the [[associator]] of $\mathcal{C}^\otimes$. 
 
-From these axioms, it follows that the braiding is compatible with the left and right unitors $l_x : I \otimes x \to x$ and $r_x : x \otimes I \to x$.   That is to say, for all objects $x$ the diagram
+
+=--
+
++-- {: .num_defn} 
+###### Definition
+
+
+If the braiding in def. \ref{BraidedMonoidalCategory} "squares" to the identity in that $B_{y,x} \circ B_{x,y} = id_{x \otimes y}$, then the braided monoidal category is called a _[[symmetric monoidal category]]_.
+
+=--
+
++-- {: .num_remark} 
+###### Remark
+
+Intuitively speaking, the first hexagon identity in def. \ref{BraidedMonoidalCategory} says that we may braid $x \otimes y$ past $z$ all at once or in two steps.  The second hexagon identity says we may braid $x$ past $y \otimes z$ 'all at once' or in two steps.
+
+=--
+
++-- {: .num_remark} 
+###### Remark
+
+From these axioms in def. \ref{BraidedMonoidalCategory}, it follows that the braiding is compatible with the left and right [[unitors]] $l_x : I \otimes x \to x$ and $r_x : x \otimes I \to x$.   That is to say, for all objects $x$ the diagram
 
 $$
   \array{
@@ -90,6 +111,8 @@ $$
 $$
 
 commutes.  
+
+=--
 
 ### In terms of higher monoidal structure
 
