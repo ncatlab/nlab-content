@@ -8,7 +8,7 @@ A topological field is a [[field]] equipped with a topology such that all of the
 
 ## Definition 
 
-A _topological field_ is a [[topological ring]] whose underlying [[ring]] in $Set$ is a field $K$ and such that the multiplicative inversion operation $i: K \setminus \{0\} \to K \setminus \{0\}$ is [[continuous function|continuous]] with respect to the [[subspace]] topology inherited from $K$. 
+A _topological field_ is a [[topological ring]] whose underlying [[ring]] in $Set$ is a [[field]] $K$ and such that the multiplicative inversion operation $i: K \setminus \{0\} \to K \setminus \{0\}$ is [[continuous function|continuous]] with respect to the [[subspace]] topology inherited from $K$. 
 
 +-- {: .num_remark} 
 ###### Remark 
