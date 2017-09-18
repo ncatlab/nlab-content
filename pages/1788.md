@@ -1,30 +1,25 @@
 $$
   \array{
-    \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
-      &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
-    \mathcal{C}
+    (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
+    &\overset{\alpha^L_{\gamma(X), \gamma(Y), \gamma(Z)}}{\longrightarrow}&
+    ( \gamma(X) \otimes^L ( \gamma(Y) \otimes^L \gamma(Z) )  )
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{\mathllap{
+      \gamma((p_X \otimes p_Y) \otimes p_Z) 
+      \circ 
+      \gamma((j_{Q X} \otimes j_{Q Y}) \otimes j_{Q Z})^{-1}
+    }}
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{
+      \gamma(p_X \otimes (p_Y \otimes p_Z)) 
+      \circ 
+      \gamma( j_{Q X} \otimes (j_{Q Y} \otimes j_{Q Z}))^{-1}
+    }}
     \\
-    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
-      &\overset{((-)\otimes^L(-))\otimes^L (-)}{\longrightarrow}&
-    Ho(\mathcal{C})
+    \gamma( (X\otimes Y) \otimes Z )
+      &\underset{\gamma( \alpha_{X,Y,Z} )}{\longrightarrow}&
+    \gamma( X \otimes (Y \otimes Z) )
   }
-  \;\;\;\,,\;\;\;\;\;
-  \array{
-    \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
-      &\overset{ (-) \otimes ( (-) \otimes (-) ) }{\longrightarrow}&
-    \mathcal{C}
-    \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
-    \\
-    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
-      &\overset{ (-) \otimes^L ( (-) \otimes^L (-) )  }{\longrightarrow}&
-    Ho(\mathcal{C})
-  }
+  \,.
 $$
-
