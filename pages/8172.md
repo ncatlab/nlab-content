@@ -25,10 +25,31 @@ The original Adams spectral sequence for [[ordinary cohomology]] is further refi
 
 Working with the Adams spectral sequence tends to be fairly involved, as is clear from the subtlety of the results it computes (notably [[stable homotopy groups of spheres]]) and as witnessed by the fact that one uses further [[spectral sequences]] just to compute the low pages of the Adams spectral sequence, e.g. the [[May spectral sequence]] and the  [[chromatic spectral sequence]]. 
 
-A neat conceptual picture of what happens in the Adams spectral sequence has emerged long after its conception with the arrival of [[higher algebra]] in [[stable (infinity,1)-category|stable infinity-category theory]]. A nice, brief, illuminating modern (and funny) account of this is in ([Wilson 13](#Wilson13)), further details are in ([Lurie 10](#Lurie10)).
+A clear conceptual picture in [[higher algebra]]  of what happens in the Adams spectral sequence ([Lurie 10](#Lurie10)) has emerged via the re-formulation in ([Miller 81](#Miller81), [Hopkins 99](#Hopkins99)). Survey of this perspective includes ([Wilson 13](#Wilson13)). 
+
+Here one observed that for $E$ a [[ring spectrum]], hence an [[E-∞ ring]], the [[totalization]] of its [[Amitsur complex]] [[cosimplicial object|cosimplicial]] spectrum is really the algebraic dual incarnation of the [[1-image]] factorization of the the terminal morphism
+
+$$
+  \array{
+    Spec(E) &\longrightarrow& Spec(Tot(E^{\wedge^\bullet}))
+    \\
+    \downarrow & \searrow_{\mathrlap{p}}
+    \\
+    Spec(\mathbb{S})
+  }
+$$
+
+in [[E-∞ geometry]]/[[spectral geometry]].
+
+Moreover, a [[spectrum]] $X$ is equivalently a [[quasicoherent sheaf]] on $Spec(S)$ and $E^{\wedge^\bullet} \wedge X$ is accordingly the [[Sweedler coring]] that expresses the [[descent]] property of $X$ pullled back along the cover $p$, dually the $E$-[[localization]] of $X$. The Adams spectral sequence may then be seen to be the computation of the [[homotopy groups]] of the $E$-localization of $X$ in terms of its restriction to that cover. 
+
+In general, notably for $E = H \mathbb{F}_p$, the [[1-image]] of $Spec(E) \to Spec(\mathbb{S})$ is smaller than $Spec(\mathbb{S})$ and therefore this process computes not all of $X$, but just the restriction to that one image (for instance just the $p$-local component). Examples of ring spectra which are "complete" with respect to the sphere spectrum in that the above 1-image coincides with $Spec(S)$ notably includes the [[complex cobordism cohomology]] spectrum $E = $[[MU]] ([Hopkins 99, p. 70](#Hopkins99)). 
+
+That explains the relevance of the [[Adams-Novikov spectral sequence]] (noticing that the wedge summands of $MU_{(p)}$ are the [[Brown-Peterson spectrum|BP-spectra]]) and the close interplay between the ANSS and [[chromatic homotopy theory]].  
 
 
-## Motivation from Hurewicz theorem and Serre spectral sequence
+
+### Via iterated Hurewicz theorem and Serre spectral sequence
  {#MotivationFromHurewiczTheoremAndSerreSpectralSequence}
 
 The Adams spectral sequence may be motivated from the strategy to 
@@ -104,7 +125,10 @@ $$
 If $X$ is a [[spectrum]] of [[finite type]] then there is a [[finite]] $I$ of non-trivial cohomology classes like this, and a choice of [[cocycles]] $c_i$ for each of them gives a single map
 
 $$
-  f_0 \coloneqq (c_i)_I \;\; X \longrightarrow K_0 \coloneqq \bigvee_{i \in I} \Sigma^{n_i}H \mathbb{F}_2
+  f_0 
+    \coloneqq 
+   (c_i)_I \;\colon\; 
+   X \longrightarrow K_0 \coloneqq \bigvee_{i \in I} \Sigma^{n_i}H \mathbb{F}_2
 $$
 
 into a [[generalized Eilenberg-MacLane spectrum]]. As before, this map classifies its [[homotopy fiber]]
@@ -218,10 +242,16 @@ gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral
 
 
 
+## Details
 
+1. [Classical discussion](#ClassicalDiscussion)
 
+1. [Via injective resolutions](#ViaInjectiveResolutions)
 
-## Traditional definition
+1. [As derived descent in higher algebra](#DefinitionInHigherAlgebra)
+
+### Classical discussion
+ {#ClassicalDiscussion}
 
 > under construction
 
@@ -250,7 +280,286 @@ The [[long exact sequence]] induced by this give an [[exact couple]] and the Ada
 
 This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.1.1, def. 2.1.8](#Ravenel)).
 
-## Definition in higher algebra
+
+
+### Via injective resolutions
+ {#ViaInjectiveResolutions}
+
+
+A streamlined discussion of $E$-[[Adams resolutions]] in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
+
+Write $HoSpectra$ for the [[stable homotopy category]] and write 
+
+$$
+  [-,-] \;\colon\; HoSpectra^{op} \times HoSpectra \longrightarrow Ab
+$$
+
+for the [[hom-functor]] with values in [[abelian groups]].
+
++-- {: .num_defn #HomotopyFunctor}
+###### Definition
+
+For $S \in HoSpectra$, the _homotopy functor it represents_ it to me the [[representable functor]]
+
+$$
+  [S,-] \;\colon\; HoSpectra \longrightarrow Ab
+$$
+
+(as opposed to the other, contravariant, functor).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $S = \Sigma^\infty S^n \simeq \Sigma^n \mathbb{N}$ then 
+
+$$
+  [\Sigma^\infty S^n ,- ]\simeq \pi_n
+$$
+
+is the $n$th [[homotopy group]]-functor.
+
+=--
+
+
+Throughout, let $E$ be a [[ring spectrum]]. 
+
+
+
+#### $E$-Injective spectra
+
+First we consider a concept of of $E$-[[injective objects]] in [[Spectra]].
+
+
++-- {: .num_defn #ExactSequences}
+###### Definition
+
+Say that 
+
+1. a sequence of spectra
+
+   $$
+     A_1 \longrightarrow A_2 \longrightarrow \cdots \longrightarrow A_n
+   $$
+
+   is 
+
+   1. a (long) _exact sequence_ if the induced sequence of homotopy functors, def. \ref{HomotopyFunctor}, is a [[long exact sequence]] in $[HoSpectra,Ab]$;
+
+   2. (for $n = 2$) a _short exact sequence_ if
+
+      $$
+        0 \longrightarrow A_1 \longrightarrow A_2 \longrightarrow A_3 \longrightarrow 0
+      $$
+
+      is (long) exact;
+
+
+1. a morphism $A \longrightarrow B$  is 
+
+   1. a _monomorphism_ if $0 \longrightarrow A \longrightarrow B$ is an exact sequence;
+
+   1. an _epimorphism_ if $A \longrightarrow B \longrightarrow 0$ is an exact sequence.
+
+For $E$ a [[ring spectrum]], then a sequence of spectra is (long/short) _$E$-exact_ and a morphism is epi/mono, respectively, if becomes long/short exact or epi/mono, respectively, after taking [[smash product of spectra|smash product]] with $E$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Every [[homotopy cofiber sequence]] of spectra is exact in the sense of def. \ref{ExactSequences}. 
+
+=--
+
++-- {: .num_remark}
+###### Remark/Warning
+
+Consecutive morphisms in an $E$-exact sequence according to def. \ref{ExactSequences} in general need not compose up to homotopy, to the [[zero morphism]]. But this does become true for sequences of $E$-injective objects, defined below in def. \ref{EInjective}.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+1. If $f \colon B\longrightarrow A$ is a monomorphism in the sense of def. \ref{ExactSequences}, then there exists a morphism $g \colon C \longrrightarrow A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+
+   $$
+     f \vee g \;\colon\; B \wedge C \stackrel{\simeq}{\longrightarrow} A
+     \,.
+   $$
+
+1. If $f \colon A \longrightarrow B$ is an epimorpimsm in the sense of def. \ref{ExactSequences}, then there exists a homotopy [[section]] $s \colon B\to A$, i.e. $f\circ s\simeq Id$, together with a morphism $g \colon C \to A$ such that the [[wedge sum]] morphism is a [[weak homotopy equivalence]]
+
+   $$
+     s \vee f \colon B\vee C \stackrel{\simeq}{\longrightarrow} A
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn #EInjective}
+###### Definition
+
+For $E$ a [[ring spectrum]], say that a spectrum $S$ is _$E$-injective_ if for each morphism $A \longrightarrow S$ and  each $E$-monomorphism $f \colon A \longrightarrow S$ in the sense of def. \ref{ExactSequences}, there is a [[diagram]] in [[HoSpectra]] of the form
+
+$$
+  \array{
+    A &\longrightarrow & S 
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists}}
+    \\
+    B
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+If $S$ is $E$-injective in the sense of def. \ref{EInjective}, then there exists a spectrum $X$ such that $S$ is a [[retract]] in [[HoSpectra]] of $E \wedge X$.
+
+=--
+
+#### $E$-Adams resolutions
+
++-- {: .num_defn #EAdamsResolution}
+###### Definition
+
+For $E$ a [[ring spectrum]], then an _$E$-Adams resolution_ of an spectrum $S$ is a long exact sequence, in the sense of def. \ref{ExactSequences}, of the form
+
+
+$$
+  0 \longrightarrow S \longrightarrow I_0 \longrightarrow I_1 \longrightarrow I_2 \longrightarrow \cdots
+$$
+
+such that each $I_j$ is $E$-injective, def. \ref{EInjective}.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+Any two consecutive maps in an $E$-Adams resolution compose to the [[zero morphism]].
+
+=--
+
+
++-- {: .num_lemma}
+###### Lemma
+
+For $X \to X_\bullet$ an $E$-Adams resolution, def. \ref{EAdamsResolution}, and for $X \longrightarrow Y$ any morphism, then there exists an $E$-Adams resolution $Y \to J_\bullet$ and a [[commuting diagram]]
+
+$$
+  \array{
+     X &\longrightarrow& I_\bullet
+     \\
+     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g_\bullet}}
+     \\
+     Y &\longrightarrow& J_\bullet
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**(standatd resolution)**
+
+Consider the augmented [[cosimplicial object|cosimplicial]] which is the $\mathbb{S} \to E$-[[Amitsur complex]] [[smash product of spectra|smashed]] with $X$:
+
+$$
+  X \longrightarrow E \wedge X \stackrel{\longrightarrow}{\longrightarrow} E \wedge E \wedge X \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+  E \wedge E \wedge E \wedge X
+ \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+ \cdots
+  \,.
+$$
+
+Its corresponding [[Moore complex]] (the sequence whose maps are the alternating sum of the above coface maps) is an $E$-Adams resolution, def. \ref{EAdamsResolution}.
+
+=--
+
+#### $E$-Adams towers
+
++-- {: .num_defn #EAdamsTower}
+###### Definition
+
+An _$E$-Adams tower_ of a spectrum $X$ is a [[commuting diagram]] in [[HoSpectra]] of the form
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{p_2}}
+    \\
+    && X_2 &\stackrel{\kappa_2}{\longrightarrow}& \Omega^2 I_3
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_1}}
+    \\
+    && X_1 &\stackrel{\kappa_1}{\longrightarrow}& \Omega I_2
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_0}}
+    \\
+    X 
+    &\underset{}{\longrightarrow}&
+    X_0 = I_0
+    &\stackrel{\kappa_0}{\longrightarrow}&
+    I_1
+  }
+$$
+
+such that 
+
+1. each hook is a [[homotopy fiber sequence]];
+
+1. the [[composition]] of the $(\Sigma \dashv \Omega)$-[[adjuncts]] of $\Sigma_{p_{n-1}}$ with $\Sigma^n \kappa_n$
+
+   $$
+     i_{n+1} \;\colon\; I_n \stackrel{\widetilde {\Sigma p_{n-1}}}{\longrightarrow}
+     \Sigma^n X_n \stackrel{\Sigma^{n}\kappa_n}{\longrightarrow} I_{n+1}
+   $$
+
+   constitute an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}:
+
+   $$
+     0 \to X \stackrel{i_0}{\to} I_0 \stackrel{i_2}{\to} I_2 \stackrel{}{\to} \cdots
+     \,.
+   $$
+
+Call this the _associated $E$-Adams resolution_ of the $E$-Adams tower.
+
+The _associated inverse sequence_ is
+
+$$
+  X = X_0 \stackrel{\gamma_0}{\longleftarrow} \Omega C_1 \stackrel{\gamma_1}{\longleftarrow} C_2 \longleftarrow \cdots
+$$
+
+where $C_{k+1} \coloneqq hocofib(i_k)$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In ([Ravenel](#Ravenel)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+
+=--
++-- {: .num_example}
+###### Example
+
+Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-Adams tower, def. \ref{EAdamsTower} of which it is the associated $E$-Adams resolution.
+
+=--
+
+
+
+
+### As derived descent in higher algebra
  {#DefinitionInHigherAlgebra}
 
 We discuss the general definition of $E$-[[Adams-Novikov spectral sequences]] for suitable [[E-∞ rings]] $E$ expressed in [[higher algebra]], as in ([Lurie, Higher Algebra](#Lurie)). We follow [Lurie 10](#Lurie10), a nice exposition is in ([Wilson 13](#Wilson13)).
@@ -272,13 +581,13 @@ In conclusion this yields for each suitable [[E-∞ algebra]] $E$ over $S$  and 
 
 * [The E-Adams-Novikov spectral sequence](#TheEAdamsSpectralSequence).
 
-### Idea
+#### Idea
 
 The quick idea is this: Given an $S$ -module $X$, regard it as a quasicoherent sheaf on $Spec(S)$. Choose a map $Spec(E) \to Spec(S)$. This is a cover of its [[1-image]]
  $Spec(E) \to Spec(S)^\wedge_{Spec(E)}$, which is the derived [[formal completion]] of $Spec(S)$ at the image of $Spec(E)$. Restrict attention then to the restriction of $X$ to that formal completion $X^\wedge_{Spec(E)}$. (So if $Spec(E) \to Spec(S)$ was already an atlas, hence was already complete, we stick with the original $X$). Then pull back $S$ to the [[Cech nerve]] of the cover $Spec(E) \to Spec(S)^wedge_{Spec(E)}$. The realization of this Cech nerve reproduces the completed image, and hence the canonical filtration on the Cech nerve gives a filtration spectral sequence for $X^\wedge_{Spec(E)}$.
 
 
-### Spectral sequences computing homotopy groups of filtered objects
+#### Spectral sequences computing homotopy groups of filtered objects
  {#SpectralSequencesForHomotopyGroupsOfFilteredObjects}
 
 Let thoughout $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
@@ -379,7 +688,7 @@ This is due to ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in
 For the traditional statement in the [[category of chain complexes]] see at _[[spectral sequence of a filtered complex]]_.
 
 
-### Homotopy groups of cosimplicial totalizations filtered by coskeleta
+#### Homotopy groups of cosimplicial totalizations filtered by coskeleta
  {#HomotopyGroupsOfOfTotalizationsFilteredByCoskeleta}
 
 +-- {: .num_defn #FiltrationOfTotalizationByTotalizationOfCoskeleta}
@@ -433,7 +742,7 @@ This is ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  (
 
 
 
-### Canonical cosimplicial resolution of $E_\infty$-algebras
+#### Canonical cosimplicial resolution of $E_\infty$-algebras
  {#CanonicalCosimplicialResolutionOfEInfinityAlgebras}
 
 We discuss now the special case of coskeletally filtered 
@@ -600,7 +909,7 @@ $$
 
 For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
 
-### The $E$-Adams-Novikov spectral sequence
+#### The $E$-Adams-Novikov spectral sequence
  {#TheEAdamsSpectralSequence}
 
 Summing this up yields the general $E$-Adams(-Novikov) spectral sequence
@@ -684,7 +993,7 @@ A streamlined presentation of this close in spirit to constructions in [[homolog
 
 and is reproduced in 
 
-* {#Hopkins99} [[Mike Hopkins]], section 5 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* {#Hopkins99} [[Mike Hopkins]], section 5 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
