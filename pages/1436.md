@@ -35,6 +35,8 @@
 
 * [[suspension]] $\Sigma X$ -- [[loop space]] $\Omega X$
 
+* [[homotopy lifting property]] -- [[homotopy extension property]]
+
 The "duality" in their work has been just a heuristic rather than a systematic algorithm to [[duality|dualize]] constructions and theorems. It has a little flavour of working with [[adjoint functors]], though it does not reduce to Kan adjointness. It has also the flavour of the usual arrow reversal duality, as is commented below.
 
 Later some versions have been made rigorous, the most well-known being Fuks duality in homotopy theory.
