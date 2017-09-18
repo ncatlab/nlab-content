@@ -1,4 +1,13 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _fractal_ is a [[space]] of sorts which is self-similar, to some extent, under rescalings.
+
+There is a concept of [[fractal dimension]] which measures how the amount of detail of a given space changes with scale. For ordinary [[manifolds]] this fractal dimension coincides with the usual [[dimension]], taking values in tha [[natural numbers]]. For fractal spaces however the fractal dimension may be a [[rational number]], hence a [[fraction]] of natural number, whence the name "fractal"
 
 ## Examples
 
@@ -6,9 +15,15 @@
 
 * [[Mandelbrot set]]
 
+* [[Julia set]]
+
+## Related concepts
+
+* [[conformal invariance]]
+
 ## References
 
-For category theoretic treatments of the self-similarity found in fractals in terms of [[terminal coalgebras]], see
+For [[category theory|category theoretic]] treatments of the self-similarity found in fractals in terms of [[terminal coalgebras]], see
 
 * [[Tom Leinster]], _A general theory of self-similarity_, ([arXiv:1010.4474](https://arxiv.org/abs/1010.4474))
 
