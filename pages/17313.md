@@ -4,7 +4,7 @@
 
 ## writings
 
-* [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by Ellis Cooper 
+* [[Saunders Mac Lane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by Ellis Cooper 
 
 category: people
 
