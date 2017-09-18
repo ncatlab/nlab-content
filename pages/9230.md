@@ -30,6 +30,186 @@ These graphs are called _Feynman diagrams_.
 
 Feynman graphs play a central role in [[perturbation theory]] in [[quantum field theory]] where $\exp(I)\mu_S$ plays the role of an [[action functional]] on a space of [[field (physics)|fields]], $\mu_S$ is the exponentiazed [[kinetic action]] and hence the [[measure]] for [[free fields]], while $\exp(I)$ is the [[interaction]] part of the [[action functional]]: the order-$k$ monomials in $I$ encode an interaction of $k$ [[field (physics)|fields]]. In this context the corresponding Feynman diagrams are traditionally thought of as depicting interaction processes of quanta of these fields, with propagation along the edges and interaction at the vertices. But this interpretation has its limits, which is partly reflected in speaking of "[[virtual particles]]".
 
+## Details
+
+### For finitely many degrees of freedoms
+ {#ForFinitelyManyDegreesOfFreedom}
+
+We discuss Feynman diagrams for a single real [[scalar field]] on a discrete space of $k\in \mathbb{N}$ points. This contains in it already all the key aspects of Feynman diagrams. 
+
+Fix a $k \times k$ real-valued [[matrix]] $A \coloneqq (A_{x y}) \in Mat_{k\times k}(\mathbb{R})$ of non-vanishing [[determinant]] $det A \neq 0$. For standard applications this $A$ is a discretized version of the [[Laplacian]] and then the expression 
+
+
+$$
+  S_{kin} = E_{kin} \coloneqq 
+  \tfrac{1}{2}\sum_{x,y = 1}^k \phi_x A_{x y} \phi_y
+$$ 
+is the [[kinetic energy]] and [[kinetic action]] of the field field configuration $\phi$.
+
+
+An [[sum]] over all values of $\phi$ is the finite (and hence well-defined) analog of a [[path integral]]. The [[Gaussian integral]] of $A$ is called the _[[partition function]]_:
+
+$$
+  \begin{aligned}
+  Z_0
+  & \coloneqq 
+  \int  \exp(- S_{kin}(\phi)) \,D\phi
+  \\
+  & \coloneqq
+  \int_{\mathbb{R}^k}
+  \,
+  \exp(- \tfrac{1}{2}\sum_{x,y = 1}^k \phi_{x} A_{x,y} \phi_y  )
+  \;
+  d\phi_{1} \cdots d\phi_{k} 
+  \\
+  & =
+  (2\pi)^{k/2} (det A)^{-1/2}
+  \end{aligned}
+$$
+
+
+An _[[n-point function]]_, is an  $n$th [[moment]] of this Gaussian distribution:
+
+$$
+  \begin{aligned}
+  \langle \phi_{x_1} \phi_{x_2} \cdots \phi_{k_n}\rangle
+  & \coloneqq
+  \frac{1}{Z_0}
+  \int  
+    \left( 
+    \exp(-S_{kin}(\phi))
+    \phi_{x_1}\phi_{x_2}\cdots \phi_{x_n}
+    \right)
+    D \phi
+  \\
+  & \coloneqq
+  \frac{1}{Z_0} 
+  \int_{\mathbb{R}} 
+  \left(
+  \exp(-\tfrac{1}{2} \phi_x A_{x,y}\phi_y)
+  \,
+  \phi_{x_1}\phi_{x_2} \cdots\phi_{x_n}
+  \right)
+  d\phi_1 \cdots d\phi_k
+  \end{aligned}
+$$
+
+In order to compute these conveniently, pass to the [[generating function]] obtained by adding a [[source]] [[variable]] $J = (J_x)$:
+
+$$
+  \begin{aligned}
+  Z(J)
+  & =
+  \int( \exp(- S_{kin}(\phi) + J \cdot\phi) ) D\phi
+  \\
+  & \coloneqq
+  \int_{\mathbb{R}^k}  
+    \exp(- \tfrac{1}{2}\sum_{x = 1}^k \phi_{x} A_{x,y} \phi_y 
+    + \sum_{x = 1}^k J_x \phi_x
+   )
+  \;
+  d\phi_{1} \cdots d\phi_{k}
+  \\
+    & =
+    Z_0 \exp(\tfrac{1}{2} J_x A^{-1}_{x,y} J_y)
+  \end{aligned}
+  \,,
+$$
+
+where $A^{-1} = (A^{-1}_{x y})$ is the [[inverse matrix]] of $A$. In applications to field theory this $A$ is called the _[[Feynman propagator]]_.
+
+By construction, the $n$-point function is then equal to the [[partial derivatives]] of the [[generating function]] with respect to the [[source]] [[variable]] $J$ and evaluated at $J = 0$:
+
+$$
+  \begin{aligned}
+    \langle \phi_{x_1} \cdots \phi_{x_n}  \rangle
+    &=
+    \left(
+    \frac{\partial}{\partial J_{x_1}}
+    \cdots
+    \frac{\partial}{\partial J_{x_n}}
+    Z(J)
+    \right)_{J = 0}
+    \\
+    & =
+   \left(
+   \frac{\partial}{\partial J_{x_1}}
+   \cdots
+   \frac{\partial}{\partial J_{x_n}}
+   \exp(\tfrac{1}{2} J_{x} A^{-1}_{x y} J_y)
+   \right)_{J = 0}
+   \\
+   & = 
+   \underset{pairings}{\sum} A^{-1}_{x_{k_1} x_{k_2}} \cdot A^{-1}_{x_{k_3} x_{k_4}} \cdots A^{-1}_{x_{k_{n-1}}x_{k_n}}
+  \end{aligned}
+$$
+
+where the last [[equality]] is known as [[Wick's theorem]]. This is the source of all Feynman digrammatics.
+
+Now consider a [[polynomial]] $V(\phi)$ of degree $\geq 3$.  In applications to field treory this represents the [[potential energy]] or (self)[[interaction]] of the field configuration. The difference of the [[kinetic action]] and the [[interaction]] is called the [[action]]
+
+$$
+  S = \tfrac{1}{2} \sum_{x,y = 1}^k \phi_x A_{x y} \phi_y + g V(\phi)
+  \,.
+$$
+
+The prefactor $g$ is called the _[[coupling constant]]_.
+
+Putting everything together, the integral over the full [[action]] may be expressed as a [[power series]] in the [[coupling constant]] $g$ of the moments with respect to the kinetic action of the powers of the interaction term:
+
+$$
+  \begin{aligned}
+  Z(g)
+  & = 
+  \int \exp(- S(\phi)) \, D\phi
+  \\
+  & \coloneqq
+  \frac{1}{Z}
+  \int \left(\exp(-\tfrac{1}{2} \sum_{x,y = 1}^k \phi_x A_{x y} \phi_y + g V(\phi)) \right)
+  \, d\phi_1 \cdots d\phi_k
+  \\
+  & =  
+  \langle \exp(g V(\phi))  \rangle
+  \\
+  & = 
+  1 + g \langle V(\phi)\rangle + \frac{g^2}{2} \langle V(\phi) ^2\rangle + \cdots
+  \end{aligned}
+$$
+
+By [[Wick's theorem]] stated above, each $\langle V(\phi)^2\rangle$ is equivalently expressed as a sum over products of components of the [[propagator]] $A^{-1}_{x y}$. Thinking of each such propagator term as an edge produces a diagram, this is the corresponding Feynman diagram.
+
+For instance for a cubic point interaction
+
+$$
+  V(\phi) = \sum_x \phi_x^3
+$$
+
+then 
+
+$$
+  \langle V(\phi)^2 \rangle
+  = 
+  prefactor
+  \;
+  A^{-1}_{x_1 x_1} A^{-1}_{x_1 x_2} A^{-1}_{x_2 x_2}
+  +
+  prefactor
+  \;
+  A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2}
+$$
+
+Here the first summand corresponds to the Feynman diagram 
+
+<img src="http://ncatlab.org/nlab/files/dumbbellFeynmanDiagramm.png" width="200" > 
+
+and the second to the Feynman diagram of the form
+
+<img src="http://ncatlab.org/nlab/files/thetaFeynmanDiagramm.png" width="200">.
+
+
+
+### For infintely many degrees of freedom
+
 ## Related concepts
 
 * [[perturbation theory]]
