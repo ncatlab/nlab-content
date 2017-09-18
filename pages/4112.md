@@ -16,10 +16,58 @@
 
 ## Idea
 
-Cantor space, named after [[Georg Cantor]], is a famous [[topological space]].  Cantor studied it primarily as a [[subspace]] of the [[real line]], but it is also important as a space in its own right.
+What is called _Cantor space_, after [[Georg Cantor]], is the [[topological space]] obtained from the [[closed interval]] $[0,1]$ by 
+
+1. removing the middle third, retaining only $[0,\tfrac{1}{3}]$ and $[\tfrac{2}{3}, 1]$;
+
+1. removing from the these two pieces _their_ middle thirds, to retain the pieces $[0,\tfrac{1}{9}]$, $[\tfrac{2}{9}\tfrac{1}{3}]$, $[\tfrac{2}{3}, \tfrac{7}{9}]$, $[\tfrac{8}{9},1]$;
+
+1. and so ever on.
+
+$$
+  \array{
+    [0 && && &&  1]
+    \\
+    [0, && \tfrac{1}{3}] 
+     &\phantom{(\tfrac{1}{2}, \tfrac{2}{3})} &  [\tfrac{2}{3}, && 1]
+    \\
+    [0,\tfrac{1}{9}]
+    &
+    \phantom{ (\tfrac{1}{9}, \tfrac{2}{9}) }
+    &
+    [\tfrac{2}{9}, \tfrac{1}{3} ]
+    &
+    \phantom{  (\tfrac{1}{3}, \tfrac{2}{3}) }
+    &
+    [\tfrac{2}{3}, \tfrac{7}{9}],
+    &
+    \phantom{ (\tfrac{7}{9}, \tfrac{8}{9}  )  }
+    &
+    [\tfrac{8}{9}, 1]
+    \\
+    &&& \vdots
+  }
+$$
+
+
+Cantor space may be used to construct the [[Peano curve]].
 
 
 ## Definition
+ {#Definition}
+
+Traditionally the Cantor space was conceived of 
+
+* [as a subspace of the real line](#AsSubspaceOfTheRealLine)
+
+but of course it may also be described
+
+* [as an abstract topological space](#AsAbstractTopologicalSpace)
+
+in itself.
+
+### As an abstract topological space
+ {#AsAbstractTopologicalSpace}
 
 Recall that a __[[binary digit]]__ is either $0$ or $1$; the [[set]] (or [[discrete space]]) of binary digits is the [[Boolean domain]] $\mathbb{B}$.
 
@@ -45,11 +93,43 @@ In [[classical mathematics]], these two approaches are equivalent; a point is de
 When the fan theorem is not valid, the localic approach is probably better; it allows more of the useful properties of Cantor space to hold.
 
 
-### As a subspace
+### As a subspace of the real line
+ {#AsSubspaceOfTheRealLine}
 
-Cantor space is usually conceived of as a subspace of the [[real line]].  Pointwise, it is easy to define the [[embedding]] from $\mathbb{B}^{\mathbb{N}}$ into $\mathbb{R}$; we map the infinite sequence $\alpha$ to the [[real number]]
-$$ \sum_{i=1}^{\infty} \frac { 2 \alpha_i } { 3^i } .$$
-One then checks that this [[function]] is in fact an embedding.
+Cantor space is usually conceived of as a [[topological subspace]] of the [[real line]]:
+
+Write $Disc(\{0,1\})$ for the the [[discrete topological space]] with two points. Write $\underset{n \in \mathbb{N}}{\prod} Disc(\{0,2\})$ for the [[product topological space]] of a [[countable set]] of copies of this discrete space with itself (i.e. the corresponding [[Cartesian product]] of sets $\underset{n \in \mathbb{N}}{\prod} \{0,1\}$ equipped with the [[Tychonoff topology]] induced from the [[discrete topology]] of $\{0,1\}$).
+
+Then consider the [[function]]
+
+$$
+  \array{
+    \underset{n \in \mathbb{N}}{\prod}
+      &\overset{\kappa}{\longrightarrow}&
+    [0,1]
+    \\
+    (a_i)_{i \in \mathbb{N}}
+    &\overset{\phantom{AAAA}}{\mapsto}&
+    \underoverset{i = 0}{\infty}{\sum} \frac{2 a_i}{ 3^n}
+  }
+$$
+
+which sends an element in the product space, hence a [[sequence]] of binary digits, to the value of the [[power series]] as shown on the right.
+
+One checks that this is a [[continuous function]] (from the [[product topology]] to the [[Euclidean space|Euclidean]] [[metric topology]] on the [[closed interval]]). Moreover with its [[image]] $\kappa\left( \underset{n \in \mathbb{N}}{\prod} \{0,1\}\right) \subset [0,1]$ equipped with its [[subspace topology]], then this is a [[homeomorphism]] onto its image:
+
+$$
+  \underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})
+    \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}
+  \kappa\left(
+    \underset{n \in \mathbb{N}}{\prod} Disc(\{0,1\})
+  \right)
+    \overset{\phantom{AAAA}}{\hookrightarrow}
+  [0,1]
+  \,.
+$$
+
+This image is the _Cantor space_ as a subspace of the closed interval.
 
 From the localic perspective, a [[continuous map]] is given by a [[homomorphism]] of frames in the opposite direction.  Given an open $\sim$ in $\mathbb{R}$ (as a [[binary relation]] on [[rational numbers]], as described at [[locale of real numbers]]), this is mapped to the open $G$ in Cantor space such that $u \in G$ if and only if
 $$ \sum_{i=1}^{len(u)} \frac { 2 u_i } { 3^i } \sim \sum_{i=1}^{len(u)} \frac { 2 u_i } { 3^i } + \frac 1 { 3^{-len(u)} } .$$
@@ -105,11 +185,21 @@ It follows from this result that all such spaces $X$ are homeomorphic: they all 
 
 ## Related concepts
 
+* [[Peano curve]]
+
 * [[Sierpinski space]]
 
 * [[long line]], [[Warsaw circle]],
 
 * [[line with two origins]]
+
+## References
+
+
+* [[Friedhelm Waldhausen]], p. 3-4 in _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+
+
+* Proof Wiki, _[Cantor Space as Countably Infinite Product](https://proofwiki.org/wiki/Cantor_Space_as_Countably_Infinite_Product)_
 
 [[!redirects Cantor space]]
 [[!redirects Cantor set]]
