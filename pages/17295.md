@@ -49,3 +49,5 @@ Frequently one furthermore says:
 
 [[!redirects projective morphism]]
 [[!redirects projective morphisms]]
+
+[[!redirects injective and projective morphisms]]
