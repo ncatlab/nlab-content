@@ -50,7 +50,11 @@ Any lattice that satisfies one of the two binary distributivity laws must also s
 
 ## Examples
 
-Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lattice.
+Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lattice. 
+
+Any [[linear order]] is a distributive lattice. 
+
+An [[integral domain]] is a [[Prüfer domain]] iff its lattice of [[ideals]] is distributive. 
 
 ## Properties
 
