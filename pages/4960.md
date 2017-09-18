@@ -590,7 +590,7 @@ The [[reflective subcategories]] of [[discrete objects]] and of [[codiscrete obj
 +-- {: .proof}
 ###### Proof
 
-By the discussion at [[exponential ideal]] a reflective subcategories of a [[cartesian closed category]] is an exponential ideal precisely if the [[reflector]] preserves [[products]]. For the [[codiscrete objects]] the reflector $\Gamma$ preserves even all [[limits]] and for the [[discrete objects]] the reflector $\Pi$ does so by assumotion of strong connectedness.
+By the discussion at [[exponential ideal]] a reflective subcategories of a [[cartesian closed category]] is an exponential ideal precisely if the [[reflector]] preserves [[products]]. For the [[codiscrete objects]] the reflector $\Gamma$ preserves even all [[limits]] and for the [[discrete objects]] the reflector $\Pi$ does so by assumption of strong connectedness.
 
 =--
 
