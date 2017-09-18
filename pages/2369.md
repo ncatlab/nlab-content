@@ -21,7 +21,7 @@
 
 ## Idea
 
-In older literature, the term  _(commutative) ring spectrum_ refers to a ([[commutative monoid|commutative]]) [[monoid]] in the [[stable homotopy category]], hence to a [[spectrum]] equipped with a product operation, which is associative (and commutative) up to unspecified [[homotopy]].
+A  _(commutative) ring spectrum_ refers to a ([[commutative monoid|commutative]]) [[monoid]] in the [[stable homotopy category]] regarded as [[monoidal category]] via the [[smash product of spectra]]. Hence a ring spectrum is a [[spectrum]] equipped with a product operation, which is associative (and commutative) up to unspecified [[homotopy]].
 
 Since the concept of [[spectrum]] is the refinement of the concept of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The concept of **ring spectrum** is the corresponding generalization of the notion of ([[commutative ring|commutative]]) [[ring]].
 
@@ -42,6 +42,10 @@ But beware that this terminology, in turn, is often abbreviated again to just "r
 
 
 ## Reference
+
+Survey includes
+
+* {#Malkiewich14} [[Cary Malkiewich]], section 1.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
 Discussion of ring spectra as rings with respect to the [[symmetric smash product of spectra]] on [[S-modules]] includes
 
