@@ -111,8 +111,13 @@ Note that if a space is [[Hausdorff space|localically strongly Hausdorff]] (a we
 [[!redirects R2 spaces]]
 [[!redirects T3 space]]
 [[!redirects T3 spaces]]
+
 [[!redirects regular Hausdorff space]]
 [[!redirects regular Hausdorff spaces]]
+[[!redirects regular Hausdorff topological space]]
+[[!redirects regular Hausdorff topological spaces]]
+
+
 [[!redirects regular topological space]]
 [[!redirects regular topological spaces]]
 [[!redirects regular topology]]
