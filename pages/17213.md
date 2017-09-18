@@ -60,6 +60,8 @@ For the monoidal [[model structure]] for excisive functors, the fact that monoid
 
 ## Related concepts
 
+* [[symmetric ring spectrum]]
+
 * [[Day convolution]]
 
 ## Reference
