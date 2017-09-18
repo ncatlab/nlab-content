@@ -153,11 +153,27 @@ A Lie groupoid functor $f : G\to H$ is a  **weak equivalence** if it is
 
 * [[anafunctor]]: an anafunctor from $X$ to $Y$ is a [[span]] of morphisms $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$, where $\hat X \stackrel{\simeq}{\rightarrow} X$ is an [[acyclic fibration]] of Lie groupoids. That is, this map is a [[weak equivalence]] of Lie groupoids and $\hat X_0 \to X_0$ is a surjective submersion.
 
-* bibundle functor (or H.S. bibundle, or Hilsum-Skandalis bibundle): a bibundle functor from $G\to H$ is a [[groupoid principal bundle]]  $E$ of $H$ (with right action) such that $G$ acts on $E$ from left and $G$ action commutes with $H$ action. If both $G$ and $H$ actions are principal, then $E$ gives arise to [[Morita equivalence]] between them.
+* [[bibundle]] functor (or H.S. bibundle, or Hilsum-Skandalis bibundle): a bibundle functor from $G\to H$ is a [[groupoid principal bundle]]  $E$ of $H$ (with right action) such that $G$ acts on $E$ from left and $G$ action commutes with $H$ action. If both $G$ and $H$ actions are principal, then $E$ gives arise to [[Morita equivalence]] between them.
 
-The last three morphisms are more or less equivalent, that is they give arise to equivalent 2-categories of Lie groupoids. To make it explicit, we need to talk about 2-morphisms between them. 
+The last three morphisms are more or less equivalent, that is they give arise to equivalent 2-categories (in fact (2,1)-categories) of Lie groupoids. To make it explicit, we need to talk about [[2-morphism]]s between them. 
+
+A [[2-morphism]] between bibundle functors is simply a bibundle isomorphism (of course preserving all the structures of bibundles). 
+
+A [[2-morphism]] from generalised morphism $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$ to $X \stackrel{\simeq}{\leftarrow} \hat X' \to Y$ is indicated by the following 2-commutative diagram
+$$
+\begin{matrix}
+  &          & \hat X \\
+  & \nearrow &    \uparrow        & \searrow \\
+X &          & \hat X'' &          & Y \\
+  & \searrow &     \downarrow       & \nearrow \\
+  &          & \hat X'
+\end{matrix}
+$$
 
 
+
+
+[[2-morphism]]s between [[anafunctor]]s 
 
 
 
