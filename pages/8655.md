@@ -132,6 +132,65 @@ $$
   \,.
 $$
 
+This continues in the way that [[Cech covers]] do (whence the name): above "$Dualities$" there is the space of triples of Lagrangian data that all have the same quantization, equipped with dualities between any two of them, and equipped with an equivalence of dualities between the composite of two of these and the third:
+
+$$
+  \array{
+    && \vdots
+   \\
+  && LagrangianData \underset{LagrangianQFT}{\times} LagrangianData \underset{LagrangianQFT}{\times} LagrangianDat
+   \\
+    && \downarrow \downarrow \downarrow
+    \\
+  Dualities &\simeq& LagrangianData \underset{LagrangianQFT}{\times} LagrangianData
+   \\
+   && \downarrow \downarrow
+   \\
+   && LagrangianData
+  }
+$$
+
+
+Such towers are to be thought of as the incarnation of equivalence relations in homotopy logic. A plain equivalence relation is just the first stage of such a tower
+
+$$
+  \array{
+     Dualities 
+     \\
+     \downarrow \downarrow
+     \\
+     Lagrangians
+  }
+$$
+
+The conditions on an equivalence relation (reflexivity, transitivity, symmetry) may be read as those on a groupoid object (identity, composition, inverses). So now in homotopy logic this is boosted to an $\infty$-groupoid object by relaxing all three to hold only up to higher coherent homotopies.
+
+The bottom-most arrow 
+
+$$
+  \array{
+     Lagrangians
+     \\
+     \downarrow
+     \\
+     LagrangianQFTs
+  }
+$$
+
+is the quotient projection of the equivalence relation. In 1-logic this would be its "cokernel", here in homotopy logic it is the homotopy colimit over the full simplicial diagram.
+
+So the perspective of the full diagram somehow gives the usual way of speaking in QFT also a reverse:
+
+instead of saying 
+
+a) that two Lagrangians are dual if there is an equivalence between the QFTs which they induce under quantization, 
+
+we may turn this around and say that therefore 
+
+b) quantization is the result of forming the homotopy quotient of the space of Lagrangian data by these duality relations.
+
+It is one of the clauses of the [[Giraud theorem]] in $\infty$-topos theory that these two perspectives are equivalent.
+
 ## Related concepts
 
 * [[parent action functional]]
