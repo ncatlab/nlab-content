@@ -241,13 +241,10 @@ $$
   \,.
 $$
 
-In particular, in the case $D = $ [[∞Grpd]] for which 
-$Func(C, D) = Func(C, \infty Grpd) =: PSh_{(\infty,1)}(C)$ 
-is the [[(∞,1)-category of (∞,1)-presheaves]] we have with
-$Stab(\infty Grpd) = Sp$ (the [[stable (∞,1)-category of spectra]]) that
+In particular, consider the case $D = $ [[∞Grpd]] where $Stab(D) = Stab(\infty Grpd) = Sp$ (= the [[stable (∞,1)-category of spectra]]). One has $Func(C^{op}, D) = Func(C^{op}, \infty Grpd) =: PSh_{(\infty,1)}(C)$ is the [[(∞,1)-category of (∞,1)-presheaves]], and $Func(C^{op},Sp) =: PSh_{(\infty,1)}^{Sp}(C)$ is the [[(∞,1)-category]] of [[(∞,1)-presheaves]] of [[spectra]], we get
 
 $$
-  Stab(PSh_{(\infty,1)}(C)) \simeq Func(C,Sp)
+  Stab(PSh_{(\infty,1)}(C)) \simeq PSh_{(\infty,1)}^{Sp}(C)
   \,.
 $$
 
@@ -259,19 +256,18 @@ This is [StabCat, example 10.13](#StabCat) .
 +-- {: .num_prop}
 ###### Proposition
 **("stable Giraud theorem")**
- 
-Every stable and [[presentable (∞,1)-category]] $C$ is equivalent to an
-(accessible) left-exact [[localization of an (∞,1)-category|localization of]] a stabilized $(\infty,1)$-presheaf $(\infty,1)$-category: there exists a small $(\infty,1)$-category $E$ and an adjunction
+
+Let $C$ be an [[(∞,1)-category]]. Then $C$ is stable and [[presentable (∞,1)-category]] if and only if $C$ is equivalent to an [[accessible (infinity,1)-category|accessible]] left-exact [[localization of an (∞,1)-category|localization]] of the [[(∞,1)-category]] of presheaves of spectra on some small [[(∞,1)-category]] $E$, so that there is an adjunction
 
 $$
   C \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
-  Stab(PSh(E)) \simeq Func(E,Sp)
+  PSh^{Sp}(E) \simeq Stab(PSh(E))
   \,.
 $$
 
 =--
 
-This is [StabCat prop 15.9]().
+This is [Higher Algebra, Proposition 1.4.4.9](#HigherAlgebra).
 
 This is the stable analog of the statement that every 
 [[(∞,1)-category of (∞,1)-sheaves]] is a left exact localization of
@@ -360,7 +356,7 @@ The abstract [[(∞,1)-category theory|(∞,1)-category theoretical]] notion was
 
 This appears in a more comprehensive context of [[higher algebra]] as section 1 of 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#HigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
 
 A brief introduction is in
 
