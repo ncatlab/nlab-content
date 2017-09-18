@@ -2541,7 +2541,7 @@ $$
 
 (e.g. [Switzer 75, def. 7.74](#Switzer75))
 
-+-- {: .num_example}
++-- {: .num_example #MittagLefflerSatisfiedInParticularForTowerOfSurjections}
 ###### Example
 
 The Mittag-Leffler condition, def. \ref{MittagLefflerCondition}, is satisfied in particular when all morphisms $A_{i+1}\to A_i$ are [[epimorphisms]] (hence [[surjections]] of the underlying [[sets]]).
@@ -3897,7 +3897,7 @@ where the [[action]] of the [[product group]] is via its canonical embedding $U(
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #RealComplexProjectiveSpaceAsGrassmannian}
 ###### Example
 
 * $G_1(\mathbb{R}^{n+1}) \simeq \mathbb{R}P^n$ is [[real projective space]] of [[dimension]] $n$.
