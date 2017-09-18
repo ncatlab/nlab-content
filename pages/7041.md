@@ -179,11 +179,36 @@ of $\psi_\varepsilon$ with the [[characteristic function]] $\chi_U$, for $\varep
 By performing the above construction in [[charts]], we obtain, in any [[smooth manifold]], a smooth function equal to $1$ on any [[compact subspace]] $K$ and equal to $0$ outside any [[neighbourhood]] $V$ of $K$.  (This is a smooth [[completely regular space|regularity property]].)
 
 
-## Applications
+## Properties
 
-* [Smooth manifolds admit smooth partitions of unity](partition+of+unity#ExistenceOnSmoothManifolds)
 
-...
++-- {: .num_prop }
+###### Proposition
+
+[Smooth manifolds admit smooth partitions of unity](partition+of+unity#ExistenceOnSmoothManifolds)
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+**([[Paley-Wiener-Schwartz theorem]])**
+
+
+For $n \in \mathbb{N}$ the vector space $C^\infty_c(\mathbb{R}^n)$ of bump functions on [[Euclidean space]] $\mathbb{R}^n$ is (algebraically and topologically) [[isomorphism|isomorphic]], via the [[Fourier transform]], to the space of [[entire functions]] $F$ on $\mathbb{C}^n$ which satisfy the following estimate: there is a [[positive number|positive]] [[real number]] $B$ such that for every [[integer]] $N \gt 0$ there is a real number $C_N$ such that:
+
+$$ 
+  \underset{\xi \in \mathbb{C}^n}{\forall} 
+  \left(
+    {\Vert  F(\xi) \Vert}
+    \le C_N (1 + {\vert \xi\vert })^{-N} \exp{ (B \; |Im(\xi)|)}
+  \right)
+  \,.
+$$ 
+
+=--
+
+
 
 
 ## References
