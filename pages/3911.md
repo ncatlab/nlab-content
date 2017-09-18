@@ -567,6 +567,8 @@ taking values in the coefficients of the given cohomology theory. Note that in t
 
 * [[twisted Umkehr map]]
 
+  * [[fiber integration in K-theory]]
+
 [[!include generalized fiber integration synonyms - table]]
 
 ## References
