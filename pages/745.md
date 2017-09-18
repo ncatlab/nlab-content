@@ -37,8 +37,7 @@ We discuss three equivalent definitions of comma categories
 ###### Remark
 
 The terminology "comma category" is a holdover from the original notation $(f,g)$ for such a category, which generalises $(x,y)$ or $C(x,y)$ for a [[hom-set]].
-
-Another common notation for the comma category is $(f\downarrow g)$.  The original notation, from which the terminology is derived, is $(f,g)$, but this is rarely used any more.
+This is rarely used any more. Another common notation for the comma category is $(f\downarrow g)$.
 
 =--
 
