@@ -458,6 +458,8 @@ is a [[natural isomorphism]].
 
 ([Snaith 81, theorem 2.12](#Snaith81), [Hopkins-Mathew](#HopkinsMathew))
 
+That (before localization) the map is an epimorphism is due to ([Segal 73, prop. 1](complex+projective+space#Segal73)), see [this prop.](complex+projective+space#HGroupRingSpectrumSurjectsOntoTopologicalKTheory). The analog of this statement for [[real projective space]] $\mathbb{R}P^\infty \simeq B \mathbb{Z}/2$ instead of [[complex projective space]] $\mathbb{C}P^\infty \simeq B U(1)$ is the [[Kahn-Priddy theorem]].
+
 
 
 ### For periodic complex cobordism
