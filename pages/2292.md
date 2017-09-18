@@ -15,13 +15,28 @@
 
 ## Idea
 
-Similar to the discussion at _[[cohomology group]]_, a [[cohomology]] set $H^\bullet(X,A)$ may have the structure of a [[ring]] if the [[coefficient]] object $A$ suitably does. 
+Given any [[generalized (Eilenberg-Steenrod) cohomology theory]] $E$, then for each [[topological space]] $X$, there is, by definition, the [[graded abelian group]] 
 
-In particular for $\mathbf{H} = L_{whe}$[[Top]], then $H^*(X,A)$ is a ring when $A$ is an $E_\infty$-[[E-infinity-ring|ring]].
+$$
+  E^\bullet(X) \in Ab^{\mathbb{Z}}
+  \,.
+$$
+
+This is the _$E$-[[cohomology group]]_ of $X$. Now if $E$ is a [[multiplicative cohomology theory]], then these groups inherit the structure of [[rings]]. As such
+
+$$
+  E^\bullet(X) \in Ring^{\mathbb{Z}}
+$$  
+
+is the **$E$-cohomology ring** of $X$.
+
+Analogously for various suitable generalizations of the nature of $E$ and $X$  (see at _[[generalized cohomology]]_).
 
 ## Related concepts
 
 * [[genus]]
+
+* [[orientation in generalized cohomology]]
 
 [[!redirects cohomology rings]]
 
