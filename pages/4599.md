@@ -649,7 +649,7 @@ A cocycle in $[CartSp^{op},sSet](C(\{U_i\}), \mathbf{B}_{diff}U(1))$ is
 
 
     $$
-      (a_{i j} \in \Omega^(U_i \cap U_j))
+      (a_{i j} \in \Omega^1(U_i \cap U_j))
     $$
 
     such that
