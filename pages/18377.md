@@ -37,13 +37,13 @@ See any of the references, particularly [(CHP)](#CHP)
 * [[Tamara von Glehn]], *Polynomials and models of type theory*, [PhD thesis](https://www.repository.cam.ac.uk/handle/1810/254394)
  {#vonGlehn}
 
-* [[Richard Garner]], *Polycategories via pseudo-distributive laws*, [arXiv](http://arxiv.org/abs/math/0606735)
+* [[Richard Garner]], *Polycategories via pseudo-distributive laws*, [arXiv:math/0606735](http://arxiv.org/abs/math/0606735)
  {#Garner}
 
 * Francisco Marmolejo, *Distributive laws for pseudomonads*, [TAC](http://tac.mta.ca/tac/volumes/1999/n5/5-05abs.html)
  {#MarmolejoDL}
 
-* Charles Walker, *Distributive Laws via Admissibility*, [arXiv](https://arxiv.org/abs/1706.09575)
+* Charles Walker, *Distributive laws via admissibility*, [arXiv:1706.09575](https://arxiv.org/abs/1706.09575)
  {#Walker}
 
 [[!redirects pseudo-distributive laws]]
