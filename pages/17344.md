@@ -2942,7 +2942,15 @@ The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructur
 
 =--
 
-This model structure is mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears, generalized to a unified proof of model structures in [[highly structured spectra]] in ([Mandell-May-Schwede-Shipley 01](#MMSS00)), which we follow here. We give the proof [below](#ProofOfTheStableModelStructureOnSequentialSpectra), after a few lemmas.
+This model structure is mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears, generalized to a unified proof of model structures in [[highly structured spectra]] in ([Mandell-May-Schwede-Shipley 01](#MMSS00)), which we follow here.  
+
+We give a **proof [below](#ProofOfTheStableModelStructureOnSequentialSpectra)**, after a few lemmas in the next section.
+
+There is an alternative proof, which proceeds by observing that the [[spectrification]] operation from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a "Quillen idempotent monad" in that it satisfies the assumptions of the _[[Bousfield-Friedlander theorem]]_. This theorem then also gives the model structure, as in the original article on the [[Bousfield-Friedlander model structure]] for sequential spectra in [[simplicial sets]]. A general account of this approach is due to ([Schwede 97](spectrification#Schwede97)).
+
+The proof which we give now, following ([Mandell-May-Schwede-Shipley 01](#MMSS00)), has the advantage that it will generalize essentially verbatim also to proofs of model structures on [[symmetric spectra]], [[orthogonal spectra]] and [[excisive functor|pre-excisive functors]]. This we turn to in section _[1.2 -- Structured spectra](#DiagramSpectra)_ below.
+
+
 
 ##### Proof of the model structure
 
