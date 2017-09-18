@@ -15,6 +15,8 @@ of a group $G$ on a set $X$ is **transitive** if it has a single [[orbit]], i.e.
 
 For $k\ge 0$, an action $G \times X \to X$ is said to be **$k$-transitive** if the componentwise-action $G \times X^{\underline{k}} \to X^{\underline{k}}$ is transitive, where $X^{\underline{k}}$ denotes the set of tuples of $k$ distinct points (i.e., [[injective functions]] from $\{1,\dots,k\}$ to $X$).  For instance, an action of $G$ on $X$ is 3-transitive if any pair of triples $(a_1,a_2,a_3)$ and $(b_1,b_2,b_3)$ of points in $X$, where $a_i \ne a_j$ and $b_i \ne b_j$ for $i\ne j$, there exists $g \in G$ such that $(b_1,b_2,b_3) = (g a_1,g a_2,g a_3)$.
 
+A transitive action that is also [[free action|free]] is called _[[regular action|regular]]_.
+
 ## Examples
 
 * Any group $G$ acts transitively on itself by multiplication $\cdot : G \times G \to G$, which is called the (left) [[regular representation]] of $G$.
