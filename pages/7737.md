@@ -33,7 +33,7 @@ There are various ways in the literature to make this precise, including:
 
 ## Related concepts
 
-* Maybe one can assign a [[fundamental category]] to a stratified space.
+* Maybe one can assign a [[fundamental category]] to a stratified space.  This has been studied for [[poset-stratified spaces]] -- see there under "exit path $\infty$-category" for more.
 
 * [[stratification]]
 
