@@ -1,4 +1,5 @@
 
+
 > This entry is a sub-chapter of _[[geometry of physics]]_. See there for background
 
 > The following is effectively a derivation of, and an introduction to, [[classical mechanics]] by studying [[correspondences]] in what is called (as we will explain) the _[[slice topos]] over the [[moduli stack]] of [[prequantum line bundles]]_. One such correspondence in this slice topos is precisely a _[[prequantized Lagrangian correspondence]]_ and the reader looking for just these should skip ahead to the section _[The classical action functional prequantizes Lagrangian correspondences](#TheClassicalActionFunctionalPrequantizesHamiltonianCorrespondences)_. But for completeness and to introduce the technology used here, we start with introducing also more basic concepts, such as [[phase space]] etc.
@@ -612,12 +613,8 @@ $$
   \,.
 $$
 
-$$
-  X \stackrel{\simeq}{\longrightarrow} graph(f)
-$$
-$
-  x \mapsto (x,f(x))
-$$
+The equivalence 
+
 
 $$
   \array{
@@ -631,7 +628,15 @@ $$
     \\
     && graph(f)
   }
-  \,.
+$$
+
+is induced by
+
+$$
+  X \stackrel{\simeq}{\longrightarrow} graph(f)
+$$
+$$
+  x \mapsto (x,f(x))
 $$
 
 
@@ -798,7 +803,7 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #IsotropicCorrespondenceDiagrammatically}
 ###### Proposition
 
 Under the identification of prop. \ref{PresymplecticFormsAsMapsIntoASmoothSpace}, 
@@ -967,6 +972,7 @@ $$
 =--
 
 ### The kinetic action and Planck's constant
+ {#KineticAction}
 
 
 To naturally see why there would be any [[Hamiltonian]]
@@ -1116,6 +1122,7 @@ $$
 
 
 ### Pre-Quantization and Differential cohomology
+ {#Prequantization}
 
 By the above discussion, for the exponentiated
 kinetic action functional to be well defined, one only needs that the equation
@@ -1173,24 +1180,39 @@ $$
   \mathbf{H}
 $$
 
-and which is _characterized_ as follows, and this is all that we here need to know about this object:
++-- {: .num_prop #PrequantumGaugeTransformation}
+###### Proposition
 
-1. For $X$ a [[smooth manifold]], maps $X \longrightarrow \mathbf{B}U(1)_{conn}$ are equivalent to the above prequantum data $(\{\theta_i\}, \{g_{i j}\})$ on $X$;
+The [[smooth groupoid]] $\mathbf{B}U(1)_{\mathrm{conn}}$ is _characterized_ as follows, 
+
+1. For $X$ a [[smooth manifold]], maps 
+
+   $$
+     \nabla \colon X \longrightarrow \mathbf{B}U(1)_{conn}
+   $$ 
+
+   are equivalent to the above prequantum data $(\{\theta_i\}, \{g_{i j}\})$ on $X$;
 
 1. for $\nabla_1, \nabla_2 \colon X \longrightarrow \mathbf{B}U(1)_{conn}$ two such maps, [[homotopies]] 
 
    $$
      \array{
-       & \nearrow \searrow
+       & \nearrow \searrow^{\mathrlap{\nabla_1}}
        \\
        X & \Downarrow & \mathbf{B}U(1)_{conn}
        \\
-       & \searrow \nearrow
+       & \searrow \nearrow_{\mathrlap{\nabla_2}}
      }
    $$
 
-   between these are equivalent to the above [[gauge transformations]] $(\{h_i\})$ between this data.
+   between these are equivalent to the above [[gauge transformations]] $(\{h_i\})$ between this data
 
+$$
+  (\theta_2)_i - (\theta_1)_i = \mathbf{d} \tfrac{\hbar}{i} log (h_i)
+  \,.
+$$
+
+=--
 
 The only other fact we need is that there is a universal [[curvature]] map
 
@@ -1232,11 +1254,11 @@ $$
 
 In terms of the classifying morphism of differential forms as in prop. \ref{PresymplecticFormsAsMapsIntoASmoothSpace} this reads as follows.
 
-+-- {: .num_prop }
++-- {: .num_prop #PrequantizationByLiftingClassifyingMap}
 ###### Proposition
 
 Given a [[presymplectic manifold]] $(X,\omega)$, regarded equivalently as an object $(X \stackrel{\omega}{\longrightarrow} \mathbf{\Omega}^2_{cl}) \in \mathbf{H}_{/\mathbf{\Omega}^2_{cl}}$ by prop. \ref{SymplecticManifoldsAsObjectsInSliceOverModuliOf2Forms}, then a
-**[[prequantization]]** of $(X,\omega)$, def. \ref{Prequantization}, is equivalentlya choice of lift $\nabla$ in
+**[[prequantization]]** of $(X,\omega)$, def. \ref{Prequantization}, is equivalently a choice of lift $\nabla$ in
 
 $$
   \array{
@@ -1251,42 +1273,92 @@ $$
 
 =--
 
+Phrased this way, there is an evident concept of prequantization of Lagrangian correspondences:
 
++-- {: .num_defn #PrequantizedLagrangianCorrespondence}
+###### Definition
 
-
-### The classical action, the Legendre transform and Hamiltonian flows
- {#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences}
-
-With the concept of [[prequantization]], def. \ref{Prequantization}, in hand,
-we understand the role of the  [[Hamiltonian symplectomorphisms]] of def. \ref{HamiltonianCorrespondence} refining general [[symplectomorphisms]] as providing  [[homomorphisms]] not just between plain [[symplectic manifolds]], but between their _prequantizations_. To these we turn now.
-
-
-Consider a morphism
+Given prequantized symplectic manifolds $(X_i,\nabla_i)$ as in prop. \ref{PrequantizationByLiftingClassifyingMap}, and given a Lagrangian correspondence
+as in prop. \ref{IsotropicCorrespondenceDiagrammatically}, then
+a prequantization of this correspondence is a lift of the 
+whole diagram through the universal curvature map
 
 $$
   \array{
-    X_1 &&\stackrel{\phi}{\longrightarrow}&& X_2
+    && Z
     \\
-    & {}_{\mathllap{\nabla_1}}\searrow &\swArrow& \swarrow_{\mathrlap{\nabla_2}}
+    & \swarrow && \searrow
+    \\
+    X_1 && && X_2
+    \\
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}} 
+    \\
+    && \mathbf{\Omega}^2_{cl}
+  }
+  \;\;\;\;
+    \mapsto
+  \;\;\;\;
+  \array{
+    && Z
+    \\
+    & \swarrow && \searrow
+    \\
+    X_1 && \swArrow_{\simeq} && X_2
+    \\
+    & {}_{\mathllap{\nabla_1}}\searrow && \swarrow_{\mathrlap{\nabla_2}} 
     \\
     && \mathbf{B}U(1)_{conn}
+    \\
+    && \downarrow^{\mathrlap{F}}
+    \\
+    && \mathbf{\Omega}^2_{cl}
   }
+  \,.
 $$
 
-hence a morphism in the slice $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$. This has been discussed in detail in ([hgp 13](#FiorenzaRogersSchreiber13a)).
+=--
 
-One finds that [[infinitesimal object|infinitesimally]] such morphism are given by a [[Hamiltonian]] and its [[Legendre transform]]. 
+
+
+
+### Hamiltonian flows, the Legendre transform and the Hamilton-Jacobi action
+ {#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences}
+
+
 
 +-- {: .num_prop #HamiltonianTransformationIsPrequantizedByTheExponentiatedAction}
 ###### Proposition
 
 Consider the [[phase space]] $(\mathbb{R}^2, \; \omega = \mathbf{d} q \wedge \mathbf{d} p)$ 
-of example \ref{CanonicalR2PhaseSpace} equipped with its canonical [[prequantization]] by $\theta = p \, \mathbf{d}q$ from example \ref{StandardPrequantizationOfStandardR2PhaseSpace}. 
-Then for $H \colon \mathbb{R}^2 \longrightarrow \mathbb{R}$ a [[Hamiltonian]], def. \ref{HamiltonianCorrespondence}, and for $t \in \mathbb{R}$ a parameter ("time"), a lift of the [[Hamiltonian symplectomorphism]] 
-$\exp(t \{H,-\})$ from $\mathbf{H}$ to the [[slice topos]] $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ 
-is given by
+of example \ref{CanonicalR2PhaseSpace} equipped with its canonical [[prequantization]] by $\theta = p \, \mathbf{d}q$ from example \ref{StandardPrequantizationOfStandardR2PhaseSpace}, 
+
+Then smooth 1-parameter flows of this data via prequantized correspondences, def. \ref{PrequantizedLagrangianCorrespondence},
 
 $$
+  t
+  \;\;\;\;
+  \mapsto
+  \;\;\;\;
+  \array{       
+    X && \stackrel{f_t}{\longrightarrow} && X
+    \\
+    & {}_{\mathllap{\theta}} \searrow 
+    & \swArrow_{ F_t } & \swarrow_{\mathrlap{\theta}}
+    \\
+    && \mathbf{B}U(1)_{conn}
+  }
+$$
+
+are in bijection with 
+smooth functions $H \colon \mathbb{R}^2 \longrightarrow \mathbb{R}$.
+
+This bijection works by regarding $H$ as a [[Hamiltonian]], def. \ref{HamiltonianCorrespondence}, and assigning the [[flow]] $f_t = \exp(t \{H,-\})$ of its [[Hamiltonian vector field]]
+
+$$
+  t
+  \;\;
+  \mapsto
+  \;\;
   \array{       
     X && \stackrel{\exp(t \{H,-\})}{\longrightarrow} && X
     \\
@@ -1298,139 +1370,97 @@ $$
   \,,
 $$
 
-where 
+where the prequantization is given by
 
-* $S_t \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ is the [[Hamilton-Jacobi action|Hamilton-Jacobo]] [[action functional]] of the classical [[trajectories]] induced by $H$,
+* $S_t \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}$ is the [[Hamilton-Jacobi action]] of the classical [[trajectories]] induced by $H$,
 
 * which is the [[integral]] $S_t = \int_{0}^t L \, d t$ of the [[Lagrangian]] $L \,d t$ induced by $H$,
 
-* which is the [[Legendre transform]]
+* which is the [[Legendre transform]] of the [[Hamiltonian]]
 
   $$
     L \coloneqq p \frac{\partial H}{\partial p} - H \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
     \,. 
   $$
 
-In particular, this induces a [[functor]]
-
-$$
-  \exp(i S)
-  \;\colon\;
-  Bord_1^{Riem} 
-    \longrightarrow 
-  \mathbf{H}_{/\mathbf{B}U(1)_{conn}}
-  \,.
-$$
-
-Conversely, a symplectomorphism, being a morphism in $\mathbf{H}_{/\mathbf{\Omega}^2_{cl}}$ is a [[Hamiltonian symplectomorphism]] precisely if it admits such a lift 
-to $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$.
 
 =--
 
-This is a special case of the discussion in ([hgp 13](#FiorenzaRogersSchreiber13a)).
+
 
 +-- {: .proof}
 ###### Proof
 
-The canonical [[prequantization]] of $(\mathbb{R}^2, \mathbf{d} q \wedge \mathbf{d} p)$ is the globally defined [[connection on a bundle|connection]] 1-form
+By prop. \ref{PrequantumGaugeTransformation} the prequantum filler of the diagram is given by a function $F_t =\exp(\tfrac{i}{\hbar} S_t)$ satisfying
 
 $$
-  \theta \coloneqq p \, \mathbf{d} q
+  f_t^\ast \theta - \theta = -\mathbf{d}S_t
   \,.
 $$
 
-We have to check that on $graph(\exp(t\{H,-\}))$ we have the [[equation]]
+By standard [[Lie theory]] a smooth such 1-parameter flow is fixed by its [[derivative]] by $t$. For the above equation this yields
 
 $$
-  p_2 \mathbf{d} q_2 = p_1 \mathbf{d} q_1 + \mathbf{d} S 
+  \mathcal{L}_v \theta = -\mathbf{d}L
+$$
+
+where 
+
+1. $v \in \Gamma(T X)$ is the [[vector field]] of the [[flow]] $t\mapsto f_t$;
+
+1. $\mathcal{L}_v$ is the [[Lie derivative]] along $v$;
+
+1. $L \coloneqq \frac{\partial S}{\partial t}$.
+
+By [[Cartan's magic formula]] this equation is equivalent to
+
+$$
+  \iota_v \omega = -\mathbf{d}L - \mathbf{d} \iota_v \theta
   \,.
 $$
 
-Or rather, given the setup, it is more natural to change notation to
+This is the symplectic form of [[Hamilton's equations]] for $v$ and says that
 
 $$
-  p_t \mathbf{d} q_t = p \mathbf{d} q + \mathbf{d} S
-  \,.
+  H 
+  \coloneqq 
+  - L - \iota_v \theta 
 $$
 
-Notice here that by the nature of $graph(\exp(t\{H,-\}))$ we can identify
-
-$$
-  graph(\exp(t\{H,-\}))
-  \simeq
-  \mathbb{R}^2
-$$
-
-and under this identification
-
-$$
-  q_t = \exp(t \{H,-\}) q
-$$
-
-and
-
-$$
-  p_t = \exp(t \{H,-\}) p
-  \,.
-$$
-
-It is sufficient to check the claim [[infinitesimal object|infinitesimally]]. So let $t = \epsilon$ be an [[infinitesimal object|infinitesimal]], hence such that $\epsilon^2 = 0$. Then the above is [[Hamilton's equations]] and reads equivalently
-
-$$
-  q_\epsilon = q + \frac{\partial H}{\partial p} \epsilon
-$$
-
-and
-
-$$
-  p_\epsilon = p - \frac{\partial H}{\partial q} \epsilon
-  \,.
-$$
-
-Using this we compute
+is a [[Hamiltonian]] that makes $v$ a [[Hamiltonian vector field]]. The correction term is
 
 $$
   \begin{aligned}
-    \theta_\epsilon - \theta 
-     & = 
-    p_\epsilon \, \mathbf{d} q_\epsilon - p \mathbf{d} q
-     \\
-      & =
-    \left(p - \frac{\partial H}{\partial q} \epsilon \right)
-    \mathbf{d}
-    \left(
-      q + \frac{\partial H}{\partial p} \epsilon
-    \right)
-    - p \mathbf{d}q
+    \iota_v  \theta 
+    &= 
+    \iota_v ( p \, \mathbf{d}q )
     \\
-    & =
-    \epsilon
-    \left(
-      p \mathbf{d}\frac{\partial H}{\partial p}
-      - 
-      \frac{\partial H}{\partial q} \mathbf{d}q
-    \right)
-    \\
-    & = 
-    \epsilon
-    \left(
-      \mathbf{d}\left( p \frac{\partial H}{\partial p}\right)
-      -
-      \frac{\partial H}{\partial p} \mathbf{d} p
-      - 
-      \frac{\partial H}{\partial q} \mathbf{d}q
-    \right)
-    \\
-    & =
-    \epsilon \mathbf{d}
-    \left(
-      p \frac{\partial H}{\partial p}
-      -
-      H
-    \right)
+    & = p \partial_v q
+    \\ 
   \end{aligned}
   \,.
 $$
+
+But since $v$ is Hamiltonian, this is given by one component of [[Hamilton's equations]] $\iota_v (\mathbf{d}p \wedge \mathbf{d}q) = \mathbf{d}H$ saying that 
+$\partial_v q = \frac{\partial H}{\partial p}$.
+
+Hence in summary the flow is Hamiltonian and the pre-quntum filler is the choice of Hamiltonian $H$ specified by
+
+$$
+  \frac{\partial S}{\partial t}
+  = 
+  L
+  = 
+  p \frac{\partial H}{\partial p}  - H 
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The proof of prop. \ref{HamiltonianTransformationIsPrequantizedByTheExponentiatedAction} recovers, from general abstract input, precisely all the ingredients known in physics as _[[canonical transformations]]_.
 
 =--
 
