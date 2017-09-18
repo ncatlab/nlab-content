@@ -26,11 +26,12 @@ Notably for $C = \mathbf{B}G$ the [[delooping]] [[groupoid]] of a [[group]] $G$,
 The category 
 
 $$
-  Rep(G, Set) \simeq PSh(B G)
+  Rep(G, Set) \simeq PSh(\mathbf{B} G)
 $$
 
 is the [[classifying topos]] for the group $G$.
 
+For other general perspecitves on this see also at _[[infinity-action]]_ the section _[Examples -- Discrete group actions on sets](infinity-action#ExamplesPermutationRepresentations)_.
 
 ## Related entries
 
