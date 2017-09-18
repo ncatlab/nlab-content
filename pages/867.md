@@ -31,8 +31,11 @@ A _partial order_ on a set is a way of ordering its elements to say that some el
 A poset can be understood as a [[set]] with [[extra structure]].
 
 Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
+
 * [[reflexive relation|reflexivity]]: $x \leq x$ always;
+
 * [[transitive relation|transitivity]]: if $x \leq y \leq z$, then $x \leq z$;
+
 * [[antisymmetric relation|antisymmetry]]: if $x \leq y \leq x$, then $x = y$.
 
 A __poset__ is a set equipped with a partial order.
