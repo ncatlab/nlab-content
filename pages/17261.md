@@ -16,7 +16,9 @@
 
 ## Idea
 
-For $E$ a [[ring spectrum]], the _Kronecker pairing_ 
+In [[ordinary homology]]/[[ordinary cohomology]] represented as [[singular homology]]/[[singular cohomology]], then _Kronecker pairing_ refers to the defining pairing of a [[chain]] with a [[cochain]]. 
+
+More generally, in [[generalized (Eilenberg-Steenrod) cohomology]]/[[generalized homology]] represented by a [[ring spectrum]] $E$, then the _Kronecker pairing_ 
 is a canonical pairing of the $E$-[[generalized cohomology]] [[cohomology group|groups]] $E^\bullet(X)$ with the $E$-[[generalized homology]] groups $E_\bullet(X)$ of suitable spaces ([[homotopy types]]/[[spectra]]) $X$
 
 $$
@@ -25,6 +27,8 @@ $$
    E^{\bullet_1}(X) \otimes E_{\bullet_2}(X) \longrightarrow \pi_{\bullet_2-\bullet_1}(E)
   \,.
 $$ 
+
+The combination of the Kronecker pairing with a [[diagonal]] map yields the [[cap product]] pairing in generalized (co-)homology.
 
 
 If $E_\bullet(X)$ is a [[projective module|projective]] [[graded module]] over the [[graded ring]] $\pi_\bullet(E)$ then the [[adjunct]] 
@@ -36,6 +40,7 @@ $$
 of the Kronecker pairing is an [[isomorphism]] and hence exhibits $E$-[[generalized cohomology]] as the $\pi_\bullet(E)$-[[linear dual]] of the $E$-[[generalized homology]] of $X$; an instance of a [[universal coefficient theorem]] for generalized (co-)homology (prop. \ref{KroneckerPairingAdjunctIsIsomorphism} below).
 
 On [[CW-complexes]] $X$ of [[finite number|finite]] [[dimension]], the Kronecker pairing induces a pairing of the corresponding [[Atiyah-Hirzebruch spectral sequences]] (prop. \ref{KroneckerPairingOnAHSS} below).
+
 
 ## Definition
 
