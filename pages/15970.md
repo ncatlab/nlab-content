@@ -1,17 +1,17 @@
 [[!redirects Nikolaj+Kuntner]]
-I do theoretical physics and am interested in clear and encompassing foundations. 
+I do statistical physics and am interested in clear and encompassing foundations. 
 
 For email and more, visit my Wiki
 _[AxiomsOfChoice.org](axiomsofchoice.org)_.
 
-![Alt text](http://i.imgur.com/mBK4dTV.jpg)
+![Me in 2014](http://i.imgur.com/mBK4dTV.jpg)
 
-+-- {: .query}
-[[Nikolaj Kuntner]]: how to do a query text
-=--
-
-![Alt text](http://i.imgur.com/2gpWbon.jpg)
+![From my Haskell code on catamorphisms on Wikipedia](http://i.imgur.com/MYeNCfv.png)
 
 [[BraidDiagramForHomologyOnTripled.jpg:file]]
 
 <img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
+
++-- {: .query}
+[[Nikolaj Kuntner]]: how to do a query text
+=--
