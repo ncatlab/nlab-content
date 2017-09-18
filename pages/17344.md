@@ -3917,7 +3917,7 @@ To conclude, use the observation from the first part of the proof that $f$ is a 
 ##### Proof of the stable model structure
  {#ProofOfTheStableModelStructure}
 
-We show now that the operation of [[Omega-spectrification]] of topological sequental spectra, from def. \ref{SpectrificationForTopologicalSequentialSpectra}, is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) this establishes a stable model structure on topological sequential spectra.
+We show now that the operation of [[Omega-spectrification]] of topological sequental spectra, from def. \ref{SpectrificationForTopologicalSequentialSpectra}, is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) this establishes the stable model structure on topological sequential spectra in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} below.
 
 +-- {: .num_lemma #OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}
 ###### Lemma
@@ -3931,7 +3931,7 @@ The [[Omega-spectrification]] $(Q,\eta)$ from def. \ref{SpectrificationForTopolo
 +-- {: .proof}
 ###### Proof
 
-Since, by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q$ preserves weak equivalences, it is sufficient to show that every square in $SeqSpec(Top_{cg})$ of the form
+Since, by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q$ preserves weak equivalences, it is sufficient to show that every pullbacl square in $SeqSpec(Top_{cg})$ of a fibration
 
 $$
   \array{
@@ -3939,18 +3939,18 @@ $$
      &\longrightarrow&
     X
     \\
-    \downarrow && \downarrow^{\mathrlap{\in Fib}}
+    \downarrow &(pb)& \downarrow^{\mathrlap{\in Fib}}
     \\
     B &\longrightarrow& Y
   }
 $$
 
-is taken by $Q$ to a homotopy pullback square. By prop. \ref{LimitsAndColimitsOfSequentialSpectra} we need to check that this is the case for the $k$th component spaces of the sequential spectra in the diagram, for all $k \in \mathbb{N}$.  
+is taken by $Q$ to a homotopy pullback square. By prop. \ref{LimitsAndColimitsOfSequentialSpectra} we need to check that this is the case for the $k$th component space of the sequential spectra in the diagram, for all $k \in \mathbb{N}$.  
 
 Let $Z^X_{i,k}$, $Z^Y_{i,k}$ etc. denote the objects appearing in the definition of $Q X$, $Q Y$, etc. (def. \ref{SpectrificationForTopologicalSequentialSpectra}). 
 
 
-Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acylic generating cofibrations in $Top^{\ast/}_{cg}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic relative cell complex inclusions followed by [[Serre fibrations]] in each degree
+Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acyclic generating cofibrations in $(Top^{\ast/}_{cg})_{Quillen}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic relative cell complex inclusions followed by [[Serre fibrations]] in each degree
 
 $$
   Z^X_{i,k}
