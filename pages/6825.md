@@ -39,3 +39,8 @@ The connected component $SO(d-1,2)$ of the anti de Sitter group is [[isomorphism
 [[!include table of orthogonal groups and related]]
 
 [[!include local and global geometry - table]]
+
+[[!redirects AdS group]]
+
+[[!redirects anti de Sitter Lie algebra]]
+[[!redirects AdS Lie algebra]]
