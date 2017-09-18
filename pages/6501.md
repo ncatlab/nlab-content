@@ -83,6 +83,8 @@ A choice sub-bundle of a frame bundle which is a $G$-[[principal bundle]] for $G
 
 * a [[section]] of a frame bundle is also called a _[[frame field]]_.
 
+* [[higher order frame bundle]]
+
 ## References
 
 * Wikipedia (English) [frame bundle](http://en.wikipedia.org/wiki/Frame_bundle)
