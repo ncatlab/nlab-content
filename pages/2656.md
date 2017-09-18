@@ -71,7 +71,7 @@ Young diagrams are used to describe many objects in algebra and combinatorics, i
 
 * [[characteristic classes]] for complex [[vector bundles]]: that is, [[cohomology]] classes on the [[classifying spaces]] of the [[general linear groups]] $GL(N,\mathbb{C})$
 
-* [[characteristic classes]] for hemitian vector bundles: that is, [[cohomology]] classes on the [classifying spaces]] of the [[unitary groups]] $U(N)$
+* [[characteristic classes]] for hemitian vector bundles: that is, [[cohomology]] classes on the [[classifying spaces]] of the [[unitary groups]] $U(N)$
 
 * finite-dimensional [[C*-algebras]]: any such algebra is of the form $M_{n_1}(\mathbb{C}) \oplus \cdots \oplus M_{n_k}(\mathbb{C})$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots \ge n_k$.
 
