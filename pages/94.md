@@ -170,6 +170,7 @@ This shows that the Jacobi identity holds up to an "exact" term, hence up to hom
 =--
 
 ### Reformulation in terms of semifree differential coalgebra
+ {#ReformulationInSemifreeDgCoalgebra}
 
 A little later it was realized that the above huge sum expressions above just expresses the fact that the differential $D$ in a semifree [[dg-coalgebra]] squares to 0, $D^2 = 0$:
 
@@ -253,7 +254,8 @@ An $L_\infty$-algebra is a [[dg-coalgebra]] whose underlying [[coalgebra]] is co
 =--
 
 
-### Reformulation in terms of semifree differential algebra ###
+### Reformulation in terms of semifree differential algebra 
+ {#ReformulationInTermsOfSemifreeDGAlgebra}
 
 The reformulation of an $L_\infty$-algebra as simply a semi-co-free graded-co-commutative coalgebra $(\vee^\bullet \mathfrak{g}, D)$ is a useful repackaging of the original definition, but the coalgebraic aspect tends to be not only unfamiliar, but also a bit inconvenient. At least when the graded vector space $\mathfrak{g}$ is degreewise finite dimensional, we can simply pass to its degreewise dual graded vector space $\mathfrak{g}^*$. Its [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^*$ is then naturally equipped with an ordinary differential $d = D^*$ which acts on $\omega \in \wedge^\bullet \mathfrak{g}^*$ as
 
