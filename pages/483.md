@@ -150,6 +150,23 @@ $$(a+b)(t) = b(2t-1),\,\text{if}\, \frac{1}{2}\le t\le 1.$$
 A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \to Y$ which preserves directed paths in that for every $\gamma: I \to X$ in $d X$ the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$ is in $d Y$.
 
 
+### Streams
+
+A different definition comes from Sanjeevi Krishnan, _A Convenient Category of Locally Preordered Spaces_, Applied Categorical Structures, 2009, vol. 17, no 5, p. 445-466 ([arxiv](https://arxiv.org/abs/0709.3646)):
+
+__Definition__ A **stream** is a tuple $X, \leq_{-}$, where $\leq_{-}$ assigns to each open subset $U \subset X$ a preorder $\leq_U$, such that:
+$$\leq_{\bigcup_i U_i} = \bigvee_i \leq_{U_i}$$
+Here, $U_i, i \in I$ is a collection of open sets, and $\bigvee$ is pointwise or of relations.
+
+_Remarks_
+* Morally, a point in a stream is less or equal to another point if it is less or equal in any open set. The relation $\leq_X$ for the whole space does not hold much information.
+* In the typical example of the clockwise oriented circle, each point is less or equal to every other one in the relation $\leq_{S^1}$; but for a contractible subset $U \subset S^1$, a point $x$ is less or equal than $y$ if $y$ can be reached from $x$ in a monotonous clockwise path.
+* The defining equation of a stream can be thought of as a (co)sheaf condition, and there is indeed a cosheafification result.
+* Every d-space gives rise to a stream.
+* The category of streams has good properties. In particular, there is an further notion of compactly flowing streams_ extending the notion of compactly generated Hausdorff spaces, and indeed the forgetful functor creates limits and colimits.
+* The category of compactly flowing streams is Cartesian closed.
+
+
 ## Examples
 
 * The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I$ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$.
@@ -190,6 +207,7 @@ A discussion of reparameterization of directed paths in directed topological spa
 
 Further references are given in [[directed homotopy theory]].
 
+* Emmanuel Haucourt, [_Streams, d-Spaces and Their Fundamental Categories_, Electronic Notes in Theoretical Computer Science, Volume 283, 15 June 2012, Pages 111-151](https://doi.org/10.1016/j.entcs.2012.05.008)
 
 ## Discussion
 
