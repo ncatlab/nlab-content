@@ -80,7 +80,7 @@ there are in principle three different ways to compute their derived tensor prod
 1. deriving the functor 
 
    $$
-     (-) \otimes_R (-) : Mor_R \times {}_R Mod \to Ab
+     (-) \otimes_R (-) : Mod_R \times {}_R Mod \to Ab
    $$
 
    in both arguments
