@@ -397,3 +397,7 @@ The bar complex for [[E-infinity algebra]]s is discussed in
 [[!redirects bar constructions]]
 
 [[!redirects bar complex]]
+
+
+[[!redirects bar resolution]]
+[[!redirects bar resolutions]]
