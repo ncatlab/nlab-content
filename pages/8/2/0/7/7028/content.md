@@ -131,6 +131,11 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 * [[observable]]
 
+* [[Bogoliubov's formula]]
+
+* [[causally local net of observables]]
+
+
 * [[order-theoretic structure in quantum mechanics]]
 
   * [[Jordan algebra]], [[Bohr topos]]
