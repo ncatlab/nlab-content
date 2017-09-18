@@ -47,7 +47,7 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 
 ### In differential geometry
 
-* A [[vector field]] is a ranl $(1,0)$-tensor field.
+* A [[vector field]] is a rank $(1,0)$-tensor field.
 
 * A [[Riemannian metric]] is a symmetric rank $(0,2)$-tensor.
 
@@ -61,6 +61,8 @@ A rank $(p,0)$-tensor is also called a **covariant tensor** and a rank $(0,q)$-t
 * [[decomposable tensor]]
 
 * [[field (physics)]]
+
+* [[hypermatrix]]
 
 ## References
 
