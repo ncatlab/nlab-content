@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * tabe of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -10,7 +10,7 @@ In the context of [[arithmetic]], _carrying_ is part of the operation of represe
 
 ## In terms of cohomology
 
-Write $\mathbb{Z}/10 = \mathbb{Z}/10\mathbb{Z}$ for the [[abelian group]] of [[addition]] of [[integers]] modulo 10. In the following we identify the elements as
+Write $\mathbb{Z}/10$ for the [[abelian group]] of [[addition]] of [[integers]] modulo 10. In the following we identify the elements as
 
 $$
   \mathbb{Z}/{10} = \{0,1,2, \cdots, 9\}
@@ -19,12 +19,12 @@ $$
 
 as usual.
 
-Being an abelian group, every [[delooping]] [[n-groupoid]] $\mathbf{B}^n \mathbb{Z}/{10}$ exists. 
+Being an abelian group, every [[delooping]] [[n-groupoid]] $\mathbf{B}^n (\mathbb{Z}/{10})$ exists. 
 
 Carrying is a 2-[[cocycle]] in the [[group cohomology]], hence a morphism of [[infinity-groupoids]]
 
 $$
-  c : \mathbf{B} \mathbb{Z}/{10} \to \mathbf{B}^2\mathbb{Z}/{10}
+  c : \mathbf{B} (\mathbb{Z}/{10}) \to \mathbf{B}^2 (\mathbb{Z}/{10})
   \,.
 $$
 
@@ -73,11 +73,11 @@ The [[central extension]] classified by this 2-cocycle, hence the [[homotopy fib
 
 $$
   \array{
-    \mathbf{B}\mathbb{Z}/{100} &\to& * 
+    \mathbf{B} (\mathbb{Z}/{100}) &\to& * 
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{B} \mathbb{Z}/{10} &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^2 \mathbb{Z}/{10}
+    \mathbf{B} (\mathbb{Z}/{10}) &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^2 (\mathbb{Z}/{10})
   }
   \,.
 $$
@@ -85,7 +85,7 @@ $$
 That now carries a 2-cocycle
 
 $$
-  \mathbf{B} \mathbb{Z}/{100} \to \mathbf{B}^2 \mathbb{Z}/{10}
+  \mathbf{B} (\mathbb{Z}/{100}) \to \mathbf{B}^2 (\mathbb{Z}/{10})
   \,,
 $$
 
@@ -97,28 +97,27 @@ $$
     \\
     \downarrow 
     \\
-    \mathbf{B}\mathbb{Z}/{1000}
+    \mathbf{B} (\mathbb{Z}/{1000})
     &\stackrel{c}{\to}&
-    \mathbf{B}^2\mathbb{Z}/{10}
+    \mathbf{B}^2 (\mathbb{Z}/{10})
     \\
     \downarrow 
     \\
-    \mathbf{B}\mathbb{Z}/{100}
+    \mathbf{B} (\mathbb{Z}/{100})
     &\stackrel{c}{\to}&
-    \mathbf{B}^2\mathbb{Z}/{10}
+    \mathbf{B}^2 (\mathbb{Z}/{10})
     \\
     \downarrow 
     \\
-    \mathbf{B}\mathbb{Z}/{10}
+    \mathbf{B} (\mathbb{Z}/{10})
     &\stackrel{c}{\to}&
-    \mathbf{B}^2\mathbb{Z}/{10}
+    \mathbf{B}^2 (\mathbb{Z}/{10})
   }
 $$
 
-This tower can be viewed as a sort of "[[Postnikov tower]]" of $\mathbb{Z}$ (although it is of course not a Postnikov tower in the usual sense).  Note that it is not "convergent": the limit of the tower is the ring of $10$-[[p-adic numbers|adic integers]].  This makes perfect sense in terms of carrying: the $10$-adic integers can be identified with "decimal numbers" that can be "infinite to the left", with addition and multiplication defined using the usual carrying rules "on off to infinity".
+This tower can be viewed as a sort of "[[Postnikov tower]]" of $\mathbb{Z}$ (although it is of course not a Postnikov tower in the usual sense).  Note that it is not "convergent": the limit of the tower is the ring of $10$-[[p-adic numbers|adic integers]] $\mathbb{Z}_{10}$.  This makes perfect sense in terms of carrying: the $10$-adic integers can be identified with "decimal numbers" that can be "infinite to the left", with addition and multiplication defined using the usual carrying rules "on off to infinity".
 
 
 ## References
 
 * [[Dan Isaksen]], _A cohomological viewpoint on elementary school arithmetic_, The American Mathematical Monthly, Vol. 109, No. 9. (Nov., 2002), pp. 796-805. ([jstor](http://links.jstor.org/sici?sici=0002-9890%28200211%29109%3A9%3C796%3AACVOES%3E2.0.CO%3B2-2))
-
