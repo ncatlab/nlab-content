@@ -79,7 +79,7 @@ However, we can tell that this structure has many imaginaries by its rigidity: t
 
 $$x \sim_{E_n} y \iff x \equiv y \text{ mod n} \iff (\exists \ell)\left[x - y = \ell + \dots \text{ (n times) } \dots + \ell\right],$$
 
-that is, must extend along the abelian group epimorphisms $\mathbb{Z} \twoheadrightarrow \mathbb{Z}/n\mathbb{Z}$ for each $n$, and $k \mapsto -k$ is the only one that works.
+that is, must extend along the abelian group epimorphisms $\mathbb{Z} \twoheadrightarrow \mathbb{Z}/n\mathbb{Z}$ for each $n$, so that $k \mapsto -k$ is the only one that works.
 
 (It's essentially for this reason that the automorphism group of the [[forgetful functor]] $\mathbf{Grp} \to \mathbf{Set}$ is also $\mathbb{Z}/2 \mathbb{Z}$.)
 
