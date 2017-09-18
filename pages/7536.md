@@ -5,6 +5,8 @@ Arkady Tseytlin is professor for theoretical [[physics]] at Imperial College Lon
 
 ## related $n$Lab entries
 
+* [[Dirac-Born-Infeld action]]
+
 * [[AdS-CFT]]
 
 category: people
