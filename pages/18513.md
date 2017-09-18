@@ -800,3 +800,4 @@ The conceptual explanation of the shift by the Hadamard state as a step in the a
 [[!redirects Wick polynomial]]
 [[!redirects Wick polynomials]]
 
+[[!redirects normal ordering]]
