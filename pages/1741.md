@@ -24,7 +24,7 @@ is cartesian.
 Given a discrete fibration $F: C \to B$, define a functor $F^*: B^{op} \to Set$ as follows:
 
 *  For $x$ an object of $B$, let $F^*(x)$ be the set of objects $y$ of $C$ such that $F(y) = x$.
-*  For $g: x \to y$ a morphism of $B$, let $F^*(g): F^*(y) \to F^*(x)$ be the function that maps each element of $F^*(y)$ to the unique morphism $h$ determined by the definition of discrete fibration above.
+*  For $g: x \to y$ a morphism of $B$, let $F^*(g): F^*(y) \to F^*(x)$ be the function that maps each element of $F^*(y)$ to the unique $d$ determined by the definition of discrete fibration above.
 
 There is a size issue here, is $F^*(x)$ in fact [[small category|small]]?  We say that the fibration has **small fibres** if so; else we must pass to a larger [[universe]] when we define [[Set]].
 
