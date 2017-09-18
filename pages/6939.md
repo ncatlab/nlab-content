@@ -7,7 +7,7 @@
 
 * [[type theory]]
 
-* [[dependent type theory]], [[intensional type theory]]
+* [[Martin-Löf dependent type theory]], [[dependent type theory]], [[intensional type theory]]
 
 * [[identity types]]
 
