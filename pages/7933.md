@@ -318,13 +318,13 @@ studied in ([Rogers PhD, section 4.2](#RogersPhD)).
 
 2-geometric quantization over [[smooth manifolds]] is discussed in section 6 and section 7 of 
 
-* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
- {#RogersPhD}
+* {#RogersPhD} [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ 
 
 with further indications in
 
-* [[Chris Rogers]], _Higher geometric quantization_, at _Higher Structures 2011_ ([pdf](http://www.crcg.de/wiki/images/2/21/CR_Higherstruct_2011.pdf))
- {#Rogers}
+* {#Rogers} [[Chris Rogers]], _Higher geometric quantization_, at _Higher Structures 2011_ ([[RogersGottingen11.pdf:file]])
+ 
 
 The special case of geometric quantization over infinitesimal [[action groupoids]] can be described in terms of [[BRST complexes]]. For references on this see _[Geometric quantization -- References -- Geometric BRST quantization](http://ncatlab.org/nlab/show/geometric+quantization#ReferencesBRST)_.
 
