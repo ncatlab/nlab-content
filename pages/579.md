@@ -21,7 +21,7 @@ A **strong epimorphism** in a [[category]] $C$ is an [[epimorphism]] which is le
 
 * The composition of  strong epimorphisms is a strong epimorphism. If $f\circ g$ is a strong epimorphism, then $f$ is a strong epimorphism.
 
-* If $C$ has equalizers, then any morphism which is left orthogonal to all monomorphisms must automatically be an epimorphism.
+* If $C$ has [[equalizers]], then any morphism which is left orthogonal to all monomorphisms must automatically be an epimorphism.
 
 * Every [[regular epimorphism]] is strong.  The converse is true if $C$ is [[regular category|regular]].
 
