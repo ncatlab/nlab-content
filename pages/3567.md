@@ -62,8 +62,8 @@ The category $Ho(Top)_{he}$ can be studied by testing its objects with objects f
 category: category
 
 [[!redirects HoTop]]
-[[!redirects homtopy category of spaces]]
-[[!redirects homtopy category of topological spaces]]
+[[!redirects homotopy category of spaces]]
+[[!redirects homotopy category of topological spaces]]
 
 [[!redirects classical homotopy category]]
 [[!redirects classical homotopy categories]]
