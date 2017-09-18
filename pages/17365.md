@@ -3199,7 +3199,7 @@ Observe that the definition of the category $SeqSpec(Top_{cg})$ of [[sequential 
 +-- {: .num_defn #SequentialTSpectra}
 ###### Definition
 
-Let $T_+ \in Top^{\ast/}_{cg}$ be a [[compact topological space|compact]] [[contractible topological space]] with a basepoint freely adjoined, and let $k \in \mathbb{N}$, $k \geq 1$.
+Let $T = K_+ \in Top^{\ast/}_{cg}$ be a [[compact topological space|compact]] [[contractible topological space]] with a basepoint freely adjoined, and let $k \in \mathbb{N}$, $k \geq 1$.
 
 A **sequential $T \wedge S^k$-spectrum** is a sequence of component spaces $X_{k n} \in Top_{cg}$ for $n \in \mathbb{N}$, and a sequence of structure maps of the form
 
@@ -3395,22 +3395,155 @@ From this it is clear by inspection that the induced vertical map on the right i
 
 =--
 
-+-- {: .num_lemma #EquivalenceBetweenTSpectraForEquivalentT}
-###### Lemma
++-- {: .num_defn #RestrictionFunctorsFromT1SpectraToT2Spectra}
+###### Definition
 
-For $T \coloneqq K_+$ a compact contractible topological space with base point adjoined, and for 
-$k \in \mathbb{N}$, $k \geq 1$, then the canonical functors constitute an [[equivalence of categories]]
+For 
 
 $$
-  Ho((Seq_{T\wedge S^k}Spec)_{stable})
-    \simeq
-  Ho((Seq_{S^k}Spec)_{stable})
+  \alpha
+  \;\colon\;
+  T_1 \wedge S^{k_1} 
+    \longrightarrow
+  T_2 \wedge S^{k_2} 
+$$
+
+any morphism, write
+
+$$
+  \alpha^\ast
+  \;\colon\;
+  Seq_{T_2 \wedge S^{k_2}}Spect(Top_{cg})
+   \longrightarrow
+  Seq_{T_1 \wedge S^{k_1}}Spect(Top_{cg})  
+$$
+
+for the functor from the category of sequential $T_2 \wedge S^{k-2}$-spectra (def. \ref{SequentialTSpectra}) to that of $T_1 \wedge S^{k_1}$-spectra which sends any $X$ to $\alpha^\ast X$ with
+
+$$
+  (\alpha^\ast X)_n \coloneqq X_n
+$$
+
+and
+
+$$
+  \sigma_n^{\alpha^\ast X}
+   \;\colon\;
+  T_1 \wedge S^{k_1} \wedge X_n
+   \overset{\alpha \wedge id}{\longrightarrow}
+  T_2 \wedge S^{k_2} \wedge X_n
+   \overset{\sigma_n^X}{\longrightarrow}
+  X_{n+1}
   \,.
 $$
 
 =--
 
++-- {: .num_lemma #EquivalenceBetweenTSpectraForEquivalentT}
+###### Lemma
+
+For $T \coloneqq K_+$ a compact contractible topological space with base point adjoined, write $i \colon S^1 \longrightarrow T \wedge S^1$
+for the canonical inclusion. Then the induced functor $i^\ast$ from def. \ref{RestrictionFunctorsFromT1SpectraToT2Spectra} is the [[right adjoint]] in a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
+
+$$
+  (Seq_{T\wedge S^1}Spec(Top_{cg}))_{stable}
+    \underoverset   
+      {\underset{i^\ast}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\simeq_{Qu}}
+  (SeqSpec(Top_{cg}))_{stable}
+$$
+
+between the stable model structures (theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}) of sequential spectra and sequential $T \wedge S^1$-spectra, respectively.
+
+=--
+
 ([Jardine 15, theorem 10.40](#Jardine15))
+
++-- {: .proof}
+###### Proof
+
+Write $p \colon T \wedge S^1 \to S^1$ for the canonical projection.
+
+A morphism 
+
+$$
+  f \;\colon\; X \longrightarrow i^\ast Y
+$$
+
+is given by components fitting into commuting squares of the form
+
+$$
+  \array{
+    S^1 \wedge X_n
+     &\overset{S^1 \wedge f_n}{\longrightarrow}&
+    S^1 \wedge Y_n
+    \\
+    {}^{\mathllap{id}}\downarrow && \downarrow^{\mathrlap{i \wedge id}}
+    \\
+    S^1 \wedge X_n && T \wedge S^1 \wedge Y_n
+    \\
+    {}^{\mathllap{\sigma_n^X}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\sigma_n^Y}}
+    \\
+    X_{n+1} 
+      &\underset{f_{n+1}}{\longrightarrow}&
+    Y_{n+1}
+  }
+  \,.
+$$
+
+Since $p \circ i = id$, every such diagram factors as 
+
+$$
+  \array{
+    S^1 \wedge X_n
+     &\overset{S^1 \wedge f_n}{\longrightarrow}&
+    S^1 \wedge Y_n
+    \\
+    {}^{\mathllap{i \wedge id}}\downarrow && \downarrow^{\mathrlap{i \wedge id}}
+    \\
+    T \wedge S^1 \wedge X_n 
+      &\overset{T \wedge S^1 \wedge f_n}{\longrightarrow}& 
+    T \wedge S^1 \wedge Y_n
+    \\
+    {}^{\mathllap{p \wedge id}}\downarrow && \downarrow
+    \\
+    S^1 \wedge X_n 
+      && 
+    \\
+    {}^{\mathllap{\sigma_n^X}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\sigma_n^Y}}
+    \\
+    X_{n+1} 
+      &\underset{f_{n+1}}{\longrightarrow}&
+    Y_{n+1}
+  }
+  \,.
+$$
+
+Here the bottom square exhibits the components of a morphism
+
+$$
+  \tilde f \;\colon\; p^\ast X \longrightarrow Y
+$$
+
+and this correspondence is clearly [[natural bijection|naturally bijective]]
+
+This establishes the adjunction $p^\ast \dashv i^\ast$. This is [[Quillen equivalence]] because for every $Z \in Top^{\ast/}_{cg}$ then by the contractibility of $K$ there is an equivalence
+
+$$
+  [T \wedge S^q,Z]_\ast
+   \simeq
+  [S^q, Z]_\ast
+$$
+
+and hence the concept of stable weak homotopy equivalences in both categories agrees. Hence any $\tilde f \colon p^\ast X \to Y$ is a stable weak homotopy equivalence precisely if $f \colon X \to i^\ast y$ is.
+
+=--
+
 
 +-- {: .num_lemma #IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}
 ###### Lemma
@@ -3427,13 +3560,12 @@ $$
 
 =--
 
-([Jardine 15, prop. 10.53](#Jardine15))
+([Jardine 15, corollary 10.42, prop. 10.53](#Jardine15))
 
 +-- {: .proof}
 ###### Proof
 
 Consider the adjunction $(L_2 \dashv R_2) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ from lemma \ref{AdjunctionBetweenSequentialSpectraAndSequentialTSpectra}.
-
 We claim that there is a [[natural isomorphism]]
 
 $$
@@ -3457,7 +3589,7 @@ $$
 
 in $Ho(SeqSpec(Top_{cg})_{stable})$.
 
-Now to see that the isomorphism $\tau$ exists .
+Now to see that the isomorphism $\tau$ exists.
 
 Write
 
@@ -3533,9 +3665,7 @@ $$
   \,.
 $$
 
-Here the left diagonal composite is the structure map of $R_2 (\Sigma X)$ in degree $n$, while on the right we have the structure map of $R_2 ( X \wedge S^1 )$ in degree $n$. In the middle we have the structure map of an auxiliary $(I_+) \wedge S^2$-spectrum, and the horizontal morphisms exhibit the canonical morphisms from $S^2$-spectra to $(I_+)\wedge S^2$-spectra.
-
-Hence lemma \ref{EquivalenceBetweenTSpectraForEquivalentT} gives the required isomorphism ([Jardine 15, corollary 10.42](#Jardine15)).
+Here the left diagonal composite is the structure map of $R_2 (\Sigma X)$ in degree $n$, while on the right we have the structure map of $R_2 ( X \wedge S^1 )$ in degree $n$. In the middle we have the structure map of an auxiliary $(I_+) \wedge S^2$-spectrum (def. \ref{SequentialTSpectra}), and the horizontal morphisms exhibit the functors of def. \ref{RestrictionFunctorsFromT1SpectraToT2Spectra} from $(I_+)\wedge S^2$-spectra to $S^2$-spectra. By lemma \ref{EquivalenceBetweenTSpectraForEquivalentT} and since $I$ is contractible, these functors are [[equivalences of categories]] on the [[stable homotopy category]]. This implies the required isomorphism.
 
 
 =--
