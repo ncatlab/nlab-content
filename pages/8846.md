@@ -63,15 +63,15 @@ Suppose $V$ is a finitely generated $R$-module, and $g \colon V \to V$ is a modu
 
 +-- {: .proof} 
 ###### Proof 
-For some finite $n \geq 0$, we have a surjective map $p: R^n \to V$, and by hypothesis we have a surjective map $I^n \to im(g)$ in 
+For some finite $n \geq 0$, we have a surjective map $p: R^n \to V$. Tensoring $p$ with $I$, we obtain a surjective map $I^n \cong I \otimes_R R^n \stackrel{I \otimes_R p}{\twoheadrightarrow} I \otimes_R V \stackrel{mult}{\twoheadrightarrow} I V$, fitting in a commutative diagram 
 
 $$\array{
- & & & & I^n & \hookrightarrow & R^n \\
- & & & & \downarrow & & \downarrow _\mathrlap{p} \\
-R^n & \stackrel{p}{\to} & V & \stackrel{g}{\to} & im(g) & \hookrightarrow & V 
+ & & & & & & I^n & \hookrightarrow & R^n \\
+ & & & & & & \downarrow & & \downarrow _\mathrlap{p} \\
+R^n & \stackrel{p}{\to} & V & \stackrel{g}{\to} & im(g) & \stackrel{i}{\hookrightarrow} & I V & \hookrightarrow & V 
 }$$
 
-By projectivity of $R^n$, we can lift $g \circ p$ to a map $R^n \to I^n$ making the diagram commute. Let $A$ be the $R$-module map $R^n \to I^n \hookrightarrow R^n$, regarded as a matrix. Then the characteristic polynomial of $A$ satisfies the conclusion, by the Cayley-Hamilton theorem and Proposition \ref{lem}. 
+By projectivity of $R^n$, we can lift $i g p: R^n \to I V$ to a map $h: R^n \to I^n$ making the diagram commute. Let $A$ be the $R$-module map $R^n \stackrel{h}{\to} I^n \hookrightarrow R^n$, regarded as a matrix. Then the characteristic polynomial of $A$ satisfies the conclusion, by the Cayley-Hamilton theorem and Proposition \ref{lem}. 
 =-- 
 
 +-- {: .num_prop #surj}
