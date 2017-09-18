@@ -39,7 +39,7 @@ Reviews include
 
 lecture 7 in 
 
-* ([pdf](http://ieeeb.okstate.edu/lecturenotes/EET-4654%20Microwaves/Lecture%207%20and%208.pdf))
+* ([pdf](http://web.archive.org/web/20100609120845/http://ieeeb.okstate.edu/lecturenotes/EET-4654%20Microwaves/Lecture%207%20and%208.pdf))
  {#Lecture}
 
 appendix B in 
@@ -49,7 +49,7 @@ appendix B in
 
 section _Basic concepts_ in 
 
-* [[John Baez]], _[[johnbaez:Circuit theory I]]_
+* [[John Baez]], _[[johnbaez:Circuit theory]]_
  {#Baez}
 
 The cohomological nature of Kirchoff's laws was maybe first made explicit in 
