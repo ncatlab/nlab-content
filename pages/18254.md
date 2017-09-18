@@ -64,22 +64,22 @@ $$
   \,.
 $$
 
-So $\{V_x \subset X\}_{x \in Q_n}$ is still an open cover of $Q_n$. By compactness of $Q_n$,  there exists a [[finite set]] $J \subset Q_n$ such that $\{V_x \subset X\}_{x \in J}$ is a [[finite open cover]]. The union
+So $\{V_x \subset X\}_{x \in Q_n}$ is still an open cover of $Q_n$. By compactness of $Q_n$,  there exists a [[finite set]] $J_n \subset Q_n$ such that $\{V_x \subset X\}_{x \in J_n}$ is a [[finite open cover]]. The union
 
 $$
-  U_{i + 1} \coloneqq \underset{x \in J}{\cup} V_x
+  U_{n + 1} \coloneqq \underset{x \in J}{\cup} V_x
 $$
 
-is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_i)$. Moreover, since finite unions of compact spaces are compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)), the closure of $U_{i+1}$ is compact:
+is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_n)$. Moreover, since finite unions of compact spaces are compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)), the closure of $U_{n+1}$ is compact:
 
 $$
   \begin{aligned}
-    Cl(U_{i+1})
+    Cl(U_{n+1})
     &= 
-    Cl\left(  \underset{x\in J}{\cup} V_x \right)
+    Cl\left(  \underset{x\in J_n}{\cup} V_x \right)
     \\
     & = 
-    \underset{x \in J}{\cup} \underset{\text{compact}}{Cl( V_x )}
+    \underset{x \in J_n}{\cup} \underset{\text{compact}}{Cl( V_x )}
   \end{aligned}
   \,.
 $$
@@ -121,7 +121,7 @@ By lemma \ref{LocallyCompactAndSigmaCompactImpliesGoodNestedCover} there exists 
 
 1. $Cl(V_n)$ is compact;
 
-1. $V_n \subset V_{n+1}$.
+1. $Cl(V_n) \subset V_{n+1}$.
 
 Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open (by [this lemma](compact+space#IntersectionCompactWithOpen)).
 
