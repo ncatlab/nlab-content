@@ -45,6 +45,8 @@ on [[spectral algebraic geometry]].
 
   [[big and little toposes]]
 
+* 21 Structured sheaves
+
 #### VII Variants of Spectral Algebraic Geometry
 
 #### VIII Higher Algebraic Stacks
