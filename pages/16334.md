@@ -1,0 +1,10 @@
+
+* [webpage](https://sites.google.com/site/sebastianocarpi/home)
+
+## related $n$Lab entries
+
+* [[conformal net]]
+
+* [[vertex operator algebra]]
+
+category: people
