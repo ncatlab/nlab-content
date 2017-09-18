@@ -20,7 +20,9 @@ A **constant functor** $\Delta(d):C\to D$ is a [[functor]] that maps each [[obje
 Note that a constant functor can be expressed as the composite
 $$C \stackrel{!}{\to} 1 \stackrel{[d]}{\to} D.$$ 
 
-Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism, namely the identity), and $[d]$ denotes the unique functor from $1$ with $F(\bullet) = d$ and $F(Id_\bullet) = Id_d$. 
+Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism, namely the identity), and $[d]$ denotes the unique functor from $1$ with $F(\bullet) = d$ and $F(Id_\bullet) = Id_d$.
+
+More generally, we may say that a functor $F:C\to D$ is **essentially constant** if it is [[naturally isomorphic]] to a constant functor.
 
 ## Examples
 
@@ -38,5 +40,8 @@ Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism
 
 * [[constant presheaf]], [[locally constant sheaf]] 
 * [[diagonal functor]]
+* [[constant morphism]], [[constant function]]
 
 [[!redirects constant functors]]
+[[!redirects essentially constant functor]]
+[[!redirects essentially constant functors]]
