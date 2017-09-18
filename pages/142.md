@@ -114,6 +114,8 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
 * [[sheaf]]
 
+* [[group stack]]
+
 * [[2-sheaf]] / [[(2,1)-sheaf]] /  **stack** / [[model structure for (2,1)-sheaves]]
 
   * [[representable morphism of stacks]]
