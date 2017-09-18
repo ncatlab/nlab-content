@@ -31,6 +31,8 @@
 
 * [[Riemannian geometry]]
 
+* [[hyperbolic manifold]]
+
 ## References
 
 * [[James Cannon]], William Floyd, Richard Kenyon, Water Parry, _Hyperbolic geometry_, in _Flavors of geometry_, MSRI Publications Volume 31, 1997 ([pdf](http://www.math.ecnu.edu.cn/~lfzhou/others/cannon.pdf))
