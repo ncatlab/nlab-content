@@ -30,4 +30,8 @@ Given a [[vector bundle]], its _dual_ is the vector bundle obtained by passing [
 
 * [[direct sum of vector bundles]]
 
+* [[tensor product of vector bundles]]
+
+* [[tensor category]]
+
 [[!redirects dual vector bundes]]
