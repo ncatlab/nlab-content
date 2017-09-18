@@ -52,6 +52,8 @@ Since inverse elements in a commutative ring are unique when they exist the seco
 
 The main reference on disjunctive logic is Johnstone ([1979](#Johnstone79)) which was inspired by a non-syntactic concept of [[Yves Diers]]. The [elephant](#Johnstone02) has some additional cursory remarks. Freyd ([2002](#Freyd02)) gives disjunctive logic a short treatment under the name 'alternating logic' and discusses the [[real closed field|theory of real closed fields]] as an example. Barr and Wells ([1985](#BarrWells85)) discuss the corresponding class of sketches without mentioning the syntactic side.
 
+* {#AdamekRosicky94}[[Jiří Adámek]], [[Jiří Rosický]], _Locally presentable and accessible categories_,  Cambridge UP 1994. (exercise 5f., p.238)
+
 * {#BarrWells85}[[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Reprinted as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) (2005); section 8.2, pp.292f) 
 
 * {#Freyd02}[[Peter Freyd]], _Cartesian Logic_ , Theor. Comp. Sci. **278** (2002) pp.3-21.
