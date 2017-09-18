@@ -19,16 +19,20 @@
 
 ## Idea
 
-What is called generalized Eilenberg-Steenrod cohomology is really the general _fully abelian_ subcase of [[cohomology]]. 
+In [[algebraic topology]], what is called generalized Eilenberg-Steenrod cohomology started out as an axiomatization of the basic properties of the [[functors]] that send [[topological spaces]] to their [[cohomology groups]] for  [[ordinary cohomology]] and for [[topological K-theory]]. Any functor satisfying these is called a _generalized [[cohomology theory]]_. 
 
-This means that generalized Eilenberg-Steenrod cohomology is the [[cohomology]] in an [[(∞,1)-category]] $\mathbf{H}$ that happens to be a [[stable (∞,1)-category]].
+Notice however that one may drop further axioms, such as the [[suspension isomorphism]] to arrive at something yet more general, e.g. [[nonabelian cohomology]] such as unstable [[cohomotopy]]. To disambiguate these further generalizations it might be worthwhile to say _generalized stable cohomology_ or the like, but this is not common terminology.
+
+The [[Brown representability theorem]] showed that these generalized cohomology theories are precisely those functors are [[representable functor|represented]] by maps from topological spaces into [[spectra]].
+
+This means that from a general abstract perspective, generalized Eilenberg-Steenrod cohomology is the [[cohomology]] in an [[(∞,1)-category]] $\mathbf{H}$ that happens to be a [[stable (∞,1)-category]].
 
 The archetypical example of this is $\mathbf{H} = Sp(Top)$, the [[stable (∞,1)-category of spectra]] and this is the context in which generalized Eilenberg-Steenrod cohomology is usually understood. So
 
 +-- {: .standout}
 
 Generalized Eilenberg-Steenrod cohomology is 
-[[cohomology]] $H(X,A)$ with coefficient object $A$ a [[spectrum]].
+[[cohomology]] $H(X,A)$ with coefficient object $A$ a [[spectrum object]].
 
 =--
 
@@ -109,11 +113,14 @@ A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-St
 
 * [[John Baez]], [TWF 149](http://math.ucr.edu/home/baez/twf_ascii/week149) 
 
-A comprehensive account is in 
+Textbook accounts include
 
-* {KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
+* {#May99} [[Peter May]] chapter 18 of _A Concise Course on Algebraic Topology_, Chicago Lecture Notes  1999 ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-* [[Peter May]] Concise Course on Algebraic Topology: [Chapter 18](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
+* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+* {#KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
+
 
 More references relating to the [[nPOV]] on cohomology include:
 
