@@ -70,7 +70,7 @@ In a quasitopos the [[pushout]] of a [[strong monomorphism]] is again a strong m
 
 =--
 
-This appears as [Elephant, lemma 2.6.2](#Elephant).
+This appears as [Elephant, Lemma 2.6.2](#Elephant), using the synonym _cocover_ for _strong monomorphism_.
 
 +-- {: .un_corollary}
 ###### Corollary
