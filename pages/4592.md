@@ -42,7 +42,7 @@ $$
 
 An introduction in the context of [[synthetic differential geometry]] is in 
 
-* [[Gonzalo Reyes]], _Lie derivatives, Lie brackets and vector fields over curves_, [pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/lie-derivatives.pdf)
+* [[Gonzalo Reyes]], _Lie derivatives, Lie brackets and vector fields over curves_, [pdf](https://marieetgonzalo.files.wordpress.com/2006/10/lie-derivatives.pdf)
 
 A gentle elementary introduction for mathematical physicists 
 
