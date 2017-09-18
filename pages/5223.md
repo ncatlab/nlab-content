@@ -36,6 +36,8 @@ Most of interesting people for nlab will have their own pages in $n$lab; many  o
 
 * [[Charles Weibel]] has [here](http://www.math.rutgers.edu/~weibel) lots of writings including a growing book on [[algebraic K-theory]] and lecture notes on motivic cohomology with Mazza and Voevodsky
 
+* [David Mumford](http://www.dam.brown.edu/people/mumford/index.php), keeps lots of his online material
+
 * Pointers to several similar collections in answers to MathOverflow question [free-high-quality-mathematical-writing-online](http://mathoverflow.net/questions/1722/free-high-quality-mathematical-writing-online)
 
 * [The Assayer](http://www.theassayer.org/cgi-bin/asbrowsesubject.cgi?class=Q#freeclassQAm), a catalogue of freely available mathematics books in electronic formats (also computer science and other fields). Some books are even reviewed.
