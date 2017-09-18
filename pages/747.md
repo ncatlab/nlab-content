@@ -1049,8 +1049,8 @@ $$
 $$
 
 It is now sufficient to observe that $x^* g$ is a [[Kan fibration]],
-this implies the result then by the fact that the standard
-[[model structure on simplicial sets]] is right proper. 
+this implies the result then by the fact that the 
+[[classical model structure on simplicial sets]] is right proper. 
 
 To see this, notice that  $x^*(g)$ is a Kan fibration precisely if for all $1 \leq k $ and $0 \leq i \leq k$ the morphism
 
@@ -1233,7 +1233,7 @@ $$
 $$
 
 between the [[model structure on simplicial abelian groups]] and the 
-standard [[model structure on simplicial sets]], which exhibits
+[[classical model structure on simplicial sets]], which exhibits
 $sAb_{Quillen}$ as the corresponding [[transferred model structure]].
 
 Moreover, the [[Dold-Kan correspondence]] constitutes in particular a [[Quillen equivalence]]
