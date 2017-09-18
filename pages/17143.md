@@ -28,10 +28,12 @@ Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
 ## References
 
+* [[Frank Adams]], lemma 4.6, example 4.7 in  _[[Stable homotopy and generalised homology]]_, 1974
+
+
 Review includes
 
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
-
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
