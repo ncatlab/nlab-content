@@ -20,7 +20,7 @@ For $\mathbf{H}$ a [[topos]], then an [[essential geometric morphism|essential]]
 
 The terminology is due to the fact ([Kelley-Lawvere 89](#KL89)) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. 
 
-If for two consecutive levels the next one includes the [[modal types]] of the [[idempotent comonad]] of the previous one, then [[Lawvere]] speaks of "[[Aufhebung]]" (see there for details) of the [[unity of opposites]] exhibited by the previous one.
+If for two consecutive levels the next one includes the [[modal types]] of the [[idempotent comonad]] of the previous one, and if it is minimal with this property, then [[Lawvere]] speaks of "[[Aufhebung]]" (see there for details) of the [[unity of opposites]] exhibited by the previous one.
 
 ## Examples
 
