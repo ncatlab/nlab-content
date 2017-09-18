@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In much of the literature an _embedding_ of one [[category]] into another is a defined to be [[functor]] which is [[injective function|injective]] on the [[set]] of [[morphisms]]. Accordingly a _full embedding_ is then such a functor which is in addition a [[full functor]].
+
+There are various variants of this in use. But this kind of definition does not respect the [[principle of equivalence]] of [[category theory]], in that it is not invariiant under [[equivalence of categories]].
+
+An invariant concept of embedding is that of [[full subcategory]], meaning a [[fully faithful functor]].
+
+
+
+## Related concepts
+
+* [[Barr embedding theorem]]
+
+* [[embedding]]
+
+[[!redirects embedding of categories]]
