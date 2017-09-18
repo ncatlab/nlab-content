@@ -35,7 +35,7 @@ Recall that a _[[classical field theory|classical]] [[local field theory]]_ is f
 
 1. a choice $L \in \Omega^{n,0}(J^\infty(E))$ of [[horizontal differential form]] of degree $n$ on the [[jet bundle]] of the field bundle, called the _[[local Lagrangian density]]_. 
 
-+-- {: .num_defn}
++-- {: .num_defn #LocalLagrangianOfFreeScalarField}
 ###### Definition
 **(free scalar field as a classical local field theory)**
 
@@ -82,16 +82,81 @@ Recall that given a [[classical field theory|classical]] [[local field theory]] 
 
    1. $j^\infty \;\colon\; \Gamma_X(E) \longrightarrow \Gamma_X(J^\infty_X(E))$ denotes [[jet prolongation]].
 
-1. the [[covariant phase space]] $(Sol_{\delta_{EL}L = 0}, d\theta)$ is the subspace $Sol_{\delta_{EL} L = 0} \subset \Gamma_X(E)$ of solutions to the [[equations of motion]], equipped with the canonical [[presymplectic form]].
+1. The [[covariant phase space]] $(Sol_{\delta_{EL}L = 0}, d\theta)$ is the subspace $Sol_{\delta_{EL} L = 0} \subset \Gamma_X(E)$ of solutions to the [[equations of motion]], equipped with the canonical [[presymplectic form]].
 
-(...)
+   For a field theory without [[gauge symmetries]] such as scalar field theory, the covariant phase space is already [[reduced phase space|reduced]] and the canonical presymplectic form is hence a [[symplectic form]]. Its inverse hence defines a [[Poisson bracket]].
+
++-- {: .num_prop #FreeScalarFieldEOMAndGreensFunctions}
+###### Proposition
+
+The [[equation of motion]] of the free scalar field (def. \ref{LocalLagrangianOfFreeScalarField}) is the [[wave equation]]
+
+$$
+  \Box_g \phi = 0
+  \,,
+$$
+
+on the given [[spacetime]] $(X,g)$.
+
+This equation admits both an advanced and a retarded [[Green's function]] $\Delta_S^{A/R}$.
+
+=--
+
+
++-- {: .num_defn #PointEvaluation}
+###### Definition
+**(point evaluation [[observables]])**
+
+For $x \in X$, write
+
+$$
+  \Phi(x)
+    \;\colon\;
+  \Gamma_X(X \times k)
+    \longrightarrow
+  k
+$$
+
+for the [[smooth function]] ([[functional]] which evaluates the scalar field at $x \in X$):
+
+$$
+  \Phi(x) \;\colon\; \phi \mapsto \phi(x)
+  \,.
+$$
+
+
+=--
+   
 
 +-- {: .num_prop }
 ###### Proposition
 
+The induced [[Poisson bracket]] on the [[covariant phase space]] of the free scalar field (def. \ref{LocalLagrangianOfFreeScalarField}) is given on point evaluation observables $\Phi$ (def. \ref{PointEvaluation}) by
+
+$$
+  \{\Phi(x), \Phi(y)\}
+    \;=\;
+  \Delta_S(x,y)  
+  \,,
+$$
+
+
+where  
+
+$$
+  \Delta_S(x,y)
+    \;\coloneqq\;
+  \Delta_S^R(x,y)
+   -
+  \Delta_S^A(x,y)
+$$
+
+is the _[[causal propagator]]_, namely the difference between the retarded and the advanced [[Green's function]] from prop. \ref{FreeScalarFieldEOMAndGreensFunctions}.
 
 =--
 
+
+Peierls+bracket#PeierlsPoissonBracket
 
 ## Examples
 
