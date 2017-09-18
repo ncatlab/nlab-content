@@ -1,1 +1,5 @@
-PhD student in Birmingham, working on the theory of programming languages. Web site: [https://bram.xyz/research](https://bram.xyz/research)
+Bram Geron is a PhD student in Birmingham, working on the theory of programming languages. 
+
+* [website](https://bram.xyz/research)
+
+category:people
