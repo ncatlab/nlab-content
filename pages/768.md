@@ -878,6 +878,8 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 * **classifying space**, [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]], [[Kan-Thurston theorem]]
 
+  * [[acyclic group]]
+
 * [[classifying topos]]
 
 * [[universal principal bundle]], [[universal principal ∞-bundle]]
