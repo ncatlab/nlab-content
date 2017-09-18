@@ -52,10 +52,12 @@ $$
   \,.
 $$
 
-Properly interpreted (this is rarely stated in the literature...) this is the _local_ expression for the [[connection on a 3-bundle|3-connection]] on the [[Chern-Simons line 3-bundle]] associated with the gauge field. If the latter is globally nontrivial in that it is in an _[[instanton]]_-sector (has nontrivial [[second Chern class]]), then the [[integral]] of $\langle F\wedge F\rangle$over closed manifolds is an integer -- the "[[instanton]] number" -- and in conclusion there is baryon generation proportional to this number (physics lingo also: _sphaleron transitions_).
+Properly interpreted (this is rarely stated in the literature...) this is the _local_ expression for the [[connection on a 3-bundle|3-connection]] on the [[Chern-Simons line 3-bundle]] associated with the gauge field. If the latter is globally nontrivial in that it is in an _[[instanton]]_-sector (has nontrivial [[second Chern class]]), then the [[integral]] of $\langle F\wedge F\rangle$ over closed manifolds is an integer -- the "[[instanton]] number" -- and in conclusion there is baryon generation proportional to this number (physics lingo also: _sphaleron transitions_).
 
+Notice that this would mean that baryons "are" a kind of topological twist, different from, but not entirely unlike to the old idea of _[[On Vortex Atoms]]_. See there at _[Similarlity to concepts of modern particle physics](On+Vortex+Atoms#SimilarityToParticlePhysics)_
 
-That this process was at least one source of baryogenesis in the early universe is plausible but not certain. The process is heavily suppressed by inverse energy/temperature (e.g. [Dine 90, around (9)](#Dine90)) and out of reach of conceivable experiments in the present age of the universe, but plausible may have occured in the very early universe -- just as it should be for realistic baryogenesis.
+That this process was at least one source of baryogenesis in the early universe is plausible but not certain. The process is heavily suppressed by inverse energy/temperature (e.g. [Dine 90, around (9)](#Dine90)) and out of reach of conceivable experiments in the present age of the universe, but plausibly may have occured in the very early universe -- just as it should be for realistic baryogenesis.
+
 
 
 
@@ -90,5 +92,4 @@ Further review includes
 * {#TroddenCarroll} Mark Trodden, Sean Carroll, TASI Lectures: Introduction to Cosmology _[4.9 Baryon Number violation](http://ned.ipac.caltech.edu/level5/Sept03/Trodden/Trodden4_9.html)_ 
 
 * {#Shu08} Jing Shu, section 7 of _Connecting LHC Signals with Deep Physics at the TeV Scale and Baryogenesis_ 2008
-
 
