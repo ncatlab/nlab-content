@@ -33,7 +33,7 @@ $$
   \array{
      S^0 &\hookrightarrow& S^1
      \\
-     && \downarrow^{\mathrlap{p_{\mathbb{H}}}}
+     && \downarrow^{\mathrlap{p_{\mathbb{R}}}}
      \\
      && S^1
   }
@@ -52,7 +52,9 @@ $$
   p \colon (x,y) \mapsto [x;y] = [x/y; 1]
   \,,
 $$
+One can view the real Hopf fibration as the boundary of a [[Möbius strip]], which is the non-trivial double cover of the circle.
 
+As an element in $\pi_1(S^1) \simeq \mathbb{Z}$, $p_{\mathbb{R}} = 2$.
 
 ## Related concepts
 
