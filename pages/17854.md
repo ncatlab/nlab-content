@@ -12,20 +12,20 @@ An *apartness space* is a set equipped with an "apartness relation" that disting
 
 There are actually three different notions of "apartness space" depending on whether the objects being compared on each side are points or sets.
 
-* A **point-point apartness space** is a set $X$ equipped with an [[apartness relation]], usually written $x # y$ on elements $x,y\in X$.  Sometimes it is required to be [[tight relation|tight]], or to be only an [[inequality relation]].
+* A _point--point apartness space_ is a set $X$ equipped with an _[[apartness relation]]_, usually written $x # y$ on elements $x,y\in X$.  Sometimes it is required to be [[tight relation|tight]], or to be only an [[inequality relation]].
 
-* A **set-set apartness space** is a set $X$ equipped with a relation $A\bowtie B$ between [[subsets]] $A,B\subseteq X$, satisfying appropriate axioms.  In [[classical mathematics]], a set-set apartness space is equivalent to a [[proximity space]].  In [[constructive mathematics]], the classical definition of a proximity space in terms of $\bowtie$ can be taken as a definition of a set-set apartness space.
+* A _set--set apartness space_ is a set $X$ equipped with a relation $A\bowtie B$ between [[subsets]] $A,B\subseteq X$, satisfying appropriate axioms.  A set--set apartness space is one of the ways to describe the [[classical mathematics|classical]] notion of a _[[proximity space]]_.  In [[constructive mathematics]], the definition of a proximity space in terms of $\bowtie$ can be taken as a definition of a set--set apartness space.
 
-* A **point-set apartness space** is a set $X$ equipped with a relation $x \bowtie A$ between points $x\in X$ and subsets $A\subseteq X$, satisfying appropriate axioms.  In classical mathematics, these axioms are obtained by [[contrapositive|contraposition]] from the definition of a [[topological space]] in terms of a [[exact functor|right exact]] [[Moore closure]] operator, so that point-set apartness spaces are equivalent to topological spaces.  In constructive mathematics ... well, keep reading.
+* A __point--set apartness space__ is a set $X$ equipped with a relation $x \bowtie A$ between points $x\in X$ and subsets $A\subseteq X$, satisfying appropriate axioms.  In [[classical mathematics]], these axioms are obtained by [[contrapositive|contraposition]] from the definition of a [[topological space]] in terms of a [[exact functor|right exact]] [[Moore closure]] operator, so that point--set apartness spaces are equivalent to topological spaces.  In [[constructive mathematics]] ... well, keep reading.
 
-Since point-point apartness spaces are described at [[apartness relation]], and set-set apartness spaces at [[proximity space]], the rest of this page will be about point-set apartness spaces.
+Since point--point apartness spaces are described at [[apartness relation]], and set--set apartness spaces at [[proximity space]], the rest of this page will be about point--set apartness spaces.
 
 
-### Point-set apartness spaces
+### Point--set apartness spaces
 
 +-- {: .un_defn}
 ###### Definition
-A **point-set apartness space** is a set $X$ equipped with a relation $\bowtie$ between points $x\in X$ and subsets $A\subseteq X$ such that
+An __apartness space__ is a set $X$ equipped with a relation $\bowtie$ between points $x\in X$ and subsets $A\subseteq X$ such that
 
 1. if $x\bowtie A$, then $x\notin A$.
 2. $x\bowtie (A\cup B)$ iff $x\bowtie A$ and $x\bowtie B$.
@@ -43,11 +43,11 @@ which are precisely the axioms of a [[topology]] expressed in terms of a closure
 
 ## Separation properties
 
-Any point-set apartness space comes with an [[irreflexive relation]] $\lt$ defined by $x \lt y$ iff $y\bowtie \{x\}$.  This is a positive version of the negation of the [[specialization order]].  Just as a topological space is called $T_1$ (see [[separation axioms]]) if its specialization order is discrete, i.e. $(x\le y) \to (x=y)$, we may call a point-set apartness space **$T_1$** if the contrapositive of this holds, i.e. $(x\neq y) \to (x \bowtie \{y\})$.  In fact it is often more useful to replace $\neq$ here by a given [[apartness relation]] or [[inequality relation]] $#$ on $X$, and in this context we can also replace $y\notin B$ in the third axiom with $\forall z\in B, (y # z)$.
+Any apartness space comes with an [[irreflexive relation]] $\lt$ defined by $x \lt y$ iff $y\bowtie \{x\}$.  This is a positive version of the negation of the [[specialization order]].  Just as a topological space is called $T_1$ (see [[separation axioms]]) if its specialization order is discrete, i.e. $(x\le y) \to (x=y)$, we may call a n apartness space **$T_1$** if the contrapositive of this holds, i.e. $(x\neq y) \to (x \bowtie \{y\})$.  In fact it is often more useful to replace $\neq$ here by a given [[apartness relation]] or [[inequality relation]] $#$ on $X$, and in this context we can also replace $y\notin B$ in the third axiom with $\forall z\in B, (y # z)$.
 
-A point-set apartness space may be called **comparable** (nonce definition on this page) if $x\bowtie A$ implies $(x\neq y) \vee (y\bowtie A)$ for any $y$, where $\neq$ might also be a given apartness on $X$.  This condition is classically trivial, and generalizes the [[comparison]] axiom on a point-point [[apartness relation]].  It is also related topologically to Penon's definition of intrinsic [[open subset]] in [[synthetic topology]], and can also be viewed as a very weak version of [[regular space|regularity]].
+An apartness space may be called **comparable** (nonce definition on this page) if $x\bowtie A$ implies $(x\neq y) \vee (y\bowtie A)$ for any $y$, where $\neq$ might also be a given apartness on $X$.  This condition is classically trivial, and generalizes the [[comparison]] axiom on a point--point [[apartness relation]].  It is also related topologically to Penon's definition of intrinsic [[open subset]] in [[synthetic topology]], and can also be viewed as a very weak version of [[regular space|regularity]].
 
-[Bridges et al](#BSV) define point-set apartness spaces to always be both $T_1$ and comparable, with respect to a given inequality on $X$.
+[Bridges et al](#BSV) define apartness spaces to always be both $T_1$ and comparable, with respect to a given inequality on $X$.
 
 
 ## References
@@ -61,23 +61,21 @@ A point-set apartness space may be called **comparable** (nonce definition on th
 [[!redirects apartness space]]
 [[!redirects apartness spaces]]
 
-[[!redirects point-point apartness space]]
-[[!redirects point-point apartness spaces]]
-[[!redirects point–point apartness space]]
-[[!redirects point–point apartness spaces]]
-[[!redirects point--point apartness space]]
-[[!redirects point--point apartness spaces]]
-
 [[!redirects point-set apartness space]]
 [[!redirects point-set apartness spaces]]
 [[!redirects point–set apartness space]]
 [[!redirects point–set apartness spaces]]
 [[!redirects point--set apartness space]]
 [[!redirects point--set apartness spaces]]
-
-[[!redirects set-set apartness space]]
-[[!redirects set-set apartness spaces]]
-[[!redirects set–set apartness space]]
-[[!redirects set–set apartness spaces]]
-[[!redirects set--set apartness space]]
-[[!redirects set--set apartness spaces]]
+[[!redirects point-set apartness structure]]
+[[!redirects point-set apartness structures]]
+[[!redirects point–set apartness structure]]
+[[!redirects point–set apartness structures]]
+[[!redirects point--set apartness structure]]
+[[!redirects point--set apartness structures]]
+[[!redirects point-set apartness relation]]
+[[!redirects point-set apartness relations]]
+[[!redirects point–set apartness relation]]
+[[!redirects point–set apartness relations]]
+[[!redirects point--set apartness relation]]
+[[!redirects point--set apartness relations]]
