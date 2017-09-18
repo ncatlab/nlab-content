@@ -25,7 +25,7 @@ A __[[Poisson algebra]]__ is a commutative unital [[associative algebra]] $A$, i
 
 A __Poisson manifold__ is a real [[smooth manifold]] $M$ equipped with a __Poisson structure__. A Poisson structure is a Lie algebra bracket $\{,\}:C^\infty(M)\times C^\infty(M)\to C^\infty(M)$ on the vector space of smooth functions on $M$ which together with the pointwise multiplication of functions makes it a Poisson algebra. As derivations of $C^\infty(M)$ correspond to smooth [[tangent vector fields]], for each $f\in C^\infty(M)$ there is a vector $X_f$ given by $X_f(g)=\{f,g\}$ and called the __Hamiltonian vector field__ corresponding to the function $f$, which is viewed as a classical hamiltonian function.  
 
-Alternatively a Poisson structure on a manifold is given by a choice of smooth antisymmetric bivector called a __Poisson bivector__ $P\in\Lambda^2 T M$; then $\{f,g\}:=\langle df\otimes dg, P\rangle$. 
+Alternatively a Poisson structure on a manifold is given by a choice of smooth antisymmetric bivector called a __Poisson bivector__ $P\in\Lambda^2 T M$; then $\{f,g\}:=\langle d f\otimes d g, P\rangle$. 
 
 This induces and is equivalently encoded by the structure of a [[Poisson Lie algebroid]].
 
