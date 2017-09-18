@@ -40,14 +40,14 @@ $$
 $$
 
 
-More generally, one may take for $W$ any _affine_ subspace of $\mathbb{R}^{n+1}$ normal to $span\{v\}$ and not containing $v$. For instance one option is to take $W$ to be the tangent space to $S^n$ at $-v$, embedded as a subspace of $\mathbb{R}^{n+1}$.
+More generally, one may take for $W$ any _[[affine space|affine]]_ subspace of $\mathbb{R}^{n+1}$ normal to $span\{v\}$ and not containing $v$. For instance one option is to take $W$ to be the tangent space to $S^n$ at $-v$, embedded as a subspace of $\mathbb{R}^{n+1}$.
 
 ## Extra structure
 
 In most cases of interest one is doing [[geometry]] using stereographic projection, so the sphere and the subspace $W$ are equipped with extra structure. Taking the explicit case above ($v=(1,0,\ldots,0)$), as the formula is so simple, some structures are automatically preserved, for instance:
 
 * [[conformal structure]]
-* orthogonal [[group action]] fixing $v,-v$ pointwise (note that these two points are sent to "$\infty$" and $0$, respectively, under $\sigma$)
+* [[orthogonal group|orthogonal]] [[group action]] fixing $v,-v$ pointwise (note that these two points are sent to "$\infty$" and $0$, respectively, under $\sigma$)
 
 ## Related entries
 
