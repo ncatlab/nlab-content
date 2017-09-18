@@ -103,8 +103,8 @@ $$
 $$
 
 With a bit more time than I have on the train one can figure out
-that conversely suitable such fibrations are equivlent to monoidal
-categoriesy. Alternatively, one can read pages 5 and 6 of
+that conversely suitable such fibrations are equivalent to monoidal
+categories. Alternatively, one can read pages 5 and 6 of
 _LurieNonCom_ cited below.
 
 In any case, this motivates the following definition.
