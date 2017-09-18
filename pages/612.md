@@ -122,10 +122,16 @@ Application to [[moduli stack of elliptic curves]]:
 
   on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
 
+### Publications before thesis
 
+* M H Freedman, A Kitaev, J Lurie, _Diameters of homogeneous spaces_, Math. res. lett. 10:1, 11-20 (2003) 
 
+* J. Lurie, _Anti-admissible sets_, J Symb Logic 64:2, 408-435 (1999) 
 
+* J. Lurie, _On a conjecture of Conway_, Illinois J. Math.  46:2, 497-506 (2002)
 
+* J. Lurie, _On simply laced Lie algebras and their minuscule representations_, Comment. Math. Helv. 76:3, 515-575 (2001)
+[doi](http://dx.doi.org/10.1007/PL00013217)
 
 category: people
 
