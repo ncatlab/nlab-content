@@ -66,3 +66,4 @@ Parts of the above text are taken from
 * [[homotopytypetheory:HomePage|Homtopy Type Theory Wiki]], _[[homotopytypetheory:inductive-inductive type]]_
 
 [[!redirects Inductive Inductive Type]]
+[[!redirects induction-induction]]
