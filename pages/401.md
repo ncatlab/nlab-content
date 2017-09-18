@@ -92,6 +92,8 @@ $$
   \,.
 $$
 
+Hence a deformation retract is a (left) [[homotopy equivalence]] where one of the two homotopies occuring is in fact an [[identity]].
+
 If the cylinder object assignment here is functorial, we say that $\eta$ is a **strong deformation retract** if moreover 
 
 $$
