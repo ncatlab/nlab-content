@@ -17,7 +17,7 @@
 
 A **monoidal fibration** is a [[functor]] $\Phi\colon E\to B$ such that
 
-* $\Phi$ is a [[Grothendieck fibration]] ([[Cartesian fibration]])
+* $\Phi$ is a [[Grothendieck fibration]]
 
 * $E$ and $B$ are [[monoidal categories]] and $\Phi$ is a strict [[monoidal functor]], and
 
