@@ -19,6 +19,7 @@ This states that two objects are [[identical]] if they have all the same [[prope
 
 ## References
 
+* [Ladyman & Presnell (2016)](https://academic.oup.com/philmat/article/doi/10.1093/philmat/nkw023/2593919/Identity-in-Homotopy-Type-Theory-Part-II-The) formulate four variants of this principle in [[homotopy type theory]].
 * [Wikipedia](http://en.wikipedia.org/wiki/Identity_of_indiscernibles)
 * [SEP](http://plato.stanford.edu/entries/identity-indiscernible/)
 
