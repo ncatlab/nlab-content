@@ -155,6 +155,11 @@ The corresponding morphism $true : * \to \Omega$ of presheaves is the [[natural 
 
 As a special case of presheaf toposes, for $G$ a [[discrete group]] and $G Set = [\mathbf{B} G, Set]$ the topos of [[permutation representation]]s, there are precisely two [[sieve]]s on the single object of the [[delooping]] [[groupoid]] $\mathbf{B}G$: the trivial one and the empty one. Hence the subobject classifier here is the 2-element set as in [[Set]], but now regarded as a $G$-set with trivial $G$-[[action]].
 
+For toposes of (left) actions of general [[monoid|monoids]] $M$ the picture changes dramatically, since then there will usually exist non-trivial left ideals and, accordingly, the structure of $\Omega$ will become richer: Its underlying set has elements all left ideals, with $m\in M$ acting on a left ideal $L$ by mapping it to the left ideal $\{n\in M| n\cdot m\in L\}$. (Of course, the same description of $\Omega$ applies to the case of groups as well, it is just, that groups lack non-trivial left ideals!)
+
+#### Remark
+
+If one views a presheaf as a set varying (, or evolving) over $S$, then the subobject classifier can be viewed as encapsulating the ways of an element to be in the set ranging from 'never' to 'always' being in the set. In $Set$ these two extremes are the only possibilities, but in the general case there are ways to become an element 'over time'. It might be helpful to have a look at the simple example of a subobject classifier in the presheaf topos of directed graphs worked out at [[Quiv]] to get some intuition.
 
 ### In a non-boolean topos
 
