@@ -241,6 +241,7 @@ The case of of [[E11]] is discussed in
 
 * [[Peter West]], _$E_{11}$ and M-theory_, Class. Quant. Grav. 18, 4443 (2001) ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081)).
 
+* {#West16} [[Peter West]], _A brief review of E theory_ ([arXiv:1609.06863](http://arxiv.org/abs/1609.06863))
 
 ### Further details
 
