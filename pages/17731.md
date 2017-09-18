@@ -139,6 +139,8 @@ such that for all $v_1, v_2 \in V$ and $\lambda \in \mathbb{C}$ then
 
 1. (non-degeneracy) if $\langle v_1,-\rangle = 0$ then $v_1 = 0$.
 
+
+
 A complex [[linear function]]  $f \colon V \to V$ is _[[unitary operator|unitary]]_ with respect to this hermitian form if it preserves it, in that
 
 $$
@@ -252,7 +254,49 @@ $$
   \,.
 $$
 
-Now...
+Case $t = 1$:
+
+There is a choice for the complexified Clifford algebra generators such that
+
+* $\Gamma_{time}$ is hermitian
+
+* $\Gamma_{space}$ is anti-hermitian
+
+This means that for $\mathbb{C}^{ceil(d-2)/2}$ a complex representation, then a hermitian form for which the Spin-group acts unitarily is given by
+
+$$
+  \langle 
+    v_1, v_2
+  \rangle
+   \coloneqq
+   v_1^\dagger \Gamma_0 v_2
+$$
+
+because the commutation through $\Gamma_0$ compensates the sign offset that elements of the form $\Gamma_{time} \Gamma_{space}$ pick up from the fact that $\Gamma_{time}$ fails to pick up the same sign from hermitian conjugation as the $\Gamma_{space}$ do.
+
+Let then $C$ be the matrix that represents the bilinear form $(-,-)$, this is the [[charge conjugation matrix]]. From
+
+$(-,-) = \langle J(-),(-)\rangle$
+
+it jence follows for a Majorana spinor with $J(\psi) = \psi$ that 
+
+$$
+  \psi^t C \psi' = \psi^\dagger \Gamma_0 \psi'
+$$
+
+and hence by non-degeneracy of the pairing that 
+
+$$
+  \psi^t C = \psi^\dagger \Gamma_0
+$$
+
+which is the Majorana condition in the usual component expression
+
+
+(...)
+
+
+
 
 ## Related concepts
 
