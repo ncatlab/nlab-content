@@ -22,7 +22,7 @@ $\;\;\;\;\;\;\;\;\;\;\;$
 
 $\,$
 
-**Abstract.** _The [[category]] of those [[generalized cohomology theories]] that are equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]] (of [[higher Jacobians]]), such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
+**Abstract.** _The [[category]] of those [[generalized cohomology theories]] that are equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]], such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
 
 
 
@@ -2164,6 +2164,59 @@ For the second statement: If all the $f_k$ are surjective, then inspection shows
 
 =--
 
++-- {: .num_lemma #TowersOfAbelianGroupsHasEnoughInjectives}
+###### Lemma
+
+The category $Ab^{(\mathbb{N}, \geq)}$ of [[towers]] of [[abelian groups]] has [[enough injectives]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The functor $(-)_n \colon Ab^{(\mathbb{N}, \geq)} \to Ab$ that picks the $n$-th component of the tower has a [[right adjoint]] $r_n$, which sends an abelian group $A$ to the tower
+
+$$
+  r_n
+  \coloneqq
+  \left[
+    \cdots \overset{id}{\to}
+    A \overset{id}{\to}
+    \underset{= (r_n)_{n+1}}{\underbrace{A}} \overset{id}{\to}
+    \underset{= (r_n)_n}{\underbrace{A}} 
+       \overset{id}{\to}
+    \underset{= (r_n)_{n-1}}{\underbrace{0}}
+    \to 
+    0
+    \to
+    \cdots
+    \to
+    0
+    \to 
+    0
+  \right]
+  \,.
+$$
+
+Since $(-)_n$ itself is evidently an [[exact functor]], its right adjoint preserves injective objects ([prop.](injective+object#RightAdjointsOfExactFunctorsPreserveInjectives)). 
+
+So with $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$, let $A_n \hookrightarrow \tilde A_n$ be an injective resolution of the abelian group $A_n$, for each $n \in \mathbb{N}$. Then 
+
+$$
+  A_\bullet 
+    \overset{(\eta_n)_{n \in \mathbb{N}}}{\longrightarrow}
+  \underset{n \in \mathbb{R}}{\prod}
+  r_n A_n
+  \hookrightarrow
+  \underset{n \in \mathbb{N}}{\prod} r_n \tilde A_n
+$$
+
+is an injective resolution for $A_\bullet$.
+
+=--
+
+
 +-- {: .num_prop #Lim1IsDerivedLimit}
 ###### Proposition
 
@@ -2174,7 +2227,8 @@ The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)
 +-- {: .proof}
 ###### Proof
 
-For $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$ the given tower of abelian groups, let 
+By lemma \ref{TowersOfAbelianGroupsHasEnoughInjectives} there are [[enough injectives]] in $Ab^{(\mathbb{N}, \geq)}$. 
+So for $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$ the given tower of abelian groups, let 
 
 $$
   0 
