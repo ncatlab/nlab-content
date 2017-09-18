@@ -253,7 +253,7 @@ This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.
 ## Definition in higher algebra
  {#DefinitionInHigherAlgebra}
 
-We discuss the general definition of $E$-[[Adams-Novikov spectral sequences]] for suitable [[E-∞ rings]] $E$ expressed in [[higher algebra]], as in ([Lurie, Higher Algebra](#Lurie)). We follow the nice exposition in ([Wilson 13](#Wilson13)).
+We discuss the general definition of $E$-[[Adams-Novikov spectral sequences]] for suitable [[E-∞ rings]] $E$ expressed in [[higher algebra]], as in ([Lurie, Higher Algebra](#Lurie)). We follow [Lurie 10](#Lurie10), a nice exposition is in ([Wilson 13](#Wilson13)).
 
 First we recall
 
@@ -710,24 +710,24 @@ See also
 * [pdf](http://www.math.harvard.edu/~sia/notes/classical_topology_adams.pdf)
 
 
-A nice review from the modern point of view of [[higher algebra]] is in 
+The modern point of view of [[higher algebra]] is in 
 
-* {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/index.php) ([pdf](http://www.math.harvard.edu/~hirolee/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
- 
+* {#Lurie10} [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_ (2010)
 
-More review along these lines is in
-
-* {#Lurie10} [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_, lecture 8, _The Adams Spectral Sequence_, 2010 ([pdf] (http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
+  * lecture 8, _The Adams Spectral Sequence_ ([pdf] (http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
   
+  * lecture 9, _The Adams Spectral Sequence for $MU$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
 
-* [[Jacob Lurie]], _[Chromatic homotopy theory lecture](http://www.math.harvard.edu/~lurie/252x.html)_, lecture 9, _The Adams Spectral Sequence for $MU$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
+  * lecture 30, _Localizations and the Adams-Novikov Spectral Sequence_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture30.pdf))
 
 based on 
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+
+and nicely surveyed in
+
+* {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/index.php) ([pdf](http://www.math.harvard.edu/~hirolee/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
  
-
-
 
 
 
