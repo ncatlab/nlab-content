@@ -1,49 +1,30 @@
+*  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
+   $$ F \cap G = \empty .$$
 
-+-- {: .num_remark #CoLimitsInNiceTopologicalSpaces}
-###### Remark
+   In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow \bullet \}$ such that $S_{F,G}(x)=F$ for $x in F$, $S_{F,G}(x)=G$ for $x \in G$, and $S_{F,G}(x)=\bullet$ for $x \notin F\cup G$.
 
-**(limits and colimits in categories of [[nice topological spaces]])**
+*  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:  
+$$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
 
-Recall from remark \ref{ReflectiveSubcategory} the concept of [[adjoint functors]]
+   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as
 
-$$
-  L \colon \mathcal{C} \leftrightarrow \mathcal{D} \colon R
-$$
+   $$ 
+     S_{F,G}
+       : 
+     S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}
+   $$ 
 
-witnessed by [[natural isomorphisms]]
+   or 
+  
+   $$ 
+     S_{F,G}
+       : 
+     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow
+     \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \}    
+   $$ 
 
-$$
-  Hom_{\mathcal{D}}(L(c),d)
-    \simeq
-  Hom_{\mathcal{C}}(c,R(d))
-  \,.
-$$
+   where
+ 
+   $U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
 
-Observe that with prop. \ref{HomFunctorPreservesLimits} it follows that
-
-1. [[left adjoint functors]] preserve [[colimits]]
-
-1. [[right adjoint fucntors]] preserve [[limits]]
-
-This implies that if we have a [[reflective subcategory]] of topological spaces
-
-$$
-  Top_{nice}
-    \underoverset
-      {\underset{\iota}{\hookrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\bot}
-  Top
-$$
-
-(where $Top_{nice}$ is for instance $Top_{T_n}$ for $n \in \{0,1,2\}$ or $Top_{sob}$)
-
-then
-
-1. limits in $Top_{nice}$ are computed as limits in $Top$;
-
-1. colimits in $Top_{nice}$ are computed as the reflection $L$ of the colimit in $Top$.
-
-(...)
-
-=--
+   Notice that topologically disjoint sets must be disjoint.
