@@ -30,6 +30,9 @@ For small string coupling its [[worldvolume]] theory is [[super Yang-Mills theor
 
 * [[3-brane in 6d]]
 
+[[!include table of branes]]
+
+
 ## References
 
 The [[Green-Schwarz sigma-model]] description of D3-branes via cocycles on [[extended super Minkowski spacetimes]] is obtained in 
@@ -37,6 +40,5 @@ The [[Green-Schwarz sigma-model]] description of D3-branes via cocycles on [[ext
 * {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
 
-[[!include table of branes]]
 
 [[!redirects D3-branes]]
