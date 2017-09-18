@@ -9,6 +9,23 @@ An **involution** is an [[endomorphism]] whose square is the [[identity morphism
 
 Where this makes sense, an __anti-involution__ is an [[antihomomorphism]] instead of a [[homomorphism]] (so an antiendomorphism and necessarily an antiautomorphism).
 
+## Monad of involutions
+
+An involution on a set $X$ is the same thing as an [[action]] of $\mathbb{Z}/2\mathbb{Z}$ on $X$.
+
+More generally, let $(C,\otimes,1)$ be a [[monoidal category]] with [[distributive monoidal category|distributive]] finite [[coproducts]]. The object $2 = 1 + 1$ is equipped with an involution
+$$
+not : 2 \to 2
+$$
+defined as the [[copairing]] $not = [inr,inl]$ of the right and left injections.
+Moreover, 2 can be given the structure of a [[monoid]] in $C$, with unit and multiplication
+$$false : 1 \to 2 \qquad xor : 2 \otimes 2 \to 2$$
+defined by $false = inl$ and $xor = [id,not]$ (here we make use of the isomorphism $2 \otimes 2 \cong 2 + 2$ to define $xor$ by copairing). The mapping
+$$
+X \mapsto 2 \otimes X \cong X + X
+$$
+thus extends to a [[monad]] on $C$, sending any object $X$ to the free object equipped with an involution over $X$. Explicitly, the unit $\eta_X : X \to 2\otimes X$ and the multiplication $\mu_X : 2\otimes 2\otimes X \to 2\otimes X$ of the monad are defined by tensoring the unit and the multiplication of the monoid with the identity on $X$, while the involution on $2 \otimes X$ is likewise defined by tensoring the involution on 2 with the identity on $X$. We then have that involutions in $C$ are precisely the [[module over a monad|algebras]] of the monad $(2\otimes-,false\otimes-,not\otimes-)$.
+
 ## Properties
 
 Two involutions $f, g : X \to X$ [[commutative diagram|commute]] if and only if their composition $f g$ is also an involution, as displayed by the following algebra:
