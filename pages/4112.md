@@ -83,6 +83,7 @@ An __open__ in Cantor space is a collection $G$ of [[list|finite sequences]] of 
 
 A point $\alpha$ __belongs__ to an open $G$ if, for some $u$ in $G$, $\alpha$ is an extension of $u$.
 
+An alternative characterization of Cantor space is as the [[terminal coalgebra for an endofunctor|terminal coalgebra]] for the endofunctor on [[Top]], $X \mapsto X + X$.
 
 ### What kind of space?
 
