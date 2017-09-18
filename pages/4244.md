@@ -96,6 +96,12 @@ Discussion of the relation between the various shades of definitions includes
 
 * MathOverflow: _[Calabi-Yau manifolds](http://mathoverflow.net/q/42707/381)_
 
+Discussion of CYs in [[positive characteristic]] includes
+
+* [[Philip Candelas]], [[Xenia de la Ossa]], Fernando Rodriguez-Villegas, _Calabi-Yau Manifolds Over Finite Fields, I_ ([arXiv:hep-th/0012233](http://arxiv.org/abs/hep-th/0012233))
+
+* [[Philip Candelas]], [[Xenia de la Ossa]], Fernando Rodriguez-Villegas, _Calabi-Yau Manifolds Over Finite Fields, II_ ([arXiv:hep-th/0402133](http://arxiv.org/abs/hep-th/0402133))
+
 [[!redirects Calabi-Yau]]
 [[!redirects Calabi–Yau]]
 [[!redirects Calabi--Yau]]
