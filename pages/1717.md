@@ -28,7 +28,7 @@ More general [[2-group]]s correspond to group objects in the [[2-category]] inca
 
 We may think of any 2-group $G$ in terms of its [[delooping]] $\mathbf{B}G$, a [[2-groupoid]] with a single object, with morphisms the objects of $G$ and [[k-morphism|2-morphism]]s the morphisms of $G$. If $G$ is a strict 2-group, then $\mathbf{B}G$ is a strict 2-groupoid. This is often a useful point of view. In particular, the general strictification result of [[bicategory|bicategories]] implies that any such 2-groupoid is equivalent to a strict one. So, up to the right notion of equivalence, strict 2-groups already exhaust all 2-groups; we just have to take care to allow for *homomorphisms* of these $2$-groups to be weak. (However, this theorem may not apply to structured $2$-groups, such as [[Lie 2-group]]s.)
 
-Strict 2-groups are also equivalently encoded in terms of [[crossed module]]s $(G_2 \to G_1)$ of ordinary groups: $G_1$ is the group of [[object]]s of the groupoid $G$ and $G_1$ the group of [[morphism]]s in $G$ whose source is the neutral element in $G_1$. 
+Strict 2-groups are also equivalently encoded in terms of [[crossed module]]s $(G_2 \to G_1)$ of ordinary groups: $G_1$ is the group of [[object]]s of the groupoid $G$ and $G_2$ the group of [[morphism]]s in $G$ whose source is the neutral element in $G_1$. 
 
 In applications it is usually useful to pass back and forth between the 2-groupoid incarnation of strict 2-groups and their incarnation as crossed modules. The first perspective makes transparent many constructions, while the second perspective gives a useful means to do computations with 2-groups. The translation between the two points of view is described in detail below.
 
