@@ -4,9 +4,9 @@
 
 ## writings
 
-* {#Kochmann96} [[Stanley Kochmann]], _Bordism, Stable Homotopy and Adams Spectral Sequences_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-on [[cobordism theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]
+on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
 
 category: people
 
