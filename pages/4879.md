@@ -36,7 +36,7 @@ A simpler version of this characterization is the following.
 
 +--{: .un_lemma}
 ###### Lemma
-A functor $p \colon E \to B$ is a [[cleavage|cloven]] Street fibration if and only if the canonical functor $i \colon B \to E/p$ has a right adjoint $r$ in $Cat / B$.
+A functor $p \colon E \to B$ is a [[cleavage|cloven]] Street fibration if and only if the canonical functor $i \colon E \to B/p$ has a right adjoint $r$ in $Cat / B$.
 =--
 +-- {: .proof }
 ###### Proof
