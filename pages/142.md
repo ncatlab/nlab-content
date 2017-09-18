@@ -104,6 +104,12 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
 (where the first equivalence comes from the bicategorical Yoneda lemma, and the second functor is induced from the subfunctor $i: F \to \hom(-, c)$) is an equivalence for all $J$-covering sieves $F$. This formulation connects up nicely, that is, is a straight categorification of what was put down in the entry [[sheaf]]. 
 
+###Examples
+
+* The stack of $BG$ is a functor $Mfd^{op} \to Gpd$, sending $U\in Mfd$ to the groupoid of $G$-principal bundles over $U$ with $G$-equivariant morphisms; sending $U\xrightarrow{f} V$ to the functor induced by pullbacks of principal bundles via $f$.  Then $BG$ comes from the prestack $BG^p: Mfd^{op} \to Gpd$ sending $U\in Mfd$ to the groupoid of trivial principal bundles over $U$ with $G$-equivariant morphisms (then it is just a $G$-valued function $U\xrightarrow{g} G$; sending $U\xrightarrow{f}V$ to the functor induced by pullbacks of principal bundles via $f$. Then sheafification or stackification will give us $BG$ back. 
+
+
+
 ## Related concepts
 
 * [[sheaf]]
