@@ -572,7 +572,7 @@ $$
    \\
    {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
    \\
-   X_{n+1} &\underset{\tilde f_{n+1}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
+   X_{n+1} &\underset{\widetilde{f_{n+1}}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
   }
   \,.
 $$
@@ -581,14 +581,14 @@ Then applying the same isomorphism diagonally once more gives a further bijectio
 
 $$
   \array{
-    X_n &\overset{\tilde f_n}{\longrightarrow}& Maps(S^1,Y_n)_\ast
+    X_n &\overset{\widetilde{f_n}}{\longrightarrow}& Maps(S^1,Y_n)_\ast
     \\
     {}^{\mathllap{\tilde \sigma_n}}\downarrow 
       && 
     \downarrow^{\mathrlap{Maps(S^1,\tilde \sigma^Y_n)_\ast}}
     \\
     Maps(S^1, X_{n+1})_\ast
-      &\underset{Maps(S^1,\tilde f_n)_\ast}{\longrightarrow}&
+      &\underset{Maps(S^1,\widetilde{f_{n+1}})_\ast}{\longrightarrow}&
     Maps\left(S^1, Maps(S^1,Y_{n+1})_\ast\right)_\ast
   }
   \,.
@@ -624,14 +624,17 @@ $$
      \\
      SeqSpec(Top_{cg})
      &
-     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq}
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
      &
      SeqSpec(Top_{cg})
   }
   \,,
 $$
 
-Here the top horizontal adjunction is from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, the vertical adjunction is from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} and then bottom adjunction is from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}.
+Here the top horizontal adjunction is from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, the vertical adjunction is from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} and the bottom adjunction is from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}.
 
 =--
 
@@ -927,7 +930,7 @@ of standard generating cofibrations and generating acyclic cofibrations, respect
 Write
 
 $$
-  I_{SeqSpec}^{stric} 
+  I_{SeqSpec}^{strict} 
     \coloneqq 
   \left\{ 
     y(S^n) \cdot i_+ 
