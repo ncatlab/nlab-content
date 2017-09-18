@@ -1,26 +1,27 @@
+For
+
 $$
   \array{
-     \cdots 
-       &\stackrel{}{\longrightarrow}& 
-     \mathcal{D}^{3,\bullet} 
-       &\stackrel{i_2}{\longrightarrow}& 
-     \mathcal{D}^{2,\bullet} 
-       &\stackrel{i_1}{\longrightarrow} & 
-     \mathcal{D}^{1,\bullet} 
-       &\stackrel{i_0}{\longrightarrow}& 
-     \mathcal{D}^{0,\bullet}
-     \\
-     && 
-     \downarrow^{\mathrlap{}}  
-       &{}_{  } \underset{\mathllap{k_2}}{\nwarrow} & 
-       {}^{\mathllap{j_2}}\downarrow &
-       \underset{k_1}{\nwarrow}
-       &
-     {}^{\mathllap{j_1}}\downarrow &{}_{} \underset{\mathllap{k_0}}{\nwarrow}
-     & \downarrow_{\mathrlap{j_0}}
-     \\
-     && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
-     && \mathcal{E}^{1,\bullet} && \mathcal{E}^{0,\bullet}
-   }
+    id_A \colon & A &\longrightarrow& X &\longrightarrow& A
+    \\
+    & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
+    \\
+    id_B \colon & B &\longrightarrow& Y &\longrightarrow& B
+  }
+  \,.
 $$
+
+a retract diagram and $X \to Y$ an isomorphism, the inverse to $A \overset{f}{\to} B$ is given by the composite
+
+$$
+  \array{
+    &  & & X & \longrightarrow & A
+    \\
+    & && \uparrow^{\mathrlap{f^{-1}}} && 
+    \\
+    & B & \longrightarrow& Y&&     
+  }
+  \,.
+$$
+
 
