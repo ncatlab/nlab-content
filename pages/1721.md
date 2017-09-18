@@ -171,6 +171,27 @@ We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$
 
 * **(Dimension)**  $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
 
+A [[homomorphism]] of reduced cohomology theories
+
+$$
+  \eta \;\colon\; \tilde E^\bullet \longrightarrow \tilde F^\bullet
+$$
+
+is a [[natural transformation]] between the underlying functors which is compatible with the suspension isomorphisms in that all the following [[commuting square|squares commute]]
+
+$$
+  \array{
+    \tilde E^\bullet(X) &\overset{\eta_X}{\longrightarrow}&  \tilde F^\bullet(X)
+    \\
+    {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
+    \\
+    \tilde E^{\bullet + 1}(\Sigma X) 
+    &\overset{\eta_{\Sigma X}}{\longrightarrow}&
+    \tilde F^{\bullet + 1}(\Sigma X)
+  }
+  \,.
+$$
+
 =--
 
 (e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
@@ -209,7 +230,7 @@ such that $H^\bullet$
 +-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
 ###### Definition
 
-Given a generalized cohomology theory $(H^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
+Given a generalized cohomology theory $(H^\bullet,\sigma)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
 
 $$
   X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
@@ -273,7 +294,7 @@ In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topolo
 +-- {: .num_defn #GeneralizedCohomologyTheory}
 ###### Definition
 
-A _[[cohomology theory]]_ (unreduced) is a [[functor]]
+A _[[cohomology theory]]_ (unreduced, [[relative cohomology|relative]]) is a [[functor]]
 
 $$
   E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
@@ -282,36 +303,36 @@ $$
 to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
 
 $$
-  \delta_{(X,U)} 
+  \delta_{(X,A)} 
     \;\colon\;  
-  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
+  E^\bullet(A, \emptyset) \to E^{\bullet + 1}(X, A)
   \,.
 $$ 
 
 such that:
 
-1. **(homotopy invariance)** For $f \colon (X_1,U_1) \to (X_2,U_2)$ a [[homotopy equivalence]] of pairs, then 
+1. **(homotopy invariance)** For $f \colon (X_1,A_1) \to (X_2,A_2)$ a [[homotopy equivalence]] of pairs, then 
 
    $$
      E^\bullet(f) 
       \;\colon\; 
-     E^\bullet(X_2,U_2) \stackrel{\simeq}{\longrightarrow} E^\bullet(X_1,U_1)
+     E^\bullet(X_2,A_2) \stackrel{\simeq}{\longrightarrow} E^\bullet(X_1,A_1)
    $$
 
    is an [[isomorphism]];
 
-1. {#ExactnessUnreduced} **(exactness)** For $U \hookrightarrow X$ the induced sequence
+1. {#ExactnessUnreduced} **(exactness)** For $A \hookrightarrow X$ the induced sequence
 
    $$ 
      \cdots 
        \to 
-     E^n(X, U) 
+     E^n(X, A) 
        \longrightarrow 
      E^n(X) 
        \longrightarrow
-     E^n(U) 
+     E^n(A) 
        \stackrel{\delta}{\longrightarrow} 
-     E^{n+1}(X, U) 
+     E^{n+1}(X, A) 
        \to 
      \cdots 
    $$
@@ -336,10 +357,110 @@ We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in 
 
 * **(Dimension)**: $E^{\bullet \neq 0}(\ast,\emptyset) = 0$.
 
+A [[homomorphism]] of unreduced cohomology theories 
+
+$$
+  \eta \;\colon\; E^\bullet \longrightarrow F^\bullet
+$$
+
+is a [[natural transformation]] of the underlying functors that is compatible with the connecting homomorphisms, hence such that all these [[commuting square|squares commute]]:
+
+$$
+  \array{
+     E^\bullet(A,\emptyset) &\overset{\eta_{(A,\emptyset)}}{\longrightarrow}& F^\bullet(A,\emptyset)
+     \\
+     {}^{\mathllap{\delta_E}}\downarrow && \downarrow^{\mathrlap{\delta_F}}
+     \\
+     E^{\bullet +1}(X,A) 
+       &\overset{\eta_{(X,A)}}{\longrightarrow}&
+     F^{\bullet +1}(X,A)
+  }
+  \,.
+$$
+
 =--
 
 e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
 
+
++-- {: .num_defn #AlternativeFormulationOfExcisionAxiom}
+###### Lemma
+
+The excision axiom in def. \ref{GeneralizedCohomologyTheory} is equivalent to the following statement:
+
+For all $A,B \hookrightarrow X$ with $X = Int(A) \cup Int(B)$, then the inclusion
+
+$$
+  i \colon (A, A \cap B) \longrightarrow (X,B) 
+$$
+
+induces an isomorphism,
+
+$$
+  i^\ast 
+    \;\colon\;
+  E^\bullet(X, B)
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet(A, A \cap B)
+$$
+
+=--
+
+(e.g [Switzer 75, 7.2](#Switzer75))
+
++-- {: .proof}
+###### Proof
+
+In one direction, suppose that $E^\bullet$ satisfies the original excision axiom. Given $A,B$ with $X = \Int(A) \cup Int(B)$, set $U \coloneqq X-A$ and observe that 
+
+$$
+  \begin{aligned}
+     \overline{U} 
+        & = \overline{X-A} 
+     \\ & = X- Int(A)
+     \\ & \subset Int(B)
+  \end{aligned}
+$$
+
+and that
+
+$$
+  (X-U, B-U) = (A, A \cap B)
+  \,.
+$$
+
+Hence the excision axiom implies $  E^\bullet(X, B) \overset{\simeq}{\longrightarrow} E^\bullet(A, A \cap B)$. 
+
+Conversely, suppose $E^\bullet$ satisfies the alternative condition. Given $U \hookrightarrow A \hookrightarrow X$ with $\overline{U} \subset Int(A)$, observe that we have a cover
+
+$$
+  \begin{aligned}
+          Int(X-U) \cup Int(A) 
+      & = (X - \overline{U}) \cap \Int(A)
+   \\ & \supset (X - Int(A)) \cap Int(A)
+   \\ & = X   
+  \end{aligned}
+$$
+
+and that
+
+$$
+  (X-U, (X-U) \cap A) = (X-U, A - U)
+  \,.
+$$
+
+Hence
+
+$$
+  E^\bullet(X-U,A-U)
+  \simeq
+  E^\bullet(X-U, (X-U)\cap A)
+  \simeq
+  E^\bullet(X,A)
+  \,.
+$$
+
+=--
 
 The following lemma shows that the dependence in pairs of spaces in a generalized cohomology theory is really a stand-in for evaluation on [[homotopy cofibers]] of inclusions.
 
@@ -630,7 +751,7 @@ e.g. ([Switzer 75, 7.35](#Switzer75))
 +-- {: .proof}
 ###### Proof
 
-Exactness holds by prop. \ref{LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}. For excision...
+Exactness holds by prop. \ref{LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}. For excision, it is sufficient to consider the alternative formulation of lemma \ref{AlternativeFormulationOfExcisionAxiom}.  For CW-inclusions, this follows immediately with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}.
 
 =--
 
