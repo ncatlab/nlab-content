@@ -235,7 +235,11 @@ and is reviewed in
 
 * [[Glenn Barnich]], [[Marc Henneaux]],  section 3 of _Isomorphisms between the Batalin-Vilkovisky antibracket and the Poisson bracket_, Journal of Mathematical Physics 37, 5273-5296 (1996) ([arXiv:hep-th/9601124](http://arxiv.org/abs/hep-th/9601124), [DOI 10.1063/1.531726](http://dx.doi.org/10.1063/1.531726))
 
-The statement that the algebra of currents is a central [[Lie algebra extension]] of the algebra of symmetries by [[de Rham cohomology]] of the jet bundle is, essentially, stated as exercise 2.28 on p. 203 of
+The statement that the algebra of currents is a central [[Lie algebra extension]] of the algebra of symmetries by [[de Rham cohomology]] of the jet bundle appears as theorem 11.2 in
+
+* [[Alexandre Vinogradov]], _The b-spectral sequence, Lagrangian formalism, and conservation laws. II. The nonlinear theory_, Journal of Mathematical Analysis and Applications Volume 100, Issue 1, 30 April 1984, Pages 41-129 ([publisher](http://www.sciencedirect.com/science/article/pii/0022247X84900726))
+
+and is stated as exercise 2.28 on p. 203 of
 
 * [[Alexandre Vinogradov]], [[Joseph Krasil'shchik]] (eds.), _Symmetries and conservation laws for differential equations of mathematical physics_, vol. 182 of Translations of Mathematical Monographs, AMS (1999)
 
