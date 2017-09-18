@@ -46,3 +46,8 @@ Reviews include
 
 * Wikipedia, _[Clutching construction](http://en.wikipedia.org/wiki/Clutching_construction)_
 
+
+[[!redirects clutching constructions]]
+
+[[!redirects clutching function]]
+[[!redirects clutching functions]]
