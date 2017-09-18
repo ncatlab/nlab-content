@@ -1,215 +1,202 @@
 
-By [this equation](advanced+and+retarded+causal+propagators#eq:AdvancedPropagatorAsSumOfResidues) for from the discussion at _[[advanced propagator]]_ and [this equation](Hadamard+distribution#eq:2PointFunctionFreeScalarFieldOnMinkowski) from the discussion at _[[Hadamard propagator]]_ we have
+
+## Relation to universal enveloping algebras
+ {#RelationToUniversalEnvelopingAlgebras}
+
+It is a classical fact that 
+the [[universal enveloping algebra]] of a [[Lie algebra]] provides 
+a deformation quantization of the corresponding [[Lie-Poisson structure]]
+(example \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below).
+Remarkably, this statement generalizes to more general [[polynomial Poisson algebras]] (def. \ref{PolynomialPoissonAlgebra} below)
+for a suitable generalized concept of universal enveloping algebra (def. \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below):
+it is _always_ true up to third order in $\hbar$, and sometimes to higher order ([Penkava-Vanhaecke 00, theorem 3.2](#PenkavaVanhaecke00), prop. \ref{UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3} below).
+In particular it also holds true for restrictions of [[Poisson bracket Lie algebras]] to their [[Heisenberg Lie algebras]]
+(example \ref{DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras} below).
+
++-- {: .num_defn #PolynomialPoissonAlgebra}
+###### Definition
+**([[polynomial]] [[Poisson algebra]])**
+
+A [[Poisson algebra]]  $((A,\cdot), \{-,-\})$
+is called a _[[polynomial Poisson algebra]]_ if the underlying [[commutative algebra]] $(A,\cdot)$
+is a [[polynomial algebra]], hence a [[symmetric algebra]] 
 
 $$
-  \begin{aligned}
-    i \Delta_A(x,y)
-    & = 
-    \left\{
-      \array{
-        -
-        (2\pi)^{-p} 
-        \int
-        \left(
-          \frac{
-            e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
-          }
-          {
-            2 E(\vec k)
-          }
-          -
-          \frac{
-            e^{ + i E(\vec k)(x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
-          }{
-            2 E(\vec k)
-          }
-        \right)
-        & \vert & (x^0 - y^0) \lt 0
-        \\
-        0 & \vert & (x^0 - y^0) \gt 0
-      }
-    \right.
-    \\
-    \omega(x,y)
-    & = 
-    (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
-  \end{aligned}
-$$
+  Sym(V) \coloneqq T(V)/(x \otimes y - y \otimes x \vert x,y \in V)
+$$ 
 
-Therefore
+on some [[vector space]] $V$. Here 
 
 $$
-  \begin{aligned}
-    \omega(x,y)
-    + i \Delta_A(x,y)
-    & = 
-      \left\{
-        \array{
-      (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
-          & \vert & (x^0 - y^0) \gt 0
-          \\
-      (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{+ i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
-          & \vert & (x^0 - y^0) \lt  0
-        }
-      \right. 
-    \\
-    & = 
-    \left\{
-      \array{
-        \omega(x,y) & \vert & (x^0 - y^0) \gt 0
-        \\
-        \omega(y,x) & \vert & (x^0 - y^0) \lt 0
-      }
-    \right.
-  \end{aligned} 
+  T(V) \coloneqq \underset{n \in \mathbb{N}}{\oplus} V^{\otimes^n}
 $$
 
-
-
-[[ContourForCausalPropagator.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="200">
-
-[[ContourForAdvancedPropagator.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/ContourForAdvancedPropagator.png" height="260">
-
-
-[[ContourForHadamardPropagator.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="220">
-
-[[ContourForFeynmanPropagator.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/ContourForFeynmanPropagator.png" height="300">
-
+denotes the [[tensor algebra]] of $V$. We write
 
 $$
-  \begin{aligned}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 + i k_0 \epsilon /2 }
-    d^{p+1} k
-    & =
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-    \int
-      \frac{
-        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        - (k_0 - i \epsilon )^2 + E_\epsilon(\vec k)^2 
-      } 
-    d k_0
-    d^p \vec k 
-    \\
-    & =
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-      \frac{
-        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        ( E_\epsilon(\vec k) + (k_0 - i \epsilon) )
-        ( E_\epsilon(\vec k) - (k_0 - i \epsilon) )
-      } 
-    d k_0
-    d^p \vec k
-    \\
-    & = 
-    \left\{
-      \array{
-        2\pi i
-        \int
-        \frac{
-          e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
-        }
-        {
-          2 E(\vec k)
-        }
-        -
-        \frac{
-          e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
-        }{
-          2 E(\vec k)
-        }
-        & \vert & x^0 \gt 0
-        \\
-        0 & \vert & x^0 \lt 0
-      }
-    \right.
-    \\
-    & = 
-    - \pi i
-    \Theta(x^0)
-    \int
-      \frac{1}{E(\vec k)}
-      sin\left( E(\vec k)(x-y)^0 \right)
-      e^{-i \vec k \cdot (\vec x - \vec y)}
-     d^p \vec k
-  \end{aligned}
+  \mu \;\colon\; T(V) \longrightarrow Sym(V)
+$$ 
+
+for the canonical [[projection]] map (which is an algebra [[homomorphism]]) and
+
+$$
+  \sigma \;\colon\; Sym(V) \longrightarrow T(V)
 $$
 
+for its [[linear map|linear]] inverse (symmetrization, which is not in general an algebra [[homomorphism]]).
 
+Notice that by its bi-[[derivation]] property the Poisson bracket 
+on a polynomial Poisson algebra is fixed by its restriction to linear elements
 
-## Where should tags for text elements appear. Start or end?
+$$
+  \{-,-\} \;\colon\; V \otimes V \longrightarrow Sym(V)
+  \,.
+$$
 
-This started off as "do tags on elements of a sub list work?"
-
-{#pgh} Here is a paragraph starting with the tag `pgh`.
-
-See [this paragraph](#pgh).
-
-from [[quasitopos]] 
-
-* The following examples are categories of separated presheaves for the $\neg\neg$-topology on various presheaf toposes: 
-
-  * {#inj} The category of [[monomorphisms]] between sets (as presheaves on the [[interval category]]).  
-
-  * {#endorel} The category of sets equipped with a [[relation]] (as presheaves on 
-    $$G_1 = (0 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} 1),$$ 
-    a truncation of the [[globular category]]).  
-
-  * {#endoref} The category of sets equipped with a reflexive relation (as presheaves on a truncated reflexive globular category). 
-
-  * {#endosym} The category of sets equipped with a symmetric relation (as presheaves on the full subcategory of finite sets and injections consisting of just the objects $1$, $2$). 
-
-  * {#endorefsym} The category of sets equipped with a reflexive symmetric relation (as presheaves on the full subcategory of finite sets consisting of just the objects $1$, $2$). See [[category of simple graphs]]. 
-
-* {#born} The category of [[bornological set|bornological sets]].
-
-* The tag at the end of this list item doesn't make it into the HTML. {#atend} 
-
-* removing the space before the tag doesn't help.{#atend2}
-
-----
-
-Tag [at end](#atend) of text preceded by a space doesn't work. 
-
-Spaceless tag [at end](#atend2) doesn't work.
-
-All of these work (with the tag at the start):
-
-* [$Inj$](#inj), [$EndoRel$](#endorel), [$EndoSym$](#endosym), [$EndoRef$](#endoref), [$EndoRefSym$](#endorefsym).
-
------
-
-Strangely single bracket link texts allow math expressions while double bracket texts don't. For example
-
-    the topos [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos) or[$Set^\to$](nlab/show/Sierpinski+topos) or [[Sierpinski topos|$Set^\to$]]. 
-
-produces
-
-+-- {: .standout}
-the topos [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos) or[$Set^\to$](nlab/show/Sierpinski+topos) or [[Sierpinski topos|$Set^\to$]]. 
 =--
 
------
++-- {: .num_example #PolynomialLiePoissonStructure}
+###### Example
+**(polynomial [[Lie-Poisson structure]])**
 
-## heading1 with tag at end works.{#head1}
+Let $(C^\infty(\mathbb{R}^n), \pi)$ be a [[Poisson manifold]] whose
+underlying manifold is a [[Cartesian space]] $\mathbb{R}^n$. Then the restriction
+of its Poisson algebra $( C^\infty(\mathbb{R}^n, \cdot), \pi^{i j} \partial_i(-) \cdot \partial_j(-)  )$
+to the [[polynomial functions]] $\mathbb{R}[x^1, \cdots, x^n ] \ookrightarrow C^\infty(\mathbb{R}^n)$
+is a polynomial Poisson algebra according to def. \ref{PolynomialPoissonAlgebra}.
 
-link to [heading1](#head1).
+In particular if $(\mathfrak{g}, [-,-])$ is a [[Lie algebra]] and
+$(\mathfrak{g}^\ast, \{-,-\})$ the corresponding [[Lie-Poisson structure|Lie-Poisson manifold]], 
+then the corresponding polynomial Poisson algebra is $(Sym(\mathfrak{g}), \{-,-\})$
+where the restriction of the Poisson bracket to linear polynomial elements coincides with the [[[Lie bracket]]:
 
-## {#head2}heading2 with tag at start. The tag doesn't make it into HTML.
+$$
+  \{x,y\} = [x,y]
+  \,.
+$$
 
-link to [heading2](#head2).
+=--
+
++-- {: .num_defn #UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra}
+###### Definition
+**(universal enveloping algebra of polynomial Poisson algebra)**
+
+Given a polynomial Poisson algebra $(Sym(V), \{-,-\})$ (def. \ref{PolynomialPoissonAlgebra}),
+say that its _universal enveloping algebra_ $\mathcal{U}(V,\{-,-\})$ is the [[associative algebra]] which is the [[quotient]] of 
+the [[tensor algebra]] of $V$ with a [[power series|formal variable]] $\hbar$ adjoined
+by the two-sided ideal which is generated by the the $\hbar$-Poisson bracket relation on linear elements:
+
+$$
+  \mathcal{U}(V,\{-,-\})
+  \;\coloneqq\;
+  T(V)/( x \otimes y - y \otimes x - \hbar \{x,y\} \vert x,y \in V )
+  \,.
+$$
+
+This comes with the quotient projection linear map which we denote by
+
+$$
+  \rho \;\colon\; T(V)[ [ \hbar ] ] \longrightarrow \mathcal{U}(V,\hbar\{-,-\})
+  \,.
+$$
 
 
+=--
+
+([Penkava-Vanhaecke 00, def. 3.1](#PenkavaVanhaecke00))
+
++-- {: .num_example #UniversalEnvelopingAlgebraOfLieAlgebra}
+###### Example
+**([[universal enveloping algebra]] of [[Lie algebra]])**
+
+In the case of a polynomial [[Lie-Poisson structure]] $(Sym(\mathfrak{g}), [-,-])$ (example \ref{PolynomialLiePoissonStructure})
+the universal enveloping algebra $\mathcal{U}(\mathfrak{g},[-,-])$ from def. \ref{UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra}
+(for $\hbar = 1$) coincides with the standard [[universal enveloping algebra]] of the [[Lie alebra]] $(\mathfrak{g}, [-,-])$.
+
+=--
+
+The combined linear projection maps from def. \ref{PolynomialPoissonAlgebra} and def. \ref{UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra}
+we denote by
+
+$$
+  \tau \coloneqq \rho \circ (\sigma[ [ \hbar ] ]) \;\colon\; Sym(V)[ [ \hbar ] ] \longrightarrow \mathcal{U}(V,\{-,-\})
+  \,.
+$$
+
+
++-- {: .num_prop #UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3}
+###### Proposition
+**(universal enveloping algebra provides [[deformation quantization]] at least up to order 3)**
+
+Let $( Sym(V), \{-,-\} )$ be a polynomial Poisson algebra (def. \ref{PolynomialPoissonAlgebra})
+such that the canonical linear map to its universal enveloping algebra (def. \ref{UniversalEnvelopingAlgebraOfPolynomialPoissonAlgebra})
+is [[injective function|injective]] up to order $n \in \mathbb{N}\cup \{\infty\}$
+
+$$
+  \tau/(\hbar^{n+1}) \;\colon\; Sym(V)[ [ \hbar ] ]/(\hbar^{n+1}) \hookrightarrow \mathcal{U}(V,\hbar\{-,-\})/(\hbar^{n+1})
+  \,.
+$$
+
+Then the restriction of the product on $\mathcal{U}(V,\hbar\{-,-\})/(\hbar^{n+1})$ to $Sym(V)/(\hbar^{n+1})$
+is a [[deformation quantization]] of $(Sym(V), \{-,-\})$ to order $n$ (hence a genuine deformation quantization in the case that $n = \infty$).
+
+Moreover, this is _always_ the case for $n = 3$, hence for every polynomial Poisson algebra its universal enveloping algebra 
+always provides a deformation quantization of order $3$ in $\hbar$.
+
+=--
+
+([Penkava-Vanhaecke 00, theorem 3.2 with section 2](#PenkavaVanhaecke00))
+
+
++-- {: .num_example #DeformationQuantizationOfLiePoissonStructuresByUniversalEnvelopingAlgebras}
+###### Example
+**([[deformation quantization]] of [[Lie-Poisson structures]] by universal enveloping algebras)**
+
+In the following cases the map $\tau$ in prop. \ref{UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3}
+is injective to arbitrary order, hence in these cases the universal enveloping algebra
+provides a genuine [[deformation quantization]]:
+
+1. the case that the Poisson bracket is [[linear Poisson structure|linear]] in that restricts as
+
+   $$
+     \{-,-\} \;\colon\; V \otimes V \longrightarrow V \hookrightarrow Sym(V)
+     \,.
+   $$
+
+   This is the case of the [[Lie-Poisson structure]] from example \ref{PolynomialLiePoissonStructure}
+   and the universal enveloping algebra that provides it deformation quantization is the
+   standard one (example \ref{UniversalEnvelopingAlgebraOfLieAlgebra}).
+
+
+1. more generally, the case that the Poisson bracket restricted to linear elements has linear and 
+   constant contribution in that it restricts as
+   
+   $$
+     \{-,-\} \;\colon\; V \otimes V \longrightarrow \mathbb{R} \oplus V \hookrightarrow Sym(V)
+     \,.
+   $$
+   
+   This includes notably the Poisson structures induced by [[symplectic vector spaces]],
+   in which case the restriction
+   
+   $$
+     \{-,-\} \;\colon\; (\mathbb{R} \oplus V) \otimes (\\mathbb{R} \oplus V) \longrightarrow (\mathbb{R} \oplus V)
+   $$
+   
+   is the [[Lie bracket]] of the associated [[Heisenberg Lie algebra]].
+
+
+   
+=--
+
+The first statement in itself is a classical fact (reviewed e.g. in [Gutt 11](#Gutt11)).
+It is remarkable that prop. \ref{UniversalEnvelopingAlgebraProvidesDeformationQuantizationAtLeastToOrder3}
+generalizes this to more general Poisson algebras ([Penkava-Vanhaecke 00, p. 26](#PenkavaVanhaecke00)).
+
+
+
+
+## References
+
+* {#PenkavaVanhaecke00} [[Michael Penkava]], [[Pol Vanhaecke]], _Deformation quantization of Polynomial Poisson algebras_,
+Journal of Algebra 227, 365-393 (2000) 
