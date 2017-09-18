@@ -15,11 +15,10 @@
 
 ## Idea
 
-In [[stable homotopy theory]], a _sequential ([[prespectrum|pre-]])[[spectrum]]_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed topological space]] $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
+In [[stable homotopy theory]], a _sequential ([[prespectrum|pre-]])[[spectrum]]_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed homotopy types]] ([[pointed topological spaces]], pointed [[simplicial sets]]) $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
 
 This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one predominently meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis.
 
-The standard [[model structure on spectra]] for sequential spectra in [[simplicial sets]] is the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78))
 
 ## Definition
 
@@ -89,12 +88,195 @@ of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]]
 
 =--
 
+## Properties
+
+### Model category structures
+
+There is a standard [[model structure on spectra]] for sequential spectra in [[Top]] ([Kan 63](#Kan63)) and for sequential spectra in [[simplicial sets]]: this is the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78)).
+
+
+### Relation to excisive functors
+
+We discuss aspects of the equivalence of sequential spectra carrying the [[Bousfield-Friedlander model structure]] with [[excisive (infinity,1)-functors]], modeled as [[simplicial functors]] carrying a [[model structure for excisive functors]].
+
++-- {: .num_defn #SimplicialSetsPointedAndFinite}
+###### Definition
+
+Write 
+
+* [[sSet]] for the [[category]] of [[simplicial sets]];
+
+* $sSet^{\ast/}$ for the category of [[pointed object|pointed]] simplicial sets;
+
+* $sSet_{fin}^{\ast/}\simeq s(FinSet)^{\ast/} \hookrightarrow sSet^{\ast/}$ for the [[full subcategory]] of [[pointed object|pointed]] [[simplicial object|simplicial]] [[finite sets]].
+
+Write
+
+$$
+  sSet^{\ast/}
+  \stackrel{\overset{(-)_+}{\longleftarrow}}{\underset{u}{\longrightarrow}}
+  sSet
+$$
+
+for the [[free-forgetful adjunction]], where the [[left adjoint]] functor $(-)_+$ freely adjoins a base point.
+
+Write
+
+$$
+  \wedge \colon sSet^{\ast/} \times sSet^{\ast/} \longrightarrow sSet^{\ast/}
+$$
+
+for the [[smash product]] of [[pointed object|pointed]] [[simplicial sets]], similarly for its restriction to $sSet_{fin}^{\ast}$:
+
+$$
+  X \wedge Y 
+    \coloneqq 
+  cofib\left(
+    \; 
+    \left(\,
+      (u(X),\ast) \sqcup (\ast, u(Y)) 
+    \,\right) 
+      \longrightarrow 
+     u(X) \times u(Y) 
+    \;
+  \right)
+  \,.
+$$
+
+This gives $sSet^{\ast/}$ and $sSet^{\ast/}_{fin}$ the structure of a [[closed monoidal category]] and we write 
+
+$$
+  [-,-]_\ast \;\colon\; (sSet^{\ast/})^{op} \times sSet^{\ast/} \longrightarrow sSet^{\ast/}
+$$
+
+for the corresponding [[internal hom]], the pointed [[function complex]] functor.
+
+=--
+
+We regard all the categories in def. \ref{SimplicialSetsPointedAndFinite} canonically as [[simplicially enriched categories]], and in fact regard $sSet^{\ast/}$ and $sSet^{\ast/}_{fin}$ as $sSet^{\ast/}$-[[enriched categories]]. 
+
+The category that supports a [[model structure for excisive functors]] is the  $sSet^{\ast/}$-[[enriched functor category]]
+
+$$
+  [sSet^{\ast/}_{fin}, sSet^{\ast/}]
+  \,.
+$$
+
+([Lydakis 98, example 3.8, def. 4.4](#Lydakis98))
+
+In order to compare this to to [[sequential spectra]] consider also the following variant.
+ 
++-- {: .num_defn #CategoriesOfStandardSpheres}
+###### Definition
+
+Write $S^1_{std} \coloneqq \Delta[1]/\partial\Delta[1]\in sSet^{\ast/}$ for the standard minimal pointed simplicial [[1-sphere]].
+
+Write 
+
+$$
+  \iota \;\colon\; StdSpheres \longrightarrow sSet^{\ast/}_{fin}
+$$
+
+for the non-full $sSet^{\ast/}$-[[enriched category|enriched]] [[subcategory]] of pointed [[simplicial object|simplicial]] [[finite sets]], def. \ref{SimplicialSetsPointedAndFinite} whose
+
+* [[objects]] are the [[smash product]] powers $S^n_{std} \coloneqq (S^1_{std})^{\wedge^n}$ (the standard minimal simplicial [[n-spheres]]);
+
+* [[hom-objects]] are
+
+  $$
+    [S^{n}_{std}, S^{n+k}_{std}]_{StdSpheres}
+    \coloneqq
+    \left\{
+      \array{
+        \ast & for & k \lt 0
+        \\
+        im(S^{k}_{std} \stackrel{}{\to} [S^n_{std}, S^{n+k}_{std}]_{sSet^{\ast/}_{fin}})
+        & otherwise
+      }
+    \right.
+  $$
+
+=--
+
+([Lydakis 98, def. 4.2](#Lydakis98))
+
+
+
++-- {: .num_prop #SequentialSpectraAsSimplicialFunctorsOnStandardSpheres}
+###### Proposition
+
+There is an $sSet^{\ast/}$-[[enriched functor]] 
+
+$$
+  (-)^seq
+  \;\colon\;
+  [StdSpheres,sSet^{\ast/}]
+    \longrightarrow
+  SeqPreSpec(sSet)
+$$
+
+(from the category of $sSet^{\ast/}$-[[enriched presheaves|enriched copresheaves]] on the categories of standard simplicial spheres of def. \ref{CategoriesOfStandardSpheres} to the category of sequential prespectra in [[sSet]], def. \ref{Spectra}) given on objects by sending $X \in [StdSpheres,sSet^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
+
+$$
+  X^{seq}_n \coloneqq X(S^n_{std})
+$$
+
+and with structure maps
+
+$$
+  \frac{S^1_{std} \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n}{S^1_{std} \longrightarrow [X^{seq}_n, X^{seq}_{n+1}]}
+$$
+
+given by
+
+$$
+  S^1_{std} 
+    \stackrel{\widetilde{id}}{\longrightarrow}
+  [S^n_{std}, S^{n+1}_{std}]
+    \stackrel{X_{S^n_{std}, S^{n+1}_{std}}}{\longrightarrow}
+  [X^{seq}_n, X^{seq}_{n+1}]
+  \,.
+$$
+
+This is an $sSet^{\ast/}$ [[enriched category theory|enriched]] [[equivalence of categories]].
+
+=--
+
+([Lydakis 98, prop. 4.3](#Lydakis98))
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[adjunction]]
+
+$$
+  (\iota_\ast \dashv \iota^\ast)
+  \;\colon\;
+  [sSet^{\ast/}_{fin}, sSet^{\ast/}]_{Ly}
+    \stackrel{\overset{\iota_\ast}{\longleftarrow}}{\underset{\iota^\ast}{\longrightarrow}}
+  [StdSpheres, sSet^{\ast/}]
+    \underoverset{\simeq}{(-)^{seq}}{\longrightarrow}
+  SeqPreSpec(sSet)_{BF}
+$$
+
+(given by restriction $\iota^\ast$ along the defining inclusion $\iota$ of def. \ref{CategoriesOfStandardSpheres} and by left [[Kan extension]] $\iota_\ast$ along $\iota$, and combined with the equivalence $(-)^{seq}$ of prop. \ref{SequentialSpectraAsSimplicialFunctorsOnStandardSpheres}) is a  [[Quillen adjunction]] and in fact a [[Quillen equivalence]] between the [[Bousfield-Friedlander model structure]] on sequential prespectra and Lydakis' [[model structure for excisive functors]].
+
+=--
+
+([Lydakis 98, theorem 11.3](#Lydakis98)) For more details see at _[[model structure for excisive functors]]_.
+
+
 
 ## References
+
+* {#Kan63} [[Daniel Kan]], _Semisimplicial spectra_, Illinois J. Math. Volume 7, Issue 3 (1963), 463-478. ([Euclid](http://projecteuclid.org/euclid.ijm/1255644953))
 
 * {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+
+* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
 [[!redirects sequential spectra]]
 
@@ -107,4 +289,3 @@ of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]]
 
 [[!redirects Boardman spectrum]]
 [[!redirects Boardman spectra]]
-
