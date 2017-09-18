@@ -168,5 +168,8 @@ in the broad context of _[[factorization algebras]]_ (see there for further refe
 
 * [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for finite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
 
+[[!redirects perturbation theories]]
+
 [[!redirects Feynman perturbation series]]
 [[!redirects perturbation series]]
+
