@@ -20,7 +20,7 @@
 
 ## Idea
 
-In a [[category]] $C$ with a [[terminal object]], a **pointed object** is an [[object]] $X$ equipped with a [[global element]] $1\to X$, often called its __basepoint__.
+In a [[category]] $C$ with a [[terminal object]] $1$, a **pointed object** is an [[object]] $X$ equipped with a [[global element]] $1\to X$, often called its __basepoint__.
 
 A pointed object is distinguished from an [[inhabited set|inhabited]] one in that the chosen point is _structure_ rather than a property.  In particular, a morphism of pointed objects is a morphism in the original category which preserves the points.  In other words, the category of pointed objects in $C$ is the [[under category|co-slice category]] $1/C$ under the terminal object.
 
