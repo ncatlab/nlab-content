@@ -182,7 +182,7 @@ The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of
 
 of which a textbook account is in 
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapters III.8 and V.4-V.11 in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific, 1991
 
 
 The topological deformation (almost) noticed in equation (4.25) of [D'Auria-Fre 82](#DAuriaFre82) later reappears in (4.13) of
