@@ -1,5 +1,5 @@
 
 
-* [webpage](http://www.algeo.math.fau.de/people/waldmann-stefan/prof-dr-stefan-waldmann.html)
+* [webpage](https://www.mathematik.uni-wuerzburg.de/~waldmann/index.html)
 
 category: people
