@@ -106,7 +106,7 @@ A similar construction exists in every [[cohesive (∞,1)-topos]]. See the discu
 
 ## References
 
-An introduction to the general theor
+An introduction to the general theory
 
 * [[Ludmil Katzarkov]], [[Tony Pantev]], [[Bertrand Toën]], _Schematic homotopy types and non-abelian Hodge theory_, [math.AG/0107129](http://arxiv.org/abs/math/0107129)
 
