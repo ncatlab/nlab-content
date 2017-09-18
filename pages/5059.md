@@ -1166,7 +1166,15 @@ Discussion including also the [[RR-field]] background includes
 ### Relation to AdS-CFT
  {#ReferencesRelationToAdSCFT}
 
-Discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce -- after restricting to small fluctuations about a background solution and after [[diffeomorphism]] [[gauge fixing]] -- superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
+The emergence of [[conformal field theory]] in the perturbations of the [[super-membrane]] around a classical solution stretched along the asymptotic boundary of [[anti de Sitter spacetime]] is due to 
+
+* [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire](http://inspirehep.net/record/268230?ln=en))
+
+predating the modern formulation of the [[AdS-CFT correspondence]]. The relation was amplified in 
+
+* [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int.J.Mod.Phys.A14:815-844,1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+
+Further discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce -- after restricting to small fluctuations about a background solution and after [[diffeomorphism]] [[gauge fixing]] -- superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
 
 for the [[M2-brane]]:
 
