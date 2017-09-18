@@ -158,7 +158,7 @@ The following articles are about "logics of linear type" and their categorical s
 
 * {#Lambek69} [[Joachim Lambek]], _Deductive systems and categories II_, Lecture Notes in Math. 86, Springer-Verlag (1969), 76-122. 
 
-* {#Minc77} G.E. Minc, _Closed categories and the theory of proofs_, translated from an article in Russian in Zapiski Nauchnykh Seminarov Leningradskogo Otdeleniya Mat. Instituta im. V.A. Steklova AN SSSR 68 (1977), 83-114. 
+* {#Minc77} G.E. Minc, _Closed categories and the theory of proofs_, translated from an article in Russian in Zapiski Nauchnykh Seminarov Leningradskogo Otdeleniya Mat. Instituta im. V.A. Steklova AN SSSR 68 (1977), 83-114. Republished in Grigorii E. Mints, _Selected Papers in Proof Theory_, Bibliopolis (1992).
 
 * {#Szabo78} M.E. Szabo, _Algebra of Proofs_, Studies in Logic and the Foundations of Mathematics, vol. 88 (1978), North-Holland. 
 
