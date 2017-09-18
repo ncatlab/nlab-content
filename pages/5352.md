@@ -17,7 +17,6 @@
 * table of contents
 {:toc}
 
-For Jacobian in the sense of [[Jacobian variety]] (of an algebraic curve), see there (also more general _intermediate Jacobians_).
 
 ## Definition
 
@@ -54,6 +53,8 @@ $$
 ## Related concepts
 
 * [[differentiation]], [[Hessian matrix]], [[extremum]]
+
+* [[pullback of a distribution]]
 
 [[!redirects Jacobian matrix]]
 [[!redirects Jacobian determinant]]
