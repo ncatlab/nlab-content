@@ -39,25 +39,25 @@ Via the chromatic stratification of the [[moduli stack of formal groups]] one re
 
 * Lecture 1 _Introduction_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture1.pdf))
 
-* Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
+* Lecture 2 _[[Lazard's theorem]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
 
 * Lecture 3 _Lazard's theorem (continued)_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture3.pdf))
 
-* Lecture 4 _Complex-oriented cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
+* Lecture 4 _[[complex oriented cohomology theory|Complex-oriented cohomology theories]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
 
-* Lecture 5 _Complex bordism_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+* Lecture 5 _[[complex bordism|Complex bordism]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
 * Lecture 6 _[[MU and complex orientations]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
 * Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
-* Lecture 8 _The Adams spectral sequence_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
+* Lecture 8 _The [[Adams spectral sequence]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
 
 * Lecture 9 _The Adams spectral sequence for MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
 
-* Lecture 10 _The proof of Quillen's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture10.pdf))
+* Lecture 10 _The proof of [[Quillen's theorem]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture10.pdf))
 
-* Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
+* Lecture 11 _[[formal groups|Formal groups]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
 
 * Lecture 12 _Heights and formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture12.pdf))
 
