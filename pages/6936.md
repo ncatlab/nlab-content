@@ -224,4 +224,14 @@ Details are in
 
 * {#ShulmanLumsdaine12} [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_, 2012 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semantics.pdf/410646692/semantics.pdf))
 
+An experimental implementation is described in:
+
+* Bruno Barra, _Native implementation of Higher Inductive
+Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
+
+A detailed description of a subset of the HITs is in:
+
+* Kristina Sojakova, _Higher Inductive Types as Homotopy-Initial Algebras_
+[arXiv](http://arxiv.org/abs/1402.0761)
+
 [[!redirects higher inductive types]]
