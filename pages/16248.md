@@ -3,6 +3,8 @@
 
 * [[ADE classification]]
 
+* [[Johannes Kepler]]
+
 ## References
 
 * Wikipedia, _[Platonic solid](http://en.wikipedia.org/wiki/Platonic_solid)_
