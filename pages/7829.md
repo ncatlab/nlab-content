@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
