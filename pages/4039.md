@@ -275,7 +275,7 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 ## Related concepts
 
-* [[Euler-Lagrange equations]]
+* [[Euler-Lagrange equations]], [[shell]]
 
 * [[de Donder-Weyl formalism]]
 
