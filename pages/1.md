@@ -54,12 +54,12 @@ For more see
 ## Discussion, Comments, Questions
  {#Discussion}
 
-While we work on the $n$Lab, we talk to each other on the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/). In particular, for all but the most trivial edits (correcting spelling or punctuation, etc.), we make a note of our latest edits to the $n$Lab in the part [nForum -- latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?CategoryID=5), where they may be discussed further.
+While we work on the $n$Lab, we talk to each other on the [nForum](http://nforum.ncatlab.org). In particular, for all but the most trivial edits (correcting spelling or punctuation, etc.), we make a note of our latest edits to the $n$Lab in the part [nForum -- latest changes](http://nforum.ncatlab.org/5/), where they may be discussed further.
 
 If you do make **contributions** to the $n$Lab, you are strongly encouraged to similarly drop a short note there about what you have done -- or maybe just about what you plan to do or even what you would like others to do. 
 See _[[nlabmeta:Welcome to the nForum]]_ for more information.
 
-If you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layperson and feel that things could be explained better -- then we generally prefer that you post that comment or question to the [nForum](http://nforum.mathforge.org/), where it is visible to everybody who might be concerned.
+If you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layperson and feel that things could be explained better -- then we generally prefer that you post that comment or question to the [nForum](http://nforum.ncatlab.org), where it is visible to everybody who might be concerned.
 
 In case that you do feel that this is not an option and that you do need to contact privately (say by email) a single author of an $n$Lab page, please make sure that you know who the right author is. Beware that the $n$Lab pages are visibly "signed" only by the name of the last person who made any edit on the page, no matter how minor. To find the author who made the edit that you want to comment or ask about privately, you should click on the link "History" at the bottom of any page to see which version was authored by whom. 
 
@@ -70,7 +70,7 @@ In case that you do feel that this is not an option and that you do need to cont
 
 If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
 
-If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://nforum.mathforge.org/)!
+If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://nforum.ncatlab.org)!
 
 
 ## Using the $n$Lab
@@ -87,7 +87,7 @@ One goal of the $n$Lab is to help make information widely available and usefully
 * Conversely, any content contributed to the $n$Lab is publicly available and you should be aware that others may use your contributions (whatever you decide to do with their content elsewhere) and indeed may edit them. In the first case you trust that users will cite your contributions properly, in the second that they will respect and only improve on them. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
 Usually this works well. If there is need for discussion, the 
-[nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
+[nForum](http://nforum.ncatlab.org) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
 
 
 ## Software requirements
@@ -100,22 +100,13 @@ Notice that **you don't need to know any MathML**. Only your browser does. You w
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
 
-## Technical issues
- {#BugsAndHacks}
 
-Please report technical issues with the nLab at the [nForum](http://nforum.mathforge.org).  If you notice strange behaviour, then others may have already reported it and there may be a temporary fix.
-
-Currently known issues (last updated 2014-05-21) include:
-
-*  If the lab hangs or is very slow, report it to the '[Lab down](http://nforum.mathforge.org/discussion/51/5/lab-down/)' thread in the Forum so that an administrator will notice this and restart it.
-
-*  An error with a funny message about smoke (HTTP 500) will often go away if you simply reload the page.  But if it remains, then try deleting your cookies for ncatlab.org or www.ncatlab.org.  (Editors: this cookie has your username in it, so you\'ll have to type that in again when you next edit a page.)
 
 
 ## Steering Committee 
  {#SteeringCommitte}
 
-The domain $ncatlab.org$ and the $n$Lab's virtual server are owned (rented) by [[Urs Schreiber]]. The technical administration of the software installation is done by [[Adeel Khan Yusufzai]] (and was previously done by [[Andrew Stacey]] for several years).
+The domain $ncatlab.org$ owned (rented) by [[Urs Schreiber]]. The server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is done by [[Adeel Khan Yusufzai]] (and was previously done by [[Andrew Stacey]] for several years).
 
 The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
 
@@ -129,4 +120,3 @@ category: meta
 [[!redirects homepage]]
 [[!redirects home page]]
 [[!redirects nLab]]
-
