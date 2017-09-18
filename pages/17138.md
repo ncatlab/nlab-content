@@ -3331,7 +3331,9 @@ for the system of [[full subcategory]] inclusions, the [[category of cofibrant o
 +-- {: .num_remark}
 ###### Remark
 
-Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} inherit more structure than just that of [[categories with weak equivalences]] from $\mathcal{C}$. $\mathcal{C}_f$ and $\mathcal{C}_c$ each inherit "half" of the factorization axioms. One says that $\mathcal{C}_f$ has the structure of a "[[fibration category]]" called a "[[category of fibrant objects]]", while $\mathcal{C}_c$ has the structure of a "[[cofibration category]]".
+Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} inherit more structure than just that of [[categories with weak equivalences]] from $\mathcal{C}$. $\mathcal{C}_f$ and $\mathcal{C}_c$ each inherit "half" of the factorization axioms. One says that $\mathcal{C}_f$ has the structure of a "[[fibration category]]" called a "Brown-[[category of fibrant objects]]", while $\mathcal{C}_c$ has the structure of a "[[cofibration category]]".
+
+We discuss further properties of these categories of (co-)fibrant objects further below in _[Homotopy fiber sequences](#HomotopyFiberSequences)_. 
 
 =--
 
@@ -5868,39 +5870,17 @@ This establishes the claim.
 
 =--
 
+#### Categories of fibrant objects
+
+[Below](#HomotopyFibers) we discuss the homotopy-theoretic properties of the [[mapping cone]]- and [[mapping cocone]]-constructions from [above](#MappingCones). Before we do so, we here establish a collection of general facts that hold in [[categories of fibrant objects]] and dually in [[categories of cofibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}.
+
+**Literature** ([Brown 73, section 4](#Brown73)).
 
 
-#### Homotopy fibers
- {#HomotopyFibers}
-
-We here discuss the homotopy-theoretic properties of the mapping cone and mapping co-cone constructions [above](#MappingCones).
-
-**Literature** ([[BrownAHT|Brown 73, section 4]]).
-
-+-- {: .num_remark}
-###### Remark
-
-The [[factorization lemma]] \ref{FactorizationLemma} with prop. \ref{ConeAndMappingCylinder} says that the [[mapping cocone]] of a morphism $f$, def. \ref{MappingConeAndMappingCocone}, is equivalently the plain [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of a fibrant resolution $\tilde f$ of $f$:
-
-$$
-  \array{
-    Path_\ast(f) &\longrightarrow& \tilde X
-    \\
-    \downarrow &(pb)& \downarrow^{\mathrlap{\tilde f}}
-    \\
-    \ast &\longrightarrow& Y
-  }
-  \,.
-$$
-
-=--
-
-The following lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. But first we need some general facts about [[categories of fibrant objects]]
-
-+-- {: .num_lemma}
++-- {: .num_lemma #ReplacementOfPathObjects}
 ###### Lemma
 
-Let $f\colon X \longrightarrow Y$ be a morphism in a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then given any choice of [[path space objects]] $Path(X)$ and $Path(Y)$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a replacement of $Path(X)$ by a path object $\widetilde{Path(X)}$ along an acylic fibration, such that $\tilde{Path(X)}$ has a morphism $\phi$ to $Path(Y)$ which is compatible with the structure maps, in that the following diagram commutes
+Let $f\colon X \longrightarrow Y$ be a morphism in a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then given any choice of [[path space objects]] $Path(X)$ and $Path(Y)$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a replacement of $Path(X)$ by a path object $\widetilde{Path(X)}$ along an acylic fibration, such that $\widetilde{Path(X)}$ has a morphism $\phi$ to $Path(Y)$ which is compatible with the structure maps, in that the following diagram commutes
 
 $$
   \array{
@@ -5919,7 +5899,181 @@ $$
 
 =--
 
-([[BrownAHT|Brown 73, section 2, lemma 2]])
+([Brown 73, section 2, lemma 2](#Brown73))
+
++-- {: .proof}
+###### Proof
+
+Consider the [[commuting square]]
+
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& Y &\longrightarrow& Path(Y)
+    \\
+    \downarrow &&  && \downarrow^{\mathrlap{(p_0^Y, p_1^Y)}}
+    \\
+    Path(X) &\overset{(p^X_0,p^X_1)}{\longrightarrow}& X \times X
+    &\overset{(f,f)}{\longrightarrow}& Y \times Y
+  }
+  \,.
+$$
+
+Then consider its factorization  through the [[pullback]] of the right morphism along the bottom morphism, 
+
+$$
+  \array{
+    X &\longrightarrow& (f \circ p_0^X, f\circ p_1^X)^\ast Path(Y) &\longrightarrow& Path(Y)
+    \\
+    &{}_{\mathllap{\in W}}\searrow& \downarrow^{\mathrlap{\in W \cap Fib}} && \downarrow^{\mathrlap{(p_0^Y, p_1^Y)}}_{\mathrlap{\in Fib}}
+    \\
+    && Path(X) &\overset{(f \circ p_0^X, f\circ p_1^X)}{\longrightarrow}& Y \times Y
+  }
+  \,.
+$$
+
+
+Finally use the [[factorization lemma]] \ref{FactorizationLemma} to factor the morphism $X \to (f \circ p_0^X, f\circ p_1^X)^\ast Path(Y)$ through a weak equivalence followed by a fibration, the object this factors through serves as the desired path space resolution
+
+$$
+  \array{
+    X &\overset{\in W}{\longrightarrow}& \widetilde{Path(X)} &\longrightarrow& Path(Y)
+    \\
+    &{}_{\mathllap{\in W}}\searrow& \downarrow^{\mathrlap{\in W \cap Fib}} && \downarrow^{\mathrlap{(p_0^Y, p_1^Y)}}
+    \\
+    && Path(X) &\overset{(f \circ p_0^X, f\circ p_1^X)}{\longrightarrow}& Y \times Y
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_lemma #BaseChangePreservesFibrationsAndWeakEquivalences}
+###### Lemma
+
+In a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, let 
+
+$$
+ \array{
+  A_1 &&\stackrel{f}{\longrightarrow}&& A_2
+  \\
+  & {}_{\in Fib}\searrow && \swarrow_{\in Fib}
+  \\
+  && B
+ }
+$$
+
+be a morphism of fibrations over  some object $B$ in $\mathcal{C}_f$
+and let $u \colon B' \to B$ be any morphism in 
+$\mathcal{C}$. Let 
+
+$$
+ \array{
+  u^*A_1 &&\stackrel{u^* f}{\longrightarrow}&& u^* A_2
+  \\
+  & {}_{\in Fib}\searrow && \swarrow_{\in Fib}
+  \\
+  && B'
+ }
+$$
+
+be the corresponding morphism pulled back along $u$.
+
+Then
+
+* if $f$ is a fibration then also $u^* f$ is a fibration;
+
+* if $f$ is a weak equivalence then also $u^* f$ is a weak equivalence.
+
+
+=--
+
+([Brown 73, section 4, lemma 1](#Brown73))
+
+
++-- {: .num_proof}
+###### Proof
+
+For $f \in F$ the statement follows from 
+the fact that in the diagram
+
+$$
+  \array{
+    B' \times_B A_1 &\longrightarrow& A_1
+    \\
+    \;\;\downarrow^{\mathrlap{u^* f \in F}} 
+    && \;\;\downarrow^{\mathrlap{f \in F}}
+    \\
+    B' \times_B A_2 &\longrightarrow& A_2
+    \\
+    \;\downarrow^{\mathrlap{\in F}} && \;\downarrow^{\mathrlap{\in F}}
+    \\
+    B' &\stackrel{u}{\longrightarrow}& B
+  }
+$$
+
+all squares (the two inner ones as well as the
+outer one) are [[pullback]] squares,
+since pullback squares compose under pasting.
+
+The same reasoning applies for $f \in W \cap Fib$.
+
+To apply this reasoning  to the case where $f \in W$, we first
+make use of the [[factorization lemma]] \ref{FactorizationLemma} 
+to decompose $f$ as a right inverse to an acyclic fibration followed by an
+acyclic fibration. 
+
+$$
+  f \;\colon\; 
+  A_1 \stackrel{\in W}{\longrightarrow} 
+    Path(f)
+  \stackrel{\in W \cap F}{\longrightarrow} A_2
+  \,.
+$$
+
+
+Using the above this reduces the proof to showing that 
+the pullback of the top horizontal morphism of
+
+$$
+ \array{
+  A_1 &&\stackrel{}{\longrightarrow}&& Path(f)
+  \\
+  & {}_{\in Fib}\searrow && \swarrow_{\in Fib}
+  \\
+  && B
+ }
+$$
+
+along $u$ is a weak equivalence. (Here the fibration on the right is the composite  of the fibration $Path(f) \to A_2$ with $A_2 \to B$).  For that 
+consider the diagram
+
+$$
+  \array{
+    B' \times_B A_1  &\longrightarrow& A_1
+    \\
+    \downarrow && \downarrow
+    \\
+    B' \times_B Path(f) 
+    &\longrightarrow& 
+    Path(f)
+    \\
+    \;\;\downarrow^{\mathrlap{\in W \cap Fib}} 
+    && 
+      \;\;\downarrow^{\mathrlap{\in W \cap Fib}}
+    \\
+    B' \times_B A_1 &\to& A_1
+    \\
+    \;\downarrow^{\mathrlap{\in Fib}} && \;\downarrow^{\mathrlap{\in Fib}}
+    \\     
+    B' &\longrightarrow& B
+  }
+$$
+
+where again all squares are pullback squares.
+The top two vertical composite morphisms are identities. Hence by [[two-out-of-three]] the morphism $B' \times_B E_1 \to B' \times_B Path(f)$ is a weak equivalence.
+
+=--
 
 
 +-- {: .num_lemma #InCfPullbackAlongFibrationPreservesWeakEquivalences}
@@ -5929,14 +6083,16 @@ In a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategorie
 
 =--
 
+([Brown 73, section 4, lemma 2](#Brown73))
+
 
 +-- {: .proof}
 ###### Proof
 
 
 Let 
-$u : B' \to B$ be a weak equivalence and
-$ p : E \to B$ be a fibration. We want to show that the
+$u \colon B' \to B$ be a weak equivalence and
+$ p \colon E \to B$ be a fibration. We want to show that the
 left vertical morphism in the [[pullback]]
 
 $$
@@ -5954,13 +6110,8 @@ is a fibration.
 
 First of all, using the [[factorization lemma]] \ref{FactorizationLemma}
 we may always factor $B' \to B$ as
-
 $B ' \stackrel{\in W}{\to} Path(u) 
- \stackrel{\in W \cap F}{\to} B$
-
-with the first morphism a weak equivalence that is
-a right inverse to an acyclic fibration
-and the right one an acyclic fibration.
+ \stackrel{\in W \cap F}{\to} B$ with the first morphism a weak equivalence that is a right inverse to an acyclic fibration and the right one an acyclic fibration.
 
 Then the pullback diagram in question may be decomposed
 into two consecutive pullback diagrams
@@ -6023,7 +6174,7 @@ $p \times Id \colon E \stackrel{\in W}{\to} E_1$
 into the pullback is a weak equivalence
 by [[two-out-of-three]].
 
-The above lemma says that weak equivalences between fibrations over $B$
+The previous lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} says that weak equivalences between fibrations over $B$
 are themselves preserved by base extension along
 $u \colon B' \to B$. In total this yields the following diagram
 
@@ -6073,6 +6224,34 @@ equivalence, hence is a weak equivalence.
 
 =--
 
+
+
+#### Homotopy fibers
+ {#HomotopyFibers}
+
+We now discuss the homotopy-theoretic properties of the [[mapping cone]]- and [[mapping cocone]]-constructions from [above](#MappingCones).
+
+**Literature** ([Brown 73, section 4](#Brown73)).
+
++-- {: .num_remark}
+###### Remark
+
+The [[factorization lemma]] \ref{FactorizationLemma} with prop. \ref{ConeAndMappingCylinder} says that the [[mapping cocone]] of a morphism $f$, def. \ref{MappingConeAndMappingCocone}, is equivalently the plain [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of a fibrant resolution $\tilde f$ of $f$:
+
+$$
+  \array{
+    Path_\ast(f) &\longrightarrow& \tilde X
+    \\
+    \downarrow &(pb)& \downarrow^{\mathrlap{\tilde f}}
+    \\
+    \ast &\longrightarrow& Y
+  }
+  \,.
+$$
+
+=--
+
+The following lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. 
 
 
 +-- {: .num_lemma #FiberOfFibrationIsCompatibleWithWeakEquivalences}
@@ -6160,12 +6339,9 @@ $$
   [A,hofib(f)]_\ast \overset{i_\ast}{\longrightarrow} [A,X]_\ast \overset{f_\ast}{\longrightarrow} [A,Y]_{\ast}
 $$
 
-is [[exact sequence|exact]] (the sequence being the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor of the pointed [[homotopy category of a model category]]
+is [[exact sequence|exact]] as a sequence of [[pointed sets]]. 
 
-$$
-  [A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}
-  \,.
-$$
+(Where the sequence here is the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor of the pointed [[homotopy category of a model category]] $[A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}$.)
 
 
 =--
@@ -14949,11 +15125,13 @@ and
 
 ### Further reading
 
-The original 
+The two originals
 
 * {#Quillen67} [[Daniel Quillen]], _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
 
-is still an excellent source. For further reading on homotopy theory and stable homotopy theory a useful collection is
+* {#Brown73} [[Kenneth Brown]], _[[Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458  ([JSTOR](http://www.jstor.org/stable/1996573))
+
+are still an excellent source. For further reading on homotopy theory and stable homotopy theory a useful collection is
 
 * {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
 
