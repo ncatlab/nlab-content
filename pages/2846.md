@@ -15,10 +15,15 @@
 * automatic table of contents goes here
 {: toc}
 
+##Idea
+
+In [[model theory]], [[model|models]] of [[first-order theory]] $T$ are certain kinds of [[functor|functors]] from the [[syntactic site]] of $T$ to $\mathbf{Set}$. Elementary embeddings are [[natural transformation|natural transformations]] between these functors.
+
 ## Definition
 
 In [[model theory]], an **elementary embedding** between [[model|structures]] (over a given [[signature]] $\sigma$) is an [[injection]] that preserves and reflects all of [[first-order logic]] over $\sigma$.  That is, it is an injection $f\colon M\to N$ such that for any first-order formula $\varphi$ written in the language of $\sigma$ and parameters $a_1,\dots,a_n\in M$ (of appropriate [[type]]s), we have
 $$ M \vDash \varphi(a_1,\dots,a_n) \;\iff\; N \vDash \varphi(f(a_1),\dots, f(a_n)). $$
+
 In particular, this implies that if either $M$ or $N$ is a [[model]] of some first-order [[theory]], then so is the other.
 
 Note that the condition that $f$ be injective is automatic as long as the logic in question includes equality, since reflecting of the formula $x=y$ implies that $f$ is injective.  If $f$ is (interpreted as) the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$. We also say here that $N$ is an **elementary extension** of $M$. 
