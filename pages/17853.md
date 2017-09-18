@@ -111,13 +111,17 @@ Thus, any uniform space gives rise to a uniform apartness space.  If our origina
 
 In the converse direction, any uniform apartness space gives rise to a uniform space whose entourages are the supersets of the complements of the anti-entourages, and uniform regularity is again preserved.  These constructions are not inverse in general, but they are in the uniformly regular case.  For this it suffices to show that any entourage $U$ in a uniformly regular uniform space contains the double-complement $\neg\neg V$ of some entourage $V$, and dually for any anti-entourage $A$ in a uniformly regular uniform apartness space there is an anti-entourage $B$ containing $\neg\neg A$.  But for the first it suffices to have $U\cup \neg V = X\times X$, and for the second it suffices to have $\neg A \cup B = X\times X$.  Thus, there is a bijection between uniformly regular uniformities and uniformly regular uniform apartnesses on any set $X$.
 
-We define a function $f:X\to Y$ between uniform apartness spaces to be *uniformly continuous* if for every anti-entourage $B$ in $Y$, there is an anti-entourage $A$ in $X$ such that if $(f(x),f(y))\in B$ then $(x,y)\in A$.  Since a conditional implies its contrapositive, it follows that this is equivalent to uniform continuity with respect to the corresponding uniform structures.  Thus we have proven:
+We define a function $f:X\to Y$ between uniform apartness spaces to be *uniformly continuous* if for every anti-entourage $B$ in $Y$, there is an anti-entourage $A$ in $X$ such that if $(f(x),f(y))\in B$ then $(x,y)\in A$.  Since a conditional implies its contrapositive, the constructions above become functors $Unif \to AUnif$ and $AUnif \to Unif$.  Moreover, we have:
+
 
 +-- {: .un_theorem}
 ###### Theorem
-The categories of uniformly regular uniform spaces and uniformly regular uniform apartness spaces are isomorphic over $Set$.
+The above functors form an [[idempotent adjunction]] $Unif \rightleftarrows AUnif$ over $Set$, whose fixed points contain the uniformly regular spaces on each side.  Thus, in particular, the categories of uniformly regular uniform spaces and uniformly regular uniform apartness spaces are isomorphic over $Set$.
 =--
-
++-- {: .proof}
+###### Proof
+The unit and counit are the identity functions, which are uniformly continuous since a statement implies its double negation, and obviously satisfy the triangle identities.  The adjunction is idempotent since a negated statement is equivalent to its double negation, and we have seen above that uniformly regular spaces are among the fixed points.
+=--
 
 ## Related pages
 
