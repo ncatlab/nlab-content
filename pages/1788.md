@@ -1,26 +1,34 @@
 
-There is one object for each natural number. Moreover the 
-
 $$
-  \begin{aligned}
-    \mathbb{S}_{seq} Free_{seq}Mod( 
-       \mathbb{S}_{seq} \otimes_{Day} y_{k_2}
-       ,
-       \mathbb{S}_{seq} \otimes_{Day} y_{k_1}
-    )
-    &  
-    \simeq
-    \overset{n}{\int} Seq(n + k_1 , k_2) \wedge \mathbb{S}_{seq}(n)
-    \\
-    &
-    \simeq
-    \left\{
-      \array{
-        S^{k_2-k_1} & if \; k_2 \geq k_1
-        \\
-        \ast & otherwise
-      }
-    \right.
-  \end{aligned}
-  \,.
+ \array{
+   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
+   \\
+   \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{strict}
+   &
+     \underoverset
+       {\underset{orth^\ast}{\longrightarrow}}
+       {\overset{orth_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Orth} Mod_{strict}
+   &
+     \underoverset
+       {\underset{sym^\ast}{\longrightarrow}}
+       {\overset{sym_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Sym} Mod_{strict}
+   &
+     \underoverset
+       {\underset{seq^\ast}{\longrightarrow}}
+       {\overset{seq_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Seq} Mod_{strict}
+  }
 $$
