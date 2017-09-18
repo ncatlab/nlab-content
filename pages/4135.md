@@ -147,3 +147,4 @@ Discussion in [[complex geometry]] includes
 [[!redirects Hodge dual]]
 [[!redirects Hodge duals]]
 
+[[!redirects Hodge duality]]
