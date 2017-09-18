@@ -59,6 +59,8 @@ Nils Baas has made, in print and in private communication, suggestions for a for
 
 * N.A.Baas, _New Structures in Complex Systems_ (to appear in The European Physical Journal).
 
+* N.A.Baas (2015) _[Higher order architecture of collections of objects](http://dx.doi.org/10.1080/03081079.2014.964039)_. International Journal of General Systems. vol. 44 (1).
+
 #Remarks#
 
 * The notion of replacing morphisms by _bonds_ is familiar and concretely realized at least in a hierarchy of depth 2 in the context of [[groupoidification]] and [[geometric function theory]], where morphisms are replaced by [[spans]]. Regarding these as [[cospans]] in the [[opposite category]] produces diagrams like the above sketch of a generic bond system. 
