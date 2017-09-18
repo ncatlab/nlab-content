@@ -88,11 +88,15 @@ but
 
 ## Texts
 
+* _[[Encyclopedia of the Philosophical Sciences]]_
+
 * _[[Science of Logic]]_
 
 * _[[Philosophy of Nature]]_
 
 * _[[Phenomenology of Spirit]]_
+
+* _[[Lectures on the Philosophy of History]]_
 
 * _[[Lectures on the Philosophy of Religion]]_
 
