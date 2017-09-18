@@ -22,6 +22,8 @@ The dual concept is that of an [[epimorphism in an (∞,1)-category]].
 
 There is also the concept [[regular monomorphism in an (∞,1)-category]], but beware that this need not be a special case of the definition given here.
 
+There are also a notions of (homotopy) monomorphism in [[model categories]] and [[derivators]].
+
 ## Definition
 
 For $C$ an [[(∞,1)-category]], a [[morphism]] $f : Y \to Z$ is a **monomorphism** if regarded as an object in the [[over quasi-category|(∞,1)-overcategory]] $X_{/Z}$ it is a [[n-truncated object in an (∞,1)-category|(-1)-truncated object]].
@@ -115,7 +117,12 @@ The definition appears after example 5.5.6.13 in
 
 with further discussion in section 6.2.
 
+For [[model categories]], see
+
+* [[Fernando Muro]], _Homotopy units in A-infinity algebras_, [arXiv:1111.2723](http://arxiv.org/abs/1111.2723).
 
 [[!redirects monomorphism in an (∞,1)-category]]
 [[!redirects monomorphisms in an (∞,1)-category]]
 [[!redirects monomorphisms in an (infinity,1)-category]]
+[[!redirects homotopy monomorphism]]
+[[!redirects homotopy monomorphisms]]
