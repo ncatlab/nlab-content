@@ -6,6 +6,14 @@
 
 The aim of derived [[global analytic geometry]] is to give a proper setting for the cotangent complex and other derived constructions over a general (ind)-Banach ring, whose specialization to the Banach ring $\mathbb{C}$ of complex numbers gives back [[derived complex analytic spaces]].
 
+## Related subjects
+
+* [[derived analytic geometry]]
+
+* [[derived complex analytic spaces]]
+
+* [[overconvergent global analytic geometry]]
+
 ## References
 
 [[Jacob Lurie]] _DAG V: [[Structured Spaces]]_.
