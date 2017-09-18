@@ -84,9 +84,6 @@ give a [[surjective]] map from $A_\bullet$ to the constant simplicial ring $\pi_
 
 (This is just the simplest piece of the [[Postnikov tower]].) If $\pi_0(A)\neq 0$ we can then compose with a surjective map to a constant simplicial field.
 
-### Simplicial fieds
-
-All simplicial [[fields]] are simplicially constantconstant.  This is because the composite $A_0\xrightarrow{s_0^n}A_n\xrightarrow{d_0^n}A_0$ is the identity, so $d_0^n$ is surjective, but all field homomorphisms are injective, so $d_0^n$ is an isomorphism.
 
 ### Model category structure
 
@@ -115,6 +112,15 @@ Equip $A SMod$ with the structure of a [[model category]] by setting:
 * [[proper model category|proper]];
 
 * [[cellular model category|cellular]].
+
+
+## Examples
+
+### Simplicial fields
+
+All simplicial [[fields]] are simplicially constantconstant.  This is because the composite $A_0\xrightarrow{s_0^n}A_n\xrightarrow{d_0^n}A_0$ is the identity, so $d_0^n$ is surjective, but all field homomorphisms are injective, so $d_0^n$ is an isomorphism.
+
+
 
 ## Related concepts
 
