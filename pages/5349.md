@@ -49,6 +49,10 @@ $$ rank S = \bigcup_{x \in S} (rank x)^+ ,$$
 
 where $\bigcup$ is the [[supremum]] operation on ordinals (literally the [[union]] for [[von Neumann ordinals]]) and $(-)^+$ is the [[successor]] operation (which is $a \mapsto a \cup \{a\}$ for von Neumann ordinals).
 
+## Rank of a Lie group
+
+* [[rank of a Lie group]]
+
 [[!redirects ranks]]
 
 [[!redirects rank of a vector bundle]]
