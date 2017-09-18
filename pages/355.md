@@ -72,3 +72,6 @@ Even a bit smaller than this is a Kan complex that is an $n$-[[hypergroupoid]], 
 
 [[!redirects 4-groupoid]]
 [[!redirects 4-groupoids]]
+
+[[!redirects higher groupoid]]
+[[!redirects higher groupoids]]
