@@ -25,6 +25,8 @@ The special case of an [[(n,r)-category]] for $r = 1$.
 
 An __$(n,1)$-category__, is an $n$-[[n-category|category]] $C$ that is __locally $(n-1)$-groupoidal__; that is, for any [[object]]s $x$ and $y$, the $(n-1)$-category $C(x,y)$ is an $(n-1)$-[[n-groupoid|groupoid]].
 
+Equivalently it is an $(\infty,1)$-category for which the mapping spaces are all $(n-1)$-[[n-truncated object of an (infinity,1)-category|truncated]].
+
 
 ## Special cases:
 
@@ -65,6 +67,12 @@ The canonical example of an $(n+1,1)$-category is [[nGrpd]].
 
 * [[(n,r)-category]]
 
+## References
 
+In Section 11 of
+
+* [[Charles Rezk]], _A cartesian presentation of weak n-categories_, [arXiv:0901.3602](https://arxiv.org/abs/0901.3602)
+
+the author describes a presentation of $(n,1)$-categories by a [[left Bousfield localization]] of the [[model structure]] presenting [[complete Segal spaces]].
 
 [[!redirects (n,1)-categories]]
