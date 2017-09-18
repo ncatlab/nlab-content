@@ -949,6 +949,10 @@ See [[higher homotopy van Kampen theorem]] for details.
 ### Sequential homotopy (co)limits
  {#SequentialHocolims}
 
+
+#### General
+
+
 For 
 
 $$
@@ -961,10 +965,12 @@ So given a cotower with such a property, its homotopy colimit is just the ordina
 
 Dually for sequential limits of a tower diagram.
 
+A standard application for this is for instance the construction of the [[classifying space]]  $B U = \underset{\to_n}{\lim} B U(n)$ for reduced [[topological K-theory]]. See there for more.
 
-A standard application for this is for instance the construction of the [[classifying space]] 
-$B U = \underset{\to_n}{\lim} B U(n)$ for reduced [[topological K-theory]]. See there for more.
 
+#### $\lim^1$ and Milnor sequences
+
+See at _[[lim^1 and Milnor sequences]]_
 
 
 
