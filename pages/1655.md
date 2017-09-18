@@ -80,6 +80,7 @@ current version generated using Graphviz from [[lctvs dot source]]):
 
 * [[topology of uniform convergence]]
 
+* [[topological vector bundle]]
 
 ## References
 
