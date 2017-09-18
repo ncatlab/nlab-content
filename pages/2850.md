@@ -36,6 +36,8 @@ Riemannian geometry is hence equivalently the [[Cartan geometry]] for inclusions
 
 * [[pseudo-Riemannian geometry]], [[gravity]], [[spacetimes]]
 
+* [[harmonic map]]
+
 [[!include local and global geometry - table]]
 
 In [[index theory]]:
