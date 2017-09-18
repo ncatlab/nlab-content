@@ -40,7 +40,8 @@ Write
 
 * $InfPoint \coloneqq WAlg^{op}$ for the category of first-order [[infinitesimally thickened points]] (i.e. the [[abstract duality|formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a finite-dimensional  square-0 [[nilpotent ideal]]).
 
-* $SuperPoint \coloneqq WAlg_{super}^{op}$ for the category of [[superpoints]] (i.e. formal dual of [[Grassmann algebras]], hence commutative [[superalgebras]] of the above form).
+* $SuperPoint \coloneqq WAlg_{super}^{op}$ for the category of [[superpoints]], by which we here mean the [[formal duals]] to commutative [[superalgebras]] which 
+are super-[[Weil algebras]].
 
 There are then "semidirect product" sites $CartSp \rtimes InfinPoint$ and $CartSp \rtimes SuperPoint$ (whose objects are [[Cartesian products]] of the given form inside [[synthetic differential supergeometry]] and whose morphisms are all morphisms in that context (not just the product morphisms)).
 
