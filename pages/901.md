@@ -17,7 +17,7 @@
 
 ## Idea 
 
-An **ind-object** of a category $C$ is a **formal [[filtered colimit]]** of objects of $C$.  Formal means that the colimit is taken in the category of presheaves. The category of ind-objects of $C$ is written $ind$-$C$.
+An **ind-object** of a [[category]] $C$ is a **formal [[filtered colimit]]** of objects of $C$.  Here "formal" means that the colimit is taken in the [[category of presheaves]] of $C$ (the [[free cocompletion]] of $X$). The category of ind-objects of $C$ is written $ind$-$C$ or $Ind(C)$
 
 Here, "ind" is short for "[[inductive system]]", as in the inductive systems used to define [[directed colimits]], and as contrasted with "pro" in the dual notion of [[pro-object]] corresponding to "projective system".
 
@@ -165,6 +165,8 @@ $$
 
 ## Properties 
 
+### General
+
 * If $C$ is a [[locally small category]] then so is $ind-C$.
 
 * The inclusion $C \hookrightarrow ind\text{-}C$ is [[exact functor|right exact]].
@@ -176,7 +178,122 @@ $$
 * If $C$ admits finite [[colimit]]s, then $ind\text{-}C$ is the [[full subcategory]] of the [[presheaf]] category $PSh(C)$ consisting of those functors $F : C^{op} \to Set$ such that $F$ is [[exact functor|left exact]] and the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[cofinally small category|cofinally small]].
 
 
-* Ind-cocompletion is functorial -- in fact an underlying 2-functor of a [[lax-idempotent 2-monad]] (KZ-monad)
+Ind-cocompletion is functorial -- in fact an underlying 2-functor of a [[lax-idempotent 2-monad]] (KZ-monad)
+
+More in detail:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $F \colon \mathcal{C}_1 \longrightarrow \mathcal{C}$ be a [[functor]]. Then there is a unique [[extension]] $Ind(F)$ of this functor to ind-objects, i.e. a [[commuting diagram]]
+
+$$
+  \array{
+    \mathcal{C}_1 &\overset{F}{\longrightarrow}& \mathcal{C}_2
+    \\
+    \downarrow
+      &&
+    \downarrow
+    \\
+    Ind(\mathcal{C}_1)
+      &\underset{Ind(F)}{\longrightarrow}&
+    Ind(\mathcal{C}_2)
+  }
+  \,,
+$$
+
+such that $Ind(F)$ preserves small [[filtered colimits]].
+
+Moreover, 
+
+1. this construction respects [[composition]] in that 
+
+   $$
+     Inf(G \circ F ) \simeq Ind(G) \circ Ind(F)
+   $$
+
+1. if $F$ is a [[faithful functor]] or [[fully faithful functor]], then so is $Ind(F)$, respectively.
+
+=--
+
+(e.g. [Kashiwara-Schapira 06, props. 6.1.9-6.1.11](#KashiwaraSchapira06))
+
+### If $\mathcal{C}$ already admits filtered colimits
+
+
+([KashiwaraSchapira 06,chapter 6.3](#KashiwaraSchapira06))
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] which has all small [[filtered colimits]]. Then the canonical functor $\mathcal{C} \longrightarrow Ind(\mathcal{C})$ defines a [[reflective subcategory]], i.e. it is a [[fully faithful functor]] with a [[left adjoint]]
+
+$$
+  \mathcal{C}
+    \underoverset
+     {\underset{}{\longrightarrow}}
+     {\overset{J}{\longleftarrow}}
+     {\bot}
+  Ind(\mathcal{C})
+$$
+
+=--
+
+([KashiwaraSchapira 06, prop. 6.3.1](#KashiwaraSchapira06))
+
++-- {: .num_prop}
+###### Proposition
+
+Let $F \colon \mathcal{J} \longrightarrow \mathcal{C}$ be a [[functor]] such that
+
+1. $F$ is a [[fully faithful functor]];
+
+1. $\mathcal{C}$ has all small [[filtered colimits]];
+
+1. for every object $J \in \mathcal{J}$ its image $F(J) \in \mathcal{C}$ is [[compact object|compact]].
+
+Then the composite
+
+$$
+  Ind(\mathcal{J})
+    \overset{Ind(F)}{\longrightarrow}
+  Ind(\mathcal{C})
+    \overset{J}{\longrightarrow}
+  \mathcal{C}
+$$
+
+is a [[fully faithful functor]].
+
+=--
+
+([KashiwaraSchapira 06, prop. 6.3.4](#KashiwaraSchapira06))
+
+
++-- {: .num_prop}
+###### Proposition
+
+If $\mathcal{C}$ is a [[category]] such that
+
+1. every object of $\mathcal{C}$ is a [[filtered colimit]] of [[compact object]];
+
+1. $\mathcal{C}$ has all small [[filtered colimits]]
+
+then the functor
+
+$$
+  Ind(\mathcal{C}_{cpt}) 
+    \longrightarrow 
+  Ind(\mathcal{C})
+    \overset{J}{\longrightarrow}
+  \mathcal{C}
+$$
+
+is an [[equivalence of categories]].
+
+=--
+
+([KashiwaraSchapira 06, corollary 6.3.5](#KashiwaraSchapira06))
+
 
 ## Applications
 
@@ -220,7 +337,7 @@ and the dual notion of [[pro-object]] in
 
 Ind-categories are discussed in
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ 
+* {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ , Grundlehren der mathematischen Wissenschaften 332 (2006)
 
 * [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
