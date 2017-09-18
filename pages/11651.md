@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[algebraic geometry]] a _divisor_ (or _[[Weil divisor]]_ for definiteness) in a given [[variety]] is a [[formal linear combination]]of sub-[[varieties]] of [[codimension]] 1. Accordingly the _divisor group_ is the [[free abelian group]] on the set of subvarieties of codimension 1.
+In [[algebraic geometry]] a _divisor_ (or _[[Weil divisor]]_ for definiteness) in a given [[variety]] is a [[formal linear combination]] of sub-[[varieties]] of [[codimension]] 1. Accordingly the _divisor group_ is the [[free abelian group]] on the set of subvarieties of codimension 1.
 
 A divisor is called _effective_ if all its [[coefficients]] are [[positive numbers]].
 
