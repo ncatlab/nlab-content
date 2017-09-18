@@ -19,7 +19,7 @@
 
 ## Idea
 
-Rouhgly something like a combination of a "[[geometry|geometric]]" and an [[arithmetic geometry|arithmetic]] concept of [[cohomology]].
+Roughly something like a combination of a "[[geometry|geometric]]" and an [[arithmetic geometry|arithmetic]] concept of [[cohomology]].
 
 ## Examples
 
