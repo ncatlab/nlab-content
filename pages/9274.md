@@ -1,4 +1,8 @@
 
 * [webpage](http://www-math.univ-poitiers.fr/~laurent/)
 
+## related $n$Lab entries
+
+* [[Lie-Poisson structure]]
+
 category: people
