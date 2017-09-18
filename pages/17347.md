@@ -5065,7 +5065,7 @@ $$
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #ThomSpaceConstructionReducingToSuspension}
 ###### Example
 
 By prop. \ref{SuspensionOfThomSpaces} and remark \ref{ThomSpaceForRankZeroBundle}  the Thom space (def. \ref{ThomSpace}) of a trivial vector bundle of rank $n$ is the $n$-fold [[suspension]] of the base space 
@@ -5081,6 +5081,9 @@ $$
 $$
 
 Therefore a general Thom space may be thought of as a "twisted suspension", with twist encoded by a vector bundle (or rather by its underlying [[spherical fibration]]). See at _[Thom spectrum -- For infinity-module bundles](Thom+spectrum#ForInfinityModuleBundles)_ for more on this.
+
+Correspondingly the _[[Thom isomorphism]]_ (prop. \ref{ThomIsomorphismOverSimplyConnectedCWComplex} below) for a given Thom space is a twisted version of the _[[suspension isomorphism]]_ ([above](#SuspensionIsomorphismForReducedGeneralizedCohomology)).
+
 
 =--
 
@@ -6016,6 +6019,8 @@ $$
 
 This is the _[[Thom isomorphism]]_. It follows from the [[Serre spectral sequence]] (or else from the [[Leray-Hirsch theorem]]). A closely related statement gives the _[[Thom-Gysin sequence]]_.
 
+In the special case that the vector bundle is trivial of rank $n$, then its [[Thom space]] coincides with the $n$-fold [[suspension]] of the base space (example \ref{ThomSpaceConstructionReducingToSuspension}) and the Thom isomorphism coincides with the [[suspension isomorphism]]. In this sense the Thom isomorphism may be regarded as a _twisted suspension isomorphism_.
+
 We need this below to compute (co)homology of universal Thom spectra $M U$ in terms of that of the [[classifying spaces]] $B U$.
 
 Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isomorphism produces maps in cohomology that covariantly follow the underlying maps of spaces. These "[[Umkehr maps]]" have the interpretation of [[fiber integration]] against the Thom class.
@@ -6306,7 +6311,7 @@ and hence with the top sequence here being exact, so is the bottom sequence.
 
 ##### Thom isomorphism
 
-+-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
++-- {: .num_prop #ThomIsomorphismOverSimplyConnectedCWComplex}
 ###### Proposition
 
 Let $V \to B$ be a topological [[vector bundle]] of [[rank]] $n \gt 0$ over a [[simply connected topological space|simply connected]] [[CW-complex]] $B$. Let $R$ be a [[commutative ring]]. 
