@@ -45,7 +45,7 @@ Let $\theta$ be an embedding of a [[graph]] $G$ with $n$ edges into a [[surface]
 
 * suppose darts are visualized as oriented edges: we will say that a dart $d$ is _incident_ to a vertex $x$ if $x$ is the unique vertex located at the source of $d$.  Then every vertex $x\in G$ determines a cyclic ordering of the darts incident to $x$, by considering (say) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way (which relies on the assumption that $X$ is oriented), each vertex determines a cycle of the permutation $\sigma$.
 
-* similarly, we say that a dart $d$ is incident to a face $f$ (i.e., a connected component of $X \setminus \theta(G)$) if $f$ is the unique face appearing to the left of $d$.  Then each face $f$ determines a cyclic ordering of darts incident to $f$ (corresponding to a clockwise traversal along the perimeter of $f$), and we can combine these disjoint cycles into a single permutation $\phi$.
+* similarly, we say that a dart $d$ is incident to a face $f$ (i.e., a connected component of $X \setminus \theta(G)$) if $f$ is the unique face appearing to the left of $d$.  Then each face $f$ determines a cyclic ordering of darts incident to $f$ (corresponding to a counterclockwise traversal along the perimeter of $f$), and we can combine these disjoint cycles into a single permutation $\phi$.
 
 * if we start at any dart $d \in D$, then apply the permutation $\sigma$ followed by $\alpha$ followed followed by $\phi$, we always end up back at $d$.
 
