@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -29,7 +29,7 @@ $$
   q \colon V \to k
 $$ 
 
-is called a **[[quadratic refinement]]** of $\langle -,-\rangle$ if
+is called a __quadratic refinement__ of $\langle -,-\rangle$ if
 
 $$
   \langle v,w\rangle = 
@@ -48,9 +48,11 @@ $$
 
 This means that a quadratic refinement by a [[quadratic form]] always exists when $2 \in k$ is invertible. Otherwise its existence is a non-trivial condition. One way to express quadratic refinements is by [[characteristic elements of a bilinear form]]. See there for more.
 
+
 ## Related concepts
 
 * [[cubical structure on a line bundle]]
+
 
 ## References
 
@@ -59,6 +61,5 @@ Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerfu
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
 
-
-
+[[!redirects quadratic refinement]]
 [[!redirects quadratic refinements]]
