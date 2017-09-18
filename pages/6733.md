@@ -380,6 +380,8 @@ Phys.Rev.Lett. 78 (1997) 4332.
 
 *  M. Aganagic, J. Park, C. Popescu and [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191.
 
+> these reference are in the wrong place here, needs fixing
+
 ### Nonabelian 2-form fields
 
 The fact that the worldvolume theory of the M5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
