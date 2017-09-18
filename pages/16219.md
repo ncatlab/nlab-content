@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.jhhalverson.com)
+
+## related $n$Lab entries
+
+* [[M-theory on G2-manifolds]]
+
+category: people
