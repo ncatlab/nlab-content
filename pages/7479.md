@@ -313,7 +313,7 @@ $$
   \mathbf{H}^{\Delta[1]}
 $$
 
-as exhibiting $\mathbf{H}^{\Delta[1]}$ as an infinitesimal cohesive neighbourhood of $\mathbf{H}$ (here $(\bot, \top) : \Delta[0] \coprod \Delta[0] \to \Delta[1]$ denotes the enpoint inclusions, following the notation [here](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos#CohesiveDiagramToposes)).
+as exhibiting $\mathbf{H}^{\Delta[1]}$ as an infinitesimal cohesive neighbourhood of $\mathbf{H}$ (here $(\bot, \top) : \Delta[0] \coprod \Delta[0] \to \Delta[1]$ denotes the endpoint inclusions, following the notation [here](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos#CohesiveDiagramToposes)).
 
 (See also the corresponding examples at _[[Q-category]]_.)
 
