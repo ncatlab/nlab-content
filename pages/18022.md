@@ -88,6 +88,9 @@ Here we (intend to) show that, accordingly, rational parameterized homotopy theo
 
 ## Preliminaries
 
+
+### Chain complexes
+
 +-- {: .num_defn #ChainComplexes}
 ###### Definition
 
@@ -107,6 +110,10 @@ For $V \in \mathbb{Q} Mod$ a rational [[vector space]], and for $n \in \mathbb{N
 
 
 =--
+
+
+
+### dg-Algebras
 
 +-- {: .num_defn #dgcAlgebras}
 ###### Definition
@@ -204,6 +211,23 @@ for the [[slice model structure]] induced on this by the [[projective model stru
 
 See also [Bousfield-Gugenheim 76, 4.11](#BousfieldGugenheim76)
 
+### Simplicial Lie algebras
+
+$$
+  (LieAlg_k)^{\Delta^{op}}_{proj}
+    \underoverset
+      {\underset{N}{\longrightarrow}}
+      {\overset{N^\ast}{\longleftarrow}}
+      {\bot}
+  (dgLieAlg_k)_{proj}
+    \underoverset
+      {\underset{CE}{\longrightarrow}}
+      {\overset{\mathcal{L}}{\longleftarrow}}
+      {\bot}
+  dgcoAlg_k
+$$
+
+(...)
 
 
 ## Statement 
