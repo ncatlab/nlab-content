@@ -743,6 +743,10 @@ See also
 
 * C. C. Nishi, _Simple derivation of general Fierz-type identities_,  	Am. J. Phys. 73 (2005) 1160-1163 ([arXiv:hep-ph/0412245](http://arxiv.org/abs/hep-ph/0412245))
 
+* [[Calin Lazaroiu]], Elena-Mirela Babalic, Ioana-Alexandra Coman, _The geometric algebra of Fierz identities in arbitrary dimensions and signatures_, JHEP09(2013)156 ([arXiv:1304.4403](https://arxiv.org/abs/1304.4403))
+
+* Elena-Mirela Babalic, Ioana-Alexandra Coman, [[Calin Lazaroiu]], _A unified approach to Fierz identities_, AIP Conf. Proc. 1564, 57 (2013) ([arxiv:1303.1575](https://arxiv.org/abs/1303.1575))
+
 From the point of view of [[division algebras and supersymmetry]]
 the Fierz identities that give the vanishing of trilinear and of quadratic terms in spinors in certain dimensions are discussed in
 
