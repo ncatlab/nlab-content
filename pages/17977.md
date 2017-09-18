@@ -10,6 +10,8 @@ The discussion of the [[landscape of string theory vacua]] is often done with ra
 
 ## References
 
+* [[Michael Dine]], Guido Festuccia, John Kehayias, Weitao Wu, _Axions in the Landscape and String Theory_, JHEP 1101:012,2011 ([arXiv:1010.4803](https://arxiv.org/abs/1010.4803))
+
 * Gaoyuan Wang, Thorsten Battefeld, _Vacuum Selection on Axionic Landscapes_, JCAP 04 (2016) 025 ([arXiv:1512.04224](https://arxiv.org/abs/1512.04224))
 
 
