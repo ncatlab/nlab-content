@@ -59,11 +59,9 @@ $$
 
 (Sometimes, e.g. in [Lurie, def. 1.4.2.8](#HigherAlg), this is taken as the very definition of spectrum objects).
 
-+-- {: .proof}
-###### Proof
+A proof of prop. \ref{SpectraAsExcisiveFunctors} passing through [[model category]] [[presentable (infinity,1)-category|presentations]] for excisive $\infty$-functors and of the [[Bousfield-Friedlander model structure]] for [[sequential spectra]] is due to ([Lydakis 98](#Lydakis98)), see at _[[model structure for excisive functors]]_ at _[Relation to BF-model structure on sequential spectra](model+structure+for+excisive+functors#ModelStructureForSpectra)_.
 
-Let $F$ be a reduced excisive functor $E$.
-
+The idea of the euivalence is as follows. Let $E$ be a reduced excisive functor.
 For each $n \in \mathbb{N}$, write $S^n \in \infty Grpd_{fin}^{\ast/}$ for the [[n-sphere]] and write $E_{n} \coloneqq E(S^n)$. We have the homotopy pushout squares
 
 $$
@@ -83,14 +81,10 @@ $$
   \,.
 $$
 
-If this were all the data in $E$, it would manifestly exhibit $E_\bullet$ as being equivalently an [[Omega spectrum]]. And indeed this is all the data in $E$: 
+This makes $E_\bullet$ have the structure of an  [[Omega spectrum]]. The idea then is that as such it represents a [[generalized homology theory]] and the value of the excisive functor on any finite homotopy type $X$ is then $\Omega^\infty(E \wedge X)$ (see [Lurie, remark 1.4.3.3](#HigherAlg)).
 
 
-Since [[finite homotopy types]] are given by a finite number of sphere attachments, hence a finite number of [[homotopy pushouts]] with $n$-spheres, it follows that the value of $E$ on any pointed finite homotopy type $X$ is the [[smash product]] $\Omega^\infty(E \wedge X )$, hence the [[generalized homology]] $E(X)$ (see also [Lurie, remark 1.4.3.3](#HigherAlg)). That this assignment still sends all possible homotopy pushouts to homotopy pullback is then the excision axiom for the [[generalized homology]] theory thus given, and it does hold due to the [[Brown representability theorem]].
 
-=--
-
-The same proof, with the point going to any space $E(\ast)$, gives that $E$ is a [[parameterized spectrum]] over $E(\ast)$.
 
 +-- {: .num_remark #RelationToGeneralizedHomologyTheories}
 ###### Remark
@@ -183,7 +177,7 @@ $$
 This is due (in the generality of _[n-excisive functor -- n-Excisive Approximation and reflection](https://ncatlab.org/nlab/show/n-excisive+functor#nExcisiveApproximation)_) to ([Goodwillie 91, theorem 1.8](#Goodwillie91)). See also ([Lurie, theorem 6.1.1.10, construction 6.1.1.27](#HigherAlg)).
 
 
-+-- {: .num_prop}
++-- {: .num_prop #ExcisiveApproximation}
 ###### Proposition
 
 Let $\mathcal{C}$ have finite colimits and a terminal object and let $\mathcal{D}$ be differentiable.
@@ -203,6 +197,12 @@ $$
 
 ([Lurie, example 6.1.1.28](#HigherAlg))
 
++-- {: .num_remark}
+###### Remark
+
+Under the equivalence to [[sequential spectra]] in prop. \ref{SpectraAsExcisiveFunctors}, the formula in prop. \ref{ExcisiveApproximation} is the standard formula for [[spectrification]] of [[prespectra]].
+
+=--
 
 ### Characterization via a generic stable object
  {#CharacterizationViaAGenericStableObject}
@@ -354,6 +354,11 @@ A discussion in the general abstract context of [[(∞,1)-category theory]] is i
 Review includes
 
 * {#Harpaz2013} [[Yonatan Harpaz]], section 5 of _Introduction to stable $\infty$-categories_, October 2013 ([[HarpazStableInfinityCategory2013.pdf:file]])
+
+A [[model structure for excisive functors]] was given in 
+
+* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+
    
 Discussion in terms of [[stable homotopy types]] is due to 
 
