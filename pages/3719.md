@@ -9,7 +9,6 @@
 =--
 =--
 
-
 This entry provides a hyperlinked index for the textbook
 
 * [[Charles Weibel]], 
@@ -24,6 +23,9 @@ For a more comprehensive account of the theory see also chapters 8 and 12-18 of
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
+and see the $n$Lab lecture notes
+
+* _[[schreiber:Introduction to Homological Algebra]]_ ([[IntroductionToHomologicalAlgebra-170509.pdf:file]])
 
 #Contents#
 * table of contents
