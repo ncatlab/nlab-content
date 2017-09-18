@@ -30,12 +30,12 @@ Global analytic geometry
 
 * contains [[algebraic geometry]] as a sub-theory;
 
-* treats all [[places]] on equal footing, contrary to scheme theory. This implies that it is closer in spirit to the automorphic philosophy and [[Langlands program]], and more historically to Tate's proof of the functional equation.
+* treats all [[places]] on equal footing, contrary to scheme theory. This implies that it is closer in spirit to the automorphic philosophy and [[Langlands program]], and more historically to Tate's proof of the [[functional equation]].
 
 The main aim of the theory is to define, using global analytic tools, a good [[Hodge theory]] for arithmetic varieties.
 
-## Possible set of constraints
-for a [relaxed](http://en.wikipedia.org/wiki/Relaxation_%28approximation%29) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to  understand better the motivations underlying the construction of global analytic spaces.
+## Possible set of initial constraints
+For a [relaxed](http://en.wikipedia.org/wiki/Relaxation_%28approximation%29) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to  understand better the motivations underlying the construction of global analytic spaces.
 
 1. having a good theory of linear coefficients on global analytic spaces,
 with the Grothendieck six operations (this should be done by the use of the [[sub-analytic]] topology in characteristic $0$, and by a `probably quite hard to develop`
@@ -46,8 +46,10 @@ disc are not so well adapted to the study of torsion phenomena in the characteri
 * get back (or be isomorphic to) the usual algebraic de Rham Chern character when one works with usual schemes.
 * get back the p-adic analytic de Rham Chern character (on Ayoub's motivic cohomology) of dagger spaces when one works with dagger p-adic spaces.
 * get back the usual de Rham Chern character when one works over $\C$.
+
+## A more optimistic set of constraints
 1. the functional equation of [[zeta functions]] of arbitrary [[arithmetic varieties]];
-1. an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and global [[analytic motives]].
+1. an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and a sort of global [[analytic motives]].
 
 Argument in favor of its use are:
 
