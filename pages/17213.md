@@ -400,7 +400,7 @@ First of all this yields a concise statement of the pointed topologically [[enri
 ###### Proposition
 **(topologically [[enriched Yoneda lemma]])**
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
 
 $$
   [\mathcal{C}, Top^{\ast/}_{cg}](\mathcal{C}(c,-),\; F)
@@ -422,6 +422,194 @@ $$
 In this form the statement is also known as **[[Yoneda reduction]]**.
 
 =--
+
+The **proof** of prop. \ref{YonedaReductionTopological} is essentially dual to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
+
+Now that [[natural transformations]] are phrased in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involvng [[coends]]:
+
++-- {: .num_prop #TopologicalCoYonedaLemma}
+###### Proposition
+**([[co-Yoneda lemma]])**
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
+
+$$
+  F(-)
+    \simeq
+  \overset{c \in \mathcal{C}}{\int}
+  \mathcal{C}(c,-) \wedge F(c)
+  \,.
+$$
+
+Moreover, the morphism that hence exhibits $F(c)$ as the [[coequalizer]] of the two morphisms in def. \ref{EndAndCoendInTopcgSmash} is componentwise the canonical action 
+
+$$
+  \mathcal{C}(d,c) \wedge F(c)
+   \longrightarrow
+  F(d)
+$$
+
+which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to Maps(F(c),F(d))_{\ast}$ of the [[topologically enriched functor]] $F$.
+
+=--
+
+(e.g. [MMSS 00, lemma 1.6](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+The coequalizer of pointed topological spaces that we need to consider has underlying it a coequalizer of underlying pointed sets  ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). That in turn is the colimit over the diagram of underlying sets with the basepointe adjoined to the diagram ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects)). For a coequalizer diagram adding that extra point to the diagram clearly does not change the colimit, and so we need to consider the plain coequalizer of sets.
+
+That is just the set of [[equivalence classes]] of [[pairs]]
+
+$$
+  ( c \overset{}{\to} c_0,\; x \in F(c) )
+  \,,
+$$
+
+where two such pairs
+
+$$
+  ( c \overset{f}{\to} c_0,\; x \in F(c) )
+  \,,\;\;\;\;
+  ( d \overset{g}{\to} c_0,\; y \in F(d) )  
+$$
+
+are regarded as equivalent if there exists
+
+$$
+  c \overset{\phi}{\to} d
+$$
+
+such that 
+
+$$
+  f = g \circ \phi
+  \,,
+  \;\;\;\;\;and\;\;\;\;\;
+  y = \phi(x)
+  \,.
+$$
+
+(Because then the two pairs are the two images of the pair $(g,x)$ under the two morphisms being coequalized.)
+
+But now considering the case that $d = c_0$ and $d = id_{c_0}$, so that $f = \phi$ shows that any pair
+
+$$
+  ( c \overset{\phi}{\to} c_0, \; x \in F(c))
+$$
+
+is identified, in the coequalizer, with the pair
+
+$$
+  (id_{c_0},\; \phi(x) \in F(c_0))
+  \,,
+$$ 
+
+hence with $\phi(x)\in F(c_0)$. 
+
+This shows the claim at the level of the underlying sets. To conclude it is now sufficient ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop)) to show that the topology on $F(c_0) \in Top^{\ast/}_{cg}$ is the [[final topology]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#InitialAndFinalTopologies)) of the system of component morphisms
+
+$$
+  \mathcal{C}(d,c) \wedge F(c)
+    \longrightarrow
+  \underset{c}{\int} \mathcal{C}(c,c_0) \wedge F(c)
+$$
+
+which we just found. But that system includes 
+
+$$
+  \mathcal{C}(c,c) \wedge F(c) \longrightarrow F(c)
+$$
+
+which is a [[retraction]]
+
+$$
+  id \;\colon\; F(c) \longrightarrow \mathcal{C}(c,c) \wedge F(c)
+  \longrightarrow F(c)
+$$
+
+and so if all the preimages of a given subset of the coequalizer under these component maps is open, it must have already been open in $F(c)$.
+
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The statement of the [[co-Yoneda lemma]] in prop. \ref{TopologicalCoYonedaLemma} is a kind of [[categorification]] of the following statement in [[analysis]] (whence the notation with the integral signs):
+
+For $X$ a [[topological space]], $f \colon X \to\mathbb{R}$ a [[continuous function]] and $\delta(-,x_0)$ denoting the [[Dirac distribution]], then
+
+$$
+  \int_{x \in X} \delta(x,x_0) f(x)
+  = 
+  f(x_0)
+  \,.
+$$
+
+=--
+
+It is this analogy that gives the name to the following statement:
+
++-- {: .num_prop #CoendsCommuteWithEachOther}
+###### Proposition
+**([[Fubini theorem]] for (co)-ends)**
+
+For $F$ a pointed topologically enriched [[bifunctor]] on a small pointed topological [[product category]] $\mathcal{C}_1 \times \mathcal{C}_2$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), i.e.
+
+$$
+   F 
+  \;\colon\;
+  \left(
+    \mathcal{C}_1\times\mathcal{C}_2
+  \right)^{op}
+  \times
+  (\mathcal{C}_1 \times\mathcal{C}_2)
+  \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+then its [[end]] and [[coend]] (def. \ref{EndAndCoendInTopcgSmash}) is equivalently formed consecutively over each variable, in either order:
+
+$$
+  \overset{(c_1,c_2)}{\int} F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \overset{c_1}{\int}
+  \overset{c_2}{\int}
+  F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \overset{c_2}{\int}
+  \overset{c_1}{\int}
+  F((c_1,c_2), (c_1,c_2))
+$$
+
+and
+
+$$
+  \underset{(c_1,c_2)}{\int} F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \underset{c_1}{\int}
+  \underset{c_2}{\int}
+  F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \underset{c_2}{\int}
+  \underset{c_1}{\int}
+  F((c_1,c_2), (c_1,c_2))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
+
+=--
+
+
 
 +-- {: .num_remark #MappingSpacePreservesEnds}
 ###### Remark
@@ -459,6 +647,7 @@ $$
 
 +-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
 ###### Proposition
+**(left Kan extension via coends)**
 
 Let $\mathcal{C}, \mathcal{D}$ be [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) and let 
 
@@ -504,7 +693,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $Maps(-,-)_\ast$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the smash/mapping space adjunction ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
+Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $Maps(-,-)_\ast$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the smash/mapping space adjunction ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
 
 $$
   \begin{aligned}
@@ -952,7 +1141,7 @@ a topological [[monoidal category]] with [[tensor unit]] $y(I)$ co-represented b
 ###### Proof
 
 To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
-use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
+use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
 
 $$
   \begin{aligned}
