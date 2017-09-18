@@ -24,8 +24,17 @@ Dual gravitons have been considered in particular for manifestly EM-duality-symm
 
 ## References
 
+The dual graviton was maybe first discussed in 
+
+* T. Curtwright, _Generalised Gauge Fields_, Phys.Lett. B165 (1985) 304
+
+then further in
+
 * {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], Nicolas Boulanger, [[Marc Henneaux]], _Consistent deformations of dual formulations of linearized gravity: A no-go result_, Phys.Rev. D67 (2003) 044010 ([arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278))
 
 * {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged SO(8) supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
 
+Discussion in terms of [[E11]] [[U-duality]] is in 
+
+* {#Wess11} [[Peter West]], section N (pp. 19) of _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 [[!redirects dual gravitons]]
