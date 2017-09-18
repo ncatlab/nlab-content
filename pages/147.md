@@ -166,6 +166,7 @@ Other classes of sites are listed in the following.
 
 * [[cohesive site]], [[∞-cohesive site]]
 
+* [[atomic site]]
 
 ### Specific sites
 
