@@ -39,7 +39,7 @@ Let $ X \to Y $ be a surjective submersion of compact smooth manifolds, and assu
 
 ### Slightly less-trivial example
 
-The restriction to the unit sphere in $\mathbb{R}^{n+1}$ of a generic quadratic form is Morse with $2(n+1)$ critical points --- two of each [[bilinear form|index]]; and furthermore this restriction clearly descends to $\mathbb{RP}^n$ as a Morse function with $n+1$ critical points, one of each index.  It can be shown that this is indeed the minimal collection of critical points supported by real projective space.
+The restriction to the [[unit sphere]] in $\mathbb{R}^{n+1}$ of a generic quadratic form is Morse with $2(n+1)$ critical points --- two of each [[bilinear form|index]]; and furthermore this restriction clearly descends to $\mathbb{RP}^n$ as a Morse function with $n+1$ critical points, one of each index.  It can be shown that this is indeed the minimal collection of critical points supported by real projective space.
 
 ## References
 
