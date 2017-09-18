@@ -439,6 +439,7 @@ A more recent and more comprehensive review is
 
 * [[Joan Simón]], _[Brane Effective Actions, Kappa-Symmetry and Applications](http://relativity.livingreviews.org/Articles/lrr-2012-3/)_, Living Reviews in relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
 
+
 Review from the bigger perspective that also includes worlsheet supermanifolds is in 
 
 * [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
@@ -773,6 +774,13 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 
 [[!redirects super p-brane sigma model]]
 [[!redirects super p-brane sigma models]]
+
+[[!redirects Green-Schwarz-type sigma model]]
+[[!redirects Green-Schwarz-type sigma models]]
+
+[[!redirects Green-Schwarz-type sigma-model]]
+[[!redirects Green-Schwarz-type sigma-models]]
+
 
 [[!redirects Green-Schwarz super-p brane sigma model]]
 [[!redirects Green-Schwarz super-p brane sigma models]]
