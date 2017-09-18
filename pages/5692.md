@@ -57,7 +57,7 @@ are those in the [[classical model structure on simplicial sets]].
 
 =--
 
-This appears as ([GoerssJardine, ch V, prop. 6.2](GoerssJardine)).
+This appears as ([Goerss-Jardine, ch V, prop. 6.2](#GoerssJardine)).
 
 
 ## Properties
@@ -65,7 +65,7 @@ This appears as ([GoerssJardine, ch V, prop. 6.2](GoerssJardine)).
 +-- {: .num_prop }
 ###### Proposition
 
-The simplicial loop space functor $G$ and the delooping functor $\bar W(-)$ (discussed at [[simplicial group]]) constitute a [[Quillen equivalence]]
+The [[simplicial loop space]] functor $G$ and the delooping functor $\bar W(-)$ (discussed at [[simplicial group]]) constitute a [[Quillen equivalence]]
 
 $$
   (G \dashv \bar W) : sGr \stackrel{\overset{G}{\leftarrow}}{\underset{\bar W}{\to}}
@@ -76,7 +76,7 @@ with the [[model structure on simplicial groups]].
 
 =--
 
-This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
+This appears as ([Goerss-Jardine, ch. V prop. 6.3](#GoerssJardine)).
 
 
 +-- {: .num_prop }
@@ -92,7 +92,7 @@ In particular
 
 =--
 
-The first statment appears as ([GoerssJardine, ch. V, lemma 6.6.](#GoerssJardine)). The second (an immediate consequence) appears as ([GoerssJardine, ch. V, corollary 6.8](#GoerssJardine)).
+The first statment appears as ([Goerss-Jardine, ch. V, lemma 6.6.](#GoerssJardine)). The second (an immediate consequence) appears as ([Goerss-Jardine, ch. V, corollary 6.8](#GoerssJardine)).
 
 ## Related concepts
 
@@ -106,5 +106,5 @@ The first statment appears as ([GoerssJardine, ch. V, lemma 6.6.](#GoerssJardine
 
 A standard textbook reference is chapter V of
 
-* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
-{#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]], [[John Frederick Jardine]], _[[Simplicial homotopy theory]]_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+
