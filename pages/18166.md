@@ -1,0 +1,172 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Statement
+
+Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
+
+1. $(X,\tau)$ is a [[paracompact Hausdorff space]].
+
+1. Every [[open cover]] of $(X,\tau)$ admits a subordinate [[partition of unity]].
+
+## Details
+
++-- {: .num_defn #LocallyFiniteCover}
+###### Definition
+**([[locally finite cover]])**
+
+Let $(X,\tau)$ be a [[topological space]].
+
+An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finite_ if for all point $x \in X$, there exists a  [[neighbourhood]] $U_x \supset \{x\}$ such that it [[intersection|intersects]] only finitely many elements of the cover, hence such that  $U_x \cap U_i \neq \emptyset$ for only a [[finite number]] of $i \in I$.
+
+=--
+
++-- {: .num_defn #RefinementOfOpenCovers}
+###### Definition
+**([[refinement]] of [[open covers]])
+
+
+Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a [[open cover]].
+ 
+Then a _[[refinement]]_ of this open cover is a set of open subsets $\{V_j \subset X\}_{j \in J}$ which is still an [[open cover]] in itself and such that for each $j \in J$ there exists an $i \in I$ with $V_j \subset U_i$.
+
+=--
+
++-- {: .num_defn #ParacompactSpace}
+###### Definition
+**([[paracompact topological space]])**
+
+A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|paracompact]]_ if every [[open cover]] of $X$ has a [[refinement]] (def. \ref{RefinementOfOpenCovers}) by a [[locally finite open cover]] (def. \ref{LocallyFiniteCover}).
+
+=--
+
+
++-- {: .num_defn #PartitionOfUnity}
+###### Definition
+**([[partition of unity]])**
+
+Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]]. Then a _[[partition of unity]] subordinate to the cover_ is
+
+* a [[set]] $\{f_i\}_{i \in I}$ of [[continuous functions]]
+
+  $$
+    f_i \;\colon\; U_i \longrightarrow [0,1]
+  $$
+
+  (where $U_i \subset X$ and $[0,1] \subset \mathbb{R}$ are equipped with their [[subspace topology]], the [[real numbers]] $\mathbb{R}$ is regarded as the 1-dimensional [[Euclidean space]] equipped with its [[metric topology]]); 
+
+such that with 
+
+$$
+  Supp(f_i) \coloneqq Cl(f_i^{-1}( (0,] ))
+$$
+
+denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of points on which it does not vanish) then
+
+1. $\underset{i \in I}{\forall} \left( Supp(f_i) \subset U_i \right)$;
+  
+1. $\left\{ Supp(f_i) \subset X \right\}_{i \in I}$  is a [[locally finite cover]] (def. \ref{LocallyFiniteCover});
+
+1. $\underset{x \in X}{\forall} \left(  \underset{i \in I}{\sum} f_i(x) = 1 \right)$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Due to the second clause in def. \ref{PartitionOfUnity}, the [[sum]] in the third clause involves only a [[finite number]] of elements not equal to zero, and therefore is well defined.
+
+=--
+
+## Proof
+
+The non-trivial direction to show is:
+
++-- {: .num_prop}
+###### Proposition
+
+If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] $\{U_i \subset X\}_{i \in I}$ there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
+
+=--
+
+The following says that if there exists a [[locally finite cover|locally finite]] [[refinement]] of a cover, then in fact there exists one with the same index set as the original cover.
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I), \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+
+Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with 
+
+$$
+  W_i 
+    \;\coloneqq\;
+  \left\{
+    \underset{j \in \phi^{-1}(\{i\})}{\cup} V_j
+  \right\}
+$$
+
+is still a [[refinement]] of $\{U_i \subset X\}_{i \in I}$ to a [[locally finite cover]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+It is clear by construction that $W_i \subset U_i$, hence that we have a [[refinement]]. We need to show local finiteness.
+
+Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finitee]] [[subset]] $K \subset J$ such that 
+
+$$
+  \underset{j \in J\backslash K}{\forall} \left( U_x \cap V_j = \emptyset \right)
+  \,.
+$$
+
+Hence by construction 
+
+$$
+  \underset{I \in I\backslash \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
+  \,.
+$$
+
+Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows that $\{W_i \subset X\}_{i \in I}$ is locally finite.
+
+
+=--
+
+
+## Related statements
+
+* [[compact spaces equivalently have converging subnet of every net]]
+
+* [[Hausdorff spaces are sober]]
+
+* [[compact subspaces of Hausdorff spaces are closed]]
+
+* [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
+
+* [[a CW-complex is a Hausdorff space]]
+
+* [[Hausdorff implies sober]]
+
+* [[maps from compact spaces to Hausdorff spaces are closed and proper]]
+
+* [[continuous images of compact spaces are compact]]
+
+
+
