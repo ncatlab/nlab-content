@@ -29,6 +29,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
 ## Related concepts
 
+* [[lattice QCD]]
+
 * [[quantum field theory]]
 
   * [[gauge theory]]
