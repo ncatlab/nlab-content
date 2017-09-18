@@ -102,13 +102,10 @@ An intrinsic proof in [[homotopy type theory]] is announced in ([HoTTBook, theor
 This translates to an [[internal language]] proof of Blakers-Massey valid in all [[(∞,1)-toposes]] (including [[elementary (∞,1)-toposes]]). Unwinding of the fully formal HoTT proof to ordinary mathematical language is, for the special case of the Freudenthal suspension theorem, in ([Rezk 14](#Rezk14)).
 
 
+### Higher cubical BM-theorems and analytic $\infty$-functors
+ {#HigherCubical}
 
-
-
-
-## Related concepts
-
-* [[analytic (∞,1)-functor]]
+There are higher analogs of the BM-theorem with (pushout) squares replaced by higher dimensional cubes. The higher BM-theorem ([Goodwillie 91](#Goodwillie91)) says equivalently that the identity [[(∞,1)-functor]] on [[∞Grpd]] is a 1-[[analytic (∞,1)-functor]]. See ([Munson-Volic 15, section 6](#MunsonVolic15)).
 
 
 
@@ -212,3 +209,11 @@ An announcement was given in
 Unwinding to ordinary mathematical language of the computer-checked formal proof of Blakers-Massey (or, for the moment, of the special case that is the Freudenthal suspension theorem) is in 
 
 * {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
+
+The higher cubical version of Blakers-Massey is due to 
+
+* {#Goodwillie91} [[Tom Goodwillie]], _Calculus II: Analytic functors_, K-Theory  01/1991; 5(4):295-332. DOI: 10.1007/BF00535644
+
+a textbook account is in 
+
+* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
