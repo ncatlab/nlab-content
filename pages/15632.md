@@ -118,7 +118,7 @@ This can be viewed as a more elaborate version of the preceding example where $\
 
 +-- {: .num_example}
 ###### Example
-Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2) are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs.
+Let $\mathbf{Bin}$ be the category of sets equipped with a binary relation i.e. objects are pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. This is the same as the category of [[quiver|simple directed graphs]] hence a [[quasitopos]] since it corresponds to the separated objects for the [[double negation|double negation topology]] on the directed graphs.
 Symmetricization $\rho\mapsto\bar{\rho}$ by adding pairs $(y,x)$ (if necessary) when $(x,y)\in\rho$ gives a functor from $\mathbf{Bin}$ to the full subcategory $\mathbf{Sym}$ of sets equipped with a symmetric relation that is adjoint to $\mathbf{Sym}\hookrightarrow\mathbf{Bin}$ on both sides.
 =--
 
