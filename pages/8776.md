@@ -156,6 +156,9 @@ See ([ACFG 01](#ACFG01)).
 
 * A. Ceresole, [[Gianguido Dall'Agata]], _General matter coupled $N=2$, $D=5$ gauged supergravity_, Nucl.Phys. B585 (2000) 143-170 ([arXiv:hep-th/0004111](http://arxiv.org/abs/hep-th/0004111))
 
+* [[John Ellis]], Murat Gunaydin, Marco Zagermann, _Options for Gauge Groups in Five-Dimensional Supergravity_, JHEP 0111:024,2001 ([arXiv:hep-th/0108094](http://arxiv.org/abs/hep-th/0108094))
+
+
 ### Horava-Witten compactification
  {#ReferencesHWCompactification}
 
