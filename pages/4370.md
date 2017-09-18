@@ -17,7 +17,7 @@
 
 Given a [[topological space]] (or [[locale]]) $X$, a [[subspace]] $A$ of $X$ is __dense__ if its [[closed subspace|closure]] is all of $X$: $cl(A)=X$.
 
-Since $cl(A)$ is the set of all points $x$ such that every open neighborhood of $x$ intersects $A$, this can equivalently be written as "every open neighborhood of every point intersects $A$", or equivalently "every [[inhabited set|inhabited]] open set intersects $A$", i.e. $A\cap U$ is inhabited for all inhabited open sets $U$.
+Since $cl(A)$ is the set of all points $x$ such that every [[open neighborhood]] of $x$ [[intersection|intersects]] $A$, this can equivalently be written as "every open neighborhood of every point intersects $A$", or equivalently "every [[inhabited set|inhabited]] open set intersects $A$", i.e. $A\cap U$ is [[inhabited]] for all inhabited open sets $U$.
 
 Contraposing this, we obtain another equivalent definition "the only open subset not intersecting $A$ is the empty set", or "if $A\cap U=\emptyset$ for some open set $U$, then $U=\emptyset$".  This is the definition usually given when $X$ is a [[locale]]: a [[nucleus]] $j$ is dense if $j(0)=0$ (since $j(0)$ is the union of all opens whose "intersection with $j$" is $0$).
 
