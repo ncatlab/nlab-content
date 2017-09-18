@@ -191,6 +191,8 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 
 * [[(infinity,1)-bimodule]]
 
+* [[bimodule category]]
+
 * [[2-module]], [[2-ring]]
 
 
@@ -203,10 +205,9 @@ The 2-category of bimodules in its incarnation as a [[2-category with proarrow e
 
 Bimodules in [[homotopy theory]]/[[higher algebra]] are discussed in section 4.3 of 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+ 
 
 For more on that see at _[[(∞,1)-bimodule]]_.
 
 [[!redirects bimodules]]
-
