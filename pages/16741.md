@@ -88,6 +88,19 @@ Due to a result in [Johnstone (2002, p.194)](#Johnstone), this is equivalent to 
 
 By the [above proposition](#DeMorgan_prop), $Sh_m(Sh_{j}(\mathcal{E}))\hookrightarrow Sh_{m}(\mathcal{E})$ for $j$ dense. Accordingly, _dense inclusions_ $Sh_{j}(\mathcal{E})\hookrightarrow\mathcal{E}$ are m-skeletal !
 
+The [characterization of Boolean toposes by skeletal morphisms](http://ncatlab.org/nlab/show/skeletal+geometric+morphism#Boolean_skeletal) carries over to m-skeletal morphisms and De Morgan toposes:
+
++--{: .num_prop #DeMorgan_m-skeletal}
+###### Proposition
+A topos $\mathcal{E}$ is De Morgan iff every geometric morphism $\mathcal{F}\to\mathcal{E}$ is m-skeletal.
+=--
+
+**Proof**:
+Assume $\mathcal{E}$ is De Morgan, then it coincides with $Sh_m(\mathcal{E})$ and $m$-sheaves of $\mathcal{F}$ necessarily have to land there.
+
+Conversely, assume all $\mathcal{F}\to\mathcal{E}$ are m-skeletal. Then the surjective morphism $f:\gamma\mathcal{E}\to\mathcal{E}$ from the [[De Morgan topos|Gleason cover]] $\gamma\mathcal{E}$ is m-skeletal. But $\gamma\mathcal{E}$ is De Morgan and, therefore, so is $im(f)=\mathcal{E}$. $\qed$
+
+
 ## Related entries
 
 * [[De Morgan topos]]
