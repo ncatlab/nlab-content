@@ -103,6 +103,7 @@ This trinity of concepts
 
 1. [[category]]
 
+
 1. [[functor]]
 
 1. [[natural transformation]]
@@ -306,7 +307,7 @@ The paper [Eilenberg-Maclane 45](#EilenbergMaclane45) was a clash of ideas from 
 
 This and much more history is recalled in
 
-* [[Saunders MacLane]], _Concepts and Categories in Perspective_, AMS ([pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf))
+* {#MacLaneHistory} [[Saunders MacLane]], _Concepts and Categories in Perspective_, AMS ([pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf))
 
 ### Textbooks
  {#TextBooks}
