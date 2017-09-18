@@ -85,7 +85,7 @@ where the first morphism is the [[unit of an adjunction|unit]] of the ([[Cartesi
 +-- {: .num_prop #GeneralReduction}
 ###### Proposition
 
-Let $\mathbf{H}$ be any  [[(∞,1)-topos]] and let $G$ be an [[∞-group]] in $\mathbf{H}$. There is a pair of [[adjoint ∞-functors]] of the form
+Let $\mathbf{H}$ be any  [[(∞,1)-topos]] and let $G$ be an [[∞-group]] in $\mathbf{H}$. Then the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to \mathbf{B}G$ into the [[delooping]] of $G$ takes the following form: There is a pair of [[adjoint ∞-functors]] of the form
 
 $$
   \mathbf{H}
@@ -103,7 +103,7 @@ where
 * $[G,-]$ denotes the [[internal hom]] in $\mathbf{H}$,
 
 * $[G,-]/G$ denotes the [[homotopy quotient]] by the [[conjugation action|conjugation]] [[∞-action]] for $G$ equipped with its canonical [[∞-action]] by left multiplication and the argument
-regarded as equipped with its trivial $G$-$\infty$-action, hence for $G = S^1$ this is the [[cyclic loop space]] construction:
+regarded as equipped with its trivial $G$-$\infty$-action (for $G = S^1$ the [[circle group]] this is the [[cyclic loop space]] construction).
 
 Hence for
 
