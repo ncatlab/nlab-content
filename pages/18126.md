@@ -10928,6 +10928,56 @@ A [[topological space]] $(X,\tau)$ is called _[[paracompact topological space|pa
 
 =--
 
+Here are two basic classes of examples of paracompact spaces, below in _[Examples](#ExamplesParacompactSpaces)_
+we consider more sophisticated ones:
+
++-- {: .num_example #CompactSpaceIsParacompact}
+###### Example
+**([[compact topological spaces]] are [[paracompact topological spaces|paracompact]])
+
+Every [[compact topological space]] (def. \ref{CompactTopologicalSpace}) is paracompact (def. \ref{ParacompactSpace}).
+
+Since a finite subcover is in particular a locally finite refinement.
+
+=--
+
++-- {: .num_example #ParacompactDisjointUnionOfParacompactSpaces}
+###### Example
+**([[disjoint union space|disjoint unions]] of [[paracompact topological spaces|paracompact spaces]] are paracompact)**
+
+Let $\{(X_i, \tau_i)\}_{i \in I}$ be a set of [[paracompact topological spaces]] (def. \ref{ParacompactSpace}).
+Then also their [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces})
+
+$$
+  \underset{i \in I}{\sqcup} (X_i,\tau_i)
+$$
+
+is paracompact.
+
+In particular, by example \ref{CompactSpaceIsParacompact} a non-finite disjoint union of [[compact topological spaces]]
+is, while no longer compact, still paracompact.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\mathcal{U} = \{ U_j \subset \underset{i \in I}{\sqcup} (X_i, \tau_i) \}_{j \in J}$ be an [[open cover]].
+We need to produce a locally finite refinement.
+
+Since each $X_i$ is open in the disjoint union, the intersections $U_i \cap X_j$ are all open, and
+hence by forming all these intersections we obtain a [[refinement]] of the original cover by a disjoint union
+of open covers $\mathcal{U}_i$ of $(X_i, \tau_i)$ for all $i \in I$. By the assumption that
+each $(X_i, \tau_i)$ is paracompact, each $\mathcal{U}_i$ has a locally finite refinement $\mathcal{V}_i$.
+Accordingly the disjoint union $\underset{i \in I}{\sqcup}\mathcal{V}_i$ is a locally finite refinement
+of $\mathcal{U}$.
+
+=--
+
+In the discussion of [[topological manifolds]] [below](#Manifolds), we are particularly
+interested in topological spaces that are both paracompact as well as Hausdorff. 
+In fact these are even normal:
+
 +-- {: .num_defn #ParacompactHausdorffSpacesAreNormal}
 ###### Proposition
 **([[paracompact Hausdorff spaces are normal]])**
@@ -11068,79 +11118,16 @@ is still open and disjoint from the remaining $V_k$, hence disjoint from all of 
 
 =--
 
-
-
 $\,$
 
-### Examples
-
-First, here are some basic classes of examples of paracompact spaces:
-
-+-- {: .num_example #CompactSpaceIsParacompact}
-###### Example
-**([[compact topological spaces]] are [[paracompact topological spaces|paracompact]])
-
-Every [[compact topological space]] (def. \ref{CompactTopologicalSpace}) is paracompact (def. \ref{ParacompactSpace}).
-
-Since a finite subcover is in particular a locally finite refinement.
-
-=--
-
-+-- {: .num_example #ParacompactDisjointUnionOfParacompactSpaces}
-###### Example
-**([[disjoint union space|disjoint unions]] of [[paracompact topological spaces|paracompact spaces]] are paracompact)**
-
-Let $\{(X_i, \tau_i)\}_{i \in I}$ be a set of [[paracompact topological spaces]] (def. \ref{ParacompactSpace}).
-Then also their [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces})
-
-$$
-  \underset{i \in I}{\sqcup} (X_i,\tau_i)
-$$
-
-is paracompact.
-
-In particular, by example \ref{CompactSpaceIsParacompact} a non-finite disjoint union of [[compact topological spaces]]
-is, while no longer compact, still paracompact.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $\mathcal{U} = \{ U_j \subset \underset{i \in I}{\sqcup} (X_i, \tau_i) \}_{j \in J}$ be an [[open cover]].
-We need to produce a locally finite refinement.
-
-Since each $X_i$ is open in the disjoint union, the intersections $U_i \cap X_j$ are all open, and
-hence by forming all these intersections we obtain a [[refinement]] of the original cover by a disjoint union
-of open covers $\mathcal{U}_i$ of $(X_i, \tau_i)$ for all $i \in I$. By the assumption that
-each $(X_i, \tau_i)$ is paracompact, each $\mathcal{U}_i$ has a locally finite refinement $\mathcal{V}_i$.
-Accordingly the disjoint union $\underset{i \in I}{\sqcup}\mathcal{V}_i$ is a locally finite refinement
-of $\mathcal{U}$.
-
-=--
-
-Below we consider three important classes of examples of paracompact spaces whose proof of
-paracompactness is non-trivial:
-
-* [[locally compact topological space|locally compact]] [[topological groups]] (prop. \ref{ParacompactLocallyCompactTopologicalGroups});
-
-* [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
-
-* [[metric spaces]] (prop. \ref{ParacompactMetricSpace}).
-
-Before discussing these, we establish some recognition principles for paracompactness:
-
-
-$\,$
-
-In identifying [[paracompact Hausdorff spaces]] it is often useful
+In identifying [[paracompact Hausdorff spaces]] using the recognition principles that 
+we establish [below](#ExamplesParacompactSpaces) it is often useful
 (as witnessed for instance by prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} and prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} below) to consider two closely
 related properties of topological spaces:
 
 1. [[second-countable topological space|second-countability]] (def. \ref{CountableSecond} below);
 
 1. [[sigma-compact topological space|sigma-compactness]] (def. \ref{CompactSigma} below)
-
 
 
 +-- {: .num_defn #CountableSecond}
@@ -11223,11 +11210,33 @@ $$
 
 =--
 
-Using the concept of second-countable and of sigma-compact topological spaces,
-we obtain a class of examples of paracompact spaces in prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}
-below, which will be useful for
-identifying [[manifolds]] below in prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}.
-First we need the following lemma.
+
+
+$\,$
+
+### Examples
+ {#ExamplesParacompactSpaces}
+
+
+Below we consider three important classes of examples of paracompact spaces whose proof of
+paracompactness is non-trivial:
+
+* [[locally compact topological space|locally compact]] [[topological groups]] (prop. \ref{ParacompactLocallyCompactTopologicalGroups});
+
+* [[metric spaces]] (prop. \ref{ParacompactMetricSpace}).
+
+* [[CW-complexes]] (example \ref{ParacompactHausdorffCWComplexes});
+
+
+In order to discuss these, we consider some recognition principles of paracompactness: 
+
+* [[locally compact and sigma-compact spaces are paracompact]] (prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below)
+
+* ...
+
+$\,$
+
+
 
 +-- {: .num_lemma #LocallyCompactAndSigmaCompactImpliesGoodNestedCover}
 ###### Lemma
@@ -11368,6 +11377,8 @@ is a locally finite refinement of the original cover, as required:
 
 =--
 
+Using this, we may finally demonstrate a fundamental example of a paracompact space:
+
 +-- {: .num_example #ParacompactEuclideanSpace}
 ###### Example
 **([[Euclidean space]] is [[paracompact topological space|paracompact]])**
@@ -11388,51 +11399,12 @@ Therefore the statement follows since [[locally compact and sigma-compact spaces
 
 =--
 
-More generally:
-
-+-- {: .num_prop #ParacompactMetricSpace}
-###### Proposition
-**([[metric spaces are paracompact]])**
-
-A [[metric space]] (def. \ref{MetricSpace}) regarded as a [[topological space]] via its
-[[metric topology]] (example \ref{MetricTopology}) is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}).
-
-=--
+More generally all [[metric spaces]] are paracompact. This we consider below as prop. \ref{ParacompactMetricSpace}.
 
 
-+-- {: .num_example #ParacompactHausdorffCWComplexes}
-###### Example
-**([[CW-complexes are paracompact Hausdorff spaces]])**
 
-Let $X$ be a [[paracompact Hausdorff space]], let $n \in \mathbb{N}$ and let
-
-$$
-  f \;\colon\; S^{n-1} \longrightarrow X
-$$
-
-be a [[continuous function]] from the $(n-1)$-[[sphere]] (with its [[subspace topology]] inherited from [[Euclidean space]],
-example \ref{SpheresAndDisks}). Then also the [[attachment space]] (example \ref{PushoutInTop}) $X \cup_f D^n$,
-i.e. the [[pushout]]
-
-$$
-  \array{
-    S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
-    \\
-    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
-    \\
-    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
-  }
-$$
-
-is paracompact Hausdorff.
-
-This immediately implies that all [[finite CW-complexes]] (def. \ref{RelativeCellComplexes}) relative to a [[paracompact Hausdorff space]]
-are themselves paracompact Hausdorff. In fact this is true generally: all CW-complexes are paracompact Hausdorff spaces.
-
-
-=--
-
-Another source of paracompact spaces are [[topological groups]] (def. \ref{TopologicalGroup}),
+Using this recognition principle prop. \ref{ParacompactFromLocallyCompactAndSigmacompact}, a source of paracompact 
+spaces are locally compact [[topological groups]] (def. \ref{TopologicalGroup}),
 by prop. \ref{ParacompactLocallyCompactTopologicalGroups} below:
 
 +-- {: .num_defn #TopologicalGroup}
@@ -11526,7 +11498,7 @@ Finally, as indicated in the proof of Lemma \ref{OpenSubgroupOfTopologicalGroupI
 
 =--
 
-An archtypical example of a locally compact topological group is the general linear group:
+An archetypical example of a locally compact topological group is the general linear group:
 
 +-- {: .num_example #GLn}
 ###### Example
@@ -11571,7 +11543,7 @@ the Euclidean topology:
 
 +-- {: .num_example #AsSubspaceOfTheMappingSpace}
 ###### Proposition
-**([[general linear grouo]] is [[subspace]] of the [[compact-open topology|mapping space]])
+**([[general linear group]] is [[subspace]] of the [[compact-open topology|mapping space]])
 
 The [[topological space|topology]] induced on the real general linear group when regarded as a [[topological subspace]] of [[Euclidean space]] with its [[metric topology]]
 
@@ -11684,11 +11656,80 @@ by prop. \ref{ParacompactLocallyCompactTopologicalGroups}.
 
 =--
 
+$\,$
+
+Now we turn to the second recognition principle for paracompactness and the examples it implies.
+For the time being the remainded of this section is without proof.  The reader may 
+wish to skip ahead to the discussion of _[Partitions of unity](#PartitionsOfUnity)_.
+
++-- {: .num_prop #RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}
+###### Proposition
+**([[Michael's theorem]])**
+
+Let $X$ be a [[topological space]] such that
+
+1. $X$ is [[regular topological space|regular]];
+
+1. every [[open cover]] of $X$ has a [[refinement]] by a union of a [[countable set]] of
+
+   [[locally finite sets of subsets|locally finite]] sets of open subsets (not necessarily covering).
+
+Then $X$ is [[paracompact topological space]].
+
+=--
+
+Using this one shows:
+
++-- {: .num_prop #ParacompactMetricSpace}
+###### Proposition
+**([[metric spaces are paracompact]])**
+
+A [[metric space]] (def. \ref{MetricSpace}) regarded as a [[topological space]] via its
+[[metric topology]] (example \ref{MetricTopology}) is [[paracompact topological space|paracompact]] (def. \ref{ParacompactSpace}).
+
+=--
+
+
++-- {: .num_example #ParacompactHausdorffCWComplexes}
+###### Example
+**([[CW-complexes are paracompact Hausdorff spaces]])**
+
+Let $X$ be a [[paracompact Hausdorff space]], let $n \in \mathbb{N}$ and let
+
+$$
+  f \;\colon\; S^{n-1} \longrightarrow X
+$$
+
+be a [[continuous function]] from the $(n-1)$-[[sphere]] (with its [[subspace topology]] inherited from [[Euclidean space]],
+example \ref{SpheresAndDisks}). Then also the [[attachment space]] (example \ref{PushoutInTop}) $X \cup_f D^n$,
+i.e. the [[pushout]]
+
+$$
+  \array{
+    S^{n-1} &\overset{\phantom{A}f \phantom{A}}{\longrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
+    \\
+    D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
+  }
+$$
+
+is paracompact Hausdorff.
+
+This immediately implies that all [[finite CW-complexes]] (def. \ref{RelativeCellComplexes}) relative to a [[paracompact Hausdorff space]]
+are themselves paracompact Hausdorff. In fact this is true generally: all CW-complexes are paracompact Hausdorff spaces.
+
+
+=--
+
+
+
 
 
 $\,$
 
 ### Partitions of unity
+ {#PartitionsOfUnity}
 
 A key aspect of paracompact Hausdorff spaces is that they are equivalently those spaces that admit
 _partitions of unity_. This is  def. \ref{PartitionOfUnity} and prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity} 
@@ -12139,9 +12180,13 @@ $\,$
 
 ## Vector bundles
 
+A _([[topological vector bundle|topological]]) [[vector bundle]]_ is a collection of [[vector spaces]]
+that vary continuously over a [[topological space]]. Hence topological vector bundles combine 
+[[linear algebra]] with [[topology]].
+
 +-- {: .num_defn #TopologicalVectorBundle}
 ###### Definition
-**(topological vector bundle in components)**
+**([[topological vector bundle]])**
 
 Let $X$ be a [[topological space]]. Then a _topological vector bundle_ over $X$ is
 
@@ -12479,7 +12524,7 @@ Therefore by the [[universal property]] of the [[quotient topology]], also the o
 
 =--
 
-### Transition function
+### Transition functions
 
 We discuss how topological vector bundles are equivalently given by [[cocycles]] in [[Cech cohomology]]
 constituted by their [[transition functions]].
