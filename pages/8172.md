@@ -3602,7 +3602,7 @@ $$
   \,.
 $$
 
-This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to:
+This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences) for computing the homotopy groups that the spectral sequence converges to:
 
 * a dot at the top of a vertical sequence of dots denotes the group $\mathbb{Z}/p\mathbb{Z}$;
 
@@ -6005,7 +6005,7 @@ $$
 
 ##### The May spectral sequence
 
-The cobar complex (def. \ref{CobarComplex}) realizes the second page of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) as the [[cochain cohomology]] of a [[cochain complex]]. This is still hard to compute directly, but we now discuss that this cochain complex admits a [[filtered complex|filtration]] so that the induced [[spectral sequence of a filtered complex]] is computable and has trivial [[extension problem]]. This is called the _[[May spectral sequence]]_.
+The cobar complex (def. \ref{CobarComplex}) realizes the second page of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) as the [[cochain cohomology]] of a [[cochain complex]]. This is still hard to compute directly, but we now discuss that this cochain complex admits a [[filtered complex|filtration]] so that the induced [[spectral sequence of a filtered complex]] is computable and has trivial extension problem ([rmk.](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences)). This is called the _[[May spectral sequence]]_.
 
 We obtain this spectral sequence in prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence} below. First we need to consider some prerequisites.
 
@@ -6304,7 +6304,7 @@ called the **[[May spectral sequence]]** (where $s$ and $t$ are from the bigradi
 
    where the filtration is by maximal degree.
 
-Notice that since everything is $\mathbb{F}_2$-linear, the [extension problem](spectral+sequence#ExtensionProblem) of this spectral sequence is trivial.
+Notice that since everything is $\mathbb{F}_2$-linear, the [extension problem](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences) of this spectral sequence is trivial.
 
 =--
 
@@ -6436,11 +6436,12 @@ $$
 
 Now we use the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) to compute the second page of the [[classical Adams spectral sequence]] in low internal degrees $t-s$.
 
-In doing the computation, it is crucial to remember that the differential in the cobar complex (def. \ref{CobarComplex}) lands not in $\Gamma = \mathcal{A}^\ast_2$ itself, but in the unit coideal $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
 
 $\,$
 
 **The first page of the May spectral sequence**
+
+Remember that the differential in the cobar complex (def. \ref{CobarComplex}) lands not in $\Gamma = \mathcal{A}^\ast_2$ itself, but in the unit coideal $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
 
 Using this we find for the differential $d_1$ of the generators in low degree on the first page of the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) via the formula for the differential from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, the following expressions:
 
@@ -6464,6 +6465,21 @@ $$
 $$
 
 and hence all the elements $h_n$ are cocycles on the first page of the May spectral sequence.
+
+Also, since $d_1$ is a [[derivation]] (by definition of the cobar complex, def. \ref{CobarComplex}) and since the product of the image of the cobar complex in the first page of the May spectral sequence is graded commutative, we have for all $n,k$ that
+
+$$
+  \begin{aligned}
+    d_1 (h_{n,k})^2
+    & =
+    2 h_{n,k} (d_1 (h_{n,k}))
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+(since $2 = 0 \; mod \; 2$).
+
 
 Similarly we compute $d_1$ on the other generators. These terms do not vanish, but so they impose relations on products in the cobar complex:
 
@@ -6493,7 +6509,22 @@ $$
   \end{aligned}
 $$
 
-The second ofthese relations says that $h_0 \otimes h_1 = 0$ on the second page of the May spectral sequence. On the other hand the expressions $h_0 \otimes \cdots h_0$ and $h_1 \otimes \cdots h_1$ need not vanish yet. Hence so far in low degree we find
+The second of these relations says that 
+
+$$
+  h_0 \otimes h_1 = 0
+$$ 
+
+on the second page of the May spectral sequence. On the other hand the expressions 
+
+$$
+  h_0 \otimes \cdots h_0
+  \;\;\,
+   and
+  h_1 \otimes \cdots h_1
+$$ 
+
+need not vanish yet. Hence so far in low degree we find
 
 $$
   \array{
@@ -6510,10 +6541,9 @@ $$
 $$
 
 
-
 Proceeding this way by explicit inspection, one obtains:
 
-+-- {: .num_lemma }
++-- {: .num_lemma #FirstPageOfMaySpectralSequenceInLowDegrees}
 ###### Lemma
 
 In the range $t - s \leq 13$, the second page of the May spectral sequence for $Ext_{\mathbb{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ has as generators all the 
@@ -6534,9 +6564,20 @@ subject to the relations
 
 * $h_2 x_7 = h_0 b_{2,1}$.
 
-The differentials in this range are
+=--
 
-1. $d_r(h_{n}) = 0$
+e.g. ([Ravenel 86, lemma 3.2.8 and lemma 3.2.10](#Ravenel86), [Kochman 96, lemma 5.3.2](#Kochman96))
+
+$\,$
+
+**The second page of the May spectral sequence**
+
++-- {: .num_lemma}
+###### Lemma
+
+The differentials on the second page of the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) relevant for internal degrees $t-s \leq 12$ are
+
+1. $d_2(h_{n}) = 0$
 
 1. $d_2(b_{2,n}) = h_n^2 h_{n+2} + h_{n+1}^3$
 
@@ -6544,22 +6585,36 @@ The differentials in this range are
 
 1. $d_2(b_{3,0}) = h_1 b_{2,1} + h_3 b_{2,0}$
 
-1. $d_4(b_{2,0}^2) = h_0^4 h_3$.
+=--
+
+([Kochman 96, lemma 5.3.3](#Kochman96))
+
++-- {: .num_defn}
+###### Definition
+
+The first point follows as before in lemma \ref{FirstPageOfMaySpectralSequenceInLowDegrees}, in fact the $h_n$ are infinite cycles in the May spectral sequence.
+
+We spell out the computation for the second case:
+
+...
 
 =--
 
-e.g. ([Ravenel 86, lemma 3.2.8 and lemma 3.2.10](#Ravenel86), [Kochman 96, lemma 5.3.2 and lemma 5.3.3](#Kochman96))
+$\,$
 
-Hence this solves the May spectral sequence, hence gives the second page of the classical Adams spectral sequence. Inspection just of the degrees then shows that in this range there is no non-trivial differential in the Adams spectral sequece in this range. This way one arrives at:
 
-+-- {: .num_theorem}
+**The stable page of the May spectral sequence**
+
+Proceeding in this fashion, one keeps going until the 4-page of the May spectral sequence ([Kochman 96, lemma 5.3.5](#Kochman96)). Inspection of degrees shows that this is sufficient, and one obtains:
+
++-- {: .num_theorem #TheStablePageOfTheClassicalAdamsSpectralSequenceInLowDegree}
 ###### Theorem
 
 In low $t-s$ the group $Ext_{\mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)$ is spanned by the items in the following table
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
-
+Here every dot is a generator for a copy of $\mathbb{Z}/2\mathbb{Z}$. Vertical edges denote multiplication with $h_0$ and diagonal edges denotes multiplication with $h_1$. 
 
 =--
 
@@ -6569,7 +6624,7 @@ e.g. ([Ravenel 86, theorem 3.2.11](#Ravenel86), [Kochman 96, prop. 5.3.6](#Kochm
 ##### The first dozen stable stems
  {#StableStems}
 
-Hence we have found
+Theorem \ref{TheStablePageOfTheClassicalAdamsSpectralSequenceInLowDegree} gives the stable page of the [[classical Adams spectral sequence]] in low degree. By corollary \ref{ClassicalAdamsSpectralSequenceEstablished} and def. \ref{EAdamsConvergingCompletely} we have that a vertical sequence of dots encodes an 2-primary part of the stable homotopy groups of spheres according to the graphical calculus of remark \ref{PrimaryDecompositionGraphicalRepresentation} (the rules for determining group extensions there is just the solution to the extension problem ([rmk.](Introduction+to+Stable+homotopy+theory+--+S#ExtensionProblemForSpectralSequences)) in view of def. \ref{EAdamsConvergingCompletely}):
 
 
 
