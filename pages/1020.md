@@ -29,10 +29,10 @@ $$ F(x) \leq y \;\Leftrightarrow\; x \leq U(y) $$
 for all $x$ in $D$ and $y$ in $C$.
 
 Given [[locally small categories]] $C$ and $D$ and a [[functor]] $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with a [[natural isomorphism]] between the [[hom-set]] functors
-$$ Hom_C(F(-),-), Hom_D(-,U(-)): C^op \times D \to Set .$$
+$$ Hom_C(F(-),-), Hom_D(-,U(-)): D \times C^{op} \to Set .$$
 
 Given $V$-enriched categories $C$ and $D$ and a $V$-[[enriched functor]] $U: C \to D$, a __left adjoint__ of $U$ is a $V$-enriched functor $F: D \to C$ with a $V$-[[enriched natural transformation|enriched natural isomorphism]] between the [[hom-object]] functors
-$$ Hom_C(F(-),-), Hom_D(-,U(-)): C^op \times D \to Set .$$
+$$ Hom_C(F(-),-), Hom_D(-,U(-)): D \times C^{op} \to Set .$$
 
 Given categories $C$ and $D$ and a functor $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with [[natural transformation]]s
 $$ \iota: id_C \to F ; U,\; \epsilon: U ; F \to id_D $$
