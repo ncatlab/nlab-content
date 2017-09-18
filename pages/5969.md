@@ -195,6 +195,11 @@ $$
 
 and hence the combination $\alpha - \iota_{\delta\phi} \mathbf{L}$ is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see e.g. at [[schreiber:infinity-Chern-Simons theory -- covariant phase space]]). (Notice that here $\mathbf{L}$ being directly a [[differential form]] on the space of fields (instead of on a [[jet bundle]] of a [[field bundle]]) means that it depends on the derivatives of the fields exclusively via de Rham differentials, and hence the contraction $\iota_{\delta \phi}\mathbf{L}$ corresponds indeed to the variation $\frac{\delta L}{\delta \dot\phi} \delta \phi$ as it appears in the traditional statement of [[Noether's theorem]]).
 
+## Examples
+
+### Of Green-Schwarz super $p$-brane sigma models
+
+The WZW term of the [[Green-Schwarz super p-brane sigma models]] is invariant under [[supersymmetry]] only up to a [[divergence]], hence here the general [[Noether theorem]] for "weak" symmetries applies and yields a current algebra which is an [polyvector extension](super+Poincare+Lie+algebra#PolyvectorExtensions) of the [[supersymmetry]] algebra. See at _[Green-Schwarz action functional -- Conserved currents](Green-Schwarz+action+functional#ConservedCurrents)_ for more.
 
 ## Related concepts
 
