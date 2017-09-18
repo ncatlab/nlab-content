@@ -22,6 +22,8 @@ One way to understand it is as a [[TQFT]]-analog of the [[M2-brane]] [[sigma-mod
  
 ## Related concepts
 
+* [[bosonic M-theory]]
+
 * [[Hitchin functional]]
 
 * [[M-theory on G2-manifolds]]
