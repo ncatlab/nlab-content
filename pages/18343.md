@@ -1,7 +1,1 @@
-Charles Sanders Peirce (pronounced like "purse"), b. September 10, 1839 d. April 19, 1914, was an American mathematician, logician, and philosopher. 
-
-In logic his work delineated or anticipated ideas of [[first-order logic]] and of [[modal logic]]. His [[existential graphs]] Alpha, Beta, Gamma can be regarded as providing a faithful graphical representation of [[propositional logic]], [[predicate logic]], and [[modal logic]] respectively. 
-
-In philosophy his name is often associated with the early introduction of pragmatism and semiotics. 
-
-His father Benjamin Peirce was also a mathematician, primarily an algebraist and number theorist. 
+[[&lt; history]]
