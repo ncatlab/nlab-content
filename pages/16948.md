@@ -23,6 +23,18 @@ The [[sphere spectrum]] in ([[global equivariant stable homotopy theory|global]]
 
 Its [[RO(G)-grading|RO(G)-graded]] [[homotopy groups]] are the equivariant version of the [[stable homotopy groups of spheres]].
 
+## Definition
+
+The $G$-equivariant sphere spectrum is the [[equivariant suspension spectrum]] of the [[0-sphere]] $S^0 = \ast_+$
+
+$$
+  \mathbb{S} = \Sigma^\infty_G S^0
+$$ 
+
+for $S^0$ regarded as equipped with the (necessarily) trivial $G$-action. It follows that for $V$ an orthogonal linear $G$-representation then in [[RO(G)-degree]] $V$ the equivariant sphere spectrum is the corresponding [[representation sphere]] $\mathbb{S}(V) \simeq S^V$.
+
+(e.g. [Schwede 15, example 2.10](#Schwede15))
+
 ## Examples
 
 ### $\mathbb{Z}_2$-equivariance
@@ -54,7 +66,7 @@ In addition we have
 
 ## References
 
-* [[Stefan Schwede]], example 2.10 in _[[Lectures on Equivariant Stable Homotopy Theory]]_
+* {#Schwede15} [[Stefan Schwede]], example 2.10 in _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
 
 The sphere spectrum in [[global equivariant homotopy theory]] is discussed in
