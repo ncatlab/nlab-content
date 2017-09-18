@@ -97,9 +97,7 @@ Lurie's proof of the equivalence of $n+1$-[[connected]] objects with grouplike $
 
 There is a model category structure on the category $Top_*$ of pointed topological spaces, such that the cofibrant objects are $n$-connected [[CW-complex]]es, described in
 
-* J. I. Extremiana Aldana, [[Luis Javier Hernández Paricio]] and  
-Maria Teresa Rivas Rodriguez, _A closed model category for $(n-1)$-connected spaces_ , Proc. AMS, 124, Number 11,  1996 
-([pdf](http://www.ams.org/proc/1996-124-11/S0002-9939-96-03606-4/S0002-9939-96-03606-4.pdf))
+* J. I. Extremiana Aldana, [[Luis Javier Hernández Paricio]] and  [[Maria Teresa Rivas Rodriguez]], _A closed model category for $(n-1)$-connected spaces_ , Proc. AMS, 124, Number 11,  1996 ([pdf](http://www.ams.org/proc/1996-124-11/S0002-9939-96-03606-4/S0002-9939-96-03606-4.pdf))
 
 
 ### Stabilization hypothesis {#StabilizationHypothesis}
