@@ -38,7 +38,7 @@ This was apparently historically the way that [[John Adams]] indeed proceeded fr
 
 We now say this again in more detail.
 
-Given $n \in \mathbb{N}$, consider the probem of computing the [[homotopy groups]] $\pi_k(S^n) \;mod \;2$ of the $n$-[[sphere]] $S^n$. For $k \leq n$ this is clear: first for $k \}lt n$ they all vanish, and second for $k = n$ we have, by the very nature of [[Eilenberg-MacLane spaces]] $K(\mathbb{Z}_2, n)$, that the [[ordinary cohomology]] is
+Given $n \in \mathbb{N}$, consider the probem of computing the [[homotopy groups]] $\pi_k(S^n) \;mod \;2$ of the $n$-[[sphere]] $S^n$. For $k \leq n$ this is clear: first for $k \lt n$ they all vanish, and second for $k = n$ we have, by the very nature of [[Eilenberg-MacLane spaces]] $K(\mathbb{Z}_2, n)$, that the [[ordinary cohomology]] is
 
 $$
   H^n(S^n, \mathbb{Z}_2) \simeq [S^n, K(\mathbb{Z}_2,n)] \simeq \pi_n(K(\mathbb{Z}_2,n)) \simeq \mathbb{Z}_2
@@ -51,7 +51,7 @@ $$
   \,.
 $$
 
-The [[Hurewicz theorem]] does not say anything beyong the first non-vanishing cohomology group, but so to apply it again we can move up one step in the [[Whitehead tower]] of $S^n$ and hence consider the [[homotopy fiber]]
+The [[Hurewicz theorem]] does not say anything beyond the first non-vanishing cohomology group, but so to apply it again we can move up one step in the [[Whitehead tower]] of $S^n$ and hence consider the [[homotopy fiber]]
 
 $$
   \array{
@@ -211,7 +211,7 @@ In good cases, the [[Adams resolution]] is indeed a [[resolution]] which means t
 A trivial way for this to be the case is that the original $\sigma_s$ is itself in the image under $\partial$ of some element, in which case $\kappa_s = 0$ already all by itself. These elements are called _eventual boundaries_. Therefore if the Adams resolution is indeed a resolution, then the quotient group
 
 $$
-  \frac{permanent\;cycles}{eventual\;bounaries}
+  \frac{permanent\;cycles}{eventual\;boundaries}
 $$
 
 gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral sequence computes.
