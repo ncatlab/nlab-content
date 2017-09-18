@@ -1551,6 +1551,9 @@ Discussion of relation to [[double negation topology]] is in
 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
+And further relations of cohesion to [[Birkhoff's theorem]] in [[universal algebra]] is given in
+
+* {#Lawvere16} [[William Lawvere]], _Birkhoff's Theorem from a geometric perspective: A simple example_, to appear in Categories and General Algebraic Structures with Applications (2016), [journal page](http://www.cgasa.ir/article_12425_0.html).
 
 A good deal of the structure of cohesive toposes is also considered in 
 
