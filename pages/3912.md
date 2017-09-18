@@ -26,7 +26,7 @@
 For $H$ a [[multiplicative cohomology theory]], and $V \to X$ a [[vector bundle]] of rank $n$, which is $H$-[[orientation in generalized cohomology|orientable]], the **Thom isomorphism** is the morphism
  
 $$
-  (-) \cdot u 
+  c \cup (-)
     \;\colon\; 
   H^\bullet(X) 
      \stackrel{\simeq}{\to} 
@@ -34,7 +34,7 @@ $$
   \,.
 $$
 
-from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, induced by [[cup product]] with a [[Thom class]] $u \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows from the nature of [[Thom classes]], for instance via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochmann 96, section 2.6](#Kochmann96)).
+from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, induced by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows from the nature of [[Thom classes]], for instance via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochmann 96, section 2.6](#Kochmann96)).
 
 One may think of the Thom isomorphism from left to right as [[cup product|cupping]] with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]].
 
@@ -42,7 +42,132 @@ One may think of the Thom isomorphism from left to right as [[cup product|cuppin
 
 ### Concretely
 
-(...)
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
+
+Let $V \to B$ be a topological [[vector bundle]] of [[rank]] $n \gt 0$ over a [[simply connected topological space|simply connected]] [[CW-complex]] $B$. Let $R$ be a [[commutative ring]]. 
+
+There exists an element $c \in H^n(Th(V);R)$ (in the [[ordinary cohomology]], with [[coefficients]] in $R$, of the [[Thom space]] of $V$, called a **[[Thom class]]**) such that forming the [[cup product]] with $c$ induces an [[isomorphism]]
+
+$$
+  H^\bullet(B;R)
+    \overset{c \cup (-)}{\longrightarrow}
+  \tilde H^{\bullet + n}(Th(V);R)
+$$
+
+of degree $n$ from the unreduced [[cohomology group]] of $B$ to the [[reduced cohomology]] of the [[Thom space]] of $V$.
+
+=--
+
++-- {: .proof #ProofOfThomIsomorphismViaFiberwiseThomSpaceFibration}
+###### Proof 
+**(of Thom isomorphism via fiberwise Thom spaces)**
+
+> under construction
+
+Choose an [[orthogonal structure]] on $V$. Consider the _fiberwise_ [[cofiber]] 
+
+$$
+  E \coloneqq D(V)/_B S(V)
+$$
+
+of the inclusion of the unit sphere bundle into the unit disk bundle of $V$ ([def.](Thom+space#ThomSpace)).
+
+$$
+  \array{
+    S^{n-1} &\hookrightarrow& D^n &\longrightarrow& S^n
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    S(V) &\hookrightarrow& D(V) &\longrightarrow& E
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    B &=& B &=& B
+  }
+$$
+
+Observe that this has the following properties
+
+1. $E \to B$ is an [[n-sphere]] [[fiber bundle]], hence in particular a [[Serre fibration]];
+
+1. $E \to B$ has a global [[section]] $B \to E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$);
+
+1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, hence the [[reduced cohomology]] of the Thom space is the [[relative cohomology]] of $E$ relative $B$
+
+   $$
+     \tilde H^\bullet(Th(V);R) \simeq H^\bullet(E,B;R)
+     \,.
+   $$
+
+In the following we write $H^\bullet(-)\coloneqq H^\bullet(-;R)$, for short.
+
+By the first point, there is the [[Thom-Gysin sequence]], an [[exact sequence]] running vertically in the following diagram
+
+$$
+  \array{
+    && H^\bullet(B)
+    \\
+    && \downarrow  & \searrow^{\mathrlap{\simeq}}
+    \\
+    \tilde H^\bullet(Th(V))
+      &\longrightarrow&
+    H^\bullet(E)
+      &\longrightarrow&
+    H^\bullet(B)
+    \\
+    && \downarrow
+    \\
+    && H^{\bullet-n}(B)
+  }
+  \,.
+$$ 
+
+By the second point above this is [[split exact sequence|split]], as shown by the diagonal isomorphism in the top right. By the third point above there is the horizontal exact sequence, as shown, which is the [exact sequence in relative cohomology](generalized+%28Eilenberg-Steenrod%29+cohomology#ExactnessUnreduced) $\cdots \to H^\bullet(E,B) \to H^\bullet(E) \to H^\bullet(B) \to \cdots$ induced from the section $B \hookrightarrow E$.
+
+Hence using the splitting to decompose the term in the middle as a [[direct sum]], and then using horizontal and vertical exactness at that term yields
+
+$$
+  \array{
+    && H^\bullet(B)
+    \\
+    && {}^{\mathllap{(0,id)}}\downarrow  & \searrow^{\mathrlap{\simeq}}
+    \\
+    \tilde H^\bullet(Th(V))
+      &\overset{(id,0)}{\hookrightarrow}&
+    \tilde H^\bullet(Th(V))
+      \oplus 
+    H^\bullet(B)
+      &\underset{(0,id)}{\longrightarrow}&
+    H^\bullet(B)
+    \\
+    && \downarrow^{\mathrlap{(id,0)}}
+    \\
+    && H^{\bullet-n}(B)
+  }
+$$ 
+
+and hence an isomorphism
+
+$$
+  \tilde H^\bullet(Th(V))
+    \overset{\simeq}{\longrightarrow}
+  H^{\bullet-n}(B)
+  \,.
+$$
+
+To see that this is the inverse of a morphism of the form $c \cup (-)$, inspect the [proof of the Gysin sequence](Thom-Gysin+sequence#ProofOfThomGysinSequence). This shows that $H^{\bullet-n}(B)$ here is identified with elements that on the second page of the corresponding [[Serre spectral sequence]] are cup products 
+
+$$
+  \iota \cup b
+$$ 
+
+with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\bullet(B)$ any element. Since $H^\bullet(-;R)$ is a [[multiplicative cohomology theory]], cup producs are preserved as one passes to the $E_\infty$-page of the spectral sequence, and the morphism $H^\bullet(E) \to B^\bullet(B)$ above, hence also the isomorphism $\tilde H^\bullet(Th(V)) \to H^\bullet(B)$, factors through the $E_\infty$-page (see towards the end of the [proof of the Gysin sequence](Thom-Gysin+sequence#ProofOfThomGysinSequence)). Hence the image of $\iota$ on the $E_\infty$-page is the Thom class in question.
+
+
+=--
+
+
 
 ### General abstractly
 
