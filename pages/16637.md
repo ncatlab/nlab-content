@@ -44,7 +44,7 @@ $$
   }
 $$
 
-Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {\|x\|}^2 + {\|y\|}^2 = 1\}$, with $p$ mapping $(x, y)$ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  
+Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|}^2 + {|y|}^2 = 1\}$, with $p$ mapping $(x, y)$ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
 
 ## Smooth structures 
 
@@ -54,7 +54,9 @@ One explicit construction of the smooth structures is given as follows (see [Mil
 
 $$z_1^{6 k - 1} + z_2^3 + z_3^2 + z_4^2 + z_5^2 = 0$$ 
 
-and $S_\epsilon \subset \mathbb{C}^5$ a sphere of small radius $\epsilon$ centered at the origin. Then each of the $28$ smooth structures on $S^7$ is represented by an intersection $W_k \cap S_\epsilon$, as $k$ ranges from $1$ to $28$. These manifolds sometimes go by the name _Brieskorn manifolds_ or [[Brieskorn sphere]]s.
+and $S_\epsilon \subset \mathbb{C}^5$ a sphere of small radius $\epsilon$ centered at the origin. Then each of the $28$ smooth structures on $S^7$ is represented by an intersection $W_k \cap S_\epsilon$, as $k$ ranges from $1$ to $28$. These manifolds sometimes go by the name _Brieskorn manifolds_ or [[Brieskorn sphere]]s[^1]. 
+
+[^1]: Not surprisingly, these exotic spheres are also called _Milnor spheres_. 
 
 ## References
 
