@@ -52,7 +52,7 @@ If $S$ and $T$ are both sets equipped with apartness relations, then a [[functio
 
 By an __inequality space__, I mean a set equipped with a tight apartness relation. By a __map__, I mean a strongly extensional function between inequality spaces.
 
-The category of inequality spaces has all (small) [[limits]], [[created limit|created]] by the [[forgetful functor]] to [[Set]]. (For example, $(a,b) \ne (x,y)$ iff $a \ne x$ or $b \ne y$.) Similarly, it has all finite [[coproducts]], and it has [[quotient object|quotients]] of [[equivalence relations]]. In fact, this category is a [[complete category|complete]] [[pretopos]]. It is *not*, however, a [[Grothendieck topos]] (or even a [[topos]] at all), because it doesn\'t have all infnite coproducts. (To be precise, the statement that it has all small coproducts, or even that it has a subobject classifier, seems to be equivalent to excluded middle.)
+The category of inequality spaces has all (small) [[limits]], [[created limit|created]] by the [[forgetful functor]] to [[Set]]. (For example, $(a,b) \ne (x,y)$ iff $a \ne x$ or $b \ne y$.) Similarly, it has all finite [[coproducts]], and it has [[quotient object|quotients]] of [[equivalence relations]]. In fact, this category is a [[complete category|complete]] [[pretopos]]. It is *not*, however, a [[Grothendieck topos]] (or even a [[topos]] at all), because it doesn\'t have all infinite coproducts. (To be precise, the statement that it has all small coproducts, or even that it has a subobject classifier, seems to be equivalent to excluded middle.)
 
 We can say, however, that it has coproducts indexed by inequality spaces, although to make this precise is a triviality. More interestingly, it has products indexed by inequality spaces; that is, it is (even [[locally cartesian closed category|locally]]) a [[cartesian closed category]]. In particular, given inequality spaces $X$ and $Y$, the set $\StrExt(X,Y)$ of maps from $X$ to $Y$ becomes an inequality space under the rule that $f \ne g$ iff $f(x) \ne g(x)$ for some $x\colon X$.
 
@@ -63,7 +63,7 @@ If you generalise from inequality spaces to allow non-tight apartness relations,
 
 Let $S$ be a set equipped with a tight apartness relation $\ne$. Using $\ne$, many [[topology|topological]] notions may be defined on $S$. (It\'s not really necessary that the apartness be tight; this corresponds to the $T_0$ [[separation axiom]] in topology.)
 
-If $U$ is a [[subset]] of $S$ and $x$ is an element, then $U$ is a $\ne$-**[[neighbourhood]]** (or $\ne$-**neighborhood**) of $x$ if, given any $y\colon S$, $x \ne y$ or $y \in U$; note that $x \in U$ by irreflexivity. The neighbourhoods of $x$ form a [[filter]]: a superset of a neighbourhood is a neigbhourhood, and the intersection of $0$ or $2$ (hence of any finite number) of neighbourhoods is a neighbourhood.
+If $U$ is a [[subset]] of $S$ and $x$ is an element, then $U$ is a $\ne$-**[[neighbourhood]]** (or $\ne$-**neighborhood**) of $x$ if, given any $y\colon S$, $x \ne y$ or $y \in U$; note that $x \in U$ by irreflexivity. The neighbourhoods of $x$ form a [[filter]]: a superset of a neighbourhood is a neighbourhood, and the intersection of $0$ or $2$ (hence of any finite number) of neighbourhoods is a neighbourhood.
 
 A subset $G$ is $\ne$-**[[open subset|open]]** if it\'s a neighbourhood of all of its members. The open subsets form a [[topological space|topology]] (in the sense of Bourbaki): any union of open subsets is open, and the intersection of $0$ or $2$ (hence of any finite number) of open subsets is open.
 
