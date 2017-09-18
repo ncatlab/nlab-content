@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -90,7 +90,7 @@ The [[global model structures on simplicial presheaves]] are a standard special 
 
 The [[model structure for right fibrations]] of [[quasicategories]] is constructed in [[Higher Topos Theory]].  It is shown there to be Quillen equivalent to the global model structure on simplicial presheaves by a [[straightening functor]].  Alternative proofs of such an equivalence can be found in
 
-* Gijs Heuts, [[Ieke Moerdijk]], *Left fibrations and homotopy colimits II*, [arXiv](http://arxiv.org/abs/1602.01274)
+* [[Gijs Heuts]], [[Ieke Moerdijk]], *Left fibrations and homotopy colimits II*, [arXiv](http://arxiv.org/abs/1602.01274)
 
 * [[Danny Stevenson]], *Covariant Model Structures and Simplicial Localization*, [arXiv](https://arxiv.org/abs/1512.04815)
 
@@ -98,7 +98,7 @@ The latter also constructs the [[model structure on simplicial presheaves over s
 
 The [[model structure on internal simplicial presheaves]] is constructed in
 
-* Geoffroy Horel, *A model structure on internal categories in simplicial sets*, [TAC](http://tac.mta.ca/tac/volumes/30/20/30-20abs.html)
+* [[Geoffroy Horel]], *A model structure on internal categories in simplicial sets*, [TAC](http://tac.mta.ca/tac/volumes/30/20/30-20abs.html)
 
 The [[model structure for right fibrations of Segal spaces]] is constructed in
 
