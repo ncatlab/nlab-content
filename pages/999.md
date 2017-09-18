@@ -250,7 +250,7 @@ Compact objects are discussed under the term "finitely presentable" or "finitely
 
 * [[Locally Presentable and Accessible Categories]]
 
-* Kashiwara, Schapira, _[[Categories and Sheaves]]_, Definition 6.3.2;
+* Kashiwara, Schapira, _[[Categories and Sheaves]]_, Definition 6.3.3;
 
 * [[Peter Johnstone]], [[Stone Spaces]], Definition VI.1.8.
 
