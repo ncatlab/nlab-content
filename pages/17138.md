@@ -2620,7 +2620,7 @@ We discuss how the concept of [[homotopy]] is abstractly realized in [[model cat
 +-- {: .num_defn #PathAndCylinderObjectsInAModelCategory}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]], and $X \in \mathcal{C}$ an [[object]].
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}, and $X \in \mathcal{C}$ an [[object]].
 
 * A **[[path space object]]** $Path(X)$ for $X$ is a factorization of the [[diagonal]] $\nabla_X \colon X \to X \times X$ as
 
@@ -2656,6 +2656,7 @@ For instance in the [[classical model structure on topological spaces]], the obv
 More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInAModelCategory} is analogous to the [[powering]] $\pitchfork(I,X)$ with an [[interval object]] and the cyclinder object $Cyl(X)$ is analogous to the [[tensoring]]  with a cylinder object $I\odot X$.  In fact, if $\mathcal{C}$ is a $V$-[[enriched model category]] and $X$ is fibrant/cofibrant, then these powers and copowers  are in fact examples of (good) path and cylinder objects if the [[interval object]] is sufficiently good. 
 
 =--
+
 
 +-- {: .num_lemma #ComponentMapsOfCylinderAndPathSpaceInGoodSituation}
 ###### Lemma
@@ -2701,6 +2702,38 @@ $$
 $$
 
 hence $p_i \colon Path(X)\to X \times X \to X$ is the composite of two fibrations, and hence itself a fibration.
+
+=--
+
+Path space objects are very non-unique as objects up to isomorphism:
+
++-- {: .num_example #ComposedPathSpaceObjects}
+###### Example
+
+If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two good [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ is another good path space object for $X$: the pullback square 
+
+$$
+  \array{
+     Path_1(X) \underset{X}{\times} Path_2(X) 
+     &\longrightarrow&
+     Path_1(X)\times Path_2(X)
+     \\
+     {}^{\mathllap{\in Fib}}\downarrow && \downarrow^{\mathrlap{\in Fib}}
+     \\
+     X \times X \times X
+     &\overset{(id,\Delta_X,id)}{\longrightarrow}& X \times X\times X \times X
+     \\
+     \downarrow^{\mathrlap{(pr_1,pr_3)}}_{\mathrlap{\in Fib}}
+     \\
+     X\times X
+  }
+$$
+
+gives that the induced projection is again a fibration.
+
+For the case of the canonical topological path space objects of def \ref{TopologicalPathSpace}, with $Path_1(X) = Path_2(X) = X^I = X^{[0,1]}$  then this new path space object is $X^{I \vee I} = X^[0,2]$, the [[mapping space]] out of the standard interval of length 2 instead of length 1.
+
+
 
 =--
 
@@ -5314,6 +5347,12 @@ A key aspect of [[homotopy theory]] is that the [[universal constructions]] of [
 
 We consider this here just for the special case of [[homotopy fibers]] and [[homotopy cofibers]], leading to the phenomenon of [[homotopy fiber sequences]] and their induced [[long exact sequences of homotopy groups]] which control much of the theory to follow.
 
+$\,$
+
+**From here we say just "path space object" and "cylinder object" 
+instead of "good path space object" and "good cylinder object".**
+
+$\,$
 
 #### Pointed objects
 
@@ -6538,6 +6577,20 @@ Now by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the square
 
 With prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} it also follows notably that the loop space construction becomes well-defined on the homotopy category:
 
++-- {: .num_remark #ConcatenatedLoopSpaceObject}
+###### Remark
+
+Given an object $X \in \mathcal{C}^{\ast/}_f$, and picking any good [[path space object]] $Path(X)$, def. \ref{PathAndCylinderObjectsInAModelCategory} with induced [[loop space object]] $\Omega X$, def. \ref{SuspensionAndLoopSpaceObject}, write $Path(X)_2$ for the path space object given by the fiber square of $Path(X)$ via example \ref{ComposedPathSpaceObjects}. From the pullback diagram there, the fiber inclusion $\Omega X \to Path(X)$ induces a morphism
+
+$$
+  \Omega X \times \Omega X \longrightarrow (\Omega X)_2
+  \,.
+$$
+
+In the case where $\mathcal{C}^{\ast/} = Top^{\ast/}$ this is the operation of concatenating two loops parameterized by $[0,1]$ to a single loop parameterized by $[0,2]$.
+
+=--
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -6552,13 +6605,23 @@ $$
   \,.
 $$
 
+Moreover, the pairing operation induced on the objects in the image of this functor via remark \ref{ConcatenatedLoopSpaceObject} (concatenation of loops) gives the objects [[group object]] structure, and makes this functor lift as
+
+$$
+  \Omega 
+    \;\colon\;
+  Ho(\mathcal{C}^{\ast/})
+    \longrightarrow
+  Grp(Ho(\mathcal{C}^{\ast/}))
+  \,.
+$$
+
 =--
 
 ([Brown 73, section 4, theorem 3](#Brown73))
 
 +-- {: .proof}
 ###### Proof
-
 
 
 Given an object $X \in \mathcal{C}^{\ast/}$ and given two choices of path space objects $Path(X)$ and $\widetilde{Path(X)}$, we need to produce an isomorphism in $Ho(\mathcal{C}^{\ast/})$ between $\Omega X$ and $\tilde \Omega X$.
@@ -6585,7 +6648,56 @@ $$
   \,.
 $$
 
-By lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} (and using that Cartesian product preserves weak equivalences) this functor sends weak equivalences to isomorphisms. Therefore the claim now follows with theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}.
+By lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} (and using that Cartesian product preserves weak equivalences) this functor sends weak equivalences to isomorphisms. Therefore the functor on homotopy categories now follows with theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}.
+
+It is immediate to see that the operation of loop concatenation from remark \ref{ConcatenatedLoopSpaceObject} gives the objects $\Omega X \in Ho(\mathcal{C}^{\ast/})$ the structure of [[monoids]]. It is now sufficient to see that these are in fact groups.
+
+
+..
+We claim that the inverse-assigning operation is given by the left map in the following pasting composite 
+
+$$
+  \array{
+    \Omega' X &\longrightarrow& Path'(X) &\overset{}{\longrightarrow}& X \times X
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} &(pb)& \downarrow^{\mathrlap{swap}}
+    \\
+    \Omega X &\longrightarrow& Path(X) &\overset{(p_0,p_1)}{\longrightarrow}& X \times X
+  }
+  \,,
+$$
+
+(where $Path'(X)$, thus defined, is the path space object obtained from $Path(X)$ by "reversing the notion of source and target of a path").
+
+To see that this is indeed an inverse, it is sufficient (...) to see that the two morphisms 
+
+$$ 
+  \Omega X \stackrel{\longrightarrow}{\longrightarrow} (\Omega X)_2
+$$
+
+induced from 
+
+$$
+  \array{
+  Path(X) 
+\stackrel{\overset{\Delta}{\longrightarrow}}{\underset{(s\circ p_0,s \circ p_0)}{\longrightarrow}}
+  Path(X) \times_X Path'(X)
+ }
+$$
+
+coincide in the homotopy category. This follows with lemma \ref{UniquenessOfFibersOfQualizedMorphismsInHoC} applied to the following commuting diagram:
+
+$$
+  \array{
+    X &\longrightarrow& Path(X) &\stackrel{\overset{\Delta}{\longrightarrow}}{\underset{(s\circ p_0,s \circ p_0)}{\longrightarrow}}& Path(X)\times_X Path'(X)
+    \\
+    && {}^{\mathllap{(p_0,p_1)}}\downarrow && \downarrow^{\mathrlap{}}
+    \\
+    && X\times X &\overset{\Delta \circ pr_1}{\longrightarrow}& X \times X 
+  }
+  \,.
+$$
+
 
 =--
 
@@ -6634,6 +6746,10 @@ By prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage} and prop. \ref{...}.
 
 (...)
 
+
+...see also below the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum)...
+
+(...)
 
 Some comments on how this comes about more conceptually:
 
@@ -6789,9 +6905,6 @@ Here "$(-)^{-1}$" denotes the inverse of the [[2-morphism]] ([[homotopies]]). Si
 
 By the [[universal property]] of the homotopy pullback:
 
-+-- {: .num_prop}
-###### Proposition
-
 If
 
 $$
@@ -6810,10 +6923,6 @@ $$
 
 is an [[exact sequence]].
 
-=--
-
-+-- {: .num_prop #LongExactSequenceofHomotopyGroups}
-###### Proposition
 
 Applying this to a long [[homotopy fiber sequence]]
 
@@ -6866,9 +6975,8 @@ $$
 called the _[[long exact sequence of homotopy groups]]_. associated with $f$.
 Here $\delta$ is called the _[[connecting homomorphism]]_.
 
-=--
+(...)
 
-...see also below the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum)...
 
 ## **Part 1) Stable homotopy theory**
  {#StableHomotopyTheory}
