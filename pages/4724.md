@@ -509,7 +509,7 @@ Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold diffe
 
 For $n \in \mathbb{N}$, the [[general  linear group]] $Gl(n,\mathbb{R})$
 is a smooth manifold
-(as an [[open subspace]] of [[Euclidean space]] $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R} \simeq \mathbb{R}^{(n^2)})$,
+(as an [[open subspace]] of [[Euclidean space]] $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$,
 via example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds} and example \ref{DifferentiableManifoldCartesianSpace}).
 
 The group operations are [[smooth functions]] with respect to this smooth manifold structure, and thus $GL(n,\mathbb{R})$
