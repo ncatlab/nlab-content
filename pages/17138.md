@@ -787,7 +787,7 @@ In contrast to the classical [[homotopy category]], the stable homotopy category
 
 
 
-### Examples: $HA, KO, KU, MO, \cdots, MU (BP), S$
+### Examples: $HA, KO, KU, \cdots, MO, MU\, (BP), S$
  {#Examples}
 
 [[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
@@ -3419,6 +3419,7 @@ There is a slight refinement of the concept of generalized homology functors to 
 
 **Idea.** One tool for computing [[generalized cohomology]] [[cohomology groups|groups]] via "[[inverse limits]]" are _[[Milnor exact sequences]]_. For instance the generalized cohomology of the [[classifying space]] $B U(1)$ plays a key role in the [[complex oriented cohomology]]-theory discussed [below](#ComplexOrientedCohomologyTheory), and via the equivalence $B U(1) \simeq \mathbb{C}P^\infty$ to the [[homotopy type]] of the infinite [[complex projective space]], which is the [[direct limit]] of finite dimensional projective spaces $\mathbb{C}P^n$, this is an [[inverse limit]] of the generalized cohomology groups of the $\mathbb{C}P^n$s. But what really matters here is the [[derived functor]] of the [[limit]]-operation -- the  [[homotopy limit]] -- and the [[Milnor exact sequence]] expresses how the naive limits receive corrections from higher "[[lim^1]]-terms". In practice one mostly proceeds by verifying conditions under which these corrections happen to disappear, these are the _[[Mittag-Leffler conditions]]_.
 
+We need this for instance for the computation of [[Conner-Floyd Chern classes]] [below](#ConnerFloydChernClasses).
 
 **Literature.** ([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochmann 96, section 4.2](#Kochmann96))
 
@@ -3428,6 +3429,9 @@ There is a slight refinement of the concept of generalized homology functors to 
 **Idea.** Another important tool for computing [[generalized cohomology]] is to reduce it to the computation of [[ordinary cohomology]] with [[coefficients]]. Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of $F$-[[fiber bundles]] over a [[simplicial complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in the generalized cohomology $E^\bullet(F)$ of the fiber. For $E = $ [[HA]] this is known as the _[[Serre spectral sequence]]_.
 
 The [[Atiyah-Hirzebruch spectral sequence]] in turn is a consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
+
+We need the AHSS for instance for the computation of [[Conner-Floyd Chern classes]] [below](#ConnerFloydChernClasses).
+
 
 **Literature.** ([Kochmann 96, section 4.2](#Kochmann96))
 
@@ -3543,8 +3547,9 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 
 #### Chern classes
+ {#ChernClasses}
 
-**Idea**. In particular [[ordinary cohomology]] [[HA]] is canonically a [[complex oriented cohomology theory]] and the behaviour of general [[Conner-Floyd Chern classes]] to be discussed [below](#ConnerFloydChernClasses) follows closely the behaviour of the ordinary [[Chern classes]]. 
+**Idea**. In particular [[ordinary cohomology]] [[HR]] is canonically a [[complex oriented cohomology theory]]. The behaviour of general [[Conner-Floyd Chern classes]] to be discussed [below](#ConnerFloydChernClasses) follows closely the behaviour of the ordinary [[Chern classes]]. 
 
 An ordinary [[Chern class]] is a [[characteristic class]] of [[complex vector bundles]], and since there is the [[classifying space]] $B U$ of complex vector bundles, the _universal_ Chern classes are those of the [[universal complex vector bundle]] over the [[classifying space]] $B U$, which in turn are just the [[ordinary cohomology]] classes in $H^\bullet(B U)$
 
@@ -3564,59 +3569,96 @@ Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B 
 #### Conner-Floyd Chern classes
  {#ConnerFloydChernClasses}
 
-**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
+**Idea.** For $E$ a [[complex oriented cohomology theory]], then the generators of the $E$-[[cohomology groups]] of the [[classifying space]] $B U$ are called the _[[Conner-Floyd Chern-classes]]_, in $E^\bullet(B U)$. 
 
-* [[splitting principle]]
+Using basic properties of the classifying space $B U(1)$ via its incarnation as the infinite [[complex projective space]] $\mathbb{C}P^\infty$, one finds that the [[Atiyah-Hirzebruch spectral sequences]]]
 
-* [[homology spectra that split]]
+$$
+  H^p(\mathbb{C}P^n, \pi_q(E)) \Rightarrow H^\bullet(\mathbb{C}P^n)
+$$
 
-* [[Conner-Floyd Chern classes]]
+collapse right away, and that the [[inverse system]] which they form satisfies the [[Mittag-Leffler condition]]. Accordinly the [[Milnor exact sequence]] gives that the ordinary [[first Chern class]] $c_1$ generates,  over $\pi_\bullet(E)$, all Conner-Floyd classes over $B U(1)$:
+
+$$
+  E^\bullet(B U(1)) \simeq \pi_\bullet(E) [ [ c_1 ] ]
+  \,.
+$$
+
+This is the key input for the discussion of [[formal group laws]] [below](#FormalGroupLaws).
+
+Combining the [[Atiyah-Hirzebruch spectral sequence]] with the [[splitting principle]] as for ordinary Chern classes [above](#ChernClasses) yields, similarly, that in general Conner-Floyd classes are generated, over $\pi_\bullet(E)$, from the ordinary Chern classes.
+
+Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes]] for $E$-cohomology of the [[universal complex vector bundle]], therby showing that [[complex oriented cohomology theories]] are indeed canonically [[orientation in generalized cohomology|oriented]] on ([[spherical fibrations]] of) [[complex vector bundles]]. 
+ 
+**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2 II.4, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
+
 
 #### Formal group laws of first CF-Chern classes
+ {#FormalGroupLaws}
+
+**Idea.** The [[classifying space]] $B U(1)$ for [[complex line bundles]] is a [[homotopy type]] canonically equipped with commutative group structure ([[infinity-group]]-structure), corresponding to the [[tensor product]] of complex line bundles. By the above fact the the [[first Chern class]] of these complex line bundles generates the $E$-cohomology of $B U(1)$, it follows that the [[cohomology ring]] $E^\bullet(B U(1)) \simeq \pi_\bullet(E)[ [ c_1 ] ]$ behaves like the ring of $\pi_\bullet(E)$-valued functions on a 1-dimensional commutative [[formal group]] equipped with a canonical [[coordinate]] function $c_1$. This is called a _[[formal group law]]_ over the [[graded ring]] $\pi_\bulllet(E)$. 
+
+On abstract grounds it follows that there exists a commutative ring $L$ and a universal (1-dimensional commutative) formal group law $\ell$ over $L$. This is called the _[[Lazard ring]]_. [[Lazard's theorem]] identifies this ring concretely: it turns out to simply be the [[polynomial ring]] on generators in every even degree.
+
+Further below this has profound implications on the structure theory for complex oriented cohomology. The [[Milnor-Quillen theorem on MU]] identifies the Lazard ring as the cohomology ring of the [[Thom spectrum]] [[MU]], and then the [[Landweber exact functor theorem]], implies that there are lots of complex oriented cohomology theories.
 
 **Literature.** ([Kochmann 96, section 4.4](#Kochmann96), [Lurie 10, lectures 1 and 2](#Lurie10))
 
-* [[formal group law]]
-
-* [[Lazard ring]]
-
-* [[Lazard's theorem]]
 
 #### Complex cobordism
  {#ComplexCobordismCohomology}
 
+**Idea.** There is a [[weak homotopy equivalence]] $\phi \colon B U(1)\stackrel{\simeq}{\longrightarrow} M U(1)$ between the [[classifying space]] for [[complex line bundle]] and the  [[Thom space]] of the [[universal vector bundle|universal complex line bundle]]. This gives an element $\pi_\ast(c_1) \in M U^2(B U(1))$ in the [[complex cobordism cohomology]] of $B U(1)$ which makes the universal complex [[Thom spectrum]] [[MU]] become a [[complex oriented cohomology theory]].
+
+This turns out to be a [[universal complex orientation on MU]]: for every other [[ring spectrum]] $E$ there is an equivalence between complex orientations on $E$ and ring spectrum homomorphisms
+
+$$
+  \{M U \longrightarrow E\} \;\simeq\; \{complex\;orientations\;on\;E\}
+  \,.
+$$
+
 **Literature.** ([Kochmann 96, section 1.4, 1.5, 4.4](#Kochmann96),[Lurie 10, lectures 5 and 6](#Lurie10))
 
-* [[complex cobordism cohomology]], [[MU]]
-
-* [[universal complex orientation on MU]]
 
 #### Homology of $M U$
+ {#HomologyOfMU}
+
+**Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The [[Atiyah-Hirzebruch spectral sequence]] allows to compute this. Via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] this gives a first approximation to the [[homotopy groups]] of [[M U]]
 
 **Literature.** ([Kochmann 96, section 2.4, 4.3](#Kochmann96), [Lurie 10, lecture 7](#Lurie10))
 
-* [[homology of MU]]
 
 #### Quillen's theorem on $M U$
+ {#QuillenTheoremOnMU}
+
+**Idea.** From the computation of the [[homology of MU]] [above](#HomologyOfMU) and applying the [[Boardman homomorphism]] once Deduces that the [[stable homotopy groups]] $\pi_\bullet(MU)$ of [[MU]] are finitely generated. This implies that it is suffient to compute them over the [[p-adic integers]] for all primes $p$. Using the [[change of rings theorem]], this finally is obtained from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$. This is Milnor's theorem wich together with [[Lazard's theorem]] shows that there is an isomorphism of rings $L \simeq \pi_\bullet(M U)$ with the [[Lazard ring]]. Finally [[Quillen's theorem on MU]] says that this isomorphism is exhibited by the universal ring homomorphism $L \longrightarrow \pi_\bullet(M U)$ which classifies the universal complex orientation on $M U$.
 
 **Literature.** ([Kochmann 96, section 4.4](#Kochmann96), [Lurie, lecture 10](#Lurie10))
 
-* [[Quillen's theorem on MU]]
 
+#### Landweber exact functor theorem
+
+**Idea.** By the above, every [[complex oriented cohomology theory]] induces a [[formal group law]] from its first [[Conner-Floyd Chern class]]. Moreover, [[Quillen's theorem on MU]] together with [[Lazard's theorem]] say that the [[cohomology ring]] $\pi_\bullet(M U)$ of [[complex cobordism cohomology]] [[MU]] is the classifying ring for formal group laws. 
+
+The _[[Landweber exact functor theorem]]_ says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]], hence a [[complex oriented cohomology theory]]. 
+
+**Literature.** ([Lurie 10, lectures 15,16](#Lurie10))
 
 ### Outlook: Geometry of $Spec(MU)$
 
-**Literature.** ([Kochmann 96, sections 4.5-4.7 and section 5](Kochmann96), [Lurie 10, lectures 12-14](#Lurie10))
+The grand conclusion of [[Quillen's theorem on MU]] ([above](#QuillenTheoremOnMU)): [[complex oriented cohomology theory]] is essentially the [[spectral geometry]] over $Spec(M U)$, and the latter is a kind of derived version of the [[moduli space for formal groups]] (1-dimensional commutative).
 
-* [[moduli space of formal groups]]
-
-* [[Landweber exact functor theorem]]
 
 * [[Landweber-Novikov theorem]]
 
 * [[Adams-Quillen theorem]]
 
 * [[Adams-Novikov spectral sequence]]
+
+(...)
+
+**Literature.** ([Kochmann 96, sections 4.5-4.7 and section 5](Kochmann96), [Lurie 10, lectures 12-14](#Lurie10))
+
 
 
 $\,$
