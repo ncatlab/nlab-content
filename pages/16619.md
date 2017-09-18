@@ -1,0 +1,8 @@
+
+* [webpage](http://www-ucjf.troja.mff.cuni.cz/~malinsky/)
+
+## related $n$Lab entries
+
+* [[grand unified theory]]
+
+category: people
