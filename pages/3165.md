@@ -50,4 +50,4 @@ Concrete formulas for this work exactly as described in detail at [[group cohomo
 
 ## Examples
 
-* The [[Liouville cocycle]] is a 1-cocycle on the [[action groupoid]] of the action of conformal resclings on the space of [[Riemannian metric]]s on a surface.
+* The [[Liouville cocycle]] is a 1-cocycle on the [[action groupoid]] of the action of conformal rescalings on the space of [[Riemannian metric]]s on a surface.
