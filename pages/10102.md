@@ -27,29 +27,31 @@ The generalization of the process of [[one-point compactification]] of possibly 
 +-- {: .num_defn}
 ###### Definition
 
-For $(A, {\Vert -\Vert_A})$ a not necessarily [[unital algebra|unital]] [[C*-algebra]], its **[[unitisation]]** is the $C^\ast$-algebra whose underlying Banach space is the [[direct sum]] 
+For $ (A, {\Vert \cdot \Vert_{A}}) $ a non-[[unital algebra|unital]] [[C*-algebra]], its **[[unitisation]]** is the $ C^{\ast} $-algebra whose underlying vector space is the [[direct sum]]
 
 $$
-  A^+ \coloneqq A \oplus \mathbb{C}
-$$ 
-
-with the [[complex numbers]], equipped with themultiplication 
-
-$$
-  (a_1 + z_1) \cdot (a_2 + z_2) \coloneqq (a_1 a_2 + a_1 z_2 + z_1 a_2) + z_1 z_2
+A^{+} \coloneqq A \oplus \mathbb{C}
 $$
 
-and the [[involution]]
+of $ A $ with the field of [[complex numbers]], equipped with the multiplication law
 
 $$
-  (a + z)^\ast \coloneqq a^\ast + \overline{z}
+          (a_{1} \oplus z_{1}) \cdot (a_{1} \oplus z_{1})
+\coloneqq (a_{1} a_{2} + z_{2} a_{1} + z_{1} a_{2}) \oplus z_{1} z_{2},
 $$
 
-([[complex conjugation]] on the right) and with [[norm]] given by
+the [[involution]]
 
 $$
-  {\Vert a + z\Vert}_{A^+} \coloneqq {\Vert a+ z\Vert}_{\mathcal{B}(A)}
-  \,.
+(a \oplus z)^\ast \coloneqq a^{\ast} \oplus \overline{z}
+$$
+
+([[complex conjugation]] is taking place on the right), and the [[norm]]
+
+$$
+          {\Vert a \oplus z \Vert}_{A^{+}}
+\coloneqq {\Vert L_{a} + z \cdot \operatorname{Id}_{A} \Vert}_{\mathcal{B}(A)}
+\coloneqq \sup_{b \in A, \Vert b \Vert_{A} \leq 1} \Vert a b + z b \Vert_{A}.
 $$
 
 =--
