@@ -49,6 +49,19 @@ Let $(X,\omega)$ be a [[symplectic manifold]] and $L \subset T X$ a subbundle of
 
 ([Bates-Weinstein, theorem 7.16](#BatesWeinstein))
 
+### Existence of $Mp^c$-structures
+
++-- {: .num_theorem}
+###### Theorem
+
+Every [[symplectic group|Sp]]-[[principal bundle]] has a ift [[lift of structure group|lift]] to an [[Mp^c]]-[[principal bundle]].
+
+=--
+
+([Robinson-Rawnsley 89, theorem (6.2)](#RobinsonRawnsley89))
+
+For more details, see at [metaplectic group -- (Non-)Triviality of Extensions](metaplectic+group#NonTrivialityOfExtensions).
+
 ## Related concepts
 
 * [[metaplectic group]]
@@ -61,7 +74,7 @@ Let $(X,\omega)$ be a [[symplectic manifold]] and $L \subset T X$ a subbundle of
 
 * {#ForgerHess79} [[Michael Forger]], Harald Hess, _Universal metaplectic structures and geometric quantization_, Comm. Math. Phys. Volume 64, Number 3 (1979), 269-278. ([EUCLID](https://projecteuclid.org/euclid.cmp/1103904723))
 
-* P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
+* {#RobinsonRawnsley89} P. L. Robinson, [[John Rawnsley]], _The metaplectic representation, $Mp^c$-structures and geometric quantization_, 1989
 
 * Michel Cahen, [[Simone Gutt]], [[John Rawnsley]], _Symplectic Dirac Operators and $Mp^c$-structures_ ([arXiv:1106.0588](http://arxiv.org/abs/1106.0588))
 
