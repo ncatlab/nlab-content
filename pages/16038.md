@@ -40,6 +40,10 @@ There is a monad on [[Set]], the category of sets, comprising the [[free abelian
 
 Thus we may produce the cosimplicial canonical resolution of any set $X$. If $X$ supports (at least one) abelian group structure, then we can add a codegeneracy to the canonical resolution which defines the usual [[bar construction]] on $X$ with that particular abelian group structure.  
 
+### The descent coring
+
+Suppose we have a morphism of [[commutative rings]] $\phi:R\to S$. Then there is an [[adjunction]] of [[module]] categories $\begin{aligned} F:RMod\leftrightarrows SMod:U\end{aligned}$ where $F$ is the [[extensions of scalars]] functor given by $(-)\otimes_R S$ and $U$ is the [[forgetful functor]] which forgets $S$-module structure. The extension of scalars functor is known to be [[monadic]], hence $SMod$ is the category of algebras associated to the monad $T=UF$. 
+
 
 ##References 
 
