@@ -592,15 +592,14 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[space of sections]]
 
+* [[pointed mapping space]]
 
 
 ## References
 
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
-
-
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ 
 A discussion query (R. Brown, T. Bartels, M. Shulman) about internal hom is at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3372&Focus=27648).
 
 
