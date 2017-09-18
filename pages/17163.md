@@ -2,6 +2,7 @@
 ## Related concepts
 
 * [[Goodwillie calculus]]
+* [[manifold calculus]]
 
 ## References
 
