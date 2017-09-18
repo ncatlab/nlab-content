@@ -33,6 +33,10 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * If a [[localizer]] refers to a class of maps in a [[presheaf category]], as it sometimes does, then a [[basic localizer]], being a class of maps in [[Cat]], is not a localizer.
 
+* A [[multivalued function]] is not a [[function]], but a function is a special case of a multivalued function.
+
+* A [[planar ternary ring]] is not a [[ring]].  A general ring is not a planar ternary ring either; their "intersection" is the class of [[division rings]].
+
 Some adjectives are almost universally used as "red herring adjectives," i.e. placing that adjective in front of something makes it *more* general in some way.  Some red herring adjectives almost always have the same meaning, such as "pseudo" and "lax," but others, such as "weak," have different meanings in different contexts.
 
 * A [[weak factorization system]] is not a factorization system, as originally defined, but rather the reverse.  This has led some people to the use of [[orthogonal factorization system]] in place of the classical term "factorization system."
