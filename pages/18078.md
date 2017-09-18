@@ -1,60 +1,8 @@
 
-{#TableOfMainSeparationAxioms}
-| number | name | statement | reformulation |
-|--------|------|-----------|---------------|
-| $T_0$  | Kolmogorov | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
-| $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
-| $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
-| $T_3$  | [[regular topological space|regular]] |  all points are closed; and  given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
-| $T_4$  | [[normal topological space|normal]] | all points are closed; and given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset |  |
-
-$\supset$
-
-[[ClosedIntervalQuotientedToCircle.pdf:file]]
-
-<img src="http://ncatlab.org/nlab/files/ClosedIntervalQuotientedToCircle.pdf">
-
-
-* **(T0**) $\underset{x \neq y}{\forall} \left(
-    \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right) \vee \left( \underset{U_x}{\exists} \left( U_x \cap \{y\} = \emptyset  \right) \right) \right)$
-
-* **((T1)** $\underset{x \neq y}{\forall} \left(\underset{U_x,U_y}{\exists} \left(\left( \{x\} \cap U_y = \emptyset\right) \,\wedge \, \left( U_x \cap \{y\}  = \emptyset \right)\right) \right)$
-
-* **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
-
-
-| [[separation axioms]]                 |
-|---------------------------------------|
-| $\array{\\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
-
-
- $                                     
-  \array{                              
-    && T_2 = \text{Hausdorff}
-    \\
-    & \swArrow && \seArrow
-    \\
-    T_1 && && \text{sober}
-    \\
-    & \seArrow && \swArrow
-    \\
-    && T_0 = \text{Kolmogorov}
-  }
- $
-
-| [[separation axioms]]                 |
-|---------------------------------------|
-| $\array{&& T_2 = \text{Hausdorff} \\ & \swArrow && \seArrow \\ T_1 && && \text{sober} \\ & \seArrow && \swArrow \\ && T_0 = \text{Kolmogorov} } $ |
-
-
-[[ClosedAndOpenSubsets.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/ClosedAndOpenSubsets.png" width="300">
-
-[[HausdorffProperty.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/HausdorffProperty.png" width="250">
-
-[[HeavisideFunction.png:file]]
-
-<img src="https://ncatlab.org/nlab/files/HeavisideFunction.png" width="300>
+$$
+  \ast 
+    \coloneqq 
+  \left(
+    \left\{1\right\}, \left\{ \emptyset, \left\{1\right\}\right\}
+  \right)
+$$
