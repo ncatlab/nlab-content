@@ -305,6 +305,9 @@ $$
 
 =--
 
+See also
+
+* [[colimits of normal spaces]]
 
 
 ### Relation with $Set$
