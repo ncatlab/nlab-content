@@ -5770,6 +5770,12 @@ Given two pointed objects $(X,x)$ and $(Y,y)$, then:
 
    This is called the _[[wedge sum]]_ operation on pointed objects.
 
+Generally for a set $\{X_i\}_{i \in I}$ in $Top^{\ast/}$
+
+1. their [[product]] is formed in $Top$ as in example \ref{ProductTopologicalSpace}, with the new basepoint canonically induced;
+
+1. their [[coproduct]] is formed by the [[colimit]] in $Top$ over the diagram with a basepoint adjoined, and is called the [[wedge sum]] $\vee_{i \in I} X_i$.
+
 =--
 
 +-- {: .num_defn #SmashProductOfPointedObjects}
@@ -14430,14 +14436,14 @@ $$
 
 such that:
 
-1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \Rightarrow f_2$ between them (def. \ref{LeftHomotopy}), then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
 
    $$
      f_1^\ast = f_2^\ast
      \,.
    $$
 
-1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]] (def. \ref{MappingConeAndMappingCocone} example \ref{MappingConesInTopologicalSpaces}), then this gives an [[exact sequence]] of graded abelian groups
 
    $$
      \tilde E^\bullet(Cone(i)) 
@@ -14448,7 +14454,15 @@ such that:
      \,.
    $$
 
-1. **([[wedge axiom|wedge]])** For $\vee_i X_i$ the [[wedge sum]] of a set of objects, then $E^\bullet$ takes it to a [[product]].
+1. **([[wedge axiom|wedge]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
+
+   $$
+     \tilde E^\bullet(\vee_{i \in I} X_i) 
+     \longrightarrow
+     \prod_{i \in I} \tilde E^\bullet(X_i)
+   $$
+
+   from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
 
 =--
 
