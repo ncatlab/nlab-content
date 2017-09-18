@@ -39,4 +39,7 @@ Lecture notes include
 
 * [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3: _Thom's theorem_ ([pdf](file:///C:/Users/Sony/Downloads/3thom.pdf))
 
+* Tom Weston, Part I of _An introduction to cobordism theory_ ([pdf](http://people.math.umass.edu/~weston/oldpapers/cobord.pdf)) 
+
+
 [[!redirects Thom theorem]]
