@@ -11,3 +11,5 @@ If we think of $\kappa$ as a full-fledged [[set]] in its own right (rather than 
 
 [[!redirects cartesian power]]
 [[!redirects cartesian powers]]
+[[!redirects Cartesian power]]
+[[!redirects Cartesian powers]]
