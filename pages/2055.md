@@ -86,6 +86,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Art of Problem Solving](http://www.artofproblemsolving.com) -- math school problems, math olympiads, talent search -- features online forum with  subforums in other languages and [AoPS Resources](http://www.artofproblemsolving.com/Resources/index.php?) including [AoPSwiki](http://www.artofproblemsolving.com/Wiki/index.php/Main_Page), [LaTeX forum section](http://www.artofproblemsolving.com/Forum/viewforum.php?f=123) and [LaTeX guide](http://www.artofproblemsolving.com/Wiki/index.php/LaTeX:About) included. 
 
+* [Physics Forums](https://www.physicsforums.com) has a large mathematics community. Offers homework help and normal discussion.
+
 
 ### Current Blogs
 
