@@ -41,6 +41,7 @@ A general argument that in sectors of the [[AdS-CFT correspondence]] the [[confo
 
 * [[quantization of Chern-Simons theory]]/[[quantization of loop groups]]
 
+* [[super 1-brane in 3d]]
 
 ## References
 
