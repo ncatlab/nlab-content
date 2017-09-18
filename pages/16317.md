@@ -124,7 +124,7 @@ Hence passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempote
 
 * in the middle yields the [[reduction modality]] $\Re$, the [[infinitesimal shape modality]] $\&$ and the [[infinitesimal flat modality]] $\Im$. 
 
-* on the right we get an adjoint triple whose left piece $\epsilon$ produces _super-even_ components, and whose middle bit $\beta$ is the [[bosonic modality]] 
+* on the right we get an adjoint triple whose whose middle bit $\beta$ is the [[bosonic modality]] and whose left piece $\epsilon$ produces _super-even_ components, containing all the "[[fermion]] [[currents]]" if one wishes , which in this [[unity of opposites]] hence deserves to be called the _[[fermionic modality]]_.
 
 Hence we get a process of [[adjoint modalities]] of the form
 
