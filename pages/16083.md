@@ -65,6 +65,101 @@ $$
 
 Depending on perspective one might say that it is the [[supertorsion]] that vanishes (see at _[[super-Minkowski spacetime]]_ and at _[[D'Auria-Fre formulation of supergravity]]_ for this perspective), or, alternatively, that one is dealing with [[Cartan geometry]]/[[G-structure]] whose local model space carries non-vanishing torsion, see [below](#InTermsOfTorsionTwistedGStructure). 
 
+Notice that the torison-full but left-invariant forms are of course obtained from the torsion-free but non-left-invartiant forms by a $GL(\mathbb{R}^{d|N})$-valued function:
+
+$$
+  \left(   
+     \array{
+        e^a
+        \\
+        \psi^\alpha
+     }
+  \right)
+  =
+  \left(
+    \array{
+      id & \tfrac{i}{2}\Gamma^a{}_{\alpha \beta} \theta^\alpha
+      \\
+      0 & id
+    }
+  \right)
+  \left(  
+    \array{
+      \mathbf{d}x^a
+      \\
+      \mathbf{d}\theta^\alpha
+    }
+  \right)
+$$
+
+$$
+  \left(  
+    \array{
+      \mathbf{d}x^a
+      \\
+      \mathbf{d}\theta^\alpha
+    }
+  \right)
+  =
+  \left(
+    \array{
+      id & -\tfrac{i}{2}\Gamma^a{}_{\alpha \beta} \theta^\alpha
+      \\
+      0 & id
+    }
+  \right)
+  \left(   
+     \array{
+        e^a
+        \\
+        \psi^\alpha
+     }
+  \right)
+$$
+
+This shows that regarding
+
+$$
+  (E^A) \coloneqq (E^a, E^\alpha) \coloneqq (e^a, \Psi^\alpha)
+$$
+
+as a [[super-vielbein]] is consistent: this is indeed a [[homotopy]] in
+
+$$
+  \array{
+     \mathbb{R}^{d|N} &\to& \ast &\to& \mathbf{B}O(\mathbb{R}^{d|N})
+     \\
+     & 
+     {}_{\mathllap{\tau_{\mathbb{R}^{d|N}}}}\searrow 
+     &
+     \swArrow_{E}
+     & 
+     \swarrow_{\mathrlap{O(\mathbb{R}^{d|N})\mathbf{Struc}}}
+     \\
+     && \mathbf{B}GL(\mathbb{R}^{d|N})
+  }
+$$
+
+but not the tautological one given by
+
+$$
+  \array{
+     \mathbb{R}^{d|N} &\to& \ast &\to& \mathbf{B}O(\mathbb{R}^{d|N})
+     \\
+     & 
+     \searrow 
+     &
+     \downarrow
+     & 
+     \swarrow
+     \\
+     && \mathbf{B}GL(\mathbb{R}^{d|N})
+  }
+$$
+
+where the left triangle is that which exhibits the canonical trivialization of the [[frame bundle]] of $\mathbb{R}^{d|N}$.
+
+
 ### Examples
 
 In accord with the [above](#CanonicalTorsionOfSuperMinkowskiSpacetime), typically the [[equations of motion]] of a [[supergravity]] theory constrain the spinorial part of the torsion to have components $(\Gamma^a)_{\alpha \beta}$.
@@ -110,3 +205,5 @@ See also
 * {#Howe97} P.S. Howe, _Weyl Superspace_ ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
 * [[Suresh Govindarajan]], [[Burt Ovrut]], _A geometric interpretation for the torsion constrains of $(2,0)$-heterotic worldhseet supergravity_, Mod. Phys. Lett. A6(1991), 3341. ([pdf](http://www.physics.iitm.ac.in/~suresh/sgtalk/talk_html/torsion.pdf))
+
+[[!redirects supergravity torsion constraints]]
