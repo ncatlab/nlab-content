@@ -101,7 +101,7 @@ See the [[HowTo]] page for information on how to contribute to the $n$Lab and ed
 
 * see [[organization of the nLab]]
 
-# Technology and support
+# Technology and Support
 
 The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers). See [[HowTo]] for more on that.
 
