@@ -33,13 +33,15 @@ The [[automorphism group]] of the octonions is [[G2]].
 +-- {: .num_defn #BasicTriple}
 ###### Definition
 
-A _basic triple_ is a [[triple]] $(e_1, e_2, e_3) \in \mathbb{O}^3$ of three octonions such that
+A _special triple_ or _basic triple_ is a [[triple]] $(e_1, e_2, e_3) \in \mathbb{O}^3$ of three octonions such that
 
 * $e_i^2 = -1$
 
 * $e_i e_j = - e_j e_i$.
 
 =--
+
+([Whitehead 71, p. 691](#Whitehead71))
 
 +-- {: .num_remark}
 ###### Remark
@@ -77,10 +79,13 @@ The set of basic triples, def. \ref{BasicTriple}, forms a [[torsor]] over the [[
 
 ## References
 
-A survey is
+A survey is in
 
 * {#Baez} [[John Baez]], _The Octonions_ ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
 
+The concept of "special triples" or ("basic triples") used above seems to go back to 
+
+* {#Whitehead71} [[George Whitehead]], appendix A in _Homotopy Theory_, MIT press 1971
 
 [[!redirects octonion]]
 [[!redirects octonions]]
