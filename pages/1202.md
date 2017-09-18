@@ -79,8 +79,10 @@ _Toby_:  Well, constructivists are used to being isolated.  At least we give the
 ## Related entries
 
 * [[Zorn's lemma]]
+
 * [[axiom of choice]]
 
+* [[Hartogs number]]
 
 ## References
 
