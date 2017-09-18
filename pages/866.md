@@ -164,6 +164,10 @@ The special properties of the kinds of binary relations listed earlier can all b
 
 As a [[function]] may be seen as a functional, entire relation, so the category [[Set]] of sets and functions is a [[subcategory]] of [[Rel]] (in fact a [[replete subcategory|replete]] and locally [[full subcategory|full]] sub-$2$-category).
 
+### The quasitopos of endorelations
+
+Endorelations on sets are the objects of the [[quasitopos]] __$EndoRel$__. It is a  [[reflective subcategory]] of [[Quiv]] the [[category of presheaves|presheaf topos]] of quivers and its morphisms are quiver morphisms. Endorelations are the [[separated presheaf|separated presheaves]] for the [[double negation#in_topos_theory|double negation topology]] on $Quiv$. "Separated" here translates to a quiver having  at most one arc between pairs of verticies. The [[reflective subcategory|reflector]] $Quiv \to EndoRel$ collapses parallel arcs together. Such quivers might also be called __singular__ or __simple__  though sometimes "simple" also means "no loops".
+
 
 ## Generalisation
  {#Generalization}
