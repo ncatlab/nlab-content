@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[cover]] by a [[countable set]] of patches.
+
+## Related concepts
+
+* [[finite cover]]
+
+* [[locally finite cover]]
+
+* [[countably compact topological space]]
