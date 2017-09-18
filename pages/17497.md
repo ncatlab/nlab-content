@@ -6345,7 +6345,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6359,7 +6359,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta'}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6371,6 +6371,8 @@ $$
 be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of two objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
 
 $$
+  (\star)
+  \;\;\;\;\;\;
   \array{
     \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
       &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
@@ -6385,7 +6387,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_\eta&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6401,7 +6403,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta'}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6636,7 +6638,8 @@ $$
   \,.
 $$
 
-But by the commuting squares that $\alpha^L$ sits in by the construction above, applying $\gamma$, hence applying $P Q(-)$, intertwines $\alpha^L$ with $\alpha$ and this is precisely the condition expressed here.
+By the proof ([here](Introduction+to+Stable+homotopy+theory+--+P#ProofOfUniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the universal property of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) the vertical morphisms here are precisely the components of the natural isomorphisms $\eta$ and $\eta'$ above. With this, the above square is a component of the equality of pastings of natural isomorphisms in equation $(\star)$ above.
+
 
 =--
 
@@ -7216,12 +7219,6 @@ That follows with a laborious argument using the above lemmas (...).
 
 (...)
 
-
-
-
-
-
-
 #### Higher algebra
 
 
@@ -7234,6 +7231,7 @@ Examples:
 [[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
 
 (...)
+
 
 
 ## References
