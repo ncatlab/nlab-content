@@ -19,7 +19,9 @@ The _higher order frame bundle_ is higher order [[jet]] version of the [[frame b
 
 Its [[structure group]] is the [[jet group]] $GL^k$ of the given order.
 
-In [[synthetic differential geometry]]/[[differential cohesion]] the higher order frame bundle is the bundle of [[infinitesimal disks]] of the given order. See at _[differential cohesion -- Frame bundles](differential+cohesive+%28infinity%2C1%29-topos#GLnTangentBundles)_
+In [[synthetic differential geometry]]/[[differential cohesion]] the higher order frame bundle is the bundle of [[infinitesimal disks]] of the given order. It is the [[principal bundle]] ([[principal infinity-bundle]]) to which the [[infinitesimal disk bundle]] is the [[associated bundle]] ([[associated infinity-bundle]])
+
+See at _[differential cohesion -- Frame bundles](differential+cohesive+%28infinity%2C1%29-topos#GLnTangentBundles)_.
 
 ## References
 
