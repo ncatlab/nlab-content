@@ -8,7 +8,7 @@
 =--
 #### Physics
 +--{: .hide}
-[[!include physicscontents]]
+[[!include physicscontents]]#
 =--
 =--
 =--
@@ -122,7 +122,7 @@ At the moment, however, non-perturbative quantization of field theories remains 
 
 ### Review
 
-Survey and exposition of locally covariant algebraic quantum field theory includes the following:
+Survey and exposition of locally covariant algebraic quantum field theory beyond [[causal perturbation theory]] in [[Minkowski spacetime]] (for which see [there](causal+perturbation+theory#References)) includes the following:
 
 * {#Hollands07} [[Stefan Hollands]], section 3 of _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
@@ -133,6 +133,8 @@ Survey and exposition of locally covariant algebraic quantum field theory includ
 * {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
 
 * {#FredenhagenRejzner15} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative Construction of Models of Algebraic Quantum Field Theory_ ([arXiv:1503.07814](https://arxiv.org/abs/1503.07814))
+
+* [[Klaus Fredenhagen]], _Quantum field theory and gravitation_, talk at closing colloquium of trimester "Le Monde Quantique", IHES April 2015 ([pdf](https://indico.math.cnrs.fr/event/782/material/slides/1.pdf))
 
 * [[Katarzyna Rejzner]], _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
