@@ -1501,6 +1501,9 @@ Introductory textbooks to topology include
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
+* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
+
+
 See also
 
 * [[Alan Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
