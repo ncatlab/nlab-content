@@ -37,8 +37,12 @@ Generally, there are two different incarnations of branes
 
 1. **[[black branes|black p-branes]]** (as in "[[black hole]]"): these are [[soliton|solitonic]] solutions to [[field theories]], typically [[supergravity]] theories, with [[singularities]] of [[dimension]] $(p+1)$. In analogy to how a [[charged black hole]] ($p = 0$) [[source|sources]] an [[electromagnetic field]] with [[field strength]] 2-form, so black $p$-branes source $(p+2)$-form [[higher gauge fields]] and hence appear in those [[supergravity]] theories where such exists.
 
-In higher dimensional [[supergravity]] these two kinds of branes match (at least for extremal [[BPS solutions]]), in generalization of the [[no-hair theorem]] which says that in 4-dimensional [[gravity]] [[black hole]] configurations are characterized entirely by the parameters [[mass]], [[charge]] and [[angular momentum]], just as [[fundamental particles]] are (by the [[Wigner classification]]).
+The idea is that these two concepts match, where a [[condensate]] of fundamental $p$-branes turns into a black $p$-branes.
+ 
+Indeed, the classical [[no-hair theorem]] matches [[fundamental particles]] (i.e. 0-branes) characterized (via the [[Wigner classification]]) by just their [[mass]], electromagnetic [[charge]] and [[angular momentum]]  to [[black hole]] solutions of pure vacuum gravity. Accordingly, it is an old suggestion ([Einstein-Infeld-Hoffmann 39](#EinsteinInfeldHoffmann39)) that fundamental particles could be identified with singular solutions of vacuum gravity.
 
+This matching generalizes to higher dimensional $p$-branes in higher dimensional [[supergravity]] and there is an exact corespondence between fundamental [[Green-Schwarz super p-branes]] and extremal [[BPS solutions|BPS]] black brane solutions.
+ 
 In [[string theory]] there is a third incarnation, at least of those branes known as 
 
 * **[[D-branes]]**: these are the admissible [[boundary conditions]] for the 2-dimensional [[sigma models]] describing [[open strings]].  
@@ -192,7 +196,17 @@ The corresponding table has been called the **[[brane scan]]**
 
 ## References 
 
+### Prehistory
+
+* {#EinsteinInfeldHoffmann39} [[Albert Einstein]], [[Leopold Infeld]], B. Hoffmann, _The gravitational equations and the problem of motion_, Annals of Mathematics, Vol 39, No. 1, 1938
+
+See also
+
+* Wikipedia, _[Black hole electron](https://en.wikipedia.org/wiki/Black_hole_electron)_
+
+
 ### General
+  
 
 * [[Greg Moore]], _What is... a brane?_, Notices of the AMS vol 52, no. 2 ([pdf](http://www.ams.org/notices/200502/what-is.pdf))
 
@@ -256,4 +270,3 @@ See also [[division algebras and supersymmetry]].
 
 [[!redirects p-brane]]
 [[!redirects p-branes]]
-
