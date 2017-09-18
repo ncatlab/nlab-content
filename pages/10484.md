@@ -37,6 +37,9 @@ $$
   \,.
 $$
 
+For more see at _[[affine super scheme]]_ and at _[[geometry of physics -- superalgebra]]_ and at _[[geometry of physics -- supergeometry]]_.
+
+
 ## Examples
 
 * [[superpoint]], [[odd line]]
@@ -178,6 +181,8 @@ $$
 
 
 * [[supergeometry]]
+
+* [[super smooth set]]
 
 * [[smooth super infinity-groupoid]]
 
