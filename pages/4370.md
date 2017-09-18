@@ -15,14 +15,17 @@
 
 ## Idea
 
-Given a [[topological space]] (or [[locale]]) $X$, a [[subspace]] of $X$ is __dense__ if its [[closed subspace|closure]] is all of $X$.
+Given a [[topological space]] (or [[locale]]) $A$, a [[subspace]] $X$ of $A$ is __dense__ if its [[closed subspace|closure]] is all of $A$: $cl(X)=A$.
 
+## Remark
+
+Conversely, a subset $X\subseteq A$ of a topological space $A$ is called **nowhere dense** if $Int(cl(X))=\emptyset$.
 
 ## Properties
 
 * If $X\subseteq A$ is a dense subset of topological space $A$, then $X\cap Y\neq\emptyset$ for all non-empty open sets $Y$.
 
-* If $X\subseteq A$ is a dense subset of topological space $A$ and is $X$ is connected, so is $A$.
+* If $X\subseteq A$ is a dense subset of topological space $A$ and $X$ is connected, so is $A$.
 
 * In point-set topology, a space is [[separable space|separable]] if and only if it has a dense subspace with [[countable set|countably]] many points.
 
