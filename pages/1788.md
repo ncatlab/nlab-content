@@ -1,2 +1,1 @@
-
-..
+cannot see any $\TeX$ here, so testing $x^2$
