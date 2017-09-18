@@ -1,4 +1,3 @@
-[[!redirects geometry of physics -- smooth spaces]]
 
 > This entry contains one chapter of the material at _[[geometry of physics]]_.
 
@@ -31,7 +30,17 @@
 
 This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _smooth sets_ or _smooth spaces_. The definition subsumes that of [[smooth manifolds]], [[Frechet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful. 
 
-## **Smooth spaces**
++-- {: .num_remark}
+###### Remark
+**Note on terminology.** 
+
+In view of the _[[smooth homotopy types]]_ to be discussed in _[[geometry of physics -- smooth homotopy types]]_, the structures discussed now are properly called _smooth [[0-types]]_ or maybe _smooth [[h-sets]]_ or just _smooth sets_. While this subsumes [[smooth manifolds]] which are indeed sets equipped with (particularly nice) [[smooth structure]], it is common in practice to speak of manifolds as "spaces" (indeed as [[topological spaces]] equipped with smooth structure). Historically the _[[Cartesian space]]_ and _[[Euclidean space]]_ of [[Newtonian physics]] are the archetypical examples of smooth manifolds and modern [[differential geometry]] developed very much via motivation by the study of the _spaces_ in [[general relativity]], namely _[[spacetimes]]_. Unfortunately, in a parallel development the word "space" has evolved in [[homotopy theory]] to mean (just) the [[homotopy types]] _represented_ by an actual [[topological space]] (their [[fundamental infinity-groupoids]]). Ironically, with this meaning of the word "space" the original [[Euclidean spaces]] become equivalent to the point, signifying that the modern meaning of "space" in [[homotopy theory]] is quite orthogonal to the original meaning, and that in homotopy theory therefore one should better stick to "[[homotopy types]]".
+
+Since historically grown terminology will never be fully logically consistent, and since often the less well motivated terminology is more widely understood, we will follow tradition here and take the liberty to use "smooth sets" and "smooth spaces" synonymously, the former when we feel more formalistic, the latter when we feel more relaxed.
+
+=--
+
+## **Smooth sets**
  {#SmoothSpaces}
 
 In the section _[Coordinate systems](#CoordinateSystems)_ we have set up the archetypical [[spaces]] of [[differential geometry]]. Here we now define in terms of these the most general _[[smooth spaces]]_ that differential geometry can deal with. We also discuss basic properties of these smooth spaces, all in the [Mod Layer](#SmoothSpacesLayerMod).
@@ -99,6 +108,7 @@ such that this is compatible with coordinate transformations:
    $$
 
 1. changing plots along two consecutive coordinate transformations $f_1 \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ and $f_2 \colon \mathbb{R}^{n_2} \to \mathbb{R}^{n_3}$ is the same as changing them along the [[composition|composite]] coordinate transformation $f_2 \circ f_1$:
+
 
    $$
      X(f_1) \circ X(f_2)  = X(f_2 \circ f_1)
@@ -1174,3 +1184,5 @@ For the [[unit of an adjunction|unit]] of the $(\Gamma \vdash coDisc)$-[[adjunct
 
 
 (...)
+
+[[!redirects geometry of physics -- smooth spaces]]
