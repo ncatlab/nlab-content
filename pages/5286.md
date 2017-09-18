@@ -78,7 +78,7 @@ Multivecotr field can be identified with [[Hochschild cohomology]] in good cases
 
 ## Related concepts
 
-* **BV-algebra**
+* [[Batalin-Vilkovisky module]]
 
 * [[Poisson n-algebra]]
 
@@ -102,6 +102,11 @@ The generalization to higher dimensional framed little disks is discussed in
 Vilkovisky algebras_ ([pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf))
 {#SalvatoreWahl}
 
+There are examples coming from Lagrangian intersection theory
+
+* Vladimir Baranovsky, Victor Ginzburg, _Gerstenhaber-Batalin-Vilkoviski structures on coisotropic intersections_, [arxiv/0907.0037](http://arxiv.org/abs/0907.0037)
+
+
 The BV-algebra structure on [[multivector field]]s on an [[oriented]] [[smooth manifold]] is discussed for instance in section 2 of 
 
 * [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/05-06.pdf))
@@ -119,6 +124,11 @@ The BV-algebra structure on  [[Hochschild cohomology]] is discussed for instance
 
 * Luc Menichi, _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
 
+There is a prominent class of examples coming from
+Lie-Rinehart algebras
+
+* [[Johannes Huebschmann]], _Lie-Rinehart algebras, Gerstenhaber algebras and 
+Batalin-Vilkovisky algebras_, Annales de l'institut Fourier __48__:2 (1998) 425-440 [eudml](https://eudml.org/doc/75288)
 
 [[!redirects BV-algebras]]
 
