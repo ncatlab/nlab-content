@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Adjoint logic_ is [[formal logic]] or [[type theory]] which natively expresses [[adjunctions]] of [[modal operators]], [[adjoint modalities]].
+
+## References
+
+* [[Nick Benton]], [[Philip Wadler]], _Linear logic, monads and the lambda calculus_, In IEEE Symposium on Logic in Computer Science. IEEE Computer Society Press, 1996.
+
+* J. Reed, _A judgemental deconstruction of modal logic_, 2009 ([pdf](http://www.cs.
+cmu.edu/~jcreed/papers/jdml.pdf))
+
+
+* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf))
+
+An adjoint logic version of [[homotopy type theory]] giving [[cohesive homotopy type theory]] is in 
+
+* [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](http://arxiv.org/abs/1509.07584))
+
+[[!redirects adjoint logics]]
