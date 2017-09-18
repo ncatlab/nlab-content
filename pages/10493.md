@@ -34,7 +34,7 @@ An $n$-[[cube]] in $\mathcal{D}$, hence an [[(∞,1)-functor]] $\Box^n \longrigh
 +-- {: .num_defn}
 ###### Definition
 
-An [[(∞,1)-functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is **$n$-excisive** for $n \in \mathbb{N}$ (or polynomial of degree at most $n$) if whenever $X$ is a strongly cocartesian $(n + 1)$-[[cube]] in $\mathcal{C}$, def. \ref{StronglyCoCartesian}, then $F(X)$ is a cartesian cube in $\mathcal{D}$, def. \ref{Cartesian}. 
+An [[(∞,1)-functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is **$n$-excisive** for $n \in \mathbb{N}$ (or _polynomial_ of degree at most $n$) if whenever $X$ is a strongly cocartesian $(n + 1)$-[[cube]] in $\mathcal{C}$, def. \ref{StronglyCoCartesian}, then $F(X)$ is a cartesian cube in $\mathcal{D}$, def. \ref{Cartesian}. 
  
 A 1-excisive (∞,1)-functor is called just _[[excisive (∞,1)-functor|excisive]]_ for short.
 
@@ -83,7 +83,7 @@ which preserves [[finite (∞,1)-limits]].
 
 =--
 
-This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03)). In the above form it appears explicitly as ([Lurie, theorem 7.1.1.10](#HigherAlg)).
+This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03)). In the above form it appears explicitly as ([Lurie, theorem 6.1.1.10](#HigherAlg)).
 
 +-- {: .num_cor}
 ###### Corollary
@@ -94,11 +94,11 @@ $$
   Exc^n(\mathcal{C}, \mathbf{H}) \in (\infty,1)Topos
 $$
 
-is an [[(∞,1)-topos]].
+is an [[(∞,1)-topos]]. (For $n  \gt 1$ this is in general _not_ a  [[hypercomplete (∞,1)-topos]], even if $\mathbf{H}$ is.)
 
 =--
 
-This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 7.1.1.11](#HigherAlg)).
+This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
 
 +-- {: .num_example}
 ###### Example
@@ -145,10 +145,10 @@ The [[Taylor tower]] formed by $n$-excisive functors was then studied in
 * [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
  {#Goodwillie03}
 
-A discussion in the general abstract context of [[(∞,1)-category theory]] is in section 7.1.1 of 
+A discussion in the general abstract context of [[(∞,1)-category theory]] is in  
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
-  {#HigherAlg}
+* {#HigherAlg} [[Jacob Lurie]], section 7.1.1 of _[[Higher Algebra]]_ 
+  
 
 A [[model category]] presentation of $\infty$-categories of $n$-excisive functors is given in 
 
