@@ -41,10 +41,10 @@ See at _[[Green-Schwarz sigma model]]_ and _[[brane scan]]_.
 
 ### As a black brane
 
-As a [[black brane]] solution to the [[equations of motion]] of [[11-dimensional supergravity]] the M2 is the [[spacetime]] with [[pseudo-Riemannian metric]] being
+As a [[black brane]] solution to the [[equations of motion]] of [[11-dimensional supergravity]] the M2 is the [[spacetime]] $\mathbb{R}^{2,1} \times (\mathbb{R}^8-\{0\})$ with [[pseudo-Riemannian metric]] being
 
 $$
-  g = H^{-2/3} g_{\mathbb{R}^{2,1}} + H^{1/3}g_{\mathbb{R}^8}
+  g = H^{-2/3} g_{\mathbb{R}^{2,1}} + H^{1/3}g_{\mathbb{R}^8-\{0\}}
 $$
 
 where 
@@ -58,7 +58,7 @@ for $(\alpha,\beta) \in \mathbb{R}^2 - \{(0,0)\}$;
 and the [[field strength]] of the [[supergravity C-field]] is 
 
 $$
-  F = d vol_{\mathbb{R}^{2,1}} \wedge d H^{-1}
+  F = d vol_{\mathbb{R}^{2,1}} \wedge \mathbf{d} H^{-1}
   \,.
 $$
 
