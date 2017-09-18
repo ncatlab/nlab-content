@@ -266,3 +266,6 @@ The [[model structure on dg-coalgebras]] is due to
 
 [[!redirects dg-coalgebra]]
 [[!redirects dg-coalgebras]]
+
+[[!redirects differential graded-cocommutative coalgebra]]
+[[!redirects differential graded-cocommutative coalgebras]]
