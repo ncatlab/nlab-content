@@ -255,11 +255,12 @@ This is claimed without proof in ([Day 70](#Day70)).
   {#Properties}
 
 
-### Basic propertires
+### Basic properties
+ {#BasicProperties}
 
 Let $j \colon C \to PSh(C)$ be the [[Yoneda embedding]]. 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite}
 ###### Lemma
 
 With $I \in C$ the [[tensor unit]] of $C$, then the presheaf $j(I)$ that it [[representable functor|represents]] is a tensor unit for the Day convolution product.
