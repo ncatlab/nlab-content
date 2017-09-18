@@ -33,28 +33,33 @@ A classical
 
 in [[simplicial sets]], not however with a symmetric monoidal smash product, is ([Bousfield-Friedlander 78](#BousfieldFriedlander78)) the 
 
-* _[[Bousfield-Friedlander model structure]]_.
+* _[[Bousfield-Friedlander model structure]]_, 
 
-This is related by a [[zig-zag]] of [[Quillen equivalences]] to the 
+with its analogue in [[topological spaces]], the
+
+* [[classical model structure on topological sequential spectra]].
+
+Thes are related by a [[zig-zag]] of [[Quillen equivalences]] to the 
 
 * _[[model structure on combinatorial spectra]]_.
 
-A [[Quillen equivalence|Quillen equivalent]] model structure to the Bousfield-Friedlander model structure that does carry a [[symmetric monoidal smash product of spectra]] is the
+A [[Quillen equivalence|Quillen equivalent]] model structure to the model structures on sequential spectra that does carry a [[symmetric monoidal smash product of spectra]] is the
 
 * _[[model structure for excisive functors]]_.
 
-Among the model structures on "[[highly structured spectra]]" with a [[symmetric monoidal smash product of spectra]] are the
+This models spectra as [[enriched functors]] on the site of [[pointed homotopy type|pointed]] [[finite homotopy types]]. Restricting that to smaller sub-sites, yields model structures for "[[highly structured spectra]]" with a [[symmetric monoidal smash product of spectra]]: the
 
 * [[model structure on orthogonal spectra]],
 
 * [[model structure on symmetric spectra]],
 
-* [[model structure on S-modules]].
-
 A unified treatment and comparison of these is in
 
 * [[Model categories of diagram spectra]]
 
+Then there is also the
+
+* [[model structure on S-modules]].
 
 ## Related concepts
 
