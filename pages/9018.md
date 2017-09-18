@@ -86,6 +86,13 @@ Also notice that at least the $SU(N)$-enhancement of the [[effective field theor
 ### Solutions with non-vanishing $C$-field strength
  {#TheCField}
 
+{#FluxBreaksSuSy} **Claim:** _There is no warped [[KK-compactification]] of M-theory on $X_4 \times F_7$ which retains at least $N = 1$ [[supersymmetry]] in 4d while at the same time having non-vanishning $G_4$-[[flux]] ([[field strength]] of the [[supergravity C-field]]). In other words, non-vanishing flux always breaks the supersymmetry._
+
+e.g. ([Acharya-Spence 00](#AcharyaSpence00)) see the Introduction of ([Beasley-Witten 02](#BeasleyWitten02))
+
+$\,$
+
+
 In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance ([Bilal-Serendinger-Sfetos 02, section 6](#BilalDerendingerSfetos)):
 
 Consider a [[KK-compactification]]-Ansatz $X_{11} = (X_4,g_4) \times (X_7,g_7)$ and
@@ -150,6 +157,10 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 
 * {#Acharya00} [[Bobby Acharya]], _On Realising $N=1$ Super Yang-Mills in M theory_ ([arXiv:hep-th/0011089](http://arxiv.org/abs/hep-th/0011089))
 
+* {#AcharyaSpence00} [[Bobby Acharya]], B. Spence, _Flux, Supersymmetry and M theory on 7-manifolds_ ([arXiv:hep-th/0007213](http://arxiv.org/abs/hep-th/0007213))
+
+* {BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], _A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy_, JHEP 0207:046,2002 ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
+
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
 * {#Witten01} [[Edward Witten]], _Anomaly Cancellation On Manifolds Of $G_2$ Holonomy_ ([arXiv:hep-th/0108165](http://arxiv.org/abs/hep-th/0108165))
@@ -158,7 +169,7 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 
 * {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
-For more on this see the references [below](#ReferencesPhenomenology).
+
 
 See also
 
