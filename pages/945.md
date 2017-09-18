@@ -39,7 +39,7 @@ A functor $i:S\to C$ is __dense__ if it satisfies the following equivalent condi
 
 Later in the mid 60s, [[Friedrich Ulmer]] considered the concept for more general functors $F:C\to D$, not only inclusions $I:C\hookrightarrow D$, and introduced the name _dense_ for them.
 
-Independently, [[Pierre Gabriel]] worked on this concept and their work flew together in what was to become the concept of a [[locally presentable category]] of their 1971 monograph. It is also good to keep in mind the '_Abelian_' subcontext in the background, in particular the developments in module theory e.g. Lazard's (1964) characterization of flat modules as filtered colimits of finitely generated free modules.
+Independently, [[Pierre Gabriel]] worked on this concept and their work coalesced to what was to become the concept of a [[locally presentable category]] of their 1971 monograph. It is also good to keep in mind the '_Abelian_' subcontext in the background, in particular the developments in module theory e.g. Lazard's (1964) characterization of flat modules as filtered colimits of finitely generated free modules.
 
 More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)-categories]] as *strongly generating* in a version (arXiv v4) of his [[Higher Topos Theory|HTT]], but that term normally means [[strong generator|something different]].
 
