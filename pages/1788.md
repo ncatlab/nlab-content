@@ -1,2 +1,18 @@
 
-nothing here
+
+$$
+  \array{
+    &&  {{connection\;forms}\atop{on\;trivial\;bundles}} && \stackrel{de\;Rham\;differential}{\longrightarrow} && {{curvature}\atop{forms}}
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
+    \\
+    {{flat}\atop{differential\;forms}}  && 
+    && {{geometric\;bundles}\atop{with\;connection}} && && 
+    {{rationalized}\atop{bundle}}
+    \\
+    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
+    \\
+    && {{geometric\;bundles}\atop{with\;flat\;connection}} && \underset{comparison/regulator\;map}{\longrightarrow} && {{shape}\atop{of\;bundle}}
+  }
+$$
+
