@@ -15,12 +15,14 @@ This page collects material related to the text
   (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
 pages 43-56, 1994.  
 
-which argues that "objective logic" in the sense of [[Georg Hegel]]'s _[[Science of Logic]]_ should be understood as being captured by [[universal constructions]] of [[category theory]], whereas the "subjective logic" is to be understood as ordinary [[deduction]]/inference about objects such constructed.
+which argues that "[[objective logic]]" in the sense of [[Georg Hegel]]'s _[[Science of Logic]]_ should be understood as being captured by [[universal constructions]] of [[category theory]]/[[topos theory]], whereas the "[[subjective logic]]" is to be understood as ordinary [[deduction]]/inference about objects such constructed.
 
 The text explicitly discusses formalization in [[categorical logic]] of Hegelian concepts such as 
 
 * [[abstract general]], [[abstract particular]], [[concrete particular]] by categorical [[theories]] ([[Lawvere theories]]) and their [[models]];
 
 * [[unity of opposites]] by [[adjoint modalities]].
+
+Various related suggestions are implicit in other texts by Lawvere, see at _[William Lawvere -- Mathematics related to philosophy](William+Lawvere#RelationToPhilosophy)_
 
 category: reference
