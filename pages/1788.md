@@ -1,5 +1,5 @@
 
-+-- {: .num_defn }
++-- {: .num_defn #CategoryWithCofiberSequences}
 ###### Definition
 
 A **[[triangulated category]]** is
@@ -40,7 +40,7 @@ such that the following conditions hold:
 
   $$
     \array{    
-     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
      \\
      \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}} 
      && \downarrow^{\mathrlap{\in Iso}}
@@ -63,7 +63,7 @@ such that the following conditions hold:
   $$
 
 
-* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$; hence if
+* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$ and conversely; hence if
 
   $$
     A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
@@ -73,41 +73,160 @@ such that the following conditions hold:
 
   $$
     B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A \overset{-\Sigma f}{\longrightarrow} \Sigma B
-    \,.
   $$
+
+  and conversely.
 
 * **T3** Given a [[commuting diagram]] in $Ho$ of the form
 
   $$
     \array{    
-     A &\overset{f}{\longrightarrow}& 
-     B &\overset{g}{\longrightarrow}& 
-     B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     A &\overset{}{\longrightarrow}& 
+     B &\overset{}{\longrightarrow}& 
+     B/A &\overset{}{\longrightarrow}& \Sigma A      
      \\
-     \downarrow^{\mathrlap{}}
-     && \downarrow^{\mathrlap{}} 
+     \downarrow^{\mathrlap{\phi_A}}
+     && \downarrow^{\mathrlap{\phi_B}} 
      && 
-     && \downarrow^{\mathrlap{}}
+     && 
      \\
-     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'           
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
     }
   $$
 
-  where the top and bottom are distinguished triangles, then there exists a filler, i.e. a morphism $B/A \to B'/A'$ such as to make the completed diagram commute
+  where the top and bottom are distinguished triangles, then there exists a morphism $B/A \to B'/A'$ such as to make the completed diagram commute
   
   $$
     \array{    
-     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     A &\overset{}{\longrightarrow}& B &\overset{}{\longrightarrow}& B/A &\overset{}{\longrightarrow}& \Sigma A      
      \\
-     \downarrow^{\mathrlap{}}
-     && \downarrow^{\mathrlap{}} 
+     \downarrow^{\mathrlap{\phi_A}}
+     && \downarrow^{\mathrlap{\phi_B}} 
      && \downarrow^{\mathrlap{\exists}}
-     && \downarrow^{\mathrlap{}}
+     && \downarrow^{\mathrlap{\Sigma \phi_A}}
      \\
-     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'           
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
     }
   $$
 
 * **T4** 
+
+=--
+
++-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
+###### Lemma
+
+For $(Ho,\Sigma, CofSeq)$ a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, and 
+
+$$
+  A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
+$$
+
+a distinguished triangle, then 
+
+$$
+  g\circ f = 0
+$$
+
+is the [[zero morphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[commuting diagram]]
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Observe that the top part is a distinguished triangle by axioms T1 and T2 in def. \ref{CategoryWithCofiberSequences}. Hence by T3 there is an extension to 
+a commuting diagram of the form
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    && \downarrow
+    && \downarrow^{\mathrlap{\Sigma f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Now the commutativity of the middle square proves the claim.
+
+=--
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(Ho,\Sigma, CofSeq)$ be a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, with [[hom object|hom-groups]] $[-,-]_\ast \colon Ho^{op}\times Ho \to Ab$. For $X\in Ho$ any object, and for $D\in CofSeq$ any distinguished triangle
+
+$$
+  D = (A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A)
+$$
+
+then the sequences of [[abelian groups]]
+
+$$
+  [\Sigma A, X]_\ast
+    \overset{[h,X]_\ast}{\longrightarrow}
+  [B/A,X]_\ast
+    \overset{[g,X]_\ast}{\longrightarrow}
+  [B,X]_\ast
+    \overset{[f,X]_\ast}{\longrightarrow}
+  [A,X]_\ast
+$$
+
+and 
+
+$$
+  [X,A]_\ast
+    \overset{[X,f]_\ast}{\longrightarrow}
+  [X,B]_\ast
+    \overset{[X,g]_\ast}{\longrightarrow}
+  [X,B/A]_\ast
+    \overset{[X,h]_\ast}{\longrightarrow}
+  [X,\Sigma A]_\ast
+$$
+
+are [[long exact sequences]].
 
 =--
