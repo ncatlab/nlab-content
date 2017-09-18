@@ -161,7 +161,7 @@ $$
   \,.
 $$
 
-Therefore also the remaining morphism is an isomorphism. Since this holds for all $q$ and all basepoints, it is a weak homotopy equivalence.
+Therefore also the remaining morphism is an isomorphism ([[two-out-of-three]]). Since this holds for all $q$ and all basepoints, it is a weak homotopy equivalence.
 
 =--
 
@@ -169,7 +169,10 @@ Therefore also the remaining morphism is an isomorphism. Since this holds for al
 
 ## Related concepts
 
-* [[mapping cone]]
+* [[mapping cylinder]], [[mapping cone]]
+
+* [[homotopy colimit]]
+
 
 ## References
 
