@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _locally presentable category_ is a [[category]] which contains a [[small set]] $S$ of [[small objects]] such that every [[object]] is a [[colimit]] over objects in this set. 
+A _locally presentable category_ is a [[category]] which contains a [[small set]] $S$ of [[small objects]] such that every [[object]] is a nice [[colimit]] over objects in this set. 
 
 This says equivalently that a presentable category $\mathcal{C}$ is a [[reflective localization]] $\mathcal{C} \hookrightarrow PSh(S)$ of a [[category of presheaves]] over $S$. Since here $PSh(S)$ is the [[free colimit completion]] of $S$ and the localization imposes _relations_, this is a presentation of $\mathcal{C}$ by _[[generators and relations]]_, hence the name _(locally) presentable category_.
 
@@ -46,7 +46,7 @@ This means
 
 1. $\mathcal{C}$ has all small [[colimits]];
 
-1. there exists a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of [[objects]] that generates $\mathcal{C}$ under colimits 
+1. there exists a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of $\lambda$-small [[objects]] that generates $\mathcal{C}$ under $\lambda$-filtered colimits 
 
    (meaning that every object of $\mathcal{C}$ may be written as a colimit over a [[diagram]] with objects in $S$); 
 
