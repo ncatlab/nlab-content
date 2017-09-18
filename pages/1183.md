@@ -28,7 +28,7 @@
 ## Idea
  {#Idea}
 
-A _$\sigma$-model_ is a particular kind of [[physical theory]] of certain [[field (physics)|fields]].  The basic data describing a specific $\sigma$-model is some kind of "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of [[field (physics)|fields]]" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]]/[[mapping stack]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is like an an $X$-valued [[function]] on $\Sigma$.
+A _$\sigma$-model_ is a particular kind of [[physical theory]] of certain [[field (physics)|fields]].  The basic data describing a specific $\sigma$-model is some kind of "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of [[field (physics)|fields]]" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]]/[[mapping stack]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is like  an $X$-valued [[function]] on $\Sigma$.
 
 We assign a [[dimension]] $n \in \mathbb{N}$ to our $\sigma$-model, take $dim \Sigma \leq n$ and assume that [[target space]] $X$ is equipped with a "[[circle n-bundle with connection]]".  
 
