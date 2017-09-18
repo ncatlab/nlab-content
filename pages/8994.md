@@ -16,7 +16,65 @@
 
 ## Idea
 
-The concept of _weakly distributive categories_ is a kind of [[monoidal category]] introduced by [[Robin Cockett]] and [[Robert Seely]] in 1991 at the Durham conference on applications of categories ([Cockett-Seely 97](#CockettSeely97)).  Subsequently, in recognition of their fundamental role in the [[categorical semantics]] for the [[proof theory]] of [[linear logic]] they were renamed to _linearly distributive categories_.
+A **linearly distributive category** is a category with two [[monoidal structures]] $\otimes$ and $\invamp$ that "distribute" in the sense that there is a map (not necessarily invertible)
+
+$$
+   \delta \colon A \otimes (B \parr C) \longrightarrow (A \otimes B) \parr C
+$$
+
+Linearly distributive categories are the "representable" form of [[polycategories]], and they are also what "remains" of a [[star-autonomous category]] when the involution is forgotten but the dual tensor $A\invamp B \coloneqq (A^* \otimes B^*)^*$ is remembered.
+
+## Definition
+
+A **linearly distributive category** (also called a **weakly distributive category**) is a [[monoidal category]] in two ways, with monoidal structures $(\otimes, I)$ and $(\bullet, J)$ equipped with extra associator natural transformations
+
+\[ \delta^L:A\otimes (B\bullet C) \to (A \otimes B) \bullet C \]
+
+\[ \delta^R:(A\bullet B) \otimes C \to A \bullet (B \otimes C) \]
+
+and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely.
+
+These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
+
+**Warning:** a linearly distributive category *cannot* be a [[distributive category]], unless it is a partial order.
+
+## Related structures
+
+### Star-autonomous category
+
+Any [[star-autonomous category]] has an underlying linearly distributive category where we define $A\bullet B \coloneqq (A^* \otimes B^*)^*$, or equivalently $A\bullet B \coloneqq A^* \multimap B$, where $\multimap$ is the internal-hom.  The left distributor, for instance, is obtained as follows:
+$$\array{\arrayopts{\rowlines{solid}}
+\array{\arrayopts{\rowlines{solid}}
+(A\otimes B)^* \longrightarrow (A\otimes B)^* \\
+A \otimes (A\otimes B)^* \longrightarrow B^*} \qquad
+\array{\arrayopts{\rowlines{solid}}
+B^* \multimap C \longrightarrow B^* \multimap C\\
+B^* \otimes (B^* \multimap C) \longrightarrow C\\
+B^* \longrightarrow (B^* \multimap C) \multimap C} \\
+A \otimes (A\otimes B)^* \longrightarrow (B^* \multimap C) \multimap C \\
+A\otimes (B^*\multimap C) \longrightarrow (A \otimes B)^* \multimap C
+}$$
+Conversely, a linearly distributive category having a "negation" is $\ast$-autonomous; see ([Cockett-Seely 97](#CockettSeely97)).
+
+### Polycategories
+
+Any linearly distributive category has an underlying [[polycategory]] where we define $Hom(A_1,\dots,A_n; B_1,\dots,B_m)$ to be $Hom(A_1\otimes \cdots \otimes A_n; B_1 \bullet \cdots \bullet B_m)$.
+The polycategorical compositions are obtained using the distributors.  For instance, we should be able to compose $f:(A,B) \to (C,D,E)$ with $g:(F,D,G) \to H$ to get $g\circ f : (F,A,B,G) \to (C,H,E)$; in a linearly distributive category this is the composite
+$$\begin{aligned}
+  F\otimes (A\otimes B)\otimes G
+  &\xrightarrow{1_F\otimes f\otimes 1_G} F\otimes (C\bullet D\bullet E)\otimes G\\
+  &\xrightarrow{\delta} ((F\otimes (C\bullet D)) \bullet E)\otimes G\\
+  &\xrightarrow{\delta} ((C\bullet (F\otimes D)) \bullet E)\otimes G\\
+  &\xrightarrow{\cong} ((C\bullet E) \bullet (F\otimes D))\otimes G\\
+  &\xrightarrow{\delta} (C\bullet E) \bullet ((F\otimes D)\otimes G)\\
+  &\xrightarrow{1_{C\bullet E}\bullet g} (C\bullet E) \bullet H\\
+  &\xrightarrow{\cong} C\bullet H\bullet E
+\end{aligned}$$
+Conversely, a polycategory that is suitably "representable" yields a linearly distributive category; see ([Cockett-Seely 97](#CockettSeely97)).
+
+## History
+
+The concept was originally called a _weakly distributive category_  and was introduced by [[Robin Cockett]] and [[Robert Seely]] in 1991 at the Durham conference on applications of categories ([Cockett-Seely 97](#CockettSeely97)).  Subsequently, in recognition of their fundamental role in the [[categorical semantics]] for the [[proof theory]] of [[linear logic]], and the fact that they are not a "weakening" of [[distributive categories]] in any standard sense, they were renamed to _linearly distributive categories_.
 
 A key feature of linearly distributive categories is the existence of [[morphisms]] of the form
 
@@ -38,22 +96,6 @@ At that time this was generally thought to be a rather unsatisfactory and unnece
 
 Linearly distributive categories have now been used as the substrate for a number of systems. 
 
-
-
-## Definition
-
-A **linearly distributive category** (also called a **weakly distributive category**) is a [[monoidal category]] in two ways, with monoidal structures $(\otimes, I)$ and $(\bullet, J)$ equipped with extra associator natural transformations
-
-\[ \delta^L:A\otimes (B\bullet C) \to (A \otimes B) \bullet C \]
-
-\[ \delta^R:(A\bullet B) \otimes C \to A \bullet (B \otimes C) \]
-
-and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely.
-
-These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
-
-**Warning:** a linearly distributive category *cannot* be a [[distributive category]], unless it is a partial order.
-
 ## Related pages
 
 * [[distributive law]]
@@ -68,6 +110,7 @@ These extra associators are sometimes called "distributors", and should not be c
 
   * [[rig category]]
 
+* [[polycategory]], [[star-autonomous category]]
 
 ## References
 
