@@ -249,13 +249,13 @@ Examples of cofibrant objects in the projective model structure are discussed at
 
 ## References
 
-The projective model structure on functors to [[sSet]] was maybe originally discussed in
+* [[Philip Hirschhorn]], section 11.6 in _Model categories and their localizations_, 2003 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+* {#Lurie} [[Jacob Lurie]],  sections A.2.8 (unenriched) and section A.3.3 (enriched) of _[[Higher Topos Theory]]_, 2009
+
+The projective model structure for functors to [[sSet]] on a _[[large category|large]]_ domain is discussed in
 
 * [[Boris Chorny]], [[William Dwyer]], _Homotopy theory of small diagrams over large categories_, [arXiv:math/0607117](http://arxiv.org/abs/math/0607117)
-
-A comprehensive discussion is in
-
-* {#Lurie} [[Jacob Lurie]],  sections A.2.8 (unenriched) and section A.3.3 (enriched) of _[[Higher Topos Theory]]_
 
 
 See also 
