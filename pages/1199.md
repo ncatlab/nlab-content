@@ -13,18 +13,18 @@
 * table of contents 
 {: toc}
 
-## Idea
+## Idea {#idea}
 
 A (binary) [[relation]] $\prec$ on a [[set]] $S$ is called _well-founded_ if it is valid to do [[induction]] on $\prec$ over $S$.
 
 
-## Definition
+## Definitions {#defn}
 
-Call a [[subset]] $A$ of $S$ _$\prec$-inductive_ if
-$$ \forall (x\colon S),\; (\forall (t\colon S),\; t \prec x \Rightarrow t \in A) \Rightarrow x\in A. $$
+Let $S$ be a [[set]], and let $\prec$ be a [[binary relation]] on $S$.  A [[subset]] $A$ of $S$ is __$\prec$-inductive__ if
+$$ \forall (x\colon S),\; (\forall (t\colon S),\; t \prec x \;\Rightarrow\; t \in A) \;\Rightarrow\; x \in A. $$
 The relation $\prec$ is __well-founded__ if the only $\prec$-inductive subset of $S$ is $S$ itself.
 
-Note that this is precisely what is necessary to validate induction over $\prec$: if we can show that a statement is true of $x\in S$ whenever it is true of everything $\prec$-below $x$, then it must be true of everything in $S$.  In the presence of [[excluded middle]] it is equivalent to other commonly stated definitions; see _Formulations in classical logic_ below.
+Note that this is precisely what is necessary to validate induction over $\prec$: if we can show that a statement is true of an element $x$ of $S$ whenever it is true of everything that precedes ($\prec$) $x$, then it must be true of everything in $S$.  In the presence of [[excluded middle]] it is equivalent to other commonly stated definitions; see _Formulations in classical logic_ below.
 
 
 ### Formulations in classical logic
