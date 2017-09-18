@@ -84,3 +84,5 @@ A quick review with emphasis on the [[Stolz conjecture]] is in
 
 
 [[!redirects 2d (2,0)-supersymmetric QFT]]
+
+[[!redirects 2d (2,0)-CFT]]
