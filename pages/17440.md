@@ -252,6 +252,9 @@ Textbook accounts proceeding in the [[coalgebra]] picture include
 
 Further review includes
 
+* {#MosherTangora68} [[Robert Mosher]], [[Martin Tangora]], section 18 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](www.maths.ed.ac.uk/~aar/papers/moshtang.pdf))
+
+
 * [[John McCleary]], chapter 9 of _A User's Guide to Spectral Sequences_, Cambridge University Press (1985, 2001)
 
 * {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
