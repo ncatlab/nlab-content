@@ -597,6 +597,111 @@ More generally one may ask functions $p$ to have such [[homotopy lifting propert
 =--
 
 
++-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
+###### Proposition
+
+Let $f\colon X \longrightarrow Y$ be a [[Serre fibration]], def. \ref{SerreFibration}, let $x \colon \ast \to Y$ be any point and write 
+
+$$
+  F_x \overset{\iota}{\hookrightarrow} X \overset{f}{\longrightarrow} Y
+$$
+
+for the [[fiber]] inclusion over that point. Then for every choice $\hat x \colon \ast \to X$ of lift of the point $x$ to the fiber, the induced sequence of [[homotopy groups]]
+
+$$
+
+  \pi_{\bullet}(F_x,\hat x)
+    \overset{\iota_\ast}{\longrightarrow}
+  \pi_\bullet(X, \hat x)
+    \overset{f_\ast}{\longrightarrow}
+  \pi_\bullet(Y)
+$$
+
+is [[exact sequence|exact]], in that $ker(f_\ast) \simeq im(\iota_\ast)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that the image of $\iota_\ast$ is in the kernel of $f_\ast$ (every sphere in $F_x\hookrightarrow X$ becomes constant on $x$, hence contractible, when sent forward to $Y$).
+
+For the converse, let $[\alpha]\in \pi_{\bullet}(X,\hat x)$ be represented by some $\alpha \colon S^{n-1} \to X$. Assume that $[\alpha]$ is in the kernel of $f_\ast$. This means equivalently that $\alpha$ fits into a [[commuting diagram]] of the form
+
+$$
+  \array{
+    S^{n-1} &\overset{\alpha}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    D^n &\overset{\kappa}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+Now since $\hat x$ is a lift of $x$, there is a [[left homotopy]] $\eta$ as follows
+
+$$
+  \array{
+    && S^{n-1} &\overset{\alpha}{\longrightarrow}& X
+    \\
+    && {}^{\mathllap{\iota_n}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    && D^n &\overset{\kappa}{\longrightarrow}& Y
+    \\
+    && \downarrow^{\mathrlap{(id,1)}} && \downarrow^{\mathrlap{id}}
+    \\
+    D^n &\overset{(id,0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
+    \\
+    \downarrow && &&  \downarrow
+    \\
+    \ast && \overset{x}{\longrightarrow} && Y
+  }
+$$
+
+(for instance regard $D^n$ as embedded in $\mathbb{R}^n$ such that $0 \in \mathbb{R}^n$ is identified with the basepoint on the boundary of $D^n$ and then take $\eta$ to be given by $\eta(\vec v,t) \coloneqq \kappa(t \vec v)$).
+
+Here the [[pasting]] of the top two squares is equivalent to the following commuting square
+
+$$
+  \array{
+    S^{n-1} &\longrightarrow& &\overset{\alpha}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{(id,1)}}\downarrow && && \downarrow^{\mathrlap{f}}
+    \\
+    S^{n-1} \times I 
+      &\overset{(\iota_n, id)}{\longrightarrow}& 
+    D^n \times I 
+      &\overset{\eta}{\longrightarrow}& 
+    Y
+  }
+  \,.
+$$
+
+Now because $f$ is a [[Serre fibration]], this has a [[lift]] $\tilde \eta$. (Explicitly: consider the restriction of the horizontal maps to the upper and lower hemisphere of $S^{n-1}$, respectively. Both these restricted diagrams have a lift by the immediate definition of Serre fibration, and both lifts glue along the equator and hence give a lift in the above diagram).
+
+That lift $\tilde \eta$ combined with the previous diagram gives the following commuting diagram
+
+$$
+  \array{
+    \alpha \colon & S^{n-1} &\overset{(id,0)}{\longrightarrow}& S^{n-1}\times I &\overset{\tilde \eta}{\longrightarrow}& X
+    \\
+    & \downarrow^{\iota_n} && \downarrow^{\mathrlap{(\iota_n,id)}} && \downarrow^{\mathrlap{f}}
+    \\
+    & D^n &\overset{(id,0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
+    \\
+    & \downarrow && &&  \downarrow
+    \\
+    & \ast && \overset{x}{\longrightarrow} && Y
+  }
+  \,.
+$$
+
+From this, the [[universal property]] of [[fibers]] gives that $\alpha$ factors through $F_x\overset{\iota_x}{\hookrightarrow} X$, hence that $[\alpha]$ is in the image of $\iota_\ast$.
+
+
+=--
+
 ## Background from model category theory
 
 This section recalls some standard arguments in [[model category]] theory.
