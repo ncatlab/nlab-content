@@ -9910,14 +9910,16 @@ $$
     \ast &\longrightarrow& \ast
   }
   \right)
+  \;\;\;\;\;
   \stackrel{\underset{\longleftarrow}{\holim}}{\mapsto}
+  \;\;\;\;\;
   \left(
-    \Omega X \stackrel{\Omega f}{\longrightarrow} \Omega X
+    \Omega X \stackrel{\Omega f}{\longrightarrow} \Omega Y
   \right)
   \,.
 $$
 
-But with this and the fixed convention, then the bottom left square shows that $\Omega B$ here is identified not as the homotopy fiber of $hofib(f) \to X$ but as the loop reversal of that. Conversely, as we enforce the convention to take homotopy fibers with fixed orientation, as we do in the statement to be proven, then an extra loop reversal appears in the above pasting diagram.
+But with this and the fixed convention, then the bottom left square shows that $\Omega Y$ here is identified not as the homotopy fiber of $hofib(f) \to X$ but as the loop reversal of that. Conversely, as we enforce the convention to take homotopy fibers with fixed orientation, as we do in the statement to be proven, then an extra loop reversal appears in the above pasting diagram.
 
 =--
 
