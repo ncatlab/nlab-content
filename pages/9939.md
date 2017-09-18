@@ -32,9 +32,9 @@ $$
   X \longrightarrow L_E X
 $$
 
-to the _$E$-[[local spectrum]]_ $L_E X$, with the property that for $Y$ any $E$-acyclic spectrum in that $Y \wedge E \simeq 0$, every morphism $Y \longrightarrow L_E X$ is null-homotopic (a [[zero morphism]] in the [[stable (∞,1)-category of spectra]]). (see for instance [Lurie 10, Example 4](#LurieLecture))
+to the _$E$-[[local spectrum]]_ $L_E X$, with the property that for $Y$ any $E$-acyclic spectrum in that $Y \wedge E \simeq 0$, every morphism $Y \longrightarrow L_E X$ is null-homotopic (a [[zero morphism]] in the [[stable (∞,1)-category of spectra]]). (see for instance [Lurie 10, Example 4](#Lurie10))
 
-For $E = M \mathbb{Z}_p$ the [[Moore spectrum]] of the [[cyclic group]] $\mathbb{Z}_p \coloneqq \mathbb{Z}/p\mathbb{Z}$ for some [[prime number]] $p$, this $E$-localization is _[[p-completion]]_. (see for instance [Lurie 10, Examples 7 and 8](#LurieLecture))
+For $E = M \mathbb{Z}_p$ the [[Moore spectrum]] of the [[cyclic group]] $\mathbb{Z}_p \coloneqq \mathbb{Z}/p\mathbb{Z}$ for some [[prime number]] $p$, this $E$-localization is _[[p-completion]]_. (see for instance [Lurie 10, Examples 7 and 8](#Lurie10))
 
 ## Definition
 
@@ -54,7 +54,7 @@ Say that a morphism $f \colon X \to Y$ is an **$E$-equivalence** if it becomes a
 
 =--
 
-(e.g. [Lurie, Lecture 20, example 4](#LurieLecture))
+(e.g. [Lurie, Lecture 20, example 4](#Lurie10))
 
 +-- {: .num_prop #LocalizationCofiber}
 ###### Proposition
@@ -78,7 +78,7 @@ according to def. \ref{AcyclicAndLocal}.
 
 =--
 
-(e.g. [Lurie, Lecture 20, example 4](#LurieLecture))
+(e.g. [Lurie, Lecture 20, example 4](#Lurie10))
 
 +-- {: .num_remark #Acyclification}
 ###### Remark
@@ -200,7 +200,10 @@ $$
 
 =--
 
-([Bousfield 79](#Bousfield79)).
+([Bousfield 79](#Bousfield79)) see also for instance ([Bauer 11, p.2](#Bauer11))
+
+For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
+
 
 
 ### Fracture theorem
@@ -219,7 +222,7 @@ For $E$ an [[E-∞ ring]], every [[∞-module]] $X$ over $E$ is $E$-local, def. 
 
 =--
 
-(e.g. [Lurie, Lecture 20, example 5](#LurieLecture))
+(e.g. [Lurie, Lecture 20, example 5](#Lurie10))
 
 +-- {: .num_example}
 ###### Example
@@ -388,7 +391,7 @@ The $E$-localization of a spectrum in this case is  _[[p-completion]]_.
 
 =--
 
-(e.g. [Lurie, Lecture 20, example 8](#LurieLecture))
+(e.g. [Lurie, Lecture 20, example 8](#Lurie10))
 
 More generally
 
@@ -439,7 +442,7 @@ Lecture notes include
 
 Discussion the general context of [[higher algebra]]/[[stable homotopy theory]] includes
 
-* {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
