@@ -28,7 +28,7 @@ $$
 \mathcal{A}\overset{\hookleftarrow}{\underset{\hookleftarrow}{\to}} \mathcal{B}\overset{\hookleftarrow}{\underset{\hookleftarrow}{\to}}\mathcal{C}\overset{\hookleftarrow}{\underset{\hookleftarrow}{\to}} 1
 $$
 
-Here every column of arrows, numbered descendingly $2, 1, 0$ from left to right describes an essential localization $j_n\dashv f_n\dashv i_n$ with $j_n,i_n$ fully faithful. These yield a pair of idempotent [[adjoint modality|adjoint modalities]] whose functor parts are $j_n f_n\dashv i_n f_n$. Importantly, all these idempotents split e.g. $f_n i_n=1$, since this composition corresponds to the inclusion of a subcategory followed by a projection back to the subcategory. 
+Here every column of arrows, numbered descendingly $2, 1, 0$ from left to right describes an essential localization $j_n\dashv f_n\dashv i_n$ with $j_n,i_n$ fully faithful. These yield a pair of idempotent [[adjoint modality|adjoint modalities]] whose functor parts are $j_n f_n\dashv i_n f_n$. Importantly, all the junctures vanish in the sense $f_n i_n=1$, since this composition corresponds to the inclusion of a subcategory followed by a projection back to the subcategory. 
 
 If we compose the functors appropriately we obtain four such adjunctions on $\mathcal{A}$ which correspond to reflective and coreflective embeddings of descending complexity of the chain of subcategories $\mathcal{A}\supset\mathcal{B}\supset\mathcal{C}\supset 1$:
 
@@ -62,9 +62,9 @@ They are supposed to provide the elements of the taco monoid $M$. So far we have
 
 3. Now we come to the cases that express the constructive-progressive nature of Hegelian dialectic: namely, when we multiply elements of opposite laterality of different complexity e.g. like $R$ and $l$. Let us concentrate on the case that the difference in complexity is just a single step. First we note, that the dialogue situation is conceived of as being asymmetrical: the right adjoint acts as proponent whereas the left adjoint opponent contradicts. So in this particular formalization, the proponent tries to assimilate the opponent's view but not vice versa: in a 'situation' $l{r}=l$ where the 'proponent' $r$ is faced with 'opposition' $l$, she might just insist $r{l}r=r{l}=r$ but she might as well try to take $l$ into account i.e. change her view $r$ to $R$, with the 'higher order refinement' $R$ now 'accepting' $l$ in the sense that $R{l}=l$. This relation that $L_i$ not only factors through $L_{i+1}$ but through $R_{i+1}$, is called **resolution** of (the contradiction of) level $n$ by level $n+1$  (For further details see at [[Aufhebung]]). It gives us the equations ${r}0=0$ , $R{l}=l$, and (trivially) $id {L}=L$ for the three steps of sublations.
 
-As we've said, the situation is handled somewhat asymmetrical in that we systematically care only that we can incorporate the negative view into the positive 'right adjoint' view but not the reverse. For the reverse cases ${l}1$ and ${L}r$ we stipulate ${l}1=1$ and $q:={L}r$, the latter giving us our eighth element!
+As we've said, the situation is handled somewhat asymmetrical in that we systematically care only that we can incorporate the negative view into the positive 'right adjoint' view but not the reverse. For the reverse cases ${l}1$ and ${L}r$ we _stipulate_: 1) ${l}1=1$ (this would hold, as often occurs in the applications, that there is an additional left adjoint $\pi\dashv j_2j_1\dashv f_1f_2$ since in that case $l$ as a composition of right adjoints would preserve the limit $1$)  and 2.) $q:={L}r$ which give us our eighth element!
 
-So much for the 'philosophical motivation' behind the multiplication table that is going to follow in the next section!
+So much for the 'philosophical' motivation behind the multiplication table that is going to follow in the next section!
  
 Some might feel more comfortable with the information that, technically, the taco monoid intends to abstract the relations occuring between three essential localizations such that, starting from $0\dashv 1$, a higher localization resolves the preceding lower level in the sense that $R_{n+1} L_n= L_n$.
 
