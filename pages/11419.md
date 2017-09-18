@@ -156,6 +156,8 @@ A good general account is in
 
 * {#May} [[Peter May]], _A note on the splitting principle_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Split.pdf))
 
+* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.2 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
 Discussion in the derivation of [[Chern classes]] and [[Stiefel-Whitney classes]] includes
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
