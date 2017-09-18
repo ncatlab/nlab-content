@@ -42,7 +42,7 @@ This is rarely used any more. Another common notation for the comma category is 
 =--
 
 
-### In components
+### Via components: the objectwise definition
  {#InComponents}
 
 +-- {: .num_defn}
@@ -79,8 +79,51 @@ $$
 
 =--
 
+The definition of $(f/g)$ is now complete. But there are two functors defined on the comma category which are so frequently used that it seems appropriate to mention them in this section: these are the the evident forgetful functors defined by _truncation_ (of syntax). Explicitly:
 
-### As a fiber product
+* there is a functor $H_C\colon (f/g)\rightarrow C$ which sends each object $(c,d,\alpha)$ to $c$, and each pair $(\beta,\gamma)$ to $\beta$.
+
+* there is a functor $H_D\colon (f/g)\rightarrow D$ which sends each object $(c,d,\alpha)$ to $d$, and each pair $(\beta,\gamma)$ to $\gamma$.
+
+While these are _intuitively_ the simplest ways one can think of to obtain a functor from the comma category to the source categories of the defining cospan, there is also a _categorical_ justification for singling out $H_C$ and $H_D$: these functors are the two projection morphisms of an associated 2-categorical pullback. See the next section for more. 
+
+### Via 2-category theory: as a 2-pullback
+ {#AsA2Pullback}
+
+Equivalently, the comma category is the [[comma object]] of the cospan $C\overset{f}{\rightarrow}E\overset{g}{\leftarrow}D$. (Here, the latter two functors are conceived of as morphisms in the [[2-category]] $Cat$.)
+
+Equivalently, the comma category is an appropriate 2-categorical limit of the diagram 
+
+$$
+  \array{
+    && C
+    \\
+    && \downarrow^f
+    \\
+    D &\stackrel{g}{\to}& E
+  }
+$$
+
+In particular, the comma category is the [[universal cone]] that commutes up to a [[natural transformation]]
+
+$$
+  \array{
+    (f/g) &\overset{H_C}{\to}& C
+    \\
+    \downarrow &\swArrow& \downarrow^f
+    \\
+    D &\stackrel{g}{\to}& E
+  }
+$$
+
+(For more, in particular for the notion of 2-categorical limit which is "appropriate" here, see the discussion at [[2-limit]].) 
+
+Notably, the "truncation" functors $H_C$ and $H_D$ from the "objectwise" definition are thus recovered via a categorical construction: they are the projections from the summit of the "appropriate" 2-categorical limit. 
+
+In terms of the imagery of loop spaces objects, the comma category is the category of [[interval object|directed paths]] in $E$ which start in the image of $f$ and end in the image of $g$.
+
+
+### Via a pullback in the 1-category Cat: as a fiber product
  {#AsAFiberProduct}
 
 Let $I = \{a \to b\}$ be the (directed) [[interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
@@ -105,35 +148,6 @@ $$
 
 Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence wth the definition of [[loop space object]] and also with [[generalized universal bundle]].
 
-### As a 2-pullback
- {#AsA2Pullback}
-
-Alternatively, the comma category is the "lax pullback" -- or rather the [[comma object]] (see the discussion at [[2-limit]]) of the pullback diagram, 
-
-$$
-  \array{
-    && C
-    \\
-    && \downarrow^f
-    \\
-    D &\stackrel{g}{\to}& E
-  }
-$$
-
-
-i.e. the [[universal cone]] that commutes up to a [[natural transformation]]
-
-$$
-  \array{
-    (f/g) &\to& C
-    \\
-    \downarrow &\swArrow& \downarrow^f
-    \\
-    D &\stackrel{g}{\to}& E
-  }
-$$
-
-In terms of the imagery of loop spaces objects, the comma category is the category of [[interval object|directed paths]] in $E$ which start in the image of $f$ and end in the image of $g$.
 
 
 ## Examples 
