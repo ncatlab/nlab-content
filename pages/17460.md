@@ -1,0 +1,23 @@
+This page contains links related to
+
+* Alessandra Capotosti,
+
+  _From String structures to Spin structures on loop spaces_
+
+  Ph.D. thesis, Rome, April 2016
+
+  (**[thesis pdf](https://www.dropbox.com/s/oe9jkafcm8d4agl/Ph.D.Thesis_2016_A.Capotosti.pdf?dl=0)**, **[talk slides](https://www.dropbox.com/s/9xu5opee2f1kltd/Presentation.pdf?dl=0)**).
+
+
+
+**Abstract**
+
+ Let $X$ be a $n$-dimensional [[nLab:smooth manifold]], with $n \geq 3$. In a series of papers culminating in _Spin structures on loop spaces that characterize string manifolds_, ${arXiv:1209.1731}$, [[nLab:Konrad Waldorf]] recently gave the first rigorous proof that a String structure on $X$ induces a Spin structure on its loop space.
+
+ Here we give a completely independent proof of this result by working with smooth higher stacks. The unfamiliar reader, to begin, may take an initial look at [[nLab:motivation for sheaves, cohomology and higher stacks]], even if part of the thesis itself presents smooth stacks and suggests how to describe some classical objects as [[nLab:bundle gerbes]] with and without [[nLab:connection]] by means of them.
+
+ Why we did use this approach in our proof? Because, rereading the question in this more general setting, the result can be obtained in a very natural and easy way. In particular, the crucial point in our proof is the existence of a natural morphism of smooth stacks 
+$$
+\mathbf{B}Spin \rightarrow {\mathbf{B}}^2({\mathbf{B}}U(1)_{conn})
+$$
+refining the first fractional [[nLab:Pontryagin class]]. Once this morphism is exhibited, we show how Waldorf's result follows from general constructions in the setting of smooth stacks.
