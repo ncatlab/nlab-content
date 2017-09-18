@@ -26,7 +26,7 @@ A **$k$-transfor** is an operation from one $n$-[[n-category|category]] $C$ to a
 * [[perturbation]]s, which are 3-transfors,
 * and so on.
 
-The word "transfor" was coined by Sjoerd Crans in [this paper](http://home.tiscali.nl/secrans/papers/lotr.html); it is a portmanteu of "functor" and "transformation."  A collection of components which forms a transfor is said to be *transforial*, as a generalization of "functorial" and "natural."
+The word "transfor" was coined by Sjoerd Crans in [this paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.506&rep=rep1&type=pdf); it is a portmanteu of "functor" and "transformation."  A collection of components which forms a transfor is said to be *transforial*, as a generalization of "functorial" and "natural."
 
 
 ## Terminology
