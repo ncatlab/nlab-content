@@ -1,6 +1,6 @@
-**Affine logic** is a [[substructural logic]] which omits the [[contraction rule]]. 
+**Affine logic** is a [[substructural logic]] which omits the [[contraction rule]] but not the [[weakening rule]].
 
-Categorically, affine logic is modeled by (symmetric) [[monoidal categories]] whose tensorial unit $I$ is terminal.
+Categorically, affine logic is modeled by (symmetric) [[monoidal categories]] whose tensorial unit $I$ is [[terminal object|terminal]], also known as [[semicartesian monoidal categories]].
 
 A more general notion of model would be given by monoidal categories equipped with a natural (in $A$) family $A\to I$ of arrows implementing "weakening" at each object. However, such an interpretation is in general badly behaved, unless we additionally require the natural transformation given by the maps $A\to I$ to be *monoidal*, and it can be shown that this additional requirement already forces the tensorial unit to be terminal (specifically, this follows from the component at $I$ being the identity).
 
