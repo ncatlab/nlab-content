@@ -178,14 +178,20 @@ $$
   \wedge^\bullet \langle \theta^1, \cdots, \theta^q\rangle
 $$
 
-is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^q$ 
-in odd degree, ,subject to the relations
+is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^q$
+in odd degree, subject to the relations
 
 $$
   \theta^i \theta^j = - \theta^j \theta^i
 $$
 
-for all $i,j \in \{1,\cdots, q\}$.
+for all $i,j \in \{1,\cdots, q\}$. In particular 
+
+$$
+  \theta_i \theta_i = 0
+$$
+
+for all $i \in \{1, \cdots, q\}$.
 
 For $p,q \in \mathbb{N}$, the [[super-Cartesian space]] $\mathbb{R}^{p|q}$ is the [[formal dual]] of the [[supercommutative superalgebra]] written $\mathcal{O}(\mathbb{R}^{p\vert q})$ or $C^\infty(\mathbb{R}^{p|q})$ whose underlying
 $\mathbb{Z}/2\mathbb{Z}$-[[graded vector space]] is
@@ -215,7 +221,14 @@ $$
   \end{aligned}
 $$
 
-where $f \cdot g$ is the ordinary pointwise product of [[smooth functions]].
+where $f \cdot g$ is the ordinary pointwise product of [[smooth functions]]:
+
+$$
+  \mathbb{R}^{p \vert q}
+    \coloneqq
+  Spec( C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet (\mathbb{R}^q)^\ast )
+  \,.
+$$
 
 Write
 
@@ -231,7 +244,7 @@ $C^\infty(\mathbb{R}^{p|q})$.
 
 
 
-We write
+Moreover, we write
 
 $$
   CartSp \hookrightarrow SuperCartSp
@@ -245,22 +258,28 @@ and to develop a geometry induced from these.
 Recall the two magic algebraic properties of [[smooth functions]] that make the above algebraic description of
 [[differential geometry]] work:
 
-1. (**[[embedding of smooth manifolds into formal duals of R-algebras]]**) The functor that assigns [[algebra of functions|algebras of]] [[smooth function]] of [[smooth manifolds]]
+1. (**[[embedding of smooth manifolds into formal duals of R-algebras]]**) 
+
+   The functor that assigns [[algebra of functions|algebras of]] [[smooth function]] to [[smooth manifolds]]
 
    $$
      C^\infty(-) \;\colon\; SmthMfd \hookrightarrow CAlg_{\mathbb{R}}^{op}
+      \hookrightarrow
+      sCAlg_{\mathbb{R}}^{op}
    $$
 
    is [[fully faithful functor|fully faithful]].
 
-1. (**[[smooth Serre-Swan theorem]]**) The functor that assigns smooth [[sections]] of smooth [[vector bundles]]
+1. (**[[smooth Serre-Swan theorem]]**) 
+
+   The functor that assigns smooth [[sections]] of smooth [[vector bundles]]
    of [[finite number|finite]] [[rank]]
 
    $$
      \Gamma_X(-) \;\colon\; SmthVectBund_{/X} \hookrightarrow C^\infty(X) Mod
    $$
 
-   is [[fully faithful functor|fully faithful]] (its [[essential image]] being the [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[algebra of functions|algebra of]] [[smooth function]]).
+   is [[fully faithful functor|fully faithful]] (its [[essential image]] being the [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[algebra of functions|algebra of]] [[smooth functions]]).
 
 There is a third such magic algebraic property of smooth functions, which plays a role now:
 
@@ -364,7 +383,7 @@ $$
   \,.
 $$
 
-(Beware that $\overset{\rightsquigarrow}{(-)}$ is the formal dual of $(-)/(-)_{odd}$ while $\overset{\rightrightarrows}{(-)}$ is the
+(Beware that $\overset{\rightsquigarrow}{(-)}$ is the formal dual of $(-)/(-)_{odd}$, while $\overset{\rightrightarrows}{(-)}$ is the
 formal dual of $(-)_{even}$. That they change position in the diagrams is because we always draw [[left adjoints]] on top of [[right adjoints]] and  the handedness of [[adjoints]] changes as we pass to [[opposite categories]].)
 
 =--
@@ -377,7 +396,7 @@ In a [[Feynman diagram]]
 
 1. a single [[fermion]] is denoted by a solid arrow "$\to$" and the functor
 $\overset{\rightrightarrows}{(-)}$ produces a space whose [[algebra of functions]] is generated over
-smooth functions by the product of two fermionic functions
+smooth functions by the product of two fermionic functions;
 
 1. a single [[boson]] is denoted by a wiggly arrow $\rightsquigarrow$ and the functor
    denoted by this symbol produces a spaces whose [[algebra of functions]] contains only the
@@ -398,7 +417,7 @@ its image under $\overset{\rightrightarrows}{(-)}$ is a bosonic space, but not a
 +-- {: .num_example #EvenPartOfDimTwoSuperpoint}
 ###### Example
 
-The [[algebra of functions]] on $\overset{\rightrightarrows}{\mathbb{R}^{0\vert 2}}$ is 
+The [[algebra of functions]] on $\overset{\rightrightarrows}{\mathbb{R}^{0\vert 2}}$ is
 
 $$
   \begin{aligned}
@@ -433,7 +452,7 @@ We will write
 
 $$
   \mathbb{D}^1 \coloneqq Spec(\mathbb{R}[\epsilon]/(\epsilon^2))
-  \in 
+  \in
   Aff(sVect_k)
   \,.
 $$
@@ -459,10 +478,13 @@ $$
   \mathcal{O}(\mathbb{D})
     \coloneqq
   \mathbb{R}\oplus V
+  \,,
 $$
 
 with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]]
-over $\mathbb{R}$. We call this the category of _[[infinitesimally thickened points]]_.
+over $\mathbb{R}$ (the [[direct sum]] on the right is that of underlying [[vector spaces]], not of algebras). 
+
+We call this the category of _[[infinitesimally thickened points]]_.
 
 In [[synthetic differential geometry]] these algebras are called **[[Weil algebra]]**, while in [[algebraic geometry]] they are known as **local [[Artin algebras]]** over $\mathbb{R}$.
 
@@ -485,7 +507,7 @@ with algebras corresponding to infinitesimally thickened points $\mathbb{D}$ as 
 
 =--
 
-This kind of construction is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_.
+This kind of construction is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_ ([[Toposes of laws of motion|Lawvere 97]]).
 
 The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCartSp}) is that they co-represent
 [[tangent vectors]] and [[jets]]:
@@ -565,11 +587,12 @@ $$
   \,.
 $$
 
-This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]].
+This means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]].
 But [[derivations of smooth functions are vector fields]] (prop. \ref{DerivationsOfSmoothFunctions}).
 
-
 =--
+
+We now explore further the relations between Cartesian spaces, formal Cartesian spaces, and super formal Cartesian spaces.
 
 +-- {: .num_prop #CartSpCoreflectiveInclusion}
 ###### Proposition
@@ -977,7 +1000,7 @@ $$
 +-- {: .num_remark #GeneralizedSpaces}
 ###### Remark
 
-The strategy is now to work in the nice category $SmoothSets$ of [[generalized smooth spaces]] (a [[topos]]), 
+The strategy is now to work in the nice category $SmoothSets$ of [[generalized smooth spaces]] (a [[topos]]),
 and find in their [[full subcategories]] of more specific types of smooth spaces having extra properties which one may need in given applications. There is a long list of such subcategories of relevance, some of these we briefly discuss now:
 
 $\{$[[Cartesian spaces]]$\}$
@@ -1018,7 +1041,7 @@ $\{$[[super formal smooth sets|super smooth sets]]$\}$ .
 ###### Proposition
 
 Write $SmoothMfd$ for the [[category]] of [[smooth manifolds]] with [[smooth functions]] between them. Then the construction
-that sends a smooth manifold $X$ to the [[smooth set]] (def. \ref{Smooth0Type}) 
+that sends a smooth manifold $X$ to the [[smooth set]] (def. \ref{Smooth0Type})
 given by the rule (via remark \ref{ASheafAsASpace})
 
 $$
@@ -1065,7 +1088,7 @@ into the category of [[diffeological spaces]]. But these in turn fully embed int
 ###### Definition
 
 A **[[diffeological space]]** $X$ is a [[smooth set]] (def. \ref{Smooth0Type}) which is [[concrete sheaf|concrete]].
-This means that there exists a [[set]] $X_s \in $ [[Set]] such that the smooth sets from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space 
+This means that there exists a [[set]] $X_s \in $ [[Set]] such that the smooth sets from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space
 to this set:
 
 $$
@@ -1432,7 +1455,7 @@ on $SuperFormalSmoothset$ that is induced via the above procedure from the
 system of adjunctions in prop. \ref{SuperSmoothSetsSystemOfAdjunctions} as follows:
 
 $$
-  \begin{array}{ccccccccc}
+  \array{
     id &\dashv& id
     \\
     \vee && \vee
@@ -1445,12 +1468,12 @@ $$
     \\
     && && \vee && \vee
     \\
-    && && &#643; &\dashv&  \flat &\dashv& \sharp
+    && && &#643; &\dashv&  \flat && \sharp
     \\
     && && && \vee && \vee
     \\
     && && && \emptyset &\dashv& \ast
-  \end{array}
+  }
 $$
 
 Sometimes it is useful to re-arrange this diagram equivalently as follows. Here we label each
@@ -1576,7 +1599,7 @@ $$
 
 =--
 
-Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]] 
+Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]]
 (regarded as a super formal smooth set via prop. \ref{SmoothSetsContainSmoothManifolds})
 then $\Im X$ is a rather exotic kind of [[generalized smooth space]]: it has the same finite smooth curves and other
 finie smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside it is necssarily constant.
@@ -2109,10 +2132,10 @@ where $y \colon \mathcal{S} \hookrightarrow Sh(\mathcal{S})$ is the [[Yoneda emb
 
 For the **proof** see at _[[closed monoidal structure on presheaves]]_.
 
-Notice how prop. \ref{SheavesHomInternal} expresses an intuitively most obvious statement: Applied to 
-geometric sheaf toposes such as $SmoothSet$ or $SuperFormalSmoothSet$ it says that a 
+Notice how prop. \ref{SheavesHomInternal} expresses an intuitively most obvious statement: Applied to
+geometric sheaf toposes such as $SmoothSet$ or $SuperFormalSmoothSet$ it says that a
 $U$-parameterized smooth family of points in a [[mapping space]] $[X,Y]$ is a smooth map of the form
-$X \times U \to Y$, hence a family of smooth functions $X \to Y$ which is smoothly parameterized by $U$. 
+$X \times U \to Y$, hence a family of smooth functions $X \to Y$ which is smoothly parameterized by $U$.
 
 The following shows formally that the concept of [[internal homs]] in the [[topos]] of [[generalized smooth spaces]]
 does generalize the traditional concept of smooth [[mapping spaces]]:
@@ -2123,7 +2146,7 @@ does generalize the traditional concept of smooth [[mapping spaces]]:
 Let $\Sigma$ be a [[compact topological space|compact]] [[smooth manifold]] and let $X$ be any [[smooth manifold]].
 Then set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an
 [[infinite-dimensional manifold|infinite dimensional]] (in general) [[Fréchet manifold]] $Maps(\Sigma,X)_{Frechet}$.
-Under the embedding $i \colon FrechetMfd \hookrightarrow SmoothSet$ of prop. \ref{SmoothSetsContainSmoothManifolds} 
+Under the embedding $i \colon FrechetMfd \hookrightarrow SmoothSet$ of prop. \ref{SmoothSetsContainSmoothManifolds}
 this coincides with  [[internal hom]] $[\Sigma,X]$ formed in $Smoothset$ according to prop. \ref{SheavesHomInternal}:
 
 $$
@@ -2145,18 +2168,18 @@ example \ref{SmoothManifoldsMappingSpace}. We now look at some examples of these
 +-- {: .num_example #CorepresentingTangentSpace}
 ###### Example
 
-Let 
+Let
 
 $$
   \mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))
     \in
   InfPoint \hookrightarrow SuperFomalSmoothSet
-$$ 
+$$
 
-be the [[formal dual]] of the [[ring of dual numbers]] (example \ref{EvenPartOfDimTwoSuperpoint}). 
+be the [[formal dual]] of the [[ring of dual numbers]] (example \ref{EvenPartOfDimTwoSuperpoint}).
 Observe that there is a unique morphism of the form $\ast \to \mathbb{D}^1$, picking the base point.
 
-Then for 
+Then for
 
 $$
   X \in SmoothMfd \hookrightarrow SuperFormalSmoothSet
@@ -2178,7 +2201,7 @@ $$
 $$
 
 =--
- 
+
 
 +-- {: .proof}
 ###### Proof
@@ -2191,10 +2214,10 @@ $$
 $$
 
 By prop. \ref{HomsOutOfFirstOrderInfinitesimalLine}, the set on the right is naturally identified with the set of
-of smoothly $\mathbb{R}^n$-parameterized families of [[tangent vectors]] in $X$. But this is the set that 
+of smoothly $\mathbb{R}^n$-parameterized families of [[tangent vectors]] in $X$. But this is the set that
 $T X$, regarded as a smooth set, assigns to $\mathbb{R}^n$.
 
-Moreover, looking at the proof of prop. \ref{HomsOutOfFirstOrderInfinitesimalLine} it is immediate that composiing 
+Moreover, looking at the proof of prop. \ref{HomsOutOfFirstOrderInfinitesimalLine} it is immediate that composiing
 a morphism
 
 $$
@@ -2207,7 +2230,7 @@ $$
   \ast \to \mathbb{D}^1 \to X
 $$
 
-at which this tangent vector is based. This shows that the vertical map in the above claim is indeed the projection from the 
+at which this tangent vector is based. This shows that the vertical map in the above claim is indeed the projection from the
 [[tangent bundle]] to the base manifold.
 
 =--
@@ -2241,7 +2264,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $\mathbb{R}^n$ be a bosonic Cartesian space. 
+Let $\mathbb{R}^n$ be a bosonic Cartesian space.
 By prop. \ref{SheavesHomInternal} the value of the smooth set $[\mathbb{R}^{0\vert 1}, X]$
 on this is
 
@@ -2276,11 +2299,11 @@ $$
     & \simeq
     Hom( \mathbb{R}^{n\vert 2}, \overset{\rightsquigarrow}{X} )
     \\
-    & \simeq 
+    & \simeq
     Hom(  \overset{\rightrightarrows}{\mathbb{R}^{n \vert 2}}, X )
     \\
     & \simeq
-    Hom(  \mathbb{R}^n \times \mathbb{D}^1 , X )    
+    Hom(  \mathbb{R}^n \times \mathbb{D}^1 , X )
     \\
     & \simeq
     Hom(\mathbb{R}^n, T X)
@@ -2288,7 +2311,7 @@ $$
   \,,
 $$
 
-where we used the adjunction $\rightrightarrows \dashv \rightsquigarrow$ from 
+where we used the adjunction $\rightrightarrows \dashv \rightsquigarrow$ from
 prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, def. \ref{ProgressionOfIdempotentEndofunctors},
 then example \ref{EvenPartOfDimTwoSuperpoint} and finally example \ref{CorepresentingTangentSpace}.
 
