@@ -237,7 +237,14 @@ Day convolution for [[(∞,1)-categories]] is discussed in
 * Saul Glasman, _Day convolution for infinity-categories_ ([arXiv:1308.4940](http://arxiv.org/abs/1308.4940))
 
 
+[[!redirects Day convolutions]]
 
 [[!redirects day convolution]]
+
+
 [[!redirects Day tensor product]]
 [[!redirects Day tensor products]]
+
+[[!redirects Day convolution product]]
+[[!redirects Day convolution products]]
+
