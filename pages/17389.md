@@ -28,7 +28,7 @@ e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90)
 
 ### CW-complexes are Hausdorff and normal
 
-+-- {: .num_prop }
++-- {: .num_prop #CWComplexesAreNormal}
 ###### Proposition
 
 Every [[CW-complex]] is a [[Hausdorff space]], in fact a [[normal topological space]].
@@ -60,108 +60,24 @@ is also normal. Sketch of proof: if $C \subseteq W$ is closed and $\phi: C \to \
 
 ### CW-complexes are paracompact
 
-+-- {: .num_lemma #CellAttachmentToParacompactHausdorffIsStillParacompactHausdorff}
-###### Lemma
-**(cell attachment to paracompact Hausdorff is still paracompact Hausdorff)**
+As a direct corollary of the above we obtain:
 
-Let $X$ be a [[paracompact Hausdorff space]] and let 
++-- {: .num_prop #CountableCWComplexesAreParacompact}
+###### Proposition
 
-$$
-  \array{
-     S^{n-1} &\overset{f}{\longrightarrow}& X
-     \\
-     \downarrow &(po)& \downarrow^{\mathrlap{i_X}}
-     \\
-     D^n &\underset{i_{D^n}}{\longrightarrow}& X \cup_f D^n
-  }
-$$
-
-be a [[cell attachment]]. Then also $X \cup_f D^n$ is paracompact.
+CW-complexes with a [[countable set]] of cells are [[paracompact topological spaces]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $\{ U_i \subset X \cup_f D^n \}_{i \in I}$ be any open cover of the attachment space. We need to produce a locally finite refinement.
+Each cell $D^{n}$ is a [[second-countable topological space]], and since [[countable unions of countable sets are countable]] it follows that a CW-complex with a countable set of cells is second-countable.
 
-
-Observe that 
-
-1 .$X \cup_f D^n$ is the union of the subsets
-
-   $$
-     (D^n \setminus S^{n-1}), (X \setminus f(S^{n-1})), f(S^{n-1})
-     \;\subset\;
-     X \cup_f D^{n}
-     \,.
-   $$
-
-1. $D^n$ is itself paracompact Hausdorff (paracompact since it is actually compact, e.g. by the [[Heine-Borel theorem]], and Hausdorff since it is a metric space),
-
-1. $S^{n-1} \subset D^n$ and $f(S^{n-1}) \subset X$ are closed subsets. The former is [[compact topological space|compact]] for instance by the [[Heine-Borel theorem]], and so this follows because [[continuous images of compact spaces are compact]] and because [[compact subspaces of Hausdorff spaces are closed]].
-
-Let now $\{ i_{D^n}^{-1}(U_i) \subset D^n \}_{i \in I}$
-and $\{i_{X}^{-1}(U_i) \subset X\}_{i \in I}$ be the restrictions of the given cover. By paracompactness of $D^n$ and of $X$, these restrictions have locally finite open refinements
-
-$$
-  \{
-    V_j \subset X
-  \}_{j \in J_X}
-  \phantom{AA}
-  \text{and}
-  \phantom{AA}
-  \{
-    W_j \subset D^n
-  \}_{j \in J_{D^n}}
-  \,.
-$$
-
-Accordingly there are induced locally finite open refinements
-
-$$
-  \{
-    V_j \setminus f(S^{n-1}) \subset X \setminus f(S^{n-1})
-  \}_{j \in J_X}
-  \phantom{AA}
-  \text{and}
-  \phantom{AA}
-  \{
-    W_j \setminus S^{n-1} \subset D^n \setminus S^{n-1}
-  \}_{j \in J_{D^n}}
-  \,.
-$$
-
-Their images under $i_{X}$ and $i_{D^n}$ in $X \cup_f D^n$ are still open, hence yield a locally finite set of subset of $X \cup_f D^n$. 
-
-Its only failure is that it does not cover $f(S^{n-1}) \subset X \cup_f D^n$. But, as before, this is a compact subset, and hence there is a finite subset $J_{f(S^{n-1})} \subset I$ such that the original $U_i$ with $i \in J_{f(S^{n-1})}$ cover this subset. Since these are finitely many, the resulting cover
-
-$$
-  \left\{
-    i_{D^n}\left( V_j \setminus S^{n-1} \right)
-    \subset X \cup_f D^n
-  \right\}_{j \in J_{D^n}}
-  \sqcup
-  \left\{
-    i_{X}
-    \left(
-      W_j \setminus f(S^{n-1})
-    \right)
-    \subset X \cup_f D^n
-  \right\}
-  \sqcup
-  \left\{
-    U_i \subset X \cup_f D^n
-  \right\}_{i \in J_{f(S^{n-1})}}
-$$
-
-is a locally finite refinement of the original cover.
+By prop. \ref{CWComplexesAreNormal} it is also normal, hence in particular [[regular topological space|regular]]. Now the statement follows from the fact that [[second-countable regular spaces are paracompact]].
 
 =--
 
-A direct corollary of lemma \ref{CellAttachmentToParacompactHausdorffIsStillParacompactHausdorff} is that _finite_ CW-complexes are paracompact Hausdorff, and similarly that finite relative CW-complexes relative to paracompact Hausdorff spaces are paracompact Hausdorff.
-
-For the non-finite case one needs a bit more...
 
 ## Related statements
 
