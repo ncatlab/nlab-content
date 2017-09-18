@@ -20,9 +20,9 @@
 A _continuum_ is in general something opposite to a [[discrete object|discrete]]. 
 There are several notions of continuum in mathematics:
 
-* often **the continuum** is taken to refer to the [[real line]]; consequently the *cardinality of the continuum* referse to the [[cardinality]] of the [[set]] of [[real numbers]]. There is a related **[[continuum hypothesis]]** in [[set theory]]. 
+* Often **the continuum** is taken to refer to the [[real line]]; consequently the *cardinality of the continuum* referse to the [[cardinality]] of the [[set]] of [[real numbers]]. There is a related **[[continuum hypothesis]]** in [[set theory]]. 
 
-* a **metric continuum** is any [[compact space|compact]] [[connected space|connected]] [[metric space]]
+* A **metric continuum** is any [[compact space|compact]] [[connected space|connected]] [[metric space]]. Often in [[general topology]], a **continuum** is taken to mean a compact [[separation axiom|Hausdorff]] connected space. 
 
 In [[physics]] one may also mean by _a continuum_ a medium which spreads the physical quantities spatially with some finite density, unlike the physics of a system of [[particles]], where an infinite ([[delta-distribution]]-like) density is attached to a discrete system of points. See at _[[geometry of physics]]_ for more on the relation of the continuum in form of the real line to physics.
 
