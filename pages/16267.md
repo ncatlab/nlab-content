@@ -23,5 +23,7 @@
 
 * [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Plato](Lectures%20on%20the%20History%20of%20Philosophy#Plato)_
 
+[[!redirects Plato's]]
+
 category: people
 
