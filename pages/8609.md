@@ -214,6 +214,8 @@ $$
 
   * [[dependent sum type]], [[dependent product type]]
 
+  * [[necessity]], [[possibility]], [[reader monad]], [[writer comonad]]
+
 ## References
 
 Standard textbook accounts include section A1.5.3 of 
