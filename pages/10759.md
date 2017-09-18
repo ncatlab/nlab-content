@@ -1444,7 +1444,6 @@ see also at _[[Bousfield localization of spectra]]_. The formulation of this in 
  {#LurieLecture}
 
 
-
 [[!redirects spectral sequence of a filtered object in a stable (∞,1)-category]]
 [[!redirects spectral sequence of a filtered object in a stable (infinity,1)-category]]
 
@@ -1453,3 +1452,6 @@ see also at _[[Bousfield localization of spectra]]_. The formulation of this in 
 
 [[!redirects Lurie spectral sequence]]
 [[!redirects Lurie spectral sequences]]
+
+[[!redirects spectral sequence of a filtered spectrum]]
+[[!redirects spectral sequence of a cofiltered spectrum]]
