@@ -12,6 +12,11 @@
 
 ## Related concepts
 
+* [[bilinear form]], [[quadratic form]], [[sesquilinear form]]
+
+* [[symplectic form]], [[Kähler form]]
+
+
 * [[hermitian matrix]]
 
 * [[Hermitian manifold]]
@@ -21,5 +26,7 @@
 ## References
 
 * [[C. T. C. Wall]], _On the axiomatic foundations of the theory of Hermitian forms_, Proc. Camb. Phil. Soc. (1970), 67, 243
+
+* Wikipedia, _[Hermitian form](https://en.wikipedia.org/wiki/Sesquilinear_form#Hermitian_form)_
 
 [[!redirects Hermitian forms]]
