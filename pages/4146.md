@@ -36,7 +36,7 @@ This is a "functional" definition, which generalizes correctly to other contexts
 The definition given above generalizes directly to squares inhabited by a 2-cell in any [[2-category]], and any suitable notion of "(pointwise) Kan extension" which may exist along morphisms in that 2-category.  This includes:
 
 * Internal [[pointwise Kan extension]]s in any [[2-category]] with finite [[2-limits]].
-* Enriched pointwise Kan extensions in a 2-category $V Cat$ of [[enriched categories]].  Note that this notion of "pointwiseness" is not the "internal" one in $V Cat$.
+* Enriched pointwise Kan extensions in a 2-category $V Cat$ of [[enriched categories]].  Note that this notion of "pointwiseness" is not the "internal" one in $V Cat$; see [here](Kan+extension#In2cat) for a counterexample.
 * Pointwise Kan extensions can also be defined in any [[Yoneda structure]], and more or less equivalently in any [[2-category equipped with proarrows]].  This specializes both to the classical case, to internal pointwise extensions in a 2-category, and to the enriched case.
 * In the world of [[(infinity,1)-categories]] we have a notion of [[homotopy exact square]], which can also be defined and characterized in the easier context of [[derivators]].  In fact, one can argue that derivators are basically designed as a context for the study of homotopy exact squares.
 
