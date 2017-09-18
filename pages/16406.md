@@ -1,7 +1,7 @@
 
 > this entry contains one chapter of _[[geometry of physics]]_. See there for background and context.
 
-> previous chapter: _[[geometry of physics -- smooth sets|smooth sets]]_
+> previous chapters: _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
 
 > next chapter: _[[geometry of physics -- G-structure and Cartan geometry]]_
 
