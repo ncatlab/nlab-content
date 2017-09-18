@@ -27,8 +27,11 @@ A _symmetric spectrum_ is given by a sequence of [[topological spaces]]/[[simpli
 ## Properties
 
 ### Smash product
+ {#SmashProduct}
 
-e.g. ([Schwede 12](#Schwede12))
+[[smash product of spectra]] modeled on symmetric spectra
+
+e.g. ([Schwede 12, I.3](#Schwede12))
 
 
 ## Related concepts
@@ -45,16 +48,17 @@ e.g. ([Schwede 12](#Schwede12))
 
 The orginal article is
 
-* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208.
+* {#HoveyShipleySmith77} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
+A comprehensive textbook account is in 
+
+* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 
 Brief reviews include
 
 * [[Alexander Kupers]], _Symmetric spectra_ ([pdf](http://ncatlab.org/nlab/files/SymmetricSpectra.pdf))
 
-A comprehensive textbook account is in 
-
-* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
 
 [[!redirects symmetric spectra]]
