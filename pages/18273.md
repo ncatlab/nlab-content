@@ -27,6 +27,8 @@ Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_
 
 =--
 
+For details see at _[[interactions of images and pre-images with unions and intersections]]_.
+
 ## Related statements
 
 * [[images preserve unions]]
