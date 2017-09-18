@@ -1367,7 +1367,7 @@ sense of [[convergence]] of [[sequences]] (prop. \ref{ConvergenceInClosedSubspac
 <img src="https://ncatlab.org/nlab/files/ClosedAndOpenSubsets.png" width="300">
 </div>
 
-Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). 
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 
 
 1. A [[subset]] $S \subset X$ is called a _[[closed subset]]_ if its [[complement]] $X \backslash S$ is an  _[[open subset]]_:
@@ -1397,7 +1397,7 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
      \underset{ {C \subset X\, \text{closed}  }   \atop {S \subset C }  }{\cap} \left( C \right)
      \,.
    $$
-   
+
 1. A subset $S \subset X$ such that $Cl(S) = X$ is called a _[[dense subset]]_ of $(X,\tau)$.
 
 =--
@@ -1832,7 +1832,7 @@ Under these identifications, the two conditions are manifestly the same.
 
 We consider yet another equivalent characterization of irreducible closed subsets,
 prop. \ref{FrameHomomorphismsToPointAreIrrClSub} below, which will be needed in the
-discussion of the [[sepatation axioms]] further [below](#SeparationAxioms).
+discussion of the [[separation axioms]] further [below](#SeparationAxioms).
 Stating this requires the following concept of "[[frame]]" [[homomorphism]],
 the natural kind of [[homomorphisms]] between [[topological spaces]] if we were to forget the
 underlying set of points of a topological space, and only remember the set $\tau_X$ with its
@@ -3565,13 +3565,13 @@ $$
 In many applications one wants to exclude at least some such exotic examples
 of topologial spaces from the discussion and instead concentrate on those examples for which
 the topology recognizes the separation of distinct points, or of more general
-disjoint subsets.
+[[disjoint subsets]].
 The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_
 which we discuss in the following.
 
 These axioms are all of the form of saying that two subsets (of certain kinds) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other.
 
-In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Historically this axiom was originally taken as part of the definition of topological spaces,
+In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be [[disjoint subsets|disjoint]] ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Historically this axiom was originally taken as part of the definition of topological spaces,
 and it is still often (but by no means always) considered by default.
 
 However, there are respectable areas of mathematics that involve topological spaces where the Hausdorff axiom fails, but
@@ -3842,9 +3842,9 @@ Let $(X,\tau)$ be [[topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 Consider the following conditions
 
-* **(T3)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$, then there exist disjoint [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
+* **(T3)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$, then there exist [[disjoint subsets|disjoint]] [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
 
-* **(T4)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset}) then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
+* **(T4)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset}) then there exist [[disjoint subsets|disjoint]] [[open neighbourhoods]] $U_{C_i} \supset C_i$.
 
 If $(X,\tau)$ satisfies $T_3$ it is said to be a _$T_3$-space_ also called a _[[regular Hausdorff topological space]]_.
 
@@ -4037,16 +4037,18 @@ Let $X$ be a [[topological space]], and let $A,B \subset X$ be disjoint [[closed
 
 * a [[continuous function]] $f \colon X \to [0,1]$
 
-to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]], that takes the value 0 on $A$ and the value 1 on $B$:
+to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]], such that
 
-$$
-  f(A) = \{0\}
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  f(B) = \{1\}
-  \,.
-$$
+* it takes the value 0 on $A$ and the value 1 on $B$:
+
+  $$
+    f(A) = \{0\}
+    \phantom{AAA}
+    \text{and}
+    \phantom{AAA}
+    f(B) = \{1\}
+    \,.
+  $$
 
 =--
 
@@ -4114,7 +4116,7 @@ $$
   }
 $$
 
-and so on, labeled by the [[dyadic rational numbers]]
+and so on, labeled by the [[dyadic rational numbers]] $\mathbb{Q}_{dy} \subset \mathbb{Q}$ within $(0,1]$
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/UrysohnConstruction.png" width="400">
@@ -4122,13 +4124,13 @@ and so on, labeled by the [[dyadic rational numbers]]
 
 
 $$
- \{ U_{r} \subset X \}_{r \in \mathbb{Q}_{dy}}
+ \{ U_{r} \subset X \}_{r \in (0,1] \cap \mathbb{Q}_{dy}}
 $$
 
-with the property that
+with the property
 
 $$
-  \underset{r \in \mathbb{Q}_{dy}}{\forall}
+  \underset{r \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
   \left(
      A \subset U_r \subset X\backslash B
   \right)
@@ -4137,16 +4139,15 @@ $$
 and
 
 $$
+  \underset{r_1,r_2 \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
   \left(
-     r_1 \lt r_2
-  \right)
-   \Rightarrow
-  \left(
-     \left(U_{r_1} \subset U_{r_2}\right)
-     \,\text{and}\,
-     \left(
-      U_1 \neq U_2
-     \right)
+    \left(
+       r_1 \lt r_2
+    \right)
+     \Rightarrow
+    \left(
+      U_{r_1} \subset Cl(U_{r_1}) \subset U_{r_2}
+    \right)
   \right)
   \,.
 $$
@@ -4173,17 +4174,31 @@ This function clearly has the property that $f(A) = \{0\}$  and $f(B) = \{1\}$. 
 To this end, first observe that
 
 $$
-  (\star)
-  \phantom{AA}
-  ( x \in Cl(U_r) )
-  \,\Leftrightarrow\,
-  \left(
-     f(x) \leq r
-  \right)
+  \array{
+    (\star)
+    &&
+    \left(
+      x \in Cl(U_r)
+    \right)
+      &\Rightarrow&
+    \left(
+       f(x) \leq r
+    \right)
+    \\
+    (\star\star)
+    &&
+    \left(
+      x \in U_r
+    \right)
+      &\Leftarrow&
+    \left(
+      f(x) \lt r
+    \right)
+  }
   \,.
 $$
 
-To see this, observe that it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implications, it is sufficient to observe the case that
+Here it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implication, it is sufficient to observe that
 
 $$
   (x \in \partial U_r) \Rightarrow (f(x) = r)
@@ -4192,44 +4207,141 @@ $$
 
 where $\partial U_r \coloneqq Cl(U_r) \backslash U_r$ is the [[boundary]] of $U_r$.
 
-This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and since $x \in U_{r'}$ it follows that $\underset{U_r \supset \{x\}}{\lim} = r$.
+This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely, in one direction, if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and by construction $U_{r'} \supset Cl(U_r)$ hence  $x \in U_{r'}$. This implies that $\underset{U_r \supset \{x\}}{\lim} = r$.
 
-Now we claim that for all $\alpha \in [0,1]$ then
 
-1. $f^{-1}((\alpha, 1])$ is open.
+{#PreimagesOfTheSubbaseOpens} Now we claim that for all $\alpha \in [0,1]$ then
 
-1. $f^{-1}([0,\alpha))$ is open;
+1. $f^{-1}(\,(\alpha, 1]\,) = \underset{r \gt \alpha}{\cup} \left( X \backslash Cl(U_r) \right)$
 
-Regarding the first point: By $(\star)$ we have
+1. $f^{-1}(\,[0,\alpha)\,) = \underset{r \lt \alpha}{\cup} U_r$
+
+Thereby $f^{-1}(\,(\alpha, 1]\,)$ and $f^{-1}(\,[0,\alpha)\,)$ are exhibited as unions of open subsets, and hence they are open.
+
+
+Regarding the first point:
 
 $$
-  f^{-1}( (\alpha,1] )
-    =
-  \underset{r \leq \alpha}{\cup} X \backslash Cl(U_r)
+  \begin{aligned}
+     & x \in f^{-1}( \,(\alpha,1]\, )
+     \\
+     \Leftrightarrow\,
+     &
+     f(x) \gt \alpha
+     \\
+     \Leftrightarrow\,
+     &
+     \underset{r \gt \alpha}{\exists} (f(x) \gt r)
+     \\
+     \overset{(\star)}{\Rightarrow}\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left( x \notin Cl(U_r) \right)
+     \\
+     \Leftrightarrow\,
+     &
+     x  \in \underset{r \gt \alpha}{\cup} \left(X \backslash Cl(U_r)\right)
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+     & x  \in \underset{r \gt \alpha}{\cup} \left(X \backslash Cl(U_r)\right)
+     \\
+     \Leftrightarrow\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left( x \notin Cl(U_r) \right)
+     \\
+     \Rightarrow\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left( x \notin U_r \right)
+     \\
+     \overset{(\star \star)}{\Rightarrow}\,
+     &
+     \underset{r \gt \alpha}{\exists}
+     \left(
+       f(x) \geq r
+     \right)
+     \\
+     \Leftrightarrow\,
+     &
+     f(x) \gt \alpha
+     \\
+     \Leftrightarrow\,
+     &
+     x \in f^{-1}(\, (\alpha,1] \,)
+  \end{aligned}
   \,.
 $$
 
-Since the closures $Cl(U_r)$ are closed, the complements $X \backslash Cl(U_r)$ are open, and hence this is a union of open subsets, hence open.
 
 
-Regarding the second point: By $(\star)$ we have
 
-$$
-  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} Cl(U_r)
-  \,.
-$$
-
-To see why this is open, observe that if $r \lt \alpha$ then, again because the [[dyadic numbers]] within $0$ and $1$ are [[dense subset|dense]] in $[0,1]$, there exists $r'$ with $r \lt r' \lt \alpha$, and hence by construction of the $U_r$ we then have $Cl(U_r) \subset U_{r'} \subset Cl(U_{r'})$. This means that in the above union we may omit the closures, to obtain
+Regarding the second point:
 
 $$
-  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} U_r
-  \,.
+  \begin{aligned}
+    &
+    x \in f^{-1}(\, [0,\alpha) \,)
+    \\
+    \Leftrightarrow\,
+    &
+    f(x) \lt \alpha
+    \\
+    \Leftrightarrow\,
+    &
+    \underset{r \lt \alpha}{\exists}( f(x) \lt r )
+    \\
+    \overset{(\star \star)}{\Rightarrow}\,
+    &
+    \underset{r \lt \alpha}{\exists }( x \in U_r )
+    \\
+    \Leftrightarrow\,
+     &
+    x \in \underset{r \lt \alpha}{\cup} U_r
+  \end{aligned}
 $$
 
-This now is open because unions of open subsets are open.
+and
+
+$$
+  \begin{aligned}
+     &
+    x \in \underset{r \lt \alpha}{\cup} U_r
+    \\
+    \Leftrightarrow\,
+    &
+    \underset{r \lt \alpha}{\exists }( x \in U_r )
+    \\
+    \overset{}{\Rightarrow}\,
+    &
+    \underset{r \lt \alpha}{\exists }( x \in Cl(U_r) )
+    \\
+    \overset{(\star)}{\Rightarrow}\,
+     &
+    \underset{r \lt \alpha}{\exists }( f(x) \leq r )
+    \\
+    \Leftrightarrow\,
+     &
+    f(x) \lt \alpha
+    \\
+    \Leftrightarrow\,
+    &
+    x \in f^{-1}(\, [0,\alpha) \,)
+  \end{aligned}
+ \,.
+$$
+
+(In these derivations we repeatedly use that $(0,1] \cap \mathbb{Q}_{dy}$ is dense in $[0,1]$, and we use the [[contrapositions]] of $(\star)$ and $(\star \star)$.)
+
 
 Now since the subsets $\{ [0,\alpha), (\alpha,1]\}_{\alpha \in [0,1]}$
 form a [[topological subbase|sub-base]] for the Euclidean metric topology on $[0,1]$, it follows that all pre-images of $f$ are open, hence that $f$ is continuous.
+
 
 
 =--
@@ -4254,7 +4366,7 @@ In the other direction, assume the existence of [[Urysohn functions]] (def. \ref
 separating all disjoint closed subsets. Let $A, B \subset X$ be disjoint closed subsets, then we need
 to show that these have disjoint open neighbourhoods.
 
-But for $f \colon X \to [0,1]$ by an Urysohn function with $f(A) = \{0\}$ and $f(B) = \{1\}$ then the [[pre-images]]
+But let $f \colon X \to [0,1]$ be an Urysohn function with $f(A) = \{0\}$ and $f(B) = \{1\}$ then the [[pre-images]]
 
 $$
   U_A \coloneqq f^{-1}([0,1/3)
