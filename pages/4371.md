@@ -156,6 +156,15 @@ $$
 and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] holds.
 
 
+## Related entries 
+
+* [[Heyting algebra]] 
+
+* [[Boolean algebra]] 
+
+* [[double negation translation]] 
+
+
 ## References
 
 In [[topos theory]]:
