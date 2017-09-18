@@ -189,7 +189,7 @@ This is [[Higher Topos Theory|HTT, prop. 6.2.1.5]].
 +-- {: .un_corollary }
 ###### Corollary
 
-Every topological localization of $C$ is necessarily accessible and exact.
+Every topological localization of $C$ is necessarily [[accessible (∞,1)-category|accessible]] and exact.
 
 =--
 
