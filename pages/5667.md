@@ -138,7 +138,7 @@ $$
 ###### Definition
 
 For $A, B \in $ [[C*Alg]], **Kasparov $(A,B)$-bimodule**
-is a $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}, \langle -,-\rangle$, def. \ref{HilbertBimodule}, equipped with an adjointable odd-graded [[bounded operator]] $F \in \mathcal{B}_A(\mathcal{H})$ such that 
+is a $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}, \langle -,-\rangle$, def. \ref{HilbertBimodule}, equipped with an adjointable odd-graded [[bounded operator]] $F \in \mathcal{B}_B(\mathcal{H})$ such that 
 
 1. $(F^2 - 1)\pi(a) \in \mathcal{K}_B(\mathcal{H})$ 
 
