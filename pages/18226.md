@@ -1,0 +1,22 @@
+
+
+
+## References
+
+The original article is
+
+* [[Armand Borel]], [[John Moore]], _Homology theory for locally compact spaces_,     Michigan Math. J. Volume 7, Issue 2 (1960), 137-159. ([Euclid](http://projecteuclid.org/euclid.mmj/1028998385), [pdf](http://projecteuclid.org/download/pdf_1/euclid.mmj/1028998385))
+
+A textbook account is in
+
+* [[Glen Bredon]], _Borel-Moore Homology_, chapter in _Sheaf Theory_, Volume 170 of the series Graduate Texts in Mathematics pp 279-416
+
+See also
+
+* Wikipedia, _[Borel-Moore homology](https://en.wikipedia.org/wiki/Borel%E2%80%93Moore_homology)_
+
+* Joel Lemay, _Borel-Moore Homology_, 2012 ([pdf](http://mysite.science.uottawa.ca/jlema072/Borel-Moore.pdf))
+
+* Martin Olsson, _Borel-Moore homology, Riemann-Roch transformations, and local terms_ ([pdf](https://math.berkeley.edu/~molsson/EtandRR.pdf))
+
+
