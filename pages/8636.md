@@ -21,3 +21,5 @@ They appear to have been introduced by M. Johnson in [Chapter 2](#Johnson1987).
 
 * [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
 {#Power1990} 
+
+[[!redirects pasting schemes]]
