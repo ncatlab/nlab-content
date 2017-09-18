@@ -97,7 +97,7 @@ $$
   \end{aligned}
 $$
 
-This were in contradiction with the finite intersection property of $\{C_i \subset X\}_{i \in I}$, and hence we have [[proof by contradiction]].
+This would be in contradiction with the finite intersection property of $\{C_i \subset X\}_{i \in I}$, and hence we have [[proof by contradiction]].
 
 Conversely, assume that every set of closed subsets in $X$ with the finite intersection property has non-empty total intersection. We need to show that the every open cover $\{U_i \subset X\}_{i \in I}$ of $X$ has a finite subcover.
 
