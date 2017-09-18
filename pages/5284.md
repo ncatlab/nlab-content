@@ -34,11 +34,18 @@ If we work in a category of based spaces, then still the topological space $Map(
 
 If $X$ is a [[topological space]], the **free loop space** $L X$ of $X$ is defined as the [[free loop space object]] of $X$ formed in the [[(∞,1)-category]] [[Top]].
 
+### In rational homotopy theory
+
+See at _[[Sullivan model of free loop space]]_.
 
 ## Related entries and literature
 
 * [[loop space object]], [[free loop space object]],
+
+  * [[Sullivan model of free loop space]]
+
   * [[delooping]]
+
   * [[loop space]], **free loop space**, [[derived loop space]]
 
 * [[caloron correspondence]]
