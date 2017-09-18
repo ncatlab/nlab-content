@@ -63,14 +63,28 @@ $$
 \mathbb{Z}_\eta\{X\}^\dagger:=O_{FMod(\mathbb{R}\{X\}^\dagger)}.
 $$
 
-## Classical approach: the metrized spectrum of a ring category
+## Classical approach: the metrized spectrum
 
 If $(\mathcal{A},d_{\mathcal{A}})$ is a metrized ring category,
-we may define its metrized spectrum as the set $\mathcal{Dc}(\mathcal{A},d_{\mathcal{A}})$ of multiplicative metrics such that
+we may define its metrized spectrum as the set $X=\mathcal{D}(\mathcal{A},d_{\mathcal{A}})$ of multiplicative metrics such that
 $d\leq d_\mathcal{A}$. This set has a natural map to the Berkovich
 spectrum of the associated seminorm $d_\mathcal{A}(0,-)$,
-but one needs to work with it to be able to define completions
-of non-additive ring categories.
+but one needs to work with metrics instead of norms to be able to
+define completions of non-additive ring categories. One may define
+germs $\mathcal{O}_x$ at
+a point $x\in X$ as equivalence classes of pairs $(V,(f_n))$ composed
+of an open neighborhood $V$ of $x$ and a sequence of rational functions
+without poles $f_n\in \mathcal{K}(V)$ such that $y\mapsto d(f_n(y),f_m(y))$
+is bounded on $V$ for every $n,m$ and the limit of $sup_{y\in V}d(f_n(y),f_m(y))$
+is zero as $n,m$ tend to $\infty$. We then define analytic functions as maps
+$$f:U\to \coprod_{x\in U} \Hom_{\mathcal{O}_x}(M,N)$$
+($M$ and $N$ are objects of $\mathcal{A}$, seen as objects of $\mathcal{O}_x$)
+such that for every point $x\in U$, there is a neighborhood $V$ of $x$
+and a sequence of rational function $(f_n)$ such that $y\mapsto d(f_n(y),f(y))$
+is bounded on $V$ and its supremum tends to zero. The obtained sheaf $\mathcal{O}_X$ has a map from rational functions $\mathcal{K}_X$ by definition.
+
+Morphisms of analytic spaces will be those induced by morphisms of
+metrized ring categories.
 
 ## Functorial approach: derived stacks over metrized ringed categories
 
