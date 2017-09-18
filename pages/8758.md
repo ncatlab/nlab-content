@@ -15,6 +15,8 @@
 
 * [[reflexive graph|reflexive]], [[directed graph|directed]]
 
+* [[bipartite graph|bipartite]]
+
 * [[planar graph|planar]]
 
 
@@ -22,5 +24,6 @@
 
 * [[reflexive graph|reflexive]] [[directed graph]] + [[unit law|unital]] [[associative]] [[composition]] = [[category]]
 
-* [[ribbon graph]]
+* [[ribbon graph]], [[combinatorial map]], [[topological map]], [[child's drawing]]
 
+* [[vertex coloring]], [[clique]]
