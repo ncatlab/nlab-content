@@ -276,7 +276,7 @@ The first few [[homotopy groups]] of $tmf$ are ([Hopkins 02, section 4.3](#Hopki
 |-----|----|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
 | $\pi_k(tmf)$ | $\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/24\mathbb{Z}$ | 0 | 0 | $\mathbb{Z}/2\mathbb{Z}$ | 0 | $\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z}$ | $(\mathbb{Z}/2\mathbb{Z})^2$ | $\mathbb{Z}/6\mathbb{Z}$ | 0 | $\mathbb{Z}$ | $\mathbb{Z}/3\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ | $\mathbb{Z}/2\mathbb{Z}$ |
 
-The canonical map $\mathbb{S} \to tmf$ (the unit of the [[E-∞ ring]] structure) induces in degree $\leq 6$ an isomorphism with the [[homotopy groups of spheres]]
+The canonical map $\mathbb{S} \to tmf$ (the unit of the [[E-∞ ring]] structure) induces in degree $\leq 6$ an isomorphism with the [[stable homotopy groups of spheres]].
 
 
 
@@ -335,6 +335,7 @@ and pullback of [[global sections]] of [[Goerss-Hopkins-Miller-Lurie theorem]]-w
 $$
   KO \longleftarrow \longleftarrow \mathbb{S}
 $$
+
 
 exhibiting [[KO]] $= \Gamma(\mathcal{M}_{\mathbb{G}_m}, \mathcal{O}^{top})$.
 
