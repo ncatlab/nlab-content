@@ -1,4 +1,10 @@
 
 * [webpage](http://www.math.buffalo.edu/~dimock/)
 
+## related $n$Lab pages
+
+* [[AQFT]]
+
+* [[wave front set]]
+
 category: people
