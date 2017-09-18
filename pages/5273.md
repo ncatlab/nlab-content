@@ -45,6 +45,8 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 * [[Velo-Zwanziger problem]]
 
+* [[symplectic spinor]]
+
 * [[twistor]]
 
 [[!include standard model of fundamental physics - table]]
