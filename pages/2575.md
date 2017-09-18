@@ -383,9 +383,33 @@ has the property that postcomposition with $\exp(2 \pi i \int_{S^1}[S^1, \mathbf
 #### Path integral quantization
  {#PerturbativePathIntegralQuantization}
 
-[Witten (1989), section 2](#Witten) indicates the [[perturbation theory|perturbative]] [[path integral quantization]] of Chern-Simons theory and finds that the result is essentially the exponentiated [[eta invariant]] ([hence](eta+invariant#OnOddDimensionalManifolds) the [[Selberg zeta function]]) times the contributions of the CS [[action functional]] on classical trajectories ([Witten 89 (2.17) (2.23)](#Witten)).
+[Witten (1989), section 2](#Witten) indicates the [[perturbation theory|perturbative]] [[path integral quantization]] of Chern-Simons theory and finds that the result after [[gauge fixing]] by a choice of [[Riemannian metric]] $g$ is the sum over equivalence classes of classical solutions, i.e. of [[flat connections]]/[[local systems]] $\nabla_{fl}$,  of the product of 
+
+1. the exponentiated Chern-Simons action functional $\exp(i k \, S_{CS}(\nabla))$ of the classical solution;
+
+1. the [[analytic torsion]] $T(g,\nabla_{fl})$;
+
+1. the exponentiated [[eta invariant]] $\exp(\pi i\, \eta(\nabla_{fl}))$ ([hence](eta+invariant#OnOddDimensionalManifolds) the [[Selberg zeta function]] twisted by the given [[local system]] $\nabla_{fl}$).
+
+$$
+  \underset{}{\int} \exp(i k \, S_{CS}(\nabla)) (D\nabla)
+    \;\stackrel{k \to  \infty}{\longrightarrow}\;
+  \underset{[\nabla_{fl}]}{\sum}
+  \left(
+     \exp\left(i \pi \eta\left(\nabla_{fl}\right) + i k S_{CS}\left(\nabla_{fl}\right)\right) T\left(g,\nabla_{fl}\right)
+  \right)
+  \,.
+$$
+
+([Witten 89 (2.17)](#Witten))
 
 For more on this see at _[eta invariant -- Boundaries, determinant line bundles and perturbative Chern-Simons](eta+invariant#OnManifoldsWithBoundary)_.
+
+
+Now this expression is not independent of the chosen metric $g$. But it becomes indepdendent of it after adding the $SO$-Chern-Simons term of the [[Levi-Civita connection]] of the metric ([Witten 89 (2.23)](#Witten)) (and is then well-defined after choosing an [[Atiyah 2-framing]]).
+
+Notice that here $i k$ is $\tfrac{i}{\hbar}$,so that the [[limit of a sequence|limit]] $k \to \infty$ is the [[semiclassical limit]], i.e. this is perturbation theory in [[Planck's constant]] $\hbar$, as also considered in perturbative [[deformation quantization]].
+
 
 #### BV deformation quantization
  {#PerurbativeBVDeformationQuantization}
@@ -697,6 +721,7 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
   * [[1d Chern-Simons theory]]
 
   * [[3d Chern-Simons theory]]
+
 
   * [[5d Chern-Simons theory]]
 
