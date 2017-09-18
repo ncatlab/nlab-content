@@ -13,6 +13,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Embeddings of smooth manifolds are submanifold inclusions.
+
 
 ## Definition
 
@@ -20,7 +24,7 @@
 ###### Definition
 **(embedding of smooth manifolds)**
 
-An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarrow Y$ between [[smooth manifolds]] $X$ and $Y$ such that
+An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hookrightarrow Y$ between [[smooth manifolds]] $X$ and $Y$ such that
 
 1. $f$ is an [[immersion of smooth manifolds|immersion]];
 
@@ -78,12 +82,101 @@ Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smoot
 ### Embedding into Euclidean space
  {#EmbeddingIntoEuclideanSpace}
 
-It is easy to see that:
++-- {: .num_example #CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
+###### Proposition
+
+For every [[compact topological space|compact]] [[smooth manifold]] $X$ (of [[finite number|finite]] [[dimension]]), there exists some $k \in \mathbb{N}$ such that $X$ has an embedding (def. \ref{SmoothManifoldsEmbedding}) into the [[Euclidean space]] of dimension $k$:
+
+$$
+  X \overset{\text{embd}}{\hookrightarrow} \mathbb{R}^k
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X\}_{i \in I}
+$$ 
+
+be an [[atlas]] exhibiting the [[smooth structure]] of $X$. In particular this is an [[open cover]], and hence by compactness there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that 
+
+$$
+  \{\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X\}_{i \in J \subset I}
+$$ 
+
+is still an open cover. 
+
+Since $X$ is a [[smooth manifold]], there exists a [[partition of unity]] $\{f_i \in C^\infty(X,\mathbb{R})\}_{i \in J }$ subordinate to this cover with _[[smooth functions]]_ $f_i$ (by [this prop.](partition+of+unity#SmoothManifoldAdmitsSmoothPartitionsOfUnity)).
+
+This we may use to extend the inverse [[chart]] identifications
+
+$$
+  X \supset \;\; U_i \underoverset{\simeq}{\psi_i}{\longrightarrow} \mathbb{R}^n
+$$
+
+to smooth functions
+
+$$
+  \hat \psi_i \;\colon\; X \to \mathbb{R}^{n}
+$$
+
+by setting
+
+$$
+  \hat \phi_i
+  \;\colon\;
+   x
+  \mapsto
+  \left\{
+    \array{
+       f_i(x) \cdot \psi_i(x) &\vert& x \in U_i \subset X
+       \\
+       0 &\vert& \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+The idea now is to combine all these functions to obtain an injective function
+
+$$
+  (\hat \psi_i)_{i \in J}
+  \;\colon\;
+  X \longrightarrow (\mathbb{R}^n)^{\vert J\vert }
+  \simeq
+  \mathbb{R}^{n \cdot {\vert J \vert }}
+  \,.
+$$
+
+But while this is injective, it need not be an [[immersion]], since the [[derivatives]] of the product functions $f_i \cdot \psi_i$ may vanish, even though the derivatives of the two factors do not vanish separately. However this is readily fixed by adding yet more ambient coordinates and considering the function
+
+$$
+  (\hat \psi_i, f_i)_{i \in I}
+  \;\colon\;
+  X
+    \longrightarrow
+  \left(\mathbb{R}^{n+1})\right)^{\vert J \vert}
+  \simeq
+  \mathbb{R}^{(n+1)\cdot {\vert J \vert}}
+  \,.
+$$
+
+This is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]]. 
+
+By [this prop](embedding+of+topological+spaces#OpenClosedContinuousInjectionsAreEmbeddings) it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since $Y$ is a [[Hausdorff topological space]] by definition of manifolds, and since [[maps from compact spaces to Hausdorff spaces are closed and proper]].
+
+=--
+
+
 
 +-- {: .num_prop #ManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
 ###### Proposition
 
-For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), there there exists some $k \in \mathbb{N}$ such that $X$ has an embedding into the [[Euclidean space]] of dimension $k$.
+For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), there exists some $k \in \mathbb{N}$ such that $X$ has an embedding into the [[Euclidean space]] of dimension $k$.
 
 =--
 
@@ -93,7 +186,7 @@ What is harder to prove is that $k$ may be chosen to be as small as $2n$
 ###### Proposition
 **([[Whitney's strong embedding theorem]])**
 
-For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), has an embedding into the [[Euclidean space]] of dimension $2n$.
+For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), there is an embedding into the [[Euclidean space]] of dimension $2n$.
 
 In fact this bound is minimal, there are smooth manifolds of dimension $n$ which have no embdding into $\mathbb{R}^k$ for $k \lt 2n$.
 
@@ -114,7 +207,9 @@ The contraction depends on certain properties of $\mathbb{R} ^{(\infty )}$ which
 
 +-- {: .num_theorem #theorema .thplain }
 ###### Theorem ######
-Let $M$ be a [[smooth manifold]]. Let $V$ be an infinite dimensional locally convex topological vector space. Then there is an embedding $M \to V$.
+
+Let $M$ be a [[smooth manifold]]. Let $V$ be an infinite dimensional [[locally convex topological vector space]]. Then there is an embedding (def. \ref{SmoothManifoldsEmbedding}) $M \hookrightarrow  V$.
+
 =--
 
 +-- {: .proof }
@@ -221,8 +316,9 @@ Now we pick some embedding $\psi _{0} \colon M \to V$ which, by applying $S^{-}$
 
 ## References
 
+Lecture notes include
 
-* Paul Rapoport, _Introduction to Immersion, Embeddingand the Whitney Embedding Theorem_, 2015 ([pdf](http://schapos.people.uic.edu/MATH549_Fall2015_files/Survey%20Paul.pdf))
+* Paul Rapoport, _Introduction to Immersion, Embedding and the Whitney Embedding Theorem_, 2015 ([pdf](http://schapos.people.uic.edu/MATH549_Fall2015_files/Survey%20Paul.pdf))
 
 * Emery Thomas, _Embedding manifolds in Euclidean space_, Osaka Journal Mathematics 13 (1976) ([pdf](http://ir.library.osaka-u.ac.jp/metadb/up/LIBOJMK01/ojm13_01_12.pdf))
 
