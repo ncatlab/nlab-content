@@ -17,7 +17,7 @@ The basic combinators can be defined in terms of $\lambda$-calculus is
 * $K = \lambda x. \lambda y. x$
 * $I = \lambda x. x$
 
-In [[simply typed lambda-calculus]], these combinators are [[polymorphic function|polymorphic]] with types
+In [[simply typed lambda-calculus]], these combinators are [[polymorphic]] with types
 
 * $S : (A \to (B\to C)) \to (A\to B) \to (A\to C)$
 * $K : A\to (B\to A)$
