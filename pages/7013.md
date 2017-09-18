@@ -85,7 +85,7 @@ This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which shou
 
 =--
 
-It seems that [[Chris Kapulkin]] is close to establishing an actual [[equivalence]], in a suitable sense, between homotopy type theories (without possibly univalence) and presentable locally Cartesian closed $(\infty,1)$-Categories, in higher analogy of the [[relation between type theory and category theory ]] (see there for more).
+It seems that [[Chris Kapulkin]] is close to establishing the converse ([Kapulkin 14](#Kapulkin14)), producing locally cartesian closed $(\infty,1)$-categories from homotopy type theories (without possibly univalence), in higher analogy of the [[relation between type theory and category theory ]] (see there for more).
 
 The [[internal logic]] of (presentable) locally cartesian closed $(\infty,1)$-categories was explicitly conjectured in ([Joyal 2011](#Joyal11)) to be a sort of [[homotopy type theory]] (specifically, that with intensional [[identity types]] and [[dependent products]]). 
 
@@ -123,6 +123,10 @@ which gives a detailed account of the categorical semantics of homotopy type the
 
 For more on this see also the relevant sections at _[[relation between type theory and category theory]]_.
 
+Discussion going the other way around, obtaining locally Cartesian closed $\infty$-categories as [[syntactic categories]] of [[homotopy type theory|homotopy type theories]] is in 
+
+* {#Kapulkin14} [[Chris Kapulkin]], _Type theory and locally cartesian closed quasicategories_, Oxford 2014 ([video](https://www.youtube.com/watch?v=g87bZJ2bvYk))
+
 A discussion of object classifiers, univalent families, and model category presentations is the context of $\infty$-categories (and hence in categorical semantics for what should be homotopy type theory with univalent universes "weakly a la Tarski") appeared also in
 
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], "Univalence in locally cartesian closed ∞-categories", [arXiv](http://arxiv.org/abs/1208.1749)
@@ -140,5 +144,3 @@ A discussion of object classifiers, univalent families, and model category prese
 
 [[!redirects locally Cartesian closed infinity,1-category]]
 [[!redirects locally Cartesian closed infinity,1-categories]]
-
-
