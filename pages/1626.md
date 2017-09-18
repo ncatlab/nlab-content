@@ -78,12 +78,21 @@ Write $(U_1, \tau_{1})$ and $(U_2, \tau_2)$ for the corresponding [[topological 
 
 $$
   X \simeq (U_1, \tau_1) \sqcup (U_2, \tau_2)
-  \,.
 $$ 
+
+because by assumption every open subset $U \subset X$ is the disjoint union of open subsets of $U_1$ and $U_2$, respectively:
+
+$$
+  U = U \cap X = U \cap (U_1 \sqcup U_2) = (U \cap U_1) \sqcup (U \cap U_2)
+  \,,
+$$
+
+which is the definition of the disjoint union topology.
+
 
 Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
 
-Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1 \sqcup (X_2,\tau_29$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
+Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. So by asumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
 
 Now regarding the equivalence to the third statement:
 
@@ -129,7 +138,7 @@ Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \
 
 For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
 are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
-regards to points as equivalent if they both sit in some [[open subset]]
+regards two points as equivalent if they both sit in some [[open subset]]
 which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
 
 $$
