@@ -88,6 +88,8 @@ and continues:
 
 ## Related entries
 
+* [[wave function collapse]], [[propositions as projections]]
+
 * [[quantum logic]]
 
 * [[philosophy of physics]]
@@ -142,7 +144,7 @@ See also
 
 * [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]_
 
-The approach to wave function collapse via macroscopic decoherence is reviewed in
+The approach to [[wave function collapse]] via macroscopic decoherence is reviewed in
 
 * Wojciech H. Zurek, _Decoherence, einselection, and the quantum origins of the classical_, Rev. Mod. Phys. 75, 715--775 (2003) [quant-ph/0105127](http://arxiv.org/abs/quant-ph/0105127) [doi](http://dx.doi.org/10.1103/RevModPhys.75.715)
 
