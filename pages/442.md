@@ -179,13 +179,48 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 
 * For $k$ a [[field]], the category of _free $k$-associative algebras_ is the (syntactic category of the) theory of ordinary [[associative algebras]] over $k$.
 
-* for $G$ a fixed [[group]], then $G$-[[actions]] ([[permutation representations]]) are an example of algbras over a Lawvere theory
+* for $G$ a fixed [[group]], then $G$-[[actions]] ([[permutation representations]]) are an example of algebras over a Lawvere theory
 
 * for $R$ a fixed [[ring]], then $R$-[[modules]] are an example
 
 * for $k$ a [[field]], then [[Lie algebras]] over $k$ are an example
 
-* The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebras]] (as used in [[synthetic differential geometry]]). This is also a [[Fermat theory]].
+* The category of say [[distributive lattices]] is the category of algebras of a Lawvere theory. So is the category of [[Heyting algebras]]. 
+
+* The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebras]] (as used in [[synthetic differential geometry]]). This is also a [[Fermat theory]]. 
+
+### Some non-examples 
+
+If $T$ is any [[theory]] given by a [[signature]] consisting of finitary [[operations]] on a single [[sort]] (no [[relations]]), and all the [[axioms]] of $T$ are universally quantified [[equations]] between terms, then a model of $T$ can be described as an algebra of a Lawvere theory. 
+
+This includes most cases arising in a typical undergraduate course in modern algebra, as some of the above examples suggest. Notable exceptions are: 
+
+* The class of [[fields]] is not the class of algebras of a Lawvere theory. Neither is the class of [[integral domains]]. 
+
+This might seem obvious since multiplicative inversion in fields is not a global operation, or otherwise the cancellation law of multiplication in integral domains is not a universally quantified axiom (since we have to make an exception of $0$). But one should be careful that there isn't some sneaky alternative axiomatization for these structures which counters these objections! 
+
+For this, there are well-known criteria for a category of single-sorted structures $C$, with underlying set-functor $U: C \to Set$, to be the category of algebras of a Lawvere theory. In the first place, $U$ needs to be a [[monadic functor]]; this alone rules out fields, since $U$ in that case will create [[limits]] in $C$, but the category of fields does not even have [[products]]. Similarly for integral domains. 
+
+In the second place, $U$ should be *finitary*, meaning it should create and preserve [[filtered colimits]]. This suggests another type of non-example: 
+
+* The category $SLat$ of [[sup-lattices]] is not the category of algebras of a (finitary) Lawvere theory. 
+
+Ostensibly there is a whole class of infinitary sup-operations for sup-lattices (one for every arity = cardinal), but again there is the issue of non-existence of alternative finitary axiomatizations. But this is fairly clear by considering the following example: if $U: SLat \to Set$ created filtered colimits, then the countable copower $\mathbb{N} \cdot \mathbf{2}$ of 2-element sup-lattices (which turns out to be the power set $P(\mathbb{N})$ with its usual order) would be the colimit (union) over finite subsets $S$ of finite copowers $S \cdot \mathbf{2}$, hence a countable union of finite sup-lattices, which is clearly impossible. 
+
+In fact these criteria are necessary and sufficient: 
+
++-- {: .num_theorem} 
+###### Theorem 
+A [[concrete category]] $U: C \to Set$ is a category of algebras over a Lawvere theory iff $U$ is monadic and preserves filtered colimits. 
+=-- 
+
+Another characterization is Birkhoff's HSP theorem. In this case one is given a class of structures of a *given* set of (single-sorted) finitary operations, and one would like to know if the class is exactly one that is axiomatized by universally quantified equations. The HSP theorem gives necessary and sufficient conditions: this is so if 
+
+* (H) The class is closed under homomorphic [[images]], 
+
+* (S) The class is closed under subalgebras, 
+
+* (P) The class is closed under taking products. 
 
 ## Properties
 
@@ -381,11 +416,11 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says that a finitely generated group can be embedded in a finitely presented group precisely if it has a presentation whose defining relations are a recursively enumerable set of words. Clearly, this question can be asked for every similar algebraic theory and it has been in fact conjectured by the group theorist W. Boone that the same result holds more generally for every single-sorted algebraic theory.
 
-It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone conjecture]] should by settled by the category theory community.
+It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone conjecture]] should be settled by the category theory community.
 
 ## Related concepts
 
-* [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]], [[simplicial Lawvere theory]], [[(∞,1)-algebraic theory]]
+* [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
 
 * [[globular theory]]
 
