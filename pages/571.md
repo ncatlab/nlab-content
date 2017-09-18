@@ -34,7 +34,7 @@ $f_*(g) : A \stackrel{g}{\to} X \stackrel{f}{\to}Y $ we have $g = h$.
 
 We list the following properties without their (easy) proof. The proofs can be found spelled out (dually) at [[epimorphism]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Every [[equalizer]]
@@ -48,7 +48,7 @@ is a monomorphism.
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Monomorphisms are preserved by [[pullback]].
@@ -56,7 +56,7 @@ Monomorphisms are preserved by [[pullback]].
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Monomorphisms are preserved by [[right adjoint]] [[functors]].
