@@ -35,7 +35,7 @@ $$0\to G_\nu \stackrel{i_\nu}{\to} G_{\nu +1}\stackrel{p^\nu}{\to} G_{\nu +1}$$
 
  is [[exact sequence|exact]]. In other words, the maps of the system identify $G_\nu$ with the [[kernel]] of multiplication by $p^\nu$ in $G_{\nu +1}$.
 
-Some authors refer to the $p$-divisible group as the [[colimit]] of the system $colim G_\nu$. Note that if everything is [[affine scheme|affine]], $G_\nu=\mathrm{Spec}(A_\nu)$ and the [[limit]] $colim G_\nu = \mathrm{Spec}(\lim A_\nu)=\mathrm{Spf}(A)$.
+Some authors refer to the $p$-divisible group as the [[colimit]] of the system $colim G_\nu$. Note that if everything is [[affine scheme|affine]], $G_\nu=\mathrm{Spec}(A_\nu)$ and the [[limit]] $colim G_\nu =\mathrm{Spec}(lim A_\nu)=\mathrm{Spf}(A)$.
 =--
 
 It can be checked that a $p$-divisible group over $R$ is a $p$-torsion commutative [[formal group]] $G$ for which $p\colon G \to G$ is an [[isogeny]].
