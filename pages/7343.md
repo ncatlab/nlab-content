@@ -48,6 +48,7 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 ## Related concepts
 
+
 * [[super Yang-Mills theory]]
 
   * [[N=4 D=4 super Yang-Mills theory]]
@@ -61,6 +62,8 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
   * [[Seiberg-Witten theory]], [[electric-magnetic duality]], [[symplectic duality]]
 
   * [[AGT correspondence]]  
+
+* [[spectral network]]
 
 * [[geometric engineering of quantum field theory]]
 
