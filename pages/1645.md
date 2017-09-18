@@ -262,22 +262,21 @@ extended antifield formalism_ ([arXiv:hep-th/0011120](http://arxiv.org/abs/hep-t
 
 The fact that the anomly sits in degree-1 BRST cohomology corresponds to the consistency condition discussed in
 
-* [[Julius Wess]] and B. Zumino, _Consequences Of Anomalous Ward Identities_ , Phys. Lett. B37 (1971) 95.
+* [[Julius Wess]] and B. Zumino, _Consequences of anomalous Ward identities_ , Phys. Lett. B37 (1971) 95 <a href="http://dx.doi.org/10.1016/0370-2693(71)90582-X">doi</a>
+* R. Stora, _The Wess Zumino consistency condition: a paradigm in renormalized perturbation theory_, Fortsch. Phys. 54:175-182 (2006) [doi](http://dx.doi.org/10.1002/prop.200510266)
 
 Discussion of  special applications in 
 
 * F. De Jonghe, J. Paris and W. Troost, _The BPHZ renormalised BV master equation and Two-loop Anomalies in Chiral Gravities_ ,  Nucl. Phys. B476
-(1996) 559 ([arXiv:hep-th/9603012](http://arxiv.org/abs/hep-th/9502140))
+(1996) 559 [arXiv:hep-th/9603012](http://arxiv.org/abs/hep-th/9502140)
 
 * J. Paris, _Nonlocally regularized antibracket - antifield formalism and anomalies in chiral $W(3)$ gravity_ , Nucl. Phys. B450 (1995) 357 ([arXiv:hep-th/9502140](http://arxiv.org/abs/hep-th/9502140))
 
 * R. Amorim, N.R.F.Braga, R. Thibes, _Axial and gauge anomalies in the field antifield quantization of the generalized Schwinger model_ ([arXiv:hep-th/9712014](http://arxiv.org/abs/hep-th/9712014))
 
-Discussion in the context of [[AQFT]] with [[functional analysis]] taken into account is in section 5.3.3 of 
+Discussion in the context of [[AQFT]] with [[functional analysis]] taken into account is in 
 
-* [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in locally covariant field theory_ PhD thesis, Hamburg (2011) ([arXiv:1111.5130](http://arxiv.org/abs/1111.5130))
-
-and
+* section 5.3.3. in [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in locally covariant field theory_ PhD thesis, Hamburg (2011) ([arXiv:1111.5130](http://arxiv.org/abs/1111.5130))
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_ ([arXiv:1110.5232](http://arxiv.org/abs/1110.5232))
 
