@@ -35,7 +35,7 @@ _Graphic toposes_ were defined then as $FinSet^{\mathcal{G}^{op}}$ resulting in 
 
 ##Example{#ex}
 
-The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$, or its [[Cauchy completion]] $\overline\Delta_1$. The presheaf topos $Set^{\Delta_1^{op}}$ is the topos of [[reflexive graphs]].
+The principal example of a graphic category is $\Delta_1$ the three element monoid $\{\delta_1,\delta_2,1\}$ with $\delta_i\delta_j=\delta_i$. The presheaf topos $Set^{\Delta_1^{op}}$ is the topos of [[reflexive graphs]].
 
 To see this, recall that a _reflexive graph_ consists of a set of vertices $V$, a set of edges $E$, source and target maps $s, t : E \to V$, and a map $i : V \to E$ assigning to each vertex an 'identity edge' from that vertex to itself, so that $s(i(v)) = t(i(v)) = v$.  
 
@@ -51,6 +51,8 @@ $$ \delta_1(\delta_1(e)) = \delta_2(\delta_1(e)) = \delta_1(e) $$
 $$ \delta_1(\delta_2(e)) = \delta_2(\delta_2(e)) = \delta_2(e) $$
 
 Thus, the reflexive graph determines a functor $F : \Delta_1^{op} \to \Set$, where we think of the monoid $\Delta_1$ as a one-object category.  In other words, it gives a presheaf on $\Delta_1$.  Conversely, any presheaf on $\Delta_1$ determines a reflexive graph.
+
+The more familiar two-sorted 'signature' for reflexive graphs, obtains from the [[Cauchy completion]] $\overline\Delta_1$ by identification of the isomorphic descendents of $\delta_1,\delta_2$: the resulting $\tilde\Delta_1$ has two objects and is basically an augmentation with reflexivity data of the familiar diagram $V\rightrightarrows E$ that underlies the topos of ("irreflexive") directed graphs, or [[quiver|quivers]]. All three of $\Delta_1,\overline\Delta_1,\tilde\Delta_1$ are graphic categories and the resulting presheaf toposes are, of course, equivalent.
 
 ##Properties
 
