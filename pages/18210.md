@@ -26,7 +26,7 @@ A [[topological space]] $X$ is [[compact topological space|compact]] if and only
 In this article we will collect a number of proofs and points of view on this result, and show how it makes possible a very direct hands-on proof of the [[Tychonoff theorem]], without the need for infrastructure such as [[ultrafilters]] or [[nets]]. This type of proof may be adapted for use in undergraduate classrooms. 
 
 The "only if" half is covered in essentially every textbook and should be routine for any working mathematician, although it seems proofs often use needlessly many indices and look as though they tacitly invoke the [[axiom of choice]]. Our proof should help circumvent that impression. 
-circim
+
 +-- {: .num_prop #onlyif} 
 ###### Proposition 
 
