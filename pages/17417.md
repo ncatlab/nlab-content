@@ -40,6 +40,10 @@ Since $g*y = y$ for all $y \in X$, therefore $g = 1$ by the assumption that $G$ 
 
 * If one views a [[combinatorial map]] $M$ as the transitive action of a certain group of permutations, then $M$ represents a _regular map_ ([Siran 2006](#SiranSurvey)) just in case this action is regular.  For example, the five [[Platonic solids]] may be represented as regular combinatorial maps.
 
+##In homotopy type theory
+
+Since doing [representation theory](representation+theory#in_homotopy_type_theory) corresponds to working in the context of a [[delooped group]] in [[homotopy type theory]], the regularity of an action is naturally expressed there. Transitivity ensures that all the points in the homotopy quotient are connected by equivalences, while freeness means that the space of equivalences between two points is itself contractible. Hence if $\ast: \mathbf{B} G \vdash X(\ast): Type$ corresponds to a regular action, then the quotient $\sum_{\ast: \mathbf{B} G} X(\ast)$ is contractible.
+
 ## Related concepts
 
 * [[free action]]
