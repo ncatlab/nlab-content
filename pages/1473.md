@@ -290,10 +290,18 @@ cluster point, the claim follows.
 
 
 
-### Proofs via ultrafilter convergence 
+### Proof via ultrafilter convergence 
  {#ProofViaUltrafilters}
 
-One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha \rangle_{\alpha \in A}$ be a family of compact spaces. 
+One method of proof uses [[ultrafilter]] [[convergence]]. 
+This is sometimes called "[Bourbaki's proof](#BourbakiGeneralTopology)", following [Cartan 37](#Cartan37).
+
+#### First version
+
++-- {: .proof #UltrafilterProof}
+###### Proof
+
+Let $\langle X_\alpha \rangle_{\alpha \in A}$ be a family of compact spaces. 
 
 1. Every ultrafilter $U_\alpha$ on the underlying set of $X_\alpha$ converges to some point $x_\alpha$. (Consider the collection of all closed sets belonging to $U_\alpha$. Finite subcollections have nonempty intersection ([[finite intersection property]]), so by compactness the intersection of the collection is also nonempty ([this prop.](compact+space#fip)). Let $x_\alpha$ be a point belonging to that intersection. Every closed set disjoint from $x_\alpha$ belongs to the complement of $U_\alpha$, hence every open set containing $x_\alpha$ belongs to $U_\alpha$, i.e., $U_\alpha$ converges to $x_\alpha$.)
 
@@ -301,16 +309,22 @@ One method of proof uses [[ultrafilter]] [[convergence]]. Let $\langle X_\alpha 
 
 1. Since every ultrafilter $U$ on $\prod_\alpha X_\alpha$ converges to a point, the product is compact. (If it were not, then we could find a collection of nonempty closed sets whose intersection is empty, but closed under finite intersections. This collection generates a filter which is contained in some ultrafilter $U$, by the [[ultrafilter theorem]]. Since every ultrafilter $U$ converges to some $x$, it cannot contain any closed set in the complement of $x$, hence cannot contain some closed set in the original collection, contradiction.) 
 
+=--
+
 +-- {: .num_remark #TyCH} 
 ###### Remark 
-The [[axiom of choice]] is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for Hausdorff spaces. 
+
+The [[axiom of choice]] is used in step 2 of the proof [abov](#UltrafilterProof), to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The [[ultrafilter theorem]] is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies Tychonoff's theorem for [[Hausdorff spaces]]. 
+
 =-- 
 
-Bourbaki [General Topology, I\S10.2, Thm.1(d), p.101] gives an alternative proof using ultrafilters, which may be formulated in terms of categorical lifting/extension properties. For any set $X$ and ultrafilter $U$ on $X$, form a space $X_U$ whose underlying set is $X \sqcup \{\infty\}$ (adjoin an extra point $\infty$) and where a subset of $X \sqcup\{\infty\}$ is open iff it either does not contain $\infty$ or is of form $Z \sqcup\{\infty\}$ where $Z\in U$, i.e., is "big" according to the ultrafilter $U$. The inclusion of the set $X$ with its discrete topology into $X_U$ is a subspace inclusion. 
+#### Second version
+
+[Bourbaki](#BourbakiGeneralTopology) gives an alternative proof using ultrafilters, which may be formulated in terms of categorical lifting/extension properties. For any set $X$ and ultrafilter $U$ on $X$, form a space $X_U$ whose underlying set is $X \sqcup \{\infty\}$ (adjoin an extra point $\infty$) and where a subset of $X \sqcup\{\infty\}$ is open iff it either does not contain $\infty$ or is of form $Z \sqcup\{\infty\}$ where $Z\in U$, i.e., is "big" according to the ultrafilter $U$. The inclusion of the set $X$ with its discrete topology into $X_U$ is a subspace inclusion. 
 
 +-- {: .num_theorem} 
 ###### Theorem (Bourbaki) 
-A map $g: Y \to Z$ is [[proper map|proper]] if and only if it has the [[lifting property|right lifting property]] with respect to the inclusion $i: X \hookrightarrow X_U$ for any such pair $(X, U \in \beta(X))$ (in symbols: $X \hookrightarrow X_U \rightthreetimes g$). In other words: iff for each commutative diagram 
+A map $g: Y \to Z$ is [[proper map|proper]] if and only if it has the [[lifting property|right lifting property]] with respect to the inclusion $i: X \hookrightarrow X_U$ for any such pair $(X, U \in \beta(X))$ (in symbols: $i \rightthreetimes g$). In other words: iff for each commutative diagram 
 
 $$\array{
 X & \to & Y \\
@@ -327,31 +341,41 @@ Actually the topology on $X$ does not have to be discrete: the same result exten
 where $Z\in U$ is and $Z$ is open in $X$.
 =-- 
 
-A space $K$ is compact iff the map $K\longrightarrow \{*\}$ is proper. Thus to see that a product $\prod_{i in I} Y_i$ of compact spaces is compact, it suffices to show that for any $(X, U)$ and any $f: X \to \prod_{i \in I} Y_i$, there is a continuous extension $\tilde{f}: X_U \to \prod_{i \in I} Y_i$. But (using the axiom of choice) this is clear from the universality property of the product: choose a continuous extension $\widetilde{\pi_i f}: X_U \to Y_i$ for each $\pi_i f: X \to Y_i$, and then assemble these into an extension 
+A space $K$ is compact iff the map $K\longrightarrow \{*\}$ is proper. Thus to see that a product $\prod_{i \in I} Y_i$ of compact spaces is compact, it suffices to show that for any $(X, U)$ and any $f: X \to \prod_{i \in I} Y_i$, there is a continuous extension $\tilde{f}: X_U \to \prod_{i \in I} Y_i$. But (using the axiom of choice) this is clear from the universality property of the product: choose a continuous extension $\widetilde{\pi_i f}: X_U \to Y_i$ for each $\pi_i f: X \to Y_i$, and then assemble these into an extension 
 
 $$\tilde{f} \coloneqq \langle \widetilde{\pi_i f} \rangle_{i \in I}: X_U \to \prod_{i \in I} Y_i.$$ 
 
+
+### Proof via Taimanov theorem and lifting properties
+ {#ProofViaTaimanovTheoremAndLiftingProperties}
+
 +-- {: .num_remark #Taimanov} 
 ###### Remark
-One can avoid mentioning ultrafilters altogether, at least for Hausdorff spaces, using Taimanov theorem. 
 
-Call a map $f$ _ultrafilter-like_ iff $f$ has the left lifting property wrt each proper, equivalently closed,
-map of finite topological spaces. Taimanov theorem implies that a map $g$ of normal (T4) spaces is proper 
-iff $f \rightthreetimes g$ for each ultrafilter-like $f$.  
+One can avoid mentioning ultrafilters altogether, at least for [[Hausdorff spaces]], using the [[Taimanov theorem]]. 
+
+Call a map $f$ _ultrafilter-like_ iff $f$ has the [[left lifting property]] wrt each proper, equivalently closed,
+map of [[finite topological spaces]]. The [[Taimanov theorem]] implies that a map $g$ of normal (T4) spaces is [[proper maps|proper]] 
+iff it has the [[lifting property]] $f \rightthreetimes g$ against each ultrafilter-like $f$.  
 
 
 Using notation explained just below,  this can expressed as follows:
-Taimanov theorem says that
+The [[Taimanov theorem]] says that
 a Hausdorff space $K$ is compact iff
 $K\longrightarrow \{*\} \,\in\,  (\{\{a\}\longrightarrow \{a{\searrow}b\}\}^r_{\le 3})^{lr}$,
 or in fact  
  $$     \{\, \{a\leftrightarrow b\}\longrightarrow \{a=b\},\, \{a{\searrow}b\}\longrightarrow \{a=b\},\,
      \{b\}\longrightarrow \{a{\searrow}b\},\,\{a{\swarrow}o{\searrow}b\}\longrightarrow \{a=o=b\}\,\,\}^{lr}$$  
 For a property ${C}$ of arrows (morphisms) in a category, define
-$$ C^l := \{ {f} :\text{ for each }g \in C\text{ }{f} \,\rightthreetimes\,  {g} \} $$
-$$ C^r := \{ {g} :\text{ for each }f \in C\text{ }{f} \,\rightthreetimes\,  {g} \} $$
-$$ C^{lr}:=(C^l)^r, ... $$
-here $f \,\rightthreetimes\,  g$ reads " $f$ has the left lifting property wrt $g$ ",
+
+$$ C^l \coloneqq \left\{ {f} \colon \underset{g \in C}{\forall}\,{f} \,\rightthreetimes\,  {g} \right\} 
+$$
+
+$$ C^r \coloneqq \left\{ {g} : \underset{f \in C}{\forall}\,{f} \,\rightthreetimes\,  {g} \right\} $$
+
+$$ C^{lr} \coloneqq (C^l)^r, ... $$
+
+here $f \,\rightthreetimes\,  g$ reads " $f$ has the left [[lifting property]] wrt $g$ ",
 " $f$ is (left) orthogonal to $g$ ",
 i.e.  for  $f:A\longrightarrow B$, $g:X\longrightarrow Y$,
 $f \,\rightthreetimes\, g$ iff for each $i:A\longrightarrow X$, $j:B\longrightarrow Y$ such that $ig=fj$ ("the square commutes"),
@@ -360,8 +384,7 @@ making the diagram commute").
 
 Finally,
 $$
-  C_{\le n} := \{ {f} : {f} \in {C},\text{ both the domain and range of }f \text{ are finite of size
-                  less or equal than }n \}.
+  C_{\le n} := \{ {f} : {f} \in {C},\text{ both the domain and range of }f \text{ are finite of size less or equal than }\,n \}.
 $$
 and
 $\{a\}\longrightarrow \{a{\searrow}b\}$ denotes the inclusion of the open point $a$ into the Sierpinski space $ \{a{\searrow}b\}$.
@@ -375,9 +398,7 @@ Question. Is $((\{a\}\longrightarrow \{a{\searrow}b\})^r_{\le 4})^{lr}$
 the class of proper maps?
 =--
 
-Considerations above show it is contained in the class of proper maps and
-that it contains proper maps between normal (T4) spaces (this is what gives
-the standard proof of the Taimanov theorem).
+Considerations above show that it is contained in the class of proper maps and that it contains proper maps between normal (T4) spaces (this is what gives the standard proof of the Taimanov theorem).
 
 
 
@@ -385,7 +406,7 @@ the standard proof of the Taimanov theorem).
 
 ### Proof of converses
 
-Now we will prove that Tychonoff's theorem implies the axiom of choice, while Tychonoff's theorem for Hausdorff spaces implies the ultrafilter theorem.  This is done by judicious choice of examples.
+Now we will prove that Tychonoff's theorem implies the [[axiom of choice]], while Tychonoff's theorem for Hausdorff spaces implies the ultrafilter theorem.  This is done by judicious choice of examples.
 
 **Tychonoff's theorem implies axiom of choice**: let $\{X_\alpha\}_{\alpha \in A}$ be a family of nonempty sets. Let $Y_\alpha$ be obtained by adjoining a point $p$ to $X_\alpha$. Topologize $Y_\alpha$ by taking the nontrivial open sets to be $X_\alpha$ and $\{p\}$. Then $Y_\alpha$ is compact; assuming Tychonoff, $Y = \prod_\alpha Y_\alpha$ is compact. For each $\alpha$, put 
 
@@ -450,11 +471,17 @@ An explicit proof was then given in
 
 * [[Eduard Cech]], p. 830 of _On bicompact spaces_, Annals of Mathematics 38 (1937)
 
-The proof using ultrafilters (known as "[[Bourbaki]]'s proof") is due to 
+The proof using ultrafilters is due to 
 
 * [[Henri Cartan]], _Theorie des filtres_, Comptes Rendus de l'Acad. Sci. (Paris) 205 (1937), 595-598
 
-* [[Henri Cartan]], _Filtres et ultrafiltres_, Comptes Rendus de l'Acad. Sci. (Paris) 205 (1937), 777-779.
+and reproduced in
+
+* {#BourbakiGeneralTopology} [[Bourbaki]], _General Topology_, I\S10.2, Thm.1(d), p.101
+
+whence often known as "Bourbaki's proof".
+
+* {#Cartan37} [[Henri Cartan]], _Filtres et ultrafiltres_, Comptes Rendus de l'Acad. Sci. (Paris) 205 (1937), 777-779.
 
 and its modern version is due to 
 
@@ -464,9 +491,7 @@ The proof using convergence of nets is due to
 
 * {#Chernoff92} Paul R. Chernoff, _A Simple Proof of Tychonoff's Theorem Via Nets_,  The American Mathematical Monthly Vol. 99, No. 10 (Dec., 1992), pp. 932-934 ([jstor](http://www.jstor.org/stable/2324485))
 
-The short proof via ultrafilters follows 
 
-* {#BourbakiGeneralTopology} [[Bourbaki]], _General Topology_, I\S10.2, Thm.1(d), p.101
 
 
 See also
