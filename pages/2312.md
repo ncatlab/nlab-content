@@ -18,18 +18,25 @@
 
 A [[cohomology theory]] $E$ is called _multiplicative_ if $E^\bullet(X)$ is not just a [[graded module|graded]] [[abelian group]], but actually a graded [[ring]].
 
-This is in particular the case when the [[spectrum]] $E$ [[Brown representability theorem|representing]] the [[cohomology theory]] is an [[E-∞ ring]] spectrum.
+## Definition
 
+A _multiplicative structure_ on a [[generalized (Eilenberg-Steenrod) cohomology]] theory is the structure of a [[ring spectrum]] on the [[spectrum]] that [[Brown representability theorem|represents]] it.
+
+e.g. [Lurie 10, lecture 4](#Lurie10)
+
+In particular every [[E-∞ ring]] is a [[ring spectrum]], hence represents a multiplicative cohomology theory, but the converse is in general false.
 
 ## Examples
 
-* [[integral cohomology]]
+* [[ordinary cohomology]] with [[coefficients]] in a [[ring]], in particular [[integral cohomology]]
 
 * [[topological K-theory]], [[K-theory]]
 
+* [[cobordism cohomology theory]]
+
 * [[tmf]]
 
-* etc.
+* etc....
 
 ## Related entries
 
@@ -49,6 +56,11 @@ See also
 
 * [[K-theory of a bipermutative category]]
 
-* [[A Survey of Elliptic Cohomology - cohomology theories]]
+
+## References
+
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology - cohomology theories]]_
+
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ 2010, Lecture 4 _[[complex oriented cohomology theory|Complex-oriented cohomology theories]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
 
 [[!redirects multiplicative cohomology theories]]
