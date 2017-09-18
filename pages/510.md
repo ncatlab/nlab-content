@@ -187,6 +187,8 @@ According to ([Adams 74, p. 131](#Adams74)) the notion of spectrum is due to
 
 Early notes include
 
+* {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
+
 * {#Adams74} [[Frank Adams]], Part III, section 2 _[[Stable homotopy and generalised homology]]_, 1974
 
 See the references at _[[stable homotopy theory]]_.
