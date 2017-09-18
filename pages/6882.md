@@ -47,7 +47,11 @@ Boundary higher dimensional WZW models for nonabelian [[higher dimensional Chern
 
 * J. Gegenberg , G. Kunstatter, _Boundary Dynamics of Higher Dimensional AdS Spacetime_ ([arXiv:hep-th/9905228](http://arxiv.org/abs/hep-th/9905228))
 
-The global formulation (canelling [[classical anomalies]]) is discussed in
+Discussion of [[symmetry protected topological order]] phases of matter in [[solid state physics]] via higher WZW models is in 
+
+* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B 87, 155114 (2013) ([arXiv:1106.4772](http://arxiv.org/abs/1106.4772))
+
+The global formulation (cancelling [[classical anomalies]]) is discussed in
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] _[[schreiber:The brane bouquet]]_, International Journal of Geometric Methods in Modern Physics, Vol. 12 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
