@@ -1,0 +1,19 @@
+[[!redirects transfinite arithmetic]]
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[arithmetic]] with [[ordinals]]
+
+## Related concepts
+
+* [[well-ordering theorem]]
+
+## References
+
+See also 
+
+* Wikipedia, _[Ordinal arithmetic](https://en.wikipedia.org/wiki/Ordinal_arithmetic)_
