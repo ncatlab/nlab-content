@@ -1,9 +1,13 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-In [[topology]], the "shrinking lemma" (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}) below states that on a [[normal topological space]] the patches of every [[locally finite cover]] may be replaced by smaller patches which still cover the space, but such that their [[topological closures]] are contained in the original patches. 
+In [[topology]], the "shrinking lemma" (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} below) states that on a [[normal topological space]] the patches of every [[locally finite cover]] may be replaced by smaller patches which still cover the space, but such that their [[topological closures]] are contained in the original patches. 
 
-If there is more than a [[countable set]] of elements in the original cover, then this conclusion requires [[Zorn's lemma]], hence the [[axiom of choice]].
+If there is more than a [[countable set]] of elements in the original cover, then this conclusion requires [[excluded middle]] and [[Zorn's lemma]], hence the [[axiom of choice]].
 
 The shrinking lemma is needed in the proof that [[ paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]].
 
@@ -29,7 +33,7 @@ $$
 
 =--
 
-We prove this in  increasing generality, for for binary open covers, then for finite covers, then for countable locally finite covers, and finally for general locally finite covers.
+We now prove this in  increasing generality, for  binary open covers (lemma \ref{ShrinkingLemmaForBinaryCover} below), then for finite covers (lemma \ref{ShrinkinglemmaForFiniteCovers}), then for locally finite countable covers (lemma \ref{ShrinkingLemmaForLocallyFiniteCountableCovers}), and finally for general locally finite covers (lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}, proof [below](#PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained)). It is only the last statement that needs [[excluded middle]] and the [[axiom of choice]].
 
 +-- {: .num_lemma #ShrinkingLemmaForBinaryCover}
 ###### Lemma
@@ -171,13 +175,15 @@ with the property that
 
 1. $(i \in I \backslash J) \Rightarrow ( V_i = U_i )$.
 
+1. $\{V_i \subset X\}_{i \in I}$ is an open cover of $X$.
+
 Equip the set $S$ with a [[partial order]] by setting
 
 $$
   \left(
-    (J_1, \mathcal{V}_1)
+    (J_1, \mathcal{V})
     \leq
-    (J_2, \mathcal{V}_2)
+    (J_2, \mathcal{V})
   \right)
     \Leftrightarrow
   \left(
@@ -188,20 +194,58 @@ $$
     \left(
       \underset{i \in J_1}{\forall}
       \left(
-         ...
+         V_i = W_i
       \right)
     \right)
   \right)  
+  \,.
 $$
 
-(...)
+By definition, an element of $S$ with $J = I$ is an open cover of the required form.
+
+We claim now that a [[maximal element]] $(J, \mathcal{V})$ of $(S,\leq)$ has $J = I$.
+
+For assume on the contrary that there were $i \in I \backslash J$. Then we could apply the construction in lemma \ref{ShrinkingLemmaForBinaryCover} to replace that single $V_i$ with a smaller open subset $V'_i$ to obtain $\mathcal{V}'$ such that $Cl(V'_i) \subset V_i$ and such $\mathcal{V}'$ is still an open cover. But that would mean that $(J,\mathcal{V}) \lt (J \cup \{i\}, \mathcal{V}')$, contradicting the assumption that $(J,\mathcal{V})$ is maximal. This [[proof by contradiction|proves by contradiction]] that a maximal element of $(S,\leq)$ has $J = I$ and hence is an open cover as required.
+
+We are reduced now to showing that a maximal element of $(S,\leq)$ exists. To achieve this we invoke [[Zorn's lemma]]. Hence we have to check that every [[chain]] in $(S,\leq)$, hence every [[total order|totally ordered]] [[subset]] has an [[upper bound]].
+
+So let $T \subset S$ be a [[total order|totally ordered]] subset. Consider the union of all the index sets appearing in pairs in this subset:
+
+$$
+  K
+    \;\coloneqq\;
+  \underset{(J,\mathcal{V}) \in T  }{\cup} J
+  \,.
+$$
+
+Now define open subsets $\mathcal{W}_i$ for $i \in K$ picking any $(J,\mathcal{V})$ in $T$ with $i \in J$ and setting
+
+$$
+  W_i \coloneqq V_i \phantom{AAA} i \in K
+  \,.  
+$$
+
+This is independent of the choice of $(J,\mathcal{V})$, hence well defined, by the assumption that $(T,\leq)$ is totally ordered.
+
+Moreover, for $i \in I\backslash K$ define
+
+$$
+  W_i \coloneqq U_i  \phantom{AAA} i \in I \backslash K
+  \,.
+$$
+
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \backslash J_x) \Rightarrow (i \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$. 
+
+This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
+
+
 
 =--
 
 ## References
 
 
-* Matt, _[General shrinking lemma for normal spaces](https://matthewhr.wordpress.com/2014/06/11/general-shrinking-lemma-for-normal-spaces/)_
+* [[Matt Rosenzweig]], _[General shrinking lemma for normal spaces](https://matthewhr.wordpress.com/2014/06/11/general-shrinking-lemma-for-normal-spaces/)_
 
 The example (a [[Dowker space]]) of a normal space with a (not locally-finite) countable cover to which the shrinking lemma does not apply is given in
 
