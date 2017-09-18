@@ -1,0 +1,24 @@
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Reeb sphere theorem_ says that: 
+
+If a [[compact topological space|compact]] [[differentiable manifold]] $X$ admits a [[differentiable function]] $X \to \mathbb{R}$ with exactly two [[critical points]] which are non-degenerate, then $X$ is [[homeomorphism|homeomorphic]] to an [[n-sphere]] (with its [[Euclidean space|Euclidean]] [[metric topology]]).
+
+In fact this holds true even if the two critical points happen to be degenerate ([Milnor 64, theorem 1' on p. 166](#Milnor64))
+
+## Proof
+
+Let $x_1, x_2 \in X$ denote the two [[critical points]]. Let $\mathbb{R}^n \simeq U_{x_1} \subset X$ be a Euclidean neighbourhood of $x_1$ not containing $x_2$. Write $\nabla f \in \Gamma(T X)$ for the [[gradient]] [[vector field]] of $f$. By assumption, for every [[compact topological space|compact]] [[subspace]] $C \subset X \setminus \{x_2\}$ there exists a [[flow]] along $\nabla f$ which extends $U_x$ to a possibly larger Euclidean neighbourhood that contains $C$ (say this in more detail). By the [[Brown-Stallings lemma]] this implies a [[homeomorphism]] $X \setminus \{x_2\} \simeq \mathbb{R}^n$. It follows that $X$ is the [[one-point compactification]] of $X \setminus \{x_2\} \simeq \mathbb{R}^n$, which is the [[n-sphere]] (by [this example](one-point compactification#nSphereIsOnePointCompactificationOfRn)).
+
+## References
+
+* [[John Milnor]], theorem 4.1 in _Morse theory_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/milnmors.pdf))
+
+* {#Milnor64} [[John Milnor]], _Differenial topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([web](https://archive.org/details/LecturesOnModernMathematicsIi), [pdf](https://ia801700.us.archive.org/6/items/LecturesOnModernMathematicsIi/Saaty-LecturesOnModernMathematicsIi.pdf)) 
