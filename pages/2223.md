@@ -21,7 +21,9 @@
 
 A [[subgroup]] $N$ of a [[group]] $G$ is **normal** if the conjugation $n\mapsto g^{-1}n g$ by any element $g\in G$ leaves $N$ invariant, i.e. $g^{-1}N g := \{g^{-1}n g\,|\,n\in N\} = N$.
 
-A subgroup $N$ is normal iff the [[partition]] of the group into left *[[cosets]]* of the subgroup $N$, that is the sets $g N = \{ g n\,|\,n\in N\}$, is *stable* in the sense that the left coset $g_1 g_2 N$ of the product $g_1 g_2$ of any two elements $g_1,g_2\in G$ depends only on the coset $g_1 N$, $g_2 N$. Thus there is well defined product on the set of cosets making the set of left cosets $N\backslash G$ a group. By $g N = g N g^{-1}g = N g$ the set of left cosets and the set of right cosets of a normal subgroup coincide; thus the induced group structure on the right coset set $G/N$ is the same and called the [[quotient group]] (see [[quotient object]]).
+A subgroup $N$ is normal iff the [[partition]] of the group into left *[[cosets]]* of the subgroup $N$, that is the sets $g N = \{ g n\,|\,n\in N\}$, is *stable* in the sense that the left coset $g_1 g_2 N$ of the product $g_1 g_2$ of any two elements $g_1,g_2\in G$ depends only on the coset $g_1 N$, $g_2 N$. Thus there is well defined product on the set of cosets making the set of left cosets $N\backslash G$ a group. By $g N = g N g^{-1}g = N g$ the set of left cosets and the set of right cosets of a normal subgroup coincide; thus the induced group structure on the right coset set $G/N$ is the same and called the [[quotient group]] (see [[quotient object]]). 
+
+Thus normal subgroups may also be defined as [[kernels]] $f^{-1}(e)$ of group homomorphisms $G \to H$ ($e \in H$ is the identity), and this is largely the point of normal subgroups: they are equivalent to [[congruence relations]] in the category of groups. 
 
 
 ### Normal subobject in a semiabelian category
@@ -82,7 +84,9 @@ Every ordinary normal subgroup inclusion $K \hookrightarrow G$ is also a normal 
 
 =--
 
-## Properties
+## Properties 
+
+* The lattice of normal subgroups of a group $G$ is a [[modular lattice]], because the category of groups is a [[Mal'cev category]] and, as mentioned earlier, normal subgroups are tantamount to congruence relations. (N.B.: it need not be true that the lattice of subgroups is modular: take for example the lattice of subgroups of the [[dihedral group]] of order $8$, which contains a forbidden pentagon.) 
 
 ### Recognition of homotopy-normal maps
  {#Recognition}
