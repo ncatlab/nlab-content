@@ -154,7 +154,20 @@ Basic Examples:
 
 ### 10. The Steenrod algebra
 
+* [[cohomology operation]]
+
 * [[Steenrod algebra]]
+
+#### 10.1 Examples and applications
+
+#### 10.2 Hopf algebra structure
+
+* [[Hopf algebra]]
+
+#### 10.3 The Adams spectral sequence
+
+* [[Adams spectral sequence]]
+
 
 ## Chapter III. Model structures
 
@@ -191,6 +204,13 @@ Basic Examples:
 
 * p. 273. the definition of [[Kronecker pairing]] (construction 6.13) is missign the application of the multiplication map
 
+* p. 331. the second "vertically" should be "horizontally"
+
+* p. 331. "with coordinated"
+
+* p. 333. "stable stemes"
+
 * p. 344. uncompiled source code "eqrefeq-general" etc.
+
 
 category: reference
