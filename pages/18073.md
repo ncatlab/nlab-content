@@ -16,7 +16,7 @@
 
 ## Statement
 
-Assuming the [[axiom of choice]], then every [[Hausdorff topological space]] is a [[sober topological space]].
+Assuming [[excluded middle]], then every [[Hausdorff topological space]] is a [[sober topological space]].
 
 ## Related entries
 
