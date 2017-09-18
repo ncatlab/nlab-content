@@ -34,7 +34,7 @@ For a precise definition, see the references.
 
 ## References
 
-* [[Marco Grandis]], [[Robert Paré]], *Intercategories*, [arXiv](http://arxiv.org/abs/1412.0144)
+* [[Marco Grandis]], [[Robert Paré]], *Intercategories*, [arXiv](http://arxiv.org/abs/1412.0144), [TAC](http://tac.mta.ca/tac/volumes/30/38/30-38abs.html)
 
 * [[Marco Grandis]], [[Robert Paré]], *Intercategories: A framework for three-dimensional category theory*, [arXiv](http://arxiv.org/abs/1412.0212)
 
