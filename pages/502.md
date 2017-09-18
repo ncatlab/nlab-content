@@ -23,6 +23,19 @@ Equivalently (at least, in a topos) $B$ is choice iff it has a _[[choice functio
 
 In [[constructive mathematics]], the principle of [[excluded middle]] is equivalent to the statement that the set $2 = \{a \ne b\}$ is a choice set.
 
+## Related entries
+
+* [[axiom of choice]]
+
+* [[well-ordering theorem]]
+
+## References
+
+* [[Peter Freyd]], _Choice and Well-ordering_ , APAL **35** (1987) pp.149-166.
+
+* M.-M. Mawanda, _Well-ordering and Choice in Toposes_ , JPAA **50** (1988) pp.171-184.
+
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_, Oxford UP 2002. (D4.5, pp.987-998)
 
 [[!redirects choice object]]
 [[!redirects choice objects]]
