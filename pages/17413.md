@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **Hilbert system** is a kind of [[deductive system]] characterized by the presence of many [[axioms]] and few [[rule of inference|rules]].  Usually the only [[judgment]] form is "$A \; true$" for some proposition $A$, which is usually written simply as "$A$".  Thus, a Hilbert-style deduction is a tree whose edges are formulas, whose leaves are axioms, and whose nodes are one of a very small number of rules.  The most common rule is [[modus ponens]]:
+A **Hilbert system** is a kind of [[deductive system]] characterized by the presence of many [[axioms]] and few [[rule of inference|rules]].  Usually the only [[judgment]] form is "$A \; true$" for some proposition $A$, which is usually written simply as "$A$".  Thus, a Hilbert-style deduction is a [[tree]] whose edges are formulas, whose leaves are axioms, and whose nodes are one of a very small number of rules.  The most common rule is [[modus ponens]]:
 
 $$ \array{\arrayopts{\rowlines{solid}} A \qquad A\to B \\ B } $$
 
