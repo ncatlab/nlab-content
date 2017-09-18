@@ -320,16 +320,13 @@ We get this isomorphism from the following sequence of maps
 
 $$
 \begin{aligned}
- ((X^T)^Y\times T)\times Y&\xrightarrow{\langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle}& (X^T)^Y\times (T\times Y)
+ ((X^T)^Y\times T)\times Y&\xrightarrow{\langle \pi_1\pi_1,\langle \pi_2\pi_1,\pi_2\rangle\rangle} (X^T)^Y\times (T\times Y) \quad\text{(the canonical associativity isomorphism)}
 \\
- (X^T)^Y\times (T\times Y)&\xrightarrow{id_{(X^T)^Y}\times \tau_{T{}Y}}&(X^T)^Y\times(Y\times T) 
+ (X^T)^Y\times (T\times Y)&\xrightarrow{id_{(X^T)^Y}\times \tau_{T{}Y}}(X^T)^Y\times(Y\times T) \quad\text{(with the canonical twist isomorphism}\: \tau_{T{}Y}:T\times Y\to Y\times T \:)
 \\
- (X^T)^Y\times (Y\times T)&\xrightarrow{\langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle}& ((X^T)^Y)\times Y)\times T
+ (X^T)^Y\times (Y\times T)&\xrightarrow{\langle\langle\pi_1,\pi_1\pi_2\rangle,\pi_2\pi_2\rangle} ((X^T)^Y\times Y)\times T\quad\text{(the other canonical associativity isomorphism)}
 \\
-((X^T)^Y)\times T&\xrightarrow{ev_{Y{}X^T}\times id_T}& X^T\times T
-\\
-X^T\times T &\xrightarrow{
-ev_{T{}X}} & X
+((X^T)^Y\times Y)\times T&\xrightarrow{ev_{Y{}X^T}\times id_T} X^T\times T\xrightarrow{ev_{T{}X}}  X
 \end{aligned}
 $$
 
