@@ -1,0 +1,27 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _Kleinian group_ is a [[discrete group|discrete]] [[subgroup]] of the [[complex numbers|complex]] [[projective general linear group]] $PSL(2,\mathbb{C})$.
+
+## Related concepts
+
+* [[Fuchsian group]]
+
+## References
+
+* Wikipedia, _[Kleinian group](https://en.wikipedia.org/wiki/Kleinian_group)_
+
+[[!redirects Kleinian groups]]
