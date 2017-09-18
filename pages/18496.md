@@ -40,4 +40,15 @@ Therefore and since Schwartz's notation for the space $C^\infty(X)$ of all smoot
 
 * {#Hoermander90} [[Lars Hörmander]], section 2.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
+Discussion in terms of [[monads]] on the [[Cahiers topos]] is in
+
+* {#Kock11} [[Anders Kock]], section 11 of _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952)) 
+
+based on 
+
+* {#FroelicherKriegl88} [[Alfred Frölicher]], [[Andreas Kriegl]], section 5 of _Linear spaces and differentiation theory_, Wiley 1988 ([pdf](http://www.fuw.edu.pl/~kostecki/scans/froelicherkriegl1988.pdf))
+
+
+
+
 [[!redirects compactly supported distributions]]
