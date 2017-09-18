@@ -177,3 +177,6 @@ A review is in section 3 of
 
 [[!redirects deRham theorem]]
 
+[[!redirects de Rham isomorphism]]
+[[!redirects de Rham isomorphisms]]
+
