@@ -25,7 +25,7 @@ $$
   \,,
 $$
 
-where $K_g \coloneqq H \intersection g K g^{-1}$, and $W_g$ is the representation of $K_g$ which is $W$ as a vector space, but with action $x \cdot w = (g^{-1} x g) w$ where now $g^{-1} x g \in K$. This formula amounts to the [[Beck-Chevalley condition]] for the pullback square.
+where $K_g \coloneqq H \intersection g K g^{-1}$, and $W_g$ is the representation of $K_g$ which is $W$ as a vector space, but with action $x \cdot w = (g^{-1} x g) w$ where now $g^{-1} x g \in K$. This formula amounts to the [[Beck-Chevalley condition]] for the homotopy pullback square.
 
 
 ##Related concepts
