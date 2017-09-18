@@ -16,9 +16,7 @@
 
 This entry provides some links concerning the notes
 
-* [[Jacob Lurie]], _Moduli Problems and DG-Lie Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf))
-
-* [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
+* {#Lurie} [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
 
 #Contents#
 * table of contents
@@ -36,9 +34,11 @@ This text establishes a statement (theorem 5.3) that characterizes [[∞-stacks]
 
    (in the terminology and notation for [[cohesive (∞,1)-topos]]es) 
 
-1. and respect [[(∞,1)-limit|(∞,1)-pullback]]s
+1. and are [[cohesive (∞,1)-presheaf on E-∞ rings|infinitesimally cohesive]] in that they respects [[homotopy fiber products]] of morphisms whose [[kernels]] are [[nilpotent ideals]]
 
-with those associated to an [[∞-Lie algebra]] $\mathfrak{g}$ in the sense of ([Hinich](#Hinich))
+with those associated to an [[∞-Lie algebra]] $\mathfrak{g}$ in the sense of ([Hinich](#Hinich)). This is ([Lurie, theorem 0.0.13, remark 0.0.15](#Lurie)).
+
+
 
 The construction is then generalized to noncommutative geometry.
 
@@ -70,8 +70,8 @@ A similar result in less generality was discussed earlier in
 
 And further [[model category]] [[presentable (infinity,1)-category|presentations]] of much of the structure involved here are constructed and compared with each other in 
 
-* [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
- {#Pridham}
+* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
+ 
 
 See at _[[model structure for L-infinity algebras]]_ for more along these lines.
 
