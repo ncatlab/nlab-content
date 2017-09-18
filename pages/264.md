@@ -13,7 +13,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -99,7 +99,9 @@ where $W$ is the category whose objects are morphisms in $W$ and whose morphisms
 
 * In [[homological algebra]] the localization of the [[category of chain complexes]] at the [[quasi-isomorphisms]] is called the _[[derived category]]_. But see also at _[[homotopy category of chain complexes]]_.
 
-* In [[stable homotopy theory]] one considers the homotopy category of [[spectra]].
+* In [[stable homotopy theory]] one considers the [[stable homotopy category]] of [[spectra]].
+
+* In [[equivariant stable homotopy theory]] one considers the [[equivariant stable homotopy category]] of spectra.
 
 * For the homotopy category of [[Cat]], see [[Ho(Cat)]].
 
