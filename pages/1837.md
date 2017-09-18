@@ -49,7 +49,7 @@ This generalization does contain experimentally visible physics such as
 
 * The [[magnetic current]] in [[electromagnetism]] is a [[bundle gerbe|bundle gerbe with connection]], a [[Deligne cohomology|Deligne cocycle]] refining a cocycle in degree-$3$ [[Eilenberg-MacLane spectrum|Eilenberg-MacLane cohomology]]: the _magnetic charge_ .
 
-But a whoe tower of higher and generalized gauge theories became visible with the study of higher [[supergravity]] theories,
+But a whole tower of higher and generalized gauge theories became visible with the study of higher [[supergravity]] theories,
 
 * The [[Kalb-Ramond field]] is a [[bundle gerbe|bundle gerbe with connection]], a [[Deligne cohomology|Deligne cocycle]] with curvature 3-form.
 
