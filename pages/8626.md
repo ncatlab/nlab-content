@@ -28,7 +28,7 @@ Let $K$ be a bicategory with finite bilimits, let $K \hookrightarrow [K^{op},Cat
 
 ## References
 
-* [[John Power]], "Coherence for bicategories with finite bilimits", *Categories in computer science and logic*, 1989.
+* [[John Power]], "Coherence for bicategories with finite bilimits", in *Categories in computer science and logic*, Contemporary Mathematics **92** (1989) pp 341-347
 
 [[!redirects coherence theorem for bicategories with finite 2-limits]]
 [[!redirects coherence theorem for bicategories with finite bilimits]]
