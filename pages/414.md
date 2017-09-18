@@ -375,5 +375,3 @@ For instance section 4.3 of
 
 [[!redirects enough projectives]]
 [[!redirects projective objects]]
-[[!redirects projective set]]
-[[!redirects projective sets]]
