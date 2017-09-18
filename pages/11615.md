@@ -37,9 +37,11 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 * With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory" (e.g. in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]).
 
-* [[Synthetic domain theory]]
+* [[synthetic domain theory]]
 
-* [[Synthetic computability theory]]
+* [[synthetic computability theory]]
+
+* [[synthetic topology]]
 
 ## Relation to constructivism 
 
