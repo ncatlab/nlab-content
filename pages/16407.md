@@ -12,7 +12,7 @@ A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (
 
 3. the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
 
-These conditions can be summarized by saying that $\theta$ is a _cellular embedding_ (or "2-cell embedding").  Additionally, one may place several conditions on the underlying surface:
+These conditions can be summarized by saying that $\theta$ is a _cellular embedding_ (or "2-cell embedding").  Additionally, one may place several conditions on the underlying surface, e.g.:
 
 * $X$ is [[compact space|compact]]
 * $X$ is [[connected space|connected]]
