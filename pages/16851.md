@@ -1,3 +1,13 @@
+## Idea
+
+One fundamental tool in a knot theorist's toolbox is the [[knot diagram]].  In classical [[knot theory]], a knot diagram or link diagram may be considered formally as a 4-valent [[plane graph]] (called the _shadow_ of the knot/link), equipped with annotations on each vertex specifying whether it represents an undercrossing or an overcrossing.  The [[Reidemeister moves]] define an [[equivalence relation]] on knot diagrams, which can be used to determine when two diagrams represent knots (or links) that are [[isotopic]].  It is a theorem that the Reidemeister moves are complete for isotopy, but from a formal perspective, one could also _define_ a classical knot/link as an equivalence class of knot/link diagrams, i.e., of decorated 4-valent plane graphs.
+
+From that perspective, virtual knot theory (introduced by [[Louis Kauffman]]) generalizes classical knot theory by considering knots and links as equivalence classes of decorated 4-valent graphs embedded in [[orientable]] surfaces of arbitrary [[genus of a surface|genus]].  Conceptually, a _virtual knot_ can be defined as an embedding of a [[circle]] into a thickened orientable surface.  If one projects such a knot onto the page, the diagram might contain crossings that do _not_ represent places where the knot passes over/under itself, but rather are artifacts of the knot's non-planar shadow.  So, in a virtual knot diagram such crossings are explicitly indicated as "virtual", using a distinct notation from that for under/overcrossings.
+
+## Related concepts
+
+* [[embedded graph]]
+
 ## References
 
 * [[Louis Kauffman]], Virtual Knot Theory, _European Journal of Combinatorics_ (1999) 20, 663-691. [pdf](http://homepages.math.uic.edu/~kauffman/VKT.pdf)
