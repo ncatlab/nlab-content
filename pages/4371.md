@@ -113,8 +113,14 @@ To show this, first note that the Boolean negation in $B$ is the restriction of 
 =--
 
 
-**Remark.**
-As the [[Aufhebung]] $\mathcal{E}_j$ of $0\vdash 1$ is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos (For further details cf. [[Aufhebung]]).
++-- {: .num_prop #RelationToAufhebungof01}
+###### Proposition
+
+As the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfiny $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos ([Lawvere 91, p. 8](#Lawvere91), for further details cf. _[[Aufhebung]]_).
+
+=--
+
+
 
 The next two propositions consider the important special case of $\neg\neg$ on [[presheaf topos|presheaf toposes]]:
 
@@ -163,6 +169,16 @@ In [[topos theory]]:
 In [[homotopy type theory]]:
 
 * [[Univalent Foundations Project]], section 3.4 of  _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+Discussion in relation to [[cohesion]] and the [[sharp modality]] is in 
+
+* {#Lawvere91} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
+
+which has around p. 8:
+
+> The base in fact seems in examples to be determined by the given category of Being itself, either as the latter's QD reflection with the extra localness condition supplying the right adjoint pure Becoming inclusion, or else (for example simplicial sets) as the double-negation sheaves with the extra essentialness condition supplying the left adjoint inclusion (in the latter case it is in Hegelian fashion always the smallest level for which both 0,1 are sheaves).
+
+Here the "Hegelian fashion" refers to what is discussed in detail at _[[Aufhebung]]_.
 
 
 [[!redirects double negation]]
