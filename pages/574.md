@@ -50,9 +50,9 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 
 * A [[strong epimorphism]] in any category is, by definition, an epimorphism in ${}^\perp(Mono)$, where $Mono$ is the class of monomorphisms.  (If the category has equalizers, then every map in ${}^\perp(Mono)$ is epic.)  Dually, a [[strong monomorphism]] is a monomorphism in $(Epi)^\perp$.
 
-* The [[orthogonal subcategory problem]] for a [[class]] of [[morphism]]s $\Sigma$ in a [[category]] $C$ asks whether the [[full subcategory]] $\Sigma^\perp$ of [[object]]s [[orthogonal]] to $\Sigma$ is a [[reflective subcategory]]. 
+* The [[orthogonal subcategory problem]] for a [[class]] of [[morphism]]s $\Sigma$ in a [[category]] $C$ asks whether the [[full subcategory]] $\Sigma^\perp$ of [[object]]s $X$ [[orthogonal]] to $\Sigma$ is a [[reflective subcategory]]. Here we define $f \perp X$ to mean $f \perp !: X \to 1$. 
 
-  This problem is related to the problem of [[localization]]. Suppose $\Sigma^\perp$ is indeed a [[reflective subcategory]]; let $r: C \to \Sigma^\perp$ be the reflector (the [[left adjoint]] to the inclusion $i: \Sigma^\perp \to C$). 
+  The orthogonal subcategory problem is related to [[localization]]. Suppose $\Sigma^\perp$ is indeed a [[reflective subcategory]]; let $r: C \to \Sigma^\perp$ be the reflector (the [[left adjoint]] to the inclusion $i: \Sigma^\perp \to C$). Certainly $r$ sends arrows in $\Sigma$ to isomorphisms in $\Sigma^\perp$. Indeed, if $f: A \to B$ belongs to $\Sigma$, then the inverse to $r(f): r(A) \to r(B)$ is the unique arrow extending $1_{r(A)}$ along $r(f): r(A) \to r(B)$ to an arrow $g: r(B) \to r(A)$, using the fact that $r(A)$ belongs to $\Sigma^\perp$. 
 
 ## Related concepts
 
