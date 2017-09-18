@@ -8,9 +8,13 @@ introducing [[Beilinson-Deligne cohomology]], [[Beilinson regulators]], [[higher
 
 ### Notation
 
-By [[analytic space]] we will mean [[real analytic space]].  Let $An$ denote the real [[analytic site]].  Let $D^+(An)$ denote the [[derived category]] of bounded above [[cochain complexes]] of [[sheaves]] on $An$.  Let $\Omega^\bullet$ denote the [[de Rham complex]] of [[holomorphic forms]].  Let $F^i = \Omega^{\ge i}$ denote the "stupid" [[filtration]].
+By [[analytic space]] we will mean [[real analytic space]].
+Let $An$ denote the real [[analytic site]].
+Let $D^+(An)$ denote the [[homotopy category]] of [[abelian sheaf|sheaves]] on $An$ with values in bounded above [[cochain complexes]] of [[abelian groups]], with [[quasi-isomorphisms]] inverted.
+(Recall that, by the [[Dold-Kan correspondence]], this category is equivalent to the [[homotopy category]] of sheaves on $An$ with values in [[simplicial abelian groups]].)
+In $D^+(An)$, consider $\Omega^\bullet$, the sheaf of [[de Rham complex]]es of [[holomorphic forms]].  Let $F^i = \Omega^{\ge i}$ denote the "stupid" [[filtration]].
 
-Fix a subring $A \subset \mathbf{R}$ and let $A(p) = A \cdot (2\pi i)^p \subset \mathbf{C}$ for $p \in \mathbf{Z}$.  We will abuse notation and write $\mathbf{C}$ for the complex concentrated in degree zero by the constant sheaf associated to $\mathbf{C}$.  Similarly we will view $A(p)$ as an object of $D^+(An)$.
+Fix a subring $A \subset \mathbf{R}$ and let $A(p) = A \cdot (2\pi i)^p \subset \mathbf{C}$ for $p \in \mathbf{Z}$.  We will abuse notation and write $\mathbf{C}$ for the constant sheaf valued in the complex concentrated in degree zero by $\mathbf{C}$.  Similarly we will view $A(p)$ as an object of $D^+(An)$.
 
 We will write $H^*_B(X, \mathbf{C})$ for the [[Betti cohomology]] of $X \in An$.
 
@@ -64,7 +68,7 @@ There exists a canonical morphism in $D^+(An)$
 defining an [[associative]] [[commutative]] multiplication.
 =--
 
-In fact, one gets a product on $A(\ast)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(\ast) \to \Omega \leftarrow F^*$ (as [[dg-algebras]]).
+In fact, one gets a product on $A(\bullet)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(\bullet) \to \Omega \leftarrow F^*$ (as [[algebra objects]] in [[chain complexes]]).
 
 +-- {: .num_defn}
 ###### Definition
