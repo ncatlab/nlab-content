@@ -19,14 +19,16 @@
 
 ## Idea
 
-In [[quantum field theory]] the term _gaugino_ denotes a field that is a superpartner of a [[gauge boson]]. For instance the partner of a [[gluon]] is called a [[gluino]], and so on.
+In [[quantum field theory]] the term _gaugino_ denotes a field that is a [[superpartner]] of a [[gauge boson]]. This appears in [[super Yang-Mills theory]]. For instance the partner of a [[gluon]] in the [[MSSM]] is called a [[gluino]], and so on.
 
 In terms of [[Chern-Weil theory]]/[[differential cohomology]] we have that
  
-* [[gauge boson]]s are (the [[quanta]] of) [[connection on a bundle|connections]] on [[principal bundle]] or more generally the even components of [[superconnection]]s;
-
+* [[gauge bosons]] are (the [[quanta]] of) [[connection on a bundle|connections]] on [[principal bundle]] or more generally the even components of [[superconnections]];
 
 * gauginos are the odd components of superconnections.
+
+
+
 
 ## Related concepts
 
