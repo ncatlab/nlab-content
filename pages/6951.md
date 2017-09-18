@@ -15,7 +15,7 @@
 
 ## Idea
 
-**Kripke-Joyal semantics** is a higher order generalization of the semantic interpretation proposed initially by Beth, Gregorczyk, and Kripke for [[intuitionistic logic|intuitionistic predicate logic]]. It provides a notion of _'local truth'_ or _'validity at a stage'_ in a [[topos]].
+**Kripke-Joyal semantics** is a higher order generalization of the [[semantics|semantic]] interpretation proposed initially by Beth, Gregorczyk, and Kripke for [[intuitionistic logic|intuitionistic predicate logic]]. It provides a notion of _'local truth'_ or _'validity at a stage'_ in a [[topos]].
 
 Since it is closely related to [[Paul Cohen|Paul Cohen's]] [[forcing]] technique in [[set theory]], a connection that was already observed by Gregorczyk and Kripke, it is sometimes called _forcing_ semantics. Other terms in use for it are _external_ semantics , _cover_ semantics or _Beth-Kripke-Joyal_ semantics.
 
