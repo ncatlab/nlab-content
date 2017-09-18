@@ -1,3 +1,13 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
  
 # Homotopy theory of inverse semigroups
 * table of contents
@@ -13,8 +23,7 @@ In the paper [LMP](#LMP) it is shown that this factorisation is isomorphic to th
 
 ## References
 
-* [[M. V. Lawson]], J. Matthews, and [[T. Porter]], _The homotopy theory of inverse semigroups_ , IJAC 12 (2002) 755-790. 
-  {#LMP}
-
+* {#LMP} [[M. V. Lawson]], J. Matthews, and [[T. Porter]], _The homotopy theory of inverse semigroups_ , IJAC 12 (2002) 755-790. 
+  
 
 [[!redirects homotopy theory of inverse semigroups]]
