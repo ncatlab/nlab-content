@@ -1,5 +1,19 @@
 
-[[Euclid]]'s series of books on [[synthetic geometry|synthetic]] [[Euclidean geometry]], elementary [[number theory]], and other mathematical topics. 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+[[Euclid]]'s series of books on [[synthetic geometry|synthetic]] [[Euclidean geometry]], elementary [[number theory]], and other [[mathematics|mathematical]] topics. 
+
+[Book XIII](http://aleph0.clarku.edu/~djoyce/elements/bookXIII/bookXIII.html) discusses the [[Platonic solids]].
+
 
 ## References
 
@@ -8,3 +22,5 @@
 * David Joyce's page on Euclid's Elements ([web](http://aleph0.clarku.edu/~djoyce/java/elements/elements.html)) 
 
 [[!redirects Euclid's Elements]]
+
+category: reference
