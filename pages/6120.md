@@ -95,7 +95,9 @@ The generalization to [[orbifold]]s is considered in
 * Ichiro Satake, _The Gauss-Bonnet Theorem for V-manifolds_ J. Math. Soc. Japan Volume 9, Number 4 (1957), 464-492.  ([ProjectEclid](http://projecteuclid.org/euclid.jmsj/1261153826))
  {#Satake}
 
+For an approach via 0|2-dimensional [[supersymmetric Euclidean field theory]], see
 
+* [[Daniel Berwick-Evans]], _The Chern-Gauss-Bonnet Theorem via supersymmetric Euclidean field theories_, Communications in Mathematical Physics, Volume 335 (2015), ([arXiv:1310.5383](https://arxiv.org/abs/1310.5383)).
 
 [[!redirects Chern-Gauss-Bonnet theorem]]
 [[!redirects Gauss-Bonnet density]]
