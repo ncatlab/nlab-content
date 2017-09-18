@@ -133,6 +133,20 @@ is a surjection of sets.
 
 =--
 
+### In a sheaf $\infty$-topos
+
+In the [[infinity-topos]] of [[infinity-sheaves]] on an $\infty$-site (i.e. in a [[topological localization]]), one has the following characterization of morphisms which become effective epimorphisms after applying the [[associated sheaf functor]].
+
++-- {: .num_prop #EffectiveEpiInSheafTopos}
+###### Proposition
+Let $(C,t)$ be an $\infty$-site and $f : F \to G$ a morphism of [[presheaves]] in $P(C)$.
+The morphism $a_t(f)$ is an effective epimorphism in $Shv_t(C)$ if and only if $f$ is a [[local epimorphism]], i.e.
+  $$ \colim \check{C}(f) \longrightarrow G $$
+is a $t$-[[covering sieve]].
+(Here $a_t$ denotes the [[associated sheaf functor]].)
+=--
+
+This is clear.  See [MO/177325/2503](http://mathoverflow.net/a/177325/2503) by [[David Carchedi]] for the argument.
 
 ## Examples
 
