@@ -26,11 +26,13 @@
 
 ## Idea
 
-The term _double field theory_ has come to be used for [[field theory]] ([[prequantum field theory]]/[[quantum field theory]]) on [[spacetimes]] which are [[T-fold]] hence for "[[T-duality]]-[[equivariance|equivariant]] field theory".
+The term _double field theory_ has come to be used for [[field theory]] ([[prequantum field theory]]/[[quantum field theory]]) on [[spacetimes]] which are [[T-folds]] hence for "[[T-duality]]-[[equivariance|equivariant]] field theory".
 
 ## Related concepts
 
 * [[exceptional field theory]]
+
+* [[T-fold]]
 
 ## References
 
