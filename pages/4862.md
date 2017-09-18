@@ -92,6 +92,8 @@ Generally, the $n$-torus $T^n$ is $(S^1)^n$.
 
 ## Related concepts
 
+* [[circle action]]
+
 * [[sphere]]
 
 * [[pseudocircle]]
