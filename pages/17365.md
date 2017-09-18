@@ -6558,6 +6558,209 @@ By prop. \ref{StableHomotopyCategoryIsTriangulated} this is a special case of pr
 
 =--
 
++-- {: .num_prop #HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra}
+###### Proposition
+
+In the [[stable homotopy category]], a sequence of morphisms is a [[homotopy cofiber sequence]] precisely if it is a [[homotopy fiber sequence]]. 
+
+Specifically for $f \colon X \longrightarrow Y$ any morphism in $Ho(Spectra)$, then there is an [[isomorphism]]
+
+$$
+  \phi \;\colon\; hofib(f) \overset{\simeq}{\longrightarrow} \Omega hocof(f)
+$$
+
+between the [[homotopy fiber]] and the looping of the [[homotopy cofiber]], which fits into a [[commuting diagram]] of the form
+
+$$
+  \array{
+     \Omega Y 
+       &\longrightarrow& 
+     hofib(f)
+       &\longrightarrow&
+     X
+     \\
+     {}^{\mathllap{=}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\phi}}_{\mathrlap{\simeq}}
+       &&
+     \downarrow^{\mathrlap{=}}
+     \\
+     \Omega Y
+       &\longrightarrow&
+     \Omega hocof(f)
+       &\longrightarrow&
+     X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[commuting diagram]]
+
+$$
+  \array{
+     \Omega Y 
+       &\longrightarrow&
+     hofib(f)
+       &\overset{\phi}{\longrightarrow}&
+     \Omega hocof(f)
+       &\longrightarrow&
+     \Omega \Sigma X \simeq X
+     \\
+     \downarrow 
+       &&
+     \downarrow 
+       &&
+     \downarrow 
+       &&
+     \downarrow 
+     \\
+     \ast
+       &\longrightarrow&
+     X
+       &\longrightarrow&
+     \ast
+       &\longrightarrow&
+     \ast
+     \\
+     \downarrow 
+       &&
+     \downarrow^{\mathrlap{f}}
+       &&
+     \downarrow 
+       &&
+     \downarrow 
+     \\
+     Y 
+       &\underset{=}{\longrightarrow}&
+     Y
+       &\underset{}{\longrightarrow}&
+     hocof(f)
+       &\longrightarrow&
+     \Sigma X
+  }
+  \,,
+$$
+
+where the bottom commuting squares are the canonical ones, and where the top row of squares are those induced by forming homotopy fibers of the bottom vertical morphisms.
+
+Here the composition of the left two horizontal morphisms at the top exhibits the left part of the commuting diagram to be proven.
+
+Now observe that the [[pasting]] composite of the two rectangles on the right of the previous diagram is isomorphic to the following pasting composite:
+
+$$
+  \array{
+    hofib(f)
+      &\overset{}{\longrightarrow}&
+    X
+      &\underoverset{\simeq}{\eta}{\longrightarrow}&
+    \Omega \Sigma X \simeq X
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X 
+      &\overset{id}{\longrightarrow}& 
+    X
+      &\longrightarrow&
+    \ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    Y 
+      &\longrightarrow&
+    \ast
+      &\longrightarrow&
+    \Sigma X
+  }
+$$
+
+Namely the bottom composite is equal, in the homotopy category, to the previous bottom composite by $\Sigma X$ being the homotopy cofiber of $Y \to hocof(f)$; and the middle composite is trivially equal to the previous one since its codomain is the 0 object. Hence the top composite is equal, by universality of homotopy fibers, to the previous top composite. Since $\eta$ is an isomorphism in the stable homotopy category, this gives the commutativity of the right part of the diagram to be proven.
+
+So far we have shown that
+
+$$
+  \array{
+     \Omega Y 
+       &\longrightarrow& 
+     hofib(f)
+       &\longrightarrow&
+     X
+     \\
+     {}^{\mathllap{=}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\phi}}_{}
+       &&
+     \downarrow^{\mathrlap{=}}
+     \\
+     \Omega Y
+       &\longrightarrow&
+     \Omega hocof(f)
+       &\longrightarrow&
+     X
+  }
+$$
+
+commutes in the stable homotopy category. It remains to see that $\phi$ is an isomorphism.
+
+To that end, consider for any $A \in Ho(Spectra)$ the image of this commuting diagram, prolonged to the left and right, under the [[hom-functor]] $[A,-]_\ast$ of the [[stable homotopy category]]:
+
+$$
+  \array{
+     [A, \Omega X]_\ast
+       &\longrightarrow&
+     [A,\Omega Y]_\ast 
+       &\longrightarrow& 
+     [A,hofib(f)]_\ast
+       &\longrightarrow&
+     [A,X]_\ast
+       &\longrightarrow&
+     [A,Y]_\ast
+     \\
+     {}^{\mathllap{=}}\downarrow
+       &&
+     {}^{\mathllap{=}}\downarrow
+       &&
+     \downarrow^{\mathrlap{[A,\phi]_\ast}}_{}
+       &&
+     \downarrow^{\mathrlap{=}}
+       &&
+     \downarrow^{\mathrlap{=}}
+     \\
+     [A, \Omega X]_\ast
+       &\longrightarrow&
+     [A,\Omega Y]_\ast
+       &\longrightarrow&
+     [A,\Omega hocof(f)]_\ast
+       &\longrightarrow&
+     [A,X]_\ast
+       &\longrightarrow&
+     [A,Y]_\ast
+  }
+  \,.
+$$
+
+Here the top row is [[long exact sequence|long exact]], since it is the long [[homotopy fiber sequence]] to the left that holds in the homotopy category of any model catgeory ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)). Moreover, the bottom sequence is [[long exact sequence|long exact]] by prop. \ref{LongFiberSequencesOfMapsOfSpectra}. Hence the [[five lemma]] implies that $[A,\phi]_\ast$ is an isomorphism. Since this is the case for all $A$, the [[Yoneda lemma]] implies that $\phi_\ast$ itself is an isomorphism.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra} is the homotopy theoretic analog of the clause that makes a [[pre-abelian category]] into an [[abelian category]]:
+
+A pre-abelian category is an [[additive category]] in which [[fibers]] ([[kernels]]) and [[cofibers]] ([[cokernels]]) exist. This is an [[abelian category]] if the cofiber of the fiber of any morphism equals coincides with the fiber of the cofiber of that morphism.
+
+Here we see that in stable homotopy theory, whose homotopy category is additive, and in which homotopy fibers and homotopy cofibers exist, the analogous statement is true even in a stronger form: the homotopy cofiber projection of the homotopy fiber inclusion of any morphism coincides with that morphism, and so does the homotopy fiber projection of the homotopy cofiber inclusion.
+
+=--
+
+
+
 
 In particular there are long exact sequences of [[stable homotopy groups]] extending in both directions:
 
