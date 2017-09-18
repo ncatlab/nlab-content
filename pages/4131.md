@@ -1,5 +1,5 @@
 
-> This page discusses the classical case of bases for [[topological spaces]].  For bases on [[sites]], that is for [[Grothendieck topologies]], see at _[[Grothendieck pretopology]]_.
+> This page discusses bases for the topology on [[topological spaces]]. For the concept of topological [[linear basis]] see at _[[basis in functional analysis]]_. For bases on [[sites]], that is for [[Grothendieck topologies]], see at _[[Grothendieck pretopology]]_.
 
 
 +-- {: .rightHandSide}
