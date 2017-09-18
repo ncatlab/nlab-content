@@ -40,17 +40,15 @@ A classic text on the general issue of quantum field theory on curved spacetimes
 
 The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ("locally covariant AQFT") is due to
 
-* {#BrunettiFredenhagen} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved spacetimes_ [arXiv:0901.2063](http://arxiv.org/abs/0901.2063)
  
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ , Proceedings of the Kompaktkurs "Quantenfeldtheorie auf gekruemmten Raumzeiten" held at Universitaet Potsdam, Germany, in 8.-12.10.2007, organized by C. Baer and K. Fredenhagen
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ , Proceedings of the Kompaktkurs "Quantenfeldtheorie auf gekruemmten Raumzeiten" held at Universitaet Potsdam, Germany, in 8.-12.10.2007, organized by C. Baer and K. Fredenhagen ([arXiv:0901.2063](http://arxiv.org/abs/0901.2063))
 
 
 Reviews with emphasis on this AQFT-point of view include
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _[Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)_
 
 * [[Robert Wald]], [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
 
