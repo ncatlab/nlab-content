@@ -11,7 +11,7 @@ $$S^1 \to S^1$$
 $$z \mapsto z^p$$
 
 The degree p map is well defined for $S^k$ in general, where $k \in math{N}$. 
-If we apply the infinite suspension functor to this map, $$\Sigma^{\infty}S^1 \to \Sigma^{\infty}S^1 =: \mathbb{S}^1 \to \mathbb{S}^1$$ and we take the cofiber of the resulting map: 
+If we apply the infinite suspension functor to this map, $\Sigma^{\infty}S^1 \to \Sigma^{\infty}S^1 =: \mathbb{S}^1 \to \mathbb{S}^1$ and we take the cofiber of the resulting map: 
 
 $$S \xrightarrow{p} S \to S/p$$
 
