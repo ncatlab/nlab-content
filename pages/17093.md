@@ -1,0 +1,14 @@
+
+
+* [webpage](http://math.syr.edu/Bios/lewis.html)
+
+## related $n$Lab entries
+
+* [[nice simplicial topological space]]
+
+* [[equivariant stable homotopy theory]]
+
+category: people
+
+[[!redirects Gaunce Lewis]]
+[[!redirects L. Gaunce Lewis]]
