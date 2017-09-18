@@ -1,1 +1,39 @@
-A **Euclidean domain** is an [[integral domain]] $A$ for which there exists a function $d: A \to \mathbb{N}$ to the [[natural numbers]], often called a *degree function*, such that given $f, g \in A$ there exists unique $q, r \in A$ such that $f = q \cdot g + r$ and $d(r) \lt d(g)$. (To be continued later.) 
+# Contents # 
+* table of contents 
+{:toc} 
+
+## Idea 
+
+A Euclidean domain is an integral domain which admits a form of the Euclidean quotient-and-remainder algorithm familiar from school mathematics. 
+
+## Definition 
+
+A **Euclidean domain** is an [[integral domain]] $A$ for which there exists a function $d: A \setminus \{0\} \to \mathbb{N}$ to the [[natural numbers]], often called a *degree function*, such that given $f, g \in A$ with $g \neq 0$, there exists unique $q, r \in A$ such that $f = q \cdot g + r$ and either $r = 0$ or $d(r) \lt d(g)$. (One may harmlessly stipulate that $d(0) = 0$; what to do with the zero element varies from author to author.) 
+
+Some authors also add the requirement that $d(a) \leq d(a b)$ for all nonzero $a, b$. There is no loss of generality in assuming it; every Euclidean domain admits such a degree function $d'$, defining $d'(a) = \min \{d(a b): b \in A, b \neq 0\}$. We'll use it freely below, if and when we need to. 
+
+## Examples 
+
+* The (rational) [[integers]] $\mathbb{Z}$. 
+
+* The ring of [[polynomials]] $k[x]$ over a field $k$, using the ordinary polynomial degree. 
+
+* Any field (trivially). 
+
+* Any [[valuation ring|discrete valuation ring]]: letting $\pi$ be a generator of the maximal ideal, put $d(x) = n$ where $x = u \pi^n$, with $u$ a unit. 
+
+* The [[Gaussian integers]] $\mathbb{Z}[i]$, with $d(a + b i) = a^2 + b^2$ (the norm). 
+
+* The [[Eisenstein integers]] $\mathbb{Z}[\omega]$, where $\omega$ is a primitive cube [[root of unity]], with $d(a + b \omega) = a^2 - a b + b^2$ (the norm). 
+
+## Properties 
+
++-- {: .num_prop} 
+###### Proposition 
+A Euclidean domain is a [[principal ideal domain]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $I \subseteq A$ be an ideal, and suppose $d(g)$ is the minimum degree taken over all $g \in I$. For any $f \in I$, we may write $f = q g + r$ where either $r = 0$ or $d(r) \lt d(g)$ [which is impossible since $r \in I$ and $d(g)$ is minimal]. So $r = 0$ it is, and thus $I = (g)$. 
+=-- 
