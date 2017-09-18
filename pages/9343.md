@@ -10,6 +10,8 @@
 
 * [[Picard-Lefschetz theory]]
 
+* [[conical singularity]]
+
 ## References
 
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
