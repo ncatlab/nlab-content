@@ -44,7 +44,7 @@ If all stabilizer groups are trivial, then the action is called a _free action_.
 ### Homotopy-theoretic formulation
  {#GeneralAbstract}
 
-We reformulate the tradtitional definition [above](#TraditionalDefinition) from the [[nPOV]], in terms of [[homotopy theory]].
+We reformulate the traditional definition [above](#TraditionalDefinition) from the [[nPOV]], in terms of [[homotopy theory]].
 
 A [[group]] [[action]] $\rho\colon G \times X \to X$ is equivalently encoded in its [[action groupoid]] [[fiber sequence]] in [[Grpd]]
 
@@ -55,7 +55,7 @@ $$
 
 where the $X/G$ is the [[action groupoid]] itself, $\mathbf{B}G$ is the [[delooping]] [[groupoid]] of $G$ and $X$ is regarded as a [[0-truncated]] groupoid.
 
-This fiber sequence may be thought of as being the $\rho$-[[associated bundle]] to the $G$-[[universal principal bundle]]. (Here discussed for $G$ a [[discrete group]] but this discussion goes through verbatim for $G$ a [cohesive group](/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#InfinGroups)).
+This fiber sequence may be thought of as being the $\rho$-[[associated bundle]] to the $G$-[[universal principal bundle]]. (Here discussed for $G$ a [[discrete group]] but this discussion goes through verbatim for $G$ a [cohesive group](/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#InfinGroups).)
 
 For
 
