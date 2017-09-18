@@ -15,7 +15,11 @@
 
 ## Idea
 
-A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] or [[colimits]], respectively, if every limiting [[cone]] or colimiting [[cocone]] in $\mathcal{D}$ is the image of a limiting cone or colimiting cocone, respectively, in $\mathcal{C}$.
+A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] of a particular shape $I$ if for any diagram $J:I\to C$, any limiting [[cone]] for $F \circ J$ in $\mathcal{D}$ is the image of a limiting cone for $J$ in $\mathcal{C}$.
+
+## Terminological remarks
+
+Lifting limits is closely related to [[created limits|creating them]].  The relationships between these notions were the subject of a post by Aleks Kissinger at the categories mailing list, [here](http://permalink.gmane.org/gmane.science.mathematics.categories/6644), but there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
 
 ## Related concepts
 
@@ -29,4 +33,4 @@ A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] 
 
 * **lifted limit** 
 
-Some of the relationships between these notions were concisely summarized in a post by Aleks Kissinger at the categories mailing list, [here](http://permalink.gmane.org/gmane.science.mathematics.categories/6644). 
+[[!redirects lifted limits]]
