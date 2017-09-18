@@ -114,23 +114,53 @@ The reader can now easily define a _sequentially $R_1$ space_.
 ## Beyond topological spaces
  {#BeyondTopologicalSpaces}
 
-The only reasonable definition for a [[locale]] $X$ to be **Hausdorff** is that its diagonal $X\to X\times X$ is a closed (and hence proper) inclusion.  However, if $X$ is a [[sober space]] regarded as a locale, this might not coincide with the condition for $X$ to be Hausdorff as a space, since the product $X\times X$ in the category of locales might not coincide with the product in the category of spaces.  But it does coincide if $X$ is a [[locally compact locale]], so in that case the two notions of Hausdorff are the same.
+### Hausdorff locales
+
+The most obvious definition for a [[locale]] $X$ to be **Hausdorff** is that its diagonal $X\to X\times X$ is a closed (and hence proper) inclusion.  However, if $X$ is a [[sober space]] regarded as a locale, this might not coincide with the condition for $X$ to be Hausdorff as a space, since the product $X\times X$ in the category of locales might not coincide with the product in the category of spaces.  But it does coincide if $X$ is a [[locally compact locale]], so in that case the two notions of Hausdorff are the same.
+
+### Separated toposes and schemes
 
 This notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also includes notions such as a _[[separated scheme]]_ etc.  The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
 
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], the Hausdorff notion multifurcates further, due to the variety of possible meanings of [[closed subspace]].  As a simple example, consider a [[discrete space]] $X$ regarded as a locale.  Since it is locally compact, the locale product $X\times X$ coincides with the space product (a theorem that is valid constructively); but nevertheless we have:
+In [[constructive mathematics]], the Hausdorff notion multifurcates further, due to the variety of possible meanings of [[closed subspace]].  If we ask the diagonal to be *weakly* [[closed subspace|closed]], then in the spatial case, this means that it contains all its limit points, giving Definition \ref{constructive} above.  But if we ask the diagonal to be *strongly* closed, i.e. the complement of an open set, then in the spatial case this means that there is a [[tight inequality]] $\ne$ (the [[exterior]] of $=$) relative to which Definition \ref{classical} holds.  (We use $\ne$ twice in that definition: in the hypothesis that $x \ne y$ and in the conclusion that $x' \ne y'$.)
+
+It is natural to call these conditions *weakly Hausdorff* and *strongly Hausdorff*, but one should be aware of terminological clashes: in classical mathematics there is a different notion of a [[weak Hausdorff space]], whereas (strong) Hausdorffness for locales has by some authors been called "strongly Hausdorff" only to contrast it with Hausdorffness for spaces.
+
+As a simple example, consider a [[discrete space]] $X$ regarded as a locale.  Since it is locally compact, the locale product $X\times X$ coincides with the space product (a theorem that is valid constructively); but nevertheless we have:
 
 1. The diagonal $X\to X\times X$ always has an open complement.
-2. Definition \ref{constructive} above always holds, since $\{x\}$ and $\{y\}$ are neighborhoods of $x$ and $y$, and if they intersect then $x=y$.
-3. The diagonal $X\to X\times X$ is the complement of an open subset if and only if equality in $X$ is stable under [[double negation]], in other words if $X$ admits a tight [[inequality relation]].
-4. The locale diagonal $\Delta:X\to X\times X$ is a closed sublocale if and only if $X$ has [[decidable equality]].  For closedness of $\Delta$ means that $\Delta_\ast(U\cup \Delta^\ast(V)) \subseteq \Delta_\ast(U) \cup V$ for any $U\in O(X)$ and $V\in O(X\times X)$, where $x\in \Delta^\ast(V)$ means $(x,x)\in V$, while $(x,y)\in \Delta_\ast(U)$ means $(x=y)\to (x\in U)$.  Now let $U = \emptyset$ and $V = \{ (x,x) \mid x\in X \}$.  Then $(x,y) \in \Delta_\ast(U\cup \Delta^\ast(V))$ means $(x=y) \to (\bot \vee (x=x))$, which is a tautology; while $(x,y) \in \Delta_\ast(U) \cup V$ means $((x=y)\to \bot) \vee (x=y)$, i.e. $\neg(x=y) \vee (x=y)$.
+2. Definition \ref{constructive} above always holds, since $\{x\}$ and $\{y\}$ are neighborhoods of $x$ and $y$, and if they intersect then $x=y$.  That is, $X$ is spatially weakly Hausdorff.
+3. The diagonal $X\to X\times X$ is the complement of an open subset (i.e. $X$ is spatially strongly Hausdorff) if and only if equality in $X$ is stable under [[double negation]], in other words if $X$ admits a tight [[inequality relation]].
+4. The locale diagonal $\Delta:X\to X\times X$ is a closed sublocale (i.e. $X$ is localically strongly Hausdorff) if and only if $X$ has [[decidable equality]].  For closedness of $\Delta$ means that $\Delta_\ast(U\cup \Delta^\ast(V)) \subseteq \Delta_\ast(U) \cup V$ for any $U\in O(X)$ and $V\in O(X\times X)$, where $x\in \Delta^\ast(V)$ means $(x,x)\in V$, while $(x,y)\in \Delta_\ast(U)$ means $(x=y)\to (x\in U)$.  Now let $U = \emptyset$ and $V = \{ (x,x) \mid x\in X \}$.  Then $(x,y) \in \Delta_\ast(U\cup \Delta^\ast(V))$ means $(x=y) \to (\bot \vee (x=x))$, which is a tautology; while $(x,y) \in \Delta_\ast(U) \cup V$ means $((x=y)\to \bot) \vee (x=y)$, i.e. $\neg(x=y) \vee (x=y)$.
+5. I don't know what it means for $X$ to be localically weakly Hausdorff.  (Weak closure in locales is very inexplicit.)
 
-In particular, the statement "all discrete locales are Hausdorff (as locales)" is equivalent to [[excluded middle]].
+In particular, the statement "all discrete locales are localically strongly Hausdorff" is equivalent to [[excluded middle]].
 
-In terms of 'weakly closed' and 'strongly closed' subsets, as described at [[closed subset]], Definition \ref{constructive} says that $=$ is *weakly* closed in $X \times X$.  If we instead say that $=$ is *strongly* closed, then this means that there is a [[tight inequality]] $\ne$ (the [[symmetric relation|symmetrization]] of the [[exterior]] of $=$) relative to which Definition \ref{classical} holds.  (We use $\ne$ twice in that definition: in the hypothesis that $x \ne y$ and in the conclusion that $x' \ne y'$.)  This corresponds to (3) above for a discrete space.
+However, non-discrete spaces can constructively be localically strongly Hausdorff without having decidable equality.  For instance, any [[regular space]] is also regular as a locale, and hence localically strongly Hausdorff.  We can also say:
+
++--{: .num_theorem #Apartness}
+###### Theorem
+In any topological space $X$, let $x\#y$ mean that there exist opens $U,V$ with $x\in U$ and $y\in V$ and $U\cap V = \emptyset$; then $\#$ is always an [[inequality relation]].  If the spatial product $X\times X$ coincides with the locale product (such as if $X$ is [[locally compact space|locally compact]]), then $X$ is localically strongly Hausdorff if and only if $\#$ is an [[apartness relation]] and every open set in $X$ is $\#$-open (i.e. for any $x\in U$ and $y\in X$ we have $y\in U \vee x\#y$).
+=--
++--{: .proof}
+###### Proof
+Note that $\#$ is, as a subset $W_\# \subseteq X\times X$, the exterior of the diagonal in the product topology, mentioned above.  If $X$ is localically strongly Hausdorff, then $W_\#$ *must* be the open set of which the diagonal is the complementary closed sublocale, since it is the largest open set disjoint from the diagonal.
+
+To say that the diagonal *is* its complementary closed sublocale implies in particular that for any open set $U\subseteq X$, the open set $(U\times U) \cup W_\#$ is the largest open subset of $X\times X$ whose intersection with the diagonal is contained in $U\cap U = U$.  Specifically, therefore, $(U\times U) \cup W_\#$ contains $U\times X$ (since $U\times X$ is an open subset of $X\times X$ whose intersection with the diagonal is $U$).  That is, if $x\in U$ and $y\in X$, then either $(x,y)\in U\times U$ (i.e. $y\in U$) or $(x,y)\in W_\#$ (i.e. $x\#y$).  This shows that $U$ is $\#$-open.
+
+To show that $\#$ is an apartness, note that for any $x$ the set $\{ z \mid x\# z \}$ is open, since it is the preimage of $W_\#$ under a section of the second projection $X\times X \to X$.  Thus, it is $\#$-open, which is to say that if $x\# z$ then for any $y$ either $x\#y$ or $y\#z$, which is the missing [[comparison]] axiom for $\#$ to be an apartness.
+
+Conversely, suppose $\#$ is an apartness and every open set is $\#$-open (i.e. the apartness topology refines the given topology on $X$).  Let $A\subseteq X\times X$ be an open set; we must show that $A\cup W_\#$ is the largest open subset of $X\times X$ whose intersection with the diagonal is contained in $A\cap \Delta_X$.  In other words, suppose $U\times V$ is a basic open in $X\times X$ and $(U\times V)\cap \Delta_X$ (which is $U\cap V$) is contained in $A\cap \Delta_X$; we must show $U\times V\subseteq A\cup W_\#$.  In terms of elements, we assume that if $x\in U$ and $x\in V$ then $(x,x)\in A$, and we must show that if $x\in U$ and $y\in V$ then $(x,y)\in A \vee x\#y$.
+
+Assuming $x\in U$ and $y\in V$, since $U$ and $V$ are $\#$-open we have either $y\in U$ or $x\# y$, and either $x\in V$ or $x\#y$.  Since we are done if $x\#y$, it suffices to assume $y\in U$ and $x\in V$.  Therefore, by assumption, $(x,x)\in A$ and $(y,y)\in A$.  Since $A$ is open in the product topology, we have opens $U',V'$ with $x\in U'$ and $y\in V'$ and $U'\times U'\subseteq A$ and $V'\times V' \subseteq A$.  But now $\#$-openness of $U'$ and $V'$ tells us again that either $x\#y$ (in which case we are done) or $y\in U'$ and $x\in V'$.  In the latter case, $(x,y)\in U'\times U'$ (and also $V'\times V'$), and hence is also in $A$.
+=--
+
+Note that the apartness $\#$ need not be [[tight relation|tight]], and in particular $X$ need not be spatially Hausdorff.  In particular, if $X$ might not even be $T_0$: since localic Hausdorffness is (of course) only a property of the open-set lattice, it only "sees" the [[sobrification]] and in particular the $T_0$ quotient.  However, if $X$ is $T_0$, then it maps injectively to its sobrification, and then since any point of $X\times X$ must either lie in $W_\#$ or its complementary closed sublocale it follows that $\#$ is tight.
+
+If the locale product $X\times X$ does not coincide with the spatial product, then the "only if" direction of the above proof still works, if we define $W_\#$ to be the open part of the locale product $X\times X$ given by $W_\# = \bigvee \{ U\otimes V \mid U\cap V = \emptyset \}$.  A different proof is to recall that by [this theorem](/nlab/show/apartness+relation#ClosedLocalicEquivalenceRelation), an apartness relation is the same as a (strongly) closed equivalence relation on a discrete locale, and the quotient of such an equivalence relation is the $\#$-topology.  Thus, if $X$ is localically strongly Hausdorff, its diagonal is a closed equivalence relation, which yields by pullback a closed equivalence relation on the discrete locale $X_d$ on the same set of points.  This is the [[kernel pair]] of the canonical surjection $X_d \to X$, and hence its quotient (the $\#$-topology) maps to $X$, i.e. refines the topology of $X$.
 
 
 ## Related concepts
