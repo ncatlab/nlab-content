@@ -101,7 +101,7 @@ As remarked above, Grothendieck topologies on a small category $C$ are also in b
 
 See also 
 
-* [[coverage]], [[site]] [[Lawvere-Tierney topology]], [[Grothendieck pretopology]], [[Q-category]], [[cd-structure]]
+* [[coverage]], [[site]], [[Lawvere-Tierney topology]], [[Grothendieck pretopology]], [[Q-category]], [[cd-structure]]
 
 * [[(∞,1)-Grothendieck topology]]
 
