@@ -35,9 +35,9 @@ and the phenomenon of [[forking]] in model theory; that aspect is studied in [[s
 ## Saturation and the monster model
 If $m$ is a tuple of sort $s$, and $p$ is an $s$-type, we say that $m$ _realizes_ the type $p$ if the type of $m$ is $p$.
 
-By the completeness theorem, we can always realize types in larger models. For example, this is how one usually obtains a nonstandard model of arithmetic.
+By the completeness theorem, we can always realize types in larger elementary extensions if they aren't already realized in your model. For example, this is how one usually obtains a nonstandard model of arithmetic, because one can form the type (with parameters coming from the $\mathbb{N}$, which is small) which says "any realization of this must not equal anything in $\mathbb{N}$."
 
-Let $A$ be a subset of the model $M$. If we also allow parameters from $A$ in our formulas, we can form _types over $A$_. We say that a model is $\kappa$-saturated if all types over $A$ for $|A| = \kappa$ are realized.
+More generally, let $A$ be a subset of the model $M$. If we also allow parameters from $A$ in our formulas, we can form _types over $A$_. We say that a model is $\kappa$-saturated if all types over $A$ for $|A| = \kappa$ are realized.
 
 Saturated models always exist (maybe modulo some large cardinal assumptions.) For example, an $\aleph_0$-saturated elementary extension of the natural numbers equipped with their usual ordering just looks like $\mathbb{N}$ with $\omega$-many copies of $(\mathbb{Z},+)$ stacked on top, each of them containing points at infinity.
 
