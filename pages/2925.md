@@ -25,6 +25,16 @@ I\'ve decided that I don\'t really like how I\'ve been writing this, and I\'m wo
 Let $f\colon [0,1] \to \mathbb{R}$ be a [[continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
 =--
 
++-- {: .proof}
+###### Proof
+
+By [this example](connected+topological+space) the interval $[0,1]$ is a [[connected topological space]] (this is where [[excluded middle]] is used).
+
+By [this prop.](connected+topological+space) also its [[image]] $f([0,1]) \subset \mathbb{R}$ is connected. By [this example](connected+topological+space) that image is itself an interval. This implies the claim.
+
+=--
+
+
 +-- {: .num_theorem #conclusion}
 ###### Theorem
 (constructive IVT with weakened conclusion)
