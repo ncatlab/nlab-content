@@ -2217,7 +2217,7 @@ was shown (at least) in [Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61).
 ### Complex orientation and formal group law
  {#ComplexOrientationAndFormalGroupLaw}
 
-A [[generalized (Eilenberg-Steenrod) cohomology]] theory $E$ is called _[[complex oriented cohomology|complex oriented]]_
+A [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology]] theory $E$ is called _[[complex oriented cohomology|complex orientable]]_
 if the element $1 \in E(\ast) \simeq \tilde E(S^0)$ is in the image of the pullback morphism
 
 $$
