@@ -1,4 +1,4 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img height = "200" src="https://photos-6.dropbox.com/t/2/AAD1I8RocWsKtYrHIff30jJFazZSNl6kzel8w3rHL0CrEA/12/18318774/jpeg/1024x768/3/1422781200/0/2/2015-01-26%2010.44.18.jpg/CLaL3gggASACIAMoASgC/BIg_nR8_5r7FZAR_g0EIQ8xX_UvRwjzVqkl3wXxaH6M" alt="Catherine Ray"/></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img height = "200" src="http://rin.io/wp-content/uploads/2014/06/Screenshot-from-2014-11-21-171822.png" alt="Catherine Ray"/></div>
 
 Catherine Ray is a researcher studying [[elliptic cohomology]] and multiscale modeling.
 
