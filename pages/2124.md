@@ -44,7 +44,7 @@ The degeneracy of BPS states in string theory has been used to provide a microsc
 ## Formalization in higher differential geometry
  {#InTermsOfHigherDifferentialGeometry}
 
-> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]].
+> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]]. More details are in [classicalinhigher, section 3.3](#classicalinhigher).
 
 Let $\mathbb{R}^{d-1,1|N}$ be a [[super-Minkowski spacetime]], let $(d,N,p)$ be in the [[brane scan]] and write
 
@@ -224,6 +224,10 @@ The structure found in that article matches the general extension structure disc
 in view of
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics, Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+
+Discussion of the relatin of that to the traditional discussion of current algebras is in 
+
+* {#classicalinhigher} [[Urs Schreiber]], _[[Classical field theory via Cohesive homotopy types]]_
 
 ### Spectral networks
  {#SpectralNetworksReferences}
