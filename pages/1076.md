@@ -225,39 +225,265 @@ If $(f,g,h)$ is a [[distinguished triangle]], then $(f,g,-h)$ is not generally d
 
 ## Properties
 
-### Long exact sequences
+### Long fiber-cofiber sequences
+ {#LongExactSequences}
 
+The following prop. \ref{LongExactSequencesFromDistinguishedTriangle} is the incarnation in the axiomatics of triangulated categories of the [[long exact sequences of homotopy groups]] induced by [[homotopy fiber sequences]] in [[homotopy theory]].
 
-+-- {: .num_prop }
-###### Proposition
++-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
+###### Lemma
 
-Let $\mathcal{T}$ be a triangulated category, let $A \overset{f}{\to} B \overset{g}{\to} B/A \overset{h}{\to} T A$ be a distinguished triangle in $\mathcal{T}$ and let $X \in \mathcal{T}$ be any object. Then both and
-
-$$
-  \mathcal{T}(T A, X)
-    \overset{\mathcal{T}(h,X)}{\longrightarrow}
-  \mathcal{T}(B/A, X)
-    \overset{\mathcal{T}(g,X)}{\longrightarrow}
-  \mathcal{T}(B, X)
-    \overset{f,X}{\longrightarrow}
-  \mathcal{T}(A, X)
-$$
-
-and
+Given a [[triangulated category]], def. \ref{TriangulatedCategory}, and 
 
 $$
-  \mathcal{T}(X,A)   
-    \overset{\mathcal{T}(X,f)}{\longrightarrow}
-  \mathcal{T}(X,B)
-     \overset{\mathcal{T}(X,g)}{\longrightarrow}
-  \mathcal{T}(X,B/A)
-     \overset{\mathcal{T}(X,h)}{\longrightarrow}
-  \mathcal{T}(X, T A)
+  A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
 $$
 
-are [[long exact sequences]] (of [[abelian groups]]).
+a distinguished triangle, then 
+
+$$
+  g\circ f = 0
+$$
+
+is the [[zero morphism]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[commuting diagram]]
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Observe that the top part is a distinguished triangle by axioms T1 and T2 in def. \ref{TriangulatedCategory}. Hence by T3 there is an extension to 
+a commuting diagram of the form
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    && \downarrow
+    && \downarrow^{\mathrlap{\Sigma f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Now the commutativity of the middle square proves the claim.
+
+=--
+
++-- {: .num_prop #LongExactSequencesFromDistinguishedTriangle}
+###### Proposition
+
+Consider a [[triangulated category]], def. \ref{TriangulatedCategory}, with shift functor denoted $\Sigma$ and with [[hom-functor]] denoted $[-,-]_\ast \colon Ho^{op}\times Ho \to Ab$. Then for $X$ any object, and for any distinguished triangle
+
+$$
+  A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
+$$
+
+the sequences of [[abelian groups]]
+
+1. (long cofiber sequence) 
+    
+   $$
+    [\Sigma A, X]_\ast
+      \overset{[h,X]_\ast}{\longrightarrow}
+    [B/A,X]_\ast
+      \overset{[g,X]_\ast}{\longrightarrow}
+    [B,X]_\ast
+      \overset{[f,X]_\ast}{\longrightarrow}
+    [A,X]_\ast
+   $$
+
+1. (long fiber sequence)
+
+   $$
+     [X,A]_\ast
+       \overset{[X,f]_\ast}{\longrightarrow}
+     [X,B]_\ast
+       \overset{[X,g]_\ast}{\longrightarrow}
+     [X,B/A]_\ast
+       \overset{[X,h]_\ast}{\longrightarrow}
+     [X,\Sigma A]_\ast 
+   $$
+
+are [[long exact sequences]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first case:
+
+Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, we have an inclusion $im([g,X]_\ast) \subset ker([f,X]_\ast)$. Hence it is sufficient to show that if $\psi \colon B \to X$ is in the kernel of $[f,X]_\ast$ in that $\psi \circ f = 0$, then there is $\phi \colon C \to X$ with $\phi \circ g = \psi$. To that end, consider the commuting diagram
+
+$$
+  \array{
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A
+    \\
+    \downarrow && {}^{\mathllap{\psi}}\downarrow
+    \\
+    0 
+      &\overset{}{\longrightarrow}&
+    X
+      &\overset{id}{\longrightarrow}&
+    X
+      &\overset{}{\longrightarrow}&
+    0
+  }
+  \,,
+$$
+
+where the commutativity of the left square exhibits our assumption.
+
+The top part of this diagram is a distinguished triangle by assumption, and the bottom part is by condition $T1$ in def. \ref{TriangulatedCategory}. Hence by condition T3 there exists $\phi$ fitting into a commuting diagram of the form
+
+$$
+  \array{
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A
+    \\
+    \downarrow && {}^{\mathllap{\psi}}\downarrow && \downarrow^{\mathrlap{\phi}} && \downarrow
+    \\
+    0 
+      &\overset{}{\longrightarrow}&
+    X
+      &\overset{id}{\longrightarrow}&
+    X
+      &\overset{}{\longrightarrow}&
+    0
+  }
+  \,.
+$$
+
+Here the commutativity of the middle square exhibits the desired conclusion.
+
+This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished traingle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
+
+Regarding the second case: 
+
+Again, from lemma \ref{CompositesInADistinguishedTriangleAreZero} it is immediate that 
+
+$$
+  im([X,f]_\ast) \subset ker([X,g]_\ast)
+$$
+
+so that we need to show that for $\psi \colon X \to B$ in the kernel of $[X,g]_\ast$, hence such that $g\circ \psi = 0$, then there exists $\phi \colon X \to A$ with $f \circ \phi = \psi$.
+
+To that end, consider the commuting diagram
+
+$$
+  \array{
+    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    \\
+    \downarrow^{\mathrlap{\psi}} && \downarrow
+    \\
+     B 
+       &\overset{g}{\longrightarrow}&
+     B/A
+       &\overset{h}{\longrightarrow}&
+     \Sigma A
+       &\overset{-\Sigma f}{\longrightarrow}&
+     \Sigma B
+  }
+  \,,
+$$
+
+where the commutativity of the left square exhibits our assumption.
+
+Now the top part of this diagram is a distinguished triangle by conditions T1 and T2 in def. \ref{TriangulatedCategory}, while the bottom part is a distinguished triangle by applying T2 to the given distinguished triangle. Hence by T3 there exists $\tilde \phi \colon \Sigma X \to \Sigma A$ such as to extend to a commuting diagram of the form
+
+$$
+  \array{
+    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    \\
+    \downarrow^{\mathrlap{\psi}} 
+      && 
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{\tilde \phi}}
+      &&
+    \downarrow^{\mathrlap{\Sigma \psi}}
+    \\
+     B 
+       &\overset{g}{\longrightarrow}&
+     B/A
+       &\overset{h}{\longrightarrow}&
+     \Sigma A
+       &\overset{-\Sigma f}{\longrightarrow}&
+     \Sigma B
+  }
+  \,,
+$$
+
+At this point we appeal to the condition in def. \ref{TriangulatedCategory} that $\Sigma \colon Ho \to Ho$ is an [[equivalence of categories]], so that in particular it is a [[fully faithful functor]]. It being a [[full functor]] implies that there exists $\phi \colon X \to A$ with $\tilde \phi = \Sigma \phi$. It being faithful then implies that the whole commuting square on the right is the image under $\Sigma$ of a commuting square
+
+$$
+  \array{
+    X &\overset{-id}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\phi}}\downarrow && \downarrow^{\mathrlap{\psi}}
+    \\
+    A &\underset{-f}{\longrightarrow}& B
+  }
+  \,.
+$$
+
+This exhibits the claim to be shown.
+
+=--
+
+
+
 
 
 
