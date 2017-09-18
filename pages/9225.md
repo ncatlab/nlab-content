@@ -9,19 +9,14 @@ An [[algebra over an operad]] over the [[BD operad]].
 
 For the moment see at _[[BV-complex]]_
 
-+-- {: .num_remark}
-###### Remark
 
-Beware that the definition of BD-algebra is very similar to that of _[[BV-algebra]]_, but there is a crucial difference in sign in the grading of the bracket (e.g. [Gwilliam 13, footnote 7](#Gwilliam13)). Beware that, confusingly, it is the BD-algebras, not the [[BV-algebras]], which control [[BV-formalism]] in [[field theory]].
-
-=--
 
 ## Definition
 
 +-- {: .num_defn #BeilinsonDrinfelAlgebra}
 ###### Definition
 
-A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[graded algebra]] $A$ over the ring $\mathbb{R} [ [ \hbar ] ]$ of [[formal power series]] in a formal constant $\hbar$, equipped with a [[Poisson 0-algebra|Poisson bracket]] $\{-,-\}$ of degree 1 and with an operator $\Delta \colon A \to A$ of degree 1 which satisfies:
+A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[graded algebra|graded]] [[supercommutative superalgebra|graded-commutative algebra]] $A$ over the ring $\mathbb{R} [ [ \hbar ] ]$ of [[formal power series]] in a formal constant $\hbar$, equipped with a [[Poisson 0-algebra|Poisson bracket]] $\{-,-\}$ of degree 1 and with an operator $\Delta \colon A \to A$ of degree 1 which satisfies:
 
 1. $\Delta^2 = 0$
 
