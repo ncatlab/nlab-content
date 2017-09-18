@@ -3212,7 +3212,7 @@ Specifically, for each natural number $d$ dividing $n$ it contains $\mathbb{Z}/d
 For $p$ a [[prime number]], there are, up to [[isomorphism]], two [[abelian groups]] of [[order of a group|order]] $p^2$, namely
 
 $$
-  (\mathbb{Z}/p\mathbb{Z}) \otimes (\mathbb{Z}/p\mathbb{Z})
+  (\mathbb{Z}/p\mathbb{Z}) \oplus (\mathbb{Z}/p\mathbb{Z})
 $$
 
 and
