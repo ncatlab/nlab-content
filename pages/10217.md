@@ -165,7 +165,9 @@ The following contains a careful discussion of the incompleteness theorem in the
 
 * [[Jim Lambek]], [[Phil Scott]], _Reflections on Categorical Foundations of Mathematics_ , pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
 
+See also 
 
+* Maria Maietti, _Joyal's arithmetic universe as List-Arithmetic Pretopos_ ([pdf](http://www.math.unipd.it/~maietti/papers/jartac.pdf))
 
 [^fine1]: Assuming that the theory is consistent. If the theory is inconsistent, then it can prove falsity and thence anything, including any internal statements of consistency. 
 
