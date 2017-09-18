@@ -20,6 +20,9 @@ The [[D-brane]] in [[type IIA supergravity]] of [[dimension]] 2+1.
 
 ## Related concepts
 
+
+* [[Myers effect]]
+
 [[!include table of branes]]
 
 [[!redirects D2-branes]]
