@@ -66,7 +66,13 @@ Discussion with an eye towards combination with [[spin geometry]] is in
 
 * [[Pierre Anglès]], _Conformal Groups in Geometry and Spin Structures_, Progress in Mathematical Physics 2008
 
+
+[[!redirects conformal geometries]]
+
+[[!redirects conformal structure]]
 [[!redirects conformal structures]]
 
-[[!redirects conformal geometry]]
-[[!redirects conformal geometries]]
+[[!redirects conformal manifold]]
+[[!redirects conformal manifolds]]
+
+
