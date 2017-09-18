@@ -1194,6 +1194,187 @@ $$
 
 =--
 
+##### Multiplicative cohomology theories
+
+The [[generalized cohomology theories]] considered above assign _[[cohomology groups]]_. It is familiar from [[ordinary cohomology]] with [[coefficients]] not just in a group but in a [[ring]], that also the cohomology groups inherit compatible ring structure. The generalization of this phenomenon to generalized cohomology theories is captured by the concept of [[multiplicative cohomology theories]]:
+
++-- {: .num_defn #PairingOfUnreducedCohomologyTheories}
+###### Definition
+
+Let $E_1, E_2, E_3$ be three unreduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theories]] ([def.](generalized+cohomology+theory#GeneralizedCohomologyTheory)). A **pairing of cohomology theories** 
+
+$$
+  \mu \;\colon\; E_1 \Box E_2 \longrightarrow E_3
+$$
+
+is a [[natural transformation]] (of functors on $(Top_{CW}^{\hookrightarrow}\times Top_{CW}^{\hookrightarrow})^{op} $) of the form
+
+$$
+  \mu_{n_1,n_2}
+   \;\colon\;
+  E_1^{n_1}(X,A)
+    \otimes
+  E_2^{n_2}(Y,B)
+    \longrightarrow
+  E_r^{n_1 + n_2}(X\times Y \;,\; A\times Y \cup X \times B)
+$$
+
+such that this is compatible with the connecting homomorphisms $\delta_i$ of $E_i$, in that the following are [[commuting squares]]
+
+$$
+  \array{
+    E_1^{n_1}(A)
+      \otimes 
+    E_2^{n_2}(Y,B)
+      &\overset{\delta_1 \otimes id_2}{\longrightarrow}&
+    E_1^{n_1+1}(X,A) \otimes E_2^{n_2}(Y,B)
+    \\
+    {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_1+1, n_2}}}
+    \\
+   \underoverset
+     {E_3^{n_1 + n_2}(A \times Y  \cup  X \times B , X \times B)}
+     {E_3^{n_1 + n_2}(A \times Y, A \times B)}
+     {\simeq}
+     &\overset{\delta_3}{\longrightarrow}&
+     E_3^{n_1 + n_2+ 1}(X \times Y, A \times B)
+  }
+$$
+
+and
+
+$$
+  \array{
+    E_1^{n_1}(X,A)
+      \otimes 
+    E_2^{n_2}(B)
+      &\overset{(-1)^{n_1} id_1 \otimes \delta_2}{\longrightarrow}&
+    E_1^{n_1+1}(X,A) \otimes E_2^{n_2}(Y,B)
+    \\
+    {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{n_1, n_2 + 1}}}
+    \\
+   \underoverset
+     {E_3^{n_1 + n_2}(A \times Y \cup X \times B , A \times Y)}
+     {E_3^{n_1 + n_2}(X \times B, A \times B)}
+     {\simeq}
+     &\overset{\delta_3}{\longrightarrow}&
+     E_3^{n_1 + n_2+ 1}(X \times Y, A \times B)
+  }
+  \,,
+$$
+
+where the isomorphisms in the bottom left are the [excision isomorphisms](generalized+cohomology+theory##excision).
+
+=--
+
++-- {: .num_defn #MultiplicativeCohomologyTheory}
+###### Definition
+
+An (unreduced) **multiplicative cohomology theory** is an unreduced [[generalized cohomology theory]] theory $E$ (def. \ref{GeneralizedCohomologyTheory}) equipped with 
+
+1. (external multiplication) a pairing (def. \ref{PairingOfUnreducedCohomologyTheories}) of the form $\mu \;\colon\; E \Box E  \longrightarrow E$;
+
+1. (unit) an element $1 \in E^0(\ast)$
+
+such that
+
+1. ([[associativity]]) $\mu \circ (id \otimes \mu) = \mu \circ (\mu \otimes id)$;
+
+2. ([[unitality]]) $\mu(1\otimes x) = \mu(x \otimes 1) = x$ for all $x \in E^n(X,A)$.
+
+The mulitplicative cohomology theory is called **commutative** (often considered by default) if in addition
+
+* **(graded commutativity)** 
+
+  $$  
+    \array{
+      E^{n_1}(X,A) \otimes E^{n_2}(Y,B)
+      &\overset{(u \otimes v) \mapsto (-1)^{n_1 n_2} (v \otimes u) }{\longrightarrow}& 
+      E^{n_2}(Y,B) \otimes E^{n_1}_{X,A}
+      \\
+      {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_1,n_2}}}
+      \\
+      E^{n_1 + n_2}( X \times Y , A \times Y \cup X \times B)
+      &\underset{(switch_{(X,A), (Y,B)})^\ast}{\longrightarrow}&
+      E^{n_1 + n_2}( Y \times X , B \times X \cup Y \times A)
+    }
+    \,.
+  $$
+
+{#InternalMultiplicationOfMultiplicativeCohomologyTheory} Given a multiplicative cohomology theory $(E, \mu, 1)$, its **[[cup product]]** is the composite of the above external multiplication with pullback along the [[diagonal]] maps $\Delta_{(X,A)} \colon (X,A) \longrightarrow (X\times X, A \times X \cup X \times A)$;
+
+$$
+  (-) \cup (-)
+   \;\colon\;
+  E^{n_1}(X,A)
+   \otimes
+  E^{n_2}(X,A)
+    \overset{\mu_{n_1,n_2}}{\longrightarrow}
+  E^{n_1 + n_2}( X \times X, \; A \times X \cup X \times A)
+    \overset{\Delta^\ast_{(X,A)}}{\longrightarrow}
+  E^{n_1 + n_2}(X, \; A \cup B)
+  \,.
+$$
+
+=--
+
+e.g. ([Tamaki-Kono 06, II.6](multiplicative+cohomology+theory#TamakiKono06))
+
++-- {: .num_prop #RingAndModuleStructureOnCohomologyGroupsOfMultiplicativeCohomplogyTheory}
+###### Proposition
+
+Let $(E,\mu,1)$ be a multiplicative cohomology theory, def. \ref{MultiplicativeCohomologyTheory}. Then
+
+1. For every space $X$ the [cup product](#InternalMultiplicationOfMultiplicativeCohomologyTheory) gives $E^\bullet(X)$ the structure of a $\mathbb{Z}$-[[graded ring]], which is graded-commutative if $(E,\mu,1)$ is commutative.
+
+1. For every pair $(X,A)$ the external multiplication $\mu$ gives $E^\bullet(X,A)$ the structure of a left and right [[module]] over the graded ring $E^\bullet(\ast)$.
+
+1. All pullback morphisms respect the left and right action of $E^\bullet(\ast)$ and the connecting homomorphisms respect the right action and the left action up to multiplication by $(-1)^{n_1}$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the third point:
+
+For pullback maps this is the [[natural transformation|naturality]] of the external product: let $f \colon (X,A) \longrightarrow (Y,B)$ be a morphism in $Top_{CW}^{\hookrightarrow}$ then naturality says that the following square commutes:
+
+$$
+  \array{
+    E^{n_1}(\ast) \otimes E^{n_2}(Y,B)
+    &\overset{\mu_{n_1,n_2}}{\longrightarrow}&
+    E^{n_1 + n_2}(Y, B)
+    \\
+    {}^{\mathllap{(id,f^\ast)}}\downarrow && \downarrow^{\mathrlap{f^\ast}}
+    \\
+    E^{n_1}(\ast) \otimes E^{n_2}(X,A)
+    &\overset{\mu_{n_1,n_2}}{\longrightarrow}&
+    E^{n_1 + n_2}(Y,B)
+  }
+  \,.
+$$
+
+For connecting homomorphisms this is the (graded) commutativity of the squares in def. \ref{MultiplicativeCohomologyTheory}:
+
+$$
+  \array{
+    E^{n_1}(\ast)\otimes E^{n_2}(A)
+      &\overset{(-1)^{n_1} (id, \delta)}{\longrightarrow}&
+    E^{n_1}(\ast) \otimes E^{n_2 + 2}(X)
+    \\
+    {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_1,n_2}}}
+    \\
+    E^{n_1 + n_2}(A)     
+      &\overset{\delta}{\longrightarrow}&
+     E_3^{n_1 + n_2+ 1}(X,B)
+  }
+  \,.
+$$
+
+=--
+
 
 
 #### Brown representability theorem
@@ -2536,7 +2717,7 @@ $$
   \cdots \to X_3 \overset{p_2}{\longrightarrow} X_2 \overset{p_1}{\longrightarrow} X_1 \overset{p_0}{\longrightarrow} X_0
 $$
 
-be a [[tower of fibrations]] ([[Serre fibrations]]). Then for each $q \in \mathbb{N}$ there is a [[short exact sequence]]
+be a [[tower of fibrations]] ([[Serre fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration))). Then for each $q \in \mathbb{N}$ there is a [[short exact sequence]]
 
 $$
   0 
@@ -3088,7 +3269,7 @@ The following proposition requires, in general, to evaluate cohomology functors 
 ###### Proposition
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]], such that all its [[fibers]] are [[weakly contractible topological space|weakly contractible]] or such that $B$ is [[simply connected topological space|simply connected]]. In either case all [[fibers]] are identified with a typical fiber $F$ up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness: 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)), such that all its [[fibers]] are [[weakly contractible topological space|weakly contractible]] or such that $B$ is [[simply connected topological space|simply connected]]. In either case all [[fibers]] are identified with a typical fiber $F$ up to [[weak homotopy equivalence]] by connectedness ([this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)), and well defined up to unique iso in the homotopy category by simply connectedness: 
 
 $$
   \array{
@@ -3287,11 +3468,63 @@ If $X$ is finite dimensional or more generally if the sequences that this limit 
 +-- {: .num_prop #AHSSForMultiplicativeCohomologyIsMultiplicative}
 ###### Proposition
 
-For $E^\bullet$ a [[multiplicative cohomology theory]] ([[Brown representability theorem|Brown represented]] by a [[ring spectrum]]), then the Atiyah-Hirzebruch spectral sequences (prop. \ref{AHSSExistence}) for $E^\bullet(X)$ are [[multiplicative spectral sequences]].
+For $E^\bullet$ a [[multiplicative cohomology theory]] (def. \ref{MultiplicativeCohomologyTheory}), then the Atiyah-Hirzebruch spectral sequences (prop. \ref{AHSSExistence}) for $E^\bullet(X)$ are [[multiplicative spectral sequences]].
 
 =--
 
 A decent proof is spelled out in ([Kochman 96, prop. 4.2.9](#Kochman96)). Use the [graded commutativity of smash products of spheres](smash+product+of+spectra#GradedCommutativity) to get the sign in the graded derivation law for the differentials. See also the proof via [[Cartan-Eilenberg systems]] at _[multiplicative spectral sequence -- Examples -- AHSS for multiplicative cohomology](multiplicative+spectral+sequence#AHSSForMultiplicativeCohomology)_.
+
++-- {: .num_prop}
+###### Proposition
+
+Given a multiplicative cohomology theory $(A,\mu,1)$ (def. \ref{MultiplicativeCohomologyTheory}), then for every [[Serre fibration]] $X \to B$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)) all the differentials in the corresponding [[Atiyah-Hirzebruch spectral sequence]] of prop. \ref{AHSSExistence}
+
+$$
+  H^\bullet(B,A^\bullet(F)) 
+  \;\Rightarrow\;
+  A^\bullet(X) 
+$$
+
+are linear over $A^\bullet(\ast)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the proof of prop. \ref{AHSSExistence}, the differentials are those induced by the [[exact couple]]
+
+$$
+  \array{
+    \underset{s,t}{\prod} A^{s+t}(X_{s})
+    &&
+      \stackrel{}{\longrightarrow} 
+    &&
+    \underset{s,t}{\prod} A^{s+t}(X_{s})
+    \\
+    & \nwarrow && \swarrow
+    \\
+    && \underset{s,t}{\prod} A^{s+t}(X_{s}, X_{s-1})
+  }
+  \;\;\;\;\;\;\;
+  \left(
+      \array{
+        A^{s+t}(X_s) & \longrightarrow & A^{s+t}(X_{s-1})
+        \\
+        \uparrow && \downarrow_{\mathrlap{\delta}}
+        \\
+        A^{s+t}(X_s, X_{s-1}) && A^{s+t+1}(X_{s}, X_{s-1})
+      }
+  \right)
+  \,.
+$$
+
+consisting of the pullback homomorphisms and the connecting homomorphisms of $A$.
+
+By prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} its differentials on page $r$ are the composites of one pullback homomorphism, the preimage of $(r-1)$ pullback homomorphisms, and one connecting homomorphism of $A$. Hence the statement follows with prop. \ref{RingAndModuleStructureOnCohomologyGroupsOfMultiplicativeCohomplogyTheory}.
+
+
+=--
 
 
 +-- {: .num_prop #AHSSPairing}
