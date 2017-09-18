@@ -1,26 +1,25 @@
 
-
 {:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
 This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see _[[topological space]]_.
 
 ***
 
-#Contents#
+
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -279,7 +278,7 @@ topology be closely related to [[formal logic]] (for more on this see at _[[loca
 
 The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]]. 
 
-One says that [[topological spaces]] form the [[objects]] of  a _[[category]]_, whose [[morphisms]] are the [[homeomorphisms]].
+One says that [[topological spaces]] form the [[objects]] of  a _[[category]]_, whose [[morphisms]] are the [[continuous maps]].
 
 
 <img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
