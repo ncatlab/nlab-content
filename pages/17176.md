@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Adams category_, named after ([Adams 74](#Adams74)) was historically one of the first constructions of the [[stable homotopy category]]. It is defined to be the category of [[CW-spectra]] together with [[left homotopy|left]] [[homotopy classes]] (via [[cylinder spectra]]) of "eventually defined" functions between them.
+
+## References
+
+The definition is due to
+
+* {#Adams74} [[Frank Adams]], Part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
+The term "Adams category" for this starts to be used for instance in 
+
+* [[Harold Hastings]], _On function spectra_, Proceedings of the AMS, volume 44, Number 1, May 1974 ([pdf](http://www.ams.org/journals/proc/1974-044-01/S0002-9939-1974-0343258-4/S0002-9939-1974-0343258-4.pdf))
+
+Lecture notes include
+
+* [[Cary Malkiewich]], section 2.1 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
+
+
+[[!redirects Adams' category]]
