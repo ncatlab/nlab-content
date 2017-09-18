@@ -1,0 +1,2 @@
+* Webpage at [Manchester](http://staff.cs.manchester.ac.uk/~hsimmons)
+* Specialization: logic, model theory, lattices, (semi)rings, localization, [[pointless topology]], sheaf representations, recursion theory, $\lambda$-calculus, and proof theory
