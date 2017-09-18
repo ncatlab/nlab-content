@@ -23,6 +23,8 @@
 
 A __comonad__ (or cotriple) on a [[category]] $A$ is a [[monad]] on its [[dual category]] $A^{op}$.  More generally, a comonad in a [[2-category]] $E$ is a [[comonoid]] in the [[monoidal category]] $E(X,X)$ for some [[object]] $X\in K$.
 
+See at _[[monad]]_ for more.
+
 ## Properties
 
 ### Coalgebras
