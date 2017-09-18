@@ -8309,11 +8309,11 @@ Together this is a [[zig-zag]] of weak equivalences of the form
 
 $$
   fib(f_1)
-    \overset{\in W}{\longleftarrow}
+    \;\overset{\in W}{\longleftarrow}\;
   fib(Path(f_1)\to Path(Y))
-    \overset{\in W}{\longrightarrow}
+    \;\overset{\in W}{\longrightarrow}\;
   fib(Path(f_1)\to Y)
-    \overset{\in W}{\longleftarrow}
+    \;\overset{\in W}{\longleftarrow}\;
   fib(Path(f) \to Y)
 $$
 
@@ -8436,7 +8436,10 @@ is [[exact sequence|exact]] as a sequence of [[pointed sets]].
 +-- {: .proof}
 ###### Proof
 
-We may choose representatives such that $A$ is cofibrant, and $f$ is a fibration. Then we are faced with an ordinary pullback diagram
+Let $A$, $X$ and $Y$ denote fibrant-cofibrant objects in $\mathcal{C}^{\ast/}$ representing the given objects of the same name in $Ho(\mathcal{C}^{\ast/})$. Moreover, let $f$ be a fibration in $\mathcal{C}^{\ast/}$ representing the given morphism of the same name in $Ho(\mathcal{C}^{\ast/})$.
+
+Then by def. \ref{HomotopyFiber} and prop. 
+\ref{HomotopyFiberIndependentOfChoiceOfFibrantReplacement}, then there is a representative $hofib(f) \in \mathcal{C}$ of the homotopy fiber which fits into a pullback diagram of the form
 
 $$
   \array{
@@ -8448,7 +8451,7 @@ $$
   }
 $$ 
 
-and the hom-classes are represented by genuine morphisms in $\mathcal{C}$. From this it follows immediately that $ker(p_\ast)$ includes $im(i_\ast)$. Hence it remains to show that every element in $ker(p_\ast)$ indeed comes from $im(i_\ast)$.
+With this the hom-sets in question are represented by genuine morphisms in $\mathcal{C}^{\ast/}$, modulo homotopy. From this it follows immediately that $ker(p_\ast)$ includes $im(i_\ast)$ into $ker(f_\ast)$. Hence it remains to show the converse: that every element in $ker(p_\ast)$ indeed comes from $im(i_\ast)$.
 
 But an element in $ker(p_\ast)$ is represented by a morphism $\alpha \colon A \to X$ such that there is a left homotopy as in the following diagram
 
@@ -8476,7 +8479,7 @@ With prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} it also follow
 +-- {: .num_remark #ConcatenatedLoopSpaceObject}
 ###### Remark
 
-Given an object $X \in \mathcal{C}^{\ast/}_f$, and picking any [[path space object]] $Path(X)$, def. \ref{PathAndCylinderObjectsInAModelCategory} with induced [[loop space object]] $\Omega X$, def. \ref{SuspensionAndLoopSpaceObject}, write $Path_2(X) = Path(X) \underset{X}{\times} Path(X)$ for the [[path space object]] given by the fiber square of $Path(X)$ via example \ref{ComposedPathSpaceObjects}. From the pullback diagram there, the fiber inclusion $\Omega X \to Path(X)$ induces a morphism
+Given an object $X \in \mathcal{C}^{\ast/}_f$, and picking any [[path space object]] $Path(X)$, def. \ref{PathAndCylinderObjectsInAModelCategory} with induced [[loop space object]] $\Omega X$, def. \ref{SuspensionAndLoopSpaceObject}, write $Path_2(X) = Path(X) \underset{X}{\times} Path(X)$ for the [[path space object]] given by the fiber product  of $Path(X)$ with itself, via example \ref{ComposedPathSpaceObjects}. From the pullback diagram there, the fiber inclusion $\Omega X \to Path(X)$ induces a morphism
 
 $$
   \Omega X \times \Omega X \longrightarrow (\Omega X)_2
@@ -8490,7 +8493,7 @@ In the case where $\mathcal{C}^{\ast/} = Top^{\ast/}$ this is the operation of c
 +-- {: .num_prop #LoopingAsFunctorOnHomotopyCategory}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes unique up to isomorphism in the [[homotopy category of a model category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) and extends to a [[functor]]:
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes unique up to isomorphism in the [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) and extends to a [[functor]]:
 
 $$
   \Omega 
@@ -8626,7 +8629,7 @@ This is crucially different for the [[homotopy fiber]], def. \ref{HomotopyFiber}
 +-- {: .num_prop #HomotopyFiberOfHomotopyFiberIsLooping}
 ###### Proposition
 
-Let $\mathcal{C}_f$ be a [[category of fibrant objects]] of a [[model category]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} and let $f \colon X \longrightarrow Y$ a morphism in its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}. Then the [[homotopy fiber]] of its [[homotopy fiber]], def. \ref{HomotopyFiber}, is isomorphic, in $Ho(\mathcal{C}^{\ast/})$, to the [[loop space object]] $\Omega Y$ of $Y$ (def. \ref{SuspensionAndLoopSpaceObject}, prop. \ref{LoopingAsFunctorOnHomotopyCategory}):
+Let $\mathcal{C}_f$ be a [[category of fibrant objects]] of a [[model category]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} and let $f \colon X \longrightarrow Y$ be a morphism in its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}. Then the [[homotopy fiber]] of its [[homotopy fiber]], def. \ref{HomotopyFiber}, is isomorphic, in $Ho(\mathcal{C}^{\ast/})$, to the [[loop space object]] $\Omega Y$ of $Y$ (def. \ref{SuspensionAndLoopSpaceObject}, prop. \ref{LoopingAsFunctorOnHomotopyCategory}):
 
 $$
   hofib(hofib(X \overset{f}{\to}Y)) \simeq \Omega Y
@@ -8919,7 +8922,7 @@ By combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{E
 +-- {: .num_remark}
 ###### Remark
 
-In ([Quillen 67, I.3, prop. 3, prop. 4](#Quillen67)) more is shown than stated in prop. \ref{LongFiberSequence}: there the [[connecting homomorphism]] $\Omega  Y \to hofib(f)$ is not just shown to exist, but is described in detail via an [[action]] of $\Omega Y$ on $hofib(f)$ in $Ho(\mathcal{C})$ in . For all applications that follow, however, it is sufficient to know that such a morphism exists at all, hence that $\Omega Y \simeq hofib(hofib(f))$.
+In ([Quillen 67, I.3, prop. 3, prop. 4](#Quillen67)) more is shown than stated in prop. \ref{LongFiberSequence}: there the [[connecting homomorphism]] $\Omega  Y \to hofib(f)$ is not just shown to exist, but is described in detail via an [[action]] of $\Omega Y$ on $hofib(f)$ in $Ho(\mathcal{C})$. This takes a good bit more work. For our purposes here, however, it is sufficient to know that such a morphism exists at all, hence that $\Omega Y \simeq hofib(hofib(f))$.
 
 =--
 
@@ -8927,7 +8930,7 @@ In ([Quillen 67, I.3, prop. 3, prop. 4](#Quillen67)) more is shown than stated i
 +-- {: .num_example #LongExactSequeceOfHomotopyGroups}
 ###### Example
 
-Let $\mathcal{C} = Top_{Quillen}$ be the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}. Then using the  standard topological path space objects $X^I$ from def. \ref{TopologicalPathSpace} as the abstract path space objects in def. \ref{PathAndCylinderObjectsInAModelCategory}, via prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}, or rather the pointed version $X^{I_+}$ from example \ref{PointedMappingSpace}, gives that
+Let $\mathcal{C} = (Top_{cg})_{Quillen}$ be the [[classical model structure on topological spaces]] ([[compactly generated topological spaces|compactly generated]]) from theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}. Then using the  standard pointed topological path space objects $Maps(I_+,X)$ from def. \ref{TopologicalPathSpace} and example \ref{PointedMappingSpace} as the abstract path space objects in def. \ref{PathAndCylinderObjectsInAModelCategory}, via prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}, this gives that
 
 $$
   [\ast, \Omega^n X] \simeq \pi_n(X)
@@ -8963,14 +8966,19 @@ $$
 
 This is called the **[[long exact sequence of homotopy groups]]** induced by $f$. 
 
-As we pass to [[stable homotopy theory]] (in [[Introduction to Stable homotopy theory -- 1|Part 1)]]), these sequences become long not just to the left, but also to the right. Given then a [[tower of fibrations]], then there is an induced sequence of such long exact sequences of homotopy groups, which organizes into an _[[exact couple]]_. For more on this see at _[[Introduction to Stable homotopy theory -- I|Interlude) Spectral sequences]]_ [this remark](Introduction+to+Stable+homotopy+theory+--+I#UnrolledExactCoupleOfAFiltrationOnASpectrum).
+=--
+
++-- {: .num_remark #}
+###### Remark
+
+As we pass to [[stable homotopy theory]] (in [[Introduction to Stable homotopy theory -- 1|Part 1)]]), the long exact sequences in example \ref{LongExactSequeceOfHomotopyGroups} become long not just to the left, but also to the right. Given then a [[tower of fibrations]], there is an induced sequence of such long exact sequences of homotopy groups, which organizes into an _[[exact couple]]_. For more on this see at _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_ ([this remark](Introduction+to+Stable+homotopy+theory+--+I#UnrolledExactCoupleOfAFiltrationOnASpectrum)).
 
 =--
 
 +-- {: .num_example}
 ###### Example
 
-Let again $\mathcal{C} = Top_{Quillen}$ be the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, as in example \ref{LongExactSequeceOfHomotopyGroups}. For $E \in Top^{\ast/}$ any [[pointed topological space]] and $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, the exactness of the sequence in the second item of prop. \ref{LongFiberSequence}
+Let again $\mathcal{C} = (Top_{cg})_{Quillen}$ be the [[classical model structure on topological spaces]] ([[compactly generated topological space|compactly generated]]) from theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}, as in example \ref{LongExactSequeceOfHomotopyGroups}. For $E \in Top_{cg}^{\ast/}$ any [[pointed topological space]] and $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, the exactness of the sequence in the second item of prop. \ref{LongFiberSequence}
 
 $$
   \cdots \to [hocofib(i), E] \longrightarrow [X,E]_\ast \longrightarrow [A,E]_\ast \to \cdots
@@ -9003,7 +9011,7 @@ We conclude this discussion of classical homotopy theory with the key statement 
 +-- {: .num_prop #SuspensionAndLoopAreAdjointOnHomotopyCategory}
 ###### Proposition
 
-The canonical [[loop space]] functor $\Omega$ and [[reduced suspension]] functor $\Sigma$ (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) on the [[classical pointed homotopy category]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}) are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
+The canonical [[loop space]] functor $\Omega$ and [[reduced suspension]] functor $\Sigma$ from prop. \ref{LoopingAsFunctorOnHomotopyCategory} on the [[classical pointed homotopy category]] from def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
 
 $$
   (\Sigma \dashv \Omega)
@@ -9020,7 +9028,7 @@ $$
   (Top_{cg}^{\ast/})_{Quillen}
     \underoverset
       {\underset{Maps(S^1, -)_\ast}{\longrightarrow}}
-      {\overset{S^1 \wedge (-)}{\longrightarrow}}
+      {\overset{S^1 \wedge (-)}{\longleftarrow}}
       {\bot}
   (Top_{cg}^{\ast/})_{Quillen}
 $$
@@ -9035,14 +9043,14 @@ of cor. \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}.
 
 By prop. \ref{LoopingAsFunctorOnHomotopyCategory} we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). 
 
-The standard topological path space $(-)^I$ is generally a path space object by prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}. With prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} this shows that 
+The standard topological path space $(-)^I$ is generally a path space object by prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}. With prop. \ref{ReducedSuspensionBySmashProductWithCircle} this shows that 
 
 $$
-  \Omega \simeq  \mathbb{R} Maps(S^1,-)_\ast
+  \Omega  \simeq  \mathbb{R} Maps(S^1,-)_\ast
   \,.
 $$
 
-Morover, by the existence of [[CW-approximations]] (remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}) we may represent each object in the homotopy category by a [[CW-complex]]. On such, the standard topological cylinder $(-)\times I$ is a cylinder object by prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}. With prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} this shows that 
+Moreover, by the existence of [[CW-approximations]] (remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}) we may represent each object in the homotopy category by a [[CW-complex]]. On such, the standard topological cylinder $(-)\times I$ is a [[cylinder object]] by prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}. With prop. \ref{ReducedSuspensionBySmashProductWithCircle} this shows that 
 
 $$
   \Sigma \simeq \mathbb{L} (S^1 \wedge (-))
@@ -9068,111 +9076,25 @@ $\,$
 ## References
  {#References}
 
-### Basic reading
 
-For **Prelude) Classical homotopy theory** 
-
-A concise and yet comprehensive and self-contained re-write of the proof ([Quillen 67](#Quillen67)) of the [[classical model structure on topological spaces]] is in
+A concise and yet self-contained re-write of the proof ([Quillen 67](#Quillen67)) of the [[classical model structure on topological spaces]] is provided in
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_ ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942)).
 
-For general [[model category]] theory a decent concise account is in
+For general [[model category]] theory a decent review is in
 
 * {#DwyerSpalinski95} [[William Dwyer]], J. Spalinski, _[[Homotopy theories and model categories]]_ ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf)) in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ 1995
+
+The two originals are still a good source to turn to:
+
+* {#Quillen67} [[Daniel Quillen]], _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+
+* {#Brown73} [[Kenneth Brown]], _[[Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458  ([JSTOR](http://www.jstor.org/stable/1996573))
 
 For the restriction to the [[convenient category of topological spaces|convenient category]] of [[compactly generated topological spaces]] good sources are
 
 * {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
-
-For section **1) Stable homotopy theory** we follow the modern picture of the stable homotopy category for which an enjoyable survey may be found in
-
-* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf)).
-
-The classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read, but ignore the "[[Adams category]]"-construction of the [[stable homotopy category]] in sections III.2 and III.3. What we actually do follows 
-
-* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
-
-For the discussion of [[ring spectra]] we pass to [[symmetric spectra]] and [[orthogonal spectra]]. A comprehensive account of the former is in
-
-* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
-
-
-For **Interlude: Spectral sequences** a discussion streamlined for our purposes is in ([Rognes 12, section 2](#Rognes12)).
-
-In **2) Adams spectral sequence** for the general theory we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
-
-* {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
-
-and we take some further clues from ([Adams 74, III.15](#Adams74)).
-
-For the special case of the classical Adams spectral sequence a comprehensive survey is in 
-
-* {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
-
-For the **Seminar on Complex oriented cohomology** an excellent textbook to hold on to is
-
-* {#Kochman96} [[Stanley Kochman]], chapters I - IV of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
-
-While this gives detailed proofs, some standard steps used are made more explicit for instance in 
-
-* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
-
-
-Specifically for **S.1) Generalized cohomology** a neat account is in:
-
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
-
-
-For **S.2) Cobordism theory** an efficient collection of the highlights is in
-
-* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
-
-except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochman 96](#Kochman96), [Aguilar-Gitler-Prieto 02, section 11.7](#AguilarGitlerPrieto02)) for details.
- 
-For **S.3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at part II of 
-
-* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
-
-and
-
-* {#Lurie10} [[Jacob Lurie]], lectures 1-10 of _[[Chromatic Homotopy Theory]]_, 2010
-
-(These overlap, pick the one that seems more inviting on first reading.)
-
-### Further reading
-
-The two originals
-
-* {#Quillen67} [[Daniel Quillen]], _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
-
-* {#Brown73} [[Kenneth Brown]], _[[Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458  ([JSTOR](http://www.jstor.org/stable/1996573))
-
-are still an excellent source. For further reading on homotopy theory and stable homotopy theory a useful collection is
-
-* {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
-
-The modern chromatic picture originates around
-
-* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
-
-a useful survey is in
-
-* {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
-
-a wealth of details is in
-
-* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
-
-and new foundations have been laid in
-
-* {#LurieHigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
-
-Further useful lecture notes pointed to above include the following:
-
-* {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
-
-* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 
