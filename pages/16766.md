@@ -27,6 +27,7 @@ A degree-$p$ _calibration_ of an oriented [[Riemannian manifold]] $(X,g)$ is a [
 
 1. evaluated on any oriented $p$-dimensional subspace of any [[tangent space]] of $X$, it is less than or equal to the induced degree-$p$ [[volume form]], with equality for at least one choice of subspace.
 
+A Riemannian manifold equipped with such a calibration is also called a _calibrated geometry_ ([Harvey-Lawson 82](#HarveyLawson82)) or similar.
 
 A _calibrated submanifold_ of a manifold with calibration is an oriented [[submanifold]] such that restricted to each of its tangent spaces $\omega$ _equals_ the induced volume form of the submanifold there.
 
@@ -51,6 +52,35 @@ $$
   \,.
 $$
 
+### Calibrations from spinors
+ {#CalibrationsFromSpinors}
+
+> under construction
+
+For suitable $n$ and $p$, and given a real [[spin representation]] of $Spin(n)$, 
+then the [[Cartesian space]] $\mathbb{R}^n$ with its canonical Riemannian structure
+becomes $p$-calibrated with the calibration form being 
+
+$$
+  \omega_{\epsilon}
+  \coloneqq 
+  (\overline{\epsilon} \Gamma_{a_1 a_2 \cdots a_p} \epsilon) \, e^{a_1} \wedge \cdots \wedge e^{a_p}
+$$
+
+where 
+
+1. $\{e^a\}$ denotes the canonical [[linear basis]] of [[differential 1-forms]];
+
+1. $\epsilon$ is a non-vanishing [[spinor]];
+
+1. $\overline{\epsilon} \Gamma_{a_1 a_2 \cdots a_p} \epsilon$ is the [canonical bilinear pairing](spin+representation#SpinorBilinearForms) which in components is given by evaluating $\epsilon$ in the [[quadratic form]] given by multiplying the skew-symmetrized product of $p$ of the representation matrices $\Gamma^a$ of the [[Clifford algebra]] with the [[charge conjugation matrix]] $C$.
+
+(e.g. [Dadok-Harvey 93](#DadokHarvey93)).
+
+For instance for $n = 7$ and $p = 3$ then this gives the [[associative 3-form]] calibration.
+
+More generally for $X$ an $n$-dimensional [[Riemannian manifold]] with a [[covariantly constant spinor]] $\epsilon$, then under suitable conditions applying this construction in each [[tangent space]] gives a calibration.
+
 ## Examples
 
 * The globalization of the [[associative 3-form]] of a [[G2-manifold]] is a calibration. A calibrated submanifold in this case is alse called an [[associative submanifold]].
@@ -62,8 +92,7 @@ $$
 The original articles are
 
 
-* [[Reese Harvey]], [[H. Blaine Lawson]], _Calibrated geometries_, Acta Mathematica
-July 1982, Volume 148, Issue 1, pp 47-157
+* {#HarveyLawson82} [[Reese Harvey]], [[H. Blaine Lawson]], _Calibrated geometries_, Acta Mathematica July 1982, Volume 148, Issue 1, pp 47-157
 
 * [[Reese Harvey]], _Calibrated geometries_, Proceeding of the ICM 1983 ([pdf](http://www.mathunion.org/ICM/ICM1983.1/Main/icm1983.1.0797.0808.ocr.pdf))
 
@@ -71,8 +100,7 @@ The relation to [[Killing spinors]] goes back to
 
 * [[Reese Harvey]], _Spinors and Calibrations_, Academic Press, 1990 ([publisher](http://www.elsevier.com/books/spinors-and-calibrations/harvey/978-0-12-329650-4))
 
-* [[Jiri Dadok]], [[Reese Harvey]], _Calibrations and spinors_, Acta Mathematica
-1993, Volume 170, Issue 1, pp 83-120
+* {#DadokHarvey93} [[Jiri Dadok]], [[Reese Harvey]], _Calibrations and spinors_, Acta Mathematica 1993, Volume 170, Issue 1, pp 83-120
 
 See also
 
@@ -104,5 +132,4 @@ Discussion in [[string theory]]/[[M-theory]] includes the following.
 [[!redirects manifolds with calibration]]
 [[!redirects manifold with calibrations]]
 [[!redirects manifolds with calibrations]]
-
 
