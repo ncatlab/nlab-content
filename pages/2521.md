@@ -37,6 +37,7 @@ For more see at _[[geometry of physics -- supergeometry]]_.
 
   * [[supermanifold]], [[super scheme]]
 
+  * [[spectral super-scheme]]
 
 * [[supersymmetry]]
 
