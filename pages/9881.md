@@ -92,6 +92,8 @@ Survey of the tree level string scattering amplitudes includes
 
 * [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chapter 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
 
+* [[Katrin Becker]], [[Melanie Becker]], Ilarion V. Melnikov, Daniel Robbins, Andrew B. Royston, _Some tree-level string amplitudes in the NSR formalism_, JHEP 12 (2015) 010 ([arXiv:1507.02172](http://arxiv.org/abs/1507.02172))
+
 Survey of the presence and role of divergencies includes
 
 * [[Ashoke Sen]], _Ultraviolet and Infrared Divergences in Superstring Theory_ ([arXiv:1512.00026](http://arxiv.org/abs/1512.00026))
