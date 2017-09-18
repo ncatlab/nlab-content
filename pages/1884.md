@@ -100,9 +100,9 @@ We write $I^n \to X$ for the trivial vector bundle $I^n = k^n \times X$ over $X$
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
-**(over [[compact Hausdorff space]] every [[topological vector bundle]] is [[direct sum of vector bundle|direct summand]] of a [[trivial vector bundle]])**
+**(over [[compact Hausdorff space]] every [[topological vector bundle]] is [[direct sum of vector bundles|direct summand]] of a [[trivial vector bundle]])**
 
-For every [[topological vector bundle]] $E \to X$ over the [[compact Hausdorff space]] $X$ there exists a [[topology vector bundle]] $\tilde E \to X$ such that the [[direct sum of vector bundles]]
+For every [[topological vector bundle]] $E \to X$ over the [[compact Hausdorff space]] $X$ there exists a [[topological vector bundle]] $\tilde E \to X$ such that the [[direct sum of vector bundles]]
 
 $$
   E \oplus_X \tilde E \simeq X \times \mathbb{R}^{n}
@@ -119,33 +119,60 @@ For **proof** see at _[[topological vector bundle]]_ [this prop.](TopologicalVec
 
 +-- {: .num_defn #DefinitionOfKClasses}
 ###### Definition
+**(stable equivalence of topological vector bundles)**
 
-Define an [[equivalence relation]] on the [[set]] of finite-[[rank]] [[vector bundle]]s $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k,l \in \mathbb{N}$ such that there is an [[isomorphism]] of vector bundles between the (fiberwise) [[direct sum]] of $E_1$ with $I^k$ and of $E_2$ with $I^l$
+For $X$ a [[topological space]], define an [[equivalence relation]] on the [[set]] of  [[topological vector bundle]] $E \to X$ over $X$ by declaring that $E_1 \sim E_2$ if there exists $k_1, k_2 \in \mathbb{N}$ such that there is an [[isomorphism]] of [[topological vector bundles]] between the [[direct sum of vector bundles]] of $E_1$ with the [[trivial vector bundle]] $X \times \mathbb{R}^{k_1}$ and of $E_2$ with $X \times \mathbb{R}^{k_2}$
 
 $$
   (E_1 \sim E_2)
-  :\Leftrightarrow
-  \exists (E_1 \oplus I^k \simeq E_2 \oplus I^l)
+   \Leftrightarrow
+  \left(
+    \underset{k_1,k_2 \in \mathbb{N}}{\exists} 
+      \left(
+         (E_1 \oplus_X (X \times \mathbb{R}^{k_1}) 
+           \;\simeq\; 
+         (E_2 \oplus (X \times \mathbb{R}^{k_2})
+      \right)
+  \right)
   \,.
 $$
+
+This is called _[[stable equivalence of vector bundles]]_.
 
 Write 
 
 $$
-  \tilde K(X) := Vect(X)/\sim
+  \tilde K(X) \coloneqq Vect(X)/\sim
 $$
 
-for the [[quotient set]] of [[equivalence class|equivalence classes]]. We also define the slightly coarser equivalence relation $E_1 \sim_s E_2$ where in the above definition of $\sim$ we force $k=l$. The set of equivalence classes for this equivalence relation is denoted
+for the [[quotient set]] of [[equivalence class|equivalence classes]]. 
+
+We also define the slightly coarser equivalence relation $E_1 \sim_s E_2$ where in the above definition of $\sim$ we force $k_1 = k_2$. The set of equivalence classes for this equivalence relation is denoted
+
 $$
-K(X) := Vect(X)/{\sim_s}.
+  K(X) \coloneqq Vect(X)/{\sim_s}
+  \,.
 $$
+
+The operation of [[direct sum of vector bundles]] descends to these quotients to make them commutative [[semi-groups]] ([[commutative monoids]]):
+
+$$
+  [E_1] + [E_2]
+  \;\coloneqq\;
+  [ E_1 \oplus_X E_2 ]
+  \,.
+$$
+
 
 =--
 
 +-- {: .num_prop #KGroupIsIndeedAGroup}
 ###### Proposition
+**(over [[compact Hausdorff spaces]] stable equivalence classes of [[topological vector bundles]] are [[abelian groups]] under [[direct sum of vector bundles]])
 
-With $X$ compact Hausdorff as in the assumption, we have that fiberwise [[direct sum]] of vector bundles equips $\tilde K(X)$ and $K(X)$ with the structure of an [[abelian group]]. Together with the fiberwise [[tensor product]] of vector bundles this makes $K(X)$ a [[ring]] and $\tilde K(X)$ a nonunital ring.  
+If $X$ is  [[compact Hausdorff space]] then the commutative monoids $\tilde K(X)$ and $K(X)$ of stable equivalence classes of topological vector bundles  from def. \ref{DefinitionOfKClasses} are [[abelian groups]]. 
+
+Together with the fiberwise [[tensor product]] of vector bundles this makes $K(X)$ a [[commutative ring]] and $\tilde K(X)$ a [[nonunital ring]].  
 
 =--
 
@@ -154,7 +181,7 @@ Therefore $K(X)$ is called the **topological K-theory ring** of $X$ or just the 
 +-- {: .proof}
 ###### Proof
 
-The non-trivial part of the statement is that in $\tilde K(X)$ and $K(X)$ there is an [[inverse]] to the operation of direct sum of vector bundles. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
+The non-trivial part of the statement is that in $\tilde K(X)$ and $K(X)$ there is an [[inverse]] to the operation of [[direct sum of vector bundles]]. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
 
 On the other hand, clearly the K-class $[I^n]$ of any trivial bundle $I^n$ is the neutral element in $\tilde K(X)$
 
