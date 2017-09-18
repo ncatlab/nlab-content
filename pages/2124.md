@@ -125,7 +125,7 @@ A survey of progress on the most general picture is in
 
 ### In supergravity
 
-Discussion of extremmal/BPS [[black branes]] in [[supergravity]] includes
+Discussion of extremal/BPS [[black branes]] in [[supergravity]] includes
 
 * {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
