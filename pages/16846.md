@@ -17,7 +17,7 @@
 
 ## Idea
 
-The **bornological topos** is a [[Grothendieck topos]] based on sequential convergence and was proposed by [[William Lawvere]] in unpublished lectures in 1983 as a convenient category to do [[functional analysis]] in.
+The **bornological topos** is a [[Grothendieck topos]] based on the concept of families of bounded sets and was proposed by [[William Lawvere]] in unpublished lectures in 1983 as a convenient category to do [[functional analysis]] in.
 
 
 ## Definition
