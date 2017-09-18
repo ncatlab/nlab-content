@@ -245,3 +245,9 @@ Textbook accounts include
 See also
 
 * Wikipedia, _[Hopf construction](https://en.wikipedia.org/wiki/Hopf_construction)_
+
+
+[[!redirects Hopf constructions]]
+
+[[!redirects Hopf map]]
+[[!redirects Hopf maps]]
