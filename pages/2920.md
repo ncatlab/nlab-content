@@ -48,8 +48,8 @@ $$
 
 While that's a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
 
-+-- {: .num_lemma }
-###### Observation 
++-- {: .num_remark }
+###### Remark 
 
 It follows directly that 
 
