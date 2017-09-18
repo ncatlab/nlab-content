@@ -144,7 +144,7 @@ Specifically for $\mathcal{X} = Top$, this refines to the classical theorem by (
 +-- {: .un_theorem}
 ###### Theorem (May recognition theorem)
 
-Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $X$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
+Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes operad]] $\mathcal{C}_k$ and suppose that $Y$ is grouplike. Then $Y$ is homotopy equivalent to a $k$-fold loop space $\Omega^k X$ for some pointed topological space $X$.
 
 =--
 
