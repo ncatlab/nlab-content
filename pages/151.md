@@ -21,9 +21,9 @@ In terms of general abstract concepts in [[category theory]] instances of dualit
 
 1. **involution** -- any [[automorphism]] which is an [[involution]], hence which squares to the [[identity]] may be though of as exhibiting two dual perspectives on the objects that it acts on;
 
-   * **abstract duality** --  the operation of sending a [[category]] to its [[opposite category]] is such an involution on [[Cat]] itself (and in fact this is the only non-trivial automorphism of [[Cat]], see [here](%28infinity%2Cn%29Cat#automorphisms)). This has been called _abstract duality_. While the construction is a priori tautologous, any given [[opposite category]] often is equivalent to a [[category]] known by other means, which makes abstract duality interesting.
+   * **abstract/formal duality** --  the operation of sending a [[category]] to its [[opposite category]] is such an involution on [[Cat]] itself (and in fact this is the only non-trivial automorphism of [[Cat]], see [here](%28infinity%2Cn%29Cat#automorphisms)). This has been called _abstract duality_. While the construction is a priori tautologous, any given [[opposite category]] often is equivalent to a [[category]] known by other means, which makes abstract duality interesting.
 
-   * **concrete duality** -- given a [[closed category]] $\mathcal{C}$ and any [[object]] $D$ of it, then the operation $[-,D] : \mathcal{C} \to \mathcal{C}^{op}$ obtained by forming the [[internal hom]] into $D$ sends each object to something like a $D$-dual object. This is particularly so if $D$ is indeed a [[dualizing object in a closed category]] in that applying this operation twice yields an [[equivalence of categories]] $[[-,D],D] : \mathcal{C} \stackrel{\simeq}{\to} \mathcal{C}$ (so that $[-,D]$ is a (contravariant) [[involution]] on $\mathcal{C}$). If $\mathcal{C}$ is in addition a [[closed monoidal category]] then under some conditions on $D$ (but not in general) this kind of concrete dualization coincides with the concept of forming [[dual objects]] in [[monoidal categories]].
+   * **concrete duality** ([LR, p. 121-122](#LawvereRosebrugh)) -- given a [[closed category]] $\mathcal{C}$ and any [[object]] $D$ of it, then the operation $[-,D] : \mathcal{C} \to \mathcal{C}^{op}$ obtained by forming the [[internal hom]] into $D$ sends each object to something like a $D$-dual object. This is particularly so if $D$ is indeed a [[dualizing object in a closed category]] in that applying this operation twice yields an [[equivalence of categories]] $[[-,D],D] : \mathcal{C} \stackrel{\simeq}{\to} \mathcal{C}$ (so that $[-,D]$ is a (contravariant) [[involution]] on $\mathcal{C}$). If $\mathcal{C}$ is in addition a [[closed monoidal category]] then under some conditions on $D$ (but not in general) this kind of concrete dualization coincides with the concept of forming [[dual objects]] in [[monoidal categories]].
 
    From ([Lawvere-Rosebrugh, chapter 7](#LawvereRosebrugh)):
 
@@ -37,6 +37,7 @@ In terms of general abstract concepts in [[category theory]] instances of dualit
 
    >may be considered as the detailed study of the extent to which formal duality and concrete duality into a favorite $V$ correspond or fail to correspond. (p. 122)
 
+   
 
 1. **adjunction** -- another categorical concept of duality is that of [[adjunction]], as in pairs of [[adjoint functors]]. Via the many incarnations of [[universal constructions]] in [[category theory]] this accounts for all dualities that arise as instances as the dual pairs 
 
@@ -107,8 +108,7 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 ## References
 
-* {#LawvereRosebrugh}[[Lawvere]] and [[Rosebrugh]], chaper 7 of _Sets for Mathematics_
-([web](http://www.mta.ca/~rrosebru/setsformath/))
+* {#LawvereRosebrugh} [[William Lawvere]], [[Bob Rosebrugh]], chaper 7 of _Sets for Mathematics_ ([web](http://www.mta.ca/~rrosebru/setsformath/))
 
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) [pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf)
 
