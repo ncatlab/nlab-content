@@ -98,7 +98,7 @@ such that
 
    where $\ell$ and $r$ are the left and right unitor isomorphisms of $\mathcal{C}$.
 
-Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $B$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
+Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]]  $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $\tau$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
 
 * (commutativity) the following [[commuting diagram|diagram commutes]]
 
@@ -114,6 +114,42 @@ Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric mon
     }
     \,.
   $$
+
+A [[homomorphism]] of monoids $(A_1, \mu_1, e_1)\longrightarrow (A_2, \mu_2, f_2)$ is a morphism
+
+$$
+  f \;\colon\; A_1 \longrightarrow A_2
+$$ 
+
+in $\mathcal{C}$, such that the following two [[commuting diagram|diagrams commute]]
+
+$$
+  \array{
+    A_1 \otimes A_1 
+      &\overset{f \otimes f}{\longrightarrow}&
+    A_2 \otimes A_2
+    \\
+    {}^{\mathllap{\mu_1}}\downarrow && \downarrow^{\mathrlap{\mu_2}}
+    \\
+    A_1 &\underset{f}{\longrightarrow}& A_2
+  }
+$$
+
+and
+
+$$
+  \array{
+    1_{\mathcal{c}} &\overset{e_1}{\longrightarrow}& A_1
+    \\
+    & {}_{\mathllap{e_2}}\searrow & \downarrow^{\mathrlap{f}}
+    \\
+    && A_2
+  }
+  \,.
+$$
+
+Write $Mon(\mathcal{C}, \otimes,1)$ for the [[category of monoids]] in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+
 
 =--
 
