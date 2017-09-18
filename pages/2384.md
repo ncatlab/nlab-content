@@ -12,3 +12,8 @@ Now, biological structures are often of the complex hierarchical structure that 
 According to [[Mikhail Gromov]], the mathematical structures nearest to what is happening in the mind are [[n-categories]].
 see 24:42-end of
 * [Ergologic and Interfaces Between Languages](https://www.youtube.com/watch?v=jRSqGYJQQM8)
+
+## Other references
+
+* Lior Pachter, Bernd Sturmfels, _The mathematics of phylogenomics_, [math/0409132](http://arxiv.org/abs/math/0409132)
+* V. Noel, D. Grigoriev, S. Vakulenko, O. Radulescu, Tropical geometries and dynamics of biochemical networks. Application to hybrid cell cycle models_, [pdf](http://logic.pdmi.ras.ru/~grigorev/pub/tropical_dynamics_modified.pdf)
