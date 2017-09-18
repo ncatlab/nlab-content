@@ -55,7 +55,7 @@ In the presence of the [[axiom of choice]], a [[cardinal number]] can be defined
 
 ## Related pages
 
-* [[countable ordinal]]
+* [[countable ordinal]], [[uncountable ordinal]]
 
 * [[cardinal]]
 
