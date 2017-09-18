@@ -47,6 +47,10 @@ The subterminal objects in a [[topos]] can be viewed as its "external [[truth va
 
 The *support* of an object $X$ in a topos is the [[image]] $U \hookrightarrow 1$ of the unique map $X \to 1$. Any map $U \to X$ is necessarily a [[section]] of $X \to U$. 
 
+## Related concepts
+
+* [[subsingleton]]
+
 ## References
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977
