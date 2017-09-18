@@ -17,8 +17,6 @@
 =--
 =--
 
-
-
 # Contents
 * table of contents
 {:toc}
@@ -40,7 +38,11 @@ In typical (topos) cases these come in the form of [[adjoint modalities|adjoint 
 
 Hence from a more _geometrical point of view_, an object in a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' or 'coarse' points which in turn can be viewed as a minimal vestige of cohesion: when a set is a space with no cohesion, an object in a quality type is a space with _almost_ no cohesion.[^GoC] (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
 
-Quality types together with the _continuity axiom_ are an essential ingredient to Lawvere's [2007 axioms](#Law07) for geometry. ([Lawvere 2008](#Law08)) points to the role of continuity in ensuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
+Quality types together with the **continuity axiom** are an essential ingredient to Lawvere's ([2007 axioms](#Law07)) for geometry:
+
+>That Continuity axiom (preservation of infinite products by $\pi_0$) was introduced in order to obtain homotopy types that are "qualities" in an intuitive sense (as they should be automatically in the continuous case). Lawvere ([message to catlist oct 26th 2011](http://permalink.gmane.org/gmane.science.mathematics.categories/7006))
+
+([Lawvere 2008](#Law08)) also points to the role of continuity in ensuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
 
 In the following we discuss the case for ordinary categories, for the higher order generalization see [[infinitesimal cohesive (infinity,1)-topos]].
 
