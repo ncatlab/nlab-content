@@ -132,6 +132,7 @@ See [[Riesz representation theorem]] for examples from [[functional analysis]].
 
 * [[dual space]]
 
+* [[dual vector bundle]]
 
 [[!redirects dual vector space]]
 [[!redirects dual vector spaces]]
