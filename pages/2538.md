@@ -12,7 +12,7 @@
 
 #Contents#
 
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea
@@ -50,16 +50,29 @@ for the real line regarded as an object of $\mathbb{L}$.
 
 The category $\mathbb{L}$ has the following properties:
 
-* there is a [[full and faithful functor]] 
++-- {: .num_prop #SmoothManifoldsFullSubcategoryOfSmoothLoci}
+###### Proposition
 
-  $$
-    Diff \to \mathbb{L}
-  $$
+The canonical inclusion functor
 
-  from the category [[Diff]] of [[manifold]]s 
-  that   preserves [[pullback]]s along [[transversal map]]s.
+$$
+  SmthMfd \hookrightarrow \mathbb{L}
+$$
 
-* the [[Tietze extension theorem]] holds in $\mathbb{L}$: $R$-valued functions on closed subobjects in $\mathbb{L}$ have an extension.
+$$
+  X \mapsto \mathcal{l}C^\infty(X)
+$$
+
+from the category [[Diff|SmthMfd]] of [[smooth manifolds]] is a [[full subcategory]] embedding (i.e. a [[full and faithful functor]]. Moreover, it preserves [[pullbacks]] along [[transversal maps]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Tietze extension theorem]] holds in $\mathbb{L}$: $R$-valued functions on closed subobjects in $\mathbb{L}$ have an extension.
+
+=--
 
 ## Applications 
 
