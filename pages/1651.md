@@ -18,6 +18,8 @@
 
 A [[topological space]] is called **locally path-connected** if it has a [[basis of the topology|basis]] of [[path-connected space|path-connected]] [[neighbourhoods]]. In other words, if for every point $x$ and [[neighbourhood]] $V \ni x$, there exists a path-connected neighbourhood $U \subset V$ that contains $x$.
 
+
+
 ## Properties
 
 +-- {: .num_lemma #InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}
@@ -38,7 +40,7 @@ It is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $
 A locally path-connected space is [[connected space|connected]] if and only if it is [[path-connected topological space|path-connected]].  
 
 
-+-- {: .num_prop #AdjointCylinderOnSuperAffines}
++-- {: .num_prop }
 ###### Proposition
 
 The [[connected components]] of a locally path-connected space are the same as its path-connected components.
@@ -49,6 +51,32 @@ The [[connected components]] of a locally path-connected space are the same as i
 ###### Proof
 
 A path connected component is always connected ([this lemma](connected+space#ConnectedPathConnectedSpace)), and in a locally path-connected space is it also open (lemma \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}).
+This means that every path-connected component is also connected.
+
+
+Conversely, it is now sufficient to see that every connected component is path-connected. Suppose it were not, then it would be covered by 
+more than one disjoint non-empty path-connected components. 
+But by lemma \ref{InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen} these
+would be all open. This would be in contradiction with the assumption that 
+$U$ is connected. Hence we have a [[proof by contradiction]].
+
+=--
+
+## Examples
+
++-- {: .num_example}
+###### Examples
+**([[Euclidean space]] is locally path-connected)**
+
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is [[path-connected topological space]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+
+Every [[open subset|open]] [[subspace]] of a locally path connected topological space is itself locally path connected.
 
 =--
 
