@@ -20,7 +20,7 @@ Any pretriangulated [[dg-category]] $\mathcal{C}$ presents a [[stable (infinity,
 
 On the other hand, the _dg-nerve_ of $\mathcal{C}$ is a more direct construction that directly sends the dg-category to a [[simplicial set]] which is the [[quasi-category]] incarnation of the corresponding [[stable (∞,1)-category]].
 
-To the extent that one may think of $\mathcal{C}$ as analogous to a [[category of chain complexes]], the dg-nerve may be thought of producing the [[simplicial set]] whose $k$-[[simplices]] are the [[local systems]] on $\Delta^k$ with [[coefficients]] in $\mathcal{C}$ ([[flat ∞-connections]] with coefficients in $\mathcal{C}$).
+To the extent that one may think of $\mathcal{C}$ as analogous to a [[category of chain complexes]], the dg-nerve may be thought of producing the [[simplicial set]] whose $k$-[[simplices]] are the [[local systems]] on $\Delta^k$ with [[coefficients]] in $\mathcal{C}$ ([[flat ∞-connections]] with coefficients in $\mathcal{C}$). The formula is just as for [[Lie integration]] of [[L-infinity algebroids]]. 
 
 ## References
 
@@ -34,7 +34,7 @@ Construction 1.3.1.6 in
 
 In the following paper, the definition of the dg-nerve is extended to [[A-infinity categories]], and it is proved that the dg-nerve maps [[pretriangulated dg-categories]] to [[stable (∞,1)-categories]].
 
-* [[Giovanni Faonte]], _Simplicial nerve of an A-infinity category_, [arXiv:1312.2127](http://arxiv.org/abs/1312.2127v1).
+* {#Faonte13} [[Giovanni Faonte]], _Simplicial nerve of an A-infinity category_, [arXiv:1312.2127](http://arxiv.org/abs/1312.2127).
 
 [[!redirects dg-nerves]]
 [[!redirects nerve of a dg-category]]
