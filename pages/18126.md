@@ -365,7 +365,7 @@ The function $f$ is said to be _continuous_ if it is continuous at every point $
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #PolynoialsAreContinuous}
 ###### Example
 **([[polynomials are continuous functions]])**
 
@@ -383,6 +383,12 @@ $$
 $$
 
 is a [[continuous function]] in the sense of def. \ref{EpsilonDeltaDefinitionOfContinuity}.
+
+Similarly for instance
+
+* forming the [[square root]] is a continuous function $\sqrt(-) \colon \mathbb{R}_{\geq 0} \to \mathbb{R}_{\geq 0}$;
+
+* forming the multiplicativ inverse is a continuous function $1/(-) \;\colon\; \mathbb{R}_{\gt 0} \to \mathbb{R}_{\gt 0}$.
 
 =--
 
@@ -1377,7 +1383,7 @@ $$
 
 If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _closed point_ of $X$.
 
-Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$:
+Given any subset $S \subset X$, then its _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$:
 
 $$
   Cl(S)
@@ -1399,7 +1405,7 @@ In reasoning about [[closed subsets]] in [[topology]] we are concerned with [[co
 that taking [[complements]] of [[subsets]] exchanges [[unions]] with [[intersections]]
 ([[de Morgan's law]]):
 
-Given a [[set]] $X$ and a  set of subsets
+Given a [[set]] $X$ and a set of subsets
 
 $$
   \{S_i \subset S\}_{i \in I}
@@ -1519,7 +1525,7 @@ $$
   \,.
 $$
 
-The _[[boundary]]_ $\partial S$ of $S$ is the [[complement]] by its interior inside its [[topological closure]] (def. \ref{ClosedSubset}):
+The _[[boundary]]_ $\partial S$ of $S$ is the [[complement]] of its interior inside its [[topological closure]] (def. \ref{ClosedSubset}):
 
 $$
   \partial S \;\coloneqq\; Cl(S) \backslash Int(S)
@@ -1579,9 +1585,10 @@ Similarly for the other case.
 
 +-- {: .num_example }
 ###### Example
+**([[topological closure]] and [[interior]] of [[closed interval|closed]] and [[open intervals]])**
 
-Regard the [[real numbers]] as the 1-dimensional [[Euclidean space]] and equipped with the
-corresponding [[metric topology]]. Let $a \lt b \in \mathbb{R}$. Then the [[topological interior]]
+Regard the [[real numbers]] as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) and equipped with the
+corresponding [[metric topology]] (example \ref{MetricTopology}) . Let $a \lt b \in \mathbb{R}$. Then the [[topological interior]]
 (def. \ref{IntSubset}) of the [[closed interval]] $[a,b] \subset \mathbb{R}$
 (example \ref{OpenAndClosedIntervals}) is the [[open interval]] $(a,b) \subset \mathbb{R}$,
 moreover the closed interval is its own [[topological closure]] (def. \ref{ClosedSubset})
@@ -1609,15 +1616,27 @@ $$
   \,.
 $$
 
+Hence the  [[boundary]] of the closed interval is its endpoints, while the boundary of the open interval is
+empty
+
+$$
+  \array{
+    \partial [a,b] = \{a\} \cup \{b\}
+    &&
+    \partial(a,b) = \emptyset
+  }
+  \,.
+$$
+
 =--
 
 
 The terminology "closed" subspace for complements of opens is justified by the following statement,
-which is a further example of how the combinatorial concept of open subsets captures key phenomena in analysis:
+which is a further example of how the combinatorial concept of open subsets captures key phenomena in [[analysis}}:
 
 +-- {: .num_prop #ConvergenceInClosedSubspace}
 ###### Proposition
-**(convergence in closed subspaces)**
+**([[convergence]] in [[closed subspaces]])**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}), regarded as a [[topological space]] via example \ref{MetricTopology},
 and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
@@ -1712,8 +1731,8 @@ in terms of complementary open subsets:
 ###### Proposition
 **(irreducible closed subsets in terms of prime open subsets)**
 
-Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau $ be a proper [[open subset]],
-so that the [[complement]] $F \coloneqq X\backslash P$ is a [[inhabited|non-empty]] [[closed subspace]]. Then $F$
+Let $(X, \tau)$ be a [[topological space]], and let $P \in \tau $ be a proper [[open subset]] of $X$,
+hence so that the [[complement]] $F \coloneqq X\backslash P$ is a [[inhabited|non-empty]] [[closed subspace]]. Then $F$
 is [[irreducible closed subspace|irreducible]] in the sense of def. \ref{ClosedIrreducible} precisely if whenever $U_1,U_2 \in \tau$ are open subsets
 with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
 
@@ -1732,20 +1751,23 @@ $$
       \left(U_1 \subset P \;\text{or}\; U_2 \subset P\right)
     \right)
   \right)
+  \,.
 $$
+
+THe open subset $P \subset X$ with this property are also called the _prime open subsets_ in $\tau_X$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Every [[closed subset]] $F_i \subset F$ may be exhibited as the [[complement]]
+Observe that every [[closed subset]] $F_i \subset F$ may be exhibited as the [[complement]]
 
 $$
   F_i = F \backslash U_i
 $$
 
-for some open subset $U_i \in \tau$. Observe that under this identification the condition
+of some open subset $U_i \in \tau$ with respect to $F$. Observe that under this identification the condition
 that $U_1 \cap U_2 \subset P$ is equivalent to the condition that $F_1 \cup F_2 = F$,
 because it is equivalent to the equation labeled $(\star)$ in the following sequence of equations:
 
@@ -1800,11 +1822,13 @@ Under these identifications, the two conditions are manifestly the same.
 
 =--
 
-We will consider yet another equivalent characterization of irreducible closed subsets.
+We consider yet another equivalent characterization of irreducible closed subsets,
+prop. \ref{FrameHomomorphismsToPointAreIrrClSub} below, which will be needed in the
+discussion of the [[sepration axioms]] further [below](#SeparationAxioms).
 Stating this requires the following concept of "[[frame]]" [[homomorphism]],
 the natural kind of [[homomorphisms]] between [[topological spaces]] if we were to forget the
 underlying set of points of a topological space, and only remember the set $\tau_X$ with its
-operations inuced by taking finite intersections and arbitrary unions:
+operations induced by taking finite intersections and arbitrary unions:
 
 +-- {: .num_defn #HomomorphismOfFramesOfOpens}
 ###### Definition
@@ -1884,19 +1908,41 @@ $$
 ###### Example
 **(pre-images of continuous functions are frame homomorphisms)**
 
-For
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological spaces]]. 
+One way to obtain a function between their sets of open subsets
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; \phi
+$$
+
+is to specifiy a function 
+
+$$
+  f \colon X \longrightarrow Y
+$$
+
+of their underlying sets, and take $\phi \coloneqq f^{-1}$ to be the 
+[[pre-image operation]]. A priori this is a function of the form
+
+$$
+  P(Y) \longleftarrow P(X) \;\colon\; f^{-1}
+$$
+
+and hence in order for this to co-restrict to $\tau_X \subset P(X)$ when restricted to $\tau_Y \subset P(Y)$
+we need to demand that, under $f$, pre-images of open subsets of $Y$ are open subsets of $Z$.
+Below in def. \ref{ContinuousMaps} we highlight these as the _[[continuous functions]]_ between toopological spaces.
 
 $$
   f \;\colon\; (X,\tau_X) \longrightarrow (Y, \tau_Y)
 $$
 
-a [[continuous function]], then its function of [[pre-images]]
+In this case then
 
 $$
   \tau_X \longleftarrow \tau_Y \;\colon\; f^{-1}
 $$
 
-is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
+is a frame homomorphism in the sense of def. \ref{HomomorphismOfFramesOfOpens}.
 
 =--
 
@@ -1906,9 +1952,9 @@ the [[point topological space]]  $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \
 
 +-- {: .num_prop #FrameHomomorphismsToPointAreIrrClSub}
 ###### Proposition
-**(irreducible closed subsets are equivalently frame homomorphisms to frame of opens of the point)**
+**(irreducible closed subsets are equivalently frame homomorphisms to opens of the point)**
 
-For $(X,\tau)$ a [[topological space]], then there is a [[bijection]] between
+For $(X,\tau)$ a [[topological space]], then there is a [[natural bijection|natural]] [[bijection]] between
 the [[irreducible closed subspaces]] of $(X,\tau)$ (def. \ref{ClosedIrreducible}) and the
 [[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, and this bijection is given by
 
@@ -2086,7 +2132,7 @@ This follows since taking [[pre-images]] commutes with taking [[complements]].
 
 $\,$
 
-Before looking at first examples of continuous functions [below](#ContinuousFunctionsExamples) 
+Before looking at first examples of continuous functions [below](#ContinuousFunctionsExamples)
 we consider now an informal remark
 on the resulting global structure, the "[[category of topological spaces]]", remark \ref{TopCategory} below.
 This is a language that serves to make transparent key phenomena in [[topology]]
@@ -2146,7 +2192,7 @@ $$
 
 One summarizes this situation by saying that:
 
-1. [[topological spaces]] constitute the _[[objects]]_
+1. [[topological spaces]] constitute the _[[objects]]_,
 
 1. [[continuous functions]] constitute the _[[morphisms]]_ ([[homomorphisms]])
 
@@ -2169,7 +2215,7 @@ $\,$
 
 There are other categories. For instance there is the [[category of sets]] ("[[Set]]" for short) whose
 
-1. [[objects]] are [[sets]];
+1. [[objects]] are [[sets]],
 
 1. [[morphisms]] are plain [[functions]] between these.
 
@@ -2192,7 +2238,7 @@ $$
   }
 $$
 
-from the [[class]] of topological spaces to the class of sets. But more is true:
+from the [[class]] of [[topological spaces]] to the [[class]] of [[sets]]. But more is true:
 every [[continuous function]] between topological spaces is, by definition,
 in particular a function on underlying sets:
 
@@ -2209,7 +2255,7 @@ $$
   }
 $$
 
-and this assignment trivially respects the [[composition]] of morphisms and the [[identity morphisms]].
+and this assignment (trivially) respects the [[composition]] of morphisms and the [[identity morphisms]].
 
 Such a [[function]] between [[classes]] of [[objects]] of [[categories]], which is extended to a
 function on the [[sets]] of [[homomorphisms]] between these objects in a way that respects [[composition]]
@@ -2241,16 +2287,16 @@ $$
       &\;\overset{\phantom{AA}U\phantom{AA}}{\mapsto}\;&
     \left\{
       X
-        \overset{\text{function}}{\longrightarrow}
+        \underset{\text{function}}{\longrightarrow}
       Y
     \right\}
   }
 $$
 
-is an [[injective function]].
+is an [[injective function]], including the continuous functions among all functions of underlying sets.
 
-A [[functor]] with this property that its component function
-between all [[hom-sets]] is injective is called a _[[faithful functor]]_.
+A [[functor]] with this property, that its component functions
+between all [[hom-sets]] are injective, is called a _[[faithful functor]]_.
 
 A [[category]] equipped with a [[faithful functor]] to [[Set]] is called a _[[concrete category]]_.
 
@@ -2258,16 +2304,24 @@ Hence [[Top]] is canonically a [[concrete category]].
 
 
 
-
-
-
-
 =--
-
 
 +-- {: .num_example #FunctorialProductSpace}
 ###### Example
-**(product topological space construction is functorial)**
+**([[product topological space]] construction is [[functor|functorial]])**
+
+For $\mathcal{C}$ and $\mathcal{D}$ two [[categories]] as in remark \ref{TopCategory}
+(for instance [[Top]] or [[Set]]) then we obtain a new category denoted $\mathcal{C} \times \mathcal{D}$
+and called their _[[product category]]_ whose
+
+1. [[objects]] are [[pairs]] $(c,d)$ with $c$ an object of $\mathcal{C}$ and $d$ an object of $\mathcal{D}$;
+
+* [[mophisms]] are [[pairs]] $(f,g) \colon (c,d) \to (c', d')$ with $f \colon c \to d$ a morphism of $\mathcal{C}$
+and $g \colon d \to d'$ a morphisms of $\mathcal{D}$,
+
+* [[composition]] of morphisms is defined pairwise $(f', g') \circ (f,g) \coloneqq ( f' \circ f, g' \circ g )$.
+
+This concept secretly underlies the construction of [[product topological spaces]]:
 
 Let $(X_1,\tau_{X_1})$, $(X_2, \tau_{X_2})$, $(Y_1, \tau_{Y_1})$ and $(Y_2, \tau_{Y_2})$ be [[topological spaces]].
 Then for all [[pairs]] of [[continuous functions]]
@@ -2309,7 +2363,7 @@ in both arguments.
 
 In the language of [[category theory]] (remark \ref{TopCategory}), this is summarized
 by saying that the [[product topological space]] construction $(-) \times (-)$ extends to a _[[functor]]_
-from the _[[product category]]_ of the [[category]] [[Top]] with itself to itself:
+from the [[product category]] of the [[category]] [[Top]] with itself to itself:
 
 $$
   (-) \times (-)
@@ -2330,7 +2384,7 @@ $\,$
 We discuss here some basic examples of [[continuous functions]] (def. \ref{ContinuousMaps}) between [[topological spaces]] (def. \ref{TopologicalSpace}) to get a feeling for the nature of the concept.
 But as with topological spaces themselves, continuous functions between them
 are ubiquituous in mathematics, and no list will exhaust all classes of examples. Below in the section
-_[Universal constructions](#UniversalConstructions)_ we dicuss a general principle that serves to
+_[Universal constructions](#UniversalConstructions)_ we discuss a general principle that serves to
 produce examples of continuous functions with prescribed "[[universal properties]]".
 
 
@@ -2338,7 +2392,7 @@ produce examples of continuous functions with prescribed "[[universal properties
 ###### Example
 **(point space is [[terminal object|terminal]])**
 
-For $(X,\tau)$ any topological space, then there is a unique continuous function 
+For $(X,\tau)$ any [[topological space]], then there is a unique continuous function
 
 $$
   X \longrightarrow \ast
@@ -2347,14 +2401,14 @@ $$
 from $X$ to the [[point topological space]] (def. \ref{Point}).
 
 
-In the language of [[category theory]] (remark \ref{TopCategory}), example \ref{TerminalityOfThePoint}
+In the language of [[category theory]] (remark \ref{TopCategory}), this
 says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[Top]] of topological spaces.
 
 =--
 
 +-- {: .num_example #PointsViaContinuousFunctions}
 ###### Example
-**([[constant functions]])**
+**([[constant functions|]] [[continuous functions]])**
 
 For $(X, \tau)$ a [[topological space]] then for $x \in X$ any element of the underlying set,
 there is a unique continuous function (which we denote by the same symbol)
@@ -2394,7 +2448,8 @@ $$
 ###### Definition
 **([[locally constant function]])**
 
-A [[continuous function]] $f \colon X \to Y$ (def. \ref{ContinuousMaps}) is called
+For $(X.\tau_X)$, $(Y,\tau_Y)$ two [[topological spaces]], then a
+a [[continuous function]] $f \colon (X,\tau_X) \to (Y,\tau_Y)$ (def. \ref{ContinuousMaps}) is called
 _[[locally constant function|locally constant]]_ if every point $x \in X$ has a [[neighbourhood]]
 on which the function is constant.
 
@@ -2403,6 +2458,7 @@ on which the function is constant.
 
 +-- {: .num_example #ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}
 ###### Example
+**([[continuous functions]] into and out of [[discrete space|discrete]] and [[codiscrete spaces]])**
 
 Let $S$ be a [[set]] and let $(X,\tau)$ be a [[topological space]]. Recall from example \ref{CoDiscreteTopology}
 
@@ -2578,7 +2634,7 @@ $$
   \pi_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
 $$
 
-out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) 
+out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace})
 
 $$
   \array{
@@ -2722,9 +2778,9 @@ Therefore it now only remains to see that $U \supset V \supset C$.
 By [[de Morgan's law]] (remark \ref{deMorgan}) the inclusion $U \supset V$ is equivalent to the inclusion $f^{-1}\left( f\left(  X \backslash U \right)\right) \supset X \backslash U$,
 which is clearly the case.
 
-The inclusion $V \supset C$ is equivalent to 
+The inclusion $V \supset C$ is equivalent to
 $f^{-1}\left( f\left(  X \backslash U \right) \right) \,\cap \, C = \emptyset$.
-Since $C$ is saturated by assumption, this is 
+Since $C$ is saturated by assumption, this is
 equivalent to $f^{-1}\left( f\left(  X \backslash U \right)\right) \,\cap \, f^{-1}(f(C)) = \emptyset$.
 This in turn holds precisely if $f\left(  X \backslash U \right) \,\cap \, f(C)  = \emptyset$.
 Since $C$ is saturated, this holds precisely if $X \backslash U \cap C = \emptyset$, and this is true by the assumption
@@ -2769,7 +2825,7 @@ notes we will stick to this usage and never use "$(-)^{-1}$" to denote [[inverse
 ###### Definition
 **([[homeomorphisms]])**
 
-An [[isomorphism]] in the [[category]] [[Top]] (remark \ref{TopCategory}) 
+An [[isomorphism]] in the [[category]] [[Top]] (remark \ref{TopCategory})
 of [[topological spaces]] (def. \ref{TopologicalSpace}) with [[continuous functions]] between them (def. \ref{ContinuousMaps})
 is called a _[[homeomorphism]]_.
 
@@ -2929,7 +2985,7 @@ $$
 
 Regard the [[real line]] as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology}).
 
-Then the open [[interval]] $(-1,1) \subset \mathbb{R}$ (def. \ref{OpenAndClosedIntervals}) 
+Then the open [[interval]] $(-1,1) \subset \mathbb{R}$ (def. \ref{OpenAndClosedIntervals})
 regarded with its [[subspace topology]] (example \ref{SubspaceTopology}) is [[homeomorphic]] (def.\ref{Homeomorphism}) to all of the [[real line]]
 
 $$
@@ -2937,7 +2993,8 @@ $$
   \,.
 $$
 
-An [[inverse]] pair of [[continuous functions]] is for instance given by
+An [[inverse]] pair of [[continuous functions]] is for instance given (via example \ref{PolynoialsAreContinuous}) by
+
 
 $$
   \array{
@@ -3188,8 +3245,8 @@ in the [proof below](#BorelHeineProof) of the [[Heine-Borel theorem]] (prop. \re
 
 Let $n \in \mathbb{N}$, and let $[a_i, b_i] \subset \mathbb{R}$ for $i \in \{1, \cdots, n\}$
 be $n$ [[closed intervals]] in the [[real line]] (example \ref{OpenAndClosedIntervals}), regarded as [[topological subspaces]] of the
-1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] 
-(example \ref{MetricTopology}). Then the [[product topological space]] 
+1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]]
+(example \ref{MetricTopology}). Then the [[product topological space]]
 (def. \ref{BinaryProductTopologicalSpace}, example \ref{CartesianSymmetricMonoidalTop})
 of all these intervals is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism})
 to the corresponding [[topological subspace]] of the $n$-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}):
@@ -3224,7 +3281,7 @@ But this is immediate from lemma \ref{RecognizingTopologicalBasis}.
 
 +-- {: .num_example #HomeomorphismBetweenTopologicalAndCombinatorialCircle}
 ###### Example
-**(interval glued at endpoints homeomorphic circle)**
+**(closed interval glued at endpoints homeomorphic circle)**
 
 As topological spaces, the [[closed interval]] $[0,1]$ (def. \ref{OpenAndClosedIntervals}) with its two endpoints identified is [[homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
 
@@ -3316,9 +3373,11 @@ Important examples of pairs of spaces that are _not_ homeomorphic include the fo
 ###### Theorem
 **([[topological invariance of dimension]])**
 
-For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphic]].
+For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the
+ [[Euclidean spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ (example \ref{EuclideanNorm}, example \ref{MetricTopology})
+ are _not_ [[homeomorphic]].
 
-More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open set in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
+More generally, an [[open subsset]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open subset in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
 
 =--
 
@@ -3333,18 +3392,30 @@ $\,$
 ## Separation axioms
  {#SeparationAxioms}
 
-The plain definition of _[[topological space]]_ happens to allow examples where distinct points or distinct subsets of the underlying set of a topological space appear as as more-or-less unseparable as seen by the topology on that set. In many applications one wants to exclude at least some of such degenerate examples from the discussion. The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_.
+The plain definition of _[[topological space]]_ ([above](#TopologicalSpaces)) happens to allow examples where distinct points or distinct subsets of the underlying set of a topological space appear as more-or-less unseparable as seen by the topology on that set.
+
++-- {: .num_example}
+###### Example
+
+Consider the [[Sierpinski space]] from example \ref{SierpinskiSpace}, whose underlying set consists of
+two points $\{0,1\}$, and whose open subsets form the set $\tau = \{ \emptyset, \{1\}, \{0,1\} \}$.
+This means that the only (open) neighbourhood of the point $\{0\}$ is the entire space.
+
+=--
+
+In many applications one wants to exclude at least some of such degenerate examples from the discussion. The relevant conditions to be imposed on top of the plain [[axioms]] of a [[topological space]] are hence known as _[[separation axioms]]_.
 
 These axioms are all of the form of saying that two subsets (of certain forms) in the topological space are 'separated' from each other in one sense if they are 'separated' in a (generally) weaker sense. For example the weakest axiom (called $T_0$) demands that if two points are distinct as elements of the underlying set of points, then there exists at least one [[open subset]] that contains one but not the other.
 
-In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Often in [[topology]], this axiom is considered by default.
+In this fashion one may impose a hierarchy of stronger axioms. For example demanding that given two distinct points, then each of them is contained in some open subset not containing the other ($T_1$) or that such a pair of open subsets around two distinct points may in addition be chosen to be disjoint ($T_2$). This last condition, $T_2$, also called the _[[Hausdorff topological space|Hausdorff condition]]_ is the most common among all separation axioms. Historically this axiom was originally taken as part of the definition of topological spaces,
+and it is still often (but by no means always) considered by default.
 
 However, there are respectable areas of mathematics that involve topological spaces where the Hausdorff axiom fails, but
 a weaker axiom is still satisfied, called [[sober topological spaces|soberity]].
 This is the case notably in [[algebraic geometry]] ([[schemes are sober]]) and in [[computer science]] ([Vickers 89](#Vickers89)).
-These [[sober topological spaces]] are singled out by the fact that they are entirely characterized by their
-[[partially ordered sets]] [[frame of opens|of open subsets]] and may hence be understood independently from their
-underlying sets of points.
+These _[[sober topological spaces]]_ are singled out by the fact that they are entirely characterized by their
+[[frame of opens|sets of open subsets]] with their union and intersection structure (as in def. \ref{HomomorphismOfFramesOfOpens})
+and may hence be understood independently from their underlying sets of points.
 
 | [[separation axioms]]                 |
 |---------------------------------------|
