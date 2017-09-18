@@ -110,7 +110,7 @@ Most [[functional programming|functional]] [[programming language|programming la
 
 ## References
 
-The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as an object $D$ such that the exponential $D^D$ is isomorphic to (or possibly only a [[retract]] of) $D$ was proposed by [[Dana Scott]] in
+The idea that untyped lambda calculus can be modeled internally to a cartesian closed category as a [[reflexive object]] (an object $D$ such that the exponential $D^D$ is a [[retract]] of $D$) was formulated explicitly by [[Dana Scott]] in
 
 * Dana Scott. Relating theories of the $\lambda$-calculus. In _To H.B. Curry: Essays on Combinatory Logic, Lambda-Calculus and Formalism_ (eds. Hindley and Seldin), Academic Press, 403--450, 1980.
 
