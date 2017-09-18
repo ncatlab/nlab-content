@@ -2252,10 +2252,59 @@ The [[suspension spectrum]] $\Sigma^\infty X$ (example \ref{SuspensionSpectrum})
 
 =--
 
++-- {: .num_remark #StrictModelStructureCellAttachmentToSpectra}
+###### Remark
+
+Since, by definition \ref{CWSpectrum}, a $p$-cell of a [[cell spectrum]] that appears at stage $q$ shows up as its $k$-fold suspension at stage $q+k$, its attachment to some spectrum $X$ is reflected by a [[pushout]] of spectra of the form
+
+$$
+  \array{
+    \Sigma^\infty S^{-1}_+[-q]
+      &\longrightarrow&
+    X
+      &\longrightarrow&
+    \ast
+    \\
+    {}^{\mathllap{\Sigma^\infty (i_{p})_+[-q]}}
+    \downarrow
+      &(po)&
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    \Sigma^\infty D^{p}_+[-q]
+      &\longrightarrow&
+    \hat X
+      &\longrightarrow&
+    \Sigma^\infty S^p[-q]
+  }
+  \,,
+$$ 
+
+where the left vertical morphism is the image under the $-q$th shift spectrum functor (def. \ref{ShiftedSpectrum}) of the image under the [[suspension spectrum]] functor (example \ref{SuspensionSpectrum}) of the basic cell inclusion $(i_p)_+$ of [[pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)). This is a cofibration by prop. \ref{SigmaInfinityIsQuillenOnStrictModelStructureOnSequential}, and so also the middle vertical morphism is a cofibration, by theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. Using the [[pasting law]] for pushouts, we find that the [[cofiber]] of the middle vertical morphisms (hence its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) in the strict model structure) is $\Sigma^\infty S^p[-q]$ (not $\Sigma^\infty S^p_+[-q]\;$(!)). This is a shift of a trunction of the [[sphere spectrum]].
+
+After having set up the stable model category structure in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} below, we find that this means that cell attachments to CW-spectra in the stable model structure are by cofibers of integer shifts of the [[sphere spectrum]] $\mathbb{S}$ (def. \ref{StandardSphereSpectrum}), in that in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) the above situation is reflected as a [[homotopy cofiber sequence]] of the form
+
+$$
+  \Sigma^{p-q-1} \mathbb{S}
+    \longrightarrow
+  X
+    \longrightarrow
+  \hat X
+    \longrightarrow
+  \Sigma^{p-q} \mathbb{S}
+  \,.
+$$
+
+
+=--
+
+
+
 +-- {: .num_prop #ClosureOfCWSpectra}
 ###### Proposition
 
-The class of CW-spectra is closed under the following operations:
+The class of CW-spectra is closed under various operations, including
 
 * finite [[wedge sum]] (def. \ref{WedgeSumOfSpectra})
 
