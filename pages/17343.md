@@ -2,34 +2,15 @@
 {:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
-
-
-+-- {: .standout}
-
-
-$\;\;\;\;\;\;\;\;\;\;\;$ **Stable Homotopy Theory**
-
-$\;\;\;\;\;\;\;\;\;\;\;$ [[Introduction to Stable homotopy theory|Lecture]] and [[Introduction to Stable homotopy theory -- S|Seminar]]
-
-
-$\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
-
-
-=--
-
-
-
-**Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. To that end we introduce the modern tools, such as [[model categories]] and [[highly structured ring spectra]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
-
 ***
 
-Lecture notes.
 
-Main page: _[[Introduction to Stable homotopy theory]]_
+This pages given a detailed introduction to classical _[[homotopy theory]]_, starting with the concept of [[homotopy]] in
+[[topological spaces]] and motivating from this the "abstract homotopy theory" in general [[model categories]].
 
-This section: **Prelude -- Classical homotopy theory**
+For background on basic [[topology]] see at _[[Introduction to Topology]]_.
 
-Next section: _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_
+For application to [[stable homotopy theory]] see at  _[[Introduction to Stable homotopy theory]]_.
 
 
 ***
@@ -38,32 +19,29 @@ Next section: _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable ho
 * table of contents
 {:toc}
 
-## **Prelude) Classical homotopy theory**
- {#ClassicalHomotopyTheory}
-
-We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn in [[Introduction to Stable homotopy theory -- 1|section 1]]. But since its existence is an adjunct of the [[classical homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]], we here review that first. (If you need background on [[point-set topology]], see _[[Introduction to Topology]]_.)
+$\,$
 
 
-While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]] ("point-set topology"), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. 
+While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]] ("point-set topology"), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class.
 
 The [[category]] of topological spaces obtained by [[localization of a category|forcing]] [[weak homotopy equivalences]] to become [[isomorphisms]] is the "[[classical homotopy category]]" [[Ho(Top)]]. This homotopy category however has forgotten a little too much information: homotopy theory really wants the [[weak homotopy equivalences]] not to become plain [[isomorphisms]], but to become actual [[homotopy equivalences]]. The structure that reflects this is called a _[[model category]]_ structure (short for "category of models for [[homotopy types]]"). For classical homotopy theory this is accordingly called the _[[classical model structure on topological spaces]]_. This we review here.
 
 
-### **P.1)** Topological homotopy theory
+## Topological homotopy theory
  {#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology}
 
-This section recalls relevant concepts from actual [[topology]] ("point-set topology") and highlights facts that motivate the axiomatics of [[model categories]] [below](#ModelCategoryTheory). We prove two technical lemmas (lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}) that serve to establish the abstract homotopy theory of topological spaces [further below](#TheClassicalModelStructureOfTopologicalSpaces). 
+This section recalls relevant concepts from actual [[topology]] ("point-set topology") and highlights facts that motivate the axiomatics of [[model categories]] [below](#ModelCategoryTheory). We prove two technical lemmas (lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}) that serve to establish the abstract homotopy theory of topological spaces [further below](#TheClassicalModelStructureOfTopologicalSpaces).
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
 $\,$
 
-Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them. Its [[isomorphisms]] are the [[homeomorphisms]]. 
+Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them. Its [[isomorphisms]] are the [[homeomorphisms]].
 
 (Further [below](#ModelStructureOnCompactlyGeneratedTopologicalSpaces) we restrict attention to the [[full subcategory]] of [[compactly generated topological spaces]].)
 
 
-#### Universal constructions
+### Universal constructions
 
 To begin with, we recall some basics on [[universal constructions]] in [[Top]]: [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]]; [[exponential objects]].
 
@@ -180,7 +158,7 @@ Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$
    Hence
 
    $$
-     \underset{\longleftarrow}{\lim}_{i \in I} X_i  
+     \underset{\longleftarrow}{\lim}_{i \in I} X_i
      \simeq
      \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
    $$
@@ -201,7 +179,7 @@ Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$
    Hence
 
    $$
-     \underset{\longrightarrow}{\lim}_{i \in I} X_i  
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i
      \simeq
      \left(\underset{\longrightarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
    $$
@@ -213,13 +191,13 @@ Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$
 +-- {: .proof}
 ###### Proof
 
-The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ (def. \ref{LimitsAndColimits}) is immediate: for 
+The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ (def. \ref{LimitsAndColimits}) is immediate: for
 
 $$
   \array{
     && (S,\tau)
     \\
-    & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}} 
+    & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}}
     \\
     X_i && \underset{}{\longrightarrow} && X_j
   }
@@ -272,13 +250,13 @@ In the case that $S$ is a [[finite set]], such as for binary product spaces $X \
 +-- {: .num_example #EqualizerInTop}
 ###### Example
 
-The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
+The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets
 
 $$
-  eq(f,g) 
-   \hookrightarrow 
-  S_X 
-    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  eq(f,g)
+   \hookrightarrow
+  S_X
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
   S_Y
 $$
 
@@ -290,13 +268,13 @@ $$
 +-- {: .num_example #CoequalizerInTop}
 ###### Example
 
-The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets 
+The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets
 
 $$
-  S_X 
-    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  S_X
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}
   S_Y
-    \longrightarrow 
+    \longrightarrow
   coeq(f,g)
 $$
 
@@ -307,7 +285,7 @@ $$
 +-- {: .num_example #PushoutInTop}
 ###### Example
 
-For 
+For
 
 $$
   \array{
@@ -333,12 +311,12 @@ $$
   \,.
 $$
 
-(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) 
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.)
 
 This is equivalently the [[coequalizer]] of the two morphisms from $A$ to the [[coproduct]] of $X$ with $Y$ (example \ref{DisjointUnionOfTopologicalSpacesIsCoproduct}):
 
 $$
-  A 
+  A
    \stackrel{\longrightarrow}{\longrightarrow}
   X \sqcup Y
    \longrightarrow
@@ -379,7 +357,7 @@ $$
   \array{
     A &\longrightarrow& Y
     \\
-    \downarrow && \downarrow 
+    \downarrow && \downarrow
     \\
     X &\longrightarrow& Z
   }
@@ -419,7 +397,7 @@ is the [[quotient space]] or _[[cofiber]]_, denoted $X/A$.
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
-An important special case of example \ref{PushoutInTop}: 
+An important special case of example \ref{PushoutInTop}:
 
 For $n \in \mathbb{N}$ write
 
@@ -429,7 +407,7 @@ For $n \in \mathbb{N}$ write
 
 Notice that $S^{-1} = \emptyset$ and that $S^0 = \ast \sqcup \ast$.
 
-Let 
+Let
 
 $$
   i_n \colon S^{n-1}\longrightarrow D^n
@@ -476,7 +454,7 @@ A _[[partial order]]_ is a [[set]] $S$ equipped with a [[relation]] $\leq$ such 
 
 2) ([[transitive relation|transitivity]]) if $a \leq b$ and $b \leq c$ then $a \leq c$;
 
-3) ([[antisymmetric relation|antisymmetry]]) if $a\leq b$ and $\b \leq a$ then $a = b$. 
+3) ([[antisymmetric relation|antisymmetry]]) if $a\leq b$ and $\b \leq a$ then $a = b$.
 
 This we may and will equivalently think of as a [[category]] with [[objects]] the elements of $S$ and a unique morphism $a \to b$ precisely if $a\leq b$. In particular an order-preserving function between partially ordered sets is equivalently a [[functor]] between their corresponding categories.
 
@@ -490,7 +468,7 @@ A total order is a _[[well order]]_ if in addition
 
 5) ([[well-founded relation|well-foundedness]]) every non-empty subset has a least element.
 
-An _[[ordinal]]_ is the [[equivalence class]] of a well-order. 
+An _[[ordinal]]_ is the [[equivalence class]] of a well-order.
 
 The _[[successor]]_ of an ordinal is the class of the well-order with a [[top element]] freely adjoined.
 
@@ -509,17 +487,17 @@ The finite ordinals are labeled by $n \in \mathbb{N}$, corresponding to the well
 ###### Definition
 
 
-Let $\mathcal{C}$ be a [[category]], and let $I \subset Mor(\mathcal{C})$ be a [[class]] of its morphisms. 
+Let $\mathcal{C}$ be a [[category]], and let $I \subset Mor(\mathcal{C})$ be a [[class]] of its morphisms.
 
 For $\alpha$ an [[ordinal]] (regarded as a [[category]]), an $\alpha$-indexed _transfinite sequence_ of elements in $I$ is a [[diagram]]
 
 $$
-  X_\bullet 
-    \;\colon\; 
+  X_\bullet
+    \;\colon\;
   \alpha \longrightarrow \mathcal{C}
 $$
 
-such that 
+such that
 
 1. $X_\bullet$ takes all [[successor]] morphisms $\beta \stackrel{\leq}{\to} \beta + 1$ in $\alpha$ to elements in $I$
 
@@ -543,11 +521,11 @@ $$
     &\stackrel{X_{1,2}}{\to}& X_2
     &\to& \cdots
     \\
-    & \searrow & \downarrow & \swarrow & \cdots 
+    & \searrow & \downarrow & \swarrow & \cdots
     \\
     &&
     X_\alpha
-  }  
+  }
   \,.
 $$
 
@@ -566,14 +544,14 @@ $$
   X^Y \in Top
 $$
 
-is the [[topological space]] 
+is the [[topological space]]
 
-* whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous 
-functions]] $Y \to X$, 
+* whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous
+functions]] $Y \to X$,
 
 * whose [[open subsets]] are [[unions]] of [[finitary intersections]] of the following [[topological base|subbase]] elements of standard open subsets:
 
-  the standard open subset $U^K \subset Hom_{Top}(Y,X)$ for 
+  the standard open subset $U^K \subset Hom_{Top}(Y,X)$ for
 
   * $K \hookrightarrow Y$ a [[compact topological space]] subset
 
@@ -594,7 +572,7 @@ functions]] $Y \to X$,
 
 Accordingly this is called the _[[compact-open topology]]_ on the set of functions.
 
-The construction extends to a [[functor]] 
+The construction extends to a [[functor]]
 
 $$
   (-)^{(-)} \;\colon\; Top_{lc}^{op} \times Top \longrightarrow Top
@@ -602,7 +580,7 @@ $$
 $$
 
 =--
- 
+
 +-- {: .num_prop #MappingTopologicalSpaceIsExponentialObject}
 ###### Proposition
 
@@ -610,13 +588,13 @@ For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] 
 
 $$
   Hom_{Top}(Z \times Y, X) \simeq Hom_{Top}(Z, X^Y)
-$$ 
+$$
 
 between continuous functions out of any [[product topological space]] of $Y$ with any $Z \in Top$ and continuous functions from $Z$ into the mapping space.
 
 =--
 
-A proof is spelled out [here](compact-open+topology#GivesExponentialObject) 
+A proof is spelled out [here](compact-open+topology#GivesExponentialObject)
 (or see e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02)).
 
 +-- {: .num_remark #UseOfHausdorffnessInCOTopology}
@@ -630,7 +608,7 @@ In the context of prop. \ref{MappingTopologicalSpaceIsExponentialObject} it is o
 +-- {: .num_remark #ProblemWithExponentialsInTop}
 ###### Remark
 
-Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails in general if $Y$ is not locally compact. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]]. 
+Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails in general if $Y$ is not locally compact. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]].
 
 This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance for various constructions that one would like to perform within that homotopy theory. For instance on general [[pointed topological spaces]] the [[smash product]] is in general not [[associativity|associative]].
 
@@ -641,14 +619,14 @@ On the other hand, without changing any of the following discussion one may just
 
 
 
-#### Homotopy
+### Homotopy
 
 The fundamental concept of [[homotopy theory]] is clearly that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|contiunous]] deformations of [[continuous functions]] parameterized by the standard interval:
 
 +-- {: .num_defn #TopologicalInterval}
 ###### Definition
 
-Write 
+Write
 
 $$
   I \coloneqq [0,1] \hookrightarrow \mathbb{R}
@@ -667,8 +645,8 @@ this is the standard [[interval object]] in [[Top]].
 For $X \in Top$, the [[product topological space]] $X\times I$, example \ref{ProductTopologicalSpace}, is called the standard _[[cylinder object]]_ over $X$. The endpoint inclusions of the interval make it factor the [[codiagonal]] on $X$
 
 $$
-  \nabla_X 
-    \;\colon\; 
+  \nabla_X
+    \;\colon\;
   X \sqcup X
   \stackrel{((id,\delta_0),(id,\delta_1))}{\longrightarrow}
   X \times I
@@ -683,11 +661,11 @@ $$
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
 
-For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]** 
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]**
 
 $$
   \eta \colon f \,\Rightarrow_L\, g
-$$ 
+$$
 
 is a [[continuous function]]
 
@@ -705,7 +683,7 @@ out of the standard [[cylinder object]] over $X$, def. \ref{TopologicalInterval}
 
 $$
   \array{
-     X 
+     X
      \\
      {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
      \\
@@ -729,7 +707,7 @@ Let $X$ be a [[topological space]] and let $x,y \in X$ be two of its points, reg
 
 $$
   \array{
-     \ast 
+     \ast
      \\
      {}^{\mathllap{\delta_0}}\downarrow & \searrow^{\mathrlap{x}}
      \\
@@ -751,7 +729,7 @@ For instance:
 +-- {: .num_example #StandardContractionOfStandardInterval}
 ###### Example
 
-Let 
+Let
 
 $$
   const_0 \;\colon\; I \longrightarrow \ast \overset{\delta_0}{\longrightarrow} I
@@ -781,8 +759,8 @@ A key application of the concept of left homotopy is to the definition of [[homo
 ###### Definition
 
 For $X$ a [[topological space]], then its set $\pi_0(X)$
-of _[[connected components]]_, also called the **0-th homotopy set**, 
-is the set of 
+of _[[connected components]]_, also called the **0-th homotopy set**,
+is the set of
 [[left homotopy]]-[[equivalence classes]] (def. \ref{LeftHomotopy}) of points $x \colon \ast \to X$, hence the set of path-connected components of $X$ (example \ref{PathsAsLeftHomotopyBetweenPoints}). By [[composition]] this extends to a [[functor]]
 
 $$
@@ -792,7 +770,7 @@ $$
 
 For $n \in \mathbb{N}$, $n \geq 1$ and for $x \colon \ast \to X$
 any point, then the $n$th **[[homotopy group]]** $\pi_n(X,x)$ of $X$ at $x$
-is the [[group]] 
+is the [[group]]
 
 * whose underlying [[set]] is the set of [[left homotopy]]-[[equivalence classes]] of maps $I^n \longrightarrow X$ that take the [[boundary]] of $I^n$ to $x$ and where the left homotopies $\eta$ are constrained to be constant on the boundary;
 
@@ -801,7 +779,7 @@ is the [[group]]
 $$
   \alpha \cdot \beta
   \;\colon\;
-  I^n 
+  I^n
   \stackrel{\simeq}{\longrightarrow}
   I^n \underset{I^{n-1}}{\sqcup} I^n
   \stackrel{(\alpha,\beta)}{\longrightarrow}
@@ -809,15 +787,15 @@ $$
   \,,
 $$
 
-where the first map is a [[homeomorphism]] from the unit $n$-[[cube]] to the $n$-cube with one side twice the unit length (e.g. $(x_1, x_2, x_3, \cdots) \mapsto (2 x_1, x_2, x_3, \cdots)$). 
+where the first map is a [[homeomorphism]] from the unit $n$-[[cube]] to the $n$-cube with one side twice the unit length (e.g. $(x_1, x_2, x_3, \cdots) \mapsto (2 x_1, x_2, x_3, \cdots)$).
 
-By [[composition]], this construction extends to a [[functor]] 
+By [[composition]], this construction extends to a [[functor]]
 
 $$
   \pi_{\bullet \geq 1}
-    \;\colon\; 
+    \;\colon\;
   Top^{\ast/}
-   \longrightarrow 
+   \longrightarrow
   Grp^{\mathbb{N}_{\geq 1}}
 $$
 
@@ -838,7 +816,7 @@ At this point we don't go further into the abstract reason why def. \ref{Homotop
 ###### Definition
 
 A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
-is called a **[[homotopy equivalence]]** if there exists a 
+is called a **[[homotopy equivalence]]** if there exists a
 continuous function the other way around,
 $g \;\colon\; Y \longrightarrow X$, and [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
 
@@ -861,33 +839,33 @@ If here $\eta_2$ is constant along $I$, $f$ is said to exhibit $X$ as a **[[defo
 ###### Example
 
 For $X$ a [[topological space]] and $X \times I$ its standard [[cylinder object]] of def. \ref{TopologicalInterval}, then the projection $p \colon X \times I \longrightarrow X$ and the inclusion $(id, \delta_0) \colon X \longrightarrow X\times I$ are [[homotopy equivalences]], def. \ref{HomotopyEquivalence}, and in fact are homotopy inverses to each other:
- 
-The composition 
+
+The composition
 
 $$
   X \overset{(id,\delta_0)}{\longrightarrow} X\times I \overset{p}{\longrightarrow} X
-$$ 
+$$
 
-is immediately the identity on $X$ (i.e. homotopic to the identity by a trivial homotopy), while the composite 
+is immediately the identity on $X$ (i.e. homotopic to the identity by a trivial homotopy), while the composite
 
 $$
-  X 
-    \times I \overset{p}{\longrightarrow} 
-  X 
-    \overset{(id, \delta_0)}{\longrightarrow} 
+  X
+    \times I \overset{p}{\longrightarrow}
+  X
+    \overset{(id, \delta_0)}{\longrightarrow}
   X\times I
-$$ 
+$$
 
 is homotopic to the identity on $X \times I$ by a homotopy that is pointwise in $X$ that of example \ref{StandardContractionOfStandardInterval}.
 
- 
+
 =--
 
 
 +-- {: .num_defn #WeakHomotopyEquivalenceOfTopologicalSpaces}
 ###### Definition
 
-A [[continuous function]] $f \colon X \longrightarrow Y$ is called  a **[[weak homotopy equivalence]]** if its image under all the [[homotopy group]] functors of def. \ref{HomotopyGroupsOftopologicalSpaces} is an [[isomorphism]], hence if 
+A [[continuous function]] $f \colon X \longrightarrow Y$ is called  a **[[weak homotopy equivalence]]** if its image under all the [[homotopy group]] functors of def. \ref{HomotopyGroupsOftopologicalSpaces} is an [[isomorphism]], hence if
 
 $$
   \pi_0(f) \;\colon\; \pi_0(X) \stackrel{\simeq}{\longrightarrow} \pi_0(X)
@@ -915,7 +893,7 @@ In particular a [[deformation retraction]], def. \ref{HomotopyEquivalence}, is a
 +-- {: .proof}
 ###### Proof
 
-First observe that for all $X\in$ [[Top]] the inclusion maps 
+First observe that for all $X\in$ [[Top]] the inclusion maps
 
 $$
   X \overset{(id,\delta_0)}{\longrightarrow} X \times I
@@ -927,7 +905,7 @@ Then given a general [[homotopy equivalence]], apply the homotopy groups functor
 
 $$
   \array{
-     \pi_\bullet(X) 
+     \pi_\bullet(X)
      \\
      {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(f)\circ \pi_\bullet(g)}}
      \\
@@ -941,7 +919,7 @@ $$
   \,,
   \;\;\;\;\;\;\;
   \array{
-     \pi_\bullet(Y) 
+     \pi_\bullet(Y)
      \\
      {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(g)\circ \pi_\bullet(f)}}
      \\
@@ -977,10 +955,10 @@ However, as we will discuss below, it turns out that
 
 For $X\in Top$, the projection $X\times I \longrightarrow X$
 from the [[cylinder object]] of $X$, def. \ref{TopologicalInterval},
-is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.  This means that the factorization 
+is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.  This means that the factorization
 
 $$
-  \nabla_X 
+  \nabla_X
     \;\colon\;
   X \sqcup X
     \stackrel{}{\hookrightarrow}
@@ -1016,12 +994,12 @@ The endpoint inclusion into the standard interval, def. \ref{TopologicalInterval
 
 $$
   \Delta_X
-  \;\colon\; 
+  \;\colon\;
   X \stackrel{X^{I \to \ast}}{\longrightarrow} X^I \stackrel{X^{\ast \sqcup \ast \to I}}{\longrightarrow} X \times X
   \,.
 $$
 
-This is the [[formal dual]] to example \ref{TopologicalInterval}. As in that example, below we will see (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}) that this factorization has good properties, in that 
+This is the [[formal dual]] to example \ref{TopologicalInterval}. As in that example, below we will see (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}) that this factorization has good properties, in that
 
 1. $X^{I \to \ast}$ is a [[weak homotopy equivalence]];
 
@@ -1061,7 +1039,7 @@ $$
 
 
 
-#### Cell complexes
+### Cell complexes
 
 We consider topological spaces that are built consecutively by attaching basic cells.
 
@@ -1077,7 +1055,7 @@ $$
     S^{n-1} \stackrel{\iota_n}{\hookrightarrow} D^{n}
   \right\}_{n \in \mathbb{N}}
   \;
-   \subset 
+   \subset
   Mor(Top)
 $$
 
@@ -1108,9 +1086,9 @@ $$
   \array{
     \underset{i}{\coprod} S^{n_i - 1} &\longrightarrow& X_{k}
     \\
-    {}^{\mathllap{\underset{i}{\coprod}\iota_{n_i}}}\downarrow 
-     &(po)& 
-    \downarrow  
+    {}^{\mathllap{\underset{i}{\coprod}\iota_{n_i}}}\downarrow
+     &(po)&
+    \downarrow
     \\
     \underset{i}{\coprod} D^{n_i} &\longrightarrow& X_{k+1}
   }
@@ -1122,7 +1100,7 @@ A topological space $X$ is a **[[cell complex]]** if $\emptyset \longrightarrow 
 
 A relative cell complex is called a **finite relative cell complex** if it is obtained from a [[finite number]] of cell attachments.
 
-A (relative) cell complex is called a (relative) **[[CW-complex]]** if the above transfinite composition is countable 
+A (relative) cell complex is called a (relative) **[[CW-complex]]** if the above transfinite composition is countable
 
 $$
   \array{
@@ -1162,11 +1140,11 @@ every [[compact topological space|compact]] [[topological subspace|subspace]] of
 +-- {: .proof}
 ###### Proof
 
-So let $Y$ be a topological cell complex and $C \hookrightarrow Y$ a [[compact topological space|compact]] [[topological subspace|subspace]]. Define a subset 
+So let $Y$ be a topological cell complex and $C \hookrightarrow Y$ a [[compact topological space|compact]] [[topological subspace|subspace]]. Define a subset
 
 $$
   P \subset Y
-$$ 
+$$
 
 by _choosing_ one point in the [[interior]] of the intersection with $C$ of each cell of $Y$ that intersects $C$.
 
@@ -1179,7 +1157,7 @@ It is now sufficient to show that $U_c$ may be enlarged to an open subset $\tild
 To that end, let $\alpha_c$ be the [[ordinal]] that labels the stage $Y_{\alpha_c}$ of the [[transfinite composition]] in the [[cell complex]]-presentation of $Y$ at which the cell $e_c$ above appears. Let $\gamma$ be the ordinal of the full cell complex. Then define the set
 
 $$
-  T 
+  T
   \coloneqq
   \left\{
     \;
@@ -1210,7 +1188,7 @@ $$
   \,.
 $$
 
-This is set up such that every element $(\beta, U)$ of $T$ with $\beta$ the maximum value $\beta = \gamma$ is an extension $\tilde U_c$ that we are after. 
+This is set up such that every element $(\beta, U)$ of $T$ with $\beta$ the maximum value $\beta = \gamma$ is an extension $\tilde U_c$ that we are after.
 
 Observe then that for $(\beta_s, U_s)_{s\in S}$ a chain in $(T,\lt)$ (a subset on which the relation $\lt$ restricts to a [[total order]]), it has an upper bound in $T$ given by the [[union]] $({\cup}_s \beta_s ,\cup_s U_s)$. Therefore [[Zorn's lemma]] applies, saying that $(T,\lt)$ contains a [[maximal element]] $(\beta_{max}, U_{max})$.
 
@@ -1265,7 +1243,7 @@ For $X$ a [[CW-complex]] (def. \ref{TopologicalCellComplex}), then its inclusion
 
 First erect a cylinder over all 0-cells
 
-$$ 
+$$
   \array{
      \underset{x \in X_0}{\coprod} D^0 &\longrightarrow& X
      \\
@@ -1296,7 +1274,7 @@ There is a [[homeomorphism]]
 
 $$
   \array{
-     D^n & = & D^n 
+     D^n & = & D^n
      \\
      {}^{\mathllap{(id,\delta_0)}}\downarrow  && \downarrow
      \\
@@ -1308,7 +1286,7 @@ such that the map on the right is the inclusion of one hemisphere into the [[bou
 
 $$
   \array{
-    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n 
+    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n
     \\
     {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
     \\
@@ -1339,7 +1317,7 @@ Every $J_{Top}$-[[relative cell complex]] (def. \ref{TopologicalGeneratingAcycli
 +-- {: .proof}
 ###### Proof
 
-Let $X \longrightarrow \hat X = \underset{\longleftarrow}{\lim}_{\beta \leq \alpha} X_\beta$ be a $J_{Top}$-[[relative cell complex]]. 
+Let $X \longrightarrow \hat X = \underset{\longleftarrow}{\lim}_{\beta \leq \alpha} X_\beta$ be a $J_{Top}$-[[relative cell complex]].
 
 First observe that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ being [[homotopy equivalences]] for all $n \in \mathbb{N}$ (by example \ref{ProjectionFromStandardCylinderIsHomotopyEquivalence}), each of the stages $X_{\beta} \longrightarrow X_{\beta + 1}$ in the relative cell complex is also a homotopy equivalence. We make this fully explicit:
 
@@ -1351,8 +1329,8 @@ $$
      &\longrightarrow&
      X_\beta
      \\
-     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow 
-      &(po)& 
+     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow
+      &(po)&
      \downarrow
      \\
      \underset{i \in I}{\sqcup} D^{n_i} \times I
@@ -1370,8 +1348,8 @@ $$
      &\longrightarrow&
      X_\beta
      \\
-     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow 
-       && 
+     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow
+       &&
      \downarrow^{\mathrlap{id}}
      \\
      \underset{i \in I}{\sqcup} D^{n_i} \times I
@@ -1379,7 +1357,7 @@ $$
      {}^{\mathllap{\underset{i \in I}{\sqcup} p_{n_i} }}\downarrow && \downarrow
      \\
      \underset{i \in I}{\sqcup} D^{n_i}
-       &\longrightarrow& 
+       &\longrightarrow&
      X_\beta
   }
 $$
@@ -1392,20 +1370,20 @@ $$
      &\longrightarrow&
      X_\beta
      \\
-     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow 
-       && 
+     {}^{\mathllap{\underset{i \in I}{\sqcup} (id, \delta_0)} }\downarrow
+       &&
      \downarrow^{}
      \\
      \underset{i \in I}{\sqcup} D^{n_i} \times I
        &\longrightarrow&
      X_{\beta + 1}
      \\
-     {}^{\mathllap{\underset{i \in I}{\sqcup} p_{n_i} }}\downarrow 
-       && 
+     {}^{\mathllap{\underset{i \in I}{\sqcup} p_{n_i} }}\downarrow
+       &&
      \downarrow
      \\
      \underset{i \in I}{\sqcup} D^{n_i}
-       &\longrightarrow& 
+       &\longrightarrow&
      X_\beta
   }
 $$
@@ -1446,7 +1424,7 @@ $$
   \eta(-,t) \;\colon\; X_{\beta + 1} \longrightarrow X_{\beta + 1}
 $$
 
-for each $t \in [0,1]$. For $t = 0$ this construction reduces to the provious one in that $\eta(-,0) \colon X_{\beta +1 } \to X_{\beta} \to X_{\beta + 1}$ is the composite which we need to homotope to the identity; while $\eta(-,1)$ is the identity. 
+for each $t \in [0,1]$. For $t = 0$ this construction reduces to the provious one in that $\eta(-,0) \colon X_{\beta +1 } \to X_{\beta} \to X_{\beta + 1}$ is the composite which we need to homotope to the identity; while $\eta(-,1)$ is the identity.
 Since $\eta(-,t)$ is clearly also continuous in $t$ it constitutes a continuous function
 
 $$
@@ -1456,7 +1434,7 @@ $$
 which exhibits the required left homotopy.
 
 
-So far this shows that each stage $X_{\beta} \to X_{\beta+1}$ in the [[transfinite composition]] defining $\hat X$ is a [[homotopy equivalence]], hence, by prop.  \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a [[weak homotopy equivalence]]. 
+So far this shows that each stage $X_{\beta} \to X_{\beta+1}$ in the [[transfinite composition]] defining $\hat X$ is a [[homotopy equivalence]], hence, by prop.  \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a [[weak homotopy equivalence]].
 
 This means that all morphisms in the following diagram (notationally suppressing basepoints and showing only the finite stages)
 
@@ -1472,7 +1450,7 @@ $$
       &\overset{\simeq}{\longrightarrow}&
     \cdots
     \\
-    & {}_{\mathllap{\simeq}}\searrow & 
+    & {}_{\mathllap{\simeq}}\searrow &
       \downarrow^{\mathrlap{\simeq}}
     & \swarrow_{\mathrlap{\simeq}} & \cdots
     \\
@@ -1498,9 +1476,9 @@ is an isomorphism. Hence the composite $\pi_n(X) \overset{\simeq}{\longrightarro
 
 
 
-#### Fibrations
+### Fibrations
 
-Given a relative $C$-cell complex $\iota \colon  X \to Y$, def. \ref{TopologicalCCellComplex}, it is typically interesting to study the [[extension]] problem along $f$, i.e. to ask which topological spaces $E$ are such that every [[continuous function]] $f\colon X \longrightarrow E$ has an extension $\tilde f$ along $\iota$ 
+Given a relative $C$-cell complex $\iota \colon  X \to Y$, def. \ref{TopologicalCCellComplex}, it is typically interesting to study the [[extension]] problem along $f$, i.e. to ask which topological spaces $E$ are such that every [[continuous function]] $f\colon X \longrightarrow E$ has an extension $\tilde f$ along $\iota$
 
 $$
   \array{
@@ -1575,7 +1553,7 @@ $$
   \array{
     D^n &\longrightarrow& E
     \\
-    {}^{\mathllap{(id,\delta_0)}}\downarrow 
+    {}^{\mathllap{(id,\delta_0)}}\downarrow
      &{}^{\mathllap{h}}\nearrow& \downarrow^{\mathrlap{p}}
     \\
     D^n\times I &\longrightarrow& B
@@ -1591,7 +1569,7 @@ $$
 Def. \ref{SerreFibration} says, in view of the definition of [[left homotopy]], that a [[Serre fibration]] $p$ is a map with the property that given a [[left homotopy]], def. \ref{LeftHomotopy}, between two functions into its [[codomain]], and given a lift of one the two functions through $p$, then also the homotopy between the two lifts.
 Therefore the condition on a [[Serre fibration]] is also called the _[[homotopy lifting property]]_ for maps whose domain is an [[n-disk]].
 
-More generally one may ask functions $p$ to have such [[homotopy lifting property]] for functions with arbitrary domain. These are called _[[Hurewicz fibrations]]_. 
+More generally one may ask functions $p$ to have such [[homotopy lifting property]] for functions with arbitrary domain. These are called _[[Hurewicz fibrations]]_.
 
 =--
 
@@ -1652,12 +1630,12 @@ A [[Serre fibration]], def. \ref{SerreFibration} has the [[right lifting propert
 
 
 
-The following statement is foreshadowing the [[long exact sequences of homotopy groups]] ([below](#LongSequences)) induced by any [[fiber sequence]], the full version of which we come to [below](HomotopyFiberSequences) (example \ref{LongExactSequeceOfHomotopyGroups}) after having developed more of the abstract homotopy theory. 
+The following statement is foreshadowing the [[long exact sequences of homotopy groups]] ([below](#LongSequences)) induced by any [[fiber sequence]], the full version of which we come to [below](HomotopyFiberSequences) (example \ref{LongExactSequeceOfHomotopyGroups}) after having developed more of the abstract homotopy theory.
 
 +-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
 ###### Proposition
 
-Let $f\colon X \longrightarrow Y$ be a [[Serre fibration]], def. \ref{SerreFibration}, let $y \colon \ast \to Y$ be any point and write 
+Let $f\colon X \longrightarrow Y$ be a [[Serre fibration]], def. \ref{SerreFibration}, let $y \colon \ast \to Y$ be any point and write
 
 $$
   F_y \overset{\iota}{\hookrightarrow} X \overset{f}{\longrightarrow} Y
@@ -1674,7 +1652,7 @@ $$
   \pi_\bullet(Y)
 $$
 
-is [[exact sequence|exact]], in that the [[kernel]] of $f_\ast$ is canonically identified with the [[image]] of $\iota_\ast$: 
+is [[exact sequence|exact]], in that the [[kernel]] of $f_\ast$ is canonically identified with the [[image]] of $\iota_\ast$:
 
 $$
   ker(f_\ast) \simeq im(\iota_\ast)
@@ -1703,11 +1681,11 @@ $$
 
 where $\kappa$ is the contracting homotopy witnessing that $f_\ast[\alpha] = 0$.
 
-Now since $x$ is a lift of $y$, there exists a [[left homotopy]] 
+Now since $x$ is a lift of $y$, there exists a [[left homotopy]]
 
 $$
   \eta  \;\colon\; \kappa \Rightarrow const_y
-$$ 
+$$
 
 as follows:
 
@@ -1737,20 +1715,20 @@ $$
   \array{
     S^{n-1} &\longrightarrow& &\overset{\alpha}{\longrightarrow}& X
     \\
-    {}^{\mathllap{(id,\delta_1)}}\downarrow 
+    {}^{\mathllap{(id,\delta_1)}}\downarrow
     &&
     && \downarrow^{\mathrlap{f}}
     \\
-    S^{n-1} \times I 
-      &\overset{(\iota_n, id)}{\longrightarrow}& 
-    D^n \times I 
-      &\overset{\eta}{\longrightarrow}& 
+    S^{n-1} \times I
+      &\overset{(\iota_n, id)}{\longrightarrow}&
+    D^n \times I
+      &\overset{\eta}{\longrightarrow}&
     Y
   }
   \,.
 $$
 
-Because $f$ is a [[Serre fibration]] and by lemma \ref{CylinderOverCWComplexIsJTopRelativeCellComplex} and prop. \ref{SerreFibrationHasRightLiftingAgainstJTopRelativeCellComplexes}, this has a [[lift]] 
+Because $f$ is a [[Serre fibration]] and by lemma \ref{CylinderOverCWComplexIsJTopRelativeCellComplex} and prop. \ref{SerreFibrationHasRightLiftingAgainstJTopRelativeCellComplexes}, this has a [[lift]]
 
 $$
   \tilde \eta \;\colon\; S^{n-1} \times I \longrightarrow X
@@ -1822,7 +1800,7 @@ We check that the lifts in these diagrams exhibit $\pi_\bullet(f)$ as being an [
 
 For $n = 0$ the existence of these lifts says that every point of $X$ is in the image of $p$, hence that $\pi_0(\hat X) \to \pi_0(X)$ is [[surjection|surjective]]. Let then $S^0 = \ast \coprod \ast \longrightarrow \hat X$ be a map that hits two connected components, then the existence of the lift says that if they have the same image in $\pi_0(X)$ then they were already the same connected component in $\hat X$. Hence $\pi_0(\hat X)\to \pi_0(X)$ is also [[injection|injective]] and hence is a [[bijection]].
 
-Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective. 
+Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective.
 
 Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every elements in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
 
@@ -1833,7 +1811,7 @@ $$
     \downarrow && \downarrow && \downarrow
     \\
     D^n &\longrightarrow& X &=& X
-  }  
+  }
 $$
 
 and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
@@ -1851,7 +1829,7 @@ on homotopy groups. In degree 0 this means that $f$ is an isomorphism on [[conne
 
 $$
   \array{
-    S^{-1} = \emptyset &\longrightarrow& X 
+    S^{-1} = \emptyset &\longrightarrow& X
     \\
     \downarrow && \downarrow^{\mathrlap{f}}
     \\
@@ -1863,7 +1841,7 @@ $$
 
 $$
   \array{
-    S^0  &\longrightarrow& X 
+    S^0  &\longrightarrow& X
     \\
     {}^{\mathllap{\iota_0}}\downarrow && \downarrow^{\mathrlap{f}}
     \\
@@ -1875,7 +1853,7 @@ $$
 
 $$
   \array{
-    S^{n-1}  &\overset{\alpha}{\longrightarrow}& X 
+    S^{n-1}  &\overset{\alpha}{\longrightarrow}& X
     \\
     {}^{\mathllap{\iota_n}}\downarrow && \downarrow^{\mathrlap{f}}
     \\
@@ -1883,10 +1861,10 @@ $$
   }
 $$
 
-has a lift.  
+has a lift.
 
 
-To that end, pick a basepoint on $S^{n-1}$ and write $x$ and $y$ for its images in $X$ and $Y$, respectively 
+To that end, pick a basepoint on $S^{n-1}$ and write $x$ and $y$ for its images in $X$ and $Y$, respectively
 
 Then the diagram above expresses that $f_\ast[\alpha] = 0 \in \pi_{n-1}(Y,y)$ and hence by assumption on $f$ it follows that $[\alpha] = 0 \in \pi_{n-1}(X,x)$, which in turn mean that there is $\kappa'$ making the upper triangle of our lifting problem commute:
 
@@ -1922,8 +1900,8 @@ $$
   \array{
     S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n
     \\
-    {}^{\mathllap{\iota_n}}\downarrow 
-    &(po)& 
+    {}^{\mathllap{\iota_n}}\downarrow
+    &(po)&
     \downarrow^{\mathrlap{f \circ \kappa'}}
     \\
     D^n &\underset{\kappa}{\longrightarrow}& S^n
@@ -1944,11 +1922,11 @@ $$
   \,.
 $$
 
-By assumption that $f$ is a weak homotopy equivalence, there is a $[\rho] \in \pi_{n}(X,x)$ with 
+By assumption that $f$ is a weak homotopy equivalence, there is a $[\rho] \in \pi_{n}(X,x)$ with
 
 $$
   f_\ast [\rho] = [(\kappa,f \circ \kappa')]
-$$ 
+$$
 
 hence on representatives there is a lift up to homotopy
 
@@ -1991,7 +1969,7 @@ $$
       +
         [(f\circ \kappa', \kappa)]
     \\
-    & = 0     
+    & = 0
   \end{aligned}
   \,.
 $$
@@ -2010,8 +1988,8 @@ $$
   \array{
     S^{n-1} &\overset{\alpha}{\longrightarrow}& X
     \\
-    {}^{\mathllap{\iota_n}}\downarrow 
-    & 
+    {}^{\mathllap{\iota_n}}\downarrow
+    &
       {}^{\rho'}\nearrow_{\Downarrow^{\phi}}
     &
     \downarrow^{\mathrlap{f}}
@@ -2030,11 +2008,11 @@ $$
   Y
 $$
 
-out of the [[pushout]] that identifies in the cylinder over $D^n$ all points lying over the boundary. Hence we are reduced to finding a lift in 
+out of the [[pushout]] that identifies in the cylinder over $D^n$ all points lying over the boundary. Hence we are reduced to finding a lift in
 
 $$
   \array{
-    D^n &\overset{\rho'}{\longrightarrow}& X 
+    D^n &\overset{\rho'}{\longrightarrow}& X
     \\
     \downarrow && \downarrow^{\mathrlap{f}}
     \\
@@ -2051,7 +2029,7 @@ But inspection of the left map reveals that it is homeomorphic again to $D^n \to
 
 
 
-### **P.2)** Abstract homotopy theory
+## Abstract homotopy theory
  {#ModelCategoryTheory}
 
 
@@ -2063,7 +2041,7 @@ In the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) we d
 
 1. [[Serre fibrations]]
 
-and we saw first aspects of their interplay via [[lifting properties]]. 
+and we saw first aspects of their interplay via [[lifting properties]].
 
 A fundamental insight due to ([Quillen 67](#Quillen67)) is that in fact _all_ constructions in [[homotopy theory]] are elegantly expressible via just the abstract interplay of these classes of morphisms. This was distilled in ([Quillen 67](#Quillen67)) into a small set of [[axioms]] called a **[[model category]] structure** (because it serves to make all [[objects]] be _models_ for [[homotopy types]].)
 
@@ -2095,14 +2073,14 @@ such that
          \\
          & \nearrow&& \searrow
          \\
-         X 
+         X
          &&
          \longrightarrow
          &&
-         Z 
+         Z
      }
    $$
-      
+
    if two of the three morphisms are in $W$, then so is the third.
 
 =--
@@ -2140,7 +2118,7 @@ One says:
 * elements in $W\cap Cof$ are _[[acyclic cofibrations]]_,
 
 * elements in $W \cap Fib$ are _[[acyclic fibrations]]_.
- 
+
 =--
 
 The form of def. \ref{ModelCategory} is due to ([Joyal, def. E.1.2](#Joyal)). It implies various other conditions that ([Quillen 67](#Quillen67)) demands explicitly, see prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} and prop. \ref{WeakEquivalencesAreClosedUnderRetracts} below.
@@ -2149,14 +2127,14 @@ We now dicuss the concept of [[weak factorization systems]] appearing in def. \r
 
 
 
-#### Factorization systems
+### Factorization systems
  {#WeakFactorizationSystems}
 
 
 +-- {: .num_defn #LiftingAndExtension}
 ###### Definition
 
-Let $\mathcal{C}$ be any [[category]]. 
+Let $\mathcal{C}$ be any [[category]].
 Given a [[diagram]] in $\mathcal{C}$ of the form
 
 $$
@@ -2207,7 +2185,7 @@ $$
   \,.
 $$
 
-Combining these cases: given a [[commuting square]] 
+Combining these cases: given a [[commuting square]]
 
 $$
   \array{
@@ -2215,7 +2193,7 @@ $$
      \\
      {}^{\mathllap{p_l}}\downarrow && \downarrow^{\mathrlap{p_r}}
      \\
-     X_2 &\stackrel{f_1}{\longrightarrow}& Y_2     
+     X_2 &\stackrel{f_1}{\longrightarrow}& Y_2
   }
 $$
 
@@ -2227,14 +2205,14 @@ $$
      \\
      {}^{\mathllap{p_l}}\downarrow &\nearrow& \downarrow^{\mathrlap{p_r}}
      \\
-     X_2 &\stackrel{f_1}{\longrightarrow}& Y_2     
+     X_2 &\stackrel{f_1}{\longrightarrow}& Y_2
   }
   \,.
 $$
 
-Given a sub-[[class]] of morphisms $K \subset Mor(\mathcal{C})$, then 
+Given a sub-[[class]] of morphisms $K \subset Mor(\mathcal{C})$, then
 
-* a morphism $p_r$ as above is said to have the **[[right lifting property]] against $K$** or to be a **$K$-[[injective morphism]]** if in all square diagrams with $p_r$ on the right and any $p_l \in K$ on the left a lift exists. 
+* a morphism $p_r$ as above is said to have the **[[right lifting property]] against $K$** or to be a **$K$-[[injective morphism]]** if in all square diagrams with $p_r$ on the right and any $p_l \in K$ on the left a lift exists.
 
 dually:
 
@@ -2247,7 +2225,7 @@ dually:
 
 A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [[pair]] $(Proj,Inj)$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
 
-1. Every [[morphism]] $f \colon X\to Y$ of $\mathcal{C}$ may be factored as the [[composition]] of a morphism in $Proj$ followed by one in $Inj$ 
+1. Every [[morphism]] $f \colon X\to Y$ of $\mathcal{C}$ may be factored as the [[composition]] of a morphism in $Proj$ followed by one in $Inj$
 
    $$
      f\;\colon\;  X \overset{\in Proj}{\longrightarrow} Z \overset{\in Inj}{\longrightarrow} Y
@@ -2265,11 +2243,11 @@ A **[[weak factorization system]]** (WFS) on a [[category]] $\mathcal{C}$ is a [
 +-- {: .num_defn #FunctorialFactorization}
 ###### Definition
 
-For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]] 
+For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]]
 
 $$
   fact \;\colon\; \mathcal{C}^{\Delta[1]} \longrightarrow \mathcal{C}^{\Delta[2]}
-$$ 
+$$
 
 which is a [[section]] of the [[composition]] functor $d_1 \;\colon \;\mathcal{C}^{\Delta[2]}\to \mathcal{C}^{\Delta[1]}$.
 
@@ -2280,8 +2258,8 @@ which is a [[section]] of the [[composition]] functor $d_1 \;\colon \;\mathcal{C
 
 In def. \ref{FunctorialFactorization} we are using the following standard notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
 
-Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
-By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here 
+Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image.
+By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here
 
 * $d_1$ sends a pair of composable morphisms to their [[composition]];
 
@@ -2372,7 +2350,7 @@ $$
   \array{
     A &\longrightarrow& X
     \\
-    \downarrow 
+    \downarrow
     &\searrow& \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in K Inj}}
     \\
     {}^{\mathllap{i}}_{\mathllap{\in K}}\downarrow && \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in K Inj}}
@@ -2388,7 +2366,7 @@ $$
   \array{
     A &\longrightarrow& X
     \\
-    {}^{\mathllap{i}}_{\mathllap{\in K}}\downarrow 
+    {}^{\mathllap{i}}_{\mathllap{\in K}}\downarrow
     && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in K Inj}}
     \\
     \downarrow &\nearrow& \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in K Inj}}
@@ -2414,7 +2392,7 @@ $$
   \,.
 $$
 
-Then for 
+Then for
 
 $$
   \array{
@@ -2426,7 +2404,7 @@ $$
   }
 $$
 
-a [[commuting square]], it is equivalent to its [[pasting]] composite with that retract diagram 
+a [[commuting square]], it is equivalent to its [[pasting]] composite with that retract diagram
 
 $$
   \array{
@@ -2445,12 +2423,12 @@ $$
   \array{
     A &\longrightarrow& C &\longrightarrow& A &\longrightarrow& X
     \\
-    \downarrow^{\mathrlap{j}} 
-      && 
-    \downarrow^{\mathrlap{i}}_{} 
-      && 
-    \nearrow 
-      && 
+    \downarrow^{\mathrlap{j}}
+      &&
+    \downarrow^{\mathrlap{i}}_{}
+      &&
+    \nearrow
+      &&
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
     \\
     B &\longrightarrow& D &\longrightarrow& B &\longrightarrow & Y
@@ -2464,7 +2442,7 @@ By composition, this is also a lift in the total outer rectangle, hence in the o
 
 **closure under pushout and pullback**
 
-Let $p \in K Inj$ and and let 
+Let $p \in K Inj$ and and let
 
 $$
   \array{
@@ -2472,7 +2450,7 @@ $$
     \\
     {}^{\mathllap{{f^* p}}}\downarrow && \downarrow^{\mathrlap{p}}
     \\
-    Z &\stackrel{f}{\longrightarrow} & Y 
+    Z &\stackrel{f}{\longrightarrow} & Y
   }
 $$
 
@@ -2494,7 +2472,7 @@ $$
   \array{
      A &\longrightarrow& Z \times_f X &\longrightarrow& X
      \\
-     {}^{\mathllap{i}}\downarrow && \downarrow^{\mathrlap{f^* p}} 
+     {}^{\mathllap{i}}\downarrow && \downarrow^{\mathrlap{f^* p}}
      && \downarrow^{\mathrlap{p}}
      \\
      B &\stackrel{g}{\longrightarrow}& Z &\stackrel{f}{\longrightarrow}& Y
@@ -2521,7 +2499,7 @@ $$
   \array{
      && Z \times_f X &\longrightarrow& X
      \\
-     &{}^{\hat g} \nearrow& \downarrow^{\mathrlap{f^* p}} 
+     &{}^{\hat g} \nearrow& \downarrow^{\mathrlap{f^* p}}
      && \downarrow^{\mathrlap{p}}
      \\
      B &\stackrel{g}{\longrightarrow}& Z &\stackrel{f}{\longrightarrow}& Y
@@ -2529,7 +2507,7 @@ $$
   \,.
 $$
 
-In order for $\hat g$ to qualify as the intended lift of the total diagram, it remains to show that 
+In order for $\hat g$ to qualify as the intended lift of the total diagram, it remains to show that
 
 $$
   \array{
@@ -2543,7 +2521,7 @@ $$
 
 commutes. To do so we notice that we obtain two [[cones]] with tip $A$:
 
-* one is given by the morphisms 
+* one is given by the morphisms
   1. $A \to Z \times_f X \to X$
   2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$
 
@@ -2554,9 +2532,9 @@ commutes. To do so we notice that we obtain two [[cones]] with tip $A$:
 * the other by
   1. $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X \to X$
   2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$.
-  
+
   with universal morphism into the pullback being
-  
+
   * $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X$.
 
 The commutativity of the diagrams that we have established so far shows that the first and second morphisms here equal each other, respectively. By the fact that the universal morphism into a pullback diagram is _unique_ this implies the required identity of morphisms.
@@ -2570,11 +2548,11 @@ Let $\{(A_s \overset{i_s}{\to} B_s) \in K Proj\}_{s \in S}$ be a set of elements
 $$
   \underset{s \in S}{\sqcup} A_s
   \overset{(i_s)_{s\in S}}{\longrightarrow}
-  \underset{s \in S}{\sqcup} B_s  
+  \underset{s \in S}{\sqcup} B_s
   \,.
 $$
 
-Now let 
+Now let
 
 $$
   \array{
@@ -2596,8 +2574,8 @@ $$
   \array{
     A_s &\longrightarrow& X
     \\
-    {}^{\mathllap{i_s}}_{\mathllap{\in K Proj}}\downarrow 
-      && 
+    {}^{\mathllap{i_s}}_{\mathllap{\in K Proj}}\downarrow
+      &&
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
     \\
     B_s
@@ -2617,7 +2595,7 @@ $$
   \array{
     A_s &\longrightarrow& X
     \\
-    {}^{\mathllap{i_s}}_{\mathllap{\in Proj}}\downarrow 
+    {}^{\mathllap{i_s}}_{\mathllap{\in Proj}}\downarrow
       &{}^{\ell_s}\nearrow& \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
     \\
     B_s
@@ -2634,8 +2612,8 @@ $$
   \array{
     \underset{s \in S}{\sqcup} A_s &\longrightarrow& X
     \\
-    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow 
-     &{}^{(\ell_s)_{s\in S}}\nearrow& 
+    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow
+     &{}^{(\ell_s)_{s\in S}}\nearrow&
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in K}}
     \\
     \underset{s \in S}{\sqcup} B_s
@@ -2721,9 +2699,9 @@ $$
   \array{
     &  & & X & \longrightarrow & A
     \\
-    & && \uparrow^{\mathrlap{f^{-1}}} && 
+    & && \uparrow^{\mathrlap{f^{-1}}} &&
     \\
-    & B & \longrightarrow& Y&&     
+    & B & \longrightarrow& Y&&
   }
   \,.
 $$
@@ -2752,7 +2730,7 @@ $$
   \array{
     id \colon & A &\longrightarrow& X &\longrightarrow& A
     \\
-    & 
+    &
     {}^{\mathllap{f}}
     \downarrow
       &&
@@ -2766,20 +2744,20 @@ $$
 
 be a [[commuting diagram]] in the given model category, with $w \in W$ a weak equivalence. We need to show that then also $f \in W$.
 
-First consider the case that $f \in Fib$. 
+First consider the case that $f \in Fib$.
 
 In this case, factor $w$ as a cofibration followed by an acyclic fibration. Since $w \in W$ and by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) this is even a factorization through an acyclic cofibration followed by an acyclic fibration. Hence we obtain a commuting diagram of the following form:
 
 $$
   \array{
-    id \colon 
-    & 
-    A 
-      &\longrightarrow& 
-    X 
+    id \colon
+    &
+    A
+      &\longrightarrow&
+    X
       &\overset{\phantom{AAAA}}{\longrightarrow}& A
     \\
-    & 
+    &
     {}^{\mathllap{id}}\downarrow
       &&
     \downarrow^{\mathrlap{\in W \cap Cof}}
@@ -2787,8 +2765,8 @@ $$
     \downarrow^{\mathrlap{id}}
     \\
     id \colon
-    & A' &\overset{s}{\longrightarrow}& 
-     X' 
+    & A' &\overset{s}{\longrightarrow}&
+     X'
      &\overset{\phantom{AA}t\phantom{AA}}{\longrightarrow}& A'
     \\
     &
@@ -2810,14 +2788,14 @@ Now consider the general case. Factor $f$ as an acyclic cofibration followed by 
 
 $$
   \array{
-    id \colon 
-    & 
-    A 
-      &\longrightarrow& 
-    X 
+    id \colon
+    &
+    A
+      &\longrightarrow&
+    X
       &\overset{\phantom{AAAA}}{\longrightarrow}& A
     \\
-    & 
+    &
     {}^{\mathllap{\in W \cap Cof}}\downarrow
       &(po)&
     \downarrow^{\mathrlap{\in W \cap Cof}}
@@ -2825,8 +2803,8 @@ $$
     \downarrow^{\mathrlap{\in W \cap Cof}}
     \\
     id \colon
-    & A' &\overset{}{\longrightarrow}& 
-     X' 
+    & A' &\overset{}{\longrightarrow}&
+     X'
      &\overset{\phantom{AA}\phantom{AA}}{\longrightarrow}& A'
     \\
     &
@@ -2858,7 +2836,7 @@ Thus the previous case now gives that the bottom left vertical morphism is a wea
 Consider a [[composition|composite]] morphism
 
 $$
-  f \;\colon\; 
+  f \;\colon\;
   X \stackrel{i}{\longrightarrow} A \stackrel{p}{\longrightarrow} Y
   \,.
 $$
@@ -2870,7 +2848,7 @@ $$
 =--
 
 +-- {: .proof}
-###### Proof 
+###### Proof
 
 We discuss the first statement, the second is [[formal duality|formally dual]].
 
@@ -2878,7 +2856,7 @@ Write the factorization of $f$ as a [[commuting square]] of the form
 
 $$
   \array{
-    X &\stackrel{i}{\longrightarrow}& A 
+    X &\stackrel{i}{\longrightarrow}& A
     \\
     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{p}}
     \\
@@ -2891,7 +2869,7 @@ By the assumed [[lifting property]] of $f$ against $p$ there exists a diagonal f
 
 $$
   \array{
-    X &\stackrel{i}{\longrightarrow}& A 
+    X &\stackrel{i}{\longrightarrow}& A
     \\
     {}^{\mathllap{f}}\downarrow &{}^{\mathllap{g}}\nearrow& \downarrow^{\mathrlap{p}}
     \\
@@ -2900,15 +2878,15 @@ $$
   \,.
 $$
 
-By rearranging this diagram a little, it is equivalent to 
+By rearranging this diagram a little, it is equivalent to
 
 $$
   \array{
-    & X &=& X 
+    & X &=& X
     \\
-    & {}^{\mathllap{f}}\downarrow 
+    & {}^{\mathllap{f}}\downarrow
      &&
-    {}^{\mathllap{i}}\downarrow 
+    {}^{\mathllap{i}}\downarrow
     \\
     id_Y \colon & Y &\underset{g}{\longrightarrow}& A &\underset{p}{\longrightarrow}&
     Y
@@ -2922,9 +2900,9 @@ $$
   \array{
     id_X \colon & X &=& X &=& X
     \\
-    & {}^{\mathllap{f}}\downarrow 
+    & {}^{\mathllap{f}}\downarrow
      &&
-    {}^{\mathllap{i}}\downarrow 
+    {}^{\mathllap{i}}\downarrow
      &&
      {}^{\mathllap{f}}\downarrow
     \\
@@ -2943,12 +2921,12 @@ $$
 Given a set $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
 
 $$
-  f 
-    \;\colon\; 
-  X 
-    \stackrel{\in C cell}{\longrightarrow} 
+  f
+    \;\colon\;
+  X
+    \stackrel{\in C cell}{\longrightarrow}
   \hat X
-    \stackrel{\in C inj}{\longrightarrow} 
+    \stackrel{\in C inj}{\longrightarrow}
   Y
   \,.
 $$
@@ -2956,7 +2934,7 @@ $$
 A first approximation to such a factorization turns out to be given simply by forming $\hat X = X_1$ by attaching **all** possible $C$-cells to $X$. Namely let
 
 $$
-  (C/f) 
+  (C/f)
    \coloneqq
   \left\{
     \array{
@@ -2976,7 +2954,7 @@ $$
     \underset{c\in(C/f)}{\coprod} dom(c) &\longrightarrow& X
     \\
     {}^{\mathllap{\underset{c\in(C/f)}{\coprod} c}}\downarrow
-    &(po)& 
+    &(po)&
     \downarrow^{\mathrlap{}}
     \\
     \underset{c\in(C/f)}{\coprod} cod(c)
@@ -2986,18 +2964,18 @@ $$
   \,.
 $$
 
-This gets already close to producing the intended factorization: 
+This gets already close to producing the intended factorization:
 
-First of all the resulting map $X \to X_1$ is a $C$-relative cell complex, by construction. 
+First of all the resulting map $X \to X_1$ is a $C$-relative cell complex, by construction.
 
-Second, by the fact that the coproduct is over all commuting squres to $f$, the morphism $f$ itself makes a [[commuting diagram]] 
+Second, by the fact that the coproduct is over all commuting squres to $f$, the morphism $f$ itself makes a [[commuting diagram]]
 
 $$
   \array{
     \underset{c\in(C/f)}{\coprod} dom(c) &\longrightarrow& X
     \\
     {}^{\mathllap{\underset{c\in(C/f)}{\coprod} c}}\downarrow
-    && 
+    &&
     \downarrow^{\mathrlap{f}}
     \\
     \underset{c\in(C/f)}{\coprod} cod(c)
@@ -3010,19 +2988,19 @@ and hence the [[universal property]] of the [[colimit]] means that $f$ is indeed
 
 $$
   \array{
-    \underset{c\in(C/f)}{\coprod} dom(c) 
-      &\longrightarrow& 
+    \underset{c\in(C/f)}{\coprod} dom(c)
+      &\longrightarrow&
     X
     \\
     {}^{\mathllap{id}}\downarrow
-    && 
+    &&
     \downarrow^{\mathrlap{}}
     \\
     \underset{c\in(C/f)}{\coprod} dom(c)
      &&
     X_1
     \\
-    {}^{\mathllap{\underset{c\in(C/f)}{\coprod} c}}\downarrow 
+    {}^{\mathllap{\underset{c\in(C/f)}{\coprod} c}}\downarrow
     &\nearrow& \downarrow
     \\
     \underset{c\in(C/f)}{\coprod} cod(c)
@@ -3034,7 +3012,7 @@ $$
 
 This shows that, finally, the colimiting [[co-cone]] map -- the one that now appears diagonally -- **almost** exhibits the desired right lifting of $X_1 \to Y$ against the $c\in C$. The failure of that to hold on the nose is only the fact that a horizontal map in the middle of the above diagram is missing: the diagonal map obtained above lifts not all commuting diagrams of $c\in C$ into $f$, but only those where the top morphism $dom(c) \to X_1$ factors through $X \to X_1$.
 
-The idea of the [[small object argument]] now is to fix this only remaining problem by iterating the construction: next factor $X_1 \to Y$ in the same way into 
+The idea of the [[small object argument]] now is to fix this only remaining problem by iterating the construction: next factor $X_1 \to Y$ in the same way into
 
 $$
   X_1 \longrightarrow X_2 \longrightarrow Y
@@ -3053,9 +3031,9 @@ if there is an [[ordinal]] $\alpha$ (def. \ref{PosetsWosetTosetsAndOrdinals}) su
 
 $$
   f
-  \;\colon\; 
+  \;\colon\;
   X \to X_1 \to X_2 \to \cdots  \to X_\beta \to \cdots  \longrightarrow \hat X
-$$ 
+$$
 
 every morphism  $dom(c)\longrightarrow \hat X$ factors through a stage $X_\beta \to \hat X$ of order $\beta \lt \alpha$:
 
@@ -3086,12 +3064,12 @@ $$
   Y
   \,.
 $$
- 
+
 =--
 
 ([Quillen 67, II.3 lemma](#Quillen67))
 
-#### Homotopy 
+### Homotopy
 
 We discuss how the concept of [[homotopy]] is abstractly realized in [[model categories]], def. \ref{ModelCategory}.
 
@@ -3103,7 +3081,7 @@ Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}, and $X \in 
 * A **[[path space object]]** $Path(X)$ for $X$ is a factorization of the [[diagonal]] $\Delta_X \;\colon\; X \to X \times X$ as
 
 $$
-  \Delta_X 
+  \Delta_X
   \;\colon\;
    X \underoverset{\in W}{i}{\longrightarrow} Path(X) \underoverset{\in Fib}{(p_0,p_1)}{\longrightarrow} X \times X
   \,.
@@ -3138,7 +3116,7 @@ For every object $X \in \mathcal{C}$ in a model category, a cylinder object and 
 1. a factorization of the diagonal as
 
    $$
-     \Delta_X 
+     \Delta_X
        \;\colon\;
      X
       \overset{\in W \cap Cof}{\longrightarrow}
@@ -3154,7 +3132,7 @@ Some authors call cylinder/path-space objects with this extra property "very goo
 
 One may also consider dropping a condition in def. \ref{PathAndCylinderObjectsInAModelCategory}: what mainly matters is the weak equivalence, hence some authors take cylinder/path-space objects to be defined as in def. \ref{PathAndCylinderObjectsInAModelCategory} but without the condition that $X \sqcup X\to Cyl(X)$ is a cofibration and without the condition that $Path(X) \to X$ is a fibration. Such authors would then refer to the concept in def. \ref{PathAndCylinderObjectsInAModelCategory} as "good" cylinder/path-space objects.
 
-The terminology in def. \ref{PathAndCylinderObjectsInAModelCategory} follows the original ([Quillen 67, I.1 def. 4](#Quillen67)). With the induced concept of left/right homotopy below in def. \ref{LeftAndRightHomotopyInAModelCategory}, this admits a quick derivation of the key facts in the following, as we spell out below. 
+The terminology in def. \ref{PathAndCylinderObjectsInAModelCategory} follows the original ([Quillen 67, I.1 def. 4](#Quillen67)). With the induced concept of left/right homotopy below in def. \ref{LeftAndRightHomotopyInAModelCategory}, this admits a quick derivation of the key facts in the following, as we spell out below.
 
 =--
 
@@ -3191,7 +3169,7 @@ But if $X$ is fibrant, then also the two projection maps out of the product $X \
 
 $$
   \array{
-      X\times X &\longrightarrow& X 
+      X\times X &\longrightarrow& X
       \\
       \downarrow &(pb)& \downarrow
       \\
@@ -3211,7 +3189,7 @@ Path space objects are very non-unique as objects up to isomorphism:
 +-- {: .num_example #ComposedPathSpaceObjects}
 ###### Example
 
-If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ is another path space object for $X$: the pullback square 
+If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ is another path space object for $X$: the pullback square
 
 $$
   \array{
@@ -3219,12 +3197,12 @@ $$
      \\
      \downarrow && \downarrow
      \\
-     Path_1(X) \underset{X}{\times} Path_2(X) 
+     Path_1(X) \underset{X}{\times} Path_2(X)
      &\longrightarrow&
      Path_1(X)\times Path_2(X)
      \\
-     {}^{\mathllap{\in Fib}}\downarrow 
-     &(pb)& 
+     {}^{\mathllap{\in Fib}}\downarrow
+     &(pb)&
      \downarrow^{\mathrlap{\in Fib}}
      \\
      X \times X \times X
@@ -3234,7 +3212,7 @@ $$
      &&
      \downarrow^{\mathrlap{(p_1, p_4)}}
      \\
-     X\times X &=& X \times X 
+     X\times X &=& X \times X
   }
 $$
 
@@ -3252,7 +3230,7 @@ For the case of the canonical topological path space objects of def \ref{Topolog
 
 Let $f,g \colon X \longrightarrow Y$ be two [[parallel morphisms]] in a [[model category]].
 
-* A **left homotopy** $\eta \colon f \Rightarrow_L g$ is a morphism $\eta \colon Cyl(X) \longrightarrow Y$ from a [[cylinder object]] of $X$,  def. \ref{PathAndCylinderObjectsInAModelCategory}, such that it makes this [[commuting diagram|diagram commute]]: 
+* A **left homotopy** $\eta \colon f \Rightarrow_L g$ is a morphism $\eta \colon Cyl(X) \longrightarrow Y$ from a [[cylinder object]] of $X$,  def. \ref{PathAndCylinderObjectsInAModelCategory}, such that it makes this [[commuting diagram|diagram commute]]:
 
 $$
   \array{
@@ -3260,7 +3238,7 @@ $$
     \\
     & {}_{\mathllap{f}}\searrow &\downarrow^{\mathrlap{\eta}}& \swarrow_{\mathrlap{g}}
     \\
-    && 
+    &&
     Y
   }
   \,.
@@ -3272,7 +3250,7 @@ $$
   \array{
     && X
     \\
-    & {}^{\mathllap{f}}\swarrow & \downarrow^{\mathrlap{\eta}} & \searrow^{\mathrlap{g}} 
+    & {}^{\mathllap{f}}\swarrow & \downarrow^{\mathrlap{\eta}} & \searrow^{\mathrlap{g}}
     \\
     Y &\longleftarrow& Path(Y) &\longrightarrow& Y
   }
@@ -3286,11 +3264,11 @@ $$
 +-- {: .num_lemma #LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually}
 ###### Lemma
 
-Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]]. 
+Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]].
 
 1. Let $X$ be cofibrant. If there is a [[left homotopy]] $f \Rightarrow_L g$ then there is also a [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) with respect to any chosen path space object.
 
-1. Let $X$ be fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object. 
+1. Let $X$ be fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object.
 
 In particular if $X$ is cofibrant and $Y$ is fibrant, then by going back and forth it follows that every left homotopy is exhibited by every cylinder object, and every right homotopy is exhibited by every path space object.
 
@@ -3306,8 +3284,8 @@ $$
   \array{
     X &\overset{i \circ f}{\longrightarrow}& Path(Y)
     \\
-    {}^{\mathllap{i_0}}_{\mathllap{\in W \cap Cof}}\downarrow 
-    &{}^{\mathllap{h}}\nearrow& 
+    {}^{\mathllap{i_0}}_{\mathllap{\in W \cap Cof}}\downarrow
+    &{}^{\mathllap{h}}\nearrow&
     \downarrow^{\mathrlap{p_0,p_1}}_{\mathrlap{\in Fib}}
     \\
     Cyl(X)
@@ -3322,7 +3300,7 @@ $$
   \array{
     && && Path(Y)
     \\
-    && &{}^{\mathllap{h}}\nearrow& 
+    && &{}^{\mathllap{h}}\nearrow&
     \downarrow^{\mathrlap{p_0,p_1}}_{\mathrlap{\in Fib}}
     \\
     X &\overset{i_1}{\longrightarrow}& Cyl(X)
@@ -3355,9 +3333,11 @@ That right homotopy (hence also left homotopy) with domain $X$ is a [[transitive
 
 =--
 
-#### The homotopy category
+
+
+### The homotopy category
  {#TheHomotopyCategory}
- 
+
 We discuss the construction that takes a [[model category]], def. \ref{ModelCategory}, and then universally forces all its [[weak equivalences]] into actual [[isomorphisms]].
 
 +-- {: .num_defn #HomotopyCategoryOfAModelCategory}
@@ -3399,8 +3379,8 @@ $$
     \\
     && & {}^{\mathllap{g}}\nearrow & \uparrow^{\mathrlap{p_1}}
     \\
-    X 
-      &\overset{f}{\longrightarrow} & 
+    X
+      &\overset{f}{\longrightarrow} &
     Y
       &\overset{\eta}{\longrightarrow}&
     Path(Z)
@@ -3437,8 +3417,8 @@ $$
   \array{
     \emptyset &\rightarrow& X
     \\
-    {}^{\mathllap{\in cof}}\downarrow 
-     &{}^{{f^{-1}}}\nearrow& 
+    {}^{\mathllap{\in cof}}\downarrow
+     &{}^{{f^{-1}}}\nearrow&
    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib \cap W}}
     \\
     X &=& X
@@ -3446,7 +3426,7 @@ $$
   \,.
 $$
 
-To see that $f^{-1}$ is also a [[left inverse]] up to [[left homotopy]], let $Cyl(X)$ be any [[cylinder object]] on $X$ (def. \ref{PathAndCylinderObjectsInAModelCategory}), hence a factorization of the [[codiagonal]] on $X$ as a cofibration followed by a an acyclic fibration 
+To see that $f^{-1}$ is also a [[left inverse]] up to [[left homotopy]], let $Cyl(X)$ be any [[cylinder object]] on $X$ (def. \ref{PathAndCylinderObjectsInAModelCategory}), hence a factorization of the [[codiagonal]] on $X$ as a cofibration followed by a an acyclic fibration
 
 $$
   X \sqcup X \stackrel{\iota_X}{\longrightarrow} Cyl(X) \stackrel{p}{\longrightarrow} X
@@ -3456,7 +3436,7 @@ and consider the [[commuting square]]
 
 $$
   \array{
-    X \sqcup X 
+    X \sqcup X
     &\stackrel{(f^{-1}\circ f, id)}{\longrightarrow}& X
     \\
     {}^{\mathllap{\iota_X}}{}_{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W \cap Fib}}
@@ -3473,23 +3453,23 @@ which [[commuting square|commutes]] due to $f^{-1}$ being a genuine right invers
 +-- {: .num_defn #FibrantCofibrantReplacementFunctorToHomotopyCategory}
 ###### Definition
 
-Given a [[model category]] $\mathcal{C}$, consider a _choice_ for each object $X \in \mathcal{C}$ of 
+Given a [[model category]] $\mathcal{C}$, consider a _choice_ for each object $X \in \mathcal{C}$ of
 
 1. a factorization $\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_X}{\longrightarrow} X$ of the [[initial object|initial morphism]], such that when $X$ is already cofibrant then $p_X = id_X$;
 
 1. a factorization $X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} P X \underoverset{\in Fib}{q_X}{\longrightarrow} \ast$ of the [[terminal object|terminal morphism]], such that when $X$ is already fibrant then $j_X = id_X$.
 
-Write then 
+Write then
 
 $$
-  \gamma_{P,Q} 
+  \gamma_{P,Q}
   \;\colon\;
   \mathcal{C}
    \longrightarrow
   Ho(\mathcal{C})
 $$
 
-for the [[functor]] to the homotopy category, def. \ref{HomotopyCategoryOfAModelCategory}, which sends an object $X$ to the object $P Q X$ and sends a morphism $f \colon X \longrightarrow Y$ to the [[homotopy class]] of the result of first lifting in 
+for the [[functor]] to the homotopy category, def. \ref{HomotopyCategoryOfAModelCategory}, which sends an object $X$ to the object $P Q X$ and sends a morphism $f \colon X \longrightarrow Y$ to the [[homotopy class]] of the result of first lifting in
 
 $$
   \array{
@@ -3501,10 +3481,10 @@ $$
   }
 $$
 
-and then lifting (here: [[extension|extending]]) in 
+and then lifting (here: [[extension|extending]]) in
 
 $$
-  \array{ 
+  \array{
     Q X &\overset{j_{Q Y} \circ Q f}{\longrightarrow}& P Q Y
     \\
     {}^{\mathllap{j_{Q X}}}\downarrow &{}^{P Q f}\nearrow& \downarrow^{\mathrlap{q_{Q Y}}}
@@ -3528,11 +3508,11 @@ The construction in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCatego
 +-- {: .proof}
 ###### Proof
 
-First of all, the object $P Q X$ is indeed both fibrant and cofibrant (as well as related by a [[zig-zag]] of weak equivalences to $X$):  
+First of all, the object $P Q X$ is indeed both fibrant and cofibrant (as well as related by a [[zig-zag]] of weak equivalences to $X$):
 
 $$
   \array{
-     \emptyset 
+     \emptyset
      \\
      {}^{\mathllap{\in Cof}}\downarrow & \searrow^{\mathrlap{\in Cof}}
      \\
@@ -3551,12 +3531,12 @@ $$
   \array{
     Q X \sqcup Q X &\stackrel{((Q f)_1, (Q f)_2 )}{\longrightarrow}& Q Y
     \\
-    {}^{\mathllap{\in Cof}}\downarrow 
-     && 
+    {}^{\mathllap{\in Cof}}\downarrow
+     &&
     \downarrow^{\mathrlap{p_{Y}}}_{\mathrlap{\in W \cap Fib}}
     \\
     Cyl(Q X)
-    &\underset{f \circ p_{X} \circ \sigma_{Q X}}{\longrightarrow}& 
+    &\underset{f \circ p_{X} \circ \sigma_{Q X}}{\longrightarrow}&
     Y
   }
   \,.
@@ -3568,8 +3548,8 @@ $$
   \array{
     Q X &\overset{\kappa}{\longrightarrow}& Path(P Q Y)
     \\
-    {}^{\mathllap{\in W \cap Cof}}\downarrow 
-     && 
+    {}^{\mathllap{\in W \cap Cof}}\downarrow
+     &&
     \downarrow^{\mathrlap{\in Fib}}
     \\
     P Q X &\underset{(R (Q f)_1, P (Q f)_2)}{\longrightarrow}&
@@ -3592,7 +3572,7 @@ $$
   \,.
 $$
 
-Now from the [[pasting]] composite 
+Now from the [[pasting]] composite
 
 $$
   \array{
@@ -3608,7 +3588,7 @@ $$
   }
 $$
 
-one sees that $(P Q g)\circ (P Q f)$ is a lift of $g \circ f$ and hence the same argument as above gives that it is homotopic to the chosen $P Q(g \circ f)$. 
+one sees that $(P Q g)\circ (P Q f)$ is a lift of $g \circ f$ and hence the same argument as above gives that it is homotopic to the chosen $P Q(g \circ f)$.
 
 
 =--
@@ -3631,15 +3611,15 @@ Such $\eta$ is called a _[[natural isomorphism]]_ if its $\eta_c$ are [[isomorph
 +-- {: .num_defn #HomotopyCategoryOfACategoryWithWeakEquivalences}
 ###### Definition
 
-For $\mathcal{C}$ a [[category with weak equivalences]], its  **[[localization]] at the weak equivalences** is, if it exists, 
+For $\mathcal{C}$ a [[category with weak equivalences]], its  **[[localization]] at the weak equivalences** is, if it exists,
 
-1. a [[category]] denoted $\mathcal{C}[W^{-1}]$ 
+1. a [[category]] denoted $\mathcal{C}[W^{-1}]$
 
-1. a [[functor]] 
+1. a [[functor]]
 
    $$
      \gamma \;\colon\; \mathcal{C} \longrightarrow \mathcal{C}[W^{-1}]
-   $$ 
+   $$
 
 such that
 
@@ -3713,16 +3693,16 @@ $$
   }
 $$
 
-uniquely up to unique [[natural isomorphism]]. Now by construction of $P$ and $Q$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, $\gamma_{P,Q}$ is the identity on the [[full subcategory]] of fibrant-cofibrant objects. It follows that if $\tilde F$ exists at all, it must satisfy for all $X \stackrel{f}{\to} Y$ with $X$ and $Y$ both fibrant and cofibrant that 
+uniquely up to unique [[natural isomorphism]]. Now by construction of $P$ and $Q$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, $\gamma_{P,Q}$ is the identity on the [[full subcategory]] of fibrant-cofibrant objects. It follows that if $\tilde F$ exists at all, it must satisfy for all $X \stackrel{f}{\to} Y$ with $X$ and $Y$ both fibrant and cofibrant that
 
 $$
   \tilde F([f]) \simeq F(f)
   \,,
-$$ 
+$$
 
 (hence in particular $\tilde F(\gamma_{P,Q}(f)) = F(P Q f)$).
 
-But by def. \ref{HomotopyCategoryOfAModelCategory} that already fixes $\tilde F$ on all of $Ho(\mathcal{C})$, up to unique [[natural isomorphism]]. Hence it only remains to check that with this definition of $\tilde F$ there exists any [[natural isomorphism]] $\rho$ filling the diagram above. 
+But by def. \ref{HomotopyCategoryOfAModelCategory} that already fixes $\tilde F$ on all of $Ho(\mathcal{C})$, up to unique [[natural isomorphism]]. Hence it only remains to check that with this definition of $\tilde F$ there exists any [[natural isomorphism]] $\rho$ filling the diagram above.
 
 To that end, apply $F$ to the above [[commuting diagram]] to obtain
 
@@ -3745,8 +3725,8 @@ $$
    &=&
    \tilde F(\gamma_{P,Q}(X))
     \\
-    & {}^{\mathllap{F(f)}}\downarrow 
-     && 
+    & {}^{\mathllap{F(f)}}\downarrow
+     &&
      && \downarrow^{\mathrlap{F(P Q f)}}
      && \downarrow^{\tilde F(\gamma_{P,Q}(f))}
     \\
@@ -3792,7 +3772,7 @@ While the construction of the homotopy category in def. \ref{HomotopyCategoryOfA
 +-- {: .num_defn #FullSubcategoriesOfFibrantCofibrantObjects}
 ###### Definition
 
-Given a [[model category]] $\mathcal{C}$, write 
+Given a [[model category]] $\mathcal{C}$, write
 
 $$
   \array{
@@ -3808,13 +3788,13 @@ $$
   }
 $$
 
-for the system of [[full subcategory]] inclusions of: 
+for the system of [[full subcategory]] inclusions of:
 
-1. the [[category of fibrant objects]] $\mathcal{C}_f$ 
+1. the [[category of fibrant objects]] $\mathcal{C}_f$
 
-1. the [[category of cofibrant objects]] $\mathcal{C}_c$, 
+1. the [[category of cofibrant objects]] $\mathcal{C}_c$,
 
-1. the category of fibrant-cofibrant objects $\mathcal{C}_{fc}$, 
+1. the category of fibrant-cofibrant objects $\mathcal{C}_{fc}$,
 
 all regarded a [[categories with weak equivalences]] (def. \ref{CategoryWithWeakEquivalences}), via the weak equivalences inherited from $\mathcal{C}$, which we write $(\mathcal{C}_f, W_f)$, $(\mathcal{C}_c, W_c)$ and $(\mathcal{C}_{f c}, W_{f c})$.
 
@@ -3826,7 +3806,7 @@ all regarded a [[categories with weak equivalences]] (def. \ref{CategoryWithWeak
 
 Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} inherit more structure than just that of [[categories with weak equivalences]] from $\mathcal{C}$. $\mathcal{C}_f$ and $\mathcal{C}_c$ each inherit "half" of the factorization axioms. One says that $\mathcal{C}_f$ has the structure of a "[[fibration category]]" called a "Brown-[[category of fibrant objects]]", while $\mathcal{C}_c$ has the structure of a "[[cofibration category]]".
 
-We discuss properties of these categories of (co-)fibrant objects below in _[Homotopy fiber sequences](#HomotopyFiberSequences)_. 
+We discuss properties of these categories of (co-)fibrant objects below in _[Homotopy fiber sequences](#HomotopyFiberSequences)_.
 
 =--
 
@@ -3907,25 +3887,25 @@ $$
   \,.
 $$
 
-This shows that it is sufficient to see that for $X$ cofibrant and $Y$ fibrant, then 
+This shows that it is sufficient to see that for $X$ cofibrant and $Y$ fibrant, then
 
 $$
   Hom_{\mathcal{C}}(id_X, p_Y)/_\sim
-   \;\colon\; 
+   \;\colon\;
   Hom_{\mathcal{C}}(X, Q Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
 $$
 
 is an isomorphism, and dually that
 
 $$
-  Hom_{\mathcal{C}}(j_X, id_Y)/_\sim 
+  Hom_{\mathcal{C}}(j_X, id_Y)/_\sim
   \;\colon\;
   Hom_{\mathcal{C}}(P X, Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
 $$
 
 is an isomorphism. We discuss this for the former; the second is [[formal dual|formally dual]]:
 
-First, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is surjective is the [[lifting property]] in 
+First, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is surjective is the [[lifting property]] in
 
 $$
   \array{
@@ -3940,7 +3920,7 @@ $$
 
 which says that any morphism $f \colon X \to Y$ comes from a morphism $\hat f \colon X \to Q Y$ under postcomposition with $Q Y \overset{p_Y}{\to} Y$.
 
-Second, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is injective is the lifting property in 
+Second, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is injective is the lifting property in
 
 $$
   \array{
@@ -4022,7 +4002,7 @@ $$
   }
 $$
 
-This exhibits the composite $A \overset{i_0}{\to} Cyl(A) \to Cyl(f)$ as an alternative representative of $f$ in $Ho(\mathcal{C})$, and $Cyl(f) \to B'$ as an alternative representative for $b$, and the commuting square 
+This exhibits the composite $A \overset{i_0}{\to} Cyl(A) \to Cyl(f)$ as an alternative representative of $f$ in $Ho(\mathcal{C})$, and $Cyl(f) \to B'$ as an alternative representative for $b$, and the commuting square
 
 $$
   \array{
@@ -4041,7 +4021,9 @@ as an alternative representative of the given commuting square in $Ho(\mathcal{C
 =--
 
 
-#### Derived functors
+
+
+### Derived functors
  {#DerivedFunctors}
 
 
@@ -4061,8 +4043,8 @@ $$
   \array{
     \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
-    &\swArrow_{\simeq}& 
+    {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow
+    &\swArrow_{\simeq}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
     \\
     Ho(\mathcal{C})
@@ -4086,7 +4068,7 @@ Therefore one considers the following generalization of def. \ref{DerivedFunctor
 +-- {: .num_defn #LeftAndRightDerivedFunctorsOnModelCategories}
 ###### Definition
 
-Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) into a [[category with weak equivalences]] $\mathcal{D}$ (def. \ref{CategoryWithWeakEquivalences}). 
+Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) into a [[category with weak equivalences]] $\mathcal{D}$ (def. \ref{CategoryWithWeakEquivalences}).
 
 1. If the restriction of $F$ to the [[full subcategory]] $\mathcal{C}_f$ of fibrant object becomes a [[homotopical functor]] (def. \ref{HomotopicalFunctor}), then the [[derived functor]] of that restriction, according to def. \ref{DerivedFunctorOfAHomotopicalFunctor}, is called the _[[right derived functor]]_ of $F$ and denoted by $\mathbb{R}F$:
 
@@ -4094,9 +4076,9 @@ Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [
      \array{
        & \mathcal{C}_f &\hookrightarrow& \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
        \\
-       & 
+       &
        {}^{\mathllap{\gamma}_{\mathcal{C}_f}}
-       \downarrow 
+       \downarrow
        &&
        \swArrow_{\simeq}
        &&
@@ -4116,8 +4098,8 @@ Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [
      \array{
        & \mathcal{C}_c &\hookrightarrow& \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
        \\
-       & 
-       {}^{\mathllap{\gamma}_{\mathcal{C}_f}}\downarrow 
+       &
+       {}^{\mathllap{\gamma}_{\mathcal{C}_f}}\downarrow
        &&
        \swArrow_{\simeq}
        &&
@@ -4172,8 +4154,8 @@ $$
   \array{
     Path(f) &\underset{\in W \cap Fib}{\longrightarrow}& X
     \\
-    {}^{\mathllap{p_1^\ast f}}_{\mathllap{\in W}}\downarrow 
-    &(pb)& 
+    {}^{\mathllap{p_1^\ast f}}_{\mathllap{\in W}}\downarrow
+    &(pb)&
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}
     \\
     Path(Y) &\overset{p_1}{\underset{\in W \cap Fib}{\longrightarrow}}& Y
@@ -4185,7 +4167,7 @@ $$
   \,,
 $$
 
-where the square is a [[pullback]] and $Path(f)$ on the top left is our notation for the universal [[cone]] object. (Below we discuss this in more detail, it is the _[[mapping cocone]]_ of $f$, def. \ref{MappingConeAndMappingCocone}). 
+where the square is a [[pullback]] and $Path(f)$ on the top left is our notation for the universal [[cone]] object. (Below we discuss this in more detail, it is the _[[mapping cocone]]_ of $f$, def. \ref{MappingConeAndMappingCocone}).
 
 Here:
 
@@ -4227,8 +4209,8 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
      \array{
        \mathcal{C}_{c} &\overset{F}{\longrightarrow}& \mathcal{D}_{c}
        \\
-       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
-       &\swArrow_{\simeq}& 
+       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow
+       &\swArrow_{\simeq}&
        \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
        \\
        Ho(\mathcal{C}) &\overset{\mathbb{L}F}{\longrightarrow}& Ho(\mathcal{D})
@@ -4241,8 +4223,8 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
      \array{
        \mathcal{C}_{f} &\overset{F}{\longrightarrow}& \mathcal{D}_{f}
        \\
-       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
-       &\swArrow_{\simeq}& 
+       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow
+       &\swArrow_{\simeq}&
        \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
        \\
        Ho(\mathcal{C}) &\underset{\mathbb{R}F}{\longrightarrow}& Ho(\mathcal{D})
@@ -4255,7 +4237,7 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
 +-- {: .num_example #ComputationOfLeftRightDerivedFunctorsViaResolutions}
 ###### Proposition
 
-Let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a functor between two [[model categories]] (def. \ref{ModelCategory}). 
+Let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a functor between two [[model categories]] (def. \ref{ModelCategory}).
 
 1. If $F$ preserves fibrant objects and weak equivalences between fibrant objects, then the total [[right derived functor]] $\mathbb{R}F \coloneqq \mathbb{R}(\gamma_{\mathcal{D}}\circ F)$ (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) in
 
@@ -4263,11 +4245,11 @@ Let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a functor between 
      \array{
        \mathcal{C}_f &\overset{F}{\longrightarrow}& \mathcal{D}
        \\
-       {}^{\mathllap{\gamma_{\mathcal{C}_f}}}\downarrow 
-         &\swArrow_{\simeq}& 
+       {}^{\mathllap{\gamma_{\mathcal{C}_f}}}\downarrow
+         &\swArrow_{\simeq}&
        \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
        \\
-       Ho(\mathcal{C}) 
+       Ho(\mathcal{C})
          &\underset{\mathbb{R}F}{\longrightarrow}&
        Ho(\mathcal{D})
      }
@@ -4289,11 +4271,11 @@ Let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a functor between 
      \array{
        \mathcal{C}_c &\overset{F}{\longrightarrow}& \mathcal{D}
        \\
-       {}^{\mathllap{\gamma_{\mathcal{C}_c}}}\downarrow 
-         &\swArrow_{\simeq}& 
+       {}^{\mathllap{\gamma_{\mathcal{C}_c}}}\downarrow
+         &\swArrow_{\simeq}&
        \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
        \\
-       Ho(\mathcal{C}) 
+       Ho(\mathcal{C})
          &\underset{\mathbb{L}F}{\longrightarrow}&
        Ho(\mathcal{D})
      }
@@ -4320,7 +4302,7 @@ We discuss the first case, the second is [[formal duality|formally dual]]. By th
 
 $$
   \begin{aligned}
-    \mathbb{R}F(X) 
+    \mathbb{R}F(X)
       & \simeq
     \gamma_{\mathcal{D}}(F(\gamma_{\mathcal{C}}))
     \\
@@ -4330,7 +4312,7 @@ $$
   \,.
 $$
 
-But since $F$ is a homotopical functor on fibrant objects, the cofibrant replacement morphism $F(Q(P(X)))\to F(P(X))$ is a weak equivalence in $\mathcal{D}$, hence becomes an isomorphism under $\gamma_{\mathcal{D}}$. Therefore 
+But since $F$ is a homotopical functor on fibrant objects, the cofibrant replacement morphism $F(Q(P(X)))\to F(P(X))$ is a weak equivalence in $\mathcal{D}$, hence becomes an isomorphism under $\gamma_{\mathcal{D}}$. Therefore
 
 $$
   \mathbb{R}F(X)
@@ -4345,7 +4327,9 @@ Now since $F$ is assumed to preserve fibrant objects, $F(P(X))$ is fibrant in $\
 
 
 
-#### Quillen adjunctions
+
+
+### Quillen adjunctions
  {#QuillenAdjunctions}
 
 In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied by pairs of [[adjoint functors]]. Recall that this is a pair of [[functors]] $L$ and $R$ going back and forth between two categories
@@ -4377,8 +4361,8 @@ $$
      & \underoverset{\simeq}{\phi_{d_1,c_1}}{\longrightarrow} &
     Hom_{\mathcal{D}}(d_1, R(c_1))
     \\
-    {}^{\mathllap{L(f) \circ (-)\circ g}}\downarrow 
-     && 
+    {}^{\mathllap{L(f) \circ (-)\circ g}}\downarrow
+     &&
     \downarrow^{\mathrlap{g\circ (-)\circ R(g)}}
     \\
     Hom_{\mathcal{C}}(L(d_2), c_2)
@@ -4388,7 +4372,7 @@ $$
   \,.
 $$
 
-We write $(L \dashv R)$ to indicate an adjunction and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair. 
+We write $(L \dashv R)$ to indicate an adjunction and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair.
 
 The archetypical example of a pair of adjoint functors is that consisting of forming [[Cartesian products]] $Y \times (-)$ and forming [[mapping spaces]] $(-)^Y$, as in the category of [[compactly generated topological spaces]] of def. \ref{kTop}.
 
@@ -4411,7 +4395,7 @@ Adjunction units and counits turn out to encode the [[adjuncts]] of all other mo
 
 * $\widetilde{(L d\overset{f}{\to}c)} = (d\overset{\eta}{\to} R L d \overset{R f}{\to} R c)$
 
-* $\widetilde{(d\overset{g}{\to} R c)} = (L d \overset{L g}{\to} L R c \overset{\epsilon}{\to} c)$. 
+* $\widetilde{(d\overset{g}{\to} R c)} = (L d \overset{L g}{\to} L R c \overset{\epsilon}{\to} c)$.
 
 
 +-- {: .num_defn #QuillenAdjunction}
@@ -4484,7 +4468,7 @@ $$
   \,.
 $$
 
-If $L$ preserves acyclic cofibrations, then the diagram on the right has a [[lift]], and so the $(L\dashv R)$-[[adjunct]] of that lift is a lift of the left diagram. This shows that $R(g)$ has the [[right lifting property]] against all acylic cofibrations and hence is a fibration. 
+If $L$ preserves acyclic cofibrations, then the diagram on the right has a [[lift]], and so the $(L\dashv R)$-[[adjunct]] of that lift is a lift of the left diagram. This shows that $R(g)$ has the [[right lifting property]] against all acylic cofibrations and hence is a fibration.
 Conversely, if $R$ preserves fibrations, the same argument run from right to left gives that $L$ preserves acyclic fibrations.
 
 Now by repeatedly applying (i) and (ii), all four conditions in question are seen to be equivalent.
@@ -4494,7 +4478,7 @@ Now by repeatedly applying (i) and (ii), all four conditions in question are see
 +-- {: .num_lemma #LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects}
 ###### Lemma
 
-Let $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ be a [[Quillen adjunction]], def. \ref{QuillenAdjunction}. 
+Let $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ be a [[Quillen adjunction]], def. \ref{QuillenAdjunction}.
 
 1. For $X \in \mathcal{C}$ a fibrant object and $Path(X)$ a [[path space object]] (def. \ref{PathAndCylinderObjectsInAModelCategory}), then $R(Path(X))$ is a path space object for $R(X)$.
 
@@ -4584,7 +4568,7 @@ $$
 +-- {: .num_defn #QuillenEquivalence}
 ###### Definition
 
-For $\mathcal{C}, \mathcal{D}$ two [[model categories]],  a [[Quillen adjunction]] (def.\ref{QuillenAdjunction}) 
+For $\mathcal{C}, \mathcal{D}$ two [[model categories]],  a [[Quillen adjunction]] (def.\ref{QuillenAdjunction})
 
 $$
   (L \dashv R)
@@ -4625,27 +4609,27 @@ if the following equivalent conditions hold.
      \,.
    $$
 
-1. For every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit", hence the composite 
+1. For every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit", hence the composite
 
    $$
-     d 
-       \overset{\eta}{\longrightarrow} 
-     R(L(d)) 
+     d
+       \overset{\eta}{\longrightarrow}
+     R(L(d))
        \overset{R(j_{L(d)})}{\longrightarrow}
      R(P(L(d)))
-   $$ 
+   $$
 
    (of the [[adjunction unit]] with any fibrant replacement $P$ as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence;
 
-   and for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit", hence the composite 
-  
+   and for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit", hence the composite
+
      $$
-       L(Q(R(c))) 
-         \overset{L(p_{R(c)})}{\longrightarrow} 
-       L(R(c)) 
+       L(Q(R(c)))
+         \overset{L(p_{R(c)})}{\longrightarrow}
+       L(R(c))
          \overset{\epsilon}{\longrightarrow}
        c
-     $$ 
+     $$
 
      (of the [[adjunction counit]] with any cofibrant replacement as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence in $D$.
 
@@ -4676,7 +4660,7 @@ The conditions in def. \ref{QuillenEquivalence} are indeed all equivalent.
 +-- {: .proof}
 ###### Proof
 
-That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other). 
+That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other).
 
 To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the morphisms called "derived adjunction (co-)units" above indeed represent the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the homotopy category.
 We show this now for the adjunction unit, the case of the adjunction counit is formally dual.
@@ -4687,15 +4671,15 @@ $$
   \array{
     \mathcal{D}_c &\overset{L}{\longrightarrow}& \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_P}}\downarrow 
-      &\swArrow_{\simeq}& 
+    {}^{\mathllap{\gamma_P}}\downarrow
+      &\swArrow_{\simeq}&
     \downarrow^{\mathrlap{\gamma_{P,Q}}}
     \\
     Ho(\mathcal{D}) &\underset{\mathbb{L}L}{\longrightarrow}& Ho(\mathcal{C})
   }
 $$
 
-(using fibrant and fibrant/cofibrant replacement functors $\gamma_P$, $\gamma_{P,Q}$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} with their universal property from theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}, corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) gives that 
+(using fibrant and fibrant/cofibrant replacement functors $\gamma_P$, $\gamma_{P,Q}$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} with their universal property from theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}, corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) gives that
 
 $$
   (\mathbb{L} L ) d \simeq P L P d \simeq P L d \;\;\;\; \in Ho(\mathcal{C})
@@ -4721,10 +4705,10 @@ $$
   Hom_{\mathcal{C}}(L d, P L d)/_\sim
 $$
 
-of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the derived adjunction unit is the $(L \dashv R)$-[[adjunct]] of 
+of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the derived adjunction unit is the $(L \dashv R)$-[[adjunct]] of
 
 $$
-  L d 
+  L d
     \overset{j_{L d}}{\longrightarrow}
   P L d
     \overset{id}{\to}
@@ -4732,14 +4716,14 @@ $$
   \,,
 $$
 
-which indeed (by the formula for [[adjuncts]]) is 
+which indeed (by the formula for [[adjuncts]]) is
 
 $$
-  X 
-    \overset{\eta}{\longrightarrow} 
-  R L d 
+  X
+    \overset{\eta}{\longrightarrow}
+  R L d
     \overset{R (j_{L d})}{\longrightarrow}
-  R P L d 
+  R P L d
   \,.
 $$
 
@@ -4748,16 +4732,16 @@ To see that $4) \Rightarrow 3)$:
 Consider the weak equivalence $L X \overset{j_{L X}}{\longrightarrow} P L X$. Its $(L \dashv R)$-[[adjunct]] is
 
 $$
-  X 
+  X
     \overset{\eta}{\longrightarrow}
-  R L X 
+  R L X
     \overset{R j_{L X}}{\longrightarrow}
-  R P L X 
+  R P L X
 $$
 
 by assumption 4) this is again a weak equivalence, which is the requirement for the derived unit in 3). Dually for derived counit.
 
-To see $3) \Rightarrow 4)$: 
+To see $3) \Rightarrow 4)$:
 
 Consider any $f \colon L d \to c$ a weak equivalence for cofibrant $d$, firbant $c$. Its [[adjunct]] $\tilde f$ sits in a commuting diagram
 
@@ -4765,7 +4749,7 @@ $$
   \array{
     \tilde f \colon & d &\overset{\eta}{\longrightarrow}&  R L d &\overset{R f}{\longrightarrow}& R c
     \\
-    & {}^{\mathllap{=}}\downarrow && \downarrow^{\mathrlap{R j_{L d}}} && \downarrow^{\mathrlap{R j_c}} 
+    & {}^{\mathllap{=}}\downarrow && \downarrow^{\mathrlap{R j_{L d}}} && \downarrow^{\mathrlap{R j_c}}
     \\
     & d &\underset{\in W}{\longrightarrow}& R P L d &\overset{R P f}{\longrightarrow}& R P c
   }
@@ -4775,7 +4759,7 @@ $$
 where $P f$ is any lift constructed as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}.
 
 This exhibits the bottom left morphism as the derived adjunction unit, hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
- 
+
 =--
 
 In certain situations the conditions on a Quillen equivalence simplify. For instance:
@@ -4801,24 +4785,24 @@ By prop. \ref{ConditionsForQuillenAdjunctionAreIndeedEquivalent}, generally, $(L
 1. for every cofibrant object $d\in \mathcal{D}$, the "derived adjunction unit"
 
    $$
-     d 
-       \overset{\eta}{\longrightarrow} 
-     R(L(d)) 
+     d
+       \overset{\eta}{\longrightarrow}
+     R(L(d))
        \overset{R(j_{L(d)})}{\longrightarrow}
      R(P(L(d)))
-   $$ 
+   $$
 
    is a weak equivalence;
 
-1. for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit" 
-  
+1. for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit"
+
    $$
-     L(Q(R(c))) 
-       \overset{L(p_{R(c)})}{\longrightarrow} 
-     L(R(c)) 
+     L(Q(R(c)))
+       \overset{L(p_{R(c)})}{\longrightarrow}
+     L(R(c))
        \overset{\epsilon}{\longrightarrow}
      c
-   $$ 
+   $$
 
    is a weak equivalence.
 
@@ -4826,15 +4810,15 @@ Consider the first condition: Since $R$ preserves the weak equivalence $j_{L(d)}
 
 Hence it is now sufficient to show that in this case the second condition above is automatic.
 
-Since $R$ also reflects weak equivalences, the composite in item two is a weak equivalence precisely if its image 
+Since $R$ also reflects weak equivalences, the composite in item two is a weak equivalence precisely if its image
 
 $$
   R(L(Q(R(c))))
-    \overset{R(L(p_{R(c))})}{\longrightarrow} 
-  R(L(R(c))) 
+    \overset{R(L(p_{R(c))})}{\longrightarrow}
+  R(L(R(c)))
     \overset{R(\epsilon)}{\longrightarrow}
   R(c)
-$$ 
+$$
 
 under $R$ is.
 
@@ -4844,20 +4828,20 @@ $$
   Q(R(c))
     \overset{\eta_{Q(R(c))}}{\longrightarrow}
   R(L(Q(R(c))))
-    \overset{R(L(p_{R(c))})}{\longrightarrow} 
-  R(L(R(c))) 
+    \overset{R(L(p_{R(c))})}{\longrightarrow}
+  R(L(R(c)))
     \overset{R(\epsilon)}{\longrightarrow}
   R(c)
   \,.
-$$ 
+$$
 
 By the formula for [[adjuncts]], this composite is the $(L\dashv R)$-adjunct of the original composite, which is just $p_{R(c)}$
 
 $$
   \frac{
-     L(Q(R(c))) 
-       \overset{L(p_{R(c)})}{\longrightarrow} 
-     L(R(c)) 
+     L(Q(R(c)))
+       \overset{L(p_{R(c)})}{\longrightarrow}
+     L(R(c))
        \overset{\epsilon}{\longrightarrow}
      c
   }{
@@ -4872,7 +4856,7 @@ But $p_{R(c)}$ is a weak equivalence by definition of cofibrant replacement.
 =--
 
 
-### **P.3)** The model structure on topological spaces
+## The model structure on topological spaces
  {#TheClassicalModelStructureOfTopologicalSpaces}
 
 
@@ -4897,13 +4881,13 @@ and hence
 
 * a **acyclic classical fibration** if it is a classical fibration as well as a classical weak equivalence.
 
-Write 
+Write
 
 $$
   W_{cl},\;Fib_{cl},\;Cof_{cl}
-  \subset 
+  \subset
   Mor(Top)
-$$ 
+$$
 
 for the classes of these morphisms, respectively.
 
@@ -4943,7 +4927,7 @@ Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a classical c
 $$
   f
   \;\colon\;
-  X 
+  X
     \stackrel{\in Cof_{cl}}{\longrightarrow}
   \hat X
     \stackrel{\in W_{cl} \cap Fib_{cl}}{\longrightarrow}
@@ -4957,13 +4941,13 @@ $$
 ###### Proof
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
-the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of 
+the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of
 topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, hence just a plain relative cell complex, def. \ref{TopologicalCellComplex}, followed by an $I_{Top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
 
 $$
-  f 
+  f
   \;\colon\;
-  X 
+  X
    \stackrel{\in Cof_{cl}}{\longrightarrow}
   \hat X
    \stackrel{\in I_{Top} Inj}{\longrightarrow}
@@ -4983,7 +4967,7 @@ Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic cl
 $$
   f
   \;\colon\;
-  X 
+  X
     \stackrel{\in W_{cl} \cap Cof_{cl}}{\longrightarrow}
   \hat X
     \stackrel{\in Fib_{cl}}{\longrightarrow}
@@ -4997,13 +4981,13 @@ $$
 ###### Proof
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
-the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of 
+the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of
 topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $J_{top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
 
 $$
   f
   \;\colon\;
-  X 
+  X
    \stackrel{\in J_{Top} Cell}{\longrightarrow}
   \hat X
     \stackrel{\in J_{Top} Inj}{\longrightarrow}
@@ -5065,13 +5049,13 @@ The systems $(Cof_{cl} , W_{cl} \cap Fib_{cl})$ and $(W_{cl} \cap Cof_{cl}, Fib_
 +-- {: .proof}
 ###### Proof
 
-Since we have already seen the factorization property (lemma \ref{FactorizationInTopQuillen}, lemma \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}) and the lifting properties (lemma \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}), it only remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
+Since we have already seen the factorization property (lemma \ref{FactorizationInTopQuillen}, lemma \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}) and the lifting properties (lemma \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}), it only remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property.
 
 For the classical fibrations this is by definition, for the the classical acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
 The remaining statement for $Cof_{cl}$ and $W_{cl}\cap Cof_{cl}$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]] (def. \ref{CofibrantlyGeneratedModelCategory}), which we spell out:
 
-So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract (remark \ref{RetractsOfMorphisms}) of a [[relative cell complex]]. To that end, apply the [[small object]] argument as in lemma \ref{FactorizationInTopQuillen} to factor $f$ as 
+So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract (remark \ref{RetractsOfMorphisms}) of a [[relative cell complex]]. To that end, apply the [[small object]] argument as in lemma \ref{FactorizationInTopQuillen} to factor $f$ as
 
 $$
   f \;\colon \; X \overset{I_{Top} Cell}{\longrightarrow} \hat Y \overset{\in I_{Top} Inj}{\longrightarrow} Y
@@ -5087,14 +5071,14 @@ The analogous argument for $W_{cl} \cap Cof_{cl}$,  using the [[small object arg
 
 In conclusion, prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree} and prop. \ref{LiftingExhausted} say that:
 
-+-- {: .num_theorem #TopQuillenModelStructure} 
++-- {: .num_theorem #TopQuillenModelStructure}
 ###### Theorem
 
 The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuillen},
 
 * $W_{cl} = $ [[weak homotopy equivalences]],
 
-* $Fib_{cl} = $ [[Serre fibrations]] 
+* $Fib_{cl} = $ [[Serre fibrations]]
 
 * $Cof_{cl} = $ [[retracts]] of [[relative cell complexes]]
 
@@ -5110,7 +5094,7 @@ In particular
 
 Hence in particular the following classical statement is an immediate corollary:
 
-+-- {: .num_cor #WhiteheadTheorem} 
++-- {: .num_cor #WhiteheadTheorem}
 ###### Corollary
 **(Whitehead theorem)**
 
@@ -5126,11 +5110,11 @@ This is the "Whitehead theorem in model categories", lemma \ref{WhiteheadTheorem
 =--
 
 
-In proving theorem \ref{TopQuillenModelStructure} we have in fact shown a bit more that stated. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as the [[classical model structure on pointed topological spaces]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}), the [[projective model structure on enriched functors|projective model structure on topological functors]] (thm. \ref{ProjectiveModelStructureOnTopologicalFunctors}), and finally various [[model structures on spectra]] which we turn to in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]]. 
+In proving theorem \ref{TopQuillenModelStructure} we have in fact shown a bit more that stated. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as the [[classical model structure on pointed topological spaces]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}), the [[projective model structure on enriched functors|projective model structure on topological functors]] (thm. \ref{ProjectiveModelStructureOnTopologicalFunctors}), and finally various [[model structures on spectra]] which we turn to in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]].
 
 Therefore we make this situation explicit:
 
-+-- {: .num_defn #CofibrantlyGeneratedModelCategory} 
++-- {: .num_defn #CofibrantlyGeneratedModelCategory}
 ###### Definition
 
 A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called **cofibrantly generated** if there exists two subsets
@@ -5139,15 +5123,15 @@ $$
   I, J \subset Mor(\mathcal{C})
 $$
 
-of its class of morphisms, such that 
+of its class of morphisms, such that
 
-1. $I$ and $J$ have small domains according to def. \ref{ClassOfMorphismsWithSmallDomains}, 
+1. $I$ and $J$ have small domains according to def. \ref{ClassOfMorphismsWithSmallDomains},
 
 1.  the (acyclic) cofibrations of $\mathcal{C}$ are precisely the [[retracts]], of $I$-[[relative cell complexes]] ($J$-relative cell complexes), def. \ref{TopologicalCCellComplex}.
 
 =--
 
-+-- {: .num_prop #CofibrantlyGeneratedModelCategoryLifting} 
++-- {: .num_prop #CofibrantlyGeneratedModelCategoryLifting}
 ###### Proposition
 
 For $\mathcal{C}$ a cofibrantly generated model category, def. \ref{CofibrantlyGeneratedModelCategory}, with generating (acylic) cofibrations $I$ ($J$), then its classes $W, Fib, Cof$ of weak equivalences, fibrations and cofibrations are equivalently expressed as [[injective or projective morphisms]] (def. \ref{LiftingAndExtension}) this way:
@@ -5184,28 +5168,28 @@ The proof of the third and fourth item is directly analogous, just with $J$ repl
 
 
 
-#### The classical homotopy category
+### The classical homotopy category
  {#TheClassicalHomotopyCategory}
 
 With the [[classical model structure on topological spaces]] in hand, we now have good control over the [[classical homotopy category]]:
 
-+-- {: .num_defn #ClassicalHomotopyCategory} 
++-- {: .num_defn #ClassicalHomotopyCategory}
 ###### Definition
 
-The **Serre-Quillen [[classical homotopy category]]** is the [[homotopy category of a model category|homotopy category]], def. \ref{HomotopyCategoryOfAModelCategory}, of the [[classical model structure on topological spaces]] $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure}: we write 
+The **Serre-Quillen [[classical homotopy category]]** is the [[homotopy category of a model category|homotopy category]], def. \ref{HomotopyCategoryOfAModelCategory}, of the [[classical model structure on topological spaces]] $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure}: we write
 
 $$
-  Ho(Top) \coloneqq Ho(Top_{Quillen}) 
+  Ho(Top) \coloneqq Ho(Top_{Quillen})
   \,.
 $$
 
 =--
 
 
-+-- {: .num_remark #EveryTopologicalSpaceWeaklyEquivalentToACWComplex} 
++-- {: .num_remark #EveryTopologicalSpaceWeaklyEquivalentToACWComplex}
 ###### Remark
 
-From just theorem \ref{TopQuillenModelStructure}, the definition \ref{HomotopyCategoryOfAModelCategory} (def. \ref{ClassicalHomotopyCategory}) gives that 
+From just theorem \ref{TopQuillenModelStructure}, the definition \ref{HomotopyCategoryOfAModelCategory} (def. \ref{ClassicalHomotopyCategory}) gives that
 
 $$
   Ho(Top_{Quillen}) \simeq (Top_{Retract(Cell)})/_\sim
@@ -5214,7 +5198,7 @@ $$
 is the category whose objects are [[retracts]] of [[cell complexes]] (def. \ref{TopologicalCellComplex}) and whose morphisms are [[homotopy classes]] of [[continuous functions]]. But in fact more is true:
 
 
-Theorem \ref{TopQuillenModelStructure} in itself implies that every topological space is weakly equivalent to a [[retract]] of a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the existence of [[CW approximations]], this cell complex may even be taken to be a [[CW complex]]. 
+Theorem \ref{TopQuillenModelStructure} in itself implies that every topological space is weakly equivalent to a [[retract]] of a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the existence of [[CW approximations]], this cell complex may even be taken to be a [[CW complex]].
 
 (Better yet, there is [[Quillen equivalence]] to the [[classical model structure on simplicial sets]] which implies a _functorial_ [[CW approximation]] ${\vert Sing X\vert} \overset{\in W_{cl}}{\longrightarrow} X$
 given by forming the [[geometric realization]] of the [[singular simplicial complex]] of $X$.)
@@ -5245,7 +5229,7 @@ implies that there is a bijection, up to [[natural isomorphism]], between
 
 This statement in particular serves to show that two different axiomatizations of [[generalized (Eilenberg-Steenrod) cohomology]] theories are equivalent to each other. See at _[[Introduction to Stable homotopy theory -- S]]_ the section _[generalized cohomology functors](Introduction+to+Stable+homotopy+theory+--+S#GeneralizedHomologyAndCohomologyFunctors)_ ([this prop.](Introduction+to+Stable+homotopy+theory+--+S#HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent))
 
-**Beware** that, by remark \ref{NotEveryHomotopyEquivalenceIsAWeakHomotopyEquivalence}, what is **not** equivalent to $Ho(Top_{Quillen})$ is the category 
+**Beware** that, by remark \ref{NotEveryHomotopyEquivalenceIsAWeakHomotopyEquivalence}, what is **not** equivalent to $Ho(Top_{Quillen})$ is the category
 
 $$
   hTop \coloneqq Top/_\sim
@@ -5254,8 +5238,8 @@ $$
 obtained from _all_ topological spaces with morphisms the homotopy classes of continuous functions. This category is "too large", the correct homotopy category is just the genuine [[full subcategory]]
 
 $$
-  Ho(Top_{Quillen}) 
-   \simeq 
+  Ho(Top_{Quillen})
+   \simeq
   (Top_{Retract(Cell)})/_\sim
    \simeq
   Top/_\sim
@@ -5265,7 +5249,7 @@ $$
 $$
 
 Beware also the ambiguity of terminology: "classical homotopy category" some literature refers to $hTop$ instead of $Ho(Top_{Quillen})$. However, here we never have any use for $hTop$ and will not mention it again.
- 
+
 =--
 
 
@@ -5276,11 +5260,11 @@ Let $X$ be a [[CW-complex]], def. \ref{TopologicalCellComplex}. Then the standar
 
 $$
   X \sqcup X
-   \overset{(i_0,i_1)}{\longrightarrow}  
+   \overset{(i_0,i_1)}{\longrightarrow}
   X\times I
    \longrightarrow
   X
-$$ 
+$$
 
 (obtained by forming the [[product]] with the standard topological intervall $I = [0,1]$) is indeed a _[[cylinder object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
@@ -5292,7 +5276,7 @@ $$
 
 We describe the proof informally. It is immediate how to turn this into a formal proof, but the notation becomes tedious. (One place where it is spelled out completely is [Ottina 14, prop. 2.9](cylinder+object#Ottina14).)
 
-So let $X_0 \to X_1 \to X_2\to \cdots \to X$ be a presentation of $X$ as a CW-complex. Proceed by induction on the cell dimension. 
+So let $X_0 \to X_1 \to X_2\to \cdots \to X$ be a presentation of $X$ as a CW-complex. Proceed by induction on the cell dimension.
 
 First observe that the cylinder $X_0 \times I$ over $X_0$ is a cell complex: First $X_0$ itself is a disjoint union of points. Adding a second copy for every point (i.e. attaching along $S^{-1}\to D^0$) yields $X_0 \sqcup X_0$, then attaching an inteval between any two corresponding points (along $S^0 \to D^1$) yields $X_0 \times I$.
 
@@ -5316,9 +5300,9 @@ Conversely:
 Let $X$ be any [[topological space]]. Then the standard topological [[path space object]] (def. \ref{TopologicalPathSpace})
 
 $$
-  X 
-    \longrightarrow 
-  X^I 
+  X
+    \longrightarrow
+  X^I
     \overset{(X^{\delta_0}, X^{\delta_1})}{\longrightarrow}
   X \times X
 $$
@@ -5340,7 +5324,7 @@ is already equal to the identity. The other we round, the rescaling of paths pro
 
 $$
   \array{
-    I \times X^I &\overset{(t,\gamma)\mapsto \gamma(t\cdot(-))}{\longrightarrow}& 
+    I \times X^I &\overset{(t,\gamma)\mapsto \gamma(t\cdot(-))}{\longrightarrow}&
     X^I
   }
   \,.
@@ -5359,14 +5343,14 @@ $$
   }
 $$
 
-has a lift. 
+has a lift.
 
 Now first use the [[adjunction]] $(I \times (-))\dashv (-)^I$ from prop. \ref{MappingTopologicalSpaceIsExponentialObject} to rewrite this equivalently as the following commuting square:
 
 $$
   \array{
-    D^n \sqcup D^n 
-      &\overset{(i_0, i_0)}{\longrightarrow}& 
+    D^n \sqcup D^n
+      &\overset{(i_0, i_0)}{\longrightarrow}&
     (D^n \times I) \sqcup (D^n \times I)
     \\
     {}^{\mathllap{(i_0, i_1)}}\downarrow && \downarrow
@@ -5379,7 +5363,7 @@ $$
 This square is equivalently (example \ref{PushoutInTop}) a morphism out of the [[pushout]]
 
 $$
-  D^n \times I 
+  D^n \times I
     \underset{D^n \sqcup D^n }{\sqcup}
   \left((D^n \times I) \sqcup (D^n \times I)\right)
   \longrightarrow
@@ -5387,11 +5371,11 @@ $$
   \,.
 $$
 
-By the same reasoning, a lift in the original diagram is now equivalently a lifting in 
+By the same reasoning, a lift in the original diagram is now equivalently a lifting in
 
 $$
   \array{
-    D^n \times I 
+    D^n \times I
       \underset{D^n \sqcup D^n }{\sqcup}
     \left((D^n \times I) \sqcup (D^n \times I)\right)
       &\longrightarrow&
@@ -5408,19 +5392,19 @@ Inspection of the component maps shows that the left vertical morphism here is t
 
 =--
 
-#### Model structure on pointed spaces
+### Model structure on pointed spaces
  {#ModelstructureOnPointedTopologicalSpaces}
 
-A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here. 
+A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here.
 
 Passing to pointed objects is also the first step in linearizing classical homotopy theory to [[stable homotopy theory]]. In particular, every category of pointed objects has a [[zero object]], hence has [[zero morphisms]]. And crucially, if the original category had [[Cartesian products]], then its pointed objects canonically inherit a non-cartesian [[tensor product]]: the [[smash product]]. These ingredients will be key below in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]].
 
 +-- {: .num_defn #SliceCategory}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[category]] and let $X \in \mathcal{C}$ be an [[object]]. 
+Let $\mathcal{C}$ be a [[category]] and let $X \in \mathcal{C}$ be an [[object]].
 
-The _[[slice category]]_ $\mathcal{C}_{/X}$ is the category whose 
+The _[[slice category]]_ $\mathcal{C}_{/X}$ is the category whose
 
 * objects are morphisms $\array{A \\ \downarrow \\ X}$ in $\mathcal{C}$;
 
@@ -5470,18 +5454,18 @@ For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice 
 +-- {: .num_remark #PointedObjectsHaveZeroObject}
 ###### Remark
 
-In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way. 
+In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way.
 
-In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
+In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_.
 
 It follows that also all [[hom-sets]] $Hom_{\mathcal{C}^{\ast/}}(X,Y)$ of $\mathcal{C}^{\ast/}$ are canonically [[pointed sets]], pointed by the _[[zero morphism]]_
 
 $$
-  0 
+  0
     \;\colon\;
-  X 
-    \overset{\exists !}{\longrightarrow} 
-  0 
+  X
+    \overset{\exists !}{\longrightarrow}
+  0
     \overset{\exists !}{\longrightarrow} Y
   \,.
 $$
@@ -5493,7 +5477,7 @@ $$
 +-- {: .num_defn #BasePointAdjoined}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $U \colon \mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] 
+Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $U \colon \mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]]
 
 $$
   \mathcal{C}^{\ast/}
@@ -5580,7 +5564,7 @@ $$
   (-)\wedge(-)
   \;\colon\;
   \mathcal{C}^{\ast/}
-  \times 
+  \times
   \mathcal{C}^{\ast/}
   \longrightarrow
   \mathcal{C}^{\ast/}
@@ -5615,17 +5599,17 @@ $$
   X \wedge Y = \frac{X\times Y}{X \vee Y}
   \,.
 $$
- 
+
 =--
 
 +-- {: .num_remark #SmashProductOnTopNotAssociative}
 ###### Remark
 
-For a general category $\mathcal{C}$ in def. \ref{SmashProductOfPointedObjects}, the [[smash product]] need not be [[associativity|associative]], namely it fails to be associative if the functor $(-)\times Z$ does not preserve the [[quotients]] involved in the definition. 
+For a general category $\mathcal{C}$ in def. \ref{SmashProductOfPointedObjects}, the [[smash product]] need not be [[associativity|associative]], namely it fails to be associative if the functor $(-)\times Z$ does not preserve the [[quotients]] involved in the definition.
 
 In particular this may happen for $\mathcal{C} = $ [[Top]].
 
-A sufficient condition for $(-) \times Z$ to preserve quotients is that it is a [[left adjoint]] functor. This is the case in the smaller subcategory of [[compactly generated topological spaces]], we come to this in prop. \ref{SmashProductInTopcgIsAssociative} below. 
+A sufficient condition for $(-) \times Z$ to preserve quotients is that it is a [[left adjoint]] functor. This is the case in the smaller subcategory of [[compactly generated topological spaces]], we come to this in prop. \ref{SmashProductInTopcgIsAssociative} below.
 
 
 
@@ -5646,7 +5630,7 @@ For $X, Y \in Top$, with $X_+,Y_+ \in Top^{\ast/}$, def. \ref{BasePointAdjoined}
 
 * $X_+ \vee Y_+ \simeq (X \sqcup Y)_+$;
 
-* $X_+ \wedge Y_+ \simeq (X \times Y)_+$. 
+* $X_+ \wedge Y_+ \simeq (X \times Y)_+$.
 
 =--
 
@@ -5662,7 +5646,7 @@ $$
     && & \swarrow && \searrow
     \\
     X &\,\,& \ast && && \ast &\,\,& Y
-  }  
+  }
   \,.
 $$
 
@@ -5674,13 +5658,13 @@ $$
     & \simeq
     \frac{(X \sqcup \ast) \times (X \sqcup \ast)}{(X\sqcup \ast) \vee (Y \sqcup \ast)}
     \\
-    & \simeq 
+    & \simeq
     \frac{X \times Y \sqcup X \sqcup Y \sqcup \ast}{X \sqcup Y \sqcup \ast}
     \\
     & \simeq
     X \times Y \sqcup \ast
     \,.
-  \end{aligned} 
+  \end{aligned}
 $$
 
 =--
@@ -5688,13 +5672,13 @@ $$
 +-- {: .num_example #StandardReducedCyclinderInTop}
 ###### Example
 
-Let $\mathcal{C}^{\ast/} = Top^{\ast/}$ be [[pointed topological spaces]]. Then 
+Let $\mathcal{C}^{\ast/} = Top^{\ast/}$ be [[pointed topological spaces]]. Then
 
 $$
   I_+ \in Top^{\ast/}
 $$
 
-denotes the standard interval object $I = [0,1]$ from def. \ref{TopologicalInterval}, with a djoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then 
+denotes the standard interval object $I = [0,1]$ from def. \ref{TopologicalInterval}, with a djoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then
 
 $$
   X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
@@ -5786,9 +5770,9 @@ $$
     \\
     & & X &\overset{f}{\longrightarrow}& Y
     \\
-    & & \downarrow && 
+    & & \downarrow &&
     \\
-    & & \ast && 
+    & & \ast &&
    }
 $$
 
@@ -5801,7 +5785,7 @@ be computed. But one readily checks that in this special case this does not affe
 
 Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
 
-In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way. 
+In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way.
 
 The corresponding [[homotopy category of a model category]], def. \ref{HomotopyCategoryOfAModelCategory}, we call the **[[pointed category|pointed]] [[homotopy category of a model category|homotopy category]]** $Ho(\mathcal{C}^{\ast/})$.
 
@@ -5810,7 +5794,7 @@ The corresponding [[homotopy category of a model category]], def. \ref{HomotopyC
 +-- {: .proof}
 ###### Proof
 
-This is immediate: 
+This is immediate:
 
 By prop. \ref{LimitsAndColimitsOfPointedObjects} the (co-)slice category has all limits and colimits. By definition of the weak equivalences in the (co-)slice, they satisfy [[two-out-of-three]], def. \ref{CategoryWithWeakEquivalences}, because the do in $\mathcal{C}$.
 
@@ -5839,7 +5823,7 @@ $$
   \,.
 $$
 
-Similarly, if 
+Similarly, if
 
 $$
   \array{
@@ -5911,7 +5895,7 @@ Write
 
 $$
   I_{Top^{\ast/}}
-  = 
+  =
  \left\{
     S^{n-1}_+ \overset{(\iota_n)_+}{\longrightarrow} D^n_+
  \right\}
@@ -5923,7 +5907,7 @@ and
 
 $$
   J_{Top^{\ast/}}
-  = 
+  =
  \left\{
     D^n_+ \overset{(id, \delta_0)_+}{\longrightarrow} (D^n \times I)_+
  \right\}
@@ -5953,7 +5937,7 @@ Due to the fact that in $J_{Top^{\ast/}}$ a basepoint is freely adjoined, lemma 
 =--
 
 
-#### Model structure on compactly generated spaces
+### Model structure on compactly generated spaces
  {#ModelStructureOnCompactlyGeneratedTopologicalSpaces}
 
 The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) satisfying the exponential property (prop. \ref{MappingTopologicalSpaceIsExponentialObject}) exist in general only for $Y$ a [[locally compact topological space]], but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
@@ -5968,7 +5952,7 @@ The first two of these are crucial for the development of [[stable homotopy theo
 
 Now, since the [[homotopy theory]] of topological spaces only cares about the [[CW approximation]] to any topological space (remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}), it is plausible to ask for a [[full subcategory]] of [[Top]] which still contains all [[CW-complexes]], still has all [[limits]] and [[colimits]], still supports a model category structure constructed in the same way as above, but which in addition is [[cartesian closed category|cartesian closed]], and preferably such that the model structure interacts well with the cartesian closure.
 
-Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now. 
+Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now.
 
 **Literature** ([Strickland 09](#Strickland09))
 
@@ -6029,7 +6013,7 @@ with $k$ from def. \ref{kfication}.
 +-- {: .proof}
 ###### Proof
 
-We need to show that for $A \subset X$ a $k$-closed subset, then the [[preimage]] $f^{-1}(A) \subset X$ is closed subset. 
+We need to show that for $A \subset X$ a $k$-closed subset, then the [[preimage]] $f^{-1}(A) \subset X$ is closed subset.
 
 Let $\phi \colon K \longrightarrow X$ be any continuous function out of a compact Hausdorff space $K$. Since $A$ is $k$-closed by assumption, we have that $(f \circ \phi)^{-1}(A) = \phi^{-1}(f^{-1}(A))\subset K$ is closed in $K$. This means that $f^{-1}(A)$ is $k$-closed in $X$. But by the assumption that $X$ is compactly generated, it follows that $f^{-1}(A)$ is already closed.
 
@@ -6094,7 +6078,7 @@ If $Y$ is (compactly generated and) a [[Hausdorff space]], then the topology on 
 +-- {: .num_prop #CartesianClosureOfTopcg}
 ###### Proposition
 
-The category $Top_{cg}$ of def. \ref{kTop} is [[cartesian closed category|cartesian closed]]: 
+The category $Top_{cg}$ of def. \ref{kTop} is [[cartesian closed category|cartesian closed]]:
 
 for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ of forming the [[Cartesian product]] in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
 
@@ -6200,7 +6184,7 @@ $$
       K \wedge \underset{\longrightarrow}{\lim}_i X_i,\; Y
     \right)
     \\
-    & \simeq 
+    & \simeq
     Hom_{Top^{\ast/}_{cg}}
     \left(
       \underset{\longrightarrow}{\lim}_i
@@ -6208,14 +6192,14 @@ $$
       ,\; Y
     \right)
     \\
-    & \simeq 
+    & \simeq
     \underset{\longleftarrow}{\lim}_i
     \left(
       Hom_{Top^{\ast/}_{cg}}
       ( K \wedge X_i, \; Y )
     \right)
     \\
-    & \simeq 
+    & \simeq
     \underset{\longleftarrow}{\lim}_i
     Hom_{Top^{\ast/}_{cg}}( K, \; Maps(X_i,Y)_\ast )
     \\
@@ -6250,8 +6234,8 @@ $$
   Top_{cg}^{\ast/}
 $$
 
-is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it. 
- 
+is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it.
+
 =--
 
 +-- {: .proof}
@@ -6304,7 +6288,7 @@ $$
 
 The fact that $Top_{cg}^{\ast/}$ is still closed symmetric monoidal but no longer Cartesian exhibits $Top_{cg}^{\ast/}$ as being "more [[linear logic|linear]]" than $Top_{cg}$. The "full linearization" of $Top_{cg}$ is the closed symmteric monoidal category of [[structured spectra]] under [[smash product of spectra]]
 which we discuss in [[Introduction to Stable homotopy theory -- 1|section 1]].
- 
+
 =--
 
 Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know plenty of conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it and one may continue working as in $Top$.
@@ -6312,16 +6296,16 @@ Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTop
 +-- {: .num_example #CWComplexIsCompactlyGenerated}
 ###### Example
 
-Every [[CW-complex]] is [[compactly generated topological space|compactly generated]]. 
+Every [[CW-complex]] is [[compactly generated topological space|compactly generated]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Since [[a CW-complex is a Hausdorff space]], by prop. \ref{HausdorffImpliessWeaklyHausdorff} and  prop. \ref{CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace} its $k$-closed subsets are precisely those whose intersection with every [[compact subspace]] is closed. 
+Since [[a CW-complex is a Hausdorff space]], by prop. \ref{HausdorffImpliessWeaklyHausdorff} and  prop. \ref{CharacterizationOfCompactClosedSetsInWeaklyHausdorffSpace} its $k$-closed subsets are precisely those whose intersection with every [[compact subspace]] is closed.
 
-Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed. 
+Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed.
 
 For the converse direction, since [[a CW-complex is a Hausdorff space]] and since [[compact subspaces of Hausdorff spaces are closed]], the intersection of a closed subset with a compact subset is closed.
 
@@ -6389,7 +6373,7 @@ By example \ref{CWComplexIsCompactlyGenerated}, example \ref{ProductOfCWWithLoca
 =--
 
 
-+-- {: .num_theorem #ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces} 
++-- {: .num_theorem #ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}
 ###### Theorem
 
 The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]] (def. \ref{QuillenEquivalence})
@@ -6423,15 +6407,15 @@ $\,$
 
 While the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} does satisfy the requirement that it gives a [[cartesian closed category]] with all [[limits]] and [[colimits]] and containing all [[CW-complexes]], one may ask for yet smaller subcategories that still share all these properties but potentially exhibit further convenient properties still.
 
-A popular choice introduced in ([McCord 69](weakly+Hausdorff+topological+space#McCord69)) is to add the further restriction to topopological spaces which are not only compactly generated but also [[weakly Hausdorff topological space|weakly Hausdorff]]. This was motivated from ([Steenrod 67](compactly+generated+topological+space#Steenrod67)) where compactly generated Hausdorff spaces were used by the observation (([McCord 69, section 2](weakly+Hausdorff+topological+space#McCord69))) that Hausdorffness is not preserved my many colimit operations, notably not by forming [[quotient spaces]]. 
+A popular choice introduced in ([McCord 69](weakly+Hausdorff+topological+space#McCord69)) is to add the further restriction to topopological spaces which are not only compactly generated but also [[weakly Hausdorff topological space|weakly Hausdorff]]. This was motivated from ([Steenrod 67](compactly+generated+topological+space#Steenrod67)) where compactly generated Hausdorff spaces were used by the observation (([McCord 69, section 2](weakly+Hausdorff+topological+space#McCord69))) that Hausdorffness is not preserved my many colimit operations, notably not by forming [[quotient spaces]].
 
 On the other hand, in above we wouldn't have imposed Hausdorffness in the first place. More intrinsic advantages of $Top_{cgwH}$ over $Top_{cg}$ are the following:
 
-* every [[pushout]] of a morphism in $Top_{cgwH} \hookrightarrow Top$ along a [[closed subspace]] inclusion in $Top$ is again in $Top_{cgwH}$ 
+* every [[pushout]] of a morphism in $Top_{cgwH} \hookrightarrow Top$ along a [[closed subspace]] inclusion in $Top$ is again in $Top_{cgwH}$
 
-* in $Top_{cgwH}$ quotient spaces are not only preserved by [[cartesian products]] (as is the case for all compactly generated spaces due to $X\times (-)$ being a left adjoint, according to cor. \ref{kTopIsCoreflectiveSubcategory}) but by all [[pullbacks]] 
+* in $Top_{cgwH}$ quotient spaces are not only preserved by [[cartesian products]] (as is the case for all compactly generated spaces due to $X\times (-)$ being a left adjoint, according to cor. \ref{kTopIsCoreflectiveSubcategory}) but by all [[pullbacks]]
 
-* in $Top_{cgwH}$ the [[regular monomorphisms]] are the [[closed subspace]] inclusions 
+* in $Top_{cgwH}$ the [[regular monomorphisms]] are the [[closed subspace]] inclusions
 
 We will not need this here or in the following sections, but we briefly mention it for completenes:
 
@@ -6473,7 +6457,11 @@ For $X$ a [[weakly Hausdorff topological space]], def. \ref{WeaklyHausdorff}, th
 e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
 
 
-#### Topological enrichment
+
+
+
+
+### Topological enrichment
  {#TopologicalEnrichment}
 
 So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far has not been related to the topology on [[hom-spaces]]. The following statements say that in fact the model structure and the enrichment by topology on the hom-spaces are compatible in a suitable sense: we have an "[[enriched model category]]". This implies in particular that the product/hom-adjunctions are [[Quillen adjunctions]], which is crucial for a decent discusson of the derived functors of the suspension/looping adjunction [below](#TheSuspensionLoopingDiscussion).
@@ -6481,13 +6469,13 @@ So far the [[classical model structure on topological spaces]] which we establis
 +-- {: .num_defn #PushoutProduct}
 ###### Definition
 
-Let $i_1 \colon X_1 \to Y_1$ and $i_2 \colon X_2 \to Y_2$ be morphisms in $Top_{cg}$, def. \ref{kTop}. Their **[[pushout product]]** 
+Let $i_1 \colon X_1 \to Y_1$ and $i_2 \colon X_2 \to Y_2$ be morphisms in $Top_{cg}$, def. \ref{kTop}. Their **[[pushout product]]**
 
 $$
   i_1\Box i_2
    \coloneqq
   ((id, i_2), (i_1,id))
-$$ 
+$$
 
 is the universal morphism in the following diagram
 
@@ -6525,7 +6513,7 @@ $$
   \,.
 $$
 
-For instance 
+For instance
 
 $$
   \left(
@@ -6559,7 +6547,7 @@ i.e.
 $$
   (\emptyset \to X) \Box (A \overset{f}{\to} B)
   \simeq
-  (X\times A \overset{X \times f}{\longrightarrow} X \times B ) 
+  (X\times A \overset{X \times f}{\longrightarrow} X \times B )
   \,.
 $$
 
@@ -6594,7 +6582,7 @@ $$
 +-- {: .num_example #PushoutProductOfITopwithITopAndJTop}
 ###### Example
 
-With 
+With
 
 $$
   I_{Top} \colon \{ S^{n-1} \overset{i_n}{\hookrightarrow} D^n\}
@@ -6626,7 +6614,7 @@ To see this, it is profitable to model [[n-disks]] and [[n-spheres]], up to [[ho
 $$
   i_1 \Box i_1
   \;\colon\;
-    \left(\;\; = \;\;\cup\;\; \vert\vert\;\;\right) 
+    \left(\;\; = \;\;\cup\;\; \vert\vert\;\;\right)
     \hookrightarrow
     \Box
 $$
@@ -6636,13 +6624,13 @@ and
 $$
   i_1 \Box j_0
   \;\colon\;
-    \left(\;\; = \;\;\cup\;\; \vert \;\; \right) 
+    \left(\;\; = \;\;\cup\;\; \vert \;\; \right)
     \hookrightarrow
     \Box
   \,.
 $$
 
-Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[0,1]$, and $S^n$ as the suspace of tuples for which at least one of the coordinates is equal to 0 or to 1. 
+Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[0,1]$, and $S^n$ as the suspace of tuples for which at least one of the coordinates is equal to 0 or to 1.
 
 Accordingly, $S^{n_1} \times D^{n_2} \hookrightarrow D^{n_1 + n_2}$ is the subspace of $(n_1+n_2)$-tuples, such that at least one of the first $n_1$ coordinates is equal to 0 or 1, while $D^{n_1} \times S^{n_2} \hookrightarrow D^{n_1+ n_2}$ is the subspace of $(n_1 + n_2)$-tuples such that east least one of the last $n_2$ coordinates is equal to 0 or to 1. Therefore
 
@@ -6667,9 +6655,9 @@ $$
   p^{\Box i}
     \coloneqq
   (p^B, X^i)
-$$ 
+$$
 
-being the universal morphism in 
+being the universal morphism in
 
 $$
   \array{
@@ -6685,7 +6673,7 @@ $$
     \\
     & {}_{\mathllap{Y^i}}\searrow && \swarrow_{\mathrlap{p^A}}
     \\
-    && Y^A   
+    && Y^A
   }
 $$
 
@@ -6698,7 +6686,7 @@ Let $i_1, i_2 , p$ be three morphisms in $Top_{cg}$, def. \ref{kTop}. Then for t
 
 $$
   \array{
-    &  i_1 \Box i_2 & \text{has LLP against} & p 
+    &  i_1 \Box i_2 & \text{has LLP against} & p
     \\
     \Leftrightarrow & i_1 &  \text{has LLP against} & p^{\Box i_2}
     \\
@@ -6747,14 +6735,14 @@ $$
   }
 $$
 
-etc. 
+etc.
 
 To see this in more detail, observe that both squares above each represent two squares from the two components into the fiber product and out of the pushout, respectively, as well as one more square exhibiting the compatibility condition on these components:
 
 $$
  \begin{aligned}
    &
-   \;\;\;\; 
+   \;\;\;\;
   \array{
     Q &\overset{f}{\longrightarrow}& X^B
     \\
@@ -6896,7 +6884,7 @@ $$
     & Cof_{cl} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{\Box I_{Top}}
     \\
     \Leftrightarrow
-    & 
+    &
     I_{Top} \Box Cof_{cl} & \text{has LLP against} & W_{cl} \cap Fib_{cl}
     \\
     \Leftrightarrow
@@ -6958,7 +6946,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{PushoutProductWithInitialMorphism} we have that the [[left adjoint]] functor is equivalently the [[pushout product]] functor with the initial morphism of $X$: 
+By example \ref{PushoutProductWithInitialMorphism} we have that the [[left adjoint]] functor is equivalently the [[pushout product]] functor with the initial morphism of $X$:
 
 $$
   X \times (-)
@@ -7017,7 +7005,7 @@ Hence the pointed analog of prop. \ref{PushoutProductInTopCGSendsCofCofToCof} ho
 
 
 
-#### Model structure on topological functors
+### Model structure on topological functors
  {#ModelStructureOnTopEnrichedFunctors}
 
 With classical topological homotopy theory in hand (theorem \ref{TopQuillenModelStructure}, theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}), it is straightforward now to generalize this to a homotopy theory of _topological diagrams_. This is going to be the basis for the [[stable homotopy theory]] of [[spectra]], because spectra may be identified with certain topological diagrams ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectraAsDiagramSpectra)).
@@ -7076,7 +7064,7 @@ $$
 $$
 
 It is in this sense that $\mathcal{C}$ is a category with [[extra structure]], and hence "[[enriched category|enriched]]".
- 
+
 =---
 
 The archetypical example is $Top_{cg}$ itself:
@@ -7092,7 +7080,7 @@ $$
   Y^X
 $$
 
-and with [[composition]] 
+and with [[composition]]
 
 $$
   Y^X \times Z^Y
@@ -7125,7 +7113,7 @@ $$
 +-- {: .num_defn #TopologicallyEnrichedFunctor}
 ###### Definition
 
-A [[topologically enriched functor]] between two [[topologically enriched categories]] 
+A [[topologically enriched functor]] between two [[topologically enriched categories]]
 
 $$
   F \;\colon\;  \mathcal{C}  \longrightarrow \mathcal{D}
@@ -7151,13 +7139,13 @@ is a $Top_{cg}$-[[enriched functor]], hence:
 
 such that this preserves [[composition]] and [[identity]] morphisms in the evident sense.
 
-A [[homomorphism]] of topologically enriched functors 
+A [[homomorphism]] of topologically enriched functors
 
 $$
   \eta \;\colon\; F \Rightarrow G
-$$ 
+$$
 
-is a $Top_{cg}$-[[enriched natural transformation]]: for each $c \in Obj(\mathcal{C})$ a choice of morphism $\eta_c \in \mathcal{D}(F(c),G(c))$ such that for each pair of objects $c,d \in \mathcal{C}$ the two continuous functions 
+is a $Top_{cg}$-[[enriched natural transformation]]: for each $c \in Obj(\mathcal{C})$ a choice of morphism $\eta_c \in \mathcal{D}(F(c),G(c))$ such that for each pair of objects $c,d \in \mathcal{C}$ the two continuous functions
 
 $$
   \eta_d \circ F(-) \;\colon\; \mathcal{C}(c,d) \longrightarrow \mathcal{D}(F(c), G(d))
@@ -7171,7 +7159,7 @@ $$
 
 agree.
 
-We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologically enriched functors. 
+We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologically enriched functors.
 
 =--
 
@@ -7212,12 +7200,12 @@ to the archetical topologically enriched category from example \ref{TopkAsATopol
 Hence the category of topologically enriched functors
 
 $$
-  [\mathcal{C}, Top_{cg}] 
+  [\mathcal{C}, Top_{cg}]
 $$
 
 according to def. \ref{TopologicallyEnrichedFunctor} may be thought of as the ([[copresheaf|co-]])[[presheaf category]] over $\mathcal{C}$ in the realm of topological enriched categories.
 
-A functor $F \in [\mathcal{C}, Top_{cg}]$ is equivalently 
+A functor $F \in [\mathcal{C}, Top_{cg}]$ is equivalently
 
 1. a [[compactly generated topological space]] $F_a \in Top_{cg}$ for each object $a \in Obj(\mathcal{C})$;
 
@@ -7231,7 +7219,7 @@ A functor $F \in [\mathcal{C}, Top_{cg}]$ is equivalently
 
 such that composition is respected, in the evident sense.
 
-For every object $c \in \mathcal{C}$, there is a topologically enriched [[representable functor]], denoted $y(c)$ or $\mathcal{C}(c,-)$ which sends objects to 
+For every object $c \in \mathcal{C}$, there is a topologically enriched [[representable functor]], denoted $y(c)$ or $\mathcal{C}(c,-)$ which sends objects to
 
 $$
   y(c)(d) = \mathcal{C}(c,d) \in Top_{cg}
@@ -7246,20 +7234,20 @@ and whose action on morphisms is, under the above identification, just the [[com
 
 For $\mathcal{C}$ any [[small category|small]] [[topologically enriched category]], def. \ref{TopEnrichedCategory} then the [[enriched functor category]] $[\mathcal{C}, Top_{cg}]$ from example \ref{TopologicallyEnrichedFunctorsToTopk} has all [[limits]] and [[colimits]], and they are computed objectwise:
 
-if 
+if
 
 $$
-  F_\bullet 
-    \;\colon\; 
-  I 
+  F_\bullet
+    \;\colon\;
+  I
     \longrightarrow
   [\mathcal{C}, Top_{cg}]
 $$
 
-is a [[diagram]] of [[functors]] and $c\in \mathcal{C}$ is any object, then 
+is a [[diagram]] of [[functors]] and $c\in \mathcal{C}$ is any object, then
 
 $$
-  (\underset{\longleftarrow}{\lim}_i F_i)(c) \simeq \underset{\longleftarrow}{\lim}_i (F_i(c)) \;\;\in Top_{cg} 
+  (\underset{\longleftarrow}{\lim}_i F_i)(c) \simeq \underset{\longleftarrow}{\lim}_i (F_i(c)) \;\;\in Top_{cg}
 $$
 
 and
@@ -7303,7 +7291,7 @@ Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnriche
 
    $$
      (-)\cdot(-)
-       \;\colon\; 
+       \;\colon\;
      [\mathcal{C}, Top_{cg}] \times Top_{cg}
       \longrightarrow
      [\mathcal{C}, Top_{cg}]
@@ -7327,7 +7315,7 @@ Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnriche
        \longrightarrow
      [\mathcal{C}, Top_{cg}]
    $$
- 
+
    by forming objectwise compactly generated [[mapping spaces]] (def. \ref{CompactlyGeneratedMappingSpaces})
 
    $$
@@ -7343,7 +7331,7 @@ Analogously, for $\mathcal{C}$ a pointed [[topologically enriched category]], de
 
    $$
      (-)\wedge(-)
-       \;\colon\; 
+       \;\colon\;
      [\mathcal{C}, Top^{\ast/}_{cg}] \times Top^{\ast/}_{cg}
       \longrightarrow
      [\mathcal{C}, Top^{\ast/}_{cg}]
@@ -7367,7 +7355,7 @@ Analogously, for $\mathcal{C}$ a pointed [[topologically enriched category]], de
        \longrightarrow
      [\mathcal{C}, Top^{\ast/}_{cg}]
    $$
- 
+
    by forming objectwise [[pointed mapping spaces]] (example \ref{PointedMappingSpace})
 
    $$
@@ -7388,7 +7376,7 @@ There is a full blown $Top_{cg}$-[[enriched Yoneda lemma]]. The following record
 
 Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, write $[\mathcal{C}, Top_{cg}]$ for its category of topologically enriched (co-)presheaves, and for $c\in Obj(\mathcal{C})$ write $y(c) = \mathcal{C}(c,-) \in [\mathcal{C}, Top_k]$ for the topologically enriched functor that it represents, all according to example \ref{TopologicallyEnrichedFunctorsToTopk}. Recall the [[tensoring]] operation $(F,X) \mapsto F \cdot X$ from def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}.
 
-For $c\in Obj(\mathcal{C})$, $X \in Top_{cg}$ and $F \in [\mathcal{C}, Top_{cg}]$, there is a [[natural bijection]] between 
+For $c\in Obj(\mathcal{C})$, $X \in Top_{cg}$ and $F \in [\mathcal{C}, Top_{cg}]$, there is a [[natural bijection]] between
 
 1. morphisms $y(c) \cdot X \longrightarrow F$ in $[\mathcal{C}, Top_{cg}]$;
 
@@ -7423,7 +7411,7 @@ $$
   \,.
 $$
 
-We claim that just this $\eta_c(id_c,-)$ already uniquely determines all components 
+We claim that just this $\eta_c(id_c,-)$ already uniquely determines all components
 
 $$
   \eta_d \;\colon\; \mathcal{C}(c,d)\times X \longrightarrow F(d)
@@ -7522,7 +7510,7 @@ $$
   \right\}_{{n \in \mathbb{N},} \atop {c \in Obj(\mathcal{C})}}
 $$
 
-and 
+and
 
 $$
   J_{Top}^{\mathcal{C}}
@@ -7536,7 +7524,7 @@ for the sets of morphisms given by [[tensoring]] (def. \ref{TensoringAndPowering
 
 These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the _projective [[model structure on functors|model structure on topologically enriched functors]]_ over $\mathcal{C}$.
 
-Analgously, for $\mathcal{C}$ a pointed topologically enriched category, write 
+Analgously, for $\mathcal{C}$ a pointed topologically enriched category, write
 
 $$
   I_{Top^{\ast/}}^{\mathcal{C}}
@@ -7546,7 +7534,7 @@ $$
   \right\}_{{n \in \mathbb{N},} \atop {c \in Obj(\mathcal{C})}}
 $$
 
-and 
+and
 
 $$
   J_{Top^{\ast/}}^{\mathcal{C}}
@@ -7574,15 +7562,15 @@ Given a [[small category|small]] (pointed) [[topologically enriched category]] $
 
 * a **projective cofibration** if it is a [[retract]] (rmk. \ref{RetractsOfMorphisms}) of an $I_{Top}^{\mathcal{C}}$-[[relative cell complex]] (def. \ref{TopologicalCCellComplex}, def. \ref{GeneratingCofibrationsForProjectiveStructureOnFunctors}).
 
-Write 
+Write
 
-$$ 
+$$
   [\mathcal{C}, (Top_{cg})_{Quillen}]_{proj}
 $$
 
 and
 
-$$ 
+$$
   [\mathcal{C}, (Top^{\ast/}_{cg})_{Quillen}]_{proj}
 $$
 
@@ -7594,7 +7582,7 @@ for the categories of topologically enriched functors equipped with these classe
 +-- {: .num_theorem #ProjectiveModelStructureOnTopologicalFunctors}
 ###### Theorem
 
-The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top_{cg}]$ and $[\mathcal{C}, Top^{\ast/}_{cg}]$, called the **[[projective model structure on enriched functors]]** 
+The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top_{cg}]$ and $[\mathcal{C}, Top^{\ast/}_{cg}]$, called the **[[projective model structure on enriched functors]]**
 
 $$
   [\mathcal{C}, (Top_{cg})_{Quillen}]_{proj}
@@ -7629,7 +7617,7 @@ $$
     y(c) \cdot S^{n-1} &\longrightarrow& F
     \\
     {}^{\mathllap{(id\cdot \iota_n)}}\downarrow && \downarrow^{\mathrlap{\eta}}
-    \\ 
+    \\
     y(c) \cdot D^n &\longrightarrow& G
   }
   \right)
@@ -7655,14 +7643,14 @@ With these three lemmas in hand, the remaining formal part of the proof goes thr
 +-- {: .num_example #PreExcisiveFunctors}
 ###### Example
 
-Given examples \ref{TopkAsATopologicallyEnrichedCategory} and \ref{TopologicallyEnrichedFunctorsToTopk}, the next evident example of a pointed [[topologically enriched category]] besides $Top^{\ast/}_{cg}$ itself is the functor category 
+Given examples \ref{TopkAsATopologicallyEnrichedCategory} and \ref{TopologicallyEnrichedFunctorsToTopk}, the next evident example of a pointed [[topologically enriched category]] besides $Top^{\ast/}_{cg}$ itself is the functor category
 
 $$
   [Top_{cg}^{\ast/}, Top_{cg}^{\ast/}]
   \,.
-$$ 
+$$
 
-The only technical problem with this is that $Top^{\ast/}_{cg}$ is not a [[small category]] (it has a [[proper class]] of objects), which means that the existence of all limits and colimits via prop. \ref{TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits} may (and does) fail. 
+The only technical problem with this is that $Top^{\ast/}_{cg}$ is not a [[small category]] (it has a [[proper class]] of objects), which means that the existence of all limits and colimits via prop. \ref{TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits} may (and does) fail.
 
 But so we just restrict to a small topologically enriched subcategory. A good choice is the [[full subcategory]]
 
@@ -7693,7 +7681,7 @@ $$
   \mathcal{C} \overset{}{\longrightarrow} [I,\mathcal{C}]
 $$
 
-which sends each object of $\mathcal{C}$ to the diagram that is constant on this object. Inspection of the definition of the [[universal properties]] of [[limits]] and [[colimits]] on one hand, and of [[left adjoint]] and [[right adjoint]] functors on the other hand, shows that 
+which sends each object of $\mathcal{C}$ to the diagram that is constant on this object. Inspection of the definition of the [[universal properties]] of [[limits]] and [[colimits]] on one hand, and of [[left adjoint]] and [[right adjoint]] functors on the other hand, shows that
 
 1. precisely when $\mathcal{C}$ has all [[colimits]] of shape $I$, then the functor $const_I$ has a [[left adjoint]] functor, which is the operation of forming these colimits:
 
@@ -7733,7 +7721,7 @@ $$
 
 is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}) between the [[projective model structure on enriched functors|projective model structure on topological functors]] on $I$, from theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, and the [[classical model structure on topological spaces]] from theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}.
 
-Similarly, if $I$ is [[enriched category|enriched]] in [[pointed topological spaces]], then for the [[classical model structure on pointed topological spaces]] (prop. \ref{ModelStructureOnSliceCategory}, theorem 
+Similarly, if $I$ is [[enriched category|enriched]] in [[pointed topological spaces]], then for the [[classical model structure on pointed topological spaces]] (prop. \ref{ModelStructureOnSliceCategory}, theorem
 \ref{CofibrantGenerationOfPointedTopologicalSpaces}) the adjunction
 
 $$
@@ -7814,8 +7802,8 @@ Regard this as a [[topologically enriched category]] with the, necessarily, [[di
 Then a [[topologically enriched functor]]
 
 $$
-  X_\bullet 
-    \;\colon\; 
+  X_\bullet
+    \;\colon\;
   \mathbb{N}^{\leq}
     \longrightarrow
   Top_{cg}
@@ -7824,14 +7812,14 @@ $$
 is just a plain functor and is equivalently a sequence of [[continuous functions]] (morphisms in $Top_{cg}$) of the form (also called a _[[cotower]]_)
 
 $$
- X_0 
+ X_0
    \overset{f_0}{\longrightarrow}
  X_1
    \overset{f_1}{\longrightarrow}
  X_2
    \overset{f_2}{\longrightarrow}
  X_3
-   \longrightarrow 
+   \longrightarrow
  \cdots
  \,.
 $$
@@ -7899,13 +7887,13 @@ $$
       \left(
         \underset{\longleftarrow}{\lim}_i
         Hom\left(S^q, D_n(i)\right)
-      \right) 
+      \right)
    \overset{\sim}{\longrightarrow}
     \underset{\longleftarrow}{\lim}_i
       \left(
         \underset{\longrightarrow}{\lim}_{n}
         Hom\left(S^q D_n(i)\right)
-      \right) 
+      \right)
    \simeq
     Hom\left(
      S^q,
@@ -7913,18 +7901,18 @@ $$
       \left(
         \underset{\longrightarrow}{\lim}_{n}
           D_n(i)
-      \right) 
+      \right)
    \right)
 $$
 
 and similarly for the [[left homotopies]] $Hom(S^q \times I,-)$ (and similarly for the pointed case). This implies the claimed isomorphism on homotopy groups.
- 
+
 =--
 
 
 
 
-### **P.4)** Homotopy fiber sequences
+## Homotopy fiber sequences
  {#HomotopyFiberSequences}
 
 A key aspect of [[homotopy theory]] is that the [[universal constructions]] of [[category theory]], such as [[limits]] and [[colimits]], receive a refinement whereby their [[universal properties]] hold not just up to [[isomorphism]] but up to ([[weak homotopy equivalence|weak]]) [[homotopy equivalence]]. One speaks of _[[homotopy limits]]_ and _[[homotopy colimits]]_.
@@ -7933,7 +7921,9 @@ We consider this here just for the special case of [[homotopy fibers]] and [[hom
 
 
 
-#### Mapping cones
+
+
+### Mapping cones
  {#MappingCones}
 
 
@@ -7957,8 +7947,8 @@ Instead of going through the full theory of what this means, we observe that thi
 +-- {: .num_defn #MappingConeAndMappingCocone}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory} with $\mathcal{C}^{\ast/}$ its model structure on pointed objects, prop. \ref{ModelStructureOnSliceCategory}.  
-For $f \colon X \longrightarrow Y$ a morphism between cofibrant objects (hence a morphism in $(\mathcal{C}^{\ast/})_c\hookrightarrow \mathcal{C}^{\ast/}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its **reduced [[mapping cone]]** is the object 
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory} with $\mathcal{C}^{\ast/}$ its model structure on pointed objects, prop. \ref{ModelStructureOnSliceCategory}.
+For $f \colon X \longrightarrow Y$ a morphism between cofibrant objects (hence a morphism in $(\mathcal{C}^{\ast/})_c\hookrightarrow \mathcal{C}^{\ast/}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its **reduced [[mapping cone]]** is the object
 
 $$
   Cone(f)
@@ -7978,14 +7968,14 @@ $$
     \\
     \downarrow && & \searrow^{\mathrlap{\eta}} & \downarrow
     \\
-    {*} &\longrightarrow& &\longrightarrow& Cone(f) 
+    {*} &\longrightarrow& &\longrightarrow& Cone(f)
   }
   \,,
 $$
 
 where $Cyl(X)$ is a [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
-Dually, for $f \colon X \longrightarrow Y$ a morphism between fibrant objects (hence a morphism in $(\mathcal{C}^{\ast})_f\hookrightarrow \mathcal{C}^{\ast/}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its **[[mapping cocone]]** is the object 
+Dually, for $f \colon X \longrightarrow Y$ a morphism between fibrant objects (hence a morphism in $(\mathcal{C}^{\ast})_f\hookrightarrow \mathcal{C}^{\ast/}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its **[[mapping cocone]]** is the object
 
 $$
   Path_\ast(f) \coloneqq \ast \underset{Y}{\times} Path(Y)\underset{Y}{\times} Y
@@ -8029,7 +8019,7 @@ $$
   \,.
 $$
 
-Dually, the colimiting diagram for the mapping cone turns to look just like the square for the [[cofiber]], except that it is filled with a [[left homotopy]] 
+Dually, the colimiting diagram for the mapping cone turns to look just like the square for the [[cofiber]], except that it is filled with a [[left homotopy]]
 
 $$
   \array{
@@ -8059,7 +8049,7 @@ $$
     \\
     \downarrow &(po)& \downarrow & (po) & \downarrow
     \\
-    {*} &\longrightarrow& Cone(X) &\longrightarrow& Cone(f) 
+    {*} &\longrightarrow& Cone(X) &\longrightarrow& Cone(f)
   }
   \,.
 $$
@@ -8101,7 +8091,7 @@ The two intermediate objects appearing here are called
 
 Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
 
-1. The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the  **[[reduced suspension|reduced]] [[suspension]]** of $X$, denoted 
+1. The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the  **[[reduced suspension|reduced]] [[suspension]]** of $X$, denoted
 
    $$
      \Sigma X = Cone(X\to\ast)\,.
@@ -8129,7 +8119,7 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
    $$
      X \vee X
       =
-     X \sqcup X 
+     X \sqcup X
       \overset{(i_0,i_1)}{\longrightarrow}
      Cyl(X)
        \overset{cofib(i_0,i_1)}{\longrightarrow}
@@ -8145,7 +8135,7 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      \,.
    $$
 
-   Via prop. \ref{ConeAndMappingCylinder} this is equivalently 
+   Via prop. \ref{ConeAndMappingCylinder} this is equivalently
 
    $$
      \array{
@@ -8162,10 +8152,10 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      \,.
    $$
 
-   This is also equivalently the [[fiber]], example \ref{FiberAndCofiberInPointedObjects} of $(p_0,p_1)$: 
+   This is also equivalently the [[fiber]], example \ref{FiberAndCofiberInPointedObjects} of $(p_0,p_1)$:
 
    $$
-     \Omega X 
+     \Omega X
      \overset{fib(p_0,p_1)}{\longrightarrow}
      Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
      \,.
@@ -8176,12 +8166,12 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
 +-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
 ###### Proposition
 
-In [[pointed topological spaces]] $Top^{\ast/}$, 
+In [[pointed topological spaces]] $Top^{\ast/}$,
 
 * the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]], for later purposes we choose to smash **on the left** and write
 
   $$
-    cofib(X \vee X \to X \wedge (I_+)) \simeq S^1 \wedge X 
+    cofib(X \vee X \to X \wedge (I_+)) \simeq S^1 \wedge X
     \,,
   $$
 
@@ -8191,7 +8181,7 @@ Dually:
 
   $$
     fib(Maps(I_+,X)_\ast \to X \times X)
-      \simeq 
+      \simeq
     Maps(S^1, X)_\ast
     \,.
   $$
@@ -8273,7 +8263,7 @@ $$
     \\
     \downarrow && && \downarrow
     \\
-    \ast &\longrightarrow& &\longrightarrow& Cone(f_+)  
+    \ast &\longrightarrow& &\longrightarrow& Cone(f_+)
   }
   \,.
 $$
@@ -8294,7 +8284,7 @@ $$
     \\
     \downarrow && && \downarrow
     \\
-    \ast &\longrightarrow& &\longrightarrow& Cone'(f)  
+    \ast &\longrightarrow& &\longrightarrow& Cone'(f)
   }
   \,.
 $$
@@ -8313,38 +8303,38 @@ Example \ref{MappingConesInTopologicalSpaces} makes it clear that every [[cycle]
 ###### Lemma
 **([[factorization lemma]])**
 
-Let $\mathcal{C}_c$ be a [[category of cofibrant objects]],  def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then for every morphism $f \colon X \longrightarrow Y$ the [[mapping cylinder]]-construction in def. \ref{ConeAndMappingCylinder} provides a cofibration resolution of $f$, in that 
+Let $\mathcal{C}_c$ be a [[category of cofibrant objects]],  def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then for every morphism $f \colon X \longrightarrow Y$ the [[mapping cylinder]]-construction in def. \ref{ConeAndMappingCylinder} provides a cofibration resolution of $f$, in that
 
 1. the composite morphism $X \overset{i_0}{\longrightarrow} Cyl(X) \overset{(i_1)_\ast f}{\longrightarrow} Cyl(f)$ is a cofibration;
 
 1. $f$ factors through this morphism by a weak equivalence left inverse to an acyclic cofibration
 
    $$
-     f 
+     f
        \;\colon\;
-     X 
-        \underoverset{\in Cof}{(i_1)_\ast f\circ i_0}{\longrightarrow} 
+     X
+        \underoverset{\in Cof}{(i_1)_\ast f\circ i_0}{\longrightarrow}
      Cyl(f)
-       \underset{\in W}{\longrightarrow} 
+       \underset{\in W}{\longrightarrow}
      Y
      \,,
    $$
 
 Dually:
 
-Let $\mathcal{C}_f$ be a [[category of fibrant objects]],  def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then for every morphism $f \colon X \longrightarrow Y$ the [[mapping cocylinder]]-construction in def. \ref{ConeAndMappingCylinder} provides a fibration resolution of $f$, in that 
+Let $\mathcal{C}_f$ be a [[category of fibrant objects]],  def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then for every morphism $f \colon X \longrightarrow Y$ the [[mapping cocylinder]]-construction in def. \ref{ConeAndMappingCylinder} provides a fibration resolution of $f$, in that
 
 1. the composite morphism $Path(f) \overset{p_1^\ast f}{\longrightarrow} Path(Y) \overset{p_0}{\longrightarrow} Y$ is a fibration;
 
 1. $f$ factors through this morphism by a weak equivalence right inverse to an acyclic fibration:
 
    $$
-     f 
+     f
        \;\colon\;
-     X 
-       \underset{\in W}{\longrightarrow} 
-     Path(f) 
-        \underoverset{\in Fib}{p_0 \circ p_1^\ast f}{\longrightarrow} 
+     X
+       \underset{\in W}{\longrightarrow}
+     Path(f)
+        \underoverset{\in Fib}{p_0 \circ p_1^\ast f}{\longrightarrow}
      Y
      \,,
    $$
@@ -8379,9 +8369,9 @@ To see that the vertical composite is indeed a fibration, notice that, by the [[
 $$
   \array{
     Path(f)
-     &\underoverset{\in Fib}{(f,id)^\ast(p_1,p_0)}{\longrightarrow}& 
-     X \times Y 
-     &\stackrel{pr_1}{\to}& 
+     &\underoverset{\in Fib}{(f,id)^\ast(p_1,p_0)}{\longrightarrow}&
+     X \times Y
+     &\stackrel{pr_1}{\to}&
      X
      \\
      \downarrow && \downarrow^{\mathrlap{(f, Id)}} && \downarrow^\mathrlap{f}
@@ -8403,8 +8393,8 @@ Similarly, since $X$ is fibrant, also the [[projection]] map $X \times Y \to Y$ 
 Since the vertical composite is thereby exhibited as the composite of two fibrations
 
 $$
-   Path(f) 
-     \overset{(f,id)^\ast(p_1,p_0)}{\longrightarrow} 
+   Path(f)
+     \overset{(f,id)^\ast(p_1,p_0)}{\longrightarrow}
    X \times Y
      \stackrel{pr_2 \circ (f ,Id) = pr_2}{\longrightarrow}
   Y
@@ -8413,26 +8403,26 @@ $$
 
 it is itself a fibration.
 
-Then to see that there is a weak equivalence as claimed: 
+Then to see that there is a weak equivalence as claimed:
 
 The [[universal property]] of the [[pullback]] $Path(f)$ induces a right inverse of $Path(f) \to X$ fitting into this diagram
 
 $$
   \array{
      id_X \colon & X &\underoverset{\in W}{\exists}{\longrightarrow}
-       & Path(f) 
+       & Path(f)
        &
-         \overset{\in W \cap Fib}{\longrightarrow}& 
+         \overset{\in W \cap Fib}{\longrightarrow}&
        X
      \\
      & {}^{\mathrlap{f}}\downarrow && \downarrow && \downarrow^{\mathrlap{f}}
      \\
-     id_Y\colon& Y 
-       &\underoverset{\in W}{i}{\longrightarrow}& 
-     Path(Y) 
+     id_Y\colon& Y
+       &\underoverset{\in W}{i}{\longrightarrow}&
+     Path(Y)
        &\stackrel{p_1}{\to}& Y
      \\
-     & & {}_{\mathllap{Id}}\searrow& \downarrow^{\mathrlap{p_0}} 
+     & & {}_{\mathllap{Id}}\searrow& \downarrow^{\mathrlap{p_0}}
      \\
      & && Y
   }
@@ -8445,7 +8435,11 @@ This establishes the claim.
 
 =--
 
-#### Categories of fibrant objects
+
+
+
+
+### Categories of fibrant objects
 
 [Below](#HomotopyFibers) we discuss the homotopy-theoretic properties of the [[mapping cone]]- and [[mapping cocone]]-constructions from [above](#MappingCones). Before we do so, we here establish a collection of general facts that hold in [[categories of fibrant objects]] and dually in [[categories of cofibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}.
 
@@ -8493,7 +8487,7 @@ $$
   \,.
 $$
 
-Then consider its factorization  through the [[pullback]] of the right morphism along the bottom morphism, 
+Then consider its factorization  through the [[pullback]] of the right morphism along the bottom morphism,
 
 $$
   \array{
@@ -8527,7 +8521,7 @@ $$
 +-- {: .num_lemma #BaseChangePreservesFibrationsAndWeakEquivalences}
 ###### Lemma
 
-In a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, let 
+In a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, let
 
 $$
  \array{
@@ -8540,8 +8534,8 @@ $$
 $$
 
 be a morphism over  some object $B$ in $\mathcal{C}_f$
-and let $u \colon B' \to B$ be any morphism in 
-$\mathcal{C}_f$. Let 
+and let $u \colon B' \to B$ be any morphism in
+$\mathcal{C}_f$. Let
 
 $$
  \array{
@@ -8570,13 +8564,13 @@ Then
 +-- {: .num_proof}
 ###### Proof
 
-For $f \in Fib$ the statement follows from the [[pasting law]] which says that if in 
+For $f \in Fib$ the statement follows from the [[pasting law]] which says that if in
 
 $$
   \array{
     B' \times_B A_1 &\longrightarrow& A_1
     \\
-    \;\;\downarrow^{\mathrlap{u^* f \in Fib}} 
+    \;\;\downarrow^{\mathrlap{u^* f \in Fib}}
     && \;\;\downarrow^{\mathrlap{f \in Fib}}
     \\
     B' \times_B A_2 &\longrightarrow& A_2
@@ -8591,7 +8585,7 @@ the bottom and the total square are pullback squares, then so is the top square.
 
 Now to see the case that $f\in W$:
 
-Consider the [[full subcategory]] $(\mathcal{C}_{/B})_f$ of the [[slice category]] $\mathcal{C}_{/B}$ (def. \ref{SliceCategory}) on its fibrant objects, i.e. the full subcategory of the slice category on the fibrations 
+Consider the [[full subcategory]] $(\mathcal{C}_{/B})_f$ of the [[slice category]] $\mathcal{C}_{/B}$ (def. \ref{SliceCategory}) on its fibrant objects, i.e. the full subcategory of the slice category on the fibrations
 
 $$
   \array{
@@ -8603,14 +8597,14 @@ $$
   }
 $$
 
-into $B$. By factorizing for every such fibration the [[diagonal morphisms]] into the [[fiber product]] $X \underset{B}{\times} X$ through a weak equivalence followed by a fibration, we obtain path space objects $Path_B(X)$ relative to $B$: 
+into $B$. By factorizing for every such fibration the [[diagonal morphisms]] into the [[fiber product]] $X \underset{B}{\times} X$ through a weak equivalence followed by a fibration, we obtain path space objects $Path_B(X)$ relative to $B$:
 
 $$
   \array{
    (\Delta_X)/B
    \;\colon
     &
-    X 
+    X
       &\overset{\in W}{\longrightarrow}&
     Path_B(X)
       &\overset{\in Fib}{\longrightarrow}&
@@ -8623,11 +8617,11 @@ $$
   \,.
 $$
 
-With these, the [[factorization lemma]] (lemma \ref{FactorizationLemma}) applies in $(\mathcal{C}_{/B})_f$. 
+With these, the [[factorization lemma]] (lemma \ref{FactorizationLemma}) applies in $(\mathcal{C}_{/B})_f$.
 
 (Notice that for this we do need the restriction of $\mathcal{C}_{/B}$ to the fibrations, because this ensures that the projections $p_i \colon X_1 \times_B X_2 \to X_i$ are still fibrations, which is used in the proof of the factorization lemma ([here](#ProofOfFactorizationLemma)).)
 
-So now given any 
+So now given any
 
 $$
   \array{
@@ -8636,24 +8630,24 @@ $$
     & {}_{\mathllap{\in Fib}}\searrow && \swarrow_{\mathrlap{\in Fib}}
     \\
     && B
-  }  
+  }
 $$
 
-apply the [[factorization lemma]] in $(\mathcal{C}_{/B})_f$ to factor it as 
+apply the [[factorization lemma]] in $(\mathcal{C}_{/B})_f$ to factor it as
 
 $$
   \array{
-    X 
-      &\overset{i \in W}{\longrightarrow}& 
-    Path_B(f) 
+    X
+      &\overset{i \in W}{\longrightarrow}&
+    Path_B(f)
       &\overset{\in W \cap Fib}{\longrightarrow}& Y
     \\
-    & {}_{\mathllap{\in Fib}}\searrow 
-     &\downarrow& 
+    & {}_{\mathllap{\in Fib}}\searrow
+     &\downarrow&
     \swarrow_{\mathrlap{\in Fib}}
     \\
     && B
-  }  
+  }
   \,.
 $$
 
@@ -8664,22 +8658,22 @@ $$
     id_X
     \;\colon
     &
-    X 
-      &\overset{i \in W}{\longrightarrow}& 
-    Path_B(f) 
+    X
+      &\overset{i \in W}{\longrightarrow}&
+    Path_B(f)
       &\overset{\in W \cap Fib}{\longrightarrow}& X
     \\
-    & & 
-    {}_{\mathllap{\in Fib}}\searrow 
-     &\downarrow& 
+    & &
+    {}_{\mathllap{\in Fib}}\searrow
+     &\downarrow&
     \swarrow_{\mathrlap{\in Fib}}
     \\
     & && B
-  }  
+  }
   \,.
 $$
 
-(Notice that if we had applied the factorization lemma of $\Delta_X$ in $\mathcal{C}_f$ instead of $(\Delta_X)/B$ in $(\mathcal{C}_{/B})$ then the corresponding triangle on the right here would not commute.) 
+(Notice that if we had applied the factorization lemma of $\Delta_X$ in $\mathcal{C}_f$ instead of $(\Delta_X)/B$ in $(\mathcal{C}_{/B})$ then the corresponding triangle on the right here would not commute.)
 
 Now we may reason as before: the base change of the top morphism here is exhibited by the following pasting composite of pullbacks:
 
@@ -8693,16 +8687,16 @@ $$
       &(pb)&
     \downarrow
     \\
-    B' \underset{B}{\times} Path_B(f) 
-      &\longrightarrow& 
+    B' \underset{B}{\times} Path_B(f)
+      &\longrightarrow&
     Path_B(f)
     \\
     \downarrow
       &(pb)&
     \downarrow^{\mathrlap{\in W \cap Fib}}
     \\
-    B' \underset{B}{\times}X  
-      &\longrightarrow& 
+    B' \underset{B}{\times}X
+      &\longrightarrow&
     X
     \\
     \downarrow
@@ -8735,7 +8729,7 @@ In a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibr
 ###### Proof
 
 
-Let 
+Let
 $u \colon B' \to B$ be a weak equivalence and
 $ p \colon E \to B$ be a fibration. We want to show that the
 left vertical morphism in the [[pullback]]
@@ -8744,25 +8738,25 @@ $$
   \array{
     E \times_B B' &\longrightarrow& B'
     \\
-    \downarrow^{\mathrlap{\Rightarrow \in W} } 
+    \downarrow^{\mathrlap{\Rightarrow \in W} }
     && \;\downarrow^{\mathrlap{\in W}}
     \\
     E &\stackrel{\in Fib}{\longrightarrow}& B
   }
 $$
 
-is a weak equivalence. 
+is a weak equivalence.
 
 First of all, using the [[factorization lemma]] \ref{FactorizationLemma}
 we may factor $B' \to B$ as
 
 $$
-  B' 
-    \stackrel{\in W}{\longrightarrow} 
-  Path(u) 
-   \stackrel{\in W \cap F}{\longrightarrow} 
+  B'
+    \stackrel{\in W}{\longrightarrow}
+  Path(u)
+   \stackrel{\in W \cap F}{\longrightarrow}
   B
-$$ 
+$$
 
 with the first morphism a weak equivalence that is a right inverse to an acyclic fibration and the right one an acyclic fibration.
 
@@ -8777,7 +8771,7 @@ $$
     \\
     Q &\stackrel{\in Fib}{\to}& Path(u)
     \\
-    \;\;\downarrow^{\mathrlap{\in W \cap Fib}} 
+    \;\;\downarrow^{\mathrlap{\in W \cap Fib}}
     && \;\;\downarrow^{\mathrlap{\in W \cap Fib}}
     \\
     E &\stackrel{\in Fib}{\longrightarrow}& B
@@ -8790,7 +8784,7 @@ acyclic fibrations using the stability of these
 under arbitrary pullback.
 
 This means that the proof reduces to proving that weak equivalences
-$u : B' \stackrel{\in W}{\to} B$ 
+$u : B' \stackrel{\in W}{\to} B$
 that are right inverse to some acyclic fibration
 $v : B \stackrel{\in W \cap F}{\to} B'$
 map to a weak equivalence under pullback along a fibration.
@@ -8801,23 +8795,23 @@ Given such $u$ with right inverse $v$, consider the pullback diagram
 $$
   \array{
     & E
-    \\ 
-    & 
+    \\
+    &
     {}^{\mathllap{{(p,id)}\atop \in W}}\downarrow
-    & 
+    &
       \searrow^{\mathrlap{id}}
     \\
-    E_1 \coloneqq 
-      & 
-    B \times_{B'} E 
+    E_1 \coloneqq
       &
-    \stackrel{\in W \cap Fib }{\longrightarrow} 
-      & 
+    B \times_{B'} E
+      &
+    \stackrel{\in W \cap Fib }{\longrightarrow}
+      &
     E
     \\
     & \downarrow^{\mathrlap{\in Fib}} && \downarrow^{\mathrlap{p \in Fib }}
     \\
-    & &(pb)& B 
+    & &(pb)& B
     \\
     & \downarrow && \downarrow^{\mathrlap{v \in W \cap Fib}}
     \\
@@ -8833,37 +8827,37 @@ The previous lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} says t
 
 $$
   \array{
-    && 
+    &&
     u^* E = B' \times_B E
       &\longrightarrow &
     E
     \\
-    && 
+    &&
     {}^{\mathllap{ {u^*(p \times Id)} \atop {\in W} }}\downarrow
-      && 
-    {}^{\mathllap{ {p \times Id} \atop {\in W}  }}\downarrow 
-     &  
+      &&
+    {}^{\mathllap{ {p \times Id} \atop {\in W}  }}\downarrow
+     &
     \searrow^{\mathrlap{id}}
     \\
     &&
     u^* E_1
       &\longrightarrow&
-    E_1     
-      &\stackrel{\in W \cap Fib}{\longrightarrow}& 
+    E_1
+      &\stackrel{\in W \cap Fib}{\longrightarrow}&
     E
     \\
-    &&\downarrow^{\mathrlap{\in Fib}}&&\downarrow^{\mathrlap{\in Fib}} 
+    &&\downarrow^{\mathrlap{\in Fib}}&&\downarrow^{\mathrlap{\in Fib}}
     && \downarrow^{\mathrlap{p \in Fib}}
     \\
-    &&&&&& B 
+    &&&&&& B
     \\
     &&\downarrow&&\downarrow && \downarrow^{\mathrlap{v \in W \cap Fib}}
     \\
     &&
     B'
       &\stackrel{u}{\longrightarrow}&
-    B 
-      &\stackrel{v \in W \cap Fib}{\longrightarrow}& 
+    B
+      &\stackrel{v \in W \cap Fib}{\longrightarrow}&
     B'
   }
 $$
@@ -8885,8 +8879,8 @@ $$
   \array{
     X'_1 &\underoverset{t}{\in W}{\longrightarrow}& X_1 &\stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}& X_2
     \\
-    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}} 
-      && 
+    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}}
+      &&
     \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in Fib}}
     \\
     && B &\overset{u}{\longrightarrow}& C
@@ -8904,7 +8898,7 @@ $$
 
 First consider the pullback of $p_2$ along $u$: this forms the same kind of diagram but with the bottom morphism an identity. Hence it is sufficient to consider this special case.
 
-Consider the [[full subcategory]] $(\mathcal{C}^{\ast/}_{/B})_f$ of the [[slice category]] $\mathcal{C}^{\ast/}_{/B}$ (def. \ref{SliceCategory}) on its fibrant objects, i.e. the full subcategory of the slice category on the fibrations 
+Consider the [[full subcategory]] $(\mathcal{C}^{\ast/}_{/B})_f$ of the [[slice category]] $\mathcal{C}^{\ast/}_{/B}$ (def. \ref{SliceCategory}) on its fibrant objects, i.e. the full subcategory of the slice category on the fibrations
 
 $$
   \array{
@@ -8916,14 +8910,14 @@ $$
   }
 $$
 
-into $B$. By factorizing for every such fibration the [[diagonal morphisms]] into the [[fiber product]] $X \underset{B}{\times} X$ through a weak equivalence followed by a fibration, we obtain path space objects $Path_B(X)$ relative to $B$: 
+into $B$. By factorizing for every such fibration the [[diagonal morphisms]] into the [[fiber product]] $X \underset{B}{\times} X$ through a weak equivalence followed by a fibration, we obtain path space objects $Path_B(X)$ relative to $B$:
 
 $$
   \array{
    (\Delta_X)/B
    \;\colon
     &
-    X 
+    X
       &\overset{\in W}{\longrightarrow}&
     Path_B(X)
       &\overset{\in Fib}{\longrightarrow}&
@@ -8936,7 +8930,7 @@ $$
   \,.
 $$
 
-With these, the [[factorization lemma]] (lemma \ref{FactorizationLemma}) applies in $(\mathcal{C}^{\ast/}_{/B})_f$. 
+With these, the [[factorization lemma]] (lemma \ref{FactorizationLemma}) applies in $(\mathcal{C}^{\ast/}_{/B})_f$.
 
 Let then $X\overset{s}{\to}Path_B(X_2)\overset{(p_0,p_1)}{\to} X_2 \times_B X_2$ be a [[path space object]] for $X_2$ in the slice over $B$ and consider the following commuting square
 
@@ -8991,7 +8985,11 @@ because, by lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences}, the to
 =--
 
 
-#### Homotopy fibers
+
+
+
+
+### Homotopy fibers
  {#HomotopyFibers}
 
 We now discuss the homotopy-theoretic properties of the [[mapping cone]]- and [[mapping cocone]]-constructions from [above](#MappingCones).
@@ -9016,7 +9014,7 @@ $$
 
 =--
 
-The following prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. 
+The following prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution.
 
 
 +-- {: .num_prop #FiberOfFibrationIsCompatibleWithWeakEquivalences}
@@ -9028,7 +9026,7 @@ $$
   \array{
     fib(p_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{p_1}{\longrightarrow}& Y_1
     \\
-    \downarrow^{\mathrlap{h}} && \downarrow^{\mathrlap{g}} 
+    \downarrow^{\mathrlap{h}} && \downarrow^{\mathrlap{g}}
     && \downarrow^{\mathrlap{f}}
     \\
     fib(p_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{p_2}{\longrightarrow}& Y_2
@@ -9047,30 +9045,30 @@ Factor the diagram in question through the pullback of $p_2$ along $f$
 
 $$
   \array{
-    fib(p_1) 
-      &\longrightarrow& 
-    X_1 
+    fib(p_1)
+      &\longrightarrow&
+    X_1
     \\
-    \downarrow^{\mathrlap{h}} 
-      && 
-    {}^{\mathllap{\in W}}\downarrow 
+    \downarrow^{\mathrlap{h}}
+      &&
+    {}^{\mathllap{\in W}}\downarrow
       &
       \searrow^{\mathrlap{p_1}}
-      & 
+      &
     \\
-    fib(f^\ast p_2) 
-      &\longrightarrow& 
-    f^\ast X_2 
-      &\underoverset{\in Fib}{f^\ast p_2}{\longrightarrow}& 
+    fib(f^\ast p_2)
+      &\longrightarrow&
+    f^\ast X_2
+      &\underoverset{\in Fib}{f^\ast p_2}{\longrightarrow}&
     Y_1
     \\
-    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}
     \\
     fib(p_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{p_2}{\longrightarrow}& Y_2
   }
 $$
 
-and observe that 
+and observe that
 
 1. $fib(f^\ast p_2) = pt^\ast f^\ast p_2 = pt^\ast p_2 = fib(p_2)$;
 
@@ -9124,9 +9122,9 @@ Hence given a morphism $f \colon Y \longrightarrow X$ and a factorization
 $$
   f
   \;\colon\;
-  X 
+  X
     \underset{\in W}{\longrightarrow}
-  \hat X 
+  \hat X
    \underoverset{f_1}{\in Fib}{\longrightarrow}
   Y
 $$
@@ -9137,14 +9135,14 @@ $$
   \array{
     Path(f) &\overset{\in W \cap Fib}{\longrightarrow}& X
     \\
-    {}^{\mathllap{\in W}}\downarrow 
-      &(pb)& 
+    {}^{\mathllap{\in W}}\downarrow
+      &(pb)&
     \downarrow^{\mathrlap{\in W}}
     \\
     Path(f_1) &\overset{\in W \cap Fib}{\longrightarrow}& \hat X
     \\
-    {}^{\mathllap{\in Fib}}\downarrow 
-      &(pb)& 
+    {}^{\mathllap{\in Fib}}\downarrow
+      &(pb)&
     \downarrow^{\mathrlap{ {f_1} \atop {\in Fib}}}
     \\
     Path(Y) &\underoverset{\in W \cap Fib}{p_1}{\longrightarrow}& Y
@@ -9173,7 +9171,7 @@ as in the proof of lemma \ref{FactorizationLemma}. Now by repeatedly using prop.
 
    gives a weak equivalence from the fiber of $Path(f_1) \to Path(Y)$ to the fiber of $Path(f_1)\to Y$.
 
-1. Similarly the total vertical composite gives a weak equivalence via 
+1. Similarly the total vertical composite gives a weak equivalence via
 
    $$
      \array{
@@ -9209,7 +9207,7 @@ between the fiber of $Path(f) \to Y$ and the fiber of $f_1$. This gives an isomo
 ###### Example
 **(fibers of Serre fibrations)**
 
-In showing that [[Serre fibrations]] are abstract fibrations in the sense of [[model category]] theory, theorem \ref{TopQuillenModelStructure} implies that the [[fiber]] $F$ (example \ref{FiberAndCofiberInPointedObjects}) of a [[Serre fibration]], def. \ref{SerreFibration} 
+In showing that [[Serre fibrations]] are abstract fibrations in the sense of [[model category]] theory, theorem \ref{TopQuillenModelStructure} implies that the [[fiber]] $F$ (example \ref{FiberAndCofiberInPointedObjects}) of a [[Serre fibration]], def. \ref{SerreFibration}
 
 $$
   \array{
@@ -9225,7 +9223,7 @@ over any point is actually a [[homotopy fiber]] in the sense of def. \ref{Homoto
 
 $$
   \array{
-    X &\overset{\in W_{cl}}{\longrightarrow}& X'    
+    X &\overset{\in W_{cl}}{\longrightarrow}& X'
     \\
     \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{p'}}
     \\
@@ -9233,16 +9231,16 @@ $$
   }
 $$
 
-then $F \overset{\in W_{cl}}{\longrightarrow} F'$. 
+then $F \overset{\in W_{cl}}{\longrightarrow} F'$.
 
-In particular this gives that the [[weak homotopy type]] of the fiber of a Serre fibration $p \colon X \to B$ does not change as the basepoint is moved in the same connected component. For let $\gamma \colon I \longrightarrow B$ be a path between two points 
+In particular this gives that the [[weak homotopy type]] of the fiber of a Serre fibration $p \colon X \to B$ does not change as the basepoint is moved in the same connected component. For let $\gamma \colon I \longrightarrow B$ be a path between two points
 
 $$
-  b_{0,1} 
-    \;\colon\; 
-  \ast 
-    \underoverset{\in W_{cl}}{i_{0,1}}{\longrightarrow} 
-  I 
+  b_{0,1}
+    \;\colon\;
+  \ast
+    \underoverset{\in W_{cl}}{i_{0,1}}{\longrightarrow}
+  I
     \overset{\gamma}{\longrightarrow}
   B
   \,.
@@ -9254,7 +9252,7 @@ $$
   \array{
     F_{b_0} = & b_0^\ast p
       &\overset{\in W_{cl}}{\longrightarrow}&
-    \gamma^{\ast}p 
+    \gamma^{\ast}p
       &\overset{\in W_{cl}}{\longleftarrow}&
     b_1^\ast p
     &
@@ -9262,15 +9260,15 @@ $$
     \\
     & \downarrow &(pb)& \downarrow{\mathrlap{{\gamma^\ast f} \atop {\in \atop {Fib}}}} &\;\;(pb)& \downarrow
     \\
-    & \ast 
-      &\underoverset{i_0}{\in W_{cl}}{\longrightarrow}& 
+    & \ast
+      &\underoverset{i_0}{\in W_{cl}}{\longrightarrow}&
     I
       &\underoverset{i_1}{\in W_{cl}}{\longleftarrow}&
     \ast
   }
 $$
 
-and hence an isomorphism $F_{b_0} \simeq F_{b_1}$ in the [[classical homotopy category]] (def. \ref{ClassicalHomotopyCategory}).  
+and hence an isomorphism $F_{b_0} \simeq F_{b_1}$ in the [[classical homotopy category]] (def. \ref{ClassicalHomotopyCategory}).
 
 The same kind of argument applied to maps from the square $I^2$ gives that if $\gamma_1, \gamma_2\colon I \to B$ are two homotopic paths with coinciding endpoints, then the isomorphisms between fibers over endpoints which they induce are equal. (But in general the isomorphism between the fibers does depend on the choice of homotopy class of paths connecting the basepoints!)
 
@@ -9281,13 +9279,13 @@ The same kind of argument also shows that if $B$ has the structure of a [[cell c
 +-- {: .num_example #StandardTopologicalMappingConeIsHomotopyCofiber}
 ###### Example
 
-For every [[continuous function]] $f \colon X \longrightarrow Y$ between [[CW-complexes]], def. \ref{TopologicalCellComplex}, then the standard topological mapping cone is the attaching space (example \ref{PushoutInTop}) 
+For every [[continuous function]] $f \colon X \longrightarrow Y$ between [[CW-complexes]], def. \ref{TopologicalCellComplex}, then the standard topological mapping cone is the attaching space (example \ref{PushoutInTop})
 
 $$
   Y \cup_f Cone(X) \;\; \in Top
 $$
 
-of $Y$ with the standard cone $Cone(X)$ given by collapsing one end of the standard topological cyclinder $X \times I$ (def. \ref{TopologicalInterval}) as shown in example \ref{MappingConesInTopologicalSpaces}. 
+of $Y$ with the standard cone $Cone(X)$ given by collapsing one end of the standard topological cyclinder $X \times I$ (def. \ref{TopologicalInterval}) as shown in example \ref{MappingConesInTopologicalSpaces}.
 
 Equipped with the canonical continuous function
 
@@ -9317,7 +9315,7 @@ The [[homotopy fiber]] of the inclusion of [[classifying spaces]] $B O(n) \hookr
 +-- {: .num_example #FiberOfFibrationWeaklyEquivalentToFiberOfItsCocylinder}
 ###### Example
 
-Suppose a morphism $f \colon X \longrightarrow Y$ already happens to be a fibration between fibrant objects. The [[factorization lemma]] \ref{FactorizationLemma} replaces it by a fibration out of the [[mapping cocylinder]] $Path(f)$, but such that the comparison morphism is a weak equivalence: 
+Suppose a morphism $f \colon X \longrightarrow Y$ already happens to be a fibration between fibrant objects. The [[factorization lemma]] \ref{FactorizationLemma} replaces it by a fibration out of the [[mapping cocylinder]] $Path(f)$, but such that the comparison morphism is a weak equivalence:
 
 $$
   \array{
@@ -9346,7 +9344,7 @@ $$
   [A,hofib(f)]_\ast \overset{i_\ast}{\longrightarrow} [A,X]_\ast \overset{f_\ast}{\longrightarrow} [A,Y]_{\ast}
 $$
 
-is [[exact sequence|exact]] as a sequence of [[pointed sets]]. 
+is [[exact sequence|exact]] as a sequence of [[pointed sets]].
 
 (Where the sequence here is the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor $[A,-]_\ast \;\colon\; Ho(\mathcal{C}^{\ast/}) \longrightarrow Set^{\ast/}$ from example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.)
 
@@ -9358,7 +9356,7 @@ is [[exact sequence|exact]] as a sequence of [[pointed sets]].
 
 Let $A$, $X$ and $Y$ denote fibrant-cofibrant objects in $\mathcal{C}^{\ast/}$ representing the given objects of the same name in $Ho(\mathcal{C}^{\ast/})$. Moreover, let $f$ be a fibration in $\mathcal{C}^{\ast/}$ representing the given morphism of the same name in $Ho(\mathcal{C}^{\ast/})$.
 
-Then by def. \ref{HomotopyFiber} and prop. 
+Then by def. \ref{HomotopyFiber} and prop.
 \ref{HomotopyFiberIndependentOfChoiceOfFibrantReplacement} there is a representative $hofib(f) \in \mathcal{C}$ of the homotopy fiber which fits into a pullback diagram of the form
 
 $$
@@ -9369,7 +9367,7 @@ $$
     \\
     \ast &\longrightarrow& Y
   }
-$$ 
+$$
 
 With this the hom-sets in question are represented by genuine morphisms in $\mathcal{C}^{\ast/}$, modulo homotopy. From this it follows immediately that $im(i_\ast)$ includes into $ker(f_\ast)$. Hence it remains to show the converse: that every element in $ker(f_\ast)$ indeed comes from $im(i_\ast)$.
 
@@ -9423,7 +9421,7 @@ then this is the operation of concatenating two loops parameterized by $I = [0,1
 Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}_f$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes unique up to isomorphism in the [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) and extends to a [[functor]]:
 
 $$
-  \Omega 
+  \Omega
     \;\colon\;
   Ho(\mathcal{C}^{\ast/})
     \longrightarrow
@@ -9445,7 +9443,7 @@ $$
 Moreover, the pairing operation induced on the objects in the image of this functor via remark \ref{ConcatenatedLoopSpaceObject} (concatenation of loops) gives the objects in the image of $\Omega$ [[group object]] structure, and makes this functor lift as
 
 $$
-  \Omega 
+  \Omega
     \;\colon\;
   Ho(\mathcal{C}^{\ast/})
     \longrightarrow
@@ -9489,7 +9487,7 @@ By prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} (and using that 
 
 It is immediate to see that the operation of loop concatenation from remark \ref{ConcatenatedLoopSpaceObject} gives the objects $\Omega X \in Ho(\mathcal{C}^{\ast/})$ the structure of [[monoids]]. It is now sufficient to see that these are in fact groups:
 
-We claim that the inverse-assigning operation is given by the left map in the following pasting composite 
+We claim that the inverse-assigning operation is given by the left map in the following pasting composite
 
 $$
   \array{
@@ -9504,17 +9502,17 @@ $$
 
 (where $Path'(X)$, thus defined, is the path space object obtained from $Path(X)$ by "reversing the notion of source and target of a path").
 
-To see that this is indeed an inverse, it is sufficient to see that the two morphisms 
+To see that this is indeed an inverse, it is sufficient to see that the two morphisms
 
-$$ 
+$$
   \Omega X \stackrel{\longrightarrow}{\longrightarrow} (\Omega X)_2
 $$
 
-induced from 
+induced from
 
 $$
   \array{
-  Path(X) 
+  Path(X)
 \stackrel{\overset{\Delta}{\longrightarrow}}{\underset{(s\circ p_0,s \circ p_0)}{\longrightarrow}}
   Path(X) \times_X Path'(X)
  }
@@ -9524,15 +9522,15 @@ coincide in the homotopy category. This follows with lemma \ref{UniquenessOfFibe
 
 $$
   \array{
-    X 
-      &\overset{i}{\longrightarrow}& 
-    Path(X) 
-      &\stackrel{\overset{\Delta}{\longrightarrow}}{\underset{(s\circ p_0,s \circ p_0)}{\longrightarrow}}& 
+    X
+      &\overset{i}{\longrightarrow}&
+    Path(X)
+      &\stackrel{\overset{\Delta}{\longrightarrow}}{\underset{(s\circ p_0,s \circ p_0)}{\longrightarrow}}&
     Path(X)\times_X Path'(X)
     \\
     && {}^{\mathllap{(p_0,p_1)}}\downarrow && \downarrow^{\mathrlap{}}
     \\
-    && X\times X &\overset{\Delta \circ pr_1}{\longrightarrow}& X \times X 
+    && X\times X &\overset{\Delta \circ pr_1}{\longrightarrow}& X \times X
   }
   \,.
 $$
@@ -9540,10 +9538,14 @@ $$
 
 =--
 
-#### Homotopy pullbacks
+
+
+
+
+### Homotopy pullbacks
  {#HomotopyPullbacks}
 
-The concept of [[homotopy fibers]] of def. \ref{HomotopyFiber} is a special case of the more general concept of [[homotopy pullbacks]]. 
+The concept of [[homotopy fibers]] of def. \ref{HomotopyFiber} is a special case of the more general concept of [[homotopy pullbacks]].
 
 +-- {: .num_defn #RightProperModelCategory}
 ###### Definition
@@ -9555,7 +9557,7 @@ A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called a **[[ri
 +-- {: .num_example}
 ###### Example
 
-By lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}, a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) in which all objects are fibrant is a [[right proper model category]] (def. \ref{RightProperModelCategory}). 
+By lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}, a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) in which all objects are fibrant is a [[right proper model category]] (def. \ref{RightProperModelCategory}).
 
 =--
 
@@ -9652,7 +9654,7 @@ $$
   \,.
 $$
 
-Then let 
+Then let
 
 $$
   f \colon C \overset{\in W }{\longrightarrow} \hat C \overset{\in Fib}{\longrightarrow} D
@@ -9662,28 +9664,28 @@ be any factorization of $f$ and consider the [[pasting]] diagram (using the [[pa
 
 $$
   \array{
-    A 
-      &\overset{}{\longrightarrow}& 
+    A
+      &\overset{}{\longrightarrow}&
     \hat C \underset{D}{\times} B
       &\longrightarrow&
     B
     \\
-    {}^{\mathllap{\in W}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\in W}} 
-      &(pb)& 
+    {}^{\mathllap{\in W}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\in W}}
+      &(pb)&
     \downarrow^{\mathrlap{\in W}}
     \\
-    C\underset{D}{\times} \hat B 
+    C\underset{D}{\times} \hat B
       &\overset{\in W}{\longrightarrow}&
     \hat C \underset{D}{\times} \hat D
       &\overset{\in Fib}{\longrightarrow}&
     \hat B
     \\
-    \downarrow 
-      &(pb)& 
-    \downarrow^{\mathrlap{\in \atop Fib}} 
-      &(pb)& 
+    \downarrow
+      &(pb)&
+    \downarrow^{\mathrlap{\in \atop Fib}}
+      &(pb)&
     \downarrow^{\mathrlap{\in Fib}}
     \\
     C
@@ -9696,7 +9698,7 @@ $$
 $$
 
 where the inner morphisms are fibrations and weak equivalences, as shown, by the pullback stability of fibrations (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}) and then since pullback along fibrations preserves weak equivalences by assumption of [[right proper model category|right properness]] (def. \ref{RightProperModelCategory}).
-Hence it follows by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) that also the comparison morphism $A \to \hat C \underset{D}{\times} B$ is a weak equivalence.  
+Hence it follows by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) that also the comparison morphism $A \to \hat C \underset{D}{\times} B$ is a weak equivalence.
 
 In conclusion, if the homotopy pullback condition is satisfied for one factorization of $g$, then it is satisfied for all factorizations of $f$. Since the argument is symmetric in $f$ and $g$, this proves the claim.
 
@@ -9726,7 +9728,7 @@ $$
       &&
     \downarrow^{\mathrlap{\in W}}
     \\
-    D &\longrightarrow& E &\underset{\in Fib}{\longleftarrow}& F 
+    D &\longrightarrow& E &\underset{\in Fib}{\longleftarrow}& F
   }
 $$
 
@@ -9744,10 +9746,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
-(The reader should draw the 3-dimensional cube diagram which we describe in words now.) 
+(The reader should draw the 3-dimensional cube diagram which we describe in words now.)
 
-First consider the universal morphism $C \to E \underset{F}{\times} C$ and observe that it is a weak equivalence by [[right proper model category|right properness]] (def. \ref{RightProperModelCategory}) 
-and [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}). 
+First consider the universal morphism $C \to E \underset{F}{\times} C$ and observe that it is a weak equivalence by [[right proper model category|right properness]] (def. \ref{RightProperModelCategory})
+and [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}).
 
 Then consider the universal morphism $A \underset{B}{\times}C \to A \underset{B}{\times}(E \underset{F}{\times}C)$ and observe that this is also a weak equivalence, since $A \underset{B}{\times} C$ is the limiting cone of a homotopy pullback square by remark \ref{PullbackOfFibrationWithFibrantObjectsIsHomotopyPullback}, and since the morphism is the comparison morphism to the pullback of the factorization constructed in the first step.
 
@@ -9764,7 +9766,7 @@ Homotopy pullbacks satisfy the usual abstract properties of pullbacks:
 +-- {: .num_prop #HomotopyPullbackOfWeakEquivalences}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperModelCategory}). 
+Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperModelCategory}).
 If in a [[commuting square]] in $\mathcal{C}$ one edge is a weak equivalence, then the square is a [[homotopy pullback]] square precisely if the opposite edge is a weak equivalence, too.
 
 =--
@@ -9793,7 +9795,7 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{\in W}}
     \\
-    C \underset{D}{\times} \hat B 
+    C \underset{D}{\times} \hat B
       &\overset{\in W}{\longrightarrow}&
     \hat B
     \\
@@ -9816,7 +9818,7 @@ Here the morphism in the middle is a weak equivalence by [[right proper model ca
 Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperModelCategory}).
 
 1. ([[pasting law]]) If in a [[commuting diagram]]
-   
+
    $$
      \array{
        A &\longrightarrow& B &\longrightarrow& C
@@ -9827,13 +9829,13 @@ Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperMod
           &&
         \downarrow
         \\
-        D &\longrightarrow& E &\underset{}{\longrightarrow}& F 
+        D &\longrightarrow& E &\underset{}{\longrightarrow}& F
       }
    $$
 
    the square on the right is a homotoy pullback (def. \ref{HomotopyPullback}) then the left square is, too, precisely if the total rectangle is;
 
-1. in the presence of [[functorial factorization]] (def. \ref{FunctorialFactorization}) through weak equivalences followed by fibrations:  
+1. in the presence of [[functorial factorization]] (def. \ref{FunctorialFactorization}) through weak equivalences followed by fibrations:
 
    every [[retract]] of a homotopy pullback square (in the category $\mathcal{C}_f^{\Box}$ of commuting squares in $\mathcal{C}_f$) is itself a homotopy pullback square.
 
@@ -9850,7 +9852,10 @@ For the second statement: functorially choose a factorization of the two right v
 =--
 
 
-#### Long sequences
+
+
+
+### Long sequences
  {#LongSequences}
 
 The ordinary [[fiber]], example \ref{FiberAndCofiberInPointedObjects}, of a morphism has the property that taking it _twice_ is always trivial:
@@ -9877,7 +9882,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Assume without restriction that $f \;\colon\; X \longrightarrow Y$ is already a fibration between fibrant objects in $\mathcal{C}$ (otherwise replace and rename). Then its homotopy fiber is its ordinary fiber, sitting in a [[pullback]] square 
+Assume without restriction that $f \;\colon\; X \longrightarrow Y$ is already a fibration between fibrant objects in $\mathcal{C}$ (otherwise replace and rename). Then its homotopy fiber is its ordinary fiber, sitting in a [[pullback]] square
 
 $$
   \array{
@@ -9896,7 +9901,7 @@ $$
   \array{
     F &\overset{\in W}{\longrightarrow}& F \times_X Path(X)
     \\
-    &{}_{\mathllap{i}}\searrow& \downarrow^{\mathrlap{\tilde i}}_{\mathrlap{\in Fib}} 
+    &{}_{\mathllap{i}}\searrow& \downarrow^{\mathrlap{\tilde i}}_{\mathrlap{\in Fib}}
     \\
     && X
   }
@@ -9910,7 +9915,7 @@ $$
   \,.
 $$
 
-Notice that 
+Notice that
 
 $$
   F \times_X Path(X) \; \simeq \; \ast \times_Y Path(X)
@@ -9933,7 +9938,7 @@ $$
   \,.
 $$
 
-Hence 
+Hence
 
 $$
   hofib(hofib(f))
@@ -9973,16 +9978,16 @@ $$
   Path(X)
   \overset{\in Fib}{\longrightarrow}
   X \times_Y Path(Y) \times_Y X
-$$ 
+$$
 
-and regarded as a path space object of $X$ by further comoposing with 
+and regarded as a path space object of $X$ by further comoposing with
 
 $$
   (pr_1,pr_3)\colon X \times_Y Path(Y) \times_Y X \overset{\in Fib}{\longrightarrow} X \times X
   \,.
-$$ 
+$$
 
-We need to show that $Path(X)\to Path(Y) \times_Y X$ is an acyclic fibration. 
+We need to show that $Path(X)\to Path(Y) \times_Y X$ is an acyclic fibration.
 
 It is a fibration because $X\times_Y Path(Y) \times_Y X \to Path(Y)\times_Y X$ is a fibration, this being the pullback of the fibration $X \overset{f}{\to} Y$.
 
@@ -10007,7 +10012,7 @@ and so finally the claim follows by [[two-out-of-three]] (def. \ref{CategoryWith
 +-- {: .num_remark #HomotopyCommutativeSquares}
 ###### Remark
 
-There is a conceptual way to understand prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} as follows: 
+There is a conceptual way to understand prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} as follows:
 If we draw double arrows to indicate [[homotopies]], then a [[homotopy fiber]] (def. \ref{HomotopyFiber}) is depicted by the following filled square:
 
 $$
@@ -10071,16 +10076,16 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
 1. There is a long sequence to the left in $\mathcal{C}^{\ast/}$ of the form
 
    $$
-     \cdots 
-       \longrightarrow 
-     \Omega X 
+     \cdots
+       \longrightarrow
+     \Omega X
        \overset{\overline{\Omega} f}{\longrightarrow}
-     \Omega Y 
-       \longrightarrow 
-     hofib(f) 
-       \longrightarrow 
-     X 
-       \overset{f}{\longrightarrow} 
+     \Omega Y
+       \longrightarrow
+     hofib(f)
+       \longrightarrow
+     X
+       \overset{f}{\longrightarrow}
      Y
      \,,
    $$
@@ -10091,30 +10096,30 @@ Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exac
 
    $$
      \cdots
-     \to 
+     \to
      [A,\Omega^2 Y]_\ast
      \longrightarrow
      [A,\Omega hofib(f)]_\ast
      \longrightarrow
-     [A, \Omega X]_\ast 
+     [A, \Omega X]_\ast
      \longrightarrow
      [A,\Omega Y]
      \longrightarrow
      [A,hofib(f)]_\ast
      \longrightarrow
-     [A,X]_\ast 
+     [A,X]_\ast
      \longrightarrow
      [A,Y]_\ast
-   $$ 
+   $$
 
    of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
 
 1. Dually, there is a long sequence to the right in $\mathcal{C}^{\ast/}$ of the form
 
    $$
-     X 
-       \overset{f}{\longrightarrow} 
-     Y 
+     X
+       \overset{f}{\longrightarrow}
+     Y
        \overset{}{\longrightarrow}
      hocofib(f)
        \longrightarrow
@@ -10129,21 +10134,21 @@ Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exac
 
    $$
      \cdots
-     \to 
+     \to
      [\Sigma^2 X, A]_\ast
      \longrightarrow
      [\Sigma hocofib(f), A]_\ast
      \longrightarrow
-     [\Sigma Y, A]_\ast 
+     [\Sigma Y, A]_\ast
      \longrightarrow
      [\Sigma X, A]
      \longrightarrow
      [hocofib(f),A]_\ast
      \longrightarrow
-     [Y,A]_\ast 
+     [Y,A]_\ast
      \longrightarrow
      [X,A]_\ast
-   $$ 
+   $$
 
    of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
 
@@ -10157,13 +10162,13 @@ Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exac
 
 That there are long sequences of this form is the result of combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage}.
 
-It only remains to see that it is indeed the morphisms $\overline{\Omega} f$ that appear, as indicated. 
+It only remains to see that it is indeed the morphisms $\overline{\Omega} f$ that appear, as indicated.
 
 In order to see this, it is convenient to adopt the following notation: for $f \colon X \to Y$ a morphism, then we denote the collection of [[generalized element]] of its homotopy fiber as
 
 $$
   hofib(f)
-  = 
+  =
   \left\{
     (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast)
   \right\}
@@ -10175,9 +10180,9 @@ This way the canonical map $hofib(f) \to X$ is $(x, f(x) \rightsquigarrow \ast) 
 
 $$
   hofib(hofib(f))
-  = 
+  =
   \left\{
-    ( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast), 
+    ( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast),
             x \overset{\gamma_2}{\rightsquigarrow} \ast  )
   \right\}
   \,.
@@ -10209,14 +10214,14 @@ $$
          & {}_{\mathllap{\gamma_1}}\searrow & \Rightarrow & \swarrow_{\mathllap{}}
          \\
          && \ast
-      }    
+      }
       \right)
     \right)
   \right\}
   \,,
 $$
 
-where on the right we have a path in $hofib(f)$ from $(x, f(x)\overset{\gamma_1}{\rightsquigarrow} \ast)$ to the basepoint element. This is a path $\gamma_3$ together with a path-of-paths which connects $f_1$ to $f(\gamma_3)$. 
+where on the right we have a path in $hofib(f)$ from $(x, f(x)\overset{\gamma_1}{\rightsquigarrow} \ast)$ to the basepoint element. This is a path $\gamma_3$ together with a path-of-paths which connects $f_1$ to $f(\gamma_3)$.
 
 By the above convention this is identified with the loop in $X$ which is
 
@@ -10298,7 +10303,7 @@ $$
 $$
 
 
-This is called the **[[long exact sequence of homotopy groups]]** induced by $f$. 
+This is called the **[[long exact sequence of homotopy groups]]** induced by $f$.
 
 =--
 
@@ -10321,7 +10326,7 @@ $$
 gives that the functor
 
 $$
-  [-,E]_\ast 
+  [-,E]_\ast
   \;\colon\;
   (Top^{\ast/}_{CW})^{op}
   \longrightarrow
@@ -10336,7 +10341,7 @@ behaves like one degree in an [additive](Introduction+to+Stable+homotopy+theory+
 
 
 
-### The suspension/looping adjunction
+## The suspension/looping adjunction
  {#TheSuspensionLoopingDiscussion}
 
 We conclude this discussion of classical homotopy theory with the key statement that leads over to [[stable homotopy theory]] in _[[Introduction to Stable homotopy theory -- 1]]_: the suspension and looping adjunction on the classical pointed homotopy category.
@@ -10356,7 +10361,7 @@ $$
   \,.
 $$
 
-Moreover, this is equivalently the adjoint pair of [[derived functors]], according to prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}, of the [[Quillen adjunction]] 
+Moreover, this is equivalently the adjoint pair of [[derived functors]], according to prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}, of the [[Quillen adjunction]]
 
 $$
   (Top_{cg}^{\ast/})_{Quillen}
@@ -10375,16 +10380,16 @@ of cor. \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}.
 ###### Proof
 
 
-By prop. \ref{LoopingAsFunctorOnHomotopyCategory} we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). 
+By prop. \ref{LoopingAsFunctorOnHomotopyCategory} we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}).
 
-The standard topological path space $(-)^I$ is generally a path space object by prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}. With prop. \ref{ReducedSuspensionBySmashProductWithCircle} this shows that 
+The standard topological path space $(-)^I$ is generally a path space object by prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}. With prop. \ref{ReducedSuspensionBySmashProductWithCircle} this shows that
 
 $$
   \Omega  \simeq  \mathbb{R} Maps(S^1,-)_\ast
   \,.
 $$
 
-Moreover, by the existence of [[CW-approximations]] (remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}) we may represent each object in the homotopy category by a [[CW-complex]]. On such, the standard topological cylinder $(-)\times I$ is a [[cylinder object]] by prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}. With prop. \ref{ReducedSuspensionBySmashProductWithCircle} this shows that 
+Moreover, by the existence of [[CW-approximations]] (remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}) we may represent each object in the homotopy category by a [[CW-complex]]. On such, the standard topological cylinder $(-)\times I$ is a [[cylinder object]] by prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}. With prop. \ref{ReducedSuspensionBySmashProductWithCircle} this shows that
 
 $$
   \Sigma \simeq \mathbb{L} (S^1 \wedge (-))
@@ -10398,7 +10403,7 @@ $$
 +-- {: .num_remark}
 ###### Final remark
 
-What is called _[[stable homotopy theory]]_ is the result of universally forcing the $(\Sigma\dashv \Omega)$-[[adjunction]] of prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} to become an [[equivalence of categories]]. 
+What is called _[[stable homotopy theory]]_ is the result of universally forcing the $(\Sigma\dashv \Omega)$-[[adjunction]] of prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} to become an [[equivalence of categories]].
 
 =--
 
@@ -10435,4 +10440,7 @@ For the restriction to the [[convenient category of topological spaces|convenien
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
+
+
+[[!redirects Introduction to Stable homotopy theory -- P]]
 
