@@ -164,6 +164,8 @@ One may consider the [[moduli stack of complex structures]] on a given manifold.
 
 * [[quaternionic structure]]
 
+* [[holomorphic vector bundle]], [[pseudoholomorphic vector bundle]]
+
 ## References
 
 
