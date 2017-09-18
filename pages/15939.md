@@ -17,13 +17,13 @@
 The usual notion of [[Lambda-ring]] is directly related to the Banach ring
 $(\mathbb{Z},|\cdot|_0)$ of integers equipped with their trivial norm in
 the following way: a [[Lambda-ring]] is a usual ring equipped with
-an action of the monoid $\mathbb{N}=\mathbb{Z}-\{0\}/\{\pm 1\}$.
+an action of the monoid $\mathbb{N}=\mathbb{Z}$-$\{0\}/\{\pm 1\}$.
 Remark that some important Lambda-rings, such as K-theory, are
 actually equipped with an additional $\mathbb{Z}/2$-grading,
 that may be combined with the Lambda-structure to get an action
-of the full monoid $\mathbb{Z}-\{0\}$. It is important to remark here
+of the full monoid $\mathbb{Z}$-$\{0\}$. It is important to remark here
 that the $\Lambda$-structure on $K$-theory allows to get back
-(as the spectrum of the Lambda-operations) the full $\Z$-grading
+(as the spectrum of the Lambda-operations) the full $\mathbb{Z}$-grading
 on Betti cohomology.
 
 If one thinks of Lambda-structures
@@ -36,3 +36,15 @@ one may seek for various generalizations, that will be called
 Let $(R,|\cdot|)$ be an integral Banach ring equipped with a multiplicative norm.
 We will denote $\Lambda(R,|\cdot|)$ the monoid given by
 $$\Lambda(R,|\cdot|):=\mathrm{Frac}(R)\cap \{a\in R,\;|a|\leq 1\}.$$
+
+## Examples
+
+There is not yet a precise notion of generalized Lambda-structure, but one may easily give various of its concrete incarnations.
+
+1. The classical notion of ($\mathbb{Z}/2$-graded) Lambda-ring may be seen as a $\Lambda(\mathbb{Z},|\cdot|_0)=\mathbb{Z}$-$\{0\}$-structure. The cohomology theories of arithmetic geometry (i.e. for schemes over $\mathbb{Z}$) are often equipped with an $\mathbb{N}$-grading, that one may interpret as a classical Lambda-ring structure.
+
+1. The notion of $\Lambda(\mathbb{Z},|\cdot|_\infty)=\{\pm 1\}$-structure is simply given by the notion of $\mathbb{Z}/2$-grading. Many cohomological invariants, such as $K$-theory, negative cyclic homology and the Chern character are equipped with a natural $\mathbb{Z}/2$-grading. It is quite probable that one can't hope to get something more that a $\mathbb{Z}/2$-grading on a "really natural" cohomology theory in [[global analytic geometry]].
+
+1. In the theory of $(\Phi,\Gamma)$-modules, the monoid $\Lambda(\mathbb{Z}_p,|\cdot|_p)=\mathbb{Z}_p$-$\{0\}$ plays a central role. It looks like a not so hard but important task to clarify the relation of this theory with the classical notion of Lambda-ring.
+
+1. It is an interesting question to try to understand the relation of classical Hodge theory (over $\mathbb{R}$ or $\mathbb{C}$) with the notion of Lambda-structure on the corresponding Banach ring. This may show interesting limits to the idea of generalizing Lambda-structures to other Banach rings.
