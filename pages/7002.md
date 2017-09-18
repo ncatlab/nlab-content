@@ -25,7 +25,7 @@ An object in the [[essential image]] of $Disc$ is called a **discrete object.
 
 This is for instance the case for the [[global section]] [[geometric morphism]] of a [[connected topos]] $ (Disc \dashv \Gamma ) : \mathcal{E} \to \mathcal{B}$. 
 
-In this situation, we say that a **co-concrete object** $X \in \mathcal{E}$ is one for which the $(Disc\dashv \Gamma)$-[[unit of an adjunction]] is an [[epimorphism]].
+In this situation, we say that a **co-concrete object** $X \in \mathcal{E}$ is one for which the $(Disc\dashv \Gamma)$-[[counit of an adjunction]] is an [[epimorphism]].
 
 The dual concept is the of a _[[concrete object]]_.
 
@@ -35,3 +35,6 @@ The dual concept is the of a _[[concrete object]]_.
  {#Shulman}
 
 [[!redirects co-concrete objects]]
+
+[[!redirects coconcrete object]]
+[[!redirects coconcrete objects]]
