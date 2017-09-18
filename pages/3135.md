@@ -24,13 +24,14 @@ More generally, for a Hilbert space $\mathcal{H}$, $U(\mathcal{H})$ is the group
 
 ## Properties
 
-The unitary groups are naturally [[topological group]]s and [[Lie group]]s (infinite dimensional if $\mathcal{H}$ is infinite dimensional).
+The unitary groups are naturally [[topological group]]s and [[Lie groups]] (infinite dimensional if $\mathcal{H}$ is infinite dimensional).
 
+### In infinite dimension
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $\mathcal{H}$ a Hilbert space, which can be either finite or infinite dimensional, the unitary group $U(\mathcal{H})$ and the [[general linear group]] $GL(\mathcal{H})$, regarded as [[topological group]]s, have the same [[homotopy type]]. 
+For $\mathcal{H}$ a [[Hilbert space]], which can be either finite or infinite dimensional, the unitary group $U(\mathcal{H})$ and the [[general linear group]] $GL(\mathcal{H})$, regarded as [[topological group]]s, have the same [[homotopy type]]. 
 
 More specifically, $U(\mathcal{H})$ is a [[maximal compact subgroup]] of $GL(\mathcal{H})$.
 
@@ -77,10 +78,12 @@ $$
 
 or sometimes $B U(\infty)$. Notice that this is very different from $B U(\mathcal{H})$ for $\mathcal{H}$ an infinite-dimensional Hilbert space. See [[topological K-theory]] for more on this.
 
+### Relation to special unitary group
+
 +-- {: .num_prop}
 ###### Proposition
 
-For all $n \in \mathbb{N}$, the [[unitary group]] $U(n)$ is a split [[group extension]] of the [[circle group]] $U(1)$ by the [[special unitary group]] $SU(n)$
+For all $n \in \mathbb{N}$, the [[unitary group]] $U(n)$ is a [[split exact sequence|split]] [[group extension]] of the [[circle group]] $U(1)$ by the [[special unitary group]] $SU(n)$
 
 $$
   SU(n) \to U(n) \to U(1)
@@ -95,6 +98,17 @@ $$
 $$
 
 =--
+
+### Relation to orthogonal, symplectic and general linear group
+ {#RelationToOrthogonalSymplecticAndGeneralLinearGroup}
+
+The unitary group $U(n)$ is equivalently the [[intersection]]
+of the [[orthogonal group]] $O(2n)$, the [[symplectic group]] $Sp(2n,\mathbb{R})$ and the complex [[general linear group]] $GL(n,\mathbb{C})$ inside the real [[general linear group]] $GL(2n,\mathbb{R})$.
+
+Actually it is already the intersection of any two of these three, 
+a fact also known as the "2 out of 3-property" of the unitary group.
+
+This intersection property makes a [[G-structure]] for $G = U(n)$ (an [[almost Hermitian structure]]) precisely a joint [[orthogonal structure]], [[almost symplectic structure]] and [[almost complex structure]]. In the [[integrability of G-structure|first-order integrable case]] this is precisely a joint [[orthogonal structure]] ([[Riemannian manifold]] structure), [[symplectic structure]] and [[complex structure]].
 
 ## Examples
 
