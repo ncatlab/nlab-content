@@ -105,6 +105,8 @@ It is thus quite a tempting idea to try to formulate the arithmetic [[Langlands 
 
 ## Related entries
 
+[[derived analytic geometry]]
+
 [[global Hodge theory]]
 
 [[global analytic index theory]]
