@@ -38,6 +38,8 @@ It is generally understood that models are approximations to reality. The prover
 
 * [[standard model of particle physics]]
 
+* [[Connes-Lott-Chamseddine model]]
+
 * [[Grand Unified Theory]]
 
 * [[MSSM]]
