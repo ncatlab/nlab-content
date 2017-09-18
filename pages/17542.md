@@ -5,26 +5,41 @@
 
 ##Idea##
 
-A **generalized graph** in the sense of ([HRY](#HRY)) is a generalization of the notion of a pseudograph given at [[graph]] (see in particular [Definition in terms action on a set of half edges](https://ncatlab.org/nlab/show/graph#definition_in_terms_of_action_on_a_set_of_halfedges)) and of [[directed pseudograph]]. What differentiates a generalized graph from a [[directed pseudograph]] is its "exceptional cell," which should be thought of as a set of half edges which have no vertices. 
+A **generalized graph** in the sense of ([HRY](#HRY)) is a generalization of the notion of a pseudograph given at [[graph]] (see in particular [Definition in terms action on a set of half edges](https://ncatlab.org/nlab/show/graph#definition_in_terms_of_action_on_a_set_of_halfedges)). By adding structure like directions for the edges, we can define a [[wheeled graph]] which is a generalization of a [[directed pseudograph]]. What differentiates a generalized graph from a pseudograph and a wheeled graph from a [[directed pseudograph]] is the notion of an "exceptional cell," which should be thought of as a set of half edges which have no vertices. 
 
-A generalized graph can be visualized as a set of vertices with outputs and inputs, a rule for attaching outputs to inputs to glue the vertices together into a quiver, and potentially some outputs and inputs that are not associated to any vertex at all. For instance, a particularly simple generalized graph is one with no vertices and one directed edge (thought of as a single output and input). Notice that by including vertices with outputs or inputs that do not go to other vertices at all but rather "leave the graph," we can talk about a generalized graph itself having outputs and inputs. As such, generalized graphs end up being useful in defining [[PROP|PROPs]] and [[properad|properads]] (as in [HRY](#HRY) and [Kock](#kock)). 
+A generalized graph can be visualized as a set of vertices with half edges attached to them, a rule for attaching half edges to glue the vertices together, and potentially some half edges (flags) that are attached to only one or zero vertices. For instance, a particularly simple generalized graph is one with no vertices and one edge. 
 
 Assume we have fixed an infinite set $\mathcal{S}$ for the remainder of this entry.
 
-## Definition ##
+## Definitions ##
+ The following is Definition 2.2 of [HRY](#HRY):
+
++-- {: .num_defn }
+###### Definition
 
 A generalized graph $G$ is a finite set $Flag(G)\subseteq \mathcal{S}$ with:
 
-* a partition $Flag(G)=\coprod_{\alpha\in A} F_\alpha$ with $A$ finite,
+* a partition of $Flag(G)=\coprod_{\alpha\in A} F_\alpha$ into **cells** with $A$ finite,
 
 * a distinguished partition subset $F_\epsilon$ called the **exceptional cell**,
 
 * an involution $\iota$ satisfying $\iota F_\epsilon\subseteq F_\epsilon$,
 
 * and a free involution $\pi$ on the set of $\iota$-fixed points of $F_\epsilon$. 
+=--
 
+Given a generalized graph $G$, Definition 2.3 of [HRY](#HRY) gives some useful terminology:
 
-
++-- {: .num_defn }
+###### Definition
+1. The elements of $Flag(G)$ are called **flags**. A flag in a non-exceptional (resp. exceptional) cell is called an **ordinary flag** (resp. **exceptional flag**).
+1. Call $G$ an **ordinary graph** if $F_\epsilon$ is empty.
+1. Each non-exceptional partition subset $F_\alpha\neq F_\epsilon$ is called a **vertex**. The set of vertices is denoted by $Vt(G)$. An empty vertex is an **isolated vertex**. A flag in a vertex is said to be **adjacent to** or **attached to** that vertex.
+1. An $\iota$-fixed point is a **leg** of $G$. The set of legs is denoted by $Leg(G)$. An **ordinary leg** (resp. **exceptional leg**) is an ordinary (resp. exceptional) flag that is also a leg. For an $\iota$-fixed point $x\in F_\epsilon$, the pair $\{x,\pi x\}$ is called an **exceptional edge**.
+1. A 2-cycle of $\iota$ consisting of ordinary flags is called an **ordinary edge**. A 2-cycle of $\iota$ contained in a vertex is a **loop**. A vertex that does not contain any loop is called **loop free**. A 2-cycle of $\iota$ contained in the exceptional cell is called an **exceptional loop**. 
+1. An **internal edge** is any 2-cycle of $\iota$. An **edge** is an internal edge, an exceptional edge, or an ordinary leg. The set of edges of $G$ (resp. internal edges) is denoted $Edge(G)$ (resp. Edge_i(G))$. 
+1. An ordinary edge $e=\{e_0,e_1\}$ is said to be **adjacent to** or **attached to* a vertex $v$ if either $e_0$, $e_1$ or both are adjacent to $v$.  
+=--
 
 
 
@@ -40,7 +55,7 @@ A generalized graph $G$ is a finite set $Flag(G)\subseteq \mathcal{S}$ with:
 
 
 
-* Philip Hackney, Marcy Robertson and Donald Yau _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
+* Philip Hackney, Marcy Robertson and Donald Yau. _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
 {#HRY} 
 
 * Joachim Kock. _Graphs, hypergraphs, and properads_, [arXiv:1407.3744](https://arxiv.org/pdf/1407.3744v3.pdf). 
