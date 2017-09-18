@@ -16,8 +16,22 @@
 ## Idea
 
 ### In solid state physics
+ {#InSolidStatePhysics}
 
-In [[physics]], specifically in _[[solid state physics]]_, _elasticity_ is the tendency of solid materials to return to their original shape after being deformed. The mechanics of elastic bodies is the topic of _[infinitesimal strain theory](http://en.wikipedia.org/wiki/Infinitesimal_strain_theory)_.
+In [[physics]], specifically in _[[solid state physics]]_, _elasticity_ is the tendency of solid materials to return to their original shape after being deformed. 
+
+Mathematical elasticity theory ([Landau-Lifshitz 59](#LandauLifshitz59)) encodes the [[forces]] acting on a [[solid]] by a [[stress tensor]], and the amount of deformation by a _[[strain tensor]]_. 
+
+One distinguishes different types of elasticity:
+
+* linear elasticity: here the [[strain tensor]] is related by a [[linear equation]] to the [[stress tensor]] (a generalization of [[Hooke's law]]). To first [[infinitesimal]] order every type of material is approximately linearly elastic, the topic of _[infinitesimal strain theory](http://en.wikipedia.org/wiki/Infinitesimal_strain_theory)_.
+
+
+* non-linear elasticity
+
+  * hyperelasticity: exhibited by (soft) rubber
+
+...
 
 ### Analogy with a quality of space
 
@@ -53,7 +67,7 @@ These modalities [above](#InCategoricalLogic) induce an axiomatization of _[mani
 In this context the [[topology]] of [[manifolds]] is often referred to as _rubber-sheet geometry_ (e.g.[Wikipedia](http://simple.wikipedia.org/wiki/Topology), [Britton](#Britton)).
 
 
-#### Rubber-sheet analogy of gravity
+#### Elasticity analogy of gravity
  {#RubberSheetAnalogyOfGravity}
 
 
@@ -78,9 +92,15 @@ In order to think of not just [[topology]] but [[Riemannian geometry]] in the [a
 
 * [[formal smooth infinity-groupoid]]
 
-* [[super smooth infinity-groupoid]]
+* [[super formal smooth infinity-groupoid]]
+
+* [[cohesion]], [[solidity]]
 
 ## References
+
+### In solid state physics
+
+* {#LandauLifshitz59} [[Lev Landau]], [[Evgeny Lifshitz]], _Theory of Elasticity_, part VII of  _[[Course of Theoretical Physics]]_, 1959, 1970
 
 ### As an analogy for topology/differential geometry
 
@@ -120,7 +140,7 @@ The analogy is mentioned for expositional purpose for instance in
 
 
 
-
+[[!redirects elasticity theory]]
 
 [[!redirects rubber-sheet geometry]]
 [[!redirects rubber-sheet analogy of gravity]]
