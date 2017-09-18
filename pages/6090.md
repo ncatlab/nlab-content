@@ -90,7 +90,7 @@ see at _[[Haag–Lopuszanski–Sohnius theorem]]_
 
 See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>_ 
 
-* [[scattering amplitude]], [[string scattering amplitude]]
+* [[scattering amplitude]], [[Feynman diagram]], [[string scattering amplitude]], 
 
 * [[AdS-CFT]]
 
@@ -100,9 +100,11 @@ See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show
 
 * Wikipedia, _[S-matrix theory](http://en.wikipedia.org/wiki/S-matrix_theory)_
 
-* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
- {#Weinberg09}
+* {#Weinberg09} [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+ 
+An entertaining account of some of the history and the sociology of S-matrix theory is on the first pages of
 
+* {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_ in _Conceptual Foundations of Quantum Field Theory_, 1999 ([arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210))
 
 [[!redirects S-matrices]]
 
