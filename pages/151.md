@@ -25,20 +25,24 @@ In terms of general abstract concepts in [[logic]] and [[category theory]], inst
 
 Instances here include projective duality, duality in lattice theory, and duality in category theory. In each case, one has a [[theory]] whose [[signature]] admits a nontrivial [[involution]], in such a way that "dualizing" or applying the involution to any axiom of the theory (but otherwise preserving the logical structure of formulae) results in another theorem of the theory. For example, for the theory of projective planes, the involution swaps points and lines, meets and joins, etc., and for each theorem there is a dual theorem. Similarly, in [[category]] theory, the involution swaps the domain and codomain and order of composition, etc., and for any theorem of formal category theory, the corresponding dual statement is also a theorem (because the set of axioms of category theory are closed under taking formal duals). 
 
-Such formal duality can also be expressed at the level of [[models]] of the theory $T$: for each model $M$ there is a "dual" or "opposite" model $M^{op}$ obtained by re-interpreting each formal sort/function/relation of the theory as the dual sort/function/relation. This further induces an involution $Mod(T) \to Mod(T)$ on the category of models. For example, in the case of category theory, this operation $C \mapsto C^{op}$, mapping a category $C$ to its [[opposite category]], gives an involution $(-)^{op}: Cat \to Cat$ on the category [[Cat]] of (small) categories, where here we view $Cat$ as a 1-category. In fact this is the only non-trivial automorphism of [[Cat]], see [here](%28infinity%2Cn%29Cat#automorphisms)). 
+Such formal duality can also be expressed at the level of [[models]] of the theory $T$: for each model $M$ there is a "dual" or "opposite" model $M^{op}$ obtained by re-interpreting each formal sort/function/relation of the theory as the dual sort/function/relation. This further induces an involution $Mod(T) \to Mod(T)$ on the category of models. For example, in the case of category theory, this operation $C \mapsto C^{op}$, mapping a category $C$ to its [[opposite category]], gives an involution $(-)^{op}: Cat \to Cat$ on the category [[Cat]] of (small) categories, viewing $Cat$ here as a 1-category. In fact this is the only non-trivial automorphism of [[Cat]], see [here](%28infinity%2Cn%29Cat#automorphisms)). 
 
 This involution $(-)^{op}: Cat \to Cat$ is also known as _abstract duality_. While the construction is a priori tautologous, any given [[opposite category]] often is equivalent to a [[category]] known by other means, which makes abstract duality interesting (particularly so in cases of concrete duality, which we discuss next). 
 
 ### Concrete dualities 
 
-Instances here include linear duality, Stone duality, Pontryagin duality, and projective inversions with respect to a conic hypersurface. In each such case there is some [[contravariant functor|contravariant]] process of "homming into" a suitable structure $V$ called a [[dualizing object]], which in the classical cases of "perfect duality" induces an equivalence of categories $C^{op} \stackrel{\sim}{\to} D$ where typically $C$ is the category of models of one type of structure, and the equivalence maps the formal categorical dual $C^{op}$ to a category of models $D$ consisting of "dual" structures. 
+Instances here include linear duality, Stone duality, Pontryagin duality, and projective inversions with respect to a conic hypersurface. In each such case there is some [[contravariant functor|contravariant]] process of "homming into" a suitable structure $V$ called a [[dualizing object]], which in the classical cases of what we will call "perfect duality", induces an equivalence of categories $C^{op} \stackrel{\sim}{\to} D$ where typically $C$ is the category of models of one type of concrete structure, and the equivalence maps the formal categorical dual $C^{op}$ to a category of models $D$ consisting of "dual" concrete structures. 
 
 In other cases one might not obtain an equivalence or perfect duality, but in any case a contravariant [[adjoint pair]] of functors $S: C \to D$, $T: D \to C$ between categories which can be termed a duality of sorts, in that concepts developed in $C$ are mapped to dual concepts in $D$ and vice-versa. Quoting ([Lawvere-Rosebrugh, chapter 7](#LawvereRosebrugh)):
 
 > Not every statement will be taken into its formal dual by the process of dualizing with respect to $V$, and indeed a large part of the study of mathematics
+
 >>space vs. quantity
+
 > and of logic
+
 >>theory vs. example
+
 >may be considered as the detailed study of the extent to which formal duality and concrete duality into a favorite $V$ correspond or fail to correspond. (p. 122)
 
 Some examples follow. 
@@ -51,7 +55,7 @@ This becomes a perfect duality if we restrict to finite-dimensional vector space
 $$C \to [[C, D], C \otimes [C, D]] \to [[C, D], [C, D] \otimes C] \to [[C, D], D]$$ 
 where the first arrow uses the unit of an adjunction $(- \otimes B) \dashv [B, -]$ where $B = [C, D]$, the second uses a symmetry isomorphism $C \otimes B \cong B \otimes C$, and the third uses the counit of an adjunction $(- \otimes C) \dashv [C, -]$, aka an evaluation map. It may be shown that the contravariant functor $(-)^\ast \coloneqq [-, D]: \mathcal{C} \to \mathcal{C}$ is again dual to itself, exactly as in the case of linear duality above, where we have a triangular equation 
 $$1_{C^\ast} = (\delta_C)^\ast \circ \delta_{C^\ast}$$ 
-for an adjunction $[-, D]^{op} \dashv [-, D]$. Under certain circumstances, we have perfect duality, i.e., double dualization $[[-, D], D]: \mathcal{C} \to \mathcal{C}$ is an equivalence; see [[dualizing object in a closed category]] and [[star-autonomous category]]. Particular special cases of this may obtain when $D = I$, the monoidal unit, or even more particularly when every object has a [[dual object]] in the sense of [[monoidal categories]]; see also [[compact closed category]]. On the other hand, there is also a mild generalization of this type of example example where we deal with a [[biclosed monoidal category]]; here the double dualization will involve both the left and right internal hom. 
+for an adjunction $[-, D]^{op} \dashv [-, D]$. Under certain circumstances, we have perfect duality, i.e., double dualization $[[-, D], D]: \mathcal{C} \to \mathcal{C}$ is an equivalence; see [[dualizing object in a closed category]] and [[star-autonomous category]]. Particular special cases of this may obtain when $D = I$, the monoidal unit, or even more particularly when every object has a [[dual object]] in the sense of [[monoidal categories]]; see also [[compact closed category]]. On the other hand, there is also a mild generalization of this type of example where we deal with a [[biclosed monoidal category]]; here the double dualization will involve both the left and right internal hom. 
 
 * More general still is a concrete duality induced by a [[dualizing object]]. In this case one has a pair of categories together with underlying-set functors 
 $$U: \mathcal{C} \to Set, \qquad V: \mathcal{D} \to Set$$ 
