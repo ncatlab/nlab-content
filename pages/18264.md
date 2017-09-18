@@ -33,7 +33,12 @@ is itself a countable set
 
 =--
 
+## Related statements
+
+* [[images of unions are unions of images]]
+
+* [[pre-images preserve unions and intersections]]
+
 ## References
 
-* ProofWiki, _[Countable Unition of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Sets_is_Countable)_
-
+* ProofWiki, _[Countable Unition of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Set
