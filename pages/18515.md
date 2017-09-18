@@ -26,6 +26,8 @@ A _Hadamard distribution_ is such a modification of the causal propagator by a s
 
 The Hadamard distribution may also be thought of as the [[2-point function]] of a [[quasi-free quantum state]]. These states are therefore called _quasi-free Hadamard states_.
 
+[[!include propagators - table]]
+
 
 ## Definition
 
