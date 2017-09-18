@@ -134,7 +134,7 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 ### Dold--Kan correspondence
 
-* In its most general form, the [[Dold–Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
+* The analogue of a [[Dold–Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
 
 
 
