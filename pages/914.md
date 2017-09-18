@@ -418,16 +418,16 @@ But by construction this net has the property that for every neighbourhood $V$ o
 
 Assuming [[excluded middle]], then
 
-Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological space]]. Then a [[function]] $f \colon X \to Y$ between their underlying sets is [[continuous function|continuous]] precisely if for every net $\nu \colon A \to X$ that [[convergence|converges]] to some [[limit point]] $x \in X$ (def. \ref{Convergence}), the image net $f\circ \nu$ converges to  $f(y)\in Y$.
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological space]]. Then a [[function]] $f \colon X \to Y$ between their underlying sets is [[continuous function|continuous]] precisely if for every net $\nu \colon A \to X$ that [[convergence|converges]] to some [[limit point]] $x \in X$ (def. \ref{Convergence}), the image net $f\circ \nu$ converges to  $f(x)\in Y$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-In one direction, suppose that $f \colon X \to Y$ is continuous, and that $\nu \colon A \to X$ converges to some $x \in X$. We need to show that $f \citc \nu$ converges to $f(y) \in Y$, hence that for every neighbourhood $U_{f(y)} \subset Y$ there exists $i \in A$ such that $f(\nu(j)) \in U_{f(y)}$ for all $j \geq i$.
+In one direction, suppose that $f \colon X \to Y$ is continuous, and that $\nu \colon A \to X$ converges to some $x \in X$. We need to show that $f \circ \nu$ converges to $f(x) \in Y$, hence that for every neighbourhood $U_{f(x)} \subset Y$ there exists $i \in A$ such that $f(\nu(j)) \in U_{f(x)}$ for all $j \geq i$.
 
-But since $f$ is continuous, the [[pre-image]] $f^{-1}(U_{f(y)}) \subset X$ is an open neighbourhood of $x$, and so by the assumption that $\nu$ converges there is an $i \in A$ such that $\nu(j) \in f^{-1}(U_{f(y)})$ for all $j \geq i$. By applying $f$, this is the required statement.
+But since $f$ is continuous, the [[pre-image]] $f^{-1}(U_{f(x)}) \subset X$ is an open neighbourhood of $x$, and so by the assumption that $\nu$ converges there is an $i \in A$ such that $\nu(j) \in f^{-1}(U_{f(x)})$ for all $j \geq i$. By applying $f$, this is the required statement.
 
 Conversely, suppose that $f$ is not continuous, and that the net $\nu$ converges to some $x \in X$. We need to show that then $f \circ \nu$ does not converge to $f(x)$. (This is the [[contrapositive]] of the reverse implication, and by [[excluded middle]] equivalent to it.)
 
