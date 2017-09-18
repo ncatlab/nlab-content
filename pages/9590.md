@@ -28,7 +28,7 @@ In case $Y$ is a pointed [[metric space]] (such as a [[Banach space]], with base
 
 ## Properties 
 
-### Relation to one-point compactifications
+### Relation to compactifications
 
 One way of considering this definition is that one can adjoin to $X$ a point "at infinity", denoted $\infty$, by declaring that the open neighborhoods of $\infty$ are sets of the form $\{\infty\} \cup Ext(K)$ for $K \subset X$ compact. This is called the [[one-point compactification]], denoted $X^+$. Then a map $f\colon X \to A$ vanishes at infinity iff there exists an extension of $f$ to a map $X^+ \to A$, continuous at $\infty$ (at least) that sends $\infty$ to $0$ (thus literally "vanishing at $\infty$").
 
@@ -42,3 +42,4 @@ More generally, for $X$ any [[Tychonoff space]], functions that vanish at infini
 
 [[!redirects vanishing at infinity]]
 [[!redirects vanish at infinity]]
+[[!redirects vanishes at infinity]]
