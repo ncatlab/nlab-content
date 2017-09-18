@@ -134,7 +134,7 @@ $$
   Ho(Top^{\ast/})
 $$
 
-(by [this prop](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory))
+(by [this prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory))
 
 Again the left adjoint is a [[strong monoidal functor]] in that there is a [[natural isomorphism]]
 
@@ -196,73 +196,6 @@ $$
 $$ 
 
 the _H-group ring spectrum_ of $G$.
-
-So the product operation on $\Sigma^\infty(G_+)$ is given by
-
-$$
-  \left(
-    \Sigma^\infty(G_+)
-  \right)
-    \wedge
-  \left(
-    \Sigma^\infty(G_+)
-  \right)
-    \overset{\simeq}{\longrightarrow}
-  \Sigma^\infty( G_+ \wedge G_+ )
-    \overset{\simeq}{\longrightarrow}
-  \Sigma^\infty( (G \times G)_+ )
-    \overset{\Sigma^\infty( \mu_* )}{\longrightarrow}
-  \Sigma^\infty( G_+ )
-  \,.
-$$
-
-Recall the graded stable homotopy groups, for $X,Y \in Ho(Spectra)$
-
-$$
-  [X,Y]_\bullet
-    \coloneqq
-  [\Sigma^\bullet X, Y]
-$$
-
-([this def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory))
-
-If $E \in Ho(Spectra)$ is a [[monoid]], hence a [[ring spectrum]], and $X \in Ho(Top^{\ast/})$, so that there is the [[diagonal]] on [[suspension spectra]]:
-
-$$
-  \Sigma^\infty X
-    \overset{\Sigma^\infty \Delta_X}{\longrightarrow}
-  \Sigma^\infty(X \wedge X)
-    \overset{\simeq}{\longrightarrow}
-  \left(\Sigma^\infty X\right) 
-    \wedge 
-  \left(
-    \Sigma^\infty X
-  \right)
-$$
-
-then  $[X,E]_\bullet$ becomes a [[graded ring]] with the 
-product 
-
-$$
-  (\Sigma^{n_1}\Sigma^\infty X \overset{e_1}{\to} E)
-  \cdot
-  (\Sigma^{n_2}\Sigma^\infty X \overset{e_2}{\to} E)
-$$
-
-given by
-
-$$
-  \Sigma^{n_1 + n_2}\Sigma^\infty X
-    \overset{\Sigma^{n+1}\Sigma^\infty \Delta_X}{\longrightarrow}
-  \Sigma^{n_1 + n_2}\Sigma^\infty X \wedge \Sigma^\infty X
-    \overset{\simeq}{\longrightarrow}
-  \Sigma^{n+1}\Sigma^\infty X \wedge \Sigma^{n_2} \Sigma^\infty X 
-    \overset{e_1 \wedge e_2}{\longrightarrow}
-  E \wedge E 
-    \overset{}{\longrightarrow}
-  E
-  \,.
-$$
 
 
 ## Examples
