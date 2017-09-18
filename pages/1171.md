@@ -43,7 +43,7 @@ Note that the definition of 'convergence' varies in the literature; at the extre
 
 ## Examples
 
-In [[measure theory]], given a [[measure space]] $X$ and a topological space $Y$, the space of [[almost-everywhere defined]] [[measurable functions]] from $X$ to $Y$ becomes a convergence space under [[convergence almost everywhere]].  In general, this convergence space does not fit into any of the examples below.
+In [[measure theory]], given a [[measure space]] $X$ and a [[measurable space]] $Y$, the space of [[almost-everywhere defined]] [[measurable functions]] from $X$ to $Y$ becomes a convergence space under [[convergence almost everywhere]].  In general, this convergence space does not fit into any of the examples below.
 
 
 A [[pseudotopological space]] is a convergence space satisfying the _star property_:
