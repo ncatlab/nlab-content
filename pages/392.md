@@ -61,6 +61,12 @@ Some uses of terminology are similar in some ways, but don't quite fall under th
 These terminological uses can create situations that appear similar to actual red herrings, such as the use of "noncommutative ring" by people who are familiar with using "ring" to mean "commutative ring."  However, since the actual definitions of terms like "ring" and "topological space" is generally accepted to be unchanged (as opposed to the commonly used abbreviations), these are not true red herrings.
 
 
+### Semi-non-examples
+
+Sometimes, adding an adjective does not destroy the property that the noun has, but the noun now has its property in a different way, e.g.:
+
+* A [[contravariant functor]] from $C$ to $D$ _is_ still a functor, however not from $C$ to $D$, but from $C^{op}$ to $D$ (or equivalently from $C$ to $D^{op}$).
+
 [[!redirects red herring]]
 [[!redirects red herring principle]]
 [[!redirects the red herring principle]]
