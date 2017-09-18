@@ -7,6 +7,10 @@
 
 An *extension system* is a way of presenting a [[monad]] that doesn't involve iteration of the underlying endofunctor.  This is simpler for certain purposes, and the operations involved are more basic to some applications such as [[monads in computer science]].
 
+From ([Marmolejo-Wood 10](#MarmolejoWood10)):
+
+> {#MarmolejoWoodQuote} there is an important overarching reason to consider monads in this way. Extension systems allow us to completely dispense with the iterates $[$...$]$ of the underlying arrow. No iteration is necessary. A moment's reflection on the various terms of terms and terms of terms of terms that occur in practical applications suggest that this alone justies the alternate approach. $[$...$]$ we note that extension systems in [[higher category theory|higher dimensional category theory]] provide an even more important simplication of monads. For even in dimension 2, some of the tamest examples are built on [[pseudofunctors]] that are difficult to iterate.
+
 ## Definition
 
 An **extension system** ([Marmolejo-Wood 10](#MarmolejoWood10)) on a [[category]] $C$ consists of
