@@ -32,19 +32,19 @@ Accordingly, a membrane matrix model should be a generalization of the [[IKKT ma
 
 ## Related concepts
 
-* [[BFSS matrix model]]
+* [[BFSS matrix model]], [[M2-brane]], [[M-theory]]
 
 
 ## References
 
-* Matsuo Sato, _Covariant formulation of M-theory I_, Int. J. Mod. Phys. A 24 (2009) 5019 ([arXiv:0902.1333](http://arxiv.org/abs/0902.1333))
- {#Sato09}
+* {#Sato09} Matsuo Sato, _Covariant formulation of M-theory I_, Int. J. Mod. Phys. A 24 (2009) 5019 ([arXiv:0902.1333](http://arxiv.org/abs/0902.1333))
+ 
 
-* J.-H. Park, C. Sochichiu, _Taking  the square root of Nambu-Goto action and obtaining Filippov-Lie algebra gauge theory action_, Eur. Phys. J. C 64 (2009) 161 ([arXiv:0806.0335](http://arxiv.org/abs/0806.0335))
- {#ParkSochichiu08}
+* {#ParkSochichiu08} J.-H. Park, C. Sochichiu, _Taking  the square root of Nambu-Goto action and obtaining Filippov-Lie algebra gauge theory action_, Eur. Phys. J. C 64 (2009) 161 ([arXiv:0806.0335](http://arxiv.org/abs/0806.0335))
+ 
 
-* J. DeBellis, [[Christian Saemann]], [[Richard Szabo]], _Quantized Nambu-Poisson manifolds in a 3-Lie algebra reduced model_, JHEP 1104 (2011) 075
- {#DeBellisSaemannSzabo11}
+* {#DeBellisSaemannSzabo11} J. DeBellis, [[Christian Saemann]], [[Richard Szabo]], _Quantized Nambu-Poisson manifolds in a 3-Lie algebra reduced model_, JHEP 1104 (2011) 075
+ 
 
-* [[Patricia Ritter]], [[Christian Saemann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
- {#RitterSaemann13}
+* {#RitterSaemann13} [[Patricia Ritter]], [[Christian Saemann]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
+ 
