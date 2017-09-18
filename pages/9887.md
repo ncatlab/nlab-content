@@ -190,8 +190,10 @@ and for [[motivic cohomology]] in
 
 Higher [[chromatic homotopy theory|chromatic]] analogs for [[Morava E-theory]] are discussed in 
 
-* [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
- {#Westerland12}
+* {#Westerland12} [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
+ 
+* {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_ ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285))
 
+See also at _[[spherical T-duality]]_.
 
 [[!redirects Snaith's theorem]]
