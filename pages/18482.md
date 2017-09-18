@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is called _Tate cohomology_ are [[cohomology groups]] $\widehat{H}(G,N)$ associated to a [[representation]] $N$ of a [[finite group]] $G$. In terms of the [[Tate spectrum]] $H N^{t G}$ of the [[Eilenberg-MacLane spectrum]] $H N$ of $N$, these may be expressed as its [[stable homotopy groups]]:
+
+$$
+  \widehat H^{-n}(G,N) \simeq \pi_n( H N^{t G})
+  \,.
+$$
+
+(e.g. [Nikolaus-Scholze 17, p. 13](#NikolausScholze17))
+
+What is called _Farrell-Tate cohomology_ is a generlization of this construction to possibly infinite [[discrete groups]] $G$.
+
+(e.g. [Nikolaus-Scholze 17, section I.4](#NikolausScholze17))
+
+## References
+
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], section I-4 of _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
+
+[[!redirects Farrell-Tate cohomologies]]
+
+[[!redirects Tate cohomology]]
+[[!redirects Tate cohomologies]]
