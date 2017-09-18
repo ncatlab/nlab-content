@@ -76,6 +76,20 @@ For more general [[prime numbers]] than just 2, ([Toda 62](#Toda62)) found analo
 
 The EHP spectral sequence is often used used in the context of the [[Adams-Novikov spectral sequence]] for [[p-localization]] at some prime $p$.
 
+## Constructions of $H$
+
+For James' fiber sequence, the essential property required of $H$ is to realize the isomorphism
+$$ (the\:map\:H)^{cohomology\:pullback} : H^{2n}(\Omega\mathbb{S}^{2n+1})\overset{\sim}{\to} H^{2n}(\Omega \mathbb{S}^{n+1}) .$$
+The remaining corollaries then follow using the fact cohomology pullback is a ring homomorphism, and the $mod 2$ [[Leray-Serre spectral sequence]].
+
+### Via the James model
+
+Using the James model of $\Omega\Sigma X$ as a quotient space of $colim_n X^n $, a candidate $H$ is constructed by recursion:
+$$ H([x_0 , \dots, x_{n+1}]) = H([x_0,\dots,x_n]) \# ([x_0 \wedge x_{n+1} , \dots , x_n\wedge x_{n+1}]) $$
+where $\#$ denotes concatenation and $\wedge$ [[smash product]].  One checks that the ordering of product terms $ x_i\wedge x_j $ w.r.t. $x_k\wedge x_l$ depends only on the relative orders of $i,j,k,l$, so that $H$ is well-defined on the quotient space $\Omega\Sigma X \to \Omega \Sigma(X\wedge X)$.
+
+In particular, the restriction to $J_2 X$ factors through $ X\wedge X \to \Omega\Sigma X\wedge X$ as the cofiber of the inclusion $X \to J_2 X$.  In the case $X\simeq \mathbb{S}^n$, the desired cohomology isomorphism is immediate.
+
 ## Related concepts
 
 * the [[Freudenthal suspension theorem]] may be obtained from the EHP spectral sequence;
