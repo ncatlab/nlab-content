@@ -76,6 +76,5 @@ The [[Adams spectral sequence]] for real cobordism is discussed in
 Adams}Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
 
 
-[[!redirects MR]]
 [[!redirects MR-theory]]
 
