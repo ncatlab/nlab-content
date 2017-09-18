@@ -34,6 +34,11 @@ This analytic torsion is an  [[analogy|analogue]] in [[analysis]] of the invaria
 
 According to ([Morishita 09](arithmetic+topology#Morishita09)) the relation between Reidemeister torsion and analytic torsion is analogous to that between [[Iwasawa polynomials]] and [[zeta functions]] obtained by [[adelic integration]]. (...)
 
+### Relation to Selberg zeta function
+ {#RelationToSelbergZeta}
+
+([Fried 86](#Fried86))
+
 ### Relation to Chern-Simons theory
 
 Analytic torsion appears as one factor in the [[perturbation theory|perturbative]] [[path integral]] [[quantization]] of [[Chern-Simons field theory]]. See there at _[Quantization -- Perturbative -- Path integral quantization](http://ncatlab.org/nlab/show/Chern-Simons+theory#PerturbativePathIntegralQuantization)_.
@@ -52,5 +57,12 @@ Review of the role played in the perturbative [[quantization of Chern-Simons the
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
+Discussion for [[hyperbolic manifolds]] in terms of the [[Selberg zeta function]] is due to 
+
+* {#Fried86} [[David Fried]], _Analytic torsion and closed geodesics on hyperbolic manifolds_, Invent. math. 84, 523-540 (1986) ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0084&divID=LOG_0026&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0084%7C&targetFileName=PPN356556735_0084_LOG_0026.pdf&))
+
+with further developments including
+
+* {#BunkeOlbrich94a} [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for odd-dimensional locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407012](http://arxiv.org/abs/dg-ga/9407012))
 
 [[!redirects Ray-Singer torsion]]
