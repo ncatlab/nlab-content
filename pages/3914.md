@@ -30,6 +30,9 @@ Specifically, for $P = Th(V)$ the [[Thom space]] of a [[vector bundle]] $V \to X
 
 More generally, for $A$ an $E$-algebra spectrum, an $E$-bundle is $A$-orientable if the associated $A$-bundle is trivializable. For more on this see [[(∞,1)-vector bundle]].
 
+The existence of an $E$-orientation is necessary in order to have a notion of [[fiber integration]] in $E$-cohomology.
+
+
 ## Definition
 
 ### Concretely
@@ -37,7 +40,7 @@ More generally, for $A$ an $E$-algebra spectrum, an $E$-bundle is $A$-orientable
 +-- {: .num_defn #EOrientationOfAVectorBundle}
 ###### Definition
 
-Let $E$  be a [[multiplicative cohomology theory]] and let $V \to X$ be [[vector bundle]] of [[rank]] $n$. Then an **$E$-orientation** of $V$ is an element of degree $n$ 
+Let $E$  be a [[multiplicative cohomology theory]] and let $V \to X$ be topological [[vector bundle]] of [[rank]] $n$. Then an **$E$-orientation** or **$E$-[[Thom class]]** on $V$ is an element of degree $n$ 
 
 $$
   u \in \tilde E^n(Th(V))
@@ -66,22 +69,101 @@ for
 * $\gamma_n \in \tilde E^n(S^n)$ the image of the multiplicative unit
   under the [[suspension isomorphism]] $\tilde E^0(S^0) \stackrel{\simeq}{\to}\tilde E^n(S^n)$.   
 
-This $u$ is also called a **$E$-[[Thom class]]** for $V$. The [[isomorphism]] that $u$ induces under multiplication
+=--
+
+(e.g. [Kochmann 96, def. 4.3.4](#Kochmann96))
+
++-- {: .num_remark}
+###### Remark
+
+Recall that a _[[(B,f)-structure]]_ $\mathcal{B}$ is a system of [[Serre fibrations]] $B_n \overset{f_n}{\longrightarrow} B O(n)$ over the [[classifying spaces]] for [[orthogonal structure]] equipped with maps  
 
 $$
-  (-)\cdot u 
-    \;\colon\; 
-  E^\bullet(X) 
-   \simeq
-  \tilde E^\bullet(X_+) \stackrel{\simeq}{\to} \tilde E^{\bullet + n}(Th(V))
+  j_n \;\colon\; B_n \longrightarrow B_{n+1}
+$$ 
+
+covering the canonical inclusions of classifying spaces. For instance for $G_n \to O(n)$ a compatible system of [[topological group]] [[homomorphisms]], then the $(B,f)$-structure given by the [[classifying spaces]] $B G_n$ (possibly suitably resolved for the maps $B G_n \to B O(n)$ to become Serre fibrations) defines _[[G-structure]]_. 
+
+Given a $(B,f)$-structure, then there are the [[pullbacks]] $V^{\mathcal{B}}_n \coloneqq f_n^\ast (E O(n)\underset{O(n)}{\times}\mathbb{R}^n)$ of the [[universal vector bundles]] over $B O(n)$, which are the _universal vector bundles equipped with $(B,f)$-structure_
+
+$$
+  \array{
+    V^{\mathcal{B}}_n &\longrightarrow& E O(n)\underset{O(n)}{\times} \mathbb{R}^n
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    B_n & \underset{f_n}{\longrightarrow} & B O(n)
+  }
   \,.
 $$
 
-is called the **[[Thom isomorphism]]**.
+Finally recall that there are canonical morphisms ([prop.](Thom+spectrum#PullbackOfUniversalOnBundleUnderCoordinateRestriction))
+
+$$
+  \phi_n 
+    \;\colon\; 
+  \mathbb{R} \oplus V^{\mathcal{B}}_n 
+    \longrightarrow 
+  V^{\mathcal{B}}_{n+1}
+$$
 
 =--
 
-The existence of an $E$-orientation is necessary in order to have a notion of [[fiber integration]] in $E$-cohomology.
+
++-- {: .num_defn #EOrientationOfABfStructure}
+###### Definition
+
+Let $E$  be a [[multiplicative cohomology theory]] and let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]]. Then a **universal $E$-orientation for vector bundles with $\mathcal{B}$-structure** is an $E$-orientation, according to def. \ref{EOrientationOfAVectorBundle} for each rank-$n$ universal vector bundle with $\mathcal{B}$-strcuture
+
+$$
+  \xi_n 
+    \in 
+  \tilde E^n(Th(f_n^\ast(E O(n)\underset{O(n)}{\times} \mathbb{R}^n)))
+  \;\;\;\;
+  \forall n \in \mathbb{N}
+$$
+
+such that these are compatible in that
+
+1. for all $n \in \mathbb{N}$ then
+
+   $$  
+     \xi_n = \phi_n^\ast \xi_{n+1}
+     \,,
+   $$
+
+   where 
+
+   $$
+     \xi_n 
+      \in 
+     \tilde E^n(Th(V_n)) 
+       \simeq 
+     \tilde E^{n+1}(\Sigma Th(V_n))
+        \simeq 
+     \tilde E^{n+1}(Th(\mathbb{R}\oplus V_n))   
+   $$
+
+   (with the first isomorphism is the [[suspension isomorphism]] of $E$ and the second exhibiting the [[homeomorphism]] of Thom spaces $Th(\mathbb{R} \oplus V)\simeq \Sigma Th(V)$ ([prop.](Thom+space#SuspensionOfThomSpaces))) and where 
+
+   $$
+     \phi_n^\ast
+     \;\colon\;
+      \tilde E^{n+1}(Th(V_{n+1}))
+      \longrightarrow
+     \tilde E^{n+1}(Th(\mathbb{R}\oplus V_n))
+   $$
+
+   is pullback along the canonical $\phi_n \colon \mathbb{R}\oplus V_n \to V_{n+1}$ ([prop.](Thom+spectrum#PullbackOfUniversalOnBundleUnderCoordinateRestriction)).
+
+1. for all $n_1, n_2 \in \mathbb{N}$ then
+
+   $$
+     \xi_{n+1} \cup \xi_{n+2} = \xi_{n_1 + n_2}
+     \,.
+   $$
+
+=--
 
 
 ### Abstractly
@@ -331,7 +413,7 @@ The latter, on passing to [[homotopy groups]], are [[genera]] on manifolds with 
 
 ### Relation to cubical structures
 
-For $E$ a [[multiplicative cohomology theory|multiplicative]] [[weakly periodic cohomology theory|weakly perioduc]] [[complex orientable cohomology theory]] then $Spec E^0(B U\langle 6\rangle)$ is naturally equivalent to the space of [[cubical structure on a line bundle|cubical structures]] on the trivial line bundle over the [[formal group]] of $E$.
+For $E$ a [[multiplicative cohomology theory|multiplicative]] [[weakly periodic cohomology theory|weakly periodic]] [[complex orientable cohomology theory]] then $Spec E^0(B U\langle 6\rangle)$ is naturally equivalent to the space of [[cubical structure on a line bundle|cubical structures]] on the trivial line bundle over the [[formal group]] of $E$.
 
 In particular, [[homotopy classes]] of maps of [[E-infinity ring]] spectra $MU\angle 6\rangle \to E$ from the [[Thom spectrum]] to $E$, and hence universal $MU\langle 6\rangle$-[[orientation in generalized cohomology|orientations]] (see there) of $E$ are in natural bijection with these cubical structures.
 
