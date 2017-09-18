@@ -31,9 +31,11 @@ The __nullary intersection__ of the subsets of $X$ is $X$ itself.  A __binary in
 
 ## Properties
 
-* [[the image of an intersection is contained in the intersection of the images]]
+* [[interactions of images and pre-images with unions and intersections]]
 
-* [[pre-images preserve intersections]]
+  * [[the image of an intersection is contained in the intersection of the images]]
+
+  * [[pre-images preserve intersections]], 
 
 ## Related concepts
 
