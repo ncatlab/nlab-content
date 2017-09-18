@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Overview##
 
 We are interested in the local structure of zeros of [[analytic function]]s in $\mathbb{C}^n$ as well as in analogues, e.g. in [[rigid analytic geometry]]. 
@@ -43,5 +48,11 @@ As a corollary, if another function $h$ vanishes on the zero set of $f$, then $f
 ##Ingredients of proofs##
 
 Weierstrass used analytic methods to prove the theorem; in fact the [[residue theorem]] and [[Cauchy integral formula]] are used. However, much later a fully algebraic proof has been found, and it allows generalizations to much wider setups, not only over complex numbers.  
+
+## References
+
+Named after [[Karl Weierstraß]].
+
+* Wikipedia, _[Weierstrass preparation theorem](https://en.wikipedia.org/wiki/Weierstrass_preparation_theorem)_
 
 category: analysis, geometry
