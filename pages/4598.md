@@ -94,7 +94,7 @@ See at _[Chern class - Properties -- Splitting principle and Chern roots](Chern%
 
 The [[twisted differential c-structures]] corresponding to Pontryagin class include
 
-* [[twisted differential string structure]] for the first fractional Pontryagin class $1/2 p_1 : B Spin \to B^3 U(1)$;
+* [[twisted differential string structure]] for the first fractional Pontryagin class $\frac{p_1}{2} : B Spin \to B^3 U(1)$;
 
 * [[twisted differential fivebrane structure]] for the second fractional Pontryagin class $\frac{1}{6}p_2 : B String \to B^7 U(1)$.
 
