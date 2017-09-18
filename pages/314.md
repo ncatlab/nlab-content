@@ -354,7 +354,7 @@ Concretely this means that for all $c \in C$ we have a bijection
 $$
   Hom_C(c, \lim F)
   \simeq
-  Hom_{[D^{op},C]}(const_X, F)
+  Hom_{[D^{op},C]}(const_c, F)
   \,.
 $$
 
