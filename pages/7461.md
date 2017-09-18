@@ -5,7 +5,7 @@ The notion of a _classifying (∞,1)-topos_ is the [[vertical categorification]]
 Any (∞,1)-topos $K$ by definition classifies the ∞-geometric morphisms into it in that it is the representing object of $geom(-,K)$.
 
 ## Examples
-A special case of this is the is the notion of a classifying (∞,1)-topos for a geometry in the sense of [[geometry (for structured (∞,1)-toposes)|structured spaces]]:
+A special case of this is the notion of a classifying (∞,1)-topos for a geometry in the sense of [[geometry (for structured (∞,1)-toposes)|structured spaces]]:
 
 The geometry $\mathcal{G}$ is the [[(∞,1)-category]] that plays role of the syntactic theory. For $\mathcal{X}$ an [[(∞,1)-topos]], a model of this theory is a limits and covering-preserving [[(∞,1)-functor]]
 
