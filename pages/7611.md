@@ -60,6 +60,7 @@ Cartesian multicategories are also a natural place to talk about the semantics o
 * [[multicategory]]
 * [[generalized multicategory]]
 * [[Lawvere theory]]
+* A cartesian multicategory with one object is called a [[clone]].
 
 
 [[!redirects cartesian multicategory]]
