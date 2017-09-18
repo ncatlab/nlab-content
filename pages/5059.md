@@ -45,11 +45,38 @@ $$
 
 The first step in this implications (spinning string is superstring) is straightforward, but the second step appears as a miracle from the point of view of the NSR string. It comes out this way by non-trivial computation, but is not manifest in the theory.
 
-In order to improve on this situation Green and Schwarz searched and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84)) a string [[action functional]]  that would manifestly exhibit spacetime supersymmetry. This is now called the _[[Green-Schwarz action functional]]_.
+In order to improve on this situation, Green and Schwarz searched and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84)) a string [[action functional]]  that would manifestly exhibit spacetime supersymmetry. This is now called the _[[Green-Schwarz action functional]]_.
 
-They showed that in [[light-cone gauge]] it is equivalent to the [[NSR string]], thus providing a coceptual proof for the observed local spacetime supersymmetry for backgrounds that admit two lightlike Killing vectors. (The quantization of the GS-string away from lightcone gauge however remains an open problem.)
+The basic idea is to pass to the evident [[supergeometry|supergeometric]] analogue of the bosonic string action: Let $\Sigma$ be a [[closed manifold]] of [[dimension]] 2, then the [[action functional]] governing the [[bosonic string]] propagating in a purely gravitational [[spacetime]] background described by a [[pseudo-Riemmannian manifold]] $(X,g)$ 
 
-In ([Henneaux-Mezincescu 85](HenneauxMezincescu85)) it was observed that the Green-Schwarz-action functional describing the string in $d+1$-dimensions has a neat geometrical interpretation: it is simply the ([[parameterized WZW model|parameterized]]) [[WZW-model]] for 
+$$
+  \exp(\tfrac{i}{\hbar} S_{bos})
+  \;\colon\;
+  [\Sigma,X]
+   \longrightarrow
+  \mathbb{R}/_{\hbar}\mathbb{Z}
+$$
+
+is simply the proper relativistic [[volume]] of its [[worldsheet]] $\Sigma$:
+
+$$
+  (\Sigma\overset{\phi}{\longrightarrow} X)
+    \;\mapsto\;
+  -T \int_\Sigma vol_{\phi^\ast g}
+  \,.
+$$
+
+(This is the _[[Nambu-Goto action]]_. It is classically equivalently to the [[Polyakov action]] which is the genuine starting point for the quantum [[NSR string]]. Howver, since, as we discuss below, the Green-Schwarz action naturally generalizes to that of other $p$-[[branes]] it is more natural to consider the Nambu-Goto form of the action here.)
+
+When here $(X,g)$ is generalized to a [[superspacetime]] [[supermanifold]] with [[orthogonal structure]] encoded by a super-vielbein $e$, then the same form of the action functional still makes sense and produces a functional on the [[supergeometry|supergeometric]] [[mapping space]] $[\Sigma,X]$. Moreover, by construction this action functional is invariant under the [[superisometry group]] of $(X,g)$, hence under spacetime [[supersymmetry]].
+
+However, Green and Schwarz noticed that this functional does _not_ yield dynamics that is equivalent to that of the NSR string: when the [[equations of motion hold]] ("on shell") it has more fermionic degrees of freedom than present in the NSR string. They should however that an extra summand could be added to the plain super-Nambu-Goto action, such that the resulting functional enjoys a further 1-parameter symmetry, called _[[kappa-symmetry]]_. Then restricting to the $\kappa$-symmetric states, the action functionals become classically equivalent.
+
+Moreover, they showed that in [[light-cone gauge]] the resulting quantum dynamics is equivalent to that of the [[NSR string]], thus providing a coceptual proof for the observed local spacetime supersymmetry for backgrounds that admit two lightlike Killing vectors. (The quantization of the GS-string away from lightcone gauge however remains an open problem.)
+
+
+Green-Schwarz's extra $\kappa$-symmetry term served a clear purpose, but remained geometrically mysterious.
+However, in ([Henneaux-Mezincescu 85](HenneauxMezincescu85)) it was observed that the Green-Schwarz-action functional describing the string in $d+1$-dimensions has a neat geometrical interpretation: it is simply the ([[parameterized WZW model|parameterized]]) [[WZW-model]] for 
 
 1. target space being locally the [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|\mathbf{N}}$ regarded as the [[coset]] [[supergroup]]
 
@@ -106,7 +133,13 @@ For instance for $(d = 11, \; \mathbf{N} = \mathbf{32}, \; p = 2)$ one finds a c
 
 Later it was found that the other branes ([[D-branes]] and [[nLab:M5-branes]]) are also of this general form, if only we pass to "[[nLab:extended Minkowski spacetimes]]". In ([FSS 13](#FSS13)) these extended super Minkowski spacetimes were shown to be [[nLab:super Lie n-algebra]] of [[super infinity groups]].
 
+In this generality, the Green-Schwarz-type action functionals describe _all_ the [[p-branes]] in [[string theory]]/[[M-theory]]. And it is the "fundamental" branes which they describe (subject to the caveat that the [[quantization]] of the GS-functional is understood only in special cases).
 
+In contrast, often $p$-branes are discussed in their [[soliton|solitonic]] incarnation as _[[black branes]]_. These solitonic branes sit at asymptotic boundaries of [[anti-de Sitter spacetime]] and carry [[conformal field theories]], related to the ambient [[supergravity]] by [[AdS-CFT duality]].
+
+This phenomenon is indeed a consequence of the fundamental Green-Schwarz branes.
+
+Consider a 1/2-[[BPS state]] solution of [[type II supergravity]] or [[11-dimensional supergravity]], respectively. These solutions locally happen to have the same classification as the Green-Schwarz branes. Hence we may consider a configuration $\phi \colon \Sigma \to X$ of the corresponding fundamental $p$-brane which embeds $\Sigma$ into the asymptotic AdS boundary of the given 1/2 BPS spacetime $X$. Then it turns out that restricting the Green-Schwarz action functional to small fluctuations around this configuration, and applying a [[diffeomorphism]] [[gauge fixing]], then the resulting action functional is that of a [[supersymmetry|supersymmetric]] [[conformal field theory]] on $\Sigma$ as in the [[AdS-CFT]] dictionary. ([Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98) [AFFFTT 98](#AFFFTT98) [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99)). 
 
 ## Definition
 
