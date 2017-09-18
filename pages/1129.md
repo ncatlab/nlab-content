@@ -342,10 +342,10 @@ Let $\mathcal{E}$ be the topos of [[sheaves]] over a [[locale]]. Then an object 
 +-- {: .proof}
 ###### Proof
 
-Let $I$ be an externally injective object. Then $I$ satisfies condition 2. of \ref{EquivalenceOfInternalNotionsOfInjectivity}, even without having to pass to a cover.
+Let $I$ be an externally injective object. Then $I$ satisfies condition 2. of Proposition \ref{EquivalenceOfInternalNotionsOfInjectivity}, even without having to pass to a cover.
 
 Conversely, let $I$ be an internally injective object. Let $m : X \to Y$ be a monomorphism and let $k : X \to I$ be an arbitrary morphism. We want to show that there exists an extension $Y \to I$ of $k$ along $m$. To this end, consider the sheaf
-$$ F := \{ k' : \mathcal{H}om(Y,I) | k' \circ m = k \}. $$
+$$ F \coloneqq \{ k' : \mathcal{H}om(Y,I) | k' \circ m = k \}. $$
 One can check that $F$ is [[flabby sheaf|flabby]] (this is particularly easy using the [[internal language]], details will be added later) and therefore has a global section.
 
 =--
