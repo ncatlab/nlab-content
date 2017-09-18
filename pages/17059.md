@@ -40,7 +40,10 @@ on [[spectral algebraic geometry]].
 * 19 Applications of Artin Representability
 
 #### VI Structured Spaces
+
 * 20 Fractured $\infty$-Topoi
+
+  [[big and little toposes]]
 
 #### VII Variants of Spectral Algebraic Geometry
 
