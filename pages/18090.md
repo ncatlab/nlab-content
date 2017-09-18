@@ -511,13 +511,15 @@ $$
 
 If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that _$x$ is a closed point of $X$_.
 
+Given any subset $S \subset X$, then is _[[closure]]_ $Cl(X)$ is the smalled closed subset containing $S$.
+
 =--
 
 +-- {: .num_defn #TopologyFinerCoarser}
 ###### Definition
 **(finer/coarser topologies)**
 
-Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topologies]] on $X$,
+Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topological space|topologies]] on $X$,
 hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
 
 $$
@@ -890,6 +892,10 @@ There are also axioms that do not follow the pattern of "if certain two subsets 
 All separation axioms are satisfied by [[metric spaces]], from whom the concept of topological space was originally abstracted [above](#TopologicalSpaces). Hence imposing some of them may also be understood as gauging just how far one allows topological spaces to generalize away from metric spaces
 
 
+#### $T_n$-Topological spaces
+
+
+
 +-- {: .num_defn #HausdorffTopologicalSpace}
 ###### Definition
 
@@ -919,6 +925,39 @@ A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+A [[topological space]] is $T_1$ (def. \ref{HausdorffTopologicalSpace}) precisely if 
+all its points are [[closed points]] (def. \ref{ClosedSubset}). 
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The category of Hausdorff topological spaces is a [[reflective subcategory]] of that of all topological spaces.
+
+$$
+  Top_{Haus}
+    \underoverset{\bot}{\overset{H}{\longleftarrow}}{\hookrightarrow}
+  Top
+  \,.
+$$
+
+The [[reflector]] $H$ acts as follows: 
+
+For $(X,\tau) \in Top$ any topological space. Consider the [[equivalence relation]] on the underlying set $X$
+for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into a 
+Hausdorff space $Y$ we have $f(x) = f(y)$. Then the set of [[equivalence classes]]
+
+$$
+  H X \coloneqq X /_{\sim}
+$$
+
+equipped with the [[quotient topology]] (example \ref{QuotientTopology}) is the Hausdorffification of $X$.
+
+=--
 
 
 
