@@ -186,7 +186,7 @@ The [[Atiyah-Hirzebruch spectral sequence]] serves to express generalized cohomo
 ## References 
 
 
-* {#Whitehead62} [[George Whitehead]], _Generalized homology theories_, AMS 1962 ([pdf](http://www.ams.org/journals/tran/1962-102-02/S0002-9947-1962-0137117-6/S0002-9947-1962-0137117-6.pdf))
+* {#Whitehead62} [[George Whitehead]], _Generalized homology theories_, Transactions of the American Mathematical Society, 102 (1962) 227-283 ([pdf](http://www.ams.org/journals/tran/1962-102-02/S0002-9947-1962-0137117-6/S0002-9947-1962-0137117-6.pdf))
 
 Textbook accounts include
 
