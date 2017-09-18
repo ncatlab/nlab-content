@@ -11,7 +11,7 @@
 
 
 #Contemts#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -25,7 +25,9 @@ A semistrict model for Lie 3-algebras, analogous to that of 3-groupoids that are
 
 ## Examples
 
-* [[supergravity Lie 3-algebra]]
+* [[11d supergravity Lie 3-algebra]]
+
+* [[4d supergravity Lie 3-algebra]]
 
 ## References
 
