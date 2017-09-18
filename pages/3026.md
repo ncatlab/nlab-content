@@ -38,7 +38,7 @@ Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the t
 
   2. the [[complements]] (in $X^*$) of the [[closed subspace|closed]] [[compact space|compact]] subsets of $X$.
 
-(If $X$ is [[Hausdorff space|Hausdorff]], then it is suficient to speak of compact subsets, since [[compact subspaces of Hausdorff spaces are closed]].)
+(If $X$ is [[Hausdorff space|Hausdorff]], then it is sufficient to speak of compact subsets, since [[compact subspaces of Hausdorff spaces are closed]].)
 
 ### For non-commutative topological spaces ($C^\ast$-algebras)
 
@@ -53,7 +53,7 @@ $X^*$ is a [[compact topological space]].
 
 The evident inclusion $X \to X^*$ is an [[open map|open]] [[embedding of topological spaces]].
 
-The one-point compactification is [[universal property|universal]] among all compact spaces into which $X$ has an open embedding, so it is [[essentially unique]].
+As a pointed compact Hausdorff space, the one-point compactification of $X$ may be described by a [[universal property]]: for every pointed compact Hausdorff space $(Y, y_0)$ and every continuous map $f: X \to Y$ such that $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$, there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. This describes $X^\ast$ in an [[essentially unique]] manner.
 
 $X$ is [[dense subspace|dense]] in $X^*$ iff $X$ is not already compact.  Note that $X^*$ is technically a [[compactification]] of $X$ only in this case.
 
