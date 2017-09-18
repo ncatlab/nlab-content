@@ -122,7 +122,7 @@ for the [[pointed set]] with $n+1$ elements.
 
 A morphism in $FinSet^{*/}$ 
 
-* is called an  **[[inert morphism]]** if it is an [[injection]] on those elements that are not sent to the base point.
+* is called an  **[[inert morphism]]** if it is a surjection, and an [[injection]] on those elements that are not sent to the base point. That is, the preimage of every non-base point is a singleton.
 
 * called an **[[active morphism]]** if only the basepoint goes to the basepoint.
 
