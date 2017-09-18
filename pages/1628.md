@@ -19,7 +19,8 @@
 
 ## Idea
 
-A [[continuous map]] $f : X \to Y$ between [[topological spaces]] is called a _local homeomorphism_ if restricted to a [[neighbourhood]] of every point in its [[domain]] it becomes a [[homeomorphism]].
+A [[continuous map]] $f : X \to Y$ between [[topological spaces]] is called a _local homeomorphism_ if restricted to a [[neighbourhood]] of every point in its [[domain]] it becomes a [[homeomorphism]] onto its image which is required
+to be open.
 
 One also says that this exhibits $X$ as an [[étale space]] over $Y$.
 
