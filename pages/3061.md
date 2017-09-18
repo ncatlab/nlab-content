@@ -61,7 +61,7 @@ One can describe non-flat connections without leaving the context of Lie algebro
 
 A discussion with an emphasis on the relation to [[connection on a bundle|connections]] and [[Lie 2-algebra]]s is on the first pages of
 
-* [[Danny Stevenson]], Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
+* {#Stevenson06} [[Danny Stevenson]], Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
 
 
 [[!redirects Atiyah Lie algebroids]]
