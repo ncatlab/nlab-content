@@ -17,9 +17,15 @@
 
 In the context of [[Goodwillie calculus]] an [[(∞,1)-functor]] is called _analytic_ if it behaves in [[analogy]] with an [[analytic function]] in that it its [[Goodwillie-Taylor tower]] converges to it.
 
+## Related concepts
+
+* [[excisive (∞,1)-functor]]
+
 ## References
 
 * [[Tom Goodwillie]], section 3 of _The differential calculus of homotopy functors_ ([pdf](http://math.mit.edu/~nrozen/juvitop/goodwillie-icm.pdf))
+
+* Brenda Johnson, _The derivatives of homotopy theory_, Transactions of the AMS, Volume 347, 1995 ([pdf](http://www.ams.org/journals/tran/1995-347-04/S0002-9947-1995-1297532-6/S0002-9947-1995-1297532-6.pdf))
 
 [[!redirects analytic (∞,1)-functors]]
 
