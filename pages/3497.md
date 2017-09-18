@@ -64,9 +64,9 @@ This appears as [[Higher Topos Theory|HTT, def. 6.4.1.1]].
 
 ## Properties
 
-Write [[(∞,1)-Topos]] for the [[(∞,1)-category]] of [[(∞,1)-topos]] and [[(∞,1)-geometric morphisms]]. Write $(n,1)Topos$ for the [[(n,1)-category|(n+1,1)-category]] of $(n,1)$-toposes and geometreic moprphisms between these.
+Write [[(∞,1)-Topos]] for the [[(∞,1)-category]] of [[(∞,1)-topos]] and [[(∞,1)-geometric morphisms]]. Write $(n,1)Topos$ for the [[(n,1)-category|(n+1,1)-category]] of $(n,1)$-toposes and geometric morphisms between these.
 
-The following proposition asserts that when passing to the $(n,1)$-topos of an [[(∞,1)-topos]] $\mathcal{X}$, only the [[n-localic (∞,1)-topos|n-localic]] "Postnikiov stage" of $\mathcal{X}$ matters.
+The following proposition asserts that when passing to the $(n,1)$-topos of an [[(∞,1)-topos]] $\mathcal{X}$, only the [[n-localic (∞,1)-topos|n-localic]] "Postnikov stage" of $\mathcal{X}$ matters.
 
 
 +-- {: .un_prop}
