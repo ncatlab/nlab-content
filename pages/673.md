@@ -19,11 +19,11 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 * _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](http://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
 
-* _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
-Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
-
 
 ### Papers
+
+* _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
+Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Accepted (20th April 2017) to appear, [Advances in Theoretical and Mathematical Physics](http://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/).
 
 * _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the proceedings of [Higher Structures:Advances](http://www.matrix-inst.org.au/events/higherstructures/) at the [MATRIX institute](http://www.matrix-inst.org.au/). (Accepted 13 December 2016)
 
