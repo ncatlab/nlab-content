@@ -476,7 +476,7 @@ $$
 
 ##### Homotopy
 
-The fundamental concept of [[homotopy theory]] is that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|contiunous]] deformations of [[continuous functions]] parameterized by the standard interval:
+The fundamental concept of [[homotopy theory]] is clearly that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|contiunous]] deformations of [[continuous functions]] parameterized by the standard interval:
 
 +-- {: .num_defn #TopologicalInterval}
 ###### Definition
@@ -516,13 +516,19 @@ $$
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
 
-For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]** $f \Rightarrow_L g$ is a [[continuous function]]
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]** 
+
+$$
+  \eta \colon f \,\Rightarrow_L\, g
+$$ 
+
+is a [[continuous function]]
 
 $$
   \eta \;\colon\; X \times I \longrightarrow Y
 $$
 
-out of the [[product topological space]] of $X$ with the standard interval of def. \ref{TopologicalInterval}, such that this fits into a [[commuting diagram]] of the form
+out of the standard [[cylinder object]] over $X$, def. \ref{TopologicalInterval}, such that this fits into a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -546,8 +552,8 @@ $$
 
 A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
 is called a **[[homotopy equivalence]]** if there exists a 
-continuous function $X \longleftarrow Y \;\colon\; g$
-and [[left homotopies]], def. \ref{LeftHomotopy}
+continuous function the other way around,
+$g \;\colon\; Y \longrightarrow X$, and [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
 
 $$
   \eta_1 \;\colon\; f\circ g \Rightarrow_L id_Y
@@ -574,7 +580,7 @@ Another key application of the concept of left homotopy is to the definition of 
 For $X$ a [[topological space]], then its set $\pi_0(X)$
 of _[[connected components]]_, also called the **0-th homotopy set**, 
 is the set of 
-[[left homotopy]]-[[equivalence classes]] of points $\ast \to X$,
+[[left homotopy]]-[[equivalence classes]] of points $x \colon \ast \to X$,
 def.\ref{LeftHomotopy}. By [[composition]] this extends to a [[functor]]
 
 $$
@@ -582,8 +588,8 @@ $$
   \,.
 $$
 
-For $n \in \mathb{N}$, $n \geq 1$ and for $x \colon \ast \to X$
-any point, then the $n$th **[[homotopy group]]** $\pi_n(X)$ of $X$ at $x$
+For $n \in \mathbb{N}$, $n \geq 1$ and for $x \colon \ast \to X$
+any point, then the $n$th **[[homotopy group]]** $\pi_n(X,x)$ of $X$ at $x$
 is the [[group]] 
 
 * whose underlying [[set]] is the set of [[left homotopy]]-[[equivalence classes]] of maps $I^n \longrightarrow X$ that take the [[boundary]] of $I^n$ to $x$ and where the left homotopies $\eta$ are constrained to be constant on the boundary;
