@@ -154,6 +154,8 @@ For [[traced monoidal categories]] in
 
 * [[Andre Joyal]], [[Ross Street]] and [[Dominic Verity|Verity]], _Traced monoidal categories_.
 
+*  David I. Spivak, Patrick Schultz, Dylan Rupel, _String diagrams for traced and compact categories are oriented 1-cobordisms_, [arxiv](https://arxiv.org/abs/1508.01069)
+
 For [[indexed monoidal categories]] in
 
 * {#BradyTrimble98} Geraldine Brady, [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_ (1998)
