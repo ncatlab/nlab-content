@@ -17,4 +17,12 @@ A derived Morita equivalence in the context of [[homological mirror symmetry]] a
 
 * [[Stefan Schwede]] _Morita theory in abelian, derived and stable model categories_ ([arXiv:math/0310146](http://arxiv.org/abs/math/0310146))
 
+In the setting of [[dg-categories]]:
+
+* [[B. Toen]], _The homotopy theory of dg-categories and derived Morita theory_, [arXiv:math/0408337](http://arxiv.org/abs/math/0408337).
+
+In the setting of [[stable (infinity,1)-categories]] (section 4):
+
+* [[Andrew J. Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _A universal characterization of higher algebraic K-theory_, [arXiv:1001.2282](http://arxiv.org/abs/1001.2282v4).
+
 * {#Okada09} So Okada, _Homological mirror symmetry of Fermat polynomials_ ([arXiv:0910.2014](http://arxiv.org/abs/0910.2014))
