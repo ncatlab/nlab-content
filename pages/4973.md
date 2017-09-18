@@ -14,11 +14,11 @@
 
 ## Idea
 
-Given a geometric morphism $f : \mathcal{E} \to \mathcal{S}$, we can regard $\mathcal{E}$ as a *[[topos]] [[base topos|over]] $\mathcal{S}$* via $f$.  The geometric morphism $f$ being *bounded* is the "over $\mathcal{S}$" version of $\mathcal{E}$ being a [[Grothendieck topos]].
+Given a [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}$, we may regard $\mathcal{E}$ as a *[[topos]] [[base topos|over]] $\mathcal{S}$* via $f$.  The geometric morphism $f$ being *bounded* is the "over $\mathcal{S}$" version of $\mathcal{E}$ being a [[Grothendieck topos]].
 
 ## Definition
 
-A [[geometric morphism]] $f : \mathcal{E} \to \mathcal{S}$ between [[topos]]es is called **bounded** if there exists an object  $B \in \mathcal{E}$ -- called a **bound** of $f$ -- such that for every $A \in \mathcal{E}$ the following equivalent conditions hold:
+A [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}$ between [[toposes]] is called **bounded** if there exists an [[object]]  $B \in \mathcal{E}$ -- called a **bound** of $f$ -- such that for every $A \in \mathcal{E}$ the following equivalent conditions hold:
 
 * $A$ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \in \mathcal{S}$: this means that there exists a diagram
 
@@ -41,16 +41,20 @@ If we regard $\mathcal{E}$ as a topos over $\mathcal{S}$ via $f$, then when $f$ 
 
 ## Properties
 
-If $f := \Gamma\colon \mathcal{E}\to Set$ is the [[global section]] geometric morphism of a topos (such a geometric morphism being unique if it exists), then it is bounded if and only if $\mathcal{E}$ is a [[Grothendieck topos]]. As such we can also call Grothendieck toposes "bounded $Set$-toposes".
+### As relative Grothendieck toposes
 
-More generally, bounded toposes over $\mathcal{S}$ are precisely the toposes of $\mathcal{S}$-valued sheaves on internal sites in $\mathcal{S}$ (see Section B3.3 in the [[Elephant]]).
+If $f \coloneqq \Gamma\colon \mathcal{E}\to Set$ is the [[global section]] geometric morphism of a topos (such a geometric morphism being unique if it exists), then it is bounded if and only if $\mathcal{E}$ is a [[Grothendieck topos]]. As such we can also call Grothendieck toposes "bounded [[Set]]-toposes".
 
-If $f:\mathcal{E}\to\mathcal{S}$ is bounded and $\mathcal{S}$ is a [[Grothendieck topos]], then $\mathcal{E}$ is a Grothendieck topos as well. This is a consequence of the following.
+More generally, bounded toposes over $\mathcal{S}$ are precisely the toposes of $\mathcal{S}$-valued [[internal sheaves]] on [[internal sites]] in $\mathcal{S}$ ([Johnstone, Section B3.3](#Johnstone)).
 
-+-- {: .num_prop}
+If $f \colon \mathcal{E}\to\mathcal{S}$ is bounded and $\mathcal{S}$ is a [[Grothendieck topos]], then $\mathcal{E}$ is a Grothendieck topos as well. This is a consequence of prop. \ref{StabilityUnderComposition}.
+
+### Stability under composition
+
++-- {: .num_prop #StabilityUnderComposition}
 ###### Proposition
 
-Bounded geometric morphisms are stable under composition.
+Bounded geometric morphisms are stable under [[composition]].
 
 =--
 
@@ -85,7 +89,7 @@ Almost all geometric morphisms in practice are bounded, so that often when peopl
 
 definition B3.1.7 in
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
 
 [[!redirects bounded geometric morphisms]]
