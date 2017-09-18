@@ -52,4 +52,32 @@ A $G$-grading is a map $\operatorname{deg}\colon \Lambda_\mathcal{C} \to G$ such
 
 * Every fusion category has the trivial grading from the trivial group.
 * $G$-graded vector spaces for a finite group $G$ are naturally a graded fusion category.
-* 
+* The universal grading, see below.
+* [[Braided $G$-crossed fusion categories]] are a [[categorification]] of [[crossed module]]s, and therefore carry a grading as part of the data.
+
+## Universal grading
+
+From the definition, it is clear that gradings are covariant in the group.
+A group homomorphism $\phi\colon G \to H$ gives an obvious map of the set of gradings:
+
+$$ \mathcal{C} \simeq \bigoplus_{h \in H} \bigoplus_{g \in \phi^{-1}(h)} \mathcal{C}_g $$
+
+or
+
+$$ \operatorname{deg}_H = \phi \circ \operatorname{deg}_G $$
+
+Morphisms of gradings are therefore simply group homomorphisms.
+
+For every fusion category $\mathcal{C}$, there exists a universal grading by a group $U_\mathcal{C}$.
+It has the following properties:
+
+* It is faithful.
+* The trivial component is the full fusion subcategory spanned by objects of the form $X \otimes X^*$.
+* Every full fusion subcategory $\mathcal{D} \subset \mathcal{C}$ containing the trivial component is of the form $\mathcal{D} \simeq \bigoplus_{h \in H} \mathcal{C}_h$ for some subgroup $H \subset U_\mathcal{C}$.
+* The group of monoidal automorphisms of the identity functor is canonically isomorphic to $\operatorname{Hom}(U_\mathcal{C}, k^\times)$.
+
+## References ##
+
+* Shlomo Gelaki, Dmitri Nikshych, [Nilpotent fusion categories](https://arxiv.org/abs/math/0610726)
+* [[Pavel Etingof]], Dmitri Nikshych, Victor Ostrik, with an appendix by Ehud Meir, [Fusion categories and homotopy theory](https://arxiv.org/abs/0909.3140v2)
+* Vladimir Drinfeld, Shlomo Gelaki, Dmitri Nikshych, Victor Ostrik, [On braided fusion categories I](https://arxiv.org/abs/0906.0620)
