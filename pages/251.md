@@ -57,7 +57,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 ## Examples ##
 
-* If $C$ is a [[2-category]], we have a double category $Sq(C)$ whose objects are those of $C$, both of whose types of morphisms are the morphisms in $C$, and whose squares are 2-cells in $C$ with their source and target both decomposed as a composite of two morphisms.  (These squares are sometimes called *quintets* $(\alpha,f,g,h,k)$ where $\alpha\colon f g \to h k$.)
+* If $C$ is a [[2-category]], we have a double category $Sq(C)$ whose objects are those of $C$, both of whose types of morphisms are the morphisms in $C$, and whose squares are 2-cells in $C$ with their source and target both decomposed as a composite of two morphisms.  (These squares are sometimes called *quintets* $(\alpha,f,g,h,k)$ where $\alpha\colon f g \to h k$, and so this double category is said to be a [[quintet construction]].)
 
   (In this example, the two edge categories coincide.  Double categories with this property are called **edge-symmetric**.)
 
@@ -181,6 +181,10 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 
 * [[double profunctor]]
 
+* [[monoidal double category]], [[locally double bicategory]]
+
+* [[triple category]], [[intercategory]]
+
 
 ## References ##
 
@@ -209,3 +213,5 @@ and crossed  complexes,](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_
 [[!redirects horizontal 2-category]]
 [[!redirects pseudo double category]]
 [[!redirects pseudo double categories]]
+[[!redirects strict double category]]
+[[!redirects strict double categories]]
