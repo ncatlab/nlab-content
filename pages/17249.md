@@ -1,0 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mapping spaces
++--{: .hide}
+[[!include mapping space - contents]]
+=--
+=--
+=--
+
+In [[categories]] like [[sSet]], the [[internal hom]] $[X,Y]$ between two [[objects]] is often called the _function complex_ ("[[simplicial complex]] of [[functions]] from $X$ to $Y$).
+
+[[!redirects function complexes]]
+
