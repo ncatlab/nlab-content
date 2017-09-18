@@ -66,6 +66,18 @@ $$
 
 =--
 
+## Properties
+
+### Closure properties
+
+
+(e.g. [MMSS 00, theorem 7.4 ](#MMSS00))
+
+
+## References
+
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
 
 [[!redirects stable weak homotopy equivalences]]
 
