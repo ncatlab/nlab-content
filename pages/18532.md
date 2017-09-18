@@ -29,18 +29,20 @@ $$
     \hat X
   }
 $$
-Regarding that we the distributions are not the maps from the underlying space we need to replace pre-composition $X\to\tilde{X}$ by the appropriate pullback operation; if $X\to\tilde{X}$ is an open embedding this will be the operation of restriction of distributions dual to the operation of extension by zero of test functions. 
+
+Regarding that we the distributions are not the maps from the underlying space we need to replace pre-composition $X\to\tilde{X}$ by the appropriate [[pullback of distributions]]; if $X\to\tilde{X}$ is an [[open embedding]] this will be the operation of [[restriction of distributions]] ([this example](pullback+of+a+distribution#RestrictionOfDistributions)) dual to the operation of extension by zero of test functions. 
 
 ## Definition
 
 For an inclusion of two open sets on a manifold $U\subset V$ there is an operator of _extension by zero_ $E_{V U}: C^\infty_0(U)\to C^\infty_0(V)$ where $E_{V U}(f)(x) = f(x)$ if $x\in U$ and $E_{U V}(f)(x) = 0$ otherwise. 
-The __restriction__ $\rho_{U V} : \mathcal{D}'(V)\to \mathcal{D}'(U)$ is then defined by 
+The __[[restriction of distributions]]__ $\rho_{U V} : \mathcal{D}'(V)\to \mathcal{D}'(U)$ is then defined by 
 $$
 \langle \rho_{U V}(\phi), f\rangle = \langle \phi, E_{V U} f\rangle,
 \,\,\,\,\,\,\,f\in C^\infty_0(U),\,\phi\in \mathcal{D}'(V).
 $$
 
-That's the [[pullback of distributions]] along $U \subset V$ accordng to [this prop.](PullbackOfDistributionAlongSubmersion).
+([this example](pullback+of+a+distribution#RestrictionOfDistributions)).
+
 
 Now the diagram in the idea section makes sense in the following way:
 for an open embedding $X\hookrightarrow\hat{X}$, $\hat{u}\in\mathcal{D}'(\hat{X})$ __extends__ $u\in \mathcal{D}'(X)$ if $\rho_{X\hat{X}}(\hat{u}) = u$.  
