@@ -38,7 +38,7 @@ The **simplicial identities** satisfied by face and degeneracy maps as above are
 
 1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
 
-1. $\partial_i \circ s_j =  \left\{ \array{ s_{j-1} \circ \partial_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ \partial_{i-1} &  if i \gt j+1 } \right. $
+1. $\partial_i \circ s_j =  \left\{ \array{ s_{j-1} \circ \partial_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ \partial_{i-1} &  if\; i \gt j+1 } \right. $
 
 =--
 
