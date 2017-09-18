@@ -50,7 +50,7 @@ Wilson loop insertions may be thought of or at least related to _defects_ in the
 
 ### In Chern-Simons theory
 
-In $SU(3)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jones polynomial]] of the given curve. See there for more details.
+In $SU(2)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jones polynomial]] of the given curve. See there for more details.
 
 
 ## Related entries
