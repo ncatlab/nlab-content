@@ -15,9 +15,9 @@ Proof by contradiction is used frequently in [[classical mathematics]].
 
 While this method of proof is classical, it has some peculiar consequences. Notably when $P$ is an [[existential quantification|existential statement]] of the form "there exists an object $X$ with the property $Y$", then a proof of such existence by contradiction alone gives no means to actually construct an example. 
 
-One also says that proof by contradiction is "non-constructive" and that a proof not invoking the [[principle of excluded middle]] is a "constructive" proof, see at _[[constructive logic]]_ and _[[constructive mathematics]]_. 
+Therefore one also says that proof by contradiction is "non-constructive" and that an alternative proof not invoking the [[principle of excluded middle]] (if it exists) is a "constructive" proof, see at _[[constructive logic]]_ and _[[constructive mathematics]]_. 
 
-One should take care to separate proof by contradiction from the [[proof of negation]], which nevertheless involves the derivation of a contradiction: assuming the truth of $P$, a contradiction is found, and one concludes that $\neg P$. This remains constructively valid, since it simply uses the constructive _meaning_ of [[negation]] (see [Bauer 2010]({#bauer})).
+One should take care to distinguish proof by contradiction from _[[proof of negation]]_, which nevertheless involves the derivation of a contradiction: assuming the truth of $P$, a contradiction is found, and one concludes that $\neg P$. This remains [[constructive mathematics|constructively]] valid, since it simply uses the constructive _meaning_ of [[negation]] (see [Bauer 2010](#bauer)).
 
  
 ## Related concepts
