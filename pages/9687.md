@@ -35,6 +35,7 @@ While confinement in plain [[Yang-Mills theory]] is still waiting for mathematic
 ## References
 
 ### In Yang-Mills theory
+ {#ReferencesInYangMillsTheory}
 
 #### General
 
@@ -75,6 +76,7 @@ For further developments see
 * _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
 
 ### In super-Yang-Mills theory and under AdS/CFT correspondence
+ {#ReferencesInSuperYangMillsTheory}
 
 Confinement in [[N=2 D=4 super Yang-Mills theory]] by a version of the monopole condensation of ([t Hooft 75](#Hooft75), [Mandelstam 76](#Mandelstam76)) was demonstrated in
 
