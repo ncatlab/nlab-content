@@ -21,7 +21,7 @@ Therefore one also says that proof by contradiction is "non-constructive" and th
 
 One should take care to distinguish proof by contradiction from _[[proof of negation]]_, which nevertheless involves the derivation of a contradiction: assuming the truth of $P$, a contradiction is found, and one concludes that $\neg P$. This remains [[constructive mathematics|constructively]] valid, since it simply uses the constructive _meaning_ of [[negation]] (see [Bauer 2010](#bauer)). 
 
-Since this distinction is sometimes hard for those who have learned classical logic to the point it becomes hard to unlearn, here is another way of putting it: 
+Since this distinction is sometimes hard for those who have learned classical logic to the point it becomes hard to unlearn, here is another way of putting it (also mentioned by Bauer): 
 
 * A proof by contradiction is where you argue "suppose $P$ is false; then [argue blah blah blah]..., contradiction. Therefore $P$ is true. 
 
