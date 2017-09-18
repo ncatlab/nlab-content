@@ -25,10 +25,11 @@ $$a^2 + b^2 = c^2,$$
 
 where $c$ denotes the length of the hypotenuse of a right triangle, and $a, b$ are the lengths of the other two sides. 
 
-It was apparently known (in some form or other) by a number of ancient civilizations (Mesopotamia, circa 1800 BCE[^1]; China, Zhou Dynasty, circa 1000 BCE[^2]), and appears in [[Euclid]]'s _[[Elements]]_ as a capstone result of Book 1 (as Proposition 47, and Proposition 48 for the converse). [Wikipedia](http://en.wikipedia.org/wiki/Pythagorean_theorem#Pythagorean_triples) mentions, but without a citation, that certain megalithic monuments in Northern Europe indicate that [[Pythagorean triples]] were known even before the invention of writing systems. 
+It was apparently known (in some form or other) by a number of ancient civilizations (Mesopotamia, circa 1800 BCE[^1]; China, Zhou Dynasty, circa 1000 BCE[^2]), and appears in [[Euclid]]'s _[[Elements]]_ as a capstone result of Book 1 (as Proposition 47, and Proposition 48 for the converse). [Wikipedia](http://en.wikipedia.org/wiki/Pythagorean_theorem#Pythagorean_triples) mentions, but without a citation, that certain megalithic monuments in Northern Europe indicate that [[Pythagorean triples]] were known even before the invention of writing systems.[^2.5] 
 
 [^1]: See [Maor](#Maor), chapter 1. 
 [^2]: See [Wikipedia](http://en.wikipedia.org/wiki/Zhou_Bi_Suan_Jing), which exhibits an apparent proof based on the famous 'pinwheel' configuration. 
+[^2.5]: On the other hand, the oft-repeated mention of the use of knotted ropes or the like in Ancient Egypt, to mark off 3-4-5 triangles and hence right angles, appears to have no scholarly backing whatsoever. 
 
 While it was traditional among ancient historians to credit Pythagoras with the first recorded [[proof]] (at least the first from Hellenic civilization), there is cause to believe that this (semi-legendary) individual had little to do personally with such a proof or even with mathematics generally within his school -- without however there being doubt that this result and other mathematical ideas were vigorously discussed and developed by the Pythagoreans. 
 
