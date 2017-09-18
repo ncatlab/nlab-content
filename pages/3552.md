@@ -120,7 +120,7 @@ $$
      \\
      \downarrow && \downarrow
      \\
-     D(n) &\to& (B \otimes \wedge^ \bullet \langle b \rangle, d b = \phi) 
+     D(n) &\to& (A \otimes \wedge^ \bullet \langle b \rangle, d b = \phi) 
   }
 $$ 
 
