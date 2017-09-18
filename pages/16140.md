@@ -1,3 +1,9 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 _Semi-topological K-theory_ $K_*^{st}$ is a [[homology theory|homological invariant]] of complex [[noncommutative spaces]] that interpolates between [[algebraic K-theory]] and [[topological K-theory]]. It is defined by starting with the presheaf defined by [[nonconnective algebraic K-theory]], taking the associated [[etale topology|etale]] [[infinity-sheaf|sheaf]], making it $\mathbf{A}^1$-[[homotopy invariant]], and finally taking the topological realization of the resulting presheaf. One recovers [[topological K-theory]] from this by inverting the [[Bott element]].
