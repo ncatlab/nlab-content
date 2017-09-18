@@ -20,7 +20,7 @@
 ## Idea
 
 
-The _associahedra_ or _Stasheff polytopes_ $\{K_n\}$ are [[CW complex]]es that naturally arrange themselves into an topological [[operad]] that resolves the standard associative operad: an [[A-infinity-operad]]. 
+The _associahedra_ or _Stasheff polytopes_ $\{K_n\}$ are [[CW complex]]es that naturally arrange themselves into a topological [[operad]] that resolves the standard associative operad: an [[A-infinity-operad]]. 
 
 The vertices of $K_n$ correspond to ways in which one can bracket a product of $n$ variables. The edges correspond to rebracketings, the faces relate different sequences of rebracketings that lead to the same result, and so on.
 
