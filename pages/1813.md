@@ -27,12 +27,10 @@ $$
 $$
 
 into a [[cocomplete category]] $C$ (possibly a $V$-[[enriched category]] with $V$ some [[complete category|complete]] [[symmetric monoidal category]]) induces a pair of [[adjoint functors]]
-
 $$
-   |-| : [S^{op}, V]\stackrel{\leftarrow}{\to} C : N
+   C \stackrel{\xleftarrow{|-|}}{\underset{N}{\rightarrow}} [S^{op}, V],
 $$
-
-between $C$ and the [[category of presheaves]] $PSh(C) = [S^{op}, V]$ on $S$ (here $V$ = [[Set]] for the unenriched case)
+where $N \dashv |-|$, between $C$ and the [[category of presheaves]] $PSh(C) = [S^{op}, V]$ on $S$ (here $V$ = [[Set]] for the unenriched case)
 
 where 
 
