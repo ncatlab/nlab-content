@@ -231,9 +231,25 @@ $$
 
 The solution $\frac{ 2 r^2 + 2  }{ 2 r^2 + 2 } = 1$ violates the first condition above, while the solution $\frac{ 2 r^2 - 2  }{ 2 r^2 + 2 } \lt 1$ satisfies it.
 
-Therefore we have a unique solution.
+Therefore we have a unique solution, given by
 
-So far we have shown that stereographic projection is a bijective continuous function as claimed. To conclude that this is a homeomorphism, it is now sufficient to see that $\sigma$ the [[inverse function]] of $\sigma$ is also continuous, hence that $\sigma$ itself  (under taking [[images]]) sends open subsets of $S^n \backslash \{p\}$ to open subsets of $\mathbb{R}^n$.
+$$
+  \left(
+    \sigma\vert_{S^n \backslash \{p\}}
+  \right)^{-1}(0,y_2, \cdots, y_{n+1})
+  \;=\;
+  \left(
+    \frac{2 r^2 - 2}{2 r^2 +2}
+    , 
+    \left( 1- \frac{2 r^2 - 2}{2 r^2 +2} \right) y_2
+    ,
+    \cdots
+    ,
+    \left( 1- \frac{2 r^2 - 2}{2 r^2 +2} \right) y_{n+1}
+  \right)
+$$
+
+So far we have shown that stereographic projection is a bijective continuous function as claimed. To conclude that this is a homeomorphism, it is now sufficient to see that the [[inverse function]] of $\sigma$ is also continuous, hence that $\sigma$ itself  (under taking [[images]]) sends open subsets of $S^n \backslash \{p\}$ to open subsets of $\mathbb{R}^n$.
 
 Since taking images preserves unions, it is sufficient to check this on the canonical [[base for the topology]], which is given by those subsets that are intersections 
 
@@ -242,7 +258,7 @@ $$
 $$
 
 
-of [[open balls]] $B^\circ_x(\eosilon) \subset \mathbb{R}^{n+1}$ in the ambient Euclidean space. It is clear (...) that the images of these intersections in the equatorial hyperplane are open.
+of [[open balls]] $B^\circ_x(\epsilon) \subset \mathbb{R}^{n+1}$ in the ambient Euclidean space. It is clear (...) that the images of these intersections in the equatorial hyperplane are open.
 
 
 =--
