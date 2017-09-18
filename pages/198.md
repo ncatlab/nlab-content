@@ -14,7 +14,7 @@
 
 ## Idea
 
-The notion of _representation_ is closely related to, or even identical, to that of [[action]]: some object $C$ that has a notion of [[composition]] is _represented_ on some object $D$ that has a notion of composition. In this generality _representation_ is just another word for [[functor]] (or potentially $\infty$-[[infinity-functor|functor]]). But in practice the term _representation_ is typically used in the context of [[representation theory]], where attempt to study $C$ in terms of its representations in $D$, where $D$ is typically rather more familiar.
+The notion of _representation_ is closely related to, or even identical, to that of [[action]]: some object $C$ that has a notion of [[composition]] is _represented_ on some object $D$ that has a notion of composition. In this generality _representation_ is just another word for [[functor]] (or potentially $\infty$-[[infinity-functor|functor]]). But in practice the term _representation_ is typically used in the context of [[representation theory]], where we attempt to study $C$ in terms of its representations in $D$, where $D$ is typically rather more familiar.
 
 Most specifically, one studies representations of a [[group]] by linear endomorphisms of a [[vector space]]; that is, $C$ is (the [[delooping]] of) a group and $D$ is [[Vect]].  However, the typical tools in representation theory these days involve vast generalizations of the notion of a linear representation of a group; for instance, one studies [[D-module]]s on [[action groupoid]]s $G //_{Ad}G$ and things like that. This may be thought of as studying representations with values in [[schreiber:∞-vector bundle|∞-vector space]]s.
 
