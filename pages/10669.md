@@ -1,4 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,6 +29,10 @@
 A [[locally representable structured (∞,1)-topos]] in [[E-∞ geometry]].
 
 The refinement of the notion of [[scheme]] from [[algebraic geometry]] to [[E-∞ geometry]].
+
+## Examples
+
+* [[spectral affine line]]
 
 ## Related concepts
 
