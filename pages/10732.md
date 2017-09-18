@@ -20,7 +20,7 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 =--
 
-A proof is spelled out in ([Kochmann 96, theorem 4.4.9](#Kochmann96)), aslo ([Hopkins 99, section 2](#Hopkins99)), reviewed in ([Mathew 12](#Mathew12), [Wilson 13](#Wilson13)). Also ([Lurie 10, lecture 2, theorem 4](#LurieLect2)) and [Lurie 10, lecture 3](#LurieLect3).
+A proof is spelled out in ([Kochmann 96, theorem 4.4.9](#Kochmann96)). Another proof is indicated in ([Hopkins 99, section 2](#Hopkins99)), worked out in ([Mathew 12](#Mathew12), [Wilson 13](#Wilson13)). Also ([Lurie 10, lecture 2, theorem 4](#LurieLect2)) and ([Lurie 10, lecture 3](#LurieLect3)).
 
 ## Related theorem
 
