@@ -113,7 +113,7 @@ $$
   \,,
 $$
 
-and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
+{#SuspensionIsomorphismForReducedGeneralizedCohomology} and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
 
 $$
   \sigma
@@ -145,7 +145,7 @@ such that:
 
 We say $\tilde E^\bullet$ is **additive** if in addition
 
-* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
+* {#WedgeAxiom} **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
 
   $$
     \tilde E^\bullet(\vee_{i \in I} X_i) 
@@ -756,7 +756,7 @@ The construction in def. \ref{FromUnreducedToReducedCohomology} indeed gives a r
 +-- {: .proof}
 ###### Proof
 
-We need to check the exactness axiom given any $A\hookrightarrow X$. By lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient} we have an isomorphism
+We need to check the [exactness axiom](#ExactnessUnreduced) given any $A\hookrightarrow X$. By lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient} we have an isomorphism
 
 $$
   \tilde E^\bullet(X \cup Cone(A))
@@ -1200,7 +1200,7 @@ See also example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForThe
 
 ##### Homotopy-theoretic discussion
 
-Using abstract [[homotopy theory]] in the guise of [[model category]] theory, the proof of the Brown representability theorem becomes more transparent ([Lurie, section 1.4.1](#LurieHigherAlgebra), for exposition see also [Mathew 11](Brown+representability+theorem#Mathew11)). 
+Using abstract [[homotopy theory]] in the guise of [[model category]] theory (see the _[[Introduction to Stable homotopy theory -- P|lecture notes on classical homotopy theory]]), the proof of the Brown representability theorem becomes more transparent ([Lurie, section 1.4.1](#LurieHigherAlgebra), for exposition see also [Mathew 11](Brown+representability+theorem#Mathew11)). 
 
 This abstract homotopy-theoretic proof uses the general concept of [[homotopy colimits]] in [[model categories]] as well as the concept of [[derived hom-spaces]] ("[[(∞,1)-category|∞-categories]]"). Even though in the accompanying [[Introduction to Stable homotopy theory -- P|Lecture notes on classical homotopy theory]] these concepts are only briefly indicated, the following is included for the interested reader.
 
@@ -1807,22 +1807,28 @@ The [[Atiyah-Hirzebruch spectral sequence]] in turn is a consequence of the "[[C
 We need the AHSS for instance for the computation of [[Conner-Floyd Chern classes]] [below](#ConnerFloydChernClasses).
 
 
-**Literature.** ([Kochman 96, section 2.2 and 4.2](#Kochman96))
+**Literature.** ([Kochman 96, section 2.2 and 4.2](#Kochman96)) 
 
-$\,$
+See also the accompanying  _[[Introduction to Stable homotopy theory -- I|lecture notes on spectral sequences]]_. 
+
+##### Converging spectral sequences
 
 +-- {: .num_defn #CohomologySpectralSequence}
 ###### Definition
 
-A _cohomology [[spectral sequence]]_ $\{E_r^{p,q}, d_r\}$ is
+A **cohomology [[spectral sequence]]** $\{E_r^{p,q}, d_r\}$ is
 
-1. a sequence $\{E_r^{\bullet,\bullet}\}$ $r \in \mathbb{Z}$, $r \geq 2$ of [[bigraded object|bigraded]] [[abelian groups]];
+1. a sequence $\{E_r^{\bullet,\bullet}\}$ (for $r \in \mathbb{N}$, $r \geq 2$) of [[bigraded object|bigraded]] [[abelian groups]];
 
-1. a sequence of [[differentials]] $\{d_r \colon E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}$
+1. a sequence of [[linear maps]] ("[[differentials]]") 
+
+   $$
+     \{d_r \colon E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}
+   $$
 
 such that 
 
-* $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$.
+* $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$, for all $r \in \mathbb{N}$, $r \geq 1$.
 
 Given a $\mathbb{Z}$-[[graded abelian group]]_ $C^\bullet$ equipped with a decreasing [[filtration]]
 
@@ -1835,7 +1841,7 @@ $$
   C^\bullet = \underset{s}{\cup} F^s C^\bullet \;\;\;\; and \;\;\;\; 0 = \underset{s}{\cap} F^s C^\bullet
 $$
 
-then the spectral sequence is said to _converge_ to  $C^\bullet$, denoted, 
+then the spectral sequence is said to **converge** to  $C^\bullet$, denoted, 
 
 $$
   E_2^{\bullet,\bullet} \Rightarrow C^\bullet
@@ -1852,9 +1858,9 @@ if
    $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
 
 
-The converging spectral sequence is called a _[[multiplicative spectral sequence]]_ if 
+{#MultiplicativeSpectralSequence} The converging spectral sequence is called a **[[multiplicative spectral sequence]]** if 
 
-1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object]] [[associative algebra|algebra]];
+1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object|bigraded]] [[associative algebra|algebra]];
 
 1. $F^\bullet C^\bullet$ is equipped with the structure of a filtered [[graded algebra]] ($F^p C^k \cdot F^q C^l \subset F^{p+q} C^{k+l}$);
 
@@ -1866,10 +1872,12 @@ such that
 
 =--
 
+A useful way to generate spectral sequences is via [[exact couples]]:
+
 +-- {: .num_defn #ExactCoupleAndDerivedExactCouple}
 ###### Definition
 
-An _[[exact couple]]_ is three [[homomorphisms]] of [[abelian groups]] of the form
+An **[[exact couple]]** is three [[homomorphisms]] of [[abelian groups]] of the form
 
 $$
   \array{
@@ -1888,7 +1896,7 @@ $$
   \,.
 $$
 
-Given an exact couple, then its _derived exact couple_ is
+Given an exact couple, then its **derived exact couple** is
 
 $$
   \array{
@@ -1907,7 +1915,7 @@ $$
 ###### Proposition
 **(cohomological spectral sequence of an exact couple)**
 
-Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, 
+Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, of the form
 
 $$
   \array{
@@ -1919,7 +1927,7 @@ $$
   }
 $$
 
-its derived exact couple 
+then its derived exact couple 
 
 $$
   \array{
@@ -1941,6 +1949,8 @@ $$
     \\
     && E_r
   }
+  \;\;\;\;\;\;
+  for \; r \in \mathbb{N}
   \,.
 $$
 
@@ -1960,7 +1970,7 @@ $$
   \end{aligned}
 $$
 
-is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}.
+is a cohomological [[spectral sequence]], def. \ref{CohomologySpectralSequence}.
 
 If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$ 
 
@@ -1971,7 +1981,9 @@ If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$
 then this spectral sequence converges to the [[inverse limit]] group
 
 $$
-  G^\bullet \coloneqq \underset{}{\lim}
+  G^\bullet 
+    \coloneqq 
+  \underset{\longleftarrow}{\lim}
   \left(
     \cdots \stackrel{g}{\to} D^{s,\bullet-s} \stackrel{g}{\longrightarrow} D^{s-1, \bullet - s + 1}
    \stackrel{g}{\to}
@@ -1991,7 +2003,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By exactness of the exact couple, the kernel
+By exactness of the exact couple, the [[kernel]]
 
 $$
   ker(d_{r-1}) \coloneqq ker(h \circ g^{-r+2} \circ f)
@@ -2042,25 +2054,39 @@ $$
 
 =--
 
+##### The AHSS
 
 +-- {: .num_prop #AHSSExistence}
 ###### Proposition
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
-Let $A$ be a [[generalized (Eilenberg-Steenrod) cohomology]] functor such that $A^\bullet(\ast)$ is bounded below. Let $B$ be a [[simply connected topological space|simply connected]] finite [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[fibration]] with fibers $F$. Then there is a cohomology spectral sequence, def. \ref{CohomologySpectralSequence} whose $E_2$-page is the [[ordinary cohomology]] of $B$ with [[coefficients]] in the $A$-[[generalized cohomology]] of the fiber, and which converges to the $A$-cohomology of the total space
+
+Let $A^\bullet$ be a an unreduced additive [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] functor (def. \ref{GeneralizedCohomologyTheory}) such that its value $A^\bullet(\ast)$ on the point is bounded below in degree. Let $B$ be a [[simply connected topological space|simply connected]] [[finite CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[fibration]] with [[fibers]] $F$. Then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
 $$
-  E_2^{p,q} = 
-  H^p(B, A^q(F)) \Rightarrow A^\bullet(X)
+  E_2^{p,q} 
+    = 
+  H^p(B, A^q(F)) 
+   \;
+    \Rightarrow 
+   \;
+  A^\bullet(X)
 $$ 
 
 with respect to the filtering given by
 
 $$
-  F^p A^\bullet(X) \coloneqq ker(A^\bullet(X) \to A^\bullet(X_{p-1}))
+  F^p A^\bullet(X) 
+   \coloneqq 
+  ker\left(
+    A^\bullet(X) 
+      \to 
+    A^\bullet(X_{p-1})
+  \right)
+  \,,
 $$
 
-where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the [[CW-complex]] $B$.
+where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the [[CW-complex]] $B = \underset{\longleftarrow}{\lim}_n B_n$.
 
 
 =--
@@ -2068,7 +2094,7 @@ where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the
 +-- {: .proof}
 ###### Proof
 
-The [exactness axiom](generalized+%28Eilenberg-Steenrod%29+cohomology#ExactnessUnreduced) for $A$ gives an [[exact couple]], def. \ref{ExactCoupleAndDerivedExactCouple} of the form
+The [exactness axiom](#ExactnessUnreduced) for $A$ gives an [[exact couple]], def. \ref{ExactCoupleAndDerivedExactCouple}, of the form
 
 $$
   \array{
@@ -2082,12 +2108,14 @@ $$
     \\
     && A^{s+t}(X_{s}, X_{s-1})
   }
+  \,,
 $$
 
 where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$. This immediately implies that the convergence conditions for the induced spectral sequence in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} are met, so that we indeed have convergence to 
 
 $$
-  \lim\left(
+  \underset{\longleftarrow}{\lim}
+  \left(
     \cdots \stackrel{}{\to} A^\bullet(X_{s+1}) \longrightarrow A^\bullet(X_{s})
     \to \cdots
   \right)
@@ -2097,7 +2125,7 @@ $$
 
 In order to determine the $E_2$-page, we analyze the $E_1$-page:
 
-Let $C(s)$ be the set of $s$-cells of $B$, and notice that for $\sigma \in C(s)$ then
+Let $C(s)$ be the set of $s$-dimensional cells of $B$, and notice that for $\sigma \in C(s)$ then
 
 $$
   (\pi^{-1}(\sigma), \pi^{-1}(\partial \sigma)) \simeq (D^n, S^{n-1}) \times F
@@ -2127,18 +2155,19 @@ $$
   \,,
 $$
 
-where we used the relation to [[reduced cohomology]] $\tilde A$, and the [[wedge axiom]] and the [[suspension isomorphism]] of the latter. The last group is that of [[singular cohomology|singular cochains]] of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
+where we used the relation to [[reduced cohomology]] $\tilde A$, prop. \ref{ReducedToUnreducedGeneralizedCohomology} together with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}, 
+then the [wedge axiom](#WedgeAxiom) and the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter. The last group is that of [[singular cohomology|singular cochains]] of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
 
-Hence to conclude it remains to show that on this group the differential $d_1$ coincides with the differential in the [[singular simplicial complex]]. This takes a tad of fiddling, see for instance ([Kochman 96, pages 124-125](#Kochman96)).
+Hence to conclude, it remains to show that on this group the differential $d_1$ coincides with the differential in the [[singular simplicial complex]]. This takes a tad of fiddling, see for instance ([Kochman 96, pages 124-125](#Kochman96)).
 
 =--
+
+##### Multiplicative structure
 
 +-- {: .num_prop #AHSSForMultiplicativeCohomologyIsMultiplicative}
 ###### Proposition
 
-For $E$ a [[multiplicative cohomology theory]] ([[ring spectrum]]), then the 
-Atiyah-Hirzebruch spectral sequences for $E^\bullet(X)$ are
-[[multiplicative spectral sequences]].
+For $E^\bullet$ a [[multiplicative cohomology theory]] ([[Brown representability theorem|Brown represented]] by a [[ring spectrum]]), then the Atiyah-Hirzebruch spectral sequences (prop. \ref{AHSSExistence}) for $E^\bullet(X)$ are [[multiplicative spectral sequences]].
 
 =--
 
