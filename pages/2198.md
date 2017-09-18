@@ -68,9 +68,9 @@ When both left and right rules are shown, we only need one of them if we have Sy
 
 Whether made explicit or not, Isotony is very fundamental.  In particular, it allows us to assert Reflexivity only for singletons, although this is often not done (to avoid mentioning points).
 
-The weak Symmetry axioms immediately imply the strong versions, except for the case of proximal neighborhoods in constructive mathematics.  In that case, the strong version seem genuinely stronger; for instance, it is unclear how to prove it for a uniform space that is not [[uniformly regular space|uniformly regular]].  Regularity also follows from Symmetry and Transitivity in classical mathematics (in the neighborhood version, let $\{x\} \ll B \ll A$ and take $C = A^{\mathsf{c}}$ and $D = B^{\mathsf{c}}$), but in constructive mathematics it seems like a stronger statement.
+The weak Symmetry axioms immediately imply the strong versions, except for the case of proximal neighborhoods in constructive mathematics.  In that case, the strong version is too strong: in fact if it is satisfied by a nontrivial uniform space, then [[excluded middle]] follows.  Regularity also follows from Symmetry and Transitivity in classical mathematics (in the neighborhood version, let $\{x\} \ll B \ll A$ and take $C = A^{\mathsf{c}}$ and $D = B^{\mathsf{c}}$), but in constructive mathematics it seems like a stronger statement, though not unreasonably strong (e.g. it follows from [[uniform regularity]]).
 
-A __topogeny__ is a relation that satisfies both forms of Isotony and all four forms of Additivity.  A __quasiproximity__ is a topogeny that also satisfies Reflexivity and Transitivity.  A topogeny (or quasiproximity) is __symmetric__ if it satisfies Symmetry; a __proximity__ is a symmetric quasiproximity.  A topogeny or (quasi)-proximity is __separated__ if it satisfies Separation.  A topogeny or quasiproximity is __perfect__ if it satisfies left Perfection, __coperfect__ if it satisfies right Perfection, and __biperfect__ if it satisfies both; a proximity (or a symmetric topogeny) is usually called simply __perfect__ if it satisfies any form of Perfection, because then it must satisfy both (except in constructive mathematics using proximal neighbourhoods).
+A __topogeny__ is a relation that satisfies both forms of Isotony and all four forms of Additivity.  A __quasiproximity__ is a topogeny that also satisfies Reflexivity and Transitivity.  A topogeny (or quasiproximity) is __symmetric__ if it satisfies Symmetry; a __proximity__ is a symmetric quasiproximity.  A topogeny or (quasi)-proximity is __separated__ if it satisfies Separation.  A topogeny or quasiproximity is __perfect__ if it satisfies left Perfection, __coperfect__ if it satisfies right Perfection, and __biperfect__ if it satisfies both; a proximity (or a symmetric topogeny) is usually called simply __perfect__ if it satisfies any form of Perfection, because then it must satisfy both (except in constructive mathematics using proximal neighbourhoods).  Constructively, a proximity space satisfying Regularity may be called __proximally regular__.
 
 A __(quasi)-proximity space__ is a set equipped with a (quasi)-proximity.  All of these terms may be used with _nearness_, _apartness_, or _proximal neighbourhoods_, as explained in the previous section; nearness is usually the default.
 
@@ -102,16 +102,20 @@ In this way, we get the category $Proset$ of preordered sets as a [[reflexive su
 
 ### Topological spaces
 
-Every proximity space is a [[topological space]]; let $x$ belong to the closure of $A \subseteq X$ iff $\{x\} \;\delta\; A$, or equivalently let $x$ belong to the interior of $A$ iff $\{x\} \ll A$.  This topology is always [[completely regular space|completely regular]], and [[Hausdorff space|Hausdorff]] (hence [[Tychonoff space|Tychonoff]]) iff the proximity space is separated; see [[separation axiom]].  Proximally continuous functions are [[continuous map|continuous]] for the induced topologies, so we have a functor $Prox \to Top$ over $Set$.
+Every proximity space is a [[topological space]]; let $x$ belong to the closure of $A \subseteq X$ iff $\{x\} \;\delta\; A$, or equivalently let $x$ belong to the interior of $A$ iff $\{x\} \ll A$.  This topology is always [[completely regular space|completely regular]], and is [[Hausdorff space|Hausdorff]] (hence [[Tychonoff space|Tychonoff]]) iff the proximity space is separated; see [[separation axiom]].  Proximally continuous functions are [[continuous map|continuous]] for the induced topologies, so we have a functor $Prox \to Top$ over $Set$.
 
 Conversely, if $(X,\tau)$ is a completely regular topological space, then for any $A, B \subseteq X$ let $A \bowtie B$ iff there is a continuous function $f: X\to [0,1]$ such that $f(x) = 0$ for $x \in A$ and $f(x) = 1$ for $x \in B$.  This defines a proximity structure on $X$, which induces the topology $\tau$ on $X$, and which is separated iff $\tau$ is a Hausdorff (hence Tychonoff) topology.
 
 In general, a completely regular topology may be induced by more than one proximity.  However, if it is moreover [[compact topological space|compact]], then it has a unique compatible proximity, given above.  In the case of a [[compact Hausdorff space]] (or more generally any [[normal regular space]]), we then have $A \ll B$ iff $Cl(A) \subseteq Int(B)$.
 
+The construction of a topology works just as well for a quasi-proximity, but the result is no longer necessarily completely regular.  In fact, every topology can be induced by some quasi-proximity: define $A\ll B$ if $A \subseteq int(B)$.  Moreover, in this way topological spaces can be identified with (left) perfect quasi-proximity spaces.
+
+In [[constructive mathematics]], the three now-inequivalent kinds of (quasi-)proximity space (nearness, apartness, and neighborhood) yield three inequivalent notions of topological space: [[closure operators]], [[point-set apartness spaces]], and [[topological spaces]] (equivalently [[neighborhood]] spaces).  Note in particular that the Transitivity axiom ensures that (in the three cases) the closure of a set is closed, that the final axiom of a point-set apartness space holds (if $x\bowtie A$ then $x\bowtie \{ y \mid \neg(y\bowtie A) \}$), and that the interior of a set is open.  The resulting topologies are [[regular space|regular]] if the proximity space satisfies Regularity (but whether they are completely regular may depend on the definition chosen for the latter in constructive mathematics; in some cases [[countable choice]] may be required).
+
 
 ### Uniform spaces
 
-If $U$ is a [[uniformity]] on $Y$ (making it into a [[uniform space]]), then for all $A, B \subseteq Y$ let $A \;\delta\; B$ iff $V \cap (A \times B)$ is [[inhabited set|inhabited]] for every [[entourage]] (aka vicinity) $V$. This also defines a proximity structure on $Y$.
+If $Y$ is a [[uniform space]], then for all $A, B \subseteq Y$ let $A \;\delta\; B$ iff $V \cap (A \times B)$ is [[inhabited set|inhabited]] for every [[entourage]] (aka vicinity) $V$. This defines a biperfect proximity structure on $Y$.  In terms of the other relations, this means $A\bowtie B$ iff $V \cap (A \times B) = \emptyset$ for some entourage $V$, and $A\ll B$ iff $V[A] \subseteq B$, where $V[A] = \{ y \mid \exists x\in A, (x,y)\in V \}$.
 
 [[uniformly continuous map|Uniformly continuous functions]] are proximally continuous for the induced proximities, so we have a functor $Unif \to Prox$ over $Set$.  Moreover, the composite $Unif \to Prox \to Top$ is the usual "underlying topology" functor of a uniform space, i.e. the topology induced by the uniformity and the topology induced by the proximity structure are the same.
 
@@ -121,12 +125,16 @@ where $(A_k)_k$ is a [[list]] (a finite family) of sets such that there exists a
 
 In fact, this is the *unique* totally bounded uniformity which induces the given proximity: every proximity-class of uniformities contains a unique totally bounded member.  Moreover, a proximally continuous function between uniform spaces with totally bounded [[codomain]] is automatically uniformly continuous.  Therefore, the forgetful functor $Unif \to Prox$ is a left adjoint, whose right adjoint also lives over $Set$, is [[fully faithful functor|fully faithful]], and has its [[essential image]] given by the totally bounded uniform spaces.
 
-In general, proximally continuous functions need not be uniformly continuous, but in addition to total boundedness of the codomain, a different sufficient condition is that the domain be a [[metric space]].
+In general, proximally continuous functions between given uniform spaces need not be uniformly continuous.  But in addition to total boundedness of the codomain, a different sufficient condition is that the domain be a [[metric space]].
+
+The relation between quasi-uniformities and quasi-proximities is similar.
+
+In [[constructive mathematics]], all three of the relations $\delta,\bowtie,\ll$ may be defined as above from a uniformity.  All the axioms of all three kinds of proximity are then provable, except Binary Additivity for $\delta$ and Strong Symmetry for $\ll$.  Proximal Regularity follows from [[uniform regularity]].
 
 
 ### Syntopogenous spaces
 
-A proximity space can be identified with a [[syntopogenous space]] which is both *simple* and *symmetric*; see [[syntopogenous space]].
+A proximity space can be identified with a [[syntopogenous space]] which is both *simple* and *symmetric*, and similarly a quasi-proximity space can be identified with one that is just simple.  The relations with topological spaces and uniform spaces can then be seen as coreflections inside the category of syntopogenous spaces; see [[syntopogenous space]].
 
 
 ### Compactifications
@@ -248,3 +256,8 @@ Symmetry probably doesn\'t fit into this picture very well, but who knows?
 
 [[!redirects Smirnov compactification]]
 [[!redirects Smirnov compactifications]]
+
+[[!redirects proximally regular space]]
+[[!redirects proximally regular spaces]]
+[[!redirects proximally regular proximity space]]
+[[!redirects proximally regular proximity spaces]]
