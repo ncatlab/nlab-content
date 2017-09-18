@@ -424,9 +424,10 @@ Moreover if the homotopy $\eta$ also fixes the endpoint, then so does the lifted
 +-- {: .proof}
 ###### Proof
 
-The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: The [[Lebesgue number lemma]] gives a partition of $[0,1] \times [0,1]$ into a [[finite number]] of squares such that the image of each under $\gamma$ lands in an open subset over which the covering space trivializes. Then there is [[induction|inductively]] a unique appropriate lift over each of these squares.
+The proof is analogous to that of lemma \ref{CoveringSpacePathLifting}: Given a cover of $X$ over which the covering space trivializes, its preimage is a cover of $[0,1]^2$ over whose elements unique lifts relative to one point exist. By compactness of $[0,1]^2$ this has a finite subcover. Over this we find a lift by induction: To start the induction, there must be one patch which contains the base point, and so we lift there. Then in the induction step, if there is at least one open set left over which we have not lifted yet, by [[connected topological space|connectedness]] of $[0,1]^2$ it follows that there is one which intersects the union  of those patches over which we have already lifted. Hence we have a lift of at least one point over this patch prescribed and hence again find a unique lift over the whole patch.
 
-Finally, if the homotopy in $X$ is constant also at the endpoint, hence on $\{1\} \times [0,1]$, then the function constant on $\hat \eta(1,1)$ is clearly a lift of the path $eta\vert_{\{1\}\times [0,1]}$ and by uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) this means that also $\hat \eta$ is constant on $\{1\} \times [0,1]$.
+
+Finally, if the homotopy in $X$ is constant also at the endpoint, hence on $\{1\} \times [0,1]$, then the function constant on $\hat \eta(1,1)$ is clearly a lift of the path $\eat\vert_{\{1\}\times [0,1]}$ and by uniqueness of the path lifting (lemma \ref{CoveringSpacePathLifting}) this means that also $\hat \eta$ is constant on $\{1\} \times [0,1]$.
 
 =--
 
