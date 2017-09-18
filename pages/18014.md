@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -29,9 +40,17 @@ The central statement of [[rational homotopy theory]] says that the [[rational h
 
 ## References
 
+* Wikipedia, _[Nilpotent space](https://en.wikipedia.org/wiki/Nilpotent_space)_
+
+
+The [[rational homotopy theory]] of nilpotent topological spaces is discussed in
+
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, section 9.1 of _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
 
+* {#Neisendorfer78} [[Joseph Neisendorfer]], _Lie algebras, coalgebras and rational homotopy theory for nilpotent spaces_, Pacific J. Math. Volume 74, Number 2 (1978), 429-460. ([euclid](http://projecteuclid.org/euclid.pjm/1102810284))
 
-* Wikipedia, _[Nilpotent space](https://en.wikipedia.org/wiki/Nilpotent_space)_
+
+
+
 
 [[!redirects nilpotent topological spaces]]
