@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[hom-object]] in the case of [[enriched category|enrichment]] over [[groups]] 
+(often: [[abelian groups]] for an [[Ab-enriched category]]).
+
+## Related concepts
+
+* [[hom-set]]
+
+* [[additive category]]
+
+[[!redirects hom-groups]]
+
+[[!redirects hom group]]
+[[!redirects hom groups]]
