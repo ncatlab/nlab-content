@@ -17,6 +17,8 @@ While this method of proof is classical, it has some peculiar consequences. Nota
 
 Therefore one also says that proof by contradiction is "non-constructive" and that an alternative proof not invoking the [[principle of excluded middle]] (if it exists) is a "constructive" proof, see at _[[constructive logic]]_ and _[[constructive mathematics]]_. 
 
+## Relation to proof of negation
+
 One should take care to distinguish proof by contradiction from _[[proof of negation]]_, which nevertheless involves the derivation of a contradiction: assuming the truth of $P$, a contradiction is found, and one concludes that $\neg P$. This remains [[constructive mathematics|constructively]] valid, since it simply uses the constructive _meaning_ of [[negation]] (see [Bauer 2010](#bauer)). 
 
 Since this distinction is sometimes hard for those who have learned classical logic to the point it becomes hard to unlearn, here is another way of putting it: 
