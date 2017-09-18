@@ -20,6 +20,9 @@ The [[axiom of choice]] states precisely that every surjection in the category o
 
 
 [[!redirects surjective function]]
+[[!redirects surjective functions]]
+
+
 [[!redirects surjections]]
 [[!redirects surjective]]
 [[!redirects surjective map]]
