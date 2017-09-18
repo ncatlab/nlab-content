@@ -325,6 +325,7 @@ and anlogously for $E U(n)$.
 
 As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
 
+
 +-- {: .num_defn #InclusionOfBOnIntoBOnPlusOne}
 ###### Definition
 
@@ -355,6 +356,50 @@ and
 $$
   B U(n) \longrightarrow B U(n+1)
   \,.
+$$
+
+=--
+
++-- {: .num_defn #WhitneySumMapOnClassifyingSpaces}
+###### Definition
+
+There are canonical maps
+
+$$
+  Gr_{n_1}(\mathbb{R}^{k_1})
+  \times
+  Gr_{n_2}(\mathbb{R}^{k_2})  
+  \longrightarrow
+  Gr_{n_1 + n_2}(\mathbb{R}^{k_1 + k_2})
+$$
+
+and
+
+$$
+  Gr_{n_1}(\mathbb{C}^{k_1})
+  \times
+  Gr_{n_2}(\mathbb{C}^{k_2})  
+  \longrightarrow
+  Gr_{n_1 + n_2}(\mathbb{C}^{k_1 + k_2})
+$$
+
+
+given by sending ambient spaces and subspaces to their [[direct sum]].
+
+Under the colimit of def. \ref{EOn} these induce maps of classifying spaces
+
+$$
+  B O(n_1) \times B O(n_2)
+  \longrightarrow
+  B O(n_1 + n_2)
+$$
+
+and
+
+$$
+  B U(n_1) \times B U(n_2)
+  \longrightarrow
+  B U(n_1 + n_2)
 $$
 
 =--
