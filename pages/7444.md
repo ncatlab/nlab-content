@@ -35,5 +35,7 @@ This is also sometimes called an _$(n-1)$-stack_.
 * [[model structure for homotopy n-types]]
 
 [[!redirects (n,1)-sheaves]]
+[[!redirects (n+1,1)-sheaf]]
+
 [[!redirects n-stack]]
 [[!redirects n-stacks]]
