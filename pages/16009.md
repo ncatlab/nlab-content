@@ -1,0 +1,7 @@
+
+
+[[philosophy]] of science
+
+* [[philosophy of physics]]
+
+* [[philosophy of mathematics]]
