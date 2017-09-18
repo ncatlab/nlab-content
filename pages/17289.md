@@ -1,0 +1,5 @@
+
+A [[homotopy equivalence]] of [[chain complexes]], hence a [[chain map]] that has an [[inverse]] up to [[chain homotopy]].
+
+[[!redirects chain homotopy equivalences]]
+
