@@ -45,6 +45,10 @@ On a [[globally hyperbolic spacetime]] the Klein-Gordon equation has unique adva
 
 Their difference is the [[Peierls bracket]] which gives the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]].  This in turn defines the [[Wick algebra]] of the free scalar field, which yields the [[quantization]] of the free scalar field to a [[quantum field theory]].
 
+### Bicharacteristic flow and propagation of singularities
+
+The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vectors]] along [[lightlike]] [[geodesics]] ([this example](bicharacteristic+flow#BicharachteristicFlowOfKleinGordonOperator)).
+
 ## References
 
 Named after [[Oskar Klein]] and [[Walter Gordon]]. 
