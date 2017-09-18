@@ -115,6 +115,7 @@ Every [[local action functional]] which admits a [[Green's function]] for its [[
 [[!redirects Poisson manifolds]]
 
 [[!redirects Poisson bracket]]
+[[!redirects Poisson brackets]]
 
 
 [[!redirects Poisson structure]]
