@@ -978,6 +978,7 @@ To make use of this, we need to recognize sets of open subsets that serve as the
 
 +-- {: .num_lemma #RecognizingTopologicalBasis}
 ###### Lemma
+**(recognition of topological bases)**
 
 Let $X$ be a set.
 
@@ -1001,14 +1002,16 @@ $\,$
  {#TopologicalSpacesExamples}
 
 We discuss here some basic examples of [[topological spaces]] (def. \ref{TopologicalSpace}), to get a feeling for
-the scope of the concept. Topological spaces are ubiquituous in [[mathematics]], so that there are many more examples
-and many more classes of examples than could be listed.
+the scope of the concept. But topological spaces are ubiquituous in [[mathematics]], so that there are many more examples
+and many more classes of examples than could be listed. As we further develop the theory below, we encounter more examples,
+and more classes of examples. Below in _[Universal constructions](#UniversalConstructions)_ we discuss a very general construction
+principle of new topological space from  given ones.
 
 First of all, our motivating example from [above](#Continuity) now reads as follows:
 
 +-- {: .num_example #MetricTopology}
 ###### Example
-**(metric topology)**
+**([[metric topology]])**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Then the collection of its [[open subsets]] in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpace}. This is called the _[[metric topology]]_.
 
@@ -1025,7 +1028,8 @@ for the concept of [[topological spaces]], it is important to notice that the co
 of topological spaces is considerably more general, as some of the following examples show.
 
 
-The following simple example of a (metric) topological space is important for the theory:
+The following simplistic example of a (metric) topological space is important for the theory
+(for instance in prop. \ref{FrameHomomorphismsToPointAreIrrClSub}):
 
 +-- {: .num_example #Point}
 ###### Example
@@ -1050,13 +1054,13 @@ $$
   \ast
     \coloneqq
   \left(
-    \left\{1\right\}, \left\{ \emptyset, \left\{1\right\}\right\}
+    \left\{1\right\}, \tau \coloneqq \left\{ \emptyset, \left\{1\right\}\right\}
   \right)
 $$
 
 for this topological space and call it _the [[point]]_.
 
-Of course this is equivalently the [[metric topology]] (example \ref{MetricTopology}) on $\mathbb{R}^0$,
+This is equivalently the [[metric topology]] (example \ref{MetricTopology}) on $\mathbb{R}^0$,
 regarded as the 0-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
 
 =--
@@ -1102,7 +1106,7 @@ def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
 
 1. $\tau \coloneqq \{ \emptyset, S \}$ the set contaning only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
 
-   this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$
+   this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
 
    we write $CoDisc(S)$ for the resulting topological space.
 
@@ -1112,6 +1116,7 @@ The reason for this terminology is best seen when considering [[continuous funct
 
 +-- {: .num_example #TopologyCofinite}
 ###### Example
+**([[cofinite topology]])**
 
 Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]]
 (def. \ref{TopologicalSpace}) whose [[open subsets]] are precisely
@@ -1125,9 +1130,25 @@ If $X$ is itself a [[finite set]] (but not otherwise) then the cofinite topology
 =--
 
 
+$\,$
+
+We now consider basic construction principles of new topological spaces from given ones:
+
+1. [[disjoint union spaces]] (example \ref{DisjointUnionOfTopologicalSpaces})
+
+1. [[subspaces]] (example \ref{SubspaceTopology}),
+
+1. [[quotient spaces]] (example \ref{QuotientTopologicalSpace})
+
+1. [[product spaces]] (example \ref{BinaryProductTopologicalSpace}).
+
+Below in _[Universal constructions](#UniversalConstructions)_ we will recognize these
+as simple special cases of a general construction principle.
+
 
 +-- {: .num_example #DisjointUnionOfTopologicalSpaces}
 ###### Example
+**([[disjoint union]])**
 
 For $\{(X_i, \tau_i)\}_{i \in I}$ a [[set]] of topological spaces, then their _[[disjoint union]]_
 
@@ -1139,13 +1160,16 @@ is the topological space whose underlying set is the [[disjoint union]] of the u
 and whose open subsets are precisely the disjoint unions of the open subsets of the summand spaces.
 
 In particular, for $I$ any index set, then the disjoint union
+of $I$ copies of the [[point]] (example \ref{Point}) is equivalently the [[discrete topological space]] (example \ref{CoDiscreteTopology})
+on that index set:
 
 $$
   \underset{i \in I}{\sqcup} \ast
+  \;=\;
+  Disc(I)
+  \,.
 $$
 
-of $I$ copies of the [[point]] (example \ref{Point}) is equivalently the [[discrete topological space]] (example \ref{CoDiscreteTopology})
-on that index set.
 
 =--
 
@@ -1166,24 +1190,18 @@ $$
   \right)
     \,\Leftrightarrow\,
   \left(
-     \underset{U_X \in \tau_X}{\exists} U_S = U_X \cap S
+     \underset{U_X \in \tau_X}{\exists} \left/ U_S = U_X \cap S \right)
   \right)
   \,.
 $$
 
 (This is also called the _[[initial topology]]_ of the inclusion map.)
 
-Notice that this makes the inclusion function
-
-$$
-  (S, \tau_S) \hookrightarrow (X, \tau_X)
-$$
-
-a [[continuous function]].
 
 The picture on the right shows two open subsets inside the [[square]], regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
 
 > graphics grabbed from [Munkres 75](#Munkres75)
+
 
 =--
 
@@ -1200,19 +1218,19 @@ $$
 
 be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has
 
-* as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]],
+* as underlying set the [[quotient set]] $X/\sim$, hence the set of [[equivalence classes]],
 
 and
 
-* a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
+* a subset $O \subset X/\sim$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
 
   $$
-    \pi \colon X \to X_\sim
+    \pi \;\colon\; X \to X/\sim
   $$
 
   is open in $X$.
 
-This is also called the _[[final topology]]_ of the projection $\pi$.
+(This is also called the _[[final topology]]_ of the projection $\pi$.)
 
 Often one considers this with input datum not the equivalence relation, but any [[surjection]]
 
@@ -1227,118 +1245,8 @@ those whose pre-images are open.
 To see that this indeed does define a topology on $X/\sim$ it is sufficient to observe that taking pre-images
 commutes with taking unions and with taking intersections.
 
-<img src="https://ncatlab.org/nlab/files/QuotientOfSquareIsCylinderAndTorus.png" width="660">
-
-The above picture shows on the left the [[square]] (a [[topological subspace]] of the [[plane]]),
-then in the middle the resulting [[quotient topological space]] obtained by
-identifying two opposite sides (the _[[cylinder]]_), and on the right the further quotient obtained by
-identifying the remaining sides (the _[[torus]]_).
-
-> graphics grabbed from [Munkres 75](#Munkres75)
-
 =--
 
-Sometimes it is useful to recognize topological quotient projections via [[saturated subsets]]
-(essentially another term for pre-images of underlying sets):
-
-+-- {: .num_defn #SubsetSaturated}
-###### Definition
-**([[saturated subset]])**
-
-Let $f \;\colon\; X \longrightarrow Y$ be a [[function]] of [[sets]].
-Then a [[subset]] $S \subset S$ is called an _$f$-[[saturated subset]]_ (or just _saturated subset_, if $f$ is understood)
-if $S$ is the [[pre-image]] of its [[image]]:
-
-$$
-  \left(S \subset X \,\, f\text{-saturated} \right)
-    \,\Leftrightarrow\,
-  \left(
-    S = f^{-1}(f(S))
-  \right)
-  \,.
-$$
-
-Here $f^{-1}(f(S))$ is also called the _$f$-saturation_ of $S$.
-
-=--
-
-+-- {: .num_example #PreImagesAreSaturatedSubsets}
-###### Example
-**(pre-images are saturated subsets)**
-
-For $f \;\colon\; X \to Y$ any [[function]] of [[sets]], and $S_Y \subset Y$ any [[subset]] of $Y$, then the
-[[pre-image]] $f^{-1}(S_Y) \subset X$ is an $f$-[[saturated subset]] of $X$ (def. \ref{SubsetSaturated}).
-
-=--
-
-Observe that:
-
-+-- {: .num_lemma #ComplementOfSaturatedSubsetIsSaturated}
-###### Lemma
-
-Let $f \colon X \longrightarrow Y$ be a [[function]]. Then a [[subset]] $S \subset X$
-is $f$-saturated (def. \ref{SubsetSaturated}) precisely if its [[complement]]
-$X \backsalsh S$ is so.
-
-=--
-
-
-+-- {: .num_prop #DetectViaSaturatedSubsetsContinuousQuotientMap}
-###### Proposition
-
-A [[continuous function]]
-
-$$
-  f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)
-$$
-
-whose underlying function $f \colon X \longrightarrow Y$ is [[surjective function|surjective]]
-exhibits $\tau_Y$ as the corresponding [[quotient topological space|quotient topology]] (def. \ref{QuotientTopologicalSpace})
-precisely if $f$ sends open and $f$-[[saturated subsets]] in $X$ (def. \ref{SubsetSaturated}) to open subsets of $Y$.
-By lemma \ref{ComplementOfSaturatedSubsetIsSaturated} this is the case precisely if it sends
-closed and $f$-saturated subsets to closed subsets.
-
-=--
-
-+-- {: .num_example #ImageFactorization}
-###### Example
-**([[image factorization]])**
-
-Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]].
-
-Write $f(X) \subset Y$ for the [[image]] of $f$
-on underlying sets, and consider the resulting factorization of $f$ through $f(X)$ on underlying sets:
-
-$$
-  f
-  \;\colon\;
-  X
-    \overset{\text{surjective}}{\longrightarrow}
-  f(C)
-    \overset{\text{injective}}{\longrightarrow}
-  Y
-  \,.
-$$
-
-There are the following two ways to topologize the [[image]] $f(X)$ such as to make this a sequence of
-two continuous functions:
-
-1. By example \ref{SubspaceTopology} $f(X)$ inherits a [[topological subspace|subspace topology]] from $(Y,\tau_Y)$
-which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
-
-   Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
-   in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
-   which is open in $X$ since $f$ is continuous.
-
-1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
-   which makes the surjection $X \longrightarrow Y$ a [[continuous function]].
-
-   Observe that this also makes $f(X) \longrightarrow Y$ a continuous function: The preimage under this map of an
-   open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
-   $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the
-   quotient topology.
-
-=--
 
 +-- {: .num_example #BinaryProductTopologicalSpace}
 ###### Example
@@ -1361,11 +1269,39 @@ of [[limits]] in the [[category of topological spaces]].
 
 =--
 
+The following example shows how all these ingredients and construction principles
+may be compbined:
+
++-- {: .num_example }
+###### Example
+
+Consider the [[closed interval]] $[0,1] \subset \mathbb{R}$ from example \ref{OpenAndClosedIntervals},
+regarded as a [[subspace]] (def. \ref{SubspaceTopology}) of the 1-dimensional [[Euclidean space]].
+
+The [[product space]] (example \ref{BinaryProductTopologicalSpace}) of this interval with itself
+
+$$
+  [0,1] \times [0,1]
+$$
+
+
+is a topological space modelling the square. The [[quotient space]] (example \ref{QuotientTopologicalSpace}) of that
+by the relation which identifies a pair of opposite sides is a model for the [[cylinder]]. 
+The further quotient by the relation that identifies the remaining pair of sides yields a model for the [[torus]].
+
+<img src="https://ncatlab.org/nlab/files/QuotientOfSquareIsCylinderAndTorus.png" width="660">
+
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+We will examine this example in more detail below in example \ref{HomeomorphismBetweenTopologicalAndCombinatorialCircle},
+after we have introduced the concept of _[[homeomorphisms]]_ [below](#Homeomorphisms).
+
+=--
+
 
 $\,$
 
-These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of **[[limits]]** and of **[[colimits]]** of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. We discuss this below in
-_[Universal constructions](#UniversalConstructions)_
 
 
 
@@ -1397,11 +1333,15 @@ Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). Then
 a [[subset]] $S$ of $X$ is called a _[[closed subset]]_ if its [[complement]] $X \backslash S$ is an  _[[open subset]]_:
 
 $$
-  S \subset X\,\, \text{is closed}
-  \phantom{AAA}
+  \left(
+    S \subset X\,\, \text{is closed}
+  \right)
+  \phantom{AA}
     \Leftrightarrow
-  \phantom{AAA}
-    X\backslash S\,\, \text{is open}
+  \phantom{AA}
+  \left(
+    X\backslash S \, \subset X \,\, \text{is open}
+  \right)
   \,.
 $$
 
@@ -1409,9 +1349,132 @@ $$
 
 If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that _$x$ is a closed point of $X$_.
 
-Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$.
+Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$:
+
+$$
+  Cl(S)
+    \;\coloneqq\;
+  \underset{{S \subset C } \atop {C \subset X\, \text{closed}} }{\cap} C
+  \,.
+$$
 
 =--
+
++-- {: .num_remark #deMorgan}
+###### Remark
+**([[de Morgan's law]])**
+
+In reasoning about [[closed subsets]] in [[topology]] we are concerned with [[complements]] of [[unions]] and
+[[intersections]] as well as with [[unions]]/[[intersections]] of [[complements]]. Recall therefore 
+that taking [[complements]] of [[subsets]] exchanges [[unions]] with [[intersections]]
+([[de Morgan's law]]):
+
+Given a [[set]] $X$ and a  set of subsets 
+
+$$
+  \{S_i \subset S\}_{i \in I}
+$$
+
+then
+
+$$
+  X \backslash
+  \left(
+     \underset{i \in I}{\cup}  S_i
+  \right)
+  \;\;=\;\;
+   \underset{i \in I}{\cap}
+   \left(
+      X \backslash S_i
+   \right)
+$$
+
+and
+
+$$
+  X \backslash
+  \left(
+     \underset{i \in I}{\cap}  S_i
+  \right)
+  \;\;=\;\;
+   \underset{i \in I}{\cup}
+   \left(
+      X \backslash S_i
+   \right)
+  \,.
+$$
+
+Also notice that taking complements reverses inclusion relations:
+
+$$
+  \left(
+    S_1 \subset S_2
+  \right)
+  \;\;\Leftrightarrow\;\,
+  \left(
+    X\backslash S_2 \subset X \backslash S_1
+  \right)
+  \,.
+$$
+
+=--
+
+
+Often it is useful to reformulate def. \ref{ClosedSubset} of [[closed subsets]] as follows:
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
+set. Then a point $x \in X$ is contained in the [[topological closure]] $Cl(S)$ (def. \ref{ClosedSubset})
+precisely if every [[open neighbourhood]] $U_x \subset X$ of $x$ [[intersection|intersects]] $S$:
+
+$$
+  \left(
+     x \in Cl(S)
+  \right)
+   \phantom{AA}
+     \Leftrightarrow
+   \phantom{AA}
+   \left(
+     \underset{ {x \in U_x \subset X} \atop { U_x \, \text{open}}  }{\forall}
+     \left(
+       \not ( U_x \cap S = \emptyset )
+     \right)
+   \right)
+   \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In view of remark \ref{deMorgan} we may rephrase the definition of the [[topological closure]]
+as follows:
+
+$$
+  \begin{aligned}
+    Cl(S)
+    & \coloneqq
+    \underset{ {S \subset C }  \atop { C \subset X\,\text{closed} } }{\cap}
+    \left(C \right)
+    \\
+    & =
+    \underset{ { U \subset X \backslash S } \atop {U \subset X\, \text{open}}  }{\cap} \left( X \backslash U \right)
+    \\
+    & = X \backslash
+    \left(
+       \underset{ {U \subset X \backslash S} \atop { U \subset X\, \text{open} }}{\cup} U
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+
+
+=--
+
 
 +-- {: .num_defn #IntSubset}
 ###### Definition
@@ -1422,7 +1485,7 @@ Then the _[[topological interior]]_ of $S$ is the largest [[open subset]] $Int(S
 $Int(S) \subset S \subset X$:
 
 $$
-  Int(S) \coloneqq \underset{{U \in \tau} \atop {O \subset S}}{\cup} U
+  Int(S) \coloneqq \underset{{O \subset S} \atop {O \subset X\, \text{open}}}{\cup} \left( U \right)
   \,.
 $$
 
@@ -1430,26 +1493,11 @@ $$
 
 +-- {: .num_lemma #RelationClAndInt}
 ###### Lemma
+**(duality between closure and interior)**
 
-Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let $S \subset X$ be a [[subset]].
+Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]].
 Then the [[topological interior]] of $S$ (def. \ref{IntSubset}) equals the [[complement]] of the
 [[topological closure]] $Cl(X\backslash S)$ of the complement of $S$:
-
-$$
-  Int(S)
-    =
-  X \backslash Cl\left(
-    X \backslash S
-  \right)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By taking [[complements]] once more, the statement is equivalent to
 
 $$
   X \backslash Int(S)
@@ -1458,17 +1506,22 @@ $$
   \,.
 $$
 
-Now we compute:
+=--
+
++-- {: .proof}
+###### Proof
+
+Using remark \ref{deMorgan}, we compute as follows:
 
 $$
   \begin{aligned}
     X \backslash Int(S)
     & =
-    X \backslash \left(  \underset{{U \, open} \atop {U \subset S}}{\cup}U \right)
+    X \backslash \left(  \underset{ {U \subset S} \atop {U \subset X \, open} }{\cup}U \right)
     \\
-    & = \underset{U \subset S}{\cap} X \backslash U
+    & = \underset{ {U \subset S} \atop {U \subset X \, \text{open}}  }{\cap} \left( X \backslash U \right)
     \\
-    & = \underset{{C\, closed} \atop {C \supset X \backslash S}}{\cap} C
+    & = \underset{{C\, closed} \atop {C \supset X \backslash S}}{\cap} \left( C \right)
     \\
     & = Cl(X \backslash S)
   \end{aligned}
@@ -2211,6 +2264,7 @@ from $X$ to the [[point]] (def. \ref{Point}).
 
 +-- {: .num_remark}
 ###### Remark
+**(point space is [[terminal object|terminal]])**
 
 In the language of [[category theory]] (remark \ref{TopCategory}), example \ref{TerminalityOfThePoint}
 says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[Top]] of topological spaces.
@@ -2219,18 +2273,24 @@ says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[To
 
 +-- {: .num_example #PointsViaContinuousFunctions}
 ###### Example
+**(points as continuous functions)**
 
 For $(X, \tau)$ a [[topological space]] then for $x \in X$ any element of the underlying set,
 there is a unique continuous function
 
 $$
-  \ast \longrightarrow X
+  x \;\colon\; \ast \longrightarrow X
 $$
 
 from the [[point]] (def. \ref{Point}), whose image in $X$ is that element. Hence there is a [[natural bijection]]
 
 $$
-  Hom_{Top}(\ast,(X.\tau)) \;\simeq\; X
+  \left\{
+    \ast \overset{f}{\to} X
+    \,\vert\, f \,\,\text{continuous}
+  \right\}
+    \;\simeq\; 
+  X
 $$
 
 between the continuous functions from the point to any topological space, and the underlying set of that topological space.
@@ -2240,6 +2300,7 @@ between the continuous functions from the point to any topological space, and th
 
 +-- {: .num_defn #FunctionLocallyConstant}
 ###### Definition
+**([[locally constant function]])**
 
 A [[continuous function]] $f \colon X \to Y$ (def. \ref{ContinuousMaps}) is called
 _[[locally constant function|locally constant]]_ if every point $x \in X$ has a [[neighbourhood]]
@@ -2273,6 +2334,7 @@ Also:
 
 +-- {: .num_example #Diagonal}
 ###### Example
+**([[diagonal]])**
 
 For $X$ a [[set]], its _[[diagonal]]_ $\Delta_X$ is the [[function]]
 
@@ -2299,6 +2361,108 @@ which are open by the axioms on the topology $\tau_X$.
 
 =--
 
+Sometimes it is useful to recognize [[topological quotient space]] projections via [[saturated subsets]]
+(essentially another term for pre-images of underlying sets):
+
++-- {: .num_defn #SubsetSaturated}
+###### Definition
+**([[saturated subset]])**
+
+Let $f \;\colon\; X \longrightarrow Y$ be a [[function]] of [[sets]].
+Then a [[subset]] $S \subset S$ is called an _$f$-[[saturated subset]]_ (or just _saturated subset_, if $f$ is understood)
+if $S$ is the [[pre-image]] of its [[image]]:
+
+$$
+  \left(S \subset X \,\, f\text{-saturated} \right)
+    \,\Leftrightarrow\,
+  \left(
+    S = f^{-1}(f(S))
+  \right)
+  \,.
+$$
+
+Here $f^{-1}(f(S))$ is also called the _$f$-saturation_ of $S$.
+
+=--
+
++-- {: .num_example #PreImagesAreSaturatedSubsets}
+###### Example
+**(pre-images are saturated subsets)**
+
+For $f \;\colon\; X \to Y$ any [[function]] of [[sets]], and $S_Y \subset Y$ any [[subset]] of $Y$, then the
+[[pre-image]] $f^{-1}(S_Y) \subset X$ is an $f$-[[saturated subset]] of $X$ (def. \ref{SubsetSaturated}).
+
+=--
+
+Observe that:
+
++-- {: .num_lemma #ComplementOfSaturatedSubsetIsSaturated}
+###### Lemma
+
+Let $f \colon X \longrightarrow Y$ be a [[function]]. Then a [[subset]] $S \subset X$
+is $f$-saturated (def. \ref{SubsetSaturated}) precisely if its [[complement]]
+$X \backslash S$ is so.
+
+=--
+
+
++-- {: .num_prop #DetectViaSaturatedSubsetsContinuousQuotientMap}
+###### Proposition
+**(recognition of quotient topologies)**
+
+A [[continuous function]] (def. \ref{ContinuousMaps})
+
+$$
+  f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)
+$$
+
+whose underlying function $f \colon X \longrightarrow Y$ is [[surjective function|surjective]]
+exhibits $\tau_Y$ as the corresponding [[quotient topological space|quotient topology]] (def. \ref{QuotientTopologicalSpace})
+precisely if $f$ sends open and $f$-[[saturated subsets]] in $X$ (def. \ref{SubsetSaturated}) to open subsets of $Y$.
+By lemma \ref{ComplementOfSaturatedSubsetIsSaturated} this is the case precisely if it sends
+closed and $f$-saturated subsets to closed subsets.
+
+=--
+
++-- {: .num_example #ImageFactorization}
+###### Example
+**([[image factorization]])**
+
+Let $f \;\colon\; (X, \tau_X) \longrightarrow (Y,\tau_Y)$ be a [[continuous function]].
+
+Write $f(X) \subset Y$ for the [[image]] of $f$
+on underlying sets, and consider the resulting factorization of $f$ through $f(X)$ on underlying sets:
+
+$$
+  f
+  \;\colon\;
+  X
+    \overset{\text{surjective}}{\longrightarrow}
+  f(C)
+    \overset{\text{injective}}{\longrightarrow}
+  Y
+  \,.
+$$
+
+There are the following two ways to topologize the [[image]] $f(X)$ such as to make this a sequence of
+two continuous functions:
+
+1. By example \ref{SubspaceTopology} $f(X)$ inherits a [[topological subspace|subspace topology]] from $(Y,\tau_Y)$
+which makes the inclusion $f(X) \longrightarrow Y$ a [[continuous function]].
+
+   Observe that this also makes $X \to f(X)$ a continuous function: An open subset of $f(X)$
+   in this case is of the form $U_Y \cap f(X)$ for $U_Y \in \tau_Y$, and $f^{-1}( U_Y \cap f(X) ) = f^{-1}(U_Y)$,
+   which is open in $X$ since $f$ is continuous.
+
+1. By example \ref{QuotientTopologicalSpace} $f(X)$ inherits a [[quotient topological space|quotient topology]] from $(X,\tau_X)$
+   which makes the surjection $X \longrightarrow Y$ a [[continuous function]].
+
+   Observe that this also makes $f(X) \longrightarrow Y$ a continuous function: The preimage under this map of an
+   open subset $U_Y \in \tau_Y$ is the restriction $U_Y \cap f(X)$, and the pre-image of that under $X \to f(X)$ is
+   $f^{-1}(U_Y)$, as before, which is open since $f$ is continuous, and therefore $U_Y \cap f(X)$ is open in the
+   quotient topology.
+
+=--
 
 
 
@@ -5292,7 +5456,7 @@ $\,$
 ***
 
 
-## Re..ferences
+## References
 
 Introductory textbooks to topology include
 
