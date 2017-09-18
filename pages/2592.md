@@ -32,8 +32,81 @@ The analog for complex Hilbert spaces is the [[unitary group]].
 
 ## Properties
 
+### Compactness
+
++-- {: .num_prop #OrthogonalGroupIsCompact}
+###### Proposition
+
+The orthogonal group $O(n)$ is [[compact topological space]], hence in particular a [[compact Lie group]].
+ 
+=--
+
 ### Homotopy groups
  {#HomotopyGroups}
+
++-- {: .num_prop #InclusionOfOnIntoOkIsnMinus1Equivalence}
+###### Proposition
+
+For $n,k \in \mathbb{N}$, $n \leq k$, then the canonical inclusion of orthogonal groups
+
+$$
+  O(n) \hookrightarrow O(k)
+$$
+
+is an $(n-1)$-[[weak homotopy equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\leq n-1$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  O(n)
+  \longrightarrow
+  O(n+1)
+  \longrightarrow
+  O(n+1)/O(n)
+  \,.
+$$
+
+By prop. \ref{OrthogonalGroupIsCompact} and by [this corolarry](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]] 
+
+$$
+  S^{n}\simeq O(n+1)/O(n)
+  \,.
+$$
+
+Therefore the [[long exact sequence of homotopy groups]] of the [[fiber sequence]] $O(n)\to O(n+1)\to S^n$ looks like
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet-1}(S^n)
+    \longrightarrow
+  \pi_\bullet(O(n))
+    \longrightarrow
+  \pi_\bullet(O(n+1))
+    \longrightarrow
+  \pi_\bullet(S^n)
+   \to
+  \cdots
+$$
+
+Since $\pi_{\lt n}(S^n) = 0$, this implies that 
+
+$$
+  \pi_{\lt n}(O(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\lt n}(O(n+1))
+$$
+
+is an isomorphism. Hence now the statement follows by induction over $k-n$.
+
+=--
+
+
 
 The [[homotopy groups]] of $O = O(n)$ are for $k \in \mathbb{N}$ and for $n\gt k+1$ (the "stable range") are
 
@@ -131,6 +204,19 @@ $$
 $$
 
 For fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
+=--
+
++-- {: .num_example #StiefelManifold}
+###### Example
+
+The [[coset]]
+
+$$
+   V_n(k) \coloneqq O(k)/O(n)
+$$
+
+is called the $n$th _[[Stiefel manifold]]_ of $\mathbb{R}^k$.
 
 =--
 
