@@ -202,7 +202,6 @@ See at _[[Becker-Gottlieb transfer]]_.
 ### Relation to complex volumes and Bloch group
  {#RelationToComplexVolumes}
 
-> under construction
 
 There is some relation betwee the Borel regulators and [[complex volumes]] of [[hyperbolic manifolds]] via maps out of the [[Bloch group]] ([Suslin 90](#Suslin90), [Neumann-Yang 97, p. 17](#NeumannYang97), [Zickert 07, p. 3](#Zickert07), [Zickert 09](#Zickert09)).
 
@@ -221,6 +220,7 @@ $$
 
 is the Borel regulator  ([Neumann 11, p. 6](#Neumann11)).
 
+For the moment, see at _[[Bloch group]]_ for more details.
 
 ## Related concepts
 
