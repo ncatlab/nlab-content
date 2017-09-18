@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Baruch_Spinoza)
+
+## related entries
+
+* [[Spinoza's system]]
+
+category: people
+
+[[!redirects Spinoza]]
