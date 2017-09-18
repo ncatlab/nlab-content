@@ -100,6 +100,8 @@ $$
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[derivations of smooth functions are vector fields]]
+
 ## References
 
 The Hadamard lemma is due to [[Jacques Hadamard]].
