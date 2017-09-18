@@ -41,5 +41,7 @@ A standard open $Spec(R[\{s\}^{-1}]) \longrightarrow Spec(R)$ ([[Zariski topolog
 
 * [wikipedia: Finite, quasi-finite, finite type, and finite presentation morphisms](http://en.wikipedia.org/wiki/Glossary_of_scheme_theory#Finite.2C_quasi-finite.2C_finite_type.2C_and_finite_presentation_morphisms)
 
+* [[David Rydh]], _Why are unramified maps not required to be locally of finite presentation?_, [MO/206333/2503](http://mathoverflow.net/a/206333/2503).
+
 [[!redirects finitely presented morphism]]
 [[!redirects locally of finite presentation]]
