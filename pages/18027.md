@@ -44,7 +44,7 @@ Here "closed under homomorphic images" means that if $A$ and $B$ are structures 
 +-- {: .num_remark #FirstOrderAnalogue}
 ###### Remark
 
-The [[first order logic|first-order]] analogue of HSP (theorem \ref{BirkhoffHSP}) is the characterization (see e.g. Chang and Keisler's original text ([Chang-Keisler](#ChangKeisler)) on continuous model theory) of [[elementary classes of structures]] of structures: they're precisely those closed under [[elementary substructures]], [[elementary embeddings]], [[ultraproducts]], and [[ultraroots]] (if an ultrapower of something is in your class, that something was in your class.)
+The [[first order logic|first-order]] analogue of HSP (theorem \ref{BirkhoffHSP}) is the characterization (see e.g. Chang and Keisler's original text ([Chang-Keisler 66](#ChangKeisler66)) on continuous model theory) of [[elementary classes of structures]] of structures: they're precisely those closed under [[elementary substructures]], [[elementary embeddings]], [[ultraproducts]], and [[ultraroots]] (if an ultrapower of something is in your class, that something was in your class.)
 
 =--
 
@@ -52,7 +52,7 @@ The [[first order logic|first-order]] analogue of HSP (theorem \ref{BirkhoffHSP}
 
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Variety_(universal_algebra)#Birkhoff.27s_theorem">Birkhoff's theorem</a>
 
-* {#ChangKeisler} Chang, Keisler _Continuous Model Theory_, Princeton University Press, 1966. ISBN: 9780691079295
+* {#ChangKeisler66} Chang, Keisler _Continuous Model Theory_, Princeton University Press, 1966. ISBN: 9780691079295
 
 [[!redirects Birkhoff HSP theorem]]
 
