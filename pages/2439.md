@@ -375,7 +375,7 @@ $$
 $$
 
 for the [[full subcategory]] of ordinary [[commutative algebras]]
-over $k$ into commutative super-algebras (as those having trivial odd part).
+over $k$ into [[supercommutative superalgebras]] (as those having trivial odd part).
 
 =--
 
