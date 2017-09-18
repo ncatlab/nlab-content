@@ -29,6 +29,8 @@ $$
 
 is the [[zero morphism]].
 
+The existence of phantom maps implies that despite the [[Brown representability theorem]], there is a subtle difference between [[generalized (Eilenberg-Steenrod) cohomology]] theories and the [[spectra]] which represent them: the latter contain in general more information.
+
 ## Properties
 
 ### Between Landweber-exact spectra
