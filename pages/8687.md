@@ -13,6 +13,8 @@
 * table of contents
 {:toc}
 
+(This article is about primitive elements in coalgebra theory, not about primitive elements for finite [[field extensions]].)  
+
 ## Definition
 
 Working over a [[commutative ring]] $R$, recall that a _unital_ or _coaugmented_ [[coalgebra]] is an $R$-[[coalgebra]] $(C, \Delta: C \to C \otimes_R C, \epsilon: C \to R)$ equipped with a coalgebra map $u: R \to C$. Abusing notation, denote $u(1) \in C$ by $1$. 
