@@ -61,6 +61,7 @@ For instance around definition IX.3.2 of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 {#MacLaneMoerdijk}
 
+* Sober spaces in the [$\pi$-base](http://topology.jdabbs.com/properties/73).
 
 [[!redirects sober]]
 [[!redirects sober topological space]]
