@@ -38,11 +38,19 @@ Let $P'$ be the proposition $\exists x\in X, P(x)$ in the defining property of c
 
 Note that if $P$ and $Q$ are incompatible (i.e. $\neg (P(x)\wedge Q(x))$), then this becomes the [[limited principle of omniscience]] for $A$.  Thus, every covert set is [[omniscient set|omniscient]].
 
+## Compact locales are covert
+
+A locale $X$ is defined to be [[compact locale|compact]] if its top element is inaccessible by [[directed joins]], i.e. if $X = \bigvee S$ for some [[directed set]] $S\subseteq O(X)$ implies $X\le U$ for some $U\in S$.  Since the right adjoint part $r_*$ of the locale morphism $r:X\to 1$ is defined by $r_*(U) = (U=X)$ (a [[truth value]], since $O(1) = \Omega$ is the [[subobject classifier]]), this is equivalent to asking that $r_*$ preserve directed joins.
+
+Contrary to a remark in [[Sketches of an Elephant]], this condition implies that $X$ is covert, even constructively (and therefore if $X$ is compact then $X\to 1$ is a [[proper map]], without the need to modify the notion of "compact locale").  For suppose $U\in O(X)$ and $V\in O(1) = \Omega$; we must show that if $r_\ast(U \cup r_\ast(V))$ is true, then so is $r_\ast(U) \cup V$.  As remarked above, $r_\ast(W)$ is the truth value of the statement "$W=X$", while $r^*(P) = \bigcup \{ X \mid P \} $.  Suppose $r_\ast(U \cup r_\ast(V))$, i.e. that $U\cup \bigcup \{ X \mid V \} = X$.  Now consider the set $\{ W\in O(X) \mid V \vee (W\le U) \}$; this is evidently directed, and our supposition in the last sentence says exactly that its union is $X$.  Therefore, if $X$ is compact, there exists a $W$ such that $V \vee (W\le U)$ and $X\le W$.  In other words, either $V$ or $X\le U$, i.e. either $V$ or $r_\ast(U)$, which is what we wanted.  This proof appears to be due to [Vermeulen](#Vermeulen).
 
 ## References
 
 * [[Eduardo Dubuc]] and [[Jacques Penon]], *Objets compacts dans les topos*
  {#DubucPenon}
+
+* Vermeulen, *Proper maps of locales*
+ {#Vermeulen}
 
 [[!redirects covert spaces]]
 [[!redirects covert sets]]
