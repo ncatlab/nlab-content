@@ -23,7 +23,7 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 ### Papers
 
-* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). To appear, Journal of Homotopy and Related Structures. Accepted for publication April 2016.
+* _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). To appear, [Journal of Homotopy and Related Structures](http://link.springer.com/journal/40062). Accepted for publication April 2016.
 
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384 doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
