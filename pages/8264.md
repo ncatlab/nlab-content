@@ -114,6 +114,8 @@ see _[[Starobinsky model of cosmic inflation]]_
  
 * {#BICEPKeckPlanck15} _A Joint Analysis of BICEP2/Keck Array and Planck Data_ ([arXiv:1502.00612](http://arxiv.org/abs/1502.00612))
 
+* Planck 2015 Overview of results ([pdf](http://www.cosmos.esa.int/documents/387566/522789/Planck_2015_Results_I_Overview_Products_Results.pdf/14d90465-03c2-4e3c-b8d1-73181248673d))
+
 ### Higgs field inflation
  {#ReferencesHiggsInflation}
 
@@ -123,7 +125,7 @@ Literature discussing whether or how the [[Higgs field]] might be identified as 
 
 * Kohei Kamada, _Generalized Higgs inflation models_, talk at PLANCK 2012 (May 2012)([pdf](http://planck12.fuw.edu.pl/talks/kamada.pdf))
 
-* Alex Kehagias, _New Higgs inflation_, talk (September 2012) ([pdf](http://www.physics.ntua.gr/corfu2010/Talks/kehagias@central_ntua_gr_01.pdf))
+* [[Alex Kehagias]], _New Higgs inflation_, talk (September 2012) ([pdf](http://www.physics.ntua.gr/corfu2010/Talks/kehagias@central_ntua_gr_01.pdf))
 
 * Takehiro Nabeshima, _A model for Higgs inflation and its testability at the ILC_, talk (October 2012) ([pdf](http://ilcagenda.linearcollider.org/getFile.py/access?contribId=64&sessionId=8&resId=0&materialId=slides&confId=5468))
 
@@ -157,4 +159,3 @@ See also at _[[string phenomenology]]_.
 [[!redirects inflatons]]
 [[!redirects inflaton field]]
 [[!redirects inflaton fields]]
-
