@@ -1,4 +1,5 @@
-[[!redirects E-nilpotent completion]]
+
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,6 +22,169 @@ Given a [[spectrum]] $X$, and a [[ring spectrum]] $E$, then the _$E$-nilpotent c
 Under certain finiteness conditions (see [below](#RelationToELocalization)), but not generally, this is equivalent to the $E$-[[Bousfield localization of spectra|Bousfield localization]] $L_E X$ (which, in turn, is in special cases given by [[formal completion]], see at _[[fracture theorem]]_).
 
 The $E$-[[Adams spectral sequence]] induced by the given [[Adams tower]] [[conditionally converges]] to the $E$-nilpotent completion.
+
+## Definition
+
++-- {: .num_defn #ENilpotentCompletion}
+###### Definition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and $Y \in Ho(Spectra)$ any spectrum. Write $\overline{E}$ for the [[homotopy fiber]] of the unit $\mathbb{S}\overset{e}{\to} E$ as in [this def.](Adams+spectral+sequence#HomotopyFiberOfUnitOfCommutativeRingSpectrum) such that the $E$-Adams filtration of $Y$ ([def.](Adams+spectral+sequence#AdamsEAdamsSpectralSequence)) reads (according to [this lemma](Adams+spectral+sequence#Wp))
+
+$$
+  \array{
+    \vdots
+    \\
+    \downarrow
+    \\
+    \overline{E}^3 \wedge Y
+    \\
+    \downarrow
+    \\
+    \overline{E}^2 \wedge Y
+    \\
+    \downarrow
+    \\
+    \overline{E} \wedge Y
+    \\
+    \downarrow
+    \\
+    Y
+  }
+  \,.
+$$
+
+For $n \in \mathbb{N}$, write
+
+$$
+  \overline{E}_n 
+   \coloneqq
+  hocof( \overline{E}^n \overset{i^n}{\longrightarrow} \mathbb{S})
+$$
+
+for the homotopy cofiber. Here $\overline{E}_0 \simeq 0$.
+By the [[tensor triangulated category|tensor triangulated]] structure of $Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)), this homotopy cofiber is preserved by forming [[smash product of spectra|smash product]] with $Y$, and so also
+
+$$
+  \overline{E}_n \wedge Y
+   \simeq
+  hocof( \overline{E}^n \wedge Y \overset{}{\longrightarrow} Y)
+  \,.
+$$
+
+Now let
+
+$$
+  \overline{E}_s 
+    \overset{p_{s-1}}{\longrightarrow}
+  \overline{E}_{s-1}
+$$
+
+be the morphism implied by the [[octahedral axiom]] of the [[triangulated category]] $Ho(Spectra)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CategoryWithCofiberSequences), [prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)):
+
+
+$$
+  \array{
+    \overline{E}^{s+1}
+      &\overset{i}{\longrightarrow}&
+    \overline{E}^s
+      &\longrightarrow&
+    E \wedge \overline{E}^s
+      &\longrightarrow&
+    \Sigma \overline{E}^{s+1}
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+    \downarrow^{\mathrlap{i^s}}
+      &&
+    \downarrow^{}
+      &&
+    \downarrow
+    \\
+    \overline{E}^{s+1}
+      &\longrightarrow& 
+    \mathbb{S}
+      &\longrightarrow&
+    \overline{E}_s
+      &\longrightarrow&
+    \Sigma \overline{E}^{s+1}
+    \\
+    &&
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{p_{s-1}}}
+    \\
+      &&
+    \overline{E}_{s-1}
+      &\overset{=}{\longrightarrow}&
+    \overline{E}_{s-1}
+    \\
+    &&
+    \downarrow 
+      &&
+    \downarrow
+    \\
+      &&
+    \Sigma \overline{E}^s
+      &\longrightarrow&
+     \Sigma E \wedge \overline{E}^s
+  }
+  \,.
+$$
+
+By the [[commuting square]] in the middle and using again the [[tensor triangulated category|tensor triangulated]] structure, this yields an inverse sequence under $Y$:
+
+$$
+  Y   
+    \simeq
+  \mathbb{S} \wedge Y
+    \longrightarrow
+  \cdots
+    \overset{p_3 \wedge id}{\longrightarrow}
+  \overline{E}_3 \wedge Y
+    \overset{p_2 \wedge id}{\longrightarrow}
+  \overline{E}_2 \wedge Y
+    \overset{p_1 \wedge id}{\longrightarrow}
+  \overline{E}_1 \wedge Y
+$$
+
+The **[[E-nilpotent completion]]** $Y^\wedge_E$ of $Y$ is the [[homotopy limit]] over the resulting inverse sequence
+
+$$
+  Y^\wedge_E
+    \coloneqq
+  \mathbb{R}\underset{\longleftarrow}{\lim}_n \overline{E}_n \wedge Y
+$$
+
+or rather the canonical morphism into it
+
+$$
+  Y \longrightarrow Y^\wedge_E
+  \,.
+$$
+
+Concretely, if 
+
+$$
+  Y   
+    \simeq
+  \mathbb{S} \wedge Y
+    \longrightarrow
+  \cdots
+    \overset{p_3 \wedge id}{\longrightarrow}
+  \overline{E}_3 \wedge Y
+    \overset{p_2 \wedge id}{\longrightarrow}
+  \overline{E}_2 \wedge Y
+    \overset{p_1 \wedge id}{\longrightarrow}
+  \overline{E}_1 \wedge Y
+$$
+
+is presented by a tower of fibrations between fibrant spectra in the [[model structure on topological sequential spectra]], then $Y^\wedge_E$ is represented by the ordinary [[sequential limit]] over this tower.
+
+
+=---
+
+([Bousfield 79, top, middle and bottom of page 272](#Bousfield79))
+
 
 ## Properties
 
@@ -136,3 +300,5 @@ See also
 
 [[!redirects nilpotent completion]]
 [[!redirects nilpotent completions]]
+
+[[!redirects E-nilpotent completion]]
