@@ -127,15 +127,15 @@ Also [[William Lawvere]] was there, lecturing on [[hyperdoctrines]]. Lawvere tol
 
 But the story started earlier with what has been called the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[intuitionistic logic]], highlighted for instance in ([Troelstra 91](#Troelstra91)), which identifies a proposition with the collection of its proofs. This view goes back to an observation of Kolmogorov that the formalisation of Brouwer's ideas by Heyting in 1930 can be semantically interpreted as a calculus of 'Aufgaben' - problems (and solutions), reported in
 
-* A. Kolmogoroff, _Zur Deutung der intuitionistischen Logik_ , Math. Z. **35** (1932) pp.58-65. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002373467))
+* [[Andrey Kolmogorov]], _Zur Deutung der intuitionistischen Logik_, Math. Z. **35** (1932) pp.58-65. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002373467))
 
 A historical account is in the section on types in
 
-* Hindley J. Roger; Cardone Felice, _History of Lambda-calculus and Combinatory Logic_. Handbook of the History of Logic. Volume 5. Logic from Russell to Church (edited by D. Gabbay and J. Woods), Elsevier, 2009, pp. 723-817 ([pdf](http://www.di.unito.it/~felice/pdf/lambdacomb.pdf), [errata](http://www.di.unito.it/~felice/pdf/erratalist.pdf) )
+* Hindley J. Roger; Cardone Felice, _History of Lambda-calculus and Combinatory Logic_. Handbook of the History of Logic. Volume 5. Logic from Russell to Church (edited by D. Gabbay and J. Woods), Elsevier, 2009, pp. 723-817 ([pdf](http://www.di.unito.it/~felice/pdf/lambdacomb.pdf), [errata](http://www.di.unito.it/~felice/pdf/erratalist.pdf))
 
 and in section 5 of 
 
-* {#Troelstra91} [[Anne Sjerp Troelstra]]], _History of Constructivism in the 20th Century_ ,(1991).  ([preprint](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf))
+* {#Troelstra91} [[Anne Sjerp Troelstra]], _History of Constructivism in the 20th Century_, 1991 ([preprint](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf))
  
 
 Philip Wadler is currently in the process of writing another history:
