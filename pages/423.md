@@ -100,26 +100,6 @@ $$
 
 =--
 
-We now reformulate this analytic concept in terms of the simple but important concept of _[[open sets]]_:
-
-+-- {: .num_defn #OpenBalls}
-###### Definition
-**(neighbourhood and open set)**
-
-Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
-
-$$
-  B^\circ_x(\epsilon)
-    \;\coloneqq\;
-  \left\{
-    y \in X \;\vert\; d(x,y) \lt \epsilon
-  \right\}
-$$
-
-for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
-
-=--
-
 
 +-- {: .num_defn #EpsilonDeltaDefinitionOfContinuity}
 ###### Definition
@@ -152,6 +132,28 @@ where $B^\circ$ denotes the [[open ball]] (definition \ref{OpenBalls}).
 The function $f$ is called just _continuous_ if it is continuous at every point $x \in X$.
 
 =--
+
+We now reformulate this analytic concept in terms of the simple but important concept of _[[open sets]]_:
+
++-- {: .num_defn #OpenBalls}
+###### Definition
+**(neighbourhood and open set)**
+
+Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
+
+$$
+  B^\circ_x(\epsilon)
+    \;\coloneqq\;
+  \left\{
+    y \in X \;\vert\; d(x,y) \lt \epsilon
+  \right\}
+$$
+
+for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
+
+=--
+
+
 
 +-- {: .num_defn #OpenSubsetsOfAMetricSpace}
 ###### Definition
