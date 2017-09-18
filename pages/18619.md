@@ -1,0 +1,53 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] ([[field theory]]) a _local observable_ is an [[observable]] which is an average of a function of the values of the [[field (physics)|fields]] and their [[derivatives]] at each fixed spacetime point.
+
+If $\Phi$ is a [[field (physics)|field configuration]] over some [[spacetime]] $\Sigma$ then a local observable is a function of $\Phi$ which, assigns values of the form
+
+$$
+  \Phi
+    \;\mapsto\;
+  \int_\Sigma f(\Phi(x), \nabla \Phi(x), \nabla^2 \Phi(x), \cdots) b(x) dvol_\Sigma(x)
+$$
+
+where $f$ is some [[smooth function]] of its arguments and $b$ is some [[bump function]] on [[spacetime]].
+
+This is in contrast to an observable which combines the values of fields at different spacetime points other than by forming spacetime averages. For instance if $x \neq y \in \Sigma$ are two distinct spacetime points, then 
+
+
+$$
+  \Phi \mapsto \Phi(x) \Phi(y)
+$$
+
+is a smooth function on the space of fields, hence an [[observable]], but it is not a local observables.
+
+More in detail, if 
+
+$$
+  \array{
+    E 
+    \\
+    \downarrow^{\mathrlap{fb}}
+    \\
+    \Sigma
+  }
+$$
+
+is a [[fiber bundle]] regarded as the [[field bundle]] that defines the given [[field theory]], then a local observables is a function on the the space of field configurations, hence the [[space of sections]] $\Gamma_\Sigma(E)$ (or else on the subspace of those which solve the [[equations of motion]], the [[shell]]) which arises as the [[transgression]] of a [[horizontal differential form]] of degree $dim(\Sigma)$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ of $E$.
+
+
+## Properties
+
+* polynomial local observables are [[microcausal functional|microcausal]] ([this example](microcausal+functional#CompactlySupportedPolynomialLocalDensities))
+
+## Related concepts
+
+* [[Wick algebra]]
+
+
+[[!redirects local observables]]
