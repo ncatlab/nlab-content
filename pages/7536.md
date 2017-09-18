@@ -1,5 +1,11 @@
 
+Arkady Tseytlin is professor for theoretical [[physics]] at Imperial College London.
+
 * [webpage](http://www3.imperial.ac.uk/people/a.tseytlin)
+
+## related $n$Lab entries
+
+* [[AdS-CFT]]
 
 category: people
 
