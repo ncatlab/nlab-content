@@ -13,6 +13,8 @@ Every [[group character]] is in particular a class function.
 
 ## Related concept
 
+* [[class formula]]
+
 * [[Schur orthogonality relation]]
 
 [[!redirects class functions]]
