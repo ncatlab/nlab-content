@@ -4430,7 +4430,7 @@ for the category that these form.
 +-- {: .num_prop}
 ###### Proposition
 
-The symmetric (orthogonal) [[commutative ring spectra]] in def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra} are equivalently the [[commutative monoid in a monoidal category|commutative monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[symmetric monoidal category]] $\mathbb{S}_{sym}Mod$ ($\mathbb{S}_{orth}Mod$) of def. \ref{SsymModuleSymmetricSpectra} with respect to the [[symmetric monoidal smash product of spectra]] $\wedge = \otimes_{\mathbb{S}_{sym}}$ ($\wedge = \otimes_{\mathbb{S}_{orth}}$). Hence there are [[equivalences of categories]]
+The symmetric (orthogonal) [[commutative ring spectra]] in def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra} are equivalently the [[commutative monoid in a symmetric monoidal category|commutative monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[symmetric monoidal category]] $\mathbb{S}_{sym}Mod$ ($\mathbb{S}_{orth}Mod$) of def. \ref{SsymModuleSymmetricSpectra} with respect to the [[symmetric monoidal smash product of spectra]] $\wedge = \otimes_{\mathbb{S}_{sym}}$ ($\wedge = \otimes_{\mathbb{S}_{orth}}$). Hence there are [[equivalences of categories]]
 
 $$
   CRing(SymSpec(Top_{cg}))
@@ -4449,6 +4449,63 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+We discuss this for symmetric spectra. The proof for orthogonal spectra is directly analogous.
+
+By prop. \ref{AlgebrasOverAAreMonoidsUnderA} and def. \ref{SsymModuleSymmetricSpectra}, the commutative monoids in $\mathbb{S}_{sym}Mod$ are equivalently commtutative monoids $E$ in $([Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0))$ equipped with a homomorphism of monoids $\mathbb{S}_{sym} \longrightarrow E$. in turn, by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this are equivalently braided lax monoidal functors (which we denote by the same symbols, for convenience)
+
+$$
+  E \;\colon\; (Sym, +, 0) \longrightarrow (Top^{\ast/}_{cg}, \wedge, S^0)
+$$
+
+equipped with a [[monoidal natural transformation]] (def. \ref{LaxMonoidalFunctor})
+
+$$
+  \iota \;\colon\; \mathbb{S}_{sym} \longrightarrow E
+  \,.
+$$
+
+The structure morphism of such a lax monoidal functor $E$ has as components precisely the morphisms $\mu_{n_1, n_2}\colon E_{n_1} \wedge E_{n_2} \to E_{n_1 + n_2}$.
+
+In terms of these, the associativity and braiding condition on the lax monoidal functor are manifestly the above associativity and commutativity conditions.
+
+
+Hence it only remains to match the nature of the units. The above unit morphism $\iota$ has components
+
+$$
+  \iota_n \;\colon\; S^n \longrightarrow E_n
+$$
+
+for all $n \in \mathbb{N}$, and the unitality condition for $\iota_0$ and $\iota_1$ is manifestly as in the statement above.
+
+We claim that the other components are uniquely fixed by these:
+
+By lemma \ref{FSPStructuredSphereSpectra}, the product structure in $\mathbb{S}_{sym}$ is by isomorphisms $S^{n_1} \wedge S^{n_2} \simeq S^{n_1 + n_2}$, so that the commuting square for the coherence condition of this [[monoidal natural transformation]] says that $\iota_{n_1 + n_2} = \mu_{n_1,n_2} \circ (\iota_{n_1} \wedge \iota_{n_2})$:
+
+$$
+  \array{
+    S^{n_1} \wedge S^{n_2}
+      &\overset{\iota_{n_1} \wedge \iota_{n_2}}{\longrightarrow}&
+    E_{n_1} \wedge E_{n_2}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      && 
+    \downarrow^{\mathrlap{\mu_{n_1, n_2}}}
+    \\
+    S^{n_1 + n_2}
+      &\underset{\iota_{n_1 + n_2}}{\longrightarrow}&
+    E_{n_1 + n_2}
+  }
+  \,.
+$$
+
+This means that $\iota_{n \geq 2}$ is uniquely fixed once $\iota_0$ and $\iota_1$ are given.
+
+Finally it is clear that homomorphisms on both sides of the equivalence precisely respect all this structure under both sides of the equivalence.
+
+=--
 
 ##### As diagram spectra
 
