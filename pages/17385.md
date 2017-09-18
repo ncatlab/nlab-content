@@ -1,5 +1,5 @@
 
-* wikipedia: [mathematics education](https://en.wikipedia.org/wiki/Mathematics_education), [Common Core State Standards Initiative](https://en.wikipedia.org/wiki/Common_Core_State_Standards_Initiative), [New Math](https://en.wikipedia.org/wiki/New_Math)
+* wikipedia: [mathematics education](https://en.wikipedia.org/wiki/Mathematics_education), [Common Core State Standards Initiative](https://en.wikipedia.org/wiki/Common_Core_State_Standards_Initiative), [New Math](https://en.wikipedia.org/wiki/New_Math), [Moore method](https://en.wikipedia.org/wiki/Moore_method)
 * [[New Math]]
 * [NCTM](http://www.nctm.org) National Organization of Teachers of Mathematics
 * [Common Core](http://www.corestandards.org/Math) math standards
@@ -9,3 +9,5 @@
    * blog opinion [What Does Liping Ma REALLY say?](http://rationalmathed.blogspot.hr/2007/06/what-does-liping-ma-really-say.html)
 * Elizabeth Green, [Why Do Americans Stink at Math?](http://www.nytimes.com/2014/07/27/magazine/why-do-americans-stink-at-math.html), New York Times opinion story (moral: good ideas in the reforms never materialized in practice)
 * [Guy Brousseau](http://www.ardm.eu/contenu/guy-brousseau-english) and at French [wikipedia](https://pt.wikipedia.org/wiki/Guy_Brousseau)
+
+category: education
