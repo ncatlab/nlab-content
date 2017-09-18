@@ -183,9 +183,12 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 
 ## Related concepts
 
+* [[Thom's theorem]]
+
 * [[Thom isomorphism]]
 
 [[!include generalized fiber integration synonyms - table]]
+
 
 ## References
 
