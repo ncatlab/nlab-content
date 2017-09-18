@@ -47,7 +47,7 @@ $$
   \left(
     {\Vert F(\xi)  \Vert}
       \le 
-    C_N (1 + {\vert \xi\vert })^{-N} \exp{ (B \; |Im(\xi)|)}
+    C_N (1 + {\vert \xi\vert })^{N} \exp{ (B \; |Im(\xi)|)}
   \right)
   \,.
 $$ 
