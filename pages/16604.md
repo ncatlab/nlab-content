@@ -1,0 +1,1 @@
+let L be a prime ideal, our aim is to show that there exist 
