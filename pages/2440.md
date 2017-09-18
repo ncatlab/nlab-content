@@ -121,6 +121,7 @@ The underlying even-graded [[Lie algebra]] for type 2 is as follows
 | $G(3)$ | $G_2\oplus A_1$ | spinor $\otimes$ vector |
 | $Q(n)$ | $A_n$ | adjoint |
 
+
 For type 1 the $\mathbb{Z}/2\mathbb{Z}$-grading lifts to an $\mathbb{Z}$-grading with $\mathfrak{g} = \mathfrak{g}_{-1}\oplus \mathfrak{g}_0 \oplus \mathfrak{g}_1$. 
 
 | $\mathfrak{g}$ |  $\mathfrak{g}_{even}$  |  $\mathfrak{g}_{even}$ rep on $\mathfrak{g}_{{-1}}$ |
@@ -129,7 +130,7 @@ For type 1 the $\mathbb{Z}/2\mathbb{Z}$-grading lifts to an $\mathbb{Z}$-grading
 | $A(m,m)$ | $A_m \oplus A_n$ | vector $\otimes$ vector |
 | $C(n)$ | $\mathbb{C}_{-1} \oplus \mathbb{C}$ | vector $\otimes$ $\mathbb{C}$ |
 
-reviewed in ([Minwalla 98, section 4.1](#Minwalla98)).
+reviewed e.g. in ([Farmer 84, p. 25,26](#Farmer84), [Minwalla 98, section 4.1](#Minwalla98)).
 
 ## Examples
 
@@ -171,6 +172,8 @@ Further discussion of classification related specifically to [classification of 
 * [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
 
 Introductions and surveys include
+
+* {#Farmer84} Richard Joseph Farmer, _Orthosymplectic superalgebras in mathematics and science_, PhD Thesis (1984) ([web](http://eprints.utas.edu.au/19542/), [pdf](http://eprints.utas.edu.au/19542/1/whole_FarmerRichardJoseph1985_thesis.pdf))
 
 * L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161))
 
