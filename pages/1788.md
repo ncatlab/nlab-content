@@ -1,14 +1,9 @@
 $$
-  \begin{aligned}
-    \tilde \sigma_{i+1,k} \circ \iota_{i,k}
-    & =
-    (\Omega(\iota_{i,k+1}) \circ \phi_{i,k}) \circ \iota_{i,k}
-    \\
-    & =
-    \Omega(\iota_{i,k+1}) \circ (\phi_{i,k} \circ \iota_{i,k})
-    \\
-    & = 
-    \Omega(\iota_{i,k+1}) \circ \tilde \sigma_{i,k}
-   \,.
-  \end{aligned}
+  J_{SeqSpec}^{stable}
+    \coloneqq 
+  J_{SeqSpec}^{strict}
+   \sqcup
+  \{
+    k_n \Box i_+
+  \}_{n \in \mathbb{N},i_+ \in \left(I_{Top^{\ast/}}\right)}
 $$
