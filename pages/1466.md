@@ -205,6 +205,10 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * [[complete uniform space]] and uniform completion
 
+* [[uniform convergence]]
+
+* [[uniformly continuous map]]
+
 [[!include generalized uniform structures - table]]
 
 
