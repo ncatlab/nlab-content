@@ -330,7 +330,9 @@ The [[Atiyah-Hirzebruch spectral sequence]] serves to express generalized cohomo
 
 * [[Brown representability theorem]]
 
-* [[homology theory]]
+* [[generalized homology theory]]
+
+* [[Kronecker pairing]]
 
 * [[bivariant cohomology theory]]
 
