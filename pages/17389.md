@@ -72,7 +72,7 @@ Observe
 
 1. For every point $x \in X \setminus f(X) \subset X \subset X \cup_f D^n$ there exist disjoint open neighbourhoods around $f(S^{n-1})$ and $x$. 
 
-   To see this, first find such open neighbourhoods in $X$. These exist because $S^{n-1}$ is a [[compact topological space]] (for instance by [[Heine-Borel theorem]]), since [[continuous images of compact spaces are compact]] whence $f(S^{n-1}) \subset X$ is compact, and finally since [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]]. Now form the union of the open nighbourhood of $f(S^{n-1})$ in $X$ with $C_\epsilon(S^{n-1})$ to obatain an open neighbourhood in $X \cup_f D^{n-1}$, still disjoint from that of the point.
+   To see this, first find such open neighbourhoods in $X$. These exist because $S^{n-1}$ is a [[compact topological space]] (for instance by [[Heine-Borel theorem]]), since [[continuous images of compact spaces are compact]] whence $f(S^{n-1}) \subset X$ is compact, and finally since [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]]. Now form the union of the open neighbourhood of $f(S^{n-1})$ in $X$ with $C_\epsilon(S^{n-1})$ to obtain an open neighbourhood in $X \cup_f D^{n-1}$, still disjoint from that of the point.
 
 Now we discuss separation of distinct points in $X \cup_f D^{n}$ by case distinction:
 
