@@ -56,6 +56,8 @@ On _[[speculative philosophy]]_:
 
 * _[[Lectures on the Philosophy of History]]_
 
+* _[[Lectures on the History of Philosophy]]_
+
 ## References
 
 * Wikipedia, _[Lectures of the Philosophy of Religion](http://en.wikipedia.org/wiki/Lectures_on_the_Philosophy_of_Religion)_
