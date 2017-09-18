@@ -128,8 +128,8 @@ h. c. diagram of shape $BG$, the corresponding one object groupoid to $G$.)
 ###### Theorem
 **Cordier (1980)**
 
-Given ${\mathbb{A}}$, a [[small category]], the [[sSet]]-[[enriched category]]
-${S(\mathbb{A})}$ called the [[homotopy coherent nerve]] is such that a
+For each a [[small category]], the [[sSet]]-[[enriched category]]
+${S(\mathbb{A})}$ defined in [[homotopy coherent nerve#the_cosimplicial_category]] is such that a
 h.c. diagram of shape ${\mathbb{A}}$ in [[Top]] is given precisely by an 
 [[sSet]]-[[enriched functor]]
 
