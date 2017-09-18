@@ -64,6 +64,7 @@ First recall the basic concepts from [[analysis]]:
 
 +-- {: .num_defn #MetricSpace}
 ###### Definition
+**(metric space)**
 
 A _[[metric space]]_ is
 
@@ -98,6 +99,7 @@ $$
 
 +-- {: .num_defn #OpenBalls}
 ###### Definition
+**(neighbourhood and open set)**
 
 Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
 
@@ -199,14 +201,21 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
 
 +-- {: .num_prop }
 ###### Proposition
+**(closure properties of open sets in a metric space)**
 
 The collection of [[open subsets]] of a [[metric space]] $(X,d)$ as in def. \ref{OpenSubsetsOfAMetricSpace} has the following properties:
 
 1. The [[intersection]] of any [[finite number]] of open subsets is again an open subset.
 
-1. the [[union]] of any [[set]] of open subsets is again an open subset.
+1. The [[union]] of any [[set]] of open subsets is again an open subset.
 
-In particular the [[empty set]] is open (being the union of no subsets) and the whole set $X$ itself is open (being the intersection of no subsets).
+In particular 
+
+* the [[empty set]] is open (being the union of no subsets) 
+
+and 
+
+* the whole set $X$ itself is open (being the intersection of no subsets).
 
 =--
 
@@ -216,7 +225,7 @@ This motivates the following generalized definition:
 ###### Definition
 **(topological spaces)**
 
-Given a [[set]] $X$, then a _topology_ on $X$ is a collection of [[subsets]] of $X$ called the _[[open subsets]]_, hence a [[subset]] of the [[power set]]
+Given a [[set]] $X$, then a _topology_ on $X$ is a collection $\tau$ of [[subsets]] of $X$ called the _[[open subsets]]_, hence a [[subset]] of the [[power set]]
 
 $$
   \tau \subset P(X)
@@ -249,6 +258,7 @@ $\,$ $\,$ _Pre-Images of open subsets are open._
 
 +-- {: .num_defn #ContinuousMaps}
 ###### Definition
+**(continuous maps)**
 
 A _[[continuous function]]_ between [[topological spaces]]
 
@@ -269,7 +279,7 @@ such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X
 
 
 The simple definition of [[open subsets]] and the simple _principle of equivalence_
-gives topology its fundamental and universal flavor. The combinatorial nature of ese definitions makes
+gives topology its fundamental and universal flavor. The combinatorial nature of these definitions makes
 topology be closely related to [[formal logic]] (for more on this see at _[[locale]]_).
 
 
@@ -285,16 +295,15 @@ One says that
 
 1. [[continuous maps]] constitute the [[morphisms]] ([[homomorphisms]])
 
-of  a _[[category]]_. The _[[category of topological spaces]]_ ([[Top]] for short).
+of  a _[[category]]_. The _[[category of topological spaces]]_ (_[[Top]]_, for short).
 
 It is useful to depict collections of [[objects]] with [[morphisms]] between them
-
 by [[diagrams]], like this one:
 
 
 <img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
 
-> graphics grabbed from [Lavere-Schanuel 09](#category+theory#LawvereSchanuel09).
+> graphics grabbed from [Lawvere-Schanuel 09](#category+theory#LawvereSchanuel09).
 
 =--
 
@@ -306,7 +315,9 @@ Our motivating example now reads:
 ###### Example
 **(metric topology)**
 
-Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_. Stated more concisely: the [[open balls]] in a metric space constitute the [[basis of a topology]] for the [[metric topology]].
+Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_. 
+
+Stated more concisely: the [[open balls]] in a metric space constitute a "[[basis of a topology|basis]]" for the [[metric topology]].
 
 =--
 
@@ -317,7 +328,7 @@ One point of the general definition of "[[topological space]]" is that it admits
 ###### Example
 **(discrete topological space)**
 
-For $S$ a bare [[set]], then the _[[discrete topology]]_ on $S$ regards every subset of $S$ as an [[open subset]].
+For $S$ a bare [[set]], then the _[[discrete topology]]_ on $S$ regards _every_ subset of $S$ as an [[open subset]].
 
 =--
 
@@ -333,7 +344,7 @@ Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be
 
 (Also called the _[[initial topology]]_ of the inclusion map.)
 
-The picture on the right shows two open subsets inside the [[square]] regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
+The picture on the right shows two open subsets inside the [[square]], regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
 
 
 > graphics grabbed from [Munkres 75](#Munkres75)
@@ -345,13 +356,25 @@ The picture on the right shows two open subsets inside the [[square]] regarded a
 ###### Example
 **(quotient topological space)**
 
-Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let "$R_\sim \subset X \times X$" be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]], and a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
+Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let 
 
 $$
-  \pi \colon X \to X_\sim
+  R_\sim \subset X \times X
 $$
 
-is open in $X$.
+be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has 
+
+* as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]], 
+
+and 
+
+* a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
+
+  $$
+    \pi \colon X \to X_\sim
+  $$
+
+  is open in $X$.
 
 (This is also called the _[[final topology]]_ of the projection $\pi$.)
 
@@ -363,8 +386,7 @@ is open in $X$.
 The above picture shows on the left the [[square]] (a [[topological subspace]] of the [[plane]]),
 then in the middle the resulting [[quotient topological space]] obtained by
 identifying two opposite sides (the _[[cylinder]]_), and on the right the further quotient obtained by
-identifying the remaining sides (the _[[torus]]_):
-
+identifying the remaining sides (the _[[torus]]_).
 
 > graphics grabbed from [Munkres 75](#Munkres75)
 
@@ -377,8 +399,13 @@ identifying the remaining sides (the _[[torus]]_):
 </div>
 
 For $X$ and $Y$ two [[topological spaces]], then the [[product topological space]] $X \times Y$
-has as underlying set the [[Cartesian product]] of the underlying sets of $X$ and $Y$, and its [[open sets]]
-are those subsets $O \subset X \times Y$ of the Cartesian product such that for all point $(x,y) \in O$
+has 
+
+* as underlying set the [[Cartesian product]] of the underlying sets of $X$ and $Y$, 
+
+and 
+
+* its [[open sets]] are those subsets $O \subset X \times Y$ of the Cartesian product such that for all point $(x,y) \in O$
 there exists open sets $x \in O_x \subset X$ and $y \in O_Y \subset Y$ such that $O_x \times O_y \subset O$.
 
 
@@ -390,7 +417,7 @@ there exists open sets $x \in O_x \subset X$ and $y \in O_Y \subset Y$ such that
 
 
 
-These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of [[colimits]] and of [[limits]] of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. (For more on this see at _[Top -- Universal constructions](Top#UniversalConstructions)_.)
+These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of **[[limits]]** and of **[[colimits]]** of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. (For more on this see at _[Top -- Universal constructions](Top#UniversalConstructions)_.)
 
 
 
