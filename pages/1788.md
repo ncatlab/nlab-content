@@ -56,18 +56,31 @@ In order to appeal to prop. \ref{nImageFactroizationModeledOnSimplicialPrsheaves
 Let $f_\bullet \colon V_\bullet \longrightarrow W_\bullet$
 be a [[chain map]] between [[chain complexes]].
 
-For $n \in \mathbb{N}$, define the abelian group
+For $n \in \mathbb{N}$, define 
 
 $$
   (im_{n+1}(f))_n
-    \coloneqq      
+  \;\coloneqq\;
+  coker(\,
+     ker(\partial_V) \cap ker(f_n)
+     \to 
+     V_n
+  \,)
+$$
+
+which for the following is usefully thought of as
+
+$$
+  (im_{n+1}(f))_n
+   \simeq
    \underset{v_{n-1} \in V_{n-1}}{\sqcup}
     \left\{
       f_n(v_n) \vert \partial v_n = v_{n-1}
     \right\}
+  \,.
 $$
 
-and consider the following diagram of [[abelian groups]]:
+Then consider the following diagram of [[abelian groups]]:
 
 $$
   \array{
