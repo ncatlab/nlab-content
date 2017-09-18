@@ -60,9 +60,11 @@ These three terms can be distinguished in the following way:
 
 ## Examples
 
-* The term _unnatural isomorphism_ is often used in [[homological algebra]], in particular in discussions of splittings. An example is [Theorem 4.3](#HiltonStammbach71), which explictly uses the term to decribe an isomorphism between Hom- and Ext-functors.
+* Let $U:Vect\to Aff$ be the functor taking the underlying [[affine space]] of a [[vector space]], and $D:Aff\to Vect$ the functor constructing the vector space of displacements of an affine space.  Then there is a *natural* isomorphism $D \circ U \cong Id_{Vect}$, but only an *unnatural* isomorphism "$U \circ D \cong Id_{Aff}$".  In particular, these functors do not form an [[equivalence of categories]].  A similar phenomenon occurs with [[groups]] and [[heaps]].
 
-* Species are functors for which unnatural isomorphisms are often discussed. Examples are [this MO comment](#GesselTrimble2014) and also [Definition 3.3.4](#Yorgey2014), which defines an equivalence relation on the class of all species by explicitly using the term, defining an "equipotence between species [...] as an "unnatural" isomorphism between [the two species in question]", however, in _another_ sense, which will not be spelled out here, than discussed in  [MathOverflow2013](#MathOverflow2013).
+* The term _unnatural isomorphism_ is often used in [[homological algebra]], in particular in discussions of splittings. An example is [Hilton-Stammbach, Theorem 4.3](#HiltonStammbach71), which explictly uses the term to decribe an isomorphism between Hom- and Ext-functors.  More generally, _unnatural transformations_ also often occur in homological algebra.
+
+* [[species]] are functors for which unnatural isomorphisms are often discussed. Examples are [this MO comment](#GesselTrimble2014) and also [Definition 3.3.4](#Yorgey2014), which defines an equivalence relation on the class of all species by explicitly using the term, defining an "equipotence between species [...] as an "unnatural" isomorphism between [the two species in question]", however, in _another_ sense, which will not be spelled out here, than discussed in  [MathOverflow2013](#MathOverflow2013).
 
 * See [MathOverflow2013](#MathOverflow2013). 
 
