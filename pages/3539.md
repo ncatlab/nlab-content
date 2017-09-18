@@ -88,6 +88,10 @@ See [[club]].
 
 ## References
 
+[[Saunders Mac Lane]] discusses some of the history of the coherence problem in section 5 of
+
+* [[Saunders Mac Lane]], Topology and Logic as a Source of Algebra (Retiring Presidential Address), _Bulletin of the AMS_ 82:1, January 1976. ([euclid](https://projecteuclid.org/euclid.bams/1183537593))
+
 An account of some of the history of (proofs of) coherence theorems is at 
 
 * [linear type theory -- History of categorical semantics](linear+type+theory#HistoryCategoricalSemantics) .
