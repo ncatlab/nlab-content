@@ -119,7 +119,30 @@ be [[surjections]].
 However, many results come out more cleanly by disqualifying the empty space (much as one disqualifies $1$ when one defines the notion of [[prime number]]).  See also the discussion at [[empty space]] and [[too simple to be simple]].
 
 
-## Basic results {#basic}
+### Connected components
+
+Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The [[equivalence class]] $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from Result \ref{2} that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by Result \ref{5}. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
+
+There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y)$ for every continuous $f: X \to D$ mapping to a [[discrete space]] $D$. The equivalence class of $x$ may be alternatively described as the intersection of all clopens that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. It is easy to prove that 
+
+$$Conn(x) \subseteq QConn(x)$$ 
+
+and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below), but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace]] of the [[real line]]). 
+
++-- {: .num_example #comb} 
+###### Example
+For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
+
+$$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$ 
+
+In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = \{(0, 0), (0, 1)\}$.  
+=-- 
+
+
+
+## Examples
+
+### Basic examples {#basic}
 
 +-- {: .num_remark #1} 
 ###### Result
@@ -147,7 +170,8 @@ The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the
 =--
 
 
-## Exotic examples 
+
+### Exotic examples 
 
 The [basic results](basic) above give a plethora of ways to construct connected spaces. More exotic examples are sometimes useful, especially for constructing counterexamples. 
 
@@ -166,101 +190,31 @@ This example is due to [Golomb](#Golomb). Topologize the set of natural numbers 
 =-- 
 
 
-## Connected components
-
-Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \sim y$ means that $x$ and $y$ belong to some subspace which is connected. The [[equivalence class]] $Conn(x)$ of an element $x$ is thus the union of all connected subspaces containing $x$; it follows readily from Result \ref{2} that $Conn(x)$ is itself connected. It is called the **connected component** of $x$. It is closed, by Result \ref{5}. A space is connected if and only if it has exactly one connected component (or at most one, if you allow the empty space to be connected).
-
-There is another equivalence relation $\sim_q$ where $x \sim_q y$ if $f(x) = f(y)$ for every continuous $f: X \to D$ mapping to a [[discrete space]] $D$. The equivalence class of $x$ may be alternatively described as the intersection of all clopens that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. It is easy to prove that 
-
-$$Conn(x) \subseteq QConn(x)$$ 
-
-and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below), but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace]] of the [[real line]]). 
-
-+-- {: .num_example #comb} 
-###### Example
-For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
-
-$$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$ 
-
-In this example, $Conn((0, 1)) = \{(0, 1)\}$, but $QConn((0, 1)) = \{(0, 0), (0, 1)\}$.  
-=-- 
+### Connected components
 
 
-## Locally connected spaces
++-- {: .num_remark}
+###### Remark
+**Warning**
 
-An entry point is given in the following remark/warning: 
+It is not generally true that a [[topological space]] is the [[disjoint union space]] ([[coproduct]] in [[Top]]) of its [[connected components]], nor of its quasi-components. 
 
-+-- {: .un_remark}
-###### Warning
+The spaces such that all their open subspaces are the disjoint union of their connected components are the _[[locally connected topological spaces]]_.
 
-It is not generally true that a space is the coproduct (in $Top$) of its connected components, nor of its quasi-components. For example, the connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the singletons, but the coproduct of the singleton subspaces carries the discrete topology; another example with this feature is the set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
 =--
 
-+-- {: .un_defn}
-###### Definition 
-A space $X$ is **locally connected** if every open set, as a topological space, is the coproduct (in $Top$) of its connected components. Equivalently, a space is locally connected if every point has a neighborhood basis of connected open sets. 
-=-- 
++-- {: .num_example}
+###### Example
 
-In a locally connected space, every connected component $S$ is clopen; in particular, connected components and quasi-components coincide. We warn that connected spaces need not be locally connected; for example, the topologist's sine curve of Example \ref{sine} is connected but not locally connected. 
+The connected components in [[Cantor space]] $2^{\mathbb{N}}$ (with its topology as a product of 2-point discrete spaces) are just the [[singletons]], but the coproduct of the singleton subspaces carries the [[discrete topology]], which differs from that of Cantor space. 
 
-Examples of locally connected spaces include [[manifold|topological manifolds]]. 
+Similarly for set of [[rational numbers]] with its absolute-value topology (the one induced as a [[topological subspace]] of the [[real line]]).
 
-Let $i \colon LocConn \hookrightarrow Top$ be the full inclusion of locally connected spaces. The following result is straightforward but useful. 
+=--
 
-+-- {: .num_theorem #coref} 
-###### Theorem 
-$LocConn$ is a coreflective subcategory of $Top$, i.e., the inclusion $i$ has a right adjoint $R$. For $X$ a given space, $R(X)$ has the same underlying set as $X$, topologized by letting connected components of open subspaces of $X$ generate a topology. 
-=-- 
 
-Being a coreflective category of a complete and cocomplete category, the category $LocConn$ is also complete and cocomplete. Of course, limits and particularly _infinite_ products in $LocConn$ are not calculated as they are in $Top$; rather one takes the limit in $Top$ and _then_ retopologizes it according to Theorem \ref{coref}. (For _finite_ products of locally connected spaces, we can just take the product in $Top$ -- the result will be again locally connected.) 
 
-Let $\Gamma \colon LocConn \to Set$ be the underlying set functor, and let $\nabla, \Delta \colon Set \to LocConn$ be the functors which assign to a set the same set equipped with the codiscrete and discrete topologies, respectively. Let $\Pi_0 \colon LocConn \to Set$ be the functor which assigns to a locally connected space the set of its connected components. 
 
-+-- {: .num_theorem} 
-###### Theorem 
-There is a string of adjoints 
-$$\Pi_0 \dashv \Delta \dashv \Gamma \dashv \nabla \colon Set \to LocConn$$ 
-and moreover, the functor $\Pi_0$ preserves finite products. 
-=-- 
-
-The proof is largely straightforward; we point out that the continuity of the unit $X \to \Delta \Pi_0 X$ is immediate from a locally connected space's being the coproduct of its connected components. As for $\Pi_0$ preserving finite products, write locally connected spaces $X$, $Y$ as coproducts of connected spaces 
-
-$$X = \sum_i C_i; \qquad Y = \sum_j D_j;$$ 
-
-then their product in $LocConn$ coincides with their product in $Top$, and is 
-
-$$X \times Y \cong \sum_{i, j} C_i \times D_j$$ 
-
-where each summand $C_i \times D_j$ is connected by Result \ref{3}. From this it is immediate that $\Pi_0$ preserves finite products. 
-
-The category of [[sheaf topos|sheaves]] on a locally connected space is a [[locally connected topos]]. For related discussions, see also [[cohesive topos]]. 
-
-Finally, 
-
-+-- {: .un_defn} 
-###### Definition 
-A space $X$ is **totally disconnected** if its connected components are precisely the singletons of $X$. 
-=-- 
-
-In other words, a space is totally disconnected if its coreflection into $LocConn$ is discrete. Such spaces recur in the study of [[Stone spaces]]. 
-
-The category of totally disconnected spaces is a reflective subcategory of $Top$. The reflector sends a space $X$ to the space $X/\sim$ whose points are the connected components of $X$, endowed with the quotient topology induced by the projection $q: X \to X/\sim$. Details may be found at [[totally disconnected space]]. 
-
-### Quotients of locally connected spaces 
-
-For future reference, we record the following result. 
-
-+-- {: .num_lemma #quot} 
-###### Lemma 
-A quotient space of a locally connected space $X$ is also locally connected. 
-=-- 
-
-+-- {: .proof} 
-###### Proof 
-Suppose $q: X \to Y$ is a quotient map, and let $V \subseteq Y$ be an open neighborhood of $y \in Y$. Let $C(y)$ be the connected component of $y$ in $V$; we must show $C(y)$ is open in $Y$. For that it suffices that $C = q^{-1}(C(y))$ be open in $X$, or that each $x \in C$ is an interior point. Since $X$ is locally connected, the connected component $U_x$ of $x$ in $q^{-1}(V)$ is open, and the subset $q(U_x) \subseteq V$ is connected, and therefore $q(U_x) \subseteq C(y)$ (as $C(y)$ is the maximal connected subset of $V$ containing $q(x)$). Hence $U_x \subseteq q^{-1}(C(y)) = C$, proving that $x$ is interior to $C$, as desired. 
-=-- 
-
-The conclusion does not follow if $q: X \to Y$ is merely surjective; e.g., there is a surjective (continuous) map from $\mathbb{R}$ to (a version of) the [[Warsaw circle]], but the latter is not locally connected. 
 
 
 ## Path-connectedness 
@@ -372,7 +326,7 @@ If $X$ is Hausdorff and there is a continuous surjection $f: I \to X$, then $X$ 
 
 +-- {: .proof} 
 ###### Proof 
-Obviously $X$ is compact (Hausdorff) and connected. $X$ is a [[quotient space]] of $I$, since $f$ is a closed surjection (using compactness of $I$ and Hausdorffness of $X$), and therefore $X$ is locally connected by Lemma \ref{quot}. Being compact Hausdorff, $X$ is [[separation axiom|regular]], so to show metrizability it suffices by the [[Urysohn metrization theorem]] to show $X$ is second-countable. 
+Obviously $X$ is compact (Hausdorff) and connected. $X$ is a [[quotient space]] of $I$, since $f$ is a closed surjection (using compactness of $I$ and Hausdorffness of $X$), and therefore $X$ is locally connected by [this lemma](connected+space#quot). Being compact Hausdorff, $X$ is [[separation axiom|regular]], so to show metrizability it suffices by the [[Urysohn metrization theorem]] to show $X$ is second-countable. 
 
 Let $\mathcal{B}$ be a countable base for $I$ and let $\mathcal{C}$ be the collection consisting of finite unions of elements of $\mathcal{B}$. We claim $\forall_f(\mathcal{C}) \coloneqq \{\forall_f(C) = \neg f(\neg C): C \in \mathcal{C}\}$ is an (evidently countable) base for $X$. Indeed, suppose $U \subseteq X$ is open and $p \in U$; then $f^{-1}(p)$ is compact, so there exist finitely many $B_1, \ldots, B_n \in \mathcal{B}$ with 
 
@@ -449,7 +403,9 @@ Roughly speaking, Henderson's $f$ is a small "notched" perturbation of the squar
 
 ## Related concepts
 
-* [[locally connected topos]] 
+* [[locally connected topological space]]
+
+* [[connected topos]], [[locally connected topos]] 
 
 * [[cohesive topos]] 
 
@@ -466,22 +422,21 @@ Roughly speaking, Henderson's $f$ is a small "notched" perturbation of the squar
 
 Examples of countable connected Hausdorff spaces were give in 
 
-* R.H. Bing, A connected countable Hausdorff space, Proc. Amer. Math. Soc. 4
-(1953), 474.
-{#Bing} 
+* {#Bing} R.H. Bing, A connected countable Hausdorff space, Proc. Amer. Math. Soc. 4 (1953), 474.
+ 
 
-* Solomon W. Golomb, _A Connected Topology for the Integers_, Amer. Math. Monthly, Vol. 66 No. 8 (Oct. 1959), 663-665.
-{#Golomb} 
+* {#Golomb} Solomon W. Golomb, _A Connected Topology for the Integers_, Amer. Math. Monthly, Vol. 66 No. 8 (Oct. 1959), 663-665.
+ 
 
 Material on arc-connected spaces and the Hahn-Mazurkiewicz theorem can be found in Chapter 31 of 
 
-* Stephen Willard, _General Topology_, Addison-Wesley 1970. ([online](http://www.scribd.com/doc/132023793/44283132-General-Topology-Stephen-Willard#scribd)) 
- {#Willard} 
+* {#Willard} Stephen Willard, _General Topology_, Addison-Wesley 1970. ([online](http://www.scribd.com/doc/132023793/44283132-General-Topology-Stephen-Willard#scribd)) 
+
 
 Material on pseudo-arcs can be found in 
 
-* R.H. Bing, _Concerning hereditarily indecomposable continua_, Pacific J. Math. Volume 1, Number 1 (1951), 43-51. ([Project Euclid](http://projecteuclid.org/euclid.pjm/1102613150)) 
- {#Bing2}
+* {#Bing2} R.H. Bing, _Concerning hereditarily indecomposable continua_, Pacific J. Math. Volume 1, Number 1 (1951), 43-51. ([Project Euclid](http://projecteuclid.org/euclid.pjm/1102613150)) 
+ 
 
 
 [[!redirects connected space]]
@@ -489,10 +444,6 @@ Material on pseudo-arcs can be found in
 [[!redirects connected topological space]]
 [[!redirects connected topological spaces]]
 
-[[!redirects locally connected space]]
-[[!redirects locally connected spaces]]
-[[!redirects locally connected topological space]]
-[[!redirects locally connected topological spaces]]
 
 [[!redirects path-connected space]]
 [[!redirects path-connected space]]
