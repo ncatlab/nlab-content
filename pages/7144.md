@@ -25,6 +25,7 @@ Given an [[action]] of a [[group]] on some [[space]], and given a point or (or m
 
 The importance of stabilizer subgroups for the general development of [[geometry]] was famously highlighted in ([Klein 1872](#Klein1872)) in the context of what has come to be known the _[[Erlangen program]]_. For more on this aspect see at _[[Klein geometry]]_ and _[[Cartan geometry]]_. 
 
+Sometimes (such as in the context of [[Wigner classification]]) stabilizer groups are called _little groups_.
 
 ## Definition
 
@@ -409,3 +410,6 @@ An early occurence of the concept of stabilizer subgroups is in p. 4 of
 
 [[!redirects stabilizer 2-group]]
 [[!redirects stabilizer 2-groups]]
+
+[[!redirects little group]]
+[[!redirects little groups]]
