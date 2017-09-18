@@ -132,14 +132,9 @@ In this all objects are fibrant, so that it is right proper.
 
 =--
 
-+-- {: .proof}
-###### Proof
+([Nikolaus 10, theorem 2.18](#Nikolaus10))
 
-This is theorem 2.18 in
 
-* [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv](http://arxiv.org/abs/1003.1342))
-
-=--
 
 
 
@@ -170,7 +165,7 @@ This is the content of ([Rezk 00](#Rezk00))
 
 The following says that left/right properness holds _locally_ in every model category, namely between cofibrant/fibrant objects.
 
-+-- {: .num_prop}
++-- {: .num_prop #GoodPullbacksAndPushouts}
 ###### Proposition
 
 Given a [[model category]],
@@ -196,7 +191,7 @@ A model category in which all objects are fibrant is right proper.
 
 See in the list of [Examples](#Examples) below for concrete examples.
 
-Note that the above proposition applies only (in the right proper case, for concreteness) to pullbacks of fibrations along weak equivalences in which *all three* objects are fibrant, since a fibration with fibrant codomain also has fibrant domain.  The definition of right proper, on the other hand, states this property in the case when *none* of the objects are assumed to be fibrant.
+Motice that the prop. \ref{GoodPullbacksAndPushouts} applies only (in the right proper case, for concreteness) to pullbacks of fibrations along weak equivalences in which *all three* objects are fibrant, since a fibration with fibrant codomain also has fibrant domain.  The definition of right proper, on the other hand, states this property in the case when *none* of the objects are assumed to be fibrant.
 
 One might consider as an "in-between" assumption the situation when only the common codomain of the fibration and the weak equivalence (hence also the domain of the fibration) are fibrant; but it turns out that this apparently-weaker assumption is sufficient to imply full right properness.  This can be found, for instance, as Lemma 9.4 of Bousfield's *On the Telescopic Homotopy Theory of Spaces*.
 
@@ -489,6 +484,7 @@ See also
 
 * {#Rezk00} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_ ([math/0003065](http://arxiv.org/abs/math/0003065))
 
+* {#Nikolaus10} [[Thomas Nikolaus]], _Algebraic models for higher categories_ ([arXiv:1003.1342](http://arxiv.org/abs/1003.1342))
 
 
 [[!redirects proper model categories]]
