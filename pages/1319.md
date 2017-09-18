@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -113,6 +113,12 @@ admits calculi of both left and right fractions.
 
 * For $S$ a [[site]], the collection of [[local epimorphism]]s
 in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$ admits a calculus of right fractions.  In this case the localization is the [[category of sheaves]] on $S$.
+
+## Related concepts
+
+* [[localization]]
+
+* [[colocalization]]
 
 
 ## References ##
