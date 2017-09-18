@@ -16,8 +16,9 @@
 
 ## Definition
 
-A _maximal ideal_ is an [[ideal]] which is maximal among [[proper ideals]].
+A _maximal ideal_ (in say a [[commutative ring]] $R$) is an [[ideal]] $M$ which is maximal among [[proper ideals]]. (This is a second-order definition, as it quantifies over subsets of $R$.) 
 
+Equivalently, an ideal $M \subseteq R$ is maximal if the [[quotient]] ring $R/M$ is a [[field]]. This suggests a [[first-order logic|first-order]] definition: an ideal $M$ is maximal if $(\forall_x)\; \neg (x \in M) \Rightarrow \exists_y x y = 1$. 
 
 ## Properties
 
