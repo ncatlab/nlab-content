@@ -121,7 +121,7 @@ $$
 
 commutes;
 
-**TR5:** given three distinguished triangles of the form
+**TR5 (octahedral axiom):** given three distinguished triangles of the form
 
 $$
 \begin{aligned}
@@ -195,14 +195,16 @@ $$
   }
 $$
 
-If TR5 is not reuqired, one speaks of a **pretriangulated category**.
+If TR5 is not required, one speaks of a **pretriangulated category**.
 
 =--
 
 +-- {: .num_remark #RedundancyInDefinition}
 ###### Remark
 
-This classical definition is actually redundant; TR4 and one direction of TR3 follow from the remaining axioms.  See ([May](#May)).
+This classical definition is redundant; TR4 and one direction of TR3 follow from the remaining axioms.  See ([May](#May)).
+
+The octahedral axiom has many equivalent formulations, a concise account is in ([Hubery](#Hubery)). Notice that one of the equivalent axioms, called axiom B, there, is essentially just an axiomatization of the existence of [[homotopy pushouts]].
 
 =--
 
@@ -562,6 +564,8 @@ Discussion of the relation to [[stable model categories]] originates in
 
 Other surveys include
 
+* {#Hubery} [[Andrew Hubery]], _Notes on the octahedral axiom_, ([pdf](http://math-www.uni-paderborn.de/user/hubery/static/Octahedral.pdf))
+
 * [[Masaki Kashiwara]], [[Pierre Schapira]], section 10 _[[Categories and Sheaves]]_, 
 
 * [[Jacob Lurie]], section 3 of _[[Stable Infinity-Categories]]_,
@@ -578,8 +582,8 @@ A survey of formalisms used in [[stable homotopy theory]] to present the triangu
 
 Discussion of the redundancy in the traditional definition of triangulated category is in 
 
-* [[Peter May]], _The additivity of traces in triangulated categories_, ([pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf))
- {#May}
+* {#May} [[Peter May]], _The additivity of traces in triangulated categories_, ([pdf](http://www.math.uchicago.edu/~may/PAPERS/AddJan01.pdf))
+ 
 
 There was also some discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category).
 
@@ -595,3 +599,6 @@ category: triangulated categories
 [[!redirects pretriangulated categories]]
 [[!redirects pre-triangulated category]]
 [[!redirects pre-triangulated categories]]
+
+[[!redirects octahedral axiom]]
+[[!redirects octahedral axioms]]
