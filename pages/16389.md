@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+What is called _light-cone gauge quantization_ is one approach to the [[quantization]] of [[sigma models]] whose [[target space]] has a [[lightlike]] [[Killing vector]]. The strategy of this approach is to [[gauge fixing|gauge fix]] the [[metric]] and [[diffeomorphisms]] of the [[worldvolume]] such that also the worldvolume has a [[lightlike]] [[Killing vector field]] and such that this is mapped to the given one on target space.
+
+This typically fixes most of the available gauge freedom, and the strategy is then to apply [[quantization]] to what remains. For more on this general idea see at _[[quantization commutes with reduction]]_.
+
+Often this is considered for [[target space]] being [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ and with $X^+ \coloneqq X^0 - X^1$ denoting one of its canonical lightlike [[coordinates]]. If $\tau$ denotes similarly a lightlike coordinate function on the [[worldvolume]], then the condition of light-cone gaueg reads
+
+$$
+  X^+ = p^+ \tau
+$$
+
+for some proportionality constant $p^+$. This is how light cone gauge appears in much of the physics literature.
+
+## Applications
+
+### Quantization of Green-Schwarz super $p$-brane sigma models
+
+Light cone gauge quantization is the only method by which [[Green-Schwarz super p-brane sigma models]] have been quantized, to date. 
+
+## References
+
+All the standard introductory texts on [[string theory]] have sections devoted to light-cone quantization. For instance
+
+* [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 5.2.1 of _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
+
