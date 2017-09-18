@@ -15,11 +15,80 @@
 
 ## Idea
 
-In [[stable homotopy theory]], a _sequential (pre-)spectrum_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed topological space]] $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
+In [[stable homotopy theory]], a _sequential ([[prespectrum|pre-]])[[spectrum]]_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed topological space]] $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
 
 This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one predominently meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis.
 
 The standard [[model structure on spectra]] for sequential spectra in [[simplicial sets]] is the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78))
+
+## Definition
+
++-- {: .num_defn #Spectra}
+###### Definition
+
+A _sequential_ [[pre-spectrum]] in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
+
+A [[homomorphism]] $f \colon X \to Y$ of sequential prespectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
+
+$$
+  \array{
+    S^1 \wedge X_n &\stackrel{S^1 \wedge f_n}{\longrightarrow}& S^1 \wedge Y_n
+    \\
+    \downarrow^{\mathrlap{\sigma_n^X}} && \downarrow^{\mathrlap{\sigma_n^Y}}
+    \\
+    X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
+$$
+
+[[commuting diagram|commute]].
+
+This gives a [[category]] $SeqPreSpec(sSet)$ of sequential prespectra.
+
+=--
+
++-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
+###### Example
+
+For $X \in SeqPreSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the spectrum which is degreewise given by the [[smash product]] of [[pointed objects]]
+
+$$
+  (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
+$$
+
+and whose structure maps are given by
+
+$$
+  S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SimplicialEnrichment}
+###### Proposition
+
+The category $SeqPreSpec$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
+
+$$
+  [X,Y]_n \coloneqq Hom_{SeqPreSpec(sSet)}(X\wedge \Delta[n]_+,Y)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #OmegaSpectrum}
+###### Definition
+
+An _[[Omega-spectrum]]_ in the following is a sequential prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
+
+$$
+  {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
+$$
+
+of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]].
+
+=--
+
 
 ## References
 
@@ -28,6 +97,13 @@ The standard [[model structure on spectra]] for sequential spectra in [[simplici
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
 [[!redirects sequential spectra]]
+
+[[!redirects sequential prespectrum]]
+[[!redirects sequential prespectra]]
+
+[[!redirects sequential pre-spectrum]]
+[[!redirects sequential pre-spectra]]
+
 
 [[!redirects Boardman spectrum]]
 [[!redirects Boardman spectra]]
