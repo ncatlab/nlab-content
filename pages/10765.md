@@ -24,7 +24,9 @@ For $p$ a [[prime number]], a [[group]] is _$p$-primary_ if each of its elements
 
 ### Relation to finite abelian group
 
-The [[fundamental theorem of finite abelian groups]] stats that every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups. 
+The [[fundamental theorem of finite abelian groups]] stats that every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups.
+
+These are often called its _$p$-primary parts_ or _$p$-primary components_. See also at _[[Adams spectral sequence]]_ and for instance at _[[stable homotopy groups of spheres]]_.
 
 ### Nilpotency 
 
@@ -51,8 +53,8 @@ is called the *upper central series* of $G$, and Proposition \ref{center} shows 
 
 ## References
 
-* John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
- {#Sullivan}
+* {#Sullivan} John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
+ 
 
 
 [[!redirects p-primary groups]]
