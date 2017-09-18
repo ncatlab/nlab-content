@@ -26,7 +26,7 @@
 
 A **sufficiently cohesive topos** is a [[topos]] that has enough connected objects in the sense that every object embeds into a [[connected object]].
 
-This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[gros toposes]].
+This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[gros toposes]]. In fact, in Lawvere ([1986](#Law86)) a big topos of spaces was  defined as (one equivalent to) a sufficiently cohesive topos.
 
 ## Terminology
 
@@ -191,15 +191,6 @@ $$p_!(\mathsf{true})=p_!(\chi_1\circ t_1)=p_!(\chi_1)\circ p_!(t_1)=p_!(\chi_1)\
 
 This says that $\mathsf{true}$ and $\mathsf{false}$ are in the same connected component but a lattice whose top and bottom elements are in the same component is necessarily connected. $\qed$
 
-For the following the monoid structure of $\Omega$ will be capital. So let us briefly recall the basics:
-
-In a general topos, the Heyting algebra structure endows the subobject classifier with the structure of an [[internal monoid]]: The multiplication is given by conjunction
-
-$$\Omega\times\Omega\overset{\wedge}{\to}\Omega\quad ,
-\text{ and the unit by }\quad\mathsf{true}\quad .
-$$
-Importantly, the other truth value $\mathsf{false}$ plays the role of a (multiplicative) _zero_ with respect to this multiplication.
-
 One can use connectors to define a (generalized) homotopy relation between maps that behaves well under taking connected components.
 
 +-- {: .num_defn #I-homotopy}
@@ -220,6 +211,14 @@ Let $f=h\circ\langle i, k_1\rangle$ and $g=h\circ\langle i, k_2\rangle$ be a pai
 
 Since for an I-homotopy $k_j=t_j\circ !_A:A\to I$ and, $p_!(I)=1$ by assumption, $p_!(k_j):p_!(A)\to 1$, $j\in\{1,2\}$, and these maps necessarily coincide since $1$ is terminal whence $p_!(t_0\circ !_A)=p_!(t_1\circ !_A)$ whence $p_!(f)=p_!(g)$ as claimed. $\qed$
 
+For the following the monoid structure of $\Omega$ will be capital. So let us briefly recall the basics:
+
+In a general topos, the Heyting algebra structure endows the subobject classifier with the structure of an [[internal monoid]]: The multiplication is given by conjunction
+
+$$\Omega\times\Omega\overset{\wedge}{\to}\Omega\quad ,
+\text{ and the unit by }\quad\mathsf{true}\quad .
+$$
+Importantly, the other truth value $\mathsf{false}$ plays the role of a (multiplicative) _zero_ with respect to this multiplication.
 
 In general, we can get a map $\mu:\Omega^X\times\Omega\to\Omega^X$ from the conjunction $\wedge :\Omega\times\Omega\to \Omega$ by the following steps:
 
@@ -229,7 +228,7 @@ $$
 \\
 \Omega& \to\Omega^{\Omega}\quad\text{by transposal}
 \\ 
-\Omega^X&\to (\Omega^{\Omega})^{X}\quad\text{applying the endofunctor (-)}^X
+\Omega^X&\to (\Omega^{\Omega})^{X}\quad\text{by application of the endofunctor (-)}^X
 \\
 \Omega^X &\to (\Omega^X)^{\Omega}\quad\text{by using rules for powers}
 \\
@@ -237,13 +236,28 @@ $$
 \end{aligned}
 $$
 
++-- {: .num_prop #omega_action}
+###### Proposition
+The map $\mu :\Omega^X\times\Omega{\to}\Omega^X$ is an $\Omega$-homotopy from $id_{\Omega^X}$ to a constant map $\overline{\emptyset}_X:\Omega^X\to 1\overset{\emptyset_X}{\to}\Omega^X$.
+=--
 
-(...
-
-
-
-...)
+**Proof**.
 ...
+
+$\qed$
+
++-- {: .num_prop #connected_truth}
+###### Theorem
+Let $\mathcal{E}$ be a weakly cohesive topos. Then the subobject classifier $\Omega$ is connected iff $\Omega$ is contractible. In other words,  $\mathcal{E}$ is sufficiently cohesive iff $p_!(\Omega)=1$.
+=--
+
+**Proof**.
+"$\Rightarrow$": The propositions \ref{omega_action} and \ref{homotopy_components} imply that for all $X$ $p_!(id_{\Omega^X})=id_{p_!(\Omega^X)}$ is a constant map. By observation \ref{constant_homotopy} it then follows that $p_!(\Omega^X)=1$ for all $X$ which is just the definition of $\Omega$ being contractible.
+$\qed$
+
+For convenience and summary let us collect all the equivalent formulations of sufficient cohesion in one place:
+
+....
 
 ## Related entries
 
