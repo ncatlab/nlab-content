@@ -73,6 +73,11 @@ The first proof is due to [[Brouwer]] around 1910.
 
 * Wikipedia, _[Invariance of domain](https://en.wikipedia.org/wiki/Invariance_of_domain)_
 
+A proof also follows from the properties of the [[Adams operations]] on [[topological K-theory]], see for instance
+
+* {#Wirthmuller12} [[Klaus Wirthmüller]], p. 46 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+
+
 
 [[!redirects invariance of dimension]]
 [[!redirects invariance of domain]]
