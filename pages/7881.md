@@ -149,7 +149,7 @@ A remarkable illustration of the power of the forcing method is Easton's theorem
 
 Suppose $\mathcal{M}$ is a [[model]] of [[ZFC]] in which the generalized continuum hypothesis (GCH) holds. Let $F$ be a [[partial function]] from the class of infinite [[regular cardinals]] to the class of [[cardinals]] such that 
 
-* $F$ preserves the order $\leq$; 
+* $F$ is strictly increasing and preserves the order $\leq$; 
 
 * $\kappa$ is less than the cofinality of $F(\kappa)$ for all $\kappa \in dom(F)$. 
 
