@@ -98,6 +98,8 @@ For a free introductory text on $n$-categories that's <i>full of pictures</i>, t
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
+[[Emily Riehl]] gave a [minicourse](http://hessbellwald-lab.epfl.ch/ytm2015) on infinity categories at the Young Topologists' Meeting 2015.
+
 A [[syntax|syntactic]] definition is given by [[Eric Finster]] in terms of [[opetopic type theory]], see there for details
 
 [[!redirects infinity-categories]]
