@@ -53,7 +53,7 @@ Hence in this form the Nullstellensatz simply says that (for $k$ algebraically c
 
 By the discussion above at _[Existence of points](#ExistenceOfPoints)_ it follows that phrased in terms of the [[sheaf topos]] over the [[Zariski site]], the weak Nullstellensatz says that "objects have global points". 
 
-Motivated by this, in ([Lawvere 07, def. 2](#Lawvere07)) is a proposal for a [[general abstract]] formulation of what consitutes a _Nullstellensatz_, formalized in the context of [[cohesion]].
+Motivated by this, in ([Lawvere 07, def. 2](#Lawvere07)) is a proposal for a [[general abstract]] formulation of what constitutes a _Nullstellensatz_, formalized in the context of [[cohesion]].
 
 A [[cohesive topos]] $\mathbf{H}$ over some [[base topos]] $\mathbf{S}$ is a relative [[topos]] such that the terminal [[geometric morphism]] extended to an [[adjoint quadruple]] $(\Pi \dashv Disc \dashv \Gamma \dashv coDisc)$ with $Disc, coDisc \colon \mathbf{S}\hookrightarrow \mathbf{H}$ [[full and faithful functor|full and faithful]] and $\Pi$ preserving [[finite products]]. The top [[adjoint triple]] here induces a canonical [[natural transformation]]
 
@@ -104,27 +104,6 @@ perspective: A simple example_, Categories and General Algebraic Structures with
 * {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , TAC **29** no.20 (2014) pp.542-568. ([pdf](http://www.tac.mta.ca/tac/volumes/29/20/29-20.pdf))
 
 * {#Tholen} [[Walter Tholen]], _Nullstellen and Subdirect Representation_ ([pdf](http://www.math.yorku.ca/~tholen/nullstMarch2013bis.pdf))
-
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 [[!redirects Nullstellensätze]]
