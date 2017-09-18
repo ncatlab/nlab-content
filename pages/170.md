@@ -46,6 +46,7 @@ There is at least evidence that there is a continuous path in the space of 2-spe
 * [[D-brane geometry]]
 
 ## References
+  {#References}
 
 An early observation that the 0-mode sector of a [[2d SCFT]] is a [[spectral triple]], demonstrated in a series of concrete examples, is
 
@@ -75,11 +76,11 @@ A brief indication of some ideas of [[Yan Soibelman]] and [[Maxim Kontsevich]] o
 
 Further development of this and application to the study of the [[large volume limit]] of [[superstring]] [[vacua]] is in
 
-* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
+* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ ([pdf](http://www.math.ksu.edu/~soibel/nc-riem-3.pdf)), in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
 
 Analogous detailed discussion based not on the [[vertex operator algebra]] description of local [[CFT]] but on the [[AQFT]] description via [[conformal nets]] is in
 
-* {#CHKL09} Sebastiano Carpi, Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral triples and the super-Virasoro algebra_, Commun.Math.Phys.295:71-97 (2010) ([arXiv:0811.4128](http://arxiv.org/abs/0811.4128))
+* {#CHKL09} [[Sebastiano Carpi]], Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral triples and the super-Virasoro algebra_, Commun.Math.Phys.295:71-97 (2010) ([arXiv:0811.4128](http://arxiv.org/abs/0811.4128))
 
 where [[2d SCFTs]] are related essentially to [[local nets]] of [[spectral triples]].
 
