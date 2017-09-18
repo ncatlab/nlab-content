@@ -1,0 +1,12 @@
+I am a fourteen-year old student aspiring to be a pure mathematician and enthusiast for the field. I am currently studying Set Theory, Infinite Sets, and Basic Group Theory. Right now, my interests are in the infinite set relations to universal set $H$ and infinity of special sets.
+
+**Email:** [rachman.jm@gmail.com](mailto:rachman.jm@gmail.com).
+
+**Websites:** [My Blog](http://jmrresearch.wordpress.com) and my [Math StackExchange](http://math.stackexchange.com/users/122519/julian-rachman).
+_______________________________________________________________________________________
+
+##Notes##
+
+I will be posting all of my research and independent study notes here.
+
+______________________________________________________________________________
