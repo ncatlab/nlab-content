@@ -292,7 +292,7 @@ exhibiting the $A$-cocycle that classifies the extension $\hat G \to G$.
 ### Infinitesimal cohesion
  {#InfinitesimalCohesion}
 
-The [above](#Cohesion) discussion generalizes immediately as follows.
+The leftmost adjoint, $\Pi$, of the string of four adjoints exhibiting cohesion [above](#Cohesion) itself possesses a left adjoint, $X \mapsto [0 \to X]$. Taking this functor along with the leftmost three adjoints of this previous string yields a second quadruple adjunction which exhibits infinitesimal cohesion. 
 
 For $\mathbf{H}$ any [[cohesive (∞,1)-topos]], we have the "Sierpinski $(\infty,1)$-topos relative to $\mathbf{H}$" given by the [[arrow category]] $\mathbf{H}^{\Delta[1]}$, whose [[geometric morphism]] to the [[base topos]] is the [[domain cofibration]]
 
@@ -422,6 +422,8 @@ $$
 $$
 
 are $(\infty,1)$-pullbacks in $\mathbf{H}$. This is clearly always the case.
+
+The adjunction $i_{!} \circ i^{\ast} \vdash i_{\ast} \circ i^{\ast}$ forms the [[Aufhebung]] of $\emptyset \vdash \ast$ for the Sierpinski topos.
 
 
 =--
