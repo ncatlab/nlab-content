@@ -47,7 +47,7 @@ A **[[topologically enriched category]]** $\mathcal{C}$ is a [[Top]]-[[enriched 
 
    out of the [[product topological space]], called the _[[composition]]_ operation
 
-1. for each $a \in Obj(\mathcal{C})$ a point $Id_a\in \mathcal{C}(a,a)$, called the _[[identity]]_ morphism on $a$
+1. for each $a \in Obj(\mathcal{C})$ a point $id_a\in \mathcal{C}(a,a)$, called the _[[identity]]_ morphism on $a$
 
 such that the composition is [[associativity|associative]] and [[unitality|unital]].
 
@@ -155,7 +155,25 @@ is a [[Top]]-[[enriched functor]], hence:
 
 such that this preserves [[composition]] and [[identity]] morphisms in the evident sense.
 
-A [[homomorphism]] of topologically enriched functors $F \Rightarrow G$ is a [[Top]]-[[enriched natural transformation]], which is just a [[natural transformation]] of the underlying ordinary functors.
+A [[homomorphism]] of topologically enriched functors 
+
+$$
+  \eta \;\colon\; F \Rightarrow G
+$$ 
+
+is a [[Top]]-[[enriched natural transformation]]: for each $c \in Obj(\mathcal{C})$ a choice of morphism $\eta_c \in \mathcal{D}(F(c),G(c))$ such that for each pair of objects $c,d \in \mathcal{C}$ the two continuous functions 
+
+$$
+  \eta_d \circ F(-) \;\colon\; \mathcal{C}(c,d) \longrightarrow \mathcal{D}(F(c), G(d))
+$$
+
+and
+
+$$
+  G(-) \circ \eta_c \;\colon\; \mathcal{C}(c,d) \longrightarrow \mathcal{D}(F(c), G(d))
+$$
+
+agree.
 
 We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologically enriched functors. This itself naturally obtains the structure of [[topologically enriched category]], see at _[[enriched functor category]]_.
 
@@ -166,7 +184,7 @@ We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologicall
 +-- {: .num_example #TopologicallyEnrichedFunctorsToTopk}
 ###### Example
 
-For $\mathcal{C}$ any topologically enriched category, def. \ref{TopEnrichedCategory} then a topologiclly enriched functor
+For $\mathcal{C}$ any topologically enriched category, def. \ref{TopEnrichedCategory} then a topologically enriched functor
 
 $$
   F \;\colon\; \mathcal{C} \longrightarrow Top_k
@@ -174,7 +192,15 @@ $$
 
 to the archetical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically enriched [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
 
-Such a functor is equivalently 
+Hence the category of topologically enriched functors
+
+$$
+  [\mathcal{C}, Top_k] 
+$$
+
+according to def. \ref{TopologicallyEnrichedFunctor} may be thought of as the ([[copresheaf|co-]])[[presheaf category]] over $\mathcal{C}$ in the realm of topological enriched categories.
+
+A funcotor $F \in [\mathcal{C}, Top_k]$ is equivalently 
 
 * a [[compactly generated topological space]] $F_a\in Top_k$ for each object $a \in Obj(\mathcal{C})$;
 
@@ -196,8 +222,124 @@ $$
 
 and whose action on morphisms is, under the above identification, just the [[composition]] operation in $\mathcal{C}$.
 
+=--
+
+There is a full blown [[Top]]-[[enriched Yoneda lemma]]. The following records a slightly simplified version.
+
++-- {: .num_prop #TopologicallyEnrichedYonedaLemma} 
+###### Proposition
+**(topologically enriched Yoneda-lemma)**
+
+Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, write $[\mathcal{C}, Top_k]$ for its category of topologically enriched (co-)presheaves, and for $c\in Obj(\mathcal{C})$ write $y(c) = \mathcal{C}(c,-) \in [\mathcal{C}, Top_k]$ for the topologically enriched functor that it represents, all according to example \ref{TopologicallyEnrichedFunctorsToTopk}. Recall also the Top-tensored functors $F \cdot X$ from that example.
+
+For $c\in Obj(\mathcal{C})$, $X \in Top$ and $F \in [\mathcal{C}, Top_k]$, there is a [[natural bijection]] between 
+
+1. morphisms $y(c) \cdot X \longrightarrow F$ in $[\mathcal{C}, Top_k]$;
+
+1. morphisms $X \longrightarrow F(c)$ in [[Top]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Given a morphism $\eta \colon y(c) \cdot X \longrightarrow F$ consider its component
+
+$$
+  \eta_c \;\colon\; \mathcal{C}(c,c)\times X \longrightarrow F(c)
+$$
+
+and restrict that to the identity morphism $id_c \in \mathcal{C}(c,c)$ in the first argument
+
+$$
+  \eta_c(id_c,-) \;\colon\; X \longrightarrow F(c)
+  \,.
+$$
+
+We claim that just this $\eta_c(id_c,-)$ already uniquely determines all components 
+
+$$
+  \eta_d \;\colon\; \mathcal{C}(c,d)\times X \longrightarrow F(d)
+$$
+
+of $\eta$, for all $d \in Obj(\mathcal{C})$: By definition of the transformation $\eta$ (def. \ref{TopologicallyEnrichedFunctor}), the two functions
+
+$$
+   F(-) \circ \eta_c
+  \;\colon\;
+  \mathcal{C}(c,d)
+  \longrightarrow
+  F(d)^{\mathcal{C}(c,c) \times X}
+$$
+
+and
+
+$$
+  \eta_d  \circ \mathcal{C}(c,-) \times X
+  \;\colon\;
+  \mathcal{C}(c,d)
+  \longrightarrow
+  F(d)^{\mathcal{C}(c,c) \times X}
+$$
+
+agree. This means that they may be thought of jointly as a function with values in commuting squares in $Top$ of this form:
+
+$$
+  f
+  \;\;\;\;
+  \mapsto
+  \;\;\;\;
+  \array{
+    \mathcal{C}(c,c) \times X &\overset{\eta_c}{\longrightarrow}& F(c)
+    \\
+    {}^{\mathllap{\mathcal{C}(c,f)}}\downarrow && \downarrow^{\mathrlap{F(f)}}
+    \\
+    \mathcal{C}(c,d) \times X &\underset{\eta_d}{\longrightarrow}& F(d)
+  }
+$$
+
+For any $f \in \mathcal{C}(c,d)$, consider the restriction of
+
+$$
+  \eta_d \circ \mathcal{C}(c,f) \in F(d)^{\mathcal{C}(c,c) \times X}
+$$
+
+to $id_c \in \mathcal{C}(c,c)$, hence restricting the above commuting squares to
+
+$$
+  f
+  \;\;\;\;
+  \mapsto
+  \;\;\;\;
+  \array{
+    \{id_c\} \times X &\overset{\eta_c}{\longrightarrow}& F(c)
+    \\
+    {}^{\mathllap{\mathcal{C}(c,f)}}\downarrow && \downarrow^{\mathrlap{F}(f)}
+    \\
+    \{f\} \times X &\underset{\eta_d}{\longrightarrow}& F(d)
+  }
+$$
+
+This shows that $\eta_d$ is fixed to be the function
+
+$$
+  \eta_d(f,x) = F(f)\circ \eta_c(id_c,x)
+$$
+
+and this is a continuous function since all the operations it is built from are continuous.
+
+Conversely, given a continuous function $\alpha \colon X \longrightarrow F(c)$, define for each $d$ the function
+
+$$
+  \eta_d \colon (f,x) \mapsto F(f) \circ \alpha
+  \,.
+$$
+
+Running the above analysis backwards shows that this determines a transformation $\eta \colon y(c)\times X \to F$.
+
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
