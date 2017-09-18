@@ -210,6 +210,10 @@ List of models are discussed in
 
 * Yang-Hui He, Seung-Joo Lee, Andre Lukas, Chuang Sun, _Heterotic Model Building: 16 Special Manifolds_ ([arXiv:1309.0223](http://arxiv.org/abs/1309.0223))
 
+Principles singling out heterotic models with three generations of fundamental particles are discussed in:
+
+* [[Philip Candelas]], [[Xenia de la Ossa]], Yang-Hui He, Balazs Szendroi, _Triadophilia: A Special Corner in the Landscape_, Adv.Theor.Math.Phys.12:2,2008 ([arXiv:0706.3134](http://arxiv.org/abs/0706.3134))
+
 #### Type II / F-theory models
  {#ReferencesTypeIIModels}
 
