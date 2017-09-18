@@ -358,6 +358,29 @@ Discussion for the GS-version of the [[type II superstring]] in [[type II superg
 
 The super-WZW term of the GS action functionals is invariant under [[supersymmetry] only up to a [[divergence]]. Hence the [[Noether theorem]] in its generality for "weak" symmetries applies and gives that the [[conserved currents]] receive an extra contribution from this divergence term. The resulting algebra is a central extension of the given [[super translation Lie algebra]], extending to the famous [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions) "by brane charges" of the [[super Poincaré Lie algebra]] ([AGIT 89](#AGIT89)).
 
+### As part of the AdS-CFT correspondence
+ {#AsPartOfTheAdSCFTCorrespodence}
+
+By the above discussion, Green-Schwarz super $p$-branes are consistent on [[superspacetimes]] that satisfy the respective higher [[supergravity]] [[equations of motion]]. These turn out to have solutions which exhibit [[black branes]] in essentially just the combinations of dimensions and supersymmetries that the original Green-Schwarz sigma-models exist in, hence they look like precisely like the [[non-perturbative quantum field theory|non-pertrubative]] avatars of whatever these [[sigma models]] give the [[perturbation theory]] of by [[second quantization]]. (See at [[black holes in string theory]] for more on this correspondence between branes in string perturbation theory and black branes in supergravity).
+
+Moreover, the near-horizon geoemtries of these [[black branes]] is always [[anti de Sitter spacetime]] times orthogonal directions-.
+
+Therefore it is natural to consider the perturbation of the Green-Schwarz sigma-models around their asymptotic embeddings into AdS spaces, hence effectively the perturbation theory of the degrees of freedom at those naked singularity at which the corresponding black brane sits.
+
+After [[diffeomorphism]] [[gauge fixing]] one finds that the resulting field theories now on the $p$-brane [[worldvolumes]] are precisely the [[superconformal field theories]] for all the  [allowed superconformal supersymmetries](supersymmetry#ClassificationSuperconformalInDimgt2)
+
+| $d$ | $N$ | [[superconformal super Lie algebra]] | [[R-symmetry]] | [[brane]] [[worldvolume]] theory |
+|-----|-----|--|---|--|
+| 3   |  $2k+1$ | $B(k,2) \simeq $ [[osp]]$(2k+1/4)$ | $SO(2k+1)$ | |
+| 3   | $2k$ | $D(k,2)\simeq $ [[osp]]$(2k/4)$ | $SO(2k)$ | [[M2-brane]] |
+| 4   | $k+1$  | $A(3,k)\simeq \mathfrak{sl}(4/k+1)$ | $U(k+1)$ | [[D3-brane]] |
+| 5   |  1  | $F(4)$ | $SO(3)$  |  |
+| 6   | $k$ | $D(4,k) \simeq$ [[osp]]$(8/2k)$ | $Sp(k)$  | [[M5-brane]] |
+
+This is effectively the [[AdS-CFT correspondence]]. 
+
+Detailed discussion of the above steps is in ([AFFFTT 98](#AFFFTT98), [Pasti-Sorokin 99](#PastiSorokin99)).
+
 ### Quantization
 
 The [[quantization]] of the Green-Schwarz super $p$-brane [[sigma models]] is discussed in the literature in terms of [[light-cone gauge quantization]].
@@ -639,6 +662,15 @@ All this is actually subsumed by imposing the [[Bianchi identities]] of the corr
 Discussion including also the [[RR-field]] background includes
 
 * R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
+
+### Relation to AdS-CFT
+
+Detailed discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce, after [[diffeomorphism]] [[gauge fixing]], superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
+
+* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+
+* {#PastiSorokin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
+
 
 
 ### Conserved current algebra
