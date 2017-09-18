@@ -47,9 +47,13 @@ Sometimes one singles out subtypes of such types; for example, the field of all 
 
 * [[integer number]]
 
+  * [[even number]], [[odd number]]
+
 * [[rational number]]
 
 * [[real number]]
+
+  * [[positive number]], [[negative number]]
 
 * [[irrational number]]
 
