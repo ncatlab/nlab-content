@@ -1,4 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -28,18 +48,32 @@ $$
 on the [[quaternions]]. This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given simply by
 
 $$
-  p \colon (x,y) \mapsto [x;y] = [x/y; 1]
+  p_{\mathbb{H}} \colon (x,y) \mapsto [x;y] = [x/y; 1]
   \,,
 $$
 
 
 ## Properties
 
-### Equivariant structure
+### $SO(3)$-Equivariant structure
+ {#EquivariantStructure}
+
+Since the [[automorphism group]] of the [[quaternions]], as an $\mathbb{R}$-[[associative algebra|algebra]], is the [[special orthogonal group]] $SO(3)$
+
+$$
+  \mathrm{Aut}_{\mathbb{R}}(\mathbb{H}) \simeq SO(3)
+$$
+
+acting by [[rotation]] of the imaginary quaternions, via the [[Hopf construction]] it follows that the 7-sphere and 4-sphere inherit $SO(3)$-[[actions]] under which the quaternionic Hopf map is equivariant.
+
+Notice that this means that $SO(3)$ acts on $S^7$ here diagonally on the _two_ copies of the imaginary octonions in $S^7 \hookrightarrow \mathbb{H} \oplus \mathbb{H}$ (as opposed to, say, via any one of the embeddings $SO(3) \hookrightarrow SO(8)$ and the following canonical action of $SO(8)$ on $S^7 \hookrightarrow \mathbb{R}^8$).
+
+
 
 ### Class in the homotopy groups of spheres
+ {#ClassInTheHomotopyGroupsOfSpheres}
 
-The quaternionic Hopf fibration gives an element in the 7th [[homotopy group of sphere|homotopy group of the 4-sphere]]
+The quaternionic Hopf fibration gives an element in the 7th [[homotopy groups of spheres|homotopy group of the 4-sphere]]
 
 $$
   [p_{\mathbb{H}}] \in \pi_7(S^4) \simeq \mathbb{Z}
@@ -54,4 +88,88 @@ $$
   \,,.
 $$
 
+### Class in equivariant stable homotopy theory
+ {#ClassInEquivariantStableHomotopyTheory}
 
+Fix a [[finite group|finite]] [[subgroup]] $G \hookrightarrow SO(3)$ which does not come from $SO(2) \hookrightarrow SO(3)$ -- i.e. not a [[cyclic group]], but one of the [[dihedral groups]] or else the [[tetrahedral group]] or [[octahedral group]] or [[icosahedral group]] (by the [[ADE classification]]). 
+
+Regard both $S^7$ and $S^4$ as pointed [[topological G-spaces]] via the $SO(3)$-action induced via automorphisms of the quaternions, as [above](#EquivariantStructure). Write
+
+$$
+  \Sigma^\infty_G S^7, \Sigma^\infty_G S^4 \in G Spectra
+$$
+
+for the corresponding [[equivariant suspension spectra]].
+
+Notice that if we took trivial $G$, then in the [[stable homotopy category]]
+
+$$
+  [\Sigma^\infty S^7, \Sigma^\infty S^4] \simeq \mathbb{Z}/24
+$$
+
+by the [above](#ClassInTheHomotopyGroupsOfSpheres). 
+
+We want to argue now that in $G$-[[equivariant homotopy theory]] this becomes a non-[[torsion subgroup|torsion group]], i.e. that 
+
+$$
+  [\Sigma^\infty_G S^7, \Sigma^\infty_G S^4]_G \simeq \mathbb{Z} \oplus \cdots
+$$
+
+with the quaternionic Hopf fibration, regarded as a $G$-equivariant map, representing a non-torsion element.
+
+To see this, we use the [splitting into Mackey functors](rational+equivariant+stable+homotopy+theory#SplittingIntoMackeyFunctors) which says that for any two $G$-[[equivariant spectra]] $X,Y$ and writing $\pi_\bullet(X), \pi_\bullet(Y)$ for their [[equivariant homotopy groups]], organized as [[Mackey functors]] $H \mapsto \pi_n^H(X)$ for all subgroups $H \subset G$, then the canonical map
+ 
+
+$$
+  [X,Y]_G
+  \longrightarrow
+   \underset{n}{\oplus} Hom_{\mathcal{M}[G]}(\pi_n(X), \pi_n(Y))
+$$
+
+is [[rational equivariant stable homotopy theory|rationally]] an [[isomorphism]].
+
+With this we are reduced to showing that there exists $n \in \mathbb{Z}$ and a morphism of [[Mackey functors]] of [[equivariant homotopy groups]] $\pi_n(\Sigma^\infty_G S^7) \to \pi_n(\Sigma^\infty_G S^4)$ which is not a torsion element in the abelian [[hom-object|hom-group]] of Mackey functors.
+
+To analyse this, we use the [[tom Dieck splitting]] which says that the [[equivariant homotopy groups]] of [[equivariant suspension spectra]] $\Sigma^\infty_G X$ contain a [[direct sum|direct summand]] which is simply the ordinary stable homotopy groups of the naive [[fixed point]] space $X^H$:
+
+$$
+  \pi_n^H(\Sigma^\infty_G X) \simeq \pi_n(\Sigma^\infty (X^H)) \oplus \cdots
+  \,.
+$$
+
+Now observe that the [[fixed points]] of the $SO(3)$-action on the quaternionic Hopf fibration that we are considering is just the [[real Hopf fibration]]:
+
+$$
+  (p_{\mathbb{H}})^{SO(3)} = p_{\mathbb{R}} \;\colon\; S^1 \longrightarrow S^1
+$$
+
+since $SO(3)$ acts transitively on the quaternionic quaternions and fixes the real quaternions.  By our assumption that $G \subset SO(3)$ does not come through $SO(2) \hookrightarrow SO(3)$ it follows that this statment is still true for $G$:
+
+$$
+  (p_{\mathbb{H}})^{G} = p_{\mathbb{R}} \;\colon\; S^1 \longrightarrow S^1
+  \,.
+$$
+
+But the [[real Hopf fibration]] defines a non-torsion element in $\pi_0^S \simeq \mathbb{Z}$.
+
+In conclusion then, at $n = 1$ and $H = G$ we find that the $G$-equivariant quaternionic Hopf fibration contributes a non-torsion element in 
+
+$$
+  Hom_{Ab}(\pi_1^G(\Sigma^\infty_G S^7), \pi_1^G(\Sigma^\infty_G S^4))
+$$
+
+which appears as a non-torsion element in 
+
+$$
+  Hom_{\mathcal{M}[G]}( \pi_1(\Sigma^\infty_G S^7), \pi_1(\Sigma^\infty_G S^4) )
+$$
+
+and hence in $[\Sigma^\infty_G S^7, \Sigma^\infty_G S^4]_G$.
+
+## Related concepts
+
+* [[real Hopf fibration]]
+
+* [[complex Hopf fibration]]
+
+* [[octonionic Hopf fibration]]
