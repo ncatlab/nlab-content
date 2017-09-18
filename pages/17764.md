@@ -1,4 +1,14 @@
-The **zeta polynomial** $Z(P,n)$ of a finite [[partially ordered set]] $P$ counts the number of _multichains_ (also known as _weakly increasing sequences_) $x_0 \le x_1 \le \cdots \le x_n$ in $P$. Note that a multichain of length $n$ in $P$ is the same thing as an [[order-preserving function]] from the [[linear order]] $[n] = \{ 0 \lt 1 \lt \cdots \lt n \}$ into $P$.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The **zeta polynomial** $Z(P,n)$ of a finite [[partially ordered set]] $P$ counts the number of _multichains_ (also known as _weakly increasing sequences_) $x_0 \le x_1 \le \cdots \le x_n$ in $P$.
+
+## Definition
+
+Note that a multichain of length $n$ in $P$ is the same thing as an [[order-preserving function]] from the [[linear order]] $[n] = \{ 0 \lt 1 \lt \cdots \lt n \}$ into $P$.
 To see that
 $$Z(P;n) = |Hom([n],P)|$$
 defines a [[polynomial]] in $n$,[^Note] first observe that any function $[n] \to P$ factors as a [[surjection]] from $[n]$ onto some $[k] = \{ 0 \lt 1 \lt \cdots \lt k \}$ (where $k \le n$), followed by an [[injection]] from $[k]$ to $P$. The total number of order-preserving functions from $[n]$ to $P$ can therefore be calculated explicitly as 
