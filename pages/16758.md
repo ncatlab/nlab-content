@@ -15,7 +15,7 @@
 
 ## Idea
 
-**Skeletal geometric morphisms** are those [[geometric morphisms]] that preserve [[double negation]] $\neg\neg$ and therefore play a role in characterizations of classes of toposes like e.g. [[Boolean topos|Boolean]] or [[De Morgan toposes]] in whose definitions the negation participates.
+**Skeletal geometric morphisms** are those [[geometric morphisms]] that preserve [[double negation]] $\neg\neg$ and therefore play a role in the descriptions of classes of toposes like e.g. [[Boolean topos|Boolean]] or [[De Morgan toposes]] in whose definitions the negation participates.
 
 The notion of a skeletal geometric morphism can be viewed as a common generalization of the notions of [[dominant geometric morphism|dominant]] and [[open geometric morphisms]].
 
@@ -33,11 +33,11 @@ A [[geometric morphism]] $f :  \mathcal{F} \to \mathcal{E}$ is called _skeletal_
 
 * Inverse images of [[open geometric morphism|open geometric morphisms]] are [[Heyting functors]], hence commute with $\neg$ and, therefore, are skeletal.
 
-* [[dense subtopos|Dense subtoposes]] $i:Sh_j(\mathcal{E})\hookrightarrow \mathcal{E}$ are characterized by $Sh_{\neg\neg}(Sh_j((\mathcal{E}))=Sh_{\neg\neg}(\mathcal{E})$ (cf. [this proposition](dense+subtopos#negdense)) and, therefore are skeletal.
+* [[dense subtopos|Dense subtoposes]] $i:Sh_j(\mathcal{E})\hookrightarrow \mathcal{E}$ are precisely those subtoposes with $Sh_{\neg\neg}(Sh_j(\mathcal{E}))=Sh_{\neg\neg}(\mathcal{E})$ (cf. [this proposition](dense+subtopos#negdense)) and, therefore are skeletal.
 
 ## Properties
 
-The following two propositions characterize skeletal [[geometric embedding|inclusions]] (cf. Johnstone ([2002, p.1007](#J02))):
+The following two propositions concern skeletal [[geometric embedding|inclusions]] (cf. Johnstone ([2002, p.1007](#J02))):
 
 +-- {: .num_prop}
 ###### Proposition
@@ -50,7 +50,7 @@ The class $\Sigma$ of skeletal [[geometric embedding|inclusions]] is the smalles
 
 * $\Gamma$ contains [[open subtopos|open inclusions]] and,
 
-* $\Gamma$ is closed under precomposition with [[dense subtopos|dense inclusions]]: from $g$ dense and $f\in\Gamma$ follows $fg\in\Gamma$.
+* $\Gamma$ is closed under precomposition with [[dense subtopos|dense inclusions]]: from $g$ dense, $f\in\Gamma$ and $f,g$ composable, follows $fg\in\Gamma$.
 =--
 
 A pullback characterisation of [[open geometric morphisms]] from Johnstone ([2006, cor. 4.9](#J06)):
