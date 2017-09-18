@@ -470,9 +470,114 @@ $$
 
 =--
 
-### Stabilizer subgroups
+### Stabilizer groups
 
-See at _[[stabilizer subgroup]]_.
+See at _[[stabilizer group]]_.
+
+
+### Linearization
+ {#Linearization}
+
+We discuss _linearization_ of $\infty$-actions using the axioms of [[differential cohesion]].
+
+Let $0 \colon \ast \to V$ be a [[pointed object]].
+
+Let $G$ be an $\infty$-group acting on $V$
+
+$$
+  \array{
+    V &\longrightarrow& V/G
+    \\
+    && \downarrow 
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+such that this action preserves the point of $V$, i.e. such that the point is an [[invariant]] of the action. This means equivalently that there is a lift as given by the diagonal morphism in
+
+$$
+  \array{
+    \ast &\stackrel{0}{\longrightarrow}& V &\longrightarrow & V/G
+    \\
+    & \searrow& & \nearrow& \downarrow 
+    \\
+    && \ast &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+which in turn means that the action factors through an action of the [[stabilizer group]] $Stab_G(0)$
+
+$$
+  \array{
+     \ast &\longrightarrow&  \mathbf{B}Stab_G(0)
+     \\
+     \downarrow &\nearrow& \downarrow & \searrow
+     \\
+     \mathbf{B}G &\longrightarrow& V/G &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+(using that the left morphism is a [[1-epimorphism]] and the right morphism a [[1-monomorphism]]).
+
+It follows by the [[pasting law]] the top squares in the following diagram is a [[homotopy pullback]]
+
+$$
+  \array{
+     \ast &\longrightarrow& \ast/G
+     \\
+     {}^{\mathllap{0}}\downarrow && \downarrow 
+     \\
+     V &\longrightarrow& V/G
+     \\
+     \downarrow && \downarrow
+     \\
+     \ast &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+exhibiting that the $G$-action on $V$ restricts to the trivial action on the point $0$ of $V$.
+
+Now let $\int_{inf}$ denote the [[infinitesimal shape modality]]. Since it preserves the top homotopy pullback, it follows that applying the [[orthogonal factorization system]] ($\int_{inf}$-equivalences, [[formally etale morphisms]]) to the top vertical morphisms produces a pasting diagram of homotopy pullbacks of the form
+
+$$
+  \array{
+     \ast &\longrightarrow& \ast/G
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbb{D}^V_0 &\longrightarrow& \mathbb{D}^V_0/G
+     \\
+     \downarrow && \downarrow
+     \\
+     \downarrow && \downarrow 
+     \\
+     V &\longrightarrow& V/G
+     \\
+     \downarrow && \downarrow
+     \\
+     \ast &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+where $\mathbb{D}^V_0$ is the [[infinitesimal disk]] around $0$ in $V$.
+
+Here the cartesian subdiagram 
+
+$$
+  \array{
+     \mathbb{D}^V_0 &\longrightarrow& \mathbb{D}^V_0/G
+     \\
+     \downarrow && \downarrow
+     \\
+     \ast &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+hence exhibits a $G$-action on $\mathbb{D}^V_0$.
+
+Any $G$-action on an infinitesimal disk is a linear action, given by a homomorphism $G \to GL(V) \coloneqq \mathbf{Aut}(\mathbb{D}^V_0)$ to the [[automorphism infinity-group]] of the [[infinitesimal disk]], the [[general linear group]] of the [[tangent space]] of $V$ at 0.
+
 
 
 ## Examples
