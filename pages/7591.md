@@ -353,13 +353,14 @@ A general abstract discussion in [[stable (∞,1)-category]] theory is in
 
 * {#Rezk06} [[Charles Rezk]], section II of _The units of a ring spectrum and a logarithmic cohomology operation_, J. Amer. Math. Soc. 19 (2006), 969-1014 ([arXiv:math/0407022](http://arxiv.org/abs/math/0407022))
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
- {#ABGHR08}
+* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ 
+* {#LurieI} [[Jacob Lurie]], construction 3.9.4 of _Elliptic Cohomology I: Spectral Abelian Varieties_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
 Remarks alluding to this are also on p. 20 of 
 
-* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
-  {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
+  
 
 Theorem 3.2 there is proven using classical results which are collected in
 
