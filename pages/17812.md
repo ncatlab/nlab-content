@@ -2002,7 +2002,7 @@ This way [[bosonic fields]] and [[fermionic fields]] may be combined into a sing
 
 We now define and then discuss the analog of [[smooth manifolds]] in [[supergeometry]] -- [[supermanifolds]].
 In the spirit of the entire presentation, we do so by applying a [[general abstract]] definition of
-"$V$-manifolds" or "$V$-scheme" locally modeled on any given kind of model spaces to the special
+"[[V-manifold]]" or "$V$-scheme" locally modeled on any given kind of model spaces to the special
 case where the local model spaces are [[super Cartesian spaces]] as discussed above.
 This general method is also discussed at _[[geometry of physics -- manifolds and orbifolds]]_,
 but we recall the relevant points below.
@@ -2295,7 +2295,7 @@ original morphism.
 
 Let $V \in SuperFormalSmoothSet$ be given (def. \ref{FormalSmoothSets}), equipped with the structure of a [[group object]].
 
-A _$V$-[[manifold]]_ is an $X \in SuperFormalSmoothSet$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
+A _[[V-manifold]]_ is an $X \in SuperFormalSmoothSet$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
 
 $$
   \array{
@@ -2309,7 +2309,7 @@ $$
 
 with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]].
 
-By prop. \ref{ProjectioonOutOfCoproductIsFormllyEtale} this means that $X$ is in particular a $V$-manifold
+By prop. \ref{ProjectioonOutOfCoproductIsFormllyEtale} this means that $X$ is in particular a [[V-manifold]]
 if there exists a [[set]] $I$ and a morphism out of the [[coproduct]] of $I$ copies of $V$ to $X$ which is a locally diffeomorphic
 epimorphism:
 
@@ -2348,7 +2348,7 @@ For instance in the discussion at _[[geometry of physics -- supersymmetry]]_ we 
 pairs $(p,q)$.
 Just the existence of a supermanifold structure in def. \ref{VManifold} does not depend
 on the choice of group structure on $V$ (and could be ignored for much of the present purpose).
-But later on the choice affects for instance the concept of [[torsion of a G-structure]] on the $V$-manifold.
+But later on the choice affects for instance the concept of [[torsion of a G-structure]] on the [[V-manifold]].
 
 =--
 
@@ -2513,7 +2513,7 @@ $$
 ###### Corollary
 
 The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying
-a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold
+a [[V-manifold]] $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold
 
 =--
 
@@ -3160,7 +3160,11 @@ The formulation via the axioms of [[differential cohesion]] that we use here fol
 
 * {#Schreiber} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+The concept of [[V-manifold]] in [[dfferential cohesion]] is due to 
 
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations Part I -- Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+* [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017 ([pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
 
 
 
