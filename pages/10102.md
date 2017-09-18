@@ -65,7 +65,7 @@ $$
 For $X$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]] and $C(X)$ its possibly non-unital [[C*-algebra]] [[algebra of functions|of functions]], then
 
 $$
-  (C_0(X))^+ \simeq C_0(X) \oplus \mathbb{X} \simeq C(X^+)
+  (C_0(X))^+ \simeq C_0(X) \oplus \mathbb{C} \simeq C(X^+)
 $$
 
 this is equivalently the unital $C^\ast$-algebra of functions on the [[one-point compactification]] of $X$.
