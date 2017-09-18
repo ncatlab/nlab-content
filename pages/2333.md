@@ -7,7 +7,7 @@
 
 A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
 
-A convex space is a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative semiring are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
+A convex space is a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative nonunital rings are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
 
 Convex spaces may be important in the foundations of [[probability theory]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
 
@@ -62,7 +62,7 @@ A convex space is cancellative if and only if it is isomorphic (as a convex spac
 
 Compare this with the theorem that a [[monoid]] is [[cancellative monoid|cancellative]] if and only if it is isomorphic to a submonoid of some [[group]].
 
-Of course, most of the examples given above are cancellative, being manifestly given as convex subsets of real affine space.  However, the last example---a semilattice with $c_p(x,y) = x \vee y$ whenever $0 \lt p \lt 1$---is non-cancellative.
+Of course, most of the examples given above are cancellative, being manifestly given as convex subsets of real affine space.  However, the last example --- a semilattice with $c_p(x,y) = x \vee y$ whenever $0 \lt p \lt 1$ --- is non-cancellative.
 
 
 ## References
