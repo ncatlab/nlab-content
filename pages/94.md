@@ -33,6 +33,7 @@ From another perspective: an $L_\infty$-algebra is a [[Lie ∞-algebroid]] with 
 $L_\infty$-algebras are [[infinitesimal space|infinitesimal]] approximations of [[smooth ∞-group]]s in analogy to how an ordinary Lie algebra is an infinitesimal approximation of a [[Lie group]]. Under [[Lie integration]] every $L_\infty$-algebra $\mathfrak{g}$ "exponentiates" to a [[smooth ∞-group]] $\Omega \exp(\mathfrak{g})$.
 
 ## History
+ {#History}
 
 +-- {: .num_remark #SuperLInfintiyAsFDA}
 ###### Remark
@@ -42,7 +43,7 @@ The identification of the concept of (super-)$L_\infty$-algebras has a non-linea
 
 [[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in
 [Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92), based on the 
-example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was found in the construction of [[closed string field theory]] in [Zwiebach 92](string+field+theory#Zwiebach93).
+example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was found in the construction of [[closed string field theory]] in [Zwiebach 92](#Zwiebach92).
 Some of this history is recalled in [Stasheff 16](#L-infinity-algebra#Stasheff16).
 
 The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
@@ -628,11 +629,16 @@ and
 
 ### General
 
-The original references are:
+The original references on $L_\infty$-algebras are
 
 * {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
 * {#LadaMarkl94} [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_, Communications in Algebra Volume 23, Issue 6, (1995) ([arXiv:hep-th/9406095](http://arxiv.org/abs/hep-th/9406095))
+
+following the discovery of these structures in [[string field theory]] by
+
+* {#Zwiebach92} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+  
 
 A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
 
