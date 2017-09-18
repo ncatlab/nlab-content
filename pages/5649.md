@@ -55,14 +55,19 @@ we have that if two of $f$, $g$ and $h$ are in $C$, then so is the third.
 
 * A [[category with weak equivalences]] is defined as a category with a subcategory that contains all [[isomorphism]]s and satisfies 2-out-of-3. 
 
-* The collection of "admissible" ("[[open map|open]]") morphisms in a [[geometry (for structured (∞,1)-toposes)]].
+
 
 ## Related concepts
 
 * [[category with weak equivalences]]
-
+* [[weak factorization system]]
 * [[2-out-of-6 property]]
+
+
 
 [[!redirects 2-out-of-3]]
 [[!redirects 2-out-of-3 property]]
+[[!redirects 2 out of 3]]
+[[!redirects 2 out of 3 property]]
+[[!redirects two out of three property]]
 [[!redirects two-out-of-three property]]
