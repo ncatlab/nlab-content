@@ -249,6 +249,7 @@ $C^\infty(\mathbb{R}^{p|q})$.
 
 =--
 
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -510,6 +511,13 @@ For the third adjoint quadruple this is the statement that [[super formal smooth
 
 =--
 
+For brevity we now set
+
+$$
+  \mathbf{H} \coloneqq SuperFormalSmooth0Type
+  \,.
+$$
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -644,7 +652,7 @@ $$
 $$
 
 
-* [[graded differential cohesion|solidity]]
+* [[solidity]]
 
   * **[[fermionic modality]] $\e$** -- the spaces it sends to the point are purely fermionic, the [[odd line]]
 
@@ -667,7 +675,44 @@ $$
   * **[[flat modality]] $\flat$** -- sends a space to the [[discrete space]] formed by its points;
 
   * **[[sharp modality]] $\sharp$**
+
++-- {: .num_prop #Sublations}
+###### Proposition
  
+We have the following [[sublation]]-relations:
+
+* $\sharp \emptyset \simeq \emptyset$;
+
+* $\rightsquigarrow \Im \simeq \Im$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For any $X \in \mathbf{H}$ and any $U \times D_s\in CartSp \rtimes SuperInfPoint \hookrightarrow \mathbf{H}$ we have by [[adjunction]] [[natural equivalences]]
+
+$$
+  \begin{aligned}
+    \mathbf{H}(U \times D_s , \stackrel{\rightsquigarrow}{\Im X})
+    & \simeq
+    \mathbf{H}(\e(U \times D_s) , \Im X)
+    \\
+    &\simeq 
+    \mathbf{H}(\Re(\e(U \times D_s)) , X)
+    \\
+    & \simeq
+    \mathbf{H}(U, X)
+    \\
+    & \simeq
+    \mathbf{H}(\Re(U \times D_s), X)
+    \\
+    & \simeq \mathbf{H}(U \times D_s, \Im X)
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 ### Super-Cartan geometry
 
@@ -843,7 +888,11 @@ is a [[cocycle]]. See also the [brane scan](#BraneScan) table below.
 #### The curved case
  {#TheCurvedCase}
 
-given $X,Y\in SuperSmooth0Type$ then a morphism $f \colon X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if
+
++-- {: .num_defn #LocalDiffeomorphisms}
+###### Definition
+
+Given $X,Y\in \mathbf{H}$ then a morphism $f \colon X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]]
 
 $$
   \array{
@@ -855,7 +904,14 @@ $$
   }
 $$
 
-is a [[pullback]] square. This comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a local diffeo if the diagram of [[tangent bundles]]
+is a [[pullback]] square. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a local diffeo if the diagram of [[tangent bundles]]
 
 $$
   \array{
@@ -867,7 +923,12 @@ $$
   }
 $$
 
-given $V$ a [[super vector space]] and $X \in SuperSmooth0Type$, then we say that $X$ is a $V$-[[manifold]] if there is
+=--
+
++-- {: .num_defn #VManifold}
+###### Definition
+
+Given $V$ a [[super vector space]] and $X \in \mathbf{H}$, then we say that $X$ is a $V$-[[manifold]] if there is
 
 $$
   \array{
@@ -879,7 +940,59 @@ $$
   }
 $$
 
-with both morphisms being local diffeos and the right one in addition being a [[1-epimorphism]].
+with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]] (hence an [[atlas]]).
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If $f\colon X \longrightarrow Y$ is a [[local diffeomorphism]],
+def. \ref{LocalDiffeomorphisms}, then so is image
+$\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrightarrow \stackrel{\rightsquigarrow}{Y}$ under the [[bosonic modality]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the [[bosonic modality]] provides [[Aufhebung]] for $\Re\dashv \Im$ by prop. \ref{Sublations} we have $\rightsquigarrow \Im \simeq \Im$. Moreover $\Im \rightsquigarrow \simeq \Im$ anyway. Finally $\rightsquigarrow$ preserves [[pullbacks]] (being in particular a [[right adjoint]]). Hence hitting a pullback diagram
+
+$$
+  \array{
+    X &\longrightarrow& \Im X
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
+    \\
+    Y &\longrightarrow& \Im Y
+  }
+$$
+
+with $\rightsquigarrow\;\;$ yields a pullback diagram
+
+$$
+  \array{
+    \stackrel{\rightsquigarrow}{X} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{X}
+    \\
+    \downarrow^{\mathrlap{\stackrel{\rightsquigarrow}{f}}} && \downarrow^{\mathrlap{\Im \stackrel{\rightsquigarrow}{f}}}
+    \\
+    \stackrel{\rightsquigarrow}{Y} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{Y}
+  }
+$$
+
+
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying 
+a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold.
+
+=--
+
+(...)
 
 
 
