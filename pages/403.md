@@ -180,6 +180,10 @@ and so on.  Face and degeneracy morphisms are induced from the structural moprhi
 
 Internal functors between internal categories induce simplicial morphisms between the corresponding nerves.
 
+### Internal category in homotopy type theory
+
+Discussion in [[homotopy type theory]] is at _[[internal category in homotopy type theory]]_.
+
 ### Higher internal categories
 
 One can also look at this in [[higher category theory]] and consider internal [[n-category|n-categories]]. See
