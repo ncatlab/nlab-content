@@ -1099,20 +1099,42 @@ $$
     \underset{\longrightarrow}{\lim}_{k \in \mathbb{N}}  \pi_{q+k}(X_k)
   }}
   \longrightarrow
-  \underset{
-    \simeq
-    \pi_q \left(
-      \underset{\longrightarrow}{\lim}_k \Omega^k X_k
-    \right)
-  }{
-  \underbrace{
     \pi_q \left(
       (Q X)_0
-    \right)
   }}
 $$
 
-and similarly in degree $q\lt 0$. That these morphisms are isomorphism, hence that forming homotopy groups commutes over the sequential colimit of relative cell complex inclusions, is again due to the compactness of the $n$-spheres.
+and similarly in degree $q\lt 0$. Now using the compactness of the spheres and the definition of $Q$ we compute on the right:
+
+$$
+  \begin{aligned}
+    \pi_q( (Q X)_0 )
+    & 
+    \simeq
+    \pi_q (\underset{\longrightarrow}{\lim}_k Z_{k,0})
+    \\
+    & \simeq 
+    \underset{\longrightarrow}{\lim}_k \pi_q ( Z_{k,0})
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_k \pi_q ( \Omega^k X_k )
+  \end{aligned}
+  \,,
+$$
+
+where the last isomorphism is $\pi_q$ applied to the composite of the weak homotopy equivalences 
+
+$$
+  Z_{k,0} 
+    \underoverset{\in W_{cl}}{\phi_{k-1,0}}{\longrightarrow}
+  \Omega Z_{k-1,1}
+    \to \cdots
+  \to
+  \Omega^k Z_{0,k}
+  = 
+  \Omega^k X_k
+  \,.
+$$
 
 Regarding the third statement:
 
