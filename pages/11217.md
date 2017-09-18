@@ -37,6 +37,10 @@ _[[Introduction to Topology -- 1|Introduction]]_
 
 ## Theorems
 
+[[intermediate value theorem]]
+
+[[extreme value theorem]]
+
 [[Heine-Borel theorem]]
 
 ...
