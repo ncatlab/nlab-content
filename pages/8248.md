@@ -298,6 +298,7 @@ $$
 ## Examples
 
 ### Exact couple of a tower of (co)-fibrations
+ {#ExactCoupleOfATowerOfFibrations}
 
 ...[[spectral sequence of a tower of fibrations]]...
 
