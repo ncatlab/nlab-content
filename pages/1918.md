@@ -528,6 +528,10 @@ Also, after stating the axioms, he immediately provides examples of spaces that 
 
 Immediately after this example of a non-Hausdorff space, [Tietze 23](#Tietze23) lists the $T_1$ axiom after all!  But it is not on the same level as the others to him.  Instead, it is merely an alternative form of the first separation axiom that may be used in the presence of the second.  It still appears that non-Hausdorff spaces are not considered to be real topological spaces worthy of one\'s attention.
 
+## Related concepts
+
+* [[nice topological space]]
+
 
 
 ## References
