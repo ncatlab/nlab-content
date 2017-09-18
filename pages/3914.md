@@ -36,6 +36,7 @@ The existence of an $E$-orientation is necessary in order to have a notion of [[
 ## Definition
 
 ### Concretely
+ {#TraditionalDefinition}
 
 +-- {: .num_defn #EOrientationOfAVectorBundle}
 ###### Definition
@@ -313,7 +314,7 @@ $$
   E
 $$
 
-has as components the restrictions $i^\ast \xi_n$ appearing in def. \ref{EOrientationOfAVectorBundle}. At the same time, also $E$ is a ring spectrum, hence it also has an essentially unique multiplicative morphism $\mathbb{S} \to E$, which hence must agree with $i^\ast \xi$, up to homotopy. If we represent $E$ as a [[symmetric ring spectrum]], then the canonical such (see e.g.[Schwede 12, def. 1.3](symmetric+spectrum#Schwede12)) has the required property: $e_0$ is the identity element (see e.g.[Schwede 12, top of p. 10](symmetric+spectrum#Schwede12)), and hence each $e_n$ it necessarily its image under the suspension isomorphism, due to compatibility with the structure maps and using the above analysis.
+has as components the restrictions $i^\ast \xi_n$ appearing in def. \ref{EOrientationOfAVectorBundle}. At the same time, also $E$ is a ring spectrum, hence it also has an essentially unique multiplicative morphism $\mathbb{S} \to E$, which hence must agree with $i^\ast \xi$, up to homotopy. If we represent $E$ as a [[symmetric ring spectrum]], then the canonical such has the required property: $e_0$ is the identity element in degree 0 (being a unit of an ordinary ring, by definition) and hence $e_n$ is necessarily its image under the suspension isomorphism, due to compatibility with the structure maps and using the above analysis.
 
 =--
 
