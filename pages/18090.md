@@ -15,18 +15,22 @@
 
 ***
 
-This page is going to contain a detailed introduction to basic [[topology]] ([[point-set topology]])
+This page is a detailed introduction to basic [[topology]] ([[point-set topology]])
 starting from scratch with motivation from [[analysis]]
 and ending with the first elementary application of [[homotopy theory]]: [[covering spaces]].
-
+For introduction to genuine _[[homotopy theory]]_ see instead 
+at _[[Introduction to Homotopy Theory]]_.
 
 > Under construction.
 
-For introduction to genuine _[[homotopy theory]]_ see at
-
-* _[[Introduction to Stable homotopy theory -- P|Introduction to Homotopy theory]]_.
-
 ***
+
+$\,$
+
+
+#Contents#
+* table of contents
+{:toc}
 
 $\,$
 
@@ -51,7 +55,7 @@ Topology itself has many branches,
 such as _[[low-dimensional topology]]_ or _[[topological domain theory]]_.
 
 A popular imagery for the concept of a [[continuous function]] is provided by deformations of [[elasticity|elastic]]
-physical bodies, which may be deformed by streetching them without tearing. The canonical illustration is
+physical bodies, which may be deformed by stretching them without tearing. The canonical illustration is
 a continous [[bijection|bijective]] function from the [[torus]] to the surface of a coffee mug, which maps half of the torus to the
 handle of the coffee mug, and continuously deforms parts of the other half in order to form the actual cup.
 Since the [[inverse function]] to this function is itself continuous,
@@ -59,7 +63,7 @@ the torus and the coffee mug, both regarded as [[topological spaces]], are "[[is
 for all practical purposes, one says they are _[[homeomorphic]]_.
 
 On the other hand, there is _no_ [[homeomorphism]] from the [[torus]] to the [[sphere]], signifying that these
-represent two topologically distinct spaces. Parts of topology is concerned with studying [[homeomorphism]]-[[invariants]]
+represent two topologically distinct spaces. Part of topology is concerned with studying [[homeomorphism]]-[[invariants]]
 of topological spaces which allow to detect by means of [[algebra|algebraic]] manipulations
 whether two topological spaces are homeomorphic
 (or more generally [[homotopy equivalence|homotopy equivalent]]). This is called _[[algebraic topology]]_.
@@ -77,24 +81,18 @@ to admit in the theory,
 extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxiom)), and the flavour of topology as a field
 depends on this choice.
 
-Among the separation axiom, the axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
+Among the separation axioms, the axiom of [[sober topological space|soberity]] (see [below](#SoberSpaces)) stands out, on the one
 hand because this is the weakest axiom that is still naturally satisfied in applications to [[algebraic geometry]] ([[schemes are sober]])
 and [[computer science]] ([Vickers 89](#Vickers89)) and on the other hand because it fully realizes the strong roots that
-topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the 
+topology has in [[formal logic]]: [[sober topological spaces]] are entirely characterized by the
 union-, intersection- and inclusion-relations
-(logical [[conjunction]], [[disjunction]] and [[implication]]) among their [[open subsets]] ([[propositions]]). 
+(logical [[conjunction]], [[disjunction]] and [[implication]]) among their [[open subsets]] ([[propositions]]).
 This leads to a natural
 and fruitful generalization of [[topology]] to more general "purely logic-determined spaces", called _[[locales]]_
 and in yet more generality _[[toposes]]_ and _[[higher topos theory|higher toposes]]_. While the latter are beyond
 the scope of this introduction, their rich theory and relation to the [[foundations]] of mathematics and geometry
 provides an outlook on the relevance of the basic ideas of [[topology]].
 
-
-$\,$
-
-#Contents#
-* table of contents
-{:toc}
 
 $\,$
 
@@ -106,15 +104,13 @@ In this first part we discuss the foundations of the concept of "sets equipped w
 ([[topological spaces]]) and of [[continuous functions]] between them.
 
 
-### Background from Analysis
+### Metric spaces
  {#Continuity}
 
 The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more
 abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
-Topology is the study if the [[category]] of [[topological spaces]].
+Topology is the study of the [[category]] of [[topological spaces]].
 
-
-#### Metric spaces
 
 First recall the basic concepts from [[analysis]]:
 
@@ -153,6 +149,28 @@ $$
 
 for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
 
+Similarly we write
+
+$$
+  B_x(\epsilon)
+    \;\coloneqq\;
+  \left\{
+    y \in X \;\vert\; d(x,y) \leq \epsilon
+  \right\}
+$$
+
+for the _closed ball_ of [[radius]] $\epsilon$ around $x$. Finally w write
+
+$$
+  S_x(\epsilon)
+    \;\coloneqq\;
+  \left\{
+    y \in X \;\vert\; d(x,y) = \epsilom
+  \right\}
+$$
+
+for the [[sphere]] of [[radius]] $\epsilon$ around $x$.
+
 =--
 
 
@@ -169,7 +187,7 @@ A _[[normed vector space]]_ is
 1. a [[function]] (the _[[norm]]_)
 
    $$
-     {\Vert - \Vert} \colon V \longrightarrow \mathbb{R}
+     {\Vert {-} \Vert} \colon V \longrightarrow \mathbb{R}
    $$
 
    from the underlying [[set]] of $V$ to the [[real numbers]],
@@ -189,7 +207,7 @@ such that for all $c \in \mathbb{R}$, $v , w \in V$ it holds true that
 +-- {: .num_prop #MetricSpaceFromNormedVectorSpace}
 ###### Proposition
 
-Every [[normed vector space]] $(V, {\Vert - \Vert})$
+Every [[normed vector space]] $(V, {\Vert {-} \Vert})$
 becomes a [[metric space]] according to def. \ref{MetricSpace} by setting
 
 $$
@@ -249,7 +267,7 @@ More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then
      {\Vert \vec x \Vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}}
    $$
 
-The graphics on the right (grabbed from Wikipedia) shows unit circles in $\mathbb{R}^2$ with respect to various [[p-norms]].
+The graphics on the right (grabbed from Wikipedia) shows unit circles (def. \ref{OpenBalls}) in $\mathbb{R}^2$ with respect to various [[p-norms]].
 
 By the [[Minkowski inequality]],
 the [[p-norm]] generalizes to non-[[finite dimensional vector spaces]] such as [[sequence spaces]] and [[Lebesgue spaces]].
@@ -305,7 +323,7 @@ $$
   \array{
     f_P &\colon& \mathbb{R} &\longrightarrow& \mathbb{R}
     \\
-    && x &\mapsto& P(X)
+    && x &\mapsto& P(x)
   }
 $$
 
@@ -351,7 +369,7 @@ For $a \lt b \in \mathbb{R}$ consider the following [[subsets]]:
 
 1. $(a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \lt x \leq b \right\}$ $\phantom{AA}$ (half-open interval)
 
-1. $[a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \lt b \right\}$ $\phantom{AA}$ (halfopen interval)
+1. $[a,b) \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \lt b \right\}$ $\phantom{AA}$ (half-open interval)
 
 1. $[a,b] \coloneqq \left\{ x \in \mathbb{R} \vert a \leq x \leq b \right\}$ $\phantom{AA}$ (closed interval)
 
@@ -642,15 +660,6 @@ the following generalized definition, which abstracts away from the concept of [
 just its system of [[open subsets]]:
 
 
-
-
-
-
-
-
-
-#### Topologies
-
 +-- {: .num_defn #TopologicalSpace}
 ###### Definition
 **(topological spaces)**
@@ -690,31 +699,33 @@ topology be closely related to [[formal logic]], see [Vickers 89](#Vickers89).
 
 =--
 
-+-- {: .num_example #Point}
-###### Example
+Here is some common **further terminology** relating to topological spaces:
 
-On a [[singleton]] set $\{x\}$ there exists a unique topology $\tau$
-making it a [[topological space]] according to def. \ref{TopologicalSpace},
-namely
++-- {: .num_defn #TopologyFinerCoarser}
+###### Definition
+**(finer/coarser topologies)**
 
-$$
-  \tau =
-  \left\{
-    \emptyset , \{x\}
-  \right\}
-  \,.
-$$
-
-We write
+Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topological space|topologies]] on $X$,
+hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
 
 $$
-  \ast \coloneqq (\{x\}, \left\{ \emptyset, \{x\}\right\})
+  \tau_1 \subset \tau_2
 $$
 
-for this topological space and call it _the [[point]]_.
+hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then
+one says that
+
+* the topology $\tau_2$ is _[[finer topology|finer]]_ than the topology $\tau_2$
+
+* the topology $\tau_1$ is _[[coarser topology|corarser]]_ than the topology $\tau_1$.
 
 =--
 
+
+
+#### Examples
+
+We discuss some basic examples of [[topological spaces]] (def. \ref{TopologicalSpace}).
 
 Our motivating example now reads as follows:
 
@@ -749,35 +760,66 @@ be a [[subset]] of its set of [[open subsets]]. We say that
 Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the
 [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 
-Here is some common **further terminology** relating to topological spaces:
+While the example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
+for the concept of [[topological spaces]], it is important to notice that the concept
+of topological spaces is considerably more general, as some of the following examples show.
 
 
-+-- {: .num_defn #TopologyFinerCoarser}
-###### Definition
-**(finer/coarser topologies)**
+The following simple example of a (metric) topological space is important for the theory:
 
-Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topological space|topologies]] on $X$,
-hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
++-- {: .num_example #Point}
+###### Example
+
+On a [[singleton]] set $\{1\}$ there exists a unique topology $\tau$
+making it a [[topological space]] according to def. \ref{TopologicalSpace},
+namely
 
 $$
-  \tau_1 \subset \tau_2
+  \tau 
+    \coloneqq
+  \left\{
+    \emptyset , \{1\}
+  \right\}
+  \,.
 $$
 
-hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then
-one says that
+Of course this is equivalently the [[metric topology]] (example \ref{MetricTopology}) on $\mathbb{R}^0$,
+regarded as the 0-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
 
-* the topology $\tau_2$ is _[[finer topology|finer]]_ than the topology $\tau_2$
+We write
 
-* the topology $\tau_1$ is _[[coarser topology|corarser]]_ than the topology $\tau_1$.
+$$
+  \ast \coloneqq (\{x\}, \left\{ \emptyset, \{x\}\right\})
+$$
+
+for this topological space and call it _the [[point]]_.
 
 =--
 
++-- {: .num_example #SierpinskiSpace}
+###### Example
 
+On the 2-element set $\{0,1\}$ there are (up to [[permutation]] of elements) three distinct topologies:
 
+1. the _[[codiscrete topology]]_ (def. \ref{CoDiscreteTopology}) $\tau = \left\{   \emptyset, \{0,1\}  \right\}$;
 
-While the example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
-for the concept of [[topological spaces]], it is important to notice that the concept
-of topological spaces is considerably more general:
+1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\} \{0,1\}  \right\}$;
+
+1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\}, \{0,1\}  \right\}$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
+
+<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+=--
+
 
 +-- {: .num_example #CoDiscreteTopology}
 ###### Example
@@ -814,34 +856,122 @@ Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topo
 
 1. the [[empty set]].
 
-=--
-
-
-+-- {: .num_example #SierpinskiSpace}
-###### Example
-
-On the 2-element set $\{0,1\}$ there are (up to [[permutation]] of elements) three distinct topologies:
-
-1. the _[[codiscrete topology]]_ (def. \ref{CoDiscreteTopology}) $\tau = \left\{   \emptyset, \{0,1\}  \right\}$;
-
-1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\} \{0,1\}  \right\}$;
-
-1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\}, \{0,1\}  \right\}$.
+If $X$ is a [[finite set]] (but not otherwise) then the cofinite topology on $X$ coincides with the [[discrete topological space|discrete topology]] on $X$ (example \ref{CoDiscreteTopology}).
 
 =--
 
 
 
-+-- {: .num_example}
++-- {: .num_defn #DisjointUnionOfTopologicalSpaces}
+###### Definition
+
+For $\{(X_i, \tau_i)\}_{i \in I}$ a [[set]] of topological spaces, then their _[[disjoint union]]_
+
+$$
+  \underset{i \in I}{\sqcup} (X_i, \tau_i)
+$$
+
+is the topological space whose underlying set is the [[disjoint union]] of the underlying sets of the summand spaces,
+and whose open subsets are precisely the disjoint unions of the open subsets of the summand spaces. 
+
+In particular, for $I$ any index set, then the disjoint union
+
+$$
+  \underset{i \in I}{\sqcup} \ast
+$$
+
+of $I$ copies of the [[point]] (example \ref{Point}) is equivalently the [[discrete topological space]] (example \ref{CoDiscreteTopology})
+on that index set.
+
+=--
+
++-- {: .num_example #BinaryProductTopologicalSpace}
 ###### Example
+**(binary product topological space)**
 
-The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
+</div>
 
-<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
+For $(X_1,\tau_1)$ and $(X_2, \tau_2)$ two [[topological spaces]], then their _[[product topological space]]_
+has as underlying set the [[Cartesian product]] $X_1 \times X_2$ of the corresponding two underlying sets,
+and its topology is generated from the [[basis for a topology|basis]] (def. \ref{TopologyBase})
+given by the Cartesian products $U_1 \times U_2$ of the opens $U_i \in \tau_i$.
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+
+Beware that for non-[[finite set|finite]] products, the descriptions of the product topology is not as simple.
+This we turn to below in example \ref{InfiniteProductTopologicalSpace}, after inroducing the general concept
+of [[limits]] in the [[category of topological spaces]].
+
+=--
+
++-- {: .num_example #SubspaceTopology}
+###### Example
+**(subspace topology)**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
+</div>
+
+Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$.
+
+(Also called the _[[initial topology]]_ of the inclusion map.)
+
+The picture on the right shows two open subsets inside the [[square]], regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
+
 
 > graphics grabbed from [Munkres 75](#Munkres75)
 
 =--
+
+
++-- {: .num_example #QuotientTopologicalSpace}
+###### Example
+**(quotient topological space)**
+
+Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let
+
+$$
+  R_\sim \subset X \times X
+$$
+
+be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has
+
+* as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]],
+
+and
+
+* a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
+
+  $$
+    \pi \colon X \to X_\sim
+  $$
+
+  is open in $X$.
+
+(This is also called the _[[final topology]]_ of the projection $\pi$.)
+
+<img src="https://ncatlab.org/nlab/files/QuotientOfSquareIsCylinderAndTorus.png" width="660">
+
+
+The above picture shows on the left the [[square]] (a [[topological subspace]] of the [[plane]]),
+then in the middle the resulting [[quotient topological space]] obtained by
+identifying two opposite sides (the _[[cylinder]]_), and on the right the further quotient obtained by
+identifying the remaining sides (the _[[torus]]_).
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+=--
+
+
+These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of **[[limits]]** and of **[[colimits]]** of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. We discuss this below in 
+_[Universal constructions](#UniversalConstructions)_
+
+
+
+
 
 
 
@@ -912,6 +1042,7 @@ Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is 
 
 =--
 
+A special role in the theory is played by the "irreducible" closed subspaces:
 
 +-- {: .num_defn #ClosedIrreducible}
 ###### Definition
@@ -954,7 +1085,9 @@ $$
   \left(
     \underset{U_1, U_2 \in \tau}{\forall }
     \left(
-      U_1 \cap U_2 \subset P
+      \left(
+        U_1 \cap U_2 \subset P
+      \right)
       \;\Rightarrow\;
       \left(U_1 \subset P \;\text{or}\; U_2 \subset P\right)
     \right)
@@ -1015,13 +1148,224 @@ Under these equivalences, the two conditions are manifestly the same.
 
 =--
 
+We will consider yet another equivalent characterization of irreducible closed subsets.
+Stating this requires the following concept of "[[frame]]" [[homomorphism]], 
+the natural kind of [[homomorphisms]] between [[topological spaces]] if we were to forget the
+underlying set of points of a topological space, and only remember the set $\tau_X$ with its
+finite intersections and arbitrary unions:
+
++-- {: .num_defn #HomomorphismOfFramesOfOpens}
+###### Definition
+
+Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]] (def. \ref{TopologicalSpace}).
+Then a function
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; \phi
+$$
+
+between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_
+if it preserves
+
+1. arbitrary [[unions]];
+
+1. [[finite number|finite]] [[intersections]].
+
+In other words, $\phi$ is a frame homomorphism if
+
+1. for every [[set]] $I$ and every $I$-indexed set $\{U_i \in \tau_Y\}_{i \in I}$ of elements of $\tau_Y$, then
+
+   $$
+     \phi\left(\underset{i \in I}{\cup} U_i\right) \;=\; \underset{i \in I}{\cup} \phi(U_i)\;\;\;\;\in \tau_X
+     \,,
+   $$
+
+1. for every [[finite set]] $J$ and every $J$-indexed set $\{U_j \in \tau_Y\}$ of elements in $\tau_Y$, then
+
+   $$
+     \phi\left(\underset{j \in J}{\cap} U_j\right)
+       \;=\;
+     \underset{j \in J}{\cap} \phi(U_j)
+     \;\;\;\;\in \tau_X
+     \,.
+   $$
+
+=--
+
++-- {: .num_remark #PreservationOfInclusionsByFrameHomomorphism}
+###### Remark
+
+A [[frame]] [[homomorphism]] $\phi$ as in def. \ref{HomomorphismOfFramesOfOpens}
+necessarily also preserves inclusions in that
+
+* for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
+
+  $$
+    \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
+    \,.
+  $$
+
+This is because inclusions are witnessed by unions
+
+$$
+  (U_1 \subset U_2)
+    \;\Leftrightarrow\;
+  \left( U_1 \cup U_2 = U_2 \right)
+$$
+
+and by finite intersections:
+
+$$
+  (U_1 \subset U_2)
+    \;\Leftrightarrow\;
+  \left(
+    U_1 \cap U_2 = U_1
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #ContinuousFunctionGivesFrameHomomorphism}
+###### Example
+
+For
+
+$$
+  f \;\colon\; (X,\tau_X) \longrightarrow (Y, \tau_Y)
+$$
+
+a [[continuous function]], then its function of [[pre-images]]
+
+$$
+  \tau_X \longleftarrow \tau_Y \;\colon\; f^{-1}
+$$
+
+is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
+
+=--
+
+For the following recall from example \ref{Point}
+the [[point]] topological space $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \{1\}\right\})$.
+
+
++-- {: .num_prop #FrameHomomorphismsToPointAreIrrClSub}
+###### Proposition
+
+For $(X,\tau)$ a [[topological space]], then there is a [[bijection]] between
+the [[irreducible closed subspaces]] of $(X,\tau)$ (def. \ref{ClosedIrreducible}) and the
+[[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, given by
+
+$$
+  \array{
+    Hom_{Frame}(\tau_X, \tau_\ast)
+      &\underoverset{\simeq}{}{\longrightarrow}&
+    IrrClSub(X)
+    \\
+    \phi
+      &\mapsto&
+    X \backslash U_\emptyset(\phi)
+  }
+$$
+
+where $U_\emptyset(\phi)$ is the [[union]] of all elements $U \in \tau_x$ such that $\phi(U) = \emptyset$:
+
+$$
+  U_{\emptyset}(\phi)
+    \coloneqq
+  \underset{{U \in \tau_X} \atop {\phi(U) = \emptyset} }{\cup}
+   U
+  \,.
+$$
+
+=--
+
+See also ([Johnstone 82, II 1.3](#Johnstone82)).
+
++-- {: .proof}
+###### Proof
+
+First we need to show that the function is well defined in that given
+a frame homomorphism $\phi \colon \tau_X \to \tau_\ast$ then  $X \backslash U_\emptyset(\phi)$
+is indeed an irreducible closed subspace.
+
+To that end observe that:
+
+$(\ast)$ _If there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 \subset U_{\emptyset}(\phi)$
+then $U_1 \subset U_{\emptyset}(\phi)$ or $U_2 \subset U_{\emptyset}(\phi)$._
+
+This is because
+
+$$
+  \begin{aligned}
+    \phi(U_1 \cap U_2)
+    & =
+    \phi(U_1) \cap \phi(U_2)
+    \\
+    & \subset \phi(U_{\emptyset})
+    \\
+    & =
+    \emptyset
+  \end{aligned}
+  \,,
+$$
+
+(where the first equality holds because $\phi$ preserves finite intersections by def. \ref{HomomorphismOfFramesOfOpens}, the inclusion holds because $\phi$ respects
+inclusions by remark \ref{PreservationOfInclusionsByFrameHomomorphism}, and the second equality holds because $\phi$ preserves arbitrary unions
+by def. \ref{HomomorphismOfFramesOfOpens}).
+But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
+hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}(\phi)$ or $U_2 \subset U_{\emptyset}(\phi)$, as claimed.
+
+Now according to prop. \ref{OpenSubsetVersionOfClosedIrreducible}
+the condition $(\ast)$ identifies the [[complement]]
+$X \backslash U_{\emptyset}(\phi)$ as an [[irreducible closed subspace]] of $(X,\tau)$.
+
+Conversely, given an irreducible closed subset $X \backslash U_0$, define $\phi$ by
+
+$$
+  \phi
+    \;\colon\;
+  U
+    \mapsto
+  \left\{
+    \array{
+      \emptyset & \vert \, \text{if} \, U \subset U_0
+      \\
+      \{1\} & \vert \, \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+This does preserve
+
+1. arbitrary unions
+
+   because $\phi(\underset{i}{\cup} U_i) = \{0\}$ precisely if $\underset{i}{\cup}U_i \subset U_0$ which is the
+   case precisely if all $U_i \subset U_0$, which means that all $\phi(U_i) = \emptyset$ and $\underset{i}{\cup}\emptyset = \emptyset$;
+
+   while $\phi(\underset{i}{\cup}U_1) = \{1\}$ as soon as one of the $U_i$ is not contained in $U_0$, which means that
+   one of the $\phi(U_i) = \{1\}$ which means that $\underset{i}{\cup} \phi(U_i) = \{1\}$;
+
+1. finite intersections,
+
+   because if $U_1 \cap U_2 \in U_0$, then by $(\ast)$ $U_1 \in U_0$ or $U_2 \in U_0$, whence $\phi(U_1) = \emptyset$
+   or $\phi(U_2) = \emptyset$, whence with $\phi(U_1 \cap U_2) = \emptyset$ also $\phi(U_1) \cap \phi(U_2) = \emptyset$;
+
+   while if $U_1 \cap U_2$ is not contained in $U_0$ then neither $U_1$ nor $U_2$ is contained in $U_0$ and hence with
+   $\phi(U_1 \cap U_2) = \{1\}$ also $\phi(U_1) \cap \phi(U_2) = \{1\} \cap \{1\} = \{1\}$.
+
+Hence this is indeed a frame homomorphism $\tau_X \to \tau_\ast$.
+
+Clearly these two operations are inverse to each other.
+
+=--
 
 
 
 
 
-
-#### Continuous functions
+### Continuous functions
  {#ContinuousFunctions}
 
 With the concept of [[topological spaces]] (def. \ref{TopologicalSpace})
@@ -1151,11 +1495,25 @@ by [[diagrams]], like this one:
 
 =--
 
-$\,$
+Beware that in general a continuous function itself (as opposed to its [[pre-image]] function) neighther
+preserves [[open subsets]], nor [[closed subsets]]. Those that happen to do so get a special name:
+
++-- {: .num_defn #OpenMap}
+###### Definition
+
+A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{ContinuousMaps}) is called
+
+*  an _[[open map]]_ if the [[image]] under $f$ of an [[open subset]] of $X$ is an open subset of $Y$;
+
+* a _[[closed map]]_ if the [[image]] under $f$ of a [[closed subset]] of $X$ (def. \ref{ClosedSubset}) is a closed subset of $Y$.
+
+=--
 
 
-**Examples of continous functions**
 
+#### Examples
+
+We discuss some basic examples of [[continuous functions]] (def. \ref{ContinuousMaps}) between [[topological spaces]] (def. \ref{TopologicalSpace}).
 
 +-- {: .num_example #TerminalityOfThePoint}
 ###### Example
@@ -1196,8 +1554,6 @@ $$
 
 between the continuous functions from the point to any topological space, and the underlying set of that topological space.
 
-
-
 =--
 
 
@@ -1209,7 +1565,6 @@ _[[locally constant function|locally constant]]_ if every point $x \in X$ has a 
 on which the function is constant.
 
 =--
-
 
 
 +-- {: .num_example #ContinuousFunctionsIntoCoDiscreteTopologicalSpaces}
@@ -1230,6 +1585,35 @@ on the underlying set $S$. Then [[continuous functions]] (def. \ref{ContinuousMa
 =--
 
 
++-- {: .num_example #Diagonal}
+###### Example
+
+For $X$ a [[set]], its _[[diagonal]]_ $\Delta_X$ is the [[function]]
+
+$$
+  \array{
+     X &\overset{\Delta_X}{\longrightarrow}& X \times X
+     \\
+     x &\mapsto& (x,x)
+  }
+  \,.
+$$
+
+For $(X,\tau)$ a [[topological space]], then the diagonal is a [[continuous function]]
+to the [[product topological space]] (def. \ref{BinaryProductTopologicalSpace}) of $X$ with itself.
+
+$$
+  \Delta_X \;\colon\; (X, \tau) \longrightarrow (X \times X, \tau_{X \times X})
+  \,.
+$$
+
+To see this, it is sufficient to see that the [[preimages]] of [[basis for a topology|basic opens]] $U_1 \times U_2$
+in $\tau_{X \times X}$ are in $\tau_X$.But these pre-images are the [[intersections]] $U_1 \cap U_2 \subset X$,
+which are open by the axioms on the topology $\tau_X$.
+
+=--
+
+
 #### Homeomorphism
 
 With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] thus defined
@@ -1242,15 +1626,19 @@ $$
 in a [[category]] is an _[[isomorphism]]_ if there exists a morphism going the other way around
 
 $$
-  X \overset{f^{-1}}{\longleftarrow} Y
+  X \overset{g}{\longleftarrow} Y
 $$
 
 which is an [[inverse]] in the sense that
 
 $$
-  f \circ f^{-1} = id_Y \;\;\;\;\; and \;\;\;\;\; f^{-1} \circ f = id_X
+  f \circ g = id_Y \;\;\;\;\; and \;\;\;\;\; g \circ f = id_X
   \,.
 $$
+
+Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]]. However, in the context 
+of [[topology]] then $f^{-1}$ usually refers to the [[pre-image]] function of a given [[function]] $f$, and in these
+notes we will stick to this usage.
 
 +-- {: .num_defn #Homeomorphism}
 ###### Definition
@@ -1261,28 +1649,70 @@ An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[
 Hence a _[[homeomorphism]]_ is a [[continuous function]]
 
 $$
-  f \;\colon\; X \longrightarrow Y
+  f \;\colon\; (X, \tau_X) \longrightarrow (Y, \tau_Y)
 $$
 
 such that there exists a [[continuous function]] the other way around
 
 $$
-  X \longleftarrow Y \;\colon\; f^{-1}
+  (X, \tau_X) \longleftarrow (Y, \tau_Y) \;\colon\; g
 $$
 
-such that
+such that their [[composition|composites]] are the [[identity functions]] on $X$ and $Y$,
+respectively:
 
 $$
-  f \circ f^{-1} = id_{Y} \;\;\;and\;\;\; f^{-1} \circ f = id_{X}
+  f \circ g = id_{Y} \;\;\;and\;\;\; g \circ f = id_{X}
   \,.
 $$
 
 =--
 
-
 <img src="https://ncatlab.org/nlab/files/Homeomorphism.png" width="560">
 
 > graphics grabbed from [Munkres 75](#Munkres75)
+
++-- {: .num_remark }
+###### Remark
+
+If $f \colon (X, \tau_X) \to (Y, \tau_Y)$ is a [[homeomorphism]] (def. \ref{Homeomorphism}) with inverse contiinuous function $g$, then
+of course also $g$ is a homeomophism, with inverse continuous function $f$.
+
+The underlying function of sets $f \colon X \to Y$ of a homeomorphism $f$ is necessarily a [[bijection]].
+But beware that not every [[continuous function]] which is [[bijection|bijective]] on underlying sets
+is a homeomorphism. While an inverse $g$ will exists on the level of functions of sets, this inverse may fail
+to be continuous, see example \ref{ExponentialMapFromHalfOpenIntervalToCircle} below.
+
+=--
+
++-- {: .num_example #ExponentialMapFromHalfOpenIntervalToCircle}
+###### Example
+
+Consider the [[continuous function]]
+
+$$
+  \array{
+    [0,2\pi) &\longrightarrow& S^1 \subset \mathbb{R}^2
+    \\
+    t &\mapsto& (cos(t), sin(t))
+  }
+$$
+
+from the [[half-open interval]] (def. \ref{OpenAndClosedIntervals}) to the unit circle $S^1 \coloneqq S_0(1) \subset \mathbb{R}^2$ (def. \ref{OpenBalls}), regarded as a [[topological subspace]] (def. \ref{SubspaceTopology})
+of the [[Euclidean plane]] (def. \ref{EuclideanNorm}).
+
+The underlying function of sets of $f$ is a [[bijection]]. The [[inverse function]] of sets however fails to be continuous
+at $(1,0) \in S^1 \subset \mathbb{R}^2$. Hence this $f$ is _not_ a [[homeomorphism]].
+
+Indeed, below we see that the two topological spaces $[0,2\pi)$ and $S^1$ are distinguished by 
+topological invariants and hence not homeomorphic. For example $S^1$ is a [[compact topological space]]
+(def. \ref{CompactTopologicalSpace})
+while $[0,2\pi)$ is not, and $S^1$ has a non-trivial [[fundamental group]], while that of $[0,2\pi)$ 
+is trivial (def. \ref{FundamentalGroup}).
+
+
+=--
+
 
 +-- {: .num_example #OpenBallsHomeomorphicToRn}
 ###### Example
@@ -1470,6 +1900,10 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 
 Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}).
 
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/HausdorffProperty.png" width="190">
+</div>
+
 For $x \neq y \in X$ any two points in the underlying set of $X$ which are not [[equality|equal]] as elements of this set,
 consider the following [[propositions]]:
 
@@ -1479,14 +1913,17 @@ consider the following [[propositions]]:
 
 * **(T2)** _There exists [[neighbourhoods]]_ of both points which do not intersect each other._
 
-Notice that these propositions imply each other as
+> graphics grabbed from [Vickers 89](#Vickers89)
+
+
+Notice that these propositions evidently imply each other as
 
 $$
   T2 \Rightarrow T1 \Rightarrow T0
   \,.
 $$
 
-For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neighbourhoods]] of these points
+For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neighbourhoods]] of these points. Then:
 
 * **(T0**) $\underset{x \neq y}{\forall} \left(
     \left( \underset{U_y}{\exists} \left( \{x\} \cap U_y = \emptyset \right) \right) \vee \left( \underset{U_x}{\exists} \left( U_x \cap \{y\} = \emptyset  \right) \right) \right)$
@@ -1495,9 +1932,6 @@ For definiteness, we re-state these conditions formally. Write $x,y \in X$ for p
 
 * **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
 
-<div style="float:left;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/HausdorffProperty.png" width="190">
-</div>
 
 The topological space $X$ is called a _$T_n$-topological space_ or just _$T_n$-space_, for short,
 if it satisfies condition $T_n$ above for
@@ -1505,21 +1939,21 @@ all pairs of distinct points.
 
 A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
 
-> graphics grabbed from [Vickers 89](#Vickers89)
 
 =--
 
-**Separation of points in terms of topological closures of points**
+$\,$
 
-The conditions $T_0$ and $T_1$ have the following equivalent form in terms of [[topological closures]] (def. \ref{ClosedSubset})
-of points:
+**Separation in terms of topological closures**
 
-+-- {: .num_prop #S0InTermsOfClosureOfPoints}
+The conditions $T_0$, $T_1$ and $T_2$ have the following equivalent form in terms of [[topological closures]] (def. \ref{ClosedSubset}):
+
++-- {: .num_prop #T0InTermsOfClosureOfPoints}
 ###### Proposition
-**(T0 in terms of topological closures)**
+**($T_0$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau)$ is $T_0$ (def. \ref{HausdorffTopologicalSpace})
-precisely if the function $Cl(\{-\})4
+precisely if the function $Cl(\{-\})$
 from the underlying set of $X$ to the set of [[irreducible closed subsets]] of $X$ (def. \ref{ClosedIrreducible},
 which is well defined according to example \ref{IrreducibleClosureOfPoint}), is [[injective function|injective]]:
 
@@ -1542,9 +1976,9 @@ open subset that does not contain $x$ also does not contain $y$, and vice versa.
 By $T_0$ this is not the case when $x \neq y$, hence it follows that $x = y$.
 
 Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
-We need to show that if $x \neq y$ then there exists an open neigbourhood around one of the
+We need to show that if $x \neq y$ then there exists an open neighbourhood around one of the
 two points not containing the other. Hence assume that $x \neq y$.
-By assumption it follows that $Cl(\{x\) \neq Cl(\{y\})$.
+By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$.
 Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point, this
 means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
 By definition this means that $(X,\tau)$ is $T_0$.
@@ -1554,7 +1988,7 @@ By definition this means that $(X,\tau)$ is $T_0$.
 
 +-- {: .num_prop}
 ###### Proposition
-**(T1 in terms of topological closures)**
+**($T_1$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) precisely if
 all its points are [[closed points]] (def. \ref{ClosedSubset}).
@@ -1577,14 +2011,41 @@ contain $x$.
 
 =--
 
++-- {: .num_prop #T2InTermsOfClosedDiagonal}
+###### Proposition
+**($T_2$ in terms of topological closures)**
 
-+-- {: .num_prop #Hausdorffication}
+A [[topological space]] $(X,\tau_X)$ is $T_2$=[[Hausdorff topological space|Hausdorff]] (def. \ref{HausdorffTopologicalSpace})
+precisely if the [[diagonal]] function $\Delta_X \colon (X, \tau_X) \longrightarrow (X \times X, \tau_{X \times X})$ 
+(example \ref{Diagonal}) is a [[closed map]] (def. \ref{OpenMap}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $(X,\tau_X)$ is Hausdorff, then by definition for every pair of distinct points $x \neq y \in X$ there exists open neighbourhoods
+$U_x, U_y \in \tau_X$ such that $U_x \cap U_y = \emptyset$. In terms of the [[product topology]] (example \ref{BinaryProductTopologicalSpace})
+this means that every point $(x,y) \in X \times X$ which is not on the diagonal has an open neighbourhood $U_x \times U_y$ which
+still does not contain the diagonal. By definition, this means that in fact every [[subset]] of the diagonal is a 
+[[closed subset]] of $X \times X$, hence in particular those that are in the image under $\Delta_X$ of closed subsets of $X$.
+Hence $\Delta_X$ is a closed map.
+
+Conversely, if $\Delta_X$ is a closed map, then the full diagonal (i.e. the image of $X$ under $\Delta_X$) is closed in $X \times X$,
+and hence this means that every points $(x,y) \in X \times X$ not on the diagonal has an open neighbourhood $U_x \times U_y$
+not containing the diagonal, i.e. such that $U_x \cap U_y = \emptyset$. Hence $X$ is Hausdorff.
+
+=--
+
+
+#### Hausdorff reflection
+
++-- {: .num_prop #HausdorffReflection}
 ###### Proposition
 **(Hausdorff reflection)**
 
-For every [[topological space]] $X$ (def. \ref{TopologicalSpace}) there exists
-a [[Hausdorff topological space]] $H X$ (def. \ref{HausdorffTopologicalSpace})
-and a [[continuous function]]
+For every [[topological space]] $X$ there exists
+a [[Hausdorff topological space]] $H X$ and a [[continuous function]]
 
 $$
   h_X
@@ -1618,19 +2079,88 @@ $$
   \,.
 $$
 
+Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflection_ (or _Hausdorffication_ or similar) of $X$.
 
-Here $H X$ (or more precisely $h_X$) is also called the _Hausdorff reflection_ (or _Hausdorffication_) of $X$.
+Moreover, the operation $H(-)$ extends to [[continuous functions]] $f \colon X \to Y$
 
-Specifically, consider the [[equivalence relation]] $\sim$ on the underlying set $X$
+$$
+  (X \overset{f}{\to} Y)
+    \;\mapsto\;
+  (H X \overset{H f}{\to} H Y)
+$$
+
+by setting
+
+$$
+  H f \;\colon\; [x] \mapsto [f(x)]
+  \,,
+$$
+
+where $[x]$ denotes the [[equivalence class]] under $\sim_X$ of any $x \in X$.
+
+Finally, the comparison map is compatible with this in that the follows [[commuting squares|squares commute]]:
+
+$$
+  \array{
+      X &\overset{f}{\longrightarrow}& Y
+      \\
+      {}^{\mathllap{h_X}}\downarrow && \downarrow^{\mathrlap{h_Y}}
+      \\
+      H X &\underset{H f}{\longrightarrow}& H Y
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+There are various ways to construct $h_X$, see below prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces} and prop. \ref{HausdorffReflectionViaClosureOfDiagonal}.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In the language of [[category theory]] the Hausdorff reflection of prop. \ref{HausdorffReflection}
+says that
+
+1. $H$ is a _[[functor]]_ $H \;\colon\; Top \longrightarrow Top_{Haus}$ from the [[category]] [[Top]] of [[topological spaces]] to the [[full subcategory]] $Top_{Haus} \overset{\iota}{\hookrightarrow} Top$ of Hausdorff topological spaces;
+
+1. $h_X \colon X \to H X$ is a [[natural transformation]] from the [[identity functor]] on [[Top]] to the functor $\iota \circ H$
+
+1. [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]] in that $H$ is [[left adjoint]] to the inclusion functor $\iota$
+
+   $$
+     Top_{Haus}
+       \underoverset{\underset{\iota}{\hookrightarrow}}{\overset{H}{\longleftarrow}}{\bot}
+     Top
+     \,.
+   $$
+
+
+=--
+
+There are various ways to see the existence and to construct the Hausdorff reflection. The following is maybe the quickest way to see the existence, even though it leaves the actual construction rather implicit.
+
+
++-- {: .num_prop #HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
+###### Proposition
+
+Let $(X,\tau)$ be a [[topological space]] and consider the [[equivalence relation]] $\sim$ on the underlying set $X$
 for which $x \sim y$ precisely if for every [[continuous function]] $f \colon X \to Y$ into any
-[[Hausdorff ^topological space]] $Y$ we have $f(x) = f(y)$. Then the set of [[equivalence classes]]
+[[Hausdorff topological space]] $Y$ we have $f(x) = f(y)$.
+
+Then the set of [[equivalence classes]]
 
 $$
   H X \coloneqq X /{\sim}
 $$
 
-equipped with the [[quotient topology]] (example \ref{QuotientTopology}) is the Hausdorff reflection of $X$,
-and the comparison map $h_X$ is the quotient map $X \to X/{\sim}$.
+equipped with the [[quotient topology]] is a [[Hausdorff topological space]] and the quotient map $h_X \;\colon\; X \to X/{\sim}$ exhibits the Hausdorff reflection of $X$, according to prop. \ref{HausdorffReflection}.
 
 =--
 
@@ -1662,50 +2192,60 @@ Since, by the nature of continuous functions,
 the pre-images $\tilde f^{-1}( U_x ), \tilde f^{-1}([y]) \subset H X$ are still disjoint and open,
 we have found disjoint neighbourhoods of $[x]$ and $[y]$. Hence $H X$ is Hausdorff.
 
-
 =--
 
-+-- {: .num_remark }
-###### Remark
+The following is a more direct way to actually construct the Hausdorff reflection:
 
-In the language of [[category theory]] (def. \ref{TopCategory}), the Hausdorff reflection of prop. \ref{Hausdorffication}
-says that [[Hausdorff topological spaces]] form a [[reflective subcategory]] of all [[topological spaces]].
-One denotes this as follows:
++-- {: .num_prop #HausdorffReflectionViaClosureOfDiagonal}
+###### Proposition
+
+
+Let $X$ be a [[topological space]] and write $Cl(\Delta_X)$ for the [[topological closure]] of the [[image]] of the [[diagonal]] map
 
 $$
-  Top_{Haus}
-    \underoverset{\bot}{\overset{H}{\longleftarrow}}{\underset{\iota}{\hookrightarrow}}
-  Top
+  \array{
+     X &\overset{\Delta_X}{\longrightarrow}& X \times X
+     \\
+     x &\mapsto& (x,x)
+  }
+$$
+
+in the [[product topological space]] $X \times X$. Define an [[equivalence relation]] $\sim$ on $X$ to be given by $Cl(\Delta_X)$, i.e.
+
+$$
+  (x \sim y)
+    \;\Leftrightarrow\;
+  (x,y) \in Cl(\Delta_X)
   \,.
 $$
 
-Here
+Then in [[classical logic]] the [[quotient topological space]]
 
 $$
-  \iota \;\colon\; Top_{Haus} \hookrightarrow Top
+  H X \coloneqq X/\sim
 $$
 
-is the [[functor]] which regards a Hausdorff topological space $X$ just as a topological space $\iota(X)$, and identifies
-the [[homomorphisms]] $X \to Y$ with the homomorphisms $\iota(X) \to \iota(Y)$: after all, both are simply the
-continuous functions. A functor with this property
+is a Hausdorff topological space and the [[quotient]] map
 
 $$
-  Hom(X,Y) \overset{\simeq}{\longrightarrow} Hom(\iota(X), \iota(Y))
+  h_X \;\colon\; X \longrightarrow H X
 $$
 
-is called a _[[fully faithful functor]]_.
+exhibits $H X$ as the Hausdorff reflection of $X$, according to prop. \ref{HausdorffReflection}.
 
-The symbol "$\bot$" above indicates that the Hausdorff reflection functor $H$ forms an [[adjoint pair]] with this
-inclusion functor $\iota$, with $\iota$ [[right adjoint]] and $H$ [[left adjoint]]. This means that there
-is a  [[natural bijection]]
+In particular this implies that $X$ is Hausdorff precisely if the diagonal $\Delta_X \colon X \to X \times X$ is a [[closed map]].
 
-$$
-  Hom_{Top}( X, \iota(Y) )
-    \;\simwq\;
-  Hom_{Top}(H X, Y)
-$$
+=--
 
-just as in the statement of prop. \ref{Hausdorffication}.
++-- {: .proof}
+###### Proof
+
+
+Observe that two points $x,y \in X$ are not [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods) precisely if $(x,y) \in Cl(\Delta_X)$. Because the latter means equivalently that every basic open neighbourhood $U_x \times U_y$ of $(x,y)$ in the product topology $X \times X$ contains a point $(z,z)$ on the diagonal, which means equivalently that $z \in U_x \cap U_y$, hence equivalently that $x$ and $y$ are not separated by open neighbourhoods.
+
+This directly implies that $X/\sim$ is Hausdorff.
+
+To see that every continuous function $f \colon X \longrightarrow Y$ into a Hausdorff space $Y$ factors uniquely through this $H X$, we need to see that if $(x,y) \in Cl(\Delta_X)$ then $f(x) = f(y)$. Assume on the contrary that $f(x) \neq f(y)$. Then by $Y$ being Hausdorff, this would imply the existence of disjoint open neighbourhoods $V_{f(x)}$ and $V_{f(y)}$. By continuity of $f$, their preimages $f^{-1}(V_{f(x)})$ and $f^{-1}(V_{f(y)})$ would still be disjoint open neighbourhoods, now of $x$ and $y$, contradicting the fact that these do not exist, by the previous statement. This proves the claim [[proof by contradiction|by contradiction]].
 
 =--
 
@@ -1714,7 +2254,7 @@ just as in the statement of prop. \ref{Hausdorffication}.
 #### Sober topological spaces
  {#SoberSpaces}
 
-The characterization of the $T_0$-condition in prop. \ref{S0InTermsOfClosureOfPoints}
+The characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
 immediately suggests the following strengthening:
 
 +-- {: .num_defn #Sober}
@@ -1743,7 +2283,7 @@ Every [[sober topological space]] (def. \ref{Sober}) is $T_0$ (def. \ref{Hausdor
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{S0InTermsOfClosureOfPoints}.
+By prop. \ref{T0InTermsOfClosureOfPoints}.
 
 =--
 
@@ -1811,110 +2351,28 @@ That neither class is contained in the other is shown by the following counter-e
 =--
 
 
-What makes the concept of _[[sober topological spaces]]_ special is that
+
+
+#### As locales with enough points
+
+
+What makes the concept of [[sober topological spaces]] special is that
 for them the concept of [[continuous functions]] may be expressed entirely in terms
 of the relations between their [[open subsets]], disregarding the underlying
-set of points of which these open are in fact subsets. In order to express this
-property, we first introduce the following terminology:
+set of points of which these open are in fact subsets. 
 
-+-- {: .num_defn #HomomorphismOfFramesOfOpens}
-###### Definition
-
-Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be [[topological spaces]] (def. \ref{TopologicalSpace}).
-Then a function
-
-$$
-  \tau_X \longleftarrow \tau_Y \;\colon\; \phi
-$$
-
-between their [[frame of opens|sets of open subsets]] is called a _[[frame]] [[homomorphism]]_
-if it preserves
-
-1. arbitrary [[unions]];
-
-1. [[finite number|finite]] [[intersections]].
-
-In other words, $\phi$ is a frame homomorphism if
-
-1. for every [[set]] $I$ and every $I$-indexed set $\{U_i \in \tau_Y\}_{i \in I}$ of elements of $\tau_Y$, then
-
-   $$
-     \phi\left(\underset{i \in I}{\cup} U_i\right) \;=\; \underset{i \in I}{\cup} \phi(U_i)\;\;\;\;\in \tau_X
-     \,,
-   $$
-
-1. for every [[finite set]] $J$ and every $J$-indexed set $\{U_j \in \tau_Y\}$ of elements in $\tau_Y$, then
-
-   $$
-     \phi\left(\underset{j \in J}{\cap} U_j\right)
-       \;=\;
-     \underset{j \in J}{\cap} \phi(U_j)
-     \;\;\;\;\in \tau_X
-     \,.
-   $$
-
-=--
-
-+-- {: .num_remark #PreservationOfInclusionsByFrameHomomorphism}
-###### Remark
-
-A [[frame]] [[homomorphism]] $\phi$ as in def. \ref{HomomorphismOfFramesOfOpens}
-necessarily also preserves inclusions in that 
-
-* for every inclusion $U_1 \subset U_2$ with $U_1, U_2 \in \tau_Y \subset P(Y)$ then
-
-  $$
-    \phi(U_1) \subset \phi(U_2) \;\;\;\;\;\;\; \in \tau_X
-    \,.
-  $$
-  
-This is because inclusions are witnessed by unions
-
-$$
-  (U_1 \subset U_2)
-    \;\Leftrightarrow\;
-  \left( U_1 \cup U_2 = U_2 \right)
-$$
-
-and by finite intersections:
-
-$$
-  (U_1 \subset U_2)
-    \;\Leftrightarrow\;
-  \left(
-    U_1 \cap U_2 = U_1
-  \right)
-  \,.
-$$
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-For
-
-$$
-  f \;\colon\; (X,\tau_X) \longrightarrow (Y, \tau_Y)
-$$
-
-a [[continuous function]], then its function of [[pre-images]]
-
-$$
-  \tau_X \longleftarrow \tau_Y \;\colon\; f^{-1}
-$$
-
-is a frame homomorphism according to def. \ref{HomomorphismOfFramesOfOpens}.
-
-=--
+Recall from example \ref{ContinuousFunctionGivesFrameHomomorphism}
+that for very [[continuous function]] $f \colon (X, \tau_X) \to (Y, \tau_Y)$
+the [[pre-image]] function $f^{-1} \colon \tau_Y \to \tau_X$ is a [[frame]] [[homomorphism]]
+(def. \ref{HomomorphismOfFramesOfOpens}). 
 
 For sober topological spaces the converse holds:
 
-+-- {: .num_prop}
++-- {: .num_prop #FrameMorphismsBetweenOpensOfSoberSpaces}
 ###### Proposition
 
 If $(X,\tau_X)$ and $(Y,\tau_Y)$ are [[sober topological spaces]] (def. \ref{Sober}), then
-for every frame homomorphism (def. \ref{HomomorphismOfFramesOfOpens})
+for every [[frame]] [[homomorphism]] (def. \ref{HomomorphismOfFramesOfOpens})
 
 $$
   \tau_X \longleftarrow \tau_Y \;\colon\; \phi
@@ -1930,67 +2388,28 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-Let $\ast = (\{x\}, \tau_\ast = \{\emptyset, \{1\}\})$ be the [[point]] [[topological space]] (def. \ref{TerminalityOfThePoint}).
++-- {: .proof #ProofOfFrameMorphismsBetweenOpensOfSoberSpaces}
+###### Proof
 
 We first consider the special case of frame homomorphisms of the form
 
 $$
-  \tau_\ast \longleftarrow \tau_X \;\colon\; \phi_\ast
+  \tau_\ast \longleftarrow \tau_X \;\colon\; \phi
 $$
 
 and show that these are in bijection to the underlying set $X$, identified with the continuous functions
 $\ast \to (X,\tau)$ via example \ref{PointsViaContinuousFunctions}.
 
-To this end, consider the [[union]] $U_{\emptyset}$ of all elements $U \in \tau_x$ such that $\phi_\ast(U) = \emptyset$:
-
-$$
-  U_{\emptyset}
-    \coloneqq
-  \underset{{U \in \tau_X} \atop {\phi_\ast(U) = \emptyset} }{\cup}
-   U
-  \,.
-$$
-
-Then observe that 
-
-$(\ast)$ _If there are two elements $U_1, U_2 \in \tau_X$ with $U_1 \cap U_2 \subset U_{\emptyset}$
-then $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$._
-
-This is because
-
-$$
-  \begin{aligned}
-    \phi_\ast(U_1 \cap U_2)
-    & =
-    \phi_\ast(U_1) \cap \phi_\ast(U_2)
-    \\
-    & \subset \phi_\ast(U_{\emptyset})
-    \\
-    & =
-    \emptyset
-  \end{aligned}
-  \,,
-$$
-
-(where the first equality holds because $\phi_\ast$ preserves finite intersections by def. \ref{HomomorphismOfFramesOfOpens}, the inclusion holds because $\phi_\ast$ respects
-inclusions by remark \ref{PreservationOfInclusionsByFrameHomomorphism}, and the second equality holds because $\phi_\ast$ preserves arbitrary unions
-by def. \ref{HomomorphismOfFramesOfOpens}).
-But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
-hence $\phi_\ast(U_1) = \emptyset$ or $\phi_\ast(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}$ or $U_2 \subset U_{\emptyset}$, as claimed.
-
-Now according to prop. \ref{OpenSubsetVersionOfClosedIrreducible}
-the condition $(\ast)$ identifies the [[complement]]
-$X \backslash U_{\emptyset}$ as an [[irreducible closed subspace]] of $(X,\tau)$.
+By prop. \ref{FrameHomomorphismsToPointAreIrrClSub}, the frame homomorphisms $\phi \colon \tau_X \to \tau_\ast$
+are identified with the irreducible closed subspaces $X \backslash U_\emptyset(\phi)$ of $(X,\tau_X)$.
 Therefore by assumption of [[sober topological space|sobriety]] of $(X,\tau)$ there is a unique point
 $x \in X$ with $X \backslash U_{\emptyset} = Cl(\{x\})$. In particular this means that for $U_x$ an open
-neighbourhood of $x$, then $U_x$ is not a subset of $U_\emptyset$, and so it follows that $\phi(U_x) = \{1\}$.
+neighbourhood of $x$, then $U_x$ is not a subset of $U_\emptyset(\phi)$, and so it follows that $\phi(U_x) = \{1\}$.
 In conclusion we have found a unique $x \in X$ such that
 
 $$
-  \phi_\ast
+  \phi
     \;\colon\;
   U \mapsto
   \left\{
@@ -2003,7 +2422,7 @@ $$
   \,.
 $$
 
-This is precisely the the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
+This is precisely the [[inverse image]] function of the continuous function $\ast \to X$ which sends $1 \mapsto x$.
 
 Hence this establishes the bijection between frame homomorphisms of the form $\tau_\ast \longleftarrow \tau_X$
 and continuous functions of the form $\ast \to (X,\tau)$.
@@ -2031,6 +2450,252 @@ that $f$ is indeed a continuous function. This proves the claim in generality.
 
 =--
 
+
++-- {: .num_remark}
+###### Remark
+**(locales)**
+
+Proposition \ref{FrameMorphismsBetweenOpensOfSoberSpaces}
+is often stated as saying that sober topological spaces are [[equivalence of categories|equivalently]] the
+"[[locales with enough points]]" ([Johnstone 82, II 1.](#Johnstone82)). Here "[[locale]]" refers to a concept akin to topological spaces where one considers
+_just_ a "[[frame of open subsets]]" $\tau_X$, without requiring that its elements be actual [[subsets]] of some ambient set.
+The natural notion of [[homomorphism]] between such generalized topological spaces are clearly the [[frame]] homomorphisms
+$\tau_X \leftarrow \tau_Y$ as above. From this persepctive, prop. \ref{FrameMorphismsBetweenOpensOfSoberSpaces} says that
+sober topological spaces $(X, \tau_X)$ are entirely characterized by their [[frames of opens]] $\tau_X$ and just so happen to
+"have enough points" such that these are actual open subsets of some ambient set, namely of $X$.
+
+=--
+
+#### Sober reflection
+
+We saw above in prop. \ref{HausdorffReflection} that every toopological space has a "best approximation from the left" by a [[Hausdorff topological space]]. We now discuss the analogous statement for [[sober topological spaces]].
+
+
+Recall again the [[point]] topological space $\ast \coloneqq ( \{1\}, \tau_\ast = \left\{ \emptyset, \{1\}\right\} )$
+(example \ref{Point}).
+
+
++-- {: .num_defn #SoberificationConstruction}
+###### Definition
+
+Let $(X,\tau)$ be a [[topological space]].
+
+Define $S X$ to be the set
+
+$$
+  S X \coloneqq Hom_{Frame}( \tau_X, \tau_\ast )
+$$
+
+of [[frame]] [[homomorphisms]] from the [[frame of opens]] of $X$ to that of the point. Define a [[topological space|topology]] $\tau_{S X} \subset P(S X)$ on this set by declaring it to have one element $\tilde U$ for each element $U \in \tau_X$ and given by
+
+$$
+  \tilde U
+    \;\coloneqq\;
+  \left\{
+    \phi \in S X
+    \,\vert\,
+    \phi(U) = \{1\}
+  \right\}
+  \,.
+$$
+
+Consider the function
+
+$$
+  \array{
+    X &\overset{s_X}{\longrightarrow}& S X
+    \\
+    x &\mapsto& (const_x)^{-1}
+  }
+$$
+
+which sends an element $x \in X$ to the function which assigns [[inverse images]] of the [[constant function]] $const_x \;\colon\; \{1\} \to X$ on that element.
+
+=--
+
++-- {: .num_lemma #SoberificationConstructionWellDefined}
+###### Lemma
+
+The construction $(S X, \tau_{S X})$ in def. \ref{SoberificationConstruction} is a [[topological space]], and the function $s_X \colon X \to S X$ is a [[continuous function]]
+
+$$
+  s_X \colon (X, \tau_X) \longrightarrow (S X, \tau_{S X})
+$$
+
+=--
+
++-- {: .proof #ProofOfSoberificationConstructionWellDefined}
+###### Proof
+
+To see that $\tau_{S X} \subset P(S X)$ is closed under arbitrary unions and finite intersections, observe that the function
+
+$$
+  \array{
+    \tau_X &\overset{\widetilde{(-)}}{\longrightarrow}& \tau_{S X}
+    \\
+    U &\mapsto& \tilde U
+  }
+$$
+
+in fact preserves arbitrary unions and finite intersections. Whith this the statement follows by the fact that $\tau_X$ is closed under these operations.
+
+To see that $\widetilde{(-)}$ indeed preserves unions, observe that (e.g. [Johnstone 82, II 1.3 Lemma](#Johnstone82))
+
+$$
+  \begin{aligned}
+    p \in \underset{i \in I}{\cup} \widetilde{U_i} \;
+    & \Leftrightarrow
+    \underset{i \in I}{\exists} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow \underset{i \in I}{\cup} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow p\left(\underset{i \in I}{\cup} U_i\right) = \{1\}
+    \\
+    & \Leftrightarrow p \in \widetilde{ \underset{i \in I}{\cup} U_i }
+  \end{aligned}
+  \,,
+$$
+
+where we used that the frame homomorphism $p \colon \tau_X \to \tau_\ast$ preserves unions. Similarly for intersections, now with $I$ a [[finite set]]:
+
+$$
+  \begin{aligned}
+    p \in \underset{i \in I}{\cap} \widetilde{U_i} \;
+    & \Leftrightarrow
+    \underset{i \in I}{\forall} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow \underset{i \in I}{\cap} p(U_i) = \{1\}
+    \\
+    & \Leftrightarrow p\left(\underset{i \in I}{\cap} U_i\right) = \{1\}
+    \\
+    & \Leftrightarrow p \in \widetilde{ \underset{i \in I}{\cap} U_i }
+  \end{aligned}
+  \,,
+$$
+
+where now we used that the frame homomorphism $p$ preserves finite intersections.
+
+To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by construction.
+
+=--
+
++-- {: .num_lemma #UnitIntoSXDetectsT0AndSoberity}
+###### Lemma
+
+For $(X, \tau_X)$ a [[topological space]],
+the function $s_X \colon X \to S X$ from def. \ref{SoberificationConstruction} is
+
+1. an [[injection]] precisely if $X$ is [[separation axiom|T0]];
+
+1. a [[bijection]] precisely if $X$ is sober.
+
+   In this case $s_X$ is in fact a [[homeomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} there is an identification $S X \simeq IrrClSub(X)$ and via this $s_X$ is identified with the map $x \mapsto Cl(\{x\})$.
+
+Hence the second statement follows by definition, and the first statement by [this prop.](separation+axioms#T0InTermsOfClosureOfPoints).
+
+That in the second case $s_X$ is in fact a homeomorphism follows from the definition of the opens $\tilde U$: they are identified with the opens $U$ in this case (...expand...).
+
+=--
+
+
++-- {: .num_lemma #SoberificationIsIndeedSober}
+###### Lemma
+
+For $(X,\tau)$ a [[topological space]], then the topological space $(S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined} is sober.
+
+=--
+
+(e.g. [Johnstone 82, lemma II 1.7](#Johnstone82))
+
++-- {: .proof}
+###### Proof
+
+Let $S X \backslash \tilde U$ be an [[irreducible closed subspace]] of $(S X, \tau_{S X})$. We need to show that it is the [[topological closure]] of a unique element $\phi \in S X$.
+
+Observe first that also $X \backslash U$ is irreducible.
+
+To see this use [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible), saying that irreducibility of $X \backslash U$ is equivalent to $U_1 \cap U_2 \subset U \Rightarrow (U_1 \subset U) or (U_2 \subset U)$. But if $U_1 \cap U_2 \subset U$ then also $\tilde U_1 \cap \tilde U_2 \subset \tilde U$ (as in the [proof](#ProofOfSoberificationConstructionWellDefined) of lemma \ref{SoberificationConstructionWellDefined}) and hence by assumption on $\tilde U$ it follows that $\tilde U_1 \subset \tilde U$ or $\tilde U_2 \subset \tilde U$. By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this in turn implies $U_1 \subset U$ or $U_2 \subset U$.  In conclusion, this shows that also $X \backslash U$ is irreducible .
+
+By lemma \ref{FrameHomomorphismsToPointAreIrrClSub} this irreducible closed subspace corresponds to a point $p \in S X$. By that same lemma, this frame homomorphism $p \colon \tau_X \to \tau_\ast$ takes the value $\emptyset$ on all those opens which are inside $U$. This means that the [[topological closure]] of this point is just $S X \backslash \tilde U$.
+
+This shows that there exists at least one point of which $X \backslash \tilde U$ is the topological closure. It remains to see that there is no other such point.
+
+So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exists $U \in \tau_X$ with $p_1(U) \neq p_2(U)$. Equivalently this says that $\tilde U$ contains one of the two points, but not the other. This means that $(S X, \tau_{S X})$ is [[separation axiom|T0]]. By [this prop.](separation+axioms#T0InTermsOfClosureOfPoints) this is equivalent to there being no two points with the same topological closure.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrigtharrow (S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
+
+$$
+  \array{
+    (X, \tau_X) &\overset{f}{\longrightarrow}& (Y, \tau_Y^{sob})
+    \\
+    {}^{\mathllap{s_X}}\downarrow & \nearrow_{\exists !}
+    \\
+    (S X , \tau_{S X})
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the construction in def. \ref{SoberificationConstruction}, we the outer part of the following square [[commuting square|commutes]]:
+
+$$
+  \array{
+    (X, \tau_X) &\overset{f}{\longrightarrow}& (Y, \tau^{sob}_Y)
+    \\
+    {}^{\mathllap{s_X}}\downarrow & \nearrow& \downarrow^{\mathrlap{s_{S X}}}
+    \\
+    (S X, \tau_{S X})
+     &\underset{S f}{\longrightarrow}&
+    (S S X, \tau_{S S X})
+  }
+  \,.
+$$
+
+By lemma \ref{SoberificationIsIndeedSober} and lemma \ref{UnitIntoSXDetectsT0AndSoberity}, the right vertical morphism $s_{S X}$ is an isomorphism (a [[homeomorphism]]), hence has an [[inverse morphism]]. This defines the diagonal morphism, which is the desired factorization.
+
+To see that this factorization is unique, consider two factorizations $\tilde f, \overline{f} \colon \colon (S X, \tau_{S X}) \to (Y, \tau_Y^{sob})$ and apply the soberification construction once more to the triangles
+
+$$
+  \array{
+    (X, \tau_X) &\overset{f}{\longrightarrow}& (Y, \tau_Y^{sob})
+    \\
+    {}^{\mathllap{s_X}}\downarrow & \nearrow_{ \tilde f, \overline{f}}
+    \\
+    (S X , \tau_{S X})
+  }
+  \phantom{AAA}
+    \mapsto
+  \phantom{AAA}
+  \array{
+    (S X, \tau_{S X}) &\overset{S f}{\longrightarrow}& (Y, \tau_Y^{sob})
+    \\
+    {}^{\simeq}\downarrow & \nearrow_{ \tilde f, \overline{f}}
+    \\
+    (S X , \tau_{S X})
+  }
+  \,.
+$$
+
+Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to find that the vertical morphism is an isomorphism, and that $\tilde f$ and $\overline{f}$ do not change under soberification, as they already map between sober spaces. But now that the left vertical morphism is an isomorphism, the commutativity of this triangle for both $\tilde f$ and $\overline{f}$ implies that $\tilde f = \overline{f}$.
+
+=--
 
 
 
@@ -2148,6 +2813,7 @@ $$
 
 
 ### Universal constructions
+ {#UniversalConstructions}
 
 
 One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as metric spaces.
@@ -2264,7 +2930,9 @@ The case of the colimit is [[formal dual|formally dual]].
 
 =--
 
+$\,$
 
+**Examples of (co-)limits of topological spaces**
 
 
 +-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
@@ -2277,20 +2945,12 @@ The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its uniqu
 +-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
 ###### Example
 
-For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their _[[disjoint union]]_.
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their
+_[[disjoint union]]_ (example \ref{DisjointUnionOfTopologicalSpaces}).
 
 =--
 
-In particular:
-
-+-- {: .num_example #DiscreteTopologicalSpaceAsCoproduct}
-###### Example
-
-For $S \in Set$, the $S$-indexed [[coproduct]] of the point, $\underset{s \in S}{\coprod}\ast $,  is the set $S$ itself equipped with the [[final topology]], hence is the [[discrete topological space]] on $S$.
-
-=--
-
-+-- {: .num_example #ProductTopologicalSpace}
++-- {: .num_example #InfiniteProductTopologicalSpace}
 ###### Example
 
 For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
@@ -2298,6 +2958,7 @@ For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underse
 In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then a [[basis for a topology|sub-basis]] for the product topology is given by the [[Cartesian products]] of the open subsets of (a basis for) each factor space.
 
 =--
+
 
 +-- {: .num_example #EqualizerInTop}
 ###### Example
@@ -2423,100 +3084,6 @@ $$
 
 
 
-+-- {: .num_example #DiscreteTopologicalSpace}
-###### Example
-**(discrete topological space)**
-
-For $S$ a bare [[set]], then the _[[discrete topology]]_ on $S$ regards _every_ subset of $S$ as an [[open subset]].
-
-=--
-
-+-- {: .num_example #SubspaceTopology}
-###### Example
-**(subspace topology)**
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
-</div>
-
-Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$.
-
-(Also called the _[[initial topology]]_ of the inclusion map.)
-
-The picture on the right shows two open subsets inside the [[square]], regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
-
-
-> graphics grabbed from [Munkres 75](#Munkres75)
-
-=--
-
-
-+-- {: .num_example #QuotientTopologicalSpace}
-###### Example
-**(quotient topological space)**
-
-Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let
-
-$$
-  R_\sim \subset X \times X
-$$
-
-be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has
-
-* as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]],
-
-and
-
-* a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
-
-  $$
-    \pi \colon X \to X_\sim
-  $$
-
-  is open in $X$.
-
-(This is also called the _[[final topology]]_ of the projection $\pi$.)
-
-=--
-
-<img src="https://ncatlab.org/nlab/files/QuotientOfSquareIsCylinderAndTorus.png" width="660">
-
-
-The above picture shows on the left the [[square]] (a [[topological subspace]] of the [[plane]]),
-then in the middle the resulting [[quotient topological space]] obtained by
-identifying two opposite sides (the _[[cylinder]]_), and on the right the further quotient obtained by
-identifying the remaining sides (the _[[torus]]_).
-
-> graphics grabbed from [Munkres 75](#Munkres75)
-
-+-- {: .num_example #ProductTopologicalSpace}
-###### Example
-**(product topological space)**
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
-</div>
-
-For $X$ and $Y$ two [[topological spaces]], then the [[product topological space]] $X \times Y$
-has
-
-* as underlying set the [[Cartesian product]] of the underlying sets of $X$ and $Y$,
-
-and
-
-* its [[open sets]] are those subsets $O \subset X \times Y$ of the Cartesian product such that for all point $(x,y) \in O$
-there exists open sets $x \in O_x \subset X$ and $y \in O_Y \subset Y$ such that $O_x \times O_y \subset O$.
-
-
-> graphics grabbed from [Munkres 75](#Munkres75)
-
-=--
-
-
-
-
-
-These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of **[[limits]]** and of **[[colimits]]** of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. (For more on this see at _[Top -- Universal constructions](Top#UniversalConstructions)_.)
 
 
 
@@ -2979,7 +3546,7 @@ $$
 such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted
 to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$
 to the [[product topological space]] (example \ref{ProductTopologicalSpace}) of $U_i$
-with the [[discrete topological space]] (example \ref{DiscreteTopologicalSpace}) on a [[set]] $F_i$
+with the [[discrete topological space]] (example \ref{CoDiscreteTopology}) on a [[set]] $F_i$
 
 $$
   \array{
@@ -3301,6 +3868,11 @@ Lecture notes include
 frankfurt.de/64271720/TopNotes_Spring10.pdf))
 
 * Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
+
+Disucssion of [[sober topological spaces]] is in
+
+* {#Johnstone82} [[Peter Johnstone]], section II 1. of _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+
 
 See also
 
