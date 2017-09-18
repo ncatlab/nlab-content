@@ -58,6 +58,9 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 
 [[!include (co)isotropic subspaces - table]]
 
+* [[Grassmannian]], [[Stiefel manifold]]
+
+* [[orthogonal spectrum]], [[coordinate-free spectrum]], [[equivariant spectrum]]
 
 [[!redirects orthogonal]]
 
