@@ -21,7 +21,10 @@
 >$\mu\alpha\theta\eta\sigma\iota\varsigma$ - Learning (Gr.)
 
 This page will discuss approaches to **teaching of mathematics** (as it is usual in the subject, with emphasis on the pre-university level, where the care in didactical aspects is the most relevant) and
-the outstanding sources of the relevant materials.
+the outstanding sources of the relevant materials about teaching.
+
+Pedagogically well written introductory books in mathematics, rather than about pedagogical matter, are also of our concern, but will be posted under 
+[[elementary mathematics]], [[introductions to mathematics]], [[elementary geometry]] and related pages.
 
 ## Software 
 
