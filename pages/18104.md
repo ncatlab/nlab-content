@@ -1,9 +1,27 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The method called _proof by contradiction_ is a method of [[formal proof]] using the [[principle of excluded middle]].
+
+This principle says that for $P$ any [[proposition]], then it is either [[true]] or [[false]]. One also speaks of _[[classical logic]]_ if this principle is taken to hold. 
+
+But this principle implies that in order to prove a [[proposition]] $P$ it is sufficient to show that its [[negation]] is [[false]], hence that assuming that $P$ were not true would lead to a "contradiction". This is _proof by contradiction_.
+
+Proof by contradiction is used frequently in [[classical mathematics]].
+
+While this method of proof is classical, it has some peculiar consequences. Notably when $P$ is an [[existential quantification|existential statement]] of the form "there exists an object $X$ with the property $Y$", then a proof of such existence by contradiction alone gives no means to actually construct an example. 
+
+One also says that proof by contradiction is "non-constructive" and that a proof not invoking the [[principle of excluded middle]] is a "constructive" proof, see at _[[constructive logic]]_ and _[[constructive mathematics]]_.
+
+ 
 ## Related concepts
 
 * [[formal proof]]
 
-* [[excluded middle]]
 
 ## References
 
