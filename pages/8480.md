@@ -158,14 +158,20 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 * [[Lawvere's fixed point theorem]]
 
+* [[fixed point of an adjunction]]
+
 ## References 
 
 * [[Claudio Hermida]], [[Bart Jacobs]], _Structural induction and coinduction in a fibrational setting_, Information and Computation 145 (1997), 107-152. ([citeseer](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.7400)) 
 
-* [[Michael Makkai]], [[Robert Paré]], _Accessible Categories: The Foundations of Categorical Model Theory_, Contemporary Mathematics 104, AMS (1989). 
-{#MakkaiPare}
+* {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]], _Accessible Categories: The Foundations of Categorical Model Theory_, Contemporary Mathematics 104, AMS (1989). 
 
+[[!redirects fixed point of the endofunctor]]
+[[!redirects fixed points of the endofunctor]]
 
+[[!redirects fixed point]]
 [[!redirects fixed points]]
 
+
 [[!redirects Knaster-Tarski theorem]]
+
