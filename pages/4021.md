@@ -88,11 +88,40 @@ negative probability.
 
 ## Related concepts
 
+* [[probability space]], [[random variable]]
+
+* [[expectation value]], 
+
+* [[Radon-Nikodym derivative]], 
+
+* [[cumulant]], 
+
+* [[ergodic theory]], 
+
+* [[statistics]], 
+
+* [[stochastic process]], 
+
+* [[Wiener integral]]
+
 * [[Bayesian reasoning]]
+
+
+
+
 
 ## References
 
-Related concepts: [[expectation value]], [[Radon-Nikodym derivative]], [[cumulant]], [[ergodic theory]], [[statistics]], [[stochastic process]], [[Wiener integral]]
+The modern formalization of probability theory in [[measure theory]] originates around
+
+* {#Kolmogorov33} [[Andrey Kolmogorov]], _Grundbegriffe der Wahrscheinlichkeitsrechnung_, Ergebnisse der Mathematik und Ihrer Grenzgebiete, Springer Berlin Heidelberg, 1933
+
+Lecture notes include
+
+* {#Grigoryan08} Alexander Grigoryan, _Measure theory and probability_, 2008 [pdf](https://www.math.uni-bielefeld.de/~grigor/mwlect.pdf)
+
+* {#Dembo12} [[Amir Dembo]], _Probability theory_, 2012 ([pdf](http://statweb.stanford.edu/~adembo/stat-310a/lnotes.pdf))
+
 
 For references related to [[Giry's monad]] and variants see there.
 
