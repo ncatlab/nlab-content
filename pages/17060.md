@@ -1,0 +1,10 @@
+
+
+## Idea
+
+The _orthogonal calculus_ is a calculus of [[functors]] from [[vector spaces]] to [[homotopy types]],  similar to but different from the [[Goodwillie calculus]] of [[(infinity,1)-functors]].
+
+## References
+
+* [[David Barnes]], [[Rosona Eldred]], _Comparing the orthogonal and homotopy functor calculi_ ([arXiv:1505.05458](http://arxiv.org/abs/1505.05458))
+
