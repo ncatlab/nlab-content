@@ -31,13 +31,20 @@ $$
   (\mathcal{L} \dashv \mathcal{C})
   \;\colon\;
   dgLieAlg_k
-   \stackrel{\overset{\mathcal{L}}{\leftarrow}}{\underset{\mathcal{C}}{\to}}
+   \underoverset
+      {\underset{\mathcal{C}}{\longrightarrow}}
+      {\overset{\mathcal{L}}{\longleftarrow}}
+      {\bot}
   dgCoCAlg_k
 $$
 
-between the category of [[dg-Lie algebras]] (on unbounded [[chain complexes]]) and that of dg [[cocommutative coalgebras]], where the [[right adjoint]] sends a dg-Lie algebra $(\mathfrak{g}_\bullet, [-,-])$ to its "Chevalley-Eilenberg coalgebra", whose underlying coalgebra is the [[free graded co-commutative coalgebra]] on $\mathfrak{g}_\bullet$ and whose differential is given on the tensor product of two generators by the Lie bracket $[-,-]$.
+between the category of [[dg-Lie algebras]]and that of dg [[cocommutative coalgebras]], where the [[right adjoint]] sends a dg-Lie algebra $(\mathfrak{g}_\bullet, [-,-])$ to its [[Chevalley-Eilenberg algebras|Chevalley-Eilenberg coalgebra]], whose underlying coalgebra is the [[free graded co-commutative coalgebra]] on $\mathfrak{g}[1]$ and whose differential is given on the tensor product of two generators by the Lie bracket $[-,-]$.
 
 =--
+
+For (pointers to) the details, see at _[model structure on dg-Lie algebras -- Relation to dg-coalgebras](model%20structure%20on%20dg-Lie%20algebras#RelationToDgCoalgebras)_.
+
+
 
 
 +-- {: .num_theorem }
