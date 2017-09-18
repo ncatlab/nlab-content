@@ -108,6 +108,8 @@ Most varieties of [[constructive mathematics]] (including that in [[Errett Bisho
 
 [[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
+Assuming classical logic, but weak foundations, it can be shown that FTA is true in the [[reverse mathematics]] system $RCA_0$ ([Tanaka-Yamazaki 2005](#TY2005)).
+
 
 ## History
  {#History}
@@ -136,6 +138,12 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 {#Richman}
 
 * Michael Eisermann. _An Elementary Real-Algebraic Proof via Sturm Chains_. [pdf](http://www.jon-arny.com/httpdocs/Gauss/Constructive%20roots-annotated.pdf)
+
+The Reverse Mathematical treatment is given in
+
+* Kazuyuki Tanaka and Takeshi Yamazaki, _Manipulating the reals in $RCA_0$_ in _Reverse Mathematics 2001_, Lecture Notes in Logic **21** (2005)
+{#TK2005}
+
 
 A full formalization in the [[Coq]] [[proof assistant]] is in
 
