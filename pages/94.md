@@ -257,7 +257,11 @@ An $L_\infty$-algebra is a [[dg-coalgebra]] whose underlying [[coalgebra]] is co
 ### Reformulation in terms of semifree differential algebra 
  {#ReformulationInTermsOfSemifreeDGAlgebra}
 
-The reformulation of an $L_\infty$-algebra as simply a semi-co-free graded-co-commutative coalgebra $(\vee^\bullet \mathfrak{g}, D)$ is a useful repackaging of the original definition, but the coalgebraic aspect tends to be not only unfamiliar, but also a bit inconvenient. At least when the graded vector space $\mathfrak{g}$ is degreewise finite dimensional, we can simply pass to its degreewise dual graded vector space $\mathfrak{g}^*$. Its [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^*$ is then naturally equipped with an ordinary differential $d = D^*$ which acts on $\omega \in \wedge^\bullet \mathfrak{g}^*$ as
+The reformulation of an $L_\infty$-algebra as simply a semi-co-free graded-co-commutative coalgebra $(\vee^\bullet \mathfrak{g}, D)$ is a useful repackaging of the original definition, but the coalgebraic aspect tends to be not only unfamiliar, but also a bit inconvenient. At least when the graded vector space $\mathfrak{g}$ is degreewise [[finite number|finite]] [[dimension|dimensional]] , we can simply pass to its degreewise dual graded vector space $\mathfrak{g}^*$. 
+
+(Fully generally the following works when using not just dg-algebras but [[pro-objects]] in [[dg-algebras]], see at _[model structure for L-infinity algebras -- Use of pro-dg-algebras](model+structure+for+L-infinity+algebras#OnProAlg)_).
+
+Its [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^*$ is then naturally equipped with an ordinary differential $d = D^*$ which acts on $\omega \in \wedge^\bullet \mathfrak{g}^*$ as
 
 $$
   (d \omega) (t_1 \vee \cdots \vee t_n) =
