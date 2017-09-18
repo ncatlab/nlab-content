@@ -26,7 +26,7 @@
 
 The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] (notably [[Freund-Rubin compactifications]] and variants) yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_).
 
-Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
+In order for this to yield [[phenomenology|phenomenologically]] interesting effective physics the compactification space must be an [[orbifold]] (hence an orbifold of [[special holonomy]]), its [[stabilizer groups]] will encode the [[nonabelian group|nonabelian]] [[gauge group]] of the effective theory by "[[geometric engineering of quantum field theory]]" ([Acharya 98](#Acharya98), [Atiyah-Witten 01, section 6](#AtiyahWitten01)). Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
 
 ## Details
  {#G2Manifolds}
@@ -101,7 +101,7 @@ The [[KK-compactification]] of [[11d supergravity]] of [[fibers]] of [[special h
 
 Specifically [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]] ) goes back to
 
-* [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
 * [[Bobby Acharya]], _On Realising $N=1$ Super Yang-Mills in M theory_ ([arXiv:hep-th/0011089](http://arxiv.org/abs/hep-th/0011089))
 
