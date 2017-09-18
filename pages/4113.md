@@ -88,7 +88,7 @@ $$
 $$
 
 
-Recall that the smooth manifold $X$ is a [[normal topological space]] because it is a [[compact Hausdorff space]] by definition and [[compact Hausdorff spaces are normal]].  Therefore we may invoke the [[shrinking lemma]] to obtain yet another open cover with the same index set
+Recall that the smooth manifold $X$ is a [[normal topological space]], because it is a [[paracompact Hausdorff space]] by definition and [[paracompact Hausdorff spaces are normal]].  Therefore we may invoke the [[shrinking lemma]] to obtain yet another open cover with the same index set
 
 $$
   \left\{
@@ -101,7 +101,7 @@ with the property that
 $$  
   \underset{i \in I}{\forall}  
   \left(
-     V_i \subset Cl(U'_i) \subset U'_i \subset U_i
+     V_i \subset Cl(V_i) \subset U'_i \subset U_i
   \right)
   \,.
 $$
