@@ -19,7 +19,7 @@
 
 ## Definition
 
-A **polynomial monad** is a [[monad]] on a [[category]] $C$ whose underlying [[endofunctor]] is a [[polynomial functor]]. This is of course equivalent to being a monad in the [[bicategory]] of polynomial functors.
+A **polynomial monad** is a [[monad]] on a [[category]] $C$ whose underlying [[endofunctor]] is a [[polynomial functor]] and whose unit and multiplication are [[cartesian natural transformations]].  This is of course equivalent to being a monad in the [[bicategory]] of polynomial functors and cartesian transformations.
 
 ## Examples
 
@@ -27,9 +27,11 @@ A basic example is the free-monoid monad ([Gambino-Kock 09, Example 1.9](#Gambin
 
 One can construct the free monad on a polynomial endofunctor, and it is a polynomial monad.
 
-## Cartesian polynomial monads
+## Properties
 
-Since all polynomial functors preserve [[pullbacks]], a polynomial monad is a [[cartesian monad]] just when its unit and multiplication are [[cartesian natural transformations]].  But cartesian transformations between polynomial functors also have an explicit description: they are given by diagrams
+### Cartesianness
+
+Since all polynomial functors preserve [[pullbacks]], a polynomial monad is necessarily a [[cartesian monad]].  Note that cartesian transformations between polynomial functors also have an explicit description: they are given by diagrams
 $$ \array{
   & & X & \to & Y\\
   & \swarrow & & & & \searrow \\
@@ -37,11 +39,11 @@ $$ \array{
   & \nwarrow & & & & \nearrow \\
   & & X' & \to & Y'
   }$$
-in which the middle square is a pullback.  Thus, cartesian polynomials monad can be described very concretely.  This gives a convenient way to produce cartesian monads, and indeed very many cartesian monads arising in practice are in fact polynomial.  Cartesian polynomial monads have close relations with a number of other notions.
+in which the middle square is a pullback.  Thus, all the data of a polynomial monad can be described very concretely.  This gives a convenient way to produce cartesian monads, and indeed very many cartesian monads arising in practice are in fact polynomial.  Polynomial monads have close relations with a number of other notions.
 
 ### Relation to clubs
 
-Cartesian polynomial monads (on $C$ rather than a slice of it) are, in some sense, the most natural base monads for the theory of [[clubs]].  Although the club construction can be performed over any cartesian monad, if this monad is polynomial, then all clubs over it are also polynomial, since polynomial functors are a [[sieve]] with respect to cartesian transformations.  Moreover, the club monoidal structure can be seen as just an instance of the explicit construction of composition for polynomials (see 1.11 of ([Gambino-Kock](#GambinoKock09))).
+Polynomial monads (on $C$ rather than a slice of it) are, in some sense, the most natural base monads for the theory of [[clubs]].  Although the club construction can be performed over any cartesian monad, if this monad is polynomial, then all clubs over it are also polynomial, since polynomial functors are a [[sieve]] with respect to cartesian transformations.  Moreover, the club monoidal structure can be seen as just an instance of the explicit construction of composition for polynomials (see 1.11 of ([Gambino-Kock](#GambinoKock09))).
 
 ### Relation to generalized multicategories
 
@@ -53,14 +55,14 @@ $$ \array{
 }$$
 in which the *middle* square (only) is a pullback.  Suppose $W'=Z'=1$, so the bottom polynomial is determined by a single morphism $g':X'\to Y'$, and that $W=Z$.  Then to give the rest of the diagram is to give an object $Y$, a morphism $Y\to Z$, and a morphism $X' \times_{Y'} Y \to Z$.  By adjointness, the latter is equivalent to giving a morphism $Y\to \Pi_{g'}(Z\times X')$; but this codomain is just $T Z$, where $T$ is the polynomial functor determined by $g'$.
 
-Thus, a polynomial equipped with a cartesian transformation to $1 \leftarrow X' \to Y' \to 1$ is exactly a "$T$-span" such as arises in the theory of [[generalized multicategories]].  A similar argument shows that if $T$ is a cartesian polynomial monad, then the slice double category of $\underline{Poly}$ over $g'$ is equivalent to the double category of $T$-spans (a.k.a. the "horizontal Kleisli" double category).  Therefore, polynomial monads cartesianly-over $T$, being the horizontal monads in this double category, are precisely $T$-multicategories.  (Such polynomial monads on $C$ itself, rather than any slice, are the $T$-clubs mentioned above; in general a $T$-multicategory $T X_0 \leftarrow X_1 \to X_0$ is identified with the monad it induces on $C/X_0$.)
+Thus, a polynomial equipped with a cartesian transformation to $1 \leftarrow X' \to Y' \to 1$ is exactly a "$T$-span" such as arises in the theory of [[generalized multicategories]].  A similar argument shows that if $T$ is a polynomial monad, then the slice double category of $\underline{Poly}$ over $g'$ is equivalent to the double category of $T$-spans (a.k.a. the "horizontal Kleisli" double category).  Therefore, polynomial monads cartesianly-over $T$, being the horizontal monads in this double category, are precisely $T$-multicategories.  (Such polynomial monads on $C$ itself, rather than any slice, are the $T$-clubs mentioned above; in general a $T$-multicategory $T X_0 \leftarrow X_1 \to X_0$ is identified with the monad it induces on $C/X_0$.)
 
 
 ### Relation to object classifiers
 
-Cartesian polynomial monads have a natural interpretation in terms of [[object classifiers]].  Specifically, given any polynomial $1 \leftarrow B \xrightarrow{g} A \to 1$, generating a polynomial functor $P_{1,g,1}$, we can consider the class $S_g$ of all pullbacks of $g$.  A cartesian unit $Id \to P_{1,g,1}$ says that $id_1 : 1\to 1$ is a pullback of $g$, and therefore so are all identities.  Similarly, the composite $P_{1,g,1} \circ P_{1,g,1}$ involves the classifying object for a pair of composable $S_g$-morphisms, and so a cartesian multiplication $P_{1,g,1} \circ P_{1,g,1} \to P_{1,g,1}$ tells us that $S_g$ is closed under composition.
+Polynomial monads have a natural interpretation in terms of [[object classifiers]].  Specifically, given any polynomial $1 \leftarrow B \xrightarrow{g} A \to 1$, generating a polynomial functor $P_{1,g,1}$, we can consider the class $S_g$ of all pullbacks of $g$.  A cartesian unit $Id \to P_{1,g,1}$ says that $id_1 : 1\to 1$ is a pullback of $g$, and therefore so are all identities.  Similarly, the composite $P_{1,g,1} \circ P_{1,g,1}$ involves the classifying object for a pair of composable $S_g$-morphisms, and so a cartesian multiplication $P_{1,g,1} \circ P_{1,g,1} \to P_{1,g,1}$ tells us that $S_g$ is closed under composition.
 
-Thus, a cartesian polynomial monad (on $C \cong C/1$) can be regarded as a morphism $g$ together with a coherent way to make $S_g$ into a category.  More precisely, consider the slice category $Cart(C)/g$, where $Cart(C)$ is the category whose objects are morphisms of $C$ and whose morphisms are pullback squares.  This comes with source and target functors $Cart(C)/g \rightrightarrows C$.  To make $P_{1,g,1}$ into a cartesian polynomial monad is then equivalent to giving unit and composition functors enhancing $Cart(C)/g \rightrightarrows C$ to a [[double category]] such that the forgetful map $Cart(C)/g \to Cart(C)$ is a double functor.
+Thus, a polynomial monad (on $C \cong C/1$) can be regarded as a morphism $g$ together with a coherent way to make $S_g$ into a category.  More precisely, consider the slice category $Cart(C)/g$, where $Cart(C)$ is the category whose objects are morphisms of $C$ and whose morphisms are pullback squares.  This comes with source and target functors $Cart(C)/g \rightrightarrows C$.  To make $P_{1,g,1}$ into a polynomial monad is then equivalent to giving unit and composition functors enhancing $Cart(C)/g \rightrightarrows C$ to a [[double category]] such that the forgetful map $Cart(C)/g \to Cart(C)$ is a double functor.
 
 +--{: .standout}
 This claim could stand some independent verification.
@@ -74,9 +76,9 @@ Other interesting examples include:
 * The monad for cartesian strict monoidal categories on $Cat$: its $S_g$ consists of discrete fibrations with ordered finite fibers.
 * The monad for cocartesian strict monoidal categories on $Cat$: its $S_g$ consists of discrete opfibrations with ordered finite fibers.
 
-The class of discrete [[Conduche functors]] with ordered finite fibers is *almost* an example; it wants to be classified by the bicategory $FinSpan$ of spans between finite sets, but that is not an object of $Cat$.  Thus, a cartesian polynomial monad in $Cat$ determined by a discrete Conduche functor with ordered finite fibers is a reasonable substitute for the nonexistent notion of "$FinSpan$-club".
+The class of discrete [[Conduche functors]] with ordered finite fibers is *almost* an example; it wants to be classified by the bicategory $FinSpan$ of spans between finite sets, but that is not an object of $Cat$.  Thus, a polynomial monad in $Cat$ determined by a discrete Conduche functor with ordered finite fibers is a reasonable substitute for the nonexistent notion of "$FinSpan$-club".
 
-Identifying the classes of morphisms corresponding to standard cartesian polynomial monads like these also tells us how to identify when a polynomial monad is induced by a [[club]] (or more generally a [[generalized multicategory]]) over them: when the $g$ for that monad belongs to the appropriate class, compatibly.  For instance, if $S$ is the monad for cartesian strict monoidal categories, then a cartesian polynomial monad on $Cat$ is an $S$-club just when the morphism $g$ in its defining polynomial is a discrete fibration with ordered finite fibers, and its composition and unit respect that structure.
+Identifying the classes of morphisms corresponding to standard polynomial monads like these also tells us how to identify when a polynomial monad is induced by a [[club]] (or more generally a [[generalized multicategory]]) over them: when the $g$ for that monad belongs to the appropriate class, compatibly.  For instance, if $S$ is the monad for cartesian strict monoidal categories, then a polynomial monad on $Cat$ is an $S$-club just when the morphism $g$ in its defining polynomial is a discrete fibration with ordered finite fibers, and its composition and unit respect that structure.
 
 
 ## References
