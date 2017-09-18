@@ -318,7 +318,7 @@ A clean derivation of the [[Feynman rules]] for finite-dimensional spaces of fie
 
 with a review in the broader context of [[factorization algebras of observables]] in section 2.3 of 
 
-* [[Owen Gwilliam]], _Factorization algebras and free field theories_ ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ ([[GwilliamThesis.pdf:file]])
 
 ### As string diagrams (morphisms in monoidal categories)
  {#AsStringDiagrams}
