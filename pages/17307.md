@@ -1,3 +1,2 @@
-[[!redirects classical homotopy category]]
 
 > see at _[[Ho(Top)]]
