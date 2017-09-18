@@ -79,7 +79,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The [[geometric morphism]] $p : \mathcal{E} \to \mathcal{S}$ induces an $\mathcal{S}$-indexed geometric morphism (hence a geometric morphism [[internalization|internal to]] the [[slice 2-category]] [[Topos]]$/\mathcal{S}$ )
+The [[geometric morphism]] $p : \mathcal{E} \to \mathcal{S}$ induces an $\mathcal{S}$-indexed geometric morphism (hence a geometric morphism [[internalization|internal to]] the [[slice 2-category]] [[Topos]]$/\mathcal{S}$)
 
 $$
   \mathbb{p} : \mathbb{E} \to \mathbb{S}
