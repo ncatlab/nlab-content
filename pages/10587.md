@@ -5,7 +5,10 @@
 
 ## Idea
 
-The part of the [[complex plane]] of [[positive number|positive]] [[imaginary part]]  is often called the _[[upper half plane]]_, sometimes denoted $\mathfrak{H}$.
+The part of the [[complex plane]] of [[positive number|positive]] [[imaginary part]]  is often called the _[[upper half plane]]_, sometimes denoted 
+$\mathfrak{H}$.
+
+Accodingly the _lower half plane_ is the subset of complex numbers with negative imaginary part.
 
 
 
@@ -30,4 +33,11 @@ The part of the [[complex plane]] of [[positive number|positive]] [[imaginary pa
 
 [[!redirects upper half plane]]
 [[!redirects upper half planes]]
+
+[[!redirects lower half plane]]
+[[!redirects lower half planes]]
+
+
+[[!redirects lower half-plane]]
+[[!redirects lower half-planes]]
 
