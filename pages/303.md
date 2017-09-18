@@ -58,6 +58,7 @@ where $C(x, y)$ denotes the hom-object in $V$,
       }
     $$
 
+     $V$'s unit object $I$ and the family of identity [[generalized element |elements]] $J_i$ from it are defined in [[enriched category]].
 
 ## Properties
 
