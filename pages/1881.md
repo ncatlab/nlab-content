@@ -78,7 +78,7 @@ To be sure, meeting the solution set condition basically requires starting the c
 
 Another abstract approach is given in the following general theorem, which applies to more general [monoids in a monoidal category](http://ncatlab.org/nlab/show/monoid#in_a_monoidal_category_18): 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #monoid_in_monoidal}
 ###### Theorem 
 Suppose $C$ is a monoidal category with countable coproducts for which the tensor product distributes over countable coproducts (for example, a [[cocomplete category|cocomplete]] [[monoidal biclosed category]]). Then a left adjoint to the forgetful functor $Mon(C) \to C$ exists, taking an object $c$ to 
 $$\sum_{n \geq 0} c^{\otimes n},$$ 
@@ -107,7 +107,7 @@ The list monad bears the same relation to [[multicategories]] as the [[identity 
 
 Every definition of free monoid makes use of some form of [[axiom of infinity]], either $\mathbf{N}$ directly or the ability to form general inductive types.  Indeed, as $\mathbf{N} = pt^*$, the axiom of infinity follows from the existence of free monoids.
 
-In [[topos theory]] it is a theorem due to C. J. Mikkelsen that the existence of a [[natural number object]] is equivalent to the existence of free monoids:
+In [[topos theory]] the equivalent of the above theorem \ref{monoid_in_monoidal} is due to C. J. Mikkelsen:
 
 +-- {: .num_prop #free_monoids_in_topos}
 ###### Proposition
@@ -118,7 +118,9 @@ For a proof see Johnstone ([1977](#JT77),p.190).
 
 The existence of a natural number object is in turn crucial for the existence of [[classifying topos|classifying toposes]] over $\mathcal{E}$ due to a result by [[Andreas Blass|A. Blass]].
 
-So in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] all hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
+So in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] often hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
+
+Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ free [[graphic monoids]] exist.
 
 ## Stacks and queues
 
@@ -142,6 +144,8 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 ## Related concepts
 
 * [[classifying topos for the theory of objects]]
+
+* [[natural numbers object]]
 
 * [[arithmetic pretopos]]
 
