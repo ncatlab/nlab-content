@@ -1,0 +1,9 @@
+
+
+* [webpage](http://blogs.umass.edu/donoghue/)
+
+## related $n$Lab entries
+
+* [[effective field theory]], [[quantum gravity]]
+
+category: people
