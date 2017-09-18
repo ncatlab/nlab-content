@@ -41,7 +41,15 @@ Notice that for $t= 1$ this is also the [[anti de Sitter group]], the [[isometry
 
 ## References
 
+Textbook accounts include
+
 * {#Schottenloher08} [[Martin Schottenloher]], _The conformal group_, chapter 2 of _A mathematical introduction to conformal field theory_, 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/02_978-3-540-68625-5_Ch02_23-08-08.pdf))
+
+and (with an eye towards combination with [[spin geometry]])
+
+* [[Pierre Anglès]], _Conformal Groups in Geometry and Spin Structures_, Progress in Mathematical Physics 2008
+
+See also
 
 * Wikipedia, _[Conformal group](http://en.wikipedia.org/wiki/Conformal_group)_
 
