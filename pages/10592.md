@@ -11,6 +11,8 @@
 
 * [[geometric Langlands correspondence]]-conjecture
 
+* [[section conjecture]]
+
 ## Related concepts
 
 * [[folklore]]
