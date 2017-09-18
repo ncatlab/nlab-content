@@ -67,7 +67,7 @@ is a weak equivalence.
 
   this includes notably
 
-  * the standard [[model structure on simplicial sets]]
+  * the [[classical model structure on simplicial sets]]
 
   * the [[model structure for quasi-categories]]
 
@@ -111,9 +111,9 @@ But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _
 
 Model categories which are both left and right proper include
 
-* [[Top]]: [[Quillen model structure on topological spaces]]
+* [[Top]]: [[classical model structure on topological spaces]]
 
-* [[sSet]]: [[Quillen model structure on simplicial sets]]
+* [[sSet]]: [[classical model structure on simplicial sets]]
 
 * The _global_ [[model structure on simplicial presheaves]] and any local such model structure over a site with [[point of a topos|enough points]] and weak equivalences the [[stalk]]wise weak equivalences.
 
@@ -146,7 +146,7 @@ This is theorem 2.18 in
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $T$ be a simplicial (possibly multi-colored) [[theory]], and let $T Alg$ be the corresponding category of simplicial T-algebras. This carries a model category structure where the fibrations and weak equivalences are those of the underlying simplicial sets in the standard [[model structure on simplicial sets]]. 
+Let $T$ be a simplicial (possibly multi-colored) [[theory]], and let $T Alg$ be the corresponding category of simplicial T-algebras. This carries a model category structure where the fibrations and weak equivalences are those of the underlying simplicial sets in the [[classical model structure on simplicial sets]]. 
 
 Then there exists a morphism of simplicial theories $T \to S$ such that
 
