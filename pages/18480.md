@@ -28,7 +28,7 @@ $\,$
 
 ## Idea
 
-In combinatorics, a **digraph** (a shortening of *directed graph*)  consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. 
+In combinatorics, a **digraph** (a shortening of *[[directed graph]]*)  consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. 
 The irreflexivity condition means there is never an edge from a node to itself. 
 
 ## Definition and basic notions  
@@ -552,7 +552,7 @@ The definition which is strictly relevant to the present article is Power's. He 
 * Manfred Weis (https://mathoverflow.net/users/31310/manfred-weis), Calculating Cost-Optimal 1-Factors in Digraphs, URL (version: 2017-07-26): https://mathoverflow.net/q/277288
 {#MO277288}
 
-* [[James R. Munkres]]: _Topology_, Prentice Hall. Second Edition (2000) 
+* [[James Munkres]]: _Topology_, Prentice Hall. Second Edition (2000) 
 {#Munkres2000}
 
 
