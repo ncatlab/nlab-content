@@ -1,34 +1,21 @@
 $$
-  \array{
-    (Top^{\ast/}_{cg})_{Quillen}
-      &
-      \underoverset
-       {\underset{\Omega}{\longrightarrow}}
-       {\overset{\Sigma}{\longleftarrow}}
-       {\bot}
-      &
-    (Top^{\ast/}_{cg})_{Quillen}
+   \array{
+      \mathcal{C}_c \times \mathcal{C}_c 
+        &=&  
+      \mathcal{C}_c \times \mathcal{C}_c 
+        &\overset{(-)\otimes (-)}{\longrightarrow}& 
+      \mathcal{C}
+      \\
+     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C}}}}\downarrow
+     &&
+    {}^{\mathllap{\gamma_{\mathcal{C}} \times \gamma_{\mathcal{C}}}}\downarrow 
+      &\swArrow_\simeq& 
+     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
-    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
-      &&
-    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}} 
-    \\
-    SeqSpec(Top_{cg})_{strict}
-     &
-      \underoverset
-       {\underset{\Omega}{\longrightarrow}}
-       {\overset{\Sigma}{\longleftarrow}}
-       {\bot}
-     &
-    SeqSpec(Top_{cg})_{strict}
-    \\       
-    {}^{\mathllap{dia_!}}\downarrow \dashv \uparrow^{\mathrlap{dia^\ast}}
-      &&
-    {}^{\mathllap{dia_!}}\downarrow \dashv \uparrow^{\mathrlap{dia^\ast}}
-    \\
-    \mathbb{S}_{dia}Mod_{strict}
-      &&
-    \mathbb{S}_{dia}Mod_{strict}
-  }
-  \,.
+    Ho(\mathcal{C} \times \mathcal{C})
+    &\simeq&
+   Ho(\mathcal{C})\times Ho(\mathcal{C})
+    &\underset{(-)\otimes^L (-)}{\longrightarrow}&
+   Ho(\mathcal{C})
+   }
 $$
