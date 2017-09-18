@@ -40,3 +40,6 @@
 ## References
 
 * Wikipedia, _[Particle physics](https://en.wikipedia.org/wiki/Particle_physics)_
+
+* Mark Thomson, _[Particle physics](http://www.hep.phy.cam.ac.uk/~thomson/partIIIparticles/welcome.html)_ handouts
+
