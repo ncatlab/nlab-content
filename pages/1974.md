@@ -429,7 +429,7 @@ is called the _[[topological K-theory]]_ group of $X$.
 $\,$
 
 
-## Of stable $\infty$-categoris
+## Of stable $\infty$-categories
  {#OfStableCategories}
 
 Fundamentally a Grothendieck group is something assigned to a [[stable (∞,1)-category]]. It is the group structure 
