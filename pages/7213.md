@@ -115,7 +115,7 @@ The [[E11]]-geometry of 11-dimensional supergravity compactified to the point is
 
 * [[Peter West]], _Generalised geometry, eleven dimensions and E11_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 
-The generalized-U-duality+diffeomorphsim invariance in 11d is discussed in
+The generalized-U-duality+diffeomorphism invariance in 11d is discussed in
 
 * [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], Daniel C. Thompson, _The gauge structure of generalised diffeomorphisms_ ([arXiv:1208.5884](http://arxiv.org/abs/1208.5884))
 
