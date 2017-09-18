@@ -1,0 +1,12 @@
+[[!redirects Ioan Mackenzie James]]
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Ioan_James)
+
+## related $n$Lab entries
+
+* [[EHP spectral sequence]]
+
+* [[Handbook of Algebraic Topology]]
+
+category: people
