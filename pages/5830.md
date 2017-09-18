@@ -298,6 +298,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[directed homotopy type theory]]
 
+  [[opetopic type theory]]
+
 [[!include homotopy n-types - table]]
 
 
