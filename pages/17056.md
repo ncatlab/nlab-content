@@ -12,6 +12,8 @@
 
   * [[jet (∞,1)-category]]
 
+  * [[polynomial (∞,1)-functor]]
+
 * [[Goodwillie-Taylor tower]]
 
   * [[analytic (∞,1)-functor]]
