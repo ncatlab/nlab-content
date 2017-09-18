@@ -1,0 +1,29 @@
+[[!redirects Timaeus]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+This page collects material related to
+
+* [[Plato]]
+
+  _Timaeus_
+
+## Related entries
+
+* [[Parmenides dialogue]]
+
+## Reference
+
+* Stanford Encyclopedia of Philosophy, _[Plato's Timaeus](http://plato.stanford.edu/entries/plato-timaeus/)_
+
+* Wikipedia, _[Timaeus (dialogue)](https://en.wikipedia.org/wiki/Timaeus_(dialogue)_
+
+category: references
