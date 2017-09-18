@@ -81,8 +81,15 @@ $$f\left(\bigcap_{i \in I} S_i\right) \subseteq \bigcap_{i \in I} f(S_i)$$
 
 because this is equivalent to $(\forall_{i \in I})\; f\left(\bigcap_{i \in I} S_i\right) \subseteq f(S_i)$, which is obvious because for all $i \in I$, we have $\bigcap_{i \in I} S_i \subseteq S_i$, and $f(A) \subseteq f(B)$ if $A \subseteq B$. 
 
-If $f: X \to Y$ is injective, then the map $q: X \to f(X)$ onto the image of $f$ is a bijection, i.e., has an inverse $g: f(X) \to X$, making the direct image map 
-$\exists_f: P(X) \to P(f(X)): S \mapsto f(S)$ also invertible (with inverse $\exists_g$). But isomorphisms of posets preserve unions and intersections, 
+If $f: X \to Y$ is injective, then the direct image operator $S \mapsto f(S)$ preserves intersections of subsets $(S_i)_{i \in I}$ indexed over *nonempty* sets  
+$I$. This is not hard to check directly. A slightly more categorial rendering might go as follows: 
+
+* Factoring $f$ into an surjective map $q: X \to f(X)$ onto the [[image]] followed by an inclusion $i: f(X) \hookrightarrow Y$, the map $q: X \to f(X)$ is a bijection, i.e., has an inverse $g: f(X) \to X$, making the direct image map 
+$\exists_f: P(X) \to P(f(X)): S \mapsto f(S)$ also invertible (with inverse $\exists_g$). But isomorphisms of posets preserve unions and intersections, so $\exists_q$ preserves intersections. 
+
+* For an injective map like $i: f(X) \to Y$, we have $S = i^{-1}(i(S))$, or in other words $i^\ast \exists_i: P(f(X)) \to P(f(X))$ is the identity. Thus  
+$$\exists_f = \exists_{i q} = \exists_i \exists_q ...$$ 
+(to be continued). 
 
 
 ### Inverse images preserve unions, codirect images preserve intersections 
@@ -95,7 +102,7 @@ which is analogous to the formula $\exists_f(S) = f(S) = \{y \in Y: (\exists_{x:
 
 $$f^{-1}(T) \subseteq U \qquad iff \qquad T \subseteq \forall_f (U)$$ 
 
-The same adjointness proof as used to prove property 1., then shows that the inverse image operator $f^{-1} = f^\ast: P(Y) \to P(X)$ preserves unions, and also by the way that the "codirect image" operator $\forall_f: P(X) \to P(Y)$ preserves intersections. 
+The same adjointness proof as used to prove property 1., then shows that the left adjoint part which here is the inverse image operator $f^{-1} = f^\ast: P(Y) \to P(X)$ preserves unions, and that right adjoint part which here is the "codirect image" operator $\forall_f: P(X) \to P(Y)$ preserves intersections. 
 
 +-- {: .num_remark #MoreJargon}
 ###### Remark
