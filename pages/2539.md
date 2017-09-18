@@ -30,7 +30,8 @@ One implication is that [[topological vector bundles]] over a topological space 
 
 ## Statement 
 
-### For topological spaces
+### For continuous functions
+ {#ForContinuousFunctions}
 
 
 +-- {: .num_theorem}
@@ -75,7 +76,7 @@ $$
   \,.
 $$
 
-Consider then the subsets 
+Consider then the [[pre-image]] subsets 
 
 $$
   S_- \coloneqq \left( f - \hat f_n\vert_A \right)^{-1}\big( [-c_n, -c_n/3] \big) 
@@ -86,7 +87,7 @@ $$
 
 Since the [[closed intervals]] $[-c_n,-c_n/3], [c_n/3, c_n] \subset \mathbb{R}$ are [[closed subsets]], and since $f - \hat f_n\vert_A$ is a [[continuous function]], these are [[closed subsets]] of $A$. Moreover, since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]], these are also closed subsets of $X$.
 
-Therefore, since $X$ is [[normal topological space|normal]] by assumption, it follows by [[Urysohn's lemma]] that there is a continuous function
+Therefore, since $X$ is [[normal topological space|normal]] by assumption,  follows [[Urysohn's lemma]] that there is a continuous function
 
 $$
   \phi \;\colon\; X \longrightarrow \mathbb{R}
@@ -110,39 +111,39 @@ $$
 Consider then the continuous function
 
 $$
-  g
+  g_{n+1}
     \;\coloneqq\;
-  \tfrac{2 c}{3} \phi
-  - \tfrac{c}{3}
+  \tfrac{2 c_n}{3} \phi
+    - 
+  \tfrac{c_n}{3}
 $$
 
-with 
+This now satisfies
 
 $$
-  \underset{x \in X}{\forall} \left( -\frac{c_n}{3} \leq g(x) \leq \frac{c_n}{3} \right)
-$$
-
-and
-
-$$
-  \phi\vert_{S_+} = \frac{c_n}{3}
+  g_{n+1}\vert_{S_+} = \frac{c_n}{3}
   \phantom{AAAA}
-  \phi\vert_{S_-} = -\frac{c_n}{3}
+  g_{n+1}\vert_{S_-} = -\frac{c_n}{3}
   \,.
 $$
 
+with
 
 $$
-  \underset{x \in X}{\forall} \left( -\tfrac{c}{3} \leq g (x) \leq \tfrac{c}{3} \right)
+  \underset{x \in X}{\forall} \left( 
+    \left \Vert g_{n+1} (x) \right\Vert 
+     \leq 
+    \tfrac{c_n}{3}
+  \right)
   \,.
 $$
 
-Moreover, this function satisfies
+Moreover, observe that this function satisfies
 
 $$
  \underset{a \in A}{\forall} 
  \left(
-    \left\Vert f - \hat f_n(a) - g(a)  \right\Vert
+    \left\Vert f - \hat f_n(a) - g_{n+1}(a)  \right\Vert
     \leq \tfrac{2 c_n}{3}
  \right)
  \,.
@@ -150,17 +151,17 @@ $$
 
 To wit, this is because
 
-1. for $a \in S_+$ we have $g(a) = \tfrac{c_n}{3}$ and $f(a) + \hat f(a) \in [c_n/3,c_n]$;
+1. for $a \in S_+$ we have $g_{n+1}(a) = \tfrac{c_n}{3}$ and $f(a) - \hat f_{n}(a) \in [c_n/3,c_n]$;
 
-1. for $a \in S_-$ we have $g(a) = -\tfrac{c_n}{3}$ and $f(a) + \hat f(a) \in [-c_n/3,-c_n]$;
+1. for $a \in S_-$ we have $g_{n+1}(a) = -\tfrac{c_n}{3}$ and $f(a) - \hat f_{n}(a) \in [-c_n/3,-c_n]$;
 
-1. for $a \in Y \setminus \{S_+ \cup S_-\}$ we have $g(a) \in [-c_n/3,c_n3]$ as well as $f(a) + \hat f_n(a) \in [-c_n/3, c_n/3]$.
+1. for $a \in Y \setminus \{S_+ \cup S_-\}$ we have $g(a) \in [-c_n/3,c_n3]$ as well as $f(a) - \hat f_{n}(a) \in [-c_n/3, c_n/3]$.
 
 
 It follows that if we set
 
 $$
-  \hat f_{n+1} \coloneqq \hat f_n + g
+  \hat f_{n+1} \coloneqq \hat f_n + g_{n+1}
 $$
 
 then
@@ -196,21 +197,36 @@ $$
   \underset{a \in A}{\forall} 
   \left(
     \left\Vert f(a) -\hat f_n(a) \right\Vert
-    \leq \left( \tfrac{2}{3}\right)^n c
+    \leq \left( \tfrac{2}{3}\right)^n c_0
   \right)
   \,.
 $$
 
-Moreover, by construction the sequence satisfies
+Moreover, for $n_1, n_2 \in \mathbb{N}$ with $n_2 \geq n_1$ and $x \in X$ we have 
 
 $$
-  ,,,
+  \hat f_{n_2}(x) - \hat f_{n_1}(x)
+  = 
+  g_{n_1 + 1}(x) + g_{n_1 + 2}(c) + \cdots + g_{n_2}(x)
+  \leq
+  \sum_{k = n_1+1}^n_2 \tfrac{1}{3^{k}} c_0
+  \leq
+  \sum_{k = n_1+1}^\infty \tfrac{1}{3^{k}} c_0
 $$
+
+Since the [[geometric series]] $\sum_{k = 0}^\infty 1/3^k$ converges, this becomes arbitrarily small for large $n_1$. 
+
+This means that the sequence $(\hat f_{n+1})_{n\in \mathbb{N}}$ is a [[Cauchy sequence]] in the [[supremum norm]] for real-valued functions.
+
+Since uniform Cauchy sequences of continuous functions with values in a [[complete space|complete]] [[metric space]] [[uniform convergence|converge uniformly]] to a [[continuous function]] ([this prop.](uniform+convergence#FunctionsUniformCauchySequence)) this implies that the sequence [[uniform convergence|converges uniformly]] to a [[continuous function]]. By construction, this is an extension as required.
+
+Finally consider the case that $f$ is not a [[bounded function]]. In this case consider any [[homeomorphism]] $\phi \colon \mathbb{R}^1 \overset{\simeq}{\to} (-c_0,c_0) \subset \mathbb{R}^1$ between the [[real line]] and an [[open interval]] Then $\phi \circ f$ is a continous function bounded by $c_0$ and hence the above argument gives an extension $\widehat {\phi \circ f}$. Then $\phi^{-1} \circ \widehat{ \phi \circ f }$ is an extension of $f$.
 
 
 =--
 
-### For smooth manifolds {#Manifolds}
+### For smooth functions 
+ {#Manifolds}
 
 See _[[Whitney extension theorem]]_, also _[[Steenrod-Wockel approximation theorem]]_.
 
