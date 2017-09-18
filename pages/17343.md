@@ -341,11 +341,11 @@ $$
 $$
 
 
-If $g$ is an inclusion, one also writes $X \cup_f Y$ and calls this the _attaching space_.
+If $g$ is an inclusion, one also writes $X \cup_f Y$ and calls this the _[[attaching space]]_.
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
 
-By example \ref{CoequalizerInTop} the pushout/attaching space is the [[quotient topological space]]
+By example \ref{CoequalizerInTop} the [[pushout]]/[[attaching space]] is the [[quotient topological space]]
 
 $$
   X \sqcup_A Y \simeq (X\sqcup Y)/\sim
@@ -1057,7 +1057,7 @@ $$
 
 ### Cell complexes
 
-We consider topological spaces that are built consecutively by attaching basic cells.
+We consider topological spaces that are built consecutively by [[attaching space|attaching]] basic cells.
 
 +-- {: .num_defn #TopologicalGeneratingCofibrations}
 ###### Definition
@@ -1082,7 +1082,7 @@ for the set of canonical [[boundary]] inclusion maps of the standard [[n-disks]]
 +-- {: .num_defn #TopologicalCellComplex}
 ###### Definition
 
-For $X \in Top$ and for $n \in \mathbb{N}$, an **$n$-cell attachment** to $X$ is the [[pushout]] ("attaching space", example \ref{PushoutInTop}) of a generating cofibration, def. \ref{TopologicalGeneratingCofibrations}
+For $X \in Top$ and for $n \in \mathbb{N}$, an **$n$-cell attachment** to $X$ is the [[pushout]] ("[[attaching space]]", example \ref{PushoutInTop}) of a generating cofibration, def. \ref{TopologicalGeneratingCofibrations}
 
 $$
   \array{
@@ -1096,7 +1096,7 @@ $$
 
 along some [[continuous function]] $\phi$.
 
-A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell attachments to $X$, in that it is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] (example \ref{PushoutInTop})
+A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell [[attaching space|attachments]] to $X$, in that it is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] (example \ref{PushoutInTop})
 
 $$
   \array{
@@ -1210,7 +1210,7 @@ Observe then that for $(\beta_s, U_s)_{s\in S}$ a chain in $(T,\lt)$ (a subset o
 
 Hence it is now sufficient to show that $\beta_{max} = \gamma$. We argue this by showing that assuming $\beta_{\max}\lt \gamma$ leads to a contradiction.
 
-So assume $\beta_{max}\lt \gamma$. Then to construct an  element of $T$ that is larger than $(\beta_{max},U_{max})$, consider for each cell $d$ at stage $Y_{\beta_{max}+1}$ its attaching map $h_d \colon S^{n-1} \to Y_{\beta_{max}}$ and the corresponding preimage open set $h_d^{-1}(U_{max})\subset S^{n-1}$. Enlarging all these  preimages to open subsets of $D^n$ (such that their image back in $X_{\beta_{max}+1}$ does not contain $c$), then $(\beta_{max}, U_{max}) \lt (\beta_{max}+1, \cup_d U_d )$. This is a contradiction. Hence $\beta_{max} = \gamma$, and we are done.
+So assume $\beta_{max}\lt \gamma$. Then to construct an  element of $T$ that is larger than $(\beta_{max},U_{max})$, consider for each cell $d$ at stage $Y_{\beta_{max}+1}$ its [[attaching map]] $h_d \colon S^{n-1} \to Y_{\beta_{max}}$ and the corresponding preimage open set $h_d^{-1}(U_{max})\subset S^{n-1}$. Enlarging all these  preimages to open subsets of $D^n$ (such that their image back in $X_{\beta_{max}+1}$ does not contain $c$), then $(\beta_{max}, U_{max}) \lt (\beta_{max}+1, \cup_d U_d )$. This is a contradiction. Hence $\beta_{max} = \gamma$, and we are done.
 
 =--
 
@@ -1270,7 +1270,7 @@ $$
   \,.
 $$
 
-Assume then that the cylinder over all $n$-cells of $X$ has been erected using attachment from $J_{Top}$. Then the union of any $(n+1)$-cell $\sigma$ of $X$ with the cylinder over its boundary is homeomorphic to $D^{n+1}$ and is like the cylinder over the cell "with end and interior removed". Hence via attaching along $D^{n+1} \to D^{n+1}\times I$ the cylinder over $\sigma$ is erected.
+Assume then that the cylinder over all $n$-cells of $X$ has been erected using attachment from $J_{Top}$. Then the union of any $(n+1)$-cell $\sigma$ of $X$ with the cylinder over its boundary is homeomorphic to $D^{n+1}$ and is like the cylinder over the cell "with end and interior removed". Hence via [[attaching space|attaching]] along $D^{n+1} \to D^{n+1}\times I$ the cylinder over $\sigma$ is erected.
 
 =--
 
@@ -1298,7 +1298,7 @@ $$
   }
 $$
 
-such that the map on the right is the inclusion of one hemisphere into the [[boundary]] [[n-sphere]] of $D^{n+1}$. This inclusion is the result of attaching two cells:
+such that the map on the right is the inclusion of one hemisphere into the [[boundary]] [[n-sphere]] of $D^{n+1}$. This inclusion is the result of [[attaching space|attaching]] two cells:
 
 $$
   \array{
@@ -5294,7 +5294,7 @@ We describe the proof informally. It is immediate how to turn this into a formal
 
 So let $X_0 \to X_1 \to X_2\to \cdots \to X$ be a presentation of $X$ as a CW-complex. Proceed by induction on the cell dimension.
 
-First observe that the cylinder $X_0 \times I$ over $X_0$ is a cell complex: First $X_0$ itself is a disjoint union of points. Adding a second copy for every point (i.e. attaching along $S^{-1}\to D^0$) yields $X_0 \sqcup X_0$, then attaching an inteval between any two corresponding points (along $S^0 \to D^1$) yields $X_0 \times I$.
+First observe that the cylinder $X_0 \times I$ over $X_0$ is a cell complex: First $X_0$ itself is a disjoint union of points. Adding a second copy for every point (i.e. [[attaching space|attaching]] along $S^{-1}\to D^0$) yields $X_0 \sqcup X_0$, then attaching an inteval between any two corresponding points (along $S^0 \to D^1$) yields $X_0 \times I$.
 
 So assume that for $n \in \mathbb{N}$ it has been shown that $X_n \times I$ has the structure of a CW-complex of dimension $(n+1)$. Then for each cell of $X_{n+1}$, attach it _twice_ to $X_n \times I$, once at $X_n \times \{0\}$, and once at $X_n \times \{1\}$.
 
@@ -9295,7 +9295,7 @@ The same kind of argument also shows that if $B$ has the structure of a [[cell c
 +-- {: .num_example #StandardTopologicalMappingConeIsHomotopyCofiber}
 ###### Example
 
-For every [[continuous function]] $f \colon X \longrightarrow Y$ between [[CW-complexes]], def. \ref{TopologicalCellComplex}, then the standard topological mapping cone is the attaching space (example \ref{PushoutInTop})
+For every [[continuous function]] $f \colon X \longrightarrow Y$ between [[CW-complexes]], def. \ref{TopologicalCellComplex}, then the standard topological mapping cone is the [[attaching space]] (example \ref{PushoutInTop})
 
 $$
   Y \cup_f Cone(X) \;\; \in Top
