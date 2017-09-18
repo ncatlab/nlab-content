@@ -32,7 +32,7 @@ The [[classical model structure on simplicial sets]], $sSet_{Quillen}$, has the 
 
 * The **cofibrations** $C$ are simply the [[monomorphism]]s $f : X \to Y$ which are precisely the levelwise injections, i.e. the morphisms of simplicial sets such that $f_n : X_n \to Y_n$ is an injection of sets for all $n \in \mathbb{N}$.
 
-* The **weak equivalences** $W$ are **weak homotopy equivalences**, i.e., morphisms whose [[simplicial set|geometric realization]] is a weak homotopy equivalence of topological spaces.
+* The **weak equivalences** $W$ are **weak homotopy equivalences**, i.e., morphisms whose [[geometric realization]] is a weak homotopy equivalence of topological spaces.
 
 =--
 
