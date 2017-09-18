@@ -41,14 +41,37 @@ This is the structure to which the [[cobordism hypothesis]] applies. Of course t
 
 
 ## References
+ {#References}
 
 Opetopic type theory is due to
 
 * {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html)  ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
 
-* [[Eric Finster]], _[Opetope!](http://sma.epfl.ch/~finster/opetope/opetope.html)_ (online opetopic type theory system)
-
 This builds on a result in
 
 * [[Thorsten Palm]], ...
+
+Exposition of the higher dimensional [[string diagram]]-notation for opetopes is in 
+
+* [[Eric Finster]], _Opetopic Diagrams 1 - Basics_ ([video](http://www.youtube.com/watch?v=OANwLohwJqk))
+
+* [[Eric Finster]], _Opetopic Diagrams 2 - Geometry_ ([video](http://www.youtube.com/watch?v=E7OvuA1jRKM))
+
+A computer [[proof assistant]] for working with opetopic type theory is 
+
+* [[Eric Finster]], _Orchard_ ([GitHub repository](https://github.com/ericfinster/orchard))
+
+An online demo version is at
+
+* [[Eric Finster]], _[Opetope!](http://sma.epfl.ch/~finster/opetope/opetope.html)_ (online opetopic type theory system)
+
+A video tutorial for Orchard is 
+
+* [[Eric Finster]], _Orchard 1 - Introduction_ ([video](http://www.youtube.com/watch?v=sEVJJCwohW0&list=PLWAw3zSOqFVKZ-LzAq4hQaKIVj8zjtfCs))
+
+* [[Eric Finster]], _Orchard 2 - Modifying the shape_ ([video](http://www.youtube.com/watch?v=sEVJJCwohW0&list=PLWAw3zSOqFVKZ-LzAq4hQaKIVj8zjtfCs))
+
+* [[Eric Finster]], _Orchard 3 - Composition and associativity_ ([video](http://www.youtube.com/watch?v=Vxnf_3Bxj2o&index=5&list=PLWAw3zSOqFVKZ-LzAq4hQaKIVj8zjtfCs))
+
+* [[Eric Finster]], _Orchard 4 - Identities and invertibility_ ([video](http://www.youtube.com/watch?v=DRFjUSaNexQ&list=PLWAw3zSOqFVKZ-LzAq4hQaKIVj8zjtfCs&index=6))
 
