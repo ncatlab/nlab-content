@@ -157,6 +157,7 @@ The following naming conventions for new entries are not set in stone, but we\'r
   * Examples: Use `[[category]]` instead of `[[categories]]`, `[[faithful functor]]` instead of `[[faithful]]`, and `[[categorification]]` instead of `[[categorify]]` or `[[categorified]]`.
   * Tricks: To produce '[[category|categories]]', try `[[category|categories]]`. To produce '[[faithful functor|faithful]] [[endofunctor]]', try `[[faithful functor|faithful]] [[endofunctor]]`.  Again, you can use redirects to make `[[categories]]` produce '[[categories]]', if the page already exists.  See also [[Note on Formatting]].
   * Reason: We want only one page on a given concept, regardless of variations in grammar.
+  * Exception: Recently we have started to have page titles that are complete sentences (without capitalization or punctuation) that state a simple theorem (typically a universal affirmation in the Aristotelian sense) such as [[compact Hausdorff rings are profinite]] or [[derivations of smooth functions are vector fields]].
 
 * Page titles should be uncapitalized, except for word words that are always capitalized.
   * Examples: Use `[[homotopy theory]]` instead of `[[Homotopy Theory]]`, but use `[[Lie algebra]]`.
