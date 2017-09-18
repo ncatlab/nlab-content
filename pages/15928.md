@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -26,8 +25,9 @@
 
 A [[reflective sub-(infinity,1)-category|reflective]] sub-[[universe]]. If closed under [[dependent sum]], then this is the universe of [[modal types]] for a [[modal operator]].
 
-## Definition
+For the relation to [[modal type theory]] see [Rijke, Shulman, Spitters](#RSS).
 
+## Definition
 
 +-- {: .num_defn}
 ###### Definition
@@ -51,3 +51,5 @@ A [[reflective sub-(infinity,1)-category|reflective]] sub-[[universe]]. If close
 ## References
 
 * {#HoTTBook} [Univalent Foundations Project](http://ncatlab.org/nlab/show/UF-IAS-2012), section 7.7 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ [arXiv](https://arxiv.org/abs/1706.07526)
