@@ -1,3 +1,4 @@
+[[!redirects co-Kleisli category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,7 +21,7 @@
 ## Idea
 
 
-[[formal dual|Formally dually]] to how a [[monad]] has a [[Kleisli category]] so a [[comonad]] $P \colon \mathcal{C}\to\mathcal{C}$ has a co-Kleisli category: its [[objects]] are the objects of $\mathcal{C}$, a [[morphism]] $f \colon c_1 \to c_2$ in the co-Kleisli category is a morphism
+[[formal dual|Formally dually]] to how a [[monad]] has a [[Kleisli category]] so also a [[comonad]] $P \colon \mathcal{C}\to\mathcal{C}$ has a (co-)Kleisli category: its [[objects]] are the objects of $\mathcal{C}$, a [[morphism]] $f \colon c_1 \to c_2$ in the co-Kleisli category is a morphism
 
 $$
   \tilde f \colon P(c_1) \longrightarrow c_2
@@ -42,6 +43,11 @@ $$
 * For an [[idempotent comonad]] the co-Kleisli category is the [[coreflective subcategory]] of its [[modal types]].
 
 * For $P= Jet$ a [[jet comonad]], then morphisms in its coKleisli category are [[differential operators]].
+
+## Related concepts
+
+* [[monad (computer science)]]
+
 
 [[!redirects co-Kleisli categories]]
 [[!redirects coKleisli category]]
