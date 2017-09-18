@@ -8465,16 +8465,31 @@ $$
   \,,
 $$
 
-This follows due to the existence of a [[Milnor exact sequence]] of the form
+This follows due to the existence of the [[Milnor exact sequence|Milnor]] [[short exact sequence]] of the form
 
 $$
+  0 
+    \to
   \underset{\longleftarrow}{\lim}^1_n E^{-1}( \Sigma^{-2n} M U_{2n} )
     \longrightarrow
   E^0(M U) 
     \longrightarrow 
   \underset{\longleftarrow}{\lim}_n E^0( \Sigma^{-2n} M U_{2n} )
-  \,.
+    \to 
+  0
 $$
+
+([prop.](lim^1+and+Milnor+sequences#CohomologyOfSpectraMilnorSequence)).
+
+Here the [[Mittag-Leffler condition]] is clearly satisfied, and hence the [[lim^1]]-terms vanishe, so that the canonical morphism
+
+$$
+  E^0(M U) 
+    \overset{\simeq}{\longrightarrow}
+  \underset{\longleftarrow}{\lim}_n E^0( \Sigma^{-2n} M U_{2n} )
+$$
+
+is an isomorphism. This says that two homotopy classes of morphisms $M U \to E$ are equal precisely already if all their component morphisms are homotopic.
 
 
 
