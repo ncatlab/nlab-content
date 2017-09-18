@@ -18,20 +18,68 @@
 
 A _simplicial Lie algebra_ is a [[simplicial object]] in the [[category]] of [[Lie algebra]]s.
 
+## Definition
+
++-- {: .num_defn #CategoryOfSimplicialLieAlgebras}
+###### Definition
+
+Let $k$ be a [[field]]. Write $LieAlg_k$ for the [[category]] of [[Lie algebras]] over $k$. Then the category of _simplicial Lie algebras_ is the category $(LieAlg_k)^{\Delta^{op}}$ of [[simplicial objects]] in Lie algebras.
+
+=--
+
++-- {: .num_defn #dgLieAlgebraOfASimplicialLieAlgebra}
+###### Definition
+
+Let $(\mathfrak{g}, [-,-]$ be a simplicial Lie algebra according to def. \ref{CategoryOfSimplicialLieAlgebras}. Then the [[normalized chains complex]] $N \mmathfrak{g}$ of the underlying [[simplicial abelian group]] becomes a [[dg-Lie algebra]] by equipping it with the [[Lie bracket]] given by the following [[composition|composite]] morphisms
+
+$$
+  [-,-]_{N \mathfrak{g}}
+  \;\;
+  (N \mathfrak{g}) \otimes_k (N \mathfrak{g})
+    \overset{\nabla}{\longrightarrow}
+  N (\mathfrak{g} \otimes_k \mathfrak{g})
+    \overset{N([-,-])}{\longrightarrow}
+  N (\mathfrak{g})
+$$
+
+where the first morphism is the [[Eilenberg-Zilber map]].
+
+This construction extends to a [[functor]]
+
+$$
+  N 
+    \;\colon\;
+  LieAlg_k^{\Delta^{op}}
+    \longrightarrow
+  dgLieAlg_k
+$$
+
+from simplical Lie algebras to [[dg-Lie algebras]].
+
+=--
+
+([Quillen 69, (4.3)](#Quillen69))
+
+
 ## Properties
  {#Properties}
 
 +-- {: .num_theorem}
 ###### Theorem
 
-There is an [[adjunction]]
+The functor $N$ from simplicial Lie algebras to dg-Lie algebras from def. \ref{dgLieAlgebraOfASimplicialLieAlgebra} has a [[left adjoint]] 
 
 $$
-  (N^* \dashv N) : LieAlg_k^\Delta \stackrel{\overset{N^*}{\leftarrow}}{\underset{N}{\to}}
+  (N^* \dashv N) 
+    \;\colon\; 
+  LieAlg_k^{\Delta^{op}} 
+    \underoverset
+      {\underset{N}{\longrightarrow}}
+      {\overset{N^*}{\longleftarrow}}
+      {\bot}
   dgLieAlg_k
+  \,.
 $$
-
-between simplicial Lie algebras (over a [[field]] $k$) and [[dg-Lie algebra]]s, where $N$ acts on the underlying simplicial vector spaces as the [[Moore complex]] functor.
 
 =--
 
