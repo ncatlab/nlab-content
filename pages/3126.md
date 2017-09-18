@@ -395,7 +395,7 @@ on the genuine [[spectrum objects]] is therefore the "fiberwise [[stabilization]
 ###### Lemma
 **(spectrification is left exact reflective)**
 
-The inclusion of [[spectrum objects]] into $\mathbf{H}$  is [[left exact (infinity,1)-functor|left]] [[reflective sub-(infinity,1)-category|reflective]], hence it has a [[left adjoint]] [[(∞,1)-functor]] $L$ which preserves [[finite (∞,1)-limits]].
+The inclusion of [[spectrum objects]] into $\mathbf{H}^{seq}$  is [[left exact (infinity,1)-functor|left]] [[reflective sub-(infinity,1)-category|reflective]], hence it has a [[left adjoint]] [[(∞,1)-functor]] $L$ -- [[spectrification]] --  which preserves [[finite (∞,1)-limits]].
 
 $$
   T \mathbf{H}
@@ -907,14 +907,14 @@ The definition and study of the notion of _tangent $(\infty,1)$-categories_ is f
 
 and section 7.3 of 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#LurieHigherAlgebra}
+* {#LurieHigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
+ 
 
 The [[(infinity,1)-topos]] structure on tangent $(\infty,1)$-categories
 is discussed in 35.5 of
 
-* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
-  {#Joyal08}
+* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  
 
 [[!redirects tangent (infinity,1)-categories]]
 
