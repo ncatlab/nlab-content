@@ -1,0 +1,13 @@
+> This entry is about the term of "class function" as it is used in set-theoretical contexts. For the notion of the same name in [[algebra]] see at _[[class function]]_.
+
+A class function is a [[class]] $R$  which is a [[relation]] with the property that if $(x,y)\in R$ and $(x,y')\in R$, then $y=y'$. 
+
+A class function need not be a [[set]].
+
+Class functions are an important concept for category theory, especially when constructing functors step by step, e.g. by first constructing an assignment between two classes of objects, and then compatibly augmenting this assignment to make it a functor.
+
+Often, authors resort to synonyms like [[operation]] or [[assignment]] when writing about proper classes.
+
+Reference
+
+T. Jech. Set theory. Third Edition. Springer (2002) p. 12
