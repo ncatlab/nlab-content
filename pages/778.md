@@ -88,7 +88,7 @@ For longer surveys, see
 
 and
 
-* [[Bertrand Toën]], _Lectures on dg-categories_ ([pdf](http://www.hamilton.tcd.ie/events/swisk.pdf)).
+* [[Bertrand Toën]], _Lectures on dg-categories_ ([pdf](https://perso.math.univ-toulouse.fr/btoen/files/2012/04/swisk.pdf)).
 
 ### Homotopy theory of dg-categories
 
