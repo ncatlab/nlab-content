@@ -35,6 +35,7 @@ Similarly a _[[Killing vector]]_ is a covariantly constant [[vector field]].
 
 Pairing two covariant constant spinors to a vector yields a Killing vector. 
 
+In [[supergravity]], [[super spacetimes]] which solves the [[equations of motion]] and admit Killing spinors are _[[BPS states]]_ (at least if they are asymptotically flat and of finite mass).
 
 ## Related concepts
 
