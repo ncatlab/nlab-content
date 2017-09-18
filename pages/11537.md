@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -7,6 +20,15 @@ In [[type IIB string theory]] [[S-duality]] mixes the [[D1-brane]] with the [[su
 Similarly S-duality mixed the [[NS5-brane]] and the [[D5-brane]] and hence the former is also sometimes (rarely though) called the "F5".
 
 
+## Related concepts
+
+[[!include table of branes]]
+
+
+
+[[!redirects F1-branes]]
+
+[[!redirects F1-brane]]
 [[!redirects F1-branes]]
 
 [[!redirects F-string]]
