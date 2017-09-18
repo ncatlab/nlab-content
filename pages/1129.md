@@ -276,7 +276,7 @@ An explit proof is spelled out at
 
 By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} the following [[abelian groups]] are injective in [[Ab]].
 
-The group of [[rational numbers]] $\mathbb{Q}$ is injective in [[Ab]], as is the additive group of [[real numbers]] $\mathbb{R}$ and generally that underlying any [[field]]. The additive group underlying any [[vector space]] is injective. The [[quotient]] of any injective group by any other group is injective.
+The group of [[rational numbers]] $\mathbb{Q}$ is injective in [[Ab]], as is the additive group of [[real numbers]] $\mathbb{R}$ and generally that underlying any [[field]] of characteristic zero. The additive group underlying any [[vector space]] is injective. The [[quotient]] of any injective group by any other group is injective.
 
 =--
 
