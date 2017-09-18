@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -10,7 +20,7 @@ A __permutation__ is an [[automorphism]] in [[Set]].  More explicitly, a __permu
 
 ## Definition
 
-The [[group]] of permutations of $X$ (that is the [[automorphism group]] of $X$ in $Set$) is the __symmetric group__ (or __permutation group__) on $X$.  This group may be denoted $S_X$, $\Sigma_X$, or $X!$.  When $X$ is [[the]] [[finite set]] $[n]$ with $n$ elements, one typically writes $S_n$ or $\Sigma_n$; note that this group has $n!$ elements.
+The [[group]] of permutations of $X$ (that is the [[automorphism group]] of $X$ in $Set$) is the __symmetric group__ (or __permutation group__) on $X$ (a [[finite group]]).  This group may be denoted $S_X$, $\Sigma_X$, or $X!$.  When $X$ is [[the]] [[finite set]] $[n]$ with $n$ elements, one typically writes $S_n$ or $\Sigma_n$; note that this group has $n!$ elements.
 
 In [[combinatorics]], one often wants a slight generalisation.  Given a [[natural number]] $r$, an __$r$-permutation__ from $X$ is an [[injective function]] from $[r]$ to $X$, that is a [[list]] of $r$ distinct elements of $X$.  Then an $n$-permutation from $[n]$ is the same as a permutation of $[n]$.  (That an injective function from $X$ to itself must be invertible characterises $X$ as a [[Dedekind-finite set]].)
 
@@ -29,9 +39,11 @@ One may regard the symmetric group $S_n$ as the [[general linear group]] in dime
 
 ## Examples
 
-* The symmetric group on 4 elements is [[isomorphism|isomorphic]] to the [[tetrahedral group]].
+* The symmetric group on 4 elements is [[isomorphism|isomorphic]] to the full [[tetrahedral group]] as well as to the orientation-preserving [[octahedral group]].
 
 ## Related entries
+
+* [[alternating group]]
 
 * [[signature of a permutation]]
 
