@@ -371,7 +371,9 @@ We check successively what this means for increasing $n$:
 =--
 
 
+### Universal Kan fibration
 
+See at _[[universal Kan fibration]]_.
 
 
 
