@@ -6379,7 +6379,7 @@ $$
 
 Then
 
-1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is
+1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short, also "[[inverse limit]]" for historical reasons) is
    [[generalized the|the]] [[cone]]
 
    $$
@@ -6439,7 +6439,7 @@ Then
      }
    $$
 
-1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short) is
+1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short, also "[[direct limit]]", for historical reasons) is
    [[generalized the|the]] [[cocone]]
 
    $$
@@ -6502,7 +6502,47 @@ Then
 
 =--
 
-+-- {: .num_example}
+$\,$
+
+All the limits and colimits over the free diagram in the above list of examples have special names:
+
+$\,$
+
+
+[[!include free diagrams -- table]]
+
++-- {: .num_example #TerminalInitialObject}
+###### Example
+**([[initial object]] and [[terminal object]])**
+
+Consider the [[empty diagram]] (def. \ref{DiscreteDiagram}).
+
+1. A [[cone]] over the empty diagram is just an object $X$, with no further structure or condition.
+The [[universal property]] of the [[limit]] ``$\ast$'' over the empty diagram is hence that 
+for every object $X$, there is a unique map of the form $X \to \ast$. Such an object $\ast$ is called a _[[terminal object]]_.
+
+1. A [[co.cone]] over the empty diagram is just an object $X$, with no further structure or condition.
+The [[universal property]] of the [[colimit]] ``$0$'' over the empty diagram is hence that
+for every object $X$, there is a unique map of the form $0 \to X$. Such an object $\ast$ is called a _[[initial object]]_.
+
+=--
+
+
++-- {: .num_example #CoProduct}
+###### Example
+**([[Cartesian product]] and [[coproduct]])**
+
+Let $\{X_i\}_{i \in I}$ be a [[discrete category|discrete]] [[diagram]] (example \ref{DiscreteDiagram}),
+i.e. just a set of objects.
+
+1. The [[limit]] over this diagram is called the _[[Cartesian product]]_, denoted $\underset{i \in I}{\prod} X_i$;
+
+1. The [[colimit]] over this diagram is called the _[[coproducts]]_, denoted $\underset{i \in I}{\coprod} X_i$.
+
+
+=--
+
++-- {: .num_example #Equalizer}
 ###### Example
 **([[equalizer]])**
 
@@ -6513,7 +6553,7 @@ $$
     \underoverset
       {\underset{\phantom{AA}f_2\phantom{AA}}{\longrightarrow}}
       {\overset{\phantom{AA}f_1\phantom{AA}}{\longrightarrow}}
-      {\bot}
+      {}
   X_2
 $$
 
@@ -6571,16 +6611,75 @@ The equalizer above is the _space of all solutions_ of this equation.
 
 =--
 
++-- {: .num_example #Pushout}
+###### Example
+**([[pullback]]/[[fiber product]] and [[coproduct]])**
+
+Consider a [[cospan]] [[diagram]] (example \ref{SpanDiagram})
+
+$$
+  \array{
+     && Y
+     \\
+     && \downarrow^{\mathrlap{f}}
+     \\
+     X 
+       &\underset{g}{\longrightarrow}&
+     Z
+  }
+  \,.
+$$
+
+The [[limit]] over this diagram is also called the _[[fiber product]]_ of $X$ with $Y$ over $Z$, and denoted
+$X \underset{Z}{\times}Y$. Thought of as equipped with the projection map to $X$, this is also called the 
+_[[pullback]]_ of $f$ along $g$
+
+$$
+  \array{
+     X \underset{X}{\times} Z 
+       &\longrightarrow& 
+     Y
+     \\
+     \downarrow &(pb)& \downarrow^{\mathrlap{f}}
+     \\
+     X
+       &\underset{g}{\longrightarrow}&
+     Z
+  }
+  \,.
+$$
+
+[[formal duality|Dually]], consider a [[span]] [[diagram]] (example \ref{SpanDiagram})
+
+$$
+  \array{
+    Z 
+      &\overset{g}{\longrightarrow}& 
+    Y
+    \\
+    {}^{\mathllap{f}}\downarrow
+    \\
+    X
+  }
+$$
+
+The [[colimit]] over this diagram is also called the [[pushout]] of $f$ along $g$, denoted $X \underset{Z}{\sqcup}Y$:
+
+$$
+  \array{
+    Z
+      &\overset{g}{\longrightarrow}&
+    Y
+    \\
+    {}^{\mathllap{f}}\downarrow &(po)& \downarrow
+    \\
+    X &\longrightarrow& X \underset{Z}{\sqcup} Y
+  }
+$$
 
 
-$\,$
+=--
 
-All the limits and colimits over the free diagram in the above list of examples have special names like this:
-
-$\,$
-
-
-[[!include free diagrams -- table]]
 
 
 
@@ -6767,7 +6866,8 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
     \{S \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S_i \}_{i \in I}
   $$
 
-  a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
+  a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the 
+  [[coarse topology|coarsest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
 
 * For
 
@@ -6775,11 +6875,12 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
     \{S_i \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S\}_{i \in I}
   $$
 
-  a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+  a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the 
+  [[fine topology|finest]] topology on $S$ (def. \ref{InitialAndFinalTopologies}) such that all $f_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
 
 Other terminology used is shown in this table:
 
-| $\,$ [[limit]]  of [[topological spaces]]$\,$ | $\,$ [[colimit]] of [[topological spaces]] $\,$ |
+| $\,$ [[limit]]  [[topological space|topology]] $\,$ | $\,$ [[colimit]] [[topological space|topology]] $\,$ |
 |-------------------------------|------------------------------|
 | $\,$ [[initial topology]]$\,$ | $\,$ [[final topology]] $\,$ |
 | $\,$ weak topology  $\,$     | $\,$ strong  topology $\,$   |
@@ -6825,12 +6926,12 @@ Now we have all the ingredients to compute limits and colimits of diagrams of to
 Let
 
 $$
-  \left\{ X_i \overset{\phantom{AA}f_\alpha \phantom{AA}}{\longrightarrow} \right\}_{i,j \in I, \alpha \in I_{i,j}}
+  \left\{ X_i \overset{\phantom{AA}f_\alpha \phantom{AA}}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}
 $$
 
-be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}.
+be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}).
 
-1. The [[limit]] over this free diagram (def. \ref{of sets }) is given by [[generalized the|the]] topological space
+1. The [[limit]] over this free diagram (def. \ref{LimitingCone}) is given by [[generalized the|the]] topological space
 
    1. whose underlying set is [[generalized the|the]] limit of the underlying sets according to prop. \ref{SetLimits}
 
@@ -7167,10 +7268,11 @@ of sets is _not_ the naive generalization of the binary product topology, but in
 ###### Example
 **(general [[product spaces]] with [[Tychonoff topology]])**
 
-Consider an arbitrary [[discrete category|discrete]] [[diagram]] (def. \ref{DiscreteDiagram}),
+Consider an arbitrary [[discrete category|discrete]] [[diagram]] of topological spaces (def. \ref{DiscreteDiagram}),
 hence a [[set]] $\{X_i\}_{i \in I}$ of topological spaces, indexed by any [[set]] $I$, not necessarily a [[finite set]].
 
-The [[limit]] over this diagram is called the _[[product topological space]]_ of the spaces in the diagram, and denoted
+The [[limit]] over this diagram (a _[[Cartesian product]]_, example \ref{CoProduct}) 
+is called the _[[product topological space]]_ of the spaces in the diagram, and denoted
 
 $$
   \underset{i \in I}{\prod} X_i
@@ -7228,7 +7330,7 @@ $$
   \underset{j \in I}{\prod} X_j
 $$
 
-such that there is a [[finite set]] [[subset]] $K \subset J$ with
+such that there is a [[finite set|finite]] [[subset]] $K \subset J$ with
 
 $$
   U_j
@@ -7250,7 +7352,7 @@ This is also known as the _[[Tychonoff topology]]_.
 Notice the subtlety: Naively could have considered as open subsets the unions of products of open
 subsets of the factors, without the constraint that only finitely many of them differ from the corresponding total space.
 This also defines a topology, called the _[[box topology]]_. For a [[finite set|finite index set]] $I$ this coincides with the
-topologgy obtained by applying the binary product topological space construction. But for infinite index sets it does not.
+topology obtained by applying the binary product topological space construction. But for infinite index sets it does not.
 
 =--
 
@@ -7260,8 +7362,9 @@ topologgy obtained by applying the binary product topological space construction
 
 +-- {: .num_example #EqualizerInTop}
 ###### Example
+**([[equalizer]] of [[continuous functions]])**
 
-The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets
+The [[equalizer]] (example \ref{Equalizer}) of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets
 
 $$
   eq(f,g)
@@ -7295,6 +7398,7 @@ $$
 
 +-- {: .num_example #PushoutInTop}
 ###### Example
+**([[space attachments]])**
 
 For
 
@@ -7308,7 +7412,8 @@ $$
   }
 $$
 
-two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
+two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_
+(example \ref{Pushout})
 
 $$
   \array{
@@ -7322,11 +7427,11 @@ $$
   \,.
 $$
 
-(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _[[attaching space]]_.
+If $g$ is an [[topological subspace]] inclusion, one also write $X \cup_f Y$ and calls this the _[[attaching space]]_.
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
 
-By example \ref{CoequalizerInTop} the [[pushout]]/[[attaching space]] is the [[quotient topological space]]
+By example \ref{CoequalizerInTop} the [[attaching space]] is the [[quotient topological space]]
 
 $$
   X \sqcup_A Y \simeq (X\sqcup Y)/\sim
@@ -7341,10 +7446,9 @@ of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]]
 
 
 
-
-
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
+**([[n-sphere]] as [[pushout]] of [[equator]] inclusions of its [[hemispheres]])**
 
 As an important special case of example \ref{PushoutInTop},  let
 
@@ -9182,15 +9286,15 @@ is a partition of unity as required.
  {##Manifolds}
 
 A _[[topological manifold]]_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]]
-(def. \ref{TopologicalManifold} below), but which may globally look very different. 
+(def. \ref{TopologicalManifold} below), but which may globally look very different.
 These are the kinds of topological spaces that are really meant when people advertise [[topology]]
 as "[[rubber-sheet geometry]]".
 
-If the [[gluing functions]] which relate the Euclidean [[local charts]] of  topological manifolds to each other are [[differentiable functions]], for a fixed degree of differentiability, then one speaks of _[[differentiable manifolds]]_ (def \ref{DifferentiableManifold} below) or of_[[smooth manifolds]]_ if the gluing functions are arbitrarily differentiable. 
+If the [[gluing functions]] which relate the Euclidean [[local charts]] of  topological manifolds to each other are [[differentiable functions]], for a fixed degree of differentiability, then one speaks of _[[differentiable manifolds]]_ (def \ref{DifferentiableManifold} below) or of_[[smooth manifolds]]_ if the gluing functions are arbitrarily differentiable.
 
 Accordingly, a differentiable manifold is a space to which the tools of ([[infinitesimal analysis|infinitesimal]]9 [[analysis]] may be applied _locally_.
 Notably we may ask whether a [[continuous function]] between differentiable manifolds is [[differentiation|differentiable]]
-by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]]. 
+by computing its [[derivatives]] pointwise in any of the Euclidean [[coordinate charts]].
 This way differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
 
 $\,$
