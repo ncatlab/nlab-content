@@ -61,3 +61,8 @@ By [[Deligne's theorem on tensor categories]] the most general regular [[tensor 
 [[!redirects tensor multiplet]]
 [[!redirects tensor multiplets]]
 
+[[!redirects hypermultiplet]]
+[[!redirects hypermultiplets]]
+
+[[!redirects hyper multiplet]]
+[[!redirects hyper multiplets]]
