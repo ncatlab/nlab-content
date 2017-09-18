@@ -63,6 +63,10 @@ More specifically, he has pointed out in the 1980s the relevance of [[co-Heyting
 
 * T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
 
+* W. Noll, _The Geometry of Contact, Separation and Reformation of Continuous Bodies_ , Research report no.92-NA-029 Carnegie Mellon University 1992.  ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1387&context=math))
+
+* W. Noll, _The geometry of contact, separation and reformation of continuous bodies_ , Arch. Rat. Mech. Anal. **122** (1993) pp.97-112. 
+
 * [[Dana Scott|Dana S. Scott]], _Geometry without Points_ , Talk Vienna 2014. ([slides](http://www.logic.at/latd2014/2014%20Vienna%20Scott.pdf))
 
 * J.G. Stell, M.F. Worboys, _The algebraic structure of sets of regions_ , pp.163-174 in Hirtle, Frank (eds.), _Spatial Information Theory_, Springer LNCS **1329** (1997).
