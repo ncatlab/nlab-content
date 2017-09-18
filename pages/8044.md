@@ -38,10 +38,13 @@ Also related:
 
 
 ## Resolutions
+ {#Resolutions}
 
 There are a number of possible resolutions of Russell's paradox.
 
-* The "[[classical mathematics|classical]]" solution, adopted in [[ZFC]] and thus by most mainstream mathematicians, is to restrict the axiom of comprehension so as to disallow the formation of the set $R$: one requires that the set being constructed be a subset of some already existing set.  The restricted axiom is usually given a different name such as the [[axiom of separation]].
+* In _[[Principia Mathematica]]_ Russell himself introduced a concept of [[ramified types]] in order to rule ou the paradoxical operations.
+
+* The "[[classical mathematics|classical]]" solution, adopted in [[ZFC]] and thus by most mainstream mathematicians, is to restrict the axiom of [[comprehension]] so as to disallow the formation of the set $R$: one requires that the set being constructed be a subset of some already existing set.  The restricted axiom is usually given a different name such as the [[axiom of separation]].
 
 * Essentially the same resolution is used in class theories such as [[NBG]].  Here we may write down the definition of $R$, but from $R \notin R$ we may conclude $R \in R$ only if we already know that $R$ is a set; the $x$ in the definition must be a set.  So we have no contradiction, but only a proof that $R$ is a [[proper class]].
 
