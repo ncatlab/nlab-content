@@ -101,7 +101,7 @@ Note, though, that geometric morphisms are generally considered as pointing in t
 
 In particular, we can apply the "exact completion" operation to the syntactic category $G_T$ of a geometric theory to obtain an infinitary pretopos $Set[T]$.  As long as the theory $T$ was itself small, $Set[T]$ will have a generating set, and therefore will be a Grothendieck topos.  The universal property of the syntactic category, combined with that of the exact completion, implies that for any Grothendieck topos $E$, geometric morphisms $E\to Set[T]$ are equivalent to $T$-models in $E$.  This topos $Set[T]$ is called the **[[classifying topos]]** of $T$.
 
-In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a [[classifying topos]] for this theory.  Therefore, not only does every geometric theory have a [[classifying topos]], every Grothendieck topos is the [[classifying topos]] of _some_ theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are *Morita equivalent*.
+In the other direction, if $C$ is any small [[site]], we can write down a "geometric theory of cover-preserving [[flat functors]] $C^{op}\to Set$."  By [[Diaconescu's theorem]] classifying geometric morphisms into sheaf topoi, it follows that $Sh(C)$ is a [[classifying topos]] for this theory.  Therefore, not only does every geometric theory have a [[classifying topos]], every Grothendieck topos is the [[classifying topos]] of _some_ theory.  Very different-looking theories can have equivalent classifying topoi; this of course implies that they have all the same models in all Grothendieck topoi (hence a Grothendieck topos is the "extensional essence" of a geometric theory).  We say that two geometric theories with equivalent classifying topoi are [[Morita equivalence|Morita equivalent]].
 
 
 ### Functorial definition {#FunctorialDefinition}
@@ -135,7 +135,6 @@ The equivalence of this definition with the others can be found in
 
 It is not sufficient, in the third condition, to restrict to the case when $I$ is a singleton, but it is sufficient to consider the case when $I$ is a singleton together with all families of coproduct injections $(E_i \to \coprod_i E_i)_{i\in I}$.
 
-
 ## Localization
 
 By framing this notion in the [[internal language]] of a [[topos]] $S$ we can talk of geometric theories over $S$, with models in [[bounded topos|bounded]] $S$-toposes (the [[relative point of view|relative version]] of "Grothendieck topos").  As a simple example, if we have a sheaf $A$ of [[rings]] on a [[topological space]] $X$ we can describe left $A$-[[modules]] as models of a geometric theory over $Sh(X)$, the topos of sheaves on $X$, and this notion is definable in $Sh(X)$-toposes.
@@ -159,6 +158,8 @@ of geometric theories over $S$ induces a forgetful functor
 $T' Mod \to T Mod$ which leaves unchanged the $S$-topos of residence, which has a left adjoint $T Mod \to T' Mod$ which may change the topos.  For if $a: E \to S[T]$ is a $T$-model in $E$, [[base change|pulling]] $a$ back along $h$ yields a $T'$-model, not in $E$ but in the [[pullback]].  This is a consequence of general facts about finite [[2-limits]] of the [[2-category]] of 
 [[bounded topos|bounded]] $S$-toposes.
 
+The 2-categorical version of $T Mod$ is useful in generalization of the [[spectrum]] construction: See at [[Cole's theory of spectrum]].
+
 ## Properties
 
 * [[Barr's theorem]] says, that if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also
@@ -169,6 +170,14 @@ deducible from it in [[constructive mathematics]].
 * [[geometric type theory]]
 
 * [[geometric homotopy type theory]]
+
+* [[Cole's theory of spectrum]]
+
+* [[classifying topos for the theory of objects]]
+
+* [[theory of objects]]
+
+* [[theory of decidable objects]]
 
 ## References
 
