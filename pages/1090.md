@@ -43,7 +43,7 @@ For any 'exact' sequence the deflation is the [[cokernel]] of inflation and the 
 
 For every small exact category in the sense of a pair $(A,E)$, there is an embedding $A\hookrightarrow B$ into an [[abelian category]] such that $E$ is a class of all sequences which are (short) exact in $B$.
 
-### Relation to Waldhausen categories and alegbraic K-theory
+### Relation to Waldhausen categories and algebraic K-theory
 
 Every Quillen exact category can be made into a [[Waldhausen category]]. However some information is lost in the process. Moreover, not every Waldhausen category comes from a Quillen exact category. Both Quillen exact categories and Waldhausen categories are devised in order to do [[algebraic K-theory]]. The K-theory spectrum based on [[Quillen's Q-construction]] and an exact category agrees with the K-theory spectrum based on the [[Waldhausen S-construction]] of the K-theory spectrum from its associated [[Waldhausen category]]. 
 
