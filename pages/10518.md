@@ -86,6 +86,7 @@ By ([Fiorenza-Rogers-Schreiber 13](#FiorenzaRogersSchreiber13)) this [[∞-group
 ### Globalization from a Heisenberg-structure
  {#GlobalizationFromAHeisenbergStructure}
 
+> the following is an old argument. There is now a stronger statement and proof in section 3.6.16.2 of [[schreiber:differential cohomology in a cohesive topos|dcct]]
 
 +-- {: .num_prop }
 ###### Proposition
@@ -144,17 +145,7 @@ $$
    \mathbf{H}
 $$
 
-preserves [[homotopy fiber products]]. This is because by [this discussion](limit%20in%20a%20quasi-category#InOvercategories) the [[(∞,1)-limit]] over a [[cospan]] [[diagram]] of shape $\longrightarrow \leftarrow$ in $\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}$ is computed as the [[(∞,1)-limit]] over the induced [[diagram]] of shape 
-
-$$
-  \array{
-     &\longrightarrow& & \leftarrow
-     \\
-     & \searrow & \downarrow & \swarrow
-  }
-$$ 
-
-in $\mathbf{H}$, and because inclusion of the [[cospan]] diagram $\longrightarrow \leftarrow$ into this is [[final (infinity,1)-functor|final]]. Therefore the above induces for each point $b \in B$ a [[homotopy pullback]] diagram in $\mathbf{H}$ of the form
+preserves [[homotopy fiber products]], by [this proposition](dependent%20sum#AbsoluteDependentSumPreservesFiberProducts). Therefore the above induces for each point $b \in B$ a [[homotopy pullback]] diagram in $\mathbf{H}$ of the form
 
 $$
   \array{
@@ -186,7 +177,7 @@ $$
   \,.
 $$
 
-This exhibits $E \to B$ as a $G$-[[fiber ∞-bundle]] with the claimed property.
+This exhibits $X \to B$ as a $G$-[[fiber ∞-bundle]] with the claimed property.
 
 =--
 
