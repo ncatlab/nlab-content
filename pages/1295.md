@@ -297,7 +297,7 @@ $$
 +-- {: .proof #DimensionalReductionAbstractly}
 ###### Proof
 
-The statement that $i^\ast \simeq hofib$ follows immediately by the definitions. What we need to show see is that the [[dependent product]] along $i$ is given as claimed.
+The statement that $i^\ast \simeq hofib$ follows immediately by the definitions. What we need to show is that the [[dependent product]] along $i$ is given as claimed.
 
 To that end, first observe that the [[conjugation action]] on $[G,X]$ is the [[internal hom]] in
 the [[(∞,1)-category]] of $G$-[[∞-actions]] $Act_G(\mathbf{H})$.
