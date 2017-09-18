@@ -45,11 +45,25 @@ The Life of Alexandre Grothendieck, Part 2,[Notices AMS](http://www.ams.org/noti
 
 ## Students
 
+* [[Pierre Gabriel]]
+* [[Michel Demazure]]
+* [[Jean Giraud]]
+* [[Jean-Louis Verdier]]
+* [[Monique Hakim]]
 * [[Pierre Deligne]]
+* [[Michel Raynaud]]
+* [[Jean-Pierre Jouanolou]]
 * [[Luc Illusie]]
-* [[Verdier]]
+* [[William Messing]]
+* [[Pierre Berthelot]]
+* [[Pierre Deligne]]
+* [[Michèle Raynaud]]
+* [[Neantro Saavedra-Rivano]]
+* [[Hamet Seydi]]
 * [[Hoàng Xuân Sính]]
-* etc
+* [[Yves Ladegaillerie]]
+* [[Marcus Wanderley]]
+* [[Carlos Contou-Carrère]]
 
 category: people
 
