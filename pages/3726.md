@@ -265,6 +265,10 @@ See also [[(eso+full, faithful) factorization system]].
 
 * [[connective spectrum]], [[connective cover]]
 
+* [[Freudenthal suspension theorem]]
+
+* [[Blakers-Massey theorem]]
+
 ## References
 
 Section 6.5.1 of 
