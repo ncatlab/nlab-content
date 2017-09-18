@@ -11,9 +11,26 @@
 =--
 
 
-For $E$ a [[topos]], a **subtopos** is another topos $F$ equipped with a  [[geometric embedding]] $F \hookrightarrow E$.
+For $\mathcal{E}$ a [[topos]], a **subtopos** is another topos $\mathcal{F}$ equipped with a  [[geometric embedding]] $\mathcal{F} \hookrightarrow \mathcal{E}$.
 
-If this is an [[open geometric morphism]] one speaks of an **open subtopos**.
+If this is an [[open geometric morphism]] (or an [[essential geometric morphism]]) one speaks of an **open subtopos** (an **essential subtopos**, respectively).
+
+##Properties
+
+If $\mathcal{E}$ is a [[Grothendieck topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
+
+Lawvere-Tierney topologies form a [[Heyting algebra]] hence the lattice of subtoposes carries a co-Heyting algebra structure. Now $\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to  deductively closed quotient theories of $T$ (cf. Caramello (2009), thm.3.6 p.15).
+
+##References
+
+* {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
+
+* [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
+
+* [[Peter Johnstone]], _Sketches of an [[Elephant]] I_, Oxford UP 2002. pp.195-223.
+
+* {#KL89}[[G. M. Kelly]], [[William Lawvere|F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull.Soc.Math. de Belgique **XLI** (1989) pp.261-299.
+
 
 [[!redirects Subtopos]]
 [[!redirects subtoposes]]
