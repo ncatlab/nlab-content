@@ -12,6 +12,9 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Given a [[group]] $G$ and a [[subgroup]] $H$, then their _coset_ is the [[quotient]] $G/H$.
 
 ## Definition
 
@@ -30,16 +33,39 @@ $$
   G \times H \underoverset{proj_G}{\mu}\rightrightarrows G 
 $$ 
 
-### Internal to Set
+### Internal to $Set$
 
 Specializing the above definition to the case where $C$ is the well-pointed topos $Set$, given an element $g$ of $G$, its orbit $gH$ is an element of $G/H$ and is called a _left coset_.
 
-Using comprehension, we can write
+Using [[comprehension]], we can write
+
 $$
   G/H = \{g H | g \in G\}
 $$
 
-Similar situation on the right.
+Similarly there is a coset on the right $H \backslash G$.
+
+### For Lie groups and Klein geometry
+
+If $H \hookrightarrow G$ is an inclusion of [[Lie groups]] then the quotient $G/H$ is also called a _[[Klein geometry]]_.
+
+### For $\infty$-groups
+
+More generally, given an [[(∞,1)-topos]] $\mathbf{H}$ and a [[homomorphism]] of  [[∞-group]] ojects $H \to G$, hence equivalently a morphism of their [[deloopings]]
+$\mathbf{B}H \to \mathbf{B}G$, then the [[homotopy quotient]] $G/H$ is given by the [[homotopy fiber]] of this map
+
+$$
+  \array{
+    G/H &\longrightarrow& \mathbf{B}H
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+See at _[[∞-action]]_ for more on this definition. See at _[[higher Klein geometry]_ and _[[higher Cartan geometry]]_ for the corresponding concepts of [[higher geometry]].
 
 ## Properties 
 
@@ -77,6 +103,12 @@ $$
 * [[coadjoint orbit]]
 
 * [[index of a subgroup]]
+
+* [[flag variety]]
+
+* [[Klein geometry]]
+
+* [[WZW model]]
 
 [[!redirects coset]]
 [[!redirects cosets]]
