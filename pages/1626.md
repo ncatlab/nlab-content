@@ -40,8 +40,6 @@ Many authors allow the [[empty space]] to be connected.  You can get this concep
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) $$
 be [[surjection]]s.  However, many results come out more cleanly by disqualifying the empty space (much as one disqualifies $1$ when one defines the notion of [[prime number]]).  See also the discussion at [[empty space]] and [[too simple to be simple]].
 
-The elementary definitions above have been carefully phrased to be correct in [[constructive mathematics]].  One may also see classically equivalent forms that are constructively weaker.
-
 
 ## Basic results {#basic}
 
