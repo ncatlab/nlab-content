@@ -102,3 +102,7 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 [[!redirects strictly decreasing functions]]
 [[!redirects strictly-decreasing function]]
 [[!redirects strictly-decreasing functions]]
+[[!redirects strictly order-preserving function]]
+[[!redirects strictly order-preserving functions]]
+[[!redirects strict order-preserving function]]
+[[!redirects strict order-preserving functions]]
