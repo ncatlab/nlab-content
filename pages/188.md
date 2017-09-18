@@ -22,11 +22,11 @@
 
 ### Classical
 
-Classically, a **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **associative law**:
+Classically, a **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ (the _neutral element_) such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **[[associative law]]**:
 
 $$ (x \cdot y) \cdot z = x \cdot (y \cdot z)$$
 
-and the **left and right unit laws**: 
+and the **left and right [[unit laws]]**: 
 
 $$ 1 \cdot x = x = x \cdot 1 .$$
 
@@ -190,3 +190,6 @@ In summary, it is important to make people understand that groups can be identif
 
 [[!redirects algebra object]]
 [[!redirects algebra objects]]
+
+[[!redirects neutral element]]
+[[!redirects neutral elements]]
