@@ -41,3 +41,7 @@ On the other hand, anything involving transposes or [[inner products]] really ta
 category: category
 
 [[!redirects FinVect]]
+
+[[!redirects category of vector bundles]]
+[[!redirects categories of vector bundles]]
+
