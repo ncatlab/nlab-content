@@ -35,6 +35,11 @@ $$
 
 This equivalence ought to be [[coherence|coherent]] to yield a $\mathbb{Z}/2\mathbb{Z}$ [[∞-action]] on the [[(∞,1)-category of (∞,1)-modules]] $E Mod$ ([MO discussion](http://mathoverflow.net/q/46399/381)).
 
+### Landweber exact functor theorem
+
+There is an analogue of the [[Landweber exact functor theorem]] for [[even cohomology theory|even]] 2-[[periodic cohomology theories]], with [[MU]] replaced by [[MP]] ([Lurie lecture 18, prop. 11](#LurieLect18)).
+
+
 ## Examples
 
 
@@ -55,7 +60,8 @@ This equivalence ought to be [[coherence|coherent]] to yield a $\mathbb{Z}/2\mat
 
 Lecture notes include
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 , Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
+
+* {#LurieLect18} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 , Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
 
 The $\mathbb{Z}/2$-graded formalism for modules over $E_\infty$-algebras over an even periodic ring spectrum:
 
