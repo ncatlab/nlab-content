@@ -10,6 +10,11 @@ There is however no single global definition which precisely delineates all usag
 
 * [[quantification]] 
 
-among others, many of which describe concepts related to the general notion of algebraic theory (such as [[magma]], [[Lawvere theory]], [[Mal'cev theory]], etc.). One might stop short of synonymizing "operation" simply with the word "[[function]]", but just in what way is hard to say; suffice it to say there may be shades of meaning or context where one is definitely inclined to choose one word over the other. 
+among others, many of which describe concepts related to the general notion of algebraic theory (such as [[magma]], [[Lawvere theory]], [[Mal'cev theory]], etc.). See also _[[operator]]_. 
+
+One might stop short of synonymizing "operation" simply with the word "[[function]]", but just in what way is hard to say; suffice it to say there may be shades of meaning or context where one is definitely inclined to choose one word over the other. 
+
 
 Compare related terms and language use described in [[function]]. 
+
+[[!redirects operations]]
