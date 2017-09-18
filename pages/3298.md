@@ -1246,7 +1246,7 @@ be a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]] that is a full
 Let 
 
 $$
-  \mathbf{H} := Sh_{(\infty,1)}(C)
+  \mathbf{H} \coloneqq Sh_{(\infty,1)}(C)
 $$ 
 
 be the [[(∞,1)-sheaf (∞,1)-topos]] over $C$. 
@@ -1259,7 +1259,7 @@ Following the notation at [[Isbell duality]] and [[function algebras on ∞-stac
 For $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ an ordinary $T$-algebra, we say that the [[free loop space object]] 
 
 $$
-  \mathcal{L}X := [S^1,X]
+  \mathcal{L}X \coloneq [S^1,X]
 $$ 
 
 of $X$ formed in $\mathbf{H}$ is the **[[derived loop space]]** of $X$.
