@@ -28,7 +28,8 @@ $\,$
 
 ## Idea
 
-In combinatorics, a **digraph** (a shortening of *directed graph*)  consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. The irreflexivity condition means there is never an edge from a node to itself. 
+In combinatorics, a **digraph** (a shortening of *directed graph*)  consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. 
+The irreflexivity condition means there is never an edge from a node to itself. 
 
 ## Definitions
 
@@ -158,11 +159,11 @@ Read the (elementary) definition of *walk* with  "weak walk" instead of "walk" ,
 
 Note that a *weak walk* validates the usual [[red herring principle]]: a red herring need not be a herring (yet may happen to, and a  wealk walk need not be walk (yet may happen to).
 
-Evidently, *weak walks* in $D$ bijectively corresponds to (the weak walks obtained by reinstating the directections of) the walks in the undirected graph underlying $D$.
+Evidently, *weak walks* in $D$ bijectively correspond to (the weak walks obtained by reinstating the directions of) the walks in the undirected graph underlying $D$.
 
 +-- {: .num_defn #WeakTrail}
 ###### Definition
-**(trail in a digraph)**
+**(weak trail in a digraph)**
 
 Suppose $D=(V,A)$ is a digraph. 
 A *weak trail* in $D$ is a weak walk $\alpha\overset{P}{\longrightarrow}V$ such that the [[function]] $\alpha\rightarrow A$ with $\alpha(i)=(P(i),P(i+1))$ is  injective.
@@ -237,10 +238,50 @@ A usual abbreviation in combinatorics for *acyclic directed graph* is *DAG*.
 
 =--
 
-We note that "classical" in the above refers to the negative definition. 
+Here, "classical" refers to the negative definition. 
 
 
++-- {: .num_defn #WeakCycleInDigraph}
+###### Definition
+**(weak cycle in a digraph)** 
 
+Read the definition of *cycle* from def. \ref{CycleInDigraph}  with "trail" replaced with "weak trail" from def. \ref{WeakTrail}.
+
+The set of all weak cycles of a digraph $D$ is denoted $\mathrm{WeCy}(D)$.
+
+=--
+
+
+The following non-standard definition is useful in when constructing proofs of Power's pasting theorem:
+
+
++-- {: .num_defn #ConstructiveAcyclic}
+###### Definition
+**(constructive acyclic digraph (cDAG))**
+
+A *constructive acyclic digraph* is a triple $D=(V,A,z)$ of data 
+
+* a digraph $(V,A)$ 
+* a function $z\colon\mathrm{WeCy}(D)\rightarrow V$
+
+subject to the axioms
+
+* for each $P\in \mathrm{WeCy}(D)$, $z(P) \in \mathrm{image}(P)$
+
+* for each $P\in \mathrm{WeCy}(D)$, if (        $u\in \mathrm{image}(P)$ [[and]] (  $(u,z(P))\in A$ [[or]] $(z(P),u)\in A$  ) ) , then $(u,z(P))\in A$.
+
+=--
+
+In words, the axioms mean that $z$ gives us one vertex on any given weak cycle $P$ whose out-degree *on $P$* is two.
+Then $z(P)$ witnesses $P$'s not being a cycle. 
+Evidently, a (classical) DAG can usually be *made* a cDAG in many ways: there usually are many functions $z$ one can specify and that satisfy the axioms. 
+We are here not interested in describing or counting these possibilities, rather in doing things with a given cDAG.
+
+There is an apparently inescapable arbitrariness in whether to favor out-neighbors or in-neighbor when defining *constructive DAG*. 
+The above definition would to all intents and purposes be equivalent the one obtained by replacing the conclusion in the axiom with "then $(z(P),u)\in A$".
+
+
+The following concept appears (under another name) in [Power's proof](#Power1990):
 
 +-- {: .num_defn #King}
 ###### Definition
@@ -261,6 +302,8 @@ A vertex $v$ of $D$ is an *$\omega$-coking* if and only if for each $u\in V$ the
 =--
 
 The term *$\omega$-king* is a natural variant of the usual term *$k$-king* in digraph theory. 
+By definition, for each $k\in\omega$, each $k$-(co)king is an $\omega$-(co)king. 
+Of course, a vertex can be a king and a coking simultaneously. (Which is why e.g. in [Power's proof](#Power1990), non-equality of the king and the coking *must be made a separate axiom* in the definition of what Power calls *plane graph with source and sink*).
 
 +-- {: .num_defn #PlaneDigraph}
 ###### Definition
@@ -300,7 +343,7 @@ We make use of the treatment of *undirected* plane graphs given in ([Diestel](#D
 +-- {: .num_example #ExamplePlaneDigraph} 
 ###### Example 
 An example of a plane digraph with countably infinite vertex set, and whose satisfying the axioms of plane digraphs is evident, is given by $T:=\{\varphi\in\mathbb{R}\colon 0\le \varphi\lt 2\pi,\quad \varphi\in\mathbb{Q} \}$, $D=(V,A)$ with $V:=\{(0,0)\} \cup \{   (  \cos( \varphi )  , \sin( \varphi  ) ) \colon  \varphi\in M    \}$ and $a(\varphi)\colon [0,1]\rightarrow\mathbb{R}^2$ with $a(\varphi)(t) =   (  t\cdot\cos(\varphi), t\cdot \sin(\varphi)   )$ and $A:= \{  a(\varphi)\colon     \varphi\in M      \}$.
-Note that this example (0) is not a [[pasting scheme|pasting scheme in the sense of Power]] (already for the strong reason that in it there does not exist any $\omega$-coking), and (1), while large, it would make for a rather dull and vacuously-uniquely-interpretable [[pasting diagram]] : there are no arrows that could possibly be composed, let alone is there any 2-cell.
+Note that this example (0) is not a [[pasting scheme|pasting scheme in the sense of Power]] (already for the strong reason that in it there does not exist any $\omega$-coking), and (1), while large, it would make for a rather dull and vacuously-uniquely-interpretable [[pasting diagram]]: there are no arrows that could possibly be composed, let alone is there any 2-cell.
 
 In combinatorics, this is sometimes referred to as an *infinite star*.
 
@@ -343,7 +386,7 @@ All digraph-theoretic technical terms like *out-neighborhood*, *outdegree* which
 
 
 
-A central technical tool in  ([Power's proof](#Power1990)) are *boundary walks*: 
+A central technical tool in  [Power's proof](#Power1990) are *boundary walks*: 
 boundary walks validate a form of the [[red herring principle]]: each boundary walk is a *weak walk*, yet need not be a walk. 
 
 
@@ -441,6 +484,5 @@ The definition which is strictly relevant to the present article is Power's. He 
 
 * {#Kowalksky65} H. J. Kowalksky: Topological Spaces. Academic Press. 1965.
 
-[[!redirects digraph]]
 [[!redirects digraphs]]
 
