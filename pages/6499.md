@@ -1,4 +1,6 @@
 [[!redirects global analytic spaces]]
+[[!redirects global analytic space]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
