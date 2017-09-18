@@ -20,7 +20,7 @@ Regarded in the more general context of [[smooth groupoids]]/[[smooth stacks]], 
 
 ## Definition
 
-A _Lie groupoid_ $X$ is an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifolds]].
+A _Lie groupoid_ $X$ is an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifolds]]. More precisely, a _Lie groupoid_ $X:=X_1 \rightrightarrows X_0$ is a [[groupoid]] such that both the space of arrows $X_1$ and the space of objects $X_0$ are smooth manifolds, all structure maps are smooth,  and source and target maps $s, t: X_1\rightrightarrows X_0$ are surjective submersions. 
 
 Since [[Diff]] does not have all [[pullbacks]], to ensure that this definition makes sense, one needs to ensure that the space $Mor(X) \times_{s,t} Mor(X)$ of composable [[morphism]]s is an object of [[Diff]]. This is achieved either by adopting the definition of [[internal groupoid]] in the sense of Ehresmann, which includes as data the [[smooth manifold]] of [[composable pairs]], or by taking the conventional route and demanding that the source and target maps $s,t : Mor(X) \to Obj(X)$ are [[submersion]]s. This ensures the [[pullback]] exists to define said manifold or composable pairs.
 
