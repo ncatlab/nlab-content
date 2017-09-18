@@ -1,2 +1,8 @@
 
 [[quantization]] by means of the [[path integral]]
+
+## Related concepts
+
+* [[S-matrix]]
+
+[[!redirects path integral quantizations]]
