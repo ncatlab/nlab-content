@@ -6502,7 +6502,7 @@ Specifically we are interested in [[complex oriented cohomology]] theories $E$, 
 
 **Literature.** ([Kochman 96, section 4.3](#Kochman96), [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
-* [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
 
 
 $\,$
@@ -7299,7 +7299,7 @@ $$
 
 (using, by the above, that this $S^2$ is the unique 2-cell of $\mathbb{C}P^n$ in the standard cell model).
 
-This means that $c_1$ is a permanent cocycle of the spectral sequence (in the kernel of all differentials) precisely if it arises via restriction from an element in $E^2(\mathbb{C}P^n)$ and hence precisely if there exists a complex orientation $c_1^E$ on $E$. Since this is the case by assumption on $E$, $c_1$ is a permanent cocycle.
+This means that $c_1$ is a permanent cocycle of the spectral sequence (in the kernel of all differentials) precisely if it arises via restriction from an element in $E^2(\mathbb{C}P^n)$ and hence precisely if there exists a complex orientation $c_1^E$ on $E$. Since this is the case by assumption on $E$, $c_1$ is a permanent cocycle. (For the fully detailed argument see ([Pedrotti 16](#Pedrotti16))).
 
 The same argument applied to all elements in $E^\bullet(\ast)[c]$, or else the $E^\bullet(\ast)$-linearity of the differentials (prop. \ref{LinearityOfDifferentialsInSerreAHSSForMultiplicativeCohomologyTheory}), implies that all these elements are permanent cocycles.
 
