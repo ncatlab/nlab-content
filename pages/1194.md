@@ -639,5 +639,4 @@ Further online resources include
 * [types-announce mailing list](http://lists.seas.upenn.edu/mailman/listinfo/types-announce)
 
 
-
 [[!redirects type theories]]
