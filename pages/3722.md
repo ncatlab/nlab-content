@@ -19,9 +19,9 @@
 
 ## Definitions
 
-A subset $C$ of a [[topological space]] (or more generally a [[convergence space]]) $X$ is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]]. When equipped with the [[subspace topology]], we may call $C$ (or its inclusion $C \hookrightarrow X$) a *closed subspace*. More abstractly, a [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]]. 
+A [[subset]] $C$ of a [[topological space]] (or more generally a [[convergence space]]) $X$ is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]]. When equipped with the [[subspace topology]], we may call $C$ (or its inclusion $C \hookrightarrow X$) a *closed subspace*. More abstractly, a [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]]. 
 
-The collection of closed subsets of a space $X$ is closed under arbitrary intersections. If $A \subseteq X$, then the intersection of all closed subsets containing $A$ is the smallest closed subset that contains $A$, called the _[[closure]]_ of $A$, and variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. It follows that $A \subseteq B$ implies $Cl(A) \subseteq Cl(B)$ and $Cl(Cl(A)) = Cl(A)$, so that $A \mapsto Cl(A)$ forms a [[Moore closure]] operator on the power set $P(X)$. 
+The collection of closed subsets of a space $X$ is closed under arbitrary [[intersections]]. If $A \subseteq X$, then the intersection of all closed subsets containing $A$ is the smallest closed subset that contains $A$, called the _[[closure]]_ of $A$, and variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. It follows that $A \subseteq B$ implies $Cl(A) \subseteq Cl(B)$ and $Cl(Cl(A)) = Cl(A)$, so that $A \mapsto Cl(A)$ forms a [[Moore closure]] operator on the power set $P(X)$. 
 
 Since closed subsets are closed with respect to finite unions, we have $Cl(A \cup B) = Cl(A) \cup Cl(B)$. 
 
