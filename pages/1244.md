@@ -7,7 +7,7 @@ The term _torsion_ can denote very different concepts:
 
 * In differential geometry of [[curve]]s, the [[torsion of a curve]] is a measure for how the curve tends to spirals out of the plane spanned by its [[tangent vector]] and the first [[derivative]] of that.
 
-* In [[differential geometry]], the [[torsion of a metric connection]] on a [[tangent bundle]] is a measure for how the [[covariant derivative]] differs from the [[Lie bracket]]
+* In [[differential geometry]], the [[torsion of a metric connection]] on a [[tangent bundle]] is a measure for how the [[covariant derivative]] differs from the [[Lie bracket]]. More generally there is [[torsion of a Cartan connection]].
 
   This notion can also be related/generalized to the [[integrability of G-structures]]
 
