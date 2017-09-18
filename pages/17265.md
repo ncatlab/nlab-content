@@ -1,3 +1,4 @@
+[[!redirects Quillen model structure on topological spaces]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,7 +24,7 @@
 
 ## Idea
 
-The _Quillen model structure on topological spaces_ $Top_{Quillen}$ is a [[model category]] structure on the [[category]] [[Top]] of [[topological spaces]] (also on many [[convenient categories of topological spaces]]) which represents the standard classical [[homotopy theory]]. 
+The _classical model structure on topological spaces_ $Top_{Quillen}$ ([Quillen 67, II.3](#Quillen67)) is a [[model category]] structure on the [[category]] [[Top]] of [[topological spaces]] (also on many [[convenient categories of topological spaces]]) which represents the standard classical [[homotopy theory]]. 
 
 Its [[weak equivalences]] are the [[weak homotopy equivalences]], its [[fibrations]] are the [[Serre fibrations]] and its [[cofibrations]] are the [[retracts]] of [[relative cell complexes]].
 
@@ -783,11 +784,11 @@ $$
 
 Say that a [[continuous function]], hence a [[morphism]] in [[Top]] is
 
-* a (Quillen-)**weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
+* a (classical) **weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
 
-* a (Quillen-)**fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
+* a (classical) **fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
 
-* a (Quilllen-)**cofibration** if it is a [[retract]], rem \ref{RetractsOfMorphisms}, of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
+* a (classical) **cofibration** if it is a [[retract]], rem \ref{RetractsOfMorphisms}, of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
 
 =--
 
@@ -879,7 +880,7 @@ We use the above to prove that the classes of morphisms in def. \ref{ClassesOfMo
 +-- {: .num_prop #QuillenWeakEquivalencesSatisfyTwoOutOfThree}
 ###### Proposition
 
-The Quillen-weak equivalences, def. \ref{ClassesOfMorhismsInTopQuillen}, satify [[two-out-of-three]].
+The classical weak equivalences, def. \ref{ClassesOfMorhismsInTopQuillen}, satify [[two-out-of-three]].
 
 =--
 
@@ -893,7 +894,7 @@ Since [[isomorphisms]] (of [[homotopy groups]]) satisfy 2-out-of-3, this propert
 +-- {: .num_prop}
 ###### Proposition
 
-Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a Quillen cofibration followed by an acyclic fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a classical cofibration followed by an acyclic fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   f
@@ -933,7 +934,7 @@ By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to X$
 +-- {: .num_prop #ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}
 ###### Proposition
 
-Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic Quillen-cofibration followed by a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic classical cofibration followed by a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   f
@@ -980,7 +981,7 @@ Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equival
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[commuting diagram|commuting square]] in [[Top]] with the left morphism a Quillen-cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
+Every [[commuting diagram|commuting square]] in [[Top]] with the left morphism a classical cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
 
 $$
   \array{
