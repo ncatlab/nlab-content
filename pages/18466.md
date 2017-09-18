@@ -82,9 +82,9 @@ The method is due to
 
 with precursors in 
 
-* [[Ernst Stückelberg]], D. Rivier, Helv. Phys. Acta, 22 (1949) 215. 
+* {#Stueckelberg49} [[Ernst Stückelberg]], D. Rivier, Helv. Phys. Acta, 22 (1949) 215. 
 
-* [[Ernst Stückelberg]], J. Green, Helv. Phys. Acta, 24 (1951) 153.
+* {#Stueckelberg51} [[Ernst Stückelberg]], J. Green, Helv. Phys. Acta, 24 (1951) 153.
 
 * [[Ernst Stückelberg]], A. Peterman, , _La normalisation des constants dans la theorie des quanta_, Helv. Phys. Acta 26, 499 (1953); 
 
