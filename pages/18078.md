@@ -1,47 +1,11 @@
 
 
-By [[excluded middle]] we may equivalently prove the [[contrapositive]]: If $(X,\tau)$ is not compact, then not every net in $X$ has a convergent subnet.
++-- {: .num_prop }
+###### Proposition
 
-Hence assume that $(X,\tau)$ is not compact. We need to produce a net without a convergent subnet.
+Given a [[set]] $X$ and a [[filter]] of subsets $\mathcal{F} \subset P(X)$ (def. \ref{Filter}), then $\mathcal{F}$ is the [[eventuality filter]] (def. \ref{EventualityFilter}) of its filter net (def. \ref{FilterNet}).
 
-Again by [[excluded middle]], then by [this prop.](finite+intersection+property#CompactnessInTermsOfFiniteIntersectionProperty) $(X,\tau)$ not being compact means equivalently that there exists a set $\{C_i \subset X\}_{i \in I}$ of [[closed subsets]] satisfying the [[finite intersection property]], but such that their intersection is empty: $\underset{i \in I}{\cap} C_i = \emptyset$.
-
-Consider then $P_{fin}(I)$, the set of [[finite set|finite]] [[subsets]] of $I$. By the assumption that $\{C_i \subset X\}_{i \in I}$ satisfies the [[finite intersection property]], we may [[axiom of choice|choose]] for each $J \in P_{fin}(I)$ an element
-
-$$
-  x_J \in \underset{i \in J \subset I}{\cap} C_i
-  \,.
-$$
+=--
 
 
 
-Now $P_{fin}(X)$ regarded as a [[preordered set]] under inclusion of subsets is clearly a [[directed set]], with an upper bound of two finite subsets given by their [[union]]. Therefore we have defined a net
-
-$$
-  \array{
-     P_{fin}(X)_{\subset} &\overset{\nu}{\longrightarrow}& X
-     \\
-     J &\overset{\phantom{AAA}}{\mapsto}& x_J
-  }
-  \,.
-$$
-
-We will show that this net has no converging subnet.
-
-Assume on the contrary that there were a subnet
-
-$$
-  \array{
-     B && \overset{f}{\longrightarrow} && P_{fin}(X)
-     \\
-     & \searrow && \swarrow_{\nu}
-     \\
-     && X
-  }
-$$
-
-which converges to some $x \in X$. 
-
-By the assumption that $\underset{i \in I}{\cap} C_i = \emptyset$, there would exist an $i_x \in I$ such that $x \neq C_{i_x}$, and because $C_i$ is a [[closed subset]], there would exist even an [[open neighbourhood]] $U_x$ of $x$ such that $U_x \cap C_{i_x} = \emptyset$. This would imply that $x_J \neq U_x$ for all $J \supset \{i_x\}$.
-
-Now since the function $f$ defining the subset is cofinal, there would exist $b_1 \in B$ such that $\{i_x\} \subset f(b_1)$. Moreover, by the assumption that the subnet converges, there would also be $b_2 \in B$ such that $\nu_{b_2 \leq \bullet} \in U_x$. Since $B$ is directed, there would then be an upper bound $b \geq b_1, b_2$ of these two elements. This hence satisfies both $\nu_{f(e)} \in U_x$ as well as $\{i_x\} \subset f(b_1) \subset f(b)$. But the latter of these two means that $\nu_{f(b)}$ is not in $U_x$, which is a contradiction to the former. Thus we have a [[proof by contradiction]].
