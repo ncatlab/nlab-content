@@ -175,7 +175,7 @@ The following diagram in $\mathcal{C}$ commutes.
 $$
    \array{
       X                                  &  \overset{c \circ f}{\to}      & Y^I \\
-      id \times f \downarrow &                                             & \downarrow e \\
+      (id, f) \downarrow &                                             & \downarrow e \\
       X \times Y                     & \underset{f \times id}{\to} & Y \times Y \\ 
    }
 $$
@@ -195,7 +195,7 @@ and
 $$
    \array{
       X &  \overset{j}{\to}                             & Z \\
-         &   \underset{id \times f}{\searrow} & \downarrow u_{1} \\
+         &   \underset{(id, f)}{\searrow} & \downarrow u_{1} \\
          &                                                         & X \times Y
    }
 $$
