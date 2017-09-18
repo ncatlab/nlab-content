@@ -15,7 +15,7 @@
 
 ## Idea
 
-Embeddings of smooth manifolds are submanifold inclusions.
+Embeddings of [[differentiable manifolds]] are [[submanifold]] inclusions.
 
 
 ## Definition
