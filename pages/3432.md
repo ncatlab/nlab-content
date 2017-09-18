@@ -22,7 +22,7 @@ A **simplicial $C^\infty$-ring** is a [[simplicial object]] in the category of [
 When equipped with the [[model structure on simplicial algebras]] over the [[Lawvere theory]] [[CartSp]], simplicial $C^\infty$-rings are a model for [[smooth (∞,1)-algebras]], hence for $(\infty,1)$-algebras over [[CartSp]] regarded as an  [[(∞,1)-algebraic theory]].
 
 
-Therefore, in higher analogy to how $C^\infty$-rings serve as funcion algebras on [[smooth loci]] in [[differential geometry]], so simplicial $C^\infty$-rings serve as function rings on [[derived smooth manifold]]s and more general spaces in [[derived differential geometry]].
+Therefore, in higher analogy to how $C^\infty$-rings serve as function algebras on [[smooth loci]] in [[differential geometry]], so simplicial $C^\infty$-rings serve as function rings on [[derived smooth manifold]]s and more general spaces in [[derived differential geometry]].
 
 ## References
 
