@@ -472,6 +472,9 @@ _[[twisted smooth cohomology in string theory]]_.
 
 * [[reduction of structure groups]], [[orthogonal structure]]
 
+* [integrability of G-structures -- Examples -- Orthogonal structure](integrability+of+G-structures#ExamplesOrthogonalStructure)
+
+
 * [[generalized vielbein]], [[exceptional generalized geometry]]
 
 See also at [[field (physics)]] the section on _[Ordinary gravity](field%20%28physics%29#OrdinaryGravity)_.
