@@ -179,9 +179,14 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 * [[jet group]], [[jet groupoid]]
 
+* [[evolutionary vector field]]
+
+* [[variational bicomplex]]
+
 * [[metric jet]]
 
 * [[h-principle]]
+
 
 [[!include infinitesimal and local - table]]
 
