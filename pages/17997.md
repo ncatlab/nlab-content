@@ -91,7 +91,7 @@ $$
     &
     K(X) \otimes \mathbb{Z}[h]/((h-1)^2)
       & \longrightarrow & 
-    K(X) \times K(S^2)
+    K(X) \otimes K(S^2)
       & \overset{\boxtimes}{\longrightarrow} &
     K(X \times S^2)
     \\
