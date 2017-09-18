@@ -185,7 +185,7 @@ $$
 
 where on the left we have the [[groupoid]] of [[cocycles]] with coefficients in the internal [[delooping]] $\mathbf{B}G$ of the [[group object in an (infinity,1)-category|group object]] $G$: the [[moduli stack]] of $G$-principal bundles.
 
-In this context, all of the non-natural aspects of the traditonal theory of principal bundles disappear, for instance 
+In this context, all of the non-natural aspects of the traditional theory of principal bundles disappear, for instance 
 
 * _every_ $G$-principal bundle is locally trivial in a $(2,1)$-topos $\mathbf{H}$;
 
@@ -771,7 +771,7 @@ Originally this statement is due to ([Samelson 41](#Samelson41)).
 +-- {: .num_prop #ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}
 ###### Proposition
 
-For $G$ a [[compact Lie group]] and $K \subset H \subseg G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map
+For $G$ a [[compact Lie group]] and $K \subset H \subset G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map
 
 $$
   p \;\colon\; G/K \longrightarrow G/H
@@ -816,7 +816,7 @@ Examples where $P \to P/G$ is **not** locally trivial are in
 +-- {: .num_example }
 ###### Example (counter example)
 
-Let $P$ be the [[product]] of infinitly many [[circles]], and let $G$ be the product of their [[order]] 2 [[subgroups]]. This cannot have local  [[section]] because $P$ is [[locally connected topological space|locally connected]] and $G$ is not. Therefore $P$ is not even locally [[homeomorphism|homeomorphic]] to $(P / G) \times G$. 
+Let $P$ be the [[product]] of infinitely many [[circles]], and let $G$ be the product of their [[order]] 2 [[subgroups]]. This cannot have local  [[section]] because $P$ is [[locally connected topological space|locally connected]] and $G$ is not. Therefore $P$ is not even locally [[homeomorphism|homeomorphic]] to $(P / G) \times G$. 
 
 =--
 
