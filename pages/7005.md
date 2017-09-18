@@ -142,7 +142,7 @@ The fibration $E \to B$ is **univalent** in $\mathcal{C}$ if this morphism is a 
 We specialize the [general discussion](#InCategoricalSemantics) above to the realization in $\mathcal{C} = $ [[sSet]], equipped with the 
 standard [[model structure on simplicial sets]].
 
-For $E \to X$ any fibration ([[Kan fibration]])
+For $E \to B$ any fibration ([[Kan fibration]])
 between fibrant objects ([[Kan complexes]]),
 consider first the simplicial set
 
