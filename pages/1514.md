@@ -242,6 +242,10 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 ## Related concepts
 
+* [[S-matrix]]
+
+* [[Dyson formula]]
+
 * [[fermionic path integral]]
 
 * [[principle of extremal action]]
@@ -357,7 +361,7 @@ Lecture notes on [[quantum field theory]], emphasizing mathematics of the Euclid
 
 MathOverflow questions: [mathematics-of-path-integral-state-of-the-art](http://mathoverflow.net/questions/19495/mathematics-of-path-integral-state-of-the-art),[path-integrals-outside-qft](http://mathoverflow.net/questions/20393/path-integrals-outside-qft), [doing-geometry-using-feynman-path-integral](http://mathoverflow.net/questions/19490/doing-geometry-using-feynman-path-integral), [path-integrals-localisation](http://mathoverflow.net/questions/17577/path-integrals-localisation), [finite-dimensional-feynman-integrals](http://mathoverflow.net/questions/31966/finite-dimensional-feynman-integrals), [the-mathematical-theory-of-feynman-integrals](http://mathoverflow.net/questions/24823/the-mathematical-theory-of-feynman-integrals)
 
-* Theo Johnson-Freyd, _The formal path integral and quantum mechanics_, J. Math. Phys. __51__, 122103 (2010) [arxiv/1004.4305](http://arxiv.org/abs/1004.4305),  [doi](http://dx.doi.org/10.1063/1.3503472); _On the coordinate (in)dependence of the formal path integral_, [arxiv/1003.5730](http://arxiv.org/abs/1003.5730)
+* [[Theo Johnson-Freyd]], _The formal path integral and quantum mechanics_, J. Math. Phys. __51__, 122103 (2010) [arxiv/1004.4305](http://arxiv.org/abs/1004.4305),  [doi](http://dx.doi.org/10.1063/1.3503472); _On the coordinate (in)dependence of the formal path integral_, [arxiv/1003.5730](http://arxiv.org/abs/1003.5730)
 
 [[!redirects path integrals]]
 
