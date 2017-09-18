@@ -39,12 +39,15 @@ $\,$
 
 
 
-### Continuity
+### Analytic continuity
  {#Continuity}
 
-The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more 
-abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpaces} below.
+The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to a more
+abstract concept of "continuous space", this is the concept of _[[topological spaces]]_, def. \ref{TopologicalSpace} below.
 Topology is the study if the [[category]] of [[topological spaces]].
+
+
+#### Via epsilontic
 
 First recall the basic concepts from [[analysis]]:
 
@@ -96,6 +99,24 @@ such that for all $c \in \mathbb{R}$, $v , w \in V$ it holds true that
 
 =--
 
++-- {: .num_defn #OpenBalls}
+###### Definition
+
+Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], we write
+
+$$
+  B^\circ_x(\epsilon)
+    \;\coloneqq\;
+  \left\{
+    y \in X \;\vert\; d(x,y) \lt \epsilon
+  \right\}
+$$
+
+for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
+
+=--
+
+
 +-- {: .num_prop #MetricSpaceFromNormedVectorSpace}
 ###### Proposition
 
@@ -115,21 +136,21 @@ of metric spaces include the following:
 +-- {: .num_example }
 ###### Example
 
-1. for $n \in \mathbb{N}$, the [[Cartesian space]]
+For $n \in \mathbb{N}$, the [[Cartesian space]]
 
-   $$
-     \mathbb{R}^n
-       =
-     \left\{
-       \vec x
-        =
-       (x_i)_{i = 1}^n
-       \vert
-       x_i \in \mathbb{R}
-     \right\}
-   $$
+$$
+  \mathbb{R}^n
+    =
+   \left\{
+     \vec x
+     =
+     (x_i)_{i = 1}^n
+     \vert
+      x_i \in \mathbb{R}
+   \right\}
+$$
 
-   carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [[sum]] of the [[squares]] of the components:
+carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [[sum]] of the [[squares]] of the components:
 
    $$
      \vert \vec x\vert
@@ -141,18 +162,18 @@ of metric spaces include the following:
      \,.
    $$
 
-1. more generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the [[p-norm]]
 
-   $$ 
-     {\vert \vec x \vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}} 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="200">
+</div>
+
+More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the [[p-norm]]
+
+   $$
+     {\vert \vec x \vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}}
    $$
 
 The graphics on the right (grabbed from Wikipedia) shows unit circles in $\mathbb{R}^2$ with respect to various [[p-norms]].
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="250">
-</div>
-
 
 =--
 
@@ -191,29 +212,19 @@ The function $f$ is called just _continuous_ if it is continuous at every point 
 
 =--
 
+
+
+
+
+#### Via open subsets
+
 We now reformulate this analytic concept in terms of the simple but important concept of _[[open sets]]_:
 
-+-- {: .num_defn #OpenBalls}
-###### Definition
-**(neighbourhood and open set)**
-
-Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
-
-$$
-  B^\circ_x(\epsilon)
-    \;\coloneqq\;
-  \left\{
-    y \in X \;\vert\; d(x,y) \lt \epsilon
-  \right\}
-$$
-
-for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
-
-=--
 
 
 +-- {: .num_defn #OpenSubsetsOfAMetricSpace}
 ###### Definition
+**(neighbourhood and open set)**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
@@ -254,7 +265,6 @@ First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subs
 
 Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for every $x \in X$ and $B_{f(x)}^\circ(\epsilon)$ an [[open ball]] around its image, we need to produce an open ball $B_x^\circ(\delta)$ in its pre-image. But by assumption $f^{-1}(B_{f(x)}^\circ(\epsilon))$ contains a [[neighbourhood]] of $x$ which by definition means that it contains such an open ball around $x$.
 
-
 =--
 
 
@@ -285,9 +295,10 @@ and
 
 =--
 
-This motivates the following generalized definition:
+This motivates the following generalized definition, which abstracts away from the concept of [[metric space]]
+just its system of [[open subsets]]:
 
-+-- {: .num_defn #TopologicalSpaces}
++-- {: .num_defn #TopologicalSpace}
 ###### Definition
 **(topological spaces)**
 
@@ -307,11 +318,17 @@ A _[[topological space]]_ is a set $X$ equipped with such a [[topology]].
 
 =--
 
-The following shows all the topologies on the 3-element set (up to permutation of elements)
++-- {: .num_example}
+###### Example
+
+
+The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
 
 <img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
 
 > graphics grabbed from [Munkres 75](#Munkres75)
+
+=--
 
 It is now immediate to formally implement the
 
@@ -326,7 +343,7 @@ $\,$ $\,$ _Pre-Images of open subsets are open._
 ###### Definition
 **(continuous maps)**
 
-A _[[continuous function]]_ between [[topological spaces]]
+A _[[continuous function]]_ between [[topological spaces]] (def. \ref{TopologicalSpace})
 
 $$
   f \colon (X, \tau_X) \to (Y, \tau_Y)
@@ -339,7 +356,6 @@ $$
 $$
 
 such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X$.
-
 
 =--
 
@@ -361,7 +377,7 @@ One says that
 
 1. [[continuous maps]] constitute the [[morphisms]] ([[homomorphisms]])
 
-of  a _[[category]]_. The _[[category of topological spaces]]_ (_[[Top]]_, for short).
+of  a _[[category]]_. The _[[category of topological spaces]]_ ("[[Top]]" for short).
 
 It is useful to depict collections of [[objects]] with [[morphisms]] between them
 by [[diagrams]], like this one:
@@ -375,21 +391,43 @@ by [[diagrams]], like this one:
 
 
 
-Our motivating example now reads:
+Our motivating example now reads as follows:
 
 +-- {: .num_example #MetricTopology}
 ###### Example
 **(metric topology)**
 
-Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_.
-
-Stated more concisely: the [[open balls]] in a metric space constitute a "[[basis of a topology|basis]]" for the [[metric topology]].
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Then the collection of its [[open subsets]] in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpace}. This is called the _[[metric topology]]_.
 
 =--
 
-With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology.
+Stated more concisely: the [[open balls]] in a metric space constitute a "[[basis of a topology|basis]]" for the [[metric topology]]:
 
-To make this precise, one says that a [[morphism]]
++-- {: .num_defn #TopologyBase}
+###### Definition
+
+Let $(X, \tau)$ be a [[topological space]], def. \ref{TopologicalSpace},
+and let 
+
+$$
+  B \subset \tau
+$$ 
+
+be a [[subset]] of its set of [[open subsets]]. We say that 
+
+1. $B$ is a _[[topological base|basis for the topology]]_ if every open subset $O \in \tau$ is a [[union]] of elements of $B$;
+
+1. $B$ is a _[[topological base|sub-basis for the topology]]_ if every open subset $O \in \tau $ is a [[union]] of [[finitary intersections]] of elements of $B$.
+
+
+=--
+
+Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the 
+[[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
+
+#### Homeomorphism
+
+With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] thus defined, we obtain the concept of "sameness" in topology. To make this precise, one says that a [[morphism]]
 
 $$
   X \overset{f}{\to} Y
@@ -617,10 +655,41 @@ Several separation axioms may also be interpreted in broader contexts that plain
 
 ### Compactness
 
-* [[compact topological space]]
+A [[metric space]] is called _[[sequentially compact space|sequntially compact]]_ (recalled below as def. \ref{SequentiallyCompact})
+if every [[sequence]] of points in it has a [[sub-sequence]] which [[convergence|converges]]. Here we discuss how
+to generalize this concept of compactness from [[metric spaces]] to [[topological spaces]].
 
+The right definition turns out to be this one:
 
-Recall the concept of [[convergence]] via [[epsilontic analysis]]:
++-- {: .num_defn #OpenCover}
+###### Definition
+
+An _[[open cover]]_ of a [[topological space]] $X$ (def. \ref{TopologicalSpace})
+is a collection $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$,
+indexed by some [[set]] $I$, such that their [[union]] is all of $X$:
+
+$$
+  \underset{i \in I}{\cup} U_i \;=\; X
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #CompactTopologicalSpace}
+###### Definition
+
+A [[Hausdorff topological space|Hausdorff]] [[topological space]] $X$ (def. \ref{TopologicalSpace}) is
+ _[[compact topological space]]_ if every [[open cover]] $\{U_i \to X\}_{i \in I}$ (def. \ref{OpenCover}) has
+ a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
+ $\{U_i \to X\}_{i \in J}$ is still a cover of $X$, i.e.  $\underset{i \in J}{\cup} U_i = X$.
+
+=--
+
+#### Compact metric spaces
+
+We recall now how for [[metric spaces]] this concept of compactness is equivalent to the
+one via [[convergence|converging]] [[sub-sequences]].
+So recall the concept of [[convergence]] and [[compactness]] of [[metric spaces]] via [[epsilontic analysis]]:
 
 +-- {: .num_defn #Sequences}
 ###### Definition
@@ -635,15 +704,29 @@ $$
   X
 $$
 
-from the [[natural numbers]] to $X$. 
+from the [[natural numbers]] to $X$.
+
+A _[[sub-sequence]]_ of such a sequence is a sequence of the form
+
+$$
+  x_{\iota(-)}
+   \;\colon\;
+  \mathbb{N}
+    \overset{\iota}{\hookrightarrow}
+  \mathbb{N}
+    \overset{x_{(-)}}{\longrightarrow}
+  X
+$$
+
+for some [[injection]] $\iota$.
 
 =--
 
 +-- {: .num_defn #Convergence}
 ###### Definition
 
-Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). 
-Then a [[sequence]] 
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}).
+Then a [[sequence]]
 
 $$
   x_{(-)}
@@ -659,12 +742,15 @@ $$
   x_i \overset{i \to \infty}{\longrightarrow} y
 $$
 
-if 
+if
 
 $$
   \underset{ {\epsilon \in \mathbb{R}}  \atop {\epsilon \gt 0} }{\forall}
+  \;
   \underset{N_\epsilon \in \mathbb{N}}{\exists}
+  \;
   \underset{ {i \in \mathbb{N}} \atop {i \gt N_\epsilon} }{\forall}
+  \;\colon\;
   d(x_i, y) \leq \epsilon
   \,.
 $$
@@ -684,9 +770,11 @@ is called a _[[Cauchy sequence]]_ if
 
 $$
   \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
+  \;
   \underset{N_\epsilon \in \mathbb{N}}{\exists}
+  \;
   \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
-  :
+  \;:\;
   d(x_i, x_j) \leq \epsilon
   \,.
 $$
@@ -704,10 +792,109 @@ is complete in this sense is called a _[[Banach space]]_.
 
 =--
 
++-- {: .num_defn #SequentiallyCompact}
+###### Definition
+
+A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) is called _[[sequentially compact space|sequentially compact]]_
+if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[convergence|converges]] (def. \ref{CIonvergence}).
+
+=--
+
+The key fact to translate this [[epsilontic analysis|epsilontic]] definition of comopactness to a concept that
+makes sense for general [[topological space]] is the following:
+
++-- {: .num_prop}
+###### Proposition
+
+For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equivalent:
+
+1. $X$ is [[sequentially compact space|sequentially compact]];
+
+1. every [[open cover]] $\{U_i \to X\}_{i \in I}$ of $X$ has
+ a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
+ $\{U_i \to X\}_{i \in J}$ is still a cover of $X$: $\underset{i \in J}{\cup} U_i = X$.
 
 
+=--
 
 
++-- {: .num_prop }
+###### Proposition
+
+A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of a [[Cartesian space]] is compact precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+[[compact subspaces of Hausdorff spaces are closed]].
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
+
+=--
+
+
+#### Compact-open topology
+
++-- {: .num_defn #CompactOpenTopology}
+###### Definition
+
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (in that for every point, every [[neighbourhood]] contains a [[compact topological space|compact]] neighbourhood), the **[[mapping space]]**
+
+$$
+  X^Y \in Top
+$$
+
+is the [[topological space]]
+
+* whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous
+functions]] $Y \to X$,
+
+* whose [[open subsets]] are [[unions]] of [[finitary intersections]] of the following [[topological base|subbase]] elements of standard open subsets:
+
+  the standard open subset $U^K \subset Hom_{Top}(Y,X)$ for
+
+  * $K \hookrightarrow Y$ a [[compact topological space]] subset
+
+  * $U \hookrightarrow X$ an [[open subset]]
+
+  is the subset of all those [[continuous functions]] $f$ that fit into a [[commuting diagram]] of the form
+
+  $$
+    \array{
+       K &\hookrightarrow& Y
+       \\
+       \downarrow && \downarrow^{\mathrlap{f}}
+       \\
+       U &\hookrightarrow& X
+    }
+    \,.
+  $$
+
+Accordingly this is called the _[[compact-open topology]]_ on the set of functions.
+
+The construction extends to a [[functor]]
+
+$$
+  (-)^{(-)} \;\colon\; Top_{lc}^{op} \times Top \longrightarrow Top
+  \,.
+$$
+
+=--
 
 
 
@@ -718,7 +905,7 @@ is complete in this sense is called a _[[Banach space]]_.
 
 One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as metric spaces.
 
-We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc. The following definition suggests that universal constructions be seen in the context of $Top$ as a [[topological concrete category]] (see Proposition \ref{topcat} below):
+We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc. 
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
@@ -1021,7 +1208,7 @@ The picture on the right shows two open subsets inside the [[square]], regarded 
 ###### Example
 **(quotient topological space)**
 
-Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let
+Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let
 
 $$
   R_\sim \subset X \times X
