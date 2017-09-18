@@ -18,7 +18,7 @@
 +-- {: .num_defn #tStruc}
 ###### Definition
 
-Let $C$ be a [[triangulated category]]. A _t-structure_ on $C$ is a [[pair]] $\mathfrak{t}=(C_{\ge 0}, C_{\le 0})$ of [[full subcategories]]
+Let $C$ be a [[triangulated category]]. A _t-structure_ on $C$ is a [[pair]] $\mathfrak{t}=(C_{\ge 0}, C_{\le 0})$ of [[strictly full subcategories]]
 
 $$
    C_{\geq 0}, C_{\leq 0} \hookrightarrow C
