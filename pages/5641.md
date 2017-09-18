@@ -167,13 +167,13 @@ Therefore a chain map $(f,g,\psi) :  C_\bullet \otimes I_\bullet \to D_\bullet$ 
 $$
   \array{
     C_{n+1}\oplus C_{n+1} \oplus C_{n} 
-      &\stackrel{(f_{n+1},g_{n+1}, \psi_n)}{\to}& D_n
+      &\stackrel{(f_{n+1},g_{n+1}, \psi_n)}{\to}& D_{n+1}
     \\
     {}^{\mathllap{}}\downarrow && \downarrow^{\mathrlap{\partial^D}}
     \\
      C_{n} \oplus C_{n} \oplus C_{n-1} &\stackrel{(f_n,g_n,\psi_{n-1})}{\to}
     & 
-    D_{n-1}
+    D_n
   }
   \,.
 $$
