@@ -99,7 +99,7 @@ where
 A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory}
 is _regular_ if 
 
-1. it is _[[finitely generated object|finitely generated]]_ in that there exists an [[object]] $E \in \mathcal{A}$ such that every other object is a [[subquotient]] of a [[direct sum]] $E^{\otimes_n}$, for some $n \in \mathbb{N}$;
+1. it is _[[finitely generated object|finitely generated]]_ in that there exists an [[object]] $E \in \mathcal{A}$ such that every other object is a [[subquotient]] of a [[direct sum]] of tensor products $E^\otimes_n}$, for some $n \in \mathbb{N}$;
 
 1. for every [[object]] $X\in \mathcal{A}$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, vanishes: $S_\lambda(X) = 0$.
 
@@ -114,7 +114,7 @@ An affine algebraic _[[supergroup]]_ $G$ is the [[formal dual]] of a [[super-com
 
 =--
 
-We will just say "supergroup" for short in all of the following.
+We will just say "supergroup" for short in all of the following. We assume throughout that $\mathcal{O}(G)$ is a finitely generated $k$-algebra.
 
 +-- {: .num_defn #ParityAutomorphism}
 ###### Definition
@@ -179,7 +179,7 @@ For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ a
 ###### Definition
 
 
-A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def.\ref{InnerParity}, is a superrepresentation of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[super vector space]] $V$ over $k$ such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
+A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a superrepresentation of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[super vector space]] $V$ over $k$ such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
 
 =--
 
@@ -195,11 +195,13 @@ For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivi
 +-- {: .num_prop #RegularTensorCategoriesOfSuperrepresentations}
 ###### Proposition
 
-The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresentation} of an algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ is a regular $k$-[[tensor category]], def.\ref{Regularity}.
+The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresentation} of an algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ is a regular $k$-[[tensor category]] according to def.\ref{Regularity}.
 
 =--
 
 ([Deligne 02, 1.21](#Deligne02))
+
+Any finite dimensional [[faithful representation]] (which always exists, [prop.](faithful+representation#AlgebraicGroupHasFinDimFaithfulRepresentations)) serves as a generator ([prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
 
 +-- {: .num_theorem #TheTheorem}
 ###### Theorem
