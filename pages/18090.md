@@ -20,7 +20,7 @@ $\,$
 
 {#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 
-**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170502.pdf:file]])
+**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170502b.pdf:file]])
 
 **part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
 
@@ -131,41 +131,43 @@ $\,$
 
 ## References
 
-Introductory textbooks to topology include
 
-* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
+### General
 
-* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+A canonical compendium is
 
-* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
+* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ in _Elements of Mathematics III: General topology_,  Springer (1971, 1990)
 
-See also
+Introductory textbooks include
 
-* [[Alan Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
+* {#Kelley55} [[John Kelley]] _General Topology_, Graduate Texts in Mathematics, Springer (1955)
 
-and see also the references at _[[algebraic topology]]_.
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
 
 Lecture notes include
 
-* [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+* {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
-* Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
-frankfurt.de/64271720/TopNotes_Spring
-10.pdf))
+See also the references at _[[algebraic topology]]_.
 
-* Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
 
-Disucssion of [[sober topological spaces]] is in
+### Special topics
+
+The standard literature typically omits the following important topics:
+
+
+Discussion of [[sober topological spaces]] is briefly in
 
 * {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
+An introductory textbook that takes sober spaces, and their relation to logic, as the starting point for toplogy is
+
+* {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
 
 
+Detailed discussion of the [[Hausdorff reflection]] is in
 
-See also
-
-* [[Topospaces]], a Wiki with basic material on topology.
-
+* {#vanMunster14} Bart van Munster, _The Hausdorff quotient_, 2014 ([pdf](https://www.math.leidenuniv.nl/scripties/BachVanMunster.pdf))
 
 
 
