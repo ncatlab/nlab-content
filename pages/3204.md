@@ -65,10 +65,17 @@ All the infinitesimals appearing in nonstandard analysis are *invertible*, since
 
 These toposes are related to the smooth topos called $\mathcal{G}$ there, which has nilpotent but no invertible infinitesimals, by a transfer theorem (chapter VII, section 4) valid for a certain class of [[coherent formula]]s.  Additionally, the 'object of nonstandard smooth natural numbers' in these toposes is defined by an 'algebra of unbounded sequences', similar in spirit to the unbounded sequences which represent infinitely large numbers in nonstandard analysis.  However, it is not clear whether any more precise comparison can be made.
 
+## Related concepts
+
+* [[infinitesimal object]]
+
+* [[infinitesimal neighbourhood]]
 
 ## References
 
 *  article in the [English Wikipedia](http://en.wikipedia.org/wiki/Infinitesimal) for etymology
+
+* {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
 
 
 [[!redirects infinitesimal]]
