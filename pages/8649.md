@@ -45,9 +45,12 @@ The name of the concept is due to
 
 * {#Dirac31} [[P.A.M. Dirac]] _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
-A review is for instance in
+Review is for instance in
 
 * [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_
+
+* L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific, 2000
+
 
 A broader perspective is in
 
