@@ -107,6 +107,12 @@ See also [[dg-category]].
 * For any small $Ab$-enriched category $R$, the enriched [[presheaf category]] $[R^{op},Ab]$ is, of course, $Ab$-enriched.  If $R$ is a ring, as above, then $[R^{op},Ab]$ is the category of $R$-modules.
 
 
+## Related concepts
+
+* [[hom-group]]
+
+* [[additive category]]
+
 ## References
 
 * John Baez, [Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html), blog
