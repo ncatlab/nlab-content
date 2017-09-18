@@ -53,6 +53,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Geometry Gems](http://GeometryGems.wikispaces.com) -- Resources for geometry teachers
 
+* [Teachmathfree](http://teachmathfree.com) -- Quick/ Mental math, vedic mathematics 
+
 * [GreenApples](http://GreenApples.wikispaces.com) -- Resources for new math teachers teachers
 
 * [groupprops.subwiki.org](http://groupprops.subwiki.org/wiki/Main_Page), The Group Properties Wiki, by a graduate student at U. Chicago
@@ -388,6 +390,8 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Out of print math](http://outofprintmath.blogspot.com)
 
 * [Wild About Math](http://wildaboutmath.com/)
+
+* [Teachmathfree](http://teachmathfree.com/)
 
 * [Mental Maths Games For 11 Year Olds](http://mental-maths-trick.blogspot.com/2014/11/mental-maths-aged-11-years-old-fun.html)
 
