@@ -225,7 +225,7 @@ $$
 
 ## Related concepts
 
-* [[model structure on dg-coalgebras]]
+* [[model structure on dg-comodules]]
 
 * [[model structure for L-∞ algebras]]
 
