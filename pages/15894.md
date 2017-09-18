@@ -73,8 +73,10 @@ When one proves something in [[ZF]], it is automatically also true in all [[forc
 
 #### For laymen
 
-
 #### For set theorists
+ {#WhyShouldICareForSetTheorists}
+
+Traditional [[set theory]] is formulated in [[first-order logic]]. Under the [[propositions as types]] interpretation, first order logic maps soundly and completeley into [[type theory]] ([Barendregt 91, section 4](pure+type+system#Barendregt91)). But now the [[homotopy 0-types]] in [[homotopy type theory]] already give a [[constructive set theory]], natively, without further axiomatization. See at _[[h-set]]_ for more.
 
 #### For type theorists
 
