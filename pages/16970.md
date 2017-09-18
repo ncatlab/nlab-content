@@ -24,12 +24,14 @@ The generalization of the concept of [[homotopy group]] from [[homotopy theory]]
 
 ## Definition
 
+### Via $G$-equivariant maps
+
 Let $G$ be a [[finite group]]. For $X$ a $G$-[[equivariant spectrum]] modeled as an [[orthogonal spectrum]] with $G$-[[action]], for $H \hookrightarrow G$ a [[subgroup]] and for $k \in \mathbb{N}$ then the $k$th $H$-equivariant homotopy group of $X$ is the [[colimit]]
 
 $$
   \pi_k^G(X)
   \coloneqq
-  \underset{\longrightarrow_n}{\lim} [S^{n \rho_g}, (\Omega^k X)(n \rho_G)]_G
+  \underset{\longrightarrow_{\mathrlap{n}}}{\lim} [S^{n \rho_g}, (\Omega^k X)(n \rho_G)]_G
   \,,
 $$
 
@@ -46,6 +48,17 @@ where
 * $[-,-]_G$ is the set of [[homotopy classes]] of $G$-equivariant maps of pointed [[topological G-spaces]].
 
 (e.g. [Schwede 15, section 3](#Schwede15))
+
+### Via fixed point spectra
+
+Equivalently, the $k$th $G$-equivariant homotopy group of a $G$-equivariant spectrum $X$ is the plain $k$th homotopy group of its [[fixed point spectrum]] $F^G X$
+
+$$
+  \pi_k^G(X) \simeq \pi_k(F^G X)
+  \,.
+$$
+
+(e.g. [Schwede 15, prop. 7.2](#Schwede15))
 
 ## Examples
 
