@@ -78,10 +78,14 @@ and in the context of [[equivariant stable homotopy theory]]
 
 * {#Schwede} [[Stefan Schwede]], _Global homotopy theory_ ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
 
-
 Reviews include
 
 * Knut Berg, _Orthogonal spectra_ ([pdf](http://folk.uio.no/rognes/theses/orthogonal.pdf))
+
+Lecture notes includes
+
+* [[Stefan Schwede]], section 1 of _[[Lectures on Equivariant Stable Homotopy Theory]]_ ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
 
 See also
 
