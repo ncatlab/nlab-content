@@ -1,0 +1,12 @@
+An *oriented graph* is a [[graph]] (in the sense of a set $V$ together with a collection $E$ of two-element subsets of $V$) *each of whose edges has been given one of the two orientations*. 
+
+More formally: let $\binom{V}{2}$ denote the set of two-element subsets of $V$, 
+and $\Delta \hookrightarrow V^2 = V \times V$ the diagonal $\{(v, v): v \in V\}$. Then there is a quotient map $q: V^2 \setminus \Delta \to \binom{V}{2}$, realizing $\binom{V}{2}$ as the set of orbits of the fixed-point free involution $(x, y) \mapsto (y, x)$ on $V^2 \setminus \Delta$. Then an oriented graph consists of a graph $(V, E \hookrightarrow \binom{V}{2}$ together with a section of the quotient $p$ identified in the pullback diagram 
+
+$$\array{
+F & \to & V^2 \setminus \Delta \\ 
+\mathllap{p} \downarrow & & \downarrow \mathrlap{q} \\ 
+E & \hookrightarrow & \binom{V}{2}.
+}$$
+
+Equivalently, an oriented graph consists of a set $V$ and a subset $E \hookrightarrow V^2$ such that $(x, y) \in E$ implies $(y, x) \notin E$. We may depict a pair $(x, y)$ in $E$ as an arrow from $x$ to $y$. Of course the condition rules out loops (arrows from a vertex to itself), and evidently the notion of oriented graph is very different from the notion of [[digraph]] where 2-cycles are allowed (an arrow from $x$ to $y$ and another back from $y$ to $x$. 
