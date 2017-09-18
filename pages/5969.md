@@ -237,9 +237,9 @@ and is reviewed in
 
 The statement that the algebra of currents is a central [[Lie algebra extension]] of the algebra of symmetries by [[de Rham cohomology]] of the jet bundle appears as theorem 11.2 in (Part II of)
 
-* [[Alexandre Vinogradov]], _The $\mathcal{C}$-spectral sequence, Lagrangian formalism, and conservation laws. I. the linear theory_, Journal of Mathematical Analysis and Applications **100**, 1-40 (1984) ([doi](http://dx.doi.org/10.1016/0022-247x(84)90071-4))
+* {#Vinogradov84a} [[Alexandre Vinogradov]], _The $\mathcal{C}$-spectral sequence, Lagrangian formalism, and conservation laws. I. the linear theory_, Journal of Mathematical Analysis and Applications **100**, 1-40 (1984) ([doi](http://dx.doi.org/10.1016/0022-247x(84)90071-4))
 
-* [[Alexandre Vinogradov]], _The $\mathcal{C}$-spectral sequence, Lagrangian formalism, and conservation laws. II. The nonlinear theory_, Journal of Mathematical Analysis and Applications **100**, Issue 1, 30 April 1984, Pages 41-129 ([publisher](http://www.sciencedirect.com/science/article/pii/0022247X84900726))
+* {#Vinogradov84b} [[Alexandre Vinogradov]], _The $\mathcal{C}$-spectral sequence, Lagrangian formalism, and conservation laws. II. The nonlinear theory_, Journal of Mathematical Analysis and Applications **100**, Issue 1, 30 April 1984, Pages 41-129 ([publisher](http://www.sciencedirect.com/science/article/pii/0022247X84900726))
 
 and is stated as exercise 2.28 on p. 203 of
 
