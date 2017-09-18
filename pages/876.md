@@ -54,6 +54,10 @@ If a family $(A_i)_{i: I}$ of [[subsets]] of a given set $X$ are all pairwise di
 
 Accordingly, a union of pairwise disjoint subsets may be called an __internal disjoint union__.  (Compare the internal vs external notions of [[direct sum]].)
 
+## Examples
+
+* [[countable unions of countable sets are countable]]
+
 
 ## Related concepts
 
