@@ -74,3 +74,6 @@ If $\mathbb{T}$ is a theory over a countable signature, then $\mathcal{E}$ can b
 [[!redirects first-order logical theories]]
 [[!redirects first-order logical theory]]
 [[!redirects elementary theory]]
+
+[[!redirects first order theory]]
+[[!redirects first order theories]]
