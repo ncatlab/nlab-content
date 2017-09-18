@@ -83,6 +83,7 @@ In an [[abelian category]] $C$, every [[morphism]] between simple objects is eit
 
 ## Related entries
 
+* [[length of an object]]
 
 * [[semisimple category]]
 
