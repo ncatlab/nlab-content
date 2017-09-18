@@ -102,7 +102,7 @@ $$
 
 is equivalently the [[(∞,n)-category]] of [[En-algebras]] and [[(∞,1)-bimodules]] between them in the [[opposite (∞,1)-category]] of $\mathbf{H}$ (since every object in a cartesian category is uniquely a [[coalgebra]] by its [[diagonal]] map).
 
-(This immediately applies that every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]].)
+(This immediately implies that every object in $Span_n(\mathbf{H})$ is a self-[[fully dualizable object]].)
 
 To see how this works, consider $X \in \mathbf{H}$ any object regarded as a coalgebra in $\mathbf{H}$ via its [[diagonal map]]. Then a [[comodule]] $E$ over it is a [[co-action]]
 
@@ -110,7 +110,7 @@ $$
   E \to E \times X
 $$
 
-and hence is canoncially given by just a map $E \to X$. 
+and hence is canonically given by just a map $E \to X$. 
 
 Then for 
 
@@ -129,7 +129,7 @@ two consecutive spans, now interpreted as two bi-comodules, their [[tensor produ
 $$
   E_1 \times E_2
   \stackrel{\to}{\to}
-  E_1 \times X \times E_2
+  E_1 \times Y \times E_2
   \stackrel{\to}{\stackrel{\to}{\to}}
   ...
 $$
@@ -137,7 +137,7 @@ $$
 This is indeed the fiber product
 
 $$
-  E_1 \underset{X}{\times} E_2 \stackrel{(p_1, p_2)}{\to} E_1 \times E_2
+  E_1 \underset{Y}{\times} E_2 \stackrel{(p_1, p_2)}{\to} E_1 \times E_2
 $$
 
 as it should be for the composition of [[correspondences]].
