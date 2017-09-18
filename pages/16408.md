@@ -192,7 +192,7 @@ The **category of rooted combinatorial maps** $CM_\bullet$ is defined as follows
 * morphisms $(M,r) \to (M',r')$ are map morphisms $h : M \to M'$ in $CM$ which preserve the root $h(r) = r'$.
 =--
 
-Note that $CM_\bullet$ is equivalent to the [[comma category]] $1 \downarrow U$ of the singleton set 1 with the forgetful functor $U : CM \to Set$.  In particular, $CM_\bullet$ is _not_ the [[coslice category]] $1/CM$ of the terminal object $1 \in CM$, which is actually a trivial category (compare: [[pointed object]]).
+Note that $CM_\bullet$ is equivalent to the [[comma category]] $1 \downarrow U$ of the singleton set 1 with the forgetful functor $U : CM \to Set$.  (In particular, $CM_\bullet$ is _not_ the [[under category]] of the terminal object in $CM$, which is actually a trivial category.)
 
 Tutte's observation that rooted maps have no symmetries can be formulated as follows:
 
