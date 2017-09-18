@@ -21,7 +21,7 @@
 
 ## Idea
 
-The **Wightman axioms** are an attempt to axiomatize and thus formalize the notion of a [[quantum field theory]] on [[Minkowski spacetime]] in the sense of [[AQFT]], i.e. in terms of the assignment of field operators to points or subsets of [[spacetime]]. 
+The **Wightman axioms** are an attempt to axiomatize and thus formalize the notion of a [[quantum field theory]] on [[Minkowski spacetime]] in the sense of [[AQFT]], i.e. in terms of the assignment of field [[quantum observables]] to points or subsets of [[spacetime]]. 
 
 They serve as the basis of what is known as **constructive quantum field theory** which seeks to provide a mathematically sound framework for quantum theory over the Minkowski space background of [[special relativity]].  [[Arthur Wightman]] first formulated them in the 1950s but they were not published until 1964 after advances in scattering theory confirmed their applicability.
 
@@ -53,7 +53,7 @@ The spectrum of the energy-momentum operator P is concentrated in the closed upp
 
 +-- {.num_defn}
 ###### Axiom
-There exists in $\mathcal{H}$ a unique unit vector $|0\rangle$ (the _[[vacuum]] state_), which is invariant with respect to the space-time translations $U(a,1)$. 
+There exists in $\mathcal{H}$ a unique unit vector $|0\rangle$ (the _[[vacuum state]]_), which is invariant with respect to the space-time translations $U(a,1)$. 
 =--
 
 +-- {.num_defn}
