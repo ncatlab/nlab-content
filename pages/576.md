@@ -110,7 +110,7 @@ The examples induced from [[self-duality]]-structure are discussed abstractly in
 
 * {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2010 ([[SelingerSelfDual.pdf:file]])
 
-That finite-dimensional Hilbert spaces are "complete for dagger-compactness" s shown in
+That finite-dimensional Hilbert spaces are "complete for dagger-compactness" is shown in
 
 *  [[Peter Selinger]] (2012), _Finite dimensional Hilbert spaces are complete for dagger compact closed categories_, ([arXiv:1207.6972](http://arxiv.org/abs/1207.6972)).
    {#Selinger2012}
