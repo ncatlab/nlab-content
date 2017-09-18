@@ -24,9 +24,6 @@ E.M. Brown (1974) suggested a different construction based on an infinite string
 ######Definition######
 Let $\underline{S}^n = ([0,\infty) \cup \bigcup_{k=0}^\infty(S^n \times \{k\})/(k\sim (\underline{1},k)$. This is called a **string of $n$-spheres.**
 =--
-This, of course, means that $\underline{S}^n $ is defined as a pushout
- 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{\mathbb{N}\ar[r]\ar[d]%26[0,\infty)\ar[d]\\S^n\times\mathbb{N}\ar[r]%26\underline{S}^n}"/>
 
 For the string of circles, it looks something like this:
 
@@ -101,7 +98,7 @@ If one removes the condition of finite dimensionality, the result no longer hold
 ##Brown's $\mathcal{P}$-functor##
 It would be useful to have a construction of the groups $\underline{\pi}^\infty_n(X,*)$ from the [[pro-group]] $\pi_n(\varepsilon(X),*(k))$. Such a construction was given by Brown in the same article (1974).  (An alternative construction due to Grossman will be discussed in a separate entry.)
 
-Let $\underline{G} = \{G_n,p^m_n\}$ be an inverse sequence of groups (aka _tower of groups_), that is a pro-group that is indexed by the ordered set of positive integers. We assume $G_0=1$. Consider all sequences $\{g_{k(n)}\}$ with $g_{k(n)} \in G_{k(n)}$, where $k(n)$ is a sequence of natural numbers such that $k(n)\to \infty$ as $n\to \infty$. Given two such sequences $\{g_{k(n)}\}$ and $\{g\prime_{l(n)}\}$, we say they are equivalent if there is a third sequence $m(n)$, $m(n)\to \infty$ as $n \to \infty$, with $m(n)\leq min(k(n),l(n)))$ and $p^{k(n)}_{m(n)}(g_{k(n)}) =  p^{l(n)}_{m(n)}(g\prime_{l(n)})$.  We let $\,mathcal{P}(\underline{G})$ be the set of equivalence classes.
+Let $\underline{G} = \{G_n,p^m_n\}$ be an inverse sequence of groups (aka _tower of groups_), that is a pro-group that is indexed by the ordered set of positive integers. We assume $G_0=1$. Consider all sequences $\{g_{k(n)}\}$ with $g_{k(n)} \in G_{k(n)}$, where $k(n)$ is a sequence of natural numbers such that $k(n)\to \infty$ as $n\to \infty$. Given two such sequences $\{g_{k(n)}\}$ and $\{g\prime_{l(n)}\}$, we say they are equivalent if there is a third sequence $m(n)$, $m(n)\to \infty$ as $n \to \infty$, with $m(n)\leq min(k(n),l(n)))$ and $p^{k(n)}_{m(n)}(g_{k(n)}) =  p^{l(n)}_{m(n)}(g\prime_{l(n)})$.  We let $\mathcal{P}(\underline{G})$ be the set of equivalence classes.
 
 * This has a natural group structure;
 
