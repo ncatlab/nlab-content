@@ -55,7 +55,7 @@ Digraphs are one way to formalize the idea of *directed connections between [[po
 
 +-- {: .num_defn #Digraph}
 ###### Definition
-**(digraph; directed graphs via [[material set theory]])**
+**(digraph)**
 
 A digraph is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
 Here, $V\times V$ denotes the [[product]], and ${}\setminus{}$ the [[relative complement]] in the [[category of sets]].
@@ -234,6 +234,6 @@ The definition which is *strictly relevant* to the present article is Power's: [
 * [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
 {#Power1990} 
 
+
 [[!redirects digraph]]
 [[!redirects digraphs]]
-
