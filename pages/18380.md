@@ -6,11 +6,11 @@ In [[set theory]], it is common to build non-standard models of set theory insid
 
 ### Question ###
 Mike Shulman, in his blog-post [HoTT should eat itself](https://homotopytypetheory.org/2014/03/03/hott-should-eat-itself/) gives a good overview of the state of the art.
-There is later work by [Altenkirch and Kaposi](AltenKirchKaprosi)
+There is later work by [Altenkirch and Kaposi](#AltenkirchKaprosi)
 which treats the set level case. This makes progress over earlier work in standard type theory.
 
 ### References ###
 
 * Peter Dybjer, _Internal type theory_, Types for Proofs and Programs (1996): 120-134. [PDF](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)
 * James Chapman, _Type theory should eat itself_, Electronic Notes in Theoretical Computer Science 228 (2009): 21-36, [html](http://www.sciencedirect.com/science/article/pii/S157106610800577X).
-* {#AltenKirchKaprosi} Thorsten Altenkirch, Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
+* {#AltenkirchKaprosi} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
