@@ -186,7 +186,7 @@ $$
    \array{
       X                                  &  \overset{f}{\to}            & Y \\
       j \downarrow                &                                        & \downarrow c \\
-      Z \times Y                     & \underset{u_{0}}{\to}  & Y^I \\ 
+      Z                     & \underset{u_{0}}{\to}  & Y^I \\ 
    }
 $$
 
