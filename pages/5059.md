@@ -966,7 +966,7 @@ Discussion of Green-Schwarz strings on [[super anti de Sitter spacetimes]] inclu
 
 For the [[superstring]]:
 
-* {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkaday Tseytlin]], _Type IIB superstring action in AdS_5 \times S^5 background_, Nucl.Phys.B533:109-126, 1998 ([arXiv:hep-th/9805028](http://arxiv.org/abs/hep-th/9805028))
+* {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkaday Tseytlin]], _Type IIB superstring action in $AdS_5 \times S^5$ background_, Nucl.Phys.B533:109-126, 1998 ([arXiv:hep-th/9805028](http://arxiv.org/abs/hep-th/9805028))
 
 * [[Gleb Arutyunov]], [[Sergey Frolov]], _Foundations of the $AdS_5 x S^5$ Superstring. Part I_ ([arXiv:0901.4937](http://arxiv.org/abs/0901.4937))
 
