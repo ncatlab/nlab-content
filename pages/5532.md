@@ -15,7 +15,7 @@
 
 ## Idea
 
-An $n$-connected space is a generalisation of the pattern:
+An _$n$-connected space_ is a generalisation of the pattern:
 
 *  [[space]],
 *  [[inhabited space]],
@@ -23,7 +23,7 @@ An $n$-connected space is a generalisation of the pattern:
 *  [[simply connected space]],
 *  etc.
 
-
+For the general concept see at _[[n-connected object of an (infinity,1)-topos]]_.
 ## Definition
 
 A [[topological space]] $X$ is __$n$-connected__ or __$n$-simply connected__ if its [[homotopy groups]] are trivial up to degree $n$.
