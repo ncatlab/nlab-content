@@ -53,7 +53,7 @@ Indeed, they seem to take care of something like Buium's differential calculus a
 
 ## Constructions
 
-To develop a homotopy theory for metric spaces, we first need a category of metric spaces that has all limits and colimits. One may then develop the associated stable homotopy theory by the usual methods, once fixed a metric on the interval $[0,1]$. To get a theory that is $\mathbb{R}_+^*$-invariant, one actually needs to equip $[0,1]$ with the limit of the family of [[pseudo-metric space|pseudo-metrics]]
+To develop a homotopy theory for metric spaces, we first need a category of "metric spaces" that has all limits and colimits (usual metric spaces don't even have finite coproducts). One may then develop the associated stable homotopy theory by the usual methods, once fixed a metric on the interval $[0,1]$. To get a theory that is $\mathbb{R}_+^*$-invariant, one actually needs to equip $[0,1]$ with the limit of the family of [[pseudo-metric space|pseudo-metrics]]
 $$d_\infty^t(x,y):=|x-y|_\infty^t$$
 as $t$ goes to $\infty$.
 This formal limit makes sense in a convenient category of metric spaces, where one keeps some track of the finite level $t$ information.
