@@ -1,6 +1,6 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-
 ### Context
 #### Category theory
 +-- {: .hide}
@@ -15,13 +15,7 @@
 
 # Contents
 * automatic table of contents goes here
-{:toc}
-
-[[!redirects de Morgan algebra]]
-[[!redirects de morgan algebra]]
-[[!redirects De Morgan algebras]]
-[[!redirects Stone lattice]]
-[[!redirects Stone algebra]]
+{: toc}
 
 ## Idea
 
@@ -29,15 +23,16 @@ A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that sati
 
 [^stone]: Called a **Stone lattice** as well in the literature on lattice theory.
 
+
 ## Definition
 
 A [[Heyting algebra]] $M$ that satisfies the following equivalent conditions is called a _De Morgan algebra_:
 
 1. For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **[[De Morgan law]]**)
 
-1. For all $a\in M$: $\not a\vee\not\not a=\top$.
+2. For all $a\in M$: $\not a\vee\not\not a=\top$.
 
-1. For all $a,b\in M$: $\not\not (a\vee b) =\not\not a\vee \not\not b$.
+3. For all $a,b\in M$: $\not\not (a\vee b) =\not\not a\vee \not\not b$.
 
 +-- {: .proof} 
 ###### Proof of equivalence 
@@ -56,14 +51,17 @@ $$\neg a \vee \neg\neg a = \neg\neg\neg a \vee \neg\neg a = \neg\neg(\neg a \vee
 as desired. 
 =-- 
 
+
 ### Remark
 
 The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in every Heyting algebra.
 
+
 ## Examples
 
 * Every [[Boolean algebra]] is a De Morgan algebra.
-* The topology of the [[Sierpinski space]] is a De Morgan algebra.
+* The [[lattice of open subsets]] of the [[Sierpinski space]] is a De Morgan algebra (assuming a classical metalogic).
+
 
 ## Related entries
 
@@ -74,6 +72,7 @@ The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in
 * [[co-Heyting algebra]]
 * [[Boolean algebra]]
 
+
 ## References
 
 * [[Francis Borceux]], _Handbook of Categorical Algebra vol.3_ , Cambridge UP 1994. (sections 1.2, 7.3)
@@ -81,3 +80,16 @@ The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in
 * K. B. Lee, _Equational Classes of Distributed Pseudo-Complemented Lattices_ , Can. J. Math. **22** (1970) pp.881-891. ([pdf](http://cms.math.ca/openaccess/cjm/v22/cjm1970v22.0881-0891.pdf))
 
 * M. E. Szabo, _Categorical De Morgan Laws_ , Alg. Universalis **12** (1981) pp.93-102.
+
+
+[[!redirects De Morgan algebra]]
+[[!redirects de Morgan algebra]]
+[[!redirects de morgan algebra]]
+[[!redirects De Morgan algebras]]
+[[!redirects de Morgan algebras]]
+[[!redirects de morgan algebras]]
+
+[[!redirects Stone lattice]]
+[[!redirects Stone lattices]]
+[[!redirects Stone algebra]]
+[[!redirects Stone algebras]]
