@@ -24,15 +24,28 @@ For $X$ a [[compact Hausdorff space]] The _fundamental product theorem in topolo
 1. the K-theory ring $K(X)$ of the original space $X$ with a generator $H$ for the [[basic line bundle on the 2-sphere]] adjoined:
 
 $$
-  K(X \times S^2) \simeq K(X) \otimes_{\mathbb{Z}} \mathbb{Z}[H]/(H-1)^2
+  K(X) \otimes_{\mathbb{Z}} \mathbb{Z}[H]/(H-1)^2
+    \overset{\simeq}{\longrightarrow}
+  K(X \times S^2) 
   \,.
 $$
 
 This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]] (cor \ref{BottPeriodicity} below).
 
-The usual [[proof]] proceeds by first realizing all [[vector bundles]] on $X \times S^2$ via an $X$-parameterized [[clutching construction]], then showing that all the clutching functions are [[homotopy|homotopic]] to those that are [[Laurent series]] as functions on $S^1$, and then analyzing these.
+The usual [[proof]] proceeds by 
 
+1.  realizing all [[vector bundles]] on $X \times S^2$ via an $X$-parameterized [[clutching construction]];
 
+1. showing that all the clutching functions are [[homotopy|homotopic]] to those that are Laurent polynomials as functions on $S^1$, hence products of a polynomial clutching $p$ functions with a monomial $z^{-n}$ of negative power;
+
+1. observing that the bundle corresponding to a clutching function of the form $f z^n$ is equivalent to the bundle corresponding to $f$ and tensored with the $n$th [[tensor product of vector bundles]]-power of the [[basic complex line bundle on the 2-sphere]];
+
+1. showing that some [[direct sum of vector bundles]] of the vector bundle corresponding to a polynomial clutching function with one coming from a trivial clutching function is given by a linear clutching function;
+
+1. showing that bundles coming from linear clutching functions are [[direct sums of vector bundles|direct sums]] of one coming from a trivial clutching function with the one coming from the homogeneously linear part;
+
+Applying these steps to a vector bundle on $X \times S^2$ yields a virtual sum of [[external tensor products of vector bundles]] of bundles on $X$ with powers of the [[basic complex line bundle on the 2-sphere]]. This means that the function in the fundamental product theorem is surjective.
+By similar means one shows that it is also injective.
 
 
 ## Statement
@@ -74,12 +87,15 @@ More generally, for $X$ a [[topological space]], then this induces the composite
 
 $$
   \array{
+    \Phi \colon
+    &
     K(X) \otimes \mathbb{Z}[h]/((h-1)^2)
       & \longrightarrow & 
     K(X) \times K(S^2)
       & \overset{\boxtimes}{\longrightarrow} &
     K(X \times S^2)
     \\
+    &
     (E, h)
       &\overset{\phantom{AAA} }{\mapsto}&
     (E,H)
@@ -94,7 +110,7 @@ to the topological K-theory ring of the [[product topological space]] $X \times 
 ###### Proposition
 **(fundamental product theorem in topological K-theory)**
 
-For $X$ a [[compact Hausdorff space]], then this ring homomorphism is an [[isomorphism]].
+For $X$ a [[compact Hausdorff space]], then ring homomorphism $\Phi \colon     K(X) \otimes \mathbb{Z}[h]/((h-1)^2) \longrightarrow K(X \times S^2)$ is an [[isomorphism]].
 
 =--
 
@@ -312,9 +328,12 @@ $$
 
 ## References
 
-* {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+Expositions include:
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 6 (from p. 19 on) in _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+
+* {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+
 
 
 [[!redirects external product theorem]]
