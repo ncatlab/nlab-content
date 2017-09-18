@@ -401,3 +401,6 @@ An early occurence of the concept of stabilizer subgroups is in p. 4 of
 
 [[!redirects isotropy group]]
 [[!redirects isotropy groups]]
+
+[[!redirects stabilizer 2-group]]
+[[!redirects stabilizer 2-groups]]
