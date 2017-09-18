@@ -61,9 +61,16 @@ $$
   \,.
 $$
 
+<img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" />
+
 ### Formal group and height
 
 The [[formal group]] associated with a nodal cubic curve is of [[height of a formal group|height]] 1.  Indeed, passing to the point of the nodal curve in $\mathcal{M}_{\overline{ell}}$ connects [[elliptic cohomology]] (of [[chromatic level]] 2) to [[topological K-theory]] (of chromatic level 1). For more on this see at _[[moduli stack of tori]]_ and at _[tmf -- Properties -- Maps to K-theory and to Tate K-theory](tmf#MapToTateKTheory)_.
+
+### Relation to gauge enhancement in F-theory
+
+In [[F-theory]] the nodal singularity locus of the given [[elliptic fibration]] is interpreted as the locus of [[D7-branes]], see at _[F-brane scan](F-theory#Fbranescan)_.
+
 
 ## Related concepts
 
