@@ -1,6 +1,21 @@
 
+[[faceanddegeneracymaps.jpg:file]]
 
-$\mathcal{\Gamma}$
+<img src="http://ncatlab.org/nlab/files/faceanddegeneracymaps.jpg" width="500" >
+
+
+[[singularsimplices.jpg:file]]
+
+<img src="http://ncatlab.org/nlab/files/singularsimplices.jpg" width="500" >
+
+(graphics taken from [Friedman 08](https://ncatlab.org/nlab/show/simplicial+set#Friedman08))
+
+
+[[2horns.jpg:file]]
+
+<img src="http://ncatlab.org/nlab/files/2horns.jpg" width="500" >
+
+(graphics taken from [Friedman 08](https://ncatlab.org/nlab/show/simplicial+set#Friedman08))
 
 [[mappingcone.jpg:file]]
 
