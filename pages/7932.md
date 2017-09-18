@@ -33,8 +33,8 @@ Let $G \in Grp(\mathbf{H})$ be an [[group object in an (∞,1)-category]] in $\m
 $$
   \left(
   \cdots 
-  \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
-  G \times G \stackrel{\to}{\stackrel{\to}{\to}} G \stackrel{\to}{\to} *
+  \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+  G \times G \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}} G \stackrel{\longrightarrow}{\longrightarrow} *
   \right)
 $$
 
@@ -390,6 +390,7 @@ For $\rho_1, \rho_2 \in Act(G)$ their [[internal hom]] $[\rho_1, \rho_2] \in Act
 
 +-- {: .proof }
 ###### Proof
+
 
 Taking fibers 
 
