@@ -30,7 +30,16 @@ $$ (a,b) \coloneqq \big\{\,\{a\},\{a,b\}\,\big\} ;$$
 
 it is straightforward (using the [[axiom of extensionality]]) to prove that \eqref{basic} holds.  Sometimes one sees the alternative
 $$ (a,b) \coloneqq \big\{a, \{a,b\}\,\big\} ;$$
-but now the [[axiom of foundation]] is also needed to prove \eqref{basic}, so the first form is usually preferred.  To prove that the cartesian product of two sets is a set, one may use the axiom of separation ([[bounded separation]] is enough) to construct $X \times Y$ as a [[subset]] of the [[power set]] of the power set of the [[union]] of $X$ and $Y$, or else use the axiom of replacement ([[restricted replacement]] is enough) to construct it directly, since its elements are indexed by the sets $X$ and $Y$.
+but now the [[axiom of foundation]] is also needed to prove \eqref{basic}, so the first form is usually preferred.  To prove that the cartesian product of two sets is a set, one may use the axiom of separation ([[bounded separation]] is enough) to construct $X \times Y$ as a [[subset]] of the [[power set]] of the power set of the [[union]] of $X$ and $Y$, or else use the axiom of replacement ([[restricted replacement]] is enough) to construct it directly, since its elements are indexed by the sets $X$ and $Y$. 
+
++-- {: .num_remark} 
+###### Remark 
+Again in the context of material set theory, there are other options for defining ordered pairs that may offer technical advantages. For example, assuming we have the natural numbers $\mathbb{N}$, and given a set $x$, let $\varphi(x)$ be the set $(x \setminus \mathbb{N}) \cup \{n+1: n \in x \cap \mathbb{N}\}$. Then define 
+
+$$(A, B) \coloneqq \{\varphi(a): a \in A\} \cup \{\varphi(b) \cup \{0\}: b \in B\}$$ 
+
+and observe that the first entry $A$ may be retrieved as the set of elements of $(A, B)$ that do not contain $0$, and $B$ as the set of elements that do. One advantage is that even for classes $A, B$ (defined in ZFC as formulas), we may define a class $(A, B)$ as another formula patterned on this construction. This solves a technical exercise posed by Andrej Bauer in this [MO post](https://mathoverflow.net/a/63268/2926); compare [class functions](https://ncatlab.org/nlab/show/function#for_classes). Thus, a function between classes $f: A \to B$ may be defined as an ordered triple $(A, f, B)$ where $f$ is a class of pairs $(a, b)$ defined by a formula that is [[entire relation|entire]] and [[functional relation|functional]]. 
+=-- 
 
 In a foundational [[type theory]], ordered pairs are usually also given by fiat, but \eqref{basic} may not hold, depending on the type theory used.  Now Bourbaki\'s binary operation of pairing becomes a typed operation; given $a$ of type $X$ and $b$ of type $Y$, the ordered pair $(x,y)$ has type $A \times B$.  There are also two typed operations (either basic or definable, depending on the style of type theory used) $\pi\colon X \times Y \to X$ and $\rho\colon X \times Y \to Y$, satisfying the [[beta-rule]]s $\pi(x,y) = x$ and $\rho(x,y) = y$.  Then we can either add the [[eta-rule]] $z = (\pi z,\rho z)$, which will allow \eqref{basic} to be proved; or else take \eqref{basic} as the *definition* of equality on the product type $X \times Y$, which will then allow the eta-rule to be proved.  (Or you can do neither, and then \eqref{basic} and the eta-rule will fail.)
 
