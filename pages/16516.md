@@ -1908,7 +1908,7 @@ We pronounce the operations in corollary \ref{SystemOfModalities} as follows.
 
   * **[[bosonic modality]] $\rightsquigarrow$** -- sends a super-space to the underlying bosonic space;
 
-  * **[[rheonomy modality]] $\R$**;
+  * **[[rheonomy modality]] $\Rh$**;
 
 * [[elasticity]]
 
