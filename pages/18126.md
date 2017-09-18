@@ -1922,7 +1922,7 @@ $$
 $$
 
 of their underlying sets, and take $\phi \coloneqq f^{-1}$ to be the 
-[[pre-image operation]]. A priori this is a function of the form
+[[pre-image]] operation. A priori this is a function of the form
 
 $$
   P(Y) \longleftarrow P(X) \;\colon\; f^{-1}
@@ -2408,7 +2408,7 @@ says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[To
 
 +-- {: .num_example #PointsViaContinuousFunctions}
 ###### Example
-**([[constant functions|]] [[continuous functions]])**
+**([[constant functions|constant]] [[continuous functions]])**
 
 For $(X, \tau)$ a [[topological space]] then for $x \in X$ any element of the underlying set,
 there is a unique continuous function (which we denote by the same symbol)
@@ -4001,7 +4001,7 @@ Here are alternative constructions of the reflections:
 **([[Kolmogorov quotient]])**
 
 Let $(X,\tau)$ be a [[topological space]]. Consider the [[relation]] on the underlying set
-by which $x_1 \sim x_1$ precisely if neighther $x_i$ has an [[open neighbourhood]] not containing the other.
+by which $x_1 \sim x_2$ precisely if neither $x_i$ has an [[open neighbourhood]] not containing the other.
 This is an [[equivalence relation]]. The [[quotient topological space]] $X \to X/\sim$ by this
 equivalence relation (def. \ref{QuotientTopologicalSpace}) exhibits the $T_0$-reflection of $X$ according to prop. \ref{HausdorffReflection}.
 
@@ -4156,7 +4156,7 @@ of the relations between their [[open subsets]], disregarding the underlying
 set of points of which these open are in fact subsets.
 
 Recall from example \ref{ContinuousFunctionGivesFrameHomomorphism}
-that for very [[continuous function]] $f \colon (X, \tau_X) \to (Y, \tau_Y)$
+that for every [[continuous function]] $f \colon (X, \tau_X) \to (Y, \tau_Y)$
 the [[pre-image]] function $f^{-1} \colon \tau_Y \to \tau_X$ is a [[frame]] [[homomorphism]]
 (def. \ref{HomomorphismOfFramesOfOpens}).
 
@@ -4382,9 +4382,9 @@ To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by const
 For $(X, \tau_X)$ a [[topological space]],
 the function $s_X \colon X \to S X$ from def. \ref{SoberificationConstruction} is
 
-1. an [[injection]] precisely if $X$ is [[separation axiom|T0]];
+1. an [[injection]] precisely if $X$ is $T_0$ (def. \ref{HausdorffTopologicalSpace});
 
-1. a [[bijection]] precisely if $X$ is sober.
+1. a [[bijection]] precisely if $X$ is [[sober topological space|sober]] (def. \ref{Sober}).
 
    In this case $s_X$ is in fact a [[homeomorphism]].
 
@@ -5363,7 +5363,7 @@ For the first statement, we need to show that if $C \subset X$ is a [[closed sub
 
 Now
 
-1. since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) it follows that $C \subset C$ is also compact;
+1. since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}) it follows that $C \subset X$ is also compact;
 
 1. since [[continuous images of compact spaces are compact]] (cor. \ref{ContinuousImageOfACompactSpaceIsCompact}) it then follows that $f(C) \subset Y$ is compact;
 
@@ -5428,7 +5428,7 @@ First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show
 
 Next to show that $(X,\tau)$ is indeed normal, we apply the idea of the proof of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces} once more:
 
-Let $Y_1, Y_2 \subset X$ be two disjoint closed subspaces. By the previous statement then for every point $y_1 \in Y$ we find disjoint open neighbourhoods $U_{y_1} \subset \{y_1\}$ and $U_{Y_2,y_1} \supset Y_2$. The union of the $U_{y_1}$ is a cover of $Y_1$, and by compactness of $Y_1$ there is a finite subset $S \subset Y$ such that
+Let $Y_1, Y_2 \subset X$ be two disjoint closed subspaces. By the previous statement then for every point $y_1 \in Y$ we find disjoint open neighbourhoods $U_{y_1} \supset \{y_1\}$ and $U_{Y_2,y_1} \supset Y_2$. The union of the $U_{y_1}$ is a cover of $Y_1$, and by compactness of $Y_1$ there is a finite subset $S \subset Y$ such that
 
 $$
   U_{Y_1} \coloneqq \underset{s \in S \subset Y_1}{\cup} U_{y_1}
@@ -5536,7 +5536,7 @@ is given by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}. We need
 
 Hence assume that $\pi$ is a closed map. We need to show that for every pair of
 distinct point $y_1 \neq y_2 \in Y)$ there exist [[open neighbourhoods]] $U_{y_1}, U_{y_2} \in \tau_Y$
-which are disjoint, $U_{y_1} \cap U_{y_2} = \emptyst$.
+which are disjoint, $U_{y_1} \cap U_{y_2} = \emptyset$.
 
 Therefore consider the [[pre-images]]
 
@@ -5547,7 +5547,8 @@ $$
   \,.
 $$
 
-Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$ the singleton subsets $\{y_i\}$ are closed
+Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$ 
+(which is hence in particular $T_1$) the singleton subsets $\{y_i\}$ are closed
 by prop. \ref{AllPointsClosedEquivalentToT1}, and since pre-images under continuous functions preserves closed subsets by
 prop. \ref{ClosedSubsetContinuity}.
 
