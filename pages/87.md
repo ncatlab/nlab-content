@@ -112,6 +112,7 @@ Given categories $C$ and $D$, an __anafunctor__ $F\colon C \to D$ may be rather 
 ### Explicit set-theoretic definition
 
 In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
+
 * a set ${|F|}$ of __specifications__ of $F$ (which corresponds to the set of objects of $\overline{F}$);
 * maps $\sigma\colon {|F|} \to C$ and $\tau\colon {|F|} \to D$ (taking values in objects). Given $x\colon C$ and $y\colon D$, we say that $y$ is a __specified value__ of $F$ at $x$ if, for some $s\colon {|F|}$, $x = \sigma(s)$ and $y = \tau(s)$; in this case, $s$ __specifies__ $y$ as a value of $F$ at $x$, and we write $F_s(x) = y$.  That is,
   $$ F_s(x) \coloneqq \tau(s) .$$
