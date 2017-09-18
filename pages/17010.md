@@ -30,7 +30,7 @@ $$
 <img src="https://ncatlab.org/nlab/files/StereographicProjection.png" width="300" >
 </div>
 
-One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^{n+1}$ in the standard way, such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corrsponding poles, the _stereorgraphic projection_ is the  map which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane. 
+One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^{n+1}$ in the standard way, such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, the _stereorgraphic projection_ is the  map which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane. 
 
 
 If one applies stereographic projection to _both_ possible poles $p_+, p_- \in S^n$ of the sphere given a fixed equatorial plane, then one obtains two different [[homeomorphisms]]
@@ -90,7 +90,7 @@ $$
 ###### Proposition
 **(standard stereographic projection)**
 
-The function which sends a point $x \in S^{n} \backslash p \subset \mathbb{R}^{n+1}$ to the  intersection of the line through $p$ and $x$ with the equaltorial hyperplane is a [[homeomorphism]] which is given in terms of ambient coordinates by
+The function which sends a point $x \in S^{n} \backslash p \subset \mathbb{R}^{n+1}$ to the  intersection of the line through $p$ and $x$ with the equatorial hyperplane is a [[homeomorphism]] which is given in terms of ambient coordinates by
 
 $$
   \array{
@@ -314,6 +314,8 @@ If we assume $a, b, c$ are coprime, and further (re)arrange the triple so that $
 
 
 ## References
+
+See also
 
 * Wikipedia, _[Stereographic projection](https://en.wikipedia.org/wiki/Stereographic_projection)_
 
