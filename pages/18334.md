@@ -48,10 +48,7 @@ Construction and axiomatization of gauge field AQFT via [[homotopy theory]] and 
 
 * {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_ ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
 
-
-Further developments include
-
-* {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_ ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
+The [[stack]] of [[Yang-Mills theory|Yang-Mills]] [[gauge fields]] is discussed in
 
 * [[Marco Benini]], [[Alexander Schenkel]], [[Urs Schreiber]], _The stack of Yang-Mills fields on Lorentzian manifolds_ ([arXiv:1704.01378](https://arxiv.org/abs/1704.01378))
 
