@@ -20,7 +20,7 @@
 [[!redirects theory of torsion abelian groups]]
 
 ##Idea##
-The _theory of abelian groups_ $T$ is the logical [[theory]] whose models in a [[Cartesian category]] are the [[abelian group]] objects.
+The _theory of abelian groups_ $T$ is the logical [[theory]] whose models in a [[cartesian category]] are the [[abelian group]] objects.
 
 ##Definition##
 The _theory of abelian groups_ $T$ is the theory over the signature with one sort $X$, one constant $0$, two function symbols $+$ (of sort $X\times X\to X$) and $-$ (of sort $X\to X$) and equality with axioms:
@@ -40,9 +40,11 @@ The **theory of torsion-free abelian groups** $T^\infty$ results from $T$ by add
 
 The resulting theory is a Horn theory.
 
-The **theory of divisible abelian groups** $T^\backslash$ results from $T$ from the following regular axioms:
+The **theory of divisible abelian groups** $T^\backslash$ results from $T$ by addition of the following regular axioms:
 
-* For all $n\geq 2$: $\top\vdash_x \exists y (ny=x)\quad$.
+* For all $n\geq 2$: $\top\vdash_x (\exists y) (ny=x)\quad$.
+
+The **theory of divisible torsion-free abelian groups** $T^{\backslash\infty}$ results from $T^\backslash$ by adding the above axioms for torsion-freeness. The resulting theory is cartesian.
 
 The **theory of torsion abelian groups** $T^~$ is an infinitary geometric theory resulting from $T$ by addition of:
 
@@ -55,6 +57,10 @@ The **theory of torsion abelian groups** $T^~$ is an infinitary geometric theory
 * [[torsion]]
 
 * [[geometric theory]]
+
+* [[theory of objects]]
+
+* [[theory of decidable objects]]
 
 ##References##
 
