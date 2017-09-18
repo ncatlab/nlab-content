@@ -280,7 +280,12 @@ The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned
 (but beware of some mistakes in that article...)
 
 For more see the references at _[[exceptional geometry]]_.
- 
+
+### Variants and generalizations
+
+Disucssion of the more general concept of Riemannian manifolds equipped with [[covariant derivative|covariantly constant]] 3-forms is in 
+
+* Hong Van Le , _Geometric structures associated with a simple Cartan 3-form_, Journal of Geometry and Physics (2013) ([arXiv:1103.1201](http://arxiv.org/abs/1103.1201))
 
 
 ### Application in supergravity
