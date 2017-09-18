@@ -57,7 +57,7 @@ The signature can be enlarged by building diagrams $S$ and $T$, and assigning th
 
 **Accounts.** If you create an account on the site, you can save workspaces to your private account, and resume work on them when you log back in to your account from any computer. You can also click 'Share', which shares a workspace privately with another user, and 'Publish', which creates a permanent public version of your workspace that can be linked to from a research paper, or from elsewhere on the web.
 
-**Export and import.** Use the 'Export' feature to download a copy of your workspace to your local machine, and 'Import' to upload a previously-download workspace. This functionality only involves your browser, not the globular.science server, so you do not need to log in or even create an account to use these features. If you import a workspace, log in, and click 'Save', then a copy of the imported workspace will be saved to the server. The data in these exported files is compressed with the LZ4 algorithm.
+**Export and import.** Use the 'Export' feature to download a copy of your workspace to your local machine, and 'Import' to upload a previously-download workspace. This functionality only involves your browser, not the globular.science server, so you do not need to log in or even create an account to use these features. If you import a workspace, log in, and click 'Save', then a copy of the imported workspace will be saved to the server.
 
 **Security and privacy.** The plain text of your password is not stored on the server. However, your private workspaces are saved in plain text, and as such should not be considered highly secure, as they could be accessed by someone with site administrator credentials. The administrators pledge not to view any user private data, except from the list of registered email addresses, except on request of the individual user. User data is backed up nightly to a secure server.
 
@@ -94,6 +94,10 @@ _Globular_ can currently present string-diagram visualizations of 0-, 1- and 2-d
 * **Project.** This determines the number of dimensions to be projected; it can take any value $p$ in the range $0 \leq p \leq k$. Projecting a dimension causes it to be effectively ignored by _Globular_; it is as if you are looking at a shadow of the true image. The resulting diagrams are exactly the _singularity graphics_ which are a common tool in [[Morse theory|higher Morse theory]].
 * **Slice.** Having decided to project out $p$ dimensions, and supposing the image being displayed is $v$-dimensional (for $v \in \{0,1,2\}$), that leaves $k - p - v$ dimensions still to be handled. If this sum is positive, coordinates must be chosen using the slice controls to position the view within an appropriate $v$-dimensional subdiagram.
 
+### Technical implementation details
+
+<i>Globular</i> is written in Javascript, and performs all its computations client-side, in the browser. Most of the computations it has to perform are linear in the size of the diagram, so this is quite computationally feasible, even for large proofs. The back-end is a Node.js server that allows the saving, sharing and publishing of workspaces. Graphics are implemented in SVG. Project data is compressed using the LZ4 algorithm.
+
 ## Advanced features
 
 ### Invertibility ###
@@ -107,7 +111,7 @@ In _Globular_, selecting the 'Invertible' option for a cell in the signature all
 
 When you move your pointer over a diagram, a little label will pop up telling you what's underneath the pointer. Doing this near a vertex, you will see that <i>Globular</i> isn't really aware that the lines curve, so you will need to take care when clicking or clicking-and-dragging that <i>Globular</i> is correctly identifying the structure you are trying to interact with.
 
-The labels are written using the following syntax, where 'X' is some arbitrary label denoting a $k$-cell, and where '.' is forward composition of $k$-cells:
+The labels are written using the following syntax, where 'X' is some arbitrary label denoting a $k$-cell, and where '.' is forward composition of $k$-cells. Note that every comma increases the dimension by 1.
 
 * 'X inverse' describes the $k$-cell which is the inverse of $X$
 * 'X, insert' describes the canonical $(k+1)$-cell of type $\text{id} _{s(X)} \to X . X^{-1}$
