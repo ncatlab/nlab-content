@@ -92,7 +92,7 @@ $$
   [a,b] \subset \mathbb{R}
 $$
 
-regarded with its [[topological subspace|subspace topology]] is a [[compact topological space]] (def. \ref{CompactTopologicalSpace}).
+regarded with its [[topological subspace|subspace topology]] is a [[compact topological space]].
 
 =--
 
@@ -160,7 +160,10 @@ implies that it is contained in $\{ (x_i)_{i = 1}^n \in \mathbb{R}^n \,\vert\, -
 This topological subspace is homeomorphic to the $n$-cube
 $[-\epsilon, \epsilon]^n$. Since the closed interval $[-\epsilon, \epsilon]$
 is compact by lemma \ref{CompactClosedInterval}, the [[Tychonoff theorem]]
-implies that this $n$-cube is compact. Since [[closed subspaces of compact spaces are compact]] this implies that $S$ is compact.
+implies that this $n$-cube is compact. 
+
+Since [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]] the closed subset $S \subset \mathbb{R}^n$ is still closed as a subset $S \subset [-\epsilon, \epsilon]^n$.
+Since [[closed subspaces of compact spaces are compact]] this implies that $S$ is compact.
 
 Conversely, assume that $S \subset \mathbb{R}^n$ is a compact subspace. We need to show that it is closed and bounded.
 
