@@ -15442,9 +15442,9 @@ Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). The
 
 1. $X$ is [[sober topological space|sober]] (def. \ref{Sober});
 
-1. $X$ is [[locally compact topological space|locally compact]] according to def. \ref{LocalCompactnessViaCompactNeighbourhoodBase}.
+1. $X$ is [[locally compact topological space|locally compact]] in the weak sense of def. \ref{LocalCompactnessViaCompactNeighbourhoodBase}.
 
-1, $X$ is [[locally connected topological space|locally connected]] (def. \ref{LocallyConnected}),
+1. $X$ is [[locally connected topological space|locally connected]] (def. \ref{LocallyConnected}),
 
 1. $X$ is [[locally path-connected topological space|locally path-connected]] (def. \ref{PathConnectedLocally}).
 
@@ -15663,7 +15663,7 @@ A _topological manifold is a [[topological space]] which is
 
 If the local [[Euclidean spaces]] $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
 for some $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too.
-Sometimes one also says "$n$-fold" in this case. 
+Sometimes one also says "$n$-fold" in this case.
 
 =--
 
@@ -15672,11 +15672,11 @@ Sometimes one also says "$n$-fold" in this case.
 ###### Remark
 **(varying terminology regarding "topological manifold")**
 
-Often a _topological manifold_ (def. \ref{TopologicalManifold}) 
-is required 
-to be [[second-countable topological space|second-countable]] (def. \ref{CountableSecond}) 
-or [[sigma-compact]] (def. \ref{CompactSigma}). But by 
-prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} both 
+Often a _topological manifold_ (def. \ref{TopologicalManifold})
+is required
+to be [[second-countable topological space|second-countable]] (def. \ref{CountableSecond})
+or [[sigma-compact]] (def. \ref{CompactSigma}). But by
+prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} both
 conditions are implied by def. \ref{TopologicalManifold} if there is a [[countable set]] of [[connected components]].
 Manifolds with uncountably many connected components are rarely considered in practice.
 The restriction to countably many connected components is strictly necessary
@@ -15688,7 +15688,7 @@ for several important theorems (beyond the scope of our discussion here) such as
 
 =--
 
-Besides the trivial case of [[Euclidean spaces]] themselves, 
+Besides the trivial case of [[Euclidean spaces]] themselves,
 we discuss here three main classes of  **examples** of manifolds:
 
 1. [[n-spheres]] $S^n$ (example \ref{SmoothManifoldnSphere} below)
@@ -15697,7 +15697,7 @@ we discuss here three main classes of  **examples** of manifolds:
 
 1. [[general linear groups]] $GL(n,k)$ (example \ref{SmoothManifoldGeneralLinearGroup}) below.
 
-Since all these examples are not just [[topological manifolds]] but naturally carry 
+Since all these examples are not just [[topological manifolds]] but naturally carry
 also the structure of _[[differentiable manifolds]]_, we first consider
 this richer definition before turning to the examples:
 
@@ -15904,7 +15904,7 @@ Given [[smooth manifolds]] $X$ and $Y$ (def. \ref{DifferentiableManifold}), then
 
 $$
   f \;\colon\; X \longrightarrow Y
-$$ 
+$$
 
 is called a _[[diffeomorphism]]_, if there is an [[inverse function]]
 
@@ -15912,20 +15912,20 @@ $$
   X \longleftarrow Y \;\colon\; g
 $$
 
-which is also a [[smooth function]] (hence if $f$ is an [[isomorphism]] in the [[category]] [[Diff]]${}_\infty$ 
+which is also a [[smooth function]] (hence if $f$ is an [[isomorphism]] in the [[category]] [[Diff]]${}_\infty$
 from remark \ref{CategoryDiff}).
 
 =--
 
 Here it is important to note that while being a [[topological manifold]] is just a [[property]]
-of a [[topological space]], a [[differentiable manifold]] carries [[extra structure]] encoded in the 
+of a [[topological space]], a [[differentiable manifold]] carries [[extra structure]] encoded in the
 [[atlas]]:
 
 +-- {: .num_defn #SmoothStructure}
 ###### Definition
 **([[smooth structure]])**
 
-Let $X$ be a [[topological manifold]] (def. \ref{TopologicalManifold}) and let 
+Let $X$ be a [[topological manifold]] (def. \ref{TopologicalManifold}) and let
 
 $$
   \left(
@@ -15947,11 +15947,11 @@ $$
   f
   \;\colon\;
   \left(
-    X 
+    X
       \;,\;
     \left(
       \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\longrightarrow} U_i \subset X
-    \right)_{i \in I}    
+    \right)_{i \in I}
   \right)
     \overset{\simeq}{\longrightarrow}
   \left(
@@ -15966,7 +15966,7 @@ precisely if the [[identity function]] on the underlying set of $X$ constitutes 
 (Because if $f$ is a diffeomorphism, then also $f^{-1}\circ f = id_X$ is a diffeomorphism.)
 
 That the identity function is a diffeomorphism between $X$ equipped with these two atlases means,
-by definition \ref{DifferentiableManifold}, that 
+by definition \ref{DifferentiableManifold}, that
 
 $$
   \underset{{i \in I} \atop {j \in J}}{\forall}
@@ -15988,9 +15988,9 @@ $$
     U_i \cap V_j \overset{\psi_j^{-1}}{\longrightarrow} \psi_j^{-1}(U_i \cap V_j) \; \subset \mathbb{R}^n
 $$
 
-showing their analogy to the glueing functions within a single atlas spring.  
+showing their analogy to the glueing functions within a single atlas spring.
 
-Hence diffeomorphsm induces an [[equivalence relation]] on the set of 
+Hence diffeomorphsm induces an [[equivalence relation]] on the set of
 smooth atlases that exist on a given [[topological manifold]] $X$. An [[equivalence class]]
 with respect to this equivalence relation is called a _[[smooth structure]]_ on $X$.
 
