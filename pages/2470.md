@@ -79,7 +79,7 @@ Notice that the [[derived category]] of coherent sheaves on a variety does _not_
 
 Survey includes
 
-* [[Maxim Kontsevich]], _Geometry in triangulated categories_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=XnmO9RAbl50))
+* {#Kontsevich15} [[Maxim Kontsevich]], _Geometry in triangulated categories_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=XnmO9RAbl50))
 
 Original articles include
 
