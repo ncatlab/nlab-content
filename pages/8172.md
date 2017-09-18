@@ -165,7 +165,7 @@ $$
   \,.
 $$
 
-The Adams spectral sequence is that induced by the [[exact couple]] obtained by applying $\pi_\bullet$ to this [[Adams resolution]].
+The _Adams spectral sequence_ is that induced by the [[exact couple]] obtained by applying $\pi_\bullet$ to this [[Adams resolution]].
 
 We now say this more in detail.
 
@@ -609,7 +609,7 @@ $$
   \,.
 $$
 
-The $E$-Adams spectral sequence of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
+The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
 
 =--
 
