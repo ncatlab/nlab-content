@@ -17,13 +17,15 @@
 
 * [[fundamental particle]],
 
-* [[scattering amplitude]], [[S-matric]]
+* [[scattering amplitude]], [[S-matrix]]
 
 * [[field (physics)]], [[quantum field theory]]
 
 * [[model (in particle physics)]]
 
 * [[standard model of particle physics]]
+  
+  * [[naturalness]]
 
   * [[Grand Unified Theory]], [[GUT]]
 
