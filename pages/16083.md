@@ -274,4 +274,5 @@ For [[d=4 N=1 supergravity]] the torsion is again constrained to be equal to the
 [[!redirects supergravity torsion constraint]]
 [[!redirects supergravity torsion constraints]]
 
+[[!redirects torsion constraint of supergravity]]
 [[!redirects torsion constraints of supergravity]]
