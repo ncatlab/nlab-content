@@ -3,7 +3,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher spin geometry
+#### Spin geometry
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
@@ -45,8 +45,8 @@ where
 
 The traditional way to express this in terms of components is the following.
 
-Given a [[spinor]] $\psi$, write $\overline{\psi}$ for its image under the identification $S \simeq S^\ast$  ("charge conjugation", see [here](spin+representation#PairingToVectorByChargeConjugationMatrix)).
-Let $\{\Gamma^a\}$ be a [[basis]] for the give [[Clifford algebra]] [[representation]] and writee as usual $\{\Gamma^{a_1 \cdots a_p}\}$ for the skew-symmetrized [[matrix product]] of $p$ such basis elements. Then under the above [[isomorphism]] there will be for all pairs $\psi_1, \psi_2 \in S$ of [[spinors]] an [[equation]] of the form
+Given a [[spinor]] $\psi$, write $\overline{\psi}$ for its image under the identification $S \simeq S^\ast$  ("charge conjugation", see [here](spin+representation#PairingToVectorByChargeConjugationMatrix) or [here](Majorana%20spinor#ChargeConjugationMatrix)).
+Let $\{\Gamma^a\}$ be a [[basis]] for the give [[Clifford algebra]] [[representation]] and write, as usual, $\{\Gamma^{a_1 \cdots a_p}\}$ for the skew-symmetrized [[matrix product]] of $p$ such basis elements. Then under the above [[isomorphism]] there will be for all pairs $\psi_1, \psi_2 \in S$ of [[spinors]] an [[equation]] of the form
 
 $$
   \psi_1 \otimes \overline{\psi}_2
@@ -94,7 +94,7 @@ by applying the identity to the pair $\psi_2 \otimes \overline{\psi_3}$ in the m
  {#CEElementsInSupersymmetryAlgebra}
 
 Let $S$ be a suitable real [[spinor representation]]
-which induces a [[super Poincaré Lie algebra]] $\mathfrak{siso}_S(d-1,1)$ with corresponding [[super translation Lie algebra]] ("[[super Minkowski spacetime]]") $\mathbb{R}^{d-1,1; S}$. 
+which induces a [[super Poincaré Lie algebra]] $\mathfrak{siso}_S(d-1,1)$ with corresponding [[super translation Lie algebra]] ("[[super Minkowski spacetime]]") $\mathbb{R}^{d-1,1; S}$. See at _[[Majorana spinor]]_.
 
 The corresponding [[Chevalley-Eilenberg algebra]] $CE(\mathbb{R}^{d-1,1;S})$ is generated from the [[vielbein]] ("[[graviton]]") generators 
 
@@ -238,7 +238,7 @@ The Fierz identities for $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]
 
 The Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed 
 
-* {#DAuriaFre82a} [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1 D=10$ and $N=4 D=4$ Super Yang-Mills Theory_, Nucl. Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
+* {#DAuriaFre82a} [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1, D=10$ and $N=4, D=4$ Super Yang-Mills Theory_, Nucl. Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
   
 
 and in appendix C of 
@@ -249,7 +249,9 @@ The full Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergr
 
 * {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
  
+See also
 
+* S. Naito, K. Osada, T. Fukui, _Fierz Identities and Invariance of Eleven-dimensional Supergravity Action_, Phys.Rev. D34 (1986) 536-552 ([spire](http://inspirehep.net/record/236376/?ln=de))
 
 
 [[!redirects Fierz identities]]
