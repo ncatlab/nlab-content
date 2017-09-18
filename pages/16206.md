@@ -1,7 +1,7 @@
 ## Mini-workshop in Poisson Geometry ##
 
 ***
-April 3--4, Wuhan at [Huazhong University of Science and Technology](http://english.hust.edu.cn/). 
+April 3, Wuhan at [Huazhong University of Science and Technology](http://english.hust.edu.cn/). 
 
 ***
 ####Speakers####
@@ -12,7 +12,7 @@ Chengming Bai (Chern Institute, Nankai University)
 
 Zhujun Zheng (South China University of Technology)
 
-Zhuo Chen (Tsinghua University)
+Yunhe Sheng (Jilin University)
 
 ####Participants####
 
@@ -22,7 +22,7 @@ Chengming Bai (Chern Institute, Nankai University)
 
 Zhujun Zheng (South China University of Technology)
 
-Zhuo Chen (Tsinghua University)
+Yanhui Bi (Nanchang University)
 
 Yunhe Sheng (Jilin University)
 
@@ -35,13 +35,12 @@ Deshou Zhong (China Youth University of Political Studies)
 
 ###Schedule###
 
-
-|               | Friday      | Saturday | 
-| ------------- | -------------|--------| 
-| 9:00--10:00   |   Zhangju Liu   | Zhujun Zheng | 
-| 10:00--10:30  |  Break     |Break| 
-| 10:30--11:30  | Chengming Bai             |Zhuo Chen |
-| 12:00--14:00  |  Lunch            |Lunch     |       
-| 14:00--17:00  | free discussion |free discussion     | 
+|        |            |        |
+|-----|----|-----|
+| Time | Speaker|Title| 
+| 9:00--10:00   |   Zhangju Liu   | Geometric structure in classical mechenics  | 
+| 10:30--11:30  | Chengming Bai             |TBA |     
+| 15:00--16:00  | Yunhe Sheng|Homotopy Poisson structures|
+| 16:30--17:30  |Zhujun Zheng|Quantum computation|
 
          
