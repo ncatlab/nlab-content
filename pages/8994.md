@@ -24,6 +24,8 @@ $$
 
 Linearly distributive categories are the "representable" form of [[polycategories]], and they are also what "remains" of a [[star-autonomous category]] when the involution is forgotten but the dual tensor $A\invamp B \coloneqq (A^* \otimes B^*)^*$ is remembered.
 
+Another way to say essentially the same thing is that a $\ast$-autonomous category is like a [[compact closed category]] in which the [[unit]] and [[counit]] of the [[dual objects]] refer to two different tensor products: we have $\top \to A \parr A^*$ but $A^* \otimes A \to \bot$, where $(\otimes,\top)$ and $(\parr,\bot)$ are two different monoidal structures.  A linearly distributive category encodes the necessary relationship between two such monoidal structures such that this makes sense, i.e. such that the [[triangle identities]] can be stated.
+
 ## Definition
 
 A **linearly distributive category** (also called a **weakly distributive category**) is a [[monoidal category]] in two ways, with monoidal structures $(\otimes, I)$ and $(\bullet, J)$ equipped with extra associator natural transformations
@@ -32,7 +34,7 @@ A **linearly distributive category** (also called a **weakly distributive catego
 
 \[ \delta^R:(A\bullet B) \otimes C \to A \bullet (B \otimes C) \]
 
-and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely.
+and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely.  (Some of these equations can be interpreted as saying that the $\delta$s are [[tensorial strengths]] for the functors $(A\bullet -)$ and $(-\bullet C)$ with respect to the $\otimes$ monoidal structure.)  A **symmetric linearly distributive category** is one in which both monoidal structures are symmetric and three squares commute relating the symmetries to the $\delta$s.
 
 These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
 
@@ -42,7 +44,7 @@ These extra associators are sometimes called "distributors", and should not be c
 
 ### Star-autonomous category
 
-Any [[star-autonomous category]] has an underlying linearly distributive category where we define $A\bullet B \coloneqq (A^* \otimes B^*)^*$, or equivalently $A\bullet B \coloneqq A^* \multimap B$, where $\multimap$ is the internal-hom.  The left distributor, for instance, is obtained as follows:
+Any [[star-autonomous category]] has an underlying symmetric linearly distributive category where we define $A\bullet B \coloneqq (A^* \otimes B^*)^*$, or equivalently $A\bullet B \coloneqq A^* \multimap B$, where $\multimap$ is the internal-hom.  The left distributor, for instance, is obtained as follows:
 $$\array{\arrayopts{\rowlines{solid}}
 \array{\arrayopts{\rowlines{solid}}
 (A\otimes B)^* \longrightarrow (A\otimes B)^* \\
@@ -54,7 +56,20 @@ B^* \longrightarrow (B^* \multimap C) \multimap C} \\
 A \otimes (A\otimes B)^* \longrightarrow (B^* \multimap C) \multimap C \\
 A\otimes (B^*\multimap C) \longrightarrow (A \otimes B)^* \multimap C
 }$$
-Conversely, a linearly distributive category having a "negation" is $\ast$-autonomous; see ([Cockett-Seely 97](#CockettSeely97)).
+
+Conversely, we say that a symmetric linearly distributive category with monoidal structures $(\otimes,\top)$ and $(\parr,\bot)$ has a **negation** if every object $A$ has a "dual" $\neg A$ and arrows
+
+$$\top \to A \parr \neg A, \qquad \neg A \otimes A \to \bot$$ 
+
+subject to triangular equations 
+
+$$1_A = \left( A \cong \top \otimes A \to (A \parr \neg A) \otimes A \stackrel{dist}{\to} A \parr (\neg A \otimes A) \to A \parr \bot \cong A \right)$$ 
+
+$$\,$$ 
+
+$$1_{\neg A} = \left( \neg A \cong \neg A \otimes \top \to \neg A \otimes (A \parr \neg A) \stackrel{dist}{\to} (\neg A \otimes A) \parr \neg A \to \bot \parr \neg A \cong \neg A \right).$$ 
+
+Then symmetric linearly distributive categories are the same as $\ast$-autonomous categories; see ([Cockett-Seely 97](#CockettSeely97)).  Moreover, the forgetful functor from $\ast$-autonomous categories to symmetric linearly distributive ones has a left adjoint that "freely adjoins negations".
 
 ### Polycategories
 
@@ -70,11 +85,13 @@ $$\begin{aligned}
   &\xrightarrow{1_{C\bullet E}\bullet g} (C\bullet E) \bullet H\\
   &\xrightarrow{\cong} C\bullet H\bullet E
 \end{aligned}$$
-Conversely, a polycategory that is suitably "representable" yields a linearly distributive category; see ([Cockett-Seely 97](#CockettSeely97)).
+Conversely, a polycategory that is suitably "representable" yields a linearly distributive category, and the forgetful functor from linearly distributive categories to polycategories has a left adjoint; see ([Cockett-Seely 97](#CockettSeely97)).
 
 ### Symmetric monoidal categories
 
 Any [[symmetric monoidal category]] becomes a linearly distributive category in which both monoidal structures are the same; all the required structure and coherence conditions follow straight from coherence for symmetric monoidal categories.  Note that such examples are almost never [[star-autonomous]].
+
+These examples satisfy the extra property that the distributors $\delta$ are [[isomorphisms]].  However, not every linearly distributive category in which the distributors are isomorphisms are of this form; the rest are "shifted monoidal categories" in which $A \parr B \coloneqq A \otimes \bot^{-1} \otimes B$, where $\bot$ is a chosen $\otimes$-invertible object.
 
 ## History
 
