@@ -66,8 +66,9 @@ Detailed discussion in terms of [[conformal nets]] is in
 
 See also
 
-* A. Tsuchiya, K. Ueno, Y. Yamada, _Conformal field theory on universal family of stable curves with gauge symmetries_, Adv. Studies in Pure Math. __19__, 459--566, Academic Press (1989) [MR92a:81191](http://www.ams.org/mathscinet-getitem?mr=92a:81191)
-* Kenji Ueno, _Conformal field theory with gauge symmetry_, Fields Institute Monographs 2008 [book page](http://www.ams.org/bookstore-getitem/item=FIM-24)
+* A. Tsuchiya, [[Kenji Ueno]], Y. Yamada, _Conformal field theory on universal family of stable curves with gauge symmetries_, Adv. Studies in Pure Math. __19__, 459--566, Academic Press (1989) [MR92a:81191](http://www.ams.org/mathscinet-getitem?mr=92a:81191)
+
+* [[Kenji Ueno]], _Conformal field theory with gauge symmetry_, Fields Institute Monographs 2008 [book page](http://www.ams.org/bookstore-getitem/item=FIM-24)
 
 ### Relation to theta functions
 
