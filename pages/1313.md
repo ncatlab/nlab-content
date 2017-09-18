@@ -77,7 +77,7 @@ $$
 
 If $b = 0$ is [[zero]], the expression on the right is 1, reflecting the fact that $0$ is the [[cardinality]] of the [[empty set]], which is the [[initial object]] in [[Set]].
 
-When the natural numbers are embedding into larger [[rig]]s or [[ring]]s, the operation of exponentiation may extend to these larger context. It yields for instance an exponentiation operation on the [[real number]]s $\mathbb{R}$, and on the [[complex number]]s $\mathbb{C}$.
+When the natural numbers are embedded into larger [[rig]]s or [[ring]]s, the operation of exponentiation may extend to these larger context. It yields for instance an exponentiation operation on the [[real number]]s $\mathbb{R}$, and on the [[complex number]]s $\mathbb{C}$.
 
 
 
