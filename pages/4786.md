@@ -31,6 +31,8 @@ On the level of [[Kac-Moody Lie algebras]]/[[Kac-Moody groups]] the E-series con
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
 
+* [[universal exceptionalism]]
+
 ## References
 
 ### Lie groups
