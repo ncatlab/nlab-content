@@ -820,9 +820,9 @@ Spectral sequences in general categories with [[zero morphisms]] are discussed i
 
 * [[Marco Grandis]], _Homotopy spectral sequences_ ([arXiv:1007.0632](http://arxiv.org/abs/1007.0632))
 
-Discussion in [[homotopy type theory]] is in 
+Discussion from a perspective of [[homotopy type theory]] is in 
 
-* {#Shulman13} [[Mike Shulman]], _Spectral sequences_ 2013 ([part I](https://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html), [part II](http://homotopytypetheory.org/2013/08/08/spectral-sequences/))
+* {#Shulman13} [[Mike Shulman]], _[[homotopytypetheory:spectral sequences|Spectral sequences]]_ 2013 ([part I](https://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html), [part II](http://homotopytypetheory.org/2013/08/08/spectral-sequences/))
 
 ### History
 
