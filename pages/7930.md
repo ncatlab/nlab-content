@@ -857,7 +857,7 @@ $$
 The real vector space $V$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebraOneDimHigher} equipped with the [[inner product]] $\eta(-,-)$ given by 
 
 $$
-  \eta((A,a), (A,a)) = -a^2 + det(A)
+  \eta((A,a), (A,a)) = det(A) + a^2
 $$
 
 is [[Minkowski spacetime]]
