@@ -60,7 +60,7 @@ If the generalized [[continuum hypothesis]] holds, then the
 ###### Proof 
 In fact we will show that any set $Y$ can be well-ordered, which implies AC (see the article [[Zorn's lemma]]). We may restrict attention to infinite $Y$, and since there is a singleton embedding of $Y$ in its power set $X = P(Y)$, we need only exhibit a well-ordering of $X$ (since we can then well-order $Y$ by restriction along singletons). In fact the only property of such $X$ that we require below is $|X| = 2|X|$. 
 
-Now, the Hartogs number $\aleph(X)$ can be constructed explicitly in ZF as a subset of the triple power set $P^3(X) = P P P(X)$. We will show for $n \in \{1, 2, 3\}$ that under GCH, the hypothesis $|\aleph(X)| \leq |P^n(X)|$ leads to one of two conclusions: 
+Now, the Hartogs number $\aleph(X)$ can be constructed explicitly in ZF as a subset of the triple power set $P^3(X) = P P P(X)$. We will show for $n \in \{1, 2, 3\}$ that under GCH, the hypothesis $|\aleph(X)| \leq |P^n(X)|$, true for $n = 3$, leads to one of two conclusions: 
 
 1. $|X| \leq |\aleph(X)|$ (whence $X$ can be well-ordered), or 
 
