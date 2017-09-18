@@ -86,7 +86,21 @@ Currently, the following stylish themes are available:
 ## How to Download a Local Copy of the n-Lab 
   {#download}
  
-Here is how to download a local copy of the $n$Lab: 
+The nLab is mirrored on [GitHub](https://github.com/ncatlab/nlab-content).
+
+This means that you can download a local copy by running
+
+    git clone git@github.com:ncatlab/nlab-content.git
+
+if you have `git` installed on your system.  You can then pull in updates by running
+
+    git pull
+
+You can set up a [cronjob](https://help.ubuntu.com/community/CronHowto) to do this every day, for example.
+
+### Alternative instructions
+
+In case you do not trust GitHub or for any other reason, you can follow the following alternative instructions.
 
 First send an e-mail to our admin [[Adeel Khan]] with your SSH public key (follow [these instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)). 
 
@@ -101,7 +115,7 @@ and then run
     cd nlab-content
     git remote set-url origin nlab-git@saunders.phil.cmu.edu:nlab-content
 
-to get a "normal" repository with a working tree.  Use `git pull` inside the working directory to sync it with the server (you can set up a [cronjob](https://help.ubuntu.com/community/CronHowto) to do this every day, for example).
+to get a "normal" repository with a working tree.  As above you can pull in updates with `git pull` and you can set up a cronjob to do this automatically.
 
 # Getting Started #
 
