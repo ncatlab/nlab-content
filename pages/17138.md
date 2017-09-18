@@ -2566,7 +2566,7 @@ Data of this form is called an _[[exact couple]]_, def. \ref{ExactCouple} below.
 =--
 
 
-+-- {: .num_defn #ExactCouple}
++-- {: .num_defn #UnrolledExactCouple}
 ###### Definition
 
 An _unrolled [[exact couple]]_ (of Adams-type) is a diagram of [[abelian groups]] of the form
@@ -2611,23 +2611,34 @@ $$
   \,.
 $$
 
-The collection of this "un-rolled" data into a single diagram
+
+=--
+
+The collection of this "un-rolled" data into a single diagram of [[abelian groups]] is called the corresponding _[[exact couple]]_.
+
+
++-- {: .num_defn #ExactCouple}
+###### Definition
+
+An _[[exact couple]]_ is a [[diagram]] (non-commuting) of [[abelian groups]] of the form
 
 $$
   \array{
-    \mathcal{D}^{\bullet,\bullet}
+    \mathcal{D}
     &\stackrel{i}{\longrightarrow}&
-    \mathcal{D}^{\bullet,\bullet}
+    \mathcal{D}
     \\
     & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
     \\
-    && \mathcal{E}^{\bullet,\bullet}
+    && \mathcal{E}
   }
+  \,,
 $$
 
-is called the corresponding _[[exact couple]]_.
+such that this is [[exact sequence]] exact in each position, hence such that the [[kernel]] of every [[morphism]] is the [[image]] of the preceding one.
 
 =--
+
 
 The concept of exact couple so far just collects the sequences of long exact sequences given by a filtration. Next we turn to extracting information from this sequence of sequences.
 
@@ -2746,31 +2757,32 @@ $$
     \\
     && \mathcal{E}
   }
+  \,,
 $$
 
-The induced _derived exact couple_ is the diagram
+then induced _derived exact couple_ is the diagram
 
 $$
   \array{
-    \tilde {\mathcal{D}}
+    \widetilde {\mathcal{D}}
     &\stackrel{\tilde i}{\longrightarrow}&
-    \tilde {\mathcal{D}}
+    \widetilde {\mathcal{D}}
     \\
     & {}_{\mathllap{\tilde k}}\nwarrow & \downarrow^{\mathrlap{\tilde j}}
     \\
-    && \tilde{\mathcal{E}}
+    && \widetilde{\mathcal{E}}
   }
 $$
 
 with 
 
-1. $\tilde{\mathcal{E}}$ \coloneqq ker(d)/im(d)$;
+1. $\tilde{\mathcal{E}} \coloneqq ker(d)/im(d)$;
 
 1. $\tilde {\mathcal{D}} \coloneqq im(i)$;
 
 1. $\tilde i \coloneqq i|_{im(i)}$;
 
-1. $\tilde j \coloneqq j|_{\im(i)}$;
+1. $\tilde j \coloneqq j \circ i^{-1}$;
 
 1. $\tilde k \coloneqq k|_{ker(d)}$.
 
