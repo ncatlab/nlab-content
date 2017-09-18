@@ -28,7 +28,7 @@ In the nineteenth century, syllogism became seen to be insufficiently expressive
 
 ## References
 
-* Stanford Encyclopedia of Philosophy, _[Aristotle's logic](http://plato.stanford.edu/entries/aristotle-logic/)_
+* {#SEP} Stanford Encyclopedia of Philosophy, _[Aristotle's logic](http://plato.stanford.edu/entries/aristotle-logic/)_
 
 * [[Georg Hegel]], _[[Lectures on the History of Philosophy]] -- [Aristotle -- Logic](Lectures+on+the+History+of+Philosophy#AristotleLogic)_
 
