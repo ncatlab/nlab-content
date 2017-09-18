@@ -23,9 +23,12 @@ A _conformal compactification_ is an [[embedding]] of a non-[[compact topologica
 
 ## Example
 
-The conformal compactification $\overline{M}$ of (flat) [[Minkowski space]] $M = \mathbb{R}^{n,1}$ is important in various treatments of behaviour at infinity of physics thereon (see e.g. _[[Penrose-Hawking theorem]]_).
+The (or rather, _any_) conformal compactification $\overline{M}$ of (flat) [[Minkowski space]] $M = \mathbb{R}^{n,1}$ is important in various treatments of behaviour at infinity of physics thereon (see e.g. _[[Penrose-Hawking theorem]]_).
 
-The blog post ([Wong 2009](#Wong09))) claims that the underlying manifold of $\overline{M}$ is $S^n\times S^1$, but then clarifies that this is a 'double cover', but in a non-specific way. Section 4.2 of ([Nikolov-Todorov](#NikolovTodorov)) gives a thorough geometric discussion of the construction and gives explicit expressions in coordinates, and shows that (the underlying manifold of) $\overline{M}$ is in fact $(S^n\times S^1)/\{\pm 1\}$, for a specific embedding of $S^n\times S^1$ in $\mathbb{R}^{n+1,2}$, and the action by scalar multiplication.
+The blog post ([Wong 2009](#Wong09))) claims that the underlying manifold of (the 'usual' construction of) $\overline{M}$ is $S^n\times S^1$, but then clarifies that this is a 'double cover', but in a non-specific way. Section 4.2 of ([Nikolov-Todorov](#NikolovTodorov)) gives a thorough geometric discussion of the construction and gives explicit expressions in coordinates, and shows that (the underlying manifold of) this $\overline{M}$ is in fact $(S^n\times S^1)/\{\pm 1\}$, for a specific embedding of $S^n\times S^1$ in $\mathbb{R}^{n+1,2}$, and the action by scalar multiplication.
+
+
+A conformal compactification, of _complexified_ $\mathbb{R}^{3,1}$, is given by the [[Klein quadric]]. (eg, section 2 of arXiv:math/0609813)
 
 ## Related entries
 
