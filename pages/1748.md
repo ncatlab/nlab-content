@@ -25,6 +25,75 @@ In many [[category|categories]] $C$ in which one does [[homotopy theory]], there
 
 ## Definition
 
+### In topological spaces
+
++-- {: .num_defn #LeftHomotopy}
+###### Definition
+
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **left homotopy**
+
+$$
+  \eta \colon f \,\Rightarrow_L\, g
+$$
+
+is a [[continuous function]]
+
+$$
+  \eta \;\colon\; X \times I \longrightarrow Y
+$$
+
+
+out of the standard [[cylinder object]] over $X$: the [[product space]] of $X$ with the [[Euclidean space|Euclidean]] [[closed interval]] $I \coloneqq [0,1]$, such that this fits into a [[commuting diagram]] of the form
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
+</div>
+
+
+$$
+  \array{
+     X
+     \\
+     {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
+     \\
+     X \times I &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}}
+     \\
+     X
+  }
+  \,.
+$$
+
+(graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/))
+
+=--
+
++-- {: .num_example #PathsAsLeftHomotopyBetweenPoints}
+###### Example
+
+Let $X$ be a [[topological space]] and let $x,y \in X$ be two of its points, regarded as functions $x,y \colon \ast \longrightarrow X$ from the point to $X$. Then a left homotopy, def. \ref{LeftHomotopy}, between these two functions is a commuting diagram of the form
+
+$$
+  \array{
+     \ast
+     \\
+     {}^{\mathllap{\delta_0}}\downarrow & \searrow^{\mathrlap{x}}
+     \\
+     I &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{\delta_1}}\uparrow & \nearrow_{\mathrlap{y}}
+     \\
+     \ast
+  }
+  \,.
+$$
+
+This is simply a continuous path in $X$ whose endpoints are $x$ and $y$.
+
+=--
+
+
 ### In enriched categories 
 
 If $C$ is [[enriched category|enriched]] over [[Top]], then a **homotopy** in $C$ between maps $f,g:X\,\rightrightarrows \,Y$ is a map $H:[0,1] \to C(X,Y)$ in $Top$ such that $H(0)=f$ and $H(1)=g$.  In $Top$ itself this is the classical notion.
