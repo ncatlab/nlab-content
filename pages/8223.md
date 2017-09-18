@@ -87,7 +87,7 @@ Being a quasitopos with small coproducts, it is $\infty$-extensive provided that
 
 It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $\Gamma = \hom(1, -): SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. 
 
-+-- {: .num_prop} 
++-- {: .num_prop #specificEmbeddingOfSimpGphIntoSet} 
 ###### Proposition 
 The forgetful functor $\Gamma = \hom(1, -): SimpGph \to Set$ is faithful, in fact exhibits $SimpGph$ as a [[topological concrete category]]. 
 =-- 
@@ -185,14 +185,14 @@ the discussion, we prove that regular monos are stable under pushout (which ensu
 In this section we will analyse and compare three wide subcategories of SimpGph. 
 Each is a [[left cancellative category]]. 
 
-In this section,  SimpGph has the same meaning as in the other sections, but there are slight notational variations: 
+In this section,  SimpGph has the same meaning as in the other sections, but there are slight notational variations, and a few other conventions, which we now list: 
 
+* $\rotatebox{180}{\textsf{T}}$ denotes falsity
+* $\textsf{T}$ denotes truth
 * $E$ is used like an infix relation-symbol, 
-* the sequent-notation $\vdash$, sometimes possibly with [[context]]s given in subscripts, is used for implications. (No ambiguity with regard to the usual symbol to indicate left adjoints will arise.)
-
-We will moreover adhere to the following conventions: 
-
-* the usual graph-theoretic distance-function is denoted by $\mathrm{dist}_{(V,E)}\colon V\times V\rightarrow\omega$, where $\omega$ denotes the natural numbers and $(V,E)$ is usually abbreviated by the name of the graph $(V,E)$.
+* the sequent-notation $\vdash$, sometimes possibly with [[context]]s given in subscripts, is used for implications. (No ambiguity with regard to the symbol $\mathsf{T}$ for truth, nor with regard the usual symbol $\leftvdash$ to indicate left adjoints will arise.)
+* the usual graph-theoretic distance-function is denoted by $\mathrm{dist}_{(V,E)}\colon V\times V\rightarrow\omega$, where $\omega$ denotes the natural numbers and $(V,E)$ is usually abbreviated by the name of the graph $(V,E)$,
+* we use the taditional subobjects-are-isomorphism-classes-of-monos-convention, as in [[subobject]].
 
 
 We recall that, by Section(reftodo), for any objects $G_0=(V_0,E_0)$ and $G_1=(V_1,E_1)$ of SimpGph, 
@@ -208,35 +208,52 @@ SimpGph.StrongEmbedding,
 
 SimpGph.IsometricEmbedding.
 
-It suffices to specify hom-sets of each, _because_ closedness under composition of the three subclasses of $\mathrm{Mor}(SimpGph)$ will be evident from the respective definitions. 
+It suffices to specify hom-sets of each, because closedness under composition of the three subclasses of $\mathrm{Mor}(SimpGph)$ will be evident from the respective definitions. 
 
 SimpGph.WeakEmbeddings($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is  injective, as a set-map $\}$
 
 SimpGph.StrongEmbeddings($G_0,G_1$) $:=$  $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image $\}$
 
-SimpGph.IsometricEmbeddings($G_0,G_1$) $:=$ $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image, and $\mathsf{T}\vdash_{x,y:V_0}$ $\mathrm{dist}_{\mathrm{im}(f)}(f(x),f(y))=\mathrm{dist}_{G_1}(f(x),f(y))$\}$ 
+SimpGph.IsometricEmbeddings($G_0,G_1$) $:=$ $\{$ $f$ $\in$ SimpGph$(G_0,G_1)$: $f$ is a graph-isomorphism onto its image, and $\mathsf{T}\vdash_{x,y:V_0}$ $\mathrm{dist}_{\mathrm{im}(f)}(f(x),f(y))=\mathrm{dist}_{G_1}(f(x),f(y))$\}$.
 
 
-Evident remarks: 
+##### Remarks on motivation. 
 
+Analyzing the above subcategories has natural connections with other parts of category theory and graph theory. For example (to be systematic and to take the [[nPOV]]), we will always choose the category-theoretic term, i.e., not write _strong embedding_, but _regular mono_, and not _isometric embedding_ but rather _isometric regular mono_).
 
-* Each of SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, SimpGph.IsometricEmbedding are [[concrete categories]], because SimpGph is one.
+* Large parts of category theory are about specified subclasses of the class of morphisms of a category. (Example: the study of [[weak equivalence]]s in [[homotopy theory]]). And, roughly and intuitively, both the regular monos of SimpGph, and the still smaller class of isometric regular monos of SimpGrph, can be seen as some sort of weakly invertible morphism. Analysing the above classes can be seens as an exercise in systematically analyzing some composition-closed class of morphisms that mathematical practice happens to throw at you.
+
+* Comparing the three classes can be instructive with regard to better understanding logicall aspects of 1-category theory. We will compare axiomatizability of the three above composition-closed classes w.r.t. first-order logic of category theory.
+
+* Isometric regular monos of SimpGph have several uses in graph theory. For example: 
+* * A given graph class can often be organized, put in context, and provided with some sort of _canonical representation_, by proving that each of its members admits an isometric regular mono to some member of a larger, yet more symmetric, graph class. An example is that every for finite [[median graph]] $G$ there exists an isometric regular mono into a suitably high-dimensional finite [[hypercube]] graph. (The median graphs are not characterized by this property though, there are non-median graphs which can be so embedded) Cf. e.g. (#ImrichKlavzar), (#BandeltChepoi2008) (#Chepoi))
+* * Isometric regular monos are used (though not so named) in proofs of [[zero-one-law]]s for graph classes, and in proofs of non-axiomatizability of certain graph-classes (defined by given higher-order conditions). Briefly, the method of proof is the following: under favorable circumstances there exist _universal representatives_ of an elementary-equivalence-class, i.e., for a (higher-order-definition-defined) graph class $\mathbb{K}$ there exists a single graph $T_{\mathrm{elling}}\in\mathbb{K}$ such that for _every_ graph $G\in\mathbb{K}$, 
+
+* * * (tellingly.shaped) if the hom-set Mor(SimpGph.IsometricEmbeddings($T_{\mathrm{elling}}$,G$))$ is non-empty, then $T_{\mathrm{elling}}$ and $G$ are elementarily-equivalent.
+
+Intuitively: if we can prove that the graph $G$ has a $T_{\mathrm{elling}}$ly-shaped generalized point, then we know it to be in the equivalence class we are interested in. 
+This is one more example of the well-known principle of characterizing some property (here: _being elementarily equivalent_) by the existence of at least one good morphism in an suitable category.
+
+(There are versions of this for the full subcategory $\mathsf{SimpGph}_{<\omega}$ of finte graphs, in which of course, elementary equivalence is the same as isomorphism and thus is often weakened to equivalence up to some [[quantifier-rank]].)
+
+The reason for the importance of isometric regular monos for the implication (tellingly.shaped) is the use of [[Gaifman normal forms]] (GNF) of first-order formulas in its proof. Roughly speaking, isometric regular monos are guaranteed to respect a GNF, while moving along regular monos, let alone monos, may invalidate a GNF.
+
+ To sum up, 
+
+* while [[isometric regular monos]] have several uses, they should not only be _used_ but also be _reflected on_, in terms of their mapping properties. Category theory provides the tools for this. 
+
+##### Evident properties of the wide subcategories
+
+We start with pointing out evident properties. 
+
+* Each of SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, SimpGph.IsometricEmbedding are [[concrete categories]], because by Proposition\ref{speicificEmbeddingOfSimpGphIntoSet} SimpGph is one.
 
 
 *  There are class inclusions
 
-Mor(SimpGph.IsometricEmbeddings) 
+Mor(SimpGph.IsometricEmbeddings) $\subset$ Mor(SimpGph.StrongEmbeddings) $\subset$ Mor(SimpGph.WeakEmbeddings) $=$ Monos(SimpGph).
 
-$\subseteq$ 
-
-Mor(SimpGph.StrongEmbeddings) 
-
-$\subseteq$
-
-Mor(SimpGph.WeakEmbeddings) $=$ Monos(SimpGph).
-
-
-* Because of the latter equality, each of SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, SimpGph.IsometricEmbedding is a [[left cancellative category]]
+* Because of the latter equality, each of SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, SimpGph.IsometricEmbedding is a [[left cancellative category]].
 
 * None on SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, SimpGph.IsometricEmbedding is a [[groupoid]], nor a [[preorder]].
 
@@ -245,21 +262,35 @@ Mor(SimpGph.WeakEmbeddings) $=$ Monos(SimpGph).
 
 * None of SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, SimpGph.IsometricEmbedding has any [[terminal object]].
 
+
+#### Which of the wide subcategories has all finite products
+
+(under construction)
+
+ 
 #### Using the concept of categories-having-images
 
 For further reference, we now recall a few basic concepts. 
 
 A category $\mathsf{C}$ _having images_ means 
 
-* for every object $O$ of $\mathsf{C}$ the canonical inclusion of the lattice $\mathrm{S}(O)$ of subojects of $O$ into the slice category $\mathsf{C}/O$ has a left adjoint. 
+* for every object $O$ of $\mathsf{C}$ the canonical inclusion functor of the poset $\mathrm{Sub}(O)$ of subobjects of $O$ (as a posetal category) into the slice category $\mathsf{C}/O$ has a left adjoint. 
 
 If so, the left-adjoint is denoted by $\mathrm{im}$.
 
 If $\mathsf{C}$ has images, and if, moreover, $\mathsf{C}$ has all pullbacks, then 
 
-* for every morphism $O_0\overset{f}{\longrightarrow}O_1$ of $\mathsf{C}$ the pullback $\mathrm{S}(O_1)\overset{f^\ast}{\rightarrow}\mathrm{S}(O_0)$ has a left adjoint. 
+* for every morphism $O_0\overset{f}{\longrightarrow}O_1$ of $\mathsf{C}$ the pullback $\mathrm{Sub}(O_1)\overset{f^\ast}{\rightarrow}\mathrm{S}(O_0)$ has a left adjoint. 
 
 This left adjoint is often denoted by $\exists_f\leftvdash f^\ast$.
+
+With regard to the three wide subcategories $\mathsf{C}$, we hasten to note that, of course, 
+
+* [[left cancellative category|each of their morphisms is monic]], hence each $\mathrm{Sub}(O)$ arises from $\mathsf{C}/O$ just by identifying all isomorphic objects of the slice-category, and hence, just as in _any_ left cancellative category, 
+* * for each $\mathsf{C}$ $=$ SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, 
+SimpGph.IsometricEmbedding, and for each $O$bject of $\mathsf{C}$,
+$$\array{\mathrm{Sub}(O) = \mathrm{Skeleton}(\mathsf{C}/O)}$$
+
 
 We will now analyse systematically whether SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, 
 SimpGph.IsometricEmbedding,
@@ -269,31 +300,46 @@ SimpGph.IsometricEmbedding,
 
 
 
-As to (images), we argue from the general to the specific. We notice that 
+As to (images), we argue from the general to the specific. We recall that because of Proposition \ref{specificEmbeddingOfSimpGphIntoSet}, 
+* each of the categories in question is a [[concrete category]],
 
-* each of the categories in question is a [[concrete category]], more specifically, a [[construct]],
+and now ask, in general: 
 
-and ask
+* Under which hypotheses does a concrete category have images?
 
-* under which hypotheses does a concrete category have  images,
+Moreover, we ask: 
 
-and, moreover, 
+* If $\textsf{C}$ is a category and $U\colon\mathsf{C}\rightarrow\textsf{Set}$ is a faithful functor, under what hypotheses on the _pair_ $(\mathsf{C},U)$ does it follow that $\textsf{C}$ has images _and_ for each morphism $f$ of $\mathsf{C}$ we have $\mathrm{im}(f)=\mathrm{SetMapImage}(U(f))$?
 
-* under which hypotheses does a concrete category have images _and_ these images are the images of the set-maps obtained by the forgetful functor,
-
-and then will specialize to SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, 
+We will then specialize to SimpGph.WeakEmbeddings, SimpGph.StrongEmbedding, 
 SimpGph.IsometricEmbedding. 
 
-
-Let $\mathsf{C}$ be any concrete category, let $U\colon\mathsf{C}\rightarrow\mathsf{Set}$ be any faithful functor.
-
 (under construction)
-
-
 
 #### A remark on epi-mono-factorizations
 
 
+We recall:
+
+* (epi.mono) Every morphism of SimpGph has an epi-mono-factorization. That is, for each $f\in$Mor(SimpGph)t here is a $m$ono and an $e$pi of $SimGph$ with $f=m\circ e$.
+
+We note the following evident implication:
+
+* _if_ there is a morphism $\mathrm{dom}(f)\overset{h}{\rightarrow}\mathrm{dom}(f)$ of SimpGph with 
+
+(twosided) $h\circ e=1_{\mathrm{dom}(f)}$ and $e\circ h = 1_{\mathrm{cod}(f)}$
+
+then
+$f\in\mathsf{SimpGph.StrongEmbeddings}$.
+
+<sub> 
+Proof. Let $\Gamma:\mathsf{SimpGph}\rightarrow \mathsf{Set}$ be the embedding from Proposition \ref{specificEmbeddingOfSimpGphIntoSet}. 
+By definition, $e = (Gamma(f))|_{im(f)}$, and, since $\Gamma$ is a functor, (twosided) implies
+$(\Gamma(h))\circ(\Gamma(e))=1_{\Gamma(\mathrm{dom}(f))}$
+and
+$(\Gamma(e))\circ(\Gamma(h))=1_{\Gamma(\mathrm{cod}(f))}$
+hence $\Gamma(h)$ is a graph-isomorphism $O_0\rightarrow {\rm im}(f)$, i.e. $f\in \mathsf{SimpGph.StrongEmbeddings}$.
+</sub>
 
 
 
@@ -342,11 +388,14 @@ The definition of the class of morphisms makes use of the distance-function, hen
 
 ## References 
 
-* Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
-{#Diestel}
-
 * [[Jiří Adámek]] and Horst Herrlich, _Cartesian closed categories, quasitopoi, and topological universes_. Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
 {#AdamHerr} 
+
+* [[Hans-J&uuml;rgen Bandelt, Victor Chepoi]], Metric graph theory and geometry: a survey. Contemporary Mathematics, Volume 453, 2008, 
+{#BandeltChepoi2008}
+
+* Reinhard Diestel, Graph Theory (Second Edition), Graduate Texts in Mathematics 173, Springer (2000). 
+{#Diestel}
 
 
 category: category
