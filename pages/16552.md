@@ -1,0 +1,74 @@
+
+> this entry is going to be one chapter of _[[geometry of physics]]_
+
+> previous chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- principal connections|principal connections]]_
+
+## WZW terms
+
+We had seen that in [[higher differential geometry]], then given any closed [[differential n-form|differential (p+2)-form]] $\omega \in \Omega^{p+2}_{cl}(X)$, it is natural to ask for a [[prequantization]] of it, namely for a [[circle n-bundle with connection|circle (p+1)-bundle with connection]] or [[cocycle]] in degree-$(p+2)$-[[Deligne cohomology]] $\nabla$ on $X$ whose [[curvature]] is $F_\nabla = \omega$. In terms of [[moduli stacks]] this means equivalently asking for lifts of the form
+
+$$
+  \array{
+    && \mathbf{B}^{p+1}U(1)_{conn}
+    \\
+    &{}^{\mathllap{\nabla}}\nearrow& \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    X
+    &\stackrel{\omega}{\longrightarrow}&
+   \mathbf{\Omega}^{p+2}_{cl}
+  }
+$$ 
+
+in the [[homotopy theory]] of [[smooth homotopy types]].
+
+This immediately raises the question for natural classes of examples of such prequantizations. One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on [[smooth infinity group]] given by a [[cocycle]] in [[L-infinity algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
+
+In low degree of traditional [[Lie theory]] this appears as follows: An important class of examples of closed differential forms,  first of all, are closed [[left invariant forms]] on [[Lie groups]]. Via the general theory of [[Chevalley-Eilenberg algebras]] these may be identified with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via a [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+1}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
+
+This is the case notably for $G$ a [[simply connected topological space|simply connected]] [[compact Lie group|compact]] [[semisimple Lie group]] such as [[special unitary group|SU]] or [[spin group|Spin]], where $\mu = \langle -,[-,-]\rangla$ is the 3-cocycle in [[transgression]] with the [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$, in which case $\hat G$ is the [[string 2-group]].
+
+Then, by the discussion at [[geometry of physics -- principal bundles]], the cocycle [[modulating morphism|modulates]] a [[circle n-group|circle p-group]]-[[principal infinity-bundle]] 
+
+$$
+  \array{
+     \mathbf{B}^p U(1) &\longrightarrow& \hat G
+     \\
+     && \downarrow
+     \\
+     && G &\stackrel{\Omega\mathbf{c}}{\longrightarrow}& \mathbf{B}^{p+2}U(1)
+  }
+$$
+
+whose higher [[Dixmier-Douady class]] class $ \int \Omega \mathbf{c} \in H^{p+2}(X,\mathbb{Z})$ is an integral lift of the real cohomology class encoded by $\omega$ under the [[de Rham isomorphism]].
+
+Diagrammatically, this natural [[Lie theory|Lie theoretic]] data give a diagram of [[smooth homotopy types]] of the form
+
+$$
+  \array{
+     && &\longrightarrow& \mathbf{B}^{p+1}U(1)
+     \\
+     &{}^{\mathllap{\Omega \mathbf{c}}}\nearrow& &\swArrow\simeq& \downarrow
+     \\
+     G &\stackrel{\omega}{\longrightarrow}& \mathbf{\Omega}_{cl}^{p+2} &\stackrel{}{\longrightarrow}& \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
+  }
+  \,.
+$$
+
+Now, by the very [[homotopy pullback]]-characterization of the [[Deligne complex]] $\mathbf{B}^{p+1}U(1)_{conn}$, such a diagram is equivalently a [[prequantization]] of $\omega$:
+
+$$
+  \array{
+     && \mathbf{B}^{p+1}U(1)_{conn} &\longrightarrow& \mathbf{B}^{p+1}U(1)
+     \\
+     &{}^\mathllap{\nabla_\mu}\nearrow& \downarrow &\swArrow\simeq& \downarrow
+     \\
+     G &\stackrel{\omega}{\longrightarrow}& \mathbf{\Omega}_{cl}^{p+2} &\stackrel{}{\longrightarrow}& \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
+  }
+  \,.
+$$
+
+For $\mu = \langle -,[-,-]\rangle$ as above, we have $p= 1$ and so $\nabla_\mu$ here is a [[circle n-bundle with connection|circle 2-bundle with connection]], often referred to as a [[bundle gerbe]] [[connection on a bundle gerbe|with connection]]. As such, this is also known as the _WZW gerbe_ or similar.
+
+This terminology arises as follows. In ([Wess-Zumino 84](Wess-Zumino-Witten+model#WessZumino71)) the [[sigma-model]] for a [[string]] propagating on the [[Lie group]] $G$ was considered, with only the standard [[kinetic action]] term. Then in ([Witten 84](Wess-Zumino-Witten+model#Witten84)) it was observed that for this [[action functional]] to give a [[conformal field theory]] after [[quantization]], a certain [[higher gauge theory|higher gauge]] [[interaction term]] has to the added. The resulting [[sigma-model]] came to be known as the _[[Wess-Zumino-Witten model]]_ or _WZW model_ for short, and the term that Witten added became the _WZW term_. In ([Gawedzki 87](Wess-Zumino-Witten+model#Gawedzki87)) it was observed that when formulated properly and generally, this term is the [[surface holonomy]] functional of a [[connection on a bundle gerbe]] on $G$. 
+
+
