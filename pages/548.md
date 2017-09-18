@@ -294,7 +294,7 @@ This class of weak equivalence plays an important role as constituting [[∞-ana
 Let $A \to \hat G$ be the inclusion of a [[center|central]] subgroup, exhibiting a [[central extension]] $A \to \hat G \to G$ with $G := \hat G/A$. Then this [[short exact sequence]] of groups extends to a long [[fiber sequence]] of 2-groups
 
 $$
-  A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \to \mathbf{B}2 A
+  A \to \hat G \to G \to \mathbf{B}A \to \mathbf{B}\hat G \to \mathbf{B}G \to \mathbf{B}^2 A
   \,,
 $$
 
