@@ -48,12 +48,14 @@ The [[base change]] formulas for [[cohomology]] for proper and for smooth morphi
 
 Recall that a [[locale]] $L$ is given by a [[frame]] $O(L)$, its [[frame of opens]], and that a [[continuous map]] $f$ from $K$ to $L$ is given by an [[adjunction]] $f^* \dashv f_* \colon O(K) \rightleftarrows O(L)$ such that the [[inverse image]] function $f^*$ preserves finitary [[meets]] (or equivalently is a frame [[homomorphism]], since it must preserve all [[joins]]).
 
-Such a map $f$ is __proper__ iff the [[direct image]] function $f_*$ preserves [[directed joins]] (or equivalently is [[Scott-continuous function|Scott-continuous]]).
+Such a map $f$ is __proper__ iff the [[direct image]] function $f_*$ preserves [[directed joins]] (or equivalently is [[Scott-continuous function|Scott-continuous]], or equivalently is a morphism of [[preframes]]), and also satisfies the [[Frobenius reciprocity]]-like condition that $f_*(U\cup f^*(V)) = f_*(U) \cup V$.
 
 
 ## Between toposes
 
-There are two generalizations of proper maps from locales to the [[geometric morphisms]] of [[Grothendieck toposes]], one called 'proper' and one called 'tidy'.  See [[proper geometric morphism]] for these.
+Proper maps of locales can be generalized to [[geometric morphisms]] of [[Grothendieck toposes]]; see [[proper geometric morphism]].
+
+The topos-theoretic condition refers only to directed unions of subterminal objects, suggesting a stronger condition that it preserve all [[filtered colimits]].  This is a strictly stronger condition even for locales (i.e. [[localic toposes]]), called being *tidy*.  In fact properness and tidiness are the first two rungs on an infinite ladder of higher properness for [[higher toposes]].
 
 
 ## Related concepts
