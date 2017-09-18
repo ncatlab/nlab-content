@@ -434,7 +434,7 @@ $$
     &&\stackrel{best.\; Reflexionen}{}&& &&  &\stackrel{setzende \atop Reflexion}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{auessere \atop Reflexion}{}
     \\
     \\
-    && && &&\stackrel{An\Im Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
+    && && &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
     \\
     {Objektive \atop Logik}{} && && &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee
     \\
