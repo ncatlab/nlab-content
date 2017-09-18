@@ -1,0 +1,10 @@
+
+
+* [webpage](https://www.physics.upenn.edu/people/standing-faculty/justin-khoury)
+
+## related $n$Lab entries
+
+* [[MOND]], [[fuzzy dark matter]]
+
+
+category: people
