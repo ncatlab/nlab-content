@@ -36,7 +36,7 @@ The [[homology]] of an [[E-n algebra]] for $n \geq 2$ is a Poisson $n$-algebra.
 
 Moreover, in [[chain complexes]] over a [[field]] of [[characteristic]] 0 the [[E-n operad]] is [[formal dg-algebra|formal]], hence equivalent to its homology, and so in this context $E_n$-algebras are equivalent to Poisson $n$-algebras.
 
-This fact is a higher analog of [[Kontsevich formality]]. It means that every higher dimensional [[prequantum field theory]] giveny by a $P_n$ algebra does have a [[deformation quantization]] (as [[factorization algebras]]) and that the space of choice of these a torsor over the [[automorphism infinity-group]] of $E_n$, a higher analog of the [[Grothendieck-Teichmüller group]].
+This fact is a higher analog of [[Kontsevich formality]]. It means that every higher dimensional [[prequantum field theory]] given by a $P_n$ algebra does have a [[deformation quantization]] (as [[factorization algebras]]) and that the space of choice of these a torsor over the [[automorphism infinity-group]] of $E_n$, a higher analog of the [[Grothendieck-Teichmüller group]].
 
 See also tho _[MO discussion](#MODiscussion) linked to below_.
 
