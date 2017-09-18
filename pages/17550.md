@@ -1,5 +1,5 @@
 
-* [webpage](http://www.wisdom.weizmann.ac.il/~liransh/)
+* [webpage](http://liranshaul.wordpress.com)
 
 ## related $n$Lab entries
 
