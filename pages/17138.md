@@ -632,6 +632,25 @@ as the [[Adams category]], better to consider the [[homotopy category]] of the
 
 We construct the [[stable homotopy category]].
 
+
+[[pointed topological spaces]], [[pointed objects|pointed]] [[simplicial sets]]
+
+* [[smash product]]
+
+* [[suspension]], [[loop space object]]
+
+Motivation:
+
+* [[Eckmann-Hilton argument]]
+
+* [[Freudenthal suspension theorem]]
+
+* [[suspension isomorphism]]
+
+* [[Brown representability theorem]]
+
+* [[May recognition theorem]]
+
 The stable homotopy category is to be the [[stabilization]] of the classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
 
 $$
@@ -658,12 +677,6 @@ $$
 
 In contrast to the classical [[homotopy category]], the stable homotopy category is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
 
-
-* [[pointed object]], [[pointed topological space]]
-
-  [[smash product]]
-
-  [[suspension]], [[loop space object]]
 
 * [[spectrum]]
 
