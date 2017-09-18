@@ -80,7 +80,7 @@ Chapter 4 of
 
 From the [[nPOV]], of interest is 
 
-* [[Bob Coecke]], [[Robert Spekkens]]' _Picturing classical and quantum Bayesian inference]_ ([pdf](http://www.cs.ox.ac.uk/people/bob.coecke/PDFS/05-Coecke-Spekkens.pdf)).
+* [[Bob Coecke]], [[Robert Spekkens]]' _Picturing classical and quantum Bayesian inference_ ([pdf](http://www.cs.ox.ac.uk/people/bob.coecke/PDFS/05-Coecke-Spekkens.pdf)).
 
 
 [[!redirects inductive reasoning]]
