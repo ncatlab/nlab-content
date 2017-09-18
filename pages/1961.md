@@ -121,7 +121,7 @@ The two relations in def. \ref{TangencyRelationOnSmoothCurves} are [[equivalence
 +-- {: .proof}
 ###### Proof
 
-First to see that they conincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\phi_j}{\to} U_j \subset X$.
+First to see that they coincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\phi_j}{\to} U_j \subset X$.
 
 For brevity, write
 
@@ -151,7 +151,7 @@ and
 $$
   \gamma_n^j
   \;\coloneqq\;
-  (\phi_j^{-1}\vert_{U_{i j}} \circ \gamma_n \vert _{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  (\phi_j^{-1}\vert_{U_{i j}} \circ \gamma_n \vert _{V}) \;\colon\; V \longrightarrow \phi_j^{-1}(U_{i j}) \subset \mathbb{R}^n
   \,.
 $$
 
@@ -230,9 +230,10 @@ from the $n$-dimensional [[Cartesian space]] to the set of tangent vectors at $x
 $$
   \array{
     \gamma^\phi_{\vec v}
+    \colon
     &
     \mathbb{R}^1
-      &\overset{ (-)\cdot \vec v }{\longrightarrow}&
+      &\overset{ \phi^{-1}(x) + (-)\cdot \vec v }{\longrightarrow}&
    \mathbb{R}^n
       &\underoverset{\simeq}{\phi}{\longrightarrow}&
     U_i
@@ -241,7 +242,7 @@ $$
     &
     t
       &\overset{\phantom{AAA}}{\mapsto}&
-    t \vec v
+    \phi^{-1}(x) +  t \vec v
       &\overset{\phantom{AAA}}{\mapsto}&
     \phi(\phi^{-1}(x) + t \vec v)
   }
@@ -265,7 +266,7 @@ $$
     \mathbb{R}^n
     &&
     \overset{
-       d \left((\phi')^{-1} \circ \phi\right) (x)}{\longrightarrow} &&
+       d \left((\phi')^{-1} \circ \phi\right)_{\phi^{-1}(x)}}{\longrightarrow} &&
     \mathbb{R}^n
     \\
     & {}_{\mathllap{\simeq}}\searrow && \swarrow_{\mathrlap{\simeq}}
@@ -284,7 +285,7 @@ $$
   \left\{
     g_{i j}
     \coloneqq
-    d( \phi_j^{-1} \circ \phi_i )_{\phi^{-1}(-)}
+    d( \phi_j^{-1} \circ \phi_i )_{\phi_i^{-1}(-)}
     \colon
     U_i \cap U_j
       \longrightarrow
@@ -309,9 +310,9 @@ at $\phi^{-1}(x)$ is $\vec v$.
 The formula for the transition function now follows with the [[chain rule]]:
 
 $$
-  d \left( (\phi')^{-1} \circ \phi( \phi^{-1}(x)  (-) \vec v )   \right)_0
+  d \left( (\phi')^{-1} \circ \phi( \phi^{-1}(x) + (-) \vec v )   \right)_0
   =
-  d \left( (\phi')^{-1} \circ \phi \right)_{\phi^{-1}(x)} \circ \underset{ \vec v }{\underbrace{ d ( \phi^{-1}(x) +(-)\vec v )_0 }}
+  d \left( (\phi')^{-1} \circ \phi \right)_{\phi^{-1}(x)} \circ \underset{ =(-)\vec v }{\underbrace{ d ( \phi^{-1}(x) +(-)\vec v )_0 }}
   \,.
 $$
 
@@ -478,7 +479,7 @@ this assignment takes $f$ to its [[derivative]]
    $$
      \array{
        \mathbb{R}^{n_1} \times \mathbb{R}^{n_1}
-         &\overset{ d f )}{\longrightarrow}&
+         &\overset{ d f }{\longrightarrow}&
        \mathbb{R}^{n_2} \times \mathbb{R}^{n_2}
        \\
        (x,\vec v)
@@ -565,7 +566,7 @@ $$
     \\
     (x, \vec v)
       &\overset{\phantom{AAA}}{\mapsto}&
-    [ t \mapsto \phi(x + t \vect v) ]
+    [ t \mapsto \phi(\phi^{-1}(x) + t \vec v) ]
   }
 $$
 
@@ -593,7 +594,7 @@ $$
   \left(
     \underset{i \in I}{\sqcup}
     U_i \times \mathbb{R}^n
-  \right)/\left( \left\{  d( \phi_j^{-1} \circ \phi_i ) \right\}_{i, j \in I} \right)
+  \right)/\left( \left\{  d( \phi_j^{-1} \circ \phi_i )_{\phi^{-1}_i(-)} \right\}_{i, j \in I} \right)
   \,.
 $$
 
@@ -639,7 +640,7 @@ In summary this makes $T X \to X$ a _[[differentiable vector bundle]]_.
 
 First to see that $T X$ is Hausdorff:
 
-Let $(x,\vec v), (x', \vec v') \in T X$ be two distinct points. We need to product
+Let $(x,\vec v), (x', \vec v') \in T X$ be two distinct points. We need to produce
 disjoint openneighbourhoods of these points in $T X$. Since in
 particular $x,x' \in X$ are distinct, and since $X$ is Hausdorff, there exist disjoint open neighbourhoods
 $U_x \supset \{x\}$ and $U_{x'} \supset \{x'\}$. Their pre-images $\pi^{-1}(U_x)$ and $\pi^{-1}(U_{x'})$
@@ -699,7 +700,7 @@ and by construction it intersects still only a finite number of the $W_{k_{j'}}$
 
 This shows that $T X$ is paracompact.
 
-Finally the statement about the differentiability of the glung functions and of the projections is immediate from the definitions
+Finally the statement about the differentiability of the [[gluing functions]] and of the projections is immediate from the definitions
 
 =--
 
@@ -707,7 +708,7 @@ Finally the statement about the differentiability of the glung functions and of 
 ###### Proposition
 **([[differentials]] of [[differentiable functions]] between [[differentiable manifolds]])**
 
-Let $X$ and $Y$ be [[differentiable manifolds]] and let $f \;\colon\; X \longrightarrow Y$ be a [[differentiable function]]. Then the operation of postcomposition which takes differentiable curves in $X$ to differentiable curves in $Y$
+Let $X$ and $Y$ be [[differentiable manifolds]] and let $f \;\colon\; X \longrightarrow Y$ be a [[differentiable function]]. Then the operation of postcomposition, which takes differentiable curves in $X$ to differentiable curves in $Y$,
 
 $$
   \array{
@@ -778,6 +779,7 @@ statement reduces to that of example \ref{EuclideanSpaceTangentBundle}.
 
 +-- {: .num_remark}
 ###### Remark
+**(tangent [[functor]])**
 
 In the language of [[category theory]] the statement of prop. \ref{FunctionsBetweenDifferentiableManifoldsDifferentials} says that forming [[tangent bundles]] $T X$ of [[differentiable manifolds]] $X$ and [[differentials]] $d f$  of [[differentiable functions]] $f \colon X \to Y$ constitutes a [[functor]]
 
