@@ -1,9 +1,11 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### AQFT
-+-- {: .hide}
+#### Algebraic Qunantum Field Theory
++--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 #### Physics
@@ -19,6 +21,8 @@
 
 ## Idea
 
+The "interaction picture" in [[quantum physics]] is a way to decompose solutions to the [[Schrödinger equation]] and more generally the construction of [[quantum field theories]] into a [[free field theory]]-part and the [[interaction]] part that acts as a [[perturbation]] of the free theory. Therefore the interaction picture lends itself to the construction of [[perturbative quantum field theory]], and in fact the only mathematically rigorous such construction scheme that is known, namely _[[causal perturbation theory]]_, proceeds this way.
+
 [[dynamics|Dynamics]] in [[physics]] affects both [[observables]] and, dually, [[states]]; this is most well known in [[quantum physics]] but applies equally well to [[classical physics]]. The different "pictures" of physics differ in how the dynamics is explicitly formalized:
 
 * In the [[Schrödinger picture]], states are propagated through [[time]], while observables are held fixed; the axiomatic formalization of this is given by [[cobordism category]] [[representation]]s in [[FQFT]].
@@ -29,7 +33,9 @@
 
 The pictures are named after those physicists who first used or popularised these approaches to quantum physics.
 
-## In quantum mechanics
+
+### In quantum mechanics
+ {#InQuantumMechanics}
 
 In [[quantum mechanics]], let $\mathcal{H}$ be some [[Hilbert space]] and let 
 
@@ -125,14 +131,63 @@ where
 $$
   V_I(t)
     \coloneqq 
-  \exp\left( \tfrac{t}{i \hbar} H_{free} \right)
-    V
   \exp\left( -\tfrac{t}{i \hbar} H_{free} \right)
-   \,.
+    V
+  \exp\left( +\tfrac{t}{i \hbar} H_{free} \right)
 $$
 
+is known as the [[interaction]] term $V$ "viewed in the interactioon picture". But in fact this is just $V$ "viewed in the [[Heisenberg picture]]", but for the _free_ theory. Since by our running assumption that the free theory is well understood, also $V_I(t)$ is well understood, and hence all that remains is to find a sufficiently concrete solution to the above [[differential equation]].
+
+But this is well known: Explicit solution to equations of this "[[parallel transport]]" type are given by the [[time-ordered product|time-ordering]] $T$ applied to the naive exponential solution as above:
+
+$$
+  \vert \psi(t)\rangle_I
+  \;=\;
+  T\left(
+    \exp\left(
+      \int_{t_0}^t
+        V_I(t)
+        \tfrac{d t}{i \hbar}
+    \right)
+  \right)
+  \vert \psi(t_0)\rangle
+  \,.
+$$
+
+In applications to [[scattering]] processes one is interest in prescribing the [[quantum state]]/[[wave function]] far in the past, hence for $t \to - \infty$, and computing its form far in the future, hence for $t \to \infty$.
+
+The operator that sends such "asymptotic ingoing-states" $\vert \psi(-\infty) \rangle_I$ to "asymptic outgoing states" $\vert \psi(+ \infty) \rangle_I$ is hence the [[limit of a sequence|limit]]
+
+$$
+  S 
+  \;\coloneqq\;
+  \underset{t \to \infty}{\lim}
+  T\left(
+    \exp\left(
+      \int_{-t}^t
+        V_I(t)
+        \tfrac{d t}{i \hbar}
+    \right)
+  \right)  
+  \,.
+$$
+
+This limit (if it exists) is called the _[[scattering matrix]]_ or _[[S-matrix]]_, for short.
+ 
+### In quantum field theory
+
+In [[perturbative quantum field theory]] the broad structure of the interaction picture in quantum mechanics ([above](#InQuantumMechanics)) remains a very good guide, but various technical details have to be generalized with due care:
+
+1. The algebra of operators in the [[Heisenberg picture]] of the free theory becomes the _[[Wick algebra]]_ of the [[free field theory]] (taking into account "normal ordering" of field operators) defined on _[[microcausal functionals]]_ built from [[operator-valued distributions]] with constraints on their [[wave front set]]. 
+
+1. The [[time-ordered products]] in the [[Dyson formula]] have to be refined to [[causal locality|causally ordered]] products and the resulting product at coincident points has to be defined by [[point-extension of distributions]] -- the freedom in making this choice is the [[renormalization]] freedom ("conter-terms").
+
+1. The sharp interaction cutoff in the [[Dyson formula]] that is hidden in the integration over $[t_0,t]$ has to be smoothed out by [[adiabatic switching]] of the interaction (making the whole S-matrix an [[operator-valued distribution]]).
+
+Together these three point are taken care of by the axiomatization of the "[[adiabatic switching|adiabatically switched]] [[S-matrix]]" according to **[[causal perturbation theory]]**.
 
 
+The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]] (now: [[adiabatic limit]]) in general does not exist in field theory ("infrared divergencies"). But in fact it need not be taken: The field algebra in a bounded region of [[spacetime]] may be computed with any adiabatic switching that constant on this region. Moreover, the algebras assigned to regions of spacetime this way satisfy [[causal locality]] by the causal ordering in the construction of the S-matrix. Therefore, even without taking the adiabtic limit in [[causal perturbation theory]] one obtains a field theory in the form of a _[[local net of observables]]_. This is the topic of **[[locally covariant perturbative quantum field theory]]**.
 
 
 
