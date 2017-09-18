@@ -35,6 +35,8 @@ Due to
 
 Lecture notes include
 
+* {#Ston68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+
 * [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3: _Thom's theorem_ ([pdf](file:///C:/Users/Sony/Downloads/3thom.pdf))
 
 [[!redirects Thom theorem]]
