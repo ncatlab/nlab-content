@@ -21,7 +21,21 @@
 
 ## Idea
 
-The _universal real vector_ $\zeta_n$ of rank $n$ is the [[vector bundle]] which is [[associated bundle|associated]] to the [[universal principal bundle]] $E GL(n) \to B GL(n)$ over the given [[classifying space]], equivalently to $E O(n) \to B O(n)$:
+In [[topology]] a _universal vector bundle_ of some [[rank of a vector bundle|rank]] $n$ is a [[vector bundle]] $\zeta_n \to B GL(n)$ (over a base space to be called a _[[classifying space]]_) such that every other [[vector bundle]] $E \to X$ of rank $n$ over a suitably [[nice topological space]] ([[paracompact topological space]]) arises as the [[pullback bundle]] $E \simeq f^\ast \zeta_n$ of the universal bundle, along some morphisms ([[continuous function]]) $f \colon X \to B GL(n)$ which is unique up to [[homotopy]]:
+
+$$
+  \array{
+    E &\longrightarrow& \zeta_n
+    \\
+    \donwarrow &(pb)& \downarrow
+    \\
+    X &\underset{f}{\longrightarrow}& B GL(n)
+  }
+  \,.
+$$
+
+
+The _universal real vector_ $\zeta_n$ of rank $n$ is the [[vector bundle]] which is [[associated bundle|associated]] to the [[universal principal bundle]] $E GL(n) \to B GL(n)$ (with [[structure group]] the [[general linear group]]) over the given [[classifying space]], equivalently to $E O(n) \to B O(n)$:
 
 $$
   \zeta_n \coloneqq (E O(n))\underset{O(n)}{\times} \mathbb{R}^n
@@ -76,6 +90,8 @@ is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n
 Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
 [[!redirects universal vector bundles]]
