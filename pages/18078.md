@@ -1,5 +1,1 @@
 
-[[cylinder.jpg:file]]
-
-<img src="https://ncatlab.org/nlab/files/cylinder.jpg" width="200">
-<img src="https://ncatlab.org/nlab/files/moebiusstrip.jpg" width="200">
