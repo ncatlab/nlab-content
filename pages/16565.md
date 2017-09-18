@@ -5,6 +5,8 @@
 
 ***
 
+> under construction
+
 #Contents#
 * table of contents
 {:toc}
@@ -167,11 +169,11 @@ $$
     \\
     & \nearrow & \downarrow^{\mathrlap{x}}
     \\
-    X && \stackrel{\sigma}{\longrightarrow} && F/\mathbf{Aut}(F)
+    X & \stackrel{\sigma}{\longrightarrow} & F/\mathbf{Aut}(F)
     \\
-    & \searrow && \swarrow
+    & \searrow & \downarrow
     \\
-    && X
+    && \mathbf{B}\mathbf{Aut}(F)
   }
 $$
 
@@ -219,7 +221,7 @@ This [[G-structure]] we require to be [[integrable G-structure|first order integ
 +-- {: .num_example}
 ###### Example
 
-In $\mathbf{H} = $ [[SuperFormalSmooth∞Grpd]] and for $V$ being [[super Minkowski spacetime]] of bosonic [[dimension]] $d = $3,4,10,11$ regarded as the [[supersymmetry]] [[super-translation group]] in that dimension, and for $\mathbf{L} = \mathbf{L}$ the WZW term induced by differential Lie integration ([here](geometry+of+physics+--+WZW+terms#WZWTermFromLieIntegration))
+In $\mathbf{H} = $ [[SuperFormalSmooth∞Grpd]] and for $V$ being [[super Minkowski spacetime]] of bosonic [[dimension]] $d = 3,4,10,11$ regarded as the [[supersymmetry]] [[super-translation group]] in that dimension, and for $\mathbf{L} = \mathbf{L}$ the WZW term induced by differential Lie integration ([here](geometry+of+physics+--+WZW+terms#WZWTermFromLieIntegration))
  from the [[super Lie algebra]] [[Lie algebra cohomology|cocycles]] of the [[brane scan]] in these dimensions, then the [[Heisenberg ∞-group]] in def. \ref{DefiniteGlobalization} is a $\mathbf{B}(\mathbb{R}/\Gamma)$-[[∞-group extension]] of the [[Lorentz group]] in these dimensions.
 
 This means that a choice of definite globalization of $\mathbf{L}_{string}$ over a [[supermanifold]] $X$ is in particular a choice of super-[[orthogonal structure]], hence a choice of [[graviton]] and of a [[gravitino]] [[field (physics)|field]]. 
@@ -228,7 +230,7 @@ The condition that this [[G-structure]] be first-order integrable with respect t
 
 For $d = 1$ this is the [[torsion constraint of supergravity]]. By ([Howe 97](torsion+constraints+in+supergravity#Howe97)) this implies that the above graviton and gravitino field satisfy the [[Einstein equations]] for bosonic backgrounds of [[11-dimensional supergravity]].
 
-This in turn implies in particular that the [[curvature]] of the WZW term $\mathbf{L}$ is the fermionic component of the [[supergravity C-field]] [[field strenght]]. This finally means that $\mathbf{L}$ itself is a consistent choice of [[prequantization]] of this hence a genuinely globally defined WZW term for the [[Green-Schwarz sigma model]] for the [[M2-brane]] with [[target space]] $X$.
+This in turn implies in particular that the [[curvature]] of the WZW term $\mathbf{L}$ is the fermionic component of the [[supergravity C-field]] [[field strength]]. This finally means that $\mathbf{L}$ itself is a consistent choice of [[prequantization]] of this hence a genuinely globally defined WZW term for the [[Green-Schwarz sigma model]] for the [[M2-brane]] with [[target space]] $X$.
 
 =--
 
@@ -256,7 +258,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-For $V$ [[super Minkowski spacetime]], then the [[super L-infinity algebra]] of $BPS(X,\mathbf{g}, \mathbf{L})$ is the [[Poisson bracket Lie n-algebra]] of $\omega = F_{\mathbf{L}}$ regarded as a [[pre-n plectic form]] on $X$. This is an $L_\infty$-algebra extension of the 
+For $V$ [[super Minkowski spacetime]], then the [[super L-infinity algebra]] of $BPS(X,\mathbf{g}, \mathbf{L})$ is the [[Poisson bracket Lie n-algebra]] of $\omega = F_{\mathbf{L}}$ regarded as a [[pre-n-plectic form]] on $X$. This is an $L_\infty$-algebra extension of the 
 
 =--
 
