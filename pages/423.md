@@ -33,6 +33,7 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 
 
 ## Introduction
+ {#Introduction}
 
 The following gives a basic introduction to some core concepts of topology.
 
@@ -41,6 +42,12 @@ The following gives a basic introduction to some core concepts of topology.
 * _[Topological spaces](#TopologicalSpaces)_
 
 * _[Homeomorphism](#Homeomorphism)_
+
+* _[Homotopy](#Homotopy)_
+
+* _[Connected components](#ConnectedComponents)_
+
+* _[Fundamental group](#FundamentalGroup)_
 
 
 ### Continuity
@@ -167,8 +174,6 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
  {#TopologicalSpaces}
 
 
-The collection of [[open subsets]] of a [[metric space]] in the sense of definition \ref{OpenSubsetsOfAMetricSpace} is readily seen to have the following property
-
 +-- {: .num_prop }
 ###### Proposition
 
@@ -286,7 +291,7 @@ $$
 +-- {: .num_example #HomeomorphismBetweenTopologicalAndCombinatorialCircle}
 ###### Example
 
-As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
+As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
 
 $$
   [0,1]_{/(0 \sim 1)} \underset{homeo}{\simeq} S^1
@@ -346,7 +351,7 @@ So we need to check that $\tilde f$ has a continuous inverse function. Clearly t
 +-- {: .num_example #OpenBallsHomeomorphicToRn}
 ###### Example
 
-The open [[interval]] $(-1,1)$ is [[homeomorphism|homeomorphic]] to all of the [[real line]]
+The open [[interval]] $(-1,1)$ is [[homeomorphic]] to all of the [[real line]]
 
 $$
   (0,1) \simeq_{homeo} \mathbb{R}^1
@@ -374,7 +379,7 @@ $$
   \,.
 $$
 
-Generally, every [[open ball]] in $\mathbb{R}^n$ (\ref{OpenBalls}) is [[homeomorphism|homeomorphic]] to all of $\mathbb{R}^n$.
+Generally, every [[open ball]] in $\mathbb{R}^n$ (\ref{OpenBalls}) is [[homeomorphic]] to all of $\mathbb{R}^n$.
 
 
 =--
@@ -386,7 +391,7 @@ Important examples of pairs of spaces that are _not_ homeomorphic include the fo
 +-- {: .num_example }
 ###### Example
 
-The [[2-sphere]] $S^2 = \{(x,y,z) \in \mathbb{R}^3 \vert x^2 + y^2 + z^2 = 1\}$ is _not_ homeomorphic to the [[torus]] $T^2 = S^1 \times S^1$.
+The [[2-sphere]] $S^2 = \{(x,y,z) \in \mathbb{R}^3 \vert x^2 + y^2 + z^2 = 1\}$ is _not_ [[homeomorphic]] to the [[torus]] $T^2 = S^1 \times S^1$.
 
 Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientable]] [[surface]] is determined by the number of "holes" it has, its _[[genus of a surface|genus]]_.
 
@@ -398,7 +403,7 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 ###### Example
 **([[topological invariance of dimension]])**
 
-For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphism|homeomorphic]].
+For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphic]].
 
 More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open set in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
 
@@ -408,8 +413,9 @@ The proof of example \ref{TopologicalInvarianceOfDimension} is surprisingly hard
 
 
 ### Homotopy
+  {#Homotopy}
 
-We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphism|homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, example \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
+We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, example \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
 
 This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]] with the closed interval
 
@@ -445,7 +451,7 @@ $$
   }
 $$
 
-Such "continuous deformations" are called _[[homotopies]]_.
+Such "continuous deformations" are called _[[homotopies]]_:
 
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
@@ -488,6 +494,7 @@ $$
 (graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/))
 
 =--
+
 
 +-- {: .num_defn #HomotopyEquivalence}
 ###### Definition
@@ -532,10 +539,9 @@ The following three [[graphs]]
 
 <img src="https://ncatlab.org/nlab/files/ThreeNonHomeoButHomotopyEquivGraphs.png" width="400">
 
-(i.e. the evident [[topological subspaces]] of the [[plane]] $\mathbb{R}^2$ that these pictures indicate) are not [[homeomorphism|homeomorphic]]. But they are [[homotopy equivalence|homotopy equivalent]], in fact they are each homotopy equivalent to the [[disk]] with two points removed, by the homotopy indicated by the following picture:
+(i.e. the evident [[topological subspaces]] of the [[plane]] $\mathbb{R}^2$ that these pictures indicate) are not [[homeomorphic]]. But they are [[homotopy equivalence|homotopy equivalent]], in fact they are each homotopy equivalent to the [[disk]] with two points removed, by the homotopies indicated by the following pictures:
 
 <img src="https://ncatlab.org/nlab/files/HomotopyEquivalentsToBiAnnulus.png" width="400">
-
 
 
 > graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
@@ -545,7 +551,163 @@ The following three [[graphs]]
 
 
 
+
+### Connected components
+ {#ConnectedComponents}
+
+Using the concept of [[homotopy]] one obtains the basic tool of [[algebraic topology]], namely the construction of algebraic [[homotopy invariants]] of topological spaces. We introduce the simplest and indicate their use.
+
+
++-- {: .num_example}
+###### Example
+
+A [[homotopy]] between two points 
+
+$x,y \;\colon\; \ast \to X$
+
+is a continuous [[path]] between these points.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+The set of [[homotopy classes]] of points in a topological space is called its set of path-[[connected components]], denoted.
+
+$$
+  \pi_0(X) \in Set
+  \,.
+$$
+
+If $f \colon X \to Y$ is a [[continuous map]] between [[topological spaces]], then on [[homotopy classes]] of points it induces a [[function]] between the corresponding connected components, which we denote by $\pi_0(f)$:
+
+$$
+  \pi_0(f) \;\colon\; \pi_0(X) \longrightarrow \pi_0(Y)
+  \,.
+$$
+
+=--
+
+This construction is evidently compatible with [[composition]], in that 
+
+$$
+  \pi_0(g \circ f) = \pi_0(g) \circ \pi_0(f) 
+$$
+
+and it evidently is [[unitality|unital]], in that 
+
+$$
+  \pi_0(id_X) = id_{\pi_{0}(X)} 
+  \,.
+$$
+
+One summarizes this by saying that $\pi_0$ is a [[functor]] from the [[category]] [[Top]] of [[topological spaces]] to the [[category]] [[Set]] of [[sets]], denoted
+
+$$
+  \pi_0 \;\colon\; Top \longrightarrow Set
+  \,.
+$$
+
+An immediate but important consequence is this:
+
++-- {: .num_prop}
+###### Proposition
+
+If two [[topological spaces]] have sets of [[connected components]] that are not in [[bijection]], then they the spaces are not [[homeomorphic]] to each other:
+
+$$
+  \pi_0(X) \neq \pi_0(Y)
+  \;\;\;
+    \Rightarrow
+  \;\;\,
+  X \underset{homeo}{\neq} Y
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $\pi_0$ is [[functor|functorial]], it immediately follows that it sends [[isomorphisms]] to [[isomorphisms]], hence [[homeomorphisms]] to [[bijections]]:
+
+$$
+  \begin{aligned}
+     & f \circ g = id \;\;and\;\; g \circ f = id
+    \\
+    \Rightarrow \;\;\;\;\;\;&  
+    \pi_0(f \circ g) = \pi_0(id) \;\;and \;\; \pi_0(g \circ f) = \pi_0(id)  
+    \\
+    \Leftrightarrow \;\;\;\;\;\;
+    &
+    \pi_0(f) \circ \pi_0(g) = id \;\;and \;\; \pi_0(g) \circ \pi_0(f) = id  
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+This means that we may use path connected components as a first "topological invariant" that allows us to distinguish topological spaces. As an example for how this is being used, we have the following proof of a simple special case of the [[topological invariance of dimension]] (example \ref{TopologicalInvarianceOfDimension}):
+
++-- {: .num_prop }
+###### Proposition
+
+The [[Cartesian spaces]] $\mathbb{R}^1$ and $\mathbb{R}^2$ are not [[homeomorphic]] (def. \ref{Homeomorphism}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume there were a [[homeomorphism]]
+
+$$
+  f \colon \mathbb{R}^1 \longrightarrow \mathbb{R}^2
+$$
+
+we wil lderive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (def. \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$. 
+
+It follows that we would get a bijection of [[connected components]] between $\pi_0(\mathbb{R}^1 - \{0\})$ and $\pi_0(\mathbb{R}^2  - \{f(0)\})$. But clearly the first set has two elements, while the second has just one.
+
+=--
+
+
+
 ### Fundamental group
+ {#FundamentalGroup}
+
+In a sense the "next" topological invariant after the [[connected components]] is the [[fundamental group]].
+
+Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write $\pi_1(X,x)$ for the set of [[homotopy classes]] of [[paths]] that start and end at $x$. These are also called the continuous [[loops]] in $X$ based at $x$.
+
+Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]] (a "[[monoid]]"). Under reversion of groups it becomes in fact a [[group]]. This is called the [[fundamental group]] of $X$ at $x$.
+
+Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ of topological spaces equipped with a chosen point:
+
+$$
+  \pi_1 \;\colon\; Top^{\ast/} \longrightarrow Grp
+  \,.
+$$ 
+
+As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]: namely that $\mathbb{R}^2$ and $\mathbb{R}^3$ are not [[homeomorphic]] follows, since after removing one point from each, then the former has $\pi_1 = \mathbb{Z}$, while the latter has $\pi_1 = 1$.
+
+We discuss now a way to prove the first claim here, that 
+$\pi_1(\mathbb{R}^2-\{0\}) = \pi_1(S^1) = \mathbb{Z}$.
+
+...via [[covering spaces]]...
+
+A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] $\pi \colon E \to X$ such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$ to the [[product space]] of $U_i$ with the [[discrete topological space]] on a [[finite set]] $F$:
+
+$$
+  \array{
+    \underset{i}{\sqcup} U_i \times F &\longrightarrow&  E
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    \underset{i}{\sqcup} U_i &\underset{}{\longrightarrow}& X
+  }
+$$
+
+(...)
 
 
 ## Related entries
