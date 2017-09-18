@@ -146,6 +146,11 @@ and is further expanded on in
 
 * {#DistlerSharpe10} [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
 
+reviewed in
+
+* {#Sharpe08} [[Eric Sharpe]], _Recent developments in heterotic compactifications_, in [[Eric Sharpe]], [[Arthur Greenspoon]], _[Advances in String Theory: The First Sowers Workshop in Theoretical Physics](http://www.ams.org/bookstore-getitem/item=AMSIP-44)_, AMS 2008 ([pdf slides (39-49)](http://www.phys.vt.edu/sowers/talks/sharpe-sowers.pdf))
+
+
 The relation of this to [[equivariant elliptic cohomology]] is amplified in
 
 * {#Ando07} [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
