@@ -15,7 +15,8 @@ where $*$ is the [[point]].
 
 ## Properties
 
-This means that 
+This means that
+
 * an indiscrete category is in fact a [[groupoid]];
 * any [[inhabited set|inhabited]] indiscrete category is [[equivalence of categories|equivalent]] to the [[terminal category]].
 
