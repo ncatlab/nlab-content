@@ -88,7 +88,7 @@ $$
   }
 $$
 
-* on the right: the [[delooping|delooped]] [[smooth ∞-group]] [[Whitehead tower]] of the [[orthogonal group]] ([[fivebrane 6-group]] $\to$ [[string 2-group]] $\to$ [[spin group]] \to [[special orthogonal group]]);
+* on the right: the [[delooping|delooped]] [[smooth ∞-group]] [[Whitehead tower]] of the [[orthogonal group]] ([[fivebrane 6-group]] $\to$ [[string 2-group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]]);
 
 * in the middle, its restriction to [[deloopings]] of [[finite groups]] and their universal [[∞-group extensions]] ($\cdots \to $ [[covering of alternating group]] $\to$ [[alternating group]] $\to$ [[symmetric group]])
 
