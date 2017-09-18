@@ -12,7 +12,7 @@ In [[mathematics]] and [[computer science]], we are however also interested in a
 
 ## Formal Linguistics
 
-Linguists often attempt to specify formal grammars (such as [[context free grammar]]s) which generate exactly the strings of a human language. The derivation trees of such strings are often interpreted in a formal system such as [[typed lambda calculus]], which is taken to represent a high level description of the meaning the speaker intends. Such a "semantics" should ideally assign meanings to the smallest meaningful subparts of a sentence such that these submeanings [[compose]] to assign meanings to sentences. 
+Linguists attempt to specify formal grammars (such as [[context free grammar]]s) which generate exactly the strings of a human language. The derivation trees of such strings are often interpreted in a formal system such as [[typed lambda calculus]], which is taken to represent a high level description of the meaning the speaker intends. Such a "semantics" should ideally assign meanings to the smallest meaningful subparts of a sentence such that these submeanings [[compose]] to assign meanings to sentences. 
 
 
 ## Categorial Grammar/Typelogical Grammar
