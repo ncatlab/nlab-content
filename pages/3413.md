@@ -29,6 +29,7 @@ See also: _Homotopy invariant algebraic structures_: _a conference in honor of J
 
 * [[Boardman-Vogt tensor product]]
 
+* [[stable homotopy category]]
 
 ## References
 
