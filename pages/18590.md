@@ -61,4 +61,6 @@ In [[analysis]] or [[differential geometry]], a _derivative_ is the result of ap
 
 * [[integral]]
 
+* [[derivation]]
+
 [[!redirects derivatives]]
