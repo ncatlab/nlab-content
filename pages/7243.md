@@ -54,9 +54,9 @@ There is a [[short exact sequence]]
 $$
   0 
     \to
-  \mathbb{Z}_{(p)}
+  \mathbb{Z}_{p}
     \overset{p \cdot (-)}{\longrightarrow}
-  \mathbb{Z}_{(p)}
+  \mathbb{Z}_{p}
     \longrightarrow
   \mathbb{Z}/p\mathbb{Z}
     \to
