@@ -1,4 +1,4 @@
-I'm a statistical-physics novice living and working in the general vicinity of Boston, Massachusetts.  I hang around the nLab to keep my intellectual curiosity engaged, and sometimes I contribute a bibliographic item or a copy-edit.
+I'm a visiting scholar at the University of Massachusetts Boston. My current research is in quantum information theory; my background is in statistical physics and stochastic processes.
 
 Evidence of my lack of education:
 
