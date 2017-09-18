@@ -20,7 +20,7 @@
 
 ## Idea
 
-A **CW-complex** is a [[nice topological space]] which is or can be built up inductively, by a process of attaching [[n-disks]] $D^n$ along their [[boundary]] [[n-spheres|(n-1)-spehres]] $S^{n-1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
+A **CW-complex** is a [[nice topological space]] which is or can be built up inductively, by a process of attaching [[n-disks]] $D^n$ along their [[boundary]] [[n-spheres|(n-1)-spheres]] $S^{n-1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
 
 Being, therefore,  essentially combinatorial objects, CW complexes are the principal objects of interest in [[algebraic topology]]; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. Notably the [[geometric realization]] of every [[simplicial set]], hence also of every [[groupoid]], [[2-groupoid]], etc., is a CW complex. 
 
