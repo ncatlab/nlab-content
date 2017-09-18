@@ -58,7 +58,11 @@ Discussion of fundamental constructions of algebraic geometry from the perspecti
 
 * {#Blechschmidt15} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, talk at [Toposes at IHES](https://indico.math.cnrs.fr/event/747/), November 2015 ([pdf](https://github.com/iblech/internal-methods/blob/master/slides-ihes2015.pdf), [recording](https://www.youtube.com/watch?v=7S8--bIKaWQ))
 
-* {#Blechschmidt16} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, thesis ([pdf](http://rawgit.com/iblech/internal-methods/master/notes.pdf))
+* {#Blechschmidt16} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, thesis 2016 ([pdf](http://rawgit.com/iblech/internal-methods/master/notes.pdf))
+
+For more see 
+
+* [[Ingo Blechschmidt]], _Internal methods_ [github repository](https://github.com/iblech/internal-methods)
 
 
 category: algebraic geometry, November 2015
