@@ -1,4 +1,8 @@
 
 * [webpage](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/s/Sojakova:Kristina.html)
 
+## related $n$Lab entries
+
+* [[higher inductive type]], [[initial algebra over an endofunctor]], [[W-type]]
+
 category: people
