@@ -1,3 +1,93 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+One thinks of [[existential quantifier | existential quantification]] as _[[projection]]_. A theory eliminates quantifiers when "the projection of a primitive (quantifier-free) definable set is still primitive (quantifier-free)."
+
+For example, suppose we're working with the theory of an infinite [[vector space]] over a fixed field $\mathbb{F}$. Let $A$ be a linear transformation $\mathbb{F}^{n+1} \to \mathbb{F}^m$. Let $\vec{b}$ be an $m$-tuple, $x$ a variable, and $\vec{y}$ an $n$-tuple of variables. Then the solution set for
+
+$$
+\exists x A(x, \vec{y}) = \vec{b}
+$$
+
+is the projection of the solution set for
+
+$$
+A(x, \vec{y}) = \vec{b}
+$$
+
+to the $\vec{y}$-hyperplane. Since the projection of a (translated) hyperplane is again a (translated) hyperplane, there exists some $B : \mathbb{F}^n \to \mathbb{F}^m$ such that $B(\vec{y}) = \vec{b} \iff (\exists x) \left(A(x, \vec{y}) = \vec{b}\right).$
+
+This is an instance of the fact that the theory of infinite [[vector space | vector spaces]] over a division ring admits quantifier elimination. It's nice when this happens, and when it doesn't, one asks for minimal ways to expand the language to make it happen. That [[ACF]] eliminates quantifiers is a special case of [[Chevalley's theorem on constructible sets]] ("the image of a constructible set is constructible").
+
+## Definition
+An $\mathcal{L}$-theory $T$ **eliminates quantifiers** if every $\mathcal{L}$-formula $\varphi(x)$ is equivalent to a quantifier-free $\mathcal{L}$-formula $\psi(x)$, i.e.
+
+$$
+T \models \varphi(x) \leftrightarrow \psi(x).
+$$  
+
+## Remarks
+
+* Any theory is [[interpretation|bi-interpretable]] with an expanded theory where every definable set is named with a predicate, called its [[coherent logic|Morleyization]], which eliminates quantifiers.
+
+* Therefore, whether or not a structure has quantifier elimination depends on the language being used to describe the structure.
+
+* Quantifier elimination implies [[model complete theory | model completeness]]: all submodels are elementary submodels and all models are [[existentially closed theory | existentially closed]].
+
+* It is an informative exercise to try to prove QE syntactically (a "tractable" case like [[DLO]] suffices) to appreciate the usefulness of the semantic/model-theoretic characterization of QE below.
+
+## Semantic characterizations of QE
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $T$ be a theory. The following are equivalent: 
+
+1. $T$ eliminates quantifiers.
+
+2. If $M$ is a proper supermodel of a substructure $A$ and $N$ $|M|^+$-[[type (in model theory)|saturated]] such that there is an embedding $i : A \to N$, then there exists a proper superstructure $A \subseteq A' \subseteq M$ along with an embedding $i' : A' to N$ extending $i$.
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+  [[ACF]] eliminates quantifier elimination. Furthermore, the theories $\mathsf{ACF}_p$ (where $p$ is specification of the characteristic) are complete.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We put ourselves into the situation of the above theorem. Let $E$ and $F$ be algebraically closed fields such that $F$ is $|E|^+$-saturated. Let $R$ be a subring of $E$ with $i : R \to F$ an embedding. As $E$ is a field, $R$ is an integral domain, and thus $E$ contains the fraction field $\operatorname{Frac}(R)$ of $R$. The embedding $i$ extends uniquely to $\operatorname{Frac}(R)$. By a back-and-forth argument, $i$ extends uniquely to $\operatorname{Frac}(R)^{\operatorname{alg}}$. Therefore, we can assume that $R$ is algebraically closed. Let $a \in E \backslash R$. Then $a$ is transcendental over $R$, and by saturation its [[type (in model theory) | type]] is realized by some $b \in F$ which is transcendental by the image $i(R)$ of $R$ under $i$. Then $a \mapsto b$ induces an embedding $R[a] \overset{i'}{\to} i(R)[b]$, which extends $i$. Thus the hypotheses of the theorem are satisfied and [[ACF]] admits QE.
+
+That $\mathsf{ACF}$ becomes complete after specifying a characteristic follows from the fact that in any theory with quantifier elimination, naming a substructure (thus passing to the theory of all models which contain a copy of that substructure) makes the theory complete, and every field of characteristic $p$ contains the prime field of characteristic $p$.
+
+=--
+
+
+
+## QE extends to co-slice categories
+Let $T$ eliminate quantifiers. Let $K$ be a substructure (not necessarily a submodel) of some model $A$ of $T$. Then the theory $T/K$ of models of $T$ interpreting a copy of $K$ also has quantifier elimination.
+
+In particular, if we specialize to [[ACF]], this tells us that not only do all algebraically closed fields admit quantifier elimination in the language of rings, but so do all algebraically closed fields containing a fixed ring $R$ (i.e. the geometric points of $\operatorname{Spec}(R)$), in the language of rings with constants for the elements of $R$.
+
+## Related concepts
+
+## References
+
 * wikipedia [quantifier elimination](http://en.wikipedia.org/wiki/Quantifier_elimination)
 * Wilfrid Hodges, _Model Theory_, Cambridge University Press 1993
 
