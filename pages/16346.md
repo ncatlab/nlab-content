@@ -1004,7 +1004,7 @@ $$
   \array{
     && U
     \\
-    & \swarrow && \searrow
+    & {}^{\mathllap{et}}\swarrow && \searrow^{\mathrlap{et}}
     \\
     V && && X
   }
