@@ -19,7 +19,7 @@
 
 ## Idea
 
-Given a [[higher-order logic|higher-order]] [[intuitionistic type theory]] $\mathfrak{L}$, it is possible to construct a [[topos]] $T(\mathfrak{L})$ out of the [[syntax]] of $\mathfrak{L}$. The **free topos** $T(\mathfrak{L}_0)$ is the result of this construction when $\mathfrak{L}_0$ is 'pure' type theory i.e. the only types are 1, $N$, and $\Omega$ lacking relations beyond the bare necessities.
+Given a [[higher-order logic|higher-order]] [[intuitionistic type theory]] $\mathfrak{L}$, it is possible to construct a [[topos]] $T(\mathfrak{L})$ out of the [[syntax]] of $\mathfrak{L}$. The **free topos** $T(\mathfrak{L}_0)$ is the result of this construction when $\mathfrak{L}_0$ is 'pure' type theory i.e. the only types are 1 ([[unit type]]), $N$ ([[natural numbers type]]), and $\Omega$ ([[type of propositions]]) lacking relations beyond the bare necessities.
 
 As $\mathfrak{L}_0$ is an [[initial object]] in the appropriate category of type theories, the free topos $T(\mathfrak{L}_0)$ is itself initial in the category of toposes and [[logical morphisms]] and is, therefore, also known as the **initial topos**[^sga4].
 
