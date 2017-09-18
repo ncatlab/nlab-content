@@ -137,6 +137,8 @@ See at _[[Bohr topos]]_ for more.
 
   * [[Wigner theorem]]
 
+* [[collapse of the wave function]]
+
 * [[qbit]]
 
 * [[quantum circuit]]
