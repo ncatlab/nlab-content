@@ -121,6 +121,8 @@ where $LoopGraph$ is the category of "loop graphs", i.e., the full subcategory o
 
 * [[hyperstructure]]
 
+* [[hypergraph category]]
+
 * [[quiver]]
 
 ## References
