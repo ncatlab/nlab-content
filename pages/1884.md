@@ -780,7 +780,7 @@ $$
 For $S^2$ the [[Euclidean space|Euclidean]] [[2-sphere]], write
 
 $$
-  h \in Vect_{\\mathbb{C}}(S^2) \ongrightarrow K_{\mathbb{C}}(S^2)
+  h \in Vect_{\mathbb{C}}(S^2) \ongrightarrow K_{\mathbb{C}}(S^2)
 $$
 
 for the complex topological K-theory class of the [[basic complex line bundle on the 2-sphere]].
@@ -1258,20 +1258,20 @@ $$
 ###### Proposition
 **([[homotopy invariance]] of K-groups)
 
-Let $X$ and $Y$ be [[paracompact Hausdorff spaces]], and let 
+Let $X$ and $Y$ be [[paracompact Hausdorff spaces]], and let
 
 $$
   f \;\colonn\; X \longrightarrow Y
 $$
 
 be a [[continuous function]] which is a [[homotopy equivalence]].
-Then the pullback operation on (reduced) K-groups along $f$ (remark \ref{FunctorialityOfKGroup}, remark \ref{FunctorialityOfReducedKGroups}) is an 
+Then the pullback operation on (reduced) K-groups along $f$ (remark \ref{FunctorialityOfKGroup}, remark \ref{FunctorialityOfReducedKGroups}) is an
 [[isomorphism]]:
 
 $$
   f^\ast
   \;\colon\;
-  K(Y) 
+  K(Y)
     \overset{\simeq}{\longrightarrow}
   K(X)
 $$
@@ -1303,6 +1303,27 @@ isomorphism classes of topological vector bundles are homotopy invariant ([this 
  {#ExactSequences}
 
 We discuss the [[long exact sequences in cohomology]] for topological K-theory.
+
+What makes these work in prop. \ref{ExactSequenceInReducedTopologicalKTheory} below, turns out to be the following property of [[topological vector bundles]]:
+
++-- {: .num_lemma #VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace}
+###### Lemma
+**([[topological vector bundle]] [[trivial vector bundle|trivial]] over [[closed subspace]] of [[compact Hausdorff space]] is [[pullback bundle|pullback]] of bundle on [[quotient space]])**
+
+Let $X$ be a [[compact Hausdorff space]] and let $A \subset X$ be a [[closed subspace]].
+
+If a [[topological vector bundle]] $E \overset{p}{\to} X$ is such that its restriction $E\vert_A$
+is [[trivializable vector bundle|trivializable]], then $E$ is [[isomorphism|isomorphic]] to
+the [[pullback bundle]] $q^\ast E'$ of a topological vector bundle $E' \to X/A$
+over the [[quotient space]]..
+
+=--
+
+The **proof** of lemma \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} is 
+given at _[[topological vector bundle]]_ 
+[here](topological+vector+bundle+VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace).
+What makes that proof work, in turn, is the [[Tietze extension theorem]], via
+[this lemma](topological+vector+bundle#IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods).
 
 +-- {: .num_prop #ExactSequenceInReducedTopologicalKTheory}
 ###### Proposition
@@ -1390,10 +1411,10 @@ $$
   \,.
 $$
 
-Here the top vertical morphisms, the [[kernel]] inclusions, are [[monomorphisms]], and 
+Here the top vertical morphisms, the [[kernel]] inclusions, are [[monomorphisms]], and
 hence the top horizonal row is exact precisely if the middle horizontal row is.
 
-Hence it is sufficient to conider the top row. First of all
+Hence it is sufficient to consider the top row. First of all
 the composite function $A \overset{i}{\to} X \overset{q}{\to} X/A$ is a [[constant function]],
 constant on the basepoint,
 and hence $i^\ast \circ q^\ast$ is a constant function, constant on zero. This says that
@@ -1405,12 +1426,14 @@ $$
 $$
 
 Hence it only remains to see for $x \in \tilde K(X)$ a class with $i^\ast(x) = 0$
-that $x = q^\ast(y)$ comes from a class on the quotient &X/A&. But by compactness, the class
+that $x = q^\ast(y)$ comes from a class on the quotient $X/A$. But by compactness, the class
 $x$ is given by a [[virtual vector bundle]] of the form $E - rk(E)$
 (prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}, prop. \ref{KGrupDirectSummandReducedKGroup}).
-and by prop. \ref{ReducedKEquivalenceRelationVerified} the triviality of this
-class means that there is $n \in \mathbb{N}$ such that  $E \oplus_A (A \times \mathbb{C}^n)$
-is a [[trivializable vector bundle]]. Therefore [this prop.](topological+vector+bundle#IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods) gives that $E \oplus_A (A \times \mathbb{C}^n)$
+and by prop. \ref{ReducedKEquivalenceRelationVerified} the triviality of $i^\ast(E- rk(E))$ means that 
+there is $n \in \mathbb{N}$ such that  $i \ast(E) \oplus_A (A \times \mathbb{C}^n)$
+is a [[trivializable vector bundle]]. 
+Therefore lemma \ref{VectorBundleOnClosedSubsetOfCompactHausdorffSpaceIsPullbackOfBundeOnQuotientSpace} gives 
+that $E \oplus_X (X \times \mathbb{C}^n)$
 is isomorphic to the [[pullback bundle]] of a vector bundle $E'$ on $X/A$. This proves the claim.
 
 =--
@@ -1463,7 +1486,7 @@ $$
   \cdots
 $$
 
-obtained by consecutively forming [[mapping cones]]. 
+obtained by consecutively forming [[mapping cones]].
 By the discussion at _[[topological cofiber sequence]]_ this may be rearranged as
 
 $$
@@ -1476,12 +1499,12 @@ $$
       &\longrightarrow&
     Cone(j)
     \\
-    && && 
+    && &&
     \downarrow {\mathrlap{\text{homotopy} \atop \text{equivalence}}}
     &&
     \downarrow^{\mathrlap{\text{homotopy} \atop \text{equivalence}}}
     \\
-    && && 
+    && &&
     X/A
     &&
     S A
