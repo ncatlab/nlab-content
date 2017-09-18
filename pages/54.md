@@ -1,19 +1,6 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" />
 </div>
 
-+-- {: .standout}
-
-**AlgTop II and Seminar**
-
-* _[[Introduction to Stable homotopy theory|lecture and seminar webpage]]_, 
-
-  see there for topics, literature and, eventually, lecture notes
-
-* organizational meeting for the seminar:
-
-  Friday Feb 19, 12:00, Endenicher Allee 60, room N0.003
-
-=--
 
 #contents#
 * table of contents
@@ -70,16 +57,29 @@ Since summer 2015 I have given several enactments of a lecture series
 
 * _[[schreiber:Structure Theory for Higher WZW Terms]]_.
 
-In summer 2016 I am teaching a master course
+In summer 2016 I taught a master course
 
 * _[[Introduction to Stable homotopy theory|Stable Homotopy Theory]]_.
 
 A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
 
+
+
 ## publications
 
-* [arXiv](http://arxiv.org/a/schreiber_u_1.html), [personal record](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects)
+Research articles:
+
+* [arXiv](http://arxiv.org/a/schreiber_u_1.html), 
+
+* [personal record](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects)
+
+Textbooks:
+
+* _[[schreiber:Introduction to Homological algebra]]_
+
+* _[[Introduction to Stable homotopy theory]]_
+
 
 ## invited talks and lectures
 
