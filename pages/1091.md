@@ -78,7 +78,7 @@ The concept of base change generalises from this case to other [[fibered categor
 ###### Proposition
 
 
-For $\mathbf{H}$ is a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change induces an [[essential geometric morphism]] betwen over-toposes/[[over-(∞,1)-topos]]es
+For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change induces an [[essential geometric morphism]] betwen over-toposes/[[over-(∞,1)-topos]]es
 
 $$
   (\sum_f \dashv f^* \dashv \prod_f) : \mathbf{H}/X 
@@ -161,9 +161,191 @@ If $\mathcal{C}$ is a [[locally cartesian closed category]] then for every morph
 
 See at _[cartesian closed functor -- Examples](cartesian%20closed%20functor#Examples)_ for a proof.
 
-## Applications
 
-Base change geometric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
+## Examples 
+
+
+### Along $\mathbf{B}H \to \mathbf{B}G$
+ {#AlongDeloopingsOfGroupHomomorphisms}
+
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $G$ an group object in $\mathbf{H}$ (an [[∞-group]]), then the [[slice (∞,1)-topos]] over its [[delooping]] may be identified with the [[(∞,1)-category]] of $G$-[[∞-actions]] (see there for more):
+
+
+$$
+  Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+Under this identification, then left and right base change long a morphism of the form $\mathbf{B}H \to \mathbf{B}G$ (corresponding to an [[∞-group]] homomorphism $H \to G$) corresponds to forming [[induced representations]] and [[coinduced representations]], respectively.
+
+### Along $\ast \to \mathbf{B}G$
+ {#AlongPointInclusionIntoBG}
+
+As the special case of the [above](#AlongDeloopingsOfGroupHomomorphisms) for $H = 1$ the trivial group we obtain the following:
+
++-- {: .num_prop #GeneralReduction}
+###### Proposition
+
+Let $\mathbf{H}$ be any  [[(∞,1)-topos]] and let $G$ be a group object in $\mathbf{H}$ (an [[∞-group]]). Then the base change along the canonical point inclusion 
+
+$$
+  i \;\colon\; \ast \to \mathbf{B}G
+$$ 
+
+into the [[delooping]] of $G$ takes the following form: 
+
+There is a pair of [[adjoint ∞-functors]] of the form
+
+$$
+  \mathbf{H}
+    \underoverset
+      { \underset{i_\ast \simeq [G,-]/G}{\longrightarrow}}
+      { \overset{i^\ast \simeq hofib}{\longleftarrow}}
+      {\bot}
+  \mathbf{H}_{/\mathbf{B}G}
+  \,,
+$$
+
+
+where
+
+* $hofib$ denotes the operation of taking the [[homotopy fiber]] of a map to $\mathbf{B}G$ over the canonical basepoint;
+
+* $[G,-]$ denotes the [[internal hom]] in $\mathbf{H}$;
+
+* $[G,-]/G$ denotes the [[homotopy quotient]] by the [[conjugation action|conjugation]] [[∞-action]] for $G$ equipped with its canonical [[∞-action]] by left multiplication and the argument
+regarded as equipped with its trivial $G$-$\infty$-action 
+
+  (for $G = S^1$ then this is the [[cyclic loop space]] construction).
+
+Hence for
+
+* $\hat X \to X$ a $G$-[[principal ∞-bundle]]
+
+* $A$ a [[coefficient]] object, such as for some [[differential cohomology|differential]] [[generalized cohomology theory]]
+
+then there is a [[natural equivalence]]
+
+
+$$
+  \underset{
+    \text{original} \atop \text{fluxes}
+  }{
+  \underbrace{
+    \mathbf{H}(\hat X\;,\; A)
+  }
+  }
+    \;\;
+    \underoverset
+      {\underset{oxidation}{\longleftarrow}}
+      {\overset{reduction}{\longrightarrow}}
+      {\simeq}
+    \;\;
+  \underset{
+     \text{doubly} \atop { \text{dimensionally reduced} \atop \text{fluxes} }
+  }{
+  \underbrace{
+    \mathbf{H}(X \;,\; [G,A]/G)
+  }
+  }
+$$
+
+given by
+
+$$
+  \left(
+     \hat X \longrightarrow A
+  \right)
+  \;\;\;
+    \leftrightarrow
+  \;\;\;
+  \left(
+    \array{
+       X && \longrightarrow && [G,A]/G
+       \\
+       & \searrow && \swarrow
+       \\
+       && \mathbf{B}G
+    }
+  \right)
+$$
+
+=--
+
++-- {: .proof #DimensionalReductionAbstractly}
+###### Proof
+
+The statement that $i^\ast \simeq hofib$ follows immediately by the definitions. What we need to show see is that the [[dependent product]] along $i$ is given as claimed.
+
+To that end, first observe that the [[conjugation action]] on $[G,X]$ is the [[internal hom]] in
+the [[(∞,1)-category]] of $G$-[[∞-actions]] $Act_G(\mathbf{H})$.
+Under the [[equivalence of (∞,1)-categories]]
+
+$$
+  Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
+$$
+
+(from [NSS 12](geometry+of+physics+-+fundamental+super+p-branes#NSS12)) then $G$ with its canonical [[∞-action]] is $(\ast \to \mathbf{B}G)$
+and $X$ with the trivial action is $(X \times \mathbf{B}G \to \mathbf{B}G)$.
+
+Hence
+
+$$
+  [G,X]/G
+    \simeq
+  [\ast, X \times \mathbf{B}G]_{\mathbf{B}G}
+  \;\;\;\;\;
+  \in
+   \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+So far this is the very definition of what $[G,X]/G \in \mathbf{H}_{/\mathbf{B}G}$ is to mean in the first place.
+
+But now since the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is itself [[cartesian closed (infinity,1)-category|cartesian closed]], via
+
+$$
+  E \times_{\mathbf{B}G}(-)
+  \;\;\;
+   \dashv
+  \;\;\;
+  [E,-]_{\mathbf{B}G}
+$$
+
+it is immediate that
+there is the following sequence of [[natural equivalences]]
+
+$$
+  \begin{aligned}
+   \mathbf{H}_{/\mathbf{B}G}(Y, [G,X]/G)
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(Y, [\ast, X \times \mathbf{B}G]_{\mathbf{B}G})
+   \\
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(
+     Y \times_{\mathbf{B}G} \ast,
+     \underset{p^\ast X}{\underbrace{X \times \mathbf{B}G }}
+  )
+  \\
+  & \simeq
+  \mathbf{H}(
+     \underset{hofib(Y)}{\underbrace{p_!(Y \times_{\mathbf{B}G} \ast)}},
+     X
+  )
+  \\
+  & \simeq
+  \mathbf{H}(hofib(Y),X)
+  \end{aligned}
+$$
+
+Here $p \colon \mathbf{B}G \to \ast$ denotes the terminal morphism and $p_! \dashv p^\ast$ denotes the [[base change]] along it.
+
+
+=--
+
+See also at _[[double dimensional reduction]]_ for more on this.
+
 
 ## Related concepts
 
@@ -181,8 +363,11 @@ Base change geometric morphisms may be interpreted in terms of [[fiber integrati
 
   * [[necessity]], [[possibility]], [[reader monad]], [[writer comonad]]
 
-
 * [[proper base change theorem]]
+
+
+Base change geometric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
+
 
 ## References
 
@@ -192,13 +377,13 @@ A general discussion that applies (also) to [[enriched categories]] and [[intern
 
 Discussion in the context of [[topos theory]] is around example A.4.1.2 of
 
-* [[Peter Johnstone]],  _[[Sketches of an Elephant]]_ 
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]],  _[[Sketches of an Elephant]]_ 
+ 
 
 and around theorem IV.7.2 in 
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-  {#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+  
 
 Discussion in the context of [[(infinity,1)-topos theory]] is in section 6.3.5 of 
 
