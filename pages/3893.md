@@ -39,6 +39,8 @@ A _Cartan geometry_ is a space equipped with a _[[Cartan connection]]_. See ther
 
 * [[G-structure]], [[homothety]]
 
+* [[higher Cartan geometry]]
+
 ## References
 
 The original article is
