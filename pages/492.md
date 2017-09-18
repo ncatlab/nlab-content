@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -225,6 +225,8 @@ the condition $p(x) = p(y)$ and $\partial_i x = \partial_i y$ implies for all $k
 
 ## Properties
 
+### Acyclic Kan fibrations and weak homotopy equivalences
+
 +-- {: .num_theorem}
 ###### Theorem
 
@@ -242,14 +244,7 @@ The [[acyclic Kan fibrations]] morphisms $f : X \to Y$ of Kan complexes that are
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-A proof is in chapter I of
-
-* Goerss-Jardine, _Simplicial homotopy theory_. Explicitly, it is theorem 7.10 [here](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi).
-
-=--
+e.g. ([Goerss-Jardine, chapter I](#GoerssJardine96))
 
 +-- {: .num_cor}
 ###### Corollary
@@ -271,14 +266,24 @@ From this it follows readily that [[Kan complexes]] form a Brownian [[category o
 =--
 
 
-Let $C, D$ be ordinary [[nLab:groupoid|groupoids]] and $N(C)$, $N(D)$ their ordinary [[nLab:nerve|nerves]]. We'd like to show in detail that 
++-- {: .num_prop #AcyclicFibrationsDetectedFiberwise}
+###### Proposition
+
+A Kan fibration $f\colon X\to Y$ is acyclic precisely if the [[fiber]] $f^{-1}(y)$ over each vertex $y$ is [[contractible]].
+
+=--
+
+Purely combinatorial proofs of this statement include ([Joyal, prop. 8.23](#Joyal), [Riehl-Verity 13, lemma 5.4.16](#RiehlVerity13))
+
+
+
+### On nerves of groupoids
+
 
 +-- {: .num_theorem}
 ###### Theorem
 
-A [[nLab:functor|functor]] $F : C \to D$ is 
-
-* [[nLab:k-surjective functor|k-surjective]] for all $k$ and hence a surjective [[nLab:equivalence of categories|equivalence of categories]] precisely if under the [[nLab:nerve|nerve]] $N(F) : N(C) \to N(D)$ it induces an acyclic fibration of Kan complexes;
+A [[functor]] $F \colon C \to D$ between [[groupoids]] is [[k-surjective functor|k-surjective]] for all $k$ and hence a surjective [[equivalence of categories]] precisely if under the [[nerve]] $N(F) : N(C) \to N(D)$ it induces an acyclic fibration of Kan complexes;
 
 =--
 
@@ -382,5 +387,17 @@ We check successively what this means for increasing $n$:
 
 * [[Cartesian fibration]]  
 
+
+## References
+
+A standard textbook account is
+
+* {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, 1996
+
+See also
+
+* {#Joyal} [[Andre Joyal]] _Theory of Quasi-Categories and its applications_ [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf)
+
+* {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
 
 [[!redirects Kan fibrations]]
