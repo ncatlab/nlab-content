@@ -157,6 +157,8 @@ The [[exceptional Lie groups]] incude
 
 ### Infinite-dimensional examples
 
+* [[stable unitary group]]
+
 * [[loop group]]
 
 * [[diffeomorphism group]]
