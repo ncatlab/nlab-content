@@ -8,3 +8,6 @@ $$
 $$
   \sum \dashv ext \dashv \prod
 $$
+
+$\{L(V,W)\,|\,Av\in U\}$
+$\{L(V,W)\,|\,A v \in U\}$
