@@ -18,8 +18,11 @@ Please distinguish from _[[Weil algebra]]_.
 ## Properties
 
 ### Relation to Heisenberg Lie algebra
+ {#RelationToHeisenbergLieAlgebra}
 
 The Weyl algebra on $2n$ generators is the quotient of the [[universal enveloping algebra]] of the [[Heisenberg Lie algebra]] on $2n$ generators, obtained by identifying the [[center|central]] elements of the Heisenberg Lie algebra with multiples of the identity element.
+
+Accordingly, given a [[Heisenberg Lie n-algebra|Heisenberg Lie n-algebra]] it makes sense to call its [[universal enveloping E-n algebra]] a _[[Weyl n-algebra]]_.
 
 ## References
 
