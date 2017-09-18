@@ -66,6 +66,11 @@ Furthermore, since in a [[Cartesian closed category]] $X^{(Y\times Z)}\simeq(X^Y
 Conversely, if every power object $\Omega^X$ embeds into a connected object then the power objects $\Omega^X$ will be connected themselves by proposition \ref{connected_retract} below since power objects are injective in general. Whence a topos is sufficiently cohesive iff every object embeds into a connected object iff every object embeds into a contractible object. The last formulation is taken as the definition of sufficient cohesion in Lawvere ([2007](#Law07)).
 =--
 
++-- {: .num_remark}
+###### Remark
+Following Lawvere ([2007](#Law07)) we have defined only sufficiently cohesively _toposes_ but axioms of cohesions can be considered in the wider context of Cartesian closed [[extensive category|extensive categories]] or even merely [[distributive category|distributive categories]] as done in Lawvere ([1991](#Law91a), [1992](#Law92), [2007](#Law07)). In the latter context, the definition of sufficient cohesion as 'having enough connected' objects would be feasible but Lawvere ([1991](#Law91a), p.4) suggests that the definition should be strenghtened to demand that every object is the equaliser of a pair of maps between two connected objects.
+=--
+
 ## Properties
 
 +-- {: .num_prop #connected_retract}
@@ -111,15 +116,15 @@ On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a
 
 [^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al (2004) where the Sierpinski topos is called the category of bouquets.
 
-Recall that in any topos, the subobject classifier $\Omega$ has two points $\bot,\top$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$ for the monomorphism $0\to 1$:
+Recall that in any topos, the subobject classifier $\Omega$ has two points $\mathsf{true},\mathsf{false}$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$ for the monomorphism $0\to 1$:
 
 $$
 \array{
 0 &\to & 1 
 \\
-\downarrow & &\downarrow\mathsf{T}
+\downarrow & &\downarrow\mathsf{true}
 \\
-1 &\underset{\bot}{\to} &\Omega
+1 &\underset{\mathsf{false}}{\to} &\Omega
 }
 $$
 
@@ -127,8 +132,39 @@ In a sufficiently cohesive topos $\Omega$ is furthermore connected whence togeth
 
 +-- {: .num_defn #connector}
 ###### Definition 
-An object $I$ in a weakly cohesive topos is called a _(cohesive) connector_ if $p_!(I)=1$ and $I$ has two points $t_0,t_1:1\to I$ with empty [[equaliser]]: $0\overset{e}{\to} 1\overset{t_0}{\underset{t_1}{\rightrightarrows}} I$.
+An object $T$ in a weakly cohesive topos is called a _(cohesive) connector_ if $p_!(T)=1$ and $T$ has two points $t_0,t_1:1\to T$ with empty [[equaliser]]: $0\overset{e}{\to} 1\overset{t_0}{\underset{t_1}{\rightrightarrows}} T$.
 =--
+
+In a topos with a connected subobject classifier $\Omega$ itself is a connector. Conversely the existence of a connector implies the connectedness of $\Omega$:
+
++-- {: .num_prop #connecting_truth}
+###### Proposition
+Let $\mathcal{E}$ be weakly cohesive topos. $\mathcal{E}$ has a connector $T$ iff $p_!(\Omega)=1$.
+=--
+
+**Proof**.
+"$\Rightarrow$": Let $1\overset{t_0}{\underset{t_1}{\rightrightarrows}} T$ be a connector. Then $t_1:1\to T$ is a subobject with classifying map $\chi_1:T\to\Omega$. Consider the two composites $\chi_1\circ t_i$ , $i=0,1$:
+
+For $i=1$ this simply yields $\mathsf{true}$ by the definition of $\chi_1$.
+
+For $i=0$ we claim that $\chi_1\circ t_0=\mathsf{false}$ since we have the following diagram:
+
+$$
+\array{
+0 &\to & 1 &\to & 1 
+\\
+\downarrow & &t_1\downarrow& & \downarrow \mathsf{true}
+\\
+1&\underset{t_0}{\to} &T&\underset{\chi_1}{\to}&\Omega
+}
+$$
+
+Here the left square is a pullback since $t_o,t_1$ have empty equaliser by assumption. The right square is a pullback since it classifies $t_1$ whence the outer square is a pullback too. Therefore $\chi_1\circ t_0$ classifies $0\to 1$ which is exactly the definition of $\mathsf{false}$. 
+
+Since $p_!(T)$ is terminal $p_!(t_0)=p_!(t_1)$. Whence
+$$p_!(\mathsf{true})=p_!(\chi_1\circ t_1)=p_!(\chi_1)\circ p_!(t_1)=p_!(\chi_1)\circ p_!(t_0)=p_!(\chi_1\circ t_0)=p_!(\mathsf{false})\quad$$
+
+This says that $\mathsf{true}$ and $\mathsf{false}$ are in the same connected component but a lattice whose top and bottom elements are in the same component is necessarily connected. $\qed$
 
 One can use connectors to define a (generalized) homotopy relation between maps that behaves well under taking connected components.
 
@@ -146,7 +182,7 @@ The following result brings together the two crucial ingredients for the equival
 Let $f=h\circ\langle i, k_1\rangle$ and $g=h\circ\langle i, k_2\rangle$ be a pair of parallel maps in a weakly cohesive topos with the property that $p_!(k_1)=p_!(k_2)$. Then $p_!(f)=p_!(g)$. In particular, $f\sim_I g$ implies $p_!(f)=p_!(g)$.
 =--
 
-**Proof**. Since $p_!$ preserves finite products it maps product diagrams to product diagrams whence $p_!(h\circ\langle i, k_j\rangle)=p_!(h)\circ p_!(\langle i, k_j\rangle)=p_!(h)\circ \langle p_!( i), p_!(k_j)\rangle)$ , $j\in\{1,2\}$, but these two maps coincide since $p_!(k_1)=p_!(k_2)$ by assumption.
+**Proof**. Since $p_!$ preserves finite products it maps product diagrams to product diagrams whence $p_!(h\circ\langle i, k_j\rangle)=p_!(h)\circ p_!(\langle i, k_j\rangle)=p_!(h)\circ \langle p_!( i), p_!(k_j)\rangle$ , $j\in\{1,2\}$, but these two maps coincide since $p_!(k_1)=p_!(k_2)$ by assumption.
 
 Since for an I-homotopy $k_j=t_j\circ !_A:A\to I$ and, $p_!(I)=1$ by assumption, $p_!(k_j):p_!(A)\to 1$, $j\in\{1,2\}$, and these maps necessarily coincide since $1$ is terminal whence $p_!(t_0\circ !_A)=p_!(t_1\circ !_A)$ whence $p_!(f)=p_!(g)$ as claimed. $\qed$
 
@@ -215,7 +251,7 @@ $$
 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , TAC **29** no.20 (2014) pp.542-568. ([pdf](http://www.tac.mta.ca/tac/volumes/29/20/29-20.pdf))
 
-* {#Shulman15} [[Mike Shulman|M. Shulman]], _Brouwer's Fixed Point Theorem in real-cohesive Homotopy Type Theory_ , arXiv:1509.07584 (2015). ([abstract](http://arxiv.org/abs/1509.07584)) 
+* {#Shulman15} [[Mike Shulman|M. Shulman]], _Brouwer's Fixed Point Theorem in Real-Cohesive Homotopy Type Theory_ , arXiv:1509.07584 (2015). ([abstract](http://arxiv.org/abs/1509.07584)) 
 
 [[!redirects empty 162]]
 [[!redirects sufficiently cohesive toposes]]
