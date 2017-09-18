@@ -1,23 +1,24 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Foundations
-+--{: .hide}
-[[!include foundations - contents]]
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
 =--
 =--
 =--
+
 
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents 
 {: toc}
 
 ##Idea
 
-In [[model theory]], [[model|models]] of [[first-order theory]] $T$ are certain kinds of [[functor|functors]] from the [[syntactic site]] of $T$ to $\mathbf{Set}$. Elementary embeddings are [[natural transformation|natural transformations]] between these functors.
+In [[model theory]], [[model|models]] of a [[first-order theory]] $T$ are certain kinds of [[functor|functors]] from the [[syntactic site]] of $T$ to $\mathbf{Set}$. Elementary embeddings are [[natural transformation|natural transformations]] between these functors.
 
 ## Definition
 
