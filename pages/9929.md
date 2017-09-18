@@ -141,6 +141,7 @@ Examples of complex orientable cohomology theories:
 
 +-- {: .num_example }
 ###### Example
+**([[ordinary cohomology]])**
 
 For $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]], the ordinary [[first Chern class]]
 
@@ -151,8 +152,21 @@ $$
 defines a complex orientation of $H\mathbb{Z}$.
 =--
 
++-- {: .num_example }
+###### Example
+**([[topological K-theory]])**
+
+For $E = KU$ complex [[topological K-theory]], then the class of the image of the the [[universal complex line bundle]] $\mathcal{O}(1)$ in [[reduced K-theory]] is a complex orientation.
+
+The induced [[formal group law]] (by prop. \ref{ComplexOrientedCohomologyTheoryFormalGroupLaw}) is the [[multiplicative formal group law]]. 
+
+For details see at _[[topological K-theory]]_ the section _[Complex orientation and Formal group law](topological+K-theory#ComplexOrientationAndFormalGroupLaw)_.
+
+=--
+
 +-- {: .num_example #ComplexCobordism}
 ###### Example
+**(complex cobordism)**
 
 For $E = MU$ [[complex cobordism cohomology theory]], the canonical map
 
