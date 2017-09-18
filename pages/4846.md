@@ -286,6 +286,8 @@ This is the content of ([CastellaniDAuriaFre, equation (III.8.52)](#CastellaniDA
 
 **supergravity Lie 6-algebra** $\to$ [[supergravity Lie 3-algebra]] $\to$ [[super Poincaré Lie algebra]]
 
+* [[4d supergravity Lie 2-algebra]]
+
 * [[type II supergravity Lie 2-algebra]]
 
 * [[M-theory super Lie algebra]]
