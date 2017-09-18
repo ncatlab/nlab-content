@@ -3686,7 +3686,7 @@ By prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} its differentials on
 +-- {: .num_prop #AHSSPairing}
 ###### Proposition
 
-For $E$ a [[ring spectrum]] and $X$ a finite [[CW-complex]], then the [[Kronecker pairing]]
+For $E$ a [[homotopy commutative ring spectrum]] spring and $X$ a finite [[CW-complex]], then the [[Kronecker pairing]]
 
 $$
   \langle-,-\rangle_X 
@@ -5396,7 +5396,7 @@ Similarly for an $S^k-(B,f)$-structure indexed on every $k$th natural number (su
 
 If $B_n = B G_n$ for some natural system of groups $G_n \to O(n)$, then one usually writes $M G$ for $M \mathcal{B}$. For instance $M SO$, [[MSpin]], [[MU]], [[MSp]] etc.
 
-If the $(B,f)$-structure is multiplicative (def. \ref{BfStructure}), then the Thom spectrum $M \mathcal{B}$ canonical becomes a [[ring spectrum]]: the multiplication maps $B_{n_1} \times B_{n_2}\to B_{n_1 + n_2}$ are covered by maps of vector bundles
+If the $(B,f)$-structure is multiplicative (def. \ref{BfStructure}), then the Thom spectrum $M \mathcal{B}$ canonical becomes a [[ring spectrum]] (for more on this see [[Introduction to Stable homotopy theory -- 1-2|Part 1-2]] the section on [orthogonal Thom spectra](#Introduction+to+Stable+homotopy+theory+--+1-2#ThomSpectra) ): the multiplication maps $B_{n_1} \times B_{n_2}\to B_{n_1 + n_2}$ are covered by maps of vector bundles
 
 $$
   V^{\mathcal{B}}_{n_1} \boxtimes V^{\mathcal{B}}_{n_2}
