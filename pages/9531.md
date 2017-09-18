@@ -13,6 +13,10 @@ A [[set]] equipped with a [[permutation representation]] of a ([[discrete group|
 
 * Any [[permutation]] $\pi : X \to X$ gives $X$ the structure of a $\mathbb{Z}$-set, with the action of $\mathbb{Z}$ on $X$ defined by iterated composition of $\pi$ or $\pi^{-1}$.
 
+* $G$ is itself a $G$-set via the (left or right) [[regular representation]]. 
+
+* A [[normal subgroup]] $N \lhd G$ defines a $G$-set by the action of [[conjugation]].
+
 * For $G$ a [[finite group]] then [[Mackey functors]] on [[finite set|finite]] $G$-sets are equivalent to genuine [[G-spectra]].
 
 ## Related concepts
