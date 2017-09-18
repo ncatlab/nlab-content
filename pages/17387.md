@@ -1,0 +1,36 @@
+# The Quintet Construction
+
+* table of contents
+{:toc}
+
+## Idea
+
+A *quintet construction* is an operation that takes a "globular" categorical structure and produces a "cubical" one (see [[geometric shape for higher structures]]) in which the squares
+
+$$ \array{ A & \overset{f}{\to} & B \\
+^g\downarrow  & \swArrow & \downarrow^h\\
+C & \underset{k}{\to} & D }$$
+
+are morphisms between composites $\alpha:h\circ f \to k\circ g$.  The name arises because a square in the resulting cubical structure is formally a quintet $(f,g,h,k,\alpha)$ (since just knowing the globular cell $\alpha$ does not determine the decomposition of its domain and codomain as composites).
+
+
+## Examples
+
+* Quintets in a [[strict 2-category]] form a [[strict double category]].
+
+* Quintets in a [[bicategory]] form a [[double bicategory]].
+
+* Quintets in a [[Gray-category]] form an [[intercategory]].
+
+
+## Applications
+
+A quintet construction is at least morally a [[left adjoint]] to a functor that picks out the [[companion pairs]] in a cubical structure.  Thus, functors *out* of quintet constructions are nothing new; but some interesting applications involve functors *into* quintet constructions from other cubical structures.  For instance:
+
+* The assignment of [[homotopy categories]] and [[derived functors]] to [[model categories]] can be made into a [[double pseudofunctor]] from the [[double category of model categories]] to the double category of quintets in [[Cat]].  This implies that [[mates]] are preserved even when they relate composites of left and right [[Quillen functors]].
+
+[[!redirects quintet]]
+[[!redirects quintets]]
+[[!redirects quintet constructions]]
+[[!redirects quintets in a 2-category]]
+[[!redirects double category of quintets]]
