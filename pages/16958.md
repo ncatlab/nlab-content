@@ -6,6 +6,10 @@
 
 * [[cohomology operation]]
 
+* [[Steenrod algebra]]
+
+* [[May spectral sequence]]
+
 * [[Hopf construction]]
 
 category: people
