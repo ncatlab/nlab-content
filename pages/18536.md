@@ -12,3 +12,5 @@
 * [[Tomonaga-Schwinger equation]]
 
 category: people
+
+[[!redirects Schwinger]]
