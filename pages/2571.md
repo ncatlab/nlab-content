@@ -15,16 +15,16 @@
 
 ## Idea
 
-The commonly accepted standard [[foundation of mathematics]] today is a [[material set theory]], $ZFC$ or Zermelo--Fraenkel set theory with the [[axiom of choice]].
+The most commonly accepted standard [[foundation of mathematics]] today is a [[material set theory]], $ZFC$ or Zermelo--Fraenkel set theory with the [[axiom of choice]].  There are many variations on that theory (including [[constructive mathematics|constructive]] and [[class]]-based versions, which are also discussed here.
 
 
 ## History
 
 The first version was developed by [[Ernst Zermelo]] in 1908; in 1922, [[Abraham Fraenkel]] and [[Thoralf Skolem]] independently proposed a precise first-order version with the [[axiom of replacement]]; von Neumann added the [[axiom of foundation]] in 1925.  All of these versions included the axiom of choice, but this was considered controversial for some time; one has merely $ZF$ if it is taken out.
 
-$ZFC$ is similar to the [[class]] theories [[NBG]] (due to [[John von Neumann]], [[Paul Bernays]], and [[Kurt Godel|Kurt Gödel]]) and $MK$ (due to [[Anthony Morse]] and [[John Kelley]], see [[Morse-Kelley set theory]]).  The former is a conservative, finitely axiomatisable extension of $ZFC$, while the latter is stronger and cannot be finitely axiomatised (without introducing meta-classes or something).
+$ZFC$ is similar to the [[class]] theories [[NBG]] (due to [[John von Neumann]], [[Paul Bernays]], and [[Kurt Godel|Kurt Gödel]]) and $MK$ (due to [[Anthony Morse]] and [[John Kelley]], see [[Morse-Kelley set theory]]).  The former is a conservative, finitely axiomatisable extension of $ZFC$, while the latter is stronger and cannot be finitely axiomatised (although a conservative extension involving meta-classes could be).
 
-Contemporary set theorists often accept additional [[large cardinal]] axioms, which can greatly increase the strength of $ZFC$, far beyond even $MK$.  Other additional axioms which are sometimes added are the [[axiom of determinacy]] (or various weaker versions of it) or the [[axiom of constructibility]].  There are also weaker variants of $ZFC$, especially for [[constructive mathematics|constructive]] and [[predicative mathematics|predicative]] mathematics.  Then there are alternatives on a different basis, notably $NFU$ (a very impredicative material set theory) and **[[ETCS]]** (a [[structural set theory]]).
+Contemporary set theorists often accept additional [[large cardinal]] axioms, which can greatly increase the strength of $ZFC$, far beyond even $MK$.  Other additional axioms which are sometimes added are the [[axiom of determinacy]] (or various weaker versions of it) or the [[axiom of constructibility]].  There are also weaker variants of $ZFC$, especially for [[constructive mathematics|constructive]] and [[predicative mathematics|predicative]] mathematics.  Then there are alternatives on a different basis, notably [[New Foundations|NFU]] (a very impredicative material set theory with a set of all sets) and [[ETCS]] (a [[structural set theory]]).
 
 (The source for this history, especially the dates, is mostly [the English Wikipedia](http://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory).)
 
