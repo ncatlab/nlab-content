@@ -80,9 +80,7 @@ for every choice of bracketing the tensor product on the right in $M$ (possibly 
 
 ## Etymology and relation to graph theory
 
-There is a notion of clique in an undirected (simple) [[graph]] familiar to graph-theorists: a _clique_ $C$ in a graph $G$ is a subgraph which is [[complete graph|complete]] as a graph, i.e., one for which any two distinct vertices are connected by an edge. Thus, a clique having $n$ vertices is isomorphic to an inclusion of a $K_n$. 
-
-A reasonable analogue for [[quivers]] (the category theorists\' directed graphs) might be a subgraph $C$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
+There is a notion of clique in an undirected simple [[graph]] familiar to graph-theorists: a _clique_ $C$ in a graph $G$ is a subset of vertices such that any two distinct vertices are connected by an edge.  This definition can be generalized to arbitrary undirected graphs (possibly containing loops and multiple edges) by defining a clique (of size $n$) in $G$ to be a graph homomorphism $C : K_n \to G$ from the [[complete graph]] on $n$ vertices.  Indeed, this latter definition can also be taken as a reasonable notion of clique in a [[quiver]] (the category theorists\' directed graphs).  Equivalently, a clique is a subgraph $C$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
 
 The categorical notion of clique is one step removed from that: a clique in a category $C$ is a functor $i: K \to C$ where the underlying graph of $K$ is indiscrete. The generic "picture" of a clique in a category is reminiscent of (and no doubt the etymology derives from) the graph-theoretic notion, even if the notions are technically distinct. 
 
