@@ -95,9 +95,10 @@ where $T_{inf} X$ is the [[infinitesimal disk bundle]] of $X$, see at _[differen
 +-- {: .num_remark #LiteratureOnGeneralAbstractCharacterization}
 ###### Remark
 
+In the context of [[differential geometry]] the fact that the jet bundle construction is a co-monad is stated explicitly in ([Marvan 93, section 1.1](#Marvan93)), see also ([Marvan 89](#Marvan89)). It is almost implicit in ([Krasil'shchik-Verbovetsky 98, p. 13, p. 17](#KrasilshchikVerbovetsky98), [Krasilshchik 99, p. 25](#Krasilshchik99)).
+
 {#InTheContextOf} In the context of [[algebraic geometry]] and of [[D-schemes]] as in ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld), reviewed in [Paugam, section 2.3](#Paugam)), the abstract formulation of def. \ref{GeneralAbstractDefinition} was noticed in ([Lurie, prop. 0.9](#Lurie)). 
 
-In the context of [[differential geometry]] the fact that the jet bundle construction is a co-monad is almost implicit in ([Krasil'shchik-Verbovetsky 98, p. 13, p. 17](#KrasilshchikVerbovetsky98), [Krasilshchik 99, p. 25](#Krasilshchik99)).
 
 =--
 
@@ -208,11 +209,20 @@ See also
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
-The abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
+The comonad structure on the jet operation in the context of differential geometry is made explicit in 
+
+* {#Marvan89} [[Michal Marvan]] _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
+
+  **Abstract:** In the present paper the horizontal cohomology theory is interpreted as a special case of the Van Osdol bicohomology theory applied to what we call a "jet comonad". It follows that differential equations have well-defined cohomology groups with coefficients in linear differential equations. 
+
+* {#Marvan93} [[Michal Marvan]], section 1.1 of _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
+
+
+In the context of algebraic geometry, the abstract characterization of jet bundles as the direct images of base change along the de Rham space projection is noticed on p. 6 of
 
 * {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
 
-The explicit description in terms of formal duals of [[commutative monoid]]s in [[D-module]]s is in
+The explicit description in terms of formal duals of [[commutative monoids]] in [[D-module]]s is in
 
 * {#BeilinsonDrinfeld} [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
  
