@@ -31,18 +31,23 @@ $$
   \,.
 $$ 
 
-In traditional literature this is familiar in special cases, where the perspective is usually the opposite: given an [[action]] of $G$ on $V$, then there is the [[associated bundle]] $E = \mathbf{E}G \times_G V$ which is associated to the $G$-[[principal universal bundle]] via the action.
+In traditional literature this is familiar in special cases, where the perspective is usually the opposite: given an [[action]] of $G$ on $V$, then there is the [[associated bundle]] $E = \mathbf{E}G \times_G V$ which is associated to the $G$-[[universal principal bundle]] via the action.
 
 Indeed, in the generality of geometric homotopy theory, this association is an equivalence, so that actions and universal associated bundles are essentially the same concept.
 
 
 ### Model Layer
 
+##### 1-Representations of 1-Groups
+ {#1RepresentationsOf1Groups}
  
-#### Actions of ordinary groups
+We discuss here ordinary [[groups]] (i.e. [[infinity-groups]] which are just 1-groups), and their ordinary [[actions]] and ordinary [[associated bundles]]. Even that ordinary case profits from its formulation via [[action groupoids]], but its key advantage is that this formulation seamlessly generalizes. 
+
+###### Actions
  {#ActionsOf1Groups}
 
-We discuss how the traditional concept of [[discrete groups]] [[action|acting]] on a [[sets]] ("[[permutation representations]]") is recoverd from the above general abstract concepts.
+We discuss here traditional concept of [[discrete groups]] [[action|acting]] on a [[sets]] ("[[permutation representations]]") but phrased in terms of [[action groupoids]] [[slice (infinity,1)-category|sliced]] over [[delooping]] groupoids. The discussion immediately, and essentially verbatim, generalizes to pre-smooth groupoids and to [[smooth groupoids]] proper.
+
 
 Write [[Grpd]] for the [[(2,1)-category]] of [[groupoids]], the [[full sub-(infinity,1)-category]] of [[∞Grpd]] on the [[1-truncated objects]].
 
@@ -59,6 +64,7 @@ $$
 $$
 
 hence taking $S$ as the set of objects and the [[homotopy fiber product]] of $S$ with itself over $X$ as the set of morphism.
+
 
 For $G$ a [[discrete group]], then $\mathbf{B}G$ denotes the [[groupoid]] presented by $(\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow}\ast)$ with [[composition]] operation given by the product in the group. Of the two possible ways of making this identification, we agree to use
 
@@ -350,7 +356,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice}
 ###### Proposition
 
 For $G$ a [[discrete group]], there is an [[equivalence of categories]]
@@ -374,9 +380,131 @@ By remark \ref{ActionGroupoidFromFiberSequence} the construction of action group
 By prop. \ref{IntertwinersOfPermutationActionAsSliceHoms} it is [[fully faithful functor|fully faithful]].
 
 =--
- 
-#### Associated bundles
 
+####### Examples of actions
+
+One remarkable consequence of prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice} is that it says that categories of actions are [[slice (infinity,1)-category|slices]] of [[(2,1)-toposes]], hence are [[slice (infinity,1)-topos|slice (2,1)-toposes]] hence in particular are themselves [[(2,1)-topos]]. In particular there is an [[internal hom]] of actions. This is the [[conjugation action]] construction.
+
++-- {: .num_defn #ConjugationActionForDiscrete1Groups}
+###### Definition
+
+Given a [[discrete group]] $G$ and two $G$-actions $\rho_1$ and $\rho_2$ on [[sets]] $S_1$ and $S_2$, respectively, then the [[function set]] $[S_1, S_2]$ is naturally equipped with the [[conjugation action]]
+
+$$
+  Ad \;\colon \;  [S_1, S_2] \times G \longrightarrow [S_1,S_2]
+$$
+
+which takes $((S_1 \stackrel{f}{\to} S_2), g)$ to 
+
+$$
+  \rho_2(-)(g)\circ f \circ  \rho_1(-)(g^{-1})
+  \;\colon\;
+  S_1 \stackrel{\rho_1(-)(g^{-1})}{\longrightarrow} S_1 \stackrel{f}{\longrightarrow} S_2\stackrel{\rho_2(-)(g)}{\longrightarrow} S_2
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[conjugation action]] construction of def. \ref{ConjugationActionForDiscrete1Groups} is the [[internal hom]] in the [[category]] of actions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that for any three [[permutation representations]],  [[functions]]
+
+$$
+  \phi \;\colon\; S_3 \longrightarrow [S_1,S_2]
+$$
+
+which [[intertwiner|intertwine]] the $G$-action on $S_3$ with the conjugation action on $[S_1,S_2]$ are in [[natural bijection]] with functions
+
+$$
+  \tilde \phi \;\colon\; S_3 \times S_1 \longrightarrow S_2
+$$
+
+which intertwine the diagonal action on the [[Cartesian product]] $S_3 \times S_1$ with the action on $S_2$.
+
+The condition on $\phi$ means that for all $g\in G$ and $s_3 \in S_3$ it sends
+
+$$
+  \phi
+   \;\colon\;
+  \rho_3(s_3)(g)
+  \mapsto
+  \left(
+    s_1 \mapsto
+    \rho_2\left(
+     \phi\left(s_3\right)\left( \rho_1\left(s_1\right)\left(g^{-1}\right) \right)\right)\left(g\right) 
+  \right)
+ \,.
+$$
+
+This is equivalently a function $\tilde \phi$ of two variables which sends
+
+$$
+  \tilde \phi
+  \;\colon\;
+  (\rho_3(s_3)(g), s_1)
+  \mapsto
+  \rho_2
+  (
+     \phi(s_3)( 
+       \rho_1(s_1)(g^{-1})
+     )
+  )(g)
+ \,.
+$$
+
+Since this has to hold for all values of the variables, it has to hold when substituing $s_1$ with $\rho_1(s_1)(g)$. After this substitution the above becomes
+
+$$
+  \tilde \phi
+  \;\colon\;
+  (\rho_3(s_3)(g),
+  \rho_1(s_1)(g))
+  \mapsto
+   \rho_2(\phi(s_3)(s_1 ))(g) 
+  \,.
+$$
+
+This is the intertwining condition on $\tilde \phi$. Conversely, given $\tilde \phi$ satisfying this for all values of the variables, then running the argument backwards shows that its hom-[[adjunct]] $\phi$ satisfies its required intertwining condition.
+
+=--
+
+The following is immediate but conceptually important:
+
++-- {: .num_prop }
+###### Proposition
+
+The [[invariants]] of the conjugation action on $[S_1,S_2]$ is the set of action [[homomorphisms]]/[[intertwiners]]. 
+
+=--
+
+Hence the inclusion of invariants into the conjugation action gives the inclusion of the external [[hom set]] of the category of $G$-actions into the set underlying the [[internal hom]]
+
+$$ 
+  G Act(\rho_1,\rho_2)\hookrightarrow [\rho_1,\rho_2]
+  \,.
+$$
+
+
+
+
++-- {: .num_example}
+###### Example
+
+Given any $X$ with its canonical action of its [[automorphism group]] $Aut(X)$, regard any $Y$ as equipped with the trivial $Aut(Y)$-action.
+
+Then the [[conjugation action]], def. \ref{ConjugationActionForDiscrete1Groups}, on $[X,Y]$ is the action by precomposition with automorphisms of $X$.
+
+=--
+ 
+###### Associated bundles
 
 At _[[geometry of physics -- principal bundles]]_ in the section _[Smooth principal bundles via smooth groupoids](geometry%20of%20physics%20--%20principal%20bundles#PrincipalBundlesViaSmoothGroupoids)_ is discussed how smooth [[principal bundles]] for a [[Lie group]] $G$ over a [[smooth manifold]] $X$ are equivalently the [[homotopy fibers]] of morphisms of [[smooth groupoids]] ([[smooth stacks]]) of the form
 
@@ -401,7 +529,7 @@ and so it is natural to construct their [[homotopy fiber product]].
 
 We now discuss that this is equivalently the [[associated bundle]] which is associated to the principal bundle $P \to X$ via the action $\rho$.
 
-+-- {: .num_prop}
++-- {: .num_prop #Associated1BundleAsPullbackOfActionGroupoid}
 ###### Proposition
 
 For $G$ a [[smooth group]] (e.g. a [[Lie group]]), $X$ a [[smooth manifold]], $P \to X$ a smooth $G$-[[principal bundle]] over $X$ and $\rho$ a smooth [[action]] of $G$ on some [[smooth manifold]] $V$, then the [[associated bundle|associated]] $V$-[[fiber bundle]] $P \times_G V\to X$ is equivalently (regarded as a [[smooth groupoid]]) the [[homotopy pullback]] of the [[action groupoid]]-projection $p_\rho \colon V//G \to \mathbf{B}G$ along a morphism $g \colon X\to\mathgbf{B}G$ which [[modulating morphism|modulates]] $P$
@@ -479,44 +607,165 @@ This is a traditional description of the [[associated bundle]] in question.
 
 =--
 
+###### Invariants and sections
 
-#### Spin geometry
- {#SpinGeometry}
+One advantage of the perspective on representations via action groupoids is that it gives a good formulation of the [[invariants]] and the [[coinvariants]] of actions. The invariants are the _[[sections]]_ of the action groupoid projection, while the coivariants in fact are the action groupoid itself.
 
-* [[spin group]]
-
-* [[spin representation]]
-
++-- {: .num_prop}
+###### Proposition
 
 
-$$
-  \array{
-    V &\to& V \sslash Spin
-    \\
-    && \downarrow
-    \\
-    && \mathbf{B}Spin
-  }
-$$
+For $G$ a [[discrete group]], $\rho$ a $G$-[[action]] on some set $S$, then the set of [[invariants]] of that action is equivalent to the groupoid of [[sections]] of the [[action groupoid]] projection of prop. \ref{MapFromActionGroupoidOnSetBackToBG}, corresponding to the action via prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice}.
 
-* [[spinor bundle]]
+=--
 
-* [[spinor]]
++-- {: .proof}
+###### Proof
+
+The sections in question are diagrams in [[Grpd]] of the form
 
 $$
   \array{
-    X &&\stackrel{\psi}{\to}&& V \sslash Spin
+    \mathbf{B}G && \stackrel{\sigma}{\longrightarrow} && S//G
     \\
-    & \searrow &\swArrow& \swarrow
+    & {}_{\mathllap{id}}\searrow 
+    &\swArrow_{\mathrlap{\simeq}}& 
+    \swarrow_{\mathrlap{p_\phi}}
     \\
-    && \mathbf{B}Spin
+    && \mathbf{B}G
   }
+  \,,
+$$
+
+hence the groupoid which they form is equivalently the [[hom-groupoid]]
+
+$$
+  Grpd_{/\mathbf{B}G}(id_{\mathbf{B}G}, p_\rho)
+  \in Grpd
+$$
+
+in the [[slice (infinity,1)-category|slice]] of [[Grpd]] over $\mathbf{B}G$. 
+As in the proof of prop. \ref{IntertwinersOfPermutationActionAsSliceHoms}, with the fibrant presentation $(p_\rho)_\bullet$ of prop. \ref{MapFromActionGroupoidOnSetBackToBG}, this is equivalently given by strictly commuting diagrams of the form
+
+$$
+  \array{
+    (\mathbf{B}G)_\bullet && \stackrel{\sigma_\bullet}{\longrightarrow} && (S//G)_\bullet
+    \\
+    & {}_{\mathllap{id_\bullet}}\searrow &=& \swarrow_{\mathrlap{(p_\phi)_\bullet}}
+    \\
+    && (\mathbf{B}G)_\bullet
+  }
+  \,.
+$$
+
+These $\sigma$ now are manifestly functors that are the identiy on the group labels of the morphisms
+
+$$
+  \sigma_\bullet
+  \;\colon\;
+  \left(
+  \array{
+    \ast
+    \\
+    \downarrow^{\mathrlap{g}}
+    \\
+    \ast
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+  \array{
+    \sigma(\ast)
+    \\
+    \downarrow^{\mathrlap{g}}
+    \\
+    \sigma(\ast) & = \rho(\sigma(\ast)(g))
+  }
+  \right)
+  \,.
+$$
+
+This shows that they pick precisely those elements $\sigma(\ast) \in S$ which are fixed by the $G$-action $\rho$.
+
+Moreover, since these functors are identity on the group labels, there are no non-trivial [[natural isomorphisms]] between them, and hence the groupoid of sections is indeed a set, the set of invariant elements.
+
+=--
+
+More generally, we may consider sections of these groupoid projections after pulling them back along some cocycle:
+
++-- {: .num_prop}
+###### Proposition
+
+Given an [[associated bundle]] $P \times_G V\to X$ [[modulating morphism|modulated]], as in prop. \ref{Associated1BundleAsPullbackOfActionGroupoid}, by a morphism of [[smooth groupoids]] of the form $g \colon X \longrightarrow \mathbf{B}G$, then its set of [[sections]] is equivalently the groupoid of diagrams
+
+$$
+  \array{
+    X && \stackrel{\sigma}{\longrightarrow} && S//G
+    \\
+    & {}_{\mathllap{g}}\searrow 
+    &\swArrow_{\mathrlap{\simeq}}& \swarrow_{\mathrlap{p_\phi}}
+    \\
+    && \mathbf{B}G
+  }
+  \,,
+$$
+
+hence the groupoid of sections is equivalently the slice [[hom-groupoid]]
+
+$$
+  \Gamma_X(P\times_G V)
+  \simeq
+  Grpd_{/\mathbf{B}G}(g, p_\rho)
+  \,.
 $$
 
 
-#### Representations up to coherent homotopy
+=--
 
-* [[infinity-representation]]
++-- {: .proof}
+###### Proof
+
+By the defining [[universal property]] of the [[homotopy pullback]] in prop. \ref{Associated1BundleAsPullbackOfActionGroupoid}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Taken together this means that [[invariants]] of group actions are equivalently the sections of the corresponding [[universal principal bundle|universal]] [[associated bundle]].
+
+=--
+
+
+#### $\infty$-Representations of 1-groups
+
+The [above](#1RepresentationsOf1Groups) perspective on ordinary representations of ordinary groups on sets via their [[action groupoid]] projection has the advantage that it immediately generalizes to a definition where 1-groups act on more general [[homotopy types]] up to [[coherence|coherent]] [[homotopy]], hence to _[[infinity-representations]]_ or _[[infinity-actions]]_.
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[discrete group]] $G$ and a [[Kan complex]] $V_\bullet$, then an _[[infinity-representation]]_ or _[[infinity-action]]_ of $G$ on $V$ is another [[Kan complex]], to be denoted $(V//G)_\bullet$, equipped with a simplicial map $(p_\rho) \colon (V//G)_\bullet \longrightarrow N(\mathbf{B}G)_\bullet$ to the [[nerve]] of $(\mathbf{B}G_\bullet)$, such that the [[homotopy fiber]] of that map is [[weak homotopy equivalence|weakly homotopy equivalent]] to $V_\bullet$.
+
+=--
+
+
+###### Examples of $\infty$-Representations
+
+Given an [[abelian group]] $A$ and $n \in \mathbb{N}$, 
+write $(\mathbf{B}^n A)_\bullet$ for the [[Kan complex]] which is the image under the [[Dold-Kan correspondence]] of the [[chain complex]] that is concentrated on $A$ in degree $n$.
+
+Then for $G$ a [[discrete group]], the [[mapping complex]] 
+
+$$
+  [\mathbf{B}G,\mathbf{B}^n A] \in KanCplx
+$$
+
+is the [[infinity-groupoid]] whose [[objects]] are the degree-$n$ [[group cohomology|group cocycles]] on $G$ with [[coefficients]] in $A$ (regarded as a $G$-[[module]] with trivial [[action]]), whose [[morphisms]] are the [[coboundaries]] between these cocycles, and whose higher morphisms are higher order coboundaries-of-coboundaries.
+
+Being a [[mapping space]], this naturally carries a precomposition action by the [[automorphism infinity-group]] of $\mathbf{B}G$, which is also known as the [[automorphism 2-group]] of $G$. Restricting this to _pointed_ automorphisms is is the 1-group $Aut_{Grp}(G)$ of invertible group homomorphisms of $G$.
+ 
 
 
 
