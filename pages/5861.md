@@ -65,6 +65,8 @@ Equivalently this means that $(i_! \dashv i^\ast) \colon \mathbf{H}_{th} \longri
 
 =--
 
+Conversely we will say that data as in def. \ref{InfinitesimalCohesiveInfTopos} equips the cohesive $\infty$-topos $\mathbf{H}$ with **differential cohesion**.
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -186,15 +188,53 @@ $$
   (\Pi_{\mathbf{H}_{th}} \dashv Disc_{\mathbf{H}_{th}} \dashv \Gamma_{\mathbf{H}_{th}})
   :
   \mathbf{H}_{th}
-  \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
+  \stackrel{\overset{\Pi_{inf}}{\longrightarrow}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\longrightarrow}}}
   \mathbf{H}
-  \stackrel{\overset{\Pi_{\mathbf{H}}}{\to}}{\stackrel{\overset{Disc_{\mathbf{H}}}{\leftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\to}}}
+  \stackrel{\overset{\Pi_{\mathbf{H}}}{\longrightarrow}}{\stackrel{\overset{Disc_{\mathbf{H}}}{\longleftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\longrightarrow}}}
   \infty Grpd
   \,.
 $$
 
+We also consider the [[(∞,1)-monads]]/comoands induced from these reflections:
+
+1. the [[reduction modality]] $\Re \coloneqq i_! i^\ast$ ;
+
+1. the [[infinitesimal shape modality]] $&#643;_{inf} \coloneqq i_\ast i^\ast$;
+
+1. the [[infinitesimal flat modality]] $\flat_{inf} \coloneqq i_* i^!$.
+
+The above says that these interact with the modalities of the ambient cohesion, i.e.
+
+1. the [[shape modality]] $&#643;_{inf}$;
+
+1. the [[flat modality]] $\flat$;
+
+1. the [[sharp modality]] $\sharp$
+
+as follows:
+
+$$
+   \array{
+      && && \Re
+      \\
+     && && \bot
+      \\
+      && &#643; & \subset & &#643;_{inf}
+      \\
+      && \bot && \bot 
+      \\
+      \emptyset &\subset& \flat & \subset & \flat_{inf}
+      \\
+      \bot & & \bot && 
+      \\
+      \ast & \subset& \sharp      
+   }
+$$
+
+Here the inclusion sign $\subset$ is to mean that the [[modal types]] of the modality on the left are included in the modal types of the modality on the right.
 
 Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H} \hookrightarrow \mathbf{H}_{th}$ be fixed.
+
 
 
 ### Properties
@@ -302,7 +342,7 @@ This shows that the [[right adjoint]] to $(-)\circ i$ is itself given by precomp
 
 $$
   [C^{op}, sSet]  
-    \stackrel{\overset{Lan_i}{\to}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}}}
+    \stackrel{\overset{Lan_i}{\longrightarrow}}{\stackrel{\overset{(-)\circ i}{\longleftarrow}}{\stackrel{\overset{(-)\circ p}{\longrightarrow}}{\underset{Ran_p}{\longleftarrow}}}}
 
   [C_{th}^{op}, sSet]
   \,.
@@ -321,8 +361,8 @@ $$
 $$
   ((-)\circ i \dashv (-) \circ p) : 
   [C^{op}, sSet]_{proj}
-   \stackrel{\overset{(-)\circ i}{\leftarrow}}
-    {\underset{(-)\circ p}{\to}}
+   \stackrel{\overset{(-)\circ i}{\longleftarrow}}
+    {\underset{(-)\circ p}{\longrightarrow}}
   [C_{th}^{op}, sSet]_{proj}
   \,;
 $$
@@ -330,7 +370,7 @@ $$
 $$
   ((-) \circ p \dashv Ran_p) : 
   [C^{op}, sSet]_{inj}
-   \stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}
+   \stackrel{\overset{(-)\circ p}{\longrightarrow}}{\underset{Ran_p}{\longleftarrow}}
   [C_{th}^{op}, sSet]_{inj}
   \,.
 $$
@@ -484,7 +524,7 @@ In the presence of [differential cohesion](#InfinitesimalCohesiveInfTopos) there
 Define the [[adjoint triple]] of [[adjoint (∞,1)-functor]]s corresponding to the [[adjoint quadruple]] $(i_! \dashv i^* \dashv i_* \dashv i^!)$:
 
 $$
- (\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{dR})
+ (\Re \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{dR})
  : 
  (i_! i^* \dashv i_* i^* \dashv i_* i^! ) 
   :
@@ -496,7 +536,7 @@ $$
 
 We say that
 
-* $Red$ is the **[[reduction modality]]**.
+* $\Re$ is the **[[reduction modality]]**.
 
 * $\mathbf{\Pi}_{inf}$ or $&#643;_{inf}$ is the **[[infinitesimal shape modality]]**.
 
@@ -504,7 +544,7 @@ We say that
 
 An object in the full sub-$\infty$-category
 
-* of $Red$ we call a **[[reduced object]]**
+* of $\Re$ we call a **[[reduced object]]**
 
 * of $\mathbf{\Pi}_{inf}$ we call a **[[coreduced object]]**.
 
@@ -522,13 +562,13 @@ For $X\in \mathbf{H}_{th}$ we say that
 
   we call the **constant infinitesimal path inclusion**.
 
-* $\mathbf{Red}(X)$ is the **[[reduced cohesive ∞-groupoid]]** underlying
+* $\Re(X)$ is the **[[reduced cohesive ∞-groupoid]]** underlying
   $X$.
 
   The $(i_* \dashv i^*)$-[[unit of an adjunction|counit]] 
 
   $$
-    \mathbf{Red} X \to X
+    \Re X \to X
   $$
 
 
@@ -909,11 +949,11 @@ In order to interpret the notion of formal smoothness, we turn now to the discus
 +-- {: .num_prop #RedIsIdempotent}
 ###### Proposition
 
-The operation $\mathbf{Red}$ is an [[idempotent]] projection of
+The operation $\Re$ is an [[idempotent]] projection of
 $\mathbf{H}_{th}$ onto the image of $\mathbf{H}$
 
 $$
-  \mathbf{Red} \mathbf{Red} \simeq \mathbf{Red}
+  \Re \Re \simeq \Re
   \,.
 $$
 
@@ -943,13 +983,13 @@ $i^* i_! \simeq Id$ and hence
 
 $$
   \begin{aligned}
-    \mathbf{Red} \mathbf{Red}
+    \Re \Re
     & \simeq
     i_! i^* i_! i^* 
     \\
     & \simeq i_! i^*
     \\
-    & \simeq \mathbf{Red}
+    & \simeq \Re
   \end{aligned}
   \,.
 $$
@@ -1899,7 +1939,7 @@ $$
   \begin{aligned}
     \Gamma X & \simeq \mathbf{H}_{\mathrm{th}}(*,X)
      \\
-     & \simeq \mathbf{H}_{\mathrm{th}}(\mathbf{Red}*, X)
+     & \simeq \mathbf{H}_{\mathrm{th}}(\Re*, X)
      \\
      & \simeq \mathbf{H}_{\mathrm{th}}(*, \mathbf{\Pi}_{\mathrm{inf}}(X))
      \\
@@ -1985,7 +2025,7 @@ $$
   \begin{aligned}
     \Gamma X & \simeq \mathbf{H}_{th}(*,X)
      \\
-     & \simeq \mathbf{H}_{th}(\mathbf{Red}*, X)
+     & \simeq \mathbf{H}_{th}(\Re*, X)
      \\
      & \simeq \mathbf{H}_{th}(*, \mathbf{\Pi}_{inf}(X))
      \\
@@ -2076,7 +2116,7 @@ Something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
 
-The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3 there.
+The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\Re \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3 there.
 
 The characterization of infinitesimal extensions and formal smoothness by adjoint functors (in 1-[[category theory]]) is considered in 
 
