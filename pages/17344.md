@@ -580,6 +580,8 @@ $$
 In analogy to how [[homotopy groups]] are the fundamental invariants in [[Introduction to Stable homotopy theory -- P|classial homotopy theory]], the fundamental invariants of stable homtopy theory are _stable homtopy groups_:
 
 
+
+
 +-- {: .num_defn #StableHomotopyGroups}
 ###### Definition
 
@@ -853,8 +855,304 @@ and chase $id_{S^1 \wedge X_k}$ both ways from top left to bottom right.
 
 These diagonal isomorphism imply that under taking the [[colimit]] over the horizontal sequences, the vertical morphisms induce an isomorphism.
 
+=--
+
+
+
++-- {: .num_prop #LongExactSequenceofStableHomotopyGroupsViaMappingCones}
+###### Proposition
+
+Let $f \;\colon\; X \longrightarrow Y$ be a morphism in $SeqSpec(Top_{cg})$. Write 
+
+$$ 
+  Y \overset{j}{\longrightarrow} Cone(f)
+$$
+
+for its [[mapping cone]] and 
+
+$$
+  Path_\ast(f) \overset{i}{\longrightarrow} X
+$$ 
+
+for its [[mapping cocone]] ([def.](Introduction+to+Stable+homotopy+theory+-+P#MappingConeAndMappingCocone)) formed with respect to the standard [[cylinder spectrum]] from def. \ref{StandardCylinderSpectrumSequential}. 
+
+Then the canonical morphism
+
+$$
+  \phi \;\colon\; Path_\ast(f) \longrightarrow Maps(S^1, Cone(f))_\ast
+$$
+
+is a [[stable weak homotopy equivalence]] and it sits in a [[commuting diagram]] of [[stable homotopy groups]] $\pi_\bullet$ (def. \ref{StableHomotopyGroups}) of the form
+
+$$
+  \array{
+     \cdots
+       &\to&
+     \pi_{\bullet}(Path_\ast(f))
+       &\overset{i_\ast}{\longrightarrow}&
+     \pi_\bullet(X)
+       &\overset{}{\longrightarrow}&
+     \pi_\bullet(Y)
+       &\longrightarrow&
+     \pi_{\bullet-1}(Path_\ast(f))
+       &\to&
+     \cdots 
+     \\
+     && 
+      {}^{\mathllap{\phi_\ast}}\downarrow^{\mathrlap{\simeq}}
+        &&
+      \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \cdots
+      &\to&
+    \pi_{\bullet+1}(Cone(f))
+     &\longrightarrow&
+    \pi_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    \pi_\bullet(Y)
+      &\overset{j_\ast}{\longrightarrow}&
+    \pi_\bullet(Cone(f)) 
+      &\to&
+    \cdots
+  }
+  \,,
+$$
+
+where the top and bottom are [[long exact sequences]].
 
 =--
+
+(e.g. [Mandell-May-Schwede-Shipley 01, theorem 7.4 (vi)](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+For the following discussion, recall from the nature of the standard sequential cylinder spectrum $X \wedge (I_+)$ and the fact that limits and colimits of sequential spectra are computed degreewise (prop. \ref{LimitsAndColimitsOfSequentialSpectra}) it follows that the mapping cones and mapping cocones of sequential spectra are degreewise the mapping cones and mapping cocones of pointed topological spaces induced from the standard reduced cyclinder construction ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of pointed topological spaces.
+
+Regarding the exactness of the top sequence:
+
+The ordinary (unstable) [[homotopy groups]] of the component spaces form [[long exact sequences of homotopy groups]] to the left ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups)) yielding [[commuting diagrams]] of the form
+$$
+  \array{
+     \cdots
+       &\to&
+     \pi_{q+k+1}(Y_k)
+       &\longrightarrow&
+     \pi_{q+k}(Path_\ast(f_k))
+       &\longrightarrow&
+     \pi_{q+k}(X_k) 
+       &\longrightarrow&
+     \pi_{q+k}(Y_k)
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     \cdots
+       &\to&
+     \pi_{q+k+2}(Y_{k+1})
+       &\longrightarrow&
+     \pi_{q+k+1}(Path_\ast(f_{k+1}))
+       &\longrightarrow&
+     \pi_{q+k+1}(X_{k+1}) 
+       &\longrightarrow&
+     \pi_{q+k+1}(Y_{k+1})
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     \cdots
+       &\to&
+     \pi_{q+k+3}(Y_{k+2})
+       &\longrightarrow&
+     \pi_{q+k+2}(Path_\ast(f_{k+2}))
+       &\longrightarrow&
+     \pi_{q+k+2}(X_{k+2}) 
+       &\longrightarrow&
+     \pi_{q+k+2}(Y_{k+2})
+     \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+     \\
+     && \vdots && \vdots && \vdots && \vdots
+  }
+  \,.
+$$
+
+Here the vertical morphisms are those entering the definition of stable homotopy groups (def. \ref{StableHomotopyGroups}), and one checks that these indeed make all the squares commute due to the respect of the component maps for the structure maps of the sequential spectra.
+
+Now taking the [[colimit]] over the vertical morphisms yields the sequence
+
+$$
+  \array{
+     \cdots
+       &\to&
+     \pi_{\bullet}(Path_\ast(f))
+       &\overset{i_\ast}{\longrightarrow}&
+     \pi_\bullet(X)
+       &\overset{}{\longrightarrow}&
+     \pi_\bullet(Y)
+       &\longrightarrow&
+     \pi_{\bullet-1}(Path_\ast(f))
+  }
+$$
+
+and that this is exact follows since on the category [[Ab]] of [[abelian group]], forming [[filtered colimits]] is an [[exact functor]] ([prop.](Mod#FilteredColimitsInRModAreExact)).
+
+
+Now regarding the exactness of the bottom sequence:
+
+Since the mapping cone of the mapping cone inclusion is the suspension, and since by example \ref{OmegaSigmaAdjunctionUnitOnSequentialSpectraIsStableWeakHomotopyEquivalence} there is an isomorphism
+
+$$
+  \pi_\bullet(X) \simeq \pi_{\bullet+1}(X \wedge S^1)
+$$
+
+it is sufficient to show that for every $f$ and $q$ the sequence
+
+$$
+  \pi_q(X) \overset{f_\ast}{\longrightarrow} \pi_q(Y) \overset{j_\ast}{\longrightarrow} \pi_q(Cone(f))
+$$
+
+is exact in the middle. It is clear from the construction of the mapping cone that the composite morphism is zero, therefore what remains to be shown is that every element in the [[kernel]] of $j_\ast$ is in the image of $f_\ast$.
+
+So let $\alpha|_k \colon S^{k+q} \longrightarrow Y_k$ be a representative of an element $\alpha \in \pi_q(Y)$ such that $S^{k+q} \overset{\alpha|_k}{\longrightarrow} Y_k \overset{j_k}{\longrightarrow} Cone(f)_k$ is null-homotopic, in that there is a [[left homotopy]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftHomotopy)) $\eta$ of the form
+
+$$
+  \array{   
+     S^{q+k} &\overset{}{\longrightarrow}& \ast
+     \\
+     \downarrow && \downarrow 
+     \\
+     S^{q+k} \wedge (I_+) & \overset{\eta}{\longrightarrow}& Cone(f)_k
+     \\
+     \uparrow && \uparrow^{\mathrlap{j_k}}
+     \\
+     S^{q+k} &\underset{\alpha|_k}{\longrightarrow}& Y_k
+  }
+  \,.
+$$ 
+
+In terms of the [[pushout]] of the top square, which is $Cone(S^{q+k})$, this is equivalently a map $\eta'$ forming this [[commuting square]]:
+
+$$
+  \array{
+    S^{q+k} &\longrightarrow& Cone(S^{q+k})
+    \\
+    \downarrow^{\mathrlap{\alpha|_k}} && \downarrow^{\mathrlap{\eta'}}
+    \\
+    Y_k &\underset{j_k}{\longrightarrow}& Cone(f)_k
+  }
+  \,.
+$$
+
+Consider then the induced long cofiber sequences to the right ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)), and paste a copy of the structure compatibility square for the homomrphism $f$ to it, to obtain a [[commuting diagram]] of the form
+
+$$
+  \array{
+      &&
+    S^{q+k} 
+      &\longrightarrow& 
+    Cone(S^{q+k})
+      &\longrightarrow& 
+    S^{q+k+1} 
+      &\overset{\simeq}{\longrightarrow}& 
+    S^{q+k+1}
+    \\
+      &&
+    \downarrow^{\mathrlap{\alpha|_k}} 
+      && 
+    \downarrow^{\mathrlap{\eta'}}
+      &&
+    \downarrow^{\mathrlap{\kappa}}
+      &&
+    \downarrow^{\mathrlap{\alpha|_k \wedge S^1}}
+    \\
+    X_k
+      &\overset{f_k}{\longrightarrow}&
+    Y_k 
+      &\underset{j_k}{\longrightarrow}& 
+    Cone(f)_k
+      &\longrightarrow&
+    X_k \wedge S^1
+      &\overset{f_k \wedge S^1}{\longrightarrow}&
+    Y_k \wedge S^1
+    \\
+      && && && 
+    \downarrow^{\mathrlap{\sigma^X_k}} 
+      && 
+    \downarrow^{\mathrlap{\sigma^Y_k}}
+    \\
+      && && && 
+    X_{k+1} &\overset{f_{k+1}}{\longrightarrow}& Y_{k+1}
+  }
+  \,.
+$$
+
+Now the total vertical rectangle on the right appearing here, exhibits an element $\sigma^X_k \circ \kappa$ in $\pi_{k+q+1}(X_{k+1})$ which is a preimage under $f_\ast$ of the original element $\alpha|_k$ exhibited at the successor stage $\alpha|_{k+1}$: in terms of the directed sequence that defines the stable homotopy groups in def. \ref{StableHomotopyGroups}, we find
+
+$$
+  \array{
+    \alpha|_k  &&  && \alpha|_{k+1} =  f_\ast(\sigma^X_k \circ \kappa)
+    \\
+    \in && && \in
+    \\
+    [S^{q+k},X_k]_\ast
+      &\overset{(S^1\wedge(-))_{S^{q+k},Y_k}}{\longrightarrow}&
+    [S^{q+k+1}, S^1 \wedge X_Y]_\ast
+      &\overset{[S^{q+k+1}, \sigma^Y_k]}{\longrightarrow}&
+    [S^{q+k+1}, Y_{k+1}]_\ast
+  }
+  \,.
+$$
+
+Finally regarding the vertical morphisms $\phi_\ast$
+
+First notice that $\phi$ makes commuting squares in the first place, by unwinding the [[limits]] which give the [[mapping cocones]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#MappingConeAndMappingCocone)) and the induced looping ([def.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopSpaceObject)):
+
+$$
+  \array{
+    & \ast &\longrightarrow& X &\longrightarrow& \ast
+    \\
+    & \downarrow  && \downarrow && \downarrow
+    \\
+    & Y &\overset{id}{\longrightarrow}& Y &\overset{j}{\longrightarrow}& Cone(f)
+    \\
+    & \uparrow && \uparrow && \uparrow
+    \\
+    & Maps(I_+,Y)_\ast &\overset{id}{\longrightarrow}& Maps(I_+,Y)_\ast &\overset{Maps(I_+,j)_\ast}{\longrightarrow}& Maps(I_+,Cone(f))_\ast
+    \\
+    & \downarrow && \downarrow && \downarrow
+    \\
+    & Y &\overset{id}{\longrightarrow}& Y &\overset{j}{\longrightarrow}& Cone(f)
+    \\
+    & \uparrow && \uparrow && \uparrow
+    \\
+    & \ast &\longrightarrow& \ast &\longrightarrow& \ast
+    \\
+    {}^{\mathllap{\underset{\longrightarrow}{\lim}}}\downarrow
+    \\
+    \Omega j \colon 
+      & 
+    \Omega Y 
+      &\longrightarrow& 
+    Path_\ast(f) 
+      &\overset{\phi}{\longrightarrow}& 
+    \Omega Cone(f)
+  }
+  \,.
+$$
+
+Hence in summary we do have a commuting diagram of exact sequences as shown in the statement, and hence the fact that $\phi_\ast$ is an isomorphism follows from exactness via the [[five lemma]]. Hence $\phi$ is a stable weak homotopy equivalence.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{LongExactSequenceofStableHomotopyGroupsViaMappingCones} says that for sequential spectra there are [[long exact sequences of homotopy groups]] as in classical homotopy theory ([exmpl](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups)), but what used to be long fiber sequences to the left and long cofiber sequences to the right is unified to a single long sequences extending in both directions. 
+
+However, at this point we have not shown yet that these sequences are indeed exhibited by the canonical [[homotopy fiber sequences]] in any [[stable homotopy theory]] of spectra. After seeting up this stable homotopy theory [below](#StableModelStructureOnSequentialSpectra), we prove this further below in prop. \ref{LongExactSequenceOfStableHomotopyGroups}.
+
+=--
+
+
 
 
 ##### Omega-spectra
@@ -2863,7 +3161,95 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
 =--
 
-In order to show that this yields a model structure, we will provide generating (acyclic) cofibrations ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). In order to express these, we need the following simple but important concept.
+In order for def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} to possibly give a [[Bousfield localization of model categories]] (def. \ref{BousfieldLocalizationOfModelCategories}) we need to verify the following:
+
++-- {: .num_lemma #StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}
+###### Lemma
+
+Every [[stable weak homotopy equivalence]] of sequential spectra (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) is a stable weak equivalence in the sense of def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}.
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the third item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism obtained by homming $X$ into the [[spectrification]] $j_E$ (def. \ref{SpectrificationForTopologicalSequentialSpectra})
+
+$$
+  [X,j_E]_{strict}
+    \;\colon\; 
+  [X,E]_{strict} 
+    \longrightarrow 
+  [X, Q E]_{strict}
+$$
+
+is an isomorphism. Since $j_{(-)}$ is a [[natural transformation]] (by def. \ref{SpectrificationForTopologicalSequentialSpectra}), the naturality squares give a factorization of this morphism as
+
+$$
+  [X,j_E]_{strict}
+    \;\colon\;
+  [X,E]_{strict} 
+    \stackrel{Q}{\longrightarrow}
+  [Q X, Q E]_{strict}
+    \stackrel{[j_X,E]_{strict}}{\longrightarrow}
+  [X, Q]_{strict}  
+  \,.
+$$
+
+Combining this with vertical morphisms as below, which are isomorphisms again by item 3 of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra},
+
+$$
+  \array{
+     &
+      &&
+    [Q X, E]_{strict}
+      &\stackrel{[j_X, E]_{strict}}{\longrightarrow}&
+    [X, E]_{strict}  
+    \\
+    & &\nearrow& 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[Q X, j_E]_{strict}}} 
+     && 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X, j_E]_{strict}}}
+    \\
+    [X, j_E]_{strict}
+      \;\colon\;
+     &
+    [X,E]_{strict} 
+      &\stackrel{Q}{\longrightarrow}&
+    [Q X, Q E]_{strict}
+      &\stackrel{[j_X, Q E]_{strict}}{\longrightarrow}&
+    [X, Q E]_{strict}  
+  }
+$$
+
+exhibits a [[retraction]] 
+
+$$
+  id \;\colon\; [X,E]_{strict} \longrightarrow [Q X,E]_{strict} \longrightarrow [X,E]_{strict}
+  \,,
+$$ 
+
+which is natural in $X$ (that the bottom and right composite is indeed the identity is again due to the naturality of $j_{(-)}$). This naturality now implies a retraction of morphisms
+
+$$
+  \array{
+    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [Q Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
+    \\
+    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[Q f,E]_{strict}}}
+     &&
+     \downarrow^{\mathrlap{[f,E]_{strict}}}
+    \\
+    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [Q X,E]_{strict} &\longrightarrow& [X,E]_{strict}
+  }
+  \,.
+$$
+
+Finally, by the fourth item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([prop.](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f$ is a stable equivalence.
+
+=--
+
+
+In order to show that a model structure with classes of morphisms as in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} indeed exists, we will provide generating (acyclic) cofibrations ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). In order to express these, we need the following simple but important concept.
 
 +-- {: .num_defn #FreeSequentialSpectra}
 ###### Definition
@@ -3069,6 +3455,7 @@ The proof which we give now, following ([Mandell-May-Schwede-Shipley 01](#MMSS00
  {#ProofOfTheStableModelStructureOnSequentialSpectra}
 
 We prove theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} after proving various lemmas.
+
 
 +-- {: .num_lemma #CorepresentationOfAdjunctStructureMaps}
 ###### Lemma
@@ -3437,7 +3824,7 @@ agree.
 
 =--
 
-This is the statement of propositions \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} and \ref{StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence} below, which we prove after considering a few lemmas.
+This is the statement of lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} and of \ref{StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence} below, which we prove after considering a few lemmas.
 
 
 +-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
@@ -3590,91 +3977,6 @@ Sending $\sigma_n^Y$ down gives $\sigma_n^Y \circ S^1 \wedge f_{n-1}$ which equa
 
 
 
-+-- {: .num_prop #StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}
-###### Proposition
-
-Every [[stable weak homotopy equivalence]] of sequential spectra (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) is a stable weak equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
- 
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the third item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism obtained by homming $X$ into the [[spectrification]] $j_E$ (def. \ref{SpectrificationForTopologicalSequentialSpectra})
-
-$$
-  [X,j_E]_{strict}
-    \;\colon\; 
-  [X,E]_{strict} 
-    \longrightarrow 
-  [X, Q E]_{strict}
-$$
-
-is an isomorphism. Since $j_{(-)}$ is a [[natural transformation]] (by def. \ref{SpectrificationForTopologicalSequentialSpectra}), the naturality squares give a factorization of this morphism as
-
-$$
-  [X,j_E]_{strict}
-    \;\colon\;
-  [X,E]_{strict} 
-    \stackrel{Q}{\longrightarrow}
-  [Q X, Q E]_{strict}
-    \stackrel{[j_X,E]_{strict}}{\longrightarrow}
-  [X, Q]_{strict}  
-  \,.
-$$
-
-Combining this with vertical morphisms as below, which are isomorphisms again by item 3 of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra},
-
-$$
-  \array{
-     &
-      &&
-    [Q X, E]_{strict}
-      &\stackrel{[j_X, E]_{strict}}{\longrightarrow}&
-    [X, E]_{strict}  
-    \\
-    & &\nearrow& 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[Q X, j_E]_{strict}}} 
-     && 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X, j_E]_{strict}}}
-    \\
-    [X, j_E]_{strict}
-      \;\colon\;
-     &
-    [X,E]_{strict} 
-      &\stackrel{Q}{\longrightarrow}&
-    [Q X, Q E]_{strict}
-      &\stackrel{[j_X, Q E]_{strict}}{\longrightarrow}&
-    [X, Q E]_{strict}  
-  }
-$$
-
-exhibits a [[retraction]] 
-
-$$
-  id \;\colon\; [X,E]_{strict} \longrightarrow [Q X,E]_{strict} \longrightarrow [X,E]_{strict}
-  \,,
-$$ 
-
-which is natural in $X$ (that the bottom and right composite is indeed the identity is again due to the naturality of $j_{(-)}$). This naturality now implies a retraction of morphisms
-
-$$
-  \array{
-    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [Q Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
-    \\
-    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[Q f,E]_{strict}}}
-     &&
-     \downarrow^{\mathrlap{[f,E]_{strict}}}
-    \\
-    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [Q X,E]_{strict} &\longrightarrow& [X,E]_{strict}
-  }
-  \,.
-$$
-
-Finally, by the fourth item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([prop.](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f$ is a stable equivalence.
-
-=--
 
 It follows in particular that:
 
@@ -3699,12 +4001,12 @@ $$
 
 By the first item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q X$ is an [[Omega-spectrum]]; by theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} these are fibrant in the stable model structure.
 
-By the second item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra} $j_X$ is a stable weak equivalence, and by prop. \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} these are in $W_{stable}$. 
+By the second item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra} $j_X$ is a stable weak equivalence, and by lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} these are in $W_{stable}$. 
 
 =--
 
 
-For the converse to prop. \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} we use two technical lemmas whose proof we postpone until later (lemma \ref{ExplicitCheckThatWedgeSumIsProductInStableHomotopyCategory} and lemma \ref{CofibrantStableWeakHomotopyEquivalencesPreservedUnderPushout}) below:
+For the converse to lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} we use two technical lemmas whose proof we postpone until later (lemma \ref{ExplicitCheckThatWedgeSumIsProductInStableHomotopyCategory} and lemma \ref{CofibrantStableWeakHomotopyEquivalencesPreservedUnderPushout}) below:
 
 +-- {: .num_prop #StableEquivalenceInSeqSpecIsStableWeakHomotopyEquivalence}
 ###### Proposition
@@ -3723,7 +4025,7 @@ $$
   f \colon X \overset{\in J_{SeqSpec}^{stable} Cell}{\longrightarrow} \hat X \overset{\in Fib_{st} \cap W_{ste}}{\longrightarrow} X
 $$
 
-By lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} the morphism on the right is a degreewise weak homotopy equivalence and hence in particular a stable weak homotopy equivalence. Therefore it is now sufficient to prove that every $J_{SeqSpec}^{stable}$-relative cell complex is a stable weak homotopy equivalence. 
+By lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalencesForSequentialSpectra} the morphism on the right is a degreewise weak homotopy equivalence and hence in particular a stable weak homotopy equivalence. Therefore it is now sufficient to prove that every $J_{SeqSpec}^{stable}$-relative cell complex is a stable weak homotopy equivalence. 
 
 Since stable weak homotopy equivalences are preserved under [[transfinite composition]] of $J_{SeqSpec}^{stable}$-relative cell complexes (by the compactness of the [[n-spheres]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) taking homotopy groups commutes with the corresponding sequential colimit) we are reduced to  showing that
 
@@ -3875,7 +4177,7 @@ $$
   L_2 R_2 X \longrightarrow X
 $$
 
-is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) hence (by prop. \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}) a stable weak equivalence.
+is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) hence (by lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}) a stable weak equivalence.
 
 =--
 
@@ -5376,7 +5678,7 @@ with $\pi_0$ of the 0-component of $Q X$. With this the statement follows with e
 
 =--
 
-As a consequence:
+As a consequence, we finally obtain the abstract homotopy theoretic verification of the long exact sequences of stable homotopy groups that we constructed via [[mapping cones]] in prop. \ref{LongExactSequenceofStableHomotopyGroupsViaMappingCones}:
 
 +-- {: .num_prop #LongExactSequenceOfStableHomotopyGroups}
 ###### Proposition
