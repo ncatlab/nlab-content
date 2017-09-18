@@ -77,7 +77,7 @@ $$
 $$
 
 But this means that the "two origins" $0_0$ and $0_1$ may not be [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods), since the intersection of 
-$(-\epsilon, \epsilon)_0$ with $(-\epsilon, \epsilon)_i$ is always non-empty:
+$(-\epsilon, \epsilon)_0$ with $(-\epsilon, \epsilon)_1$ is always non-empty:
 
 $$
   (-\epsilon, \epsilon)_0
@@ -96,7 +96,7 @@ $$
   H \;\colon\; Top \longrightarrow Top_{Haus}
 $$
 
-of the line with two origns is the [[real line]] itself:
+of the line with two origins is the [[real line]] itself:
 
 $$
   H\left(
@@ -112,7 +112,7 @@ $$
 
 * [[long line]]
 
-## Refereces
+## References
 
 * Wikipedia, _[Line with two origins](https://topospaces.subwiki.org/wiki/Line_with_two_origins)_
 
