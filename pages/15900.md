@@ -57,6 +57,19 @@ There are canonical [[quasi-isomorphisms]]
 
 #### Cup product
 
++-- {: .num_prop}
+###### Proposition
+There exists a canonical morphism in $D^+(An)$
+  $$ - \cup - : A(i)_D \otimes^L A(j)_D \longrightarrow A(i+j)_D $$
+defining an [[associative]] [[commutative]] multiplication.
+=--
+
+In fact, one gets a product on $A(*)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(*) \to \Omega \gets F^*$ (as [[dg-algebras]]).
+
++-- {: .num_defn}
+###### Definition
+=--
+
 +-- {: .num_defn}
 ###### Definition
 =--
