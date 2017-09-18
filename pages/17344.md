@@ -3044,7 +3044,7 @@ $$
     & \subset\;
     Cof_{strict} \cap W_{strict}
     \\
-    Cof_{strict} \cap (W_{strict})
+    (Cof_{strict} \cap W_{strict})
     \Box
     Cof_{cl}
     & \subset\;
@@ -3093,7 +3093,7 @@ In the language of [[model category]]-theory, prop. \ref{PushoutProductWithRespe
 +-- {: .num_prop #PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces}
 ###### Proposition
 
-For $X \in SeqSpec(Top_{cg})$ a sequential spectrum, $f \in Mor(SeqSpec(Top_{cg}))$ any morphism of sequential spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[compact topological space|copact]] [[Hausdorff spaces]], then the [[hom-spaces]] of def. \ref{HomSpaceBetweenSequentialSpectra} interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
+For $X \in SeqSpec(Top_{cg})$ a sequential spectrum, $f \in Mor(SeqSpec(Top_{cg}))$ any morphism of sequential spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[compact topological space|compact]] [[Hausdorff spaces]], then the [[hom-spaces]] of def. \ref{HomSpaceBetweenSequentialSpectra} interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
 
 $$
   SeqSpec(f \Box g, X)
@@ -4869,121 +4869,10 @@ and here the horizontal adjunctions are the canonically induced (via [this prop.
 
 ##### Cofibrant generation
 
-We construct another [[Bousfield localization of model categories|Bousfield localization]] of $SeqSpec(Top_{cg})_{strict}$, one that manifestly yields a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). Theorem \ref{StableEquivalencesOfSequentialSpectraAgreeWithStableWeakHomotopyEquivalences} below states that in fact this model structure coincides with the stable model structure from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, thereby providing generating (acyclic) cofibrations for the latter.
+We discuss here another proof of the existence of the stable model structure, theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}. This alternative proof make manifest the structure of a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). Moreover, by just modifying the set of generating acyclic cofibrations slightly, this proof yields proofs also of model structures on [[highly structured ring spectra]], which we turn to below in section [1.2](#DiagramSpectra).
 
 
-+-- {: .num_defn #ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}
-###### Definition
-
-Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(Top_{cg})$, def. \ref{SequentialSpectra} is
-
-* a **stable weak equivalence** if for all [[Omega-spectra]] $E$ the morphism $[f,E]_{strict}$ is a [[bijection]] 
-
-  (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{strict})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
-
-* a **stable cofibration** if it is a strict cofibation (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) hence if the 0th component map $f_0\colon X_0 \to Y_0$ as well as all  
-
-  $$
-    (f_{n+1}, \sigma^Y_n)
-      \;\colon\;
-    X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 \wedge Y_n
-      \longrightarrow
-    Y_{n+1}
-  $$
-
-  are cofibrations in the [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes|relative cell complex inclusions]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure), [thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces))).
-
-=--
-
-In order for def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} to possibly give a [[Bousfield localization of model categories]] (def. \ref{BousfieldLocalizationOfModelCategories}) we need to verify the following:
-
-+-- {: .num_lemma #StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}
-###### Lemma
-
-Every [[stable weak homotopy equivalence]] of sequential spectra (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) is a stable weak equivalence in the sense of def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}.
- 
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the third item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism obtained by homming $X$ into the [[spectrification]] $j_E$ (def. \ref{SpectrificationForTopologicalSequentialSpectra})
-
-$$
-  [X,j_E]_{strict}
-    \;\colon\; 
-  [X,E]_{strict} 
-    \longrightarrow 
-  [X, Q E]_{strict}
-$$
-
-is an isomorphism. Since $j_{(-)}$ is a [[natural transformation]] (by def. \ref{SpectrificationForTopologicalSequentialSpectra}), the naturality squares give a factorization of this morphism as
-
-$$
-  [X,j_E]_{strict}
-    \;\colon\;
-  [X,E]_{strict} 
-    \stackrel{Q}{\longrightarrow}
-  [Q X, Q E]_{strict}
-    \stackrel{[\eta_X,E]_{strict}}{\longrightarrow}
-  [X, Q]_{strict}  
-  \,.
-$$
-
-Combining this with vertical morphisms as below, which are isomorphisms again by item 3 of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra},
-
-$$
-  \array{
-     &
-      &&
-    [Q X, E]_{strict}
-      &\stackrel{[\eta_X, E]_{strict}}{\longrightarrow}&
-    [X, E]_{strict}  
-    \\
-    & &\nearrow& 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[Q X, j_E]_{strict}}} 
-     && 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X, j_E]_{strict}}}
-    \\
-    [X, j_E]_{strict}
-      \;\colon\;
-     &
-    [X,E]_{strict} 
-      &\stackrel{Q}{\longrightarrow}&
-    [Q X, Q E]_{strict}
-      &\stackrel{[\eta_X, Q E]_{strict}}{\longrightarrow}&
-    [X, Q E]_{strict}  
-  }
-$$
-
-exhibits a [[retraction]] 
-
-$$
-  id \;\colon\; [X,E]_{strict} \longrightarrow [Q X,E]_{strict} \longrightarrow [X,E]_{strict}
-  \,,
-$$ 
-
-which is natural in $X$ (that the bottom and right composite is indeed the identity is again due to the naturality of $j_{(-)}$). This naturality now implies a retraction of morphisms
-
-$$
-  \array{
-    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [Q Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
-    \\
-    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[Q f,E]_{strict}}}
-     &&
-     \downarrow^{\mathrlap{[f,E]_{strict}}}
-    \\
-    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [Q X,E]_{strict} &\longrightarrow& [X,E]_{strict}
-  }
-  \,.
-$$
-
-Finally, by the fourth item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([prop.](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f$ is a stable equivalence.
-
-=--
-
-
-In order to show that a model structure with classes of morphisms as in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} indeed exists, we will provide generating (acyclic) cofibrations ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). In order to express these, we need the following simple but important concept.
+In order to express the generating (acyclic) cofibrations, we need the following simple but important concept.
 
 +-- {: .num_defn #FreeSequentialSpectra}
 ###### Definition
@@ -5153,30 +5042,13 @@ for the [[disjoint union]] of the other set of morphisms appearing in def. \ref{
 +-- {: .num_theorem #AlternativeStableModelStructureOnSequentialSpectraIsModelCategory}
 ###### Theorem
 
-The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{stable}$, called the **stable [[model structure on topological sequential spectra]]**. Moreover:
 
-1. its fibrant objects are precisely the [[Omega-spectra]] (def. \ref{OmegaSpectrum});
-
-1. it is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I_{SeqSpec}^{stable}$ (and $J_{SeqSpec}^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable};
-
-1. the identity functors
-
-   $$
-     SeqSpec(Top_{cg})_{stable}
-      \underoverset
-       {\underset{id}{\longrightarrow}}
-       {\overset{id}{\longleftarrow}}
-       {\bot}
-     SeqSpec(Top_{cg})_{strict}
-   $$
-
-   constitute a [[Quillen adjunction]] exhibiting the stable model structure as a [[Bousfield localization of model categories|left Bousfield localization]] (def. \ref{BousfieldLocalizationOfModelCategories}) of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+The stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is [[cofibrantly generated model category|cofibrantly generated]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I_{SeqSpec}^{stable}$ (and $J_{SeqSpec}^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}.
 
 
 =--
 
-This is one of the four model categories considered in ([Mandell-May-Schwede-Shipley 01](#MMSS00)) .
-
+This is one of the four cofibrantly model categories considered in ([Mandell-May-Schwede-Shipley 01](#MMSS00)) .
 
 
 We **prove** theorem \ref{AlternativeStableModelStructureOnSequentialSpectraIsModelCategory} [below](#ProofOfTheStableModelStructureOnSequentialSpectra), after proving various lemmas.
@@ -5299,41 +5171,13 @@ $$
 =--
 
 
-+-- {: .num_lemma #StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalencesForSequentialSpectra}
-###### Lemma
-
-1. Every weak equivalence with respect to the strict model structure (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) is a stable weak equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}): $W_{strict} \subset W_{stable}$
-
-1. Every stable weak equivalence between [[Omega-spectra]] (def. \ref{OmegaSpectrum}) is a weak equivalence in the strict model structure.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The first statement follows directly from  the definition of stable weak equivalences, since weak equivalences become isomorphisms in the [[homotopy category of a model category|homotopy category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)).
-
-For the second statement, let $f \colon X \to Y$ be a stable weak equivalence between [[Omega-spectra]]. Then by definition, in particular
-
-$$
-  [f,X]_{strict} \;\colon\; [Y,X]_{strict} \longrightarrow [X,X]_{strict}
-$$
-
-is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an inverse to $f$ in the [[homotopy category]] of the strict model structure. Hence $f$ represents an isomorphism in the strict homotopy category and is hence a weak equivalence in the strict model structure.
-
-=--
 
 
 +-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrationsForSequentialSpectra}
 ###### Lemma
 
-Every element in $J_{SeqSpec}^{stable}$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}) is both:
-
-1. a stable cofibration,
-
-1. a stable equivalence
-
-hence a stable acylic cofibration according to def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}.
+Every element in $J_{SeqSpec}^{stable}$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}) is 
+an acyclic cofibration in the model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}.
 
 =--
 
@@ -5343,39 +5187,7 @@ hence a stable acylic cofibration according to def. \ref{ClassesOfMorphismsOfThe
 For the elements in $J_{SeqSpec}^{strict}$ this is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 It only remains to see that the morphisms $k_n \Box i_+$ are stable acyclic cofibrations.
 
-To see that the $k_n \Box i_+$ are strict cofibrations: By [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)) $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against the pullback powering $f^{\Box i_+}$ (def. \ref{PushoutProductWithRespectToSmashTensoring}). By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ is evidently a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
-
-
-To see that the $k_n \Box i_+$ are stable equivalences: 
-
-First observe that $k_n$ itself is a stable equivalence, since for $E$ any Omega-spectrum then using prop. \ref{ConnectedComponentOfHomSpaceOfSeqentialSpectraLeftHomotopyClasses} and lemma \ref{CorepresentationOfAdjunctStructureMaps} we have
-
-$$
-  \begin{aligned}
-    [k_n,E]_{strict} 
-      & \simeq 
-    \pi_0 SeqSpec(k_n,E)
-    \\
-    &\simeq \pi_0 \tilde \sigma^E_n
-  \end{aligned}
-$$
-
-and the last map is an isomorphism by definition of Omega-spectra.
-
-Next, use in addition prop. \ref{PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces} to similarly deduce that
-
-$$
-  \begin{aligned}
-    [k_n \Box i_+, E]_{strict}
-    & \simeq
-    \pi_0 SeqSpec(k_n \Box i_+, E)
-    \\
-    & \simeq \pi_0 \left(SeqSpec(k_n,E)^{\Box i_+}\right)
-  \end{aligned}
-  \,.
-$$
-
-Now $SeqSpec(k_n,E)^{\Box id}$ is a weak homotopy equivalence by prop. \ref{CorepresentationOfAdjunctStructureMaps} and because $E$ is an Omega-spectrum, while $id^{\Box i_+}$ is a Serre fibration by the topological enrichment of $Top_{cg}^{\ast/}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductInTopCGSendsCofCofToCof)). This means that the [[pullback]] that enters the construction of the pullback powering $SeqSpec(k_n,E)^{\Box i_+}$ is of a weak equivalence along a fibration in the [[classical model structure on pointed topological spaces]], all whose objects are fibrant. Such pullbacks preserve weak equivalences ([lemma](Introduction+to+Stable+homotopy+theory+--+P#InCfPullbackAlongFibrationPreservesWeakEquivalences)). Hence by [[two-out-of-three]] it follows that also the pullback powering $SeqSpec(k_n,E)^{\Box i_+}$ is a weak homotopy equivalence, hence that $\pi_0 \left(SeqSpec(k_n,E)^{\Box i_+}\right)$ is an isomorphism.
+By [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)) $k_n \Box i_+$ has left lifting against any strict fibration $f$ precisely if $k_n$ has left lifting against the pullback powering $f^{\Box i_+}$ (def. \ref{PushoutProductWithRespectToSmashTensoring}). By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict fibration. Since $k_n$ is evidently a stable acyclic cofibration , the lifting follows and hence also $k_n \Box i_+$ is a stable acyclic cofibration.
 
 =--
 
