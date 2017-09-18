@@ -27,7 +27,7 @@ There arevarious flavors of the definition. Typically they all say that an opeto
 
 ### By Makkai
 
-([Makkai](#Makkai))
+([Hermida-Makkai-Power 01](#HermidaMakkaiPower01), [Makkai](#Makkai))
 
 ### By Palm
  {#DefinitionByPalm}
@@ -59,26 +59,26 @@ Some mistakes were corrected in subsequent papers:
 
 * [[Eugenia Cheng]], The category of opetopes and the category of opetopic sets,
 _Th. Appl. Cat._ **11** (2003), 353--374.
-[arXiv](http://arxiv.org/abs/math/0304284))
+[arXiv:0304284](http://arxiv.org/abs/math/0304284))
 
-* [[Tom Leinster]], Structures in higher-dimensional
-category theory.   ([arXiv](http://arxiv.org/abs/math/0109021))
+* [[Tom Leinster]], _Structures in higher-dimensional
+category theory_, ([arXiv:0109021](http://arxiv.org/abs/math/0109021))
 
 Makkai and collaborators introduced a slight variation they called 'multitopes':
 
-* [[Claudio Hermida]], [[Michael Makkai]], [[John Power]], _On weak
-higher-dimensional categories I, II_  Jour. Pure Appl. Alg. **157** (2001), 221--277.
+* {#HermidaMakkaiPower01} [[Claudio Hermida]], [[Michael Makkai]], [[John Power]], _On weak higher-dimensional categories I, II_ _Jour. Pure Appl. Alg._ **157** (2001), 221--277 ([journal](http://www.sciencedirect.com/science/article/pii/S0022404999001796), [ps.gz files](http://www.math.mcgill.ca/makkai/multitopicsets/))
 
 * {#Makkai} [[Michael Makkai]], The multitopic $\omega$-category of all multitopic $\omega$-categories. 
 ([pdf](http://www.math.mcgill.ca/makkai/mltomcat04/mltomcat04.pdf), [web](http://www.math.mcgill.ca/makkai/mltomcat04/))
 
 Cheng has carefully compared opetopes and multitopes, and various approaches to opetopic $n$-categories:
 
-* [[Eugenia Cheng]], Weak $n$-categories: opetopic and multitopic
-foundations, _Jour. Pure Appl. Alg._ **186** (2004), 109--137.([arXiv](http://arxiv.org/abs/math/0304277))
+* {#Cheng03} [[Eugenia Cheng]], _Weak $n$-categories: comparing opetopic foundations_, Jour. Pure Appl. Alg. **186** (2004), 219--231.
+ ([arXiv:0304279](http://arxiv.org/abs/math/0304279))
 
-* [[Eugenia Cheng]], Weak $n$-categories: comparing opetopic foundations, _Jour. Pure Appl. Alg._ **186** (2004), 219--231.
- ([arXiv](http://arxiv.org/abs/math/0304279))
+* {#Cheng04} [[Eugenia Cheng]], _Weak $n$-categories: opetopic and multitopic
+foundations_, Jour. Pure Appl. Alg._**186** (2004), 109--137.([arXiv:0304277](http://arxiv.org/abs/math/0304277))
+
 
 She has also shown that opetopic [[bicategories]] are "the same" as the ordinary kind:
 
