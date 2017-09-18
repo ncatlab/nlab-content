@@ -100,7 +100,7 @@ $$
      \\
      {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}}
      \\
-     && X
+     X
   }
   \,.
 $$
@@ -1005,7 +1005,7 @@ For $n = 0$ the existence of these lifts says that every point of $X$ is in the 
 
 Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective. 
 
-Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every elements in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
+Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every element in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
 
 $$
   \array{
@@ -1015,6 +1015,7 @@ $$
     \\
     D^n &\longrightarrow& X &=& X
   }  
+  \,,
 $$
 
 and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
