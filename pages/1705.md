@@ -147,7 +147,7 @@ Write $Ho(L^H C) \in Cat$ for the category with the same objects as $C$ and morp
 There is an [[equivalence of categories]]
 
 $$
-  Ho L^H C(X,Y)
+  Ho L^H C
    \simeq
   C[W^{-1}]
   \,.
