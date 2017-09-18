@@ -79,6 +79,11 @@ For more related discussion see also
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
+A survey is in 
+
+* [[Mauro Porta]], _Derived formal moduli problems_, master thesis 2013, [pdf](http://algant.eu/documents/theses/porta.pdf).
+
+
 category: reference
 
 
