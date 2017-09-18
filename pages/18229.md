@@ -1,7 +1,20 @@
-The nLab recognizes two distinct usages of the term "projective set". 
 
-* A [[projective object]] (q.v.) in a [[category of sets]]; see also [[choice object]]. 
+> For _[[projective object]]_, see there instead.
 
-* A set of real numbers definable by a [[formula]] of [[second-order arithmetic]] with real parameters (where "real numbers" has some latitude of meaning among [[descriptive set theory|descriptive set theorists]], referring to structures that are [[Borel set|Borel isomorphic]] to the standard [[real numbers]]). 
+#Contents#
+* table of contents
+{:toc}
 
-This article will touch upon the latter usage, as that is what is more commonly understood among mathematicians. 
+## Idea
+
+A _projective set_ is a [[set]] obtained from [[Borel sets]] via [[projections]] and formimg of [[complements]].
+
+## Related concepts
+
+* [[descriptive set theory]]
+
+
+
+## References
+
+* [[eom]], _[Projective set](https://www.encyclopediaofmath.org/index.php/Projective_set)_
