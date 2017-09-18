@@ -2,7 +2,7 @@
 
 **[[topology]]** ([[point-set topology]], [[point-free topology]]) 
 
-see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[topological homotopy theory|topological]] [[homotopy theory]]_
+see also _[[differential topology]]_, _[[algebraic topology]]_, _[[functional analysis]]_ and _[[topological homotopy theory|topological]] [[homotopy theory]]_
 
 [[Introduction to Topology|Introduction]]
 
