@@ -1,9 +1,30 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
+=--
+=--
+
+
+> Disambiguation: This should not be confused with propositional extensionality in [extensional type theory](extensional+type+theory#propositional_extensionality).
+
+
 
 ###Idea
-(*Disambiguation: This should not be confused with propositional extensionality in [extensional type theory](extensional+type+theory#propositional_extensionality).*)
 
-**Propositional extensionality** holds when for any two propositions $P$ and $Q$, we have $(P=Q) \simeq (P\leftrightarrow Q)$. This can be seen as the propositional case of the [[univalence axiom]], reflecting the logical equivalence of types which are propositions as equality within the [[universe of types]].
+**Propositional extensionality** holds when for any two [[propositions]] $P$ and $Q$, we have $(P=Q) \simeq (P\leftrightarrow Q)$. This can be seen as the propositional case of the [[univalence axiom]], reflecting the logical equivalence of types which are propositions as equality within the [[universe of types]].
 
 Specializing to the case where one of the propositions is 'true', [[George Boole]] can be thought to be talking about propositional extensionality when he writes
 
