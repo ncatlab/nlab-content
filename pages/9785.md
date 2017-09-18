@@ -1,3 +1,4 @@
+[[!redirects M-theory super Lie algebra]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -5,6 +6,10 @@
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
 =--
 #### String theory
 +-- {: .hide}
@@ -19,7 +24,7 @@
 
 ## Idea
 
-A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#PolyvectorExtensions) [[Lie algebra extension|extension]] of the [[super Poincaré Lie algebra]] in $D = 10+1$ for  $N=1$ [[supersymmetry]].
+A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#PolyvectorExtensions) [[Lie algebra extension|extension]] of the [[super Poincaré Lie algebra]] ([[supersymmetry]]) in $D = 10+1$ for  $N=1$ [[supersymmetry]] by [[charges]] corresponding to the [[M2-brane]] and the [[M5-brane]] ("[[extended supersymmetry]]"). 
 
 
 ## Properties
@@ -36,6 +41,10 @@ In ([Castellani 05](#Castellani05)) it is
 implicitly shown, ([FSS 13](#FSS13)), that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
 
 ## Related concepts
+
+* [[type II super Lie algebra]]
+
+* [[BPS state]]
 
 * [[supergravity Lie 3-algebra]]
 
@@ -85,3 +94,7 @@ Discussion of a formulation in terms of [[octonions]] (see also at _[[division a
 [[!redirects M-theory Lie algebra]]
 
 [[!redirects M-Lie algebra]]
+[[!redirects M-theory algebra]]
+
+[[!redirects M-theory supersymmetry Lie algebra]]
+[[!redirects M-theory supersymmetry super Lie algebra]]
