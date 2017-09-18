@@ -524,7 +524,7 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 * any [[compact space|noncompact]] [[smooth manifold]] of [[dimension]] $n$ is [[homotopy equivalence|homotopy equivalent]] to an $(n-1)$-dimensional CW-complex. ([Napier-Ramachandran](#NapierRamachandran)).
 
-
+* Any undirected [[graph]] (loops and/or multiple edges allowed) has a geometric realization as a 1-dimensional CW complex.
 
 ## Related concepts
 
