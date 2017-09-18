@@ -8095,7 +8095,7 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 
 =--
 
-As a result:
+We record some consequences:
 
 +-- {: .num_cor #MonoidalStableHomotopyCategory}
 ###### Corollary
@@ -8137,6 +8137,37 @@ A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] 
 
 =--
 
++-- {: .num_lemma #SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}
+###### Lemma
+
+For $X \in Ho(Spectra)$ any spectrum in the [[stable homotopy category]] (remark \ref{StableHomotopyCategoryStructuredSpectra}), then the derived [[symmetric monoidal smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) 
+
+$$
+  X \wedge^L (-)
+  \;\colon\;
+  Ho(Spectra)
+    \longrightarrow
+  Ho(Spectra)
+$$
+
+preserves [[homotopy cofiber sequences]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may choose a cofibrant representative of $X$ in $OrthSpec(Top_{cg})_{stable}$, which we denote by the same symbol. Then by theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} 
+
+$$
+  X \wedge (-) \;\colon\; OrthSpec(Top_{cg})_{stable} \longrightarrow OrthSpec(Top_{cg})_{stable}_{stable}
+$$
+
+is a left Quillen functor in that it preserves cofibrations and acyclic cofibrations (and it is a [[left adjoint]] by prop. \ref{MonoidalCategoryOfModules}. Hence its [[left derived functor]] is equivalently its restriction to cofibrant objects followed by the localization functor.
+
+But now every [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) is represented by the ordinary [[cofiber]] of a cofibration. The left Quillen functor preserves both the cofibration as well as its cofiber.
+
+=--
 
 
 
