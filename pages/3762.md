@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Theta functions
++--{: .hide}
+[[!include theta functions - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
