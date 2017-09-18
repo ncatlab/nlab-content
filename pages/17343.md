@@ -4790,13 +4790,9 @@ is the category whose objects are [[retracts]] of [[cell complexes]] (def. \ref{
 
 Theorem \ref{TopQuillenModelStructure} in itself implies that every topological space is weakly equivalent to a [[retract]] of a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the existence of [[CW approximations]], this cell complex may even be taken to be a [[CW complex]]. 
 
-Better yet, by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets)) every topological space is weakly homotopy equivalent to the [[geometric realization]] ${\vert Sing X \vert}$ of its [[singular simplicial complex]] $Sing X$, and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}. Hence the $({\vert -\vert} \dashv Sing)$-[[adjunction unit]] yields a _functorial_ [[CW approximation]]
+(Better yet, there is [[Quillen equivalence]] to the [[classical model structure on simplicial sets]] which implies a _functorial_ [[CW approximation]] ${\vert Sing X\vert} \overset{\in W_{cl}}{\longrightarrow} X$
+given by forming the [[geometric realization]] of the [[singular simplicial nerve]] of $X$.)
 
-$$
-  {\vert Sing X\vert} \overset{\in W_{cl}}{\longrightarrow} X
-$$
-
-(prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes}).
 
 Hence  the Serre-Quillen [[classical homotopy category]] is also equivalently the category of just the [[CW-complexes]] whith [[homotopy classes]] of [[continuous functions]] between them
 
