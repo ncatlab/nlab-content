@@ -590,7 +590,7 @@ $$
 We perform the following manipluations, where each isomorphism is natural:
 $$
 \begin{aligned}
-  Set (\int^{c' \in C} C(c,c')\times F(c'), y) &\simeq \int^{c' \in C} Set (C(c,c')\times F(c'), y)\\
+  Set (\int^{c' \in C} C(c,c')\times F(c'), y) &\simeq \int_{c' \in C} Set (C(c,c')\times F(c'), y)\\
   &\simeq \int_{c' \in C} Set (C(c, c'), Set(F(c'), y))\\
   &\simeq [C, Set] (C(c, -), Set(F(-), y))\\
   &\simeq Set(F(c), y).
