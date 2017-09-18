@@ -13,6 +13,8 @@ Rosenberg's coauthors in pure mathematics works are [[Valery Lunts]] and [[Maxim
 
 Rosenberg's available papers and online resources include:
 
+* [web page](http://sasharosenberg.com/), [mathematical work](http://sasharosenberg.com/?page_id=7)
+
 * 3 volume work on noncommutative geometry: _Geometry of Noncommutative 'Spaces' and Schemes_, [pdf](http://www.mpim-bonn.mpg.de/preblob/5148); _Homological algebra of noncommutative 'spaces' I._, [pdf](http://www.mpim-bonn.mpg.de/preblob/5159) (note: longer version than another MPI preprint with the same title mentioned before); _Noncommutative 'Spaces' and 'Stacks'_, [pdf](http://www.mpim-bonn.mpg.de/preblob/5149)
 
 * video of msri lecture _Noncommutative schemes and spaces_ (Feb 2000) can be found at [msri](http://www.msri.org/publications/ln/msri/2000/interact/rosenberg/1/index.html)
