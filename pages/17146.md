@@ -51,6 +51,13 @@ Lecture notes include
   
 * {#Ebert12} [[Johannes Ebert]], _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf))
 
+This one here includes the connection to the [[(infinity,n)-category of cobordisms]]
+
 * [[Dan Freed]], _Bordism: old and new_, 2013 ([pdf](http://www.ma.utexas.edu/users/dafr/bordism.pdf))
+
+
+For [[complex cobordism cohomology]] see there and see
+
+* {#Adams74} [[Frank Adams]], part I, part II of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
 
