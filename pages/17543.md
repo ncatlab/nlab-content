@@ -25,7 +25,7 @@ A wheeled graph is a [[generalized graph]] equipped with a coloring, a direction
 
 ## Extra Structure 
 
-Wheeled graphs can have a number of attributes (one of which, confusingly, is being _wheel-free_. 
+Wheeled graphs can have a number of attributes (one of which, confusingly, is being _wheel-free_). 
 
 
 ## Examples
