@@ -5,7 +5,7 @@
 
 ## Idea
 
-What is called _FOLDS_ (for: _[[first-order logic]] with [[dependent type|dependent sorts]]_) is a form of ([[intuitionistic logic|intuitionistic]] or [[classical logic|classical]]) [[predicate logic|predicate]] [[logic]] with a weak form of [[equality]], in which [[category theory]] (and even [[higher category theory]]) can be formulated but it is impossible to say violate the mathematicsl [[principle of equivalence]].  It also induces general notions of [[equivalence]] for higher structures and for objects *in* higher structures, which reduce to familiar notions in most or all cases.
+What is called _FOLDS_ (for: _[[first-order logic]] with [[dependent type|dependent sorts]]_) is a form of ([[intuitionistic logic|intuitionistic]] or [[classical logic|classical]]) [[predicate logic|predicate]] [[logic]] with a weak form of [[equality]], in which [[category theory]] (and even [[higher category theory]]) can be formulated but it is impossible to violate, say, the mathematical [[principle of equivalence]].  It also induces general notions of [[equivalence]] for higher structures and for objects *in* higher structures, which reduce to familiar notions in most or all cases.
 
 Formally speaking, FOLDS is "merely" a "first-order fragment" of [[dependent type theory]], but its special treatment of equality, its notions of equivalence, and its relationship to higher-categorical structures distinguish it from DTT in general.  These aspects have been developed primarily by [[Michael Makkai]].
 
