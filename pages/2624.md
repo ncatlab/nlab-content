@@ -35,8 +35,12 @@ Short maps give the [[Met|category of metric spaces]] some nice properties.  In 
 
 [[!redirects short map]]
 [[!redirects short maps]]
+[[!redirects short function]]
+[[!redirects short functions]]
 [[!redirects distance-nonincreasing map]]
 [[!redirects distance-nonincreasing maps]]
+[[!redirects distance-nonincreasing function]]
+[[!redirects distance-nonincreasing functions]]
 [[!redirects weak contraction]]
 [[!redirects weak contractions]]
 
