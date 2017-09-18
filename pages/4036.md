@@ -116,10 +116,11 @@ So we have that every finite non-empty intersection of the $U_p$ is diffeomorphi
 
 ### Coverages of good open covers
 
-+-- {: .num_cor }
-###### Corollary
 
-The [[category]] $ParaSmMfd$ of paracompact smooth manifolds admits a [[coverage]] whose covering families are good open covers.
++-- {: .num_prop #GoodOpenCoversFormACoverageOnParacompactSmooothManifolds}
+###### Proposition
+
+The [[category]] $ParaSmMfd$ of [[paracompact topological space|paracompact]] [[smooth manifolds]] admits a [[coverage]] whose covering families are good open covers.
 
 The same holds true for [[subcategories]] such as
 
