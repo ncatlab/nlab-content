@@ -21,3 +21,6 @@ These are all subsumed by the
 ## References
 
 * Wikipedia, _[Diagonal argument](http://en.wikipedia.org/wiki/Diagonal_argument)_
+
+[[!redirects diagonalization argument]]
+[[!redirects diagonalization arguments]]
