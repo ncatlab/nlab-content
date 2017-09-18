@@ -258,7 +258,19 @@ In particular one gets the [[Chern character]]
 #### Homologies
 
 In this paragraph, Beilinson considers the [[homology theory]] dual to Deligne cohomology.
-For a smooth [[analytic space]] $X$ let $\Omega^{p,q}_{X^\infty}$ denote the sheaf of $C^\infty$ $(p,q)$-forms, and let $\Omega'^{p,q}_{X^\infty}$ denote the sheaf of distributions
+For a smooth [[analytic space]] $X$ let $\Omega^{p,q}_{X^\infty}$ denote the sheaf of $C^\infty$ $(p,q)$-forms, and let $\Omega'^{p,q}_{X^\infty}$ denote the sheaf of $(p,q)$-forms with [[distribution]] coefficients on $\Omega^{-p,-q}_{X^\infty}$.
+These defines [[bicomplexes]] of [[abelian groups]], and we write $\Omega^\bullet_{X^\infty}$ and $\Omega'^\bullet_{X^\infty}$ for their [[totalizations]], respectively.
+Let $\Omega^{\ge *}_{X^\infty}$ and $\Omega'^{\ge *}_{X^\infty}$ denote the respective "stupid" [[filtrations]] on each.
+Of course, one has the structure of a [[monoid]] on $\Omega^\bullet_{X^\infty}$, making it a [[dg-algebra]].
+
++-- {: .num_lemma}
+###### Lemma
+In the [[filtered derived category]] of [[abelian groups]] one has inclusions
+  $$ (\Omega^\bullet_X, \Omega_X^{\ge *})
+     \hookrightarrow (\Omega^\bullet_{X^\infty}, \Omega_{X^\infty}^{\ge *})
+     \hookrightarrow (\Omega'^\bullet_{X^\infty}[-2\dim(X)], \Omega'_{X^\infty}^{\ge (*+\dim(X))}) $$
+which compose to a [[filtered quasi-isomorphism]].
+=--
 
 #### Cycles
 
