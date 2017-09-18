@@ -34,7 +34,7 @@ A _topological closure operator_ is a Moore closure operator $Cl: P(X) \to P(X)$
 
 #### Kuratowski's closure-complement problem 
 
-This mildly amusing curiosity asks how many set-theoretic operations on a topological space $X$ are derivable from closure $C$ and [[complementation]] $\neg$ and applying finite composition. The answer is that at most 14 operations are so derivable (and there are examples showing this number is achievable). As the proofs below indicate, this bare fact has little to do with topology; it has more to do with general Moore closures and how they interact with complements. 
+This mildly amusing curiosity asks how many set-theoretic operations on a topological space $X$ are derivable from closure $C$ and [[complementation]] $\neg$ and applying finite composition. The answer is that at most 14 operations are so derivable (and there are examples showing this number is achievable). As the proofs below indicate, this bare fact has little to do with topology; it has more to do with general Moore closures and how they interact with complements (using [[classical logic]]). 
 
 Let $P(X)$ denote the [[power set]] (ordered by [[subset|inclusion]]) and $M$ the [[monoid]] of [[endofunctions]] $P(X) \to P(X)$ with order defined pointwise. Then $C^2 = C$ and $\neg^2 = 1$ in $M$, with $C$ order-preserving and $\neg$ order-reversing. Also 
 
@@ -88,7 +88,7 @@ At most 7 operations are possible with interior and closure, corresponding to th
 A more manifestly topological consideration is what happens when we throw [[joins]] (or [[meets]]) into the $I, C$ mix. Briefly, at most 13 subsets can be obtained by starting with a subset $A \in P(X)$ and generating new subsets by taking closures, interiors, and unions; the order structure of these 13 subsets coincides with the free cocompletion of the finite ordered monoid $K_{cov}$ with respect to nonempty joins. Here we must use distributivity of $C$ over joins. 
 =-- 
 
-For some details on these remarks (and quite a bit more), see [Gardner and Jackson, 2008](http://nzjm.math.auckland.ac.nz/images/6/63/The_Kuratowski_Closure-Complement_Theorem.pdf) and [Sherman 2004](http://people.virginia.edu/~des5e/papers/14-sets.pdf). 
+For some details on these remarks (and quite a bit more), see [Gardner and Jackson, 2008](http://nzjm.math.auckland.ac.nz/images/6/63/The_Kuratowski_Closure-Complement_Theorem.pdf) and [Sherman 2004](http://people.virginia.edu/~des5e/papers/14-sets.pdf). An example of a non-topological Moore closure where the 14 operations are all distinct is given [here](http://math.stackexchange.com/a/1912101/43208). 
 
 
 ## Generalizations
