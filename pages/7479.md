@@ -433,13 +433,13 @@ The Sierpinski topos is the [[classifying topos]] for [[subterminal objects]] in
 
 The generic subterminal inclusion in the Sierpinski topos is the unique inclusion of $[\emptyset \to \ast]$ into $[\ast  \to \ast]$.
 
-The [[full subcategory]]-inclusion
+The (non-full) inclusion
 
 $$
-  \Delta^1 = \{\ast \to S^0\} \hookrightarrow FinSet^{\ast/} \hookrightarrow \infty Grpd_{fin}^{\ast/}
+  \Delta^1 = \{\ast \to S^0\} \longrightarrow FinSet^{\ast/} \hookrightarrow \infty Grpd_{fin}^{\ast/}
 $$
 
-induces via restriction and right [[Kan extension]] an [[essential geometric morphism|essential]] [[geometric embedding]]
+induces via restriction and right [[Kan extension]] an [[essential geometric morphism|essential]] [[geometric morphism]]
 
 
 $$
@@ -448,7 +448,7 @@ $$
 $$
 
 
-of the Sierpinski topos into the [[classifying topos]] for [[pointed objects]], $\mathbf{H}[X_\ast]$.
+of the Sierpinski topos into the [[classifying topos]] for [[pointed objects]], $\mathbf{H}[X_\ast]$. (This becomes a [[geometric embedding]] if we refined the Sierpinski topos of bundles to the topos of bundles with sections).
 
 The pointed object in $\mathbf{H}^{\Delta^1}$ which is classified by this [[geometric morphism]] is $[\ast \to S^0]$ (with $S^0 = \ast \coprod \ast$ the [[0-sphere]]) with its canonical map from $[\ast \to \ast]$.
 
