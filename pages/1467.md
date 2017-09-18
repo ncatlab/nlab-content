@@ -316,12 +316,15 @@ Hence:
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop}
 ###### Proposition
+**([[continuous function on compact space is uniformly continuous]])**
 
-A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
+Let $K \subset \mathbb{R}^n$ be a compact [[subspace]] of [[Euclidean space]]. Then every [[continuous function]] of the form $K \to \mathbb{R}$ is [[uniformly continuous function|uniformly continuous]].
 
 =--
+
+
 
 ### Relation to compact objects in $Top$
 
@@ -332,6 +335,17 @@ One might expect that compact topological spaces are precisely the [[compact obj
 
 ### General
  {#ExamplesGeneral}
+
++-- {: .num_prop }
+###### Proposition
+
+A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  
+
+In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
+
+=--
+
+
 
 +-- {: .num_example #CompactClosedInterval}
 ###### Example
@@ -403,7 +417,7 @@ Every [[bounded subset|bounded]] and [[closed subspace]] of a [[Euclidean space]
 
 =--
 
-In particular
+In particular:
 
 +-- {: .num_example}
 ###### Nonexample
