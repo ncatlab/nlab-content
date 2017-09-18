@@ -42,6 +42,36 @@ Thus, more generally,
 
 * The [[syntactic category]] of a [[theory]] $T$ in some [[doctrine]] $D$ is the "walking $T$-model" (in a $D$-category).  In particular, the [[classifying topos]] of a [[geometric theory]] $T$ is "the *walking $T$-model*" *qua* [[Grothendieck toposes]] (where the morphisms are the left-adjoint parts of [[geometric morphisms]]).
 
+## Relation to initial objects
+
+The walking X is, of course, not the same as the [[initial object|initial]] X.
+
+Consider for example the case when X is a pointed monoid (a monoid equipped with an element).  The initial pointed monoid (in $Set$) is the [[natural numbers]] equipped with $1\in \mathbb{N}$.  Whereas the walking pointed monoid (qua monoidal category, say) is a monoidal category $C_M$ containing a [[monoid object]] $M\in C_M$ and an "[[generalized element|element]]" $e:I\to M$, where $I$ is the unit object of $C_M$.  They have different types and different universal properties: $\mathbb{N}$ has a universal property mapping into other pointed monoids in $Set$, while $C_M$ has a universal property mapping into other monoidal categories equipped with pointed monoids.
+
+Nevertheless, the first sits inside the second!  Specifically, for any monoidal category $C$, the "underlying set" functor $C(I,-):C\to Set$ is [[lax monoidal functor|lax monoidal]] and hence carries monoid objects to monoid objects, and in the case of the walking pointed monoid we have $C_M(I,M) \cong \mathbb{N}$.
+
+This is true rather generally: *the initial X is the underlying X of the walking X*.  One general theorem of this sort is the following:
+
++--{: .un_theorem}
+###### Theorem
+Let $K$ be a [[2-category]] containing an object $S$, and suppose that:
+
+1. The domain projection $K\sslash S \to K$ from the [[lax slice 2-category]] has a section.  Explicitly, for every object $X$ we have a map $s_X : X\to S$ and for every morphism $f:X\to Y$ we have a 2-cell $\sigma_f : s_X \to s_Y f$, such that for every 2-cell $\alpha :f\to g$ we have $\sigma_g . s_Y\alpha = \sigma_f$, and these vary functorially.
+2. We have $s_S \cong 1_S$, and for any $X$ the composite $s_X \xrightarrow{\sigma_{s_X}} s_S s_X \cong s_X$ is the identity.
+
+Then for any $X$, the morphism $s_X:X\to S$ is the initial object of the hom-category $K(X,S)$.
+=--
++--{: .proof}
+###### Proof
+We will use the characterization of initial objects via [cones over the identity](/nlab/show/initial+object#ConesOverTheIdentity).  Thus, we must construct a natural transformation from the constant functor $\Delta_{s_X} : K(X,S) \to K(X,S)$ to the identity, which is the identity at $s_X$.  However, given any $f:X\to S$, we have the 2-cell $s_X \xrightarrow{\sigma_f} s_S f \cong f$, and the assumption $\sigma_g . s_Y\alpha = \sigma_f$ makes this a natural transformation; and the final assumption says exactly that this is the identity at $s_X$.
+=--
+
+To see how this theorem implies that the initial X is the underlying X of the walking X, consider again the case of pointed monoids.  Let $K$ be the 2-category of monoidal categories and lax monoidal functors, let $S=Set$, and let $s_C : C \to Set$ be $C(I,_)$.  The hypotheses are easy to verify; thus the theorem tells us that $C(I,-)$ is the initial functor $C\to Set$ for any $C$.
+
+Now take $C$ to be the walking pointed monoid $C_M$ above.  Then its universal property tells us that functors $F:C_M\to Set$ are equivalent to pointed monoids $F(M)$ in $Set$; so we see that $C(I,M)$ is the initial pointed monoid in $Set$, i.e. $\mathbb{N}$.
+
+A similar argument applies whenever we have a "$Set$-like" object of a 2-category with "underlying set" morphisms to it.  For instance, in the 2-category of [[monoidal double categories]] we can take $S$ to be the double category [[Span]].
+
 
 ## References
 
