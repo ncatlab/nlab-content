@@ -22,7 +22,7 @@
 
 The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] solutions, being the limiting configuration of a _point_ mass gravitational source. In higher dimensional gravity, and in particular in higher dimensional [[supergravity]], there are analogous solutions, which however are limiting configurations of a gravitational source that is supported on a line, or a surface, or a higher dimensional space. For a surface one might speak of _black [[membrane]]_ solutions hence generally of _black brane_ solutions.
 
-Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling version of the [[Green-Schwarz super p-branes]]. (Though, being extremal, these are not strictly speaking "black" solutions.)
+Particularly the [[BPS states]] among the black branes in [[supergravity]], i.e. those solutions that carry [[Killing spinors]], include configurations that look like the strong-coupling version of the [[Green-Schwarz super p-branes]]. (Though, being extremal with [[naked singularity]], these are not strictly speaking "black" solutions.)
 
 The [[near-horizon geometry]] of these black branes is generically that of [[anti de Sitter spacetime]] times a [[sphere]]. To the extent that the [[worldvolume]] theory of the branes is a [[superconformal QFT]], this is the origin of the [[AdS-CFT correspondence]].
 
