@@ -89,6 +89,8 @@ matter-antimatter asymmetry in extra dimensionaL and supersymmetric modeLs_ ([[K
 
 Further review includes
 
+* V.A. Rubakov, M.E. Shaposhnikov, _Electroweak Baryon Number Non-Conservation in the Early Universe and in High Energy Collisions_, Usp.Fiz.Nauk 166:493-537,1996; Phys.Usp.39:461-502,1996 ([arXiv:hep-ph/9603208](https://arxiv.org/abs/hep-ph/9603208))
+
 * Antonio Riotto, Mark Trodden, _Recent Progress in Baryogenesis_, Ann.Rev.Nucl.Part.Sci.49:35-75,1999 ([arXiv:hep-ph/9901362](http://arxiv.org/abs/hep-ph/9901362))
 
 * Yanagida, _The origin of matter_ ([[YanagidaBaryogenesis.pdf:file]])
