@@ -35,6 +35,51 @@ A subset is closed precisely if
 
 * it contains all its [[limit points]] (in either sense).
 
+#### Kuratowski's closure-complement problem 
+
+This mildly amusing curiosity asks how many set-theoretic operations on a topological space $X$ are derivable from closure $C$ and [[complementation]] $\neg$ and applying finite composition. The answer is that at most 14 operations are so derivable (and there are examples showing this number is achievable). 
+
+Let $P(X)$ denote the [[power set]] (ordered by [[subset|inclusion]]) and $M$ the [[monoid]] of [[endofunctions]] $P(X) \to P(X)$ with order defined pointwise. Then $C^2 = C$ and $\neg^2 = 1$ in $M$, with $C$ order-preserving and $\neg$ order-reversing. Also 
+
+* $I \coloneqq \neg C \neg$ is the [[interior]] operation, with $I \leq Id$. 
+
++-- {: .num_prop} 
+###### Proposition 
+$C \neg C \neg$ is [[idempotent element|idempotent]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+$I (C \neg C) \leq (C \neg C)$, i.e., $\neg C \neg C \neg C \leq C \neg C$. Applying the order-preserving operation $C$ to both sides together with the fact that $C^2 = C$, this gives 
+
+$$C\neg C \neg C \neg C \leq C C \neg C = C \neg C.$$ 
+
+Since $I C \leq C$, we have also $\neg C \neg C \leq C$. Applying the order-reversing operation $C \neg C$ to both sides, we obtain 
+
+$$C \neg C = C \neg C C \leq C \neg C (\neg C \neg C).$$ 
+
+Combining the two displayed inequalities gives $C \neg C = C \neg C \neg C \neg C$, and then multiplying this on the right by $\neg$, the proposition follows. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $M$ be the monoid presented by two generators $C, \neg$ and subject to the relations $C^2 = C$, $\neg^2 = 1$, and $C \neg C \neg C \neg C = C \neg C$. Then $M$ has at most 14 elements. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+We may apply an obvious reduction algorithm on the set of words in two letters $C, \neg$, in which a word is reduced by replacing any substring $C C$ by $C$ and any substring $\neg\neg$ by an empty substring, so that any word which cannot be further reduced must be alternating in $C, \neg$. This leads to a list of 14 words 
+
+$$1, \qquad \neg, \qquad C, \qquad \neg C, \qquad C \neg, \qquad \neg C \neg, \qquad C \neg C, $$ 
+
+$$\,$$ 
+
+$$\neg C \neg C, \qquad C \neg C \neg, \qquad \neg C \neg C \neg, \qquad C \neg C \neg C, \qquad \neg C \neg C \neg C, \qquad C \neg C \neg C \neg, \qquad \neg C \neg C \neg C \neg $$ 
+
+with any further alternating words reducible by replacing a substring $C \neg C \neg C \neg C$ by $C \neg C$. Thus each element in the monoid presented as above is represented by one of these 14 words. 
+=-- 
+
+These 14 words actually name distinct set-theoretic operations $P(X) \to P(X)$ for a judicious choice of space $X$ (and as a corollary, the monoid presented above has exactly 14 elements). For instance (courtesy of Wikipedia), taking $X = \mathbb{R}$ with its standard topology, the orbit of the element $(0, 1) \cup (1, 2) \cup \{3\} \cup ([4, 5] \cap \mathbb{Q})$ under the monoid action consists of 14 distinct elements. 
 
 ### Locales
 
