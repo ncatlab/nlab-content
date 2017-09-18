@@ -62,6 +62,9 @@ Here $B_{n-1}$ is a ring such that... ([Stapleton 13, p. 3](#Stapleton13))
 
 ## References
 
+For an introduction, see
+
+* [[Nathaniel Stapleton]], _An Introduction to HKR Character Theory_ ([pdf](http://homepages.uni-regensburg.de/~stn30788/papers/Characters.pdf))
 
 * {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
@@ -72,6 +75,8 @@ Here $B_{n-1}$ is a ring such that... ([Stapleton 13, p. 3](#Stapleton13))
 * [[Nathaniel Stapleton]], _Transchromatic generalized character maps (and more!)_ ([pdf](http://etale.site/livetex/saft/stapleton.pdf))
 
 * [[Tomer Schlank]], [[Nathaniel Stapleton]], _A transchromatic proof of Strickland's theorem_ ([arXiv:1404.0717](http://arxiv.org/abs/1404.0717))
+
+* [[Takeshi Torii]], _HKR characters, p-divisible groups and the generalized Chern character_, ([pdf](http://www.ams.org/journals/tran/2010-362-11/S0002-9947-2010-05194-3/S0002-9947-2010-05194-3.pdf))
 
 [[!redirects transchromatic characters]]
 
