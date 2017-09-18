@@ -34,11 +34,13 @@ Arises ([Castellani 05](#Castellani05), [FSS 13](#FSS13)) as the [[derivations]]
 
 ## References
 
-The Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1}|32)$ were first considered in 
+The Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ were first considered in 
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
  * [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ supersymmetry algebras in $d=2,3,4 \,mod\, 8$_ J.Phys. A15, 3763 (1982).
+
+* [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
  * [[Paul Townsend]], _p-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
 
