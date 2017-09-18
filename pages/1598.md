@@ -172,6 +172,8 @@ The [[exceptional Lie groups]] incude
 
 * [[maximal torus]]
 
+* [[rank of a Lie group]]
+
 * [[conjugacy class]], [[Cartan-Dirac structure on a Lie group]]
 
 * [[Weyl group]]
