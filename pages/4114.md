@@ -41,7 +41,7 @@ Let  $X$ be a [[topological space]] and let $\{U_i \to X\}_{i \in I}$ be a [[cov
 
 1. $\{U_i \subset X\}_{i \in I}$ is locally finite (def. \ref{LocallyFiniteCover});
 
-1. there exist an _[[open cover]]_ $\{V_j \subset X\}_{j \in J}$ such that for each $j \in J$ there is a [[finite number]] of $i \in I$ that $V_j$ intersects $V_i$.
+1. there exist an _[[open cover]]_ $\{V_j \subset X\}_{j \in J}$ such that for each $j \in J$ there is a [[finite number]] of $i \in I$ that $V_j$ intersects $U_i$.
 
 This is because the various $V_i$ constitute open neighbourhoods for all points $x \in X$.
 
