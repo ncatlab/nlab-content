@@ -23,11 +23,11 @@ This page is about topology as a **field of [[mathematics]]**.  For topology as 
 
 __Topology__ is one of the basic fields of [[mathematics]].  The term is also used for a particular structure in a [[topological space]]; see [[topological structure]] for that.
 
-The subject of topology deals with the expressions of [[continuous map|continuity]] and [[boundary]], and studying the geometric properties of (originally: [[metric space|metric]]) [[spaces]] and relations of subspaces, which do not change under continuous deformations, regardless to other (such as in their metric properties). 
+The subject of topology deals with the expressions of [[continuous map|continuity]] and [[boundary]], and studying the geometric properties of (originally: [[metric space|metric]]) [[spaces]] and relations of subspaces, which do not change under continuous deformations, regardless to other (such as in their metric properties).
 
 Topology as a structure enables one to model [[continuity]] and [[convergence]] locally. More recently, in metric spaces, topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
 
-There are many cousins of the concept of [[topological spaces]], e.g. [[sites]], [[locales]], [[topoi]], [[higher topoi]], [[uniformity spaces]] and so on, which specialize or generalize some aspect or structure usually found in [[Top]]. 
+There are many cousins of the concept of [[topological spaces]], e.g. [[sites]], [[locales]], [[topoi]], [[higher topoi]], [[uniformity spaces]] and so on, which specialize or generalize some aspect or structure usually found in [[Top]].
 
 One of the tools of topology, [[homotopy theory]], has long since crossed the boundaries of topology and applies to many other areas, thanks to many examples and motivations as well as of abstract categorical frameworks for homotopy like Quillen [[model categories]], Brown's [[category of fibrant objects|categories of fibrant objects]] and so on.
 
@@ -61,11 +61,11 @@ First recall the basic concepts from [[analysis]]:
 +-- {: .num_defn #MetricSpace}
 ###### Definition
 
-A _[[metric space]]_ is 
+A _[[metric space]]_ is
 
 1. a [[set]] $X$ (the "underlying set");
 
-1. a [[function]] $d \;\colon\; X \times X \to [0,\infty)$ (the "distance function") from the [[Cartesian product]] of the set with itself to the [[nonnegative number|non-negative]] [[real numbers]] 
+1. a [[function]] $d \;\colon\; X \times X \to [0,\infty)$ (the "distance function") from the [[Cartesian product]] of the set with itself to the [[nonnegative number|non-negative]] [[real numbers]]
 
 such that for all $x,y,z \in X$:
 
@@ -98,7 +98,7 @@ $$
 Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
 
 $$
-  B^\circ_x(\epsilon) 
+  B^\circ_x(\epsilon)
     \;\coloneqq\;
   \left\{
     y \in X \;\vert\; d(x,y) \lt \epsilon
@@ -120,13 +120,13 @@ $$
   f \;\colon\; X \longrightarrow Y
 $$
 
-is said to be _continuous at a point $x \in X$_ if for every $\epsilon \gt 0$ there exists $\delta\gt 0$ such that 
+is said to be _continuous at a point $x \in X$_ if for every $\epsilon \gt 0$ there exists $\delta\gt 0$ such that
 
 $$
-  d_X(x,y) \lt \delta \;\Rightarrow\; d_Y(f(x), f(y)) \lt \epsilon 
+  d_X(x,y) \lt \delta \;\Rightarrow\; d_Y(f(x), f(y)) \lt \epsilon
 $$
 
-or equivalently such that 
+or equivalently such that
 
 $$
   f(B_x^\circ(\delta)) \subset B^\circ_{f(x)}(\epsilon)
@@ -247,7 +247,7 @@ is open on $X$.
 ###### Definition
 **(subspace topology)**
 
-Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$. 
+Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$.
 
 (Also called the _[[initial topology]]_ of the inclusion map.)
 
@@ -260,7 +260,7 @@ These two constructions of [[quotient topological spaces]] and of [[topological 
 ### Homeomorphism
  {#Homeomorphism}
 
-With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology: 
+With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology:
 
 
 +-- {: .num_defn #Homeomorphism}
@@ -272,13 +272,13 @@ $$
   f \;\colon\; X \longrightarrow Y
 $$
 
-such that there exists an [[inverse]] [[morphism]], namely a [[continuous function]] 
+such that there exists an [[inverse]] [[morphism]], namely a [[continuous function]]
 
 $$
   X \longleftarrow Y \;\colon\; f^{-1}
 $$
 
-such that 
+such that
 
 $$
   f \circ f^{-1} = id_{Y} \;\;\;\;\; f^{-1} \circ f = id_{X}
@@ -306,7 +306,7 @@ $$
 
 be the unit [[circle]] in the [[plane]] ($S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}$) equipped with the [[subspace topology]] (def. \ref{SubspaceTopology}) of $\mathbb{R}^2$ equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
 
-Moreover, let 
+Moreover, let
 
 $$
   [0,1]_{/(0 \sim 1)}
@@ -320,7 +320,7 @@ $$
   f \;\colon\; [0,1] \longrightarrow S^1
 $$
 
-given by 
+given by
 
 $$
   t \mapsto (cos(t), sin(t))
@@ -364,17 +364,17 @@ $$
   \array{
     f &\colon&  \mathbb{R}^1 &\longrightarrow& (-1,+1)
     \\
-    && x &\mapsto& \frac{x}{\sqrt{1+ x^2}} 
+    && x &\mapsto& \frac{x}{\sqrt{1+ x^2}}
   }
 $$
 
-and 
+and
 
 $$
   \array{
     f^{-1} &\colon&  (-1,+1) &\longrightarrow& \mathbb{R}^1
     \\
-    && x &\mapsto& \frac{x}{\sqrt{1 - x^2}} 
+    && x &\mapsto& \frac{x}{\sqrt{1 - x^2}}
   }
   \,.
 $$
@@ -412,6 +412,7 @@ More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to a
 The proof of example \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]]). We turn to some basics of [[algebraic topology]] now.
 
 
+
 ### Homotopy
   {#Homotopy}
 
@@ -441,7 +442,7 @@ $$
     \\
     \downarrow & \searrow^{\mathrlap{x \mapsto 0}}
     \\
-    [0,1] \times B_0^\circ(1) 
+    [0,1] \times B_0^\circ(1)
     &\overset{(t,x) \mapsto t \cdot x}{\longrightarrow}&
     \mathbb{R}^n
     \\
@@ -456,11 +457,11 @@ Such "continuous deformations" are called _[[homotopies]]_:
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
 
-For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]** 
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]**
 
 $$
   \eta \colon f \,\Rightarrow_L\, g
-$$ 
+$$
 
 is a [[continuous function]]
 
@@ -478,7 +479,7 @@ out of [[product topological space]] with the standard interval, such that this 
 
 $$
   \array{
-     {0} \times X 
+     {0} \times X
      \\
      {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
      \\
@@ -500,7 +501,7 @@ $$
 ###### Definition
 
 A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
-is called a **[[homotopy equivalence]]** if there exists a 
+is called a **[[homotopy equivalence]]** if there exists a
 continuous function the other way around,
 $g \;\colon\; Y \longrightarrow X$, and [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
 
@@ -561,7 +562,7 @@ Using the concept of [[homotopy]] one obtains the basic tool of [[algebraic topo
 +-- {: .num_example}
 ###### Example
 
-A [[homotopy]] between two points 
+A [[homotopy]] between two points
 
 $x,y \;\colon\; \ast \to X$
 
@@ -569,7 +570,7 @@ is a continuous [[path]] between these points.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #pi0}
 ###### Definition
 
 The set of [[homotopy classes]] of points in a topological space is called its set of path-[[connected components]], denoted.
@@ -578,6 +579,8 @@ $$
   \pi_0(X) \in Set
   \,.
 $$
+
+If $\pi_0(X) \simeq \ast$ consists of a single element, we say that $X$ is a _[[path-connected topological space]]_.
 
 If $f \colon X \to Y$ is a [[continuous map]] between [[topological spaces]], then on [[homotopy classes]] of points it induces a [[function]] between the corresponding connected components, which we denote by $\pi_0(f)$:
 
@@ -588,16 +591,16 @@ $$
 
 =--
 
-This construction is evidently compatible with [[composition]], in that 
+This construction is evidently compatible with [[composition]], in that
 
 $$
-  \pi_0(g \circ f) = \pi_0(g) \circ \pi_0(f) 
+  \pi_0(g \circ f) = \pi_0(g) \circ \pi_0(f)
 $$
 
-and it evidently is [[unitality|unital]], in that 
+and it evidently is [[unitality|unital]], in that
 
 $$
-  \pi_0(id_X) = id_{\pi_{0}(X)} 
+  \pi_0(id_X) = id_{\pi_{0}(X)}
   \,.
 $$
 
@@ -634,12 +637,12 @@ $$
   \begin{aligned}
      & f \circ g = id \;\;and\;\; g \circ f = id
     \\
-    \Rightarrow \;\;\;\;\;\;&  
-    \pi_0(f \circ g) = \pi_0(id) \;\;and \;\; \pi_0(g \circ f) = \pi_0(id)  
+    \Rightarrow \;\;\;\;\;\;&
+    \pi_0(f \circ g) = \pi_0(id) \;\;and \;\; \pi_0(g \circ f) = \pi_0(id)
     \\
     \Leftrightarrow \;\;\;\;\;\;
     &
-    \pi_0(f) \circ \pi_0(g) = id \;\;and \;\; \pi_0(g) \circ \pi_0(f) = id  
+    \pi_0(f) \circ \pi_0(g) = id \;\;and \;\; \pi_0(g) \circ \pi_0(f) = id
   \end{aligned}
   \,.
 $$
@@ -664,7 +667,7 @@ $$
   f \colon \mathbb{R}^1 \longrightarrow \mathbb{R}^2
 $$
 
-we wil lderive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (def. \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$. 
+we wil lderive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (def. \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$.
 
 It follows that we would get a bijection of [[connected components]] between $\pi_0(\mathbb{R}^1 - \{0\})$ and $\pi_0(\mathbb{R}^2  - \{f(0)\})$. But clearly the first set has two elements, while the second has just one.
 
@@ -675,37 +678,202 @@ It follows that we would get a bijection of [[connected components]] between $\p
 ### Fundamental group
  {#FundamentalGroup}
 
-In a sense the "next" topological invariant after the [[connected components]] is the [[fundamental group]].
+In a sense the next topological invariant after the [[connected components]] is the [[fundamental group]].
 
-Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write $\pi_1(X,x)$ for the set of [[homotopy classes]] of [[paths]] that start and end at $x$. These are also called the continuous [[loops]] in $X$ based at $x$.
++-- {: .num_defn #FundamentalGroup}
+###### Definition
+
+Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write $\pi_1(X,x)$ for the set of [[homotopy classes]] of [[paths]] that start and end at $x$. Such paths are also called the continuous [[loops]] in $X$ based at $x$.
 
 Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]] (a "[[monoid]]"). Under reversion of groups it becomes in fact a [[group]]. This is called the [[fundamental group]] of $X$ at $x$.
 
-Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ of topological spaces equipped with a chosen point:
+=--
+
+Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ whose [[objects]] are 
+topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous maps]] 
+$f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
 
 $$
   \pi_1 \;\colon\; Top^{\ast/} \longrightarrow Grp
   \,.
-$$ 
+$$
 
 As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]: namely that $\mathbb{R}^2$ and $\mathbb{R}^3$ are not [[homeomorphic]] follows, since after removing one point from each, then the former has $\pi_1 = \mathbb{Z}$, while the latter has $\pi_1 = 1$.
 
-We discuss now a way to prove the first claim here, that 
+We discuss now a way to prove the first claim here, that
 $\pi_1(\mathbb{R}^2-\{0\}) = \pi_1(S^1) = \mathbb{Z}$.
 
 ...via [[covering spaces]]...
 
-A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] $\pi \colon E \to X$ such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$ to the [[product space]] of $U_i$ with the [[discrete topological space]] on a [[finite set]] $F$:
++-- {: .num_defn #CoveringSpace}
+###### Definition
+
+A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] $\pi \colon E \to X$ such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$ to the [[product space]] of $U_i$ with the [[discrete topological space]] on a [[set]] $F_i$
 
 $$
   \array{
-    \underset{i}{\sqcup} U_i \times F &\longrightarrow&  E
+    \underset{i}{\sqcup} U_i \times F_i &\longrightarrow&  E
     \\
-    \downarrow &(pb)& \downarrow
+    \downarrow &(pb)& \downarrow^{\mathrlap{\pi}}
     \\
     \underset{i}{\sqcup} U_i &\underset{}{\longrightarrow}& X
   }
+  \,.
 $$
+
+For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called the _leaves_ of the covering at $x$.
+
+=--
+
++-- {: .num_example #kForlCovringOfCircle}
+###### Example
+
+Regard the [[circle]] $S^1 = \{ z \in \mathbb{C}  \;\vert\; {\vert z\vert} = 1 \}$ as the [[topological subspace]]
+of elements of unit [[absolute value]] in the [[complex plane]]. 
+For $k \in \mathbb{N}$, consider the continuous function
+
+$$
+  (-)^k \;\colon\; S^1 \longrightarrow S^1
+$$
+
+given by taking a complex number to its $k$th power. This may be thought of as the
+result of "winding the circle $k$ times around itself".
+Precisely, for $k \geq 1$ this is a [[covering space]]
+(def. \ref{CoveringSpace}) with $k$ leaves at each point.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Consider the continuous map
+
+$$
+  \exp(2 \pi i(-)) \;\colon\; \mathbb{R}^1 \longrightarrow S^1
+$$
+
+from the [[real line]] to the [[circle]], 
+which with the circle regarded as the unit circle in the [[complex plane]] $\mathbb{C}$ is given by
+
+$$
+  t \mapsto \exp(2\pi i t)
+$$
+
+and with the circle regarded as the unit circle in $\mathbb{R}^2$ is given by
+
+$$
+  t \mapsto ( cos(2\pi t), sin(2\pi t) )
+  \,.
+$$
+
+We may think of this as the result of "winding the line around the circle ad infinitum".
+Precisely, this is a [[covering space]] (def. \ref{CoveringSpace}) with the [[leaves]] at each point forming the 
+set $\mathbb{Z}$ of [[natural numbers]].
+
+=--
+
++-- {: .num_defn #ActionOfFundamentalGroupOnFibersOfCovering}
+###### Definition
+**(action of fundamental group on the fibers)**
+
+Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{CoveringSpace})
+
+Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the leav space over $x$, 
+there is, up to [[homotopy]], a unique way to lift a representative
+path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup}) to a 
+continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gama(e) \in F_x$
+in the same [[fiber]]. This construction provides a [[function]]
+
+$$
+  \array{
+    \rho &\colon& F_x \times \pi_1(X,x) &\longrightarrow& F_x
+    \\
+    && (e,\gamma) &\mapsto& \rho_\gamma(e)
+  }
+$$
+
+from the [[Cartesian product]] of the [[leaf space]] with the [[fundamental group]]. This function
+is compatible with the [[group]] operation on $\pi_1(X,x)$, in that the following [[commuting diagram|diagrams commutes]]:
+
+$$
+  \array{
+    F_x \times \{const_x\} && \longrightarrow && F_x \times \pi_1(X,x)
+    \\
+    & {}_{\mathllap{id}}\searrow && \swarrow_{\mathrlap{\rho}}
+    \\
+    && F_x
+  }
+  \;\;\;\;\;\;
+  \left(
+  \array{
+    \text{the neutral element,}
+    \\
+    \text{i.e. the constant loop,} 
+    \\
+    \text{acts trivially}
+  }
+  \right)
+$$
+
+and
+
+$$
+  \array{
+    F_x \times \pi_1(X,x) \times \pi_1(X,x)
+      &\overset{\rho \times id}{\longrightarrow}&
+    F_x \times \pi_1(X,x)
+    \\
+    {}^{\mathllap{id \times ((-)\cdot(-))}}\downarrow && \downarrow^{\mathrlap{\rho_x}}
+    \\
+    F_x \times \pi_1(X,x)
+      &\underset{\rho}{\longrightarrow}&
+    F_x
+  }
+  \;\;\;\;\;\;
+  \left(
+  \array{
+    \text{acting with two group elements consecutively}
+    \\
+    \text{is the same as}
+    \\
+    \text{first multiplying them and then acting with their product element}
+  }
+  \right)
+  \,.
+$$
+
+One says that $\rho$ is an _[[action]]_ of $\pi_1(X,x)$ on $F_x$.
+
+For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
+equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function]] which respect 
+these actions. The above construction yields a [[functor]]
+
+$$
+  Cov(X) \longrightarrow \pi_1(X,x) Set
+  \,.
+$$
+
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+
+Let $X$ be a [[topological space]] which is [[connected topological space|path-connected]] (def. \ref{pi0})
+and [[semi-locally simply connected topological space|semi-locally simply connected]]. Then 
+for any $x \in X$
+the functor from def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} that describes
+the [[action]] of the [[fundamental group]] of $X$ on the set of [[leaves]] over $x$
+is an [[equivalence of categories]]:
+
+
+$$
+  Cov(X) \overset{\simeq}{\longrightarrow} \pi_1(X,x) Set
+  \,.
+$$
+
+=--
 
 (...)
 
@@ -713,7 +881,7 @@ $$
 ## Related entries
  {#RelatedEntries}
 
-Here we exclude the entries on [[topos theory]] which may also be viewed as an approach to topology (but also geometry, logic...) as it is comprehensively linked from entries [[topos]], [[topos theory]], [[infinity topos]], [[Grothendieck topology]], [[site]]. 
+Here we exclude the entries on [[topos theory]] which may also be viewed as an approach to topology (but also geometry, logic...) as it is comprehensively linked from entries [[topos]], [[topos theory]], [[infinity topos]], [[Grothendieck topology]], [[site]].
 
 ### Topological spaces
 
@@ -732,7 +900,7 @@ Here we exclude the entries on [[topos theory]] which may also be viewed as an a
 * [[nice topological space]], [[nice category of spaces]]
 * [[pointless topology]], [[locale]], [[cover]], [[site]], [[ringed space]]
 [[sphere]]
-* [[Sierpinski space]], [[Warsaw circle]] 
+* [[Sierpinski space]], [[Warsaw circle]]
 
 See also [[examples in topology]].
 
@@ -768,8 +936,8 @@ See also [[examples in topology]].
 #### Simplicial sets and related notions
 
 * [[simplicial set]], [[simplex category]], [[simplicial identities]], [[simplicial object]], [[cosimplicial object]]
-* [[simplicial complex]], [[singular simplicial complex]], 
-* [[boundary of a simplex]], [[simplicial skeleton]], [[category of simplices]] 
+* [[simplicial complex]], [[singular simplicial complex]],
+* [[boundary of a simplex]], [[simplicial skeleton]], [[category of simplices]]
 * [[combinatorial spectrum]], [[simplicial groupoid]], [[simplicial model category]]
 * [[simplicially enriched category]], [[quasicategory]], [[Segal category]], [[complete Segal space]]
 * [[Kan fibration]], [[Kan complex]], [[nerve]], [[nerve and realization]], [[simplicial homotopy]], [[simplicial homotopy group]], [[simplicial local system]]
@@ -792,7 +960,7 @@ See also [[examples in topology]].
 * [[Thom space]], [[Thom bundle]], [[fiber integration]], [[equivariant cohomology]]
 * [[Poincaré duality]], [[Spanier-Whitehead duality]]
 * [[generalized cohomology]], [[generalized (Eilenberg-Steenrod) cohomology]], [[generalized (Eilenberg-Steenrod) homotopy]]
-* [[topological stack]], [[orbispace]] 
+* [[topological stack]], [[orbispace]]
 * [[topological quantum field theory]], [[tmf]], [[cobordism hypothesis]], [[topological T-duality]]
 * [[characteristic class]], [[Chern-Weil theory]]
 
