@@ -95,4 +95,6 @@ We must now check that the natural morphism
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loops spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 
-* Calaque, Caldararu and Tu: _PBW for an inclusion of Lie algebras_ ([arXiv:1010.0985](http://arxiv.org/abs/1010.0985))
+* [[Damien Calaque]], [[Andrei Caldararu]] and [[Junwu Tu]]: _PBW for an inclusion of Lie algebras_ ([arXiv:1010.0985](http://arxiv.org/abs/1010.0985))
+
+* [[Damien Calaque]], [[Andrei Caldararu]] and [[Junwu Tu]]: _On the Lie algebroid of a derived self-intersection_ ([arXiv:1306.5260](http://arxiv.org/abs/1306.5260))
