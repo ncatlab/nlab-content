@@ -111,11 +111,16 @@ See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show
 
 ## References
 
+* Alan. R. White, _The Past and Future of S-Matrix Theory_ ([arXiv:hep-ph/0002303](https://arxiv.org/abs/hep-ph/0002303))
+
+* {#Weinberg09} [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+
+* Rutger Boels, _The Ultimate Revenge of the Analytic S-matrix_ ([pdf](http://thep.housing.rug.nl/sites/default/files/talks/The%20revenge%20of%20the%20analytic%20S-matrix.pdf))
+
 * Wikipedia, _[S-matrix](http://en.wikipedia.org/wiki/S-matrix#History)_
 
 * Wikipedia, _[S-matrix theory](http://en.wikipedia.org/wiki/S-matrix_theory)_
 
-* {#Weinberg09} [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
  
 An entertaining account of some of the history and the sociology of S-matrix theory is on the first pages of
 
