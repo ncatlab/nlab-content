@@ -1,9 +1,18 @@
 
 **[[bundles]]**
 
+(see also _[[Chern-Weil theory]]_, [[parameterized homotopy theory]])
+
+
+[[fiber bundles in physics]]
+
+
+
 ## Context
 
 * [[slice topos]], [[slice (∞,1)-topos]]
+
+* [[dependent type theory]]
 
 ## Classes of bundles
 
@@ -25,11 +34,13 @@
 
 * [[vector bundle]], [[(∞,1)-vector bundle]]
 
-  * [[Chern-Weil theory]], [[topological K-theory]]
+  * [[Chern-Weil theory]]
+
+  * [[topological K-theory]]
 
   * [[topological vector bundle]], [[differentiable vector bundle]], [[algebraic vector bundle]]
 
-  * [[trivial vector bundle]]
+  * [[tensor category]] [[Vect(X)|of vector bundles]]
 
   * [[real vector bundle]], [[complex vector bundle]]
 
@@ -39,7 +50,6 @@
 
   * [[virtual vector bundle]]
   
-
 
 ## Universal bundles
 
@@ -58,7 +68,9 @@
 
 * [[microbundle]]
 
-## Examples and Applications
+## Examples
+
+* [[trivial vector bundle]]
 
 * [[tangent bundle]], [[normal bundle]]
 
@@ -69,6 +81,19 @@
 * [[canonical line bundle]]
 
 * [[prequantum circle bundle]], [[prequantum circle n-bundle]]
+
+## Constructions
+
+* [[clutching construction]]
+
+* [[direct sum of vector bundles]], [[tensor product of vector bundles|tensor product]], [[external tensor product of vector bundles|external tensor product]], 
+
+* [[inner product on vector bundles]]
+
+* [[dual vector bundle]]
+
+* [[projective bundle]]
+
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/bundles+-+contents)</div>
