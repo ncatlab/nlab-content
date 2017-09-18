@@ -222,6 +222,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Mathlog](http://www.scienceblogs.de/mathlog) (in German, variety of topics from Open Access journals to Klein groups and geometry)
 
+* [Math Vault](http://mathvault.ca) (Everything higher mathematics: college math, calculus, linear algebra, logic, probability, statisitcs, proof-based math, educational technology and learning)
+
 * [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss: vizualizing math and math art, building math sculptures)
 
 * [Misapplied Math](http://www.klittlepage.com) (Math (mainly statistics, probability, and stochastic control), data science, and CS)
