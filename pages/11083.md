@@ -273,7 +273,7 @@ This style of definition combines the simplicity of the naive definition of Lie 
 
 spring
 
-### Pre-smooth groupoids
+###### Pre-smooth groupoids
  {#PreSmoothGroupoids}
 
 
@@ -678,7 +678,7 @@ It is a matter of unwinding the definitions that the statement holds disregardin
 =--
 
 
-### Gluing 
+###### Gluing 
  
 
 The "bootstrap"-definition of pre-smooth groupoids [above](#PreSmoothGroupoids) works as intended, by prop. \ref{YonedaForPreSmoothGroupoids}, it just needs to be restricted now to something a little less general. The issue is that while this definition consistently identifies a smooth-structure-to-be by what its possible smooth probes are, it does not enforce yet the consistent _gluing_ of probes:
@@ -817,7 +817,7 @@ The same argument however shows that on the larger site [[SmoothMfd]] this objec
 
 
 
-### Weak equivalences
+###### Weak equivalences
 
 While the morphisms of pre-smooth groupoids defined above correctly encode
 morphisms of smooth structures (by taking smooth probes compatibly to smooth probes),
@@ -896,7 +896,7 @@ Now the canonical cover projection sends each of these connected components to t
 
 =--
 
-### Hypercovers
+###### Hypercovers
 
 +-- {: .num_defn #SplitHypercover}
 ###### Definition
@@ -937,7 +937,7 @@ This is precisely the definition of differentialbly [[good open cover]].
 
 
 
-### The $(2,1)$-category of smooth groupoids
+###### The $(2,1)$-category of smooth groupoids
 
 The [[Grpd]]-[[enriched category]] of genuine smooth groupoids is that obtained from that of pre-smooth groupoids, def. \ref{HomGroupoidsOfPreSmoothGroupoids} by "universally turning local [[weak equivalences]], def. \ref{LocalWeakEquivalence}, into actual [[homotopy equivalences]]". This is stated formally by def. \ref{SmoothGroupoidsBySimplicialLocalization} below, but for many applications in practice certain concrete presentations of what this means concretely are well sufficient, one of these we state below in prop. \ref{HomGroupoidsOutOfCofibrantIntoFibrantGroupoidPresheaves}.
 
@@ -1653,6 +1653,7 @@ $$
   (CE(\mathfrak{g}) \stackrel{A}{\to} \Omega^\bullet_{si,vert}(U \times \Lambda^k_i) \stackrel{f^*}{\to} \Omega^\bullet_{si,vert}(U \times \Delta^n))
 
 $$
+
 
 provides fillers for all [[horns]] over all $U \in $ [[CartSp]].
 
