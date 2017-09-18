@@ -232,7 +232,9 @@ $$
 
 from [[topological K-theory]] to [[spherical fibrations]]
 
-(...)
+(...) ([MO discussion](http://mathoverflow.net/a/156369/381))
+
+
 
 ## Properties
  {#Properties}
