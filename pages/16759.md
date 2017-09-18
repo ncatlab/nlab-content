@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+This page collects material related to the book collection
+
+* [[Mike Duff]]
+
+  _The world in eleven dimensions: Supgergravity, Supermembranes and $M$-theory_
+
+  IoP 1999
+
+  ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+that collects and comments key articles in the (pre-)history of [[M-theory]] ([[M-branes]] in [[11-dimensional supergravity]]) in the 1990s.
+
+For related texts see at _[[books about string theory]]_.
+
+#Contents#
+* table of contents
+{:toc}
+
+## 1 Eleven-dimensional supergravity
+
+On [[11-dimensional supergravity]]
+
+## 2 The eleven-dimensional supermembrane
+
+On the [[M2-brane]]
+
+## 3 The eleven-dimensional superfivebrane
+
+On the [[M5-brane]]
+
+## 4 $M$-theory (before $M$-theory was cool)
+
+on [[M-theory]]
+
+## 5 Intersecting branes and black holes
+
+On [[black branes]], [[black holes in string theory]] and [[Bekenstein-Hawking entropy]]
+
+## 6 $M$-theory and duality
+
+On [[duality in string theory]], mostly [[S-duality]] and [[dual heterotic string theory]], ending with [[AdS-CFT]]
+
+category: reference
