@@ -22,7 +22,7 @@ You may also find me on
 * _A topological fibrewise fundamental groupoid_, [arXiv:1411.5779](http://arxiv.org/abs/1411.5779). Submitted for publication.
 
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
+  fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication.
 
 * _The weak choice principle WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). Submitted for publication.
 
