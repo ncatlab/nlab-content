@@ -295,6 +295,9 @@ Moreover, manifolds with uncountably many connected components are rarely consid
 =--
 
 
+
+### Differentiable manifolds
+
 +-- {: .num_defn #Charts}
 ###### Definition
 **([[local chart]] and [[atlas]] and [[gluing function]])
@@ -339,7 +342,6 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 
 =--
 
-## Differentiable manifolds
 
 +-- {: .num_defn #Differentiable manifold}
 ###### Definition
@@ -385,6 +387,10 @@ such that
 =--
 
 Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
+
+## Examples
+
+See the examples at _[[differentiable manifold]]_.
 
 
 ## References
