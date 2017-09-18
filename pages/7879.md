@@ -21,10 +21,11 @@
 
 ### Category-theoretic properties
 
-There is a [[category]] $\mathbf{Haskell}$ whose objects are Haskell [[type|types]] and whose morphisms are Haskell functions.
+There is a [[category]], $\mathbf{Hask}$, whose objects are Haskell [[type|types]] and whose morphisms are extensionally identified Haskell functions. Subcategories of types can be identified.
+
+With $\to$ and $\times$ etc., $\mathbf{Hask}$ is almost Cartesian closed. A particular problem is the polymorphic term $\text{undefined}$, which is defined to be term of every type. It prevents, for example, initial objects (i.e. there no analog to the empty set). Or, when it comes to setting up the categorical product, the projections $\pi_1$ and $\pi_2$ couldn't distinguish between $(\text{undefined},\text{undefined})$ and just $\text{undefined}$, spoiling uniqueness. A related deficit is that when it comes to passing functions as arguments, Haskell sees more than just Hask morphisms. 
 
 Haskell is famous for its use of  [[monads (in computer science)]] acting on this category.
-
 
 ### Similar and related software
 
