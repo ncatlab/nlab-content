@@ -49,7 +49,7 @@ There is a canonical [[(∞,1)-geometric morphism]]
 
 $$
   \mathbf{H}/X 
-    \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
+    \stackrel{\overset{X_!}{\longrightarrow}}{\stackrel{\overset{X^*}{\longleftarrow}}{\underset{X_*}{\longrightarrow}}}
   \mathbf{H}
 $$
 
@@ -84,9 +84,9 @@ The composite of [[(∞,1)-geometric morphism]]s
 
 $$
   \mathbf{H}/X 
-    \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
+    \stackrel{\overset{X_!}{\longrightarrow}}{\stackrel{\overset{X^*}{\longleftarrow}}{\underset{X_*}{\longrightarrow}}}
   \mathbf{H}
-  \stackrel{\overset{\Pi_{\mathbf{H}}}{\to}}{\stackrel{\overset{LConst_{\mathbf{H}}}{\leftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\to}}}
+  \stackrel{\overset{\Pi_{\mathbf{H}}}{\longrightarrow}}{\stackrel{\overset{LConst_{\mathbf{H}}}{\longleftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\longrightarrow}}}
   \infty Grpd
 $$
 
@@ -130,7 +130,7 @@ and $PSh(C)/_{X}$ for the corresponding [[over (∞,1)-categories]], where
 Then we have an [[equivalence of (∞,1)-categories]]
 
 $$
-  PSh(C/X) \stackrel{\simeq}{\to} PSh(C)/X
+  PSh(C/X) \stackrel{\simeq}{\longrightarrow} PSh(C)/X
   \,.
 $$
 
@@ -145,7 +145,7 @@ Here we may think of $C/X$ as the [[big site]] of the object $c \in PSh(C)$, hen
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CommaSiteForSliceTopos}
 ###### Proposition
 
 Let $C$ be equipped with a [[subcanonical coverage]], let $X \in C$ and regard $C/X$ as an [[(∞,1)-site]] with the [[big site]]-[[coverage]]. Then we have
@@ -177,7 +177,7 @@ $$
 
 (where we are using that $F  i X \simeq X$ by the assumption that the coverage is subcanonical, so that the representable $X$ is a [[(∞,1)-sheaf]]), such that $i/X$ is still a [[full and faithful (∞,1)-functor]] (where we are using that the unit $X \to F i X$ is an equivalence, since $X$ is a sheaf). 
 
-Since moreover the [[(∞,1)-limit]]s in $Sh(C)/X$ are computed as limits in $Sh(C)$ over diagrams with a bottom element adjoined (as discussed at <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#InOvercategories">limits in over-(∞,1)-categories</a>) it follows that with $F$ preserving all finite limits, so does $F/X$.
+Since moreover the [[(∞,1)-limits]] in $Sh(C)/X$ are computed as limits in $Sh(C)$ over diagrams with a bottom element adjoined (as discussed at <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#InOvercategories">limits in over-(∞,1)-categories</a>) it follows that with $F$ preserving all finite limits, so does $F/X$.
 
 In summary we have that $(F/X \dashv i/X)$ is a [[reflective sub-(∞,1)-category]] of $PSh(C/X)$ hence is the [[(∞,1)-category of (∞,1)-sheaves]] on the category $C/X$ for _some_ [[(∞,1)-site]]-structure. But since $F/X$ inverts precisely those morphisms that are inverted by $F$ under the projection $PSh(C)/X \to PSh(C)$, it follows that this is the [[big site]] structure on $C/X$ (this is the defining property of the big site).
 
