@@ -263,26 +263,26 @@ This fact is mentioned in ([Joyal](#Joyal)), to help give some intuition for his
 
 ### Combinatorics
 
-As an order-preserving function between finite ordinals, any morphism $f : \mathbf{n} \to \mathbf{m}$ in $\Delta_a$ is completely specified by fixing $k$ elements of $\mathbf{m}$ as the [[image]] of $f$, together with a [[partition#of_numbers|composition]] of $\mathbf{n}$ into $k$ parts, each part denoting a non-empty, contiguous subset of elements of $\mathbf{n}$ sharing their value of $f$. That is, each such composition is given by a collection of $k$ interval parts $[0,i_1], [i_1 + 1, i_2], \ldots, [i_{k-1}+1, n]$, determined by a $(k-1)$-element subset $\{i_1, \ldots, i_{k-1}\}$ of an $n$-element set $\{0, \ldots, n-1\}$. Hence, there are a total of
+As an order-preserving function between finite ordinals, any morphism $f : \mathbf{n} \to \mathbf{m}$ in $\Delta_a$ is completely specified by fixing $k$ elements of $\mathbf{m}$ as the [[image]] of $f$, together with a [[partition#of_numbers|composition]] of the integer $n$ into $k$ parts, each part denoting a non-empty, contiguous subset of elements of $\mathbf{n}$ sharing their value of $f$. That is, each such composition is given by a collection of $k$ interval parts $[0,i_1], [i_1 + 1, i_2], \ldots, [i_{k-1}+1, n-1]$, determined by a $(k-1)$-element subset $\{i_1, \ldots, i_{k-1}\}$ of an $(n-1)$-element set $\{0, \ldots, n-2\}$. Hence, there are a total of
 
 $$
-\sum_k \binom{m+1}{k} \binom{n}{k-1} = \sum_k \binom{m+1}{k} \binom{n}{n-k+1} = \binom{m+n+1}{n+1}
+\sum_k \binom{m}{k} \binom{n-1}{k-1} = \sum_k \binom{m}{k} \binom{n-1}{n-k} = \binom{m+n-1}{n}
 $$
 
 different morphisms of type $\mathbf{n} \to \mathbf{m}$ in $\Delta_a$, where we obtain the expression on the right by applying the [[Chu–Vandermonde identity]].  For example, there are 
 
 $$
-\binom{2}{1}\binom{2}{0} + \binom{2}{2}\binom{2}{1} = 2+2 = 4 = \binom{4}{3}
+\binom{2}{1}\binom{2}{0} + \binom{2}{2}\binom{2}{1} = 2+2 = 4 = \binom{4}{1}
 $$
 
-different morphisms $\mathbf{2} \to \mathbf{1}$, corresponding to the four functions
+different morphisms $\mathbf{3} \to \mathbf{2}$, corresponding to the four functions
 
 1. $f(0) = f(1) = 0, f(2) = 1$
 1. $f(0) = 0, f(1) = f(2) = 1$
 1. $f(0) = f(1) = f(2) = 0$
 1. $f(0) = f(1) = f(2) = 1$
 
-As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $n+1$ elements (OEIS sequences [A001700](https://oeis.org/A001700) and [A088218](https://oeis.org/A088218)), while taking $m=2$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
+As some interesting special cases, taking $m=n$ gives the number of monotone endofunctions on $n$ elements (OEIS sequence [A088218](https://oeis.org/A088218), or [A001700](https://oeis.org/A001700) if we count morphisms $[n] \to [n] \in \Delta$), while taking $m=3$ gives the triangular numbers (OEIS sequence [A000217](https://oeis.org/A000217)).
 
 ## Related constructions ##
 
