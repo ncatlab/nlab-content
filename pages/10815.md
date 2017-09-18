@@ -68,7 +68,7 @@ $$
 
 (e.g. [Switzer 75, section 15.30](#Switzer75), [Kochman 96, corollary 2.2.6](#Kochmann96))
 
-+-- {: .proof}
++-- {: .proof #ProofOfThomGysinSequence}
 ###### Proof
 
 Under the given assumptions there is the corresponding [[Serre spectral sequence]] 
