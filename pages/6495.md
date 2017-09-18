@@ -19,7 +19,7 @@
 
 ## Idea
 
-__Topological Hochschild homology__ (resp. __topological cyclic homology__)  survey is in ([May](#May)) is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. 
+__Topological Hochschild homology__ (resp. __topological cyclic homology__)  (see the survey in ([May](#May))) is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. 
 
 In particular, given a ring $R$, then there is a natural morphism of [[spectra]] 
 
@@ -33,7 +33,7 @@ $$
   }
 $$
 
-from the [[algebraic K-theory]] spectrum to the [[topological Hochschild homology]] spectrum, the [[Dennis trace]] map. Since Hochschild homology spectra are naturally [[cyclotomic spectra]], that factors through the topological cyclic homology spectrum via a map called the _[[cyclotomic trace]]_ which much like a [[Chern character]] map for [[algebraic K-theory]].
+from the [[algebraic K-theory]] spectrum to the [[topological Hochschild homology]] spectrum, called the [[Dennis trace]] map. Since Hochschild homology spectra are naturally [[cyclotomic spectra]], this map factors through the topological cyclic homology spectrum via a map called the _[[cyclotomic trace]]_, which acts much like a [[Chern character]] map for [[algebraic K-theory]].
 
 The spectra $THH(R)$ and $TC(R)$ are typically easier to analyze than $K(R)$. Moreover, the difference between them and $K(R)$ is "locally constant" ([Dundas-Goodwillie-McCarthy13](#DundasGoodwillieMcCarthy13)) and often otherwise bounded in complexity. Accordingly, $THH$ and $TC$ are in practice computationally useful approximations to $K$.
 
@@ -41,7 +41,7 @@ There are various generalizations:
 
 1. Just as for basic Hochschild homology, there is _higher topological Hochschild homology_ ([Carlsson-Douglas-Dundas 08](#CarlssonDouglasDundas08)) given not just by [[derived loop spaces]] but by derived mapping spaces out of higher dimensional [[tori]].
 
-1. Just as algebraic K-theory generalizes from [[E-∞ rings]] to [[stable ∞-categories]], so does $TC$ and the cyclotomic trace map ([Blumberg-Gepner-Tabuada 11](#BlumbergGepnerTabuada11))
+1. Just as algebraic K-theory generalizes from [[E-∞ rings]] to [[stable ∞-categories]], so do $TC$ and the cyclotomic trace map ([Blumberg-Gepner-Tabuada 11](#BlumbergGepnerTabuada11))
 
 ## Related concepts
 
