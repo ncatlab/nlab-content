@@ -7,7 +7,7 @@ $$
 
 in which $G_{j-1}$ is [[normal subgroup|normal]] in $G_j$ and $G_j/G_{j-1}$ is [[abelian group|abelian]].
 
-The terminology comes from elementary [[Galois theory]]: every [[polynomial]] equation has a corresponding [[Galois group]], and the equation has a solution expressible using the field operations and extraction of roots if and only if its Galois group is a solvable group.
+The terminology comes from elementary [[Galois theory]]: every [[polynomial]] equation $\phi$ over an [[integral domain]] $K$ has a corresponding [[Galois group]] $Gal(\phi/K)$, and $Gal(\phi/K)$ is a solvable group if and only if $\phi$ is a solvable equation in the sense that all its solutions in an [[algebraic closure]] (or any other sufficiently large [[splitting field]]) of $K$ are expressible using the coefficients of $\phi$, the field operations, and extraction of roots.
 
 * eom: [solvable group](http://eom.springer.de/s/s086130.htm), [Lie group, solvable](http://eom.springer.de/l/l058690.htm)
 * wikipedia [solvable group](http://en.wikipedia.org/wiki/Solvable_group)
