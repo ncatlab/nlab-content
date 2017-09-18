@@ -35,7 +35,7 @@ The [[categorical semantics]] of context extension is the [[inverse image]] of t
 
 $$
   (\mathbf{H}_{/\Gamma})_{/T}
-    \stackrel{\overset{\prod_{x : T}}{\to}}{\stackrel{\overset{(-)\times T}{\leftarrow}}{\underset{\sum_{x : T}}{\to}}} 
+    \stackrel{\overset{\prod_{x : T}}{\longrightarrow}}{\stackrel{\overset{(-)\times T}{\longleftarrow}}{\underset{\sum_{x : T}}{\longrightarrow}}} 
   \mathbf{H}_{/\Gamma}
 $$
 
