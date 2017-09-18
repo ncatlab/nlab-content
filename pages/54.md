@@ -22,7 +22,7 @@ Presently I am on leave at the [Max Planck Institute for Mathematics in Bonn](ht
 
 ## my research {#myresearch}
 
-My research is about mathematical theory building in theoretical fundamental physics. 
+My research is about mathematical theory building in theoretical fundamental physics. For informal exposition see [below](#column).
 
 With [[Hisham Sati]] I have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
 
@@ -95,6 +95,7 @@ For more on what the $n$Lab is see also
 * Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
 
 ## column
+ {#column}
 
 I am writing an irregular column at [PhysicsForums](https://www.physicsforums.com). Recent articles in the series include these:
 
