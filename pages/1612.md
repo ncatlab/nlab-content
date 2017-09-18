@@ -21,7 +21,7 @@ It is in particular a [[fusion category]] that is also a [[ribbon category]] suc
 
 this means that for $i,j \in I$ indices for representatives of simple objects $U_i$, $U_j$, the matrix 
 $$
-  (s^{i j}) = (U_i\text{-circle threading through the } U_j\text{-circle})
+  (s^{i j}) = (U_i\text{-circle threading through the} \, U_j\text{ -circle})
 $$
 is non-degenerate.
 
