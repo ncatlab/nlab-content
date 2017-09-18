@@ -36,7 +36,20 @@ For background and details see [[fibration sequence]].
 
 ## References
 
+The observation of long exact sequences of homotopy groups for [[homotopy fiber sequences]] originates (according to [Switzer 75, p. 35](#Switzer75)) in 
+
+* M. G. Barratt, _Track groups I, II_. Proc. London Math. Soc. 5, 71-106, 285-329 (1955). 
+
+The first exhaustive study of these is due to 
+
+* {#Puppe58} [[Dieter Puppe]], _Homotopiemengen und ihre induzierten Abbildungen I_, Math. Z. 69,  299-344 (1958). 
+
+whence the terminology _Puppe sequences_.
+
+
 Textbook accounts include
+
+* {#Switzer75} [[Robert Switzer]], around 2.59 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
 * {#Kochmann96} [[Stanley Kochmann]], corollary 3.2.7 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
