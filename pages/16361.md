@@ -21,21 +21,32 @@ $$
   A \to c C + d D
 $$
 
-would be called a _decay_ process.
+would be called a _decay_ process. Notice that analogous processes appear elsewhere, for instance there are [[nuclear reactions]] in [[particle physics]] described by the same kind of reaction diagrams. Also [[D-branes]] for the [[topological string]] undergo reaction processes of this form, see [below](#TriangulatedCategoryWithStability).
 
 One might be tempted to recognize [[morphisms]] as in [[category theory]] in this notation, but care needs to be exercised to arrive at a sensible concept. 
 
 ## Formalization of reaction processes
 
-### Triangulated categories with stability conditions
+### Via Petri nets
 
-One successful formalization of the idea of (chemical) reactions appears in the context of [[D-branes]] for the [[B-model]] [[topological string]]. These are (hypothetical) physical objects that appear in different species labeled by [[objects]] in a [[triangulated category|triangulated]] [[derived category]] (of [[quasicoherent sheaves]] on some [[Calabi-Yau variety]]). Whenever there is a process 
+> Somebody should say how this works!
+
+### Triangulated categories with stability conditions
+ {#TriangulatedCategoryWithStability}
+
+One successful formalization in [[category theory]] of the idea of reaction processes appears in the context of [[D-branes]] for the [[B-model]] [[topological string]]. These are (hypothetical) physical objects that appear in different species labeled by [[objects]] in a [[triangulated category|triangulated]] [[derived category]] (of [[quasicoherent sheaves]] on some [[Calabi-Yau variety]]). There are processes
 
 $$
   A \leftrightarrow B \oplus C
 $$
 
-by which a brane of type $A$ may decay into a brane of type B and a brane of type C, this is witnessed by the fact that there is a [[homotopy fiber sequence]] (a distinguished triangle in the [[triangulated category]]) of the form
+by which a brane of type $A$ may decay into a brane of type B and a brane of type C.
+
+While these are not reactions of [[chemical elements]], clearly the general form of reaction processes is similar.
+
+And for the case of these D-branes, there happens to be a well-established and useful mathematical formalization of these reaction processes via [[category theory]]:
+
+Namely every reaction process as above corresponds to a [[homotopy fiber sequence]] (a "distinguished triangle") in the [[triangulated category]], of the form
 
 $$
   B \longrightarrow A \longrightarrow C
@@ -43,6 +54,7 @@ $$
 $$
 
 (See [Aspinwall 04](#Aspinwall04), search the document for the keyword "decay".)
+
 
 Mathematically such a [[homotopy fiber sequence]] in a [[triangulated category]] precisely expresses the fact that $A$ is a "twisted [[direct sum]]" of $B$ and $C$ ([[extension]], [[semidirect product]]), hence much like the plain [[direct sum]], but with some "interaction" included.
 
