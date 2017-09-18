@@ -21,7 +21,7 @@
 
 ### Lift of morphisms
 
-The **lift** of a morphism $p: Y\to B$ along an [[epimorphism]] (or more general map) $f:X\to B$ is a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
+The **lift** of a morphism $f: Y\to B$ along an [[epimorphism]] (or more general map) $p:X\to B$ is a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
 
 The dual problem is the [[extension]] of a morphism $f: A\to Y$ along a monomorphism $i: A\hookrightarrow X$, which is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
 
