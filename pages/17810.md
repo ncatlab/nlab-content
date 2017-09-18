@@ -1,9 +1,10 @@
 
-> this entry is one section of "[[geometry of physics -- supergeometry]]"
 
 
-> which itself is a chapter of "[[geometry of physics]]"
+> this entry is one section of "[[geometry of physics -- supergeometry and superphysics]]"
+> which is one chapter of "[[geometry of physics]]"
 
+> next section: _[[geometry of physics -- supergeometry]]_
 
 $\,$
 
@@ -103,6 +104,7 @@ Let $\mathcal{C}$ be a [[category]].
 =--
 
 We also make the following definition of $k$-linear category, but notice that conventions differ as to which extra properties beyond [[Vect]]-[[enriched category|enrichment]] to require on a linear category:
+
 
 +-- {: .num_defn #LinearCategory}
 ###### Definition
@@ -745,25 +747,6 @@ $$
 
 =--
 
-
-+-- {: .num_defn #CategoryOfSuperVectorSpaces}
-###### Definition
-
-The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
-
-* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
-
-* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
-
-$$
-  sVect_k
-    \;\coloneqq\;
-  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
-  \,.
-$$
-
-=--
-
 +-- {: .num_remark}
 ###### Remark
 
@@ -791,6 +774,42 @@ $$
 $$
 
 It has been suggested (in [Kapranov 15](super+algebra#Kapranov15)) that this and other phenomena are evidence that in the wider context of [[homotopy theory]]/[[stable homotopy theory]] super-grading (and hence [[superalgebra]]) is to be regarded as but a shadow of grading in [[higher algebra]] over the [[sphere spectrum]]. Notice that the [[sphere spectrum]] is just the analog of the group of [[integers]] in [[stable homotopy theory]].
+
+=--
+
++-- {: .num_defn #CategoryOfSuperVectorSpaces}
+###### Definition
+
+The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
+
+* whose underlying [[monoidal category]] is that of $\mathbb{Z}/2$-[[graded vector spaces]] (example \ref{Z2Zgradedvectorspaces});
+
+* whose [[braiding]] (def. \ref{BraidedMonoidalCategory}) is the unique non-trivial symmtric grading $\tau^{super}$ from prop. \ref{TheTwoNontrivialBraidingsOnZ2GradedVectorSpaces} is called the **[[category of super vector spaces]]**
+
+$$
+  sVect_k
+    \;\coloneqq\;
+  (Vect_k^{\mathbb{Z}/2}, \otimes = \otimes_k, 1 = k, \tau = \tau^{super} )
+  \,.
+$$
+
+=--
+
+The following is evident but important
+
++-- {: .num_defn #InclusionOfVectorSpacesIntoSupervectorSpaces}
+###### Proposition
+
+The canonical inclusion
+
+$$
+  Vect_k \hookrightarrow sVect_k
+$$
+
+of the category of vector spaces (def. \ref{VectorSpaces}) into that of
+[[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}) given by
+regarding a vector space as a super-vector space concentrated in even degree,
+extends to a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}).
 
 =--
 
@@ -1811,9 +1830,29 @@ Unwinding what this means, then a [[supercommutative superalgebra]] $A$ is
      \,.
    $$
 
-The [[formal dual]] $Spec(A)$ of a supercommutative superalgebra $A$, according to def. \ref{Affines}, we call an **affine [[super scheme]]**.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In view of def. \ref{SupercommutativeSuperalgebra} we might define a not-necessarily supercommutative superalgebra to be a [[monoid]] (not necessarily commutative) in [[sVect]], and write
+
+$$
+  sAlg_k \coloneqq Mon(sVect)
+  \,.
+$$
+
+However, since the definition of not-necessarily commutative monoids (def. \ref{MonoidsInMonoidalCategory}) does not invoke the [[braiding]] of the ambient [[tensor category]], and since [[super vector spaces]] differ from $\mathbb{Z}/2$-[[graded vector spaces]] only via their [[braiding]] (example \ref{CategoryOfSuperVectorSpaces}), this yields equivalently just the $\mathbb{Z}/2$-graded algebras froom example \ref{GradedAlgebras}:
+
+$$
+  sAlg_k \simeq Alg_k^{\mathbb{Z}/2}
+  \,.
+$$
+
+Hence the heart of [[superalgebra]] is _[[supercommutative superalgebra|super-commutativity]]_.
 
 =--
+
 
 +-- {: .num_example #GrassmannAlgebra}
 ###### Example
@@ -1843,29 +1882,99 @@ $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_example #HomotopyCommutativeRingSpectrum}
+###### Example
 
-In view of def. \ref{SupercommutativeSuperalgebra} we might define a not-necessarily supercommutative superalgebra to be a [[monoid]] (not necessarily commutative) in [[sVect]], and write
+Given a [[homotopy commutative ring spectrum]] $E$ (i.e., via the [[Brown representability theorem]], a [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]), then its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a super-commutative ring.
+
+See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
+
+=--
+
+The following is an elementary but fundamental fact about the relation between 
+commutative algbra and supercommutative superalgebra. It is implicit in much of the
+literature, but maybe the only place where it has been made explicit before is
+([Carchedi-Roytenberg 12, example 3.18](#CarchediRoytenberg12)).
+
+
++-- {: .num_prop #InclusionOfCAlgIntosCAlg}
+###### Proposition
+
+There is a [[full subcategory]] inclusion
 
 $$
-  sAlg_k \coloneqq Mon(sVect)
+  \array{
+     CAlg_k &\hookrightarrow& sCAlg_k
+     \\
+     = && =
+     \\
+     CMon(Vect_k) &\hookrightarrow& CMon(sVect_k)
+  }
+$$
+
+of [[commutative algebras]] (example \ref{MonoidsInVectAreAssociativeAlgebras})
+into [[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra})
+induced via prop. \ref{MonoidsPreservedByLaxMonoidalFunctor} from the full inclusion 
+
+$$
+  i \;\colon\; Vectk \hookrightarrow sVect_k
+$$
+
+of [[vector spaces]] (def. \ref{VectorSpaces}) into [[super vector spaces]] 
+(def. \ref{CategoryOfSuperVectorSpaces}), which is a [[braided monoidal functor]]
+by prop. \ref{InclusionOfVectorSpacesIntoSupervectorSpaces}. Hence this regards a 
+commutative algebra as a superalgebra concentrated in even degree.
+
+This inclusion functor has both a [[left adjoint|left]] [[adjoint functor]] and a [[right adjoint|right]] [[adjoint functor]] ,
+(an [[adjoint triple]] exibiting a [[reflective subcategory]] and [[coreflective subcategory]] inclusion, an "[[adjoint cylinder]]"):
+
+$$
+  CAlg_k
+    \underoverset
+      {\underset{(-)_{even}}{\longleftarrow}}
+      {\overset{(-)/(-)_{odd}}{\longleftarrow}}
+      {\hookrightarrow}
+  sCAlg_k
   \,.
 $$
 
-However, since the definition of not-necessarily commutative monoids (def. \ref{MonoidsInMonoidalCategory}) does not invoke the [[braiding]] of the ambient [[tensor category]], and since [[super vector spaces]] differ from $\mathbb{Z}/2$-[[graded vector spaces]] only via their [[braiding]] (example \ref{CategoryOfSuperVectorSpaces}), this yields equivalently just the $\mathbb{Z}/2$-graded algebras froom example \ref{GradedAlgebras}:
+Here 
 
-$$
-  sAlg_k \simeq Alg_k^{\mathbb{Z}/2}
-  \,.
-$$
+1. the [[right adjoint]] $(-)_{even}$ sends a supercommutative superalgebra to its even part $A \mapsto A_{even}$;
 
-Hence the heart of [[superalgebra]] is _[[supercommutative superalgebra|super-commutativity]]_.
+1. the [[left adjoint]] $(-)/(-)_{even}$ sends a supercommutative superalgebra to the [[quotient]] by the ideal which is generated by its odd part $A \mapsto A/(A_{odd})$ (hence it sets all elements to zero which may be written as a product such that at least one factor is odd-graded).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The full inclusion $i$ is evident. To see the [[adjunctions]] observe their characteristic
+[[natural bijections]] between [[hom-sets]]: 
+If $A_{ordinary}$ is an ordinary commutative algebra regarded as a superalgeba $i(A_{ordinary})$ concentrated in even degree,
+and if $B$ is any superalgebra, 
+
+1. then every super-algebra homomorphism of the form $A_{ordinary} \to B$ must factor
+   through $B_{even}$, simply because super-algebra homomorpism by definition respect the $\mathbb{Z}/2$-grading. This gives a natual bijection
+   
+   $$
+     Hom_{sCAlg_k}(i(A_{ordinary}), B) \simeq Hom_{CAlg_k}(A_{ordinary,B_{even}})
+     \,,
+   $$
+   
+1. every super-algebra homomorphism of the form $B \to i(A_{ordinary})$ must send every odd element of $B$ to 0, again because homomorphism have to respect the $\mathbb{Z}/2$-grading, and since homomorphism of course also preserve products, this means that the entire ideal generated by $B_{odd}$ must be sent to zero, hence the homomorphism must facto through the [[projection]] $B \to B/B_{odd}$, which gives a natural bijection
+
+   $$
+     Hom_{sCalg_k}(B, i(A_{ordinary}))
+       \simeq
+     Hom_{Alg_k}(B/B_{odd}, A_{ordinary})
+     \,.
+   $$
 
 =--
 
 
-It is useful to introduce the following [[formal dual|formally dual]] perspective:
+It is useful to make explicit the following [[formal dual|formally dual]] perspective on [[supercommutative superalgebras]]:
 
 +-- {: .num_defn #Affines}
 ###### Definition
@@ -3771,7 +3880,7 @@ A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is called
 
 1. a **neutral [[Tannakian category]]** if it admits a fiber functor (def. \ref{FiberFunctor}) to $Vect_k$ (example \ref{VectAsAMonoidalCategory}) ([Deligne-Milne 12, def. 2.19](#DeligneMilne12))
 
-1. a **neutral super [[Tannakian category]]** if it admits a fiber functor (def. \ref{FiberFunctor}) to $sVect_k$ (def. \ref{CategoryOfSuperVectorSpaces}) 
+1. a **neutral super [[Tannakian category]]** if it admits a fiber functor (def. \ref{FiberFunctor}) to $sVect_k$ (def. \ref{CategoryOfSuperVectorSpaces})
 
 1. (not needed here) a general **[[Tannakian category]]** if the [[stack]] on $Aff_k$ which sends $R \in CRing$ to the groupoid
    of fiber functors to $R Proj \hookrightarrow R Mod$ ([[projective modules]] over $R$) is an affine [[gerbe]]
@@ -4061,7 +4170,7 @@ The non-trivial element in $\pi(sVect)$ acts on any super-vector space as the [[
 
 ([Deligne 90, 8.14 iv)](#Deligne90))
 
-+-- {: .prop #AutOfFibFuncIsImagUnderFibFuncOfFundamentalGroup}
++-- {: .num_prop #AutOfFibFuncIsImagUnderFibFuncOfFundamentalGroup}
 ###### Proposition
 
 For $\mathcal{A}$ a $k$-[[tensor category]] equipped with a [[fiber functor|super fiber functor]] $\omega \colon \mathcal{A} \to sVect$ (def. \ref{FiberFunctor}), then the automorphism supergroup of $\omega$ is the image under the super fiber functor $\omega$ of the fundamental group of $\mathcal{A}$, according to def. \ref{FundamentalSupergroup}:
@@ -4288,7 +4397,7 @@ For $\mathcal{A}$ a $k$-[[tensor category]] (def. \ref{TensorCategory}), then th
 +-- {: .num_prop #SchurFinitenessImpliesExistenceOfSuperFiberFunctor}
 ###### Proposition
 
-If for every object of a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) there exists a [[Schur functor]] (def. \ref{SchurFunctor}) that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over $k$, 
+If for every object of a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) there exists a [[Schur functor]] (def. \ref{SchurFunctor}) that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over $k$,
 hence then $\mathcal{A}$ is a neutral super [[Tannakian category]] (def. \ref{TannakianCategory}).
 
 $$
@@ -4511,6 +4620,14 @@ The first monograph-length discussion appeared in
 
 * {#EilenbergKelly66} [[Samuel Eilenberg]], [[Max Kelly]], _Closed Categories_ , pp.421-562 in Eilenberg et al. (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
 
+A more recnt texbook account with emphasis on [[tensor categories]]  is
+
+* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
+))
+
+* [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
+
+
 Commutative algebra internal to symmetric monoidal categories is discussed in
 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014
@@ -4521,18 +4638,9 @@ and specifically for [[commutative Hopf algebroids]] in
 
 * {#Ravenel86} [[Doug Ravenel]], chapter 2 and appendix A.1 of  _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
-
 (These authors are motivated by the application of the general theory of algebra in monoidal categories
 to "[[higher algebra]]" ("[[brave new algebra]]") in [[stable homotopy theory]].
-This happens to also be a version of [[supercommutative superalgebra]], see at
-_[[Introduction to Stable homotopy theory]]_ the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra).)
-
-A more recnt texbook account with emphasis on [[tensor categories]]  is
-
-* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
-))
-
-* [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
+This is a version of [[supercommutative superalgebra]] via example \ref{HomotopyCommutativeRingSpectrum} above.)
 
 Free supercommutative superalgebras ([[Grassmann algebras]]) were first considered in
 
@@ -4543,6 +4651,10 @@ Review of basic superalgebra includes
 * {#Manin88} [[Yuri Manin]], chapter 3 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
 
 * {#Westra09} [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
+
+Discussion of superalgebras enhanced to [[smooth algebras]] ([[synthetic differential supergeometry]]) is in
+
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_, Theory and Applications of Categories, Vol. 28, 2013, No. 30, pp 1022-1098. ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134), [TAC](http://www.tac.mta.ca/tac/volumes/28/30/28-30abs.html))
 
 
 [[nLab:Deligne's theorem on tensor categories]] is due to
@@ -4556,7 +4668,6 @@ building on the general results on [[nLab:Tannakian categories]] in
 which are reviewed and further generalized in
 
 * {#DeligneMilne12} [[Pierre Deligne]] [[James Milne]], _Tannakian categories_, 2012 ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
-
 
 Surveys are in
 
