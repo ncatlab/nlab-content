@@ -174,8 +174,10 @@ $$
   \,.
 $$
 The role of this $\Lambda \mathbf{B}G$ as a loop object is amplified in particular in
-   * Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](http://arxiv.org/abs/math.QA/0503266))
-   * Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv](http://arxiv.org/abs/0901.3975))
+
+  * Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](http://arxiv.org/abs/math.QA/0503266))
+
+  * Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv](http://arxiv.org/abs/0901.3975))
 
 * On the other hand, the _based_ loop object of $\mathbf{B}G$ is just $G$:
 $$
