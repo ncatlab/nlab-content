@@ -1,4 +1,10 @@
 
+Andreas Recknagel is lecturer at King's college in London
+
 * [website](http://www.kcl.ac.uk/schools/nms/maths/people/academic/recknagel)
+
+## related $n$Lab entries
+
+* [[supersymmetric quantum mechanics]]
 
 category: people
