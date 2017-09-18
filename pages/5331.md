@@ -60,9 +60,16 @@ Conversely, this functor has a [[derived functor|derived]] [[left adjoint]] whic
 
 ## Related concepts
 
-* [[Poisson bracket Lie n-algebra]]
-
 * [[BV-algebra]]
+
+
+* [[higher Poisson structure]]
+
+  * [[Nambu bracket]]
+
+  * [[Poisson bracket Lie n-algebra]]
+
+
 
 [[!include Isbell duality - table]]
 
@@ -81,13 +88,13 @@ For discussion in the context of [[perturbation theory|perturbative]] [[quantum 
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]]), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf)) 
 
-* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
- {#Gwilliam}
+* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ 
 
 
 and for further references along these lines see at _[[factorization algebra]]_.
 
-For general discusison of the relation to [[E-n algebas]] see
+For general discusison of the relation to [[E-n algebras]] see
 
 * MO discussion, _[Poisson algebras as deformations vs. Poisson algebras in algebraic topology](http://mathoverflow.net/questions/74405/poisson-algebras-as-deformations-vs-poisson-algebras-in-algebraic-topology/75194#75194)_
  {#MODiscussion}
