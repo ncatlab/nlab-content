@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $X$ a [[simplicial set]], for $x : \Delta[0] \to X$ a point in $X$, and for $n \in \mathbb{N}$, the **$n$th Eilenberg subcompolex** $E_n(X,x)$ of $X$ at $x$ is the [[fiber]] of the $(n-1)$-[[coskeleton]]-projection over $x$, hence the [[pullback]]
+For $X$ a [[simplicial set]], for $x : \Delta[0] \to X$ a point in $X$, and for $n \in \mathbb{N}$, the **$n$th Eilenberg subcomplex** $E_n(X,x)$ of $X$ at $x$ is the [[fiber]] of the $(n-1)$-[[coskeleton]]-projection over $x$, hence the [[pullback]]
  
 $$
   \array{
