@@ -1,0 +1,15 @@
+
+
+## Idea
+
+A special square arrey of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and includion all the [[exceptional Lie groups]] except [[G2]].
+
+## References
+
+Named after [[Hans Freudenthal]].
+
+* Wikipedia, _[Freudenthal magic square](https://en.wikipedia.org/wiki/Freudenthal_magic_square)_
+
+* {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+
+[[!redirects Freudenthal-Tits magic square]]
