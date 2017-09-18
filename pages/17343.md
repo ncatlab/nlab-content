@@ -3196,6 +3196,7 @@ That right homotopy (hence also left homotopy) with domain $X$ is a [[transitive
 =--
 
 #### The homotopy category
+ {#TheHomotopyCategory}
  
 We discuss the construction that takes a [[model category]], def. \ref{ModelCategory}, and then universally forces all its [[weak equivalences]] into actual [[isomorphisms]].
 
