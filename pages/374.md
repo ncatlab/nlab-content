@@ -155,6 +155,10 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[order topology]] [[specialization topology]], [[Scott topology]]
 
+* [[compact topological space]]
+
+* [[paracompact topological space]], [[sigma-compact topological space]], [[Lindelöf topological space]]
+
 * [[spectral topological space]]
 
 * [[CW-complex]]
