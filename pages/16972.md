@@ -77,7 +77,7 @@ acting by [[rotation]] of the imaginary quaternions, via the [[Hopf construction
 
 Notice that this means that $SO(3)$ acts on $S^7$ here diagonally on the _two_ copies of the imaginary octonions in $S^7 \hookrightarrow \mathbb{H} \oplus \mathbb{H}$ (as opposed to, say, via any one of the embeddings $SO(3) \hookrightarrow SO(8)$ and the following canonical action of $SO(8)$ on $S^7 \hookrightarrow \mathbb{R}^8$).
 
-
+(see also [Cook-Crabb 93](#CookCrabb93))
 
 ### Class in the homotopy groups of spheres
  {#ClassInTheHomotopyGroupsOfSpheres}
@@ -202,3 +202,10 @@ See also at _[[equivariant stable cohomotopy]]_
 ## References
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
+
+Discussion in [[parameterized homotopy theory]] includes
+
+* {#CookCrabb93} A. L. Cook, M.C. Crabb, _Fiberwise Hopf structures on sphere bundles_, J. London Math. Soc. (2) 48 (1993) 365-384 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/crabbcook.pdf))
+
+* {#Iriye95} Kouyemon Iriye, _Equivariant Hopf structures on a sphere_, J. Math. Kyoto Univ. Volume 35, Number 3 (1995), 403-412 ([Euclid](http://projecteuclid.org/euclid.kjm/1250518704))
+
