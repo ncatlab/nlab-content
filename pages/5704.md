@@ -281,3 +281,6 @@ closed and $f$-saturated subsets to closed subsets.
 
 [[!redirects topological quotient space]]
 [[!redirects topological quotient spaces]]
+
+[[!redirects quotient space topology]]
+[[!redirects quotient space topologies]]
