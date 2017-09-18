@@ -18,7 +18,7 @@ Relative adjoints with respect to a functor $J$ are a generalization of [[adjoin
 
 ## Definition ##
 
-### hom-isomorphism definition ###
+### Via hom-isomorphism  ###
 
 Fix a functor $J\colon B \to D$. Then, a functor 
 
@@ -44,12 +44,11 @@ Dually, $L \colon C \to D$ has a _$J$-right adjoint_ $R \colon B \to C$ if there
 	 Hom_D(L(-), J(-)) \simeq Hom_C(-, R(-))
 \]
 
-#### Notation ####
 
 - $L {\,\,}_J\!\dashv R$ stands for $L$ being the $J$-left adjoint of $R$
 - $L \dashv_J R$ stands for $R$ being the $J$-right adjoint of $L$
 
-### absolute lifting definition ###
+### Via absolute lifting ###
 
 Just as with regular adjoints, relative adjoints can be defined in a more conceptual way in terms of _absolute [[Kan lift|liftings]]_. We have
 
