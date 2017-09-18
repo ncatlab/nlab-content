@@ -46,7 +46,7 @@ Say a morphism in $D$ is a fibration or weak equivalence precisely if its image 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #SufficientConditions}
 ###### Proposition
 
 Sufficient conditions for this to define a cofibrantly generated model category structure on $D$ are
