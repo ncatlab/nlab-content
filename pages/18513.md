@@ -516,8 +516,14 @@ on the [[Cartesian product]] manifold such that
 
 1. (Klein-Gordon bi-solution) $(\Box_g - m^2) \omega(-,x) = 0$ and $(\Box_g - m^2)\omega(x,-) = 0$, for all $x \in X$;
 
+1. (positive semi-definiteness) For any complex-valued [[bump function]] $b$ we have that 
 
-1. (positive semi-definiteness) (...)
+   $$
+     \int_{X \times X} b^\ast(x) \omega(x,y) b(y) \, dvol(x) dvol(y)
+     \;\coloneqq\;
+     \langle \omega, b^\ast \otimes b \rangle 
+     \;\geq\; 0 
+   $$
 
 =--
 
