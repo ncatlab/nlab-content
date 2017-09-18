@@ -198,7 +198,29 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 
 ### Frobenius algebras in polycategories
 
-In fact, Frobenius algebras can be defined in any [[polycategory]], and hence in any [[linearly distributive category]].  The essential point is that the monoidal structure used for the monoid structure could be different from the monoidal structure used for the comonoid structure, i.e. we could have $\mu:A\otimes A \to A$ but $\delta :A \to A \parr A$.  The compatibility between $\otimes$ and $\parr$ in a linearly distributive category (or between their "[[multicategory|multicategorical]]" analogues in a polycategory) is precisely what is required to write down the composites involved in the Frobenius laws.  This is analogous to how a [[bimonoid]] can be defined in any [[duoidal category]].
+In fact, Frobenius algebras can be defined in any [[polycategory]], and hence in any [[linearly distributive category]].  The essential point is that the monoidal structure used for the monoid structure could be different from the monoidal structure used for the comonoid structure, i.e. we could have $\mu:A\otimes A \to A$ but $\delta :A \to A \parr A$.  The compatibility between $\otimes$ and $\parr$ in a linearly distributive category (or between their "[[multicategory|multicategorical]]" analogues in a polycategory) is precisely what is required to write down the composites involved in the Frobenius laws.  For instance, we can have
+
+$$ A\otimes A
+\xrightarrow{1_A \otimes \delta}
+A \otimes (A \parr A)
+\xrightarrow{lin-distrib}
+(A \otimes A) \parr A
+\xrightarrow{\mu \parr 1_A}
+A\parr A
+$$
+
+and one of the Frobenius laws says that this composite is equal to
+
+$$ A \otimes A \xrightarrow{\mu} A \xrightarrow{\delta} A\parr A. $$
+
+This is analogous to how a [[bimonoid]] can be defined in any [[duoidal category]].  In fact, it is a sort of [[microcosm principle]]; it is shown in [(Egger2010)](#Egger2010) that Frobenius monoids in the linearly distributive category [[Sup]] are precisely [[star-autonomous category|*-autonomous]] cocomplete [[posets]] (and hence, in particular, linearly distributive).
+
+In polycategorical language we can give another [[unbiased]] definition of a  commutative Frobenius monoid: it is equipped with exactly one morphism $\overset{n}{\overbrace{(A,A,\dots,A)}} \to \overset{m}{\overbrace{(A,A,\dots,A)}}$ of each possible (two-sided) arity, such that any (symmetric) polycategorical composite of two such morphisms is equal to another such.  The monoid structure consists of the morphisms of arity $(2,1)$ and $(0,1)$, while the comonoid structure is the morphisms of arity $(1,2)$ and $(1,0)$, and the Frobenius relations say that three ways to compose these to produce a morphism of arity $(2,2)$ are equal.  (The morphism of arity $(0,0)$ is the composite $\epsilon\eta$; no axiom is required on it, because in a polycategory there is no other morphism $()\to ()$ to compare it to.)  In other words, the free symmetric polycategory containing a commutative Frobenius monoid is the [[terminal object|terminal]]  symmetric polycategory.  In this way Frobenius algebras are to polycategories in the same way that monoids are to multicategories.
+
++--{: .query}
+[[Mike Shulman]]: I have not carefully checked the above statement, but it seems that the Frobenius laws should suffice to manipulate any such composite into any other.  Personal communications from other people who should know are in agreement.
+=--
+
 
 ## Related concepts
 
@@ -252,6 +274,11 @@ For applications in proof theory of classical and [[linear logic]] or linguistic
 * [[Richard Garner]], _Three investigations into linear logic_ , PhD report  Cambridge 2006. ([pdf](http://comp.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
 
 * D. Kartsaklis, M. Sadrzadeh, S. Pulman,  [[Bob Coecke]], _Reasoning about Meaning in Natural Language with Compact Closed Categories and Frobenius Algebras_ , arXiv:1401.5980 (2014). ([pdf](http://arxiv.org/pdf/1401.5980v1))
+
+Frobenius algebras in linearly distributive categories are discussed in
+
+* [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, [TAC](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)
+ {#Egger2010}
 
 See also
 
