@@ -25,52 +25,130 @@ Often one is interested in extra structure on topological manifolds, that make t
 
 ## Definition
 
+### Locally Euclidean topological spaces
+
+
 +-- {: .num_defn #LocallyEuclideanSpace}
 ###### Definition
-**(locally Euclidean topological space)**
+**([[locally Euclidean topological space]])**
 
-A [[topological space]] $X$ is _locally Euclidean_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+A [[topological space]] $X$ is _[[locally Euclidean topological space|locally Euclidean]]_ if every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]]:
+
+$$
+  \mathbb{R}^n
+    \overset{\phantom{AA} \simeq \phantom{AA}}{\longrightarrow}
+  U_x
+    \subset
+  X
+  \,.
+$$
+
 
 =--
 
+The "local" [[topological properties]] of Euclidean space are inherited by locally Euclidean spaces:
+
++-- {: .num_prop}
+###### Proposition
+**([[locally Euclidean spaces]] are $T_1$)**
+
+Every [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) satisfies the $T_1$ [[separation axiom]];
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$.
+
+By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may choose $U_x \coloneqq E_x$. If it does, then $x \neq y$ are equivalently two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+
+=--
+
+But the "global" topological properties of Euclidean space are not generally inherited by locally Euclidean spaces. This sounds obvious, but notice that also Hausdorff-ness is a "global property":
+
 +-- {: .num_remark}
 ###### Remark
-**(locally Euclidean spaces are $T_1$ but not necessarily $T_2$)**
+**(locally Euclidean spaces are not necessarily $T_2$)**
 
 It might superficially seem that every locally Euclidean space (def. \ref{LocallyEuclideanSpace}) is necessarily a [[Hausdorff topological space]], since [[Euclidean space]], like any [[metric space]], is Hausdorff, and since by definition the neighbourhood of every point in a locally Euclidean spaces looks like Euclidean space.
 
 But this is not so, see the counter-example \ref{NonHausdorffManifolds} below, Hausdorffness is a "non-local condition", as opposed to the $T_0$ and $T_1$ [[separation axioms]].
 
-Every locally Euclidean space is $T_1$: Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$. By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may set $U_x \coloneqq E_x$. If it does, then $x \neq y$ are two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+=--
 
++-- {: .num_prop #RegularityConditionsForTopologicalManifoldsComparison}
+###### Proposition
+
+Let $X$ be a [[topological space]] which is
+
+1. [[Hausdorff topological space|Hausdorff]],
+
+1. [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace})
+
+1. [[connected topological space|connected]].
+
+Then the following are equivalent:
+
+1. $X$ is [[paracompact topological space]];
+
+1. $X$ is [[second-countable topological space|second countable]].
+
+In particular if $X$ is as above but not necessarily connected, then the following are equivalent
+
+1. $X$ is [[paracompact topological space]] and has a [[countable set]] of [[connected components]],
+
+1. $X$ is [[second-countable topological space|second countable]]
+
+1. $X$ is [[sigma-compact topological space|sigma-compact]].
 
 =--
 
+Proof is for instance here: [pdf](http://math.harvard.edu/~hirolee/pdfs/2014-fall-230a-lecture-02-addendum.pdf)
+
+### Topological manifold
 
 
 +-- {: .num_defn #TopologicalManifold}
 ###### Definition
-**(topological manifold)**
+**([[topological manifold]])**
 
-Let $n \in \mathbb{N}$ be a [[natural number]].
+A _topological manifold is a [[topological space]] which is
 
-A _topological manifold_ of _[[dimension]] $n$_ (also "$n$-fold") is 
+1. [[locally Euclidean topological space|locally Euclidean]] (def. \ref{LocallyEuclideanSpace}),
 
-* a [[paracompact Hausdorff topological space]] $X$ 
+1. [[paracompact Hausdorff topological space|paracompact Hausdorff]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
 
-such that 
-
-* ("locally Euclidean") every point $x \in X$ has an [[open neighbourhood]] $U_x \supset \{x\}$ which is [[homeomorphism|homeomorphic]] to the [[Euclidean space]] $\mathbb{R}^n$ with its [[metric topology]].
+If the local [[Euclidean spaces|Euclidean]] neighbourhoods $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
+for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too. This is usually assumed to be the case. Sometimes one also says _$n$-fold_ for "$n$-dimensional manifold".
 
 =--
 
 
 
 +-- {: .num_example #NonHausdorffManifolds}
-###### Counter-Example
+###### Nonexample
 **([[non-Hausdorff manifolds]])**
 
 An example of a [[topological space]] which is locally Euclidean as in def. \ref{TopologicalManifold} but a [[non-Hausdorff topological space]], and hence not a topological manifold in the usual sense, is the [[line with two origins]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[topological manifold]] (def. \ref{TopologicalManifold})
+is a [[locally compact topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that for every point $x \in X$, and every [[open neighbourhood]] $W_x \supset \{x\}$ there exists a smaller open neighbourhood $V_x$ whose [[topological closure]] is [[compact topological space|compact]] and still contained in $W_x$.
+
+By assumption there is a Euclidean open neighbourhood $\mathbb{R}^n \overset{\simeq}{\to} U_x \supset \{x\}$. The [[intersection]] $W_x \cap U_x$ is still an open neighbourhood of $x$, regarded as a subspace of $U_x$. But Euclidean space, like every [[metric space]], is locally compact, and hence we find an open neighbourhood $V_x \subst W_x \cap U_x \subset U_x$ whose topological closure is a compact subspace of $U_x$. Hence it is also a compact subspace of $X$, and since $X$ is Hausdorff by assumption and since [[compact subspaces of Hausdorff spaces are closed]], this is still closed in $X$, and hence also the compact closure of $V_x$ in $X$.
 
 =--
 
