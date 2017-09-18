@@ -115,7 +115,11 @@ Visualization of the idea of the construction for the 2-sphere is in
 
 Discussion of [[free actions]] by [[finite groups]] on spheres includes
 
+* {#Wall78} [[C. T. C. Wall]], _Free actions of finite groups on spheres_, Proceedings of Symposia in Pure Mathematics, Volume 32, 1978 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/wall7.pdf))
+
+
 * [[Alejandro Adem]], _Constructing and Deconstructing Group Actions_ ([arXiv:0212280](http://arxiv.org/abs/math/0212280))
+
 
 See also the [[ADE classification]] of such actions on the [[7-sphere]] (as discussed there)
 
