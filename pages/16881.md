@@ -9,7 +9,7 @@ Although the Extreme Value Theorem (EVT) is often stated as a theorem about [[co
 
 Recall that the [[lower real numbers]] are more general than the [[real numbers]] in just the way needed to guarantee that any [[inhabited subset|inhabited]] set of lower reals has a [[supremum]] (by including $\infty$, and in [[constructive mathematics]] by additionally relaxing the requirements of [[located real number|locatedness]]).  Consequently, the [[range]] of any lower-real-valued function with an [[inhabited set|inhabited]] [[domain]] must have a supremum.
 
-The Extreme Value Theorem states that such a range must also have an [[infimum]] when certain conditions are met.  Specifically, we move to the realm of [[topology]], where the natural lower-real-valued functions are the [[semicontinuous map|lower semicontinuous]] ones.  So long as the [[domain]] of a lower semicontinuous map is [[compact space|compact]] (and [[occupied space|occupied]]), says the EVT, the range has an infimum, and furthermore this infimum is attained, becoming a [[minimum]].
+The Extreme Value Theorem states that such a range must also have an [[infimum]] when certain conditions are met.  Specifically, we move to the realm of [[topology]], where the natural lower-real-valued functions are the [[semicontinuous map|lower semicontinuous]] ones.  So long as the [[domain]] of a lower semicontinuous map is [[compact space|compact]] (and inhabited), says the EVT, the range has an infimum, and furthermore this infimum is attained, becoming a [[minimum]].
 
 
 ## Statements
