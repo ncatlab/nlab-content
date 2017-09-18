@@ -164,3 +164,7 @@ As always, the terminal object $1$ carries a unique right module structure. The 
 $$colim F \cong 1 \circ_C F$$ 
 
 As a result, we have the cofibrant replacement $B(1, C, F)$ of $colim F$. The geometric realization of the simplicial space $B(1, C, F)$ is none other than the **[[homotopy colimit]]** of $F$. 
+
+[[!redirects two-sided bar constructions]] 
+[[!redirects two sided bar construction]] 
+[[!redirects two sided bar constructions]] 
