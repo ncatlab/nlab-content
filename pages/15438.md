@@ -55,11 +55,13 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * M. J. Gabbay, [[Andrew Pitts|A. M. Pitts]], _A new approach to abstract syntax with variable binding_, Formal Aspects of Computing **13** (2002) pp.341-363. ([draft](http://www.cl.cam.ac.uk/~amp12/papers/newaas/newaas-jv.pdf))
 
-* [[Peter Johnstone]], _Sketches of an [[Elephant]] vols. I,II_, Oxford UP 2002. pp.79f, 691, 925.
+* [[Peter Johnstone]], _Sketches of an [[Elephant]] vols. I,II_, Oxford UP 2002. (pp.79f, 691, 925)
 
-* [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989). pp.298f.
+* [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989). (pp.298f)
 
-* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. pp.155, 158.
+* [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (pp.155, 158)
+
+* {#Menni03}[[Matías Menni]], _About N-quantifiers_ , Appl. Cat. Struc. **11** (2003) pp.421-445. ([preprint](https://sites.google.com/site/matiasmenni/newQuantifiers.pdf?attredirects=0))
 
 * {#Menni09}[[Matías Menni]], _Algebraic categories whose projectives are explicitly free_ , TAC **22** no.20 (2009) pp.509-541. ([abstract](http://www.tac.mta.ca/tac/volumes/22/20/22-20abs.html))
 
