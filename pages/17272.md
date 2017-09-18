@@ -60,7 +60,7 @@ $$
 A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], is called a [[stable weak homotopy equivalence]], if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
 
 $$
-  \pi_\bulelt(f) \;\colon\; \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
+  \pi_\bullet(f) \;\colon\; \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
   \,.
 $$
 
