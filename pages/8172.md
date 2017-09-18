@@ -208,7 +208,7 @@ is called a _permanent cycle_.
 In good cases, the [[Adams resolution]] is indeed a [[resolution]] which means that  the [[inverse limit]] $\underset{\leftarrow}{\lim}_s X_s $ is in fact [[contractible]]. This means that all the "evidence" accumulated in a permanent cycle is indeed sufficient evidence to prove the existence of an element $\sigma_s \in \pi_\bullet(X_s)$ and hence of an element $\sigma \in \pi_\bullet(X)$.
 
 
-A trivial way for this to be the case is that the original $\sigma_s$ is itself in the image under $\partial$ of some element, in which case $\kappa_s = 0$ already all by itself. These elements are called _eventual boundaries_. Therefore if the Adams resolution is indeed a resolution the quotient group
+A trivial way for this to be the case is that the original $\sigma_s$ is itself in the image under $\partial$ of some element, in which case $\kappa_s = 0$ already all by itself. These elements are called _eventual boundaries_. Therefore if the Adams resolution is indeed a resolution, then the quotient group
 
 $$
   \frac{permanent\;cycles}{eventual\;bounaries}
@@ -679,7 +679,11 @@ A unique homological perspective is provided in
 
 * [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981)
 
-Trasditional reviews include
+The [[spectrum]]-level discussion of the ASS goes back to around
+
+* R. M. F. Moss, _On the composition pairing of Adams spectral sequences_, Proceedings of the London Mathematical Society 3.1 (1968): 179-192.
+
+Traditional reviews include
 
 * [[John Adams]], part III of _Stable homotopy and generalised homology, University of Chicago Press, Chicago, Ill., 1974, Chicago Lectures in Mathematics.
 
@@ -687,20 +691,19 @@ Trasditional reviews include
  
   also Section A.6 of Ravenel's orange book 1992
 
-* [[Paul Goerss]], _The Adams-Novikov spectral sequence and the Homotopy Groups of Spheres_, lecture notes 2007 ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/stras1.pdf))
- {#Goerss2007}
+* {#Goerss2007} [[Paul Goerss]], _The Adams-Novikov spectral sequence and the Homotopy Groups of Spheres_, lecture notes 2007 ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/stras1.pdf))
 
 * [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
-* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+* {#Bruner} R. Bruner, _An Adams spectral sequence primer_ ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
+
+* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 See also
 
 * Nerses Aramian, _The Adams spectral sequence_ ([pdf](http://www.math.uiuc.edu/~bertg/Aramian_ASS.pdf))
 
-* [[Alexander Kupers]], _An introduction to the Adams spectral sequence_ ([pdf](http://math.stanford.edu/~kupers/adamsss.pdf))
-
-* R. Bruner, _An Adams spectral sequence primer_ ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
+* [[Alexander Kupers]], _An introduction to the Adams spectral sequence_ (following [Rognes 12](#Rognes12)) ([pdf](http://math.stanford.edu/~kupers/adamsss.pdf))
 
 * Michael Adamaszek, _An elementary guide to the Adams-Novikov $Ext$_ ([pdf](http://www.math.uni-bremen.de/~aszek/bp.pdf))
 
@@ -709,8 +712,7 @@ See also
 
 A nice review from the modern point of view of [[higher algebra]] is in 
 
-* {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the
-Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/index.php) ([pdf](http://www.math.harvard.edu/~hirolee/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+* {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/index.php) ([pdf](http://www.math.harvard.edu/~hirolee/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
  
 
 More review along these lines is in
