@@ -6,7 +6,7 @@
 
 ## Definition
 
-The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions]] of the [[commutative ring]] of [[integers]], $\mathbb{Z}$, hence the field consisting of formal [[fractions]] of [[integers]].
+The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions]] of the [[commutative ring]] of [[integers]], $\mathbb{Z}$, hence the field consisting of formal [[fractions]] ("[[ratios]]") of [[integers]].
 
 
 ## Properties
