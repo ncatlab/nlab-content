@@ -1116,7 +1116,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #MonoidalCategoryOfModules}
 ###### Proposition
 
 Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself.
@@ -1800,7 +1800,7 @@ Similarly for [[module objects]] and [[modules over monoidal functors]].
 +-- {: .num_defn #FreeModulesOverAMonoidInDayConvolution}
 ###### Definition
 
-For $(\mathcal{C},\otimes_{\matchcal{C}}, 1_{\mathcal{}})$ a [[small category|small]] (pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and for $R \in Mon([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day}, y(S^0))$ a [[monoid object]] (def. \ref{MonoidsInMonoidalCategory}) with respect to [[Day convolution]] over $\mathcal{C}$ (prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}), write
+For $(\mathcal{C},\otimes_{\matchcal{C}}, 1_{\mathcal{C}})$ a [[small category|small]] (pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and for $R \in Mon([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day}, y(S^0))$ a [[monoid object]] (def. \ref{MonoidsInMonoidalCategory}) with respect to [[Day convolution]] over $\mathcal{C}$ (prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}), write
 
 $$
   R FreeMod \hookrightarrow R Mod
@@ -1842,10 +1842,10 @@ where after the definition in the first line we used first the free property, th
 +-- {: .num_prop #ModulesInDayConvolutionAreFunctorsOnFreeModulesOp}
 ###### Proposition
 
-For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, then there is an [[equivalence of categories]]
+For $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ a [[small category|small]] pointed [[topologically enriched category|topologically enriched]] [[monoidal category]] , and for $R \in Mon([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, then there is an [[equivalence of categories]]
 
 $$
-  R Mod \simeq [R FreeMod^{op}, V]
+  R Mod \simeq [R FreeMod^{op}, Top^{\ast/}_{cg}]
 $$
 
 between the [[category of modules]] over $R$ and the [[enriched functor category]] out of the [[opposite category]] of that of free $R$-modules from def. \ref{FreeModulesOverAMonoidInDayConvolution}.
@@ -1893,17 +1893,17 @@ over $R FreeMod^{op}$.
 
 ## Examples
 
-### Pre-Excisive functors
+### For excisive functors
 
 Write $Top^{\ast}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}$ for the full inclusion on the topological spaces isomorphic to a [[finite CW-complex]].
 
-Then 
+Then the [[topologically enriched category]]
 
 $$
  [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
 $$
 
-is the category of _[[pre-excisive functors]]_. Its [[symmetric monoidal smash product of spectra]] is the [[Day convolution]] $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) of the plain smash product. By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} this gives a topological [[monoidal category]]
+is the category of _[[pre-excisive functors]]_. Day convolution, by prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} gives a topological [[monoidal category]]
 
 
 $$
@@ -1914,6 +1914,151 @@ $$
     , y(S^0)
   \right)
 $$
+
+Here 
+
+$$
+  y(S^0) \;\colon\; X \mapsto X
+$$
+
+and in particular
+
+$$
+  y(S^0) \;\colon\; S^n \mapsto S^n
+  \,.
+$$
+
+This is the [[sphere spectrum]]
+
+$$
+  \mathbb{S} \simeq y(S^0)
+$$
+
+in its incarnation as an excisive functor. Under the [[model structure on excisive functors]], excisive functors represent the [[stable (infinity,1)-category of spectra]] and the above Day convolution represents the [[symmetric monoidal smash product of spectra]].
+
+Hence a structured [[ring spectrum]] is a monoid with respect to the above day convolution, and by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this is equivalently a pre-excisive functor with smash products, hence a functor
+
+$$
+  F \;\colon\; Top^{\ast/}_{cg,fin} \longrightarrow Top^{\ast/}_{cg}
+$$
+
+equipped with a map
+
+$$
+  S^0 \longrightarrow F(S^0)
+$$
+
+and equipped with natural transformations
+
+$$
+  F(K_1)\wedge F(K_2) \longrightarrow F(K_1 \wedge K_2)
+$$
+
+for all pointed [[finite CW-complexes]] $K_1$ and $K_2$, satisfying appropriate associativity and unitality conditions.
+
+### For orthogonal spectra
+
+Consider the non-full inclusion of topologically enriched categories
+
+$$
+  Orth \hookrightarrow Top^{\ast/}_{cg,fin}
+$$
+
+on the standard [[n-spheres]] $S^n \coloneqq (S^1)^{\wedge^n}$, with [[hom-spaces]] given by the [[orthogonal groups]] with basepoint adjoint, acting on these spheres as their canonical [[representation spheres]]
+
+$$
+  Orth(S^{n_1}, S^{n_2})
+   \coloneqq
+  \left\{
+    \array{
+      O(n_1)_+ & if \; n_1= n_2
+      \\
+      \ast & otherwise
+    }
+  \right.
+  \,.
+$$
+
+Restricting a [[pre-excisive functor]] along this inclusion yields its underlying [[orthogonal spectrum]]. 
+
+Restricting the standard pre-excisive model $y(S^0)$ of the [[sphere spectrum]] yields $\mathbb{S}_{orth}$. Since restriction is a monoidal functor, and since $y(S^0)$ is the tensor unit and hence canonically a monoid, $\mathbb{S}_{orth}$ is still a monoid with respect to Day convolution, in fact a commutative monoid.
+
+The category of [[orthogonal spectra]] is
+
+$$
+  \begin{aligned}
+    OrthSpec(Top_{cg})
+    &=
+    \mathbb{S}_{orth}Mod( [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}] )
+    \\
+    & \simeq
+    [ \mathbb{S}_{orth} FreeMod^{op}, Top^{\ast/}_{cg} ]
+  \end{aligned}
+  \,,
+$$
+
+where we used prop. \ref{ModulesInDayConvolutionAreFunctorsOnFreeModulesOp}.
+
+By prop. \ref{MonoidalCategoryOfModules} the original Day convolution induces a tensor product on $\mathbb{S}_{orth} Mod$, hence on $mathbb{S}_{orth} FreeMod$, hence on $mathbb{S}_{orth} FreeMod^{op}$, and hence Day convolution induces a tensor product on 
+$  
+OrthSpec(Top_{cg})
+  \simeq
+  [ \mathbb{S}_{orth} FreeMod^{op}, Top^{\ast/}_{cg} ]
+$
+
+
+Accordingly a ring spectrum incarnated as a functor with smash products is now a topologically enriched functor
+
+$$
+  F \;\colon\; \mathbb{S}_{orth} FreeMod^{op} \longrightarrow Top^{\ast/}_{cg}
+$$
+
+equipped with a map
+
+$$
+  S^0 \longrightarrow F(S^0)
+$$
+
+and equipped with a natural system of maps
+
+$$
+  F(n_1) \wedge F(n_2) \longrightarrow F(n_1 + n_2)
+$$
+
+(where $F(n) \coloneqq F(S^n)$), satisfying associativity and unitality. In the terminology of [MMSS 00, def. 22.5](#MMSS00) this is an "$Orth$-FSP over $\mathbb{S}_{Orth}$".
+
+### Symmetric spectra
+
+Restrict further along the non-full inclusion
+
+$$
+  Sym \hookrightarrow Orth \hookrightarrow Top^{\ast/}_{cg,fin}
+  \,,
+$$
+
+where $Sym$ has the same objects, but the [[hom-spaces]] are now just the [[symmetric groups]] (with basepoint adjoint)
+
+$$
+  \Sigma_n \hookrightarrow O(n)
+  \,.
+$$
+
+Then proceed as for orthogonal spectra.
+
+### For sequential spectra (non-example)
+
+Restrict further along 
+
+$$
+  Seq \hookrightarrow Sym \hookrightarrow Orth \hookrightarrow Top^{\ast/}_{cg}
+  \,,
+$$
+
+where $Seq$ still has the same objects, the $n$-spheres, but no non-trivial morphisms (just the identity morphisms and the zero morphisms).
+
+Restricting $\mathbb{S}$ along this inclusion yields $\mathbb{S}_{seq}$.  This is still a monoid with respect to Day convolution, the $\mathbb{S}_{seq}$-modules are the [[sequential spectra]]. 
+
+However, $\mathbb{S}_{seq}$ it is not a commutative monoid anymore (see at [smash product of spectra -- graded commutativity](smash+product+of+spectra#GradedCommutativity)) and hence the assumption of prop. \ref{MonoidalCategoryOfModules} is violated. Accordingly there is no induced tensor product on $\mathbb{S}_{seq}Mod$ and hence the story ends here. 
 
 
 ## Examples
