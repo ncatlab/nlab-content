@@ -1,4 +1,149 @@
 
-[[tadpole.png:file]]
++-- {: .num_defn #LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
+###### Definition
+**([[local Lagrangian density]] for [[free field|free]] [[scalar field]] on [[Minkowski spacetime]])**
 
-<img src="https://ncatlab.org/nlab/files/tadpole.png" width="100">
+For $p \in \mathbb{N}$, let [[spacetime]] $\Sigma \coloneqq \mathbb{R}^{p,1} = (\mathbb{R}^d, \eta)$ be [[Minkowski spacetime]] of [[dimension]] $p + 1$, where $\eta$ denotes the Minkowski [[metric tensor]] of [[signature of a quadratic form|signature]] $(-,+,\cdots, +)$. We write $\mathrm{dvol}_\Sigma \in \Omega^{p+1}(\Sigma)$ for the corresponding [[volume form]] and $\{x^\mu \colon \Sigma \to \mathbb{R}\}_{\mu = 0}^p$ for the canonical [[coordinate functions]].
+
+Let the [[field bundle]]I $E \to \Sigma$ be the [[trivial vector bundle|trivial]] [[real line bundle]] over $\Sigma$.
+
+Then its [[jet bundle]] $J^\infty E$ has canonical coordinates
+
+$$
+  \{ \{x^\mu\}, \phi, \{\phi_{,\mu}\}, \{\phi_{,\mu \nu}\}, \cdots \}
+  \,.
+$$
+
+In these coordinates, the [[local Lagrangian density]] 
+
+$$
+  L \in \Omega^{p+1,0}(\Sigma)
+$$
+
+defining the [[free field|free]] [[scalar field]] of [[mass]] $m \in [0,\infty)$ on $\Sigma$ is
+
+$$
+  L
+    \coloneqq
+  \tfrac{1}{2}
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu} 
+    +
+    m^2 \phi^2
+  \right)
+  \mathrm{dvol}_\Sigma
+  \,.[[
+$$
+
+=--
+
++-- {: .num_prop #EulerLagrangeOfLagrangianOfFreeScalarField}
+###### Proposition
+**([[covariant phase space]] of [[free field|free]] [[scalar field]] on [[Minkowski spacetime]])**
+
+In the situation of def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
+the [[Euler-Lagrange operator]] $\delta_{EL} \colon \Omega^{p+1,0}(\Sigma) \to \Omega^{p+1,1}_S(\Sigma)$ takes the [[local Lagrangian density]] for the [[free field|free]] [[scalar field]] to
+
+$$
+  \delta_EL L
+  \;=\;
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
+  \right)
+  d_V \phi \wedge \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+Hence for $\Phi : \Sigma \to \mathbb{R}$ the $\phi$-component of a [[section]] of the [[field bundle]], its [[equation of motion]] is the [[Klein-Gordon equation]]
+
+$$
+  \left(\eta^{\mu \nu} \partial_\mu \partial_\nu + m^2 \right) \Phi = 0
+  \,.
+$$
+
+Moreover, the [[presymplectic current]] of the free scala field is
+
+$$
+  \omega \in \Omega^{p,2}(\Sigma)
+$$
+
+is
+
+$$
+  \omega
+   \;=\;
+    \eta^{\mu \nu} (d_V \phi_{,\mu}) \wedge (d_V \phi) \wedge \iota_{\partial_\nu}
+  \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The vertical differential is
+
+$$
+  d_V L
+    =
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu} d_V \phi_{,\nu} 
+      +
+    m^2 \phi d_V \phi
+  \right)
+  \wedge \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+By definition of the [[Euler-Lagrange operator]], in order to find $\mathrm{EL}$ and $\theta$, we need to exhibit this as the
+sum of the form $(-) \wedge d_V \phi  - d_H \theta$.
+
+The key to find $\theta$ is  to realize $d_V \phi_{,\nu}\wedge \mathrm{dvol}_\Sigma$ as a [[horizontal derivative]]. Since $d_H \phi = \phi_{,\mu} d x^\mu$ this is accomplished by
+
+$$
+  d_V \phi_{,\nu} \wedge \mathrm{dvol}_\Sigma
+  =
+  d_V d_H \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma
+$$
+
+Hence we set
+
+$$
+  \theta
+  \coloneqq
+    \eta^{\mu \nu} \phi_{,\mu} d_V \phi \wedge \iota_{\partial_\nu}
+  \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+This way we have
+
+$$
+  d_H \theta
+  =
+  \eta^{\mu \nu}
+  \left(
+    \phi_{,\mu \nu} d_V \phi
+    -
+    \eta^{\mu \nu} \phi_{,\mu} d_V \phi_{,\nu}
+  \right) \wedge \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+In conclusion this yields the decomposition
+
+$$
+  d_V L
+  =
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
+  \right)
+  d_V \phi \wedge \mathrm{dvol}_\Sigma
+  -
+  d_H \theta
+  \,.
+$$
+
+
+=--
