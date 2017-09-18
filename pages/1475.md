@@ -94,8 +94,28 @@ We first show that Zorn's lemma implies the classical [[well-ordering principle]
 3. The [[axiom of choice]] follows: suppose given a [[surjection]] $p: E \to B$, so that every [[fiber]] $p^{-1}(b)$ is [[inhabited set|inhabited]]. Consider any well-ordering of $E$, and define $s: B \to E$ by letting $s(b)$ be the least element in $p^{-1}(b)$ with respect to the well-ordering. This gives a section $s$ of $p$. 
 =--
 
+### Bourbaki-Witt theorem 
 
-## Usage
+Many accounts of the proof of Zorn's lemma start by establishing first the so-called Bourbaki-Witt theorem, which does not require AC and is of interest in its own right. (However, it too does not admit a constructive proof; see Bauer-Lumsdaine for a demonstration that it is not valid in the [[effective topos]]. That said, the issue is subtle enough that the Bourbaki-Witt theorem nonetheless holds in any [[Grothendieck topos]].) 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Bourbaki-Witt)** 
+Let $P$ be an inhabited [[poset]] such that every chain has a [[supremum|least upper bound]], and $s: P \to P$ a function that is *inflationary*: satisfies $x \leq s(x)$ for all $x$. Then $s$ has a [[fixed point]]: an $x$ such that $s(x) = x$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Without loss of generality, assume $P$ has a bottom element $0$; otherwise just pick an element $a \in P$ and replace $P$ with the upward set $\uparrow a$. 
+
+Say that a subset $I \subseteq P$ is *$s$-inductive* if: $0 \in I$, $I$ is closed under $s$ ($s(I) \subseteq I$), and $I$ contains the sup of any chain in $I$. The intersection of any family of $s$-inductive sets is also $s$-inductive, so the intersection $M$ of all $s$-inductive sets is $s$-inductive. 
+
+The idea is that $M$ is totally ordered (is a chain) by the following intuition: 
+the elements of $M$ are $0, f(0), f f(0), \ldots f^n(0), \ldots$, where we may continue by transfinite induction: at limit ordinals $\alpha$ define $f^\alpha(0)$ to be the sup of $\{f^\beta(0): \beta \lt \alpha\}$, and at successors define $f^{\alpha + 1}(0) = f(f^\alpha(0))$. We cannot have a strictly increasing chain that goes on forever, by cardinality considerations, so at some point we hit an $\alpha$ such that $f^{\alpha + 1}(0) = f^\alpha(0)$, which provides a fixed point. (What could be nonconstructive about that? See this [comment](https://golem.ph.utexas.edu/category/2012/10/the_zorn_identity.html#c042428) by Lumsdaine.) In any case, once we prove $M$ is totally ordered, our fixed point will be the sup of $M$. 
+
+=-- 
+
+## Usage/applications 
 
 It is very common, when starting with a preordered set $S$, to apply Zorn\'s lemma not to $S$ itself but to an [[up-set]] (an [[under category]]) in $S$.  That is, one starts with an element $x$ of $S$ and proves the existence of a maximal element comparable to $x$.
 
