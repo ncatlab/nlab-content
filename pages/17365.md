@@ -6219,7 +6219,15 @@ for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable wea
 
 ##### Triangulated structure
 
+We have seen [above](#Additivity) that the [[stable homotopy category]] $Ho(Spectra)$ is an [[additive category]]. In the context of [[homological algebra]], when faced with an [[additive category]] one next asks for the existence of [[kernels]] ([[fibers]]) and [[cokernels]] ([[cofibers]]) to yield a [[pre-abelian category]], and then asks that these are suitably compatible, to yield an [[abelian category]]. 
+
+Now here in [[stable homotopy theory]], the concept of kernels and cokernels is replaced by that of [[homotopy fibers]] and [[homotopy cofibers]]. That these certainly exist for homotopy theories presented by [[model categories]] was the topic of the general discussion in the section _[Homotopy theory -- Homotopy fibers](#Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_. Various of the properties they satisfy was the topic of the sections _[Homotopy theory -- Long sequences](Introduction+to+Stable+homotopy+theory+--+P#LongSequences)_ and _[Homotopy theory -- Homotopy pullbacks.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbacks)_. For the special case of _stable homotopy theory_ we will find a crucial further property relating homotopy fibers to homotopy cofibers. 
+
+The axiomatic formulation of a subset of these properties of stable homotopy fibers and stable homotopy cofibers is called a _[[triangulated category]]_ structure. This is the analog in [[stable homotopy theory]] of [[abelian category]] structure in [[homological algebra]].
+
 **Literature** ([Schwede 12, II.2](#Schwede12))
+
+$\,$
 
 
 +-- {: .num_defn #CategoryWithCofiberSequences}
@@ -6240,7 +6248,13 @@ A **[[triangulated category]]** is
 1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
 
    $$
-     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow}  \overset{}{\longrightarrow} \Sigma A
+     A 
+       \overset{}{\longrightarrow} 
+     B 
+       \overset{}{\longrightarrow} 
+     B/A 
+       \overset{}{\longrightarrow} 
+     \Sigma A
      \,,
    $$
 
@@ -6260,11 +6274,18 @@ A **[[triangulated category]]** is
 
 such that the following conditions hold:
 
-* **T0** If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
+* **T0**  For every morphism $f \colon A \to B$, there does exist a distinguished triangle of the form
+
+  $$
+    A \overset{f}{\longrightarrow} B \longrightarrow B/A \longrightarrow \Sigma A
+    \,.
+  $$
+
+  If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
 
   $$
     \array{    
-     A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
      \\
      \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}} 
      && \downarrow^{\mathrlap{\in Iso}}
@@ -6275,15 +6296,8 @@ such that the following conditions hold:
     }
   $$
 
-  then $(f',g',h')$ is also a distinguished triangle;
+  (with all vertical morphisms being [[isomorphisms]]) then $(f',g',h')$ is also a distinguished triangle.
   
-  Moreover, for every morphism $f \colon A \to B$ there is a distinguished triangle of the form
-
-  $$
-    A \overset{f}{\longrightarrow} B \longrightarrow B/A \longrightarrow \Sigma A
-    \,.
-  $$
-
 * **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
 
   $$
@@ -6346,7 +6360,7 @@ such that the following conditions hold:
         &\overset{f}{\longrightarrow}& 
       B 
         &\overset{g}{\longrightarrow}& 
-      C 
+      B/A 
         &\overset{h}{\longrightarrow}&
       \Sigma A
       \\
@@ -6354,24 +6368,27 @@ such that the following conditions hold:
       \\
       A 
         &\underset{f' \circ f}{\longrightarrow}&
-      B
+      D
         &\underset{g''}{\longrightarrow}&
-      E
+      D/A
         &\underset{h''}{\longrightarrow}&
       \Sigma A
       \\
       && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && \downarrow^{\mathrlap{\Sigma f}}
       \\
       && 
-      F 
+      D/B 
        &\underset{=}{\longrightarrow}& 
-      F
+      D/B
         &\underset{h'}{\longrightarrow}& 
       \Sigma B
       \\
       && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
       \\
-      && \Sigma B &\underset{\Sigma g}{\longrightarrow}& \Sigma C
+        && 
+      \Sigma B 
+        &\underset{\Sigma g}{\longrightarrow}& 
+      \Sigma B/A
     }
   $$
 
@@ -6405,15 +6422,15 @@ By prop. \ref{TheStableHomotopyCategoryIsAdditive} the stable homotopy category 
 
 The axioms T0 and T1 are immediate from the definition of homotopy cofiber sequences. 
 
-The axiom T2 is the very characterization of long homotopy cofiber sequences (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)).
+The axiom T2 is the very characterization of long [[homotopy cofiber sequences]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)).
 
 Regarding axiom T3:
 
 By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). This way the morphism $B/A \to B'/A'$ is induced by the  [[universal property]] of ordinary cofibers.  To see that we may also complete the last vertical morphism, observe that generally these [[connecting homomorphisms]] may be represented functorially: 
 
-By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequentialSpectra}) we may assume without restriction of generality that all spectra involved are [[CW-spectra]]. For these the standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is a good [[cylinder object]] (by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}), which hence provides a functorial construction $X \maspto X \wedge (I_+)$ of cylinder objects for CW-spectra. Then constructing the connecting homomorphism uniformly by first constructing cofibration replacements via the [[factorization lemma]] ([prop](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)), with respect to these cylinder objects, and then forming cofibers, is functorial, because all three ingredients are (cylinders, replacement, cofibers). 
+By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequentialSpectra}) we may assume without restriction of generality that all spectra involved are [[CW-spectra]]. For these the standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is a good [[cylinder object]] (by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}), which hence provides a functorial construction $X \maspto X \wedge (I_+)$ of cylinder objects for CW-spectra. Then constructing the connecting homomorphism uniformly by first constructing cofibration replacements via the [[factorization lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)), with respect to these cylinder objects, and then forming cofibers, is functorial, because all three ingredients (cylinders, replacement, cofibers) are functorial. 
 
-With this again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
+With this, again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
 
 Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra and represent $f$ and $f'$ by cofibrations. Then the diagram in question exists and commutes by functoriality of the connecting homomorphisms and by the universal properties of cofibers as above.
 
@@ -6424,7 +6441,12 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
 
 ##### Long fiber-cofiber sequences
 
+In [[homotopy theory]] there are generally long [[homotopy fiber sequences]] to the left and long [[homotopy cofiber sequences]] to the right, as discussed in the section _[Homotopy theory -- Long sequences](Introduction+to+Stable+homotopy+theory+--+P#LongSequences)_. We prove now, in the generality of the axiomatics of [[triangulated categories]], that in [[stable homotopy theory]] both these sequences are long in both directions, and in fact coincide.
+
+
 **Literature** ([Schwede 12, II.2](#Schwede12))
+
+$\,$
 
 +-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
 ###### Lemma
@@ -6859,7 +6881,7 @@ $$
   \,.
 $$
 
-By prop. \ref{SpectrificationIsFibrantReplacement} a fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopologicalSequentialSpectra}. 
+By theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopologicalSequentialSpectra}. 
 
 So it follows that $[\mathbb{S},X]_\ast$ is given by left homotopy classes of morphisms 
 
