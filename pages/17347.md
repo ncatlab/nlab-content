@@ -4535,7 +4535,7 @@ regarded as a point in $G_{k-n}(\mathbb{R}^k)$.
 +-- {: .num_defn #BfStructure}
 ###### Definition
 
-A **$(B,f)$-structure** is 
+A **[[(B,f)-structure]]** is 
 
 1. for each $n\in \mathbb{N}$ a [[pointed topological space|pointed]] [[CW-complex]] $B_n \in Top_{CW}^{\ast/}$
 
@@ -4567,8 +4567,11 @@ $$
     \\
     B O(n_1) &\longrightarrow& B O(n_2)
   }
-  \,.
+  \,,
 $$
+
+where the bottom map is the canonical one from def. \ref{InclusionOfBOnIntoBOnPlusOne}.
+
 
 =--
 
@@ -4585,7 +4588,7 @@ Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-struct
      \array{
        && B_{k-n}
        \\
-       &{}^{\mathllap{\hat g}}\nearrow& \downarrow^{\mathrlap{f_n}}
+       &{}^{\mathllap{\hat g}}\nearrow& \downarrow^{\mathrlap{f_{k-n}}}
        \\
        X &\overset{g}{\hookrightarrow}& B O(k-n)
      }
