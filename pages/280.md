@@ -35,21 +35,20 @@ $$
 
 For fixed $x \in X$ this produces an [[endofunction]] $act(x,-) \colon Y \to Y$ and hence some "transformation" or "action" on $Y$. In this way the whole of $X$ acts on $Y$.
 
-Here $(x\mapsto act(x,-))$ is the _[[currying|curried]]_ function $\widehat{act}\colon X \to Y^Y$ of the original $act$, which maps $X$ to the [[function set|set of]] of [[endofunctions]] on $Y$.[^SetActions] Quite generally one has these two perspectives on actions.
+Here $(x\mapsto act(x,-))$ is the _[[currying|curried]]_ function $\widehat{act}\colon X \to Y^Y$ of the original $act$, which maps $X$ to the [[function set|set of]] of [[endofunctions]] on $Y$.  Quite generally one has these two perspectives on actions.
 
-[^SetActions]: In the category [[Set]] there is no difference between the above left action and the right action  $actR\colon Y \times X \to Y$ because the [[cartesian product]] is [[symmetric monoidal category|symmetric monoidal]]. However for the action of a [[monoid]] on a set (sometimes called [[MSet| M-set]] or M-act) the product of a monoid and a set does not  commute so the left and right actions are different.  The action of a set on a set is the same as an arrow-labelled [[directed graph]] $arrows\colon vertices \times labels \to vertices$ which specifies  that each vertex must have a set of arrows leaving it with one arrow per label, and is also the same as a simple (non halting) [[deterministic automaton]]  $transition\colon inputs \times states \to states$.
+Usually the key aspect of an action of some $X$ is that $X$ itself carries an algebraic structure, such as being a [[group]] (or just a [[monoid]]) or being a [[ring]] or an [[associative algebra]], which is also possessed by $Y^Y$ and preserved by the curried action $\widehat{act}$.  Note that if $Y$ is any set then $Y^Y$ is a monoid, and when $X$ acts on it one calls it an [[MSet|X-set]].  For $Y^Y$ to have a ring/algebra structure, $Y$ must be some sort of [[abelian group]] or [[vector space]] with the action by [[linear functions]]; then one calls the action also a _[[module]]_ or _[[representation]]_.
 
-Usually the key aspect of an action of some $X$ is that $X$ itself carries an algebraic structure, such as being a [[group]] (or just a [[monoid]]) or being a [[ring]] or an [[associative algebra]]. (If these structures act on an [[abelian group]] or [[vector space]] $Y$ by [[linear functions]], then one calls the action also a _[[module]]_ or _[[representation]]_.)
-
-With such algebraic structure on $X$, the action crucially is to respect this structure in that acting consecutively with two elements in $X$ is the same as first multiplying them and then acting with the result:
+In terms of the uncurried action $X\times Y\to Y$, the "preservation" condition says roughly speaking that acting consecutively with two elements in $X$ is the same as first multiplying them and then acting with the result:
 
 $$
   act(x_2,act(x_1,y)) = act(x_2\cdot x_1, y)
   \,.
 $$
 
+To be precise, this is the condition for a *left action*; a *right action* is defined dually in terms of a map $Y\times X\to X$.  If $X$ has no algebraic structure, or if its relevant structure is commutative, then there is no essential difference between the two; but in general they can be quite different.
 
-This _action property_ may often be identified with a [[functor]] property: it characterizes a [[functor]] from the [[delooping]] $\mathbf{B}X$ of the [[monoid]] $X$ to the [[category]] (such as [[Set]])  of which $Y$ is an object.
+This _action property_ can also often be identified with a [[functor]] property: it characterizes a [[functor]] from the [[delooping]] $\mathbf{B}X$ of the [[monoid]] $X$ to the [[category]] (such as [[Set]])  of which $Y$ is an object.
 
 In this way essentially every kind of [[functor]], [[n-functor]] and [[enriched functor]] may be thought of as defining a generalized kind of action. This perspective on actions is particularly prevalent in [[enriched category theory]], where for instance [[coends]] may be thought of as producing [[tensor products]] of actions in this general functorial sense.
 
@@ -125,6 +124,10 @@ satisfying conditions that certain diagrams (left to the reader) encoding these 
 The advantage of this is that it does not require the category $C$ to have internal automorphism group objects for all objects being considered.
 
 As an example, within the category of [[profinite group]]s, not all objects have automorphism groups for which the natural topology is profinite, because of that profinite group actions are sometimes given in this form or are restricted to actions on objects for which the automorphism group is naturally profinite. 
+
+### Actions of a set
+
+The action of a set on a set was defined above; it consists of a function $X\times Y\to Y$.  This can equivalently be represented by a [[quiver]] with $Y$ as its vertices, with its edges labeled by elements of $X$, and such that each vertex has exactly one arrow leaving it with each label.  (This is a sort of "Grothendieck construction".)  It is also the same as a simple (non halting) [[deterministic automaton]], with $Y$ the set of states and $X$ the set of inputs.
 
 
 ## Examples
