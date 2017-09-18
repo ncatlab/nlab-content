@@ -534,6 +534,8 @@ Discussion in terms of [[Bousfield localization of model categories]] [[model ca
 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], chapter VIII of _[[Rings, modules and algebras in stable homotopy theory]]_ 1997 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
+* {#SchwedeShipley02} [[Stefan Schwede]], [[Brooke Shipley]], lemma 4.1 in _A uniqueness theorem for stable homotopy theory_, Mathematische Zeitschrift 239 (2002), 803-828 ([arXiv:math/0012021](https://arxiv.org/abs/math/0012021))
+
 see also
 
 * [[Carles Casacuberta]], [[Javier Gutiérrez]], _Homotopical Localizations of Module Spectra_, Transactions of the American Mathematical Society
