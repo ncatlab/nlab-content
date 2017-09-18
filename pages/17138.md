@@ -476,7 +476,21 @@ $$
   \,.
 $$
 
-(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also writes $X \cup_f Y$ and calls this the _attaching space_.
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) 
+
+This is equivalently the [[coequalizer]] of the two morphisms from $A$ to the [[coproduct]] of $X$ with $Y$ (example \ref{DisjointUnionOfTopologicalSpacesIsCoproduct}):
+
+$$
+  A 
+   \stackrel{\longrightarrow}{\longrightarrow}
+  X \sqcup Y
+   \longrightarrow
+  X \sqcup_A Y
+  \,.
+$$
+
+
+If $g$ is an inclusion, one also writes $X \cup_f Y$ and calls this the _attaching space_.
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
 
@@ -529,7 +543,17 @@ $$
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
-As an important special case of example \ref{PushoutInTop}, let 
+An important special case of example \ref{PushoutInTop}: 
+
+For $n \in \mathbb{N}$ write
+
+* $D^n \coloneqq \{ \vec x\in \mathbb{R}^n | \; {\vert \vec x \vert \leq 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-disk]] (equipped with its [[subspace topology]] as a subset of [[Cartesian space]]);
+
+* $S^{n-1} = \partial D^n \coloneqq \{ \vec x\in \mathbb{R}^n | \; {\vert \vec x \vert = 1}\} \hookrightarrow \mathbb{R}^n$ for its [[boundary]], the standard topological [[n-sphere]].
+
+Notice that $S^{-1} = \emptyset$ and that $S^0 = \ast \sqcup \ast$.
+
+Let 
 
 $$
   i_n \colon S^{n-1}\longrightarrow D^n
@@ -1093,12 +1117,6 @@ We consider topological spaces that are built consecutively by attaching basic c
 +-- {: .num_defn #TopologicalGeneratingCofibrations}
 ###### Definition
 
-For $n \in \mathbb{N}$ write
-
-* $D^n \coloneqq \{ \vec x\in \mathbb{R}^n | \; {\vert \vec x \vert \leq 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-disk]] (equipped with its [[subspace topology]] as a subset of [[Cartesian space]]);
-
-* $S^{n-1} = \partial D^n \coloneqq \{ \vec x\in \mathbb{R}^n | \; {\vert \vec x \vert = 1}\} \hookrightarrow \mathbb{R}^n$ for its [[boundary]], the standard topological [[n-sphere]].
-
 Write
 
 $$
@@ -1109,9 +1127,7 @@ $$
   Mor(Top)
 $$
 
-for the set of canonical [[boundary]] inclusion maps. This going to be called the set of standard **topological [[generating cofibrations]]**.
-
-Notice that $S^{-1} = \emptyset$ and that $S^0 = \ast \sqcup \ast$.
+for the set of canonical [[boundary]] inclusion maps of the standard [[n-disks]], example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}. This going to be called the set of standard **topological [[generating cofibrations]]**.
 
 =--
 
@@ -6278,7 +6294,7 @@ Similarly, since $X$ is fibrant, also the [[projection]] map $X \times Y \to Y$ 
 Since the vertical composite is thereby exhibited as the composite of two fibrations
 
 $$
-   \hat X \to X \times Y
+   Path(f) \to X \times Y
     \stackrel{p_2 \circ (f ,Id)}{\longrightarrow}
   Y
   \,,
@@ -6287,11 +6303,13 @@ $$
 it is itself a fibration.
 
 
-Next, by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}, both projections $p_i \colon Path(X)\to X$ are weak equivalences,  By the [[universal property]] of  [[pullbacks]], this induces a right inverse of $\hat X \to X$ fitting into this [[pasting]] diagram
+Next, by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}, both projections $p_i \colon Path(X)\to X$ are weak equivalences,  By the [[universal property]] of  [[pullbacks]], this induces a right inverse of $Path(f) \to X$ fitting into this [[pasting]] diagram
 
 $$
   \array{
-     id_X \colon & X &\underset{\in W}{\longrightarrow}& \hat X &\longrightarrow& X
+     id_X \colon & X &\underset{\in W}{\longrightarrow}
+       & Path(f) &
+     \longrightarrow& X
      \\
      & {}^{\mathrlap{f}}\downarrow && \downarrow && \downarrow^{\mathrlap{f}}
      \\
@@ -6869,6 +6887,25 @@ By prop. \ref{StandardContractionOfStandardInterval}, for $X$ a [[CW-complex]] t
 
 =--
 
++-- {: .num_example #FiberOfFibrationWeaklyEquivalentToFiberOfItsCocylinder}
+###### Example
+
+Suppose a morphism $f \colon X \longrightarrow Y$ already happens to be a fibration between fibrant objects. The [[factorization lemma]] \ref{FactorizationLemma} replaces it by a fibration out of the [[mapping cocylinder]] $Path(f)$, but such that the comparison morphism is a weak equivalence: 
+
+$$
+  \array{
+    fib(f) &\longrightarrow& X &\underoverset{\in Fib}{f}{\longrightarrow}& Y
+    \\
+    \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{id}}
+    \\
+    fib(\tilde f) &\longrightarrow& Path(f) &\underoverset{\in Fib}{\tilde f}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+Hence by lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} in this case the ordinary fiber of $f$ is weakly equivalent to the [[mapping cocone]], def. \ref{MappingConeAndMappingCocone}.
+
+=--
 
 
 We may now state the abstract version of the statement of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}:
