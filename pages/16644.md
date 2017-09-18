@@ -1,0 +1,9 @@
+For $k$ a [[natural number]] and $x$ an element of a (unital) [[ring]], the **falling factorial** $(x)_k$ (also sometimes written $x^{\underline{k}}$) is defined by
+
+$$(x)_k = x(x-1)\ldots (x-k+1).$$ 
+
+If $X$ and $Y$ are two [[finite sets]] of [[cardinalities]] $|X| = k$ and $|Y| = n$, then the falling factorial $(n)_k$ counts the number of [[injections]] from $X$ to $Y$.
+
+## References
+
+* [Falling Factorial](http://mathworld.wolfram.com/FallingFactorial.html) on Wolfram MathWorld.
