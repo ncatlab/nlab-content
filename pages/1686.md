@@ -372,8 +372,8 @@ Moreover
 
    $$
      0 \to (R^1 G)(F(A)) \to R^1(G \circ F)(A)
-      \to F(R^1(G(A)))
-      \to (R^2 F)(G(A))
+      \to G(R^1(F(A)))
+      \to (R^2 G)(F(A))
       \to R^2(G \circ F)(A)
    $$
 
