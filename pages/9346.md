@@ -124,7 +124,7 @@ and for the [[superstring]], as found in [Polchinski 01, volume 2, equation (12.
 
 This is the equation that defines [[perturbative string theory]].
 
-And this is of just the same form as as the Feynman [[perturbation series]] in local [[quantum field theory]], the only difference being that the latter is _more complicated_: there one has to some over [[Feynman diagrams]] with labeling for all intermediate particles ([[virtual particles]]) and with some arbitrary "cutoff" to make the integrals well defined, whereas here we simply sum over all [[super Riemann surfaces]]. The different intermediate [[virtual particles]] as well as the [[renormalization]] counterterms are all taken care of by the higher string modes, encoded in the worldsheet CFT correlators.
+And this is of just the same form as as the Feynman [[perturbation series]] in local [[quantum field theory]], the only difference being that the latter is _more complicated_: there one has to sum over [[Feynman diagrams]] with labeling for all intermediate particles ([[virtual particles]]) and with some arbitrary "cutoff" to make the integrals well defined, whereas here we simply sum over all [[super Riemann surfaces]]. The different intermediate [[virtual particles]] as well as the [[renormalization]] counterterms are all taken care of by the higher string modes, encoded in the worldsheet CFT correlators.
 
 There was a time in the 1960s, when [[quantum field theory|quantum field theorists]] around [[Geoffrey Chew]] proposed that precisely such formulas for [[S-matrix]] elements should be exactly what defines a quantum field theory, this and nothing else. The idea was to do away with an explicit concept of [[spacetime]] and local interactions, and instead declare that all there is to be said about physics is what is seen by particles that probe the physics by scattering through it. This is an intrisically quantum approach, where there need not be any classical [[action functional]] defined in terms of [[spacetime]] geometry. Instead, all there is a formula for the outcome of scattering experiments.
 
@@ -135,14 +135,16 @@ But fashions come and go, and the original idea of [[Geoffrey Chew]] and the [[S
 Ironically, more recently, the [[S-matrix]]-perspective also becomes fashionable again in [[Yang-Mills theory]] itself, with people noticing that [[scattering amplitudes]] at least in [[super Yang-Mills theory]] have good properties that are essentially invisible when expressing them as vast sums of [[Feynman diagram]] contributions as obtained from the [[action functional]]. For more on this see at _[[amplituhedron]]_.
 
 
-On the other hand, there _is_ also an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering: this is called [[string field theory]], and this again is given by [[equations of motion]]. For instance the equations of motion of closed bosonic string field theory are of the form
+On the other hand, there _is_ also an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering: this is called [[string field theory]], and this again is given by [[equations of motion]]. For instance the equations of motion of closed string field theory are of the form
 
 $$
-  Q \Psi + \tfrac{1}{2} \psi \star \psi + \tfrac{1}{6} \psi \star \psi \star \psi + \cdots = 0
+  Q \psi + \tfrac{1}{2} \psi \star \psi + \tfrac{1}{6} \psi \star \psi \star \psi + \cdots = 0
   \,,
 $$
 
-where $\Psi$ is the string field, $Q$ is the [[BRST complex|BRST operator]] and $\star$ is the string field star product.
+where $\Psi$ is the string field, $Q$ is the [[BRST complex|BRST operator]] and $\star$ is the string field star product.  
+
+(For the [[bosonic string]] this is due to [Zwiebach 92, equation (4.46)](string+field+theory#Zwiebach), for the [[superstring]] this is in [Sen 15 equation (2.22)](string+field+theory#Sen15)).
 
 The string field $\Psi$ has infinitely many components, one for each excitation mode of the string. Its lowest excitations are the modes that correspond to massless [[fundamental particles]], such as the [[graviton]]. Expanding the equations of motion of string field theory in mode expansions ("level expansion") does reproduce the equations of motions of these fields as a [[perturbation series]] around a background solution and together with [[higher curvature corrections]].
 
