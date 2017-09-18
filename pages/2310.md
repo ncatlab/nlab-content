@@ -55,7 +55,7 @@ There is an analogue of the [[Landweber exact functor theorem]] for [[even cohom
 
 * [[MP]]
 
-* [[elliptic cohmology]]
+* [[elliptic cohomology]]
 
 * [[Morava E-theory]]
 
