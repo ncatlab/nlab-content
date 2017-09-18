@@ -389,6 +389,10 @@ Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ 
 
 ## References
 
+Textbook accounts include
+
+* John Lee, _Introduction to topological manifolds_, Graduate Texts in Mathematics, Springer (2000) (errata [pdf](https://sites.math.washington.edu/~lee/Books/ITM/errata.pdf))
+
 See also
 
 * Wikipedia, _[Topological manifold](https://en.wikipedia.org/wiki/Topological_manifold)_
