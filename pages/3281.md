@@ -20,12 +20,13 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 A _stable model category_ is a 1-[[category]] structure used to present a [[stable (∞,1)-category]] in analogy to how a general [[model category]] encodes a general [[(∞,1)-category]].
+
 
 ## Defintion
 
@@ -43,12 +44,19 @@ A **stable model category** $C$ is
 
 ## Properties
 
-### Characterization
+### Relation to stable $\infty$-categories
 
-+-- {: .num_prop}
+Stabilization of model categories is a model for the abstractly defined [[stabilization]] in [[(infinity,1)-category theory]] ([Robalo 12, prop. 4.15](#Robalo12)).
+
+
+### As $A_\infty$-algebroid module categories
+ {#AsCategoriesOfModules}
+
+
++-- {: .num_prop #ModuleProp}
 ###### Proposition
 
-Let $C$ be a _stable model category_ that is in addition
+Let $\mathcal{C}$ be a _stable model category_ that is in addition
 
 * a [[simplicial model category]];
 
@@ -57,46 +65,78 @@ Let $C$ be a _stable model category_ that is in addition
 
 * with a [[set]] $S$ of [[compact object|compact]] generators;
 
-then there is a chain of [[simplicial Quillen adjunction|sSet-enriched]] [[Quillen equivalences]]  linking $C$ to the the [[spectrum]]-[[enriched functor category]] 
+then there is a chain of [[simplicial Quillen adjunction|sSet-enriched]] [[Quillen equivalences]]  linking $\mathcal{C}$ to the the [[spectrum]]-[[enriched functor category]] 
 
 $$
-  C \simeq Sp Cat(\mathcal{E}(S), Sp)
+  \mathcal{C} \simeq_Q A_S Mod \coloneqq Sp Cat(A_S, Sp)
 $$
 
 equipped with the [[global model structure on functors]],
-where $\mathcal{E}(S)$ is the $Sp$-[[enriched category]] given by...
+where $A_S$ is the $Sp$-[[enriched category]] whose set of objects is $S$
 
 =--
-  
-This is theorem 3.3.3 in ([Schwede-Shipley](#SchwedeShipley))
 
+This is  in ([Schwede-Shipley, theorem 3.3.3](#SchwedeShipley))
 
 +-- {: .num_remark}
 ###### Remark
 
-Notice the similarity (but superficial difference: $sSet$/$Sp$-enrichment localization/no-localization) to the **[stable Giraud theorem](stable%20%28infinity,1%29-category#StabGiraud)** discussed at _[[stable (∞,1)-category]]_.
+An $Sp$-enriched category is a homotopy-theoretic analog of an [[Ab-enriched category]], which may be thought of as a many-object version of a [[ring]], a "[[ringoid]]". Accordingly, an $Sp$-enriched category is an $A_\infty$-ringoid. It is has a single object then (as a pointed category) it is an [[A-infinity algebra]].
 
 =--
 
-Moreover, by [Schwede-Shipley 03](#SchwedeShipley03) theorems, 3.1.1, 3.3.3, 3.8.2 stable model categories equivalent (by [[zig-zags]] of [[Quillen equivalences]]) to categories of [[module spectra]] over some [[ring spectrum]]. If that is an [[Eilenberg-MacLane spectrum]], then this identifies the corresponding stable model categories with the [[model structure on unbounded chain complexes]].
+Hence:
 
-### Relation to stable $\infty$-categories
++-- {: .num_corollary}
+###### Corollary
 
-Stabilization of model categories is a model for the abstractly defined [[stabilization]] in [[(infinity,1)-category theory]] ([Robalo 12, prop. 4.15](#Robalo12)).
+If if in prop. \ref{ModuleProp} there is just one compact generator $P \in \mathcal{C}$, then there is a one-object $Sp$-enriched category, hence an [[A-infinity algebra]] $A$, which is the [[endomorphisms]] $A \simeq End_{\mathcal{C}}(P)$, and the stable model category is its [[category of modules]]:
+
+$$
+  \mathcal{C} \simeq_Q A Mod
+  \,.
+$$
+
+
+
+=--
+
+This is  in ([Schwede-Shipley, theorem 3.1.1](#SchwedeShipley))
+
++-- {: .num_remark}
+###### Remark
+
+This may be thought of as a homotopy-theoretic analog of the [[Freyd-Mitchell embedding theorem]] for [[abelian categories]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Hence one way to read this is to say that presentable [[stable infinity-categories]] are a model for ("[[derived noncommutative geometry|derived]]") [[noncommutative geometry]].
+
+=--
+
+
+If $A$ is an [[Eilenberg-MacLane spectrum]], then this identifies the corresponding stable model categories with the [[model structure on unbounded chain complexes]].
+
+This is ([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03)).
+
+
+
+
+
 
 ## References
 
-The standard accounts are
+The classification theorems are due to
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ ([pdf](http://hopf.math.purdue.edu/Schwede-Shipley/class.final.pdf))
- {#SchwedeShipley}
-
-* [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003) 103-153
- {#SchwedeShipley03}
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Classification of stable model categories_ or _Stable model categories are categories of modules_, Topology 42 (2003) 103-153 ([arXiv:0108143](http://arxiv.org/abs/math/0108143))
+ 
 
 Discussion of the notion of stable model categories with the abstract notion of [[stabilization]] in [[(infinity,1)-category theory]] is in section 4.2 (prop. 4.15) of
 
-* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
-  {#Robalo12}
+* {#Robalo12} [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, June 2012 ([arxiv:1206.3645](http://arxiv.org/abs/1206.3645))
+  
 
 [[!redirects stable model categories]]
