@@ -32,20 +32,17 @@
 
   * [structures in differential cohesion](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#StructuresInDifferentialCohesion)
 
+
 $$
-   \array{
-      && && \Re
-      \\
-     && && \bot
-      \\
-      && &#643; & \subset & &#643;_{inf}
-      \\
-      && \bot && \bot 
-      \\
-      \emptyset &\subset& \flat & \subset & \flat_{inf}
-      \\
-      \bot & & \bot && 
-      \\
-      \ast & \subset& \sharp      
-   }
+  \array{
+     \Re &\dashv& &#643;_{inf} &\dashv& \flat_{inf}
+     \\
+      && \vee && \vee
+     \\
+     && &#643; &\dashv& \flat &\dashv& \sharp
+     \\
+     && && \vee && \vee
+     \\
+     && && \emptyset &\dashv& \ast
+  }
 $$
