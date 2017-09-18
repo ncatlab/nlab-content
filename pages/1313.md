@@ -38,7 +38,7 @@ Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]
 $$ Z \times Y \stackrel{u \times id_Y}\to X^Y \times Y \stackrel{ev}\to X $$
 equals $e$.
 
-The map $u$ is known by various names, such as the _exponential transpose_ or *[[currying]]* of $e$.  It is sometimes denoted $\lambda(e)$ in a hat tip to the [[lambda-calculus]], since in the [[internal logic]] of a cartesian closed category this is the operation corresponding to $\lambda$-abstraction.  It is also sometimes denoted $e^\flat$, being an instance of the more general notion of [[adjunct]] or [[mate]].
+The map $u$ is known by various names, such as the _exponential transpose_ or *[[currying]]* of $e$.  It is sometimes denoted $\lambda(e)$ in a hat tip to the [[lambda-calculus]], since in the [[internal logic]] of a cartesian closed category this is the operation corresponding to $\lambda$-abstraction.  It is also sometimes denoted $e^\flat$ (as in music notation), being an instance of the more general notion of [[adjunct]] or [[mate]].
 
 As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].  It can also be characterized as a [[distributivity pullback]].
 
