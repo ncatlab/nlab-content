@@ -13,8 +13,8 @@ Consider the following table.  The basic thesis of this page is that, if you are
 
 | Category theory | Order theory |
 | - | - |
+| [[category]] | [[poset]] |
 | [[strict category]] | [[proset]] |
-| [[skeletal category]] | [[poset]] |
 | [[groupoid]] | [[set]] |
 | [[functor]] | [[monotone function]] |
 | [[limit]] | [[meet]] |
