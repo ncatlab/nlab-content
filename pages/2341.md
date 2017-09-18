@@ -29,25 +29,6 @@ Let $C,D$ be [[2-categories]] and $F,G:C\to D$ be [[functors]].  An **icon** $\a
 If $D$ is a [[strict 2-category]] (or at least strictly unital), then an icon is identical to an [[oplax natural transformation]] whose 1-cell components are identities.  In general, there is a bijection between icons and such oplax natural transformations, obtained by pre- and post-composing with the unit constraints of $D$.  The name "icon" derives from this correspondence: it is an Identity Component Oplax Natural-transformation.
 
 
-### For enriched 2-categoris
-
-Icons have recently been used (cf. ([Garner-Shulman 16, sections 3 and 4](#GarnerShulman16)) for constructions in the context of general $\mathcal{V}$-enriched bicategories. (We recall that this is more general than the definition given above in that, roughly speaking, the categories can be enriched in an arbitrary monoidal category, and that moreover the composition-axioms need not hold strictly, but only up to coherent specified 2-isomorphisms).
-
-Even though part of this is already documented on the nLab, to make this article self-contained (within reason), and to fix some notation for later use, we first recall the notion of $\mathcal{V}$-functors, more or less consistently with the notation above.  
-
-Definition ($\mathcal{V}$-functor). 
-
-Let $\mathcal{V}$ be any monoidal category.
-Let $C,D$ be $\mathcal{V}$-[[enriched bicategories]]. 
-Then a $\mathcal{V}$-functor $F:C\rightarrow D$ consists of the following data:
-
-* a class-function $Ob(C)\rightarrow Ob(D)$
-
-* for each pair $o_0,o_1$ of objects of $C$, a morphism $C(o_0,o_1)\overset{F_{o_0,o_1}}{\rightarrow}D(F(o_0),F({o_1}))$ of the category $\mathcal{V}$
-
-* for each object $o$ of $C$ and for each triple $o_0,o_1,o_2$ of objects of $C$, the following 2-morphisms (ensuring that the functoriality-morphisms are compatible with the unit- and composition morphisms).
-
-(... to be continued ...)
 
 ## Applications
 
