@@ -93,7 +93,7 @@ This is actually a special case of the entropy of a probability space, since the
 
 Yet more specially, the __entropy__ of a [[finite set]] $X$ is the entropy of $X$ equipped with the uniform discrete probability measure; we find
 \[ \label{Boltzmann} H_{unif}(X) = -\sum_{i \in X} \log((\frac{1}{|X|})^{\frac{1}{|X|}}) = \log {|X|} ,\]
-which is probably the earliest mathematical formula for entropy, due to Boltzmann.  (Its [physical interpretation](#physical) appears below.)
+which is probably the best known mathematical formula for entropy, due to [[Max Planck]], who attributed it to [[Ludwig Boltzmann]].  (Its [physical interpretation](#physical) appears below.)
 
 Of all probability measures on $X$, the uniform measure has the [[maximum entropy]].
 
@@ -156,7 +156,9 @@ As hinted above, any probability distribution on a [[phase space]] in [[classica
 
 Instead, physicists use *coarse-grained* entropy, which corresponds mathematically to taking the entropy of a $\sigma$-algebra much smaller than the $\sigma$-algebra of all measurable sets.  Given a classical system with $N$ microscopic degrees of freedom, we identify $n$ macroscopic degrees of freedom that we can reasonably expect to measure, giving a map from $\mathbb{R}^N$ to $\mathbb{R}^n$ (or more generally, a map from an $N$-dimensional microscopic phase space to an $n$-dimensional macroscopic phase space). Then the $\sigma$-algebra of all measurable sets in $\mathbb{R}^n$ [[pullback|pulls back]] to a $\sigma$-algebra on $\mathbb{R}^N$, and the __macroscopic entropy__ of a statistical state is the entropy of this $\sigma$-algebra.  (Typically, $N$ is on the order of [[Avogadro constant|Avogadro's number]], while $n$ is rarely more than half a dozen, and often as small as $2$.)
 
-Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$, which results in the [[maximum entropy]].  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
+If we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$, then this results in the [[maximum entropy]].  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
+
+A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all possible mixed microstates (that is all possible probability distributions on the space $\mathbb{R}^N$ of pure microstates) whose [[expectation values]] of total energy and other [[extensional quantities]] (among those that are functions of the macrostate) match the given pure macrostate (point in $\mathbb{R}^n$).  We pick that with the [[maximum entropy]].  If this is a [[thermal state]], then we say that the macrostate has a [[temperature]].
 
 
 ### Gravitational entropy
@@ -177,6 +179,7 @@ Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure s
 
 ## References
 {#References}
+
 
 ### General
  {#ReferencesGeneral}
@@ -229,4 +232,5 @@ Entropy-like quantities appear in the study of many PDEs, with entropy estimates
 * L. C. Evans, _A survey of entropy methods for partial differential equations_, [pdf](http://math.berkeley.edu/~evans/ams.entropy.pdf); (and longer course text:) _Entropy and partial differential equations_, [pdf](http://math.berkeley.edu/~evans/entropy.and.PDE.pdf)
 
 
+[[!redirects entropy]]
 [[!redirects entropies]]
