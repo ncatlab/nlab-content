@@ -35,7 +35,7 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * Gray is actually a monoidal [[model category]] (that is, a model category with a monoidal structure that interacts well with the model structure), which 2Cat with the cartesian product is not.  In particular, the cartesian product of two cofibrant 2-categories need not be cofibrant.  This is another precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
-* The cartesian monoidal structure is sometimes called the "black"  product, since the square $2\times 2$ is "completely filled in" (i.e. it commutes).  There is another "white" tensor product in which the square $2\Box 2$ is "not filled in at all" (doesn't commute at all), and the "gray" tensor product is in between the two (the square commutes up to an isomorphism).  This is a pun on the name of John Gray who gave his name to the Gray tensor product.
+* The cartesian monoidal structure is sometimes called the "black"  product, since the square $2\times 2$ is "completely filled in" (i.e. it commutes).  There is another "white" tensor product in which the square $2\Box 2$ is "not filled in at all" (doesn't commute at all), and the "gray" tensor product is in between the two (the square commutes up to an isomorphism).  This is a pun on the name of John Gray who gave his name to the Gray tensor product.  The "white" tensor product is also called the "funny" tensor product.
 
 * There are generalizations to [[higher category theory|higher categories]] of the Gray tensor product. In particular there is a tensor product on [[strict omega-category|strict omega-categories]] -- the [[Crans-Gray tensor product]] -- which is such that restricted to strict 2-categories it reproduces the Gray tensor product.
 
@@ -60,5 +60,9 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 A general theory of lax tensor products, unifying Gray tensor products with the [[Crans-Gray tensor product]] is in 
 
 * [[Michael Batanin]], [[Denis-Charles Cisinski]], [[Mark Weber]], _Multitensor lifting and strictly unital higher category theory_ ([arXiv:1209.2776](http://arxiv.org/abs/1209.2776))
+
+A proof that the Gray tensor product does form a monoidal structure, based only on its universal property, is in
+
+* [[John Bourke]], [[Nick Gurski]], *The Gray tensor product via factorisation*, [arXiv](http://arxiv.org/abs/1508.07789)
 
 [[!redirects Gray]]
