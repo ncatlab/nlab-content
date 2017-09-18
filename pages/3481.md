@@ -68,7 +68,7 @@ In
 * [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
 
-WISC is called the "axiom of multiple choice".
+[[WISC]] is called the "axiom of multiple choice".
 
 
 category: foundational axiom
