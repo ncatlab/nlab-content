@@ -38,7 +38,7 @@ But monads have plenty of further uses. They are as ubiquituous (sometimes in di
 ### Relation to monads in category theory
  {#RelationToMonadsInCategoryTheory}
 
-In [[computer science]], a programming language may be formalised or studied by means of a [[category]], called the _[[syntactic category]]_ $\mathcal{C}$, whose 
+In [[computer science]], a [[programming language]] may be formalised or studied by means of a [[category]], called the _[[syntactic category]]_ $\mathcal{C}$, whose 
 
 * [[objects]] $X \in \mathcal{C}$ are the [[types]] of the language, 
 
@@ -49,16 +49,16 @@ This point of view (see _[[computational trinitarianism]]_) is particularly usef
 Under this [[relation between type theory and category theory]] monads on the type system in the sense of computer science are [[monad|monads in the sense of category theory]], being certain [[endofunctors]] 
 
 $$
-  T : \mathcal{C} \to \mathcal{C}
+  T \colon \mathcal{C} \longrightarrow \mathcal{C}
 $$
 
 on the [[syntactic category]]. This [[functor]]
 
 1. sends each [[type]], hence [[object]] $X \in \mathcal{C}$ to another object $T(X)$;
 
-1. the unit [[natural transformation]] $\epsilon : Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a component [[morphism]] $pure_X : X \to T(X)$;
+1. the unit [[natural transformation]] $\epsilon \colon Id_{\mathcal{C}} \Rightarrow T$ of the [[monad]] $T$ provides for each type $X$ a component [[morphism]] $pure_X : X \to T(X)$;
 
-1. the _multiplication_ [[natural transformation]] $\mu : T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \to T(X)$ which induces the [[Kleisli composition]] by the formula
+1. the _multiplication_ [[natural transformation]] $\mu \colon T \circ T \Rightarrow T$ of the monad provides for each object $X$ a morphism $\mu_X : T(T(X)) \to T(X)$ which induces the [[Kleisli composition]] by the formula
 
   $$
     \begin{aligned}
@@ -82,11 +82,18 @@ The monads arising this way in computer science are usually required also to int
 
 The 'bind' operation is a means of describing multiplication on such a strong monad $M$. It is a term of the form $M A \to (M B)^A \to M B$, which is equivalent to a map of the form $M A \times M B^A \to M B$. It is the composite 
 
-$$M A \times M B^A \stackrel{strength}{\to} M(A \times M B^A) \stackrel{M eval_{A, M B}}{\to} M M B \stackrel{m B}{\to} M B$$ 
+$$
+  M A \times M B^A 
+    \stackrel{strength}{\to} 
+  M(A \times M B^A) 
+    \stackrel{M eval_{A, M B}}{\to} 
+  M M B 
+    \stackrel{m B}{\to} M B
+$$ 
 
-where $m: M M \to M$ is the monad multiplication.
+where $m \colon M M \to M$ is the monad multiplication.
 
-When monads are defined in Haskell, the Kleisli composition, 'bind', is defined in Haskell. So monads in Haskell are always enriched monads, according to the self-enrichment defined by the function type in Haskell.
+When monads are defined in [[Haskell]], the Kleisli composition, 'bind', is defined in Haskell. So monads in Haskell are always [[enriched monads]], according to the self-enrichment defined by the function type in Haskell.
 
 ## Examples
  {#Examples}
@@ -141,6 +148,10 @@ Another approach to modelling side effects in [[functional programming languages
 Another generalization is 
 
 * [[arrow (in computer science)]]
+
+There is also
+
+* [[monad (in linguistics)]]
 
 ## References
 
