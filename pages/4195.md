@@ -21,7 +21,7 @@
 
 The _coherence theorem for [[monoidal categories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
 
-1. Every diagram in a [[monoidal category]] made up of [[associators]] and [[unitors]] which is "formal" commutes.
+1. Every "formal" diagram in a [[monoidal category]] made up of [[associators]] and [[unitors]] commutes.
 
 1. Every diagram in a *free* monoidal category made up of associators and unitors commutes.
 
