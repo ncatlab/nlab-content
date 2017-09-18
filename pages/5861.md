@@ -711,6 +711,7 @@ For $X\in \mathbf{H}_{th}$ we say that
 
 
 
+
   we call the **constant infinitesimal path inclusion**.
 
 * $\Re(X)$ is the **[[reduced cohesive ∞-groupoid]]** underlying
@@ -1179,6 +1180,7 @@ is said to **exhibit the differential structure** or
 
 $$
   L_{\{D_\alpha\}_\alpha} \mathbf{H}_{th}
+
   \stackrel{\leftarrow}{\hookrightarrow}
   \mathbf{H}_{th}
 $$
@@ -2690,7 +2692,7 @@ Something analogous to the notion of [[infinity-connected (infinity,1)-site|∞-
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
 
-The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\Re \dashv \Im \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3 there.
+The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\Re \dashv \Im \dashv \&)$ is essentially discussed in section 3 there.
 
 The characterization of infinitesimal extensions and formal smoothness by adjoint functors (in 1-[[category theory]]) is considered in
 
