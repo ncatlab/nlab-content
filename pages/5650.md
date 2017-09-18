@@ -406,6 +406,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[A-∞ algebra]]
 
+* [[stable Dold-Kan correspondence]]
+
 
 ### 8.2 Properties of rings and modules
 
