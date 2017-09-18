@@ -811,7 +811,7 @@ $$
   \to 
   \mathbf{B}^n \mathbb{R}//\mathbb{Z}
   \to 
-  \mathbf{B}^{n+1}\mathbf{B} \mathbb{Z}
+  \mathbf{B}^{n+1} \mathbb{Z}
   )
   \;\;\;
   =
