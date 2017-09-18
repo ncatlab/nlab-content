@@ -61,6 +61,10 @@ respectively, where $e$ stands for the unique morphism to the terminal object an
 
 ## Related concepts
 
+* [[monoidal category]]
+
+* [[symmetric monoidal category]]
+
 * [[cartesian monoidal (∞,1)-category]]
 
 
