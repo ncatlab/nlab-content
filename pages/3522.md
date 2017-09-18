@@ -313,6 +313,8 @@ due to ( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[t
 
 * [[orthogonal calculus]]
 
+* [[Weiss topology]]
+
 ## References
 
 Surveys and introductions include
