@@ -693,7 +693,7 @@ $$
   \,,
 $$
 
-Forms the internal hom in $\mathbf{H}_{/\mathbf{B}GL(n)}$ between the homotopy fiber of that third column formed in $\mathbf{H}_{/\mathbf{B}GL(n)}$, which is the second column (and therefore now does rememeber the $GL(n)$-action on $T \Sigma$) with $\mathbf{orth}$, rememeberting that the result has an $\mathbf{Aut}(T\Sigma)$-action by precomposition.
+forms the internal hom in $\mathbf{H}_{/\mathbf{B}GL(n)}$ between the homotopy fiber of that third column formed in $\mathbf{H}_{/\mathbf{B}GL(n)}$, which is the second column (and therefore now does rememeber the $GL(n)$-action on $T \Sigma$) with $\mathbf{orth}$, rememeberting that the result has an $\mathbf{Aut}(T\Sigma)$-action by precomposition.
 
 
 
