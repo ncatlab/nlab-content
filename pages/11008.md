@@ -16,10 +16,11 @@
 
 ## Idea
 
-_HOL_ (short for [[higher-order logic]]) is a [[proof assistant]]. 
+_HOL_ (short for [[higher-order logic]]) is the main application of the [[proof assistant]] _[[Isabelle]]_. 
 It is based on the [[type theory]] of the [[simply typed lambda calculus]].
 
-A variant is [[HOL Light]]. A successor is _[[Isabelle]]_.
+
+A remotely related variant is [[HOL Light]].
 
 ## References
 
