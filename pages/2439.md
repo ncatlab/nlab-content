@@ -234,7 +234,7 @@ $$
   (-)\cdot (-) : A \otimes A \to A
 $$
 
-that is associative and commutative in the usual sense. Spcifically for the commutativity this means that with $a,b  \in A_{odd}$ we have
+that is associative and commutative in the usual sense. Specifically for the commutativity this means that with $a,b  \in A_{odd}$ we have
 
 $$
   a \cdot b = - b \cdot a
@@ -715,3 +715,12 @@ Discussion of superalgebra as induced from free groupal symmetric monoidal categ
 [[!redirects superalgebras]]
 
 [[!redirects even rules]]
+
+[[!redirects commutative superalgebra]]
+[[!redirects commutative superalgebras]]
+[[!redirects commutative super-algebra]]
+[[!redirects commutative super-algebras]]
+[[!redirects super-commutative superalgebra]]
+[[!redirects super-commutative superalgebras]]
+[[!redirects super-commutative super-algebra]]
+[[!redirects super-commutative super-algebras]]
