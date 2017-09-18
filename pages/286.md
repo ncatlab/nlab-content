@@ -224,6 +224,7 @@ A discussion of the principle of equivalence in the very [[foundations]] of math
 
 * {#CoquandDanielsson} [[Thierry Coquand]], Nils Anders Danielsson, _Isomorphism is equality_ ([pdf](http://www.cse.chalmers.se/~nad/publications/coquand-danielsson-isomorphism-is-equality.pdf))
 
+* {#Awodey14} [[Steve Awodey]], _Structuralism, Invariance, and Univalence_ (2014) ([pdf](https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf))
 
 [[!redirects principle of isomorphism]]
 [[!redirects principle of equivalence]]
