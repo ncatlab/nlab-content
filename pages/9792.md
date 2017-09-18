@@ -631,6 +631,11 @@ We have the following table of relationships.
 Therefore, for [[Banach spaces]] all the notions of "smooth function" collapse, whilst for [[Fréchet spaces]] all of the notions coarser than $\Pi$ collapse.
 
 
+## Related concepts
+
+* [[continuous function]], **differentiable function**, [[continuously differentiable function]], [[smooth function]], [[analytic function]]
+
+
 ## References
 
 * Keller, H. H. (1974). _Differential calculus in locally convex spaces_. Lecture Notes in Mathematics, Vol. 417. Berlin: Springer-Verlag. [MR0440592](http://www.ams.org/mathscinet-getitem?mr=440592)
