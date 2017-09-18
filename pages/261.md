@@ -65,17 +65,17 @@ such that these functions satisfy the _[[simplicial identities]]_.
 
 ### Simplicial sets as spaces built of simplices
 
-* The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the **set of $n$-simplices** in this space, hence the way of mapping a standard $n$-simplex into this spaces.
+* The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the **set of $n$-simplices** in this space, hence the way of mapping a standard $n$-simplex into this space.
 
 * For $S$ a simplicial set, the **face map** 
   $$
-    d_i := S(\delta^i): S_n \rightarrow S_{n-1}
+    d_i \coloneqq S(\delta^i): S_n \rightarrow S_{n-1}
   $$ 
   is dual to the unique injection $\delta^i : [n-1] \rightarrow [n]$ in the category $\Delta$ whose image omits the element $i \in [n]$. 
 
 * Similarly, the **degeneracy map** 
   $$
-    s_i := S(\sigma^i) : S_n \rightarrow S_{n+1}
+    s_i \coloneqq S(\sigma^i) : S_n \rightarrow S_{n+1}
   $$ 
   is dual to the unique surjection $\sigma^i : [n+1] \rightarrow [n]$ in $\Delta$ such that $i \in [n]$ has two elements in its preimage. 
 
@@ -159,14 +159,14 @@ $$
   \,.
 $$
 
-Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin. They depend on lower dimensional features,  (however notice however that a simplicial set by itself is not equipped with any notion of composition of simplices, nor really, therefore, of identities.  See [[quasicategory]] for a kind of simplicial set which does have such notions and [[simplicial T-complex]] for more on the intuitions behind this idea of ''thinness'').
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin. They depend on lower dimensional features,  (however notice however that a simplicial set by itself is not equipped with any notion of composition of simplices, nor really, therefore, of identities.  See [[quasicategory]] for a kind of simplicial set which does have such notions and [[simplicial T-complex]] for more on the intuitions behind this idea of "thinness").
 
 
 ## Examples
 
 ### Directed graphs
 
-A directed graph (with loops and multiple edges allowed, i.e., a [[quiver]]) $E \rightrightarrows V$ is essentially the same thing as a 1-dimensional simplicial set, by taking $S_0 := V$ to be the set of vertices and $S_1 := E \uplus V$ to be the disjoint union of the set of edges with the set of vertices (interpreted as degenerate 1-simplices).
+A directed graph (with loops and multiple edges allowed, i.e., a [[quiver]]) $E \rightrightarrows V$ is essentially the same thing as a 1-dimensional simplicial set, by taking $S_0 \coloneqq V$ to be the set of vertices and $S_1 \coloneqq E \uplus V$ to be the disjoint union of the set of edges with the set of vertices (the latter corresponding to the degenerate 1-simplices).
 
 ### Singular simplices (Yoneda embeddings)
 
