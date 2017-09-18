@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
+* [[Metaphysics (Aristotle)]]
+
 * [[syllogism]]
 
 * [[Science of Logic]]
