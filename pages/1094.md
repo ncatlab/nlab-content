@@ -256,7 +256,7 @@ $$
   \,.
 $$
 
-This means (...) that the above coimit may be computed as two consecutive colimits of the form
+This means (...) that the above colimit may be computed as two consecutive colimits of the form
 
 $$
   {\lim_{\to}}_{\{S(\{U_i\}) \to j(U)\}} PSh_C(S(\{U_i\}), X)
