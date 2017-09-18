@@ -35,13 +35,13 @@ and possibly other principle of classical logic, are not considered by default.
 
 There are other principles that are often associated with classical logic, which still seemed self-evident at a time,
 but maybe less so than the principle of excluded middle. One such is the _[[axiom of choice]]_ or one of its
-equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]] called _[[ZFC]]_ embodies both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
+equivalent incarnations, such as [[Zorn's lemma]]. The presently most popular formal [[foundation of mathematics]] via the [[set theory]], called _[[ZFC]]_, embodies both the [[principle of excluded middle]] as well as the [[axiom of choice]]. In this form classical logic serves as the foundation for _[[classical mathematics]]_. 
 
 
 
 ## Details
 
-Classical logic is the form of [[logic]] usually accepted as standard and traced back (at least) to Aristotle.  The particular features that distinguish classical logic are (perhaps not a complete list):
+The particular features that distinguish classical logic are (perhaps not a complete list):
 
 * a [[distributive lattice]] of logical operations ($\wedge$ and $\vee$);
 * the [[structural rule]]s of weakening, contraction, and (where meaningful) exchange;
@@ -51,7 +51,7 @@ In contrast, [[minimal logic|minimal]], [[intuitionistic logic|intuitionistic]],
 
 In [[category theory]] (and in the [[foundations]] of mathematics generally), intuitionistic logic is most often contrasted to classical logic; the difference is given by the law of [[excluded middle]], which holds classically but not intuitionistically.
 
-## Relate concepts
+## Related concepts
 
 * [[material set theory]]
 
