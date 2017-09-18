@@ -9,7 +9,7 @@ An [[action functional]] for [[sigma model]]s with [[target space]] a [[pseudo-R
 
 ## Properties
 
-The Polyakov action is classically equivalent to the [[Nambu-Goto action]].
+The Polyakov action is classically equivalent to the [[Nambu-Goto action]] (e.g. [Nieto 01, section 2](#Nieto01)).
 
 ## References
 
@@ -19,6 +19,8 @@ The Polyakov action was introduced in
 
   _Quantum geometry of bosonic strings_ , Phys. Lett. B103 (1981) 207;
 
-
   _Quantum geometry of fermionic strings_ , Phys. Lett. B103 (1981) 211
 
+Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac-Born-Infeld action]] is in 
+
+* {#Nieto01} J. A. Nieto, _Remarks on Weyl invariant p-branes and Dp-branes_ ([arXiv:hep-th/0110227](http://arxiv.org/abs/hep-th/0110227))
