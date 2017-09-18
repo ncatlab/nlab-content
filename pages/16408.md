@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **combinatorial map** (or **algebraic map**) is a representation of a graph embedded in a surface (i.e., a [[topological map]]) as a set and a list of permutations acting on that set, with the property that two combinatorial maps are equivalent up to [[conjugation action|conjugation]] if and only if the corresponding graph embeddings are equivalent up to [[homeomorphism]] of the underlying surfaces. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
+A **combinatorial map** is a representation of a graph embedded in a surface (i.e., a [[topological map]]) as a set and a list of permutations acting on that set, with the property that two combinatorial maps are equivalent up to [[conjugation action|conjugation]] if and only if the corresponding graphs are isomorphic by a [[homeomorphism]] of the underlying surfaces. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
 
 ## Oriented maps and hypermaps
 
@@ -35,31 +35,24 @@ Hence, $M$ and $M'$ are [[isomorphic]] as maps if and only there is a bijection 
 
 In the literature, many authors equivalently define a combinatorial map by a pair $(\sigma,\alpha)$ of permutations, since by condition (2) above, the third permutation $\phi$ can always be recovered uniquely as $\phi = \sigma^{-1}\alpha^{-1}$.
 
-### Representation of a graph embedded in an oriented surface
+### Representing an embedded graph as a combinatorial map
 
-Let $\theta$ be an embedding of a [[graph]] $G = (V,E)$ into a [[surface]] $X$ which is [[compact]], [[connected]], [[oriented]], and without [[boundary]].  We can associate a combinatorial map to this topological embedding, which is unique up to isomorphism:
+Let $\theta$ be an embedding of a [[graph]] $G$ with $n$ edges into a [[surface]] $X$ which is [[compact]], [[connected]], [[oriented]], and without [[boundary]] (below we will just call these "oriented surfaces" for short).  We can associate a combinatorial map to this topological embedding, which is unique up to isomorphism:
 
-* $D$ is defined as a set containing $2n$ elements, where $n = |E|$, with a pair of distinct darts $e^+,e^- \in D$ for each $e \in E$.  These darts may be visualized as oriented edges, or alternatively as half-edges (splitting each of the original edges in the middle).
+* $D$ is defined as a set containing $2n$ elements, with a pair of distinct darts $e^+,e^- \in D$ for each edge $e \in G$.  These darts may be visualized as oriented edges, or alternatively as half-edges (splitting each of the original edges in the middle).
 
-* the collection of edges $E$ induces a fixed point-free involution $\alpha$ on $D$, by swapping $e^+$ with $e^-$ for each edge $e \in E$.
+* the collection of edges induces a fixed point-free involution $\alpha$ on $D$, by swapping $e^+$ with $e^-$ for each edge $e \in G$.
 
-* suppose darts are visualized as oriented edges: we will say that a dart $d$ is _incident_ to a vertex $x$ if $x$ is the unique vertex located at the source of $d$.  Then every vertex $x\in V$ determines a cyclic ordering of the darts incident to $x$, by considering (say) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way (which relies on the assumption that $X$ is oriented), each vertex determines a cycle of the permutation $\sigma$.
+* suppose darts are visualized as oriented edges: we will say that a dart $d$ is _incident_ to a vertex $x$ if $x$ is the unique vertex located at the source of $d$.  Then every vertex $x\in G$ determines a cyclic ordering of the darts incident to $x$, by considering (say) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way (which relies on the assumption that $X$ is oriented), each vertex determines a cycle of the permutation $\sigma$.
 
 * similarly, we say that a dart $d$ is incident to a face $f$ (i.e., a connected component of $X \setminus \theta(G)$) if $f$ is the unique face appearing to the left of $d$.  Then each face $f$ determines a cyclic ordering of darts incident to $f$ (corresponding to a clockwise traversal along the perimeter of $f$), and we can combine these disjoint cycles into a single permutation $\phi$.
 
-* by a simple visual argument, it is easy to check that if we start at any dart $d \in D$, then apply the permutation $\sigma$ followed by $\alpha$ followed followed by $\phi$, we always end up back at $d$.
+* if we start at any dart $d \in D$, then apply the permutation $\sigma$ followed by $\alpha$ followed followed by $\phi$, we always end up back at $d$.
 
-### Genus of a combinatorial map
-
-By the previous construction, it is natural to define the **genus** $g$ of a combinatorial map $M = (\sigma,\alpha,\phi)$ using the [[Euler characteristic|Euler-Poincaré formula]],
-
-$$\chi(M) = c(\sigma) - c(\alpha) + c(\phi) = 2-2g$$
-
-where $c(\pi)$ counts the number of cycles in the [[permutation#via_cycle_decompositions|cyclic decomposition]] of $\pi$ (i.e., the number of $\pi$-[[orbits]]).
 
 ### Hypermaps and constellations
 
-The classical definition given above of combinatorial map may be generalized in several directions.  A small but useful generalization is to drop the requirement that $\alpha$ be [[fixed point]] free, while keeping the requirement that it be an [[involution]] (i.e., that $\alpha^2 = id$).  This can be seen as allowing the possibility for the graph to include "dangling edges".  In particular, every $\alpha$-[[orbit]] has length 2 or 1, with orbits of length 2 representing complete edges and orbits of length 1 representing dangling edges.
+There are several directions for generalizing the classical definition. A small but useful generalization is to drop the requirement that $\alpha$ be [[fixed point]] free, while keeping the requirement that it be an [[involution]] (i.e., that $\alpha^2 = id$).  This can be seen as allowing the possibility for the graph to include "dangling edges".  In particular, every $\alpha$-[[orbit]] has length 2 or 1, with orbits of length 2 representing complete edges and orbits of length 1 representing dangling edges.
 
 As a bigger step, it is possible to drop condition (3) altogether:
 
@@ -72,7 +65,7 @@ A **combinatorial hypermap** is a set $D$ equipped with a triple of [[permutatio
 1. the composition of the permutations is the identity: $\phi\alpha\sigma = id$.
 =--
 
-A combinatorial hypermap gives a representation of a topological embedding of a [[hypergraph]] in a connected oriented surface, but (as first noted by Walsh) this turns out to be equivalent to an embedding of an ordinary graph equipped with a [[graph coloring|2-coloring]] of the vertices -- say, in black and white -- such that no two adjacent vertices have the same color. (Such a graph is necessarily [[bipartite]].) The permutations $\sigma$ and $\alpha$ represent the cycles around the black and white vertices, respectively, while $\phi$ as before represents the faces.  Any ordinary map with all black vertices can be turned into hypermap by adding a white vertex in the middle of each edge (this goes well with the view of darts as half-edges), and from that perspective, the definition of hypermap simply correspond to lifting the restriction that white vertices have degree 2.
+A combinatorial hypermap gives a representation of a topological embedding of a [[hypergraph]] in a oriented surface, but (as first noted by Walsh) this turns out to be equivalent to an embedding of an ordinary graph equipped with a [[graph coloring|2-coloring]] of the vertices -- say, in black and white -- such that no two adjacent vertices have the same color. (Such a graph is necessarily [[bipartite]].) The permutations $\sigma$ and $\alpha$ represent the cycles around the black and white vertices, respectively, while $\phi$ as before represents the faces.  Any ordinary map with all black vertices can be seen as a hypermap with a white vertex in the middle of each edge (this goes well with the view of darts as half-edges), and from that perspective, the definition of hypermap simply correspond to lifting the restriction that white vertices have degree 2.
 
 Both of these generalizations of the standard notion of combinatorial map are studied in the literature on so-called [[dessins d'enfants]], sometimes using the following terminology to distinguish the different cases:
 
@@ -93,8 +86,6 @@ A **k-constellation** is a set $D$ equipped with a $k$-[[tuple]] of [[permutatio
 1. the composition of the permutations is the identity: $\alpha_k\dots\alpha_1 = id$.
 =--
 
-The definition of the genus of a combinatorial map may be generalized appropriately to hypermaps and constellations.
-
 ### Fixed vertex/edge/face degrees
 
 If one adds, say, the condition that
@@ -107,7 +98,23 @@ to the definition of combinatorial map, then the resulting class of permutations
 
 gives a way of representing arbitrary [[triangulations]] of oriented surfaces.  Analogous to what we saw above in the case of the edge involution $\alpha$, dropping the condition that $\sigma$ or $\phi$ be fixed point free also allows for the possibility of degenerate vertices/faces of degree 1.
 
-More generally, we can say (following [Jones and Singerman 94](#JonesSingerman94)) that a hypermap has type $(p,q,r)$ if the permutations $\sigma$, $\alpha$, and $\phi$ have [[order#in_the_sense_of_group_theory|order]]s $p$, $q$, and $r$ respectively.  This algebraic condition translates to the topological condition that $p$, $q$, and $r$ are the [[least common multiple]]s of the degrees of the hypervertices, hyperedges, and hyperfaces, respectively.
+More generally, we can say that a map has type $(m,n)$ if the permutations $\sigma$ and $\phi$ have [[order#in_the_sense_of_group_theory|order]]s $m$ and $n$ respectively (allowing for the possibility that $m = \infty$ or $n = \infty$ in the case where the set of darts is infinite).  This algebraic condition translates to the geometric condition that $m$ is the [[least common multiple]] of the degrees of the vertices of the map, and $n$ is the least common multiple of the degrees of the faces.
+
+### Realizing a combinatorial map as a graph embedded in a Riemann surface
+
+Conversely, any combinatorial map $M = (D,(\sigma,\alpha,\phi))$ can be realized as a graph embedded in a surface, in other words as a [[topological map]].  The first explicit algorithm for computing such an embedding was given by [Edmonds 1960](#Edmonds60).
+
+The underlying graph $G$ of $M$ is easy to describe using the "Serre" definition of a graph (as explained [[graph#definition_in_terms_of_action_on_a_set_of_halfedges|here]]) $G = (H,V,i,s)$.  The set of half-edges $H$ and the involution $i$ are just $D$ and $\alpha$, respectively, while the set of vertices $V$ is the set of $\sigma$-orbits, and the function $s : H \to V$ sends any dart to its orbit under $\sigma$.
+
+Some more work is required in order to define a surface and an embedding of $G$ into that surface.  [Jones and Singerman 1978](#JonesSingerman78) actually proved a stronger result than Edmonds' algorithm, showing that any combinatorial map (of finite type $(m,n)$) can be realized as a graph embedded in a [[Riemann surface]].  As a corollary, this implies that any topological map (on a compact oriented surface without boundary) is isomorphic to some canonical map on a Riemann surface.
+
+### Genus of a combinatorial map
+
+The **genus** $g$ of a combinatorial map $M = (\sigma,\alpha,\phi)$ can be defined directly using the [[Euler characteristic|Euler-Poincaré formula]],
+
+$$\chi(M) = c(\sigma) - c(\alpha) + c(\phi) = 2-2g$$
+
+where $c(\pi)$ counts the number of cycles in the [[permutation#via_cycle_decompositions|cyclic decomposition]] of $\pi$ (i.e., the number of $\pi$-[[orbits]]).  This definition of genus agrees with the genus of the underlying surface of the embedded graph associated to $M$.
 
 ## The category of oriented maps
 
@@ -122,9 +129,9 @@ The **category of combinatorial maps** $CM$ is defined as follows:
 * morphisms $(D,(\sigma,\alpha,\phi)) \to (D',(\sigma',\alpha',\phi'))$ are functions $h : D \to D'$ such that $h\sigma = \sigma' h$, $h\alpha = \alpha' h$, and $h\phi = \phi' h$.
 =--
 
-The category $CM$ was defined by [Jones and Singerman 78](#JonesSingerman78) essentially as above (though it is called $AM$, standing for "algebraic maps").  Specifically, Jones and Singerman take this category to include combinatorial maps in which the involution $\alpha$ may contain fix points.
+The category $CM$ was defined by [Jones and Singerman 1978](#JonesSingerman78) essentially as above (they call it $AM$ for "algebraic maps").  Specifically, Jones and Singerman take this category to include combinatorial maps in which the involution $\alpha$ may contain fix points.
 
-+-- {: .num_thm}
++-- {: .num_proposition}
 ###### Proposition
 $CM$ is a [[concrete category]], with a faithful functor $U : CM \to Set$ which sends any combinatorial map $(D,(\sigma,\alpha,\phi))$ to its underlying set of darts $D$, and any homomorphism of maps $h : M \to M'$ to a function $h : D \to D'$ between the underlying sets of darts.
 =--
@@ -133,7 +140,7 @@ $CM$ is a [[concrete category]], with a faithful functor $U : CM \to Set$ which 
 
 We note that the following property of $CM$ relies on allowing maps with dangling edges.
 
-+-- {: .num_thm}
++-- {: .num_proposition}
 ###### Proposition
 The set $1 = \{ * \}$ equipped with the triple of identity permutations $\sigma = \alpha = \phi = id_1$ is a map, and is a [[terminal object]] in $CM$.
 =--
@@ -147,20 +154,25 @@ The set $1 = \{ * \}$ equipped with the triple of identity permutations $\sigma 
 The **oriented cartographic group** $\mathcal{C}_2^+$ is the group generated by three elements $\rho_0,\rho_1,\rho_2$ satisfying the relations $\rho_1^2 = \rho_0\rho_1\rho_2 = 1$.
 =--
 
-+-- {: .num_thm}
++-- {: .num_proposition}
 ###### Proposition
 The oriented cartographic group is isomorphic to a [[free product of groups|free product]] of the integers with the integers modulo 2, $\mathcal{C}_2^+ \cong \mathbb{Z} \star \mathbb{Z}_2$.
 =--
 
 Every combinatorial map is a $\mathcal{C}_2^+$-set, i.e., a set equipped with an action of the oriented cartographic group.  In fact, $CM$ is just the [[full subcategory]] of $\mathcal{C}_2^+Set$ consisting of sets equipped with a [[transitive action]] of $\mathcal{C}_2^+$.
 
-For any given map $M$ with underlying set of darts $D$ we will denote this action by
++-- {: .num_remark}
+###### Remark
+The [[moebius transformation#abstract_structure_of_modular_group|modular group]] $PSL_2(\mathbb{Z}) \cong \mathbb{Z}_3 \star \mathbb{Z}_2$ is a subgroup of the oriented cartographic group.  Sets equipped with a transitive action of $PSL_2(\mathbb{Z})$ are the same thing as trivalent combinatorial maps, which represent trivalent graphs (possibly including degeneracies) embedded in oriented surfaces (or dually, triangulations of oriented surfaces).
+=--
+
+For any given map $M$ with underlying set of darts $D$ we will denote the action of the oriented cartographic group by
 
 $$*_M : D \times \mathcal{C}_2^+ \to D,$$
 
 omitting subscripts when clear from context.  The fact that $\mathcal{C}_2^+$ acts transitively on $D$ corresponds to the topological condition that the graph represented by $M$ is connected.  As we will see, this places strong restrictions on possible morphisms between maps:
 
-+-- {: .num_thm}
++-- {: .num_proposition}
 ###### Proposition
 A morphism $h : M_1 \to M_2$ of combinatorial maps is entirely determined given the image of a single dart $h(d_1) \in D_2$.
 =--
@@ -171,7 +183,7 @@ A morphism $h : M_1 \to M_2$ of combinatorial maps is entirely determined given 
 Let $d_1' \in D_1$.  By assumption of transitivity, there exists a word $w \in \mathcal{C}_2^+$ such that $d_1' = d_1 *_1 w$.  Hence $h(d_1') = h(d_1 *_1 w) = h(d_1) *_2 w$.
 =--
 
-+-- {: .num_thm}
++-- {: .num_proposition}
 ###### Proposition
 If $h : M_1 \to M_2$ is a morphism of combinatorial maps and $D_1$ is [[inhabited]], then the underlying function $h : D_1 \to D_2$ is a [[surjection]].
 =--
@@ -207,7 +219,7 @@ Note that $CM_\bullet$ is equivalent to the [[comma category]] $1 \downarrow U$ 
 
 Tutte's observation that rooted maps have no symmetries can be formulated as follows:
 
-+-- {: .num_thm}
++-- {: .num_proposition}
 ###### Proposition
 Let $h : (M,r) \to (M,r)$ be an endomorphism of $(M,d)$ in the category of rooted maps $CM_\bullet$.  Then $h$ is the identity morphism.
 =--
@@ -230,7 +242,7 @@ Let $d \in D$ be any dart of $M$.  Since the action of $\mathcal{C}_2^+$ is tran
 
 ## References
 
-* J. Edmonds (1960), A combinatorial representation for polyhedral surfaces, _Notices Amer. Math. Soc._ 7, 646.
+* {#Edmonds60} J. Edmonds (1960), A combinatorial representation for polyhedral surfaces, _Notices Amer. Math. Soc._ 7, 646.
 
 * A. Jacques (1970), Constellations et graphes topologiques, _Colloque Math. Soc. Janos Bolyai_, 657-672.
 
