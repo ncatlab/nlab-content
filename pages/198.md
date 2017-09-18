@@ -29,7 +29,7 @@ The notion of a [[group]] of 'operators' was already being used in about 1832 in
 
 (see the article on [The abstract group concept](http://www-history.mcs.st-and.ac.uk/HistTopics/Abstract_groups.html) in the St Andrews History of Mathematics archive.) Groups as well behaved sets of functions were beginning to be well understood and used, for instance in Klein's work on geometry. Cayley proved that every finite group could be realised as a group of permutations. The theory of representations grew from that.
 
-An abstract group could be studied by mapping it into a group of permutations or of invertible matrices, as then you could bring techniques form one area of mathematics (linear algebra) to the assistance of another, the Theory of Abstract Groups. This was exploited fully by Frobenius, Burnside, Schur and later Bauer.
+An abstract group could be studied by mapping it into a group of permutations or of invertible matrices, as then you could bring techniques from one area of mathematics (linear algebra) to the assistance of another, the Theory of Abstract Groups. This was exploited fully by Frobenius, Burnside, Schur and later Bauer.
 
 That is one theme: you take an abstract algebraic thing and study it by mapping it into a similar structure which you think you know more about!
 
