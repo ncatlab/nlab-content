@@ -50,6 +50,10 @@ You may also find me on
 * _Mapping groupoids of Lie groupoids and the bundle 
 gerbe caloron transform_, joint with Raymond Vozzo.
 
+## Review ##
+
+* _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21.
+Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 5 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2014/Nov14/BkRev.pdf))
 
 ## Talks ##
 
