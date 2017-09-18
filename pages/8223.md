@@ -51,7 +51,20 @@ The category $SimpGph$ has very good properties. For example,
 $SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular category]] and even a [[logos]]. It is also $\infty$-[[extensive category|extensive]]. 
 =-- 
 
-See for example [Adamek and Herrlich](#AdamHerr). 
++-- {: .proof} 
+###### Proof 
+(See also [Adamek and Herrlich](#AdamHerr).) Let $C$ be the category of sets (or cardinality) $1$ and $2$ and functions between them. A presheaf on $C$ is a directed reflexive (multi)graph equipped with a direction-reversing involution on the set of edges. For this presheaf topos, there is just one nontrivial $\neg\neg$-dense sieve, namely the inclusion 
+
+$$(s, t): \hom(-, 1) + \hom(-, 1) \to \hom(-, 2)$$ 
+
+and so the category of $\neg\neg$-[[separated presheaves]] is equivalent to the category of presheaves $X$ such that the induced map 
+
+$$X(2) \cong Set^{C^{op}}(\hom(-, 2), X) \stackrel{(s, t)^\ast}{\to} Set^{C^{op}}(\hom(-, 1) + \hom(-, 1), X) \cong X(1) \times X(1),$$ 
+
+which is the source-target pairing $X(2) \to X(1) \times X(1)$, is monic. Such a structure is tantamount to a set $V = X(1)$ equipped with a reflexive symmetric binary relation. On the other hand, a Grothendieck quasitopos is, essentially by definition, the category of separated presheaves for a topology on a presheaf topos, in this case the $\neg\neg$-topology. 
+
+Being a quasitopos with small coproducts, it is $\infty$-extensive provided that coproducts are disjoint. However, this is trivial to check (it even suffices to check, according to [[Elephant]] 2.6.5, that $0 \to 1$ is a [[regular monomorphism]], or that $1 + 1$ is a disjoint coproduct, which it obviously is). 
+=-- 
 
 It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $Vert \colon SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. We have two easy results:  
 
