@@ -23,7 +23,7 @@ The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 
 
 ## Definition
 
-A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|garded]] [[pointed object|pointed]] [[simplicial set]] $X_\bulllet$ equipped with morphisms $S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$. A [[homomorphism]] $f\colo X \to Y$ of spectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of simplicial sets, such that its makes all the evident square diagrams with the structure maps commute.
+A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$. A [[homomorphism]] $f\colo X \to Y$ of spectra is a collection $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of simplicial sets, such that its makes all the evident square diagrams with the structure maps commute.
 
 Write $SeqPreSpec(sSet)$ for this category of spectra.
 
