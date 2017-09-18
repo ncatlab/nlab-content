@@ -31,7 +31,7 @@ For every [[modality]] one typically demands that it preserves implication in th
 
 * $\lozenge (p \to q) \to (\lozenge p \to \lozenge q)$.
 
-This is called the [[K modal logic|K-axiom]] and in traditional non-[[categorical logic]] this is often all that is considered.
+This is called the [[K modal logic|K-axiom]] and in traditional non-[[categorical logic]] this is often all that is considered, because in traditional classical modal logic, the operators are considered dual, i.e. $\Box A= \neg (\lozenge (\neg A))$.
 
 A minimum requirement on a formalization of $\lozenge$ and $\Box$ with interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
 
@@ -55,7 +55,7 @@ However, in terms of [[categorical logic]] the above axioms just say ([Bierman &
 
 * $\Box$ is an ([[idempotent comonad|idempotent]]) [[comonad]];
 
-* $\lozenge$ is an [[idempotent monad|idempotent]] [[monad]]
+* $\lozenge$ is an ([[idempotent monad|idempotent]]) [[monad]]
 
 on the [[category]] ([[poset]]) of [[propositions]] (see at _[[monad in computer science]]_), and while the above reasoning makes plausible that any operator expressing "necessity" and "possibility" should at least satisfy these (co)monad axioms, not every (co)monad is sensibly interpreted this way.
 
@@ -63,9 +63,10 @@ For example there is
 
 * the (idempotent) monad $\emptyset$ which sends every proposition to [[false]] (the [[nothing|non-being]]-modality);
 
-* the (idempotent) monad $\ast$ which sends every proposition to [[true]] (the [[being]]-modality).
+* the (idempotent) comonad $\ast$ which sends every proposition to [[true]] (the [[being]]-modality).
 
-These $\emptyset \dashv \ast$ satisfy all of the above axioms (as well as more axioms that are being considered, such as those called [[S5 modal logic]]) but they clearly do not formalize the informal concept of "possibility" and "necessity": To believe that the constant modality $\ast$ is one sensible formalization of "necessity" is to believe that the sentence "Every proposition is necessarily true." is sensible, in particular that "False is necessarily true" is sensible. 
+These $\emptyset \dashv \ast$ satisfy all of the above axioms (as well as more axioms that are being considered, such as those called [[S5 modal logic]]) but they clearly do not formalize the informal concept of "possibility" and "necessity", because there is not a single informal concept of "necessity". To believe that the constant modality $\ast$ is one sensible formalization of "necessity" is to believe that the sentence "Every proposition is necessarily true." is sensible, in particular that "False is necessarily true" is sensible. 
+(This might be sensible in a world where everything is necessarily false.)
 
 This issue becomes more pronounced (and also finds a resolution, see [below](#InFirstOrderLogicAndTypeTheory)) as one generalizes from the small realm of [[propositional logic]] to include both or either of:
 
