@@ -226,3 +226,6 @@ The quantomorphisms over elements of the [[symplectic group]] of a [[symplectic 
 
 [[!redirects quantomorphism n-group]]
 [[!redirects quantomorphism n-groups]]
+
+[[!redirects higher quantomorphism group]]
+[[!redirects higher quantomorphism groups]]
