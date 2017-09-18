@@ -119,7 +119,7 @@ $$
   \mathbf{E}G := (\mathbf{B}G)^I \times_{\mathbf{B}G} *
 $$
 
-is the path fibration over $\mathbf{B}G$. By the [[factorization lemma]] we have that the projecton $\mathbf{E}G \to \mathbf{B}G$ is indeed a fibration and by the fact that the acyclic fibration $(\mathbf{B}G)^I \to \mathbf{B}G$ is preserved under pullback that indeed $\mathbf{E}G \to *$ is a weak equivalence.
+is the path fibration over $\mathbf{B}G$. By the [[factorization lemma]] we have that the projection $\mathbf{E}G \to \mathbf{B}G$ is indeed a fibration and by the fact that the acyclic fibration $(\mathbf{B}G)^I \to \mathbf{B}G$ is preserved under pullback that indeed $\mathbf{E}G \to *$ is a weak equivalence.
 
 
 
