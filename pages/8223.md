@@ -34,7 +34,9 @@ There are various ways of forming a category of simple graphs. Perhaps the most 
 
 Another option -- and this is the one chosen for this article -- starts by regarding a simple graph as carrying the same information as a set $V$ equipped with a [[symmetric relation|symmetric]] [[reflexive relation|reflexive]] [[relation]] $E$. Indeed, such a relation determines (and is uniquely determined by) a simple graph $G$ where for given vertices $x, y \in V$, there is an edge $\{x, y\}$ between $x$ and $y$ in $G$ iff both $(x, y) \in E$ and $x \neq y$. We will write $E(x, y)$ to mean $(x, y) \in E$. 
 
-Then, under the relational formulation, we would define a morphism $(V, E) \to (W, F)$ between simple graphs straightforwardly, as a function $f: V \to W$ that preserves the relevant structure, i.e., writing $E(x, y)$ to say $(x, y) \in E$, that $E(x, y)$ implies $F(f(x), f(y))$. One reason for preferring this notion of morphism is that it allows, for example, consideration of arbitrary edge contractions of a simple graph as quotients in the category (cf. [[graph minor]]), something that is not possible under the prior notion of morphism. 
+Then, under the relational formulation, we would define a morphism $(V, E) \to (W, F)$ between simple graphs straightforwardly[^1] as a function $f: V \to W$ that preserves the relevant structure, i.e., writing $E(x, y)$ to say $(x, y) \in E$, that $E(x, y)$ implies $F(f(x), f(y))$. One reason for preferring this notion of morphism is that it allows, for example, consideration of arbitrary edge contractions of a simple graph as [[quotients]] in the category (cf. [[graph minor]]), something that is not possible under the prior notion of morphism. 
+
+[^1]: In other words, the usual notion of morphism between structures or models as in [[model theory]]. 
 
 Thus we will adopt the latter notion of morphism which takes reflexive symmetric relations $E$ as primary. The resulting [[category]] of simple graphs is denoted by $SimpGph$. 
 
@@ -56,7 +58,7 @@ is a [[monomorphism]]. In that case, a morphism of simple graphs amounts to a [[
 
 ### An aside on other notions of graph 
 
-"Simple graph" as defined in the nLab (see [[graph]]) means that edges are 2-element subsets of $V$, but of course that doesn't preclude consideration of other types of graph. One option is to consider sets $V$ equipped with a collection of subsets of $V$ of cardinality either 1 or 2, i.e., allowing some but not necessarily all loops as edges. We don't call those "simple graphs" (insert what they should be called here), but nevertheless they form a respectable category under the straightforward notion of morphism $f$ (if $\{x, y\}$ is an edge of the domain, possibly with $x = y$, then $\{f(x), f(y)\}$ is an edge of the codomain). 
+"Simple graph" as defined in the nLab (see [[graph]]) means that edges are 2-element subsets of $V$, but of course that doesn't preclude consideration of other types of graph. One option is to consider sets $V$ equipped with a collection of subsets of $V$ of cardinality either 1 or 2, i.e., allowing some but not necessarily all loops as edges. We don't call those "simple graphs" (at [[graph]] they are called "loop graphs"), but nevertheless they form a respectable category under the straightforward notion of morphism $f$ (if $\{x, y\}$ is an edge of the domain, possibly with $x = y$, then $\{f(x), f(y)\}$ is an edge of the codomain). 
 
 
 ## Properties of $SimpGph$ 
@@ -70,15 +72,15 @@ $SimpGph$ is a [[Grothendieck quasitopos]]. In particular, it is a [[regular cat
 
 +-- {: .proof} 
 ###### Proof 
-(See also [Adamek and Herrlich](#AdamHerr).) As above, let $C$ be the category of sets (or cardinality) $1$ and $2$ and functions between them, and regard the category of simple graphs as a full subcategory of the presheaf [[topos]] $Set^{C^{op}}$. For this presheaf topos, there is just one nontrivial $\neg\neg$-dense sieve, namely the inclusion 
+(See also [Adamek and Herrlich](#AdamHerr).) As above, let $C$ be the category of sets $1$ and $2$ and functions between them, and regard the category of simple graphs as a full subcategory of the presheaf [[topos]] $Set^{C^{op}}$. For this presheaf topos, there is just one nontrivial $\neg\neg$-dense sieve, namely the inclusion 
 
-$$(\hom(-, s), \hom(-, t)): \hom(-, 1) + \hom(-, 1) \to \hom(-, 2)$$ 
+$$(s, t): C(-, 1) + C(-, 1) \to C(-, 2)$$ 
 
-and so the category of $\neg\neg$-[[separated presheaves]] is equivalent to the category of presheaves $X$ such that the induced map 
+(where $s$ is shorthand for $C(-, \ast \mapsto s)$ and similarly for $t$) and so the category of $\neg\neg$-[[separated presheaves]] is equivalent to the category of presheaves $X$ such that the induced map 
 
-$$X(2) \cong Set^{C^{op}}(\hom(-, 2), X) \stackrel{(s, t)^\ast}{\to} Set^{C^{op}}(\hom(-, 1) + \hom(-, 1), X) \cong X(1) \times X(1),$$ 
+$$X(2) \cong Set^{C^{op}}(C(-, 2), X) \stackrel{(s, t)^\ast}{\to} Set^{C^{op}}(C(-, 1) + C(-, 1), X) \cong X(1) \times X(1),$$ 
 
-which is the source-target pairing $X(2) \to X(1) \times X(1)$, is monic. In other words, a simple graph in this language is exactly a separated presheaf. On the other hand, a Grothendieck quasitopos is, essentially by definition, the category of separated presheaves for a topology on a presheaf topos, in this case the $\neg\neg$-topology. 
+which is the source-target pairing $\langle d_0, d_1 \rangle: X(2) \to X(1) \times X(1)$, is monic. In other words, a simple graph in this language is exactly a separated presheaf. On the other hand, a Grothendieck quasitopos is, essentially by definition, the category of separated presheaves for a topology on a presheaf topos, in this case the $\neg\neg$-topology. 
 
 Being a quasitopos with small coproducts, it is $\infty$-extensive provided that coproducts are disjoint. However, this is trivial to check (it even suffices to check, according to [[Elephant]] 2.6.5, that $0 \to 1$ is a [[regular monomorphism]], or that $1 + 1$ is a disjoint coproduct, which it obviously is). 
 =-- 
@@ -128,7 +130,7 @@ $$a, b: 1 \rightrightarrows E \stackrel{!}{\to} 1$$
 
 and $\Pi$ is formed as a [[reflexive coequalizer]] of the induced diagram: 
 
-$$\hom(1, -) \to hom(E, -) \rightrightarrows hom(1, -) \to \Pi$$ 
+$$SimpGph(1, -) \to SimpGph(E, -) \rightrightarrows SimpGph(1, -) \to \Pi$$ 
 
 +-- {: .num_prop} 
 ###### Proposition 
