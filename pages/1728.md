@@ -262,13 +262,13 @@ $$
 
 A general formulation via an [[(∞,n)-category of cobordisms]] with defects is in section 4.3 of 
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+ 
 
 Further general aspects are discussed in
 
-* [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
- {#DavydovRunkelKong}
+* {#DavydovRunkelKong} [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+ 
 
 Details in dimension 2 and 3 are discussed in
 
@@ -279,8 +279,8 @@ Discussion of defects in [[prequantum field theory]], hence for [[coefficients]]
 * [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary conditions in local TFTs_ (in preparation)
  {#FiorenzaValentino}
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] et. al, _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
- {#FSS}
+* {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] et. al, _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
+ 
 
 ### Examples
 
@@ -303,7 +303,9 @@ Examples in physics of interaction of defects of various dimension is discussed 
 
   * See the discussion at [Planar Algebras, TFTs with Defects](http://golem.ph.utexas.edu/category/2008/09/planar_algebras_tfts_with_defe.html) for a start.
 
+Lecture notes include
 
+* [[Nils Carqueville]], _Lecture notes on 2-dimensional defect TQFT_ ([arXiv:1607.05747](http://arxiv.org/abs/1607.05747))
 
 
 
