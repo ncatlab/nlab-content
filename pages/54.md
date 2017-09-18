@@ -139,6 +139,8 @@ I am writing an irregular column at [PhysicsForums](https://www.physicsforums.co
 
 * _[11d Gravity from just the Torsion Constraint](https://www.physicsforums.com/insights/11d-gravity-just-torsion-constraint/)_
 
+* _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_
+
 ## more on the web
 
 For logs of further activity see my page
