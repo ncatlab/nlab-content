@@ -6021,9 +6021,9 @@ $\,$
  {#LimitsAndColimits}
 
 We consider now the general definition of [[free diagrams]] of [[topological spaces]] (def. \ref{Diagram} below),
-their [[cones]] and [[co-cones]] (def. \ref{Cone}) as well as [[limit|limiting cones]] and [[colimit|colimiting cocones]] (def. \ref{LimitingCone} below). 
+their [[cones]] and [[co-cones]] (def. \ref{Cone}) as well as [[limit|limiting cones]] and [[colimit|colimiting cocones]] (def. \ref{LimitingCone} below).
 
-Then we use these concepts to see generally (remark \ref{CoLimitsInNiceTopologicalSpaces} below) 
+Then we use these concepts to see generally (remark \ref{CoLimitsInNiceTopologicalSpaces} below)
 why [[limits]] (such as [[product spaces]] and [[subspaces]])
 of $T_{n \leq 2}$-spaces and of [[sober spaces]] are again $T_n$ or sober, respectively, and to see that the
 correct [[colimits]] (such as [[disjoint union spaces]] and [[quotient spaces]]) of $T_n$- or sober spaces
@@ -6252,7 +6252,7 @@ Then
 
    1. a [[set]] or [[topological space]] $\tilde X$;
 
-   1. for each $i \in I$ a [[function]] or [[continuous function]] $\tilde X \overset{p_i}{\longrightarrow} X_i$ 
+   1. for each $i \in I$ a [[function]] or [[continuous function]] $\tilde X \overset{p_i}{\longrightarrow} X_i$
 
    such that
 
@@ -6306,7 +6306,7 @@ Then
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #ConeIncarnationOfSolutionsToEquations}
 ###### Example
 **([[solutions]] to [[equations]] are [[cones]])**
 
@@ -6500,11 +6500,92 @@ Then
 
 =--
 
++-- {: .num_example}
+###### Example
+**([[equalizer]])**
+
+Let 
+
+$$
+  X_1
+    \underoverset
+      {\underset{\phantom{AA}f_2\phantom{AA}}{\longrightarrow}}
+      {\overset{\phantom{AA}f_1\phantom{AA}}{\longrightarrow}}
+      {\bot}
+  X_2
+$$
+
+be a [[free diagram]] of the shape "[[pair of parallel morphisms]]" (example \ref{ParallelMorphisms}).
+
+A [[limit]] over this diagram according to def. \ref{LimitingCone} is also called the _[[equalizer]]_ of the maps $f_1$ and $f_2$.
+This is a set or topological space $eq(f_1,f_2)$ equipped with a map $eq(f_1,f_2) \overset{p_1}{\longrightarrow} X_1$,
+so that $f_1 \circ p_1 = f_2 \circ p_1$ and such that if $Y \to X_1$ is any other map with this property
+
+$$
+  \array{
+    && Y
+    \\
+    && \downarrow & \searrow
+    \\
+    eq(f_1,f_2)
+      &\overset{p_1}{\longrightarrow}&
+    X_1
+      &
+        \underoverset
+          {\underset{\phantom{AA}f_2\phantom{AA}}{\longrightarrow}}
+          {\overset{\phantom{AA}f_1\phantom{AA}}{\longrightarrow}}
+          {}
+      &
+    X_2
+  }
+$$
+
+then there is a unique factorization through the equalizer:
+
+$$
+  \array{
+    && Y
+    \\
+    &{}^{\mathllap{\exists !}}\swarrow& \downarrow & \searrow
+    \\
+    eq(f_1,f_2)
+      &\overset{p_1}{\longrightarrow}&
+    X_1
+      &
+        \underoverset
+          {\underset{f_2}{\longrightarrow}}
+          {\overset{f_1}{\longrightarrow}}
+          {}
+      &
+    X_2
+  }
+  \,.
+$$
+
+In example \ref{ConeIncarnationOfSolutionsToEquations} we have seen that a cone over
+such a pair of parallel morphisms is a _[[solution]]_ to the equation $f_1(x) = f_2(x)$.
+
+The equalizer above is the _space of all solutions_ of this equation.
+
+=--
+
+
+
+$\,$
+
+All the limits and colimits over the free diagram in the above list of examples have special names like this:
 
 $\,$
 
 
-Here is a more explicit description
+[[!include free diagrams -- table]]
+
+
+
+$\,$
+
+
+Here is a more explicit description of the limiting cone over a diagram of sets:
 
 
 +-- {: .num_prop #SetLimits}
@@ -6514,7 +6595,7 @@ Here is a more explicit description
 Let $\left\{ X_i \overset{f_\alpha}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}$
 be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
 
-1. its [[limit|limit cone]] (def. \ref{LimitingCone}) is given by 
+1. its [[limit|limit cone]] (def. \ref{LimitingCone}) is given by
    the following [[subset]] of the [[Cartesian product]]
    $\underset{i \in I}{\prod} X_i$
    of all the [[sets]] $X_i$ appearing in the diagram
@@ -6531,7 +6612,7 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
      \underset{\longleftarrow}{\lim}_{i} X_i
      \;\simeq\;
      \left\{
-       (x_i)_{i \in I} \in \underset{i \in I}{\prod} X_i
+       (x_i)_{i \in I} 
        \,\vert\,
        \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
        \left(
@@ -6540,7 +6621,9 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
      \right\}
    $$
 
-1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and is given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
+   and the projection functions are $p_i \colon (x_j)_{j \in I} \mapsto x_i$.
+         
+1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) is given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
 
    $$
      \underset{i \in I}{\sqcup} X_i
@@ -6568,7 +6651,103 @@ be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
      \right)
    $$
 
+   and the injection functions are the evident maps to [[equivalence classes]]:
+   
+   $$
+     q_i \;\colon\; x_i \mapsto [x_i]
+     \,.
+   $$
+
 =--
+
++-- {: .proof}
+###### Proof
+
+We dicuss the proof of the first case. The second is directly analogous.
+
+First observe that indeed, by consturction, the projection maps $p_i$ as given do make a cone over the free diagram,
+by the very nature of the relation that is imposed on the tuples:
+
+$$
+  \array{
+     &&
+     \left\{
+       (x_k)_{k \in I}
+       \,\vert\,
+       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
+       \left(
+         f_{\alpha}(x_i) = x_j
+       \right)
+     \right\}
+    \\
+    & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+    \\
+    X_i && \underset{f_\alpha}{\longrightarrow} && X_j
+  }
+  \,.
+$$
+
+We need to show that this is universal, in that any other cone over the free diagram factors universally
+through it. First consider the case that the tip of a give cone is a singleton:
+
+$$
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{p'_i}}\swarrow && \searrow^{\mathrlap{p'_j}}
+    \\
+    X_i
+      && \underset{f_\alpha}{\longrightarrow} && 
+    X_j
+  }
+  \,.
+$$
+
+This is hence equivalently for each $i \in I$ an element $x'_i \in X_i$, such that for all $i, j \in I$ and $\alpha \in I_{i,j}$
+then $f_\alpha(x'_i) = x'_j$. But this is precisely the relation used in the construction of the limit above and hence there
+is a unique map
+
+$$
+  \ast 
+    \longrightarrow
+     \left\{
+       (x_k)_{k \in I}
+       \,\vert\,
+       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
+       \left(
+         f_{\alpha}(x_i) = x_j
+       \right)
+     \right\}
+$$
+
+such that for all $i \in I $ we have
+
+$$
+  \array{
+    \ast
+    \\
+    \downarrow & \searrow^{\mathrlap{p'_i}}
+    \\   
+     \left\{
+       (x_k)_{k \in I}
+       \,\vert\,
+       \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
+       \left(
+         f_{\alpha}(x_i) = x_j
+       \right)
+     \right\}
+     &\underset{p_i}{\longrightarrow}&
+     X_i
+  }
+$$
+
+namely that map is the one that picks the element $(x'_i)_{i \in I}$.
+
+This shows that every cone with tip a singleton factors uniquely through the claimed limiting cone. But 
+then for a cone with tip an arbitrary set $Y$, this same argument applies to all the single elements of $Y$.
+
+=--
+
 
 It will turn out below in prop. \ref{DescriptionOfLimitsAndColimitsInTop} that limits and colimits
 of diagrams of topological spaces are computed by first applying prop. \ref{SetLimits} to the underlying diagram
@@ -6580,20 +6759,20 @@ of underlying sets, and then equipping the result with a topology as follows:
 
 Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
 
-* For 
+* For
 
   $$
     \{S \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S_i \}_{i \in I}
   $$
-  
+
   a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
 
-* For 
+* For
 
   $$
     \{S_i \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S\}_{i \in I}
   $$
-  
+
   a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
 
 Other terminology used is shown in this table:
@@ -6641,7 +6820,7 @@ Now we have all the ingredients to compute limits and colimits of diagrams of to
 ###### Proposition
 **([limits and colimits of topological spaces](limits+and+colimits+by+example#OfTopologicalSpaces))**
 
-Let 
+Let
 
 $$
   \left\{ X_i \overset{\phantom{AA}f_\alpha \phantom{AA}}{\longrightarrow} \right\}_{i,j \in I, \alpha \in I_{i,j}}
@@ -6649,10 +6828,10 @@ $$
 
 be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}.
 
-1. The [[limit]] over this free diagram (def. \ref{of sets }) is given by [[generalized the|the]] topological space 
+1. The [[limit]] over this free diagram (def. \ref{of sets }) is given by [[generalized the|the]] topological space
 
-   1. whose underlying set is [[generalized the|the]] limit of the underlying sets according to prop. \ref{SetLimits} 
-   
+   1. whose underlying set is [[generalized the|the]] limit of the underlying sets according to prop. \ref{SetLimits}
+
    1. whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
 
    $$
@@ -6674,10 +6853,10 @@ be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}.
      \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
    $$
 
-1. The [[colimit]] over the free diagram (def. \ref{LimitingCone}) is [[generalized the|the]] topological space 
+1. The [[colimit]] over the free diagram (def. \ref{LimitingCone}) is [[generalized the|the]] topological space
 
-   1. whose underlying set is the colimit of sets of the underlying diagram of sets according to prop. \ref{SetLimits}, 
-   
+   1. whose underlying set is the colimit of sets of the underlying diagram of sets according to prop. \ref{SetLimits},
+
    1. whose topology is the [[final topology]], def. \ref{InitialAndFinalTopologies} for the component maps $\iota_i$ of the colimiting [[cocone]]
 
    $$
@@ -6739,7 +6918,7 @@ Let $\{X_i \overset{f_\alpha}{\longrightarrow} X_j\}_{i,j \in I, \alpha \in I_{i
 be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
 
 1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i \in \mathcal{C}$ exists (def. \ref{LimitingCone}), then
-   the [[set]] of (continuous) function into this limiting object is the limit over the sets $Hom(-,-)$ of (continuous) functions 
+   the [[set]] of (continuous) function into this limiting object is the limit over the sets $Hom(-,-)$ of (continuous) functions
    ("[[homomorphisms]]") into the components $X_i$:
 
    $$
@@ -6748,9 +6927,9 @@ be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
      \underset{\longleftarrow}{\lim}_i Hom\left(\,Y\,, \,X_i\, \right)
      \,.
    $$
-   
+
    Here on the right we have the limit over the free diagram of sets
-   
+
    $$
      \left\{
        Hom(Y,X_i) \overset{f_\alpha \circ (-)}{\longrightarrow} Hom(Y, X_j)
@@ -6769,9 +6948,9 @@ be a [[free diagram]] (def. \ref{Diagram}) of sets or of topological spaces.
      \underset{\longrightarrow}{\lim} Hom\left(\, X_i\,, \,Y\, \right)
      \,.
    $$
-   
+
    Here on the right we have the colimit over the free diagram of sets
-   
+
    $$
      \left\{
        Hom(X_i, Y)
@@ -6793,7 +6972,7 @@ First observe that by the very definition of limiting cones, maps out of some $Y
 with the set $Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\})$ of cones over the corresponding diagram with tip $Y$:
 
 $$
-  Hom(Y, \underset{\longleftarrow}{\lim}_{i \in I} X_i)  
+  Hom(Y, \underset{\longleftarrow}{\lim}_{i \in I} X_i)
     \;\simeq\;
   Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )
   \,.
@@ -6826,7 +7005,7 @@ $$
 $$
 
 This is for each $i \in I$ a choice of map $p_i \colon Y \to X_i$ , such that  for each $i,j \in I$
-and $\alpha \in I_{i,j}$ we have $f_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the 
+and $\alpha \in I_{i,j}$ we have $f_\alpha \circ p_i = p_j$. And indeed, this is precisely the characterization of an element in the
 set $  Cones(Y, \{X_i \overset{f_\alpha}{\to} X_j\} )$.
 
 
@@ -6859,7 +7038,7 @@ Observe that
 
 1. [[right adjoint functors]] preserve [[limits]].
 
-To see this, let $\underset{\longleftarrow}{\lim}_i X_i$ 
+To see this, let $\underset{\longleftarrow}{\lim}_i X_i$
 be the limit over some diagram $\left\{ X_i \overset{f_\alpha}{\to} X_j\right\}_{i,j \in I, \alpha \in I_{i,j}}$.
 To test what a right adjoint functor does to this, we may map any object $Y$ into it. Using prop. \ref{HomFunctorPreservesLimits} this yields
 
@@ -6880,7 +7059,7 @@ $$
   \end{aligned}
 $$
 
-Since this is true for all $Y$ it [[Yoneda lemma|follows]] that 
+Since this is true for all $Y$ it [[Yoneda lemma|follows]] that
 
 $$
   R(\underset{\leftarrow}{\lim}_i X_i)
@@ -6909,7 +7088,8 @@ $$
   Top
 $$
 
-(where $Top_{nice}$ is for instance $Top_{T_n}$ for $n \in \{0,1,2\}$ or $Top_{sob}$)
+(such as with $T_{n \leq 2}$-spaces according to remark \ref{ReflectiveSubcategory} or with sober spaces
+according to remark \ref{SobertopologicalSpacesFormReflectiveSubcategory})
 
 then
 
@@ -6917,7 +7097,7 @@ then
 
 1. colimits in $Top_{nice}$ are computed as the reflection $L$ of the colimit in $Top$.
 
-(...)
+
 
 =--
 
