@@ -105,6 +105,12 @@ $$
 
 is an [[isomorphism]].
 
+## References
+
+* [[Anders Kock]], section I.12 of _Synthetic differential geometry_, Cambridge University Press, London Math. Society Lecture Notes Series No. 333 (1981, 2006) ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+
+* [[Anders Kock]], section 1.3 of _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics, 180 (2010) ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
 [[!redirects Kock-Lawvere axioms]]
 
 
