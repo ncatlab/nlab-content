@@ -22,7 +22,7 @@ Linguists attempt to specify formal grammars (such as [[context free grammar]]s)
 
 **[[Categorial grammar]]** ([Wikipedia](http://en.wikipedia.org/wiki/Categorial_grammar)) is a tradition in formal syntax which draws inspiration from [[category theory]]. 
 
-Derivation trees categorify to [[string diagrams]].
+Derivation trees are encoded by [[string diagrams]].
 
 A seminal article, inspired by the structure of a (non-symmetric) [[biclosed monoidal category]] is:
 
