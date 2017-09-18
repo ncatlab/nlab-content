@@ -43,7 +43,7 @@ A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifie
 
 ## Some equivalent formulations
 
-The main interest of the concept of a De Morgan topos lies in the fact that for many statements whose classical (Boolean) validity is lost in intuitionistic logic the De Morgan property delineates precisely the range of toposes where the statement is valid. An illustration of this is e.g. the implication that maximal ideals are prime in commutative rings. 
+The importance of the concept of a De Morgan topos stems partly from the fact that for many statements whose classical (Boolean) validity is lost in intuitionistic logic the De Morgan property delineates precisely the range of toposes where the statement is valid. An illustration of this is e.g. the implication that maximal ideals are prime in commutative rings. 
 
 Though such statements are in fact equivalent to the De Morgan property they are better viewed as higher-order properties of De Morgan toposes.
 
@@ -200,6 +200,8 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_ , TAC **30** no.26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
 * K. B. Lee, _Equational Classes of Distributed Pseudo-Complemented Lattices_ , Can. J. Math. **22** (1970) pp.881-891. ([pdf](http://cms.math.ca/openaccess/cjm/v22/cjm1970v22.0881-0891.pdf))
+
+* {#Mawanda88} M.-M. Mawanda, _Well-ordering and Choice in Toposes_ , JPAA **50** (1988) pp.171-184.
 
 * {#Mielke84} M. V. Mielke, _Homotopically Trivial Toposes_ , Pacific J. Math. **110** no.1 (1984) pp.171-182. ([euclid](https://projecteuclid.org/euclid.pjm/1102711108))
 
