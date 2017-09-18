@@ -105,7 +105,7 @@ between [[abelian categories]] such that the [[left adjoint]] $L$ is an [[exact 
 +-- {: .proof}
 ###### Proof
 
-Observe that an object is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]], and that $L$ preserves monomorphisms by assumption of exactness. With this the statement follows via adjunction isomorphism
+Observe that an object in an abelian category is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]] ([prop.](injective+object#EquivalentCharacterizationOfInjectivesInAbelianCategories)), and that $L$ preserves monomorphisms by assumption of exactness. With this the statement follows via adjunction isomorphism
 
 $$
   Hom_{\mathcal{A}}(-,R(I))\simeq Hom_{\mathcal{B}}(L(-),I)
