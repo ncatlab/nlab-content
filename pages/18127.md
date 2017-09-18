@@ -121,7 +121,7 @@ In the following we use this terminlogy:
 The _[[topological interval]]_ is 
 
 1. the [[closed interval]] $[0,1] \subset \mathbb{R}^1$ 
-   regarded, in the standard way, as a [[subspace]] of the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]],
+   regarded as a [[topological space]] in the standard way, as a [[subspace]] of the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]],
 
 1. equipped with the [[continuous functions]]
 
@@ -129,7 +129,31 @@ The _[[topological interval]]_ is
 
    1. $const_1 \;\colon\; \ast \to [0,1]$
 
-which include the [[point space]] as the two endpoints, respectively.
+   which include the [[point space]] as the two endpoints, respectively
+   
+1. equipped with the (unique) [[continuous function]]
+
+   $$
+     [0,1] \overset{}{\longrightarrow} \ast
+   $$
+   
+   to the [[point space]] (which is the [[terminal object]] in [[Top]])
+   
+regarded, in summary, as a factorization
+
+$$
+  \nabla_\ast  
+    \;\colon\;
+  \ast \sqcup \ast 
+    \overset{(const_0,const_1)}{\longrightarrow}
+  [0,1]
+    \overset{}{\longrightarrow}
+  \ast
+$$
+
+of the [[codiagonal]] on the point space, namely the unique continuous function $\nabla_\ast$
+out of the [[disjoint union space]] $\ast \sqcup \ast \simeq Disc(\{0,1\})$
+([[homeomorphism|homeomorphic]] to the [[discrete topological space]] on two elements). 
 
 =--
 
@@ -139,9 +163,15 @@ which include the [[point space]] as the two endpoints, respectively.
 ###### Definition
 **([[homotopy]])**
 
-For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$.  
-A _[[left homotopy|(left) homotopy]]_
-from $f$ to $g$, to be denoted
+Let $X,Y \in $ [[Top]] be two [[topological spaces]] and let 
+
+$$
+  f,g\colon X \longrightarrow Y
+$$ 
+
+be two [[continuous functions]] between them.
+
+A _[[left homotopy|(left)]] [[homotopy]]_ from $f$ to $g$, to be denoted
 
 $$
   \eta \;\colon\; f \,\Rightarrow\, g
@@ -154,10 +184,9 @@ $$
   \eta \;\colon\; X \times [0,1] \longrightarrow Y
 $$
 
-
 out of the [[product topological space]] ([this example](Introduction+to+Topology+--+1#ProductTopologicalSpace))
-of $X$ with the standard [[closed interval]] $[0,1]$ with its [[Euclidean space|Euclidean]] [[metric topology]],
-such that this fits into a [[commuting diagram]] of the form
+of $X$ the [[topological interval]] (def. \ref{TopologicalInterval})
+such that this makes the following  [[diagram]] in [[Top]] [[commuting diagram|commute]]:
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
@@ -170,7 +199,7 @@ $$
      \\
      {}^{\mathllap{(id,const_0)}}\downarrow & \searrow^{\mathrlap{f}}
      \\
-     [0,1] \times X  &\stackrel{\eta}{\longrightarrow}& Y
+     X \times [0,1]  &\stackrel{\eta}{\longrightarrow}& Y
      \\
      {}^{\mathllap{(id,const_1)}}\uparrow & \nearrow_{\mathrlap{g}}
      \\
@@ -181,54 +210,413 @@ $$
 
 > graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/)
 
+hence such that
+
+$$
+  \eta(-,0) = f
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  \eta(-,1) = g
+  \,.  
+$$
+
+If there is a homotopy $f \Rightarrow g$ (possibly unspecified) 
+we say that $f$ is _homotopic_ to $g$, denoted
+
+$$
+  f \sim_h g
+  \,.
+$$
+
 =--
+
+
++-- {: .num_prop #EquivRelHomotopy}
+###### Proposition
+**([[homotopy]] is an [[equivalence relation]])
+
+Let $X,Y \in $ [[Top]] be two [[topological spaces]].
+Write $Hom_{Top}8X,Y9$ for the [[set]] of [[continuous functions]]
+from $X$ to 4y4. 
+
+Then being [[homotopy|homotopic]] (def. \ref{LeftHomotopy}) is an [[equivalence relation]]
+on this set. The correspnding [[quotient set]]
+
+$$
+  [X,Y] \;\colon\; Hom_{Top}(X,Y)/\sim_h
+$$
+
+is called the set of _[[homotopy classes]]_ of continuous functions.
+
+Moreover, this equivalence relation is compatible with [[composition]] of continuous functions:
+
+For $X,Y,Z \in $ [[Top]] three topological spaces, there is a unique function
+
+
+$$
+  [X,Y] \times [Y,Z] \longrightarrow [X,Z]
+$$
+
+such that the following [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    Hom_{Top}(X,Y) \times Hom_{Top}(Y,Z)
+      &\overset{\circ_{X,Y,Z}}{\longrightarrow}&
+    Hom_{Top}(X,Z)
+    \\
+    \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    [X,Y] \times [Y,Z] &\longrightarrow& [X,Z] 
+  }
+  \,.
+$$
+ 
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  \array{
+    X 
+      \overset{f_1}{\longrightarrow}
+    Y
+      \underoverset
+        {\underset{f'_2}{\longrightarrow}}
+        {\overset{f_2}{\longrightarrow}}
+        {}
+    Z
+     \overset{f_3}{\longrightarrow}
+    W
+  }
+$$
+
+be continuous functions, and let
+
+$$
+  \eta \;\colon\; f_2 \Rightarrow f'_2
+$$
+
+be a homotopy. It is sufficient to show that then there is a homotopy
+
+$$
+  f_3 \circ f_2 \circ f_1 \Rightarrow   f_3 \circ f'_2 \circ f_1
+  \,.
+$$
+
+This is exhibited by the following diagram
+
+$$
+  \array{
+     X &\overset{f_1}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{ (id_X, const_0) }}\downarrow 
+       && 
+     {}^{\mathllap{ (id_Y,const_0) }}\downarrow 
+       & 
+     \searrow^{\mathrlap{ f_2}}
+     \\
+     X \times [0,1] 
+       &\overset{f_1 \times id_{[0,1]} }{\longrightarrow}& 
+     Y \times [0,1]  
+       &\stackrel{\eta}{\longrightarrow}& 
+     Z &\overset{f_3}{\longrightarrow}& W
+     \\
+     {}^{\mathllap{(id_X,  const_1)}}\uparrow 
+       && 
+     {}^{\mathllap{ (id,const_1) } }\uparrow 
+       & 
+     \nearrow_{\mathrlap{ f'_2 }}
+     \\
+     X &\underset{f_1}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #HomotopyCategory}
+###### Remark
+**([[homotopy category]])**
+
+Prop. \ref{EquivRelHomotopy} means that [[homotopy classes]] of [[continuous functions]]
+are the [[morphisms]] in a [[category]] whose [[objects]] are still the [[topological spaces]].
+
+This category (at least when restricted to spaces that admit the structure of [[CW-complexes]])
+is called the _[[classical homotopy category]]_, often denoted 
+
+$$
+  Ho(Top)
+  \,.
+$$
+
+Moreover, sending a continuous function to its homotopy class is a [[functor]]
+
+$$
+  \kappa \;\colon\; Top \longrightarrow Ho(Top)
+$$
+
+from the ordinary category [[Top]] of topological spaces with actual continuous functions between them.
+
+=--
+
+
 
 
 +-- {: .num_defn #HomotopyEquivalence}
 ###### Definition
-**(homotopy equivalence)**
+**([[homotopy equivalence]])**
 
-A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
-is called a _[[homotopy equivalence]]_ if
+Let $X,Y \in $ [[Top]] be two [[topological spaces]].
 
-1. there exists a continuous function the other way around,
-$g \;\colon\; Y \longrightarrow X$, and
+A [[continuous function]] 
 
-1. [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+is called a _[[homotopy equivalence]]_ if there exists
+
+1. a continuous function the other way around,
+
+   $$
+     g \;\colon\; Y \longrightarrow X
+   $$
+
+1. [[homotopies]] (def. \ref{LeftHomotopy}) from the two composites to the respective [[identity function]]:
 
   $$
-    \eta_1 \;\colon\; f\circ g \Rightarrow_L id_Y
+    f\circ g \Rightarrow id_Y
   $$
 
   and
 
   $$
-    \eta_2 \;\colon\; g\circ f \Rightarrow_L id_X
+    g\circ f \Rightarrow id_X
     \,.
-
   $$
+
+We indicate that a continuous function is a homotopy equivalence by writing
+
+$$
+  X \overset{\simeq_h}{\longrightarrow} Y
+  \,.
+$$
+
+If there exists _some_ (possibly unspecified) homotopy equivalence between topological spaces $X$ and $Y$ we write
+
+$$
+  X \simeq_h Y
+  \,.
+$$
 
 =--
 
++-- {: .num_remark #IsomorphismHomotopyEquivalence}
+###### Remark
+**([[homotopy equivalences]] are the [[isomorphisms]] in the [[homotopy category]])**
 
-+-- {: .num_example}
+In view of remark \ref{HomotopyCategory} a continuous function $f$ is 
+a homotopy equivalence precisely if its image $\kappa(f)$ in the 
+[[homotopy category]] is an [[isomorphism]].
+
+=--
+
++-- {: .num_example #HomotopyEquivalenceHomeomorphism}
 ###### Example
-**(open ball is contractible)**
+**([[homeomorphism]] is [[homotopy equivalence]])
 
-Any [[open ball]] (or closed ball), hence (by example \ref{OpenBallsHomeomorphicToRn}) any [[Cartesian space]]
-is [[homotopy equivalence|homotopy equivalent]] to the point
+Every [[homeomorphism]] is a [[homotopy equivalence]] (def. \ref{HomotopyEquivalence}).
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**([[homotopy equivalence]] is [[equivalence relation]])
+
+Being [[homotopy equivalence|homotopy equivalent]] is an [[equivalence relation]]
+on the [[class]] of [[topological spaces]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate from remark \ref{IsomorphismHomotopyEquivalence} by general 
+properties of [[categories]] and [[functors]]. 
+Hence making this explicit involves the construction already used in the proof
+of prop. \ref{EquivRelHomotopy}:
+
+It is clear that the relation it [[reflexive relation|reflexive]] and [[symmetric relation|symmetric]].
+To see that it is [[transitive relation|transitive]] consider continuous functions
+
 
 $$
-  \mathbb{R}^n \underset{homotopy}{\simeq} \ast
+  X
+    \underoverset
+      {\underset{g_1}{\longleftarrow}}
+      {\overset{f_1}{\longrightarrow}}
+      {}
+  Y
+   \underoverset
+     {\underset{g_2}{\longleftarrow}}
+     {\overset{f_2}{\longrightarrow}}
+     {}
+   Z
+$$
+
+and homotopies
+
+$$
+  g_1 \circ f_1 \Rightarrow id_X
+  \phantom{AAAA}
+  f_1 \circ g_1 \Rightarrow id_Y
+$$
+
+$$
+  g_2 \circ f_2 \Rightarrow id_Y
+  \phantom{AAAA}
+  f_2 \circ g_2 \Rightarrow id_Z
+  \,.
+$$
+
+It is sufficient to produce homotopies of the form
+
+$$
+  (g_1 \circ g_2 ) \circ (f_2 \circ f_1) \Rightarrow id_X
+$$
+
+and
+
+$$
+  (f_2 \circ f_1)  \circ (g_1 \circ g_2 )  \Rightarrow id_Y
+  \,.
+$$
+
+To this end, consider
+
+$$
+  \array{
+     X &\overset{f_1}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{ (id_X, const_0) }}\downarrow && {}^{\mathllap{(id_Y,const_0)}}\downarrow & \searrow^{\mathrlap{ g_2 \circ f_2}}
+     \\
+     X \times [0,1] &\overset{f_1 \times id_{[0,1]} }{\longrightarrow}& Y \times [0,1]  &\stackrel{\eta}{\longrightarrow}& Y &\overset{g_1}{\longrightarrow}& X
+     \\
+     {}^{\mathllap{(id_X,  const_1)}}\uparrow && {}^{\mathllap{(id,const_1)}}\uparrow & \nearrow_{\mathrlap{ id_Y }}
+     \\
+     X &\underset{f_1}{\longrightarrow}& Y
+  }
+  \,.
+$$
+    
+
+=--
+
++-- {: .num_defn #SpaceContractible}
+###### Definition
+**([[contractible topological space]])**
+
+A [[topological space]] $X$ is called _[[contractible topological space|contractible]]_
+if the unique [[continuous function]] to the [[point space]]
+
+$$
+  X \overset{\simeq_h}{\longrightarrow} \ast
+$$
+
+is a [[homotopy equivalence]] (def. \ref{HomotopyEquivalence}).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[contractible topological spaces]] are the [[terminal objects]] in the [[homotopy category]])**
+
+In view of remark \ref{HomotopyCategory}, a topological space $X$ is [[contractible topological space|contractible]]
+(def. \ref{SpaceContractible}) precisely if its image $\kappa(X)$ in the [[classical homotopy category]]
+is a [[terminal object]].
+
+=--
+
++-- {: .num_example #BallIsContractible}
+###### Example
+**([[closed ball]] and [[Euclidean space]] are [[contractible topological space|contractible]])**
+
+Let $B^n \subset \mathbb{R}^n$ be the unit [[open ball]] or [[closed ball]] in [[Euclidean space]].
+This is [[contractible topological space|contractible]] (def. \ref{SpaceContractible}):
+
+$$
+  p \;\colon\; B^n \overset{\simeq_h}{\longrightarrow} \ast
+  \,.
+$$
+
+The homotopy inverse function is necessarily constant on a point, we may just as well choose it
+to go pick the origin:
+
+$$
+  const_0 \;\colon\; \ast \overset{}{\longrightarrow} B^n
+  \,.
+$$
+
+For one way of composing these functions we have the [[equality]]
+
+$$
+  p \circ const_0 = id_\ast
+$$
+
+with the [[identity function]]. This is a homotopy by prop. \ref{EquivRelHomotopy}.
+
+The other composite is
+
+$$
+  const_0 \circ p = const_0 \;\colon\; B^n \overset{}{\longrightarrow} B^n
+  \,.
+$$
+
+Hence we need to produce a homotopy
+
+$$
+  const_0 \Rightarrow id_{B^n}
+$$
+
+This is given by the function
+
+$$
+  \array{
+    B^n \times [0,1] &\overset{\eta}{\longrightarrow}& B^n
+    \\
+    (x,t) &\mapsto& t x
+  }
+  \,,
+$$
+
+where on the right we use the multiplication with respect to the standard [[real vector space]]
+structure in $\mathbb{R}^n$.
+
+
+Since the [[open ball]] is [[homeomorphism|homeomorphic]] to the whole [[Cartesian space]] $\mathbb{R}^n$
+([this example](Introduction+to+Topology+--+1#OpenBallsHomeomorphicToRn)) it follows with 
+example \ref{HomotopyEquivalenceHomeomorphism} and example \ref{EquivRelHomotopy}
+that also $\mathbb{R}^n$ is a contractible topological space:
+
+$$
+  \mathbb{R}^n \overset{\simeq_h}{\longrightarrow} \ast
   \,.
 $$
 
 
 =--
 
+In direct generalization of the construction in example \ref{BallIsContractible}
+one finds further examples as follows:
+
 +-- {: .num_example}
 ###### Example
-
 
 The following three [[graphs]]
 
@@ -248,6 +636,102 @@ $\,$
 
 ###  Fundamental group
  {#FundamentalGroups}
+
++-- {: .num_defn #PathHomotopyRelativeBoundary}
+###### Definition
+
+Let $X$ be a [[topological space]] and let
+
+$$
+  \gamma_1, \gamma_2 \;\colon\; [0,1] \longrightarrow X
+$$
+
+be two [[paths]] in $X$, i.e. two [[continuous functions]] from the [[closed interval]] to $X$, 
+such that their endpoints agree:
+
+$$
+  \gamma_1(0) = \gamma_2(0)
+  \phantom{AAAA}
+  \gamma_1(1) = \gamma_2(1)
+  \,.
+$$
+
+Then a [[homotopy relative boundary]] from $\gamma_1$ to $\gamma_2$ is a [[homotopy]] (def. \ref{LeftHomotopy})
+
+$$
+  \eta \;\colon\; \gamma_1 \Rightarrow \gamma_2
+$$
+
+such that it does not move the endpoints:
+
+$$
+  \eta(0,-) = const_{\gamma_1(0)} = const_{\gamma_2(0)}
+  \phantom{AAAAAA}
+  \eta(1,-) = const_{\gamma_1(0)} = const_{\gamma_2(1)}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[topological space]] and let $x, y \in X$ be two points. Write 
+
+$$
+  P_{x,y} X
+$$
+
+for the set of [[paths]] $\gamma$ in $X$ with $\gamma(0) = x$ and $\gamma(1) = y$.
+
+Then [[homotopy relative boundary]] (def. \ref{PathHomotopyRelativeBoundary})
+is an [[equivalence relation]] on $P_{x,y}X$.
+
+The corresponding set of [[equivalence classes]] is denoted
+
+$$
+  Hom_{\Pi_1(X)}(x,y)
+  \;\coloneqq\;
+  (P_{x,y}X)/\sim
+  \,.
+$$
+
+The operation of [[path concatenation]] descends to thes equivalence
+classes, so that for all $x,y, z \in X$ there is a function
+
+$$
+  Hom_{\Pi_1(X)}(x,y)
+   \times
+  Hom_{\Pi_1(y,z)}
+    \longrightarrow
+  Hom_{\Pi_1(x,z)}
+  \,.
+$$
+
+Moreover, this composition operation is [[associativity|associative]] in the evident sense. 
+
+Set of points of $X$ together with the set $Hom_{\Pi_1(X)}(x,y)$ for all points of points
+and equipped with this composition operation is called the _[[fundamental groupoid]]_ of $X$, denoted
+
+$$
+  \Pi_1(X)
+  \,.
+$$
+
+If we pick a single point $x \in X$, then one writes
+
+$$
+  \pi_1(X,x)
+  \;\coloneqq\;
+  Hom_{\Pi_1(X)}(x,x)
+  \,.
+$$
+
+Under the above composition this is a [[group]], and as such is called the _[[fundamental group]]_
+of $X$ at $x$.
+
+=--
+
 
 
 +-- {: .num_defn #FundamentalGroup}
@@ -282,6 +766,31 @@ oriented [[surface]] of [[genus of a surface|genus]] 2:
 > graphics grabbed from [Lawson 03](#Lawson03)
 
 
++-- {: .num_defn}
+###### Definition
+
+Let $(X,x)$ and $(Y,y)$ be [[pointed topological space]] and let
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+be a [[continuous function]] which respects the chosen points, in that $f(x) = y$.
+
+Then there is the function
+
+$$
+  \array{
+    \pi_1(X,x) &\overset{f_\ast}{\longrightarrow}& \pi_1(Y,y)
+    \\
+    [\gamma] &\mapsto& [f \circ \gamma]
+  }
+  \,.
+$$
+
+
+
+=--
 
 
 Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$
@@ -301,7 +810,7 @@ As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use th
 
 A topological space $X$ for which
 
-1. $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]], def. \ref{pi0})
+1. $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]])
 
 1. $\pi_1(X,x) \simeq 1$ (the [[fundamental group]] is [[trivial group|trivial]], def. \ref{FundamentalGroup}),
 
