@@ -107,13 +107,13 @@ may be used.
 
 The [[skeleton|skeletal]] version of the **augmented simplex category** $\Delta_a$ can be presented as follows:
 
-* objects are the finite totally ordered sets $\mathbf{n} := \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
+* objects are the finite totally ordered sets $\mathbf{n} \coloneqq \{0 \lt 1 \lt  \cdots \lt n-1\}$ for all $n \in \mathbb{N}$;
 
 * morphisms  _generated_ by (are all expressible as finite compositions of) the following two elementary kinds of maps
 
-  1. **face maps**: $\delta_i := \delta_i^n : \mathbf{n-1} \hookrightarrow \mathbf{n}$ is the injection whose image leaves out $i \in [n]$;
+  1. **face maps**: $\;\delta_i^n :\: \mathbf{n-1} \hookrightarrow \mathbf{n}\;$ is the injection whose image leaves out $i \in [n]\quad $ ($n \gt 0$ and $0 \leq i \lt n$);
 
-  1. **degeneracy maps**: $\sigma_i := \sigma_i^n : \mathbf{n+1} \to  \mathbf{n}$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i$;
+  1. **degeneracy maps**: $\;\sigma_i^n :\: \mathbf{n+1} \to  \mathbf{n}\;$ is the surjection such that $\sigma_i(i) = \sigma_i(i+1) = i\quad $ ($n \gt 0$ and $0 \leq i \lt n$);
 
 subject to the following relations, called the **simplicial relations** or **[[simplicial identities]]**:
 
@@ -123,13 +123,13 @@ $$
      =
      \delta_i^{n+1}\circ \delta_{j-1}^n
      &
-    \; i \lt j
+     \qquad 0 \leq i \lt j \leq n
      \\
      \sigma_j^n \circ \sigma_i^{n+1}
      =
-     \sigma_i^{n-1} \circ \sigma_{j+1}^n
+     \sigma_i^n \circ \sigma_{j+1}^{n+1}
      &
-     \; i \leq j
+     \qquad 0 \leq i \leq j \lt n
   }
 $$
 $$
@@ -139,13 +139,15 @@ $$
     \array{
       \delta_i^n \circ \sigma_{j-1}^{n-1}
       &
-       i \lt j
+      \qquad 0 \leq i \lt j \lt n
       \\
-      Id_n & \; i = j \;or\; i = j+1
+      Id_n
+      &
+      \quad 0 \leq j \lt n \quad and\quad i = j \;or\; i = j+1
       \\
       \delta^n_{i-1} \circ \sigma_{j}^{n-1}
       &
-       i \gt j +1
+      \qquad 0 \leq j \quad and\quad j +1 \lt i \leq n
     }
   \right.
 $$
