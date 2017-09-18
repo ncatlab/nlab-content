@@ -1795,10 +1795,11 @@ This means equivalently that there is a homotopy
 
 $$
   \phi \; \colon \; f\circ \rho' \Rightarrow \kappa
-  \,.
 $$
 
-In conclusion, so far this achieves that we have a solution to our lifting problem _except_ that it makes the lower triangle commute only up to the homotopy $\phi$
+fixing the boundary of the $n$-disk.
+
+Hence if we denote homotopy by double arrows, then we have now achieved the following situation
 
 $$
   \array{
@@ -1812,10 +1813,34 @@ $$
     \\
     D^n &\longrightarrow& Y
   }
+$$
+
+and it now suffices to show that $\phi$ may be lifted to a homotopy of just $\rho'$, fixing the boundary, for then the resulting homotopic $\rho''$ is the desired lift.
+
+To that end, notice that the condition that $\phi \colon D^n \times I \to Y$ fixes the boundary of the $n$-disk means equivalently that it extends to a morphism
+
+$$
+  S^{n-1} \underset{S^{n-1}\times I}{\sqcup} D^n \times I
+  \overset{(f\circ \alpha,\phi)}{\longrightarrow}
+  Y
+$$
+
+out of the [[pushout]] that identifies in the cylinder over $D^n$ all points lying over the boundary. Hence we are reduced to finding a lift in 
+
+$$
+  \array{
+    D^n &\overset{\rho'}{\longrightarrow}& X 
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    S^{n-1}\underset{S^{n-1}\times I}{\sqcup} D^n \times I
+    &\overset{(f\circ \alpha,\phi)}{\longrightarrow}&
+    Y
+  }
   \,.
 $$
 
-It is now sufficient to show that every situation like this, for $f$ a Serre fibration, we may further deform the lift such as to make the diagram genuinely commute. This works by the same argument as in the proof of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}.
+But inspection of the left map reveals that it is homeomorphic again to $D^n \to D^n \times I$, and hence the lift does indeed exist.
 
 =--
 
