@@ -167,7 +167,7 @@ For $p : C_1 \to C_2$ a functor between small categories or an $\mathbf{S}$-[[en
 
 $$
   (p_! \dashv p^* \dashv p_*) :  [C_2,D] 
-  \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\to}}{\underset{p_*}{\leftarrow}}}
+  \stackrel{\overset{p_!}{\leftarrow}}{\stackrel{\overset{p^*}{\to}}{\underset{p_*}{\leftarrow}}}
  [C_1,D]
 $$ 
 
