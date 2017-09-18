@@ -151,11 +151,11 @@ There exist [[superconformal]] extensions of the [[super Poincaré Lie algebra]]
 
 | $d$ | $N$ | superconformal [[super Lie algebra]] | [[R-symmetry]] | [[brane]] [[worldvolume]] theory |
 |-----|-----|--|---|--|
-| 3   |  $2k+1$ | $B(k,2) \simeq $ [[osp]]$(2k+1,4)$ | $SO(2k+1)$ | |
-| 3   | $2k$ | $D(k,2)\simeq $ [[osp]]$(2k,4)$ | $SO(2k)$ | [[M2-brane]] |
+| 3   |  $2k+1$ | $B(k,2) \simeq $ [[osp]]$(2k+1/4)$ | $SO(2k+1)$ | |
+| 3   | $2k$ | $D(k,2)\simeq $ [[osp]]$(2k/4)$ | $SO(2k)$ | [[M2-brane]] |
 | 4   | $k+1$  | $A(3,k)$ | $U(k+1)$ | [[D3-brane]] |
 | 5   |  1  | $F(4)$ | $SO(3)$  |  |
-| 6   | $k$ | $D(4,k) \simeq$ [[osp]]$(8,2k)$ | $Sp(k)$  | [[M5-brane]] |
+| 6   | $k$ | $D(4,k) \simeq$ [[osp]]$(8/2k)$ | $Sp(k)$  | [[M5-brane]] |
 
 There exists no [[superconformal]] extension of the [[super Poincaré Lie algebra]] in [[dimension]] $d \gt 6$.
 
@@ -215,7 +215,7 @@ Finally by [[triality]] the vector representation of $\mathfrak{so}(8) = D_4$ is
 +-- {: .num_remark }
 ###### Remark
 
-Further constraints follow from requiring unitary representations ([Minwalla 98, section 4.3](#Minwalla98)). This restricts for instance the 6d superconformal algebra to $D(4,1) = \mathfralk{osp}(8,2)$ and $D(4,1) = \mathfrak{osp}(8,4)$, the latter being the symmetry algebra of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
+Further constraints follow from requiring unitary representations ([Minwalla 98, section 4.3](#Minwalla98)). This restricts for instance the 6d superconformal algebra to $D(4,1) = \mathfrak{osp}(8|2)$ and $D(4,1) = \mathfrak{osp}(8,4)$, the latter being (over the reals as $\mathfrak{so}(8^\ast|4) = \mathfrak{osp}(6,2|4)$) the symmetry algebra of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
 
 =--
 
@@ -288,6 +288,7 @@ Further constraints follow from requiring unitary representations ([Minwalla 98,
   * [[supersymmetry and Calabi-Yau manifolds]]
 
 * [[MSSM]]
+
 
 * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
