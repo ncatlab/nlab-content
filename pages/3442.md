@@ -37,7 +37,7 @@ $$
   }
 $$
 
-In fact there is an [[equivalence of categories]] between the [[Eilenberg-Moore category]] of the [[jet comonad]] over $X$ and the category of partial differential equations with variables in $X$ ([Marvan 86](#Marvan86)).
+In fact there is an [[equivalence of categories]] between the [[Eilenberg-Moore category]] of the [[jet comonad]] over $X$ and the category of partial differential equations with variables in $X$ ([Marvan 86](#Marvan86)). 
 
 At least in nice cases for differential equations on functions on $X$ this is equivalently modeled by sub-[[Lie algebroid]]s of [[tangent Lie algebroid]]s.
 
@@ -174,6 +174,9 @@ Characterization of the category of partial differential equations as the [[Eile
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
 
+In the language of [[D-modules]] and hence for the special case of _linear_ differential equations, this appears as prop. 3.4.1.1 in 
+
+* {#GaitsgoryRozenblyum11} [[Dennis Gaitsgory]], [[Nick Rozenblyum]], _Crystals and D-modules_ ([arXiv:1111.2087](http://arxiv.org/abs/1111.2087))
 
 A [[domain specific programming language]] for differential equations is presented in
 
