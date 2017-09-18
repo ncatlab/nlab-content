@@ -86,7 +86,7 @@ $$
   }
 $$
 
-are inclusion of the first summand followed by projection onto the second. So even though $\pi_3(SO(3)) \simeq \mathbb{Z}$ superficially looks like it already stabilized, in fact these elements disappear in the stabilization and another copy of $\mathbb{Z}$ appears (e.g. [Tamura 57](#Tamura57)).
+are inclusion of the first summand followed by projection onto the second. So even though $\pi_3(SO(3)) \simeq \mathbb{Z}$ superficially looks like it already stabilized, in fact these elements disappear in the stabilization and another copy of $\mathbb{Z}$ appears (e.g. [Tamura 57](#Tamura57)). The same is also true for $\pi_7(SO(7)) \to \pi_7(SO(8)) \to \pi_7(SO(9))$.
 
 ### Homology and cohomology 
 
