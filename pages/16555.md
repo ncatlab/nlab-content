@@ -73,7 +73,7 @@ algebras are also equivalent.
 MR2477057, Zbl:1158.18003,
 doi:[10.1016/j.jpaa.2008.07.009](http://dx.doi.org/10.1016/j.jpaa.2008.07.009).
 
-* [[Sam Stanton]], _Freyd categories are
+* [[Sam Staton]], _Freyd categories are
 enriched Lawvere theories_, [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/freyd-lawvere-2014.pdf)
 
 * Rory B. B. Lucyshyn-Wright, _Enriched algebraic theories and monads for a system of arities_.
