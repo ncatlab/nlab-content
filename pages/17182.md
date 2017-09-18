@@ -213,6 +213,10 @@ There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedl
 
 ([Bousfield-Friedlander 78, section 2.5](#BousfieldFriedlander78)).
 
+### Relation to symmetric spectra
+
+There is a [[Quillen equivalence]] to the [[model structure on symmetric spectra]] ([Hovey-Shipley-Smith 00, section 4.3](#HoveyShipleySmith00)).
+
 ### Relation to excisive functors
  {#RelationToExcisiveFunctors}
 
@@ -401,8 +405,12 @@ Generalization of this model structure from sequential pre-spectra in [[sSet]]$^
 
 * {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
 
+
 Discussion of the [[Quillen equivalence]] to the [[model structure on excisive functors]] (which does have a [[symmetric smash product of spectra]]) is in 
 
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
+Discussion of the [[Quillen equivalence]] to the [[model structure on symmetric spectra]] is in
+
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 [[!redirects Bousfield-Friedlander model category]]
