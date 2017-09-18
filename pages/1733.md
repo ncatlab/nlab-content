@@ -111,6 +111,10 @@ Textbooks include
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
+* [[Peter May]], _[[A concise course in algebraic topology]]_
+
+* [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_
+
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
 Lecture notes include
