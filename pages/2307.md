@@ -126,6 +126,7 @@ This is the content of the _[[Landweber-Novikov theorem]]_.
 ### Universal complex orientation
  {#UniversalComplexOrientation}
 
+
 For $E$ an [[E-infinity ring]] there is a [[bijection]] between [[complex oriented cohomology theory|complex orientation]] of $E$ and [[E-infinity ring]] maps of the form
 
 $$
@@ -135,6 +136,7 @@ $$
 
 (e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
 
+See also at _[[complex orientation and MU]]_.
 
 ### Nilpotence theorem
 
