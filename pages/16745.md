@@ -33,6 +33,7 @@ and specifically to [[exceptional generalized geometry]] in
 
 * Jakob Palmkvist, _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
 
+* {#Palmkvist12} Jakob Palmkvist, _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
 
 [[!redirects Borcherds algebras]]
 
