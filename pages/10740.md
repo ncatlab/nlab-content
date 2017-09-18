@@ -19,7 +19,7 @@ _Hopf invariant one_ refers to maps with [[Hopf invariant]] equal to 1.
 
 ## Properties
 
-A theorem due to ([Adams 60](#Adams60)) says that these correspond precisely to the four [[normed division algebras]] (see aslo at [[Hurwitz theorem]]).
+A theorem due to ([Adams 60](#Adams60)) says that these correspond precisely to the four [[normed division algebras]] (see aslo at [[Hurwitz theorem]]). See at _[[Hopf construction]]_.
 
 ## Related concepts
 
