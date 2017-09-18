@@ -59,7 +59,7 @@ Copowers are frequently called _tensors_ and a $V$-category having all copowers 
 
 * In the $V$-category $V$, the copower is just the [[tensor product]] of $V$.
 
-* Copowers are a special sort of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimit]]s.  The dual  limit notion of a copower is a [[power]].
+* Copowers are a special sort of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimit]]s (i.e., ordinary $Set$-based colimits), assuming these exist.  The dual limit notion of a copower is a [[power]].
 
 
 ## Examples
@@ -88,6 +88,11 @@ Copowers are frequently called _tensors_ and a $V$-category having all copowers 
     \,.
   $$
 
+The next two classes of examples are covered in Kelly's book (see references). 
+
+* If $B$ is $V$-copowered and $A$ is $V$-small, then the $V$-functor category $B^A$ is $V$-copowered. 
+
+* If $C$ is $V$-copowered and $B \to C$ is a $V$-reflective full embedding, then $B$ is also copowered. 
 
 
 ## Related concepts
