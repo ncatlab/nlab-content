@@ -486,7 +486,7 @@ from which the above table is taken.
 
 A decent systematic account of the principles of super Lie algebra cohomology in the GS-functional, of these cocycles is in the letter
 
-* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989)
+* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989) ([spire](http://inspirehep.net/record/284635?ln=en))
  
 
 and a detailed account building on this, which also discusses the GS/WZW terms for [[D-branes]] on the [[type II supergravity Lie 2-algebra]] (in its section 6) is in 
