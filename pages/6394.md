@@ -1,4 +1,6 @@
 
+Paul Howe is emeritus professor in theoretical [[physics]] at King's College London-
+
 * [webpage](http://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/howep.aspx)
 
 ## related entries
