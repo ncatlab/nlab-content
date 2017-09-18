@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
 =--
+#### Algbraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -158,7 +162,7 @@ $$
   \,,
 $$
 
-where the [[Jordan curve]] $C(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the points $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$. (Compare to the analogous expression for the [[advanced propagator]]: [this prop.](advanced+propagator#AdvancedPropagatorAsContourIntegral).)
+where the [[Jordan curve]] $C(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the points $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$. (Compare to the analogous expression for the [[advanced and retarded propagators]]: [this prop.](advanced+propagator#AdvancedPropagatorAsContourIntegral).)
 
 
 <img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="160">
