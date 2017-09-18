@@ -264,6 +264,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Reasonable Deviations](http://stochastix.wordpress.com) (control and dynamical systems, game theory, information, optimization, statistical mechanics, chemical kinetics, technology, puzzles by Rod Carvalho)
 
+* [Research of Mathematics and Others](http://jmrresearch.wordpress.com) This blog by [[Julian Rachman]] is one that talks about his journey through higher mathematical study. 
+
 * [Rigorous Trivialities](http://rigtriv.wordpress.com) (mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning)--last updated April 2011)
 
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
