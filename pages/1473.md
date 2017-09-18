@@ -23,13 +23,18 @@ One method of proof uses [[ultrafilter]] convergence. Let $\langle X_\alpha \ran
 1. Let $U$ be an ultrafilter on $\prod_\alpha X_\alpha$. Since the set-of-ultrafilters construction $S \mapsto \beta S$ is [[functor]]ial, we have a push-forward ultrafilter $U_\alpha = \beta(\pi_\alpha)(U)$ on each $X_\alpha$, where $\pi_\alpha$ is a projection map. Choose a point $x_\alpha$ to which $U_\alpha$ converges. Then it is easily checked that $U$ converges to the point $\langle x_\alpha \rangle$ in the product space.
 
 1. Since every ultrafilter $U$ on $\prod_\alpha X_\alpha$ converges to a point, the product is compact. (If it were not, then we could find a collection of nonempty closed sets whose intersection is empty, but closed under finite intersections. This collection generates a filter which is contained in some ultrafilter $U$, by the [[ultrafilter theorem]]. Since every ultrafilter $U$ converges to some $x$, it cannot contain any closed set in the complement of $x$, hence cannot contain some closed set in the original collection, contradiction.) 
-+--{.query}
-[[Todd Trimble|Todd]]: Here it's not so clear that there's any direct argument. For it's at this point where we have to use the ultrafilter theorem, in order to produce a witnessing ultrafilter. Witness to what? The statement as it stands involves universal quantification over ultrafilters, so the witness would be in view of a contradiction.
-=--
- 
-[[Toby Bartels|Toby]]: Note that we use excluded middle in two places for a proof by contradiction; I\'ll try to remove these if possible. ([[Todd Trimble|Todd]]: I've rearranged the argument in the first step; the first formulation I gave looked unnecessarily "choice-y".) We use the axiom of choice in the middle step to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice here.  Finally, we use the ultrafilter theorem in the last step.
 
-+--{.query} 
++-- {: .num_remark #TyCH} 
+###### Remark 
+The axiom of choice is used in step 2 to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice at this step.  The ultrafilter theorem is used in step 3, and this is the only other place where a choice principle is needed. In other words, working over a choice-free set theory like [[ZFC|ZF]] or even BZ (bounded Zermelo set theory), the ultrafilter principle (UF) implies the Tychonoff theorem for Hausdorff spaces. 
+=-- 
+
++--{.query}
+
+[[Todd Trimble|Todd]]: Regarding the need for [[excluded middle]]: it's not so clear that there's any direct argument. For it's at this point where we have to use the ultrafilter theorem, in order to produce a witnessing ultrafilter. Witness to what? The statement as it stands involves universal quantification over ultrafilters, so the witness would be in view of a contradiction.
+
+ [[Toby Bartels|Toby]]: Note that we use excluded middle in two places for a proof by contradiction; I\'ll try to remove these if possible. ([[Todd Trimble|Todd]]: I've rearranged the argument in the first step; the first formulation I gave looked unnecessarily "choice-y".) 
+ 
 [[Todd Trimble|Todd]]: Yes, although I'm not too fussed about using indirect arguments, since in a topos, excluded middle follows from AC. I don't know whether it also follows from a weaker choice principle equivalent to the ultrafilter theorem, but I guess I wouldn't be surprised if it did. 
 
 _Toby_:  As far as I know, UF and EM are independent (although I\'m not certain).  So I\'m interested in whether the Hausdorff case requires EM as well as UF.
