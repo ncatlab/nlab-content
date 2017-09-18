@@ -16,7 +16,7 @@
 
 ## Idea
 
-[[Grothendieck]] conjectured that every [[Weil cohomology theory]] factors uniquely through some [[category]], which he called the category of _[[motives]]_.  For [[smooth variety|smooth]] [[projective varieties]] (over some [[field]] $k$) such a category was given by Grothendieck himself, called the category of _pure [[Chow motives]]_.  For general varieties the category is still conjectural, see at _[[mixed motives]]_.
+[[Grothendieck]] conjectured that every [[Weil cohomology theory]] factors uniquely through some [[category]], which he called the category of _[[motives]]_.  For [[smooth variety|smooth]] [[projective varieties]] (over some [[field]] $k$) such a category was given by Grothendieck himself, called the category of _pure [[Chow motives]]_.  For general smooth varieties the category is still conjectural, see at _[[mixed motives]]_.
 
 ## Construction
 
