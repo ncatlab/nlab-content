@@ -28,18 +28,31 @@ Some equivalent characterisations ([[constructive mathematics|constructively]] v
 *  If $\mu$ is a [[positive measure]], then a measurable set $B$ is null iff $\mu(B) = 0$.
 *  If $\mu$ is a [[finite measure]] with total measure $I$, then a measurable set $B$ is full iff $\mu(C) = I$ for every measurable superset of $B$.
 *  If $\mu$ is both positive and finite (so a [[probability measure]] up to rescaling), then a measurable set $B$ is full iff $\mu(B) = I$.
+*  If $\mu$ is [[complete measure|complete]], then every null set is measurable and every full set is measurable (which is basically the definition of 'complete') and consequently the preceding properties continue to hold when the adjective 'measurable' is removed.
 *  Using [[excluded middle]], a set is null iff its complement is full, and a set is full iff its complement is null.  (Even constructively, if a set is null, then its complement is full.)
 *  Even constructively, a measurable set is null iff its measurable complement (the complement in the algebraic structure of complemented pairs in a Cheng measurable space) is full, and a measurable set is full iff its measurable complement is null.
 
 
 ### In untraditional measurable spaces
 
-...
+Traditionally, a [[measurable space]] is simply an abstract [[set]] $X$ and a $\sigma$-[[sigma-algebra|algebra]] (or similar structure) $\mathcal{M}$ consisting of the [[measurable subsets]] of $X$.  There is no notion of null or full subsets of such a space.  However, there are two (essentially equivalent) variations of this concept in which null and full subsets do make sense.
+
+One variation is to simply equip the space with a $\delta$-[[delta-filter|filter]] of measurable subsets, which are declared to be the full measurable subsets.  Then a general subset is  Then a general __full subset__ is a superset of a measurable full subset, and a __null subset__ is any set whose complement is full.  (Alternatively, equip the space with a $\sigma$-[[sigma-ideal|ideal]] of measurable subsets, which are declared to be the null measurable subsets.)  In particular, a [[localizable measurable space]] is a measurable space so equipped such that the [[Boolean algebra]] of measurable sets modulo null sets (or modulo full sets if this is done by identifying the full sets with $X$) is [[complete boolean algebra|complete]].
+
+Another variation, used especially in [[constructive mathematics]], is a [[Cheng measurable space]].  This consists of a set $X$ equipped with a $\sigma$-semialgebra of [[disjoint subsets|disjoint]] *pairs* of subsets of $X$, declared to be the _complemented pairs_.  A set is measurable iff it appears as one component of a complemented pair.  A measurable subset is _full_ if it appears as one component of a complemented pair whose other component is [[empty subset|empty]], or equivalently (given the structure of the algebra of complemented pairs) if it is the [[union]] of the two components of any complemented pair.  Then a general __full subset__ is a superset of a measurable full subset, and a __null subset__ is any set whose complement is full.
+
+These are actually equivalent concepts.  Given a measurable space equipped with a $\delta$-filter of measurable full subsets, define a complemented pair to be a pair of disjoint measurable subsets whose union is full.  Conversely, given a Cheng measurable space, the measurable subsets and measurable full subsets as defined above comprise a $\sigma$-algebra and a $\delta$-filter in it.  (But constructively, the algebra of measurable subsets, while closed under the appropriate operations, will generally not be a [[boolean algebra]].)
 
 
-### In topological manifolds
+### In smooth manifolds
 
-...
+A subset $A$ of an $n$-dimensional [[smooth manifold]] $X$ is __null__ or __full__ (respectively) if its [[preimage]] under every [[coordinate chart]] is a null or full subset (respectively) of the chart\'s domain (which is an [[open subset]] of the [[Cartesian space]] $\mathbb{R}^n$) under [[Lebesgue measure]].
+
+This is actually better behaved than it may at first seem.  If $A$ is [[open cover|covered]] by an [[atlas]] $(\phi_i\colon U_i \to X)_i$, then $A$ is null or full as soon as $\phi_i^*(A)$ is null/full in $U_i$ for every index $i$.  In particular, if $A$ is contained in a single coordinate chart (which is not very likely for a full set but fairly common for null sets), then it is sufficient to check its preimage under that one.  This fact depends on the smoothness and fails for [[topological manifolds]].
+
+As we can define a [[measurable subset]] of a smooth manifold similarly, this means that every smooth manifold gives rise to a measurable space equipped with a $\delta$-filter of full subsets (and hence to a Cheng measurable space); this space is always localizable.
+
+(Details?  Is $C^1$ sufficient?  Conversely, is paracompactness necessary to keep the covers manageable?)
 
 
 ## Logic of full/null sets
