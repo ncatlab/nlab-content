@@ -29,6 +29,11 @@ In a [[finitely complete category]], the intersection of two [[monomorphism]]s $
 
 The __nullary intersection__ of the subsets of $X$ is $X$ itself.  A __binary intersection__ is the intersection of two sets, and a __finitary intersection__ is the intersection of [[finite set|finitely]] many sets.  Finitary intersections may be built out of binary and nullary intersections.
 
+## Properties
+
+* [[the image of an intersection is contained in the intersection of the images]]
+
+* [[pre-images preserve intersections]]
 
 ## Related concepts
 
