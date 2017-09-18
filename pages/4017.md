@@ -1,8 +1,8 @@
 
-
 * [website](http://www.math.upenn.edu/FacData.html)
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Peter_J._Freyd)
+
 
 ## Related $n$Lab pages
 
@@ -12,6 +12,15 @@
 * [[Categories, Allegories]]
 * [[allegory]]
 
+
 category: people
+
+[[!redirects Freyd]]
+[[!redirects P Freyd]]
 [[!redirects P. Freyd]]
+[[!redirects PJ Freyd]]
+[[!redirects P J Freyd]]
 [[!redirects P. J. Freyd]]
+[[!redirects Peter Freyd]]
+[[!redirects Peter J Freyd]]
+[[!redirects Peter J. Freyd]]
