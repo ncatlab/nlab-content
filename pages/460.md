@@ -15,7 +15,7 @@
 
 ## Idea 
 
-If $\mathcal{O}(X)$ is the topology on a topological space $X$, and if a map $\mathcal{O}(X) \to \mathcal{O}(1)$ that preserves finite meets and arbitrary joins is considered an instance of "seeing a point $1 \to X$", then $X$ is "sober" if every point we see is really there (i.e., is induced from a point = continuous map $1 \to X$), and if we never see double. 
+If $\mathcal{O}(X)$ is the topology on a [[topological space]] $X$, and if a map $\mathcal{O}(X) \to \mathcal{O}(1)$ that preserves finite meets and arbitrary joins is considered an instance of "seeing a point $1 \to X$", then $X$ is "sober" if every point we see is really there (i.e., is induced from a point = continuous map $1 \to X$), and if we never see double. 
 
 ## Definition
 
@@ -47,7 +47,9 @@ In each case, half of the definition is that $X$ is $T_0$, the other half states
 
 ## Examples 
 
-* With [[classical logic]], every [[Hausdorff space]] is sober, but this can fail [[constructive mathematics|constructively]].
+* With [[classical logic]], every [[Hausdorff space]] is sober, but this can fail [[constructive mathematics|constructively]]. See at _[[Hausdorff implies sober]]_.
+
+* More generally, the topological space underlying any [[scheme]] is sober.
 
 ## Non-examples
 
