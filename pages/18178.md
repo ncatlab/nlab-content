@@ -1,3 +1,9 @@
+* table of contents
+{: toc}
+
+## Idea
+
+In the context of [[quantum mechanics]], the **collapse of the wave function**, also known as the **reduction of the wave packet**, is said to occur after [[observation]] or [[measurement]], when a wave function expressed as the sum of [[eigenfunctions]] of the observable is projected randomly onto one of them. Different [[interpretations of quantum mechanics]] understand this process differently.
 
 ## Related concepts
 
