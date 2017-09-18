@@ -211,7 +211,7 @@ The recursion principle for the coproduct gives the species
 
 $$ \array{
   (f + g) &:& X + Y \to Finset \\
-  (f + g) &:& (x, y) \mapsto f(x) + g(y)
+  (f + g) &:& rec_{X + Y}(FinSet, f, g) = z \mapsto \left\{\array{ f(x) & \text{if}\; z \equiv inl x \\ g(y) & \text {if}\; z \equiv inr y .}\right.
 }$$
 
 If $X$ and $Y$ are obtained from $\Phi$ and $\Psi$, respectively, then the coproduct is equal to 
