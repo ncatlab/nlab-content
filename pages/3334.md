@@ -16,9 +16,9 @@
 
 * [[equivariant stable homotopy theory]]
 
-## Lectures
+## Lectures and textbooks
 
-* {#Schwede12} _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* _[[Symmetric spectra]]_
 
 * _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
