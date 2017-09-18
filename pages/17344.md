@@ -3908,7 +3908,7 @@ Now by [[natural transformation|naturality]] of $\eta$, that total bottom rectan
 $$
   \array{
     Y \underset{Q(Y)}{\times} Z 
-      &\overset{\eta_{\left(Q \underset{Q(Y)}{\times} Z\right)}}{\longrightarrow}&
+      &\overset{\eta_{\left(Y \underset{Q(Y)}{\times} Z\right)}}{\longrightarrow}&
     Q(Y \underset{Q(Y)}{\times} Z)
       &\underoverset{\in W}{Q(p^\ast \eta_Y)}{\longrightarrow}&
     Q(Z)
