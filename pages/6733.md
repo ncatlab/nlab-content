@@ -312,7 +312,7 @@ A comparison of the different action functionals here is in
 
 The computation of the small fluctuations of this GS-type sigma-model around a solution embedding as the asymptotic boundary of the [[AdS-spacetime]] [[near-horizon geometry]] of a black 5-brane as [above](#ReferencesAsBlackBrane), and the proof, to low order, that the result is the [[6d (2,0)-supersymmetric QFT]] appearing in [[AdS-CFT|AdS7-CFT6 duality]] is due to 
 
-* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
+* {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
 
 
 A review with emphasis on the coupling to the [[M2-brane]] is in 
