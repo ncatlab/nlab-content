@@ -1,5 +1,12 @@
+[[!redirects geometry of physics -- smooth spaces]]
 
 > This entry contains one chapter of the material at _[[geometry of physics]]_.
+
+> previous chapter: _[[ geometry of physics -- coordinate systems|coordinate systems]]_
+
+> next chapters: _[[geometry of physics -- differential forms|differential forms]]_, _[[geometry of physics -- differentiation|differentiation]]_,
+
+> _[[geometry of physics -- smooth homotopy types]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,6 +27,10 @@
 {:toc}
 
 
+## Idea
+
+This chapter introduces a generalized kind of [[sets]] equipped with [[smooth structure]], to be called _smooth sets_ or _smooth spaces_. The definition subsumes that of [[smooth manifolds]], [[Frechet manifolds]] and [[diffeological spaces]] but is both simpler and more powerful. 
+
 ## **Smooth spaces**
  {#SmoothSpaces}
 
@@ -36,11 +47,26 @@ In this [Model Layer](#LayerMod) we discuss concretely the definition of [[smoot
 #### Plots of smooth spaces and their gluing
  {#PlotsOfSmoothSpacesAndTheirGluing}
 
-The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in def. \ref{CartesianSpacesAndSmoothFunctions} inside it, and that can be obtained by _gluing_ all the possible coordinate systems in it together. 
+The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in [this definition](geometry of physics -- coordinate systems#CartesianSpacesAndSmoothFunctions)  inside it, and that can be obtained by _gluing_ all the possible coordinate systems in it together. 
 
 At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define smooth spaces $X$ entirely _operationally_ as something about which we can ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answer to this question. The following definitions make precise what we mean by this. The reader wishing to see more motivational discussion first might look at _[[motivation for sheaves, cohomology and higher stacks|conceptual exposition]]_.
 
-For brevity we will refer "a way to lay out a coordinate system in $X$" as a _plot_ of $X$. The first set of consistency conditions on plots of a space is that they respect _coordinate transformations_. This is what the following definition formalizes.
+
+The idea of the following definitions may be summarized like this:
+
+1. a generalized _smooth space_ is something that may be probed by laying out coordinate systems into it, in a way that respects transformation of coordinate patches and gluing of coordinate patches;
+
+1. the [[Yoneda lemma]] says that this is consistent in that coordinate systems themselves as well as [[smooth manifolds]] may naturally be regarded as generalized smooth spaces themselves and that under this identification "laying out a coordinate system" in a smooth space means having a map of smooth spaces from the coordinate system to the smooth space.
+
++-- {: .num_defn }
+###### Definition (terminology)
+
+For brevity we will refer to "a way to lay out a coordinate system in $X$" as a _plot_ of $X$. 
+
+=--
+
+
+The first set of consistency conditions on plots of a space is that they respect _coordinate transformations_. This is what the following definition formalises.
 
 +-- {: .num_defn #SmoothPreSpace}
 ###### Definition
@@ -940,8 +966,8 @@ The [[sheaf topos]] $Sh(CartSp)$ is also a [[local topos]]
 
 $$
   (L Const \dashv \Gamma \dashv CoDisc)
-  :
-  Sh(CartSp) \stackrel{\overset{L Const}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoDisc}{\leftarrow}}} 
+  \colon
+  Sh(CartSp) \stackrel{\overset{L Const}{\longleftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{CoDisc}{\longleftarrow}}} 
   Set
 $$
 
@@ -1148,4 +1174,3 @@ For the [[unit of an adjunction|unit]] of the $(\Gamma \vdash coDisc)$-[[adjunct
 
 
 (...)
-
