@@ -70,7 +70,7 @@ An important point to bear in mind is that _essentially_ the same theories (wher
 
 ## Remarks 
 
-The multiplicity of ways in which one can describe essentially the same class of objects is a phenomenon which in higher category theory is often referred to as [[bias]]. Often one desires to use an 'unbiased' approach which includes different signatures under one roof and on the same footing. In the case of algebraic (equational) theories, this can be done using the device of clones or [[Lawvere theory|Lawvere theories]], which does not single out certain non-logical operations as 'privileged'. 
+The multiplicity of ways in which one can describe essentially the same class of objects is a phenomenon which in higher category theory is often referred to as [[bias]]. Often one desires to use an 'unbiased' approach which includes different signatures under one roof and on the same footing. In the case of algebraic (equational) theories, this can be done using the device of [[clone]]s or [[Lawvere theory|Lawvere theories]], which does not single out certain non-logical operations as 'privileged'. 
 
 There are several reasons though why one might prefer to retain some bias, for example: 
 
