@@ -151,6 +151,8 @@ reviewed for instance in
 
 * [[Daniel Freed]], Robert Gompf, _Computer calculation of Witten's 3-Manifold invariant_, Commun. Math. Phys. 141,79-117 (1991) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/freedgompf.pdf))
 
+* [[Gregor Masbaum]], section 2 of _Spin TQFT and the Birman-Craggs Homomorphism_, Tr. J. of Mathematics 19 (1995)  [pdf](http://journals.tubitak.gov.tr/math/issues/mat-95-19-2/pp-189-199.pdf)
+
 * {#Freed08} [[Daniel Freed]], _Remarks on Chern-Simons theory_ ([arXiv:0808.2507](http://arxiv.org/abs/0808.2507), [pdf slides](http://www.ma.utexas.edu/users/dafr/MSRI_25.pdf))
  
 
