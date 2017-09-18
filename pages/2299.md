@@ -19,13 +19,18 @@
 
 ## Idea
 
-_Higher geometry_ studies the notions of [[space]] and [[geometry]] in [[higher category theory]]. Specifically if the spaces on which the geometry is _modeled_ are themselves objects in higher category theory this is also called _[[derived geometry]]_ .
+_Higher geometry_ or _homotopical geometry_ refers to the generalization of [[geometry]] in the context of [[higher category theory]] and [[homotopy theory]]. More specifically, it is the geometry of some [[(infinity,1)-category]] $\mathcal{G}$ of "local models" or "test spaces". Given such a $\mathcal{G}$, together with some additional structure, one gets a hierarchy of "generalized spaces":
+
+* representable or affine $\mathcal{G}$-stacks
+  $\hookrightarrow$ $\mathcal{G}$-schemes
+  $\hookrightarrow$ $\mathcal{G}$-stacks
+  $\hookrightarrow$ $\mathcal{G}$-prestacks
 
 Higher geometry is typically built on [[(∞,1)-topos theory]], which (see [[topos]]) provides a general context in which to speak of generalizations of [[topological space]]s. The axioms of higher geometry typically impose extra structures on [[(∞,1)-topos]]es that encode genuine _geometry_ .
 
 There are two aspects to this, induced from the two aspects of [[big and little topos]]es:
 
-* A _little $(\infty,1)$-topos_ encodes itself a [[space]]. Axioms for equipping little $(\infty,1)$-toposes with geometric structure have been given in ([Lurie](#Lurie)) in terms of the notion of [[structured (∞,1)-topos]]es.
+* A _little $(\infty,1)$-topos_ encodes a [[space]] itself. Axioms for equipping little $(\infty,1)$-toposes with geometric structure have been given in ([Lurie](#Lurie)) in terms of the notion of [[structured (∞,1)-topos]]es.
 
 * A _big $(\infty,1)$-topos_ is an [[(∞,1)-category]] whose _[[object]]s_ are generalized spaces. Axioms for characterizing big [[topos]]es that encode geometry have been given in ([Lawvere](#Lawvere)). Their generalization to $(\infty,1)$-topos theory is given by the notion of a [[cohesive (∞,1)-topos]].
 
@@ -33,12 +38,7 @@ Under forming [[groupoid convolution algebras]] and their higher analog, at leas
 
 ## Axiomatizations
 
-Let $\mathcal{G}$ be an [[infinity-category]] of "local models" or "test spaces".
-Given the data of a [[Grothendieck topology]] $\tau$ on $\mathcal{G}$, one gets the notion of a [[derived stack|higher stack]] relative to $\mathcal{G}$.
-There are various further structures one can endow on $\mathcal{G}$ in order to get "finer" objects ([[derived schemes|higher schemes]]).
-
-One option is the structure of a [[geometry (for structured (∞,1)-toposes)|geometry]].
-This gives a hierarchy of generalized objects:
+Let $\mathcal{G}$ be an [[(infinity,1)-category]] of "local models" or "test spaces". Given the data of a [[Grothendieck topology]] $\tau$ on $\mathcal{G}$, one gets the notion of a $\mathcal{G}$-[[infinity-stack|stack]]. In order to get the finer notion of $\mathcal{G}$-[[infinity-scheme]], one needs to consider some further structure on $\mathcal{G}$. For example, one can consider the structure of a [[geometry (for structured (∞,1)-toposes)|geometry]] (in the sense of the linked page), or the structure of a [[homotopical algebraic geometry]] context. In the former case one gets the following hierarchy of generalized spaces:
 
 * [[geometry (for structured (∞,1)-toposes)|test spaces]] $\hookrightarrow$
   [[generalized scheme|spaces locally equivalent to test spaces]]
@@ -59,9 +59,7 @@ technically modeled by:
 
 A plethora of proposals for formalizations of higher geometry find their home in this pattern, for instance most of the concepts listed at [[generalized smooth space]].
 
-Alternatively, one can consider the structure of a [[homotopical algebraic geometry]] context on $\mathcal{G}$, which gives a similar hierarchy.
-
-A notable exception to this is possibly the program by [[Maxim Kontsevich]] and others where under the term [[noncommutative geometry]] and [[derived noncommutative geometry]] spaces are modeled as the formal dual to [[A-∞-categories]]. But $A_\infty$-categories are presentations for [[stable (∞,1)-categories]] and by the <a href="http://ncatlab.org/nlab/show/stable+(infinity%2C1)-category#StabGiraud">stable Giraud theorem</a> _presentable_ stable $(\infty,1)$-categories play a very similar role to (unstable) [[∞-stack]] [[(∞,1)-topos]]es. In particular they may be obtained from the latter by [[stabilization]]. 
+One notion of generalized [[space]] in higher geometry that does _not_ fit into this pattern is apparently [[derived noncommutative algebraic geometry]] where spaces are modelled as the formal duals to [[dg-categories]]. But dg-categories are presentations for [[stable (∞,1)-categories]] and by the <a href="http://ncatlab.org/nlab/show/stable+(infinity%2C1)-category#StabGiraud">stable Giraud theorem</a> _presentable_ stable $(\infty,1)$-categories play a very similar role to (unstable) [[∞-stack]] [[(∞,1)-topos]]es. In particular they may be obtained from the latter by [[stabilization]]. 
 
 
 
