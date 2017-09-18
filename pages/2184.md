@@ -116,6 +116,8 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 
   * [[omega-graph]]
 
+* [[planar graph]]
+
 * [[ribbon graph]]
 
 * [[hypergraph]]
