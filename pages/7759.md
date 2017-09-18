@@ -10,7 +10,7 @@ An __abstract elementary class__ is a __nonempty__ class $K$ of structures for a
 
 * (b) if $N_1,N_2,M_1,M_2\in K$, $f_i : N_i\cong M_i$, $i = 1,2$, $f_1\subset f_2$, with $M_1\prec_K M_2$ then $N_1\prec_K N_2$
 
-(A2) for $M,N,P\in K$, if $M\prec_K P$, $N\prec_K P$, and $M\subset N$, then $M\prec_K P$ 
+(A2) for $M,N,P\in K$, if $M\prec_K P$, $N\prec_K P$, and $M\subset N$, then $M\prec_K N$ 
 
 (A3) downward Loewenheim-Skolem. There exist a cardinal $LS(K) = LS(K,\prec_K)\geq |L(K)|+\aleph_0$ such that $\forall M\in K$, $\forall A\subset |M|$, $\exists N\in K$ with $A\subset |N|$, $N\prec_K M$, $\|N\|\leq |A|+LS(K)$.  
 
