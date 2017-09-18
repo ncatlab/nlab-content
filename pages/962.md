@@ -128,6 +128,8 @@ The above was taken from an article:
 
 * [[Tim Porter]], Abstract Homotopy Theory, the interaction of category theory and homotopy theory , Cubo Matematica Educacional, 5, (2003), 115--165.
 
+Fundamental groups of toposes are already on [[SGA4]], Expose IV _Exercice 2.7.5._
+
 The general construction of the first geometric homotopy group of objects in a [[Grothendieck topos]] is in section 8.4 of
 
 * [[Peter Johnstone]], _Topos theory_ 
