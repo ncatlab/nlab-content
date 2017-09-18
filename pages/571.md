@@ -149,6 +149,8 @@ In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any mono
 
 * [[image]], [[coimage]]
 
+* a category in which all morphisms are monomorphisms is called a _[[left cancellative category]]_
+
 [[!redirects monomorphisms]]
 [[!redirects monic]]
 [[!redirects monics]]
