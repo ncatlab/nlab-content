@@ -183,6 +183,8 @@ But the statement is also easily directly checked.
 
 The category $Set_\ast$ of [[pointed sets]] has a subobject classifier (specified up to unique isomorphism as the pointed set with two elements). 
 
+If one is willing to admit non-locally small categories, then the category of [[proper class|classes]] in [[ZFC]] is not a topos (it is not cartesian closed) but has a subobject classifier: any two-element set.
+
 
 ## Properties
 
