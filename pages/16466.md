@@ -48,6 +48,12 @@ By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[cate
 
 This section provides exposition of the necessary background for the statement of Deligne's theorem (theorem \ref{TheTheorem} below).
 
+We recall the incarnation of [[groups]] a [[Hopf algebras]], the corresponding incarnation of [[linear representations]] as [[comodules]], and the [[tensor product]] structure on these. Then we recall the definition of [[symmetric monoidal categories]] and consider the category of [[super vector spaces]] [[sVect]] as an example for a non-trivial symmetric [[braiding]]. Using this we discuss [[supercommutative superalgebra]] as ordinary [[commutative algebra]] but [[internalization|internal]] to [[sVect]] and thus obtain the definition of (affine algebraic) [[supergroups]] and their [[linear representations]] as [[formal duals]] of [[supercomutative Hopf algebras]] and of [[comodules]] over these, respectively.
+
+
+
+### Groups as Hopf algebras
+
 We are interested in [[groups]] equipped with [[geometry]]. 
 
 A familiar example is [[differential geometry]], where one considers groups whose underlying set is promoted to a [[smooth manifold]] and all whose operations (product, inverses) are [[smooth functions]]. These are of course [[Lie groups]]. 
@@ -125,9 +131,7 @@ Now the [[associativity]] of the group product translates into a corresponding d
 What actually appears in the main theorem \ref{TheTheorem} below are "affine algebraic super-groups". One way to say this is that they are [[super-scheme|super-]][[group schemes]] whose underlying [[super-scheme]] is a [[super-scheme|super-]][[affine variety]]. Some of these are [[super Lie groups]], namely [[group objects]] in [[supermanifolds]].  But by their affine-ness, affine algebraic supergroups have a direct algebraic, description as [[Hopf algebras]], and we make this explicit now. 
 
 
-### Groups as Hopf algebras
-
-The explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]].
+So the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspectiv is straightforward, we may just as well consider it in the generality of [[groupoids]]:
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
@@ -741,9 +745,84 @@ In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{Coh
 +-- {: .num_example }
 ###### Example
 
-[[super vector spaces]]
+A $\mathbb{Z}/2$-[[graded object|graded]] [[vector space]] (where $\mathbb{Z}/2$ is the [[cyclic group of order 2]]) is simply a [[direct sum]] of two vector spaces
 
-(non-trivial symmetric braiding,...)
+$$
+  V = V_{even} \oplus V_{odd}
+  \,,
+$$
+
+where we think of $V_{even}$ as the summand that is graded by the [[neutral element]] in $\mathbb{Z}/2$, and of $V_{odd}$ as being the summand that is graded by the single non-trivial element. 
+
+A [[homomorphism]] of $\mathbb{Z}/2$-graded vector spaces
+
+$$
+  f \;\colon\; V_1 \longrightarrow V_2
+$$
+
+is a [[linear map]] of the underlying vector spaces that respects the grading, hence equivalently a pair of linear maps 
+
+$$
+  f_{even} \;\colon\; (V_1)_{even} \longrightarrow (V_1)_{even}
+$$
+
+$$
+  f_{odd} \;\colon\; (V_1)_{odd} \longrightarrow (V_1)_{odd}
+$$
+
+between then summands in evem degree and in odd degree, respectively:
+
+$$
+  f = f_{even} \oplus f_{odd}
+  \,.
+$$
+
+The [[tensor product]] of $\mathbb{Z}/2$-graded vector space is the [[tensor product of modules]] of the underlying vector spaces, but with the grading obtained from multiplying the original gradings in $\mathbb{Z}/2$. Hence
+
+$$
+  (V_1 \otimes V_2)_{even}
+    \coloneqq
+  (V_1)_{even} \otimes (V_2)_{even}
+    \oplus
+  (V_1)_{odd} \otimes (V_2)_{odd}
+$$
+
+and
+
+$$
+  (V_1 \otimes V_2)_{odd}
+    \coloneqq
+  (V_1)_{even} \otimes (V_2)_{odd}
+    \oplus
+  (V_1)_{odd} \otimes (V_2)_{even}
+  \,.
+$$
+
+This definition makes $\mathbb{Z}/2$ a [[monoidal category]]. There are now two choices for a [[symmetric monoidal category|symmetric]] [[braiding]] on this monoidal category:
+
+1. the trivial braiding. The resulting [[symmetric monoidal category]] we call that of $\mathbb{Z}/2$-[[graded vector spaces]].
+
+1. the braiding which is the identity on all [[direct sum|direct summands]] one of whose factors is in even degree, but is multiplication by -1 on the direct summand both whose factors are in odd degree: i.e. 
+
+   $$
+     V_1 \otimes V_2 
+       \stackrel{\tau_{V_1,V_2}}{\longrightarrow}
+     V_2 \otimes V_1
+   $$
+
+   is the linear function which on vectors $v_1, v_2$ in homogeneous degree is given by
+
+   $$
+     \tau_{V_1, V_2} 
+        \;\colon\;
+     (v_1, v_2)
+        \mapsto
+     (-1)^{deg(v_1) deg(v_2)}
+     \,
+     (v_2,v_1)
+   $$
+
+   The resulting [[symmetric monoidal category]] is called the category [[sVect]] of   **[[super vector spaces]]**.
 
 =--
 
@@ -1238,7 +1317,7 @@ Further discussion in view of the theory of [[triangular Hopf algebras]] is in
 * {#EtingofGelaki02} [[Pavel Etingof]], [[Shlomo Gelaki]], _The classification of finite-dimensional triangular Hopf algebras over an algebraically closed field of characteristic 0_ ([arXiv:0202258](http://de.arxiv.org/abs/math/0202258))
 
 
-Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, here just being an involutive central element) is discussed in
+Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, here just being an involutive central element) is discussed in# Back
 
 * {#Mueger06} [[Michael Müger]], _Abstract Duality Theory for Symmetric Tensor $*$-Categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
 
