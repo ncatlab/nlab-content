@@ -40,6 +40,8 @@ Notice the similarity to ([Hegel 12](#Hegel12)), for more on this see ([Hegel 27
 
 * [[logos (in philosophy)]], [[Nous]]
 
+* [[hermeticism]]
+
 ## References
 
 * Wikipedia, _[Tao Te Ching](http://en.wikipedia.org/wiki/Tao_Te_Ching)_
