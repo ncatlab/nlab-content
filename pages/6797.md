@@ -41,6 +41,8 @@ Reviews and lecture notes include
 
 * R. Argurio, [[Glenn Barnich]], G. Bonelli, M. Grigoriev (eds.) _Higher spin gauge theories_ Solvay Workshops and Symposia  (2004) ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Solvay1proc.pdf))
 
+* Pan Kessel, _The Very Basics of Higher-Spin Theory_ ([arXiv:1702.03694](https://arxiv.org/abs/1702.03694))
+
 Further developments include for instance
 
 * Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
