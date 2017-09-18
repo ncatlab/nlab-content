@@ -33,14 +33,17 @@ This is true for instance for the case
 
 * $\mathbf{H} = $ [[Smooth∞Grpd]] 
 
-This is due to ([Pavlov, theorem 0.2](#Pavlov)). For $X$ a [[stable homotopy type]] in the [[tangent (∞,1)-topos]] $T Smooth\infty Grpd$ this was observed in [Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13)
+This is due to ([BEBP](#BEBP), see [Pavlov, theorem 0.2](#Pavlov)). For $X$ a [[stable homotopy type]] in the [[tangent (∞,1)-topos]] $T Smooth\infty Grpd$ this was observed in [Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13)
 
 
 
 ## References
 
-* {#Pavlov} [[Dmitri Pavlov]], _Brown representability via concordance_ ([pdf](https://dmitripavlov.org/concordance.pdf))
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+
+* {#BEBP} Daniel Berwick-Evans, Pedro Boavida de Brito, Dmitri Pavlov, _Classifying spaces of infinity-sheaves_ Manuscript in preparation.
+
+* {#Pavlov} [[Dmitri Pavlov]], _Brown representability via concordance_ ([pdf](https://dmitripavlov.org/concordance.pdf))
 
 [[!redirects shape via cohesive path infinity-groupoid]]
