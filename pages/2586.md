@@ -261,7 +261,7 @@ Another extension of $SO$ is the [[spin^c group]].
 
 A standard textbook reference is
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter I, section 2 of _[[Spin geometry]]_, Princeton University Press (1989)
 
 See also
 
