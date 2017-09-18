@@ -1545,6 +1545,9 @@ The above discussion is from
 
 [[!redirects circle bundle with connection]]
 [[!redirects circle bundles with connection]]
+[[!redirects circle-bundle with connection]]
+[[!redirects circle-bundles with connection]]
+
 
 [[!redirects circle 2-bundle with connection]]
 [[!redirects circle 2-bundles with connection]]
