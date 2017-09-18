@@ -1303,12 +1303,11 @@ A nice introduction and survey is provided in the notes
 
 Detailed discussion of the injective model structures on simplicial presheaves is in
 
-* {#JardineLecture} [[John Frederick Jardine]], _Simplicial presheaves_ Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* {#JardineLecture} [[John F. Jardine]], _Simplicial presheaves_ Journal of Pure and Applied Algebra 47 (1987), 35-87 ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
+* [[John F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
 
-* [[John Frederick Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
-
-* {#Jardine96} [[John Frederick Jardine]], _Boolean localization, in practice_ ([web](http://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
+* {#Jardine96} [[John F. Jardine]], _Boolean localization, in practice_ ([web](http://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
   
 
 * [[John F. Jardine]], _[[Local homotopy theory]]_ (2011) ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/book.pdf))
