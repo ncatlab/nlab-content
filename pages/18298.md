@@ -177,7 +177,7 @@ $$
   X \times \mathbb{R}^n \overset{pr_1}{\to} X
 $$ 
 
-canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _trivial vector bundle_ of [[rank]] $n$ over $X$.
+canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _[[trivial vector bundle]]_ of [[rank]] $n$ over $X$.
 
 Given any topological vector bundle $E \to X$, then a choice of [[isomorphism]] to a trivial bundle (if it exists)
 
@@ -405,12 +405,13 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 ## Properties
 
 ### Direct summand bundles
+ {#DirectSummandBundles}
 
 We discuss properties of the [[direct sum of vector bundles]] for topological vector bundles.
 
-+-- {: .num_prop }
++-- {: .num_prop #TopologicalSubBundlesOverParacompactHausdorffSpacesAreDirectSummands}
 ###### Proposition
-**(sub-bundles over [[paracompact spaces]] are [[direct sum of vector bundlesdirect summands]])**
+**(sub-bundles over [[paracompact spaces]] are [[direct sum of vector bundles|direct summands]])**
 
 Let 
 
@@ -418,7 +419,7 @@ Let
 
 1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}). 
 
-Then every topological vector sub-bundle $E_1 \hookrightarrow E$ (example \ref{TopologicalVetorSubbundle}) is a direct vector bundle summand, in that there exists another vector subbundle $E_2 \hookrightarrow E$ such that their direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) is $E$
+Then every topological vector sub-bundle $E_1 \hookrightarrow E$ (example \ref{TopologicalVetorSubbundle}) is a direct vector bundle summand, in that there exists another vector sub-bundle $E_2 \hookrightarrow E$ (example \ref{TopologicalVetorSubbundle}) such that their [[direct sum of vector bundles]] is $E$:
 
 $$
   E_1 \oplus E_2 \simeq E
@@ -442,19 +443,19 @@ $$
   X \times \mathbb{R}
 $$
 
-(by [this porp.](inner+product+of+vector+bundles#ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)). This defines at each $x \in X$ the [[orthogonal complement]] $(E'_x)^\perp \subset E_x$ of $E'_x \hookrightarrow E$. The [[subspace]] of these orthogonal complements is readily checked to be a [[topological vector bundle]] $(E')^\perp \to X$. Hence by construction then
+(by [this prop.](inner+product+of+vector+bundles#ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)). This defines at each $x \in X$ the [[orthogonal complement]] $(E'_x)^\perp \subset E_x$ of $E'_x \hookrightarrow E$. The [[subspace]] of these orthogonal complements is readily checked to be a [[topological vector bundle]] $(E')^\perp \to X$. Hence by construction we have
 
 $$
-  E \simeq E' \oplus (E')^\perp
+  E \;\simeq\; E' \oplus_X (E')^\perp
   \,.
 $$
 
 =--
 
 
-+-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
++-- {: .num_prop #TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle}
 ###### Proposition
-**(vector bundles over a [[compact Hausdorff space]] are [[direct sum of vector bundles|direct summands]] of a trivial bundle)**
+**(vector bundles over a [[compact Hausdorff space]] are [[direct sum of vector bundles|direct summands]] of a [[trivial vector bundle]])**
 
 Let 
 
@@ -462,7 +463,7 @@ Let
 
 1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}).
 
-Then there exists another topological vector bundle $\tilde E \to X$ such that the [[direct sum of vector bundles]] of the two is a trivial vector $X \times \mathbb{R}^n$:
+Then there exists another topological vector bundle $\tilde E \to X$ such that the [[direct sum of vector bundles]] of the two is a [[trivial vector bundle]] $X \times \mathbb{R}^n$:
 
 $$
   E \oplus \tilde E
@@ -475,7 +476,93 @@ $$
 
 (e.g. [Hatcher, prop. 1.4](#Hatcher), [Friedlander, ptop. 3.1](#Friedlander))
 
-Prop. \ref{Smooth0TypeIsSheavesOnSmoothMfd} is key for the construction of [[topological K-theory]] groups on compact Hausdorff spaces.
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$ over which $E \to X$ has a [[local trivialization]]
+
+$$
+  \left\{
+    \phi_i
+      \;\colon\;
+     U_i \times \mathbb{R}^n
+       \overset{\simeq}{\longrightarrow}
+     E\vert_{U_i}
+  \right\}_{i \in I}
+  \,.
+$$
+
+By compactness of $X$, there is a [[finite cover|finite sub-cover]], hence a [[finite set]] $J \subset I$ such tat 
+
+$$
+  \{U_i \subset X\}_{i \in J \subset I}
+$$
+
+is still an open cover over which $E$ trivializes.
+
+Since [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]] there exists a [[partition of unity]]
+
+$$
+  \left\{
+    f_i \;\colon\; X \to [0,1]
+  \right\}_{i \in J}
+$$
+
+with [[support]] $supp(f_i) \subset U_i$. Hence the functions
+
+$$
+  \array{
+    E\vert_{U_i} 
+     &\overset{\phantom{AAAA}}{\longrightarrow}&
+    U_i \times \mathbb{R}^n
+    \\
+    v 
+       &\overset{\phantom{AAA}}{\mapsto}&
+    f_i(x) \cdot \phi_i^{-1}(v)
+  }
+$$
+
+extend by 0 to vector bundle homomorphism of the form
+
+$$
+  f_i \cdot \phi^{-1}_i
+  \;\colon\;
+  E
+    \longrightarrow
+  X \times \mathbb{R}^n
+  \,.
+$$
+
+The finite pointwise [[direct sum]] of these yields a vector bundle homomorphism
+of the form
+
+$$
+  \underset{i \in J}{\oplus} f_i \cdot \phi_i
+  \;\colon\;
+  E
+    \longrightarrow
+  X \times \left( 
+    \underset{i \in J}{\oplus}
+       \mathbb{R}^n
+  \right)
+  \simeq
+  X \times \mathbb{R}^{n \dot {\vert J\vert}}
+  \,.
+$$
+
+Observe that, as opposed to the single $f_i \cdot \phi^{-1}_i$, this is a fiber-wise injective, because at each point at least one of the $f_i$ is non-vanishing. Hence this is an injection of $E$ into a trivial vector bundle. 
+
+With this the statement follows by prop. \ref{TopologicalSubBundlesOverParacompactHausdorffSpacesAreDirectSummands}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{OverCompactHausdorffSpacesEveryTopologicalVectorBundleIsDirectSummandOfATrivialBundle} is key for the construction of [[topological K-theory]] groups on compact Hausdorff spaces.
+
+=--
+
 
 
 
