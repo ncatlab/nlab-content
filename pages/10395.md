@@ -58,6 +58,10 @@ $$
 
 constitutes an [[equivalence of groupoids]] between that of $G$-[[principal bundles]] over $Y \times S^1$ and [[loop group]]-principal bundles over $Y$.
 
+## Related concepts
+
+* [[double dimensional reduction]]
+
 ## References
 
 The term "caloron correspondence" originates in 
