@@ -11,15 +11,19 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Quillen adjunctions are one convenient notion of morphism between [[model category|model categories]].  They present [[adjoint (∞,1)-functors]] between the [[(∞,1)-category|(∞,1)-categories]] [[presentable (infinity,1)-category|presented]] by the model categories.
+Quillen adjunctions are one convenient notion of [[morphisms]] between [[model categories]].  They present [[adjoint (∞,1)-functors]] between the [[(∞,1)-category|(∞,1)-categories]] [[presentable (infinity,1)-category|presented]] by the model categories.
 
 
 ## Definition 
+ {#Definition}
+
++-- {: .num_defn #QuillenAdjunction}
+###### Definition
 
 For $C$ and $D$ two [[model category|model categories]], a pair $(L,R)$
 
@@ -28,32 +32,83 @@ $$
   D
 $$
 
+of [[adjoint functors]] (with $L$ [[left adjoint]] and $R$ [[right adjoint]]) is a **Quillen adjunction** if the following equivalent conditions are satisfied:
 
-of [[adjoint functors]] (with $L$ [[left adjoint]]) is a **Quillen adjunction** if the following equivalent conditions are satisfied:
+1. $L$ preserves cofibrations and acyclic cofibrations;
 
-* $L$ preserves cofibrations and acyclic cofibrations;
+1. $R$ preserves fibrations and acyclic fibrations;
 
-* $R$ preserves fibrations and acyclic fibrations;
+1. $L$ preserves cofibrations and $R$ preserves fibrations;
 
-* $L$ preserves cofibrations and $R$ preserves fibrations;
+1. $L$ preserves acyclic cofibrations and $R$ preserves acyclic fibrations.
 
-* $L$ preserves acyclic cofibrations and $R$ preserves acyclic fibrations.
-
-Quillen adjunctions that are analogous to an [[equivalence of categories]] are called [[Quillen equivalences]].
-
-In an [[enriched model category]] one speaks of [[enriched Quillen adjunction]].
-
-
-
-## Properties
-
-### General
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
+The conditions in def. \ref{QuillenAdjunction} are indeed all equivalent.
 
-It follows from the definition that
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that
+
+* (i) _A [[left adjoint]] $L$ between [[model categories]] preserves acyclic cofibrations precisely if its [[right adjoint]] $R$ preserves fibrations.
+
+* (ii) _A [[left adjoint]] $L$ between [[model categories]] preserves cofibrations precisely if its [[right adjoint]] $R$ preserves acyclic fibrations.
+
+We discuss statement (i), statement (ii) is [[formal dual|formally dual]].  So let $f\colon A \to B$ be an acyclic cofibration in $\mathcal{D}$ and $g \colon X \to Y$ a fibration in $\mathcal{C}$. Then for every [[commuting diagram]] as on the left of the following, its $(L\dashv R)$-[[adjunct]] is a commuting diagram as on the right here:
+
+$$
+  \array{
+    A &\longrightarrow& R(X)
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{R(g)}}
+    \\
+    B &\longrightarrow& R(Y)
+  }
+  \;\;\;\;\;\;
+  \,,
+  \;\;\;\;\;\;
+  \array{
+    L(A) &\longrightarrow& X
+    \\
+    {}^{\mathllap{L(f)}}\downarrow && \downarrow^{\mathrlap{g}}
+    \\
+    L(B) &\longrightarrow& Y
+  }
+  \,.
+$$
+
+If $L$ preserves acyclic cofibrations, then the diagram on the right has a [[lift]], and so the $(L\dashv R)$-[[adjunct]] of that lift is a lift of the left diagram. This shows that $R(g)$ has the [[right lifting property]] against all acylic cofibrations and hence is a fibration. 
+Conversely, if $R$ preserves fibrations, the same argument run from right to left gives that $L$ preserves acyclic fibrations.
+
+Now by repeatedly applying (i) and (ii), all four conditions in question are seen to be equivalent.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Quillen adjunctions that are analogous to an [[equivalence of categories]] are called _[[Quillen equivalences]]_.
+
+In an [[enriched model category]] one speaks of _[[enriched Quillen adjunction]]_.
+
+=--
+
+
+## Properties
+
+### Derived adjunction
+
++-- {: .num_prop}
+###### Proposition
+**([[Ken Brown's lemma]])**
+
+Given a [[Quillen adjunction]] $(L \dashv R)$ (def. \ref{QuillenAdjunction}), then
 
 * the [[left adjoint]] $L$ preserves weak equivalences between cofibrant objects;
 
@@ -66,18 +121,17 @@ It follows from the definition that
 ###### Proof
 
 To show this for instance for $R$, we may argue as in a 
-[[category of fibrant objects]] and apply the _factorization lemma_
+[[category of fibrant objects]] and apply the _[[factorization lemma]]_
 which shows that every weak equivalence between fibrant objects may be
-
 factored, up to [[homotopy]], as a [[span]] of acyclic fibrations.
 
 These weak equivalences are preserved by $R$ and hence by [[category with weak equivalences|2-out-of-3]] the claim follows. 
 
-For $L$ we apply the formally dual argument.
+For $L$ we apply the [[formal dual|formally dual]] argument.
 
 =--
 
-### Behaviour under localization
+### Behaviour under Bousfield localization
  {#BehaviourUnderLocalization}
 
 +-- {: .num_prop}
