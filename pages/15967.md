@@ -42,26 +42,34 @@ One may define the strict [[projective line]] $\mathbb{P}^1_R$ over $R$ by pasti
 One may try a similar construction to define higher dimensional global [[unitary groups]]: one may simply start from the strict [[polydisc]]
 
 $$
-  D^1 M_n
-  =
-  \mathbb{M}(R\{(a_{ij})_{1\leq i,j\leq n}\}^\dagger)
-  \,,
+  M_n^{\leq 1}
+  := \{(a_{ij})\in M_n,\;\max_{i,j}|a_{ij}|\leq 1\}
 $$
 in the (non-strict analytic) [[affine space]] $M_n=\mathbb{A}^{n^2}$ of [[matrices]],
-and consider the rational domain $R_n\subset D^1 M_n$ defined by
-$$R_n:=\{(a_{ij}),\;|na_{ij}|\leq 1\;\forall 1\leq i,j\leq n\}.$$
-
-
-One then define the $n$-dimensional global unitary group to be given by
-
+and define the $n$-dimensional global unitary group to be given by
+the subspace of $M_n^{\leq 1}\times_R M_n^{\leq 1}$ defined by
 $$
   U(n)
   \coloneqq 
-  \mathbb{M}(R\{((a_{ij}),(b_{ij})\}^\dagger/A B = B A = I)
+  \{(A,B)\in M_n^{\leq 1}\times_R M_n^{\leq 1},\;A B = B A = I\}
   \,.
 $$
+The dagger algebra of functions on $U(n)$ is defined by
+$$A_{U(n)}:=R\{(a_{ij}),(b_{ij})\}^\dagger/(A B = B A = I).$$
 
-Over $(\mathbb{Z},|\cdot|_0)$, we have $U(n)(\mathbb{Z})\cong GL_n(\mathbb{Z})$, but over $(\mathbb{Z},|\cdot|_\infty)$, the group $U(n)(\mathbb{Z})$ is closer to what people usually denote $\GL_n(\mathbb{F}_{\{\pm 1\}})$, where $\mathbb{F}_{\{\pm 1\}}$ denotes the [[field with one element]] in Durov's sense.
+Over $(\mathbb{Z},|\cdot|_0)$, the scheme (i.e., strict analytic space over a trivially normed ring) $U(n)$  is isomorphic to $GL_{n,\mathbb{Z}}$, but over $(\mathbb{Z},|\cdot|_\infty)$, the group $U(n)$ is closer to what people usually denote $\GL_n(\mathbb{F}_{\{\pm 1\}})$, where $\mathbb{F}_{\{\pm 1\}}$ denotes the [[field with one element]] in Durov's sense. Over $\mathbb{C}$, the group $U(n)$ contains the classical unitary group $U(n)(\C)$, since one has, for every complex matrix $A=(a_{ij})$, a natural inequality
+$$\|A\|_{max}:=\max(|a_{ij}|)\leq \|A\|_2,$$
+where $\|A\|_2$ is the operator norm for the hermitian norm on $\mathbb{C}^n$.
+It is also clearly compact (contained in a product of polydiscs) and contained in the non-strict analytic group $\GL_{n}(\mathbb{C})$. Since $U(n)(\mathbb{C})$ is a maximal compact subgroup, we have that $U(n)$ is indeed the complex unitary group over $\mathbb{C}$.
+
+###  Arithmetic principal unitary bundles
+
+The good properties of the global analytic unitary group **may** imply that there is a natural bijection
+$$
+\pi_0(BU(n)(\mathbb{Z},|\cdot|_\infty))\cong
+K\backslash \GL_n(\mathbb{A})/\GL_n(\mathbb{Q}),$$
+where $K$ is the maximal compact subgroup $O(n,\mathbb{R})\times \GL_n(\hat{\mathbb{Z}})$ of $\GL_n(\mathbb{A})$.
+It is thus quite a tempting idea to try to formulate the arithmetic [[Langlands program]] in geometric terms (similar to the ones used in the [[geometric Langlands correspondence]] over a function field) using the classifying stack $BU(n)$ of principal $U(n)$-bundles on strict global analytic spaces. 
 
 ## Reference
 
