@@ -18,6 +18,7 @@
 
 ## Definition
 
+Let $E$ be a finite-dimensional Euclidean vector space, i.e. a real vector space equipped with a positive-definite inner product $\langle - | - \rangle$. A root system in $E$ is a finite set of nonzero vectors $\Delta \subset E \smallsetminus \{0 \}$ satisfying the following axioms:
 
 ## Related concepts
 
