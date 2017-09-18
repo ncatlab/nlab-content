@@ -9,15 +9,13 @@ A **generalized graph** in the sense of [HRY](#HRY) is a generalization of the n
 
 A generalized graph can be visualized as a set of vertices with half edges attached to them, a rule for attaching half edges to glue the vertices together, and potentially some half edges (flags) that are attached to only one or zero vertices. For instance, a particularly simple generalized graph is one with no vertices and one edge. 
 
-Assume we have fixed an infinite set $\mathcal{S}$ for the remainder of this entry.
-
 ## Definitions ##
  The following is Definition 2.2 of [HRY](#HRY):
 
 +-- {: .num_defn }
 ###### Definition
 
-A generalized graph $G$ is a finite set $Flag(G)\subseteq \mathcal{S}$ with:
+A generalized graph $G$ is a finite set $Flag(G)$ with:
 
    * a partition of $Flag(G)=\coprod_{\alpha\in A} F_\alpha$ into **cells** with $A$ finite,
 
@@ -42,9 +40,9 @@ Given a generalized graph $G$, Definition 2.3 of [HRY](#HRY) gives some useful t
 =--
 
 
-##Properties##
+##Extra Structure##
 
-There are a number of important properties that a generalized graph can possess which will be useful in using them to describe [[properads]]. The following is again from [HRY](#HRY):
+There are a number of important structures that a generalized graph can possess which will be useful in using them to describe [[properads]]. The following is again from [HRY](#HRY):
 
 +-- {: .num_defn }
 ###### Definition 
