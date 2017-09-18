@@ -3344,11 +3344,12 @@ from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian
 #### Generalized cohomology functors
  {#GeneralizedHomologyAndCohomologyFunctors}
 
-**Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), _except_ that its value on the point is not required to be concentrated in degree 0.
+**Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), _except_ that its value on the point is not required to be concentrated in degree 0. Dually for [[generalized homology]]. There are two versions of the axioms, one for [[reduced cohomology]], and while not quite equivalent, they are closely related.
 
 An important example of a generalised cohomology theory other than [[ordinary cohomology]] is [[topological K-theory]]. The other two examples of key relevance below are [[cobordism cohomology]] and [[stable cohomotopy]].
 
-**Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
+**Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96), [Karpova 09](#Karpova09))
+
 
 
 #### Brown representability theorem
@@ -3358,9 +3359,11 @@ An important example of a generalised cohomology theory other than [[ordinary co
 
 Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum.
 
-Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not fully apply here, since a spectrum is more than just one (homotopy type of a) topological space).
+Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not fully apply here, since a (co)homology functor is equipped with the extra structure of the [[natural isomorohism]] [[suspension isomorphism]]).
 
 In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories. For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
+
+There is a slight refinement of the concept of generalized homology functors to that of "[[excisive ∞-functors]]". These are fully equivalent to spectra.
 
 **Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
 
@@ -3610,15 +3613,18 @@ a useful survey is in
 
 * {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
-Further useful lecture notes include
+and a wealth of details is in
+
+* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+
+Further useful lecture notes pointed to above include the following:
 
 * {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
+* {#Karpova09} [[Varvara Karpova]], _Complex topological K-theory_, 2009  ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf))
+
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
-And last not least, there is
-
-* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
 
 [[!redirects geometry of physics -- stable homotopy types]]
