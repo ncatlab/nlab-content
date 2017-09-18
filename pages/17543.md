@@ -5,7 +5,7 @@
 
 ##Idea##
 
-A **wheeled graph** in the sense of ([HRY](#HRY)) is a generalization of the notion of a of a [[directed pseudograph]]. What differentiates a wheeled graph from a [[directed pseudograph]] is the notion of an "exceptional cell," which should be thought of as a set of half edges which are not adjacent to any vertex. 
+A **wheeled graph** in the sense of ([HRY](#HRY)) is a generalization of the notion of a [[directed pseudograph]]. What differentiates a wheeled graph from a [[directed pseudograph]] is the notion of an "exceptional cell," which should be thought of as a set of half edges which are not adjacent to any vertex. 
 
 The basic idea behind a wheeled graph is that it is a set of vertices with directed edges between them but also edges that leave and enter the graph. It can also have loops and even edges that are not adjacent to any vertex (called **exceptional edges**, see [[generalized graph]] for more). Moreover, a wheeled graph $G$ is equipped with a coloring, i.e. there is a function $Vt(G)\overset{\kappa}\to \mathcal{C}$ from the vertices of $G$ to a set of colors. Since wheeled operads have inputs and outputs, this makes them suitable for modeling [[PROPs]] and [[properads]]. 
 
