@@ -318,3 +318,10 @@ Some useful facts are discussed in the appendix of
 
 [[!redirects cofibrantly generated model structure]]
 [[!redirects cofibrantly generated model structures]]
+
+[[!redirects generating cofibration]]
+[[!redirects generating cofibrations]]
+
+[[!redirects generating acyclic cofibration]]
+[[!redirects generating acyclic cofibrations]]
+
