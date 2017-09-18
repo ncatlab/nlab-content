@@ -180,7 +180,7 @@ Discussion of [[sober topological spaces]] is briefly in
 
 * {#Johnstone82} [[Peter Johnstone]], section II 1. of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
 
-An introductory textbook that takes sober spaces, and their relation to logic, as the starting point for toplogy is
+An introductory textbook that takes sober spaces, and their relation to logic, as the starting point for topology is
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989)
 
