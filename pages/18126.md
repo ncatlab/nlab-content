@@ -416,7 +416,7 @@ $$
 
 This is a continuous function, with $\mathbb{R}$ regarded as a [[metric space]] via its [[Euclidean norm]] (example \ref{EuclideanNorm}).
 
-In particular the original distance function $d(x,-) = d(\{x,-\})$ is continuous in both its arguments.
+In particular the original distance function $d(x,-) = d(\{x\},-)$ is continuous in both its arguments.
 
 =--
 
@@ -10053,7 +10053,7 @@ One direction is immediate: Assume that every open cover $\{U_i \subset X\}_{i \
 
 We need to show the converse: If $(X,\tau)$ is a [[paracompact topological space]], then for every [[open cover]] $\{U_i \subset X\}_{i \in I}$ there is a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}).
 
-To that end, first apply the [[shrinking lemma]] \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet small open cover  $\{W_i \subset X\}_{i \in I}$, so that now
+To that end, first apply the [[shrinking lemma]] \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} to the given locally finite open cover $\{U_i \subset X\}$, to obtain a smaller locally finite open cover $\{V_i \subset X\}_{i \in I}$, and then apply the lemma once more to that result to get a yet smaller open cover  $\{W_i \subset X\}_{i \in I}$, so that now
 
 $$
   \underset{i \in I}{\forall}
