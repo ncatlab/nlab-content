@@ -106,7 +106,7 @@ In [[constructive mathematics]], one could do the same thing, but it\'s more com
 
 +-- {: .num_prop #internal} 
 ###### Proposition 
-The addition and multiplication operations on a local ring $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is invertible. In this way a local ring becomes an internal ring object in the category $Apart$, consisting of sets with apartness relations and maps (strongly extensional functions) between them. 
+The addition and multiplication operations on a local ring $R$ are strongly extensional with respect to the canonical apartness relation $\#$ defined by $x \# y$ iff $x - y$ is invertible. In this way a local ring becomes an internal [[ring object]] in the category $Apart$, consisting of sets with apartness relations and maps (strongly extensional functions) between them. 
 =-- 
 
 +-- {: .proof} 
