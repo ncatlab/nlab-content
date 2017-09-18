@@ -18,7 +18,7 @@
 {: toc}
 
 
-## In variational calculus
+## Via the variational bicomplex
 
 The following discusses the formulation of conserved currents in terms of [[variational calculus]] and the [[variational bicomplex]].
 
@@ -128,7 +128,9 @@ This is [[Noether's theorem]]. See there for more details.
 ## In higher prequantum geometry
  {#InHigherPrequantumGeometry}
 
-The following discusses conserved currently in the context of [[higher prequantum geometry]]. This follows ([Schreiber 13](#Schreiber13)). Similar observations have been made by [[Igor Khavkine]].
+> under construction
+
+The following discusses conserved currents in the context of [[higher prequantum geometry]], closely related to [Azcarraga-Izquierdo 95, section 8.1](#AzcarragaIzquierdo95). This follows ([Schreiber 13](#Schreiber13)). Similar observations have been made by [[Igor Khavkine]].
 
 
 ### Context
@@ -197,6 +199,8 @@ $$
 
 
 and hence the combination $j \coloneqq \alpha - \iota_{\delta\phi} \mathbf{L}$ (a _[[Hamiltonian form]]_ for $\delta \phi$ with respect to $\omega$) is conserved on trajectories in the kernel of the [[n-plectic form]] $\omega$ (which are indeed the classical trajectories of $\mathbf{L}$, see ([Azcarraga-Izquierdo 95 (8.1.14)](#AzcarragaIzquierdo95))). 
+
+This is the first stage in the [[Poisson bracket Lie n-algebra]]...
 
 ## Examples
 
