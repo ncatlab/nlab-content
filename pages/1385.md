@@ -237,9 +237,12 @@ The monoidal structure on $Pr(\infty,1)Cat$ is described in section 4.1 of
 
 That this is in fact a symmetric monoidal structure is discussed in section 6 of
 
-* [[Jacob Lurie]], _[[higher algebra|Commutative algebra]]_
+* [[Jacob Lurie]], _[[Commutative Algebra]]_
 
-see proposition 6.14 and remark 6.18.
+(see proposition 6.14 and remark 6.18).  This monoidal structure is exhibited as a restriction of a monoidal structure on all cocomplete $(\infty,1)$-categories in section 4.8 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_.
+
 
 [[!redirects symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
