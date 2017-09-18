@@ -1039,7 +1039,7 @@ with a quick re-derivation using that the [[torsion constraints in supergravity|
 * [[Paul Howe]], [[Ergin Sezgin]], section 2.1 of _The supermembrane revisited_, ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
 
 
-These authors amplify the role of closed $(p+2)$-forms in super $p$-brane backgrounds (p. 3) and clearly state the consistency conditions for the [[M2-brane]] in a curved backround in terms of the [[Bianchi identities]] on p. 7-8, amounting to the statment that the 4-form field strenght has to be the pullback of the cocycle $\overline{\psi}\wedge e^a \wedge e^b \wedge \Gamma^{a b} \psi$ plus the [[supergravity C-field]] [[curvature]] and has to be closed.
+These authors amplify the role of closed $(p+2)$-forms in super $p$-brane backgrounds (p. 3) and clearly state the consistency conditions for the [[M2-brane]] in a curved backround in terms of the [[Bianchi identities]] on p. 7-8, amounting to the statment that the 4-form field strength has to be the pullback of the cocycle $\overline{\psi}\wedge e^a \wedge e^b \wedge \Gamma^{a b} \psi$ plus the [[supergravity C-field]] [[curvature]] and has to be closed.
 
 
 That the [[heterotic supergravity]] equations of motion are sufficient for the 3-form super field strength $H$ to be closed was first argued in
