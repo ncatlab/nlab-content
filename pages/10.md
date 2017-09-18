@@ -656,3 +656,5 @@ The [[étale topos]] as a classifying topos for [[strict local rings]] is discus
 [[!redirects Another page]]
 [[!redirects classifying toposes]]
 [[!redirects classifying topoi]]
+[[!redirects classifying locale]]
+[[!redirects classifying locales]]
