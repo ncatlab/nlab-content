@@ -743,3 +743,6 @@ In [[double field theory]]:
 
 [[!redirects strong homotopy Lie algebra]]
 [[!redirects strong homotopy Lie algebras]]
+
+[[!redirects higher Lie algebra]]
+[[!redirects higher Lie algebras]]
