@@ -11,4 +11,6 @@
 
 * [[Brown-Peterson spectrum]]
 
+* [[Brown-Gitler spectrum]]
+
 category: people
