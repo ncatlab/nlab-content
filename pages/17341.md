@@ -11,7 +11,6 @@ This page is currently under construction, and will be far from acceptable quali
 [adjoint](https://ncatlab.org/nlab/show/adjoint+functor)
 [product](https://ncatlab.org/nlab/show/dependent+product)
 [sum](https://ncatlab.org/nlab/show/dependent+sum)
-[end](https://ncatlab.org/nlab/show/end)
 [kan](https://ncatlab.org/nlab/show/%28infinity%2C1%29-Kan+extension)
 [interval](https://ncatlab.org/nlab/show/interval+object)
 [identity](https://ncatlab.org/nlab/show/identity-assigning+morphism)
@@ -28,7 +27,14 @@ This page is currently under construction, and will be far from acceptable quali
 [lax idempotence](https://ncatlab.org/nlab/show/lax-idempotent+2-adjunction)
 [relative adjunction](https://ncatlab.org/nlab/show/relative+adjoint+functor)
 
+[end](https://ncatlab.org/nlab/show/end)
+[two-variable](https://ncatlab.org/nlab/show/two-variable+adjunction)
+[Quillen coend](https://ncatlab.org/nlab/show/Quillen+bifunctor#CoendsOverTensors)
+[simplex Reedy](https://ncatlab.org/nlab/show/Reedy+category#the_simplex_category)
+[club doctrine](https://ncatlab.org/nlab/show/club#doctrine_of_compact_closed_categories)
+
 [fibration](https://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs)
+[two-sided](https://ncatlab.org/nlab/show/two-sided+fibration)
 [fibrance](https://ncatlab.org/nlab/show/category+of+fibrant+objects)
 [tangence](https://ncatlab.org/nlab/show/tangent+%28infinity%2C1%29-category)
 [bar construction](https://ncatlab.org/nlab/show/bar+construction)
@@ -50,9 +56,10 @@ This page is currently under construction, and will be far from acceptable quali
 [simplex](https://ncatlab.org/nlab/show/simplex)
 
 [simplicial localization](https://ncatlab.org/nlab/show/simplicial+localization)
-[simplicial model category](https://ncatlab.org/nlab/show/simplicial+model+category)
+[combinatorial model category](https://ncatlab.org/nlab/show/combinatorial+model+category)
 [weak factorization](https://ncatlab.org/nlab/show/weak+factorization+system)
-[semi-simplicial object](https://ncatlab.org/nlab/show/semi-simplicial+object)
+[simplicial object](https://ncatlab.org/nlab/show/simplicial+object)
+[categorification](https://ncatlab.org/nlab/show/vertical+categorification#examples_3)
 
 [nucleus](https://ncatlab.org/nlab/show/nucleus+of+a+profunctor)
 [LT topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology)
@@ -67,9 +74,10 @@ This page is currently under construction, and will be far from acceptable quali
 [hypercomplete topos](https://ncatlab.org/nlab/show/hypercomplete+%28infinity%2C1%29-topos)
 [cosmos](https://ncatlab.org/nlab/show/cosmos#streets_second_definition)
 
-[ind-object](https://ncatlab.org/nlab/show/ind-object)
-[deduction theorem](https://ncatlab.org/nlab/show/deduction+theorem) 
+[incompleteness](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems#Meaning_of_the_first_incompleteness_theorem)
+[completeness](https://ncatlab.org/nlab/show/Deligne+completeness+theorem)
 [preset](https://ncatlab.org/nlab/show/preset)
+[true](https://ncatlab.org/nlab/show/true#in_the_topos_)
 [class](https://ncatlab.org/nlab/show/proper+class)
 [Grothendieck universe](https://ncatlab.org/nlab/show/Grothendieck+universe)
 
