@@ -24,11 +24,17 @@ Of course, a functor $F$ creates a [[colimit]] if $F^{op}$ creates the correspon
 
 If $F$ creates all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ creates that sort of limit (e.g. $F$ creates products, $F$ creates equalizers, etc.).
 
-## Remarks
+## Examples
 
 A [[monadic functor]] creates all limits that exist in its codomain, and all colimits that exist in its codomain and are preserved by the corresponding monad (or, equivalently, by the monadic functor itself).  Creation of a particular sort of [[split coequalizer]] figures prominently in Beck's [[monadicity theorem]].
 
-One should beware that in [[Categories Work]], a more restrictive notion of "creation" is used which requires the every limit in $D$ to lift to one in $C$ uniquely on the nose, rather than merely up to isomorphism.  This corresponds to a version of the monadicity theorem which asserts an isomorphism of categories, rather than merely an equivalence.
+## Terminological remarks
+
+* The condition that $F$ preserves limits of $J$ is often left out of the definition, instead strengthening the first condition to say that for any limiting cone $L$ of $F\circ J$ there is a limiting cone $L'$ of $J$ satisfying the additional condition that $F L' \cong L$ in the appropriate sense.  The latter is certainly implied by preservation of limits, since limits are unique up to canonical isomorphism.  But conversely, for the same reason, if $F$ preserves one limit of $J$ then it must preserve all such limits.  Thus the two definitions are equivalent *if* all limits of the relevant sort exist in $D$.
+
+* The above modification is used in [[Categories Work]], together with a more restrictive notion of "creation" that requires $F L' = L$ on the nose, rather than merely up to isomorphism.  (Of course, this violates the [[principle of equivalence]].)  This corresponds to a version of the [[monadicity theorem]] which asserts an isomorphism of categories, rather than merely an equivalence.
+
+* [Kissinger](http://permalink.gmane.org/gmane.science.mathematics.categories/6644) suggested a concise way to state creation/preservation/etc. of limits.  However, there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
 
 ## Related pages
 
