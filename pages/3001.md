@@ -11,10 +11,10 @@ Given morphisms $i:A\to X$, $f:A\to Y$ find an [[extension]] of $f$ to $X$, i.e.
 
 +-- {: .un_example}
 ###### Retraction problem
-Let $f:A\to Y$ be a morphism. Find a [[retraction]] of $f$, that is a morphism $r:Y\to A$ such that $r\circ f = id_A$.
+Let $i:A\to X$ be a morphism. Find a [[retraction]] of $i$, that is a morphism $r:X\to A$ such that $r\circ i = id_A$.
 =--
 
-The retraction problem is a special case of the extension problem for $A=X$ and $i=id_A$. Conversely, the general extension problem may (in [[Top]] and many other categories) be reduced to a retraction problem:
+The retraction problem is a special case of the extension problem for $Y=A$ and $f=id_A$. Conversely, the general extension problem may (in [[Top]] and many other categories) be reduced to a retraction problem:
 
 +-- {: .un_prop}
 ###### Proposition (Reducing an extension to a retraction)
@@ -31,7 +31,7 @@ Given morphisms $p:E\to B$ and $g:Z\to B$, find a [[lifting]] of $g$ to $E$, i.e
 For any $p:E\to B$ find a [[section]] $s: B\to E$, i.e. a morphism $s$ such that $p\circ s = id_B$.
 =--
 
-The section problem is a special case of a lifting problem where $g = id_E : E\to E$. Then the lifting is the section: $\tilde{g} = s$.  A converse is true in the sense
+The section problem is a special case of a lifting problem where $g = id_B : B\to B$. Then the lifting is the section: $\tilde{g} = s$.  A converse is true in the sense
 
 +-- {: .un_prop}
 ###### Proposition (Reducing a lifting to a section)
