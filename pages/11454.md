@@ -31,14 +31,11 @@ $$
 Equivalently this says that $p$ is a [[proper morphism|proper]] [[flat morphism]] with a section contained in the [[smooth locus]] whose [[fibers]] are geometrically integral curves of [[arithmetic genus]] one.
 
 A [[non-singular algebraic variety|non-singular]] solution to this equation is an [[elliptic curve]] (see there for more).
-Write $\mathcal{M}_{cub}$ for the [[moduli stack]] of such [[cubic curves]]. Then the [[moduli stack of elliptic curves]] is the non-vanishing locus of the discriminant  $\Delta \in H^0(\mathcal{M}_{cub}, \omega^{12})$
-
-$$
-  \mathcal{M}_{ell} \to \mathcal{M}_{cub} 
-  \to \mathcal{M}_{FG}.
-$$
+Write $\mathcal{M}_{cub}$ for the [[moduli stack]] of such [[cubic curves]]. Then the [[moduli stack of elliptic curves]] is the non-vanishing locus of the [[discriminant]]  $\Delta \in H^0(\mathcal{M}_{cub}, \omega^{12})$
 
 (e.g. [Mathew, section 3](#Mathew))
+
+[[!include moduli stack of curves -- table]]
 
 ## Properties
 
