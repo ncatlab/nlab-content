@@ -34,8 +34,9 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 
 
 ## Axiomatizations 
+ {#Axiomatizations}
 
-Euclidean geometry in the sense of the Idea section makes reference to the extrinsic notion of [[real number]] (to delineate the notion of Euclidean space) and whatever surrounding structure is used to found that notion, but it has also received more intrinsic axiomatic treatments. Notable among these are [[Hilbert|Hilbert's]] axioms, as set out in his *Grundlagen der Geometrie*, and Tarski's axioms, which form a first-order axiomatic theory. 
+Euclidean geometry in the sense of the Idea section makes reference to the extrinsic notion of [[real number]] (to delineate the notion of Euclidean space) and whatever surrounding structure is used to found that notion, but it has also received more intrinsic [[axiom|axiomatic]] treatments in the spirit of [[synthetic geometry]]. Notable among these are [[Hilbert|Hilbert's]] axioms, as set out in his *Grundlagen der Geometrie*, and [[Alfred Tarski|Tarski]]'s axioms, which form a first-order axiomatic theory. 
 
 ### Hilbert's axioms 
 
