@@ -56,7 +56,7 @@ The usual, unstated, implication is that the notion of _equivalence_ of [[n-grou
 
 The reason this is important to specify is that there are other notions of equivalence on categorical structures which model homotopy types in other ways.  For example, if we declare a functor between categories to be a weak equivalence iff its [[nerve]] is a weak equivalence of [[simplicial set]]s, then _all_ homotopy types can be modeled by 1-categories in this way; see the [[Thomason model structure]] for 1-categories.
 
-Finally, in analogy to the homotopy hypothesis, there are also attempts to relate general [[(∞,n)-categories]] (not necessarily groupoidal) to [[directed topological space]]s by a [[fundamental (∞,1)-category|fundamental (∞,n)-catgeory]]-construction. There have been claims that a _directed homotopy hypothesis_ can be proven, but at the moment there does not seem to be a published statement.
+Finally, in analogy to the homotopy hypothesis, there are also attempts to relate general [[(∞,n)-categories]] (not necessarily groupoidal) to [[directed topological space]]s by a [[fundamental (∞,1)-category|fundamental (∞,n)-category]]-construction. There have been claims that a _directed homotopy hypothesis_ can be proven, but at the moment there does not seem to be a published statement.
 
 ## Abstract statement {#AbstractStatement}
 
