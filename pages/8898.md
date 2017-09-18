@@ -1,3 +1,3 @@
-* [webpage](http://perimeterinstitute.ca/personal/tfritz/)
+* [webpage](http://personal-homepages.mis.mpg.de/fritz/)
 
 category: people
