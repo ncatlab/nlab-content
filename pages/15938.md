@@ -1,10 +1,30 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Idea
 
-In [[formal logic]] one speaks of a "fragment" of [[theory]] when referring to just part of it.
+In [[formal logic]] one speaks of a "fragment" of [[theory]] when referring to just part of it. Specifically when rules of [[type formation]] or some of the [[natural deduction|inference rules]] are omitted, one retains a "fragment" of the original theory.
 
-For instance by default [[linear logic]] has a wealth of [[conjunctions]]. Discarding or ignoring all of them except the [[multiplicative conjunction]] yield the fragment of _[[multiplicative linear logic]]_.
+## Examples
+
+By default [[linear logic]] has a wealth of [[conjunctions]]. Discarding or ignoring all of them except the [[multiplicative conjunction]] yield the fragment of _[[multiplicative linear logic]]_.
 
 [[!redirects fragments]]
