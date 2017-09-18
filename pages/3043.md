@@ -125,6 +125,13 @@ In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-
 
 * [[central extension]], [[central charge]]
 
+## References
+
+Discussion in the generality of [[super Lie algebras]] includes
+
+* [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, _Extensions of super Lie algebras_, J. Lie Theory 15 (2005) No. 1, 125--134 ([arXiv:math/0101190](http://arxiv.org/abs/math/0101190))
+
+
 [[!redirects Lie algebra extensions]]
 
 [[!redirects extension of Lie algebras]]
