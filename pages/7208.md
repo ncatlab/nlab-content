@@ -67,7 +67,8 @@ Surveys include
 
 The fact that every simply laced hyperbolic Kac-Moody algebra appears as a subalgebra of [[E10]] is in 
 
-* Sankaran Viswanath, _Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$_ ([pdf](http://math.iisc.ernet.in/~svis/ehk.pdf))
+* Sankaran Viswanath, _Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$_, 
+Letters in Mathematical Physics **83** (2008) Issue 2, pp 139-148, doi:[10.1007/s11005-007-0214-7](http://dx.doi.org/10.1007/s11005-007-0214-7), [arXiv:0801.2586](http://arxiv.org/abs/0801.2586).
 
 ### Affine Lie algebras
 
