@@ -168,7 +168,7 @@ The book
 
 * Peter J Cameron, _Sets, Logic and Categories_  (ISBN: 1-85233-056-2 )
 
-contains a very readable account of ZFC and the definitions of both Ordinal and Cardinal numbers.  
+contains a very readable account of ZFC and the definitions of both ordinal and cardinal numbers.  
 
 Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is 
 
@@ -179,6 +179,18 @@ there are also some references listed at
 * [MathWorld](http://mathworld.wolfram.com/CardinalNumber.html) and 
 
 * [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
+
+A good introduction to infinite cardinals is:
+
+* Frank R. Drake, _Set Theory: An Introduction to Large Cardinals_, Studies in Logic and the Foundations of Mathematics, vol. 76, Elsevier, 1974.
+
+For a much deeper treatment, which assumes most of the material in Drake as a prerequisite, see:
+
+* Akihiro Kanamori, _The Higher Infinite: Large Cardinals in Set Theory from Their Beginning, Springer, 2003.
+
+This is a very readable and freely available historical introduction:
+
+* Akihiro Kanamori and M. Magidor, The evolution of large cardinal axioms in set theory, in _Higher Set Theory_, Springer Lecture Notes in Mathematics 669, 1978.  ([pdf](http://math.bu.edu/people/aki/e.pdf))
 
 *Standard* approaches start with a [[material set theory]], such as ZFC, whereas the approach here uses [[structural set theory]] as emphasized above.  Since cardinality is isomorphism-invariant, it is easy to interpret the standard material structurally, although the basic definitions will be different.  There does not seem to be a standard account of cardinality from within structural set theory.
 
