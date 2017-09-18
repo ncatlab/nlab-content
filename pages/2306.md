@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _Lazard ring__ is a [[commutative ring]] which is 
+The _Lazard ring_ is a [[commutative ring]] which is 
 
 * the universal [[coefficient]] [[ring]] for commutative 1-dimensional [[formal group laws]].
 
