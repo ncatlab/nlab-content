@@ -338,6 +338,8 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 * [[idempotent (∞,1)-monad]]
 
+* The analog in [[model category]] theory of the localization at idempotent monad is the content of the [[Bousfield-Friedlander theorem]].
+
 ## References
  {#References}
 
