@@ -334,7 +334,7 @@ Early sketches and introductions to the idea of homotopy type theory include
 
 Motivation via practical problems in [[homotopy theory]] and [[higher category theory]] is given in 
 
-* {#VoevodskyIASTalk2014} [[Vladimir Voevodsky]], _Univalent foundations_, talk IAS, March 2014 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2014_IAS.pdf), [video](https://video.ias.edu/node/6365))
+* {#VoevodskyIASTalk2014} [[Vladimir Voevodsky]], _Univalent foundations_, talk IAS, March 2014 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2014_IAS.pdf), [video](https://video.ias.edu/voevodsky14))
 
  (specifically highlighting the technical delicacies involved in the [[Simpson conjecture]]).
 
