@@ -16,6 +16,9 @@
 
 ## Idea
 
+
+The generalization of the [[bicategory]] _[[Span]]_ to [[(∞,n)-categories]]:
+
 An _$(\infty,n)$-category of correspondences_ in [[∞-groupoid]] is an [[(∞,n)-category]] whose
 
 * [[objects]] are [[∞-groupoids]];
