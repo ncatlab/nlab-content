@@ -1180,6 +1180,8 @@ See the [references below](#ReferencesHopfAlgebroidStructure).
 
 ## Related concepts
 
+* [[change of rings theorem]]
+
 * [[Adams-Novikov spectral sequence]]
 
 * [[May spectral sequence]], [[chromatic spectral sequence]]
@@ -1223,10 +1225,11 @@ and is reproduced in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
-Traditional reviews include
-
+Reviews include
 
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 onwards
+
+* {#Kochmann96} [[Stanley Kochmann]], section 3.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#McCleary01} [[John McCleary]], chapter 9 of _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
 
