@@ -204,9 +204,14 @@ By definition of convergence the $E_{\infty}^{s,t}$ sit in [[short exact sequenc
 
 $$
   0 \to F^{s+1}C^{s+t} \longrightarrow F^s C^{s+t} \longrightarrow E_\infty^{s,t} \to 0
+  \,.
 $$
 
-and so for $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s+t} \simeq C^{s+t}$.
+So when $E_\infty^{s,t} = 0$ the left morphism here is an [[isomorphism]].
+
+On the one hand we may use this to reduce the filtering degree:
+
+if $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s+t} \simeq C^{s+t}$.
 
 Similarly for $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{s+1+t-1} = E_\infty^{s+t,0}$. 
 
