@@ -63,12 +63,11 @@ is an [[equivalence]]. (For $E = $ [[KU]] this was originally proven in [Connor-
 Between Landweber exact spectra, every [[phantom map]] is already null-homotopic. (e.g. [Lurie lect 17, corollary 7](#Lurie)).
 
 
-
 ## Related theorems
 
 * [[Lazard's theorem]]
 
-* [[Landweber exact functor theorem]]
+* [[universal complex orientation on MU]]
 
 * [[Quillen's theorem on MU]]
 
