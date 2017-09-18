@@ -1,10 +1,25 @@
-Recall that a category is a called a [[pointed category]] if it has a [[zero object]], i.e. if it has an [[initial object]] and a [[terminal]] object and both are [[isomorphism|isomorphic]].
 
-For a _quasi-pointed category_ the last condition is relaxed.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+While a [[category]] is a called a [[pointed category]] if it has a [[zero object]], i.e. if it has an [[initial object]] and a [[terminal]] object and both are [[isomorphism|isomorphic]], for a _quasi-pointed category_ the last condition is relaxed.
 
 #Definition#
 
-A category is **quasi-pointed** if it has an [[initial object]] $0$, a [[terminal object|final object]] $1$ and its unique arrow $0\to 1$ is a [[monomorphism]].
+A category is **quasi-pointed** if it has an [[initial object]] $0$, a [[terminal object|final object]] $1$ and its unique [[morphism]] $0\to 1$ is a [[monomorphism]].
 
 
 #References#
