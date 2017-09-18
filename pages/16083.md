@@ -249,6 +249,13 @@ Discussion of torsion constraints for [[heterotic supergravity]] goes back to ([
 
 * {#Nilsson00} [[Bengt Nilsson]], _A superspace approach to branes and supergravity_ ([arXiv:hep-th/0007017](http://arxiv.org/abs/hep-th/0007017))
 
+### For 4d supergravity
+ {#ReferencesFor4d}
+
+For [[d=4 N=1 supergravity]] the torsion is again constrained to be equal to the left-invariant torsion of super-Minkowski spacetime, see for instance
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, (III.2.28a), (III.3.66a) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
 ### For 2d supergravity / superstring worldsheets / super Riemann surfaces
 
 * [[Suresh Govindarajan]], [[Burt Ovrut]], _A geometric interpretation for the torsion constrains of $(2,0)$-heterotic worldhseet supergravity_, Mod. Phys. Lett. A6(1991), 3341. ([pdf](http://www.physics.iitm.ac.in/~suresh/sgtalk/talk_html/torsion.pdf))
