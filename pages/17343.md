@@ -4595,23 +4595,21 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the universal property of the homotopy category (thm. \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}) and by the fact that every topological space is weakly equivalent to a [[CW-complex]] (rmk. \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}) we may consider $\Omega$ and $\Sigma$ on the category $Top_{CW}^{\ast/}$ of pointed CW-complexes and homotopy classes of continuous functions between them.
 
-By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since we are restricted to CW-complexes, the standard topological cylinder $(-)\times I$ is a cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
+By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since may restrict to CW-complexes, the standard topological cylinder $(-)\times I$ is a cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
 
 Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
 
 $$
   (\Sigma \dashv \Omega) 
   \;\colon\;
-  Top_{CW}^{\ast/}
+  Top^{\ast/}
   \longrightarrow
-  Top_{CW}^{\ast/}
+  Top^{\ast/}
   \,.
 $$
 
-
-Hence it remains to see that this adjunction is compatible with passing to homotopy equivalence classes of functions. Hence let $X \wedge I_+ \to \Omega Y$ be a [[left homotopy]]. By prop. \ref{ReducedSuspensionBySmashProductWithCircle} its [[adjunct]] is $(X \wedge I_+) \wedge S^1\simeq (X\wedge S^1)\wedge I_+ \simeq (\Sigma X)\wedge I_+$.
+By prop. \ref{TopQuillenIsTopological} this is a [[Quillen adjunction]]. Hence the statement follows with prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
 
 =--
 
@@ -5039,7 +5037,7 @@ for the category of topologically enriched functors equipped with these classes 
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #ProjectiveModelStructureOnTopologicalFunctors}
 ###### Theorem
 
 The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top]$, called the **[[projective model structure on enriched functors]]** $[\mathcal{C}, Top_{Quillen}]_{proj}$.
@@ -5095,6 +5093,102 @@ $$
   [\mathcal{C}, Top_{Quillen}^{\ast/}]_{proj}
   \,.
 $$
+
+=--
+
+##### Topological enrichement
+
+So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far does not interplay with the topology on [[hom-spaces]].
+
+The following statements say that in fact the model structure and the topology on the hom-spaces are compatible in a suitable sense (for more see at "[[enriched model categories]]").
+
++-- {: .num_lemma #PushoutProductOfRelativeCWComplexes}
+###### Lemma
+
+Let $i_1 \colon X_1 \to Y_1$ and $i_2 \colon X_2 \to Y_2$ be two [[relative cell complex|relative]] [[CW-complexes]], def. \ref{TopologicalCellComplex} regarded in $Top_{cg}$, def. \ref{kTop}.
+Write $i_1\Box i_2$ for the universal morphism in the following diagram
+
+$$
+  \array{
+    && X_1 \times X_2
+    \\
+    & {}^{\mathllap{(i_1,id)}}\swarrow && \searrow^{\mathrlap{id,i_2}}
+    \\
+    Y_1 \times X_2 && (po) && X_1 \times Y_2
+    \\
+    & {}_{\mathllap{}}\searrow && \swarrow
+    \\
+    && (Y_1 \times X_2) \underset{X_1 \times X_2}{\sqcup} (X_1 \times Y_2)
+    \\
+    && \downarrow^{\mathrlap{((id, i_2), (i_1,id))}}
+    \\
+    && Y_1 \times Y_2
+  }
+$$
+
+(their "[[pushout-product]]" induced from their Cartesian product).
+
+Then
+
+1. $i_1 \Box i_2$ is itself a relative CW-complex;
+
+1. if $i_1$ or $i_2$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}) then so is $i_1 \Box i_2$.
+
+=--
+
+The first part of lemma \ref{PushoutProductOfRelativeCWComplexes} is clear by inspection. A proof of the second part of lemma \ref{PushoutProductOfRelativeCWComplexes} is spelled out for instance in  ([Joyal-Tierney 05, theorem 3.2.2](#JoyalTierney05)), see also ([Goerss-Jardine 99, corollary 4.6](#GoerssJardine99)). These authors speak about inclusions of [[simplicial sets]]. Their proof either translates verbatim by replacing simplicial sets by relative cell complexes, or else it follows by applying the left Quillen functor ${\vert -\vert}\colon sSet \to Top_{cg}$ of theorem \ref{QuillenEquivalenceBetweensSetAndTop} to their result.
+
++-- {: .num_prop #TopQuillenIsTopological}
+###### Proposition
+
+For $\mathcal{C} = Top_{Quillen}$ the regarded as a [[topologically enriched category]], def. \ref{TopEnrichedCategory} and as equipped with the [[classical model structure on topological spaces]] of theorem \ref{TopQuillenModelStructure}, and more generally for any [[projective model structure on enriched functors|projective model structure on topological functors]] $\mathcal{C} = [\mathcal{D}, Top_{Quillen}]_{proj}$, then
+
+1. for $i_1$ a cofibration and $i_2$ a relative CW-complex, then $i_1 \Box i_2$ is a cofibration which is acyclic if $i_1$ or $i_2$ is.
+
+1. For $i \colon A \to B$ a relative CW-complex and for $p \colon X \to Y$ a fibration, then the universal morphism
+
+   $$
+     p^{\Box i}
+     \;\colon\;
+     \mathcal{C}(B,X) 
+       \longrightarrow 
+     \mathcal{C}(A,X) \underset{\mathcal{C}(A,Y)}{\times} \mathcal{C}(B,Y)
+   $$
+
+   is a fibration, which is acylic if $i$ or $p$ is.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First consider this for $\mathcal{C} = Top_{Quillen}$ and for the second statement. Using the [[exponential object|exponential law]], one finds that lifting in the left diagram below is equivalent to lifting in the right diagram
+
+$$
+  \array{
+    D^n &\longrightarrow& \mathcal{C}(B,X)
+    \\
+    {}^{\mathllap{(id,\delta_0)}}\downarrow && \downarrow
+    \\
+    D^n \times I &\longrightarrow& \mathcal{C}(A,X) \underset{\mathcal{C}(A,Y)}{\times} \mathcal{C}(B,Y)
+  }
+  \;\;\;\;
+  \leftrightarrow
+  \;\;\;\;
+  \array{
+    (D^n \times I \times A) \underset{D^n  \times A}{\sqcup} (D^n \times B)
+     &\longrightarrow&
+    X
+    \\
+    {}^{\mathllap{(id,\delta_0) \Box i}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    D^n \times I \times B &\longrightarrow& Y
+  }
+  \,.
+$$
+
+By the first item of lemma \ref{PushoutProductOfRelativeCWComplexes}, the morphism $(id,\delta_0) \Box i$ is an acyclic cofibration, hence the lift on the right exists by theorem \ref{TopQuillenModelStructure}. This shows that $p^{\Box i}$ is a fibration. Similarly for the other cases.
+
 
 =--
 
@@ -6329,11 +6423,11 @@ Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi
 =--
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #QuillenEquivalenceBetweensSetAndTop}
 ###### Theorem
 
 The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
-constitutes a [[Quillen equivalence]], def. \ref{QuillenEquivalence}, between the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} and the  [[classical model structure on topological spaces]], def. \ref{ClassesOfMorhismsInTopQuillen}:
+constitutes a [[Quillen equivalence]] (def. \ref{QuillenEquivalence}) between the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} and the  [[classical model structure on topological spaces]], def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   ({\vert -\vert}\dashv Sing)
