@@ -178,6 +178,25 @@ The analogous statement with the [[classical model structure on simplicial sets]
 
 A comprehensive statement of these facts is in [[Higher Topos Theory|HTT, section 5.5.9]].
 
+### Other cases
+ {#OtherCases}
+
++-- {: .num_prop #QuillenCriterion}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] with [[enough projectives]]. Say that a morphism $f$ in the category $\mathcal{C}^{\Delta^{\mathrm{op}}}$ of [[simplicial objects]] in $\mathcal{C}$ is a _weak equivalence_ or _fibration_ if for every [[projective object]] $P \in \mathcal{C}$ then $Hom(P,f)$ is a weak equivalence or fibration, respectively, in the [[classical model structure on simplicial sets]] (i.e. a [[Kan fibration]] or [[weak homotopy equivalence]], respectively). If now at least one of the following conditions is satisfied, 
+
+* every object of $\mathcal{C}^{\Delta^{op}}$ is fibrant;
+
+* $\mathcal{C}$ is closed under [[colimits]] and has a [[small set]] of [[projective object|projective]] [[generators]];
+
+then this makes $\mathcal{C}^{\Delta^{op}}$ a [[simplicial model category]].
+
+
+
+=--
+
+([Quillen 67, II.4, theorem 4](#Quillen67))
 
 
 ## Properties
@@ -260,6 +279,13 @@ This appears as ([Goerss-Schemmerhorn, theorem 4.17](#GoerssSchemmerhorn)).
 
 See at _[[model structure on simplicial Lie algebras]]_.
 
+### Simplicial complete Hopf algebras
+ {#SimplicialCommutativeHopfAlgebras}
+
+Complete rational [[Hopf algebras]] are not the models of a [[Lawvere theory]], even though in some sense they are close ([Quillen 67, bottom of p. 265 (61 of 92)](#Quillen67)).
+
+But they do satisfy the assumptions of proposition \ref{QuillenCriterion} ([Quillen 69, appendix B, prop. 2.24](#Quillen69)). Hence simplicial rational complete Hopf algebras form a [[simplicial model category]]. 
+
 ## Related concepts
 
 * [[model structure on cosimplicial algebras]]
@@ -292,6 +318,11 @@ See at _[[model structure on simplicial Lie algebras]]_.
 The classical reference for the [[transferred model structure]] on simplicial $T$-algebras is
 
 * {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, Lectures Notes in Mathematics 43, Springer Verlag, Berlin, (1967)
+
+with some extra remarks in
+
+* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
+
 
 The generalization to the case that the theory $T$ itself is allowed to be simplicial is due to 
 
@@ -336,6 +367,9 @@ Discussion of simplicial commutative associative algbras over a ring in the cont
 
 * {#ToenVezzosi} [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry II: geometric stacks and applications _ ([arXiv](http://arxiv.org/abs/math/0404373))
 
+Discussion of divided [[power operations]] on simplicial algebras is in
+
+* [[Benoit Fresse]], _On the homotopy of simplicial algebras over an operad_, Transactions of the AMS, volume 352, number 9 ([jstor](http://www.jstor.org/stable/118177))
 
 
 
