@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Homological algebra
+#### Algebraic topology
 +--{: .hide}
-[[!include homological algebra - contents]]
+[[!include algebraic topology - contents]]
 =--
 #### Stable Homotopy theory
 +--{: .hide}
