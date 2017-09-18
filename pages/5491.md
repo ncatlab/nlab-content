@@ -265,13 +265,13 @@ A discussion of these higher categorical structure in [[representation theory]] 
 
 ### $n$-Representations
 
-If the codomain $Mod$ is not an [[(∞,1)-category]] that is just a [[(n,1)-category]] (all [[k-morphisms]]s for $k \gt n$ are effectively identities) then an $\infty$-representation is called an **$n$-representation**. These are _representations up to homotopy_ where from degree $n$ on all homotopies are actually identies: $n$-[[truncated]] representations up to homotopy.
+If the codomain $Mod$ is not an [[(∞,1)-category]] that is just a [[(n,1)-category]] (all [[k-morphisms]]s for $k \gt n$ are effectively identities) then an $\infty$-representation is called an **$n$-representation**. These are _representations up to homotopy_ where from degree $n$ on all homotopies are actually identities: $n$-[[truncated]] representations up to homotopy.
 
 As always in [[higher category theory]], the cases for low $n$ are more restrictive but typically admit a more tractable detailed analysis and construction.
 
-2-representations of [[2-groups]] and [[Lie 2-group]]s on various variants of [[2-vector space]]s have been considerd for instance in ([Schreiber](#Schreiber),  [BaezBaratinFreidelWise](#BaezBaratinFreidelWise), and other places).
+2-representations of [[2-groups]] and [[Lie 2-group]]s on various variants of [[2-vector space]]s have been considered for instance in ([Schreiber](#Schreiber),  [BaezBaratinFreidelWise](#BaezBaratinFreidelWise), and other places).
 
-In analogy to the case for $n=1$, 2-Representations $\mathbf{P}_2(X) \to 2 Vect$ of the smooth [[path 2-groupoid]] of a [[smooth manifold]] desribe [[connections on a 2-bundle]]. See there for more details.
+In analogy to the case for $n=1$, 2-Representations $\mathbf{P}_2(X) \to 2 Vect$ of the smooth [[path 2-groupoid]] of a [[smooth manifold]] describe [[connections on a 2-bundle]]. See there for more details.
 
 ## Definition
  {#Definition}
