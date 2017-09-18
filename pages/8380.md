@@ -179,6 +179,10 @@ Discussion of aspects of [[quantum computing]] in terms of monads in [[functiona
 * J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, _Structuring quantum effects: superoperators as arrows_ ([arXiv:quant-ph/0501151](http://arxiv.org/abs/quant-ph/0501151))
 
 
+
+[[!redirects monad (computer science)]]
+[[!redirects monads (computer science)]]
+
 [[!redirects monad (in computer science)]]
 [[!redirects monads (in computer science)]]
 
