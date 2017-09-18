@@ -15,19 +15,55 @@
 
 ## Definition
 
-For a [[cohomology theory]] $E$ with [[cohomology group]]s $E(X)$ the **reduced cohomology** of $E$ for [[pointed object|pointed]] [[topological space]]s $X$ is on $X$ the [[kernel]] 
+A _reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory_ is a $\mathbb{Z}$-collection of  [[functors]]
 
 $$
-  E_{red}(X) := ker\left(E({*} \to X) : E(X) \to E(*)\right)
+  \tilde H^\bullet \colon Top^{\ast/} \longrightarrow Ab
 $$
 
-of the map $E(X) \to E({*})$ induced from the point inclusion ${*} \to X$.
+from [[pointed topological spaces]] to [[abelian groups]]
+
+equipped with [[natural isomorphism|natural]] [[suspension isomorphisms]] 
+
+$$
+  \tilde H^k(-) \stackrel{\simeq}{\longrightarrow} \tilde H^k(\Sigma -) 
+$$
+
+such that
+
+1. **homotopy invariance**....
+
+1. **exactness*...
+
+(e.g. [AGP 02, def. 12.1.4](#AGP02))
+
+## Properties
+
+### Brown representability 
+
+The [[Brown representability theorem]] says that for $\tilde H^\bullet$ there is a [[spectrum]] $E$ such that $\tilde H^k(X) \simeq [X,E_n]_\ast$.
+
+### Relation to unreduced cohomology
+
+For an unreduced [[cohomology theory]] $H^\bullet$  the induced **reduced cohomology** 
+
+$$
+  \tilde H^\bullet(X,x_0) \coloneqq H^k(X,\{x_0\}) = ker(H^k(X)\to H^k(\{x_0\}))
+$$
+
+e.g. [AGP 02, theorem 12.1.12](#AGP02)
+
 
 ## Related entries
 
 * [[reduced homology]]
 
-* [[A Survey of Elliptic Cohomology - cohomology theories]]
+## References
+
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+
+* [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
 
 [[!redirects reduced cohomology theory]]
