@@ -526,9 +526,13 @@ Discussion of $G$-structures in [[supergeometry]] includes
 
 ### In higher geometry
 
-Some discussion is in section 4.4.2 of
+Some discussion in [[higher differential geometry]] is in section 4.4.2 of
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_
+
+Formalization in [[homotopy type theory]] is in 
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
 
 [[!redirects G-structures]]
 
