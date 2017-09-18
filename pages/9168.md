@@ -705,6 +705,8 @@ $$
   & =
   + i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
   \\
+  & = 
+  + i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( -k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
   \\
   \end{aligned}
   \,.
@@ -746,7 +748,10 @@ $$
     -
     e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} 
   \right) d^p \vec k
-  \,.
+  \\
+  & = 
+  -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+ \,.
   \end{aligned}
 $$
 
@@ -856,9 +861,20 @@ is a linear combination of the [[2-point function]] with the [[advanced propagat
 +-- {: .num_defn }
 ###### Definition
 
+[[advanced propagator]]
+
 $$
   \Delta_A(x.y) \coloneqq \theta((x-y)^0) \Delta(x,y)
 $$
+
+[[retarded propagator]]
+
+$$
+  \Delta_R(x.y) \coloneqq \theta((y-x)^0) \Delta(x,y)
+$$
+
+
+
 
 =--
 
