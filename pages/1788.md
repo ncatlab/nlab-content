@@ -1334,7 +1334,7 @@ on functions of the field configurations and their derivatives _at a fixed space
 
 But functions of field configurations and their derivatives at fixed spacetime points are precisely functions
 on the [[jet bundle]], and equipped with a [[measure]] for how to average these over [[spacetime]] are 
-precisely [[horizontal differentia forms]] on spacetime of degree $(p+1)$. Hence these horizontal $(p+1)$-forms
+precisely [[horizontal differential forms]] on spacetime of degree $(p+1)$. Hence these horizontal $(p+1)$-forms
 should induce local observables, and this is the process of _[[transgression of differential forms]]_. 
 
 
@@ -1395,7 +1395,7 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{d}}
     \\
-    [\partial \Sigma, X] &\underset{\tau_{\artial \Sigma}}{\longrightarrow}& \mathbf{\Omega}^k(\Sigma)_{cl}
+    [\partial \Sigma, X] &\underset{\tau_{\partial \Sigma}}{\longrightarrow}& \mathbf{\Omega}^k(\Sigma)_{cl}
 }
 $$
 
@@ -1670,10 +1670,10 @@ $$
 $$
 
 The _[[local observables]]_ are those observables which arise as the [[transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
-of [[horizontal  differential form|horizontal p+1-forms]] of comapct spacetime support
+of [[horizontal  differential form|horizontal p+1-forms]] of compact spacetime support
 
 $$
-  \mathca{F}_{loc}
+  \mathcal{F}_{loc}
    \;\coloneqq\;
   im\left(
     \Omega^{p+1,0}_{\Sigma,cp}(E)
@@ -1689,7 +1689,7 @@ $$
   \mathcal{F}_{loc}
     \simeq
   \Omega^{p+1}_{\Sigma,cp}(E)/im(d)
-  \..
+  \,.
 $$
 
 =--
@@ -1699,7 +1699,7 @@ $$
 **([[Hamiltonian differential forms]])***
 
 Let $(E, \mathbf {L})$ be a [[Lagrangian field theory]]. Then 
-a [[Hamiltnian differential form]] on $J^\infty_\Sigma(E)$ is a [[horizontal differential form]] $A \in \Omega^{p,0}_\Sigma(E)$
+a [[Hamiltonian differential form]] on $J^\infty_\Sigma(E)$ is a [[horizontal differential form]] $A \in \Omega^{p,0}_\Sigma(E)$
 such that there exists a [[vector field]] $v_H$ with 
 
 $$
@@ -1730,7 +1730,7 @@ for the space of pairs consisting of a Hamiltonian differential form and a corre
 **([[Cauchy surface]])**
 
 Given a [[Lagrangian field theory]] on a [[spacetime]] $\Sigma$, then a 
-_[[Cauchy surface]]_ is a [[submnaifold]] $\Sigma_p \hookrightarrow \Sigma$ such that the 
+_[[Cauchy surface]]_ is a [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ such that the 
 restriction of [[on-shell]] field configurations to the [[infinitesimal neighbourhood]] $N_\Sigma(\Sigma_p)$ of $\Sigma_p$
 in $\Sigma$ is a [[isomorphism]]:
 
@@ -1744,7 +1744,7 @@ $$
 =--
 
 
-There is the _[[Lepage from]]_
+There is the _[[Lepage form]]_
 
 $$
   \mathbf{L} + \Theta
@@ -1766,9 +1766,11 @@ $$
   \array{
     && \Gamma_{\Sigma_{p+1}}(E)_{\delta_{EL} \mathbf{L} = 0}
     \\
-    \Gamma_{N_\Sigma \Sigma^{(in)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
-    &&
-    \Gamma_{N_\Sigma \Sigma^{(out)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    & \swarrow && \searrow
+    \\
+    \Gamma_{\Sigma^{(in)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    && &6
+    \Gamma_{\Sigma^{(out)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
     \\
     & {}_{\mathllap{\omega_{in}}}\searrow && \swarrow_{\mathrlap{\omega_{out}}}
     \\
@@ -1777,6 +1779,9 @@ $$
 $$
 
 
+This means that the pre-symplectic structure on the on-shell configuration space is 
+well-defined independently of the choice of [[Cauchy surface]]. Therefore one speaks of the
+_[[covariant phase space]]_.
 
 
 +-- {: .num_defn}
