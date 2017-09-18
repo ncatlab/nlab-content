@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] or [[colimits]], respectively, if every limiting [[cone]] or colimiting [[cocone]] in $\mathcal{D}$ is the image of a limiting cone or colimiting cocone, respectively, in $\mathcal{D}$.
+A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] or [[colimits]], respectively, if every limiting [[cone]] or colimiting [[cocone]] in $\mathcal{D}$ is the image of a limiting cone or colimiting cocone, respectively, in $\mathcal{C}$.
 
 ## Related concepts
 
