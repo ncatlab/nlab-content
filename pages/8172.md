@@ -960,35 +960,39 @@ Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corre
 
 =--
 
-#### The $\mathcal{E}_1$-term and Hopf algebroid structure
+#### The first page and Hopf algebroid structure
+ {#FirstPageAndHopfAlgebroid}
 
 Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}, 
 for understanding the $\mathcal{E}_2$-page of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, 
 it is sufficient to understand the $\mathcal{E}_1$-page 
 of the $E$-Adams spectral sequence that is induced by the
 standard $E$-resolution of example \ref{StandardEResolution}.
-
 By construction, that page is 
 
 $$
   \mathcal{E}_1^{s,\bullet}
     \simeq
-  \pi_\bullet([Y,E^{\wedge (s+1)}\wedge X] )
+  \pi_\bullet(\;[Y,E^{\wedge (s+1)}\wedge X] \;)
 $$
 
 with the differentials being the image under $\pi_\bullet$ of the alternating sum of the morphisms that insert unit elements. 
 
 We discuss now how, under favorable conditions, these homotopy groups of mapping spectra of the form $[Y,E^{\wedge (s+1)}\wedge X]$ may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-homology of the $\mathcal{E}_1$-page is seen to compute the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules.
 
-The condition needed for this to work is the following
+The condition needed for this to work is the following.
 
 +-- {: .num_defn #FlatE}
 ###### Definition
 
-Call the [[ring spectrum]] $E$ _flat_ if
+Call the [[ring spectrum]] $E$ _flat_ if one, equivalently both, of the morphisms
 
 $$
-  \eta_L,\eta_R \colon E_\bullet \longrightarrow E_\bullet(E)
+  \eta_L \coloneqq \pi_\bullet(e \wedge id) \colon E_\bullet \longrightarrow E_\bullet(E)
+$$
+
+$$
+  \eta_r \coloneqq \pi_\bullet(id \wedge e) \colon E_\bullet \longrightarrow E_\bullet(E)
 $$
 
 is a [[flat morphism]].
@@ -999,18 +1003,9 @@ is a [[flat morphism]].
 ###### Example
 
 Examples of ring spectra that are flat according to def. \ref{FlatE} include
+[[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]].
 
-* $E = H \mathbb{F}_p$ an [[Eilenberg-MacLane spectrum]] with $mod\;p$ [[coefficients]];
-
-* $E = B P$ the [[Brown-Peterson spectrum]];
-
-* $E = MU$ the [[complex cobordism cohomology theory|complex cobordism spectrum]];
-
-Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include
-
-* $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[integers|integer]] [[coefficients]];
-
-* $E = M S U$.
+Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include [[HA|H]][[integers|Z]], and $M S U$.
 
 =--
 
@@ -1048,7 +1043,7 @@ $$
 
 =--
 
-(e.g. [Schwede 12, prop. 6.20](#Schwede12))
+(e.g. [Adams 96, part III, lemma 12.5](#Adams96), [Schwede 12, prop. 6.20](#Schwede12))
 
 +-- {: .proof}
 ###### Proof
@@ -1088,26 +1083,152 @@ $$
 
 =--
 
++-- {: .num_defn #CommutativeHopfAlgebroid}
+###### Definition
+
+A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
+
+=--
+
++-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
+###### Remark
+
+We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CRing$, write $Spec(R)$ for same same object, but regarded as an object in $CRing^{op}$. 
+
+An [[internal category]] in $CRing^{op}$ is a [[diagram]] in $CRing^{op}$ of the form
+
+$$
+  \array{
+    Spec(\Gamma) \underset{Spec(A)}{\times} Spec(\Gamma)
+    \\
+    \downarrow^{\mathrlap{\circ}}
+    \\
+    Spec(\Gamma)
+    \\
+    {}^{\mathllap{s}}\downarrow \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
+    \\
+    Spec(A)
+  }
+  \,,
+$$
+
+(where the [[fiber product]] at the top is over $s$ and the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
+
+$$
+  inv \colon Spec(\Gamma) \longrightarrow Spec(\Gamma)
+$$
+
+acting as assigning [[inverses]].
+
+The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+
+$$
+  Spec(R_1) \underset{S}{\times} Spec(R_2) 
+  \simeq
+  Spec(R_1 \otimes_S R_2)
+  \,.
+$$
+
+This means that the above is equivalently a diagram
+$$
+  \array{
+    \Gamma \underset{A}{\otimes} \Gamma
+    \\
+    \uparrow^{\mathrlap{\Psi}}
+    \\
+    \Gamma 
+    \\
+    {}^{\mathllap{\eta_L}}\uparrow 
+    \downarrow^{\mathrlap{\epsilon}} 
+    \uparrow^{\mathrlap{\eta_R}}
+    \\
+    A
+  }
+$$
+
+with
+
+$$
+  c \colon \Gamma \longrightarrow \Gamma
+$$
+
+satisfying dual conditions. Here 
+
+* $\Psi$ is called the _[[coproduct]]_;
+
+* $c$ is called the _[[antipode]]_.
+
+
+=--
+
+
 +-- {: .num_cor #HopfAlgebroidStructureOnDualEOperations}
 ###### Corollary
 
-If $E$ is flat, def. \ref{FlatE}, then the the cosimplicial spectrum $E^{\wedge^\bullet}$ of the $E$-standard resolution, example \ref{StandardEResolution}, of the [[sphere spectrum]]  induces on [[stable homotopy groups]] a [[Hopf algebroid]]-structure on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$ via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}.
+If $E$ is flat, def. \ref{FlatE}, then,
+via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} X$ (the $E$-standard resolution, example \ref{StandardEResolution}) exhibits:
+
+1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$;
+
+1. for general $X$: [[comodule]]-structure on $E_\bullet(X)$ over this Hopf algebroid.
 
 =--
 
 (e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
 
-Say this in more detail:
++-- {: .proof}
+###### Proof
 
-A [[Hopf algebroid]] is an [[internal groupoid]] in [[Ring]]${}^{op}$. A commutative (but not necessarily co-commutative) Hopf algebroid is an [[internal groupoid]] in [[CRing]]${}^{op}$.
+Via prop. \ref{FlatnessOfEImpliesKeyConsequence}, the image under $\pi_\bullet(-)$ of the cosimplicial spectrum $E^{\wedge^\bullet}(E)$ is identified as on the right of the following diagram
 
-(...)
+$$
+  \array{
+    \pi_\bullet(E\wedge E \wedge E) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+    \\
+    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
+    &&
+    \uparrow^{\mathrlap{\Psi}}
+    \\
+    \pi_\bullet(E \wedge E) &=& E_\bullet(E)
+    \\
+    {}^{\mathllap{\pi_\bullet(e \wedge id)}}\uparrow
+     \downarrow^{\mathrlap{\pi_\bullet(\mu)}}
+     \;\;\;\;\;\;
+     \uparrow^{\mathrlap{\pi_\bullet(id \wedge e)}}
+     &&
+     {}^{\mathllap{\eta_L}}\uparrow 
+     \downarrow^{\mathrlap{\epsilon}} 
+     \uparrow^{\mathrlap{\eta_R}}
+    \\
+    \pi_\bullet(E) &=& \pi_\bullet(E)
+  }
+  \,.
+$$
+
+Analogously the [[coaction]] is induced as on the right of the following diagram
+
+$$
+  \array{
+    \pi_\bullet(E\wedge E \wedge X) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+    \\
+    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
+    &&
+    \uparrow^{\mathrlap{\Psi_X}}
+    \\
+    \pi_\bullet(E \wedge X) &=& E_\bullet(X)
+  }
+  \,.
+$$
+
+=--
+
+
 
 
 +-- {: .num_prop #AdamsUCT}
 ###### Proposition
 
-If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KU]], [[KU]], then for all $E$-[[module spectra]] $N$ the canonical morphism
+If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], then for all $E$-[[module spectra]] $N$ the canonical morphism
 
 $$
  \pi_\bullet[Y,N] 
@@ -1119,7 +1240,7 @@ is an [[isomorphism]].
 
 =--
 
-This is one of the [[universal coefficient theorems]] of [[Frank Adams]] ([Adams 74, chapter III, prop. 13.5](#Adams74), [Schwede 12, chapter II, prop. 6.20](#Schwede12)).
+This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)).
 
 +-- {: .num_cor}
 ###### Corollary
@@ -1192,7 +1313,7 @@ $$
 =--
 
 
-#### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
+#### The second page and homological algebra of Hopf modules
  {#TheE2TermOfTheEAdamsSpectralSequence}
 
 +-- {: .num_prop}
