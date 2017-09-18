@@ -269,6 +269,8 @@ It is also possible to define the notion of a [[Cauchy real number]] object and 
 
 * [[Cauchy real number]]
 
+* [[one-sided real numbers]]
+
 * [[natural number]]
 
 * [[natural numbers object]]
