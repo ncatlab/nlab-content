@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A **locally closed subtopos** generalizes the concept of a locally closed subspace from topology to toposes.
+A **locally closed subtopos** generalizes the concept of a [[locally closed set|locally closed subspace]] from topology to toposes.
 
 ## Definition
 
@@ -32,6 +32,7 @@ A [[subtopos]] $\mathcal{E}_j\hookrightarrow\mathcal{E}$ is called _locally clos
 * [[open subtopos]]
 * [[closed subtopos]]
 * [[dense subtopos]]
+* [[locally closed set]]
 * [[co-Heyting boundary]]
 
 ## References
