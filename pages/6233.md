@@ -36,7 +36,7 @@ For $X$ a [[scheme]], a _$\mathcal{D}_X$-scheme_ is a [[scheme]] $E \to \mathbf{
 +-- {: .num_remark}
 ###### Remark
 
-This definition makes sense in much greater generality: in any context of [[infinitesimal cohesion]].
+This definition makes sense in much greater generality: in any context of [[differential cohesion]].
 
 =--
 
@@ -93,12 +93,14 @@ This fact makes $\mathcal{D}$-geometry a natural home for [[variational calculus
 
 The definition in terms of monoids in [[D-module]]s is in section 2.3 in
 
-* [[Alexander Beilinson]] and [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
- {#BeilinsonDrinfeld}
+* {#BeilinsonDrinfeld} [[Alexander Beilinson]] and [[Vladimir Drinfeld]], _[[Chiral Algebras]]_
+ 
+  _chapter 2, Geometry of D-schemes_ ([pdf](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch2.pdf))
+
 
 The observation that this is equivalent to the abstract definition given above appears in pages 5 and 6 of
 
-* [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_, 2009 ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf))
+ 
 
 [[!redirects D-schemes]]
