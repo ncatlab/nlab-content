@@ -341,7 +341,7 @@ An class of examples of non-(graded)-commutative superalgebra
 are [[Clifford algebra]].
 
 In fact, let $V$ be a [[vector space]] equipped with symmetric [[inner product]]
-$\langle -,- \range$. Write $\wedge^\bullet V$ be the [[Grassmann algebra]] on $V$. The inner product makes this a super [[Poisson algebra]]. The [[Clifford algebra]] $Cl(V, \langle \rangl)$ is the [[deformation quantization]] of this.
+$\langle -,- \rangle$. Write $\wedge^\bullet V$ be the [[Grassmann algebra]] on $V$. The inner product makes this a super [[Poisson algebra]]. The [[Clifford algebra]] $Cl(V, \langle \rangl)$ is the [[deformation quantization]] of this.
 
 +-- {: .num_example #ComplexCl1}
 ###### Example
