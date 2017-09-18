@@ -46,7 +46,7 @@ $$
   \,,
 $$
 
-where in the smash product $S^n \wedge X$ the group $G$ is to be taken to act trivially on the [[sphere]] $S^n$. From this perspective it is desireable to have an analogous relation also for smashing with spheres on which the group $G$ acts nontrivially. Since we may think of $S^n$ as being the [[representation sphere]] of the trivial action of $G$ on $\mathbb{R}^n$, this leads one to demand that $E^\bullet$ is graded not just by the integers, but by any [[linear representation]] $V$, so that one has generalized suspension isomorphisms
+where in the smash product $S^n \wedge X$ the group $G$ is to be taken to act trivially on the [[sphere]] $S^n$. From this perspective it is desireable to have an analogous relation also for smashing with spheres on which the group $G$ acts nontrivially. Since we may think of $S^n$ as being the [[representation sphere]] of the trivial action of $G$ on $\mathbb{R}^n$, this leads one to demand that $E^\bullet$ is graded not just by the integers, but by any [[linear representation]] $V$, so that one has _equivariant [[suspension isomorphisms]]_
 
 $$
   E_G^\bullet(X) \simeq E_G^{\bullet + V}(S^V \wedge X)
@@ -103,6 +103,9 @@ $G$-spectra that are invertible under the smash product.  That homomorphism  is 
 * [[G-universe]]
 
 ## References
+
+* {#May96} [[Peter May]], chapter XIII of _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+
 
 * {#Schwede15} [[Stefan Schwede]], section 4 (from page 40 on) in _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
