@@ -362,20 +362,16 @@ $$
   L : (p : E \to C) \mapsto ( (-)/p : C^{op} \to Cat) 
 $$
 
-that assigns to a functor $p$ the presheaf which sends $c \in C$ to the [[comma category]] 
+that assigns to a functor $p$ the presheaf which sends $c \in C$ to the [[comma category]] $c/p$ with objects given by pairs $(e, c \to p(e))$ and morphisms by commutative triangles
 
 $$
-  c/p = 
-  \left\{
-    \array{
-      && c
+  \array{
+      && c &&
       \\
-      & \swarrow && \searrow
+      & \swarrow && \searrow &
       \\
       p(e_1) &&\to&& p(e_2)
-    }
-  \right\}
-  \,,
+  }
 $$
 
 i.e.
