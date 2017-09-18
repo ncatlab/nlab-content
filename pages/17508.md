@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The concept of [[localization]] of a category for the case of [[monoidal categories]] with localization functors being [[monoidal functors]].
+
+## Related concepts
+
+* [[monoidal model category]]
+
+## References
+
+* {#Day73} [[Brian Day]], _Note on monoidal localisation_, Bull. Austr. Math. Soc. Vol 8 (1973) ([[DayMonoidalLocaization73.pdf:file]])
+
+[[!redirects monoidal localizations]]
