@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
 =--
 =--
 
@@ -31,6 +35,9 @@ is called the **fundamental solution** for $P$; alternative names like __Green f
 * [[Dirac propagator]]
 
 ## References
+
+* {#Hoermander90} [[Lars Hörmander]], section 3.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+
 
 * {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], section 2 and 3 of _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
 
