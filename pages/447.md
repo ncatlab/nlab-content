@@ -157,11 +157,11 @@ Any monomorphism $i \colon X \to Y$ in $Set^{\Delta^{op}}$ can be seen as the re
 
 $$\array{
 \partial \Delta(-, n) & \to & F(\alpha) \\
-\mathllap{i} \downarrow & & \downarrow \\
+\mathllap{j} \downarrow & & \downarrow \\
 \Delta(-, n) & \to & F(\alpha+1)
 }$$ 
 
-where $i$ is the inclusion. Now $R(i)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by [this lemma](/nlab/show/subspace+topology#pushout) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a relative CW-complex. By [another lemma](/nlab/show/subspace+topology#transfinite), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
+where $j$ is the inclusion. Now $R(j)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by [this lemma](/nlab/show/subspace+topology#pushout) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a relative CW-complex. By [another lemma](/nlab/show/subspace+topology#transfinite), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
 =-- 
 
 +-- {: .num_corollary}
@@ -186,20 +186,12 @@ First, a small technical result about simplicial sets.
 
 +-- {: .num_lemma #product}
 ###### Lemma 
-The product of two representables $\Delta(-, m) \times \Delta(-, n)$ is the colimit of a finite diagram of representables, i.e., is the quotient of a finite coproduct of representables. 
+The realization of a product of two representables $\Delta(-, m) \times \Delta(-, n)$ is compact. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-We describe a finite collection of monomorphisms $p_i: \Delta(-, m+n) \to \Delta(-, m) \times \Delta(-, n)$ (there are $\binom{m+n}{m}$ many to be exact) which collectively define an epimorphism 
-$$(p_i): \sum_{1 \leq i \leq \binom{m+n}{m}} \Delta(-, m+n) \to \Delta(-, m) \times \Delta(-, n).$$ 
-The product of ordinals $[m] \times [n]$ can be pictured as a rectangular grid consisting of $m \times n$ rectangles, and an order-preserving monomorphism $[k] \to [m] \times [n]$ can be pictured as a path of length $k$ along the grid, traveling north and east. A maximal such path is of length $m+n$, traveling from $(0, 0)$ to $(n, m)$ say, and is specified by a choice of which $m$ among $m+n$ many steps are steps north. These maximal paths give the monos $p_i$. 
-
-To show the collective map $(p_i)$ is epic, we must show that any map $f: \Delta(-, k) \to \Delta(-, m) \times \Delta(-, n)$ lifts through $(p_i)$. By factoring $f$ as an epi followed by a mono, it is sufficient to prove this in the case where $f$ is monic. In that case, $f$ is described by a path of length $k$, which is embedded in a maximal path $p_j$. Such an embedding is given by a monic $[k] \to [m+n]$, whereupon the composite 
-
-$$\Delta(-, k) \to \Delta(-, m+n) \stackrel{i_j}{\hookrightarrow} \sum_{1 \leq i \leq \binom{m+n}{m}} \Delta(-, m+n)$$ 
-
-(where $i_j$ is the $j^{th}$ inclusion) provides the desired lift of $f$, thus completing the proof. 
+It suffices to observe that $\Delta[m] \times \Delta[n]$ has finitely many non-degenerate simplices. That is clear since non-degenerate $k$-simplices in the nerve of a poset $P$ are exactly injective order preserving maps $[k] \to P$.
 =--
 
 
@@ -212,7 +204,7 @@ is a homeomorphism.
 
 +-- {: .proof} 
 ###### Proof
-The canonical map is continuous, and a bijection at the underlying set level by theorem \ref{leftexact}. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is also compact: by lemma \ref{product}, and using the fact that realization preserves finite colimits, the left side is the topological quotient of a coproduct of finitely many simplices, hence compact. But a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. 
+The canonical map is continuous, and a bijection at the underlying set level by theorem \ref{leftexact}. The codomain is the compact Hausdorff space $\sigma(m) \times \sigma(n)$, and the domain is compact by Lemma \ref{product}. But a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. 
 =-- 
 
 +-- {: .un_remark} 
