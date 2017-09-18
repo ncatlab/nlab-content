@@ -261,6 +261,7 @@ with review in
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
+Supersymmetry seems to be favored by the [[Starobinsky model of cosmic inflation]] (see there for more).
 
 
 ### Supersymmetry breaking
