@@ -27,7 +27,7 @@ Somewhat later and with different scope, but related to this series, is also a l
 
 ## Some other issue
 
-...
+* The [[big picture]] in [[mathematics]].
 
 
 [[!redirects opinions on the development of mathematics]]
