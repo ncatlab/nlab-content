@@ -62,6 +62,8 @@ If one drops standard regularity assumptions on manifolds then theorem \ref{Embe
 
 * the [[Steenrod-Wockel approximation theorem]]
 
+* [[smooth Serre-Swan theorem]]
+
 * [[derivations of smooth functions are vector fields]]
 
 
