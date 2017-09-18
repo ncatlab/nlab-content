@@ -23,7 +23,10 @@ For examples of the other [[universal construction]]s see
 * table of contents
 {: toc}
 
-## Limits and colimits in Set {#limcoliminset}
+
+## Limits and colimits of sets 
+  {#limcoliminset}
+
 
 In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
 
@@ -145,9 +148,289 @@ The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient
 
 
 ## Limits and colimits of topological spaces
+ {#OfTopologicalSpaces}
 
+
+We discuss limits and colimits in the category [[Top]] of [[topological spaces]].
+
+$\,$
 
 [[!include universal constructions of topological spaces -- table]]
+
+$\,$
+
+
++-- {: .num_defn #InitialAndFinalTopologies}
+###### Definition
+
+Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
+
+* For $\{S \stackrel{f_i}{\to} S_i \}_{i \in I}$ a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I}))\to X_i$ are [[continuous function|continuous]].
+
+* For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+
+=--
+
++-- {: .num_example #TopologicalSubspace}
+###### Example
+
+For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
+
+$$
+  \iota_S
+  \;\colon\;
+  (S, \tau_{initial}(\iota_S))
+  \hookrightarrow
+  X
+$$
+
+a [[topological subspace]] inclusion.
+
+=--
+
++-- {: .num_example #QuotientTopology}
+###### Example
+
+Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
+
+=--
+
+
+
+
++-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
+###### Proposition
+
+Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
+
+1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
+
+   $$
+     \array{
+       && \underset{\longleftarrow}{\lim}_{i \in I} S_i
+       \\
+       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+       \\
+       S_i && \underset{}{\longrightarrow} && S_j
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i \in I} X_i  
+     \simeq
+     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
+   $$
+
+1. The [[colimit]] of $X_\bullet$ exists and is the topological space whose underlying set is the colimit in [[Set]] of the underlying diagram of sets, and whose topology is the [[final topology]], def. \ref{InitialAndFinalTopologies} for the component maps $\iota_i$ of the colimiting [[cocone]]
+
+   $$
+     \array{
+       S_i && \longrightarrow && S_j
+       \\
+       & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
+       \\
+       && \underset{\longrightarrow}{\lim}_{i \in I} S_i
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i  
+     \simeq
+     \left(\underset{\longrightarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
+   $$
+
+=--
+
+(e.g. [Bourbaki 71, section I.4](#Bourbaki71))
+
++-- {: .proof}
+###### Proof
+
+The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ is immediate: for 
+
+$$
+  \array{
+    && (S,\tau)
+    \\
+    & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}} 
+    \\
+    X_i && \underset{}{\longrightarrow} && X_i
+  }
+$$
+
+any [[cone]] over the diagram, then by construction there is a unique function of underlying sets $S \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} S_i$ making the required diagrams commute, and so all that is required is that this unique function is always [[continuous function|continuous]]. But this is precisely what the initial topology ensures.
+
+The case of the colimit is [[formal dual|formally dual]].
+
+=--
+
+
+
+
++-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
+###### Example
+
+The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its unique topology.
+
+=--
+
++-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their _[[disjoint union]]_.
+
+=--
+
+In particular:
+
++-- {: .num_example #DiscreteTopologicalSpaceAsCoproduct}
+###### Example
+
+For $S \in Set$, the $S$-indexed [[coproduct]] of the point, $\underset{s \in S}{\coprod}\ast $,  is the set $S$ itself equipped with the [[final topology]], hence is the [[discrete topological space]] on $S$.
+
+=--
+
++-- {: .num_example #ProductTopologicalSpace}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
+
+In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then a [[basis for a topology|sub-basis]] for the product topology is given by the [[Cartesian products]] of the open subsets of (a basis for) each factor space.
+
+=--
+
++-- {: .num_example #EqualizerInTop}
+###### Example
+
+The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
+
+$$
+  eq(f,g) 
+   \hookrightarrow 
+  S_X 
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  S_Y
+$$
+
+(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+
+=--
+
+
++-- {: .num_example #CoequalizerInTop}
+###### Example
+
+The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets 
+
+$$
+  S_X 
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  S_Y
+    \longrightarrow 
+  coeq(f,g)
+$$
+
+(hence the [[quotient set]] by the [[equivalence relation]] generated by $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
+
+=--
+
++-- {: .num_example #PushoutInTop}
+###### Example
+
+For 
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow
+     \\
+     X
+  }
+$$
+
+two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{g_\ast f}}
+     \\
+     X &\longrightarrow& X \sqcup_A Y
+     \,.
+  }
+  \,.
+$$
+
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _[[attaching space]]_.
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
+
+By example \ref{CoequalizerInTop} the [[pushout]]/[[attaching space]] is the [[quotient topological space]]
+
+$$
+  X \sqcup_A Y \simeq (X\sqcup Y)/\sim
+$$
+
+of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]] which identifies a point in $X$ with a point in $Y$ if they have the same pre-image in $A$.
+
+(graphics from [Aguilar-Gitler-Prieto 02](#AguilarGitlerPrieto02))
+
+=--
+
++-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
+###### Example
+
+As an important special case of example \ref{PushoutInTop},  let 
+
+$$
+  i_n \colon S^{n-1}\longrightarrow D^n
+$$
+
+be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]] (both regarded as [[topological spaces]] with their [[subspace topology]] as subspaces of the [[Cartesian space]] $\mathbb{R}^n$).
+
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
+
+Then the colimit in [[Top]] under the diagram, i.e. the [[pushout]] of $i_n$ along itself,
+
+$$
+  \left\{
+     D^n \overset{i_n}{\longleftarrow} S^{n-1} \overset{i_n}{\longrightarrow}
+     D^n
+  \right\}
+  \,,
+$$
+
+is the [[n-sphere]] $S^n$:
+
+$$
+  \array{
+    S^{n-1} &\overset{i_n}{\longrightarrow}& D^n
+    \\
+    {}^{\mathllap{i_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& S^n
+  }
+  \,.
+$$
+
+(graphics from Ueno-Shiga-Morita 95)
+
+=--
+
+W
+
+
+
 
 
 ## Limits and colimits in a preordered set
