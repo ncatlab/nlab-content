@@ -63,7 +63,7 @@ See also
 
 * F. Marmolejo and R. J. Wood, *No-iteration pseudomonads*, [TAC](http://www.tac.mta.ca/tac/volumes/28/14/28-14abs.html) 2013
 
-The definition of monad as an extension system was used by [[Eugenio Moggi]] in his original paper introducing the application of [[monads in computer science]] for modeling different notions of computation:
+The definition of monad as an extension system was used by [[Eugenio Moggi]] (and referred to as a "Kleisli triple") in his original paper introducing the application of [[monads in computer science]] for modeling different notions of computation:
 
 * [[Eugenio Moggi]], _Notions of computation and monads_, Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
 
