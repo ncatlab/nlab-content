@@ -19,12 +19,15 @@
 
 ## Definition
 
-An __$H$-space__ ("H" for [[Heinz Hopf|Hopf]], as in _[[Hopf construction]]_) is a [[magma]] in the [[homotopy category]] of [[topological spaces]] [[Ho(Top)]], or in the homotopy category category $Ho(Top)_*$ of pointed spaces,  which has a [[unit]] up to [[homotopy]]. 
+An __$H$-space__ ("H" for [[Heinz Hopf|Hopf]], as in _[[Hopf construction]]_) is a [[magma]] [[internalization|internal to]] the [[classical homotopy category]] of [[topological spaces]] [[Ho(Top)]], or in the homotopy category category $Ho(Top)_*$ of [[pointed topological spaces]],  which has a [[unit]] up to [[homotopy]]. 
 
+Similarly:
 
 An **$H$-monoid** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
 
 An __$H$-group__ is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H$-group if has also a [[inverses]] up to homotopy.
+
+An **$H$-ring** is a [[ring object]] in (pointed) [[Ho(Top)]].
 
 To continue in this pattern, one could say that an **H-category** is an [[Ho(Top)]]-[[enriched category]].
 
@@ -49,6 +52,8 @@ If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy
 If an $H$-space is equivalent to a [[delooping|deloopable one]], then it is a [[groupoid object in an (infinity,1)-category|group object in the (∞,1)-category]] [[Top]]. In other words, in that case, the associativity and other axioms hold up to **coherent homotopy**. 
 
 For more details see at [[loop space]].
+
+The [[classifying space]] $B U \times \mathbb{Z}$ for (complex) [[topological K-theory]] is an H-ring space (p. 205 (213 of 251) in _[[A Concise Course in Algebraic Topology]]_.)
 
 ## Properties
 
@@ -123,6 +128,9 @@ See also
 
 [[!redirects H-group]]
 [[!redirects H-groups]]
+
+[[!redirects H-ring]]
+[[!redirects H-rings]]
 
 [[!redirects H-category]]
 [[!redirects H-categories]]
