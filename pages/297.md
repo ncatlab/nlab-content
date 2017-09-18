@@ -20,7 +20,7 @@
 {:toc}
 
 
-Functorial quantum field theory_, one of the two approaches of axiomatizing [[quantum field theory]]. The other is [[AQFT]]. FQFT formalizes the _[[Schrödinger picture]]_ of quantum mechanics, while [[AQFT]] formalizes the _[[Heisenberg picture]]_.
+_Functorial quantum field theory_ is one of the two approaches of axiomatizing [[quantum field theory]], the other being [[AQFT]]. FQFT formalizes the _[[Schrödinger picture]]_ of quantum mechanics, while [[AQFT]] formalizes the _[[Heisenberg picture]]_.
 
 ### General idea
  {#GeneralIdea}
