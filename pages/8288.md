@@ -173,7 +173,7 @@ For $A \in \mathcal{A}$,
     A \stackrel{\simeq_{qi}}{\to} I^\bullet
   $$ 
 
-* an **$F$-projective resolution** of $A$ is a [[cochain complex]] $Q_\bullet \in Ch_\bullet(\mathcal{P}) \subset Ch^\bullet(\mathcal{A})$ and a [[quasi-isomorphism]]
+* an **$F$-projective resolution** of $A$ is a [[chain complex]] $Q_\bullet \in Ch_\bullet(\mathcal{P}) \subset Ch^\bullet(\mathcal{A})$ and a [[quasi-isomorphism]]
 
   $$
     Q_\bullet \stackrel{\simeq_{qi}}{\to} A
