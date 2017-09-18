@@ -444,7 +444,7 @@ This says that with $\mathbf{J}$ presented canonically as a map of presheaves of
 
 $$
   \array{
-    hofib(\mathbf{J}) &\to& &\to& \Omega^1(-, \mathfrak{g})
+    hofib(\mathbf{J}) &\to& &\to& \Omega^1(-, \mathfrak{g})//T
     \\
     \downarrow && \downarrow && \downarrow
     \\
@@ -479,7 +479,7 @@ Unwinding the definitions shows that $hofib(\mathbf{J})$ has
      g_1 \stackrel{t}{\to} g_2
    $$
 
-   in $C^\infty(U,G)//C^\infty(U,T)$.
+   in $C^\infty(U,G)//C^\infty(U,T)$. This shows that $hofib(\mathbf{J}) \simeq G/T$.
 
 1. The canonical map $hofib(\mathbf{J}) \to \Omega^1(-,\mathfrak{g})//T$ picks the top horizontal part of these commuting triangles hence equivalently sends $g$ to $g^* \theta$.
 
