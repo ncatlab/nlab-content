@@ -114,6 +114,7 @@ Reviews include
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], pages 9-10 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
+* {#May96} [[Peter May]], section I.4 of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 * Paolo Masulli, section 2 of _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf))
 
 The [[Eilenberg-MacLane objects]] over the orbit category are discussed in detail in 
