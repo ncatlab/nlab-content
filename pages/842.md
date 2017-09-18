@@ -857,7 +857,7 @@ This is [[Higher Topos Theory|HTT, corollary 5.1.2.3]]
 
 ## Related concepts
 
-* [[limit]]
+* [[limit]], [[internal limit]]
 
 * [[2-limit]]
 
