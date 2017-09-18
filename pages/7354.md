@@ -58,7 +58,7 @@ There is also
 
 The original article suggesting the relation of 11d sugra to string theory is
 
-* [[Edward Witten]], _String theory in various dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* [[Edward Witten]], _[[String Theory Dynamics in Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 An original article collecting all the weak/strong electric/magnetic dualities is 
 
