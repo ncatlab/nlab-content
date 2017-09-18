@@ -23,9 +23,7 @@
 
 It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, {\cdot})$ is a [[set]] $G$ equipped with a binary operation ${\cdot} : G \times G \to G$, etc.
 
-{#InCategoryTheory} One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[functor]] $p \colon D \to C$ which satisfies the following conditions ([Adamek-Rosicky-Vitale, remark 13.18](#AdamekRosickyVitale)):
-
-1. $p$ is a [[faithful functor]];
+{#InCategoryTheory} One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[functor]] $p \colon D \to C$ which is a [[faithful functor]] and possibly is in addition required to satisfy the following conditions ([Adamek-Rosicky-Vitale, remark 13.18](#AdamekRosickyVitale)):
 
 1. $p$ is an [[amnestic functor]] ($p$-vertical [[isomorphisms]] are [[identities]]),
 
