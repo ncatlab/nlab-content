@@ -130,10 +130,46 @@ $$
   \,.
 $$
 
-Then using the additivity of morphisms, it follows that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
+Observe some basic compatibility of the $Ab$-enrichment with the product: 
+
+First, for $(\alpha_1,\beta_1), (\alpha_2, \beta_2)\colon R \to X_1 \times X_2$ then 
 
 $$
-  \phi \;\colon\; f_1 \circ p_1 + f_2 \circ p_2
+  (\star)
+  \;\;\;\;\;\;
+  (\alpha_1,\beta_1) + (\alpha_2, \beta_2) 
+    = 
+  (\alpha_1+ \alpha_2 , \; \beta_1 + \beta_2)
+$$
+
+(using that the projections $p_1$ and $p_2$ are linear and by the universal property of the porduct).
+
+Second, $(id,0) \circ p_1$ and $(0,id) \circ p_2$ are two projections on $X_1\times X_2$ whose sum is the identity:
+
+$$
+  (\star\star)
+  \;\;\;\;\;\;
+  (id, 0) \circ p_1
+  +
+  (0, id) \circ p_2
+    =
+  id_{X_1 \times X_2} 
+  \,.
+$$
+
+(We may check this, via the [[Yoneda lemma]] on [[generalized elements]]: for $(\alpha, \beta) \colon R \to X_1\times X_2$ any morphism, then $(id,0)\circ p_1 \circ (\alpha,\beta) = (\alpha,0)$ and $(0,id)\circ p_2\circ (\alpha,\beta) = (0,\beta)$, so the statement follows with equation $(\star)$.)
+
+
+Now observe that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
+
+$$
+  \phi 
+    \;\coloneqq\; 
+  f_1 \circ p_1 + f_2 \circ p_2
+    \;\colon\;
+  X_1 \times X_2
+    \longrightarrow
+  Q
 $$
 
 gives a morphism of [[cocones]]
@@ -157,7 +193,7 @@ $$
   \,.
 $$
 
-Moreover, this is in fact unique: suppose $\phi'$ is another morphism filling this diagram, then 
+Moreover, this is unique: suppose $\phi'$ is another morphism filling this diagram, then, by using equation $(\star \star)$, we get
 
 $$
   \begin{aligned}
