@@ -94,7 +94,7 @@ A __category__ $C$ consists of
 *  such that the following properties are satisfied:
 
    *  composition is [[associative]]:
-      for each quadruple $w,x,y,z$ of objects, if $f \in C_1(y,z)$, $g \in C_1(x,y)$, and $h \in C_1(w,x)$, then $(h \circ g)\circ f = h\circ (g \circ f)$;
+      for each quadruple $w,x,y,z$ of objects, if $f \in C_1(y,z)$, $g \in C_1(x,y)$, and $h \in C_1(w,x)$, then $(f \circ g)\circ h = f\circ (g \circ h)$;
 
    *  composition satisfies the [[unit law|left and right unit laws]]:
       for each pair $x,y$ of objects, if $f \in C_1(x,y)$, then $1_y \circ f = f = f \circ 1_x$.
