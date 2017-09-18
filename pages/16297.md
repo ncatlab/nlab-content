@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+This page collects material related to 
+
+* [[Bertrand Russell]],
+
+  _A History of Western Philosophy_
+
+  1945
+
+## Chapter 22 -- Hegel
+
+Chapter 22 is on [[Georg Hegel]] and his philosophy as expressed in the _[[Science of Logic]]_ etc.
+
+> {#MysticYouth} In youth he was much attracted to [[mysticism]], and his later views may be regarded, to some extent, as an intellctualizing of what had first appeared to him as a mystic insight.
+
+## References
+
+* Wikipedia, _[A History of Western Philosophy](http://en.wikipedia.org/wiki/A_History_of_Western_Philosophy)_
+
+category: reference
