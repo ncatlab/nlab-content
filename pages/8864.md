@@ -300,7 +300,9 @@ Prop. \ref{OverCompactHausdorffSpacesEveryTopologicalVectorBundleIsDirectSummand
 
 * [[inner product on vector bundles]]
 
-* [[tensor product of vector bundles]], [[dual vector bundle]], [[tensor category]]
+* [[tensor product of vector bundles]], [[external tensor product of vector bundles]], [[dual vector bundle]], 
+
+* [[tensor category]]
 
 * [[Stiefel-Whitney class]]
 
