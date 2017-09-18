@@ -177,6 +177,28 @@ induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1
 
 =--
 
+The following extra condition ensures that the [[shape modality]] is explicitly given by a geometric [[path ∞-groupoid]] construction.
+
++-- {: .num_defn #A1ExhibitingCohesion}
+###### Definition
+
+Given a cohesive $\infty$-topos $\mathbf{H}$ and an object $\mathbb{A}^1 \in \mathbf{H}$, we say that $\mathbb{A}^1$ _exhibits the cohesion_  if the [[shape modality]] $\Pi$ is equivalent to "[[A1-homotopy theory|A1-localization]]" $L_{\mathbb{A}^1}$, hence to [[localization of an (∞,1)-category|localization]] of $\mathbf{H}$ at the class of [[projection]] morphisms of the form $(-)\times \mathbb{A}^1 \longrightarrow (-)$, i.e. if
+
+$$
+  \Pi \simeq L_{\mathbb{A}^1}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In the example of [[smooth ∞-groupoid|smooth cohesion]] and its variants such as [[Euclidean topological infinity-groupoid|Euclidean topological cohesion]], the standard [[real line]] $\mathbb{A}^1 = \mathbb{R}^1$ exhibits cohesion in the sense of def. \ref{A1ExhibitingCohesion} (by [this discussion](cohesive+%28infinity%2C1%29-topos+--+structures#RealLineIsTheContinuum)). Therefore one might also say that if an object $\mathbb{A}^1$ in a cohesive $\infty$-topos exhibits the cohesion, then it plays the role of _the [[continuum]]_ in analogy of the traditional use of this term in geometry. See also at _[continuum -- In cohesive homotopy theory](continuum#InCohesiveHomotopyTypeTheory)_.
+
+=--
+
+
 
 ### Internally
  {#InternalDefinition}
@@ -1087,7 +1109,7 @@ For $\mathbf{H}$ a cohesive $(\infty.1)$-topos its [[category of simplicial obje
 
 $$
   \mathbf{H}^{\Delta^{op}}
-  \stackrel{\Pi_I}{\stackrel{\to}{\stackrel{\overset{Disc_I}{\leftarrow}}{\stackrel{\overset{\Gamma_I}{\to}}{\underset{coDisc_I}{\leftarrow}}}}}
+  \stackrel{\Pi_I}{\stackrel{\longrightarrow}{\stackrel{\overset{Disc_I}{\longleftarrow}}{\stackrel{\overset{\Gamma_I}{\longrightarrow}}{\underset{coDisc_I}{\longleftarrow}}}}}
   \mathbf{H}
   \,.
 $$
@@ -1101,6 +1123,15 @@ Here
 * $Disc_I$ sends an object in $\mathbf{H}$ to the simplicial object which is simplicially constant on $A$.
 
 Hence cohesion of $\mathbf{H}^{\Delta^{op}}$ relative to $\mathbf{H}$ expresses the existence of a discrete and directed notion of path. 
+
+The simplicial interval $\Delta^1 \in \mathbf{H}^{\Delta^{op}}$ (regarded under [[(∞,1)-Yoneda embedding]]) _exhibits the cohesion_ of $\mathbf{H}^{\Delta^{op}}$ over $\mathbf{H}$ in the sense of def. \ref{A1ExhibitingCohesion}, in that the relative [[shape modality]] $\Pi_I$ is equivalent to the "[[A1-homotopy theory|A1-localization]]" at $\mathbb{A}^1 = \Delta^1$
+
+$$
+  \Pi_I \simeq L_{\Delta^1}
+  \,.
+$$
+
+
 
 Notice that there is an inclusion
 
