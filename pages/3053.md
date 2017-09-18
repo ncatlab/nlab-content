@@ -47,7 +47,7 @@ Therefore every morphism $f : b_1 \to b_2$ in a bifibration has both a push-forw
 
 Ordinary [[Grothendieck fibration]]s correspond to [[pseudofunctor]]s to [[Cat]], by the [[Grothendieck construction]] and hence to [[stack|prestacks]]. For these one may consider [[descent]].
 
-If the fibration is even a bifibration, there is a particularly elegant algebraic way to encode its decent properties; this is [[monadic descent]]. The [[Benabou–Roubaud theorem]] characterizes descent properties for bifibrations.
+If the fibration is even a bifibration, there is a particularly elegant algebraic way to encode its descent properties; this is [[monadic descent]]. The [[Benabou–Roubaud theorem]] characterizes descent properties for bifibrations.
 
 ## Related concepts
 
