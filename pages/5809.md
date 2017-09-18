@@ -76,6 +76,4 @@ A treatment of the differential refinement of cohomology operations is in
 
 * Daniel Grady, [[Hisham Sati]], _Primary operations in differential cohomology_, ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988))
 
-[[!redirects Steenrod operation]]
-[[!redirects Steenrod operations]]
 [[!redirects cohomology operations]]
