@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30em" height="20em" viewBox="0 0 480 320">
+<svg xmlns="http://www.w3.org/2000/svg" width="31em" height="20em" viewBox="0 0 490 320">
  <desc>Pentagon Identity</desc>
  <defs>
   <marker id="svg295arrowhead" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="5" orient="auto">
@@ -14,7 +14,7 @@
   <foreignObject x="80"  y="50" width="60" height="24">$a_{w\otimes x,y,z}$</foreignObject>
   <foreignObject x="350"  y="50" width="60" height="24">$a_{w,x,y\otimes z}$</foreignObject>
   <foreignObject x="10"  y="210" width="70" height="24">$a_{w,x,y}\otimes 1_{z}$</foreignObject>
-  <foreignObject x="410"  y="210" width="70" height="24">$1_w\otimes a_{x,y,z}$</foreignObject>
+  <foreignObject x="410"  y="210" width="80" height="24">$1_w\otimes a_{x,y,z}$</foreignObject>
   <foreignObject x="215"  y="290" width="60" height="24">$ a_{w,x\otimes y,z}$</foreignObject>
  </g>
  <g fill="none" stroke="#000" stroke-width="1.5" marker-end="url(#svg295arrowhead)">
