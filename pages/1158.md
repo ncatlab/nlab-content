@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-_Deligne cohomology_ -- or _[[Pierre Deligne|Deligne]]-[[Alexander Beilinson|Beilinson]] cohomology_ -- is an [[abelian sheaf cohomology]] that models [[ordinary differential cohomology]].
+_Deligne cohomology_ -- or _[[Pierre Deligne|Deligne]]-[[Alexander Beilinson|Beilinson]] cohomology_ -- is an [[abelian sheaf cohomology]] that models [[ordinary differential cohomology]], a refinement of the [[sheaf cohomology]] with [[coefficients]] in a [[locally constant sheaf|locally constant]] [[abelian sheaf]] (modeling [[ordinary cohomology]]) by [[differential form]] data.
 
 The _Deligne complex_ is like a truncated [[de Rham complex]] but, crucially, with the sheaf of 0-forms -- the [[structure sheaf]] $\mathcal{O}$ - replaced by the [[multiplicative group]] $\mathcal{O}^\times$ under the [[exponential map]]
 
@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-Given any [[manifold]] $X$, then the resulting complex of abelian groups is, under the [[Dold-Kan correspondence]], the [[n-groupoid]] of [[circle n-bundles with connection]] whose underlying [[circle n-group|circle (n-1)-group]]-[[principal infinity-bundle]] is trivialized. Passing to the [[abelian sheaf cohomology]] implicitly corresponds to considering the [[infinity-stackification]] of this $n$-groupoid valued presheaf, and in this way Deligne cohomology computes equivalence classes of [[circle n-bundles with connection]]. Another way to say this is that under the [[Dold-Kan correspondence]] and [[infinity-stackification]], the above Deligne complex defines a [[smooth infinity-stack]] $\mathbf{B}^n U(1)_{conn}$ which is the [[moduli infinity-stack]] for [[circle n-bundles with connection]], and Deligne cohomology computes the [[homotopy classes]] of maps (of [[infinity-stacks]]) into this ([FSS 10](#FSS10))
+Given any [[manifold]] $X$, then the resulting complex of abelian groups is, under the [[Dold-Kan correspondence]], the [[n-groupoid]] of [[circle n-bundles with connection]] whose underlying [[circle n-group|circle (n-1)-group]]-[[principal infinity-bundle]] is trivialized. Passing to the [[abelian sheaf cohomology]] implicitly corresponds to considering the [[infinity-stackification]] of this $n$-groupoid valued presheaf, and in this way Deligne cohomology computes equivalence classes of [[circle n-bundles with connection]]. Another way to say this is that under the [[Dold-Kan correspondence]] and [[infinity-stackification]], the above Deligne complex defines a [[smooth infinity-stack]] $\mathbf{B}^n U(1)_{conn}$ which is the universal [[moduli infinity-stack]] for [[circle n-bundles with connection]], and Deligne cohomology computes the [[homotopy classes]] of maps (of [[infinity-stacks]]) into this ([FSS 10](#FSS10))
 
 $$
   H^{n+1}_{conn}(X,\mathbb{Z})
@@ -72,7 +72,7 @@ $$
 
 In this way Deligne cohomology, or rather the collection of Deligne [[cocycles]] with [[coefficients]] in the Deligne complex that defines it, is considerably richer than other models for [[ordinary differential cohomology]] such as [[Cheeger-Simons differential characters]], which see only the [[cohomology group]], but not the full [[moduli infinity-stack|moduli n-stack]].
 
-Explicitly, computing the [[abelian sheaf cohomology]] with coefficients in the [[Deligne complex]] via [[Cech cohomology]] gives that a [[cocycle]] $\overline{A}$ on some [[space]] $X$ is represented with respect to a suitable [[covering]] $\{U_i \to X\}$ by a collection of [[differential forms]] and functions
+Explicitly, computing the [[abelian sheaf cohomology]] with coefficients in the [[Deligne complex]] via [[Cech cohomology]] gives that a [[cocycle]] $\overline{A}$ on some [[space]] $X$ is represented with respect to a suitable [[open cover]] $\{U_i \to X\}$ by a collection of [[differential forms]] and functions
 
 $$
   \overline{A}
