@@ -16,7 +16,7 @@
 
 ## Idea
 
-What has come to be called the _doctrine of ideas_ or the _theory of forms_ is  a central part of the [[philosophy]] of [[Plato]], going back mostly to the [[Parmenides dialogue]].
+What has come to be called the _doctrine of ideas_ or the _theory of forms_ is  a central part of the [[philosophy]] of [[Plato]], going back mostly to the [[Parmenides dialogue]] and the allegory of 'The Cave' in the [[Republic dialogue]].
 
 [[Aristotle]] expands on this. In the 19th century it becomes _[[idealism]]_. With  [[Hegel]] there is "The Idea" in an absolute way ([WdL -- Die Idee](http://ncatlab.org/nlab/show/Science%20of%20Logic#TheIdea)).
 
