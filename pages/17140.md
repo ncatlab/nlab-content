@@ -25,6 +25,8 @@ The $E$-[[Adams spectral sequence]] induced by the given [[Adams tower]] [[condi
 
 ## Definition
 
+### Bousfield's definition
+
 +-- {: .num_defn #ENilpotentCompletion}
 ###### Definition
 
@@ -185,6 +187,33 @@ is presented by a tower of fibrations between fibrant spectra in the [[model str
 
 ([Bousfield 79, top, middle and bottom of page 272](#Bousfield79))
 
+### As the limit over the Tot-tower 
+ {#AsLimitOverTotTower}
+
++-- {: .num_prop #ENilpotentCompletionIsHolimOverTotTower}
+###### Proposition
+
+The $E$-nilpotent completion $X^\wedge_E$ (def. \ref{ENilpotentCompletion}) is equivalently the homotopy limit 
+
+$$
+ X^\wedge_E 
+    \simeq 
+  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}}\wedge_S X)
+$$
+
+over the tower of [[totalizations]] of the skeleta of the [[cosimplicial object|cosimplicial]] spectrum $E^\bullet \otimes Y$.
+
+=--
+
+This claim originates in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)). It is taken for granted in ([Lurie 10, lecture 8](#Lurie10)). The first published proof is ([Mathew-Naumann-Noel 15, prop. 2.14](#MathewNaumannNoel15)).
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{ENilpotentCompletionIsHolimOverTotTower} implies that the $E$-[[Adams spectral sequence]] may equivalently be regarded as computing [[descent]] of [[quasicoherent infinity-stacks]] in [[E-infinity geometry]] along the canonical morphisms $Spec(E)\longrightarrow $ [[Spec(S)]]. See at _[Adams spectral sequence -- As derived descent](https://ncatlab.org/nlab/show/Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_.
+
+=--
+
 
 ## Properties
 
@@ -197,7 +226,9 @@ is presented by a tower of fibrations between fibrant spectra in the [[model str
 There is a canonical map
 
 $$
-  L_E X \stackrel{}{\longrightarrow} \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  L_E X 
+    \overset{}{\longrightarrow} 
+  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
 $$
 
 from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalization]].
@@ -271,22 +302,24 @@ The [[BP]]-nilpotent completion at prime $p$ of any spectrum $X$ is $X_{(p)}$.
 
 ## References
 
-Original references include
-
-* {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf))
-
-Lecture notes include
-
-* {#Hopkins99} [[Mike Hopkins]], section 4 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
-
-Discussion of the conditions under which $E$-nilpotent completion gives $E$-localization is due to
+The concept originates with 
 
 * {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
 
+
 * {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf))
+
+The re-interpretation in terms of totalization of the cosimplicial spectrum is briefly mentioned in
+
+* {#Hopkins99} [[Mike Hopkins]], section 4 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
+
+and tacitly assumed in 
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ (2010) lecture 30: _Localizations and the Adams-Novikov Spectral Sequence_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture30.pdf))
 
+A proof of the equivalence of this re-interpretation appears in 
+
+* {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_ ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869))
 
 See also
 
