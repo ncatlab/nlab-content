@@ -19,7 +19,7 @@
 
 ## Idea
 
-**Arithmetic topology** is a theory describing some surprising [[analogies]] between [[low-dimensional topology|3-dimensional topology]] and [[number theory]], where [[knots]] embedded in a [[3-manifold]] behave like [[prime ideals]] in a [[ring of algebraic integers]]. See also at _[Spec(Z) -- As a 3d space containing knots](Spec(Z)#As3dSpaceContainingKnots)_.
+**Arithmetic topology** is a theory describing some surprising [[analogies]] between [[low-dimensional topology|3-dimensional topology]] and [[number theory]], where [[knots]] embedded in a [[3-manifold]] behave like [[prime ideals]] in a [[ring of algebraic integers]]. See also at _[Spec(Z) -- As a 3d space containing knots](Spec%28Z%29#As3dSpaceContainingKnots)_.
 
 Under this analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rational numbers]] $\mathbb{Q}$, or rather (the closure of) $spec(\mathcal{O}_{\mathbb{Q}})$ (i.e., $spec(\mathbb{Z})$), since the 3-sphere has no non-trivial ([[branched cover|unbranched]]) covers while $\mathbb{Q}$ has no non-trivial [[unramified extensions]]. The [[linking number]] between two embedded knots in the 3-sphere then corresponds to the [[Legendre symbol]] between two primes in the ordinary integers.
 
