@@ -95,7 +95,7 @@ This is precisely the case for $[C,B]$ being the [[functor category]] with funct
 
 Since $Cat$ here is cartesian closed, one often uses the exponential notation $B^C := [B,C]$ for the functor category.
 
-To derive from this the definition of natural transformations above, it is sufficient to consider the [[interval category]] $A := I := \{a \to b\}$. For any category $E$, a functor $I \to E$ is precisely a choice of morphism in $E$. This means that we can check what a morphism in the [[internal hom]] category $[C,B]$ is by checking what functors $I \to [C,D]$ are. But by the defining property of $[C,D]$ as an [[internal hom]], such functors are in natural bijection to functors $I \times C \to B$.
+To derive from this the definition of natural transformations above, it is sufficient to consider the [[interval category]] $A := I := \{a \to b\}$. For any category $E$, a functor $I \to E$ is precisely a choice of morphism in $E$. This means that we can check what a morphism in the [[internal hom]] category $[C,B]$ is by checking what functors $I \to [C,B]$ are. But by the defining property of $[C,B]$ as an [[internal hom]], such functors are in natural bijection to functors $I \times C \to B$.
 
 $$
   Funct(I, [C,B]) \simeq Funct(I \times C, B)
