@@ -1,0 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+* table of contents
+{:toc}
+
+## Overview
+
+The usual notion of [[Lambda-ring]] is directly related to the Banach ring
+$(\mathbb{Z},|\cdot|_0)$ of integers equipped with their trivial norm in
+the following way: a [[Lambda-ring]] is a usual ring equipped with
+an action of the monoid $\mathbb{N}=\mathbb{Z}-\{0\}/\{\pm 1\}$.
+Remark that some important Lambda-rings, such as K-theory, are
+actually equipped with an additional $\mathbb{Z}/2$-grading,
+that may be combined with the Lambda-structure to get an action
+of the full monoid $\mathbb{Z}-\{0\}$. It is important to remark here
+that the $\Lambda$-structure on $K$-theory allows to get back
+(as the spectrum of the Lambda-operations) the full $\Z$-grading
+on Betti cohomology.
+
+If one thinks of Lambda-structures
+as related to the Banach ring of integers with their trivial norm,
+one may seek for various generalizations, that will be called
+"generalized Lambda-structure", associated to more general Banach rings.
+
+## Definition
+
+Let $(R,|\cdot|)$ be an integral Banach ring equipped with a multiplicative norm.
+We will denote $\Lambda(R,|\cdot|)$ the monoid given by
+$$\Lambda(R,|\cdot|):=\mathrm{Frac}(R)\cap \{a\in R,\;|a|\leq 1\}.$$
