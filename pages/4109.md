@@ -1,4 +1,11 @@
-Currying is a process of transforming an operation on two variables into an operation on one variable.  The term is used in [[computer science]] and the [[lambda calculus]], where it is often technically important to have operations that act on only one variable at a time.  But [[category theory]] also recognises it as a [[natural isomorphism]] in a [[closed monoidal category]].
+# Currying
+
+* table of contents
+{:toc}
+
+## Idea
+
+Currying is a process of transforming an operation on two variables into an operation on one variable that returns a function taking the second variable as an argument.  The term is used in [[computer science]] and the [[lambda calculus]], where it is often technically important to have operations that act on only one variable at a time.  But [[category theory]] also recognises it as a [[natural isomorphism]] in a [[closed monoidal category]], namely the [[universal property]] of an [[exponential object]]; thus it is also known as taking the __exponential transpose__.
 
 The [[inverse]] operation is, in the straightforward style of [[computer science]], called __uncurrying__.
 
@@ -13,6 +20,7 @@ we __curry__ $f$ to produce
 $$ \hat{f}\colon X \to Z ^ Y $$
 according to the formula 
 $$\hat{f}(x) = (y \mapsto f(x, y)).$$
+This is simply applying the universal property of the [[exponential object]] $Z^Y$.
 
 
 ### In lambda calculus and CCCs
@@ -53,3 +61,8 @@ $$ \check{f}\colon Y \vdash X \to Z ,$$
 but computer scientists (or even mathematicians who are being very careful) will see this as a composite operation whose first step is [[composition]] with the [[braiding]] $Y \times X \vdash X \times Y$.
 
 In a left closed monoidal category, currying does not exist, but cocurrying does.  Perhaps the product should associate on the right in a left closed monoidal category?
+
+[[!redirects uncurrying]]
+[[!redirects curried]]
+[[!redirects uncurried]]
+[[!redirects exponential transpose]]
