@@ -2881,9 +2881,7 @@ For instance in the [[classical model structure on topological spaces]] which we
 +-- {: .num_lemma #ComponentMapsOfCylinderAndPathSpaceInGoodSituation}
 ###### Lemma
 
-Let $\mathcal{C}$ be a [[model category]]. 
-
-If $X \in \mathcal{C}$ is cofibrant, then for every [[cylinder object]] $Cyl(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(i_0,i_1) \colon X \sqcup X \to X$ a cofibration, but each
+Let $\mathcal{C}$ be a [[model category]]. If $X \in \mathcal{C}$ is cofibrant, then for every [[cylinder object]] $Cyl(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(i_0,i_1) \colon X \sqcup X \to X$ a cofibration, but each
 
 $$
   i_0, i_1 \colon X \longrightarrow X
@@ -2951,7 +2949,7 @@ $$
 
 gives that the induced projection is again a fibration.
 
-For the case of the canonical topological path space objects of def \ref{TopologicalPathSpace}, with $Path_1(X) = Path_2(X) = X^I = X^{[0,1]}$  then this new path space object is $X^{I \vee I} = X^[0,2]$, the [[mapping space]] out of the standard interval of length 2 instead of length 1.
+For the case of the canonical topological path space objects of def \ref{TopologicalPathSpace}, with $Path_1(X) = Path_2(X) = X^I = X^{[0,1]}$  then this new path space object is $X^{I \vee I} = X^{[0,2]}$, the [[mapping space]] out of the standard interval of length 2 instead of length 1.
 
 
 
@@ -2994,50 +2992,8 @@ $$
 
 
 
-+-- {: .num_lemma #ComponentsOfGoodCylinderOfCofibrantAreAcyclicCofibrationsAndDually}
-###### Lemma
 
-If 
-$
-  X \sqcup X \overset{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{p}{\in W}{\longrightarrow} X
-$
-is a good [[cylinder object]] for a cofibrant object $X$ def. \ref{PathAndCylinderObjectsInAModelCategory}, then both components $i_0, i_1 \colon X \to Cyl(X)$ are acyclic cofibratins.
 
-Dually, if 
-$
-   X \underoverset{\in W}{i}{\longrightarrow} Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
-$
-
-is a good path object for a fibrant object $X$, then both component $p_0,p_1 \colon Path(X)\to X$ are acyclic fibrations.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We discuss the first case, the second is [[formal dual|formally dual]]. First observe that the two inclusions $X \to X \sqcup X$ are cofibrations, since they are the [[pushout]] of the cofibration $\emptyset \to X$. This implies that $i_0$ and $i_1$ are composites of two cofibrations
-
-$$
-  i_0, i_1 
-   \;\colon\;
-  X \overset{\in Cof}{\longrightarrow} X\sqcup X  
-  \overset{\in Cof}{\longrightarrow}
-$$
-
-and hence are themselves cofibrations. That they are in addition weak equivalences follows from [[two-out-of-three]] applied to the identity
-
-$$
-  id_X \;\colon\;
-  X \overset{\in W}{\longrightarrow}
-  Cyl(X)
-  \overset{i_0}{\longrightarrow}
-  X
-  \,.
-$$
-
-implied by the fact that the cylinder by definition factors the [[codiagonal]].
-
-=--
 
 The following says that the choice of cylinder/path objects in def. \ref{LeftAndRightHomotopyInAModelCategory} is irrelevant as long it is "good".
 
@@ -3141,7 +3097,7 @@ Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]].
 ###### Proof
 
 We discuss the first case, the second is [[formal dual|formally dual]].
-Let $\eta \colon Cyl(X) \longrightarrow Y$ be the given left homotopy. By lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} we may assume without restriction that $Cyl(X)$ is _good_ in the sense of def. \ref{PathAndCylinderObjectsInAModelCategory}, for otherwise replace it by one that is. With this, lemma \ref{ComponentsOfGoodCylinderOfCofibrantAreAcyclicCofibrationsAndDually} implies that we have a lift $h$ in the following [[commuting diagram]]
+Let $\eta \colon Cyl(X) \longrightarrow Y$ be the given left homotopy. By lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} we may assume without restriction that $Cyl(X)$ is _good_ in the sense of def. \ref{PathAndCylinderObjectsInAModelCategory}, for otherwise replace it by one that is. With this, lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} implies that we have a lift $h$ in the following [[commuting diagram]]
 
 $$
   \array{
@@ -3189,7 +3145,7 @@ For $X$ a cofibrant object in a [[model category]] and $Y$ a [[fibrant object]],
 
 That both relations coincide under the (co-)fibrancy assumption follows directly from lemma \ref{LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually}.
 
-To see that left homotopy with domain $X$ is a [[transitive relation]] first use lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} to obtain that every left homotopy is exhibited by a _good_ cylinder object $Cyl(X)$ and then lemma \ref{ComponentsOfGoodCylinderOfCofibrantAreAcyclicCofibrationsAndDually} to see that the cofiber coproduct $Cyl(X)\underset{X}{\sqcup} Cyl(X)$ in 
+To see that left homotopy with domain $X$ is a [[transitive relation]] first use lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} to obtain that every left homotopy is exhibited by a _good_ cylinder object $Cyl(X)$ and then lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} to see that the cofiber coproduct $Cyl(X)\underset{X}{\sqcup} Cyl(X)$ in 
 
 $$
   \array{
@@ -3630,6 +3586,29 @@ $$
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, then the morphism
+
+$$
+ Ho(\mathcal{C})(X,Y)
+  =
+ Hom_{\mathcal{C}}(P Q X, P Q Y)/_{\sim}
+   \longrigtharrow
+ Hom_{\mathcal{C}}(Q X,P Y)/_{\sim}
+$$
+
+(on homotopy classes of morphisms) is a natural bijection.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+spring
+
+=--
 
 
 ##### Derived functors
