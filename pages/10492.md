@@ -139,11 +139,14 @@ The [[Taylor tower]] formed by $n$-excisive functors was then studied in
 
 * {#Goodwillie03} [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
  
-
 A discussion in the general abstract context of [[(∞,1)-category theory]] is in  
 
 * {#HigherAlg} [[Jacob Lurie]], section 6.1.1 of _[[Higher Algebra]]_
-  
+ 
+Review includes
+
+* {#Harpaz2013} [[Yonatan Harpaz]], section 5 of _Introduction to stable $\infty$-categories_, October 2013 ([[HarpazStableInfinityCategory2013.pdf:file]])
+   
 
 [[!redirects excisive (∞,1)-functors]]
 
