@@ -5213,7 +5213,7 @@ is presented by a tower of fibrations between fibrant spectra in the [[model str
 +-- {: .num_remark }
 ###### Remark
 
-In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) this is denoted "$E^\wedge X$". The notation we use here is more common among modern authors.
+In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) is denoted "$E^\wedge X$". The notation "$X^\wedge_E$" which we use here is more common among modern authors. It emphasizes the conceptual relation to [[p-adic completion]] $A^\wedge_p$ of abelian groups (def. \ref{AdicCompletionOfAbelingGroups}) and is less likely to lead to confusion with the smash product of $E$ with $X$. 
 
 =--
 
@@ -7779,10 +7779,19 @@ Hence both of these construction are to be called the $E$-Adams spectral sequenc
 
 
 
-### As derived descent in higher algebra
+### As derived descent in $E_\infty$-geometry
  {#DefinitionInHigherAlgebra}
 
-We discuss the general definition of $E$-[[Adams-Novikov spectral sequences]] for suitable [[E-∞ rings]] $E$ expressed in [[higher algebra]], as in ([Lurie, Higher Algebra](#Lurie)). We follow [Lurie 10](#Lurie10), a nice exposition is in ([Wilson 13](#Wilson13)).
+It turns out that the [[E-nilpotent completion]] $X^\wedge_E$ according to [[Aldridge Bousfield|Bousfield]]'s original definition \ref{ENilpotentCompletion} -- to which the $E$-Adams spectrum seequence converges under godd conditions (theorem \ref{EAdamsConvergenceForCorepi0EBeingZLocalizedAtPrimes}, theorem \ref{EAdamsConvergenceForCorepi0EBeingCyclicGroup}) -- is equivalently the homotopy limit over the tower of [[totalizations]] of the canonical [[cosimplicial object|cosimplicial]] spectrum $E^\bullet \wedge X$ ([prop.](nilpotent+completion+of+spectra#ENilpotentCompletionIsHolimOverTotTower)).
+
+This means that the $E$-[[Adams spectral sequence]] may equivalently be regarded as computing [[descent]] of [[quasicoherent infinity-stacks]] in [[E-infinity geometry]] along the canonical morphisms $Spec(E)\longrightarrow $ [[Spec(S)]]. 
+
+This perspective seems to originate in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)) and is greatly expanded on in 
+([Lurie 10, lectures 8, 9](#Lurie10)).  A nice exposition is in ([Wilson 13](#Wilson13)). The first published proof of the equivalence of this new perspective to the Adams-Bousfield theory is ([Mathew-Naumann-Noel 15, prop. 2.14](#MathewNaumannNoel15)).
+
+We give a survey here.
+
+> under construction
 
 First we recall
 
@@ -8157,8 +8166,12 @@ based in parts on
 * {#Adams69} [[John Frank Adams]], _Lectures on generalised cohomology_, in 
 [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York. 
 
- 
-Convergence was notably discussed in
+The [[spectrum]]-level discussion of the ASS goes back to around
+
+* R. M. F. Moss, _On the composition pairing of Adams spectral sequences_, Proceedings of the London Mathematical Society 3.1 (1968): 179-192.
+
+
+The general convergence theorems are due to
 
 * {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
 
@@ -8169,11 +8182,7 @@ based on
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81
 
 
-The [[spectrum]]-level discussion of the ASS goes back to around
-
-* R. M. F. Moss, _On the composition pairing of Adams spectral sequences_, Proceedings of the London Mathematical Society 3.1 (1968): 179-192.
-
-A streamlined presentation of this which is close in spirit to constructions in [[homological algebra]] was given in
+A streamlined presentation of Adams resolutions and their invariance properties, close in spirit to the theory of injective resolutions in [[homological algebra]] was given in
 
 * {#Miller81} [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981) ([pdf](http://math.mit.edu/~hrm/papers/miller-relations-between-adams-spectral-sequences.pdf))
 
@@ -8187,8 +8196,7 @@ and worked out in some more detail in
 
 For full details of some of the steps involved see also ([Schwede 12](#Schwede12)).
 
-
-Reviews include
+Reviews of the traditional theory include
 
 * {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 onwards
 
@@ -8209,7 +8217,7 @@ Reviews include
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 
-The modern point of view of [[higher algebra]] is in 
+The modern point of view in terms of derived $E_\infty$-descent is hinted at in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)) and is consistently adopted in
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ (2010)
 
@@ -8225,11 +8233,15 @@ based on
 
 * {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
 
-and nicely surveyed in
+This is nicely surveyed in
 
 * [[Akhil Mathew]], _[The Adams spectral sequence as derived descent, and chromotopy](https://amathew.wordpress.com/2012/09/21/3844/)_, 2012
 
 * {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/), March 2013 ([[DylanWilsonOnANSS.pdf:file]])
+
+The actual proof that this new perspecive is equivalent the original Adams-Bousfield theory appears as prop. 2.14 in
+
+* {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_ ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869))
 
 
  
