@@ -23,7 +23,7 @@ An _$(\infty,1)$-cohesive site_ is a [[site]] such that the [[(∞,1)-category o
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #InfinityCohesiveSite}
 ###### Definition
 
 A [[site]] $C$ is **$\infty$-cohesive** over [[∞Grpd]] if it is
@@ -82,10 +82,10 @@ This definition is supposed to model the following ideas:
 
 ## Examples
 
-+-- {: .num_example}
++-- {: .num_example #Presheaves}
 ###### Example
 
-The site for a [[presheaf topos]], hence with trivial topology, is $\infty$-cohesive if it has finite [[product]]s.
+The site for a [[presheaf topos]], hence with trivial topology, is $\infty$-cohesive, def. \ref{InfinityCohesiveSite}, if it has [[finite products]].
 
 =--
 
@@ -97,9 +97,9 @@ All covers $\{U_i \to U\}$ consist of only the [[identity]] morphism $\{U \stack
 =--
 
 +-- {: .num_example}
-###### Examples/Proposition
+###### Example
 
-The following [[site]]s are $\infty$-cohesive:
+The following [[sites]] are $\infty$-cohesive, def. \ref{InfinityCohesiveSite}:
 
 * the category [[CartSp]] with covering families given by open covers $\{U_i \hookrightarrow U\}$ by [[geodesically convex|convex]] subsets $U_i$;
 
