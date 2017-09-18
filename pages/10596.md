@@ -23,6 +23,8 @@ It motivates (e.g. [Bump, p.18](#Bump)) the definition of the Selberg [[zeta fun
 
 * [[zeta function of a Riemann surface]]
 
+* [[Selberg zeta function]]
+
 ## References
 
 * {#Selberg56} [[Atle Selberg]], _Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series_, Journal of the Indian Mathematical Society 20 (1956) 47-87.
