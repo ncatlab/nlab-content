@@ -31,29 +31,29 @@ At present, there is no purely [[order theory|order-theoretic]] definition of me
 
 First we give definitions appropriate for [[classical mathematics]].
 
-As a preliminary step, consider the [[category]] $Comp Bool Alg_{sup}$ of [[complete boolean algebras]] and [[supremum]]-preserving [[homomorphisms]] of boolean algebras.  This is a [[full subcategory]] of the category $Frm$ of [[frames]] and so its [[opposite category]] $Comp Bool Alg_{sup}^{op}$ is a full subcategory of the category [[Loc]] of locales.  The category $Meas Loc$ of measurable locales is yet further a full subcategory of $Comp Bool Alg_{sup}^{op}$, so our job is simply to specify *which* complete boolean algebras are the [[objects]] of this category.
+As a preliminary step, consider the [[category]] $Comp Bool Alg_{sup}$ of [[complete boolean algebras]] and [[supremum]]-preserving [[homomorphisms]] of boolean algebras.  This is a [[full subcategory]] of the category $Frm$ of [[frames]] and so its [[opposite category]] $Comp Bool Alg_{sup}^{op}$ is a full subcategory of the category [[Loc]] of locales.  The category $Meas Loc$ of measurable locales is yet further a full subcategory of $Comp Bool Alg_{sup}^{op}$, so our job is simply to specify *which* complete boolean algebras are the [[objects]] of this category.  There are at least three equivalent ways of doing so.
 
-By one definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a [[complete measure space]] $X$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $\mathcal{M}/\mathcal{N}$ of [[measurable subsets]] of $X$ modulo [[null subsets]].  Note that the measure on $X$ is irrelevant except to specify the null subsets.  In this way, $Meas Loc$ becomes [[equivalence of categories|equivalent]] to the category $Loc Meas$ of [[localisable measurable spaces]].  (Not every measure space has a *complete* boolean algebra as $\mathcal{M}/\mathcal{N}$; those which do are called *localisable*, and we interpret the term 'localisable measurable space' to refer to a structure with both $\mathcal{M}$ and $\mathcal{N}$ specified.)
+1. By one definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a [[complete measure space]] $X$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $\mathcal{M}/\mathcal{N}$ of [[measurable subsets]] of $X$ modulo [[null subsets]].  Note that the measure on $X$ is irrelevant except to specify the null subsets.  In this way, $Meas Loc$ becomes [[equivalence of categories|equivalent]] to the category $Loc Meas$ of [[localisable measurable spaces]].  (Not every measure space has a *complete* boolean algebra as $\mathcal{M}/\mathcal{N}$; those which do are called *localisable*, and we interpret the term 'localisable measurable space' to refer to a structure with both $\mathcal{M}$ and $\mathcal{N}$ specified.)
 
-By another definition, a complete boolean algebra $L$ is a __measurable locale__ if for every element $x \neq 0$ of $L$ there is a normal measure (see below) $\mu$ on $L$ valued in $[0,\infty]$ such that $\mu(x) = 1$.  (It would be enough to demand that $0 \lt \mu(x) \lt \infty$, since we can rescale the measure.)
+2. By another definition, a complete boolean algebra $L$ is a __measurable locale__ if for every element $x \neq 0$ of $L$ there is a [[normal measure]] (see [below](#normalmeasures)) $\mu$ on $L$ valued in $[0,\infty]$ such that $\mu(x) = 1$.  (It would be enough to demand that $0 \lt \mu(x) \lt \infty$, since we can rescale the measure.)
 
-By yet another definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a commutative $W^*$-[[W-star-algebra|algebra]] $A$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $Proj(A)$ of [[projection operator]]s in $A$; (see [[idempotent operator]] for a construction of $Proj(A)$).  In this way, $Meas Loc$ becomes [[dual equivalence|dual]] to the category $Comm W^* Alg$ of commutative $W^*$-algebras.  For this definition, we need not require that $L \cong Proj(A)$ be complete (or even a boolean algebra); this can be proved.
+3. By yet another definition, a complete boolean algebra $L$ is a __measurable locale__ if there is a commutative $W^*$-[[W-star-algebra|algebra]] $A$ such that $L$ is [[isomorphic]] (as a boolean algebra) to the boolean algebra $Proj(A)$ of [[projection operator]]s in $A$; (see [[idempotent operator]] for a construction of $Proj(A)$).  In this way, $Meas Loc$ becomes [[dual equivalence|dual]] to the category $Comm W^* Alg$ of commutative $W^*$-algebras.  For this definition, we need not require that $L \cong Proj(A)$ be complete (or even a boolean algebra); this can be proved.
 
-Whichever of these equivalent definitions is adopted, a __measurable function__ between measurable locales is simply a [[continuous map]] between them as locales; these are the [[morphisms]] of $Meas Loc$.
+Whichever of these equivalent definitions is adopted, a __measurable function__ between measurable locales is simply a [[continuous map]] between them as locales; these are the [[morphisms]] of $Meas Loc$.  In more elementary terms, a measurable function from $L$ to $M$ (thought of as measurable locales) is a function from $M$ to $L$ (thought of as Boolean algebras) that preserves all [[joins]] (and then it also preserves finite [[meets]] and so is a [[frame]] [[homomorphism]]).
 
 
 ### In constructive mathematics
 
 (This section is not due to Pavlov.)
 
-For purposes of [[constructive mathematics]], [[Toby Bartels]] suspects that it is appropriate to use the definition from $W^\star$-algebras, so long as we allow norms to be [[lower real numbers]].  (If they are all [[located real number|located]], then $Proj(A)$ has [[decidable equality]], which we don\'t want to require.)  The other definitions seem more difficult to work with.
+For purposes of [[constructive mathematics]], [[Toby Bartels]] suspects that it is appropriate to use the definition from $W^\star$-algebras, so long as we allow norms to be [[lower real numbers]].  (If they are all [[located real number|located]], then $Proj(A)$ has [[decidable equality]], which we don\'t want to require.)  The other definitions seem more difficult to work with (primarily because they require completeness explicitly).
 
-For this definition (as was remarked above), we need not require that $L \cong Proj(A)$ be complete.  Constructively, we *cannot* require this; $Proj(A)$ need not be complete (although it is still a boolean algebra).  Indeed, consider the point (see the examples), based on $A \coloneqq \mathbb{C}$, which is *not* the complete [[Heyting algebra]] of *all* [[truth values]] but only the (possibly incomplete) boolean algebra $\{\bot, \top\}$ of *classical* truth values (corresponding to the self-adjoint idempotent complex numbers $0$ and $1$).
+For this definition (as was remarked above), we need not require that $L \cong Proj(A)$ be complete.  Constructively, we *cannot* require this; $Proj(A)$ need not be complete (although it is still a boolean algebra).  Indeed, consider the point (see [the examples](#examples)), based on $A \coloneqq \mathbb{C}$, which is *not* the complete [[Heyting algebra]] of *all* [[truth values]] but only the (possibly incomplete) boolean algebra $\{\bot, \top\}$ of *classical* truth values (corresponding to the self-adjoint idempotent complex numbers $0$ and $1$).
 
 It seems that there is some notion of completeness that applies here; $L$ should in some sense be 'measurably complete'.  In the point, for example, the [[subsingleton]] $\{* \;|\; P\}$, where $P$ is a truth value, is measurable iff $P$ is true or false, so the supremum of $\{\top \;|\; P\}$ exists in $L$ under the same circumstances.  Figuring this out could allow the definitions through measurable spaces or normal measures to work.
 
 
-## Examples
+## Examples {#examples}
 
 The [[empty space]], which is [[initial object|initial]] in $Meas Loc$, is the [[terminal object|terminal]] boolean algebra with one element.
 
@@ -79,14 +79,14 @@ This process is a [[functor]] $B\colon Loc \to Meas Loc$, which we can also exte
 
 ### Lebesgue measurable spaces
 
-Similarly, [[smooth manifolds]] give rise to (much simpler!) measurable locales by taking the Lebesgue sets (possible since we know which sets are null sets on a smooth manifold).  This processes is a [[functor]] $L\colon SmoothMan_subm \to MeasLoc$, where the [[morphisms]] in $SmoothMan_subm$ are the smooth [[submersions]].
+Similarly, [[smooth manifolds]] give rise to (much simpler!) measurable locales by taking the Lebesgue sets (possible since we know which sets are null sets on a smooth manifold).  This process is a [[functor]] $L\colon SmoothMan_subm \to MeasLoc$, where the [[morphisms]] in $SmoothMan_subm$ are the [[smooth map|smooth]] [[submersions]].
 
 In the case of the [[real line]], we get the usual line described under the basic examples above.  In fact, *any* [[second-countable space|second-countable]] smooth manifold with positive dimension gives rise to this measurable locale; the really interesting thing about $L$ is what it does to the morphisms.
 
 
-## Measures
+## Measures {#normalmeasures}
 
-On *any* complete boolean algebra $L$, given any [[abelian monoid]] $R$ equipped with a [[convergence space|convergence structure]] (such as $[0,\infty]$), a __normal measure__ on $L$ valued in $R$ is a [[function]] $\mu\colon L \to R$ such that:
+On *any* complete boolean algebra $L$, given any [[abelian monoid]] $R$ equipped with a [[convergence space|convergence structure]] (such as $[0,\infty]$), a __[[normal measure]]__ on $L$ valued in $R$ is a [[function]] $\mu\colon L \to R$ such that:
 
 *  _[[inclusion-exclusion|additivity]]_: $\mu(\bot) = 0$ and $\mu(x \wedge y) + \mu(x \vee y) = \mu(x) + \mu(y)$;
 
@@ -94,7 +94,7 @@ On *any* complete boolean algebra $L$, given any [[abelian monoid]] $R$ equipped
 
 One could, of course, define a garden-variety [[measure]] by requiring continuity only when $S$ is the image of a decreasing [[sequence]], but apparently normal measures are what we want for measurable locales.
 
-(Perhaps there is a theorem that non-atomic measures on, say, Lebesgue space correspond to normal measures on the real line as a measurable locale?  Certainly [[Lebesgue measure]] is not normal on the $\sigma$-algebra of measurable sets, but presumably it is normal on the boolean algebra of measurable sets modulo null sets, which is what we want.)
+(Perhaps there is a theorem that absolutely continuous measures on, say, Lebesgue space correspond to normal measures on the real line as a measurable locale?  Certainly [[Lebesgue measure]] is not normal on the $\sigma$-algebra of measurable sets, but presumably it is normal on the boolean algebra of measurable sets modulo null sets, which is what we want.)
 
 I\'m not entirely sure how this works in constructive mathematics, but $[0,\infty]$ (for a positive measure) would be the space of nonnegative [[lower reals]].
 
