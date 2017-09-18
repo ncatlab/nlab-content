@@ -52,6 +52,8 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 ## Related concepts
 
+* [[cobordism theory]]
+
 * [[cobordism group]], [[cobordism ring]]
 
 * [[Thom spectrum]], [[Thom's theorem]]
@@ -83,7 +85,6 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 [[!redirects cobordisms]]
 
-[[!redirects cobordism theory]]
 
 [[!redirects cobordant manifold]]
 [[!redirects cobordant manifolds]]
