@@ -1,150 +1,19 @@
+## Examples
 
-+-- {: .num_prop}
-###### Proposition
-**([[horizontal composition]] of [[homotopies]])
-
-Consider a [[diagram]] of [[groupoids]], groupoid homomorphsims (functors) and homotopies (natural transformations) as follows:
-
-$$
-  \mathcal{G}_1
-    \underoverset
-       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
-       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
-       {\Downarrow {\eta_1}}
-  \mathcal{G}_2
-    \underoverset
-       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
-       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
-       {\Downarrow {\eta_2}}
-  \mathcal{G}_3
-$$
-
-The _[[horizontal composition]]_ of the homotopies to a single homotopy of the form
-
-$$
-  \mathcal{G}_1
-     \underoverset
-       {\underset{F'_2 \circ F'_1}{\longrightarrow}}
-       {\overset{F_2\circ F_1}{\longrightarrow}}
-       {\Downarrow \eta_2 \cdot \eta_1}
-  \mathcal{G}_3
-$$
-
-may be defined in temrs of the horizontal composition of homotopies with morphisms (prop. \ref{HmotopiesWithMorphismsHorizontaComposition}) and the ("vertical") composition of homotopies with themselves, in two different ways, namely by decomposing the above diagram as
-
-
-$$
-  \array{
-  \mathcal{G}_1
-    \underoverset
-       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
-       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
-       {\Downarrow {\eta_1}}
-  \mathcal{G}_2
-    \underoverset
-       {}
-       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
-       {}
-  \mathcal{G}_3
-  \\
-  \mathcal{G}_1
-    \underoverset
-       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
-       {}
-       {}
-  \mathcal{G}_2
-    \underoverset
-       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
-       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
-       {\Downarrow {\eta_2}}
-  \mathcal{G}_3
-  }
-$$
-
-or as
-
-$$
-  \array{
-  \mathcal{G}_1
-    \underoverset
-       {}
-       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
-       {}
-  \mathcal{G}_2
-    \underoverset
-       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
-       {\overset{\phantom{AA}F_2\phantom{AA}}{\longrightarrow}}
-       {\Downarrow {\eta_2}}
-  \mathcal{G}_3
-  \\
-  \mathcal{G}_1
-    \underoverset
-       {\underset{\phantom{AA}F'_1\phantom{AA}}{\longrightarrow}}
-       {\overset{\phantom{AA}F_1\phantom{AA}}{\longrightarrow}}
-       {\Downarrow {\eta_1}}
-  \mathcal{G}_2
-    \underoverset
-       {\underset{\phantom{AA}F'_2\phantom{AA}}{\longrightarrow}}
-       {}
-       {}
-  \mathcal{G}_3
-  }
-$$
-
-In the first case we get
-
-$$
-  \eta_2 \cdot \eta_1
-  \;\coloneqq\;
-  (\eta_2 \cdot F'_1) \circ (F_2 \cdot \eta_1)
-$$
-
-while in the second case we get
-
-$$
-  \eta_2 \cdot \eta_1
-   \;\coloneqq\;
-   ( F'_2 \cdot \eta_1 ) \circ (\eta_2 \cdot F_1)
-  \,.
-$$
-
-These two definitions coincide.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For $x$ an object of $\mathcal{G}_1$, then we need that the following square [[diagram]] [[commuting diagram|commutes]] in $\mathcal{G}_3$
-
-$$
-  \array{
-    F_2(F_1(x))
-      &\overset{ (F_2\cdot \eta_1)(x) }{\longrightarrow}& F_2(F'_1(x))
-    \\
-    {}^{\mathllap{ (\eta_2 \cdot F_1)(x) }}\downarrow 
-      && 
-    \downarrow^{\mathrlap{ (\eta_2\cdot F'_1)(x) }}
-    \\
-    F'_2(F_1(x))  
-      & \underset{ (F'_2 \cdot \eta_1)(x) }{\longrightarrow} &  
-    F'_2(F'_1(y))    
-  }
-   \phantom{AAAA} = \phantom{AAAA}
-  \array{
-    F_2(F_1(x)) &\overset{F_2(\eta_1(x))}{\longrightarrow}& F_2(F'_1(x))
-    \\
-    { }^{\mathllap{\eta_2(F_1(x))}}\downarrow  
-      && 
-    \downarrow^{\mathrlap{ \eta_2(F'_1(x)) }}
-    \\
-    F'_2(F_1(x))  
-      & \underset{F'_2(\eta_1(x))}{\longrightarrow} &  
-    F'_2(F'_1(y))
-  }
-  \,.
-$$
-
-But the ommutativity of the square on the right is the defining compatibility condition on the components of $\eta_2$ applied to the morphism $\eta_1(x)$ in $\mathcal{G}_2$.
-
-=--
+* Any double category is an example, and thus also any bicategory
+viewing the arrows as horizontal.
+* For any [[monoidal category]] $V$, there is a virtual double category
+of $V$-matrices whose objects are sets, vertical arrows are functions
+and a horizontal arrow $p : X \to Y$ is a family of objects $p_{y,x}
+\in V$ for each $x\in X, y \in Y$, and a 2-cell from $X_0
+\overset{p_1}{\to} X_1 \to\dots \to X_n$ to $Y_0 \overset{q}{\to} Y_1$
+along $f : X_0 \to Y_0, g : X_n \to Y_n$ is a family of arrows
+$\alpha_{x_0,...} : p_1(x_1,x_0)\otimes p_2(x_2,x_1)\otimes\dots \to
+q(g(x_n),f(x_0))$ in $V$ (using the unit of the monoidal category if the source string is empty).
+If $V$ has certain colimits that are preserved by $\otimes$ then
+composites exist and this virtual double category is pseudo.
+* Given a monad on a virtual double category, the [[generalized multicategory | horizontal kleisli
+double category]] produces a virtual double
+category that is only pseudo under strong conditions on the monad. In
+particular, "free monoid" monad on the double category of sets and
+spans does not produce a pseudo double category.
