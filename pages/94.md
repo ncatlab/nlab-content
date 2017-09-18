@@ -34,35 +34,69 @@ $L_\infty$-algebras are [[infinitesimal space|infinitesimal]] approximations of 
 
 ## Definition ##
 
-### Abstract definition in terms of algebras over an operad
+### In terms of algebras over an operad
 
 An **$L_\infty$-algebra** is an [[algebra over an operad]] in the [[category of chain complexes]] over the [[L-∞ operad]].
 
 In the following we spell out in detail what this means in components.
 
-### Definition in terms of higher brackets 
+### In terms of higher brackets 
  {#DefinitionViaHigherBrackets}
 
-For $V$ a [[graded vector space]], for $v_i \in V_{\vert v_i\vert}$ homogenously graded elements, and for $\sigma$ a [[permutation]] of $n$ elements, write
-$\chi(\sigma, v_1, \cdots, v_n)\in \{-1,+1\}$ for the product of the [[signature of a permutation|signature of the permutation]] with a factor of $(-1)^{\vert v_i \vert \vert v_j \vert}$ for each interchange of neighbours $(\cdots v_i,v_j, \cdots )$ to $(\cdots v_j,v_i, \cdots )$ involved in the permutation.
+We now state the definition of $L_\infty$-algebras that is most directly related to the traditional definition of ordinary [[Lie algebras]], namely as $\mathbb{Z}$-[[graded vector space]] $\mathfrak{g}$ equipped with $n$-ary [[multilinear maps|multilinear]] and graded-skew symmetric maps $[-,\cdots,-]$ -- the "brackets" -- that satisfy a generalization of the [[Jacobi identity]].
 
+To that end, we here choose grading conventions such that the following definition of $L_\infty$-algebras reduces to that of ordinary [[Lie algebras]] when $\mathfrak{g}$ is concentrated in _degree zero_. Moreover we take the [[differential]] of the underlying [[chain complex]] of the $L_\infty$-algebra to have degree $-1$ ("homological grading"). Together this means in particular that $\mathfrak{g}$ is a  [[Lie n-algebra]] for $n \in \mathbb{N}$, $n \geq 1$, if it is concentrated in degrees 0 to $n-1$.
+
+Beware that there are also other conventions possible, and there are other conventions in use, for both these choices, leading to different signs in the following formulas. 
+
++-- {: .num_defn #GradedSignatureOfPermutation}
+###### Definition
+**(graded signature of a permuation)**
+
+Let $V$ be a $\mathbb{Z}$-[[graded vector space]], and for $n \in \mathbb{N}$ let 
+
+$$
+  \mathbf{v} = (v_1, v_2, \cdots, v_n)
+$$ 
+
+be an [[n-tuple]] of elements of $V$ of homogeneous degree $\vert v_i \vert  \in \mathbb{Z}$, i.e. such that $v_i \in V_{\vert v_i\vert}$. 
+
+For $\sigma$ a [[permutation]] of $n$ elements, write $(-1)^{\vert \sigma \vert}$ for the [[signature of a permutation|signature of the permutation]], which is by definition equal to $(-1)^k$ if $\sigma$ is the composite of $k \in \mathbb{N}$ permutations that each exchange precisely one pair of neighboring elements.
+
+We say that the _$\mathbf{v}$-graded signature of $\sigma$_
+
+$$
+  \chi(\sigma, v_1, \cdots, v_n) \;\in\; \{-1,+1\}
+$$ 
+
+is the product of the [[signature of a permutation|signature of the permutation]] $(-1)^{\vert \sigma \vert}$ with a factor of $(-1)^{\vert v_i \vert \vert v_j \vert}$ for each interchange of neighbours $(\cdots v_i,v_j, \cdots )$ to $(\cdots v_j,v_i, \cdots )$ involved in the decomposition of the permuation as a sequence of swapping neighbour pairs.
+
+=--
 
 +-- {: .num_defn #LInfinityDefinitionViaGeneralizedJacobiIdentity}
 ###### Definition
 
 An $L_\infty$-algebra is 
 
-1. a [[graded vector space]] $V$;
+1. a $\mathbb{Z}$-[[graded vector space]] $\mathfrak{g}$;
 
-1. for each $n \in \mathbb{N}$ a [[multilinear map]] called the _$n$-ary bracket_
+1. for each $n \in \mathbb{N}$ a [[multilinear map]], called the _$n$-ary bracket_, of the form
 
-   $l_n(\cdots) \coloneqq [-,-, \cdots, -] \colon V^{\wedge n} \to V$
+   $$
+     l_n(\cdots) 
+       \;\coloneqq\; 
+     [-,-, \cdots, -]_n 
+     \;\colon\; 
+       \underset{n \; \text{copies}}{\underbrace{\mathfrak{g} \otimes \cdots \otimes \mathfrak{g}}}
+       \longrightarrow
+       \mathfrak{g}
+   $$
   
-   of degree $n-2$
+   and of degree $n-2$
   
-such that 
+such that the following conditions hold:
 
-1. each $l_n$ is graded antisymmetric, in that for every [[permutation]] $\sigma$ and homogeneously graded elements $v_i \in V_{\vert v_i \vert}$ then
+1. (**graded skew symmetry**) each $l_n$ is graded antisymmetric, in that for every [[permutation]] $\sigma$ of $n$ elements and for every [[n-tuple]] $(v_1, \cdots, v_n)$ of  homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ then
 
    $$
      l_n(v_{\sigma(1)}, v_{\sigma(2)},\cdots ,v_{\sigma(n)}) 
@@ -70,13 +104,15 @@ such that
      \chi(\sigma,v_1,\cdots, v_n) \cdot l_n(v_1, v_2, \cdots v_n)
    $$
 
-1. the _generalized [[Jacobi identity]]_ holds:
+   where $\chi(\sigma,v_1,\cdots, v_n)$ is the $(v_1,\cdots,v_n)$-graded signature of the permuation $\sigma$, according to def. \ref{GradedSignatureOfPermutation};
+
+1. (**strong homotopy [[Jacobi identity]]**) for all $n \in \mathbb{N}$, and for all [[n-tuple|(n+1)-tuples]] $(v_1, \cdots, v_{n+1})$ of homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ the followig [[equation]] holds
 
    \[
      \label{LInfinityJacobiIdentity}
-     \sum_{i+j = n+1} 
-     \sum_{\sigma \in UnShuff(i,n-i)}
-     \chi(\sigma,v_1, \cdots, v_m)
+     \sum_{{i,j \in \mathbb{N}} \atop {i+j = n+1}} 
+     \sum_{\sigma \in UnShuff(i,j)}
+     \chi(\sigma,v_1, \cdots, v_{n})
      (-1)^{i(j-1)}
       l_{j} \left(
         l_i \left( v_{\sigma(1)}, \cdots, v_{\sigma(i)} \right),
@@ -86,11 +122,10 @@ such that
      \,,
    \]
 
-   for all $n$, all and homogeneously graded elements $v_i \in V_i$ (here the inner sum runs over all $(i,j)$-[[unshuffles]] $\sigma$).
+   where the inner sum runs over all $(i,j)$-[[unshuffles]] $\sigma$ and where $\chi$ is the graded signature sign from def. \ref{GradedSignatureOfPermutation}.
 
 =--
 
-There are various different conventions on the gradings possible, which lead to similar formulas with different signs.
 
 
 +-- {: .num_example }
@@ -104,7 +139,7 @@ In lowest degrees the generalized Jacobi identity says that
      \partial (\partial(v_1)) = 0
    $$
 
-1: for $n = 2$: the unary map $\partial$ is a graded [[derivation]] of the binary map
+1. for $n = 2$: the unary map $\partial$ is a graded [[derivation]] of the binary map
 
    $$
      - [\partial v_1, v_2] 
@@ -169,13 +204,22 @@ This shows that the Jacobi identity holds up to an "exact" term, hence up to hom
 
 =--
 
-### Reformulation in terms of semifree differential coalgebra
+
+
+
+### In terms of semifree differential coalgebra
  {#ReformulationInSemifreeDgCoalgebra}
 
-A little later it was realized that the above huge sum expressions above just expresses the fact that the differential $D$ in a semifree [[dg-coalgebra]] squares to 0, $D^2 = 0$:
+In ([Lada-Stasheff 92](#LadaStasheff92)) it was pointed out that the higher brackets of an $L_\infty$-algebra (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) induce on the graded-co-commutative [[cofree coalgebra]] $\vee^\bullet \mathfrak{g}$ over the underlying graded vector space $\mathfrak{g}$ the structure of a [[differential graded coalgebra]], with differential $D = [-] + [-,-] + [-,-,-] + \cdots$ the sum of the higher brackets, extended as graded [[coderivations]]. The higher Jacobi identity is equivalently the condition that $D^2 = 0$. In ([Lada-Markl 94](#LadaMarkl94)) it was observed that conversely, such "semifree" [[differential graded coalgebras]] are an equivalent incarnation of $L_\infty$-algebras. 
 
+Notice that this immediately imples that if $\mathfrak{g}$ is degreewise finite dimensional, then passing to [[dual vector spaces]] turns semifree [[differential graded coalgebra]]
+into [[semifree dga|semifree]] [[differential graded algebras]], which hence are [[opposite category|opposite]]-equivalent to $L_\infty$-algebras of [[finite type]]. For $\mathfrak{g}$ an ordinary finite dimensional [[Lie algebra]], then this dg-algebras is its [[Chevalley-Eilenberg algebra]], hence we may generally speak of [[Chevalley-Eilenberg algebras]] of $L_\infty$-algebras of [[finite type]] (and also more generally, if one invokes [[pro-objects]], see at [model structure for L-infinity algebras -- Use of pro-dg-algebras](model+structure+for+L-infinity+algebras#OnProAlg) ).
 
-An **$L_\infty$-algebra** is 
+In term of the [[operad|operadic]] definition of $L_\infty$-algebras [above](#InTermsOfAlgebrasOverAnOperad) this equivalence is an incarnation of the [[Koszul duality]] between the [[Lie operad]] and the [[commutative operad]].
+
+We now spell out this dg-coalgebraic incarnation of $L_\infty$-algebras.
+
+A (connected) **$L_\infty$-algebra** is 
 
 * an $\mathbb{N}_+$-graded vector space $\mathfrak{g}$;
 
@@ -252,7 +296,7 @@ An $L_\infty$-algebra is a [[dg-coalgebra]] whose underlying [[coalgebra]] is co
 =--
 
 
-### Reformulation in terms of semifree differential algebra 
+### In terms of semifree differential algebra 
  {#ReformulationInTermsOfSemifreeDGAlgebra}
 
 The reformulation of an $L_\infty$-algebra as simply a semi-co-free graded-co-commutative coalgebra $(\vee^\bullet \mathfrak{g}, D)$ is a useful repackaging of the original definition, but the coalgebraic aspect tends to be not only unfamiliar, but also a bit inconvenient. At least when the graded vector space $\mathfrak{g}$ is degreewise [[finite number|finite]] [[dimension|dimensional]] , we can simply pass to its degreewise dual graded vector space $\mathfrak{g}^*$. 
@@ -405,6 +449,7 @@ for all $n \in \mathbb{N}$ and all $\{t_{a_i} \in \mathfrak{g}\}$. This is equat
 
 
 ### In terms of algebras over an operad
+ {#InTermsOfAlgebrasOverAnOperad}
 
 $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibrant resolution of the [[Lie operad]]. 
 
@@ -435,7 +480,7 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 * An $L_\infty$-algebra with only $D_n$ non-vanishing is called an **[[n-Lie algebra]]** -- to be distinguished from a _Lie $n$-algebra_ ! However, in large parts of the literature $n$-Lie algebras are considered for which $D_n$ is _not_ of the required homogeneous degree in the grading, or in which no grading is considered in the first place. Such $n$-Lie algebras are not special examples of $L_\infty$-algebras, then. For more see [[n-Lie algebra]].
 
-* An $L_\infty$-alghebra internal to [[super vector space]]s is a [[super L-∞ algebra]].
+* An $L_\infty$-algebra internal to [[super vector space]]s is a [[super L-∞ algebra]].
 
 ### Classes of examples
 
