@@ -84,10 +84,30 @@ $$(1+x)^a:=\sum_{k\geq 0}\binom{a}{k}x^k.$$
 If $R=(\mathbb{Q}_p,|\cdot|_p)$, then we have actually that $\mathbb{Z}_p-\{0\}\subset D(0,1)(\mathbb{Q}_p)$.
 
 A $\Lambda$-module over $R$ is a module over the analytic stack $B\Lambda$ that one may denote as a quotient stack $[\overset{\circ}{D}(1,1)/\Lambda]$. We then have, if $R$ contains the rational numbers, a natural logarithm map
-$$log:[\overset{\circ}{D}(1,1)/\Lambda]\to [A^1/\GL_1]$$
+$$log:[\overset{\circ}{D}(1,1)/\Lambda]\to [\mathbb{A}^1/\GL_1]$$
 that allows us to give a relation between the classical Hodge filtration of a (say) proper or logarithmically proper analytic space over $R$ to its $R$-Hodge structure, that should be a module over $[\overset{\circ}{D}(1,1)/\Lambda]$.
 
-If we suppose given a (say) strict analytic space over $R$, and one wants to define the associated $R$-Hodge structure, one may simply try to adapt Simpson's construction of the deformation to the normal bundle, to get what one wants. Actually, one needs a loop space analog of this construction, that is due to Vezzosi for a derived scheme. This will be discussed later on.
+If we suppose given a (say) strict analytic space over $R$, and one wants to define the associated $R$-Hodge structure, one may simply try to adapt Simpson's construction of the deformation to the normal bundle, to get what one wants. 
+Actually, one needs a loop space analog of this construction, that is due to Vezzosi for a derived scheme. Recall that in this derived scheme case, we have
+$$LX=\Hom_{dSt}(B\mathbb{Z},X)\cong \Hom_{dSt}(B\mathbb{G}_a,X).$$
+We may use the action by multiplication of $\mathbb{A}^1$ on $B\mathbb{G}_a$ to define a family
+of actions of $B\mathbb{G}_a$ on $LX$, parametrized by $\mathbb{A}^1$. This gives a $\mathbb{G}_m$-equivariant family
+$$Hod(LX)\to \mathbb{A}^1$$
+whose fiber at $0$ is $LX$ with the trivial action of $B\mathbb{G}_a$ and whose fiber at $1$ is $LX$ equipped with the usual action of $B\mathbb{G}_a$.
+
+If we want to define a construction that is related to the loop space Hodge filtration through the logarithm map
+$$log:[\overset{\circ}{D}(1,1)/\Lambda]\to [\mathbb{A}^1/\mathbb{G}_m],$$
+we need to replace $B\mathbb{G}_a$ by $BD^\circ:=B\overset{\circ}{D}(1,1)$,
+and the multiplicative action of $\mathbb{A}^1$ on $B\mathbb{G}_a$ by the (partial) action of $D(0,1)$ on $BD^\circ$ through the power map
+$$(1+x,a)\mapsto (1+x)^a.$$
+We thus replace the derived loop space by the space
+$$L^D X:=Hom_{dSt}(B\overset{\circ}{D}(1,1),X),$$
+together with its (partial) action of $B\overset{\circ}{D}(1,1)$ given by the (partial) multiplication of $\overset{\circ}{D}(1,1)\subset \mathbb{G}_m$. There is actually a family of such actions parametrized by $D(0,1)$ through the (partial) map
+$$D(0,1)\times B\overset{\circ}{D}(1,1)\times L^D X\to L^D X$$
+given by $(a,d,\gamma)\mapsto \gamma\circ m_{d^a}$. This family of actions gives a space
+$$Hod(L^D X)\to D(0,1)$$
+whose fiber at $0$ is the trivial action of $B\overset{\circ}{D}(1,1)$ on $L^D X$
+and whose fiber at $1$ is the standard action.
 
 ## Related notion
 
