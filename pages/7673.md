@@ -42,7 +42,7 @@ The way this is generally dealt with is to introduce a category-theoretic struct
 
 One of these structures is called "contextual categories" (definition \ref{ContextualCategory} below). This and other kinds of categories-with-extra-structure may hence be thought of as stand-ins for the [[syntax]] of a [[type theory]]:
 
-> Rather than constructing an interpretation of the syntax directly, we may work via the intermediary notion of contextual categories, a class of algebraic objects abstracting the key structure carried by the syntax. The plain definition of a contextual category coresponds to the structural core of the syntax; further syntactic rules (logical constructors, etc.) correspond to extra algebraic structure that contextual categories may carry. Essentially, contextual categories provide a completely equivalent alternative to the syntactic presentation of type theory. 
+> Rather than constructing an interpretation of the syntax directly, we may work via the intermediary notion of contextual categories, a class of algebraic objects abstracting the key structure carried by the syntax. The plain definition of a contextual category corresponds to the structural core of the syntax; further syntactic rules (logical constructors, etc.) correspond to extra algebraic structure that contextual categories may carry. Essentially, contextual categories provide a completely equivalent alternative to the syntactic presentation of type theory. 
 
 > Why is this duplication of notions desirable? The trouble with the syntax is that it is mathematically tricky to handle. Any full presentation must account for (among other things) variable binding, capture-free substitution, and the possibility of multiple derivations of a judgement; and so a direct interpretation must deal with all of these, at the same time as tackling the details of the particular model in question. By passing to contextual categories, one deals with these subtleties and bureaucracy once and for all, and obtains a clear framework for subsequently constructing models. Conversely, why not work only with contextual categories, dispensing with syntax entirely?
 
@@ -422,7 +422,7 @@ The initial category with families was constructed in
 
 This was formalized inside type theory with set quotients of [[higher inductive types]] in:
 
-* {#AltKap2015} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Adga](https://bitbucket.org/akaposi/tt-in-tt)).
+* {#AltKap2015} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Agda](https://bitbucket.org/akaposi/tt-in-tt)).
 
 
 Contextual categories were defined in
