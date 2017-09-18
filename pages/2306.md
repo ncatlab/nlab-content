@@ -77,7 +77,7 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 =--
 
-review includes ( [Hopkins 99, theorem 2.5](#Hopkins99) [Lurie lect 2, theorem 4](#LurieLect2))
+review includes ([Hopkins 99, theorem 2.5](#Hopkins99), [Lurie 10, lect 2, theorem 4](#LurieLect2))
 
 ### As the complex cobordism cohomology ring
 
@@ -119,7 +119,9 @@ This construction could however break the left exactness condition. However, $E$
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
- {#LurieLect2}
+* {#LurieLect2} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
+
+* {#LurieLect3} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 3 _Lazard's theorem (continued)_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture3.pdf))
+ 
 
 [[!redirects Lazard's ring]]
