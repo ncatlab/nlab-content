@@ -189,6 +189,10 @@ For another proof, see theorem 3.1.1 of [Berberian](#Ber).
 
 * For a metric space $X$, let $K(X)$ be the set of nonempty [[compact space|compact]] subsets of $X$, equipped with the [[Hausdorff metric]]. If $X$ is a separable complete metric space, then so is $K(X)$. 
 
+* A [[local compactum|locally compact Hausdorff space]] is Polish iff it is second-countable. 
+
+* If $X, Y$ are Polish and $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ (the space of continuous maps with the compact-open topology) is also Polish. (See for example A.10 [here](http://www.math.tamu.edu/~kerr/book/appendixA.pdf).) 
+
 * Spaces of [[structure in model theory|structures]] and [[models]] (in the [[model theory]] sense), and spaces of $n$-[[n-type (model theory)|types]] (again in the model theory sense), quite often provide examples of Polish spaces. For example, if $L$ is a countable language (a countable [[signature (in logic)|signature]]), then the collection of possible $L$-structures $M$ on the countable universe $\mathbb{N}$, topologized by taking as basic opens 
 $$U_\phi = \{M \in Struct(L): M \models \phi\}$$ 
 where $\phi$ is a quantifier-free sentence, is a Polish space homeomorphic to the product space 
