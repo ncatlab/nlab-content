@@ -124,7 +124,7 @@ For the other direction, use the fact that $U = \mathsf{Dgr}(1, -)$ is represent
 
 (Still to come: characterization of regular monomorphisms.) 
 
-## Trails, paths, and cycles 
+## Paths, trails, and cycles 
 
 +-- {: .num_defn #Path}
 ###### Definition
@@ -163,14 +163,18 @@ Continuing the theme of monic digraph morphisms, we introduce the notion of cycl
 
 +-- {: .num_defn} 
 ###### Definition 
-An $n$-*cycle* in a digraph $D$ is a monic morphism $P: Z_n \to D$ (see Example \ref{cycle}). 
+An $n$-*cycle* in a digraph $D$ is a monic morphism $P: Z_n \to D$ (see Example \ref{cycle}). A *cycle* in $D$ is just an $n$-cycle in $D$ for some $n$. A digraph $D$ is *acyclic* if it admits no cycles. 
 =-- 
 
-Evidently a digraph morphism $C: Z_n \to D$ can be identified with a walk $P: \{0, \ldots, n\} \to D$ such that $P(0) = P(n)$. There is an identification between arcs of the ordinal digraph $\{0, \ldots, n\}$ and arcs of $Z_n$; thus if $C: Z_n \to D$ is *monic*, we have a composite injective map in $Set$, 
+There is a natural bijection between digraph morphisms $C: Z_n \to D$ and walks $P: \{0, \ldots, n\} \to D$ such that $P(0) = P(n)$. Indeed we have a digraph quotient map $q: \{0, \ldots, n\} \to Z_n$ defined as the mapping $i \mapsto i \mod n$, and the walk associated with $C: Z_n \to D$ is $P = C \circ q$. The map $q$ induces a bijection on arcs: 
 
-$$\mathsf{Dgr}(2, \{0, \ldots, n\}) \cong \mathsf{Dgr}(2, Z_n) \stackrel{\mathsf{Dgr}(2, C)}{\to} \mathsf{Dgr}(2, D),$$ 
+$$\mathsf{Dgr}(2, q): \mathsf{Dgr}(2, \{0, \ldots, n\}) \stackrel{\sim}{\to} \mathsf{Dgr}(2, Z_n).$$ 
 
-which implies that the walk $P$ associated with an $n$-cycle $C: Z_n \to D$ is a trail. 
+Thus if $C: Z_n \to D$ is *monic*, we have a composite injective map in $Set$, 
+
+$$\mathsf{Dgr}(2, \{0, \ldots, n\}) \underoverset{\mathsf{Dgr}(2, q)}{\sim}{\to} \mathsf{Dgr}(2, Z_n) \underset{\mathsf{Dgr}(2, C)}{\to} \mathsf{Dgr}(2, D),$$ 
+
+which implies that the walk $P$ associated with a cycle $C: Z_n \to D$ is a trail. 
 
 
 ## Symmetrizing and "weak" notions 
@@ -198,7 +202,7 @@ It is clear that $u_{Symm(D)}: Symm(D) \to Symm^2(D)$ is an [[isomorphism]] (and
 
 Morally we may consider the category of undirected graphs to be the category of algebras over the monad $Symm$. In any case, this is a full subcategory of $\mathsf{Dgr}$ consisting of digraphs of the form $Symm(D)$. 
 
-We proceed to "weaken" various of the notions above to take into account the undirected context, simply by applying the functor $Symm$. For example: 
+We proceed to "weaken" various of the notions above to take into account the undirected graph context, simply by applying the functor $Symm$. For example: 
 
 * If $\alpha$ is an ordinal digraph, a *weak walk* $\alpha \to D$ is defined to be a walk $\alpha \to Symm(D)$. 
 
@@ -209,6 +213,12 @@ Alternatively, we could define a weak walk to be a digraph morphism $Symm(\alpha
 Similarly, 
 
 * A *weak trail* $\alpha \to D$ is defined to be a trail $\alpha \to Symm(D)$. 
+
+* A *weak cycle* $Z_n \to D$ is defined to be a cycle $Z_n \to Symm(D)$. 
+
+
+
+
 
 
 ## Miscellaneous notions 
@@ -283,26 +293,8 @@ As a saving grace, the standard way to rigorously define the arcs of *plane* dig
 
 
 
-+-- {: .num_defn #CycleInDigraph}
-###### Definition
-**(cycle in a digraph)**
 
-Suppose $D=(V,A)$ is a digraph. 
-A *cycle* in $D$ is a trail $\alpha\overset{P}{\rightarrow}V$ in $D$ such 
 
-* $2 \lt \alpha \lt \omega$
-
-* the [[restriction]] $P|_{\alpha-1}$ is an [[injective]] function
-
-* $P(0)=P(\alpha-1)$
-
-=--
-
-Note that since $\alpha$ is required to be finite, $\alpha-1$ is defined. 
-The image of any cycle is a [[finite set]] of vertices.
-
-We remark (in passing, since there is no use for 2-cycles in the usual [[pasting schemes]]), that, despite its domain having precisely three elements, a cycle $P$ with $\mathrm{dom}(P)=3$ is traditionally called a *2-cycle*. 
-The reason is that a 2-cycle "has" (to use a usual abuse of language) precisely two arcs. 
 Allowing 2-cycles, yet neither loops nor parallel arcs, has become a  standard meaning of *digraph* in combinatorics.
 
 
@@ -321,15 +313,8 @@ A usual abbreviation in combinatorics for *acyclic directed graph* is *DAG*.
 Here, "classical" refers to the negative definition. 
 
 
-+-- {: .num_defn #WeakCycleInDigraph}
-###### Definition
-**(weak cycle in a digraph)** 
-
-Read the definition of *cycle* from def. \ref{CycleInDigraph}  with "trail" replaced with "weak trail" from def. \ref{WeakTrail}.
 
 The set of all weak cycles of a digraph $D$ is denoted $\mathrm{WeCy}(D)$.
-
-=--
 
 
 The following non-standard definition is useful in when constructing proofs of Power's pasting theorem:
