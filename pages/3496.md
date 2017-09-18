@@ -68,6 +68,21 @@ Since for a [[Grothendieck topos]] $E$ the [[inverse image]] $x^*$ of an essenti
 ## Properties 
  {#Properties}
 
+### A criterion for Grothendieck toposes
+
+The inverse image $f^\ast$ of an essential geometric morphism preserves small limits since it is a right adjoint. Hence, this provides a minimal requirement to satisfy for a general geometric morphism $f^\ast\dashv f_\ast$ in order to qualify for being essential. In case, the toposes involved are [[Grothendieck toposes]] this condition is not only necessary but sufficient.
+
++-- {: .num_prop}
+###### Proposition
+Let $f^\ast\dashv f_\ast:\mathcal{E}\to\mathcal{F}$ a geometric morphism between Grothendieck toposes. Then $f$ is essential iff $f^\ast$ preserves small limits.
+=--
+
++-- {: .proof}
+###### Proof
+Grothendieck toposes are [[locally presentable category|locally presentable]] and $f^\ast$ has rank i.e. it preserves $\alpha$-filtered colimits for some [[regular cardinal]] $\alpha$ since it is a left adjoint. But by ([[Handbook of Categorical Algebra|Borceux vol. 2]]  Thm.5.5.7, p.275) a functor between two locally presentable categories has a left adjoint precisely if it has rank and preserves small limits.
+
+=--
+
 ### Relation to morphisms of (co)sites
  {#RelationToSiteMorphisms}
 
