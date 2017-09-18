@@ -19,13 +19,13 @@
 
 On [[super smooth infinity-groupoids]] there is a [[modal operator]] $\stackrel{\rightsquigarrow}{(-)}$ which projects onto the [[boson|bosonic]] components of the [[supergeometry]]. On [[formal dual]] [[superalgebras]] this is given by passing to the _[[body]]_. In terms of [[physical fields]] this is the projection onto [[boson]] fields, which are hence the [[modal types]] of $\rightsquigarrow$, and so it makes sense to speak of the _bosonic modality_.
 
-This has a [[left adjoint]] $\e$ (which on superalgebras passes to the even-graded sub-algebra) and hence together these form an [[adjoint modality]] which may be thought of as characterizing the [[supergeometry]]. See at _[super smooth infinity-groupoid -- Cohesion](http://ncatlab.org/nlab/show/super+smooth+infinity-groupoid#Cohesion)_. With $\e$ being opposite to $\rightsquigarrow$ thereby, it makes sense to call it the _fermionic modality_.
+This has a [[left adjoint]] $\rightrightarrows$ (which on superalgebras passes to the even-graded sub-algebra) and hence together these form an [[adjoint modality]] which may be thought of as characterizing the [[supergeometry]]. See at _[super smooth infinity-groupoid -- Cohesion](http://ncatlab.org/nlab/show/super+smooth+infinity-groupoid#Cohesion)_. With $\rightrightarrows$ being opposite to $\rightsquigarrow$ thereby, it makes sense to call it the _fermionic modality_.
 
 Notice that the fermionic [[currents]] in [[physics]] (i.e. the [[electron]] density current) are indeed fermionic bilinears, i.e. are indeed in the even subalgebras of the underlying superalgebra.
 
 $$
   \array{
-    fermions & \e &\stackrel{}{\dashv}& \stackrel{\rightsquigarrow}{} & bosons
+    fermions & \rightrightarrows &\stackrel{}{\dashv}& \stackrel{\rightsquigarrow}{} & bosons
   }
 $$
 
