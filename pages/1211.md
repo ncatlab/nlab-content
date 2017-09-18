@@ -60,7 +60,7 @@ The strongest version of extensionality is motivated by the study of [[terminal 
 
 Let $S$ be equipped with a binary relation $\prec$.  A __[[bisimulation]]__ on $(S,\prec)$ is a binary relation $\sim$ such that whenever $x \sim y$, for any $a \prec x$ there is a $b \prec y$ with $a \sim b$, and conversely for every $b \prec y$ there is an $a \prec x$ with again $a \sim b$.  We then say that $\prec$ is __strongly extensional__ if every bisimulation is contained in the identity relation; i.e., $x = y$ whenever $x \sim y$ for any bisimulation $\sim$.  In general, this is probably the best situation in which to say that $\prec$ is simply __extensional__.
 
-Finsler and Scott extensionality may be understood as special cases of this for particular bisumulations $\sim$.  (So can strong extensionality, since any set equipped with a relation has a weakest bisimulation $\approx$.)  This is the approach taken by Aczel to study all the above notions of extensionality together.
+Finsler and Scott extensionality may be understood as special cases of this for particular bisimulations $\sim$.  (So can strong extensionality, since any set equipped with a relation has a weakest bisimulation $\approx$.)  This is the approach taken by Aczel to study all the above notions of extensionality together.
 
 In particuar, strong extensionality implies Scott extensionality, and the converse holds for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
 
@@ -94,6 +94,7 @@ Strongly extensional quotients are even easier to construct, although they do cr
 ## Simulations
 
 Given two sets $S$ and $T$, each equipped with a strongly extensional relation $\prec$, a [[function]] $f\colon S \to T$ is a __[[simulation]]__ of $S$ in $T$ if
+
 *  $f(x) \prec f(y)$ whenever $x \prec y$ and
 *  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
