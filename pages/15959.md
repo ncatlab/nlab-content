@@ -14,9 +14,20 @@
 
 ## Groups
 
+The modern mathematical terminology _group_ is short for _group of [[symmetries]]_ (e.g. [Klein 1872](Klein+geometry#Klein1872)). Mathematicians and physicist tend to marvel at the ubiquity and profoundness that the concept of symmetry groups has turned out to exhibit since its conception in the 19th century. Indeed it is a fundamental concept in a sense whose full depth becomes clear (only) in [[homotopy theory]]: _groups_ are equivalently the [[pointed object|pointed]] [[connected object in an (infinity,1)-topos|connected]] [[homotopy types]].
+
+In traditional literature this fact is fully appreciated typically only in rather advanced corners of [[algebraic topology]], and even that mostly just somewhat secretly. But while it is true that this fact has very sophisticated consequences, at its heart it is a simple fundamental fact that is visible and useful already in elementary [[group theory]] and [[representation theory]].
+
+We being in 
+
+* _[1-Groups](#1Groups)_
+
+with a discussion of the simplest case of ordinary discrete groups from this natural perspective of regarding them as pointed connected [[homotopy 1-types]], their [[delooping]] [[groupoids]]. Then we gradually generalize to the study of [[infinity-group]] objects in general [[(infinity,1)-toposes]].
+
 ### Model Layer
 
 #### 1-Groups
+ {#1Groups}
 
 ##### Discrete groups as pointed connected groupoids
 
@@ -322,9 +333,58 @@ given by forming [[loop space objects]] and by forming deloopings.
 
 ##### Discrete group cohomology
 
-We discuss here in detail and in components the special case of degree-2 
-[[group cohomology]] of a [[discrete group]] $G$ with coefficients in $A$ an [[abelian group|abelian]] [[discrete group]] and regarded as being equipped with the trivial $G$-[[action]].
+One of the remarkable conceptual simplifications brought about by general [[homotopy theory]] pertains to the general concept of [[cohomology]]: effectively every flavor of cohomology that has been considered turns out to be nothing but the theory of [[(infinity,1)-categorical hom spaces]] in a suitable [[(infinity,1)-topos]].
 
+Specifically for the case of [[group cohomology]], this is the following simple statement.
+
+
+Let $A$ be an [[abelian group]]. For $n \in \mathbb{N}$ write
+
+$$
+  (\mathbf{B}^n A)_\bullet \in KanCplx
+$$
+
+for the [[Kan complex]] underlying the [[simplicial group]] which is the image of the [[chain complex]] $A[-1]$ concentrated on $A$ in degree $n$ under the [[Dold-Kan correspondence]] $DK \colon Ch_{\bullet \geq 0}(Ab)\stackrel{\simeq}{\longrightarrow} sAb \stackrel{forget}{\longrightarrow} KanCplx$
+
+$$
+  (\mathbf{B}^n A)_\bullet
+  \coloneqq
+  DK(A[-n])
+  \,.
+$$
+
+For $G$ any [[discrete group]], not necessarily [[abelian group|abelian]], write
+
+$$
+  (\mathbf{B}G)_\bullet in KanCplx
+$$
+
+for the [[nerve]] of the [[groupoid]] (G\stackrel{\longrightarrow}{\longrightarrow} \ast).
+
+See at _[[geometry of physics -- homotopy types]]_ for detailed discussion of these two constructions.
+
++-- {: .num_prop}
+###### Proposition/Definition
+
+Given a [[discrete group]] $G$, then a degree-$n$ [[cocycle]] in [[group cohomology]] of $G$ with [[coefficients]] in $A$ is equivalently a morphism
+
+$$
+  (\mathbf{B}G)_\bullet \longrightarrow (\mathbf{B}^n A)_\bullet
+  \,.
+$$
+
+A [[homotopy]] between two such morphisms is equivalently a [[coboundary]] between two such cocycles.
+
+The [[group cohomology]] [[cohomology group|group]] of $G$ with coefficients in $A$ is the [[equivalence classes]] of cocycles modulo coboundaries, hence is the connected components of the [[hom-groupoid]]:
+
+$$
+  H^n_{Grp}(G,A)
+  \simeq
+  \pi_0 Hom(\mathbf{B}G, \mathbf{B}^n A)
+  \,.
+$$
+
+=--
 
 +-- {: .num_prop #2CocyclesAndCoboundaries}
 ###### Proposition
