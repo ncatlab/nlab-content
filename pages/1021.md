@@ -48,11 +48,9 @@ Whenever $G$ is a right adjoint of $U$, we have that $U$ is a [[left adjoint]] o
 
 ## Properties
 
-Right adjoint functors preserve
+* [[right adjoints preserve limits]]
 
-* [[limits]];
-
-* [[monomorphisms]].
+* right adjoints preserve [[monomorphisms]].
 
 
 ## Related concepts
