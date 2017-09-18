@@ -74,12 +74,12 @@ For more details on Giry's monad and its variants see [[Giry's monad]].
 
 ### Generalizations
 
-* Quantum mechanics studies complex probability amplitudes whose absolute square can be interpreted as usual probability in the process of measurement, .e. quantum reduction. An alternative approach via [[Wigner's function]] has real, but possibly
-negative probability.
+* [[quantum mechanics|Quantum mechanics]] studies [[complex number|complex]] probability amplitudes whose absolute square can be interpreted as the usual probability in the process of [[measurement]], i.e. quantum reduction. An alternative approach via [[Wigner's function]] has real, but possibly outside $[0,1]$, probabilities.
 
-* noncommutative [[von Neumann algebra]]s can be interpreted as a noncommutative measure theory, see [[Alain Connes]]' book [[Noncommutative Geometry]].
+* Relatedly, noncommutative [[von Neumann algebra]]s can be interpreted as a noncommutative measure theory, analogous to the role that [[C*-algebras]] play in [[noncommutative geometry]] (see [[Alain Connes]]' book [[Noncommutative Geometry]]).
 
-* [[free probability]] theory of Voiculescu and others is another noncommutative generalization, with physical applications related to random matrix theory
+* The [[free probability]] theory of Voiculescu and others is another noncommutative generalization, with physical applications related to [[random matrix theory]].
+
 
 ## Applications
 
