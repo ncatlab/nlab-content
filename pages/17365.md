@@ -2117,7 +2117,7 @@ $$
   \underset{(S^1 \wedge X_n )\vee (S^1 \wedge X_n))}{\sqcup}
    S^1 \wedge X_n \wedge (I_+)
   \longrightarrow
-  X_{n+1} \wedge I_+
+  X_{n+1} \wedge (I_+)
   \,.
 $$
 
