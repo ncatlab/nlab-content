@@ -1,10 +1,9 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+###Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -29,7 +28,7 @@ A __convergence space__ is a [[set]] $S$ together with a [[relation]] $\to$ from
 
 It follows that $F \to x$ if and only if $F \cap F_x$ does.  Given that, the convergence relation is defined precisely by specifying, for each point $x$, a filter of [[subfilter]]s of the principal ultrafilter at $x$.  (But that is sort of a tongue twister.)
 
-A filter $F$ __clusters__ at a point $x$ if there exists a [[proper filter]] $G$ such that $F \subseteq G$ and $G \to x$.
+A filter $F$ __clusters__ at a point $x$, written $F \rightsquigarrow x$, if there exists a [[proper filter]] $G$ such that $F \subseteq G$ and $G \to x$.
 
 The definition can also be phrased in terms of [[nets]]; a net $\nu$ converges to $x$ if and only if its [[eventuality filter]] converges to $x$.
 
@@ -50,7 +49,7 @@ A [[pseudotopological space]] is a convergence space satisfying the _star proper
 Assuming the [[ultrafilter theorem]] (a weak version of the [[axiom of choice]]), it\'s enough to require that $F$ converges to $x$ whenever every [[ultrafilter]] that refines $F$ converges to $x$ (or clusters there, since these are equivalent for ultrafilters).
 
 
-A [[subsequential space]] is a pseudotopological space that may be defined using only [[sequences]] instead of arbitrary nets/filters.  (More precisely, a filter converges to $x$ only if it refines (the eventuality filter of) a sequence that converges to $x$.)
+A [[subsequential space]] is a pseudotopological space that may be defined using only [[sequences]] instead of arbitrary nets/filters.  (More precisely, a filter converges to $x$ only if it refines (the eventuality filter of) a [[infinite sequence|sequence]] that converges to $x$.)
 
 
 A [[pretopological space]] is a convergence space that is _infinitely filtered_:
@@ -64,6 +63,7 @@ Any [[topological space]] is a convergence space, and in fact a pretopological o
 
 Every [[Cauchy space]] is a convergence space.
 
+
 ## Properties
 
 The [[improper filter]] (the [[power set]] of $S$) converges to every point.  On the other hand, a convergence space $S$ is __[[Hausdorff space|Hausdorff]]__ if every [[proper filter]] converges to at most one point; then we have a [[partial function]] $\lim$ from the proper filters on $S$ to $S$.  A topological space is Hausdorff in the usual sense if and only if it is Hausdorff as a convergence space.
@@ -75,19 +75,33 @@ The topological convergence spaces can be characterized as the pseudotopological
 
 ## Topological structure
 
-Given a convergence space, a filter $F$ __star-converges__ to a point $x$ if every proper filter that refines $F$ clusters at $x$.  (Assuming the [[ultrafilter theorem]], $F$ star-converges to $x$ iff every ultrafilter that refines $F$ converges to $x$.)  The relation of star convergence makes any convergence space into a [[pseudotopological space]] with a weaker convergence.  In this way, $Ps Top$ becomes a [[reflective subcategory]] of $Conv$ over $Set$.
+Given a convergence space, a filter $F$ __star-converges__ to a point $x$, written $F \to^* x$, if every proper filter that refines $F$ clusters at $x$.  (Assuming the [[ultrafilter theorem]], $F$ star-converges to $x$ iff every ultrafilter that refines $F$ converges to $x$.)  The relation of star convergence makes any convergence space into a [[pseudotopological space]] with a weaker convergence.  In this way, $Ps Top$ becomes a [[reflective subcategory]] of $Conv$ over $Set$.
 
 >Note: the term 'star convergence' is my own, formed from 'star property' above, which I got from _[[HAF]]_.  Other possibilities that I can think of: 'ultraconvergence', 'universal convergence', 'subconvergence'.  ---[[Toby Bartels|Toby]]
 
 
-Given a convergence space, a set $U$ is a __[[neighbourhood]]__ of a point $x$ if $U$ belongs to every filter that converges to $x$; it follows that $U$ belongs to every filter that star-converges to $x$.  The relation of being a neighbourhood makes any convergence space into a [[pretopological space]], although the pretopological convergence is weaker in general.  In this way, $Pre Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$) over $Set$.
+Given a convergence space, a set $U$ is a __[[neighbourhood]]__ of a point $x$, written $x \in^\circ U$, if $U$ belongs to every filter that converges to $x$; it follows that $U$ belongs to every filter that star-converges to $x$.  The relation of being a neighbourhood makes any convergence space into a [[pretopological space]], although the pretopological convergence is weaker in general.  In this way, $Pre Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$) over $Set$.
 
-Other pretopological notions:  The __[[preinterior]]__ of a set $A$ is the set of all points $x$ such that $A$ is a neighbourhood of $x$.  The __[[preclosure]]__ of $A$ is the set of all points $x$ such that every neighbourhood $U$ of $x$ meets (has [[inhabited set|inhabited]] [[intersection]] with) $A$.  For more on these, see [[pretopological space]].
+Other pretopological notions:  The __[[preinterior]]__ of a set $A$ is the set of all points $x$ such that $x \in^\circ A$.  The __[[preclosure]]__ of $A$ is the set of all points $x$ such that every neighbourhood $U$ of $x$ meets (has [[inhabited set|inhabited]] [[intersection]] with) $A$.  For more on these, see [[pretopological space]].
 
 
-Given a convergence space, a set $G$ is __[[open subset|open]]__ if $G$ belongs to every filter that converges to any point in $G$, or equivalently if $G$ equals its preinterior.  The class of open sets makes any convergence space into a [[topological space]], although the topological convergence is weaker in general.  In this way, $Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$ and $Pre Top$) over $Set$.
+Given a convergence space, a set $G$ is __[[open subset|open]]__ if $G$ belongs to every filter that converges to any point in $G$, or equivalently if $G$ belongs to every filter that star-converges to any point in $G$, or equivalently if $G$ equals its preinterior.  The class of open sets makes any convergence space into a [[topological space]], although the topological convergence is weaker in general.  In this way, $Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$ and $Pre Top$) over $Set$.
 
 Other topological notions:  A set $F$ is __[[closed subset|closed]]__ if $F$ meets every neighbourhood of every point that belongs to $F$, equivalently if $F$ equals its preclosure.  The __[[interior]]__ of $A$ is the [[union]] of all of the open sets contained in $A$; it is the largest open set contained in $A$.  The __[[closure]]__ of $A$ is the [[intersection]] of all of the closed sets that contain $A$; it is the smallest closed set that contains $A$.  (For a topological convergence space, the interior and closure match the preinterior and preclosure.)
+
+
++-- {: .num_theorem #subcats}
+###### Theorem
+The inclusions $Top \to Pre Top \to Ps Top \to Conv$ are all inclusions of [[full subcategories]] over $Set$.  That is, they all agree on what a [[continuous function]] is.
+=--
+
++-- {: .proof}
+###### Proof
+
+The only hard part is proving that, if $f(\mathcal{F}) \to^* f(x)$ whenever $\mathcal{F} \to x$ in a [[pretopological space]], then $x \in^\circ f^*(V)$ whenever $f(x) \in^\circ V$.  This is usually proved [[proof by contradiction|by contradiction]] and flagrant use of [[axiom of choice|choice]]: supposing that $f(x) \in^\circ V$ but $x \notin^\circ f^*(V)$, then every neighbourhood $U$ of $x$ must satisfy $U \nsubseteq f^*(V)$, so choose for each such $U$ a point $y_U$ such that $y_U \in U$ but $f(y_U) \notin V$, defining a net $y$ (indexed by neighbourhoods of $x$ ordered by reverse inclusion), such that $y \to x$, but $f(y) \nrightsquigarrow f(x)$, so $y \nrightarrow^* f(x)$, getting a contradiction.
+
+But the theorem is in fact perfectly [[constructive mathematics|constructive]]: the filter $\mathcal{N}_x$ of neighbourhoods of $x$ converges to $x$, so $f(\mathcal{N}_x) \to^* f(x)$; all that really matters is that $f(\mathcal{N}_x) \rightsquigarrow f(x)$, so that for each $V \ni^\circ f(x)$ and $U \ni^\circ x$, for some $W$ with $x \in^\circ W \subseteq U$, $f(W) \subseteq V$, so $W \subseteq f^*(V)$, making $f^*(V)$ a neighbourhood of $x$.
+=--
 
 
 ## References
