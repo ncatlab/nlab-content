@@ -17,7 +17,7 @@
 
 In [[stable homotopy theory]], a _sequential ([[prespectrum|pre-]])[[spectrum]]_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed homotopy types]] ([[pointed topological spaces]], pointed [[simplicial sets]]) $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
 
-This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one predominently meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis (e.g. [Schwede 12, def. 2.1](#Schwede12)).
+This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one predominently meant be default, as used in, say, the [[Brown representability theorem]]. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis (e.g. [Schwede 12, def. 2.1](#Schwede12)).
 
 
 ## Definition
