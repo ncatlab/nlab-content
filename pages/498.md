@@ -40,10 +40,49 @@ The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[qu
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Kaplansky)** 
-A projective module over a commutative local ring is free. 
+A [[projective module]] over a commutative local ring is free. 
 =-- 
 
-An exposition of the proof may be found [here](http://blog.jpolak.org/?p=363). 
+An exposition of the proof may be found [here](http://blog.jpolak.org/?p=363). A constructive proof of a finitary weakening of Kaplansky's theorem proceeds as follows.
+
++-- {: .num_lemma}
+###### Lemma
+Let $A$ be a local ring. Let $\mathfrak{a}$ be a finitely generated idempotent ideal in $A$. Then $\mathfrak{a} = (0)$ or $\mathfrak{a} = (1)$.
+=--
++-- {: .proof}
+###### Proof
+Consider $\mathfrak{a}$ as a finitely generated $A$-module. Then, by [[Nakayama's lemma]], there exists an element $x \in A$ such that $x \equiv 1$
+modulo $\mathfrak{a}$ and $x \mathfrak{a} = 0$. Since $A$ is a local ring, $x$ is invertible or $1-x$ is invertible. In the first case it follows that $\mathfrak{a} = (0)$, in the second that $\mathfrak{a} = (1)$.
+=--
+
++-- {: .num_lemma}
+###### Lemma
+Let $A$ be a local ring. Let $P$ be an idempotent matrix over $A$. Then $P$ is equivalent to a diagonal matrix with entries $1$ and $0$.
+=--
++-- {: .proof}
+###### Proof
+Since $P$ is idempotent, so are its ideals $(\Lambda^i P)$
+of $i$-minors:
+$$ (\Lambda^i P) = (\Lambda^i (P \circ P)) =
+(\Lambda^i P \circ \Lambda^i P) \subseteq (\Lambda^i P) \cdot (\Lambda^i P)
+\subseteq (\Lambda^i P). $$
+By the previous lemma, they are therefore each equal to $(0)$ or $(1)$. Since they form a descending chain, there exists a stage $r$ such that $(\Lambda^r P) = (1)$ and $(\Lambda^{r+1} P) = (0)$. Therefore all $(r+1)$-minors of $P$ are zero, and -- since $A$ is a local ring -- there exists at least one invertible $r$-minor. Thus $P$ can be made into a diagonal matrix of the desired form by applying row and column transformations.
+=--
+
++-- {: .num_remark}
+###### Remark
+We can even show that $P$ is _similar_ to a diagonal matrix with entries $1$ and $0$: By the lemma, image and kernel of $P$ are finite free. Combining bases of these subspaces, we obtain a basis of the full space; expressing $P$ with respect to this basis, we obtain a diagonal matrix of the desired form.
+=--
+
++-- {: .num_theorem}
+###### Theorem
+Let $M$ be a finitely generated module over a local ring $A$. Assume that $M$ is projective. Then $M$ is finite free.
+=--
++-- {: .proof}
+Fix a linear surjection $p : A^n \to M$ and a section $s : M \to
+A^n$. The composition $P \coloneqq s \circ p$ is idempotent and $M$ is isomorphic to $A^n/\operatorname{ker}(P)$. Since $P$ is equivalent to a diagonal matrix with entries $1$ and $0$, this module is obviously finite free.
+=--
+
 
 ## In geometry
 
