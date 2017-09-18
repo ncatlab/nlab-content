@@ -18,7 +18,7 @@
 The **Warsaw circle** is a [[topological space]] that serves to illustrate some of the ideas of [[shape theory]].
 
 
-A topological space  may have very little separating it from '[[manifold]]ness', yet a 'singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, see the book ([Borsuk]{#Borsuk}).
+A topological space  may have very little separating it from '[[manifold]]ness', yet a 'singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, see the book ([Borsuk 75](#Borsuk75)).
 
 ## Definition
 
@@ -88,8 +88,8 @@ We note that there are obvious maps of pro-objects $\check{C}(S^1,-)\to \check{C
 
 ## References
 
-* K. Borsuk, _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa (1975)
-{#Borsuk}
+* {#Borsuk75} [[K. Borsuk]], _Theory of Shape_, Monografie Matematyczne Tom 59,Warszawa (1975)
+
 
 
 [[!redirects Warsaw circle]]
