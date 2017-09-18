@@ -1,3 +1,10 @@
 | hierarchy of [[separation axioms]]                 |
 |---------------------------------------|
 | $\array{ &&&\text{metric space}  \\ &&& \Downarrow \\ &&& \vdots \\ &&& \Downarrow \\ &&& T_4  = \text{normal Hausdorff} \\ &&& \Downarrow \\ &&& T_3 = \text{regular Hausdorff} \\ &&& \Downarrow \\ &&& T_2 = \text{Hausdorff}  \\ && \swArrow && \seArrow \\ \, & T_1 && && \text{sober} & \, \\ && \seArrow && \swArrow \\ &&& T_0 = \text{Kolmogorov} \\ }  $ |
+
+
+Hence the types of type theory may be thought of as a formalization of concepts. On the other hand, concepts have famously been identified with the [[predicates]] in [[Aristotelian logic]]:
+
+> _Concepts ... serve as predicates of possible judgements._ ([[Critique of Pure Reason]] A69/B94)
+
+
