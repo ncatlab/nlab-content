@@ -1,6 +1,3 @@
-[[!redirects super Minkowski space]]
-[[!redirects super Minkowski space]]
-[[!redirects super Minkowski space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -231,11 +228,18 @@ page 370, part II section II.3.3 of
 
 Discussion of how [[super L-infinity algebra]] [[L-infinity cocycle|extensions]] of super Minkowski spacetime yield all the [[brane scan]] of [[string theory]]/[[M-theory]] is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet]]_ (2013)
-  {#FSS13}
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet]]_ (2013)
+  
 
 [[!redirects super Minkowski spacetime]]
 [[!redirects super-Minkowski spacetime]]
 
 [[!redirects super Minkowski spacetimes]]
 [[!redirects super-Minkowski spacetimes]]
+
+[[!redirects super Minkowski space]]
+[[!redirects super Minkowski space]]
+[[!redirects super Minkowski space]]
+
+[[!redirects super Minkowski super Lie algebra]]
+[[!redirects super Minkowski super Lie algebras]]
