@@ -33,15 +33,17 @@ At this schematic conceptual level a differential cohomology diagram looks as fo
 
 $$
   \array{
-    &&  connection\;forms\;on\;trivial\;bundles && \stackrel{de\;Rham\;differential}{\longrightarrow} && curvature\;forms
+    &&  {{connection\;forms}\atop{on\;trivial\;bundles}} && \stackrel{de\;Rham\;differential}{\longrightarrow} && {{curvature}\atop{forms}}
     \\
     & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{de\;Rham\;theorem}}
     \\
-    flat\;differential\;forms  && && geometric\;bundles\;with \;connection && && rationalized\;bundle
+    {{flat}\atop{differential\;forms}}  && 
+    && {{geometric\;bundles}\atop{with\;connection}} && && 
+    {{rationalized}\atop{bundle}}
     \\
     & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol.\;class}} && \nearrow_{\mathrlap{Chern\;character}}
     \\
-    && geometric\;bundles\;with\;flat\;connection && \underset{comparison/regulator\;map}{\longrightarrow} && shape\;of\;bundle
+    && {{geometric\;bundles}\atop{with\;flat\;connection}} && \underset{comparison/regulator\;map}{\longrightarrow} && {{shape}\atop{of\;bundle}}
   }
 $$
 
