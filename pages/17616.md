@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 
 ## Idea
 
@@ -11,5 +21,8 @@ Typically one wants to mean [[pro-objects]] in manifolds of [[finite number|fini
 To amplify this specification, one should properly speak of "pro-(finite dimensional smooth manifolds)", but beware that people often abbreviate to "pro-manifold" regardless. Also "pro-finite manifold" is in use, which however, strictly speaking, is a misnomer since a "finite manifold" is one with a [[finite number]] of points.
 
 An important example of pro-objects in finite-dimensional smooth manifolds are infinite [[jet bundles]]. These are the formal projective limits of the underlying finite jet bundles.
+
+
+
 
 [[!redirects pro-manifolds]]
