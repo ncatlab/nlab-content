@@ -172,6 +172,15 @@ iff it is a minimal level which resolves the opposites of level $i$, i.e. iff $i
 
 The condition $\bigcirc_j \Box_i=\Box_i$ amounts to saying that any i-skeleton is a j-sheaf. The Aufhebung of a level is the smallest level that resolves its opposites or contradictions. Such a level need not exist in general for every level but in certain cases like [[presheaf toposes]] over [[graphic category|graphic categories]] or, more generally,  over [[von Neumann regular categories]] ([Lawvere 2002](#Law02)), it does. The Aufhebungs relation is also called the _jump operator_ in [Lawvere (2009)](#Law09).
 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Comparing with [[Science of Logic|WdL]] under Lawvere's translation shows that being at a higher [[level of a topos|level]] is Hegel's "Bestimmtheit" ("[[determinateness]]"). 
+
+
 =--
 
 ## Examples
