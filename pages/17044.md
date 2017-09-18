@@ -1,0 +1,1 @@
+why is the Von neuman algebra is closed uneder weak* topology in B(H)
