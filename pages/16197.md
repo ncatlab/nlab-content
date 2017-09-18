@@ -23,15 +23,28 @@
 
 In [[phenomenology]] of [[cosmology]], the _Starobinsky model_ of [[cosmic inflation]] takes into account -- and takes as the very source of the [[inflaton]] field -- [[higher curvature corrections]] to the [[Einstein-Hilbert action]] of [[gravity]], notably the term $R^2$ (square of the [[Ricci curvature]]).
 
-Models of this type were strongly favored by the experimental results ([PlanckCollaboration 13](#PlanckCollaboration13)), see ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13) for brief survey and see[Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13) for more details).
+The Starobinsky model stands out among models of inflation as predicting a low value of the scalar-to-tensor ratio $r$, specifically it predicts
 
-Being concerned with pure [[gravity]] the model lends itself to embedding into [[supergravity]] (e.g. [FKR 13](#FKR13)). Such embedding seems to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by shrinking the necessary initial homogeneous patch from $\sim 10^3$ down to just 50 [[Planck length]]s, and by subsuming a natural mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)).
+$$
+  r \sim \frac{12}{N^2}
+$$
+
+where $N$ is the number of $e$-foldings during inflation (see e.g. [Kehagias-Dizgah-Riotto 13 (2.6)](#KehagiasDizgahRiotto13)).
+
+Models of this type are favored by [[experiment|experimental]] results ([PlanckCollaboration 13](#PlanckCollaboration13), [BICEP2-Keck-Planck 15](#BICEPKeckPlanck15)) which give a low upper bound on $r$ around $0.1$ (whereas other models like [[chaotic inflation]] are disfavored by these values).
+See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13) for brief survey and see ([Kehagias-Dizgah-Riotto 13](#KehagiasDizgahRiotto13)) for more details. There it is argued that the other types of models which also fit the data are actually equivalent to the Starobinsky model during inflation.
+
+See ([PlanckCollaboration 13, figure 1](#PlanckCollaboration13), also [Linde 14, figure 5](#Linde14)) showing how the Starobinsky model sits right in the center of the experimentally preferred parameter range.
+
+Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[matter]] field but part of the field of [[gravity]]) the Starobinsky model lends itself to embedding into [[supergravity]] (originally due to [Ceotti 87](#Ceotti87), see e.g. [Farakos-Kehagias-Riotto 13](#FKR13)). Such embedding seems to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by shrinking the necessary initial homogeneous patch from $\sim 10^3$ down to just 50 [[Planck lengths]], and by naturally subsuming a natural mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)).
 
 ## References
 
-The original articles are
+The model is due to
 
 * [[Aleksei Starobinsky]], Phys. Lett. B 91, 99 (1980); 
+
+and the analysis of its predictions is due to
 
 * [[Viatcheslav Mukhanov]] and G. V. Chibisov, JETP Lett. 33, 532 (1981) [Pisma Zh. Eksp. Teor. Fiz. 33, 549 (1981)]; 
 
@@ -41,28 +54,57 @@ The experimental data supporting the model is due to
 
 * {#PlanckCollaboration13} _Planck 2013 results. XXII. Constraints on inflation_ ([arXiv:1303.5082](http://arxiv.org/abs/1303.5082))
 
+  * {#Linde14} [[Andrei Linde]], _Inflationary Cosmology after Planck 2013_ ([arXiv:1402.0526](http://arxiv.org/abs/1402.0526))
+
+* {#BICEPKeckPlanck15} _A Joint Analysis of BICEP2/Keck Array and Planck Data_ ([arXiv:1502.00612](http://arxiv.org/abs/1502.00612))
 
 Reviews and expositon includes
 
-* {#KehagiasDizgahRiotto13} Alex Kehagias, Azadeh Moradinezhad Dizgah, Antonio Riotto, _Comments on the Starobinsky Model of Inflation and its Descendants_, Phys. Rev. D 89, 043527 (2014) ([arXiv:1312.1155](http://arxiv.org/abs/1312.1155))
+* {#KehagiasDizgahRiotto13} [[Alex Kehagias]], Azadeh Moradinezhad Dizgah, Antonio Riotto, _Comments on the Starobinsky Model of Inflation and its Descendants_, Phys. Rev. D 89, 043527 (2014) ([arXiv:1312.1155](http://arxiv.org/abs/1312.1155))
 
 
 * {#Ketov13} [[Sergei Ketov]], _PLANCK mission, Starobinsky inflation and its realization in old-minimal supergravity_, talk at _Kavli IPMU Workshop: SUSY Model Building and Phenomenology_, 2-4 December 2013 ([pdf](http://indico.ipmu.jp/indico/getFile.py/access?contribId=16&sessionId=7&resId=0&materialId=slides&confId=28))
 
 * {#Ellis13} [[John Ellis]], _Planck-Compatible Inflationary Models_, talk 2013 ([pptx](http://londoncosmology.files.wordpress.com/2013/09/lcdm.pptx))
 
-Discussion of embedding of Starobinsky inflation in [[supergravity]] includes
+Discussion of embedding of Starobinsky inflation in [[supergravity]] originates in 
 
-* [[Sergei Ketov]], _On the supersymmetrization of inflation in f (R)
+* {#Ceotti87} S. Cecotti, Phys. Lett. B 190, 86 (1987).
+
+* S. Cecotti, S. Ferrara, M. Porrati and S. Sabharwal, Nucl. Phys. B 306, 160 (1988).
+
+and is further developed in
+
+* [[John Ellis]], Dimitri Nanopoulos, [[Keith Olive]], _No-Scale Supergravity Realization of the Starobinsky Model of Inflation_ Phys. Rev. Lett. 111, 111301 (2013) ([arXiv:1305.1247](http://arxiv.org/abs/1305.1247))
+
+  _Starobinsky-like Inflationary Models as Avatars of No-Scale Supergravity_ JCAP 1310, 009 (2013) ([arXiv:1307.3537](http://arxiv.org/abs/1307.3537))
+
+* [[Renata Kallosh]], [[Andrei Linde]], _Superconformal generalizations of the Starobinsky model_ JCAP 1306, 028 (2013) ([arXiv:1306.3214](http://arxiv.org/abs/1306.3214))
+
+* {#FKR13} F. Farakos, [[Alex Kehagias]], A. Riotto, _On the Starobinsky Model of Inflation from Supergravity_, Nucl. Phys. B 876, 187 (2013) ([arXiv:1307.1137](http://arxiv.org/abs/1307.1137))
+
+
+* S. Ferrara, [[Renata Kallosh]], [[Andrei Linde]] and M. Porrati, _Minimal Supergravity Models of Inflation_ ([arXiv:1307.7696](http://arxiv.org/abs/1307.7696))
+
+
+* [[Andrei Linde]] and M. Porrati, _Higher Order Corrections in Minimal Supergravity Models of Inflation_ ([arXiv:1309.1085](http://arxiv.org/abs/1309.1085))
+
+* S. Ferrara, [[Renata Kallosh]], [[Antoine Van Proeyen]], _On the Supersymmetric Completion of R+R2 Gravity and Cosmology_ JHEP 1311, 134 (2013) ([arXiv:1309.4052](http://arxiv.org/abs/1309.4052))
+
+* S. Ferrara, P. Fre and A. S. Sorin, _On the Topology of the Inflaton Field in Minimal Supergravity Models_ ([arXiv:1311.5059](http://arxiv.org/abs/1311.5059))
+
+* S. V. Ketov and A. A. Starobinsky, JCAP 1208, 022 (2012) [arXiv:1203.0805 [hep-th]]. S. V. Ketov and S. Tsujikawa, Phys. Rev. D 86, 023529 (2012) [arXiv:1205.2918 [hep-th]]. S. V. Ketov, arXiv:1309.0293 [hep-th].
+
+
+* [[Sergei Ketov]], _On the supersymmetrization of inflation in $f(R)$
 gravity_, Prog. Theor. Exp. Phys. 2013, 123B04 ([pdf](http://ptep.oxfordjournals.org/content/2013/12/123B04.full.pdf))
 
-* {#FKR13} F. Farakos, A. Kehagias, A. Riotto, _On the Starobinsky Model of Inflation from Supergravity_ ([arXiv:1307.1137](http://arxiv.org/abs/1307.1137))
 
-* Sergio Ferrara, Alex Kehagias, Antonio Riotto, _The Imaginary Starobinsky Model and Higher Curvature Corrections_ ([arXiv:1405.2353](http://arxiv.org/abs/1405.2353))
+* Sergio Ferrara, [[Alex Kehagias]], Antonio Riotto, _The Imaginary Starobinsky Model and Higher Curvature Corrections_ ([arXiv:1405.2353](http://arxiv.org/abs/1405.2353))
 
-* {#FerrarKehagias14} Sergio Ferrara, Alex Kehagias, _Higher Curvature Supergravity, Supersymmetry Breaking and Inflation_ ([arXiv:org](http://arxiv.org/abs/1407.5187))
+* {#FerrarKehagias14} Sergio Ferrara, [[Alex Kehagias]], _Higher Curvature Supergravity, Supersymmetry Breaking and Inflation_ ([arXiv:org](http://arxiv.org/abs/1407.5187))
 
-* {#DFKRU14} I. Dalianis, F. Farakos, A. Kehagias, A. Riotto, R. von Unge, _Supersymmetry Breaking and Inflation from Higher Curvature Supergravity_ ([arXiv:1409.8299](http://arxiv.org/abs/1409.8299))
+* {#DFKRU14} I. Dalianis, F. Farakos, [[Alex Kehagias]], A. Riotto, R. von Unge, _Supersymmetry Breaking and Inflation from Higher Curvature Supergravity_ ([arXiv:1409.8299](http://arxiv.org/abs/1409.8299))
 
 
 [[!redirects Starobinsky inflation]]
