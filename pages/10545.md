@@ -482,9 +482,21 @@ Original articles include
 
 * {#SteenrodEpstein62} [[Norman Steenrod]], [[David Epstein]], _Cohomology operations_, Ann. of Math. Studies, no. 50, Princeton University Press, Princeton, N. J., 1962.
   
-
 * {#Adams74} [[John Frank Adams]], part III, section 12 of _[[Stable homotopy and generalised homology]]_, University of Chicago Press (1974).
+
+Comprehensive discussion of the ordinary Steenrod algebra, with proof is the Adem relations includes
+
+* {#MosherTangora68} [[Robert Mosher]], [[Martin Tangora]], _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](www.maths.ed.ac.uk/~aar/papers/moshtang.pdf))
  
+* [[Jacob Lurie]], 18.917 _[Topics in Algebraic Topology: The Sullivan Conjecture, Fall 2007](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007)_. (MIT OpenCourseWare: Massachusetts Institute of Technology), _[Lecture notes](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/)_
+
+  Lecture 2 _Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture2.pdf))
+
+  Lecture 3 _Basic properties of Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture3.pdf))
+
+  Lecture 4 _The Adem relations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture4.pdf))
+
+  Lecture 5 _The Adem relations (cont.)_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture5.pdf))
 
 The general algebraic approach was laid out in 
 
@@ -495,7 +507,7 @@ _$H_\infty$ ring spectra and their applications_, Lecture Notes in Math., Spring
 
 reviewed in ([Ravenel 86, A1.5](#Ravenel)).
 
-Textbook accounts include
+Further textbook accounts include
 
 * Harvey Margolis, _Spectra and the Steenrod algebra_, 1983 North-Holland 
 
@@ -507,15 +519,6 @@ Lecture notes include
 
 * {#Rognes12} [[John Rognes]], section 3 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
-* [[Jacob Lurie]], 18.917 _[Topics in Algebraic Topology: The Sullivan Conjecture, Fall 2007](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007)_. (MIT OpenCourseWare: Massachusetts Institute of Technology), _[Lecture notes](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/)_
-
-  Lecture 2 _Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture2.pdf))
-
-  Lecture 3 _Basic properties of Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture3.pdf))
-
-  Lecture 4 _The Adem relations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture4.pdf))
-
-  Lecture 5 _The Adem relations (cont.)_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture5.pdf))
 
 
 Reviews include
