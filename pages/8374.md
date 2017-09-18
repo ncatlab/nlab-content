@@ -21,6 +21,8 @@ Lectures by Hilbert on [[physics]] and especially on [[general relativity]] are 
 
 * [[Hilbert's problems]]
 
+* [[Hilbert's program]]
+
 * [[Einstein-Hilbert action]]
 
 * [[Hilbert's theorem 90]]
