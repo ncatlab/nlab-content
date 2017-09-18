@@ -60,7 +60,7 @@ $$
   Loc(S) \simeq (Topos/S)_{loc}
 $$
 
-Concretely, the internal locale in $\mathcal{E}$ defined by a localic geometric morphism $(f^* \dashv f_*) : \mathcal{F} \to \mathcal{E}$ is the formal dual to the [[direct image]] $f_*(\Omega_{\mathcal{F}})$ of the [[subobject classifier]] of $\mathcal{F}$, regarded as an internal poset (as described there) and $F$ is equivalent to the internal [[category of sheaves]] over $f_*(\Omega_F)$.
+Concretely, the internal locale in $\mathcal{E}$ defined by a localic geometric morphism $(f^* \dashv f_*) : \mathcal{F} \to \mathcal{E}$ is the formal dual to the [[direct image]] $f_*(\Omega_{\mathcal{F}})$ of the [[subobject classifier]] of $\mathcal{F}$, regarded as an internal poset (as described there) and $\mathcal{F}$ is equivalent to the internal [[category of sheaves]] over $f_*(\Omega_{\mathcal{F}})$.
 
 =--
 
