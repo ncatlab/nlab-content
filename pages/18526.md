@@ -30,3 +30,21 @@ is such that
 
 [[!redirects retarded propagator]]
 [[!redirects retarded propagators]]
+
+[[!redirects advanced Green function]]
+[[!redirects advanced Green functions]]
+
+[[!redirects retarded Green function]]
+[[!redirects retarded Green functions]]
+
+[[!redirects retarded and advanced Green functions]]
+[[!redirects advanced and retarded Green functions]]
+
+[[!redirects advanced Green's function]]
+[[!redirects advanced Green's functions]]
+
+[[!redirects retarded Green's function]]
+[[!redirects retarded Green's functions]]
+
+[[!redirects retarded and advanced Green's functions]]
+[[!redirects advanced and retarded Green's functions]]
