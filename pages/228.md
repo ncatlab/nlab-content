@@ -59,7 +59,7 @@ We can say, however, that it has coproducts indexed by inequality spaces, althou
 If you generalise from inequality spaces to allow non-tight apartness relations, then you get (at first) a different category. However, now you also have $2$-[[2-morphism|morphisms]] which serve to identify unequal but equivalent (that is, not apart) elements of a space, so the resulting bicategory is [[equivalence of categories|equivalent]] to the category of inequality spaces.
 
 
-## Topological aspects
+## Topological aspects {#topology}
 
 Let $S$ be a set equipped with a tight apartness relation $\ne$. Using $\ne$, many [[topology|topological]] notions may be defined on $S$. (It\'s not really necessary that the apartness be tight; this corresponds to the $T_0$ [[separation axiom]] in topology.)
 
