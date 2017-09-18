@@ -152,12 +152,9 @@ There is a model due to Stolz and Teichner in 'What is an elliptic object?'...
 
 While $Spin(n)$ is not just a [[topological group]] but a (finite dimensional) [[Lie group]], $String(n)$ cannot have the structure of a finite dimensional [[Lie group]], due to the fact that the third [[homotopy group]] is nontrivial for every (finite dimensional) Lie group, while for $\pi_3(String(n)) = 0$ by the very definition of $String(n)$.
 
-+--{: .query}
-[[David Roberts]]: This raises an interesting question: is there an infinite dimensional Lie group which is a 3-connected cover? This seems very hard to do....
-[[Thomas Nikolaus]]: Yes, there is an infinite dimensional group, as shown in our article listed in the references below. 
-=--
+However, one can define an _infinite-dimensional_ Lie group with the correct properties to be a model of $String(n)$ ([Nikolaus-Sachse-Wockel 2013](#NikolausSachseWockel)).
 
-But there are smooth models of $String(n)$ in the form of [[2-group]]s. See [[string 2-group]].
+There are also smooth models of $String(n)$ in the form of [[2-group]]s. See [[string 2-group]].
 
 ## Role in string theory
 
@@ -208,7 +205,7 @@ A good review is in the introduction of
 
 In 
 
-* [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_ ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288))
+* {#NikolausSachseWockel} [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_, Int. Math. Res. Not. IMRN 16 (2013) 3678-3721, doi:[10.1093/imrn/rns154](https://dx.doi.org/10.1093/imrn/rns154), ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288))
 
 is is shown that the topological string group does admit a [[Frechet manifold]] [[Lie group]] structure. 
 
