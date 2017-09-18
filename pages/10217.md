@@ -149,6 +149,8 @@ The proof of theorem \ref{fix} was written to lay bare its provenance as a speci
 
 * [[platonism]]
 
+* [[arithmetic universe]]
+
 ## References 
 
 * {#Yanofsky03} Noson S. Yanofsky, _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, arXiv:math/0305282 ([web](http://arxiv.org/abs/math/0305282)) 
