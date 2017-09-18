@@ -24,7 +24,7 @@ In ([[perturbative string theory|perturbative]]) [[string theory]] the [[Bekenst
 
 the [[black hole]] [[spacetime]] is regarded as a [[non-perturbative QFT|strongly coupled]] [[condensate]] of string states ([[closed strings]], carrying [[gravity]]). One looks for a corresponding weakly-coupled background for closed strings in flat [[Minkowski space]] that is known to turn into the black hole spacetime as the string coupling is turned on. Such turn out to be certain [[D-brane]] configurations in Minkowski space: at weak coupling the D-brane does not back-react on the spacetime (since that back-reaction is mediated by closed string quanta) and so it just sits there, whereas at strong coupling it curves spacetime and may collapse to a configuration that looks like the prescribed black hole spacetime.
 
-Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved ([[BPS state]]), then one knows that certain observables are actually independent of the coupling constant ("protected"), and accordingly these observables are the same for black holes as for the corresponding D-brane configurations in flat space, where they may be computed in string perturbation theory.
+Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved ([[BPS state]]), then one argues ([Witten 95, section 2.3](#Witten95)) that certain observables are actually independent of the coupling constant ("protected"), and accordingly these observables are the same for black holes as for the corresponding D-brane configurations in flat space, where they may be computed in string perturbation theory.
 
 The best studied such configuration is that of [[D1-D5 brane bound states]]. For these configurations one may compute the number of [[BPS states]] (which are "protected"), hence the  [[entropy]], via the [[Witten genus]] ([Strominger-Vafa 96](#StromingerVafa96)), see at _[Witten genus -- Relation to BPS state counting](Witten+genus#RelationToBPSStateCounting)_. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed the results match the semiclassical BH-entropy to leading order and in addition provide their higher order quantum corrections. See the _[References](#References)_ below.
 
@@ -58,7 +58,12 @@ The best studied such configuration is that of [[D1-D5 brane bound states]]. For
 ## References
  {#References}
 
-The original computations are due to
+The argument that properties of [[BPS states]] are preserved as the coupling increases beyond [[perturbation theory]] and are not destroyed by [[non-perturbative effects]] originates in 
+
+* {#Witten95} [[Edward Witten]], section 2.3 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+
+The original computations of stringy black hole entropy using this argument are due to
 
 * [[Ashoke Sen]], _Extremal black holes and elementary string states_ ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
 
