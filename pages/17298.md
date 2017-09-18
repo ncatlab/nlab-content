@@ -32,11 +32,14 @@ on a unified construction and comparison of the [[Bousfield-Friedlander model st
 
 Throughout, write 
 
-* $Top \coloneqq Top_{cg}$ for the [[category]] of  [[compactly generated topological spaces]]; this is a "[[convenient category of topological spaces]]", in particular it is a [[cartesian monoidal category]] $(Top, \times)$;
+* $Top \coloneqq Top_{cg}$ for the [[category]] of  [[compactly generated topological spaces]]; this is a [[cartesian monoidal category]] $(Top, \times)$ (in fact a [[cartesian closed category]]);
 
 * $Top^{\ast/}$ for the corresponding [[pointed topological spaces]]; this is a [[symmetric monoidal category]] equipped with the [[smash product]] of pointed objects;
 
-* $Top_{Quillen}$ for the [[classical model structure on topological spaces]] on this caterory; in particular this is a [[monoidal model category]] $(Top_{Quillen}, \times)$.
+* $Top_{Quillen}$ for the [[classical model structure on topological spaces]] ([[compactly generated topological spaces]]); in particular this is a [[monoidal model category]] $(Top_{Quillen}, \times)$;
+
+* $Top^{\ast/}_{Quillen}$ for the corresponding [[classical model structure on pointed topological spaces]], in particular this is a [[monoidal model category]] $(Top_{Quillen}^{\ast/}, \wedge)$.
+
 
 Throughout we are dealing with $(Top,\times)$-[[enriched categories]] and with $Top_{Quillen}$-[[enriched model categories]].
 
@@ -49,44 +52,125 @@ Define the following $Top$-[[enriched categories|enriched]] [[symmetric monoidal
 
 1. $Sym$ a [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]],
 
-1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] and as morphisms the [[linear map|linear]] [[isometries]] between these;
+1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence all morphisms are [[automorphisms]] and the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space;
 
-1. $Top_{fin}^{\ast/}$ for the category of [[pointed topological space|pointed]] [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]].
+1. $Top_{fin}^{\ast/}$ for the [[full subcategory]] of [[pointed topological space]] on those given by [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]].
 
-The canonical inclusions give a sequence of [[strong monoidal functor|strong monoidal]]
-
-$$
- Seq \hookrightarrow Sym \hookrightarrow Orth \hookrightarrow Top_{fin}^{\ast/}
-  \,.
-$$
-
-The [[sphere spectrum]] $\mathbb{S}$ is the canonical inclusion functor $Top_{fin}^{\ast/} \hookrightarrow Top^{\ast/}$ regarded as an object
+Denote the canonical [[faithful functor|faithful]] [[subcategory]] inclusion by
 
 $$
-  \mathbb{S} \in [Top_{fin}^{\ast/}, Top^{\ast/}]
+ \array{
+   Seq 
+     &\stackrel{seq}{\hookrightarrow}& 
+   Sym 
+    &\stackrel{sym}{\hookrightarrow}& 
+   Orth 
+     &\stackrel{orth}{\hookrightarrow}& 
+   Top_{fin}^{\ast/}
+   \\
+   n 
+    &\mapsto& 
+   \{1,\cdots, n\} 
+     &\mapsto& 
+   \mathbb{R}^n 
+    &\mapsto& 
+   S^n
+   \\
+    && 
+    && 
+   V
+    &\mapsto& 
+   S^V
+  }
+  \,,
 $$
 
-of the [[enriched functor category]].  By restriction along the above inclusions, this yields objects
-
-$$
-  \mathbb{S}_{Seq} \in [Seq, Top^{\ast/}]
-$$
-
-$$
-  \mathbb{S}_{Sym} \in [Sym, Top^{\ast/}]
-$$
-
-$$
-  \mathbb{S}_{Orth} \in [Orth, Top^{\ast/}]
-  \,.
-$$
+where $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon \Sigma_n \hookrightarrow O(n)$ is the inclusion of [[permuation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V) \hookrightarrow Aut(S^V)$ is the topological subspace inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometric isometries of $V$.
 
 =--
 
-Now the key is:
++-- {: .num_defn #PropertiesOfTopologicalDiagramCategoriesForSpectra}
+###### Proposition
 
-under [[Day convolution]] all these functor categories become [[symmetric monoidal categories]] themselves. But the ([[representable functor|functor represented]] by) the [[sphere spectrum]] is the [[tensor unit]] of that monoidal structure only for $Top^{\ast/}_{fin}$, not for $Seq$, $Sym$, $Orth$.
+All four inclusions in def. \ref{TopologicalDiagramCategoriesForSpectra} are [[strong monoidal functors]].
 
-(...)
+Under passing to [[enriched functor categories]], restriction $(-)^\ast$ along these inclusions and [[left Kan extension]] $(-)_!$ along them yields a sequence of [[adjunctions]]
+
+$$
+ \array{
+   [Top_{fin}^{\ast/}, Top^{\ast/}]
+     \stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}
+   [Orth, Top^{\ast/}]
+     \stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}
+   [Sym, Top^{\ast/}] 
+     \stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
+   [Seq, Top^{\ast/}] 
+ }
+  \,.
+$$
+
+All four [[enriched functor categories]] become [[symmetric monoidal categories]] with the [[Day convolution]] monoidal product structure induced by the monoidal structure of their [[sites]]. 
+
+With respect to this all [[adjunctions]] above are symmetric [[monoidal adjunctions]] (the [[right adjoint]] is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]], the [[left adjoint]] is even a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]]).
+
+=--
+
+Under the [[Yoneda embedding]]
+
+$$
+  y \colon \mathcal{C}^{op} \hookrightarrow [\mathcal{C}, Top^{\ast/}]
+$$
+
+the [[tensor unit]] in $\mathcal{C}$ goes to the tensor unit of the induced [[Day convolution]] structure.
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  \mathbb{S} \coloneqq y(S^0) \in [Top_{fin}^{\ast/}, Top^{\ast/}]
+$$
+
+for the image under the [[Yoneda embedding]] of the tensor unit in $Top_{fin}^{\ast/}$ with its [[smash product]] (the [[0-sphere]]), which is hence the tensor unit in $[Top_{fin}^{\ast/}, Top^{\ast/}]$.
+
+Since this is going to be the standard presentation of the [[sphere spectrum]] in the [[model structure for excisive functors]] on $[Top_{fin}^{\ast/}, Top^{\ast/}]$ we refer to it as _[[generalized the|the]] [[sphere spectrum]]_.
+
+For its restriction along the above inclusions we write
+
+$$
+  \mathbb{S}_{Orth} \coloneqq orth^\ast \mathbb{S} 
+  \,,
+$$
+$$
+  \mathbb{S}_{Sym} \coloneqq sym^\ast \mathbb{S}_{orth} 
+$$
+$$
+  \mathbb{S}_{Seq} \coloneqq seq^\ast \mathbb{S}_{sym} 
+  \,.
+$$
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+While $\mathbb{S}$ is the [[tensor unit]] in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$, neither of its restrictions $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ is the tensor unit in $([Orth, Top^{\ast/}],\otimes_{Day}), ([Sym, Top^{\ast/}],\otimes_{Day}), ([Seq, Top^{\ast/}],\otimes_{Day})$, respectively. 
+
+Nevertheless, because the restriction functors are [[strong monoidal functors]] and because the tensor unit $\mathbb{S}$ canonically has the structure of a [[monoid object]], each of $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ inherts the structure of a [[monoid object]] in the respective [[Day convolution]] [[monoidal category]].
+
+Moreover, $\mathbb{S}_{Orth}$ and $\mathbb{S}_{Sym}$ are [[commutative monoid objects]], while $\mathbb{S}_{Seq}$ is not commutative.
+
+| | $\mathbb{S}$ | $\mathbb{S}_{Orth}$ | $\mathbb{S}_{Sym}$ | $\mathbb{S}_{Seq}$ |
+|--|--------------|---------------------|--------------------|-------------------|
+| [[monoid object]] | yes | yes | yes | yes |
+| [[commutative monoid object]] | yes | yes | yes | no |
+| [[tensor unit]] | yes | no | no | no |
+
+
+=--
+
+
 
 category: reference
