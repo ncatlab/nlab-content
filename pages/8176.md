@@ -39,7 +39,7 @@ $$
 
 The generalization of this from [[ordinary cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] is the _[[Atiyah-Hirzebruch spectral sequence]]_.
 
-There is also a generalization to [[equivariant cohomology]]: for genuine $G$-equivariance, with [[RO(G)-grading]] for [[representation spheres]] $S^V$, then for $E \to X$ an $F$-fibration of [[topological G-spaces]] and for $A$ any $G$-[[Mackey functor]], the equivariant Serre spectral sequence looks like ([Kronholm 10, theorem 3.1](#Kronholm10)):
+There is also a generalization to [[equivariant cohomology]]: for [cohomology with coefficients in a Mackey functor](Mackey+functor#Cohomology) with[[RO(G)-grading]] for [[representation spheres]] $S^V$, then for $E \to X$ an $F$-fibration of [[topological G-spaces]] and for $A$ any $G$-[[Mackey functor]], the equivariant Serre spectral sequence looks like ([Kronholm 10, theorem 3.1](#Kronholm10)):
 
 $$
   E_2^{p,q} = H^p(X, H^{V+q}(F,A)) \,\Rightarrow\, H^{V+p+q}(E,A)
@@ -79,7 +79,7 @@ In [[equivariant cohomology]], for [[Bredon cohomology]]:
 
 * [[Ieke Moerdijk]], J.-A. Svensson, _The Equivariant Serre Spectral Sequence_, Proceedings of the American Mathematical Society Vol. 118, No. 1 (May, 1993), pp. 263-278 ([JSTOR](http://www.jstor.org/stable/2160037))
 
-and for genuine equivariant cohomology, i.e. with [[RO(G)-grading]]:
+and for genuine equivariant cohomology, i.e. for [[RO(G)-grading|RO(G)]]-graded [cohomology with coefficients in a Mackey functor](Mackey+functor#Cohomology):
 
 * {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823))
 
