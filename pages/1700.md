@@ -146,7 +146,7 @@ If $E$ corresponds to $H$, then we have
 
 1. $K \subset E$ is finite precisely if $H$ is open (in the profinite topology on $G$)
 
-   $[E:K] \simeq index[G:K]$ if $H$ is open;
+   $[E:K] \simeq index[G:H]$ if $H$ is open;
 
 1. $E \subset L$ is Galois with $Gal(L/E) \simeq H$ (as [[topological group]]s);
 
