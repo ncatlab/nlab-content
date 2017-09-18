@@ -1,0 +1,69 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+[[!redirects bi-Heyting toposes]]
+[[!redirects biHeyting topos]]
+[[!redirects Bi-Heyting topos]]
+[[!redirects Bi-Heyting Topos]]
+[[!redirects bi-Heyting Topos]]
+[[!redirects bi-heyting topos]]
+
+##Idea
+
+A **bi-Heyting topos** is a [[topos]] whose lattices of subobjects carry the structure of a [[co-Heyting algebra]] in addition to their normal [[Heyting algebra]] structure and thereby permit to model co-intuitionistic logic.
+
+##Definition
+
+A [[topos]] $\mathcal{E}$ such that the lattice $sub(X)$ of subobjects is a [[co-Heyting algebra|bi-Heyting algebra]] for every object $X\in\mathcal{E}$ is called a [[bi-Heyting topos]].
+
+## Examples
+
+* [[essential subtoposes|Essential subtoposes]] of presheaf toposes.
+
+##Properties
+
+##Remark
+
+* In bi-Heyting toposes the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators like [[co-Heyting negation]] or [[co-Heyting boundary]] are subject to _[[de re and de dicto]]_ effects. 
+
+##Related entries
+
+* [[co-Heyting algebra]]
+* [[co-Heyting negation]]
+* [[co-Heyting boundary]]
+* [[bitopological space]]
+* [[semi-abelian category]]
+
+##References
+
+Bi-Heyting toposes are explicitly defined in
+
+* {#BBJ04} [[Francis Borceux]], [[Dominique Bourn]], [[Peter Johnstone]], _Initial Normal Covers in Bi-Heyting Toposes_ , Arch. Math. **42** (2006) pp.335-356. ([pdf](http://mat.ub.edu/EMIS/journals/AM/06-4/johnston.pdf))
+
+But their logical possibilities were exploited well before this e.g. in the work of Lawvere, Reyes and collaborators:
+
+* {#Law86} [[William Lawvere]], _Introduction_ , pp.1-16 in Lawvere, Schanuel (eds.), _Categories in Continuum Physics_ , Springer LNM **1174** 1986.
+
+* {#Law91a} [[William Lawvere]], _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in A. Carboni, M. Pedicchio, G. Rosolini (eds.) , _[[Como|Category Theory - Proceedings of the International Conference held in Como 1990]]_ , LNM **1488** Springer Heidelberg 1991.
+
+* {#Reyes}[[Gonzalo E. Reyes]], Houman Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
+
+
+
+
