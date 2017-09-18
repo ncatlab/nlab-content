@@ -13,6 +13,7 @@
 =--
 =--
 
+This page collects material related to
 
 * [[Stefan Schwede]],
 
@@ -21,6 +22,10 @@
   ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
 on [[equivariant stable homotopy theory]] modeled on [[orthogonal spectra]].
+
+See also 
+
+* [[Stefan Schwede]], _[[Global homotopy theory]]_
 
 #Contents#
 * table of contents
