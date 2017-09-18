@@ -48,6 +48,10 @@ The hard technical part of this program is to show that the passage through the 
 
 =--
 
+### Geometrization conjecture
+
+The _[[geometrization conjecture]]_ says that every closed 3-manifold can be decomposed in a canonical way into pieces that each have one of eight types of geometric structure.
+
 ### Virtually fibered conjecture
 
 The _[[virtually fibered conjecture]]_ says that every closed, irreducible, atoroidal 3-manifold with infinite fundamental group has a finite cover which is a surface bundle over the circle.
