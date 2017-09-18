@@ -121,6 +121,12 @@ $$
   \,.
 $$
 
++-- {: .query}
+I don't understand the above diagram, what is the point $* \to X$ in question? and how does this relate to the universal bundle?
+In particular, there is a sequence below that has a map from $\Omega_{pt} \to \mathbf{E}_{pt}$ but I don't see how to construct that from the above.
+
+So I think this is a typo, but I don't know enough to correct it.
+=--
 
 the sequence
 
