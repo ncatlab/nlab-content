@@ -23,12 +23,11 @@ Note that via the duality between taking [[syntactic category|syntactic categori
 ### Bi-interpretations of theories
 We say that $T_1$ and $T_2$ are _bi-interpretable_ if there are functors (of appropriate logical strength) $\mathbf{Def}(T_1) \leftrightarrows \mathbf{Def}(T_2)$ forming an [[equivalence of categories]]. One direction of [[conceptual completeness]] is that bi-interpretable theories have equivalent categories of models. This follows from the fact that ([[cartesian logic|cartesian]], [[regular logic|regular]], [[coherent logic|coherent]], [[first-order logic|first-order]], [[geometric logic|geometric]]) functors are closed under composition, and that equivalent categories induce equivalences of functor categories.
 
-
-Many notions from [[geometric stability theory]] and [[classification theory]] are invariant under bi-interpretability, e.g. [[stable theory|stability]], [[quantifier elimination]], [[elimination of imaginaries]], etc.
+Many notions from [[geometric stability theory]] and [[classification theory]] are invariant under bi-interpretability, e.g. [[stability in model theory|stability]], [[quantifier elimination]], [[elimination of imaginaries]], etc.
 
 Since bi-interpretations induce equivalences of categories of models, monsters of bi-interpretable first-order theories $T_1, T_2$ will have isomorphic automorphism groups, with the isomorphism induced by restrictions along reducts. This indicates the bi-interpretation extends to the [[imaginaries]] of $T_1$ and $T_2$ also, so that $T_1^{\operatorname{eq}} \simeq T_2^{\operatorname{eq}}$, in fact uniquely---which is the universal property of the [[pretopos completion]].
 
-## Interpretations of models in each other.
+## Interpretations of models in each other
 This notion has appeared in the model-theoretic literature, and is what some model theorists mean when they say "interpretation." Specialize to first-order logic and models in [[Set]], and fix models $M_1 \models T_1, M_2 \models T_2$. An _interpretation_ of $M_1$ in $M_2$ is a surjection $U \overset{f}{\twoheadrightarrow} M_1$ for $U$ some subset of $M_2^k$, some $k \in \mathbb{N}$, such that the pullback of $f^*X$ of any definable (with parameters) set $X$ of $M_1$ along $f$ is again definable in $Y$. This is enough to induce a logical functor $\mathbf{Def}(T_1) \to \mathbf{Def}(T_2)$ (surjectivity implies witnessed existentials continue to be witnessed, and the functor being induced by pullback implies logicalness), in fact a logical functor $\mathbf{Def}(T_1(M_1)) \to \mathbf{Def}(T_2(M_2))$ of $T_1$ and $T_2$ enriched with the elementary diagrams of $M_1$ and $M_2$.
 
 Facts:
@@ -37,11 +36,16 @@ Facts:
 
 * Given an $f : U \twoheadrightarrow M_1$, any other $g : U \twoheadrightarrow M_1$ which is also an interpretation $M_1 \to M_2$ is of the form $\sigma \circ f$ for some $\sigma \in \operatorname{Aut}(M_1)$.
 
+## Classifying topses
+An interpretation $T \to T'$ is precisely the inverse image part of a [[geometric morphism]] of [[classifying topos|classifying toposes]] $\mathcal{E}(T') \to \mathcal{E}(T)$. In particular, [[structure in model theory|models]] of $T$ are [[points of a topos | points]] of [[Set]] in $\mathcal{E}(T)$.
+
 ## Related entries
 
 * [[formula]]
 
-* [[model theory]], [[structure (model theory)]], 
+* [[model theory]], [[structure (model theory)]]
+
+* [[geometric morphism]] 
 
 ## References
 
