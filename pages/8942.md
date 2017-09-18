@@ -34,7 +34,7 @@ Also, all [[D-branes]] of [[type II string theory]] can be understood as arising
 
 * Eric Bergshoeff, Jan Pieter van der Schaar, _On M-9-branes_ ([arXiv:hep-th/9806069](http://arxiv.org/abs/hep-th/9806069))
 
-A proposal for a descriotion of the M9 as an [[schreiber:infinity-Wees-Zumino-Witten theory|higher WZW theory]] is in
+A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]] is in
 
 * Takeshi Sato, _A 10-form Gauge Potential and an M-9-brane Wess-Zumino Action in Massive 11D Theory_ ([arXiv:hep-th/9912030](http://arxiv.org/abs/hep-th/9912030))
 
@@ -42,7 +42,7 @@ Discussion of how the [[M2-brane]] and the [[M5-brane]] may arise from this by [
 
 * Laurent Houart, Yolanda Lozano, _Brane Descent Relations in M-theory_, Phys.Lett. B479 (2000) 299-307 ([arXiv:hep-th/0001170](http://arxiv.org/abs/hep-th/0001170))
 
-Cohomological discussion of 9-branes is in
+Cohomological discussion of [[ninebrane structures]] is in
 
 * {#Sati14} [[Hisham Sati]], _Ninebrane structures_ ([arXiv:1405.7686](http://arxiv.org/abs/1405.7686))
 
