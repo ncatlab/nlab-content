@@ -15,6 +15,8 @@ A (topological) space whose only connected subspaces are the subspaces with at m
 
 * [[discrete space|discrete spaces]] are totally disconnected
 
+* [[extremally disconnected topological space|extremally disconnected]] Hausdorff space
+
 * [[profinite group|profinite groups]] are totally disconnected and in particular the set of [[p-adic number|p-adic numbers]] is totally disconnected.
 
 ## Related concepts
