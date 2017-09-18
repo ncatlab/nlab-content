@@ -23,9 +23,13 @@ My research is about mathematical theory building in theoretical fundamental phy
 
 * _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_.
 
-I am writing a monograph about this subject:
+I am writing a monograph about a modern approach to this subject:
 
 * _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive topos]]_.
+
+An exposition and survey of this is here:
+
+* _[[schreiber:Higher Prequantum Geometry]]_
 
 
 ## teaching 
@@ -49,7 +53,7 @@ See specifically:
 
 * [publications](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects);
 
-* [talks](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References);
+* [talks and lectures](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References);
 
   Here is the video recording of a sample research talk that I have given recently:
 
@@ -97,6 +101,12 @@ I am writing an irregular column at [PhysicsForums](https://www.physicsforums.co
 * _[Higher prequantum geometry V: The local observables -- Lie theoretically](https://www.physicsforums.com/insights/higher-prequantum-geometry-v-local-observables-lie-theoretically/)_
 
 * _[Examples of Prequantum field theories I: Gauge fields](https://www.physicsforums.com/insights/examples-prequantum-field-theories-gauge-fields/)_
+
+* _[Examples of Prequantum field theories II: Higher gauge fields](https://www.physicsforums.com/insights/examples-prequantum-field-theories-ii-higher-gauge-fields/)_
+
+* _[Examples of Prequantum field theories III: Chern-Simons-type theories](https://www.physicsforums.com/insights/examples-prequantum-field-theories-iii-chern-simons-type-theories/)_
+
+* _[Examples of Prequantum field theories IV: Wess-Zumino-Witten-type theories](https://www.physicsforums.com/insights/examples-prequantum-field-theories-iv-wess-zumino-witten-type-theories/)_
 
 ## more on the web
 
