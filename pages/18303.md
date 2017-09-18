@@ -1,6 +1,32 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles#
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The concept of _inner product of vector bundles_ is the evident generalization of that of [[inner product]] of [[vector spaces]] to [[vector bundles]]: a [[fiber]]-wise inner product of vector spaces.
 
 ## Definition
+
++-- {: .num_defn #InnerProductOnTopologicalVectorBundles}
+###### Definition
+**(inner product on [[topological vector bundles]])**
 
 Let 
 
@@ -15,7 +41,7 @@ Then an _inner product_ on $E$ is
   $$
     \langle -,-\rangle
     \;\colon\;
-    E \oplus E 
+    E \oplus_X E 
      \longrightarrow
     X \times \mathbb{R}
   $$
@@ -31,6 +57,113 @@ such that
   $$
 
   is an [[inner product]] on the [[fiber]] [[vector space]], hence a positive-definite symmetric [[bilinear form]].
+
+=--
+
+## Properties
+
+### Existence
+
++-- {: .num_prop #ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces}
+###### Proposition
+
+Let $X$ be a [[paracompact Hausdorff space]]. Then on every [[topological vector bundle]] $E \to X$ on $X$ there exists an inner product of topological vector bundles (def. \ref{InnerProductOnTopologicalVectorBundles})
+
+=--
+
+(e.g. [Hatcher, prop. 1.2](#Hatcher))
+
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$ over which $E \to X$ admits a [[local trivialization]]
+
+$$
+  \left\{
+    \phi_i \;\colon\;
+    U_i \times \mathbb{R}^n
+      \overset{\simeq}{\longrightarrow}
+    E|_{U_i}
+  \right\}_{i \in I}
+  \,.
+$$
+
+
+Since [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]] we may choose a [[partition of unity]]
+
+$$
+  \{f_i \;\colon\; X \to [0,1]\}_{i \in I}
+  \,.
+$$
+
+Write
+
+$$
+  \langle -,-\rangle_{\mathbb{R}^n}
+  \;\oplus\;
+  \mathbb{R}^n 
+    \oplus
+  \mathbb{R}^n
+    \longrightarrow
+  \mathbb{R}
+$$
+
+for the standard inner product on $\mathbb{R}^n$.
+
+By the [[compact support]] of $f_i$ inside $U_i \subset X$, the functions
+
+$$
+  \array{
+    \langle -,-\rangle_i
+    &\colon&
+    E|_{U_i} \oplus_X E|_{U_i}
+      &\overset{ \phi_i^{-1} \oplus_{U_i} \phi_i^{-1} }{\longrightarrow}&
+    (U_i \times \mathbb{R}^n ) \oplus_{U_i} (U_i \times \mathbb{R}^n)
+      &\overset{\simeq}{\to}&
+    U_i \times (\mathbb{R}^n \oplus \mathbb{R}^n)
+      &\overset{}{\longrightarrow}&
+    U_i \times \mathbb{R}
+    \\
+    && && &&
+    ((x,i),(v_1,v_2))
+      & \overset{\phantom{AAA}}{\mapsto} &
+    ((x,i), f_i(x) \cdot \langle v_1, v_2\rangle_{\mathbb{R}^n} )
+  }
+  \,.
+$$
+
+extend by zero to continuous functions on all of $E \oplus_X E$, which we denote by the same symbol $\langle -,-\rangle_i \colon E \oplus_X E \to X \times \mathbb{R}$.
+
+We then claim that the sum
+
+$$
+  \langle -,-\rangle
+    \;\colon\;
+  \underset{i \in I}{\sum} \langle -,-\rangle_i
+  \;\colon\;
+  E \oplus_X E
+  \longrightarrow
+  X \times \mathbb{R}
+$$
+
+is an inner product as required.  Notice that the sum is well defined by [[locally finite cover|local finiteness]] of the supports of the partition functions $f_i$. Hence it is pointwise a finite sum of positive definite symmetic bilinear forms on $E_x$, and as such itself pointwise a positive definite symmetric bilinear form.
+
+
+
+
+=--
+
+## References
+
+* Glenys Luke, Alexander S. Mishchenko, _Vector bundles and their applications_, Math. and its Appl. __447__, Kluwer 1998. viii+254 pp. [MR99m:55019](http://www.ams.org/mathscinet-getitem?mr=99m:55019)
+
+Discussion with an eye towards [[topological K-theory]] is in
+
+* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
+
+* {#Hatcher} [[Allen Hatcher]], section 1.1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+
+
 
 [[!redirects inner products of vector bundles]]
 
