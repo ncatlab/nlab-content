@@ -1,0 +1,8 @@
+
+A kind of [[model]] for [[set theory]].
+
+## References
+
+* PlanetMath, _[permutation model](http://planetmath.org/permutationmodel)_
+
+[[!redirects permutation models]]
