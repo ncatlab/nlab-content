@@ -562,7 +562,7 @@ Since $(\mu_k^\ast \otimes \mu_{n-k}^\ast)$ is a monomorphism by lemma \ref{From
 
 * [[Chern character]]
 
-In [[Yang-Mills theory]] field configurations with non-vanishing second Chern-class (and minimal energy) are called [[instanton]]s. The second Chern class is the _instanton number_ .
+In [[Yang-Mills theory]] field configurations with non-vanishing [[second Chern-class]] (and minimal energy) are called [[instantons]]. The second Chern class is the _[[instanton number]]_ . For more on this see at _[SU(2)-instantons from the correct maths to the traditional physics story](BPTS-instanton#FromTheMathsToThePhysicsStory)_.
 
 ## References
 
