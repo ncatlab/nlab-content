@@ -15,7 +15,7 @@
 
 
 
-#Contents#
+#Contentsrepre
 * table of contents
 {:toc}
 
@@ -117,6 +117,63 @@ $$
 
 =--
 
+## Properties
+
++-- {: .num_cor #GroupoidRepresentationsAreProductsOfGroupRepresentations}
+###### Corollary
+**([[groupoid representations]] are [[product category|products]] of [[group representations]])
+
+Assuming the [[axiom of choice]] then the following holds:
+
+Let $\mathcal{G}$ be a [[groupoid]]. Then its [[category of representations|category of]] groupoid representations is [[equivalence of categories|equivalent]] to the [[product category]] indexed by the set of [[connected components]] $\pi_0(\mathcal{G})$ ([this def.](groupoid#GroupoidConnectedComponents)) of [[group representations]]  of the [[automorphism group]] $G_i \coloneqq Aut_{\mathcal{G}}(x_i)$ ([this def.](groupoid#InGrupoidAutomorphismGroup)) for $x_i$ any object in the $i$th connected component:
+
+$$
+  Rep_{Grpd}(\mathcal{G})
+   \;\simeq\;
+  \underset{i \in \pi_0(\mathcal{G})}{\prod} Rep(G_i)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\mathcal{C}$ be the category that the representation is on. Then by definition
+
+$$
+  Rep_{Grpd}(\mathcal{G}) = Hom( \mathcal{G} , \mathcal{C}  )
+  \,.
+$$
+
+Consider the injection functor of the [[skeleton]] (from [this lemma](groupoid#DeloopingGroupoidEquivalence))
+
+$$
+  inc
+  \;\colon\;
+  \underset{i \in \pi_0(\mathcal{G})}{\sqcup} B G_i
+  \overset{}{\longrightarrow}
+  \mathcal{G}
+  \,.
+$$
+
+
+By [this lemma](groupoid#HmotopiesWithMorphismsHorizontaComposition) the pre-composition with this constitutes a functor
+
+$$
+  inc^\ast \;\colon\; Hom( \mathcal{G}, \mathcal{C} ) \longrightarrow Hom( \underset{i \in \pi_0(\mathcal{G})}{\sqcup} B G_i, \mathcal{C} )
+$$
+
+and by combining [this lemma](groupoid#DeloopingGroupoidEquivalence) with [this lemma](groupoid#HorizontalCompositionWithHomotopyIsNaturalTransformation)
+this is an [[equivalence of categories]]. Finally, by [this example](groupoid#GroupoidRepresentationOfDeloopingGroupoid) the 
+category on the right is the product of group representation categories as claimed.
+
+
+
+=--
+
+
+
 ## Examples
 
 
@@ -152,3 +209,6 @@ If $X$ is [[locally path-connected topological space|locally path connected]] an
 
 
 [[!redirects groupoid representations]]
+
+[[!redirects representation of groupoids]]
+[[!redirects representations of groupoids]]
