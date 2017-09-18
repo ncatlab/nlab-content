@@ -7,7 +7,7 @@
 
 ## Idea
 
-Given a [[homotopical category]] $\mathcal{C}$ (such as a [[model category]]), a morphism is called _sharp_ if its [[pullback]] along any other morphism is already a [[homotopy pullback]].
+In a [[right proper model category]] a morphism is called _sharp_ if its [[pullback]] along any other morphism is already a [[homotopy pullback]]. In a general [[model category]] a morphism is sharp if all its pullbacks preserve weak equivalences under (further) pullback.
 
 ## Definition
 
@@ -23,7 +23,7 @@ if $g \colon Y'' \to Y'$ is a weak equivalence and both squares are pullback dia
 
 ## Properties
 
-A model category is [[right proper model category|right proper]] if and only if every fibration is sharp.
+A model category is [[right proper model category|right proper]] if and only if every fibration is sharp. ([Rezk 98, prop. 2.2](#Rezk98))
 
 In a [[right proper model category]], the sharp maps in the full subcategory on sharp-fibrant objects form the fibrations of a [[category of fibrant objects]]. See there the section _[Examples -- Right proper model categories](category+of+fibrant+objects#RightProperModelCategories)_.
 
@@ -31,7 +31,7 @@ In a [[right proper model category]], the sharp maps in the full subcategory on 
 
 The concept was introduced in 
 
-* [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv:9811038](http://arxiv.org/abs/math/9811038))
+* {#Rezk98} [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv:9811038](http://arxiv.org/abs/math/9811038))
 
 [[!redirects sharp maps]]
 [[!redirects sharp morphism]]
