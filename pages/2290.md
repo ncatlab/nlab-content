@@ -292,7 +292,7 @@ Modern accounts of ([[equivariant elliptic cohomology|equivariant]]) elliptic co
 
 * {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
-* [[Jacob Lurie]], _Elliptic cohomology I: Spectral abelian varieties_ ([pdf]( http://math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
+* [[Jacob Lurie]], _[[Elliptic Cohomology I]]: spectral abelian varieties_ ([pdf]( http://math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
 Further discussion of [[equivariant elliptic cohomology]] and the relation to [[loop group]] [[representation theory]] is in 
 
