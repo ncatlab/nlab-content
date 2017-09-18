@@ -94,9 +94,11 @@ Original articles include
 * [[David Ruelle]], _Dynamical zeta functions and transfer operators_, Notices
 Amer. Math. Soc. 49 (2002), no. 8, 887895.
 
-Seminar notes include
+Seminar/lecture notes include
 
 * _Selberg and Ruelle zeta functions for compact hyperbolic manifolds_ ([pdf](http://www.math.uni-bonn.de/people/xenia/Oberseminar%202014/Oberseminar%202014.pdf))
+
+* V. Baladi, _Dynamical zeta functions_, arXiv:[1602.05873](http://arxiv.org/abs/1602.05873)
 
 Relation to the [[volume]] of hyperbolic manifolds is discussed in
 
