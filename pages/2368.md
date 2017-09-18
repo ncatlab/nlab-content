@@ -61,7 +61,7 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 ### For excisive functors
 
 
-#### Topological ends and coends
+##### Topological ends and coends
  {#TopologicalEndsAndCoends}
 
 For working with pointed [[topologically enriched functors]], a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called (pointed topological enriched) _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for topological [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). Further below it is via left Kan extension along the ordinary smash product of pointed topological spaces ("[[Day convolution]]") that the [[symmetric monoidal smash product of spectra]] is induced.
@@ -749,7 +749,7 @@ $$
 
 =--
 
-#### Monoidal topological categories
+##### Monoidal topological categories
 
 We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. All examples are at the end of this section, starting with example \ref{TopAsASymmetricMonoidalCategory} below.
 
@@ -835,6 +835,34 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 
 
 =--
+
+
++-- {: .num_lemma #kel1} 
+###### Lemma 
+**([Kelly 64](monoidal+category#kel1))** 
+
+Let $(\mathcal{C}, \otimes, 1)$ be a [[monoidal category]], def. \ref{MonoidalCategory}. Then the left and right [[unitors]] $\ell$ and $r$ satisfy the following conditions: 
+
+1. $\ell_1 = r_1 \;\colon\; 1 \otimes 1 \overset{\simeq}{\longrightarrow} 1$;
+
+1. for all objects $x,y \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]:
+ 
+   $$ 
+     \array{
+       (1 \otimes x) \otimes y  & & 
+       \\
+       {}^\mathllap{\alpha_{1, x, y}} \downarrow 
+       & \searrow^\mathrlap{\ell_x y} & 
+       \\
+       1 \otimes (x \otimes y) 
+       & \underset{\ell_{x \otimes y}}{\longrightarrow} & x \otimes y
+     }
+     \,.
+   $$ 
+
+   Analogously for the right unitor.
+
+=-- 
 
 
 +-- {: .num_defn #BraidedMonoidalCategory} 
@@ -1112,7 +1140,7 @@ If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\oti
 
 =--
 
-#### Algebras and modules
+##### Algebras and modules
  {#AlgebrasAndModules}
 
 
@@ -1229,10 +1257,27 @@ Write $Mon(\mathcal{C}, \otimes,1)$ for the [[category of monoids]] in $\mathcal
 
 =--
 
++-- {: .num_example #MonoidGivenByTensorUnit}
+###### Example
+
+Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, then the [[tensor unit]] $1$ is a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) with product given by either the left or right [[unitor]]
+
+$$
+  \ell_1 = r_1 \;\colon\; 1 \otimes 1 \overset{\simeq}{\longrightarrow} 1
+  \,.
+$$
+
+By lemma \ref{kel1}, these two morphisms coincide and define an [[associativity|associative]] product with unit the identity $id \colon 1 \to 1$.
+
+If $(\mathcal{C}, \otimes , 1)$ is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}), then this monoid is a [[commutative monoid in a symmetric monoidal category|commutative monoid]].
+
+=--
+
+
 +-- {: .num_defn #ModulesInMonoidalCategory}
 ###### Definition
 
-Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
+Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidalCategory}), and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
 
 1. an [[object]] $N \in \mathcal{C}$;
 
@@ -1319,6 +1364,28 @@ This is naturally a (pointed) [[topologically enriched category]] itself.
 
 =--
 
++-- {: .num_example #EveryObjectIsModuleOverTensorUnit}
+###### Example
+
+Given a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ (def. \ref{MonoidalCategory}) with the [[tensor unit]] $1$ regarded as a [[monoid in a monoidal category]] via example \ref{MonoidGivenByTensorUnit}, then the left [[unitor]]
+
+$$
+  \ell_C 
+    \;\colon\;
+  1\otimes C \longrightarrow C
+$$
+
+makes every object $C \in \mathcal{C}$ into a left module, according to def. \ref{ModulesInMonoidalCategory}, over $C$. The action property holds due to lemma \ref{kel1}. This gives an [[equivalence of categories]]
+
+$$
+  \mathbb{C} \simeq 1 Mod(\mathcal{C})
+$$
+
+of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
+
+
+=--
+
 
 +-- {: .num_prop #MonoidModuleOverItself} 
 ###### Proposition
@@ -1395,7 +1462,7 @@ $$
   \,,
 $$
 
-i.e. the restriction of $f$ to the unit "in" $A$. This fits into a square of the form
+i.e. the restriction of $f$ to the unit "in" $A$. By definition, this fits into a [[commuting square]] of the form (where we are now notationally suppressing the [[associator]] and the [[unitor]])
 
 $$
   \array{
@@ -1409,6 +1476,7 @@ $$
    \\
    A \otimes A \otimes C
     &\underset{id \otimes f}{\longrightarrow}&
+   A \otimes N
   }
   \,.
 $$
@@ -1440,7 +1508,7 @@ $$
   \,,
 $$
 
-where now the left vertical composite is the identity. This shows that $f$ is uniquely determined by $\tilde f$ via the relation
+where now the left vertical composite is the identity, by the unit law in $A$. This shows that $f$ is uniquely determined by $\tilde f$ via the relation
 
 $$
   f = \rho \circ (id_A \otimes \tilde f)
@@ -1652,7 +1720,7 @@ Finally one checks that these two constructions are inverses to each other, up t
 =--
 
 
-#### Day convolution
+##### Day convolution
 
 
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
@@ -2132,6 +2200,8 @@ $$
 
 with 
 
+1. [[tensor unit]] the [[sphere spectrum]] $\mathbb{S}_{exc}$;
+
 1. [[tensor product]] the [[Day convolution product]] $\otimes_{Day}$ from def. \ref{TopologicalDayConvolutionProduct},
 
    called the **[[symmetric monoidal smash product of spectra]]** for the model of pre-excisive functors;
@@ -2142,6 +2212,21 @@ with
 
 =--
 
++-- {: .num_remark #EveryPreExcisiveFunctorIsSModule}
+###### Remark
+
+By example \ref{MonoidGivenByTensorUnit} the [[sphere spectrum]] incarnated as a pre-excisive functor $\mathbb{S}_{exc}$ (according to def. \ref{FinitePointedCWComplexes}) is canonically a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] the category of pre-excisive functors  (def. \ref{MonoidsInMonoidalCategory})
+
+Moreover, by example \ref{EveryObjectIsModuleOverTensorUnit}, every object of $Exc(Top_{cg})$ (def. \ref{FinitePointedCWComplexes}) is canonically a [[module object]] over $\mathbb{S}_{exc}$. We may therefore tautologically identify the category of pre-excisive functors with the [[module category]] over the sphere spectrum:
+
+$$
+  Exc(Top_{cg})
+    \simeq
+  \mathbb{S}_{exc}Mod
+  \,.
+$$
+
+=--
 
 ### For symmetric and orthogonal spectra
 
