@@ -48,7 +48,7 @@ $$
 
 where 
 
-* each $K_i$ is a [[smash product]] of [[suspensions]] of $E$;
+* each $K_i$ is a wedge of [[suspensions]] of $E$;
 
 * each $F_{n+1} \to F_n \to K_n$ is a [[homotopy fiber sequence]];
 
