@@ -15,7 +15,11 @@
 
 ## Definition
 
-The __centralizer__ of a subset $S$ of a [[group]] $G$ is the set $C_G(S)$ of all elements $c\in G$ such that $c s=s c$ for all $s\in S$.  It is the largest [[subgroup]] $H$ of $G$ containing $S$ such that $S$ is in the [[center]] of $H$.  The centralizer of a subset is clearly a subgroup of its [[normalizer]], as fixing the set $g H=H g$ is a weaker requirement than $g h=h g$ for all $h\in H$.
+The __centralizer subgroup__ of a subset $S$ in a [[group]] $G$ is the set $C_G(S)$ of all elements $c\in G$ such that $c s=s c$ for all $s\in S$.  
+
+Notice the similarity but difference to the concept of _[[normalizer subgroup]]_.
+
+The centralizer is the largest [[subgroup]] $H$ of $G$ containing $S$ such that $S$ is in the [[center]] of $H$.  The centralizer of a subset is clearly a subgroup of its [[normalizer]], as fixing the set $g H=H g$ is a weaker requirement than $g h=h g$ for all $h\in H$.
 
 ## Related concepts
 
