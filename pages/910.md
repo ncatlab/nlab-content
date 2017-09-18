@@ -138,7 +138,7 @@ Compactly generated spaces are discussed by J. L. Kelley in his book
 
 A comprehensive account careful about the (weakly) Hausdorff assumptions when needed/wanted is in the lecture notes
 
-* N. P. Strickland, _The category of CGWH spaces_, [pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
+* [[Neil Strickland]], _The category of CGWH spaces_ ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
 Many properties of compactly generated Hausdorff spaces are used to establish a variant of the theory of fibrations, cofibrations and deformation retracts in 
 
@@ -150,9 +150,11 @@ Gabriel and Zisman discuss the connection with the exactness of [[geometric real
 
 Other and later references include
 
-* G. Whitehead, _Elements of homotopy theory_
+* [[George Whitehead]], _Elements of homotopy theory_
 
 * [[Brian Day|Brian J. Day]], _Relationship of Spanier's Quasi-topological Spaces to k-Spaces_  , M. Sc. thesis University of Sydney 1968. ([pdf](http://www.math.mq.edu.au/~street/DayMasters.pdf))
+
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, around note 4.3.22 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
 
