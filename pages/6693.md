@@ -9,6 +9,10 @@
 
 * [[Bousfield localization of model categories]]
 
+* [[Bousfield-Friedlander theorem]]
+
+* [[proper model category]]
+
 category: people
 
 [[!redirects A. K. Bousfield]]
