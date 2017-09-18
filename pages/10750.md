@@ -7937,13 +7937,15 @@ $$
 
 ##### Monoidal model structure
 
+We now discuss that the [[monoidal model category]] structure of the strict [[model structure on orthogonal spectra]] $OrthSpec(Top_{cg})_{strict}$ (theorem \ref{MonoidalStrictModelStructure}) remains intact as we pass to the stable model structure $OrthSpec(Top_{cg})_{stable}$ of theorem \ref{OrthogonalSpectraStableModelStructure}.
+
 +-- {: .num_theorem #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
 ###### Theorem
 
-The stable model structure $OrthSpec(Top_{cg})_{stable}$ of theorem \ref{OrthogonalSpectraStableModelStructure} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+The stable model structure $OrthSpec(Top_{cg})_{stable}$ of theorem \ref{OrthogonalSpectraStableModelStructure} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) with cofibrant [[tensor unit]]
 
 $$
-  (\mathbb{S}_{dia}Mod_{stable},\; \wedge = \otimes_{\mathbb{S}_{dia}},\; \mathbb{S}_{dia}  )
+  (OrthSpec(Top_{cg}),\; \wedge = \otimes_{\mathbb{S}_{orth}},\; \mathbb{S}_{orth}  )
   \,.
 $$
 
@@ -8093,6 +8095,49 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 
 =--
 
+As a result:
+
++-- {: .num_cor #MonoidalStableHomotopyCategory}
+###### Corollary
+
+The [[stable homotopy category]] $Ho(Spectra)$ (remark \ref{StableHomotopyCategoryStructuredSpectra}) inherits the structure of a [[symmetric monoidal category]] 
+
+$$
+  (Ho(Spectra), \wedge^L, \gamma(\mathbb{S}))
+$$
+
+with [[tensor product]] the [[left derived functor]] $\wedge^L$ of the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}, def. \ref{SmashProductOfSymmetricSpectra}, prop. \ref{AbstractFormulaGivesSmashProductOfSymmetricSpectra}) and with [[tensor unit]] the [[sphere spectrum]] (the image in $Ho(Spectra)$ of any of the structured sphere spectra from def. \ref{TopologicalDiagramCategoriesForSpectra}).
+
+Moreover, the [[localization]] functor ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) is a [[lax monoidal functor]]
+
+$$
+  \gamma
+   \;\colon\;
+  ( OrthSpec(Top_{cg}), \wedge, \mathbb{S}_{orth} )
+     \longrightarrow
+  ( Ho(Spectra), \wedge^L, \gamma(\mathbb{S}) )
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In view of theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} this is a special case of prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}.
+
+=--
+
+
++-- {: .num_defn #HomotopyCommutativeRingSpectrum}
+###### Definition
+
+A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] (def. \ref{MonoidsInMonoidalCategory}) the monoidal stable homotopy category $(Ho(Spectra),\wedge^L, \gamma(\mathbb{S}))$ of corollary \ref{MonoidalStableHomotopyCategory} is called a **[[homotopy commutative ring spectrum]]**.
+
+=--
+
+
 
 
 #### Conclusion
@@ -8198,7 +8243,7 @@ $$
 
 between the (Serre-Quillen-)[[classical homotopy category]] $Ho(Top^{\ast/})$ and the [[stable homotopy category]] $Ho(Spectra)$ (remark \ref{StableHomotopyCategoryStructuredSpectra}). The latter is an [[additive category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#AdditiveCategory)) with [[direct sum]] the [[wedge sum]] of spectra $\oplus = \vee$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts)[lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsAbEnriched)) and in fact a [[triangulated category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CategoryWithCofiberSequences)) with distinguished triangles the [[homotopy cofiber sequences]] of spectra ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
 
-While this is the situation already for [[sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)), in addition we have now that both the [[classical homotopy category]] as well as the [[stable homotopy category]] are [[symmetric monoidal categories]] with respect to derived [[smash product]] of [[pointed topological spaces]] and the derived [[symmetric monoidal smash product of spectra]], respectively (prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}).
+While this is the situation already for [[sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)), in addition we have now that both the [[classical homotopy category]] as well as the [[stable homotopy category]] are [[symmetric monoidal categories]] with respect to derived [[smash product]] of [[pointed topological spaces]] and the derived [[symmetric monoidal smash product of spectra]], respectively (corollary \ref{MonoidalStableHomotopyCategory}).
 
 
 | [[abelian groups]] | [[spectra]] |
@@ -8212,7 +8257,7 @@ While this is the situation already for [[sequential spectra]] ([thm.](Introduct
 
 The [[commutative monoids in a symmetric monoidal category|commutative monoids]] with respect to this [[smash product of spectra]] are precisely the orthogonal [[commutative ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}, prop. \ref{RingSpectraAreDayMonoids}) and the [[module objects]] over these are precisely the orthogonal [[module spectra]] (def. \ref{SymmetricModuleSpectrum}, prop. \ref{ModuleSpectraAreModuleFunctors}).
 
-Moreover, the [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) are [[strong monoidal functors]] 
+Moreover, the [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) are [[lax monoidal functors]] 
 
 $$
   \array{
@@ -8227,7 +8272,7 @@ $$
   \,.
 $$
 
-This implies that for $E \in OrthSpec(Top_{cg})$ a [[commutative ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a homotopy commutative ring spectrum and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
+This implies that for $E \in OrthSpec(Top_{cg})$ a [[commutative ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
 
 
 [[!include homological and higher algebra -- table]]
