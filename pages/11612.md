@@ -30,7 +30,7 @@ Bound states of M-waves and [[M5-branes]] are argued to correspond to [[self-dua
 
 ## References
 
-* {#Hull84} [[Chris Hull]], _Exact pp wave solutions of eleven-dimensional supergravity_, Phys. Lett. B 139 (1984) 39.
+* {#Hull84} [[Chris Hull]], _Exact pp wave solutions of eleven-dimensional supergravity_, Phys. Lett. B 139 (1984) 39 ([spire](http://inspirehep.net/record/14499?ln=en))
 
 * {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl.Phys. B490 (1997) 145-162 ([arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173))
 
@@ -38,5 +38,6 @@ Bound states of M-waves and [[M5-branes]] are argued to correspond to [[self-dua
 
 * {#ChuIsono13} Chong-Sun Chu, Hiroshi Isono, _Instanton String and M-Wave in Multiple M5-Branes System_ ([arXiv:1305.6808](http://arxiv.org/abs/1305.6808), slides: [[IsonoSlides.pdf:file]])
 
+* Yoshifumi Hyakutake, _Quantum M-wave and Black 0-brane_, JHEP09(2014)075 ([arXiv:1407.6023](http://arxiv.org/abs/1407.6023))
 
 [[!redirects M-waves]]
