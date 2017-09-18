@@ -125,7 +125,7 @@ See
 
 ## Properties
 
-The [[nerve]] $N(C^{op})$ of $C^{op}$ is the [[simplicial set]] that is degreewise tthe same as $N(C)$, but in each degree with the order of the face and the order of the degeneracy maps reversed. See [[opposite quasi-category]] for more details.
+The [[nerve]] $N(C^{op})$ of $C^{op}$ is the [[simplicial set]] that is degreewise the same as $N(C)$, but in each degree with the order of the face and the order of the degeneracy maps reversed. See [[opposite quasi-category]] for more details.
 
 
 
