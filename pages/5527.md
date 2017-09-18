@@ -43,7 +43,7 @@ which is in general simpler. This is a special case of the [[spectral sequence o
 
 The sequence asymptotes to the homology of $C_\bullet$ by approximating [[cycles]] and [[boundaries]] of $C$ by their "$r$-approximation": an _$r$-almost cycle_ is a [[chain]] in filtering degree $p$ whose [[differential]] vanishes only up to terms that are $r$ steps lower in filtering degree, and an $r$-almost boundary in filtering degree $p$ is a cycle that is the differential of a chain which may be (only) up to $r$-degrees higher in filtering degree. The corresponding $r$-almost homology of $C_\bullet$ in filtering degree $p$ is the term $E^r_{p,\bullet}$ of the spectral sequence.
 
-If the filtering is bounded then $r$-almost homology for sufficiently large $r$ ("$\infty$-almost homology") is the clearly the genuine homology, and so the spectral sequence converges to the correct homology. But the point is that typically it reaches the correct value already at some low finite degree $r$ (it "collapses"), and so allows one to obtain the genuine homology from some finite $r$-almost homology.
+If the filtering is bounded then $r$-almost homology for sufficiently large $r$ ("$\infty$-almost homology") is clearly the genuine homology, and so the spectral sequence converges to the correct homology. But the point is that typically it reaches the correct value already at some low finite degree $r$ (it "collapses"), and so allows one to obtain the genuine homology from some finite $r$-almost homology.
 
 
 One may also regard the spectral sequence of a filtered complex as a tool for organizing data derivable from the families of [[long exact sequence in homology]]
@@ -121,7 +121,7 @@ In more detail this means that
 
    Since the differentials respect the grading we have chain complexes $G_p C_\bullet$ in each filtering degree $p$.
 
-We use element-notation in the following as if $\mathcal{A}$ were a category of [[modules]]. 
+The base category $\mathcal{A}$ can be any abelian category. In this case, we still use element-notation as if $\mathcal{A}$ were a category of [[modules]]. 
 
 =--
 
@@ -140,7 +140,7 @@ Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above we say for all
 
 1. $\begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}$
 
-   is the module of ***$r$-almost $(p,q)$-[[cycles]]*** (the $(p+q)$-chains whose differential vanishes modulo terms of filtering degree $p-r$);
+   is the module of ***$r$-almost $(p,q)$-[[cycles]]*** (the $(p+q)$-chains whose differentials vanish modulo terms of filtering degree $p-r$);
 
 
 1. $B^{r}_{p,q} \coloneqq \partial(F_{p+r-1} C_{p+q+1}) \,,$
@@ -187,7 +187,7 @@ These are still [[differentials]]: $\partial^2 = 0$.
 
 By the very definition of $Z^r_{p,q}$ it consists of elements in filtering degree $p$ on which $\partial$ decreases the filtering degree to $p-r$. Also by definition of differential on a chain complex, $\partial$ decreases the actual degree $p+q$ by one. This explains that $\partial$ restricted to $Z^r_{p,q}$ lands in $Z^\bullet_{p-r,q+r-1}$. 
 
-Now the image constists indeed of actual boundaries, not just $r$-almost boundaries. But since actual boundaries are in particular $r$-almost boundaries, we may take the codomain to be $Z^r_{p-r,q+r-1}$.
+Now the image consists indeed of actual boundaries, not just $r$-almost boundaries. But since actual boundaries are in particular $r$-almost boundaries, we may take the codomain to be $Z^r_{p-r,q+r-1}$.
 
 =--
 
@@ -327,7 +327,7 @@ where
 
 * and $E \coloneqq \bigoplus_i H^\bullet(F_i/F_{i-1})$ is the total cohomology of the associated bigraded complex.  
 
-At every stage we have a new family of long exact sequences
+At every stage we have a new family of long exact sequences.
 
 
 
@@ -438,7 +438,7 @@ the spectral sequence becomes constant in $r$ from $r_s$ on if all the different
 +-- {: .num_example #Collaps}
 ###### Example
 
-If for a [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ there is $r_s \geq 2$ such that the $r_s$th page is concentrated in a single row or a single column, then the the spectral sequence degenerates on this pages, example \ref{Degeneration}, hence this page is a limit term, def. \ref{LimitTerm}. One says in this case that the spectral sequence **collapses** on this page.
+If for a [[spectral sequence]] $\{E^r_{p,q}\}_{r,p,q}$ there is $r_s \geq 2$ such that the $r_s$th page is concentrated in a single row or a single column, then the the spectral sequence degenerates on this page, example \ref{Degeneration}, hence this page is a limit term, def. \ref{LimitTerm}. One says in this case that the spectral sequence **collapses** on this page.
 
 =--
 
@@ -478,7 +478,7 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-In practice spectral sequences are often referred to via their first non-trivial page, often also the page at which it collapses, def. \ref{Collaps}, oftne the second page. Then one often uses notation such as
+In practice spectral sequences are often referred to via their first non-trivial page, often also the page at which it collapses, def. \ref{Collaps}, often the second page. Then one often uses notation such as
 
 $$
   E^2_{p,q} \Rightarrow H_\bullet
@@ -502,7 +502,7 @@ A [[spectral sequence]] $\{E^r_{p,q}\}$ is called
 
 * a **first quadrant spectral sequence** if all terms except possibly for $p,q \geq 0$ vanish;
 
-* a third quadrant spectral sequence** if all terms except possibly for $p,q \leq 0$ vanish.
+* a **third quadrant spectral sequence** if all terms except possibly for $p,q \leq 0$ vanish.
 
 Such spectral sequences are bounded, def. \ref{BoundedSpectralSequence}.
 
@@ -575,7 +575,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The spectral sequence of a filtered complex, def. \ref{BoundedFiltration}, has a limit term, def. \ref{LimitTerm}.
+The spectral sequence of a complex with bounded filtration, def. \ref{BoundedFiltration}, has a limit term, def. \ref{LimitTerm}.
 
 =--
 
@@ -599,7 +599,7 @@ on its [[singular chain complex]] $C_\bullet(X)$ yields a first-quadrant spectra
 
 =--
 
-Before saying what that the spectral sequence of a filtered complex converges to the homology of that complex, we need to be careful about what the filtering is on that homology:
+Before saying that the spectral sequence of a filtered complex converges to the homology of that complex, we need to be careful about what the filtering is on that homology:
 
 +-- {: .num_defn #FilteringOnHomology}
 ###### Definition
@@ -621,7 +621,7 @@ This defines a filtering $F_\bullet H_\bullet(C)$ of the homology, regarded as a
 +-- {: .num_prop #AbuttingFiltrationConvergesToHomology}
 ###### Proposition
 
-If the spectral sequence of a filtered complex $F_\bullet C_\bullet$, def. \ref{BoundedFiltration} has a limit term, def. \ref{LimitTerm}, then it converges, def. \ref{Convergence}, to the [[chain homology]] of this complex:
+If the spectral sequence of a filtered complex $F_\bullet C_\bullet$, def. \ref{BoundedFiltration} has a limit term, def. \ref{LimitTerm}, then it converges, def. \ref{Convergence}, to the [[chain homology]] of the complex:
 
 $$
   E^r_{p,q} \Rightarrow H_\bullet(C)
@@ -740,8 +740,8 @@ $$
   \,.
 $$
 
-We may compute the chain homology of $C \otimes C'$ by a 
-filter spectral sequence as follows.
+We may compute the homology of $C \otimes C'$ by a 
+spectral sequence as follows.
 
 Define a filtration on $C \otimes C'$ by
 
@@ -769,7 +769,7 @@ $$
   \,.
 $$
 
-The next differential is $\partial_1 = \partial \otimes id_{C'}$
+The next differential is $\partial_1 = \partial \otimes id_{C'}$.
 Since $k$ is assumed to be a field we have thus
 
 $$
@@ -890,8 +890,7 @@ The generalization of this argument from [[ordinary homology]] to [[generalized 
 
 ### Serre's spectral sequence of a fibration
 
-We indicate the [[Leray-Serre spectral sequence]] of a [[Serre fibration]] as a special case of the filtering spectral sequence. For more discussion see there.
-
+We indicate the [[Leray-Serre spectral sequence]] of a [[Serre fibration]] as a special case of the filtering spectral sequence. For more discussion see there. Let
 $$\begin{matrix} A & \to & X \\
  \downarrow & & \downarrow \\
  * & \to & B \end{matrix} $$
