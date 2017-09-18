@@ -281,7 +281,7 @@ A gentle introduction with examples is the booklet
 
 * [[Mikio Sato]], _Theory of hyperfunctions I_, [pdf scan](http://repository.dl.itc.u-tokyo.ac.jp/dspace/bitstream/2261/6027/1/jfs080104.pdf)
 
-* M. [[Kashiwara]],   T. Kawai,   T. Kimura,   "Foundation of algebraic analysis" , Princeton Univ. Press  (1986)  ((translated from the Japanese))
+* M. [[Kashiwara]],   T. Kawai,   T. Kimura,  _Foundation of algebraic analysis_, Princeton Univ. Press  (1986)  ((translated from the Japanese))
 
 * Mitsuo Morimoto: _An introduction to Sato's hyperfunctions._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0811.46034&format=complete)) 
 
