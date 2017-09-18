@@ -20,7 +20,7 @@ This entry is about the book
 about models of [[smooth topos]]es for [[synthetic differential geometry]] that have a [[full and faithful functor|full and faithful]] embedding of the [[category]] [[Diff]] of smooth [[manifold]]s.
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Summary 
