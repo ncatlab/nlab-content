@@ -94,13 +94,17 @@ is an [[isomorphism]]. But this is the [[Frobenius reciprocity]] condition on $f
 
 Locally connected toposes are [[coreflective subcategory|coreflective]] in [[Topos]]. See ([Funk (1999)](#Funk)).
 
-### A site characterization
+### Other characterizations
 
-Let $(\mathcal{C}, J)$ be a [[site]] and $S$ be a [[sieve]] on the object $U$. $S$ is called _connected_ when $S$ viewed as a full subcategory of $\mathcal{C}/U$ is connected. The site is called _locally connected_ if every sieve is connected. For a [[bounded geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$ the following holds:
+* Let $(\mathcal{C}, J)$ be a [[site]] and $S$ be a [[sieve]] on the object $U$. $S$ is called _connected_ when $S$ viewed as a full subcategory of $\mathcal{C}/U$ is connected. The **site** is called _locally connected_ if every sieve is connected. For a [[bounded geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$ the following holds:
+_$p$ is locally connected iff there exists a locally connected internal site in $\mathcal{S}$ such that $\mathcal{E}\simeq Sh(\mathcal{C},J)$._ (cf. [Johnstone (2002)](#elephant), pp.656-658)
 
-$p$ is locally connected iff there exists a locally connected internal site in $\mathcal{S}$ such that $\mathcal{E}\simeq Sh(\mathcal{C},J)$.
+* [Caramello (2012)](#Cara12) gives syntactic characterizations of [[geometric theories]] whose [[classifying topos]] is locally connected.
 
-(cf. [Johnstone (2002)](#elephant), pp.656-658)
+The same paper also contains the following characterization:
+
+* A Grothendieck topos is locally connected iff it has a [[separator|separating set]] of (coproduct) indecomposable objects.
+
 
 ### Variations in the context of the Nullstellensatz
 
@@ -136,6 +140,8 @@ The standard reference is section C3.3 of
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002. {#elephant}
 
 Further references include
+
+* [[Olivia Caramello]], _Syntactic Characterizations of Properties of Classifying Toposes_ , TAC **26** no.6 (2012) pp.176-193. ([pdf](http://www.tac.mta.ca/tac/volumes/26/6/26-06.pdf)) {#Cara12}
 
 * [[Jonathon Funk]], _The locally connected coclosure of a Grothendieck topos_, JPAA **137** (1999) pp.17-27.
   {#Funk}
