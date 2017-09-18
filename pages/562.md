@@ -246,7 +246,7 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 
 * "Categorical logic and type theory" by B. Jacobs
 
-* The Wikipedia entry on [Fibred category](http://en.wikipedia.org/wiki/Fibred_category) is okay, and contains a number of other references.
+* The Wikipedia entry on [Fibred category](http://en.wikipedia.org/wiki/Fibered_category) is okay, and contains a number of other references.
 
 [[!redirects Grothendieck fibrations]]
 [[!redirects Grothendieck opfibration]]
