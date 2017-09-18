@@ -141,6 +141,13 @@ For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactific
 
 * [[7d Chern-Simons theory]]
 
+* [[M-theory on Calabi-Yau manifolds]]
+
+  * [[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]
+
+  * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+
+
 ## References
  {#References}
 
