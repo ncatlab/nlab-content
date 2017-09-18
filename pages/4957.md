@@ -86,20 +86,23 @@ Another way of stating this is that a Grothendieck topos is local if and only if
 
 =--
 
-In fact the preceding remark suggests a generalization, beyond the (Grothendieck) sheaf topos case: 
+Note also that in an infinitary-[[extensive category]] an object is connected as soon as $\hom(X,-)$ preserves *binary* coproducts (see [[connected object]]).  Moreover, a coproduct-preserving functor between toposes preserves coequalizers as soon as it preserves epimorphisms, since any coequalizer can be constructed as the quotient of an equivalence relation generated using images and countable coproducts and quotients of equivalence relations are effective.  Thus, we can say that a Grothendieck topos is local iff $\hom(1,-)$ preserves binary coproducts and epis.  Moreover, a cospan $A \to C \leftarrow B$ in a topos is a coproduct diagram iff $A$ and $B$ are disjoint monos whose union is all of $C$; thus $\hom(1,-)$ preserves binary coproducts as soon as it preserves the initial object and binary unions.  This leads to the following equivalent form of "locality" that makes sense even for elementary toposes:
 
 +-- {: .num_defn} 
 ###### Definition 
 An [[elementary topos]] $E$ is *local* if the terminal object $1$ is 
+
+* nonempty: $1\ncong 0$,
 
 * connected: $1 = p \vee q$ implies $1 = p$ or $1 = q$, and 
 
 * projective: every epi $U \to 1$ admits a section $t: 1 \to U$. 
 =-- 
 
+
 +-- {: .num_remark} 
 ###### Remark 
-Some authors have used the term "local" to refer just to the condition that $1$ is connected; note this is equivalent to $Sub_E(1)$ being a [[local ring|local rig]]. In his [thesis](#Awodey), Steve Awodey upgraded this, saying that a topos is *hyperlocal* if both connectivity and projectivity are satisfied. In view of the current entry, it seems reasonable to regard the latter as a more convenient notion, and just shorten it to "local".  
+Some authors have instead used the term "local" to refer just to the condition that $1$ is connected; note this is equivalent to $Sub_E(1)$ being a [[local ring|local rig]]. In his [thesis](#Awodey), Steve Awodey upgraded this, saying that a topos is *hyperlocal* if both connectivity and projectivity are satisfied. As argued above, for a Grothendieck topos this is slightly *weaker* than locality, although the difference is only in the inclusion of the trivial topos (for if $1\cong 0$ then $E\simeq 1$).  Note that a local elementary topos, as defined above, is [[well-pointed topos|constructively well-pointed]] if and only if $1$ is additionally a [[generator]].
 =-- 
 
 +-- {: .num_example} 
