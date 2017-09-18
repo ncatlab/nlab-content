@@ -31,6 +31,8 @@ These affine Lie algebras appear in [[quantum field theory]] as the [[current al
 
 * [[Borcherds algebra]]
 
+* [[double affine Hecke algebra]]
+
 ## References
 
 The standard textbook is 
