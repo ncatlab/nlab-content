@@ -40,7 +40,7 @@ Equivalently this means explicitly:
 +-- {: .num_defn #ExplicitTensorProduct}
 ###### Definition
 
-For $A, B$ two [[abelian groups]], their **tensor product of abelian groups** is the abelian group $A \otimes B$ which is the [[quotient]] of the [[free group]] on the [[product]] ([[direct sum]]) $A \times B$
+For $A, B$ two [[abelian groups]], their **tensor product of abelian groups** is the abelian group $A \otimes B$ which is the [[quotient]] of the [[free abelian group]] on the [[product]] ([[direct sum]]) $A \times B$
 by the [[generators and relations|relations]] 
 
 * $(a_1,b)+(a_2,b)\sim (a_1+a_2,b)$ 
