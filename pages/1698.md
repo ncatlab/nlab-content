@@ -290,7 +290,7 @@ We may read off from the non-triviality of the homotopy fiber $A$ of a morphism 
 
 A morphism $f : B \to C$ in [[∞Grpd]] is an equivalence precisely if all its homotopy fibers over every point of $C$ are [[contractible]], i.e. are equivalent to $*$.
 
-More generally, a morphism $f : B \to C$ in any [[(∞,1)-category]] $\mathcal{C}$ is an equivalence if for all objects $X \in \mathcal{C}$ all homotopy fibers of the morphism $\mathcal{C}(C,f) : \mathcal{C}(X,B) \to \mathcal{C}(X,C)$ are contractible.
+More generally, a morphism $f : B \to C$ in any [[(∞,1)-category]] $\mathcal{C}$ is an equivalence if for all objects $X \in \mathcal{C}$ all homotopy fibers of the morphism $\mathcal{C}(X,f) : \mathcal{C}(X,B) \to \mathcal{C}(X,C)$ are contractible.
 
 =--
 
