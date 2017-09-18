@@ -26,6 +26,9 @@ This is relevant for the preservation of exactness when applying limiting proces
 
 ## Definition
 
+
+
+
 An inverse sequence of groups consists of some groups $G_n$ indexed by the [[natural numbers]]  and between them group [[homomorphisms]]: if $m \gt n$, there is a homomorphism $p^m_n : G_m \to G_n$ and if $l\gt m  \gt n$, $p^m_n p^l_m= p^l_n$, so that we really just need the $p^{n+1}_n$s to define everything.
 
 An inverse system $G = \{G_n,p^m_n\}$ is said to _satisfy the Mittag-Leffler condition_ if
@@ -39,7 +42,17 @@ $$p^{n^{\prime\prime}}_n(G_{n^{\prime\prime}}) = p^{n^\prime}_n(G_{n^\prime}).$$
 
 This is the 'classical' form of the condition. It can also be applied in any category where images make sense. 
 
-An inverse sequence is a special type of [[pro-object]] and it is well known and quite easy to show that any Mittag-Leffler pro-object like this is isomorphic to one which is [[essentially epimorphic pro-object|essentially epimorphic]].
+An inverse sequence is a special type of [[pro-object]].
 
+Any Mittag-Leffler pro-object is known to be [[essentially epimorphic pro-object|essentially epimorphic]] in the sense that it is isomorphic to a pro-object whose connecting morphisms are epis, that is to a [[strict pro-object]]. 
+
+
+## Literature
+
+Related $n$Lab entries include [[movable pro-object]].
+
+Mittag-Leffler property of pro-objects in the category of pointed sets and in the category of (nonabelian) groups is studied in Ch.II, Sec. 6.2 of
+
+* [[S. Mardešić]], J. Segal, _Shape theory_, North Holland 1982
 
 [[!redirects Mittag-Leffler conditions]]
