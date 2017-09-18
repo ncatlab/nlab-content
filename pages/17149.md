@@ -15,9 +15,15 @@ The big story emerging here was later further developed in
 
 * [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
 
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986/2003
+
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
 This is about understanding the absolute base space [[Spec(S)]] by [[covering]] it with Spec([[MU]]). See at _[Adams spectral sequences -- As derived descent](Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_.
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Part I
 
@@ -29,15 +35,75 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[Umkehr map]]
 
-## Part II
+## Part II -- Quillen's work on formal groups and complex cobordism
+ {#PartII}
+
+### 0. Introduction
+
+### 1. Formal groups
 
 * [[formal group law]]
 
+### 2. Examples from algebraic topology
+
+* [[complex oriented cohomology theory]]
+
+* generalized [[Chern classes]]
+
+### 3. Reformulation
+
+* [[coalgebra]]
+
+* [[Hopf algebra]]
+
+### 4. Calculations in $E$-homology and cohomology
+
+* [[universal coefficient theorem]]
+
+* [[universal complex orientation on MU]] (Lemma 4.6, example 4.7)
+
+### 5. Lazard's universal ring
+
 * [[Lazard ring]]
+
+### 6. More calculations in $E$-cohomology
+
+* [[Hurewicz homomorphism]]
+
+* [[ordinary homology spectra split]]
+
+### 7. The structure of Lazard's universal ring $L$
+
+* [[Lazard's theorem]]
+
+### 8. Quillen's theorem
 
 * [[Quillen's theorem on MU]]
 
+
+### 9. Corollaries
+
+### 10. Various formulae in $\pi_\bullet(MU)$
+
+### 11. $MU_\bullet(MU)$
+
+* [[Landweber-Novikov theorem]]
+
+### 12. Behaviour of the Bott map
+
+### 13. $K_\bullet(K)$
+
+### 14. The Hattori-Stong theorem
+
+### 15. Quillen's idempotent cohomology operations
+
+### 16. The Brown-Peterson spectrum
+
 * [[BP]]
+
+### 17. $KO_\bullet(KO)$
+
+
 
 ## Part III
 
