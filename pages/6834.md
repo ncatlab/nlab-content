@@ -39,6 +39,8 @@ See [[gauge theory]] for more.
 
 ## Related entries
 
+* [[Wilson surface]]
+
 * [[local prequantum field theory]]
 
 ## References
