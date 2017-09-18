@@ -165,7 +165,7 @@ has a left adjoint.
 Since the following diagram is commutative: 
 $$
 \begin{array}{cccc}C^T & \overset{C^{\theta}}{\to}  & C^S    \\
-^{U^T}\downarrow     &                   & \downarrow^{U^S} \\
+\mathllap{U^T} \downarrow     &                   & \downarrow \mathrlap{U^S} \\
 C                    & =                 & C
 \end{array}
 $$
@@ -174,13 +174,23 @@ to the [[adjoint lifting theorem]] that if $C^T$ has coequalizers of
 reflexive pairs, then $C^{\theta}$ has a left adjoint
 and is, in fact, monadic. 
 
-This completes the proof, but it is interesting to observe that there
-is a concrete description of the left adjoint in this case:
-The left adjoint sends an $S$-algebra $(c, \xi: S c \to c)$ to the (reflexive) coequalizer of the pair 
+This completes the proof, but here is a concrete description of the left adjoint to $C^\theta$: it sends an $S$-algebra $(c, \xi: S c \to c)$ to the (reflexive) coequalizer of the pair 
 
-$$T S c \stackrel{T \xi}{\to} T c \qquad T S c \stackrel{T \theta c}{\to} T T c \stackrel{\mu c}{\to} T c$$ 
+$$\label{coeq}\array{ 
+ & & T T c & & \\
+ & \mathllap{T \theta c} \nearrow & & \searrow \mathrlap{\mu c} \\ 
+T S c & & \stackrel{\; \; \; \; \; \; \; \; T \xi \; \; \; \; \; \; \; \; }{\to} & & T c
+}$$ 
 
-where $\mu: T T \to T$ is the monad multiplication. (If $u: 1_C \to S$ is the unit of $S$, then $T u c: T c \to T S c$ is a common right inverse of both arrows of the pair.) This coequalizer is analogous to the construction of the left adjoint $B \otimes_A -$ to the functor $Ab^f: Ab^B \to Ab^A$ between module categories given by restricting scalar multiplication; the coequalizer will be denoted $T \circ_S c$ to underline the analogy. 
+where $\mu: T T \to T$ is the monad multiplication. (If $u: 1_C \to S$ is the unit of $S$, then $T u c: T c \to T S c$ is a common right inverse of both arrows of the pair.) This coequalizer is analogous to the construction of the left adjoint $B \otimes_A -$ to the "restriction" functor $Ab^f: Ab^B \to Ab^A$ between module categories (restricting scalar multiplication on a $B$-module along a ring map $f: A \to B$); given an $A$-module $(M, \alpha_M: A \otimes M \to M)$, the $B$-module $B \otimes_A M$ is the coequalizer of  
+
+$$\array{ 
+ & & B \otimes B \otimes M & & \\
+ & \mathllap{B \otimes f \otimes M} \nearrow & & \searrow \mathrlap{mult_B \otimes M} \\ 
+B \otimes A \otimes M & & \stackrel{\; \; \; \; \; \; \; \; B \otimes \alpha_M \; \; \; \; \; \; \; \; }{\to} & & B \otimes M,
+}$$ 
+
+and so the coequalizer of (eq:coeq) will be denoted $T \circ_S c$ to underline the analogy. 
 
 To see that $T \circ_S -$ is the left adjoint, let $(d, \alpha: T d \to d)$ be a $T$-algebra. Any map $f: c \to d$ in $C$ induces a unique $T$-algebra map $\phi: T c \to d$: 
 
