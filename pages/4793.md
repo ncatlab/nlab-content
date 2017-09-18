@@ -63,6 +63,8 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 * [[quaternionic quantum mechanics]]
 
+* [[quaternion group]]
+
 ## References
 
 A survey is in
