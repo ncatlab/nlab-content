@@ -50,8 +50,12 @@ disc are not so well adapted to the study of torsion phenomena in the characteri
 * get back the usual de Rham Chern character when one works over $\C$.
 
 ## A more optimistic set of constraints
-1. the functional equation of [[zeta functions]] of arbitrary [[arithmetic varieties]];
-1. an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and a sort of global [[analytic motives]].
+
+1. being able to prove the functional equation of [[zeta functions]] of arbitrary [[arithmetic varieties]];
+
+1. being able to settle down an [[analytic langlands program]], giving a correspondence between general (non-algebraic) [[automorphic representations]] and a sort of global [[analytic motives]]. The p-adic Langlands program should be a particular case of this general construction when the base Banach ring is $\mathbb{Z}_p$.
+
+1. being able to devise a robust and simple enough [[arithmetic cryptography]] protocol based on a [[discrete logarithm problem]] or on a [[cohomological product problem]] on a given [[geometric cohomology]] theory for global analytic spaces. 
 
 Argument in favor of its use are:
 
