@@ -69,6 +69,523 @@ The classical Adams spectral sequence is the special case with $Y = X = \mathbb{
 The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
 
 
+#### Spectral sequence of a filtered spectrum
+
++-- {: .num_defn #FilteredSpectrum}
+###### Definition
+
+A **[[filtered spectrum]]** is a [[spectrum]] $Y \in Ho(Spectra)$ equipped with a sequence $X_\bullet \colon (\mathbb{N}, \gt) \longrightarrow Ho(Spectra)$ in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) of the form
+
+$$
+  \cdots 
+   \longrightarrow
+  Y_3
+    \overset{f_2}{\longrightarrow} 
+  Y_2 
+    \overset{f_1}{\longrightarrow} 
+  Y_1 
+    \overset{f_0}{\longrightarrow} 
+  Y_0 
+    \coloneqq 
+  Y
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+More generally a [[filtered object in an (infinity,1)-category|filtering]] on an object $X$ in (stable or not) [[homotopy theory]] is a $\mathbb{Z}$-graded sequence $X_\bullet $ such that $X$ is the [[homotopy colimit]]  $X\simeq \underset{\longrightarrow}{\lim} X_\bullet$. But for the present purpose we stick with the simpler special case of def. \ref{FilteredSpectrum}.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+There is _no_ condition on the [[morphisms]] in def. \ref{FilteredSpectrum}. In particular, they are _not_ required to be [[n-monomorphisms]] or [[n-epimorphisms]] for any $n$. 
+
+On the other hand, while they are also not explicitly required to have a presentation by [[cofibrations]] or [[fibrations]], this follows automatically: by the existence of the [[model structure on topological sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) or equivalently ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#SequentialSpectraQuillenEquivalence)) the [[model structure on orthogonal spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#OrthogonalSpectraStableModelStructure)), every filtering on a spectrum is equivalent to one in which all morphisms are represented by [[cofibrations]] or by [[fibrations]]. 
+
+This means that we may think of a filtration on a spectrum $X$ in the sense of def. \ref{FilteredSpectrum} as equivalently being a [[tower of fibrations]] over $X$.
+
+=--
+
+The following remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} unravels the structure encoded in a filtration on a spectrum, and motivates the concepts of [[exact couples]] and their [[spectral sequences]] from these.
+
+
++-- {: .num_remark #UnrolledExactCoupleOfAFiltrationOnASpectrum}
+###### Remark
+
+Given a [[filtered spectrum]] as in def. \ref{FilteredSpectrum},
+write $A_k$ for the [[homotopy cofiber]] of its $k$th stage, such as to obtain the diagram
+
+$$
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   Y_3 
+     &\stackrel{f_2}{\longrightarrow}& 
+   Y_2 
+     &\stackrel{f_2}{\longrightarrow} & 
+   Y_1 
+     &\stackrel{f_1}{\longrightarrow}& 
+   Y
+   \\
+   && \downarrow && \downarrow && \downarrow && \downarrow
+   \\
+   && A_3 && A_2 && A_1 && A_0
+  }
+$$
+
+where each stage
+
+$$
+ \array{
+   X_{k+1} &\stackrel{f_k}{\longrightarrow}& X_k   
+   \\
+   && \downarrow^{\mathrlap{cofib(f_k)}}
+   \\
+   && A_k
+ }
+$$
+
+is a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), hence equivalently ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) a [[homotopy fiber sequence]] 
+
+To break this down into invariants, choose another spectrum $X \in Ho(Spectra)$ apply the graded hom-group functor $[X,-]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) to the above tower. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
+
+$$
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   [X,Y_3]_\bullet 
+     &\stackrel{[X,f_2]_\bullet)}{\longrightarrow}& 
+   [X,Y_2]_\bullet 
+     &\stackrel{[X,f_2]_\bullet}{\longrightarrow} & 
+   [X,Y_1]_\bullet 
+     &\stackrel{[X,f_1]_\bullet}{\longrightarrow}& 
+   [X,Y_0]_\bullet
+   \\
+   && \downarrow && \downarrow && \downarrow && \downarrow
+   \\
+   && [X,A_3]_\bullet 
+   && [X,A_2]_\bullet 
+   && [X,A_1]_\bullet 
+   && [X,A_0]_\bullet
+  }
+  \,.
+$$
+
+Each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory -- 1-1#LongFiberSequencesOfMapsOfSpectra)) via [[connecting homomorphisms]] $\delta_\bullet^k$
+
+$$
+  \cdots
+    \to
+  [X,A_k]_{\bullet+1} 
+    \stackrel{\delta_{\bullet+1}^k}{\longrightarrow}
+  [X,Y_{k+1}]_{\bullet} 
+    \stackrel{[X,f_k]_\bullet}{\longrightarrow}
+  [X,Y_k]_\bullet
+    \stackrel{}{\longrightarrow}
+  [X,A_k]_\bullet
+   \stackrel{\delta_\bullet^k}{\longrightarrow}
+  [X,Y_{k+1}]_{\bullet-1}
+    \to 
+  \cdots
+  \,.
+$$
+
+If we understand the [[connecting homomorphism]]
+
+$$
+  \delta_k 
+    \;\colon\; 
+  [X,A_k]_\bullet 
+    \longrightarrow 
+  [X,Y_{k+1}]_\bullet
+$$
+
+as a morphism of degree -1, then all this information fits into one diagram of the form
+
+$$
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   [X,Y_3]_\bullet 
+     &\stackrel{[X,f_2]_\bullet}{\longrightarrow}& 
+   [X,Y_2]_\bullet 
+     &\stackrel{[X,f_2]_\bullet}{\longrightarrow} & 
+   [X,Y_1]_\bullet 
+     &\stackrel{[X,f_1]_\bullet}{\longrightarrow}& 
+   [X,Y_0]_\bullet
+   \\
+   && 
+   \downarrow &{}_{\mathllap{\delta_2}}\nwarrow & 
+   \downarrow &{}_{\mathllap{\delta_1}}\nwarrow &
+   \downarrow &{}_{\mathllap{\delta_0}}\nwarrow
+   & \downarrow
+   \\
+   && [X,A_3]_\bullet 
+   && [X,A_2]_\bullet 
+   && [X,A_1]_\bullet 
+   && [X,A_0]_\bullet
+  }
+  \,,
+$$
+
+where each triangle is a rolled-up incarnation of a [[long exact sequence of homotopy groups]] (and in particular is _not_ a commuting diagram!).
+
+If we furthermore consider the [[bigraded object|bigraded]] [[abelian groups]] $[X,Y_\bullet]_{\bullet}$ and $[X,A_\bullet]_{\bullet}$, then this information may further be rolled-up to a single diagram of the form
+
+$$
+  \array{
+     [X,Y_\bulllet]_\bullet
+       & \stackrel{[X,f_\bullet]_\bullet}{\longrightarrow} &
+     [X,Y_\bullet]_{\bullet}
+     \\
+       & {}_{\mathllap{\delta}}\nwarrow 
+       & \downarrow^{\mathrlap{[X, cofib(f_\bullet)]_\bullet }}
+     \\
+     && 
+     [X,A_\bullet]_\bullet
+  }
+  \,,
+$$
+
+where the morphisms $[X,f_\bullet]_\bullet$, 
+$[X,cofib(f_\bullet)]_\bullet$ and $\delta$ have bi-degree $(0,-1)$, $(0,0)$ and $(-1,1)$, respectively.
+
+Here it is convenient to shift the bigrading, equivalently, by setting
+
+$$
+  D^{s,t}(X,Y) \;\coloneqq\; [X,Y_s]_{t-s}
+$$
+
+$$
+  E^{s,t}(X,Y) \;\coloneqq\; [X,A_s]_{t-s}
+  \,,
+$$
+
+because then $t$ counts the cycles of going around the triangles:
+
+$$
+  \cdots
+   \to 
+  D^{s+1,t+1}(X,Y)
+    \stackrel{[X,f_s]_{t-s}}{\longrightarrow}
+  D^{s,t}(X,Y)
+    \stackrel{[X,cofib(f_s)]_{t-s}}{\longrightarrow}
+  E^{s,t}(X,Y)
+    \stackrel{\delta_s}{\longrightarrow}
+  D^{s+1,t}(X,Y)
+    \to
+  \cdots
+$$
+
+Data of this form is called an _[[exact couple]]_, def. \ref{ExactCouple} below. 
+
+
+=--
+
+
++-- {: .num_defn #UnrolledExactCouple}
+###### Definition
+
+An _unrolled [[exact couple]]_ (of Adams-type) is a diagram of [[abelian groups]] of the form
+
+$$
+  \array{
+     \cdots 
+       &\stackrel{}{\longrightarrow}& 
+     \mathcal{D}^{3,\bullet} 
+       &\stackrel{i_2}{\longrightarrow}& 
+     \mathcal{D}^{2,\bullet} 
+       &\stackrel{i_1}{\longrightarrow} & 
+     \mathcal{D}^{1,\bullet} 
+       &\stackrel{i_0}{\longrightarrow}& 
+     \mathcal{D}^{0,\bullet}
+     \\
+     && 
+     \downarrow^{\mathrlap{}}  &{}_{\mathllap{k_2}}\nwarrow & 
+     {}^{\mathllap{j_2}}\downarrow &{}_{\mathllap{k_1}}\nwarrow &
+     {}^{\mathllap{j_1}}\downarrow &{}_{\mathllap{k_0}}\nwarrow
+     & {}_{\mathllap{j_0}}\downarrow
+     \\
+     && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
+     && \mathcal{E}^{1,\bullet} && \mathcal{E}^{0,\bullet}
+   }
+$$
+
+such that each triangle is a rolled-up [[long exact sequence]] of [[abelian groups]] of the form
+
+$$
+  \cdots
+   \to 
+  \mathcal{D}^{s+1,t+1}
+    \stackrel{i_s}{\longrightarrow}
+  \mathcal{D}^{s,t}
+    \stackrel{j_s}{\longrightarrow}
+  \mathcal{E}^{s,t}
+    \stackrel{k_s}{\longrightarrow}
+  \mathcal{D}^{s+1,t}
+    \to
+  \cdots
+  \,.
+$$
+
+
+=--
+
+The collection of this "un-rolled" data into a single diagram of [[abelian groups]] is called the corresponding _[[exact couple]]_.
+
+
++-- {: .num_defn #ExactCouple}
+###### Definition
+
+An _[[exact couple]]_ is a [[diagram]] (non-commuting) of [[abelian groups]] of the form
+
+$$
+  \array{
+    \mathcal{D}
+    &\stackrel{i}{\longrightarrow}&
+    \mathcal{D}
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}
+  }
+  \,,
+$$
+
+such that this is [[exact sequence]] exact in each position, hence such that the [[kernel]] of every [[morphism]] is the [[image]] of the preceding one.
+
+=--
+
+
+The concept of exact couple so far just collects the sequences of long exact sequences given by a filtration. Next we turn to extracting information from this sequence of sequences.
+
++-- {: .num_remark #Observingd1}
+###### Remark
+
+The sequence of long exact sequences in remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $\pi_{t-s}(X_s)$ appears _twice_:
+
+$$
+  \array{
+    && & \searrow && \nearrow
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    && && && \nearrow
+    \\
+    && \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{def: \; d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    \\
+    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
+    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
+    \\
+    && && && && \pi_{t-s-2}(X_{s+2})
+    \\
+    && && && & \nearrow && \searrow
+  }
+$$
+
+This gives rise to the horizontal composites $d_1^{s,t}$, as show above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[chain complex]]:
+
+$$
+  \array{
+    \cdots & \stackrel{}{\longrightarrow}
+    && \pi_{t-s}(A_s) && \overset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    &&\longrightarrow & \cdots
+  }
+  \,.
+$$
+
+We read off from the interlocking long exact sequences what these differentials _mean_: an element $c \in \pi_{t-s}(A_s)$ lifts to an element $\hat c \in \pi_{t-s-1}(X_{s+2})$ precisely if $d_1 c = 0$:
+
+$$
+  \array{
+    &\hat c \in & \pi_{t-s-1}(X_{s+2})
+    \\
+    && & \searrow^{\mathrlap{\pi_{t-s-1}(f_{s+1})}} 
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    \\
+    & c \in  & \pi_{t-s}(A_s) && \underset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+  }
+$$
+
+This means that the [[cochain cohomology]] of the complex $(\pi_{\bullet}(A_\bullet), d_1)$ produces elements of $\pi_\bullet(X_\bullet)$ and hence of $\pi_\bullet(X)$.
+
+In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
+
+$$
+  d_1^{s,t}  \;\coloneqq \; \pi_{t-s-1}(cofib(f_{s+1})) \circ \delta_{t-s}^s
+$$
+
+is a component of the composite 
+
+$$
+  d \coloneqq j \circ k
+  \,.
+$$
+
+
+=--
+
+Some terminology:
+
++-- {: .num_defn #PageOfAnExactCouple}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple}, 
+
+$$
+  \array{
+    \mathcal{D}^{\bullet,\bullet}
+    &\stackrel{i}{\longrightarrow}&
+    \mathcal{D}^{\bullet,\bullet}
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}^{\bullet,\bullet}
+  }
+$$
+
+its _page_ is the [[chain complex]]
+
+$$
+  (E^{\bullet,\bullet}, d \coloneqq j \circ  k)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #DerivedExactCouple}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple}, then the induced _derived exact couple_ is the diagram
+
+$$
+  \array{
+    \widetilde {\mathcal{D}}
+    &\stackrel{\tilde i}{\longrightarrow}&
+    \widetilde {\mathcal{D}}
+    \\
+    & {}_{\mathllap{\tilde k}}\nwarrow & \downarrow^{\mathrlap{\tilde j}}
+    \\
+    && \widetilde{\mathcal{E}}
+  }
+$$
+
+with 
+
+1. $\tilde{\mathcal{E}} \coloneqq ker(d)/im(d)$;
+
+1. $\tilde {\mathcal{D}} \coloneqq im(i)$;
+
+1. $\tilde i \coloneqq i|_{im(i)}$;
+
+1. $\tilde j \coloneqq j \circ (im(i))^{-1}$;
+
+1. $\tilde k \coloneqq k|_{ker(d)}$.
+
+
+=--
+
++-- {: .num_prop #DerivedExactCoupleIsExactCouple}
+###### Proposition
+
+A derived exact couple, def. \ref{DerivedExactCouple}, 
+is again an exact couple, def. \ref{ExactCouple}.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple},
+then the induced [[spectral sequence]], def. \ref{SpectralSequence}, is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+
+=--
+
+
++-- {: .num_example #AdamsTypeSpectralSequenceOfATower}
+###### Example
+
+Consider a [[filtered spectrum]], def. \ref{FilteredSpectrum},
+
+$$
+  \array{
+   \cdots 
+     &\stackrel{}{\longrightarrow}& 
+   X_3 
+     &\stackrel{f_2}{\longrightarrow}& 
+   X_2 
+     &\stackrel{f_2}{\longrightarrow} & 
+   X_1 
+     &\stackrel{f_1}{\longrightarrow}& 
+   X
+   \\
+   && \downarrow && \downarrow && \downarrow && \downarrow
+   \\
+   && A_3 && A_2 && A_1 && A_0
+  }
+$$
+
+and its induced [[exact couple]] of [[stable homotopy groups]], from remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}
+
+$$
+  \array{
+    \mathcal{D} &\stackrel{i}{\longrightarrow}& \mathcal{D}
+    \\
+    &{}_{\mathllap{k}}\nwarrow& \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}
+  }
+  \;\;\;\;\;\,\;\;\;\;\;\;
+  \array{
+    \mathcal{D} &\stackrel{(-1,-1)}{\longrightarrow}& \mathcal{D}
+    \\
+    &{}_{\mathllap{(1,0)}}\nwarrow& \downarrow^{\mathrlap{(0,0)}}
+    \\
+    && \mathcal{E}
+  }
+$$
+
+with bigrading as shown on the right.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
+</div>
+
+As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
+the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ in each step, since
+
+$$
+  deg(\tilde j) = deg( j \circ im(i)^{-1}) = deg(j) + (1,1)
+  \,.
+$$
+
+
+Therefore the induced [[spectral sequence]] has differentials of the form
+
+$$
+  d_r \;\colon\; \mathcal{E}_r^{s,t} \longrightarrow \mathcal{E}_r^{s+r, t+r-1}
+  \,.
+$$
+
+This is also called the Adams-type _[[spectral sequence of a tower of fibrations|spectral sequence of the tower of fibrations]]_ $X_{n+1} \to X_n$.
+
+=--
+
+
 #### $E$-Adams filtrations
 
 +-- {: .num_defn #AdamsEAdamsSpectralSequence}
@@ -85,7 +602,7 @@ $$
 $$ 
 
 of morphisms in the [[stable homotopy category]]
-([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the image under $[X,-]_\bullet$ of the tower
+([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a filtered spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the image under $[X,-]_\bullet$ of the tower
 
 $$
   \array{
@@ -143,6 +660,21 @@ $$
 $$
 
 is the composition of the inverse derived [[unitor]] on $Y_n$ with the derived [[smash product of spectra]] of the unit $e$ of $E$ and the identity on $Y_n$.
+
+
+$$
+  E_1^{s,t}(X,Y)
+    \;\coloneqq\;
+  [X, W_s ]_{t-s}
+$$
+
+$$
+  d_r  
+    \;\colon\;
+  E_r^{s,t}(X,Y)
+    \longrightarrow
+  E_r^{s+r, t+r-1}
+$$
 
 =--
 
