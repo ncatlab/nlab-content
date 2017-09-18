@@ -4,7 +4,7 @@
 
 ## Idea
 
-The **zeta polynomial** $Z(P,n)$ of a finite [[partially ordered set]] $P$ counts the number of multichains (also known as "weakly increasing sequences") of length $n$.
+The **zeta polynomial** $Z(P,n)$ of a finite [[partially ordered set]] $P$ counts the number of multichains (also known as "weakly increasing sequences") of length $n$ in $P$.
 
 ## Definition
 
