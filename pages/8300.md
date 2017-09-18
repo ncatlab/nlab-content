@@ -21,3 +21,5 @@ Beware that in both cases there are various slight variants of the axioms to be 
 * [[Waldhausen category]]
 
 * [[model category]]
+
+[[!redirects categories of cofibrant objects]]
