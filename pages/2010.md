@@ -1,11 +1,39 @@
 
-[[topology|Topology]] is nowadays intertwined with many other mathematical fields, like  [[homological algebra]] and [[differential geometry]], therefore yielding specialized subfields like [[algebraic topology]], [[differential topology]] and so on. The basic study of general [[topological spaces]] (and closely related general structures like [[nearness space]]s, [[uniform space|uniformities]], [[bitopological space]]s and so on) remains the subject of __general topology__ or __point-set topology__. It overlaps largely with __set-theoretic topology__, though when talking of set-theoretic topology, rather than general topology, that there is a slight connotation of relevance of additional [[foundations|foundational axioms]] or other logical (say [[constructive mathematics|intuitionistic proofs]]) or set-theoretical considerations ([[large cardinal]]s for example). 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
-For the purposes of the nLab, the phrase *point-set topology* may conveniently signify that the traditional conception of spaces as consisting of [[points]] is being utilized. As opposed to doing "pointless" topology, where spaces are conceived as consisting of open sets, as in the theory of [[locales]]. 
+#Contents#
+* table of contents
+{:toc}
 
-Some of the notions in general topology covered in the nLab include [[topological space]], [[Top]], [[Hausdorff space]], [[specialization topology]], [[separation axioms]], [[sequential space]], [[Frechet-Uryson space]], [[compact space]], [[Sierpinski space]], ...
+## Idea
 
-For purposes in modern mathematics sometimes roles of topological spaces are however replaced by a [[convenient category of topological spaces]], [[nice topological space]]s, [[simplicial set]]s, [[locales]], [[sites]], [[topoi]], [[orbispace]]s, [[topological stack]]s and so on. 
+What is called _general topology_ or _point-set topology_ is the study of the basic concepts of [[topology]] based on the concept of _[[topological spaces]]_ considered as [[sets]] (of points) equipped with a topology. The term is to contrast with other areas of topology, such as _[[algebraic topology]]_ or [[differential topology]], and specifically to contrast with [[homotopy theory]], where only the (weak) [[homotopy type]] of a topological space matters, not the [[homeomorphism]] type of its underlying topologized point-set.
+
+The study of generalizations of topological spaces in the guise of [[sets]] with [[extra structure]], such as to  [[nearness spaces]], [[uniform space|uniformities]], [[bitopological spaces]] and so on, may still be regarded as the subject of "point-set topology".
+
+There is also the point-less formulation of generalized topological spaces in terms of [[locales]]. This might still be regarded as part of _general topology_, but it is manifestly not to be counted as "point-set topology".
+
+There is also the term _set-theoretic topology_, but that tends to allude to additional [[foundations|foundational axioms]] being considered or other logical (say [[constructive mathematics|intuitionistic]]) or set-theoretical considerations ([[large cardinals]] for example). 
+
+
+## Related entries
+
+* [[geometry]], [[higher geometry]]
+
+## References
+
+See the references at _[[topology]]_.
+
+For introduction to general or point-set topology see at _[[Introduction to Topology -- 1]]_.
+
 
 
 [[!redirects set-theoretical topology]]
