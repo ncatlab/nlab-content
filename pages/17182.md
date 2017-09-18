@@ -257,7 +257,7 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
     }
   $$
 
-  are [[homotopy pullback]] squares (with respec to the standard [[model structure on simplicial sets]]).
+  are [[homotopy pullback]] squares (with respect to the standard [[model structure on simplicial sets]]).
 
 =--
 
