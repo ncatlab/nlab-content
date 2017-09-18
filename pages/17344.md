@@ -7474,7 +7474,7 @@ $$
   Top^{\ast/}_{cg}
 $$
 
-then this takes the form
+then this takes the form of a "pullback action" in the first variable
 
 $$
   \rho_{c_2,c_1}(d)
@@ -7484,7 +7484,7 @@ $$
   F_0((c_1,d))
 $$
 
-and
+and a "pushforward action" in the second variable
 
 $$
   \rho_{d_1,d_2}(c)
@@ -7557,7 +7557,7 @@ $
     \longrightarrow
   Top^{\ast/}_{cg}
 $
-two pointed [[topologically enriched functors]], then the [[end]] (def. \ref{EndAndCoendInTopcgSmash}) of $Maps(F(-),G(-))_\ast$ is a topological space whose underlying [[pointed set]] is the pointed set of [[natural transformations]] $F\to G$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+two pointed [[topologically enriched functors]], then the [[end]] (def. \ref{EndAndCoendInTopcgSmash}) of $Maps(F(-),G(-))_\ast$ is a topological space whose underlying [[pointed set]] is the pointed set of [[natural transformations]] $F\to G$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)):
 
 $$
   U
@@ -7649,7 +7649,7 @@ $$
   \int_{c\in \mathcal{C}} Maps(F(c),G(c))_\ast
 $$
 
-and by taking the composition maps to be the morphisms induced by the maps
+The [[composition]] operation on these is defined to be the one induced by the composite maps
 
 $$
   \left(
@@ -7665,15 +7665,30 @@ $$
   \overset{(\circ_{F(c),G(c),H(c)})_{c\in \mathcal{C}}}{\longrightarrow}
   \underset{c \in \mathcal{C}}{\prod}
     Maps(F(c),H(c))_\ast
+  \,,
 $$
 
-by observing that these equalize the two actions in the definition of the [[end]].
+where the first, morphism is degreewise given by projection out of the limits that defined the ends. This composite evidently equalizes the two relevant adjunct actions (as in the proof of example \ref{NaturalTransformationsViaEnds}) and hence defines a map into the end
+
+$$
+    \left(
+    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
+  \right)
+  \wedge
+  \left(
+    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
+  \right)
+  \longrightarrow
+  \underset{c\in \mathcal{C}}{\int} Maps(F(c),H(c))_\ast
+  \,.
+$$
+
 
 The resulting pointed [[topologically enriched category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ is also called the **$Top^{\ast/}_{cg}$-[[enriched functor category]]** over $\mathcal{C}$ with coefficients in $Top^{\ast/}_{cg}$.
 
 =--
 
-First of all this yields a concise statement of the pointed topologically [[enriched Yoneda lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedYonedaLemma))
+This yields an equivalent formulation in terms of ends of the pointed topologically [[enriched Yoneda lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedYonedaLemma)):
 
 +-- {: .num_prop #YonedaReductionTopological}
 ###### Proposition
@@ -7704,7 +7719,7 @@ In this form the statement is also known as **[[Yoneda reduction]]**.
 
 The **proof** of prop. \ref{YonedaReductionTopological} is essentially dual to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
 
-Now that [[natural transformations]] are phrased in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involvng [[coends]]:
+Now that [[natural transformations]] are phrased in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
 
 +-- {: .num_prop #TopologicalCoYonedaLemma}
 ###### Proposition
@@ -7742,7 +7757,10 @@ The coequalizer of pointed topological spaces that we need to consider has under
 That is just the set of [[equivalence classes]] of [[pairs]]
 
 $$
-  ( c \overset{}{\to} c_0,\; x \in F(c) )
+  ( c \overset{}{\to} c_0,\; x  )
+  \;\; 
+   \in 
+   \mathcal{C}(c,c_0) \wedge F(c)
   \,,
 $$
 
@@ -7772,7 +7790,7 @@ $$
 
 (Because then the two pairs are the two images of the pair $(g,x)$ under the two morphisms being coequalized.)
 
-But now considering the case that $d = c_0$ and $d = id_{c_0}$, so that $f = \phi$ shows that any pair
+But now considering the case that $d = c_0$ and $g = id_{c_0}$, so that $f = \phi$ shows that any pair
 
 $$
   ( c \overset{\phi}{\to} c_0, \; x \in F(c))
@@ -7792,7 +7810,7 @@ This shows the claim at the level of the underlying sets. To conclude it is now 
 $$
   \mathcal{C}(d,c) \wedge F(c)
     \longrightarrow
-  \underset{c}{\int} \mathcal{C}(c,c_0) \wedge F(c)
+  \overset{c}{\int} \mathcal{C}(c,c_0) \wedge F(c)
 $$
 
 which we just found. But that system includes 
@@ -7893,7 +7911,7 @@ Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
 +-- {: .num_remark #MappingSpacePreservesEnds}
 ###### Remark
 
-Because the pointed compactly generated [[mapping space]] functor ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) 
+Since the pointed compactly generated [[mapping space]] functor ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) 
 
 $$
   Maps(-,-)_\ast
@@ -7905,7 +7923,7 @@ $$
   Top^{\ast/}_{cg}
 $$
 
-takes [[colimits]] in the first argument and [[limits]] in the second argument to limits ([cor.](Introduction+to+Stable+homotopy+theory+--+P#MappingSpacesSendsColimitsInFirstArgumentToLimits)), it also takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
+takes [[colimits]] in the first argument and [[limits]] in the second argument to limits ([cor.](Introduction+to+Stable+homotopy+theory+--+P#MappingSpacesSendsColimitsInFirstArgumentToLimits)), it in particular takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
 
 $$
   Maps( X, \; \int_{c} F(c,c))_\ast
@@ -8135,10 +8153,10 @@ Let $(\mathcal{C}, \otimes, 1)$ be a [[monoidal category]], def. \ref{MonoidalCa
        1 \otimes (x \otimes y) 
        & \underset{\ell_{x \otimes y}}{\longrightarrow} & x \otimes y
      }
-     \,.
+     \,,
    $$ 
 
-   Analogously for the right unitor.
+   and analogously for the right unitor.
 
 =-- 
 
