@@ -82,6 +82,7 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 * [[thin category]]
 
+* [[specialization topology]]
 
 ## References
 
