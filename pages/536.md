@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+###Context###e
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -19,7 +19,7 @@ An _algebraic [[theory]]_ is a concept in [[universal algebra]] that describes a
 
 ### Categorical formulation
 
-Traditionally, algebraic theories were described in terms of [[logic|logical syntax]], as [[theory|first-order theories]] whose [[signatures]] have only function symbols, no relation symbols, and all of whose [[axioms]] are [[universal quantifier|universally quantified]] equations.  Such descriptions may be viewed as _presentations_ of a theory, analogous to 
+Traditionally, algebraic theories were described in terms of [[logic|logical syntax]], as [[theory|first-order theories]] whose [[signatures]] have only function symbols, no relation symbols, and all of whose [[axioms]] are [[universal quantifier|universally quantified]] [[equations]].  Such descriptions may be viewed as _presentations_ of a theory, analogous to 
 [[generators and relations]] presentations of [[groups]]. In particular, different logical presentations can lead to equivalent mathematical objects. 
 
 In his thesis, [[Bill Lawvere]] undertook a more invariant description of (finitary) algebraic theories. Here _all_ the definable operations of an algebraic theory, or rather their equivalence classes modulo the equational axioms imposed by the theory, are packaged together to form the morphisms of a category with finite products, called a [[Lawvere theory]]. None of these operations are considered "primitive", so a Lawvere theory doesn't play favorites among operations. 
