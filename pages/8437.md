@@ -7,7 +7,7 @@
 |  h-level 3     |   1-truncated    | [[homotopy 1-type]] | [[1-groupoid]]/[[groupoid]] | [[(2,1)-sheaf]]/[[stack]]     | [[h-groupoid]] |
 |  h-level 4     |   2-truncated    | [[homotopy 2-type]] | [[2-groupoid]]   |   (3,1)-sheaf              | h-2-groupoid |
 |  h-level 5     |   3-truncated    | [[homotopy 3-type]] | [[3-groupoid]]   |  (4,1)-sheaf       | h-3-groupoid | 
-|  h-level $n+2$ |   $n$-truncated  | [[homotopy n-type]] | [[n-groupoid]] |(n+1,1)-sheaf | h-$n$-groupoid | 
+|  h-level $n+2$ |   $n$-truncated  | [[homotopy n-type]] | [[n-groupoid]] |[[(n+1,1)-sheaf]] | h-$n$-groupoid | 
 |  h-level $\infty$ |   untruncated  | [[homotopy type]] | [[∞-groupoid]]  | [[(∞,1)-sheaf]]/[[∞-stack]]                  | h-$\infty$-groupoid |
 
  
