@@ -62,9 +62,9 @@ $$
 The map to $X$ is given by projection onto the second factor.
 =--
 
-+-- {: .num_remark} 
++-- {: .num_remark #AsExampleOfToposOfCoalgebrasOverAComonad} 
 ###### Remark 
-The fact that the slice $\mathcal{T}/X$ is a topos, and particularly the construction of power objects above, can be deduced from a more general result: that the category of coalgebras of a pullback-preserving comonad $G: \mathcal{T} \to \mathcal{T}$ is a topos. In the case of a slice topos, the comonad would be $X \times -: \mathcal{T} \to \mathcal{T}$ (with comultiplication induced by the diagonal $X \to X \times X$, and counit induced by the projection $!: X \to 1$). This result also subsumes the weaker result where $G$ is assumed to preserve finite limits. For a proof, see the [[Elephant]], Section A, Remark 4.2.3. A proof of a still more general result may be found [here](https://ncatlab.org/toddtrimble/published/Three+topos+theorems+in+one). 
+The fact that the slice $\mathcal{T}/X$ is a topos, and particularly the construction of power objects above, can be deduced from a more general result: that the category of coalgebras of a pullback-preserving comonad $G: \mathcal{T} \to \mathcal{T}$ is a topos. See at _[[topos of coalgebras over a comonad]]_. In the case of a slice topos, the comonad would be $X \times -: \mathcal{T} \to \mathcal{T}$ (with comultiplication induced by the diagonal $X \to X \times X$, and counit induced by the projection $!: X \to 1$). This result also subsumes the weaker result where $G$ is assumed to preserve finite limits. For a proof, see the [[Elephant]], Section A, Remark 4.2.3. A proof of a still more general result may be found [here](https://ncatlab.org/toddtrimble/published/Three+topos+theorems+in+one). 
 =-- 
 
 ## Properties
