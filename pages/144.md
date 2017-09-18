@@ -218,7 +218,7 @@ The notion originates somewhere around
 
 * [[Bill Lawvere]] _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
 
-A kind of reiew is in
+A kind of review is in
 
 * [[Bill Lawvere]], _[Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)_
 
