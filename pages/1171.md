@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 #### Topology
 +-- {: .hide}
 [[!include topology - contents]]
