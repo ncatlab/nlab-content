@@ -28,7 +28,7 @@ We have given the definition for topological spaces, but it also makes sense as 
 
 ### Pushouts
 
-Write CGWH for the category of [[compactly generated topological spaces|compactly generated]] weakly Hausdorff topological spaces, and $CGH$ for compactly generated [[Hausdorff topological spaces]]. Both are [[comvenient categories of topological spaces]] that both admit a [[homotopy hypothesis]]-comparison to [[simplicial sets]], but CGWH has a key further property:
+Write CGWH for the category of [[compactly generated topological spaces|compactly generated]] weakly Hausdorff topological spaces, and $CGH$ for compactly generated [[Hausdorff topological spaces]]. Both are [[convenient categories of topological spaces]] that both admit a [[homotopy hypothesis]]-comparison to [[simplicial sets]], but CGWH has a key further property:
 
 The construction of [[pushouts]] is better behaved in CGWH than in CGH. Specifically, CHWH is closed under pushouts, one leg of which is the inclusion of a closed subspace. CGH does not have such nice behavior, and pushouts like that are used all over _The Geometry of Iterated Loop Spaces_, specifically in the construction of a monad from an operad and in the use of geometric realizations of simplicial spaces.
 
