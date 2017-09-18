@@ -26,11 +26,12 @@ A _super-translation group_  is a [[supergroup]] generalization of the [[transla
 Given a [[super Poincaré Lie algebra]] extension $\mathfrak{siso}_N(d-1,1)$ of a [[orthogonal Lie algebra]] $\mathfrak{so}(d-1,1)$ for some [[spin representation]] $N$, then the corresponding _super-translation Lie algebra_ is the [[quotient]]
 
 $$
-  \mathbb{R}^{d;N}
+  \mathbb{R}^{d-1,1\vert N}
   \coloneqq
   \mathfrak{siso}_N(d-1,1)/\mathfrak{o}(d-1,1)
-  \,.
 $$
+
+See at _[[super Minkowski spacetime]]_.
 
 The underlying [[super vector space]] of this is
 
@@ -162,3 +163,6 @@ and more generally in the context of [[schreiber:The brane bouquet]] in
 
 [[!redirects super translation group]]
 [[!redirects super translation groups]]
+
+[[!redirects translation supergroup]]
+[[!redirects translation supergroups]]
