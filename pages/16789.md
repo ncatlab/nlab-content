@@ -49,20 +49,20 @@ $$
 Here the idea is that $S^7$ may be construed as 
 
 $$
-  \begin{array}
+  \array{
   S^7  
     &\simeq
   S(\mathbb{H}^4)
   \\
   & \simeq
   \{(x, y) \in \mathbb{H}^2: {|x|}^2 + {|y|}^2 = 1\}, 
-  \end{array}
+ }
 $$
 
 with $p$ mapping $(x, y)$
-to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parametrized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
+to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \cong S^4$, with each [[fiber]] a [[torsor]] parameterized by quaternionic [[scalars]] $\lambda$ of unit [[norm]] (so $\lambda \in S^3$).  This canonical $S^3$-bundle (or $SU(2)$-bundle) is classified by a map $S^4 \to \mathbf{B} SU(2)$. 
 
-{#HopfParameterization} There are other useful ways to paramerize the quaternionic Hopf fibration, such as the original _[[Hopf construction]]_, see there the section _[Hopf fibrations](Hopf+construction#HopfFibrations)_. By this paramterization $S^4$ is identified as $S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})$.
+{#HopfParameterization} There are other useful ways to parameterize the quaternionic Hopf fibration, such as the original _[[Hopf construction]]_, see there the section _[Hopf fibrations](Hopf+construction#HopfFibrations)_. By this parameterization $S^4$ is identified as $S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})$.
 
 ### Exotic smooth structures
 
@@ -91,7 +91,7 @@ and then acting by left multipication.
 #### Circle action
   {#CircleAction}
 
-As a sspecial case of the $SU(2)$-action from [above](#QuaternionAction), we discuss the induced circle action via the embedding
+As a special case of the $SU(2)$-action from [above](#QuaternionAction), we discuss the induced circle action via the embedding
 
 $$
   S^1 \simeq U(1) \hookrightarrow SU(2)
