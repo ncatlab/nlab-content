@@ -141,7 +141,7 @@ $$
 ### Hopf fibrations
  {#HopfFibrations}
 
-When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^0 = \mathbb{Z}/2$ the [[group of order 2]], $S^ = U(1)$ the [[circle group]], the [[3-sphere]] [[special unitary group]] $S^3 = SU(2)$;  or the [[7-sphere]] $S^7$ with its [[Moufang loop]] structure, then the Hopf construction produces the four _[[Hopf fibrations]]_:
+When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^0 = \mathbb{Z}/2$ the [[group of order 2]], $S^1 = U(1)$ the [[circle group]], the [[3-sphere]] [[special unitary group]] $S^3 = SU(2)$;  or the [[7-sphere]] $S^7$ with its [[Moufang loop]] structure, then the Hopf construction produces the four _[[Hopf fibrations]]_:
 
 1. $S^0 \hookrightarrow S^1 \to S^1 $ -- [[real Hopf fibration]]
 1. $ S^1 \hookrightarrow S^3 \to S^2 $ -- [[complex Hopf fibration]]
