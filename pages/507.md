@@ -168,6 +168,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[limit]]
 
+* [[dependent product]], [[dependent sum]]
+
 #### B1.5 Descent conditions and stacks
 
 * [[descent]]
@@ -188,7 +190,9 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 #### B2.3 Internal categories and diagram categories
 
-* [[internal category]]
+* [[internal category]], [[internal diagram]]
+
+* [[internal (co-)limit]]
 
 #### B2.4 The indexed adjoint functor theorem
 
