@@ -20,6 +20,8 @@ The __free inflattice__ on $X$ is slightly less natural; of course, we can take 
 
 $Sup Lat$ is a [[monoidal category]]; it admits a [[tensor product]] which represents [[binary morphisms]]: functions which preserve joins separately in each variable.  A [[monoid object|monoid]] in $Sup Lat$ is a __[[quantale]]__, including [[frames]] as a special case.
 
+In fact, $Sup Lat$ is even a [[star-autonomous category]], and *a fortiori* a [[linearly distributive category]].  The dual of a suplattice is its opposite poset, which is also a suplattice since every suplattice is also an inflattice.
+
 
 ## In weak foundations
 
