@@ -1,6 +1,18 @@
-
-| [[abelian groups]] | [[spectra]] |
-|--------------------|-------------|
-| $\oplus$ [[direct sum]]  | $\vee$ [[wedge sum]]  |
-| $\otimes$ [[tensor product of abelian groups|tensor product]] | $\wedge$ [[smash product of spectra|smash product]] |
-  
+$$
+  \array{
+    E \otimes A \otimes E
+    & 
+    \underoverset
+      {\underset{}{\longrightarrow}}
+      {\overset{}{\longrightarrow}}
+      {\phantom{AAA}}
+    &
+    E \otimes E
+     &\overset{coeq}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    && & {}_{\mathllap{\mu_A}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && && A
+  }
+$$
