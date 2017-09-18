@@ -13,8 +13,7 @@ $$
 
 of a group $G$ on a set $X$ is **transitive** if it has a single [[orbit]], i.e., if for every two points $x,x'$ there exists $g\in G$ such that $x' = \rho(g,x)$.  A set equipped with a transitive action of $G$ (and which is [[inhabited]]) is the same thing as a [[connected object]] in the category $G Set$.
 
-More generally, an action of $G$ on $X$ is said to be _$k$-transitive_ if the 
-componentwise-action of $G$ on $X^k$ is transitive.  For example, $\rho$ is said to be 3-transitive if for any two ordered triples $(x_1,x_2,x_3)$ and $(x_1',x_2',x_3')$, there exists $g \in G$ such that $x_1' = \rho(g,x_1)$ and $x_2' = \rho(g,x_2)$ and $x_3' = \rho(g,x_3)$.
+More generally, an action $G \times X \to X$ is said to be _$k$-transitive_ if the componentwise-action $G \times (X^k \setminus \Delta) \to (X^k \setminus \Delta)$ of $G$ on tuples of $k$ distinct points is transitive.  (For instance, an action is 3-transitive if any triple of distinct points can be mapped by the componentwise-action to any other triple of distinct points.)
 
 ## Examples
 
