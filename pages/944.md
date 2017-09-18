@@ -65,6 +65,10 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 
 ## Related concepts
 
+* [[empty space]], [[point space]]
+
+* [[Cantor space]]
+
 * [[Sierpinski topos]], [[Sierpinski (∞,1)-topos]]
 
 * [[Stone duality]]
