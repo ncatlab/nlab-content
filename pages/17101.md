@@ -5,6 +5,8 @@
 
 ## related $n$Lab entries
 
+* [[Stiefel manifold]]
+
 * [[EHP spectral sequence]]
 
 * [[Handbook of Algebraic Topology]]
