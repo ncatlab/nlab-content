@@ -5,7 +5,9 @@
 
 ## Idea
 
-Where 
+The idea of cyclic homology can be generalized to other [[skew-simplicial group]]s as shown by Krasauskas and independently by Fiodorowicz. The simplest analogue is the dihedral homology.
+
+There is also a geometric analogy where 
 
 * _[[Hochschild homology]]_ is essentially the cohomology of [[free loop spaces]];
 
