@@ -1,0 +1,8 @@
+
+* [webpage](https://nikitamarkarian.wordpress.com)
+
+## related $n$Lab entries
+
+* [[Weyl n-algebra]]
+
+category: people
