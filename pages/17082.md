@@ -68,6 +68,9 @@ from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles c
 
 * [[separation axioms in terms of lifting properties]]
 
+* [Tychonoff theorem -- Proof via lifting properties](Tychonoff+theorem#ProofViaTaimanovTheoremAndLiftingProperties)
+
+
 ## Related concepts
 
 * [[factorization system]]
