@@ -42,7 +42,7 @@ These ideas have been formalized in [[type theory]], where they serve to set up 
 It is direct and natural to represent formally the notion of Bishop sets
 in [[type theory]]. See for instance ([Palmgren05](#Palmgren05)) for an exposition and ([Coquand-Spiwack, section 3](#CoquandSpiwack)) for a brief list of the axioms.
 
-In the context of type theory a Bishop set is sometimes called a __setoid__.
+In the context of type theory a Bishop set is sometimes called a __[[setoid]]__.
 
 
 ## Properties
@@ -118,8 +118,6 @@ See also
 
 * [Discussion](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c029271) on categorical aspects of the setoid construction. 
 
+
 [[!redirects Bishop set]]
 [[!redirects Bishop sets]]
-
-[[!redirects setoid]]
-[[!redirects setoids]]
