@@ -32,8 +32,8 @@ A\mathrlap{\underoverset{\textsize{F_1}}{\textsize{G_1}}{\begin{matrix}\begin{sv
 <svg width="76" id="curvearrows3466" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3466">
  <g>
   <title>Layer 1</title>
-  <path marker-end="url(#se_marker_end_svg_3466_2)" id="svg_3466_2" d="m1,15.75c23.958326,-15 51.865845,-15 71.875,0" stroke="#000000" fill="none"/>
-  <path marker-end="url(#se_marker_end_svg_3466_2)" id="svg_3466_3" d="m1,26c23.874994,14.33334 44.37941,15.66666 71.625,1" stroke="#000000" fill="none"/>
+  <path marker-end="url(#se_marker_end_svg_3466_2)" id="svg_3466_2" d="m1,16c24,-15 52,-15 72,0" stroke="#000000" fill="none"/>
+  <path marker-end="url(#se_marker_end_svg_3466_2)" id="svg_3466_3" d="m1,26c24,15 44,15 72,0" stroke="#000000" fill="none"/>
  </g>
  <defs>
   <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_3466_2">
@@ -49,8 +49,8 @@ A
 <svg width="86" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3467">
  <g>
   <title>Layer 1</title>
-  <path fill="none" stroke="#000000" d="m1,15.75c27.249996,-15 58.991756,-15 81.75,0" id="svg_3467_2" marker-end="url(#se_marker_end_svg_3467_2)"/>
-  <path fill="none" stroke="#000000" d="m1,26c26.999989,14.33334 50.188232,15.66666 81,1" id="svg_3467_3" marker-end="url(#se_marker_end_svg_3467_2)"/>
+  <path fill="none" stroke="#000000" d="m1,16c27,-15 59,-15 82,0" id="svg_3467_2" marker-end="url(#se_marker_end_svg_3467_2)"/>
+  <path fill="none" stroke="#000000" d="m1,26c27,15 50,15 82,1" id="svg_3467_3" marker-end="url(#se_marker_end_svg_3467_2)"/>
  </g>
  <defs>
   <marker id="se_marker_end_svg_3467_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
