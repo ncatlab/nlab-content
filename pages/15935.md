@@ -25,14 +25,14 @@
 
 ## Idea
 
-An _anti-reduced object_ is one whose [[reduced object|reduction]] is the point, hence one consisting entirely of "[[infinitesimal object|infinitesimal]] extension", i.e. an [[infinitesimally thickened point]].
+An _anti-reduced object_ or simple _infinitesimal type_ is one whose [[reduced object|reduction]] is the point, hence one consisting entirely of "[[infinitesimal object|infinitesimal]] extension", i.e. an [[infinitesimally thickened point]].
 
 ## Definition
 
-In the context of [[differential cohesion]], an anti-reduced obect is an [[anti-modal type]] $X$ for the [[reduction modality]] $\Re$
+In the context of [[differential cohesion]], an anti-reduced obect is an [[comodal type]] $X$ for the [[infinitesimal shape modality]] $\Im$
 
 $$
-  \Re(X) \simeq \ast
+  \Im(X) \simeq \ast
   \,.
 $$
 
@@ -49,3 +49,6 @@ In [[homotopy type theory]]/[[higher topos theory]] anti-reduced types are essen
 
 
 [[!redirects anti-reduced obects]]
+
+[[!redirects infinitesimal type]]
+[[!redirects infinitesimal types]]
