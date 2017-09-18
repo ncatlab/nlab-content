@@ -21,7 +21,7 @@ To each ribbon graph, one can associate an [[orientation|oriented]] [[surface]] 
 
 ## Definition
 
-The following definion of an ordinary [[graph]] is not the standard one used for ordinary graphs, but is easily seen to be equivalent to it, while being the right starting point for describing ribbon graphs.
+The following definion of an ordinary [[graph]] (allowing loops and multiple edges) is not the standard one used for ordinary graphs, but is easily seen to be equivalent to it, while being the right starting point for describing ribbon graphs.
 
 +-- {: .num_defn}
 ###### Definition
