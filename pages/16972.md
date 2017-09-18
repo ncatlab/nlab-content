@@ -1,0 +1,57 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _quaternionic Hopf fibration_ is the [[fibration]]
+
+
+$$
+  \array{
+     S^3 &\hookrightarrow& S^7
+     \\
+     && \downarrow^{\mathrlap{p_{\mathbb{H}}}}
+     \\
+     && S^4
+  }
+$$
+
+of the [[7-sphere]] over the [[4-sphere]] with [[fiber]] the [[3-sphere]], which is induced via the [[Hopf construction]] from the product operation 
+
+$$
+  \mathbb{H} \times \mathbb{H} \stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}
+  \mathbb{H}
+$$
+
+on the [[quaternions]]. This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given simply by
+
+$$
+  p \colon (x,y) \mapsto [x;y] = [x/y; 1]
+  \,,
+$$
+
+
+## Properties
+
+### Equivariant structure
+
+### Class in the homotopy groups of spheres
+
+The quaternionic Hopf fibration gives an element in the 7th [[homotopy group of sphere|homotopy group of the 4-sphere]]
+
+$$
+  [p_{\mathbb{H}}] \in \pi_7(S^4) \simeq \mathbb{Z}
+$$
+
+and in fact it is a generator in this group.
+
+Stably, i.e. as a generator for the [[stable homotopy groups of spheres]] in degree $7-4 = 3$, the quaternionic Hopf map becomes a [[torsion subgroup|torsion]] generator
+
+$$
+  [p_{\mathbb{H}}] \in \pi_3^S \simeq \mathbb{Z}/24
+  \,,.
+$$
+
+
