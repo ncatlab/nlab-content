@@ -41,7 +41,7 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 * Lecture 5 _Complex bordism_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
-* Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
+* Lecture 6 _[[MU and complex orientations]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
 * Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
