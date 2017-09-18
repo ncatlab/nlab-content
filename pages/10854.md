@@ -74,9 +74,11 @@ More generally, for $\chi$ an $R$-[[(∞,1)-line bundle]] over $X$ then the corr
 
 Assume we are working in the context of a [[cohesive (∞,1)-topos]], $\mathbf{H}$, with the three [[adjoint modalities]], [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] $\int \dashv \flat \dashv \sharp$.
 
-The types $X$ that are fully determined by their moment of continuity are those for which $X \to \sharp X$ is a [[monomorphism]]. In [[categorical semantics]] these are the [[concrete objects]] or equivalently the [[separated presheaves]] for $\sharp$: they are determined by their global points. These are the codomains of those [[functions]] which in [[thermodynamics]] one calls _intensive quantities_, functions whose value is genuinely given by their restriction to all possible points.
+We may characterize the codomains of those [[functions]] which are _intensive_ or _extensive quantities_ in terms of $\sharp$.
 
-Contrary to that, objects which have purely the [[negative moment]] of continuity $\overline{\sharp}$ are codomains for "functions" which vanish on points and receive their contribution only from regions that _extend_ beyond a single point. In [[thermodynamics]] these are called _extensive quantities_, (e.g. [[differential forms]] in positive degree). This concept of _extension_ is precisely that which gave the name to [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ that introduced the concept of [[exterior algebra|exterior]] [[differential form]].
+* **Intensive**: functions whose value is genuinely given by their restriction to all possible points have as codomains types $X$ that are fully determined by their moment of continuity, that is those for which $X \to \sharp X$ is a [[monomorphism]]. In [[categorical semantics]] these are the [[concrete objects]] or equivalently the [[separated presheaves]] for $\sharp$: they are determined by their global points. 
+
+* **Extensive**: objects which have purely the [[negative moment]] of continuity $\overline{\sharp}$, or, in other words, which are maximally  non-concrete, form codomains for "functions" which vanish on points and receive their contribution only from regions that _extend_ beyond a single point. For example, the smooth moduli space of differential $n$-forms is maximally non-concrete. This concept of _extension_ is precisely that which gave the name to [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ that introduced the concept of [[exterior algebra|exterior]] [[differential form]].
 
 So, the adjunction $(\flat \dashv \sharp)$ expresses _quantity_, discrete quantity and continuous quantity, and the latter is further subdivided into intensive and extensive quantity.
 
