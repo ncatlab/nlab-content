@@ -1,8 +1,14 @@
 
+Jerome Gauntlett is professor for theoretical [[physics]] at Imperial College London.
+
 * [webpage](http://www3.imperial.ac.uk/people/j.gauntlett)
 
 ## related $n$Lab entries
 
 * [[supermembrane in 4d]]
+
+* [[associative submanifold]]
+
+* [[Green-Schwarz action functional]], [[BPS charges]]
 
 category: people
