@@ -49,8 +49,14 @@ From the description of the 2015 EPSRC research grant _[Homotopy Type Theory: Pr
 
 Discussion of the need for certified programming in scientific computation is in 
 
-* [[Bas Spitters]], Robberts Krebbers, Eelis van der Weegen, _From computational analysis to thoughts about analysis in HoTT_, MAP International spring school on formalization of Mathematics (2012) ([pdf](http://www.cs.ru.nl/~spitters/MapSpringSchool.pdf))
- {#SpittersKrebbersvdWeegen}
+* {#SpittersKrebbersvdWeegen} [[Bas Spitters]], Robberts Krebbers, Eelis van der Weegen, _From computational analysis to thoughts about analysis in HoTT_, MAP International spring school on formalization of Mathematics (2012) ([pdf](http://www.cs.ru.nl/~spitters/MapSpringSchool.pdf))
  
+Sources listing real-world issues programming issues that might motivate verification of software include
+
+* _[Some disasters caused by numerical errors](http://ta.twi.tudelft.nl/users/vuik/wi211/disasters.html)_
+
+* Wikipedia, _[List of software bugs](https://en.wikipedia.org/wiki/List_of_software_bugs)_
+ 
+
 [[!redirects verified software]]
 [[!redirects software verification]]
