@@ -66,7 +66,7 @@ A groupoid $G$ is _[[connected groupoid|connected]]_, or _[[transitive groupoid|
 
 2. A [[disjoint union]] of (the one-object groupoids corresponding to) groups is naturally a groupoid, also called a _bundle of groups_.  The [[axiom of choice]] is equivalent to the claim that any groupoid is equivalent to one of this form.
 
-3. From any [[group action|action]] of a [[group]] $H$ on a [[set]] $X$ we obtain an [[action groupoid]] or "[[weak quotient]]" $X//H$. This is also written $X \rtimes H$, a semidirect product, since it is a special case of the semidirext product of an action of a groupoid on a groupoid.  If $X=\{*\}$ this gives the groupoid $\mathbf{B}H$, above. 
+3. From any [[group action|action]] of a [[group]] $H$ on a [[set]] $X$ we obtain an [[action groupoid]] or "[[weak quotient]]" $X/ \!\! /H$. This is also written $X \rtimes H$, a semidirect product, since it is a special case of the semidirext product of an action of a groupoid on a groupoid.  If $X=\{*\}$ this gives the groupoid $\mathbf{B}H$, above. 
 
 4. A [[setoid]], that is a set $X$ equipped with an [[equivalence relation]] $E$, becomes a groupoid with the multiplication $(x,y);(y,z) = (x,z)$ for all $(x,y), (y,z) \in E$.  (This gives one reason for the forward notation for composition.)  Such a groupoid is equivalent to the [[discrete category]] on the [[quotient set]] $X/E$.
 
