@@ -8,6 +8,10 @@ Eric Friedlander is an American mathematician, who has worked extensively in alg
 
 * [[Bousfield-Friedlander model structure]]
 
+* [[Bousfield-Friedlander theorem]]
+
+* [[proper model category]]
+
 * [[étale homotopy]]
 
 * [[Nisnevich site]]
