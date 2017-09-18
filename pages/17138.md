@@ -927,7 +927,7 @@ $$
     \\
     & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
     \\
-    id_A \colon & A &\longrightarrow& Y &\longrightarrow& A
+    id_B \colon & B &\longrightarrow& Y &\longrightarrow& B
   }
   \,.
 $$
@@ -961,6 +961,75 @@ $$
 1. If $f$ has the [[left lifting property]] against $p$, then $f$ is a [[retract]] of $i$.
 
 1. If $f$ has the [[right lifting property]] against $i$, then $f$ is a [[retract]] of $p$.
+
+=--
+
++-- {: .proof}
+###### Proof 
+(of lemma \ref{RetractArgument})
+
+We discuss the first statement, the second is [[formal duality|formally dual]].
+
+Write the factorization of $f$ as a [[commuting square]] of the form
+
+$$
+  \array{
+    X &\stackrel{i}{\longrightarrow}& A 
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    Y &= & Y
+  }
+  \,.
+$$
+
+By the assumed [[lifting property]] of $f$ against $p$ there exists a diagonal filler $g$ making a [[commuting diagram]] of the form
+
+$$
+  \array{
+    X &\stackrel{i}{\longrightarrow}& A 
+    \\
+    {}^{\mathllap{f}}\downarrow &{}^{\mathllap{g}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    Y &= & Y
+  }
+  \,.
+$$
+
+By rearranging this diagram a little, it is equivalent to 
+
+$$
+  \array{
+    & X &=& X 
+    \\
+    & {}^{\mathllap{f}}\downarrow 
+     &&
+    {}^{\mathllap{i}}\downarrow 
+    \\
+    id_Y \colon & Y &\underset{g}{\longrightarrow}& A &\underset{p}{\longrightarrow}&
+    Y
+  }
+  \,.
+$$
+
+Completing this to the right, this yields a diagram exhibiting the required retract according to remark \ref{RetractsOfMorphisms}:
+
+$$
+  \array{
+    id_X \colon & X &=& X &=& X
+    \\
+    & {}^{\mathllap{f}}\downarrow 
+     &&
+    {}^{\mathllap{i}}\downarrow 
+     &&
+     {}^{\mathllap{f}}\downarrow
+    \\
+    id_Y \colon & Y &\underset{g}{\longrightarrow}& A &\underset{p}{\longrightarrow}&
+    Y
+  }
+  \,.
+$$
+
 
 =--
 
