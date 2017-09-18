@@ -70,7 +70,7 @@ category theory_, ([arXiv:0109021](http://arxiv.org/abs/math/0109021))
 
 Makkai and collaborators introduced a slight variation they called 'multitopes':
 
-* {#HermidaMakkaiPower01} [[Claudio Hermida]], [[Michael Makkai]], [[John Power]], _On weak higher-dimensional categories I, II_ _Jour. Pure Appl. Alg._ **157** (2001), 221--277 ([journal](http://www.sciencedirect.com/science/article/pii/S0022404999001796), [ps.gz files](http://www.math.mcgill.ca/makkai/multitopicsets/))
+* {#HermidaMakkaiPower01} [[Claudio Hermida]], [[Michael Makkai]], [[John Power]], _On weak higher-dimensional categories I, II_ _Jour. Pure Appl. Alg._ **157** (2001), 221--277 ([journal](http://www.sciencedirect.com/science/article/pii/S0022404999001796), [ps.gz files](http://www.math.mcgill.ca/makkai/multitopicsets/), [[HermidaMakkaiPower01.pdf:file]])
 
 * {#Makkai} [[Michael Makkai]], The multitopic $\omega$-category of all multitopic $\omega$-categories. 
 ([pdf](http://www.math.mcgill.ca/makkai/mltomcat04/mltomcat04.pdf), [web](http://www.math.mcgill.ca/makkai/mltomcat04/))
@@ -106,8 +106,6 @@ The variant of [Palm opetopic omega-categories](opetopic+omega-category#Definiti
 A [[syntax|syntactic]] formalization of [[opetopic omega-categories]] in terms of [[opetopic type theory]] is in 
 
 * {#Finster12} [[Eric Finster]], _Type Theory and the Opetopes_, talk at [Polish Seminar on Category Theory and its Applications, June 2012](http://www.mimuw.edu.pl/~zawado/SemTK/OSTKA.html)  ([pdf](http://sma.epfl.ch/~finster/opetope/types-and-opetopes.pdf))
-
-
 
 
 
