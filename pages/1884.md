@@ -127,28 +127,31 @@ $$
 Write 
 
 $$
-  \tilde K(X) := Vect(X)_\sim
+  \tilde K(X) := Vect(X)/\sim
 $$
 
-for the [[quotient set]] of [[equivalence class]]es. 
+for the [[quotient set]] of [[equivalence class|equivalence classes]]. We also define the slightly coarser equivalence relation $E_1 \sim_s E_2$ where in the above definition of $\sim$ we force $k=l$. The set of equivalence classes for this equivalence relation is denoted
+$$
+K(X) := Vect(X)/{\sim_s}.
+$$
 
 =--
 
 +-- {: .num_prop #KGroupIsIndeedAGroup}
 ###### Proposition
 
-With $X$ compact Hausdorff as in the assumption, we have that fiberwise [[direct sum]] of vector bundles equips $\tilde K(X)$ with the structure of an [[abelian group]]. Together with the fiberwise [[tensor product]] of vector bundles this yields a [[ring]]. 
+With $X$ compact Hausdorff as in the assumption, we have that fiberwise [[direct sum]] of vector bundles equips $\tilde K(X)$ and $K(X)$ with the structure of an [[abelian group]]. Together with the fiberwise [[tensor product]] of vector bundles this makes $K(X)$ a [[ring]] and $\tilde K(X)$ a nonunital ring.  
 
 =--
 
-Therefore $K(X)$ is called the **topological K-theory ring** of $X$ or just the **K-theory group** or even just the **K-theory** of $X$, for short.
+Therefore $K(X)$ is called the **topological K-theory ring** of $X$ or just the **K-theory group** or even just the **K-theory** of $X$, for short. The smaller ring $\tilde K(X)$ is called the **reduced K-theory** of $X$.
 
 +-- {: .proof}
 ###### Proof
 
-The non-trivial part of the statement is that in $K(X)$ there is an [[inverse]] to the operation of direct sum of vector bundles. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
+The non-trivial part of the statement is that in $\tilde K(X)$ and $K(X) there is an [[inverse]] to the operation of direct sum of vector bundles. Because in $Vect(X)$ direct sum acts by addition of the ranks of vector bundles, it clearly has no inverse in $Vect(X)$.
 
-On the other hand, clearly the K-class $[I^n]$ of any trivial bundle $I^n$ is the neutral element in $K(X)$
+On the other hand, clearly the K-class $[I^n]$ of any trivial bundle $I^n$ is the neutral element in $\tilde K(X)$
 
 $$
   [I^n] = 0
