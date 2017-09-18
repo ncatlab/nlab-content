@@ -57,9 +57,7 @@ $$
   \mathbf{H}_{th}
 $$
 
-where $i_!$ is  a [[full and faithful (∞,1)-functor|full and faithful]] and [[left exact (∞,1)-functor]]
-
-> This used to demand instead of left exactness just preservation of finite products, and this is still what is considered in some related entries...
+where $i_!$ is  a [[full and faithful (∞,1)-functor|full and faithful]] and preserves [[finite products]].
 
 Equivalently this means that $(i_! \dashv i^\ast) \colon \mathbf{H}_{th} \longrightarrow \mathbf{H}$ is a [[local geometric morphism]] with a further [[right adjoint]] to the right adjoint to the [[direct image]].
 
