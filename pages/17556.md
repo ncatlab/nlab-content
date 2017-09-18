@@ -1,0 +1,9 @@
+## Idea
+
+A [[symmetric sequence]] in a symmetric monoidal category $C$ can be thought of as a functor $\Sigma\to C$, where $\Sigma$ is the category of finite ordinals with functions between them. One use of this idea is to define [[operads]] as commutative monoids in symmetric sequences (with a certain [[composition product]]). However, operads defined in this way are necessarily operads with _one color_. To define colored operads, one has to generalize the category $\Sigma$.
+
+## Definition
+
+Let $\mathfrak{C}$ be a set that we will refer to as the set of _colors_. Define the category of $\mathfrak{C}$-profiles, denoted $P(\mathfrak{C})$, to be the groupoid whose objects are finite lists of elements of $\mathfrak{C}$ and in which there is an isomorphism $\vec{c}=\{c_1,\ldots,c_n\}\to \vec{d}=\{d_1,\ldots,d_n\}$ if $\vec{d}$ is a permutation of $\vec{c}$. Note that if $\mathfrak{C}=1$ then we recover the category $\Sigma$ of finite [[ordinals]] and [[bijections]].  
+
+A **symmetric $\mathfrak{C}$-colored sequence** in a [[category]] $C$ is then a functor $P(\mathfrak{C})\to C$. 
