@@ -162,9 +162,11 @@ is itself again an [[(∞,1)-topos]] ([Joyal 08, section 35.5](#Joyal08)), see a
 
 * [[stable homotopy type]]
 
+* [[cospectrum]]
+
 ## References
 
-Discussion in terms of [[(stable (infinity,1)-categories]] is in 
+Discussion in terms of [[stable (infinity,1)-categories]] is in 
 
 * {#StabCat} [[Jacob Lurie]], section 8 of _[[Stable Infinity-Categories]]_
   
