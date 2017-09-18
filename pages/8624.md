@@ -37,4 +37,6 @@ Where the [[categorical semantics]] of an [[inductive type]] is an [[initial alg
 
 * [[coinductive definition]]
 
+* [[inductive type]]
+
 [[!redirects coinductive types]]
