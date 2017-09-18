@@ -147,6 +147,9 @@ Dually in [[non-commutative topology]] the one-point compactification correspond
 ## Properties
 
 ### Basic properties
+ {#BasicProperties}
+
+We discuss the basic properties of the construction $X^\ast$ in def. \ref{OnePointExtension}, in particular that it always yields a [[compact topological space]] (prop. \ref{OnePointExtensionIsCompact} below) and the ingredients needed to see its [[universal property]] in the Hausdorff case [below](#OnePointExtensionIsCompact).
 
 +-- {: .num_prop #OnePointExtensionIsCompact}
 ###### Proposition
@@ -259,12 +262,17 @@ Regarding the third point: We need to show that $i \colon X \to i(X) \subset X^\
 
 
 ### Universal property
+  {#UniversalProperty}
 
-As a pointed compact Hausdorff space, the one-point compactification of $X$ may be described by a [[universal property]]: for every pointed compact Hausdorff space $(Y, y_0)$ and every continuous map $f: X \to Y$ such that $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$, there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. This describes $X^\ast$ in an [[essentially unique]] manner.
+As a [[pointed topological space|pointed]] [[compact Hausdorff space]], the one-point compactification of $X$ may be described by a [[universal property]]: 
 
-$X$ is [[dense subspace|dense]] in $X^*$ iff $X$ is not already compact.  Note that $X^*$ is technically a [[compactification]] of $X$ only in this case.
+For every [[pointed topological space|pointed]] [[compact topological space|compact]] [[Hausdorff space]] $(Y, y_0)$ and every [[continuous map]] $f \colon X \to Y$ such that the [[pre-image]] $f^{-1}(K)$ is compact for all compact sets $K$ not containing $y_0$, there is a unique basepoint-preserving continuous map $X^\ast \to Y$ that extends $f$. 
 
-$X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]].
+This property characterizes $X^\ast$ in an [[essentially unique]] manner.
+
+$X$ is [[dense subspace|dense]] in $X^*$ precisely if $X$ is not already compact.  Note that $X^*$ is technically a [[compactification]] of $X$ only in this case.
+
+$X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]] (see prop. \ref{HausdorffOnePointCompactification}).
 
 ### Functoriality
 
@@ -275,14 +283,38 @@ The operation of one-point compactification is not a [[functor]] on the whole [[
 ### Spheres
  {#ExamplesSpheres}
 
-For $n \in \mathbb{N}$ the $n$-[[sphere]] (as a [[topological space]]) is the [[one-point compactification]] of the [[Cartesian space]] $\mathbb{R}^n$
++-- {: .num_example #nSphereIsOnePointCompactificationOfRn}
+###### Example
+
+For $n \in \mathbb{N}$ the [[n-sphere]] with its standard [[topological space|topology]] (e.g. as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ with its [[metric topology]]) is [[homeomorphism|homeomorphic]] to the one-point compactification (def. \ref{OnePointExtension}) of the [[Euclidean space] $\mathbb{R}^n$
 
 $$
   S^n \simeq (\mathbb{R}^n)^\ast
   \,.
 $$
 
-Via this presentation of the $n$-sphere the canonical [[action]] of the [[orthogonal group]] $O(N)$ on $\mathbb{R}^n$ induces an action of $O(n)$ on $S^n$, which preserves the basepoint (the "point at infinity").
+=--
+
++-- {: .proof}
+###### Proof
+
+Pick a point $\infty \in S^n$. By [[stereographic projection]] we have a [[homeomorphism]]
+
+$$
+  S^n \setminus \{\infty\} \simeq \mathbb{R}^n
+  \,.
+$$
+
+With this it only remains to see that for $U_\infty \supset \{\infty\}$ an open neighbourhood of $\infty$ in $S^n$ then the complement $S^n \setminus U_\infty$ is compact closed, and cnversely that the complement of every compact closed subset of $S^n \setminus \{\infty\}$ is an open neighbourhood of $\{\infty\}$.
+
+Observe that under [[stereographic projection]] the open subspaces $U_\infty \setminus \{\infty\} \subset S^n \setminus \{\infty\}$ are identified precisely with the [[closed subset|closed]] and [[bounded subsets]] of $\mathbb{R}^n$. (Closure is immediate, boundedness follows because an open neighbourhood of $\{\infty\} \in S^n$ needs to contain an open ball around $0 \in \mathbb{R}^n \simeq S^n \setminus \{-\infty\}$ in the _other_ stereographic projection, which under change of chart gives a bounded subset. )
+
+By the [[Heine-Borel theorem]] the closed and bounded subsets of $\mathbb{R}^n$ are precisely the compact, and hence the compact closed, subsets of $\mathbb{R}^n \simeq S^n \setminus \{\infty\}$.
+
+
+=--
+
+Via the presentation of example \ref{nSphereIsOnePointCompactificationOfRn}, the canonical [[action]] of the [[orthogonal group]] $O(N)$ on $\mathbb{R}^n$ induces an action of $O(n)$ on $S^n$, which preserves the basepoint $\infty$ (the "point at infinity").
 
 This construction presents the [[J-homomorphism]] in [[stable homotopy theory]] and is encoded for instance in the definition of [[orthogonal spectra]].
 
