@@ -60,6 +60,8 @@ are the same as [[natural transformations]] between functors between $X$ and $Y$
 
 * [[arrow (∞,1)-topos]]
 
+* [[twisted arrow category]]
+
 
 [[!redirects arrow category]]
 [[!redirects arrow categories]]
