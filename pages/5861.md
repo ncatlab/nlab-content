@@ -511,6 +511,8 @@ $$
 
 We discuss how differential cohesion in the sense of def. \ref{InfinitesimalCohesiveInfTopos} relates to [[infinitesimal cohesion]].
 
+> under construction
+
 +-- {: .num_defn #InducedRelativeShapeAndFlat}
 ###### Definition
 
@@ -518,11 +520,11 @@ Given differential cohesion, def. \ref{InfinitesimalCohesiveInfTopos},
 
 $$
   \array{
-     \Re &\dashv& $&#643;_{inf} &\dashv& \flat_{inf}
+     \Re &\dashv& &#643;_{inf} &\dashv& \flat_{inf}
      \\
      && \vee && \vee
      \\
-     && $&#643; &\dashv& \flat &\dashv& \sharp
+     && &#643; &\dashv& \flat &\dashv& \sharp
   }
 $$
 
@@ -583,11 +585,11 @@ It follows that when $\flat^{rel}$ has a further [[right adjoint]] $\sharp^{rel}
 
 $$
   \array{
-     \flat &\dashv& \sharp
+     \flat^{rel} &\dashv& \sharp^{rel}
      \\
      \vee && \vee
      \\
-     \flat^{rel} &\dashv& \sharp^{rel}
+     \flat &\dashv& \sharp
      \\
      \vee && \vee 
      \\
@@ -597,6 +599,10 @@ $$
 
 hence an intermediate subtopos 
 $\infty Grpd \hookrightarrow \mathbf{H}_{infinitesimal}\hookrightarrow \mathbf{H}_{th}$ which is [[infinitesimal cohesion|infinitesimally cohesive]].
+
+This happens notably for the model of [[formal smooth ∞-groupoids]] and all its variants such as formal [[complex analytic ∞-groupoids]] etc. But in this case $(\flat^{rel} \dashv \sharp^{rel})$ does not provide  [[Aufhebung]] for $(\flat \dashv \sharp)$.
+
+(...)
 
 
 
@@ -1530,6 +1536,7 @@ Inspection shows that this composite sends an object $A \in \infty Grpd$ to
 $\mathbf{\Pi}_{inf}(Disc(A)) \times X \to X$:
 
 $$
+
   \array{
     \mathbf{\Pi}_{inf}(Disc(A)) \times X
      &\longrightarrow&
