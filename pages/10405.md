@@ -11,4 +11,7 @@ For $E \to X$ a [[bundle]] of [[smooth manifolds]], then the _jet prolongation_ 
 
 * [[local Lagrangian]]
 
+[[!redirects jet prolongations]]
+
+[[!redirects jet prolongation map]]
 [[!redirects jet prolongation maps]]
