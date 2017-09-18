@@ -425,8 +425,16 @@ which sends $g \mapsto g^* \theta$, where $\theta$ is the [[Maurer-Cartan form]]
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+This is a general phenomenon in the context of [[Cartan connections]]. See there at _[Definition -- In terms of smooth moduli stacks](Cartan+connection#InTermsOfSmoothModuliStacks)_.
+
+=--
+
 +-- {: .proof}
-###### Proof
+###### Proof 
+**of prop. \ref{ThetaAsHomotopyFiberOfJ}**.
 
 We compute the [[homotopy pullback]] of $\mathbf{J}$ along the point inclusion by the [[factorization lemma]] as discussed at _[homotopy pullback -- Constructions](homotopy%20pullback#ConstructionsGeneral)_.
 
