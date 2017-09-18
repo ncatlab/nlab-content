@@ -16,7 +16,7 @@
 
 ## Idea
 
-In the [[category of sets]], we have a bijective correspondence (up to isomorphism) between surjective functions on $X$ and equivalence relations on $X$, where a surjective function $\pi : X \to Y$ is taken to the equivalence relation $E_{\pi}$ gotten by pulling back the diagonal of $Y$, and an equivalence relation $E$ is taken to the function $f_E$ which projects $X$ onto the set of $E$-classes. If we replace [[Set]] with the category of definable sets $\mathbf{Def}(T)$ of a first-order theory $T$, this correspondence generally fails, because when $E$ is a definable equivalence relation, there may not be a corresponding definable $f_E$. That is to say, [[internal congruences|internal congruences]] in $\mathbf{Def}(T)$ are not generally effective.
+In the [[category of sets]], we have a [[bijection|bijective correspondence]] (up to [[isomorphism]]) between [[surjective functions]] on $X$ and [[equivalence relations]] on $X$, where a surjective function $\pi \colon X \to Y$ is taken to the equivalence relation $E_{\pi}$ gotten by pulling back the [[diagonal]] of $Y$, and an equivalence relation $E$ is taken to the function $f_E$ which [[projection|projects]] $X$ onto the set of $E$-classes. If we replace [[Set]] with the category of [[definable sets]] $\mathbf{Def}(T)$ of a [[first-order theory]] $T$, this correspondence generally fails, because when $E$ is a definable equivalence relation, there may not be a corresponding definable $f_E$. That is to say, [[internal congruences|internal congruences]] in $\mathbf{Def}(T)$ are not generally effective.
 
 ## Definition ##
 
