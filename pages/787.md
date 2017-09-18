@@ -32,7 +32,7 @@ $$
   CE(\mathfrak{P})
 $$
 
-of degree -2 in non-degenerate. 
+of degree -2 is non-degenerate. 
 
 Therefore the [[differential]] $d_{CE(\mathfrak{P})}$ on $CE(\mathfrak{P})$ has a [[Hamiltonian]] with respect to this bracket in that there is an element $\Theta \in CE(\mathfrak{P})$ such that
 
