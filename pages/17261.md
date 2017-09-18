@@ -37,6 +37,49 @@ of the Kronecker pairing is an [[isomorphism]] and hence exhibits $E$-[[generali
 
 On finite [[CW-complexes]] $X$ the Kronecker pairing induces a pairing of the corresponding [[Atiyah-Hirzebruch spectral sequences]].
 
+## Definition
+
+Let $E$ be a [[ring spectrum]] with product denoted $\mu \colon E \wedge E \longrightarrow E$. Let $X,Y$ be any [[spectra]].
+
++-- {: .num_defn}
+###### Definition
+
+Given $[f] \in E^k(X)$ with representative $f \colon X \longrightarrow \Sigma^k E$ and given $[w] \in E_{n+k}(X \wedge Y)$ with representative $w \colon S^{n+k} \longrightarrow E \wedge X \wedge Y$, then their _Kronecker pairing_ is the element
+
+$$
+  \langle f,w\rangle \in E_n(Y)
+$$
+
+represented by the composite
+
+$$
+  S^{k+n} 
+    \stackrel{w}{\longrightarrow}
+  E\wedge X \wedge Y
+    \stackrel{id_E \wedge f \wedge id_Y}{\longrightarrow}
+  E \wedge \Sigma^k E \wedge Y
+   \stackrel{\Sigma^k \mu \wedge id_Y}{\longrightarrow}
+  \Sigma^k E \wedge Y
+  \,.
+$$
+
+This yields a homomorphism of [[graded abelian groups]]
+
+$$
+  \langle-,-\rangle
+   \;\colon\;
+  E^{\bullet_1}(X)
+   \otimes
+  E_{\bullet_2}(X \wedge Y)
+   \longrightarrow
+  E_{\bullet_2-\bullet_1}(Y)
+  \,.
+$$
+
+=--
+
+(e.g. [Kochmann 96, (4.2.1)](#Kochmann96), [Schwede 12, construction 6.13](#Schwede12))
+
 ## References
 
 * {#Kochmann96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
