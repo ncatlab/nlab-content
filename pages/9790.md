@@ -1,4 +1,10 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The _product law_ or _product rule_ or _[[Leibniz]] rule_ of [[differentiation]] says that for $f,g : X \to \mathbb{R}$ two [[differentiable functions]] and $f g$ their (pointwise) product the [[derivative]] of their product is
 
 $$
@@ -40,6 +46,10 @@ $$(F \otimes G)^{(X)} \cong \sum_{X = Y + Z} F^{(Y)} \otimes G^{(Z)}$$
 which is a [[categorification]] of the general product rule 
 
 $$(f \cdot g)^{(n)} = \sum_{n = j + k} \frac{n!}{j! k!} f^{(j)} \cdot g^{(k)}.$$ 
+
+## Related concepts
+
+* [[multiplicative spectral sequence]]
 
  
 [[!redirects product law]]
