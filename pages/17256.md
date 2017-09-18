@@ -39,6 +39,9 @@ Basic Examples:
 
 * [[Eilenberg-MacLane spectrum]] [[HA]]
 
+  (the claim about [[Eilenberg-MacLane spaces]] here is proven in ([Aguilar-Gitler-Prieto 02, corollary 6.4.23](Eilenberg-MacLane+space#AguilarGitlerPrieto02))
+)
+
 * [[Thom spectrum]]
 
   [[MO]], [[MU]]
