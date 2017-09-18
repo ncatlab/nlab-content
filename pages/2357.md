@@ -1,7 +1,1 @@
-This is about Lawvere's terminology, not about quantity in the sense of physics. 
-
-... see [[space and quantity]] ...
-
-.... more in a minute...
-
-[[!redirects quantities]]
+&lt; [[quantity]]
