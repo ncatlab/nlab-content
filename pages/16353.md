@@ -41,7 +41,7 @@ $$
 
 This is true because $C^\infty(\mathbb{R}^n)$ satisfies the [[Hadamard lemma]].
 
-By the existence of [[partitions of unity]] we may restrict to the situatin for $X = \mathbb{R}^n$ a [[Cartesian space]].
+By the existence of [[partitions of unity]] we may restrict to the situation for $X = \mathbb{R}^n$ a [[Cartesian space]].
 By the [[Hadamard lemma]] every [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ may be written as
 
 $$
@@ -95,7 +95,7 @@ Beware however that related algebraic properties familiar from [[affine schemes]
 
 ## References
 
-e. g 
+e.g.:
 
-* theorem 3.7 in [pdf](http://www.math.toronto.edu/mgualt/MAT1300/week9.pdf)
+* theorem 3.7 in [this pdf](http://www.math.toronto.edu/mgualt/MAT1300/week9.pdf)
  
