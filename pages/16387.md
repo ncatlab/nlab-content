@@ -19,7 +19,7 @@
 
 ## Idea
 
-By the _[[brane scan]]_ there exists a [[classical field theory|classical]] ([[prequantum field theory|pre-quantum]]) [[Green-Schwarz super p-brane sigma model]] for $p =1 $ ([[superstrings]]) with [[target space]] being $d = 3$ dimensional [[super Minkowski spacetime]] or else a [[supermanifold]] locally modeled on that. (The literature traditionally knows this as the "3d superstring".)
+By the _[[brane scan]]_ there exists a [[classical field theory|classical]] ([[prequantum field theory|pre-quantum]]) [[Green-Schwarz super p-brane sigma model]] for $p =1 $ ([[superstrings]]) with [[target space]] being $d = 3$ dimensional [[super Minkowski spacetime]] or more generally a [[superspacetime]] which is a [[super Cartan geometry]] solving the [[equations of motion]] of [[3d supergravity]]. (The literature traditionally knows this as the "3d superstring".)
 
 These superstrings in 3d target spacetime play a role in the [[AdS3-CFT2 and CS-WZW correspondence]] (e.g. ([YuZ-Zhang 98](#YuZhang98))) and at least after a [[topological twist]]  as exhibiting [[3d Chern-Simons theory]] as a [[second quantization]] (see at [TCFT -- Effective background theories](TCFT#ActionFunctionals)).
 
