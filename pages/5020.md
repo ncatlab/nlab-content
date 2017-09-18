@@ -15,7 +15,7 @@
 
 ## Idea
 
-The analog in [[(∞,1)-category theory]] of [[epimorphism]] in [[category theory]].
+One analog in [[(∞,1)-category theory]] of _[[epimorphism]]_ in [[category theory]]. Beware that there are other variants such as _[[effective epimorphism in an (infinity,1)-category]]_ and generally the concept of _[[n-epimorphism]]_.
 
 ## Definition
 
@@ -26,6 +26,7 @@ $$
 $$
 
 is a [[monomorphism in an (∞,1)-category]] in [[∞Grpd]].
+
 
 
 [[!redirects epimorphism in an (∞,1)-category]]
