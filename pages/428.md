@@ -378,13 +378,16 @@ See ([Fresse](#Fresse)).
 
 A general discussion of bar construction for monads is at
 
-* [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
-{#Trimble}
+* {#Trimble} [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
+
+A textbook account with emphasis on application to [[homological algebra]] is in
+
+* [[Charles Weibel]], section 8.6 of _[[An Introduction to Homological Algebra]]_ (1994)
 
 The bar complex of a bimodule is reviewed for instance in 
 
-* [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
-{#Ginzburg}
+* {#Ginzburg} [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
+
 
 around page 16.
 
