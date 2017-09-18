@@ -101,4 +101,4 @@ To be filled in. The [[tensor product of functors]] is a general example.
 * Very nice descriptions on the n-Cafe by:
   * [John Baez](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007688)
   * [Todd Trimble](http://golem.ph.utexas.edu/category/2007/02/day_on_rcfts.html#c007723)
-* Notes by Emily Riehl based on a talk by Mike Shulman [Weighted Limits and Colimits](http://www.math.harvard.edu/~eriehl/weighted.pdf)
+* Notes by Emily Riehl based on a talk by Mike Shulman [Weighted Limits and Colimits](http://www.math.jhu.edu/~eriehl/weighted.pdf)
