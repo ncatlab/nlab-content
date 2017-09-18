@@ -16,7 +16,7 @@
 The term **exact category** has several different meanings.  This page is about exact categories *in the sense of Barr*, also called "Barr-exact categories" or "effective regular categories."  This is distinct from the notion of [[Quillen exact category]].
 
 #Contents#
-* autoamtic table of contents goes here
+* automatic table of contents goes here
 {:toc} 
 
 
@@ -37,9 +37,9 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 
 * Any [[topos]] is an exact category.
 
-* Any category which is [[monad|monadic]] over a power of [[Set]] is exact.
+* Any category which is [[monad|monadic]] over a power of [[Set]] is exact. A proof may be found [here](/nlab/show/colimits+in+categories+of+algebras#exact). 
 
-* Any [[abelian category]] is exact.
+* Any [[abelian category]] is exact. In fact an abelian category is precisely an exact [[additive category]]. 
 
 * One can construct, for any regular category $C$, a "free" exact category $C_{ex/reg}$ on $C$ by adjoining formal quotient objects for congruences.  One way to define $C_{ex/reg}$ is as the (locally discrete) [[2-category]] whose objects are congruences in $C$ and whose morphisms are [[anafunctor|anafunctors]].  If $C$ is already exact, then $C_{ex/reg}$ is equivalent to $C$.  See [[regular and exact completions]].
 
