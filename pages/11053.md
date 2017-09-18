@@ -8,6 +8,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 _Homotopical algebraic geometry_ is a [[homotopy theory|homotopical]] generalization of [[algebraic geometry]], where the [[affine schemes]] are not necessarily [[commutative algebras]] in the usual sense, but rather [[commutative algebra in an (∞,1)-category|commutative algebra objects]] in an arbitrary [[symmetric monoidal (infinity,1)-category]].
