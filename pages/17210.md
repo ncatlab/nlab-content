@@ -192,12 +192,47 @@ $$
   \,,
 $$
 
-for $\pi_\bullet$ the [[homotopy group]]-functor. (Exact as pointed sets for $i = 0$, as groups for $i \geq 1$.)
+for $\pi_\bullet$ the [[homotopy group]]-functor. (Exact as [[pointed sets]] for $i = 0$, as [[groups]] for $i \geq 1$.)
 
 =--
 
 e.g. ([Goerss-Jardine 96, section VI. prop. 2.15](#GoerssJardine96))
 
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$.
+
+1. For $\tilde E_\bullet$ a reduced [[generalized homology theory]], then
+
+   $$
+     \underset{\longrightarrow}{\lim}_n \tilde E_\bullet(X_n)
+     \overset{\simeq}{\longrightarrow}
+     \tilde E_\bullet(X)
+   $$
+
+   is an [[isomorphism]].
+
+1. For $\tilde E^\bullet$ a [[reduced cohomology theory]], then there is a [[short exact sequence]]
+
+   $$
+     0 
+      \to 
+     \underset{\longleftarrow}{\lim}^1_n
+     \tilde E^{\bullet-1}(X_n)
+      \longrightarrow
+     \tilde E^{\bullet(X)}
+      \longrightarrow
+     \underset{\longleftarrow}{\lim}_n \tilde E^{\bullet}(X_n)
+     \to 
+     0
+     \,.
+   $$
+
+e.g. ([Kochmann 96, prop. 4.2.2](#Kochmann96))
+
+=--
 
 ## References
 
