@@ -80,14 +80,17 @@ This data has to satisfy the following properties:
 ## Examples
 
 ### Full subcategories of model categories 
+ {#FullSubcategoriesOfModelCategories}
+
 
 The tautological example is the [[full subcategory]] of any [[model category]] on all objects which are fibrant. 
 
 ### Right proper model categories
+ {#RightProperModelCategories}
 
-Let $M$ be a [[right proper model category]], let $W$ be the class of weak equivalences, and let $F_+$ be the class of morphisms $f$ in $M$ such that any [[pullback]] of $f$ in $M$ is also a [[homotopy pullback]]. Then $M$ together with $W$ and $F_+$ satisfy all the conditions to be a category of fibrant objects _except_ possibly the condition that every morphism $X \to {*}$ in $M$ is in $F_+$; so if we restrict to the full subcategory of those objects $X$ in $M$ such that $X \to {*}$ is in $F_+$, then we do get a category of fibrant objects.
+Let $M$ be a [[right proper model category]], let $W$ be the class of weak equivalences, and let $F_+$ be the class of morphisms $f$ in $M$ such that any [[pullback]] of $f$ in $M$ is also a [[homotopy pullback]]. Then $M$ together with $W$ and $F_+$ satisfy all the conditions to be a category of fibrant objects _except_ possibly the condition that every morphism $X \to {*}$ in $M$ is in $F_+$; so if we restrict to the [[full subcategory]] of those objects $X$ in $M$ such that $X \to {*}$ is in $F_+$, then we do get a category of fibrant objects.
 
-For example, $sSet$ is a category of fibrant objects in this way.
+For example, [[sSet]] via its [[model structure on simplicial sets|standard model structure]] is a category of fibrant objects in this way. The fibrations in this case are not the [[Kan fibrations]] (these also yields a category-of-fibrant-objects structure, via [the above](#FullSubcategoriesOfModelCategories), but a different one) but are the [[sharp maps]].
 
 
 ### $\infty$-Groupoids ##
