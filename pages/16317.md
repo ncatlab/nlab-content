@@ -130,7 +130,7 @@ he total composite labeled $\Delta$ is indeed the [[locally constant infinity-st
 
 =--
 
-+-- {: .num_cor}
++-- {: .num_cor #TheProcessOfModalities}
 ###### Corollary
 
 Passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]] which this induces, then yields 
