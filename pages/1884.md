@@ -155,7 +155,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The operation of [[direct sum of vector bundles]] on [[isomorphism classes]] in def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX} is indeed not a [[group]]: 
+The operation of [[direct sum of vector bundles]] on [[isomorphism classes]] in def. \ref{SemigroupOfIsomorphismClassesOfTopologicalVectorBundlesOnX} is indeed not a [[group]]:
 
 Let $x \in X$ be a chosen point of $x$ and write
 
@@ -186,7 +186,7 @@ The idea is hence to apply group completion also to the monoid $(Vect(X)_{/\sim}
 
 =--
 
-An explicit construction of [[group completion]] of a [[commutative monoid]] is called the _[[Grothendieck group of a commutative monoid]]_. 
+An explicit construction of [[group completion]] of a [[commutative monoid]] is called the _[[Grothendieck group of a commutative monoid]]_.
 
 
 
@@ -696,8 +696,8 @@ $$
 
 By prop. \ref{KGrupDirectSummandReducedKGroup} $\tilde K(X)$ is the subgroup of the [[Grothendieck group of a commutative monoid|Grothendieck group]] $K(X)$
 on the elements of the form $[E]- [X \times k^{rk_x(E)}]$, which are cleraly entirely determined by
-$[E] \in Vect(X)_{/\sim}$. Hence we need to check if the equivalence relation of the Gorthendieck 
-goup coincides with $\sim_{red}$ on these representatives. 
+$[E] \in Vect(X)_{/\sim}$. Hence we need to check if the equivalence relation of the Gorthendieck
+goup coincides with $\sim_{red}$ on these representatives.
 
 The relation in the Grothendieck group is given by
 
@@ -719,14 +719,14 @@ $$
 $$
 
 As before, in remark \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
-we may assume without restriction that $G = X \times k^{n_1}$ and $H = X \times k^{n_2}$ are [[trivial vector bundles]]. Then 
+we may assume without restriction that $G = X \times k^{n_1}$ and $H = X \times k^{n_2}$ are [[trivial vector bundles]]. Then
 the above equality on the first component
 
 $$
   [E_1] + [X \times k^{n_1}]
   =
   [E_2] + [X \times k^{n_2}]
-$$ 
+$$
 
 is the one that defines $\sim_{red}$, and since isomorphic vector bundles
 necessarily have the same rank, it implies the equality of the second component.
@@ -740,7 +740,7 @@ necessarily have the same rank, it implies the equality of the second component.
 
 In view of the [[commutative ring]] structure on the K-group $K(X)$ from remark \ref{KTheoryRing},
 the reduced K-group $\tilde K(X)$ from def. \ref{KernelReducedKGroup}, being the [[kernel]]
-of a ring [[homomorphism]] (remark \ref{FunctorialityOfKGroup}) is an ideal in $K(X)$, 
+of a ring [[homomorphism]] (remark \ref{FunctorialityOfKGroup}) is an ideal in $K(X)$,
 hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 
 (The ring unit of $K(X)$ is the class $[X \times k^1, X \times k^0]$ of the [[trivial vector bundle|trivial]]
@@ -750,6 +750,82 @@ hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 =--
 
 
+## Examples
+
++-- {: .num_example}
+###### Example
+**(topological K-theory ring of the [[point space]])**
+
+We have already see in example \ref{KGroupOfThePoint} that 
+
+$$
+  K(\ast) \simeq \mathbb{Z}
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**(complex topological K-theory ring of the [[circle]])
+
+Since the complex [[general linear group]] $GL(n,\mathbb{C})$ is [[path-connected topological space|path-connected]]
+([this prop.](general+linear+group#ConnectednessOfGeneralLinearGroup)) and hence the [[classifying space]]
+$B GL(n,\mathbb{C})$ is [[simply connected topological space|simply]]-connected, hence its 
+[[fundamental group]] is trivial $\pi_1(B GL(n,\mathbb{C})) \simeq [S^1, B GL(n,\mathbb{C})] = 1$.
+Accordingly, all [[complex vector bundles]] on $S^1$ are [[isomorphism|isomorphic]] toa [[trivial vector bundle]].
+
+It follows that 
+
+$$
+  K_{\mathbb{C}}(S^1) \simeq \mathbb{Z}
+  \phantom{AA} \text{and} \phantom{AA}
+  \tilde K_{ \mathbb{C} } \simeq 0 
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example #TopologicalKTheoryRingOfThe2Sphere}
+###### Example
+**(complex topological K-theory ring of the [[2-sphere]])
+
+For $X = \ast$ the [[point space]], the [[fundamental product theorem in topological K-theory]] \ref{FundamentalProductTheorem} states that the homomorphism
+
+$$
+  \array{
+    \mathbb{Z}[h]/((h-1)^2)
+      &\longrightarrow&
+    K_{\mathbb{C}}(S^2)
+    \\
+    h &\mapsto& h
+  }
+$$
+
+is an [[isomorphism]].
+
+This means that the relation $(h-1)^2 = 0$ satisfied by the [[basic line bundle on the 2-sphere]] ([this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)) is the _only_ relation is satisfies in topological K-theory.
+
+Notice that the underlying [[abelian group]] of $\mathbb{Z}[h]/((h-1)^2)$ is two [[direct sum]] copies of the [[integers]],
+
+$$
+  K_{\mathbb{C}}(S^2) \simeq \mathbb{Z} \oplus \mathbb{Z} = \langle 1, h\rangle
+$$
+
+one copy spanned by the [[trivial vector bundle|trivial]] [[complex line bundle]] on the 2-sphere, the other spanned by the [[basic complex line bundle on the 2-sphere]]. (In contrast, the underlying abelian group of the [[polynomial ring]] $\mathbb{R}[h]$ has infinitely many copies of $\mathbb{Z}$, one for each $h^n$, for $n \in \mathbb{N}$).
+
+It follows (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)) that the [[reduced K-theory]] group of the 2-sphere is
+
+$$
+  \tilde K_{\mathbb{C}}(S^2) \simeq \mathbb{Z}
+  \,.
+$$
+
+=--
+
+
+
 
 
 
@@ -757,7 +833,82 @@ hence itself a [[non-unital ring|non-unital]] [[commutative ring]].
 
 ### Fundamental product theorem
 
-* [[fundamental product theorem in K-theory]]
+For $S^2 \subset \mathbb{R}^3$ the [[2-sphere]] with its [[Euclidean space|Euclidean]] [[subspace topology]],
+write $h$ for the [[basic line bundle on the 2-sphere]]. Its image in the topological K-theory ring $K(S^2)$ satisfies the relation
+
+$$
+  2 h = h^2 + 1
+  \;\;\Leftrightarrow\;\;
+  (h-1)^2 = 0
+$$
+
+(by [this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)).
+
+(Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by prop. \ref{KGrupDirectSummandReducedKGroup}.)
+
+It follows that there is a [[ring homomorphism]] of the form
+
+$$
+  \array{
+    \mathbb{Z}[h]/\left( (h-1)^2 \right)
+      &\overset{}{\longrightarrow}&
+    K(S^2)
+    \\
+    h &\overset{\phantom{AAA}}{\mapsto}& H
+  }
+$$
+
+from the [[polynomial ring]] in one abstract generator, [[quotient ring|quotiented]] by this relation, to the [[topological K-theory]] ring.
+
+More generally, for $X$ a [[topological space]], then this induces the composite ring homomorphism
+
+$$
+  \array{
+    K(X) \otimes \mathbb{Z}[h]/((h-1)^2)
+      & \longrightarrow &
+    K(X) \times K(S^2)
+      & \longrightarrow &
+    K(X \times S^2)
+    \\
+    (E, h)
+      &\overset{\phantom{AAA} }{\mapsto}&
+    (E,H)
+      &\overset{\phantom{AAA}}{\mapsto}&
+    (\pi_{X}^\ast E) \cdot (\pi_{S^2}^\ast H)
+  }
+$$
+
+to the topological K-theory ring of the [[product topological space]] $X \times S^^2$, where the second map is the [[external tensor product of vector bundles]].
+
++-- {: .num_prop #FundamentalProductTheorem}
+###### Proposition
+**([[fundamental product theorem in topological K-theory]])**
+
+For $X$ a [[compact Hausdorff space]], then this ring homomorphism is an [[isomorphism]].
+
+=--
+
+(e.g. [Hatcher, theorem 2.2](#Hatcher))
+
+
+For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in particular that the first of the two morphisms in the composite is an [[isomorphism]] (example \ref{TopologicalKTheoryRingOfThe2Sphere} below)  and hence by the [[two-out-of-three]]-property for [[isomorphisms]] it follows that
+
++-- {: .num_cor #ExternalProductTheorem}
+###### Corollary
+**([[external product theorem]])**
+
+For $X$ a [[compact Hausdorff space]] we have that the [[external tensor product of vector bundles]]
+
+$$
+  K(X) \otimes K(S^2) \overset{\simeq}{\longrightarrow} K(X \times S^2)
+$$
+
+is an [[isomorphism]] in [[topological K-theory]].
+
+=--
+
+
+
 
 ### Bott periodicity
 
@@ -1021,6 +1172,10 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 * [[differential K-theory]]
 
 * [[twisted differential K-theory]]
+
+* [[semi-topological K-theory]]
+
+* [[algebraic K-theory]]
 
 [[!include orientations in higher quantization - table]]
 
