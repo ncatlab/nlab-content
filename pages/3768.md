@@ -35,7 +35,7 @@
 ### Bundles over curves and the Langlands correspondence
  {#OverCurvesAndTheLanglandsCorrespondence}
 
-For $G$ some [[complex Lie group]] and $\Sigma$ some [[complex curve]], then the [[moduli stack]] of $G$-[[principal bundles]] on $\Sigma$ (which are equivalently [[holomorphic vector bundles]] when $G = \coprod_{n} GL(n,\mathbb{C})$) has a standard description as a double [[coset space|coset]] [[quotient stack]] of the collection of [[formal power series]] around finitely many points in $\Sigma$ --  the _[[Weil uniformization theorem]]_. We frist disucss an easy toplogical version of this statement in 
+For $G$ some [[complex Lie group]] and $\Sigma$ some [[complex curve]], then the [[moduli stack]] of $G$-[[principal bundles]] on $\Sigma$ (which are equivalently [[holomorphic vector bundles]] when $G = \coprod_{n} GL(n,\mathbb{C})$) has a standard description as a [[double coset space]] [[quotient stack]] of the collection of [[formal power series]] around finitely many points in $\Sigma$ --  the _[[Weil uniformization theorem]]_. We frist disucss an easy toplogical version of this statement in 
 
 * [Over smooth real surfaces](#OverRealSurfaces)
 
@@ -83,7 +83,7 @@ $$
     G Bund(X)_{\sim}
 $$
 
-between the double [[coset space]] of [[topological groups]] as shown on the left and the set of [[equivalence classes]] of topological $G$-[[principal bundles]] on $X$.
+between the [[double coset space]] of [[topological groups]] as shown on the left and the set of [[equivalence classes]] of topological $G$-[[principal bundles]] on $X$.
 
 =--
 
