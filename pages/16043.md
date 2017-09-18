@@ -44,7 +44,8 @@ The [[prime geodesic theorem]] (e.g. [Soundararajan-Young 13](#SoundararajanYoun
 * {#Brown09} Darin Brown, _Lifting properties of prime geodesics_, Rocky Mountain J. Math. Volume 39, Number 2 (2009), 437-454 ([euclid](http://projecteuclid.org/euclid.rmjm/1239113439))
 
 On the [[prime geodesic theorem]] (see there for more):
-* {#SoundararajanYoung13} K. Soundararajan, Matthew P. Young, _The Prime Geodesic Theorem_,J. Reine Angew. Math. 676 (2013), 105-120 ([arXiv:1011.5486](http://arxiv.org/abs/1011.5486))
+
+* {#SoundararajanYoung13} K. Soundararajan, Matthew P. Young, _The Prime Geodesic Theorem_, J. Reine Angew. Math. 676 (2013), 105-120 ([arXiv:1011.5486](http://arxiv.org/abs/1011.5486))
 
 
 * Maki Nakasuji, _Prime Geodesic Theorem for Higher-Dimensional Hyperbolic Manifold_, Transactions of the AMS, Vol. 358, No. 8
