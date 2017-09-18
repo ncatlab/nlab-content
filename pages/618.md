@@ -39,7 +39,7 @@ A **coverage** on a [[category]] $C$ consists of a [[function]] assigning to eac
 
 $$
   \array{
-    V_i &\stackrel{\exists}{\to}& U_j
+    V_j &\stackrel{\exists}{\to}& U_i
     \\
     \downarrow^{h_j} && \downarrow^{f_i}
     \\
