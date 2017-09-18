@@ -6,7 +6,7 @@ as the **cartographic group** (of dimension 2), and to its [[index of a subgroup
 
 $$\mathcal{C}_2^+ = \langle\rho_0,\rho_1,\rho_2 \mid \rho_1^2 = \rho_0\rho_1\rho_2 = 1\rangle$$
 
-as the **oriented cartographic group**.  [[conjugacy class|Conjugacy classes]] of subgroups of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, conjugacy classes of subgroups of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may be non-orientable or with boundary.
+as the **oriented cartographic group**.  [[transitive action|Transitive]] [[permutation representations]] (or equivalently, [[conjugacy class]]es of transitive subgroups) of $\mathcal{C}_2^+$ can be identified with [[topological maps]] on connected, oriented surfaces without boundary, while more generally, transitive permutation representations of $\mathcal{C}_2$ can be identified with maps on connected surfaces which may be non-orientable or with boundary.
 
 ## Related concepts
 
