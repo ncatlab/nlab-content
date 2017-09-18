@@ -36,6 +36,8 @@ The idea of $(\infty,1)$-toposes is to generalize the above situation from $1$ t
 ### As a geometric embedding into a $(\infty,1)$-presheaf category
  {#AsAGeometricEmbedding}
 
+Recall that [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]] and that the inclusion functor is necessarily an [[accessible functor]]. This characterization has the following immediate generalization to a definition in [[(∞,1)-category theory]], where the only subtlety is that accessibility needs to be explicitly required:
+
 +-- {: .num_defn #ToposByLocalization}
 ###### Definition
 
