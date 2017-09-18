@@ -31,6 +31,24 @@ In [[combinatorics]], one often wants a slight generalisation.  Given a [[natura
 
 ### Via cycle decompositions 
 
+Every permutation $\pi : X \to X$ generates a [[cyclic group|cyclic]] [[subgroup]] $\langle \pi \rangle$ of the symmetric group $S_X$, and hence inherits a [[group action]] on $X$.  The [[orbits]] of this action partition the set $X$ into a disjoint union of cycles, called the **cyclic decomposition** of the permutation $\pi$.
+
+For example, let $\pi$ be the permutation on $[6]$ defined by
+
+$$\pi = \array{0 \mapsto 0 \\ 1 \mapsto 3 \\ 2 \mapsto 4 \\ 3 \mapsto 5 \\ 4 \mapsto 2 \\ 5 \mapsto 1}$$
+
+The set $[6] = \{0,\dots,5\}$ is partitioned into three $\langle\pi\rangle$-orbits 
+
+$$[6] = \{0\} \cup \{1,3,5\} \cup \{2,4\}$$
+
+corresponding to the three cycles
+
+$$0 \underset{\pi}{\to} 0 \qquad
+1 \underset{\pi}{\to} 3 \underset{\pi}{\to} 5 \underset{\pi}{\to} 1 \qquad
+2 \underset{\pi}{\to} 4 \underset{\pi}{\to} 2$$
+
+Finally, we can express this more compactly by writing $\pi$ in cycle form, as the product $\pi = (0)(1\,3\,5)(2\,4)$.
+
 ## Properties
 
 ### Relation to the field with one element
