@@ -80,7 +80,11 @@ the two bottom morphisms are regular epis (hence by prop. \ref{StableUnderPullba
 
 * More generally, in every [[Grothendieck topos]] every epimorphism is regular (and in act [[effective epimorphism|effective]], see there).
 
-* In the category of [[monoid]]s, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.  Thus $\mathbb{N}\hookrightarrow\mathbb{Z}$ is not a regular epimorphism.
+* In [[Grp|the category of groups]], every epimorphism is regular. A number of proofs can be found in the literature; one proof that avoids case analysis is given [here](http://ncatlab.org/toddtrimble/published/epimorphisms+in+the+category+of+groups). 
+
+* In the category of [[monoid]]s, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.  Thus $\mathbb{N}\hookrightarrow\mathbb{Z}$ is not a regular epimorphism. 
+
+* Similarly, in the category of rings, not every epimorphism is regular, as shown by the example $\mathbb{Z} \hookrightarrow \mathbb{Q}$. 
 
 * In [[Diff]], the category of smooth (paracompact) manifolds, regular epimorphisms are not as useful as in other settings. As any [[split epimorphism]] is regular, and split epimorphisms are badly behaved in $\Diff$ (for example, pullbacks of split epis do not necessarily exist), the usual procedure is to consider the smallest class of arrows inside regular epis of which all pullbacks exist, namely the surjective [[submersions]]. In the setting of [[differentiable stacks]] and [[Lie groupoids]] it is surjective submersions that play the role of regular epimorphisms.
 
