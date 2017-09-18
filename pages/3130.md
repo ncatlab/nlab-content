@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -127,7 +128,6 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
 
 ## Related concepts
 
-
 * [[odd Chern character]]
 
 * for [[algebraic K-theory]]:
@@ -143,6 +143,12 @@ The behaviour of the Chern-character under [[fiber integration in generalized co
   * [[elliptic Chern character]]
 
   * [[Morava E-theoretic Chern character]]
+
+* [[transchromatic character]]
+
+* [[group character]]
+
+
 
 ## References
 
