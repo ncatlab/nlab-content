@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[equivariant stable homotopy theory]] a _[[genuine G-spectrum]]_  has [[homotopy groups]] [[grading|graded]] not just by the [[integers]], but by the (additive group underlying) the [[representation ring]] of $G$. This is often called _$RO(G)$-grading_. 
+
+## Related concepts
+
+* [[G-universe]]
+
+## References
+
+* {#Schwede15} [[Stefan Schwede]], section 4 (from page 40 on) in _Lectures on equivariant stable homotopy theory_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+[[!redirects RO(G)-gradings]]
