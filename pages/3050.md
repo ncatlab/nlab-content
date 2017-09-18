@@ -84,7 +84,7 @@ $$
   \,.
 $$
 
-Therefore when $\mathcal{C}_{(-)}$ satisfies the BC condition, then a morphism $f$ _is effective descent_ precisely if $f^\ast \colon \mathcal{C}_{Y} \to \mathcal{C}_{X}$ is [[monadic]].
+Therefore when $\mathcal{C}_{(-)}$ satisfies the BC condition, then a morphism $f$ _is effective descent_ precisely if $f^\ast \colon \mathcal{C}_{Y} \to \mathcal{C}_{X}$ is [[monadic]], and _is descent_ precisely if $f^\ast$ is of [[descent type]].
 
 This is the monadic formulation of descent theory, "monadic descent".
 
