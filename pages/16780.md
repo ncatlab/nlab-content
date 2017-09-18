@@ -99,3 +99,6 @@ The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
 
 [[!redirects tetrahedral groups]]
+
+[[!redirects binary tetrahedral group]]
+[[!redirects binary tetrahedral groups]]
