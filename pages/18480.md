@@ -39,9 +39,9 @@ In this section we collect some definitions that are fundamental to digraph theo
 ###### Definition
 **(digraph)**
 
-A *digraph* is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus\{ (v,v)\colon v\in V\}$.
+A *digraph* is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq (V\times V)\setminus\{ (v,v)\colon v\in V\}$.
 Here, $V\times V$ denotes the [[product]], and ${}\setminus{}$ the [[relative complement]] in the [[category of sets]].
-The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*. For $a = (v, w)$ an arc, we call $v$ the *source* of $a$ and $w$ the *target* of $a$, also denoted $s(a)$ and $t(a)$ respectively. 
+The elements of $V$ are called [[vertices]], the elements of $A$ are called [[arcs]]. For $a = (v, w)$ an arc, we call $v$ the *source* of $a$ and $w$ the *target* of $a$, also denoted $s(a)$ and $t(a)$ respectively. 
 
 A *morphism* from a digraph $(V, A)$ to a digraph $(V', A')$ is a function $f: V \to V'$ such that $(f(v), f(w)) \in A'$ whenever $(v, w) \in A$. Digraphs and their morphisms form a [[category]] denoted $\mathsf{Dgr}$. 
 
