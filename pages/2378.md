@@ -118,7 +118,7 @@ To demonstrate this, we make the following observations.
 
 3) By 2) and by definition of $\mathcal{O}_{X \times Y^{X}}$ and $\mathcal{O}_{Y^{X}}$, we have that $V \times M_{\overline{V}, U} \in \mathcal{O}_{X \times Y^{X}}$, and that $(x,f) \in V \times M_{\overline{V}, U}$. 
 
-4)  Let $(x',f') \in V \times M_{\overline{V}, U}$, Since $x' \in V$, and since $f'(V) \subset f'(\overline{V}) \subset f(U)$, the latter inclusion holding by definition of $M_{\overline{V}, U}$, we have that $f'(x) \in U$. We deduce that $ev(V \times M_{\overline{V}, U}) \subset U$.
+4)  Let $(x',f') \in V \times M_{\overline{V}, U}$, Since $x' \in V$, and since $f'(V) \subset f'(\overline{V}) \subset U$, the latter inclusion holding by definition of $M_{\overline{V}, U}$, we have that $f'(x) \in U$. We deduce that $ev(V \times M_{\overline{V}, U}) \subset U$.
 
 By 3) and 4), we see that we can take $U'$ as the beginning of the proof to be $V \times M_{\overline{V}, U}$. 
 
@@ -170,7 +170,7 @@ We make the following observations.
 
 1) We have that $\alpha^{-1}_{f} = ev \circ \tau \circ (f \times id)$, where $\tau : Z^{Y} \times Y \rightarrow Y \times Z^{Y}$ is given by $(f,y) \mapsto (y,f)$.
 
-2) By Proposition 10, we have that $ev$ is continuous. 
+2) By Proposition \ref{alphafIsContinuous}, we have that $ev$ is continuous. 
 
 3) It is an elementary fact that $\tau$ is continuous. 
 
