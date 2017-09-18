@@ -37,9 +37,25 @@ While the definition above follows how a well-founded relation is generally *use
 
 In [[classical mathematics]], both of these conditions are equivalent to being well-founded.  In constructive mathematics, we may prove that a well-founded relation has no infinite descent (see Proposition \ref{empty}), but not the converse, and that a classically well-founded relation is well-founded (see Proposition \ref{classical}), but not the converse.  
 
-+-- {: .num_remark #LEM} 
+Classical notion of well-foundedness enforces classical logic onto us, in the following sense.
+
++-- {: .num_prop #LEM} 
+###### Proposition 
+If $(X, \prec)$ is an [[inhabited subset|inhabited]] well-founded relation in a classical sense, then the unrestricted [[excluded middle|law of excluded middle]] holds.
+=-- 
+
+For a [[topos]]-theoretic proof see [here](http://ncatlab.org/toddtrimble/published/classical+well-foundedness).
+
++-- {: .proof} 
+###### Proof 
+Suppose there are $x$ and $y$ such that $y\prec x$, and let $Q$ be an arbitrary proposition. Consider then a set $P \subset X$ defined as $P = \{ x \} \cup \{ a \mid a \prec x \wedge Q\}$. Clearly, the set $P$ is inhabited, thus by classical well-foundedness it has a minimal element $x_0$. By intuitionistic reasoning, either $x_0$ is in $\{ x \}$, i.e. $x_0 = x$, or $x_0 \in \{ a \mid a \prec x \wedge Q\}$, i.e. $x_0 \prec x \wedge Q$. In the latter case we immediately see that $Q$ holds. So, suppose that $x_0 = x$ is the minimal element of $P$; we will show that $\neg Q$ holds. For suppose that $Q$ holds; then $y \in P$ and $y \prec x = x_0$, violating the condition that $x_0$ is a minimal element of $P$.
+
+Since $Q$ was an arbitrary proposition, we can deduce $\forall Q. (Q \vee \neg Q)$.
+=-- 
+
++-- {: .num_remark #LEM_rem} 
 ###### Remark 
-We note that classical well-foundedness is really too strong for constructive (i.e., intuitionistic) mathematics: if there exists an [[inhabited subset|inhabited]] relation that is classically well-founded, then [[excluded middle]] follows. (This holds true in any [[topos]]; for a proof, see [here](http://ncatlab.org/toddtrimble/published/classical+well-foundedness).) On the other hand, the infinite descent condition is too weak to be of much use in constructive mathematics. It is the inductive notion of well-foundedness that is just right. 
+We note that classical well-foundedness is really too strong for constructive (i.e., intuitionistic) mathematics, due to \ref{LEM}. On the other hand, the infinite descent condition is too weak to be of much use in constructive mathematics. It is the inductive notion of well-foundedness that is just right. 
 =-- 
 
 Note however that in [[predicative mathematics]], the definition of well-founded may be impossible to even state, and so either of these alternative definitions would be preferable, provided classical logic is used.
