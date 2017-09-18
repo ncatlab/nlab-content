@@ -43,7 +43,7 @@ $$
   \,,
 $$
 
-hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_). A category equipped with an adjoint modality of the second form is called a _[[category of being]]_ in ([Lawver 91](#Lawvere91)).
+hence is an [[adjoint pair]] of [[modal operators]] (as in _[[modal type theory]]_). A category equipped with an adjoint modality of the second form is called a _[[category of being]]_ in ([Lawver 91](#Lawvere91)). If the category is a [[topos]] then this is also called a _[[level of a topos]]_.
 
 Given any such, we may say that the "unity" expressed by the two opposites is exhibited by the canonical [[natural transformation]]
 
@@ -58,6 +58,8 @@ $$
 $$
 
 which is the composite of the [[counit of a comonad|counit of the comodality]] and the [[unit of a monad|unit of the modality]].
+
+If for two [[level of a topos|levels]] the next one contains the [[modal types]] of the [[idempotent comonad]] of the former, then [[Lawvere]] speaks of "[[Aufhebung]]" (see there for more).
 
 One can consider longer sequences of such adjoints of co/modalities, but the longer they get, the less likely they are to be non-trivial. The longest that still has good nontrivial models seems to be [[adjoint triples]] of modalities. Of these there is then similarly either the form
 
@@ -76,6 +78,7 @@ $$
 ## Examples
 
 ### Werden : Sein $\dashv$ Nichts
+ {#Werden}
 
 For $\mathbf{H}$ a [[topos]]/[[(∞,1)-topos]] consider the "initial topos", the [[terminal category]] $\ast \simeq Sh(\emptyset)$ ([[category of sheaves]] on the empty site).
 
@@ -209,6 +212,11 @@ $$
 [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
 characteristic of a [[cohesive topos]].
+
+### Skeleta and Co-Skeleta
+
+[[simplicial skeleton]] $\dashv$ [[simplicial coskeleton]]
+
 
 ### Formal completion $\dashv$ Torsion approximation
  {#FormalCompletionAndTorsionApproximation}
