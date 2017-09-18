@@ -8724,8 +8724,8 @@ $$
   \{ X \backslash Y \subset X\} \cup \{ U_i \subset X \}_{i \in J \subset I}
 $$
 
-is still an oopen cover of $X$, hence in particular intersects to a finite open cover of $Y$.
-But since $Y \cap ( X \backsalsh Y ) = \empty$, it follows that indeed
+is still an open cover of $X$, hence in particular intersects to a finite open cover of $Y$.
+But since $Y \cap ( X \backslah Y ) = \empty$, it follows that indeed
 
 $$
   \{V_i \subset Y\}_{i \in J \subset I}
@@ -8915,9 +8915,9 @@ For the second statement we need to show that if $C \subset Y$ is a [[compact to
 
 Now
 
-1. since [[compact subspaces of Hausdorff spaces are closed]] (prop. \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it follows that $C \subse Y$ is closed;
+1. since [[compact subspaces of Hausdorff spaces are closed]] (prop. \ref{CompactSubspacesOfHausdorffSpacesAreClosed}) it follows that $C \subset Y$ is closed;
 
-1. since [[pre-images]] under continuous of closed subsets are closed (prop. \ref{ClosedSubsetContinuity}), also $f^{-1}(C) \subset X$ is closed;
+1. since [[pre-images]] under continuous functions of closed subsets are closed (prop. \ref{ClosedSubsetContinuity}), also $f^{-1}(C) \subset X$ is closed;
 
 1. since [[closed subsets of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), it follows that $f^{-1}(C)$ is compact.
 
@@ -8948,7 +8948,7 @@ In particular then both $(X,\tau_X)$ and $(Y, \tau_Y)$ are [[compact Hausdorff s
 Write $g \colon Y \to X$ for the [[inverse function]] of $f$.
 
 We need to show that $g$ is continuous, hence that for $U \subset X$ an [[open subset]], then also its [[pre-image]] $g^{-1}(U) \subset Y$ is open in $Y$.
-By prop. \ref{ClosedSubsetContinuity} this is equivalent to the statement that for $ \subset X$ a [[closed subset]] then the [[pre-image]] $g^{-1}(C) \subset Y$ is also closed in $Y$.
+By prop. \ref{ClosedSubsetContinuity} this is equivalent to the statement that for $C \subset X$ a [[closed subset]] then the [[pre-image]] $g^{-1}(C) \subset Y$ is also closed in $Y$.
 
 But since $g$ is the [[inverse function]] to $f$, its [[pre-images]] are the [[images]] of $f$. Hence the last statement above equivalently says that $f$ sends closed subsets to closed subsets. This is true by prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}.
 
@@ -8966,7 +8966,7 @@ Every [[compact Hausdorff topological space]] is a [[normal topological space]] 
 +-- {: .proof}
 ###### Proof
 
-First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ dijoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), the subset $Y$ is in fact compact, and hence this is in fact the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
+First we claim that $(X,\tau)$ is [[regular topological space|regular]]. To show this, we need to find for each point $x \in X$ and each disjoint closed subset $Y \in X$ dijoint open neighbourhoods $U_x \supset \{x\}$ and $U_Y \supset Y$. But since [[closed subspaces of compact spaces are compact]] (lemma \ref{ClosedSubsetsOfCompactSpacesAreCompact}), the subset $Y$ is in fact compact, and hence this is the statement of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces}.
 
 Next to show that $(X,\tau)$ is indeed normal, we apply the idea of the proof of lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubsetsInHausdorffSpaces} once more:
 
