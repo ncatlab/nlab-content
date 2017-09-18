@@ -3830,7 +3830,8 @@ Conversely, assume that $\left( Cl\{x\} = Cl\{y\}\right) \Rightarrow \left( x = 
 Hence by [[contraposition]] $\mathrm{Cl}(\{x\}) \neq \mathrm{Cl}(\{y\})$. We need to show that there exists
 an open set which contains one of the two points, but not the other.
 
-Assume there were no such open subset. By lemma \ref{UnionOfOpensGivesClosure} this would mean
+Assume there were no such open subset, hence that every open subset containing one of the two points would
+also contain then other. Then by lemma \ref{UnionOfOpensGivesClosure} this would mean
 that $x \in \mathrm{Cl}(\{y\})$ and that $y \in \mathrm{Cl}(\{x\})$. But this would imply that
 $Cl(\{x\}) \subset \mathrm{Cl}(\{y\})$ and that $\mathrm{Cl}(\{y\}) \subset \mathrm{Cl}(\{x\})$,
 hence that $\mathrm{Cl}(\{x\}) = \mathrm{Cl}(\{y\})$. This is a [[proof by contradiction]].
@@ -3894,7 +3895,8 @@ $$
   \,.
 $$
 
-Here the first step is the reformulation of closure from lemma \ref{UnionOfOpensGivesClosure}, the second is an application of the [[de Morgan law]] (remark \ref{deMorgan}).
+Here the first step is the reformulation of closure from lemma \ref{UnionOfOpensGivesClosure}, the second is another application of the [[de Morgan law]] (remark \ref{deMorgan}), the third is the definition of union and complement, and the last one is manifestly
+by definition of $T_1$.
 
 =--
 
@@ -3931,15 +3933,9 @@ $$
     &
   \underset{(x,y) \in (X \times X) \backslash \Delta_X(X) }{\forall}
   \left(
-      \underset{U_{(x,y)} \times V_{(x,y)} \in \tau_{X \times Y}}{\exists}
+      \underset{ { U_{(x,y)} \times V_{(x,y)} \in \tau_{X \times Y} } \atop { (x,y) \in U_{(x,y)} \times V_{(x,y)} } }{\exists}
       \left(
-        \left(
-          (x,y) \in U_{(x,y)} \times V_{(x,y)}
-        \right)
-        \,\text{and}\,
-        \left(
            U_{(x,y)} \times V_{(x,y)} \cap \Delta_X(X) = \emptyset
-        \right)
       \right)
   \right)
   \end{aligned}
@@ -3961,7 +3957,7 @@ $$
   \,.
 $$
 
-Conversely, if the diagonal is closed, then (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) every point $(x,y) \in X \times X$ not on the diagonal, hence with $x \neq y$, has an open neighbourhood $U_{(x,y)} \times V_{(x,y)}$ still not intersecting the diagonal, hence so that $U_{(x,y)} \cap V_{(x,y)} = \emptyset$. Thus $(X,\tau)$ is Hausdorff.
+Conversely, if the diagonal is closed, then (by lemma \ref{UnionOfOpensGivesClosure}) every point $(x,y) \in X \times X$ not on the diagonal, hence with $x \neq y$, has an open neighbourhood $U_{(x,y)} \times V_{(x,y)}$ still not intersecting the diagonal, hence so that $U_{(x,y)} \cap V_{(x,y)} = \emptyset$. Thus $(X,\tau)$ is Hausdorff.
 
 =--
 
@@ -3972,7 +3968,7 @@ $\,$
 
 Clearly one may and does consider further variants of the
 separation axioms $T_0$, $T_1$ and $T_2$ from def. \ref{HausdorffTopologicalSpace}.
-We consider two more:
+Here we discuss two more:
 
 
 +-- {: .num_defn #NormalSpace}
@@ -3984,7 +3980,7 @@ Consider the following conditions
 
 * **(T3)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$, then there exist [[disjoint subsets|disjoint]] [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
 
-* **(T4)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset}) then there exist [[disjoint subsets|disjoint]] [[open neighbourhoods]] $U_{C_i} \supset C_i$.
+* **(T4)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ two disjoint [[closed subsets]] (def. \ref{ClosedSubset}) then there exist [[disjoint subsets|disjoint]] [[open neighbourhoods]] $U_{C_i} \supset C_i$.
 
 If $(X,\tau)$ satisfies $T_3$ it is said to be a _$T_3$-space_ also called a _[[regular Hausdorff topological space]]_.
 
@@ -4004,7 +4000,7 @@ via its [[metric topology]] (example \ref{MetricTopology}). Then this is a [[nor
 +-- {: .proof}
 ###### Proof
 
-By example \ref{HausdorffMetricSpace} that metric spaces are $T_2$, hence in particular $T_1$.
+By example \ref{HausdorffMetricSpace} metric spaces are $T_2$, hence in particular $T_1$.
 What we need to show is that given two [[disjoint subsets|disjoint]] [[closed subsets]] $C_1, C_2 \subset X$
 then their exists [[disjoint subset|disjoint]] [[open neighbourhoods]] $U_{C_1} \subset C_1$
 and $U_{C_2} \supset C_2$.
@@ -4147,8 +4143,8 @@ As before we have equivalent reformulations of the further separation axioms.
 ###### Proposition
 **($T_3$ in terms of topological closures)**
 
-A [[topological space]] $(X,\tau)$ is [[regular Hausdorff space]] (def. \ref{NormalSpace}), precisely if
-all points are closed and for all [[closed subsets]] $x \in X$ with [[open neighbourhood]] $U \supset \{x\}$ there exists a smaller open neighbourhood $V \supset \{x\}$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
+A [[topological space]] $(X,\tau)$ is a [[regular Hausdorff space]] (def. \ref{NormalSpace}), precisely if
+all points are closed and for all points $x \in X$ with [[open neighbourhood]] $U \supset \{x\}$ there exists a smaller open neighbourhood $V \supset \{x\}$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
 
 $$
   \{x\} \subset V \subset Cl(V) \subset U
@@ -4157,7 +4153,7 @@ $$
 
 =--
 
-The **proof** of prop. \ref{T3InTermsOfTopologicalClosures} is the direct  specialization of the following proof for prop. \ref{T4InTermsOfTopologicalClosures} to the case that $C = \{x\}$ (using that by $T_1$, which is part of the definition of $T_3$, the singleton subset is indeed closed by prop. \ref{T1InTermsOfTopologicalClosure}).
+The **proof** of prop. \ref{T3InTermsOfTopologicalClosures} is the direct  specialization of the following proof for prop. \ref{T4InTermsOfTopologicalClosures} to the case that $C = \{x\}$ (using that by $T_1$, which is part of the definition of $T_3$, the singleton subset is indeed closed, by prop. \ref{T1InTermsOfTopologicalClosure}).
 
 
 +-- {: .num_prop #T4InTermsOfTopologicalClosures}
@@ -4176,16 +4172,30 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In one direction, assume that $(X,\tau)$ is normal, and consider $C \subset U$. It follows that the [[complement]] of the open subset $U$ is closed and disjoint from $C$:
+In one direction, assume that $(X,\tau)$ is normal, and consider 
+
+$$
+  C \subset U
+  \,.
+$$ 
+
+It follows that the [[complement]] of the open subset $U$ is closed and disjoint from $C$:
 
 $$
   C \cap X \backslash U = \emptyset
   \,.
 $$
 
-Therefore by assumption of normality of $(X,\tau)$, there exists open neighbourhoods $V \supset C$ and $W \supset X \backslash U$ with
+Therefore by assumption of normality of $(X,\tau)$, there exist open neighbourhoods  with
 
 $$
+
+  V \supset C 
+  \,, \phantom{AA}
+  W \supset X \backslash U
+  \phantom{AA}
+    \text{with}
+  \phantom{AA}
   V \cap W = \emptyset
   \,.
 $$
@@ -4200,19 +4210,51 @@ and since the [[complement]] $X \backslash W$ of the open set $W$ is closed, it 
 
 $$
   C \subset V \subset Cl(V) \subset X \backslash W \subset U
+$$
+
+as required.
+
+In the other direction, assume that for every open neighbourhood $U \supset C$ of a closed subset $C$ there exists a smaller open neighbourhood $V$ with 
+
+$$
+  C \subset V \subset Cl(V) \subset U
   \,.
 $$
 
-In the other direction, assume that for every open neighbourhood $U \supset C$ of a closed subset $C$ there exists a smaller open neighbourhood $V$ with $C \subset V \subset Cl(V) \subset U$. Consider disjoint closed subsets $C_1, C_2 \subset X$. We need to produce disjoint open neighbourhoods for them.
+Consider disjoint closed subsets 
 
-From their disjointness it follows that $X \backslash C_2 \supset C_1$ is an open neighbourhood. Hence by assumption there is an open neighbourhood $V$ with
+$$
+  C_1, C_2 \subset X
+  \,,
+  \phantom{AAA}
+  C_1 \cap C_2 = \emptyset
+  \,.
+$$ 
+
+We need to produce disjoint open neighbourhoods for them.
+
+From their disjointness it follows that 
+
+$$
+  X \backslash C_2 \supset C_1
+$$ 
+
+is an open neighbourhood. Hence by assumption there is an open neighbourhood $V$ with
 
 $$
   C_1 \subset V \subset Cl(V) \subset X \backslash C_2
   \,.
 $$
 
-Thus $V \supset C_1$ and $X \backslash Cl(X) \supset C_2$ are two disjoint open neighbourhoods, as required.
+Thus 
+
+$$
+  V \supset C_1
+    \,, \phantom{AAAA}
+  X \backslash Cl(V) \supset C_2
+$$ 
+
+are two disjoint open neighbourhoods, as required.
 
 =--
 
@@ -4222,6 +4264,8 @@ and will be important when we discuss [[paracompact topological spaces]] [below]
 The following concept of _[[Urysohn functions]]_ is another approach of thinking about separation
 of subsets in a topological space, not in terms of their neighbourhoods, but in terms of
 continuous real-valued "indicator functions" that take different values on the subsets.
+This perspective will be useful when we consider [[paracompact topological spaces]] [below](#ParacompactSpaces).
+
 But the [[Urysohn lemma]] (prop. \ref{UrysohnLemma} below) implies that this concept of separation
 is in fact equivalent to that of normality of Hausdorff spaces.
 
@@ -4229,11 +4273,11 @@ is in fact equivalent to that of normality of Hausdorff spaces.
 ###### Definition
 **([[Urysohn function]])**
 
-Let $X$ be a [[topological space]], and let $A,B \subset X$ be disjoint [[closed subsets]]. Then an _Urysohn function separating $A$ from $B$_  is
+Let $(X,\tau)$ be a [[topological space]], and let $A,B \subset X$ be disjoint [[closed subsets]]. Then an _Urysohn function separating $A$ from $B$_  is
 
 * a [[continuous function]] $f \colon X \to [0,1]$
 
-to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]], such that
+to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, example \ref{MetricTopology}), such that
 
 * it takes the value 0 on $A$ and the value 1 on $B$:
 
@@ -4253,7 +4297,8 @@ to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[met
 ###### Proposition
 **([[Urysohn's lemma]])**
 
-Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $A,B \subset X$ be two disjoint [[closed subsets]] of $X$. Then there exists an Urysohn function separating $A$ from $B$ (def. \ref{UrysohnFunction}).
+Let $X$ be a [[normal Hausdorff topological space]] (def. \ref{NormalSpace}), and let $A,B \subset X$ 
+be two [[disjoint subset|disjoint]] [[closed subsets]] of $X$. Then there exists an [[Urysohn function]] separating $A$ from $B$ (def. \ref{UrysohnFunction}).
 
 
 =--
@@ -4261,7 +4306,7 @@ Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]
 +-- {: .num_remark}
 ###### Remark
 
-Beware that the function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, _precisely_ on the two subsets corresponds to "[[perfectly normal spaces]]".
+Beware that the Urysohn function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, _precisely_ on the two subsets corresponds to "[[perfectly normal spaces]]".
 
 =--
 
@@ -4291,9 +4336,10 @@ we have
 $$
   C_0 \subset U_1
   \,.
+
 $$
 
-Notice that (by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)) if a space is normal then every open neighbourhood $U \supset C$ of closed subset $C$ contains a smaller neighbourhood $V$ together with its closure $Cl(V)$
+That $(X,\tau)$ is normal implies, by lemma \ref{T4InTermsOfTopologicalClosures}, that every open neighbourhood $U \supset C$ of a closed subset $C$ contains a smaller neighbourhood $V$ together with its [[topological closure]] $Cl(V)$
 
 $$
   U \subset V \subset Cl(V) \subset C
@@ -4326,24 +4372,9 @@ $$
 with the property
 
 $$
-  \underset{r \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
+  \underset{r_1 \lt r_2 \, \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
   \left(
-     A \subset U_r \subset X\backslash B
-  \right)
-$$
-
-and
-
-$$
-  \underset{r_1,r_2 \in (0,1] \cap \mathbb{Q}_{dy}}{\forall}
-  \left(
-    \left(
-       r_1 \lt r_2
-    \right)
-     \Rightarrow
-    \left(
       U_{r_1} \subset Cl(U_{r_1}) \subset U_{r_2}
-    \right)
   \right)
   \,.
 $$
@@ -4548,7 +4579,7 @@ As a corollary we obtain:
 ###### Proposition
 **(normality equivalent to existence of Urysohn functions)**
 
-A $T_1$-space/Hausdorff space (def. \ref{HausdorffTopologicalSpace}) is [[normal topological space|normal]] (def. \ref{NormalSpace}) precisely if it admits [[Urysohn functions]] (def \ref{UrysohnFunction}) separating every pair of
+A $T_1$-space (def. \ref{HausdorffTopologicalSpace}) is [[normal topological space|normal]] (def. \ref{NormalSpace}) precisely if it admits [[Urysohn functions]] (def \ref{UrysohnFunction}) separating every pair of
 disjoint closed subsets.
 
 =--
@@ -6482,12 +6513,12 @@ does not apply.
 The concept of [[compact topological space|compactness]] in topology ([above](#CompactSpaces))
 has several evident weakenings of interest. One is that of _[[paracompact topological space|paracompactness]]_
 (def. \ref{ParacompactSpace} below). This property is important in applications to [[algebraic topology]],
-where it guarantees notably that the [[abelian sheaf cohomology]] of a topological space may be computed in terms of 
+where it guarantees notably that the [[abelian sheaf cohomology]] of a topological space may be computed in terms of
 [[Cech cohomology]].
 
 A key fact is that [[paracompact topological spaces]] and [[normal topological space|normal]]
 spaces are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unit]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
-each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function. 
+each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function.
 Existence of such partitions imply that structures on topological spaces which are glued together via [[linear maps]]
 (such as [[vector bundles]]) are well behaved.
 
