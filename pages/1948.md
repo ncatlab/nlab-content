@@ -56,7 +56,7 @@ If $\mathbf{S} = $ [[sSet]]${}_{Quillen}$ and $C$ is an ordinary small category,
 +-- {: .num_prop}
 ###### Proposition
 
-The projective and injective structures $[D,C]_{proj}$ and $[D,C]_{inj}$, def. \ref{ProjectiveAndInjectiveStructure}
+The projective and injective structures $[C,D]_{proj}$ and $[C,D]_{inj}$, def. \ref{ProjectiveAndInjectiveStructure}
 
 * are indeed [[model category]] structures;
 
