@@ -28,6 +28,8 @@ A [[limit]] over a diagram of this form is called a [[sequential limit]]/[[direc
 
 Different contexts lead to different notions of morphism of towers, so it is important to consider what category of towers is appropriate for any given use of these objects. In addition to [[Postnikov towers]], and related uses in decomposing homotopy types, towers also occur as a simple type of [[pro-object]] in a category.  In that situation the morphisms considered between towers are usually pro-morphisms.
 
+In [[homotopy theory]] in the presence of [[(infinity,1)-limits]]/[[(infinity,1)-colimits]], every tower is a [[tower of homotopy fibers]].
+
 ## Examples
 
 * [[Postnikov tower]]
