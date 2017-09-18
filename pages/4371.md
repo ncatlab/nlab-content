@@ -119,11 +119,17 @@ This Boolean algebra is a reflective sub-poset of the [[Heyting algebra]] of all
 To show this, first note that the Boolean negation in $B$ is the restriction of the Heyting negation in $H$.  Thus, Booleanness of $B$ implies $U=\neg\neg U$ for all $U\in B$.  Thus, it remains to show that if $U=\neg\neg U$ then $U\in B$.  But since $0\in B$ and $B$ is an [[exponential ideal]], by the definition $\neg U = (U\Rightarrow 0)$ it follows that $\neg\neg U\in B$ for any $U$.  Thus, if $U=\neg\neg U$ then $U\in B$ as well.
 =--
 
+Another, slightly more general way, to state this is is the following ([Blass-Scedrov 1983, pp.19](#BlassScedrov83)):
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{E}$ be a topos and $j$ be a topology such that $j\le\neg\neg$. Then $(\mathcal{E}_j)_{\not\not}\cong\mathcal{E}_{\not\not}$.
+=--
 
 +-- {: .num_prop #RelationToAufhebungof01}
 ###### Proposition
 
-As the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfying $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos ([Lawvere 91, p. 8](#Lawvere91), for further details cf. _[[Aufhebung]]_).
+Since the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfying $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos ([Lawvere 91, p. 8](#Lawvere91), for further details cf. the discussion of the conection to [[Aufhebung]] at [[dense subtopos]]).
 
 =--
 
@@ -200,7 +206,14 @@ More detailed discussion of this is in
 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
+Other references include
+
+* {#BlassScedrov83}[[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
+
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Advances in Mathematics **222** no.6 (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
+
+
+* D. S. Mcnab, _Some applications of double-negation sheafification_ , Proc. Edinburgh Math. Soc. **20** (1977) pp.279-285.
 
 [[!redirects double negation]]
 [[!redirects double negations]]
