@@ -771,7 +771,8 @@ This is the tower of spectra considered in the original texts ([Adams 74, p. 318
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel 86, def. 2.21](#Ravenel86)) it is the associated inverse sequence as in example \ref{NormalizedEResolutionAssociatedSequence} that is called an "$E$-Adams resolution". We instead follow ([Hopkins 99](#Hopkins99)) in using that term for "$E$-injective resolution" as in def. \ref{EAdamsResolution}, and ([Aramian](#Aramian)) in saying "associated inverse sequence" for the above.
+
+In ([Ravenel 84, p. 356](#Ravenel84)) it is the associated inverse sequence as in example \ref{NormalizedEResolutionAssociatedSequence} that is called the "Adams tower", while in ([Ravenel 86, def. 2.21](#Ravenel86)) this is called an "$E$-Adams resolution". We instead follow ([Hopkins 99](#Hopkins99)) in using "$E$-Adams resoltuon" for "$E$-injective resolution" as in def. \ref{EAdamsResolution}, "$E$-Adams tower" for def. \ref{EAdamsTower} and follow ([Aramian](#Aramian)) in saying "associated inverse sequence" for the above.
 
 =--
 
@@ -1852,11 +1853,49 @@ Here the second equivalence is the cofree/forgetful adjunction isomorphism of pr
 With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} is completed.
 
 
-#### Convergence and $E$-completion
+#### Convergence 
 
-... [[converges conditionally]] to the [[E-nilpotent completion]]
 
-([Bousfield 79, section 5 and 6](#Bousfield79), [Ravenel 84](#Ravenel84))...
++-- {: .num_defn #ENilpotentCompletion}
+###### Definition
+
+For $X$ a spectrum and $E$ a [[ring spectrum]], consider the inverse sequence 
+
+$$
+  \overline{E}^{\wedge^\bullet} \wedge X
+  =
+  \left( X \leftarrow \overline{E}\wedge X \leftarrow \overline{E} \wedge \overline{E} \wedge X \leftarrow \cdots
+  \right)
+$$
+
+associated to the normalized $E$-Adams resolution of $X$, as in example \ref{NormalizedEResolutionAssociatedSequence}. The **[[E-nilpotent completion]]** $E^{\hat{}} X$ of $X$ is the [[homotopy limit]] over the sequence of [[homotopy cofibers]] of this tower:
+
+$$
+  E\hat{}X
+    \coloneqq
+  \underset{\longleftarrow}{\lim}
+  \left(
+    \cdots
+    \to
+    cofib(\overline{E}\wedge \overline{E}\wedge X)
+    \to
+    cofib(\overline{E}X \to X)
+    \to
+    0
+  \right)
+  \,.
+$$
+
+This exists and comes with a canonical morphism $X \to E\hat{}X$.
+
+=---
+
+([Bousfield 79, prop. 5.5](#Bousfield79), recalled as [Ravenel 84, theorem 1.13](#Ravenel84))
+
+
+([Ravenel 84, example 1.16](#Ravenel84)
+
+
 
 +-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
 ###### Remark
@@ -1893,7 +1932,7 @@ $$
 +-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
 ###### Proposition
 
-Let $E$ be a [[connective spectrum|connective]] [[E-∞ ring]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
+Let $E$ be a [[connective spectrum|connective]] [[ring spectrum]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
 
 * the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
 
@@ -1911,64 +1950,93 @@ $$
 
 ([Bousfield 79](#Bousfield79)).
 
++-- {: .num_examples #ExamplesOfEnilpotentLocalizations}
+###### Example
+
+* $E = H \mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]]. For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is its [[p-completion]]
+
+  $$
+    (H\mathbb{F}_p)\hat{}X
+    \simeq
+    X^{\hat{}}_p 
+    \coloneqq
+    \underset{\longleftarrow}{\lim}_{n \in \mathbb{N}}
+    X  \wedge M(\mathbb{Z}/p^n)
+  $$
+
+  (where $M A$ denotes the [[Moore spectrum]] of the [[abelian group]] $A$).
+
+* $E = $ [[MU]]. Every spectrum is alreay $MU$-nilpotently complete 
+
+  $$
+    MU\hat{}X \simeq X
+    \,.
+  $$
+
+* $E = $ [[BP]] at prime $p$. For every spectrum $X$ its $BP$-nilpotent completion is its [[p-localization]] 
+
+  $$
+    BP\hat{}X \simeq X_{(p)} \coloneqq X \wedge M \mathbb{Z}_{(p)}
+  $$
+
+  (where $\mathbb{Z}_{(p)}\subset \mathbb{Q}$ is the result of inverting all primes different from $p$).
+
+=--
+
+
 For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
 
++-- {: .num_theorem #ConvergenceOfEAdamsSpectralSequenceToECompletion}
+###### Theorem
 
-
-#### The classical case $X = \mathbb{S}$ and $E = H \mathbb{F}_p$
- {#ClassicalCase}
-
-(...)
-
-([Bruner 09](#Bruner09))
-
-(...)
-
-<img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
-
-(graphics taken from ([[Symmetric spectra|Schwede 12]]))
-
-(...)
-
-
-Given a [[connective spectrum]] $X$ such that $H^\bullet(X)$
-has finite type, then for each [[prime number]] $p$ there exists a [[spectral sequence]] which converges to the [[homotopy groups]] of $X$ modulo $p$ -- $\pi_\ast(X) \otimes \mathbb{Z}_p$ -- and whose $E^2$-page is
+For $X$ a [[spectrum]] and $E$ a [[ring spectrum]], consider [[generalized the|the]] $E$-Adams spectral sequence $\{\mathcal{E}_r^{\bullet,\bullet}, d_r\}$ of $X$ (def. \ref{EAdamsSpectralSequence}, prop. \ref{UniquenessOfEAdamsSpectralSequence}, prop. \ref{TowerSpectralSequencesOfAdamsTowerAndInverseSequenceCoincide}). If for each $s,t$ there is $r$ such that
 
 $$
-  E_2^{s,t} \simeq  Ext_A^{s,t}(H^\bullet(X), \mathbb{Z}/(p) )
+  \mathcal{E}_r^{s,t} \simeq \mathcal{E}_\infty^{s,t}
 $$
 
-where $A$ is the [[Steenrod algebra]]. 
-
-This is built via an [[Adams resolution]]
+then the $E$-Adams spectral sequence converges strongly ([def.](spectral+sequence#Convergence)) to the [[stable homotopy groups]] of the [[E-nilpotent completion]] of $X$ (def. \ref{ENilpotentCompletion}):
 
 $$
-  \array{
-    X = X_0 &\stackrel{g_0}{\leftarrow}&  X_1 &\stackrel{g_1}{\leftarrow}& X_2 &\stackrel{g_2}{\leftarrow}& X_3 &\stackrel{}{\leftarrow}& \cdots
-    \\
-    \downarrow^{\mathrlap{f_0}} && \downarrow^{\mathrlap{f_1}} && \downarrow^{\mathrlap{f_2}} && \downarrow^{\mathrlap{f_3}} &&
-    \\
-    K_0 && K_1 && K_2 && K_2
-  }
+  \mathcal{E}_1^{s,t} \;\Rightarrow\;  \pi_\bullet(E\hat{}X)
+  \,.
 $$
 
-The [[long exact sequence]] induced by this give an [[exact couple]] and the Adams spectral sequence is the corresponding [[spectral sequence]].
+=--
 
-This is due to ([Adams 58](#Adams58)). Review includes([Ravenel 86, theorem, 2.1.1, def. 2.1.8](#Ravenel86), [Bruner 09](#Bruner09)).
-
-(...)
+([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
 
 
+#### Examples
 
-#### The case $X = \mathbb{S}$ and $E = MU$
- {#TheAdamsNovikovSpectralSequence}
++-- {: .num_example}
+###### Examples
+
+* For $X = \mathbb{S}$ and $E = H\mathbb{F}_p$, then theorem \ref{SecondPageOfEAdamsSpectralSequence} and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations} gives a spectral sequence
+
+  $$
+    Ext_{\mathcal{A}^\ast_p}(\mathbb{F}_p, \mathbb{F}_p)
+    \;\Rightarrow\;
+    \pi_\bullet(\mathbb{S})\otimes Z^\wedge_p
+    \,.
+  $$
+
+  This is the _[[classical Adams spectral sequence]]_.
+
+* For $X = \mathbb{S}$ and $E = $ [[MU]], then theorem \ref{SecondPageOfEAdamsSpectralSequence} and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations} gives a spectral sequence
+
+  $$
+    Ext_{MU_\ast(MU)}(MU_\ast, MU_\ast)
+    \;\Rightarrow\;
+    \pi_\bullet(\mathbb{S})
+    \,.
+  $$
+
+  This is the _[[Adams-Novikov spectral sequence]]_.
 
 
-(...)
+=--
 
-[[Adams-Novikov spectral sequence]]
-
-(...)
 
 
 ### As derived descent in higher algebra
@@ -2318,7 +2386,6 @@ $$
 
 ([Bousfield 79](#Bousfield79)).
 
-For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
 
 #### The $E$-Adams-Novikov spectral sequence
  {#TheEAdamsSpectralSequence}
