@@ -175,10 +175,17 @@ All of the discussion above for the case of groups generalizes to any finitary [
 As discussed in the article on [[operad|operads]], the notion of Lawvere theory may also be formulated in terms of operads relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
 
 ### Other examples
+ {#OtherExamples}
 
-* For $k$ a [[field]], the category of _free $k$-associative algebras_ is the (syntactic category of the) theory of ordinary [[associative algebra]]s over $k$.
+* For $k$ a [[field]], the category of _free $k$-associative algebras_ is the (syntactic category of the) theory of ordinary [[associative algebras]] over $k$.
 
-* The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebra]]s. This is also a [[Fermat theory]].
+* for $G$ a fixed [[group]], then $G$-[[actions]] ([[permutation representations]]) are an example of algbras over a Lawvere theory
+
+* for $R$ a fixed [[ring]], then $R$-[[modules]] are an example
+
+* for $k$ a [[field]], then [[Lie algebras]] over $k$ are an example
+
+* The category [[CartSp]] is the (syntactic category of the) theory of [[smooth algebras]] (as used in [[synthetic differential geometry]]). This is also a [[Fermat theory]].
 
 ## Properties
 
