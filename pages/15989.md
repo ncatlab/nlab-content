@@ -1,0 +1,9 @@
+
+
+* [webpage](http://home.gwu.edu/~labrams/)
+
+## related $n$Lab entries
+
+* [[2d TQFT]], [[Frobenius algebra]]
+
+category: people
