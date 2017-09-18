@@ -47,12 +47,15 @@ Given two contexts $\Gamma$ and $\Delta$ and an interpretation $f\colon \Gamma \
 To bring this down to earth, let $S$ and $T$ be [[sets]] and let $f\colon S \to T$ be a [[function]].  We will think of each set as defining a context with one free variable for an element of that set; then the propositions in one of those contexts correspond to the [[subsets]] of the corresponding set.  In this way, we are looking at $f^*\colon \mathcal{P}T \to \mathcal{P}S$, the [[preimage]] map between [[power sets]] (often denoted $f^{-1}$).  Then the adjoints $\forall_f$ and $\exists_f$ are maps from $\mathcal{P}S \to \mathcal{P}T$ as follows:
 
 *  $\forall_f\, A \coloneqq \{ y\colon T \;|\; \forall\, x\colon S,\; f(x) = y \;\Rightarrow\; x \in A \}$;
+
 *  $\exists_f\, A \coloneqq \{ y\colon T \;|\; \exists\, x\colon S,\; f(x) = y \;\wedge\; x \in A \}$.
 
 Note that $\exists_f A$ is simply the [[image]] of $f$ restricted to $A$.  Accordingly, one often denotes $\exists_f$ as $f_*$ (if not simply $f$).  When using this notation, one can also denote $\forall_f$ as $f_!$.
 
 When $f$ is the unique function from a set $X$ to the terminal set, $\mathcal{P}1$ is the two-element set and an object in $\mathcal{P}X$ is a predicate on $X$.  The adjoints then map a predicate $Q$ to a truth value:
+
 * $\exists x \in X$ such that $Q(x)$;
+
 * $\forall x \in X, Q(x).$
 
 ### Guarded quantification: quantifying over subtypes
