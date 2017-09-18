@@ -287,7 +287,7 @@ Cubical [[singular homology]] is discussed in
 
 An axiomatization of cubical sets in [[extensional type theory|extensional]] [[type theory]] is in 
 
-* {#CoquandHuber} [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://www.cse.chalmers.se/~coquand/mod1.pdf))
+* {#CoquandHuber} [[Thierry Coquand]], Simon Huber, _A model of type theory in cubical sets_, 2013  ([pdf](http://drops.dagstuhl.de/opus/volltexte/2014/4628/))
   
 
 The [[homotopy theory]] / [[model category]] structure on cubical sets is discussed in 
