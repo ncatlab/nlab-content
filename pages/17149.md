@@ -145,8 +145,6 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[topological K-theory]]
 
-* [[suspension spectrum]]
-
 * [[Thom spectrum]]
 
 * [[cylinder spectrum]]
@@ -159,8 +157,9 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[CW-spectrum]]
 
-
 ### 3. Elementary properties of the category of CW-spectra
+
+* [[Adams category]]
 
 ### 4. Smash products
 
