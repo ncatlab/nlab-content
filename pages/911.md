@@ -130,8 +130,9 @@ More generally, the [[universal covering groupoid]] of a groupoid is just the ca
 
 ### Representable Presheaves
 
-Let $Y(C):\mathcal{C}^{op}\to Set$ be a representable presheaf with $Y(C)(D)=Hom_{\mathcal{C}}(D,C)$. Consider the contravariant category of elements $\int_\mathcal{C} Y(C)$ . This has objects $(D_1,p_1)$ with $p_1\in Y(C)(D_1)$, hence $p_1$ is just an arrow $D_1\to C$ in $\mathcal{C}$. A map from $(D_1, p_1)$ to $(D_2, p_2)$ is just a map $u:D_1\to D_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in $\mathcal{C}/C$. Accordingly we see that $\int_\mathcal{C} Y(C)\simeq \mathcal{C}/C$ .
+Let $Y(C):\mathcal{C}^{op}\to Set$ be a [[representable functor|representable presheaf]] with $Y(C)(D)=Hom_{\mathcal{C}}(D,C)$. Consider the contravariant category of elements $\int_\mathcal{C} Y(C)$ . This has objects $(D_1,p_1)$ with $p_1\in Y(C)(D_1)$, hence $p_1$ is just an arrow $D_1\to C$ in $\mathcal{C}$. A map from $(D_1, p_1)$ to $(D_2, p_2)$ is just a map $u:D_1\to D_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in the [[overcategory|slice category]] $\mathcal{C}/C$. Accordingly we see that $\int_\mathcal{C} Y(C)\simeq \mathcal{C}/C$ .
 
+This equivalence comes in handy when one wants to compute [[category of presheaves|slices of presheaf toposes]] over representable presheaves $Y(C)$ since $PSh(\int_\mathcal{C} P) \simeq PSh(\mathcal{C})/P$ in general for presheaves $P:\mathcal{C}^{op}\to Set$ , whence $PSh(\mathcal{C})/Y(C) \simeq PSh(\mathcal{C}/C)$ . An instructive example of this construction is spelled out in detail at [[hypergraph]].
 
 ### Action Groupoid
 
