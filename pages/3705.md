@@ -15,11 +15,14 @@ For $\mathcal{E}$ a [[topos]], a **subtopos** is another topos $\mathcal{F}$ equ
 
 If this is an [[open geometric morphism]] (or an [[essential geometric morphism]]) one speaks of an **open subtopos** (an **essential subtopos**, respectively).
 
+
 ##Properties
 
-If $\mathcal{E}$ is a [[Grothendieck topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
+* If $\mathcal{E}$ is a [[Grothendieck topos]] then subtoposes correspond to [[Lawvere-Tierney topologies]] $j$ on $\mathcal{E}$,  to [[localization|localizations]] of $\mathcal{E}$ as well as to [[closure operator|universal closure operators]] on $\mathcal{E}$.
 
-Lawvere-Tierney topologies form a [[Heyting algebra]] hence the lattice of subtoposes carries a co-Heyting algebra structure. Now $\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to  deductively closed quotient theories of $T$ (cf. Caramello (2009), thm.3.6 p.15).
+* The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes them a [[lattice]] with a co-Heyting algebra structure  i.e. the join operator has a left adjoint 'subtraction' operator.
+
+* $\mathcal{E}$ (as every Grothendieck topos over $Set$) is the [[classifying topos]] of some [[geometric theory]] $T$ and it can be shown that subtoposes of $\mathcal{E}$ correspond precisely to  deductively closed quotient theories of $T$ (cf. Caramello (2009), thm.3.6 p.15) i.e. passage to a subtopos corresponds to adding further geometric axioms to $T$ - localizing geometrically amounts to theory refinement logically.
 
 ##References
 
