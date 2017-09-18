@@ -50,10 +50,12 @@ this may or may not equal the [[zero vector]] $0_V$.  Of course, if every $a_i$ 
 +-- {: .num_defn}
 ###### Definition
 
-The subset $S$ is __linearly independent__ if, conversely, every $a_i = 0_K$ whenever the sum
+The subset $S$ is __linearly independent__ if, conversely, for every finite subset $\{a_1, \ldots, a_n\} \subseteq S$, we have $a_i = 0_K$ for all $i$ whenever 
 $$ \sum_{i=1}^n a_i v_i = 0_V ;$$
 otherwise, $S$ is __linearly dependent__.
-=--
+=-- 
+
+Observe that the empty set is linearly independent by a vacuous implication. 
 
 
 ### Constructively
