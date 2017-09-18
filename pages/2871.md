@@ -39,7 +39,7 @@ A **cellular model category** is a [[cofibrantly generated model category]] such
 
 For $C$ a cellular model category we have that
 
-* the [[functor category]] $[D,C]$ for any [[small category]] $C$ with its projective [[global model structure on functors]] is again a cellular model category;
+* the [[functor category]] $[D,C]$ for any [[small category]], $D$, with its projective [[global model structure on functors]] is again a cellular model category;
 
 * for $c \in C$ any object, the [[over category]] $C/c$ is again a cellular model category.
 
