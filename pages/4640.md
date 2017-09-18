@@ -338,7 +338,7 @@ $$
   \,.
 $$
 
-This makes $k[t,\{t_i\}]$ the free [[graded algebra]] over $k$ on $n$ generators $t_i$ in degree 1. This in $\mathbb{N} \subset \mathbb{Z}$-graded. What is genuinely $\mathbb{Z}$-graded is 
+This makes $k[t,\{t_i\}]$ the free [[graded algebra]] over $k$ on $n$ generators $t_i$ in degree 1. This is $\mathbb{N} \subset \mathbb{Z}$-graded. What is genuinely $\mathbb{Z}$-graded is 
 
 $$
   \mathcal{O} (\mathbb{A}^n - \{0\}) \simeq k[t_1, t_1^{-1}, \cdots, t_n, t_n^{-1}]
