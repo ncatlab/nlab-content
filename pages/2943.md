@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -25,11 +25,13 @@ One special case of hierarchical reduction is the limit of large volumes $V$, in
 
 One of the basic characteristics of a thermodynamical system is its [[temperature]], which has no analogue in fundamental non-statistical physics. Other common thermodynamical variables include pressure, volume, [[entropy]], enthalpy etc. 
 
+
 ## Related entries
 
-*[[entropy]], [[relative entropy]], [[second law of thermodynamics]], [[generalized second law of thermodynamics|generalized second law]], [[KMS state]]
+* [[entropy]], [[relative entropy]], [[second law of thermodynamics]], [[generalized second law of thermodynamics|generalized second law]], [[KMS state]]
 
 * [[intensive and extensive]]
+
 
 ## References
 
@@ -48,6 +50,10 @@ See also
 * wikipedia: [thermodynamics](http://en.wikipedia.org/wiki/Thermodynamics), [fundamental thermodynamic relation](http://en.wikipedia.org/wiki/Fundamental_thermodynamic_relation)
 * Azimuth Project, _[Thermodynamics](http://www.azimuthproject.org/azimuth/show/Thermodynamics)_
 * A. Bravetti, C. S. Lopez-Monsalvo, F. Nettel, _Contact symmetries and Hamiltonian thermodynamics_, [arxiv/1409.7340](http://arxiv.org/abs/1409.7340)
+
+For an elementary but thorough introduction, focussed on avoiding common misconceptions:
+
+* John Denker. _Modern Thermodynamics_. [web](http://www.av8n.com/physics/thermo), [pdf](http://www.av8n.com/physics/thermo-laws.pdf).
 
 A survey of [[irreversible thermodynamics]] is in 
 
