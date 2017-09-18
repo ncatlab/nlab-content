@@ -81,9 +81,9 @@ For $\omega = \langle -,[-,-]\rangle$ as above, we have $p= 1$ and so $\nabla$ h
 
 This terminology arises as follows. In ([Wess-Zumino 84](Wess-Zumino-Witten+model#WessZumino71)) the [[sigma-model]] for a [[string]] propagating on the [[Lie group]] $G$ was considered, with only the standard [[kinetic action]] term. Then in ([Witten 84](Wess-Zumino-Witten+model#Witten84)) it was observed that for this [[action functional]] to give a [[conformal field theory]] after [[quantization]], a certain [[higher gauge theory|higher gauge]] [[interaction term]] has to the added. The resulting [[sigma-model]] came to be known as the _[[Wess-Zumino-Witten model]]_ or _WZW model_ for short, and the term that Witten added became the _WZW term_. In terms of [[string theory]] it describes the propagation of the [[string]] on the group $G$ subject to a [[force]] of [[gravity]] given by the [[Killing form]] [[Riemannian metric]] and subject to a [[B-field]] [[higher gauge field|higher gauge force]] whose [[field strength]] is $\omega$.  In ([Gawedzki 87](Wess-Zumino-Witten+model#Gawedzki87)) it was observed that when formulated properly and generally, this WZW term is the [[surface holonomy]] functional of a [[connection on a bundle gerbe]] $\nabla$ on $G$. This is equivalently the $\nabla$ that we just motivated above.
 
-Later WZW terms, or at least their curvature forms $\omega$, were recognized all over the place in [[quantum field theory]]. For instance the [[Green-Schwarz sigma-models for super p-branes]] each have an [[action functional]] that is the sum of the standard [[kinetic action]] plus a WZW term of degree $p+2$. 
+Later, such WZW terms, or at least their curvature forms $\omega$, were recognized all over the place in [[quantum field theory]]. For instance the [[Green-Schwarz sigma-models for super p-branes]] each have an [[action functional]] that is the sum of the standard [[kinetic action]] plus a WZW term of degree $p+2$. 
 
-In general WZW terms are "[[gauged WZW model|gauged]]" which means, as we will see, that they are not defined on the give [[smooth infinity-group]] $G$ itself, but on a bundle $\tilde G$ of differential moduli stacks over that group, such that a map $\Sigma \to \tilde G$ is a pair consisting of a map $\Sigma \to G$ and of a [[higher gauge field]] on $\Sigma$ (a "tensor multiplet" of fields).
+In general WZW terms are "[[gauged WZW model|gauged]]" which means, as we will see, that they are not defined on the given [[smooth infinity-group]] $G$ itself, but on a bundle $\tilde G$ of [[differential cohomology|differential]] [[moduli stacks]] over that group, such that a map $\Sigma \to \tilde G$ is a pair consisting of a map $\Sigma \to G$ and of a [[higher gauge field]] on $\Sigma$ (a "tensor multiplet" of fields).
 
 Here we discuss the general construction and theory of such higher WZW terms.
 
@@ -187,6 +187,7 @@ From the discussion at _[[Lie integration]]_:
 =--
 
 +-- {: .num_remark #LieIntegrationIsFunctorial}
+
 ###### Remark
 
 The constructions in def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra} are clearly [[functor|functorial]]: given a [[homomorphism]] of [[L-∞ algebras]]
@@ -217,18 +218,82 @@ etc.
 
 =--
 
++-- {: .num_example #LInfinityCocyclesAsMorphisms}
+###### Example
+
+A degree-$(p+2)$-[[L-∞ cocycle]] $\mu$ on an [[L-∞ algebra]] $\mathfrak{g}$ is a homomorphism of the form
+
+$$
+  \mu \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}
+$$
+
+to the [[line Lie n-algebra|line Lie (p+2)-algebra]] $b^{p+1}\mathbb{R}$.
+The [[formal dual]] of this is the homomorphism of [[dg-algebras]]
+
+$$
+  CE(\mathfrak{g}) \longleftarrow CE(b^{p+1}\mathbb{R}) \colon \mu^\ast
+$$
+
+which manifestly picks a $d_{CE(\mathfrak{g})}$-closed elements in $CE^{p+2}(\mathfrak{g})$.
+
+Precomposition this $\mu^\ast$ with a flat [[L-∞ algebra valued differential form]]
+
+$$
+  A \in \Omega^1_{flat}(X,\mathfrak{g}) = Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(X))
+$$
+
+yields, by example \ref{ExamplesOfLieIntegration}, a plain closed $(p+2)$-form
+
+$$
+  \mu^\ast A \in \Omega^{p+2}_{cl}(X)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #GroupOfPeriods}
+###### Definition
+
+Given an [[L-∞ cocycle]]
+
+$$
+  \mu \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}
+  \,,
+$$
+
+as in example \ref{LInfinityCocyclesAsMorphisms}, 
+then its _group of [[periods]]_ is the [[discrete group|discrete]] additive [[subgroup]] $\Gamma \hookrightarrow \mathbb{R}$ of those [[real numbers]] which are [[integration of differential forms|integrations]]
+
+$$
+  \int_{\partial \Delta^{p+2}_{smth}} \mu^\ast A \in \mathbb{R}
+$$
+
+of the value of $\mu$, as in example \ref{LInfinityCocyclesAsMorphisms}, 
+on [[L-∞ algebra valued differential forms]]
+
+$$
+  A \in \Omega^1_{flat}(\partial \Delta^{p+3}_{smth})
+  \,,
+$$
+
+over the [[boundary of a simplex|boundary of the (p+3)-simplex]] (which are forms with sitting instants on the $(p+2)$-dimensional faces that glue together; without restriction of generality may simply consider forms on the $(p+2)$-[[sphere]] $S^{p+2}$).
+
+=--
+
 
 +-- {: .num_prop #TruncatedLieIntegrationOfCocycle}
 ###### Proposition
 
-For $\mu \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}$ a homomorphism to the 
-[[line Lie n-algebra|line Lie p+1]], hence a degree-$(p+2)$ [[cocycle]] in the [[L-∞ algebra cohomology]] of $\mathfrak{g}$, then the universal Lie integration of $\mu$ descends to the $(p+2)$-coskeleton 
+Given an [[L-∞ cocycle]] $\mu \colon \mathfrak{g} \to b^{p+1}\mathbb{R}$, 
+as in example \ref{LInfinityCocyclesAsMorphisms},
+then the universal Lie integration of $\mu$, via def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra} and remark \ref{LieIntegrationIsFunctorial}, descends to the $(p+2)$-[[coskeleton]]
 
 $$
   \mathbf{B}G_\bullet \coloneqq cosk_{p+2}\exp(\mathfrak{g})
 $$
 
-up to quotienting the coefficients $\mathbb{R}$ by the subgroup $\Gamma \hookrightarrow \mathbb{R}$ of [[periods]] of $\mu$ to yield the bottom morphism in
+up to quotienting the coefficients $\mathbb{R}$ by the 
+group of [[periods]] $\Gamma$ of $\mu$, def. \ref{GroupOfPeriods}, to yield the bottom morphism in
 
 $$
   \array{
@@ -246,7 +311,9 @@ $$
 
 =--
 
-This is discussed in detail in ([FSS 12](Lie+integration#FSS12)). 
+This is fairly immediate from the definitions, detailed discussion is in ([FSS 12](Lie+integration#FSS12)). 
+
+Here and in the following we are freely using example \ref{ExamplesOfLieIntegration} to identify $\exp(b^{p+1}\mathbb{R}) \simeq \mathbf{B}^{p+2}\mathbb{R}$. Establishing this is the only real work in prop. \ref{TruncatedLieIntegrationOfCocycle}.
 
 
 #### The WZW terms
@@ -254,7 +321,8 @@ This is discussed in detail in ([FSS 12](Lie+integration#FSS12)).
 +-- {: .num_prop #HodgeFiltrationRefinementFromLInfinityCocycles}
 ###### Proposition
 
-Given an [[L-∞ algebra cohomology|L-∞ cocycle]] $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$, then the canonical [[commuting diagram]] of [[simplicial presheaves]]
+For $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$
+an [[L-∞ cocycle]], then there is the following canonical [[commuting diagram]] of [[simplicial presheaves]]
 
 $$
    \array{
@@ -292,7 +360,7 @@ $$
   }
 $$
 
-given 
+which is given 
 
 * on the top by def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra}, 
 example \ref{ExamplesOfLieIntegration},
@@ -300,12 +368,73 @@ remark \ref{LieIntegrationIsFunctorial},
 
 * on the bottom by prop. \ref{TruncatedLieIntegrationOfCocycle},
 
-presents a 
+Moreover, this presents a 
 refinement of the canonical [[Hodge filtration]] on $\mathbf{B}^{p}(\mathbb{R}/\Gamma)$, def. \ref{RefinementOfHodgeFiltration}, 
 along the cocycle $\mathbf{c}$ which Lie integrates $\mu$
 via prop. \ref{TruncatedLieIntegrationOfCocycle}.
 
 =--
+
++-- {: .num_defn #DifferentiallyTiwstedGroup}
+###### Definition
+
+Write
+
+$$
+  \tilde G
+  \coloneqq
+  G \underset{\flat_{dR}\mathbf{B}G}{\times} \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
+$$
+
+for the [[homotopy pullback]] of the left vertical morphism in prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles} along (the [[modulating morphism]] for) the [[Maurer-Cartan form]] $\theta_G$ of $G$, i.e. for the object sitting in a homotopy Cartesian square of the form
+
+$$
+  \array{
+    \tilde G &\stackrel{\theta_{\tilde G}}{\longrightarrow}&  \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{\theta_G}{\longrightarrow}& \flat_{dR}\mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #ExamplesForTildeGInModLayer}
+###### Example
+
+For the special case that $G$ is an ordinary [[Lie group]], then $\flat_{dR}\mathbf{B}G \simeq \Omega^{1}_{flat}(-,\mathfrak{g})$, hence in this case the morphism being pulled back in def. \ref{DifferentiallyTiwstedGroup} is an [[equivalence]], and so in this case nothing new happens, we get $\tilde G \simeq G$.
+
+On the other extreme, when $G = \mathbf{B}^{p}U(1)$ is the [[circle n-group|circle (p+1)-group]], then def. \ref{DifferentiallyTiwstedGroup} produces reduces to the [[homotopy pullback]] that characterizes the [[Deligne complex]] and hence yields
+
+$$
+  \widetilde{\mathbf{B}^p U(1)}
+  \simeq
+  \mathbf{B}^p U(1)_{conn}
+  \,.
+$$
+
+This shows that def. \ref{DifferentiallyTiwstedGroup} is a certain non-abelian generalization 
+of [[ordinary differential cohomology]]. We find further characterization of this below in corollary \ref{TildeHatGIsDifferentialModuliBundle}, see remark \ref{InterpretationOfTildeHatG}.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+From example \ref{ExamplesForTildeGInModLayer}
+one see the conceptial meaning of def. \ref{DifferentiallyTiwstedGroup}:
+
+
+For $G$ a [[Lie group]], then the de Rham coefficients are just globally defined differential forms, $\flat_{dR}\mathbf{B}G \simeq \Omega^1_{flat}(-,\mathfrak{g})$ (by the discussion [here](smooth+infinity-groupoid+--+structures#deRhamWithCoefficientsInBOfLieGroup)), and in particular therefore the [[Maurer-Cartan form]] $\theta_G \colon G \to \flat_{dR}\mathbf{B}G$ is a globally defined differential form. This is no longer the case for general [[smooth ∞-groups]] $G$. In general, the [[Maurer-Cartan forms]] here is a [[cocycle]] in [[hypercohomology]], given only locally by differential forms, that are glued nontrivially, in general, via [[gauge transformations]] and [[higher gauge transformations]] given by lower degree forms.
+
+But the WZW terms that we are after are supposed to the [[prequantizations]] globally defined Maurer-Cartan forms. The homotopy pullback in def. \ref{DifferentiallyTiwstedGroup} is precisely the [[universal construction]] that enforces the existence of a globally defined Maurer-Cartan form for $G$, namely  $\theta_{\tilde G} \colon \tilde G \to \Omega^1_{flat}(-,\mathfrak{g})$.
+
+=--
+
 
 +-- {: .num_defn #WZWTermFromLieIntegration}
 ###### Definition
@@ -321,9 +450,13 @@ $$
   \,.
 $$
 
+which [[modulating morphisms|modulates]] a [[circle n-bundle with connection|p+1-connection]]/[[Deligne cohomology|Deligne cocycle]] on the differentially extended smooth $\infty$-group $\tilde G$ from def. \ref{DifferentiallyTiwstedGroup}.
+
 This we call the _WZW term_ obtained by universal Lie integration from $\mu$.
 
 =--
+
+Essentially this construction originates in ([[schreiber:The brane bouquet|FSS 13]]).
 
 #### Consecutive WZW terms and twists
  {#ConsecutiveWZWTermsAndTwists}
@@ -461,13 +594,14 @@ $$
   \mathbf{L}_1 \colon \tilde G \longrightarrow \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
 $$
 
+
 and
 
 $$
   \mathbf{L}_2 \colon \widetilde {\hat G} \longrightarrow \mathbf{B}^{p_2+1}(\mathbb{R}/\Gamma_2)_{conn}
 $$
 
-be the WZW terms obtained from the two cocycles, def. \ref{WZWTermFromLieIntegration}.
+be the WZW terms obtained from the two cocycles via def. \ref{WZWTermFromLieIntegration}.
 
 
 +-- {: .num_prop #ConsecutiveWZWTermsFromConsecutiveLInfinityCocycles}
@@ -620,7 +754,7 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #InterpretationOfTildeHatG}
 ###### Remark
 
 Corollary \ref{TildeHatGIsDifferentialModuliBundle} says that $\widetilde {\hat G}$ is a [[bundle]] of [[moduli stacks]] for [[differential cohomology]] over $\tilde G$. This means that maps
