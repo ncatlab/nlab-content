@@ -122,7 +122,7 @@ $$
   \,.
 $$
 
-This is a traditional description of the [[associated bundle]] in question.
+This is a traditional description of the associated bundle in question.
 
 =--
 
