@@ -212,6 +212,17 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 
 * The [[density of a subset]] can be considered as taking the measure of sets normally considered to be not well behaved in measure theory, such as infinite subsets of the natural numbers.
 
+## References
+
+See the references at _[[measure theory]]_.
+
+Discussion via [[Boolean toposes]] is in
+
+* {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006. ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
+
+* {#Henry14} [[Simon Henry]], _Measure theory over boolean toposes_, Mathematical Proceedings of the Cambirdge Philosophical Society, 2016 ([arXiv:1411.1605](https://arxiv.org/abs/1411.1605))
+
+
 
 category: analysis
 
