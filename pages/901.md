@@ -202,6 +202,8 @@ This is the starting point for the definition at [[ind-object in an (∞,1)-cate
 
 * [[pro-object]] / [[pro-object in an (∞,1)-category]]
 
+* [[ind-pro-object]]
+
 * [[flat functor]]
 
 
