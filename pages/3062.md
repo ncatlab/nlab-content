@@ -129,6 +129,8 @@ If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a 
 
 * [[string Lie 2-algebra]]
 
+* [[4d supergravity Lie 2-algebra]]
+
 ## Related concepts
 
 * [[Lie algebra]], [[Lie group]]
