@@ -857,7 +857,7 @@ Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation 
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #EMSpectra}
 ###### Example
 
 The [[Brown representability theorem]] ([thm.](Introduction+to+Stable+homotopy+theory+--+S#BrownRepresentabilityForTraditionalBrownFunctors)) implies ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum)) that every [[generalized (Eilenberg-Steenrod) cohomology theory]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomology)) is represented by an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}).
@@ -2459,8 +2459,9 @@ $$
 =--
 
 ##### Topological enrichment
+  {#TopologicalEnrichment}
 
-We discuss here how the [[hom-set]] of homomorphisms between any two sequential spectra is naturally equipped with a topology, and how these _[[hom-spaces]]_ interact well with the strict model structure on sequential spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. This is in direct analogy to the compatibility of compactly generated [[mapping spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces)) with the [[classical model structure on topological spaces|classical model structure on compactly generated topological spaces]] discussed at _[Classical homotopy theory -- Topological enrichment](Introduction+to+Stable+homotopy+theory+--+P#TopologicalEnrichment)_. It gives an improved handle on the analysis of morphisms of spectra below in [the proof of the stable model structure](#ProofOfTheStableModelStructureOnSequentialSpectra) and it paves the way to the discussion of fully fledge _[[mapping spectra]]_ below in _[1.2](#DiagramSpectra)_. There we will give a fully general account of the principles underlying the following. Here we just consider a pragmatic minimum that allows us to proceed.
+We discuss here how the [[hom-set]] of homomorphisms between any two sequential spectra is naturally equipped with a topology, and how these _[[hom-spaces]]_ interact well with the strict model structure on sequential spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. This is in direct analogy to the compatibility of compactly generated [[mapping spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces)) with the [[classical model structure on topological spaces|classical model structure on compactly generated topological spaces]] discussed at _[Classical homotopy theory -- Topological enrichment](Introduction+to+Stable+homotopy+theory+--+P#TopologicalEnrichment)_. It gives an improved handle on the analysis of morphisms of spectra below in [the proof of the stable model structure](#ProofOfTheStableModelStructureOnSequentialSpectra) and it paves the way to the discussion of fully fledge _[[mapping spectra]]_ below in _[[Introduction to Stable homotopy theory -- 1-2|part 1.2]]_. There we will give a fully general account of the principles underlying the following. Here we just consider a pragmatic minimum that allows us to proceed.
 
 
 
@@ -2521,7 +2522,7 @@ $$
   \,.
 $$
 
-We saw that. by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), this is equivalent to the _pullback powering_ satisfying the dual relations
+We also saw that, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), this is equivalent to the _pullback powering_ satisfying the dual relations
 
 $$
   Fib_{cl}^{\Box Cof_{cl}}
@@ -2540,7 +2541,7 @@ $$
   \,.
 $$ 
 
-Now that we passed from spaces to spectra, def. \ref{TensoringAndPoweringOfSequentialSpectra} generalizes the smash product of spaces to the smash tensoring of sequential spectra by spaces, and the pointed mapping space of spaces to the powering of a space into a sequential spectrum. Accordingly there is now the analogous concept of _[[pushout product]]_ with respect to smash tensoring, and of _pullback powering_ with respect to smash powering. 
+Now that we passed from spaces to spectra, def. \ref{TensoringAndPoweringOfSequentialSpectra} generalizes the smash product of spaces to the smash tensoring of sequential spectra by spaces, and generalizes the pointed mapping space construction for spaces to the powering of a space into a sequential spectrum. Accordingly there is now the analogous concept of _[[pushout product]]_ with respect to smash tensoring, and of _pullback powering_ with respect to smash powering. 
 
 From the way things are presented, it is immediate that these operations on spectra satisfy the analogous compatibility condition with the strict model structure on spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, in fact this follows generally for topologically enriched functor categories and is inherited via prop. \ref{SequentialSpectraAsDiagramSpectra}. But since this will be important for some of the discussion to follow, we here make it explicit:
 
@@ -4894,6 +4895,11 @@ where the horizontal adjunctions are the canonically induced (via [this prop.](I
 ##### Cofibrant generation
 
 We show that the stable model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)). 
+
+We will not use the result of this section in the remainder of part 1.1, but the following argument is the blueprint for the proof of the [[model structure on orthogonal spectra]] that we consider in [[Introduction to Stable homotopy theory -- 1-2|part 1.2]], in the section _[The stable model structure on structured spectra](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableModelStructure)_.
+
+Moreover, that $SeqSpec(Top_{cg})_{stable}$ is [[cofibrantly generated model category|cofibrantly generated]] means that for $\mathcal{C}$ any [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) then there exists a [[projective model structure on functors]] $[\mathcal{C}, SeqSpec(Top_{cg})_{stable}]_{proj}$ on the category of [[topologically enriched functors]] $\mathcal{C} \to SeqSpec(Top_{cg})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)), in direct analogy to the projective model structure $[\mathcal{C},(Top^{\ast/}_{cg})_{Quillen}]_{proj}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)). This is the model structure for _[[parameterized stable homotopy theory]]_. Just as the [[stable homotopy theory]] discussed here is the natural home of [[generalized (Eilenberg-Steenrod) cohomology]] theories (example \ref{ForASpectrumXGeneralizedECohomology}) so [[parameterized stable homotopy theory]] is the natural home of [[twisted cohomology]] theories.
+
 
 In order to express the generating (acyclic) cofibrations, we need the following simple but important concept.
 
