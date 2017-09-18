@@ -92,6 +92,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 * [[global equivariant homotopy theory]]
 
+* [[rational equivariant stable homotopy theory]]
+
 * [[slice spectral sequence]]
 
 ## References
