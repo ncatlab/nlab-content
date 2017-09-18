@@ -32,6 +32,49 @@ A _topological closure operator_ is a Moore closure operator $Cl: P(X) \to P(X)$
 
 ## Properties
 
+#### In metric spaces
+ {#InMetricSpaces}
+
++-- {: .num_prop #ConvergenceInClosedSubspace}
+###### Proposition
+
+Using [[classical logic]] then:
+
+Let $(X,d)$ be a [[metric space]], regarded as a [[topological space]] via its [[metric topology]],
+and let $V \subset X$ be a [[subset]]. Then the following are equivalent:
+
+1. $V \subset X$ is a [[closed subspace]].
+
+1. For every [[sequence]] $x_i \in V \subset X$ with elements in $V$, which [[convergence|converges]] as a sequence in $X$ it also converges in $V$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First assume that $V \subset X$ is closed and that $x_i \overset{i \to \infty}{\longrightarrow} x_{\infty}$ for some
+$x_\infty \in X$. We need to show that then $x_\infty \in V$. Suppose it were not, then 
+$x_\infty \in X\backslash V$. Since by definition this [[complement]] $X \backslash V$ is an [[open subset]], 
+it follows that there exists a [[real number]] $\epsilon \gt 0$ such that the [[open ball]] 
+around $x$ of radius $\epsilon$ is still contained in the complement: $B^\circ_x(\epsilon) \subset X \backslash V$.
+But since the sequence is assumed to converge in $X$, this means that there exists $N_\epsilon$ such that all 
+$x_{i \gt N_{\epsilon}}$ are in $B^\circ_x(\epsilon)$, hence in $X\backslash V$. This contradicts the assumption that
+all $x_i$ are in $V$, and hence we have [[proof by contradiction|proved by contradiction]] that $x_\infty \in V$.
+
+Conversely, assume that for all sequences in $V$ that converge to some $x_\infty \in X$ then $x_\infty \in V \subset W$.
+We need to show that then $V$ is closed, hence that $X \backslash V \subset X$ is an open subset, hence that for every
+$x \in X \backslash V$ we may find a real number $\epsilon \gt 0$ such that the [[open ball]] $B^\circ_x(\epsilon)$ around $x$ 
+of radius $\epsilon$ is still contained in
+$X \backslash V$. Suppose on the contrary that such $\epsilon$ did not exist. This would mean that for each $k \in \mathbb{N}$
+with $k \geq 1$ then the [[intersection]] $B^\circ_x(1/k) \cap V$ is [[inhabited|non-empty]]. Hence then we could choose
+points $x_k \in B^\circ_x(1/k) \cap V$ in these intersections. These would form a sequence which clearly converges to   
+the original $x$, and so by assumption we would conclude that $x \in V$, which violates the assumption that $x \in X \backslash V$.
+Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is in fact open.
+
+=--
+
+
+
 #### Kuratowski's closure-complement problem 
 
 This mildly amusing curiosity asks how many set-theoretic operations on a topological space $X$ are derivable from closure $C$ and [[complementation]] $\neg$ and applying finite composition. The answer is that at most 14 operations are so derivable (and there are examples showing this number is achievable). As the proofs below indicate, this bare fact has little to do with topology; it has more to do with general Moore closures and how they interact with complements (using [[classical logic]]). 
