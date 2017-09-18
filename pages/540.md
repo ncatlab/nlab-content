@@ -36,7 +36,7 @@ The following are examples for proposals of definitions of weak $\omega$-categor
 
 See the general references at [[higher category theory]].
 
-* [[Andre Joyal]], [[Tim Porter]], [[Peter May]], _Weak categories_ ([pdf](http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
+* [[Andre Joyal]], [[Tim Porter]], [[Peter May]], _Weak categories_ ([pdf](https://web.archive.org/web/20150326110254/http://www.ima.umn.edu/talks/workshops/SP6.7-18.04/may/PorterMay.pdf))
 
 
 
