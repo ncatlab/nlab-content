@@ -1,0 +1,10 @@
+
+## Related concepts
+
+* [[least common multiple]]
+
+## References
+
+* Wikipedia, _[Greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor)_
+
+[[!redirects gcd]]
