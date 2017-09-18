@@ -18,10 +18,19 @@
 
 The $\mathbb{Z}_2$-[[orbifold]]/[[higher orientifold]] fixed point manifold in [[Hořava-Witten theory]] might be called it _[[O-plane|O9-plane]]_ but is often called the _M9-brane_, even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
 
-In ([Hull 97](#Hull97)) the M9-brane was argued to be the object whose _charge_ is [[Hodge duality|Hodge dual]] to that of the [[M2-brane]].
- 
+In ([Hull 97, pages 8-9](#Hull97)) the M9-brane was argued to be the object whose charge is the [[Hodge duality|Hodge dual]] to the time-component of the [[M2-brane]] charge as it appears in the [[M-theory super Lie algebra]] via
 
-Also, all [[D-branes]] of [[type II string theory]] can be understood as arising from known structures in [[M-theory]] -- except for the [[D8-brane]] [[domain wall]]. Therefore there is a conjecture that apart from the [[M2-brane]] and the [[M5-brane]] there is also an _M9-brane_ generally in [[M-theory]]. But the situation is inconclusive.
+$$
+  \wedge^2 (\mathbb{R}^{10,1})^\ast 
+    \simeq 
+  \wedge^2 (\mathbb{R}^{10})^\ast \oplus \wedge^{9} \mathbb{R}^{10}
+  \,.
+$$ 
+ 
+(In the same way the time component of the [[M5-brane]] charge is argued to be dual to the charge of the [[KK-monopole]], see there.)
+
+
+Also, all [[D-branes]] of [[type II string theory]] can be understood as arising from known structures in [[M-theory]] -- except for the "[[D8-brane]]" [[domain wall]]. Therefore there is a conjecture that apart from the [[M2-brane]] and the [[M5-brane]] there is also an _M9-brane_ generally in [[M-theory]]. But the situation is inconclusive.
 
 ## Related concepts
 
