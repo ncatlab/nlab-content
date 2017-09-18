@@ -225,6 +225,26 @@ The univalence axiom implies [[function extensionality]].
 
 A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
+### Weaker equivalent forms
+
+The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y)$ is an equivalence.  However, there are several seemingly-weaker (and therefore often easier to verify) statements that are equivalent to this, such as:
+
+1. For any type $X$, the type $\sum_{Y:U} (X\simeq Y)$ is [[contractible type|contractible]].  This follows since then the map on total spaces from $\sum_{Y:U} (X=Y)$ to $\sum_{Y:U} (X\simeq Y)$ induced by $coe$ is an equivalence, hence a fiberwise equivalence $(X=Y) \simeq (X\simeq Y)$.
+
+2. For any $X,Y:U$ we have a map $ua:(X\simeq Y) \to (X=Y)$ such that $coe(ua(f)) = f$.  This exhibits $X\simeq Y$ as a retract of $X=Y$, hence $\sum_{Y:U} (X\simeq Y)$ as a retract of the contractible type $\sum_{Y:U} (X=Y)$, so it is contractible.  This was observed by [Dan Licata](https://groups.google.com/forum/#!msg/homotopytypetheory/j2KBIvDw53s/YTDK4D0NFQAJ).
+
+3. Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that assuming function extensionality, this can be further simplified to the following special cases:
+
+   * $unit : A = \sum_{a:A} 1$
+   * $flip : (\sum_{a:A} \sum_{b:B} C(a,b)) = (\sum_{b:B} \sum_{a:A} C(a,b))$
+   * $contract: IsContr(A) \to (A=1)$
+   * $unit_\beta : coe(unit(a)) = (a,\star)$
+   * $flip_\beta : coe(flip(a,b,c)) = (b,a,c)$.
+
+   The proof constructs $ua(f): A=B$ (for $f:A\simeq B$) as the composite
+   $$ A \overset{unit}{=} \sum_{a:A} 1 \overset{contract}{=} \sum_{a:A} \sum_{b:B} f a=b \overset{flip}{=} \sum_{b:B} \sum_{a:A} f a = b \overset{contract}{=} \sum_{b:B} 1 \overset{unit}{=} B $$
+   and uses $unit_\beta$ and $flip_\beta$ to compute that $coe(ua(f))(a) = f(a)$, hence by function extensionality $coe(ua(f)) = f$.
+
 ### Canonicity
  {#Canonicity}
 
