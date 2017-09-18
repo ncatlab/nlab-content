@@ -633,9 +633,9 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} &  P(1)^{\mathrl
 
 ## Vertical bars and reversed brackets {#vbar}
 
-This is basically working around some missing features of iTeX.  Even in real TeX, typing `|x|` (or equivalently `\vert x\vert` for $|x|$ is not entirely correct; you should either type `\mathopen|x\mathclose|` or `\lvert x\rvert` to guarantee proper spacing.  This rarely makes any visible difference, although `|-|` *is* dramatically wrong.  (The same goes for `\|`, `\Vert`, `\lVert`, and `\rVert`.)
+This is basically working around some missing features of iTeX.  Even in real TeX, typing `|x|` (or equivalently `\vert x\vert`) for $|x|$ is not entirely correct; you should either type `\mathopen|x\mathclose|` or `\lvert x\rvert` to guarantee proper spacing.  This rarely makes any visible difference, although `|-|` *is* dramatically wrong.  (The same goes for `\|`, `\Vert`, `\lVert`, and `\rVert`.)
 
-This is not just a lesson in the fine points of TeX, however, since iTeX does not support any of these nuances!  Furthermore, iTeX renders `|` (or equivalently `\vert`) into MathML as an operator rather than as an ordinary symbol (as real TeX does), so that bad spacing comes up much more often.  To work around this, you usually need to put braces around the bars, and sometimes you need to put them inside the bars as well.  (In any case, it never hurts.)
+This is not just a lesson in the fine points of TeX, however, since iTeX does not support any of these nuances!  Furthermore, iTeX renders `|` (or equivalently `\vert`) into MathML as an operator (like `\mid`) rather than as an ordinary symbol (as real TeX does), so that bad spacing comes up much more often.  To work around this, you usually need to put braces around the bars, and sometimes you need to put them inside the bars as well.  (In any case, it never hurts.)
 
 Much the same applies to reversed brackets.  In real TeX, `[x[` should really be `[x\mathclose[`; in iTeX, you can write this effectively as `{[x[}`.
 
@@ -781,4 +781,6 @@ This is worth perusing carefully;
  the math mode text `\multiscripts{_0^2_1}{R}{_i^j_k}` produces
 
 $$\multiscripts{_0^2_1}{R}{_i^j_k}$$ 
+
+
 category: meta
