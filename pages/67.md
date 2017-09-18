@@ -1,4 +1,4 @@
-Hofer's theory of _polyfolds_ may be viewed a certain kind of [[generalized smooth space]]s. The bulk of a theory developed by [[Helmut Hofer]] is a generalized approach to Fredholm operator analysis of geometrical origin, which gives a unified framework for [[symplectic field theory]], [[Floer homology]], some constructions in contact geometry etc. 
+Hofer's theory of _polyfolds_ may be viewed a certain kind of [[generalized smooth space]]s. The bulk of a theory developed by [[Helmut Hofer]] is a generalized approach to Fredholm operator analysis in geometrical situations; it can be also considered as an "analytic framework designed to resolve the issue of transversality systematically". It gives a unified framework for [[symplectic field theory]], [[Floer homology]], some constructions in contact geometry etc. 
 
 ## References
 
