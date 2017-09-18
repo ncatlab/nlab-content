@@ -26,6 +26,8 @@ It is the algebraic reflection of the fact that the following two [[cobordisms]]
 
 (e.g. [Lauda-Pfeiffer 05 (3.44)](#LaudaPfeiffer05), [Kong 06, figure 3](#Kong06))
 
+[[cardy_condition.jpg:pic]]
+
 For instance in the classification of open-closed [[2d TQFT]] with [[coefficients]] in [[Vect]] via [[Frobenius algebras]], this means that for $O$ the Frobenius algebra of open string states and for $C$ the commutative Frobenius algebra of closed string states, then the canonical [[linear function]]
 
 $$
@@ -60,4 +62,3 @@ Discussion in [[2d CFT]] includes
 * {#Kong06} [[Liang Kong]], _Cardy condition for open-closed field algebras_ ([arXiv:math/0612255](http://arxiv.org/abs/math/0612255))
 
 [[!redirects Cardy conditions]]
-
