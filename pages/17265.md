@@ -1774,16 +1774,258 @@ Every [[coslice category]] $\mathcal{C}^{X/}$ of a [[model category]] $\mathcal{
 
 Accordingly there is the induced [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$.
 
-Write
++-- {: .num_defn #BasePointAdjoined}
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $U \colon \mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] 
 
 $$
-  (-)_+
+  \mathcal{C}^{\ast/}
+     \underoverset
+       {\underset{U}{\longrightarrow}}
+       {\overset{(-)_+}{\longleftarrow}}
+       {\bot}
+  \mathcal{C}
+$$
+
+given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point").
+
+=--
+
++-- {: .num_prop #LimitsAndColimitsOfPointedObjects}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] with all [[limits]] and [[colimits]]. Then also the [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, has all limits and colimits.
+
+Moreover:
+
+1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
+
+1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is immediate to check the relevant [[universal property]]. For details see at _[slice category -- limits and colimits](overcategory#LimitsAndColimits)_.
+
+=--
+
++-- {: .num_example #WedgeSumAsCoproduct}
+###### Example
+
+Given two pointed objects $(X,x)$ and $(Y,y)$, then:
+
+1. their [[product]] in $\mathcal{C}^{\ast/}$ is simply $(X\times Y, (x,y))$;
+
+1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ has to be computed using the second clause in prop. \ref{LimitsAndColimitsOfPointedObjects}: since the point $\ast$ has to be adjoined to the diagram, it is given not by the coproduct in $\mathcal{C}$, but by the [[pushout]] in $\mathcal{C}$ of the form:
+
+   $$
+     \array{
+       \ast &\overset{x}{\longrightarrow}& X
+       \\
+       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
+       \\
+       Y &\longrightarrow& X \vee Y
+     }
+     \,.
+   $$
+
+   This is called the _[[wedge sum]]_ operation on pointed objects.
+
+Generally for a set $\{X_i\}_{i \in I}$ in $Top^{\ast/}$
+
+1. their [[product]] is formed in $Top$ as in example \ref{ProductTopologicalSpace}, with the new basepoint canonically induced;
+
+1. their [[coproduct]] is formed by the [[colimit]] in $Top$ over the diagram with a basepoint adjoined, and is called the [[wedge sum]] $\vee_{i \in I} X_i$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[CW-complex]], def. \ref{TopologicalCellComplex} then for every $n \in \mathbb{N}$ the [[quotient]] (example \ref{QuotientSpaceAsPushout}) of its $n$-skeleton by its $(n-1)$-skeleton is the [[wedge sum]], def. \ref{WedgeSumAsCoproduct}, of $n$-spheres, one for each $n$-cell of $X$:
+
+$$
+  X^n / X^{n-1} \simeq \underset{i \in I_n}{\vee} S^n
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #SmashProductOfPointedObjects}
+###### Definition
+
+For $\mathcal{C}^{\ast/}$ a [[category of pointed objects]] with [[finite limits]] and [[finite colimits]], the _[[smash product]]_ is the [[functor]]
+
+$$
+  (-)\wedge(-)
   \;\colon\;
-  Top \longrightarrow Top^{\ast/}
+  \mathcal{C}^{\ast/}
+  \times 
+  \mathcal{C}^{\ast/}
+  \longrightarrow
+  \mathcal{C}^{\ast/}
+$$
+
+given by
+
+$$
+  X \wedge Y
+  \;\coloneqq\;
+  \ast
+  \underset{X\sqcup Y}{\sqcup} (X \times Y)
   \,,
 $$
 
-for the operation of freely adjoining a basepoint, the [[left adjoint]] to the [[forgetful functor]] $U \colon Top^{\ast/} \to Top$.
+hence by the [[pushout]] in $\mathcal{C}$
+
+$$
+  \array{
+    X \sqcup Y &\overset{(id_X,y),(x,id_Y) }{\longrightarrow}& X \times Y
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& X \wedge Y
+  }
+  \,.
+$$
+
+In terms of the [[wedge sum]] from def. \ref{WedgeSumAsCoproduct}, this may be written concisely as
+
+$$
+  X \wedge Y = \frac{X\times Y}{X \vee Y}
+  \,.
+$$
+ 
+=--
+
++-- {: .num_remark #SmashProductOnTopNotAssociative}
+###### Remark
+
+For a general category $\mathcal{C}$ in def. \ref{SmashProductOfPointedObjects}, the [[smash product]] need not be [[associativity|associative]], namely it fails to be associative if the functor $(-)\times Z$ does not preserve the [[quotients]] involved in the definition. 
+
+In particular this may happen for $\mathcal{C} = $ [[Top]].
+
+A sufficient condition for $(-) \times Z$ to preserve quotients is that it is a [[left adjoint]] functor. This is the case in the smaller subcategory of [[compactly generated topological spaces]], we come to this in prop. \ref{SmashProductInTopcgIsAssociative} below. 
+
+
+
+=--
+
+These two operations are going to be ubiquituous in [[stable homotopy theory]]:
+
+| symbol | name | category theory |
+|--------|------|-----------------|
+| $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $\mathcal{C}^{\ast/}$ |
+| $X \wedge Y$ | [[smash product]] | [[tensor product]] in $\mathcal{C}^{\ast/}$|
+
+
++-- {: .num_example #WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}
+###### Example
+
+For $X, Y \in Top$, with $X_+,Y_+ \in Top^{\ast/}$, def. \ref{BasePointAdjoined}, then
+
+* $X_+ \vee Y_+ \simeq (X \sqcup Y)_+$;
+
+* $X_+ \wedge Y_+ \simeq (X \times Y)_+$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{WedgeSumAsCoproduct}, $X_+ \vee Y_+$ is given by the colimit in $Top$ over the diagram
+
+$$
+  \array{
+    && && \ast
+    \\
+    && & \swarrow && \searrow
+    \\
+    X &\,\,& \ast && && \ast &\,\,& Y
+  }  
+  \,.
+$$
+
+This is clearly $A \sqcup \ast \sqcup B$. Then, by definition \ref{SmashProductOfPointedObjects}
+
+$$
+  \begin{aligned}
+    X_+ \wedge Y_+
+    & \simeq
+    \frac{(X \sqcup \ast) \times (X \sqcup \ast)}{(X\sqcup \ast) \vee (Y \sqcup \ast)}
+    \\
+    & \simeq 
+    \frac{X \times Y \sqcup X \sqcup Y \sqcup \ast}{X \sqcup Y \sqcup \ast}
+    \\
+    & \simeq
+    X \times Y \sqcup \ast
+    \,.
+  \end{aligned} 
+$$
+
+=--
+
++-- {: .num_example #StandardReducedCyclinderInTop}
+###### Example
+
+Let $\mathcal{C}^{\ast/} = Top^{\ast/}$ be [[pointed topological spaces]]. Then 
+
+$$
+  I_+ \in Top^{\ast/}
+$$
+
+denotes the standard interval object $I = [0,1]$ from def. \ref{TopologicalInterval}, with a djoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then 
+
+$$
+  X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
+$$
+
+is the **[[reduced cylinder]]** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
+
+(Generally, any construction in $\mathcal{C}$ properly adapted to pointed objects $\mathcal{C}^{\ast/}$ is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
+
+
+Just like the ordinary cylinder $X\times I$ receives a canonical injection from the [[coproduct]] $X \sqcup X$ formed in $Top$, so the reduced cyclinder receives a canonical injection from the coproduct $X \sqcup X$ formed in $Top^{\ast/}$, which is the [[wedge sum]] from example \ref{WedgeSumAsCoproduct}:
+
+$$
+  X \vee X \longrightarrow X \wedge (I_+)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #PointedMappingSpace}
+###### Example
+
+For $(X,x),(Y,y)$ [[pointed topological spaces]] with $Y$ a [[locally compact topological space]], then the **[[pointed mapping space]]** is the [[topological subspace]] of the [[mapping space]] of def. \ref{CompactOpenTopology}
+
+$$
+  Maps((Y,y),(X,x))_\ast
+    \hookrightarrow
+  (X^Y, const_x)
+$$
+
+on those maps which preserve the basepoints, and pointed by the map constant on the basepoint of $X$.
+
+In particular, the **standard topological pointed path space object** on some pointed $X$ (the pointed variant of def. \ref{TopologicalPathSpace}) is the pointed mapping space $Maps(I_+,X)_\ast$.
+
+The pointed consequence of prop. \ref{MappingTopologicalSpaceIsExponentialObject} then gives that there is a [[natural bijection]]
+
+$$
+  Hom_{Top^{\ast/}}((Z,z) \wedge (Y,y), (X,x))
+  \simeq
+  Hom_{Top^{\ast/}}((Z,z), Maps((Y,y),(X,x))_\ast)
+$$
+
+between basepoint-preserving continuous functions out of a [[smash product]], def. \ref{SmashProductOfPointedObjects}, with pointed continuous functions of one variable into the pointed mapping space.
+
+=--
+
+
 
 +-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
 ###### Definition
@@ -2194,6 +2436,8 @@ e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
 
 ### Monoidal and topologically enriched model structure
  {#TopologicalEnrichment}
+
+We discuss that $(Top_{cg})_{Quillen}$ and $(Top^{\ast/}_{cg})_{Quillen}$ are [[monoidal model categories]] and [[enriched model categories]] over themselves, the former with respect to [[Cartesian product]] and the latter with respect to the induced [[smash product]].
 
 +-- {: .num_defn #PushoutProduct}
 ###### Definition
@@ -2620,7 +2864,7 @@ In [[model category]] theory the property in proposition \ref{PushoutProductInTo
 
 A key point of what this entails is the following:
 
-+-- {: .num_prop }
++-- {: .num_prop #HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}
 ###### Proposition
 
 For $X \in (Top_{cg})_{Quillen}$ cofibrant (a [[retract]] of a [[cell complex]]) then the product-hom-adjunction for $Y$ (prop. \ref{CartesianClosureOfTopcg}) is a [[Quillen adjunction]]
@@ -2652,6 +2896,49 @@ $$
 By assumption $(\emptyset \to X)$ is a cofibration, and hence prop. \ref{PushoutProductInTopCGSendsCofCofToCof} says that this is a left Quillen functor.
 
 =--
+
+The statement and proof of prop. \ref{HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen} has a direct analogue in [[pointed topological spaces]]
+
++-- {: .num_prop #HomProductAdjunctionForCofibrantObjectInPointedTopCGIsQuillen}
+###### Proposition
+
+For $X \in (Top^{\ast/}_{cg})_{Quillen}$ cofibrant with respect to the [[classical model structure on pointed topological spaces|classical model structure on pointed]] [[compactly generated topological spaces]] (theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}, prop. \ref{ModelStructureOnSliceCategory}) (hence a [[retract]] of a [[cell complex]] with non-degenerate basepoint, remark \ref{NonDegenerateBasepointAsCofibrantObjects}) then the pointed product-hom-adjunction from corollary \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}  is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}):
+
+$$
+  (Top^{\ast/}_{cg})_{Quillen}
+   \underoverset
+     \underset{(-)^X}{\longrightarrow}
+     \overset{X \times (-)}{\longleftarrow}
+     {\bot}
+  (Top^{\ast/}_{cg})_{Quillen}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let now $\Box_\wedge$ denote the **smash pushout product** and $(-)^{\Box(-)}$ the **smash pullback powering** defined as in def. \ref{PushoutProduct} and def. \ref{PullbackPowering}, but with [[Cartesian product]] replaced by [[smash product]] (def. \ref{SmashProductOfPointedObjects}) and compactly generated [[mapping space]] replaced by pointed mapping spaces (def. \ref{PointedMappingSpace}).
+
+By theorem \ref{CofibrantGenerationOfPointedTopologicalSpaces} $(Top_{cg}^{\ast/})_{Quillen}$ is [[cofibrantly generated model category|cofibrantly generated]] by $I_{Top^{\ast/}} = (I_{Top})_+$ and $J_{Top^{\ast/}}= (J_{Top})_+$. Example \ref{WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces} gives that for $i_n \in I_{Top}$ and $j_n \in J_{Top}$ then
+
+$$
+  (i_{n_1})_+ \Box_\wedge (i_{n_2})_+ \simeq (i_{n_1 + n_2})_+
+$$
+
+and
+
+$$
+  (i_{n_1})_+ \wedge_\wedge (i_{n_2})_+ \simeq (i_{n_1 + n_2})_+
+  \,.
+$$
+
+Hence the pointed analog of prop. \ref{PushoutProductInTopCGSendsCofCofToCof} holds and therefore so does the pointed analog of the conclusion in prop. \ref{HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}.
+
+
+=--
+
 
 
 
