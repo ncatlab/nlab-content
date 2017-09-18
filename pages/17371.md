@@ -1,0 +1,57 @@
+Mathematicians are often guided by their sense of beauty.  Beauty is a key to the [[big picture]] in [[mathematics]] as well as [[physics]] and [[philosophy]].
+
+### Questions about beauty ###
+
+* What is meant by beauty? 
+* What principles determine it? 
+* To what extent is beauty objective and subjective?
+* How does beauty lead to mathematical insight?
+
+### Investigation: Collect examples###
+
+In this section, we collect examples of beauty in mathematics. 
+
+Richard Stanley's post at Math Overflow, [Most intricate and most beautiful structures in mathematics](http://mathoverflow.net/questions/49151/most-intricate-and-most-beautiful-structures-in-mathematics), produced the following list, ordered by votes received:
+
+1. The absolute Galois group of the rationals
+1. The natural numbers (and variations)
+1. Homotopy groups of spheres
+1. The Mandelbrot set
+1. The Littlewood Richardson coefficients (representations of Sn etc.)
+1. The class of ordinals
+1. The monster vertex algebra
+1. Classical Hopf fibration
+1. Exotic Lie groups (See the Scientific American article about A.Garrett Lisi's application of E8 to physics: [A Geometric Theory of Everything](http://www.cs.virginia.edu/~robins/A_Geometric_Theory_of_Everything.pdf))
+1. The Cantor set
+1. The 24 dimensional packing of unit spheres with kissing number 196560 (related to the monster vertex algebra).
+1. The simplicial symmetric sphere spectrum
+1. F_un (whatever it is)
+1. The Grothendiek-Teichmuller tower.
+1. Riemann's zeta function
+1. Schwartz space of functions
+
+
+Below we gather more examples, both basic and advanced:
+
+* e^2pi*i + 1 = 0  
+* more generally, Euler's formula: e^2pi*ix = cos(x) + i sin(x)
+* the unique decomposition of natural numbers into prime numbers
+* Euler's polyhedron formula V - E + F = 2 
+* the classification of the Platonic solids
+* the relationship between a polynomial and its graph
+
+
+### Investigation: Analyze examples###
+
+In this section, we analyze the examples collected above to consider: 
+
+* In what sense are they beautiful?
+* What makes them beautiful?
+* What are the simplest examples of beauty?
+* Which examples yield the most beauty for the least drudgery?
+
+
+### Investigation: Look for unifying principles or contexts. ###
+
+Urs Schreiber [notes](http://mathoverflow.net/a/166025/381) that many of the beautiful structures relate to [[string theory]].
+
