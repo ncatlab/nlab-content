@@ -131,7 +131,7 @@ This [[regular representation]] can be seen to arise by taking a [[category of e
 ## In cohesive homotopy theory
  {#InCohesiveHomotopyTheory}
 
-We describe now how the universal cover construction may be understood from the [[nPOV]], using concept from [[cohesive homotopy theory]].
+We describe now how the universal cover construction may be understood from the [[nPOV]], using a [[fragment]] of [[cohesive homotopy theory]].
 
  The basic idea is that the universal cover of a space $X$ is the [[homotopy fiber]] of the canonical morphism
 
@@ -139,45 +139,173 @@ $$
   X \longrightarrow \Pi_1(X)
 $$ 
 
-from $X$ to its [[fundamental groupoid]], which exists if both objects are regarded as "[[topological ∞-groupoids]]"  We may think of this as a precise way of saying "make $\Pi_1(X)$ trivial in a universal way."  
+from $X$ to its [[fundamental groupoid]], which exists if both objects are regarded as "[[topological ∞-groupoids]]".  We may think of this as a precise way of the intuitive idea of "[[forcing]] $\Pi_1(X)$ to become trivial in a universal way".  
 
-There are at least two slightly different ways of making this precise in the language of $(\infty,1)$-toposes, depending on whether we view $X$ as a [[little topos]] or as an object of a [[big topos]].
 
-### In terms of big toposes
++-- {: .num_example #ExamplesOfCohesiveToposesOfTopologicalGroupoids}
+###### Example
+**(cohesive higher toposes of topological groupoids)**
 
-Let $\mathcal{S}$ be some [[∞-cohesive site]] of [[spaces]] and consider $\mathbf{H} \coloneqq Sh_\infty(\mathcal{S})$ the corresponding [[cohesive (∞,1)-topos]] over this site. This is the [[(∞,1)-category]] of "[[topological ∞-groupoids]]" modeled on $\mathcal{S}$.
+Let $\mathcal{S}$ be some [[∞-cohesive site]] of [[spaces]] and consider 
 
-A canonical choice relating to the traditional discussion would be $\mathcal{S} = Top^\kappa_{lcont}$ a [[small category|small]] [[full subcategory]] of [[Top]] on [[locally contractible topological spaces]], in which case the objects of $\\mathbf{H}$ might be called "[[locally contractible topological ∞-groupoids]]".
+$$
+  \mathbf{H} \coloneqq Sh_\infty(\mathcal{S})
+$$ 
+
+the corresponding [[cohesive (∞,1)-topos]] over this site. This is the [[(∞,1)-category]] of "[[topological ∞-groupoids]]" modeled on $\mathcal{S}$.
+
+A canonical choice relating to the traditional discussion would be $\mathcal{S} = Top^\kappa_{lcont}$ a [[small category|small]] [[full subcategory]] of [[Top]] on [[locally contractible topological spaces]], in which case the objects of $\mathbf{H}$ might be called "[[locally contractible topological ∞-groupoids]]".
 
 A more restrictive choice would be $\mathcal{S} = $ [[CartSp]], in which case the objects of $\mathbf{H}$ might be called [[Euclidean-topological ∞-groupoids]].
 
 In fact for the discussion of just universal [[covering spaces]] as opposed to the higher stages in the [[Whitehead tower]] it would be sufficient and more natural to take $\mathcal{S}$ the full subcategory of [[locally simply connected topological spaces]] and consider just the [[(2,1)-category]] $\mathbf{H}$ of [[stacks]] over this site.  
 
-But the point is that the following discussion is completely formal and applies globally to all these realizations.
+=--
 
-Namely all we need is that 
+But the following discussion is completely formal and applies globally to all such realizations. Namely all we need is that 
 
 +-- {: .num_defn #AssumptionOnH}
 ###### Assumption
 
-1. $\mathbf{H}$ is a [[cohesive (∞,1)-topos|cohesive (n,1)-topos]] 
+Assume that
 
-1. such that its [[shape modality]] preserves [[homotopy fiber products]] over [[discrete objects]]. 
+1. $\mathbf{H}$ is a [[cohesive (∞,1)-topos|cohesive (n,1)-topos]]
+
+   $$
+     \mathbf{H}
+       \array{
+         \overset{\Pi}{\longrightarrow}
+         \\
+         \overset{\Delta}{\longleftarrow}
+         \\
+         \overset{\Gamma}{\longrightarrow}
+         \\
+         \overset{\nabla}{\longleftarrow}
+       }
+     \mathbf{B}
+   $$
+
+   over the given [[base (∞,1)-topos|base (n,1)-topos]] of [[n-groupoids]].
+
+1. such that its [[shape modality]] preserves [[homotopy fiber products]] over [[discrete objects]] (objects in the essential image of $\Delta$). 
+
+We write
+
+$$
+  &#643; \coloneqq \Delta \Pi
+$$
+
+for the induced [[shape modality]] and 
+
+$$
+  X \overset{\eta_X}{\longrightarrow} &#643; X
+$$
+
+for its [[unit of an adjunction|unit]] morphism ona given object $X$.
 
 =--
 
-This is implied for the case of $(\infty,1)$-toposes by the assumption of an [[∞-cohesive site]] and for $(n,1)$-toposes by an $n$-cohesive site (such as that of locally csimply-connected spaces for $n = 1$). 
++-- {: .num_example}
+###### Example
 
+Assumption \ref{AssumptionOnH} is satisfied for the case of $(\infty,1)$-toposes over an [[∞-cohesive site]] and for $(n,1)$-toposes by an $n$-cohesive site as in example \ref{ExamplesOfCohesiveToposesOfTopologicalGroupoids}: by [this prop.](cohesive+infinity-topos#PiPreservesPullbacksOverDiscretes).
 
-Now, to a topological space $X$ is associated the [[topological ∞-groupoid|topological groupoid]] $\Pi_1(X)$ -- its [[fundamental groupoid]]. With $X$ regarded as a [[discrete category|categorically discrete]] topological groupoid, there is a canonical morphism
+=--
+
+Now consider $X \in \mathbf{H}$ any object, for instance a [[topological space]] regarded as a [[0-truncated object|0-truncated]] [[topological infinity-groupoid]].
+ 
+Assume, just for ease of discussion, that $X$ is _geometrically connected_ in that the [[0-truncated object|0-truncation]] of its [[shape]] is [[contractible]]:
 
 $$
-  X \to \Pi(X)
+  \tau_0(&#643; X) \simeq \ast
+  \,.
 $$
 
-that includes $X$ as the collection of constant paths.
+
+Using the [[axiom of choice]] in the base topos $\mathbf{H}$ we choose a point 
+
+$$
+  \ast \to \tau_1(&#643; X)
+  \,.
+$$
+
++-- {: .num_defn }
+###### Definition
+
+The _universal cover_ of $X$ is the [[homotopy pullback]] in 
 
 
+$$
+  \array{
+    \hat X &\longrightarrow& \ast
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    X &\underset{L_{\tau_1} \circ \eta_X}{\longrightarrow}& \tau_1(&#643; X)
+  }
+  \,.
+$$
+
+
+=--
+
+The [[universal property]] of $\hat X$ is immediate from the abstract setup:
+
+1. $\hat X$ is simply connected, in that $\tau_1 &#643; \hat X \simeq \ast$
+
+   This is because $&#643; X$ is discrete by construction, and hence so is $\tau_1(&#643; X)$. So by assumpotion \ref{AssumptionOnH} applying $&#643;$ to the above square yields another homotopy pullback of the form
+
+   $$
+     \array{
+       &#643; \hat X &\longrightarrow& \ast
+       \\
+       \downarrow &(pb)& \downarrow
+       \\
+       &#643; X &\underset{&#643; \eta_X}{\longrightarrow}& \tau_1(&#643; X)
+     }
+     \,.
+   $$
+
+   Now the [[long exact sequence of homotopy groups]] (in $\mathbf{B}$) applied to this [[homotopy fiber sequence]] is of the form
+
+
+   $$
+     0 \to \pi_1(\hat X) \longrightarrow \pi_1(X) \overset{=}{\longrightarrow} \pi_1(X) \to \cdots
+   $$
+
+   which implies that $\pi_1( &#643; X )$ and hence $\tau_1 &#643;$ is indeed trivial.
+
+1. Let $E \longrightarrow X$ be any other object of $\mathbf{H}_{/X}$ such that $\tau_1(&#643; E) \simeq \ast$, then there is morphism
+
+   $$
+     \array{
+       E && \longrightarrow && \hat X
+       \\
+       & \searrow && \swarrow
+       \\
+       && X
+     }
+   $$
+
+   This is because the naturality of the shape unit and of the truncation unit gives a homotopy commuting square of the form
+
+   $$
+     \array{
+       E &\overset{\eta_E}{\longrightarrow}& &#643; E &\overset{}{\longrightarrow}& \tau_1(&#643; E ) \simeq \ast
+       \\
+       \downarrow && && \downarrow
+       \\
+       X &\underset{\eta_X}{\longrightarrow}& &#643; X &\longrightarrow& \tau_1 &#643; X
+     }
+   $$
+
+   and thus a [[cone]] over the diagram which defines $\hat X$ via its [[universal property]].
+
+This shows that $\hat X$ is the universal cover on abstract grounds.
+
+We may also check explicitly that $\hat X$ is given as the space of homotopy classes of [[paths]] in $X$ from the given basepoint. To that end we use that, as least over the site [[CartSp]], the [[shape modality|shape]] of $X$ is represented by the topological [[path ∞-groupoid]]. See at _[[shape via cohesive path ∞-groupoid]]_.
+
+> The following is old material that deserves to be harmonized a bit more with the above stuff.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -224,7 +352,7 @@ $$
     \downarrow && \downarrow
     \\
     X &\to& \Pi(X)
-s  }
+  }
   \,.
 $$
 
@@ -301,7 +429,7 @@ This indeed is then the usual construction of the universal covering space in te
 =--
 
 
-### In terms of little toposes
+## In the petit $\infty$-toposes over the space
 
 On the other hand, we can view a space $X$ as the little $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ of $(\infty,1)$-sheaves on $X$.  If $X$ is locally connected and locally simply connected in the "coverings" sense, then $Sh(X)$ is locally 1-connected.
 
