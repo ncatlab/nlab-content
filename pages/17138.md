@@ -132,6 +132,10 @@ We follow ([Malkiewich 14](#Malkiewich14)), see also ([Adams 74, part III sectio
 
 * [[stable homotopy category]]
 
+* [[triangulated category]]
+
+  [[homotopy fiber sequence]], [[mapping cone]]
+
 ### Examples
  {#Examples}
 
@@ -2212,14 +2216,21 @@ where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[E
 
 
 
-#### The case $E = H \mathbb{F}_p$
+#### The case $E = H \mathbb{F}_p$ and $X = \mathbb{S}$
+
+classical [[Adams spectral sequence]]...
 
 (... [Hatcher 04](#Hatcher04), [Rognes 12](#Rognes12)... )
 
-#### The case $E = MU$
+#### The case $E = H \mathbb{F}_9$ and $X = M U$
 
-(...)
+(...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
 
+
+
+#### Outlook: The case $E = M U$ and $X = \mathbb{S}$
+
+(...) [[Adams-Novikov spectral sequence]] (...)
 
 ## Seminar: Complex oriented cohomology
  {#ComplexOrientedCohomology}
@@ -2272,15 +2283,15 @@ For instance ([Malkiewich 11](#Malkiewich11)).
 
 [[cobordism theory]]
 
-[[Pontrjagin-Thom collapse map]]
-
-* [[Thom class]]
-
-* [[Thom isomorphism]]
-
 * [[Thom spectrum]], [[MO]]
 
-  * [[Thom space]]
+  [[Thom space]]
+
+  [[Thom class]]
+
+[[Pontrjagin-Thom collapse map]]
+
+* [[Thom isomorphism]]
 
 * [[cobordism]], [[cobordism ring]]
 
@@ -2304,12 +2315,11 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
   * generalized [[Chern classes]]
 
+  * [[formal group laws]]
 
 * [[Lazard's theorem]]
 
-  * [[formal group law]], 
-
-  * [[Lazard ring]], 
+  * [[Lazard ring]]
 
 * [[Landweber exact functor theorem]]
 
