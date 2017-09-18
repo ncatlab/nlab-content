@@ -197,6 +197,10 @@ The bracket $\{-,-\}$ makes $C^\infty(X)$ a [[Poisson algebra]].
 
 ## Related concepts
 
+* [[bilinear form]], [[quadratic form]], [[sesquilinear form]]
+
+* [[Kähler form]], [[Hermitian form]]
+
 * [[MSp]]
 
 The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-algebroid]] for $n = 0$. (See there.) 
