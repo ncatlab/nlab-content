@@ -313,7 +313,14 @@ In terms of [[adjoint pairs]] of [[modal operators]] and hence of [[Galois conne
 
 * {#ReyesZolfaghari91} [[Gonzalo  Reyes]], H. Zolfaghari, _Topos-theoretic approaches to modality_, Lecture Notes in Mathematics 1488 (1991), 359-378.
 
+* {#Reyes91} [[Gonzalo Reyes]], _A topos-theoretic approach to reference and modality_, Notre Dame J. Formal Logic Volume 32, Number 3 (1991), 359-391 ([Euclid](http://projecteuclid.org/euclid.ndjfl/1093635834))
+
 with further developments in 
+
+* M. Sadrzadeh, R. Dyckho, _Positive logic with adjoint modalities: Proof
+theory, semantics and reasoning about information_, Electronic Notes in Theoretical
+Computer Science 249, 451-470, 2009, in _Proceedings of the 25th Conference on
+Mathematical Foundations of Programming Semantics_ (MFPS 2009).
 
 * {#Hermida10} [[Claudio Hermida]], section 3.3. of _A categorical outlook on relational modalities and simulations_, 2010 ([pdf](http://maggie.cs.queensu.ca/chermida/papers/sat-sim-IandC.pdf))
 
