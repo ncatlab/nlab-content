@@ -54,7 +54,7 @@ from the [[product]] of the [[real line]] with a $(dim X - 1)$-[[dimension|dimen
 
 =--
 
-A _time orientation_ of a globally hyperbolic Lorentzian spacetime is a choice of [[orientation]] of the factor $\mathbb{R}$ under the above homoemorphism.
+A _time orientation_ of a globally hyperbolic Lorentzian spacetime is a choice of [[orientation]] of the factor $\mathbb{R}$ under the above homeomorphism.
 
 
 ## Related concepts
