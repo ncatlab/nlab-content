@@ -186,11 +186,11 @@ The category $Set_\ast$ of [[pointed sets]] has a subobject classifier (specifie
 
 ## Properties
 
-Suppose a category $C$ has a subobject classifier; this entails some striking structural consequences for $C$. We list a few here: 
+Suppose a category $\mathbf{C}$ has a subobject classifier; this entails some striking structural consequences for $\mathbf{C}$. We list a few here: 
 
 +-- {: .num_prop #regular} 
 ###### Proposition 
-Every [[monomorphism]] in $C$ is a [[regular monomorphism]], i.e., is an equalizer of some pair of maps. 
+Every [[monomorphism]] in $\mathbf{C}$ is a [[regular monomorphism]], i.e., is an equalizer of some pair of maps. 
 =-- 
 
 +-- {: .proof} 
@@ -206,7 +206,7 @@ X & \underset{\chi_i}{\to} & \Omega.
 
 +-- {: .num_cor} 
 ###### Corollary 
-A morphism in $C$ is an isomorphism iff it is both a [[monomorphism]] and an [[epimorphism]]. 
+A morphism in $\mathbf{C}$ is an isomorphism iff it is both a [[monomorphism]] and an [[epimorphism]]. 
 =-- 
 
 +-- {: .proof} 
@@ -269,7 +269,7 @@ Let $[\leq] \hookrightarrow \Omega \times \Omega$ denote the equalizer of the pa
 
 $$\Omega \times \Omega \stackrel{\overset{\pi_1}{\longrightarrow}}{\underset{\wedge}{\longrightarrow}} \Omega$$ 
 
-and then define $\Rightarrow: \Omega \times \Omega \to \Omega$ to be the characteristic map of $[\leq] \hookrightarrow \Omega times \Omega$. Now if $\chi_u, \chi_v$ are two maps $X \to \Omega$, one calculates that $w \hookrightarrow X$ is contained in the subobject classified by $\chi_u \Rightarrow \chi_v$ iff $w \cap u = w \cap u \cap v$, which is just a way of saying $w \cap u \leq v$. 
+and then define $\Rightarrow: \Omega \times \Omega \to \Omega$ to be the characteristic map of $[\leq] \hookrightarrow \Omega \times \Omega$. Now if $\chi_u, \chi_v$ are two maps $X \to \Omega$, one calculates that $w \hookrightarrow X$ is contained in the subobject classified by $\chi_u \Rightarrow \chi_v$ iff $w \cap u = w \cap u \cap v$, which is just a way of saying $w \cap u \leq v$. 
 =-- 
 
 +-- {: .num_cor} 
