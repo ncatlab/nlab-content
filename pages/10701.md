@@ -142,11 +142,11 @@ See also
 
 ## Lecture 5 _Complex bordism_ 
 
-* [[complex cobordism cohomology theory]]
+* [[complex cobordism cohomology theory]], [[MU]]
 
 ##  Lecture 6 _MU and complex orientations_ 
 
-* [[MU]]
+* [[universal complex orientation in MU]]
 
 ## Lecture 7 _The homology of MU_ 
 
