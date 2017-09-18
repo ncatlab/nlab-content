@@ -99,6 +99,8 @@ This led to the electric/magnetic duality conjecture formulation in
 
 * [[Claus Montonen]], [[David Olive]], _Magnetic Monopoles As Gauge Particles?_ Phys. Lett. B72 (1977) 117-120.
 
+
+
 According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observaton that the Montonen-Olive dual charge group coincides with the [[Langlands dual group]] is due to 
 
 * [[Michael Atiyah]], private communication to [[Edward Witten]], 1977
@@ -106,6 +108,8 @@ According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observaton
 See also the references at _[[S-duality]]_.
 
 The insight that the Montonen-Olive duality works more naturally in [[super Yang-Mills theory]] is due to
+
+
 
 * [[David Olive]], [[Edward Witten]], _Supersymmetry Algebras That Include Topological Charges_, Phys. Lett. B78 (1978) 97-101.
 
@@ -120,6 +124,11 @@ The observation that the $\mathbb{Z}_2$ electric/magnetic duality extends to an 
 * [[John Cardy]], _Duality And The Theta Parameter In Abelian Lattice Models_, Nucl. Phys. B205 (1982) 17-26.
 
 * A. Shapere and [[Frank Wilczek]], _Selfdual Models With Theta Terms_, Nucl. Phys. B320 (1989) 669-695.
+
+and specifically the embedding of this into [[string theory]] [[S-duality]] originates in
+
+* [[Ashoke Sen]], _Dyon - Monopole Bound States, Self-Dual Harmonic Forms on the Multi-Monopole Moduli Space, and $SL(2,\mathbb{Z})$ Invariance in String Theory_ ([arXiv:hep-th/9402032](http://arxiv.org/abs/hep-th/9402032))
+
 
 The understanding of this $SL(2,\mathbb{Z})$-symmetry as a remnant conformal transformation on a 6-dimensional [[principal 2-bundle]]-theory -- the [[6d (2,0)-superconformal QFT]] -- compactified on a torus is described in 
 
