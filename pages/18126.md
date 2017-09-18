@@ -2142,7 +2142,7 @@ There are other categories. For instance there is the [[category of sets]] ("[[S
 
 The two categories [[Top]] and [[Set]] are different, but related. After all,
 
-1. an [[object]] of [[Top]] (hence a [[topological space]]) is an [[object]] of [[Set]] (hence a [[sence]])
+1. an [[object]] of [[Top]] (hence a [[topological space]]) is an [[object]] of [[Set]] (hence a [[set]])
 equipped with [[extra structure]] (namely with a [[topological space|topology]])
 
 1. a [[morphism]] in [[Top]] (hence a [[continuous function]]) is a [[morphism]] in [[Set]] (hence a plain [[function]])
@@ -2176,11 +2176,11 @@ $$
   }
 $$
 
-and this assignment trivially respects the [[composition]] of morphisms and the [[unit morphisms]].
+and this assignment trivially respects the [[composition]] of morphisms and the [[identity morphisms]].
 
 Such a [[function]] between [[classes]] of [[objects]] of [[categories]], which is extended to a
 function on the [[sets]] of [[homomorphisms]] between these objects in a way that respects [[composition]]
-and [[unit morphisms]] is called a _[[functor]]_.  If we write an arrow between categories
+and [[identity morphisms]] is called a _[[functor]]_.  If we write an arrow between categories
 
 $$
   U \;\colon\; Top \longrightarrow Set
@@ -2202,7 +2202,7 @@ $$
   \array{
     \left\{
       (X,\tau_X)
-        \underoverset{\text{continuous}}{\text{function}}{\longrightarrow}
+        \underoverset{\text{function}}{\text{continuous}}{\longrightarrow}
       (Y,\tau_Y)
     \right\}
       &\;\overset{\phantom{AA}U\phantom{AA}}{\mapsto}\;&
@@ -4356,9 +4356,14 @@ Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to fi
 ## Compact spaces
  {#CompactSpaces}
 
+
 From the discussion of [[compact topological space|compact]] [[metric spaces]] in
 def. \ref{MetricSpaceSequentiallyCompact} and prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
-it is now immediate how to generalize these concepts to [[topological spaces]].
+it is now immediate how to generalize the concept to [[topological spaces]]
+to obtain a notion of _[[compact topological spaces]]_ (def. \ref{SequentiallyCompactTopologicalSpace}
+and def. \ref{CompactTopologicalSpace} below). These compact spaces play a special role in [[topology]],
+much like [[finite dimensional vector spaces]] do in [[linear algebra]].
+
 
 The most naive version of the definition directly generalizes the concept via converging
 sequences from def. \ref{MetricSpaceSequentiallyCompact}:
@@ -4437,14 +4442,14 @@ A [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #CompactTerminology}
 ###### Remark
 **(terminology issue regarding "compact")**
 
 Beware that the following terminology issue persists in the literature:
 
 Some authors use "compact" to mean "[[compact Hausdorff space|Hausdorff and compact]]". To disambiguate this,
-some authors (mostly in [[algebraic geometry]]) say "quasi-compact" for what we call
+some authors (mostly in [[algebraic geometry]], but also for instance [Waldhausen](#Waldhausen)) say "quasi-compact" for what we call
 "compact" in prop. \ref{CompactTopologicalSpace}.
 
 =--
@@ -4460,7 +4465,7 @@ precisely if its underlying set is [[finite set|finite]].
 
 +-- {: .num_example #CompactClosedInterval}
 ###### Example
-**(closed interval is compact)**
+**(closed intervals are compact)**
 
 For any $a \lt b \in \mathbb{R}$ the [[closed interval]] (example \ref{OpenAndClosedIntervals})
 
@@ -4772,7 +4777,7 @@ general topological spaces being [[sequentially compact space|sequentially compa
 note, but see here:
 
 * an example of a compact topological space which is not sequentially compact is given in ([Steen-Seebach 70, item 105](#SteenSeebach70)),
-  see at [compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact);
+  see at _[compact space -- Compact spaces which are not sequentially compact](compact+space#CompactSpacesWhichAreNotSequentiallyCompact)_;
 
 * an example of a sequentially compact space which is not compact is discussed in ([Patty 08, chapter 4, example 13](#Patty08)).
 
@@ -4851,32 +4856,60 @@ of $Y$, then also its [[pre-image]] $f^{-1}(C)$ is [[compact topological space|c
 =--
 
 
+There are various variants of the concept of compact spaces.
+
++-- {: .num_defn #LocallyCompactSpace}
+###### Definition
+**([[locally compact topological space]])**
+
+A [[topological space]] is called _[[locally compact topological space|locally compact]]_
+if every point has a [[neighbourhood]] which is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(terminology issue regarding "locally compact")**
+
+On top of the terminology issue inherited from that of "compact" (remark \ref{CompactTerminology}),
+the definition of "locally compact" is subject to further ambiguity in the literature.
+There are various definitions of locally compact spaces alternative to def. \ref{LocallyCompactSpace}.
+For [[Hausdorff topological spaces]] all thse definitions used
+happen to be equivalent, but in general they are not.
+The version we state in def. \ref{LocallyCompactSpace} is the one that makes prop. \ref{ExponentialObjectCompactOpen}
+below work _without_ requiring the Hausdorff property.
+
+=--
+
 
 
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
-**([[mapping space]])**
+**([[mapping space]] with [[compact-open topology]])**
 
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (in that for every point, every [[neighbourhood]] contains a [[compact topological space|compact]] neighbourhood), the **[[mapping space]]**
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
+then the **[[mapping space]]**
 
 $$
-  X^Y \in Top
+  \left(
+    X^Y , \tau_{(X^Y)}
+  \right)
 $$
 
 is the [[topological space]]
 
-* whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous
-functions]] $Y \to X$,
+* whose underlying set $X^Y$ is the set of [[continuous functions]] $Y \to X$,
 
-* whose [[open subsets]] are [[unions]] of [[finitary intersections]] of the following [[topological base|subbase]] elements of standard open subsets:
+* whose topology $\tau_{(X^Y)}$ is generated from the [[topological basis|sub-basis for the topology]] (def. \ref{TopologyBase})
+  which is given by subsets denoted
 
-  the standard open subset $U^K \subset Hom_{Top}(Y,X)$ for
+  $U^K \subset Hom_{Top}(Y,X)$ for
 
-  * $K \hookrightarrow Y$ a [[compact topological space]] subset
+  * $K \hookrightarrow Y$ a [[compact topological space|compact]] subset
 
   * $U \hookrightarrow X$ an [[open subset]]
 
-  is the subset of all those [[continuous functions]] $f$ that fit into a [[commuting diagram]] of the form
+  and defined to be those subsets of all those [[continuous functions]] $f$ that fit into a [[commuting diagram]] of the form
 
   $$
     \array{
@@ -4889,20 +4922,29 @@ functions]] $Y \to X$,
     \,.
   $$
 
-Accordingly this is called the _[[compact-open topology]]_ on the set of functions.
+Accordingly this $\tau_{(X^Y)}$ is called the _[[compact-open topology]]_ on the set of functions.
 
 The construction extends to a [[functor]]
 
 $$
-  (-)^{(-)} \;\colon\; Top_{lc}^{op} \times Top \longrightarrow Top
+  (-)^{(-)} \;\colon\; Top_{lcomp}^{op} \times Top \longrightarrow Top
   \,.
 $$
 
 =--
 
++-- {: .num_prop #ExponentialObjectCompactOpen}
+###### Proposition
+
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]],
+then then [[mapping space]] $X^Y$ with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
+is an [[exponential object]] in [[Top]].
+
+=--
 
 
 
+$\,$
 
 
 
@@ -4910,24 +4952,8 @@ $$
 
 We discuss some important relations between the concepts of compact spaces and of [[Hausdorff topological spaces]].
 
-In [[analysis]] the key recognition principle for compact spaces is the following:
 
-+-- {: .num_prop #BorelHeine}
-###### Proposition
-**([[Heine-Borel theorem]])**
 
-For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]] via example \ref{EuclideanNorm},
-regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology}).
-
-Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent:
-
-1. $S$ is  [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace});
-
-1. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
-
-=--
-
-We **prove** this [below](#BorelHeineProof) as a consequence of the following more general statement for [[topological space]]:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -5081,11 +5107,23 @@ This is implied by lemma \ref{SeparationByNeighbourhoodsOfPointsFromCompactSubse
 =--
 
 
-Now we may give the proof of the [[Heine-Borel theorem]]:
++-- {: .num_prop #BorelHeine}
+###### Proposition
+**([[Heine-Borel theorem]])**
+
+For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euclidean space]] via example \ref{EuclideanNorm},
+regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology}).
+
+Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent:
+
+1. $S$ is  [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace});
+
+1. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
+
+=--
 
 +-- {: .proof #BorelHeineProof}
 ###### Proof
-of the [[Heine-Borel theorem]] (prop. \ref{BorelHeine})
 
 First consider a [[subset]] $S \subset \mathbb{R}^n$ which is closed and bounded. We need to show that
 regarded as a [[topological subspace]] it is [[compact topological space|compact]].
@@ -5239,7 +5277,7 @@ is an open neighbourhood of $Y_2$, and both are disjoint.
 
 
 
-
+$\,$
 
 
 
@@ -5477,7 +5515,7 @@ or the category [[Set]] of [[sets]] from remark \ref{TopCategory}, is
 1. for each [[triple]] $i,j,k \in I$ [[function]]
 
    $$
-     comp_{i,j,k} I_{i,j} \;\colon\; \times I_{j,k} \longrightarrow I_{i,k}
+     comp_{i,j,k} \;\colon\; I_{i,j} \times I_{j,k} \longrightarrow I_{i,k}
    $$
 
 such that
@@ -6109,7 +6147,7 @@ $\,$
 
 This concludes _Section 1 [[point-set topology|Point-set topology]]_.
 
-For the next section see_[[Introduction to Topology -- 2|Secton 2 -- Basic homotopy theory]]_.
+For the next section see _[[Introduction to Topology -- 2|Secton 2 -- Basic homotopy theory]]_.
 
 $\,$
 
@@ -6136,7 +6174,7 @@ and see also the references at _[[algebraic topology]]_.
 
 Lecture notes include
 
-* [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+* {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
 Disucssion of [[sober topological spaces]] is in
 
