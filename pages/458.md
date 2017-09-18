@@ -172,7 +172,7 @@ $$
 $$
 =--
 
-This appears for instance as ([MacLaneMoerdijk, theorem IX.3 1](#MacLaneMoerdijk)) or as ([Johnston, lemma C.1.2.2](#Johnstone)).
+This appears for instance as ([MacLaneMoerdijk, theorem IX.3 1](#MacLaneMoerdijk)) or as ([Johnstone, lemma C.1.2.2](#Johnstone)).
 
 Therefore the [[adjunction]] restricts to an [[equivalence of categories|equivalence]] between the fixed subcategories on either side.  
 
