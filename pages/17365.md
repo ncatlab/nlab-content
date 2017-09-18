@@ -814,7 +814,7 @@ $$
 
 =--
 
-+-- {: .num_defn #StableWeakEquivalenceOfSequentialsTopologicalSpectra}
++-- {: .num_defn #StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}
 ###### Definition
 
 A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
@@ -965,7 +965,7 @@ for the set of morphisms arising as the [[tensoring]] of a [[representable funct
 +-- {: .num_theorem #StrictModelStructureOnSequentialPrespectraIsModelCategory}
 ###### Theorem
 
-The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{strict}$, called the **strict model structure** on sequential spectra.
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{strict}$, called the **strict model structure** or **level model structure** on sequential spectra.
 
 This is a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the set $I_{SeqSpec}^{strict}$ (resp. $J_{SeqSpec}^{strict}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}.
 
@@ -1787,8 +1787,158 @@ $$
 
 
 ### Stable equivalences
+ {#StableEquivalences}
 
-We discuss the relation between the stable equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}) and [[stable weak homotopy equivalences]] (def. \ref{StableWeakEquivalenceOfSequentialsTopologicalSpectra}).
+We discuss the relation between the stable equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}) and [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+
++-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
+###### Lemma
+
+With $\Sigma$ and $\Omega$ the alternative suspension and alternative looping functors from def. \ref{SequentialSpectrumFakeSuspension}:
+
+1. $\Omega$ preserves [[Omega-spectra]] (def. \ref{OmegaSpectrum});
+
+1. $\Sigma$ preserves stable weak equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first statement:
+
+By prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, $\Omega$ acts on component spaces and adjunct structure maps as the [[Quillen adjunction|right Quillen functor]]
+
+$$
+  Maps(S^1,-)_\ast
+  \;\colon\;
+  (Top_{cg}^{\ast/})_{Quillen}
+    \longrightarrow
+  (Top_{cg}^{\ast/})_{Quillen}
+$$
+
+on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies says that with $\tilde \sigma^X_n$ a [[weak homotopy equivalence]], so is
+$\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
+
+Regarding the second statement: 
+
+By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]] for the strict model structure, hence (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) it passes to an adjunction of its [[derived functors]] on the [[homotopy category of a model category|homotopy category]]. 
+
+Therefore with $f$ a stable equivalence and $Y$ any Omega-spectrum, then
+
+$$
+  [\Sigma f,Y]_{strict}
+  =
+  [f,\Omega Y]_{strict}
+$$
+
+is an isomorphism by the first statement above, and hence $\Sigma f$ is a stable equivalence.
+
+=--
+
+
++-- {: .num_lemma #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
+###### Lemma
+
+For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis)
+
+1. the structure maps constitute a homomorphism
+
+   $$
+     \Sigma X[-1]
+     \longrightarrow
+     X
+   $$
+
+   and this is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}),
+
+1. the adjunct structure maps constitute a homomorphism
+
+   $$
+     X
+     \longrightarrow
+     \Omega X[1]
+     \,.
+   $$
+
+   If $X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) then this is a weak equivalence in the strict model structure (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}), hence in particular a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The diagrams that need to commute for the structure maps to give a homomorphism as claimed are in degree 0 this one
+
+$$
+  \array{
+    S^1 \wedge S^1 \wedge \ast &\overset{0}{\longrightarrow}& X_0
+    \\
+    {}^{\mathllap{S^1 \wedge 0}}\downarrow && \downarrow^{\mathrlap{\sigma_0}}
+    \\
+    S^1 \wedge X_0 &\underset{\sigma_0}{\longrightarrow}& X_1
+  }
+$$
+
+and in degree $n \geq 1$ these:
+
+$$
+  \array{
+     S^1 \wedge S^1 \wedge X_{n-1} 
+        &\overset{S^1 \wedge \sigma_{n-1}}{\longrightarrow}& 
+     X_n
+     \\
+     {}^{\mathllap{S^1 \wedge \sigma_{n-1}}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\sigma_n}}
+     \\
+     S^1 \wedge X_{n} 
+       &\underset{\sigma_n}{\longrightarrow}& 
+     X_{n+1}
+  }
+  \,.
+$$
+
+But in all these cases commutativity it trivially satisfied. 
+
+That the adjunct structure maps constitute a morphism $X \to \Omega X[1]$ follows [[formal dual|dually]].
+
+If $X$ is an [[Omega-spectrum]], then by definition this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
+
+From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
+
+$$
+  \array{
+     [X, Y]_{strict} &\overset{}{\longrightarrow}& [\Sigma X[-1],Y]_{strict}
+     \\
+     {}^{\mathllap{id}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+     \\
+     [X,Y]_{strict}  &\underset{\simeq}{\longrightarrow}& [X, \Omega Y[1]]_{strict}
+  }
+  \,.
+$$
+
+(To see the commutativity of this last diagram in detail, consider for any $[f] \in [X,Y]_{strict}$ chasing the element $\sigma_n^Y$ in the two possible ways through the natural adjunction isomorphism:
+
+$$
+  \array{
+    [S^1 \wedge Y_{n-1}, Y_n]
+      &\simeq&
+    [Y_{n-1}, \Omega Y_n]
+    \\
+    {}^{\mathllap{[S^1 \wedge f_{n-1}, Y_n]}}\downarrow && \downarrow^{\mathrlap{[f_{n-1}, \Omega Y_n]}}
+    \\
+    [S^1 \wedge X_{n-1}, Y_n]
+      &\simeq&
+    [X_{n-1}, \Omega Y_n]
+  }
+  \,.
+$$
+
+Sending $\sigma_n^Y$ down gives $\sigma_n^Y \circ S^1 \wedge f_{n-1}$ which equals (by the homomorphism property) $f_n \circ \sigma_n^X$. Instead sending $\sigma_n^Y$ to the right yields $\tilde \sigma_n^Y$ and then down yields $\tilde \sigma_n^Y \circ f_{n-1}$. By commutativity this is adjunct to $f_n \circ \sigma_n^X$.)
+
+=--
+
 
 +-- {: .num_defn #AlmostSpectrificationForTopologicalSequentialSpectra}
 ###### Definition
@@ -1800,18 +1950,37 @@ $$
     \coloneqq
   hocolim\left(
     X 
-      \longrightarrow
+      \overset{\eta_X}{\longrightarrow}
     \Omega X[1]
-      \longrightarrow
+      \overset{\eta_{\Omega X[1]}}{\longrightarrow}
     \Omega^2 X[2]
-      \longrightarrow
+      \overset{\eta_{\Omega^2 X[1]}}{\longrightarrow}
     \Omega^3 X[3]
-      \longrightarrow
+      \overset{}{\longrightarrow}
     \cdots
   \right)
 $$
 
-for the [[mapping telescope]] (with respect to the standard [[cylinder spectrum]] from def. \ref{StandardCylinderSpectrumSequential}) of the sequence of iterations of the morphism from lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}.
+for the [[homotopy colimit]] (in the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}) of the sequence of iterations of the natural morphism  from lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}; concretely for the [[mapping telescope]] (with respect to the standard [[cylinder spectra]] from def. \ref{StandardCylinderSpectrumSequential}):
+
+$$
+  Q X
+    \coloneqq
+  coeq
+  \left(
+    \underset{n \in \mathbb{N}}{\sqcup}
+     \Omega^n X[n]
+       \underoverset
+        {\underset{\left(i_0 \circ \eta_{\Omega^n X[n]}\right)_{n \in \mathbb{N}} }{\longrightarrow}}
+        {\overset{(i_1)_{n \in \mathbb{N}}}{\longrightarrow}}
+        {}
+    \underset{n \in \mathbb{N}}{\sqcup}
+    \Omega^n X[n] \wedge (I_+)
+  \right)
+  \,.
+$$
+
+Equivalently this is the spectrum whose $n$th component space is a corresponding [[mapping telescope]] of [[pointed topological spaces]] formed via the standard [[reduced cylinder]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) smashed from the right and with structure maps acting independently from the left.
 
 Write 
 
@@ -1821,37 +1990,134 @@ $$
 
 for the canonical induced morphism (inclusion of the first component).
 
+This construction clearly extends to a [[functor]] and $i_{(-)}$ to a [[natural transformation]].
+
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}
 ###### Lemma
 
-1. If $X$ is an [[Omega-spectrum]], then $i_X$ from def. \ref{AlmostSpectrificationForTopologicalSequentialSpectra} is in $W_{strict}$ (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
+1. If $X$ is an [[Omega-spectrum]], then $i_X  \colon X \to Q X$ from def. \ref{AlmostSpectrificationForTopologicalSequentialSpectra} is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
 
-1. If $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakEquivalenceOfSequentialsTopologicalSpectra}), then $Q f \colon Q X \to Q Y$ is in $W_{strict}$ (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
+1. If $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}), then $Q f \colon Q X \to Q Y$ def. \ref{AlmostSpectrificationForTopologicalSequentialSpectra} is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Use that
+Regarding the first item:
+
+By lemma \ref{FakeLoopingPreservesOmegaSpectra} and lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}, if $X$ is an Omega-spectrum then each stage $\Omega^k X[k] \to \Omega^{k+n} X[k+n]$ is in $W_{strict}$. Hence $i_X$ is componentwise a [[mapping telescope]] over [[weak homotopy equivalences]]. Since the [[n-spheres]] are small objects with respect to cell attachments ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) each [[homotopy group]] is represented at a finite stage
 
 $$
-  \pi_q( (P^\infty X)_n )
-  &
-  \simeq
-  \pi_q( \underset{\longrightarrow}{\holim}_k \Omega^k X_{k+n} )
-  \\
-  & \simeq
-  \underset{\longrightarrow}{lim}_k \pi_q \Omega^k X_{k+n}
-  & \simeq
-  \underset{\longrightarrow}{lim}_k \pi_{q+k} X_{k+n}
-  & \simeq
-  \pi_{q-n}(X)
+  \begin{aligned}
+    \pi_q( \underset{\longrightarrow}{\holim}_n( (\Omega^n X[n])_k ))
+    & \simeq
+    \pi_q( \underset{\longrightarrow}{\holim}_n( \Omega^n X_{k+n} ))
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_n (\pi_q \Omega^n X_{k+n})
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_n (\pi_{q+n} X_{k+n})
+  \end{aligned}
+  \,.
 $$
+
+Since by lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence} the components of $i_X \colon X \to Q X$ are given by the iterations of the adjunct structure maps, the claim follows with remark \ref{StableHomotopyGroupsOfOmegaSpectrum}.
+
+The second claim follows with the same kind of reasoning.
 
 =--
+
++-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
+###### Proposition
+
+Every [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
+ 
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the first item of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism
+
+$$
+  [X,i_E]_{strict}
+    \;\colon\; 
+  [X,E]_{strict} 
+    \longrightarrow 
+  [X, Q E]_{strict}
+$$
+
+is an isomorphism. Since $i_{(-)}$ is a [[natural transformation]] (by def. \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}), the naturality squares give a factorization of this morphism as
+
+$$
+  [X,i_E]_{strict}
+    \;\colon\;
+  [X,E]_{strict} 
+    \stackrel{Q}{\longrightarrow}
+  [Q X, Q E]_{strict}
+    \stackrel{[i_X,E]_{strict}}{\longrightarrow}
+  [X, Q]_{strict}  
+  \,.
+$$
+
+Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra},
+
+$$
+  \array{
+     &
+      &&
+    [Q X, E]_{strict}
+      &\stackrel{[i_X, E]_{strict}}{\longrightarrow}&
+    [X, E]_{strict}  
+    \\
+    & &\nearrow& 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[Q X, i_E]_{strict}}} 
+     && 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X, i_E]_{strict}}}
+    \\
+    [X, i_E]_{strict}
+      \;\colon\;
+     &
+    [X,E]_{strict} 
+      &\stackrel{Q}{\longrightarrow}&
+    [Q X, Q E]_{strict}
+      &\stackrel{[i_X, Q E]_{strict}}{\longrightarrow}&
+    [X, Q E]_{strict}  
+  }
+$$
+
+exhibits a [[retraction]] 
+
+$$
+  id \;\colon\; [X,E]_{strict} \longrightarrow [Q X,E]_{strict} \longrightarrow [X,E]_{strict}
+  \,,
+$$ 
+
+which is natural in $X$ (that the bottom and right composite is indeed the identity is again the naturality of $i_{(-)}$). This naturality now implies a retraction of morphisms
+
+$$
+  \array{
+    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [Q Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
+    \\
+    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[Q f,E]_{strict}}}
+     &&
+     \downarrow^{\mathrlap{[f,E]_{strict}}}
+    \\
+    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [Q X,E]_{strict} &\longrightarrow& [X,E]_{strict}
+  }
+  \,.
+$$
+
+Finally, by the second item of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([prop.](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f$ is a stable equivalence.
+
+
+=--
+
 
 
 ### Stability
@@ -1972,151 +2238,6 @@ This gives an isomorphism $\Sigma X \to X \wedge S^1$ in the homotopy category, 
 
 =--
 
-+-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
-###### Lemma
-
-With $\Sigma$ and $\Omega$ the alternative suspension and alternative looping functors from def. \ref{SequentialSpectrumFakeSuspension}:
-
-1. $\Omega$ preserves [[Omega-spectra]] (def. \ref{OmegaSpectrum});
-
-1. $\Sigma$ preserves stable equivalences (def. \ref{StableWeakEquivalenceOfSequentialTopologicalSpectra}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Regarding the first statement:
-
-By prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, $\Omega$ acts on component spaces and adjunct structure maps as the [[Quillen adjunction|right Quillen functor]]
-
-$$
-  Maps(S^1,-)_\ast
-  \;\colon\;
-  (Top_{cg}^{\ast/})_{Quillen}
-    \longrightarrow
-  (Top_{cg}^{\ast/})_{Quillen}
-$$
-
-on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies says that with $\tilde \sigma^X_n$ a [[weak homotopy equivalence]], so is
-$\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
-
-Regarding the second statement: 
-
-By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]] for the strict model structure, hence (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) it passes to an adjunction of its [[derived functors]] on the [[homotopy category of a model category|homotopy category]]. 
-
-Therefore with $f$ a stable equivalence and $Y$ any Omega-spectrum, then
-
-$$
-  [\Sigma f,Y]_{strict}
-  =
-  [f,\Omega Y]_{strict}
-$$
-
-is an isomorphism by the first statement above, and hence $\Sigma f$ is a stable equivalence.
-
-=--
-
-
-+-- {: .num_lemma #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
-###### Lemma
-
-For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis)
-
-1. the structure maps constitute a homomorphism
-
-   $$
-     \Sigma X[-1]
-     \longrightarrow
-     X
-   $$
-
-   and this is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}),
-
-1. the adjunct structure maps constitute a homomorphism
-
-   $$
-     X
-     \longrightarrow
-     \Omega X[1]
-     \,.
-   $$
-
-   If $X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) then this is a weak equivalence in the strict model structure (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}), hence in particular a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The diagrams that need to commute for the structure maps to give a homomorphism as claimed are in degree 0 this one
-
-$$
-  \array{
-    S^1 \wedge S^1 \wedge \ast &\overset{0}{\longrightarrow}& X_0
-    \\
-    {}^{\mathllap{S^1 \wedge 0}}\downarrow && \downarrow^{\mathrlap{\sigma_0}}
-    \\
-    S^1 \wedge X_0 &\underset{\sigma_0}{\longrightarrow}& X_1
-  }
-$$
-
-and in degree $n \geq 1$ these:
-
-$$
-  \array{
-     S^1 \wedge S^1 \wedge X_{n-1} 
-        &\overset{S^1 \wedge \sigma_{n-1}}{\longrightarrow}& 
-     X_n
-     \\
-     {}^{\mathllap{S^1 \wedge \sigma_{n-1}}}\downarrow
-       &&
-     \downarrow^{\mathrlap{\sigma_n}}
-     \\
-     S^1 \wedge X_{n} 
-       &\underset{\sigma_n}{\longrightarrow}& 
-     X_{n+1}
-  }
-  \,.
-$$
-
-But in all these cases commutativity it trivially satisfied. 
-
-Now as in the proof of prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}, under applying the $(S^1\wedge (-)) \dashv (-)^{S^1}$-adjunction isomorphism twice, these diagrams are in bijection to diagrams for $n \geq 1$ of the form
-
-$$
-  \array{
-    X_{n-1} &\overset{\tilde \sigma_{n-1}}{\longrightarrow}& (X_n)^{S^1}
-    \\
-    {}^{\mathllap{\tilde \sigma_{n-1}}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\tilde \sigma_n}}
-    \\
-    (X_n)^{S^1}
-      &\underset{(\tilde \sigma_n)^{S^1}}{\longrightarrow}&
-    \left((X_n)^{S^1}\right)^{S^1}
-  }
-  \,.
-$$
-
-This gives the claimed morphism $X \to \Omega X[-1]$.
-
-If $X$ is an [[Omega-spectrum]], then by definition this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
-
-From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
-
-$$
-  \array{
-     [X, Y]_{strict} &\overset{}{\longrightarrow}& [\Sigma X[-1],Y]_{strict}
-     \\
-     {}^{\mathllap{id}}\downarrow && \downarrow^{\mathrlap{\simeq}}
-     \\
-     [X,Y]_{strict}  &\underset{\simeq}{\longrightarrow}& [X, \Omega Y[1]]_{strict}
-  }
-  \,.
-$$
-
-=--
 
 
 +-- {: .num_lemma #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
