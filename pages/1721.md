@@ -50,13 +50,13 @@ One may conceptualize the axioms as ensuring that certain nice properties that h
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
 
-A _reduced generalized [[cohomology theory]]_ is a $\mathbb{Z}$-[[graded object|graded]]  [[functor]]
+A _reduced generalized [[cohomology theory]]_ is a [[functor]]
 
 $$
   \tilde E^\bullet \colon (Top^{\ast/})^{op} \longrightarrow Ab
 $$
 
-from the [[opposite category]] of [[pointed topological spaces]] ([[CW-complexes]]) to [[abelian groups]] 
+from the [[opposite category]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]")
 
 $$
   \tilde E 
