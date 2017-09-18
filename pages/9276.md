@@ -19,6 +19,10 @@ Darboux's theorem states that a [[smooth manifold]] $X$ equipped with a [[differ
 
 In particular for $(X, \omega)$ a [[symplectic manifold]] there are local charts in which the [[symplectic form]] $\omega$ takes the form $\phi_i^\ast \omega = \sum_{k} \mathbf{d} x^{2k} \wedge \mathbf{d} x^{2k+1}$.
 
+## Related concepts
+
+* [[integrable G-structure]]
+
 ## References
 
 * Wikipedia, _[Darboux theorem](http://en.wikipedia.org/wiki/Darboux%27s_theorem)_
