@@ -19,7 +19,7 @@
 
 ## Idea
 
-What is called _Thom's theorem_ ([Thom 54](#Thom54)) states that the [[homotopy groups]] of the [[Thom spectrum]] $MO$ form the [[cobordism ring]], and that the identification is exhibited by the [[Pontryagin-Thom construction]].
+What is called _Thom's theorem_ ([Thom 54](#Thom54)) states that the [[homotopy group of a spectrum|homotopy groups]] of the universal [[Thom spectrum]] $M O$ form the [[cobordism ring]], and that the identification is exhibited by the [[Pontryagin-Thom construction]] (see [here](https://ncatlab.org/nlab/show/Pontrjagin-Thom+collapse+map#ForEmbeddingsIntoAnNSphere)).
 
 ## Related entries
 
@@ -35,9 +35,11 @@ Due to
 
 Lecture notes include
 
-* {#Ston68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+* {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
 
 * [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3: _Thom's theorem_ ([pdf](file:///C:/Users/Sony/Downloads/3thom.pdf))
+
+* {#Malkiewich11} [[Cary Malkiewich]], section 3 of _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
 * Tom Weston, Part I of _An introduction to cobordism theory_ ([pdf](http://people.math.umass.edu/~weston/oldpapers/cobord.pdf)) 
 
