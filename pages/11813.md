@@ -22,6 +22,8 @@ Whereas much of "classical" mathematics took place/takes place over [[fields]] o
 
 ## Related concepts
 
+* [[characteristic zero]]
+
 * [[p-adic numbers]]
 
 * [[supersingular elliptic curve]]
