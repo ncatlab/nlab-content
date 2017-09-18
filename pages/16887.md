@@ -1,4 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _almost locally Euclidean space_ or _ALE space_ for short is a solution to the Euclidean [[Einstein equations]] which is a [[blow-up]] of an [[ADE-orbifold]] singularity $\mathbb{C}^2/\Gamma$ for [[finite group|finite]] [[subgroup]] $\Gamma \hookrightarrow SU(2)$.
+
+## In string theory
+
+* In [[M-theory]]: [[KK-monopole]] 
+
+  In [[F-theory]]: [[D7-brane]]
 
 ## References
 
