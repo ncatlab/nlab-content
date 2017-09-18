@@ -112,6 +112,7 @@ See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 * [[linear logic]]
 * [[minimal logic]]
 * [[modal logic]]
+* [[adjoint logic]]
 
    * [[algebraic models for modal logics]]
       * [[closure algebra]]
