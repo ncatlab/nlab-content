@@ -14,7 +14,9 @@
 =--
 
 
-This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see _[[topological space]]_.
+> This page is about topology as a **field of [[mathematics]]**.  For topology as a **[[structured set|structure]]** on a [[set]], see _[[topological space]]_.
+
+> Parts of this page exists also in a German language version, see at _[[Topologie]]_.
 
 ***
 
