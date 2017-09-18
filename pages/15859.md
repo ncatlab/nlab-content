@@ -42,7 +42,7 @@ Let $T$ be a (geometric) quotient theory of $S$. A class $A$ of $T$-model morphi
 
 * $A$ is closed under [[inverse image functor|inverse image functors]]: $p^*f\in A$ for $f\in A$.
 
-* $A$ contains all identity morphisms and given $g\in A$: composible $f\in A$ iff $gf\in A$.
+* $A$ contains all identity morphisms and given $g\in A$ and composable $f$: $f\in A$ iff $gf\in A$.
 
 * Given an $S$-model morphism $f:M\to L$ with $L$ a $T$-model, there exists a factorization $M\overset{q}{\to}M_f\overset{\hat{f}}{\to}L$ such that $M_f$ is a $T$-model and $\hat{f}\in A$, such that any other such factorization $M\overset{r}{\to}P\overset{p}{\to}L$ factors with $gh=\hat{f}$ and $hq=r$ for a unique $h:M_f\to P$. Moreover, this factorization is preserved by inverse image functors.
 
@@ -62,6 +62,8 @@ In the context of his work with C. Lair on 'locally free diagrams' [[René Guita
 ##Related concepts##
 
 *[[spectrum of a commutative ring]]
+
+*[[locally algebra-ed topos]]
 
 *[[classifying topos]]
 
