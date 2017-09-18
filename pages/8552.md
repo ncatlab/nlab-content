@@ -6,12 +6,13 @@
 * [Stanford  Encyclopedia of Philosophy](http://plato.stanford.edu/entries/russell/)
 
 ## Texts
-
+ 
 * _[[Principia Mathematica]]_, 1910
+
+* _[[Logic as the Essence of Philosophy]]_, 1914
 
 * _[[A History of Western Philosophy]]_, 1945
 
-* _[[Logic as the Essence of Philosophy]]_
 
 ## Related entries
 
@@ -19,5 +20,6 @@
 
 * [[analytic philosophy]]
 
+* [[type theory]]
 
 category: people
