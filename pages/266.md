@@ -681,7 +681,7 @@ $$
 
 The following statement says that [[left exact functors]] into [[toposes]] have left exact left Kan extension along the [[Yoneda embedding]] ([[Yoneda extension]]) and that this is the [[inverse image]] of a [[geometric morphism]] of [[sheaf toposes]] if the original functor preserves [[covers]].
 
-(We state this in [[(∞,1)-category theory]], the same statement holds true in plain [[category theory]] by just disregarding all occurences of"$\infty$".)
+(We state this in [[(∞,1)-category theory]], the same statement holds true in plain [[category theory]] by just disregarding all occurences of "$\infty$".)
 
 +-- {: .num_prop #YonedaExtensionOfLeftExact}
 ###### Proposition
