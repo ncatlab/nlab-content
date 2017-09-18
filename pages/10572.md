@@ -80,3 +80,4 @@ See also
 
 
 [[!redirects parabolic geometries]]
+[[!redirects Parabolic geometry]]
