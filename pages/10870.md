@@ -23,6 +23,8 @@
 
 * [[Oren Ben-Bassat]], [[Christopher Brav]], [[Vittoria Bussi]], [[Dominic Joyce]], _A 'Darboux Theorem' for shifted symplectic structures on derived Artin stacks, with applications_ ([arXiv:1312.0090](http://arxiv.org/abs/1312.0090))
 
+* [[Pavel Safronov]], [[Dominic Joyce]], _A Lagrangian Neighbourhood Theorem for shifted symplectic derived schemes_ ([arXiv:1506.04024](http://arxiv.org/abs/1506.04024))
+
 
 [[!redirects shifted symplectic structures]]
 [[!redirects derived symplectic geometry]]
