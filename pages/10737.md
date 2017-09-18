@@ -1,3 +1,4 @@
+[[!redirects p-completion]]
 
 #Contents#
 * table of contents
@@ -14,7 +15,7 @@ For more see at _[[formal completion]]_.
 For $A$ an [[abelian group]] (or [[commutative ring]]) and $p$ a [[prime number]], the _$p$-completion_ of $A$ is the [[limit]]
 
 $$
-  A_p^\wedge \coloneqq \underset{\leftarrow}{\lim} A/(p^n A)
+  A_p^\wedge \coloneqq \underset{\leftarrow}{\lim}_{n \geq 1} A/(p^n A)
   \,.
 $$
 
