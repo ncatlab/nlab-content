@@ -106,7 +106,7 @@ Though theorem \ref{OrlovTheorem} is stated there for $F$ admitting a [[right ad
 +-- {: .num_remark}
 ###### Remark
 
-It is generally believed that theorem \ref{OrlovTheorem} should be true for _all_ [[triangulated functors]] (e.g. [Huybrechts 08, p. 5](#Huybrechts08)).
+It was believed that theorem \ref{OrlovTheorem} should be true for _all_ [[triangulated functors]] (e.g. [Huybrechts 08, p. 5](#Huybrechts08)). However according to [(RVdB 2015)](#RVdB2015) this is not true.
 
 =--
 
@@ -132,6 +132,9 @@ On the level of the [[DG enhancements]], it is true for all smooth proper $K$-[[
  
 
 * {#Huybrechts08} [[Daniel Huybrechts]], _Fourier-Mukai transforms_, 2008 ([pdf](http://www.math.uni-bonn.de/people/huybrech/Garda2.pdf))
+
+* {#RVdB2015} Alice Rizzardo, [[Michel Van den Bergh]], _An example of a non-Fourier-Mukai functor between derived categories of coherent sheaves_ 
+([arXiv:1410.4039](http://arxiv.org/abs/1410.4039))
 
 * {#Belmans} [[Pieter Belmans]], section 2.2 of _Grothendieck duality: lecture 3_, 2014 ([[BelmansDuality.pdf:file]])
 
