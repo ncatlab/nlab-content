@@ -89,4 +89,10 @@ Here the left horizontal morphisms are the above isomorphims induced from the de
 
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002
   
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 5.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 5.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc 
+pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+[[!redirects CW-pairs]]
+
+[[!redirects CW pair]]
+[[!redirects CW pairs]]
