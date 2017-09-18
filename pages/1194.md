@@ -570,7 +570,7 @@ The following particular type theories are important enough to (potentially) hav
 
 The concept of typing in the [[foundations of mathematics]] is implicit in [[Gottlob Frege]]'s work and, inspired by that, appears explicitly for the first time in
 
-* [[Bertrand Russell]], appendix of _[The principles of mathematics](http://en.wikipedia.org/wiki/The_Principles_of_Mathematics)_ 1903
+* [[Bertrand Russell]], appendix of _[The principles of mathematics](http://en.wikipedia.org/wiki/The_Principles_of_Mathematics)_ 1903 ([online](http://fair-use.org/bertrand-russell/the-principles-of-mathematics/appendix-b))
 
 * [[Bertrand Russell]], [[Alfred Whitehead]],  _[[Principia Mathematica]]_, 1910
 
