@@ -198,7 +198,7 @@ More explicitly:
 +-- {: .num_defn #UniversalThomSpectrum}
 ###### Definition
 
-The _Thom spectrum_ $M O$ is the [[spectrum]], which is represented by the [[sequential prespectrum]] whose $n$th component space is the [[Thom space]] 
+As a [[sequential spectrum]], the _universal Thom spectrum_ $M O$ is the is represented by the [[sequential prespectrum]] whose $n$th component space is the [[Thom space]] 
 
 $$
   (M O)_n \coloneqq Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)
@@ -221,13 +221,51 @@ $$
 
 =--
 
-+-- {: .num_remark}
-###### Remark
+
++-- {: .num_defn}
+###### Definition
+
+As an [[orthogonal ring spectrum]], the universal [[Thom spectrum]] $M O$ has
+
+* component spaces 
+
+  $$
+    (M O)_V \coloneqq E O(V) \underset{O(V)}{\wedge} S^V
+  $$
+
+  the [[Thom spaces]] of the [[universal vector bundle]] with fiber $V$;
+
+* left $O(V)$-action induced by the remaining canonical left action of $E O(V)$;
+
+* multiplication maps
+
+  $$
+    (E O(V_1) \underset{O(V_1)}{\wedge} S^{V_1})
+      \wedge
+    (E O(V_2) \underset{O(V_2)}{\wedge} S^{V_2}  
+      \longrightarrow
+    E O(V_1 \oplus V_2) 
+      \underset{O(V_1 \oplus V_2)}{\wedge} 
+    S^{V_1 \oplus V_2}
+  $$
+
+  induced via prop. \ref{ThomSpaceOfExternalProductOfVectorBundles}
+
+* unit maps given by
+
+  $$
+    S^V \simeq O(V)_+ \wedge_{O(V)} S^V
+      \longrightarrow
+    E O(V) \wedge_{O(V)} S^V
+  $$
+
+  induced by the fiber inclusion $O(V) \to E O(V)$.
+
+=--
 
 For discussion of the refinement of the Thom spectrum $M O$
 to a [[symmetric spectrum]] see ([Hovey-Shipley-Smith 00, example 6.2.3](#HoveyShipleySmith00), [Schwede 12, Example I.2.8](#Schwede12)). For the refinement to an [[orthogonal spectrum]] and [[globally equivariant spectrum]] see ([Schwede 15, section V.4](#Schwede15)).
 
-=--
 
 
 
