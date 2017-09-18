@@ -19,14 +19,14 @@
 
 ## Idea
 
-For $(X,g)$ a [[Riemannian manifold]] and $\Delta : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[differential equation]]
+For $(X,g)$ a [[pseudo-Riemannian manifold]] and $\Box : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[differential equation]]
 
 $$
-  \Delta f = 0
+  \Box f = 0
   \,.
 $$
 
-where $\Delta$ is the _wave operator_ /[[Laplace operator]].
+where $\Box$ denotes the _wave operator_ /[[Laplace operator]], a [[hyperbolic differential operator]].
 
 ## Related concepts
 
