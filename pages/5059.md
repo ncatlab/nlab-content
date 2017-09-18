@@ -416,7 +416,11 @@ A more recent and more comprehensive review is
 
 * [[Joan Simón]], _[Brane Effective Actions, Kappa-Symmetry and Applications](http://relativity.livingreviews.org/Articles/lrr-2012-3/)_, Living Reviews in relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
 
-The observation that this is an example of a [[WZW-model]] on [[super-Minkowski spacetime]] is due to 
+Review from the bigger perspective that also includes worlsheet supermanifolds is in 
+
+* [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+
+The observation that the Green-Schwarz action functional is an example of a [[WZW-model]] on [[super-Minkowski spacetime]] is due to 
 
 * {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en)) 
   
