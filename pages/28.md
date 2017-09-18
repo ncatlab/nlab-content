@@ -429,7 +429,8 @@ $$
 
 the elements of $G$, with composition the multiplication in $G$, with identity morphism the [[neutral element]] in $G$ and with inverse morphisms the inverse elements in $G$.
 
-This is also called the _[[delooping]]_ of $G$.
+This is also called the _[[delooping]]_ of $G$ (because the [[loop space object]] of $B G$ at the unique point is the given group:
+$\Omega B G \simeq G$).
 
 =--
 
@@ -472,6 +473,140 @@ $$
 
 =--
 
++-- {: .num_example #CoreGroupoid}
+###### Example
+**(groupoid [[core]] of a [[category]])**
+
+For $\mathcal{C}$ any ([[small category|small]]) [[category]], then there is a maximal groupoid inside
+
+$$
+  Core(\mathcal{C}) \hookrightarrow \mathcal{C}
+$$
+
+sometimes called the _[[core]]_ of $\mathcal{C}$. This is obtained from $\mathcal{C}$
+simply by discarding all those [[morphisms]] that are not [[isomorphisms]].
+
+For instance
+
+* For $\mathcal{C} = $ [[Set]] then $Core(Set)$ is the goupoid of [[sets]] and [[bijections]] between them.
+
+  For $\mathcal{C}  $ [[FinSet]] then the [[skeleton]] of this groupoid (prop. \ref{EveryGroupoidIsEquivalentToDisjointUnionOfGroupDeloopings}) is the disjoint union of deloopings (example \ref{DeloopingGroupoidDisjointUnion}) of all the [[symmetric groups]]:
+  
+  $$
+    Core(FinSet) \simeq \underset{n \in \mathbb{N}}{\sqcup} \Sigma(n)
+  $$
+
+* For $\mathca{C} = $ [[Vect]] then $Core(Vect)$ is the groupoid of [[vector spaces]] and [[linear map|linear]] [[bijections]] between them.
+
+  For $\mathca{C} = $ [[FinVect]] then the [[skeleton]] of this groupoid is the disjoint union of delooping of all the 
+  [[general linear groups]]
+  
+  $$
+    Core(FinVect) \simeq \underset{n \in \mathbb{N}}{\sqcup} GL(n)
+    \,.
+  $$
+  
+
+=--
+
++-- {: .num_defn #GroupoidRepresentation}
+###### Definition
+**([[groupoid representation]])
+
+Let $\mathcal{G}$ be a [[groupoid]]. Then:
+
+A [[linear representation]] of $\mathcal{G}$ is a groupoid homomorphism ([[functor]])
+
+$$
+  \rho \;\colon\; \mathcal{G} \longrightarrow Core(Vect)
+$$
+   
+to the groupoid [[core]] of the category [[Vect]] of [[vector spaces]] (example \ref{CoreGroupoid}). Hence this is
+   
+1. For each object $x$ of $\mathcal{G}$ a [[vector space]] $V_x$;
+
+1. for each morphism $x \overset{f}{\longrightarrow} y$ of $\mathcal{G}$ a
+   [[linear map]] $\rho(f) \;\colon\; V_x \to V_y$
+   
+such that
+
+1. (respect for composition) for all composable morphisms $x \overset{f}{\to}y \overset{g}{\to} z$ in the 
+   groupoid we have an [[equality]]
+   
+   $$
+     \rho(g) \circ \rho(f) = \rho(g \circ f)
+   $$
+
+1. (respect for identities) for each object $x$ of the groupoid we have an equality
+
+   $$
+     \rho(id_x) = id_{V_x}
+     \,.
+   $$
+
+Similarly a _[[permutation representation]]_ of $\mathcal{G}$ is a groupoid homomorphism ([[functor]]) 
+
+$$
+  \rho \;\colon\; \mathcal{G} \longrightarrow Core(Set)
+$$   
+
+to the groupoid core of [[Set]]. Hence this is
+
+1. For each object $x$ of $\mathcal{G}$ a [[set]] $S_x$;
+
+1. for each morphism $x \overset{f}{\longrightarrow} y$ of $\mathcal{G}$ a
+   [[function]] $\rho(f) \;\colon\; S_x \to S_y$
+   
+such that composition and identities are respected, as above.   
+
+For $\rho_1$ and $\rho_2$ two such representations, then a homomorphism of representations
+
+$$
+  \phi \;\colon\; \rho_1 \longrightarrow \rho_2
+$$
+
+is a [[natural transformation]] between these functors, hence is
+
+* for each object $x$ of the groupoid a (linear) function
+ 
+  $$
+    (V_1)_x \overset{\phi(x)}{\longrightarrow} (V_2)_x
+  $$
+
+* such that for all morphisms $x \overset{f}{\longrightarrow} y$
+  we have
+  
+  $$
+    \phi(y) \circ \rho_1(f) = \rho_2(x) \circ \phi(x)
+    \phantom{AAAAAA}
+    \array{
+      (V_1)_x &\overset{\phi(x)}{\longrightarrow}& (V_2)_x
+      \\
+      {}^{\mathllap{\rho_1(f)}}\downarrow && \downarrow^{\mathrlap{\phi_2(f)}}
+      \\
+      (V_1)_y &\underset{\phi(y)}{\longrightarrow}& (V_2)_y
+    }
+  $$
+
+Representations of $\mathcal{G}$ and homomorphisms between them constitute a [[category]], 
+called the [[representation category]] $Rep_{Grpd}(\mathcal{G})$.
+
+=--
+
++-- {: .num_example #GroupoidRepresentationOfDeloopingGroupoid}
+###### Example
+**([[groupoid representation]] of [[delooping]] groupoid is [[group representation]])
+
+If $B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}),
+then a [[groupoid representation]] of $B G$ according to def. \ref{GroupoidRepresentation} is
+equivalently a [[group representation]] of the group $G$:
+
+$$
+  Rep_{Grpd}(B G) \simeq Rep(G)
+  \,.
+$$
+
+=--
 
 
 1. Any [[group]] $H$ gives rise to a groupoid, sometimes denoted $\mathbf{B}H$ but often conflated with $H$ itself, which has exactly one object $*$ and with $\mathbf{B}H(*,*) = H$.  That is, there is an inclusion of categories $Group \to Groupoids$, and this functor has a left adjoint, giving the _universal group_ of a groupoid. Any inhabited connected groupoid is [[equivalence of categories|equivalent]] to one arising in this way.
