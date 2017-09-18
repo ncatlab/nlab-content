@@ -727,7 +727,7 @@ $$
 $$
 
 between the underlying [[sets]] is [[continuous function|continuous]] in the sense of def. \ref{ContinuousMaps}
-precisely if [[pre-images]] under $f$ of [[closed sbsets]] of $Y$ (def. \ref{ClosedSubset}) are 
+precisely if [[pre-images]] under $f$ of [[closed subsets]] of $Y$ (def. \ref{ClosedSubset}) are 
 closed subsets of $X$.
 
 =--
