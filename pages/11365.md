@@ -25,6 +25,8 @@ The _projective general linear group_ $PGL(n)$ (in some [[dimension]] $n$ and ov
 
 ## Related concepts
 
+* [[projective special linear group]]
+
 * [[projective space]]
 
 * [[projective unitary group]]
