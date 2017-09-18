@@ -135,6 +135,35 @@ By the standard [[Dold-Kan correspondence]] $N$ preserves fibrations and weak eq
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+The [[adjunction]] between [[homotopy categories]] of the [[derived functors]] of the [[Quillen adjunction]] in prop. \ref{QuillenAdjunctionTodgLieAlgebras} 
+
+$$
+  Ho(LieAlg_k^{\Delta^{op}})
+    \underoverset
+      {\underset{\mathbb{R}N}{\longrightarrow}}
+      {\overset{\mathbb{L}N^*}{\longleftarrow}}
+      {\bot}
+  Ho(dgLieAlg_k)
+$$
+
+restricts on connected simplicial algebras and connected [[dg-Lie algebras]] (meaning: having the trivial Lie algebra in degree 0) to an [[equivalence of categories]]:
+
+$$
+  Ho(LieAlg_k^{\Delta^{op}})_{\geq 1}
+    \underoverset
+      {\underset{\mathbb{R}N}{\longrightarrow}}
+      {\overset{\mathbb{L}N^*}{\longleftarrow}}
+      {\simeq}
+  Ho(dgLieAlg_k)_{\geq 1}
+  \,.
+$$
+
+=--
+
+([Quillen 76, section II.4, see p. 224 (20 of 92)](#Quillen76), see also figure 2 on p. 211 (8 of 92))
 
 ## Related concepts
 
