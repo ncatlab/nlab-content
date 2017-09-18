@@ -136,6 +136,8 @@ For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactific
 
 ## References
 
+### General
+
 The [[KK-compactification]] of [[11d supergravity]] of [[fibers]] of [[special holonomy]] was originally considered in
 
 * {#DauriaFreCastellani91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter V.6 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
@@ -154,10 +156,9 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 
 * {#AcharyaWitten01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
 
-Detailed discussion is in 
-
 * {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
+For more on this see the references [below](#ReferencesPhenomenology).
 
 See also
 
@@ -215,11 +216,20 @@ Discussion of relation to [[F-theory on CY4-manifolds]] includes
 
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
 
-A survey of the corresponding [[string phenomenology]] is in
+
+### Phenomenology
+ {#ReferencesPhenomenology}
+
+Further discussion of [[string phenomenology]] in terms of $M$-theory on $G_2$-manifolds, beyond the original ([Acharya 98](#Acharya98), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)), includes
+
+* {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_, Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
 
 * {#Acharya12} [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
 
-the [[hierarchy problem]] is discussed in
+* {#Kane16} [[Gordon Kane]], _String/M-theories About Our World Are Testable in the traditional Physics Way_ ([arXiv:1601.07511](http://arxiv.org/abs/1601.07511))
+
+
+The [[hierarchy problem]] is discussed in
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], Piyush Kumar, Diana Vaman, _An M theory Solution to the Hierarchy Problem_, Phys.Rev.Lett.97:191601,2006 ([arXiv:hep-th/0606262](http://arxiv.org/abs/hep-th/0606262))
 
