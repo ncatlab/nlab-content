@@ -88,3 +88,6 @@ The notation used here for the adjoint, $A^{*}$, is commonly used in linear alge
 [[!redirects Hermitean conjugations]]
 [[!redirects hermitean conjugation]]
 [[!redirects hermitean conjugations]]
+
+[[!redirects hermitian]]
+[[!redirects anti-hermitian]]
