@@ -62,7 +62,7 @@ Notice that the following relation between syntax and semantics are well establi
 | [[linear type theory|multiplicative intuitionistic linear type theory]] | ([[closed monoidal category]], [[symmetric monoidal category|symmetric]]) [[monoidal categories]] |
 | [[dependent type theory]] | [[locally cartesian closed categories]] |
 
-Here the correspondence in the first line works by interpreting [[types]] $X$ in the [[linear type theory]] as [[objects]] $[X] in a [[monoidal category]] $\mathcal{C}^{\otimes}$ and by interpreting the [[conjunctions]] (as far as they exist) as follows:
+Here the correspondence in the first line works by interpreting [[types]] $X$ in the [[linear type theory]] as [[objects]] $[X]$ in a [[monoidal category]] $\mathcal{C}^{\otimes}$ and by interpreting the [[conjunctions]] (as far as they exist) as follows:
 
 | [[type theory]] | [[category theory]] |
 |------|--------|
