@@ -57,22 +57,28 @@ This is proposition 2.3 in [Caramello-Johnstone (2009)](#CJ09).
 The De Morgan topology $m$ is the [[dense subtopos|smallest dense topology]] $j$ on $\mathcal{E}$ , i.e. $j\leq \neg\neg$ , such that $Sh_j(\mathcal{E})$ is a [[De Morgan topos]].
 =--
 
-This appears as theorem 1 in [Caramello (2009)](#Caramello09).
+This appears as theorem 1 in [Caramello (2009)](#Caramello09). In other words, $Sh_{m}(\mathcal{E})$ is the _largest dense De Morgan subtopos_ of $\mathcal{E}$
 
-+--{: .num_prop}
++--{: .num_prop #DeMorgan_prop}
 ###### Proposition
 Let $\mathcal{E}$ be a [[topos]] and $m$ be the De Morgan topology on it.
 
-* $Sh_m(\mathcal{E})=\mathcal{E}$ is a iff $\mathcal{E}$ is a [[De Morgan topos]].
+* $Sh_m(\mathcal{E})=\mathcal{E}$ iff $\mathcal{E}$ is a [[De Morgan topos]].
 
 * For any [[dense subtopos|dense topology]] $j$ on $\mathcal{E}$ , $Sh_m(Sh_j(\mathcal{E}))=Sh_{m\vee j}(\mathcal{E})$.
 =--
 
 [Caramello (2009)](#Caramello09), prop.1.5.
 
-## Remark
+Notice that $Sh_{m\vee j}(\mathcal{E})=Sh_{m}(\mathcal{E})\cap Sh_{ j}(\mathcal{E})$ and, accordingly, for a dense subtopos De Morganization simply amounts to intersection with $Sh_m(\mathcal{E})$.
+
+## Geometric morphisms preserving De Morganizations
 
 Notice that in analogy to $Sh_{\neg\neg}(\mathcal{E})$ and the class of [[skeletal geometric morphism]], the universality of the De Morganization affords to define a class of **m-skeletal geometric morphisms** as those geometric morphisms $f:\mathcal{F}\to\mathcal{E}$ that restrict to geometric morphisms $f|_m:Sh_m(\mathcal{F})\to Sh_m(\mathcal{E})$ .
+
+Due to a result in [Johnstone (2002, p.194)](#Johnstone), this is equivalent to the preservation of $m$-dense monomorphisms by $f^\ast$.
+
+By the [above proposition](#DeMorgan_prop), $Sh_m(Sh_{j}(\mathcal{E}))\hookrightarrow Sh_{m}(\mathcal{E})$ for $j$ dense. Accordingly, _dense inclusions_ $Sh_{j}(\mathcal{E})\hookrightarrow\mathcal{E}$ are m-skeletal !
 
 ## Related entries
 
