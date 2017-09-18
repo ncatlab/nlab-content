@@ -1,0 +1,10 @@
+
+
+
+## Idea
+
+In [[formal logic]] one speaks of a "fragment" of [[theory]] when referring to just part of it.
+
+For instance by default [[linear logic]] has a wealth of [[conjunctions]]. Discarding or ignoring all of them except the [[multiplicative conjunction]] yield the fragment of _[[multiplicative linear logic]]_.
+
+[[!redirects fragments]]
