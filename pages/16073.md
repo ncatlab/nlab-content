@@ -1,4 +1,7 @@
 
+## Related entries
+
+* [[Dehn surgery]]
 
 ## References
 
