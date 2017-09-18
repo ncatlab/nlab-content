@@ -16,5 +16,5 @@ The [[S-duality]] of type IIB in 10 dimensions corresponds to the exchange of th
 
 * {#INV01} [[Amer Iqbal]], [[Andrew Neitzke]], [[Cumrun Vafa]], _A mysterious duality_, ([arXiv:hep-th/0111068](https://arxiv.org/abs/hep-th/0111068))
 
-* Pierre Henry-Labordere, Bernard Julia, Louis Paulot, _Borcherds symmetries in M-theory_, ([arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070))
+* Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, ([arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070))
 
