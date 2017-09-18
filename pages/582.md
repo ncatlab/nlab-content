@@ -14,7 +14,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -30,7 +30,10 @@ The universal factorization through an embedding is the [[image]].
 
 ## Definition
 
-A **regular monomorphism** is a [[morphism]] $f : c \to d$ in some [[category]] which occurs as the [[equalizer]] of _some_ parallel pair of morphisms $d \stackrel{\to}{\to} e$, i.e. for which a [[limit]] diagram
++-- {: .num_defn }
+###### Definition
+
+A **regular monomorphism** is a [[morphism]] $f : c \to d$ in some [[category]] which occurs as the [[equalizer]] of _some_ [[pair of parallel morphisms]] $d \stackrel{\to}{\to} e$, i.e. for which a [[limit]] [[diagram]] of the form
 
 $$
   c \stackrel{f}{\to} d \stackrel{\longrightarrow}{\longrightarrow} e
@@ -38,19 +41,26 @@ $$
 
 exists.
 
-From the defining universal property of the [[limit]] it follows directly that a regular monomorphism is automatically a [[monomorphism]].
+=--
+
+From the defining [[universal property]] of the [[limit]] it follows directly that a regular monomorphism is in particular a [[monomorphism]].
 
 The dual concept is that of a [[regular epimorphism]].
 
-**Warning.** ([CassidyHebertKelly](#CassidyHebertKelly)) use `regular monomorphism'
-in a more general way: for them, a regular monomorphism is by definition the joint
-equalizer or an arbitrary family of parallel pairs of morphisms with common domain.
++-- {: .num_remark}
+###### Remark
+
+Beware that ([CassidyHebertKelly](#CassidyHebertKelly)) use `regular monomorphism' in a more general way: for them, a regular monomorphism is by definition the joint equalizer or an arbitrary family of parallel pairs of morphisms with common domain.
 This concept is sometimes called [[strict monomorphism]], dual to the more commonly used [[strict epimorphism]].
 
+=--
 
 ## Properties
 
 ### Relation to effective monomorphisms 
+
++-- {: .num_defn #EffectiveMonomorphism}
+###### Definition
 
 A monomorphism $i: A \to B$ is an [[effective monomorphism]] if it is the [[equalizer]] of its [[cokernel pair]]: if the [[pushout]]
 
@@ -62,23 +72,27 @@ B & \underset{i_2}{\to} & B +_A B
 
 exists and $i$ is the equalizer of the pair of coprojections $i_1, i_2: B \stackrel{\to}{\to} B +_A B$. Obviously effective monomorphisms are regular. 
 
-+-- {: .num_prop} 
-######Proposition
-In a category with [[finite limit]]s and [[finite colimit]]s, every regular monomorphism $i: A \to B$ is effective. 
+=--
+
++-- {: .num_prop #RegEquEff} 
+###### Proposition
+
+In a [[category]] with [[equalizers]] and [[cokernel pairs]], the class of  regular monomorphism coincides with that of [[effective monomorphism]] (def. \ref{EffectiveMonomorphism}).
+
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $i: A \to B$ is the equalizer of a pair of morphisms $f, g: B \to C$, and with notation as above, let $j: E \to B$ be the equalizer of the pair of coprojections $i_1, i_2$. Since $f \circ i = g \circ i$, there exists a unique map $\phi: B +_A B \to C$ such that $\phi \circ i_1 = f$ and $\phi \circ i_2 = g$. Then, since 
+
+It is clear that every effective monomorphism is regular, we need to show the converse.
+
+Suppose $i \colon A \to B$ is the equalizer of a pair of morphisms $f, g: B \to C$, and with notation as in def. \ref{EffectiveMonomorphism}, let $j: E \to B$ be the equalizer of the pair of coprojections $i_1, i_2$. Since $f \circ i = g \circ i$, there exists a unique map $\phi: B +_A B \to C$ such that $\phi \circ i_1 = f$ and $\phi \circ i_2 = g$. Then, since 
 $$f j = \phi i_1 j = \phi i_2 j = g j$$ 
 and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique map $k: E \to A$ such that $j = i k$. Since $i_1 i = i_2 i$, there is a unique map $l: A \to E$ such that $i = j l$. The maps $k$, $l$ are mutually inverse. 
+
 =-- 
 
 
-+-- {: .num_lemma #RegEquEff}
-###### Lemma
-In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorphism is precisely an effective monomorphism.
-=--
 
 
 
@@ -89,15 +103,23 @@ In a [[category]] with [[equalizer]]s and [[cokernel pair]]s, a regular monomorp
 * Similarly, in [[Ab]], and more generally any [[abelian category]], every monomorphism is regular.
 
 +-- {: .num_prop}
-###### Proposition 
-In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
+###### Proposition
+**(regular monomorphisms of [[topological spaces]])**
+
+In the [[category]] [[Top]] of [[topological space]], 
+
+1. the [[monomorphisms]] are the those [[continuous functions]] which are [[injective functions]]
+
+1. the regular monomorphsms are the [[topological embeddings]] (that is, the injective continuous functions whose sources have the [[induced topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphisms]].
+
 =--
 
 +-- {: .proof}
 ###### Proof 
-Use lemma \ref{RegEquEff}.
 
-If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the quotient topology on a disjoint sum). The equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the subspace topology. Since monos in $Set$ are regular, we get the function $i$ back with the subspace topology. This completes the proof. 
+Use prop \ref{RegEquEff}.
+
+If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i_2)$ by taking the [[pushout]] of $i$ against itself (in the category of sets, and using the [[quotient topology]] on a [[disjoint union space]]). The equalizer of that pair is the set-theoretic equalizer of that pair of functions endowed with the [[subspace topology]]. Since monos in $Set$ are regular, we get the function $i$ back with the subspace topology. This completes the proof. 
 =--
 
 +-- {: .num_prop}
