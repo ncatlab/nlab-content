@@ -1909,7 +1909,7 @@ In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref
 +-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
 ###### Remark
 
-The nilpotent completion $X^\wedge_E$ is $E$_local.
+The nilpotent completion $X^\wedge_E$ is $E$-local.
 This induces a universal morphism
 
 $$
