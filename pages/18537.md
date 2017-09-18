@@ -65,3 +65,4 @@ For review see
 
 * {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
+For another idea of distributions in possibly infinite-dimensional context see [[Connes distribution]].
