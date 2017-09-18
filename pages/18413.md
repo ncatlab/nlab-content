@@ -36,16 +36,34 @@ which include the [[point space]] as the two endpoints, respectively.
 Together with the unique function $[0,1] \to \ast$ this yields the factorization of the [[codiagonal]] on the [[point space]]
 
 $$
+  \nabla_{\ast}
+  \;\colon\;
   \ast \sqcup \ast \overset{(const_0,const_1)}{\longrightarrow} [0,1] \overset{\exists!}{\longrightarrow} \ast
 $$
 
 which exhibits an example of an _[[interval object]]_ in the general sense of [[model category]] theory with respect to the [[classical model structure on topological spaces]].
 
-## Topological cylinder
+## Induced constructions
 
-For $X$ a [[topological space]], then the [[product topological space]] $X \times [0,1]$ with the topological interval is the _standard topological [[cylinder]]_ over $X$. Accordingly with tespect to the [[classical model structure on topological spaces]] this is an example a of _[[cylinder object]]_.
+### Topological cylinder
 
-## Left homotopy
+For $X$ a [[topological space]], then the [[product topological space]] $X \times [0,1]$ with the topological interval is the _standard topological [[cylinder]]_ over $X$. Via the above inclusion functions, this inherits a factorization of the [[codiagonal]] of $X$ (the canonical continuous function out of the [[disjoint union space]] of $X$ with itself to $X$):
+
+$$
+  \nabla_X
+  \;\colon\;
+  X \sqcup X
+   \overset{(id_X \times const_0, id_X \times const_1)}{\longrightarrow}
+  X \times [0,1]
+   \overet{pr_1}{\longrightarrow}
+  X
+  \,.
+$$
+
+
+Accordingly, with respect to the [[classical model structure on topological spaces]] this is an example a of _[[cylinder object]]_.
+
+### Left homotopy
 
 Given $X,Y$ two [[topological spaces]] and $f,g \;\colon\; X \longrightarrow Y$ two [[continuous functions]],then a **[[left homotopy]]**
 
@@ -83,6 +101,22 @@ $$
 $$
 
 (graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/))
+
+### Path space
+
+For $X$ a [[topological space]], then its _path space_ is the [[mapping space]] $X^{[0,1]}$, out of the topological interval into $X$, i.e. the set of [[continuous function]] $\gamma \;\colon\; [0,1] \to X$ equipped with the [[compact-open topology]]. 
+
+The two endpoint inclusions $\ast \colon [0,1]$ and the unique projection $[0,1] \to \ast$ induce continuous functions
+
+$$
+  X
+    \overset{}{\longrightarrow}
+  X^{[0,1]}
+   \overset{X^{(const_0,const_1)}}{\longrightarrow}
+  X \times X
+$$
+
+(inclusion of constant paths and endpoint evaluation of paths).
 
 
 [[!redirects topological intervals]]
