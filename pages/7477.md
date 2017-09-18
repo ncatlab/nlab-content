@@ -15,7 +15,13 @@
 
 ## Definition
 
-A **completely distributive lattice** is a [[complete lattice]] in which arbitrary [[joins]] and arbitrary meets [[distributive lattice|distribute]] over each other.
+A **completely distributive lattice** is a [[complete lattice]] $L$ in which arbitrary [[joins]] and arbitrary meets [[distributive lattice|distribute]] over each other. 
+
+More formally: given a complete lattice $L$ and functions $p: J \to I$ and $f: J \to L$, we have 
+
+$$\bigwedge_{i \in I} \bigvee_{j \in p^{-1}(i)} f(j) \geq \bigvee_{sections\; s: I \to J} \bigwedge_{i \in I} f(s(i))$$ 
+
+where "section" means [[section]] of $p$. Complete distributivity states that this inequality is an equality, for all $f, p$. The same statement then holds upon switching $\bigwedge$ and $\bigvee$, i.e., complete distributivity is a [[duality|self-dual]] property. 
 
 ## Properties
 
@@ -31,6 +37,20 @@ This appears as remark 4.3 in ([Caramello 2011](#Caramello11)).
 
 ### Completely distributive Boolean algebras 
 
++-- {: .num_lemma} 
+###### Lemma 
+A complete totally ordered poset is completely distributive. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+(Note: this uses the [[axiom of choice]].) Suppose we had a strict inequality 
+
+$$\bigwedge_{i \in I} \bigvee_{j \in p^{-1}(i)} f(j) \gt \bigvee_{sections\; s: I \to J} \bigwedge_{i \in I} f(s(i)).$$ 
+
+Denote the left side by $x$ and the right by $y$. Either there is no element $z$ strictly between $x$ and $y$, or there is. In the former case, we have for each $i$ that $\bigvee_{j \in p^{-1}(i)} f(j) \geq x$, and so (using trichotomy) we have $f(j) \gt y$ for some $j \in p^{-1}(i)$. Choosing such a $j$ for each $i$, we obtain a section $s$ with $f(s(i)) \gt y$ for all $y$, whence $f(s(i)) \geq x$ for this case, so that $\bigvee_{sections\; s: I \to J} \bigwedge_{i \in I} f(s(i)) \geq x \gt y$, contradiction. If there is $z$ with $x \gt z \gt y$, we argue similarly to obtain a section $s$ with $f(s(i)) \gt z$ for all $i$, whence $\bigwedge_{i \in I} f(s(i)) \geq z$, and we obtain a contradiction as before with $z$ replacing $x$. 
+=-- 
+
 +-- {: .num_prop} 
 ###### Proposition 
 A complete Boolean algebra $B$ is completely distributive iff it is atomic (a [[CABA]]), i.e., is a [[power set]] as a Boolean algebra. 
@@ -38,23 +58,23 @@ A complete Boolean algebra $B$ is completely distributive iff it is atomic (a [[
 
 +-- {: .proof} 
 ###### Proof 
-For a complete atomic Boolean algebra $B$, it is classical that the canonical map $B \to P(atoms(B))$, sending each $b \in B$ to the set of atoms below it, is an isomorphism. Such power sets are products of copies of $\mathbf{2} = \{0 \leq 1\}$, which is completely distributive (as is any complete [[total order|totally ordered]] set), and products of completely distributive lattices are completely distributive. 
+For a complete atomic Boolean algebra $B$, it is classical that the canonical map $B \to P(atoms(B))$, sending each $b \in B$ to the set of [[atoms]] below it, is an isomorphism. Such [[power sets]] are products of copies of $\mathbf{2} = \{0 \leq 1\}$, which is completely distributive by the lemma, and [[products]] of completely distributive lattices are completely distributive. 
 
-In the other direction, if $B$ is completely distributive, then we may write 
+In the other direction, suppose $B$ is completely distributive. Take $p = \pi_2: \mathbf{2} \times B \to B$, and $\alpha: \mathbf{2} \times B \to B$ by $\alpha(0, b) \coloneqq \neg b$ and $\alpha(1, b) \coloneqq b$. Sections of $p$ correspond to functions $g: B \to \mathbf{2}$, and so complete distributivity gives 
 
-$$1 = \bigwedge_{b \in B} (b \vee \neg b) = \bigvee_{f: B \to \mathbf{2}} \bigwedge_{b \in B} \alpha(f(b), b)$$ 
+$$1 = \bigwedge_{b \in B} (b \vee \neg b) = \bigvee_{g: B \to \mathbf{2}} \bigwedge_{b \in B} \alpha(g(b), b).$$ 
 
-where we define $\alpha(0, b) \coloneqq \neg b$ and $\alpha(1, b) \coloneqq b$. Write $a(f)$ as an abbreviation of $\bigwedge_{b \in B} \alpha(f(b), b)$. We have 
+Write $a(g)$ as abbreviation for $\bigwedge_{b \in B} \alpha(g(b), b)$, we have 
 
-$$b = b \wedge 1 = b \wedge \bigvee_{f: B \to \mathbf{2}} a(f) = \bigvee_{f: B \to \mathbf{2}} b \wedge a(f)$$ 
+$$b = b \wedge 1 = b \wedge \bigvee_{g: B \to \mathbf{2}} a(g) = \bigvee_{g: B \to \mathbf{2}} b \wedge a(g)$$ 
 
-so $b \wedge a(f) \neq 0$ for some $f$ if $b \neq 0$. Notice that $b \wedge a(f) \neq 0$ implies $f(b) = 1$, from which we infer two things: 
+so $b \wedge a(g) \neq 0$ for some $g$ if $b \neq 0$. Notice that $b \wedge a(g) \neq 0$ implies $g(b) = 1$, from which we infer two things: 
 
-* Whenever $b \leq a(f)$ with $b \neq 0$, then $a(f) \leq \alpha(f(b), b) = \alpha(1, b) = b$; therefore $a(f)$ is an [[atom]] whenever $a(f) \neq 0$; 
+* Whenever $b \leq a(g)$ with $b \neq 0$, then $a(g) \leq \alpha(g(b), b) = \alpha(1, b) = b$; therefore $a(g)$ is an atom whenever $a(g) \neq 0$; 
 
-* Provided that $b \wedge a(f) \neq 0$, the preceding point gives that $a(f)$ is an atom below $b \wedge a(f) \leq b$. 
+* Provided that $b \wedge a(g) \neq 0$, the preceding point gives that $a(g)$ is an atom below $b \wedge a(g) \leq b$. 
 
-The last point shows every element $b$ has an atom $a(f)$ below it, so that $B$ is atomic, as was to be shown. 
+The last point shows every element $b$ has an atom $a(g)$ below it, so that $B$ is atomic, as was to be shown. 
 =-- 
 
 
