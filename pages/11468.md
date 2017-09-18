@@ -80,6 +80,8 @@ from the [[String structure]] [[Thom spectrum]] to [[tmf]]. Notice that $M Strin
 
 * The interesting aspects of $p$-adic string theory have led people to consider _[[p-adic physics]]_ more generally. But it remains noteworthy that in $p$-adic string theory it is exactly only the [[worldsheet]] which is regarded in [[p-adic geometry]], while for instance the [[complex numbers]] as they appear as [[coefficients]] of [[quantum physics]] are not replaced by $p$-adics.
 
+* [[p-adic AdS-CFT]]
+
 * [[number theory and physics]]
 
 * [[p-adic geometry]]
