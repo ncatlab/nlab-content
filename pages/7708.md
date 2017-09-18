@@ -59,5 +59,7 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 
 * [[functions]] that preserves extra structure are called _[[homomorphisms]]_; [[relations]] that preserve extra structure are called _[[logical relations]]_
 
+* [[Birkhoff's HSP theorem]]
+
 [[!redirects structure]]
 [[!redirects structures]]
