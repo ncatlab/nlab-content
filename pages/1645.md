@@ -40,7 +40,7 @@ There are two major kinds of [[action functionals]] that may be anomalous in tha
 
 The [[path integral]] for a [[quantum field theory]] with [[fermion]]s can be decomposed into a [[fermionic path integral]] (see there for more details) over the [[fermionic field]]s followed by that over the [[bosonic field]]s. The former, a [[Berezin integral]], is typically well defined for a fixed configuration of the bosonic fields, but does not produce a well defined function on the space of all bosonic fields: but a _twisted function_ , a [[section]] of some [[line bundle]] called a [[determinant line bundle]] or, in $8k+2$ dimensions, its [[square root]], the [[Pfaffian line bundle]]. 
 
-So to even start making sense of the remaining path integral over the bosonic degree of freedom, this [[determinant line bundle]] or the corresponding [[Pfaffian line bundle]] has to be trivializale. Its non-trivializability is the _fermionic anomaly_ .
+So to even start making sense of the remaining path integral over the bosonic degree of freedom, this [[determinant line bundle]] or the corresponding [[Pfaffian line bundle]] has to be trivializable. Its non-trivializability is the _fermionic anomaly_ .
 
 More in detail ([Freed 86](#Freed86)), the [[path integral]] over an [[Lagrangian]] of the form $(\overline \phi, D \phi)$ for 
 
@@ -62,7 +62,7 @@ where the left hand side makes sense and the equivalence holds for $V$ and $W$ f
 In more detail this [[determinant line bundle]] also carries a [[connection]] on a bundle. To make the formal [[path integral]], which is a [[section]] of this bundle, into an actual function, one this bundle with connection needs to be trivializable and trivialized. The [[obstruction]] to this is the anomaly.
 
 
-#### Higher gauge-theoreric anomalies
+#### Higher gauge-theoretic anomalies
 
 For the moment see [[Green-Schwarz mechanism]] for more.
 
