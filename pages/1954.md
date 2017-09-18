@@ -44,7 +44,7 @@ its derivative, sending each element $x \in \mathfrak{g}$ to the [[vector field]
 
 For $v \in \Gamma(T X)$ and $\omega$ a differential form on $P$ write $\iota_v \omega$ for the contraction.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **Cartan-Ehresmann connection** on $P$ is a [[Lie algebra-valued 1-form]]
@@ -80,7 +80,7 @@ on $P$ satisfying two conditions
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop #FormulationInTermsOfCurvatureForm}
 ###### Proposition
 
 This is equivalent to
@@ -159,7 +159,7 @@ The general abstract discussion is [here](cohesive+%28infinity%2C1%29-topos+--+s
 
 ### General
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The two definitions in terms of 1-forms and in terms of horizontal distributions are equivalent.
@@ -177,7 +177,7 @@ $$
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Remark
 
 This means we may think of $A$ as measuring how [[infinitesimal object|infinitesimal]] paths in $P$ fail to be _horizontal_ or _parallel_ to $X$ in the sense of [[parallel transport]].
@@ -194,7 +194,7 @@ $$
 
 for the [[curvature characteristic form]] obtained by evaluating this on wedge powers of the [[curvature]] 2-form.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The forms $\langle F_A \rangle \in \Omega^{2k}(P)$ are closed,  descend along $p : P \to X$, in that they are pullbacks of forms along $p$, and their class in [[de Rham cohomology]] $H^{2k}(X)$ are independent of the choice of $A$ on $P$.
@@ -234,7 +234,7 @@ The first follows from $\iota_{\rho_*(x)} F_A = 0$. The second from this, the $d
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 The form $\langle F_A \rangle$ is called the [[curvature characteristic form]] of the connection $A$. The map
