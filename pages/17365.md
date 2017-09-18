@@ -1527,8 +1527,12 @@ $$
 ## The stable model structure on sequential spectra
  {#TheStableModelStructure}
 
+We discuss now how to pass from the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} to the actual stable model structure on topological sequential spectra.
+
+
 
 ### Omega-spectrification
+ {#OnOmegaSpectrification}
 
 
 +-- {: .num_defn #SpectrificationForTopologicalSequentialSpectra}
@@ -1650,7 +1654,7 @@ $$
   \,.
 $$
 
-Notice that this is indeed well-defined: since each component map $X_{i,k} \to X_{i+1,k}$ is a [[relative cell complex]] and since the [[1-spheres]] $S^1$  is [[compact topological space|compact]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that 
+Notice that this is indeed well-defined: since each component map $X_{i,k} \to X_{i+1,k}$ is a [[relative cell complex]] and since the [[1-sphere]] $S^1$  is [[compact topological space|compact]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that 
 
 $$
   \begin{aligned}
@@ -1689,9 +1693,9 @@ Let $X\in SeqSpec(Top_{cg})$ be a [[sequential prespectrum]] with $j_X \colon X 
 
 1. $j_X \colon X \to Q X$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}):
 
-1. if $X$ is an [[Omega-spectrum]], then $j_X$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra});
+1. $j_X$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) precisely if $X$ is an [[Omega-spectrum]];
 
-1. if $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}), then $Q f \colon Q X \to Q Y$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
+1. a morphism $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}), precisely if $Q f \colon Q X \to Q Y$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
 
 =--
 
@@ -1736,9 +1740,34 @@ and similarly in degree $q\lt 0$. That these morphisms are isomorphism, hence th
 
 Regarding the third statement:
 
+In one direction:
+
 If $X$ is an Omega-spectrum in that all its adjunct structure maps $\tilde \sigma_k$ are [[weak homotopy equivalences]], then by [[two-out-of-three]] also the maps $\iota_{i,k}$ in def. \ref{SpectrificationForTopologicalSequentialSpectra} are weak homotopy equivalences. Hence $(j_X)_k \colon  X_k \to (Q X)_k$ is the map into a sequential colimit over acyclic relative cell complexes, and again by the compactness of the spheres, this means that it is itself a weak homotopy equivalence.
 
-Similarly for the fourth statement.
+In the other direction:
+
+If $j_X$ is degrewise a weak homotopy equivalence, then by applying [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)) to the compatibility squares for the adjunct structure morphisms (def. \ref{SequentialSpectrumViaAdjunctStructureMaps}), using that 
+$\tilde \sigma^{Q X}_n$ is a weak homotopy equivalence by the first point above
+
+$$
+  \array{
+    X_n 
+      &\underoverset{\in W_{cl}}{(j_X)_n}{\longrightarrow}&
+    (Q X)_n
+    \\
+    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\tilde \sigma^{Q X}_n}}_{\mathrlap{\in W_{cl}}}
+    \\
+    Maps(S^1,X_{n+1})
+     &\underoverset{\Maps(S^1,(j_X)_{n+1})}{\in W_{cl}}{\longrightarrow}&
+    Maps(S^1, (Q X)_{n+1})
+  }
+$$
+
+implies that also $\tilde \sigma^X_n \in W_{cl}$, hence that $X$ is an Omega-spectrum.
+
+The fourth statement follows with similar reasoning.
 
 
 =--
@@ -1867,7 +1896,7 @@ $$
 
 Regarding the third point:
 
-By construction $id \colon \mathcal{C}_{loc}\to \mathcal{C}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
+By construction, $id \colon \mathcal{C}_{loc}\to \mathcal{C}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
 
 =--
 
@@ -2178,7 +2207,7 @@ Hence now it follows by [[two-out-of-three]] ([def.](Introduction+to+Stable+homo
 
 +-- {: .num_prop #BousfieldFriedlanderTheorem}
 ###### Proposition
-**(Bousfield-Friedlander theorem)**
+**([[Bousfield-Friedlander theorem]])**
 
 Let $\mathcal{C}$ be a [[model category]]. Let $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
 be a Quillen idempotent monad on according to def. \ref{QuillenIdempotentMonad}.
@@ -2187,7 +2216,7 @@ Then the [[Bousfield localization of model categories|Bousfield localization]] m
 
 =--
 
-([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, lemma 4.5, lemma 4.6](#GoerssJardine96)) spring
+([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, lemma 4.5, lemma 4.6](#GoerssJardine96)) 
 
 +-- {: .proof}
 ###### Proof
@@ -2303,17 +2332,16 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #CharacterizationOfFibrationsInBFModelStructures}
 ###### Proposition
 
 For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
 a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
-then in the model structure $\mathcal{C}_Q$ from prop. \ref{BousfieldFriedlanderTheorem},
-a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if 
+then a morphism $f \colon X \to Y$ in $\mathcal{C}$ is a $Q$-fibration (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) precisely if 
 
 1. $f$ is a fibration;
 
-1. the $\eta$-naturality square on $f$ exhibits a [[homotopy pullback]]
+1. the $\eta$-naturality square on $f$ 
 
    $$
      \array{
@@ -2323,20 +2351,184 @@ a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if
        \\
        Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
      }
-     \,.
    $$
+
+   exhibits a [[homotopy pullback]] in $\mathcal{C}$, in that for any factorization of $Q(f)$ trough a weak equivalence followed by a fibration $p$, then the universally induced morphism
+
+  $$
+    X \longrightarrow p^\ast Y
+  $$
+
+  is weak equivalence (in $\mathcal{C}$).
 
 =--
 
+(e.g. [Goerss-Jardine 96, theorem 4.8](#GoerssJardine96))
+
++-- {: .proof}
+###### Proof
+
+First consider the case that $f$ is a fibration and that the square is a homotopy pullback. We need to show that then $f$ is a $Q$-fibration.
+
+Factor $Q(f)$ as
+
+$$
+  Q(f) 
+    \;\colon\;
+  Q(X)
+    \underoverset{\in W \cap Cof}{i}{\longrightarrow}
+  Z
+    \underoverset{\in Fib}{p}{\longrightarrow}
+  Q(Y)  
+  \,.
+$$
+
+By the proof of prop. \ref{BousfieldFriedlanderTheorem} the morphism $p$ is also a $Q$-fibration. Hence by the existence of the $Q$-local model structure due to prop. \ref{BousfieldFriedlanderTheorem}, its pullback is also a $Q$-fibration
+
+$$
+  \array{
+    X &\overset{\eta_X}{\longrightarrow}& Q(X)
+    \\
+    {}^{\mathllap{\tilde i}}_{\mathllap{\in W}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{i}}_{\mathrlap{\in W}}
+    \\
+    Y \underset{Q(Y)}{\times} Z 
+      &\overset{p^\ast \eta_Y}{\longrightarrow}&
+    Z
+    \\
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
+    \\
+    Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
+  }
+  \,.
+$$
+
+Here $\tilde i$ is a weak equivalence by assumption that the diagram exhibits a homotopy pullback. Hence it factors as
+
+$$
+  \tilde i
+  \;\colon\;
+  X 
+    \underoverset{\in W \cap Cof}{j}{\longrightarrow}
+  W
+    \underoverset{\in W \cap Fib = W_Q \cap Fib_Q}{\pi}{\longrightarrow}
+  Y \underset{Q(Y)}{\times} Z
+  \,.
+$$
+
+This yields the situation
+
+$$
+  \array{
+    X &\overset{=}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{j}}_{\mathllap{\in W \cap Cof}}\downarrow 
+      &{}^{\mathllap{\exists}}\nearrow& 
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}
+    \\
+    W 
+      &\underoverset{\tilde p \circ \pi}{\in Fib_Q}{\longrightarrow}&
+    Y
+  }
+$$
+
+As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this is seen to exhibit $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure and the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
+
+Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ it is immediate that $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
+
+So factor $Q(f)$ as before, and consider the pasting composite of the factorization of the given square with the naturality squares of $\eta$:
+
+$$
+  \array{
+     &&
+    Q(X) 
+      &\underoverset{\in W}{\eta_{Q(X)}}{\longrightarrow}&
+    Q(Q(X))
+    \\
+      && 
+    {}^{\mathllap{i}}_{\mathllap{\in W}}\downarrow
+      && 
+    \downarrow^{\mathrlap{Q(i)}}_{\mathrlap{\in W}}
+    \\
+    Y \underset{Q(Y)}{\times} Z 
+      &\underoverset{\in W_Q}{p^\ast \eta_Y}{\longrightarrow}&
+    Z
+      &\underoverset{\in W}{\eta_Z}{\longrightarrow}&
+    Q(Z)
+    \\
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
+      &(pb)& 
+    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
+      &&
+    \downarrow^{\mathrlap{Q(p)}}
+    \\
+    Y 
+      &\underoverset{\eta_Y}{\in W_Q}{\longrightarrow}& 
+    Q(Y)
+      &\underoverset{\eta_{Q(Y)}}{\in W}{\longrightarrow}&
+    Q(Q(Y))
+  }
+  \,.
+$$
+
+The top and bottom horizontal weak equivalences are by the idempotency of $Q$, and $Q(i)$ is a weak equivalence since $Q$ preserves weak equivalences. Hence by [[two-out-of-three]] also $\eta_Z$ is a weak equivalence. Finally $p^\ast \eta_Y$ is a $Q$-weak equivalence since it is the pullback of a $Q$-weak equivalence along a fibration between objects whose $\eta$ is a weak equivalence, via the third clause in def. \ref{QuillenIdempotentMonad}.
+
+In particular, therefore the bottom right square is a homotopy pullback, and since the left square is even a genuine pullback, hence a homotopy pullback, the total bottom rectangle here exhibits a homotopy pullback.
+
+Now by [[natural transformation|naturality]] of $\eta$, that total rectangle is the same as
+
+$$
+  \array{
+    Y \underset{Q(Y)}{\times} Z 
+      &\overset{\eta_{\left(Q \underset{Q(Y)}{\times} Z\right)}}{\longrightarrow}&
+    Q(Y \underset{Q(Y)}{\times} Z)
+      &\underoverset{\in W}{Q(p^\ast \eta_Y)}{\longrightarrow}&
+    Q(Z)
+    \\
+    {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{Q(\tilde p)}}_{\mathrlap{\in Fib_Q}}
+      &&
+    \downarrow^{\mathrlap{Q(p)}}
+    \\
+    Y 
+      &\underset{\eta_Y}{\longrightarrow}& 
+    Q(Y)
+      &\underoverset{Q(\eta_Y)}{\in W}{\longrightarrow}&
+    Q(Q(Y))
+  }
+  \,,
+$$
+
+where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, by the previous remark. This means that the right square is again a homotopy pullback, and since the total rectangle still is, so is now also the left square.
+
+To conclude, use the observation from the first part of the proof that $f$ is a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $\tilde p \circ \pi$, where $\pi$ is an acyclic fibration. Notice that the $\eta$-naturality square of a weak equivalence is a homotopy pullback ($Q$ preserves the weak equivalence) and that the composite of two morphisms with this property still has this property. Therefore $f$ is the retract of a morphism with this property, 
+
+Hence the $\eta$-naturality square of $f$ is the retract of a homotopy pullback square, and so it is itself a homotopy pullback square.
+
+=--
 
 ### Proof of the stable model structure
+ {#ProofOfTheStableModelStructure}
 
 We show now that the operation of [[Omega-spectrification]] from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. Via the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}). This establishes a stable model structure on topological sequential spectra.
 
-+-- {: .num_prop}
++-- {: .num_prop #OmegaSpectrificationOnTopologicalSequentialSpectraIsQuillenIdempotentMonad}
 ###### Proposition
 
-The [[Omega-spectrification]] $(Q,j)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad}. 
+The [[Omega-spectrification]] $(Q,j)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad} on the strict model structre theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}:
+
+$$
+  Q 
+    \;\colon\; 
+  SeqSpec(Top_{cg})_{strict}
+    \longrightarrow
+  SeqSpec(Top_{cg})_{strict}  
+  \,.
+$$
 
 =--
 
@@ -2346,7 +2538,9 @@ The [[Omega-spectrification]] $(Q,j)$ from def. \ref{SpectrificationForTopologic
 +-- {: .proof}
 ###### Proof
 
-The first two conditions required on a Quillen idempotent monad in def. \ref{QuillenIdempotentMonad} are explicit in prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}. It remains to check the condition on pullbacks.
+First notice that the strict model structure is indeed [[right proper model category|right proper]], as demanded in def. \ref{QuillenIdempotentMonad}: Since every object in $SeqSpec(Top_{cg})$ is fibrant (this being so degreewise in $(Top_{cg}^{\ast/})_{Quillen}$) this follows from [this lemma](Introduction+to+Stable+homotopy+theory+--+P#InCfPullbackAlongFibrationPreservesWeakEquivalences).
+
+Now the first two conditions required on a Quillen idempotent monad in def. \ref{QuillenIdempotentMonad} are explicit in prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}. It remains to check the third condition:
 
 First we claim that given a [[pullback]] of a strict fibration
 
@@ -2401,6 +2595,48 @@ $$
 $$
 
 Now it follows by [[two-out-of-three]] that also the top morphism is in $W_{strict}$.
+
+=--
+
+
++-- {: .num_theorem #StableModelStructureOnSequentialSpectraIsModelCategory}
+###### Theorem
+
+The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structure on sequential spectra (theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}) at the class of [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) exists, called the **stable model structure** on topological sequential spectra
+
+$$
+  SeqSpec(Top_{cg})_{stable}
+    \underoverset
+      {\underset{id}{\longrightarrow}}
+      {\overset{id}{\longleftarrow}}
+      {\bot}
+  SeqSpec(Top_{cg})_{strict}
+  \,.
+$$
+
+Moreover, its fibrant objects are precisely the [[Omega-spectra]] (def.\ref{OmegaSpectrum}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(Q,\eta)$ be the [[Omega-spectrification]] operation from def. \ref{SpectrificationForTopologicalSequentialSpectra}. According to prop. \ref{OmegaSpectrificationOnTopologicalSequentialSpectraIsQuillenIdempotentMonad} this is a Quillen-idempotent monad (def. \ref{QuillenIdempotentMonad}) on $SeqSpec(Top_{cg})_{strict}$. Hence the [[Bousfield-Friedlander theorem]] (prop. \ref{BousfieldFriedlanderTheorem}) asserts that the [[Bousfield localization of model categories|Bousfield localization]] of  the strict model structure at the $Q$-equivalences exists. By prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra} these are precisely the stable weak homotopy equivalences.
+
+Finally, by prop. \ref{CharacterizationOfFibrationsInBFModelStructures} an object $X \in SeqSpec(Top_{cg})_{stable}$ is fibrant in $SeqSpec(Top_{cg})_{stable}$ precisely if 
+
+$$
+  \array{
+     X &\overset{\eta_X}{\longrightarrow}& Q(X)
+     \\
+     \downarrow && \downarrow
+     \\
+     \ast &\longrightarrow& \ast
+  }
+$$
+
+exhibits a [[homotopy pullback]] in $SeqSpec(Top_{cg})_{strict}$. Since every  object in $SeqSpec(Top_{cg})_{strict}$ is fibrant, the vertical morphisms here are fibrations. The pullback of $Q(X)$ along $id_\ast$ is just $Q(X)$ itself, and the universally induced morphism into this pullback is just $\eta_X$ itself. Hence the square is a homotopy pullback precisely if $\eta_X$ is a weak equivalence in $SeqSpec(Top_{cg})_{strict}$, hence degreewise a [[weak homotopy equivalence]]. Since $Q(X)$ is an [[Omega-spectrum]] by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, this means precisely that $X$ is an Omega-spectrum.
+
 
 =--
 
