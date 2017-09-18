@@ -56,6 +56,10 @@ The current model assumes that the energy density of the [[observable universe]]
 
 ## References
 
+Lecture notes include
+
+* [[Matthias Blau]], chapter 37 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
 A review is in 
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
