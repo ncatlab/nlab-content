@@ -22,9 +22,7 @@
 
 Let $X$ be a [[topological space]] which is
 
-1. [[Hausdorff topological space|Hausdorff]],
-
-1. [[locally compact topological space|locally compact]],
+1. [[locally compact topological space|locally compact]] (in the sense that every point has an [[open neighbourhood]] whose [[topological closure]] is [[compact topological space|compact]]),
 
 1. [[second-countable topological space|second-contable]],
 
