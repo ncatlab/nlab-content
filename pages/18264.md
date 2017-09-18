@@ -1,0 +1,39 @@
+[[!redirects countable union of countable sets is countable]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
++-- {: .num_prop }
+###### Proposition
+**(a countable union of countable sets is countable)**
+
+Let $I$ be a [[countable set]] and let 
+$\{S_i\}_{i \in I}$ be an $I$-[[dependent type|dependent set]] of [[countable sets]] $S_i$. Then the [[disjoint union]]
+
+$$
+  \underset{i \in I}{\cup} S_i
+$$
+
+is itself a countable set
+
+=--
+
+## References
+
+* ProofWiki, _[Countable Unition of Countable Sets is Countable](https://proofwiki.org/wiki/Countable_Union_of_Countable_Sets_is_Countable)_
+
