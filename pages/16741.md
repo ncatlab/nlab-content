@@ -70,13 +70,23 @@ Let $\mathcal{E}$ be a [[topos]] and $m$ be the De Morgan topology on it.
 
 [Caramello (2009)](#Caramello09), prop.1.5.
 
+## Remark
+
+Notice that in analogy to $Sh_{\neg\neg}(\mathcal{E})$ and the class of [[skeletal geometric morphism]], the universality of the De Morganization affords to define a class of **m-skeletal geometric morphisms** as those geometric morphisms $f:\mathcal{F}\to\mathcal{E}$ that restrict to geometric morphisms $f|_m:Sh_m(\mathcal{F})\to Sh_m(\mathcal{E})$ .
+
 ## Related entries
 
 * [[De Morgan topos]]
+
 * [[De Morgan algebra]]
+
 * [[double negation]]
+
 * [[dense subtopos]]
+
 * [[dense topology]]
+
+* [[skeletal geometric morphism]]
 
 ## References
 
