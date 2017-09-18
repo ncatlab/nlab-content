@@ -5,7 +5,7 @@ Edward Witten is a theoretical physicist at the Institute for Advanced Study.
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Edward_Witten)
 
-* interview by [[Hirosi Ooguri]], 2014 ([pdf](http://www.ams.org/notices/201505/rnoti-p491.pdf))
+* interview by [[Hirosi Ooguri]], Notices Amer. Math. Soc, May 2015 p491 ([pdf](http://www.ams.org/notices/201505/rnoti-p491.pdf))
 
 Witten's work originates in theoretical [[quantum field theory]] and stands out as making numerous and deep connections between that and mathematical [[geometry]] and [[cohomology]]. In the course of the 1980s Witten became the central and leading figure in [[string theory]].
 
