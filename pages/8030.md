@@ -12,7 +12,7 @@
 #Contents#
 * table of contents
 {:toc}
-#
+
 ## Idea
 
 In [[physics]], _moduli stabilization_ refers to the problem of rendering [[Kaluza-Klein compactifications]] stable.
@@ -76,6 +76,7 @@ The problem of generic in-stability of moduli of pure gravity KK-compactificatio
 * {#Penrose03} [[Roger Penrose]], section 10.3 in _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire](https://inspirehep.net/record/608935/))
 
 ### Freund-Rubin flux compactifications
+ {#ReferencesFreundRubinCompactificationo}
 
 [[Freund-Rubin compactification|Freund-Rubin]] [[flux compactifications]] are due to
 
@@ -90,6 +91,8 @@ and the special case of compactifications of 6d Einstein-Maxwell theory to 4d is
 Further discussion of these models as toy models for [[flux compactifications]] in [[string theory]] is in
 
 * {#DouglasKachru07} [[Michael Douglas]], [[Shamit Kachru]], section II.D.1 of _Flux compactification_, Rev. Mod. Phys. 79, 733 (2007) ([arXiv:hep-th/0610102](https://arxiv.org/abs/hep-th/0610102))
+
+* [[Frederik Denef]], [[Michael Douglas]], [[Shamit Kachru]], _Physics of String Flux Compactifications_, Ann. Rev. Nucl. Part. Sci. 57:119-144, 2007, [arXiv:hep-th/0701050](https://arxiv.org/abs/hep-th/0701050)
 
 
 ### In string theory
