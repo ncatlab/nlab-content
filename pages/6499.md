@@ -35,7 +35,7 @@ Global analytic geometry
 The main aim of the theory is to define, using global analytic tools, a good Hodge theory for arithmetic varieties.
 
 ## Possible set of constraints
-for a [relaxed](http://en.wikipedia.org/wiki/Relaxation_(approximation)) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to better understand the motivations underlying the construction of global analytic spaces.
+for a [relaxed](http://en.wikipedia.org/wiki/Relaxation_(approximation)) approach to global Hodge theory: it is not an easy task to find a good set of constraints on such a [[global Hodge theory]], but they are useful to  understand better the motivations underlying the construction of global analytic spaces.
 
 1. having a good theory of linear coefficients on global analytic spaces,
 with the Grothendieck six operations. It seems that global analytic motivic
