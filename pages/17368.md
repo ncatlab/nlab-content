@@ -7,7 +7,7 @@
 Several big questions provide new angles on mathematics as an endeavor:
 
 * **[[discovery]]** What are the ways of figuring things out in mathematics? We can study mathematics as an activity by which we create and solve mathematical problems. These techniques are much more limited than the mathematical output which they generate.
-* **beauty** Mathematicians are guided by a sense of beauty. What is meant by beauty? What principles determine it? How does beauty lead to mathematical insight?
+* **[[beauty]]** Mathematicians are guided by a sense of beauty. What is meant by beauty? What principles determine it? How does beauty lead to mathematical insight?
 * **organization** How can mathematics be organized so as to survey the most basic concepts from which it arises and understand it in terms of its most fundamental divisions and how they relate to each other?
 * **education** What resources are available to mathematicians that would help them most effectively learn mathematics so as to try to understand it as a whole? How might mathematicians collaborate effectively in trying to understand the big picture? 
 * **insight** What are the most fruitful insights in trying to understand mathematics? How can such insights best be stated?
