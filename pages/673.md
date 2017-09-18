@@ -24,7 +24,7 @@ You may also find me on
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). Submitted for publication.
 
-* _The weak choice principle WISC may fail in the category of sets_, [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). To appear, _Studia Logica_.
+* _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) (2015) doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
 
 * _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Submitted for publication.
 
