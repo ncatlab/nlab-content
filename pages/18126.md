@@ -2825,6 +2825,7 @@ notes we will stick to this usage and never use "$(-)^{-1}$" to denote [[inverse
 ###### Definition
 **([[homeomorphisms]])**
 
+
 An [[isomorphism]] in the [[category]] [[Top]] (remark \ref{TopCategory})
 of [[topological spaces]] (def. \ref{TopologicalSpace}) with [[continuous functions]] between them (def. \ref{ContinuousMaps})
 is called a _[[homeomorphism]]_.
@@ -2871,6 +2872,26 @@ $$
 
 and say that the two topological spaces _are homeomorphic._
 
+A [[property]]/[[predicate]] $P$ of [[topological spaces]] which is [[invariant]] under homeomorphism in that 
+
+$$
+  \left(
+     (X, \tau_X)
+     \,
+       \simeq
+     \,
+     (Y,\tau_Y)
+  \right)   
+  \;\Rightarrow\;
+  \left(
+    P(X,\tau_X)
+     \,\Leftrightarrow\,
+    P(Y,\tau_Y)
+  \right)
+$$
+
+is called a _[[topological property]]_ or _topological invariant_.
+
 =--
 
 
@@ -2910,7 +2931,7 @@ The underlying function of sets of $f$ is a [[bijection]]. The [[inverse functio
 at $(1,0) \in S^1 \subset \mathbb{R}^2$. Hence this $f$ is _not_ a [[homeomorphism]].
 
 Indeed, below we see that the two topological spaces $[0,2\pi)$ and $S^1$ are distinguished by
-[[topological invariants]], meaning that they cannot be homeomorphic via any (other) choice of homeomorphism.
+[[topological invariants]], meaning that they cannot be homeomorphic via _any_ (other) choice of homeomorphism.
 For example $S^1$ is a [[compact topological space]]
 (def. \ref{CompactTopologicalSpace})
 while $[0,2\pi)$ is not, and $S^1$ has a non-trivial [[fundamental group]], while that of $[0,2\pi)$
@@ -3390,7 +3411,7 @@ if $n_1 = n_2$.
 
 One indication that [[topological invariance of dimension]] is not an _elementary_ consequence of the axioms of topological spaces
 is that a related "intuitively obvious" statement is in fact false: One might think that there is no
-_[[surjective function|surjective]]_ [[contiuous function]] $\mathbb{R}^{n_1} \to  \mathbb{R}^{n_2}$ if $n_1 \lt n_2$.
+_[[surjective function|surjective]]_ [[continuous function]] $\mathbb{R}^{n_1} \to  \mathbb{R}^{n_2}$ if $n_1 \lt n_2$.
 But there are: these are called the _[[Peano curves]]_.
 
 
@@ -3406,6 +3427,44 @@ The plain definition of _[[topological space]]_ ([above](#TopologicalSpaces)) ha
 
 The extreme class of examples of topological spaces in which the open subsets do not distinguish
 distinct underlying points, or in fact any distinct subsets, are the [[codiscrete spaces]] (example \ref{CoDiscreteTopology}).
+This does occur in practice:
+
++-- {: .num_example #RQuotientedByQ}
+###### Example
+**([[real numbers]] quotiented by [[rational numbers]])**
+
+Consider the [[real line]] $\mathbb{R}$ regarded
+as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology})
+and consider the [[equivalence relation]] $\sim$ on $\mathbb{R}$ which identifies two [[real numbers]] if they
+differ by a [[rational number]]:
+
+$$
+  \left(
+    x \sim y
+  \right)
+    \;\Leftrightarrow\;
+  \left(
+    \underset{p/q \in \mathbb{Q} \subset \mathbb{R}}{\exists}
+    \left(
+      x = y + p/q
+    \right)
+  \right)
+  \,.
+$$
+
+Then the [[quotient topological space]] (def. \ref{QuotientTopologicalSpace})
+
+$$
+  \mathbb{R}/\mathbb{Q}
+    \;\coloneqq\;
+  \mathbb{R}/\sim
+$$
+
+is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}),
+hence its topology does not distinguish any distinct proper subsets.
+
+=--
+
 Here are some less extreme examples:
 
 +-- {: .num_example #SierpinskiNonSeparated}
@@ -3490,41 +3549,6 @@ $$
 
 =--
 
-+-- {: .num_example #RQuotientedByQ}
-###### Example
-**([[real numbers]] quotiented by [[rational numbers]])**
-
-Consider the [[real line]] $\mathbb{R}$ regarded
-as the 1-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}) with its [[metric topology]] (example \ref{MetricTopology})
-and consider the [[equivalence relation]] $\sim$ on $\mathbb{R}$ which identifies two [[real numbers]] if they
-differ by a [[rational number]]:
-
-$$
-  \left(
-    x \sim y
-  \right)
-    \;\Leftrightarrow\;
-  \left(
-    \underset{p/q \in \mathbb{Q} \subset \mathbb{R}}{\exists}
-    \left(
-      x = y + p/q
-    \right)
-  \right)
-  \,.
-$$
-
-Then the [[quotient topological space]] (def. \ref{QuotientTopologicalSpace})
-
-$$
-  \mathbb{R}/\mathbb{Q}
-    \;\coloneqq\;
-  \mathbb{R}/\sim
-$$
-
-is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}),
-hence its topology does not distinguish any distinct proper subsets.
-
-=--
 
 In many applications one wants to exclude at least some such exotic examples
 of topologial spaces from the discussion and instead concentrate on those examples for which
@@ -3590,14 +3614,6 @@ A $T_0$-topological space is also called a _[[Kolmogorov space]]_.
 
 A $T_2$-topological space is also called a _[[Hausdorff topological space]]_.
 
-
-Notice that these propositions evidently imply each other as
-
-$$
-  T2 \Rightarrow T1 \Rightarrow T0
-  \,.
-$$
-
 For definiteness, we re-state these conditions formally. Write $x,y \in X$ for points in $X$, write $U_x, U_y \in \tau$ for open [[neighbourhoods]] of these points. Then:
 
 * **(T0**) $\underset{x \neq y}{\forall} \left(
@@ -3612,6 +3628,26 @@ For definiteness, we re-state these conditions formally. Write $x,y \in X$ for p
 
 =--
 
+The following is evident but important:
+
++-- {: .num_prop #TnImplications}
+###### Proposition
+**($T_n$ are topological properties of increasing strength)**
+
+The separation properties $T_n$ from def. \ref{HausdorffTopologicalSpace} are
+_[[topological properties]]_ in that if two topological spaces
+are [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) then 
+one of them satisfies $T_n$ precisely if the other does.
+
+Moreover, these properties imply each other as
+
+$$
+  T2 \Rightarrow T1 \Rightarrow T0
+  \,.
+$$
+
+
+=--
 
 
 +-- {: .num_example #TnCounter}
@@ -3624,7 +3660,7 @@ include
 
 1. the [[line with two origins]] (example \ref{LineWithTwoOrigins}),
 
-1. the [[quotient topological space]] $\mathbb{R}/\mathbb{R}$ (example \ref{RQuotientedByQ}).
+1. the [[quotient topological space]] $\mathbb{R}/\mathbb{Q}$ (example \ref{RQuotientedByQ}).
 
 
 =--
@@ -3677,7 +3713,7 @@ The conditions $T_0$, $T_1$ and $T_2$ have the following equivalent formulation 
 **($T_0$ in terms of topological closures)**
 
 A [[topological space]] $(X,\tau)$ is $T_0$ (def. \ref{HausdorffTopologicalSpace})
-precisely if the function $Cl(\{-\})$ that forms [[topolgical closures]] (def. \ref{ClosedSubset}) of [[singleton]] [[subsets]]
+precisely if the function $Cl(\{-\})$ that forms [[topological closures]] (def. \ref{ClosedSubset}) of [[singleton]] [[subsets]]
 from the underlying set of $X$ to the set of [[irreducible closed subsets]] of $X$ (def. \ref{ClosedIrreducible},
 which is well defined according to example \ref{IrreducibleClosureOfPoint}), is [[injective function|injective]]:
 
@@ -3972,6 +4008,51 @@ says that
      \,.
    $$
 
+Generally, an _[[adjoint functor|adjunction]]_ between two [[functors]]
+
+$$
+  L \;\colon\; \mathcal{C} \leftrightarrow \mathcal{D} \;\colon\; R
+$$
+
+is for all pairs of objects $c \in \mathcal{C}$, $d \in \mathcal{D}$ a [[bijection]] between sets of [[morphisms]] of the form
+
+$$
+  \left\{
+     L(c) \longrightarrow d
+  \right\}
+  \simeq
+  \left\{
+    c \longrightarrow R(d)
+  \right\}
+  \,.
+$$
+
+i.e.
+
+$$
+  Hom_{\mathcal{D}}(L(c), d)
+  \underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}
+  Hom_{\mathcal{C}}(c, R(d))
+$$
+
+and such that these bijections are "[[natural bijection|natural]]" in that they for all pairs of morphisms $f \colon c' \to c$ and $g \colon d \to d'$ then the folowing [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    Hom_{\mathcal{D}}(L(c), d)
+      &\underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}&
+    Hom_{\mathcal{C}}(c, R(d))
+    \\
+    {\mathllap{g \circ (-) \circ L(f)}}\downarrow
+       &&
+    \downarrow{\mathrlap{ R(g) \circ (-) \circ f }}
+    \\
+    Hom_{\mathcal{C}}(L(c'), d')
+     &\underoverset{\simeq}{\phi_{c',d'}}{\longrightarrow}&
+    Hom_{\mathcal{D}}(c', R(d'))
+  }
+  \,.
+$$
 
 =--
 
@@ -4027,12 +4108,12 @@ by definition they have the same image under all continuous surjective functions
 under $X \to f(X)$. This means that $\tilde f$ as above is well defined. 
 Moreover, it is clear that this is the unique factorization.
 
-To see that $\tilde f$ is continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[topological quotient space|quotient topology]], this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
+To see that $\tilde f$ is continuous, consider $U \in Y$ an open subset. We need to show that $\tilde f^{-1}(U)$ is open in $X/\sim$. But by definition of the [[quotient topological space|quotient topology]], this is open precisely if its pre-image under the quotient projection $t_n(X)$ is open, hence precisely if
 
 $$
-  (t_n(X))^{-1}(\tilde f^{-1}(U))
+  (t_n(X))^{-1} \left( \tilde f^{-1}\left(U\right)  \right)
   =
-  ( \tilde f \circ t_n(X) )^{-1}(U)
+  \left( \tilde f \circ t_n(X) \right)^{-1}(U)
   =
   f(U)
 $$
