@@ -89,6 +89,8 @@ Consider the two inclusions $even, odd \colon (\mathbb{Z},\lt ) \hookrightarrow 
 
 Both are adjoint to the operation of forming the $floor$ of the result of dividing by two, this is right adjoint to the inclusion of even numbers, and left adjoint to the inclusion of odd numbers.
 
+The adjoint modalities, $\Box \dashv \bigcirc$, are then the composites $\Box(n) \coloneqq 2 \cdot floor(n/2)$ and $\bigcirc (n) \coloneqq 2 \cdot floor(n/2) + 1$
+
 =--
 
 In the same vein there is an example for an adjunction of the form $\bigcirc \dashv \Box$:
@@ -109,6 +111,7 @@ $$
   Ceiling \dashv Floor
   \,.
 $$
+
 
 =--
 
