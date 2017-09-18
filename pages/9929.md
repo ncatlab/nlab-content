@@ -194,7 +194,9 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 
 ## References
 
-* {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 
 * {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
@@ -207,6 +209,8 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 See also the references at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_-.
 
 [[!redirects complex oriented cohomology theories]]
+
+[[!redirects complex oriented cohomology]]
 
 [[!redirects complex-oriented cohomology theory]]
 [[!redirects complex-oriented cohomology theories]]
