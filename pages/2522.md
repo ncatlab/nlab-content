@@ -281,6 +281,8 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 
 * {#Ellis13} [[John Ellis]], _Supersymmetric Fits after the Higgs Discovery and Implications for Model Building_ ([arXiv:1312.5426](http://arxiv.org/abs/1312.5426))
 
+* Pran Nath, _Supersymmetry after the Higgs_ ([arXiv:1501.01679](http://arxiv.org/abs/1501.01679))
+
 [[!redirects supersymmetries]]
 
 [[!redirects supersymmetry algebra]]
