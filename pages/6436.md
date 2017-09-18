@@ -427,3 +427,7 @@ More generally, the structure [[2-group]] of the background [[principal 2-bundle
 More such higher structure appears as one passes to the [[supergeometry]] analogs of the $\sigma$-models that we have considered so far: the [[superstring]]. The presence of the additional [[fermion]] fields that this brings with it (both on [[target space]] as well as on the [[worldsheet]]) influences all the structures that we have considered so far. For instance, a phenonemon called a fermionic [[quantum anomaly]] forces the above background [[circle n-bundle|circle 2-bundle]] to become a [[twisted cohomology|twisted 2-bundle]], where the twist is given by a [[fivebrane]] [[charge]] [[Chern-Simons circle 3-bundle]]. This is discussed in detail at _[[differential string structure]]_
 
 These are the first examples of a general phenomenon: as $n$ increases, a background gauge $n$-bundle with connection may constitute considerably more structure then one might naively expect from a generalization of the ordinary notion of a connection. More examples of this phenomenon arise when we allow our [[target space]]s to be general [[smooth ∞-groupoid]]s, below.
+
+## Related concepts
+
+* [[harmonic map]]
