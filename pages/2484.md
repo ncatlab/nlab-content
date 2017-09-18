@@ -1,6 +1,10 @@
-The concept of a **functor of points** as introduced and defined by Grothendieck is either the image of some geometric space by [[Yoneda embedding]] into the category of presheaves on some ambient category of geometric spaces or, better, its restriction to some subcategory of local models or nice spaces. In other words, the functor of points corresponding to a space is its corresponding representable presheaf, but the point of the concept is that nonrepresentable functors of points can be studied, as well as their relation to representables (for example, being prorepresentable).  
+## Idea
 
-In this approach the spaces are sheaves of sets in some *subcanonical* Grothendieck topology on the category of local models $Aff$. Not only spaces, but also additional structures on spaces (like group structure, equivariance, tangent bundle) are represented as presheaves of sets, of groups, of $O$-modules etc. on $Aff$.
+In [[algebraic geometry]], there are two equivalent ways of looking at a [[scheme]]: it can be viewed as a [[petit topos]] with a [[structure sheaf]] of [[commutative rings]] (i.e. [[locally ringed space]]), or as an object of the [[gros topos]] of [[sheaves]] on the [[site]] of [[commutative rings]] with the [[Zariski topology]]. In other words, a [[scheme]] may be identified with the [[sheaf]] it represents; this sheaf is called the _functor of points_ of the scheme.
+
+The functor of points approach has the advantage of making certain constructions much simpler (e.g. the [[fibered product]] in the category of schemes), and eliminating the need for certain constructions like the [[Zariski spectrum]]. In his famous 1973 Buffalo Colloquium talk, [[Alexander Grothendieck]] urged that his earlier definition of scheme via [[locally ringed spaces]] should be abandoned in favour of the functorial point of view.
+
+Of course, the above discussion generalizes to other types of [[geometry]] and even [[higher geometry]].
 
 ##Example
 
@@ -18,7 +22,14 @@ The functor which sends $R$ to the points of the projective space $\mathbb{P}^n_
 
 ## References
 
+* [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta, [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/FuncAlg.pdf).
+
+* [[Alexander Grothendieck]], _Introduction au langage fonctoriel_, course in Algiers in November 1965, lecture notes by [[Max Karoubi]], [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothAlgiers.pdf).
+
 * [[William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, posting to the mailing list _categories@mta.ca_, [gmane archive](http://permalink.gmane.org/gmane.science.mathematics.categories/2228).
+
+* [[Michel Demazure]], [[Pierre Gabriel]], _Introduction to algebraic geometry and algebraic groups_, North-Holland Mathematics Studies
+Volume 39 (1980).
 
 [[!redirects functors of points]]
 
