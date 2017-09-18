@@ -9,7 +9,7 @@
 =--
 =--
 
-#Contents#
+#Contents##
 * table of contents
 {:toc}
 
@@ -22,6 +22,7 @@ An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarr
 1. the underlying [[continuous function]] is an [[embedding of topological spaces]].
 
 ## Examples
+ {#Examples}
 
 +-- {: .num_example }
 ###### Counter-Example
@@ -31,7 +32,9 @@ An _embedding of smooth manifolds_ is a [[smooth function]] $f : X \hookrightarr
 <img src="https://ncatlab.org/nlab/files/Immersion.png" width="150">
 </div>
 
-Consider an [[immersion]] $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not a embedding of smooth manifolds: around the points where the image either crosses itself, or touches itself the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(0,1)$.
+Consider an immersion $f \;\colon\; (a,b) \to \mathbb{R}^2$ of an [[open interval]] into the [[Euclidean plane]] (or the [[2-sphere]]) as shown on the right. This is not a [[embedding of smooth manifolds]]: around the points where the image crosses itself, the function is not even injective, but even 
+at the points where it just touches itself, the pre-images under $f$ of open subsets of $\mathbb{R}^2$ do not exhaust the open subsets of $(a,b)$, hence do not yield the [[subspace topology]].
+
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="400">
@@ -47,9 +50,30 @@ As a concrete examples, consider the function  $(sin(2-), sin(-)) \;\colon\; (-\
 
 ## Properties
 
-### Whitney embedding theorem
+### Embedding into Euclidean space
+ {#EmbeddingIntoEuclideanSpace}
 
-Every [[smooth manifold]] (of finite [[dimension]], [[Hausdorff space|Hausdorff]] and [[second countable space|second countable]]) has an embedding into a [[Cartesian space]]. ([[Whitney embedding theorem]])
+It is easy to see that:
+
++-- {: .num_prop #ManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
+###### Proposition
+
+For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), there there exists some $k \in \mathbb{N}$ such that $X$ has an embedding into the [[Euclidean space]] of dimension $k$.
+
+=--
+
+What is harder to prove is that $k$ may be chosen to be as small as $2n$
+
++-- {: .num_prop #WhitneyStrongEmbeddingTheorem}
+###### Proposition
+**([[Whitney's strong embedding theorem]])**
+
+For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), has an embedding into the [[Euclidean space]] of dimension $2n$.
+
+In fact this bound is minimal, there are smooth manifolds of dimension $n$ which have no embdding into $\mathbb{R}^k$ for $k \lt 2n$.
+
+=--
+
 
 ## Space of Embeddings ##
 
@@ -163,7 +187,12 @@ At $t = 0$, $H_{t} = I$ which is an inclusion. For $t \ne 0$ then if $H_{t}(v) =
 Hence we can apply $H_{t}$ to $\Emb(M,V)$ to obtain a homotopy between the identity on $\Emb(M,V)$ and the inclusion of $\Emb(M,V)$ in itself as the subspace of all embeddings that lie in the even subspace.
 
 Now we pick some embedding $\psi _{0} \colon M \to V$ which, by applying $S^{-}$ if necessary, we assume to exist in the image of $S^{-}$. We define a homotopy $G_{t}$ on the embedding space by $G_{t}(\psi ) = t \psi _{0} + (1 - t) \psi $, using the additive structure in $V$. That this passes through the space of embeddings is clear since for $t \ne 1$ we can recover the embedding $\psi _{0}$ by composing with $S^{-}$. Combining $H_{t}$ and $G_{t}$ as homotopies leads to the desired contraction of the embedding space.
+
 =--
+
+## Related concepts
+
+* [[Whitney embedding theorem]], [[Nash embedding theorem]]
 
 ## References
 
@@ -174,11 +203,10 @@ Now we pick some embedding $\psi _{0} \colon M \to V$ which, by applying $S^{-}$
 
 * Rodolfo De Sapio, _Embedding $\pi$-manifolds_, Annals of mathematics, Second Series, Vol 82, No 2 ([jstor](http://www.jstor.org/pss/1970642))
 
+* [[Manifold Atlas]], _[Embeddings in Euclidean space: an introduction to their classification](http://www.map.mpim-bonn.mpg.de/Embeddings_in_Euclidean_space:_an_introduction_to_their_classification)_
+
+
 [[!redirects embeddings of smooth manifolds]]
 
 [[!redirects imbedding]]
 
-[[!redirects Whitney embedding theorem]]
-[[!redirects Whitney's embedding theorem]]
-[[!redirects Whitney imbedding theorem]]
-[[!redirects Whitney's imbedding theorem]]
