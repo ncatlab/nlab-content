@@ -141,7 +141,7 @@ $$
   \,,
 $$
 
-where the second map comes from the unit of $E_\infty$-rings $\mathbb{S} \to R$ (the sphere spectrum is the [[initial object]] in $E_\infty$-rings).
+where the second map comes from the unit of $E_\infty$-rings $\mathbb{S} \to R$ (the [[sphere spectrum]] is the [[initial object]] in $E_\infty$-rings).
 
 Specifically, for $V : X \to B O$  a [[vector bundle]], an $E$-orientation on it is a trivialization of the $R$-bundle associated to the associated [[Thom space]] sphere bundle, hence a trivialization of the morphism
 
