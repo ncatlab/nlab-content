@@ -129,6 +129,8 @@ which moroever is itself (continuously) homotopic to $\eta$ via some continuous 
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[smooth Serre-Swan theorem]]
+
 * [[derivations of smooth functions are vector fields]]
 
 
