@@ -591,6 +591,102 @@ Often it is convenient to define topologies by defining some (sub-)basis. An exa
 
 Here is some common **further terminology** relating to topological spaces:
 
+
++-- {: .num_defn #TopologyFinerCoarser}
+###### Definition
+**(finer/coarser topologies)**
+
+Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topological space|topologies]] on $X$,
+hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
+
+$$
+  \tau_1 \subset \tau_2
+$$
+
+hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then
+one says that
+
+* the topology $\tau_2$ is _[[finer topology|finer]]_ than the topology $\tau_2$
+
+* the topology $\tau_1$ is _[[coarser topology|corarser]]_ than the topology $\tau_1$.
+
+=--
+
+
+
+
+While the example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
+for the concept of [[topological spaces]], it is important to notice that the concept
+of topological spaces is considerably more general:
+
++-- {: .num_example #CoDiscreteTopology}
+###### Example
+**(discrete and co-discrete topology)**
+
+Let $S$ be any [[set]]. Then there are always the following two extreme
+possibilities of equipping $X$ with a topology $\tau \subset P(X)$ in the sense of
+def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
+
+1. $\tau \coloneq P(S)$ the set of _all_ open subsets;
+
+   this is called the _[[discrete topology]]_ on $S$, it is the [[finer topology|finest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
+
+   we write $Disc(S)$ for the resulting topological space;
+
+1. $\tau \coloneqq \{ \emptyset, S \}$ the set contaning only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
+
+   this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$
+
+   we write $CoDisc(S)$ for the resulting topological space.
+
+The reason for this terminology is best seen when considering [[continuous functions]] into these (co-)disctete topological spaces.
+See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
+
+=--
+
++-- {: .num_defn #TopologyCofinite}
+###### Definition
+
+Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]]
+(def. \ref{TopologicalSpace}) whose [[open subsets]] are precisely
+
+1. all [[cofinite subsets]];
+
+1. the [[empty set]].
+
+=--
+
+
++-- {: .num_example #SierpinskiSpace}
+###### Example
+
+On the 2-element set $\{0,1\}$ there are (up to [[permutation]] of elements) three distinct topologies:
+
+1. the _[[codiscrete topology]]_ (def. \ref{CoDiscreteTopology}) $\tau = \left\{   \emptyset, \{0,1\}  \right\}$;
+
+1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\} \{0,1\}  \right\}$;
+
+1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\}, \{0,1\}  \right\}$.
+
+=--
+
+
+
++-- {: .num_example}
+###### Example
+
+The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
+
+<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+=--
+
+
+
+#### Closed subsets
+
 +-- {: .num_defn #ClosedSubset}
 ###### Definition
 **(closed subsets)**
@@ -720,101 +816,6 @@ $$
 Under these equivalences, the two conditions are manifestly the same.
 
 =--
-
-
-
-+-- {: .num_defn #TopologyFinerCoarser}
-###### Definition
-**(finer/coarser topologies)**
-
-Let $X$ be a [[set]], and let $\tau_1, \tau_2 \in P(X)$ be two [[topological space|topologies]] on $X$,
-hence two choices of [[open subsets]] for $X$, making it a [[topological space]]. If
-
-$$
-  \tau_1 \subset \tau_2
-$$
-
-hence if every open subset of $X$ with respect to $\tau_1$ is also regarded as open by $\tau_2$, then
-one says that
-
-* the topology $\tau_2$ is _[[finer topology|finer]]_ than the topology $\tau_2$
-
-* the topology $\tau_1$ is _[[coarser topology|corarser]]_ than the topology $\tau_1$.
-
-=--
-
-
-
-
-While the example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
-for the concept of [[topological spaces]], it is important to notice that the concept
-of topological spaces is considerably more general:
-
-+-- {: .num_example #CoDiscreteTopology}
-###### Example
-**(discrete and co-discrete topology)**
-
-Let $S$ be any [[set]]. Then there are always the following two extreme
-possibilities of equipping $X$ with a topology $\tau \subset P(X)$ in the sense of
-def. \ref{TopologicalSpace}, and hence making it a [[topological space]]:
-
-1. $\tau \coloneq P(S)$ the set of _all_ open subsets;
-
-   this is called the _[[discrete topology]]_ on $S$, it is the [[finer topology|finest topology]] (def. \ref{TopologyFinerCoarser}) on $X$,
-
-   we write $Disc(S)$ for the resulting topological space;
-
-1. $\tau \coloneqq \{ \emptyset, S \}$ the set contaning only the [[empty set|empty]] subset of $S$ and all of $S$ itself;
-
-   this is called the _[[codiscrete topology]]_ on $S$, it is the [[coarser topology|coarsest topology]] (def. \ref{TopologyFinerCoarser}) on $X$
-
-   we write $CoDisc(S)$ for the resulting topological space.
-
-The reason for this terminology is best seen when considering [[continuous functions]] into these (co-)disctete topological spaces.
-See example \ref{ContinuousFunctionsIntoCoDiscreteTopologicalSpaces} below.
-
-=--
-
-+-- {: .num_defn #TopologyCofinite}
-###### Definition
-
-Given a [[set]] $X$, then the _[[cofinite topology]]_ or _finite complement topology_ on $X$ is the [[topological space|topology]]
-(def. \ref{TopologicalSpace}) whose [[open subsets]] are precisely
-
-1. all [[cofinite subsets]];
-
-1. the [[empty set]].
-
-=--
-
-
-+-- {: .num_example #SierpinskiSpace}
-###### Example
-
-On the 2-element set $\{0,1\}$ there are (up to [[permutation]] of elements) three distinct topologies:
-
-1. the _[[codiscrete topology]]_ (def. \ref{CoDiscreteTopology}) $\tau = \left\{   \emptyset, \{0,1\}  \right\}$;
-
-1. the _[[discrete topology]]_ (def. \ref{CoDiscreteTopology}), $\tau = \left\{   \emptyset, \{0\}, \{1\} \{0,1\}  \right\}$;
-
-1. the _[[Sierpinski space]]_ topology $\tau = \left\{\emptyset, \{1\}, \{0,1\}  \right\}$.
-
-=--
-
-
-
-+-- {: .num_example}
-###### Example
-
-The following shows all the topologies on the 3-element set (up to [[permutation]] of elements)
-
-<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
-
-> graphics grabbed from [Munkres 75](#Munkres75)
-
-=--
-
-
 
 
 
@@ -1809,7 +1810,7 @@ $$
 +-- {: .num_defn #CompactTopologicalSpace}
 ###### Definition
 
-A [[Hausdorff topological space|Hausdorff]] [[topological space]] $X$ (def. \ref{TopologicalSpace}) is
+A [[Hausdorff topological space|Hausdorff]] [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
  _[[compact topological space]]_ if every [[open cover]] $\{U_i \to X\}_{i \in I}$ (def. \ref{OpenCover}) has
  a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
  $\{U_i \to X\}_{i \in J}$ is still a cover of $X$, i.e.  $\underset{i \in J}{\cup} U_i = X$.
@@ -1877,12 +1878,14 @@ if
 
 $$
   \underset{ {\epsilon \in \mathbb{R}}  \atop {\epsilon \gt 0} }{\forall}
-  \;
+  \left(
   \underset{N_\epsilon \in \mathbb{N}}{\exists}
-  \;
+  \left(
   \underset{ {i \in \mathbb{N}} \atop {i \gt N_\epsilon} }{\forall}
-  \;\colon\;
+  \;
   d(x_i, y) \leq \epsilon
+  \right)
+  \right)
   \,.
 $$
 
@@ -1901,12 +1904,14 @@ is called a _[[Cauchy sequence]]_ if
 
 $$
   \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
-  \;
+  \left(
   \underset{N_\epsilon \in \mathbb{N}}{\exists}
-  \;
+  \left(
   \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
-  \;:\;
+  \;
   d(x_i, x_j) \leq \epsilon
+  \right)
+  \right)
   \,.
 $$
 
@@ -1918,7 +1923,7 @@ $$
 A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), for which every [[Cauchy sequence]] (def. \ref{CauchySequence})
 [[convergence|converges]] (def. \ref{Convergence}) is called a _[[complete metric space]]_.
 
-A [[normed vector space]], regarded as a metric space via prop. \ref{MetricSpaceFromNormedVectorSpace} that is
+A [[normed vector space]], regarded as a metric space via prop. \ref{MetricSpaceFromNormedVectorSpace} that 
 is complete in this sense is called a _[[Banach space]]_.
 
 =--
@@ -1927,11 +1932,11 @@ is complete in this sense is called a _[[Banach space]]_.
 ###### Definition
 
 A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) is called _[[sequentially compact space|sequentially compact]]_
-if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[convergence|converges]] (def. \ref{CIonvergence}).
+if every [[sequence]] in $X$ has a subsequence (def. \ref{Sequences}) which [[convergence|converges]] (def. \ref{Convergence}).
 
 =--
 
-The key fact to translate this [[epsilontic analysis|epsilontic]] definition of comopactness to a concept that
+The key fact to translate this [[epsilontic analysis|epsilontic]] definition of compactness to a concept that
 makes sense for general [[topological space]] is the following:
 
 +-- {: .num_prop}
@@ -1948,13 +1953,6 @@ For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equiva
 
 =--
 
-
-+-- {: .num_prop }
-###### Proposition
-
-A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
-
-=--
 
 
 +-- {: .num_prop }
