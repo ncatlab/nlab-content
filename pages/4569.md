@@ -27,7 +27,7 @@ Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\ot
 
 Then a [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2,\mu_2, \epsilon_2)$ between two ([[braided monoidal functor|braided]]) [[lax monoidal functors]] is a **monoidal natural transformation**, in that it is
 
-* a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
+* a [[natural transformation]] $f(x) \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
 
 compatible with the product and the unit in that the following [[commuting diagram|diagrams commute]] for all objects $x,y \in \mathcal{C}$:
 
