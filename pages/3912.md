@@ -300,6 +300,11 @@ See also
 
 * myyn.org (Planetmath) [Thom space](http://myyn.org/m/article/thom-space), [Thom class](http://myyn.org/m/article/thom-class), [Thom isomorphism theorem](http://myyn.org/m/article/thom-isomorphism-theorem)
 
+Formalization in [[homotopy type theory]] is discussed in
+
+* {#Brunerie16} [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_ ([arXiv:1606.05916](http://arxiv.org/abs/1606.05916))
+
+
 
 [[!redirects Thom isomorphisms]]
 
