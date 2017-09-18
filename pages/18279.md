@@ -77,6 +77,38 @@ But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumptio
 
 ## Examples
 
++-- {: .num_example #LocallyConnectedEuclideanSpace}
+###### Example
+**([[Euclidean space]] is locally connected)
+
+For $n \in \mathbb{N}$ the [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally connected.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By nature of the Euclidean metric topology, every neighbourhood $U_x$ of a point $x$ contains an [[open ball]] containing $x$. Moreover, every open ball clearly contains an open cube, hence a [[product space]] $\underset{i \in \{1, \cdots, n\}}{\prod} (x_i-\epsilon, x_i + \epsilon)$ of [[open intervals]] which is still a neighbourhood of $x$. 
+
+Now intervals are connected (by [this example](connected+space#ConnectedSubspacesOfRealLineAreTheIntervals)) and products of connected spaces are connected (by [this example](connected+space#ProductSpaceOfConnectedSpacesIsConnected)). This shows that ever open neighbourhood contains a connected neighbourhood.
+
+=--
+
++-- {: .num_prop #LocallyConnectedOpenSubspaceOfLocallyConnectedSpace}
+###### Proposition
+**([[open subset|open]] [[subspace]] of locally connected space is locally connected)**
+
+Every [[open subset|open]] [[subspace]] of a locally connected space is itself locally connected
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate from def. \ref{LocallyConnected}.
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 **Warning**
