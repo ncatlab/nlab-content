@@ -60,6 +60,12 @@ A first-order theory $T$ eliminates quantifiers if and only if it is substructur
 
 =--
 
++-- {: .proof}
+###### Proof
+
+See [[substructure complete theory]].
+
+=--
 
 +-- {: .num_theorem}
 ###### Theorem
