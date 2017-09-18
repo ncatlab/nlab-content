@@ -79,3 +79,5 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 [[!redirects continuous maps]]
 [[!redirects continuous function]]
 [[!redirects continuous functions]]
+
+[[!redirects continuity]]
