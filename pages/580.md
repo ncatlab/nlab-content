@@ -20,7 +20,9 @@ Despite the terminology, it is not necessarily true that an extremal epimorphism
 
 * Any [[regular epimorphism]] is strong, and hence extremal.  The converse is true if $C$ is [[regular category|regular]].
 
-* An [[image|image factorization]] of a morphism $f$ is, by definition, a factorization $f = m \circ e$ where $m$ is a [[monomorphism]] and $e$ is an extremal epimorphism.
+* An [[image|image factorization]][^1] of a morphism $f$ is, by definition, a factorization $f = m \circ e$ where $m$ is a [[monomorphism]] and $e$ is an extremal epimorphism. 
+
+[^1]: Under a default meaning of [[image]] that makes reference to the class $M$ of all monomorphisms. 
 
 Of course, the dual properties are all true of extremal monomorphisms.  (See [[coequalizer]], [[monomorphism]], [[strong monomorphism]], [[pushout]], [[regular monomorphism]], [[coregular category]], [[coimage factorization]], [[epimorphism]].)
 
