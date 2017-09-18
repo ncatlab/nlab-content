@@ -119,6 +119,8 @@ $$
 
 * for $\Sigma$ any  [[hyperbolic manifold]] of finite [[volume]] and of [[dimension]] $\geq 3$ (by [[Mostow rigidity theorem]]) (check)
 
+A review of results and relevant literature is also on the first page of ([Hass-Scott 92](#HassScott92))-
+
 ## Related concepts
 
 * [[diffeomorphism group]]
@@ -141,6 +143,7 @@ Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/20
 * {#Waldhausen68} [[Friedhelm Waldhausen]], _On Irreducible 3-Manifolds Which are Sufficiently Large_, Annals of Mathematics
 Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.org/stable/1970594))
 
+* {#HassScott92} Joel Hass, Peter Scott, _Homotopy equivalence and homeomoprhism of 3-manifolds_, Topology, Vol. 31, No. 3 (1992) pp. 493-517  ([pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/29969/0000331.pdf?sequence=1))
 
 [[!redirects diffeomorphisms]]
 [[!redirects diffeomorphic]]
