@@ -35,7 +35,7 @@ For details see _[[Introduction to Stable homotopy theory]]_, _[[Introduction to
 
 ### Postnikov tower
 
-The [[Postnikov tower in an (∞,1)-category|Postnikov tower]] of an $E_\infty$-ring is a sequence of [[square-zero extensions]] ([Lurie, section 8.4](#Lurie)).
+The [[Postnikov tower in an (∞,1)-category|Postnikov tower]] of a [[connective E-infinity-ring]] is a sequence of [[square-zero extensions]] ([Lurie, section 8.4](#Lurie)).
 
 
 ## Examples
