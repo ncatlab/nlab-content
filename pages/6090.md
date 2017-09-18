@@ -485,7 +485,7 @@ $$
 
 for the space of differential forms on the [[jet bundle]] of $E$ which locally are [[polynomials]]
 in the field variables (but not necessarily in the coordinates on $\Sigma$). In particular
-$\Omega_{poly}^{d,0}(E) \hookrightarrow \Omega^{d,0}(E)$ is the subspace of [[local Lagrangian densities]]
+$\Omega_{poly}^{p+1,0}(E) \hookrightarrow \Omega^{p+1,0}(E)$ is the subspace of [[local Lagrangian densities]]
 which locally depend polynomially on the fields and their derivatives.
 
 Write then
@@ -494,9 +494,11 @@ $$
   \mathcal{F}_{loc}
     \; \coloneqq \;
   \left(
-    C^\infty_c(\Sigma) \underset{\Omega_{poly}^{0,0}(E)}{\otimes} \Omega_{poly}^{d,0}(E)
+    C^\infty_c(\Sigma) \underset{\Omega_{poly}^{0,0}(E)}{\otimes} \Omega_{poly}^{p+1,0}(E)
   \right)/im(d_H)
 $$
+
+> should instead be using $\Omega^{p,0}/im(d_H)$ and evaluate on Cauchy surfaces...
 
 for the subspace of [[local Lagrangian densities]]
 which are [[compact support|compactly supported]] with respect to $\Sigma$ and [[polynomial]] with respect to the
@@ -1153,11 +1155,11 @@ see ([Collini 16, section 2.2](#Collini16)).
 
 We discuss here how [[time-ordered product]], and hence the perturbative S-matrix [above](#PerturbativeSMatrixAndTimeOrderedProducts),
 is uniquely determined away from the locus where interaction points coincide (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
-Moreover, we discuss how on that locus the time-ordered product is naturally expressed as a sum 
+Moreover, we discuss how on that locus the time-ordered product is naturally expressed as a sum
 of [[products of distributions]] of [[Feynman propagators]] that are labeled by [[Feynman diagrams]]: the _[[Feynman perturbation series]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
 
 This means that the full  [[time-ordered product]] is an [[extension of distributions]] of these
-_[[scattering amplitudes]]- to the locus of coinciding vertices. The space of possible such 
+_[[scattering amplitudes]]- to the locus of coinciding vertices. The space of possible such
 extensions turns out to be finite-dimensional in each order of $g/\hbar, j/\hbar$, parameterizing the choice of
 [[point-supported distributions]] at the interaction points whose [[degree of a distribution|scaling degree]]
 is bounded by the given Feynman propagators.
@@ -1354,7 +1356,7 @@ with disjoint support. It is immediate from the above that it is the unique solu
 **([[time-ordered product]] is [[associativity|assocativative]])**
 
 Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies in particular that the
-time-ordered product is [[associativity|associative]], in that 
+time-ordered product is [[associativity|associative]], in that
 
 $$
   T( T(V_1 \cdots V_{k_1}) \cdots T(V_{k_{n-1}+1} \cdots V_{k_n} ) )
@@ -1380,7 +1382,7 @@ extend [[product of distributions|products]] of Feynman propagators labeled by
 ###### Definition
 **([[scalar field]] [[Feynman diagram]])**
 
-A _[[scalar field]] [[Feynman diagram]]_ $\Gamma$ is 
+A _[[scalar field]] [[Feynman diagram]]_ $\Gamma$ is
 
 1. a [[natural number]] $v \in \mathcal{N}$ (number of [[vertices]]);
 
@@ -1404,7 +1406,7 @@ for set of scalar field Feynman diagrams with that tuple of vertices.
 
 
 For $v \in \mathbb{N}$ the $v$-fold
-[[time-ordered product]] away from the diagonal, 
+[[time-ordered product]] away from the diagonal,
 given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
 
 $$
@@ -1420,7 +1422,7 @@ is equal to
 $$
   T_k(V_1 \cdots V_v)
     \;=\;
-  prod 
+  prod
     \circ
   \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
   \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
@@ -1452,13 +1454,13 @@ $$
   \begin{aligned}
     T(V_1 \cdots V_v V_{v+1})
     & =
-    T( T(V_1 \cdots V_v) V_{v+1} ) 
+    T( T(V_1 \cdots V_v) V_{v+1} )
     \\
-    &= 
+    &=
     prod \circ
     \exp\left(
-      \left\langle 
-         \hbar \omega_F, \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi} 
+      \left\langle
+         \hbar \omega_F, \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi}
       \right\rangle
     \right)
     \left(
@@ -1495,10 +1497,10 @@ $$
       \underset{t \in \{1, \cdots v\}}{\prod}
       \tfrac{1}{e_{t,v+1} !}
     \left(
-      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \phi_{1}^{e_{1,v+1}}} 
-        \otimes 
+      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \phi_{1}^{e_{1,v+1}}}
+        \otimes
         \cdots
-        \otimes  
+        \otimes
       \frac{ \delta^{e_{v,v+1}} V_v}{ \delta \phi_{v}^{e_{v,v+1}} }
     \right)
     \;\otimes\;
@@ -1521,10 +1523,10 @@ $$
   \end{aligned}
 $$
 
-Here in the first step we use the [[associativity]] of the time-ordered product 
+Here in the first step we use the [[associativity]] of the time-ordered product
 (remark \ref{TimeOrderedProductAssociative}), in the second step we use the induction assumption,
 in the third we pass the outer functional derivatives through the pointwise product
-using the [[product rule]], and in the fourth step we recognize that this amounts to summing 
+using the [[product rule]], and in the fourth step we recognize that this amounts to summing
 in addition over all possible choices of sets of edges from the first $v$ vertices to the new $v+1$st vertex,
 which yield in total the sum over all diagrams with $v+1$ vertices.
 
