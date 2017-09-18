@@ -1,4 +1,20 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
 # Past and future
 * table of contents
 {: toc}
@@ -42,6 +58,8 @@ The operations $J^+$ and $J^-$ are (separately) [[Moore closures]] on the [[powe
 Sometimes one wants to remove $x$ itself from $J^+(x)$ and $J^-(x)$ (or more precisely, to include $x$ only in the case of a [[closed timelike curve]] through $x$).  However, the operations $J^+$ and $J^-$ are not quite as mathematically well-behaved in this case.  (Note that $J^+(A)$ may still intersect $A$, or even contain all of $A$, even in the absence of closed timelike curves.)
 
 ## Related concepts
+
+* [[future causal cone]], [[past causal cone]]
 
 * [[advanced propagator]], [[retarded propagator]]
 
