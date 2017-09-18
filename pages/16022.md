@@ -41,12 +41,10 @@ $$
 
 the corresponding [[closure operator]].
 
-Here the first inclusion exhibits a _dense subtopos_ and the second a _closed subtopos_.
+Here the first inclusion exhibits a [[dense subtopos]] and the second a [[closed subtopos]].
 
 ## References
 
 * {#Johnstone} [[Peter Johnstone]], around Lemma A 4.5.19 (p. 219) of _[[Sketches of an Elephant]]_
 
 * {#Caramello09} [[Olivia Caramello]], section 8 of _Lattices of theories_ ([arXiv:0905.0299](http://arxiv.org/abs/0905.0299))
-
-[[!redirects dense subtopos]].
