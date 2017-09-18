@@ -70,11 +70,16 @@ The [[forgetful functor]] from global stable homotopy theory to plain [[stable h
 
 * [[global equivariant sphere spectrum]]
 
+## Related concepts
+
+* [[global family]]
+
 ## References
 
 A comprehensive textbook account is in
 
 * {#Schwede13} [[Stefan Schwede]], _[[Global homotopy theory]]_
+
 Survey includes
 
 * {#Schwede15} [[Stefan Schwede]], _Equivariant bordism from the global perspective_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/glasgow-handout.pdf))
