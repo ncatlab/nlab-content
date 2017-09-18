@@ -1,0 +1,17 @@
+author: AnonymousCoward
+company: 
+title: selcan aksoy
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+selcan aksoy
+==============
+
+My First Slide
+-----------------
+
+Selcan Aksoy
