@@ -21,9 +21,10 @@ Given a [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}
 +-- {: .num_defn}
 ###### Definition
 
-A [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}$ between [[toposes]] is called **bounded** if there exists an [[object]]  $B \in \mathcal{E}$ -- called a **bound** of $f$ -- such that for every $A \in \mathcal{E}$ the following equivalent conditions hold:
+A [[geometric morphism]] $f = (f^*\dashv f_*) \colon \mathcal{E} \longrightarrow \mathcal{S}$ between [[toposes]] is called **bounded**, if any of the following three equivalent condition holds.
 
-* $A$ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \in \mathcal{S}$: this means that there exists a diagram
+* There exists an [[object]]  $B \in \mathcal{E}$ -- called a **bound** of $f$ -- such that every $A \in \mathcal{E}$ 
+is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \in \mathcal{S}$: this means that there exists a diagram
 
   $$
     \array{
@@ -36,9 +37,14 @@ A [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}$ betw
     \,.
   $$
 
-* (one more)
+* The [[gluing fibration]] $\partial_0 : \mathcal{E}/f^* : (\mathcal{E}/f^*)\to\mathcal{S}$ has a [[separating family]]
 
-* (yet one more)
+* The exists a $B\in\mathcal{E}$ such that for every $A\in\mathcal{E}$ the 
+composite
+$$
+f^*(f_*\tilde A^B)\times B\to \tilde A\times B\to \tilde A
+$$
+is epic, where $\tilde A$ is the [[partial map classifier]] of $A$.
 
 =--
 
