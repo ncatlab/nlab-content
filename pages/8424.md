@@ -25,6 +25,8 @@ Around every point of a [[Riemannian manifold]] there is a [[coordinate system]]
 
 * [[general covariance]]
 
+* [[Walker coordinates]]
+
 ## References
 
 * Wikipedia, _[Normal coordinates](http://en.wikipedia.org/wiki/Normal_coordinates)_
