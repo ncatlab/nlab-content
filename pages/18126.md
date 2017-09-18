@@ -17,7 +17,7 @@ used to transparently summarize some conceptually important aspects of the theor
 [[initial topology|initial]] and [[final topologies]] and the [[reflective subcategory|reflection]] into
 [[Hausdorff topological space|Hausdorff]] and [[sober topological spaces]].
 We close with discussion of the basics of [[topological manifolds]] and [[differentiable manifolds]],
-laying the foundations for [[differential geometry]].
+hence of _[[differential topology]]_, laying the foundations for _[[differential geometry]]_.
 
 $\,$
 
@@ -9899,7 +9899,7 @@ $$
 
 be a [[continuous function]] to the [[real numbers]] equipped with their [[Euclidean space|Euclidean]] [[metric topology]].
 
-Then $f$ attains is [[maximum]] and its [[minimum]] in that there exist $x_{min}, x_{max} \in C$ such that
+Then $f$ attains its [[maximum]] and its [[minimum]] in that there exist $x_{min}, x_{max} \in C$ such that
 
 $$
   f(x_{min}) \leq f(x) \leq f(x_{max})
@@ -16023,15 +16023,15 @@ with respect to this equivalence relation is called a _[[smooth structure]]_ on 
 
 $\,$
 
-Now w finally discuss **examples of manifolds**.
+Now we finally discuss **examples of manifolds**.
 
 +-- {: .num_example #DifferentiableManifoldCartesianSpace}
 ###### Example
 **([[Cartesian space]] as a [[smooth manifold]])
 
-For $n \in \mathbb{N}$ then the [[Cartesian space]] $\mathbb{R}^n$ equipped with the [[atlas]] consisting of the single [[chart]] 
+For $n \in \mathbb{N}$ then the [[Cartesian space]] $\mathbb{R}^n$ equipped with the [[atlas]] consisting of the single [[chart]]
 $$
-  \left\{ 
+  \left\{
      \mathbb{R}^n \overset{id}{\to} \mathbb{R}^n
   \right\}
 $$
@@ -16077,10 +16077,10 @@ The constructions in example \ref{DifferentiableManifoldCartesianSpace} and \ref
 define [[smooth structures]] (def. \ref{SmoothStructure}) on the [[topological spaces]]
 underlying the [[Euclidean spaces]] $\mathbb{R}^n$ and the [[n-spheres]] $S^n$.
 These are clearly the _standard smooth structures_ that are used by default whenever these
-spaces are used in [[differential geometry]], since the beginning of the topic in the work by 
+spaces are used in [[differential geometry]], since the beginning of the topic in the work by
 [Gauss 1827](differential+geometry#Gauss1827).
 
-But since being a _[[smooth manifold]]_ is _[[extra structure]]_ on a topological space
+But since being a [[smooth manifold]] is _[[extra structure]]_ on a topological space
 (as opposed to being a [[topological manifold]], which is just [[extra property]])
 it makes sense to ask whether $\mathbb{R}^n$ and $S^n$ admit _other_ [[smooth structures]]
 besides these standard ones.
@@ -16091,7 +16091,7 @@ In dimension $\leq 3$ there are no exotic smooth structures: Two smooth manifold
 of dimension $\leq 3$ are [[diffeomorphism|diffeomorphic]] (def. \ref{Diffeomorphism})
 as soon as their underlying [[topological space]] are [[homeomorphic]] (def. \ref{Homeomorphism}).
 
-For $n \in \mathbb{N}$ with $n \neq 4$ there is a _unique_ [[smooth structure]] on 
+For $n \in \mathbb{N}$ with $n \neq 4$ there is a _unique_ [[smooth structure]] on
 the [[Euclidean space]] $\mathbb{R}^n$ (the standard one from example \ref{DifferentiableManifoldCartesianSpace}).
 
 There are uncountably many exotic smooth structures on Euclidean 4-space $\mathbb{R}^4$.
@@ -16101,7 +16101,7 @@ For each $n \in \mathbb{N}$, $n \geq 5$ there is a [[finite set]] of smooth stru
 It is still unknown whether there is an exotic smooth structure on the [[4-sphere]] $S^4$.
 
 The only [[n-spheres]] with no exotic smooth structure in the range $5 \leq n \leq 61$ are
-$S^5$, $S^6$, $S^{12}$, $S^{56}$ and $S^{61}$. 
+$S^5$, $S^6$, $S^{12}$, $S^{56}$ and $S^{61}$.
 
 For more on all of this see at _[[exotic smooth structure]]_.
 
@@ -16111,7 +16111,7 @@ For more on all of this see at _[[exotic smooth structure]]_.
 ###### Example
 **([[open subsets]] of differentiable manifolds are again differentiable manifolds)**
 
-Let $X$ be a $k$-fold differentiable manifold and let $S \subset X$
+Let $X$ be a $k$-fold [[differentiable manifold]] (def. \ref{DifferentiableManifold}) and let $S \subset X$
 be an [[open subset]] of the underlying [[topological space]] $(X,\tau)$.
 
 Then $S$ carries the structure of a $k$-fold differentiable manifold such that the
@@ -16124,9 +16124,11 @@ inclusion map $S \hookrightarrow X$ is an [[open embedding|open]]
 ###### Proof
 
 
-Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] ([this prop.](topological+manifold#LocalPropertiesOfLocallyEuclideanSpace)) it is the [[disjoint union space]] of its [[connected components]] ([this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)).
+Since the underlying [[topological space]] of $X$ is [[locally connected topological space|locally connected]] (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}) it is the [[disjoint union space]] of its [[connected components]]
+(def. \ref{LocallyConnected}, lemma \ref{AlternativeCharacterizationOfLocalConnectivity}).
 
-Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]]. By [this prop](topological+manifold#RegularityConditionsForTopologicalManifoldsComparison) this implies that $X$ is [[second-countable topological space]].
+Therefore we are reduced to showing the statement for the case that $X$ has a single [[connected component]].
+By prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this implies that $X$ is [[second-countable topological space]].
 
 Now a [[subspace]] of a second-countable Hausdorff space is clearly itself second countable and Hausdorff.
 
@@ -16143,11 +16145,10 @@ Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold diffe
 
 For $n \in \mathbb{N}$, the [[general  linear group]] $Gl(n,\mathbb{R})$ (example \ref{GLn})
 is a [[smooth manifold]]
-(as an [[open subspace]] of [[Euclidean space]] $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R} \simeq \mathbb{R}^{(n^2)})$,
+(as an [[open subspace]] of [[Euclidean space]] $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$,
 via example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds} and example \ref{DifferentiableManifoldCartesianSpace}).
 
-The group operations are [[smooth functions]] with respect to this smooth manifold structure, and thus $GL(n,\mathbb{R})$
-is a _[[Lie group]]_.
+The group operations, being [[polynomial functions]], are clearly [[smooth functions]] with respect to this smooth manifold structure, and thus $GL(n,\mathbb{R})$ is a _[[Lie group]]_.
 
 =--
 
@@ -16256,7 +16257,7 @@ Equipped with the standard open cover of def. \ref{TopologicalProjectiveSpaceSta
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{ProjectiveSpaceOpenCoverIsAtlas} $k P^n$ is a [[locally Euclidean space]]. Moreover, $kP^n$ admits the structure of a [[CW-complex]] ([this prop.](real+projective+space#RealProjectiveSpaceCWComplex)
+By lemma \ref{ProjectiveSpaceOpenCoverIsAtlas} $k P^n$ is a [[locally Euclidean space]]. Moreover, $k P^n$ admits the structure of a [[CW-complex]] ([this prop.](real+projective+space#RealProjectiveSpaceCWComplex)
 and [this prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace))
 and therefore it is a [[paracompact Hausdorff space]] since [[CW-complexes are paracompact Hausdorff spaces]]. This means that it is a [[topological manifold]].
 
@@ -16264,6 +16265,7 @@ It remains to see that the [[gluing functions]] of this atlas are [[differentiab
 
 =--
 
+$\,$
 
 
 ### Tangent bundles
@@ -16278,23 +16280,34 @@ respect the [[infinitesimal analysis]] on [[Euclidean space]], they constitute a
 In particular a [[differentiable manifold]] has associated to each point a _[[tangent space]]_
 of [[vectors]] that linearly approximate the manifold in the [[infinitesimal neighbourhood]]
 of that point. The union of all these [[tangent spaces]] is called the _[[tangent bundle]]_
-of the [[differentiable manifold]].
+of the [[differentiable manifold]], an example of a [[topological vector bundle]].
 
-The tangent bundle, via the [[frame bundle]] that is [[associated bundle|associated]] to it
+The [[sections]] of a [[tangent bundle]] are therefore a choice of [[tangent vector]]
+for each point of a manifold, variying continuously or in fact diffrentiably. 
+Such a "field" of tangent vectors is called a _[[tangent vector field]]_. 
+
+One may think of this as specifying a direction along the manifold at each point,
+and accordingly tangent vector fields [[integration|integrate]] to [[groups]] of
+[[diffeomorphisms]] that "flow along them". Such [[flow of a vector field|flows]]
+of tangent vector fields are the basic tool in _[[differential topology]]_.
+
+
+Finally the tangent bundle, via the [[frame bundle]] that is [[associated bundle|associated]] to it,
 is the basis for all actual _[[geometry]]_: By equipping tangent bundles with
 ([[torsion of a G-structure|torsion-free]]) "[[G-structures]]"
 one encodes all sorts of flavors of geometry, such as [[Riemannian geometry]],
 [[conformal geometry]], [[complex geometry]], [[symplectic geometry]], and generally
-[[Cartan geometry]].
+[[Cartan geometry]]. This is the topic of [[differential geometry]] proper.
 
-
+$\,$
 
 +-- {: .num_defn #TangencyRelationOnSmoothCurves}
 ###### Definition
 **(tangency relation on differentiable curves)**
 
 
-Let $X$ be a [[differentiable manifold]] of [[dimension]] $n$ and let $x \in X$ be a point. On the set of [[smooth functions]] of the form
+Let $X$ be a [[differentiable manifold]] of [[dimension]] $n$ (def. \ref{DifferentiableManifold}) and 
+let $x \in X$ be a point. On the set of [[smooth functions]] of the form
 
 $$
   \gamma \;\colon\; \mathbb{R}^1 \longrightarrow X
@@ -16312,14 +16325,14 @@ $$
   (\gamma_1 \sim \gamma_2)
    \coloneqq
    \underset{
-      {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
+      {  { \mathbb{R}^n  \underoverset{}{\phi_i \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
       }{
         \exists
       }
    \left(
-      \frac{d}{d t}(\phi^{-1}\circ \gamma_1)(0)
+      \frac{d}{d t}(\phi_i^{-1}\circ \gamma_1)(0)
       =
-      \frac{d}{d t}(\phi^{-1}\circ \gamma_2)(0)
+      \frac{d}{d t}(\phi_i^{-1}\circ \gamma_2)(0)
    \right)
 $$
 
@@ -16329,14 +16342,14 @@ $$
   (\gamma_1 \sim' \gamma_2)
    \coloneqq
    \underset{
-      {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
+      {  { \mathbb{R}^n  \underoverset{}{\phi_i \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
       }{
         \forall
       }
    \left(
-      \frac{d}{d t}(\phi^{-1}\circ \gamma_1)(0)
+      \frac{d}{d t}(\phi_i^{-1}\circ \gamma_1)(0)
       =
-      \frac{d}{d t}(\phi^{-1}\circ \gamma_2)(0)
+      \frac{d}{d t}(\phi_i^{-1}\circ \gamma_2)(0)
    \right)
 $$
 
@@ -16355,9 +16368,9 @@ The two relations in def. \ref{TangencyRelationOnSmoothCurves} are [[equivalence
 +-- {: .proof}
 ###### Proof
 
-First to see that they conincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\psi}{\to} U_j \subset X$.
+First to see that they coincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\phi_j}{\to} U_j \subset X$.
 
-Write
+For brevity, write
 
 $$
   U_{i j} \coloneqq U_i \cap U_j
@@ -16375,57 +16388,57 @@ $$
 of $0 \in \mathbb{R}$ and consider the derivatives of the functions
 
 $$
-  \gamma_i^{\phi}
+  \gamma_n^i
   \;\coloneqq\;
-  (\phi\vert_{U_{i j}} \circ \gamma_i\vert_{V}) \;\colon\; V \longrightarrow \phi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  (\phi_i^{-1}\vert_{U_{i j}} \circ \gamma_n\vert_{V}) \;\colon\; V \longrightarrow \phi_i^{-1}(U_{i j}) \subset \mathbb{R}^n
 $$
 
 and
 
 $$
-  \gamma_i^{\psi}
+  \gamma_n^j
   \;\coloneqq\;
-  (\psi\vert_{U_{i j}} \circ \gamma_i \vert _{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  (\phi_j^{-1}\vert_{U_{i j}} \circ \gamma_n \vert _{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
   \,.
 $$
 
-But then by definition of the differentiable [[atlas]], there is the differentiable function
+But then by definition of the differentiable [[atlas]], there is the differentiable gluing function
 
 $$
   \alpha
   \;\coloneqq\;
-  \phi^{-1}(U_{i j})
-    \underoverset{\simeq}{\phi}{\longrightarrow}
+  \phi_i^{-1}(U_{i j})
+    \underoverset{\simeq}{\phi_i}{\longrightarrow}
   U_{i j}
-    \underoverset{\simeq}{\psi^{-1}}{\longrightarrow}
-  \psi^{-1}(U_i j)
+    \underoverset{\simeq}{\phi_j^{-1}}{\longrightarrow}
+  \phi_j^{-1}(U_{i j})
 $$
 
 such that
 
 
 $$
-  \gamma_i^\psi = \alpha \circ \gamma_i^\phi
+  \gamma_n^j = \alpha \circ \gamma_n^i
 $$
 
-for $i \in \{1,2\}$. The [[chain rule]] now relates the derivatives of these functions as
+for $n \in \{1,2\}$. The [[chain rule]] now relates the derivatives of these functions as
 
 $$
-  \frac{d}{d t} \gamma_i^\psi
+  \frac{d}{d t} \gamma_n^j
     \;=\;
-  (D \alpha) \circ \left(\frac{d}{d t} \gamma_i^\phi\right)
+  (D \alpha) \circ \left(\frac{d}{d t} \gamma_n^i  \right)
   \,.
 $$
 
-Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are linear isomorphisms, this says that the derivative of $\gamma_i^\phi$ is related to that of $\gamma_i^\psi$ by a linear isomorphism, and hence
+Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are linear isomorphisms, this says that the derivative of $\gamma_n^j$ is related to that of $\gamma_n^i$ by a linear isomorphism , and hence
 
 $$
   \left(
-   \frac{d}{d t}(\gamma_1)^\phi = \frac{d}{d t}(\gamma_2^\phi)
+   \frac{d}{d t} \gamma_1^i  = \frac{d}{d t} \gamma_2^i 
   \right)
     \;\Leftrightarrow\;
   \left(
-   \frac{d}{d t}(\gamma_1)^\psi = \frac{d}{d t}(\gamma_2^\psi)
+   \frac{d}{d t} \gamma_1^j = \frac{d}{d t} \gamma_2^\psi 
   \right)
   \,.
 $$
@@ -17033,59 +17046,12 @@ from the [[category]] [[Diff]] of [[differentiable manifolds]] to the category o
 Let $X$ be a [[differentiable manifold]] with differentiable tangent bundle $T X \to X$ (def. \ref{TangentBundle}).
 
 A differentiable [[section]] $v \colon X \to T X$ of the tangent bundle is called a (differentiable)
-_[[vector field]]_ on $X$.
+_[[vector field]]_ on $X$. We write $\Gamma(T X)$ for the [[real vector space]] of tangent vector fields on $X$. 
 
 
 =--
 
 
-+-- {: .num_remark #AlgebraicDefinition}
-###### Remark
-**([[derivations of smooth functions are vector fields]])**
-
-Let $X$ be a [[smooth manifold]] and write $C^\infty(X)$ for the [[associative algebra]] over the [[real numbers]]
-of  [[smooth functions]] $X \longrightarrow \mathbb{R}$.
-
-Then every smooth [[vector field]] $v \in \Gamma_X(T X)$ (def. \ref{VectorField}) induces a [[function]]
-
-
-$$
-  \partial_v
-    \;\colon\;
-  C^\infty(X) \longrightarrow C^\infty(X)
-$$
-
-by
-
-$$
-  \partial f \;\colon\; x \mapsto \frac{d}{d t} (f \circ \gamma_{v_x})_0
-$$
-
-where $\gamma_{v_x} \colon \mathbb{R}^1 \to X$ is a smooth curve which represents the [[tangent vector]] $v(x) \in T_x X$
-according to def. \ref{TangentVector}.
-
-The linearity of [[derivatives]] and the [[product rule]] of [[differentiation]]
-imply that this function $\partial_v$ is a [[derivation]] on the algebra of smooth functions. Hence there is a function
-
-$$
-  \array{
-    \Gamma_X(T X)
-      &\longrightarrow&
-    Def(C^\infty(X))
-    \\
-    v &\mapsto& \partial_v
-  }
-  \,.
-$$
-
-It turns out that this function is in fact a [[bijection]]: every derivation of the algebra of smooth functions
-on a smooth manifold arises uniquely from a smooth tangent vector in this way.
-
-For more on this see at _[[derivations of smooth functions are vector fields]]_.
-
-
-
-=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -17130,8 +17096,21 @@ $\,$
 ### Embeddings
  {#EmbeddingOfSmoothManifolds}
 
+An [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces}) in an inclusion
+of topological spaces such that the ambient topology induces the included one.
+An _[[embedding of smooth manifolds]]_ (def. \ref{SmoothManifoldsEmbedding} below) is similarly
+meant to be an an inclusion of [[smooth manifolds]], such that the also the ambient differential structure
+induces the included one. In order for this to be the case we need that the [[tangent spaces]]
+include into each other. This is the concept of an _[[immersion of differentiable manifolds]]_ (def. \ref{Immersion} below).
 
-+-- {: .num_defn}
+It turns out that every [[connected topological space|connected]] [[smooth manifold]]
+embeds this way into a [[Euclidean space]]. This means that every "abstract" smooth manifold
+may be thought of as a sub-manifold of Euclidean space. We state and prove the weakest form 
+of this statement (just for [[compact topological space|compact]] manifolds and without any bound
+on the dimension of the ambient Euclidean space) below as prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}.
+The strong form of this statement is famous as the _[[Whitney embedding theorem]]_ (remark \ref{EmbeddingWhitney} below).
+
++-- {: .num_defn #Immersion}
 ###### Definition
 **([[immersion of differentiable manifolds|immersion]] and [[submersion of differentiable manifolds]])
 
@@ -17204,12 +17183,16 @@ Let $X$ and $Y$ be [[smooth manifolds]], and let $f \colon X \to Y$ be a [[smoot
 ###### Proof
 
 Since topological manifolds are [[locally compact topological spaces]] (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace}),
-this follows directly since [[injective proper maps into locally compact spaces are equivalently closed embeddings]] by prop. \ref{InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}.
+this follows directly since [[injective proper maps to locally compact spaces are equivalently the closed embeddings]] by prop. \ref{InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}.
 
 =--
 
+
+Now we may state the simplest form of the embedding theorem for smooth manifolds:
+
 +-- {: .num_example #CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace}
 ###### Proposition
+**(weak embedding theorem)**
 
 For every [[compact topological space|compact]] [[smooth manifold]] $X$ (of [[finite number|finite]] [[dimension]]), there exists some $k \in \mathbb{N}$ such that $X$ has an embedding (def. \ref{SmoothManifoldsEmbedding}) into the [[Euclidean space]] of dimension $k$:
 
@@ -17297,7 +17280,19 @@ By [this prop](embedding+of+topological+spaces#OpenClosedContinuousInjectionsAre
 
 =--
 
++-- {: .num_remark #EmbeddingWhitney}
+###### Remark
+**([[Whitney embedding theorem]])**
 
+The _[[Whitney embedding theorem]]_ (which we do not prove here) strenghens the statement 
+of prop. \ref{CompactManifoldEmbedsIntoLargeDimensionalEuclideanSpace} in two crucucial ways:
+
+1. it applies to non-compact smooth manifolds with a countable set of connected components;
+
+1. it gives the upper bound of $2n$ on the dimension of the ambient Euclidean space (for embedding of $n$-dimensional manifolds)
+   which turns out to be the minimal ambient dimension such that all $n$-manifolds have an embedding.
+
+=--
 
 
 
