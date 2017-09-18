@@ -1,0 +1,14 @@
+
+## Idea
+
+[[integrability of G-structures]] requires a certain [[torsion]] to vanish.
+
+## Related concepts
+
+* [[torsion of a Cartan connection]]
+
+## References
+
+* [[Dominic Joyce]], section 2.6 of _Compact manifolds with special holonomy_, Oxford University Press 2000
+
+* Wikipedia, _[Torsion of a G-structure](https://en.wikipedia.org/wiki/G-structure#Torsion_of_a_G-structure)_
