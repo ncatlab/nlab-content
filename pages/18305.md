@@ -30,7 +30,7 @@ $$
   E = X \times k^n \overset{pr_1}{\longrightarrow} X
 $$
 
-with the [[topological vector space]] $k^n$, for some $n \in \mathbb{N}$.
+with the [[topological vector space]] $k^n$, for some $n \in \mathbb{N}$. For $n = 1$, one also speaks of a _trivial [[line bundle]]_.
 
 An [[isomorphism]] of vector bundles over $X$ of the form 
 
@@ -42,11 +42,24 @@ is called a _trivialization_ of $E$. If $E$ admits such an isomorphis, then it i
 
 [[!redirects trivial vector bundles]]
 
+[[!redirects trivial line bundle]]
+[[!redirects trivial line bundles]]
+
 [[!redirects trivial topological vector bundle]]
 [[!redirects trivial topological vector bundles]]
+
+[[!redirects trivial topological line bundle]]
+[[!redirects trivial topological line bundles]]
 
 [[!redirects trivializable vector bundle]]
 [[!redirects trivializable vector bundles]]
 
+[[!redirects trivializable line bundle]]
+[[!redirects trivializable line bundles]]
+
 [[!redirects trivializable topological vector bundle]]
 [[!redirects trivializable topological vector bundles]]
+
+[[!redirects trivializable topological line bundle]]
+[[!redirects trivializable topological line bundles]]
+
