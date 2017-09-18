@@ -40,6 +40,8 @@ Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 3.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+* [[Stefan Schwede]], chapter II, section 6 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
 See also
 
 * [[Friedrich Bauer]], _Classifying spectra for generalized homology theories_ Annali di Maternatica pura ed applicata
