@@ -25,6 +25,10 @@ In
 
 this result is interpreted physically as describing the [[moduli space]] of [[vacua]] of [[gauge theories]] with [[spontaneously broken symmetry]] ("Higgs branches"). See at _[[3d mirror symmetry]]_ for more on this.
 
+For application in [[string theory]] see at _[[KK-monopole]]_ and see
+
+* {#JohnsonMyers96} [[Clifford Johnson]], [[Robert Myers]], _Aspects of Type IIB Theory on ALE Spaces_, Phys.Rev. D55 (1997) 6382-6393 ([arXiv:hep-th/9610140](https://arxiv.org/abs/hep-th/9610140))
+
 [[!redirects ALE spaces]]
 
 [[!redirects asymptotically locally Euclidean space]]
