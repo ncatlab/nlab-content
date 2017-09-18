@@ -10,9 +10,19 @@
 
 ## Formalism
 
-The mathematics is perhaps cleanest using [[JBW-algebras]], that is [[Jordan algebra|Jordan]] [[W*-algebras]].  That is, ...
+The mathematics is perhaps cleanest using [[JBW-algebras]], that is [[Jordan algebra|Jordan]] [[W*-algebras]].  That is, we have:
 
-...
+* a [[Banach space]] $A$ whose elements are thought of as (bounded, real-valued) [[observables]],
+* a [[Banach space]] $A_*$ whose norm-$1$ elements are thought of ([[normal state|normal]], [[mixed state|mixed]]) [[states]],
+* with $A$ expressed as the [[dual Banach space|dual]] of $A_*$,
+* with a commutative (but [[nonassociative algebra|nonassociative]]) multiplication operation on $A$,
+* with the nonassociative [[Banach algebra]] $A$ satisfying a couple of technical conditions ([[formally real algebra|formal reality]] and the [[C*-identity]]).
+
+If the multiplication on $A$ happens to be [[associative algebra|associative]], then there exists a [[measure space]] $X$ such that $A_*$ is the [[Lebesgue space]] $L^1(X)$ and $A$ is $L^\infty(X)$.  It is always possible to take $X$ to be [[localizable measure space|localizable]], in which case the [[Radon--Nikodym theorem]] applies and we can identify $L^1(X)$ with the space of [[absolutely continuous measures]] on $X$.  At this point, the measure on $X$ is irrelevant except for its specification of [[full set|full]] (or [[null set|null]]) subsets, so we may treat $X$ as simply a [[localizable measurable space]] (which includes this data).  Then the choice of $X$ is actually [[the|essentially unique]].
+
+In this way, the associative case reduces to [[probability theory]].  We have a measurable space $X$, an observable is an [[essentially bounded function]], and a state is a [[probability measure]].  It is true that we only have localizable spaces, but these are the only ones that satisfy the nice theorems (such as Radon--Nikodym, aforementioned) anyway.  (Similarly, the observables are defined only up to [[almost equality]],and the states must be [[absolutely continuous measures]].)
+
+In the general (nonassociative) case, we still think of the elements of $A$ (the observables) as essentially bounded functions, but now on a sort of [[noncommutative geometry|noncommutative]] (or rather nonassociative) space, and we still think of the elements of $A_*$ (the states) as probability measures on that space.
 
 
 ## History
