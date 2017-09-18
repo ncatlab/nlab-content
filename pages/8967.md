@@ -81,6 +81,7 @@ $$
 
 ## References
 
-* [[Mark Weber]], "Polynomials in categories with pullbacks", [arXiv](http://arxiv.org/abs/1106.1983)
+* [[Mark Weber]], "Polynomials in categories with pullbacks", [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
+ {#Weber}
 
 [[!redirects distributivity pullbacks]]
