@@ -906,7 +906,63 @@ Every [[compact topological space|compact]] [[topological subspace|subspace]] of
 
 =--
 
-A proof is spelled out for instance in ([Hirschhorn 15, section 3.1](#Hirschhorn15)).
+(e.g. [Hirschhorn 15, section 3.1](#Hirschhorn15)).
+
++-- {: .proof}
+###### Proof
+
+So let $Y$ be a topological cell complex and $C \hookrightarrow Y$ a [[compact topological space|compact]] [[topological subspace|subspace]].
+
+Define a subset 
+
+$$
+  P \subset Y
+$$ 
+
+by _choosing_ one point in the [[interior]] of each cell of $Y$ that intersects $C$.
+
+It is now sufficient to show that $P$ has no [[accumulation point]]. Because, by the [[compact topological space|compactness]] of $X$ every non-finite subset of $C$ does have an accumulation point, and hence the lack of such shows that $P$ is a [[finite set]] and hence that $C$ intersects finitely many cells of $Y$.
+
+To that end, let $c\in C$ be any point. Write $e_c$ for the unique cell of $Y$ that contains $c$ in its [[interior]]. Since, by construction, there is exactly one point of $P$ in the interior of $e_c$ either $c$ equals that point, or else there is an [[open neighbourhood]] $c \in U_c \subset e_c$ containing no points of $P$.
+
+Hence it is now sufficient to show that $U_c$ may be enlarged to an open subset of $Y$ containing no point of $P$, except for possibly $c$ itself, for that means that $c$ is not an accumulation point of $P$.
+
+To that end, let $\alpha_c$ be the [[ordinal]] that labels the stage of the [[transfinite composition]] in the [[cell complex]]-presentation of $Y$ at which the cell $e_c$ above appears. Let $\gamma$ be the ordinal of the full cell complex. Then define the set
+
+$$
+  T 
+  \coloneqq
+  \left\{
+    (\beta, U)
+    \;|\;
+    \alpha \leq \beta \leq \gamma
+    \;\,,\;
+    U \subset_{open} Y_\beta
+    \;\,,\;
+    U \cap Y_\alpha = U_c
+    \;\,,\;
+    U \cap P \in \{ \emptyset, \{c\} \}
+  \right\}
+  \,.
+$$
+
+Regard this as a [[poset]] by declaring that 
+
+$$
+  (\beta_1, U_1) \lt (\beta_2, U_2)
+  \;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;
+  \beta_1 \lt \beta_2
+  \;\,,\;
+  U_2 \cap Y_{\beta_1} = U_1
+  \,.
+$$
+
+(...)
+
+=--
+
 
 +-- {: .num_lemma #AcyclicSerreFibrationsAreTheJTopFibrations}
 ###### Lemma
