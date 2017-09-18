@@ -68,7 +68,7 @@ The orginal article is
 
 A comprehensive textbook account is in 
 
-* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 Discussion of the [[model structure on symmetric spectra]] includes
 
