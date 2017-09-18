@@ -132,13 +132,13 @@ The reflector in that case is the [[sheafification]] functor.
 +-- {: .num_theorem}
 ######Theorem 
 
-If $X$ is a reflective subcategory of a [[cartesian closed category]], then it is an [[exponential ideal]] if and only if its [[reflector]] $D\to C$ preserves finite [[product]]s.
+If $X$ is a reflective subcategory of a [[cartesian closed category]], then it is an [[exponential ideal]] if and only if its [[reflector]] $D\to C$ preserves [[finite product]].
 
 In particular, $C$ is then also cartesian closed.  
 
 =--
 
-This appears for instance as ([Johnstone, A4.3.1](#Johnstone)).
+This appears for instance as ([Johnstone, A4.3.1](#Johnstone)). See also at _[[reflective subuniverse]]_.
 
 So in particular if $C$ is an exact reflective subcategory of a cartesian closed category $D$, then $C$ is an [[exponential ideal]] of $D$. 
 
