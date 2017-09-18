@@ -275,6 +275,17 @@ Regard this as equipped with the structure of a [[category of fibrant objects]] 
 +-- {: .num_remark}
 ###### Remark
 
+For our purpose the main use of this structure is to compute [[homotopy fibers]] via the [[factorization lemma]]. Namely 
+
+1. every chain map may be replaced, up to weak equivalence of its domain, by a fibration;
+
+1. the [[homotopy fiber]] of a chain map is the ordinary fiber of any of its fibration replacements.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 That the properties in def. \ref{FibrantOnjectStructureOnChSmooth} 
 are interpreted in sheaves simply means that they apply [[stalk]]-wise.
 For instance a morphism of chain complexes of presheaves
@@ -292,6 +303,7 @@ of that point. Similarly for epimorphisms.
 ###### Remark
 
 There is a canonical map of [[homotopy theories]] from $Ch_+(Smooth0Type)$ to the full [[(∞,1)-topos]] [[Smooth∞Grpd]] which is given by applying the [[Dold-Kan correspondence]] followed by [[∞-stackification]]. The key point is that this map preserves [[homotopy fiber products]], which is the [[universal construction]] that already captures most of the relevant properties of the Deligne complex. In this way it is sufficient to concentrate on $Ch_+(Smooth0Type)$ for much of the theory.
+
 
 =--
 
@@ -346,6 +358,7 @@ $$
 ###### Example
 
 There is a weak equivalence, def. \ref{FibrantOnjectStructureOnChSmooth},
+
 
 $$
   \left[\mathbb{Z}\to \mathbb{R} \right]
@@ -906,7 +919,7 @@ of def. \ref{InclusionOfGloballyDefinedConnectionForms} and of the curvature mor
 $$
   \array{
     \Omega^n(X)/im(\mathbf{d}) && \stackrel{\mathbf{d}}{\longrightarrow} &&
-    \Omega^{n+1}_{cl}
+    \Omega^{n+1}_{cl}(X)
     \\
     & \searrow && \nearrow_{\mathrlap{F_{(-)}}}
     \\
@@ -946,15 +959,8 @@ the statement is immediate.
 
 ### The exact sequences for curvature and DD-class
 
-We discuss how the Deligne [[cohomology groups]]
-$H^{n+1}_{conn}(X,\mathbb{Z})$
-constitute a [[group extension]] 
 
-1. of integral [[ordinary cohomology]] by differential $n$-forms modula integral forms;
-
-1. of closed $(n+1)$-forms by $U(1)$-valued ordinary cohomology.
-
-+-- {: .num_pro}
++-- {: .num_prop #CurvatureAndClassShortExactSequences}
 ###### Proposition
 
 There are [[short exact sequences]]: the 
@@ -977,7 +983,7 @@ and the **characteristic class exact sequence**
 $$
   0
   \to
-  \Omega^{n}(X)/Omega^n_{int}(X)
+  \Omega^{n}(X)/\Omega^n_{int}(X)
   \stackrel{}{\longrightarrow}
   H^{n+1}_{conn}(X,\mathbb{Z})
   \stackrel{DD}{\longrightarrow}
@@ -1016,6 +1022,55 @@ $$
 Form the above it follows that the rightmost morphism is an [[epimorphism]]. Hence we get a short exact sequence by dividing out the image of $H^n(X,\mathbb{Z})$ in $\Omega^n/im(\mathbf{d})$. That image is $\Omega^n_{int}(X)$. Since this includes $im(\mathbf{d})$ the resulting quotient is $\Omega^n(X)/Omega^n_{in}(X)$ and the claim follows.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+In words the statement of prop. \ref{CurvatureAndClassShortExactSequences}
+is that Deligne [[cohomology groups]]
+$H^{n+1}_{conn}(X,\mathbb{Z})$
+constitute a [[group extension]] 
+
+1. of integral [[ordinary cohomology]] by differential $n$-forms modulo integral forms;
+
+1. of closed $(n+1)$-forms by $U(1)$-valued ordinary cohomology.
+
+The first statement is what gives the name to "[[differential cohomology]]" as it makes precise how $H^{n+1}_{conn}(X)$ is a combination of ordinary integral cohomology with _[[differential form]]_-data.
+
+The second statement is secretly of the same flavor, if maybe not as manifestly so: the $U(1)$-valued ordinary cohomology is really what classifies _[[flat infinity-connections|flat]]_ [[circle n-connections]] on [[circle n-group]] [[principal infinity-bundles]] (either, depending on perspective, by def. \ref{FlatSmoothDeligneComplex} or else, more intrinsically, by the very statement of prop. \ref{CurvatureAndClassShortExactSequences}) and hence again describes a combination of underlying bundles with differential form data.
+
+=--
+
+$$
+  \array{
+    \mathbb{Z} &\stackrel{}{\hookrightarrow}& \mathbb{R}
+    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^1  &\stackrel{\mathbf{d}}{\to}&
+    \cdots
+    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^{n-1}
+    &\stackrel{\mathbf{d}}{\to}& \mathbf{\Omega}^n
+    \\
+    \oplus 
+    &\nearrow_{\mathrlap{id}}& 
+    \oplus 
+    &\nearrow_{\mathrlap{id}}& 
+    \oplus
+    &\nearrow_{\mathrlap{id}}&
+    \cdots
+    &\nearrow_{\mathrlap{id}}&
+    \oplus
+    &\nearrow_{\mathrlap{id}}&
+    \oplus
+    \\
+    \mathbb{R} &\underset{\mathbf{d}}{\to}& \mathbf{\Omega}^1
+    &\underset{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^2 &\underset{\mathbf{d}}{\to}& \cdots
+    &\underset{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n}
+    &\underset{\mathbf{d}}{\to}&
+    \mathbf{\Omega}^{n+1}_{cl}
+  }
+$$
+
 
 ### The exact differential cohomology hexagon
 
