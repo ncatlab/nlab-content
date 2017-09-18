@@ -32,7 +32,7 @@ This is the [[homotopy limit]] over copies $KO \wedge \{1, q, \cdots, q^n\}_+$ o
 
 ### Relation to the Witten genus
 
-The [[elliptic genus]] associated with the Tate curve is, according to the [above](#RelationToComplexKTheory) a [[formal power series]] of [[K-theory]] classes. This is the _[[Witten genus]]_ ([Hopkins 94](#Hopkins94)).
+The [[elliptic genus]] associated with the Tate curve is, according to the [above](#RelationToComplexKTheory), a [[formal power series]] of [[K-theory]] classes. This is the _[[Witten genus]]_ ([Hopkins 94](#Hopkins94)).
 
 Physically, Witten obtained this as the [[partition function]] of the [[heterotic string]] in [[perturbation theory]] about configurations where all the [[worldsheet]] sits in a single point of [[target space]]. This limiting case of the [[worldsheet]] is the Tate curve.
 
