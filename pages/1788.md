@@ -1,5 +1,24 @@
 
 
-Sand.
-
-[[KeplerPlatonic.jpg:file]]
+$$
+  \array{
+     \cdots 
+       &\stackrel{}{\longrightarrow}& 
+     \mathcal{D}^{3,\bullet} 
+       &\stackrel{i_3}{\longrightarrow}& 
+     \mathcal{D}^{2,\bullet} 
+       &\stackrel{i_2}{\longrightarrow} & 
+     \mathcal{D}^{1,\bullet} 
+       &\stackrel{i_1}{\longrightarrow}& 
+     \mathcal{D}^{0,\bullet}
+     \\
+     && 
+     \downarrow^{\mathrlap{}}  &{}_{\mathllap{k_2}} \nwarrow & 
+     \downarrow^{\mathrlap{j_2}} &{}_{\mathllap{k_1}}\nwarrow &
+     \downarrow^{\mathrlap{j_1}} &{}_{\mathllap{k_0}}\nwarrow
+     & \downarrow^{\mathrlap{j_0}}
+     \\
+     && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
+     && \mathcal{E}^{1,\bullet} && \mathcal{E}^{0,\bullet}
+   }
+$$
