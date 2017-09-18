@@ -192,9 +192,13 @@ The related subject of positive energy representations for loop groups is repres
 ## Other reference lists
 
 * [http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References](http://en.wikibooks.org/wiki/Introduction_to_Mathematical_Physics/References) (that list has mostly references in the area of theoretical physics and just a minority with rigor of mainstream mathematical physics)
+
 * [www.stringwiki.org](http://www.stringwiki.org/w/index.php?title=String_Theory_Wiki)
 -- wiki contains entries on several dozens of string theory related topics, where each entry has several references, mainly papers available online
+
 * [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]], Proceedings of Symposia in Pure Mathematics __83__, Amer. Math. Soc. (2011)
+
+* MathOverflow discussion: _[Companion to theoretical physics for working mathematicians](http://mathoverflow.net/questions/191609/companion-to-theoretical-physics-for-working-mathematicians)_
 
 * reference list of Movshev's sunysb [course on QM](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)
 
