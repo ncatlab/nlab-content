@@ -128,7 +128,7 @@ As [[symmetric spectra]]
 
 * {#Schwede12} [[Stefan Schwede]], Example I.1.14 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
-* [[John Greenlees]], example 3.6, example 4.16 in _Spectra for commutative algebraists_ ([](http://www.math.uic.edu/~bshipley/greenlees.SpectraMSRI.pdf))
+* [[John Greenlees]], example 3.6, example 4.16 in _Spectra for commutative algebraists_ ([pdf](http://www.math.uic.edu/~bshipley/greenlees.SpectraMSRI.pdf))
 
 
 
