@@ -1,0 +1,9 @@
+
+
+[[!include ADE -- table]]
+
+## References
+
+* Wikipedia, _[Tetrahedral symmetry](https://en.wikipedia.org/wiki/Tetrahedral_symmetry)_
+
+[[!redirects tetrahedral groups]]
