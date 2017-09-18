@@ -33,11 +33,11 @@ The conditions required of these relations are given below in the Definitions.  
 
 In [[classical mathematics]], these relations are all interdefinable:
 
-*  $A \;\delta\; B \;\iff\; \neg(A \bowtie B) \;\iff\; \neg(A \ll B')$;
-*  $A \bowtie B \;\iff\; \neg(A \;\delta\; B) \;\iff\; A \ll B'$;
-*  $A \ll B \;\iff\; \neg(A \;\delta\; B') \;\iff\; A \bowtie B'$.
+*  $A \;\delta\; B \;\iff\; \neg(A \bowtie B) \;\iff\; \neg(A \ll B^{\mathsf{c}})$;
+*  $A \bowtie B \;\iff\; \neg(A \;\delta\; B) \;\iff\; A \ll B^{\mathsf{c}}$;
+*  $A \ll B \;\iff\; \neg(A \;\delta\; B^{\mathsf{c}}) \;\iff\; A \bowtie B^{\mathsf{c}}$.
 
-(Here, $\neg$ indicates [[negation]] of truth values, while $B'$ is the [[complement]] of $B$ in $X$.)
+(Here, $\neg$ indicates [[negation]] of truth values, while $B^{\mathsf{c}}$ is the [[complement]] of $B$ in $X$, i.e. $X\setminus B$.)
 
 In [[constructive mathematics]], any one of these relations may be taken as primary and the others defined using it; thus we distinguish, constructively, between a __set--set nearness space__, a __set--set apartness space__, and a __set--set neighbourhood space__.
 
@@ -56,17 +56,19 @@ From the previous section, we have a [[set]] $X$ and we are discussing [[binary 
 | Additivity (right, binary) | If $A \;\delta\; B \cup C$, then $A \;\delta\; B$ or $A \;\delta\; C$ | If $A \bowtie B$ and $A \bowtie C$, then $A \bowtie B \cup C$ | If $A \ll B$ and $A \ll C$, then $A \ll B \cap C$ |
 | Reflexivity (general) | If $A$ meets $B$ (their [[intersection]] is [[inhabited subset|inhabited]]), then $A \;\delta\; B$ | If $A \bowtie B$, then $A$ and $B$ are [[disjoint set|disjoint]] | If $A \ll B$, then $A \subseteq B$ |
 | Reflexivity (for singletons) | $\{x\} \;\delta\; \{x\}$ | It is false that $\{x\} \bowtie \{x\}$ | If $\{x\} \ll A$, then $x \in A$ |
-| Transitivity (constructive) | If for every $D, E \subseteq X$ such that $D \cup E = X$, either $A \;\delta\; D$ or $E \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D, E \subseteq X$ such that $D \cup E = X$, both $A \bowtie D$ and $E \bowtie B$ | If $A \ll B$, then for some $D, E \subseteq X$ such that $D \subseteq E$, both $A \ll D$ and $E \ll B$ |
-| Transitivity (simplified) | If for every $D \subseteq X$, either $A \;\delta\; D$ or $D' \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D$ and $D' \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ |
-| Symmetry (constructive) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | If $A \ll B$, $A \cup C = X$, and $B \cap D = \empty$, then $D \ll C$ |
-| Symmetry (simplified) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B' \ll A'$ |
+| Transitivity | If for every $D \subseteq X$, either $A \;\delta\; D^{\mathsf{c}}$ or $D \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D^{\mathsf{c}}$ and $D \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ |
+| Symmetry (weak) | if $A \;\delta\; B$ then $B \;\delta\; A$ | if $A \bowtie B$ then $B \bowtie A$ | if $A \ll B$ then $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ |
+| Symmetry (strong) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ |
+| Regularity | If for all $C$ and $D$ such that $B^{\mathsf{c}}\cup C = X$, either $\{x\} \;\delta\; D$ or $D^{\mathsf{c}}\;\delta\; C$, then $\{x\}\;\delta\; B$ | If $\{x\}\bowtie B$, then for some $C$ and $D$, $C\bowtie D^{\mathsf{c}}$, $B^{\mathsf{c}}\cup C = X$, and $\{x\} \bowtie D$ | If $\{x\}\ll A$, then for some $C$ and $D$, $C\ll D$, $A\cup C = X$, and $\{x\}\ll D^{\mathsf{c}}$ |
 | Separation | If $\{x\} \delta \{y\}$, then $x = y$ | Unless $\{x\} \bowtie \{y\}$, then $x = y$ | $x = y$ if, for all $A$, $y \in A$ whenever $\{x\} \ll A$ |
 | Perfection (left) | If $A \;\delta\; B$, then $\{x\} \;\delta\; B$ for some $x \in A$ | $A \bowtie B$ if $\{x\} \bowtie B$ for all $x \in A$ | $A \ll B$ if $\{x\} \ll B$ for all $x \in A$ |
-| Perfection (right) | If $A \;\delta\; B$, then $A \;\delta\; \{y\}$ for some $y \in B$ | If $A \bowtie \{y\}$ for all $y \in B$, then $A \bowtie B$ | If (for all $y$) $y \in B$ if (for all $C$) $y \in C$ if $A \ll C$, then $A \ll B$ |
+| Perfection (right) | If $A \;\delta\; B$, then $A \;\delta\; \{y\}$ for some $y \in B$ | If $A \bowtie \{y\}$ for all $y \in B$, then $A \bowtie B$ | If $A \ll C_i$ for all $i$, then $A \ll \bigcap_i C_i$ |
 
-When both left and right rules are shown, we only need one of them if we have Symmetry, but we need both if we lack Symmetry (or if we are using proximal neighbourhoods in constructive mathematics).  Even so, Isotony is usually given on both sides, since it is convenient to combine both directions into a single statement.  On the other hand, Isotony is equivalent to the converse of binary Additivity, so sometimes these are combined instead (so Isotony does not explicitly appear), usually on only one side when Symmetry is used.
+When both left and right rules are shown, we only need one of them if we have Symmetry, but we need both if we lack Symmetry (or if we are using proximal neighbourhoods in constructive mathematics; see below).  Even so, Isotony is usually given on both sides, since it is convenient to combine both directions into a single statement.  On the other hand, Isotony is equivalent to the converse of binary Additivity, so sometimes these are combined instead (so Isotony does not explicitly appear), usually on only one side when Symmetry is used.
 
-Whether made explicit or not, Isotony is very fundamental, and it is what allows the axioms after Additivity to be written in different forms.  In particular, we need Reflexivity only for singletons, although this is often not done (to avoid mentioning points).  Similarly, we usually simplify Transitivity as shown (although this is appropriate for constructive mathematics only when defining neighbourhood spaces).  In the same vein, Symmetry for proximal neighbourhoods is usually given in the simplified form (although now that is not appropriate for constructive mathematics).
+Whether made explicit or not, Isotony is very fundamental.  In particular, it allows us to assert Reflexivity only for singletons, although this is often not done (to avoid mentioning points).
+
+The weak Symmetry axioms immediately imply the strong versions, except for the case of proximal neighborhoods in constructive mathematics.  In that case, the strong version seem genuinely stronger; for instance, it is unclear how to prove it for a uniform space that is not [[uniformly regular space|uniformly regular]].  Regularity also follows from Symmetry and Transitivity in classical mathematics (in the neighborhood version, let $\{x\} \ll B \ll A$ and take $C = A^{\mathsf{c}}$ and $D = B^{\mathsf{c}}$), but in constructive mathematics it seems like a stronger statement.
 
 A __topogeny__ is a relation that satisfies both forms of Isotony and all four forms of Additivity.  A __quasiproximity__ is a topogeny that also satisfies Reflexivity and Transitivity.  A topogeny (or quasiproximity) is __symmetric__ if it satisfies Symmetry; a __proximity__ is a symmetric quasiproximity.  A topogeny or (quasi)-proximity is __separated__ if it satisfies Separation.  A topogeny or quasiproximity is __perfect__ if it satisfies left Perfection, __coperfect__ if it satisfies right Perfection, and __biperfect__ if it satisfies both; a proximity (or a symmetric topogeny) is usually called simply __perfect__ if it satisfies any form of Perfection, because then it must satisfy both (except in constructive mathematics using proximal neighbourhoods).
 
