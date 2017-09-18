@@ -154,6 +154,8 @@ For generalizations of $Rel$ see
 
 * [[bicategory of relations]]
 
+* [[Prof]]
+
 
 ## References ##
 
