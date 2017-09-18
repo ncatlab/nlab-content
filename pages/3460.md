@@ -116,6 +116,7 @@ There are further generalizations, leading to [[separable functor|separable func
 * K. Hirata, K. Sugano, _On semisimple and separable extensions of noncommutative rings_, J. Math. Soc. Japan 18 (1966), 360-373.
 
 An explicit proof of the Grothendieck Galois theory statement that the category of separable algebras over a field $K$ is anti-equivalent to the category of continuous actions on finite sets of the profinite fundamental group of $K$:
+
 * Federico G. Lastaria, _On separable algebras in Grothendieck Galois theory_, Le Mathematiche 51:3, 1996, [link](http://www.dmi.unict.it/ojs/index.php/lematematiche/article/view/464/0)
 
 [[!redirects separable algebras]]
