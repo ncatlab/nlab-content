@@ -196,6 +196,7 @@ from the $G$-principal bundles with connection to [[ordinary differential cohomo
      (U,[n]) \mapsto \{\Omega^\bullet(U\times \Delta^n) \leftarrow CE(\mathfrak{g})\}
    $$
 
+
    (see [[Lie integration]]);
 
 1. the observation that, up to subtleties with the truncation, a [[Lie algebra cohomology|Lie algebra cocycle]] 
@@ -632,7 +633,7 @@ $$
 on which the pullback of the multiplicative structure on $\mathcal{G}$ induces the structure of a bundle 2-gerbe, in that we get morphisms of bundle gerbes
 
 $$
-  \mu : \pi_0^* f^* \mathcal{G} \otimes \pi_2^* f^* \mathcal \to \pi_2^* f^* \mathcal{G}
+  \mu : \pi_0^{\ast} f^{\ast} \mathcal{G} \otimes \pi_2^{\ast} f^{\ast} \mathcal{G} \to \pi_2^* f^* \mathcal{G}
 $$
 
 that are associative up to a higher coherent morphisms, etc.
