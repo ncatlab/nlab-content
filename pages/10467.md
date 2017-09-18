@@ -81,7 +81,7 @@ Survey includes
 
 Original articles are
 
-* L. G. Lewis, Jr., [[Peter May]], M. Steinberger, chapter II of _Equivariant stable homotopy theory_. Lecture Notes in Mathematics, 1213, Springer-Verlag, 1986
+* [[L. Gaunce Lewis]], Jr., [[Peter May]], M. Steinberger, chapter II of _Equivariant stable homotopy theory_. Lecture Notes in Mathematics, 1213, Springer-Verlag, 1986
 
 * [[John Greenlees]], [[Peter May]], section 5 of _Localization and completion theorems for $MU$-module spectra_ Ann. of Math. (2) 146 (1997), 509-544.
 
