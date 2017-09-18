@@ -146,6 +146,8 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 
 ## References
 
+Named after [[Henri Lebesgue]].
+
 * W. Rudin, _Functional analysis_, McGraw Hill 1991.
 
 * L. C. Evans, _Partial differential equations_, Amer. Math. Soc. 1998.
