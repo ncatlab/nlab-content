@@ -58,3 +58,6 @@ Named after [[Oskar Klein]] and [[Walter Gordon]].
 
 [[!redirects Klein-Gordon equations]]
 
+[[!redirects Klein-Gordon operator]]
+[[!redirects Klein-Gordon operators]]
+
