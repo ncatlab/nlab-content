@@ -26,7 +26,7 @@ A [[compact subspace]] $K$ of a [[Hausdorff topological space]] $X$ is a [[close
 +-- {: .proof}
 ###### Proof
 
-Let $x \in X \backslash K$ be any point of $X$ not contained in $K$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $X$.
+Let $x \in X \backslash K$ be any point of $X$ not contained in $K$. We need to show that there exists an [[open neighbourhood]] of $x$ in $X$ which does not [[intersection|intersect]] $K$.
 
 By assumption that $X$ is Hausdorff, there exist for each $y \in K$ disjoint open neighbourhoods $y \subset U_y \subset X$ and $x \subset V_y \subset X$. Clearly the [[union]] of all the $U_y$ is an [[open cover]] of $K$
 
