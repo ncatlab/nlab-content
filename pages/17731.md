@@ -794,16 +794,16 @@ $$
     & =
     \pm \epsilon \Gamma_a C^T \Gamma_0^T \psi^\ast
     \\
-    & = \pm \Gamma_a C \Gamma_0^T \psi^\ast
+    & = \pm \epsilon^2 \Gamma_a C \Gamma_0^T \psi^\ast
     \\
-    & = \pm \Gamma_a J(\psi^\ast) 
+    & = \pm \Gamma_a J(\psi) 
   \end{aligned}
   \,,
 $$
 
 where, by comparison with the table in prop. \ref{ChargeConjugationMatrix}, $\epsilon$ is the sign in $C^T = \epsilon C$, which cancels out, and the remaining $\pm$ is the sign in $C = C_{(\pm)}$, due to remark \ref{TransposeChargeConjugation}.
 
-For the timelike index we similarly get
+For the timelike index we similarly get:
 
 $$
   \begin{aligned}
@@ -822,7 +822,7 @@ $$
     \\
     & = \pm \Gamma_0 C \Gamma_0^T \psi^\ast
     \\
-    & = \pm \Gamma_0 J(\psi^\ast) 
+    & = \pm \Gamma_0 J(\psi) 
   \end{aligned}
   \,.
 $$
@@ -1173,6 +1173,7 @@ and so this sign cancels against the sign in $i^\ast = -i$.
 ## Examples
 
 ### In dimensions 11, 10, and 9
+ {#InDimensions11And10And9}
 
 Let $\{\gamma_a\}$ be a Dirac representation of $Spin(8,1)$ according to prop. \ref{CliffordAlgebraRepresentation}. By the same logic as in the proof of prop. \ref{CliffordAlgebraRepresentation} we get from this the Dirac representations in dimensions 9+1 and 10+1 by setting
 
@@ -1224,6 +1225,8 @@ $$
   \,.
 $$
 
+This is the direct sum decomposition in terms of which the block decomposition of the above Clifford matrices is given.
+
 The corresponding [[super Minkowski spacetime]]
 
 $$
@@ -1238,6 +1241,84 @@ We want to argue that both the $\mathbf{16}$ and the $\overline{\mathbf{16}}$ of
 
 For this it is sufficient to see that $\Gamma_9$, which as a complex linear map goes $\Gamma_9 \colon \mathbf{16} \longrightarrow \overline{\mathbf{16}}$ constitutes an [[isomorphism]] when regarded as a morphism in the [[category of representations]] of $Spin(8,1)$.
 
+Clearly it is a linear isomorphism, so it is sufficient that it is a [[homomorphism]] of $Spin(8,1)$-representations at all. But that's clear since by the Clifford algebra relations $\Gamma_9$ commutes with all $\Gamma_a \Gamma_b$ for $a,b \on \{0,\cdots, 8\}$.
+
+Hence the [[branching rule]] for [[restricted representation|restricting]] the Weyl representation in 11d along the sequence of inclusions
+
+$$
+  Spin(8,1) \hookrightarrow Spin(9,1) \hookrightarrow Spin(10,1)
+$$
+
+is 
+
+$$
+  \underset{\in Rep(Spin(10,1))}\underbrace{\mathbf{32}}
+    \mapsto 
+  \underset{\in Rep(Spin(9,1))}\underbrace{\mathbf{16} \oplus \overline{\mathbf{16}}}
+    \mapsto
+  \underset{\in Rep(Spin(8,1))}\underbrace{\mathbf{16} \oplus \mathbf{16}}
+  \,.
+$$
+
+Write a Majorana spinor in $\mathbf{32}$ as $\vartheta \in \mathbb{C}^{32}$, decomposed as a $(1 \times 32)$-matrix as
+
+$$
+  \vartheta
+    =
+  \left(
+    \array{
+      \psi_1
+      \\
+      \psi_2
+    }
+  \right)
+  \,.
+$$
+
+We will write 
+
+$$
+  \psi_1 
+   = 
+  \left(
+    \array{
+      \psi_1 \\ 0
+    }
+  \right)
+  \,,\;\;\;
+  \psi_2
+   = 
+  \left(
+    \array{
+      0 \\  \psi_2
+    }
+  \right)
+$$
+
+for short.
+
+Then this says that after restriction to $Spin(9,1)$-action then $\psi_1$ becomes a Majorana spinor in the $\mathbf{16}$, and $\psi_2$ a Majorana spinor in the $\overline{\mathbf{16}}$, and after further restriction to $Spin(8,1)$-action then either comes a Majorana spinor in one copy of $\mathbf{16}$.
+
+We define the spinor-to-vector bilinear pairing on $\mathbf{16} \oplus \overline{\mathbf{16}}$ to be the _difference_ of spinor-to-vector pairings of either, according to def. \ref{SpinorToVectorBilinearPairing}:
+
+$$
+  \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+   \Gamma^a
+  \left(
+    \array{\psi_1 \\ \psi_2}
+  \right)
+    \coloneqq
+  \overline{\psi}_1
+   \Gamma^a
+  \psi_1
+    -
+  \overline{\psi}_2
+    \Gamma^a
+  \overline{\psi}_2
+  \,.
+$$
+
+This makes sense because the pairing preserves the chiral splitting, since 
 
 
 
