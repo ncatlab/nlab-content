@@ -586,6 +586,18 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Def. \ref{SerreFibration} says, in view of the definition of [[left homotopy]], that a [[Serre fibration]] $p$ is a map with the property that given a [[left homotopy]], def. \ref{LeftHomotopy}, between two functions into its [[codomain]], and given a lift of one the two functions through $p$, then also the homotopy between the two lifts, in particular the second function lifts, too, and both lifts are related by left homotopy.
+
+Therefore the condition on a [[Serre fibration]] is also called the _[[homotopy lifting property]]_ for maps whose domain is an [[n-disk]].
+
+More generally one may ask functions $p$ to have such [[homotopy lifting property]] for functions with arbitrary domain. These are called _[[Hurewicz fibrations]]_. 
+
+=--
+
+
 ## Background from model category theory
 
 This section recalls some standard arguments in [[model category]] theory.
