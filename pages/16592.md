@@ -1,0 +1,9 @@
+American mathematician, working in statistics and probability theory, and magician.
+
+Standford University [webpage](http://statweb.stanford.edu/~cgates/PERSI/).
+
+##Related pages
+
+* [[Bayesian reasoning]]
+
+category: people
