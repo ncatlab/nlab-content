@@ -1104,8 +1104,8 @@ and
 
 * the whole set $X \subset X$ itself is in $\tau$ (being the intersection of no subsets).
 
-
 A set $X$ equipped with such a [[topology]] is called a _[[topological space]]_.
+
 
 =--
 
@@ -1118,6 +1118,27 @@ But beware that there are other kinds of [[spaces]] in mathematics.
 
 =--
 
+
+In view of example \ref{MetricTopology} below one generalizes the terminology from 
+def. \ref{OpenSubsetsOfAMetricSpace} as follows:
+
++-- {: .num_defn #Neighbourhood}
+###### Definition
+**([[neighbourhood]])**
+
+Let $(X,\tau)$ be a [[topological space]] and let $x \in X$ be a point.
+A _[[neighbourhood]]_ of $x$ is a [[subset]] $U_x \subset X$ which contains an 
+[[open subset]] that still contains $x$.
+
+An _open neighbourhood_ is a neighbourhood that is itself an open subset, hence an open neighbourhood
+of $x$ is the same as an open subset containing $x$. 
+
+
+=--
+
+
+
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -1129,6 +1150,9 @@ discussed [below](#SoberSpaces). For more on this perspective see the remark on 
 An introductory textbook amplifying this perspective is ([Vickers 89](#Vickers89)).
 
 =--
+
+
+
 
 $\,$
 
@@ -1230,6 +1254,7 @@ The [[open balls]] in a metric space constitute a [[basis of a topology]] (def. 
 
 
 =--
+
 
 
 
@@ -1722,7 +1747,7 @@ Often it is useful to reformulate def. \ref{ClosedSubset} of [[closed subsets]] 
 
 Let $(X,\tau)$ be a [[topological space]] and let $S \subset X$ be a [[subset]] of its underlying
 set. Then a point $x \in X$ is contained in the [[topological closure]] $Cl(S)$ (def. \ref{ClosedSubset})
-precisely if every [[open neighbourhood]] $U_x \subset X$ of $x$ [[intersection|intersects]] $S$:
+precisely if every [[open neighbourhood]] $U_x \subset X$ of $x$ (def. \ref{Neighbourhood}) [[intersection|intersects]] $S$:
 
 $$
   \left(
@@ -1787,7 +1812,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{UnionOfOpensGivesClosure} we use that a point is in the closure of a set precisely if every open neighbourhood of the point intersects the set.
+By lemma \ref{UnionOfOpensGivesClosure} we use that a point is in the closure of a set precisely if every [[open neighbourhood]] 
+(def. \ref{Neighbourhood}) of the point intersects the set.
 
 Hence in one direction
 
@@ -2828,7 +2854,7 @@ $$
 
 For $(X,\tau_X)$, $(Y,\tau_Y)$ two [[topological spaces]], then a
 [[continuous function]] $f \colon (X,\tau_X) \to (Y,\tau_Y)$ (def. \ref{ContinuousMaps}) is called
-_[[locally constant function|locally constant]]_ if every point $x \in X$ has a [[neighbourhood]]
+_[[locally constant function|locally constant]]_ if every point $x \in X$ has a [[neighbourhood]] (def. \ref{Neighbourhood})
 on which the function is constant.
 
 =--
@@ -3244,9 +3270,8 @@ $$
   \,.
 $$
 
-Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]]. However, in the context
-of [[topology]] then $f^{-1}$ usually refers to the [[pre-image]] function of a given [[function]] $f$, and in these
-notes we will stick to this usage and never use "$(-)^{-1}$" to denote [[inverses]].
+Since such $g$ is unique if it exsist, one often writes "$f^{-1}$" for this [[inverse morphism]]. 
+
 
 +-- {: .num_defn #Homeomorphism}
 ###### Definition
@@ -3321,6 +3346,24 @@ is called a _[[topological property]]_ or _topological invariant_.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+**(notation for homeomorphisms)**
+
+Beware the following notation:
+
+
+1. In [[topology]] the notation $f^{-1}$ generally refers to the [[pre-image]] function of a given [[function]] $f$,
+while if $f$ is a [[homeomorphism]] (def. \ref{Homeomorphism}), it is also used for the [[inverse function]] of $f$.
+This abuse of notation is convenient: If $f$ happens to be a homeomorphism, then the pre-image of a subsets under
+$f$ is its image under the inverse function $f^{-1}$.
+
+1. Many authors strictly distinguish the symbols "$\cong$" and "$\simeq$" and use the _former_ to denote
+homeomorphisms and the latter to refer to [[homotopy equivalences]] (which we consider in [[Introduction to Topology -- 2|part 2]]).
+We use either symbol (but mostly "$\simeq$") for "[[isomorphism]]" in whatever the ambient [[category]] may be
+and try to make that context always unambiguously explicit.
+
+=--
 
 +-- {: .num_remark }
 ###### Remark
@@ -7983,11 +8026,122 @@ $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]]
 
 =--
 
++-- {: .num_example #ClosedSubspacesGluing}
+###### Example
+**([[union]] of two [[open subset|open]] or two [[closed subset|closed]] [[subspaces]] is [[pushout]])**
+
+Let $X$ be a [[topological space]] and let $A,B \subset X$ be [[subspaces]] such that
+
+1. $A,B \subset X$ are both [[open subsets]] or are both [[closed subsets]];
+
+1. they constitute a [[cover]]: $X = A \cup B$
+
+Write $i_A \colon A \to X$ and $i_B \colon B \to X$ for the corresponding inclusion [[continuous functions]].
+
+Then the [[commuting square]]
+
+$$
+  \array{
+     A \cap B &\longrightarrow& A
+     \\
+     \downarrow &(po)& \downarrow^{\mathrlap{i_A}}
+     \\
+     B &\underset{i_B}{\longrightarrow}& X
+  }
+$$
+
+is a [[pushout]] square in [[Top]]  (example \ref{Pushout}).
+
+By the [[universal property]] of the [[pushout]] this means in particular that for $Y$ any [[topological space]] then a function of underlying sets
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+is a [[continuous function]] as soon as its two restrictions
+
+$$
+  f\vert_A \;\colon\; A \longrightarrow Y
+  \phantom{AAAA}
+  f\vert_A \;\colon\; B \longrightarrow Y
+$$
+
+are continuous.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{SetLimits} the underlying diagram of underlying [[sets]] is clearly a pushout in [[Set]]. Therefore, 
+by prop. \ref{DescriptionOfLimitsAndColimitsInTop}, we need to show that the [[topological space|topology]] on $X$ 
+is the [[final topology]] (def. \ref{InitialAndFinalTopologies}) induced by the set of functions $\{i_A, i_B\}$, hence that
+a [[subset]] $S \subset X$ is an [[open subset]] precisely if the [[pre-images]] (restrictions)
+
+$$
+  i_A^{-1}(S) = S \cap A
+   \phantom{AAA}
+    \text{and}
+   \phantom{AAA}
+  i_B^{-1}(S) = S \cap B
+$$
+
+are open subsets of $A$ and $B$, respectively.
+
+Now by definition of the [[subspace topology]], if $S \subset X$ is open, then the intersections $A \cap S \subset A$ and $B \cap S \subset B$ are open in these subspaces.
+
+Conversely, assume that $A \cap S \subset A$ and $B \cap S \subset B$ are open. We need to show that then $S \subset X$ is open.
+
+Consider now first the case that $A;B \subset X$ are both open open. Then by the nature of the [[subspace topology]], that $A \cap S$ is open in $A$ means that there is an open subset $S_A \subset X$ such that $A \cap S = A \cap S_A$. Since the intersection of two open subsets is open, this implies that $A \cap S_A$ and hence $A \cap S$ is open.  Similarly $B \cap S$. Therefore
+
+$$
+  \begin{aligned}
+    S
+     & =
+    S \cap X
+    \\
+    & = S \cap (A \cup B)
+    \\
+    & =  (S \cap A) \cup (S \cap B)
+  \end{aligned}
+$$
+
+is the union of two open subsets and therefore open.
+
+Now consider the case that $A,B \subset X$ are both closed subsets.
+
+Again by the nature of the subspace topology, that $A \cap S \subset A$ and $B \cap S \subset B$ are open means that there exist open subsets $S_A, S_B \subset X$ such that $A \cap S = A \cap S_A$ and $B \cap S = B \cap S_B$. Since $A,B \subset X$ are closed by assumption, this means that $A \setminus S, B \setminus S \subset X$ are still closed, hence that $X \setminus (A \setminus S), X \setminus (B \setminus S) \subset X$ are open.
+
+Now observe that (by [[de Morgan duality]])
+
+$$
+  \begin{aligned}
+    S
+      & = X \setminus (X \setminus S)
+    \\
+      & =
+    X \setminus ( (A \cup B) \setminus S )
+    \\
+      & =
+    X \setminus ( (A \setminus S) \cup (B \setminus S) )
+    \\
+     & =
+    (X \setminus (A \setminus S)) \cap (X \setminus (B \setminus S))
+    \,.
+  \end{aligned}
+$$
+
+This exhibits $S$ as the intersection of two open subsets, hence as open.
+
+=--
+
+
+
 +-- {: .num_example #PushoutInTop}
 ###### Example
 **([[attachment spaces]])**
 
-Consisder a [[cospan]] [[diagram]] (example \ref{SpanDiagram}) of continuous functions
+Consider a [[cospan]] [[diagram]] (example \ref{SpanDiagram}) of continuous functions
 
 $$
   \array{
@@ -8296,7 +8450,8 @@ theory, in particular for the discussion of [[topological manifolds]] [below](#M
  {#ConnectedComponents}
 
 Via [[homeomorphism]] to [[disjoint union spaces]] one may characterize whether topological spaces are
-_[[connected topological spaces|connected]]_  (def. \ref{ConnectedTopologicalSpace} below), and decompose every topological space
+_[[connected topological spaces|connected]]_  (def. \ref{ConnectedTopologicalSpace} below), 
+and one may decompose every topological space
 into its [[connected components]] (def. \ref{ComponentsConnected} below).
 
 The important subtlety in to beware of
@@ -8305,8 +8460,7 @@ components.
 The extreme case of this phenomenon are [[totally disconnected topological spaces]]
 (def. \ref{TotallyDisconnectedTopologicalSpace} below) which are nevertheless not [[discrete topological spaces|discrete]]
 (examples \ref{RationalNumbersAreTotallyDisconnected} and \ref{TotallyDisconnectedCantorSpace} below).
-
-The topological spaces free from this exotic behaviour are the
+Spaces which are free from this exotic behaviour are the
 _[[locally connected topological spaces]]_ (def.  \ref{LocallyConnected} below).
 
 
@@ -8374,7 +8528,7 @@ which is the definition of the disjoint union topology.
 
 Hence by assumption exactly one of the two summand spaces is the [[empty space]] and hence the underlying set is the empty set.
 
-Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$. 
+Conversely, suppose that for every pair of open subsets $U_1, U_2 \subset U$ with $U_1 \cup U_2 = X$ and $U_1 \cap U_2 = \emptyset$ then exactly one of the two is empty. Now consider a homeomorphism of the form $(X,\tau) \simeq (X_1, \tau_1) \sqcup (X_2,\tau_2)$. By the nature of the [[disjoint union space]] this means that $X_1, X_2 \subset X$ are disjoint open subsets of $X$ which cover $X$.
 So by assumption precisely one of the two subsets is the empty set and hence precisely one of the two topological spaces is the empty space.
 
 Now regarding the equivalence to the third statement:
@@ -8402,7 +8556,7 @@ regard the empty space as connected. This is a matter of convention.
 **([[connected topological space|connected]] [[subspaces]] of the [[real line]] are the [[intervals]])
 
 Regard the [[real line]] with its [[Euclidean space|Euclidean]] [[metric topology]] (example \ref{EuclideanNorm}, \ref{MetricTopology}). Then a
-[[subspace]] $S \subset \mathbb{R}$ (example \ref{SubspaceTopology}) 
+[[subspace]] $S \subset \mathbb{R}$ (example \ref{SubspaceTopology})
 is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace})
 precisely if it is an [[interval]], hence precisely if
 
@@ -8538,7 +8692,7 @@ it is sufficient to show that at lest one of the two is empty.
 
 Assume on the contrary that both $U_1$ and $U_2$ are non-empty.
 
-Observe first that if so, then we could find $x_1 \in U_1$ and $x_2 \in U_2$ 
+Observe first that if so, then we could find $x_1 \in U_1$ and $x_2 \in U_2$
 whose coordinates differed only a a finite subset of $I$. This is since by the nature of the
 [[Tychonoff topology]] $\pi_i(U_1) = X_i$ and $\pi_i(U_2) = X_i$ for all but a finite number of $i \in iI$.
 
@@ -8661,7 +8815,8 @@ By definition, the connected components are [[maximal elements]] in the set of c
 
 Prop. \ref{ConnectedComponentsAreClosed} implies that when a space has a [[finite set]] of connected components, then they are not just closed but also open, hence [[clopen subsets]] (because then each is the [[complement]] of a finite union of closed subspaces).
 
-For a non-finite set of connected components this remains true if the space is [[locally connected topological space|locally connected]]. See [this prop.](locally+connected+topological+space#AlternativeCharacterizationsOfLocalConnectivity)
+For a non-finite set of connected components this remains true if the space is [[locally connected topological space|locally connected]]
+see def. \ref{LocallyConnected}, lemma \ref{AlternativeCharacterizationOfLocalConnectivity} below.
 
 =--
 
@@ -8825,7 +8980,7 @@ if the following equivalent conditions hold:
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #AlternativeCharacterizationOfLocalConnectivity}
 ###### Lemma
 
 The conditions in def. \ref{LocallyConnected} are indeed all equivalent.
@@ -8909,9 +9064,9 @@ $\,$
 
 There is also a concept of connetedness which is "geometric" instead of "purely topological" by definition:
 
-+-- {: .num_defn #ConnectedPath}
++-- {: .num_defn #Path}
 ###### Definition
-**([[path-connected topological space]])**
+**([[path]])**
 
 Let $X$ be a [[topological space]]. Then a _[[path]]_ or _continuous [[curve]]_ in $X$ is a
 [[continuous function]]
@@ -8924,8 +9079,95 @@ from the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[m
 
 We say that this path _connects_ its endpoints $\gamma(0), \gamma(1) \in X$.
 
-Being connected by a [[path]] is an [[equivalence relation]] $\sim_{pcon}$ on the underlying set of $X$.
-The corresponding [[equivalence classes]] are called the _path-connected components_ of $X$.
+=--
+
+The following is obvious, but the construction is important:
+
++-- {: .num_lemma #ConnectedByPathIsEquivalenceRelation}
+###### Lemma
+**(being connected by a [[path]] is [[equivalence relation]])**
+
+Let $(X,\tau)$ be a [[topological space]].
+Being connected by a [[path]] (def. \ref{Path}) is an [[equivalence relation]] $\sim_{pcon}$ on the underlying set of 
+points $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that the relation is [[reflexive relation|reflexive]], 
+[[symmetric relation|symmetric]] and [[transitive relation|transitive]].
+
+For $x \in X$ a point, then the [[constant function]] with value $x$
+
+$$
+  const_x \;\colon\; [0,1] \to \ast \overset{}{\longrightarrow} X
+$$
+
+is continuous (example \ref{PointsViaContinuousFunctions}). Therefore $x \sim_{pcon} x$  for all point ([[reflexive relation|reflexivity]]).
+
+For $x,y \in X$ two points and 
+
+$$
+  \gamma 
+    \;\colon\;
+  [0,1] \longrightarrow X
+$$
+
+a path connecting them, then the _reverse path_
+
+$$
+  [0,1] 
+    \overset{(1-(-))}{\longrightarrow} 
+  [0,1]
+    \overset{\gamma}{\longrightarrow}
+  X
+$$
+
+is continuous (the function $[0,1] \overset{1-(-)}{\to} [0,1]$ is continuous because
+[[polynomials are continuous]] ). Hence with $x \sim_{pcon} y$ also $y \sim_{pcon} x$ ([[symmetic relation|symmetry]]).
+
+For $x,y,z \in X$ three points and for
+
+$$
+  \gamma_1, \gamma_2 
+    \;\colon\;
+  [0,1] \longrightarrow X
+$$
+
+two paths with $\gamma_1(0) = x$, $\gamma_1(1) = \gamma_2(0) = y$ and $\gamma_2(1) = z$, 
+consider the function
+
+$$
+  \array{
+    [0,1] &\overset{  (\gamma_2 \cdot \gamma_1) }{\longrightarrow}& X
+    \\
+    t
+    &\mapsto&
+    \left\{
+      \array{
+        \gamma_1(2t) & \vert& 0 \leq t \leq 1/2
+        \\
+        \gamma_2(2t-1) &\vert& 1/2 \leq t \leq 1
+      }
+    \right.
+  }
+  \,.
+$$
+
+This is a [[continuous function]] by example \ref{ClosedSubspacesGluing}, hence this constitutes a path connecting $x$ with $y$
+(the ``concatenated path''). Therefore $x \sim_{pcon} y$ and $y \sim_{pcon} z$ implies $x \sim_{pcon} z$ ([[transitive relation|transitivity]]).
+
+=--
+
++-- {: .num_defn #PathConnectedComponents}
+###### Definition
+**(path-connected components)**
+
+Let $X$ be a [[topological space]].  The [[equivalence classes]] of 
+the equivalence relation "connected by a path" (def. \ref{Path}, lemma \ref{ConnectedByPathIsEquivalenceRelation}) 
+are called the _path-connected components_ of $X$.
 The set of the path-connected components is usually denoted
 
 $$
@@ -8942,8 +9184,8 @@ then $X$ is called a _[[path-connected topological space]]_.
 ###### Example
 **([[Euclidean space]] is [[path-connected topological space|path-connected]])
 
-For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ is 
-a [[path-connected topological space]] (def. \ref{ConnectedPath}).
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ is
+a [[path-connected topological space]] (def. \ref{PathConnectedComponents}).
 
 Because for $\vec x, \vec y \in \mathbb{R}^n$, consider the function
 
@@ -8957,7 +9199,7 @@ $$
 $$
 
 This clearly has the property that $\gamma(0) = \vec x$ and $\gamma(1) = \vec y$.
-Moreover, it 
+Moreover, it
 is a [[polynomial]] function and [[polynomials are continuous functions]] (example \ref{PolynoialsAreContinuous}).
 
 
@@ -8968,7 +9210,7 @@ is a [[polynomial]] function and [[polynomials are continuous functions]] (examp
 ###### Example
 **([[continuous function|continuous]] [[image]] of [[path-connected space]] is [[path-connected space|path-connected]])**
 
-Let $X$ be a [[path-connected topological space]] and let 
+Let $X$ be a [[path-connected topological space]] and let
 
 $$
   f \colon X \longrightarrow Y
@@ -8977,7 +9219,7 @@ $$
 be a [[continuous function]]. Then also the [[image]] $f(X)$ of $X$
 
 $$
-  X 
+  X
     \undervrset{\text{surjective}}{p}{\longrightarrow}
   f(X)
     \underoverset{\text{injective}}{i}{\longrightarrow}
@@ -8993,8 +9235,8 @@ In particular path-connectednss is a [[topological property]] (def. \ref{Homeomo
 +-- {: .proof}
 ###### Proof
 
-Let $x,y \in X$ be two points. Since $p \colon X \to f(X)$ is surjective, 
-there are pre-images $p^{-1}(x), p^{-1}(y) \in X$. Since $X$ is path-connected, 
+Let $x,y \in X$ be two points. Since $p \colon X \to f(X)$ is surjective,
+there are pre-images $p^{-1}(x), p^{-1}(y) \in X$. Since $X$ is path-connected,
 there is a continuous function
 
 $$
@@ -9022,7 +9264,7 @@ $$
   \;\coloneqq\; Maps([0,1])
 $$
 
-hence the set of [[paths]] in $X$ (def. \ref{ConnectedPath})
+hence the set of [[paths]] in $X$ (def. \ref{Path})
 equipped with the [[compact-open topology]] (def. \ref{CompactOpenTopology}).
 
 This is often called the _[[path space]]_ of $X$.
@@ -9089,7 +9331,7 @@ is [[path-connected topological space|path-connected]] (def. \ref{ConnectedPath}
 ###### Examples
 **([[Euclidean space]] is [[locally path-connected topological space|locally path-connected]])**
 
-For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is [[path-connected topological space]].
+For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is a [[path-connected topological space]].
 
 =--
 
@@ -9102,7 +9344,7 @@ is itself locally path-connected.
 
 =--
 
-Another class of examples we consider below: 
+Another class of examples we consider below:
 [[locally Euclidean topological spaces]] are locally path-connected (prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} below).
 
 
@@ -9118,7 +9360,8 @@ Then each of its path-connected components is an [[open set]] and a [[closed set
 ###### Proof
 
 To see that every path connected component $P_x$ is open,
-it is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which  is path connected. It follows by concatenation of paths that $V_y \subset P_x$.
+it is sufficient to show that every point $y \in P_x$ has an [[neighbourhood]] $U_y$ which is still contained in $P_x$. But by local path connectedness, $y$ has a neighbourhood $V_y$ which  is path connected. It follows by concatenation of paths 
+(as in the proof of lemma \ref{ConnectedByPathIsEquivalenceRelation}) that $V_y \subset P_x$.
 
 Now each path-connected component $P_x$ is the [[complement]] of the [[union]] of all the
 other path-connected components. Since these are all open, their union is open, and hence the
@@ -13975,7 +14218,7 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 
 =--
 
-In fact, extracting transition functions from a vector bundle by def. \ref{TransitionFunctions} 
+In fact, extracting transition functions from a vector bundle by def. \ref{TransitionFunctions}
 and constructing a vector bundle from Cech cocycle data as above are operations that are inverse to each other, up to [[isomorphism]].
 
 +-- {: .num_prop #FromTransitionFunctionsReconstructVectorBundle}
@@ -14082,7 +14325,7 @@ $$
 $$
 
 It is clear that this continuous function is a [[bijection]]. Hence to show that it is a
-[[homeomorphism]], it is now sufficient to show that this is an [[open map]] 
+[[homeomorphism]], it is now sufficient to show that this is an [[open map]]
 (by prop. \ref{HomeoContinuousOpenBijection}).
 
 So let $O$  be a subset in the quotient space which is open. By definition of the
@@ -14161,7 +14404,7 @@ evidently satisfied.
 
 Accordingly by example \ref{TopologicalVectorBundleFromCechCocycle} these functions define a vector bundle.
 
-The total space of this bundle is [[homeomorphism|homeomorphic]] 
+The total space of this bundle is [[homeomorphism|homeomorphic]]
 to (the [[interior]], def. \ref{IntSubset} of) the  _[[Moebius strip]]_ from example \ref{SquareToCyclinderTorusAndMoebius}.
 
 
@@ -14440,7 +14683,7 @@ Let $X$ be a [[topological space]] and let $c_1, c_2 \in C^1(X, \underline{GL(k)
 
 1. $\{U_i \subset X\}_{i \in I}$ and $\{U'_i \subset X\}_{i' \in I'}$ two [[open covers]],
 
-1. $\{g_{i j} \colon U_i \cap U_j \to GL(n,k)\}_{i,j \in I}$ 
+1. $\{g_{i j} \colon U_i \cap U_j \to GL(n,k)\}_{i,j \in I}$
 and $\{g'_{i',j'} \colon U'_{i'} \cap U'_{j'} \to GL(n',k) \}_{i', j' \in I'}$  the corresponding component functions.
 
 
@@ -14536,7 +14779,7 @@ according to def. \ref{CoboundaryCech}.
 ###### Proof
 
 By example \ref{FinerCoverCech} we may assume without restriction that the two Cech cocycles are
-defined with respect to the same open cover $\{U_i \subset X\}_{i \in I}$ 
+defined with respect to the same open cover $\{U_i \subset X\}_{i \in I}$
 (for if they are not, then by example \ref{FinerCoverCech} both are cohomologous to
 cocycles on a joint refinement of the original covers and we may argue with these).
 
@@ -15121,17 +15364,17 @@ By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underov
 
 Since Euclidean spaces are locally compact, there exists a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]], prop. \ref{BorelHeine}). Now since [[continuous images of compact spaces are compact]], it follows that also $\phi(K) \subset X$ is a compact neighbourhood.
 
-Regarding the last two statements: 
+Regarding the last two statements:
 
 We need to show that for every point $x \in X$ and every [neighbourhood $U_x \supset \{x\}$
 there exists a neighbourhood $C_x \subset U_x$ which is [[connected topological space|connected]]
-and a eighbourhood $PC_x \subset U_x$ which is [[path-connected topological space|path-connected]]. 
+and a eighbourhood $PC_x \subset U_x$ which is [[path-connected topological space|path-connected]].
 
 By local Euclideanness there exists a chart $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$.
 Since [[Euclidean space]] is locally connected and locally path-connected, there is a connected and a path-connected
 neighbourhood of the pre-image $\phi^{-1}(x)$ contained in the pre-image $\phi^{-1}( U_x \cap V_x )$.
-Since continuous images of connected spaces 
-are connected (prop. \ref{ContinuousImagesOfConnectedSpacesAreConnected}), and 
+Since continuous images of connected spaces
+are connected (prop. \ref{ContinuousImagesOfConnectedSpacesAreConnected}), and
 since continuous images of path-connected spaces
 are path-connected (prop. \ref{PathConnectedContinuousImage}), the images of these neighbourhoods under $\phi$ are neighbourhoods of $x$ as required.
 
@@ -15229,7 +15472,7 @@ $$
 
 connects $x$ with $z \in U_y$. Hence $U_y \subset PConn_x(X)$.
 
-Similarly, if $y$ is not connected to $x$ by a path, then also all point in $U_y$ cannot be connected to $x$ by a path, for if they were, then the analogous concatenation of paths would give a path from $x$ to $y$, contrary to the assumption.
+Similarly, if $y$ is not connected to $x$ by a path, then also all point in $U_y$ cannot be connected to $x$ by a path, for if they were, then the analogous concatenation of paths (as in the proof of lemma \ref{ConnectedByPathIsEquivalenceRelation}) would give a path from $x$ to $y$, contrary to the assumption.
 
 It follows that
 
