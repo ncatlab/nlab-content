@@ -5,6 +5,16 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 [[types]]
 
++-- {: .num_lemma}
+###### Lemma
+In the [[filtered derived category]] of [[abelian groups]] one has inclusions
+  $$ (\Omega^\bullet_X, \Omega_X^{\ge *})
+     \hookrightarrow (\mathcal{A}^\bullet_{X}, \mathcal{A}_{X}^{\ge *})
+     \hookrightarrow (\mathcal{D}^\bullet_{X}[-2\dim(X)], \mathcal{D}_{X}^{\ge (*+\dim(X))}) $$
+which compose to a [[filtered quasi-isomorphism]].
+=--
+
+
 category: meta
 
 [[!redirects Sandbox]]
