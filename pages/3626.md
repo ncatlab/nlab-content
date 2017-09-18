@@ -139,7 +139,7 @@ Lauda and Pfeiffer [Lauda (2008)](#Lauda2008) showed that the PROP for _symmetri
 
 [[symmetric_frobenius_algebra_law.jpg:pic]]
 
-The PROP for _commutative_ Frobenius algebras is [[2Cob]], as noted by many people and formally proved by Lowell Abrams [Abrams (1996)](#Abrams1996).  This means that any commutative Frobenius algebra gives a 2d [[TQFT]].  See [Kock (2006)](#Kock2006) for a history of this subject and [Kock (2004)](#Kock2004) for a detailed introduction.  In 2Cob, the circle is a Frobenius algebra.  The monoid laws look like this:
+The PROP for _commutative_ Frobenius algebras is [[2Cob]], as noted by many people and formally proved in ([Abrams (1996)](#Abrams1996)).  This means that any commutative Frobenius algebra gives a 2d [[TQFT]].  See [Kock (2006)](#Kock2006) for a history of this subject and [Kock (2004)](#Kock2004) for a detailed introduction.  In 2Cob, the circle is a Frobenius algebra.  The monoid laws look like this:
 
 [[monoid_laws.jpg:pic]]
 
@@ -189,8 +189,8 @@ See for instance
 Their role in [[2d TQFT]] is discussed for instance in
 
 
-* Lowell Abrams (1996), Two-dimensional topological quantum field theories and Frobenius algebra, _Jour. Knot. Theory and its Ramifications_ **5**, 569--587. 
-{#Abrams1996}
+* {#Abrams1996} [[Lowell Abrams]] , _Two-dimensional topological quantum field theories and Frobenius algebra_, _Jour. Knot. Theory and its Ramifications_ **5**, 569--587 (1996) ([ps](http://home.gwu.edu/~labrams/docs/tqft.ps))
+
 
 
 * John Baez, This Week's Finds in Mathematical Physics, [week268](http://math.ucr.edu/home/baez/week268.html) and [week299](http://math.ucr.edu/home/baez/week299.html).
