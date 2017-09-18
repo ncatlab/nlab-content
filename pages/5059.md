@@ -884,7 +884,7 @@ and a brief paragraph in Volume II, section 10.2, page 983 of
 
 A more recent and more comprehensive review is
 
-* [[Joan Simón]], _[Brane Effective Actions, Kappa-Symmetry and Applications](http://relativity.livingreviews.org/Articles/lrr-2012-3/)_, Living Reviews in relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
+* [[Joan Simón]], _Brane Effective Actions, Kappa-Symmetry and Applications_, Living Reviews in Relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
 
 Quantization of the Green-Schwarz string using [[pure spinors]] is discussed in
 
