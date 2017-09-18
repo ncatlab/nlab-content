@@ -21,7 +21,9 @@
 
 A *quotient space* is a [[quotient object]] in some [[category]] of [[spaces]], such as [[Top]] (of [[topological spaces]]), or [[Loc]] (of [[locales]]), etc.
 
-Beware that quotint Quotient objects in the [[category]] [[Vect]] of [[vector spaces]] also traditionally called 'quotient space', but they are really just a special case of [[quotient modules]], very different from the other kinds of quotient space.  However in _[[topological vector spaces]]_ both concepts come together.
+Often the construction is used for the quotient $X/A$ by a subspace $A \subset X$ (example \ref{QuotientBySubspace} below).
+
+Beware that [[quotient objects]] in the [[category]] [[Vect]] of [[vector spaces]] also traditionally called 'quotient space', but they are really just a special case of [[quotient modules]], very different from the other kinds of quotient space.  However in _[[topological vector spaces]]_ both concepts come together.
 
 ## Definitions
 
@@ -78,6 +80,21 @@ For this construction the function $X \to Y$ need not even be surjective, and we
 A quotient space in $Loc$ is given by a [[regular subobject]] in [[Frm]].
 
 (More details needed.)
+
+## Examples
+
++-- {: .num_example #QuotientBySubspace}
+###### Example
+**(quotient by a subspace)**
+
+Let $X$ be a [[topological space]] and $A \subset X$ a [[subset]].
+Consider the [[equivalence relation]] on $$X which identifies all points in $A$ with each other. The resulting quotient space (def. \ref{QuotientTopologicalSpace}) is often simply denoted $X/A$.
+
+This kind of quotient space plays a central role in the discussion of [[long exact sequences in cohomology]], see at _[[generalized (Eilenberg-Steenrod) cohomology]]_.
+
+
+=--
+
 
 ## Properties
 
