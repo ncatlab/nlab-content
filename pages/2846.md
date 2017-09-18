@@ -17,11 +17,11 @@
 
 ## Definition
 
-In [[model theory]], an **elementary embedding** between [[model|structures]] is an [[injection]] that preserves and reflects all of [[first-order logic]].  That is, it is an injection $f\colon M\to N$ such that for any first-order formula $\varphi$ and parameters $a_1,\dots,a_n\in M$ (of appropriate [[type]]s), we have
+In [[model theory]], an **elementary embedding** between [[model|structures]] (over a given [[signature]] $\sigma$) is an [[injection]] that preserves and reflects all of [[first-order logic]] over $\sigma$.  That is, it is an injection $f\colon M\to N$ such that for any first-order formula $\varphi$ written in the language of $\sigma$ and parameters $a_1,\dots,a_n\in M$ (of appropriate [[type]]s), we have
 $$ M \vDash \varphi(a_1,\dots,a_n) \;\iff\; N \vDash \varphi(f(a_1),\dots, f(a_n)). $$
 In particular, this implies that if either $M$ or $N$ is a [[model]] of some first-order [[theory]], then so is the other.
 
-Note that the condition that $f$ be injective is automatic as long as the logic in question includes equality, since reflecting of the formula $x=y$ implies that $f$ is injective.  If $f$ is (interpreted as) the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$.
+Note that the condition that $f$ be injective is automatic as long as the logic in question includes equality, since reflecting of the formula $x=y$ implies that $f$ is injective.  If $f$ is (interpreted as) the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$. We also say here that $N$ is an **elementary extension** of $M$. 
 
 More generally, when we consider structures in a [[category]] as in [[categorical logic]], a morphism $f\colon M\to N$ between structures in $C$ is an **elementary embedding** if for any formula $\varphi$, the following square is a [[pullback]]:
 
@@ -42,8 +42,55 @@ The [[theory]] $T$ that we are modelling is exhibited by its syntactic category 
 [[Mike Shulman]]: Not quite.  First of all, the definition officially happens at the more general level of structures rather than models, but we can of course consider those as models for the empty theory.  And whether we need finite-limit categories and functors, or something else like regular ones, geometric ones, or Heyting ones, depends on what fragment of logic we consider our (possibly empty) theories as living in.  Your rephrasing is correct if we mean finitary first-order theories and therefore [[Heyting categories]] and Heyting functors.  Otherwise, the syntactic category $Syn(T)$ won't have the structure required to construct $[\varphi]$, and the structure wouldn't be preserved by the functors into $C$, so that we wouldn't even have naturality squares to ask to commute (I alluded to this in the last sentence above).
 
 I think I didn't explain this very well, but I have to go now, I'll try to come back to it later and rewrite it to make more sense.
+=-- 
 
-=--
+In practice, it is also useful to separate out the weaker notion of **embedding**. 
+
++-- {: .num_defn} 
+###### Definition 
+Working over a fixed signature $\Sigma$, an injective homomorphism of structures $f: M \to N$ is an *embedding* if for each relation $R \in \Sigma$ of arity $n$, we have $R_M = (f^n)^\ast R_N$, i.e., $R_M$ is obtained by pulling back the inclusion $R_N \hookrightarrow N^n$ along $f^n: M^n \to N^n$. 
+=-- 
+
+Notice this is *stronger* than just being an injective homomorphism (where we demand only that $R_M \hookrightarrow (f^n)^\ast R^n$, or that $R_M(a_1, \ldots, a_n) \vdash R_N(f(a_1), \ldots, f(a_n))$), and it is weaker than being an elementary embedding since here we are not demanding a pullback condition over all the formulas of the language, just the atomic ones (including equality, which is handled by injectivity as we noted earlier). 
+
+A *substructure* is an embedding $f: M \to N$ where $f$ is a set-theoretic inclusion. (In [[structural set theory]], a substructure would just be an isomorphism class of embeddings.) 
+
+## Tarski-Vaught test 
+
+A simple criterion for when one structure is an elementary substructure of another is given by the Tarski-Vaught test. Let $L$ be the language (the set of first-order formulas) over some given signature. 
+
++-- {: .num_prop #Tarski-Vaught} 
+###### Proposition 
+A substructure $i: M \hookrightarrow N$ is an elementary substructure if, whenever $\varphi$ is an $(n+1)$-ary formula and $b_1, \ldots, b_n \in M$, there exists $a \in N$ such that $\varphi(a, b_1, \ldots, b_n)$ is satisfied in $N$ only if there exists $c \in M$ such that $\varphi(c, b_1, \ldots, b_n)$ is satisfied in $M$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+By induction on the structure of formulas $\varphi$, using $\neg, \wedge, \exists$ as primitive logical operators. The required pullback condition is satisfied on atomic formulas, by definition of substructure. 
+
+If the pullback condition is satisfied for $\varphi$ (of arity $n$ say), then it is trivially satisfied for $\neg \varphi$ because for all $\bar{a} = (a_1, \ldots, a_n) \in M^n$ we have 
+
+$$M \models \neg \varphi(\bar{a}) \;\; iff \;\; \not [M \models \varphi(\bar{a})] \;\; iff \;\; \not [N \models \varphi(i^n(\bar{a}))] \;\; iff \;\; N \models \neg\varphi(i^n(\bar{a})).$$ 
+
+If the pullback condition is satisfied for $\varphi$ and $\psi$, then it is equally trivially satisfied for $\varphi \wedge \psi$: 
+
+$$\array{
+M \models (\varphi \wedge \psi)(\bar{a}) & iff & M \models \varphi(\bar{a}) \; and \; M \models \psi(\bar{a}) \\ 
+ & iff & N \models \varphi(i^n(\bar{a})) \; and \; N \models \psi(i^n(\bar{a})) \\ 
+ & iff & N \models (\varphi \wedge \psi)(i^n(\bar{a})). 
+}$$ 
+
+Using these two steps of the induction, we may say that given a substructure, the pullback condition is satisfied for all quantifier-free formulas in the language. 
+
+Finally, suppose the pullback condition is satisfied for $(n+1)$-ary formulas $\varphi(v, \bar{w})$. If $\bar{b} \in (\exists_v \varphi)_M$, then there exists $c \in M$ such that $(c, \bar{b}) \in \varphi_M$, whence there exists $a = i(c)$ such that $(i(c), i^n(\bar{b})) \in \varphi_N$, so $i^n(\bar{b}) \in (\exists_v \varphi)_N$, just using the fact that $i$ is a homomorphism. Conversely: if $i^n(\bar{b}) \in (\exists_v \varphi)_N$, i.e., if there exists $a \in N$ such that $(a, i^n(\bar{b})) \in \varphi_N$, then by hypothesis there exists $c \in M$ such that $(c, \bar{b}) \in \varphi_M$, i.e., $\bar{b} \in (\exists_v \varphi)_M$. This completes the inductive proof. 
+=-- 
+
++-- {: .num_example} 
+###### Example 
+In the theory of [[real closed fields]] with signature $(0, 1, +, \cdot, \leq)$, the field of real algebraic numbers is an elementary substructure of the field of real numbers. This follows from the Tarski-Vaught test and the [[Tarski-Seidenberg theorem]] which establishes quantifier elimination over the language generated by the signature (every formula has the same extension as some quantifier-free formula). 
+=-- 
+
+Another application is described at [[Löwenheim-Skolem theorem]]. 
 
 ## Elementary embeddings between models of set theory
 
