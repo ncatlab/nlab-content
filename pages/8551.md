@@ -40,5 +40,6 @@ Related $n$Lab entries include [[moduli space of curves]], [[stable curve]], [[J
 
 * Wikipedia, _[Algebraic curve](http://en.wikipedia.org/wiki/Algebraic_curve)_
 
-[[!redirects algebraic curves]]
+* Patrick J. Morandi, _Error Correcting Codes and Algebraic Curves_ , lecture notes New Mexico State University 2001. ([pdf](http://www.math.nmsu.edu/~pmorandi/math601f01/LectureNotes.pdf))
 
+[[!redirects algebraic curves]]
