@@ -84,6 +84,8 @@ $$
 
 ## References
 
+### General
+
 Discussion in [[D'Auria-Fre formulation of supergravity]] is in
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
@@ -106,10 +108,39 @@ Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includ
 
 (one-loop corrections).
 
-For 5d [[gauged supergravity]]
+### Gauged sugra
+
+For 5d [[gauged supergravity]]:
 
 * M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B259 (1985) 460 ([spire](https://inspirehep.net/record/16067?ln=en))
 
 * M. Gunaydin,  L.J. Romans, N.P. Warner, _Compact and Noncompact Gauged Supergravity Theories in Five-Dimensions_, Nucl.Phys. B272 (1986) 598-646 ([spire](https://inspirehep.net/record/219727?ln=en))
+
+* Murat Gunaydin, Marco Zagermann, _The Gauging of Five-dimensional, $N=2$ Maxwell-Einstein Supergravity Theories coupled to Tensor Multiplets_,  	Nucl.Phys.B572:131-150,2000 ([arXiv:hep-th/9912027](https://arxiv.org/abs/hep-th/9912027))
+
+* Murat Gunaydin, Marco Zagermann, _The Vacua of 5d, $N=2$ Gauged Yang-Mills/Einstein/Tensor Supergravity: Abelian Case_, Phys.Rev.D62:044028,2000 ([arXiv:hep-th/0002228](http://arxiv.org/abs/hep-th/0002228))
+
+* A. Ceresole, [[Gianguido Dall'Agata]], _General matter coupled $N=2$, $D=5$ gauged supergravity_, Nucl.Phys. B585 (2000) 143-170 ([arXiv:hep-th/0004111](http://arxiv.org/abs/hep-th/0004111))
+
+### Horava-Witten compactification
+ {#ReferencesHWCompactification}
+
+Discussion of [[KK-compactification]] on $S^1/(\mathbb{Z}/2)$-orbifolds (the version of [[Horava-Witten theory]] after dimensional reduction) is discussed in
+
+* Filipe Paccetti Correia, Michael G. Schmidt, Zurab Tavartkiladze, _4D Superfield Reduction of 5D Orbifold SUGRA and Heterotic M-theory_ ([arXiv:hep-th/0602173](https://arxiv.org/abs/hep-th/0602173))
+
+### Black hole solutions
+
+Discussion of lifts of 4d balck holes to 5d black holes and embedding as [[black holes in string theory]] includes
+
+* Henriette Elvang, Roberto Emparan, David Mateos, Harvey S. Reall, _A supersymmetric black ring_, Phys.Rev.Lett.93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
+
+* I. Bena and P. Kraus, _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070, hep-th/0408186.
+
+* I. Bena and P. Kraus, _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007, hep-th/0503053
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], and X. Yin, _5D black rings and 4D black holes_ JHEP 02 (2006) 023 ([hep-th/0504126](http://arxiv.org/abs/hep-th/0504126))
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], and X. Yin, _New connections between 4D and 5D black holes_, JHEP 02 (2006) 024 ([hep-th/0503217](https://arxiv.org/abs/hep-th/0503217))
 
 [[!redirects 5d supergravity]]
