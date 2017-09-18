@@ -141,7 +141,7 @@ $$
 
 =--
 
-## Examplesc
+## Examples
 
 +-- {: .num_example #DirectSumOnDisjointUnionSpace}
 ###### Example
@@ -167,7 +167,7 @@ be the operations of extending a vector bundle on the other [[connected componen
 
 $$
   Vect(X) \times Vect(Y)
-    \overset{ i_X \oplus_{(X \sqcup Y)} i_Y }{\longrightarrow}
+    \underoverset{\simeq}{ i_X \oplus_{(X \sqcup Y)} i_Y }{\longrightarrow}
   Vect(X \sqcup Y)
 $$
 
