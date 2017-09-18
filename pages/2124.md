@@ -319,3 +319,6 @@ Discussion of relation of [[M5-brane]] BPS states to [[knot invariants]] include
 
 [[!redirects BPS brane]]
 [[!redirects BPS branes]]
+
+[[!redirects BPS solution]]
+[[!redirects BPS solutions]]
