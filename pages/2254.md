@@ -24,14 +24,21 @@
 
 ## Idea
 
-A _formal group_ is a [[group object]] [[internalization|internal to]] [[infinitesimal space]]s. More general than [[Lie algebra]]s, which are group objects in _first order infinitesimal_ spaces, formal groups may be of arbitrary infinitesimal order. They sit between [[Lie algebra]]s and finite [[Lie group]]s or [[algebraic group]]s.
+A _formal group_ is a [[group object]] [[internalization|internal to]] [[infinitesimal space]]s. More general than [[Lie algebra]]s, which are group objects in _first order infinitesimal_ spaces, formal groups may be of arbitrary infinitesimal order. They sit between [[Lie algebras]] and finite [[Lie groups]] or [[algebraic groups]].
 
-Since [[infinitesimal space]]s are typically modeled as [[Isbell duality|formal duals]] to [[algebra]]s, formal groups are typically conceived as group objects in formal duals to [[power series]] algebras.
+Since [[infinitesimal spaces]] are typically modeled as [[Isbell duality|formal duals]] to [[algebras]], formal groups are typically conceived as group objects in formal duals to [[formal power series]] algebras.
+
+Specifically, fixing a formal [[coordinate]] chart, then the product operation of a formal group is entirely expressed as a [[formal power series]] in two variables, satisfying conditions. This is called a _formal group law_, a concept that goes back to Bochner and [[Daniel Lazard|Lazard]].
+
+Commutative formal group laws of dimension 1 notably appear in [[algebraic topology]] (originating in work by [[Sergei Novikov|Novikov]], [[Victor Buchstaber|Buchstaber]] and [[Daniel Quillen|Quillen]], see [Adams 74, part II](#Adams74)), where they express the behaviour of [[complex oriented cohomology theories]] evaluated on infinite [[complex projective space]] (i.e. on the [[classifying space]] $B U(1) \simeq \mathbb{C}P^\infty$). In parrticular [[complex cobordism]] cohomology theory in this context gives the universal formal group law represented by the [[Lazard ring]]. The [[height of a formal group|height of formal groups]] induces a filtering on [[complex oriented cohomology theories]] called the _[[chromatic homotopy theory|chromatic filtration]]_.
+
+More recently [[Fabien Morel|Morel]] and [[Marc Levine]] consider the [[algebraic cobordism]] of  in [[algebraic geometry]].  Formal groups are also useful in local [[class field theory]]; they can be used to explicitly construct the local Artin map according to Lubin and Tate.
+
 
 ### Formal group laws
 
 One of the oldest formalisms is the formalism of 
-**formal group laws** (early study by Bochner and Lazard), which are a version of representing a group operation in terms of coefficients of the formal power series rings. A __formal group law of dimension__ $n$ is given by a set of $n$ power series $F_i$ of $2n$ variables $x_1,\ldots,x_n,y_1,\ldots,y_n$ such that (in notation $x=(x_1,\ldots,x_n)$, $y=(y_1,\ldots,y_n)$, $F(x,y) = (F_1(x,y),\ldots,F_n(x,y))$) 
+**formal group laws** (early study by ), which are a version of representing a group operation in terms of coefficients of the formal power series rings. A __formal group law of dimension__ $n$ is given by a set of $n$ power series $F_i$ of $2n$ variables $x_1,\ldots,x_n,y_1,\ldots,y_n$ such that (in notation $x=(x_1,\ldots,x_n)$, $y=(y_1,\ldots,y_n)$, $F(x,y) = (F_1(x,y),\ldots,F_n(x,y))$) 
 
 $$
 F(x,F(y,z))=F(F(x,y),z)
@@ -41,7 +48,6 @@ $$
 F_i(x,y) = x_i+y_i+\,\,higher\,\,order\,\,terms
 $$
 
-Formal group laws of dimension $1$ proved to be important in [[algebraic topology]], especially in the study of [[cobordism]], starting with the works of Novikov, Buchstaber and Quillen; among the generalized cohomology theories the complex cobordism is characterized by the so-called universal group law; moreover the usage is recently paralleled in the theory of [[algebraic cobordism]] of Morel and Levine in [[algebraic geometry]].  Formal groups are also useful in local class field theory; they can be used to explicitly construct the local Artin map according to Lubin and Tate.
 
 
 
@@ -127,6 +133,8 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 * {#Grothendieck} [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
 
+* {#Adams74} [[Frank Adams]], Part II.1 of _[[Stable homotopy and generalised homology]]_, 1974
+
  
 * {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
@@ -148,7 +156,6 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 ### 1-Dimensional formal groups 
 
-* [[Frank Adams]], Part II.1 of _[[Stable homotopy and generalised homology]]_, 1974
 
 A basic introduction is in
 
