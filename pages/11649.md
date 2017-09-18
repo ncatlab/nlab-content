@@ -21,7 +21,7 @@
 
 ### General
 
-The [[KK-compactification|KK]] [[flux compactification]] of [[M-theory]]/[[F-theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety]] of ([[complex manifold|complex]]) [[dimension]] 4 (hence real dimension 8) yields [[type IIB superstring theory]] (with some [[S-duality]]-related [[non-perturbative effects]] included) [[KK-compactification|KK-compactified]] on Calabi-Yau 3-folds.
+The [[KK-compactification|KK]] [[flux compactification]] of [[M-theory]]/[[F-theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety]] of ([[complex manifold|complex]]) [[dimension]] 4 (hence real dimension 8) yields [[type IIB superstring theory]] (with some [[S-duality]]-related [[non-perturbative effects]] included) [[KK-compactification|KK-compactified]] on Calabi-Yau 3-folds.To realize the module stabilization of those compactifications is by considering higher dimensional gauge fields in the compact space ,the curvature of those fields parametrizes the mass term.
 
 
 
