@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
 #Contents#
 * table of contents
 {:toc}
@@ -24,3 +33,5 @@ of the [[translation group]] of $V$ and the [[general linear group]] of $V$.
 
 [[!redirects affine groups]]
 
+[[!redirects affine transformation]]
+[[!redirects affine transformations]]
