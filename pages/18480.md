@@ -1,6 +1,6 @@
 
 > This entry is about a usual strict sense of the term "digraph" often used in combinatorial contexts. Such "digraphs" are often formalized rather [[set]]-theoretically. 
-In a nutshell, they  have some relevance to category theory because of, e.g., the notational device of [[pasting diagrams]] and formalizations thereof, such as [[pasting schemes]], which---*this being the main point**---do neither carry any composition-structure in and of themselves, nor usually have loops or parallel arcs, and are therefore plain (and often even plane) digraphs. For a the usual notion of directed graph in category theory, see [[quiver]].
+In a nutshell, they  have some relevance to category theory because of, e.g., the notational device of [[pasting diagrams]] and formalizations thereof, such as [[pasting schemes]], which---*this being the main point**---do neither carry any composition-structure in and of themselves, nor usually have loops or parallel arcs, and are therefore plain (and often even plane) digraphs. For the usual notion of directed graph in category theory, see [[quiver]].
 
 #Contents#
 * table of contents
