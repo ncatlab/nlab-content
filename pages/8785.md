@@ -29,7 +29,7 @@ The _Dolbeault complex_ is the analog of the [[de Rham complex]] in [[complex ge
 On a [[complex manifold]] $X$ the [[de Rham complex]] $\Omega^\bullet(X)$ refines to a [[bigraded object|bigraded]] complex $\Omega^{\bullet, \bullet}(X)$, where a [[differential form]] of bidegree $(p,q)$ has holomorphic degree $p$ and antiholomorphic degree $q$, hence is given on a local [[coordinate chart]] by an expression of the form
 
 $$
-  \omega = \sum f_{I J} d z_{i_1} \wedge \cdots d z_{i_p} \wedge d \bar z_{j_1} \wedge \cdots \wedge d \bar z_{j_q}
+  \omega = \sum f_{I J} d z_{i_1} \wedge \cdots \wedge d z_{i_p} \wedge d \bar z_{j_1} \wedge \cdots \wedge d \bar z_{j_q}
  \,.
 $$
 
