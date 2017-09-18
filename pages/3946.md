@@ -36,7 +36,7 @@ The definition of wavefront sets is motivated by a version of a [[Paley-Wiener t
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Paley-Wiener for $C^{\infty}_0$)**
+**([[Paley-Wiener-Schwartz theorem]])**
 
 
 The vector space $C_0^{\infty}(\mathbb{R}^n)$ of [[smooth function|smooth]] [[compact support|compactly supported]] functions ([[bump functions]]) is (algebraically and topologically) [[isomorphism|isomorphic]], via the [[Fourier transform]], to the space of [[entire functions]] $F$ which satisfy the following estimate: there is a positive constant $B$ such that for every [[integer]] $m \gt 0$ there is a constant $C_m$ such that:
