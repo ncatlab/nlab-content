@@ -133,6 +133,8 @@ With this, the morphism that our proposition claims is the correct composite is 
 
 =--
 
+The co-Kleisli-like composition for finite order differential operators also appears in ([Kock 10, section 7.3](#Kock10)), from a perspective of [[synthetic differential geometry]].
+
 ### In differential cohesion
  {#DefinitionInDifferentialCohesion}
 
@@ -189,5 +191,9 @@ For the case of [[algebraic geometry]], where $\Im X$ is known as the [[de Rham 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
 * {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
+
+Discussion from a point of view of [[synthetic differential geometry]] is in 
+
+* {#Kock10} [[Anders Kock]], _Synthetic geometry of manfiolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 [[!redirects differential operators]]
