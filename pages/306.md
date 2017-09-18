@@ -31,6 +31,8 @@ That the existence of a subobject classifier in a category is a very powerful pr
 
 By restricting the class of monomorphism appropriately, the concept can be relativized to the concept of an _**M**-subobject classifier_[^weak]: e.g. demanding only classification of strong monomorphisms leads to [[quasitopos|quasitoposes]].
 
+In type theory, the type corresponding to the subobject classifier is typically called Prop.
+
 [^weak]: For **M** the class of strong monomorphisms, this is called a _weak subobject classifier_ in Johnstone (2002, p.120).
 
 ## Definition
