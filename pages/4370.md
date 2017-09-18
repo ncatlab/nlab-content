@@ -30,6 +30,8 @@ In point-set topology, a space is [[separable space|separable]] if and only if i
 
 * [[dense subalgebra]]
 
+* [[dense subtopos]]
+
 [[!redirects dense subspace]]
 [[!redirects dense subspaces]]
 [[!redirects dense subset]]
