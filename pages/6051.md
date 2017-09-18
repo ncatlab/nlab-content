@@ -1,15 +1,138 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An [[action functional]] for [[sigma model]]s with [[target space]] a [[pseudo-Riemannian manifold]].
+The _Polyakov action functional_ or _energy functional_ is a standard [[kinetic action|kinetic]] [[action functional]] for [[sigma models]] with [[worldvolume]] $(\Sigma,g)$ and [[target spacetime]] $(X,\mu)$ ([[pseudo-Riemannian manifold|pseudo]])[[Riemannian manifolds]]. Its [[critical points]] are the [[harmonic maps]] from $\Sigma$ to $X$
+
+With a suitable "[[worldvolume]] [[cosmological constant]]" added and with the worldvolume metric "integrated out", then the Polyakov action is [[classical field theory|classically]] equivalent to the [[Nambu-Goto action]] functional, which is simply the "proper volume" function for images of $\Sigma$ in $Y$. But as opposed to the Nambu-Goto action the Polyakov action is quadratic in derivatives. Therefore it is lends itself better to [[perturbation theory]] of [[scattering amplitudes]] -- where the kinetic contributions have to be [[Gaussian integrals]] -- such as in [[worldline formalism]] for [[quantum field theory]] as well as in [[perturbative string theory]].
+
+On the other hand, the [[Nambu-Goto action]] lends itself better to generalizations such as the [[Dirac-Born-Infeld action]] for [[D-branes]].
+
+## Definition
+
+Let 
+
+* $p \in \mathbb{N}$ (for [[p-brane]] dynamics);
+
+* $(X,\mu)$ a [[pseudo-Riemannian manifold]] ([[target spacetime]]);
+
+* $\Sigma$ a [[compact topological space|compact]] [[smooth manifold]] of dimension $(p+1)$ ([[worldvolume]]).
+
+* $[\Sigma,X]$ the [[diffeological space]] of [[smooth functions]] $\Sigma \to X$.
+
+* $Met(\Sigma)$ the [[moduli space]] of ([[pseudo-Riemannian metrics|pseudo]])[[Riemannian metrics]] $g$ on $\Sigma$.
+
+The Polyakov action is the [[smooth function]]
+
+$$
+  S_{Pol}
+  \;\colon\;
+  [\Sigma,X]\times Met(\Sigma)
+  \longrightarrow
+  \mathbb{R}
+$$
+
+which on a map $\phi \colon \Sigma \to X$ and a metric $g$ on $\Sigma$ is given by the [[integral]]
+
+$$
+  S_{Pol}(\phi,g)
+  \coloneqq
+  \int_\Sigma
+    \Vert d\phi\Vert^2    
+  dvol_g
+$$
+
+where the [[derivative]] $d \phi \in \Gamma(T^\ast \Sigma\otimes \phi^\ast T X)$, and where the [[norm]] $\Vert - \Vert$ is given jointly by the metrics $g$ and $\mu$ of $\Sigma$ and $X$.
+
+When both $\Sigma$ and $X$ are covered by single [[coordinate charts]] $(\sigma^a)_{a = 0}^p$ and $(x^\mu)$, then this reads
+
+$$
+  S_{Pol}(\phi,g)
+  =
+  \int_{\Sigma}
+  \sqrt{det g}
+  \left(
+     g^{a b} \eta_{\mu \nu} (\partial_a \phi^\mu) (\partial_b \phi^\nu)
+  \right)
+  d \sigma^0 \cdots d \sigma^p
+$$
+
+with a sum over repeated indices understood. Here $det g$ denotes the [[absolute value]] of the [[determinant]] of $(g_{a b})$ (often written $-det g$ in the pseudo-Riemannian case.)
 
 ## Properties
 
-The Polyakov action is classically equivalent to the [[Nambu-Goto action]] (e.g. [Nieto 01, section 2](#Nieto01)).
+### Relation to Nambu-Goto action
+  {#RelationToNambuGotoAction}
+
+The Polyakov action with a suitable worldvolume cosmological constant term added is classically equivalent to the [[Nambu-Goto action]] (e.g. [Nieto 01, section 2](#Nieto01)).
+
+This [[shell|on-shell]] equivalence is exhibited by the smooth function 
+
+$$
+  \tilde S
+  \;\colon\;
+  [\Sigma,X] \times Met(\Sigma)\times \Gamma(T \Sigma \otimes T \Sigma \otimes Dens \Sigma)
+  \longrightarrow \mathbb{R}
+$$
+
+which on a triple $(\phi,g,\Lambda)$ is given by 
+
+$$
+  \tilde S(\phi,g,\Lambda)
+  \coloneqq
+  \int_\Sigma
+  \left(
+    dvol(g) + \Lambda( \vert d \phi \vert^2 - g)
+  \right)
+  \,,
+$$
+
+where now $\vert d\phi \vert^2$ denotes the square norm only with respect to the metric on $X$. 
+
+Because, on the one hand, the [[equations of motion]] induced by $\tilde S$ for variation of $\Lambda$ are
+
+$$
+  \vert d \phi \vert^2 - g = 0
+$$
+
+and substituting that constraint back into $\tilde S$ gives the [[Nambu-Goto action]]. On the other hand, the equations of motion induced by $\tilde S$ for variation of $g$ are
+
+$$
+  \tfrac{1}{2}g^{-1}dvol(g) - \Lambda = 0
+$$
+
+and substituting that back into $\tilde S$ gives 
+
+$$
+  \tfrac{1}{2}\int_\Sigma 
+  \left(
+    \Vert d \phi\Vert^2
+    +
+    (p-1)
+  \right)
+  dvol(g)
+$$
+
+which is the Nambu goto action with "[[cosmological constant]]" $(p-1)$.
+
+(So the case where this cosmological constant correction disappears is $p = 1$ corresponding to the [[string]].)
 
 ## References
 
@@ -24,3 +147,11 @@ The Polyakov action was introduced in
 Detailed discussion of the relation to the [[Nambu-Goto action]] and the [[Dirac-Born-Infeld action]] is in 
 
 * {#Nieto01} J. A. Nieto, _Remarks on Weyl invariant p-branes and Dp-branes_ ([arXiv:hep-th/0110227](http://arxiv.org/abs/hep-th/0110227))
+
+See also 
+
+* Wikipedia, _[Polyakov action](https://en.wikipedia.org/wiki/Polyakov_action)_
+
+[[!redirects Polyakov action functional]]
+
+[[!redirects energy functional]]
