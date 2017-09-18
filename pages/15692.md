@@ -49,6 +49,10 @@ $$
 [[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 
+## Related concepts
+
+* [[causal propagator]]
+
 ## References
 
 Textbook accounts include
