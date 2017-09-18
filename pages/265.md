@@ -46,13 +46,13 @@ $$
   \,.
 $$
 
-Here if this zig-zag consists just of one morphism to the left one would speak of a **left derived functor**. If it consistis of just one morphism to the right, one would speak of a **right derived functor**. In general, it is just a derived functor.
+Here if this zig-zag consists just of one morphism to the left one would speak of a **left derived functor**. If it consists of just one morphism to the right, one would speak of a **right derived functor**. In general, it is just a derived functor.
 
 ### In the presence of model category structure
 
 In highly structured situations where $C$ and $D$ are equipped not just with weak equivalences but with the full structure of a [[model category]] and if $F$ is a left or right [[Quillen adjunction|Quillen functor]] with respect to these model structures, there are accordingly more structured ways to solve this problem:
 
-the **left derived functor** $\mathbb{L}F : \mathbf{C} \to \mathbf{D}$ of a [[left Quillen functor]] $F : C \to D$ is obtained by applying $F$ to _[[cofibrant objects]]_ of $C$. Similarly a **right derived functor** $\mathbb{R}G : \mathbf{D} \to \mathbf{C}$ of a [[right Quillen functor]] $G : D \to C$ is obtained by applying $G$ to _[[fibrant objects]]_. 
+The **left derived functor** $\mathbb{L}F : \mathbf{C} \to \mathbf{D}$ of a [[left Quillen functor]] $F : C \to D$ is obtained by applying $F$ to _[[cofibrant objects]]_ of $C$. Similarly a **right derived functor** $\mathbb{R}G : \mathbf{D} \to \mathbf{C}$ of a [[right Quillen functor]] $G : D \to C$ is obtained by applying $G$ to _[[fibrant objects]]_. 
 
 Recalling that the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by a [[simplicial model category]] $C$ may be identified with the full [[sSet]]-[[subcategory]] $C^\circ$ of fibrant-cofibrant objects, this may be understood as ensuring that the derived functor indeed respects the $(\infty,1)$-categorical structure. More precisely, for
 
@@ -78,7 +78,7 @@ $$
   R G
 $$
 
-on [[homotopy category|homotopy categories]], and often its is these functors that are called ([[total derived functor|total]]) **derived functors** in the literature
+on [[homotopy category|homotopy categories]], and often it is these functors that are called ([[total derived functor|total]]) **derived functors** in the literature
 
 More generally, derived functors in this sense may be considered in situations where less than the above extra structure is available (no [[model category]] structure or not [[Quillen adjunction]]).
 
@@ -101,7 +101,7 @@ where $Q_C : C \to Ho(C)$ is the universal morphism characterizing the [[homotop
 
 There is a general method of ordinary [[category theory]] to solve such problems universally: one may take $Ho(C) \to Ho(D)$ to be either the left or right [[Kan extension]] of $Q_d \circ F$ along $Q_C$.
 
-This is often in the literature given as the _definition_ of, respectively , [[total derived functor|total]] left and right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category]] theory picture. Moreover, the examples of derived functors that play any practical role are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It then also happens that the functors so obtained are left or right Kan extensions.
+This is often in the literature given as the _definition_ of, respectively, [[total derived functor|total]] left and right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category]] theory picture. Moreover, the examples of derived functors that play any practical role are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It then also happens that the functors so obtained are left or right Kan extensions.
 
 
 ## Definition
@@ -272,7 +272,7 @@ Of course, these homology groups are precisely the left derived functors of $F$,
 
 All of this works without hypothesis on $F$.  However, if $F$ is [[right exact functor|right exact]], then it preserves the exactness of the sequence
 $$ Q A_1 \to Q A_0 \to A \to 0 $$
-(and the analogous ones for $B$ and $C$.  This implies that $F A \cong H_0 (F Q A)$ and so on, so that the above long exact sequence actually finishes
+(and the analogous ones for $B$ and $C$).  This implies that $F A \cong H_0 (F Q A)$ and so on, so that the above long exact sequence actually finishes
 $$ \cdots \to H_1(F Q A) \to H_1(F Q B) \to H_1(F Q C) \to F A \to F B \to F C \to 0. $$
 This is how derived functors are traditionally introduced in homological algebra: as a way to continue the right half of a short exact sequence preserved by a right exact functor into a long exact sequence.  The case of left exact functors and right derived functors is dual.
 
@@ -309,7 +309,7 @@ General discussion of derived functors in [[homotopy theory]] is for instance in
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
-and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+and Homotopical Categories]]_, volume 113 of Mathematical Surveys and Monographs
 
 * [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
 
