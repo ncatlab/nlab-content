@@ -25,6 +25,10 @@ The [[Lie group]] called $E_8$ is the largest-dimensional one of the five [[exce
 
 ## Properties
 
+### As part of the ADE pattern
+
+[[!include ADE -- table]]
+
 ### Homotopy groups
 
 The first nontrivial [[homotopy group]] of the [[topological space]] underlying $E_8$ is
