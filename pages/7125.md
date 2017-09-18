@@ -181,6 +181,8 @@ $$\mathbf{Gl}(f) \to E \times F \stackrel{proj}{\to} F,$$
 
 thus realizing $F$ as equivalent to the [[closed subtopos]] ([[Elephant]], A.4.5, pp. 205-206) attached to the subterminal object $X$. 
 
+### Some details and further adjunctions
+
 The sheaves in $\mathbf{Gl}(f)$ corresponding to the open resp. closed subtoposes can be described explicitly. Recall that the objects of $\mathbf{Gl}(f)$ have the form $(X, Y, u:Y\to f(X))$: then the open copy of $E$ corresponds to the subcategory on those objects $(X, Y, u:Y\to f(X))$ with $u$ an isomorphism in $F$ and the closed copy of $F$  to the subcategory with objects $(X, Y, u:Y\to f(X))$ such that $X\simeq 1$ in $E$.
 
 The [[open subtopos]] corresponding to $E$ is [[dense subtopos|dense]] in $\mathbf{Gl}(f)$ precisely if $f:E\to F$ preserves the initial object since $(0,0,0\to f(0))$ is the initial object in $\mathbf{Gl}(f)$ and $0\to f(0)$ is an isomorphism precisely if $f$ preserves $0$. 
@@ -210,7 +212,7 @@ The closed inclusion $j$ is essential i.e. $j^\ast$ has a left adjoint $j_!$ pre
 ######Proof
 Suppose $j_!$ exists. The fringe functor $f$ is up to natural isomorphism just $j^\ast i_\ast$ and $i^\ast j_!\dashv j^\ast i_\ast$ since adjoints compose.
 
-Conversely, suppose that $l\dashv f$ with $\eta\colon id\to f{l}$ the corresponding unit. Define 
+Conversely, suppose that $l\dashv f$ with $\eta\colon id\to f{l}$ the corresponding [[unit of an adjunction|unit]]. Define 
 
 $$ j_{!} \colon F\to \mathbf{Gl}(f) \qquad Y\mapsto (l(Y),Y,\eta_Y\colon Y\to f{l}(Y)) \quad .$$
 
@@ -230,7 +232,25 @@ This establishes a bijective correspondence between $Y_1\to j^\ast(X,Y,u)$ and $
 
 =--
 
-In particular, the left adjoint $j_!$ exists if the fringe functor $f$ is the direct image of a geometric morphism, or the inverse image of an essential geometric morphism.
+In particular, the left adjoint $j_!$ exists if the fringe functor $f$ is the [[direct image]] of a geometric morphism, or the [[inverse image]] of an [[essential geometric morphism]].
+
+The existence of a _right_ adjoint for the fringe functor: $f\dashv r\colon F\to E$, on the other hand, corresponds to the existence of an 'amazing' right adjoint for the open subtopos inclusion: $i_\ast\dashv i^!:\mathbf{Gl}(f)\to E$.
+
+One direction follows again from the composition of adjoints: $j^\ast i_\ast\dashv i^! j_\ast$ , whereas for the other direction we define:
+
+$$
+ i^!\colon \mathbf{Gl}(f)\to E \qquad (X,Y,u)\mapsto r(Y)\quad .
+$$
+
+Note that in this case $E$ is dense and we get a 'co-cohesive' adjoint string 
+
+$$i_!\dashv i^\ast\dashv i_\ast \dashv i^!\colon \mathbf{Gl}(f)\to E$$
+
+where $i_!$ and $i_\ast$ are fully faithful.
+
+In particular, when the fringe functor is the inverse image of an essential geometric morphism, we get an additional shorter adjoint string involving the closed subtopos as well:
+
+$$j_!\dashv j^\ast\dashv j_\ast \colon \mathbf{Gl}(f)\to F\quad .$$
 
 ### Examples 
 
