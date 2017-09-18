@@ -6502,6 +6502,9 @@ Specifically we are interested in [[complex oriented cohomology]] theories $E$, 
 
 **Literature.** ([Kochman 96, section 4.3](#Kochman96), [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
+* Riccardo Pedrotti, _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+
+
 $\,$
 
 ##### Universal $E$-orientation
