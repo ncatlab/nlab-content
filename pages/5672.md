@@ -1,4 +1,6 @@
 
+Ulrike Tillmann is professor for pure [[mathematics]] at Oxford.
+
 * [website](http://people.maths.ox.ac.uk/tillmann/)
 
 ## Related $n$Lab entries
