@@ -232,6 +232,8 @@ for the image under the [[Dold-Kan correspondence]] of the presheaf of chain com
 
 ## Differential concretification on contractibles
 
+We first consider differential concretification on geometrically contractible base spaces. Once this is established, then the general differential concretification follows simply by stackifying along the base space.
+
 +-- {: .num_defn #DifferentialConcretificationForCirclenConnectionsOnContractible}
 ###### Definition
 **(differential concretification for higher circle connections on contractibles)**
@@ -464,6 +466,7 @@ With this the induction follows by prop. \ref{nImageFactroizationModeledOnSimpli
 =--
 
 ## General differential concretification
+ {#GeneralDifferentialConcretification}
 
 +-- {: .num_defn #DifferentialConcretificationOfCirclenConnections}
 ###### Definition
