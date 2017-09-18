@@ -708,7 +708,7 @@ and is often attributed to
  
 In fact, it seems that this is the origin of the very notion of [[Kan complex]].
 
-A proof is also also on p. 14 of
+A proof is also on p. 14 of
 
 * {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] chapter I of _An introduction to simplicial homotopy theory_, 2005  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01))
 
