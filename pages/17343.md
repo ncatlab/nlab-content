@@ -4225,24 +4225,32 @@ We now discuss that the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebr
 
 Say that a [[continuous function]], hence a [[morphism]] in [[Top]], is
 
-* a (classical) **weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
+* a **classical weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
 
-* a (classical) **fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
+* a **classical fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
 
-* a (classical) **cofibration** if it is a [[retract]], rem \ref{RetractsOfMorphisms}, of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
+* a **classical cofibration** if it is a [[retract]], rem \ref{RetractsOfMorphisms}, of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
 
-Write $W_{cl}$, $Fib_{cl}$ and $Cof_{cl}$ for the classes of these morphisms, respectively.
+and hence
+
+* a **classical acyclic cofibration** if it is a classical cofibration as well as a classical weak equivalence;
+
+* a **classical acyclic fibration** if it is a classical fibration as well as a classical weak equivalence.
+
+Write 
+
+$$
+  W_{cl},\;Fib_{cl},\;Cof_{cl}
+  \subset 
+  Mor(Top)
+$$ 
+
+for the classes of these morphisms, respectively.
 
 =--
 
-and as usual:
 
-* a (classical) **acyclic cofibration** if it is a classical cofibration and a classical weak equivalence;
-
-* a (classical) **acyclic fibration** if it is a classical fibration and a classical weak equivalence.
-
-
-We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]].
+We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]] (after some lemmas, this is theorem \ref{TopQuillenModelStructure} below).
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
