@@ -1,4 +1,3 @@
-<div style="float:left;margin:0 10px 10px 0;"><img src="https://lh4.googleusercontent.com/-Y3_sV_ks7a8/U4PWQ4BtYVI/AAAAAAAAAp0/coMxk-fGceo/w140-h139-p/IMG_20140524_120431.jpg" alt="Sanath Devalapurkar" /></div>
 I am a $14$-year old student aspiring to be a mathematician. I love studying higher category theory. I've recently been studying the K-theory of $\infty$-operads, and seem to have answered a question posed by Gunnar Carlsson. For more information on this, read my notes available [here](https://www.sharelatex.com/project/54616b63a38cbf0748879f12/output/output.pdf?cache_bust=1418262375589).
 
 More generally, though, what I'm interested in is studying the following interesting analogy:
@@ -15,7 +14,7 @@ My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems
 
  - Here are my notes on [[K-theory-and-Morita-Theory.pdf|K-theory and Morita Theory:file]], which accompany the slides above.
 
- - Lastly, here are very very informal notes on [[Hopf-Galois-extensions.pdf|Hopf-Galois extensions:file]] that very likely contain crazy things that are most likely wrong (I'm aware of a few mistakes, but do inform me if you find anything!).
+ - Lastly, here are very very informal notes on [[Hopf-Galois-extensions.pdf|Hopf-Galois extensions:file]], that very likely contain crazy things that are most likely wrong (I'm aware of a few mistakes, but do inform me by email if you find anything!).
 <hr>
 Category: people 
 
