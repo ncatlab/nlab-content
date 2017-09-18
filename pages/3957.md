@@ -50,7 +50,7 @@ See for instance ([Blute](#Blute)).
 
 ## Examples
 
-* A [[Cartesian space]] $\mathbb{R}^n$ carries a unique structure of a convenient vector space.
+* A [[Cartesian space]] $\mathbb{R}^n$ carries a unique structure of a convenient vector space. This also holds for [[Fréchet space]]s in general and countable strict locally convex inductive limits thereof. (See [[LF space]]).
 
 * For $X$ and $Y$ to convenient vector spaces, the vector space of [[smooth function]]s $C^\infty(X,Y)$ is again a convenient vector space. This is to a large degree the motivating example. It makes the category of convenient vector spaces by Cartesian closed. (See below).
 
