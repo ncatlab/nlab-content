@@ -41,6 +41,7 @@ For $E = M \mathbb{Z}_p$ the [[Moore spectrum]] of the [[cyclic group]] $\mathbb
 +-- {: .num_defn #AcyclicAndLocal}
 ###### Definition
 
+
 Let $E \in Spec$ be a [[spectrum]]. 
 
 Say that another spectrum
@@ -365,10 +366,11 @@ E.g. ([Bauer 11, example 1.7](#Bauer11)). See at _[[localization of a space]]_ f
 
 ## References
 
-The original article is
+Original articles are
 
 * {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
- 
+
+* {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf)) 
 
 Lecture notes include
 
