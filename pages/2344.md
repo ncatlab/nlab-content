@@ -327,7 +327,7 @@ We discuss precise versions of the idea that derivators indeed constitute a mode
 +-- {: .num_theorem}
 ###### Theorem
 
-The [[2-category]] of "[[locally presentable category|locally presentable]]" derivators (see [above](2CategoryOfDerivators)) is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  
+The [[2-category]] of "[[locally presentable category|locally presentable]]" derivators (see [above](2CategoryOfDerivators)) and pair of adjoints as morphisms is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  
 
 =--
 
