@@ -221,7 +221,7 @@ Other useful references include
 
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Advances in Mathematics **222** no.6 (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
 
-* {#Caramello12a}[[Olivia Caramello]], _Universal models and definability_ , Math. Proc. Cam. Phil. Soc. (2012) pp.279-302. ([arXiv:0096.3061](http://arxiv.org/abs/0096.3061))
+* {#Caramello12a}[[Olivia Caramello]], _Universal models and definability_ , Math. Proc. Cam. Phil. Soc. (2012) pp.279-302. ([arXiv:0906.3061](http://arxiv.org/abs/0906.3061))
 
 * {#Caramello12}[[Olivia Caramello]], _Topologies for intermediate logics_ , arXiv:1205.2547 (2012). ([abstract](http://arxiv.org/abs/1205.2547))
 
