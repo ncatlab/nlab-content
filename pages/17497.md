@@ -839,7 +839,7 @@ If $(\mathcal{C}, \otimes , 1)$ is a [[symmetric monoidal category]] (def. \ref{
 +-- {: .num_example #TensorProductOfTwoCommutativeMonoids}
 ###### Example
 
-Given a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), and given two [[commutative monoid in a symmetric monoidal category|commutative monoids]] $(E_i, \mu_i, e_i)$ $i \in \{1,2\}$ (def. {MonoidsInMonoidalCategory}), then the [[tensor product]] $E_1 \otimes E_2$ becomes itself a commutative monoid with unit morphism
+Given a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), and given two [[commutative monoid in a symmetric monoidal category|commutative monoids]] $(E_i, \mu_i, e_i)$ $i \in \{1,2\}$ (def. \ref{MonoidsInMonoidalCategory}), then the [[tensor product]] $E_1 \otimes E_2$ becomes itself a commutative monoid with unit morphism
 
 $$
   e \;\colon\;
@@ -862,9 +862,46 @@ $$
   E_1 \otimes E_2
 $$
 
-(where we are notationally suppressing the [[associators]] and where $\tau$ denotes the [[braiding]] of $\mathcal{C} ).
+(where we are notationally suppressing the [[associators]] and where $\tau$ denotes the [[braiding]] of $\mathcal{C}$).
 
 That this definition indeed satisfies associativity and commutativity follows from the corresponding properties of $(E_i,\mu_i, e_i)$, and from the hexagon identities for the braiding (def. \ref{BraidedMonoidalCategory}) and from symmetry of the braiding.
+
+Similarly one checks that for $E_1 = E_2 = E$ then the unit maps
+
+$$
+  E \simeq E \otimes 1 
+    \overset{id \otimes e}{\longrightarrow}
+  E \otimes E
+$$
+
+$$
+  E \simeq 1 \otimes E 
+    \overset{e \otimes 1}{\longrightarrow}
+  E \otimes E
+$$
+
+and the product map
+
+$$
+  \mu 
+    \;\colon\;
+  E \otimes E
+    \longrightarrow
+  E  
+$$
+
+and the braiding
+
+$$
+  \tau_{E,E}
+    \;\colon\;
+  E \otimes E
+    \longrightarrow
+  E \otimes E
+$$
+
+are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid structure.
+
 
 =--
 
