@@ -26,7 +26,7 @@
 
 Let $G$ be a [[compact topological group|compact]] [[Lie group]]. 
 
-A **[[torus]]** in $G$ is an [[abelian group|abelian]] [[subgroup]] $T \hookrightarrow G$ which is [[connected topological space|connected]] (and [[compact topological group|compact]]).
+A **[[torus]]** in $G$ is an [[abelian group|abelian]] [[subgroup]] $T \hookrightarrow G$ which is [[connected topological space|connected]] (and [[compact topological group|compact]]). Note that any compact connected abelian Lie group must be a torus, hence the name.
 
 A **maximal torus** is a subgroup which is maximal with these properties.
 
