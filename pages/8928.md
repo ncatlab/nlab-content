@@ -80,6 +80,8 @@ Reviews include
 
 * [[Juan Maldacena]], _Black Holes and D-branes_, Nucl.Phys.Proc.Suppl. 61A (1998) 111-123; Nucl.Phys.Proc.Suppl. 62 (1998) 428-442 ([arXiv:hep-th/9705078](http://arxiv.org/abs/hep-th/9705078))
 
+* [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
 * Sumit R. Das, [[Samir Mathur]], _The Quantum Physics of Black Holes: Results from String Theory_ ([arXiv:gr-qc/0105063](http://arxiv.org/abs/gr-qc/0105063))
 
 * Justin R. David, Gautam Mandal, Spenta R. Wadia, _Microscopic Formulation of Black Holes in String Theory_ ([arXiv:hep-th/0203048](http://arxiv.org/abs/hep-th/0203048))
