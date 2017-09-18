@@ -19,7 +19,7 @@
 
 ## Idea
 
-By the _[[brane scan]]_ there exists a [[classical field theory|classical]] ([[prequantum field theory|pre-quantum]]) [[Green-Schwarz super p-brane sigma model]] for $p =2 $ ([[supermembrane]]) with [[target space]] being $d = 4$ dimensional [[super Minkowski spacetime]] with [[spin representation|N=1]] [[supersymmetry]],  or more generally a [[superspacetime]] which is a  [[super Cartan geometry]] solving the [[equations of motion]] of [[d=4 N=1 supergravity]] (The literature traditionally knows ths is the "4d supermembrane".)
+By the _[[brane scan]]_ there exists a [[classical field theory|classical]] ([[prequantum field theory|pre-quantum]]) [[Green-Schwarz super p-brane sigma model]] for $p =2 $ ([[supermembrane]]) with [[target space]] being $d = 4$ dimensional [[super Minkowski spacetime]] with [[spin representation|N=1]] [[supersymmetry]],  or more generally a [[superspacetime]] which is a [[super Cartan geometry]] solving the [[equations of motion]] of [[d=4 N=1 supergravity]]. (The literature traditionally knows this as the "4d supermembrane".)
 
 Its [[double dimensional reduction]] is the [[super 1-brane in 3d]] (see there) for $N=(1,1)$ [[3d supergravity]].
 
@@ -47,7 +47,7 @@ Further dicussion of the coupling to the [[d=4 N=1 supergravity]] background inc
 
 * Carlos Meliveo, _On Supermembrane in $D=4$, multiple M0-brane in $D=11$ and Supersymmetric Higher Spin Theories_ ([arXiv:1312.3512](http://arxiv.org/abs/1312.3512))
 
-Discussion of strongly coupld 4d physics akin to 11d [[M-theory]] with its [[M2-brane]] includes
+Discussion of strongly coupled 4d physics akin to 11d [[M-theory]] with its [[M2-brane]] includes
 
 * [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod.Phys.Lett.A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
 
