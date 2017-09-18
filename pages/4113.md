@@ -41,15 +41,76 @@ What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refini
 
 ## Properties
 
-### Relation to locally finite open covers
+### Existence on paracompact spaces
 
-* [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
++-- {: .num_prop #ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}
+###### Proposition
+**([[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]])**
 
-[[Normal spaces]] have the property that every [[locally finite cover]] has a subordinate partition of unity.
+Assuming the [[axiom of choice]] then:
 
-The last two are actually characterisations of paracompact hausdorff resp. normal spaces (reference Bourbaki, Topology Generale - find this!)
+Let $(X,\tau)$ be a [[topological space]]. Then the following are equivalent:
 
-Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic.
+1. $(X,\tau)$ is a [[paracompact Hausdorff space]].
+
+1. Every [[open cover]] of $(X,\tau)$ admits a subordinate partition of unity.
+
+=--
+
+
+
+
+Similarly [[normal spaces]] are equivalently those such that every [[locally finite cover]] has a subordinate partition of unity (reference Bourbaki, Topology Generale - find this!)
+
+Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a partition of unity by functions $\{\phi_i \colon U_i \to \mathbb{R}\}_{i \in I}$ which are _[[smooth functions]]_.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\{\mathbb{R}^n  \underoverset{\simeq}{\phi_j X}{\to}\}_{j \in J}$ be an [[atlas]] for the smooth manifold. Then by definition, for each point $x \in X$ there is $i \in I$ and $j \in J$ such that 
+
+$$
+  x \in U_i \cap Im(\phi_j)
+  \,.
+$$
+
+By the nature of the [[subspace topology]], this intersection is still an open subset of $Im(\phi_j) \simeq \mathbb{R}^n$. Therefore by the nature of the [[metric topology]] there exists a [[positive number|positive]] [[real number]] $\epsilon_{x}$ such that the [[open ball]] $B^\circ_x(\epsilon_x) \subset U_i \cap Im(\phi_j)$ is an open neighbourhood of $x$ contained in $U_i$.
+
+Let 
+
+$$
+  \left\{
+     B^\circ_x(\epsilon_x)
+     \subset X
+  \right\}_{x \in X}
+$$
+
+be the collection of choices of such open balls, around each point of the manifold. This is an [[open cover]] which [[refinement|refines]] the original open cover. By [[paracompact topological space|paracompactness]], there exists a [[locally finite cover|locally finite]] subcover, hence a [[subset]] of points $S \subset X$ such that
+
+$$  
+  \left\{
+     B^\circ_s(\epsilon_s)
+     \subset
+     X
+  \right\}_{s \in S \subset X}
+$$
+
+is a locally finite open cover of $X$.
+
+(...)
+
+
+
+
+
+=--
 
 
 ### From a non-point finite partition of unity to a partition of unity
