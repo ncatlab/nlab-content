@@ -14,3 +14,13 @@ $$
   }
   \,,
 $$
+
+this is a list:
+
+* first item
+
+* second item with a displayed equation
+$$x = y$$
+and more text
+
+* third item
