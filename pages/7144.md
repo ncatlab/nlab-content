@@ -393,6 +393,7 @@ An early occurence of the concept of stabilizer subgroups is in p. 4 of
 [[!redirects stabiliser ∞-groups]]
 [[!redirects stabiliser infinity-groups]]
 
+[[!redirects homotopy stabilizer group]]
 
 [[!redirects stabilizer subgroup]]
 [[!redirects stabiliser subgroup]]
