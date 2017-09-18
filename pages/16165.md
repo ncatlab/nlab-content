@@ -1,0 +1,11 @@
+
+## Idea
+
+The concept of [[type]] in [[computer science]]
+
+## References
+
+* {#Sale77} [[Arhtur Sale]], _Primitive data types_, The Australian Computer Journal, Vol. 9, No. 2, July 1977 ([pdf](http://eprints.utas.edu.au/139/1/PrimitiveData.pdf))
+
+
+[[!redirects data types]]
