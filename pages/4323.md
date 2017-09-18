@@ -61,7 +61,7 @@ All these Thom spectra happen to naturally have the structure of [[E-∞ rings]]
 For $V \to X$ a [[vector bundle]], there is a [[weak homotopy equivalence]]
 
 $$
-  Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) \simeq \Sigma^n Th(V)
+  Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
 $$
 
 between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundles]] of $V$ with the trivial [[vector bundle]] of [[rank]] $n$ and, on the other, the $n$-fold [[reduced suspension]] of the [[Thom space]] of $V$.
@@ -71,7 +71,7 @@ between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundl
 +-- {: .num_defn}
 ###### Definition
 
-For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[spectrum]] $E_\bullet$ whose $n$th component is the [[Thom space]] of $\mathbb{R}^n \oplus V$
+For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[spectrum]] $E_\bullet$ whose $n$th component (as a [[sequential spectrum|sequential]] [[prespectrum]]) is the [[Thom space]] of $\mathbb{R}^n \oplus V$
 
 $$
   E_n \coloneqq (X^V)_n \coloneqq Th(\mathbb{R}^n \oplus V)
