@@ -19,7 +19,7 @@
 
 ## Statement
 
-For $E$ a [[homotopy commutative ring spectrum]], there is a bijection between [[complex oriented cohomology theory|complex orientation]] on $E$ and homotopy ring spectrum homomorphism $MU \longrightarrow E$ from [[MU]].
+For $E$ a [[homotopy commutative ring spectrum]], there is a [[bijection]] between [[complex oriented cohomology theory|complex orientations]] on $E$ and homotopy ring spectrum homomorphism $MU \longrightarrow E$ from [[MU]].
 
 Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
@@ -28,7 +28,6 @@ Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
 
 ## Details
-
 
 
 ### Conner-Floyd-Chern classes are Thom classes
