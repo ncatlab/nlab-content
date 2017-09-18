@@ -26,7 +26,7 @@ $$
   \,.
 $$
 
-Later more instances of such characterizations of familiar [[E-∞ rings]] have been given: 
+Later more instances of such characterizations of familiar [[E-∞ rings]] have been given:
 
 * in ([Gepner-Snaith 08](#GepnerSnaith08)) the analogous statement for [[algebraic K-theory]] is formulated in terms of [[motivic spectra]];
 
@@ -36,7 +36,7 @@ Later more instances of such characterizations of familiar [[E-∞ rings]] have 
 
 ### Preliminaries
 
-For $A$ an [[abelian ∞-group]] write $E \coloneqq \mathbb{S}[A] = \Sigma^\infty_+ A$ for its [[∞-group E-∞ ring]]. 
+For $A$ an [[abelian ∞-group]] write $E \coloneqq \mathbb{S}[A] = \Sigma^\infty_+ A$ for its [[∞-group E-∞ ring]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -46,7 +46,7 @@ For $\beta \in \pi_n(E)$ an element of the $n$th stable [[homotopy group]], then
 $$
   \beta_\ast
   \;\colon\;
-  E 
+  E
   \to
   \Sigma^{-n} E
   \,.
@@ -60,7 +60,7 @@ $$
   \underset{\to}{\lim}
   \left[
     E \stackrel{\beta_\ast}{\to}
-    \Sigma^{-n}E 
+    \Sigma^{-n}E
     \stackrel{\Sigma^{-n} \beta_\ast}{\to}
    \Sigma^{-2n} E
    \to
@@ -75,8 +75,11 @@ which has the [[universal property]] that $\mu_\beta$ becomes an [[equivalence]]
 
 
 ### For complex topological K-theory
+ {#ForComplexTopologicalKTheory}
 
-#### On cohomology groups
+The original formulation of Snaith's theorem ([Snaith 79, theorem 2.12](#Snaith70), spring) for complex [[topological K-theory]].
+
+#### Preliminaries
 
 Write $(Ho(Top), \times, \ast)$ for the [[classical homotopy category]], regarded as a [[symmetric monoidal category]] under forming [[product spaces]], with [[tensor unit]] the [[point space]].
 
@@ -90,16 +93,15 @@ $$
   [A,B] \coloneqq Hom_{Ho(Spectra)}(A,B) \in Ab
 $$
 
-for [[hom-set]] in the [[stable homotopy group]] and 
+for [[hom-set]] in the [[stable homotopy category]] and write
 
 $$
   [A,B]_\bullet \coloneqq [\Sigma^\bullet A, B]
 $$
 
-for the $\mathbb{Z}$-graded group ([this def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)).
+for the corresponding $\mathbb{Z}$-graded group ([this def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)).
 
-
-There are two pairs of ([[derived functor|derived]]) [[adjoint functors]] 
+There are two pairs of ([[derived functor|derived]]) [[adjoint functors]]
 
 $$
   Ho(Spectra)
@@ -131,18 +133,18 @@ $\mu \;\colon\; G \times G \longrightarrow G$
 
 $e \;\colon\; \ast \longrightarrow G$
 
-satisfiny [[associativity]] and [[unitality]] in $Ho(Spectra)$, and the corresponding ring spectrum has product
+satisfying [[associativity]] and [[unitality]] in $Ho(Spectra)$, and the corresponding ring spectrum has product
 
 $$
 
   \left(\Sigma^\infty(G_+)\right)
-    \wedge 
+    \wedge
   \left( \Sigma^\infty G_+\right)
    \;\simeq\;
   \Sigma^\infty( (G \times G)_+ )
     \overset{\Sigma^\infty (e_+)}{\longrightarrow}
   \Sigma^\infty (G_+)
-$$ 
+$$
 
 and unit
 
@@ -163,6 +165,9 @@ $$
 
 eqipped with this monoid structure
 the _[[H-group ring spectrum]]_ of $G$. See [there](∞-group+∞-ring#HGroupRingSpectra) for more.
+
+
+#### The ring spectrum of the circle 2-group
 
 One such [[H-group]] is the _[[circle 2-group]]_, hence (the [[homotopy type]] of) the [[classifying space]] $B U(1)$ for [[complex line bundles]], equivalently the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, canonically presented by the [[complex projective space]] $\mathbb{C}P^\infty$
 
@@ -220,7 +225,7 @@ for $i \in \{1,2\}$ given by
 $$
   \Sigma^{n_1 + n_2}
   \Sigma^\infty X
-    \overset{\Sigma^{n_1+ n_2} \Sigma^\infty \Delta_X}{\longrightarrow} 
+    \overset{\Sigma^{n_1+ n_2} \Sigma^\infty \Delta_X}{\longrightarrow}
   \Sigma^{n_1 + n_2}
   \Sigma^\infty (X \wedge X)
    \simeq
@@ -247,7 +252,7 @@ $$
 Here the isomorphism on the left is the combination of the strong monoidalness of $\Sigma^\infty$ with the respect of suspension $\Sigma$ for the smash product of spectra (the [[tensor triangulated category]] structure on $Ho(Spectra)$, [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)).
 
 
-Observe that we have a splitting 
+Observe that we have a splitting
 
 $$
   \Sigma^\infty(B U(1)_+)
@@ -274,7 +279,7 @@ $$
   h \colon S^2 \longrightarrow B U(1)
 $$
 
-in $[S^2, B U(1)] \simeq \pi_2(B U(1)) \simeq \mathbb{Z}$ which classifies the [[basic complex line bundle on the 2-sphere]] and represents $1 \in \mathbb{Z}$, induces a morphism 
+in $[S^2, B U(1)] \simeq \pi_2(B U(1)) \simeq \mathbb{Z}$ which classifies the [[basic complex line bundle on the 2-sphere]] and represents $1 \in \mathbb{Z}$, induces a morphism
 
 $$
   \beta
@@ -288,34 +293,39 @@ $$
   \Sigma^\infty (B U(1)_+)
 $$
 
-in $[\mathbb{S}, \Sigma^\infty(B U(1)_+)]_2$.
+hence an element in $[\mathbb{S}, \Sigma^\infty(B U(1)_+)]_2$.
 
-For $X \in Ho(Top^{\ast/})$ we write 
 
-$$
-  \beta \cdot (-)
-    \;\colon\;
-  [\Sigma^\infty X, \Sigma^\infty( B U(1)_+ )]_\bullet
-    \longrightarrow
-  [\Sigma^\infty X, \Sigma^\infty( B U(1)_+ )]_{\bullet + 2}
-$$
+#### The morphism to $K U$
 
-for the operation of [[smash product]] with $\beta$, sending $\Sigma^n \Sigma^\infty X \overset{\alpha}{\longrightarrow} \Sigma^\infty (B U(1)_+)$ to
+There is a canonical morphism
 
 $$
-  \Sigma^{n+2} \Sigma^\infty X
-   \simeq
-  \Sigma^2 \mathbb{S} \wedge \Sigma^n \Sigma^\infty X
-    \overset{ \beta \wedge \alpha  }{\longrightarrow}
-  \Sigma^\infty (B U(1)_+) \wedge \Sigma^\infty( B U(1)_+ )
-    \overset{ \Sigma^\infty(\mu_+) }{\longrightarrow}
-  \Sigma^\infty (B U(1)_+)
+  \Sigma^\infty(B U(1)_+)
+    \overset{\Phi}{\longrightarrow}
+  K U
+$$
+
+in $Ho(Spectra)$, being the $(\Sigma^\infty \dashv \Omega^\infty)$-[[adjunct]] of 
+
+$$
+  B U(1)_+ \longrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
+$$
+
+in $Ho(Top^{\ast/})$, which in turn comes from the canonical 
+
+$$
+  \mathcal{O}(1) \;\colon\; B U(1) \longrightarrow B U \simeq B U \times \{1\} \hookrightarrow B U \times \mathbb{Z}
   \,.
 $$
 
-The above splitting also gives a morphism
+Since the [[formal group law]] for K-theory says that $\mu^\ast ( \mathcal{O}(1) ) \simeq pr_1^\ast (\mathcal{O}(1)) \otimes pr_2^\ast(\mathcal{O}(2))$ this is a homomoprhism of ring spectra.
+
+Under the above splitting the morphism $\Phi$ decomposes as
 
 $$
+  \Phi  
+    \;\colon\;
   \Sigma^\infty (B U(1)_+)
     \simeq
   \Sigma^\infty B U(1)  \oplus \mathbb{S}
@@ -323,50 +333,89 @@ $$
   KU
 $$
 
-where $\tilde i$ is the $(\Sigma^\infty \dashv \Omega^\infty)$-[[adjunct]] of 
+Here $\tilde i$ must take the first wedge summand to a the class of a virtual bundle of vanishing
+virtual rank and $e_{KU}$ must takes the second summand to an integer.
+
+This implies that $\tilde i$ is the $(\Sigma^\infty \dashv \Omega^\infty)$-[[adjunct]] of the map 
+that takes a line bundle to its class in reduced K-theory
 
 $$
-  B U(1) \overset{h \mapsto (h-1)}{\longrightarrow} B U \hookrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
+  B U(1) \overset{\mathcal{O}(1) \mapsto (\mathcal{O}(1)-1)}{\longrightarrow} B U \simeq B U \times \{0\} \hookrightarrow B U \times \mathbb{Z} \simeq \Omega^\infty K U
 $$
 
 whereas $e_{K U}$ is the ring spectrum unit of $K U$.
 
-Now under this morphism, multiplication by $\beta$ goes to multiplication with the [[Bott element]]
+Now observe that $\Phi$ takes multiplication by $\beta$ to multiplication with the [[Bott element]] $(n-1)$:
+
+This is because multiplication by $\beta$ is the outer right boundary of the following diagram
 
 $$
   \array{
      \Sigma^\infty S^2 \wedge \Sigma^n \Sigma^\infty X
      \\
-     \downarrow^{\mathrlap{ (h \oplus 0) \wedge \alpha }}
+     {}^{\mathllap{ (h \oplus 0) \wedge id }}\downarrow
      \\
-     \left(\Sigma^\infty( B U(1) ) \oplus \mathbb{S}\rihgt) \wdge \Sigma^n \Sigma^\infty X
+     \left(\Sigma^\infty( B U(1) ) \oplus \mathbb{S}\right) \wedge \Sigma^n \Sigma^\infty X
      \\
-     \downarrow && \downarrow
+     {}^{\mathllap{id \wedge \alpha}}\downarrow
      \\
      \Sigma^\infty(B U(1)_+) \wedge \Sigma^n \Sigma^\infty( B U(1)_+ )
        &\overset{\Sigma^n\Sigma^\infty (\mu_+)}{\longrightarrow}&
      \Sigma^n \Sigma^\infty (B U(1)_+)
      \\
      \downarrow && \downarrow
-     \\  
+     \\
      K U \wedge \Sigma^n K U &\longrightarrow & \Sigma^n K U
   }
 $$
 
+and since the bottom square commutes (since tensor product of line bundles corresponds to their product in K-theory)
+this is equivalent to the left and bottom boundary, which, by the above discussion, is multiplication with the 
+[[Bott element]] $(h-1)$.
 
-#### On representing spectra
+Since the Bott element is invertible in $K U$, this means that the above morphism [[extension|extends]] to the quotient (...say what this is...)
+
+$$
+  \array{
+    \Sigma^\infty( B U(1)_+ ) &\overset{\Phi}{\longrightarrow}& K U
+    \\
+    \downarrow & & \nearrow_{\mathrlap{\exists \Phi}}
+    \\
+    \Sigma^\infty( B U(1)_+ )[\beta^{-1}]
+  }
+$$
+
+#### Isomorphy
+
+
 
 +-- {: .num_theorem}
 ###### Theorem
 
-1. the [[K-theory spectrum]] for [[complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized at the [[Bott element]] $\beta$:
+The morphism
 
-   $$
-     KU \simeq (\mathbb{S}[B U(1)])[\beta^{-1}]
-     \,;
-   $$
+$$
+  \Phi 
+    \;\colon\;
+  \Sigma^\infty ( B U(1)_+ )[\beta^{-1}]
+    \longrightarrow
+  K U
+$$
 
-1. the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
+is an [[isomorphism]].
+
+=--
+
+([Snaith 81, theorem 2.12](#Snaith81), [Hopkins-Mathew](#HopkinsMathew))
+
+
+
+### For periodic complex cobordism
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
 
    $$
      PMU \simeq (\mathbb{S}[B U])[\beta^{-1}]
@@ -374,8 +423,8 @@ $$
    $$
 
 =--
- 
-([Snaith 79](#Snaith79), [Hopkins-Mathew](#HopkinsMathew)) spring
+
+([Snaith 81, theorem 2.7](#Snaith81))
 
 ### For algebraic K-theory
 
@@ -403,7 +452,7 @@ $$
 
 from the [[Morava stabilizer group]] $\mathbb{G}_n \coloneqq Gal(\mathbb{F}_{p^n}/\mathbb{F}_p) \ltimes Aut(\Gamma_n)$.
 
-Write 
+Write
 
 $$
   S \mathbb{G}_n \coloneqq ker(det)
@@ -437,42 +486,42 @@ $$
 
 ## References
 
-The theorem is due to 
+The theorem is due to
 
 * {#Snaith79} [[Victor Snaith]], _Algebraic Cobordism and K-theory_, Mem. Amer. Math. Soc. no 221 (1979)
 
-with a simpler proof given in 
+with a simpler proof given in
 
-* [[Victor Snaith]], _Localized stable homotopy of some classifying spaces_, Math. Proc. Cambridge Philos. Soc. 89 (1981), no. 2,
+* {#Snaith81} [[Victor Snaith]], _Localized stable homotopy of some classifying spaces_, Math. Proc. Cambridge Philos. Soc. 89 (1981), no. 2,
 325-330. MR 600247 (82g:55006) ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0305004100058205))
 
-Another proof due to [[Mike Hopkins]] is in 
+Another proof due to [[Mike Hopkins]] is in
 
 * {#HopkinsMathew} [[Akhil Mathew]] (following [[Mike Hopkins]]), _Snaith's construction of complex K-theory_ ([pdf](http://people.fas.harvard.edu/~amathew/snaith.pdf))
 
-Refinement to [[smooth spectra]] and [[differential K-theory]] is in 
+Refinement to [[smooth spectra]] and [[differential K-theory]] is in
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], section 6.3 of _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-Discussion of the [[E-∞ ring]] structure involved is around theorem 3.1 of  
+Discussion of the [[E-∞ ring]] structure involved is around theorem 3.1 of
 
 * [[Jacob Lurie]],  _[[A Survey of Elliptic Cohomology]]_
 
-A version for [[motivic spectra]] [[algebraic K-theory]] is discussed in 
+A version for [[motivic spectra]] [[algebraic K-theory]] is discussed in
 
 * [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817))
  {#GepnerSnaith08}
 
-and for [[motivic cohomology]] in 
+and for [[motivic cohomology]] in
 
 * [[Markus Spitzweck]], [[Paul Arne Østvær]], _The Bott inverted infinite projective space is homotopy algebraic K-theory_ ([pdf](http://folk.uio.no/paularne/bott.pdf))
 
-Higher [[chromatic homotopy theory|chromatic]] analogs for [[Morava E-theory]] are discussed in 
+Higher [[chromatic homotopy theory|chromatic]] analogs for [[Morava E-theory]] are discussed in
 
 * {#Westerland12} [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
- 
+
 * {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_ ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285))
 
 See also at _[[spherical T-duality]]_.
 
-[[!redirects Snaith's theorem]]
+[[!redirects Snaith's theorem]] 
