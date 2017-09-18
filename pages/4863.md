@@ -293,6 +293,10 @@ An expository talk of the above material from Bleecker can be found in this talk
 * [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
  {#Bartlett13}
 
+Some variant of KK is discussed in 
+
+* [[Michael Atiyah]], Nicholas S. Manton, [[Bernd Schroers]], _Geometric Models of Matter_ ([arXiv:1108.5151](http://arxiv.org/abs/1108.5151))
+
 [[!redirects Kaluza-Klein theory]]
 
 [[!redirects dimensional reduction]]
