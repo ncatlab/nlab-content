@@ -1,0 +1,14 @@
+
+
+## References
+
+* Wikipedia, _[Anomalous magnetic dipole moment](https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment)_
+
+
+[[!redirects anomalous magnetic moments]]
+
+[[!redirects anomalous magnetic dipole moment]]
+[[!redirects anomalous magnetic dipole moments]]
+
+
+[[!redirects g-2]]
