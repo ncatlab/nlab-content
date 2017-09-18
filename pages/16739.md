@@ -25,19 +25,36 @@
 
 ## Idea
 
-A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that satisfies as  weak form of the [[law of excluded middle]]. The corresponding logic is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
+A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that satisfies the De Morgan laws, which may be considered a weak form of the [[law of excluded middle]]. The corresponding logic is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
 
 [^stone]: Called a **Stone lattice** as well in the literature on lattice theory.
 
 ## Definition
 
-A [[Heyting algebra]] $M$ that satifies the following equivalent conditions is called a _De Morgan algebra_:
+A [[Heyting algebra]] $M$ that satisfies the following equivalent conditions is called a _De Morgan algebra_:
 
-* For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **De Morgan law**)
+1. For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **De Morgan law**)
 
-* For all $a\in M$: $\not a\vee\not\not a=\top$.
+1. For all $a\in M$: $\not a\vee\not\not a=\top$.
 
-* For all $a,b\in M$: $\not\not (a\vee b) =\not\not a\vee \not\not b$.
+1. For all $a,b\in M$: $\not\not (a\vee b) =\not\not a\vee \not\not b$.
+
++-- {: .proof} 
+###### Proof of equivalence 
+(2. implies 1.) First, it is automatic that $\neg a \vee \neg b \leq \neg(a \wedge b)$. Now, in a distributive lattice such as a Heyting algebra, if $x \wedge y = \bot$ and $x \vee z = \top$, then $y \leq z$. Putting $x = \neg \neg a \wedge \neg \neg b$ and $y = \neg(a \wedge b)$ and $z = \neg a \vee \neg b$, we check 
+$$\neg\neg a \wedge \neg\neg b \wedge \neg(a \wedge b) = \neg\neg (a \wedge b) \wedge \neg(a \wedge b) = \bot$$ 
+(since $\neg\neg$ preserves meets; see [[Heyting algebra]]) and 
+$$(\neg\neg a \wedge \neg\neg b) \vee \neg a \vee \neg b = (\neg \neg a \vee \neg a \vee \neg b) \wedge (\neg\neg b \vee \neg a \vee \neg b) = (\top \vee \neg b) \wedge (\neg a \vee \top) = \top \wedge \top = \top$$ 
+whence $\neg(a \wedge b) \leq \neg a \vee \neg b$ follows. 
+
+(1. implies 3.) Given that $\neg(x \wedge y) = \neg x \vee \neg y$ for all $x, y$, put $x = \neg a$ and $y = \neg b$. Then 
+$$\neg\neg(a \vee b) = \neg(\neg a \wedge \neg b) = \neg(x \wedge y) = \neg x \vee \neg y = \neg\neg a \vee \neg\neg b$$ 
+as desired. 
+
+(3. implies 2.) We have $\neg a = \neg\neg\neg a$, and so we may calculate 
+$$\neg a \vee \neg\neg a = \neg\neg\neg a \vee \neg\neg a = \neg\neg(\neg a \vee a) = \neg(\neg \neg a \wedge \neg a) = \neg(\bot) = \top$$ 
+as desired. 
+=-- 
 
 ### Remark
 
