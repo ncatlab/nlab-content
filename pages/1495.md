@@ -77,4 +77,6 @@ Some related MO questions:
 
 * [What are the Benefits of Using Algebraic Spaces over Schemes?](http://mathoverflow.net/q/3194/447)
 
+* [Commutative rings to algebraic spaces in one jump?](http://mathoverflow.net/q/11226/447)
+
 [[!redirects algebraic spaces]]
