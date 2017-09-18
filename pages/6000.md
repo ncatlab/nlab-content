@@ -11,13 +11,15 @@ $$
   \rho : G \times X \to X
 $$
 
-of a group $G$ on a set $X$ is **transitive** if it has a single [[orbit]], i.e., if for every two points $x,x'$ there exists $g\in G$ such that $x' = \rho(g,x)$.  A set equipped with a transitive action of $G$ (and which is [[inhabited]]) is the same thing as a [[connected object]] in the category $G Set$.
+of a group $G$ on a set $X$ is **transitive** if it has a single [[orbit]], i.e., if for every two points $a,b$ there exists $g\in G$ such that $b = \rho(g,a)$.  A set equipped with a transitive action of $G$ (and which is [[inhabited]]) is the same thing as a [[connected object]] in the category $G Set$.
 
-More generally, an action $G \times X \to X$ is said to be _$k$-transitive_ if the componentwise-action $G \times (X^k \setminus \Delta) \to (X^k \setminus \Delta)$ of $G$ on tuples of $k$ distinct points is transitive.  (For instance, an action is 3-transitive if any triple of distinct points can be mapped by the componentwise-action to any other triple of distinct points.)
+For $k\ge 0$, an action $G \times X \to X$ is said to be **$k$-transitive** if the componentwise-action $G \times X^{\underline{k}} \to X^{\underline{k}}$ is transitive, where $X^{\underline{k}}$ denotes the set of tuples of $k$ distinct points (i.e., [[injective functions]] from $\{1,\dots,k\}$ to $X$).  For instance, an action of $G$ on $X$ is 3-transitive if any pair of triples $(a_1,a_2,a_3)$ and $(b_1,b_2,b_3)$ of points in $X$, where $a_i \ne a_j$ and $b_i \ne b_j$ for $i\ne j$, there exists $g \in G$ such that $(b_1,b_2,b_3) = (g a_1,g a_2,g a_3)$.
 
 ## Examples
 
-The [[alternating group]] $A_n$ acts transitively on $\{1,\dots,n\}$ for any $n \gt 2$, but not for $n = 2$ (in fact, $A_n$ acts $(n-2)$-transitively on $\{1,\dots,n\}$).
+Any group acts transitively on itself.
+
+The [[alternating group]] $A_n$ acts transitively on $\{1,\dots,n\}$ for $n \gt 2$, and in fact it acts $(n-2)$-transitively for all $n \ge 2$.
 
 The [[projective general linear group]] $PGL(2,\mathbb{C})$ acts 3-transitively on the [[Riemann sphere]] $\mathbb{P}^1(\mathbb{C})$.
 
