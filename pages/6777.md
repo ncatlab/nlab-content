@@ -22,7 +22,7 @@
 ## Definition
 
 An **epi-mono factorization system** is an [[orthogonal 
-factorization system]] in which the left class is the class of [[epimorphisms]] and the right class is the class of [[monomorphisms]].  Such a factorization system exists on any (elementary) [[topos]], and indeed on any [[pretopos]].
+factorization system]] in which the left class is the class of [[epimorphisms]] and the right class is the class of [[monomorphisms]].  Such a factorization system exists on any (elementary) [[topos]], and indeed on any [[pretopos]]. It provides the factorization through the [[image]] of any morphism.
 
 ## Properties
 
