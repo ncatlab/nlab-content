@@ -117,7 +117,7 @@ Functors of the form $C \to Set$ are called [[copresheaves]] on $C$, and functor
 
 ### Preservation of limits
 
-The hom-functor preserves all [[limits]] in both arguments separately. This means:
+The [[hom-functor preserves limits]] in both arguments separately. This means:
 
 * for fixed object $c \in C$ the functor $hom(c,-) : C \to Set$ sends limit [[diagrams]] in $C$ to limit diagrams in $Set$;
 
