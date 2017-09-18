@@ -111,14 +111,49 @@ Then
    and
 
    $$
+     e_R
+     \;\colon\;
      1 
        \overset{\eta(1)}{\longrightarrow} 
      R L(1) 
        \overset{R(e_L^{-1})}{\longrightarrow} 
      R(1)
+     \,,
    $$
 
-1. If $A \in \mathcal{D}$ carries the structure of a [[monoid object]] $(A, \mu_A, e_A)$, then the [[unit of the adjunction]] $\eta(A) \;\colon\; A \longrightarrow R L(A)$ is monoid [[homomorphism]] with respect to the canonically induced monoid structure on $R L(A)$.
+   where $\eta$ denotes the [[adjunction unit]] and $\epsilon$ denotes the [[adjunction counit]], as usual.
+
+1. For any object $A \in \mathcal{D}$ carrying the structure of a [[monoid object]] $(A, \mu_A, e_A)$, then 
+
+   1. the [[unit of the adjunction]] $\eta(A) \;\colon\; A \longrightarrow R L(A)$ is a monoid [[homomorphism]] with respect to the canonically induced monoid structure on $R L(A)$ ([this prop.](monoidal+functor#MonoidsToMonoidsByLaxMonoidal)) given by
+
+      $$
+        \mu_{R L(A)} 
+          \;\colon\; 
+        R L(A) \otimes R L(A)
+          \overset{\mu_R(L(A))}{\longrightarrow}
+        R( L(A) \otimes L(A))
+          \overset{R(\mu_L(A))}{\longrightarrow}
+        R L(A \otimes A)
+          \overset{R L(\mu_A)}{\longrightarrow}
+        R L(A)
+      $$
+
+      and
+
+      $$  
+        e_{R L(A)}
+          \;\colon\;
+        1
+          \overset{e_R}{\longrightarrow}  
+        R(1)
+          \overset{R(e_L)}{\longrightarrow}
+        R L(1) 
+          \overset{R L(e_A)}{\longrightarrow}
+        R L(A)
+      $$
+
+   1. similarly for the [[counit of the adjunction]].
 
 =--
 
@@ -231,7 +266,7 @@ $$
 and hence that
 
 $$
-  e_{R A(L)}
+  e_{R L (A)}
   \;\colon\;
   1 
     \overset{\eta(1)}{\longrightarrow} 
