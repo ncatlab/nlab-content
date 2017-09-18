@@ -265,6 +265,8 @@ So (with notation as [above](#Supercoordinates)) we have the following.
 
 ### On curved spacetime and supergravity equations of motion 
 
+> under construction
+
 In the [[first order formulation of gravity]]
 a [[field (physics)|field]] configuration on a [[spacetime]]
 [[manifold]] $X$ is a [[Cartan connection]]
@@ -296,6 +298,41 @@ In general this 3-form is no longer _closed_. If it is closed, then the Green-Sc
  The claim now is that requiring this 3-form still to be closed is, as a condition on the field of [[gravity]] $\nabla$, precisely the [[equations of motion]] of [[supergravity]] (the super-[[Einstein equations]]).
 
 This is due to ([Nilsson 81](#Nilsson81), [Bergshoeff-Sezgin-Townsend 86](#BergshoeffSezginTownsend86)) and others, see the references [below](#ReferencesSupergravityBackgroundEquationsOfMotion).
+
+#### Membrane in 11d SuGra background
+
+For the [[membrane]]([[M2-brane]]) in a background of [[11-dimensional supergravity]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87))
+find that consistency requires that (in a given [[coordinate chart]] with super-[[vielbein field]] $(E^A) = (E^a, \Psi^\alpha)$) the 4-form flux is of the form
+
+
+\[
+  \label{HConstraintEquationForMembraneIn11d}
+  H = \overline{\Psi}\wedge\Gamma^{ab} \Psi \wedge E_a \wedge E_b + \mathbf{d}C_3
+\]
+
+where the first term is super-Lie algebra cocycle that classifies the [[supergravity Lie 3-algebra]] and the second is the [[field strength]] of the [[supergravity C-field]] proper (hence a purely bosonic differential form).  
+
+Moreover the [[supertorsion]] tensor $T$ is to have its $(T^a)^\alpha{}_\beta$-component equal to $(Gamma^a)^\alpha{}_\beta$.
+
+In addition the [[Bianchi identities]] have to hold:
+
+* $D T^A = E^B \wedge R_{B}{}^{A}$
+
+* D H = 0 ([[covariant derivative|covariant constancy]]).
+
+ALl this is supposed to be implied by the [[equations of motion]] of [[11-dimensional supergravity]].
+  
+Notice that (eq:HConstraintEquationForMembraneIn11d) is directly analous to the  [chart-wise characterization of closed G2-structure](G2+manifold#ClosedG2StructureByAtlas).
+
+#### Heterotic string
+
+Discussion that for the GS-version of the [[heterotic string]] consistency of the background is equivalent to the equations of motion of [[heterotic supergravity]] is in  ([Shapiro-Taylor 87](#ShapiroTaylor87)).
+
+
+#### Type II string
+
+Discussion for the GS-version of the [[type II superstring]] in [[type II supergravity]]-backgrounds is in ([GHMNT 85](#GHMNT85)), and for the [[D-branes]] in type II in ([CGNSW 97](#CGNSW97)).
+
 
 
 
@@ -458,21 +495,23 @@ That the [[heterotic supergravity]] equations of motion are sufficient for the 3
 
 * {#Nilsson81} [[Bengt Nilsson]], _Simple 10-dimensional supergravity in superspace_, Nuclear Physics B188 (1981) 176-192 ([spire](http://inspirehep.net/record/164253?ln=de))
  
-and the computation there was highlighted and a little simplified in 
+and the computation there was highlighted and a little simplified around p. 17 of
 
 * [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986) ([spire](http://inspirehep.net/record/214192/?ln=en))
 
+A more comprehensive result arguin that the heterotic supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the heterotic GS-string on that background being consistent was then claimed in
+
+* {#ShapiroTaylor87} [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987 ([pdf](http://ccdb5fs.kek.jp/cgi-bin/img/allpdf?198609078))
+
+
 Similar arguments for the [[type II string]] in [[type II supergravity]] appeared in 
 
-* [[Marcus Grisaru]], [[Paul Howe]], L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3 (1985) ([spire](http://inspirehep.net/record/17010))
+* {#GHMNT85} [[Marcus Grisaru]], [[Paul Howe]], L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3 (1985) ([spire](http://inspirehep.net/record/17010))
 
 and for GS sigma-model [[D-branes]] in 
 
-* [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
+* {#CGNSW97} [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
 
-That the supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the GS-string on that background being consistent was then claimed in
-
-* [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987 ([pdf](http://ccdb5fs.kek.jp/cgi-bin/img/allpdf?198609078))
 
 
 That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimensional supergravity]] that satisfy their equations of motion is discussed in ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87))
