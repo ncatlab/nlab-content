@@ -1,3 +1,16 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Geometry
++-- {: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 > To this day, the theorem of Pythagoras remains the most important single theorem in the whole of mathematics. -- Jacob Bronowski, _The Ascent of Man_, page 160. 
 
 # Contents 
@@ -6,22 +19,22 @@
 
 ## Introduction and History 
 
-In Euclidean geometry, the Pythagorean theorem expresses a necessary and sufficient condition on the lengths of the three sides of a triangle in order for it to be a right triangle. In the popular mind it is associated with the equation 
+In [[Euclidean geometry]], the _Pythagorean theorem_ expresses a necessary and sufficient condition on the [[lengths]] of the three sides of a [[triangle]] in order for it to be a right triangle. In the popular mind it is associated with the equation 
 
 $$a^2 + b^2 = c^2,$$ 
 
 where $c$ denotes the length of the hypotenuse of a right triangle, and $a, b$ are the lengths of the other two sides. 
 
-It was apparently known (in some form or other) by a number of ancient civilizations (Mesopotamia, circa 1800 BCE[^1]; China, Zhou Dynasty, circa 1000 BCE[^2]), and appears in Euclid's Elements as a capstone result of Book 1 (as Proposition 47, and Proposition 48 for the converse). [Wikipedia](http://en.wikipedia.org/wiki/Pythagorean_theorem#Pythagorean_triples) mentions, but without a citation, that certain megalithic monuments in Northern Europe indicate that [[Pythagorean triples]] were known even before the invention of writing systems. 
+It was apparently known (in some form or other) by a number of ancient civilizations (Mesopotamia, circa 1800 BCE[^1]; China, Zhou Dynasty, circa 1000 BCE[^2]), and appears in [[Euclid]]'s _[[Elements]]_ as a capstone result of Book 1 (as Proposition 47, and Proposition 48 for the converse). [Wikipedia](http://en.wikipedia.org/wiki/Pythagorean_theorem#Pythagorean_triples) mentions, but without a citation, that certain megalithic monuments in Northern Europe indicate that [[Pythagorean triples]] were known even before the invention of writing systems. 
 
 [^1]: See [Maor](#Maor), chapter 1. 
 [^2]: See [Wikipedia](http://en.wikipedia.org/wiki/Zhou_Bi_Suan_Jing), which exhibits an apparent proof based on the famous 'pinwheel' configuration. 
 
-While it was traditional among ancient historians to credit Pythagoras with the first recorded proof (at least the first from Hellenic civilization), there is cause to believe that this (semi-legendary) individual had little to do personally with such a proof or even with mathematics generally within his school -- without however there being doubt that this result and other mathematical ideas were vigorously discussed and developed by the Pythagoreans. 
+While it was traditional among ancient historians to credit Pythagoras with the first recorded [[proof]] (at least the first from Hellenic civilization), there is cause to believe that this (semi-legendary) individual had little to do personally with such a proof or even with mathematics generally within his school -- without however there being doubt that this result and other mathematical ideas were vigorously discussed and developed by the Pythagoreans. 
 
 ## Proof 
 
-There are apparently hundreds of proofs. It should be noted that the Pythagorean theorem is a theorem of Euclidean geometry and depends on Euclid's parallel postulate, particularly the consequence that the sum of the interior angles of a triangle is invariably $180^\circ$. 
+There are apparently hundreds of proofs. It should be noted that the Pythagorean theorem is a [[theorem]] of [[Euclidean geometry]] and depends on Euclid's [[parallel postulate]], particularly the consequence that the sum of the interior angles of a triangle is invariably $180^\circ$. 
 
 One proof[^3] proceeds by constructing, given a right triangle with side lengths $a, b$ and hypotenuse length $c$, the unique line incident to the vertex at the right angle that meets the hypotenuse in a right angle. (N.B.: this construction is specific to Euclidean geometry.) This bisects the hypotenuse into two line segments, of length $c_1, c_2$ say with $c_1 + c_2 = c$. (A picture is given [here](http://en.wikipedia.org/wiki/Pythagorean_theorem#Proof_using_similar_triangles).) Moreover the given right triangle is thereby bisected into two right triangles, and due to the fact that the sum of the interior angles is always $180^\circ$, it may be seen that the two right triangles are similar (i.e., in proportion) to the given right triangle. Therefore, if one has side lengths $h, c_1$ and hypotenuse $a$ say, and the other has side lengths $h, c_2$ and hypotenuse $b$, we may derive proportionality equations 
 
@@ -29,7 +42,7 @@ $$c_1/a = a/c, \qquad c_2/b = b/c,$$
 
 from which we may derive $a^2 + b^2 = c_1 c + c_2 c = (c_1 + c_2)c = c^2$. 
 
-[^3]: The proof which appears in Book 1 of the Elements looks somewhat more elaborate, but the proof based on similar triangles perhaps had to await the development of a theory of proportion, set out in Book 5. 
+[^3]: The proof which appears in Book 1 of the _[[Elements]]_ looks somewhat more elaborate, but the proof based on similar triangles perhaps had to await the development of a theory of proportion, set out in Book 5. 
 
 ## Modern points of view 
 
@@ -37,5 +50,5 @@ from which we may derive $a^2 + b^2 = c_1 c + c_2 c = (c_1 + c_2)c = c^2$.
 
 ## References 
 
-* Eli Maor, The Pythagorean Theorem: A 4000-year History, Princeton University Press, 2007. 
- {#Maor} 
+* {#Maor} Eli Maor, The Pythagorean Theorem: A 4000-year History, Princeton University Press, 2007. 
+  
