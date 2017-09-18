@@ -307,10 +307,12 @@ Review includes
 
 Discussion of D-branes in [[KK-theory]] is reviewed in
 
-* {#Szabo} [[Richard Szabo]], _D-branes and bivariant K-theory_ ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
+* {#Szabo} [[Richard Szabo]], _D-branes and bivariant K-theory_, Noncommutative Geometry and Physics 3 1 (2013): 131. ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
  
 
 based on
+
+* {#ReisSzabo05} [[Rui Reis]], [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
 
 * [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
 
