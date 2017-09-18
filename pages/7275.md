@@ -98,8 +98,10 @@ General discussion is in section 5 of
 
 Discussion in the context of [[E-∞ rings]] and [[twisted cohomology]] is in 
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
- {#ABGHR08}
+* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+ 
+
+[[!redirects abelian infinity-groups]]
 
 [[!redirects k-monoidal ∞-group]]
 
