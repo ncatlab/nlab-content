@@ -1,3 +1,4 @@
+[[!redirects Generalized Lambda-structure]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -74,4 +75,4 @@ This is the monoid of polynomials whose terms are all equal to zero except exact
 
 ## Related notion
 
-[[Generalized higher loop spaces]]
+[[generalized higher loop spaces]]
