@@ -23,7 +23,7 @@ In [[quantum field theory]] a _[[scattering amplitude]]_ or _scattering matrix_ 
 
 Every quantum [[local field theory]] gives an [[S-matrix]] by its [[perturbation series]] over [[Feynman diagrams]] extracted from the [[action functional]]. But there are also S-matrices not arising from a local field theory, for instance the [[string scattering amplitudes]].
 
-In the 1960 there was a prominent proposal, around [[Geoffrey Chew]], that [[quantum field theory]] should be _defined_ by [[axiom|axiomatizing]] properties of the S-matrix. This is a radical perspective where no [[spacetime]] geometry and physical fields are made explicit, but where the entire physics is encoded by what quantum particles see that scatter through it. 
+In the 1960s there was a prominent proposal, around [[Geoffrey Chew]], that [[quantum field theory]] should be _defined_ by [[axiom|axiomatizing]] properties of the S-matrix. This is a radical perspective where no [[spacetime]] geometry and physical fields are made explicit, but where the entire physics is encoded by what quantum particles see that scatter through it. 
 
 Historically, the S-matrix "bootstrap" approach fell out of fashion with the success of the [[quark]] model and of [[QCD]], which is a [[local field theory]] governed by an [[action functional]] ([[Yang-Mills theory]]).
 
