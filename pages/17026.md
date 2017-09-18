@@ -1,10 +1,17 @@
 
+## Definitions
+
 * [[formal completion of a ring]]
 
 * [[formal completion of a module]]
 
 * [[p-completion]]
 
+* [[formal scheme]]
+
+## Related concepts
+
+* [[formal neighbourhood of the diagonal]]
 
 
 [[!redirects formal completions]]
