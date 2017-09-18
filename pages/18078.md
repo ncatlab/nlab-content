@@ -1,248 +1,30 @@
-
-+-- {: .num_defn #GaloisConnection}
-###### Definition
-**([[Galois connection]])**
-
-Consider two [[sets]] $X,Y \in Set$ and a [[relation]]
-
-$$
-  E \hookrightarrow X \times Y
-  \,.
-$$
-
-Define two [[functions]] between their [[power sets]] $P(X), P(Y)$, as follows. 
-(In the following we write $E(x, y)$ to abbreviate the formula $(x, y) \in E$.)
-
-
-1. Define 
-
-   $$
-     V_E 
-       \;\colon\; 
-     P(X) 
-       \longrightarrow 
-     P(Y)
-   $$ 
-
-   by 
-
-   $$
-     V_E(S) 
-       \coloneqq 
-     \left\{
-       y \in Y \vert  \underset{x \in  X}{\forall} \left( \left(x \in S\right) \Rightarrow E(x, y)
-    \right) \right\}
-   $$
- 
-1. Define
-
-   $$
-     I_E 
-       \;\colon\; 
-     P(Y) 
-       \longrightarrow
-     P(X)
-   $$ 
-
-   by 
-  
-   $$
-     I_E(T) \coloneqq \left\{x \in X \vert \underset{y \in Y}{\forall} \left( \left(y \in T \right) \Rightarrow E(x, y)  \right)\right\}
-   $$ 
-
-=--
-
-+-- {: .num_prop #GaloisConnectionAsAdjunction}
-###### Proposition
-
-The construction in def. \ref{GaloisConnection} has the following properties:
-
-1. $V_E$ and $I_E$ are [[contravariant functor|contravariant]] order-preserving: , if $S \subseteq S'$, then $V_E(S') \subseteq V_E(S)$. 
-
-
-1. The _[[adjunction]] law_ holds:
-   $
-     \left( 
-        T \subseteq V_E(S) 
-     \right) 
-       \,\Rightarrow\, 
-     \left(
-       S \subseteq I_E(T)
-     \right)
-   $
-
-   which we denote by writing
-
-   $$
-     P(X)
-       \underoverset{\underset{V_E}{\longrightarrow}}{\overset{I_E}{\longleftarrow}}{\bot}
-     P(Y)^{op}
-   $$
-
-1. both $V_E$ as well as $I_E$ take [[unions]] to [[intersections]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Regarding the first point: the larger $S$ is, the more conditions that are placed on $y$ in order to belong to $V_E(S)$, and so the smaller $V_E(S)$ will be. 
-
-Regarding the second point:  This is because both these conditions are equivalent to the condition $S \times T \subseteq E$. 
-
-Regarding the third point: Observe that in a poset such as $P(Y)$, we have that $A = B$ iff for all $C$, $C \leq A$ iff $C \leq B$ (this is the [[Yoneda lemma]] applied to posets). It follows that
+Assume first that $X$ is $T_0$. Then we need to show that if $x,y \in X$ are such that
+$Cl(\{x\}) = Cl(\{y\})$ then $x = y$. Hence assume that $Cl(\{x\}) = Cl(\{y\})$.
+Since the closure of a point is the [[complements]] of the union of the open subsets not containing the point,
+this means that the union of open subsets that do not contain $x$
+is the same as the union of open subsets that do not contain $y$. 
 
 $$
-  \array{
-    T \subseteq V_E(\bigcup_{i \in I} S_i) & iff & \bigcup_{i: I} S_i \subseteq I_E(T) \\ 
-    & iff & \forall_{i: I} S_i \subseteq I_E(T) \\ 
-    & iff & \forall_{i: I} T \subseteq V_E(S_i) \\ 
-    & iff & T \subseteq \bigcap_{i: I} V_E(S_i)
-}
-$$ 
-
-and we conclude $V_E(\bigcup_{i: I} S_i) = \bigcap_{i: I} V_E(S_i)$ by the [[Yoneda lemma]]. 
-
-
-=--
-
-
-+-- {: .num_prop #GaloisClosureOperator}
-###### Proposition
-**([[closure operators]] from [[Galois connection]])**
-
-Given a [[Galois connection]] as in def. \ref{GaloisConnection}, consider the [[composition|composites]]
-
-$$
-  I_E \circ V_E \;\colon\; P(X) \longrightarrow P(X)
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  \;=\;
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
 $$
 
-and
+But if the two points were distinct, $x \neq y$, then by $T_0$ one of the above unions would contain $x$ or $y$, while the other would not, in contradiction to the above equality. Hence we have a [[proof by contradiction]].
+
+Conversely, assume that if $x,y \in X$ are such that $Cl\{x\} = Cl\{y\}$ then $x = y$.
+We need to show that if $x \neq y$ then there exists an open neighbourhood around one of the
+two points not containing the other. 
+
+Hence assume that $x \neq y$.
+By assumption it follows that $Cl(\{x\} \neq Cl(\{y\})$, hence that now
 
 $$
-  V_E \circ I_E \;\colon\; P(Y) \longrightarrow P(Y)
-  \,.
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{x\} } }{\cup} \left( U \right)
+  \;\neq\;
+  \underset{ {U \subset X \, \text{open}} \atop { U \subset X\backslash \{y\} } }{\cup} \left( U \right)
+ \,.
 $$
 
-These satisfy:
+This means that there must be at least one open subset which contains $x$ but not $y$, or vice versa.
 
-1. For all $S \in P(X)$ then  
-   $
-     S \subseteq I_E \circ V_E(S)
-   $ 
-
-1. $I_E \circ V_E$ is [[idempotent]] and [[covariant functor|covariant]].
-
-
-and
-
-1. For all $T \in P(Y)$ then  
-   $
-     T \subseteq V_E \circ I_E(T)
-   $ 
-
-1. $V_E \circ I_E$ is [[idempotent]] and [[covariant functor|covariant]].
-
-
-
-This is summarized by saying that 
-$I_E \circ V_E$ and $V_E \circ I_E$ are _[[closure operators]]_ ([[idempotent monads]]).
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The first statement is immediate from the adjunction law (prop. \ref{GaloisConnectionAsAdjunction}).
-
-Regarding the second statement, observe that for all $S \in P(X)$ then
-
-$$
-  V_E \circ I_E \circ V_E (S)  =  V_E(S)
-$$
-
-and for all $T \in P(Y)$ then
-
-$$
-  I_E \circ V_E \circ I_E (T) = I_E(T)
-  \,.
-$$
-
-This is because applied to sets $S$ of the form $I_E(T)$, we see $I_E(T) \subseteq I_E \circ V_E \circ I_E(T)$. But applying the contravariant map $I_E$ to the inclusion $T \subseteq V_E \circ I_E(T)$, we also have $I_E \circ V_E \circ I_E(T) \subseteq I_E(T)$. 
-
-This implies that the function $I_E \circ V_E$. is idempotent. 
-
-The argument for $V_E \circ I_E$ is directly analogous.
-
-=--
-
-In view of prop. \ref{GaloisClosureOperator} we say that:
-
-+-- {: .num_defn #GaloisClosedElements}
-###### Definition
-**(closed elements)**
-
-Given a [[Galois connection]] as in def. \ref{GaloisConnection}, then 
-
-1. $S \in P(X)$ is called *closed* if $I_E \circ V_E(S) = S$;
-
-1. the _closure_ of $S \in P(X)$ is $Cl(S) \coloneqq I_E \circ V_E(S)$
-
-and similarly
-
-1. $T \in P(Y)$ is called *closed* if $V_E \circ I_E(T) = T$;
-
-1. the _closure_ of $T \in P(Y)$ is $Cl(T) \coloneqq V_E \circ I_E(T)$.
-
-=--
-
-It follows from the properties of [[closure operators]], hence form prop. \ref{GaloisClosureOperator}:
-
-+-- {: .num_prop #GaloisFixedPoints}
-###### Proposition
-**([[fixed point of an adjunction|fixed points]] of a [[Galois connection]])**
-
-Given a [[Galois connection]] as in def. \ref{GaloisConnection},
-then
-
-1. the closed elements of $P(X)$ are precisely those in the [[image]] $im(I_E)$ of $I_E$;
-
-1. the closed elements of $P(Y)$ are precisely those in the [[image]] $im(V_E)$ of $V_E$.
-
-We says these are the _[[fixed point of an adjunction|fixed points]]_ of the Galois connection. Therefore the restriction of the Galois connection
-
-$$
-  P(X)
-    \underoverset{\underset{V_E}{\longrightarrow}}{\overset{I_E}{\longleftarrow}}{\bot}
-  P(Y)^{op}
-$$
-
-to these fixed points yields an [[equivalence of categories|equivalence]]
-
-$$
-  im(I_E)
-    \underoverset{\underset{V_E}{\longrightarrow}}{\overset{I_E}{\longleftarrow}}{\simeq}
-  im(V_E)^{op}
-$$
-
-now called a _[[Galois correspondence]]_.
-
-=--
-
-
-+-- {: .num_prop}
-###### Proposition
-
-Given a [[Galois connection]] as in def. \ref{GaloisConnection}, then the sets of closed elements according to def. \ref{GaloisClosedElements} are closed under forming [[intersections]].
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-
-If $\{T_i \in P(Y)\}_{i: I}$ is a collection of elements closed under the operator $K = V_E \circ I_E$, then by the first item in prop. \ref{GaloisClosureOperator} it is automatic that $\bigcap_{i: I} T_i \subseteq K(\bigcap_{i: I} T_i)$, so it suffices to prove the reverse inclusion. But since $\bigcap_{i: I} T_i \subseteq T_i$ for all $i$ and $K$ is covariant and $T_i$ is closed, we have $K(\bigcap_{i: I} T_i) \subseteq K(T_i) \subseteq T_i$ for all $i$, and $K(\bigcap_{i: I} T_i) \subseteq \bigcap_{i: I} T_i$ follows. 
-
-=--
