@@ -13,7 +13,11 @@ A 3-[[simplex]].
 
 ## Related concepts
 
+* [[circle]]
+
 * [[triangle]]
+
+* [[square]]
 
 [[!redirects tetrahedra]]
 
