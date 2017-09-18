@@ -152,6 +152,8 @@ Other and later references include
 
 * G. Whitehead, _Elements of homotopy theory_
 
+* [[Brian Day|Brian J. Day]], _Relationship of Spanier's Quasi-topological Spaces to k-Spaces_  , M. Sc. thesis University of Sydney 1968. ([pdf](http://www.math.mq.edu.au/~street/DayMasters.pdf))
+
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
 
 * Booth, Peter I.; Heath, Philip R.; Piccinini, Renzo A.
