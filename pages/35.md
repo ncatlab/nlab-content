@@ -163,9 +163,9 @@ A strict [[2-morphism]] from generalised morphism $X \stackrel{\simeq}{\leftarro
 $$
 \begin{matrix}
   &          & \hat X \\
-  & \enarrow &           & \searrow \\
+  & \nearrow &           & \searrow \\
 X &          & \downarrow &          & Y \\
-  & \esarrow &           & \nearrow \\
+  & \searrow &           & \nearrow \\
   &          & \hat X'
 \end{matrix}
 $$
@@ -174,9 +174,9 @@ This forces the morphism $\hat X \to \hat X'$ to be a weak equivalence by [[2-ou
 $$
 \begin{matrix}
   &          & \hat X \\
-  & \enarrow &     \uparrow      & \searrow \\
+  & \nearrow &     \uparrow      & \searrow \\
 X &          & \hat X'' &          & Y \\
-  & \esarrow &       \downarrow    & \nearrow \\
+  & \searrow &       \downarrow    & \nearrow \\
   &          & \hat X'
 \end{matrix}
 $$
