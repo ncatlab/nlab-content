@@ -12,7 +12,7 @@ Certain [[Grothendieck topologies]] on a category with an [[initial object]] can
 
 +-- {: .num_defn}
 ###### Definition
-A *cd-structure* $\chi$ on an [[infinity-category]] $C$ with an [[initial object]] is a class of [[commutative squares]] which is stable by isomorphism.
+A *cd-structure* $\chi$ on a [[category]] $C$ with an [[initial object]] is a class of [[commutative squares]] which is stable by isomorphism.
 We will call its elements **$\chi$-distinguished squares**.
 =--
 
