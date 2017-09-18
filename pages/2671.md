@@ -132,6 +132,7 @@ Review includes
 
 * [[Zvi Bern]], _Perturbative quantum gravity and its relation to gauge theory_, Living reviews in relativity, [www.livingreviews.org/Articles/Volume5/2002-5bern](www.livingreviews.org/Articles/Volume5/2002-5bern)
 .
+* Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
 
 
 [[!redirects Einstein gravity]]
