@@ -92,9 +92,9 @@ But this holds because the only $V_{c}$ that intersect $W_x$ are the $V_{k} \sub
 
 This establishes that $(X,\tau)$ is regular. Now we prove that it is normal. For this we use the same approach as before:
 
-Let $C,D \subset X$ be two disjoint closed subsets. By need to produce disjoint open neighbourhoods for these.
+Let $C,D \subset X$ be two disjoint closed subsets. We need to produce disjoint open neighbourhoods for these.
 
-By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \subset \{c\}$ and $U_{D,c} \supset D$. Hence the union
+By the previous statement of regularity, we may find for each $c \in C$ disjoint open neighbourhoods $U_c \supset \{c\}$ and $U_{D,c} \supset D$. Hence the union
 
 $$
   \left\{
@@ -104,7 +104,7 @@ $$
   X \backslash C
 $$ 
 
-is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elementes we may, again by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet), assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
+is an open cover of $X$, and thus by paracompactness has a locally finite refinement, whose elements we may, again by [this lemma](locally+finite+cover#LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet), assume to have the same index set as before and be contained in the previous elements with the same index. Hence we obtain a locally finite collection of subsets
 
 $$
   \{ V_c \subset U_c \subset X \}_{c \in C}
@@ -128,7 +128,7 @@ $$
 
 is the required open neighbourhood of $D$ not intersecting $U_C$.
 
-Now by local finiteness of $\{V_c \subset X\}_{c \in X}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that 
+Now by local finiteness of $\{V_c \subset X\}_{c \in C}$, every $d \in D$ has an open neighbourhood $W_d$ such that there is a finite set $K_d \subset C$ so that 
 
 $$  
   \underset{c \in C \backslash K_d}{\forall}
