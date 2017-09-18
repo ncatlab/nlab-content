@@ -161,7 +161,7 @@ $$\array{
 \Delta(-, n) & \to & F(\alpha+1)
 }$$ 
 
-where $i$ is the inclusion. Now $R(i)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by [this lemma](http://ncatlab.org/nlab/show/subspace+topology/#pushout) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a relative CW-complex. By [another lemma](http://ncatlab.org/nlab/show/subspace+topology/#transfinite), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
+where $i$ is the inclusion. Now $R(i)$ is identifiable as the inclusion $S^{n-1} \to D^n$, and since $R$ preserves pushouts (which are calculated as they are in $Top$), we see by one lemma [here](/nlab/show/subspace+topology#properties) that $R F(\alpha) \to R F(\alpha+1)$ is a closed subspace inclusion and evidently a relative CW-complex. By another lemma [here](/nlab/show/subspace+topology#properties), it follows that $X \to Y$ is also a closed inclusion and indeed a relative CW-complex. 
 =-- 
 
 +-- {: .num_corollary}
