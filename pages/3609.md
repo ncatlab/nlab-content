@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -36,6 +46,8 @@ The notation used here for the adjoint, $A^{*}$, is commonly used in linear alge
 ## Related concepts
 
 * [[celestial sphere]]
+
+* [[Hermitian form]]
 
 [[!redirects Hermitian matrix]]
 [[!redirects Hermitian matrixes]]
