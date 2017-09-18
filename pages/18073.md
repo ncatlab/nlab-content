@@ -16,7 +16,39 @@
 
 ## Statement
 
-Assuming [[excluded middle]], then every [[Hausdorff topological space]] is a [[sober topological space]].
++-- {: .num_prop #Statement}
+###### Proposition
+
+Assuming [[excluded middle]], then: 
+
+Every [[Hausdorff topological space]] is a [[sober topological space]].
+
+More specifically, in a Hausdorff topological space
+the [[irreducible closed subspaces]] 
+are precisely the [[singleton]] [[subspaces]].
+
+=--
+
++-- {: .proof #TheProof}
+###### Proof
+
+The second statement clearly implies the first. To see the second
+statement, suppose that $F$ is an irreducible closed subspace which
+contained two distinct points $x \neq y$. Then by the Hausdorff property
+there are disjoint neighbourhoods $U_x, U_y$, and hence it would follow that the relative [[complements]] $F \backslash U_x$ and $F \backslash U_y$ were distinct proper closed subsets of
+$F$ with
+
+$$
+  F = (F \backslash U_x) \cup (F \backslash U_y)
+$$
+
+in contradiction to the assumption that $F$ is irreducible. 
+
+This [[proof by contradiction|proves by contradiction]] that every irreducible closed subset is a singleton. 
+Conversely, generally the [[topological closure]] of every singleton is irreducible closed.
+
+=--
+
 
 ## Related entries
 
