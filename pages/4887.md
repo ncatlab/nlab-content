@@ -51,7 +51,7 @@ Earlier, suggestions that the A-model is related to [[deformation quantization]]
 
 which then have been extended and made more precise in
 
-* Vasily Pestun, _Black hole entropy and topological strings on generalized CY manifolds_, JHEP0609:034,2006 ([arXiv:hep-th/0512189](http://arxiv.org/abs/hep-th/0512189))
+* Vasily Pestun, _Topological strings in generalized complex space_, Adv.Theor.Math.Phys.11:399-450,2007  ([arXiv:hep-th/0603145](http://arxiv.org/abs/hep-th/0603145))
 
 and in 
 
@@ -76,4 +76,3 @@ A relation to the [[path integral]] is discussed in
 Relation to the [[B-model]] via [[mirror symmetry]] is discussed in 
 
 * [[Sergei Gukov]], _Quantization via Mirror Symmetry_ ([arXiv:1011.2218](http://arxiv.org/abs/1011.2218))
-
