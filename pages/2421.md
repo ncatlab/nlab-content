@@ -153,11 +153,15 @@ Since the formula looks the same for all $S$, one often just writes it without m
 The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclidean group]].
 
 
-#### $GL(n|N)$ 
+#### General linear supergroup
+
+[[general linear supergroup]]
 
 ...
 
-#### $OSp(2p|N)$ 
+#### Orthosymplectic supergroup
+
+[[orthosymplectic supergroup]]
 
 ...
 
