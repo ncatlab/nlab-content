@@ -15,7 +15,7 @@ For background on [[homological algebra]] see at _[[schreiber:Introduction to Ho
 
 For background on [[stable homotopy theory]] see at _[[Introduction to Stable homotopy theory]]_.
 
-For application to [[complex oriented cohomology]] see at __
+For application to [[complex oriented cohomology]] see at _[[Introduction to Cobordism and Complex Oriented Cohomology]]_.
 
 For application to the [[Adams spectral sequence]] see _[[Introduction to Stable homotopy theory -- 2|Introduction to Adams spectral sequences]]_.
 
