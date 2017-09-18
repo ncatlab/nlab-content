@@ -55,6 +55,8 @@ One may think of the Thom isomorphism from left to right as [[cup product|cuppin
 
 ### Concretely
 
+#### In ordinary cohomology
+
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
 
@@ -180,7 +182,31 @@ with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\b
 
 =--
 
+#### In generalized cohomology
 
+Let $E$ be a [[generalized (Eilenberg-Steenrod) cohomology]] theory. First observe that an [[E-orientation]] on $V \to X$ induces an $H \pi_0(E)$-orientation, i.e. in [[ordinary cohomology]] with coefficients in the degree-0 ground ring.
+
+To see this, let's assume $E$ is [[connective spectrum|connective]]. Coonsider the [[relative Atiyah-Hirzebruch spectral sequence]]
+
+$$
+  \tilde H^p(Th(V), E^q(\ast))
+  \simeq
+  H^p(D(V),S(V), E^q(\ast))
+    \;\Rightarrow\;
+  E^\bullet(D(V), S(V))
+  \simeq
+  \tilde E^\bullet(Th(V))
+$$
+
+Since $(D(V), S(V))$ is $(n-1)$-connected for a rank $n$ vector bundle, then $E_2^{p \lt n, q} = 0$. Hence the edge homomorphism
+
+$$
+  \tilde H^k(Th(V), E^0(\ast)) \longrightarrow \tilde H^0(Th(V))
+$$
+
+is an [[isomorphism]], and one checks that it sends Thom classes to Thom classes.
+
+([MO discussion](http://mathoverflow.net/a/54116/381))
 
 ### Abstractly
 
