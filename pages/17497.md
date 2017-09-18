@@ -444,10 +444,12 @@ Let $(\mathcal{C}, \otimes, 1)$ be a [[monoidal category]], def. \ref{MonoidalCa
 
 For **proof** see at _[[monoidal category]]_ [this lemma](monoidal+category#kel1) and [this lemma](monoidal+category#kel2).
 
-+-- {: .num_remark}
++-- {: .num_remark #CoherenceForMonoidalCategories}
 ###### Remark
 
-Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and $a 1 = a$ and $(a b) c = a (b c)$ in order to have that expressions of arbitrary length may be re-bracketed at will, so there is a _[[coherence theorem for monoidal categories]]_ which states that all ways of composing the [[unitors]] and [[associators]] in a [[monoidal category]] (def. \ref{MonoidalCategory}) to go from one expression to another will coincide. Accordingly, much as one may drop the notation for the bracketing in an [[associative algebra]] altogether, so one may, with due care, reason about monoidal categories without always making all unitors and associators explicit.
+Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and $a 1 = a$ and $(a b) c = a (b c)$ in order to have that expressions of arbitrary length may be re-bracketed at will, so there is a _[[coherence theorem for monoidal categories]]_ which states that all ways of freely composing the [[unitors]] and [[associators]] in a [[monoidal category]] (def. \ref{MonoidalCategory}) to go from one expression to another will coincide. Accordingly, much as one may drop the notation for the bracketing in an [[associative algebra]] altogether, so one may, with due care, reason about monoidal categories without always making all unitors and associators explicit.
+
+(Here the qualifier "freely" means informally that we must not use any non-formal identification between objects, and formally it means that the diagram in question must be in the image of a [[strong monoidal functor]] from a _free_ monoidal category. For example if in a particular monoidal category it so happens that the object $X \otimes (Y \otimes Z)$ is actually _equal_ to $(X \otimes Y)\otimes Z$, then the various ways of going from one expression to another using only associators _and_ this equality no longer need to coincide.)
 
 =--
 
@@ -527,6 +529,14 @@ $$
 for all objects $x, y$
 
 =--
+
++-- {: .num_remark #SymmetricMonoidalCategoriesCoherenceTheorem}
+###### Remark
+
+In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}) there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that every diagram built freely (see remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) from [[associators]], [[unitors]] and [[braidings]] such that both sides of the diagram correspond to the same [[permutation]] of objects, coincide.
+
+=--
+
 
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
@@ -7548,7 +7558,7 @@ such that $L$ (hence equivalently $R$) has the structure of a [[strong monoidal 
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction}
 ###### Proposition
 
 Given a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction})
@@ -9447,209 +9457,6 @@ The [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})
 
 
 
-
-+-- {: .num_prop #EnHomology}
-###### Proposition
-
-Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and let $X \in Ho(Spectra)$ be any spectrum. Then there is a [[homomorphism]] of [[graded abelian groups]] of the form
-
-$$
-  E_\bullet(E)
-   \otimes_{\pi_\bullet(E)}
-  E_\bullet(X)
-    \longrightarrow
-  [\mathbb{S}, E \wedge E \wedge X]_\bullet
-  =
-  \pi_\bullet(E \wedge E \wedge X)
-$$
-
-(for $E_\bullet(-)$ the $\pi_\bullet(E)$-modules according to prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}) given on elements
-
-$$
-  \Sigma^{n_1}\mathbb{S}
-   \overset{\alpha_1}{\longrightarrow}
-  E \wedge E
-  \;\;\,,
-  \;\;
-  \Sigma^{n_2} \mathbb{S}
-    \overset{\alpha_2}{\longrightarrow}
-  E \wedge X
-$$
-
-by
-
-$$
-  \alpha_1 \cdot \alpha_2
-    \;\colon\;
-  \Sigma^{n_1 + n_2}\mathbb{S}
-    \overset{\simeq}{\longrightarrow}
-  \Sigma^{n_1} \mathbb{S} \wedge \Sigma^{n_2}\mathbb{S}
-    \overset{\alpha_1 \wedge \alpha_2}{\longrightarrow}
-  E \wedge E \wedge E \wedge X
-    \overset{id_E \wedge \mu \wedge id_X}{\longrightarrow}
-  E \wedge E \wedge X
-  \,.
-$$
-
-If $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
-
-=--
-
-([Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
-
-+-- {: .proof}
-###### Proof
-
-First of all, that the given pairing is a well defined homomorphism (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
-
-We discuss that it is an isomorphism when $E_\bullet(E)$ is flat over $\pi_\bullet(E)$:
-
-First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then 
-
-$$
-  E_\bullet(X) = E_\bullet(\Sigma^n X) \simeq \pi_{\bullet-n}(E)
-$$ 
-
-and 
-
-$$
-  \pi_\bullet(E \wedge E \wedge X) 
-    =
-  \pi_\bullet(E \wedge E \wedge \Sigma^n \mathbb{S})
-    \simeq 
-  E_{\bullet-n}(E)
-$$ 
-
-and 
-
-$$
-  E_\bullet(E) \otimes_{\pi_\bullet(E)} \pi_{\bullet-n}(E)
-    \simeq
-  E_{\bullet-n}(E)
-$$
-
-Therefore in this case we have an isomorphism for all $E$.
-
-For general $X$, we may without restriction assume that $X$ is represented by a sequential [[CW-spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CWApproximationForSequentialSpectra)). Then the [[homotopy cofibers]] of its cell attachment maps are suspensions of the [[sphere spectrum]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra)).
-
-First consider the case that $X$ is a CW-spectrum with finitely many cells. Consider the [[homotopy cofiber sequence]] of the $(k+1)$st cell attachment (by that [remark](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra)):
-
-$$
-  \array{
-    \Sigma^{n_k-1}\mathbb{S}
-      &\longrightarrow&
-    X_k
-      &\longrightarrow&
-    X_{k+1}
-      &\longrightarrow&
-    \Sigma^{n_k}\mathbb{S}
-      &\longrightarrow&
-    \Sigma X_k
-  }
-$$
-
-and its image 
-
-$$
-  \array{
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k-1}\mathbb{S})
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_k)
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_{k+1})
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k}\mathbb{S})
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma X_k)
-    \\
-    \downarrow
-      &&
-    \downarrow
-      &&
-    \downarrow
-      &&
-    \downarrow
-      &&
-    \downarrow
-    \\
-    [\mathbb{S}, E \wedge E \wedge \Sigma^{n_k-1}\mathbb{S}]_\bullet
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge E \wedge X_k]_{\bullet}
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge E \wedge X_{k+1}]_{\bullet}
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge E \wedge \Sigma^{n_k}\mathbb{S}]_{\bullet}
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge E \wedge \Sigma X_k]_{\bullet}
-  }
-  \,.
-$$
-
-Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning $E_\bullet(-)$ of the homotopy cofiber sequence is long exact; and by the assumption that $E_\bullet(E)$ is flat, the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactness, so that also the top row is a [[long exact sequence]].
-
-Now by [[induction]] over the cells of $X$, the outer four vertical morphisms are [[isomorphisms]]. Hence the [[5-lemma]] implies that also the middle morphism is an isomorphism.
-
-This shows the claim for finite CW-spectra. For the general statement, now use that
-
-1. every CW-spectrum is the [[filtered colimit]] over its finite CW-subspectra;
-
-1. the [[symmetric monoidal smash product of spectra]] $\wedge$ preserves colimits in its arguments separately (since it has a [[right adjoint]] by prop. \ref{MonoidalCategoryOfModules});
-
-1. $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ commutes over filtered colimits of CW-spectrum inclusions (since spheres are compact);
-
-1. $E_\bullet(E) \otimes_{\pi_\bullet(E)}(-)$ distributes over colimits (it being a left adjoint).
-
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}). Then its self-$E$-homology (remark \ref{EMHomology})
-
-$$
-  E_\bullet(E) \coloneqq \pi_\bullet(E \wedge E)
-$$
-
-naturally inherits several algebraic structures:
-
-1. by example \ref{TensorProductOfTwoCommutativeMonoids}, $E \wedge E$ is itself canonically a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and hence, by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}, $E_\bullet(E)$ is canonically a [[graded commutative ring]];
-
-1. in addition $E_\bullet(E)$ is canonically both a left as well as a right module over $\pi_\bullet(E)$, by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum};
-
-1. moreover the unit $e$ of $E$ gives a morphism
-
-   $$
-     \pi_{\bullet}(id \wedge e \wedge id)
-     \;\colon\; 
-      E_\bullet(E) \longrightarrow \pi_{\bullet}(E \wedge E \wedge E)
-   $$
-
-   and if $E_\bullet(E)$ [[flat module|flat]] as a module over $\pi_\bullet(E)$, then by prop. \ref{EnHomology} this is equivalently a morphism of the form
-
-  $$
-    E_\bullet(E) \longrightarrow E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
-    \,;
-  $$
-
-1. finally the [[braiding]] of the derived [[smash product of spectra]] $\wedge$ induces an [[automorphism]]
-
-   $$
-     \pi_{\bullet}(\tau_{E,E})
-       \;\colon\;
-     E_\bullet(E)
-       \overset{\simeq}{\longrightarrow}
-     E_\bullet(E)
-     \,.
-   $$
-
-This structure, together with various compatibility conditions that it satisfies, is called a _[[graded commutative Hopf algebroid]] structure_. The pair $(E_\bullet(E), \pi_\bullet(E))$ equipped with this structure is called the **dual $E$-[[Steenrod algebra]]**. 
-
-We discuss this in more detail in [[Introduction to Stable homotopy theory -- 2|Part 2]] in the section _[The dual E-Steenrod algebra](Introduction+to+Stable+homotopy+theory+--+2#DualESteenrodAlgebra)_.
-
-=--
-
-
 #### Examples
  {#Examples}
 
@@ -10094,7 +9901,21 @@ $$
   }
 $$
 
-is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}, corollary \ref{StableMonoidalQuillenSuspensionSpectrumFunctor}).
+is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}, corollary \ref{StableMonoidalQuillenSuspensionSpectrumFunctor}), and so also induced adjunction of [[derived functors]] 
+
+$$
+  \array{
+     (Ho(Top^{\ast/}), \wedge^L, S^0)
+     \\
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \\
+     (Ho(Spectra), \wedge^L, \mathbb{S})
+  }
+$$
+
+is a [[strong monoidal adjunction]] (by prop. \ref{StrongMonoidalDerivedFunctorFromStrongMonoidalQuillenAdjunction}) from the the derived [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
+
+
 
 Under passage to [[homotopy category of a model category|homotopy categories]] this yields a [[commuting diagram]] of [[derived functor|derived]] [[adjoint functors]]
 
@@ -10169,20 +9990,16 @@ This implies that for $E \in OrthSpec(Top_{cg})$ a commutative[[orthogonal ring 
 | [[symmetric monoidal smash product of spectra]] | | derived [[smash product of spectra]] |
 | commutative [[orthogonal ring spectrum]] ([[E-infinity ring]]) |   | [[homotopy commutative ring spectrum]] |
 
-
-Moreover, the vertical adjunction 
+Finally, the graded hom-groups $[X,Y]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] are canonically graded modules over the [[graded commutative ring]] of [[stable homotopy groups of spheres]] (exmpl. \ref{StableStemsRingStructure})
 
 $$
-  \array{
-     (Ho(Top^{\ast/}), \wedge^L, S^0)
-     \\
-     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
-     \\
-     (Ho(Spectra), \wedge^L, \mathbb{S})
-  }
+  [X,Y]_\bullet
+    \in 
+  \pi_\bullet(\mathbb{S}) Mod
+  \,.
 $$
 
-is a [[strong monoidal adjunction]] from the the derived [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
+Hence the next question is how to actually compute any of these. This is the topic of _[[Introduction to Stable homotopy theory -- 2|Part 2 -- The Adams spectral sequence]]_.
 
 
 
