@@ -24,6 +24,8 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 
 ## Related entries
 
+* [[commutative magma]]
+
 * [[abelian group]]
 
 * [[commutative ring]]
