@@ -139,9 +139,15 @@ For the externally constructive version of this, it is best to take $X$ to be a 
 
 ## References
 
-* C. Mulvey (1974): _Intuitionistic Algebra and Representations of Rings_. In Hofmann, Liukkonen: _Recent Advances in the Representation Theory of Rings and C\*-Algebras by Continuous Sections_, AMS 1974.
+* D. Lesnik, _Synthetic Topology and Constructive
+Metric Spaces_ , PhD University of Ljubljana 2010. ([pdf](http://www.fmf.uni-lj.si/storage/19160/PhD_Davorin.pdf))
+
+* [[Chris Mulvey|C. Mulvey]] (1974): _Intuitionistic Algebra and Representations of Rings_. In Hofmann, Liukkonen: _Recent Advances in the Representation Theory of Rings and C\*-Algebras by Continuous Sections_, AMS 1974.
   {#Mulvey1974}
 
+* J. Z. Reichman, _Semicontinuous Real Numbers in a Topos_ , JPAA **28** (1983) pp.81-91.
+
+See also the following MO-discussion: ([link](http://mathoverflow.net/questions/108029/simplification-in-semi-continuous-real?rq=1))
 
 [[!redirects one-sided real]]
 [[!redirects one-sided reals]]
