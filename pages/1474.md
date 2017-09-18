@@ -42,15 +42,15 @@ Here is a classically equivalent definition that is more suitable for [[construc
 Given points $x$ and $y$ of $S$, if every neighbourhood $U$ of $x$ in $S$ meets every neighbourhood $V$ of $y$ in $S$ (which means that $U \cap V$ is [[inhabited set|inhabited]]), then $x = y$.
 =--
 
-A more conceptual way of saying this, which makes sense also for [[locales]], is the following
+A more conceptual way of saying this, which makes sense also for [[locales]], is the following:
 
 +-- {: .num_defn #proper}
 ###### Definition
 
-The [[diagonal]] embedding $S \to S \times S$ is a [[proper map]].
+The [[diagonal]] embedding $S \to S \times S$ is a [[proper map]] (or equivalently a [[closed map]], since any closed subspace inclusion is proper).
 =--
 
-This way of stating the definition generalizes to [[topos theory]] and thus to many other contexts. See _[Beyond topological spaces](#BeyondTopologicalSpaces)_ below for more.
+This way of stating the definition generalizes to [[topos theory]] and thus to many other contexts; but it is not always a faithful generalization of the classical notion for topological spaces.  See _[Beyond topological spaces](#BeyondTopologicalSpaces)_ below for more.
 
 
 Here is an equivalent definition (constructively equivalent to Definition \ref{constructive}) that makes sense for arbitrary [[convergence spaces]]:
@@ -112,9 +112,19 @@ The reader can now easily define a _sequentially $R_1$ space_.
 ## Beyond topological spaces
  {#BeyondTopologicalSpaces}
 
-The notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also includes notions such as a _[[separated scheme]]_ etc.
+The only reasonable definition for a [[locale]] $X$ to be **Hausdorff** is that its diagonal $X\to X\times X$ is a closed (and hence proper) inclusion.  However, if $X$ is a [[sober space]] regarded as a locale, this might not coincide with the condition for $X$ to be Hausdorff as a space, since the product $X\times X$ in the category of locales might not coincide with the product in the category of spaces.  But it does coincide if $X$ is a [[locally compact locale]], so in that case the two notions of Hausdorff are the same.
 
-The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
+This notion of a _Hausdorff locale_ is a special case of that of _[[Hausdorff topos]]_ in [[topos theory]]. This also includes notions such as a _[[separated scheme]]_ etc.  The corresponding relative notion (over an arbitrary [[base topos]]) is that of _[[separated geometric morphism]]_. For schemes see _[[separated morphism of schemes]]_.
+
+In [[constructive mathematics]], the Hausdorff notion multifurcates further, due to the variety of possible meanings of [[closed subspace]].  As a simple example, consider a [[discrete space]] $X$ regarded as a locale.  Since it is locally compact, the locale product $X\times X$ coincides with the space product; but nevertheless we have:
+
+1. The diagonal $X\to X\times X$ always has an open complement.
+1. Definition \ref{constructive} above always holds, since $\{x\}$ and $\{y\}$ are neighborhoods of $x$ and $y$, and if they intersect then $x=y$.
+1. The diagonal $X\to X\times X$ is the complement of an open subset if and only if equality in $X$ is $\neg\neg$-stable, such as if $X$ admits a tight [[apartness relation]].
+1. The locale diagonal $\Delta:X\to X\times X$ is a closed sublocale if and only if $X$ has decidable equality.  For closedness of $\Delta$ means that $\Delta_\ast(U\cup \Delta^\ast(V)) \subseteq \Delta_\ast(U) \cup V$ for any $U\in O(X)$ and $V\in O(X\times X)$, where $x\in \Delta^\ast(V)$ means $(x,x)\in V$, while $(x,y)\in \Delta_\ast(U)$ means $(x=y)\to (x\in U)$.  Now let $U = \emptyset$ and $V = \{ (x,x) \mid x\in X \}$.  Then $(x,y) \in \Delta_\ast(U\cup \Delta^\ast(V))$ means $(x=y) \to (\bot \vee (x=x))$, which is a tautology; while $(x,y) \in \Delta_\ast(U) \cup V$ means $((x=y)\to \bot) \vee (x=y)$, i.e. $\neg(x=y) \vee (x=y)$.
+
+In particular, the statement "all discrete locales are Hausdorff (as locales)" is equivalent to [[excluded middle]].
+
 
 ## Related concepts
 
