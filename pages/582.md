@@ -42,6 +42,12 @@ From the defining universal property of the [[limit]] it follows directly that a
 
 The dual concept is that of a [[regular epimorphism]].
 
+**Warning.** ([CassidyHebertKelly](#CassidyHebertKelly)) use `regular monomorphism'
+in a more general way: for them, a regular monomorphism is by definition the joint
+equalizer or an arbitrary family of parallel pairs of morphisms with common domain.
+The effect of this generalization is thus that the class of regular monomorphism
+becomes closed under arbitrary existing intersections.
+
 
 ## Properties
 
@@ -223,6 +229,10 @@ In practice this is of particular relevance for the $\infty$-version of [[regula
 
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 {#AdamekHerrlichStrecker}
+
+
+* [[C. Cassidy]], [[M. Hébert]], and [[Max Kelly]] _Reflective subcategories, localizations and factorizationa systems_. Journal of the Australian Mathematical Society (Series A) 38.03 (1985): 287-329.
+{#CassidyHebertKelly}
 
 
 [[!redirects regular monomorphism]]
