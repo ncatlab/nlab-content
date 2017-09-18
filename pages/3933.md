@@ -9,6 +9,11 @@
 =--
 =--
 
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 A **sequential (co)limit** is a [[limit]]/[[colimit]] whose [[diagram]] category is an [[ordinal]] or its [[opposite poset|opposite]] (regarded as a [[poset]], regarded as a [[category]]). For instance over a [[tower diagram]]. 
@@ -17,6 +22,11 @@ A **sequential (co)limit** is a [[limit]]/[[colimit]] whose [[diagram]] category
 
 Thus, a sequential limit is a special case of a [[directed limit]]. See there for more details.
 
+## Related concepts
+
+* [[tower of fibrations]]
+
+* [[lim^1 and Milnor sequences]]
 
 
 [[!redirects sequential limit]]
