@@ -20,7 +20,7 @@
 
 ## Idea
 
-In fundamental physics, notably in [[quantum field theory]] and [[string theory]] one often says that a non-trivial [[equivalence]] between two [[models (in theoretical physics)]] is a [[duality]]. 
+In fundamental physics, notably in [[quantum field theory]] and [[string theory]] one often says that a non-trivial [[equivalence]] of [[quantum field theories]] between two [[models (in theoretical physics)]] is a "[[duality]]". 
 
 ## Examples
 
@@ -125,11 +125,34 @@ $$
 
 This construction is the first step in associating the [[groupoid object in an (∞,1)-category]] which is induced by the [[atlas]] "quantization" via [[Giraud's theorem]] of [[Higher Topos Theory]].
 
-This groupoid object has as moduli stack of objects $LagrangianData$ and as moduli stack of 1-morphisms $Dualities$. Its corresponding [[stack]] realization is $LagrangianQFTs$
+It continues in the way that [[Cech covers]] do (whence one speaks of the _[[Cech nerve]]_ construction of the quantization map $LagrangianData \to LagrangianQFTs$): above "$Dualities$" there is the space of triples of Lagrangian data that all have the same quantization, equipped with dualities between any two of them, and equipped with an equivalence of dualities (hence a "duality of dualities") between the composite of two of these and the third:
+
+$$
+  \array{
+    && \vdots
+   \\
+  DualitiesOfdualities &\simeq& LagrangianData \underset{LagrangianQFT}{\times} LagrangianData \underset{LagrangianQFT}{\times} LagrangianDat
+   \\
+    && \downarrow \downarrow \downarrow
+    \\
+  Dualities &\simeq& LagrangianData \underset{LagrangianQFT}{\times} LagrangianData
+   \\
+   && \downarrow \downarrow
+   \\
+   && LagrangianData
+  }
+$$
+
+It continues this way through all $n$-fold dualities of dualities.
+The resulting $\infty$-groupoid object has as moduli stack of objects $LagrangianData$ and as moduli stack of 1-morphisms $Dualities$. Its corresponding [[stack]] realization is $LagrangianQFTs$ and so the corresponding [[augmented simplicial set|augmented]] [[simplicial object]] looks as
 
 $$
   \array{
      \vdots
+     \\
+     \downarrow\downarrow\downarrow\downarrow
+     \\
+     DualitiesOfDualities
      \\
      \downarrow\downarrow\downarrow
      \\
@@ -146,25 +169,9 @@ $$
   \,.
 $$
 
-This continues in the way that [[Cech covers]] do (whence one speaks of the [[Cech nerve]] construction of the quntization map $LagrangianData \to LagrangianQFTs$): above "$Dualities$" there is the space of triples of Lagrangian data that all have the same quantization, equipped with dualities between any two of them, and equipped with an equivalence of dualities between the composite of two of these and the third:
-
-$$
-  \array{
-    && \vdots
-   \\
-  && LagrangianData \underset{LagrangianQFT}{\times} LagrangianData \underset{LagrangianQFT}{\times} LagrangianDat
-   \\
-    && \downarrow \downarrow \downarrow
-    \\
-  Dualities &\simeq& LagrangianData \underset{LagrangianQFT}{\times} LagrangianData
-   \\
-   && \downarrow \downarrow
-   \\
-   && LagrangianData
-  }
-$$
 
 Such towers are to be thought of as the incarnation of [[equivalence relations]] as we pass to [[(∞,1)-category theory]]: A plain [[equivalence relation]] is just the first stage of such a tower
+
 
 $$
   \array{
@@ -202,7 +209,7 @@ we may turn this around and say that therefore
 
 b) quantization is the result of forming the [[homotopy quotient]] of the space of Lagrangian data by these duality relations.
 
-It is one of the clauses of the [[Giraud theorem]] in $(\infty,1)$-topos theory that these two perspectives are equivalent.
+It is one of the clauses of the [[Giraud theorem]] in [[(∞,1)-topos theory]] that these two perspectives are equivalent.
 
 ## Related concepts
 
