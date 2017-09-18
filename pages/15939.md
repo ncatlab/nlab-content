@@ -53,14 +53,14 @@ $$
 $$
 The (Tate-twist) motivic and cohomological gradings are given respectively by the actions of the monoid $\mathbb{Z}-\{0\}$ and the monoid of powers of $T$.
 
-1. The (yet to be properly defined) cohomology theories in global analytic geometry have a different type of bigrading (that is related to the idea of the algebra of polynomials over the field $\mathbb{F}_\{\pm 1\}$ with `one element`).
+1. The (yet to be properly defined) cohomology theories in global analytic geometry have a different type of bigrading (that is related to the idea of the algebra of polynomials over the field $\mathbb{F}_\{\pm 1\}$ with `one element`, formulated precisely e.g. in Durov's setting of generalized rings).
 We will now extend the above definition of the monoid $\Lambda$ to the setting of ind-Banach ring, that seems necessary to understand absolute cohomologies.
 The corresponding (ind-)Banach ring may be simply given by the ind-Banach ring
 $$R:=\mathbb{Z}\{T\}^\dagger$$
 of overconvergent power series on the unit disc with coefficients in the Banach ring $(\mathbb{Z},|\cdot|_\infty)$: the `geometric` classical Lambda-structure is given by the base Banach ring, and the differential/absolute graduation is given by the $T$-part of the monoid (we may need to make a completion here)
 $$
 \Lambda(R):=
-\mathbb{R}\{T,T^{-1}\}^\dagger\cap \{P\in \mathbb{Z}\{T\}^\dagger,|P|_{\infty,1}\leq 1\}.
+\mathbb{R}\{T,T^{-1}\}^\dagger\cap \{P\in \mathbb{Z}\{T\}^\dagger,|P|_{\infty,1}\leq 1\}=\mathbb{F}_{\pm 1}[T].
 $$
 This is the monoid of power series whose terms are all equal to zero except possibly one, that is equal to $\{\pm 1\}$. It contains and extends the monoid $\Lambda(\Z,|\cdot|_\infty)=\{\pm 1\}$ in degree zero. This will be the natural grading monoid (generalized Lambda-structure) for absolute motives, i.e., motivic cohomology theories over $(\mathbb{Z},|\cdot|_\infty)$. Remark that the recent work of Scholze on local Schtukas in mixed characteristic also uses in an essential way objects such as the unit disc over the given base Banach ring.
 
