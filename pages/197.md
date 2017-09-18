@@ -1,9 +1,32 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
 
-__$Quiv$__ or __$DiGraph$__ is the category of [[quivers]] or (as category theorists often call them) [[directed graphs]].
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{:toc}
+
+
+## Idea
+
+__$Quiv$__ or __$DiGraph$__ is the category of [[quivers]] or (as category theorists often call them) [[directed graphs]]. It can be viewed as the default categorical model for the concept of a category of graphs.
+
+## Definition
 
 We can define a quiver to be a functor $G\colon X^{op} \to Set$, where $X^{op}$ is the [[category]] with an [[object]] $0$, an object $1$ and two [[morphisms]] $s, t\colon 1 \to 0$, along with [[identity morphisms]].  This lets us efficiently define $Quiv$ as the category of [[presheaves]] on $X$, where:
 
-* objects are [[functors]] $G\colon X^{op} \to C$,
+* objects are [[functors]] $G\colon X^{op} \to Set$,
 * morphisms are [[natural transformations]] between such functors.
 
 In other words, $Quiv$ is the [[functor category]] from this $X^{op}$ to [[Set]].
@@ -16,6 +39,8 @@ $$X(-, 0) = \bullet, \qquad X(-, 1) = (x \stackrel{e}{\to} y)$$
 
 and from this picture we easily see that $X(-, 0)$ has two subobjects $\emptyset, \bullet$ whereas $X(-, 1)$ has five: $empty, x, y, (x, y), (x \stackrel{e}{\to} y)$. 
 
+### The subobject classifier
+
 This in turn allows us to calculate the structure of the [[subobject classifier]] $\Omega$: it is the quiver with two vertices and five edges that looks roughly like 
 
 $$\array{
@@ -25,6 +50,22 @@ $$\array{
 }$$ 
 
 (so there is one loop labeled "empty" at the vertex $\emptyset$, and two loops at the vertex $\bullet$, one labeled $(x, y)$ and the other $x \stackrel{e}{\to} y$). 
+
+How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\to\Omega$ its characteristic map, then $\chi_X$ maps vertices of $Y$ not in $X$ to $\emptyset$ and vertices in $X$ to $\bullet$ (a vertex is either contained in a subgraph or not - the choice is binary and, accordingly, $\Omega$ needs two vertices to represent this). For edges the situation is more complicated since there are five ways (and, accordingly five edges in $\Omega$ to represent this) for an edge $z$ of $Y$ to be related to the subgraph $X$: the most straightforward is when $z$ has neither source nor target in $X$, such $z$ are definitely not in $X$ and are represented in $\Omega$ by the loop at $\emptyset$. Now suppose that $z$ has either source or target vertex in $X$ but not both: $\chi_X$ maps these to the maps $x,y$ between $\emptyset\rightleftarrows\bullet$, respectively. When $z$ has both source and target in $X$, the edge itself might or might not be in $X$, and the corresponding two cases are represented by the two loops at $\bullet$ , respectively.
+
+## Related entries
+
+* [[hypergraph]]
+
+
+## References
+
+* R. T. Bumpy, D. M. Latch, _Categorical Constructions in Graph Theory_ , Internat. J. Math. & Math. Sci. **9** no.1 (1986) pp.1-16.
+
+* {#Law89a} [[F. W. Lawvere]], *Qualitative Distinctions between some Toposes of Generalized Graphs*, Cont. Math. **92** (1989) pp.261-299.
+
+* {#Vigna03} S. Vigna, _A Guided Tour in the Topos of Graphs_ , arXiv.0306394 (2003). ([abstract](https://arxiv.org/abs/math/0306394))
+
 
 
 category: category
