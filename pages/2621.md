@@ -112,7 +112,7 @@ A solid mathematical formulation of perturbation theory has been given in
 
 A general introduction on divergence of perturbation theory, asymptotic series and [[non-perturbative effects]] is for instance on the first pages of
 
-* Marcos Marino, _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
+* [[Marcos Marino]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
 Further discussion is for instance in
 
