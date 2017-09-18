@@ -202,6 +202,8 @@ The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open sub
 
 * [[topological G-space]]
 
+* [[filter space]]
+
 ## References
 
 See at _[[topology]]_.
