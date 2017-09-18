@@ -21,6 +21,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 The _Yetter model_ is a [[4d TQFT]] [[sigma-model]] [[quantum field theory]] whose target space is a [[discrete infinity-groupoid|discrete]] [[2-groupoid]] and whose [[background gauge field]] is a [[circle n-bundle|circle 4-bundle]].
