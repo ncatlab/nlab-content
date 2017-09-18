@@ -28,7 +28,7 @@ Take $add\colon \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to 1 + \bar{\mathbb{N}
 ## References
  {#References}
 
-* [[Bart Jacobs,]] Jan Rutten, _A tutorial on (Co)Algebras and (Co)Induction_ ([pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf))
+* [[Bart Jacobs]], [[Jan Rutten]], _A tutorial on (Co)Algebras and (Co)Induction_ ([pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf))
 
 * Davide Sangiorgi, _Introduction to Bisimulation and Coinduction_, Cambridge Universtity Press (2012)  ([web](http://www.cs.unibo.it/~sangio/IntroBook.html))
 
