@@ -233,7 +233,7 @@ See also
 
 A nice elementary introduction which emphasizes calculations and the application as _engineering mathematics_ can be found in
 
-* [[John Bell|John L. Bell]], _A Primer of Infinitesimal Analysis_ , Cambridge UP 1998.
+* [[John Lane Bell]], _A Primer of Infinitesimal Analysis_ , Cambridge UP 1998.
 
 The textbooks 
 
@@ -266,6 +266,6 @@ Useful introductory expositions of basic ideas of synthetic differential geometr
 
 *  [[Mike Shulman]], _Chicago Pizza-Seminar: Synthetic Differential Geometry_ ([pdf](http://home.sandiego.edu/~shulman/papers/sdg-pizza-seminar.pdf))
 
-*  [[John Bell]], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
+*  [[John Lane Bell]], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
 
 * R. P. Kostecki, _Differential Geometry in Toposes_ , ms. University of Warsaw (2009). ([pdf](http://www.fuw.edu.pl/~kostecki/sdg.pdf))
