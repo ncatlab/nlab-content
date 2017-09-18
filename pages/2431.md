@@ -45,7 +45,7 @@ Note that it is immediate that every representable functor has the given propert
 
 When the theorem is stated in terms of CW complexes, the second property (taking weak pushouts to weak pullbacks) is often phrased equivalently as:
 
-* The **Mayer-Vietoris axiom**: For every [[CW triad|triad]] $(X; A_1, A_2)$ of CW-spaces (with $A_1\cup A_2 = X$) and any elements $x_1\in F(A_1)$, $x_2\in F(A_2)$ such that $x_1|A_1\cap A_2 = x_2|A_1\cap A_2$, there exists $y\in F(X)$ such that $y|A_1 = x_1$ and $y|A_2 = x_2$.
+* The **Mayer-Vietoris axiom**: For every [[triple]] $(X; A_1, A_2)$ of CW-spaces (with $A_1\cup A_2 = X$) and any elements $x_1\in F(A_1)$, $x_2\in F(A_2)$ such that $x_1|A_1\cap A_2 = x_2|A_1\cap A_2$, there exists $y\in F(X)$ such that $y|A_1 = x_1$ and $y|A_2 = x_2$.
 
 ## Generalizations
 
@@ -135,7 +135,11 @@ The categorical generalization was proven in
 
 * {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965)
 
-Review includes 
+A version of the proof is spelled out in 
+
+* {#Spanier66} [[Edwin Spanier]], section 7.7 of _Algebraic topology_, McGraw-Hill, 1966
+
+A proof following this one is also given in
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
