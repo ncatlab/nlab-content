@@ -205,9 +205,3 @@ For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spect
 [[!redirects (∞,n)-categories of cobordisms]]
 [[!redirects (infinity,n)-categories of cobordisms]]
 
-[[!redirects (∞,n)-category of n-fold correspondences]]
-[[!redirects (infinity,n)-category of n-fold correspondences]]
-
-
-[[!redirects phased tensor product]]
-[[!redirects phased tensor products]]
