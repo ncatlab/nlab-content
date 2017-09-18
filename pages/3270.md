@@ -22,27 +22,29 @@ Another example are the [[moduli spaces]] of [[Higgs bundles]], studied by [[Car
 
 Surely, one often works at the derived level. An adaptation of the  notion of stability into the setup of [[triangulated categories]] has been introduced by Bridgeland. Bridgeland stability for the derived categories of (boundary conditions of) D-branes (B-model) are relevant for string theory.
 
-## References and links
 
-### Related entries
+## Related concepts
 
 * [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]], [[Donaldson-Thomas invariant]].
 
 [[!include field theory with boundaries and defects - table]]
 
 
-### Conferences and seminars
+## References
 
-* (past) [[Kontsevich]] in Aarhus, August 2010, [master class on wall crossing](http://qgm.au.dk/events/show/artikel/masterclass-aug-2010/); we will keep a [[wall crossing in Aarhus|nlab page]] on it
 
-* (past) [Focus Week on New Invariants and Wall Crossing](http://member.ipmu.jp/domenico.orlando/FocusInvariants.html), May 18-22, 2009, Kashiwa Campus of the University of Tokyo
+### Introductions and lectures
 
-* (past) [Wall-crossing in Mathematics and Physics](http://www.math.uiuc.edu/wallcrossing), May 24-28, 2010,
-Department of Mathematics, University of Illinois at Urbana-Champaign
+* Sergio Cecotti, _Trieste lectures on wall-crossing invariants_ (2010) ([pdf](http://people.sissa.it/~cecotti/ictptext.pdf))
 
-* Description of seminar on stability conditions and Stokes factors in Bonn, [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
+* [[Greg Moore]], _PiTP Lectures on BPS states and wall-crossing in $d = 4$, $\mathcal{N} = 2$ theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/PiTP_July26_2010.pdf))
 
-### Articles
+* {#Dimofte10} [[Tudor Dimofte]], _Refined wall crossing_ ([pdf](http://thesis.library.caltech.edu/5808/4/TD_part1.pdf)), part I of _Refined BPS invariants, Chern-Simons theory, and the quantum dilogarithm_, 2010 ([pdf](http://thesis.library.caltech.edu/5808/1/DimofteTDofficial.pdf), [web](http://thesis.library.caltech.edu/5808/))
+
+
+### Original articles
+
+#### General
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435); _Motivic Donaldson-Thomas invariants: summary of results_, [0910.4315](http://arxiv.org/abs/0910.4315); _Wall-crossing structures in Donaldson-Thomas invariants, integrable systems and Mirror Symmetry_, [arxiv/1303.3253](http://arxiv.org/abs/1303.3253)
 
@@ -59,7 +61,7 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * E. Diaconescu, [[Greg Moore]], _Crossing the wall: branes vs. bundles_, [arXiv/0706.3193](http://arxiv.org/abs/0706.3193)
 
-* E. Andriyash, [[Frederic Denef|F. Denef]], [[Daniel Jafferis]], [[Greg Moore|G. W. Moore]], _Wall-crossing from supersymmetric galaxies_, [arxiv/1008.0030](http://arxiv.org/abs/1008.0030)
+* E. Andriyash, [[Frederik Denef]], [[Daniel Jafferis]], [[Greg Moore|G. W. Moore]], _Wall-crossing from supersymmetric galaxies_, [arxiv/1008.0030](http://arxiv.org/abs/1008.0030)
 
 * Tom Bridgeland, [[Valerio Toledano-Laredo]], _Stability conditions and Stokes factors_, [arxiv/0801.3974](http://arxiv.org/abs/0801.3974)
 
@@ -71,17 +73,25 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * H.-Y. Chen, N. Dorey, K. Petunin, _Moduli space and wall-crossing formulae in higher-rank gauge theories_, JHEP 11 (2011) 020, <a href="http://dx.doi.org/10.1007/JHEP11(2011)020">doi</a>; _Wall crossing and instantons in compactified gauge theory_, JHEP 06 (2010) 024 [arXiv:1004.0703](ttp://arxiv.org/abs/1004.0703)
 
-* [pdf](http://string.lpthe.jussieu.fr/QKPHYS2010/Manschot.pdf)
+### In supergravity
 
-* {#Dimofte10} [[Tudor Dimofte]], _Refined wall crossing_ ([pdf](http://thesis.library.caltech.edu/5808/4/TD_part1.pdf)), part I of _Refined BPS invariants, Chern-Simons theory, and the quantum dilogarithm_, 2010 ([pdf](http://thesis.library.caltech.edu/5808/1/DimofteTDofficial.pdf), [web](http://thesis.library.caltech.edu/5808/))
+* {#Denef00} [[Frederik Denef]], _Supergravity flows and D-brane stability_, JHEP 0008:050,2000 ([arXiv:hep-th/0005049](http://arxiv.org/abs/hep-th/0005049))
+
+* [[Frederik Denef]], _Quantum Quivers and Hall/Hole Halos_, JHEP 0210:023,2002 ([arXiv:hep-th/0206072](http://arxiv.org/abs/hep-th/0206072))
 
 * [[Daniel Jafferis]], [[Gregory Moore]], _Wall crossing in local Calabi Yau manifolds_ ([arXiv:0810.4909](http://arxiv.org/abs/0810.4909))
 
-### Introductions and lectures
+### Conferences and seminars
 
-* Sergio Cecotti, _Trieste lectures on wall-crossing invariants_ (2010) ([pdf](http://people.sissa.it/~cecotti/ictptext.pdf))
+* (past) [[Kontsevich]] in Aarhus, August 2010, [master class on wall crossing](http://qgm.au.dk/events/show/artikel/masterclass-aug-2010/); we will keep a [[wall crossing in Aarhus|nlab page]] on it
 
-* [[Greg Moore]], _PiTP Lectures on BPS states and wall-crossing in $d = 4$, $\mathcal{N} = 2$ theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/PiTP_July26_2010.pdf))
+* (past) [Focus Week on New Invariants and Wall Crossing](http://member.ipmu.jp/domenico.orlando/FocusInvariants.html), May 18-22, 2009, Kashiwa Campus of the University of Tokyo
+
+* (past) [Wall-crossing in Mathematics and Physics](http://www.math.uiuc.edu/wallcrossing), May 24-28, 2010,
+Department of Mathematics, University of Illinois at Urbana-Champaign
+
+* Description of seminar on stability conditions and Stokes factors in Bonn, [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)
+
 
 
 [[!redirects wall crossing]]
