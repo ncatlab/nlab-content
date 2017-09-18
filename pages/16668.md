@@ -22,9 +22,19 @@ In the context of [[supergravity]] and [[string theory]], the term _exceptional 
 
 Accordingly, exceptional field theory is related to [[exceptional generalized geometry]] as [[double field theory]] is related to [[generalized complex geometry]].
 
-A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesian product]] of a $d$-dimensional [[Cartesian space]] with a [[linear representation]] space of a form of the [[exceptional Lie group]] $E_{11-d}$. Fields on this spacetime are subject to satisfy a certain [[differential equation]] derived from an [[invariant]] form of the representation and one considers a generalized [[isometry]] algebra on this space which fails the [[Jacobi identity]] by a term proportional to this contraint (e.g. [Baguet-Hohm-Samtleben 15, section 2](#BaguetHohmSamtleben15)).
+A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesian product]] of a $d$-dimensional [[Cartesian space]] with the [[fundamental representation]] [[vector space]] of a form of the [[exceptional Lie group]] $E_{11-d}$. Fields on this spacetime are subject to satisfy a certain [[differential equation]] derived from an [[invariant]] form of the representation and one considers a generalized [[isometry]] algebra on this space which fails the [[Jacobi identity]] by a term proportional to this contraint (e.g. [Baguet-Hohm-Samtleben 15, section 2](#BaguetHohmSamtleben15)).
 
 ## References
+
+The original articles are
+
+* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
+
+* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Field Theory I: $E_{6(6)}$ covariant Form of M-Theory and Type IIB_, Phys. Rev. D 89, 066016 (2014) ([arXiv:1312.0614](http://arxiv.org/abs/1312.0614))
+
+* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Field Theory II: $E_{7(7)}$_, Phys. Rev. D 89, 066017 (2014) ([arXiv:1312.4542](http://arxiv.org/abs/1312.4542))
+
+* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Field Theory III: $E_{8(8)}$_, 	Phys. Rev. D 90, 066002 (2014) ([arXiv:1406.3348](http://arxiv.org/abs/1406.3348))
 
 Review for [[KK-compactification]] to [[5d supergravity]], hence for [[E6]]-[[U-duality]], includes
 
