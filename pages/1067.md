@@ -85,7 +85,7 @@ For $C_\bullet$ a chain complex
 
 * the morphisms $\partial_n$ are called the **[[differentials]]** or **[[boundary]] maps**;
 
-* the [[element in an abelian category|elements]] of 
+* the [[element in an abelian category|elements]] of $C_n$
   are called the **$n$-[[chains]]**;
 
 * the elements in the [[kernel]] 
