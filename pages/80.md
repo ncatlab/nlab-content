@@ -103,6 +103,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * Stanford Encyclopaedia of Philosophy [online](http://plato.stanford.edu), [contents](http://plato.stanford.edu/contents.html)
 * Stewart Shapiro, _[[The Oxford handbook of philosophy of mathematics and logic]]_, Oxford University Press 2005
+* [free-philosophy-ebooks](http://www.openculture.com/free-philosophy-ebooks) at openculture
 
 ### Books
 
