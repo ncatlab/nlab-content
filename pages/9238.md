@@ -1,4 +1,8 @@
 
+> This entry is about the concept in [[physics]]. For the concept in [[algebra]] see at _[[free field]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
