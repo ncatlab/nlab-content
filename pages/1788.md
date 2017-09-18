@@ -1,5 +1,30 @@
 
 
 
-$\emptyset$
+$$
+  \array{
+    &\stackrel{Wesen}{}&& id &\stackrel{}{\dashv}& id
+    \\
+    &\stackrel{{letzte\;Bestimmung}\atop {des\;Seins}}{}&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
+    \\
+    &&& \Re &\stackrel{Idealitaet}{\dashv}& &#643;_{inf}
+    \\
+    &&& \bot && \bot 
+    \\
+    &&& &#643;_{inf} &\stackrel{Realitaet}{\dashv}& \flat_{inf}
+    \\
+    &&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
+    \\
+    &&\stackrel{Attraktion}{}& &#643; &\stackrel{Qualitaet}{\dashv}& \flat & \stackrel{Repulsion}{}
+    \\
+    &\stackrel{bestimmtes\;Sein}{}&& \bot && \bot 
+    \\
+    &&\stackrel{Diskretum}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuum}{}
+    \\
+    &&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
+    \\
+    &\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
+    \\
+  }
+$$
 
