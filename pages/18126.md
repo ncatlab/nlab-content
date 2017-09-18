@@ -10334,7 +10334,9 @@ $\,$
 
 The concept of [[compact topological space|compactness]] in topology ([above](#CompactSpaces))
 has several evident weakenings of interest. One is that of _[[paracompact topological space|paracompactness]]_
-(def. \ref{ParacompactSpace} below).
+(def. \ref{ParacompactSpace} below). The concept of paracompact topological spaces begins to lead over
+from plain topology to actual [[geometry]]. In particular the [[topological manifolds]] discussed [below](#Manifolds)
+are paracompact topological spaces.
 
 A key property is that [[paracompact Hausdorff spaces]] are equivalently those (prop. \ref{ParacompactHausdorffEquivalentToexistenceOfParititionsOfUnity}) all whose [[open covers]] admit a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity} below), namely a set of [[real number|real]]-valued [[continuous functions]]
 each of which is [[support|supported]] in only one patch of the cover, but whose [[sum]] is the unit function.
@@ -10456,7 +10458,8 @@ are paracompact Hausdorff spaces, by example \ref{TopologicalnSphereIsPushoutOfB
 
 =--
 
-Another source of paracompact spaces are [[topological groups]]:
+Another source of paracompact spaces are [[topological groups]] (def. \ref{TopologicalGroup}), 
+by prop. \ref{ParacompactLocallyCompactTopologicalGroups} below:
 
 +-- {: .num_defn #TopologicalGroup}
 ###### Definition
@@ -10470,13 +10473,49 @@ are [[continuous functions]].
 
 +-- {: .num_example}
 ###### Example
+**(examples of [[topological groups]])**
 
-The additive [[group]] of [[real numbers]] $(\mathbb{R}, +)$ with the [[Euclidean space|Euclidean]] [[metric topology]]
-is a topological group (def. \ref{TopologicalGroup}).
+Here are some examples of [[topological groups]] (def. \ref{TopologicalGroup})
+
+1. The additive [[group]] of [[real numbers]] $(\mathbb{R}, +)$ with the [[Euclidean space|Euclidean]] [[metric topology]].
+   Notice that $\mathbb{R}$ is [[locally compact topological space|locally compact]] (example \ref{MetricSpacesAreLocallyCompact}).
+
+1. For $n \in \mathbb{N}$ the _[[general linear group]]_ $GL(n, \mathbb{R})$ is the [[group]] of [[real number|real]] $n \times n$ [[matrices]] whose [[determinant]] is non-vanishing
+
+   $$
+     GL(n)
+     \;\coloneqq\;
+     \left(
+       A \in Mat_{n \times n}(\mathbb{R})
+       \; \vert \;
+       det(A) \neq 0
+     \right)
+   $$
+
+   with group operation given by [[matrix multiplication]]. The [[topological space|topology]] on $GL_(n,\mathbb{R})$ is the
+   [[subspace topology]] (def. \ref{SubspaceTopology}) as a subspace of the [[Euclidean space]] (example \ref{EuclideanNorm}) of [[matrices]]
+   
+   $$
+     Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}
+   $$
+
+   with its [[metric topology]] (example \ref{MetricTopology}). Since [[matrix multiplication]] is a 
+   [[polynomial function]] and since [[inverse matrix|matrix inversion]] is a [[rational function]],
+   and since polynomials and more generally rational functions are [[continuous functions]] on their [[domain]] of definition 
+   (example \ref{PolynoialsAreContinuous}) and since the domain of definition for matrix inversion is precisely 
+   $GL(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R})$, the group operations on $GL(n,\mathbb{R})$ are indeed 
+   [[continuous functions]].
+   
+   Observe that $GL_n(n,\mathbb{R}) \subset Mat_{n \times n}(\mathbb{R}) \simeq \mathbb{R}^{(n^2)}$
+   is an [[open subset|open]] [[subspace]], since it is the [[pre-image]] under the [[determinant]] function
+   (which is a [[polynomial]] and hence continuous) of the of the open subspace $\mathbb{R} \setminus \{0\} \subset \mathbb{R}$.
+   
+   Hence $GL(n,\mathbb{R}) \subset \mathbb{R}^{2^n}$ is an open subspace of a [[locally compact topological space]]
+   (example \ref{MetricSpacesAreLocallyCompact}) and thus itself locally compact.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ParacompactLocallyCompactTopologicalGroups}
 ###### Example
 **([[locally compact topological space|locally compact]] [[topological groups]]
 are [[paracompact topological space|paracompact]])
@@ -10487,13 +10526,17 @@ A [[topological group]] (def. \ref{TopologicalGroup}) which is  [[locally compac
 
 We give the **proof** later, using prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} below.
 
+
+
 $\,$
 
 The definition of [[paracompact Hausdorff spaces]] is closely related to the definition of
 
 1. [[second-countable topological space|second-countability]] (def. \ref{CountableSecond} below);
 
-1. [[sigma-compact topological space|sigma-compactness]] (def. \ref{CompactSigma} below).
+1. [[sigma-compact topological space|sigma-compactness]] (def. \ref{CompactSigma} below)
+
+as witnessed by prop. \ref{ParacompactFromLocallyCompactAndSigmacompact} and prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} below.
 
 
 +-- {: .num_defn #CountableSecond}
@@ -11298,7 +11341,7 @@ $\,$
 
 
 ## Manifolds
- {##Manifolds}
+ {#Manifolds}
 
 A _[[topological manifold]]_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]]
 (def. \ref{TopologicalManifold} below), but which may globally look very different.
