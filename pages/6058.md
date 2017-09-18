@@ -13,7 +13,7 @@
 
 This entry is about the article
 
-* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and Differential K-Theory_, Communications in Mathematical Physics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
+* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _T-duality and Differential K-Theory_, Communications in Contemporary Mathematics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
  
 
 on the identification of the correct description in [[differential cohomology]] ([[ordinary differential cohomology]] and [[differential K-theory]]) of [[T-duality]] or [[topological T-duality]]: [[differential T-duality]].
