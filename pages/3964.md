@@ -87,7 +87,7 @@ where $L_{B,A}\colon D(B) \to D(B,A)$ denotes the reflection.  It also has a rig
 
 ### Pointed exactness
 
-Define a **category with zeros** to be a category $B$ equipped with a full subcategory $B_0$.  By the preceeding remarks, any pointed derivator gives rise to a contravariant pseudofunctor defined on the 2-category of categories with zeros (and functors preserving the specified subcategories), all of whose transition functors have both adjoints.  It is natural to look for exactness conditions, analogous to (Der4) and the characterization of [[homotopy exact squares]], which apply to these adjoints.
+Define a **category with zeros** to be a category $B$ equipped with a full subcategory $B_0$.  By the preceding remarks, any pointed derivator gives rise to a contravariant pseudofunctor defined on the 2-category of categories with zeros (and functors preserving the specified subcategories), all of whose transition functors have both adjoints.  It is natural to look for exactness conditions, analogous to (Der4) and the characterization of [[homotopy exact squares]], which apply to these adjoints.
 
 Since the Beck-Chevalley transformation relating composites of these adjoints is the composite of the corresponding transformation for the unpointed diagram and a Beck-Chevalley transformation relating the restriction functors to the reflections $D(B) \to D(B,B_0)$, we clearly need to study when restriction commutes with these reflections.  This is the purpose of the following definition and lemma.
 
@@ -262,28 +262,28 @@ In the literature, the existence of these functors is often taken as the definit
 ### Loop and suspension
 
 In a pointed derivator, we have a [[suspension]] functor $\Sigma\colon D 1 \to D 1$ defined as the composite
-$$ D 1 \overset{a_*}{\to} D \Gamma \overset{abc_!}{\to} D \square \overset{d^*}{\to} D 1$$
+$$ D 1 \overset{a_*}{\to} D \Gamma \overset{a b c_!}{\to} D \square \overset{d^*}{\to} D 1$$
 where $\square$ denotes the category
 $$ \array{ a & \to & b \\ \downarrow & & \downarrow \\ c & \to & d } $$
 and $\Gamma$ its full subcategory on $\{a,b,c\}$.
 
 Equivalently, the suspension can be defined as the composite
-$$ D 1 = D(1,\emptyset) \overset{(a,\emptyset)_!}{\to} D(\square,bc) \overset{(d,\emptyset)^*}{\to} D(1,\emptyset) = D 1.$$
-This follows because we have $D 1 \simeq D(\Gamma,bc)$, and thus $(a,\emptyset)_!$ is isomorphic to $(abc,bc)_!\colon D(\Gamma,bc) \to D(\square,bc)$, which by definition is $L_{\square,bc} \circ abc_!$.  But $abc_!$ is fully faithful since $abc\colon \Gamma \hookrightarrow \square$ is, and so it already takes $D(\Gamma,bc)$ into $D(\square,bc)$.  Thus $L_{\square,bc}$ is doing nothing, so $(a,\emptyset)_!$ is essentially just $abc_!$ which appeared in our previous definition of $\Sigma$.  (The other functor $a_*$ essentially implements the equivalence $D 1 \simeq D(\Gamma,bc)$.)
+$$ D 1 = D(1,\emptyset) \overset{(a,\emptyset)_!}{\to} D(\square,b c) \overset{(d,\emptyset)^*}{\to} D(1,\emptyset) = D 1.$$
+This follows because we have $D 1 \simeq D(\Gamma,b c)$, and thus $(a,\emptyset)_!$ is isomorphic to $(a b c,b c)_!\colon D(\Gamma,b c) \to D(\square,b c)$, which by definition is $L_{\square,b c} \circ a b c_!$.  But $a b c_!$ is fully faithful since $a b c\colon \Gamma \hookrightarrow \square$ is, and so it already takes $D(\Gamma,b c)$ into $D(\square,b c)$.  Thus $L_{\square,b c}$ is doing nothing, so $(a,\emptyset)_!$ is essentially just $a b c_!$ which appeared in our previous definition of $\Sigma$.  (The other functor $a_*$ essentially implements the equivalence $D 1 \simeq D(\Gamma,b c)$.)
 
 Similarly, we have a [[loop space object]] functor $\Omega\colon D 1 \to D 1$ defined as the composite
-$$ D 1 \overset{d_!}{\to} D \Gamma^{op} \overset{bcd_*}{\to} D \square \overset{a^*}{\to} D 1.$$
+$$ D 1 \overset{d_!}{\to} D \Gamma^{op} \overset{b c d_*}{\to} D \square \overset{a^*}{\to} D 1.$$
 where $\Gamma^{op}$ is the full subcategory of $\square$ on $\{b,c,d\}$, and it can equivalently be given as the composite
 $$ D 1 = D(1,\emptyset) \overset{(d,\emptyset)_*}{\to} D(\square,bc) \overset{(a,\emptyset)^*}{\to} D(1,\emptyset) = D 1.$$
 The description in terms of relative diagram categories makes it clear that $\Sigma \dashv \Omega$.
 
 We can also describe $\Sigma$ and $\Omega$ in terms of the extraordinary inverse image functors.  Since the square
 $$ \array{ \Gamma & \to & \Gamma \\
-^r\downarrow & & \downarrow^{abc}\\
+^r\downarrow & & \downarrow^{a b c}\\
 * & \underset{d}{\to} & \square}$$
-is homotopy exact, the composite $d^* abc_!$ in our first definition is the same as $r_!$.  The other functor $a_*$ can in turn be decomposed as a composite $ab_* s_*$, where $s\colon * \to I$ is the inclusion of $s$ into the interval category $(s\to t)$, and $ab\colon I\to \Gamma$ is the inclusion into $\{a,b\}$.
+is homotopy exact, the composite $d^* a b c_!$ in our first definition is the same as $r_!$.  The other functor $a_*$ can in turn be decomposed as a composite $a b_* s_*$, where $s\colon * \to I$ is the inclusion of $s$ into the interval category $(s\to t)$, and $ab\colon I\to \Gamma$ is the inclusion into $\{a,b\}$.
 
-Therefore we have $\Sigma \cong r_! ab_* s_*$.  But $\Gamma$ can be identified with $M s$ and $ab$ with the inclusion $u\colon I \hookrightarrow M s$, while $r$ factors as $M s \overset{p}{\to} I \overset{q}{\to} *$ so that $r_! \cong q_! p_!$.  But finally, the square
+Therefore we have $\Sigma \cong r_! a b_* s_*$.  But $\Gamma$ can be identified with $M s$ and $a b$ with the inclusion $u\colon I \hookrightarrow M s$, while $r$ factors as $M s \overset{p}{\to} I \overset{q}{\to} *$ so that $r_! \cong q_! p_!$.  But finally, the square
 $$\array{* & \overset{t}{\to} & I\\
 \downarrow & & \downarrow^q\\
 *& \to & *}$$
