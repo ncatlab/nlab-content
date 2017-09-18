@@ -37,6 +37,13 @@ $$
 
 etc.
 
+## References
+
+Textbook accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+
 [[!redirects universal vector bundles]]
 
 [[!redirects universal complex vector bundle]]
