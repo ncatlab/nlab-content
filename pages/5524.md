@@ -364,6 +364,7 @@ $$
 We shall write $\mathbb{R}$ also for the underlying 
 additive group
 
+
 $$
   \mathbb{G}_a = \mathbb{R}
 $$
@@ -404,6 +405,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
  
    $$
     (\mathcal{O} \dashv j) 
+
     :  
      (SmoothAlg^\Delta)^{op}
      \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{j}{\to}}
@@ -442,6 +444,7 @@ Let $SmoothAlg^{\Delta}_{proj}$ be the [[model structure on cosimplicial algebra
 =--
 
 +-- {: .proof}
+
 ###### Proof
 
 First a remark on the sites. By the [above proposition](#EquivalenceToToposOverSoothSynthMfd)
@@ -949,7 +952,7 @@ $$
 ### Lie differentiation
  {#LieDifferentiation}
 
-We sketch how to formalize [[Lie differentiation]] in the context of formal smooth $\infty$-groupoids. 
+We indicate how to formalize [[Lie differentiation]] in the context of formal smooth $\infty$-groupoids. 
 
 Let
 
@@ -957,7 +960,7 @@ $$
   inf : InfPoint_\infty \hookrightarrow \mathbf{H}^{*/}
 $$
 
-be the canonical inclusion. By ([Lurie](#Lurie)) we have the full inclusion
+be the canonical inclusion. By ([Lurie, theorem 0.0.13, remark 0.0.15](#Lurie), also [Pridham 07](#Formal+Moduli+Problems+and+DG-Lie+Algebras#Pridham)) we have a full inclusion
 
 $$
   Lie_\infty \hookrightarrow Sh_\infty(InfPoint_\infty)
