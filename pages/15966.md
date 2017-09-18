@@ -65,7 +65,7 @@ $$
 $$
 because one has a canonical isomorphism
 $$
-\mathbb{R}Hom(\mathcal{B}_\Delta^E,\mathcal{B}_\Delta^{E\vee})
+\mathbb{R}Hom_{\mathcal{E}}(\mathcal{B}_\Delta^E,\mathcal{B}_\Delta^{E\vee})
 \overset{\sim}{\longrightarrow}
 \mu hom(\mathbb{C}_\Delta,\omega_\Delta).
 $$
