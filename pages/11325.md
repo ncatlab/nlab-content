@@ -19,7 +19,15 @@
 
 ## Idea
 
-The _cosmic consorship hypothesis_ is a hypothesis in the [[theory (physics)|theory]] of [[Einstein]]-[[gravity]] ([[general relativity]]) saying that under physically reasonable conditions all [[singularities]] in [[spacetime]] have to be behind an [[event horizon]].
+The (weak or strong) _cosmic censorship hypothesis_ is a [[conjecture]] due [[Roger Penrose]] in the [[theory (physics)|theory]] of [[Einstein]]-[[gravity]] ([[general relativity]]) saying that under physically reasonable conditions all [[singularities]] in [[spacetime]] have to be behind an [[event horizon]].
+
+The weak cosmic censorship conjecture has many counterexamples in [[dimension]] $d \geq 5$. In ([Crisford-Santos 17](#CrisfordSantos17)) finally a counterexample in $d = 4$ was found. The counterexample involves large [[electromagnetic field]] contributions in [[Einstein-Maxwell theory]].
+
+Hence if the cosmic censorship hypothesis is to become true, it needs to add some assumption on the nature of the extra [[force]] fields besides [[gravity]].
+
+[[Cumrun Vafe]] has conjectured that the _[[weak gravity conjecture]]_ will save the cosmic censorship conjecture. The weak gravity conjecture says that in consistent theories of [[quantum gravity]] the gravitational force exerted by any object (e.g. a [[black hole]]) has to be weaker, in suitable units, than any other force. As discussed in ([Crisford-Santos 17](#CrisfordSantos17)) it seems plausible that this constraint would indeed rule out the counterexample constructed there, though this is not proven at the moment.
+
+The [[weak gravity conjecture]] was motivated from [[string theory]], where there are various plausibility arguments that it holds.
 
 ## References
 
@@ -29,7 +37,7 @@ A formalization and proof of one version of the hypothesis, and discussion of re
 
 See also
 
-* Toby Crisford, Jorge E. Santos, _Violating weak cosmic censorship in AdS$_4$_, Phys. Rev. Lett. 118, 181101 (2017) ([arXiv:1702.05490](https://arxiv.org/abs/1702.05490))
+* {#CrisfordSantos17} Toby Crisford, Jorge E. Santos, _Violating weak cosmic censorship in AdS$_4$_, Phys. Rev. Lett. 118, 181101 (2017) ([arXiv:1702.05490](https://arxiv.org/abs/1702.05490))
 
 * Wikipedia, _[Cosmic censorship hypothesis](http://en.wikipedia.org/wiki/Cosmic_censorship_hypothesis)_
 
