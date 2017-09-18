@@ -74,7 +74,7 @@ Discussion of ring spectra as rings with respect to the [[symmetric smash produc
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], sections 2 and 3 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
-* {#EKMM} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], _Rings, modules and algebras in stable homotopy theory_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
+* {#EKMM} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
 See also
 
