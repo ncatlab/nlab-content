@@ -102,6 +102,16 @@ $$
 
 See also at _[Simplex category -- Duality with intervals](simplex+category#DualityWithIntervals)_.
 
+#### Intervals as generators of the incidence algebra
+
+Recall that the [[incidence algebra]] $I(P)$ of $P$ contains all functions $f : P \times P \to R$ (valued in some ring $R$) such that $x \nleq y$ implies $f(x,y) = 0$. For any pair of elements $x,y\in P$ such that $x \leq y$, we can define an element $\epsilon_{x,y}$ of the incidence algebra by:
+$$
+\epsilon_{x,y}(u,v) = \begin{cases}1 & u = x, w = y \\ 0 & \text{otherwise}\end{cases}
+$$
+The collection of such functions $\epsilon_{x,y}$ form a [[basis]] of $I(P)$ as an $R$-[[module]], and so the [[dimension]] of $I(P)$ is equal to the total number of (non-empty) intervals in $P$.
+
+Information about the number of intervals in $P$ is also encoded in the [[zeta polynomial]] of a finite poset.
+
 ## In homotopy theory
 
 In [[homotopy theory]], "cellular" models for the intervals play a central role. See [[interval object]].
