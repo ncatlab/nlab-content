@@ -36,7 +36,11 @@ Then $X$ is [[paracompact topological space]].
 
 =--
 
-This implies in particular that [[second-countable regular spaces are paracompact]].
+Prop. \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact} immediately implies that 
+
+* [[second-countable regular spaces are paracompact]],
+
+* [[locally compact and sigma-compact spaces are paracompact]].
 
 
 +-- {: .num_prop }
