@@ -188,6 +188,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[complex oriented cohomology]]
 
+* multiplicative cohomology of $B U(1)$ (prop. 4.3.2, this is lemma 2.5 in part II of [[John Adams]], _[[Stable homotopy and generalised homology]]_)
+
 * [[Conner-Floyd Chern classes]]
 
 * [[orientation in generalized cohomology]]
