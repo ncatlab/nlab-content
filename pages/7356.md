@@ -86,7 +86,7 @@ $$
 
 In order to get minimal [[N=1 d=4 supergravity]] after [[KK-compactification]], one needs [[M-theory on G2-manifolds]] and [[F-theory on CY4-manifolds]].
 
-The relation between then [[G2-manifold]] fibers and the corresponging [[Calabi-Yau manifold|Calabi-Yau 4-manifold]] fibers  is discussed in ([Gukov-Yau-Zaslow 02](#GukovYauZaslow02)).
+Discussion of the relation between then [[G2-manifold]] fibers for [[M-theory on G2-manifolds]] and the corresponding [[Calabi-Yau manifold|Calabi-Yau 4-manifold]] fibers in F-theory includes ([Gukov-Yau-Zaslow 02](#GukovYauZaslow02), [Belhaj 02](#Belhaj02)). 
 
 
 
@@ -258,6 +258,9 @@ A series of articles arguing for a relation between the [[elliptic fibration]] o
 ### Relation to M-theory on $G_2$-manifolds
 
 * {#GukovYauZaslow02} [[Sergei Gukov]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Duality and Fibrations on $G_2$ Manifolds_ ([arXiv:hep-th/0203217](http://arxiv.org/abs/hep-th/0203217))
+
+* {#Belhaj02} Adil Belhaj, _F-theory Duals of M-theory on $G_2$ Manifolds from Mirror Symmetry_ ([arXiv:hep-th/0207208](http://arxiv.org/abs/hep-th/0207208))
+
 
 ### Relation to the 6d superconformal theory
 
