@@ -85,9 +85,26 @@ Basic Examples:
 
 ### 6. Homology and cohomology
 
+#### 6.1 Generalized homology and cohomology
+
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
 * [[generalized homology]]
+
+* [[Kronecker pairing]]
+
+* [[universal coefficient theorem]]
+
+#### 6.2 Ordinary homology and cohomology
+
+* [[ordinary cohomology]]
+
+* [[Hurewicz theorem]]
+
+#### 6.3 Moore spectra
+
+* [[Moore spectrum]]
+
 
 ### 7. Finite spectra
 
@@ -96,6 +113,8 @@ Basic Examples:
 * [[finite spectra]]
 
 ### 8. Connective covers and Postnikov sections
+
+* [[Postnikiv tower]]
 
 ### 9. Localization and completion
 
