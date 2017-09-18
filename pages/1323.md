@@ -38,7 +38,7 @@ This notion is part of a hierarchy of [[distributivity for monoidal structures]]
 
 This axiom on binary coproducts easily implies the analogous $n$-ary result for $n\gt 2$.  In fact it also implies the analogous 0-ary statement that the projection
 $$ X\times 0 \to 0$$
-is an isomorphism for any $X$.  Moreover, for a category with finite products and coproducts to be distributive, it actually suffices for there to be *any* [[natural transformation|natural]] family of isomorphisms $X\times Y + X\times Z \cong X\times (Y+Z)$, not necessarily the canonical ones; see the paper of Lack referenced below.
+is an isomorphism for any $X$ (see Corollary \ref{nullary} below).  Moreover, for a category with finite products and coproducts to be distributive, it actually suffices for there to be *any* [[natural transformation|natural]] family of isomorphisms $X\times Y + X\times Z \cong X\times (Y+Z)$, not necessarily the canonical ones; see the paper of Lack referenced below.
 
 A category $C$ with finite products and all small coproducts is **infinitary distributive** if the statement applies to all small coproducts.  One can also consider $\kappa$-distributivity for a [[cardinal number]] $\kappa$, meaning the statement applies to coproducts of cardinality $\lt\kappa$.
 
@@ -48,7 +48,7 @@ Any [[extensive category]] is distributive, but the converse is not true.
 
 +-- {: .num_prop #monic} 
 ###### Proposition 
-In a distributive category, [[coproduct]] [[coprojections]] are [[monomorphism|monic]]. 
+In a category with products and coproducts, if products distribute over binary coproducts, then [[coproduct]] [[coprojections]] are [[monomorphism|monic]]. 
 =-- 
 
 +-- {: .proof} 
@@ -64,6 +64,20 @@ The composite of the coprojection $i$ with the canonical isomorphism $A \times B
 $$(1_A \times i_B)\langle 1_A, f \rangle = \langle 1_A, i_B f \rangle = \langle 1_A, i_B g \rangle = (1_A \times i_B)\langle 1, g \rangle,$$ 
 
 whence $\langle 1_A, f\rangle = \langle 1_A, g\rangle: A \to A \times B$ since $1_A \times i_B$ is monic. It follows that $f = g$, as was to be shown. 
+=-- 
+
++-- {: .num_cor #nullary} 
+###### Corollary 
+If products distribute over binary coproducts, then products distribute over nullary coproducts (i.e., the projection $X \times 0 \to 0$ is an isomorphism for all objects $X$). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Clearly for any $Y$ the hom-set $\hom(X \times 0, Y)$ is inhabited by $X \times 0 \to 0 \to Y$, and so we only need show that any two $f, g: X \times 0 \to Y$ are equal. By Proposition \ref{monic}, it suffices that any two $f, g: X \times 0 \to X + Y$ are equal. 
+
+The coproduct inclusion $X \hookrightarrow X \times 0 + X$ is an isomorphism $X \cong X \times 1 \cong X \times (0 + 1) \cong X \times 0 + X \times 1 \cong X \times 0 + X$, so that the projection 
+$$\hom(X \times 0, A) \times \hom(X, A) \to \hom(X, A)$$ 
+is an isomorphism of sets for any object $A$. As soon as $\hom(X, A)$ is inhabited, this means $\hom(X \times 0, A)$ must be a singleton. In particular, $\hom(X \times 0, X + Y)$ is a singleton, which is just what we wanted. 
 =-- 
 
 +-- {: .num_prop} 
