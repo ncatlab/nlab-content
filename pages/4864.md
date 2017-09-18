@@ -1,7 +1,9 @@
 
 Michael Duff is professor of theoretical physics at Imperial College London. He made foundational contributions to [[string theory]] and [[M-theory]].
 
-* [personal webpage](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=m.duff&_adf.ctrl-state=6bq6bx4cv_3&_afrRedirect=2848555508000)
+* [personal webpage](http://michaelduff.weebly.com)
+
+* [institute webpage](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=m.duff&_adf.ctrl-state=6bq6bx4cv_3&_afrRedirect=2848555508000)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Duff)
 
