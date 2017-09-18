@@ -972,16 +972,16 @@ with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphi
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #BosonicModalityPreservesLocalDiffeomorphism}
 ###### Proposition
 
 If $f \;\colon\; X \longrightarrow Y$ is a [[local diffeomorphism]],
-def. \ref{LocalDiffeomorphisms}, then so is image
+def. \ref{LocalDiffeomorphisms}, then so is its image
 $\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrightarrow \stackrel{\rightsquigarrow}{Y}$ under the [[bosonic modality]].
 
 =--
 
-+-- {: .proof}
++-- {: .proof }
 ###### Proof
 
 Since the [[bosonic modality]] provides [[Aufhebung]] for $\Re\dashv \Im$ by prop. \ref{Sublations} we have $\rightsquigarrow \Im \simeq \Im$. Moreover $\Im \rightsquigarrow \simeq \Im$ anyway. Finally $\rightsquigarrow$ preserves [[pullbacks]] (being in particular a [[right adjoint]]). Hence hitting a pullback diagram
@@ -1538,6 +1538,7 @@ of two graded [[derivations]] of degree +1 defined by
 
   $$
     d_{CE(\mathfrak{g})} \mathbf{d} \omega :=
+
     - \mathbf{d} d_{CE(\mathfrak{g})} \omega
   $$
 
