@@ -156,6 +156,7 @@ This appears as [[Higher Topos Theory|HTT, cor. A.3.7.2]].
 See [[simplicial Quillen adjunction]] for more details.
 
 ### Associated (infinity,1)-adjunction
+ {#AssociatedInfinityAdjunction}
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -165,6 +166,10 @@ where $C[W_C^{-1}]$ and $D[W_D^{-1}]$ denote the respective [[simplicial localiz
 =--
 
 See ([Hinich 14](#Hinich14), Proposition 1.5.1) or ([Mazel-Gee 15](#MazelGee15), Theorem 2.1).
+
+For [[simplicial model categories]] with [[sSet]]-[[enriched functor|enriched]] [[Quillen adjunctions]] between them, this is also in ([Lurie, prop. 5.2.4.6](#Lurie)).
+
+See also at _[derived functor -- As functors on infinity-categories](derived%20functor#OnInftyCats)_
 
 ## Related concepts
 
@@ -191,6 +196,10 @@ The proof that a Quillen adjunction of [[model categories]] induces an [[adjunct
 and also in
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, [arXiv:1501.03146](http://arxiv.org/abs/1501.03146).
+
+The case for [[simplicial model categories]] is also in 
+
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects Quillen adjunctions]]
 
