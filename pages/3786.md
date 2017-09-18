@@ -1,8 +1,14 @@
 This is a book entry on
 
-*  James Glimm, Arthur Jaffe, _Quantum physics: a functional integral point of view_, 535 pages, Springer
+*  [[James Glimm]], [[Arthur Jaffe]], 
 
-on the [[path integral]] formulation of [[quantum mechanics]] and [[quantum field theory]]. In order to construct a fully rigorous definition of a [[quantum field theory]], the authors use the Osterwalder-Schrader axioms to define a notion of a quantum field that is equivalent to the [[Wightman axioms]], see [[Osterwalder-Schrader theorem]]. 
+   _Quantum physics: a functional integral point of view_, 
+
+   535 pages, Springer
+
+on the rigorous [[path integral]] formulation of [[quantum mechanics]] and [[quantum field theory]] ([[constructive quantum field theory]]). 
+
+In order to construct a fully rigorous definition of a [[quantum field theory]], the authors use the Osterwalder-Schrader axioms to define a notion of a quantum field that is equivalent to the [[Wightman axioms]], see [[Osterwalder-Schrader theorem]]. 
 
 Note that the ultimate goal of the program, namely the fully rigorous construction of the [[standard model of particle physics]], has not been achived (yet) and has become one of the famous millenium problems of the Clay institute.
 
@@ -14,5 +20,7 @@ Online *reviews* of the first edition of the book (the first one along with a bo
 * [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0461.46051&format=complete)
 
 [[!redirects Glimm-Jaffe]]
+
+[[!redirects Quantum physics -- A functional integral point of view]]
 
 category: reference
