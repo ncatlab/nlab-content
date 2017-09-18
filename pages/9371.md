@@ -28,7 +28,7 @@ This last point is not so much a result as the *definition* of the subnet relati
 
 ## Definition
 
-Let $X$ be a [[set]], let $D$ be a [[directed set]], and let $n$ be a [[function]] from $D$ to $X$, so that $n$ is a [[net]] in $X$.  Given a [[subset]] $A$ of $X$, $n$ is __eventually__ in $A$ if, for some $i$ in $D$, for each $j \geq i$ in $D$, $n_j \in A$.  The collection $F_n$ of all those subsets $A$ such that $x$ is eventually in $A$ is a [[proper filter]] on $X$, called the __eventuality filter__ of $n$.
+Let $X$ be a [[set]], let $D$ be a [[directed set]], and let $n$ be a [[function]] from $D$ to $X$, so that $n$ is a [[net]] in $X$.  Given a [[subset]] $A$ of $X$, $n$ is __eventually__ in $A$ if, for some $i$ in $D$, for each $j \geq i$ in $D$, $n_j \in A$.  The collection $F_n$ of all those subsets $A$ such that $n$ is eventually in $A$ is a [[proper filter]] on $X$, called the __eventuality filter__ of $n$.
 
 In symbols,
 $$ F_n \coloneqq \{ A \subseteq X \;|\; \ess \forall\, j,\; n_j \in A \} ,$$
