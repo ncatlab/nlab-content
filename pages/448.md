@@ -35,7 +35,9 @@ such that the simplices satisfy the following conditions:
 
 =--
 
-We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty.
+We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ elements it is said to be a **$p$-simplex**.  The set of $p$-simplices of $K$ is denoted by $K_p$. The **dimension** of $K$ is the largest $p$ such that $K_p$ is non-empty. 
+
+A *map* of simplicial complexes $K \to L$ is a function $f: V(K) \to V(L)$ such that whenever $\sigma \subseteq V(K)$ belongs to $S(K)$, the [[image]] $f(\sigma)$ belongs to $S(L)$. 
 
 
 +--{: .num_remark #RemarkOnTerminology}
