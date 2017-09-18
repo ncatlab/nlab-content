@@ -35,6 +35,13 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+This is the [[internal nerve]] of the [[internal groupoid]] corresponding to the [[kernel pair]] of the morphism $U \to X$.
+
+=--
+
 
 ### In $(\infty,1)$-category theory
 
