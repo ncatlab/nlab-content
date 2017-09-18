@@ -33,7 +33,15 @@ Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] ar
 
 ## Definition 
 
-Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$.
+Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$. In other words, for any $\psi$, any filling of the image of the following diagram under $p$ can be lifted up to a filling in $E$:
+
+$$
+\array{
+  e''& \dashrightarrow & e'\\
+  & _{\mathllap{\psi}}\searrow & \downarrow^\mathrlap{\phi}\\
+  & & e
+}
+$$
 
 We say that $p:E\to B$ is a **fibration** if for any $e\in E$ and $f:b\to p(e)$, there is a cartesian arrow $\phi:e'\to e$ with $p(\phi)=f$.  Such an arrow is called a "cartesian lifting" of $f$ to $e$, and a choice of cartesian lifting for every $e$ and $f$ is called a [[cleavage]].  Thus, assuming the [[axiom of choice]], a functor is a fibration iff it admits some cleavage.
 
