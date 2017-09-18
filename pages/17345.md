@@ -1957,6 +1957,8 @@ $$
   \,.
 $$
 
+This is also called the Adams-type _[[spectral sequence of a tower of fibrations|spectral sequence of the tower of fibrations]]_ $X_{n+1} \to X_n$.
+
 =--
 
 ## References
