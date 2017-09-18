@@ -47,7 +47,15 @@ For example, the [[equalizer]] of two maps $f, g \colon X \stackrel{\to}{\to} Y$
 
 +-- {: .num_lemma #pushout} 
 ###### Lemma 
-The [[pushout]] in [[Top]] of any (closed/open) subspace $i \colon A \hookrightarrow B$ along any [[continuous function]] $f \colon A \to C$ is a (closed/open) subspace $j: C \hookrightarrow D$. 
+The [[pushout]] in [[Top]] of any (closed/open) subspace $i \colon A \hookrightarrow B$ along any [[continuous function]] $f \colon A \to C$, 
+
+$$\array{
+A & \stackrel{i}{\hookrightarrow} & B \\ 
+\mathllap{f} \downarrow & po & \downarrow \mathrlap{g} \\ 
+C & \underset{j}{\hookrightarrow} & D,
+}$$ 
+
+is a (closed/open) subspace $j: C \hookrightarrow D$. 
 =-- 
 
 +-- {: .proof} 
