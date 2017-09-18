@@ -70,7 +70,7 @@ $$
   \,.
 $$
 
-This $N_i(c)$ is the **nerve** of $c$ with respect to the chosen $i : S \to V$.
+This $N_i(c)$ is the **nerve** of $c$ with respect to the chosen $i : S \to V$. In other words, $N = i^* \circ Y$ where $Y: C \to [C^{op}, V]$ is the curried Hom functor; if $V=\mathsf{Sets}$ then $Y$ is the [[Yoneda embedding]].
 
 Typically, one wants that $i$ is [[dense functor]], i.e. that every object $c$ of $C$ is canonically a colimit of a diagram of objects in $M$, more precisely,
 $$
