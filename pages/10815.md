@@ -330,6 +330,10 @@ Formalization in [[homotopy type theory]] is discussed in
 
 * {#Brunerie16} [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_ ([arXiv:1606.05916](http://arxiv.org/abs/1606.05916))
 
+Applications:
+
+* [[Martin Saralegi]] _A Gysin Sequence for Semifree Actions of $S^3$_, Proceedings of the American Mathematical Society Vol. 118, No. 4 (Aug., 1993), pp. 1335-1345 ([jstor](http://www.jstor.org/stable/2160096))
+
 
 [[!redirects Thom-Gysin sequences]]
 
