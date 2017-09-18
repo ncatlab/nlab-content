@@ -99,6 +99,13 @@ But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _
 
   This includes for instance the standard [[model structure on topological spaces]]. 
 
+* The Quillen [[model structure on simplicial sets]] is right proper, though not all objects are fibrant.  An explanation of why can be found on its page.
+
+
+### Non-right proper model categories
+
+* "Non-algebraic" models for higher categories (other than higher groupoids) are generally not right proper.  For example, the [[model category for complete Segal spaces]] and the [[model category for quasi-categories]] are not right proper (see [mathoverflow](http://mathoverflow.net/questions/40938/is-the-model-category-of-complete-segal-spaces-right-proper)).
+
 
 ### Proper model categories ###
 
