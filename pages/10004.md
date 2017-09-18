@@ -1,5 +1,1 @@
-The book *Rings, modules, and algebras in stable homotopy theory* by Elmendorf, Kriz, [[Peter May|May]], and Mandell was the first to give a symmetric [[monoidal model category]] of [[spectra]] (called [[S-modules]]), in which $A_\infty$ and $E_\infty$-[[ring spectra]] could be defined as ordinary monoids and modules.
-
-The book is sometimes referred to as *EKMM* for short, after the initials of its authors.
-
-category: reference
+&lt; [[EKMM]]
