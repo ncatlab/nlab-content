@@ -42,12 +42,35 @@ A 1-[[category]] whose [[internal logic]] can interpret this needs to
 
 3. (needs to be finished)
 
+## Properties
+
+### Function extensionality
+
++-- {: .num_prop #FunExtInFibrationCat}
+###### Proposition
+
+[[function extensionality|Function extensionality]] holds in the [[internal language|internal]] [[type theory]] of a [[type-theoretic fibration category]] precisely if [[dependent products]] (i.e. right [[base change]]) along [[fibrations]] preserve [[acyclic fibrations]].
+
+=--
+
+([Shulman 12b, lemma 5.9](#Shulman12b))
+
++-- {: .num_example #EveryPresentableLocallyCartesinClosedInfinityCatInterpretsHoTTPlusFunExt}
+###### Example
+
+The condition in prop. \ref{FunExtInFibrationCat} holds in particular in [[right proper model category|right proper]] [[Cisinski model structures]], since in these right [[base change]] along fibrations is a [[right Quillen functor]] (see e.g. the proof <a href="https://ncatlab.org/nlab/show/locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">here</a>). 
+
+Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] (by the discussion <a href="locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">there</a>) has a presentation by a [[right proper model category|right proper]] [[Cisinski model category]]. Accordingly we may say that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] interprets [[HoTT]]+FunExt.
+
+=--
+
+
 
 ## References
 
 The definition originates in and a discussion of [[categorical semantics]] of [[homotopy type theory]] in a type-theoretic model category appears in 
 
-* {#Shulman12b} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+* {#Shulman12b} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
 
 An exposition is in 
 
