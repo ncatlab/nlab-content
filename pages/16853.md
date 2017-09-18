@@ -1,4 +1,6 @@
-A **plane graph** (alternatively **plane map** or **planar map**) is a [[graph]] equipped with an embedding into the [[plane]] or the [[sphere]].  In other words, it is a [[topological map]] of [[genus of a surface|genus]] 0.
+A **plane graph** (alternatively **plane map** or **planar map**) is a [[graph]] equipped with an embedding into the [[plane]] or the [[sphere]]. 
+(Cf. [VII. 8.2](#FlajoletSedgewick)). 
+In other words, it is a [[topological map]] of [[genus of a surface|genus]] 0.
 
 ## Related pages
 
@@ -7,3 +9,9 @@ A **plane graph** (alternatively **plane map** or **planar map**) is a [[graph]]
 
 [[!redirects plane map]]
 [[!redirects planar map]]
+
+## References 
+
+
+* [[Phillipe Flajolet]], [[Robert Sedgewick]]: _Analytic Combinatorics_. First Edition. Cambridge University Press. 2009
+{#FlajoletSedgewick}
