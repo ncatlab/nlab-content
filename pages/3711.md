@@ -1,4 +1,8 @@
 
+> This entry is about the concept in the [[algebraic geometry]] of [[jet bundles]] and [[differential equations]]. For the concept of geometry as seen by [[D-branes]] see at _[[D-brane geometry]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
