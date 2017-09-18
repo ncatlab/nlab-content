@@ -10,11 +10,29 @@ A 'PROP' --- an abbreviation of 'products and permutations category' --- is a [[
 
 ## Definition
 
+
++-- {: .num_defn }
+###### Definition
 A **PROP** is a [[symmetric monoidal category]] where every object is of the form 
 
 $$x^{\otimes n} = x \otimes x \otimes \cdots \otimes x$$ 
 
 for a single object $x$ and $n \ge 0$.
+=--
+
+There is also a notion of colored PROP akin to [[colored operads]]. One way to define a colored PROP is as a certain kind of [[symmetric monoidal category]] (see Remark 2.2.14 of [Yau](#Yau)):
+
++-- {: .num_defn }
+###### Definition
+
+A **colored PROP** with set of colors $\mathfrak{C}$ is a symmetric monoidal category $(P,\odot)$ whose objects are finite lists of colors from $\mathfrak{C}$.
+
+=-- 
+
+
+
++-- {: .num_defn }
+###### Definition
 
 Given a PROP $T$ and a symmetric monoidal category $C$, a [[symmetric monoidal functor]]
 
@@ -25,16 +43,32 @@ is called an **algebra** or **model** of $T$ in $C$.  The category of algebras o
 * symmetric monoidal functors $F : T \to C$ as objects,
 * [[symmetric monoidal natural transformation|symmetric monoidal natural transformations]] as morphisms.
 
+=--
+
+Note that all of the above definitions can be [[enriched category|enriched]] over a [[symmetric monoidal category]] which yields the notion of enriched PROPs. For instance, we can have [[simplicially enriched category|simplicial]] and [[topologically enriched category|topological]] PROPs where the sets of morphisms are [[simplicial sets]] or [[topological spaces]]. 
+
+## Examples
+
+### Polycategories
+
+Every [[polycategory]] defines a PROP, see there for more. Note that PROPs are strictly more general than polycategories since in a PROP we can compose along many objects at once. This restriction actually makes polycategories more like [[dioperads]] than PROPs (cf. [Gan](#Gan)). 
 
 ## Related concepts
 
 * [[PRO]]
 * [[polycategory]]
-
+* [[properad]]
+* [[dioperad]]
 
 ## References
 
+* Wee Liang Gan, _Koszul Duality for Dioperads_, [arXiv:0201074v2](http://arxiv.org/pdf/math/0201074v2.pdf). 
+{#Gan}
+
 *  [[Steve Lack]], _[Composing PROPs](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)_, [[TAC]] 13 (2004), No. 9, 147--163.
+
+* [[Donald Yau]], _Higher Dimensional Algebras via Colored PROPs_, [(arXiv:0809.2161v1)](http://arxiv.org/pdf/0809.2161v1.pdf).
+{#Yau}
 
 
 [[!redirects PROP]]
