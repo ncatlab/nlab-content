@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -133,7 +133,11 @@ In case $R$ is an [[integral domain]], the [[field of fractions]] of $R[z]$ is t
 
 =--
 
-### Polynomials in one variable 
+### As continuous functions
+
+If $R = \mathbb{R}$ is the [[real numbers]] regarded as a [[Euclidean space]] equipped with its [[metric topology]], regard a polynomial $P \in \mathbb{R}[X]$ as a [[function]] $\mathbb{R} \to \mathbb{R}$. Then this is a [[continuous function]]. See at _[[polynomials are continuous]]_.
+
+### As domains
 
 In the case where $R = k$ is a [[field]], the polynomial ring $k[x]$ has a number of useful properties. One is that it is a [[Euclidean domain]], where the degree serves as the Euclidean function: 
 
@@ -168,7 +172,7 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 ## Related concepts
 
-* [[power series]]
+* [[power series]], [[formal power series]]
 
 * [[monic polynomial]]
 
