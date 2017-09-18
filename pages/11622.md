@@ -26,10 +26,10 @@ What though is the situation up in 11 dimensions before compactifying to 7-dimen
 
 In ([DFM 03, section 9](supergravity+C-field#DFM)) it is claimed that the full 11-dimensional Chern-Simons term evaluated on the [[supergravity C-field]] (with its flux quantization correction, see there) indeed carries a _cubic refinement_.
 
-More precisely, and slightly paraphrasing, the [[fiber integration in ordinary differential cohomology|transgression]] $\int_X CS_{11}(\hat C)$ of the [[higher dimensional Chern-Simons theory|11-dimensional Chern-Simons term]] of [[11-dimensional supergravity|11d SuGra]]  to 10d spacetime $X$ is a [[complex line bundle]] on the [[moduli space]] $CField(X)$ of [[supergravity C-field|supergravity C-fields]] $\hat C$ is claimed to be such that its "cubical line" $\Theta^3(\int_X CS_{11}(\hat C))$ (in the notation at _[[cubical structure on a line bundle]]_) is the  line bundle on the space of triples of C-field configurations which is given by the transgression of the three-fold [[cup product in ordinary differential cohomology]], 
+More precisely, and slightly paraphrasing, the [[fiber integration in ordinary differential cohomology|transgression]] $\int_X CS_{11}(\hat C)$ of the [[higher dimensional Chern-Simons theory|11-dimensional Chern-Simons term]] of [[11-dimensional supergravity|11d SuGra]]  to 10d spacetime $X$ is a [[complex line bundle]] on the [[moduli space]] $CField(X)$ of [[supergravity C-field|supergravity C-fields]] $\hat C$ is claimed to be such that its "cubical line" $\Theta(\int_X CS_{11}(\hat C))$ (in the notation at _[[cubical structure on a line bundle]]_) is the  line bundle on the space of triples of C-field configurations which is given by the transgression of the three-fold [[cup product in ordinary differential cohomology]], 
 
 $$
-  \Theta^3\left(\int_X CS_{11}\left(-\right)\right)
+  \Theta\left(\int_X CS_{11}\left(-\right)\right)
   \simeq
   \int_X (-)_1 \cup (-)_2 \cup (-)_3
   \,.
@@ -57,9 +57,9 @@ or equivalently each pointin the moduli space of $H$-flux in 10d induces an iden
 
 
 
-This is maybe noteworthy in that when the [[supergravity C-field|C-field]] is identified with the compactification  [[elliptic curve]] in this way, then the formula for $\Theta^3\left(\int_X CS_{11}(\hat C)\right)$ as [above](#Idea) is exactly that appearing in the definition of a [[cubical structure on a line bundle]] over an [[elliptic curve]]. But a "cubical" trivialization of $\Theta^3(\mathcal{O}(-\{0\}))$ over a given elliptic curve is what in ([Hopkins 02](http://ncatlab.org/nlab/show/string+orientation+of+tmf#Hopkins02), [AHS01](http://ncatlab.org/nlab/show/string+orientation+of+tmf#AndoHopkinsStrickland01)) is used to induce the [[sigma-orientation]] of the corresponding [[elliptic cohomology theory]] and in totality the [[string-orientation of tmf]]. But that is the refinement of the [[Witten genus]], hence of the [[partition function]] of the [[heterotic string]].
+This is maybe noteworthy in that when the [[supergravity C-field|C-field]] is identified with the compactification  [[elliptic curve]] in this way, then the formula for $\Theta\left(\int_X CS_{11}(\hat C)\right)$ as [above](#Idea) is exactly that appearing in the definition of a [[cubical structure on a line bundle]] over an [[elliptic curve]]. But a "cubical" trivialization of $\Theta(\mathcal{O}(-\{0\}))$ over a given elliptic curve is what in ([Hopkins 02](http://ncatlab.org/nlab/show/string+orientation+of+tmf#Hopkins02), [AHS01](http://ncatlab.org/nlab/show/string+orientation+of+tmf#AndoHopkinsStrickland01)) is used to induce the [[sigma-orientation]] of the corresponding [[elliptic cohomology theory]] and in totality the [[string-orientation of tmf]]. But that is the refinement of the [[Witten genus]], hence of the [[partition function]] of the [[heterotic string]].
 
-Now,by the above fact that $\Theta^3\left(CS_{11}(-)\right) \simeq \int_X (-)_1 \cup (-)_2 \cup (-)_3$ a cubical trivialization of $\Theta^3(L)$ is also given by a trivialization of the topological class of the C-field. This is one way (or is at least closely related) to the trivialization of the anomaly line bundle which "sets the quantum integrand" of M-theory.
+Now,by the above fact that $\Theta\left(CS_{11}(-)\right) \simeq \int_X (-)_1 \cup (-)_2 \cup (-)_3$ a cubical trivialization of $\Theta(L)$ is also given by a trivialization of the topological class of the C-field. This is one way (or is at least closely related) to the trivialization of the anomaly line bundle which "sets the quantum integrand" of M-theory.
 
 So there is a curious coincidence of concepts here, which might want to become a precise identification: 
 
