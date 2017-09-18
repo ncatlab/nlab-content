@@ -1,0 +1,10 @@
+
+## Idea
+
+A [[fragment]] of [[Peano arithmetic]].
+
+
+## References
+
+* Wikipedia, _[Robinson arithmetic](http://en.wikipedia.org/wiki/Robinson_arithmetic)_
+
