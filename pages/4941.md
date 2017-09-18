@@ -23,7 +23,7 @@ Compare the [[topological closure]] $\bar{S}$ and [[frontier]] $\partial S = \ba
 
 ## Remark
 
-The _interior of a subtopos_ $\mathcal{E}_j$ of a [[Grothendieck topos]] $\mathcal{E}$, as well as the [[dense subtopos|exterior]], were defined in an exercise in [SGA4](#SGA4): $Int(\mathcal{E}_j)$ as the smallest [[open subtopos]] contained in $\mathcal{E}_j$. The boundary of a subtopos is then naturally defined as the subtopos complementary to the (open) join of the exterior and interior subtoposes in the [[lattice of subtoposes]].
+The _interior of a subtopos_ $\mathcal{E}_j$ of a [[Grothendieck topos]] $\mathcal{E}$, as well as the [[dense subtopos|exterior]], were defined in an exercise in [SGA4](#SGA4): $Int(\mathcal{E}_j)$ as the largest [[open subtopos]] contained in $\mathcal{E}_j$. The boundary of a subtopos is then naturally defined as the subtopos complementary to the (open) join of the exterior and interior subtoposes in the [[lattice of subtoposes]].
 
 ## Related entries 
 
