@@ -80,7 +80,11 @@ This means that a quadratic refinement by a [[quadratic form]] always exists whe
 
 * [[polarization identity]]
 
-* [[Hermitian form]]
+* [[bilinear form]]
+
+* [[sesquilinear form]]
+
+* [[symplectic form]], [[Kähler form]], [[Hermitian form]]
 
 * [[completing the square]]
 
