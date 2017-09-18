@@ -229,6 +229,10 @@ A countable ordinal $\alpha$ is **recursive** if there is a computable relation 
 
 There are countably many computable relations on $\mathbb{N}$, and so the supremum of the recursive ordinals in $\omega_1$ exists. It is called the **Church-Kleene ordinal**. It is the first non-recursive ordinal. 
 
+## Related concepts
+
+* [[countable set]]
+
 ## References 
 
 For a light-hearted introduction with many useful references, see 
