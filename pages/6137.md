@@ -60,6 +60,8 @@ See there for more.
 
 * [[integration over infinite-dimensional manifolds]]
 
+* [[pro-manifold]]
+
 
 ## References
 
