@@ -95,7 +95,7 @@ In the following we take
 1. _[[vector bundle]]_ to mean _[[topological vector bundle]] over $k$ of finite [[rank of a vector bundle|rank]]_.
 
 
-For the most part below we will assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]]. 
+For the most part below we will assume that the base [[topological space]] $X$ is a [[compact Hausdorff space]].
 Because then the following statement holds, which is crucial in some places:
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
@@ -841,7 +841,7 @@ $$
   \underset{= 0}{
   \underbrace{
   \tilde K(S^1)
-    \oplus 
+    \oplus
   \tilde K(S^1)
   }}
   \,.
@@ -977,7 +977,7 @@ etc. This yields the claim.
 **(finite [[wedge axiom]])**
 
 Let $(X,x)$ and $(Y,y)$ be two [[pointed topological space|pointed]] [[compact Hausdorff spaces]]
-with [[wedge sum]] 
+with [[wedge sum]]
 
 $$
   X \vee Y \;\coloneqq\; (X \sqcup Y)/(x \sim y)
@@ -1030,7 +1030,7 @@ By functoriality (remark \ref{FunctorialityOfKGroup}) this implies that similarl
 $$
   id_{\tilde K(X)}
     \;\colon\;
-  \tilde K(X) \longrightarrow \tilde K(X \vee Y) \longrightarrow \tilde K(X)  
+  \tilde K(X) \longrightarrow \tilde K(X \vee Y) \longrightarrow \tilde K(X)
   \phantom{AA}
    \text{and}
   \phantom{AA}
@@ -1040,18 +1040,18 @@ $$
   \,.
 $$
 
-In particular these maps are [[injective function|injections]] and [[surjective function|surjections]], 
+In particular these maps are [[injective function|injections]] and [[surjective function|surjections]],
 respectively.
 
 Therefore by prop. \ref{ExactSequenceInReducedTopologicalKTheory} there are [[short exact sequences]] of the form
 
 $$
-  0 
+  0
     \to
   \tilde K(X)
     \longrightarrow
   \tilde K(X \vee Y)
-    \longrightarrow 
+    \longrightarrow
   \tilde K(Y)
     \to
   0
@@ -1108,8 +1108,8 @@ $$
 $$
 
 This quotient is still a [[compact topological space]] because [[continuous images of compact spaces are compact]]
-and and it is still [[Hausdorff topological space]] 
-because [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]], so that 
+and and it is still [[Hausdorff topological space]]
+because [[compact subspaces in Hausdorff spaces are separated by neighbourhoods from points]], so that
 the point $(X \vee Y)/ (X \vee Y) \in (X \times Y)/(X \vee Y)$ is separated by open neighbourhoods from points
 in $(X \times Y) \setminus (X \vee Y)$.
 
@@ -1128,7 +1128,7 @@ $$
   \,.
 $$
 
-By example \ref{FiniteWedgePropertyForReducedTopologicalKTheory} the two terms involving 
+By example \ref{FiniteWedgePropertyForReducedTopologicalKTheory} the two terms involving
 reduced topological K-theory of a wedge sum are direct sums of the reduced K-theory of the wedge summands:
 
 $$
@@ -1163,13 +1163,13 @@ $$
 This means that the long exact sequence decomposes into [[short exact sequences]]
 
 $$
-  0 
+  0
    \to
   \tilde K(X \wedge Y)
     \longrightarrow
   \tilde K(X \times Y)
     \overset{i^\ast}{\longrightarrow}
-  \tilde K(X) \oplus \tilde K(Y)
+  \tilde K(X) \oplus \tlde K(Y)
     \to
   0
 $$
@@ -1186,7 +1186,7 @@ which moreover are [[split exact sequence|split exact]]. This yields the claim.
 ### Fundamental product theorem
 
 For $S^2 \subset \mathbb{R}^3$ the [[2-sphere]] with its [[Euclidean space|Euclidean]] [[subspace topology]],
-write $h$ for the [[basic line bundle on the 2-sphere]]. Its image in the topological K-theory ring $K(S^2)$ satisfies the relation
+write $h$ for the [[basic line bundle on the 2-sphere]]. Its image in the [[topological K-theory]] ring $K(S^2)$ satisfies the relation
 
 $$
   2 h = h^2 + 1
@@ -1196,7 +1196,13 @@ $$
 
 (by [this prop.](basic+complex+line+bundle+on+the+2-sphere#TensorRelationForBasicLineBundleOn2Sphere)).
 
-(Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by prop. \ref{KGrupDirectSummandReducedKGroup}.)
+Notice that $h-1$ is the image of $h$ in the [[reduced K-theory]] $\tilde K(X)$ of $S^2$ under the splitting $K(X) \simeq \tilde K(X) \oplus \mathbb{Z}$ (by [this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)). This element
+
+$$
+  h - 1 \in \tilde K_{\mathbb{C}}(S^2)
+$$
+
+is called the _[[Bott element]]_ of complex [[topological K-theory]].
 
 It follows that there is a [[ring homomorphism]] of the form
 
@@ -1206,7 +1212,7 @@ $$
       &\overset{}{\longrightarrow}&
     K(S^2)
     \\
-    h &\overset{\phantom{AAA}}{\mapsto}& H
+    h &\overset{\phantom{AAA}}{\mapsto}& h
   }
 $$
 
@@ -1219,7 +1225,7 @@ $$
     K(X) \otimes \mathbb{Z}[h]/((h-1)^2)
       & \longrightarrow &
     K(X) \times K(S^2)
-      & \longrightarrow &
+      & \overset{\boxtimes}{\longrightarrow} &
     K(X \times S^2)
     \\
     (E, h)
@@ -1230,7 +1236,7 @@ $$
   }
 $$
 
-to the topological K-theory ring of the [[product topological space]] $X \times S^2$, where the second map is the [[external tensor product of vector bundles]].
+to the topological K-theory ring of the [[product topological space]] $X \times S^2$, where the second map $\boxtimes$ is the [[external tensor product of vector bundles]].
 
 +-- {: .num_prop #FundamentalProductTheorem}
 ###### Proposition
@@ -1242,16 +1248,35 @@ For $X$ a [[compact Hausdorff space]], then this ring homomorphism is an [[isomo
 
 (e.g. [Hatcher, theorem 2.2](#Hatcher))
 
++-- {: .num_remark}
+###### Remark
+
+More generally, for $L\to X$ a [[complex line bundle]] with class $l \in K(X)$ and with $P(1 \oplus L)$ denoting its [[projective bundle]] then
+
+$$
+  K(X)[h]/((h-1)(l \cdot h -1))
+   \simeq
+  K(P(1 \oplus L))
+$$
+
+=--
+
+(e.g. [Wirthmuller 12, p. 17](#Wirthmuller12))
+
+As a special case this implies the first statement above:
+
 
 For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in particular that the first of the two morphisms in the composite is an [[isomorphism]] (example \ref{TopologicalKTheoryRingOfThe2Sphere} below)  and hence by the [[two-out-of-three]]-property for [[isomorphisms]] it follows that
 
 +-- {: .num_cor #ExternalProductTheorem}
 ###### Corollary
-**([[external product theorem]])**
+**([[external product theorem in topological K-theory]])**
 
-For $X$ a [[compact Hausdorff space]] we have that the [[external tensor product of vector bundles]]
+For $X$ a [[compact Hausdorff space]] we have that the [[external tensor product of vector bundles]] with vector bundles on the [[2-sphere]]
 
 $$
+  \boxtimes
+    \;\colon\;
   K(X) \otimes K(S^2) \overset{\simeq}{\longrightarrow} K(X \times S^2)
 $$
 
@@ -1266,11 +1291,10 @@ is an [[isomorphism]] in [[topological K-theory]].
  {#BottPeriodicity}
 
 
-When restricted to [[reduced K-theory]] then the [[external product theorem]] (cor \ref{ExternalProductTheorem}) yields 
-the statement of [[Bott periodicity]]:
+When restricted to [[reduced K-theory]] then the external product theorem (cor. \ref{ExternalProductTheorem}) yields the statement of [[Bott periodicity]] of topological K-theory:
 
-+-- {: .num_prop #BottPeriodicityInTopologicalKTheory}
-###### Proposition
++-- {: .num_cor #BottPeriodicity}
+###### Corollary
 **([[Bott periodicity]])
 
 Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]].
@@ -1278,17 +1302,21 @@ Let $X$ be a  [[pointed topological space|pointed]] [[compact Hausdorff space]].
 Then there is an [[isomorphism]] of [[reduced K-theory]]
 
 $$
+  (h-1)
+    \widetilde \boxtimes
+  (-)
+    \;\colon\;
   \tilde K(X) \overset{\simeq}{\longrightarrow} \tilde K(\Sigma^2 X)
 $$
 
-from that of $X$ to that of its double [[reduced suspension]] $\Sigma^2 X$.
+from that of $X$ to that of its double [[suspension]] $\Sigma^2 X$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By example \ref{ReducedKTheoryOfProductSpace}
+By [this example](topologica+K-theory#ReducedKTheoryOfProductSpace)
 there is for any two pointed compact Hausdorff spaces $X$ and $Y$ an [[isomorphism]]
 
 $$
@@ -1305,11 +1333,12 @@ relating the reduced K-theory of the [[product topological space]]
 with that of the [[smash product]].
 
 Using this and the fact that for any pointed compact Hausdorff space $Z$ we have
-$K(Z) \simeq \tilde K(Z) \oplus \mathbb{Z}$ (prop. \ref{KGrupDirectSummandReducedKGroup}) the 
-isomorphism of the external product theorem (cor. \ref{ExternalProductTheorem})
+$K(Z) \simeq \tilde K(Z) \oplus \mathbb{Z}$ ([this prop.](topological+K-theory#KGrupDirectSummandReducedKGroup)) the isomorphism of the external product theorem (cor. \ref{ExternalProductTheorem})
 
 $$
-  K(S^2) \otimes K(X) \simeq K(S^2 \times X)
+  K(S^2) \otimes K(X)
+   \underoverset{\simeq}{\boxtimes}{\longrightarrow}
+  K(S^2 \times X)
 $$
 
 becomes
@@ -1341,23 +1370,55 @@ $$
   \,.
 $$
 
-Multiplying out and chasing through the constructions to see that this reduces to an isomorphism on the 
-common summand $\tilde K(S^2) \oplus \tilde K(X) \oplus \mathbb{Z}$, this yields an isomorphism of the form
+Multiplying out and chasing through the constructions to see that this reduces to an isomorphism on the common summand $\tilde K(S^2) \oplus \tilde K(X) \oplus \mathbb{Z}$, this yields an isomorphism of the form
 
 $$
   \tilde K(S^2) \otimes \tilde K(X)
-    \simeq
+    \underoverset{\simeq}{\widetilde \boxtimes}{\longrightarrow}
   \tilde K(S^2 \wedge X)
     =
   \tilde K(\Sigma^2 X)
   \,,
 $$
 
-where on the right we used that [[smash product]] with the 2-sphere is the same as double [[reduced suspension]]. 
-Finally $\tilde K(S^2) \simeq \mathbb{Z}$ (example \ref{TopologicalKTheoryRingOfThe2Sphere}), 
-so that the left hand reduces to $\tilde K(X)$.
+where on the right we used that [[smash product]] with the 2-sphere is the same as double [[suspension]].
+
+Finally there is an [[isomorphism]]
+
+$$
+  \array{
+    \mathbb{Z}
+      &\underoverset{\simeq}{ \beta }{\longrightarrow}&
+    \tilde K_{\mathbb{C}}(S^2)
+    \\
+    1 &\overset{\phantom{AAA}}{\mapsto}& (h-1)
+  }
+$$
+
+(example \ref{TopologicalKTheoryRingOfThe2Sphere}). The composite
+
+$$
+  \array{
+    \tilde K_{\mathbb{C}}(X)
+      &
+      \simeq
+    \mathbb{Z} \otimes \tilde K_{\mathbb{C}}(X)
+      \overset{ \beta \otimes id }{\longrightarrow}
+    \tilde K_{\mathbb{C}}(S^2) \otimes \tilde K_{\mathbb{C}}(X)
+      \underoverset{\simeq}{\widetilde \boxtimes}{\longrightarrow}
+      &
+    \tilde K_{\mathbb{C}}(S^2 \wedge X)
+      =
+    \tilde K_{\mathbb{C}}(\Sigma^2 X)
+    \\
+    E - rk_x(E) &\overset{\phantom{AAAA}}{\mapsto}& (h-1) \widetilde \boxtimes (E - rk_x(E))
+  }
+$$
+
+is the isomorphism to be established.
 
 =--
+
 
 
 
@@ -1573,7 +1634,7 @@ is a model for the [[classifying space]] of reduced K-theory.
 
 ### As a generalized cohomology theory
 
-That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]] 
+That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]]
 was shown (at least) in [Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61))
 
 ### Spectrum
@@ -1595,7 +1656,7 @@ See at _[[differential cohomology diagram]]_.
 
 The topological K-theory over a space $X$ is not
 identical with the _[[algebraic K-theory]]_ of the
-ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)). 
+ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch), [Rosenberg](#Rosenberg)).
 See at _[[comparison map between algebraic and topological K-theory]]_.
 
 
