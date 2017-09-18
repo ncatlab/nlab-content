@@ -1,3 +1,4 @@
+[[!redirects Taub-NUT spacetime]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
