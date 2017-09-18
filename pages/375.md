@@ -214,3 +214,6 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 [[!redirects cartesian closed]]
 [[!redirects closed cartesian category]]
 [[!redirects closed cartesian categories]]
+
+[[!redirects Cartesian closed category]]
+[[!redirects Cartesian closed categories]]
