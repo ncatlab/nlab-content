@@ -46,7 +46,7 @@ For the [[stable (∞,1)-category of spectra]] this is accordingly called the _T
 
 ## References
 
-The general abstract discussion is due t 
+The general abstract discussion is due to 
 
 * [[Jacob Lurie]], section 6.1 of _[[Higher Algebra]]_
 
