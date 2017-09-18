@@ -23,7 +23,7 @@ A **monoidal category** is a [[category]] equipped with some notion of 'tensor p
 
 $$ f \otimes f': V \otimes V' \to W \otimes W' $$
 
-The same category can often be made into a monoidal category in more than one way.  For example the category [[Set]] can be made into a monoidal category with cartesian [[product]] or disjoint union (i.e. [[coproduct]]) as the 'tensor product'.   We can also make [[Vect]] into a monoidal category with direct sum is the 'tensor product' --- this may seem perverse, but it's actually very useful.
+The same category can often be made into a monoidal category in more than one way.  For example the category [[Set]] can be made into a monoidal category with cartesian [[product]] or disjoint union (i.e. [[coproduct]]) as the 'tensor product'.   We can also make [[Vect]] into a monoidal category with direct sum as the 'tensor product' --- this may seem perverse, but it's actually very useful.
 
 For any monoidal category $M$, the operation of tensor product is actually a [[functor]]
 
