@@ -82,7 +82,7 @@ Lambek and Scott mention in their 1986 monograph ([pp.viii, 233, 250](#LambekSco
 
 * All maps $R\to R$ in the free topos represent continuous functions. Note that this is not the same as to say that Brouwer's theorem ("all functions $R\to R$ are continuous") is true in the free topos, which is not the case.
 
-* $\mathcal{T}$ has countable choice i.e. the natural numbers object $N$ is projective.
+* The natural numbers object $N$ is projective.
 
 The first result is attributed to [[André Joyal]], presumably unpublished, and for the second claim they refer to an unpublished manuscript by [[Michael Makkai]] and a manuscript by Friedman and Scedrov, presumably ([1983](#FriedmanScedrov83)).
 
