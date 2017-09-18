@@ -18,13 +18,17 @@
 A **local ring** is a [[ring]] (with unit, usually also assumed commutative) such that:
 
 * $0 \ne 1$; and
+
 * whenever $a + b = 1$, $a$ or $b$ is invertible.
 
 Here are a few equivalent ways to phrase the combined condition:
 
 * Whenever a (finite) sum equals $1$, at least one of the summands is invertible.
+
 * Whenever a sum is invertible, at least one of the summands is invertible.
+
 * Whenever a sum of products is invertible, for at least one of the summands, all of its multiplicands are invertible.
+
 * The non-invertible elements form an [[ideal]].  (Unlike the previous clauses, this requires [[excluded middle]] to be equivalent.)
 
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field.  (This quotient can also be taken constructively, where one mods out by an [[anti-ideal]].)
@@ -53,6 +57,8 @@ In [[constructive mathematics]], one could do the same thing, but it\'s more com
 * [[localization of a commutative ring]]
 
 * [[strict local ring]]
+
+* [[valuation ring]] 
 
 
 [[!redirects local ring]]
