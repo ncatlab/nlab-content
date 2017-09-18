@@ -27,7 +27,7 @@ $$
   \frac{1}{2\pi\mathrm{i}}\oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z.
 $$
 
-## Proof in sythetic differential geometry
+## Proof in synthetic differential geometry
 
 Here is a proof written in terms of [[synthetic mathematics|synthetic]] [[infinitesimals]] as in [[synthetic differential geometry]]: 
 
