@@ -22,8 +22,16 @@ Typically, $X$ is [[Hausdorff space|Hausdorff]], $f$ is a [[continuous function]
 
 If we work with [[locales]] instead of topological spaces, then a closed point $0$ in $V$ still has an open subspace of $V$ as its formal dual, and we use this in the place of $V \setminus \{0\}$.
 
+
 ## Related concepts
 
 * [[bump function]]
 
+* [[compactly supported distribution]]
+
+
+
 [[!redirects compact supports]]
+
+[[!redirects compactly supported continuous function]]
+[[!redirects compactly supported continuous functions]]
