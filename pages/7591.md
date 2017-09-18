@@ -245,6 +245,7 @@ But there is not a homomorphism of [[spectra]] of this form. This only exists af
 ([Rezk 06](#Rezk06))
 
 ### Relation to Picard $\infty$-group and Brauer $\infty$-group
+ {#RelationToPicardInfinityGroups}
 
 Given an [[E-∞ ring]] $E$, the [[looping]] of the Brauer $\infty$-group is the [[Picard ∞-group]] ([Szymik 11, theorem 5.7](#Szymik11)). 
 
