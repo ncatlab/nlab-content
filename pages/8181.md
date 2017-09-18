@@ -59,7 +59,7 @@ and considered in the general context of [[higher differential geometry]]/[[exte
 
 Applications to the 2-dimensional [[string]] [[sigma-model]] are discussed in
 
-* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
+* {#BaezRogers10} [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 221-236. ([arXiv:0901.4721](http://arxiv.org/abs/0901.4721),[euclid](https://projecteuclid.org/euclid.hha/1296223828)).
 
 * [[John Baez]], [[Alexander Hoffnung]], [[Chris Rogers]], _Categorified Symplectic Geometry and the Classical String_ ([arXiv:0808.0246](http://arxiv.org/abs/0808.0246/))
 
