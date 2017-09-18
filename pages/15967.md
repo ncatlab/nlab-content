@@ -39,29 +39,43 @@ One may define the strict [[projective line]] $\mathbb{P}^1_R$ over $R$ by pasti
 ### Unitary group
  {#UnitaryGroup}
 
-One may try a similar construction to define higher dimensional global analogs of [[unitary groups]]: one may simply start from the strict [[polydisc]]
+One may try to use a similar construction to define higher dimensional global analogs of [[unitary groups]]: one may simply start from the strict [[polydisc]]
 
 $$
   M_n^{\leq 1}
   := \{(a_{ij})\in M_n,\;\max_{i,j}|a_{ij}|\leq 1\}
 $$
-in the (non-strict analytic) [[affine space]] $M_n=\mathbb{A}^{n^2}$ of [[matrices]],
-and define the $n$-dimensional global unitary space to be given by
-the subspace of $M_n^{\leq 1}\times_R M_n^{\leq 1}$ defined by
+in the (non-strict analytic) [[affine space]] $M_n=\mathbb{A}^{n^2}$ of [[matrices]].
+Since matrix multiplication on $M_n$ does not restrict to a morphism
+$$M_n^{\leq 1}\times_R M_n^{\leq 1}\to M_n^{\leq 1},$$
+this matrix polydisc is not a monoid. This implies that the naive definition of a global analytic version of $U(n)$, given by
 $$
-  U(n)
+U(n)
+\coloneqq
+\{(A,B)\in M_n^{\leq 1},\;A B = B A = I\},
+$$
+only gives a strict analytic space that is not equipped with an analytic group structure.
+
+One may however associate to $M_n^{\leq 1}$ a simplicial analytic space (kind of nerve) given by forcing the multiplication to be defined:
+$$
+BM_n^{\leq 1}_{[k]}\coloneqq
+\{(A_i)\in (M_n^{\leq 1})^{k},\;
+\prod_{j\in [s]} A_j\in (M_n^{\leq 1})^{[s]}\;\forall f:[s]\hookrightarrow [k]\}.
+$$
+One may then define the $n$-dimensional global unitary $\infty$-groupoid $BU(n)$ to be given by the analytic sub-groupoid of $B\GL_n$ defined by
+$$
+  BU(n)
   \coloneqq 
-  \{(A,B)\in M_n^{\leq 1}\times_R M_n^{\leq 1},\;A B = B A = I\}
+  B\GL_n\cap BM_n^{\leq 1}
   \,.
 $$
-The dagger algebra of functions on $U(n)$ is defined by
-$$A_{U(n)}:=R\{(a_{ij}),(b_{ij})\}^\dagger/(A B = B A = I).$$
 
-Remark that the comultiplication is not well defined on $A_{U(n)}$, because
-the matrix coproduct on functions associated to the matrix product is not overconvergent in the archimedean setting. One may however define it as a bounded morphism of _non-strict_ dagger algebras
-$$R\{(na_{ij}),(b_{ij})\}^\dagger\to A_{U(n)}\otimes_R A_{U(n)}.$$
+Remark now that $BM_n^{\leq 1}$ is a strict simplicial analytic space, because it is a subspace of the strict simplicial space $[k]\mapsto (M_n^{\leq 1})^k$ defined
+by strict inequalities. One may also see $BU(n)$ as a closed strict simplicial analytic
+subspace of $BM_n^{\leq 1}\times BM_n^{\leq 1}$ of pairs $(A,B)$ such that
+$AB=BA=I$.
 
-Over $(\mathbb{Z},|\cdot|_0)$, the scheme (i.e., strict analytic space over a trivially normed ring) $U(n)$  is isomorphic to $GL_{n,\mathbb{Z}}$, but over $(\mathbb{Z},|\cdot|_\infty)$, the space $U(n)$ is closer to what people usually denote $\GL_n(\mathbb{F}_{\{\pm 1\}})$, where $\mathbb{F}_{\{\pm 1\}}$ denotes the [[field with one element]] in Durov's sense. Over $\mathbb{C}$, the group $U(n)$ contains the classical unitary group $U(n)(\mathbb{C})$, since one has, for every complex matrix $A=(a_{ij})$, a natural inequality
+Over $(\mathbb{Z},|\cdot|_0)$, the scheme (i.e., strict analytic space over a trivially normed ring) $BU(n)$  is isomorphic to $BGL_{n,\mathbb{Z}}$, but over $(\mathbb{Z},|\cdot|_\infty)$, the space $U(n)$ is closer to what people usually denote $\GL_n(\mathbb{F}_{\{\pm 1\}})$, where $\mathbb{F}_{\{\pm 1\}}$ denotes the [[field with one element]] in Durov's sense. Over $\mathbb{C}$, the group $U(n)$ contains the classical unitary group $U(n)(\mathbb{C})$, since one has, for every complex matrix $A=(a_{ij})$, a natural inequality
 $$\|A\|_{max}:=\max(|a_{ij}|)\leq \|A\|_2,$$
 where $\|A\|_2$ is the operator norm for the hermitian norm on $\mathbb{C}^n$.
 It is also clearly compact (contained in a product of polydiscs) and contained in the non-strict analytic group $\GL_{n}(\mathbb{C})$. Since $U(n)(\mathbb{C})$ is a maximal compact subgroup, we have that $U(n)$ is indeed the complex unitary group over $\mathbb{C}$.
