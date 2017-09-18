@@ -117,7 +117,7 @@ Furthermore, since it is a general result for presheaf toposes (cf. La Palme Rey
 
 ## References
 
-* R. T. Bumpy, D. M. Latch, _Categorical Constructions in Graph Theory_ , Internat. J. Math. & Math. Sci. **9** no.1 (1986) pp.1-16.
+* R. T. Bumby, D. M. Latch, _Categorical Constructions in Graph Theory_ , Internat. J. Math. & Math. Sci. **9** no.1 (1986) pp.1-16.
 
 * {#Law89a} [[F. W. Lawvere]], *Qualitative Distinctions between some Toposes of Generalized Graphs*, Cont. Math. **92** (1989) pp.261-299.
 
