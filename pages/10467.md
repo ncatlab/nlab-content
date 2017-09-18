@@ -75,6 +75,13 @@ Discussion specifically in terms of equivariant [[orthogonal spectra]] is in
 
 * {#Schwede13} [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/schwede-global.pdf))
   
+Discussion for collections of [[finite group|finite]] [[subgroups]] includes
+
+* [[Irakli Patchkoria]], _Proper equivariant stable homotopy and virtual cohomological dimension_, in _Oberwolfach Report_ No. 14/2015 ([pdf](https://www.mfo.de/document/1511/preliminary_OWR_2015_14.pdf))
+
+relating to
+
+* [[Wolfgang Lueck]], _The Burnside Ring and Equivariant Stable Cohomotopy for Infinite Groups_ ([arXiv:math/0504051](http://arxiv.org/abs/math/0504051))
 
 [[!redirects global stable homotopy theory]]
 [[!redirects global equivariant homotopy theory]]
