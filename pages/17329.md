@@ -110,28 +110,28 @@ We refer to an object of $\mathsf{Set}^{\square^{op}}$ as a _cubical set_, and t
 +-- {: .num_defn}
 ###### Notation
 
-We denote by $\square_{\leq 2}$ the full sub-category of $\square$ whose objects are $I^{0}$, $I^{1}$, and $I^{2}$. 
+Let $n \geq 0$ be an integer. We denote by $\square_{\leq n}$ the full sub-category of $\square$ whose objects are $I^{0}$, $I^{1}$, $\ldots$, $I^{n}$. 
 
 =--
 
 +-- {: .num_defn}
 ###### Notation
 
-We denote by $\mathsf{Set}^{\square_{\leq 2}^{op}}$ the [[free co-completion]] of $\square_{\leq 2}$, or, more explicitly, the category of presheaves of sets on $\square_{\leq 2}$.
+Let $n \geq 0$ be an integer. We denote by $\mathsf{Set}^{\square_{\leq n}^{op}}$ the [[free co-completion]] of $\square_{\leq n}$, or, more explicitly, the category of presheaves of sets on $\square_{\leq n}$.
 
 =--
 
 +-- {: .num_defn}
 ###### Terminology
 
-We refer to an object of $\mathsf{Set}^{\square_{\leq 2}^{op}}$ as a _2-truncated cubical set_, and to an arrow of $\mathsf{Set}^{\square_{\leq 2}^{op}}$ as a _morphism of 2-truncated cubical sets_.
+Let $n \geq 0$ be an integer. We refer to an object of $\mathsf{Set}^{\square_{\leq n}^{op}}$ as an _n-truncated cubical set_, and to an arrow of $\mathsf{Set}^{\square_{\leq n}^{op}}$ as a _morphism of n-truncated cubical sets_.
 
 =--
 
 +-- {: .num_defn}
 ###### Notation
 
-We denote by $i_{\leq 2} : \square_{\leq 2} \rightarrow \square$ the inclusion functor. We denote by $tr_{2} : \mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Set}^{\square_{\leq 2}^{op}}$ the functor $i_{\leq 2}^{*}$ induced by $i_{\leq 2}$. We denote the left Kan extension of $tr_{2}$ by $sk_{2}: \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$, and denote the right Kan extension of $tr_{2}$ by $cosk_{2}: \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$. 
+Let $n \geq 0$ be an integer. We denote by $i_{\leq n} : \square_{\leq n} \rightarrow \square$ the inclusion functor. We denote by $tr_{n} : \mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Set}^{\square_{\leq n}^{op}}$ the functor $i_{\leq n}^{*}$ induced by $i_{\leq n}$. We denote the left Kan extension of $tr_{n}$ by $sk_{n}: \mathsf{Set}^{\square_{\leq n}^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$, and denote the right Kan extension of $tr_{n}$ by $cosk_{n}: \mathsf{Set}^{\square_{\leq n}^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$. 
 
 
 =--
@@ -139,11 +139,15 @@ We denote by $i_{\leq 2} : \square_{\leq 2} \rightarrow \square$ the inclusion f
 +-- {: .num_defn}
 ###### Terminology
 
-We refer to the functor $tr_{2}$ as the _2-truncation_ functor, to the functor $sk_{2}$ as the _2-skeleton_ functor, and to the functor $cosk_{2}$ as the _2-coskeleton_ functor.
+Let $n \geq 0$ be an integer. We refer to the functor $tr_{n}$ as the _n-truncation_ functor, to the functor $sk_{n}$ as the _n-skeleton_ functor, and to the functor $cosk_{n}$ as the _n-coskeleton_ functor.
 
 =--
 
 ## Fundamental groupoid adjunction
+
+We give two constructions. The first is quickest, but it seems necessary to have a more explicit description of the fundamental groupoid functor $\Pi$ for the purposes of giving a proof, of the kind we shall give, of the homotopy hypothesis for 1-types. For this, the second approach is more useful.
+
+### Approach 1
 
 +-- {: .num_defn}
 ###### Notation
@@ -182,7 +186,7 @@ Making use of the cartesian monoidal structure upon $\mathsf{Grpd}$, we denote b
 +-- {: .num_defn #NotationPi2TruncatedCategoryOfCubes}
 ###### Notation
 
-We denote by $\Pi_{\leq 2} : \square_{\leq 2} \rightarrow \mathsf{Grpd}$ the functor $Pi \circ i_{\leq 2}$.
+We denote by $\Pi_{\leq 2} : \square_{\leq 2} \rightarrow \mathsf{Grpd}$ the functor $\Pi \circ i_{\leq 2}$.
 
 =--
 
@@ -239,5 +243,98 @@ We denote by $N: \mathsf{Grpd} \rightarrow \mathsf{Set}^{\square^{op}}$ the func
 ###### Terminology
 
 We also refer to $N : \mathsf{Grpd} \rightarrow \mathsf{Set}^{\square^{op}}$ as the _nerve_ functor.
+
+=--
+
+### Approach 2
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\mathsf{FreeGroupoid} : \mathsf{Set}^{\square_{\leq 1}} \rightarrow \mathsf{Set}^{\square_{\leq 1}}$ the functor defined as follows.
+
+1) To a 1-truncated cubical $X$, we associate the 1-truncated cubical set $X$ defined as follows.
+
+a) Its set of 0-cubes is the same as that of $X$. 
+
+b) Its set of 1-cubes is the set of zig-zags of 1-cubes of $X$ up to the notion of equivalence defined below, where by a zig-zag of 1-cubes of $X$ we mean, for some integer $n \geq 0$, a set of 1-cubes of $X$ whose faces match up as follows. 
+
+$$
+   \array{
+      x_{0}  &  \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+We identify a pair of zig-zags if one can be obtained from the other by a sequence of the following manipulations: we may remove or add a pair of arrows of the form 
+
+$$
+   \array{
+      x_{0}  &  \overset{f}{\rightarrow} & x_{1} \overset{f}{\leftarrow} & x_{0} 
+   }
+$$
+
+or of the following form.
+
+$$
+   \array{
+      x_{0}  &  \overset{f}{\leftarrow} & x_{1} \overset{f}{\rightarrow} & x_{0} 
+   }
+$$
+
+c) The faces of a zig-zag as above are $x_{0}$ and $x_{2n}$.
+
+d) Its degenerate 1-cubes are those zig-zags for which $n = 0$.
+
+2) To a morphism of 1-truncated cubical sets $F : X \rightarrow Y$, we associate the morphism of 1-truncated cubical sets defined as follows.
+
+a) On 0-cubes, it is the same as $f$.
+
+b) To a zig-zag as follows 
+
+$$
+   \array{
+      x_{0}  &  \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+we associate the following zig-zag. 
+
+$$
+   \array{
+      F(x_{0}) &  \overset{F(f_{1})}{\rightarrow} & F(x_{1}) \overset{F(g_{1})}{\leftarrow} & F(x_{2}) & \cdots & F(x_{2n-2}) & \overset{F(f_{n})}{\rightarrow} & F(x_{2n-1}) \overset{F(g_{n})}{\leftarrow} & F(x_{2n})
+   }
+$$
+
+=--
+
++-- {: .num_defn #ObservationFreeGroupoidMonad}
+###### Observation
+
+The following equips $\mathsf{FreeGroupoid} : \mathsf{Set}^{\square_{\leq 1}} \rightarrow \mathsf{Set}^{\square_{\leq 1}}$ with the structure of a monad.
+
+a) The natural transformation $\mathsf{FreeGroupoid}^{2} \rightarrow \mathsf{FreeGroupoid}$ is the identity on 0-cubes, and takes a zig-zag of zig-zags 
+
+$$
+   \array{
+      x_{0}  &  \overset{y_{1}}{\rightarrow} & x_{1} \overset{z_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{y_{n}}{\rightarrow} & x_{2n-1} \overset{z_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+to the zig-zag obtained by 'unfolding' the zig-zags $y_{1}$, $z_{1}$, $\ldots$, $y_{n}$, $z_{n}$ into the above zig-zag.
+
+b) The natural transformation $\mathsf{id} \rightarrow \mathsf{FreeGroupoid}$ is the identity on 0-cubes, and sends a 1-cube $f : x_{0} \rightarrow x_{1}$ to the following zig-zag, where the right arrow is the degenerate 1-cube on $x_{1}$.
+
+$$
+   \array{
+      x_{0}  &  \overset{f}{\rightarrow} & x_{1} \leftarrow & x_{1} 
+   }
+$$
+
+=--
+
++-- {: .num_defn}
+###### Remark
+
+The category of groupoids is equivalent to the Eilenberg-Moore category of the monad of Observation \ref{ObservationFreeGroupoidMonad}. We shall, however, not make use of this, and simply take, in this approach, the _definition_ of $\mathsf{Grpd}$ to be the Eilenberg-Moore category of this monad.
 
 =--
