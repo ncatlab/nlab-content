@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[long exact sequence in cohomology]] induced by a [[spherical fibration]].
+The [[long exact sequence in cohomology]] induced by a [[spherical fibration]]. A corollary of the [[Serre spectral sequence]].
 
 ## Related concepts
 
@@ -14,6 +14,8 @@ The [[long exact sequence in cohomology]] induced by a [[spherical fibration]].
 * [[Serre spectral sequence]]
 
 ## Reference
+
+* {#Kochmann96} [[Stanley Kochmann]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
 * Wikipedia, _[Gysin sequence](http://en.wikipedia.org/wiki/Gysin_sequence)_
