@@ -24,7 +24,7 @@ defined by $false = inl$ and $xor = [id,not]$ (here we make use of the isomorphi
 $$
 X \mapsto 2 \otimes X \cong X + X
 $$
-thus extends to a [[monad]] on $C$, sending any object $X$ to the free object equipped with an involution over $X$. Explicitly, the unit $\eta_X : X \to 2\otimes X$ and the multiplication $\mu_X : 2\otimes 2\otimes X \to 2\otimes X$ of the monad are defined by tensoring the unit and the multiplication of the monoid with the identity on $X$, while the involution on $2 \otimes X$ is likewise defined by tensoring the involution on 2 with the identity on $X$. We then have that involutions in $C$ are precisely the [[module over a monad|algebras]] of the monad $(2\otimes-,false\otimes-,not\otimes-)$.
+thus extends to a [[monad]] on $C$, sending any object $X$ to the free object equipped with an involution over $X$. Explicitly, the unit $\eta_X : X \to 2\otimes X$ and the multiplication $\mu_X : 2\otimes 2\otimes X \to 2\otimes X$ of the monad are defined by tensoring the unit and the multiplication of the monoid with the identity on $X$, while the involution on $2 \otimes X$ is likewise defined by tensoring the involution on 2 with the identity on $X$. We then have that involutions in $C$ are precisely the [[module over a monad|algebras]] of the monad $(2\otimes-,false\otimes-,xor\otimes-)$.
 
 ## Properties
 
@@ -38,6 +38,7 @@ In [[combinatorics]], an important class of involutions are the [[fixed point]] 
 
 ## Related concepts
 
+* [[chord diagram]]
 * [[dagger category]]
 * [[duality]]
 
