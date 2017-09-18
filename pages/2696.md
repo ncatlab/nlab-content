@@ -66,6 +66,8 @@ Whitehead's principle does hold, however, for maps between [[homotopy n-types]] 
 
 * [[mod p Whitehead theorem]]
 
+* [equivariant stable Whitehead theorem](G-spectrum#EquivariantWhitehead)
+
 ## References
 
 The $(\infty,1)$-topos version is in section 6.5 of
