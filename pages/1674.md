@@ -44,8 +44,43 @@ Even without choice, however, we can say this:  If $\alpha$ is an ordinal number
 
 The axiom of choice also implies the well-ordering theorem, that any set can be well-ordered.  Thus with choice, $\kappa^+$ is (now as a cardinal again) the smallest cardinal number greater than $\kappa$; this explains the notation $\kappa^+$. 
 
-Notice that $X$ can be well-ordered if there is an injection $i: X \to \aleph(X)$ (any subset of a well-ordered set inherits a well-order). As an amusing curiosity: if the generalized [[continuum hypothesis]] holds, then the 
-[[axiom of choice]] holds, i.e., ZF + GCH implies AC. The reason is that $\aleph(X)$ can be constructed in ZF as a subset of the triple power set $P P P(X)$, and so in ZF + GCH it is bijective with one of $P(X), P^2(X), P^3(X)$; on the other hand, it is easy to produce explicit injections of $X$ into any one of these. So in that case any set $X$ can be well-ordered, and this implies AC. 
+Notice that $X$ can be well-ordered if there is an injection $i: X \to \aleph(X)$ (any subset of a well-ordered set inherits a well-order). As an amusing illustration of this principle, we will prove an old result due to Sierpinski: 
+
++-- {: .num_prop} 
+###### Proposition 
+If the generalized [[continuum hypothesis]] holds, then the 
+[[axiom of choice]] holds, i.e., ZF + GCH implies AC. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+In fact we will show that any set $Y$ can be well-ordered, which implies AC (see the article [[Zorn's lemma]]). We may restrict attention to infinite $Y$, and since there is a singleton embedding of $Y$ in its power set $X = P(Y)$, we need only exhibit a well-ordering of $X$ (since we can then well-order $Y$ by restriction along singletons). In fact the only property of such $X$ that we require below is $|X| = 2|X|$. 
+
+First, the Hartogs set $\aleph(X)$ can be constructed explicitly in ZF as a subset of the triple power set $P^3(X) = P P P(X)$. We will show for $n \in \{1, 2, 3\}$ that under GCH, if $|\aleph(X)| \leq |P^n(X)|$ (where $|X| \leq |Y|$ means there is a mono $X \to Y$), then either 
+
+1. $|X| \leq |\aleph(X)|$ (whence $X$ can be well-ordered), or 
+
+1. $|\aleph(X)| \leq |P^{n-1}(X)|$. 
+
+Iterating this, we cannot descend through case 2 all the way down to $|\aleph(X)| \leq |P^0(X)| = |X|$, so we wind up in case 1: $X$ can be well-ordered. Since every set $X$ can be well-ordered, we deduce AC (as discussed at [[Zorn's lemma]]). 
+
+For this, we need a spot of cardinal arithmetic in ZF. First, for any infinite set $X$, we have $|P(X)| = |2^X| = |2^{X + 1}| = 2\cdot |2^X| = 2|P(X)|$. Second, we **claim** 
+
+* If $P, A$ are sets such that $|P| = 2|P|$ and $|A+P| = |2^P|$, then $|2^P| \leq |A|$  
+
+whose ZF-proof will be a diagonal argument that we give in a moment. Granting the claim, let us continue. We have 
+
+$$|P^{n-1}(X)| \leq |\aleph(X)| + |P^{n-1}(X)| \stackrel{hypoth}{\leq} |P^n(X)| + |P^{n-1}(X)| \leq 2|P^n(X)| = |P^n(X)|$$ 
+
+or just 
+
+$$|P^{n-1}(X)| \leq |\aleph(X)| + |P^{n-1}(X)| \leq |P^n(X)|.$$ 
+
+By GCH, one of those two inequalities is an equality. If the first inequality is an equality, then we conclude $|\aleph(X)| \leq |P^{n-1}(X)|$, which lands us in case 2. If the second inequality is an equality, then the claim applies and we conclude $|P^n(X)| \leq |\aleph(X)|$. Consequently $|X| \leq |\aleph(X)|$ and we are in case 1. 
+
+So we are done except for the claim. 
+
+=-- 
 
 ## Examples
 
