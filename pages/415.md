@@ -106,7 +106,7 @@ Section 3.7 of
 
 Section 6.5 of
 
-* Francis Borceux, _Handbook of categorical algebra, vol. 2_
+* [[Francis Borceux]], _Handbook of categorical algebra, vol. 2_
 
 [[!redirects copowers]]
 
