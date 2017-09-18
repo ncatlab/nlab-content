@@ -33,8 +33,6 @@ Random variables are defined typically in terms of probability spaces, cf. the b
 
 Some argue that in the study of measure and probability, one should start not only with sigma algebra of measurable sets but also another of null sets. Somehow this is abstractly captured by the approach of commutative [[von Neumann]] algebras. 
 
-Some argue that th 
-
 ### Stochastic processes
 
 (...)
