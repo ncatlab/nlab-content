@@ -101,9 +101,11 @@ Early lecture notes include
 
 * {#Adams74} [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
 
-There it says:
+where the idea is attributed to [[George Whitehead]]:
 
-> These spectral sequences were probably first invented by [[George Whitehead|G. Whitehead]], but he got them just after he wrote the paper $[$Whitehead 56 'Homotopy groups of joins and unions'$]$ in which they ought to have appeared. They then became a folk-theorem and were eventually published by Atiyah and Hirzebruch ([Adams 74, p. 215](#Adams74))
+> the Atiyah-Hirzebruch spectral sequence, which was really invented by G. W. Whitehead but not published by him ([Adams 74, p. 127-128](#Adams74))
+
+> These spectral sequences were probably first invented by G. W. Whitehead, but he got them just after he wrote the paper $[$Whitehead 56 'Homotopy groups of joins and unions'$]$ in which they ought to have appeared. They then became a folk-theorem and were eventually published by Atiyah and Hirzebruch ([Adams 74, p. 215](#Adams74))
 
 Further discussion of the case of [[twisted K-theory]] is due to
 
