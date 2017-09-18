@@ -33,4 +33,7 @@ For instance def. 1.4.1, def. 8.0.2 in
 
 * [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
 
+* _Renormalization scheme dependence_ [pdf](http://bolvan.ph.utexas.edu/~vadim/classes/2012f/ms.pdf)
+
+
 [[!redirects renormalization schemes]]
