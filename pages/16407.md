@@ -2,11 +2,13 @@
 
 A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (loops and multiple edges allowed) equipped with an embedding $\theta$ of $G$ into a ([[connected space|connected]], [[compact space|compact]]) [[surface]] $X$ in such a way that:
 
-* vertices $x \in V$ are represented as distinct points $\theta(x) \in X$;
+1. vertices $x \in V$ are represented as distinct points $\theta(x) \in X$;
 
-* edges $e \in E$ are represented as curves $\theta(e)$ on the surface $X$ that intersect only at the vertices;
+2. edges $e \in E$ are represented as curves $\theta(e)$ on the surface $X$ that intersect only at the vertices;
 
-* the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
+3. the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
+
+Note that the last condition implies that $G$ must be a connected graph (i.e., that there is a sequence of edges connecting any pair of vertices).
 
 Topological maps are always considered up to homeomorphism.  It is useful to assume that the underlying surface $X$ is [[oriented]] (since such embedded graphs have a close connection with [[combinatorial maps]]), but it is also possible to consider topological maps on non-oriented surfaces.
 
