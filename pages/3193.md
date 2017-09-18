@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 # Compact operators
 * table of contents
 {: toc}
@@ -7,6 +18,7 @@
 
 For a [[linear operator]] between [[Banach spaces]], compactness is a natural strengthening of [[bounded operator|continuity]] (boundedness). A linear operator is **compact** if it sends the [[bounded subspace|bounded subsets]] to [[relatively compact subset|relatively compact subsets]]. 
 
+The [[quotient]] of the [[bounded operators]] by the compact operators is called the _[[Calkin algebra]]_.
 
 ## Properties
 
