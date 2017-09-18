@@ -1,0 +1,8 @@
+* [web page](http://www.pdmi.ras.ru/~panin/)
+* [math genealogy](http://genealogy.math.ndsu.nodak.edu/id.php?id=65017)
+
+## Related topics
+
+* [[motivic homotopy theory]]
+* [[algebraic cobordism]]
+* [[oriented cohomology theory]]
