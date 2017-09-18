@@ -225,6 +225,8 @@ In these cases there are also direct constructions of $Q^*(M)$ (not using to $Q^
 
 ## Related concepts
 
+* [[localization of an abelian group]]
+
 * [[localization of a ring]], [[Ore localization]], [[Gabriel localization]], [[Cohn localization]]
 
 * [[localization of a space]] (and of a [[spectrum]])
