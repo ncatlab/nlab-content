@@ -35,7 +35,7 @@ The [[Ext]]-groups between [[comodules]] for these [[commutative Hopf algebroids
 
 ### For ordinary cohomology
 
-(...)
+(...) (e.g. [Mosher-Tangora 68, section 6](#MosherTangora68), [Lurie 07](#Lurie07)) (...)
 
 ### For generalized cohomology
 
@@ -488,7 +488,7 @@ Comprehensive discussion of the ordinary Steenrod algebra, with proof is the Ade
 
 * {#MosherTangora68} [[Robert Mosher]], [[Martin Tangora]], _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](www.maths.ed.ac.uk/~aar/papers/moshtang.pdf))
  
-* [[Jacob Lurie]], 18.917 _[Topics in Algebraic Topology: The Sullivan Conjecture, Fall 2007](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007)_. (MIT OpenCourseWare: Massachusetts Institute of Technology), _[Lecture notes](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/)_
+* {#Lurie07} [[Jacob Lurie]], 18.917 _[Topics in Algebraic Topology: The Sullivan Conjecture, Fall 2007](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007)_. (MIT OpenCourseWare: Massachusetts Institute of Technology), _[Lecture notes](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/)_
 
   Lecture 2 _Steenrod operations_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture2.pdf))
 
