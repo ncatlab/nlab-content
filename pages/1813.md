@@ -30,7 +30,7 @@ into a [[cocomplete category]] $C$ (possibly a $V$-[[enriched category]] with $V
 $$
    C \stackrel{\xleftarrow{|-|}}{\underset{N}{\rightarrow}} [S^{op}, V],
 $$
-where $|-| \dashv N$, between $C$ and the [[category of presheaves]] $PSh(C) = [S^{op}, V]$ on $S$ (here $V$ = [[Set]] for the unenriched case)
+where $|-| \dashv N$, between $C$ and the [[category of presheaves]] $PSh(S) = [S^{op}, V]$ on $S$ (here $V$ = [[Set]] for the unenriched case)
 
 where 
 
