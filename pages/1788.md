@@ -1,24 +1,59 @@
 
+$$
+  \mathcal{D}' \; \mathcal{D}^\prime \; \mathcal{D}\prime
+$$
+
+
 
 $$
   \array{
-     \cdots 
-       &\stackrel{}{\longrightarrow}& 
-     \mathcal{D}^{3,\bullet} 
-       &\stackrel{i_3}{\longrightarrow}& 
-     \mathcal{D}^{2,\bullet} 
-       &\stackrel{i_2}{\longrightarrow} & 
-     \mathcal{D}^{1,\bullet} 
-       &\stackrel{i_1}{\longrightarrow}& 
-     \mathcal{D}^{0,\bullet}
-     \\
-     && 
-     \downarrow^{\mathrlap{}}  &{}_{\mathllap{k_2}} \nwarrow & 
-     \downarrow^{\mathrlap{j_2}} &{}_{\mathllap{k_1}}\nwarrow &
-     \downarrow^{\mathrlap{j_1}} &{}_{\mathllap{k_0}}\nwarrow
-     & \downarrow^{\mathrlap{j_0}}
-     \\
-     && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
-     && \mathcal{E}^{1,\bullet} && \mathcal{E}^{0,\bullet}
-   }
+    && & \searrow && \nearrow
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    && && && \nearrow
+    \\
+    && \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{def: \; d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    \\
+    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
+    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
+    \\
+    && && && && \pi_{t-s-2}(X_{s+2})
+    \\
+    && && && & \nearrow && \searrow
+  }
 $$
+
+hh
+
+$$
+  \array{
+    \cdots & \stackrel{}{\longrightarrow}
+    && \pi_{t-s}(A_s) && \overset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    &&\longrightarrow & \cdots
+  }
+$$
+
+
+hh
+
+$$
+  \array{
+    &\hat c \in & \pi_{t-s-1}(X_{s+2})
+    \\
+    && & \searrow^{\mathrlap{\pi_{t-s-1}(f_{s+1})}} 
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    \\
+    & c \in  & \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+  }
+$$
+
+
