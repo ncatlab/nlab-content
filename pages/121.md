@@ -54,6 +54,7 @@ A natural isomorphism from a functor to itself is also called a _natural [[autom
 
 [[!redirects natural isomorphism]]
 [[!redirects natural isomorphisms]]
+[[!redirects naturally isomorphic]]
 [[!redirects naturally isomorphic functor]]
 [[!redirects naturally isomorphic functors]]
 
