@@ -208,20 +208,43 @@ $$
 where we set $\xi_0 \coloneqq 1$.
 
 
++-- {: .num_prop #ComoduleStructureOnGroundRing}
+###### Proposition
 
+Given $(\Gamma,A)$ a [[graded commutative Hopf algebroid]], then $A$ becomes a left comodule over $\Gamma$ with coaction given by the right unit
+
+$$
+  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
+$$
+
+and it becomes a right comodule with coaction given by the left unit
+
+$$
+  A \overset{\eta_L}{\longrightarrow} \Gamma \simeq A \otimes_A \Gamma
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Dually this is the action of morphisms on objects given by evaluation at the source or target, respectively. 
+
+=--
 
 +-- {: .num_defn #CobarComplex}
 ###### Definition
 **(cobar complex)**
 
-Let $(\Gamma,A)$ be the dual Steenrod algebra.
+Let $(\Gamma,A)$ be the dual Steenrod algebra and let $N$ be a left $\Gamma$-comodule.
 
-The **cobar complex** $C^\bullet_\Gamma(N)$ is the [[cochain complex]] of $A-[[modules]] given by
+The **cobar complex** $C^\bullet_\Gamma(N)$ is the [[cochain complex]] of abelian groups given by
 
 $$
   C^s_\Gamma(N)
    \coloneqq
-  A \otimes_A 
     \underset{s\; factors}{
     \underbrace{
     \overline{\Gamma}
@@ -244,15 +267,27 @@ $$
   \,,
 $$
 
-and with [[differentials]] $d_s \colon D^s_\Gamma(N) \longrightarrow D^{s+1}_\Gamma(N)$ given by the alternating sum of the coproducts.
+and with [[differentials]] $d_s \colon C^s_\Gamma(N) \longrightarrow C^{s+1}_\Gamma(N)$ given by the alternating sum of the coproducts.
  
-(...)
-
 =--
 
 ([Ravenel 86, def. A1.2.11](#Ravenel86))
 
++-- {: .num_prop #CobardComplexGivesExtGroupsOutOfA}
+###### Proposition
 
+The [[cochain cohomology]] of the cobar complex $C^\bullet_\Gamma(N)$ is the [[Ext]]-groups of comodules from $A$ (regarded as a left comodule via def. \ref{ComoduleStructureOnGroundRing}) into $N$
+
+$$
+  H^\bullet(C^\bullet_\Gamma(N))
+    \;\simeq\;
+  Ext^\bullet_\Gamma(A,N)
+  \,.
+$$
+
+=--
+
+([Ravenel 86, cor. A1.2.12](#Ravenel86), [Kochman 96, prop. 5.2.1](#Kochman96))
 
 
 +-- {: .num_defn #hGeneratorsInClassicalAdamsSpectralSequence}
