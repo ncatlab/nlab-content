@@ -252,6 +252,9 @@ To deduce the previous theorem from this one, it suffices to observe that if $S\
 
 +--{: .query}
 There is some dispute about this, see [here](http://nforum.mathforge.org/discussion/6289/when-is-the-internal-real-line-the-external-real-line/?Focus=50275#Comment_50275).
+
+Resolution seems to be [here](http://mathoverflow.net/a/186165/381)
+
 =--
 
 
