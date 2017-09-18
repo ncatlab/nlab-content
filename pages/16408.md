@@ -22,7 +22,7 @@ Note that some authors equivalently define a combinatorial map as a pair $(\sigm
 
 ## Representation of a topological map
 
-Let $M$ be a [[topological map]], i.e., an embedding $\theta$ of a [[graph]] $G$ into a [[connected]], [[oriented]], [[compact]] without [[boundary]] [[surface]] $X$.  We can represent $M$ by a unique combinatorial map, defined as follows (letting $E$ and $V$ stand for the set of edges and vertices, respectively, of the graph $G$):
+Let $M$ be a [[topological map]], i.e., an embedding $\theta$ of a [[graph]] $G$ into a [[surface]] $X$, and assume moreover that $X$ is [[compact]], [[connected]], [[oriented]], and without [[boundary]].  We can represent $M$ by a unique combinatorial map, defined as follows (letting $E$ and $V$ stand for the set of edges and vertices, respectively, of the graph $G$):
 
 * $D$ is defined as a set with $2n$ elements, where $n = |E|$.
 
