@@ -27,7 +27,19 @@ More generally there are [[model structures]] on [[dg-modules]] over a [[dg-cate
 
 ## Definition
 
-There is a projective [[model structure]] on the category of [[dg-modules]], where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]].  This model structure is compatible with the canonical dg-[[enriched category|enrichment]] and presents the [[derived (infinity,1)-category of dg-modules]].
++-- {: .un_defn}
+###### Theorem
+There is a projective [[model structure]] on the category of [[dg-modules]], where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]].
+=--
+
++-- {: .un_defn}
+###### Theorem
+There is an injective [[model structure]] on the category of [[dg-modules]], where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[cofibrations]] are object-wise [[monomorphisms]].
+=--
+
+The projective model structure is compatible with the canonical dg-[[enriched category|enrichment]] and presents the [[derived (infinity,1)-category of dg-modules]].
+
+See ([Keller](#Keller), Theorem 3.2).
 
 ## Properties
  {#Properties}
