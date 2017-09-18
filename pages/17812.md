@@ -1,11 +1,14 @@
 
+$\,$
+
+$\,$
 
 > this entry is one section of "[[geometry of physics -- supergeometry and superphysics]]"
 > which is one chapter of "[[geometry of physics]]"
 
 > previous section: _[[geometry of physics -- superalgebra]]_
 
-> next section _[[geometry of physics -- supersymmetry]]_
+> next section: _[[geometry of physics -- supersymmetry]]_
 
 > under construction
 
@@ -20,8 +23,8 @@ to [[supercommutative superalgebra]] and how this implies a dual concept of [[su
 Here we discuss how to build a fully-fledged theory of [[geometry]] on these affine [[superspaces]] -- [[supergeometry]] --
 in parallel to the discussion of ordinary [[differential geometry]] in _[[geometry of physics -- smooth sets]]_.
 
-Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the physical world is
-fundamentally described by
+Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the 
+[[observable universe]] is fundamentally described by
 [[supergeometry]]. Namely the [[Pauli exclusion principle]] implies that the [[phase space]] of a [[field theory]]
 (already of a [[classical field theory]]) with [[fermion]] [[field (physics)|fields]] (such as that of [[electrons]] and [[quarks]])
 is a [[superspace]] whose even-graded [[coordinates]] are the configurations of the [[boson]] fields, while the
@@ -199,7 +202,7 @@ Recall the two magic algebraic properties of [[smooth functions]] that make the 
 
 There is a third such magic algebraic property of smooth functions, which plays a role now:
 
-+-- {: .num_defn #}
++-- {: .num_defn #DerivationsOfSmoothFunctions}
 ###### Proposition
 **([[derivations of smooth functions are vector fields]])**
 
@@ -296,8 +299,8 @@ $$
   \,.
 $$
 
-(Beware that $\overset{\rightsquigarrow}{(-)}$ is the formal dual of $(-)_{even}$ and $\overset{\rightrightarrows}{(-)}$
-that of $(-)/(-)_{odd}$ because the handedness of [[adjoints]] changes as we pass to [[opposite categories]].)
+(Beware that $\overset{\rightsquigarrow}{(-)}$ is the formal dual of $(-)/(-)_{odd}$ while $\overset{\rightrightarrows}{(-)}$ is the
+formal dual of $(-)_{even}$. That they change position in the diagrams is because we always draw [[left adjoints]] on top of [[right adjoints]] and  the handedness of [[adjoints]] changes as we pass to [[opposite categories]].)
 
 =--
 
@@ -320,7 +323,7 @@ This highlights an important point: while the image of a [[super Cartesian space
 is an ordinary [[Cartesian space]]
 
 $$
-   \overset{\rightsquigarrow}(\mathbb{R}^{p\vert q})
+   \overset{\rightsquigarrow}{\mathbb{R}^{p\vert q}}
    \simeq 
    \mathbb{R}^p
 $$
@@ -366,10 +369,19 @@ $$
   InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
 $$
 
-for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]] 
+for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]] 
+$\mathbb{D}$ of [[commutative algebras]] over the [[real numbers]] of the form
+
+$$
+  \mathcal{O}(\mathbb{D})
+    \coloneqq
+  \mathbb{R}\oplus V
+$$ 
+
+with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]] 
 over $\mathbb{R}$. We call this the category of _[[infinitesimally thickened points]]_.
 
-In [[synthetic differential geometry]] these algebras ar called _[[Weil algebra]]_, while in [[algebraic geometry]] they are known as local [[Artin algebras]] over $\mathbb{R}$.
+In [[synthetic differential geometry]] these algebras are called **[[Weil algebra]]**, while in [[algebraic geometry]] they are known as **local [[Artin algebras]]** over $\mathbb{R}$.
 
 Write moreover
 
@@ -377,23 +389,28 @@ $$
   FormalCartSp \coloneqq CartSp \rtimes InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
 $$
 
-for the [[full subcategory]] on [[formal duals]] of those algebras which are [[tensor products]] of commutative $\mathbb{R}$-algebras of the form
+for the [[full subcategory]] on [[formal duals]] $\mathbb{R}^n \times \mathbb{D}$ of those algebras which are [[tensor products]] of commutative $\mathbb{R}$-algebras of the form
 
 $$
-  C^\infty(\mathbb{R}^n) \otimes C^\infty(D)
+  \mathcal{O}(\mathbb{R}^n \times \mathbb{D})
+    \coloneqq
+   C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} C^\infty(\mathbb{D})
 $$
 
 of algebras $C^\infty(\mathbb{R}^p)$ of [[smooth functions]] $\mathbb{R}^n$ 
-with algebras corresponding to infinitesimally thickened points $D$ as above.
+with algebras corresponding to infinitesimally thickened points $\mathbb{D}$ as above.
 
 =--
 
 This kind of construction is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_.
 
+The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCartSp}) is that they co-represent
+[[tangent vectors]] and [[jets]]:
+
 +-- {: .num_example}
 ###### Example
 
-Write $\mathbb{D}$ for the [[formal dual]] of the [[algebra of dual numbers]]. Then morphisms
+Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]]. Then morphisms
 
 
 $$
@@ -432,7 +449,8 @@ $$
   \,.
 $$
 
-This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. But derivations of algebras of [[smooth functions]] are equivalent to [[vector fields]]. (See at _[[derivations of smooth functions are vector fields]]_).
+This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. 
+But [[derivations of smooth functions are vector fields]] (prop. \ref{DerivationsOfSmoothFunctions}).
 
 In particular one finds that maps
 
@@ -440,20 +458,108 @@ $$
   \mathbb{D} \longrightarrow \mathbb{R}^n
 $$
 
-are equivalently single [[tangent vectors]].
+are equivalently single [[tangent vectors]], hence for every $\mathbb{R}^n$ there is a [[natural bijection]]
 
+$$
+  Hom_{FormalCartSp}(\mathbb{D}^1, \mathbb{R}^n)
+   \simeq
+  \underset{\text{underlying} \atop \text{set}}{\underbrace{T \mathbb{R}^n}}
+$$
+
+between the [[hom-set]] from the formal dual of the [[ring of dual numbers]]
+and the set of [[tangent vectors]].
+
+=--
+
++-- {: .num_prop #CartSpCoreflectiveInclusion}
+###### Proposition
+
+The canonical inclusion $i$ of the category of ordinary [[Cartesian spaces]] into that of [[formal manifold|formal]] [[Cartesian spaces]]
+has a [[left adjoint]] $\Re$
+
+$$
+  CartSp 
+    \underoverset
+      {\underset{\Re}{\longleftarrow}}
+      {\overset{i}{\hookrightarrow}}
+      {\phantom{AAAA}}
+  FormalCartSp
+$$
+
+given by 
+
+$$
+  \Re(\mathbb{R}^n \times \mathbb{D}) \coloneqq \mathbb{R}^n
+  \,.
+$$
+
+Hence exhibits $CartSp$ as a [[coreflective subcategory]] of that of formal cartesian spaces.
+
+We say that $\mathbb{R}^n$ is the **[[reduced scheme]]** of $\mathbb{R}^n \times \mathbb{D}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the [[natural isomorphism]] on [[hom-sets]] that characterizes a pair of [[adjoint functors]]:
+
+By definition, a morphism of the form
+
+$$
+  f \;\colon\; i(\mathbb{R}^{n_1}) \longrightarrow \mathbb{R}^{n_2} \times \mathbb{D}
+$$
+
+is equivalently a [[homomorphism]] of [[commutative algebras]] of the form
+
+$$
+  f^\ast 
+   \;\colon\;
+  C^\infty(\mathbb{R}^{n_1}) 
+    \longleftarrow
+  C^\infty(\mathbb{R}^{n_2}) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
+$$
+
+where all elements $v \in V$ are nilpotent, in that there exists $n_v \in \mathbb{N}$
+such that $(v)^{n_v} = 0$. Every algebra homomorphism needs to preserve this 
+equation, and hence needs to send nilpotent elements to nilpotent elements. But the
+only nilpotent element in the ordinary function algebra $C^\infty(\mathbb{R}^n)$
+is the zero-function, and so it follows that the above homomorphism has to vanish on all of $V$, hence has
+to factor (necessarily uniquely) through a homomorphism of the form
+
+$$
+  \tilde f^\ast 
+   \;\colon\;
+  C^\infty(\mathbb{R}^{n_1})
+    \longleftarrow
+  C^\infty(\mathbb{R}^{n_2})
+  \,.
+$$
+
+This is dually a morphism of the form
+
+$$
+  \tilde f \;\colon\; \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}
+$$
+
+in $CartSp$. This establishes a natural bijection $f \leftrightarrow \tilde f$.
 
 
 =--
 
 
 
-
-The above means that in passing to commutative superalgebras there are _two_ stages of generalizations of plain differential geometry involved:
+The above discussion following prop. \ref{AdjointCylinderOnSuperAffines} means that in passing to commutative superalgebras there are _two_ stages of generalizations of plain differential geometry involved:
 
 1. [[Cartesian spaces]] are generalized to [[formal manifold|formal]] [[Cartesian spaces]];
 
 1. [[formal manifold|formal]] [[Cartesian spaces]] are further generalized to [[super formal Cartesian spaces]].
+
+In order to make this explicit, it is convenient to introduce the following slight generalization of 
+[[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}), which are simply [[Cartesian products]]
+of ordinary [[Cartesian spaces]] with an [[infinitesimally thickened point]] that may have both even and 
+odd graded elements in its [[algebra of functions]].
+
 
 +-- {: .num_defn #SuperFormalCartSp}
 ###### Definition
@@ -480,15 +586,36 @@ where $V$ is a [[nilpotent ideal]] of [[finite number|finite]] [[dimension]] ove
 One place where such super formal Cartesian spaces are made explicit is in [Konechny-Schwarz 97](#KonechnySchwarz97)
 
 
-In conclusion we have the following situation
+In conclusion we have the following situation:
+
++-- {: .num_prop }
+###### Proposition
+
+
+The [[coreflective subcategory]] inclusion of [[Cartesian spaces]] into
+[[formal manifold|formal]] [[Cartesian spaces]] from prop. \ref{CartSpCoreflectiveInclusion}
+and the coreflective as we all [[reflective subcategory]] inclusion  
+of affine schemes into [[affine superschemes]] from prop. \ref{AdjointCylinderOnSuperAffines}
+combine to give the following system of [[adjoint functors]] on our local model spaces
 
 $$
+  \array{
+   {\text{} \atop {\text{differential} \atop \text{geometry}}}
+   &&
+   {\text{formal} \atop {\text{differential} \atop {geometry}}}
+   &&
+   {\text{super} \atop {\text{differential} \atop \text{geometry}}}
+   \\
+   \\
   CartSp
+   &
     \underoverset
       {\underset{\Re}{\longleftarrow}}
       {\overset{}{\hookrightarrow}}
       {}
+   &
   FormalCartSp
+  &
     \underoverset
       {\underset
         {
@@ -511,9 +638,23 @@ $$
         {\longleftarrow}
       }
       {\hookrightarrow}
+  &
   SuperFormalCartSp
+  }
   \,.
 $$
+
+=--
+
+
+
+
+
+
+
+
+
+
 
 
 ## Super formal smooth sets
@@ -1157,11 +1298,9 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
 
 * {#KonechnySchwarz97} Anatoly Konechny and [[Albert Schwarz]],
 
-  _On $(k \oplus l|q)$-dimensional supermanifolds_ in _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) 
-  Springer-Verlag, 1998, Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
+  _On $(k \oplus l|q)$-dimensional supermanifolds_ in [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag, 1998, Lecture Notes in Physics, 509 ,  ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
 
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
-  {#KonechnySchwarz}A summary/review is in the appendix of
 
 
 ### Supergeometry for field theories with fermions
@@ -1173,7 +1312,7 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
   [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
-* {#Freed01} [[Daniel Freed]], bottom of p. 48 in _Classical field theory and Supersymmetry_ , IAS/Park City Mathematics Series Volume 11, 2001 ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+* {#Freed01} [[Daniel Freed]], _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
 * {#GiachettaMangiarottiSardanashvily09} Giovanni Giachetta, Luigi Mangiarotti, [[Gennadi Sardanashvily]], chapter 3 of _Advanced classical field theory_, World Scientific (2009)
 
