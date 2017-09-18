@@ -66,6 +66,10 @@ A side-by-side version of the German original and the Ogden/Ramsey and Pears/McG
 
 * [Ludwig Wittgenstein: Tractatus Logico-Philosophicus Side-by-Side-by-Side Edition](http://people.umass.edu/klement/tlp/)
 
+An edition which emphasises the tree structure of the work is
+
+* [The Tractatus According to Its Own Form](http://www.lulu.com/spotlight/wittgensteinL) edited by Lucianno Bazzocchi,its [preface](http://www.bazzocchi.net/wittgenstein/tractatus/eng/preface.pdf) by Giovanna Corsi, and an [online version](http://www.bazzocchi.net/wittgenstein/tractatus/eng/index.htm).
+
 * {#Diamond00}Cora Diamond, _Ethics, imagination and the method of Wittgenstein's Tractatus_
 
 {#Wittgenstein19}Wittgenstein wrote that in a letter to Ludwig von Ficker in 1919, quoted from
