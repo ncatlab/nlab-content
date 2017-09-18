@@ -6316,15 +6316,18 @@ $$
   \,,
 $$
 
-Observe that under $\gamma$ the total top [[zig-zag]] in this diagram gives
+Now by the definition of the lax monoidal structure above, under $\gamma$ the total top+stair-case [[zig-zag]] in this diagram gives
 
 $$
   (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
-  \to \gamma(X\otimes Y)\otimes^L \gamma(Z)
+    \longrightarrow
+  \gamma(X\otimes Y)\otimes^L \gamma(Z)
+    \longrightarrow
+  \gamma((X\otimes Y)\otimes Z)
   \,.
 $$
 
-Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (def.\ref{MonoidAxiom}, but not in general by the [[pushout-product axiom]]!), the horizontal maps in the square in the bottom right (labeled $\star$) are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place (meaning that all morphisms going to the left are weak equivalences), and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
+Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}, but not in general by the [[pushout-product axiom]]!), the horizontal maps in the square in the bottom right (labeled $\star$), as well as the vertical morphism on the top right are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place (meaning that all morphisms going to the left are weak equivalences), and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
 
 $$
   \gamma((p_X \otimes p_Y) \otimes p_Z) 
@@ -6342,15 +6345,35 @@ $$
   \,.
 $$
 
-The associativity condition on a [[lax monoidal functor]] demands that together with the [[associator]] $\alpha$ of $\mathcal{C}$ and the derived associator $\alpha^L$, these morphisms form a [[commuting square]]
+The associativity condition on a [[lax monoidal functor]] demands that together with the [[associator]] $\alpha$ of $\mathcal{C}$ and the derived associator $\alpha^L$ from above, these morphisms form a [[commuting square]] of the form
 
 $$
   \array{
+    (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
+    &\overset{\alpha^L_{\gamma(X), \gamma(Y), \gamma(Z)}}{\longrightarrow}&
+    ( \gamma(X) \otimes^L ( \gamma(Y) \otimes^L \gamma(Z) )  )
+    \\
+    {}^{\mathllap{
+      \gamma((p_X \otimes p_Y) \otimes p_Z) 
+      \circ 
+      \gamma((j_{Q X} \otimes j_{Q Y}) \otimes j_{Q Z})^{-1}
+    }}
     \downarrow
-    &&
+      &&
+    \downarrow^{\mathrlap{
+      \gamma(p_X \otimes (p_Y \otimes p_Z)) 
+      \circ 
+      \gamma( j_{Q X} \otimes (j_{Q Y} \otimes j_{Q Z}))^{-1}
+    }}
+    \\
+    \gamma( (X\otimes Y) \otimes Z )
+      &\underset{\gamma( \alpha_{X,Y,Z} )}{\longrightarrow}&
+    \gamma( X \otimes (Y \otimes Z) )
   }
+  \,.
 $$
 
+But by the commuting squares that $\alpha^L$ sits in by the construction above, applying $\gamma$, hence applying $P Q(-)$, intertwines $\alpha^L$ with $\alpha$ and this is precisely the condition expressed here.
 
 =--
 
