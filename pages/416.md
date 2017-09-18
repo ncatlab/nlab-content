@@ -100,7 +100,7 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
 * [[copower]], [[(∞,1)-copower]]
 
-* **power**
+* [[pullback-power]]
 
 ## References
 
