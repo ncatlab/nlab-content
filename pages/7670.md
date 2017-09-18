@@ -1,4 +1,4 @@
-__Saharon Shelah__ is a leading [[model theory|model theorist]]. He developed the classification theory, introduced [[stability theory]], [[abstract elementary class]]es, and [[Galois type]]s in particular. 
+__Saharon Shelah__ is a leading [[model theory|model theorist]]. He developed the classification theory, introduced [[stability theory]], [[abstract elementary class]]es, and [[Galois type]]s in particular. He is also the creator of [[pcf theory]], among other things. 
 
 Shelah's articles are numerated and often referred to according to this numeration.
 
