@@ -96,6 +96,9 @@ and meant to be a formalization of this part of the "[[objective logic]]", see a
 [[!redirects extensive and intensive]]
 [[!redirects extensive and intensive quantities]]
 
+[[!redirects intensive and extensive quantity]]
+[[!redirects extensive and intensive quantity]]
+
 [[!redirects intensive]]
 [[!redirects intensive quantity]]
 [[!redirects intensive quantities]]
