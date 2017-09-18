@@ -157,7 +157,7 @@ It need not be the case that products of connected objects are connected. For ex
 We do have the following partial result, generalizing the case of $Top$. 
 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #prod} 
 ######Theorem 
 
 Suppose $C$ is a cocomplete $\infty$-[[extensive category]] with 
@@ -180,6 +180,11 @@ $$\sum_{y \colon 1 \to Y} X \times y \cong X \times \sum_{y \colon 1 \to Y} 1 \t
 
 is epic (by the assumptions that $1$ is a [[separator]] and $X \times -$ preserves epis), and this map factors through $\phi$. It follows that the codomain $X \times Y$ of $\phi$ is also connected. 
 
+=-- 
+
++-- {: .num_remark #prod2} 
+###### Remark 
+The same method of proof shows that for an arbitrary family of connected spaces $\{X_\alpha\}_{\alpha \in A}$, the connected component of a point $x = (x_\alpha)$ in the product space $X = \prod_{\alpha \in A} X_\alpha$ contains at least all those points which differ from $x$ in at most finitely many coordinates. However, the set of such points is dense in $\prod_{\alpha \in A} X_\alpha$, so $\prod_{\alpha \in A} X_\alpha$ must also be connected. 
 =-- 
 
 
