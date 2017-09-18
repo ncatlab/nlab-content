@@ -41,6 +41,7 @@ In ([Castellani 05](#Castellani05)) it is
 implicitly shown, ([FSS 13](#FSS13)), that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
 
 ### As an 11-dimensional boundary condition for the M2-brane
+ {#AsAn11DimensionalBoundaryCondition}
 
 The original construction in ([D'Auria-Fre 82](#DAuriaFre82)) asks for a [[super Lie algebra]] [[Lie algebra extension|extension]] $\mathbb{R}^{10,1\vert 32} \rtimes \mathfrak{g}$ of [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert 32}$ such that the 4-[[cocycle]] $\mu_4 = \overline{\psi} \wedge \Gamma^{a b} \psi \wedge e_a \wedge e_b$ for the M2-brane trivializes when pulled back to this:
 
@@ -132,6 +133,8 @@ Discussion of a formulation in terms of [[octonions]] (see also at _[[division a
 Arguments that the charges of the M-theory super Lie algebra may be identified inside [[E11]] are given in 
 
 * [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
+
+* [[Paul Cook]], around p. 75 of _Connections between Kac-Moody algebras and M-theory_ ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
 [[!redirects M-theory Lie algebra]]
 
