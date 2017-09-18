@@ -369,6 +369,9 @@ Textbook accounts include
 
 * {#KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
 
+* [[Stefan Schwede]], chapter II, section 6 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
+
 A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
 
 * [[John Baez]], [TWF 149](http://math.ucr.edu/home/baez/twf_ascii/week149) 
