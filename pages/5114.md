@@ -101,7 +101,7 @@ $$
   C : sAb \to Ch_\bullet^+
 $$
 
-from abeliam [[simplicial group]]s to connective [[chain complex]]es is Frobenius, as is the normalzed chains complex functor
+from abelian [[simplicial group]]s to connective [[chain complex]]es is Frobenius, as is the normalzed chains complex functor
 
 $$
   N : sAb \to Ch_\bullet^+
