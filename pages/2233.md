@@ -59,13 +59,21 @@ See
 Fix a [[base ring]] $R$, and let $C$ be the [[symmetric monoidal category|symmetric monoidal]] $n$-category of $n$-$R$-modules.
 
 An $n$-extended $C$-valued TQFT of dimension $d$ is a symmetric $n$-tensor functor $Z: n Cob_d \rightarrow C$ that maps
+
 * smooth compact oriented $d$-manifolds to elements of $R$
+
 * smooth compact oriented $(d-1)$-manifolds to $R$-modules
+
 * cobordisms of smooth compact oriented $(d-1)$-manifolds to $R$-linear maps between $R$-modules
+
 * smooth compact oriented $(d-2)$-manifolds to $R$-linear [[additive categories]]
+
 * cobordisms of smooth compact oriented $(d-2)$-manifolds to functors between $R$-linear categories
+
 * etc ...
+
 * smooth compact oriented $(d-n)$-manifolds to $R$-linear $(n-1)$-categories
+
 * cobordisms of smooth compact oriented $(d-n)$-manifolds to $(n-1)$-functors between $R$-linear $(n-1)$-categories
 
 with compatibility conditions and gluing formulas that must be satisfied... For instance, since the functor $Z$ is required to be monoidal, it sends monoidal units to monoidal units. Therefore, the $d$-dimensional [[vacuum]] is mapped to the unit element of $R$, the $(d-1)$-dimensional vacuum to the $R$-module $R$, the $(d-2)$-dimensional vacuum to the category of $R$-modules, etc.
@@ -85,8 +93,11 @@ $n=1$ gives ordinary [[TQFT]].
 The most common case is when $R = \mathbb{C}$ (the [[complex numbers]]), giving unitary ETQFT.
 
 The most common cases for $C$ are
+
 *  $C = n Hilb(R)$, the category of $n$-[[n-Hilbert space|Hilbert spaces]] over a topological field $R$. As far as we know this is only defined up to $n=2$.
+
 *  $C = n Vect(R)$, the category of $n$-[[n-vector space|vector spaces]] over a field $R$.
+
 *  $C = n Mod(R)$, the (conjectured?) category of $n$-[[n-module|modules]] over a commutative ring $R$.
 
 3d: [[Turaev-Viro model]]
