@@ -41,6 +41,8 @@ _Geometric quantization via push-forward_  or _$Spin^{\mathbb{C}}$-quantization_
 
 ## Related concepts
 
+* [[metaplectic quantization]]
+
 [[!include orientations in higher quantization - table]]
 
 
