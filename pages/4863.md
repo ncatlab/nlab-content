@@ -31,7 +31,7 @@
 
 ## Idea
 
-The _Kaluza-Klein mechanism_ is the observation that pure [[gravity]] on a [[Cartesian product|product]] [[spacetime]] $X \times F$ with fixed [[metric]] $g_F$ on $F$ looks on $X$, as an [[effective field theory]], like [[gravity]] coupled to [[Yang-Mills theory]] -- [[Einstein-Yang-Mills theory]] -- for [[gauge group]] $G$ the [[Lie group]] of [[isometries]] of $(F,g_F)$.  In particular for $F = S^1$ the [[circle]], it yields [[electromagnetism]] coupled to [[gravity]] (and a [[dilaton]]) -- [[Einstein-Maxwell theory]].
+The _Kaluza-Klein mechanism_, named after [[Theodor Kaluza]] and [[Oskar Klein]], is the observation that pure [[gravity]] on a [[Cartesian product|product]] [[spacetime]] $X \times F$ with fixed [[metric]] $g_F$ on $F$ looks on $X$, as an [[effective field theory]], like [[gravity]] coupled to [[Yang-Mills theory]] -- [[Einstein-Yang-Mills theory]] -- for [[gauge group]] $G$ the [[Lie group]] of [[isometries]] of $(F,g_F)$.  In particular for $F = S^1$ the [[circle]], it yields [[electromagnetism]] coupled to [[gravity]] (and a [[dilaton]]) -- [[Einstein-Maxwell theory]].
 
 When applied to [[supergravity]] then this mechanism produces not just [[force]] fields but also [[fermion|fermionic]] [[matter]] in the resulting [[effective field theory]], hency yields [[Einstein-Yang-Mills-Dirac theory]], see the examples below at _[KK-reduction of 11d Supergravity](#KKReductionOf11dSupergravity)_. As such the KK-mechanism is not unlike the idea of [[geometrodynamics]], according to which fundamentally there is only [[dynamics|dynamical]] [[spacetime]] geometry in the form of [[gravity]] with all matter and other forces being special incarnations of this.
 
