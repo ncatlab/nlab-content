@@ -441,16 +441,18 @@ In theorem 5.1.1 of
 
 * [[Alfred Frölicher]], [[Andreas Kriegl]], _Linear spaces and differentiation theory_, Wiley 1988. 
 
-the [[convenient vector space]] of Schwartz distributions of compact support is characterized by a [[monad|monadic]] construction.
+the [[convenient vector space]] of Schwartz distributions [[compactly supported distribution|of compact support]] is characterized by a [[monad|monadic]] construction.
 In generalization of this, an abstract formalization of distributions in [[category theory]]/[[universal algebra]] is discussed in 
 
-* {#Kock11} [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952))
- 
+* {#Kock11} [[Anders Kock]], _Commutative monads as a theory of distributions_ ([arxiv/1108.5952](http://arxiv.org/abs/1108.5952)) 
 
 following the formalization of "[[intensive and extensive]]" in 
 
 * {#Lawvere86} [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
- 
+
+Other [[sheaf theory|sheaf theoretic]] discussion of distributions as morphisms between [[smooth spaces]] is in 
+
+* {#Paugam12} [[Frédéric Paugam]], section 3.2 of _Towards the mathematics of quantum field theory_, 2012 ([pdf](https://webusers.imj-prg.fr/~frederic.paugam/documents/enseignement/master-mathematical-physics.pdf)) 
 
 Application of distributions in [[perturbative quantum field theory]] is discussed in
 
