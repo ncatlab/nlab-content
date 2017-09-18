@@ -19,9 +19,12 @@
 
 ## Idea
 
-_Wick's lemma_ is a combinatorial formula for the [[moments]] of [[Gaussian probability distributions]].
+_Wick's lemma_ is a [[combinatorics|combinatorial]] formula for the [[moments]] of [[Gaussian probability distributions]]. 
 
-In the context of [[quantum field theory]] Gaussian integrals appear as [[path integrals]] of free field theories and Wick's lemma provides a way to compute quantum [[observables]]. In the context of [[BV-quantization]] Wick's lemma is a consequence of the [[homological perturbation lemma]].  ([Gwilliam, section 2.3](#Gwilliam)).
+In the context of [[quantum field theory]] Gaussian integrals appear as [[path integrals]] of free field theories and Wick's lemma provides a way to compute quantum [[observables]]. The [[combinatorics]] of Wick's theorem is then embodied in [[Feynman diagrams]], see there for more.
+
+
+In the context of [[BV-quantization]] Wick's lemma is a consequence of the [[homological perturbation lemma]].  ([Gwilliam, section 2.3](#Gwilliam)).
 
 ## Related concepts
 
@@ -31,10 +34,12 @@ In the context of [[quantum field theory]] Gaussian integrals appear as [[path i
 
 ## References
 
+* Wikipedia, _[Wick's theorem](https://en.wikipedia.org/wiki/Wick%27s_theorem)_
+
 Discussion of Wick's lemma as a consequence of the [[homological perturbation lemma]] for [[BV-complexes]] is in section 2.3 of
 
-* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
- {#Gwilliam}
+* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ 
 
 [[!redirects Wick lemma]]
 [[!redirects Wick's theorem]]
