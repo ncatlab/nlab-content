@@ -141,3 +141,5 @@ Discussion in the context of [[higher algebra]] ([[brave new algebra]]) is in
 [[!redirects logarithmic algebraic geometry]]
 [[!redirects log-scheme]]
 [[!redirects log-schemes]]
+[[!redirects log-ring]]
+[[!redirects log-rings]]
