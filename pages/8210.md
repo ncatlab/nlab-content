@@ -2,4 +2,8 @@
 
 * [webpage](http://wwwphy.princeton.edu/~ssgubser/)
 
+## related $n$Lab entries
+
+* [[p-adic AdS-CFT]]
+
 category: people
