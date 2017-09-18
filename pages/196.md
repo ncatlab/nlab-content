@@ -57,9 +57,18 @@ If we regard sets as [[discrete categories]], then a **function** is a [[functor
 
 One can also speak of functions between proper [[classes]], although the precise details may vary depending on the status of classes with respect to the formal theory. 
 
-In [[ZFC]] for example, proper classes are by design not formal objects in the theory; rather they are proxied by a formula in the language (for instance, the class $V$ of all sets is proxied by the formula $x = x$; intuitively we may think of $V$ as consisting of all $x$ satisfying that formula). In that case a function between classes is (to be continued). 
+In [[ZFC]] for example, proper classes are by design not formal objects in the theory; rather they are proxied by a formula in the language (for instance, the class $V$ of all sets is proxied by the formula $x = x$; intuitively we may think of $V$ as consisting of all $x$ satisfying that formula). Then functions $f: A \to B$ between classes are again classes given by suitable formulas; see for example the MathOverflow discussion [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes). If (as described above for material set theory) one wants to describe a function as an ordered triple $(A, f, B)$, then this too can be accommodated if one defines ordered triples/pairs of classes appropriately; see [here](/nlab/show/ordered+pair#class) for one possibility. Thus functors between categories whose objects and morphisms form proper classes can similarly be described in the language. 
 
-See the MathOverflow discussion: [what-are-maps-between-proper-classes](http://mathoverflow.net/questions/63265/what-are-maps-between-proper-classes)
+Such technical hacks can be avoided by choosing a different foundations. For example, Mac Lane in his [[Categories for the Working Mathematician]] assumes ZFC with a [[universe]] in which some sets are considered large, such as the set of small sets, so that a category like $Set$ (the category of small sets) is again a formal object of the theory. 
+
+## Related terms 
+
+In mathematical writing "assignment" is usually synonymous with _[[function]]_ or _[[map]]_ or "mapping". For example one might speak of "assigning to each positive number its square root" to refer to the function $\sqrt{(-)} \colon \mathbb{R}_{\geq 0} \to \mathbb{R}$. 
+
+Authors may resort to verb forms such as "assigns" or "associates" or "sends" in informal writing, perhaps to avoid the bother of specifying an axiomatic framework in which a formal notion like "function" is ensconced. For example, according to Wikipedia, Jacobson defines a functor $F: C \to D$ between categories as a "mapping" that "associates" to each object $X$ in $C$ an object $F(X)$ in $D$, etc. No clarity would be gained by making this any more formal. 
+
+Sometimes the word "assignment" is understood more generally as _[[relation]]_, often when authors define a function to be something that "assigns unique values" (for instance  [here](https://books.google.de/books?id=jYniBQAAQBAJ&pg=PA27&lpg=PA27&dq=function+map+assignment+mathematics&source=bl&ots=2aHFjcZ3c9&sig=1HkugZIeSQdnV70U5gjSx_H21ug&hl=en&sa=X&ved=0ahUKEwjpxuPey6nUAhWIfhoKHe9BDy0Q6AEIVTAJ#v=onepage&q=function%20map%20assignment%20mathematics&f=false)). 
+
 
 ## Examples
 
@@ -123,3 +132,4 @@ Special properties these may have:
 
 [[!redirects total function]]
 [[!redirects total functions]]
+[[!redirects assignment]]
