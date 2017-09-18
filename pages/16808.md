@@ -5,8 +5,29 @@
 
 ## Idea
 
-If $X$ is a [[metric space]], we can construct a version of its [[Cauchy completion]] as a [[locale]], by taking as basic opens formal symbols $B_\delta(x)$ representing [[open balls]], and imposing relations ensuring that the points are [[Cauchy filters]].  (We can equivalently regard $X$ as a [[Lawvere metric space]] and build a locale whose points are "Cauchy [[profunctors]]".)  This is the **localic completion** of $X$.
+If $X$ is a [[metric space]], we can construct a version of its [[complete space|Cauchy completion]] as a [[locale]], by taking as basic opens formal symbols $B_\delta(x)$ representing [[open balls]], and imposing relations ensuring that the points are [[Cauchy filters]].  (We can equivalently regard $X$ as a [[Lawvere metric space]] and build a locale whose points are "Cauchy [[profunctors]]".)  This is the **localic completion** of $X$.
 
+## Definition
+
+Consider the collection of "formal balls" $B(x,\delta)$, where $x\in X$ and $\delta\in\mathbb{Q}^+$ (technically this is just another notation for the ordered pair $(x,\delta)\in X\times \mathbb{Q}^+$).  We say:
+
+* $B(x,\delta)\le B(y,\epsilon)$ if $d(x,y)+\delta\le\epsilon$
+* $B(x,\delta)\lt B(y,\epsilon)$ if $d(x,y)+\delta\lt\epsilon$
+
+The localic completion of $X$ is the [[locale]] presented by [[generators]] $B(x,\delta)$ and relations:
+
+1. If $B(x,\delta)\le B(y,\epsilon)$ (as above) then $B(x,\delta)\le B(y,\epsilon)$ (in the locale)
+2. $\top = \bigvee_{x\in X} B(x,\epsilon)$ for any $\epsilon$
+3. $B(x,\delta)\cap B(y,\epsilon) = \bigvee \{ B(z,\eta) \mid B(z,\eta) \le B(x,\delta) \text{ and } B(z,\eta) \le B(y,\epsilon) \}$
+4. $B(x,\delta) = \bigvee \{ B(y,\epsilon) \mid B(y,\epsilon) \lt B(x,\delta) \}$
+
+[Vickers](#VickersI) combines conditions (3) and (4) into:
+
+* $B(x,\delta)\cap B(y,\epsilon) = \bigvee \{ B(z,\eta) \mid B(z,\eta) \lt B(x,\delta) \text{ and } B(z,\eta) \lt B(y,\epsilon) \}$
+
+On the other hand, condition (3) makes sense for any poset of generators replacing $\{B(x,\delta)\}$, and simply says that we regard the generators as a [[base]] rather than a [[subbase]].  Since the elements of a [[formal topology]] automatically form a base, [Palmgren](#Palmgren) (who works with formal topologies) can omit condition (3).
+
+When interpreted as a [[geometric theory]], conditions (1)--(4) say that the localic completion of $X$ is the [[classifying locale]] for [[Cauchy filters]] in $X$ that are additionally *rounded* (condition (4)).
 
 ## Examples
 
@@ -23,7 +44,12 @@ We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or 
 ## References
 
 * [[Steve Vickers]], "Localic Completion Of Generalized Metric Spaces I", [TAC](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
+{#VickersI}
 
 * [[Steve Vickers]], "Localic Completion Of Generalized Metric Spaces II: Powerlocales", [pdf](http://www.cs.bham.ac.uk/~sjv/LocCompPower.pdf)
 
 * [[Simon Henry]], *Localic Metric spaces and the localic Gelfand duality*, [arXiv](http://arxiv.org/abs/1411.0898)
+
+* [[Erik Palmgren]], *A constructive and functorial embedding of locally compact metric spaces into locales*
+{#Palmgren}
+
