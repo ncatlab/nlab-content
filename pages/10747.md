@@ -173,6 +173,8 @@ Technically, the issue comes down to the fact that the [[quotients]] of [[symmet
 
 ## Related concepts
 
+* [[free symmetric spectrum]]
+
 [[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
 
 * **symmetric spectrum**, [[model structure on symmetric spectra]]
