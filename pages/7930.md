@@ -1022,7 +1022,7 @@ Under this identification the operation of trace reversal from def. \ref{TraceRe
 corresponds to _time reversal_ in that
 
 $$
-  \widetlde{
+  \widetilde{
   \left(
     \array{
       x_0 + x_1 & y
