@@ -88,6 +88,12 @@ Given a [[category]] $\mathcal{C}$ one may ask for the [[universal construction|
 
 * [[idempotent semiring]]
 
+## References
+
+Formalization in [[homotopy type theory]]:
+
+* {#Shulman14} [[Mike Shulman]], _[Splitting idempotents](http://homotopytypetheory.org/2014/12/08/splitting-idempotents/)_ 
+
 [[!redirects idempotent]]
 [[!redirects idempotents]]
 [[!redirects idempotent element]]
