@@ -36,6 +36,8 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[Coleman-De Luccia instanton]]
 
+* [[membrane instanton]]
+
 ## Related concepts
 
 * [[instanton sector]]
@@ -100,9 +102,14 @@ The study of M-brane instantons originates around
 
 * {#BeckerBeckerStrominger95} [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Fivebranes, Membranes and Non-Perturbative String Theory_, Nucl.Phys.B456:130-152,1995 ([arXiv:hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
 
-Specifically [[membrane]]/[[M2-brane]] instantons are further discussed in
+Specifically [[membrane instantons]] are further discussed in
 
 * [[Jeffrey Harvey]], [[Gregory Moore]], _Superpotentials and Membrane Instantons_ ([arXiv:hep-th/9907026](http://arxiv.org/abs/hep-th/9907026))
+
+and 5-brane instantons in
+
+* [[Edward Witten]], _Non-Perturbative Superpotentials In String Theory_, Nucl.Phys.B474:343-360,1996 ([arXiv:hep-th/9604030](http://arxiv.org/abs/hep-th/9604030))
+
 
 In the context of [[F-theory]] and [[M5-brane]] instantons:
 
