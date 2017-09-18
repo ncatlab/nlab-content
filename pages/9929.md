@@ -105,7 +105,7 @@ Complex orientation in the [above](#Definition) sense is indeed universal [[MU]]
 +-- {: .num_prop #ComplexOrientationIsMUAlgebraStructure}
 ###### Proposition
 
-For $E$ an [[E-∞ ring]] then there is a [[bijection]] between [[equivalence classes]] of complex orientations of $E$-cohomology and [[E-∞ ring]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]], hence equivalence classes of choices of $MU$-[[E-∞ algebra]] structure on $E$ 
+For $E$ an [[E-∞ ring]] then there is a [[bijection]] between [[equivalence classes]] of complex orientations of $E$-cohomology and [[E-∞ ring]]-[[homomorphisms]] $MU \longrightarrow E$ out of [[MU]], hence equivalence classes of choices of $MU$-[[E-∞ algebra]] structures on $E$.
 
 =--
 
@@ -261,6 +261,67 @@ of $E^\bullet(B U(n))$ with the [[cyclic group]]-[[invariants]] in $E^\bullet((B
 
 Use [this proposition](ordinary+homology+spectra+split#WhenGeneralizedHomologySpectraSplit) to reduce to the situation for ordinary [[Chern classes]]. (e.g. [Lurie 10, lecture 4](#LurieLecture))
 
+### Canonical orientation on complex vector bundles
+
+The follows says that complex oriented cohomology theories in the sense of def. \ref{ComplexOrientation}, indeed canonically have an [[orientation in generalized cohomology]] for the ([[spherical fibration]] of) any [[complex vector bundle]].
+
++-- {: .num_prop #ThomSpaceOfZetan}
+###### Proposition
+
+For $E$ any [[cohomology theory]] and $n \in \mathbb{N}$, $n \geq 1$, there is a canonical [[isomorphism]] of [[relative cohomology]]
+
+$$
+  E^\bullet(B U(n), B U(n-1))
+  \simeq
+  E^\bullet( B( \zeta_n), S( \zeta_n) )
+  \,,
+$$
+
+where $\zeta_n \coloneqq E U(n) \underset{U(n)}{\times} \mathbb{R}^{2n}$ is the [[universal complex vector bundle]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the [[sphere bundle]] $S(\zeta_n) \to B U(n)$ of the [[universal complex vector bundle]] is equivalently the canonical map $B U(n-1) \to B U(n)$. 
+
+This follows form the fact that $S^{2n-1} \simeq U(n)/U(n-1)$ and that hence the unit sphere bundle is equivalently the quotient of the $U(n)$-[[universal principal bundle]] by $U(n-1)$
+
+$$
+  \array{
+    U(n) &\longrightarrow& \ast
+    \\
+    && \downarrow
+    \\
+    && B U(n)
+  }
+  \;\;\;\; \stackrel{}{\mapsto}\;\;\;\;
+  \array{
+     S^{2n-1} \simeq & U(n)/U(n-1) &\longrightarrow& B U(n-1) 
+     \\
+     & && \downarrow 
+     \\
+     & &&  B U(n)
+  }
+  \,.
+$$
+
+The unit ball bundle $B(\zeta_n)$ is weakly equivalent to $B U(n)$, and under this identification the map $S(\zeta_n) \to B(\zeta_n)$ is equivalent to $B U(n-1) \to B U(n)$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $E$ a complex oriented cohomology theory,
+its $n$th [[generalized Chern class]] $c^E_n$, prop. \ref{CohomologyRingOfBUn}, identified as an element of 
+$E^\bullet(B(\zeta_n), S(\zeta_n))$ via prop. \ref{ThomSpaceOfZetan},
+is a [[Thom class]].
+
+=--
+
+(e.g. [Lurie 10, lecture 5, prop. 6](#LurieLecture))
 
 ## Related concepts
 
