@@ -37,7 +37,7 @@ $$
   \,.
 $$
 
-Such a functor takes the single object of $\mathbf{B}G$ to some vector space $V$ and takes every morphism $(* \stackrel{g}{\to} * )$ in $\mathbf{B}G$ labeled by an element $g \in G$ to a linear [[automorphism]] $\rho(g) : V \to V$ such that composition and te identity is respected. We have an [[equivalence of categories]]
+Such a functor takes the single object of $\mathbf{B}G$ to some vector space $V$ and takes every morphism $(* \stackrel{g}{\to} * )$ in $\mathbf{B}G$ labeled by an element $g \in G$ to a linear [[automorphism]] $\rho(g) : V \to V$ such that composition and the identity is respected. We have an [[equivalence of categories]]
 
 $$
   Func(\mathbf{B}G, k Vect) \simeq Rep_k(G)
@@ -149,7 +149,7 @@ $$
 
 of an algebraic group is a representation of $G$ on a vector space. 
 
-But also here we may allow the represented structure to have more than one object. For instance for $X$ any [[scheme]] regarded as an object in $Sh_{(2,1)}(C)$ a representation of $X$ in the contxt of $QC$ is a morphism
+But also here we may allow the represented structure to have more than one object. For instance for $X$ any [[scheme]] regarded as an object in $Sh_{(2,1)}(C)$ a representation of $X$ in the context of $QC$ is a morphism
 
 $$
   \rho : X \to QC
@@ -164,7 +164,7 @@ $$
   \rho : K \to QC
 $$
 
-assigns to each point of $K_0$ a reprresentatin space, such that these glue together to a quasicoherent sheaf of modules, and to each [[morphism]] in $K$ a morphism between the corresponding representation spaces, as before.
+assigns to each point of $K_0$ a representation space, such that these glue together to a quasicoherent sheaf of modules, and to each [[morphism]] in $K$ a morphism between the corresponding representation spaces, as before.
 
 
 Analogous constructions are available for more general sites, effectively we can take $C$ to be the [[opposite category]] of $T$-[[algebras over a Lawvere theory]] for $T$ any [[algebraic theory]] that contains the theory of [[abelian group]]s. If for instance we take $T =$ [[CartSp]] we are back to the smooth case discussed before.
@@ -179,7 +179,7 @@ This way of thinking of representations has an immediate generalization to [[hig
 
 To start with the simple discussion over the point again, a model for a notion of a category of $\infty$-modules that is useful is an [[(∞,1)-category]] $Ch_\bullet(k)$ that is [[presentable (∞,1)-category|presented]] by a [[model structure on chain complexes]].
 
-If again $G$ is a [[discrete group]], then an  [[(∞,1)-functor]] (equivalently: a "strong homotopy-functor" or ""homotopy cohernt functor, see there for details)
+If again $G$ is a [[discrete group]], then an  [[(∞,1)-functor]] (equivalently: a "strong homotopy-functor" or ""homotopy coherent functor, see there for details)
 
 $$
   \rho : \mathbf{B}G \to Ch_\bullet(k)
@@ -195,7 +195,7 @@ assigns
 
   $\rho(g,g') : \rho(g')\circ\rho(g) \Rightarrow \rho(g' g)$;
 
-* to a triple of group elements a homotopy of homotopies between compoisites of $\rho(g,g'), \rho(g,g'')$ and $\rho(g',g'')$ and so on
+* to a triple of group elements a homotopy of homotopies between composites of $\rho(g,g'), \rho(g,g'')$ and $\rho(g',g'')$ and so on
 
   (see the diagrams at [[group cohomology]] for more details in low degree).
 
@@ -210,7 +210,7 @@ $$
 
 an $\infty$-representation of $K$.
 
-If we wish to consider $\infty$-generalizations of [[permutation representation]]s we can also conider more general codomain $(\infty,1)$-categories here. For instance if we take [[∞Grpd]] itself, then an  $\infty$-permutation representation
+If we wish to consider $\infty$-generalizations of [[permutation representation]]s we can also consider more general codomain $(\infty,1)$-categories here. For instance if we take [[∞Grpd]] itself, then an  $\infty$-permutation representation
 
 $$
   K \to \infty Grpd
