@@ -1,4 +1,6 @@
 
+> This entry is about the concept in [[category theory]]. For the [[core of a ring]] see there.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
