@@ -121,11 +121,14 @@ such that
 
 =--
 
-This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)) except for statemens concerning possible further [[closed monoidal category]] structure. There this is called "symmetric monoidal structure compatible with the triangulation".
+This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)) except for statements concerning possible further [[closed monoidal category]] structure. There this is called "symmetric monoidal structure compatible with the triangulation".
 
 In ([Balmer 05, def. 1.1](#Balmer05)) the terminology "tensor triangulated category" is said to refer to a symmetric monoidal triangulated category such that "tensor product is exact in each variable", without further specification. Similarly for instance in ([Stevenson 11, Introduction](#Stevenson11)). But ([Balmer 05, p. 2](#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories". In sources like ([Stevenson 11](#Stevenson11)) furthermore $ V \otimes (-)$ is required to preserve [[direct sums]]. 
 
 
+## Examples
+
+* The archetypical example is the [[stable homotopy category]] equipped with the [[smash product of spectra]]. For details ssee at _[[model structure on orthogonal spectra]]_ the section _[The monoidal stable homotopy category](model+structure+on+orthogonal+spectra#TheMonoidalStableHomotopyCategory)_.
 
 ## Related concepts
 
