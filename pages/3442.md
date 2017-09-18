@@ -33,11 +33,13 @@ $$
     \\
     & \searrow && \swarrow
     \\
-    && \mathbf{\Pi}_{inf}(X)
+    && \Im(X)
   }
 $$
 
-At least in nice cases dfor differential equations on functions on $X$ this is equivalently modeled by sub-[[Lie algebroid]]s of [[tangent Lie algebroid]]s.
+In fact there is an [[equivalence of categories]] between the [[Eilenberg-Moore category]] of the [[jet comonad]] over $X$ and the category of partial differential equations with variables in $X$ ([Marvan 86](#Marvan86)).
+
+At least in nice cases for differential equations on functions on $X$ this is equivalently modeled by sub-[[Lie algebroid]]s of [[tangent Lie algebroid]]s.
 
 $$
   \array{
@@ -156,11 +158,22 @@ In this diagram now
 
 ## References
 
+General accounts include
+
 * [[Sergiu Klainerman]], _PDE as a unified subject_ 2000 ([pdf](http://www.math.princeton.edu/~seri/homepage/papers/telaviv.pdf))
+
 * Boris Kruglikov, Valentin Lychagin, _Geometry of differential equations_, [pdf](http://www.math.uit.no/seminar/Preprints/07-01-BKVL.pdf)
+
 * Arthemy Kiselev, _The twelve lectures in the (non)commutative geometry of differential equations_, preprint IHES M/12/13 [pdf](http://preprints.ihes.fr/2012/M/M-12-13.pdf)
+
 * Yves Andre, _Solution algebras of differential equations and quasi-homogeneous varieties_, [arXiv:1107.1179](http://arxiv.org/abs/1107.1179)
+
 * [[Mikhail Gromov]], _Partial differential relations_, Ergebnisse der Mathematik und ihrer Grenzgebiete (3) [Results in Mathematics and Related Areas (3)], 9. Springer-Verlag, Berlin, 1986. x+363 pp.
+
+Characterization of the category of partial differential equations as the [[Eilenberg-Moore category]] of [[coalgebras]] over the [[jet comonad]] is due to 
+
+* {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
+
 
 A [[domain specific programming language]] for differential equations is presented in
 
