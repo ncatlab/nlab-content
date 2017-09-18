@@ -99,6 +99,8 @@ See also ([White 14](#White14), Paragraph 4.2) for more discussion.
 
 * [[model structure on monoids in a monoidal model category]]
 
+* [[commutative monoid in a symmetric monoidal (infinity,1)-category]]
+
 * [[model structure on algebras over an operad]]
 
 * [[model structure on algebras over a monad]]
@@ -119,3 +121,5 @@ See also ([White 14](#White14), Paragraph 4.2) for more discussion.
 [[!redirects model categories of commutative monoids]]
 [[!redirects model category of commutative monoids in a symmetric monoidal model category]]
 [[!redirects model categories of commutative monoids in a symmetric monoidal model category]]
+
+[[!redirects model structure on commutative monoids in a symmetric monoidal model category]]
