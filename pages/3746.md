@@ -21,7 +21,7 @@ The precise definition depends on the context.
 *  In a [[gauge space]], $\approx$ is an __entourage__ if there exists an $\epsilon$ and a gauging distance $d$ such that the preceding condition holds.
 
 *  In a [[topological abelian group]], $\approx$ is an __entourage__ if there is a [[neighbourhood]] $N$ of the identity element such that
-   $$ x/y \in N \;\implies\; x \approx_N y ,$$
+   $$ x/y \in N \;\implies\; x \approx y ,$$
    where $x,y$ are points in the metric space and $/$ is the division operation in the group.
 
 *  In a nonabelian [[topological group]], there are two distinct notions of entourage, one using the same formula as above and the other using $y/x$ in place of $x/y$.
