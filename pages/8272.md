@@ -1,4 +1,7 @@
 
+[[!redirects Nils Abel]]
+[[!redirects Niels Abel]]
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Niels_Henrik_Abel)
 
 There are many theorems which are called Abel's theorem. 
