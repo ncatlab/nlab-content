@@ -136,9 +136,8 @@ The original reference for monads as 'notions of computation' is
 
 * [[Eugenio Moggi]], _Notions of computation and monads_ Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
 
-Expositions are in
+Expositions include
  
-
 * [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
 
 * [[Philip Wadler]], _Monads for functional programming_ in _Lecture notes for the Marktoberdorf Summer School on Program Design Calculi_, Springer Verlag 1992
@@ -151,6 +150,11 @@ Expositions are in
 The specification of monads in [[Haskell]] is at
 
 * [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), _[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)_
+
+and an exposition of [[category theory]] and monads in terms of Haskell is in 
+
+* WikiBooks, _[Haskell/Category](http://en.wikibooks.org/wiki/Haskell/Category_theory)_
+
 
 Generalization from [[monads]] to [[relative monads]] is discussed in
 
