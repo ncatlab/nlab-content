@@ -1,4 +1,8 @@
 
 * [webpage](http://www.math.uni-muenster.de/u/michael.weiss/)
 
+##Related topics
+
+* [[orthogonal calculus]]
+
 category: people
