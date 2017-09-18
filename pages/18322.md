@@ -5,7 +5,7 @@
 
 ## Introduction 
 
-In this article we collect some results on colimits of paracompact Hausdorff spaces as computed in the category of topological spaces $Top$, and particular conditions under which the colimit is again paracompact and Hausdorff. 
+In this article we collect some results on [[colimits]] of [[paracompact space|paracompact]] [[Hausdorff spaces]] as computed in the category of [[topological spaces]] [[Top]], and particular conditions under which the colimit is again paracompact and Hausdorff. 
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
 
@@ -15,19 +15,19 @@ In the sequel, a *paracompactum* (pl. *paracompacta*) is a paracompact Hausdorff
 
 +-- {: .num_prop #coproduct} 
 ###### Proposition 
-The coproduct in $Top$ of a small family of paracompacta is a paracompactum. 
+The [[coproduct]] in $Top$ of a small family of paracompacta is a paracompactum. 
 =-- 
 
 The proof is very easy. See [here](https://ncatlab.org/nlab/show/paracompact+topological+space#ParacompactnessPreservedByDisjointUnion). 
 
 +-- {: .num_prop} 
 ###### Proposition 
-A closed subspace $A$ of a paracompactum $X$ is also a paracompactum. 
+A [[closed subspace]] $A$ of a paracompactum $X$ is also a paracompactum. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Let $U_\alpha$ be an open cover of $A$; note $\neg A \cup U_\alpha$ is the maximal open $V_\alpha$ in $X$ such that $U_\alpha = V_\alpha \cap A$. The $V_\alpha$ cover $X$. If $\mathcal{V}$ is a locally finite open refinement of this cover (via paracompactness of $X$), then the family $\{V \cap A: V \in \mathcal{V}\}$ is a locally finite open refinement of the family of sets $U_\alpha$. Finally, Hausdorffness is a hereditary property. 
+Let $U_\alpha$ be an [[open cover]] of $A$; note $\neg A \cup U_\alpha$ is the maximal open $V_\alpha$ in $X$ such that $U_\alpha = V_\alpha \cap A$. The $V_\alpha$ cover $X$. If $\mathcal{V}$ is a locally finite open refinement of this cover (via paracompactness of $X$), then the family $\{V \cap A: V \in \mathcal{V}\}$ is a locally finite open refinement of the family of sets $U_\alpha$. Finally, $A$ is Hausdorff because Hausdorffness is a [[hereditary property]]. 
 =-- 
 
 +-- {: .num_lemma #poclosed} 
@@ -71,7 +71,7 @@ $$\array{
 X & & & & Y
 }$$ 
 
-and that the relation is [[entire relation|entire]] if $p$ is an [[epimorphism]]. We will be working in the category $Top$, where epimorphisms are the same as surjective continuous functions. A *selection* for such a relation is by definition a [[section]] of $p$, where of course in $Top$ this means a continuous section. (In the category $Set$, the [[axiom of choice]] may be equivalently stated as saying that every entire relation admits a selection, a formulation which is sometimes credited to Peirce.) 
+and that the relation is [[entire relation|entire]] if $p$ is an [[epimorphism]]. We will be working in the category $Top$, where epimorphisms are the same as surjective continuous functions. A *selection* for such a relation is by definition a [[section]] of $p$, where of course in $Top$ this means a continuous section. (In the category $Set$, the [[axiom of choice]] may be equivalently stated as saying that every entire relation admits a selection, a formulation which is sometimes credited to [[Peirce]].) 
 
 If $X$ is a space, let $\mathcal{O} X$ denote its topology, considered as a subset of the power set $P X$. Adapting the terminology of Michael, we will say a relation $X \stackrel{p}{\leftarrow} R \stackrel{q}{\to} Y$ is *lsc* ("lower semi-continuous") if the composite 
 
@@ -160,7 +160,7 @@ the space $W$ is a paracompactum (and $k: Y \to W$ is a closed embedding, by Lem
 
 +-- {: .proof} 
 ###### Proof 
-Let $W \stackrel{p}{\leftarrow} R \stackrel{q}{\to} B$ be an entire, lsc, closed and convex relation to a Banach space $B$; by Michael's selection criterion, it suffices to show that $W$ is $T_1$ and $p$ admits a section. That $W$ is $T_1$ is easy: a point $x \in W$ either belongs to the closed subspace $Y \hookrightarrow W$ or it doesn't. If it does, then because $Y$ is Hausdorff, it is a closed point in a closed subspace, so it is a closed point in $W$. If it doesn't, then $k^{-1}(x) = \emptyset$ and $g^{-1}(x)$ is a singleton in $Z$ and thus closed in $Z$ since $Z$ is Hausdorff, so $x$ must be closed in $W$ since the pushout carries the quotient topology induced by the surjection $(k, h): Y + Z \to W$. 
+Let $W \stackrel{p}{\leftarrow} R \stackrel{q}{\to} B$ be an entire, lsc, closed and convex relation to a Banach space $B$; by Michael's selection criterion, it suffices to show that $W$ is $T_1$ and $p$ admits a section. That $W$ is $T_1$ is easy: a point $x \in W$ either belongs to the closed subspace $Y \hookrightarrow W$ or it doesn't. If it does, then because $Y$ is Hausdorff, it is a closed point in a closed subspace, so it is a closed point in $W$. If it doesn't, then $k^{-1}(x) = \emptyset$ and $g^{-1}(x)$ is a singleton in $Z$ and thus closed in $Z$ since $Z$ is Hausdorff, so $x$ must be closed in $W$ since the pushout carries the quotient topology induced by the surjection $(k, g): Y + Z \to W$. 
 
 Thus we have only to prove $p$ admits a section. Using Lemma \ref{pullback}, we pull back $(R, p, q)$ to entire, lsc, closed and convex relations to $B$ from $Y$ and from $Z$: 
 
