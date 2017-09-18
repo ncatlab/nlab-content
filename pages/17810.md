@@ -2016,7 +2016,7 @@ related to $\mathbb{Z}/2$-graded-commutative algebra, i.e. [[supercommutative su
 
 This relation is particularly interesting since there is a natural source
 of $\mathbb{Z}$-graded-commutative algebra: the commutative monoids in [[homological algebra]]
-(called [[dgca]]-s) and more generally in [[stable hmotopy theory]] (called [[homotopy commutative ring spectra]])
+(called [[dgca]]-s) and more generally in [[stable homotopy theory]] (called [[homotopy commutative ring spectra]])
 have shadows on [[chain homology]]/[[homotopy groups]] which are $\mathbb{Z}$-graded-commutative algebras.
 
 
@@ -2059,7 +2059,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Beware that there is also the concept of $\mathbb{Z$-graded objects in the category of super vector spaces,
+Beware that there is also the concept of $\mathbb{Z}$-graded objects in the category of super vector spaces,
 which is not equivalent to the concept in def. \ref{SuperZGradedVectorSpaces}.
 
 =--
@@ -2132,7 +2132,7 @@ $$
   H_\bullet
     \;\colon\;
   dgCAlg_k
-    \lognrightarrow
+    \longrightarrow
   sCAlg_k^{\mathbb{Z}}
   \,.
 $$
@@ -2228,8 +2228,8 @@ $$
 
 for all $n \in \mathbb{N}$. Since [[morphisms]] $\phi \colon N_1 \to N_2$ in $k[\beta, \beta^{-1}] Mod$
 respect the multiplication by $\beta$, they are uniquely determined by their components
-$\phi_0$ and $\phi_1$, hence by their image $\pho_{0,1}$ under the given functor, and every choice of
-components $\phi_0$ and $\phi_1$ extends to a mophism $\phi$. Hence $(-)|_{0,1}$ is [[fully faithful functor|fully faithful]].
+$\phi_0$ and $\phi_1$, hence by their image $\phi_{0,1}$ under the given functor, and every choice of
+components $\phi_0$ and $\phi_1$ extends to a morphism $\phi$. Hence $(-)|_{0,1}$ is [[fully faithful functor|fully faithful]].
 
 =--
 
@@ -2287,7 +2287,7 @@ $$
   \pi_\bullet(E) \simeq \pi_0(E)[\beta, \beta^{-1}]
 $$
 
-with $\beta$ an invertible generator in degree 2 (the [[complex oriented cohomology theory|coomplex orientation]]).
+with $\beta$ an invertible generator in degree 2 (the [[complex oriented cohomology theory|complex orientation]]).
 
 Accordingly, for $A$ an [[E-infinity algebra]] over $E$, hence an [[E-infinity ring]] equipped with
 an $E_\infty$-homomorphism $E \to A$, then its underlying $\mathbb{Z}$-graded commutative algebra
@@ -2300,7 +2300,7 @@ This is amplified in [Rezk 09, section 2](periodic+ring+spectrum#Rezk09)
 =--
 
 Beware that for this equivalence of categories in prop. \ref{ModulesOverRbeta} the action of the element
-$\beta$ is crucual. The following proposition shows that it is not sufficient to just consider
+$\beta$ is crucial. The following proposition shows that it is not sufficient to just consider
 2-periodically $\mathbb{Z}$-graded algebras:
 
 
