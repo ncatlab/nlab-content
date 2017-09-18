@@ -1,8 +1,5 @@
 [[!redirects globular]]
 
-> _This page is in development, and the tool it refers to is not yet launched. Please check back later._
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -21,13 +18,25 @@
 
 ## Introduction ##
 
-_Globular_ is a web-based [[proof assistant]] for [[semistrict]] [[globular set|globular]] [[higher categories]]. It allows one to formalize higher-categorical proofs in finitely-presented [[n-categories]], visualize them as [[string diagrams]], and share them with collaborators, or with the world.
+### Overview ###
+
+_Globular_ is a web-based [[proof assistant]] for [[semistrict]] [[globular set|globular]] [[higher categories]]. It allows one to formalize higher-categorical proofs in finitely-presented [[n-categories]], visualize them as [[string diagrams]], and share them with collaborators, or with the world. It is available at this address:
+
+* [http://globular.science](http://globular.science)
 
 It currently operates up to the level 3-categories. By the yoga of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], this also allows one to construct proofs in monoidal 2-categories and braided monoidal 1-categories. An extension to 4-categories is actively in development.
 
 The model of [[semistrict]] higher categories that _Globular_ uses puts all the weak structures in the interchangers, and higher associated structures. For [[3-categories]], this means that _Globular_ implements the axioms of a [[Gray category]].
 
 _Globular_ is free to use, and open-source. There is a lot to be done, on both a theoretical and practical level, and anybody can get involved with developing the software. If you are interested, please get in touch with [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary/). _Globular_ has been developed in the [Quantum Group](http://www.cs.ox.ac.uk/activities/quantum/) of the [Department of Computer Science](http://www.cs.ox.ac.uk/) at the [University of Oxford](http://www.ox.ac.uk/), by [Krzysztof Bar](https://www.cs.ox.ac.uk/people/krzysztof.bar/), [Aleks Kissinger](http://www.cs.ru.nl/A.Kissinger/), [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary/) and [Caspar Wylie]().
+
+### Example proofs ###
+
+To get started, look at these example proofs:
+
+* **Frobenius implies associative.**<br>[http://globular.science/1512.004](http://globular.science/1512.004)
+* **Swallowtail comes for free.**<br>[http://globular.science/1512.006](http://globular.science/1512.006)
+* **Triangle and pentagon implies $\lambda_I = \rho_I$.**<br>[http://globular.science/1512.002](http://globular.science/1512.002)
 
 ## Basic functionality
 
