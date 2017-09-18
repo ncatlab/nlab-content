@@ -82,11 +82,15 @@ Since the [[inverse function]] to this function is itself continuous,
 the torus and the coffee mug, both regarded as [[topological spaces]], are "[[isomorphism|the same]]"
 for the purposes of [[topology]], one says they are _[[homeomorphic]]_.
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/Surfaces.png" width="400">
+</div>
+
 On the other hand, there is _no_ [[homeomorphism]] from the [[torus]] to, for instance, the [[sphere]], signifying that these
 represent two topologically distinct spaces. Part of topology is concerned with studying [[homeomorphism]]-[[invariants]]
-of topological spaces which allow to detect by means of [[algebra|algebraic]] manipulations
+of topological spaces ("[[topological properties]]") which allow to detect by means of [[algebra|algebraic]] manipulations
 whether two topological spaces are homeomorphic
-(or more generally [[homotopy equivalence|homotopy equivalent]]). This is called _[[algebraic topology]]_.
+(or more generally [[homotopy equivalence|homotopy equivalent]]) or not. This is called _[[algebraic topology]]_.
 A basic algebraic invariant is the [[fundamental group]] of a topological space (discussed [below](#FundamentalGroups)),
 which measures how many ways there are to wind loops inside a topological space.
 
@@ -1363,34 +1367,38 @@ sense of [[convergence]] of [[sequences]] (prop. \ref{ConvergenceInClosedSubspac
 <img src="https://ncatlab.org/nlab/files/ClosedAndOpenSubsets.png" width="300">
 </div>
 
-Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). Then
-a [[subset]] $S$ of $X$ is called a _[[closed subset]]_ if its [[complement]] $X \backslash S$ is an  _[[open subset]]_:
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). 
 
-$$
-  \left(
-    S \subset X\,\, \text{is closed}
-  \right)
-  \phantom{AA}
-    \Leftrightarrow
-  \phantom{AA}
-  \left(
-    X\backslash S \, \subset X \,\, \text{is open}
-  \right)
-  \,.
-$$
 
-> graphics grabbed from [Vickers 89](#Vickers89)
+1. A [[subset]] $S \subset X$ is called a _[[closed subset]]_ if its [[complement]] $X \backslash S$ is an  _[[open subset]]_:
 
-If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _closed point_ of $X$.
+   $$
+     \left(
+       S \subset X\,\, \text{is closed}
+     \right)
+     \phantom{AA}
+       \Leftrightarrow
+     \phantom{AA}
+     \left(
+       X\backslash S \, \subset X \,\, \text{is open}
+     \right)
+     \,.
+   $$
 
-Given any subset $S \subset X$, then its _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$:
+   > graphics grabbed from [Vickers 89](#Vickers89)
 
-$$
-  Cl(S)
-    \;\coloneqq\;
-  \underset{ {C \subset X\, \text{closed}  }   \atop {S \subset C }  }{\cap} \left( C \right)
-  \,.
-$$
+1. If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _closed point_ of $X$.
+
+1. Given any subset $S \subset X$, then its _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$:
+
+   $$
+     Cl(S)
+       \;\coloneqq\;
+     \underset{ {C \subset X\, \text{closed}  }   \atop {S \subset C }  }{\cap} \left( C \right)
+     \,.
+   $$
+   
+1. A subset $S \subset X$ such that $Cl(S) = X$ is called a _[[dense subset]]_ of $(X,\tau)$.
 
 =--
 
@@ -1824,7 +1832,7 @@ Under these identifications, the two conditions are manifestly the same.
 
 We consider yet another equivalent characterization of irreducible closed subsets,
 prop. \ref{FrameHomomorphismsToPointAreIrrClSub} below, which will be needed in the
-discussion of the [[sepration axioms]] further [below](#SeparationAxioms).
+discussion of the [[sepatation axioms]] further [below](#SeparationAxioms).
 Stating this requires the following concept of "[[frame]]" [[homomorphism]],
 the natural kind of [[homomorphisms]] between [[topological spaces]] if we were to forget the
 underlying set of points of a topological space, and only remember the set $\tau_X$ with its
@@ -3514,6 +3522,10 @@ $$
   \,.
 $$
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/LineWithTwoOrigins.png" width="300">
+</div>
+
 The [[quotient topological space]] by this equivalence relation (def. \ref{QuotientTopologicalSpace})
 
 $$
@@ -3763,7 +3775,7 @@ This means that there must be at least one open subset which contains $x$ but no
 
 =--
 
-+-- {: .num_prop #AllPointsClosedEquivalentToT1}
++-- {: .num_prop #T1InTermsOfTopologicalClosure}
 ###### Proposition
 **($T_1$ in terms of topological closures)**
 
@@ -3830,11 +3842,9 @@ Let $(X,\tau)$ be [[topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 Consider the following conditions
 
-* **(T3)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$,
-  then there exist disjoint [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
+* **(T3)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $x \in X$ a point and $C \subset X$ a [[closed subset]] (def. \ref{ClosedSubset}) not containing $x$, then there exist disjoint [[open neighbourhoods]] $U_x \supset \{x\}$ and $U_C \supset C$.
 
-* **(T4)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset})
-  then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
+* **(T4)** The space $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace}) and for $C_1, C_2 \subset X$ disjoint [[closed subsets]] (def. \ref{ClosedSubset}) then there exist disjoint [[open neighbourhoods]] $U_{C_i} \supset C_i$.
 
 If $(X,\tau)$ satisfies $T_3$ it is said to be a _$T_3$-space_ also called a _[[regular Hausdorff topological space]]_.
 
@@ -3847,7 +3857,7 @@ Observe that:
 +-- {: .num_prop #ImplicationsAmongTheSeparationAxioms}
 ###### Proposition
 
-The separation axioms imply each other as
+The separation axioms from def. \ref{HausdorffTopologicalSpace}, def. \ref{NormalSpace} imply each other as
 
 $$
   T_4 \Rightarrow T_3 \Rightarrow T_2 \Rightarrow T_1 \Rightarrow T_0
@@ -3872,8 +3882,8 @@ $$
 $$
 
 are immediate from the definitions. The remaining implication $T_3 \Rightarrow T_2$
-follows with prop. \ref{AllPointsClosedEquivalentToT1}: This says that by assumotion of $T_1$
-then all points in $(X.\tau)$ are closed, and with this the condition $T_2$ is manifestly
+follows with prop. \ref{T1InTermsOfTopologicalClosure}: This says that by assumption of $T_1$
+then all points in $(X,\tau)$ are closed, and with this the condition $T_2$ is manifestly
 a special case of the condition for $T_3$.
 
 =--
@@ -3882,33 +3892,12 @@ Hence instead of saying "$X$ is $T_1$ and ..." one could just as well phrase
 the conditions $T_3$ and $T_4$ as "$X$ is $T_2$ and ...", which would render
 the proof of prop. \ref{ImplicationsAmongTheSeparationAxioms} even more trivial.
 
-$\,$
-
-
-+-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
-###### Lemma
-**([[shrinking lemma]])**
-
-Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
-
-Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements 
-(def. \ref{ClosedSubset}) is contained in the original patches:
-
-$$
-  \underset{i \in I}{\forall}
-  \left(
-     V_i \subset Cl(V_i) \subset U_i
-  \right)
-  \,.
-$$
-
-=--
 
 
 $\,$
 
 
-As before we have equivalent reformulations of the further separation axioms
+As before we have equivalent reformulations of the further separation axioms.
 
 **Further separation axioms in terms of topological closures**
 
@@ -3916,7 +3905,7 @@ As before we have equivalent reformulations of the further separation axioms
 ###### Proposition
 **($T_3$ in terms of topological closures)**
 
-A [[topological space]] $(X,\tau)$ is [[regular Hausdorff space]] (def. \ref{NormalSpace}), precisely if 
+A [[topological space]] $(X,\tau)$ is [[regular Hausdorff space]] (def. \ref{NormalSpace}), precisely if
 all points are closed and for all [[closed subsets]] $x \in X$ with [[open neighbourhood]] $U \supset \{x\}$ there exists a smaller open neighbourhood $V \supset \{x\}$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
 
 $$
@@ -3926,14 +3915,14 @@ $$
 
 =--
 
-The **proof** of prop. \re{T3InTermsOfTopologicalClosures} is the direct  specialization of the following proof for prop. \ref{T4InTermsOfTopologicalClosures} to the case that $C = \{x\}$ (using that by $T_1$, which is part of the definition of $T_3$, the singleton subset is indeed closed by prop. \ref{T1InTermsOfClosureOfPoints}).
+The **proof** of prop. \ref{T3InTermsOfTopologicalClosures} is the direct  specialization of the following proof for prop. \ref{T4InTermsOfTopologicalClosures} to the case that $C = \{x\}$ (using that by $T_1$, which is part of the definition of $T_3$, the singleton subset is indeed closed by prop. \ref{T1InTermsOfTopologicalClosure}).
 
 
 +-- {: .num_prop #T4InTermsOfTopologicalClosures}
 ###### Proposition
 **($T_4$ in terms of topological closures)**
 
-A [[topological space]] $(X,\tau)$ is [[normal Hausdorff space]] (def. \refNormalSpace{}), precisely if all points are closed and for all [[closed subsets]] $C \subset X$ with [[open neighbourhood]] $U \supset C$ there exists a smaller open neighbourhood $V \supset C$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
+A [[topological space]] $(X,\tau)$ is [[normal Hausdorff space]] (def. \ref{NormalSpace}), precisely if all points are closed and for all [[closed subsets]] $C \subset X$ with [[open neighbourhood]] $U \supset C$ there exists a smaller open neighbourhood $V \supset C$ whose [[topological closure]] $Cl(V)$ is still contained in $U$:
 
 $$
   C \subset V \subset Cl(V) \subset U
@@ -3986,15 +3975,9 @@ Thus $V \supset C_1$ and $X \backslash Cl(X) \supset C_2$ are two disjoint open 
 =--
 
 
-
-
 $\,$
 
-$\,$
-
-In summary:
-
-**the main [[separation axiom|Separation Axioms]]**
+In summary, **the main [[separation axioms]]** and their reformulation are the following:
 
 {#TableOfMainSeparationAxioms}
 | number | name | statement | reformulation |
@@ -4003,14 +3986,289 @@ In summary:
 | $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
 | $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
 | $T_{\gt 2}$ |  |  $T_1$ and... | all points are closed and... |
-| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given two disjoint closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset | ...every neighbourhood of a point contains the closure of an open neghbourhood |
-| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two disjoint closed subsets, both of them have open neighbourhoods not intersecting the other closed subset | ...every neighbourhood of a closed set also contains the closure of an open neighbourhood |
+| $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given a point and a closed subset not containing it, they have disjoint open neighbourhoods  | ...every neighbourhood of a point contains the closure of an open neighbourhood |
+| $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two disjoint closed subsets, they have disjoint open neighbourhoods | ...every neighbourhood of a closed set also contains the closure of an open neighbourhood |
 
 $\,$
 
 Notice that there is a whole zoo of further variants of [[separation axioms]] that are considered in the literature.
-But the above are maybe the main ones. Specifically $T_2$ = Hausdorff is the most popular one, often considered
+But the above are the main ones. Specifically $T_2$ = Hausdorff is the most popular one, often considered
 by default in the literature, when topological spaces are considered.
+
+$\,$
+
+We discuss a few more properties related to the separation axioms that we will need further below.
+
+1. the [[shrinking lemma]], lemma \ref{PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained} below;
+
+1. [[Urysohn's lemma]], prop. \ref{UrysohnLemma} below.
+
+
++-- {: .num_lemma #PatchesOfOpenCoverOfNormalSpaceMayBeMadeSmallerSoThatTheirClosuresAreContained}
+###### Lemma
+**([[shrinking lemma]])**
+
+Let $X$ be a [[topological space]] which is [[normal topological space|normal]] (def. \ref{NormalSpace}) and let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]].
+
+Then there exists another open cover $\{V_i \subset X\}_{i \in I}$ such that the [[topological closure]] $Cl(V_i)$ of its elements
+(def. \ref{ClosedSubset}) is contained in the original patches:
+
+$$
+  \underset{i \in I}{\forall}
+  \left(
+     V_i \subset Cl(V_i) \subset U_i
+  \right)
+  \,.
+$$
+
+=--
+
+The following concept if _[[Urysohn functions]]_ is another approach of thinking about separation
+of subsets in a topological space, not in terms of their neighbourhoods, but in terms of
+continuous real-valued "indicator functions" that take different values on the subsets.
+But the [[Urysohn lemma]] (prop. \ref{UrysohnLemma} below) implies that this concept of separation
+is in fact equivalent to that of normality of Hausdorff spaces.
+
++-- {: .num_defn #UrysohnFunction}
+###### Definition
+**([[Urysohn function]])**
+
+Let $X$ be a [[topological space]], and let $A,B \subset X$ be disjoint [[closed subsets]]. Then an _Urysohn function separating $A$ from $B$_  is
+
+* a [[continuous function]] $f \colon X \to [0,1]$
+
+to the [[closed interval]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]], that takes the value 0 on $A$ and the value 1 on $B$:
+
+$$
+  f(A) = \{0\}
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  f(B) = \{1\}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #UrysohnLemma}
+###### Proposition
+**([[Urysohn's lemma]])**
+
+Let $X$ be a [[normal topological space|normal]] (or $T_4$) [[topological space]], and let $A,B \subset X$ be two disjoint [[closed subsets]] of $X$. Then there exists an Urysohn function separating $A$ from $B$ (def. \ref{UrysohnFunction}).
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Beware that the function in prop. \ref{UrysohnLemma} may take the values 0 or 1 even outside of the two subsets. The condition that the function takes value 0 or 1, respectively, _precisely_ on the two subsets corresponds to "[[perfectly normal spaces]]".
+
+=--
+
+
++-- {: .proof}
+###### Proof
+of [[Urysohn's lemma]], prop. \ref{UrysohnLemma}
+
+Set
+
+$$
+  C_0 \coloneqq A
+  \phantom{AAA}
+  U_1 \coloneqq X \backslash B
+  \,.
+$$
+
+Since by assumption
+
+$$
+  A \cap B = \emptyset
+  \,.
+$$
+
+we have
+
+$$
+  C_0 \subset U_1
+  \,.
+$$
+
+Notice that (by [this lemma](separation+axioms#T4InTermsOfTopologicalClosures)) if a space is normal then every open neighbourhood $U \supset C$ of closed subset $C$ contains a smaller neighbourhood $V$ together with its closure $Cl(V)$
+
+$$
+  U \subset V \subset Cl(V) \subset C
+  \,.
+$$
+
+Apply this fact successively to the above situation to obtain the following infinite sequence of nested open subsets $U_r$ and closed subsets $C_r$
+
+$$
+  \array{
+    C_0 &&  &&  &&  &\subset&  &&  &&  && U_1
+    \\
+    C_0 &&  &\subset&  && U_{1/2} &\subset& C_{1/2} &&  &\subset&  && U_1
+    \\
+    C_0 &\subset& U_{1/4} &\subset& C_{1/4} &\subset& U_{1/2} &\subset& C_{1/2} &\subset& U_{3/4} &\subset& C_{3/4} &\subset& U_1
+  }
+$$
+
+and so on, labeled by the [[dyadic rational numbers]]
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/UrysohnConstruction.png" width="400">
+</div>
+
+
+$$
+ \{ U_{r} \subset X \}_{r \in \mathbb{Q}_{dy}}
+$$
+
+with the property that
+
+$$
+  \underset{r \in \mathbb{Q}_{dy}}{\forall}
+  \left(
+     A \subset U_r \subset X\backslash B
+  \right)
+$$
+
+and
+
+$$
+  \left(
+     r_1 \lt r_2
+  \right)
+   \Rightarrow
+  \left(
+     \left(U_{r_1} \subset U_{r_2}\right)
+     \,\text{and}\,
+     \left(
+      U_1 \neq U_2
+     \right)
+  \right)
+  \,.
+$$
+
+Define then the function
+
+$$
+  f \;\colon\; X \longrightarrow [0,1]
+$$
+
+to assign to a point $x \in X$ the [[infimum]] of the labels of those open subsets in this sequence that contain $x$:
+
+$$
+  f(x)
+     \coloneqq
+  \underset{U_r \supset \{x\}}{\lim} r
+$$
+
+Here the [[limit of a net|limit]] is over the [[directed set]] of those $U_r$ that contain $x$, ordered by reverse inclusion.
+
+
+This function clearly has the property that $f(A) = \{0\}$  and $f(B) = \{1\}$. It only remains to see that it is continuous.
+
+To this end, first observe that
+
+$$
+  (\star)
+  \phantom{AA}
+  ( x \in Cl(U_r) )
+  \,\Leftrightarrow\,
+  \left(
+     f(x) \leq r
+  \right)
+  \,.
+$$
+
+To see this, observe that it is immediate from the definition that $(x \in U_r) \Rightarrow (f(x) \leq r)$ and that $(f(x) \lt r) \Rightarrow (x \in U_r \subset Cl(U_r))$. For the remaining implications, it is sufficient to observe the case that
+
+$$
+  (x \in \partial U_r) \Rightarrow (f(x) = r)
+  \,,
+$$
+
+where $\partial U_r \coloneqq Cl(U_r) \backslash U_r$ is the [[boundary]] of $U_r$.
+
+This holds because the [[dyadic numbers]] are [[dense subset|dense]] in $\mathbb{R}$. (And this would fail if we stopped the above decomposition into $U_{a/2^n}$-s at some finite $n$.) Namely if $x \in \partial U_r$ then for every small positive real number $\epsilon$ there exists a dyadic rational number $r'$ with $r \lt r' \lt r + \epsilon$, and since $x \in U_{r'}$ it follows that $\underset{U_r \supset \{x\}}{\lim} = r$.
+
+Now we claim that for all $\alpha \in [0,1]$ then
+
+1. $f^{-1}((\alpha, 1])$ is open.
+
+1. $f^{-1}([0,\alpha))$ is open;
+
+Regarding the first point: By $(\star)$ we have
+
+$$
+  f^{-1}( (\alpha,1] )
+    =
+  \underset{r \leq \alpha}{\cup} X \backslash Cl(U_r)
+  \,.
+$$
+
+Since the closures $Cl(U_r)$ are closed, the complements $X \backslash Cl(U_r)$ are open, and hence this is a union of open subsets, hence open.
+
+
+Regarding the second point: By $(\star)$ we have
+
+$$
+  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} Cl(U_r)
+  \,.
+$$
+
+To see why this is open, observe that if $r \lt \alpha$ then, again because the [[dyadic numbers]] within $0$ and $1$ are [[dense subset|dense]] in $[0,1]$, there exists $r'$ with $r \lt r' \lt \alpha$, and hence by construction of the $U_r$ we then have $Cl(U_r) \subset U_{r'} \subset Cl(U_{r'})$. This means that in the above union we may omit the closures, to obtain
+
+$$
+  f^{1}( [0,\alpha) ) = \underset{r \lt \alpha}{\cup} U_r
+  \,.
+$$
+
+This now is open because unions of open subsets are open.
+
+Now since the subsets $\{ [0,\alpha), (\alpha,1]\}_{\alpha \in [0,1]}$
+form a [[topological subbase|sub-base]] for the Euclidean metric topology on $[0,1]$, it follows that all pre-images of $f$ are open, hence that $f$ is continuous.
+
+
+=--
+
+As a corollary we obtain:
+
++-- {: .num_prop #NormalityEquivalentToUrysohnFunctionsExsist}
+###### Proposition
+**(normality equivalent to existence of Urysohn functions)**
+
+A $T_1$-space/Hausdorff space (def. \ref{HausdorffTopologicalSpace}) is [[normal topological space|normal]] (def. \ref{NormalSpace}) precisely if it admits [[Urysohn functions]] (def \ref{UrysohnFunction}) separating every pair of
+disjoint closed subsets.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction this is the statement of the [[Urysohn lemma]], prop. \ref{UrysohnLemma}.
+
+In the other direction, assume the existence of [[Urysohn functions]] (def. \ref{UrysohnFunction})
+separating all disjoint closed subsets. Let $A, B \subset X$ be disjoint closed subsets, then we need
+to show that these have disjoint open neighbourhoods.
+
+But for $f \colon X \to [0,1]$ by an Urysohn function with $f(A) = \{0\}$ and $f(B) = \{1\}$ then the [[pre-images]]
+
+$$
+  U_A \coloneqq f^{-1}([0,1/3)
+  \phantom{AAA}
+  U_B \coloneqq f^{-1}((2/3,1])
+$$
+
+are disjoint open neighbourhoods as required.
+
+=--
+
+
+
+
 
 
 $\,$
@@ -5817,7 +6075,7 @@ $$
 
 Observe that these are [[closed subsets]], because in the Hausdorff space $(Y, \tau_Y)$
 (which is hence in particular $T_1$) the singleton subsets $\{y_i\}$ are closed
-by prop. \ref{AllPointsClosedEquivalentToT1}, and since pre-images under continuous functions preserves closed subsets by
+by prop. \ref{T1InTermsOfTopologicalClosure}, and since pre-images under continuous functions preserves closed subsets by
 prop. \ref{ClosedSubsetContinuity}.
 
 Now since [[compact Hausdorff spaces are normal]]  it follows (by def. \ref{NormalSpace}) that we may find disjoint open subset $U_1, U_2 \in \tau_X$
@@ -5939,8 +6197,9 @@ The following says that if there exists a [[locally finite cover|locally finite]
 
 +-- {: .num_lemma #LocallyFiniteRefinementInducesLocallyFiniteWithSameIndexSet}
 ###### Lemma
+**(every locally finite refinement induces one with the original index set)**
 
-Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I), \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I, \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
 
 Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with
 
@@ -6007,7 +6266,7 @@ Let $(X,\tau)$ be a [[topological space]], and let $\{U_i \subset X\}_{i \in I}$
 such that with
 
 $$
-  Supp(f_i) \coloneqq Cl\leff( f_i^{-1}( (0,1] ) \right)
+  Supp(f_i) \coloneqq Cl\left( f_i^{-1}( (0,1] ) \right)
 $$
 
 denoting the [[support]] of $f_i$ (the [[topological closure]] of the subset of points on which it does not vanish) then
