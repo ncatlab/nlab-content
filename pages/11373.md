@@ -42,6 +42,8 @@ Further measurement by the [Planck collaboration](#Planck) showed that much of t
 
 * {#Resonaances} Resonaances, _[BICEP: what was wrong and what was right](http://resonaances.blogspot.de/2014/09/bicep-what-was-wrong-and-what-was-right.html)_
 
+* _A Joint Analysis of BICEP2/Keck Array and Planck Data_ ([arXiv:1502.00612](http://arxiv.org/abs/1502.00612))
+
 [[!redirects bicep2]]
 
 [[!redirects BICEP2 experiment]]
