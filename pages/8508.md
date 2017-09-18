@@ -45,8 +45,20 @@ A [[Riemann surface]] with [[spin structure]] that is also a [[branched cover]] 
 
 ## References
 
-* S. B. Giddings and P. Nelson, _The Geometry of super Riemann surfaces_, Commun.
-Math. Phys., 116, (1988), 607
+The concept of super Riemann surfaces originates with the following articles:
+
+* [[Daniel Friedan]], _Notes On String Theory and 2-Dimensional Conformal Field Theory_. 1986
+
+* M.A. Baranov, [[Albert Schwarz]],  _On the Multiloop Contribution to the String Theory_ Int.J.Mod.Phys., A2:1773, 1987
+
+* [[Yuri Manin]], _Critical Dimensions of String Theories and the Dualizing Sheaf on the Moduli Space of (Super) Curves_, Funct.Anal.Appl., 20:244-245, 
+1987
+
+* S. B. Giddings and P. Nelson, _The Geometry of super Riemann surfaces_, Commun. Math. Phys., 116, (1988), 607
+
+
+Further discussion of the [[moduli space]] of super Riemann surfaces includes the following:
+
 
 * [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
 
