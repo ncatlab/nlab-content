@@ -61,3 +61,9 @@ The two point discrete space $S^0$ as well as any sphere $S^n$ is an absolute ne
 * [[eom]], _[Absolute neighbourhood extensor](https://www.encyclopediaofmath.org/index.php/Absolute_neighbourhood_extensor)_
 
 [[!redirects absolute extensors]]
+
+[[!redirects absolute neighbourhood extensor]]
+[[!redirects absolute neighbourhood extensors]]
+
+[[!redirects absolute neighborhood extensor]]
+[[!redirects absolute neighborhood extensors]]
