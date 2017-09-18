@@ -5,7 +5,11 @@
 
 ## Idea
 
-Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which are included) -- they are [[varieties]] equipped with a structure of an [[abelian group]], hence abelian[[group schemes]], whose multiplication and inverse are regular maps.
+Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which are included) -- they are [[varieties]] equipped with a structure of an [[abelian group]], hence abelian [[group schemes]], whose multiplication and inverse are regular maps.
+
+## Definition
+
+An **abelian variety** over a field $k$ may be defined as a connected projective [[algebraic group]] over $k$.  Remarkably, this automatically implies that it is an _abelian_ algebraic group.  The assumption of connectedness is necessary for that conclusion.
 
 ## Related concepts
 
@@ -14,6 +18,8 @@ Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which
 * [[Cartier duality]]
 
 * [[dual abelian group scheme]]
+
+* [[Albanese variety]]
 
 ## Literature
 
