@@ -24,10 +24,17 @@
 The **torus** is the [[manifold]] (a [[smooth manifold]], hence in particular also a [[topological manifold]]) obtained as the [[quotient]] 
 
 $$
-  T := \mathbb{R}^2 / \mathbb{Z}^2
+  T \coloneqq \mathbb{R}^2 / \mathbb{Z}^2
 $$ 
 
 of the [[Cartesian space|Cartesian plane]], regarded as an [[abelian group]], by the subgroup of pairs of [[integers]].
+
+As a [[topological space]] this is the [[quotient topological space]] obained from the [[square]] by identifying opposite sides:
+
+<img src="https://ncatlab.org/nlab/files/TorusAsQuotientOfSquare.png" width="400">
+
+> graphics grabbed from [Lawson 03](#Lawson03)
+
 
 More generally, for $n \in \mathbb{N}$ any [[natural number]], the $n$-torus is
 
@@ -81,6 +88,9 @@ which is the [[inversion involution]] (given by sending any element to its [[inv
 
 
 ## References
+
+* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+
 
 The [[moduli stack]] of 1-dimensional tori in [[algebraic geometry]] is discussed (as the cusp point inside the [[moduli stack of elliptic curves]]) in
 
