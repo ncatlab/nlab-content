@@ -18,6 +18,8 @@ The archetypal example is the _[[Ruelle zeta function]]_.
 
 Lecture notes include
 
+* [[Mark Pollicott]], _Dynamical zeta functions_ ([pdf](https://homepages.warwick.ac.uk/~masdbl/grenoble-16july.pdf))
+
 * _Dynamical zeta functions_ ([pdf](http://homepages.warwick.ac.uk/~masdbl/leiden-lectures.pdf))
 
 * [[Jeffrey Lagarias]], _Number theory zeta functions and Dynamical zeta functions_ ([pdf](http://www.math.lsa.umich.edu/~lagarias/doc/numberthzeta.pdf))
@@ -26,4 +28,3 @@ Lecture notes include
 
 [[!redirects dynamical zeta function]]
 [[!redirects dynamical zeta functions]]
-
