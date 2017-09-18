@@ -277,8 +277,6 @@ The rest of this section is intended to provide a proof of theorem \ref{connecte
 
 In order to show that the connectedness of $\Omega$ implies its contractibility we will now lift this $\Omega$-homotopy between $id_\Omega$ and a constant map $\Omega\to\Omega$ to a $\Omega$-homotopy between $id_{\Omega^X}$ and a constant map $\Omega^X\to\Omega^X$.
 
-In classical [[topology]], a space $X$ with the property that $id_X$ is homotopic to a constant map is called a [[contractible space]]. Hence the next result can be viewed as a synthetic internal avatar of the classical fact, that any two parallel maps into a contractible space $X$ are homotopic.
-
 +-- {: .num_prop #homotopy_lifting}
 ###### Proposition
 Let $\mathcal{E}$ be a weakly cohesive topos with connector $1\overset{t_0}{\underset{t_1}{\rightrightarrows}} T$. Suppose that $m:X\times T\to X$ is a $T$-homotopy between $id_X$ and a constant map $c:X\to X\,$.Then there exists for every object $Y$ a $T$-homotopy $\mu:X^Y\times T\to X^Y$ from $id_{X^Y}$ to a constant endomap $X^Y\to X^Y$.
@@ -332,6 +330,14 @@ By prop. \ref{omega_homotopy} and the preceding the next is immediate:
 +-- {: .num_prop #omega_action}
 ###### Corollary
 Let $\mathcal{E}$ be a weakly cohesive topos whose subobject classifier is a connector. The $\Omega$-homotopy $\wedge :\Omega\times\Omega{\to}\Omega$ lifts to a $\Omega$-homotopy between $id_{\Omega^X}$ and a constant map $\Omega^X\to\Omega^X$. $\qed$
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In classical [[topology]], a space $X$ with the property that $id_X$ is homotopic to a constant map is called a [[contractible space]]. Hence  proposition \ref{homotopy_lifting} can be viewed as a synthetic internal avatar of the classical fact, that any two parallel maps into a contractible space $X$ are homotopic.
+
+Pursuing this analogy, the preceding result shows that in a weakly cohesive topos with connected subobject classifier, the power object $\Omega^X$ of an object $X$ is akin to the [[cone]] $\mathbf{C}X$ of a topological space $X$ in providing a contractible object to embed into. In this perspective, one can think of a sufficiently cohesive topos as being equipped with a generalized cone construction.
 =--
 
 +-- {: .num_prop #connected_truth}
