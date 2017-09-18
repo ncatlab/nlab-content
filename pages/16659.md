@@ -21,7 +21,7 @@
 
 Given a [[higher-order logic|higher-order]] [[intuitionistic type theory]] $\mathfrak{L}$, it is possible to construct a [[topos]] $T(\mathfrak{L})$ out of the [[syntax]] of $\mathfrak{L}$. The **free topos** $T(\mathfrak{L}_0)$ is the result of this construction when $\mathfrak{L}_0$ is 'pure' type theory i.e. the only types are 1 ([[unit type]]), $N$ ([[natural numbers type]]), and $\Omega$ ([[type of propositions]]) lacking relations beyond the bare necessities.
 
-As $\mathfrak{L}_0$ is an [[initial object]] in the appropriate category of type theories, the free topos $T(\mathfrak{L}_0)$ is itself initial in the category of toposes and [[logical morphisms]] and is, therefore, also known as the **initial topos**[^sga4].
+As $\mathfrak{L}_0$ is an [[initial object]] in the appropriate category of type theories, the free topos $T(\mathfrak{L}_0)$ is itself initial in the corresponding category of toposes (with a natural numbers object) and suitable [[logical morphisms]] and is, therefore, also known as the **initial topos**[^sga4].
 
 [^sga4]: This is not to be confounded with the gadget of the same name in [[SGA4]] (1972, p.313) i.e. the topos $sh(\emptyset)$ of sheaves on the empty topological space aka the one point category, also called the _empty topos_ there. In this context the appropriate maps are [[geometric morphisms]].
 
