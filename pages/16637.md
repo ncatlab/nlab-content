@@ -49,7 +49,7 @@ Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|
 
 
 
-## Smooth structures 
+### Smooth structures 
 
 A celebrated result of Milnor is that $S^7$ admits [[exotic smooth structures]] (exotic spheres), i.e., there are [[smooth manifold]] structures on the [[topological manifold]] $S^7$ that are not [[diffeomorphism|diffeomorphic]] to the standard smooth structure on $S^7$. More structurally, considering smooth structures up to [[orientation|oriented]] diffeomorphism, the different smooth structures form a [[monoid]] under a (suitable) operation of [[connected sum]], and this monoid is isomorphic to the [[cyclic group]] $\mathbb{Z}/(28)$. With the notable possible exception of $n = 4$ (where the question of existence of exotic 4-spheres is wide open), exotic spheres first occur in dimension $7$. This phenomenon is connected to the [[h-cobordism theorem]] (the monoid of smooth structures is identified with the monoid of h-cobordism classes of oriented [[homotopy spheres]]). 
 
@@ -60,6 +60,61 @@ $$z_1^{6 k - 1} + z_2^3 + z_3^2 + z_4^2 + z_5^2 = 0$$
 and $S_\epsilon \subset \mathbb{C}^5$ a sphere of small radius $\epsilon$ centered at the origin. Then each of the $28$ smooth structures on $S^7$ is represented by an intersection $W_k \cap S_\epsilon$, as $k$ ranges from $1$ to $28$. These manifolds sometimes go by the name _Brieskorn manifolds_ or [[Brieskorn sphere]]s[^1]. 
 
 [^1]: Not surprisingly, these exotic spheres are also called _Milnor spheres_. 
+
+### $G_2$-structure
+ {#G2Structure}
+
+Let $\phi_0 \in \Omega^3(\mathbb{R}^7)$ be the [[associative 3-form]] and let 
+
+$$
+  \Phi_0 \in \Omega^4(\mathbb{R} \oplus \mathbb{R}^7)
+$$
+
+be given by
+
+$$
+  \Phi_0 = d x_0 \wedge \phi_0 + \star \phi_0
+$$
+
+(where $x_0$ denotes the canonical coordinate on the first factor of $\mathbb{R}$ and $\phi_0$ is pulled back along the projection to $\mathbb{R}^7$)
+.
+
+By construction this is its own [[Hodge dual]]
+
+$$
+  \Phi = \star \Phi
+  \,.
+$$
+
+This implies that as we restrict $\Phi_0$ to 
+
+$$
+  \mathbb{R}^8 - \{0\} \simeq \mathbb{R} \times S^7
+$$
+
+then there is a unique 3-form 
+
+$$
+  \phi \in \Omega^3(S^7)
+$$
+
+on the 7-sphere such that
+
+$$
+  \Phi_0 = r^3 \wedge \phi + r^4 \star_{S^7} \phi
+  \;\;\;\; (on \; \mathbb{R}^8 - \{0\})
+  \,.
+$$
+
+This 3-form $\phi$ defines a [[G2-structure]] on $S^7$. It is _nearly parallel_ in that
+
+$$
+  d \phi = 4 \star \phi
+  \,.
+$$
+
+(e.g. [Lotay 12, def.2.4](#Lotay12))
+
 
 ## References
 
