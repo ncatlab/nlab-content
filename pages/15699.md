@@ -27,7 +27,7 @@ $$
 
 ### Of the exponential function
 
-For the [[exponential function]] the Mellin transform is proportional to the inverse [[power]] $(-)^{-s}$
+For the [[exponential function]] $\exp(-(-)A)$ the Mellin transform is proportional to the inverse [[power]] $A^{-(-)}$
 
 $$
   \int_0^\infty \tau^{s-1} \exp(-\tau A) \,d\tau
