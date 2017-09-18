@@ -344,3 +344,5 @@ This is the topic of section 5.1 of
 [[!redirects (infinity,1)-presheaf (infinity,1)-categories]]
 [[!redirects (∞,1)-presheaf (∞,1)-categories]]
 
+[[!redirects infinity-category of infinity-presheaves]]
+[[!redirects infinity-categories of infinity-presheaves]]
