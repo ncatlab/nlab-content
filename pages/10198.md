@@ -30,7 +30,11 @@ The [[philosophy]] of [[mathematics]].
 
 * [[constructivism]]
 
-* [[philosophy of physics]]
+* [[structuralism]]
+
+* [[philosophy of science]]
+
+  * [[philosophy of physics]]
 
 ## References
 
