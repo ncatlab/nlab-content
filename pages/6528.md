@@ -226,6 +226,10 @@ Often this is interpreted as saying that "a Yang-Mills instanton describes the [
 
 ## Related concepts
 
+* [[instanton]]
+
+* [[contact instanton]]
+
 * [[caloron]]
 
 * [[non-perturbative effect]]
