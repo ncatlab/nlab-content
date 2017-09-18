@@ -1,0 +1,11 @@
+
+
+
+* [webpage](http://www2.math.technion.ac.il/~gelaki/)
+
+## related $n$Lab entries
+
+* [[Deligne's theorem on tensor categories]]
+
+category: people
+
