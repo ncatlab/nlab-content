@@ -9,6 +9,10 @@
 =--
 =--
 
+# Contents
+* table of contents
+{:toc}
+
 ## Idea
 
 In an ordinary undirected [[graph]], each edge $e$ links an [[unordered pair]] of vertices $x$ and $y$ (perhaps allowing for the possibility that $x = y$, as in the case of a loop).  Hypergraphs generalize this, allowing a "hyperedge" to link any set of "hypervertices".  Abstracting everything away but the _incidence_ relation between hypervertices and hyperedges, a hypergraph can be modelled as an arbitrary heterogenous [[relation]], or more generally as a [[span]].
@@ -35,11 +39,37 @@ The **category of hypergraphs** $HGrph$ has objects consisting of a pair of sets
 
 =--
 
-Note that $HGrph$ is just the [[category of presheaves]] over the "[[walking structure|walking]] cospan" $\bullet \rightarrow * \leftarrow \circ$, and that $SimpHGrph$ is a [[full subcategory]] of $HGrph$.
+Note that $HGrph$ is just the [[category of presheaves]] over the "[[walking structure|walking]] cospan" $\bullet \rightarrow \bullet \leftarrow \bullet$, and that $SimpHGrph$ is a [[full subcategory]] of $HGrph$.
+
+### Hypergraphs from a topos-theoretic perspective
 
 In Lawvere ([1986](#Law86) p.6, [1989](#Law89) pp.283-4) it is pointed out that $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a spatial topos since it is equivalent to the topos of sheaves on the space $X=\{a,b,c\}$ with topology $\tau=\{\emptyset,\{a\},\{b\},\{a,b\},\{a,b,c\}\}$ i.e. $X$ has two isolated points $a,b$ and another one $c$ whose only neighborhood is the whole space.
 
 The [[lattice of subtoposes]] of $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ consists (besides the two obvious subtoposes) of one [[closed subtopos|closed]] and two [[open subtopos|open]] copies of $Set$, two closed copies of the [[Sierpinski topos]] complementing the open copies of $Set$ respectively and an open $Set\times Set=Sh(\{a,b\})=Sh_{\neg\neg}(Set^{\bullet\leftarrow\bullet\rightarrow\bullet})$ complementing the closed copy of $Set$. In particular, $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a [[scattered topos]].
+
+The complementary open-closed pairs of the subtopos lattice correspond precisely to analyses of $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ by [[Artin gluing]].
+
+For instance, take the functor $\sqcap\colon Set\times Set\to Set\qquad (X,Y)\mapsto X\times  Y$. $\sqcap$ is left exact since it forms an adjoint string with the [[diagonal functor]] and the coproduct functor: $\sqcup\dashv \triangle\dashv\sqcap$ .
+
+Then $\mathbf{Gl}(\sqcap)$ has objects $((X,Y),Z, u\colon Z\to X\times Y)$ where $(X,Y)\in Set\times Set$ and $Z\in Set$ and $u$ is a morphism in $Set$. 
+
+The open inclusion of $Set\times Set$ into $\mathbf{Gl}(\sqcap)$ is given by the [[geometric morphism]]
+
+$$ i_\ast \colon Set\times Set\to \mathbf{Gl}(\sqcap) \qquad X\mapsto ((X,Y),X\times Y,id_{X\times Y})$$
+
+$$ i^\ast\colon \mathbf{Gl}(\sqcap)\to Set\times Set \qquad ((X,Y),Z,u)\mapsto (X,Y)$$
+
+$$ i_{!} \colon Set\times Set\to \mathbf{Gl}(\sqcap) \qquad (X,Y)\mapsto ((X,Y),0,0\to X\times Y) \quad ,$$
+ 
+and the closed inclusion of $Set$ by
+
+$$ j_\ast \colon Set\to \mathbf{Gl}(\sqcap) \qquad X\mapsto ((1,1),X,X\to 1\times 1)$$
+
+$$ j^\ast\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto Z\quad .$$
+
+Since $\triangle\dashv\sqcap$ the closed inclusion is essential:
+
+$$ j_!\colon Set \to \mathbf{Gl}(\sqcap)\qquad X\mapsto ((X,X), X, \triangle\colon X\to X\times X)\quad .$$
 
 ## Hypergraphs as 2-colored graphs
 
