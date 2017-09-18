@@ -33,7 +33,7 @@ For every [[modality]] one typically demands that it preserves implication in th
 
 This is called the [[K modal logic|K-axiom]] and in traditional non-[[categorical logic]] this is often all that is considered.
 
-A minimum requirement on a formalization of $\lozenge$ and $\Box$ with interpretation of "necessity" and "possibility" it arguably that there are [[implications]]
+A minimum requirement on a formalization of $\lozenge$ and $\Box$ with interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
 
 * $\Box p \rightarrow p$;
 
@@ -82,11 +82,11 @@ Therefore it makes sense to ask which _additional_ axioms on a modal operator ma
 
 On the other hand, the idea of a proposition being true "necessarily in all possible cases" or "possibly at least in one case" is formally very well established, this is just the interpretation of the [[universal quantifier]] "for all" $\forall$ and of the [[existential quantifier]] "there exists" $\exists$.
 
-Moreover, in [[categorical logic]] these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induces a [[comonad]] and a [[monad]] with just the interpretation of "necessarily true" and "possibly true".
+Moreover, in [[categorical logic]] these [[quantifiers]] (see there for details) are part of an [[adjoint triple]] whose middle piece is [[context]] extension, and as such they naturally induce a [[comonad]] and a [[monad]] with just the interpretation of "necessarily true" and "possibly true".
 
 #### Globally
 
-More in detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions under consideration depend. In the field of [[modal logic]] it is traditional to speak of $W$ as being the collection "of all possible worlds". Conversely any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
+More in detail, let $W$ be the [[context]] [[type]] of [[variables]]/[[terms]] on which the propositions under consideration depend. In the field of [[modal logic]] it is traditional to speak of $W$ as being the collection "of all [[possible worlds semantics|possible worlds]]". Conversely any specific choice of $W$ may be taken as specifying what is to be understood as a "possible world".
 
 Writing $\mathbf{H}_{\ast}$ for the [[category]] of all context-free [[types]] under consideration and writing $\mathbf{H}_{/W}$ for the category of types in [[context]] "$W$", then in [[categorical logic]] (for instance $\mathbf{H}_{/(-)}$ might be a [[hyperdoctrine]] over a [[category of contexts]] containing objects $W$ and $\ast$) the [[quantifiers]] $\forall_{x\colon X}$ and $\exists_{x\colon X}$ participate in a [[base change]] [[adjoint triple]] 
 
