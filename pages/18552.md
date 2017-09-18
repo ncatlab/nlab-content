@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **finite ∞-group** is an [[∞-group]] with finitely many non-trivial [[homotopy groups]] which are all finite.
+A **finite ∞-group** is an [[∞-group]] with finitely many non-trivial [[homotopy groups]] which are all finite. It is therefore a [[connected]] [[truncated]] [[homotopy type with finite homotopy groups]].
 
 ##References
 
