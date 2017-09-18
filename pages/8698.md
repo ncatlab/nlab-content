@@ -70,5 +70,7 @@ The $(\mathfrak{A},\mathcal{D})$-systems were partly motivated by the [[calculus
 
 * [[formal Picard group]], [[formal Brauer group]]
 
+* [[Kapranov's noncommutative geometry]]
+
 [[!include infinitesimal and local - table]]
 
