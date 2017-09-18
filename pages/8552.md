@@ -5,12 +5,18 @@
 
 * [Stanford  Encyclopedia of Philosophy](http://plato.stanford.edu/entries/russell/)
 
+## Texts
+
+* _[[Principia Mathematica]]_, 1910
+
+* _[[A History of Western Philosophy]]_, 1945
+
+
 ## Related entries
 
 * [[Russell's paradox]]
 
 * [[analytic philosophy]]
 
-* _[[A History of Western Philosophy]]_
 
 category: people
