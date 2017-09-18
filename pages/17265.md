@@ -425,7 +425,7 @@ $$
     \underset{i}{\coprod} S^{n_i - 1} &\longrightarrow& X_{k-1}
     \\
     {}^{\mathllap{\underset{i}{\coprod}\iota_{n_i}}}\downarrow 
-     &(po)& \downarrow  
+     &(pb)& \downarrow  
     \\
     \underset{i}{\coprod} D^{n_i} &\longrightarrow& X_{k}
   }
@@ -516,7 +516,7 @@ $$
   \,.
 $$
 
-We will also say that $f$ is a **$C$-fibration** if it satisfies the right lifting property against $C$.
+We will also say that $f$ is a **$C$-[[injective morphism]]** if it satisfies the [[right lifting property]] against $C$.
 
 =--
 
@@ -555,8 +555,7 @@ The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAc
 ###### Definition
 
 A [[continuous function]] $p \colon E \longrightarrow B$
-is called a **[[Serre fibration]]** if it is a $J_{Top}$-fibration;
-i.e. if it has the [[right lifting property]], def. \ref{RightLiftingProperty}, against all topological generating acylic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations};
+is called a **[[Serre fibration]]** if it is a $J_{Top}$-[[injective morphisms]]; i.e. if it has the [[right lifting property]], def. \ref{RightLiftingProperty}, against all topological generating acylic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations};
 hence if for every [[commuting diagram]] of [[continuous functions]] of the form
 
 $$
@@ -722,7 +721,7 @@ Given a sub-[[class]] of morphhisms $C \subset Mor(\mathcal{C})$, then a morphis
 Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
 and let $C\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
 
-Then every $C$-fibration, def. \ref{RightLiftingProperty}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
+Then every $C$-[[injective morphism]], def. \ref{RightLiftingProperty}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
 
 =--
 
@@ -743,7 +742,7 @@ the factor $p$ has the [[right lifting property]], def. \ref{RightLiftingPropert
 
 ### The small object argument
 
-Given a class $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def. \ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
+Given a class $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
 
 $$
   f 
@@ -843,7 +842,7 @@ $$
   X_1 \longrightarrow X_2 \longrightarrow X
 $$
 
-and so forth. Since relative $C$-cell complexes are closed under composition, at stage $n$ the resulting $X \longrightarrow X_n$ is still a $C$-cell complex, getting bigger and bigger. But accordingly, the failure of the accompanying $X_n \longrightarrow Y$ to be a $C$-fibration becomes smaller and smaller, for it now lifts against all diagrams where $dom(c) \longrightarrow X_n$ factors through $X_{n-1}\longrightarrow X_n$, which intuitively is less and less of a condition as the $X_{n-1}$ grow larger and larger.
+and so forth. Since relative $C$-cell complexes are closed under composition, at stage $n$ the resulting $X \longrightarrow X_n$ is still a $C$-cell complex, getting bigger and bigger. But accordingly, the failure of the accompanying $X_n \longrightarrow Y$ to be a $C$-[[injective morphism]] becomes smaller and smaller, for it now lifts against all diagrams where $dom(c) \longrightarrow X_n$ factors through $X_{n-1}\longrightarrow X_n$, which intuitively is less and less of a condition as the $X_{n-1}$ grow larger and larger.
 
 The concept of _[[small object]]_ is just what makes this intuition precise and finishes the small object argument. For the present purpose we just need the following simple version:
 
@@ -862,7 +861,7 @@ $dom(c)\longrightarrow \hat X$ factors through a finite relative subcomplex.
 ###### Proposition
 **(small object argument)**
 
-Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[class]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{ClassOfMorphismsWithSmallDomains}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
+Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[class]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{ClassOfMorphismsWithSmallDomains}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
 
 $$
   f \;\colon\;
@@ -922,7 +921,7 @@ The continuous functions with the [[right lifting property]], def. \ref{RightLif
 
 We break this up into three sub-statements:
 
-**A) $I_{Top}$-fibrations are in particular weak homotopy equivalences**
+**A) $I_{Top}$-[[injective morphisms]] are in particular weak homotopy equivalences**
 
 Let $p \colon \hat X \to X$ have the [[right lifting property]] against $I_{Top}$
 
@@ -957,11 +956,11 @@ $$
 
 and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
 
-**B) $I_{Top}$-fibrations are in particular Serre fibrations**
+**B) $I_{Top}$-[[injective morphisms]] are in particular Serre fibrations**
 
-By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-fibration has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
+By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-[[injective morphisms]] has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-[[injective morphism]], hence a Serre fibration.
 
-**C) Acyclic Serre fibrations are in particular $I_{Top}$-fibrations**
+**C) Acyclic Serre fibrations are in particular $I_{Top}$-[[injective morphisms]]**
 
 A proof of this is spelled out in ([Hirschhorn 15, section 6](#Hirschhorn15)).
 
@@ -1010,7 +1009,7 @@ $$
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of 
-topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-relative cell complex, hence just a plain relative cell complex, followed by an $I_{Top}$-fibration, def. \ref{RightLiftingProperty}.
+topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-relative cell complex, hence just a plain relative cell complex, followed by an $I_{Top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}.
 
 $$
   f 
@@ -1052,7 +1051,7 @@ By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} 
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of 
-topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-relative cell complex, followed by an $J_{top}$-fibration, def. \ref{RightLiftingProperty}:
+topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-relative cell complex, followed by an $J_{top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
 
 $$
   f
