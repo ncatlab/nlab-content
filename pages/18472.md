@@ -10,6 +10,12 @@ This page collects material related to the textbook
 
 which applies [[causal perturbation theory]] to rigorously construct quantum [[Yang-Mills theory]] ([[quantum chromodynamics]] and [[electroweak field|electroweak theory]]) and [[quantum gravity]] as [[perturbative quantum field theories]].
 
+In later editions the title has been changed. The most recent, third edition is 
+
+* _Gauge Field Theories: Spin One and Spin Two: 100 Years After General Relativity_, [Dover](http://store.doverpublications.com/0486805247.html), 2016,
+
+with extra chapter 6: _Non-geometric general relativity_. 
+
 The analogous discussion of [[quantum electrodynamics]] in in
 
 * [[Günter Scharf]],  _[[Finite Quantum Electrodynamics -- The Causal Approach]]_,  Springer 1995
