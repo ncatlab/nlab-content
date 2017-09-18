@@ -50,6 +50,10 @@ In the category [[Top]] of [[topological spaces]], an object $X$ is a [[Hausdorf
 
 In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 
+## Related concepts
+
+* [[formal neighbourhood of the diagonal]]
+
 [[!redirects diagonal]]
 [[!redirects diagonal subobject]]
 [[!redirects diagonal morphisms]]
