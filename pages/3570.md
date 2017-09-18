@@ -29,7 +29,7 @@ where $C$ is an arc in $\mathbb{R}^2$ joining $(\frac{1}{2\pi}, 0)$ and $(-\frac
 
 It looks something like [[warsaw.pdf|this:file]].
 
-**Note** There is a variant version with no $(x,\sin(\frac{1}{x}))$-bit for the $x\lt 0$ and the curve $C$ joins $(0,0)$ to $(\frac{1}{2\pi}, 0)$.  The discussion adapts very easily to that.
+**Note** There is a variant version $S_W'$ with no $(x,\sin(\frac{1}{x}))$-bit for the $x\lt 0$ and the curve $C$ joins $(0,0)$ to $(\frac{1}{2\pi}, 0)$.  The discussion adapts very easily to that. For this version, there is a surjective continuous map $\mathbb{R} \to S_W'$. 
 
 ## Properties
 
