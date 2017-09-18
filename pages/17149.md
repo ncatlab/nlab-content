@@ -135,6 +135,8 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[Omega spectrum]]
 
+* [[homotopy group of a spectrum]]
+
 * [[suspension spectrum]]
 
 * [[Thom spectrum]]
