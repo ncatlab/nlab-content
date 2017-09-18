@@ -200,6 +200,10 @@ Discussion with an eye towards [[geometric type theory]] is in
 
 * [[Steve Vickers]], _Locales and toposes as spaces_ ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
 
+[[Stone duality]] for geometric theories is discussed in:
+
+* [[Henrik Forssell]], _Topological representation of geometric theories_,  [arxiv/1109.0699](http://arxiv.org/abs/1109.0699)
+
 A nice short exposition together with an unorthodox proposal to expand geometric logic with fix point operators can be found here:
 
 * [[Andreas Blass]], _Topoi and Computation_, Bull. European Assoc.Theoret. Comp.Sci. **36** (1988) pp.57-65. ([draft](http://www.math.lsa.umich.edu/~ablass/eatcs.pdf))
