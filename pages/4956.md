@@ -1,3 +1,6 @@
+
+> See also _[[differentiable function]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
