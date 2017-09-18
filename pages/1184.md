@@ -115,9 +115,11 @@ Similarly, one may define a successor [[functor]] on the [[category]] of well-or
 
 [[!redirects well ordered]]
 [[!redirects well-ordered]]
-[[!redirects well ordered   set]]
+[[!redirects well ordered set]]
 [[!redirects well ordered sets]]
 [[!redirects well-ordered set]]
 [[!redirects well-ordered sets]]
 [[!redirects woset]]
 [[!redirects wosets]]
+
+
