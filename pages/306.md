@@ -123,7 +123,7 @@ $$
   }
 $$
 
-whose commuativity says that every element of $Sub(X)$ is the pullback along some $\phi : X \to \Omega$ of the subobject of $\Omega$ corresponding under the natural isomorphism to $Id : \Omega \to \Omega$.
+whose commutativity says that every element of $Sub(X)$ is the pullback along some $\phi : X \to \Omega$ of the subobject of $\Omega$ corresponding under the natural isomorphism to $Id : \Omega \to \Omega$.
 
 By further playing around with this one finds that this latter subobject of $\Omega$ has to be a [[terminal object]]. 
 
@@ -179,26 +179,149 @@ But the statement is also easily directly checked.
 
 =--
 
+### In a non-topos 
+
+The category $Set_\ast$ of [[pointed sets]] has a subobject classifier (specified up to unique isomorphism as the pointed set with two elements). 
+
+
+## Properties
+
+Suppose a category $C$ has a subobject classifier; this entails some striking structural consequences for $C$. We list a few here: 
+
++-- {: .num_prop #regular} 
+###### Proposition 
+Every [[monomorphism]] in $C$ is a [[regular monomorphism]], i.e., is an equalizer of some pair of maps. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For $\chi_i: X \to \Omega$ the characteristic map of a mono $i: A \to X$, we find that $i$ is the equalizer of a pair of maps $X \rightrightarrows \Omega$: 
+
+$$\array{
+ & & 1 \\
+ & \mathllap{!} \nearrow & \downarrow \mathrlap{t} \\
+X & \underset{\chi_i}{\to} & \Omega.
+}$$ 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+A morphism in $C$ is an isomorphism iff it is both a [[monomorphism]] and an [[epimorphism]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+"Only if" is trivial. The "if" comes from the fact that an epic (epimorphic) equalizer must be an isomorphism, for if $i: A \to X$ is the equalizer of $f, g: X \rightrightarrows Y$ and $i$ is epic, then $f = g$, whence $1_X$ is their equalizer, so $i: A \to X$ must have been an isomorphism. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+Any two epi-mono factorizations of a map in $C$ are canonically isomorphic. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose $i p = j q$ where $p, q$ are epic and $i, j$ are monic. Since $j$ is regular, it is the equalizer of some parallel pair $f, g$ as in the diagram 
+
+$$\array{
+A & \stackrel{p}{\to} & B & & \\ 
+\mathllap{q} \downarrow & & \downarrow \mathrlap{i} & & \\ 
+C & \underset{j}{\to} & D & \stackrel{\overset{f}{\to}}{\underset{g}{\to}} & E,
+}$$ 
+
+so that $f i p = f j q = g j q = g i p$, whence $f i = g i$ since $p$ is epic, whence $i$ factors through $j$ as $j$ is the equalizer: $i = j k$ for some $k: B \to C$. Then also $k p = q$ since $j k p = i p = j q$ and $j$ is monic. We have that $k$ is monic since $i$ is, and $k$ is epic since $q$ is. Thus $k$ is an isomorphism. 
+=-- 
+
+Already these results impose some tight restrictions on $C$. We get some more by exploiting the internal structure of $\Omega$. 
+
+The subobject classifier always comes with the structure of an internal [[partial order|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly, or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
+
+Similarly, since we assume that $C$ is finitely complete, each subobject poset $Sub(X)$ has intersections (gotten as pullbacks or [[fiber products]] of pairs of monics $i: A \to X,j: B \to X$), and the intersection operation 
+
+$$\cap: Sub(X) \times Sub(X) \to Sub(X)$$ 
+
+is natural in $X$. Hence we have a family of maps 
+
+$$\cap: \hom(X, \Omega \times \Omega) \to \hom(X, \Omega)$$ 
+
+natural in $X$; by the [[Yoneda lemma]], we infer the presence of an internal intersection map 
+
+$$\wedge: \Omega \times \Omega \to \Omega$$ 
+
+making $\Omega$ an internal [[meet-semilattice]]. 
+
+More profoundly, $\Omega$ is an internal [[Heyting algebra]]. More accurately, it's a Heyting algebra provided it has joins; without joins it is a [[cartesian closed category|cartesian closed]] poset: 
+
++-- {: .num_prop} 
+###### Proposition 
+There is an internal implication operator 
+
+$$\Rightarrow: \Omega \times \Omega \to \Omega$$ 
+
+uniquely specified by the internal condition 
+
+$$w \wedge u \leq v \qquad iff \qquad w \leq u \Rightarrow v.$$ 
+=-- 
+
++-- {: .proof} 
+###### Proof (sketch) 
+Let $[\leq] \hookrightarrow \Omega times \Omega$ denote the equalizer of the pair of maps 
+
+$$\Omega \times \Omega \stackrel{\overset{\pi_1}{\longrightarrow}}{\underset{\wedge}{\longrightarrow}} \Omega$$ 
+
+and then define $\Rightarrow: \Omega \times \Omega \to \Omega$ to be the characteristic map of $[\leq] \hookrightarrow \Omega times \Omega$. Now if $\chi_u, \chi_v$ are two maps $X \to \Omega$, one calculates that $w \hookrightarrow X$ is contained in the subobject classified by $\chi_u \Rightarrow \chi_v$ iff $w \cap u = w \cap u \cap v$, which is just a way of saying $w \cap u \leq v$. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+In every subobject poset $Sub(X)$, meets distribute over any joins that exist. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Because $U \cap -$ is left adjoint to the external operator $U \Rightarrow -$ on $Sub(X)$, it preserves any joins that happen to exist in $Sub(X)$. 
+=-- 
+
+Normally these results are proved in the context of [[toposes]], where we may say for example that $\Omega$ is an internal [[Boolean algebra]] if and only if the topos is [[Boolean topos|Boolean]]. But as the proofs above indicate, we need only exploit the definition of subobject classifier making reference only to finite limit structure. 
+
+In a topos, the subobject classifier $\Omega$ is always [[injective object|injective]], and, so is the _power object_ $\Omega^X$ for every object $X$. In particular, every object $X$ embeds into an injective object by the singleton monomorphism $X\to\Omega^X$: 'A topos has enough injective objects!'. More generally, injective objects in a topos are percisely the ones that are retracts of some $\Omega^X$ (Cf. [Borceux 1994](#Borceux3), p.315; [Moerdijk-MacLane 1994](#MoerdijkMacLane), p.210).
+
+### Johnstone's exercise 
+
+A curiosity from Johnstone's Topos Theory, posed as an exercise, is that any monomorphism $\Omega \to \Omega$ is an isomorphism and even an [[involution]]. Thus $\Omega$ is a [[Hopfian object]]. 
+
+An online proof may be found [here](https://ncatlab.org/toddtrimble/published/Monic+endomorphisms+on+the+subobject+classifier). 
+
 ## Categories without subobject classifiers
 
-Having a subobject classifier is a very strong property of a category and "most" categories don't have one.
+As the previous section indicates, having a subobject classifier is a very strong property of a category and "most" categories with finite limits don't have one.
 
-For example, a category with a terminal object can't have a subobject classifier if there are no nonidentity morphisms out of the terminal object.
+For example, there is an obvious condition ensuring a category[^1] with a terminal object can't have a subobject classifier: if there are no nonidentity morphisms out of the terminal object. This includes the following examples. 
 
+[^1]: We mean a nontrivial category, obviously, where "trivial" here means every object is terminal. 
 
 * Any top bounded partial order.
 
 * In $Ring$, the [[category of rings]], there are no nonidentity morphisms out of the terminal object the [[zero ring]].
 
+Here's another obstacle: 
+
 * If an [[abelian category]] had a subobject classifier, every subobject of every object would have to be the kernel of its classifying map. In particular, the subobject $0$ of every object $A$ would have to be the kernel of its classifying map, so that every object in this abelian category would embed into the subobject classifier $\Omega$ (including, say, all small products of $\Omega$ with itself) which would cause size issues.
 
-## Properties
+But a real killer is uniqueness of epi-mono factorizations or the fact that all monos are regular: 
 
-The subobject classifier always comes with the structure of an internal [[partial order|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly, or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
+* Non-regular monos exist in [[Pos]], [[Cat]], [[Top]], [[CMon]], $\ldots$. 
 
-In fact, this internal poset is an internal [[Heyting algebra]]; it\'s an internal [[Boolean algebra]] if and only if the topos is Boolean.
+Even though all monos in [[Grp]] are regular, we can kill off $Grp$ by observing that if $t: 1 \to \Omega$ were a subobject classifier, the proof of Proposition \ref{regular} indicates that every mono $i: A \to X$ would have to be the [[kernel]] of $\chi_i$. But not all monos in $Grp$ are kernels. 
 
-In a topos, the subobject classifier $\Omega$ is always [[injective object|injective]], and, so is the _power object_ $\Omega^X$ for every object $X$. In particular, every object $X$ embeds into an injective object by the singleton monomorphism $X\to\Omega^X$: 'A topos has enough injective objects!'. More generally, injective objects in a topos are percisely the ones that are retracts of some $\Omega^X$ (Cf. [Borceux 1994](#Borceux3), p.315; [Moerdijk-MacLane 1994](#MoerdijkMacLane), p.210).
+Even more decisive is the observation that meets distribute over (arbitrary) joins in subobject orders. This kills off many candidates: 
+
+* Lattices of subobjects in $Grp$ or $Ab$ are rarely distributive. 
+
+* For any category with [[biproducts]], there are non-distributive subobject lattices. Take any object $A$, so that we have three subobjects $i_1: A \to A \oplus A$, $i_2: A \to A \oplus A$, and $\Delta: A \to A \oplus A$. Then $i_1 \vee i_2 = \top$, whereas $i_1 \wedge \Delta = \bot = i_2 \wedge \Delta$. Under distributivity we have 
+$$\Delta = \Delta \wedge \top = \Delta \wedge (i_1 \vee i_2) = (\Delta \wedge i_1) \vee (\Delta \wedge i_2) = \bot \vee \bot = \bot$$ 
+but $\Delta = \bot$ forces $A = 0$. So the only such category that can have a subobject classifier is trivial. 
+
 
 ## Generalizations: object classifier
 
