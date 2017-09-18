@@ -43,7 +43,7 @@ There are generalizations of the concept to [[stable homotopy groups]] of [[spec
 
 Let $X$ be a [[topological space]], let $x : * \to X$ be a point, to be called the _base point_.
 
-For $n \in \mathbb{N}$, write $S^n$ be the pointed $n$-[[sphere]].
+For $n \in \mathbb{N}$, let $S^n$ be the pointed $n$-[[sphere]].
 
 +-- {: .num_defn}
 ###### Definition
