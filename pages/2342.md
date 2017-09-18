@@ -286,7 +286,7 @@ Over the [[rational numbers]]: [Sagemath: Elliptic curves over the rational numb
 
 Over the [[p-adic integers]], see ([Conrad 07](#Conrad07)).
 
-Over the [[p-adic numbers]]. see ([Winter 11](#Winter11)).
+Over the [[p-adic numbers]], see ([Winter 11](#Winter11)).
 
 ## Level structures
 
