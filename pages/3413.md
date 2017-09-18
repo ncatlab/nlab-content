@@ -11,7 +11,6 @@ Boardman introduced the [[stable homotopy theory|stable homotopy category]] in 1
 * [course notes](http://openlibrary.org/b/OL5743316M/Boardman%27s_stable_homotopy_category)
 
 
-
 He coauthored with [[Vogt]] the famous book 
 
 * **Homotopy invariant algebraic structures on topological spaces**, Springer Lecture Notes in Math 347 (1973).
@@ -42,3 +41,5 @@ category:people
 [[!redirects Michael Boardman]]
 [[!redirects Boardman]]
 [[!redirects J. M. Boardman]]
+[[!redirects John Michael Boardman]]
+
