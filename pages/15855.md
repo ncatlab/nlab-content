@@ -1,1 +1,14 @@
+## Related
+
+* [[geometric Langlands correspondence]]
+* [[G-torsors]]
+* [[Ran space]]
+
+## References
+
 * Evgeny Feigin, Michael Finkelberg, Markus Reineke, _Degenerate affine Grassmannians and loop quivers_, [http://arxiv.org/abs/1410.0777](http://arxiv.org/abs/1410.0777)
+
+* [[Xinwen Zhu]], _An introduction to affine Grassmannians and the geometric Satake  equivalence_, [arXiv:1603.05593](http://arxiv.org/abs/1603.05593v2).
+
+* [[Bhargav Bhatt]], [[Peter Scholze]], _Projectivity of the Witt vector affine Grassmannian_, [arXiv:1507.06490](http://arxiv.org/abs/1507.06490).
+
