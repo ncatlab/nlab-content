@@ -281,7 +281,7 @@ That the AKSZ action on bounding manifolds $\partial \hat \Sigma$ is the integra
 
 The discussion of the AKSZ action functional as the [[nLab:∞-Chern-Simons theory]]-functional induced from a [[symplectic Lie n-algebroid]] in [[∞-Chern-Weil theory]] is due discussed in
 
-* [[nLab:Domenico Fiorenza]], [[nLab:Chris Rogers]], [[nLab:Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_, Int. J. Geom. Methods Mod. Phys. 10 (2013) 1250078 ([arXiv:1108.4378](http://arxiv.org/abs/1108.4378))
 
 In the broader context of smooth [[higher geometry]] this is discussed in section 4.3 of
 
@@ -309,3 +309,5 @@ See also
 [[!redirects AKSZ formalism]]
 [[!redirects AKSZ theory]]
 [[!redirects AKSZ]]
+
+[[!redirects AKSZ-sigma models]]
