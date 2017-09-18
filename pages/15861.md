@@ -36,12 +36,12 @@ Let $a$ be an element of a [[co-Heyting algebra]]. The (co-Heyting) _boundary_ o
 * [[co-Heyting algebra]]
 * [[Heyting algebra]]
 * [[Heyting category]]
+* [[mereology]]
 * [[adjoint modality]]
 * [[geometric theory]]
 * [[Aufhebung]]
 
 ##References
-
 
 
 * [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299v1 (2009). ([pdf](http://arxiv.org/pdf/0905.0299v1))
