@@ -438,9 +438,12 @@ A brief introduction is in
 * [[Yonatan Harpaz]], _Introduction to stable $\infty$-categories_, October 2013 ([[HarpazStableInfinityCategory2013.pdf:file]])
   {#Harpaz2013}
 
-A detailed discussion of how $k$-linear [[dg-categories]] present $k$-linear stable $(\infty,1)$-categories is in 
+Discussion of how $k$-linear [[dg-categories]]/[[A-infinity categories]] present $k$-linear stable $(\infty,1)$-categories is in 
 
 * {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
+
+* {#Faonte13} [[Giovanni Faonte]], _Simplicial nerve of an A-infinity category_ ([arXiv:1312.2127](http://arxiv.org/abs/1312.2127))
+
 
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each can be found in these seminar notes:
 
