@@ -1,0 +1,11 @@
+_This page is in development, and the tool it refers to is not yet launched. Please check back later._
+
+## Introduction ##
+
+_Globular_ is a web-based proof assistant for semistrict higher categories. It allows you to formalize higher-categorical proofs, visualize them as string diagrams, and share them with collaborators, or with the world.
+
+## Getting involved ##
+
+Globular is open source, and anybody can get involved.
+
+INFORMATION ABOUT THE GIT REPOSITORY.
