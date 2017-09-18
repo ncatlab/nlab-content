@@ -122,6 +122,7 @@ vector fields and flows)
 
 * [[integration of differential forms]]
 
+* [[change of integration variables]]
 
 * [[density]], [[volume form]]
 
