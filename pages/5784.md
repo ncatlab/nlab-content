@@ -66,11 +66,14 @@ A [[super translation Lie algebra]] and hence [[super Minkowski spacetime]], is 
 
 * [[super smooth infinity-groupoid]]
 
+* [[super Cartan geometry]]
+
 ## References
 
-Section 2.2.1 of
+For instance 
 
-* Christoph Sachse, _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+
+* Christoph Sachse, section 2.2.1 of _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
 
 
 [[!redirects super point]]
