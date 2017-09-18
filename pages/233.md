@@ -466,6 +466,9 @@ $$
 
 * [[Banach module]]
 
+* [[module over a monoidal functor]]
+
+* [[module over an algebra over an operad]]
 
 ## References
 
