@@ -3362,11 +3362,11 @@ such that
 
    $$
      \array{
-       f^\ast W &\stackrel{f^\ast h}{\longrightarrow}& X
+       f^\ast Z &\overset{f^\ast h}{\longrightarrow}& X
        \\
        \downarrow &(pb)& \downarrow^{\mathrlap{f}}
        \\
-       W &\stackrel{h}{\longrightarrow}& Y
+       Z &\underset{h}{\longrightarrow}& Y
      }
    $$
 
@@ -4056,9 +4056,31 @@ $$
   \,,
 $$
 
-that also $W_\bullet$ is a sequence of relative cell complex inclusions.
+that also $W_\bullet$ is a sequence of relative cell complex inclusions: a cell in $W_i$ is given by the top square in the following diagram, and the total rectangle is the image of that cell as a cell in $W_{i+1}$:
 
-Therefore, forming the colimit over these sequences sends the degreewise Serre fibration to a Serre fibration ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)), because we may test for a [[Serre fibration]] by lifting against morphisms with [[compact topological space|compact]] domain and codomain, and these may be taken inside the colimit over relative cell complex inclusions (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes))). So we have a [[Serre fibration]]
+$$
+  \array{ 
+    S^{n-1} &\overset{i_n}{\longrightarrow}& D^{n-1}
+    \\
+    \downarrow && \downarrow
+    \\
+    Z^X_{i,k} 
+     &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
+    W_i
+    \\
+    {}_{\mathllap{\in I_{(Top^{\ast/})}Cell }}\downarrow 
+     && 
+    \downarrow
+    \\
+    Z^X_{i+1,k} 
+     &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
+    W_{i+1}
+  }
+  \,,
+$$
+
+
+Therefore, forming the colimit over $i \in I$ of these sequences sends the degreewise Serre fibration to a Serre fibration ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)): because we test for a [[Serre fibration]] by lifting against the morphism in $J_{Top^{\ast/}}$, which have [[compact topological space|compact]] domain and codomain, and these may be taken inside the colimit over relative cell complex inclusions (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes))). So we have a [[Serre fibration]]
 
 $$
   \underset{\longrightarrow}{\lim}_i W_i
@@ -4080,12 +4102,12 @@ $$
        &\overset{\in W_{cl}\in Cof_{cl}}{\longleftarrow}& 
      Z^X_{i,k}
      \\
-      \downarrow^{\mathrlap{\in W_{cl}}}
+      \downarrow^{\mathrlap{\phi^B}}_{\mathrlap{\in W_{cl}}}
       &&
-      \downarrow^{\mathrlap{\in W_{cl}}}
+      \downarrow^{\mathrlap{\phi^Y}}_{\mathrlap{\in W_{cl}}}
       &&
-      &_{\mathllap{\in W_{cl}}}\searrow&
-      \downarrow^{\mathrlap{\in W_{cl}}}
+        &_{\mathllap{\exists \in W_{cl}}}\searrow&
+      \downarrow^{\mathrlap{\phi^X}}_{\mathrlap{\in W_{cl}}}
       \\
       \Omega^i B_{k+i}
        &\longrightarrow&
@@ -4094,11 +4116,17 @@ $$
         &\underset{\in Fib_{cl}}{\longleftarrow}&
       \Omega^i X_{k+i}
   }
+  \,,
 $$
 
-where the diagonal is a chosen lift (where we use that $\Omega = Maps(S^1,-)_{\ast}$ preserves Serre fibrations by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}). This lift is a weak equivalence by [[two-out-of-three]]. On the left of the diagram this exhibits now a weak equivalence of [[cospan]]-diagrams with right leg a fibration. Therefore, since forming the [[limit]] over these cospan diagrams is a [[homotopy pullback]] (all objects here being fibrant), this induces a weak equivalence on these limits ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackPreservesWeakEquivalencesOfSpans))
+where the vertical morphisms are composites of the weak equivalences
+$ \phi_{i,k} \colon Z_{i+1,k} \overset{\phi_{i,k}}{\longrightarrow} \Omega Z_{i,k+1}$ from def. \ref{SpectrificationForTopologicalSequentialSpectra}.
+
+The diagonal is a chosen lift (where we use that $\Omega = Maps(S^1,-)_{\ast}$ preserves Serre fibrations by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}). This lift is a weak equivalence by [[two-out-of-three]]. On the left of the diagram this exhibits now a weak equivalence of [[cospan]]-diagrams with right leg a fibration. Therefore, since forming the [[limit]] over these cospan diagrams is a [[homotopy pullback]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback), all objects here being fibrant), this induces a weak equivalence on these limits ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackPreservesWeakEquivalencesOfSpans))
 
 $$
+  \kappa
+   \;\colon\;
   Z^B_{i,k}
   \underset{Z^Y_{i,k}}{\times}
   W_i
@@ -4116,11 +4144,13 @@ By universality of the pullback there is a commuting triangle
 $$
   \array{
      Z^{B\times_Y X}_{i,k}
-     && \overset{\phi_i}{\longrightarrow} &&
+     && \overset{\rho_i}{\longrightarrow} &&
       Z^B_{i,k} \underset{Z^Y_{i,k}}{\times}
      W_i
      \\
-     & {}_{\mathllap{\in W_{cl}}}\searrow && \swarrow_{\mathrlap{\in W_{cl}}}
+     & {}_{\mathllap{\phi \in W_{cl}}}\searrow  
+       && 
+    \swarrow_{\mathrlap{\kappa \in W_{cl}}}
      \\
      && 
      \Omega^i(
@@ -4131,13 +4161,19 @@ $$
 
 and hence by [[two-out-of-three]] also the top morphism is a weak equivalence.
 
-Finally, since colimits over sequences of relative cell inclusions preserve finite limits up to weak equivalence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)) this implies that we have a weak equivalence of the form
+Now observe that colimits over sequences of relative cell inclusions preserve finite limits up to weak equivalence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PropertiesOfColimitOverSequencesOfRelativeCellComplexes)). This follows again by using that $n$-spheres may be taken inside the colimits from the classical fact that [filtered colimits preserve finite limits](commutativity+of+limits+and+colimits#FilteredColimitsCommuteWithFiniteLimits).
+In conclusion then, we have a weak equivalence of the form
 
 $$
   (Q(B \underset{Y}{\times} X))_k
   =
   \underset{\longrightarrow}{\lim}_i Z^{B \times_Y X}_{i,k}
-    \underoverset{\in W_{cl}}{\underset{\longleftarrow}{\lim}_i \phi_i}{\longrightarrow}
+    \underoverset{\in W_{cl}}{\underset{\longrightarrow}{\lim}_i \rho_i}{\longrightarrow}
+   \underset{\longrightarrow}{\lim}_i
+   \left(
+     Z^B_{i,k} \underset{Z^Y_{i,k}}{\times} W_i
+   \right)
+    \overset{\in W_{cl}}{\longrightarrow}
   \left(\underset{\longrightarrow}{\lim}_i Z^B_{i,k}\right)
     \underset{
          \underset{\longrightarrow}{\lim}_i Z^Y_{i,k}
@@ -4184,7 +4220,33 @@ First notice that the strict model structure is indeed [[right proper model cate
 
 The first two conditions required on a Quillen idempotent monad in def. \ref{QuillenIdempotentMonad} are explicit in prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}. 
 
-The third condition follows from lemma \ref{OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}: A pullback of a $Q$-equivalence along a fibration is a [[homotopy pullback]] and is hence sent by $Q$ to another homotopy pullback square. By definition of $Q$-equivalence that resulting homotopy pullback square has one edge a weak equivalence, and hence also the opposite edge is a weak equivalence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)).
+The third condition follows from lemma \ref{OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}: A pullback of a $Q$-equivalence along a fibration is a [[homotopy pullback]] and is hence sent by $Q$ to another homotopy pullback square. 
+
+$$
+  \array{
+    f^\ast Z &\stackrel{f^\ast h}{\longrightarrow}& X
+    \\
+    \downarrow &(pb)& \downarrow^{\mathrlap{f \in Fib}}
+    \\
+    Z &\underset{h \in W_{Q}}{\longrightarrow}& Y
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;\;\;\;
+  \array{
+    Q(f^\ast Z) &\overset{Q(f^\ast h) \in W}{\longrightarrow}& Q(X)
+    \\
+    \downarrow &(pb)^h& \downarrow^{\mathrlap{Q(f)}}
+    \\
+    Q(Z) &\underset{Q(h) \in W}{\longrightarrow}& Q(Y)
+  }
+  \,.
+$$
+
+
+By definition of $Q$-equivalence that resulting homotopy pullback square has the bottom edge a weak equivalence, and hence also the top edge is a weak equivalence ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)).
+
+
 
 =--
 
@@ -4343,7 +4405,7 @@ being a bijection for all $\Omega Z$. But this is indeed a bijection, since $f$ 
 +-- {: .num_lemma #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
 ###### Lemma
 
-For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis)
+For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis) 
 
 1. the structure maps constitute a homomorphism
 
@@ -4353,7 +4415,7 @@ For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithL
      X
    $$
 
-   and this is a stable weak homotopy equivalence,
+   (from the shift, def. \ref{ShiftedSpectrum}, of the alternative suspension, def. \ref{SequentialSpectrumFakeSuspension}) and this is a stable weak homotopy equivalence,
 
 1. the adjunct structure maps constitute a homomorphism
 
@@ -4361,8 +4423,9 @@ For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithL
      X
      \longrightarrow
      \Omega X[1]
-     \,.
    $$
+
+   (to the shift, def. \ref{ShiftedSpectrum}, of the alternative looping, def. \ref{SequentialSpectrumFakeSuspension})
 
    If $X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) then this is a weak equivalence in the strict model structure (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}), hence in particular a stable weak homotopy equivalence.
 
@@ -4408,7 +4471,7 @@ That the adjunct structure maps constitute a morphism $X \to \Omega X[1]$ follow
 
 If $X$ is an [[Omega-spectrum]], then by definition this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
 
-From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} we have a [[commuting diagram]] of the form
+From this it follows that also $\Sigma X[-1]\to X$ is a stable weak homotopy equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} we have a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -4470,7 +4533,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The total derived functor of $\Sigma$ exists because by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable weak homotopy equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category. 
+The total derived functor of $\Sigma$ exists, because by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable weak homotopy equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category. 
 There, by prop. \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}
 and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, they are inverses of each other, up to isomorphism.
 
@@ -4494,7 +4557,7 @@ By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canon
 
 
 
-This means that in order to show that $SeqSpec(Top_{cg})_{stable}$ is indeed a [[stable model category]] according to def. \ref{StableModelCategory}, we are reduced now to showing that in the homotopy category the alternative suspension operation is naturally isomorphic to the "standard suspension" (def. \ref{SequentialSpectrumRealSuspension}). This we turn to now.
+The combination of lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} with lemma \ref{StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension} gives that in order to show that $SeqSpec(Top_{cg})_{stable}$ is indeed a [[stable model category]] according to def. \ref{StableModelCategory}, we are reduced to showing that in the homotopy category the alternative suspension operation (which we know gives an equivalence) is naturally isomorphic to the "standard suspension" (which we know is the correct suspennsion operation). This we turn to now.
 
 According to remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}, both should be directly comparable and isomorphic in the homotopy category "in even degrees", but non-comparable in odd degree. Therefore we now first introduce the concept of sequential spectra with components only in even degree and then use an adjunction back to ordinary sequential spectra.
 
