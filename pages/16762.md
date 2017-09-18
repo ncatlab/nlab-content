@@ -1,0 +1,18 @@
+
+## Idea
+
+...resolution of [[singularities]]...
+
+## References
+
+* Wikipedia, _[Resolution of singularities](https://en.wikipedia.org/wiki/Resolution_of_singularities)_
+
+
+[[!redirects resolutions of singularities]]
+
+[[!redirects crepant resolution]]
+[[!redirects crepant resolutions]]
+
+[[!redirects blowing up]]
+[[!redirects blow up]]
+[[!redirects blow-up]]
