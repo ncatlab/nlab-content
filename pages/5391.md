@@ -1,5 +1,5 @@
 
-> This entry is about extension of moprhisms, dual to "lift". For extensions in the sense of "added structure" see at _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc. In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
+> This entry is about extension of morphisms, dual to [[lift]]. For extensions in the sense of "added structure" see at _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc. In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
 
 #Contents#
 * table of contents
@@ -11,7 +11,7 @@
 
 The __extension of a morphism__ $f: A\to Y$ along a monomorphism $i: A\hookrightarrow X$ is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
 
-The dual problem is the problem of **lifting** a morphism $p: Y\to B$ along an epimorphism (or more general map) $f:X\to B$ to become a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
+The dual problem is the problem of [[lifting]] a morphism $p: Y\to B$ along an epimorphism (or more general map) $f:X\to B$ to become a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
 
 ### Extension of an object by another object 
 
