@@ -1,3 +1,3 @@
 
 
-$\box$ $\Box$ $\circ$ $\Circ$  $\Bigcirc$
+[[type theories]]
