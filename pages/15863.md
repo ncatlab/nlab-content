@@ -31,7 +31,9 @@ When the lattice of open subsets of topological spaces is the primordial example
 Co-Heyting algebras play a role in [[modal logic|modal]], paraconsistent, and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]] and in [[mereology]].
 
 ##Definition
-A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.
+A **co-Heyting algebra** is a bounded [[distributive lattice]] $L$ equipped with a binary _subtraction_ operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\vee z$.[^Dist]
+
+[^Dist]: Existence of $\backslash$ amounts to \_$\backslash y\dashv y\vee$\_ and this existence of a left adjoint implies that $y\vee$\_ preserves limits $\wedge$ hence the assumption of distributivity in the definition is redundant and has been put in for emphasis only.
 
 A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a Heyting algebra structure with implication $\Rightarrow$ and a co-Heyting algebra structure with subtraction $\backslash$.
 
@@ -44,6 +46,12 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 * The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$. In turn $\sim$ can then be used to define the [[co-Heyting boundary|co-Heyting boundary operator]] $\partial :L\to L$ by $\partial a:=a\wedge\sim a$. That $\partial a$ is not necessary trivial is dual to the non-validity of the _tertium non datur_ for general Heyting algebras and already points to the use of co-Heyting algebras for paraconsistent logic.
 
 * Accordingly, a bi-Heyting algebra is naturally equipped with two negation operators: the Heyting complement $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
+
+* The co-Heyting supplement satisfies the dual de Morgan rule $\sim (a\wedge b)=(\sim a)\vee(\sim b)$, but only $\sim\sim (a\vee b) = (\sim\sim a)\wedge (\sim\sim b)$ in general.
+
+* For $a\in L$ define its _core_ as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ _regular_. Lawvere (1986) proposes in the vain of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
+
+* In toposes like e.g. essential subtoposes of presheave toposes, where the lattices of subobjects carry a bi-Heyting structure, the co-Heyting algebra operations are generally not preserved by [[inverse image functor|inverse image functors]], so that the co-Heyting logical operators are subject to _de re_ and _de dicto_ effects.
 
 ##Related entries
 
