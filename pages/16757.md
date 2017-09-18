@@ -9,7 +9,7 @@ An _ADE singularity_ is a [[orbifold]] fixed point locally of the form $\mathbb{
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
  
-These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular pointes, whose exceptional fiber is a [[union]] of [[Riemann spheres]] that are connected in the shape of the corresponding [[Dynkin diagram]].
+These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular pointes. The resulting exceptional fiber (the blow-up of the singular point) is a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the corresponding [[Dynkin diagram]].
 
 > (graphics grabbed from [Wijnholt 14, part III](string+phenomenology#Wijnholt14))
 
