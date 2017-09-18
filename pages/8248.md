@@ -95,7 +95,7 @@ if
 
     $E_\infty^{s,t} \coloneqq E_{\gg 1}^{s,t}$;
 
-1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the the filtered $C^\bullet$ in that
+1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the filtered $C^\bullet$ in that
 
    $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
 
