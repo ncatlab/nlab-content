@@ -513,8 +513,8 @@ Here
 
 =--
 
-+-- {: .num_remark }
-###### Remark
++-- {: .num_prop #TheProcessOfModalities}
+###### Proposition
 
 Passing to [[(∞,1)-categories of (∞,1)-sheaves]], this yields, via [[(∞,1)-Kan extension]], a sequence of [[adjoint quadruples]] as follows:
 
@@ -541,11 +541,6 @@ $$
     & &\hookrightarrow&
   }
 $$
-
-=--
-
-+-- {: .num_prop #TheProcessOfModalities}
-###### Proposition
 
 Passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]] which this induces, then yields 
 
@@ -711,7 +706,7 @@ Let $X$ be any object in image of this total functor, and let $U \times D_s \in 
 +-- {: .num_cor #SystemOfModalities}
 ###### Corollary
 
-Passing, via remark \ref{FromAdjunctionsToMonads}, from the sequence of [[adjoint quadruples]] in prop. \ref{CoReflectionsOfToposes}, yields the following system of [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]]:
+Passing, via remark \ref{FromAdjunctionsToMonads}, from the sequence of [[adjoint quadruples]] in prop. \ref{TheProcessOfModalities}, yields the following system of [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]]:
 
 
 $$
