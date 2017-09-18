@@ -45,6 +45,10 @@ to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a singl
 
 * In [[Set]], for $M=$ monomorphisms = [[injections]], this reproduces the ordinary notion of image.
 
+* More generally in any [[topos]] the [[(epi,mono) factorization system]] gives the factorization through the image $f \colon A \overset{epi}{\to} im(f) \overset{mono}{\to} B$.
+
+* Similarly in an [[abelian category]] ([by definition](abelian+category#AbelianCategory)) [[(epi,mono) factorization system|(epi,mono) factorization]] gives factorization through the image. 
+
 * In algebraic categories such as [[Grp]], for $M=$ monomorphisms, this also reproduces the ordinary notions of image.
 
 * In [[Top]], for $M=$ [[subspace]] inclusions, the $M$-image is the set-theoretic image topologized as a [[subspace]] of the [[target|codomain]].  On the other hand, for $M=$ injective continuous maps, the $M$-image is the set-theoretic image topologized as a [[quotient space]] of the [[source|domain]].
