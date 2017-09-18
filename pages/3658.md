@@ -203,6 +203,12 @@ The Wightman axioms have been established for the following theories.
 * Massive Thirring model, see [this article](http://dx.doi.org/10.5169/seals-114796) by Frohlich and Seiler and this more recent one by Benfatto, Falco and Mastropietro.
 
 
+## Related concepts
+
+* [[AQFT]], [[local net]]
+
+* [[conformal net]], [[conformal bootstrap]]
+
 ## References
 
 The original reference is
