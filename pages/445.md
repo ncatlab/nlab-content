@@ -230,3 +230,7 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 [[!redirects corestriction]]
 [[!redirects regular image]] 
 [[!redirects regular coimage]] 
+
+[[!redirects image factorization]]
+[[!redirects image factorizations]]
+
