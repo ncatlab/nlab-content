@@ -59,5 +59,6 @@ For [[formal topology]], see
 
 
 [[!redirects pointfree topology]]
+[[!redirects point-free topology]]
 
 [[!redirects pointless topology]]
