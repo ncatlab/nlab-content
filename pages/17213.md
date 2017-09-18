@@ -271,6 +271,9 @@ The components of the [[associator]], the [[unitors]] and the [[braiding]] are t
 =--
 
 ### Topological ends and coends
+ {#TopologicalEndsAndCoends}
+
+For working with pointed [[topologically enriched functors]], a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called (pointed topological enriched) _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for topological [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). Below in (...) it is via left Kan extension along the ordinary smash product of pointed topological spaces ("[[Day convolution]]") that the [[symmetric monoidal smash product of spectra]] is induced.
 
 +-- {: .num_defn #OppositeAndProductOfPointedTopologicallyEnrichedCategory}
 ###### Definition
@@ -603,7 +606,7 @@ The resulting pointed [[topologically enriched category]] $[\mathcal{C},Top^{\as
 
 First of all this yields a concise statement of the pointed topologically [[enriched Yoneda lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedYonedaLemma))
 
-+-- {: .num_example #NaturalTransformationsViaEnds}
++-- {: .num_prop #YonedaReductionTopological}
 ###### Proposition
 **(topologically [[enriched Yoneda lemma]])**
 
@@ -630,7 +633,141 @@ In this form the statement is also known as **[[Yoneda reduction]]**.
 
 =--
 
++-- {: .num_remark #MappingSpacePreservesEnds}
+###### Remark
 
+Because the pointed compactly generated [[mapping space]] functor ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) 
+
+$$
+  Maps(-,-)_\ast
+  \;\colon\;
+  \left(Top^{\ast/}_{cg}\right)^{op}
+  \times
+  Top^{\ast/}_{cg}
+  \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+takes [[colimits]] in the first argument and [[limits]] in the second argument to limits ([cor.](Introduction+to+Stable+homotopy+theory+--+P#MappingSpacesSendsColimitsInFirstArgumentToLimits)), it also takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
+
+$$
+  Maps( X, \; \int_{c} F(c,c))_\ast
+  \simeq
+  \int_c Maps(X, F(c,c)_\ast)
+$$
+
+and
+
+$$
+  Maps( \int^{c} F(c,c),\; Y  )_\ast
+  \simeq
+  \underset{c}{\int} Maps( F(c,c),\; Y )_\ast
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
+###### Proposition
+
+Let $\mathcal{C}, \mathcal{D}$ be [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) and let 
+
+$$
+  p \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+$$
+
+be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). Then precomposition with $p$ constitutes a functor
+
+$$
+  p^\ast 
+  \;\colon\;
+  [\mathcal{D}, Top^{\ast/}_{cg}]
+  \longrightarrow
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+$$
+
+$G\mapsto G\circ p$. This functor has a [[left adjoint]] $Lan_p$, called **left [[Kan extension]]** along $p$
+
+$$
+  [\mathcal{D}, Top^{\ast/}_{cg}]
+    \underoverset
+      {\underset{p^\ast}{\longrightarrow}}
+      {\overset{Lan_p }{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+$$
+
+which is given objectwise by a [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
+
+$$
+  (Lan_p F)
+  \;\colon\;
+  c 
+  \;\mapsto \;
+  \overset{c\in \mathcal{C}}{\int}
+   \mathcal{D}(p(c),d) \wedge F(c)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $Maps(-,-)_\ast$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the smash/mapping space adjunction ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
+
+$$
+  \begin{aligned}
+    [\mathcal{D},Top^{\ast/}_{cg}]( Lan_p F, \, G )
+    & =
+   \underset{d \in \mathcal{D}}{\int}
+    Maps( (Lan_p F)(d), \, G(d) )_\ast
+   \\
+   & =
+   \underset{d\in \mathcal{D}}{\int}
+   Maps\left(
+     \overset{c \in \mathcal{C}}{\int} \mathcal{D}(p(c),d) \wedge F(c)
+     ,\;
+     G(d)
+   \right)_\ast
+    \\
+  &\simeq
+  \underset{d \in \mathcal{D}}{\int}
+  \underset{c \in \mathcal{C}}{\int}
+  Maps(
+    \mathcal{D}(p(c),d)\wedge F(c) \,,\; G(d)
+  )_\ast
+  \\
+  & \simeq
+  \underset{c\in \mathcal{C}}{\int}
+  \underset{d\in \mathcal{D}}{\int}
+  Maps(F(c), 
+    Maps(
+     \mathcal{D}(p(c),d) , \, G(d)
+    )_\ast
+  )_\ast
+  \\
+  & \simeq
+  \underset{c\in \mathcal{C}}{\int}
+  Maps(F(c), 
+   \underset{d\in \mathcal{D}}{\int}
+   Maps(
+    \mathcal{D}(p(c),d) , \, G(d)
+   )_\ast
+  )_\ast
+  \\
+  & \simeq
+  \underset{c\in \mathcal{C}}{\int}
+  Maps(F(c), G(p(c))
+  )_\ast  
+  \\
+  & =
+  [\mathcal{C}, Top^{\ast/}_{cg}](F,p^\ast G)
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 
 
