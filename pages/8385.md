@@ -88,7 +88,7 @@ $$
 where $f_*$ is the restriction of $(-)\circ f$ to sheaves.
 =--
 
-For the classical definition of morphisms of sites, using representably-flat functors, this appears for instance as ([Johnstone, lemma C2.2.3, cor. C2.2.4](#Johnstone)).  We give the proof in this special case; for the general case see ([Shulman](#Shulman)).
+For the classical definition of morphisms of sites, using representably-flat functors, this appears for instance as ([Johnstone, lemma C2.3.3, cor. C2.3.4](#Johnstone)).  We give the proof in this special case; for the general case see ([Shulman](#Shulman)).
 
 +-- {: .proof}
 ###### Proof
