@@ -476,6 +476,8 @@ Further introductions include
  
 * {#Karpova09} [[Varvara Karpova]], _Complex topological K-theory_, 2009  ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf))
 
+* {#Blair09} Chris Blair, _Some K-theory examples_, 2009 ([pdf](http://www.maths.tcd.ie/~cblair/notes/kex.pdf))
+
 * {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
 * Aderemi Kuku, _Introduction to K-theory and some applications_ ([pdf](https://www.math.ksu.edu/~zlin/kuku/Intro-Kthy.pdf))
