@@ -2463,24 +2463,26 @@ In certain contexts of infinitesimal neighbourhoods of cohesive $\infty$-toposes
  {#FormalInfinityGroupoids}
 
 
-Recall that a [[groupoid object in an (infinity,1)-topos]] is equivalently an [[1-epimorphism]] $X \longrightarrow \mathcal{G}$, thought of as exhibiting an [[atlas]] $X$ for the groupoid $\mathcal{G}$.
+Recall that a [[groupoid object in an (infinity,1)-category]] is equivalently an [[1-epimorphism]] $X \longrightarrow \mathcal{G}$, thought of as exhibiting an [[atlas]] $X$ for the groupoid $\mathcal{G}$.
 
-Now an [[infinity-Lie algebroid]] is supposed to be an $\infty$-groupoid which is only infinitesimally extended over its base space $X$. Hence we are after those 1-epis $X \longrightarrow \mathcal{G}$ such that under the [[infinitesimal shape modality]] $\Im$ they become equivalences.
+Now an $\infty$-Lie algebroid is supposed to be an $\infty$-groupoid which is only infinitesimally extended over its base space $X$. Hence: 
 
-For example the tangent $\infty$-Lie algebroid $T X$ of any $X$ is the [[unit of a monad|unit]] 
+A groupoid object $p \colon X \longrightarrow \mathcal{G}$ is _infinitesimal_ if under the [[reduction modality]] $\Re$ (equivalently under the [[infinitesimal shape modality]] $\Im$) the [[atlas]] becomes an [[equivalence in an (infinity,1)-category|equivalence]]: $\Re(p), \Im(p) \in Equiv$.
+
+For example the tangent $\infty$-Lie algebroid $T X$ of any $X$ is the [[unit of a monad|unit]] of the [[infinitesimal shape modality]].
 
 $$
   \eta^{\Im}_X \;\colon\; X \stackrel{}{\longrightarrow} \Im X
   \,.
 $$
 
-It follows for instance that every such $\infty$-Lie algebroid $X \to \mathcal{G}$ canonically maps to the tangent $\infty$-Lie algebroid of $X$ (the anchor map). The naturatity square of the unit $\eta^{\Im}_{p}$ exhibits the morphism:
+It follows that every such $\infty$-Lie algebroid $X \to \mathcal{G}$ canonically maps to the tangent $\infty$-Lie algebroid of $X$ -- the _anchor map_. The naturality square of the unit $\eta^{\Im}_{p}$ exhibits the morphism:
 
 $$
   \array{
      X & \stackrel{id}{\longrightarrow} & X
      \\
-     \downarrow^{\mathrlap{p}} && \downarrow
+     \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{\eta^\Im_X}}
      \\
       &&  \Im X
      \\
