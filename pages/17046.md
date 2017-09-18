@@ -33,7 +33,7 @@ property holds.
 [[Distributivity]] of limits over colimits, in its
 easiest possible formulation, is stated for $X$ as above,
 and requires the canonical map $colim_{i\in I^J} lim_{j\in J} X_{i(j),j} \to lim_{j\in J} colim_{i\in I} X_{i,j}$
-to be an isomorphism (or an equivalence in the case of ∞-categories).
+to be an isomorphism (or an equivalence in the case of ∞-categories).  Note that here $i$ is an element of the [[functor category]] $I^J$, and $i(j)$ denotes its value at $j\in J$.
 
 More generally, one may allow the indexing category $I$
 to depend on $j\in J$, i.e., the functor $I\times J\to J$
