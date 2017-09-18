@@ -34,7 +34,7 @@ A  [[supersymmetry|supersymmetric]] extension of plain [[Yang-Mills theory]].
 
 ### Classification
 
-The existence of super Yang-Mills theories of a certain number of [[supersymmetries]] in a certain [[dimension]] of [[spacetime]] is linked to the existence of certain [[Lie algebra cohomology|cocycles]] on the [[super Poincaré Lie algebra]] (thos that also govern the [[brane scan]]). These in turn are closely related to the [[normed division algebras]]. A comparatively recent account is in ([ABDH 13](#ABDH13)). See also at _[[division algebra and supersymmetry]]_.
+The existence of super Yang-Mills (SYM) theories of a certain number of [[supersymmetries]] in a certain [[dimension]] of [[spacetime]] is linked to the existence of certain [[Lie algebra cohomology|cocycles]] on the [[super Poincaré Lie algebra]] (thos that also govern the [[brane scan]]). These in turn are closely related to the [[normed division algebras]]. A comparatively recent account is in ([ABDH 13](#ABDH13)). See also at _[[division algebra and supersymmetry]]_.
 
 
 
@@ -81,7 +81,7 @@ Special properties of [[scattering amplitudes]] are discussed for instance in
 
 * [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
 
-The [[chiral rings]] of sYM are discussed in
+The [[chiral rings]] of SYM are discussed in
 
 * Freddy Cachazo, [[Michael Douglas]], [[Nathan Seiberg]], [[Edward Witten]]. _Chiral Rings and Anomalies in Supersymmetric Gauge Theory_, JHEP 0212:071,2002 ([arXiv:hep-th/0211170](http://arxiv.org/abs/hep-th/0211170))
 
