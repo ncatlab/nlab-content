@@ -1,0 +1,9 @@
+
+## Idea
+
+What is called _resurgence theory_ is a mathematical formalization of what in physics is known as reading off [[non-perturbative effects]] from perturbation series. 
+
+## Related concepts
+
+* [[Borel resummation]]
+
