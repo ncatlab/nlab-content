@@ -47,7 +47,7 @@ for all $a, b\colon X$.  Then the Lipschitz norm is the [[minimum]] of the Lipsc
 
 If you want a definition that is constructively acceptable and yet involves no division, then take the Lipschitz norm of $f$ to be the supremum over those $k$ such that
 $$ d(f(a), f(b)) \gt k d(a, b) $$
-for some $a, b\colon X$.  (This is perhaps the best definition, as it will automatically take care of subsingletons, regardless of whether you restrict attention to $[0, \infty]$ a priori, and pseudometric spaces, even constructively.)  You can even restrict attention to (say) [[rational number|rational]] $k$, or to $a, b$ in some [[dense subspace]] of $X$ (say if $X$ is [[separable space|separable]]).
+for some $a, b\colon X$.  (This is perhaps the best definition, as it will automatically take care of subsingletons, as long as you restrict attention to $[0, \infty]$ a priori, and pseudometric spaces, even constructively.)  You can even restrict attention to (say) [[rational number|rational]] $k$, or to $a, b$ in some [[dense subspace]] of $X$ (say if $X$ is [[separable space|separable]]).
 
 Every Lipschitz map is [[uniformly continuous map|uniformly continuous]].  Every Lipschitz map from the [[real line]] $\mathbb{R}$ to itself is [[absolutely continuous map|absolutely continuous]].
 
