@@ -167,6 +167,7 @@ Discussion with an eye towards [[topological K-theory]] is in
 * {#Hatcher} [[Allen Hatcher]], section 1.1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
 
 
+[[!redirects inner products on vector bundles]]
 
 [[!redirects inner products of vector bundles]]
 
