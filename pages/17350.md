@@ -36,7 +36,7 @@ If instead of being surjective on objects $F$ is [[essentially surjective]] on o
 
 ## References
 
-* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, [arXiv](http://arxiv.org/abs/1306.5144)
+* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics 280 (2015) 549 - 642, [arXiv](http://arxiv.org/abs/1306.5144)
  {#RV}
 
 [[!redirects smothering functors]]
