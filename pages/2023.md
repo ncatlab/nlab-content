@@ -147,3 +147,6 @@ See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/
 
 [[!redirects closed interval]]
 [[!redirects closed intervals]]
+
+[[!redirects half-open interval]]
+[[!redirects half-open intervals]]
