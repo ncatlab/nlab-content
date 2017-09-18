@@ -247,6 +247,10 @@ See at _[[M5-brane charge]]_
 
 ### General
 
+The M5 was maybe first found as a [[black brane]] of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
+
+* R. Gueven, _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49.
+
 Reviews and general accounts include
 
 * [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
