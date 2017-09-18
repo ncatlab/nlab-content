@@ -1,4 +1,3 @@
-[[!redirects Gysin sequence]]
 
 #Contents#
 * table of contents
@@ -53,5 +52,14 @@ $$
 
 * [[James Milne]], section 16 of _[[Lectures on Étale Cohomology]]_
 
+[[!redirects Thom-Gysin sequences]]
+
+[[!redirects Thom-Gysin exact sequence]]
+[[!redirects Thom-Gysin exact sequences]]
+
+[[!redirects Gysin sequence]]
 [[!redirects Gysin sequences]]
+
+[[!redirects Gysin exact sequence]]
+[[!redirects Gysin exact sequences]]
 
