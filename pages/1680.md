@@ -89,6 +89,14 @@ its name.
 [[!include chromatic tower examples - table]]
 
 
+### Ordinary homology spectra split
+
+**[[ordinary homology spectra split]]**:
+For $S$ any [[spectrum]] and $H A$ an Eilenberg-MacLane spectrum,
+then the [[smash product]] $S\wedge H A$ (the $A$-[[ordinary homology]] spectrum)
+is non-canonically equivalent to a product of EM-spectra (hence a [[wedge sum]] of EM-spectra in the finite case).
+
+ 
 ## Related concepts
 
 * [[generalized Eilenberg-MacLane spectrum]]
@@ -107,6 +115,8 @@ Lecture notes include
 * {#Rognes12} [[John Rognes]], section 3.2 3.4 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 * {#Schwede12} [[Stefan Schwede]], Example I.2.7 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+
+
 
 [[!redirects Eilenberg-MacLane spectrum]]
 [[!redirects Eilenberg--MacLane spectrum]]
