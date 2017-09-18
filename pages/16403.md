@@ -87,9 +87,16 @@ The mathematics theory of these systems of higher-order gauge-of-gauge transform
 
 More motivation and exposition along these lines is at _[[schreiber:Higher field bundles for gauge fields]]_.
 
-### Model layer
+### **Model layer**
+
+A standard model for [[homotopy types]] are _[[simplicial sets]]_ and in particular the _[[Kan complexes]]_ among them. These we introduce and discuss below in _[Kan complexes](#KanComplexes)_. This model for [[homotopy theory]] is accordingly known as _[[simplicial homotopy theory]]_. This is a powerful model and happens to be the most highly developed one, it does however require a minimum of mathematical sophistication to be handled efficiently. This we look into below in _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+
+But a simpler and more familiar structure turns out to be a model for the important subsector of "abelian" homotopy types, namely _[[chain complexes]]_. We recall fundamentals of these in _[Chain complexes](#ChainComplexes)_. As a model for abelian homotopy theory, this is nothing but _[[homological algebra]]_. We present the key constructions of homological algebra from the "derived" perspective that makes them fit well into homotopy theory below in [](spring)
+
+The construction that embeds chain complexes into simplicial homotopy theory is the _[[Dold-Kan correspondence]]_ and the _[[Eilenberg-Zilber theorem]]_. This we discuss below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_
 
 #### Chain complexes
+ {#ChainComplexes}
 
 ##### Categories of chain complexes
 
@@ -7371,10 +7378,18 @@ By prop. \ref{TorPreservesFilteredColimits} $Tor_1^\mathbb{Z}(-,B)$ preserves th
 
 =--
 
-This concludes our discussion of the basic properties of the $Tor$-functor. In the next chapter _[The fundamental theorems](#TheFundamentalTheorems)_ we see [[nLab:Ext]] and [[nLab:Tor]] put to work to yield deeper statements.
+
+#### The Dold-Kan correspondence
+ {#DoldKanCorrespondence}
+
+* [[Dold-Kan correspondence]]
+
+* [[Eilenberg-Zilber theorem]]
 
 
-#### Kan complexes and Simplicial homotopy theory
+
+#### Kan complexes 
+ {#KanComplexes}
 
 An [[∞-groupoid]] is first of all supposed to be a structure that has [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. A useful tool for organizing such collections of morphisms is the notion of a [[simplicial set]]. This is a [[functor]] on the [[opposite category]] of the  [[simplex category]] $\Delta$, whose objects are the abstract cellular $k$-[[simplex|simplices]], denoted $[k]$ or $\Delta[k]$ for all $k \in \mathbb{N}$, and whose morphisms $\Delta[k_1] \to \Delta[k_2]$ are all ways of mapping these into each other. So we think of such a simplicial set given by a functor
 
@@ -7507,7 +7522,10 @@ $$
 
 The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $C$, which is the [[simplicial set]] with $N(C)_k$ being the set of sequences of $k$ composable morphisms in $C$. The nerve operation is a [[full and faithful functor]]  from 1-groupoids into Kan complexes and hence may be thought of as embedding 1-groupoids in the context of general [[∞-groupoid]]s.
 
-### Semantic layer
+#### Simplicial homotopy theory
+ {#SimplicialHomotopyTheory}
+
+### **Semantic layer**
 
 #### Model categories
 
@@ -7516,5 +7534,4 @@ The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $
 * [[model structure on simplicial presheaves]]
 
 
-### Syntactic layer
-
+### **Syntactic layer**
