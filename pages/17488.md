@@ -5827,6 +5827,8 @@ $$
 
 is called the reduced $E$-cohomology of the spectrum $X$. 
 
+Beware that here one usually drops the tilde sign.
+
 =--
 
 
