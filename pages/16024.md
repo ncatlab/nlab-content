@@ -1,4 +1,4 @@
-I am a fourteen-year old student aspiring to be a pure mathematician and enthusiast for the field. I am currently studying Set Theory, Infinite Sets, and Basic Group Theory. Right now, my interests are in the infinite set relations to universal set $H$ and infinity of special sets.
+My name is Julian Rachman and I am a Southern-California student attending West High School studying mainly pure mathematics and computer science. I am an aspiring fourteen-year old mathematician with the passion and drive for research. I have participated in the Aerospace Herndon Science Competition two-consecutive years and was invited to many prestigious conferences based sponsored AIAA and held in Northrop Grumman. I am currently studying Infinite Sets, Real Analysis and Calculus.
 
 **Email:** [rachman.jm@gmail.com](mailto:rachman.jm@gmail.com).
 
@@ -8,5 +8,7 @@ ________________________________________________________________________________
 ##Notes##
 
 I will be posting all of my research and independent study notes here.
+
+[[Notes_on_Set_Theory1.pdf|Notes on Set Theory (not yet completed):file]]
 
 ______________________________________________________________________________
