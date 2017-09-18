@@ -1,12 +1,26 @@
 $$
-\array{
-\arrayopts{\rowlines{solid}}
-\array{\arrayopts{\rowlines{solid}}
-X \times B \to P A\;\;\; in\; \mathbf{S} \\
-X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S})} \qquad
-\array{\arrayopts{\rowlines{solid}}
-X \times B \to P A\;\;\; in\; \mathbf{S} \\
-X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S})} \\
-X \nrightarrow A \times B\;\;\; in\; Rel(\mathbf{S}) \\
-X \to P(A \times B)\;\;\; in \; \mathbf{S}
-}$$
+  \array{
+    Ho(Top^{\ast/})
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\bot}
+    &
+    Ho(Top^{\ast}_{cg})
+    \\
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    &&
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    \\
+    Ho(Spectra)
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\simeq}
+    &
+    Ho(Spectra)
+  }
+  \,.
+$$
