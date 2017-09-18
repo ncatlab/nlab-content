@@ -176,6 +176,8 @@ The relations in example \ref{PushoutProductOfSpheresInclusionsIntoDisks} are th
 
 ## Related concepts
 
+* [[pullback power]] -- the dual concept
+
 * [[pushout-product axiom]]
 
 * [[Joyal-Tierney calculus]]
