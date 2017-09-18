@@ -19,7 +19,7 @@ The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form
 
 In [[physics]], in the [[theory (physics)|theory]] of _[[relativity]]_ the Lorentz group [[action|acts]] canonically as the group of linear [[isometries]] of [[Minkowski spacetime]] preserving a chosen basepoint. This is called the action by _Lorentz transformations_.
 
-The elements in the Lorentz group in the image of the [[special orthogonal group]] $SO(d-1) \hookrightarrow O(d-1,1)$ are _[[rotations]]_ in space. The further elements in the special Lorentz group $SO(d-1,1)$, which mathematically are "hyperbolic rotations" in a space-time plane, are called _[[boosts]]_ in [[physics]].
+The elements in the Lorentz group in the image of the [[special orthogonal group]] $SO(d-1) \hookrightarrow O(d-1,1)$ are _[[rotations]]_ in space. The further elements in the special Lorentz group $SO(d-1,1)$, which mathematically are "hyperbolic rotations" in a space-time plane, are called _[[boost|boosts]]_ in [[physics]].
 
 One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $O(d-1,1)$:
 
@@ -88,9 +88,6 @@ While the proper orthochronous Lorentz group $SO^+(d-1,1)$ is [[connected topolo
 
 [[!redirects Lorentz transformation]]
 [[!redirects Lorentz transformations]]
-
-[[!redirects Lorentz boost]]
-[[!redirects Lorentz boosts]]
 
 [[!redirects proper Lorentz group]]
 [[!redirects proper Lorentz groups]]
