@@ -230,6 +230,8 @@ The seminal classification of simple supersymmetry [[super Lie algebras]] (inclu
 
 * [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter II.2.2 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
 For more on this see at _[[super Poincaré Lie algebra]]_.
 
 ### History
