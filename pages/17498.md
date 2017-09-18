@@ -9,7 +9,9 @@ The **eventual image** of an [[endomorphism]] $f:A\to A$ is the [[intersection]]
 
 ## Properties
 
-On the category of [[finite sets]], the operation assigning to each endomorphism its eventual image is a [[dinatural transformation]].
+On the category of [[finite sets]], the operation assigning to each endomorphism its eventual image is a [[dinatural transformation]]. 
+
+This example can also be viewed in terms of the [[trace of a category|trace]] of [[FinSet]], defined as $\int^{a: FinSet}\; \hom(a, a)$. Indeed, the value of $f \in \hom(a, a)$ under the canonical map $\hom(a, a) \to \int^a \; \hom(a, a)$ is the same as that of the restriction $f|: Evim(f) \to Evim(f)$ to its eventual image, which is a permutation, and the value may be regarded as the [[conjugacy class]] of that permutation. 
 
 ## References
 
