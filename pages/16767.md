@@ -13,3 +13,9 @@
   * [Lie groupoid principal bundles](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles)
 
   * [Bibundles of Lie groupoids](http://ncatlab.org/nlab/show/bibundle#SmoothGroupoidPrincipalBibundles)
+
+  * [Differentiating Lie groupoids](https://ncatlab.org/nlab/show/Lie+differentiation#of_a_lie_groupoid)
+
+  * [Integrating Lie algebroids](https://ncatlab.org/nlab/show/Lie+integration#integrating_lie_algebroids_to_stacky_lie_groupoids)
+
+* ####Introduction on stack theory####
