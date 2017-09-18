@@ -11,3 +11,7 @@ _[AxiomsOfChoice.org](axiomsofchoice.org)_.
 =--
 
 ![Alt text](http://i.imgur.com/2gpWbon.jpg)
+
+[[BraidDiagramForHomologyOnTripled.jpg:file]]
+
+<img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
