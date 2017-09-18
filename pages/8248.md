@@ -178,11 +178,13 @@ An early lecture note account is in
 
 * [[Frank Adams]], part III, section 7 of _[[Stable homotopy and generalised homology]]_, 1974
  
-A more recent textbook account is  of
+More recent and more introductory accounts are
+
+* {#McCleary01} [[John McCleary]], _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
 
 * [[Charles Weibel]], section 5.9 _[[An Introduction to Homological Algebra]]_
 
-A review with an eye towards application to the [[Adams spectral sequence]] is in 
+Another review with an eye towards application to the [[Adams spectral sequence]] is in 
 
 * [[Doug Ravenel]], chapter 2, section 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
