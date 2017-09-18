@@ -13,5 +13,9 @@ A [[circle group]]-[[principal bundle]].
 
 Under the standard [[representation]] of $U(1)$ on the [[complex numbers]] the [[associated bundle]] to a $U(1)$-principal bundle is a [[complex line bundle]].
 
+## Related concepts
+
+* [[circle action]]
+
 [[!redirects circle principal bundles]]
 
