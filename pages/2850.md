@@ -25,6 +25,8 @@ Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riem
 
 ## Related concepts
 
+* [[fundamental theorem of Riemannian geometry]]
+
 [[!include local and global geometry - table]]
 
 In [[index theory]]:
