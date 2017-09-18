@@ -170,7 +170,7 @@ The issue then is that the restricted hom-spaces of $StdSpheres$ do not see the 
 
 More concretely, the enriched category $StdSpheres$ does not inherit monoidal structure: defining the smash product on hom spaces requires permuting smash copies of spheres, which is not available.  Thus there is no Day convolution product on sequential spectra at all.
 
-One could further restict along $\mathbb{N} \to StdSpheres$ and use the monoidal structure $(\mathbb{N},+)$ to define at least a smash product on sequences of pointed spaces by [[Day convolution]] over $(\mathbb{N},+)$ as in ([MMSS 00, example 4.1](#MMSS00)). But then in addition to the above problem that this does not give a functorial smash product on spectra (it will not respect the structure maps), moreover $(\mathbb{N},+)$ is trivially [[braided monoidal category|braided]] and so, again, under restriction of excisive functors to $\mathbb{N}$ there is no way to recover the information in the smash product of spectra that is encoded in the non-trivial braiding of the smash product of spheres.
+One could further restrict along $\mathbb{N} \to StdSpheres$ and use the monoidal structure $(\mathbb{N},+)$ to define at least a smash product on sequences of pointed spaces by [[Day convolution]] over $(\mathbb{N},+)$ as in ([MMSS 00, example 4.1](#MMSS00)). But then in addition to the above problem that this does not give a functorial smash product on spectra (it will not respect the structure maps), moreover $(\mathbb{N},+)$ is trivially [[braided monoidal category|braided]] and so, again, under restriction of excisive functors to $\mathbb{N}$ there is no way to recover the information in the smash product of spectra that is encoded in the non-trivial braiding of the smash product of spheres.
 
 =--
 
