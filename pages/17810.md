@@ -1,10 +1,16 @@
 
 
+$\,$
 
-> this entry is one section of "[[geometry of physics -- supergeometry and superphysics]]"
-> which is one chapter of "[[geometry of physics]]"
+$\,$
+
+
+> this entry is the first section of "[[geometry of physics -- supergeometry and superphysics]]",
+> which itself is one chapter of "[[geometry of physics]]"
 
 > next section: _[[geometry of physics -- supergeometry]]_
+
+$\,$
 
 $\,$
 
@@ -1894,14 +1900,6 @@ $$
 
 =--
 
-+-- {: .num_example #HomotopyCommutativeRingSpectrum}
-###### Example
-
-Given a [[homotopy commutative ring spectrum]] $E$ (i.e., via the [[Brown representability theorem]], a [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]), then its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a super-commutative ring.
-
-See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
-
-=--
 
 The following is an elementary but fundamental fact about the relation between
 commutative algbra and supercommutative superalgebra. It is implicit in much of the
@@ -1985,37 +1983,51 @@ and if $B$ is any superalgebra,
 
 =--
 
-It may happen that the $\mathbb{Z}/2$-grading of a [[supercommutative superalgebra]] [[lift|lifts]] to a finer grading 
-with respect to some [[abelian group]] $A$, through a group homomorphism $A \to \mathbb{Z}/2$. The most 
-important special case of this is the lift to $\mathbb{Z}$-grading through the mod-2-reduction 
-$\mathbb{Z} \stackrel{mod\,2}{\longrightarrow}\mathbb{Z}/2$.
+It may happen that the $\mathbb{Z}/2$-grading of a [[supercommutative superalgebra]] [[lift|lifts]] to a finer grading
+with respect to some [[abelian group]] $A$, through a group homomorphism $A \to \mathbb{Z}/2$. The most
+important special case of this is the lift to $\mathbb{Z}$-grading through the mod-2-reduction
+$\mathbb{Z} \stackrel{mod\,2}{\longrightarrow}\mathbb{Z}/2$:
+
 
 +-- {: .num_defn #SupercommutativeSuperalgebraZGraded}
 ###### Definition
 
-Write 
+Write
 
 $$
   sCAlg^{\mathbb{Z}}_{\mathbb{R}}
     \hookrightarrow
   Alg_{\mathbb{R}}
-$$ 
+$$
 
 for the [[full subcategory]] of [[associative algebras]] over $\mathbb{R}$ on those algebras which are
-[[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra}) whose $\mathbb{Z}/2$-grading is 
+[[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra}) whose $\mathbb{Z}/2$-grading is
 lifted to a $\mathbb{Z}$-grading through $\mathbb{Z} \overset{mod\,2 }{\longrightarrow} \mathbb{Z}/2$.
 Equivalently this are the $\mathbb{Z}$-[[graded algebras]] over $\mathbb{R}$ such that any two elements
 $a,b$ of homogeneous degree $deg(a), deg(b) \in \mathbb{Z}$ the product satisfies
 
 $$
-  a b \;=\; (-1)^{deg(a) deg(b)} b a 
+  a b \;=\; (-1)^{deg(a) deg(b)} b a
   \,.
 $$
 
 =--
 
+Of course analogous definitions apply to $\mathbb{R}$ replaced by any other [[ground ring]].
 
-+-- {: .num_prop}
++-- {: .num_example #HomotopyCommutativeRingSpectrum}
+###### Example
+
+Given a [[homotopy commutative ring spectrum]] $E$ (i.e., via the [[Brown representability theorem]], a [[multiplicative cohomology theory|multiplicative]] [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]), then its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a $\mathbb{Z}$-graded super-commutative ring as in def. \ref{SupercommutativeSuperalgebraZGraded}.
+
+See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
+
+=--
+
+We note how, conversely, plain supercommutative superalgebras arise as $\mathbb{Z}$-graded supercommutative
+superalgebra with extra structure:
+
++-- {: .num_prop #2PeriodicZGradedSupercommutativeSuperalgebras}
 ###### Proposition
 
 There is a pair of [[adjoint functors]]
@@ -2035,11 +2047,11 @@ where
 
 * the [[left adjoint]] simply forgets the lift to a $\mathbb{Z}$-grading,
 
-* the [[right adjoint]] sends a supercommutative superalgebra $A = (A_{even} \oplus A_{odd}, \cdot)$ to the 
+* the [[right adjoint]] sends a supercommutative superalgebra $A = (A_{even} \oplus A_{odd}, \cdot)$ to the
   _periodically_ $\mathbb{Z}$-graded algebra $A_{per}$ with
-  
+
   $$
-    (A_{per})_n \coloneqq 
+    (A_{per})_n \coloneqq
      \left\{
        \array{
          A_{even} & \vert n \; \text{is even}
@@ -2048,11 +2060,11 @@ where
        }
      \right.
   $$
-  
+
   whose product is elementwise that of $A$, under these identifications;
 
-Here $per$ is a [[faithful functor]], but not a [[full functor]].  
-  
+Here $per$ is a [[faithful functor]], but not a [[full functor]].
+
 =--
 
 +-- {: .proof}
@@ -2072,10 +2084,10 @@ is a [[homomorphism]] of the underlying $\mathbb{R}$-algebras subject to the con
 then
 
 $$
-  \phi(A_n) 
-    \subset 
-  (B_{per})_n 
-    = 
+  \phi(A_n)
+    \subset
+  (B_{per})_n
+    =
   \left\{
     \array{
        B_{even} & \vert n\; \text{is even}
@@ -2086,7 +2098,7 @@ $$
   \,.
 $$
 
-This constraint is equivalent to 
+This constraint is equivalent to
 
 $$
   \phi(\oplus_{2n} A_{2n})
@@ -2120,15 +2132,138 @@ $$
 $$
 
 which is componentwise the identity. This is clearly an [[epimorphism]], but not a [[monomorphism]],
-hence not an [[isomorphism]]. By general properties of [[adjoint functors]] 
+hence not an [[isomorphism]]. By general properties of [[adjoint functors]]
 ([this prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)), this means that $R$ is a [[faithful functor]]
 but not a [[full functor]].
 
+=--
+
+Proposition \ref{2PeriodicZGradedSupercommutativeSuperalgebras} says that a supercommutative superalgebra
+is not just a $\mathbb{Z}$-garded supercommutative superalgebra with the [[extra property]] that it is 
+2-periodic in the grading.
+Instead, in order to get an actual equivalence of categories we need to equip $\mathbb{Z}$-graded
+supercommutative superalgebras with [[extra structure]]:
+
++-- {: .num_prop #ModulesOverRbeta}
+###### Proposition
+
+Let 
+
+$$
+  \mathbb{R}[\beta,\beta^{-1}] \in \mathrm{sCAlg}^{\mathbb{Z}}_{\mathbb{R}}
+$$
+
+be the [[free construction|free]] $\mathbb{Z}$-graded supercommutative superalgebra 
+(in the sense of def. \ref{SupercommutativeSuperalgebraZGraded}) 
+on a single invertible generator $\beta$ of even degree, i.e.
+
+$$
+  \left(
+    \mathbb{R}[\beta,\beta^{-1}]
+  \right)_n
+  \;=\;
+  \left\{
+    \array{
+      \mathbb{R} & \vert n\;\text{even}
+      \\
+      0 & \vert n \; \text{odd}
+    }
+  \right.
+  \,.
+$$
+
+Then there is an [[equivalence of categories]] between $\mathbb{R}[\beta,\beta^{-1}]$-algebras (def. \ref{AAlgebra})
+(i.e. objects $A$ of $sCAlg^{\mathbb{Z}}_{\mathbb{R}}$ equipped with a homomorphism $\mathbb{R}[\beta, \beta^{-1}] \to A$,
+by prop. \ref{AlgebrasOverAAreMonoidsUnderA})
+and plain supercommutative superalgebras (def. \ref{SupercommutativeSuperalgebra})
+
+$$
+  \mathbb{R}[\beta,\beta^{-1}] Alg
+    \;\simeq\;
+  sCAlg_{\mathbb{R}}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+An $\mathbb{R}[\beta, \beta^{-1}]$-module $N$ is necessarily 2-periodic: given $N_0$ and $N_1$
+then
+$$
+  N_{2n} \simeq N_0 \beta^n
+$$
+$$
+  N_{2n+1} \simeq N_1 \beta^n
+$$
+
+for all $n \in \mathbb{Z}$, because the operations of multiplication with $\beta$ and with $\beta^{-1}$ are isomorphism 
+(since they are inverse to each other, by the condition that $\beta^{-1}$ is the multiplicative inverse to $\beta$) that
+just shift degrees up and down by 2, respectively.
+
+Hence given an $\mathbb{R}[\beta, \beta^{-1}]$-algebra $A$, then the degree $(1,1)$ component of its product
+
+$$
+  (-)\cdot_{1,1}(-) \;\colon\; A_1 \otimes_{\mathbb{R}} A_1 \longrightarrow A_2
+$$
+
+is equivalently determined by a [[linear map]] of the form
+
+$$
+  (-)\cdot'_{1,1}(-) \;\colon\; A_1 \otimes_{\mathbb{R}} A_1 \longrightarrow A_0
+$$
+
+via
+
+$$
+  x \cdot_{1,1} y = (x \cdot'_{1,1} y) \beta
+  \,.
+$$
+
+Setting moreover $(-)\cdot'_{0,0}(-) \coloneqq (-)\cdot_{0,0}(-)$ and $(-)\cdot'_{0,1}(-) \coloneqq (-)\cdot_{0,1}(-)$ then 
+this yields a [[supercommutative superalgebra]]
+
+$$
+  (A_0 \oplus A_1, (-)\cdot'(-))
+  \,.
+$$ 
+
+Conversely, given a supercommutative superalgebra $(A_{even} \oplus A_{odd})$, then the converse of this construction defines 
+an $\mathbb{R}[\beta,\beta^{-1}]$-algebra. This becomes most evident if we freely introduce a generator $\beta^{1/2}$
+in degree 1, subject to the relation $\beta^{1/1} \beta^{1/2} = \beta$. Then the induced $\mathbb{R}[\beta, \beta^{-1}]$-algebra is
+
+$$
+  A_{2n} \coloneqq A_{even} \cdot \beta^{n}
+$$
+$$
+  A_{2n+1} \coloneqq A_{odd} \cdot \beta^{1/2} \beta^{n} 
+$$
+
+with the evident induced product. This shows that the operations sending $\mathbb{R}[\beta,\beta^{-1}]$-modules
+to supercommutative superalgebras, and conversely, are both [[essentially surjective functors]]. 
+
+Finally it is immediate to see that under this identification the sets of [[homomorphisms]] are in [[natural bijection]],
+hence that both functors are also [[fully faithful functors]] and hence [[equivalences of categories]].
+
+=--
+
+As before, all these considerations of course work also for $\mathbb{R}$ replaced by any other [[ground ring]].
+
++-- {: .num_example}
+###### Example
+
+The analog of example \ref{HomotopyCommutativeRingSpectrum} for prop. \ref{ModulesOverRbeta}
+are [[spectra]] equipped with the structure of an [[E-infinity algebra]] over an [[even cohomology theory|even]]
+[[periodic ring spectrum|2-periodic]] [[E-infinity ring]]. The relation of these to [[supercommutative superalgebra]]
+has been amplified in [Rezk 09, section 2](periodic+ring+spectrum#Rezk09).
 
 =--
 
 
-It is useful to make explicit the following [[formal dual|formally dual]] perspective on [[supercommutative superalgebras]]:
+$\,$
+
+Next, it is useful to make explicit the following [[formal dual|formally dual]] perspective on [[supercommutative superalgebras]]:
 
 +-- {: .num_defn #Affines}
 ###### Definition
