@@ -43,6 +43,8 @@ For instance the associativity law in an [[A-infinity algebra]] is the special c
 
 * [[unitality]]
 
+* [[co-associativity]]
+
 ## References
 
 The [[coherence law]] of associativity is stated in 
