@@ -64,6 +64,8 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 * J. R. Schoenfield, _Unramified forcing_, pp. 383--395 in: Axiomatic set theory, vol. 1, ed. D. S. Scott, Proc. Symp. Pure Math. __13__ (1971)
 
+* S. Shelah, _Proper and Improper Forcing_ , Perspectives in Math. Logic vol. 5 Springer Heidelberg 1998. ([toc](http://projecteuclid.org/euclid.pl/1235419814#toc))
+
 * [[Paul Cohen]], _The Discovery of Forcing_, Rocky Mountain J. Math.
 Volume 32, Number 4 (2002), 1071-1100. ([Euclid](http://projecteuclid.org/euclid.rmjm/1181070010))
 
