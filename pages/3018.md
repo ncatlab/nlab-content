@@ -140,28 +140,29 @@ We set down a few basic lemmas which describe how extranatural transformations c
 +-- {: .un_lemma}
 ###### Lemma 1 ("stalactites")
 
-Let $F, G$ be functors of the form $C^{op} \times C \to D$. If $\alpha_{x, y}: F(x, y) \to G(x, y)$ is natural in $x, y$ and $\beta_x: G(x, x) \to H$ is extranatural in $x$ (for some object $H$ of $D$), then 
-$$\beta_x \alpha_{x, x}: F(x, x) \to H$$ 
+Let $F \colon C^{op} \times C \to D$ and $G \colon \underbrace{C^{op} \times C \times \cdots \times C^{op} \times C}_{2n} \to D$ be functors. If $\alpha_{x, y_1, \ldots, y_{n-1}, z} \colon F(x, z) \to G(x, y_1, y_1, \ldots, y_{n-1}, y_{n-1}, z)$ is natural in $x,z$ and extranatural in $y_1, \ldots, y_{n-1}$, and $\beta_{y_1, \ldots, y_n} \colon G(y_1, y_1, \ldots, y_n, y_n) \to H$ (for some object $H$ of $D$) is extranatural in $y_1, \ldots, y_n$, then 
+$$\beta_{\underbrace{x, \ldots, x}_{n}} \alpha_{\underbrace{x, \ldots, x}_{n+1}}: F(x, x) \to H$$ 
 is extranatural in $x$.
 =--
 
 +-- {: .un_lemma}
 ###### Lemma 2 ("stalagmites")
-
-Let $G, H$ be functors of the form $C^{op} \times C \to D$. If $\alpha_x: F \to G(x, x)$ is extranatural in $x$ (for some object $F$ of $D$) and $\beta_{x, y}: G(x, y) \to H(x, y)$ is natural in $x, y$, then 
-$$\beta_{x, x} \alpha_x: F \to H(x, x)$$ 
+Let $G \colon \underbrace{C^{op} \times C \times \cdots \times C^{op} \times C}_{2n} \to D$ and $H \colon C^{op} \times C \to D$ be functors.  If $\alpha_{y_1, \ldots, y_n} \colon F \to G(y_1, y_1, \ldots, y_n, y_n)$ (for some object $F$ of $D$) is extranatural in $y_1, \ldots, y_n$, and $\beta_{x, y_1, \ldots, y_{n-1}, z} \colon G(x, y_1, y_1, \ldots, y_{n-1}, y_{n-1} ,z) \to H(x,z)$ is natural in $x, z$ and extranatural in $y_1, \ldots, y_{n-1}$, then 
+$$\beta_{\underbrace{x, \ldots, x}_{n+1}} \alpha_{\underbrace{x, \ldots, x}_{n}} \colon F \to H(x, x)$$ 
 is extranatural in $x$. 
 =--
 
 +-- {: .un_lemma}
 ###### Lemma 3 ("yanking")
 
-Let $F, H$ be functors of the form $C \to D$, and let $G: C \times C^{op} \times C \to D$ be a functor. If $\alpha_{x, y}: F(y) \to G(x, x, y)$ is natural in $y$ and extranatural in $x$, and if $\beta_{x, y}: G(x, y, y) \to H(x)$ is natural in $x$ and extranatural in $y$, then 
-$$\beta_{x, x} \alpha_{x, x}: F(x) \to H(x)$$ 
+Let $F, H$ be functors of the form $C \to D$, and let $G: \underbrace{C \times C^{op} \times C \times  \ldots \times C^{op} \times C}_{2n+1} \to D$ be a functor. If $\alpha_{x, y_1, \ldots, y_n} \colon F(x) \to G(x, y_1, y_1, \ldots, y_n, y_n)$ is natural in $x$ and extranatural in $y_1, \ldots, y_n$, and if $\beta_{y_1, \ldots, y_n, z} \colon G(y_1, y_1, \ldots, y_n, y_n ,z) \to H(z)$, is natural in $z$ and extranatural in $y_1, \ldots, y_n$, then 
+$$\beta_{\underbrace{x, \ldots, x}_{n+1}} \alpha_{\underbrace{x, \ldots x}_{n+1}}: F(x) \to H(x)$$ 
 is natural in $x$. 
 =--
 
-In fact, these lemmas essentially capture "all possible" ways in which extranatural transformations can be composed.  The general statement, which is obtained by combining these, is that if the graphs representing the two transformations can be composed without creating any closed loops, then the transformations can be composed, and the resulting graph is the composite of the individual graphs.  This can be found in the original paper about extranatural transformations:
+In fact, these lemmas essentially capture "all possible" ways in which extranatural transformations can be composed.  The general statement, which is obtained by combining these, is that if the graphs representing the two transformations can be composed without creating any cycles, then the transformations can be composed. In some detail, if there are no cycles in the composed graph, then it can be shown that each connected components has one of the forms of the compositions in Lemma 1-3.  It then follows from the lemmas (and from the fact that extranaturality can be determined by separation of variables) that each connected component can be replaced by a single edge, and the resulting graph defines the type of the composed transformation.
+
+This can be found in the original paper about extranatural transformations:
 
 * Eilenberg and Kelly, *A generalization of the functorial calculus*, J. Algebra 3 366--375 (1966)
 
