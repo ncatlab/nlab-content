@@ -37,6 +37,14 @@ An **$\infty$-Lie group** is accordingly a group object in [[∞-Lie groupoid]]s
 
 For details see [[groupoid object in an (∞,1)-category]].
 
+## Models
+
+By
+
+* [[model structure on simplicial groups]]
+
+* [[model structure on reduced simplicial sets]]
+
 ## Related concepts and Examples
 
 
