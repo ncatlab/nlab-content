@@ -41,6 +41,10 @@ _[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy the
 
 _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-1.pdf) under construction)
 
+* _[[Introduction to stable homotopy theory -- 1-1|Part 1.1 -- Sequential Spectra]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-1-1.pdf))
+
+* _Part 1.2 -- Structured Spectra_
+
 _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_
 
 _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-2.pdf) under construction)
