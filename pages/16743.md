@@ -43,7 +43,9 @@ A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifie
 
 The main interest of the concept of a De Morgan topos lies in the fact that for many statements whose classical (Boolean) validity is lost in intuitionistic logic the De Morgan property delineates precisely the range of toposes where the statement is valid. An illustration of this is e.g. the implication that maximal ideals are prime in commutative rings. 
 
-Though such statements are in fact equivalent to the De Morgan property they are better viewed as higher-order properties of De Morgan toposes. In contrast, there exists also a long list, mostly due to [Johnstone (1979)](#Johnstone79), of statements equivalent to the De Morgan property, that are logically of the same complexity and are often more convenient to work with. Some of the most important of these appear in the following:
+Though such statements are in fact equivalent to the De Morgan property they are better viewed as higher-order properties of De Morgan toposes.
+
+In contrast, there exists also a long list, mostly due to [Johnstone (1979)](#Johnstone79), of statements equivalent to the De Morgan property, that are logically of the same complexity and are often more convenient to work with than the original definition. Some of the most important of these appear in the following:
 
 +-- {: .num_prop #deMorgan_equivalents}
 ###### Proposition
@@ -51,9 +53,9 @@ Let $\mathcal{E}$ be a topos. The following are equivalent:
 
 * $\mathcal{E}$ is a De Morgan topos.
 
-* For all formulae $\varphi,\psi$ : $\mathcal{E}\models \neg (\varphi\wedge\psi)\Leftrightarrow\(\neg\varphi\vee\neg\varpsi)$ .
+* For all formulae $\varphi,\psi$ : $\mathcal{E}\models \neg (\varphi\wedge\psi)\Leftrightarrow(\neg\varphi\vee\neg\psi)$ .
 
-* For every formula $\varphi$ : $\mathcal{E}\models \neg\vee\neg\neg\varphi$
+* For every formula $\varphi$ : $\mathcal{E}\models \neg\varphi\vee\neg\neg\varphi$.
 
 * For every subobject $X\rightarrowtail Y$: $\neg X\vee\neg\neg X=Y$.
 
@@ -72,7 +74,7 @@ Let $\mathcal{E}$ be a topos. The following are equivalent:
 * $\bot:1\to\Omega$ has a [[complement]].
 =--
 
-The first few equivalences are based mainly on the validity of the 'law of excluded middle' for elements of the form $\neg a$ in any [[De Morgan algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone).
+The first few equivalences are based mainly on the validity of the "law of excluded middle" for elements of the form $\neg a$ in any [[De Morgan algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone).
 
 ## Properties
 
@@ -90,16 +92,42 @@ Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^
 
 This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations in [Kock-Reyes (1994)](#KR94) and [Caramello (2012)](#Caramello12).
 
+### De Morganization
+
+It was discovered by [[Olivia Caramello]] that every topos $\mathcal{E}$ can be associated with a De Morgan topos $Sh_m(\mathcal{E})$, its [[De Morganization]], in a universal way:
+
++--{: .num_prop #largest_deMorgan}
+###### Proposition
+Given a topos $\mathcal{E}$. There exists a unique largest [[dense subtopos]] $Sh_m(\mathcal{E})$ of $\mathcal{E}$ that is a De Morgan topos.
+=--
+
+For a proof see [Caramello (2009)](#Caramello09). The $m$ that occurs here, refers to the _De Morgan topology_ , cf. [[De Morganization]].
+
+As $Sh_{\neg\neg}(\mathcal{E})$, the sheaf subtopos for the [[double negation|double negation topology]] $\neg\neg$ , is the _smallest_ dense De Morgan subtopos, we see that all dense De Morgan subtoposes lie in the interval between $Sh_{\neg\neg}(\mathcal{E})$ and $Sh_{m}(\mathcal{E})$.
+
 ### Relation to cohesion
 
 Given that the [above conditions](#deMorgan_equivalents) concern $1\coprod 1$ and the contractability of $\Omega_{\neg\neg}$ it comes as no surprise that the De Morgan property interacts interestingly with [[Lawvere|Lawvere's]] axiomatic approach to [[cohesion]] and, in particular, with the part of it that concerns the connectedness of the subobject classifier in a cohesive topos of spaces. A first indication of this is the following:
 
 +-- {: .num_prop #omega_connected}
 ###### Proposition
-Let $Set^{\mathcal{C}^{op}}$ be a [[presheaf topos]]. Then its [[subobject classifier]] is connected iff $1\in Set^{\mathcal{C}^{op}}$ is a [[connected]] object and $Set^{\mathcal{C}^{op}}$ is not de Morgan iff there exists a connected object $X\in Set^{\mathcal{C}^{op}}$ such that $1\coprod 1\hookrightarrow X$ .
+Let $Set^{\mathcal{C}^{op}}$ be a [[presheaf topos]]. Then its [[subobject classifier]] is connected iff $1\in Set^{\mathcal{C}^{op}}$ is a [[connected]] object and $Set^{\mathcal{C}^{op}}$ is not de Morgan iff there exists a connected object $X\in Set^{\mathcal{C}^{op}}$ such that $1\coprod 1\rightarrowtail X$ .
 =--
 
 This result appears in [La Palme-Reyes-Reyes-Zolfaghari (2004, p.220)](#RZZZ04) where it is attributed to [[Lawvere]].
+
+The following result due to [Mielke (1984)](#Mielke84) shows that the De Morgan property coincides with the (local) absence of a non-trivial [[interval object|interval objects]] in a topos.
+
+Here by an interval object we mean an internal linearly ordered object $I$ with least and greatest elements $m:1\to I$ and $M:1\to I$, respectively, i.e. the sort of thing that is classified by [[sSet]].
+
+An interval object is _trivial_ if $I\simeq I_1\coprod I_2$ and $m,M$ factor through $I_1,I_2$, respectively. A topos $\mathcal{E}$ is said to be **homotopically trivial** if every interval object in $\mathcal{E}$ is trivial, $\mathcal{E}$ is said to _locally homotopically trivial_ if the [[slice topos]] $\mathcal{E}/X$ is homotopically trivial for all $X\in\mathcal{E}$.
+
++-- {: .num_prop #deMorgan_interval}
+###### Proposition
+A topos $\mathcal{E}$ is locally homotopically trivial iff $\mathcal{E}$ is a De Morgan topos. If subobjects of $1$ generate, then $\mathcal{E}$ is homotopically trivial iff $\mathcal{E}$ is a De Morgan topos. 
+=--
+
+For situations where subobjects of $1$ generate see e.g. [Johnstone (1977, sec.5.3 pp.145ff)](#Johnstone77). For a [[Grothendieck topos]] $\mathcal{E}$, this happens precisely when $\mathcal{E}$ is equivalent to $Sh(L)$ for some [[locale]] $L$. From e.g. [Borceux (1994, p.443)](#Borceux94) it follows then that $Sh(L)$ _is homotopically trivial_ precisely when $L$ is a _De Morgan locale_.
 
 ### Relation to model theory
 
@@ -117,6 +145,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * [[De Morganization]]
 * [[De Morgan algebra]]
 * [[Ore condition]]
+* [[double negation]]
 * [[Boolean topos]]
 * [[law of excluded middle]]
 
