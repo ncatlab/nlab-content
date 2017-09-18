@@ -206,6 +206,8 @@ Only part (a) needs further explanation...
 
 ## References
 
+* Konrad Schmuedgen, _Unbounded self-adjoint operators on Hilbert space_, Springer 2012
+
 Chapter VIII of the following classic volume is devoted to unbounded operators:
 
 * Reed, M.; Simon, B.: _Methods of modern mathematical physics_. Volume 1, Functional Analysis 
