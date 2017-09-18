@@ -169,7 +169,7 @@ with a simpler proof given in
 
 Another proof due to [[Mike Hopkins]] is in 
 
-* [[Akhil Mathew]], _Snaith's construction of complex K-theory_, ([pdf](http://people.fas.harvard.edu/~amathew/snaith.pdf))
+* {#HopkinsMathew} [[Akhil Mathew]] (following [[Mike Hopkins]]), _Snaith's construction of complex K-theory_ ([pdf](http://people.fas.harvard.edu/~amathew/snaith.pdf))
 
 Refinement to [[smooth spectra]] and [[differential K-theory]] is in 
 
