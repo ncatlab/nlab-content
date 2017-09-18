@@ -55,6 +55,8 @@ These model structures present the [[derived dg-category]].
 
 * [[model structure on dg-algebras]]
 
+* [[model structure on dg-comodules]]
+
 ## References
 
 Section 3 of
