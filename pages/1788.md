@@ -1,3 +1,9 @@
 
 
-$E {{\wedge} \atop \phantom{.}} X$
+$$
+  X^\wedge_E
+$$
+
+$$
+  X_{\hat E}
+$$
