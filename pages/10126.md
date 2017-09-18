@@ -129,7 +129,15 @@ More generally a [[Thom isomorphism]] may not exists, but $[D X \otimes_{\mathbb
 
 ## Examples
 
-For a detailed discussion of an example in [[K-theory]] see at _[[Poincaré duality algebra]]_ and at _[[Freed-Witten-Kapustin anomaly]]_.
+* [[fiber integration in ordinary cohomology]]
+
+* [[fiber integration in ordinary differential cohomology]]
+
+* [[fiber integration in K-theory]]
+
+  For a detailed discussion of an example in [[K-theory]] see also at _[[Poincaré duality algebra]]_ and at _[[Freed-Witten-Kapustin anomaly]]_.
+
+* [[fiber integration in differential K-theory]]
 
 ## Related concepts
 
