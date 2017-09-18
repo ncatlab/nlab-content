@@ -66,7 +66,7 @@ is an [[epimorphism]] (hence an epimorphism over each $Spec R$) and therefore in
 $$
   X_{dR} = \lim_\to 
    \left(
-     X^{inf} \stackrel{\to}{\to} X
+     X^{inf} \stackrel{\longrightarrow}{\longrightarrow} X
    \right)
   \,,
 $$
