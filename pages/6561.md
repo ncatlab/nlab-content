@@ -113,6 +113,8 @@ Relation to [[BFSS matrix model]] on tori:
 
 Discussion of the [[ADE classification]] of the 6d theories includes, after ([Witten95](#Witten95))
 
+* Julie D. Blum, [[Kenneth Intriligator]], _New Phases of String Theory and 6d RG Fixed Points via Branes at Orbifold Singularities_, Nucl.Phys.B506:199-222,1997 ([arXiv:hep-th/9705044](http://arxiv.org/abs/hep-th/9705044))
+
 * {#HeckmannMorrisonVafa13} [[Jonathan Heckman]], [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
 
 
@@ -122,6 +124,7 @@ Discussion of the [[ADE classification]] of the 6d theories includes, after ([Wi
 Realization of the 6d theory in [[F-theory]] is discussed in ([Heckmann-Morrison-Vafa 13](#HeckmannMorrisonVafa13)).
 
 A proposal for related higher nonabelian differential form data is made in 
+
 
 * {#SSW11} [[Henning Samtleben]], Ergin Sezgin, Robert Wimmer, _(1,0) superconformal models in six dimensions_ ([arXiv:1108.4060](http://arxiv.org/abs/1108.4060))
  
