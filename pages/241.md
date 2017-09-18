@@ -120,7 +120,7 @@ $E$ is _lex total_ if the [[Yoneda embedding]] $y: E \to [E^{op}, Set]$ has a [[
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Street)** 
-A category $E$ is a Grothendieck topos iff it is lex total and ${|Mor(E)|} = \kappa$. 
+A category $E$ is a Grothendieck topos iff it is lex total and the size of the set of isomorphism classes of objects is $\kappa$ or less. 
 =-- 
 
 +-- {: .num_remark} 
