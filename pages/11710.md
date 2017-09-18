@@ -54,16 +54,24 @@ To see first of all that this $I$ is an ideal, consider $x_1, x_2 \in I$. There 
 
 Finally to see that this idea $I$ is indeed proper. But since all the $J_i$ are proper, neither of them contains $1 \in R$, and hence $I$ does not contain $1 \in R$.
 
+=--
+
++-- {: .num_prop #MaximalIdealsArePrimeIdeals}
+###### Proposition
+
+In [[classical mathematics]] then:
+
+Every maximal ideal is a [[prime ideal]].
 
 =--
 
 ### Relation to points in the spectrum
 
+Assuming [[axiom of choice|AC]] and [[exlcuded middle|EM]], then
 
+Maximal ideals in the [[spectrum of a commutative ring]] $Spec(R)$ correspond precisely to the [[closed points]] in the [[Zariski topology]] on $Spec(R)$ ([this prop.](Zariski+topology#MaximalIdealsAreClosedPoints)).  
 
-Maximal ideals in the [[spectrum of a commutative ring]] $Spec(R)$ correspond precisely to the [[closed points]] in the [[Zariski topology]] on $Spec(R)$. 
-
-Closed points are at the heart of the definition of [[scheme]]. A scheme $X$ is a sheaf with respect to the [[Zariski topology]] that admits an covering by open embeddings of affine schemes, where "covering" means that every *closed* point $p: Spec(F) \to X$ ($F$ a *field*) factors through one of the embeddings. 
+Closed points are at the heart of the definition of _[[schemes]]_. A scheme $X$ is a sheaf with respect to the [[Zariski topology]] that admits a covering by open embeddings of affine schemes, where "covering" means that every *closed* point $p: Spec(F) \to X$ ($F$ a *field*) factors through one of the embeddings. 
 
 ## Related concepts
 
