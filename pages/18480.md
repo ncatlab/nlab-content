@@ -5,15 +5,10 @@
 
 ***
 
-This page is about a formalization of the concept of [[directed graphs]] that is usual in combinatorics. 
-For the usual definition of directed graph in category theory, see [[quiver]]. 
+This page is about a formalization of the concept of [[directed graphs]] that is usual in combinatorics. For the usual definition of directed graph in category theory, see [[quiver]]. 
 For some commentary on how the two formalizations relate to one another, see [[directed graph]].
 
-disambiguation nLab page: _[[directed graph]]_
 
-**this nLab page:** _directed graphs -- the combinatorial definition_: digraph
-
-related nLab page: _directed graphs -- the category-theoretic definition_: [[quivers]]
 
 See also [[geometric shape for higher structures]].
 
