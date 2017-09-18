@@ -69,6 +69,8 @@ in itself.
 ### As an abstract topological space
  {#AsAbstractTopologicalSpace}
 
+In brief, Cantor space may be abstractly described as the [[topological space|topological]] [[product]] of countable many copies of the [[discrete space]] $\{0, 1\}$. In more concrete detail: 
+
 Recall that a __[[binary digit]]__ is either $0$ or $1$; the [[set]] (or [[discrete space]]) of binary digits is the [[Boolean domain]] $\mathbb{B}$.
 
 A __point__ in Cantor space is an [[infinite sequence]] of binary digits.  Accordingly, Cantor space may be denoted $\mathbb{B}^{\mathbb{N}}$, since its set of points is a [[function set]].
