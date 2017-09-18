@@ -1,2 +1,2 @@
-
-category:empty
+[[!redirects empty 157>history]]
+category: empty
