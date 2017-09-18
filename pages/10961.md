@@ -92,7 +92,7 @@ and continues:
 
 * [[philosophy of physics]]
 
-* [[quantum measurement]], [[decoherence]]
+* [[quantum measurement]], [[decoherence]], [[consistent histories approach to quantum mechanics]] 
 
 * [[coordination]]
 
