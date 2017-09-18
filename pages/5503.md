@@ -160,6 +160,8 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 
 * [[Lascar group]]
 
+* [[Birkhoff's HSP theorem]]
+
 * [[model theory and physics]]
 
 * entries on researchers in model theory: [[Alfred Tarski]], [[Boris Zilber]], [[Kenneth Kunen]], [[Saharon Shelah]] 
