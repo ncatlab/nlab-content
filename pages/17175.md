@@ -18,7 +18,7 @@
 
 The concept of [[Chern classes]] of [[complex vector bundles]] as [[universal characteristic classes]] in [[ordinary cohomology]] generalized to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]] ([Adams 74](#Adams74), [Lurie 10](#Lurie10)):
 
-for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]].
+for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]]. See at _[complex oriented cohomology -- the cohomology ring of BU(n)](complex+oriented+cohomology+theory#TheCohomologyRingOfBUn)_.
 
 The generalized Chern classes serve as the generalized [[Thom classes]] that make every [[complex vector bundle]] have [[orientation in generalized cohomology]] with respect to any [[complex oriented cohomology theory]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
 
