@@ -1,15 +1,30 @@
 $$
   \array{
-    X_n 
-      &\underoverset{\in W_{cl}}{(\eta_X)_n}{\longrightarrow}&
-    (Q X)_n
-    \\
-    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\tilde \sigma^{Q X}_n}}_{\mathrlap{\in W_{cl}}}
-    \\
-    Maps(S^1,X_{n+1})
-     &\underoverset{\Maps(S^1,(\eta_X)_{n+1})}{\in W_{cl}}{\longrightarrow}&
-    Maps(S^1, (Q X)_{n+1})
+    S^3 \wedge X_{2n}
+      &\overset{i_0}{\longrightarrow}& 
+   (I_+) \wedge S^3 \wedge X_{2n}
+      &\overset{i_1}{\longleftarrow}& 
+   S^3 \wedge X_{2n}
+     &\overset{\tau_{S^2\wedge X_{2n}, S^1}}{\longleftarrow}&
+   S^2 \wedge X_{2n} \wedge S^1
+   \\
+   & {}_{\mathllap{id}}\searrow 
+     & \downarrow & 
+   \swarrow_{\mathrlap{\tau_{S^2, S^1} \wedge X_n}}
+   && \swarrow_{\mathrlap{(\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n})) \wedge S^1}}
+   \\
+   && 
+   S^3 \wedge X_{2n} 
+     && 
+   &
+   X_{2n} \wedge S^1
+   \\
+   &&
+   &  {}_{\mathllap{S^1 \wedge (\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n}))}}\searrow
+   & 
+   \swarrow_{\mathrlap{\tau_{S^1, X_{2n}}}}
+   \\
+   && && S^1 \wedge X_{2(n+1)}
   }
+  \,.
 $$
