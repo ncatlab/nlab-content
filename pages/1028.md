@@ -54,7 +54,7 @@ The dual concept is that of [[coequalizer]].
 In [[type theory]] the [[equalizer]]
 
 $$
-  P \to A \stackrel{\overset{f}{\to}}{\underset{g}{\to}} B
+  P \to A \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} B
 $$
 
 is given by the [[dependent sum]] over the [[dependent type|dependent]] [[equality type]]
@@ -94,7 +94,7 @@ A category has equalizers if it has [[product]]s and [[pullback]]s.
 +-- {: .proof}
 ###### Proof
 
-For $S \stackrel{\overset{g}{\to}}{\underset{f}{\to}} T$ the given diagram, first form the [[pullback]]
+For $S \stackrel{\overset{g}{\longrightarrow}}{\underset{f}{\longrightarrow}} T$ the given diagram, first form the [[pullback]]
 
 $$
   \array{
