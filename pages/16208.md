@@ -1,0 +1,1 @@
+[Lean](http://leanprover.net/) is a proof assistant based on dependent type theory.
