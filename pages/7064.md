@@ -17,6 +17,14 @@
 * table of contents
 {: toc}
 
+***
+
+> With all due respect to anyone interested in them, the stable homotopy groups of spheres are a mess. ([[Stable homotopy and generalised homology|J. F. Adams 74, p 204]])
+
+> My initial inclination was to call this book _[[The Music of the Spheres]]_, but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. ([D. Ravenel 86, preface](#Ravenel86))
+
+***
+
 ## Idea
 
 The [[homotopy groups]] of [[spheres]] $\pi_{n+k}(S^n)$ are the [[homotopy classes]] of maps $S^{n+k} \longrightarrow S^n$
@@ -189,8 +197,8 @@ Introductions and surveys include
 
 * [[eom]], _[Spheres, homotopy groups of the](http://www.encyclopediaofmath.org/index.php/Spheres,_homotopy_groups_of_the)_
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
- {#Ravenel86}
+* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_ ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
+ 
 
 A tabulation of stable homotopy groups of spheres is in 
 
