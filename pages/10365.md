@@ -5,11 +5,13 @@
 
 ## Idea
 
-A [[condensate]] of [[bosons]]
+A [[condensate]] of [[bosons]].
 
 ## Related concepts
 
 * [[boson star]]
+
+* [[Bose-Einstein condensate dark matter]]
 
 
 ## References
