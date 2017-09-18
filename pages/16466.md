@@ -99,7 +99,7 @@ where
 A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory}
 is _regular_ if 
 
-1. it is _[[finitely generated object|finitely generated]]_ in that there exists an [[object]] $E \in \mathcal{A}$ such that every other object is a [[subquotient]] of a [[direct sum]] of tensor products $E^\otimes_n}$, for some $n \in \mathbb{N}$;
+1. it is _[[finitely generated object|finitely generated]]_ in that there exists an [[object]] $E \in \mathcal{A}$ such that every other object is a [[subquotient]] of a [[direct sum]] of tensor products $E^{\otimes_n}$, for some $n \in \mathbb{N}$;
 
 1. for every [[object]] $X\in \mathcal{A}$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, vanishes: $S_\lambda(X) = 0$.
 
