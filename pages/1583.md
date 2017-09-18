@@ -49,8 +49,6 @@ See [[too simple to be simple]] for general theory.
 
 ## Related concepts
 
-* [[point space]]
-
 * [[Sierpinski space]]
 
 * [[discrete space]]
@@ -58,6 +56,8 @@ See [[too simple to be simple]] for general theory.
 * [[empty set]], [[empty category]], [[empty diagram]]
 
 * [[nothing]]
+
+[[!include universal constructions of topological spaces -- table]]
 
 
 [[!redirects empty space]]
