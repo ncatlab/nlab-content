@@ -129,7 +129,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[schemes are sober]]
 
-* [[CW-complexes are Hausdorff spaces]]
+* [[CW-complexes are paracompact Hausdorff spaces]]
 
 * [[subsets are closed in a closed subspace precisely if they are closed in the ambient space]]
 
