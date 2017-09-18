@@ -74,9 +74,13 @@ The **cyclic cohomology** groups of $A$ Are the [[cohomology]] groups of the dua
 If $I\subset A$ is an ideal, then the **relative cyclic homology** groups $HC_n(A,I)$ are the homology groups of the complex $C_\bullet(A,I) = ker(C_\bullet(A)\to C_\bullet(A/I))$.
 =--
 
-## Related entries and literature 
+## Related entries 
 
-* $n$Lab: [[cycle category]], [[cyclic object]], [[Hochschild homology]]
+* [[cycle category]], [[cyclic object]], [[Hochschild homology]]
+
+* [[Sullivan model of free loop space]]
+
+## References
 
 Foundational articles:
 
