@@ -9,6 +9,8 @@ A **wheeled graph** in the sense of ([HRY](#HRY)) is a generalization of the not
 
 The basic idea behind a wheeled graph is that it is a set of vertices with directed edges between them but also edges that leave and enter the graph. It can also have loops and even edges that are not adjacent to any vertex (called **exceptional edges**, see [[generalized graph]] for more). Moreover, a wheeled graph $G$ is equipped with a coloring, i.e. there is a function $Vt(G)\overset{\kappa}\to \mathcal{C}$ from the vertices of $G$ to a set of colors. Since wheeled operads have inputs and outputs, this makes them suitable for modeling [[PROPs]] and [[properads]]. 
 
+The term "wheeled" refers to the fact that a [[generalized graph]] $G$ might have directed loops in it. These can be in the form of vertices with loops, closed directed paths in $G$, or "exceptional loops" that have no vertices at all (see the examples below). Sometimes, we will be interested in wheel-free graphs, which are wheeled graphs without wheels (though they are not, crucially, just [[graphs]].)  
+
 This entry relies on notation defined in [[generalized graph]]. 
 
 ## Definitions ##
@@ -20,6 +22,11 @@ This entry relies on notation defined in [[generalized graph]].
 A wheeled graph is a [[generalized graph]] equipped with a coloring, a direction and a listing (see [here](https://ncatlab.org/nlab/show/generalized+graph#properties) for definitions of these properties). 
  
 =--
+
+## Extra Structure 
+
+Wheeled graphs can have a number of attributes (one of which, confusingly, is being _wheel-free_. 
+
 
 ## Examples
 
