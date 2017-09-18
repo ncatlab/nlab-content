@@ -24,16 +24,27 @@ M_{A\cup B}$, for $A, B \subseteq  \langle n \rangle$, such that if $^{a}b$ deno
 for  $a \in M_{A}$ and $b \in M_{B}$ with  $A \subseteq  B$, then for  $a,
 a^\prime \in M_{A},\, b, b^\prime \in M_{B},\, c \in  M_{C}$  and  $i, j \in
 \langle n \rangle$, the following axioms hold:
+
 1. $\mu_i a = a$ if $a \notin A$
+
 1. $\mu_i\mu_j a = \mu_j\mu_i a$
+
 1. $\mu_i h(a,b) = h(\mu_i a,\mu_i b)$
+
 1. $h(a,b) = h(\mu_i a,b) = h(a,\mu_i b)$ if $i \in A \cap B$ 
+
 1. $h(a,a^\prime ) = [a,a^\prime ]$
+
 1. $h(a,b) = h(b,a)^{-1}$
+
 1. $h(a,b) = 1$ if $a = 1$ or $b = 1$
+
 1. $h(aa^\prime ,b) = {}^{a}h(a^\prime ,b)h(a,b)$
+
 1. $h(a,bb^\prime )  =  h(a,b){ }^b h(a,b^\prime )$
+
 1. ${ }^{a}h(h(a^{-1},b),c)^{c}h(h(c^{-1},a),b)^{b}h(h(b^{-1},c),a)  =  1$
+
 1. ${ }^{a}h(b,c)  =  h(^{a}b,^{a} c)$  if $A \subseteq  B \cap  C$. 
 
 
@@ -59,7 +70,9 @@ $M_{\emptyset}  = \pi_1(X_\emptyset )$; if  $A = {i_1,\ldots ,i_r}$,
 in the right order, then $M$ is the homotopy  $(r + 1)$-ad group
 $\pi _{r+1}(X _A;X_A \cap X_{i_1} ,\ldots ,X_A   \cap  X_{i_r} )$;
 the maps $\mu$ are given by the usual boundary maps;  the
-$h$-functions are  given by generalised Whitehead products.  Note
+$h$-functions are  given by generalised Whitehead products.  
+
+Note
 that whereas these separate elements of structure had all been
 considered previously, the aim of this theory is to consider the
 whole structure, despite its apparent complications. The equivalence of categories is a convincing reason for supposing that the axioms for a crossed $n$-cube of groups are a complete axiomatisation of this homotopical structure, as was not previously known. 
