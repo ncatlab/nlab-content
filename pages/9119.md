@@ -43,7 +43,7 @@ A **reduced object** or **reduced type** is one in the [[full subcategory]] defi
 
 ## Examples
 
-* An object $D$ whose reduced reflection is the [[terminal object]], $Red(D) \simeq * $ is an _[[infinitesimally thickened point]]_.
+* An object $D$ whose reduced coreflection is the [[terminal object]], $\Re(D) \simeq * $ is an _[[infinitesimally thickened point]]_.
 
 * A [[smooth manifold]] is a reduced [[formal smooth manifold]].
 
