@@ -17,12 +17,11 @@
 
 ## Idea
 
-The notion of _2-adjunction_ of _biadjunction_ is the [[categorification|higher generalization]] of the notion of [[adjunction]] from [[category theory]] to [[2-category theory]].
+A _biadjunction_ is the "maximally weak" kind of [[2-adjunction]]: a [[categorification|higher generalization]] of the notion of [[adjunction]] from [[category theory]] to [[2-category theory]], and specifically to [[bicategories]] (or more generally internally in a [[tricategory]].  See [[2-adjunction]] for other kinds of 2-adjunction.
 
 ## Definition
 
 Given (possibly weak) [[2-categories]], $A$ and $C$, and (possibly weak) [[2-functors]] $F:A\to C$ and $U:C\to A$, a __biadjunction__ is given by specifying for each object $a$ in $A$ and each object $c$ in $C$ an [[equivalence of categories]] $C(F a,c)\cong A(a,U c)$, which is [[pseudonatural transformation|pseudonatural]] both in $a$ and in $c$. 
-
 
 There are several other characterizations of biadjointness.
 
