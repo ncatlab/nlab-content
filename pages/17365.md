@@ -6125,7 +6125,12 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
 
 The fact that the second horizontal morphism from below is indeed an isomorphism follows by applying the [[pasting law]] for [[homotopy pushouts]] twice ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)):
 
-Draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point.  Then assemble the squares (1)-(3) in the pasting composite of two cubes on top of each other: (1) as the left face of the top cube, (2) as the middle face where the two cubes touch, and (3) as the front face of the bottom cube. All remaining edges are points. This way the rear and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face 
+{#OctahedralProofFromPastingPushouts} <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/OctahedralProofFromPastingPushouts.jpg" width="400"></div>
+
+Draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point.  Then assemble the squares (1)-(3) in the pasting composite of two cubes on top of each other: (1) as the left face of the top cube, (2) as the middle face where the two cubes touch, and (3) as the front face of the bottom cube. All remaining edges are points. 
+
+
+This way the rear and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face 
 
 $$
   \array{
