@@ -90,7 +90,7 @@ $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense su
 
 ([Johnstone, below Corollary 4.5.20](#Johnstone))
 
-+-- {: .num_prop}
++-- {: .num_prop #largest_topology}
 ###### Proposition
 $\not\not$ is the unique largest topology in $\mathcal{E}$ for which $0\rightarrowtail 1$ is closed.
 =--
@@ -99,18 +99,31 @@ For a proof see ([Johnstone (1977)](#Johnstone77), p.140).
 
 Both of the preceeding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
 
-+-- {: .num_prop}
++-- {: .num_prop #boolean_subtopos}
 ###### Proposition
-$\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dense]], i.e. $j(0)=0$, and (2) the sheaf topos $E_j$ is [[Boolean topos|Boolean]].
+$\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dense]], i.e. $j(0)=0$, and (2) the sheaf topos $\mathcal{E}_j$ is [[Boolean topos|Boolean]].
 =--
 +-- {: .proof}
 ###### Proof
-It remains to show that (1) and (2) imply that $j=\not\not$.  First note that the dense monos corresponding to $j$ are classified by the subobject classifier $\Omega_j$ of $E_j$.  Since (2) implies that $\Omega_j$ is an internal [[Boolean algebra]], it follows that the dense subobjects of any object $X$ form a Boolean algebra.
+It remains to show that (1) and (2) imply that $j=\not\not$.  First note that the dense monos corresponding to $j$ are classified by the subobject classifier $\Omega_j$ of $\mathcal{E}_j$.  Since (2) implies that $\Omega_j$ is an internal [[Boolean algebra]], it follows that the dense subobjects of any object $X$ form a Boolean algebra.
 
 This Boolean algebra is a reflective sub-poset of the [[Heyting algebra]] of all subobjects of $X$, whose reflector is lex, i.e. preserves finite [[meets]].  Thus, it will suffice to show that if $B$ is a Boolean algebra that is a lex-reflective sub-poset of a Heyting algebra $H$ and if $0\in B$, then $B = \{ U | U = \neg\neg U \}$.
 
 To show this, first note that the Boolean negation in $B$ is the restriction of the Heyting negation in $H$.  Thus, Booleanness of $B$ implies $U=\neg\neg U$ for all $U\in B$.  Thus, it remains to show that if $U=\neg\neg U$ then $U\in B$.  But since $0\in B$ and $B$ is an [[exponential ideal]], by the definition $\neg U = (U\Rightarrow 0)$ it follows that $\neg\neg U\in B$ for any $U$.  Thus, if $U=\neg\neg U$ then $U\in B$ as well.
 =--
+
+
+**Remark**
+As the [[Aufhebung]] $\mathcal{E}_j$ of $0\vdash 1$ is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos. (For further details cf. [[Aufhebung]].)
+
+The second part of the [proposition](#boolean_subtopos) follows also from the [above](#largest_topology) together with a more general result in [(Johnstone 2002, p.220)](#Johnstone) :
+
++--{: .num_prop}
+###### Proposition
+Let $j$ be a topology on $\mathcal{E}$. Then $\mathcal{E}_j$ is Boolean iff there exists a [[subterminal object]] $U$ such that $j$ is the largest topology such that $U\rightarrowtail 1$ is closed.
+=--
+
+The next two propositions consider the important special case of $\neg\neg$ on [[presheaf topos|presheaf toposes]]:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -128,11 +141,6 @@ satisfies the [[axiom of choice]].
 =--
 
 This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentially because of this fact, double-negation sheaves on posets are the basic context for [[forcing]] in set theory (since set theorists generally want the axiom of choice to be preserved in forcing models.)
-
-+-- {: .num_prop}
-###### Proposition
-In a presheaf topos (on a small category) the notions of *$\neg\neg$-topology* and that of *[[dense topology]]* coincide.
-=--
 
 
 ## In higher topos theory
@@ -174,6 +182,7 @@ In [[homotopy type theory]]:
 [[!redirects double-negation sublocales]]
 [[!redirects double negation nucleus]]
 [[!redirects double negation nuclei]]
+
 [[!redirects double-negation nucleus]]
 [[!redirects double-negation nuclei]]
 
