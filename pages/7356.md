@@ -210,6 +210,8 @@ Theory and M-Theory: A Modern Introduction_, 2007
 
 Further survey includes
 
+* [[Timo Weigand]], _F-theory: Progress and Prospects_, 2014 ([pdf](https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_workshops_conferences/string_pheno_ringberg/slides_frontiers/weigand.pdf))
+
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://f-theory15.mpp.mpg.de/talks/Vafa.pdf))
 
 
