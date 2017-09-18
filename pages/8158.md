@@ -21,6 +21,11 @@ An **amnestic functor** is a functor $U : \mathcal{D} \to \mathcal{C}$ (between 
 
 * Any strictly [[monadic functor]] is amnestic. Conversely, any monadic functor that is also an amnestic isofibration is necessarily strictly monadic.
 
+## Related concepts
+
+* [[structure]], 
+
+* [[stuff, structure, property]]
 
 ## References
 
