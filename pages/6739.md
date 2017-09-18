@@ -2,6 +2,8 @@
 * automatic table of contents goes here
 {:toc}
 
+**Please don't tamper with this article for a little while -- I want to make more edits soon and not have the flow interrupted.**
+
 ## Idea 
 
 Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$ if it is isomorphic to a graph obtained by applying a sequence of operations of the following sort, starting from $G$: 
@@ -12,35 +14,44 @@ Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$
 
 * Contracting edges, where contracting an edge means removing it and identifying its endpoints. 
 
-Graph minors can be viewed as certain types of subquotients in an appropriate category of graphs. 
+Graph minors can be viewed as certain types of subquotients in an appropriate category of graphs; this article describes which subquotients those are in categorical language.  
+
++-- {: .num_remark} 
+###### Disclaimer 
+To be honest, it's not really clear how a categorical POV (or at least the POV presented here) can usefully inform or guide or clarify graph theory. For the time being, we are just collecting some notes. No deep theorems of graph theory are proved here. The main observation is simply that graphs form a category with very good properties, and there may be potential of putting those properties to effective use some day. 
+=-- 
 
 ## Categorical POV  
 
-We take the point of view that a simple graph is essentially the same thing as a set $V$ equipped with a reflexive symmetric relation $E$, and a morphism of simple graphs is a function which respects these relations. Indeed, such a relation determines and is uniquely determined by a simple graph $G$ where for given vertices $x, y \in V$, there is an edge between $x$ and $y$ in $G$ iff both $E(x, y)$ and $x \neq y$. 
+We take the point of view that a *simple graph* (consisting of a set of vertices $V$ and a collection of two-element subsets of $V$ called "edges") carries the same information as a set $V$ equipped with a reflexive symmetric relation $E$, and that a morphism of simple graphs should be defined as a function between the vertex-sets which respects such relations. Indeed, such a relation determines and is uniquely determined by a simple graph $G$ where for given vertices $x, y \in V$, there is an edge $\{x, y\}$ between $x$ and $y$ in $G$ iff both $(x, y) \in E$ and $x \neq y$. We will write $E(x, y)$ to mean $(x, y) \in E$. 
 
-Notice that contraction of edges yields a quotient in this category. For example, if we want to contract a collection of edges by identifying certain points along an equivalence relation $R$, that is via some quotient map $q \colon V \to V/R$, then we simply take the image of the composite 
++-- {: .num_remark} 
+###### Remark 
+Since edges are $2$-element subsets, it might seem more natural to interpret a simple graph as a set $V$ equipped with a symmetric *irreflexive* relation $E$, whereby $E(x, x)$ is false for all $x \in V$. But the result is a rather poor category which lacks certain morphisms we would like, such as edge contractions, at least if we take the morphisms $(V, E) \to (W, F)$ to be functions $f: V \to W$ which preserve those relations. Indeed, we could never have both $E(x, y)$ and $f(x) = f(y)$ since irreflexivity of $F$ would render $F(f(x), f(y))$ false. Thus, requiring reflexivity is the more flexible option. 
+=-- 
+
+Notice that contraction of edges yields a quotient in this category. For example, if we want to contract a collection of edges by identifying certain points along an equivalence relation $R$, that is via some quotient map $q: V \to V/R$, then we simply take the image of the composite 
 
 $$E \hookrightarrow V \times V \stackrel{q \times q}{\to} V/R \times V/R;$$ 
 
-notice this image is a reflexive symmetric relation on $V/R$. While it might seem more natural to use instead an _irreflexive_ relation to express _loop-free graphs_ (a relation $E$ being **irreflexive** if it has empty intersection with the diagonal in $V \times V$), the fact of the matter is that irreflexive relations are not closed under the taking of images, and the category of sets with symmetric irreflexive relations and relation-preserving morphisms does not admit the forming of such quotients. 
+notice this image is a reflexive symmetric relation on $V/R$. 
 
-Thus, we let $SimpGph$ denote the category of sets equipped with a reflexive symmetric relation. This category has many convenient properties: 
+Thus, we let $SimpGph$ denote the category of sets equipped with a reflexive symmetric relation. This category is convenient in many respects (for details see [[category of simple graphs]]): 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-$SimpGph$ is the category of $\neg\neg$-[[separated presheaves]] on the full subcategory of $FinSet$ consisting of the objects $1, 2$. It is thus a [[Grothendieck quasitopos]]. In particular, both it and its opposite $SimpGph^{op}$ are regular categories. 
+The category $SimpGph$ has the following properties. 
+
+* It is a [[Grothendieck quasitopos]]. In particular, both it and its opposite $SimpGph^{op}$ are regular categories. 
+
+* It is an $\infty$-[[extensive category]]. 
+
+* The forgetful functor $\Gamma = \hom(1, -): SimpGph \to Set$ is faithful and exhibits $SimpGph$ as a [[topological concrete category]]. 
+
+* $SimpGph$ is *cohesive*: the adjoint string $\Delta \dashv \Gamma \dashv \nabla: Set \to SimpGph$ has a further left adjoint $\Pi \dashv \Delta$, and $\Pi: SimpGph \to Set$ preserves products. 
 =-- 
 
-Essentially the same observations apply to the category of finite simple graphs: it too is an [[extensive category|extensive]] quasitopos. 
-
-The category of simple graphs is also *topological*, and *cohesive* in the following sense: 
-
-+-- {: .num_prop} 
-###### Proposition 
-The forgetful functor $\Gamma = \hom(1, -): SimpGph \to Set$ is faithful, in fact exhibits $SimpGph$ as a [[topological concrete category]], and is *cohesive*: there is an adjoint string $\Pi \dashv \Delta \dashv \Gamma \dashv \nabla: Set \to SimpGph$, with $\Pi: SimpGph \to Set$ product-preserving. 
-=-- 
-
-Of course $\Delta$ assigns to a set $X$ the discrete graph on $X$, and $\nabla$ the codiscrete graph, while $\Pi(G)$ is the set of connected components of $G$. Let $\gamma: 1 \to \Delta \Pi$ denote the unit of $\Pi \dashv \Delta$; the component $\gamma G: G \to \Delta \Pi (G)$ takes a vertex $v \in G$ to the connected component to which it belongs. Notice that $\gamma G$ is a regular epi. 
+Of course $\Delta$ assigns to a set $X$ the discrete graph on $X$ (the minimal reflexive relation $\delta_X \hookrightarrow X \times X$), and $\nabla$ the codiscrete graph (the maximal relation $1_{X \times X}$), while $\Pi(G)$ is the set of connected components of $G$. Let $\gamma: 1 \to \Delta \Pi$ denote the unit of $\Pi \dashv \Delta$; the component $\gamma G: G \to \Delta \Pi (G)$ takes a vertex $v \in G$ to the connected component to which it belongs. Notice that $\gamma G$ is a regular epi. 
 
 +-- {: .num_defn} 
 ###### Definition 
@@ -57,7 +68,7 @@ is a pushout square. If $G \to G'$ is a contraction map, we also say $G'$ is a *
 
 It is immediate that a contraction map is a regular epi, since every $\gamma K$ is regular epi. 
 
-+-- {: .num_prop} 
++-- {: .num_prop #composition} 
 ###### Proposition 
 Contraction maps are closed under composition. 
 =-- 
