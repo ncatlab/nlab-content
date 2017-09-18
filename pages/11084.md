@@ -30,27 +30,32 @@
 
 ### Model Layer
 
-#### Principal bundles via Smooth groupoids
+#### Smooth principal bundles via Smooth groupoids
  {#PrincipalBundlesViaSmoothGroupoids}
 
 For $G$ a [[Lie group]], we discuss $G$-[[principal bundles]] over a [[smooth manifold]] $X$ as a natural construction in the context of [[smooth groupoids]].
 
-##### Review of Cech 1-cocycles as morphisms of smooth groupoids
+##### Cech 1-cocycles
 
-Recall the discussion of [[Cech cohomology]] in degree 1 from _[[geometry of physics -- smooth homotopy types]]_.
+Recall the discussion of [[Cech cohomology]] in degree 1 from _[[geometry of physics -- smooth homotopy types]] -- [Pre-smooth groupoids](geometry%20of%20physics%20--%20smooth%20homotopy%20types#PreSmoothGroupoids)_
 
-Let $G$ be a [[Lie group]] and $X$ a [[smooth manifold]] (all our smooth manifolds are assumed to be finite dimensional and [[paracompact space|paracompact]]). 
++-- {: .num_defn #BGAsASmoothGroupoid}
+###### Definition
 
-From the group $G$ we canonically obtain a [[groupoid]] that we write $\mathbf{B}G$ and call the [[delooping]] groupoid of $G$. Formally this groupoid is
-
-$$
-  \mathbf{B}G = (G \stackrel{\longrightarrow}{\longrightarrow} *)
-$$
-
-with composition induced from the product in $G$. A useful cartoon of this groupoid is
+Let $G$ be a [[Lie group]]. Write $(\mathbf{B}G)_\bullet \in LieGrpd \hookrightarrow PreSmoothGrpd$ for the [[Lie groupoid]]
 
 $$
-  \mathbf{B}G = 
+  (\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow} \bullet)
+$$
+
+with composition induced from the product in $G$. 
+
+=--
+
+A useful schematic picture this groupoid is
+
+$$
+  (\mathbf{B}G)_\bullet = 
   \left\{
     \array{
       && \bullet
@@ -66,42 +71,67 @@ $$
 
 where the $g_i \in G$ are elements in the group, and the bottom morphism is labeled by forming the product in the group. (The order of the factors here is a convention whose choice, once and for all, does not matter up to equivalence.)
 
-But we get a bit more, even. Since $G$ is a [[Lie group]], there is smooth structure on $\mathbf{B}G$  that makes it a [[Lie groupoid]], an [[internal groupoid]] in the [[category]] [[Diff]] of [[smooth manifold]]s: its collections of objects (trivially) and of morphisms each form a smooth manifold, and all structure maps (source, target, identity, composition) are [[smooth function]]s. We shall write
++-- {: .num_remark}
+###### Remark
+
+The [[nerve]] of $(\mathbf{B}G)_\bullet$, def. \ref{BGAsASmoothGroupoid}, is a [[simplicial object]] of the form
 
 $$
-  \mathbf{B}G \in LieGrpd
+  N(\mathbf{B}G)_k = G^{\times_k}
 $$
 
-for $\mathbf{B}G$ regarded as equipped with this smooth structure. Here and in the following the boldface is to indicate that we have an object equipped with a bit more structure -- here: smooth structure -- than present on the object denoted by the same symbols, but without the boldface. Eventually we will make this precise by having the boldface symbols denote objects in the [[(∞,1)-topos]] [[Smooth∞Grpd]] which are taken by [[forgetful functor]]s to objects in [[∞Grpd]] denoted by the corresponding non-boldface symbols.[^TwoForgetful]
+with face maps of the form
 
-[^TwoForgetful]: There are actually two such forgetful functors, $\Gamma$ and $\Pi$. The first sends $\mathbf{B}G$ to $B G_{disc}$, which in [[topology]] is known as $K(G,1)$. The other sends $\mathbf{B}G$ to the [[classifying space]] $B G$. (see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">∞-Lie groupoid -- geometric realization</a>). This distinction is effectively the origin of differential cohomology.
+$$
+  N(\mathbf{B}G)_\bullet
+ =
+ \left(
+   \cdots
+   G \times G \times G
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+   G \times G
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+   G \stackrel{\longrightarrow}{\longrightarrow} \bullet
+ \right)
+$$
 
-Also the smooth manifold $X$ may be regarded as a [[Lie groupoid]] -- a groupoid with only identity morphisms. Its cartoon description is simply
+where the outer face maps forget the corresponding outer copy in the Cartesian product of groups, and the inner face maps are given by group multiplication in two consecutive copies.
+
+=--
+
+
++-- {: .num_defn #SmoothManifoldAsSmoothGroupoid}
+###### Definition
+
+
+For $X$ a [[smooth manifold]], we may regard it as a [[Lie groupoid]] with only identity morphisms. Its schematic depiction is simply
 
 $$
   X = \{x \stackrel{id}{\longrightarrow} x \}
   \,.
 $$
 
-But there are other groupoids associated with $X$:
+=--
 
-Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. To this is canonically associated the [[Cech groupoid]] $C(\{U_i\})$. Formally we may write this groupoid as
++-- {: .num_defn #CechGroupoidAsSmoothGroupoid}
+###### Definition
+
+Let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of a [[smooth manifold]] $X$. The corresponding _[[Cech groupoid]]_ $C(\{U_i\})_\bullet$ is
 
 $$
-  C(\{U_i\})
+  C(\{U_i\})_\bullet
   =
   \left(
-    \coprod_{i,j} U_i \cap U_j
+    \coprod_{i,j} U_i \underset{X}{\times} U_j
     \stackrel{\overset{p_1}{\longrightarrow}}{\underset{p_2}{\longrightarrow}}
     \coprod_i U_i
   \right)
-  \,.
 $$
 
-A useful cartoon description of this groupoid is
+with the uniquely defined composition. The schematic depiction is
 
 $$
-  C(\{U_i\})
+  C(\{U_i\})_\bullet
   = 
   \left\{
     \array{
@@ -109,40 +139,37 @@ $$
        \\
        & \nearrow &=& \searrow
        \\
-      (x,i) &&\to&& (x,k)
+      (x,i) && \longrightarrow&& (x,k)
     }
   \right\}
   \,.
 $$
 
+=--
+
 This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s. 
 hence also $C(U)$ becomes a [[Lie groupoid]].
 
-There is a canonical [[functor]]
++-- {: .num_remark}
+###### Remark
+
+Given an [[open cover]] $\{U_i \to X\}$ there is a canonical morphism from its [[Cech groupoid]] to the manifold $X$ given by
 
 $$
-  C(\{U_i\}) \to X \;\; :\;\; (x,i) \mapsto x
+  C(\{U_i\})_\bullet \to X \;\; :\;\; (x,i) \mapsto x
   \,.
 $$
 
-This functor is an [[internal functor]] in [[Diff]] and moreover it is evidently [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|full and faithful]]. 
+=--
 
-However, while 
-essential surjectivity and full-and-faithfulness implies that the underlying bare functor has a homotopy-inverse, that homotopy-inverse never 
-has itself smooth component maps, unless $X$ itself is a Cartesian space and the chosen cover is trivial.
++-- {: .num_example}
+###### Example
 
-We do however want to think of $C(\{U_i\})$ as being equivalent to $X$ even as a Lie groupoid. 
-One says that a smooth functor whose underlying bare functor is an equivalence of groupoids is
-a _weak equivalence_ of Lie groupoids, which we write as 
-$C(\{U_i\}) \stackrel{\simeq}{\to} X$.
-Moreover, we shall think of $C(U)$ as a _good_ equivalent replacement of $X$ if it comes from a cover that is in fact a [[good open cover]] in that all its non-empty finite intersections $U_{i_0 \cdots i_k} := U_{i_0} \cap \cdots \cap U_{i_k}$ are [[diffeomorphic]] to the [[Cartesian space]] $\mathbb{R}^{dim X}$. 
 
-We shall discuss later in which precise sense this condition makes $C(U)$ _good_ in the sense that smooth functors out of $C(U)$ model the correct notion of morphism out of $X$ in the context of smooth groupoids (namely it will mean that $C(U)$ is cofibrant in a suitable [[model category]] structure on the category of Lie groupoids). The formalization of this statement is what [[(∞,1)-topos]] theory is all about, to which we will come. For the moment we shall be content with accepting this as an ad hoc statement.
-
-Observe that a [[functor]]
+A morphism
 
 $$
-  g : C(U) \to \mathbf{B}G
+  g : C(\{U_i\})_\bullet \longrightarrow (\mathbf{B}G)_\bullet
 $$
 
 is given in components precisely by a collection of functions
@@ -151,7 +178,7 @@ $$
   \{g_{i j} : U_{i j} \to G \}_{i,j \in I}
 $$
 
-such that on each $U_i \cap U_k \cap U_j$ the equality $g_{j k} g_{i j}  = g_{i k}$ of [[smooth function]]s holds:
+such that on each $U_i \underset{X}{\times} U_k \cap U_j$ the equality $g_{j k} g_{i j}  = g_{i k}$ of [[smooth functions]] holds:
 
 $$
   \left(
@@ -177,26 +204,15 @@ $$
   \,.
 $$
 
-It is well known that such collections of functions characterize $G$-[[principal bundle]]s on $X$. While this is a classical fact, we shall now describe a way to derive it that is true to the Lie-groupoid-context and that will make clear how smooth principal $\infty$-bundles work.
+This is precisely a [[cocycle]] in [[Cech cohomology]] on $X$ relative $\{U_i\}$ with coefficients in $G$.
 
-First observe that in total we have discussed so far [[span]]s of smooth functors of the form
+=--
 
-$$
-  \array{
-     C(U) &\stackrel{g}{\to}& \mathbf{B}G
-     \\
-     \downarrow^{\mathrlap{\simeq}}
-     \\
-     X
-  }
-  \,.
-$$
 
-Such spans of functors, whose left leg is a weak equivalence, are sometimes known, essentially equivalently, as [[Morita morphism]]s or _generalized morphisms_ of Lie groupoids, as [[Hilsum-Skandalis morphism]]s or groupoid [[bibundle]]s, or as [[anafunctor]]s. We are to think of these as concrete _models_ for more intrinsically defined direct morphisms $X\to \mathbf{B}G$ in the $(\infty,1)$-topos of $\infty$-Lie groupoids. 
+##### The universal smooth $G$-principal bundle
 
-##### The universal $G$-principal bundle
+For $G$ a [[Lie group]] (or any [[topological group]]), traditional literature highlights the [[universal principal bundle]] $E G \to B G$ over the [[classifying space]] of $G$, and the fact that under [[pullback]] of [[topological spaces]] this yields all [[isomorphism classes]] of smooth $G$-principal bundles. But an analogous construction exists in [[smooth groupoids]] which is both simpler as well as more powerful: it [[modulating morphism|modulates]] the full groupoid of smooth $G$-[[principal bundles]]. We now discuss this smooth incarnation $(\mathbf{E}G)_\bullet$ of $E G$.
 
-There is another Lie groupoid canonically associated with $G$. 
 
 +-- {: .num_defn #EGAsASmoothGroupoid}
 ###### Definition
@@ -204,7 +220,7 @@ There is another Lie groupoid canonically associated with $G$.
 For $G$ a [[Lie group]], write $\mathbf{E}G$ for the [[action groupoid]] of $G$ acting on itself from the right, hence for the [[Lie groupoid]] 
 
 $$
-  \mathbf{E}G  
+  (\mathbf{E}G)_\bullet
   \coloneqq
   \left(
     G \times G \stackrel{\overset{(-)\cdot (-)}{\longrightarrow}}{\underset{p_1}{\longrightarrow}} G 
@@ -225,12 +241,12 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The groupoid $\mathbf{E}G$ of def. \ref{EGAsASmoothGroupoid} has at most one morphism for every ordered pair of objects, hence the morphisms are uniquely identified by giving their source and target.
+The groupoid $(\mathbf{E}G)_\bullet$ of def. \ref{EGAsASmoothGroupoid} has at most one morphism for every ordered pair of objects, hence the morphisms are uniquely identified by giving their source and target.
 
 Schematically:
 
 $$
-  \mathbf{E}G
+  (\mathbf{E}G)_\bullet
   = 
   \left\{
      \array{
@@ -246,7 +262,7 @@ $$
 or simply
 
 $$
-  \mathbf{E}G
+  (\mathbf{E}G)_\bullet
   = 
   \left\{
      \array{
@@ -262,7 +278,7 @@ $$
 
 =--
 
-While therefore $\mathbf{E}G$ is a rather simplistic object, it is nevertheless worthwhile to make its following properties explicit.
+While therefore $(\mathbf{E}G)_\bullet$ is a rather simplistic object, it is nevertheless worthwhile to make its following properties explicit.
 
 +-- {: .num_prop #GActionOnEGForLieGroups}
 ###### Proposition
@@ -270,7 +286,7 @@ While therefore $\mathbf{E}G$ is a rather simplistic object, it is nevertheless 
 There is an evident morphism of smooth groupoids 
 
 $$
-  p\colon \mathbf{E}G \to \mathbf{B}G
+  p\colon (\mathbf{E}G)_\bullet \to (\mathbf{B}G)_\bullet
 $$
 
 given by
@@ -288,7 +304,7 @@ $$
 There is an evident $G$-[[action]]
 
 $$
-  (\mathbf{E}G) \times G \longrightarrow G
+  (\mathbf{E}G)_\bullet \times G \longrightarrow G
 $$
 
 given by
@@ -302,10 +318,40 @@ The projection $p$ is the [[quotient]] [[projection]] of this action.
 
 =--
 
++-- {: .num_defn #NerveOfEGForLieGroup}
+###### Remark
+
+The [[nerve]] of $(\mathbf{E}G)_\bullet$ is a [[simplicial object]] of the form
+
+$$
+  N((\mathbf{E}G)_\bullet)_k = G \times G^{\times_k}
+$$
+
+with face maps of the form
+
+$$
+  N((\mathbf{B}G)_\bullet)_\bullet
+ =
+ \left(
+   \cdots
+   G \times G \times G \times G
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}}
+   G \times G\times G
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+   G\times G \stackrel{\longrightarrow}{\longrightarrow} 
+   G
+ \right)
+$$
+
+each of which is given by group multiplication in two consecutive copies of $G$.
+
+
+=--
+
 +-- {: .num_defn #FibrationOfSmoothGroupoids}
 ###### Definition
 
-A morphism $p\colon E \to B$ of [[smooth groupoids]] is called a _[[fibration]]_ if for each $n\in \mathbb{N}$ the [[functor]] $p(\mathbb{R}^n) \colon E(\mathbb{R}^n)\to B(\mathbb{R}^n)$ is an [[isofibration]], hence if for each object $e \in E(\mathbb{R}^n)$, each morphism $p(e) \to b$ in $B(\mathbb{R}^n)$ has a lift through $p$ to a morphism $e \to e'$ in $E$:
+A morphism $p\colon E_\bullet \to B_\bullet$ of pre-smooth groupoids is called a _[[fibration]]_ if for each $n\in \mathbb{N}$ the [[functor]] $p(\mathbb{R}^n) \colon E(\mathbb{R}^n)_\bullet \to B(\mathbb{R}^n)_\bullet$ is an [[isofibration]], hence if for each object $e \in E(\mathbb{R}^n)$, each morphism $p(e) \to b$ in $B(\mathbb{R}^n)$ has a lift through $p$ to a morphism $e \to e'$ in $E$:
 
 $$
   \array{
@@ -323,9 +369,9 @@ $$
 +-- {: .num_prop #EGForLieGroupIsFibrantReplacementOfPointInclusion}
 ###### Proposition
 
-The projection $p \colon \mathbf{E}G \to \mathbf{B}G$ of prop. \ref{GActionOnEGForLieGroups} is a fibration of smooth groupoids, def. \ref{FibrationOfSmoothGroupoids}. Moreover, any point inclusion $\ast \longrightarrow \mathbf{E}G$ is over each $\mathbb{R}^n$ an [[equivalence of groupoids]], hence is in particular a local weak equivalence of smooth groupoids (as defined [here](geometry+of+physics+--+smooth+homotopy+types#LocalWeakEquivalence)).
+The projection $p \colon (\mathbf{E}G)_\bullet \to (\mathbf{B}G)_\bullet$ of prop. \ref{GActionOnEGForLieGroups} is a fibration of smooth groupoids, def. \ref{FibrationOfSmoothGroupoids}. Moreover, any point inclusion $\ast \longrightarrow \mathbf{E}G$ is over each $\mathbb{R}^n$ an [[equivalence of groupoids]], hence is in particular a local weak equivalence of smooth groupoids (as defined [here](geometry+of+physics+--+smooth+homotopy+types#LocalWeakEquivalence)).
 
-In summary, the morphisms $\ast \to \mathbf{E}G \stackrel{p}{\to} \mathbf{B}G$ constitute a factorization of the canonical $\ast \to \mathbf{B}G$ into a local weak equivalence followed by a fibration.
+In summary, the morphisms $\ast \to (\mathbf{E}G)_\bullet \stackrel{p}{\to} (\mathbf{B}G)_\bullet$ constitute a factorization of the canonical $\ast \to (\mathbf{B}G)_\bullet$ into a local weak equivalence followed by a fibration.
 
 =--
 
@@ -333,22 +379,22 @@ In summary, the morphisms $\ast \to \mathbf{E}G \stackrel{p}{\to} \mathbf{B}G$ c
 +-- {: .num_prop}
 ###### Proposition
 
-The smooth groupoid $\mathbf{E}G$ of def. \ref{EGAsASmoothGroupoid} has the following equivalent incarnations as pre-smooth groupoids by [[isomorphism|isomorphic]] Lie groupoids
+The smooth groupoid $(\mathbf{E}G)_\bullet$ of def. \ref{EGAsASmoothGroupoid} has the following equivalent incarnations as pre-smooth groupoids by [[isomorphism|isomorphic]] Lie groupoids
 
 
-1. $\mathbf{E}G \simeq G//G$ is the [[action groupoid]] of $G$ acting on itself by right multiplication;
+1. $(\mathbf{E}G)_\bullet \simeq (G//G)_\bullet$ is the [[action groupoid]] of $G$ acting on itself by right multiplication;
 
-1. $\mathbf{E}G \simeq (\mathbf{B}G)^{I} \underset{\mathbf{B}G}{\times} \ast$ is the [[pullback]] of the point inclusion $\ast \to \mathbf{B}G$ along one of the projection map $d_1 \colon (\mathbf{B}G)^I \longrightarrow \mathbf{B}G$ out of the [[path space object]] of $\mathbf{B}G$.
+1. $(\mathbf{E}G)_\bullet \simeq ((\mathbf{B}G)^{I})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} \ast$ is the [[pullback]] of the point inclusion $\ast \to (\mathbf{B}G)_\bullet$ along one of the projection map $d_1 \colon ((\mathbf{B}G)^I)_\bullet \longrightarrow (\mathbf{B}G)_\bullet$ out of the [[path space object]] of $(\mathbf{B}G)_\bullet$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The first statement is immediate from the definitions. The second is also fairly immediate, but worth making explicit: the Lie groupoid $(\mathbf{B}G)^I$ has as objects the morphisms in $\mathbf{B}G$, hence elements of $G$, and as morphisms $g_1 \to g_2$ commuting squares between these, schematically:
+The first statement is immediate from the definitions. The second is also fairly immediate, but worth making more explicit: the Lie groupoid $((\mathbf{B}G)^I)_\bullet$ has as objects the morphisms in $(\mathbf{B}G)_\bullet$, hence elements of $G$, and as morphisms $g_1 \to g_2$ commuting squares between these, schematically:
 
 $$
-  (\mathbf{B}G)^I
+  ((\mathbf{B}G)^I)_\bullet
   =
   \left\{
     \array{
@@ -390,7 +436,7 @@ $$
 The pullback then restricts this image to be constant and hence produces the groupoid whose objects are still the morphisms in $\mathbf{B}G$, hence elements of $G$, but whose morphisms are no longer all commuting squares, but just all commuting triangles between these, schematically:
 
 $$
-  (\mathbf{B}G)^I \underset{\mathbf{B}G}{\times} \ast
+  ((\mathbf{B}G)^I)_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} \ast
   =
   \left\{
     \array{
@@ -435,16 +481,16 @@ $$
 +-- {: .num_prop #GBundleAsPullbackAlongCechCocycle}
 ###### Proposition
 
-Let $X$ be a [[smooth manifold]], $\{U_i \to X\}_I$ an [[open cover]] and $(g_{i j})_{i,j \in I}$ a [[Cech cohomology|Cech cocycle]] of degree 1 with values in $G$. Then the associated $G$-bundle $P$, def. \ref{TraditionalConstructionOfGBundleFormCocycle}, is equivalent, as a [[smooth groupoid]], to the [[pullback]] of the morphism $\mathbf{E}G\to \mathbf{B}G$ of def. \ref{EGAsASmoothGroupoid} along the cocycle regarded as a
-homomorphism of [[smooth groupoids]] $C(\{U_i\}) \stackrel{g}{\longrightarrow} \mathbf{B}G$.
+Let $X$ be a [[smooth manifold]], $\{U_i \to X\}_I$ an [[open cover]] and $(g_{i j})_{i,j \in I}$ a [[Cech cohomology|Cech cocycle]] of degree 1 with values in $G$. Then the associated $G$-bundle $P$, def. \ref{TraditionalConstructionOfGBundleFormCocycle}, is equivalent, regarded as a [[smooth groupoid]] with only identity morphisms, to the [[pullback]] of the morphism $(\mathbf{E}G)_\bullet \to (\mathbf{B}G)_\bullet$ of def. \ref{EGAsASmoothGroupoid} along the cocycle regarded as a
+homomorphism of [[smooth groupoids]] $C(\{U_i\})_\bullet \stackrel{g}{\longrightarrow} (\mathbf{B}G)_\bullet$.
 
 $$
   \array{
-     P &\overset{\simeq}{\longleftarrow}& C(\{U_i\})\underset{\mathbf{B}G}{\times} \mathbf{E}G &\longrightarrow& \mathbf{E}G
+     P &\overset{\simeq}{\longleftarrow}& C(\{U_i\})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} (\mathbf{E}G)_\bullet &\longrightarrow& (\mathbf{E}G)_\bullet
      \\
      \downarrow && \downarrow && \downarrow
      \\
-     && C(\{U_i\}) &\stackrel{g}{\longrightarrow}& \mathbf{B}G
+     && C(\{U_i\})_\bullet &\stackrel{g}{\longrightarrow}& (\mathbf{B}G)_\bullet
      \\
      &\searrow & \downarrow^{\mathrlap{\simeq}}
      \\
@@ -457,7 +503,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Pullbacks of smooth groupoids are computed componentwise. Hence a morphism in $C(\{U_i\})\underset{\mathbf{B}G}{\times} \mathbf{E}G$ is a pair consisting of a morphism $(x,i,j)$ in $C(\{U_i\})$ and a morphism $(g_1, h)$ in $\mathbf{E}G$ such that $h$ is the value of the cocycle on $(x,i,j)$.
+Pullbacks of pre-smooth groupoids are computed componentwise. Hence a morphism in $C(\{U_i\})_\bullet\underset{(\mathbf{B}G)_\bullet}{\times} (\mathbf{E}G)_\bullet$ is a pair consisting of a morphism $(x,i,j)$ in $C(\{U_i\})_\bullet$ and a morphism $(g_1, h)$ in $(\mathbf{E}G)_\bullet$ such that $h$ is the value of the cocycle on $(x,i,j)$.
 
 This means that the morphisms in the pullback are of the form
 
@@ -476,21 +522,21 @@ and there is at most one for any ordered pair of objects. But this means that th
 
 By the pullback construction in prop. \ref{GBundleAsPullbackAlongCechCocycle}, 
 $P$ inherits a $G$-action from 
-that on $\mathbf{E}G$ of def. \ref{GActionOnEGForLieGroups}:
+that on $(\mathbf{E}G)_\bullet$ of def. \ref{GActionOnEGForLieGroups}:
 
 via the [[pasting]] diagram of pullbacks
 
 $$
   \array{
-     \tilde P \times G &\to& \mathbf{E}G \times G
+     \tilde P \times G &\to& (\mathbf{E}G)_\bullet \times G
      \\
      \downarrow && \downarrow
      \\
-     \tilde P &\to& \mathbf{E}G
+     \tilde P &\to& (\mathbf{E}G)_\bullet
      \\
      \downarrow && \downarrow
      \\
-     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     C(\{U_i\})_\bullet &\stackrel{g}{\to}& (\mathbf{B}G)_\bullet
      \\
      \downarrow^{\mathrlap{\simeq}}
      \\
