@@ -319,28 +319,29 @@ This and much more history is recalled in
 
 * [[Colin McLarty]], _Elementary categories, elementary toposes_. 
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_  (The $n$Lab currently provides detailed linked indexes for this).
-
-* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_ ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
-
-* [[Benjamin Pierce]], _Basic category theory for computer scientists_.
-
-* [[Michael Barr]] and [[Charles Wells]], _Category theory for computing science_.  [free online](ftp://ftp.math.mcgill.ca/barr/pdffiles/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html).
-
-* [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
-
-* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_  
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1--3. 
 
+* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
+
+* [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], _Abstract and concrete categories: the joy of cats_ ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
+
+* [[Benjamin Pierce]], _Basic category theory for computer scientists_.
+
+* [[Michael Barr]], [[Charles Wells]], _Category theory for computing science_.  [free online](ftp://ftp.math.mcgill.ca/barr/pdffiles/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html).
+
 * [[Bodo Pareigis]], _Categories and functors_
 
+* {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
+  
 * [[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
 
-* [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
-  {#Freyd64}
-
 * [[F. William Lawvere]] and [[Stephen Schanuel]], _Conceptual Mathematics: a first introduction to categories_, $2^{nd}$ Edition, Cambridge University Press 2009. 
+
+* [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
+
+* [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/727/context.pdf))
 
 #### Topos theory
 
