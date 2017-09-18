@@ -133,7 +133,7 @@ Nonequilibrium critical phenomena:
 
 * P. C. Hohenberg and B. I. Halperin (1977). "Theory of dynamic critical phenomena" _Rev. Mod. Phys._ **49**: 435. ([web](http://www.physics.mcgill.ca/~omid/Hohenberg_Halperin.pdf))
 * _Nonequilibrium Phase Transitions_ (2008) by Henkel _et al._
-* Vollmayr-Lee's talks on the "field theory approach to diffusion-limited reactions", [Boulder School for Condensed Matter and Materials Physics](http://boulder.research.yale.edu/Boulder-2009/Lectures/index.html) (2009), in particular lecture 4
+* Vollmayr-Lee's talks on the "field theory approach to diffusion-limited reactions", [Boulder School for Condensed Matter and Materials Physics](http://boulderschool.yale.edu/2009/boulder-school-2009-lecture-notes) (2009), in particular lecture 4
 * G. Odor (2004), "Universality classes in nonequilibrium lattice systems" _Rev. Mod. Phys._ **76**: 663. [arXiv:cond-mat/0205644v7](http://arxiv.org/abs/cond-mat/0205644)
 * I. Corwin (2011), "The Kardar-Parisi-Zhang equation and universality class" [arXiv:1106.1596](http://arxiv.org/abs/1106.1596).
 * Takeuchi _et al._ _Growing interfaces uncover universal fluctuations behind scale invariance_  Sci Rep. (Nature) **1** 34, ([arXiv:1108.2118](http://arxiv.org/abs/1108.2118))
