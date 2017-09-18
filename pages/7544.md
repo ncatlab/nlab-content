@@ -37,7 +37,7 @@ An **elementary $(\infty,1)$-topos** is an $(\infty,1)$-category $\mathbf{E}$ su
 * $\mathbf{E}$ has finite [[(∞,1)-limit|limits and colimits]]
 * $\mathbf{E}$ is [[locally cartesian closed (∞,1)-category|locally cartesian closed]]
 * There exists a [[subobject classifier]] (an [[object classifier]] that classifies the collection of all [[monomorphisms in an (∞,1)-category]])
-* For any morphism $f:Y\to X$ in $\mathbf{E}$, there exists an [[object classifier]] in $\mathbf{E}$ classifying a class of morphisms that (1) includes $p$ and (2) is closed under fiberwise finite limits and colimits, composition (i.e. dependent sums), and dependent products.
+* For any morphism $f:Y\to X$ in $\mathbf{E}$, there exists an [[object classifier]] in $\mathbf{E}$ classifying a class of morphisms that (1) includes $f$ and (2) is closed under fiberwise finite limits and colimits, composition (i.e. dependent sums), and dependent products.
 =--
 
 Note that this definition is "impredicative" just like an [[elementary topos]], in that it has a classifier for *all* subobjects.  We can't categorify this to a classifier for all objects due to size paradoxes; the existence of "enough" object classifiers closed under all the basic operations is the "next best thing".  We will refer to an object classifier satisfying (2) above as a **universe**.
