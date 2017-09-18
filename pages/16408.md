@@ -1,10 +1,10 @@
-## Idea
-
-A _combinatorial map_ is a purely combinatorial representation of a [[topological map]], as a list of permutations satisfying a few properties.
-
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+A _combinatorial map_ is a purely combinatorial representation of a [[topological map]], as a list of permutations satisfying a few properties.
 
 ## Definition
 
@@ -16,19 +16,19 @@ A **combinatorial map** is a set $D$ equipped with a triple of [[permutations]] 
 
 1. $\alpha$ is a [[fixed point]]-free [[involution]].
 
-Two combinatorial maps $M = (D,(\sigma,\alpha,\phi))$ and $M' = (D',(\sigma',\alpha',\phi'))$ are considered to be equivalent $M \equiv M'$ if there is a bijection $h : D \cong D'$ such that $\sigma = h^{-1}\sigma' h$, $\alpha = h^{-1}\alpha' h$, $\phi = h^{-1}\phi' h$.
+Combinatorial maps are always considered up to conjugation by a bijection of the underlying set of darts, in other words, two combinatorial maps $M = (D,(\sigma,\alpha,\phi))$ and $M' = (D',(\sigma',\alpha',\phi'))$ are equivalent $M \equiv M'$ if there is a bijection $h : D \cong D'$ such that $\sigma = h^{-1}\sigma' h$, $\alpha = h^{-1}\alpha' h$, $\phi = h^{-1}\phi' h$.
 
 Note that some authors equivalently define a combinatorial map as a pair $(\sigma,\alpha)$ of permutations such that $\langle \sigma,\alpha\rangle$ acts transitively on $D$ and $\alpha$ is a fixed point-free involution.  By condition (2) above, the third permutation $\phi$ can always be recovered as $\phi = \sigma^{-1}\alpha^{-1}$.
 
-## Representation of a topological map
+## Representation of an oriented topological map
 
-Any [[topological map]] $M = (G,\theta)$, where $G = (V,E,d)$, is represented by a unique combinatorial map constructed as follows:
+Let $M$ be an oriented [[topological map]], i.e., an embedding $\theta$ of a [[graph]] $G$ into an [[oriented]] [[surface]] $X$.  We can represent $M$ by a unique combinatorial map, defined as follows (letting $E$ and $V$ stand for the set of edges and vertices, respectively, of the graph $G$):
 
 * $D$ is defined as a set with $2n$ elements, where $n = |E|$. The elements of $D$ are called _darts_ (or _half-edges_), and may be visualized as oriented edges of the embedded graph.
 
 * each edge $e \in E$ is associated with a pair of darts, and in this way the collection of edges induces a fixed point-free involution $\alpha$ on $D$.
 
-* each vertex $x \in V$ is associated with the set of darts having $x$ as source, and moreover determines a cyclic ordering of those darts by considering (conventionally) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way, each vertex determines a cycle of the permutation $\sigma$. (Note this relies on the assumption that $\theta$ embeds $G$ in an [[oriented]] surface.)
+* each vertex $x \in V$ is associated with the set of darts having $x$ as source, and moreover determines a cyclic ordering of those darts by considering (conventionally) a counterclockwise-oriented [[loop]] around $\theta(x)$.  In this way (which relies on the assumption that $X$ is oriented), each vertex determines a cycle of the permutation $\sigma$.
 
 * the cycles of the permutation $\phi = \sigma^{-1}\alpha^{-1}$ give, for each face $f$ of $M$, an ordering of darts on the boundary of that face.  With the above convention for vertices, it is easy to check that $\phi$ computes the counterclockwise cycle of darts having $f$ to the left.
 
@@ -44,12 +44,14 @@ where $c(\pi)$ counts the number of cycles in the cyclic decomposition of $\pi$.
 
 ## Hypermaps
 
-If one drops condition (3) in the definition of combinatorial map (i.e., the requirement that $\alpha$ be a fixed point-free involution), what remains is a generalization called a **combinatorial hypermap**.
+If one drops condition (3) in the definition of combinatorial map (i.e., the requirement that $\alpha$ be a fixed point-free involution), what remains is a natural generalization called a **combinatorial hypermap**.  It turns out that hypermaps provide a way of representing [[bipartite]] graphs embedded on oriented surfaces (including so-called [[dessins d'enfant]]), where the vertices of the graph are alternately colored in black and white.  Any topological map with all black vertices can be turned into a bi-colored one by adding white vertices in the middle of every edge, and from that perspective, hypermaps simply correspond to lifting the restriction that white vertices have degree 2.
 
 
 ## Related concepts
 
 * [[topological map]]
+
+* [[ribbon graph]]
 
 * [[child's drawing]]
 
@@ -58,3 +60,7 @@ If one drops condition (3) in the definition of combinatorial map (i.e., the req
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
 * [Wikipedia page](https://en.wikipedia.org/wiki/Combinatorial_map)
+
+[[!redirects combinatorial maps]]
+[[!redirects combinatorial hypermap]]
+[[!redirects combinatorial hypermaps]]
