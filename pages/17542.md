@@ -19,13 +19,13 @@ Assume we have fixed an infinite set $\mathcal{S}$ for the remainder of this ent
 
 A generalized graph $G$ is a finite set $Flag(G)\subseteq \mathcal{S}$ with:
 
-* a partition of $Flag(G)=\coprod_{\alpha\in A} F_\alpha$ into **cells** with $A$ finite,
+   * a partition of $Flag(G)=\coprod_{\alpha\in A} F_\alpha$ into **cells** with $A$ finite,
 
-* a distinguished partition subset $F_\epsilon$ called the **exceptional cell**,
+   * a distinguished partition subset $F_\epsilon$ called the **exceptional cell**,
 
-* an involution $\iota$ satisfying $\iota F_\epsilon\subseteq F_\epsilon$,
+   * an involution $\iota$ satisfying $\iota F_\epsilon\subseteq F_\epsilon$,
 
-* and a free involution $\pi$ on the set of $\iota$-fixed points of $F_\epsilon$. 
+   * and a free involution $\pi$ on the set of $\iota$-fixed points of $F_\epsilon$. 
 =--
 
 Given a generalized graph $G$, Definition 2.3 of [HRY](#HRY) gives some useful terminology:
@@ -42,7 +42,30 @@ Given a generalized graph $G$, Definition 2.3 of [HRY](#HRY) gives some useful t
 =--
 
 
+##Properties##
 
+There are a number of important properties that a generalized graph can possess which will be useful in using them to describe [[properads]]. The following is again from [HRY](#HRY):
+
++-- {: .num_defn }
+###### Definition 
+
+Suppose $G$ is a generalized graph. Fix a (possibly infinite) set of _colors_ $\mathcal{C}$.
+
+1. A **coloring** of $G$ is a function $Flag(G)\overset{\kappa}\to \mathcal{C}$ that is constant on orbits of $\iota$ and $\pi$.
+
+1. A **direction** for $G$ is a function $Flag(G)\overset{\delta}\to \{-1,1\}$ such that
+    * if $\iota x\neq x$, then $\delta(\iota x)=-\delta(x)$, 
+    * and if $x \in F_\epsilon$, then $\delta(\pi x)=-\delta (x)$.  
+
+1. For $G$ with direction, an **input** (resp. **output**) of a vertex $v$ is a flag $x\in v$ such that $\delta(x)=1$ (resp. $\delta(x)=-1$). An **input** (resp. **output**) of $G$ is a leg $x$ such that $\delta(x)=1$ (resp. $\delta(x)=-1$). For $u\in Vt(G)\cup \{G\}$, the set of inputs (resp. outputs) of $u$ is written $in(u)$ (resp. $out(u)$).
+
+1. A **listing** for $G$ with direction is a choice for each $u\in Vt(G)\cup \{G\}$ of a bijection of pairs of sets 
+$$
+(in(u),out(u))\overset{l_u}\to(\{1,\ldots,|in(u)|\},\{1,\ldots,|out(u)|\}).
+$$
+=--
+
+Thus, using these properties, we can model [[PROPs]] and [[properads]] with generalized graphs. See there and [[wheeled graph]] for more. 
 
 ## Related concepts
 
