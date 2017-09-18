@@ -1,5 +1,12 @@
 
-* [webpage](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/)
+* [webpage](http://www.mathematik.uni-regensburg.de/mahanta/)
+
+###Papers/preprints include
+
+* _Noncommutative Geometry in the Framework of Differential Graded Categories_, [ArXiv 0805.1628](http://arxiv.org/abs/0805.16280
+
+
+* _Noncommutative correspondence categories, simplicial sets and $pro C^\ast$-algebras_, [ArXiv 0906.5400](http://arxiv.org/abs/0906.5400)
 
 category: people
 
