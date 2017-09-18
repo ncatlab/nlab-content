@@ -75,7 +75,7 @@ then we get __ultrametric spaces__, a more restricted concept.  (This include fo
 ## Lawvere metric spaces 
   {#LawvereMetricSpace}
 
-In [Lawvere, 73](#Lawvere73), it was pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty), \geq)$, where the [[tensor product]] is taken to be addition.  The [[composition]] operation in this enriched category identifies with the [[triangle identity]] in the metric space (see at _[triangle inequality -- Interpretation in enriched category theory](triangle+inequality#InterpretationInEnrichedCategoryTheory)_).
+In [Lawvere, 73](#Lawvere73), it was pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the [[tensor product]] is taken to be addition.  The [[composition]] operation in this enriched category identifies with the [[triangle identity]] in the metric space (see at _[triangle inequality -- Interpretation in enriched category theory](triangle+inequality#InterpretationInEnrichedCategoryTheory)_).
 
 Alternatively, taking the monoidal product to be [[supremum]] instead, enriched categories amount to Lawvere ultrametric spaces.
 
