@@ -94,3 +94,7 @@ Review includes
 
 [[!redirects Euler-Lagrange operator]]
 [[!redirects Euler-Lagrange operators]]
+
+[[!redirects Euler-Lagrange variational derivative]]
+[[!redirects Euler-Lagrange variational derivatives]]
+
