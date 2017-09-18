@@ -2,12 +2,16 @@
 * table of contents
 {: toc}
 
+## Definition
+
 In [[constructive mathematics]], Markov\'s principle is the (classically trivial) statement that any infinite [[sequence]] of $0$ and $1$ that is not all $1$s must have a $0$ somewhere.  Stated in a more [[logic]]al form, if $P$ is a predicate on [[natural number]]s, then
 $$ (\forall n, P(n) \vee \neg{P(n)}) \Rightarrow \neg(\forall n, P(n)) \Rightarrow \exists n, \neg{P(n)} .$$
 Compare this to
 $$ \neg(\exists n, P(n)) \Rightarrow \forall n, \neg{P(n)} ,$$
 which is a theorem of [[intuitionistic logic]].
 More generally, a [[set]] $S$ may be called _Markovian_ if this principle holds for all predicates on $S$.
+
+## Discussion
 
 In standard constructive mathematics (such as in the [[internal logic]] of a [[topos]]), it is possible that the only Markovian sets are the Kuratowski-[[finite set]]s.  Thus, Markov\'s principle, stating that the set of natural numbers is Markovian, is nontrivial.  (It is true, of course, in a [[Boolean topos]]; that is, Markov\'s principle follows from the principle of [[excluded middle]].)
 
@@ -25,13 +29,20 @@ The other major school of constructivism, Brouwer\'s intuitionism, rejects Marko
 Scheme," Zeitschr. f. math. Logic und Grundlagen d. Math. 24, p. 427-436, 1978), Beth models (e.g. D. van Dalen, ``An interpretation of intuitionistic analysis," Annals of Mathematical Logic 13(1), p. 1-43), realizability models (e.g. J. van Oosten, Realizability, Elsevier, 2008), and a [[Kripke model]] [BridgesRichman, p138](#BridgesRichman)
 
 ## Weak Markov\'s Principle
+
 More recently, a weakened form of Markov\'s principle has been identified (first in M. Mandelkern, "Constructively complete finite sets," Zeitschr. f. math. Logic und Grundlagen d. Math. 34, p. 97-103, 1988) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
 
 $
 \forall \alpha \; [\forall \beta \; (\neg\neg\exists n \; (\beta(n)=1)\vee \neg\neg\exists n \; (\alpha(n)=1\wedge\beta(n)=0))\rightarrow\exists n \; \alpha(n)=1].
 $
 
-# References
+## Analytic Markov\'s Principle
+
+Markov\'s principle is equivalent to the assertion that if a [[Cauchy real number]] is $\ge 0$ and $\neq 0$, then it is $\gt 0$.  Another way to say this is that the standard [[apartness]] relation on Cauchy reals coincides with [[inequality]].
+
+The analogous statement for [[Dedekind real numbers]] might be called the **analytic Markov\'s principle**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).
+
+## References
 For a recent comparison see:
 
 * Matt Hendtlass and Robert Lubarsky, _Separating fragments of WLEM, LPO, and MP_, [PDF](http://math.fau.edu/lubarsky/Separating%20LLPO.pdf).
