@@ -8836,7 +8836,7 @@ This is clearly a graded pairing, and the action property and unitality follow d
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #EnHomology}
 ###### Proposition
 
 Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and for $X \in Ho(Spectra)$ any spectrum, there is a [[homomorphism]] of [[graded abelian groups]] of the form
@@ -8879,14 +8879,53 @@ $$
 
 If $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
 
+More generally for $n \in \mathbb{N}$ there is a canonical morphism of [[graded abelian groups]]
+
+$$
+  \underset{n+1\,factors}{
+  \underbrace{E_\bullet(E)
+    \otimes_{\pi_\bullet(E)}
+    \cdots
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(E)
+  }}
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(X)
+    \longrightarrow
+  \pi_\bullet(E^{\wedge^{(n+2)}}\wedge X  )
+  \,.
+$$
+
+
+and if $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
+
+
+
 =--
 
-([Adams 74, part III, lemma 12.5](#Adams74))
+([Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
 
 +-- {: .num_defn}
 ###### Definition
 
-That the given pairing is well defined (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
+We discuss the first case. From this the general statement follows by [[induction]] via
+
+$$
+  \begin{aligned}
+    \pi_\bullet(E^{\wedge^{n+2}} \wedge X)
+    & \simeq
+    \pi_\bullet(E \wedge E \wedge E^{\wedge^n} \wedge X))
+    \\
+    &\simeq 
+     E_\bullet(E) 
+         \otimes_{\pi_\bullet(E)} 
+     E_\bullet( E^{\wedge^n} \wedge X )
+  \end{aligned}
+  \,.
+$$
+
+
+First of all, that the given pairing is a well defined homomorphism (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
 
 We discuss that it is an isomorphism when $E_\bullet(E)$ is flat over $\pi_\bullet(E)$:
 
@@ -8963,9 +9002,9 @@ This shows the claim for finite CW-spectra. For the general statement, now use t
 1. $E_\bullet(E) \otimes_{\pi_\bullet(E)}(-)$ distributes over colimits (it being a left adjoint).
 
 
-
 =--
 
+Proposition \ref{EnHomology} is the key ingredient in the construction of the **$E$-[[Adams spectral sequence]]**. This we turn to in _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2]]_.
 
 #### Conclusion
  {#Conclusion}
