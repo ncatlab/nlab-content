@@ -150,7 +150,12 @@ The term "M-theory" occurs somewhere around
 
 * [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
-For more original references see also at _[[M2-brane]]_.
+For more original references see also at _[[M2-brane]]_. 
+
+Discussion of the history includes
+
+* [[Mike Duff]], ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
+
 
 An early popular account for a general audience is
 
