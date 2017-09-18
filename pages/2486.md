@@ -11,7 +11,7 @@ A PRO, an abbreviation for "product category", is similar to a [[PROP]] but more
 
 A **PRO** is a strict monoidal category $T$ in which every object is of the form 
 
-$$x^{\otimes n} = x \otimes \ldots \otimes x \qquad (product of n copies of x)$$
+$$x^{\otimes n} = \underset{n \: times}{\underbrace{x \otimes \ldots \otimes x}} \qquad (product \: of \: n \: copies \: of \: x)$$
 
 for some $n \geq 0$. Somewhat more precisely, a PRO is a strict monoidal category for which the unique strict monoidal functor 
 
