@@ -88,12 +88,15 @@ The above theorem then asserts
 +-- {: .un_corollary}
 ###### Corollary
 
-For two [[adjoint functor]]s $(L \dashv R)$ between monoidal categories, $L$ is oplax monoidal precisely if $R$ is lax monoidal.
+For two [[adjoint functors]] $(L \dashv R)$ between monoidal categories, $L$ is oplax monoidal precisely if $R$ is lax monoidal.
 
 =--
 
-See [[oplax monoidal functor]] for more details.
+See at _[[oplax monoidal functor]]_ and at _[[monoidal adjunction]]_ for more details.
 
+## Related concepts
+
+* [[monoidal adjunction]]
 
 ## References
 
@@ -102,3 +105,5 @@ See [[oplax monoidal functor]] for more details.
 The following article explains the double category perspective:
 
 * [[Mike Shulman]], _Comparing composites of left and right derived functors_, New York Journal of Mathematics, Volume 17 (2011) pp 75-125, ([arXiv:0706.2868](https://arxiv.org/abs/0706.2868), [journal abstract page](http://nyjm.albany.edu/j/2011/17-5.html))
+
+[[!redirects doctrinal adjunctions]]
