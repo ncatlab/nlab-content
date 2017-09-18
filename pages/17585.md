@@ -393,13 +393,17 @@ $$
 
 ## References
 
+The original result is due to 
+
 * {#VigueSullivan76} [[Micheline Vigué-Poirrier]], [[Dennis Sullivan]], _The homology theory of the closed geodesic problem_, J. Differential Geometry 11 (1976) 633-644.
 
 * {#VigueBurghelea85} [[Micheline Vigué-Poirrier]], Dan Burghelea, _A model for cyclic homology and algebraic K-theory of 1-connected topological spaces_, J. Differential Geom. Volume 22, Number 2 (1985), 243-253 ([Euclid](https://projecteuclid.org/euclid.jdg/1214439821))
 
+Review is in 
+
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
-* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], example 2.5 of _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanre, _Algebraic models in geometry_, Oxford graduate texts in mathematics 17 (2008)
 
