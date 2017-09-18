@@ -68,6 +68,8 @@ Discussion of the possible [[orbifold]]ing is in
 
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_ ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761))
 
+* [[José Figueroa-O'Farrill]], _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
+
 
 See also
 
