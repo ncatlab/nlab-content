@@ -94,6 +94,25 @@ with $f\cdot g=f\cdot h$ , then $y=P(f)(x)$ for a unique $x\in P(C)$.
 
 For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
 
+## The more general definition
+
+Thus far we have presented the classical approach as presented in Mac Lane-Moerdijk ([1994](#MM94)) going back to Barr-Diaconescu ([1980](#BD80)) but it was observed by [[Olivia Caramello|O. Caramello]] ([2012](#Ca12)) that the atomic topology can in fact be defined on arbitrary categories not only on those satisfying the [[Ore condition]].
+
++-- {: .num_defn}
+###### Definition'
+
+Let $\mathcal{C}$ be a category. The _atomic topology_ $J_{at}$ on $\mathcal{C}$ is the smallest [[Grothendieck topology]] containing all the nonempty sieves. A site of the form $(\mathcal{C}, J_{at})$ is called _atomic_.
+=--
+
+Note that $J_{at}$ is well defined as the intersection of all Grothendieck topologies with the property that all nonempty sieves cover. The following proposition justifies the terminology:
+
++-- {: .num_prop}
+###### Proposition
+Let $(\mathcal{C}, J_{at})$ be an atomic site. Then $Sh(\mathcal{C}, J_{at})$ is an [[atomic topos|atomic Grothendieck topos]].
+=--
+
+For the proof see Caramello ([2012](#Ca12), prop.1.4).
+
 ## Related entries
 
 * [[dense topology]]
@@ -108,8 +127,11 @@ For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
 
 ## Reference
 
+* {#BD80}[[Michael Barr]], [[Radu Diaconescu]], _Atomic Toposes_ ,  JPAA **17** (1980) pp.1-24. ([pdf](http://www.math.mcgill.ca/barr/papers/atom.top.pdf))
+
+* {#Ca12}[[Olivia Caramello]], _Atomic toposes and countable categoricity_ , Appl. Cat. Struc. **20** no. 4 (2012) pp.379-391. ([arXiv:0811.3547](http://arxiv.org/abs/0811.3547))
+
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (pp.115, 126)
 
 [[!redirects atomic topology]]
-
 
