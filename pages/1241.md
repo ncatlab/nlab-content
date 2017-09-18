@@ -69,6 +69,8 @@ Discussion of comparison of GUTs to [[experiment]] and [[phenomenology]] include
 
 for non-superymmetric [[model (physics)|models]]:
 
+* Guido Altarelli, Davide Meloni, _A non Supersymmetric SO(10) Grand Unified Model for All the Physics below $M_{GUT}$_ ([arXiv:1305.1001](https://arxiv.org/abs/1305.1001))
+
 * Alexander Dueck, Werner Rodejohann, _Fits to $SO(10)$ Grand Unified Models_ ([arXiv:1306.4468](http://arxiv.org/abs/1306.4468))
 
 * {#FongMeloni14} Chee Sheng Fong, Davide Meloni, Aurora Meroni, Enrico Nardi, _Leptogenesis in $SO(10)$_ ([arXiv:1412.4776](http://arxiv.org/abs/1412.4776))
