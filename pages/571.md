@@ -15,13 +15,13 @@
 
 ## Idea
 
-The notion of  _monomorphism_ is the generalization of the notion of _injective map of  sets_ from the [[category]] [[Set]] to arbitrary [[category|categories]].
+The notion of  _monomorphism_ is the generalization of the notion of _injective map of sets_ from the [[category]] [[Set]] to arbitrary [[category|categories]].
 
 The [[formal duality|formally dual]] concept is that of _[[epimorphism]]_, which similarly generalizes (or strengthens) the concept of [[surjective function]].
  
 ## Definition
 
-A [[morphism]] $f \colon X \to Y$ is some [[category]] is called a _monomorphism_ if for every [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Z \to X$ then
+A [[morphism]] $f \colon X \to Y$ in some [[category]] is called a _monomorphism_ if for every [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Z \to X$ then
 
 $$
   \left(
@@ -45,7 +45,7 @@ $$
   \,.
 $$
 
-Since injective functions are precisely the monomorphisms in [[Set]] (example \ref{MonomorphismsInSet} below) this may be stated as saying that $f$ is a monomorphisms if for all objects $Z$ then $Hom(Z,f)$ is a monomorphisms. 
+Since injective functions are precisely the monomorphisms in [[Set]] (example \ref{MonomorphismsInSet} below) this may be stated as saying that $f$ is a monomorphism if for all objects $Z$ then $Hom(Z,f)$ is a monomorphism. 
 
 Finally, $f$ being a monomorphism in a [[category]] $\mathcal{C}$ means equivalently that it is an [[epimorphism]] in the [[opposite category]] $\mathcal{C}^{op}$.
 
