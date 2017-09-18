@@ -31,7 +31,7 @@ An instanton vacuum is argued to account for
 
 * formation of the gluon condensate (M. Shifman, A. Vainshtein and V. Zakharov, Nucl. Phys. B 147 (1979) 385).
 
-* spontaneous chiral symmetry breaking ([Diakonov 96](#Diakonov96))
+* spontaneous [[chiral symmetry breaking]] ([Diakonov 96](#Diakonov96))
 
 * [[baryogenesis]] in the early universe by inducing baryon numbernon-conservation
 
@@ -126,14 +126,19 @@ This perspective is for instance also the one used in
 * [[Edward Witten]], _Global gravitational anomalies_,  Comm. Math. Phys. Volume 100, Number 2 (1985), 197-229. ([Euclid](http://projecteuclid.org/euclid.cmp/1103943444)) 
  {#Witten85}
 
-Discussion in the context of chiral symmetry breaking includes
+Discussion in the context of [[chiral symmetry breaking]] includes
 
 * {#Diakonov96} Dmitri Diakonov, _Chiral Symmetry Breaking by Instantons_ ([arXiv:hep-ph/9602375](http://arxiv.org/abs/hep-ph/9602375))
 
+Discussion in the context of [[confinement]] includes
 
-Further developments on the role of instantons/[[monopoles]] in the QCD vacuum for [[confinement]] are discussed in
+* Y. M. Cho, _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
 
-* _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
+Discussion in the context of the [[quark-gluon plasma]] includes
+
+* {#Shuryak01} [[Edward Shuryak]], _Nonperturbative QCD and Quark-Gluon Plasma_, lectures at Trieste, 2001 ([pdf](http://users.ictp.it/~pub_off/lectures/lns010/Shuryak/Shuryak.pdf))
+
+* Nikolai Kochelev, _Ultra-light Glueballs in Quark-Gluon Plasma_ ([arXiv:1501.07002](http://arxiv.org/abs/1501.07002))
 
 [[!redirects instantons in QCD]]
 [[!redirects instanton in quantum chromodynamics]]
