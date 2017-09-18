@@ -464,6 +464,9 @@ However, if a [[Cisinski model category]] is right proper, then the $(\infty,1)$
 
 ## References ##
 
+The concept originates in 
+
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], def. 1.1.6 in _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
 The usefulness of right properness for constructions of [[homotopy category|homotopy categories]] is discussed in
 
