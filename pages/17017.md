@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[geometric infinity-stacks]] within all [[smooth infinity-groupoids]] are called _Lie $\infty$-groupoids_. These are equivalently those smooth $\infty$-grouoids which have a [[representable functor|presentation]] by [[Kan-fibrant simplicial manifolds]]. See there for more.
+The [[geometric infinity-stacks]] within all [[smooth infinity-groupoids]] are called _Lie $\infty$-groupoids_. These are equivalently those smooth $\infty$-groupoids which have a [[representable functor|presentation]] by [[Kan-fibrant simplicial manifolds]]. See there for more.
 
 ## Related $n$Lab entries
 
