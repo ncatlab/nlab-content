@@ -7,7 +7,7 @@
 
 ## Idea
 
-An **augmentation** of a [[simplicial set]] or generally a [[simplicial object]] $S_\bullet$ is a [[homomorphism]] of simplicial objects to a simplicial onbject constant ([[discrete object|discrete]]) on an object $A$:
+An **augmentation** of a [[simplicial set]] or generally a [[simplicial object]] $S_\bullet$ is a [[homomorphism]] of simplicial objects to a simplicial object constant ([[discrete object|discrete]]) on an object $A$:
 
 $$
   \epsilon \colon S_\bullet \to A
