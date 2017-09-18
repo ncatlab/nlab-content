@@ -792,6 +792,8 @@ The generalization to [[supergeometry]] is
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[derivations of smooth functions are vector fields]]
+
 ## References {#References}
 
 A standard textbook reference is chapter 1 of
