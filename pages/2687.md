@@ -164,6 +164,8 @@
 
 * [[model structure on spectra]]
 
+* [[model structure on ring spectra]]
+
 * [[model structure on presheaves of spectra]]
 
 ### for $(\infty,1)$-categories
