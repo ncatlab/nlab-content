@@ -32,6 +32,7 @@ Related references include
 
   also chapter VI of [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
+* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
@@ -470,6 +471,125 @@ Let ${dia} \in \{Top^{\ast/}, {Orth}, {Sym}, {Seq}\}$ be any one of the sites in
 
 
 This is a general statement about modules with respect to [[Day convolution]] monoidal structures, see [this proposition](Day+convolution#ModulesInDayConvolutionAreFunctorsOnFreeModulesOp)  ([MMSS 00, theorem 2.2](#MMSS00)). 
+
++-- {: .num_example #SequentialSpectraAsFunctorsOnFreeSSequModules}
+###### Example
+
+For the sequential case $dia = Seq$, then the opposite category $\mathbb{S}_{Seq} FreeMod^{op}$ of [[free modules]] over $\mathbb{S}_{Seq}$ (def. \ref{StandardRepresentativeOfTheSphereSpectrum}) in lemma \ref{SModulesAsEnrichedFunctors} is identified as the non-full subcategory $StdSpheres$ of $Top^{\ast/}$ whose objects are the standard spheres $S^n \coloneqq (S^1)^{\wedge^n}$ and whose hom spaces are the canonical image of $S^{n_2-n_1}$ in the hom space $Top^{\ast/}(S^{n_1},S^{n_2})$ (the image under the smash$\dashv$hom-[[adjunct]] of the identity) if $n_2 \gt n_1$, and the point otherwise:
+
+$$
+  \begin{aligned}
+    \mathbb{S}_{Seq}FreeMod^{op}(F(n_1), F(n_2))
+    & =
+    StdSpheres(S^{n_1}, S^{n_2})
+    \\
+    & \coloneqq
+    \left\{
+      \array{
+        im(S^{n_2-n_2} \to Top^{\ast/}(S^{n_1}, S^{n_2})) & for \; n_1 \leq n_2
+        \\
+        \ast & otherwise
+      }
+    \right.
+  \end{aligned}
+  \,.
+$$
+
+Hence according to lemma \ref{SModulesAsEnrichedFunctors} [[sequential spectra]] are equivalently $Top^{\ast/}$-enriched functors on StdSpheres:
+
+$$
+  SeqSpec
+  \simeq
+  [StdSpheres, Top^{\ast/}]
+  \,.
+$$
+
+=--
+
+In this form the statement appears also as ([Lydakis 98, prop. 4.3](#Lydakis98)). See also at _[sequential spectra -- As diagram spectra](sequential+spectrum#AsDiagramSpectra)_.
+
+
++-- {: .proof}
+###### Proof
+
+The free $\mathbb{S}_{Dia}$ modules are those of the form $y(d)\wedge \mathbb{S}_{Dia}$, where $d \in Dia$ is an object, and $y$ denotes the [[Yoneda embedding]]. For the case $Dia = Seq$ this means that they are labeled by $k \in \mathbb{N}$, their underlying functor $F(k) \in [Seq,Top^{\ast/}]$ is given by
+
+$$
+  F(k)
+  \;\colon\;
+  n 
+  \mapsto
+  \left\{
+    \array{
+      S^{n-k} & for\; n \geq k
+      \\
+      \ast & otherwise
+    }
+  \right.
+$$
+
+and the $\mathbb{S}_{Seq}$-[[action]] on these is, expressed as [[modules over monoidal functors]] (via [this fact](Day+convolution#DayMonoidsAreLaxMonoidalFunctorsOnTheSite) about modules with respect to [[Day convolution]]) by the canonical identifications
+
+$$
+  S^{n_1} \wedge F(k)_{n_2}
+  =
+  S^{n_1} \wedge S^{n_2-k}
+  \overset{}{\longrightarrow}
+  S^{n_1 + n_2 - k}
+  =
+  F(k)_{n_1+ n_2}
+$$
+
+whenever $n_2 \geq k$, and by the [[zero morphism]] otherwise.
+
+Now for $R$ any other $\mathbb{S}_{Seq}$-module, with action
+
+$$
+  S^{n_1} \wedge R_{n_2} \overset{\rho_{n_1,n_2}}{\longrightarrow} R_{n_1 + n_2}
+$$
+
+then a homomorphism of $\mathbb{S}_{Seq}$-modules $\phi \colon F(k)\to R$ has components $\phi_{n}\colon S^{n-k} \to R_n$ fitting into commuting diagrams of the form
+
+$$
+  \array{
+     S^{n_1} \wedge S^{n_2 - k} &\overset{\simeq}{\longrightarrow}& S^{n_1 + n_2 - k}
+     \\
+     {}^{\mathllap{(id,\phi_{n_2})}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{\phi_{n_1+n_2}}}
+     \\
+     S^{n_1} \wedge R_{n_2} &\overset{\rho_{n_1,n_2}}{\longrightarrow}& R_{n_1+n_2}
+  }
+$$
+
+for $n_2 \geq k$. By the fact that the top morphism here is an isomorphism, all the components $\phi_{n \geq k}$ are uniquely fixed by the component $\phi_k$ as 
+
+$$
+  \phi_{n geq k} = \rho_{n-k,k} \circ \phi_k 
+$$
+
+(and $\phi_{n \lt k} = 0$). Of course this just confirms the [[free property]] of free spectra: morphisms of $\mathbb{S}_{Seq}$-modules $F(k) \longrightarrow R$ are equivalent to morphisms in $[Seq,Top^{\ast/}]$ from $y(k)$ to $R$, which by the [[Yoneda lemma]] form the space $R_k \in Top^{\ast/}$.
+
+Specialized to $R$ a free spectrum itself this verifies that the hom-spaces between free $\mathbb{S}_{Seq}$-modules are as claimed:
+
+$$
+  \mathbb{S}_{Seq}FreeMod(F(k_2),F(k_1))
+  \simeq
+  F(k_1)_{k_2} 
+  \simeq
+  \left{
+    \array{
+      S^{k_2-k_1} & for \; k_2 \geq k_1
+      \\
+      \ast & otherwise
+    }
+  \right.
+  \,.
+$$
+
+Of course this is just the defining free property. But now comparison with the above commuting square for the case $n_1 = k_1$ and $n_2 = k_2$ shows that composition in $\mathbb{S}_{Seq} FreeMod^{op}$ is indeed the composition in $Top^{\ast/}$ under the identification of $F(k)$ with $S^k$ and of the above hom-space $S^{k_2-k_1}$ with its image under $S^{k_2-k_1} \to Top^{\ast/}(S^{k_1},S^{k_2})$.
+
+=--
 
 From lemma \ref{SModulesAsEnrichedFunctors} we immediately get the following:
 
