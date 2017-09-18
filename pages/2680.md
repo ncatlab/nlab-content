@@ -117,3 +117,8 @@ $n$ vortices on the sphere as finite dimensional limit of 2D [[equation of motio
 
 * traditional [[Lagrangian mechanics]] and [[Hamiltonian mechanics]] are naturally embedding into [[local prequantum field theory]] by the notion of [[prequantized Lagrangian correspondences]]
 
+## References
+
+Named after [[William Rowan Hamilton]].
+
+
