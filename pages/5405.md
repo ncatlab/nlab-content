@@ -291,6 +291,8 @@ This statement justifies thinking of $QC(X)$ as being the "2-algebra" of functio
 
 * [[analytification]]
 
+* [[2-algebraic geometry]]
+
 * [[spectrum of a tensor triangulated category]]
 
 * [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]
