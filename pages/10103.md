@@ -67,6 +67,21 @@ A distinguishing feature of (infinitary) distributive monoidal categories is tha
 $$ T X = \coprod_n X^{\otimes n}.$$
 The same is true for the monad on enriched graphs whose algebras are categories enriched over such a monoidal category.  This also generalizes to [[lax monoidal categories]], a.k.a. "multitensors"; see [(Weber)](#Weber).
 
+## Related concepts
+
+* [[distributive law]]
+
+* [[distributivity for monoidal structures]]
+
+  * [[distributive monoidal category]]
+
+  * [[bipermutative category]]
+
+  * [[linearly distributive category]]
+
+  * [[rig category]]
+
+
 ## References
 
 * [[Mark Weber]], *Multitensors and monads on categories of enriched graphs*, [spnet](https://selectedpapers.net/arxiv/1106.1977)
