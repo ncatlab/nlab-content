@@ -4,8 +4,6 @@
 
 
 
-
-
 ***
 
 This page is a detailed introduction to basic [[topology]].
@@ -17,9 +15,10 @@ used to transparently summarize some conceptually important aspects of the theor
 The second part introduces some basics of [[homotopy theory]], mostly the [[fundamental group]],
 and ends with their first application to the classification of [[covering spaces]]
 
-***
 
 $\,$
+
+{#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 
 **part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_
 
@@ -28,6 +27,8 @@ $\,$
 $\,$
 
 For introduction to more general and abstract _[[homotopy theory]]_ see instead at _[[Introduction to Homotopy Theory]]_.
+
+***
 
 $\,$
 
