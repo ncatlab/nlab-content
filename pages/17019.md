@@ -173,6 +173,8 @@ The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclo
 
 ## Related concepts
 
+* [[cyclotomic space]]
+
 * [[Frobenius homomorphisms]]
 
 * [[Tate spectrum]]
