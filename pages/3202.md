@@ -38,7 +38,7 @@ The $L^p$ spaces are examples of [[Banach spaces]]; they are continuous analogue
 
 For fixed $f$, the norm ${\|f\|_p}$ is continuous in $p$.  Accordingly, for $p = \infty$, one may take the limit of ${\|f\|}_p$ as $p \to \infty$.  However, this turns out to be the same as the [[essential supremum]] norm $\|f\|_\infty$.  Therefore, $L^\infty(\Omega)$ makes sense as long as $\Omega$ is a [[measurable space]] equipped with a family of [[null sets]] (or [[full sets]]); the measure $\mu$ is otherwise irrelevant.
 
-For $0 \lt p \lt 1$, we can define the $L^p$ space using the same formula; however, it is no longer a Banach space (but still an [[F-space]]).  For $p = 0$, we can again take the limit, or equivalently use the essential infimum; every measurable function on $\Omega$ belongs to $L^0$ (which is no longer even an $F$-space).
+For $0 \leq p \lt 1$, one can modify the definition to make $L^p$ into an [[F-space]] (but not a Banach space).  See the definitions at [[p-norm]].
 
 
 ## Minkowski's inequality 
@@ -122,11 +122,13 @@ $$\int_\Omega {|t u + (1-t)v|^p} \,d\mu \leq \int_\Omega t{|u|}^p + (1-t){|v|}^p
 by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done. 
 =-- 
 
+
 ## Related concepts
 
 * [[square integrable function]]
 
 * [[canonical Hilbert space of half-densities]]
+
 
 ## References
 
@@ -135,6 +137,7 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 * L. C. Evans, _Partial differential equations_, Amer. Math. Soc. 1998.
 
 * Wikipedia (English): [Lp space](http://en.wikipedia.org/wiki/Lp_space)
+
 
 category: analysis
 
