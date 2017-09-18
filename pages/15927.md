@@ -1,0 +1,9 @@
+
+A version of axiomatic [[set theory]].
+
+## References
+
+* Wikipedia, _[New Foundations](http://en.wikipedia.org/wiki/New_Foundations)_
+
+[[!redirects NF]]
+[[!redirects NFU]]
