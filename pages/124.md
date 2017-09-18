@@ -196,13 +196,15 @@ The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabo
 
   * The category $G Set$ of [[set]]s equipped with the [[action]] of a [[group]] $G$: this is the topos of presheaves on the category $\mathbf{B}G$ which is the [[delooping]] [[groupoid]] of $G$.
 
+ * Continuing the last example above, if $G$ is a topological group, the category $G Set$ of [[category of G-sets|sets with a continuous action of G]] (that is, the action map $G\times X\to X$ is [[continuous map|continuous]], where $X$ has the [[discrete topology]]) is a topos, and in fact a Grothendieck topos (though this may not be obvious).
+
+ * More generally, $G$ may be a [[topological groupoid]], or even a [[localic groupoid]].  In fact, it is a theorem that every Grothendieck topos can be presented as the topos of "continuous sheaves" on a localic groupoid.
+
+* Again if $G$ is a topological group, the category $Unif(G)$ of *[[uniformly continuous map|uniformly continuous]]* $G$-sets is also a topos, but not (in general) one of Grothendieck's.  For example, if $G$ is the [[profinite completion]] of $\mathbb{Z}$, then a continuous $G$-set is a $\mathbb{Z}$-set all of whose orbits are finite, while a uniformly continuous one is a $\mathbb{Z}$-set with a finite upper bound on the size of all its orbits.
+
 * For $E$ a topos and $X \in E$ any [[object]], also the [[overcategory]] or [[slice category]] $E/X$ is again a topos. ([[Elephant]], A.2.3.2). See also [[over-topos]]. 
 
 * If $E$ is a topos and $j \colon E \to E$ is a [[exact functor|lex]] idempotent monad, the category of $j$-algebras is a topos. Each such $j$ corresponds to a [[Lawvere-Tierney topology]] in $E$, and the category of $j$-algebras is equivalent to the category of sheaves for this topology. An example is the [[double negation|double-negation topology]]. 
-
-* If $G$ is a [[topological group]], then the category $Cont(G)$ of sets with a *continuous* action of $G$ (that is, the action map $G\times X\to X$ is [[continuous map|continuous]], where $X$ has the [[discrete topology]]) is a topos, and in fact a Grothendieck topos (though this may not be obvious).  More generally, $G$ may be a [[topological groupoid]], or even a [[localic groupoid]].  In fact, it is a theorem that every Grothendieck topos can be presented as the topos of "continuous sheaves" on a localic groupoid.
-
-* Again if $G$ is a topological group, the category $Unif(G)$ of *[[uniformly continuous map|uniformly continuous]]* $G$-sets is also a topos, but not (in general) one of Grothendieck's.  For example, if $G$ is the [[profinite completion]] of $\mathbb{Z}$, then a continuous $G$-set is a $\mathbb{Z}$-set all of whose orbits are finite, while a uniformly continuous one is a $\mathbb{Z}$-set with a finite upper bound on the size of all its orbits.
 
 * An obvious example of an elementary topos that is not a Grothendieck topos is the category [[FinSet]] of finite sets.  More generally, for any [[strong limit cardinal]] $\kappa$, the category of sets of cardinality $\lt\kappa$ is an elementary topos, and as long as $\kappa \gt\omega$ it has a [[NNO]]. $Set_{\lt \kappa}$ doesn't even admit a geometric morphism to $Set$.
 
