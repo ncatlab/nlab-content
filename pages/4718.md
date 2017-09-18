@@ -219,6 +219,8 @@ The generalization of prop. \ref{EquivalenceOfNonunitalAndSliced} to [[nonunital
 
 * [[unitisation of C*-algebras]]
 
+* [[noncommutative ring]], [[nonassociative ring]]
+
 * [[rig]]
 
 * [[nonunital Ek-algebra]]
