@@ -61,8 +61,9 @@ This appears as ([Goerss-Jardine, ch V, prop. 6.2](#GoerssJardine)).
 ## Properties
 
 ### Relation to ordinary simplicial sets
+ {#RelationToOrdinarySimplicialSets}
 
-+-- {: .num_prop }
++-- {: .num_prop #FibrationsInTermsOfKanFibrations}
 ###### Proposition
 
 Under the [[forgetful functor]] $U \colon sSet_0 \hookrightarrow sSet$ 
