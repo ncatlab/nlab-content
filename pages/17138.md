@@ -8,7 +8,7 @@
 $\,$
 
 +-- {: .standout}
-co
+
 <div style="float:left;margin:0 10px 10px 0;"> <img width="200" src="http://ncatlab.org/nlab/files/BonnLogo.png"> </div> 
 
 [V4D2 -- Algebraic Topology II](https://basis.uni-bonn.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=109556&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
@@ -22,11 +22,13 @@ $\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
 =--
 
 
-
-
 $\,$
 
-> under construction
+***
+
+This page contains topics, links, literature.
+
+Eventually lecture notes will be contained here, for the moment these are skeletal.
 
 ***
 
@@ -1088,18 +1090,16 @@ $\;\;\;\;\;\;\;\;\;\;\;$
 
 =---
 
-> under construction
-
 ***
 
-The following is a rough list of possible topics. 
+The following is a rough list of possible topics. Check again a little later for more.
 
 ### Generalised cohomology
 
-We follow ([Kono-Tamaki 02](#KonoTamaki02))
-
 
 **Cohomology theory and Spectra
+
+See for instance ([Aguilar-Gitler-Prieto 02, chapter 12](#AguilarGitlerPrieto02)).
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
@@ -1195,7 +1195,7 @@ For the case $E =$ [[MU]] we may follow
 
 For  **S) Complex oriented cohomology ** we follow
 
-* {#KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
