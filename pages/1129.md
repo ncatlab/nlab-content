@@ -601,7 +601,7 @@ $$
     \\
     \downarrow && \downarrow && && \downarrow
     \\
-    J^0 &\to& J^1 &\to& \codt &\to& J^n &\to& \cdots
+    J^0 &\to& J^1 &\to& \cdots &\to& J^n &\to& \cdots
   }
   \,.
 $$
