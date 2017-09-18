@@ -122,7 +122,7 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 ### Topological disconnectedness and G-topology
  {#Disconnectedness}
 
-While the $p$-adic numbers are complete in the [[p-adic norm]], that [[topology]] is exotic: $\mathbb{Q}_p$ is a [[Stone space]], hence in particular a [[totally disconnected topological space]].
+While the $p$-adic numbers are complete in the [[p-adic norm]], that [[topology]] is exotic: $\mathbb{Q}_p$ is a locally compact, Hausdorff, [[totally disconnected topological space]].
 
 For that reason the naive idea of formulating [[p-adic geometry]] in analogy to [[complex analytic geometry]] as modeled on domains in $\mathbb{Q}_p^n$, regarded with their [[subspace topology]], fails (for instance there would be no [[analytic continuation]]), as also all these domains are totally disconnected. 
 
