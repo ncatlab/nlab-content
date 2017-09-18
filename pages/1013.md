@@ -14,14 +14,24 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-[[category theory|Category theory]] frequently allows one to give precise and useful formalized meanings to "everyday" terms, at least terms used everyday by practicing mathematicians. 
+It is common in [[mathematics]] to speak of 
 
-It was indeed introduced originally in order to formalize the use of the notion "natural" in mathematics. Another frequently recurring pair of terms in math are "extra structure" and "extra properties", to which we add the more general concept of "extra stuff". In discussion among Jim Dolan, John Baez and Toby Bartels, the following useful formalization of these concepts in category theoretic terms was established. 
+1. objects carrying "extra structure" (for instance a set carrying a topology);
 
-This is a generalization of parts of traditional [[Postnikov tower]]/[[(n-connected, n-truncated) factorization system]] theory from [[groupoids]] to general [[categories]].
+1. objects enjoying "extra properties";
 
-See also at _[[structure type]]_ and _[[stuff type]]_.
+1. objects being equipped with "extra stuff".
+
+In [[model theory]] there is a formalization of what it means to equip a [[set]] with [[mathematical structure]], and one may say what it means for a function between these sets to have the property of preserving this extra structure. 
+But this formalization captures only parts of the situations in which it is useful to speak of "extra structure", "extra property" and "extra stuff".
+
+Now [[category theory]] is precisely the kind of mathematical meta-theory that allows a nice and general formalization of such matters. Here we discuss such a formalization, due to ([Baez-Baertels-Dolan 98](#BaezBaertelsDolan98), see also [Baez-Shulman 06, section 2.4](#BaezShulman06)), phrased in terms of properties of [[functors]] that compare a category of objects with extra structure/property/stuff to the underlying category of objects without.
+
+In fact this formalization involves the generalization of what in [[homotopy theory]] is called the [[Postnikov tower]] theory (or [[(n-connected, n-truncated) factorization system]]), generalizing this from [[groupoids]] to [[categories]] ([[directed homotopy type theory|directed homotopy types]]).
+
+For related discussion see also at _[[structure type]]_ and _[[stuff type]]_.
 
 Note that this account operates under the [[principle of equivalence]], where constructions are taken to be invariant under morphisms which are invertible in a maximally weak sense. When working with various amounts of [[strict n-category|strictness]], further requirements are appropriate, some of which are noted below.
 
@@ -244,9 +254,10 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 
 ## References
 
-* [original UseNet discussion](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html) on `sci.physics.research` in 1998;
+* {BaezbaertelsDolan98} [original UseNet discussion](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html) on `sci.physics.research` in 1998;
 * a pedagogical comparison to quadratic, linear, and constant polynomials ([PDF](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf)) by Toby Bartels in 2004;
-* [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420)).
+
+* {#BaezShulman06} [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420)).
 
 * {#Ehresmann57} [[Charles Ehresmann]], _Gattungen in Lokalen Strukturen_, 1957
 
