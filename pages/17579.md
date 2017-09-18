@@ -147,13 +147,15 @@ In fact more can be said here:
 
 +-- {: .num_prop}
 ###### Proposition
-Let $\mathcal{C}$ be a [[category]]. Then the atomic topology $J_{at}$ coincides with the dense topology $J_d$ precisely when $\mathcal{C}$ satisfies the [[Ore condition]].
+Let $\mathcal{C}$ be a [[category]]. Then  $J_{d}\subseteq J_{at}$ in general, but $J_d=J_{at}$ precisely if $\mathcal{C}$ satisfies the [[Ore condition]].
 =--
 
 +-- {: .proof}
 ###### Proof
-From prop. \ref{atomic_ore} follows that the atomic topology $J_{at}$ will contain empty sieves precisely if $\mathcal{C}$ does not satisfy the Ore condition. But in the proof of prop. \ref{atomic_dense} we showed that the sieves of the dense topology $J_d$ are never empty regardless of the Ore condition.
+The proof of prop. \ref{atomic_dense} already showed that the sieves of the dense topology $J_d$ are never empty regardless of the Ore condition. From prop. \ref{atomic_ore} follows that the atomic topology $J_{at}$ will additionally contain empty sieves precisely if $\mathcal{C}$ does not satisfy the Ore condition. 
 =--
+
+In particular, $Sh(\mathcal{C},J_{at})\subseteq Sh(\mathcal{C},J_{d})\simeq Sh_{\neg\neg}(Set^{\mathcal{C}^{op}})$ .
 
 ## Related entries
 
