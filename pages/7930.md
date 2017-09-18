@@ -143,7 +143,7 @@ The above irreducible complex representations admit a [[quaternionic structure]]
  {#RealIrreducibleSpinRepresentationInLorentzSignature}
 
 Let $V$ be a quadratic vector space, def. \ref{QuadraticVectorSpace},
-over the [[real numbers]] with [[bilinear form]] or Lorentzian [[signature]], hence $V = \mathbb{R}^{d-1,1}$ is [[Minkowski spacetime]] of some [[dimension]] $d$. 
+over the [[real numbers]] with [[bilinear form]] of Lorentzian [[signature]], hence $V = \mathbb{R}^{d-1,1}$ is [[Minkowski spacetime]] of some [[dimension]] $d$. 
 
 The following table lists the irreducible real representations of $Spin(V)$ ([Freed 99, page 48](#Freed99)).
 
