@@ -5,7 +5,7 @@ Charles Sanders Peirce (1839-1914), a philosopher, logician and scientist, was o
 
 Peirce's philosophy can be seen as Schellingism transformed in light of (in Peirce's time) modern physics, as Peirce himself notes in an 1894 letter to William James:
 
-* _"My views were probably influenced by Schelling - by all stages of Schelling, but especially the Philosophie der Natur. I consider Schelling as enormous, and one thing I admire about him is his freedom from the trammels of system, and hsi holding himself uncommitted to any previous utterance. in that, he is like a scientific man. If you were to call my philosophy Schellingism transformed in the light of modern physics, I should not take it hard."_
+> My views were probably influenced by [[Schelling]] - by all stages of Schelling, but especially the _Philosophie der Natur_. I consider Schelling as enormous, and one thing I admire about him is his freedom from the trammels of system, and hsi holding himself uncommitted to any previous utterance. in that, he is like a scientific man. If you were to call my philosophy Schellingism transformed in the light of modern physics, I should not take it hard.
 
 
 ##References
