@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+This page collects material related to
+
+* [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], 
+  
+  _Model categories of diagram spectra_, 
+
+  Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000 
+
+  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
+
+on a unified construction and comparison of the [[Bousfield-Friedlander model structure|model structure on sequential spectra]], [[model structure on symmetric spectra]], [[model structure on orthogonal spectra]], [[model structure on excisive functors]].
+
+***
+
+Write 
+
+* $Top_{cq}$ for the [[category]] of [[compactly generated topological spaces]]; this is a "[[convenient category of topological spaces]]", in particular it is a [[cartesian monoidal category]] $(Top_{cg}, \times)$;
+
+* $Top_{Quillen}$ for the [[classical model structure on topological spaces]] on this caterory; in particular this is a [[monoidal model category]] $(Top_{Quillen}, \times)$.
+
+Throughout we are dealing with $(Top_{cg},\times)$-[[enriched categories]] and with $(Top_{Quillen}_{cg})$-[[enriched model categories]].
+
+(...)
+
+category: reference
