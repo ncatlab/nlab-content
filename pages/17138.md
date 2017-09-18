@@ -701,6 +701,57 @@ Then apply the [[natural isomorphism]] $Top({\vert-\vert},-) \simeq sSet(-,Sing(
 
 =--
 
+While [[simplicial sets]] have the advantage of being purely combinatorial structures, the [[singular simplicial complex]] of any given [[topological space]], def. \ref{SingularSimplicialComplex} is in general a huge simplicial set which does not lend itself to detailed inspection. The following is about small models.
+
++-- {: .num_defn #MinimalKanFibration}
+###### Definition
+
+A [[Kan fibration]] $\phi \colon S \longrightarrow T$, def. \ref{KanFibration}, is called a **[[minimal Kan fibration]]** if for any two cells in the same fiber with the same [[boundary]] if they are homotopic relative their boundary, then they are already equal.
+
+More formally, $\phi$ is minimal precisely if for every [[commuting diagram]] of the form
+
+$$
+  \array{
+    (\partial \Delta[n]) \times \Delta[1]
+    &\stackrel{p_1}{\longrightarrow}&
+    \partial \Delta[n]
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] \times \Delta[1]
+    &\stackrel{h}{\longrightarrow}&
+    S
+    \\
+    \downarrow^{\mathrlap{p_1}} && \downarrow^{\mathrlap{\phi}}
+    \\
+    \Delta[n] &\longrightarrow& T
+  }
+$$
+
+then the two composites 
+
+$$
+  \Delta[n]
+  \stackrel{\overset{d_0}{\longrightarrow}}{\underset{d_1}{\longrightarrow}} 
+  \Delta[n] \times \Delta[1]
+  \stackrel{h}{\longrightarrow}
+  S
+$$
+
+are equal.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For every [[Kan fibration]], def. \ref{KanFibration}, there exists a fiberwise [[strong deformation retract]] to a [[minimal Kan fibration]], def. \ref{MinimalKanFibration}.
+
+=--
+
+(e.g. [Goerss-Jardine 96, chapter I, prop. 10.3](#GoerssJardine96), [Joyal-Tierney 05, theorem 3.3.1, theorem 3.3.3](#JoyalTierney05)).
+
+
 
 
 
@@ -816,7 +867,7 @@ in example \ref{TopologicalRealizationOfSimplicialSets} takes values in [[CW-com
 
 (e.g. [Goerss-Jardine 96, chapter I, prop. 2.3](#GoerssJardine96))
 
-Thus for a topological space $X$ the [[unit of an adjunction|adjunction unit]] $\eta_X \colon X \longrightarrow {\vert Sing X\vert}$ of the [[nerve and realization]]-adjunction is a candidate for a replacement of $X$ by a CW-complex. For this $\eta_X$ should be at least a [[weak homotopy equivalence]], i.e. induce [[isomorphisms]] on all [[homotopy groups]]. Since homotopy groups are built from maps into $X$ out of [[compact topological spaces]] it is plausible that this works if the topology of $X$ is entirely detected by maps out of compact topological spaces into $X$. Topological spaces with this property are called [[compactly generated topological spaces|compactly generated]].
+Thus for a topological space $X$ the [[adjunction counit]] $\epsilon_X \colon {\vert Sing X\vert} \longrightarrow X$ of the [[nerve and realization]]-adjunction is a candidate for a replacement of $X$ by a CW-complex. For this, $\epsilon_X$ should be at least a [[weak homotopy equivalence]], i.e. induce [[isomorphisms]] on all [[homotopy groups]]. Since homotopy groups are built from maps into $X$ out of [[compact topological spaces]] it is plausible that this works if the topology of $X$ is entirely detected by maps out of compact topological spaces into $X$. Topological spaces with this property are called [[compactly generated topological spaces|compactly generated]].
 
 We take _[[compact topological space]]_ to imply _[[Hausdorff topological space]]_.
 
@@ -923,6 +974,55 @@ The key step in the proof is to use the [[cartesian closed category|cartesian cl
 
 =--
 
++-- {: .num_lemma}
+###### Lemma
+
+The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, of a [[minimal Kan fibration]], def. \ref{MinimalKanFibration} is a [[Serre fibration]], def. \ref{SerreFibration}.
+
+=--
+
+This is due to ([[Calculus of fractions and homotopy theory|Gabriel-Zisman 67]]). See for instance ([Goerss-Jardine 96, chapter I, corollary 10.8, theorem 10.9](#GoerssJardine96)).
+
++-- {: .proof}
+###### Proof idea
+
+Show that minimal fibrations are simplicial [[fiber bundles]], locally trivial over each simplex in the base. Then use prop. \ref{Timesk} to show that this property translates to their geometric realization also being a locally trivial fiber bundle.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, of any [[Kan fibration]], def. \ref{KanFibration} is a [[Serre fibration]], def. \ref{SerreFibration}.
+
+=--
+
+This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goerss-Jardine 96, chapter I, theorem 10.10](#GoerssJardine96)).
+
+Finally:
+
++-- {: .num_prop}
+###### Proposition
+
+For $S$ a [[Kan complex]], then the [[adjunction unit|unit]] of the [[nerve and realization]]-[[adjunction]] 
+
+$$
+  S \longrightarrow Sing {\vert S \vert}
+$$
+
+is a [[weak homotopy equivalence]]. 
+
+For $X$ any [[topological space]], then the [[adjunction counit]] 
+
+$$
+  {\vert Sing X\vert} \longrightarrow X
+$$
+
+is a [[weak homotopy equivalence]]
+
+=--
+
+e.g. ([Goerss-Jardine 96, chapter I, prop. 11.1 and p. 63](#GoerssJardine96)).
 
 
 ### The classical homotopy category
@@ -4647,7 +4747,7 @@ For **Prelude) Classical homotopy theory** see chapter I of
 
 or alternatively
 
-* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]], _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
 
 and supplemented by
 
