@@ -32,11 +32,10 @@ $$
 
 This is a [[triangulated category]].
 
-But the Spanier-Whiethead category lacks other desirable properties, for instance it does not have all [[coproducts]] and the canonical functor from the homotopy category of [[pointed topological spaces]] does not preserve the coproducts that already exist. As a consequence, in particular a [[Brown representability theorem]] does not hold in the SW-category.
+But the Spanier-Whitehead category lacks other desirable properties, for instance it does not have all [[coproducts]] and the canonical functor from the homotopy category of [[pointed topological spaces]] does not preserve the coproducts that already exist. As a consequence, in particular a [[Brown representability theorem]] does not hold in the SW-category.
 
-Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this all this is fixed by regardeding the SW-category as a [[full subcategory]] on the (shifted) [[suspension spectra]]  inside the larger category of [[spectra]]: the [[stable homotopy category]]. 
+Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this all this is fixed by regardeding the SW-category for [[finite CW complexes]] as a [[full subcategory]] on the (shifted) [[suspension spectra]]  inside the larger category of [[spectra]]: the [[stable homotopy category]] (e.g. [Schwede 12, chapter II theorem 7.2](#Schwede12)). As such it is the full subcategory on the [[finite spectra]] (e.g. [Schwede 12, chapter II theorem 7.4](#Schwede12)).
 
-Except for [[finite spectra]], these are presented by the SW-category on [[finite CW-complexes]].
 
 ## Related concepts
 
@@ -56,6 +55,9 @@ Survey includes
 
 * H. R. Margolis, _Spectra and the Steenrod algebra_, volume 29 of North-Holland
 Mathematical Library. North-Holland Publishing Co., Amsterdam, 1983 
+
+* [[Stefan Schwede]], chapter II, section 7 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
 
 Discussion in the abstract generality of categories equipped with an abstract suspension-like functor is in
 
