@@ -121,35 +121,36 @@ Notice that inherent to this definition is the assumption that the pullbacks inv
 
 A [[groupoid]] internal to $A$ is all of the above 
 
- * such that the cartesian product $C_1 \times C_1$ exists
-
  * with a morphism
   $$
      C_1 \stackrel{i}{\to} C_1
   $$
 
-
  * such that
+  $$
+t = ( C_1 \stackrel{i}{\to} C_1 \stackrel{s}{\to} C_0 ),\;\;\;\;
+s = ( C_1 \stackrel{i}{\to} C_1 \stackrel{t}{\to} C_0 ).
+  $$
+
+ * and
    $$
      \array{
-        C_1 &\stackrel{diag}{\to}& C_1 \times C_1
-        \\
-        \downarrow^s && \;\;\;\;\;\;\;
-           \downarrow^{c \circ (Id \times i)}
-        \\
-        C_0 &\stackrel{e}{\to}& C_1
+     C_1 &\stackrel{diag}{\to}& C_1\;{}_t \times_{C_0}{}_t C_1 &\stackrel{Id \times i}{\to}& C_1\;{}_t \times_{C_0}{}_s C_1
+     \\
+     \downarrow^s &&&& \; \downarrow^c
+     \\
+     C_0 &&\stackrel{e}{\to}&& C_1
      }
    $$
 
  * and
    $$
      \array{
-        C_1 &\stackrel{diag}{\to}& C_1 \times C_1
-        \\
-        \downarrow^t && \;\;\;\;\;\;\;
-           \downarrow^{c \circ (i \times Id)}
-        \\
-        C_0 &\stackrel{e}{\to}& C_1
+     C_1 &\stackrel{diag}{\to}& C_1\;{}_s \times_{C_0}{}_s C_1 &\stackrel{i \times Id}{\to}& C_1\;{}_t \times_{C_0}{}_s C_1
+     \\
+     \downarrow^t &&&& \; \downarrow^c
+     \\
+     C_0 &&\stackrel{e}{\to}&& C_1
      }
    $$
 
