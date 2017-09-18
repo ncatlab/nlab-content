@@ -55,10 +55,10 @@ Providing a certain condition is satisfied, a pivotal structure on a fusion cate
 Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. By the [[homotopy hypothesis]] this explains how they induce [[3d TQFT]]s.
 
 
-+-- {: .num_defn #MonCan}
++-- {: .num_defn #MonCat}
 ###### Definition
 
-Write $MonCat$ for the [[(infinity,n)-category|(infinity,3)-category]] which has as 
+Write $MonCat_{bim}$ for the [[(infinity,n)-category|(infinity,3)-category]] which has as 
 
 * objects [[monoidal categories]], 
 
@@ -75,16 +75,23 @@ With its natural [[tensor product]], $MonCat$ is a [[symmetric monoidal (infinit
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #FusionCategoriesAreFullyDualizable}
 ###### Proposition
 
-A monoidal category which is fusion is [[fully dualizable object|fully dualizable]] in $MonCat$
+A monoidal category which is fusion is [[fully dualizable object|fully dualizable]] in the [[(infinity,n)-category|(infinity,3)-category]] $MonCat_{bim}$, def. \ref{MonCat}.
 
 =--
 
-This is due to ([DouglasSchommer-PriesSnyder](#DSPS))
+This is due to ([Douglas & Schommer-Pries & Snyder 13](#DSPS13)).
 
++-- {: .num_remark}
+###### Remark
 
+Via the [[cobordism theorem]] prop. \ref{FusionCategoriesAreFullyDualizable} implies that fusion categories enocde [[extended TQFTs]] on 3-dimensional [[framed manifold|framed]] [[cobordisms]], while their $O(3)$-[[homotopy fixed points]] encode extended 3d TQFTs on general (not framed) cobordisms. 
+
+These 3d TQFTs hence arise from similar algebraic data as the [[Turaev-Viro model]] and the [[Reshetikhin-Turaev construction]], however there are various slight differences. See ([Douglas & Schommer-Pries & Snyder 13, p. 5](#DSPS13)).
+ 
+=--
 
 
 ## Suggestions ##
@@ -133,7 +140,7 @@ The [[Tannaka duality]] to [[weak Hopf algebras]] is discussed in
  {#Ostrik}
 
 
-The relation to [[3d TQFT]] is fully clarified in
+The relation to [[3d TQFT]] is clarified via the [[cobordism hypothesis]] in
 
 * {#DSPS} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([talk pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
  
