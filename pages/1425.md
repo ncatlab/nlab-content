@@ -22,7 +22,7 @@ $$\begin{svg}
   <line x1="254" y1="31" x2="403" y2="116" stroke-width="2" stroke="#000000" id="svg_39887_15" marker-end="url(#se_marker_end_svg_39887_15)"/>
   <line x1="67" y1="151" x2="110" y2="291" stroke-width="2" stroke="#000000" id="svg_39887_16" marker-end="url(#se_marker_end_svg_39887_16)"/>
   <line x1="357" y1="296" x2="407" y2="146" stroke-width="2" stroke="#000000" id="svg_39887_17" marker-end="url(#se_marker_end_svg_39887_17)"/>
-  <line x1="192.999997" y1="308" x2="308" y2="308" stroke-width="2" stroke="#000000" id="svg_39887_18" marker-end="url(#se_marker_end_svg_39887_18)"/>
+  <line x1="200" y1="308" x2="308" y2="308" stroke-width="2" stroke="#000000" id="svg_39887_18" marker-end="url(#se_marker_end_svg_39887_18)"/>
   <line marker-end="url(#se_marker_end_svg_39887_2)" id="svg_39887_2" y2="31" x2="220.00001" y1="116" x1="67" stroke-width="2" stroke="#000000"/>
   <foreignObject height="20" width="128" font-size="16" id="svg_39887_1" y="5" x="175">
    <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
