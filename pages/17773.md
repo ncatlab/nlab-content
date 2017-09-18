@@ -14,6 +14,6 @@ $$
   \,.
 $$
 
-This has various evident generalizations. One is the horizontal derivative in [[variational calculus]], see at _[[variational bicomplex]]_.
+This has various evident generalizations. One is the [[horizontal derivative]] in [[variational calculus]], see at _[[variational bicomplex]]_.
 
 [[!redirects total derivatives]]
