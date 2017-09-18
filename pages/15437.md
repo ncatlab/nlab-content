@@ -26,7 +26,7 @@ The _theory of decidable objects_ $D$is the theory over the signature with one s
 
 ##Properties##
 
-* For a [[topos]] $\mathcal{E}$ the category of models $Mod_D(\mathcal{E})$ is the category of decidable objects in $\mathcal{E}$. The _[[classifying topos]]_ $Set[D]$ for the theory of decidable objects is the functor category $[FinSet_{mono},Set]$ where $FinSEt_{mono}$ is the category of finite sets and monomorphisms. $Set[D]$ is a [[locally decidable topos]].
+* For a [[topos]] $\mathcal{E}$ the category of models $Mod_D(\mathcal{E})$ is the category of decidable objects in $\mathcal{E}$. The _[[classifying topos]]_ $Set[D]$ for the theory of decidable objects is the functor category $[FinSet_{mono},Set]$ where $FinSet_{mono}$ is the category of finite sets and monomorphisms. $Set[D]$ is a [[locally decidable topos]].
 
 * The theory of _infinite decidable objects_ $D_\infty$ adds to $D$ the axioms $\top\vdash_{x_1,\dots,x_n} (\exists y)\bigwedge_{i=1}^{n}(y#x_i)$ for all $n$ with $\top\vdash(\exists y)\top$ for $n=0$. The models of $D_\infty$ are precisely the infinite decidable objects and its classifying topos $Set[D_\infty]$ is the [[Schanuel topos]].
 
