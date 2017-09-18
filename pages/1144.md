@@ -709,7 +709,9 @@ $$
 induced from the [[Quillen adjunction]] from theorem \ref{SullivanRationalizationAdjunction}.
 
 
-Then: On the [[full subcategory]] $Ho(Top_{\mathbb{Q}, \geq 1}^{fin})$ of [[simply connected topological space|simply connected]] [[rational topological spaces]] of [[finite type]] this adjunction restricts to an [[equivalence of categories]]
+Then: 
+
+On the [[full subcategory]] $Ho(Top_{\mathbb{Q}, \geq 1}^{fin})$ of _[[simply connected topological space|simply connected]]_ [[rational topological spaces]] of [[finite type]] this adjunction restricts to an [[equivalence of categories]]
 
 $$
   Ho(Top_{\mathbb{Q}, \gt 1}^{fin})
@@ -721,7 +723,9 @@ $$
   \,.
 $$
 
-In particular the [[adjunction unit]]
+More generally, we get an [[equivalence of categories]] betwee the _[[nilpotent topological space|nilpotent]]_ [[rational topological spaces]] of [[finite type]] and the [[Sullivan models]] of [[nilpotent L-∞ algebras]].
+
+In particular for such spaces the [[adjunction unit]]
 
 $$
   X \longrightarrow K_{poly}(\Omega^\bullet_{pwpoly}(X))
