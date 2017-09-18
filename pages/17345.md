@@ -122,7 +122,7 @@ The [[connecting homomorphism]] $\delta_{n} \colon H_{n+1}(X, A) \to H_n(A)$ sen
 +-- {: .proof}
 ###### Proof
 
-This is the _[[homology long exact sequence]]_, prop. \ref{HomologyLongExactSequence}, induced by the defining [[short exact sequence]] $0 \to C_\bullet(A) \stackrel{i}{\hookrightarrow} C_\bullet(X) \to coker(i)  \simeq C_\bullet(X)/C_\bullet(A)  \to 0$ of chain complexes.
+This is the _[[homology long exact sequence]]_, induced by the defining [[short exact sequence]] $0 \to C_\bullet(A) \stackrel{i}{\hookrightarrow} C_\bullet(X) \to coker(i)  \simeq C_\bullet(X)/C_\bullet(A)  \to 0$ of chain complexes.
 
 =--
 
