@@ -38,6 +38,8 @@ In the context of [[monads in computer science]] this monad is called the _reade
 In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$,
 the reader monad $[W,-] \colon \mathcal{C}\to \mathcal{C}$ is [[right adjoint]] to the [[writer comonad]] $W\times (-)$.
 
+Just as the writer comonad is canonically a monad when $W$ is a [[monoid]], so the reader monad is a comonad in that case, and then it is sometimes called the 'traced comonad'.
+
 The composite of writer comonad followed by [[reader monad]] is the [[state monad]].
 
 ### In terms of dependent type theory
