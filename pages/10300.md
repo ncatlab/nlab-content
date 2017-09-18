@@ -49,7 +49,7 @@ The [[octonions]] are not associative and this breaks the first two methods, but
 
 ## Equivalence of synthetic and analytic
 
-In any projective plane, we can define a "scalar" to be an ordered set of four collinear points $(A,B,C,D)$ of which no more than two are equal.  Two scalars are considered equal if they are projectively related, i.e. the four lines joining corresponding points are concurrent.  If Desargues' theorem holds, we can define addition and multiplication on the scalars making them into a division ring $F$ such that our plane is isomorphic to $F P^2$.  The ring $F$ is commutative (hence a field) iff Pappus' theorem also holds, and has characteristic $\neq 2$ iff Fano's axiom holds.
+In any projective plane, we can define a "scalar" to be an ordered set of four collinear points $(A,B,C,D)$ of which no more than two are equal.  Two scalars are considered equal if they are projectively related, i.e. the four lines joining corresponding points are concurrent.  If Desargues' theorem holds, we can define addition and multiplication on the scalars (omitting one of them that acts like $\infty$) making them into a division ring $F$ such that our plane is isomorphic to $F P^2$.  The ring $F$ is commutative (hence a field) iff Pappus' theorem also holds, and has characteristic $\neq 2$ iff Fano's axiom holds.
 
 If Desargues' theorem fails, then we can still construct a sort of algebraic structure on the scalars, called a [[ternary ring]], which suffices to reconstruct our plane.  However, distinct ternary rings can give rise to isomorphic projective planes, in contrast to the situation for fields and division rings.
 
