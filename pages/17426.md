@@ -1,0 +1,1 @@
+**Separation logic** is an extension of [[Hoare logic]] used to reason about memory separation and memory sharing in programs with pointer structures.
