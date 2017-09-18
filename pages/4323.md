@@ -187,7 +187,7 @@ $$
     ( E (O(k)\times O(\ell))\underset{O(k)\times O(\ell)}{\times}) 
     \mathbb{R}^k \oplus \mathbb{R}^\ell
     &\longrightarrow& 
-    E O(k+\ell)\underset{O(k + ell)}{\times} \mathbb{R}^{k+\ell}
+    E O(k+\ell)\underset{O(k + \ell)}{\times} \mathbb{R}^{k+\ell}
     \\
     \downarrow && \downarrow
     \\
