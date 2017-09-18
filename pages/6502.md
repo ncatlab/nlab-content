@@ -246,17 +246,20 @@ Let $X$ be a [[smooth set]]. Then an _$(H \hookrightarrow G)$-Cartan connection_
 
 ## Weaker definitions (pre- and semi-Cartan geometry)
 
+We discuss here some weakining of the above definition of Cartan connection that have their uses.
+
 ### Pre-Cartan geometry
 
-[Kuranishi 95](#Kuranishi95)
+...([Kuranishi 95](#Kuranishi95))...
 
 ### Semi-Cartan geometry
+ {#SemiCartanGeometry}
 
 It is useful to decompose the definition of Cartan connection into two states:
 
 1. the [[reduction of structure groups|reduction]] of the underlying principal bundles along $H \hookrightarrow G$;
 
-1. the compatible connection data.
+1. the compatible [[connection on a bundle|connection]] data.
 
 In the synthetic formulation [above](#InTermsOfSmoothModuliStacks) these two stages are reflected by the [[pasting law]] applied to the pullback pasting diagram of prop. \ref{MCFormAsFiberOfDifferentialModuli}: the lift
 
@@ -311,10 +314,36 @@ $$
 
 This section is what identifies each point of $X$ with a point in $G/H$, modulo $G$-action. More in detail, given any [[cover]] $U \to X$ equipped with a trivialization of $U \to X \to \mathbf{B}G$ then the induced map $U \to G/H$ identifies each point of this cover with a point in $G/H$.
 
-One could at this point just demand that there is such a cover and trivialization such that this induced map $U \to G/H$ is [[formally étale morphism|formally étale]] (a [[local diffeomorphism]]). This would already serve the purpose of identifying each [[tangent space]] $T_x X$ with the tangent space $T_{e H} (G/H)$.
+It therefore makes sense to set:
 
-The full definition of Cartan connection demands that this identification is carried along by a compatible parallel transport. (...)
++-- {: .num_defn #SemiCartanGeometry}
+###### Definition
 
+An _$(H \to G)$ semi-Cartan geometry_ on a [[differential cohesion|differentically cohesive]] $X$ is
+
+1. a $G$-[[principal bundle]] $P$ on $X$;
+
+1. a [[section]] $\sigma \colon X \to P \underset{G}{\times} (G/H)$ of the [[associated bundle|associated]] $G/H$-[[fiber bundle]];
+
+such that
+
+* there exists a [[cover]] ([[1-epimorphism]]) $U \to X$ such that the restriction  of this section to the cover, regarded as a map $\sigma|_U \colon U \to G/H$, is [[formally étale morphism|formally étale]] (a [[local diffeomorphism]]).
+
+=--
+
++-- {: .num_defn #SemiCartanGeometry}
+###### Remark
+
+Definition \ref{SemiCartanGeometry} means (in the case that $X$ is a [[manifold]] and $H\to G$ is an inclusion of [[Lie groups]]) that each [[tangent space]] $T_x X$ of $X$ is identified with the tangent space
+
+$$
+  T_{\sigma(x)} (G/H) \simeq \mathfrak{g}/H
+  \,.
+$$
+
+This may be thought of as $G/H$ "rolling along $X$" with, however, the possibility of "sliding". It is the further addition of the connection data as in the traditional definition def. \ref{Traditional} which then encodes the "no sliding" constaint.
+
+=--
 
 
 
