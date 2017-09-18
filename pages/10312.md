@@ -23,14 +23,14 @@ The [[deformation theory]] around these [[strata]] is [[Lubin-Tate theory]].
 
 ## References
 
-* [[Jacob Lurie]], _Morava Stabilizer Groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf)), lecture 19 in _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)) 
- {#LurieLect19}
+* {#LurieLect19} [[Jacob Lurie]], _Morava Stabilizer Groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf)), lecture 19 in _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)) 
+ 
 
-* [[Jacob Lurie]], _Lubin-Tate Theory _ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf)), lecture 21 in  _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)) 
- {#LurieLect21}
+* {#LurieLect21} [[Jacob Lurie]], _Lubin-Tate Theory _ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf)), lecture 21 in  _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)) 
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, Chapter 6 _Morava stabilizer algebra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel6.pdf)) 
- {#RavenelCh6}
+* {#RavenelCh6} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, Chapter 6 _Morava stabilizer algebra_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel6.pdf)) 
+
+* [[Niko Naumann]], _Torsors under smooth group-schemes and Morava stabilizer groups_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.5497)) 
 
 [[!redirects Morava stabilizer groups]]
 
