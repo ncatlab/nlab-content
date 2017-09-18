@@ -983,7 +983,11 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 ### Textbooks and lectures
  {#ReferencesTextbooksAndLectures}
 
-Physics introductions include
+Historically the first textbook on supersymmetry was
+
+* [[Jim Gates]], M.T. Grisaru, [[Martin Roček]], [[Warren Siegel]],  _Superspace, or One thousand and one lessons in supersymmetry_, Front.Phys. 58 (1983) 1-548 ([arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200))
+
+Further physics texts include
 
 * Stephen P. Martin, _A Supersymmetry Primer_ ([arXiv:hep-ph/9709356](http://arxiv.org/abs/hep-ph/9709356))
 
