@@ -73,7 +73,11 @@ In particular if $I$ itself is already finite, then a basis of the product topol
 
 ### Tychonoff's theorem
 
-The Tychonoff product of [[compact topological spaces]] is itself again a compact topological space. This is known as _[[Tychonoff's theorem]]_, see there for more.
+The Tychonoff product of [[compact topological spaces]] is itself again a compact topological space. This is known as the [[Tychonoff theorem]]_, see there for more.
+
+## Related concepts
+
+* [[disjoint union topological space]]
 
 ## References
 
