@@ -45,7 +45,7 @@ The following definition says essentially this, but further sends the resulting 
  
 For $X= Spec(R)$ an [[affine scheme]] over [[Spec(Z)]] (hence the formal dual of a [[ring]]), then the _arithmetic jet space_ of $X$ at [[prime]] $p$ is $(W_n)_\ast$ applied to the $p$-adic completion of $X$, where $(W_n)_\ast$ is the [[ring of Witt vectors]]-construction, the [[direct image]] of [[Borger's absolute geometry]] $Et(Spec(\mathbb{Z})) \to Et(Spec(\mathbb{F}_1))$.
 
-The definition is originally due to ([Buium 96, section 2](#Buium96), [Buium 05, section 3.1](#Buium05)), reviewed in ([Buium 13, 1.2.3](#Buium13)) as part of his [[arithmetic differential geometry]] program. The above formulation is in ([Borger 10, (12.8.2)](#Borger10)).
+The definition is originally due to ([Buium 96, section 2](#Buium96), [Buium 05, section 3.1](#Buium05)), reviewed in ([Buium 13, 1.2.3](#Buium13)) as part of his [[arithmetic differential geometry]] program. The above formulation is in ([Borger 10, (12.8.2)](#Borger10)). Buium and Borger have also defined the notion of an arithmetic jet space for a finite set of primes in ([BB09](#BB09)).
 
 
 ## Related concepts
@@ -79,7 +79,8 @@ Discussion in the context of [[Borger's absolute geometry]] over [[F1]] is in
 See also
 
 * [[Alexandru Buium]], Taylor Dupuy, _Arithmetic differential equations on $GL_n$, I: differential cocycles_ ([arXiv:1308.0748](http://arxiv.org/abs/1308.0748))
- 
+
+* {#BB09} [[James Borger]], [[Alexandru Buium]], _Differential forms on arithmetic jet spaces_, ([arXiv:0908.2512](https://arxiv.org/abs/0908.2512))
 
 
 [[!redirects arithmetic jet spaces]]
