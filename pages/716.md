@@ -64,6 +64,8 @@ A compact closed category is a [[star-autonomous category]]: the [[tensor unit]]
 
 * The category [[FinVect]] of [[finite-dimensional vector spaces]] is compact closed, see [here](finite-dimensional+vector+space#CompactClosure).
 
+* A compact closed [[discrete category]] is just an [[abelian group]].
+
 ## Related concepts
 
 * [[compact closed 2-category]]
