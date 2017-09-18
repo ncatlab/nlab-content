@@ -1,0 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
++-- {: .num_prop }
+###### Proposition
+**(second-countable regular spaces are paracompact)**
+
+Let $X$ be a [[topological space]] which is
+
+1. [[second-countable topological space|second-countable]];
+
+1. [[regular topological space|regular]].
+
+Then $X$ is [[paracompact topological space]].
+
+=--
+
+## Related statement
+
+* [[locally compact and sigma-compact spaces are paracompact]]
+
+
+## References
+
+* [[Akhil Mathew]], _[A theorem of Michael on paracompactness](https://amathew.wordpress.com/2010/08/19/a-theorem-of-michael-on-paracompactness/)_
+
