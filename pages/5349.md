@@ -14,7 +14,7 @@ Let $A$ be a [[ring]] and $N$ a [[module]] over $A$. If $A$ is a [[field]], then
 
 A collection of elements $(w_i)_{i \in I}$ of $N$ is called a [[basis]] of $N$ (over $A$) if for every $x \in N$ there is a unique collection $(a_i)_{i \in I}$ of elements of $A$ such that $a_i = 0$ for all but finitely many $i \in I$ and $x = \sum_{i \in I} a_i w_i$. 
 
-If $N$ has a basis it is called _free_ (over $A$). For many examples of $A$ (the __invariant basis number rings__), the [[cardinality]] $# I$ only depends on $N$ and not on the choice of basis. It is called the **rank** of $N$ over $A$, notation: $rank_A(M)$. In any case, $N$ is called the __free module of rank $# I$__. If $N$ is a [[finitely generated]] free module then the rank is finite.
+If $N$ has a basis it is called a _[[nLab:free module]]_ (over $A$). For many examples of $A$ (the __invariant basis number rings__), the [[cardinality]] $# I$ only depends on $N$ and not on the choice of basis. It is called the **rank** of $N$ over $A$, notation: $rank_A(M)$. In any case, $N$ is called the __free module of rank $# I$__. If $N$ is a [[finitely generated]] free module then the rank is finite.
 
 All of the following are invariant basis rings (source: [Wikipedia](http://en.wikipedia.org/wiki/Invariant_basis_number)):
 
@@ -35,6 +35,10 @@ In the [[internal logic|internal language]] of the sheaf topos $\mathrm{Sh}(X)$,
 
 See also _[[rank of a coherent sheaf]]_.
 
+## Rank of a vector bundle
+
+As a simple special case of the above, a [[vector bundle]] is said to have _rank $n$_ if each [[fiber]] is a [[vector space]] of [[dimension]] $n$.
+
 ## Hereditary rank of a pure set
 
 Every [[pure set]] within the [[von Neumann hierarchy]] appears first at some level given by an [[ordinal number]]; this number is its __hereditary rank__.
@@ -46,3 +50,6 @@ $$ rank S = \bigcup_{x \in S} (rank x)^+ ,$$
 where $\bigcup$ is the [[supremum]] operation on ordinals (literally the [[union]] for [[von Neumann ordinals]]) and $(-)^+$ is the [[successor]] operation (which is $a \mapsto a \cup \{a\}$ for von Neumann ordinals).
 
 [[!redirects ranks]]
+
+[[!redirects rank of a vector bundle]]
+[[!redirects rank of a vector bundles]]
