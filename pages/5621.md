@@ -31,7 +31,7 @@ hence if $F$ is a **2-fully-faithful 2-functor**.
 
 ## Properties
 
-If $C$ and $D$ are ordinaray [[categories]] regarded as 2-categories, a full sub 2-category $F : C \hookrightarrow D$ is equivalently a [[full subcategory]] of $D$.
+If $C$ and $D$ are ordinary [[categories]] regarded as 2-categories, a full sub 2-category $F : C \hookrightarrow D$ is equivalently a [[full subcategory]] of $D$.
 
 If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full sub-(∞,1)-category]].
 
