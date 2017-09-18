@@ -64,7 +64,11 @@ The best studied such configuration is that of [[D1-D5 brane bound states]]. For
 
 * [[Juan Maldacena]], _Black Holes and D-branes_, Nucl.Phys.Proc.Suppl. 61A (1998) 111-123; Nucl.Phys.Proc.Suppl. 62 (1998) 428-442 ([arXiv:hep-th/9705078](http://arxiv.org/abs/hep-th/9705078))
 
+
+
 * [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+* [[Kostas Skenderis]], _Black holes and branes in string theory_,  	Lect.Notes Phys. 541 (2000) 325-364 ([arXiv:hep-th/9901050](https://arxiv.org/abs/hep-th/9901050))
 
 
 * [[Thomas Mohaupt]], _Black Hole Entropy, Special Geometry and Strings_, Fortsch.Phys. 49 (2001) 3-161 ([arXiv:hep-th/0007195](http://arxiv.org/abs/hep-th/0007195))
