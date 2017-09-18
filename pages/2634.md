@@ -104,6 +104,10 @@ provided the Hamiltonian is time-independent.
 
 [[!include geometric quantization extensions - table]]
 
+## References
+
+Named after [[William Rowan Hamilton]].
+
 
 [[!redirects Hamiltonian]]
 [[!redirects hamiltonian]]
