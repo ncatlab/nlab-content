@@ -223,7 +223,7 @@ The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](
 
 * G. Hochschild, _Introduction to algebraic group schemes_, 1971
 
-* [[Sean Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
+* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
 
