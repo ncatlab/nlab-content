@@ -69,7 +69,7 @@ _[[relation between type theory and category theory]]_.
 ## Related concepts
 
 * [[linear dependent type theory]]
-* [[Dependent Type Semantics]]
+* [[dependent type theoretic methods in natural language semantics]]
 
 ## References
 
