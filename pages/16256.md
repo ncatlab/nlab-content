@@ -40,7 +40,7 @@ $$
   d s_{11}^2 =
   - d t^2 
   + d s_{\mathbb{R}^6}^2
-  + (1+\mu/r) d s_{\mathbb{R}^4}^2
+  + (1+\mu/r) d s_{\mathbb{R}^3}^2
   + (1+ \mu/r)^{-1} (d x^{11} - A_i d x^i)^2
   \,,
 $$
