@@ -84,6 +84,7 @@ For a binary relation, one often uses a symbol such as $\sim$ and writes $a \sim
 If $A$ and $B$ are each sets equipped with a relation, then what makes a [[function]] $f: A \to B$ a _morphism_ of sets so equipped?
 
 There are really two ways to do this, shown below.  (We will write these as if each set is equipped with a binary relation $\sim$, but any fixed arity would work.)
+
 *  $f$ __preserves__ the relation if $x \sim y \;\Rightarrow\; f(x) \sim f(y)$ always;
 *  *f* __reflects__ the relation if $x \sim y \;\Leftarrow\; f(x) \sim f(y)$ always.
 
@@ -109,6 +110,7 @@ Special kinds of relations from $A$ to $B$ include:
 * [[onto relation]]s.
 
 Combinations of the above properties of binary relations produce:
+
 * [[functions]],
 * [[partial functions]],
 * [[injections]],
@@ -125,6 +127,7 @@ Special kinds of binary relations on $A$ (so from $A$ to itself) additionally in
 * [[extensional relation|extensional]] and [[well-founded relation|well-founded]] relations.
 
 Combinations of the above properties of binary relations produce:
+
 * [[equivalence relations]],
 * [[partial equivalence relations]],
 * [[apartness relations]],
