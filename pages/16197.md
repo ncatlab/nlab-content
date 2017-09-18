@@ -49,7 +49,7 @@ Reviews and expositon includes
 
 * {#Ketov13} [[Sergei Ketov]], _PLANCK mission, Starobinsky inflation and its realization in old-minimal supergravity_, talk at _Kavli IPMU Workshop: SUSY Model Building and Phenomenology_, 2-4 December 2013 ([pdf](http://indico.ipmu.jp/indico/getFile.py/access?contribId=16&sessionId=7&resId=0&materialId=slides&confId=28))
 
-* {#Ellis13} [[John Ellis]], _Planck-Compatible Inflationary Models_, talk 2013 ([pptx](londoncosmology.files.wordpress.com/2013/09/lcdm.pptx))
+* {#Ellis13} [[John Ellis]], _Planck-Compatible Inflationary Models_, talk 2013 ([pptx](http://londoncosmology.files.wordpress.com/2013/09/lcdm.pptx))
 
 Discussion of embedding of Starobinsky inflation in [[supergravity]] includes
 
