@@ -242,6 +242,7 @@ $$
 =--
 
 ### As $\infty$-groups
+ {#AsInfinityGroups}
 
 Simplicial groups are models for [[∞-group]]s. This is exhibited by the [[model structure on simplicial groups]]. See also
 <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">models for group objects in ∞Grpd</a>.
