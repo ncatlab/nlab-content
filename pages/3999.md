@@ -74,7 +74,8 @@ The following is a list of properties of and pertaining to sequentially compact 
 ### Relationship to Compactness 
 
 [[compact space|Compactness]] does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces](http://en.wikipedia.org/wiki/Compact_space)).
-In [[metric spaces]] for example both notions coincide.
+
+In [[metric spaces]] for example both notions coincide, see at [[sequentially compact metric spaces are equivalently compact metric spaces]]. (This is a consequence of the [[Lebesgue number lemma]] and the fact that  [[sequentially compact metric spaces are totally bounded]].)
 
 This is _not_ a contradiction to the statement that compact is equivalent to every [[net]] having a convergent subnet: Given a sequence in a compact space, its convergent _subnet_ need not be a _subsequence_ (see [[net]] for a definition of subnet).
 
