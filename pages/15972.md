@@ -74,6 +74,17 @@ The derived microlocalization functor is given on $F\in D^b(M)$ by
 $$\mu(F):=\Phi(\nu_Y(F))$$
 for $Y=M\hookrightarrow M\times M=X$.
 
+## A derived analytic analog of microlocalization
+
+One may replace the simplicial circle $S^1$, used in the definition of the derived loop space, by the unitary group $U(1)$ of [[overconvergent global analytic geometry]], to get a more analytic theory of microlocalization. In the complex situation, we will have $U(1)\cong S^1$ up to $D^1$-homotopy. Remark that the exponential map $exp(i-):\mathbb{R}\to S^1$ also has a meaning in overconvergent complex analytic geometry, if we see $\mathbb{R}\subset \mathbb{C}$ as a closed subset equipped with its germs of analytic functions.
+
+In the global analytic setting (without imposing homotopy invariance), there is no reason to have $U(1)=D^1\times_{*\coprod *} *$. We thus prefer to use $P^1:=D^1\coprod_{U(1)}D^1$ as a natural global analytic parameter space for paths. We define
+$$L^\dagger_Y X:=\{f\in Hom(P^1,X), f(0)\in Y,\; f(\infty)\in Y\}.$$
+Remark that up to $D^1_\mathbb{R}$-homotopy, we get
+$$L^\dagger_Y X\sim L_Y X.$$
+
+We must now check that the natural morphism
+
 ## References
 
 David Ben-Zvi and David Nadler _Loops spaces and connections_ [arXiv](http://arxiv.org/abs/1002.3636).
