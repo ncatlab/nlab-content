@@ -27,9 +27,13 @@ This page collects links related to the lecture notes
 
 on [[complex oriented cohomology]], the [[Adams spectral sequence]] and [[chromatic homotopy theory]] from the modern point of view of [[E-infinity geometry]].
 
-Based on
+Based on the program of
 
 * [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+
+as nicely laid out in more detail in 
+
+* [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 First indications of the big picture developed here are due to
 
