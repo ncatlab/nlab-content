@@ -1,0 +1,39 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given by a Lie [[action]] of a [[Lie algebra]] $\mathfrak{g}$ on another Lie algebra $\mathfrak{a}$, hence a Lie algebra [[homomorphism]] 
+
+$$
+  \rho \colon \mathfrak{g}\longrightarrow \mathfrak{der}(\mathfrak{a})
+$$ 
+
+to the [[derivations]] on $\mathfrak{a}$, then there is a [[Lie algebra extension]] of $\mathfrak{g}$ by $\mathfrak{a}$ whose underlying vector space is 
+
+$$
+  \hat \mathfrak{g} = \mathfrak{g} \oplus \mathfrak{a}
+$$ 
+
+and whose [[Lie bracket]] is given by the formula
+
+$$
+  [(x_1,t_1), (x_2,t_2)]
+  =
+  ( [x_1,x_2], \;([t_1,t_2] + \rho(x_1)(t_2) - \rho(x_2)(t_1)) )
+  \,.
+$$
+
+This is the _semidirect product_ of $\mathfrak{g}$ with $\mathfrak{a}$.
+
+## Related concepts
+
+* [[semidirect product group]]
+
+## References
+
+[[!redirects semidirect product Lie algebras]]
+[[!redirects semi-direct product Lie algebra]]
+[[!redirects semi-direct product Lie algebras]]
