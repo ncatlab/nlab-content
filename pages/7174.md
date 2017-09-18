@@ -1,4 +1,6 @@
 
+Peter West is professor of mathematics at King's college London.
+
 * [webpage](http://rg.kcl.ac.uk/staffprofiles/staffprofile.php?pid=1240)
 
 ## Writings
