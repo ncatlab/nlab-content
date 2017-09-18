@@ -11,7 +11,7 @@ The _past_ of any physical event (object, system, etc) consists of everything th
 
 ## Definitions
 
-Let $(X,g,o)$ be a [[spacetime]], that is a [[Lorentzian manifold]] $(X,g)$ equipped with [[time-orientation]].  This time-orientation consists precisely of specification of which [[timelike]] and [[lightlike]] [[curves]] are _future-directed_ (and which are complementarily _past-directed_).
+Let $(X,g,o)$ be a [[spacetime]], that is a [[Lorentzian manifold]] $(X,g)$ equipped with [[time orientation]].  This time-orientation consists precisely of specification of which [[timelike]] and [[lightlike]] [[curves]] are _future-directed_ (and which are complementarily _past-directed_).
 
 Let $x$ be a [[point]] in this spacetime.  Then:
 
@@ -41,8 +41,16 @@ The operations $J^+$ and $J^-$ are (separately) [[Moore closures]] on the [[powe
 
 Sometimes one wants to remove $x$ itself from $J^+(x)$ and $J^-(x)$ (or more precisely, to include $x$ only in the case of a [[closed timelike curve]] through $x$).  However, the operations $J^+$ and $J^-$ are not quite as mathematically well-behaved in this case.  (Note that $J^+(A)$ may still intersect $A$, or even contain all of $A$, even in the absence of closed timelike curves.)
 
+## Related concepts
+
+* [[advanced propagator]], [[retarded propagator]]
+
 
 [[!redirects past]]
 [[!redirects pasts]]
 [[!redirects future]]
 [[!redirects futures]]
+
+[[!redirects causal future]]
+
+[[!redirects causal past]]
