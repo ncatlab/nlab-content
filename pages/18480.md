@@ -64,7 +64,7 @@ We note that the rationale for the slightly non-standard notation $N^{\leftarrow
 **(in-degree, out-degree)**
 
 Suppose $D=(V,A)$ is a digraph and $v\in V$. 
-The *in-degree* of $v$ in $D$, denoted $d^{\rightarrow}_D(v)$, is the [[cardinality]] of the in-neighborhood of $v$ in $D$. The *out-degree* of $v$ in is defined analogously.
+The *in-degree* of $v$ in $D$, denoted $d^{\rightarrow}_D(v)$, is the [[cardinality]] of the in-neighborhood of $v$ in $D$. The *out-degree* is defined analogously.
 
 
 =--
@@ -73,7 +73,7 @@ The *in-degree* of $v$ in $D$, denoted $d^{\rightarrow}_D(v)$, is the [[cardinal
 +-- {: .num_defn #CategoryOfDigraphs}
 ###### Definition
 **(category of digraphs, digraph morphism)**
-The *category of digraphs*, denoted $\mathsf{Dgr}$, is the concrete 1-category whose objects are the digraphs, and which, for arbitrary digraphs $D=(V,A)$ and $D'=(V',A')$ has hom-set $\mathsf{Dgr}(D,D')$ equal to the set of all set-maps $V\overset{f}{\rightarrow}V'$ such that for all $u,v\in V$, $(u,v)\in A$ implies $(f(u),f(v))\in A'$. 
+The *category of digraphs*, denoted $\mathsf{Dgr}$, is the [[concrete category]] whose objects are the digraphs, and which, for arbitrary digraphs $D=(V,A)$ and $D'=(V',A')$ has hom-set $\mathsf{Dgr}(D,D')$ equal to the set of all set-maps $V\overset{f}{\rightarrow}V'$ such that for all $u,v\in V$, $(u,v)\in A$ implies $(f(u),f(v))\in A'$. 
 The morphisms of $\mathsf{Dgr}$ are called *digraph-morphisms*. 
 
 =--
@@ -109,7 +109,7 @@ The phrase *$\alpha$-vertex path* means any *path whose domain is $\alpha$*.
 
 =--
 
-Crucially, the axiom, combined with digraphs always being *irreflexive*, implies that always $\neg \, (P(i)=P(i+1))$. Walks are only allowed to be non-injective *every other step*, so to speak. 
+The axiom implies---digraphs being *irreflexive*--- that always $\neg \, (P(i)=P(i+1))$. Walks are only allowed to be non-injective *every other step*, so to speak. 
 
 +-- {: .num_example #TheLeastInjectiveWalk} 
 ###### Example 
@@ -147,7 +147,7 @@ A *trail* in $D$ is a walk $\alpha\overset{P}{\longrightarrow}V$ such that the [
 
 =--
 
-While having *walk* imply that all the arcs be aligned is very *common*, the following is a rather *un*common definition, which nevertheless has an important role in Power's ([proof](#Power1990)) of unique interpretability of [[pasting schemes]]: 
+While having *walk* imply that all the arcs be aligned is very *common*, the following is a rather *un*common definition, which nevertheless has an important role in Power's [proof](#Power1990) of unique interpretability of [[pasting schemes]]: 
 
 +-- {: .num_defn #WeakWalkElementary}
 ###### Definition
@@ -160,7 +160,7 @@ A *weak walk* in $D$ consists of the data
 
 and the axiom
 
-* (under revision)
+* for all $i\in\alpha$, if $i+1\in\alpha$, then (  $(P(i),P(i+1))\in A$   [[or]]    $(P(i+1),P(i))$   ).
 
 =--
 
@@ -347,6 +347,36 @@ The formal justification of pasting diagrams was achieved in the late 1980.
 Note that there are more than one definition of [[pasting scheme]] in the literature. 
 E.g. there are M. Johnson's pasting schemes (([Johnson 1987](#Johnson1987), Chapter 2), ([Johnson 1989](#Johnson1989), Section 2)) and Power's pasting schemes ([Power 1990](#Power1990)). 
 The definition which is strictly relevant to the present article is Power's. He defines defines pasting schemes as a special kind of digraph ([Power 1990](#Power1990), Section 3), details will be found at [[pasting scheme]].
+
+
+## Lemmas
+
+
+The following appears to have first been published in [Power 1990](#Power1990) and to not have found its way into the digraph-theoretic literature:
+
++-- {: .num_lemma #PowersDigraphLemma}
+###### Lemma
+**(Power's Digraph Lemma; classical version)**
+
+Suppose $D=(V,A)$ is a plane digraph. 
+Suppose $q_{-\infty}\in V$ is an $\omega$-king in $D$. 
+Suppose $q_{\infty}\in V$ is an $\omega$-coking in $D$. 
+
+Then the following two statements are equivalent in classical logic. 
+(...)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+
+=--
+
+
+
 
 ## Related concepts
 
