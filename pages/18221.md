@@ -1,0 +1,53 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+One may consider [[internal categories]] in [[homotopy type theory]]. Under the [[relation between type theory and category theory|interpretation]] of [[HoTT]] in an [[(infinity,1)-topos]], this corresponds to the concept of a [[category object in an (infinity,1)-category]]. The general idea is presented there at _[Homotopy Type Theory Formulation](category+object+in+an+%28infinity%2C1%29-category#HomotopyTypeTheoryFormulation)_.
+
+For internal [[1-categories]] in HoTT (as opposed to more general internal [[(infinity,1)-categories]]) a comprehensive discussion was given in ([Ahrens-Kapulkin-Shulman-13](#AhrensKapulkinShulman13)).
+
+## References
+
+The relation between [[complete Segal space|Segal completeness]] for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
+
+* [[Urs Schreiber]], _[Segal completenes and Univalence](https://golem.ph.utexas.edu/category/2012/05/segalcompleteness_and_univalen.html)_, 2012
+
+A comprehensive discussion for [[1-categories]] is in 
+
+* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_, Mathematical Structures in Computer Science, Volume 25, Issue 5 (*From type theory and homotopy theory to Univalent Foundations of Mathematics*),  June 2015, pp. 1010-1039   ([arXiv:1303.0584](https://arxiv.org/abs/1303.0584))
+
+Exposition of this includes
+
+* [[Mike Shulman]],  _[Category Theory in Homotopy Type Theory](https://golem.ph.utexas.edu/category/2013/03/category_theory_in_homotopy_ty.html)_, 2013
+
+Discussion of implementation of this in [[Coq]] includes 
+
+* [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
+
+
+
+[[!redirects internal categories in homotopy type theory]]
+
+[[!redirects internal category in HoTT]]
+[[!redirects internal categories in HoTT]]
+
+[[!redirects internal category theory in homotopy type theory]]
+[[!redirects internal category theory in HoTT]]
+
