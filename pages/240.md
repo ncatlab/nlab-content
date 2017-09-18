@@ -9,7 +9,7 @@ An [[elementary topos]] $E$ is **well-pointed** if
 
 1. the [[terminal object]] 1 is a [[generator]];
 
-   equivalently: the [[global section]] functor $\Gamma : E \to Set$
+   equivalently: the [[global section]] functor $\Gamma : E \to Set = E(1, -)$
    is a [[faithful functor]];
 
    equivalently: if $f, g: a \rightarrow b$ are morphisms such that $f x = g x$ for all [[global element]]s $x: 1 \to a$, then $f = g$;
