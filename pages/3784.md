@@ -59,15 +59,18 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[Einstein manifold]]
 
+* [[pp-wave spacetime]]
+
 * [[Malament–Hogarth spacetime]]
 
 * [[super spacetime]]
 
   * [[super Minkowski spacetime]]
 
-## Literature and links
 
-### Related concepts in nLab
+## Related concepts 
+
+* [[universal spacetime]]
 
 * [[general covariance]]
 
@@ -78,6 +81,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 * [[force]], [[gauge theory]]
 
 * [[mass]]
+
+## References
 
 ### Books
 
