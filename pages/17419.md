@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[Cartesian product]] in the [[category]] of [[groups]] if often called the _direct product_ of groups. For [[abelian groups]] and a [[finite number]] of factors, this is also the [[direct sum]] of groups.
+
+## Related concepts
+
+* [[semidirect product group]]
+
+## References
+
+* Wikipedia, _[Direct product of groups](https://en.wikipedia.org/wiki/Direct_product_of_groups)_
+
+[[!redirects direct product groups]]
+
+[[!redirects product group]]
+[[!redirects product groups]]
+
