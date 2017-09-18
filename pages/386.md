@@ -334,7 +334,7 @@ See also:
 
 The relation to [[intervals]] and the generalization to the [[cell category]] is due to
 
-* [[André Joyal]], _Disks, duality and $\Theta$-categories_, preprint, (1997)
+* [[André Joyal]], _Disks, duality and $\Theta$-categories_, preprint, 1997 ([pdf](http://ncatlab.org/nlab/files/JoyalThetaCategories.pdf))
  {#Joyal}
 
 
