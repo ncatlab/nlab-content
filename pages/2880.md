@@ -41,7 +41,7 @@ $$ \array{v_{(0)}\otimes v_{(1)} \otimes v_{(2)} := v_{(0)(0)}\otimes v_{(0)(1)}
 
 where we used the *sumless* Sweedler notation.
 
-On big use is that the scalars like $\epsilon(a_{(3)})$ can be moved freely along the expression, which is difficult to write without calculating with Sweedler components: one would need lots of brackets and flip operators, and this could be messy and abstract.
+One big use is that the scalars like $\epsilon(a_{(3)})$ can be moved freely along the expression, which is difficult to write without calculating with Sweedler components: one would need lots of brackets and flip operators, and this could be messy and abstract.
 
 ## References
 
