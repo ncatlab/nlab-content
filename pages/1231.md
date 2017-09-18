@@ -99,5 +99,6 @@ described rather general framework for Koszul duality using dg-(co)algebras and 
 * Aaron M Royer, _Generalized string topology and derived Koszul duality_, [arxiv/1306.6708](http://arxiv.org/abs/1306.6708)
 * M. M. Kapranov, _On DG-modules over the de rham complex and the vanishing cycles functor_, Algebraic Geometry, 
 Lecture Notes in Mathematics __1479__, 1991, pp 57-86 
+* Theo Johnson-Freyd, _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
 
 [[!redirects Koszul dual]]
