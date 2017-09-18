@@ -29,7 +29,7 @@ in the [[homotopy theory]] of [[smooth homotopy types]].
 
 This immediately raises the question for natural classes of examples of such prequantizations. 
 
-One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on a [[smooth infinity-group]] given by a [[cocycle]] in [[L-infinity algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
+One such class arises in [[infinity-Lie theory]], where $\omega$ is a [[left invariant form]] on a [[smooth infinity-group]] given by a [[cocycle]] in [[L-∞ algebra cohomology]]. The [[prequantum n-bundles]] arising this way are the higher [[WZW terms]] discussed here.
 
 In low degree of traditional [[Lie theory]] this appears as follows: On [[Lie groups]] $G$, those closed $(p+2)$-forms $\omega$ which are [[left invariant forms]] may be identified, via the general theory of [[Chevalley-Eilenberg algebras]], with degree $(p+2)$-[[cocycles]] $\mu$ in the [[Lie algebra cohomology]] of the [[Lie algebra]] $\mathfrak{g}$ corresponding to $G$. These in turn may arise, via the [[van Est map]], as the [[Lie differentiation]] of a degree-$(p+2)$-[[cocycle]] $\mathbf{c} \colon \mathbf{B}G \to \mathbf{B}^{p+2}U(1)$ in the [[Lie group cohomology]] of $G$ itself, with [[coefficients]] in the [[circle group]] $U(1)$. 
 
@@ -251,7 +251,7 @@ This is discussed in detail in ([FSS 12](Lie+integration#FSS12)).
 
 #### The WZW terms
 
-+-- {: .num_prop }
++-- {: .num_prop #HodgeFiltrationRefinementFromLInfinityCocycles}
 ###### Proposition
 
 Given an [[L-∞ algebra cohomology|L-∞ cocycle]] $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$, then the canonical [[commuting diagram]] of [[simplicial presheaves]]
@@ -309,6 +309,208 @@ via prop. \ref{TruncatedLieIntegrationOfCocycle}.
 
 This way every such cocycle $\mu$ induces a WZW term by prop. \ref{WZWTermByUniversality}.
 
+#### Consecutive WZW terms and twists
+
+More generally, one has a sequence of [[L-∞ algebra cohomology|L-∞ cocycles]], each defined on the extension that is classified by the previous one -- a [[schreiber:The brane bouquet|bouquet]] of cocycles.
+
+In each stage, for $\mu_1 \colon \mathfrak{g}\to b^{p_1+1}\mathbb{R}$ a cocycle and $\hat {\mathfrak{g}} \to \mathfrak{g}$ the extension that it classifies (its [[homotopy fiber]]), then the next cocycle is of the form $\mu_2 \colon \hat \mathfrak{g} \to b^{p_2+1}\mathbb{R}$
+
+$$
+  \array{
+    \hat {\mathfrak{g}} &\stackrel{\mu_2}{\longrightarrow}& b^{p_2+1}
+    \\
+    \downarrow
+    \\
+    \mathfrak{g} &\stackrel{\mu_1}{\longrightarrow}& b^{p_1+1}\mathbb{R}
+  }
+  \,.
+$$
+
+Let 
+
+$$
+  \mathbf{L}_1 \colon \tilde G \longrightarrow \mathbf{G}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+$$
+
+and
+
+$$
+  \mathbf{L}_2 \colon \widetilde {\hat G} \longrightarrow \mathbf{G}^{p_2+1}(\mathbb{R}/\Gamma_2)_{conn}
+$$
+
+be the WZW terms obtained from the two cocycles by prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles}, prop. \ref{WZWTermByUniversality}.
+
++-- {: .num_lemma #CharacterizationOfLInfinityHomotopyFibers}
+###### Lemma
+
+The [[homotopy fiber]] $\hat \mathfrak{g} \to \mathfrak{g}$ of $\mu_1$ is given by the ordinary [[pullback]]
+
+$$
+  \array{
+    \hat \mathfrak{g} &\longrightarrow& e b^{p_1} \mathbb{R}
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathfrak{g} &\stackrel{\mu_1}{\longrightarrow}& b^{p_1+1}\mathbb{R}
+  }
+  \,,
+$$ 
+
+where $e b^{p_1}\mathbb{R}$ is defined by its [[Chevalley-Eilenberg algebra]] 
+$CE(e b^{p_1}\mathbb{R})$ being the [[Weil algebra]] of $b^{p_1}$, which is the [[free construction|free]] differential graded algebra on a generator in degree $p_1$, and where the right vertical map takes that generator to 0 and takes its free image under the differential to the generator of $CE(b^{p_1+1}\mathbb{R})$.
+
+=--
+
+This follows with the [recognition principle for L-∞ homotopy fibers](model+structure+for+L-infinity+algebras#HomotopyFiberProducts).
+
++-- {: .num_cor #PullbackOfDifferentialFormCoefficients}
+###### Corollary
+
+
+A [[homotopy fiber sequence]] of [[L-∞ algebras]] $\hat \mathfrak{g} \to \mathfrak{g}\stackrel{\mu}{\longrightarrow} b^{p+1}\mathbb{R}$ induces a  [[homotopy pullback]] diagram of the the associated objects of [[L-∞ algebra valued differential forms]], def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra}, of the form
+
+$$
+  \array{
+    \mathbf{\Omega}^1_{flat}(-,\hat {\mathfrak{g}})
+    &\stackrel{}{\longrightarrow}&
+    \mathbf{\Omega}^{p+1}
+    \\
+    \downarrow && \downarrow^{\mathbf{d}}
+    \\
+    \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
+    &\stackrel{\mu}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}_{cl}
+  }
+$$
+
+
+
+(hence an ordinary [[pullback]] of [[presheaves]], since these are all simplicially constant).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The construction $\mathfrak{g} \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(-))$ preserves [[pullbacks]] ($CE$ is an anti-equivalence onto its image, pullbacks of (pre-)-sheaves are computed objectwise, the [[hom-functor]] preserves pullbacks in the covariant argument).
+
+Observe then (see the discussion at _[[L-∞ algebra valued differential forms]]), that while
+
+$$
+  \mathbf{\Omega}^{p+2}_{cl} \simeq Hom_{dgAlg}(CE(b^{p+1}), \Omega^\bullet(-))
+$$
+
+we have
+
+$$
+  \mathbf{\Omega}^{p+1} \simeq Hom_{dgAlg}(W(b^{p}), \Omega^\bullet(-))
+  \,.
+$$
+
+With this the statement follows by
+lemma \ref{CharacterizationOfLInfinityHomotopyFibers}.
+
+=--
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+In this situation there is a [[homotopy pullback]] square in [[smooth homotopy types]] of the form
+
+$$
+  \array{
+     \widetilde {\hat G}
+     &\stackrel{}{\longrightarrow}&
+     \mathbf{\Omega}^{p_1+1}
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde G
+     &\stackrel{\mathbf{L}_1}{\longrightarrow}&
+     \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the following [[pasting]] composite
+$$
+  \array{
+    \mathbf{\Omega}^{p_1+1}
+    &\longrightarrow&
+    \ast
+    &\longleftarrow&
+    \ast
+    \\
+    {}^{\mathllap{\mathbf{d}}}\downarrow &\swArrow& \downarrow && \downarrow
+    \\
+    \mathbf{\Omega}^{p_1+2}
+    &\longrightarrow&
+    \flat_{dR}\mathbf{B}^{p_2+2}\mathbb{R}
+    &\stackrel{\theta_{\mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)}}{\longleftarrow}&
+     \\
+     \uparrow^{\mathrlap{\mu_1}} && \uparrow^{\mathrlap{\flat_{dR} \mathbf{B}G}} && \uparrow^{\mathrlap{\Omega \mathbf{c}_1}}
+     \\
+     \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
+     &\stackrel{}{\longrightarrow}&
+     \flat_{dR}\mathbf{B}G
+     &\stackrel{\theta_G}{\longleftarrow}&
+     G
+  }
+  \,,
+$$
+
+where 
+
+* the top left square is the evident homotopy;
+
+* the bottom left square is from prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles}
+
+* the right square is the naturality of the [[Maurer-Cartan form]] construction.
+
+Under forming [[homotopy limits]] over the _horizontal_ cospan diagrams here, this turns into 
+
+$$
+  \array{
+     \mathbf{\Omega}^{p_1+1}
+     \\
+     \downarrow
+     \\
+     \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+     \\
+     \uparrow^{\mathbf{L}_1}
+     \\
+     \tilde G
+  }
+$$
+
+by prop. \ref{WZWTermByUniversality}. On the other hand, forming homotopy limits _vertically_ this turns into
+
+$$
+  \array{
+    \mathbf{\Omega}^1_{flat}(-,\hat \mathfrak{g})
+    &\longrightarrow&
+    \flat_{dR}\mathbf{B}G_2
+    &\stackrel{\theta_{\hat G}}{\longleftarrow}&
+    \hat G
+  }
+$$
+
+(on the left by corollary \ref{PullbackOfDifferentialFormCoefficients}).
+
+The homotopy limit over that last [[cospan]], in turn, is $\widetilde{\hat G}$. This implies the claim by the fact that homotopy limits commute with each other.
+
+=--
+
+
+
 ### Semantic layer
 
 We discuss the general abstract formulation of WZW terms in a [[cohesive (infinity,1)-topos]].
@@ -333,6 +535,8 @@ Write
   for the induced [[coefficients]] for $\mathbb{G}$-[[differential cohomology]], as discussed at _[[geometry of physics -- principal connections]]_;
 
 * $\hat G \to G$ for the [[infinity-group extension]] classified by $\mathbf{c}$.
+
+#### Refinement of Hodge filtrations
 
 +-- {: .num_defn #RefinementOfHodgeFiltration}
 ###### Definition
@@ -380,6 +584,8 @@ On the opposite extreme, for $G = \mathbf{B}^p U(1)$ itself with $\mathbf{c}$ th
 Hence a more general case is a fibered product of these two, where $\tilde G$ is such that a map $\Sigma \longrightarrow \tilde G$ is equivalently a pair consisting of a map $\Sigma \to G$ and of differential $p$-form data on $\Sigma$. This is the case of relevance for WZW models of [[super p-branes]] with "tensor multiplet" fields on them, such as the [[D-branes]] and the [[M5-brane]].
 
 =--
+
+#### WZW terms
 
 +-- {: .num_prop #WZWTermByUniversality}
 ###### Proposition
@@ -444,4 +650,3 @@ where the top square is from def. \ref{RefinementOfHodgeFiltration} and where th
 ## References
 
 * _[[schreiber:differential cohomology in a cohesive topos]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf))
-
