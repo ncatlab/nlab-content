@@ -50,21 +50,36 @@ More abstractly, via the [[classical model structure on topological spaces]], th
 
 $\,$
 
-There are two versions of the statement of the axioms, more or less equivalent, one for [[reduced cohomology]], the other for unreduced cohomology.
+There are two versions of the statement of the axioms (equivalent on topological spaces homeomorphic to [[CW-complexes]]), one for [[reduced cohomology]], the other for unreduced cohomology.
 
 ### Reduced cohomology
  {#ReducedCohomology}
 
+Throughout, write [[Top]]${}_{CW}$ for the category of [[topological spaces]] [[homeomorphism|homeomorphic]] to a [[CW-complexes]]. Write $Top^{\ast/}_{CW}$ for the corresponding category of [[pointed topological spaces]]. Write
+
+
+$$
+  \Sigma \coloneqq S^1 \wedge (-)
+  \;\colon\;
+  Top^{\ast/}_{CW} \longrightarrow Top^{\ast/}_{CW}
+$$
+
+for the [[reduced suspension]] functor.
+
+Write $\mathbb{A}^{\mathbb{Z}}$ for the category of integer-[[graded abelian groups]].
+
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
 
-A _reduced generalized [[cohomology theory]]_ is a [[functor]]
+A **reduced generalized [[cohomology theory]]** is a [[functor]]
 
 $$
-  \tilde E^\bullet \colon (Top^{\ast/})^{op} \longrightarrow Ab
+  \tilde E^\bullet 
+   \;\colon\; 
+  (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
 $$
 
-from the [[opposite category]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]")
+from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
 
 $$
   \tilde E 
@@ -74,15 +89,16 @@ $$
   (\tilde E^\bullet(Y) 
     \stackrel{f^\ast}{\longrightarrow}
   \tilde E^\bullet(X))
+  \,,
 $$
 
-and equipped with [[natural isomorphisms]], to be called the _[[suspension isomorphism]]_
+and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
 
 $$
-  \tilde E^\bullet(-) \stackrel{\simeq}{\longrightarrow} \tilde E^{\bullet +1}(\Sigma -) 
+  \tilde E^\bullet(-) 
+   \overset{\simeq}{\longrightarrow} 
+   \tilde E^{\bullet +1}(\Sigma -) 
 $$
-
-(for $\Sigma \colon Top^{\ast/} \to Top^{\ast/}$ the [[reduced suspension]] functor)
 
 such that:
 
@@ -93,19 +109,18 @@ such that:
      \,.
    $$
 
-1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
 
    $$
-     \tilde E^\bullet(cone(i)) 
-      \stackrel{j^\ast}{\longrightarrow} 
+     \tilde E^\bullet(Cone(i)) 
+      \overset{j^\ast}{\longrightarrow} 
      \tilde E^\bullet(X)
-       \stackrel{i^\ast}{\longrightarrow}
+       \overset{i^\ast}{\longrightarrow}
      \tilde E^\bullet(A)
      \,.
    $$
 
 =--
-
 
 (e.g. [AGP 02, def. 12.1.4](#AGP02))
 
