@@ -24,11 +24,13 @@
 
 ## Idea
 
-The category of metric spaces with Lipschitz maps between them is not good enough from a categorical viewpoint: it has finite limits (the max metric on the product) but not all finite colimits: the coproduct doesn't always exist. To overcome this difficulty, one needs to enlarge this category in various ways.
+The category of [[metric spaces]] with Lipschitz maps between them is not good enough from a categorical viewpoint: it has finite limits (the max metric on the product) but not all finite colimits: the coproduct doesn't always exist. To overcome this difficulty, one needs to enlarge this category in various ways.
 
 The first enlargement is obtained by replacing the usual triangular inequality
 $d(x,y)\leq d(x,z)+d(z,y)$ by the proxi-metric inequality: there exists $C\geq 1$ such that
 $$d(x,y)\leq C\cdot \max(d(x,z),d(z,y)).$$
+If $C=1$, we get back the ultrametric inequality, and the usual triangular inequality corresponds to the case $C=2$.
+
 This gives a category of so-called proxi-metric spaces stable by the $\mathbb{R}_+^*$-flow given by
 $$d\mapsto d^t:=e^{t\log(d)}.$$
 
@@ -36,7 +38,7 @@ To get enough finite colimits, one needs to restrict to bounded proximetric spac
 $$[0,1]_\infty:=\lim_{t\to \infty}([0,1],d_\infty^t).$$
 Two elements inside this interval look like they are at distance zero, but this is not the case, because this limit has a Lipschitz map to $([0,1],d_\infty)$ which is given by the identity map... One must think of this limit as a pro-object. Once the interval is defined, one may define the metric simplex $\Delta^n$, and thus compute in the homotopy category of proxi-metric spaces.
 
-The aim of this normed/metrized stable homotopy theory is to develop topological cohomological invariants for normed rings.
+The aim of this normed/metrized stable homotopy theory is to develop topological cohomological invariants for [[proxi-normed rings]].
 
 ## Related subjects
 
