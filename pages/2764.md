@@ -23,7 +23,7 @@ This is (adapted from) definition 3.1 of
 
 * [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
 
-> **warning** careful, this needs a bit more attention. The general idea is obvious, but the detaisl require care. One problem is that in the Elliptic Survey "derived scheme" really referes to [[Spectral Schemes]], which isn't available yet, and not to the derived schemes discussed in [[Structured Spaces]].
+> **warning** careful, this needs a bit more attention. The general idea is obvious, but the details require care. One problem is that in the Elliptic Survey "derived scheme" really refers to [[Spectral Schemes]] and not to the derived schemes discussed in [[Structured Spaces]].
 
 
 ## special cases ##
