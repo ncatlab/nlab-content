@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian metric]] modulo rescalings of the metric tensor by some real valued function on the manifold.  The [[homomorphisms]] of conformal structures are called _[[conformal transformations]]_.
+A _conformal structure_ on a [[manifold]] is the structure of a [[Riemannian metric]] modulo rescalings of the [[Riemannian metric|metric]] [[tensor]] by some real valued function on the manifold.  The [[homomorphisms]] of conformal structures are called _[[conformal transformations]]_.
 
 In terms of [[Cartan geometry]] conformal structure is expressed by [[conformal connections]], conformal geometry is a special case of  [[parabolic geometry]] and hence of [[Cartan geometry]].
 
