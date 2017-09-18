@@ -42,6 +42,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 
 * wikipedia: [mathematics education](https://en.wikipedia.org/wiki/Mathematics_education), [Common Core State Standards Initiative](https://en.wikipedia.org/wiki/Common_Core_State_Standards_Initiative), [New Math](https://en.wikipedia.org/wiki/New_Math), [Moore method](https://en.wikipedia.org/wiki/Moore_method), [modern elementary mathematics](https://en.wikipedia.org/wiki/Modern_elementary_mathematics), [Van Hiele model](https://en.wikipedia.org/wiki/Van_Hiele_model)
 * [13th International Congress on Mathematical Education](http://icme13.org), Hamburg Aug 24-31, 2016
+* [GreenApples](http://GreenApples.wikispaces.com) -- resources for new math teachers
 
 ### Related $n$Lab pages
 
@@ -59,6 +60,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 * [Common Core](http://www.corestandards.org/Math) math standards
 * [ICMI](http://www.mathunion.org/icmi) International Commision on Mathematical Instruction (founded in 1908,  now under IMU)
 * [websites of math education and math teacher associations](http://www.mathunion.org/icmi/links/math-ed-associations) (a list maintained at ICMI)
+* [International Mathematical Olympiad](http://www.imo-official.org), official site
 
 ### Individual educators and their work
 
