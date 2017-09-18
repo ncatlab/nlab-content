@@ -130,7 +130,7 @@ This is a semi-norm on $V$.
 
 In [[dream mathematics]], a given real [[vector space]] (with no topological structure) can have at most one complete norm, up to topological equivalence ([[homeomorphism]] of the [[identity function]]).  It can have multiple inequivalent complete seminorms and incomplete norms, but their Hausdorff quotients and completions must be different.  For example, the various [[Lebesgue norms]] on a [[Cartesian space]] $\mathbb{R}^n$ for finite $n$ are complete and equivalent; on $\mathbb{R}^\infty$, they are inequivalent but incomplete.
 
-As dream mathematics includes [[excluded middle]] and [[dependent choice]], the existence of inequivalent complete norms on a given vector space cannot be proved without a stronger form of the [[axiom of choice]], enough to disprove the [[Borel property]] (which is the only classically false axiom needed in the proof of uniqueness).  In _[[HAF]]_, it is argued that this explains why, in [[applied mathematics]], there tends to be only one norm considered on any particular vector space (after Hausdorff completion).
+As dream mathematics includes [[excluded middle]] and [[dependent choice]], the existence of inequivalent complete norms on a given vector space cannot be proved without a stronger form of the [[axiom of choice]], enough to disprove the [[Baire property]] (which is the only classically false axiom needed in the proof of uniqueness).  In _[[HAF]]_, it is argued that this explains why, in [[applied mathematics]], there tends to be only one norm considered on any particular vector space (after Hausdorff completion).
 
 This theorem applies more generally to [[F-norms]] but not to [[G-norms]] (even on a real vector space).
 
