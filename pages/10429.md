@@ -74,6 +74,9 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 
 * [[Edward Witten]], _Fermion path integrals and topological phases_, [arxiv/1508.04715](http://arxiv.org/abs/1508.04715)
 
+* Ping Ye, _(3+1)d anomalous twisted gauge theories with global symmetry_, [arxiv/1610.08645](https://arxiv.org/abs/1610.08645)
+
+
 ### Other articles
 
 * N. Read, Subir Sachdev, _Large-N expansion for frustrated quantum antiferromagnets_, Phys. Rev. Lett. 66 1773 (1991)
