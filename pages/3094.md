@@ -17,16 +17,29 @@
 
 Given a [[topological space]] $X$ in the sense of ([Bourbaki 71](#Bourbaki71)) (that is, a set $X$ and a topology $\tau_X$) and a [[subset]] $Y$ of $X$, a topology $\tau_Y$ on $Y$ is said to be the topology **induced** from $\tau_X$ by the [[inclusion function|set inclusion]] $Y \hookrightarrow X$ if $\tau_Y = \tau_X \cap_{pw} \{Y\} \coloneqq \{ U \cap Y | U\in\tau_X\}$. In other words, $\tau_Y$ is the smallest topology on $Y$ such that the inclusion $Y \hookrightarrow X$ is [[continuous map|continuous]] (the [[initial topology]] on that map). The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
 
-A subspace $i: Y \hookrightarrow X$ is **closed** if $Y$ is closed as a subset of $X$ (or if $i$ is a [[closed map]]), and is **open** if $Y$ is open as a subset of $X$ (or if $i$ is an [[open map]]). 
+A continuous function that factors as a [[homeomorphism]] onto its [[image]] equipped with the subspace topology is called an _[[embedding of topological spaces]]_.
 
 A property of topological spaces is said to be **hereditary** if its satisfaction for a topological space $X$ implies its satisfaction for all topological subspaces of $X$. 
 
+## Examples
+
+The open  subsets of a [[closed interval]] $[0,1] \subset \mathbb{R}$ regarded as a topological subspace of the [[real line]] equipped with its [[Euclidean space|Euclidean]] [[metric topology]] is generated from the [[sub-base of a topology|sub-base]] $\beta = \{ [0, a) ,(a,1]\}_{a \in [0,1]}$.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
+</div>
+
+The image on the right shows open subsets in the closed square $[0,1]^2$, regarded as a topological subspace of the Euclidean plane
+
 ## Properties 
 
-+-- {: .num_prop} 
+A subspace $i: Y \hookrightarrow X$ is **closed** if $Y$ is closed as a subset of $X$ (or if $i$ is a [[closed map]]), and is **open** if $Y$ is open as a subset of $X$ (or if $i$ is an [[open map]]). 
+
+
++-- {: .num_prop #TopologicalEmbeddingsAreTheRegularMonos} 
 ###### Proposition 
 
-Topological subspace inclusions are precisely the [[regular monomorphisms]] in [[Top]]. 
+Topological subspace inclusions ([[topological embedding]]) are precisely the [[regular monomorphisms]] in the [[category]] [[Top]] of all [[topological spaces]]. 
 
 =-- 
 
@@ -63,6 +76,8 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 
 * [[embedding]]
 
+* [[embedding of topological spaces]]
+
 * [[embedding of smooth manifolds]]
 
 [[!include universal constructions of topological spaces -- table]]
@@ -81,6 +96,3 @@ A topology may be induced by more than a [[function]] other than a subset inclus
 [[!redirects subspace of a topological space]]
 [[!redirects subspaces of a topological space]]
 
-
-[[!redirects embedding of topological spaces]]
-[[!redirects embeddings of topological spaces]]
