@@ -129,6 +129,8 @@ For suitable ideals $\mathfrak{a}\subset A$ of a commutative ring $A$, then the 
 
 * [[completion of a module]]
 
+* [[formal scheme]]
+
 ## References
 
 A classical account is in section 1 of 
