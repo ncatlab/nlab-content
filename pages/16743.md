@@ -39,6 +39,41 @@ A topos $\mathcal{E}$ is called a _De Morgan topos_ if its [[subobject classifie
 
 * The topos $Sh(X)$ of sheaves on a topological space $X$ is De Morgan precisely iff $X$ is extremally disconnected, i.e. the closure of every open subset is open.
 
+## Some equivalent formulations
+
+The main interest of the concept of a De Morgan topos lies in the fact that for many statements whose classical (Boolean) validity is lost in intuitionistic logic the De Morgan property delineates precisely the range of toposes where the statement is valid. An illustration of this is e.g. the implication that maximal ideals are prime in commutative rings. 
+
+Though such statements are in fact equivalent to the De Morgan property they are better viewed as higher-order properties of De Morgan toposes. In contrast, there exists also a long list, mostly due to [Johnstone (1979)](#Johnstone79), of statements equivalent to the De Morgan property, that are logically of the same complexity and are often more convenient to work with. Some of the most important of these appear in the following:
+
++-- {: .num_prop #deMorgan_equivalents}
+###### Proposition
+Let $\mathcal{E}$ be a topos. The following are equivalent:
+
+* $\mathcal{E}$ is a De Morgan topos.
+
+* For all formulae $\varphi,\psi$ : $\mathcal{E}\models \neg (\varphi\wedge\psi)\Leftrightarrow\(\neg\varphi\vee\neg\varpsi)$ .
+
+* For every formula $\varphi$ : $\mathcal{E}\models \neg\vee\neg\neg\varphi$
+
+* For every subobject $X\rightarrowtail Y$: $\neg X\vee\neg\neg X=Y$.
+
+* $Sub(X)$ is a De Morgan algebra for every $X\in\mathcal{E}$.
+
+* The canonical monomorphism $(\top,\bot):1\coprod 1\rightarrowtail\Omega_{\neg\neg}$ to the subobject classifier of $Sh_{\neg\neg}(\mathcal{E})$ is an isomorphism.
+
+* $\Omega_{\neg\neg}$ is [[decidable object|decidable]].
+
+* $1\coprod 1$ is a retract of $\Omega_{\neg\neg}$.
+
+* $1\coprod 1$ is [[injective object|injective]].
+
+* Every $\neg\neg$-sheaf is decidable.
+
+* $\bot:1\to\Omega$ has a [[complement]].
+=--
+
+The first few equivalences are based mainly on the validity of the 'law of excluded middle' for elements of the form $\neg a$ in any [[De Morgan algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone).
+
 ## Properties
 
 The following shows that 'being De Morgan' is a _local property_ i.e. stable under slicing. This is immediate from the fact that the functor $\mathcal{E}\to\mathcal{E}/A$ sending $X$ to the projection $p_A: X\times A\to A$ is [[logical functor|logical]] hence preserves the various equivalent formulations of De Morgan's law.
@@ -56,6 +91,8 @@ Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^
 This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations in [Kock-Reyes (1994)](#KR94) and [Caramello (2012)](#Caramello12).
 
 ### Relation to cohesion
+
+Given that the [above conditions](#deMorgan_equivalents) concern $1\coprod 1$ and the contractability of $\Omega_{\neg\neg}$ it comes as no surprise that the De Morgan property interacts interestingly with [[Lawvere|Lawvere's]] axiomatic approach to [[cohesion]] and, in particular, with the part of it that concerns the connectedness of the subobject classifier in a cohesive topos of spaces. A first indication of this is the following:
 
 +-- {: .num_prop #omega_connected}
 ###### Proposition
