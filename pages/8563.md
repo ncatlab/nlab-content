@@ -18,12 +18,12 @@
 Let $R$ be a [[commutative ring]]. The [[category]] of [[associative algebras]] over $R$ is the category
 
 $$
-  Alg_R = Ring^{R/}
+  \mathsf{Alg}_R = {R \downarrow \mathsf{Ring}}
 $$
 
 of [[rings]] [[undercategory|under]] $R$. If $R$ is a commutative [[rig]], we can do the same with
 
-$$ Alg_R = Rig^{R/} .$$
+$$ \mathsf{Alg}_R = {R \downarrow \mathsf{Rig}} .$$
 
 The _tensor product of $R$-algebras_ has as [[underlying]] $R$-[[module]] just the [[tensor product of modules]] of the underlying modules, $A \otimes_R B$. On homogeneous elements $(a,b) \in A \times B \stackrel{\otimes}{\to} A \otimes_R B$ the algebra structure is given by
 
@@ -37,7 +37,7 @@ We write also $A \otimes_R B$ for the tensor product of algebras.
 For [[commutative algebra|commutative]] $R$-algebras, the tensor product is the [[coproduct]] in $Comm Alg_R$:
 
 $$
-  A \otimes_R B \simeq A \coprod B \in Comm Alg_R = Comm Rig^{R/}
+  A \otimes_R B \simeq A \coprod B \in Comm Alg_R = Comm R \downarrow \mathsf{Rig}
 ;$$
 
 hence the [[pushout]] in [[Comm Ring]] (or [[Comm Rig]])
