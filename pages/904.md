@@ -312,7 +312,9 @@ whilst Quick's is in
  
 Proof that the [[fundamental group of the circle is the integers]] in [[homotopy type theory]] is in
  
-* [[UF-IAS-2012|Univalent Foundations Project]], section 8.1 of _Homotopy Type Theory -- Univalent Foundations of Mathematics_
+* [[Daniel Licata]], [[Michael Shulman]], _Calculating the Fundamental Group of the Circle in Homotopy Type Theory_,  ([arXiv:1301.3443](https://arxiv.org/abs/1301.3443))
+
+* [[UF-IAS-2012|Univalent Foundations Project]], section 8.1 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
 the HoTT-[[Coq]]-code is at
 
