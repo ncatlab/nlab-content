@@ -1,4 +1,4 @@
-Jeff Giansiracusa is an EPSRC funded research fellow at Swansea University in the Department of Mathemats. He works on [[homotopy theory|homotopy theoretic]] aspects of [[moduli space]]s, [[operad]]s, [[topological field theory]], and [[diffeomorphism group]]s, using [[topology|topological]] techniques from [[algebraic K-theory]] to study the [[homotopy theory]] of moduli spaces arising in [[algebraic geometry]].
+Jeff Giansiracusa is an EPSRC funded research fellow at Swansea University in the Department of Mathematics. He works on [[homotopy theory|homotopy theoretic]] aspects of [[moduli space]]s, [[operad]]s, [[topological field theory]], and [[diffeomorphism group]]s, using [[topology|topological]] techniques from [[algebraic K-theory]] to study the [[homotopy theory]] of moduli spaces arising in [[algebraic geometry]].
 
 
 * [homepage at Swansea](http://maths.swansea.ac.uk/staff/jhg/index.html)
