@@ -98,3 +98,6 @@ Realization of GUTs in the context of [[M-theory on G2-manifolds]] and possible 
 
 
 [[!redirects Grand Unified Theory]]
+
+[[!redirects grand unification]]
+[[!redirects grand unifications]]
