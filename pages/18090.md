@@ -20,7 +20,7 @@ $\,$
 
 {#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 
-**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170508.pdf:file]])
+**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170509.pdf:file]])
 
 **part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
 
@@ -156,7 +156,6 @@ See also the references at _[[algebraic topology]]_.
 ### Special topics
 
 The standard literature typically omits the following important topics:
-
 
 Discussion of [[sober topological spaces]] is briefly in
 
