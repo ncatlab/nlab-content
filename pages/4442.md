@@ -180,6 +180,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 * [[S-matrix theory]]
 
+* [[anti de Sitter gravity]]
+
 [[!include table of branes]]
 
 ## References
