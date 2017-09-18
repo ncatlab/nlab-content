@@ -482,7 +482,7 @@ $$
   \,.
 $$
 
-Since the orthogonal groups is compact ([prop.](orthogonal+group#OrthogonalGroupIsCompact)) and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
+Since the orthogonal groups is compact ([prop.](orthogonal+group#OrthogonalGroupIsCompact)) and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following form in degrees bounded by $n$:
 
 $$
   \cdots
