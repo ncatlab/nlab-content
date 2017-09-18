@@ -64,6 +64,8 @@ The proof is spelled out at [[affine line]].
 
 * $\mathbb{C}P^1$ is the [[Riemann sphere]]
 
+* for $\mathbb{C}P^n$  see at _[[complex projective space]]_
+
 ## Related concepts
 
 * [[projective plane]]
@@ -74,7 +76,7 @@ The proof is spelled out at [[affine line]].
 
 * [[projective geometry]], [[synthetic projective geometry]]
 
-* [[projective linear group]], [[]]
+* [[projective linear group]]
 
 ## References
 
@@ -86,5 +88,3 @@ An introduction to projective spaces over the theory of ordinary commutative rin
 
 [[!redirects projective spaces]]
 
-[[!redirects complex projective space]]
-[[!redirects complex projective spaces]]
