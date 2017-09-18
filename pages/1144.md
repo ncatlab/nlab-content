@@ -260,6 +260,8 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 
 * [[fracture theorem]]
 
+* [[rational equivariant stable homotopy theory]]
+
 ## References
 
 A useful introduction to rational homotopy theory is
