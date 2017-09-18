@@ -1,16 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Manifolds and cobordisms
++-- {: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-_Stereographic projection_ is the name for a specific [[chart]] on a [[sphere]] for the complement of a point.
+_Stereographic projection_ is the name for a specific [[chart]] on a [[sphere]] for the [[complement]] of a [[point]].
 
 ## Definition
 
-Consider a (unit, say) sphere $S^n \subset \mathbb{R}^{n+1}$, and a point $v\in S^n$, considered as a vector in $\mathbb{R}^{n+1}$. Let $W\subset \mathbb{R}^n$ be the linear [[subspace]] that is the orthogonal complement to the subspace $span\{v\}$. There is an isomorphism 
-$$
-\sigma\colon S^n\setminus \{v\} \to W
-$$
-given by sending a point $p\in S^n\setminus \{v\}$ to the point in $W$ that is the intersection of the line through $v$ and $p$ and $W$.
+Consider a (unit, say) [[sphere]] $S^n \subset \mathbb{R}^{n+1}$, and a point $v\in S^n$, considered as a vector in $\mathbb{R}^{n+1}$. Let $W\subset \mathbb{R}^{n+1}$ be the linear [[subspace]] that is the [[orthogonal complement]] to the [[linear span]] $span\{v\}$. There is a [[homeomorphism]]
 
-The inverse map displays $S^n$ as the [[one-point compactification]] of $W$.
+$$
+  \sigma \;\colon\; S^n\setminus \{v\} \stackrel{\simeq}{\longrightarrow} W
+$$
+
+given by sending a point $p\in S^n\setminus \{v\}$ to the point in $W$ that is the intersection of the line through $v$ and $p$ with $W$.
+
+The inverse map $\sigma^{-1}$ exhibits $S^n$ as the [[one-point compactification]] of $W$.
 
 In the case that $v=(1,0,\ldots,0)$, we have the simple formula
 $$
@@ -20,9 +41,10 @@ $$
 ## Related entries
 
 * [[Riemann sphere]]
+
 * [[representation sphere]]
 
 
 ## References
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Stereographic_projection)
+* Wikipedia, _[Stereographic projection](https://en.wikipedia.org/wiki/Stereographic_projection)_
