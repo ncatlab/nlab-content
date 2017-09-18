@@ -56,7 +56,7 @@ This is where the concept of automorphic forms originates (for more on the histo
 ### Modular forms as adelic automorphic forms on $GL(2,\mathbb{A})$
  {#ModularForms}
 
-The formulation of [[modular forms]] as automorphic forms for $G = PSL(2,\mathbb{R})$ [above](#ModularForms) has in turn an equivalent formulation in terms of certain automorphic forms on $GL(2,\mathbb{A})$, where $\mathbb{A}$ is the [[ring of adeles]] (e.g. [Martin 13, p. 8](#Martin13), also [Goldfeld-Hundley 11, lemma 5.5.10](#GoldfeldHundley11), [Bump, section 3.6](#Bump)): we have
+The formulation of [[modular forms]] as automorphic forms for $G = PSL(2,\mathbb{R})$ [above](#ModularForms) has in turn an equivalent formulation in terms of certain automorphic forms on $GL(2,\mathbb{A})$, where $\mathbb{A}$ is the [[ring of adeles]] (e.g. [Martin 13, p. 8](#Martin13), also [Goldfeld-Hundley 11, lemma 5.5.10](#GoldfeldHundley11), [Bump, section 3.6](#Bump), [Gelbhart 84, p. 22](#Gelbhart84)): we have
 
 $$
   \Gamma \backslash PSL(2,\mathbb{R})
