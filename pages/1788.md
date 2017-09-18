@@ -1,4 +1,5 @@
 
+> under construction
 
 Text _italic_
 
@@ -14,4 +15,14 @@ $$
       {\overset{F}{\longleftarrow}}
       {\bot}
   \mathcal{D}
+$$
+
+$$
+  \array{
+    A &\longrightarrow& B
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    C &\longrightarrow& D
+  }
 $$
