@@ -66,7 +66,7 @@ Hence no [[inhabited set|inhabited]] open subspace of the rational numbers is co
 A [[product]] in $Top$ of totally disconnected spaces is totally disconnected. A subspace of a totally disconnected space is totally disconnected. Hence [[limits]] in $Top$ of diagrams of totally disconnected spaces are totally disconnected. 
 =-- 
 
-For example, the Baire space of [[irrational numbers]] is homeomorphic to a countable product $\mathbb{N}^\mathbb{N}$ (via [[continued fractions]]), so it is totally disconnected. Similarly, [[Cantor space]] $2^\mathbb{N}$ is totally disconnected. Another notable special case of the preceding class of examples is the following. 
+For example, the [[Baire space]] of [[irrational numbers]] is [[hmeomorphismhomeomorphic]] to a [[countable set|countable]] [[product space]] $\mathbb{N}^\mathbb{N}$ (via [[continued fractions]]), so it is totally disconnected. Similarly, [[Cantor space]] $2^\mathbb{N}$ is totally disconnected. Another notable special case of the preceding class of examples is the following. 
 
 +-- {: .num_example}
 ###### Example
@@ -75,7 +75,7 @@ Every [[profinite group]] is totally disconnected and in particular the set of [
 
 =-- 
 
-See also [[Stone space]]. 
+See also at _[[Stone space]]_. 
 
 
 * [[extremally disconnected topological space|extremally disconnected]] Hausdorff space
@@ -87,7 +87,7 @@ The general class of examples in Example \ref{limits} may be seen in the followi
 
 +-- {: .num_theorem} 
 ###### Theorem 
-The category of totally disconnected spaces and continuous maps is a reflective subcategory of $Top$. 
+The [[category]] of totally disconnected spaces and continuous maps is a [[reflective subcategory]] of [[Top]]. 
 =-- 
 
 +-- {: .proof} 
