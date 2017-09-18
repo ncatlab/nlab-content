@@ -1906,7 +1906,7 @@ preserves [[stable weak homotopy equivalences]] as well as stable equivalences (
 +-- {: .num_lemma }
 ###### Lemma
 
-The functor
+For every $X \in \mathbb{S}_{dia} Mod$, the functor
 
 $$
   X \wedge_{\mathbb{S}_{dia}}(-)
