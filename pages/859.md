@@ -24,9 +24,7 @@ $$
   \,,
 $$
 
-then there is a
-__semidirect product__ group whose underlying set is the [[product]] $\Gamma \times  G$
-but whose multiplication is twisted by $\rho$:
+then there is a __semidirect product__ group $\Gamma \rtimes \, G$ whose underlying set is the [[Cartesian product]] $\Gamma \times  G$ but whose multiplication is twisted by $\rho$:
 
 $$
   (\delta,h)(\gamma,g)= (\delta \rho(h)(\gamma) , h g)
@@ -34,8 +32,7 @@ $$
 
 for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$. 
 
-This is called in
-[[group theory]] the **semidirect product** and written $\Gamma \rtimes \, G$.
+If the twist is trivial, then this reduces to just the [[direct product group]] construction, whence the name.
 
 There is a [[projection]] morphism $p:\Gamma \rtimes \, G \to G$ ,
 $(\gamma, g) \to g$. A [[section]] $s$ of this can be identified with a
