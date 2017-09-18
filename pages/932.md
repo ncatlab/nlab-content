@@ -35,7 +35,7 @@ For $(\mathfrak{g}, [-,-],\partial)$ a [[dg-Lie algebra]] (the [[differential]] 
 * such that the **Maurer-Cartan equation** holds
 
   $$
-    \partial a + [a,a] = 0 
+    \partial a + \frac{1}{2}[a,a] = 0 
      \,.
   $$
 
