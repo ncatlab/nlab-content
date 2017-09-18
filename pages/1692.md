@@ -174,3 +174,6 @@ category: category
 
 [[!redirects Chu space]]
 [[!redirects Chu spaces]]
+[[!redirects chu space]]
+[[!redirects chu spaces]]
+[[!redirects chu construction]]
