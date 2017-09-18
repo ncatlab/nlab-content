@@ -42,6 +42,7 @@ Note that the theory could be [[algebraic theory|algebraic]], as for $Grp$, or [
 
 
 ### Locally presentable enlargement
+ {#LocallyPresentableEnlargement}
 
 For any large category $C$, the very large [[presheaf category]] $[C^{op},SET]$ contains $C$ as a [[full subcategory]].  Furthermore, $[C^{op},SET]$ is $SET$-bicomplete, i.e. it has all large [[limits]] and [[colimits]], whether or not $C$ was $Set$-complete or cocomplete, and the [[Yoneda embedding]] $C \hookrightarrow [C^{op},SET]$ [[preserved limit|preserves]] all limits that exist in $C$.
 
@@ -95,6 +96,8 @@ One may further ask for an enlargement which inherits whatever additional struct
 * Sections 2.6 and 3.11--3.12 of [Basic Concepts of Enriched Category](http://tac.mta.ca/tac/reprints/articles/10/tr10abs.html).
 
 * [Blog post](http://golem.ph.utexas.edu/category/2010/11/universe_enlargement.html)
+
+* [[Zhen Lin Low]], [MO comment on universe enlargement](http://mathoverflow.net/a/130639/381)
 
 [[!redirects universe enlargements]]
 [[!redirects change of universe]]
