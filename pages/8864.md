@@ -23,7 +23,7 @@ For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also
 
 ## Definition
 
-+-- {: .num_defn }
++-- {: .num_defn #DirectSumOfTopologicalVectorBundles}
 ###### Definition
 **(direct sum of [[topological vector bundles]])**
 
@@ -91,6 +91,47 @@ $$
 
 =--
 
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+Let $X$ be a [[paracompact topological space]] and let $E \to X$ be a [[topological vector bundle]]. Then every vector subbundle $E_1 \hookrightarrow E$ is a direct vector bundle summand, in that there exists another vector subbundle $E_2 \hookrightarrow E$ such that their direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) is $E$
+
+$$
+  E_1 \oplus E_2 \simeq E
+  \,.
+$$
+
+=--
+
+([e.g. Hatcher, prop. 1.3](#Hatcher))
+
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
+
+Let 
+
+1. $X$ be a [[compact Hausdorff space]];
+
+1. $E \to X$ a [[topological vector bundle]].
+
+Then there exists another topological vector bundle $\tilde E \to X$ such that the direct sum of vector bundles (def. \ref{DirectSumOfTopologicalVectorBundles}) of the two is a trivial vector $X \times \mathbb{R}^n$:
+
+$$
+  E \oplus \tilde E
+   \;\simeq\;
+  X \times \mathbb{R}^n
+  \,.
+$$
+
+=--
+
+(e.g. [Hatcher, prop. 1.4](#Hatcher), [Friedlander, ptop. 3.1](#Friedlander))
+
+Prop. \ref{Smooth0TypeIsSheavesOnSmoothMfd} is key for the construction of [[topological K-theory]] groups on compact Hausdorff spaces.
+
+
 ## Related concepts
 
 * [[tensor product of vector bundles]], [[dual vector bundle]], [[tensor category]]
@@ -100,6 +141,21 @@ $$
 * [[virtual vector bundle]], [[topological K-theory]]
 
 * [[framed manifold]], [[Thom spectrum]]
+
+## References
+
+Discussion with an eye towards [[topological K-theory]] is in
+
+* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
+
+
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+
+and with an eye towards [[algebraic K-theory]] in
+
+* {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ (emphasis on [[algebraic K-theory]]), 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
+
+
 
 [[!redirects Whitney sum]]
 
