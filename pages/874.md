@@ -161,7 +161,7 @@ This principle continues to hold even for *infinitary* products, where the corre
   * For instance, this is how products of [[cocommutative coalgebras]] are formed. This applies for instance to cocommutative [[Hopf algebras]]. 
   * In a [[cartesian bicategory]] such as $Rel$, the accompanying category of objects and *maps* (= left adjoint 1-cells) coincides with the category of cocommutative comonoids and comonoid maps between them (which is $Set$ in the case of $Rel$). Thus, at the level of objects, the usual tensor product in $Rel$ coincides with the cartesian product in $Set$. 
 
-* For categories $C$ enriched in the category of [[commutative monoids]], finite products are [[biproducts]] and hence coincide with coproducts in a controlled fashion (via [[matrices]]). However, this is usually not the case for infinite products. For such examples, finite products are [[absolute limits]]. 
+* For categories $C$ enriched in the category of [[commutative monoids]], [[finite products99 are [[biproducts]] and hence coincide with coproducts in a controlled fashion (via [[matrices]]). However, this is usually not the case for infinite products. For such examples, finite products are [[absolute limits]]. 
 
 * In the category [[SupLat]] of [[sup-lattices]], arbitrary products coincide with coproducts (and in fact the functor $X \mapsto X^{op}$ that takes a sup-lattice to its posetal opposite is part of a perfect duality $SupLat^{op} \to SupLat$, taking a sup-lattice map $f: X \to Y$ to $g^{op}: Y^{op} \to X^{op}$ where $f \dashv g$). This example descends to $Rel$ itself, so we conclude that products in $Rel$ are actually given by coproducts in $Rel$ which in turn are given by coproducts in $Set$. 
 
@@ -227,6 +227,4 @@ category: foundational axiom
 [[!redirects product]]
 [[!redirects products]]
 
-[[!redirects finite product]]
-[[!redirects finite products]]
 
