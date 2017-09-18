@@ -24,7 +24,11 @@ $$
     Y\times Y &\to& X\times X
 }
 $$
-Remark that the natural projection $P_Y X\to Y\times Y$ makes $P_Y X$ a groupoid (of paths in $X$) acting on $Y$. One may pull it back along the diagonal $\Delta:Y\hookrightarrow Y\times Y$ to get the loop space
+Remark that the natural projection $P_Y X\to Y\times Y$ makes $P_Y X$ a groupoid (of paths in $X$) acting on $Y$. In the case of the diagonal immersion $Y=M\hookrightarrow M\times M=X$, we get
+$$P_Y X\cong LX:=\Hom(S^1,X).$$
+There is a natural projection $p:P_Y X\to \Hom(\Delta^1,X)\sim X$ and $P_Y X$ is equiped with the natural structure of a groupoid acting on $Y$ through the projection $P_Y X\to Y\times Y$.
+
+One may pull it back along the diagonal $\Delta:Y\hookrightarrow Y\times Y$ to get the loop space
 $$L_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)=f(1)\in Y\}.$$
 There is a natural projection $\tau:L_Y X\to Y$.
 A more explicit description of the loop space (that is obtained by using the homotopy $\Delta^1\sim \Delta^0$) is given by the homotopy pullback
