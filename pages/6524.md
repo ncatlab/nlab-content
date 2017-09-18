@@ -51,6 +51,8 @@ Accordingly also the [[curvature]] 2-form has two components:
 
 * $\tau = d E + [\Omega \wedge E]$ -- the **torsion**.
 
+This is the special case of the more general concept of [[torsion of a Cartan connection]].
+
 ## Generalizations
 
 In [[supergeometry]] a metric structure is given by a connection with values in the [[super Poincaré Lie algebra]]. The corresponding notion of torsion has an extra contribution from [[spinor]] fields: the [[super torsion]].
