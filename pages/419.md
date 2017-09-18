@@ -40,7 +40,7 @@ such that
 
 ## Properties 
 
-The central fact about a monoidal model category is that its homotopy category inherits a closed monoidal structure.
+The central fact about a monoidal model category is that its [[homotopy category of a model category|homotopy category]] inherits a closed [[monoidal category]] structure.
 
 ## Examples 
 
