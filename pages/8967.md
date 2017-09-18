@@ -79,6 +79,25 @@ $$ r_! q_* p^* C = (C_{00}\times C_{10}) + (C_{00}\times C_{11}) +
 (C_{02}\times C_{10}) + (C_{02}\times C_{11}).
 $$
 
+In the [[internal logic|internal]] [[dependent type theory]] of the ambient category, if we express $f$ and $g$ as [[dependent types]]
+
+$$ b:B \vdash A(b) : Type \qquad and \qquad b:B, a:A(b) \vdash Z(b,a) : Type $$
+
+then the exponential $r$ of $g$ along $f$ in a distributivity pullback is the [[dependent product type]]
+
+$$ b:B \vdash \prod_{a:A(b)} Z(b,a) : Type. $$
+
+and the distributivity isomorphism $\delta$ says that for any further dependent type
+
+$$ b:B, a:A(b), z:Z(b,a) \vdash W(b,a,z) : Type$$
+
+in the context of $b:B$ we have an isomorphism
+
+$$ \sum_{\phi:\prod_{a:A(b)} Z(b,a) } \prod_{a:A(b)} W(b,a,\phi(a)) \qquad \cong \qquad  \prod_{a:A(b)} \sum_{z:Z(b,a)} W(b,a,z). $$
+
+This isomorphism (or more specifically the left-to-right map) has traditionally been called the "axiom of choice" in [[Martin-Lof type theory]], since if $\sum$ and $\prod$ are interpreted according to [[propositions as types]] then it looks like the set-theoretic axiom of choice.  However, this is not really appropriate, since this is a provable statement rather than an additional axiom, and does not have any of the usual strong consequences of the set-theoretic axiom of choice.  See [[axiom of choice]] for further discussion.
+
+
 ## References
 
 * [[Mark Weber]], "Polynomials in categories with pullbacks", [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
