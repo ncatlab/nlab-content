@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
 #Contents#
 * table of contents
 {:toc}
@@ -7,7 +20,7 @@
 
 For $k \in \mathbb{Z}$, the _$k$-stem_ of the [[homotopy groups of spheres]] is the collection of [[homotopy groups]] of the form $\pi_{n+k}(S^n)$ for all $n \in \mathbb{N}$, together with the [[suspension]] maps between them.
 
-For $n \gt k + 1$ these groups stabilize and yield the [[stable homotopy groups of spheres]].
+For $n \gt k + 1$ these groups stabilize ("stable stems") and yield the [[stable homotopy groups of spheres]].
 
 ## References
 
