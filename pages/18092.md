@@ -21,11 +21,7 @@ For $p = 2$ the $p$-norm is the standard _Euclidean norm_, defining [[Euclidean 
 
 For $p = \infty$ the $p$-norm (found by taking the limit $p \to \infty$) is the [[supremum]] (or [[essential supremum]] in the continuous case) of the absolute values of the components of vectors, then called the _supremum norm_.
 
-For $0 \leq p \lt 1$, the definition makes sense, but the result is not a norm, as [[Minkowski's inequality]] (the [[triangle inequality]] for $p$-norms) fails.  A variant definition for $p \leq 1$ (which agrees with the usual definition for $p = 1$, preserving continuity in $p$) leaves out the $p$th root; then the result satisfies the triangle inequality (and indeed is a [[metric]]) but fails to be a norm because it is not positive-homogeneous of degree $1$ (but of degree $p$ instead).  Such a thing is called an [[F-norm]].
-
-For $p = 0$, the unmodified $p$-norm (defined by the limit as $p \searrow 0$) is infinite if there is more than one nonzero entry and is the absolute value of the one nonzero entry if there is only one (or 0 if there is none); the modified $p$-norm (without the root) is the number of nonzero entries, but the triangle inequality continues to fail in this case.  Therefore, there is a further modified $0$-norm, given by
-$$ {\|(x_1, x_2, \ldots)\|_0} = \sum_{n=1}^\infty \frac {2^{-n} {|x_n|}} {1 + {|x_n|}} $$
-for $l^0$, which is an $F$-norm.  (But I don\'t know what is the justification for thinking of this as a $p$-norm for $p = 0$.)
+For $0 \leq p \lt 1$ one may to some extent still make sense of the formulas that define $p$-norms (see at _[Generalizations](#Generalizations)_ below), but the resulting concepts are no longer genuine norms.
 
 
 ## Definition
@@ -136,11 +132,21 @@ $$
 
 $$
   {\Vert f \Vert_p}
-  \;\colon\;
+  \;\coloneqq\;
   \root{p}{\int_X {\vert f\vert^p}} d\mu 
 $$
 
 defines a [[norm]]. The [[triangle inequality]] holds due to [[Minkowski's inequality]].  The [[normed vector space]] $(L^p(X), {\Vert- \Vert_p})$ is also called a _[[Lebesgue space]]_.
+
+## Generalizations for $0 \leq p \lt 1$
+ {#Generalizations}
+
+For $0 \leq p \lt 1$, the above definitions for $\Vert {-}\Vert_p$ still make sense in themselves, but the result is no longer a norm, as [[Minkowski's inequality]] (the [[triangle inequality]] for $p$-norms) fails.  A variant definition for $p \leq 1$ (which agrees with the usual definition for $p = 1$, preserving continuity in $p$) leaves out the $p$th root; then the result satisfies the triangle inequality (and indeed is a [[metric]]) but fails to be a norm because it is not positive-homogeneous of degree $1$ (but of degree $p$ instead).  Such a thing is called an [[F-norm]].
+
+For $p = 0$, the unmodified $p$-norm (defined by the limit as $p \searrow 0$) is infinite if there is more than one nonzero entry and is the absolute value of the one nonzero entry if there is only one (or 0 if there is none); the modified $p$-norm (without the root) is the number of nonzero entries, but the triangle inequality continues to fail in this case.  Therefore, there is a further modified $0$-norm, given by
+$$ {\|(x_1, x_2, \ldots)\|_0} = \sum_{n=1}^\infty \frac {2^{-n} {|x_n|}} {1 + {|x_n|}} $$
+for $l^0$, which is an $F$-norm.  (But I don\'t know what is the justification for thinking of this as a $p$-norm for $p = 0$.)
+
 
 
 ## References
