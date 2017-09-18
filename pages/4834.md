@@ -95,7 +95,7 @@ name          | rule                                                            
 (weakening)   | $\frac{\Gamma \vdash A:B; \quad \Gamma \vdash C:s}{\Gamma, x : C \vdash A : B}$                                           | if $x \notin \Gamma$              |
 (product)     | $\frac{\Gamma \vdash A : s_{1}; \quad \Gamma x:A \vdash B : s_{2}}{\Gamma \vdash (\prod x:A . B) : s_{3}}$                | if $(s_{1}, s_{2}. s_{3}) \in R$; |
 (application) | $\frac{\Gamma \vdash F : (\prod x:A . B); \quad \Gamma \vdash a : A}{\Gamma \vdash Fa : B [x := a]}$                      |                                   |
-(abstraction) | $\frac{\Gamma, x:A \vdash b : B; \quad \Gamma \vdash (\prod x:A . B) : s}{\Gamma \vdash (\lambda x:A:b) : (\prod x:A:B)}$ |                                   |
+(abstraction) | $\frac{\Gamma, x:A \vdash b : B; \quad \Gamma \vdash (\prod x:A . B) : s}{\Gamma \vdash (\lambda x:A:b) : (\prod x:A.B)}$ |                                   |
 (conversion)  | $\frac{\Gamma \vdash A : B; \quad \Gamma \vdash B' : s; \quad B =_{\beta} B'}{\Gamma \vdash A : B'}$                                   |                                   |
 
 
