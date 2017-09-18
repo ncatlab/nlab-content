@@ -165,7 +165,7 @@ Let $F : C \rightleftarrows D : G$ be a Quillen adjunction between [[model categ
 where $C[W_C^{-1}]$ and $D[W_D^{-1}]$ denote the respective [[simplicial localizations]] at the respective classes of [[weak equivalences]]. 
 =--
 
-See ([Hinich 14](#Hinich14), Proposition 1.5.1) or ([Mazel-Gee 15](#MazelGee15), Theorem 2.1).
+See ([Mazel-Gee 16](#MazelGee16), Theorem 2.1).  (This is also asserted as ([Hinich 14](#Hinich14), Proposition 1.5.1), but it is not completely proved there -- see ([Mazel-Gee 16](#MazelGee16), Remark 2.3).)
 
 For [[simplicial model categories]] with [[sSet]]-[[enriched functor|enriched]] [[Quillen adjunctions]] between them, this is also in ([Lurie, prop. 5.2.4.6](#Lurie)).
 
@@ -191,11 +191,11 @@ See the references at _[[model category]]_. For instance
 
 The proof that a Quillen adjunction of [[model categories]] induces an [[adjunction of (infinity,1)-categories]] is recorded in
 
+* {#MazelGee16} [[Aaron Mazel-Gee]], [_Quillen adjunctions induce adjunctions of quasicategories_](http://nyjm.albany.edu/j/2016/22-4.html).
+
+and this question is also partially addressed in
+
 * {#Hinich14} [[V. Hinich]], _Dwyer-Kan localization revisited_, [arXiv:1311.4128](http://arxiv.org/abs/1311.4128).
-
-and also in
-
-* {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, [arXiv:1501.03146](http://arxiv.org/abs/1501.03146).
 
 The case for [[simplicial model categories]] is also in 
 
