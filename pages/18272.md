@@ -15,13 +15,13 @@
 
 ## Introduction 
 
-There is a battery of little [[set theory|set-theoretic]] lemmas which inevitably recur when laying the foundations of core [[mathematics]], as when teaching the standard curriculum that includes basic [[topology]], real [[analysis]], [[algebra]], and so forth. In this article we collect some of those core results having to do with the properties of [[image]] and [[pre-image]] operators, especially regarding their preservation (or not) of set-theoretic operations like [[unions]] and [[intersections]]. 
+There is a battery of little [[set theory|set-theoretic]] [[lemmas]] which inevitably recur when laying the [[foundations]] of core [[mathematics]], as when teaching the standard curriculum that includes basic [[topology]], real [[analysis]], [[algebra]], and so forth. In this article we collect some of those core results having to do with the properties of [[image]] and [[pre-image]] operators, especially regarding their preservation (or not) of set-theoretic operations like [[unions]] and [[intersections]]. 
 
-The attitude and approach of the mathematics professor toward such routine bread-and-butter issues is a matter of some interest. A professional, upon being presented with any one of these "naive set theory" propositions, will probably be able to verify it on the spot using ordinary follow-your-nose logic, driven by the definitions. While being able to produce such verifications is part of basic training in mathematics, it is not quite the same as giving an *explanation*, and in fact even good mathematicians trained this way may struggle to remember "now which is it that direct images preserve, unions or intersections?"[^1] 
+The attitude and approach of the mathematics professor toward such routine bread-and-butter issues is a matter of some interest. A professional, upon being presented with any one of these "naive set theory" [[propositions]], will probably be able to verify it on the spot using ordinary follow-your-nose logic, driven by the definitions. While being able to produce such verifications is part of basic training in mathematics, it is not quite the same as giving an *explanation*, and in fact even good mathematicians trained this way may struggle to remember "now which is it that direct images preserve, unions or intersections?"[^1] 
 
 [^1]: There is a famous story of how [[Mikhail Yakovlevich Suslin|Suslin]] discovered an error in an argument of [[Lebesgue]], concerning just this type of routine set-theoretic detail (that Lebesgue perhaps just misremembered). In response, [[Mikhail Yakovlevich Suslin|Suslin]] was led to develop some of the basics of [[descriptive set theory]]. Details of the story have been told by Dave Renfro, [here](http://mathforum.org/kb/message.jspa?messageID=4966721) and [here](http://mathforum.org/kb/message.jspa?messageID=4967733)
 
-A strong pedagogy would not only instill this sort of basic training, but make the battery of routine results more memorable by concentrating their essence in one or two basic principles that provide an explanatory basis for the rest. According to [[William Lawvere|Lawvere]], logic is an interlocking system of certain types of adjoint functors, and we believe putting those adjoint relationships front and center and seeing how the rest flows from them is an effective way to arrange the facts. 
+A strong pedagogy would not only instill this sort of basic training, but make the battery of routine results more memorable by concentrating their essence in one or two basic principles that provide an explanatory basis for the rest. According to [Lawvere 69](#Lawvere69), [Lawvere 05](#Lawvere05), logic is an interlocking system of certain types of [[adjoint functors]], and we believe putting those [[adjunction|adjoint]] relationships front and center and seeing how the rest flows from them is an effective way to arrange the facts. 
 
 ## Statements
 
@@ -212,13 +212,17 @@ To be continued.
 
 The slogan of Lawvere on logic and adjoint functors appears in 
 
-* [[F. William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52 (1965), 1506-1511. Reprinted in an expanded version, with commentary by Colin McLarty and by Lawvere, in Reprints in Theory and Applications of Categories, No. 11 (2005), pp. 1-35. ([link](http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html)) 
+* {#Lawvere05} [[F. William Lawvere]], _An elementary theory of the category of sets_, Proceedings of the National Academy of Science of the U.S.A 52 (1965), 1506-1511. Reprinted in an expanded version, with commentary by Colin McLarty and by Lawvere, in Reprints in Theory and Applications of Categories, No. 11 (2005), pp. 1-35. ([link](http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html)) 
+
+based on
+
+* {#Lawvere69} [[William Lawvere]], _[[Adjointness in Foundations]]_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
 The story of Lebesgue's slip that projections commute with intersections, in attempting to prove that [[projections]] of [[Borel sets]] are Borel, is well explained here: 
 
 * Dave L. Renfro, *Mikhail Y. Suslin and Lebesgue's error*, two Mathforum posts dated July 29, 2006 (first post [here](http://mathforum.org/kb/message.jspa?messageID=4966721)). 
 
-The analogy between adjoint functors and adjoints in linear algebra becomes very strong when jacking up from Hilbert spaces to 2-Hilbert spaces. See 
+The analogy between adjoint functors and adjoints in linear algebra becomes very strong when jacking up from Hilbert spaces to [[2-Hilbert spaces]]. See 
 
 * {#JB97} [[John C. Baez]], *Higher-Dimensional Algebra II. 2-Hilbert Spaces*, Advances in Mathematics, Volume 127 Issue 2 (10 May 1997), 125-189. [https://doi.org/10.1006/aima.1997.1617](https://doi.org/10.1006/aima.1997.1617) ([Elsevier link](http://www.sciencedirect.com/science/article/pii/S0001870897916170)) 
 
