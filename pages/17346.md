@@ -57,7 +57,7 @@ Where the [[Atiyah-Hirzebruch spectral sequence]] ([here](#SerreAtiyahHirzebruch
 
 But in order for maps of homology groups to have a chance to retain enough information, they should be forced to be equivariant with respect to extra structure inherited by forming $E$-homology. 
 
-For instance if $E = $ $H \mathbb{F}_2$ then the [[dual Steenrod algebra]] $\mathcal{A}$ (co-)acts on $E_\bullet(X) = H_\bullet(X,\mathbb{F}_2)$ and a necessary condition for a morphism of homology groups to come from a morphism of spectra is that it is a [[homomorphism]] with respect to this (co-action).  The classical [[Adams spectral sequence]], accordingly, approximates $[Y,X]_\bullet$ by $Hom_{\mathcal{A}}(H_\bullet(Y,\mathbb{F}_2), H_\bullet(X,\mathbb{F}_2))$. (...)
+For instance if $E = $ $H \mathbb{F}_2$ then the [[dual Steenrod algebra]] $\mathcal{A}$ (co-)acts on $E_\bullet(X) = H_\bullet(X,\mathbb{F}_2)$ and a necessary condition for a morphism of homology groups to come from a morphism of spectra is that it is a [[homomorphism]] with respect to this (co-action).  The  [[classical Adams spectral sequence]], accordingly, approximates $[Y,X]_\bullet$ by $Hom_{\mathcal{A}}(H_\bullet(Y,\mathbb{F}_2), H_\bullet(X,\mathbb{F}_2))$.
 
 More generally, since spectra are equivalently [[module spectra]] over the [[sphere spectrum]] $\mathbb{S}$, the operation of forming $E$-homology spectra $X \mapsto E \wedge S$ is equivalently the [[extension of scalars]] along the ring unit $\mathbb{S}\longrightarrow E$. This means that the extra structure inherited by $E$-homology groups contains the information given by the further extensions along the [[cosimplicial object|cosimplicial]] diagram
 
@@ -69,8 +69,17 @@ $$
  \,.
 $$
 
-This gives $E_\bullet(X)$ the structure of a [[module]] over the [[Hopf algebroid]] $\pi_\bullet(E \wedge E) = E_\bullet(E) \stackrel{\longleftarrow}{\longleftarrow} E_\bullet$. Accordingly the general $E$-[[Adams spectral sequence]] (or: [[Adams-Novikov spectral sequence]]) approximates $\pi_\bullet[Y,X]$ by $Hom_{E_\bullet(E)}(E_\bullet(Y),E_\bullet(X))$.
+In good cases this gives $E_\bullet(X)$ the structure of a [[module]] over the [[Hopf algebroid]] $\pi_\bullet(E \wedge E) = E_\bullet(E) \stackrel{\longleftarrow}{\longleftarrow} E_\bullet$. Accordingly the general $E$-[[Adams spectral sequence]] approximates $\pi_\bullet[Y,X]$ by $Hom_{E_\bullet(E)}(E_\bullet(Y),E_\bullet(X))$.
 
+For $E = $ [[MU]], [[BP]], this is the _[[Adams-Novikov spectral sequence]].
+
+We discuss first the
+
+* [General theory of E-Adams spectral sequences](#TheoryforAdamsSpectralSequences)
+
+and then consider the classical 
+
+* [Examples and applications](#ExamplesOfAdamsSpectralSequences)
 
 $\,$
 
@@ -1494,11 +1503,9 @@ We here consider examples applying the general theory of $E$-[[Adams spectral se
 #### The case $E = H \mathbb{F}_2$ and $X = \mathbb{S}$
 
 
-the classical [[Adams spectral sequence]] for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
+...the  [[classical Adams spectral sequence]] for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
 
-([Bruner 09](#Bruner09))
-
- also ([Hatcher 04](#Hatcher04), [Schwede 12, chapter II, section 10](#Schwede12), [Rognes 12](#Rognes12))
+([Kochman 96, section 5](#Kochman96))
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
@@ -1506,13 +1513,15 @@ the classical [[Adams spectral sequence]] for computation of 2-primary parts of 
 
 #### The case $E = H \mathbb{F}_p$ and $X = M U$ 
 
-used to compute the [[stable homotopy groups]] of the complex [[Thom spectrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
+used to compute the [[stable homotopy groups]] of the complex [[Thom spectrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see at _[Seminar session: Milnor-Quillen theorem on MU](Introduction+to+Stable+homotopy+theory+--+S#QuillenTheoremOnMU)_
 
-  (...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
+([Adams 74, part II, around section 8](Introduction+to+Stable+homotopy+theory+--+S#Adams74), [Lurie 10, around lecture 9](Introduction+to+Stable+homotopy+theory+--+S#Lurie10))
 
 #### The case $E = M U$ and $X = \mathbb{S}$
 
 this is the classical _[[Adams-Novikov spectral sequence]]_ ,  converges faster than the classical choice $E = H \mathbb{F}_p$ to the [[stable homotopy groups of spheres]], (...)
+
+([Kochman 96, section 5](#Kochman96))
 
 
 
@@ -1533,7 +1542,7 @@ as worked out in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
-For the special case of the [[classical Adams spectral sequence]] we follow
+For the special case of the [[classical Adams spectral sequence]] and the [[Adams-Novikov spectral sequence]] we follow
 
 * {#Kochman96} [[Stanley Kochman]], chapter 5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
