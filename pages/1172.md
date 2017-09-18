@@ -68,6 +68,13 @@ A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bou
 [[!redirects Cauchy space]]
 [[!redirects Cauchy spaces]]
 
+[[!redirects Cauchy structure]]
+[[!redirects Cauchy structures]]
+[[!redirects Cauchy-continuous structure]]
+[[!redirects Cauchy-continuous structures]]
+[[!redirects Cauchy continuous structure]]
+[[!redirects Cauchy continuous structures]]
+
 [[!redirects Cauchy map]]
 [[!redirects Cauchy maps]]
 [[!redirects Cauchy continuous map]]
