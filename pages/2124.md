@@ -130,7 +130,7 @@ Hence we may regard $\mathbf{QuantMorph}(\mathbf{L}_{WZW})$ (or its restriction 
 
 ### In 11d Supergravity 
 
-In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of BPS states (e.g. [Stelle 98, section 3](#Stelle98) [EHKNT 07](#EHKNT07)):
+In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BPS states (the [[black brane|black]] [[M-branes]]) (e.g. [Stelle 98, section 3](#Stelle98) [EHKNT 07](#EHKNT07)):
 
 * the [[M2-brane]];
 
