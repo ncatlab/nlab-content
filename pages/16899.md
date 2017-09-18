@@ -1,6 +1,9 @@
+[[!redirects pseudo-metric space]]
 [[!redirects pseudo-metric]]
 [[!redirects pseudo-metric spaces]]
 [[!redirects pseudo-metrics]]
+[[!redirects proxi-metric]]
+[[!redirects proxi-metric spaces]]
 
 
 +-- {: .rightHandSide}
@@ -21,15 +24,19 @@
 
 ## Idea
 
-The category of metric spaces with Lipschitz maps between them is not good enough from a categorical viewpoint: it has finite limits (the max pseudo-metric on the product) but not all finite colimits: the coproduct doesn't always exist. To overcome this difficulty, we will work with ind-bounded metric spaces, with Lipschitz maps between them (any metric space may be seen as the colimit of its bounded subsets).
+The category of metric spaces with Lipschitz maps between them is not good enough from a categorical viewpoint: it has finite limits (the max metric on the product) but not all finite colimits: the coproduct doesn't always exist. To overcome this difficulty, one needs to enlarge this category in various ways.
 
-The category of bounded metric spaces has all finite limits and colimits (the two terms of the coproduct may be fixed to be at distance $1$, and other limits and colimits are the usual ones). This implies (SGA IV) that its indization has all limits and colimits. The category of ind-bounded metric spaces may thus give a convenient setting for the development of a metric stable homotopy theory.
-There is also a natural functor from general metric spaces to ind-bounded metric spaces.
+The first enlargement is obtained by replacing the usual triangular inequality
+$d(x,y)\leq d(x,z)+d(z,y)$ by the proxi-metric inequality: there exists $C\geq 1$ such that
+$$d(x,y)\leq C\cdot \max(d(x,z),d(z,y)).$$
+This gives a category of so-called proxi-metric spaces stable by the $\mathbb{R}_+^*$-flow given by
+$$d\mapsto d^t:=e^{t\log(d)}.$$
 
-The mapping space between two ind-bounded metric spaces is not strictly speaking an $\mathbb{R}_+$-graded set, but it may be seen as an ind-$\mathbb{R}_+$-graded set.
-Using that, one defines a natural adjunction between simplicial $\mathbb{R}_+$-graded sets and ind-bounded metric spaces, that will give a metric analog of the adjunction between simplicial sets and topological spaces. We use this adjunction to define a model structure on both sides, where the interval is given by the limit
+To get enough finite colimits, one needs to restrict to bounded proximetric spaces, and then, one may take an ind-pro or an ind-completion to get a good category of generalized metric spaces, i.e., a convenient setting for the development of a metric stable homotopy theory, based on the use of the interval
 $$[0,1]_\infty:=\lim_{t\to \infty}([0,1],d_\infty^t).$$
-Two elements inside this interval look like they are at distance zero, but this is not the case, because this limit has a Lipschitz map to $([0,1],d_\infty)$ which is given by the identity map... One must think of this limit as a kind of pro-object (even if it lives in an indization?). Once the interval is defined, one may define the metric simplex $\Delta^n$, and thus compute in the homotopy category of pseudo-metric spaces.
+Two elements inside this interval look like they are at distance zero, but this is not the case, because this limit has a Lipschitz map to $([0,1],d_\infty)$ which is given by the identity map... One must think of this limit as a pro-object. Once the interval is defined, one may define the metric simplex $\Delta^n$, and thus compute in the homotopy category of proxi-metric spaces.
+
+The aim of this normed/metrized stable homotopy theory is to develop topological cohomological invariants for normed rings.
 
 ## Related subjects
 
