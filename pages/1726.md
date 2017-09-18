@@ -33,7 +33,7 @@ $$
      \to Top
 $$
 
-which satisfies the condition of [[complete Segal space|Segal spaces]] -- te [[Segal condition]] (characterizing also [[nerves]] of [[categories]]) in each variable, in that all the squares
+which satisfies the condition of [[complete Segal space|Segal spaces]] -- the [[Segal condition]] (characterizing also [[nerves]] of [[categories]]) in each variable, in that all the squares
 
 $$
   \array{
