@@ -481,6 +481,7 @@ Accounts of the early history include the following:
 
 * [[Peter van Nieuwenhuizen]], _Aspects of supergravity_, 2014 ([pdf](http://media.scgp.stonybrook.edu/presentations/20140109_vanNieuwenhuizen.pdf))
 
+* [[Sergio Ferrara]], A. Sagnotti, _Supergravity at 40: Reflections and Perspectives_, Based in part on the talk delivered by S. F. at the "Infeld Colloquium and Discrete", in Warsaw, on December 1 2016, and on a joint CERN Courier article. Dedicated to [[John Schwarz]] on the occasion of his 75-th birthday ([arXiv:1702.00743](https://arxiv.org/abs/1702.00743))
 
 ### Related
 
