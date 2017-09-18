@@ -212,10 +212,10 @@ $$
   \begin{aligned}
   Z(g)
   & = 
-  \int \exp(- S(\phi)) \, D\phi
+  \frac{1}{Z_0}\int \exp(- S(\phi)) \, D\phi
   \\
   & \coloneqq
-  \frac{1}{Z}
+  \frac{1}{Z_0}
   \int \left(\exp(-\tfrac{1}{2} \sum_{x,y = 1}^k \phi_x A_{x y} \phi_y + g V(\phi)) \right)
   \, d\phi_1 \cdots d\phi_k
   \\
