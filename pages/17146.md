@@ -27,6 +27,8 @@ Via the [[Brown representability theorem]], the full [[Thom spectrum]] represent
 
 A more recent refinement of this statement is (the proof of)  the [[cobordism hypothesis]] which identified the ([[framed manifold|framed]]) [[(∞,n)-category of cobordisms]] as the free [[symmetric monoidal (∞,n)-category with duals]] on a single object.
 
+For more introduction see at _[[Introduction to Cobordism and Complex Oriented Cohomology]]_.
+
 [[!include cobordism theory -- contents]]
 
 ## References
@@ -54,6 +56,8 @@ Lecture notes include
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
  
 * {#Ebert12} [[Johannes Ebert]], _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf))
+
+* _[[Introduction to Cobordism and Complex Oriented Cohomology]]_
 
 This one here includes the connection to the [[(infinity,n)-category of cobordisms]]
 
