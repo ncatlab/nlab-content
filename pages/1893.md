@@ -268,7 +268,7 @@ This is originally due to [[Alexander Grothendieck]].
 ###### Example
 
 The [[equivariant elliptic cohomology]] at the [[Tate curve]]
-$Ell_[Tate}(X//G)$ is a $\lambda$-ring (and even an "elliptic $\lamnda$-ring").
+$Ell_{Tate}(X//G)$ is a $\lambda$-ring (and even an "elliptic $\lambda$-ring").
 
 =--
 
