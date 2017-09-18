@@ -85,3 +85,7 @@ The resulting localization is equivalent to the bicategory of [[anafunctor|anafu
 * M. Tommasini, _A bicategory of reduced orbifolds from the point of view of differential geometry_ , arXiv:1304.6959 (2013). ([pdf](http://arxiv.org/pdf/1304.6959))
 
 * M. Tommasini, _Some insights on bicategories of fractions I_ , arXiv:1410.3990 (2014). ([pdf](http://arxiv.org/pdf/1410.3990))
+
+* M. Tommasini, _Some insights on bicategories of fractions II_ , arXiv:1410.5075 (2014). ([pdf](http://arxiv.org/pdf/1410.5075))
+
+* M. Tommasini, _Some insights on bicategories of fractions III_ , arXiv:1410.3995 (2014). ([pdf](http://arxiv.org/pdf/1410.6395))
