@@ -164,12 +164,14 @@ There exists no [[superconformal]] extension of the [[super Poincaré Lie algebr
 
 =--
 
-This is due to ([Shnider 88](#Shnider88)), see also ([Nahm 78](#Nahm78)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)).
+This is due to ([Shnider 88](#Shnider88)), see also ([Nahm 78](#Nahm78)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)). See also the references at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
+
+
 
 +-- {: .proof #ProofOfClassificationOfSuperconformal}
 ###### Proof (sketch)
 
-By realizing the conformal real Lie algebra $\mathfrak{so}(\mathbb{R}^{d,2})$ as a real form of the complexified $\mathfrak{so}(\mathbb{C}^{d+2})$ one is reduced to finding those (finite dimensional) simple super Lie algebras over the complex numbers whose even-graded part extends $\mathfrak{so}(\mathbb{C}^{d+2})$ and such that the implied [[representation]] of that on the odd-graded part contains the [[spin representation]].
+By realizing the conformal real Lie algebra $\mathfrak{so}(\mathbb{R}^{d,2})$ as a real section of the complexified $\mathfrak{so}(\mathbb{C}^{d+2})$ one is reduced to finding those (finite dimensional) simple super Lie algebras over the complex numbers whose even-graded part extends $\mathfrak{so}(\mathbb{C}^{d+2})$ and such that the implied [[representation]] of that on the odd-graded part contains the [[spin representation]].
 
 The complex finite dimensional simple super Lie algebras have been classified, see at _[super Lie algebra -- Classification](super+Lie+algebra#Classification)_. By the tables shown there
 
