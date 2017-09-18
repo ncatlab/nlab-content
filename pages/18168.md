@@ -81,7 +81,7 @@ $$
   \,.
 $$
 
-In particular, since $X \backslash V_2$ is closed, this means that $Cl(V_1) \subset X \backslash(V_2)$.
+In particular, since $X \backslash V_2$ is closed, this means that $Cl(V_1) \subset X \backslash V_2$.
 
 Hence it only remains to observe that $V_1 \cup U_2 = X$, by definition of $V_1$.
 
@@ -194,7 +194,7 @@ $$
   \left(
     (J_1, \mathcal{V})
     \leq
-    (J_2, \mathcal{V})
+    (J_2, \mathcal{W})
   \right)
     \Leftrightarrow
   \left(
@@ -245,7 +245,7 @@ $$
   \,.
 $$
 
-We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \backslash J_x) \Rightarrow (i \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$. 
+We claim now that $\{W_i \subset X\}_{i \in I}$ thus defined is a cover of $X$. Because by assumption that $\{U_i \subset X\}_{i \in I}$ is locally finite, also all the $\{V_i \subset X\}_{i \in I}$ are locally finite, hence for every point $x \in X$ there exists a finite set $J_x \subset I$ such that $(i \in I \backslash J_x) \Rightarrow (x \notin U_i)$. Since $(T,\leq)$ is a total order, it must contain an element $(J, \mathcal{V})$ such that $J_x \cap K \subset J$. Since that $\mathcal{V}$ is a cover, it follows that $x \in \underset{i \in I}{\cup} V_i$, hence in $\underset{i \in I}{\cup} W_i$. 
 
 This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by construction that it is an upper bound for $(T ,\leq )$. Hence we have shown that every [[chain]] in $(S,\leq)$ has an upper bound, and so Zorn's lemma implies the claim.
 
@@ -255,6 +255,7 @@ This shows that $(K,\mathcal{W})$ is indeed an element of $S$. It is clear by co
 
 ## References
 
+The above account follows
 
 * [[Matt Rosenzweig]], _[General shrinking lemma for normal spaces](https://matthewhr.wordpress.com/2014/06/11/general-shrinking-lemma-for-normal-spaces/)_
 
