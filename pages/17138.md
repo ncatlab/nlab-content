@@ -15,6 +15,8 @@
 
 ## Introduction
 
+### Stable homotopy theory
+
 We discuss [[spectra]] in the sense of [[algebraic topology]]: the proper generalization of [[abelian groups]] to [[homotopy theory]]. Since these are universally characterized as being the [[stabilization]] of plain [[homotopy types]] under [[looping and delooping]], one speaks of _[[stable homotopy theory]]_.
 
 $$
@@ -22,6 +24,8 @@ $$
   \underoverset{(linearization)}{stabilization}{\mapsto}
   Spectra
 $$
+
+### Adams-Novikov spectral sequences
 
 Since spectra are considerably richer than abelian groups, stable homotopy is much concerned with "[[fracture theorem|fracturing]]" stable homotopy types into more tractable components:
 
@@ -41,20 +45,26 @@ $$
 
 Therefore the study of spectra "[[fracture theorem|fractures]]" into the various [[localizations]] and [[formal completions]] of $Spec(S)$. Since this is like the white light of $Spec(S)$ decomposing into various wavelengths, one speaks of _[[chromatic homotopy theory]]_. 
 
-In particular, any  [[E-∞ ring]] $E$ is [[formal dual|dually]] a morphism of $E_\infty$-algebraic spaces $Spec(E) \longrightarrow Spec(\mathbb{S})$ and under good conditions the [[1-image]] of this map is the [[formal dual]] of the [[Bousfield localization of spectra]] of $\mathbb{S}$ at $E$:
+In particular, an  [[E-∞ ring]] $E$ is [[formal dual|dually]] a morphism of $E_\infty$-algebraic spaces $Spec(E) \longrightarrow Spec(\mathbb{S})$ and under good conditions the [[1-image]] of this map is the formal dual of the [[formal completion]] at $E$:
 
 $$
-  Spec(E) \stackrel{epi_1}{\longrightarrow} Spec(L_E \mathbb{S}) \stackrel{mono_1}{\longrightarrow} Spec(\mathbb{S})
+  Spec(E) \stackrel{epi_1}{\longrightarrow} Spec(\mathbb{S}_E^\wedge) \stackrel{mono_1}{\longrightarrow} Spec(\mathbb{S})
  \,.
 $$
 
-This means that $Spec(E) \longrightarrow Spec(L_E \mathbb{S})$ is a [[cover]] and that hence $E$-local spectra are equivalently [[quasicoherent ∞-stacks]] on $Spec(E)$ equipped with [[descent data]]: [[formal dual|dually]] they are [[∞-modules]] over $E$ equipped with [[comodule]] structure over the [[Hopf coalgebroid] ([[Sweedler coring]]) $E \otimes_{\mathbb{S}} E$.
+This means that $Spec(E) \longrightarrow Spec(\mathbb{S}_E^\wedge)$ is a [[cover]] and that hence $E$-local spectra are equivalently [[quasicoherent ∞-stacks]] on $Spec(E)$ equipped with [[descent data]]: [[formal dual|dually]] they are [[∞-modules]] over $E$ equipped with [[comodule]] structure over the [[Hopf algebroid]] ([[Sweedler coring]]) $E \otimes_{\mathbb{S}} E$.
 
 The computation of [[homotopy groups]] of spectra that make use of their decomposition this way into $E$-[[∞-modules]] equipped with [[descent]] data is the _$E$-[[Adams spectral sequence]]_, a central tool of the theory.
+
+### Geometry over $Spec(\mathbb{S})$
 
 For this reason special importance is carried by those [[E-∞ rings]] such that $Spec(E) \to Spec(\mathbb{S})$ is already a [[covering]], for these the $E$-[[∞-modules]] equipped with descent data give an equivalent, but in general more tractable, incarnation of the stable homotopy theory of spectra.
 
 Curiously, a good bit of [[differential geometry]] and of structures known from [[physics]] arises within the abstract stable homotopy theory this way: the archetypical $Spec(E)$ which covers $Spec(\mathbb{S})$ is $E = $ [[MU]], the [[Thom spectrum]] for [[complex vector bundles]].
+
+Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the [[moduli stack of formal groups]] $\mathcal{M}_{fg}$. This in turn naturally admits a [[stratification]] by the [[height of formal groups]]. 
+
+[[!include chromatic tower examples - table]]
  
 
 ## **1)** Stable homotopy theory
@@ -246,9 +256,9 @@ $$
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #StandardEResolution}
 ###### Example
-**(standatd resolution)**
+**(standard resolution)**
 
 Consider the augmented [[cosimplicial object|cosimplicial]] which is the $\mathbb{S} \to E$-[[Amitsur complex]] [[smash product of spectra|smashed]] with $X$:
 
@@ -338,7 +348,7 @@ Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-A
 
 #### $E$-Adams spectral sequence
 
-+-- {: .num_defn}
++-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
 
 Given an $E$-Adams tower as in  def. \ref{EAdamsTower}, the associated [[exact couple]] is
@@ -388,10 +398,97 @@ $$
   \,.
 $$
 
-
+The $E$-Adams spectral sequence of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
 
 =--
 
++-- {: .num_prop #UniquenessOfEAdamsSpectralSequence}
+###### Proposition
+
+Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corresponding two $E$-Adams spectral sequences, def. \ref{EAdamsSpectralSequence}, are [[isomorphism|isomorphic]] from the $\mathcal{E}_2$-page on
+
+=--
+
+#### The $\mathcal{E}_1$-term and Hopf algebroid structure
+
+Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}
+we may focus attention on the standard $E$-resolution, def. \ref{StandardEResolution}.
+
+For this one gets
+
+$$
+  \mathcal{E}_1^{s,\bullet}
+  \simeq
+  \pi_\bullet(E^{\wedge (s+1)}\wedge X )
+  \,.
+$$
+
++-- {: .num_defn #FlatE}
+###### Definition
+
+Call the [[ring spectrum]] $E$ _flat_ if
+
+$$
+  \eta_L,\eta_R \colon E_\bullet \longrightarrow E_\bullet(E)
+$$
+
+is a [[flat morphism]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ flat, def. \ref{FlatE}, then
+$(E_\bullet, E_\bullet(E))$ is canonically a [[Hopf algebroid]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ flat, def. \ref{FlatE}, the canonical map
+
+$$
+  E_\bullet(E^{\wedge n}) \otimes_{\pi_\bullet} E_\bullet(X)
+  \longrightarrow
+  \pi_\bullet(E^{\wedge^{(n+1)}}\wedge X  )
+$$
+
+is an [[isomorphism]].
+
+=--
+
+#### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ flat, def. \ref{FlatE}, then the $\mathcal{E}_2$-page
+of any $E$-Adams spectral sequence over $X$ is
+
+$$
+  \mathcal{E}^{s,t}_\bullet
+  \simeq
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
+  \,,
+$$
+
+where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[Ext]]-functor in the category of $\Gamma$-[[comodules]].
+
+=--
+
+#### Convergence and $E$-completion
+
+... convergence conditionally to $\pi_\bullet(\underset{\longrightarrow}{\lim} E^{\wedge^n} \wedge X$)...
+
+#### The case $E = H \mathbb{F}_p$
+
+(...)
+
+#### The case $E = MU$
+
+(...)
 
 
 ## **3)** Geometry over $Spec(\mathbb{S})$
