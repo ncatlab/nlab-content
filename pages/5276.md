@@ -13,6 +13,8 @@ This was found and discussed in the context of [[string theory]] but the phenome
 
 * [[conifold tansition]]
 
+* [[moduli space of Calabi-Yau spaces]]
+
 ## References
 
 A survey is in
@@ -22,5 +24,10 @@ A survey is in
 A rough and brief survey of the flop transition and related phenomena with many pointers to original literature is also given in
 
 * [[Brian Greene]], _Aspects of collapsing cocycles_ ([ps](cdsweb.cern.ch/record/475955/files/0011059.ps.gz))
+
+See also
+
+* [[Shing-Tung Yau]], _[Moduli of high dimensional Calabi-Yau manifolds](http://www.scholarpedia.org/article/Calabi-Yau_manifold#Moduli_of_high_dimensional_Calabi-Yau_manifolds)_
+
 
 [[!redirects flop transitions]]
