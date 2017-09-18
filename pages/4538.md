@@ -513,6 +513,8 @@ F_{*}(X) \to \Hom^{*}_{E^{*}}(E^{*}(X), F_{*}).
 $$
 =--
 
+(also e.g. [Schwede 12, prop. 6.20](#Schwede12))
+
 A particularly important special case of these statements is when we have a [[topological space]], say $Y$, and a [[cohomology theory]], $E^{*}(-)$. Then we define a new homology theory $F_{*}(-)$ by $F_{*}(X) = E_{*}(X \wedge Y)$ and a new cohomology theory $G^{*}(-)$ by $G^{*}(X) = E^{*}(X \wedge Y)$. These are representable, the homology theory by $Y \wedge E$ and the cohomology theory by the function spectrum $F(Y,E)$. Putting these into the statements of the universal coefficient theorem, we obtain similar statements for the [[Künneth theorem]].
 
 +-- {: .num_kt #kta .thremark }
@@ -722,13 +724,13 @@ The note
 
 surveys and spells out statement and proof of the theorem. A detailed proof of the theorem in cohomology is also in 
 
-* [[Michael Boardman]], _The universal coefficient theorem_ ([pdf](http://www.math.jhu.edu/~jmb/note/uctcoh.pdf))
- {#Boardman}
+* {#Boardman} [[Michael Boardman]], _The universal coefficient theorem_ ([pdf](http://www.math.jhu.edu/~jmb/note/uctcoh.pdf))
+ 
 
 and a detailed proof of the statement in homology is in section 3 of
 
-* Chen, _Universal coefficient theorem for homology_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/ChenJ.pdf))
- {#Chen}
+* {#Chen} Chen, _Universal coefficient theorem for homology_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/ChenJ.pdf))
+ 
 
 
 ### For generalized (co)homology
@@ -755,6 +757,10 @@ More on the universal coefficient theorem in generalized homology is in:
 * {: #Boa95} **Boa95** [[J. M. Boardman]],  (1995). Stable operations in generalized cohomology. (pp. 585&ndash;686). Amsterdam: North-Holland.
 
 * {: BJW95} **BJW95** [[J. M. Boardman]], and Johnson, David Copeland and Wilson, W. Stephen. (1995). Unstable operations in generalized cohomology. (pp. 687&ndash;828). Amsterdam: North-Holland.
+
+See also
+
+* {#Schwede12} [[Stefan Schwede]], prop. 6.20 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 Further discussion along these lines includes
 
