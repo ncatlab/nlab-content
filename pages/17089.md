@@ -333,8 +333,10 @@ Comprehesive survey and exposition of this situation is in
 
 * [[Urs Schreiber]], _[[schreiber:Higher Prequantum Geometry]]_, in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[New Spaces for Mathematics and Physics](https://ncatlab.org/nlab/show/New+Spaces+for+Mathematics+and+Physics)_, 2016
 
-#### In double field theory
+#### In double field theory[
 
 In [[double field theory]]:
 
 * [[Andreas Deser]], [[Jim Stasheff]], _Even symplectic supermanifolds and double field theory_, Communications in Mathematical Physics November 2015, Volume 339, Issue 3, pp 1003-1020 ([arXiv:1406.3601](http://arxiv.org/abs/1406.3601))
+
+* [[Olaf Hohm]], [[Barton Zwiebach]], _$L_\infty$ Algebras and Field Theory_ ([arXiv:1701.08824](https://arxiv.org/abs/1701.08824))
