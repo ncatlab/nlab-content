@@ -13,5 +13,7 @@ Nicola Gambino is associate professor of [[mathematics]] at Leeds.
 
 * [[higher inductive type]], [[initial algebra over an endofunctor]], [[W-types]]
 
+* [[software verification]]
+
 category: people
 [[!redirects N. Gambino]]
