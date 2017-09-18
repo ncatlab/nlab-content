@@ -91,7 +91,7 @@ If the braiding in def. \ref{BraidedMonoidalCategory} "squares" to the identity 
 +-- {: .num_remark} 
 ###### Remark
 
-Intuitively speaking, the first hexagon identity in def. \ref{BraidedMonoidalCategory} says that we may braid $x \otimes y$ past $z$ all at once or in two steps.  The second hexagon identity says we may braid $x$ past $y \otimes z$ 'all at once' or in two steps.
+Intuitively speaking, the first hexagon identity in def. \ref{BraidedMonoidalCategory} says we may braid $x$ past $y \otimes z$ 'all at once' or in two steps. The second hexagon identity says that we may braid $x \otimes y$ past $z$ all at once or in two steps.  
 
 =--
 
@@ -190,7 +190,7 @@ For a review of definitions of braided monoidal categories, braided monoidal fun
 * [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
 
 For an elementary introduction to braided monoidal categories using [[string diagram]]s, see:
-
+Eventually we should include all these diagrams here, along with the definition of braided monoidal functor and braided monoidal natural transformation! Can anyone help out?
 * [[John Baez]] and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf), to appear in _New Structures in Physics_, ed. Bob Coecke. 
 
 +--{.query}
