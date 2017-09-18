@@ -1,5 +1,5 @@
 
-> This page is about object classifier objects in [[(∞,1)-toposes]]. For the unnrelated notion of the [[classifying topos]] of the [[theory of objects]] see at _[[classifying topos for the theory of objects]]_.
+> This page is about object classifier objects in [[(∞,1)-toposes]]. For the unrelated notion of the [[classifying topos]] of the [[theory of objects]] see at _[[classifying topos for the theory of objects]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -43,7 +43,7 @@ In terms of [[homotopy type theory]] these object classifiers are _[[types of ty
 +-- {: .num_remark #ReflectonOnCharacterizationByObjectClassifier}
 ###### Remark
 
-An [[object classifier]] is a (small) _self-reflections_ of the $\infty$-topos inside itself ([[type of types]], internal [[universe]]). See also ([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
+An [[object classifier]] is a (small) _self-reflection_ of the $\infty$-topos inside itself ([[type of types]], internal [[universe]]). See also ([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
 
 =--
 
