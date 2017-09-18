@@ -1318,7 +1318,7 @@ $$
   \,.
 $$
 
-It is now sufficient to show that any such $\kappa'$ may be deformed tho a $\rho'$ which keeps making this upper triangle commute but also makes the remaining lower triangle commute.
+It is now sufficient to show that any such $\kappa'$ may be deformed to a $\rho'$ which keeps making this upper triangle commute, but also makes the remaining lower triangle commute.
 
 To that end, notice that by the commutativity of the original square, we already have at least this commuting square:
 
@@ -1333,7 +1333,7 @@ $$
   \,.
 $$
 
-This induces the universal map from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (see [this](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself) example):
+This induces the universal map $(\kappa,f \circ \kappa')$ from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (see [this](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself) example):
 
 $$
   \array{
@@ -1436,19 +1436,9 @@ $$
   \,.
 $$
 
-Finally, we may conclude by showing that in every situation like this, we may further deform the lift such as to make the diagram genuinely commute.
-
-(...)
-
-...use remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions} to build a deformation...
-
-(...)
+Finally, we may conclude by showing that in every situation like this, we may further deform the lift such as to make the diagram genuinely commute. This works by the same argument as in the proof of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}.
 
 =--
-
-
-=--
-
 
 
 
