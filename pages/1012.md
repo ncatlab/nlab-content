@@ -17,11 +17,11 @@
 
 An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] (or an element of a [[monoid]]) is another morphism $f^{-1} : Y \to X$ which is both a left-inverse (a [[retraction]]) as well as a right-inverse (a [[section]]) of $f$, in that 
 $$
-  f \circ f^{-1} : Y \to X \to Y 
+  f \circ f^{-1} : Y \to Y 
 $$
 equals the [[identity morphism]] on $Y$ and
 $$
-  f^{-1} \circ f : X \to Y \to X 
+  f^{-1} \circ f : X \to X 
 $$
 equals the [[identity morphism]] on $X$.
 
