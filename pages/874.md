@@ -148,7 +148,7 @@ This principle continues to hold even for *infinitary* products, where the corre
 
 * If $D$ has products and $i: C \hookrightarrow D$ is a *[[coreflective subcategory|coreflective]]* subcategory, where $i$ has a right adjoint (co-reflector) $r$, then products in $C$ can be formed by taking products in $D$ and then applying $r$. 
 
-  * For example, the category $CG$ of [[compactly generated spaces]] is coreflective in [[Top]]. The product in $CG$ does not coincide in general with the topological product. 
+  * For example, the category $CG$ of [[compactly generated spaces]] is coreflective in [[Top]]. The product in $CG$ does not coincide in general with the topological product: one may have to add to the product topology still more sets, just enough to ensure that the topology is compactly generated. 
 
 * Products in $C^{op}$ are given by [[coproducts]] in $C$. 
 
@@ -159,7 +159,7 @@ This principle continues to hold even for *infinitary* products, where the corre
 * Relative to a [[symmetric monoidal category]] $C$ with monoidal product $\otimes$, products in the category of [[cocommutative comonoids]] are given by the tensor product $X \otimes Y$ in the underlying smc category. 
 
   * For instance, this is how products of [[cocommutative coalgebras]] are formed. This applies for instance to cocommutative [[Hopf algebras]]. 
-  * In a [[cartesian bicategory]] such as $Rel$, the accompanying category of objects and *maps* (= left adjoint 1-cells) coincides with the category of cocommutative comonoids and comonoid maps between them (which is $Set$ in the case of $Rel$. Thus the usual tensor product in $Rel$ coincides with the cartesian product in $Set$. 
+  * In a [[cartesian bicategory]] such as $Rel$, the accompanying category of objects and *maps* (= left adjoint 1-cells) coincides with the category of cocommutative comonoids and comonoid maps between them (which is $Set$ in the case of $Rel$). Thus, at the level of objects, the usual tensor product in $Rel$ coincides with the cartesian product in $Set$. 
 
 * For categories $C$ enriched in the category of [[commutative monoids]], finite products are [[biproducts]] and hence coincide with coproducts in a controlled fashion (via [[matrices]]). However, this is usually not the case for infinite products. For such examples, finite products are [[absolute limits]]. 
 
