@@ -130,3 +130,6 @@ This last property, of course, implies that $S$ is irreflexive.
 
 [[!redirects planar tree]]
 [[!redirects planar trees]]
+
+[[!redirects rooted tree]]
+[[!redirects rooted trees]]
