@@ -1,8 +1,8 @@
 In a [[partial order|poset]] or even [[preorder|proset]], the __down set__ of an element $x$ is the set
-$$ x{\downarrow} = \{ y \;|\; x \leq y \} .$$
+$$ x{\downarrow} = \{ y \;|\; y \leq x \} .$$
 
 In a [[quasiorder]], the __strict down set__ of $x$ is the set
-$$ x\dot{\downarrow} = \{ y \;|\; x \lt y \} .$$
+$$ x\dot{\downarrow} = \{ y \;|\; y \lt x \} .$$
 
 If you think of a poset $P$ as a [[category]], then the down set of $x$ is the [[coslice category]] $x / P$.
 
