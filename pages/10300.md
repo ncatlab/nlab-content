@@ -17,6 +17,7 @@ A **projective plane** consists of
 
 satisfying the following axioms:
 
+* there exist at least one point and at least one line
 * every pair of distinct points lies on exactly one line
 * every pair of distinct lines meet in exactly one point
 * every line has at least three points
@@ -53,5 +54,9 @@ In any projective plane, we can define a "scalar" to be an ordered set of four c
 
 If Desargues' theorem fails, then we can still construct a sort of algebraic structure on the scalars, called a [[ternary ring]], which suffices to reconstruct our plane.  However, distinct ternary rings can give rise to isomorphic projective planes, in contrast to the situation for fields and division rings.
 
+## Related pages
+
+* [[projective 3-space]]
+* [[projective line]]
 
 [[!redirects projective planes]]
