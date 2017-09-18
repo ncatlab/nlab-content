@@ -411,7 +411,9 @@ See also
 
 * [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014)
 
+### History
 
+* {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](http://ymsc.tsinghua.edu.cn:8090/strings/slides/8.1/Schwarz.pdf))
 
 
 [[!redirects string theories]]
