@@ -170,6 +170,9 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 [[!redirects sub-basis for a topology]]
 [[!redirects sub-bases for a topology]]
 
+[[!redirects sub-base of a topology]]
+[[!redirects sub-bases of a topology]]
+
 [[!redirects subbases for a topology]]
 [[!redirects subbases for topologies]]
 [[!redirects subbase of a topology]]
