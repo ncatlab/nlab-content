@@ -9487,7 +9487,7 @@ If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a
 =--
 
 The following characterization of closed embeddings uses concepts
-of (locally) compact spaces discussed [below](#CompactSpaces). The reader may wish to 
+of (locally) compact spaces discussed [below](#CompactSpaces). The reader may wish to
 skip the following and only compact back to it in the discussion of
 [[embeddings of smooth manifolds]] [further bellow](#Embeddings) in prop. \ref{ProperInjectiveImmersionsAreEquivalentlyTheClosedEmbeddings}.
 
@@ -17464,7 +17464,7 @@ is...
 ###### Definition
 **([[embedding of smooth manifolds]])**
 
-An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hookrightarrow Y$ 
+An _[[embedding]] of [[smooth manifolds]]_ is a [[smooth function]] $f : X \hookrightarrow Y$
 between [[smooth manifolds]] $X$ and $Y$ (def. \ref{DifferentiableManifold}) such that
 
 1. the underlying [[continuous function]] is an [[embedding of topological spaces]] (def. \ref{EmbeddingOfTopologicalSpaces});
@@ -17493,10 +17493,10 @@ at the points where it just touches itself, the pre-images under $f$ of open sub
 <img src="https://ncatlab.org/nlab/files/Figure8Immersion.png" width="400">
 </div>
 
-As a concrete examples, consider the function  
+As a concrete examples, consider the function
 
 $$
-  \phi  
+  \phi
    \coloneqq
   (sin(2-), sin(-)) \;\colon\; (-\pi, \pi) \longrightarrow \mathbb{R}^2
   \,.
@@ -17505,7 +17505,7 @@ $$
 While this is an immersion and [[injective]], it fails to be an embedding due to the points at $t = \pm \pi$ "touching" the point at $t = 0$:
 
 Every open neighbourhood in  $\mathbb{R}^2$ which contains the origin $(0,0)$ also contains the image
-$\phi( (-\pi , -\pi + \epsilon) \sqcup (\pi-\epsilon, \pi) )$ for some $\epsilon$ and hence in the 
+$\phi( (-\pi , -\pi + \epsilon) \sqcup (\pi-\epsilon, \pi) )$ for some $\epsilon$ and hence in the
 subspace topology on $(-\pi,\pi) \hookrightarrow \athbb{R}^2$ none of the intervals $(-\delta, \delta) \subset (-\pi,\pi)$
 is open, contrary to the actual Euclidean topolgy on $(-\pi,\pi)$.
 
@@ -17570,7 +17570,7 @@ not of interest. Here is one of many ways to obtain examples:
 ###### Example
 **(a class of [[bump functions]])**
 
-For every [[closed ball]] $B_{x_0}(\epsilon) = \{x \in \mathbb{R}^n \,\vert\, {\Vert x - x_0 \Vert} \leq \epsilon\} \subset \mathbb{R}^n$ 
+For every [[closed ball]] $B_{x_0}(\epsilon) = \{x \in \mathbb{R}^n \,\vert\, {\Vert x - x_0 \Vert} \leq \epsilon\} \subset \mathbb{R}^n$
 (def. \ref{OpenBalls})
 there exists a bump function $b \colon \mathbb{R}^n \to \mathbb{R}$ (def. \ref{BumpFunction}) with [[support]]
 $Supp(b) \coloneqq Cl\left( b^{-1}( (0,\infty) ) \right)$ being that closed ball:
@@ -17690,7 +17690,7 @@ Finally the function $x \mapsto \phi_\varepsilon(x-x_0)$ has support the closed 
 
 =--
 
-We want to say that a smooth manifold admits subordinate partitions of unity by bump functions (prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity} below). To that end we first need to see that 
+We want to say that a smooth manifold admits subordinate partitions of unity by bump functions (prop. \ref{SmoothManifoldAdmitsSmoothPartitionsOfUnity} below). To that end we first need to see that
 it admits refinemens of covers by closed balls.
 
 
@@ -17734,7 +17734,7 @@ $$
   \right\}
 $$
 
-be a smooth [[atlas]] representing the [[smooth structure]] on $X$ (def. \ref{SmoothStructure}) 
+be a smooth [[atlas]] representing the [[smooth structure]] on $X$ (def. \ref{SmoothStructure})
 (hence an [[open cover]] by patches which are [[diffeomorphism|diffeomorphic]] to standard [[Euclidean space]]). The [[intersections]]
 
 $$
@@ -17781,7 +17781,7 @@ This shows the statement for $X$ compact.
 Now for general $X$, notice that without restriction we may assume that $X$ is [[connected topological space|connected]]
 (def. \ref{ConnectedTopologicalSpace}), for if it is not, then we obtain the required refinement on all of $X$ by finding one on each [[connected component]] (def. \ref{ComponentsConnected}), and so we are immediately reduced to the connected case.
 
-But, by the proof of prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}, if a 
+But, by the proof of prop. \ref{RegularityConditionsForTopologicalManifoldsComparison}, if a
 locally Euclidean paracompact Hausdorff space $X$ is connected, then it is [[sigma-compact topological space|sigma-compact]] and in fact admits a countable increasing exhaustion
 
 $$
@@ -17804,7 +17804,7 @@ $$
   X
 $$
 
-which canonically inherits the structure of a smooth manifold 
+which canonically inherits the structure of a smooth manifold
 by example \ref{OpenSubsetsOfDifferentiableManifoldsAreDifferentiableManifolds}. As above we find a refinement of the restriction of $\{U_i \subset X\}_{i \in I}$ to this open subset by closed balls and since the further subspace $K_{n+1}\setminus K_n$ is still compact (example \ref{UnionsAndIntersectionOfCompactSubspaces}) there is a finite set $L_n$ such that
 
 $$
@@ -17832,7 +17832,7 @@ is a refinement by closed balls as required. Its local finiteness follows by the
 ###### Proposition
 **([[smooth manifolds]] admit [[smooth function|smooth]] [[partitions of unity]])**
 
-Let $X$ be a [[smooth manifold]] (def. \ref{DifferentiableManifold}). Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}) by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$ 
+Let $X$ be a [[smooth manifold]] (def. \ref{DifferentiableManifold}). Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate [[partition of unity]] (def. \ref{PartitionOfUnity}) by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$
 which are _[[smooth functions]]_.
 
 =--
@@ -17997,27 +17997,20 @@ $$
   \,.
 $$
 
-But while this is injective, it need not be an [[immersion]], since the [[derivatives]] of the product functions $f_i \cdot \psi_i$ may vanish. However this is readily fixed by adding yet more ambient coordinates and considering the function
+This function is an immersion: On the interior of the support of the bump functions 
+the product functions $f_i\cdot \psi_i$ have smooth inverses $\tfrac{\psi_i^{-1}}{f_i}$
+and therefore their differentials have vanishing kernel.
 
-$$
-  (\hat \psi_i, f_i)_{i \in I}
-  \;\colon\;
-  X
-    \longrightarrow
-  \left(\mathbb{R}^{n+1} \right)^{\vert J \vert}
-  \simeq
-  \mathbb{R}^{(n+1)\cdot {\vert J \vert}}
-  \,.
-$$
+Hence it remains to see that the function is also an [[embedding of topological spaces]].
 
-By exmple \ref{SomeBumpFunctions} the derivative of $f_j$ is non-vanishing on the interior of the support of $f_j$, and 
-by nature of partitions of unity, the interior of the supports of all these functions cover $X$. This means that 
-at every point of $x$ at least one of the $f_j$ has a non-vanishing derivative, and hence the derivative of the 
-function $(\hat \psi_i, f_i)_{i \in I}$ is non-vanishing.
+Observe that it is an injective function: If two points $x,y \in X$ have the same image,
+this means that they have the same image under all the $f_i \cdot \psi_i$. But where these 
+are non-vanishing, they are bijective. Moreover, since their supports cover $X$, not all of
+them vanish on $x$ and $y$. Therefore $x$ and $y$ must be the same.
 
-This shows that this function is an immersion. Hence it remains to see that it is also an [[embedding of topological spaces]].
-
-By prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} it is sufficient to see that the injective continuous function is a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since
+Hence we have an injective immersion. 
+With this prop. \ref{OpenClosedContinuousInjectionsAreEmbeddings} says that it is now sufficient 
+to show that we also have a [[closed map]]. But this follows generally since $X$ is a [[compact topological space]] by assumption, and since
 [[Euclidean space|Euclidean]] [[metric space]] is a [[Hausdorff topological space]] (example \ref{HausdorffMetricSpace}), and since [[maps from compact spaces to Hausdorff spaces are closed and proper]] (prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed}).
 
 =--
