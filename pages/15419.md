@@ -10,7 +10,7 @@
 +--{: .hide}
 [[!include analytic geometry -- contents]]
 =--
-#### Complex geometryg
+#### Complex geometry
 +--{: .hide}
 [[!include complex geometry - contents]]
 =--
