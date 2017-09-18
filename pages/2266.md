@@ -20,7 +20,7 @@ q\downarrow\uparrow t & & p\downarrow\uparrow s\\
 J&\stackrel{v}\to & I
 }$$
  
-The __fibration of points__ is the codomain-assigning functor $\pi:Pt(C)\to C$, $\pi:(p:X\leftrightarrow I:s)\to I$, $(u,v)\mapsto u$. It is a [[fibered category]] in the sense of Grothendieck. Its fibers are the $Pt_I(C)$ which are (as mentioned above) pointed and finitely complete. 
+The __fibration of points__ is the codomain-assigning functor $\pi:Pt(C)\to C$, $\pi:(p:X\leftrightarrow I:s)\to I$, $(u,v)\mapsto v$. It is a [[fibered category]] in the sense of Grothendieck. Its fibers are the $Pt_I(C)$ which are (as mentioned above) pointed and finitely complete. 
 A morphism $(u,v)$ (in notation as above) is [[cartesian morphism|cartesian]] iff $q,u,p,v$ are the sides of a [[pullback square]] in $C$ (i.e. $q$ is a pullback of $p$ along $v$ and $u$ a pullback of $v$ along $p$). The inverse image functor for this fibration is exactly described by the rule $v\mapsto v^*$ above. 
 
 
