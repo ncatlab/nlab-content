@@ -336,6 +336,10 @@ and section 5.4.1 of
 * [[Boris Tsygan]], _Noncommutative calculus and operads_ in 
 Guillermo Cortinas (ed.) _Topics in Noncommutative geometry_, Clay Mathematics Proceedings volume 16
 
+The generalization to [[(infinity,n)-modules]] is in 
+
+* {#Haugseng14} [[Rune Haugseng]], _The higher Morita category of $E_n$-algebras_ ([arXiv:1412.8459](http://arxiv.org/abs/1412.8459))
+
 
 [[!redirects (infinity,1)-bimodules]]
 
