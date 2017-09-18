@@ -122,7 +122,7 @@ A [[diagram]] $X_\bullet$ in a [[category] is
 1. for every [[pair]] $(i,j) \in I \times I$ of labels of objects a [[set]]
    $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[morphisms]] between these objects;
   
-1. for each [[triple]] $i,j,k \in I$ [[function]]
+1. for each [[triple]] $i,j,k \in I$ a [[function]]
 
    $$
      comp_{i,j,k} \;\colon\; I_{i,j} \times I_{j,k} \longrightarrow I_{i,k}
@@ -132,7 +132,7 @@ such that
 
 1. for every $i \in I$ the [[identity morphisms]] $id_{X_i} \colon X_i \to X_i$ is part of the diagram;
 
-1. $comp$ is [[associativity|associtive]] and [[unital]] in the evident sense,
+1. $comp$ is [[associativity|associative]] and [[unital]] in the evident sense,
 
 1. for every composable pair of morphisms 
 
