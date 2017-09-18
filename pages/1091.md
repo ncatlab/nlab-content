@@ -104,7 +104,7 @@ The ([[comonad|co-]])[[monads]] induced by the [[adjoint triple]] in prop. \ref{
 
 * $f_\ast f^\ast$ is also called the [[function monad]] (or "[[reader monad]]", see at _[[monad (in computer science)]]_).
 
-* in [[modal type theory]] $f^\ast f_\ast$ is _[[necessity]]_ while $f_! f^\ast$ is _[[possibility]]_.
+* in [[modal type theory]] $f^\ast f_\ast$ is _[[necessity]]_ while $f^\ast f_!$ is _[[possibility]]_.
 
 =--
 
