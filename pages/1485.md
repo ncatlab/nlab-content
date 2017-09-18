@@ -169,7 +169,7 @@ Every coreflexive morphism $r \leq 1_X$ in $Reg$ [[retract|splits]]: there is a 
 $$Ext(r) \overset{id}{\leftarrow} Ext(r) \overset{i}{\to} X,$$
 whose opposite $i^op: X \to Ext(r)$ also belongs to $Reg$ (that is, $i$ is an open embedding), and the equations
 $$i^{op} \circ i = 1_{Ext(r)} \qquad i \circ i^{op} = r$$
-hold. The object $Ext(r)$ may be called the _extension_ of $r$. This splitting is a kind of comprehension principle familiar from the theory of [[allegory|allegories]], among other things.
+hold. The object $Ext(r)$ may be called the _extension_ of $r$. This splitting is a kind of [[comprehension principle]] familiar from the theory of [[allegory|allegories]], among other things.
 
 A **cartology** is a (locally [[full subcategory|full]]) subbicategory $i: C \hookrightarrow Reg$ such that
 
