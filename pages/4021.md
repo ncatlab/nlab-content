@@ -145,5 +145,9 @@ Discussion from a perspective of [[formal logic]]/[[type theory]] is in
 
 * {#Toronto14} [[Neil Toronto]], _Useful Languages for Probabilistic Modeling and Inference_, PhD Thesis, 2014 ([pdf](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss.pdf), [slides](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss-slides.pdf))
 
+[[Mikhail Gromov]] on possible generalizations/modifications of probability theory (especially probability theory seen as, fundamentally, a ""functor" from a "complex category" to a "simple category""), as well as applications of probability within and without pure mathematics:
+
+* _Probability, symmetry, linearity. (six lectures)_. IHES, Nov 2014. ([videos](https://www.youtube.com/watch?v=aJAQVletzdY)) ([pdf](http://www.ihes.fr/~gromov/PDF/probability-huge-Lecture-Nov-2014.pdf)).
+
 [[!redirects probability]]
 [[!redirects probabilities]]
