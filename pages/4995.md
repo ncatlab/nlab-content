@@ -27,7 +27,7 @@
 
 A _cohesive $(\infty,1)$-topos_ is a [[big topos|gros]] [[(∞,1)-topos]] $\mathbf{H}$ that provides a context of generalized [[spaces]] in which [[higher geometry]] makes sense, in particular [[higher differential geometry]]. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
 
-Technically, it is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $coDisc$: 
+Technically, it is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $coDisc$: 
 
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd
@@ -107,7 +107,7 @@ the [[global section]] [[(∞,1)-geometric morphism]] $\Gamma : \mathbf{H} \to \
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : 
   \mathbf{H}
-   \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}
+   \stackrel{\stackrel{\overset{\Pi}{\longrightarrow}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}
   \infty Grpd
   \;
 $$
@@ -129,9 +129,9 @@ $$
   )
   :
   \mathbf{H}
-    \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{\Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{\Disc}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}}}
   \infty Grpd
-   \stackrel{\overset{Disc}{\to}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}}
+   \stackrel{\overset{Disc}{\longrightarrow}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\longrightarrow}}}
   \mathbf{H}
   \,.
 $$
@@ -170,7 +170,7 @@ We say **discrete objects are concrete** in $\mathbf{H}$ if for all
 $S \in $[[∞Grpd]] the morphism
 
 $$
-  Disc S \to coDisc \Gamma Disc S \stackrel{\simeq}{\to} coDisc S
+  Disc S \to coDisc \Gamma Disc S \stackrel{\simeq}{\longrightarrow} coDisc S
 $$
 
 induces [[monomorphism]]s on all [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]].
@@ -198,6 +198,20 @@ In the example of [[smooth ∞-groupoid|smooth cohesion]] and its variants such 
 
 =--
 
+Another extra axiom is (see at _[[Aufhebung]]_ for more):
+
++-- {: .num_defn #AufhebungOfBecoming}
+###### Definition
+
+Say that a cohesive $\infty$-topos, def. \ref{CohesiveInfinTopos}, has _[[Aufhebung]] of [[becoming]]_ if the [[sharp modality]]  preserves the [[initial object]]
+
+$$
+  \sharp \emptyset \simeq \emptyset
+  \,.
+$$
+
+=--
+
 
 
 ### Internally
@@ -222,7 +236,7 @@ A [[full sub-(∞,1)-category]] $\mathbf{B} \hookrightarrow \mathbf{H}$ is
   $$
     \mathbf{H}(loc_X, Y) : 
     \mathbf{H}(L X, Y)
-    \stackrel{\simeq}{\to}
+    \stackrel{\simeq}{\longrightarrow}
     \mathbf{H}(X, Y)
   $$
 
