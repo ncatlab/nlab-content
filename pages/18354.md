@@ -51,12 +51,11 @@ hyperimaginaries. This is related to a result of Hrushovski's that in a stable t
     [[imaginary element|imaginaries]],
     $\operatorname{Aut}(M)$ acts on hyperimaginaries.
 
--   By a [[compactness theorem|compactness
-    argument]], any hyperimaginary $X/E$ in the sense of
+-   Any hyperimaginary $X/E$ in the sense of
     the previous paragraph can be extended to a quotient of the entire
     model $M^{\alpha}$ (in the (possibly infinitary)
     [[type|sort]] $\alpha$ of $E$) by a
-    type-definable equivalence relation $E'$ obtained by preserving $E$ on $X$ and extending it to be the discrete equivalence relation on $M^{\alpha} \backslash X$. (This is an instance of the fact that finite disjunctions of type-definable sets are again type-definable. It is not true that arbitrary disjunctions of type-definable sets are again type-definable, since $\operatorname{Aut}(\mathbb{M})$-invariant subsets of $\mathbb{M}$ the [[monster model]] have this form.
+    type-definable equivalence relation $E'$ obtained by preserving $E$ on $X$ and extending it to be the discrete equivalence relation on $M^{\alpha} \backslash X$. In symbols, $E' \overset{\operatorname{df}}{=} (E(x,y) \wedge (x,y) \in X \times X) \vee (x = y)$. (This is a special case of the fact that finite disjunctions of type-definable sets are again type-definable. It is not true that arbitrary disjunctions of type-definable sets are again type-definable, since $\operatorname{Aut}(\mathbb{M})$-invariant subsets of $\mathbb{M}$ the [[monster model]] have this form.)
 
 -   The process of taking points of hyperimaginaries in models
     ($M \mapsto M(X/E)$) does not commute
