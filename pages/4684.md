@@ -50,19 +50,32 @@ The "local" [[topological properties]] of Euclidean space are inherited by local
 
 +-- {: .num_prop}
 ###### Proposition
-**([[locally Euclidean spaces]] are $T_1$)**
+**([[locally Euclidean spaces]] are $T_1$ and [[locally compact topological space|locally compact]])**
 
-Every [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) satisfies the $T_1$ [[separation axiom]];
+Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}). Then 
+
+1. $X$ satisfies the $T_1$ [[separation axiom]];
+
+1. $X$ is [[locally compact topological space|locally compact]] in the sense that every open neighbourhood of a point contains a [[compact topological space|compact]] neighbourhood.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
+Regarding the first statement:
 
 Let $x \neq y$ be two distinct points in the locally Euclidean space. We need to show that there is an open neighbourhood $U_x$ around $x$ that does not contain $y$.
 
-By definition there is a Euclidean open neighbourhood $E_x$ around $y$. If this does not contain $y$, then we may choose $U_x \coloneqq E_x$. If it does, then $x \neq y$ are equivalently two distinct point in this Euclidean space $E_x \simeq \mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$, and hence we may find an open neighbourhood $U_x \subset E_x$ not intersecting $y$.
+By definition, there is a Euclidean open neighbourhood $\mathbb{R}^n \overset{\simeq}{\to} U_x \subset X$ around $x$. If $U_x$ does not contain $y$, then it already is an open neighbourhood as required. If $U_x$ does contain $y$, then $x \neq y$ are equivalently two distinct point in $\mathbb{R}^n$. But Euclidean space, as every [[metric space]], is $T_1$, and hence we may find an open neighbourhood $V_x \subset \mathbb{R}^n \simex U_x$ not containing $y$. By the nature of the [[subspace topology]], $V_x$ is still open when regarded as a subset of $X$.
+
+Regarding the second statement:
+
+Let $x \in X$ be a point and let $U_x \supset \{x\}$ be an open neighbourhood. We need to find a compact nighbourhood $K_x \subset U_x$.
+
+By assumption there exists a Euclidean open neighbourhood $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} V_x \subset X$. By definition of the [[subspace topology]] the intersection $U_x \cap V_x$ is still open as a subspace of $V_x$ and hence $\phi^{-1}(U_x \cap V_x)$ is an open neighbourhood of $\phi^{-1}(x)  \in \mathbb{R}^n$.
+
+Since Euclidean spaces are locally compact, there exists a compact neighbourhood $K_{\phi^{-1}(x)} \subset \mathbb{R}^n$ (for instance a sufficiently small [[closed ball]] around $x$, which is compact by the [[Heine-Borel theorem]]). Now since [[continuous images of compact spaces are compact]], it follows that also $\phi(K) \subset X$ is a compact neighbourhood.
 
 =--
 
@@ -135,22 +148,6 @@ An example of a [[topological space]] which is locally Euclidean as in def. \ref
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
-
-Every [[topological manifold]] (def. \ref{TopologicalManifold})
-is a [[locally compact topological space]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We need to show that for every point $x \in X$, and every [[open neighbourhood]] $W_x \supset \{x\}$ there exists a smaller open neighbourhood $V_x$ whose [[topological closure]] is [[compact topological space|compact]] and still contained in $W_x$.
-
-By assumption there is a Euclidean open neighbourhood $\mathbb{R}^n \overset{\simeq}{\to} U_x \supset \{x\}$. The [[intersection]] $W_x \cap U_x$ is still an open neighbourhood of $x$, regarded as a subspace of $U_x$. But Euclidean space, like every [[metric space]], is locally compact, and hence we find an open neighbourhood $V_x \subst W_x \cap U_x \subset U_x$ whose topological closure is a compact subspace of $U_x$. Hence it is also a compact subspace of $X$, and since $X$ is Hausdorff by assumption and since [[compact subspaces of Hausdorff spaces are closed]], this is still closed in $X$, and hence also the compact closure of $V_x$ in $X$.
-
-=--
 
 +-- {: .num_defn #Charts}
 ###### Definition
