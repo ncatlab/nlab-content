@@ -1,0 +1,14 @@
+
+
+## Idea
+
+The _Cardy condition_ is part of the consistency condition on data that gives a [[2d CFT]] or [[2d TQFT]].
+
+
+
+## References
+
+* [[Liang Kong]], _Cardy condition for open-closed field algebras_ ([arXiv:math/0612255](http://arxiv.org/abs/math/0612255))
+
+[[!redirects Cardy conditions]]
+
