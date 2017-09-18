@@ -19,7 +19,7 @@
 
 The generalization of the notion of [[effective epimorphism]] from [[category theory]] to [[(∞,1)-category theory]].
 
-See also at _[[1-epimorphism]]_. 
+See also at _[[1-epimorphism]]_. However, beware of the [[red herring principle]]: effective epimorphisms in an $(\infty, 1)$-category need _not_ be [[epimorphism in an (infinity,1)-category|epimorphisms]].
 
 ## Definition
 
@@ -129,7 +129,7 @@ $$
   \pi_0(f) \colon \pi_0(X) \to \pi_0(Y)
 $$
 
-is a surjection of sets.
+is a surjection of sets. In particular, if $S^1$ is the circle, then the unique morphism $S^1 \to \Delta^0$ is an effective epimorphism, but it not an epimorphism because the [[suspension]] of $S^1$ is the sphere $S^2$, which is not contractible.
 
 =--
 
