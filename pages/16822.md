@@ -1,0 +1,5 @@
+
+
+An [[essential geometric morphism|essential]] [[subtopos]], also called a [[level of a topos]].
+
+[[!redirects essential subtoposes]]
