@@ -45,7 +45,7 @@ In fact it was Gerstenhaber who coined the term 'pre-Lie algebra', for this reas
 
 ## Relation to the work of Connes and Kreimer
 
-Connes and Kreimer formalized the process of [renormalization](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) using a certain [[Hopf algebra]] built from Feynman diagrams.  More abstractly we can understand the essence of their construction using a Hopf algebra built from rooted trees, as explained here:
+Connes and Kreimer formalized the process of [renormalization](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) using a certain [[Hopf algebra]] built from [[Feynman diagram]]s.  More abstractly we can understand the essence of their construction using a Hopf algebra built from rooted trees, as explained here:
 
 * John Baez, This Week's Finds in Mathematical Physics, Week 299.  ([web](http://math.ucr.edu/home/baez/week299.html))  ([blog](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html))
 
@@ -67,13 +67,13 @@ Pre-Lie algebras have a strange self-referential feature.  Every operad of a lar
 
 As we have seen above, for any linear operad $O$, the free $O$-algebra with one generator becomes a pre-Lie algebra.  But the operad for pre-Lie algebra is an operad of this type.  So, the free pre-Lie algebra on one generator becomes a pre-Lie algebra in this way.   But of course it already *is* a pre-Lie algebra!  Do these pre-Lie structures agree?
 
-The answer is no.  For an explanation, see page 7 here:
+The answer is _no._  For an explanation, see page 7 here:
 
 * Dominique Manchon, A short survey on pre-Lie algebras.  ([pdf](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf))
 
 ## References ##
 
-The best overall introduction to pre-Lie algebras seems to be that by Dominique Manchon, cited above.  For two more introductions, try:
+The best overall introduction to pre-Lie algebras seems to be that by Dominique Manchon, cited above.  For two more introductions, try the following:
 
 * John Baez, This Week's Finds in Mathematical Physics, Week 299.  ([web](http://math.ucr.edu/home/baez/week299.html))  ([blog](http://golem.ph.utexas.edu/category/2010/06/this_weeks_finds_in_mathematic_60.html))
 
