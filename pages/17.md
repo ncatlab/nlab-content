@@ -556,22 +556,44 @@ The itex syntax accepted by the nlab doesn't understand the syntax of any diagra
    In many cases, you want to tweak the alignments (say, of vertical arrows), using `\mathrlap{}` or `\mathllap{}`:
 
    $$
-\begin{matrix}
-B^{\mathrlap{A}} & \longrightarrow & 1^{\mathrlap{A}} \\
-\mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow\mathrlap{\scriptsize{t^\alpha}} \\
-P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrlap{A}}
-\end{matrix}
+   \begin{matrix}
+   B^{\mathrlap{A}} & \longrightarrow & 1^{\mathrlap{A}} \\
+   \mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow \mathrlap{\scriptsize{t^A}} \\
+P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} &  P(1)^{\mathrlap{A}}
+   \end{matrix}
    $$
 
    is produced by
-
-        $$
+        
+        \[
         \begin{matrix}
         B^{\mathrlap{A}} & \longrightarrow & 1^{\mathrlap{A}} \\
-        \mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow\mathrlap{\scriptsize{t^\alpha}} \\
+        \mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow               \mathrlap{\scriptsize{t^\alpha}} \\
         P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrlap{A}}
         \end{matrix}
-        $$
+        \]
+
+   Matrix and array environments also accept certain options. Here is an example using a "\rowlines{solid}" option to hack a sequent derivation (much more nicely than by resorting to \frac commands): 
+
+$$
+\array{\arrayopts{\rowlines{solid}}
+  X \times B \to P A\;\;\; in\; \mathbf{S} \\
+  X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S}) \\
+  X \nrightarrow A \times B\;\;\; in\; Rel(\mathbf{S}) \\
+  X \to P(A \times B)\;\;\; in \; \mathbf{S}
+}
+$$ 
+
+   is produced by 
+
+       $$
+       \array{
+       \arrayopts{\rowlines{solid}}
+       X \times B \to P A\;\;\; in\; \mathbf{S} \\
+       X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S}) \\
+       X \nrightarrow A \times B\;\;\; in\; Rel(\mathbf{S}) \\
+       X \to P(A \times B)\;\;\; in \; \mathbf{S}
+       }$$
 
 1. _Include an image file_: This is the quick-and-dirty method.  To create the image file, either use a program like [textogif](http://www.fourmilab.ch/webtools/textogif/textogif.html) to create the image from a TeX file locally, or use a web service like _[codecogs](http://www.codecogs.com/components/equationeditor/equationeditor.php)_ (warning, codecogs xy-support seems to be broken now) or _[QuickLatex](http://www.quicklatex.com/)_ or [presheaf.com](http://presheaf.com).  Then follow the instructions [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads) for putting it on the lab.
 
