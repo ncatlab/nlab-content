@@ -1,3 +1,4 @@
+[[!redirects Weil conjecture]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
