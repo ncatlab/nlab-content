@@ -8,6 +8,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents
 {:toc}
@@ -71,5 +72,15 @@ $$
 constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos]] $Sh_{(\infty,1)}(\mathcal{G})$ and exhibits it as the classifying topos for such models (geometries):
 
 This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
+
+[[!redirects classifying (∞,1)-topos]]
+[[!redirects classifying (∞,1)-toposes]]
+
+[[!redirects classifying (∞,1)-topoi]]
+
+[[!redirects classifying (infinity,1)-topos]]
+[[!redirects classifying (infinity,1)-toposes]]
+[[!redirects classifying (infinity,1)-topoi]]
+
 
 category: higher topos theory
