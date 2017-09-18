@@ -21,6 +21,8 @@ In terms of [[Cartan geometry]] conformal structure is expressed by [[conformal 
 
 * [[conformal connection]]
 
+* [[superconformal geometry]]
+
 ## References
 
 * David Gu, _Conformal structure_, slides ([pdf](http://www.cs.sunysb.edu/~gu/lectures/lecture_2_conformal_structure.pdf))
