@@ -26,6 +26,57 @@ The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|pres
 
 The main technical issue with symmetric spectra is that the naive definition of [[homotopy groups]] for them is not general homotopy correct, one needs to replace by a "semistable symmetric spectrum" first, see [below](#HomotopyGroups). This problem goes away for [[orthogonal spectra]] (these however need to be based on [[topological spaces]] instead of [[simplicial sets]]).
 
+## Definition
+
+A symmetric spectrum is a [[sequential spectrum]] equipped with an [[action]] of the [[symmetric group]] on each component space, such that the structure maps [[intertwiner|intertwine]] these actions combined with the canonical permutaion action on the [[n-spheres]]:
+
++-- {: .num_defn #SymmetricSpectrum}
+###### Definition
+
+A **symmetric spectrum** $X$ in [[sSet]] is
+
+1. a sequence $\{X_n| n \in \mathbb{N}\}$ of [[pointed object|pointed]] [[simplicial sets]];
+
+1. a baspoint preserving left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+
+1. a sequence of morphisms of pointed simplicial sets $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
+
+such that
+
+* for all $n, k \in \mathbb{N}$ the [[composition|composite]]
+
+  $$
+    X_n \wedge S^{k} \stackrel{\sigma_n \wedge id}{\longrightarrow} X_{n+1} \wedge S^{k-1} \stackrel{\sigma_{n+1}\wedge id}{\longrightarrow} \cdots \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
+  $$
+
+  [[intertwiner|intertwines]] the $\Sigma_{n+k}$-[[action]].
+
+A [[morphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
+
+* a sequence of morphisms of pointed simplicial sets $f_n \colon X_n \longrightarrow Y_n$
+
+such that
+
+1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma_n$-[[action]];
+
+1. the following [[commuting diagram|diagrams commute]]
+
+   $$
+     \array{
+        X_n \wedge S^1 &\stackrel{f_n \wedge id}{\longrightarrow}& Y_n \wedge S^1
+        \\
+        \downarrow^{\mathrlap{\sigma^X_n}} && \downarrow^{\mathrlap{\sigma^Y_n}}
+        \\
+        X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+     }
+     \,.
+   $$
+
+=--
+
+([Hovey-Shipley-Smith 00, def. 1.2.1](HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
+
+
 ## Properties
 
 ### Smash product
@@ -64,7 +115,7 @@ In particular, this problem goes away for the concept of [[orthogonal spectra]],
 
 The orginal article is
 
-* {#HoveyShipleySmith77} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
 A comprehensive textbook account is in 
 
