@@ -39,6 +39,10 @@ Little string theories on [[heterotic string theory]] [[NS5-branes]] with $N = (
 
 * E. Gava, K.S. Narain, M.H. Sarmadi, _Little String Theories in Heterotic Backgrounds_, Nucl.Phys. B626 (2002) 3-25 ([arXiv:hep-th/0112200](http://arxiv.org/abs/hep-th/0112200))
 
+The [[T-duality]] between type IIA and type IIB little strings is discussed in
+
+* Jungmin Kim, Seok Kim, Kimyeong Lee, _Little strings and T-duality_, JHEP  2016:170 ([arXiv:1503.07277](https://arxiv.org/abs/1503.07277))
+
 Construction within [[F-theory]] is discussed in
 
 * Lakshya Bhardwaj, Michele Del Zotto, [[Jonathan Heckman]], [[David Morrison]], Tom Rudelius, [[Cumrun Vafa]], _F-theory and the Classification of Little Strings_ ([arXiv:1511.05565](http://arxiv.org/abs/1511.05565))
