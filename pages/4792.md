@@ -19,9 +19,48 @@ The __octonions__ form the largest of the four [[normed division algebra]]s, den
 
 ## Properties
 
+### Non-associativity
+
 The octonions are _not_ an [[associative algebra]]. The _non-zero_ octonions and the _unit_ octonions form [[Moufang loops]].
 
+### Automorphisms
+
 The [[automorphism group]] of the octonions is [[G2]].
+
+### Basic triples
+ {#ElementaryTriples}
+
++-- {: .num_defn #BasicTriple}
+###### Definition
+
+A _basic triple_ is a [[triple]] $(e_1, e_2, e_3) \in \mathbb{O}^3$ of three octonions such that
+
+* $e_i^2 = -1$
+
+* $e_i e_j = - e_j e_i$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The choice of $e_1$ identifies an inclusion of the [[complex numbers]] $\mathbb{R} \hookrightarrow \mathbb{C} \hookrightarrow \mathbb{O}$.
+
+Then the choice of $e_2$ on top of that identifies a compatible inclusion of the [[quaternions]] $\mathbb{R} \hookrightarrow \mathbb{C}\hookrightarrow \mathbb{H} \hookrightarrow \mathbb{O}$.
+
+Finally the choice of $e_3$ on top of that induces a basis for all of $\mathbb{O}$.
+
+=--
+
++-- {: .num_prop #BasicTriplesFormAutomorphism}
+###### Proposition
+
+The set of basic triples, def. \ref{BasicTriple}, forms a [[torsor]] over the [[automorphism group]] [[G2]] $= Aut(\mathbb{O})$.
+
+=--
+
+(e.g. [Baez, 4.1](#Baez))
+
 
 ## Related concepts
 
@@ -40,7 +79,7 @@ The [[automorphism group]] of the octonions is [[G2]].
 
 A survey is
 
-* [[John Baez]], _The Octonions_ ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
+* {#Baez} [[John Baez]], _The Octonions_ ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
 
 
 [[!redirects octonion]]
