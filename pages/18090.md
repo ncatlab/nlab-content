@@ -12,7 +12,6 @@
 
 
 
-
 ***
 
 This page contains a detailed introduction to basic [[topology]].
@@ -33,7 +32,7 @@ $\,$
 
 {#AA} Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 
-**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170515.pdf:file]])
+**part I**: _[[Introduction to Topology -- 1|Introduction to Topology 1 -- Point-set Topology]]_ $\;\;\;$([[IntroductionToTopologyI-170516.pdf:file]])
 
 **part II**: _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
 
