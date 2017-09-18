@@ -13,16 +13,7 @@
 
 A (binary) [[relation]] $\sim$ on a set $A$ is __irreflexive__ if no element of $A$ is related to itself:
 $$ \forall (x: A),\; x \nsim x .$$
-
-+-- {: .standout}
-What exactly is $\nsim$ here? 
-
-If this was intended to be an *abbreviation* of $\neg\, (x\sim x)$, which is how irreflexive relations are usually presented, in particular in the model theory of graphs, this probably should be spelled out, for clarity.
-
-If this is meant to be *another* relation symbol of its own, this seems betwixt and between, or at least interestingly unusual.
-
-May be missing something obvious, but, in any case, a few clarifying words seem called for.
-=--
+(where $x\nsim x$ means that $x\sim x$ is false, i.e. that $\neg (x\sim x)$).
 
 In the language of the $2$-poset [[Rel]] of sets and relations, a relation $R: A \to A$ is __irreflexive__ if it is [[disjoint]] from the [[identity relation]] on $A$:
 $$ \id_A \cap R \subseteq \empty .$$
