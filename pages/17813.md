@@ -130,6 +130,11 @@ we recall [[super Lie algebras]] and discuss their generalization to [[super L-�
 
 * _[Super L-infinity cohomology and FDAs](#SuperLInfinityCohomologyAndFDAs)_.
 
+We will be associating a fundamental $p$-brane with each invariant super $L_\infty$-cocycle.
+We explain how this is given by a variant of the operation of higher [[Lie integration]] in 
+
+* _[From L-infinity-cocycles to higher WZW models](#FromCocyclesToWZW)_
+
 The basic example of [[super Lie algebras]] that induces all phenomena to follow are
 the super-translation parts of [[supersymmetry]] algebras, the [[super Minkowski spacetimes]]
 introduced in detail in _[[geometry of physics -- supersymmetry]]_. Since here we
@@ -1280,6 +1285,1232 @@ This is exactly the ordinary formula for the central extension of $\mathfrak{g}$
 
 
 
+## From $L_\infty$-Cocycles to higher WZW-type sigma-models
+ {#FromCocyclesToWZW}
+
+We have discussed super $L_\infty$-cohomology [above](#SuperLInfinityCohomologyAndFDAs) in generality.
+Further [below](#Branes) we consider the exceptional invariant super $L_\infty$-cohomology classes
+that emanate out of the [[superpoint]]. There we will see that each of them is to correspond to precisely
+one species of [[super p-branes]] as discussed in the [[string theory]] literature. Here, in order 
+to substantiate this, we discuss in generality how by the mathematics of higher [[Lie integration]]
+every super $L_\infty$-cocycle induces a functional on a [[mapping space]] that 
+may be regarded as the [[action functional]] defining a [[sigma-model]] description for a 
+fundamental $p$-brane. These are higher order generalizations of the famous _[[Wess-Zumino-Witten model]]_.
+
+### Higher Lie integration
+ {#HigherLieIntegration}
+
+We discuss differential refinements of the "path method" of [[nLab:Lie integration]] for [[nLab:L-infinity-algebras]]. The key observation for interpreting the following def. \ref{DefinitionOfLInfinityFormsOnSimplices} is this:
+
++-- {: .num_remark}
+###### Remark
+
+For $\mathfrak{g}$ an [[nLab:L-∞ algebra]], and given a [[nLab:smooth manifold]] $U$, then
+
+1. the _flat_ [[nLab:L-∞ algebra valued differential forms]] on $U$ are equivalently the dg-algebra homomorphisms
+
+   $$
+     \Omega_{flat}(U,\mathfrak{g})
+     =
+     Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(U)_{\mathrm{dR}})
+   $$
+
+1. a finite [[nLab:gauge transformation]] between two such forms is equivalently a homotopy
+
+   $$
+    \array{
+       & & \Omega_{flat}(U \times \Delta^1,\mathfrak{g})
+       \\
+       & {}^{(-)|_0}\swarrow && \searrow^{\mathrlap{(-)|_1}}
+       \\
+       \Omega_{flat}(U ,\mathfrak{g})
+       && &&
+       \Omega_{flat}(U, \mathfrak{g})
+     }
+     \,.
+   $$
+
+For more details see at _[infinity-Lie algebroid-valued differential form -- Integration of infinitesimal gauge transformations](http://ncatlab.org/nlab/show/infinity-Lie+algebroid-valued+differential+form#InfGaugeTrafo)_.
+
+=--
+
++-- {: .num_defn #DefinitionOfLInfinityFormsOnSimplices}
+###### Definition
+
+For $\mathfrak{g}$ an [[nLab:L-∞ algebra]], write:
+
+* $CE(\mathfrak{g})$ for the [[nLab:Chevalley-Eilenberg algebra]] of an [[nLab:L-∞ algebra]] $\mathfrak{g}$;
+
+* $\Delta^\bullet_{smth} \colon \Delta \to SmoothMfd$ for the [[nLab:cosimplicial object|cosimplicial]] [[nLab:smooth manifold]] [[nLab:manifold with corners|with corners]] which is in degree $k$ the standard $k$-simplex $\Delta^k \hookrightarrow \mathbb{R}^{k+1}$;
+
+* $\Omega^\bullet_{si}(\Delta_{smth}^k)$ for the [[nLab:de Rham complex]] of those [[nLab:differential forms]] on $\Delta_{smth}^k$ which have [[nLab:sitting instants]], in that in an [[nLab:open neighbourhood]] of the [[nLab:boundary]] they are constant perpendicular to any face on their value at that face;
+
+* $\Omega^\bullet_{si}(U \times \Delta_{smth}^k)$ for $U \in SmoothMfd$ for the [[nLab:de Rham complex]] of differential forms on $U \times \Delta^k$ which when restricted to each point of $U$ have sitting instants on $\Delta^k$;
+
+* $\Omega^\bullet_{vert,si}(U \times \Delta_{smth}^k)$ for the subcomplex of forms that in addition are [[nLab:vertical differential forms]] with respect to the projection $U \times \Delta^k \to U$.
+
+=--
+
+
++-- {: .num_defn #SimplicialLieIntegrationOfLinfinityAlgebra}
+###### Definition
+
+For $\mathfrak{g}$ an [[nLab:L-∞ algebra]], write
+
+* $\exp(\mathfrak{g})_\bullet \in PreSmoothTypes = PSh(CartSp,sSet)$
+
+  for the [[nLab:simplicial presheaf]]
+
+  $$
+    \exp(\mathfrak{g})
+    \colon
+    (U \times k) \mapsto Hom_{dgAlg}( CE(\mathfrak{g}), \Omega^\bullet_{vert,si}(U \times \Delta_{smth}^k) )
+    \,.
+  $$
+
+  which is the universal _[[nLab:Lie integration]]_ of $\mathfrak{g}$;
+
+* $\flat_{dR}\exp(\mathfrak{g})_\bullet \in PreSmoothTypes = PSh(CartSp,sSet)$
+
+  for the [[nLab:simplicial presheaf]]
+
+
+  $$
+    \flat_{dR}\exp(\mathfrak{g})_\bullet
+    \;\colon\;
+    (U \times k) \mapsto
+    Hom_{dgAlg}( CE(\mathfrak{g}), \Omega^{\bullet\geq 1, \bullet}_{si}(U \times \Delta^k_{smth}) )
+  $$
+
+  of those differential forms on $U \times \Delta^\bullet$ with at least one leg along $U$;
+
+* $\Omega^1_{flat}(-,\mathfrak{g})
+   \coloneqq
+   \flat_{dR}\exp(\mathfrak{g})_0
+  \longrightarrow \flat_{dR}\exp(\mathfrak{g})_\bullet$
+
+
+  for the canonical inclusion of the degree-0 piece, regarded as a simplicial constant simplicial presheaf.
+
+=--
+
++-- {: .num_example #ExamplesOfLieIntegration}
+###### Example
+
+From the discussion at _[[nLab:Lie integration]]_:
+
+1. $\Omega^1_{flat}(-,b^{p+1}\mathbb{R}) = \mathbf{\Omega}^{p+2}_{cl}$;
+
+1. for $\mathfrak{g}$ an ordinary [[nLab:Lie algebra]], then for the [[nLab:simplicial skeleton|2-coskeleton]] (by _[this discussion](http://ncatlab.org/nlab/show/Lie+integration#LieAlgebrasToLieGroups)_)
+
+   $$
+
+     cosk_2 \exp(\mathfrak{g}) \simeq \mathbf{B}G_\bullet
+   $$
+
+   for $G$ the simply connected [[nLab:Lie group]] associated to $\mathfrak{g}$ by traditional [[nLab:Lie theory]]. If $\mathfrak{g}$ is furthermore a [[nLab:semisimple Lie algebra]], then also
+
+   $$
+     cosk_3 \exp(\mathfrak{g}) \simeq \mathbf{B}G_\bullet
+   $$
+
+1. for $\mathfrak{g} = b^{p}\mathbb{R}$ the [[nLab:line Lie n-algebra|line Lie p+1]]-algebra, then (by [this proposition](http://ncatlab.org/nlab/show/Lie+integration#LieIntegrationOfLinenLieAlgebra))
+
+   $$
+     \exp(b^p \mathbb{R}) \simeq \mathbf{B}^{p+1}\mathbb{R}
+     \,.
+   $$
+
+
+=--
+
++-- {: .num_remark #LieIntegrationIsFunctorial}
+###### Remark
+
+The constructions in def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra} are clearly [[nLab:functor|functorial]]: given a [[nLab:homomorphism]] of [[nLab:L-∞ algebras]]
+
+$$
+  \mu \;\colon\; \mathfrak{g} \longrightarrow \mathfrak{h}
+$$
+
+
+it prolongs to a homomorphism of presheaves
+
+$$
+  \mu \colon \Omega^1_{flat}(-,\mathfrak{g})
+  \longrightarrow \Omega^1(-,\mathfrak{h})
+$$
+
+and of [[nLab:simplicial presheaves]]
+
+$$
+  \exp(\mu)
+  \;\colon\;
+  \exp(\mathfrak{g})
+  \longrightarrow
+  \exp(\mathfrak{h})
+$$
+
+etc.
+
+
+=--
+
++-- {: .num_example #LInfinityCocyclesAsMorphisms}
+###### Example
+
+According to the [above](#LInfinityCohomology), a degree-$(p+2)$-[[nLab:L-∞ cocycle]] $\mu$ on an [[nLab:L-∞ algebra]] $\mathfrak{g}$ is a homomorphism of the form
+
+$$
+  \mu \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}
+
+$$
+
+to the [[nLab:line Lie n-algebra|line Lie (p+2)-algebra]] $b^{p+1}\mathbb{R}$.
+The [[nLab:formal dual]] of this is the homomorphism of [[nLab:dg-algebras]]
+
+$$
+  CE(\mathfrak{g}) \longleftarrow CE(b^{p+1}\mathbb{R}) \colon \mu^\ast
+$$
+
+
+which manifestly picks a $d_{CE(\mathfrak{g})}$-closed element in $CE^{p+2}(\mathfrak{g})$.
+
+Precomposing this $\mu^\ast$ with a flat [[nLab:L-∞ algebra valued differential form]]
+
+$$
+  A \in \Omega^1_{flat}(X,\mathfrak{g}) = Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(X))
+$$
+
+yields, by example \ref{ExamplesOfLieIntegration}, a plain closed $(p+2)$-form
+
+$$
+  \mu^\ast A \in \Omega^{p+2}_{cl}(X)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #GroupOfPeriods}
+###### Definition
+
+Given an [[nLab:L-∞ cocycle]]
+
+$$
+  \mu \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}
+  \,,
+$$
+
+as in example \ref{LInfinityCocyclesAsMorphisms},
+then its _group of [[nLab:periods]]_ is the [[nLab:discrete group|discrete]] additive [[nLab:subgroup]] $\Gamma \hookrightarrow \mathbb{R}$ of those [[nLab:real numbers]] which are [[nLab:integration of differential forms|integrations]]
+
+$$
+  \underset{\partial \Delta^{p+3}_{smth}}{\int} \mu^\ast A \in \mathbb{R}
+$$
+
+of the value of $\mu$, as in example \ref{LInfinityCocyclesAsMorphisms},
+on [[nLab:L-∞ algebra valued differential forms]]
+
+$$
+  A \in \Omega^1_{flat}(\partial \Delta^{p+3}_{smth})
+  \,,
+$$
+
+over the [[nLab:boundary of a simplex|boundary of the (p+3)-simplex]] (which are forms with sitting instants on the $(p+2)$-dimensional faces that glue together; without restriction of generality we may simply consider forms on the $(p+2)$-[[nLab:sphere]] $S^{p+2}$).
+
+=--
+
+
++-- {: .num_prop #TruncatedLieIntegrationOfCocycle}
+###### Proposition
+
+Given an [[nLab:L-∞ cocycle]] $\mu \colon \mathfrak{g} \to b^{p+1}\mathbb{R}$,
+as in example \ref{LInfinityCocyclesAsMorphisms},
+then the universal Lie integration of $\mu$, via def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra} and remark \ref{LieIntegrationIsFunctorial}, descends to the $(p+2)$-[[nLab:coskeleton]]
+
+$$
+  \mathbf{B}G \coloneqq cosk_{p+2}\exp(\mathfrak{g})
+$$
+
+up to quotienting the coefficients $\mathbb{R}$ by the
+group of [[nLab:periods]] $\Gamma$ of $\mu$, def. \ref{GroupOfPeriods}, to yield the bottom morphism in
+
+$$
+  \array{
+     \exp(\mathfrak{g}) &\stackrel{\exp(\mu)}{\longrightarrow}&
+     \mathbf{B}^{p+2}\mathbb{R}
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{B}G
+     &\stackrel{\mathbf{c}}{\longrightarrow}&
+     \mathbf{B}^{p+2} (\mathbb{R}/\Gamma)
+  }
+  \,.
+$$
+
+=--
+
+This is due to ([FSS 12](Lie+integration#FSS12)).
+
+Here and in the following we are freely using example \ref{ExamplesOfLieIntegration} to identify $\exp(b^{p+1}\mathbb{R}) \simeq \mathbf{B}^{p+2}\mathbb{R}$. Establishing this is the only real work in prop. \ref{TruncatedLieIntegrationOfCocycle}.
+
+### Higher Maurer-Cartan forms
+
++-- {: .num_defn #FlatModality}
+###### Definition
+
+
+Write
+
+$$
+  \flat \;\colon\; L_{lwhe} PSh(\mathrm{CartSp}, sSet) \longrightarrow L_{lwhe} PSh(\mathrm{CartSp}, sSet)
+$$
+
+for the operation that evaluates a [[nLab:simplicial presheaf]] on the point and then extends the result back as a constant presheaf. This comes with a canonical [[nLab:counit of a comonad|counit]] [[nLab:natural transformation]]
+
+$$
+  \epsilon^\flat \colon \flat \to Id
+  \,.
+$$
+
+=--
+
++-- {: .num_example #Flatbg}
+###### Example
+
+For $G$ a [[nLab:Lie group]] and
+
+$$
+  \mathbf{B}G  : U \mapsto N C^\infty(U,G) \in L_{lwhe} PSh(\mathrm{CartSp}, sSet)
+$$
+
+for its stacky [[nLab:delooping]], which is the universal [[nLab:moduli stack]] of $G$-[[nLab:principal bundles]], then given a $G$-principal bundle $P$ [[nLab:modulating morphism|modulated]] by a map
+
+$$
+  X \longrightarrow \mathbf{B}G
+$$
+
+then a lift $\nabla$ in the homotopy-commutative diagram
+
+$$
+  \array{
+     && \flat \mathbf{B}G
+     \\
+     &{}^{\mathllap{\nabla}}\nearrow& \downarrow
+     \\
+     X &\longrightarrow& \mathbf{B}G
+  }
+$$
+
+is equivalently a [[nLab:flat connection]] on $G$. Hence $\flat \mathbf{B}G$ is the universal moduli stack for [[nLab:flat connections]]. Whence the symbol "$\flat$".
+
+=--
+
++-- {: .num_defn #MaurerCartanForm}
+###### Definition
+
+Given $G$ any [[nLab:smooth infinity-group]], denote the double [[nLab:homotopy fiber]] of the [[nLab:counit of a comonad|counit]] $\epsilon^\flat$, def. \ref{FlatModality} as follows:
+
+$$
+  \array{
+    G
+    \\
+    \downarrow^{\mathrlap{G}}
+    \\
+    \flat_{dR} \mathbf{B}G &\longrightarrow& \flat \mathbf{B}G
+    \\
+    && \downarrow^{\mathrlap{\epsilon^{\flat}}}
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+We say that
+
+* $\flat_{dR}\mathbf{B}G$ is the _flat de Rham coefficients_ for $G$;
+
+* $\theta_G$ is the _[[nLab:Maurer-Cartan  form]]_ of $G$.
+
+=--
+
++-- {: .num_example #MaurerCartanOnLieGroup}
+###### Example
+
+In the situation of example \ref{Flatbg} where $G$ is an ordinary [[nLab:Lie groups]] and with $\mathfrak{g}$ denoting the Lie algebra of $G$, then we get that
+
+* $\flat_{dR}\mathbf{B}G \simeq \Omega^1_{flat}(-,\mathfrak{g})$ is the sheaf of flat [[nLab:Lie algebra valued differential forms]];
+
+* $\theta_{G}$ is (under the [[nLab:Yoneda embedding]]) the [[nLab:Maurer-Cartan form]] on $G$ in the traditional sense.
+
+=--
+
+
+
+
+
+### Higher WZW terms
+ {#HigherWZWTerms}
+
+We discuss now how every [[nLab:L-∞ cocycle]] $\mu \;\colon\; \mathfrak{g} \longrightarrow b^{p+1} \mathbb{R}$
+induces via differential higher [[nLab:Lie integration]] a [[nLab:higher WZW term]] for a $p$-brane [[nLab:sigma model]]
+with [[nLab:target space]] a differential extension $\tilde G$ of a [[nLab:smooth infinity-group]] $G$ that integrates
+$\mathfrak{g}$. In the next section [below](#ConsecutiveWZWTermsAndTwists) we characterize these differential
+extensions and find that they are given by bundles of [[nLab:moduli stacks]] for [[nLab:higher gauge fields]]
+on the $p$-brane [[nLab:worldvolume]]. This means that the higher WZW terms obtained here are in fact higher analogs
+of the _[[nLab:gauged WZW model]]_.
+
+(The following construction is from [FSS 13, section 5](#FSS13), streamlined a little.)
+
+$\,$
+
++-- {: .num_prop #HodgeFiltrationRefinementFromLInfinityCocycles}
+###### Proposition
+
+For $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$
+an [[nLab:L-∞ cocycle]], then there is the following canonical [[nLab:commuting diagram]] of [[nLab:simplicial presheaves]]
+
+$$
+   \array{
+    \Omega^1_{flat}(-,G)
+    &\stackrel{\mu}{\longrightarrow}&
+    \Omega^2_{cl}(-,\mathbb{G})
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR}\mathbf{B}G
+    &\stackrel{\flat_{dR} \mathbf{c}}{\longrightarrow}&
+    \flat_{dR}\mathbf{B}^2 \mathbb{G}
+  }
+  \;\;\;
+  \coloneqq
+  \;\;\;
+  \array{
+    \Omega^1_{flat}(-,\mathfrak{g})
+    &\stackrel{\mu}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}_{cl}
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR}\exp(\mathfrak{g})_\bullet
+    &
+    \stackrel{\flat_{dR}\exp(\mu)}{\longrightarrow}
+    &
+    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR}\mathbf{B}G
+    &\stackrel{\flat_{dR}\mathbf{c}}{\longrightarrow}&
+    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
+  }
+$$
+
+which is given
+
+* on the top by def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra},
+example \ref{ExamplesOfLieIntegration},
+remark \ref{LieIntegrationIsFunctorial},
+
+* on the bottom by applying the operation of def. \ref{MaurerCartanForm} to the commuting diagram provided by prop. \ref{TruncatedLieIntegrationOfCocycle},
+
+=--
+
++-- {: .num_defn #DifferentiallyTiwstedGroup}
+###### Definition
+
+Write
+
+$$
+  \tilde G
+  \coloneqq
+  G \underset{\flat_{dR}\mathbf{B}G}{\times} \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
+$$
+
+for the [[nLab:homotopy pullback]] of the left vertical morphism in prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles} along (the [[nLab:modulating morphism]] for) the [[nLab:Maurer-Cartan form]] $\theta_G$ of $G$, i.e. for the object sitting in a homotopy Cartesian square of the form
+
+$$
+  \array{
+    \tilde G &\stackrel{\theta_{\tilde G}}{\longrightarrow}&  \Omega^1_{flat}(-,\mathfrak{g})
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{\theta_G}{\longrightarrow}& \flat_{dR}\mathbf{B}G
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #ExamplesForTildeGInModLayer}
+###### Example
+
+For the special case that $G$ is an ordinary [[nLab:Lie group]], then $\flat_{dR}\mathbf{B}G \simeq \Omega^{1}_{flat}(-,\mathfrak{g})$, by example \ref{MaurerCartanOnLieGroup}, hence in this case the morphism being pulled back in def. \ref{DifferentiallyTiwstedGroup} is an [[nLab:equivalence]], and so in this case nothing new happens, we get $\tilde G \simeq G$.
+
+On the other extreme, when $G = \mathbf{B}^{p}U(1)$ is the [[nLab:circle n-group|circle (p+1)-group]], then def. \ref{DifferentiallyTiwstedGroup}  reduces to the [[nLab:homotopy pullback]] that characterizes the [[nLab:Deligne complex]] and hence yields
+
+$$
+  \widetilde{\mathbf{B}^p U(1)}
+  \simeq
+
+  \mathbf{B}^p U(1)_{conn}
+  \,.
+$$
+
+This shows that def. \ref{DifferentiallyTiwstedGroup} is a certain non-abelian generalization
+of [[nLab:ordinary differential cohomology]]. We find further characterization of this below in corollary \ref{TildeHatGIsDifferentialModuliBundle}, see remark \ref{InterpretationOfTildeHatG}.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+From example \ref{ExamplesForTildeGInModLayer}
+one reads off the conceptual meaning of def. \ref{DifferentiallyTiwstedGroup}:
+For $G$ a [[nLab:Lie group]], then the de Rham coefficients are just globally defined differential forms, $\flat_{dR}\mathbf{B}G \simeq \Omega^1_{flat}(-,\mathfrak{g})$ (by the discussion [here](smooth+infinity-groupoid+--+structures#deRhamWithCoefficientsInBOfLieGroup)), and in particular therefore the [[nLab:Maurer-Cartan form]] $\theta_G \colon G \to \flat_{dR}\mathbf{B}G$ is a globally defined differential form. This is no longer the case for general [[nLab:smooth ∞-groups]] $G$. In general, the [[nLab:Maurer-Cartan forms]] here is a [[nLab:cocycle]] in [[nLab:hypercohomology]], given only locally by differential forms, that are glued nontrivially, in general, via [[nLab:gauge transformations]] and [[nLab:higher gauge transformations]] given by lower degree forms.
+
+But the WZW terms that we are after are supposed to [[nLab:prequantizations]] of globally defined Maurer-Cartan forms. The homotopy pullback in def. \ref{DifferentiallyTiwstedGroup} is precisely the [[nLab:universal construction]] that enforces the existence of a globally defined Maurer-Cartan form for $G$, namely  $\theta_{\tilde G} \colon \tilde G \to \Omega^1_{flat}(-,\mathfrak{g})$.
+
+=--
+
+
++-- {: .num_defn #WZWTermFromLieIntegration}
+
+###### Definition
+
+Given an [[nLab:L-∞ cocycle]] $\mu \colon \mathfrak{g}\longrightarrow b^{p+1}\mathbb{R}$, then via prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles}, prop. \ref{TruncatedLieIntegrationOfCocycle} and using the [[nLab:natural transformation|naturality]] of the [[nLab:Maurer-Cartan form]], def. \ref{MaurerCartanForm}, we have a morphism of [[nLab:cospan]] [[nLab:diagrams]] of the form
+
+$$
+  \array{
+    \Omega^1_{flat}(-,\mathfrak{g})
+    &\stackrel{\mu}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}_{cl}
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat_{dR} \mathbf{B}G
+    &\stackrel{\flat_{dR}\mathbf{c}}{\longrightarrow}&
+    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
+    \\
+    \uparrow^{\mathrlap{\theta_G}} && \uparrow^{\mathrlap{\theta_{\mathbf{B}^{p+1}(\mathbb{R}/\Gamma)}}}
+    \\
+    G &\stackrel{\Omega \mathbf{c}}{\longrightarrow}&
+    \mathbf{B}^{p+1} (\mathbb{R}/\Gamma)
+  }
+  \,.
+$$
+
+By the [[nLab:homotopy fiber product]] characterization of the [[nLab:Deligne complex]], prop. \ref{HomotopyFiberProductCharacterizationOfDeligneComplex}, this yields a morphism of the form
+
+$$
+  \mathbf{L}_{WZW}^{\mu}
+   \;\colon\;
+   \tilde G
+   \longrightarrow
+   \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
+  \,.
+$$
+
+which [[nLab:modulating morphisms|modulates]] a [[nLab:circle n-bundle with connection|p+1-connection]]/[[nLab:Deligne cohomology|Deligne cocycle]] on the differentially extended smooth $\infty$-group $\tilde G$ from def. \ref{DifferentiallyTiwstedGroup}.
+
+This we call the _WZW term_ obtained by universal Lie integration from $\mu$.
+
+=--
+
+Essentially this construction originates in ([FSS 13](#FSS13)).
+
++-- {: .num_remark}
+###### Remark
+
+The WZW term of def. \ref{WZWTermFromLieIntegration} is a [[nLab:prequantization]] of  $\omega \coloneqq \mu(\theta_{\tilde G})$, hence a lift $\mathbf{L}_{WZW}^\mu$ in
+
+$$
+  \array{
+     && \mathbf{B}^{p+1}(\mathbb{R}/\Gamma)_{conn}
+     \\
+     & {}^{\mathllap{\mathbf{L}_{WZW}^\mu}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+     \\
+     \tilde G
+     &\stackrel{\mu(\theta_{\tilde G})}{\longrightarrow}& \mathbf{\Omega}^{p+2}
+  }
+  \,.
+$$
+
+
+=--
+
+
+### Consecutive WZW terms and twists
+ {#ConsecutiveWZWTermsAndTwists}
+
+[Above](#HigherWZWTerms) we discussed how a single [[nLab:L-∞ cocycle]] [[nLab:Lie integration|Lie integrates]] to a [[nLab:higher WZW term]].
+More generally, one has a sequence of [[nLab:L-∞ cocycles]], each defined on the extension that is classified by the previous one -- a [[schreiber:The brane bouquet|bouquet]] of cocycles. Here we discuss how in this case the higher WZW terms at each stage
+relate to each other. (The following statements are corollaries of [FSS 13, section 5](#FSS13)).
+
+$\,$
+
+In each stage, for $\mu_1 \colon \mathfrak{g}\to b^{p_1+1}\mathbb{R}$ a cocycle and $\hat {\mathfrak{g}} \to \mathfrak{g}$ the extension that it classifies (its [[nLab:homotopy fiber]]), then the next cocycle is of the form $\mu_2 \colon \hat \mathfrak{g} \to b^{p_2+1}\mathbb{R}$
+
+$$
+  \array{
+    \hat {\mathfrak{g}} &\stackrel{\mu_2}{\longrightarrow}& b^{p_2+1}\mathbb{R}
+    \\
+    \downarrow
+    \\
+    \mathfrak{g} &\stackrel{\mu_1}{\longrightarrow}& b^{p_1+1}\mathbb{R}
+  }
+  \,.
+$$
+
+
++-- {: .num_lemma #CharacterizationOfLInfinityHomotopyFibers}
+###### Lemma
+
+The [[nLab:homotopy fiber]] $\hat \mathfrak{g} \to \mathfrak{g}$ of $\mu_1$ is given by the ordinary [[nLab:pullback]]
+
+$$
+  \array{
+    \hat \mathfrak{g} &\longrightarrow& e b^{p_1} \mathbb{R}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathfrak{g} &\stackrel{\mu_1}{\longrightarrow}& b^{p_1+1}\mathbb{R}
+  }
+  \,,
+$$
+
+where $e b^{p_1}\mathbb{R}$ is defined by its [[nLab:Chevalley-Eilenberg algebra]]
+$CE(e b^{p_1}\mathbb{R})$ being the [[nLab:Weil algebra]] of $b^{p_1}\mathbb{R}$, which is the [[nLab:free construction|free]] differential graded algebra on a generator in degree $p_1$, and where the right vertical map takes that generator to 0 and takes its free image under the differential to the generator of $CE(b^{p_1+1}\mathbb{R})$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows with the [recognition principle for L-∞ homotopy fibers](model+structure+for+L-infinity+algebras#HomotopyFiberProducts).
+
+=--
+
++-- {: .num_cor #PullbackOfDifferentialFormCoefficients}
+###### Corollary
+
+
+
+A [[nLab:homotopy fiber sequence]] of [[nLab:L-∞ algebras]] $\hat \mathfrak{g} \to \mathfrak{g}\stackrel{\mu}{\longrightarrow} b^{p+1}\mathbb{R}$ induces a  [[nLab:homotopy pullback]] diagram of the associated objects of [[nLab:L-∞ algebra valued differential forms]], def. \ref{SimplicialLieIntegrationOfLinfinityAlgebra}, of the form
+
+
+$$
+  \array{
+    \mathbf{\Omega}^1_{flat}(-,\hat {\mathfrak{g}})
+    &\stackrel{}{\longrightarrow}&
+    \mathbf{\Omega}^{p+1}
+    \\
+    \downarrow && \downarrow^{\mathbf{d}}
+    \\
+    \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
+    &\stackrel{\mu}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}_{cl}
+  }
+$$
+
+
+
+(hence an ordinary [[nLab:pullback]] of [[nLab:presheaves]], since these are all simplicially constant).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The construction $\mathfrak{g} \mapsto Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet(-))$ preserves [[nLab:pullbacks]] ($CE$ is an anti-equivalence onto its image, pullbacks of (pre-)-sheaves are computed objectwise, the [[nLab:hom-functor]] preserves pullbacks in the covariant argument).
+
+Observe then (see the discussion at _[[nLab:L-∞ algebra valued differential forms]]_), that while
+
+$$
+  \mathbf{\Omega}^{p+2}_{cl} \simeq Hom_{dgAlg}(CE(b^{p+1}), \Omega^\bullet(-))
+$$
+
+we have
+
+$$
+
+  \mathbf{\Omega}^{p+1} \simeq Hom_{dgAlg}(W(b^{p}), \Omega^\bullet(-))
+  \,.
+$$
+
+With this the statement follows by
+lemma \ref{CharacterizationOfLInfinityHomotopyFibers}.
+
+
+=--
+
++-- {: .num_defn #ConsecutiveCocycles}
+###### Definition
+
+We say that a pair of [[nLab:L-∞ cocycles]] $(\mu_1, \mu_2)$ is _consecutive_ if the domain of the second is the extension ([[nLab:homotopy fiber]]) defined by the first
+
+$$
+  \array{
+    \hat {\mathfrak{g}} &\stackrel{\mu_2}{\longrightarrow}& b^{p_2+1}
+    \\
+    \downarrow
+    \\
+    \mathfrak{g} &\stackrel{\mu_1}{\longrightarrow}& b^{p_1+1}\mathbb{R}
+  }
+$$
+
+and if the truncated [[nLab:Lie integrations]] of these cocycles via prop. \ref{TruncatedLieIntegrationOfCocycle} preserves the extension property in that also
+
+$$
+  \hat G \longrightarrow G \overset{\Omega \mathbf{c}_1}{\longrightarrow} \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)
+$$
+
+is a [[nLab:homotopy fiber sequence]] of [[nLab:smooth homotopy types]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The issue of the second clause in def. \ref{ConsecutiveCocycles} is to do with the truncation degrees: the universal untruncated [[nLab:Lie integration]] $\exp(-)$ preserves homotopy fiber sequences, but if there are non-trivial cocycles on $\mathfrak{g}$ in between $\mu_1$ and $\mu_2$, for $p_2 \gt p_1$, then these will remain as nontrivial homotopy groups in the higher-degree truncation $\mathbf{B}G_{2} \coloneqq \tau_{p_2}\exp(\hat\mathfrak{g})$ (see [Henriques 06, theorem 6.4](Lie+integration#Henriques)) but they will be truncated away in $\mathbf{B}G_1 \coloneqq \tau_{p_1}\exp(\mathfrak{g})$ and will hence spoil the preservation of the homotopy fibers through Lie integration.
+
+Notice that extending along consecutive cocycles is like the extension stages in a [[nLab:Whitehead tower]].
+
+=--
+
+Given two consecutive [[nLab:L-∞ cocycles]] $(\mu_1,\mu_2)$, def. \ref{ConsecutiveCocycles}, let
+
+$$
+  \mathbf{L}_1 \colon \tilde G \longrightarrow \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+$$
+
+
+and
+
+$$
+  \mathbf{L}_2 \colon \widetilde {\hat G} \longrightarrow \mathbf{B}^{p_2+1}(\mathbb{R}/\Gamma_2)_{conn}
+$$
+
+be the WZW terms obtained from the two cocycles via def. \ref{WZWTermFromLieIntegration}.
+
+
+
++-- {: .num_prop #ConsecutiveWZWTermsFromConsecutiveLInfinityCocycles}
+###### Proposition
+
+There is a [[nLab:homotopy pullback]] square in [[nLab:smooth homotopy types]] of the form
+
+$$
+  \array{
+     \widetilde {\hat G}
+     &\stackrel{}{\longrightarrow}&
+     \mathbf{\Omega}^{p_1+1}
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde G
+     &\stackrel{\mathbf{L}_1}{\longrightarrow}&
+     \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the following [[nLab:pasting]] composite
+
+$$
+  \array{
+    \mathbf{\Omega}^{p_1+1}
+    &\longrightarrow&
+    \ast
+    &\longleftarrow&
+    \ast
+    \\
+    {}^{\mathllap{\mathbf{d}}}\downarrow &\swArrow& \downarrow && \downarrow
+    \\
+    \mathbf{\Omega}^{p_1+2}
+    &\longrightarrow&
+    \flat_{dR}\mathbf{B}^{p_1+2}\mathbb{R}
+    &\stackrel{\theta_{\mathbf{B}^{p_1}\mathbb{R}}}{\longleftarrow}&
+    \mathbf{B}^{p_1+1}\mathbb{R}
+     \\
+     \uparrow^{\mathrlap{\mu_1}} && \uparrow^{\mathrlap{\flat_{dR} \mathbf{c}_1 }} && \uparrow^{\mathrlap{\Omega \mathbf{c}_1}}
+     \\
+     \mathbf{\Omega}^1_{flat}(-,\mathfrak{g})
+     &\stackrel{}{\longrightarrow}&
+     \flat_{dR}\mathbf{B}G
+     &\stackrel{\theta_G}{\longleftarrow}&
+     G
+  }
+  \,,
+$$
+
+where
+
+* the top left square is the evident homotopy;
+
+* the bottom left square is from prop. \ref{HodgeFiltrationRefinementFromLInfinityCocycles};
+
+* the top right square expresses that $\theta$ preserves the basepoint;
+
+* the bottom right square is the naturality of the [[nLab:Maurer-Cartan form]] construction.
+
+Under forming [[nLab:homotopy limits]] over the _horizontal_ cospan diagrams here, this turns into
+
+$$
+  \array{
+     \mathbf{\Omega}^{p_1+1}
+     \\
+     \downarrow
+     \\
+     \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+     \\
+     \uparrow^{\mathrlap{\mathbf{L}_1}}
+     \\
+     \tilde G
+  }
+$$
+
+by def. \ref{WZWTermFromLieIntegration}. On the other hand, forming homotopy limits _vertically_ this turns into
+
+$$
+  \array{
+    \mathbf{\Omega}^1_{flat}(-,\hat \mathfrak{g})
+    &\longrightarrow&
+    \flat_{dR}\mathbf{B}G_2
+    &\stackrel{\theta_{\hat G}}{\longleftarrow}&
+    \hat G
+  }
+$$
+
+(on the left by corollary \ref{PullbackOfDifferentialFormCoefficients}, on the right by the second clause in def. \ref{ConsecutiveCocycles}).
+
+The homotopy limit over that last [[nLab:cospan]], in turn, is $\widetilde{\hat G}$. This implies the claim by the fact that homotopy limits commute with each other.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{ConsecutiveWZWTermsFromConsecutiveLInfinityCocycles} says how consecutive pairs of $L_\infty$-cocycles Lie integrate suitably to consecutive pairs of WZW terms.
+
+
+=--
+
++-- {: .num_cor #TildeHatGIsDifferentialModuliBundle}
+###### Corollary
+
+In the above situation there is a [[nLab:homotopy fiber sequence]] of [[nLab:infinity-group]] objects of the form
+
+$$
+  \array{
+    \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn}
+    &\longrightarrow&
+    \widetilde {\hat G}
+    \\
+    && \downarrow
+    \\
+    && \tilde G &\overset{\mathbf{L}_1}{\longrightarrow}& \mathbf{B}\left( \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn} \right)
+  }
+  \,,
+$$
+
+where the bottom horizontal morphism is the [[nLab:higher WZW term]] that Lie integrates $\mu_1$, followed by the
+canonical projection
+
+$$
+  \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn} \to \mathbf{B}\left( \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn} \right)
+$$
+
+which removes the top-degree differential form data from a [[nLab:circle n-bundle with connection|higher connection]].
+
+Hence $\widetilde{\hat G}$ is an [[nLab:infinity-group extension]] of $\tilde G$ by the
+[[nLab:moduli stack]] of [[nLab:circle n-bundle with connection|higher connections]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ConsecutiveWZWTermsFromConsecutiveLInfinityCocycles} and the [[nLab:pasting law]], the [[nLab:homotopy fiber]] of $\widetilde {\hat G} \to \tilde G$ is equivalently the homotopy fiber of $\mathbf{\Omega}^{p_1+1}\to \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}$,
+which in turn is equivalently the homotopy fiber of $\ast \to \mathbf{B}\left( \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn} \right)$,
+which is $\mathbf{B}\left( \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn} \right)$:
+
+$$
+  \array{
+     \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn}
+       &\longrightarrow&
+     \widetilde {\hat G}
+       &\overset{}{\longrightarrow}&
+     \mathbf{\Omega}^{p_1+1}
+       &\overset{}{\longrightarrow}&
+     \ast
+     \\
+     \downarrow &(pb)& \downarrow &(pb)& \downarrow &(pb)& \downarrow
+     \\
+     \ast
+       &\longrightarrow&
+     \tilde G
+       &\stackrel{\mathbf{L}_1}{\longrightarrow}&
+     \mathbf{B}^{p_1+1}(\mathbb{R}/\Gamma_1)_{conn}
+       &\overset{}{\longrightarrow}&
+     \mathbf{B}\left( \mathbf{B}^{p_1}(\mathbb{R}/\Gamma_1)_{conn} \right)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #InterpretationOfTildeHatG}
+###### Remark
+
+Corollary \ref{TildeHatGIsDifferentialModuliBundle} says that $\widetilde {\hat G}$ is a [[nLab:bundle]] of [[nLab:moduli stacks]] for [[nLab:differential cohomology]] over $\tilde G$. This means that maps
+
+$$
+  \Sigma \longrightarrow \widetilde{\hat G}
+$$
+
+(which are the [[nLab:field (physics)|fields]] of the higher [[nLab:WZW model]] with WZW term $\mathbf{L}_2$) are pairs of plain maps $\phi \colon \Sigma \to \tilde G$ together with a differential cocycle on $\Sigma$, i.e. a $p_1$-form connection on $\Sigma$, which is twisted by $\phi$ in a certain way.
+
+
+[Below](#TheHigherWZWTermsOfSuperpBranes) we discuss that
+this occurs for the (properly globalized) [[nLab:Green-Schwarz super p-brane sigma models]] of all the [[nLab:D-branes]] and of the [[nLab:M5-brane]]. For the D-branes $p_1 = 1$ and so there is a 1-form connection on their [[nLab:worldvolume]], the [[nLab:Chan-Paton gauge field]]. For the [[nLab:M5-brane]] $p_1 = 2$ and so there is a 2-form connection on its worldvolume, the [[nLab:self-dual higher gauge field]] in 6d.
+
+=--
+
++-- {: .num_example #TargetStackForDBranes}
+###### Example
+
+For each [[nLab:D-brane|Dp-brane]] species in [[nLab:type IIA string theory]] there is a pair of consecutive cocycles
+(def. \ref{ConsecutiveCocycles}) of the form
+
+$$
+  \array{
+    \mathfrak{string}_{IIA} &\overset{\mu_{Dp}}{\longrightarrow}& b^{p+1} \mathbb{R}
+    \\
+    \downarrow
+    \\
+    \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
+      &\overset{\mu_{F1}^{IIA}}{\longrightarrow}&
+    b^2 \mathbb{R}
+  }
+  \,.
+$$
+
+This is by the discussion [below](#TheBraneBouquet). Here
+
+$$
+  \mu_{Dp} = (C \wedge \exp(F_2))_{p+2}
+$$
+
+reflects the familiar D-brane coupling to the [[nLab:RR-fields]] $C = C_2 + C_4 + \cdots$, given an abelian [[nLab:Chan-Paton gauge field]]
+with [[nLab:field strength]] $F_2$, see def. \ref{IIADpbranecocycles} below.
+
+
+The WZW term induced by $\mu_{F1}^{IIA}$ is the globalization of the original term introduced by
+Green and Schwarz in the construction of the [[nLab:Green-Schwarz sigma-model]] for the [[nLab:superstring]].
+
+Now corollary \ref{TildeHatGIsDifferentialModuliBundle} says in this case
+that the Dp-brane sigma model has as target space the [[nLab:smooth infinity-group|smooth super 2-group]]
+$\widetilde{ String_{IIA} }$
+which is an [[nLab:infinity-group extension]] of [[nLab:super Minkowski spacetime]] by
+the [[nLab:moduli stack]] $\mathbf{B}U(1)_{conn}$ for [[nLab:complex line bundles]]
+with [[nLab:connection on a principal bundle|connection]], sitting in a [[nLab:homotopy fiber sequence]]
+of the form
+
+$$
+  \array{
+    \mathbf{B}U(1)_{conn}
+      &\longrightarrow&
+    \widetilde{ String_{IIA} }
+    \\
+    &&
+    \downarrow
+    \\
+    && \mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}
+    &\overset{\mathbf{L}_{Dp}}{\longrightarrow}&
+    \mathbf{B}(\mathbf{B}^{p}U(1)_{conn})
+  }
+  \,.
+$$
+
+
+It follows that field configurations for the [[nLab:D-brane]] given by morphisms
+
+$$
+  \Sigma_{p+1} \longrightarrow \widetilde{ String_{IIA} }
+$$
+
+are equivalently pairs, consisting of an ordinary [[nLab:sigma-model]] field
+
+$$
+  \phi \;\colon\; \Sigma_{p+1} \longrightarrow \mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}
+$$
+
+together with a twisted 1-form connection on $\Sigma$, the twist depending on $\phi$.
+(In fact here the twist vanishes in bosonic degrees, unless we introduce a nontrivial bosonic component of the [[nLab:B-field]]).
+This is just the right datum of the (abelian) [[nLab:Chan-Paton gauge field]] on the D-brane.
+
+=--
+
+
+### Consecutive WZW terms descending to twisted cocycles
+
+Above we considered consecutive cocycles (def. \ref{ConsecutiveCocycles}) with [[nLab:coefficients]] in [[nLab:line Lie-n algebras]]
+$b^{p+1}\mathbb{R}$.  Here we discuss how these may descend to single cocycles with richer [[nLab:coefficients]].
+
+Below we find as examples of this general phenomenon
+
+1. the descent of the separate [[nLab:D-brane]] cocycles to the RR-fields in [[nLab:twisted K-theory]], rationally ([here](#F1DpCocycles))
+
+1. the descent of the [[nLab:M5-brane]] cocycle to a cocycle in degree-4 [[nLab:cohomology]], rationally ([here](#MFluxFields)).
+
+$\,$
+
+Given one stage of consecutive $L_\infty$-cocycles, def. \ref{LInfinityCocycle}
+(e.g in the [[brane bouquet]] discussed [below](#TheBraneBouquet))
+
+$$
+  \array{
+    \hat \mathfrak{g}
+    &
+      \stackrel{\mu_2}{\longrightarrow}
+    &
+    \mathbf{B}\mathfrak{h}_2
+    \\
+    {}^{\mathllap{hofib(\mu_1)}}\downarrow
+    \\
+    \mathfrak{g}
+    \\
+    & {}_{\mathllap{\mu_1}}\searrow
+    \\
+    && \mathbf{B}\mathfrak{h}_1
+  }
+$$
+
+then $\hat \mathfrak{g}$ may be thought of, in a precise sense, as being a $\mathfrak{h}_1$-[[nLab:principal ∞-bundle]] over $\mathfrak{g}$.
+
+This and the following statements all are the general theorems of ([Nikolaus-Schreiber-Stevenson 12](#NSS12)) specified to $L_\infty$-algebras regarded as infinitesimal $\infty$-stacks (aka "[[nLab:formal moduli problems]]") according to [dcct](#dcct). Here we do not not have the space to dwell further on the details of this general theory of higher principal bundles, but the reader familiar with [[nLab:Lie groupoids]] gets an accurate impression by considering the analogous situation in that context (see at _[[nLab:geometry of physics -- principal bundles]]_ for detailed lecture notes that cover the following):
+
+for $H$ a [[nLab:Lie group]] and $\mathbf{B}H$ its one-object [[nLab:delooping]] [[nLab:Lie groupoid]], and for $G$ another Lie group (or just any [[nLab:smooth manifold]]), then a generalized morphism of Lie groupoids
+
+$$
+  \array{
+     G
+     \\
+     & \searrow
+     \\
+     && \mathbf{B}H
+  }
+$$
+
+
+(i.e. a morphism between the [[nLab:smooth stacks]] which they represent, or equivalently a [[nLab:bibundle]] of Lie groupoids) classifies a smooth $H$-[[nLab:principal bundle]] over $H$, and the total space $\hat G$ of that bundle is equivalently the [[nLab:homotopy fiber]] of the original map.
+
+$$
+  \array{
+     \hat G
+     \\
+     \downarrow
+     \\
+     G
+     \\
+     & \searrow
+     \\
+     && \mathbf{B}H
+  }
+$$
+
+This is explained in some detail at _[principal bundle -- In a (2,1)-topos](https://ncatlab.org/nlab/show/principal%20bundle#InA2Topos)_.
+
+Back to the abalogous situation of $L_\infty$-algebras instead of Lie groups, it is now natural to ask whether the second cocycle $\mu_2$, defined on the total space (stack) of this bundle is _equivariant_ under the [[nLab:∞-action]] of  $\mathfrak{h}_1$. If $\mu_2$ does not itself already come from the base space, then it can at best be equivariant with respect to an $\mathfrak{h}_1$-[[nLab:∞-action]] on $\mathbf{B}\mathfrak{h}_2$.
+
+A first observation now is that specifying such [[nLab:∞-action]] $\rho$ is equivalent to specifying a second homotopy fiber sequence of the form as on the right of this completed diagram:
+
+$$
+  \array{
+    \hat \mathfrak{g}
+    &&
+      \stackrel{\mu_2}{\longrightarrow}
+    &&
+    \mathbf{B}\mathfrak{h}_2
+    \\
+    {}^{\mathllap{hofib(\mu_1)}}\downarrow
+    && &&
+    \downarrow^{\mathrlap{hofib(p_\rho)}}
+    \\
+    \mathfrak{g}
+    && &&
+    (\mathbf{B}\mathfrak{h}_2)/\mathfrak{h}_1
+    \\
+    & {}_{\mathllap{\mu_1}}\searrow  && \swarrow_{\mathrlap{p_\rho}}
+    \\
+    && \mathbf{B}\mathfrak{h}_1
+  }
+  \,.
+$$
+
+In the simple analogous situation of [[nLab:Lie groupoids]] this comes about as follows (see at _[[nLab:geometry of physics -- representations and associated bundles]]_ for detailed lecture notes on the following):
+
+for $H$ a [[nLab:Lie group]] and $\rho$ a smooth [[nLab:action]] of $H$ on some [[nLab:smooth manifold]] $V$, then there is the [[nLab:action groupoid]] $V/H$. Its [[nLab:objects]] are the points of $V$, but then it has morphisms of the form $v \stackrel{h}{\longrightarrow} \rho(h)(v)$ connecting any two objects that are taken to each other by the Lie group action. For example when $V = \ast$ is the point, then $\ast/H \simeq \mathbf{B}H$ is just the one-object [[nLab:delooping]] Lie groupoid of the Lie group $H$ itself. This also shows that there is canonical map
+
+$$
+  \array{
+   && V/H
+   \\
+   & \swarrow
+   \\
+   \mathbf{B}H
+  }
+$$
+
+which is given by sending all $v\in V$ to the point, and sending each morphism $v \stackrel{h}{\longrightarrow} \rho(h)(v)$ to $\ast \stackrel{h}{\longrightarrow} \ast$.
+
+This projection is evidently an [[nLab:isofibration]], meaning that if we have a morphism in $\mathbf{B}G$ and a lift of its source object to $V/H$, then there is a compatible lift of the whole morphism. This is a technical condition which ensures that the ordinary [[nLab:fiber]] of this morphism is equivalently already it [[nLab:homotopy fiber]]. But the ordinary fiber of this morphisms, hence the stuff in $V/H$ that gets send to the (identity morphism on) the point, is clearly just $V$ itself again. Hence we conclude that the action of $G$ on $V$ induced a [[nLab:homotopy fiber sequence]]
+
+$$
+  \array{
+   && V
+   \\
+   && \downarrow
+   \\
+   && V/H
+   \\
+   & \swarrow
+   \\
+   \mathbf{B}H
+  }
+  \,.
+$$
+
+With a little more work one may show that every homotopy fiber sequence of this form is induced this way by an action, up to equivalence. Hence actions of $H$ are equivalently [[nLab:bundles]] over $\mathbf{B}H$. One way to understand this is to observe that the [[nLab:action groupoid]] $V/H$ is a model for the [[nLab:homotopy quotient]] of the action, and by the [[nLab:Borel construction]] this may equivalently be written as the $\rho$-[[nLab:associated bundle]] to the $H$-[[nLab:universal principal bundle]]:
+
+$$
+  V/H \simeq \mathbf{E}H \underset{\rho}{\times} V
+  \,.
+$$
+
+Hence the statement is that the map that sends $H$-actions $\rho$ the universal $\rho$-[[nLab:associated bundle]] is an equivalence, not just in the context of Lie groups andLie groupoids but much more generally (in every "[[nLab:(infinity,1)-topos]]").
+
+Again back now to the analogous situation with $L_\infty$-algebras instead of Lie groups, a second fact which we are to invoke then is that given $\rho$, then the $\infty$-equivariance of $\mu_2$ is equivalent to it descending down the [[nLab:homotopy fibers]] on both sides to an $L_\infty$-homomorphism of the form
+
+$$
+  \mu_2/\mathfrak{h}_1
+  \;\colon\;
+  \mathfrak{g}
+  \longrightarrow
+  (\mathbf{B}\mathfrak{h}_2)/\mathfrak{h}_1
+$$
+
+making this [[nLab:diagram]] [[nLab:commuting diagram|commute]] in the [[nLab:homotopy category]]:
+
+$$
+  \array{
+    \hat \mathfrak{g}
+    &&
+      \stackrel{\mu_2}{\longrightarrow}
+    &&
+    \mathbf{B}\mathfrak{h}_2
+    \\
+    {}^{\mathllap{hofib(\mu_1)}}\downarrow
+    && &&
+    \downarrow^{\mathrlap{hofib(p_\rho)}}
+    \\
+    \mathfrak{g}
+    &&
+      \stackrel{\mu_2/\mathfrak{h}_1}{\longrightarrow}
+    &&
+    (\mathbf{B}\mathfrak{h}_2)/\mathfrak{h}_1
+    \\
+    & {}_{\mathllap{\mu_1}}\searrow  && \swarrow_{\mathrlap{p_\rho}}
+    \\
+    && \mathbf{B}\mathfrak{h}_1
+  }
+  \,.
+$$
+
+In our example of Lie group principal bundles this comes down to a classical statement:
+
+one may explicitly check that a morphism of the form
+
+$$
+  \array{
+     X && \stackrel{\sigma}{\longrightarrow} && V/H
+     \\
+     & \searrow && \swarrow
+     \\
+     && \mathbf{B}H
+  }
+$$
+
+is equivalently a [[nLab:section]] of the $V$-[[nLab:fiber bundle]] which is [[nLab:associated bundle|associated]] via $\rho$ to the $H$-[[nLab:principal bundle]] that is classified by the map on the left. If we pass this to the iterated [[nLab:homotopy fibers]] (the [[nLab:Cech nerve]]) of the vertical maps
+
+$$
+  \array{
+     P \underset{X}{\times}P \simeq P \times H && \longrightarrow && V \times H
+     \\
+     \downarrow\downarrow && && \downarrow \downarrow
+     \\
+     P && \stackrel{\tilde \sigma}{\longrightarrow} && V
+     \\
+     \downarrow && && \downarrow
+     \\
+     X && \stackrel{\sigma}{\longrightarrow} && V/H
+     \\
+     & \searrow && \swarrow
+     \\
+     && \mathbf{B}H
+  }
+$$
+
+then this $\sigma$ induces a $V$-valued function on the total space $P$ of the principal bundle with the property that this is $G$-equivariant. It is a classical fact that such equivariant $V$-valued functions on total spaces of principal bundles are equivalent to sections of the associated $V$-fiber bundles. What we are claiming and using here is that this fact again holds in vastly more generality, namely in an [[nLab:(infinity,1)-topos]].
+
+In conclusion:
+
++-- {: .num_remark #TwistedCocycle}
+###### Remark
+
+The resulting triangle diagram
+
+$$
+  \array{
+    \mathfrak{g}
+    &&
+      \stackrel{\mu_2/\mathfrak{h}_1}{\longrightarrow}
+    &&
+    (\mathbf{B}\mathfrak{h}_2)/\mathfrak{h}_1
+    \\
+    & {}_{\mathllap{\mu_1}}\searrow  && \swarrow_{\mathrlap{p_\rho}}
+    \\
+    && \mathbf{B}\mathfrak{h}_1
+  }
+$$
+
+regarded as a morphism
+
+$$
+  \mu_2/\mathfrak{h}_1 \;\colon\; \mu_{1} \longrightarrow p_rho
+$$
+
+in the [[nLab:slice (infinity,1)-topos|slice]] over $\mathbf{B}\mathfrak{h}_1$
+exhibits $\mu_2/\mathfrak{h}_1$ as a [[nLab:cocycle]] in ([[nLab:rational homotopy theory|rational]]) _$\mu_1$-[[nLab:twisted cohomology]]_ with respect to the [[nLab:local coefficient bundle]] $p_\rho$.
+
+=--
+
+([Nikolaus-Schreiber-Stevenson 12](#NSS12))
+
+Notice that a priori this is (twisted) [[nLab:nonabelian cohomology]], though it may happen to land in abelian-, i.e. stable-cohomology.
+
+Such descent is what one needs to find for the [[brane bouquet]] [above](#pBranes), in order to interpret each of its branches as encoding $p$-brane model on spacetime itself. This is a purely algebraic problem which has been solved ([Fiorenza-Sati-Schreiber 15](#FSS15)). We discuss the solution in a moment.
+
 
 
 
@@ -2265,7 +3496,7 @@ where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetr
 
 $\,$
 
-## Branes
+## Super $p$-Branes
  {#Branes}
 
 
@@ -2397,7 +3628,7 @@ This phenomenon continues:
 
 +-- {: .num_theorem}
 ###### Theorem
-**([J. Huerta](#MTheoryFromTheSuperpoint))
+**([Huerta-Schreiber 17](#MTheoryFromTheSuperpoint))
 
 The [[diagram]] of [[super Lie algebras]] shown on the right
 
@@ -2470,7 +3701,6 @@ in the [[Green-Schwarz sigma-model]] for the [[D0-brane]]. We come back to this
 below in remark \ref{TheNatureOfTheD0Cocycle}.
 
 =--
-
 
 
 
@@ -6057,6 +7287,7 @@ where
 * $[G,-]/G$ denotes the [[homotopy quotient]] by the [[conjugation action|conjugation]]
 [[∞-action]] for $G$ equipped with its canonical [[∞-action]] by left multiplication and the argument
 regarded as equipped with its trivial $G$-$\infty$-action.
+(Hence the claim is that $[G,-]/G$ is the right [[base change]]/[[dependent product]] along the canonical $\ast \to \mathbf{B}G$.)
 
 Hence for
 
