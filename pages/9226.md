@@ -41,8 +41,8 @@ A fairly comprehensive account of factorization algebras as a formalization of [
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _[[Factorization algebras in perturbative quantum field theory]]_ 
 
-* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
- {#Gwilliam}
+* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([[GwilliamThesis.pdf:file]])
+ 
 
 and the beginning of
 
