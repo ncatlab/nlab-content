@@ -1,0 +1,22 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The _real projective space_ $\mathbb{R}P^n$ is the [[projective space]] of the real [[vector space]] $\mathbb{R}^{n+1}$.
+
+Equivalently this is the [[Grassmannian]] $Gr_1(\mathbb{R}^{n+1})$.
+
+## Related concepts
+
+* [[complex projective space]]
+
+## References
+
+* Wikipedia, _[Real projective space](https://en.wikipedia.org/wiki/Real_projective_space)_
+
+[[!redirects real projective spaces]]
