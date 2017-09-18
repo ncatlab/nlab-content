@@ -13,7 +13,7 @@
 
 ##Idea##
 
-In [[topology]], a not necessarily continuous function $f:X\to Y$ between [[Hausdorff space|Hausdorff spaces]] is _dominant_ , or _dense_ , in the sense that the [[image]] of $f$ is [[dense subspace|dense]] in $Y$, precisely if every continuous map $g:Y\to Z$ to some other Hausdorff space $Z$ is uniquely determined by $g\circ f$.
+In [[topology]], a not necessarily continuous function $f:X\to Y$ between [[Hausdorff space|Hausdorff spaces]] is _dominant_, or _dense_, in the sense that the [[image]] of $f$ is [[dense subspace|dense]] in $Y$, precisely if every continuous map $g:Y\to Z$ to some other Hausdorff space $Z$ is uniquely determined by $g\circ f$.
 
 The concept of a **dense functor** is a generalization of this concept to functors. 
 
