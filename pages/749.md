@@ -131,7 +131,7 @@ This implies the claim with the [above proposition](#PresentationOfhypercomplete
 
 The local model structure on simplicial sheaves was proposed in
 
-* [[Andre Joyal]], Letter to Grothendieck (197x)
+* [[Andre Joyal]], Letter to [[Alexander Grothendieck]], 11.4.1984, [[lettrejoyal.pdf:file]].
 
 This is with [[BrownAHT]] among the first proposals for models for [[∞-stack]].
 
