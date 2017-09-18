@@ -423,3 +423,4 @@ An account of the traditional way to think of the construction of the universal 
 [[!redirects covering spaces]]
 [[!redirects wrapping space]]
 [[!redirects wrapping spaces]]
+[[!redirects covering groupoid]]
