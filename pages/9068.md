@@ -4,7 +4,7 @@ Let $F\colon A \to B$ be a [[functor]] between [[categories]]. It is **codense**
 
   $Lim((b \downarrow F) \to A \to B) = b$
 
-(where $(b \downarrow F)$ is an [[comma category]] (in this case the [[under category]]) from $b$ to the functor $F$.
+(where $(b \downarrow F)$ is a [[comma category]] (in this case the [[under category]]) from $b$ to the functor $F$.
 
 This notion is dual to the notion of [[dense functor]].
 
