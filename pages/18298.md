@@ -30,7 +30,7 @@ A _topological vector bundle_ is a [[vector bundle]] in the context of _[[topolo
 
 ## Definition
 
-We first give the more abstract definiton 
+We first give the more abstract definiton
 in terms of slice categories (def. \ref{TopologicalVectorBundleInTermsOfSliceCategories} below) and then unwind this to the traditional definition (def \ref{TopologicalVectorBundle} below).
 
 For definiteness, in the following by _[[vector space]]_ we mean _[[real vector space|real]] [[finite dimensional vector space]]_. The generalization to other [[topological fields|topological]] [[ground field]] such as the [[complex numbers]] is immediate.
@@ -44,27 +44,27 @@ For definiteness, in the following by _[[vector space]]_ we mean _[[real vector 
 Write [[Top]] for the [[category]] of [[topological spaces]], and for $X \in Top$ a space, write $Top_{/X}$ for its [[slice category]] over $X$. The [[Cartesian product]] in $Top_{/X}$ is the [[fiber product]] over $X$ in $Top$, which we denote by $(-) \times_X (-)$.
 
 A _topological vector bundle_ over $X \in Top$ is
- 
-1. an [[object ]] $[E \overset{\pi}{\to} X]$ of $Top_{/X}$ 
 
-1. with the [[structure]] of a [[vector space]]-object [[internalization|interal]] to $Top_{/X}$, hence 
+1. an [[object ]] $[E \overset{\pi}{\to} X]$ of $Top_{/X}$
 
-   1. a [[morphism]] $ (-)+(-) \;\colon\; E \times_X E \to E$ 
+1. with the [[structure]] of a [[vector space]]-object [[internalization|interal]] to $Top_{/X}$, hence
 
-   1. a morphism $(-)\cdot(-) \;\colon\; \mathbb{R} \times E \to E$ 
+   1. a [[morphism]] $ (-)+(-) \;\colon\; E \times_X E \to E$
 
-   which satisfy the vector space axioms 
+   1. a morphism $(-)\cdot(-) \;\colon\; \mathbb{R} \times E \to E$
 
-such that 
+   which satisfy the vector space axioms
 
-* ([[local trivialization|local triviality]]) there exists 
+such that
+
+* ([[local trivialization|local triviality]]) there exists
 
   1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$, regarded via the [[disjoint union space]] $U \coloneqq \underset{i \in I}{\sqcup} U_i$ of the patches as the object $ [U \to X] \in Top_{/X}$,
 
-  1. an [[isomorphism]] of vector space objects in $Top_{/U}$ 
+  1. an [[isomorphism]] of vector space objects in $Top_{/U}$
 
      $$
-       U \times \mathbb{R}^n 
+       U \times \mathbb{R}^n
          \overset{\simeq}{\longrightarrow}
        U \times_X E
        \,,
@@ -78,7 +78,7 @@ A _[[homomorphism]]_ of topological vector bundles is simple a homomorphism of v
 
 Topological vector bundles over $X$ and homomorphisms between them constitutes a [[category]], usually denoted [[Vect(X)]].
 
-=--     
+=--
 
 Notice that viewed in [[Top]], the last condition means that there is a [[diagram]] of the form
 
@@ -96,7 +96,7 @@ $$
   }
 $$
 
-where the square is a [[pullback square]] and the [[homeomorphism]] in the top left is fiber-wise linear. 
+where the square is a [[pullback square]] and the [[homeomorphism]] in the top left is fiber-wise linear.
 
 If we say this yet more explicitly, it yields the definition as found in the traditional textbooks:
 
@@ -110,11 +110,11 @@ Let $X$ be a [[topological space]]. Then a _topological vector bundle_ over $X$ 
 
 1. a [[continuous function]] $E \overset{\pi}{\to} X$
 
-1. for each $x \in X$ the stucture of a [[real vector space]] on the [[pre-image]] 
+1. for each $x \in X$ the stucture of a [[real vector space]] on the [[pre-image]]
 
    $$E_x \coloneqq \pi^{-1}(\{x\}) \subset E$$
 
-such that there exists 
+such that there exists
 
 1. an [[open cover]] $\{U_i \subset X\}_{i \in I}$,
 
@@ -124,7 +124,7 @@ such that there exists
      \phi_i \;\colon\; U_i \times \mathbb{R}^n \overset{\simeq}{\longrightarrow} \pi^{-1}(U_i) \subset E
    $$
 
-   from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that 
+   from the [[product topological space]] of $U_i$ with the [[real numbers]] (equipped with their [[Euclidean space]] [[metric topology]]) to the restriction of $E$ over $U_i$, such that
 
    1. $\phi_i$ is a map over $U_i$ in that $\pi \circ \phi_i = pr_1$, hence in that $\phi_i(\{x\} \times \mathbb{R}^n) \subset \pi^{-1}(\{x\})$
 
@@ -133,19 +133,19 @@ such that there exists
       $$
         \underset{x \in U_i \cap U_j}{\forall}
         \left(
-          \phi_i(x) \;\colon\; 
+          \phi_i(x) \;\colon\;
              \mathbb{R}^n \overset{\text{linear}}{\longrightarrow}
             E_x = \pi^{-1}(\{x\})
         \right)
         \,.
       $$
 
-For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_ 
+For $[E_1 \overset{\pi_1}{\to} X]$ and $[E_2 \overset{\phi_2}{\to} X]$ two topological vector bundles over the same base space, then a _[[homomorphism]]_
 between them is
 
 * a [[continuous function]] $f \colon E_1 \longrightarrow E_2$
 
-such that 
+such that
 
 1. $f$ respects the [[projections]]: $\pi_2 \circ f = \pi_1$;
 
@@ -175,7 +175,7 @@ we have that the [[product topological space]]
 
 $$
   X \times \mathbb{R}^n \overset{pr_1}{\to} X
-$$ 
+$$
 
 canonically becomes a topological vector bundle over $X$ (def. \ref{TopologicalVectorBundle}). This is called the _[[trivial vector bundle]]_ of [[rank]] $n$ over $X$.
 
@@ -227,7 +227,7 @@ $$
 ###### Definition
 **([[transition functions]])
 
-Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of local trivialization isomorphisms $\{\phi_i \colon U_i \times \mathbb{R}^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle}) induce [[continuous functions]] 
+Given a topological vector bundle $E \to X$ as in def. \ref{TopologicalVectorBundle} and a choice of local trivialization isomorphisms $\{\phi_i \colon U_i \times \mathbb{R}^n \overset{\simeq}{\to} E|_{U_i}\}$ (example \ref{TrivialTopologicalVectorBundle}) induce [[continuous functions]]
 
 $$
   \left\{
@@ -246,7 +246,7 @@ $$
     (x,v) &\overset{\phantom{AAA}}{\mapsto}& (x, g_{i j}(x)(v))
   }
   \,.
-$$ 
+$$
 
 These are called the _[[transition functions]]_ for the given local trivialization.
 
@@ -265,9 +265,9 @@ $$
   \phantom{AAA}
   \text{and}
   \phantom{AAA}
-  g_{i j} \circ g_{j k} 
-    = 
-  g_{i k} 
+  g_{i j} \circ g_{j k}
+    =
+  g_{i k}
   \phantom{AA}
   \text{on}\, U_i \cap U_j \cap U_k
   \,.
@@ -293,7 +293,7 @@ and on each double intersection a [[continuous function]] with values in the [[g
 
 $$
   \left\{
-    g_{i j} 
+    g_{i j}
       \;\colon\;
     U_i \cap U_j
       \to
@@ -308,9 +308,9 @@ $$
   \phantom{AAA}
   \text{and}
   \phantom{AAA}
-  g_{i j} \circ g_{j k} 
-    = 
-  g_{i k} 
+  g_{i j} \circ g_{j k}
+    =
+  g_{i k}
   \phantom{AA}
   \text{on}\, U_i \cap U_j \cap U_k
 $$
@@ -345,7 +345,7 @@ $$
 Write
 
 $$
-  E 
+  E
    \;\coloneqq\;
   \left(
     \left(
@@ -387,14 +387,14 @@ In fact extracting transition functions from a vector bundle by def. \ref{Transi
 
 Stated more [[category theory|category theoretically]], the constructure of a topological vector bundle from Cech cocycle data in example \ref{TopologicalVectorBundleFromCechCocycle} is a [universal construction in topological spaces](Top#UniversalConstructions), namely the [[coequalizer]] of the two morphisms
 
-$$i, \mu: \underset{i j}{\sqcup} (U_i \cap U_j) \times V \overset{\to}{\to} \underset{i}{\sqcup} U_i \times V$$ 
+$$i, \mu: \underset{i j}{\sqcup} (U_i \cap U_j) \times V \overset{\to}{\to} \underset{i}{\sqcup} U_i \times V$$
 
-in the category of vector space objects in the slice category $Top/X$. Here the restriction of $i$ to the coproduct summands is induced by inclusion: 
+in the category of vector space objects in the slice category $Top/X$. Here the restriction of $i$ to the coproduct summands is induced by inclusion:
 
-$$(U_i \cap U_j) \times V \hookrightarrow U_i \times V \hookrightarrow \underset{i}{\sqcup} U_i \times V$$ 
+$$(U_i \cap U_j) \times V \hookrightarrow U_i \times V \hookrightarrow \underset{i}{\sqcup} U_i \times V$$
 
-and the restriction of $\mu$ to the coproduct summands is 
-via the action of the transition functions: 
+and the restriction of $\mu$ to the coproduct summands is
+via the action of the transition functions:
 
 $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to} U_j \times GL(V) \times V \overset{action}{\to} U_j \times V \hookrightarrow \underset{j}{\sqcup} U_j \times V$$
 
@@ -403,6 +403,7 @@ $$(U_i \cap U_j) \times V \overset{(\langle incl, g_{i j} \rangle) \times V}{\to
 
 
 ## Properties
+
 
 ### Direct summand bundles
  {#DirectSummandBundles}
@@ -413,11 +414,11 @@ We discuss properties of the [[direct sum of vector bundles]] for topological ve
 ###### Proposition
 **(sub-bundles over [[paracompact spaces]] are [[direct sum of vector bundles|direct summands]])**
 
-Let 
+Let
 
 1. $X$ be a [[paracompact Hausdorff space]],
 
-1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}). 
+1. $E \to X$ a [[topological vector bundle]] (def. \ref{TopologicalVectorBundle}).
 
 Then every topological vector sub-bundle $E_1 \hookrightarrow E$ (example \ref{TopologicalVetorSubbundle}) is a direct vector bundle summand, in that there exists another vector sub-bundle $E_2 \hookrightarrow E$ (example \ref{TopologicalVetorSubbundle}) such that their [[direct sum of vector bundles]] is $E$:
 
@@ -438,7 +439,7 @@ Since $X$ is assumed to be paracompact Hausdorff, there exists an [[inner produc
 $$
   \langle -,-\rangle
   \;\colon\;
-  E \oplus_X E 
+  E \oplus_X E
     \longrightarrow
   X \times \mathbb{R}
 $$
@@ -457,7 +458,7 @@ $$
 ###### Proposition
 **(vector bundles over a [[compact Hausdorff space]] are [[direct sum of vector bundles|direct summands]] of a [[trivial vector bundle]])**
 
-Let 
+Let
 
 1. $X$ be a [[compact Hausdorff space]];
 
@@ -492,7 +493,7 @@ $$
   \,.
 $$
 
-By compactness of $X$, there is a [[finite cover|finite sub-cover]], hence a [[finite set]] $J \subset I$ such tat 
+By compactness of $X$, there is a [[finite cover|finite sub-cover]], hence a [[finite set]] $J \subset I$ such tat
 
 $$
   \{U_i \subset X\}_{i \in J \subset I}
@@ -512,11 +513,11 @@ with [[support]] $supp(f_i) \subset U_i$. Hence the functions
 
 $$
   \array{
-    E\vert_{U_i} 
+    E\vert_{U_i}
      &\overset{\phantom{AAAA}}{\longrightarrow}&
     U_i \times \mathbb{R}^n
     \\
-    v 
+    v
        &\overset{\phantom{AAA}}{\mapsto}&
     f_i(x) \cdot \phi_i^{-1}(v)
   }
@@ -541,7 +542,7 @@ $$
   \;\colon\;
   E
     \longrightarrow
-  X \times \left( 
+  X \times \left(
     \underset{i \in J}{\oplus}
        \mathbb{R}^n
   \right)
@@ -550,7 +551,7 @@ $$
   \,.
 $$
 
-Observe that, as opposed to the single $f_i \cdot \phi^{-1}_i$, this is a fiber-wise injective, because at each point at least one of the $f_i$ is non-vanishing. Hence this is an injection of $E$ into a trivial vector bundle. 
+Observe that, as opposed to the single $f_i \cdot \phi^{-1}_i$, this is a fiber-wise injective, because at each point at least one of the $f_i$ is non-vanishing. Hence this is an injection of $E$ into a trivial vector bundle.
 
 With this the statement follows by prop. \ref{TopologicalSubBundlesOverParacompactHausdorffSpacesAreDirectSummands}.
 
@@ -572,7 +573,7 @@ Prop. \ref{OverCompactHausdorffSpacesEveryTopologicalVectorBundleIsDirectSummand
 
 We discuss that every [[concordance]] of topological vector bundles over a [[paracompact topological space]] makes the restriction of the vector bundle over the endpoints of the interval isomorphic (prop. \ref{ConcondanceOfTopologicalVectorBundles} below). In particular this implies tht the [[pullbacks of vector bundles]] along two [[homotopy|homotopic]] [[continuous functions]] are [[isomorphism|isomorphic]] (corollary \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} below). The proof below follows [Hatcher, theorem 1.6](#Hatcher).
 
-For $X$ a [[topological space]] write $X \times I$ for the [[product topological space]] with the [[closed interval]] $[0,1]$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]]. 
+For $X$ a [[topological space]] write $X \times I$ for the [[product topological space]] with the [[closed interval]] $[0,1]$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]].
 
 Write
 
@@ -601,7 +602,7 @@ For $X$ a [[topological space]], then for every topological vector bundle $E \to
 +-- {: .proof}
 ###### Proof
 
-By [[local trivialization|local trvializability]] of the vector bundle, there exists an open cover $\{V_j \subset X \times I\}_{j \in J}$ over which the bundle trivializes. For each point $x \in X$ this induces a cover of $\{x\} \times [0,1]$. This is a [[compact topological space]] (for instance by the [[Heine-Borel theorem]]) and hence there exists a [[finite set|finite]] [[subset]] $J_x \subset I$ such that $\{V_i \subset X\}_{i \in J_x}$ still covers $\{x\} \times [0,1]$. 
+By [[local trivialization|local trvializability]] of the vector bundle, there exists an open cover $\{V_j \subset X \times I\}_{j \in J}$ over which the bundle trivializes. For each point $x \in X$ this induces a cover of $\{x\} \times [0,1]$. This is a [[compact topological space]] (for instance by the [[Heine-Borel theorem]]) and hence there exists a [[finite set|finite]] [[subset]] $J_x \subset I$ such that $\{V_i \subset X\}_{i \in J_x}$ still covers $\{x\} \times [0,1]$.
 
 By finiteness of $J_x$, the [[intersection]]
 
@@ -623,7 +624,7 @@ $$
   \{W_{x,k} \subset [0,1]\}_{k \in K_x}
 $$
 
-each element of which is an [[interval]]. Since this is a finite cover, we may find numbers $\{0 = t_0 \lt t_1 \lt t_2 \lt \cdots \lt t_{n_x} = 1\}$ such that 
+each element of which is an [[interval]]. Since this is a finite cover, we may find numbers $\{0 = t_0 \lt t_1 \lt t_2 \lt \cdots \lt t_{n_x} = 1\}$ such that
 
 $$
   \{ [t_k, t_{k+1}] \subset [0,1] \}_{0 \leq k \lt n_x}
@@ -633,7 +634,7 @@ is a cover of $[0,1]$, and such that the given vector bundle still trivializes o
 
 By lemma \ref{TrivilizationOfVectorBundleOverProductSpaceWithInterval} this implies that the vector bundle in fact trivializes over $U_x \times [0,1]$.
 
-Applying this procedure for all points $x \in X$ yields a cover 
+Applying this procedure for all points $x \in X$ yields a cover
 
 $$
   \{ U_x \subset X  \}_{x \in X}
@@ -665,7 +666,7 @@ are [[isomorphism|isomorphic]] vector bundles over $X$.
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{CoverForProductSpaceWithIntrval} there exists an open cover $\{U_i \subset X\}_{i \in I}$ of $X$ such that the vector bundle $E$ trivializes over $U_i \times [0,1]$ for each $i \in I$. By [this lemma](paracompact+topological+space#CountableCoverOfUnionsofOpenSubsetsInsideGivenCover) there exists a [[countable cover]] 
+By lemma \ref{CoverForProductSpaceWithIntrval} there exists an open cover $\{U_i \subset X\}_{i \in I}$ of $X$ such that the vector bundle $E$ trivializes over $U_i \times [0,1]$ for each $i \in I$. By [this lemma](paracompact+topological+space#CountableCoverOfUnionsofOpenSubsetsInsideGivenCover) there exists a [[countable cover]]
 
 $$
   \{V_n \subset X\}_{n \in \mathbb{N}}
@@ -689,13 +690,13 @@ $$
   X_n \coloneqq graph( \psi_n ) \subset X \times [0,1]
 $$
 
-for the [[graph]] of the function $\psi_n$ equipped with its [[subspace topology]], and write 
+for the [[graph]] of the function $\psi_n$ equipped with its [[subspace topology]], and write
 
 $$
-  E_n 
+  E_n
    \coloneqq
   \psi_n^\ast E
-$$ 
+$$
 
 for the restriction of $E$ to that subspace.
 
@@ -712,8 +713,8 @@ $$
 are continuous. Since, by construction, these projections are non-trivial only on the [[support]] of $f_{n+1}$, and since $E$ is trivial on that support, they induce vector bundle isomorphisms of the form
 
 $$
-  h_n 
-    \;\colon\; 
+  h_n
+    \;\colon\;
   E_{n+1} \overset{\simeq}{\longrightarrow} E_n
   \,.
 $$
@@ -777,7 +778,7 @@ $$
   \,.
 $$
 
-By the [[pasting law]] for pullbacks we have that 
+By the [[pasting law]] for pullbacks we have that
 
 $$
   f^\ast E = (\eta \circ i_0)^\ast E
@@ -794,6 +795,71 @@ $$
 With this the statement follows by prop. \ref{ConcondanceOfTopologicalVectorBundles}.
 
 =--
+
++-- {: .num_example #TopologicalVectorBundleOverContractibleSpaceIsTrivializable}
+###### Example
+**(topological vector bundle on contractible topological space is trivializable)**
+
+If $X$ is a [[contractible topological space]], then every topological vector bundle over $X$
+is isomorphic to a [[trivial vector bundle]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That $X$ is contractible means by definition that there is a [[left homotopy]] of the form
+
+$$
+  \array{
+    X &\longrightarrow& \ast
+    \\
+    \mathllap{i_0}\downarrow & & \downarrow
+    \\
+    X \times [0,1]
+      &\overset{\eta}{\longrightarrow}&
+    X
+    \\
+    \mathllap{i_1}\uparrow & \nearrow_{\mathrlap{id}}
+    \\
+    X &
+  }
+  \,.
+$$
+
+By cor \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} it follows that for 
+$E \to X$ any topological vector bundle that there is an isomorphism between
+$id^\ast E = E$ and the result of first restricting the bundle to the point, and then 
+forming the [[pullback bundle]] along $X \to \ast$. But the latter operation precisely produces 
+the [[trivial vector bundles]] over $X$.
+
+=--
+
+
+
+### Over subspaces
+
++-- {: .num_prop #VectorBundlesOverQuotientByContractibleSubspaceAreEquivalentToVectorBundlesOnTotalSpace}
+###### Proposition
+
+Let $X$ be a [[compact Hausdorff space]] and $A \subset X$ a [[closed subset|closed]] [[subspace]]
+and write $X/A$ for the corresponding [[quotient topological space]] with quotient coprojection
+$q \colon X \longrightarrow X/A$.
+
+If $A$ is a [[contractible topological space]] then the [[pullback bundle]] construction
+
+$$
+  q^\ast \;\colon\; Vect(X/A) \longrightarrow Vect(X)
+$$
+
+is an equivalence.
+
+=--
+
+(e.g. [Hatcher, lemma 2.10](#Hatcher))
+
+Use that by example \ref{TopologicalVectorBundleOverContractibleSpaceIsTrivializable} every bundle
+is trivializable over the contractible subspace $A$.
 
 
 ## Related concepts
@@ -819,4 +885,4 @@ Discussion with an eye towards [[topological K-theory]] is in
 
 
 
-[[!redirects topological vector bundles]]
+[[!redirects topological vector bundles]] 
