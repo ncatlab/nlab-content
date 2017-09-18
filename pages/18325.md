@@ -1,10 +1,6 @@
 Synonym for [[diagonal fill-in]] morphism.
 
-
-
-
-## References
-
+Term used for example in:
 
 *  R. Garner, "Homomorphisms of higher categories"
 Advances in Mathematics, Volume **224** (2010),  2269--2311
