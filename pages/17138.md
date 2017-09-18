@@ -203,7 +203,7 @@ Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topolo
 
 ##### Universal constructions
 
-Some basics on [[universal constructions]] in [[Top]], such as [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]].
+To begin with, we recall some basics on [[universal constructions]] in [[Top]], such as [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]].
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
@@ -334,7 +334,7 @@ In the case that $S$ is a [[finite set]], such as for binary product spaces $X \
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
 Let 
@@ -384,7 +384,7 @@ and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
 =--
 
 
-Another kind of colimit that will play a role for certain technical constructions is [[transfinite composition]]:
+Another kind of colimit that will play a role for certain technical constructions is [[transfinite composition]]. First recall
 
 +-- {: .num_defn #PosetsWosetTosetsAndOrdinals}
 ###### Definition
@@ -424,13 +424,13 @@ The finite ordinals are labeled by $n \in \mathbb{N}$, corresponding to the well
 
 =--
 
-+-- {: .num_defn #PosetsWosetTosetsAndOrdinals}
++-- {: .num_defn #TransfiniteComposition}
 ###### Definition
 
 
 Let $\mathcal{C}$ be a [[category]], and let $I \subset Mor(\mathcal{C})$ be a [[class]] of its morphisms. 
 
-For $\alpha$ an [[ordinal]] (regarded as a [[category]]), an $\alpha$-indexed _transfinite composition diagram_ of elements in $I$ is a [[diagram]]
+For $\alpha$ an [[ordinal]] (regarded as a [[category]]), an $\alpha$-indexed _transfinite sequence_ of elements in $I$ is a [[diagram]]
 
 $$
   X_\bullet 
@@ -852,7 +852,7 @@ $$
 
 along some [[continuous function]] $\phi$.
 
-A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell attachments to $X$, hence if it is a [[transfinite composition]] of [[pushouts]]
+A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell attachments to $X$, hence if it is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]]
 
 $$
   \array{
@@ -977,7 +977,7 @@ It is immediate and useful to generalize the concept of topoligical cell complex
 
 For $C \subset Mor(\mathcal{C})$ any [[class]] of morphisms, the concept of  **relative $C$-cell complexes** is defined as in def. \ref{TopologicalCellComplex}, with the boundary inclusions $\iota_n \in I_{Top}$ replaced by the maps in $C$: 
 
-a **relative $C$-cell complex** is a [[transfinite composition]] of [[pushouts]] of [[coproducts]] of the maps in $C \hookrightarrow Mor(Top)$.
+a **relative $C$-cell complex** is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] of [[coproducts]] of the maps in $C \hookrightarrow Mor(Top)$.
 
 =--
 
@@ -1421,7 +1421,7 @@ $$
   \,.
 $$
 
-This induces the universal map $(\kappa,f \circ \kappa')$ from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (see [this](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself) example):
+This induces the universal map $(\kappa,f \circ \kappa')$ from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}):
 
 $$
   \array{
