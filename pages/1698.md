@@ -872,13 +872,23 @@ being a fibration sequence. The corresponding long exact sequence in cohomology 
 
 ## References
 
-Classical accounts include
+The observation of [[long exact sequences of homotopy groups]] for homotopy fiber sequences originates (according to [Switzer 75, p. 35](#Switzer75)) in 
+
+* M. G. Barratt, _Track groups I, II_. Proc. London Math. Soc. 5, 71-106, 285-329 (1955). 
+
+The first exhaustive study of these is due to 
+
+* {#Puppe58} [[Dieter Puppe]], _Homotopiemengen und ihre induzierten Abbildungen I_, Math. Z. 69,  299-344 (1958). 
+
+whence the terminology _Puppe sequences_.
+
+Classical textbook accounts include
 
 * {#Switzer75} [[Robert Switzer]], around 2.57 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
 * {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-A discussion of fiber sequences in terms of [[associated ∞-bundle]]s is in
+A discussion of fiber sequences in terms of [[associated ∞-bundles]] is in
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
 
@@ -892,6 +902,9 @@ Alg. Geom. Topol. 13(3), 2013, pp. 1779--1813. ([preprint pdf](http://home.mathe
 
 [[!redirects fibration sequence]]
 [[!redirects fibration sequences]]
+
+[[!redirects Puppe sequence]]
+[[!redirects Puppe sequences]]
 
 [[!redirects homotopy fiber]]
 [[!redirects homotopy fibers]]
