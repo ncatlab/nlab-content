@@ -90,3 +90,5 @@ A textbook account in the context of [[programming languages]] is in section 12 
 [[!redirects sum types]]
 [[!redirects disjoint union type]]
 [[!redirects disjoint union types]]
+[[!redirects coproduct type]]
+[[!redirects coproduct types]]
