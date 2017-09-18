@@ -1,0 +1,8 @@
+
+
+An [[axiom]] in [[set theory]].
+
+## Reference
+
+* Wikipedia, _[Axiom of determinacy](http://en.wikipedia.org/wiki/Axiom_of_determinacy)_
+
