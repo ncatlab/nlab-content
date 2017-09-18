@@ -27,7 +27,7 @@ The basic idea is that the Cauchy [[completion]] of a [[category]] is the closur
 
 $$C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$$ 
 
-and consists of those presheaves $F$ dubbed [[tiny object|tiny]] by Lawvere, meaning those presheaves which are [[connected object|connected]] and [[projective object|projective]]: the functor 
+and consists of the presheaves $F$ dubbed [[tiny object|tiny]] by Lawvere, meaning those presheaves which are [[connected object|connected]] and [[projective object|projective]]: the functor 
 
 $$hom_{Set^{C^{op}}}(F, -): Set^{C^{op}} \to Set$$ 
 
@@ -94,7 +94,7 @@ This appears for instance as ([BorceuxDejean, theorem 1](#BorceuxDejean)).
 
 $\overline{C}$ is small because $[C^{op}, Set]$ is a [[well-powered category]]. It contains $C$ as a [[full subcategory]] because the [[Yoneda embedding]] is a [[full and faithful functor]]. Every idempotent splits in $\overline{C}$ because it does so in $[C^{op}, Set]$ and because the composite of two retractions is a retraction.
 
-A retract of a representale $y(c) \in [C^{op}, Set]$ induces an idempotent on $y(c)$ and hence by the [[Yoneda lemma]] an idempotent on $c \in C$. If $C$ is already idempotent complete, this splits and produces a retraction of $c$ in $C$ and hence of $y(C)$ in $[C^{op}, Set]$. Since this is necessarily isomorphic to the original retraction, we find that every retract of the representable $y(c)$ is itself representable, therefore $C \simeq \overline{C}$ in this case.
+A retract of a representable $y(c) \in [C^{op}, Set]$ induces an idempotent on $y(c)$ and hence by the [[Yoneda lemma]] an idempotent on $c \in C$. If $C$ is already idempotent complete, this splits and produces a retraction of $c$ in $C$ and hence of $y(C)$ in $[C^{op}, Set]$. Since this is necessarily isomorphic to the original retraction, we find that every retract of the representable $y(c)$ is itself representable, therefore $C \simeq \overline{C}$ in this case.
 
 =--
 
@@ -289,6 +289,7 @@ $$
   \dashv
   Topos_{ess}(Set,-)
   )
+
   :
   Topos_{ess}
    \stackrel{\overset{Cat_{Cauchy}(-,Set)}{\hookleftarrow}}{\underset{Topos_{ess}(Set,-)}{\to}}
@@ -368,7 +369,7 @@ As before, we have
 +-- {: .num_remark}
 ###### Remark
 
-Every small $\mathcal{V}$-category $C$ is equivalence to the $\mathcal{V}$-[[enriched functor category]] 
+Every small $\mathcal{V}$-category $C$ is equivalent to the $\mathcal{V}$-[[enriched functor category]] 
 
 $$
   C \simeq \mathcal{V}Func(I,C)
@@ -647,6 +648,8 @@ Surveys are in
  {#CarboniStreet}
 
 Further references include for instance
+
+* S. R. Johnson, _Small Cauchy Completions_ , JPAA **62** (1989) pp.35-45.
 
 * R. Walters, _Sheaves and Cauchy complete categories_ , Cahiers Top. Geom. Diff. Cat. 22 no. 3 (1981) 283-286 ([numdam](http://www.numdam.org/item?id=CTGDC_1981__22_3_283_0))
 
