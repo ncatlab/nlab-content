@@ -117,4 +117,6 @@ Sheaves_ , Springer LNM **753** (1979).
 
 * [[Jacob Lurie|J. Lurie]], _Derived Algebraic Geometry V: Structured Spaces_ , ms. 2009. ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-V.pdf))
 
+* R. O. Robson, _Model theory and spectra_ , JPAA **63** (1990) pp.301-327.
+
 [^CM]: Coste&Michon (1981), p.27.
