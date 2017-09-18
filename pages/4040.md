@@ -2,7 +2,7 @@
 
 **[[topology]]** ([[point-set topology]]) 
 
-see also _[[algebraic topology]]_ and _[[homotopy theory]]_
+see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy theory]]_
 
 [[Introduction to Topology|Introduction]]
 
@@ -86,7 +86,12 @@ see also _[[algebraic topology]]_ and _[[homotopy theory]]_
 
 ## Theorems
 
+* [[Tietze extension theorem]]
+
 * [[topological invariance of dimension]]
+
+* [[Brouwer's fixed point theorem]]
+
 
 ## Basic **[[homotopy theory]]**
 
