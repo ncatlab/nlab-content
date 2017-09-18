@@ -136,7 +136,9 @@ If in the definition of combinatorial species the  domain [[core]]([[FinSet]]) i
 
 ## In Homotopy Type Theory
 
-Let $FinSet$ be the type of finite sets.  A species is a type $X :
+The following discusses formalization of the concept of species in [[homotopy type theory]].
+
+Let [[FinSet]] be the [[type]] of [[finite sets]] (see at [[hSet]] and at [[universe in type theory]]).  A _species_ is a type $X :
 Type$ equipped with an arrow into $Finset$:
 
 $$
