@@ -2843,7 +2843,7 @@ $$
   \,,
 $$ 
 
-which is natural in $X$ (that the bottom and right composite is indeed the identity is again the naturality of $i_{(-)}$). This naturality now implies a retraction of morphisms
+which is natural in $X$ (that the bottom and right composite is indeed the identity is again due to the naturality of $i_{(-)}$). This naturality now implies a retraction of morphisms
 
 $$
   \array{
@@ -2874,7 +2874,7 @@ We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \r
 +-- {: .num_defn #StableModelCategory}
 ###### Definition
 
-A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))is an [[equivalence of categories]]
+A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) is an [[equivalence of categories]]
 
 $$
   (\Sigma \dashv \Omega)
@@ -3021,7 +3021,7 @@ $$
   \,.
 $$
 
-Since here the left map is an identity, this uniquely fixes the odd-graded components $f_{2n+1}$ in terms of the even-graded components. Moreover, these components then make following pasting rectangles comute
+Since here the left map is an identity, this uniquely fixes the odd-graded components $f_{2n+1}$ in terms of the even-graded components. Moreover, these components then make the following pasting rectangles comute
 
 $$
   \array{
@@ -3045,8 +3045,9 @@ $$
   \tilde f
     \;\colon\;
   \mathcal{X} \longrightarrow R_2 Y
-  \,.
 $$
+
+and hence establishes the adjunction isomorphism.
 
 Finally to see that the [[adjunction unit]] is a [[stable weak homotopy equivalence]]: for $X \in SeqSpec(Top_{cg})$ then the morphism of stable homotopy groups induced from 
 
@@ -3069,7 +3070,7 @@ $$
   \,.
 $$
 
-From this it is clear that the induced vertical map on the right is an isomorphism. (Technically: the inclusion of [[partially ordered sets]] $\mathbb{N}_{even}^{\leq} \hookrightarrow \mathbb{N}^{\leq}$ is a [[cofinal functor]] and hence restriction along it preserves colimits.)
+From this it is clear by inspection that the induced vertical map on the right is an isomorphism. Stated more abstractly: the inclusion of [[partially ordered sets]] $\mathbb{N}_{even}^{\leq} \hookrightarrow \mathbb{N}^{\leq}$ is a [[cofinal functor]] and hence restriction along it preserves colimits.
 
 =--
 
@@ -3208,9 +3209,21 @@ $$
   SeqSpec(Top_{cg})_{stable}
     \underoverset
      {\underset{\Omega}{\longrightarrow}}
-     {\overset{\Sigma}{\longrightarrow}}
+     {\overset{\Sigma}{\longleftarrow}}
      {\simeq_{\mathrlap{Q}}}
   SeqSpec(Top_{cg})_{stable}
+  \,.
+$$
+
+Its [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) exhibit the canonical [[reduced suspension]] and looping operation as an [[adjoint equivalence]] on the [[stable homotopy category]]
+
+$$
+  Ho(Spectra)
+    \underoverset
+     {\underset{\Omega}{\longrightarrow}}
+     {\overset{\Sigma}{\longleftarrow}}
+     {\simeq}
+  Ho(Spectra)
   \,.
 $$
 
@@ -3221,12 +3234,11 @@ $$
 ###### Proof
 
 By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} and the fact that the stable model structure has the same cofibrations as the strict model structure,  $\Sigma$ preserves stable cofibrations. Moreover, by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves in fact all stable weak equivalences. Hence $\Sigma$ is a left Quillen functor and so $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]].
-
-With this, lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} gives that this Quillen adjunction is a Quillen equivalence.
+Finally lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} gives that this Quillen adjunction is a Quillen equivalence.
 
 =--
 
-In summary, this concludes the characterization of the [[stable homotopy category]] as the result of stabilizing the canonucal $(\Sigma \dashv \Omega)$-adjunction on the [[classical homotopy category]]:
+In summary, this concludes the characterization of the [[stable homotopy category]] as the result of stabilizing the canonical $(\Sigma \dashv \Omega)$-adjunction on the [[classical homotopy category]]:
 
 +-- {: .num_cor #StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}
 ###### Corollary
