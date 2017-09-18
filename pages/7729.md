@@ -17,7 +17,7 @@
 
 A _[[structure]]_ in [[mathematics]] (also "mathematical structure") is often taken to be a [[set]] equipped with some choice of elements, with some operations and some relations. Such as for instance the "structure of a [[group]]". In [[model theory]] this concept of mathematical structure is formalized by way of [[formal logic]]. 
 
-Notice however that by far not every concept studied in [[mathematics]] fits as an example of a mathematical structure in the sense of classical [[first-order theory|first oder]] model theory, described [below](#Definition). For instance a concept as basic as that of  [[topological spaces]] fails to be a structure in the sense of classical model theory (see [here](#MathSEDisc)). 
+Notice however that by far not every concept studied in [[mathematics]] fits as an example of a mathematical structure in the sense of classical [[first-order theory|first order]] model theory, described [below](#Definition). For instance a concept as basic as that of  [[topological spaces]] fails to be a structure in the sense of classical model theory (see [here](#MathSEDisc)). 
 
 In [[category theory]] there is a more flexible concept of _[[structure]]_, see there.
 
