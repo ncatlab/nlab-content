@@ -10,7 +10,7 @@ From that perspective, virtual knot theory (introduced by [[Louis Kauffman]]) ge
 
 ## Motivations
 
-[Kauffman (1999)](#Kauffman1999) describes two sources of motivation for virtual knot theory.  The first is just the extension of classical knot theory to the study of knots in thickened surface of higher genus, and the fact that many classical [[knot invariants]] also yield invariants of such virtual knots.  A separate motivation that Kauffman mentions is of a combinatorial nature, related to the use of so-called _Gauss codes_ for representing knots, and the fact that it is natural to study non-planar Gauss codes which are realized as virtual knots.
+[Kauffman (1999)](#Kauffman1999) describes two sources of motivation for virtual knot theory.  The first is just the extension of classical knot theory to the study of knots in thickened surface of higher genus, and the fact that many classical [[knot invariants]] also yield invariants of such virtual knots.  A separate motivation that Kauffman mentions is of a combinatorial nature, related to the use of so-called [[Gauss codes]] for representing knots, and the fact that it is natural to study non-planar Gauss codes which are realized as virtual knots.
 
 ## Categorical formulations
 
@@ -26,6 +26,7 @@ Warning: a virtual knot/link has a genus in the sense of the genus of the underl
 
 ## Related concepts
 
+* [[Gauss diagram]]
 * [[embedded graph]]
 
 ## References
