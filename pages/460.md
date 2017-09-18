@@ -555,7 +555,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the construction in def. \ref{SoberificationConstruction}, we the outer part of the following square [[commuting square|commutes]]:
+By the construction in def. \ref{SoberificationConstruction}, we find that the outer part of the following square [[commuting square|commutes]]:
 
 $$
   \array{
