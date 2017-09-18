@@ -45,6 +45,7 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 ## References on particular cases
 
 * The canonical model structure for 1-categories was known to experts for some time before being written down formally (this is the origin of the adjective "folk").
+   * The canonnical model structure for 1-groupoids is briefly described in section 5 of D.W. Anderson, _Fibrations and Geometric Relations_, Bulletin of the AMS, Vol. 84: 765-788, 1978.
    * It was apparently first published (for categories internal to a Grothendieck topos) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
    * A more elementary writeup by Charles Rezk can be found [here](http://www.math.uiuc.edu/~rezk/cat-ho.dvi).
    * A general internal version relative to a Grothendieck [[coverage]] can be found in
