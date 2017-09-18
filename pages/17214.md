@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[tower of fibrations]] of [[homotopy types]], its degreewise [[homotopy groups]] naturally form an [[exact couple]]. The corresponding spectral sequence is the spectral sequence of the tower.
+
+## References
+
+* [[Paul Goerss]], [[Rick Jardine]], section VI.2 (in the 1999 version) or section VII.6 (in the 1996 version) of _[[Simplicial homotopy theory]]_
+
+* [[Mike Shulman]], _[[homotopytypetheory:spectral sequences]]_ (2013)
+
