@@ -241,7 +241,9 @@ of [[differential form]]s may be understood in terms of functions on $\Pi(x)^{in
 
 A [[deRham space]] is the colimit over a $\Pi^{inf}(X)$. 
 
+## Related concepts
 
+* [[formal neighbourhood of the diagonal]]
 
 ## References 
 
@@ -273,7 +275,7 @@ As the title suggests, the infinitesimal singular simplicial complex is tightly 
 
 There is also
 
-* Dubuc, [[Anders Kock|Kock]], _On 1-form classifiers_ , Communications in Algebra 12
+* [[Eduardo Dubuc]], [[Anders Kock|Kock]], _On 1-form classifiers_ , Communications in Algebra 12
 (1984)
 
 * Dubuc, $C^\infty$-schemes, Amer. J. of Math. 103 (1981)
