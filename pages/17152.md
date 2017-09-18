@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,11 +35,30 @@ $$
 
 over iterated [[suspension]] and [[loop space]] construction. 
 
+Equivalently this is
 
-## Application
+$$
+  Q X \simeq \Omega^\infty \Sigma^\infty X
+$$
+
+for
+
+$$
+ (\Sigma^\infty \dashv \Omega^\infty)
+  \;\colon\;
+  Ho(Spectra)
+   \underoverset{\underset{\Omega^\infty}{\longrightarrow}}{\overset{\Sigma^\infty}{\longleftarrow}}{}
+  Ho(Top)
+$$
+
+the [[stabilization]] [[adjunction]] between the [[homotopy category]] [[Ho(Top)]] and the [[stable homotopy category]] $Ho(Spectra)$.
+
+
+## Related concepts
 
 * [Omega spectrum -- Completion of a suspension spectrum](Omega-spectrum#CompletionOfSuspensionSpectra)
 
+* [[stable homotopy group]]
 
 
 ## References
