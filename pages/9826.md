@@ -1,4 +1,10 @@
 
-The [[projective space]] of [[dimension]] 1.
+The [[projective space]] of [[dimension]] 1. 
+
+If $k$ is a field, the projective line is typically denoted $\mathbb{P}^1(k)$; set-theoretically it is a disjoint union $k \sqcup \{\infty\}$ where each $a \in k$ has homogeneous coordinates $[a, 1]$ and $\infty$ has homogeneous coordinates $[1, 0]$. 
+
+The classical case of a projective line is over the complex numbers $\mathbb{C}$, where $\mathbb{P}^1(\mathbb{C})$ is also known as the [[Riemann sphere]]. A [[meromorphic function]] on $\mathbb{C}$ may be naturally interpreted as a [[holomorphic function]] $\mathbb{C} \to \mathbb{P}^1(\mathbb{C})$. 
+
+In particular, a [[rational function]] $p/q \in \mathbb{C}(z)$ may be interpreted as a holomorphic function $[p/q]: \mathbb{P}^1(\mathbb{C}) \to \mathbb{P}^1(\mathbb{C})$; concretely, if $p(z), q(z)$ are relatively prime and of degrees $m, n$ respectively, then we may homogenize by setting $p(x, y) \coloneqq y^m p(x/y)$ and $q(x, y) \coloneqq y^n q(x/y)$, and define $[p/q]$ by the mapping on homogeneous coordinates $[x, y] \mapsto [p(x, y), q(x, y)]$. In fact, there is a bijective correspondence between such holomorphic endomaps on $\mathbb{P}^1(\mathbb{C})$ and rational functions on $\mathbb{C}$. 
 
 [[!redirects projective lines]]
