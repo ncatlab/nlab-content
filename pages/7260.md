@@ -71,6 +71,10 @@ A visualization of the scales in the [[solar system]] are in
 
 * {#VisSolarSystem} [A tediously accurate scale model of the solar system](http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
 
+Accurate visualization of many astronomical phenomena is at
+
+* [en.spaceengine.org](#http://en.spaceengine.org)
+
 A visualization of the big observable structures in the universe, drawn to scale, is in 
 
 * {#VisObservableUniverse} American Museum of Natural History, _The known universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
