@@ -107,12 +107,11 @@ The [[limits]] of [[category theory]] are a great generalization of an analogy w
 
 ## References
 
-* Wikipedia, _[Limit (mathematics)](http://en.wikipedia.org/wiki/Limit_(mathematics))_
+* Wikipedia, _[Limit (mathematics)](http://en.wikipedia.org/wiki/Limit_%28mathematics%29)_
 
 Discussion of this history of the concept, with emphasis on its roots all the way back in [[Zeno's paradoxes of motion]] is in 
 
 * {#Boyer49} Carl Benjamin Boyer, _The history of the Calculus and its conceptual development_, Dover 1949
-
 
 
 category: analysis
@@ -130,16 +129,19 @@ category: analysis
 [[!redirects convergence of a filter]]
 [[!redirects convergence of filters]]
 
+[[!redirects convergent sequence]]
+[[!redirects convergent sequences]]
+[[!redirects convergent net]]
+[[!redirects convergent nets]]
+[[!redirects convergent filter]]
+[[!redirects convergent filters]]
+
 [[!redirects limit of a sequence]]
 [[!redirects limits of a sequence]]
 [[!redirects limits of sequences]]
-
 [[!redirects limit of a net]]
 [[!redirects limits of a net]]
 [[!redirects limits of nets]]
-
 [[!redirects limit of a filter]]
 [[!redirects limits of a filter]]
 [[!redirects limits of filters]]
-
-
