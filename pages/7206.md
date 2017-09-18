@@ -103,13 +103,28 @@ Survey includes
 * Wikipedia, _[Supergravity -- 4d N=1](http://en.wikipedia.org/wiki/Supergravity#4D_N_.3D_1_SUGRA)_
 
 
-### Gauging
+### Gauged
+ {#ReferencesGauged}
 
-Discussion of [[gauged supergravity]] in 4d includes
+Discussion of [[gauged supergravity]] in 4d originates around
 
 * [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en))
 
 (where the [[E7]]-[[U-duality]] group was first seen)
+
+Evidence for perturbative finiteness of $N=8$ 4d SuGra is discussed in
+
+* [[Zvi Bern]], [[Lance Dixon]], [[Radu Roiban]], _Is $N = 8$ Supergravity Ultraviolet Finite?_, Phys.Lett.B644:265-271,2007 ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
+
+* [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, [[David Kosower]], [[Radu Roiban]], _Three-Loop Superfiniteness of N=8 Supergravity_, Phys.Rev.Lett.98:161303,2007 ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
+
+surveyed in 
+
+* [[Radu Roiban]], _Is Perturbative $\mathcal{N}= 8$ Supergravity Finite?_ ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
+
+See also
+
+* [[Renata Kallosh]], _The Ultraviolet Finiteness of $N=8$ Supergravity_, JHEP 1012:009,2010 ([arXiv:1009.1135](http://arxiv.org/abs/1009.1135))
 
 [[!redirects 4d supergravity]]
 
