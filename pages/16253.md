@@ -14,6 +14,10 @@ Where a [[simplicial object]] is a [[functor]] $\Delta^{op} \to \mathcal{C}$ out
 When $\mathcal{C}$ has [[finite limits]] and finite [[colimits]], then $\mathcal{C}^{\Delta}$ is canonically a [[simplicially enriched category]]. This enrichment is called the _external simplicial structure_ in ([Quillen 67, II.1.7](#Quillen67)). Review includes ([Bousfield 03, section 2.10](#Bousfield03)).
  
 
+More generally, for any $\mathcal{C}$, we can make $\mathcal{C}^{\Delta}$ into a simplicially enriched category using the [[end]] formula
+$$\underline{\mathcal{C}^{\Delta}} (X, Y)_m = \int_{[n] : \Delta} (\mathcal{C} (X^n, Y^n))^{\Delta^m_n}$$
+with composition inherited from $\mathcal{C}$ and $\Delta$.
+
 ## Related concepts
 
 * [[cosimplicial algebra]]
