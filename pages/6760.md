@@ -1,4 +1,14 @@
 
+Gray Gibbons is professor for theoretical [[physics]] at Cambridge.
+
 * [webpage](http://www.damtp.cam.ac.uk/people/g.w.gibbons/)
+
+## related $n$Lab entries
+
+* [[gravity]]
+
+* [[M5-brane]]
+
+* [[Yang monopole]]
 
 category: people
