@@ -7,6 +7,10 @@ Peter West is professor of mathematics at King's college London.
 
 * _[[Introduction to Strings and Branes]]_
 
+## Related $n$Lab entries
+
+* [[U-duality]], [[E11]]
+
 category: people
 
 [[!redirects Pete West]]
