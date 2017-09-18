@@ -26,7 +26,7 @@ In [[physics]], see _[[local symmetry]]_, _[[global symmetry]]_, _[[spontaneous 
 
 * [[invariant]], [[invariant theory]]
 
-* [[stabilizer subgroup]]
+* [[stabilizer subgroup]], [[Erlangen program]]
 
 * [[supersymmetry]]
 
