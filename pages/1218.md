@@ -472,6 +472,8 @@ into the [[(∞,1)-topos]] [{[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[
 
 * [[diffeological groupoid]], [[diffeological ∞-groupoid]]
 
+* [[connectology]]
+
 ## References 
  {#References}
 
