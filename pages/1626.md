@@ -342,7 +342,7 @@ Examples of countable connected Hausdorff spaces were give in
 
 Material on arc-connected spaces and the Hahn-Mazurkiewicz theorem can be found in Chapter 31 of 
 
-* Stephen Willard, _General Topology_, Addison-Wesley 1970. ([online](http://www.scribd.com/doc/44283132/General-Topology-Stephen-Willard)) 
+* Stephen Willard, _General Topology_, Addison-Wesley 1970. ([online](http://www.scribd.com/doc/132023793/44283132-General-Topology-Stephen-Willard#scribd)) 
  {#Willard} 
 
 Material on pseudo-arcs can be found in 
