@@ -9,6 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 The category $S Vect$ of [[super vector space]]s is the [[symmetric monoidal category]] which as a [[monoidal category]] is the ordinary monoidal category of $\mathbb{Z}_2$-[[graded vector space]]s for which
 
@@ -40,13 +45,17 @@ $$
   \,.
 $$
 
-#related concepts#
+## Properties
 
-* [[monoid]]s in $S Vect$ are [[super algebra]]s.
+* [[monoids]] in $S Vect$ are [[super algebras]].
 
-* [[manifold]]s modeled on $S Vect$ are [[supermanifold]]s
+* [[manifolds]] modeled on $S Vect$ are [[supermanifolds]]
 
 * etc.
+
+## Related concepts
+
+* [[Deligne's theorem on tensor categories]] says that all suitable [[tensor categories]] of subexponential growth have a [[fiber functor]] to $sVect$ and are equivalent to [[categories of representations]] of affine algebraic [[supergroups]].
 
 [[!redirects sVect]]
 [[!redirects SuperVect]]
