@@ -16,7 +16,7 @@
 
 ## Idea
 
-__Isabelle__ is a [[proof assistant]], a successor of the _[[HOL]]_ proof assistant.
+__Isabelle__ is a [[proof assistant]]. Its main application is _[[HOL]]_.
 
 ## References
 
