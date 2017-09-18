@@ -23,47 +23,11 @@
 
 ## Idea
 
-_Higher Cartan geometry_ is the generalization of [[Cartan geometry]] to [[higher geometry]]. 
+_Higher Cartan geometry_ is supposed to be the generalization of [[Cartan geometry]] to [[higher geometry]]; the globalized version of [[higher Klein geometry]].
 
-It is the globalized version of [[higher Klein geometry]].
-
-As Cartan geometry is a special case of the theory of [[principal connections]], so higher Cartan geometry is a special case of the theory of [[connection on an ∞-bundle|∞-connections]] on [[principal ∞-bundles]].
-
-## Definition
+A formalization in the context of [[differential cohesion|differential]] [[cohesive]] [[homotopy theory]] is in [[schreiber:differential cohomology in a cohesive topos|dcct]]. 
 
 
-Let $\mathfrak{h} \to \mathfrak{g}$ be a morphism of [[L-∞ algebra]]s. Write $i : \mathbf{B}H \to \mathbf{B}G$ for a [[Lie integration]] to a morphism of [[smooth ∞-groups]]. 
-Notice that this defines a [[higher Klein geometry]]
-
-$$
-  G//H \to \mathbf{B}H \to \mathbf{B}G
-  \,.
-$$
-
-Let $X$ be a [[smooth ∞-groupoid]]. For $x : * \to X$ any [[point]], write $T_x X$ for its tangent $L_\infty$-algebra.
-
-An **$\infty$-Cartan geometry** over $X$ with respect to $i$ is
-
-* a $G$-[[principal ∞-bundle]] $P \to X$ whose structure group reduces to $H$, hence such that there is morphism $g : X \to \mathbf{B}H$ and a [[fiber sequence]]
-  
-  $$
-    P \to X \stackrel{i g}{\to} \mathbf{B}G
-    \,,
-  $$
-
-* equipped with an $\mathfrak{g}$
-  [[connection on an ∞-bundle|∞-connection]] $\nabla$;
-
-* such that for every point $x : * \to X$ any any local trivialization, the canonical composite
-
-  $$
-   T_x X \stackrel{\nabla}{\to}
-   \mathfrak{g}
-   \stackrel{}{\to}
-   \mathfrak{g}/\mathfrak{h}
-  $$
-
-  (of the [[∞-Lie algebra valued differential form]] of the connection at that point) with the [[quotient]] projection is an [[equivalence in an (∞,1)-category|equivalence]].
 
 ## Examples
 
@@ -77,6 +41,9 @@ One can read the [[D'Auria-Fre formulation of supergravity]] as saying that high
 
 [[!include local and global geometry - table]]
 
+## References
+
+* [[Urs Schreiber]], _[[schreiber:Higher Cartan Geometry]]_, Differential geometry seminar, Charles University Prague, 2015
 
 [[!redirects Cartan 2-geometry]]
 
