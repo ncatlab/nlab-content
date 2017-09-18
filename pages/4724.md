@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A _differentiable manifold_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity, then one speaks of [[smooth manifolds]]. For a general discussion see at _[[manifold]]_.
+A _differentiable manifold_ is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity then one speaks of _[[smooth manifolds]]_ and if one demands [[analytic function|analytic]] gluing functions then one speaks of _[[analytic manifolds]]_. For a general discussion see at _[[manifold]]_.
 
 
 Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
@@ -25,8 +25,11 @@ If one relaxes the condition of locally being isomorphic to a Euclidean space to
 The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
 
 
+## Definition
 
-## Background on topological manfiolds
+## Topological manifolds
+
+For convenience, we first recall here some background on [[topological manifolds]]:
 
 
 +-- {: .num_defn #TopologicalManifold}
@@ -47,6 +50,7 @@ such that
 
 +-- {: .num_remark}
 ###### Remark
+**(varying terminology)**
 
 There is some variance in the choice of regularity condition in def. \ref{TopologicalManifold}. Often it is required in addition to being a [[paracompact Hausdorff space]] that a manifold have a [[countable set]] of [[connected components]], which then means that it is [[sigma-compact topological space|sigma-compact]].
 
@@ -59,7 +63,7 @@ Very rarely one considers [[non-Hausdorff topological spaces]] as manifolds.
 
 +-- {: .num_defn #Charts}
 ###### Definition
-**([[local chart]] and [[atlas]] and [[gluing function]])
+**([[local chart]], [[atlas]] and [[gluing function]])
 
 Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold}), then 
 
@@ -101,12 +105,16 @@ Given an $n$-dimensional topological manifold $X$ (def. \ref{TopologicalManifold
 
 =--
 
-## Definition
 
-+-- {: .num_defn #Differentiable manifold}
+
+### Differentiable manifolds
+
+
++-- {: .num_defn #DifferentiableManifold}
 ###### Definition
+**(differentiable manifold)**
 
-For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ is 
+For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifold]]_ or _$C^p$-manifold_ for short is 
 
 1. a [[topological manifold]] $X$ (def. \ref{TopologicalManifold});
 
@@ -146,6 +154,28 @@ such that
 Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
 
 =--
+
+## Examples
+
++-- {: .num_example #DifferentiableManifoldCartesianSpace}
+###### Example
+**([[Cartesian space]])
+
+For $n \in \mathbb{N}$ then [[Cartesian space]] $\mathbb{R}^n$ equipped with the atlas consisting of the single [[chart]] $\mathbb{R}^n \overset{id}{\to} \mathbb{R}^n$ is a [[smooth manifold]], in particularly a $p$-fold differentiable manifold for every $p \in \mathbb{N}$ according to def. \ref{DifferentiableManifold}.
+
+Similarly the [[open disk]] $D^n$ becomes a [[smooth  manifold]] when equipped with the atlas whose single chart is the [[homeomoprhism]] $\mathbb{R}^n \to D^n$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For all $n \in \mathbb{N}$, the [[n-sphere]] $S^n$ becomes a smooth manfold, with [[atlas]] consisting of two [[local charts]], one covering a little bitmore than the upper [[hemisphere]], the other covering a little bit more than the lower hemisphere.
+
+(...)
+
+=--
+
 
 ## Related concepts
 
