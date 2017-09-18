@@ -29,7 +29,7 @@ For $f = id$ the [[identity]] map, the Lefschetz trace reduces to the _[[Euler c
 
 ### Statement
 
-The _Lefschetz fixed point theorem_ says that if the Lefschetz number is non-zero, then $f$ has at least one [[fixed point]].
+The _Lefschetz fixed point theorem_ says that if $X$ is a compact polyhedron and if the Lefschetz number is non-zero, then $f$ has at least one [[fixed point]].
 
 
 The existence of a Lefschetz formula holds more general in [[Weil cohomology]] theories (by definition) and hence notably in [[ℓ-adic cohomology|ℓ-adic]] [[étale cohomology]]. This fact serves to prove the [[Weil conjectures]].
@@ -86,6 +86,7 @@ For [[étale cohomology]] of [[schemes]]:
 * [[James Milne]], section 25 of _[[Lectures on Étale Cohomology]]_
 
 For [[algebraic stacks]]:
+
 
 * [[Kai Behrend]], _The Lefschetz trace formula for algebraic stacks_, 	Invent. Math. **112**, 1 (1993), 127-149, [doi](http://dx.doi.org/10.1007/BF01232427)
 
