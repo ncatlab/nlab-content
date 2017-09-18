@@ -42,17 +42,21 @@ Now one has to define the value of $FMod(A)$ on an open subset
 $U$ of $\mathbb{C}^n$. Can you guess by yourself?
 The answer seems quite hard to find, a priori.
 
-However, one may get inspiration by going back to the algebraic situation: recall that a rig-$\infty$-category is a model of the [[Lawvere theory]] $T_{Rings}$ of rings. If $A$ is a usual (commutative unitary ring), one may extend it to such a model by sending a function on the affine space in n variables to the functor on the product of $n$ copies of the category $FMod(A)$ of free modules to $FMod(A)$ that sends $(M_1,\dots,M_n)$ to $f(M_1,\dots,M_n)$ in the sense of the given monoidal structures $\oplus$ and $\otimes$. A tricky point here is that one would like to extend this model of the [[Lawvere theory]] of rings to the Zariski [[pre-geometry]] $T_{Zar}$  of Lurie by saying what should the definition of $FMod(A)(\mathbb{C}[x_1,\dots,x_n])$ be (say we work over the complex numbers). This should be the localization $FMod(A)(\mathbb{C}[x_1,\dots,x_n])[f^{-1}]$, in some sense. Since $f$ is a function form $\mathbb{A}^n$ to $\mathbb{A}^1$, what could we do? The inspiration comes from the definition of the localization in the theory of smooth (or analytic rings): it is not given by inverting naively elements of the ring (Zariski open subset) but by taking the corresponding equation in a space that is of one dimension higher:
+However, one may get inspiration by going back to the algebraic situation: recall that a rig-$\infty$-category is a model of the [[Lawvere theory]] $T_{Rings}$ of rings. If $A$ is a usual (commutative unitary ring), one may extend it to such a model by sending a function on the affine space in n variables to the functor on the product of $n$ copies of the category $FMod(A)$ of free modules to $FMod(A)$ that sends $(M_1,\dots,M_n)$ to $f(M_1,\dots,M_n)$ in the sense of the given monoidal structures $\oplus$ and $\otimes$. A tricky point here is that one would like to extend this model of the [[Lawvere theory]] of rings to the Zariski [[pre-geometry]] $T_{Zar}$  of Lurie by saying what should the definition of the localization of $FMod(A)(\mathbb{C}[x_1,\dots,x_n])$ at a given $f\in \mathbb{C}[x_1,\dots,x_n]$ be (say we work over the complex numbers). This should be the localization $FMod(A)(\mathbb{C}[x_1,\dots,x_n])[f^{-1}]$, in some sense. Since $f$ is a function form $\mathbb{A}^n$ to $\mathbb{A}^1$, what could we do? The inspiration comes from the definition of the localization in the theory of smooth (or analytic rings): it is not given by inverting naively elements of the ring (Zariski open subset) but by taking the corresponding equation in a space that is of one dimension higher:
 $C^\infty(\R^n)[f^{-1}]:=C^\infty(\R^n\times \R)/(Xf-1)$. We can do the same in the categorical framework (because the $\infty$-category of $\infty$-categories is presentable). So we define
 $$FMod(A)(\mathbb{C}[x_1,\dots,x_n])[f^{-1}]$$
 by
-$$FMod(A)(\mathbb{C}[x_1,\dots,x_n])[X]/(Xf-1).$$
+$$FMod(A)(\mathbb{C}[x_1,\dots,x_n])[X]/(X\otimes f-1).$$
 One now needs to give a correct definition for the last expression.
 Let's see if you can do that.
 
 ## Overconvergent generalized analytic geometry
 
-One may easily extend the above complex analytic results to define overconvergent analytic $\infty$-categories over a given Banach ring.
+One may easily extend the above complex analytic results to define overconvergent analytic $\infty$-categories over a given Banach ring. If $A$ is an dagger analytic ring, one may send the unit disc $D^1$ to the category $FMod(A)(D^1)$ of free modules of finite rank on $A$. Now one must send $D^n$ to $FMod(A)(D^1)^n$, and an overconvergent function $f:D^n\to D^1$ to a functor $f:FMod(A)(D^n)\to FMod(A)(D^1)$. One may then send a rational domain $U=\{|f|\leq |g|\}$ in $D^n$ to the quotient category
+$$FMod(A)(U):=FMod(A)(D^{n+1})/(X\otimes g-f).$$
+This will extend to the complex analytic situation by using compact Stein exhautions.
+
+One must be very careful here with the fact that the unit disc and the affine line are very different on a non-trivially normed ring, so that it may also be interesting to consider a non-strict version of the above construction using the affine line instead of the unit disc.
 
 ## References
 
