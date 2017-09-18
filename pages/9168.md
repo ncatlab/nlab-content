@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
@@ -15,7 +19,78 @@
 
 ## Idea
 
-In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values in the [[field of scalars]], typically the [[real numbers]] or [[complex numbers]].
+In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime]]/[[worldvolume]] which is simply a [[function]] with values in the [[field of scalars]], typically the [[real numbers]] $\mathbb{R}$ or [[complex numbers]] $\mathbb{C}$, somtimes the [[quaternions]] $\mathbb{H}$. More generally, one still speaks of a "scalar field" if it takes values in $k^n$ for $k \in \{\mathbb{R},\mathbb{C}, \mathbb{H}\}$ and $n \in \mathbb{N}$. 
+
+Scalar fields serve as a key toy example in theoretical studies of [[field theory]], such as in [[phi^4 theory]] or in the [[Ising model]].  One fundamental scalar field is experimentally known, the _[[Higgs field]]_, which is one component of the [[standard model of particle physics]]. A widely hypothesized scalar field is the [[inflaton]] field in [[model (physics)|models]] of [[cosmic inflation]], which however remains speculative and might in any case be an effective compound of more fundamental fields.
+
+## Definitiony
+
+### Free scalar field
+
+#### As a classical local field
+
+Recall that a _[[classical field theory|classical]] [[local field theory]]_ is for some prescribed class of [[manifolds]] $X$ of given [[dimension]] $n \in \mathbb{N}$ interpreted as [[spacetimes]]/[[worldvolumes]]:
+
+1. a choice of [[fiber bundle]] $E \to X$, called the _[[field bundle]]_;
+
+1. a choice $L \in \Omega^{n,0}(J^\infty(E))$ of [[horizontal differential form]] of degree $n$ on the [[jet bundle]] of the field bundle, called the _[[local Lagrangian density]]_. 
+
++-- {: .num_defn}
+###### Definition
+**(free scalar field as a classical local field theory)**
+
+As a [[classical field theory|classical]] [[local field theory|local field]] the _relativistic [[free field|free]] scalar field_ in [[dimension]] $n \in \mathbb{N}$  is
+
+* for each [[globally hyperbolic spacetime|globally hyperbolic]] [[orientation|oriented]] and [[time orientation|time-oriented]] [[spacetime]] $(X,e)$ ($X$ a [[smooth manifold]], $e$ a [[pseudo-orthogonal structure]]/[[vielbein]]  inducing a [[pseudo-Riemannian metric]] $g$)
+
+1. the [[field bundle]] given by the [[trivial line bundle]] $X \times k \overset{pr_1}{\to} X$ over $X$;
+
+1. the [[local Lagrangian density]] $L \in \Omega^{n,0}(J^\infty_X(X \times k))$ (a [[horizontal differential form]] on the [[jet bundle]] of the [[trivial line bundle]] over $X$) given by
+
+   $$
+     L \;\coloneqq\; \vert \nabla \phi\vert^2 dvol
+   $$
+
+   where
+
+   1. $\vert \nabla \phi\vert^2$ denotes the [[norm]] square of the first order jets with respect to the given [[metric]] $g$, hence in a local [[coordinate chart]] $J^\infty(E\vert_U) \coloneqq \left\{ \{x^\mu\}, \phi, \{\phi_{,\mu} \cdots\} \right\}$ of $J^\infty(X \times k)$ the function 
+
+      $$
+        \vert \nabla \phi\vert^2\vert_{J^{\infty}(E\vert_U)} 
+          \;=\; 
+        g^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
+      $$
+
+   1. $dvol$ denotes the [[volume form]] of $(X,e)$, canonically regarded as a [[horizontal differential form]] on $J^\infty(X \times k)$.
+
+=--
+
+Recall that given a [[classical field theory|classical]] [[local field theory]] defined by a [[local Lagrangian density]] $L \in \Omega^{n,0}(J^\infty(E))$, then
+
+1. the [[configuration space]] is the [[smooth space]] of [[smooth function|smooth]] [[sections]]  $\Gamma_X(E)$ of the [[field bundle]];
+
+1. the [[equations of motion]] is the [[partial differential equation]] on elements $\phi \in \Gamma_X(E)$ given by
+
+   $$
+     (\delta_{EL} L)(j^\infty \phi) = 0
+     \,,
+   $$
+
+   where 
+
+   1. $\delta_{EL} \;\colon\; \Omega^{n,0}(J^\infty_X(E)) \to \mathcal{F}^1(J^\infty_X(E))$ denotes the _[[Euler-Lagrange operator]]_
+
+   1. $j^\infty \;\colon\; \Gamma_X(E) \longrightarrow \Gamma_X(J^\infty_X(E))$ denotes [[jet prolongation]].
+
+1. the [[covariant phase space]] $(Sol_{\delta_{EL}L = 0}, d\theta)$ is the subspace $Sol_{\delta_{EL} L = 0} \subset \Gamma_X(E)$ of solutions to the [[equations of motion]], equipped with the canonical [[presymplectic form]].
+
+(...)
+
++-- {: .num_prop }
+###### Proposition
+
+
+=--
 
 
 ## Examples
@@ -39,7 +114,7 @@ In [[physics]], a __scalar field__ is a [[field (physics)|field]] on [[spacetime
 
 ## Redirects
 
-Discussion of scalar fields in cosmology includes
+Discussion of scalar fields in [[cosmology]] includes
 
 * J.W. van Holten, _On single scalar field cosmology_ ([arXiv:1301.1174](http://arxiv.org/abs/1301.1174))
 
