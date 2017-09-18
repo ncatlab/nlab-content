@@ -83,28 +83,23 @@ The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ correspond
 
 This appears for sheaf toposes as ([MacLaneMoerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case as a special case of ([Johnstone, Lemma A4.5.21](#Johnstone)).
 
+The following says that $\mathcal{E}_{\not \not}$ is the smallest subtopos $\mathcal{E}_j$ such that $\emptyset$ is a $j$-sheaf. This property looks innocent but when thinking of $\mathcal{E}$ as a generalized (topological) space becomes, as in the case of locales, rather remarkable.
+
 +-- {: .num_prop #smallest_dense_subtopos}
 ###### Proposition
 $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
 =--
 
-([Johnstone, below Corollary A4.5.20](#Johnstone))
-
-+-- {: .num_prop #largest_topology}
-###### Proposition
-$\not\not$ is the unique largest topology in $\mathcal{E}$ for which $0\rightarrowtail 1$ is closed.
-=--
-
-For a proof see ([Johnstone (1977)](#Johnstone77), p.140).
+([Johnstone 2002, below Corollary A4.5.20](#Johnstone), or [Johnstone 1977](#Johnstone77), p.140)
 
 +-- {: .num_prop #smallest_j-dense}
 ###### Proposition
-$\not \not$ is the least topology $j$ in $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
+$\not \not$ is the smallest topology $j$ in $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
 =--
 
 This is theorem 1.4. in [Caramello (2009)](#Caramello09).
 
-The preceding results imply in particular that **$0$ is always a $\not\not$-sheaf**, i.e. $\mathcal{E}_{\not\not}$ is always a [[dense subtopos]].  In fact, we have:
+From the above we have that $\mathcal{E}_{\not\not}$ is a [[Boolean topos|Boolean]] and [[dense subtopos]]. In fact, even better, we have 
 
 +-- {: .num_prop #boolean_subtopos}
 ###### Proposition
@@ -119,20 +114,24 @@ This Boolean algebra is a reflective sub-poset of the [[Heyting algebra]] of all
 To show this, first note that the Boolean negation in $B$ is the restriction of the Heyting negation in $H$.  Thus, Booleanness of $B$ implies $U=\neg\neg U$ for all $U\in B$.  Thus, it remains to show that if $U=\neg\neg U$ then $U\in B$.  But since $0\in B$ and $B$ is an [[exponential ideal]], by the definition $\neg U = (U\Rightarrow 0)$ it follows that $\neg\neg U\in B$ for any $U$.  Thus, if $U=\neg\neg U$ then $U\in B$ as well.
 =--
 
-Another, slightly more general way, to state this is is the following ([Blass-Scedrov 1983, pp.19](#BlassScedrov83)):
+Another, slightly more general, way to state this is is the following (cf. [Blass-Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9):
 
 +-- {: .num_prop}
 ###### Proposition
-Let $\mathcal{E}$ be a topos and $j$ be a topology such that $j\le\neg\neg$. Then $(\mathcal{E}_j)_{\not\not}\cong\mathcal{E}_{\not\not}$.
+Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [[dense subtopos|dense]], iff $(\mathcal{E}_j)_{\not\not}\cong\mathcal{E}_{\not\not}$.
 =--
+
+As the smallest dense subtopos, $\mathcal{E}_{\not\not}$ becomes important for Lawvere's calculus of [[Aufhebung]]:
 
 +-- {: .num_prop #RelationToAufhebungof01}
 ###### Proposition
 
-Since the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfying $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\subseteq \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos ([Lawvere 91, p. 8](#Lawvere91), for further details cf. the discussion of the conection to [[Aufhebung]] at [[dense subtopos]]).
-
+Since the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfying $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\le \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos. (cf. [Lawvere-Menni 2015](#LawvereMenni15))[^law].
 =--
 
+For further discussion of this relation see at [[dense subtopos]].
+
+[^law]: [Lawvere (1991)](#Lawvere91) says around p.8: "_The base in fact seems in examples to be determined by the given category of Being itself, either as the latter's QD reflection with the extra localness condition supplying the right adjoint pure Becoming inclusion, or else (for example simplicial sets) as the double-negation sheaves with the extra essentialness condition supplying the left adjoint inclusion (in the latter case it is in [[Aufhebung|Hegelian fashion]] always the smallest level for which both 0,1 are sheaves)"_.
 
 
 The next two propositions consider the important special case of $\neg\neg$ on [[presheaf topos|presheaf toposes]]:
@@ -152,7 +151,7 @@ $ Sh_{\not \not}(C) \hookrightarrow [C^{op}, Set]$
 satisfies the [[axiom of choice]].
 =--
 
-This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentially because of this fact, double-negation sheaves on posets are the basic context for [[forcing]] in set theory (since set theorists generally want the axiom of choice to be preserved in forcing models.)
+This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentially because of this fact, double-negation sheaves on posets are the basic context for [[forcing]] in set theory (since set theorists generally want the axiom of choice to be preserved in forcing models). For such a use of double negation in the so called **Cohen topos** see at [[continuum hypothesis]].
 
 
 ## In higher topos theory
@@ -177,6 +176,8 @@ and this is a [[1-epimorphism]] precisely if the [[law of excluded middle]] hold
 
 * [[double negation translation]] 
 
+* [[dense subtopos]]
+
 
 ## References
 
@@ -196,22 +197,17 @@ Discussion in relation to [[cohesion]] and the [[sharp modality]] is in
 
 * {#Lawvere91} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
 
-which has around p. 8:
-
-> The base in fact seems in examples to be determined by the given category of Being itself, either as the latter's QD reflection with the extra localness condition supplying the right adjoint pure Becoming inclusion, or else (for example simplicial sets) as the double-negation sheaves with the extra essentialness condition supplying the left adjoint inclusion (in the latter case it is in Hegelian fashion always the smallest level for which both 0,1 are sheaves).
-
-Here the "Hegelian fashion" refers to what is discussed in detail at _[[Aufhebung]]_.
-
 More detailed discussion of this is in 
 
-* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+* {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, TAC **30** no. 26 (2015) pp 909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
-Other references include
+Other useful references include
 
 * {#BlassScedrov83}[[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
 
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Advances in Mathematics **222** no.6 (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
 
+* {#Caramello12}[[Olivia Caramello]], _Topologies for intermediate logics_ , arXiv:1205.2547 (2012). ([abstract](http://arxiv.org/abs/1205.2547))
 
 * D. S. Mcnab, _Some applications of double-negation sheafification_ , Proc. Edinburgh Math. Soc. **20** (1977) pp.279-285.
 
