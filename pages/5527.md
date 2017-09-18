@@ -748,7 +748,7 @@ Define a filtration on $C \otimes C'$ by
 $$
   F_p(C \otimes C')_{k}
   \coloneqq
-  \oplus_{i \leq p} C_i \otimes C_{k-1}
+  \oplus_{i \leq p} C_i \otimes C_{k-i}
   \,.
 $$
 
