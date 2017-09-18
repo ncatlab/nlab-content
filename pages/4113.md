@@ -39,13 +39,13 @@ What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refini
 
 ## Properties
 
-[[Paracompact spaces]] have the property that every [[open cover]] has a subordinate partition of unity.
+[[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]]
 
 [[Normal spaces]] have the property that every [[locally finite cover]] has a subordinate partition of unity.
 
-The last two are actually characterisations of paracompact resp. normal spaces (reference Bourbaki, Topology Generale - find this!)
+The last two are actually characterisations of paracompact hausdorff resp. normal spaces (reference Bourbaki, Topology Generale - find this!)
 
-Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that analytic manifolds have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic.
+Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic.
 
 
 ### From a non-point finite partition of unity to a partition of unity
