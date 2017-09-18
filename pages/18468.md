@@ -126,10 +126,15 @@ This remaining problem is meant to be solved by passing from plain [[algebras of
 
 > under construction
 
+### A first idea of quantum fields
 
-[[prequantum geometry]]
+We introduce here the basic concepts of _[[Lagrangian field theory]]_, first for [[prequantum field theory]] and then for its [[deformation quantization]] to [[perturbative quantum field theory]]. 
 
-* [[globally hyperbolic spacetime]], [[time orientation]]
+In full beauty these concepts are extremely general; but here the aim is to give a first good idea of the subject, and therefore we present here only a restricted setup, notably assuming that the [[field bundle]] (see below) is an ordinary and [[trivial bundle|trivial]] [[fiber bundle]] over [[Minkowski spacetime]]. This is still general enough to subsume the setup considered in most traditional texts on the subject. 
+
+(In subsequent sections we will eventually discuss more general situations, notably we will eventually allow spacetime to be any [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be an [[infinity-Lie algebroid]]. This is sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge theory]] [[AQFT on curved spacetime|on curved spacetimes]]. It is however still not the most general setup that may be considered.)
+
+
 
 * [[field bundle]], [[jet bundle]], [[field (physics)|field]]
 
@@ -154,6 +159,7 @@ This remaining problem is meant to be solved by passing from plain [[algebras of
 * [[algebra of quantum observables]]
 
 * [[quantum states]]
+
 
 [[S-matrix]]
 
