@@ -51,7 +51,7 @@ By this definition, the [[initial object]] of $C$ is *not* in general connected 
 +-- {: .num_remark}
 ###### Remark
 
-If $C$ is a [[infinitary extensive category]] then for $X \in Ob(C)$ to be connected it is enough to require that $hom(X,-)$ it preserves *binary* coproducts. This is theorem \ref{RespectForBinaryCoproductsIsSufficient} below.
+If $C$ is a [[infinitary extensive category]] then for $X \in Ob(C)$ to be connected it is enough to require that $hom(X,-)$ preserves *binary* coproducts. This is theorem \ref{RespectForBinaryCoproductsIsSufficient} below.
 
 =--
 
@@ -193,7 +193,7 @@ The same method of proof shows that for an arbitrary family of connected spaces 
 
 * Connected objects in [[Top]] are precisely [[connected topological space|connected topological spaces]]. 
 
-* For a [[group]] $G$, connected objects in the category $G Set$ of [[permutation representation]]s are precisely the ([[inhabited set|inhabited]]) transitive $G$-sets. 
+* For a [[group]] $G$, connected objects in the category $G Set$ of [[permutation representation]]s are precisely the ([[inhabited set|inhabited]]) [[transitive action|transitive]] $G$-sets. 
 
 * Objects in a [[locally connected topos]] are [[coproducts]] of connected objects. 
  
