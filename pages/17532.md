@@ -14,7 +14,7 @@
 {:toc}
 
 ## Idea
-This entry is about the category of continuous $G$-sets, for a [[topological group]] $G$. Continuous $G$-sets are sets $X$ with an action of $G$ that is continuous when $X$ is given the discrete topology. This notion is not too useful when $G$ is a "usual" topology group like $SU(2)$. Instead, the topology on the group acts as a filter of subgroups (where the filter contains the open subgroups), and each element of a continuous $G$-set is required to have a "large" stabilizer.
+This entry is about the category of [[G-set|continuous G-sets]], for a [[topological group]] $G$. Continuous $G$-sets are sets $X$ with an action of $G$ that is continuous when $X$ is given the discrete topology.
 
 The category of continuous $G$-sets is a [[Grothendieck topos]], and is closely related to [[Fraenkel-Mostowski models]].
 
@@ -24,7 +24,7 @@ Let $G$ be a topological group.
 +-- {: .num_defn}
 ###### Definition
 
-The **category of continuous $G$-sets** is the [[category]] of sets $X$ equipped with a continuous $G$-action $\mu: G \times X \to X$, where $X$ is given the discrete topology, and the morphisms are the $G$-invariant maps.
+The **category of continuous $G$-sets** is the [[category]] of sets $X$ equipped with a continuous $G$-action $\mu: G \times X \to X$, where $X$ is given the discrete topology, and the morphisms are the $G$-invariant maps. We write the category as $G Set$. In this page, we always let $G$ acts on the left.
 =--
 
 There is a simple characterization of when a $G$-action is continuous.
@@ -35,31 +35,57 @@ Let $G$ be a topological group, and $X$ be a set with a $G$ action $\mu: G \time
 
 +-- {: .proof}
 ###### Proof
-Suppose $\mu$ is continuous. Since $X$ has the discrete topology, $\{x\}$ is an open subset of $X$. So $\mu^{-1}(\{x\})$ is open. So we know the stabilizer
-$$
-  I_x = \{g \in G: g \cdot x = x\} = \{g \in G: (g, x) \in \mu^{-1}(\{x\})\}
-$$
-is open.
-
-Conversely, suppose each such set is open. Given any (necessarily open) subset $A \subseteq X$, its inverse image is
-$$
-  \mu^{-1}(A) = \bigcup_{a \in A} \mu^{-1}(\{a\}).
-$$
-So it suffices to show that each $\mu^{-1}(\{a\})$ is open. We have
-$$
-  \mu^{-1}(\{a\}) = \bigcup_{x \in X}\{x\} \times \{g \in G: g \cdot x = a\}.
-$$
-Thus we only have to show that for each $a, x \in X$, the set $\{g \in G: g \cdot x = a\}$ is open. If there is no such $g$, then this is empty, hence open. Otherwise, let $g_0$ be such that $g_0 \cdot x= a$.  Then we have
-$$
-  \{g \in G: g \cdot x = a\} = g_0 \cdot I_x.
-$$
-Since $g_0$ is a homeomorphism, and $I_x$ is open, this is open. So done.
+See [[G-sets#ContinuousCharacterization|G-sets]].
 =--
 
 ## Equivalent characterizations
 
 ### As a Grothendieck topos
-To be included.
+
++-- {: .num_theorem}
+###### Theorem
+Let $G$ be a topological group. Then the category $G Set$ is equivalent to the topos of [[sheaves]] on the atomic [[site]] $(S(G), At)$, where the objects of $S(G)$ are the open subgroups of $G$, and the morphisms $H \to K$ are the left cosets $a K$ such that $U \subseteq a K a^{-1}$, and all non-empty [[sieves]] are covering.
+
+Alternatively, it is the full subcategory of $G Set$ containing objects of the form $G/U$, where $U$ is an open subgroup. 
+=--
+
++-- {: .proof}
+###### Proof
+See [MacLane and Moerdijk, Chapter III.9](#MaclaneMoerdijk).
+=--
 
 ### As a comonad algebra
 To be included.
+
+### As a classifying topos
+To be included.
+
+## Related Concepts
+* [[G-set]]
+* [[topological G-space]]
+
+## References
+
+Some elementary properties of continuous $G$-sets can be found in books such as
+
+* {#MaclaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]
+
+The formal correspondence between models of [[ZFA]] and toposes of continuous $G$-sets can be found in
+
+* [[Michael Fourman]], _Sheaf models for set theory_ ([pdf](http://www.sciencedirect.com/science/article/pii/0022404980900961/pdf?md5=0de18da810657bf1ba9de7399d224ec5&pid=1-s2.0-0022404980900961-main.pdf))
+
+[[!redirects category of G-sets]]
+[[!redirects category of G set]]
+[[!redirects category of G-set]]
+[[!redirects categories of G-sets]]
+[[!redirects categories of G sets]]
+[[!redirects categories of G-set]]
+[[!redirects categories of G set]]
+[[!redirects category of continuous G sets]]
+[[!redirects category of continuous G-sets]]
+[[!redirects category of continuous G set]]
+[[!redirects category of continuous G-set]]
+[[!redirects categories of continuous G-sets]]
+[[!redirects categories of continuous G sets]]
+[[!redirects categories of continuous G-set]]
+[[!redirects categories of continuous G set]]
