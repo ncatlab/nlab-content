@@ -41,3 +41,9 @@ The starting point of this approach should be given by the settlement of a globa
 ## Derived index theory
 
 Using the methods of [[derived microlocalization]] and Kashiwara and Schapira's [[microlocal formulation of index theory]], one may develop a derived index theory.
+
+## Possible references
+
+One may be very tempted to use the following reference, to get a better way of looking at Deligne (or global analytic motivic) cohomology, in use for the Grothendieck-Riemann-Roch theorem:
+
+* J. P. Pridham, _A K-theoretic interpretation of real Deligne cohomology_ [arXiv](http://arxiv.org/pdf/1411.5705v1.pdf)
