@@ -2,11 +2,11 @@
 Momentum is, according to [[Isaac Newton|Newton]], the 'amount of motion' in an object.  For particles it is  proportional to the object\'s [[mass]] and to its [[velocity]], and thus measured in units of mass times velocity. For photons it is proportional to the frequency of the photon. 
 
 
-In [[Lagrangean mechanics]] (including relativistic and quantum versions), to every (generalized) coordinate $q_i$ one associates a (generalized) momentum 
+In [[Lagrangian mechanics]] (including relativistic and quantum versions), to every (generalized) coordinate $q_i$ one associates a (generalized) momentum 
 $$
 p_i = \frac{\partial L}{\partial \dot{q}^i}
 $$
-where $L$ is the [[Lagrangean]] of the system.  More generally, we can say that $p_i$ is the coordinate of $\mathrm{d}q^i$ in the [[action functional|action form]].
+where $L$ is the [[Lagrangian]] of the system.  More generally, we can say that $p_i$ is the coordinate of $\mathrm{d}q^i$ in the [[action functional|action form]].
 
 If $L$ takes the form $\frac{1}{2} \sum_i m_i \dot{q}_i^2 - U(q_1,\ldots,q_n)$, then we have $p_i = m_i \dot{q}_i$.  Thus, the __linear momentum__ of a point particle in Newtonian mechanics is traditionally *defined* as the intrinsic [[mass]] $m$ times the [[velocity]] $\vec{\dot{q}}$.  However, this breaks down in some situations:
 
