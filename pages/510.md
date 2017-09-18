@@ -199,6 +199,8 @@ about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/
 
 * [[Frank Adams]], _Infinite loop spaces_, Princeton University Press, 1978 
 
+* [[Aaron Mazel-Gee]], _An introduction to spectra_ ([pdf](https://math.berkeley.edu/~aaron/writing/an-introduction-to-spectra.pdf))
+
 [[!redirects spectra]]
 [[!redirects prespectrum]]
 [[!redirects prespectra]]
