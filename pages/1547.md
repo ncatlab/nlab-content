@@ -40,16 +40,16 @@ A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally i
 
 $$+: E \times_X E \to E \qquad \cdot: \mathbb{R} \times E \to E$$ 
 
-(where $E \times_X E$ denotes the [[fiber product]] or pullback of $\pi$ along itself) satisfying vector space axioms. This vector space object must satisfy the _local triviality condition_: there exists an open [[cover]] 
+(where $E \times_X E$ denotes the [[fiber product]] or pullback of $\pi$ along itself) satisfying vector space axioms. This vector space object must satisfy the _local triviality condition_: there exists an [[open cover]] 
 
-$$U = \sum_{\alpha \in A} U_\alpha \rightrightarrows X$$ 
+$$U = \sum_{\alpha \in A} U_\alpha \longrightarrow X$$ 
 
 and an isomorphism from the [[pullback]] $U \times_X E$ to the projection $\pi: U \times V \to U$, 
 
 $$\array{
 U \times V & \overset{\phi}{\leftarrow} & U \times_X E & \to & E\\
  & & \downarrow & & \downarrow \pi \\
- & & U \rightrightarrows X
+ & & U &\longrightarrow& X
 }$$
  
 as vector space objects in $Top/X$. The projection $U \times V \to U$ itself is called a **trivial (vector) bundle** over $U$. 
