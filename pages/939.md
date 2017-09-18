@@ -91,7 +91,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * H. Appelgate, [[Michael Barr]], J. Beck, [[Bill Lawvere]], 
 [[Fred Linton]], E, Manes, [[Myles Tierney]], F. Ulmer, _Seminar on triples and categorical homology theory_, ETH 1966/67, edited by B. Eckmann, LNM 80, Springer 1969.
-(includes article Jon Beck, Distributive laws, pages 119--140).
+(includes article Jon Beck, Distributive laws, pages 119--140). Republished in _Reprints in Theory and Applications of Categories_, No. 18 (2008) pp. 1-303. ([web](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html))
 
 * [[Michael Barr]], [[Charles Wells]], _Toposes, triples and theories_, Springer-Verlag 1985; [web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) 
 
