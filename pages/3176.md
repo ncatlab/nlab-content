@@ -19,7 +19,7 @@
 
 A _logical morphism_ or _logical functor_ is a [[homomorphism]] between [[elementary topos]]es that preserves the structure of a topos as a context for [[logic]]: a functor which preserves all the elementary topos structure, including in particular [[power objects]], but not necessarily any infinitary structure (such as present additionally in a [[sheaf topos]]).  
 
-If instead a topos is regarded as a context for [[geometry]] or specifically [[geometric logic]], then the notion of [[homomorphism]] preserving this is that of a  _[[geometric morphism]]_ . 
+If instead a topos is regarded as a context for [[geometry]] or specifically [[geometric logic]], then the notion of [[homomorphism]] preserving this is that of a  _[[geometric morphism]]_. 
 
 ## Definition
 
@@ -193,7 +193,7 @@ The inverse image is given by [[pullback]] along the given morphism.
 +-- {: .num_prop}
 ###### Remark
 
-When considering the [[internal logic]] of a given [[topos]] $\mathcal{E}$ relations, [[predicate]]s/[[proposition]]s about [[variable]]s of [[type]] $A \in ob \mathcal{E}$ are [[subobject]]s of $A$. Application of function symbols to such expressions corresponds to pullback along the morphism representing the function symbol. The above says that this is, indeed, a _logical operation_ .
+When considering the [[internal logic]] of a given [[topos]] $\mathcal{E}$ relations, [[predicate]]s/[[proposition]]s about [[variable]]s of [[type]] $A \in ob \mathcal{E}$ are [[subobject]]s of $A$. Application of function symbols to such expressions corresponds to pullback along the morphism representing the function symbol. The above says that this is, indeed, a _logical operation_.
 
 =--
 
