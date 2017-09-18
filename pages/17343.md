@@ -1646,7 +1646,7 @@ The following is a general fact about closure of morphisms defined by lifting pr
 +-- {: .num_prop #SerreFibrationHasRightLiftingAgainstJTopRelativeCellComplexes}
 ###### Proposition
 
-A [[Serre fibration]], def. \ref{SerreFibration} has the [[right lifting property]] against all [[retracts]] of $J_{Top}$-[[relative cell complexes]] (def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCellComplex}).
+A [[Serre fibration]], def. \ref{SerreFibration} has the [[right lifting property]] against all [[retracts]] (see remark \ref{RetractsOfMorphisms}) of $J_{Top}$-[[relative cell complexes]] (def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCellComplex}).
 
 =--
 
@@ -7148,7 +7148,6 @@ is also also known as the **strict [[model structure for excisive functors]]**. 
 
 =--
 
-#### Homotopy colimits of topological spaces
 
 One consequence of theorem \ref{ProjectiveModelStructureOnTopologicalFunctors} is the model category theoretic incarnation of the theory of _[[homotopy colimits]]_.
 
@@ -7307,40 +7306,39 @@ $$
 
 It is immediate to check that those sequences $X_\bullet$ which are cofibrant in the projective model structure (theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}) are precisely those for which
 
-1. all component morphisms $f_i$ are cofibrations in $(Top_{cg})_{Quillen}$ or $(Top^{\ast/}_{cg})_{Quillen}$, respectively;
+1. all component morphisms $f_i$ are cofibrations in $(Top_{cg})_{Quillen}$ or $(Top^{\ast/}_{cg})_{Quillen}$, respectively, hence [[retracts]] (remark \ref{RetractsOfMorphisms}) of [[relative cell complex]] inclusions (def. \ref{TopologicalCellComplex});
 
-1. the object $X_0$, and hence all other objects, are cofibrant.
+1. the object $X_0$, and hence all other objects, are cofibrant, hence are [[retracts]] of [[cell complexes]] (def. \ref{TopologicalCellComplex}).
 
 =--
 
-By example \ref{ProjectiveModelStructureOnNSequencesOfTopologicalSpaces} it is immediate that the operation of forming colimits sends projective (acyclic) cofibrations between sequences of topological spaces to (acyclic) cofibrations in the [[classical model structure on pointed topological spaces]]. But in fact it so happens in this example that more is true:
+By example \ref{ProjectiveModelStructureOnNSequencesOfTopologicalSpaces} it is immediate that the operation of forming colimits sends projective (acyclic) cofibrations between sequences of topological spaces to (acyclic) cofibrations in the [[classical model structure on pointed topological spaces]]. On those projectively cofibrant sequences where every map is not just a [[retract]] of a [[relative cell complex]] inclusion, but a plain relative cell complex inclusion, more is true:
 
-+-- {: .num_prop}
+
++-- {: .num_prop #PropertiesOfColimitOverSequencesOfRelativeCellComplexes}
 ###### Proposition
 
 In the [[projective model structure on functors|projective model structures]] on [[cotowers]] in topological spaces, $[\mathbb{N}^{\leq}, (Top_{cg})_{Quillen}]_{proj}$ and $[\mathbb{N}^{\leq}, (Top^{\ast/}_{cg})_{Quillen}]_{proj}$ from def. \ref{ProjectiveModelStructureOnNSequencesOfTopologicalSpaces}, the following holds:
 
-1. the [[colimit]] functor preserves fibrations between sequences of [[relative cell complex]] inclusions;
+1. The [[colimit]] functor preserves fibrations between sequences of [[relative cell complex]] inclusions;
 
-1. Let $I$ be a [[finite category]], let $D_\bullet(-) \colon I \to [\mathbb{N}^{\leq}, Top_{cg}]$ be a finite [[diagram]] of sequences of relative cell complexes. Then every weak equivalence of the form
-
-   $$
-     X_\bullet 
-       \overset{\in W_{proj}}{\longrightarrow}
-     \underset{\longrightarrow}{\lim}_I D
-   $$
-
-   yields a [[weak homotopy equivalence]] of the form
+1. Let $I$ be a [[finite category]], let $D_\bullet(-) \colon I \to [\mathbb{N}^{\leq}, Top_{cg}]$ be a finite [[diagram]] of sequences of relative cell complexes. Then there is a [[weak homotopy equivalence]]
 
    $$
-     \underset{\longrightarrow}{\lim}_{n \in \mathbb{N}} X_n
-      \overset{\in W_{cl}}{\longrightarrow}
-     \underset{\longleftarrow}{\lim}_{i \in I}
-     \left(
-       \underset{\longrightarrow}{\lim}_{n \in \mathbb{N}} D_n(i)
-     \right)
-     \,.
+     \underset{\longrightarrow}{\lim}_{n}
+      \left(
+        \underset{\longleftarrow}{\lim}_i
+        D_n(i)
+      \right)
+       \overset{\in W_{cl}}{\longrightarrow}
+     \underset{\longleftarrow}{\lim}_i
+      \left(
+        \underset{\longrightarrow}{\lim}_{n}
+        D_n(i)
+      \right)
    $$
+
+   from the colimit over the limit sequnce to the limit of the colimits of sequences.
 
 =--
 
@@ -7353,9 +7351,44 @@ Use that both $(Top_{cg})_{Quillen}$ and $(Top^{\ast/}_{cg})_{Quillen}$ are [[co
 
 Regarding the second statement:
 
-We need to show that we have a [[weak homotopy equivalence]]. Since the [[n-spheres]] are [[compact topological spaces]], we may factor the maps out of them through finite stages of the colimit. This reduces the statement to the statement in [[Set]] that [[finite limits]] commute with [[sequential colimits]], and this is a standard fact (finite limits in $Set$ commute with all [[filtered colimits]]).
+This is a model category theoretic version of a standard fact of plain [[category theory]], which says that in the category [[Set]] of sets, [filtered colimits commute with finite limits](commutativity+of+limits+and+colimits#FilteredColimitsCommuteWithFiniteLimits) in that there is an isomorphism of sets of the form which we have to prove is a weak homotopy equivalence of topological spaces. But now using that weak homotopy equivalences are detected by forming [[homotopy groups]] (def. \ref{HomotopyGroupsOftopologicalSpaces}), hence [[hom-sets]] out of [[n-spheres]], and since $n$-[[spheres]] are [[compact topological spaces]], lemma \ref{CompactSubsetsAreSmallInCellComplexes} says that homming out of $n$-spheres commutes over the colimits in question. Moreover, generally homming out of anything commutes over [[limits]], in particular [[finite limits]] (every [[hom functor]] is [[left exact functor]] in the second variable). Therefore we find isomorphisms of the form
+
+$$
+  Hom\left(
+    S^q,
+    \underset{\longrightarrow}{\lim}_{n}
+      \left(
+        \underset{\longleftarrow}{\lim}_i
+        D_n(i)
+      \right)
+  \right)
+  \simeq
+    \underset{\longrightarrow}{\lim}_{n}
+      \left(
+        \underset{\longleftarrow}{\lim}_i
+        Hom\left(S^q, D_n(i)\right)
+      \right) 
+   \overset{\sim}{\longrightarrow}
+    \underset{\longleftarrow}{\lim}_i
+      \left(
+        \underset{\longrightarrow}{\lim}_{n}
+        Hom\left(S^q D_n(i)\right)
+      \right) 
+   \simeq
+    Hom\left(
+     S^q,
+    \underset{\longleftarrow}{\lim}_i
+      \left(
+        \underset{\longrightarrow}{\lim}_{n}
+          D_n(i)
+      \right) 
+   \right)
+$$
+
+and similarly for the [[left homotopies]] $Hom(S^q \times I,-)$ (and similarly for the pointed case). This implies the claimed isomorphism on homotopy groups.
  
 =--
+
 
 
 
