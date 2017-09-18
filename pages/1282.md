@@ -9,15 +9,15 @@
 =--
 =--
 
-This entry lists and discusses examples and special types of [[limit]]s and [[colimit]]s, hence also in particular of [[product]]s and [[coproduct]]s. 
+This entry lists and discusses examples and special types of the [[universal constructions]] called  _[[limits]]_ and _[[colimits]]_.
 
 It starts with very elementary and simple examples and eventually passes to more sophisticated ones.
 
-For examples of the other [[universal construction]]s see
+For examples of the other kinds of [[universal constructions]] see
 
-* [[examples of adjoint functors]]
+* _[[examples of adjoint functors]]_
 
-* [[examples of Kan extensions]]
+* _[[examples of Kan extensions]]_
 
 # Contents
 * table of contents
@@ -28,19 +28,21 @@ For examples of the other [[universal construction]]s see
   {#limcoliminset}
 
 
-In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
+In the [[category]] [[Set]] of [[sets]], the concepts of [[limits]] and [[colimits]] reduce to the familiar operations of 
 
-* [[cartesian product]] of sets
-* [[disjoint union]] of sets
-* [[subset]]s defined by equations
-* [[quotient set]]s of equivalence classes.
+* [[cartesian product]] of sets;
+* [[disjoint union]] of sets;
+* [[subsets]] defined by [[equations]]
+* [[quotient sets]] of [[equivalence relations]].
 
 ### Limits
 
 #### Terminal object
+
 The [[terminal object]] is the limit of the empty functor $F: \emptyset \to Set$. So a [[terminal object]] of $Set$ is a set $X$ such that there is a unqiue function from any set to $X$. This is given by any [[singleton]] set $\{a\}$, where the unique function $Y \to \{a\}$ from any set $Y$ is the function that sends every element in $Y$ to $a$.
 
 #### Product
+
 Given two sets $A, B$, the categorical [[product]] is the limit of the diagram (with no non-trivial maps)
 $$
 \array{
@@ -144,7 +146,7 @@ The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient
     ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists (f : d \to d') with F(f)(x) = x')
   \,.
   $$
-  If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
+  If $D$ is a [[filtered category]] then the relation $\sim$ already is an [[equivalence relation]].
 
 
 ## Limits and colimits of topological spaces
