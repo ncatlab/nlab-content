@@ -27,7 +27,7 @@ The principle should maybe better be called the _Oka-Grauert-Gromov principle/th
 ## Statement in higher complex analytic geometry
  {#StatementInComplexAnalyticGeometry}
 
-In ([Larussen 01](#Larussen01), [Larussen 03](#Larussen03)) this is formulated in terms of [[higher complex analytic geometry]] of [[complex analytic infinity-groupoids]].
+In ([Larusson 01](#Larusson01), [Larusson 03](#Larusson03)) this is formulated in terms of [[higher complex analytic geometry]] of [[complex analytic infinity-groupoids]].
 
 Say that a [[complex manifold]] $X$ is an _[[Oka manifold]]_ if for every [[Stein manifold]] $\Sigma$ the canonical morphism
 
@@ -49,15 +49,19 @@ This is the case precisely if $Maps_{hol}(-,X) \in Psh_\infty(SteinSp)$ satisfie
 +-- {: .num_theorem}
 ###### Theorem
 
-The category of [[complex manifolds]] and [[holomorphic map]]s can be embedded into a Quillen [[model category]] such that:
+The category of [[complex manifolds]] and [[holomorphic maps]] can be embedded into a Quillen [[model category]] such that:
+
 * a holomorphic map is a weak equivalence in the ambient model category if and only if it is a [[homotopy equivalence]] in the usual topological sense.
+
 * a holomorphic map is a fibration if and only if it is an Oka map. In particular, a complex manifold is fibrant if and only if it is an [[Oka manifold]].
+
 * a [[complex manifold]] is cofibrant if and only if it is [[Stein manifold|Stein]].
+
 * a Stein inclusion is a cofibration.
 
 =--
 
-([Larussen 03](#Larussen03))
+([Larusson 03](#Larusson03))
 
 ## Related concepts
 
@@ -95,7 +99,7 @@ Discussion in terms of [[higher complex analytic geometry]] and [[complex analyt
 * {#Larusson01} [[Finnur Lárusson]], _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_ ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103))
 
 
-* {#Larussen03} [[Finnur Lárusson]], _Model structures and the Oka principle_, [math.CV/0303355](http://arxiv.org/abs/math/0303355)
+* {#Larusson03} [[Finnur Lárusson]], _Model structures and the Oka principle_, [math.CV/0303355](http://arxiv.org/abs/math/0303355)
 
 This construction stems from some observations from Jardine, and uses his intermediate model structure from
 
