@@ -9,16 +9,16 @@
 =--
 =--
 
-#Contents#
+# Representable multicategories #
 * table of contents
 {:toc}
 
 ## Idea
 
-The _endomorphism operad_ of a [[monoidal category]] $C$ -- also called the _[[multicategory]] represented by $C$_ -- is an [[operad]] whose $n$-ary operations are the [[morphisms]] out of $n$-fold [[tensor products]] in $C$, i.e.
+The _representable multicategory_ underlying a [[monoidal category]] $C$ is a [[multicategory]] whose $n$-ary morphisms are the [[morphisms]] out of $n$-fold [[tensor products]] in $C$, i.e.
 
 $$
-  End(C)_n(c_1, \cdots, c_n,c)
+  Rep(C)_n(c_1, \cdots, c_n,c)
   := 
   Hom_C(c_1\otimes \cdots \otimes c_n, c)
   \,.
@@ -27,29 +27,28 @@ $$
 
 ## Definition ##
 
-Endomorphism operads come in two flavors, one being a [[planar operad]], the other a [[symmetric operad]]. Mostly the discussion of both cases proceeds in parallel.
+There is one flavor of representable multicategory for every flavor of [[generalized multicategory]].  Here we focus on the two best-known: one for ordinary [[monoidal categories]], giving an ordinary [[multicategory]], and one for [[symmetric monoidal categories]], giving a [[symmetric multicategory]].  Mostly the discussion of both cases proceeds in parallel.
 
-We first give the simple pedestrian definition in terms of explicit components, and then a more abstract definition, which is useful for studying some general properties of endomorphism operads.
+We first give the simple pedestrian definition in terms of explicit components, and then a more abstract definition, which is useful for studying general properties.
 
 ### In terms of components
 
-For $(C,\otimes, I)$ a ([[symmetric monoidal category|symmetric]]) [[monoidal category]], the **endomorphism operad** $End_C(X)$ of $X$ in $C$ is the [[symmetric operad]]/ [[planar operad]] whose colors are the objects of $C$, and whose objects of $n$-ary operations are the [[hom objects]]
+For $(C,\otimes, I)$ a ([[symmetric monoidal category|symmetric]]) [[monoidal category]], the **representable multicategory** $Rep(C)$ is the [[symmetric multicategory|(symmetric)]] [[multicategory]] whose objects are the objects of $C$, and whose objects of $n$-ary operations are the [[hom objects]]
 
 $$
-  End_C(X)(c_1, \cdots, c_n ; c) := 
+  Rep(C)(c_1, \cdots, c_n ; c) := 
 C(c_1 \otimes \cdots \otimes c_n,\; c)
   \,,
 $$
 
 This comes with the obvious composition operation induced from the composition in $C$. Moreover, in the symmetric case there is a canonical action of the symmetric group induced.
 
-For $S \subset Obj(C)$ any subset of objects, the **$S$-colored endomorphism operad** of $C$ is the restriction of the endomorphism operad defined to the set of colors being $S$.
-
-In particular, the endomorphism operad of a single object $c \in C$, often denoted $End(c)$, is the single-colored operad whose $n$-ary operations are the morphisms $c^{\otimes n}\to c$ in $C$.
+The full sub-multicategory of $Rep(C)$ on an object $c\in C$, being a one-object multicategory, is a ([[symmetric operad|symmetric]]) [[operad]], called the [[endomorphism operad]] of $c\in C$.  Note that some authors use the term "endomorphism (colored) operad" for the whole multicategory $Rep(C)$.
+  
 
 ### In terms of Cartesian monads
 
-Let $T : Set \to Set$ be the [[free monoid]] [[monad]]. Notice, from the discussion at _[[multicategory]]_, that a [[planar operad]] $P$ over [[Set]] with set of colors $C$ is equivalently a monad in the [[bicategory]] of $T$-[[spans]]
+Let $T : Set \to Set$ be the [[free monoid]] [[monad]]. Notice, from the discussion at _[[multicategory]]_, that a [[multicategory]] $P$ over [[Set]] with object set $C$ is equivalently a monad in the [[bicategory]] of $T$-[[spans]]
 
 $$
   \array{
@@ -62,7 +61,7 @@ $$
   \,.
 $$
 
-In this language, for $C$ a (strict) [[monoidal category]], the corresponding endomorphism operad is given by the $T$-span
+In this language, for $C$ a (strict) [[monoidal category]], the corresponding representable multicategory is given by the $T$-span
 
 $$
   \array{
@@ -86,38 +85,21 @@ where the top square is defined to be the [[pullback]], as indicated.
 
 
 
-
 ## Properties
 
-### Algebras
-
-The structure of an [[algebra over an operad]] on an object $A \in C$ over $P$ is equivalently a [[morphism]] of operads
-
-$$
- \rho : P \to End(A)
-$$
-
-
-### Relation to categories of operators
+### Adjunction
  {#UniversalCharacterization}
 
-To every [[operad]] $P$ is associated its [[category of operators]] $P^{\otimes}$, which is a monoidal category. 
-
-With that suitably defined, forming endomorphism operads is  [[2-adjunction|right 2-adjoint]] to forming categories of operators. See ([Hermida, theorem 7.3](#Hermida)) for a precise statement in the context of [[non-symmetric operads]] and strict monoidal categories.
-
+The functor $Rep$ is a [[right adjoint]]; its left adjoint constructs the free monoidal category on a multicategory, which is also known as the [[prop]] associated to the multicategory.  See ([Hermida, theorem 7.3](#Hermida)) for a precise statement in the context of [[non-symmetric operads]] and strict monoidal categories.  In the case of semicartesian multicategories, this free monoidal category is the [[category of operators]] associated to the multicategory.
 
 
 ## Related concepts
 
-* [[endomorphism]]
-
-* [[endomorphism monoid]], [[endomorphism ring]]
-
-* **endomorphism operad**
+* [[endomorphism operad]]
 
 ## References
 
-The basic definition of symmetric endomorphism operads is for instance in section 1 of
+The basic definition of representable symmetric multicategories (there called "endomorphism operads") is for instance in section 1 of
 
 * [[Clemens Berger]], [[Ieke Moerdijk]], _Resolution of coloured operads and rectification of homotopy algebras_ Contemp. Math. 431 (2007) 31-58 ([arXiv:0512576](http://arxiv.org/abs/math/0512576))
 
@@ -130,7 +112,7 @@ The notion of _representable multicategory_ is due to
 * [[Claudio Hermida]], _Representable multicategories_, Adv. Math. 151 (2000), no. 2, 164-225 ([pdf](http://wslc.math.ist.utl.pt/s84.www/cs/claudio/articles/rep-mult.pdf))
   {#Hermida}
 
-Discussion of the [[2-adjunction]] with the [[category of operators]]-construction is around theorem 7.3 there. Characterization of representable multicategories by [[fibrations of multicategories]] is in
+Discussion of the [[2-adjunction]] with the left adjoint [[prop]]-construction is around theorem 7.3 there. Characterization of representable multicategories by [[fibrations of multicategories]] is in
 
 * [[Claudio Hermida]], _Fibrations for abstract multicategories_, Field Institute Communications, Volume 43 (2004) ([pdf](http://sqig.math.ist.utl.pt/pub/HermidaC/fib-mul.pdf)) 
 
@@ -138,12 +120,9 @@ and in section 9 of
 
 * [[Claudio Hermida]], _From Coherent Structures to Universal Properties_ ([arXiv:0006161](http://arxiv.org/abs/math/0006161))
 
-
 Discussion in the context of [[generalized multicategories]] is in section 9 of
 
 * G. Cruttwell, [[Mike Shulman]], _A unified framework for generalized multicategories_ Theory and Applications of Categories, Vol. 24, 2010, No. 21, pp 580-655. ([TAC](http://www.tac.mta.ca/tac/volumes/24/21/24-21abs.html))
-
-[[!redirects endomorphism operads]]
 
 [[!redirects representable multicategory]]
 [[!redirects representable multicategories]]
