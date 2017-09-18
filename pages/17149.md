@@ -24,6 +24,8 @@ This page collects links related to
 
 on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]].
 
+Consists of three lectures, each meant to be readable on its own, and there is overlap in topics. It's part III that begins with an actual introduction to stable homotopy theory, and the so the beginner might prefer to start reading with Part III.
+
 The big story emerging here was later further developed in
 
 * [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
