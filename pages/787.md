@@ -125,7 +125,7 @@ The [[Lagrangian dg-submanifolds]] of a Courant Lie 2-algebroid corespond to its
 ### Relation to Atiyah Lie 2-algebroid and quantomorphism 2-group
  {#RelationToAtiyahGroupoids}
 
-We discuss how the following tower of notiosn works
+We discuss how the following tower of notions works
 
 | [[circle n-bundle]] with $(n-1)$-form connection | [[Lie n-algebra]] of [[group of bisections|of bisections]] of Atiyah Lie n-group |
 |--|--|
@@ -219,14 +219,14 @@ $$
 
 For $n = 2$ this is sometimes known in the literature as a "bundle gerbe with connective structure but without curving".
 
-The concretifid [[automorphism ∞-group]] of that truncated connection is the [[n-group]] of [[group of bisections|of bisection]] of the [[Atiyah n-groupoid]]
+The concretified [[automorphism ∞-group]] of that truncated connection is the [[n-group]] of [[group of bisections|of bisection]] of the [[Atiyah n-groupoid]]
 
 $$
   conc \mathbf{Aut}(\nabla_{n-1}) \in Grp(Smooth \infty Grpd)
   \,.
 $$
 
-For $n = 1$ this is the [[group of bisections]] of the [[Atiyah Lie groupoid]] of the underlying [[circle principal bundle]] $\nabla_0 \colon X \to \mathbf{B} U(1)$. Hence its [[Lie differentiation]] is the [[Lie algebra]] of sections of the coresponding [[Atiyah Lie algebroid]].
+For $n = 1$ this is the [[group of bisections]] of the [[Atiyah Lie groupoid]] of the underlying [[circle principal bundle]] $\nabla_0 \colon X \to \mathbf{B} U(1)$. Hence its [[Lie differentiation]] is the [[Lie algebra]] of sections of the corresponding [[Atiyah Lie algebroid]].
 
 For $n = 2$ the [[Lie differentiation]] of this [[Lie 2-group]] is the [[Lie 2-algebra]] of sections of the corresponding Courant Lie 2-algebroid. With a little bit of translation, this is what is shown in ([Collier](#Collier)).
 
